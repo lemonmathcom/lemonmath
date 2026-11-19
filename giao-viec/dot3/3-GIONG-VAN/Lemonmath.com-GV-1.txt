@@ -1,0 +1,1740 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/multiply-4-digit-by-1-digit, g3/nine-times-table, g3/perimeter-of-shapes, g3/right-angles
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath.com-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath.com-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Nhân số có bốn chữ số với số có một chữ số
+description: Em học cách đặt tính và nhân số có bốn chữ số với số có một chữ số, có nhớ và không nhớ, rồi giải bài toán có lời văn.
+minutes: 15
+---
+
+  :::goals
+  - Đặt tính và nhân số có bốn chữ số với số có một chữ số (không nhớ).
+  - Nhân có nhớ: biết viết một chữ số và nhớ sang hàng bên trái.
+  - Kiểm tra kết quả bằng cách ước lượng.
+  - Giải bài toán có lời văn bằng một phép nhân.
+  :::
+
+[[P1·cd64]]
+Một thùng có $1\,213$ quyển vở. Hỏi $3$ thùng như thế có bao nhiêu quyển vở?
+
+[[P2·ca9d]]
+Em đã biết bảng nhân và cách đặt tính nhân với số có ít chữ số hơn. Bài này mở rộng cách làm ấy cho số có bốn chữ số.
+
+## Cùng khám phá
+
+[[P3·34b6]]
+Số $1\,213$ gồm $1$ nghìn, $2$ trăm, $1$ chục và $3$ đơn vị. Ta nhân từng hàng với $3$ rồi ghép lại.
+
+| | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|
+| Số $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Nhân với $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
+
+[[P4·cae1]]
+Ghép lại, em được $3$ nghìn, $6$ trăm, $3$ chục và $9$ đơn vị, tức là $3\,639$. Vậy $3$ thùng có $3\,639$ quyển vở.
+
+[[P5·a18e]]
+Thay vì kẻ bảng, em đặt tính như sau và nhân lần lượt từ phải sang trái:
+
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
+
+  :::theorem Cách nhân số có bốn chữ số với số có một chữ số
+  1. Viết số có một chữ số dưới số có bốn chữ số, thẳng hàng đơn vị.
+  2. Nhân lần lượt từ phải sang trái: hàng đơn vị, hàng chục, hàng trăm, hàng nghìn.
+  3. Nếu tích của một hàng có hai chữ số, viết chữ số hàng đơn vị và **nhớ** chữ số hàng chục sang hàng bên trái. Ở hàng đó, nhân xong rồi **cộng thêm số nhớ**.
+  :::
+
+[[P6·13f0]]
+Vì sao lại nhớ? Ví dụ $15$ đơn vị là $1$ chục và $5$ đơn vị. Em viết $5$ đơn vị ở hàng đơn vị, còn $1$ chục phải để lại cho hàng chục.
+
+## Ví dụ
+
+[[P7·6407]]
+Ta bắt đầu với phép nhân không phải nhớ.
+
+  :::example Nhân không nhớ
+  Tính $2\,121\times4$.
+
+  **Lời giải.** Em đặt tính rồi nhân từng chữ số với $4$, từ phải sang trái:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Hàng đơn vị: $1\times4=4$, viết $4$.
+  - Hàng chục: $2\times4=8$, viết $8$.
+  - Hàng trăm: $1\times4=4$, viết $4$.
+  - Hàng nghìn: $2\times4=8$, viết $8$.
+
+  Vậy $2\,121\times4=8\,484$.
+  :::
+
+[[P8·9cff]]
+Ví dụ sau làm giống hệt, chỉ đổi số.
+
+  :::example Nhân không nhớ, số khác
+  Tính $3\,102\times3$.
+
+  **Lời giải.** Mỗi hàng nhân với $3$ đều nhỏ hơn $10$, nên không cần nhớ:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Hàng đơn vị: $2\times3=6$. Hàng chục: $0\times3=0$. Hàng trăm: $1\times3=3$. Hàng nghìn: $3\times3=9$.
+
+  Vậy $3\,102\times3=9\,306$.
+  :::
+
+[[P9·c317]]
+Bây giờ có hàng cho tích từ $10$ trở lên, em phải nhớ.
+
+  :::example Nhân có nhớ
+  Tính $1\,425\times3$.
+
+  **Lời giải.** Em nhân từng hàng và nhớ khi tích có hai chữ số:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Hàng đơn vị: $5\times3=15$, viết $5$ nhớ $1$.
+  - Hàng chục: $2\times3=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng trăm: $4\times3=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $1\times3=3$, thêm $1$ được $4$, viết $4$.
+
+  Vậy $1\,425\times3=4\,275$.
+
+  **Kiểm tra.** $1\,425$ gần $1\,400$, mà $1\,400\times3=4\,200$. Kết quả $4\,275$ gần $4\,200$, hợp lí.
+  :::
+
+[[P10·254a]]
+Khi gặp chữ số $0$, em vẫn phải cộng số nhớ.
+
+  :::example Nhân có chữ số 0 và có nhớ
+  Tính $2\,308\times4$.
+
+  **Lời giải.** Hàng chục có chữ số $0$, nhưng em vẫn cộng số nhớ từ hàng đơn vị:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Hàng đơn vị: $8\times4=32$, viết $2$ nhớ $3$.
+  - Hàng chục: $0\times4=0$, thêm $3$ được $3$, viết $3$.
+  - Hàng trăm: $3\times4=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $2\times4=8$, thêm $1$ được $9$, viết $9$.
+
+  Vậy $2\,308\times4=9\,232$.
+
+  **Kiểm tra.** $2\,300\times4=9\,200$, gần $9\,232$. Hợp lí.
+  :::
+
+[[P11·fe29]]
+Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+
+  :::example Xếp hộp bút
+  Một kho có $6$ thùng, mỗi thùng đựng $1\,125$ cái bút. Hỏi kho có tất cả bao nhiêu cái bút?
+
+  **Lời giải.** Mỗi thùng có số bút bằng nhau, nên em lấy số bút của một thùng nhân với số thùng:
+  $$1\,125\times6=6\,750\ \text{(cái)}.$$
+  - Hàng đơn vị: $5\times6=30$, viết $0$ nhớ $3$.
+  - Hàng chục: $2\times6=12$, thêm $3$ được $15$, viết $5$ nhớ $1$.
+  - Hàng trăm: $1\times6=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng nghìn: $1\times6=6$, viết $6$.
+
+  Vậy kho có $6\,750$ cái bút.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·85ba]]
+- **Quên cộng số nhớ.** Sai: $1\,425\times3=4\,265$. Vì sao sai: ở hàng chục, em quên cộng $1$ nhớ từ hàng đơn vị. Đúng: $2\times3=6$, thêm $1$ được $7$, nên kết quả là $4\,275$.
+- **Gặp chữ số 0 là bỏ qua số nhớ.** Sai: $2\,308\times4=9\,202$. Vì sao sai: $0\times4=0$ nhưng còn phải cộng $3$ nhớ nên hàng chục là $3$. Đúng: $9\,232$.
+- **Quên đơn vị trong bài toán có lời văn.** Sai: "Đáp số: $6\,750$". Đúng: "Đáp số: $6\,750$ cái bút".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép nhân | multiplication
+  - thừa số | factor
+  - tích | product
+  - đặt tính | set out in columns
+  - nhân có nhớ | multiplication with regrouping
+  - số nhớ | carried digit
+  - hàng nghìn | thousands
+  - hàng trăm | hundreds
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  :::
+
+## Tóm tắt
+
+[[P13·0f65]]
+- Đặt tính thẳng hàng, nhân từng chữ số từ phải sang trái: đơn vị, chục, trăm, nghìn.
+- Tích của một hàng có hai chữ số: viết hàng đơn vị, nhớ hàng chục sang hàng bên trái.
+- Ở hàng tiếp theo, nhân xong rồi cộng thêm số nhớ, kể cả khi chữ số đó là $0$.
+- Kiểm tra bằng cách làm tròn số rồi ước lượng, và nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG ANH ########
+---
+title: Multiplying a four-digit number by a one-digit number
+description: Learn to set out and multiply a four-digit number by a one-digit number, with and without regrouping, then solve word problems.
+minutes: 15
+---
+
+  :::goals
+  - Set out and multiply a four-digit number by a one-digit number (no regrouping).
+  - Multiply with regrouping: write one digit and carry to the place on the left.
+  - Check the answer by estimating.
+  - Solve a word problem with one multiplication.
+  :::
+
+[[P1·a2e2]]
+A box holds $1\,213$ exercise books. How many exercise books are there in $3$ such boxes?
+
+[[P2·9a41]]
+You already know the times tables and how to multiply smaller numbers in columns. This lesson takes the same method to four-digit numbers.
+
+## Let's explore
+
+[[P3·486c]]
+The number $1\,213$ is $1$ thousand, $2$ hundreds, $1$ ten and $3$ ones. We multiply each place by $3$ and put them back together.
+
+| | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|
+| The number $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Times $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
+
+[[P4·d381]]
+Putting them together gives $3$ thousands, $6$ hundreds, $3$ tens and $9$ ones, which is $3\,639$. So $3$ boxes hold $3\,639$ exercise books.
+
+[[P5·9961]]
+Instead of drawing a table, you set out the multiplication like this and multiply from right to left:
+
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
+
+  :::theorem How to multiply a four-digit number by a one-digit number
+  1. Write the one-digit number under the four-digit number, lined up with the ones.
+  2. Multiply from right to left: ones, tens, hundreds, thousands.
+  3. If the product in a place has two digits, write the ones digit and **carry** the tens digit to the place on the left. In that place, multiply first and then **add the carried digit**.
+  :::
+
+[[P6·5bad]]
+Why do we carry? For example, $15$ ones are $1$ ten and $5$ ones. You write the $5$ ones in the ones place, and the $1$ ten must go to the tens place.
+
+## Examples
+
+[[P7·5110]]
+We start with a multiplication that needs no carrying.
+
+  :::example Multiplying without regrouping
+  Work out $2\,121\times4$.
+
+  **Solution.** Set out the multiplication and multiply each digit by $4$, from right to left:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Ones: $1\times4=4$, write $4$.
+  - Tens: $2\times4=8$, write $8$.
+  - Hundreds: $1\times4=4$, write $4$.
+  - Thousands: $2\times4=8$, write $8$.
+
+  So $2\,121\times4=8\,484$.
+  :::
+
+[[P8·4ac4]]
+The next example works in exactly the same way, with different numbers.
+
+  :::example Without regrouping, different numbers
+  Work out $3\,102\times3$.
+
+  **Solution.** Each place times $3$ is less than $10$, so there is nothing to carry:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Ones: $2\times3=6$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $3\times3=9$.
+
+  So $3\,102\times3=9\,306$.
+  :::
+
+[[P9·7cc4]]
+Now some places give a product of $10$ or more, so you must carry.
+
+  :::example Multiplying with regrouping
+  Work out $1\,425\times3$.
+
+  **Solution.** Multiply each place and carry when the product has two digits:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Ones: $5\times3=15$, write $5$ carry $1$.
+  - Tens: $2\times3=6$, add $1$ to get $7$, write $7$.
+  - Hundreds: $4\times3=12$, write $2$ carry $1$.
+  - Thousands: $1\times3=3$, add $1$ to get $4$, write $4$.
+
+  So $1\,425\times3=4\,275$.
+
+  **Check.** $1\,425$ is close to $1\,400$, and $1\,400\times3=4\,200$. The answer $4\,275$ is close to $4\,200$, so it makes sense.
+  :::
+
+[[P10·994a]]
+When you meet a $0$, you still add the carried digit.
+
+  :::example A zero digit and regrouping
+  Work out $2\,308\times4$.
+
+  **Solution.** The tens digit is $0$, but you still add the digit carried from the ones:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Ones: $8\times4=32$, write $2$ carry $3$.
+  - Tens: $0\times4=0$, add $3$ to get $3$, write $3$.
+  - Hundreds: $3\times4=12$, write $2$ carry $1$.
+  - Thousands: $2\times4=8$, add $1$ to get $9$, write $9$.
+
+  So $2\,308\times4=9\,232$.
+
+  **Check.** $2\,300\times4=9\,200$, close to $9\,232$. It makes sense.
+  :::
+
+[[P11·6db5]]
+Last, use multiplication to solve a problem from everyday life.
+
+  :::example Boxes of pens
+  A storeroom has $6$ boxes, and each box holds $1\,125$ pens. How many pens are in the storeroom altogether?
+
+  **Solution.** Every box holds the same number of pens, so multiply the pens in one box by the number of boxes:
+  $$1\,125\times6=6\,750\ \text{(pens)}.$$
+  - Ones: $5\times6=30$, write $0$ carry $3$.
+  - Tens: $2\times6=12$, add $3$ to get $15$, write $5$ carry $1$.
+  - Hundreds: $1\times6=6$, add $1$ to get $7$, write $7$.
+  - Thousands: $1\times6=6$, write $6$.
+
+  So the storeroom has $6\,750$ pens.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·9315]]
+- **Forgetting to add the carried digit.** Wrong: $1\,425\times3=4\,265$. Why it is wrong: in the tens you forgot to add the $1$ carried from the ones. Right: $2\times3=6$, add $1$ to get $7$, so the answer is $4\,275$.
+- **Dropping the carried digit at a zero.** Wrong: $2\,308\times4=9\,202$. Why it is wrong: $0\times4=0$, but you still add the carried $3$, so the tens digit is $3$. Right: $9\,232$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $6\,750$". Right: "Answer: $6\,750$ pens".
+:::
+
+## Key terms
+
+  :::terms
+  - multiplication | phép nhân
+  - factor | thừa số
+  - product | tích
+  - set out in columns | đặt tính
+  - multiplication with regrouping | nhân có nhớ
+  - carried digit | số nhớ
+  - thousands | hàng nghìn
+  - hundreds | hàng trăm
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  :::
+
+## Summary
+
+[[P13·8189]]
+- Line up the places and multiply each digit from right to left: ones, tens, hundreds, thousands.
+- If the product in a place has two digits, write the ones digit and carry the tens digit to the place on the left.
+- In the next place, multiply first and then add the carried digit, even when the digit is $0$.
+- Check by rounding and estimating, and remember to write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/nine-times-table – BẢN TIẾNG VIỆT ########
+---
+title: Bảng nhân 9, bảng chia 9
+description: Em học bảng nhân 9 bằng mẹo lấy 10 lần rồi bớt đi, hoặc cộng thêm 9, rồi dùng bảng nhân 9 để chia cho 9 và giải bài toán.
+minutes: 15
+---
+
+  :::goals
+  - Thuộc và lập được bảng nhân 9.
+  - Dùng bảng nhân 9 để chia cho 9.
+  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
+  :::
+
+[[P1·871c]]
+Mỗi hộp có $9$ cây bút màu. Hỏi $4$ hộp như vậy có tất cả bao nhiêu cây bút màu?
+
+[[P2·59a2]]
+Em có thể cộng $9+9+9+9$, nhưng cộng nhiều lần thì chậm. Bài này giúp em tính nhanh bằng bảng nhân $9$.
+
+## Cùng khám phá
+
+[[P3·ce7a]]
+Mỗi hộp là một nhóm $9$ cây. Ta cộng dần từng hộp:
+
+[[P4·abe4]]
+- $1$ hộp: $9$ cây.
+- $2$ hộp: $9+9=18$ cây.
+- $3$ hộp: $18+9=27$ cây.
+- $4$ hộp: $27+9=36$ cây.
+
+[[P5·ac85]]
+Vậy $4$ hộp có $36$ cây bút màu, tức là $9\times4=36$. Mỗi lần thêm một hộp, tích tăng thêm $9$.
+
+:::graph Trên tia số: mỗi bước nhảy 9 đơn vị
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·579d]]
+Em còn một mẹo hay: $9=10-1$, nên $9\times4=10\times4-4=40-4=36$.
+
+  :::theorem Bảng nhân 9
+  Muốn tính $9\times n$, em lấy $10\times n$ rồi bớt đi $n$. Em cũng có thể lấy $9\times(n-1)$ rồi cộng thêm $9$.
+
+  | $9\times1$ | $9\times2$ | $9\times3$ | $9\times4$ | $9\times5$ |
+  |---|---|---|---|---|
+  | $9$ | $18$ | $27$ | $36$ | $45$ |
+
+  | $9\times6$ | $9\times7$ | $9\times8$ | $9\times9$ | $9\times10$ |
+  |---|---|---|---|---|
+  | $54$ | $63$ | $72$ | $81$ | $90$ |
+  :::
+
+[[P7·9c77]]
+Em để ý: các tích có hai chữ số trong bảng nhân $9$ đều có tổng hai chữ số bằng $9$. Ví dụ $63$ có $6+3=9$.
+
+[[P8·4f94]]
+Bảng chia $9$ suy ra từ bảng nhân $9$. Vì $9\times4=36$ nên $36:9=4$. Em chia $36$ cây bút thành các hộp $9$ cây thì được $4$ hộp.
+
+## Ví dụ
+
+[[P9·7c6f]]
+Ta bắt đầu bằng mẹo lấy $10$ lần rồi bớt đi.
+
+  :::example Tính $9\times4$
+  **Lời giải.** $9$ nhỏ hơn $10$ một đơn vị, nên $9\times4$ bằng $10\times4$ bớt đi $4$:
+  $$9\times4=40-4=36.$$
+  Vậy $9\times4=36$.
+  :::
+
+[[P10·5929]]
+Bây giờ em làm với số lớn hơn.
+
+  :::example Tính $9\times7$
+  **Lời giải.** Lấy $10\times7$ rồi bớt đi $7$:
+  $$9\times7=70-7=63.$$
+  **Kiểm tra.** $6+3=9$, đúng với mẹo tổng hai chữ số.
+
+  Vậy $9\times7=63$.
+  :::
+
+[[P11·5617]]
+Em cũng có thể lấy tích liền trước cộng thêm $9$.
+
+  :::example Tính $9\times8$
+  **Lời giải.** Em biết $9\times7=63$. Thêm một nhóm $9$ nữa:
+  $$9\times8=9\times7+9=63+9=72.$$
+  Vậy $9\times8=72$.
+  :::
+
+[[P12·5d84]]
+Tiếp theo là phép chia.
+
+  :::example Tính $81:9$
+  **Lời giải.** Em tìm số nào nhân $9$ bằng $81$. Trong bảng nhân $9$ ta có $9\times9=81$, nên
+  $$81:9=9.$$
+  **Thử lại.** $9\times9=81$. Đúng.
+
+  Vậy $81:9=9$.
+  :::
+
+[[P13·6c1c]]
+Cuối cùng, em giải một bài toán có lời văn.
+
+  :::example Chia nhóm học sinh
+  Có $72$ học sinh chia thành các nhóm, mỗi nhóm $9$ em. Hỏi chia được bao nhiêu nhóm?
+
+  **Lời giải.** Em chia $72$ học sinh thành các nhóm $9$ em, nên em làm phép chia. Số nhóm là:
+  $$72:9=8\ \text{(nhóm)}.$$
+  **Thử lại.** $9\times8=72$. Đúng.
+
+  Vậy chia được $8$ nhóm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·fa24]]
+- **Lấy thiếu một nhóm.** Sai: $9\times6=45$. Vì sao sai: $45$ là $9\times5$, em chưa đủ $6$ nhóm. Đúng: $9\times6=45+9=54$.
+- **Cộng thay cho nhân.** Sai: $9\times3=12$. Vì sao sai: $9+3$ là phép cộng, còn $9\times3$ là $3$ nhóm $9$. Đúng: $9\times3=27$.
+- **Chia nhầm.** Sai: $81:9=8$. Vì sao sai: $9\times8=72$, không phải $81$. Đúng: $9\times9=81$ nên $81:9=9$.
+- **Quên đơn vị.** Sai: "Đáp số: $8$". Đúng: "Đáp số: $8$ nhóm".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bảng nhân 9 | 9 times table
+  - bảng chia 9 | division facts for 9
+  - thừa số | factor
+  - tích | product
+  - số bị chia | dividend
+  - số chia | divisor
+  - thương | quotient
+  - tổng hai chữ số | sum of the two digits
+  :::
+
+## Tóm tắt
+
+[[P15·64af]]
+- Bảng nhân $9$: $9,\ 18,\ 27,\ 36,\ 45,\ 54,\ 63,\ 72,\ 81,\ 90$.
+- Mẹo: $9\times n=10\times n-n$. Hoặc $9\times n=9\times(n-1)+9$.
+- Các tích có hai chữ số trong bảng nhân $9$ có tổng hai chữ số bằng $9$.
+- Từ $9\times a=b$ ta có $b:9=a$ và $b:a=9$.
+- Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/nine-times-table – BẢN TIẾNG ANH ########
+---
+title: The 9 times table and dividing by 9
+description: Learn the 9 times table with the trick of taking 10 times and subtracting, or adding 9 each time, then use it to divide by 9 and solve word problems.
+minutes: 15
+---
+
+  :::goals
+  - Know and build the 9 times table.
+  - Use the 9 times table to divide by 9.
+  - Solve a word problem with one multiplication or one division.
+  :::
+
+[[P1·b17b]]
+Each box holds $9$ coloured pencils. How many pencils are in $4$ such boxes?
+
+[[P2·cd76]]
+You could add $9+9+9+9$, but adding many times is slow. This lesson helps you work it out quickly with the $9$ times table.
+
+## Let's explore
+
+[[P3·e09e]]
+Each box is a group of $9$ pencils. We add one box at a time:
+
+[[P4·f3a8]]
+- $1$ box: $9$ pencils.
+- $2$ boxes: $9+9=18$ pencils.
+- $3$ boxes: $18+9=27$ pencils.
+- $4$ boxes: $27+9=36$ pencils.
+
+[[P5·d93c]]
+So $4$ boxes hold $36$ pencils, that is $9\times4=36$. Each new box adds $9$ to the product.
+
+:::graph On the number line: every jump is 9
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·e77a]]
+Here is a nice trick: $9=10-1$, so $9\times4=10\times4-4=40-4=36$.
+
+  :::theorem The 9 times table
+  To work out $9\times n$, take $10\times n$ and subtract $n$. You can also take $9\times(n-1)$ and add $9$.
+
+  | $9\times1$ | $9\times2$ | $9\times3$ | $9\times4$ | $9\times5$ |
+  |---|---|---|---|---|
+  | $9$ | $18$ | $27$ | $36$ | $45$ |
+
+  | $9\times6$ | $9\times7$ | $9\times8$ | $9\times9$ | $9\times10$ |
+  |---|---|---|---|---|
+  | $54$ | $63$ | $72$ | $81$ | $90$ |
+  :::
+
+[[P7·1a85]]
+Notice: every two-digit product in the $9$ times table has digits that add up to $9$. For example, $63$ has $6+3=9$.
+
+[[P8·4cd3]]
+The division facts for $9$ come from the $9$ times table. Since $9\times4=36$, we have $36\div9=4$. If you put $36$ pencils into boxes of $9$, you fill $4$ boxes.
+
+## Examples
+
+[[P9·131f]]
+We start with the trick of taking $10$ times and subtracting.
+
+  :::example Work out $9\times4$
+  **Solution.** $9$ is one less than $10$, so $9\times4$ is $10\times4$ minus $4$:
+  $$9\times4=40-4=36.$$
+  So $9\times4=36$.
+  :::
+
+[[P10·4a56]]
+Now a bigger number.
+
+  :::example Work out $9\times7$
+  **Solution.** Take $10\times7$ and subtract $7$:
+  $$9\times7=70-7=63.$$
+  **Check.** $6+3=9$, which fits the digit-sum trick.
+
+  So $9\times7=63$.
+  :::
+
+[[P11·10ca]]
+You can also take the product before and add $9$.
+
+  :::example Work out $9\times8$
+  **Solution.** You know $9\times7=63$. Add one more group of $9$:
+  $$9\times8=9\times7+9=63+9=72.$$
+  So $9\times8=72$.
+  :::
+
+[[P12·87cc]]
+Next, division.
+
+  :::example Work out $81\div9$
+  **Solution.** Ask: which number times $9$ makes $81$? In the $9$ times table, $9\times9=81$, so
+  $$81\div9=9.$$
+  **Check.** $9\times9=81$. Correct.
+
+  So $81\div9=9$.
+  :::
+
+[[P13·4169]]
+Finally, a word problem.
+
+  :::example Groups of pupils
+  $72$ pupils are split into groups of $9$. How many groups are there?
+
+  **Solution.** We split $72$ pupils into groups of $9$, so we divide. The number of groups is:
+  $$72\div9=8\ \text{(groups)}.$$
+  **Check.** $9\times8=72$. Correct.
+
+  So there are $8$ groups.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·b9ea]]
+- **Taking one group too few.** Wrong: $9\times6=45$. Why it is wrong: $45$ is $9\times5$, so you have only $5$ groups. Right: $9\times6=45+9=54$.
+- **Adding instead of multiplying.** Wrong: $9\times3=12$. Why it is wrong: $9+3$ is an addition, but $9\times3$ means $3$ groups of $9$. Right: $9\times3=27$.
+- **Dividing wrongly.** Wrong: $81\div9=8$. Why it is wrong: $9\times8=72$, not $81$. Right: $9\times9=81$, so $81\div9=9$.
+- **Forgetting the unit.** Wrong: "Answer: $8$". Right: "Answer: $8$ groups".
+:::
+
+## Key terms
+
+  :::terms
+  - 9 times table | bảng nhân 9
+  - division facts for 9 | bảng chia 9
+  - factor | thừa số
+  - product | tích
+  - dividend | số bị chia
+  - divisor | số chia
+  - quotient | thương
+  - sum of the two digits | tổng hai chữ số
+  :::
+
+## Summary
+
+[[P15·aaeb]]
+- The $9$ times table: $9,\ 18,\ 27,\ 36,\ 45,\ 54,\ 63,\ 72,\ 81,\ 90$.
+- Trick: $9\times n=10\times n-n$. Or $9\times n=9\times(n-1)+9$.
+- Two-digit products in the $9$ times table have digits that add up to $9$.
+- From $9\times a=b$ we get $b\div9=a$ and $b\div a=9$.
+- Write the unit in the answer; check a division with a multiplication.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/perimeter-of-shapes – BẢN TIẾNG VIỆT ########
+---
+title: Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông
+description: Em học cách tính chu vi bằng cách cộng độ dài các cạnh, rồi dùng cách tính nhanh cho hình chữ nhật và hình vuông.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu chu vi của một hình là độ dài đường bao quanh hình đó.
+  - Tính chu vi hình tam giác và hình tứ giác bằng cách cộng độ dài các cạnh.
+  - Tính nhanh chu vi hình chữ nhật và hình vuông.
+  - Giải bài toán có lời văn về chu vi.
+  :::
+
+[[P1·a668]]
+Mai có một tấm thiệp hình chữ nhật, dài $8$ cm, rộng $5$ cm. Mai muốn dán một sợi dây kim tuyến sát quanh mép tấm thiệp, vừa đủ một vòng. Hỏi sợi dây phải dài bao nhiêu xăng-ti-mét?
+
+[[P2·7898]]
+Em đã biết đo độ dài bằng xăng-ti-mét và biết cộng các số. Chỉ cần hai điều đó là em giải được bài toán này.
+
+## Cùng khám phá
+
+[[P3·362d]]
+Ta bắt đầu với một hình đơn giản hơn là hình tam giác. Chú kiến bò một vòng sát mép tam giác $ABC$, xuất phát từ $A$ rồi về lại $A$.
+
+:::diagram Chú kiến bò một vòng quanh tam giác $ABC$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·0784]]
+Em hãy đi theo chú kiến:
+
+[[P5·8ba1]]
+- Đoạn thứ nhất, từ $A$ đến $B$, dài $4$ cm.
+- Đoạn thứ hai, từ $B$ đến $C$, dài $5$ cm.
+- Đoạn thứ ba, từ $C$ về $A$, dài $3$ cm.
+
+[[P6·2b63]]
+Cả vòng dài $4+5+3=12$ cm. Độ dài cả vòng này gọi là **chu vi** của tam giác.
+
+  :::definition Chu vi
+  **Chu vi** của một hình là độ dài đường bao quanh hình đó.
+
+  Muốn tính chu vi hình tam giác hay hình tứ giác, em cộng độ dài tất cả các cạnh. Các độ dài phải cùng một đơn vị.
+  :::
+
+[[P7·fcd0]]
+Vì sao phải cộng *tất cả* các cạnh? Chú kiến phải đi qua từng cạnh thì mới về được chỗ cũ. Bỏ sót một cạnh là đi chưa hết vòng.
+
+## Tính nhanh cho hình chữ nhật và hình vuông
+
+[[P8·c09a]]
+Ta quay lại tấm thiệp của Mai. Hình chữ nhật có hai cạnh dài bằng nhau và hai cạnh rộng bằng nhau.
+
+:::diagram Tấm thiệp hình chữ nhật dài 8 cm, rộng 5 cm
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·0449]]
+Em cộng cả bốn cạnh: $8+5+8+5=26$ cm. Em thấy có hai cạnh dài và hai cạnh rộng. Vậy ta ghép thành hai cặp "dài và rộng".
+
+[[P10·3713]]
+Một cặp là $8+5=13$ cm, và có hai cặp như thế. Do đó $(8+5)\times2=13\times2=26$ cm. Sợi dây của Mai dài $26$ cm.
+
+[[P11·4c0d]]
+Hình vuông có bốn cạnh bằng nhau. Nếu cạnh dài $6$ cm thì cả vòng là $6+6+6+6=24$ cm, tức là $6\times4=24$ cm.
+
+  :::theorem Chu vi hình chữ nhật và hình vuông
+  - Hình chữ nhật: **chu vi = (chiều dài + chiều rộng) × 2**.
+  - Hình vuông: **chu vi = độ dài cạnh × 4**.
+  :::
+
+[[P12·e303]]
+Hai cách này chỉ là cách cộng gọn hơn, không có gì mới. Nếu quên công thức, em vẫn có thể cộng đủ bốn cạnh để thử lại.
+
+## Ví dụ
+
+[[P13·f9bf]]
+Ta bắt đầu với hình tam giác.
+
+  :::example Chu vi hình tam giác
+  Tam giác $DEF$ có $DE=5$ cm, $EF=6$ cm, $FD=7$ cm. Tính chu vi tam giác $DEF$.
+
+  **Lời giải.** Chu vi là tổng độ dài ba cạnh, nên em cộng ba số đo:
+  $$5+6+7=18\ \text{(cm)}.$$
+  Vậy chu vi tam giác $DEF$ là $18$ cm.
+
+  **Kiểm tra.** $5+6=11$, rồi $11+7=18$. Kết quả khớp.
+  :::
+
+[[P14·3293]]
+Hình tứ giác có bốn cạnh, nên em cộng bốn số.
+
+  :::example Chu vi hình tứ giác
+  Tứ giác $MNPQ$ có $MN=4$ cm, $NP=6$ cm, $PQ=5$ cm, $QM=7$ cm. Tính chu vi.
+
+  **Lời giải.** Em cộng độ dài cả bốn cạnh:
+  $$4+6+5+7=22\ \text{(cm)}.$$
+  Vậy chu vi tứ giác $MNPQ$ là $22$ cm.
+  :::
+
+[[P15·dcb9]]
+Với hình chữ nhật, em dùng cách tính nhanh.
+
+  :::example Chu vi hình chữ nhật
+  Một hình chữ nhật có chiều dài $9$ cm, chiều rộng $4$ cm. Tính chu vi.
+
+  **Lời giải.** Hình chữ nhật có hai cặp cạnh bằng nhau, nên em cộng chiều dài với chiều rộng rồi nhân $2$:
+  $$(9+4)\times2=13\times2=26\ \text{(cm)}.$$
+  Vậy chu vi hình chữ nhật là $26$ cm.
+
+  **Kiểm tra.** Cộng đủ bốn cạnh: $9+4+9+4=26$. Khớp.
+  :::
+
+[[P16·3cd8]]
+Hình vuông còn dễ hơn, vì chỉ cần biết một cạnh.
+
+  :::example Chu vi hình vuông
+  Một hình vuông có cạnh dài $7$ cm. Tính chu vi.
+
+  **Lời giải.** Hình vuông có bốn cạnh bằng nhau, nên em lấy độ dài cạnh nhân $4$:
+  $$7\times4=28\ \text{(cm)}.$$
+  Vậy chu vi hình vuông là $28$ cm.
+
+  **Kiểm tra.** $7+7=14$, rồi $14+14=28$. Khớp.
+  :::
+
+[[P17·3afd]]
+Bây giờ em dùng chu vi để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Làm hàng rào
+  Bác Hùng rào quanh một mảnh vườn hình chữ nhật dài $15$ m, rộng $8$ m. Hỏi hàng rào dài bao nhiêu mét?
+
+  ![Mảnh vườn hình chữ nhật có hàng rào, dài 15 m và rộng 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
+  **Lời giải.** "Rào quanh" nghĩa là đi hết một vòng sát mép vườn, nên em tính chu vi:
+  $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
+  Vậy hàng rào dài $46$ m.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P18·eff8]]
+- **Chỉ cộng một cặp cạnh.** Sai: chu vi hình chữ nhật dài $9$ cm, rộng $4$ cm là $9+4=13$ cm. Vì sao sai: em mới đi nửa vòng. Đúng: $(9+4)\times2=26$ cm.
+- **Nhân hình vuông với 2.** Sai: chu vi hình vuông cạnh $7$ cm là $7\times2=14$ cm. Vì sao sai: hình vuông có $4$ cạnh, không phải $2$. Đúng: $7\times4=28$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $26$". Đúng: "Đáp số: $26$ cm".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - chu vi | perimeter
+  - cạnh | side
+  - hình tam giác | triangle
+  - hình tứ giác | quadrilateral
+  - hình chữ nhật | rectangle
+  - hình vuông | square
+  - chiều dài | length
+  - chiều rộng | width
+  - xăng-ti-mét | centimetre
+  - mét | metre
+  :::
+
+## Tóm tắt
+
+[[P19·162b]]
+- Chu vi của một hình là độ dài đường bao quanh hình đó.
+- Chu vi hình tam giác, hình tứ giác: cộng độ dài tất cả các cạnh.
+- Chu vi hình chữ nhật $=$ (chiều dài $+$ chiều rộng) $\times\,2$. Chu vi hình vuông $=$ cạnh $\times\,4$.
+- Em có thể thử lại bằng cách cộng đủ các cạnh, và nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P20·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/perimeter-of-shapes – BẢN TIẾNG ANH ########
+---
+title: Perimeter of triangles, quadrilaterals, rectangles and squares
+description: Learn to find the perimeter by adding the lengths of the sides, then use a quick method for rectangles and squares.
+minutes: 15
+---
+
+  :::goals
+  - Understand that the perimeter of a shape is the distance all the way round it.
+  - Find the perimeter of a triangle or a quadrilateral by adding the lengths of its sides.
+  - Find the perimeter of a rectangle or a square with a quick method.
+  - Solve word problems about perimeter.
+  :::
+
+[[P1·9a20]]
+Mai has a rectangular card, $8$ cm long and $5$ cm wide. She wants to stick glittery string along the edge of the card, exactly once round. How long must the string be, in centimetres?
+
+[[P2·b3da]]
+You already know how to measure lengths in centimetres and how to add numbers. That is all you need to solve this problem.
+
+## Let's explore
+
+[[P3·3387]]
+We start with a simpler shape: a triangle. An ant walks once round the edge of triangle $ABC$, starting at $A$ and coming back to $A$.
+
+:::diagram An ant walks once round triangle $ABC$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·f21b]]
+Follow the ant:
+
+[[P5·71e6]]
+- The first part, from $A$ to $B$, is $4$ cm long.
+- The second part, from $B$ to $C$, is $5$ cm long.
+- The third part, from $C$ back to $A$, is $3$ cm long.
+
+[[P6·81ac]]
+The whole walk is $4+5+3=12$ cm. This distance all the way round is called the **perimeter** of the triangle.
+
+  :::definition Perimeter
+  The **perimeter** of a shape is the distance all the way round its edge.
+
+  To find the perimeter of a triangle or a quadrilateral, add the lengths of all the sides. The lengths must be in the same unit.
+  :::
+
+[[P7·a72c]]
+Why must we add *all* the sides? The ant must walk along every side to get back to the start. If you miss a side, you have not gone all the way round.
+
+## A quick method for rectangles and squares
+
+[[P8·a7d1]]
+Let's go back to Mai's card. A rectangle has two long sides that are equal and two short sides that are equal.
+
+:::diagram Mai's card: a rectangle 8 cm long and 5 cm wide
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·450d]]
+Add all four sides: $8+5+8+5=26$ cm. There are two long sides and two short sides. So we can make two pairs of "long and short".
+
+[[P10·a67d]]
+One pair is $8+5=13$ cm, and there are two such pairs. So $(8+5)\times2=13\times2=26$ cm. Mai's string must be $26$ cm long.
+
+[[P11·1a39]]
+A square has four equal sides. If one side is $6$ cm, the walk round is $6+6+6+6=24$ cm, which is $6\times4=24$ cm.
+
+  :::theorem Perimeter of a rectangle and of a square
+  - Rectangle: **perimeter = (length + width) × 2**.
+  - Square: **perimeter = side length × 4**.
+  :::
+
+[[P12·2cda]]
+These are just shorter ways of adding. There is nothing new. If you forget the rule, you can still add all four sides to check.
+
+## Examples
+
+[[P13·073f]]
+We begin with a triangle.
+
+  :::example Perimeter of a triangle
+  Triangle $DEF$ has $DE=5$ cm, $EF=6$ cm and $FD=7$ cm. Find the perimeter of triangle $DEF$.
+
+  **Solution.** The perimeter is the total length of the three sides, so we add the three lengths:
+  $$5+6+7=18\ \text{(cm)}.$$
+  So the perimeter of triangle $DEF$ is $18$ cm.
+
+  **Check.** $5+6=11$, then $11+7=18$. It matches.
+  :::
+
+[[P14·1108]]
+A quadrilateral has four sides, so we add four numbers.
+
+  :::example Perimeter of a quadrilateral
+  Quadrilateral $MNPQ$ has $MN=4$ cm, $NP=6$ cm, $PQ=5$ cm and $QM=7$ cm. Find the perimeter.
+
+  **Solution.** We add the lengths of all four sides:
+  $$4+6+5+7=22\ \text{(cm)}.$$
+  So the perimeter of quadrilateral $MNPQ$ is $22$ cm.
+  :::
+
+[[P15·3b47]]
+For a rectangle, we use the quick method.
+
+  :::example Perimeter of a rectangle
+  A rectangle has length $9$ cm and width $4$ cm. Find its perimeter.
+
+  **Solution.** A rectangle has two pairs of equal sides, so we add the length and the width, then multiply by $2$:
+  $$(9+4)\times2=13\times2=26\ \text{(cm)}.$$
+  So the perimeter of the rectangle is $26$ cm.
+
+  **Check.** Add all four sides: $9+4+9+4=26$. It matches.
+  :::
+
+[[P16·899e]]
+A square is even easier, because we only need one side.
+
+  :::example Perimeter of a square
+  A square has side length $7$ cm. Find its perimeter.
+
+  **Solution.** A square has four equal sides, so we multiply the side length by $4$:
+  $$7\times4=28\ \text{(cm)}.$$
+  So the perimeter of the square is $28$ cm.
+
+  **Check.** $7+7=14$, then $14+14=28$. It matches.
+  :::
+
+[[P17·5066]]
+Now let's use perimeter to answer a question from everyday life.
+
+  :::example Building a fence
+  Mr Hung puts a fence round a rectangular garden that is $15$ m long and $8$ m wide. How long is the fence?
+
+  ![A rectangular fenced garden measuring 15 m by 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
+  **Solution.** "Round the garden" means going once all the way round its edge, so we find the perimeter:
+  $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
+  So the fence is $46$ m long.
+  :::
+
+:::warning Mistakes to watch out for
+[[P18·dcbc]]
+- **Adding only one pair of sides.** Wrong: the perimeter of a rectangle $9$ cm long and $4$ cm wide is $9+4=13$ cm. Why it is wrong: you have only gone halfway round. Right: $(9+4)\times2=26$ cm.
+- **Multiplying a square's side by 2.** Wrong: the perimeter of a square with side $7$ cm is $7\times2=14$ cm. Why it is wrong: a square has $4$ sides, not $2$. Right: $7\times4=28$ cm.
+- **Forgetting the unit.** Wrong: "Answer: $26$". Right: "Answer: $26$ cm".
+:::
+
+## Key terms
+
+  :::terms
+  - perimeter | chu vi
+  - side | cạnh
+  - triangle | hình tam giác
+  - quadrilateral | hình tứ giác
+  - rectangle | hình chữ nhật
+  - square | hình vuông
+  - length | chiều dài
+  - width | chiều rộng
+  - centimetre | xăng-ti-mét
+  - metre | mét
+  :::
+
+## Summary
+
+[[P19·dd87]]
+- The perimeter of a shape is the distance all the way round its edge.
+- Perimeter of a triangle or quadrilateral: add the lengths of all the sides.
+- Perimeter of a rectangle $=$ (length $+$ width) $\times\,2$. Perimeter of a square $=$ side $\times\,4$.
+- You can check by adding all the sides, and remember to write the unit in the answer.
+
+## Practice
+
+[[P20·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/right-angles – BẢN TIẾNG VIỆT ########
+---
+title: Góc, góc vuông, góc không vuông
+description: Em học nhận biết góc, đỉnh và cạnh của góc, dùng ê-ke để kiểm tra góc vuông và phân biệt góc vuông với góc không vuông.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết góc, đỉnh và hai cạnh của góc.
+  - Dùng ê-ke để kiểm tra một góc có phải góc vuông hay không.
+  - Tìm góc vuông và góc không vuông trong hình vẽ và đồ vật quanh em.
+  :::
+
+[[P1·cdd0]]
+Góc của quyển vở, góc của tờ giấy và góc của cửa sổ đều có hình dạng giống nhau. Làm sao em biết chắc một góc có phải là "góc vuông" hay không?
+
+[[P2·4b51]]
+Bài này dạy em gọi tên góc và dùng ê-ke để kiểm tra góc vuông.
+
+## Cùng khám phá
+
+[[P3·63b3]]
+Hai cạnh của một cái kéo, hai kim đồng hồ hay hai que gỗ chụm lại ở một điểm tạo thành một **góc**. Điểm chung đó gọi là **đỉnh** của góc, hai tia gọi là hai **cạnh** của góc.
+
+[[P4·d06a]]
+Hình dưới là góc đỉnh $O$, cạnh $OA$ và $OB$. Ở đỉnh $O$ có ký hiệu hình vuông nhỏ: đây là **góc vuông**.
+
+:::diagram Góc vuông đỉnh O, cạnh OA và OB
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·b4c0]]
+Hình tiếp theo cũng là một góc đỉnh $O$ nhưng hai cạnh $OC$ và $OD$ mở ra theo cách khác. Em thấy nó nhỏ hơn góc vuông; đây là **góc không vuông**.
+
+:::diagram Góc không vuông đỉnh O, cạnh OC và OD
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·5fe2]]
+Em không nên chỉ nhìn bằng mắt. Ta dùng **ê-ke**, có một góc vuông, để kiểm tra:
+
+[[P7·bf5e]]
+1. Đặt đỉnh góc vuông của ê-ke trùng với đỉnh của góc cần kiểm tra.
+2. Cho một cạnh của ê-ke trùng với một cạnh của góc.
+3. Nhìn cạnh còn lại của ê-ke: nếu trùng với cạnh còn lại của góc thì đó là góc vuông.
+
+  :::theorem Góc vuông và góc không vuông
+  Góc có đỉnh và hai cạnh. Góc là **góc vuông** khi khớp đúng với góc của ê-ke: hai cạnh trùng hai cạnh của ê-ke. Nếu một cạnh của ê-ke hở ra hoặc lệch vào trong thì đó là **góc không vuông**.
+
+  Độ dài hai cạnh không làm thay đổi góc có vuông hay không.
+  :::
+
+[[P8·4f2e]]
+Ví dụ, một góc có hai cạnh dài $3$ cm và một góc có hai cạnh dài $6$ cm đều là góc vuông nếu khớp với ê-ke.
+
+## Ví dụ
+
+[[P9·0634]]
+Ta bắt đầu bằng cách đọc tên đỉnh và cạnh của góc.
+
+  :::example Đỉnh và cạnh
+  Một góc có đỉnh $E$, hai cạnh là $ED$ và $EF$. Chỉ ra đỉnh và các cạnh của góc.
+
+  **Lời giải.** Đỉnh là điểm chung của hai cạnh, nên đỉnh là $E$. Hai cạnh là $ED$ và $EF$.
+
+  Vậy góc đỉnh $E$, cạnh $ED$ và $EF$.
+  :::
+
+[[P10·dc38]]
+Bây giờ em dùng ê-ke để kiểm tra.
+
+  :::example Dùng ê-ke
+  Lan đặt ê-ke vào một góc, thấy cạnh còn lại của ê-ke trùng với cạnh còn lại của góc. Nam đặt ê-ke vào một góc khác, thấy cạnh còn lại của ê-ke hở ra bên ngoài góc. Góc nào là góc vuông?
+
+  **Lời giải.** Góc là góc vuông khi hai cạnh trùng hai cạnh của ê-ke. Góc của Lan khớp với ê-ke, còn góc của Nam bị hở.
+
+  Vậy góc của Lan là góc vuông, góc của Nam không phải góc vuông.
+  :::
+
+[[P11·d5c7]]
+Tiếp theo, em tìm góc vuông quanh mình.
+
+  :::example Góc vuông quanh em
+  Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ giấy hình chữ nhật, hai kim đồng hồ lúc $3$ giờ đúng, hai kim đồng hồ lúc $1$ giờ đúng, mái nhà hình chữ A?
+
+  ![Góc tờ giấy, đồng hồ 3 giờ, đồng hồ 1 giờ và mái nhà chữ A](/assets/img/g3/g3-right-angles-01.svg)
+
+  **Lời giải.** Em kiểm tra từng đồ vật bằng ê-ke.
+
+  - Góc tờ giấy hình chữ nhật khớp ê-ke: góc vuông.
+  - Hai kim đồng hồ lúc $3$ giờ đúng khớp ê-ke: góc vuông.
+  - Hai kim đồng hồ lúc $1$ giờ đúng chụm lại hẹp hơn ê-ke: góc không vuông.
+  - Hai mái nhà chữ A chụm lại hẹp hơn ê-ke: góc không vuông.
+
+  Vậy góc tờ giấy và hai kim lúc $3$ giờ là góc vuông.
+  :::
+
+[[P12·0c5c]]
+Bây giờ em tự vẽ một góc vuông.
+
+  :::example Vẽ góc vuông
+  Hãy vẽ góc vuông đỉnh $O$ bằng ê-ke.
+
+  **Lời giải.** Em làm theo các bước:
+
+  1. Chấm điểm $O$ rồi đặt đỉnh góc vuông của ê-ke trùng với $O$.
+  2. Kẻ một đoạn thẳng $OA$ dọc theo một cạnh của ê-ke.
+  3. Kẻ một đoạn thẳng $OB$ dọc theo cạnh còn lại của ê-ke.
+
+  Vậy góc đỉnh $O$, cạnh $OA$ và $OB$ là góc vuông.
+  :::
+
+[[P13·efa2]]
+Cuối cùng, em tìm góc vuông trong các chữ cái.
+
+  :::example Chữ cái
+  Trong hai chữ cái $L$ và $V$ viết đẹp, chữ nào có góc vuông?
+
+  **Lời giải.** Hai nét của chữ $L$ gặp nhau ở góc vuông. Hai nét của chữ $V$ chụm lại nhỏ hơn góc vuông.
+
+  Vậy chữ $L$ có góc vuông, chữ $V$ không có.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·dd18]]
+- **Cho rằng cạnh dài hơn thì góc lớn hơn.** Sai: góc có cạnh $6$ cm lớn hơn góc có cạnh $3$ cm. Vì sao sai: độ lớn của góc không phụ thuộc độ dài cạnh. Đúng: hai góc vuông luôn "bằng nhau" dù cạnh dài ngắn khác nhau.
+- **Chỉ nhìn bằng mắt.** Sai: "Trông giống góc vuông nên là góc vuông". Vì sao sai: mắt dễ nhầm với góc gần vuông. Đúng: dùng ê-ke để kiểm tra.
+- **Đặt ê-ke sai đỉnh.** Sai: đặt góc vuông của ê-ke ở chỗ khác. Vì sao sai: đỉnh ê-ke phải trùng đỉnh của góc cần kiểm tra. Đúng: đặt đỉnh trùng đỉnh rồi cho một cạnh trùng một cạnh.
+- **Nhầm đỉnh.** Sai: góc đỉnh $O$, cạnh $OA$ và $OB$ có đỉnh là $A$. Vì sao sai: đỉnh là điểm chung của hai cạnh. Đúng: đỉnh là $O$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - góc | angle
+  - đỉnh | vertex
+  - cạnh | side
+  - góc vuông | right angle
+  - góc không vuông | angle that is not a right angle
+  - ê-ke | set square
+  - kiểm tra | check
+  - trùng nhau | match exactly
+  :::
+
+## Tóm tắt
+
+[[P15·fa89]]
+- Góc có một đỉnh và hai cạnh; đỉnh là điểm chung của hai cạnh.
+- Dùng ê-ke để kiểm tra góc vuông: hai cạnh của góc phải trùng hai cạnh của ê-ke.
+- Góc không khớp ê-ke là góc không vuông.
+- Độ dài cạnh không làm đổi việc góc có vuông hay không.
+- Đừng chỉ nhìn bằng mắt; hãy dùng ê-ke.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/right-angles – BẢN TIẾNG ANH ########
+---
+title: Angles: right angles and non-right angles
+description: Learn to recognise an angle, its vertex and sides, use a set square to test for a right angle and tell right angles from other angles.
+minutes: 15
+---
+
+  :::goals
+  - Recognise an angle, its vertex and its two sides.
+  - Use a set square to test whether an angle is a right angle.
+  - Find right angles and other angles in pictures and in objects around you.
+  :::
+
+[[P1·d155]]
+The corner of a book, the corner of a sheet of paper and the corner of a window all have the same shape. How can you be sure that an angle is a "right angle"?
+
+[[P2·398d]]
+This lesson teaches you to name angles and to use a set square to test for a right angle.
+
+## Let's explore
+
+[[P3·ee89]]
+The two blades of scissors, the two hands of a clock or two sticks joined at one point make an **angle**. The shared point is the **vertex** of the angle, and the two lines are its two **sides**.
+
+[[P4·0917]]
+The picture below shows the angle with vertex $O$ and sides $OA$ and $OB$. At the vertex $O$ there is a small square mark: this is a **right angle**.
+
+:::diagram A right angle with vertex O and sides OA and OB
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·3fd7]]
+The next picture is also an angle with vertex $O$, but its sides $OC$ and $OD$ open in a different way. It looks smaller than a right angle; this is an angle that is **not a right angle**.
+
+:::diagram An angle that is not a right angle, vertex O, sides OC and OD
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·fb42]]
+Do not just judge by eye. We use a **set square**, which has one right angle, to test:
+
+[[P7·c2e9]]
+1. Put the right-angled corner of the set square on the vertex of the angle to test.
+2. Line up one side of the set square with one side of the angle.
+3. Look at the other side of the set square: if it lines up with the other side of the angle, the angle is a right angle.
+
+  :::theorem Right angles and other angles
+  An angle has a vertex and two sides. An angle is a **right angle** when it fits the corner of a set square exactly: both sides line up with both sides of the set square. If a side of the set square sticks out or falls inside, the angle is **not a right angle**.
+
+  The lengths of the two sides do not change whether the angle is a right angle.
+  :::
+
+[[P8·14ec]]
+For example, an angle with sides $3$ cm long and an angle with sides $6$ cm long are both right angles if they fit the set square.
+
+## Examples
+
+[[P9·5ecb]]
+We start by naming the vertex and sides of an angle.
+
+  :::example Vertex and sides
+  An angle has vertex $E$ and sides $ED$ and $EF$. State the vertex and the sides.
+
+  **Solution.** The vertex is the point shared by the two sides, so the vertex is $E$. The two sides are $ED$ and $EF$.
+
+  So the angle has vertex $E$ and sides $ED$ and $EF$.
+  :::
+
+[[P10·d126]]
+Now use a set square to test.
+
+  :::example Using a set square
+  Lan puts a set square on an angle and sees that the other side of the set square lines up with the other side of the angle. Nam puts a set square on a different angle and sees that the other side of the set square sticks out of the angle. Which angle is a right angle?
+
+  **Solution.** An angle is a right angle when both sides line up with the set square. Lan's angle fits the set square, and Nam's angle leaves a gap.
+
+  So Lan's angle is a right angle, and Nam's angle is not.
+  :::
+
+[[P11·7fe1]]
+Next, find right angles around you.
+
+  :::example Right angles around you
+  Which of these has a right angle: a corner of a rectangular sheet of paper, the two hands of a clock at exactly $3$ o'clock, the two hands of a clock at exactly $1$ o'clock, a roof shaped like the letter A?
+
+  ![A paper corner, clocks at 3 and 1 o'clock, and an A-shaped roof](/assets/img/g3/g3-right-angles-01.svg)
+
+  **Solution.** Test each one with a set square.
+
+  - A corner of a rectangular sheet fits the set square: a right angle.
+  - The clock hands at exactly $3$ o'clock fit the set square: a right angle.
+  - The clock hands at exactly $1$ o'clock are closer together than the set square: not a right angle.
+  - The two sides of an A-shaped roof are closer together than the set square: not a right angle.
+
+  So the corner of the sheet and the clock hands at $3$ o'clock are right angles.
+  :::
+
+[[P12·a4be]]
+Now draw a right angle yourself.
+
+  :::example Drawing a right angle
+  Draw a right angle with vertex $O$ using a set square.
+
+  **Solution.** Follow these steps:
+
+  1. Mark a point $O$ and put the right-angled corner of the set square on $O$.
+  2. Draw a line segment $OA$ along one side of the set square.
+  3. Draw a line segment $OB$ along the other side of the set square.
+
+  So the angle with vertex $O$ and sides $OA$ and $OB$ is a right angle.
+  :::
+
+[[P13·fd46]]
+Finally, find right angles in letters.
+
+  :::example Letters
+  Of the neatly written letters $L$ and $V$, which has a right angle?
+
+  **Solution.** The two strokes of the letter $L$ meet at a right angle. The two strokes of the letter $V$ come together at less than a right angle.
+
+  So the letter $L$ has a right angle and the letter $V$ does not.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·2079]]
+- **Thinking longer sides mean a bigger angle.** Wrong: the angle with sides $6$ cm is bigger than the angle with sides $3$ cm. Why it is wrong: the size of an angle does not depend on the length of its sides. Right: two right angles are always the same, however long the sides are.
+- **Judging only by eye.** Wrong: "It looks like a right angle, so it is one". Why it is wrong: the eye is easily fooled by an angle that is nearly right. Right: test it with a set square.
+- **Putting the set square in the wrong place.** Wrong: placing the right-angled corner somewhere else. Why it is wrong: the corner of the set square must sit on the vertex of the angle to test. Right: put the corner on the vertex, then line up one side with one side.
+- **Mixing up the vertex.** Wrong: the angle with vertex $O$ and sides $OA$ and $OB$ has vertex $A$. Why it is wrong: the vertex is the point shared by both sides. Right: the vertex is $O$.
+:::
+
+## Key terms
+
+  :::terms
+  - angle | góc
+  - vertex | đỉnh
+  - side | cạnh
+  - right angle | góc vuông
+  - angle that is not a right angle | góc không vuông
+  - set square | ê-ke
+  - check | kiểm tra
+  - match exactly | trùng nhau
+  :::
+
+## Summary
+
+[[P15·a643]]
+- An angle has one vertex and two sides; the vertex is the point shared by both sides.
+- Use a set square to test for a right angle: both sides of the angle must line up with both sides of the set square.
+- An angle that does not fit the set square is not a right angle.
+- The length of the sides does not change whether an angle is a right angle.
+- Do not judge by eye alone; use a set square.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,951 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-LG-3   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-LG-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – chanh106-LG-3
+Người làm: tài khoản chanh106. Gói này có 34 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/chanh106-LG-3-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/chanh106-LG-3-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g11/grouped-data (9 bài tập)
+- g11/line-perpendicular-plane (9 bài tập)
+- g11/line-plane-parallel (8 bài tập)
+- g11/lines-planes-space (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g11/grouped-data
+Bài học: Mẫu số liệu ghép nhóm / Grouped data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Chiều cao (cm) của $20$ bạn: $152, 158, 161, 165, 149, 170, 155, 162, 168, 157, 160, 173, 154, 163, 166, 159, 151, 164, 169, 156$. Lập bảng tần số ghép nhóm với các nhóm $[145; 150)$, $[150; 155)$, $[155; 160)$, $[160; 165)$, $[165; 170)$, $[170; 175)$.
+
+[LỜI GIẢI CŨ – VI]
+Đếm từng nhóm ta được các tần số $1, 3, 5, 5, 4, 2$; chẳng hạn nhóm $[150; 155)$ gồm $152, 154, 151$. Tổng $1+3+5+5+4+2=20$.
+
+**Đáp số.** Các tần số là $1, 3, 5, 5, 4, 2$.
+
+[ĐỀ – EN]
+The heights (in cm) of $20$ students are $152, 158, 161, 165, 149, 170, 155, 162, 168, 157, 160, 173, 154, 163, 166, 159, 151, 164, 169, 156$. Build a grouped frequency table with the classes $[145, 150)$, $[150, 155)$, $[155, 160)$, $[160, 165)$, $[165, 170)$, $[170, 175)$.
+
+[LỜI GIẢI CŨ – EN]
+Counting class by class gives the frequencies $1, 3, 5, 5, 4, 2$; for example the class $[150, 155)$ contains $152, 154, 151$. The total is $1+3+5+5+4+2=20$.
+
+**Answer.** The frequencies are $1, 3, 5, 5, 4, 2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho mẫu số liệu ghép nhóm cỡ $50$ về chiều cao (cm): $[140; 150)$ có $5$, $[150; 160)$ có $12$, $[160; 170)$ có $18$, $[170; 180)$ có $10$, $[180; 190)$ có $5$ người. Tính tần số tương đối và tần số tích luỹ của từng nhóm.
+
+[LỜI GIẢI CŨ – VI]
+Tần số tương đối: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (tổng $100\%$). Tần số tích luỹ: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
+
+**Đáp số.** Tần số tương đối: $10\%, 24\%, 36\%, 20\%, 10\%$; tần số tích luỹ: $5, 17, 35, 45, 50$.
+
+[ĐỀ – EN]
+Grouped heights (in cm) of a sample of size $50$: $[140, 150)$ has $5$, $[150, 160)$ has $12$, $[160, 170)$ has $18$, $[170, 180)$ has $10$, $[180, 190)$ has $5$ people. Find the relative frequency and cumulative frequency of each class.
+
+[LỜI GIẢI CŨ – EN]
+Relative frequencies: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (total $100\%$). Cumulative frequencies: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
+
+**Answer.** Relative frequencies: $10\%, 24\%, 36\%, 20\%, 10\%$; cumulative frequencies: $5, 17, 35, 45, 50$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hai bảng ghép nhóm cân nặng (kg) sau có lỗi. Hãy chỉ ra lỗi và sửa lại. a) $[40; 45)$, $[45; 50]$, $[50; 55)$, $[55; 60)$. b) $[40; 45)$, $[45; 50)$, $[55; 60)$, $[60; 65)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Nhóm $[45; 50]$ chứa cả $50$, mà $50$ cũng thuộc $[50; 55)$ nên bị đếm hai lần: chồng lấn. Sửa thành $[45; 50)$. b) Thiếu nhóm $[50; 55)$: các số liệu từ $50$ đến dưới $55$ không thuộc nhóm nào. Sửa bằng cách thêm nhóm $[50; 55)$.
+
+**Đáp số.** a) Chồng lấn tại $50$; sửa $[45; 50)$. b) Thiếu $[50; 55)$; thêm nhóm này.
+
+[ĐỀ – EN]
+Each of the following grouped tables of weights (in kg) has an error. Point out the error and correct it. a) $[40, 45)$, $[45, 50]$, $[50, 55)$, $[55, 60)$. b) $[40, 45)$, $[45, 50)$, $[55, 60)$, $[60, 65)$.
+
+[LỜI GIẢI CŨ – EN]
+a) The class $[45, 50]$ contains $50$, and $50$ also belongs to $[50, 55)$, so it is counted twice: the classes overlap. Correct it to $[45, 50)$. b) The class $[50, 55)$ is missing: values from $50$ up to but not including $55$ belong to no class. Correct it by adding the class $[50, 55)$.
+
+**Answer.** a) Overlap at $50$; correct to $[45, 50)$. b) $[50, 55)$ is missing; add this class.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giả sử lượng nước sinh hoạt tiêu thụ mỗi tháng ($\text{m}^3$) của $50$ hộ gia đình được ghép nhóm: $[0; 5)$ có $4$ hộ, $[5; 10)$ có $16$ hộ, $[10; 15)$ có $18$ hộ, $[15; 20)$ có $9$ hộ, $[20; 25)$ có $3$ hộ. Có bao nhiêu phần trăm số hộ dùng dưới $15\ \text{m}^3$ một tháng?
+
+[LỜI GIẢI CŨ – VI]
+Số hộ dùng dưới $15\ \text{m}^3$ là $4+16+18=38$, chiếm $\dfrac{38}{50}\cdot100\%=76\%$.
+
+**Đáp số.** $76\%$.
+
+[ĐỀ – EN]
+Suppose the monthly household water use (in $\text{m}^3$) of $50$ households is grouped as: $[0, 5)$ has $4$ households, $[5, 10)$ has $16$, $[10, 15)$ has $18$, $[15, 20)$ has $9$, $[20, 25)$ has $3$. What percentage of the households use less than $15\ \text{m}^3$ a month?
+
+[LỜI GIẢI CŨ – EN]
+The number of households using less than $15\ \text{m}^3$ is $4+16+18=38$, which is $\dfrac{38}{50}\cdot100\%=76\%$.
+
+**Answer.** $76\%$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 160)$ có $10$, $[160; 165)$ có $14$, $[165; 170)$ có $9$, $[170; 175)$ có $3$ bạn. a) Viết giá trị đại diện của từng nhóm. b) Giả sử các bạn trong mỗi nhóm có chiều cao phân bố đều, hãy ước lượng số bạn cao dưới $162{,}5$ cm.
+
+[LỜI GIẢI CŨ – VI]
+a) Các giá trị đại diện là $152{,}5$, $157{,}5$, $162{,}5$, $167{,}5$, $172{,}5$. b) Các nhóm $[150; 155)$ và $[155; 160)$ nằm hoàn toàn dưới $162{,}5$ cm, có $4+10=14$ bạn. Nửa dưới của nhóm $[160; 165)$ có khoảng $\dfrac{14}{2}=7$ bạn. Vậy ước lượng là $14+7=21$ bạn.
+
+**Đáp số.** a) $152{,}5; 157{,}5; 162{,}5; 167{,}5; 172{,}5$; b) khoảng $21$ bạn.
+
+[ĐỀ – EN]
+The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has $10$, $[160, 165)$ has $14$, $[165, 170)$ has $9$, $[170, 175)$ has $3$ students. a) Write the representative value of each class. b) Assuming that the heights in each class are spread evenly, estimate the number of students shorter than $162.5$ cm.
+
+[LỜI GIẢI CŨ – EN]
+a) The representative values are $152.5$, $157.5$, $162.5$, $167.5$, $172.5$. b) The classes $[150, 155)$ and $[155, 160)$ lie entirely below $162.5$ cm and contain $4+10=14$ students. The lower half of the class $[160, 165)$ contains about $\dfrac{14}{2}=7$ students. So the estimate is $14+7=21$ students.
+
+**Answer.** a) $152.5; 157.5; 162.5; 167.5; 172.5$; b) about $21$ students.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho bảng thời gian đi học ở bài ($[0; 10)$: $6$; $[10; 20)$: $14$; $[20; 30)$: $12$; $[30; 40)$: $6$; $[40; 50)$: $2$). Xét tính đúng sai của các mệnh đề sau:
+
+a) Nhóm $[10; 20)$ có tần số lớn nhất.
+
+b) Tần số tương đối của nhóm $[20; 30)$ là $12\%$.
+
+c) Có đúng $20$ bạn đi chưa đến $20$ phút.
+
+d) Tần số tích luỹ của nhóm $[30; 40)$ là $38$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: tần số lớn nhất là $14$.
+
+b) **Sai**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ là tần số, không phải tần số tương đối.
+
+c) **Đúng**: $6+14=20$.
+
+d) **Đúng**: $6+14+12+6=38$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Take the journey-time table from the lesson ($[0, 10)$: $6$; $[10, 20)$: $14$; $[20, 30)$: $12$; $[30, 40)$: $6$; $[40, 50)$: $2$). Decide whether each statement is true or false.
+
+a) The class $[10, 20)$ has the greatest frequency.
+
+b) The relative frequency of the class $[20, 30)$ is $12\%$.
+
+c) Exactly $20$ students take less than $20$ minutes.
+
+d) The cumulative frequency of the class $[30, 40)$ is $38$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: the greatest frequency is $14$.
+
+b) **False**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ is the frequency, not the relative frequency.
+
+c) **True**: $6+14=20$.
+
+d) **True**: $6+14+12+6=38$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một mẫu số liệu ghép nhóm cỡ $50$ có các tần số tích luỹ của năm nhóm liên tiếp lần lượt là $5, 17, 38, 46, 50$. Tính tần số của nhóm thứ ba.
+
+[LỜI GIẢI CŨ – VI]
+Tần số của nhóm thứ ba là $38-17=21$.
+
+**Đáp số.** $21$.
+
+[ĐỀ – EN]
+A grouped data set of size $50$ has cumulative frequencies $5, 17, 38, 46, 50$ for five consecutive classes. Find the frequency of the third class.
+
+[LỜI GIẢI CŨ – EN]
+The frequency of the third class is $38-17=21$.
+
+**Answer.** $21$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Chứng minh rằng nếu các nhóm của một mẫu số liệu ghép nhóm có cùng độ rộng $h$ thì các giá trị đại diện của chúng lập thành một cấp số cộng có công sai $h$.
+
+[LỜI GIẢI CŨ – VI]
+Giá trị đại diện của nhóm thứ $i$ là $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. Nhóm kế tiếp bắt đầu từ $a_i+h$ nên $c_{i+1}=a_i+h+\dfrac h2$. Do đó $c_{i+1}-c_i=h$ không đổi, nên $(c_i)$ là cấp số cộng có công sai $h$.
+
+**Đáp số.** Các giá trị đại diện lập thành cấp số cộng công sai $h$.
+
+[ĐỀ – EN]
+Prove that if the classes of a grouped data set all have the same width $h$, then their representative values form an arithmetic progression with common difference $h$.
+
+[LỜI GIẢI CŨ – EN]
+The representative value of class $i$ is $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. The next class starts at $a_i+h$, so $c_{i+1}=a_i+h+\dfrac h2$. Hence $c_{i+1}-c_i=h$ is constant, so $(c_i)$ is an arithmetic progression with common difference $h$.
+
+**Answer.** The representative values form an arithmetic progression with common difference $h$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một bảng tần số ghép nhóm có năm nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$, $[30; 40)$, $[40; 50)$ bị mờ một số ô. Biết nhóm $[0; 10)$ có tần số $4$, nhóm $[20; 30)$ có tần số $18$ và tần số tương đối $36\%$, nhóm $[40; 50)$ có tần số $3$, và tần số tích luỹ của nhóm $[10; 20)$ là $14$. Tìm cỡ mẫu và tần số của nhóm $[10; 20)$ và nhóm $[30; 40)$.
+
+[LỜI GIẢI CŨ – VI]
+Từ $\dfrac{18}{n}=0{,}36$ ta có $n=50$. Tần số tích luỹ của nhóm $[10; 20)$ là $4+m_2=14$ nên $m_2=10$. Tổng các tần số bằng $50$ nên $m_4=50-(4+10+18+3)=15$.
+
+**Đáp số.** $n=50$; nhóm $[10; 20)$ có $10$; nhóm $[30; 40)$ có $15$.
+
+[ĐỀ – EN]
+A grouped frequency table has five classes $[0, 10)$, $[10, 20)$, $[20, 30)$, $[30, 40)$, $[40, 50)$ and some cells are smudged. We know that the class $[0, 10)$ has frequency $4$, the class $[20, 30)$ has frequency $18$ and relative frequency $36\%$, the class $[40, 50)$ has frequency $3$, and the cumulative frequency of the class $[10, 20)$ is $14$. Find the sample size and the frequencies of the classes $[10, 20)$ and $[30, 40)$.
+
+[LỜI GIẢI CŨ – EN]
+From $\dfrac{18}{n}=0.36$ we get $n=50$. The cumulative frequency of $[10, 20)$ is $4+m_2=14$, so $m_2=10$. The frequencies add up to $50$, so $m_4=50-(4+10+18+3)=15$.
+
+**Answer.** $n=50$; the class $[10, 20)$ has $10$; the class $[30, 40)$ has $15$.
+
+
+######################################################################
+@@@ g11/line-perpendicular-plane
+Bài học: Đường thẳng vuông góc với mặt phẳng / A line perpendicular to a plane
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$. Chứng minh:
+
+a) $AA'\perp(ABCD)$.
+
+b) $BD\perp(ACC'A')$.
+
+c) $A'C'\perp(BDD'B')$.
+
+[LỜI GIẢI CŨ – VI]
+a) $AA'\perp AB$ và $AA'\perp AD$ (các mặt bên là hình vuông), $AB$, $AD$ cắt nhau tại $A$ trong $(ABCD)$ nên $AA'\perp(ABCD)$.
+
+b) $BD\perp AC$ (hai đường chéo hình vuông) và $BD\perp AA'$ (do $AA'\perp(ABCD)$). $AC$, $AA'$ cắt nhau trong $(ACC'A')$ nên $BD\perp(ACC'A')$.
+
+c) Tương tự, $AC\perp BD$ và $AC\perp BB'$ nên $AC\perp(BDD'B')$. Vì $A'C'\parallel AC$ nên $A'C'\perp(BDD'B')$.
+
+**Đáp số.** Cả ba mệnh đề đều đúng.
+
+[ĐỀ – EN]
+In the cube $ABCD.A'B'C'D'$, prove that:
+
+a) $AA'\perp(ABCD)$.
+
+b) $BD\perp(ACC'A')$.
+
+c) $A'C'\perp(BDD'B')$.
+
+[LỜI GIẢI CŨ – EN]
+a) $AA'\perp AB$ and $AA'\perp AD$ (the side faces are squares), and $AB$, $AD$ intersect at $A$ in $(ABCD)$, so $AA'\perp(ABCD)$.
+
+b) $BD\perp AC$ (diagonals of a square) and $BD\perp AA'$ (since $AA'\perp(ABCD)$). $AC$, $AA'$ intersect in $(ACC'A')$, so $BD\perp(ACC'A')$.
+
+c) Similarly, $AC\perp BD$ and $AC\perp BB'$, so $AC\perp(BDD'B')$. Since $A'C'\parallel AC$, $A'C'\perp(BDD'B')$.
+
+**Answer.** All three statements are true.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(ABCD)$. Chứng minh $BC\perp(SAB)$ và $CD\perp(SAD)$.
+
+[LỜI GIẢI CŨ – VI]
+$BC\perp AB$ (hình chữ nhật) và $BC\perp SA$ (do $SA\perp(ABCD)$). $AB$, $SA$ cắt nhau tại $A$ trong $(SAB)$ nên $BC\perp(SAB)$.
+
+$CD\perp AD$ (hình chữ nhật) và $CD\perp SA$. $AD$, $SA$ cắt nhau tại $A$ trong $(SAD)$ nên $CD\perp(SAD)$.
+
+**Đáp số.** Hai mệnh đề đều được chứng minh.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a rectangular base $ABCD$ and $SA\perp(ABCD)$. Prove that $BC\perp(SAB)$ and $CD\perp(SAD)$.
+
+[LỜI GIẢI CŨ – EN]
+$BC\perp AB$ (rectangle) and $BC\perp SA$ (since $SA\perp(ABCD)$). $AB$, $SA$ intersect at $A$ in $(SAB)$, so $BC\perp(SAB)$.
+
+$CD\perp AD$ (rectangle) and $CD\perp SA$. $AD$, $SA$ intersect at $A$ in $(SAD)$, so $CD\perp(SAD)$.
+
+**Answer.** Both statements are proved.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $SA=3$, $AB=4$, $BC=5$. Chứng minh $BC\perp(SAB)$, rồi tính $SB$ và $SC$.
+
+[LỜI GIẢI CŨ – VI]
+$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$.
+
+Tam giác $SAB$ vuông tại $A$ nên $SB^2=9+16=25$, $SB=5$. Tam giác $SBC$ vuông tại $B$ nên $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
+
+**Đáp số.** $SB=5$; $SC=5\sqrt2$.
+
+[ĐỀ – EN]
+The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ right-angled at $B$, $SA=3$, $AB=4$, $BC=5$. Prove that $BC\perp(SAB)$, then find $SB$ and $SC$.
+
+[LỜI GIẢI CŨ – EN]
+$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$, hence $BC\perp SB$.
+
+Triangle $SAB$ is right-angled at $A$, so $SB^2=9+16=25$, $SB=5$. Triangle $SBC$ is right-angled at $B$, so $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
+
+**Answer.** $SB=5$; $SC=5\sqrt2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau. Cho hình chóp $S.ABCD$, đáy $ABCD$ là hình vuông, $SA\perp(ABCD)$.
+
+a) $AC\perp(SBD)$.
+
+b) $BD\perp(SAC)$.
+
+c) $AD\perp(SCD)$.
+
+d) $BC\perp(SAB)$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$ (hoặc $SB$).
+
+b) **Đúng**: $BD\perp AC$ và $BD\perp SA$.
+
+c) **Sai**: $AD\perp CD$ nhưng $AD$ không vuông góc với $SD$ (vì $SA\perp AD$ và $SA\neq0$ nên góc $SDA$ không vuông).
+
+d) **Đúng**: $BC\perp AB$ và $BC\perp SA$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Decide whether each statement is true or false. The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$.
+
+a) $AC\perp(SBD)$.
+
+b) $BD\perp(SAC)$.
+
+c) $AD\perp(SCD)$.
+
+d) $BC\perp(SAB)$.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: $AC\perp BD$ but $AC$ is not perpendicular to $SD$ (or $SB$).
+
+b) **True**: $BD\perp AC$ and $BD\perp SA$.
+
+c) **False**: $AD\perp CD$ but $AD$ is not perpendicular to $SD$ (since $SA\perp AD$ and $SA\neq0$, angle $SDA$ is not right).
+
+d) **True**: $BC\perp AB$ and $BC\perp SA$.
+
+**Answer.** a) False; b) True; c) False; d) True.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử một cột $SO$ có chân $O$ trên sân phẳng, hai điểm $B$, $C$ trên sân sao cho $O$, $B$, $C$ không thẳng hàng. Đo được $SO=9$ m, $OB=12$ m, $SB=15$ m, $OC=40$ m, $SC=41$ m (số liệu giả định). Cột có vuông góc với mặt sân không? Giải thích.
+
+[LỜI GIẢI CŨ – VI]
+$SO^2+OB^2=81+144=225=SB^2$ nên $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$ nên $SO\perp OC$. $OB$, $OC$ cắt nhau tại $O$ nên $SO\perp(\text{sân})$.
+
+**Đáp số.** Có, cột vuông góc với mặt sân.
+
+[ĐỀ – EN]
+Suppose a pole $SO$ has its foot $O$ on a flat yard, and $B$, $C$ are points of the yard with $O$, $B$, $C$ not collinear. The measurements are $SO=9$ m, $OB=12$ m, $SB=15$ m, $OC=40$ m, $SC=41$ m (assumed figures). Is the pole perpendicular to the yard? Explain.
+
+[LỜI GIẢI CŨ – EN]
+$SO^2+OB^2=81+144=225=SB^2$, so $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$, so $SO\perp OC$. $OB$, $OC$ intersect at $O$, so $SO\perp(\text{yard})$.
+
+**Answer.** Yes, the pole is perpendicular to the yard.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một căn phòng hình hộp chữ nhật $ABCD.A'B'C'D'$ có sàn $ABCD$ với $AB=6$ m, $AD=4$ m và cao $AA'=3$ m (số liệu giả định). Người ta căng một sợi dây từ góc trần $A'$ xuống góc sàn $C$. Tính độ dài sợi dây (làm tròn đến hàng phần mười của mét).
+
+[LỜI GIẢI CŨ – VI]
+$AC^2=6^2+4^2=52$. Vì $AA'\perp(ABCD)$ nên $AA'\perp AC$, tam giác $A'AC$ vuông tại $A$ và
+$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7{,}8.$$
+
+**Đáp số.** Khoảng $7{,}8$ m.
+
+[ĐỀ – EN]
+Suppose a room is a cuboid $ABCD.A'B'C'D'$ whose floor $ABCD$ has $AB=6$ m, $AD=4$ m, and whose height is $AA'=3$ m (assumed figures). A cable is stretched from the ceiling corner $A'$ to the floor corner $C$. Find the length of the cable (to the nearest tenth of a metre).
+
+[LỜI GIẢI CŨ – EN]
+$AC^2=6^2+4^2=52$. Since $AA'\perp(ABCD)$, $AA'\perp AC$, triangle $A'AC$ is right-angled at $A$ and
+$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7.8.$$
+
+**Answer.** About $7.8$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một mái chóp có dạng hình chóp $S.ABCD$ với đáy $ABCD$ là hình vuông cạnh $6$ m, các cạnh bên $SA=SB=SC=SD=5$ m (số liệu giả định). Gọi $O$ là tâm của hình vuông. Chứng minh $SO\perp(ABCD)$ và tính chiều cao $SO$ (làm tròn đến hàng phần mười của mét).
+
+[LỜI GIẢI CŨ – VI]
+Tam giác $SAC$ cân tại $S$ có $SO$ là trung tuyến ($O$ là trung điểm $AC$) nên $SO\perp AC$. Tương tự $SO\perp BD$. $AC$, $BD$ cắt nhau tại $O$ nên $SO\perp(ABCD)$.
+
+$AC=6\sqrt2$ nên $OA=3\sqrt2$ và $OA^2=18$. Tam giác $SOA$ vuông tại $O$ nên $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2{,}6$.
+
+**Đáp số.** $SO\perp(ABCD)$; $SO\approx2{,}6$ m.
+
+[ĐỀ – EN]
+Suppose a roof is shaped like a pyramid $S.ABCD$ whose base $ABCD$ is a square of side $6$ m and whose lateral edges are $SA=SB=SC=SD=5$ m (assumed figures). Let $O$ be the centre of the square. Prove that $SO\perp(ABCD)$ and find the height $SO$ (to the nearest tenth of a metre).
+
+[LỜI GIẢI CŨ – EN]
+Triangle $SAC$ is isosceles at $S$ and $SO$ is a median ($O$ is the midpoint of $AC$), so $SO\perp AC$. Similarly $SO\perp BD$. $AC$, $BD$ intersect at $O$, so $SO\perp(ABCD)$.
+
+$AC=6\sqrt2$, so $OA=3\sqrt2$ and $OA^2=18$. Triangle $SOA$ is right-angled at $O$, so $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2.6$.
+
+**Answer.** $SO\perp(ABCD)$; $SO\approx2.6$ m.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ôn lại góc giữa hai đường thẳng. Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA\perp(ABCD)$. Tính góc giữa hai đường thẳng $SC$ và $BD$.
+
+[LỜI GIẢI CŨ – VI]
+$BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$. Vì $SC\subset(SAC)$ nên $BD\perp SC$, tức góc giữa $SC$ và $BD$ bằng $90^\circ$.
+
+**Đáp số.** $90^\circ$.
+
+[ĐỀ – EN]
+Revisit the angle between two lines. The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$. Find the angle between the lines $SC$ and $BD$.
+
+[LỜI GIẢI CŨ – EN]
+$BD\perp AC$ and $BD\perp SA$, so $BD\perp(SAC)$. Since $SC\subset(SAC)$, $BD\perp SC$, that is the angle between $SC$ and $BD$ is $90^\circ$.
+
+**Answer.** $90^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tứ diện $ABCD$ có $AB=AC$ và $DB=DC$. Chứng minh $AD\perp BC$.
+
+[LỜI GIẢI CŨ – VI]
+Gọi $M$ là trung điểm $BC$. Tam giác $ABC$ cân tại $A$ nên $AM\perp BC$. Tam giác $DBC$ cân tại $D$ nên $DM\perp BC$. $AM$, $DM$ cắt nhau tại $M$ trong $(ADM)$ nên $BC\perp(ADM)$. Vì $AD\subset(ADM)$ nên $BC\perp AD$.
+
+**Đáp số.** $AD\perp BC$.
+
+[ĐỀ – EN]
+The tetrahedron $ABCD$ has $AB=AC$ and $DB=DC$. Prove that $AD\perp BC$.
+
+[LỜI GIẢI CŨ – EN]
+Let $M$ be the midpoint of $BC$. Triangle $ABC$ is isosceles at $A$, so $AM\perp BC$. Triangle $DBC$ is isosceles at $D$, so $DM\perp BC$. $AM$, $DM$ intersect at $M$ in $(ADM)$, so $BC\perp(ADM)$. Since $AD\subset(ADM)$, $BC\perp AD$.
+
+**Answer.** $AD\perp BC$.
+
+
+######################################################################
+@@@ g11/line-plane-parallel
+Bài học: Đường thẳng và mặt phẳng song song / A line parallel to a plane
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $AB\parallel(CDD'C')$ và $AC\parallel(A'B'C'D')$.
+
+[LỜI GIẢI CŨ – VI]
+$ABCD$ là hình bình hành nên $AB\parallel CD$, mà $CD\subset(CDD'C')$ và $AB\not\subset(CDD'C')$, nên $AB\parallel(CDD'C')$. Tương tự $AA'C'C$ là hình bình hành nên $AC\parallel A'C'\subset(A'B'C'D')$, và $AC\not\subset(A'B'C'D')$, nên $AC\parallel(A'B'C'D')$.
+
+**Đáp số.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
+
+[ĐỀ – EN]
+Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $AB\parallel(CDD'C')$ and $AC\parallel(A'B'C'D')$.
+
+[LỜI GIẢI CŨ – EN]
+$ABCD$ is a parallelogram, so $AB\parallel CD$, with $CD\subset(CDD'C')$ and $AB\not\subset(CDD'C')$, so $AB\parallel(CDD'C')$. Similarly $AA'C'C$ is a parallelogram, so $AC\parallel A'C'\subset(A'B'C'D')$, and $AC\not\subset(A'B'C'D')$, so $AC\parallel(A'B'C'D')$.
+
+**Answer.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $AB$, $BC$, $CD$. Chứng minh $MN\parallel(ACD)$ và $NP\parallel(ABD)$.
+
+[LỜI GIẢI CŨ – VI]
+Trong tam giác $ABC$, $MN\parallel AC$ và $AC\subset(ACD)$, $MN\not\subset(ACD)$, nên $MN\parallel(ACD)$. Trong tam giác $BCD$, $NP\parallel BD$ và $BD\subset(ABD)$, $NP\not\subset(ABD)$, nên $NP\parallel(ABD)$.
+
+**Đáp số.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
+
+[ĐỀ – EN]
+Take a tetrahedron $ABCD$. Let $M$, $N$, $P$ be the midpoints of $AB$, $BC$, $CD$. Prove that $MN\parallel(ACD)$ and $NP\parallel(ABD)$.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $ABC$, $MN\parallel AC$, with $AC\subset(ACD)$ and $MN\not\subset(ACD)$, so $MN\parallel(ACD)$. In triangle $BCD$, $NP\parallel BD$, with $BD\subset(ABD)$ and $NP\not\subset(ABD)$, so $NP\parallel(ABD)$.
+
+**Answer.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$ tâm $O$. Gọi $N$ là trung điểm của $SB$. Chứng minh $SD\parallel(NAC)$.
+
+[LỜI GIẢI CŨ – VI]
+$O$ là trung điểm của $BD$ và $N$ là trung điểm của $SB$ nên $ON$ là đường trung bình của tam giác $SBD$, do đó $ON\parallel SD$. Đường thẳng $ON$ nằm trong $(NAC)$ (vì $O\in AC$), còn $SD\not\subset(NAC)$, nên $SD\parallel(NAC)$.
+
+**Đáp số.** $SD\parallel(NAC)$.
+
+[ĐỀ – EN]
+Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$ with centre $O$. Let $N$ be the midpoint of $SB$. Prove that $SD\parallel(NAC)$.
+
+[LỜI GIẢI CŨ – EN]
+$O$ is the midpoint of $BD$ and $N$ is the midpoint of $SB$, so $ON$ is a midsegment of triangle $SBD$ and $ON\parallel SD$. The line $ON$ lies in $(NAC)$ (since $O\in AC$), while $SD\not\subset(NAC)$, so $SD\parallel(NAC)$.
+
+**Answer.** $SD\parallel(NAC)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Gọi $M$ là trung điểm của $SC$ và $N$ là giao điểm của $SB$ với $(ADM)$. Chứng minh $MN\parallel BC$ và $N$ là trung điểm của $SB$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $BC\parallel AD\subset(ADM)$ và $BC\not\subset(ADM)$ nên $BC\parallel(ADM)$. Mặt phẳng $(SBC)$ chứa $BC$ và cắt $(ADM)$ theo $MN$, nên $MN\parallel BC$. Trong tam giác $SBC$, $M$ là trung điểm $SC$ và $MN\parallel BC$ nên $N$ là trung điểm $SB$.
+
+**Đáp số.** $MN\parallel BC$ và $N$ là trung điểm của $SB$.
+
+[ĐỀ – EN]
+Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Let $M$ be the midpoint of $SC$ and $N$ the point where $SB$ meets $(ADM)$. Prove that $MN\parallel BC$ and that $N$ is the midpoint of $SB$.
+
+[LỜI GIẢI CŨ – EN]
+Since $BC\parallel AD\subset(ADM)$ and $BC\not\subset(ADM)$, $BC\parallel(ADM)$. The plane $(SBC)$ contains $BC$ and meets $(ADM)$ along $MN$, so $MN\parallel BC$. In triangle $SBC$, $M$ is the midpoint of $SC$ and $MN\parallel BC$, so $N$ is the midpoint of $SB$.
+
+**Answer.** $MN\parallel BC$ and $N$ is the midpoint of $SB$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Theo Luật bóng đá của FIFA, khung thành tiêu chuẩn có hai cột dọc cách nhau $7{,}32$ m (khoảng cách giữa hai chân cột) và cao $2{,}44$ m. Hai cột thẳng đứng, chân cột nằm trên mặt sân phẳng. Chứng minh xà ngang song song với mặt sân và tính độ dài xà ngang giữa hai đỉnh cột.
+
+[LỜI GIẢI CŨ – VI]
+Gọi chân hai cột là $A$, $B$ và đỉnh là $A'$, $B'$. $AA'$ và $BB'$ song song và bằng nhau ($2{,}44$ m) nên $AA'B'B$ là hình bình hành, do đó $A'B'\parallel AB$ và $A'B'=AB=7{,}32$ m. $AB$ nằm trong mặt sân và $A'B'$ không nằm trong mặt sân nên $A'B'\parallel$ mặt sân.
+
+**Đáp số.** Xà ngang song song với mặt sân và dài $7{,}32$ m.
+
+[ĐỀ – EN]
+According to the FIFA Laws of the Game, a standard football goal has two posts $7.32$ m apart (the distance between the feet of the posts) and $2.44$ m tall. The posts are vertical, with their feet on the flat pitch. Prove that the crossbar is parallel to the pitch and find the length of the crossbar between the tops of the posts.
+
+[LỜI GIẢI CŨ – EN]
+Let the feet of the posts be $A$, $B$ and the tops $A'$, $B'$. $AA'$ and $BB'$ are parallel and equal ($2.44$ m), so $AA'B'B$ is a parallelogram, hence $A'B'\parallel AB$ and $A'B'=AB=7.32$ m. $AB$ lies in the pitch and $A'B'$ does not, so $A'B'$ is parallel to the pitch.
+
+**Answer.** The crossbar is parallel to the pitch and is $7.32$ m long.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $AD\parallel(SBC)$.
+
+b) $SA\parallel(ABCD)$.
+
+c) $BC\parallel(SAD)$.
+
+d) $AB\parallel(SAD)$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $AD\parallel BC\subset(SBC)$ và $AD\not\subset(SBC)$.
+
+b) **Sai**: $SA$ cắt $(ABCD)$ tại $A$.
+
+c) **Đúng**: $BC\parallel AD\subset(SAD)$ và $BC\not\subset(SAD)$.
+
+d) **Sai**: $AB$ cắt $(SAD)$ tại $A$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Decide whether each statement is true or false.
+
+a) $AD\parallel(SBC)$.
+
+b) $SA\parallel(ABCD)$.
+
+c) $BC\parallel(SAD)$.
+
+d) $AB\parallel(SAD)$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $AD\parallel BC\subset(SBC)$ and $AD\not\subset(SBC)$.
+
+b) **False**: $SA$ meets $(ABCD)$ at $A$.
+
+c) **True**: $BC\parallel AD\subset(SAD)$ and $BC\not\subset(SAD)$.
+
+d) **False**: $AB$ meets $(SAD)$ at $A$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Chứng minh rằng nếu hai đường thẳng phân biệt $a$, $b$ song song và $a\parallel(P)$ thì $b\parallel(P)$ hoặc $b\subset(P)$.
+
+[LỜI GIẢI CŨ – VI]
+Lấy điểm $A\in(P)$ và mặt phẳng $(Q)$ chứa $a$ và $A$. Vì $a\parallel(P)$ nên $(Q)$ cắt $(P)$ theo đường thẳng $a'$ qua $A$ và $a'\parallel a$. Nếu $b=a'$ thì $b\subset(P)$. Nếu $b\ne a'$ thì $b\parallel a'$ (cùng song song với $a$), với $a'\subset(P)$; khi $b\not\subset(P)$, theo điều kiện ta có $b\parallel(P)$.
+
+**Đáp số.** $b\parallel(P)$ hoặc $b\subset(P)$.
+
+[ĐỀ – EN]
+Prove that if two distinct lines $a$, $b$ are parallel and $a\parallel(P)$, then $b\parallel(P)$ or $b\subset(P)$.
+
+[LỜI GIẢI CŨ – EN]
+Take a point $A\in(P)$ and the plane $(Q)$ containing $a$ and $A$. Since $a\parallel(P)$, $(Q)$ meets $(P)$ along a line $a'$ through $A$ with $a'\parallel a$. If $b=a'$ then $b\subset(P)$. If $b\ne a'$ then $b\parallel a'$ (both are parallel to $a$), with $a'\subset(P)$; when $b\not\subset(P)$, the condition gives $b\parallel(P)$.
+
+**Answer.** $b\parallel(P)$ or $b\subset(P)$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho tứ diện $ABCD$. Lấy điểm $M$ thuộc cạnh $AB$. Mặt phẳng $(\alpha)$ qua $M$ song song với $AC$ và $BD$ cắt các cạnh $BC$, $CD$, $DA$ lần lượt tại $N$, $P$, $Q$. Chứng minh $MNPQ$ là hình bình hành.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AC\parallel(\alpha)$, mặt phẳng $(ABC)$ chứa $AC$ cắt $(\alpha)$ theo $MN$ nên $MN\parallel AC$; mặt phẳng $(ACD)$ chứa $AC$ cắt $(\alpha)$ theo $PQ$ nên $PQ\parallel AC$. Suy ra $MN\parallel PQ$. Tương tự, vì $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ và $NP=(\alpha)\cap(BCD)\parallel BD$, nên $MQ\parallel NP$. Tứ giác $MNPQ$ có các cặp cạnh đối song song nên là hình bình hành.
+
+**Đáp số.** $MNPQ$ là hình bình hành.
+
+[ĐỀ – EN]
+Take a tetrahedron $ABCD$. Take a point $M$ on the edge $AB$. A plane $(\alpha)$ through $M$ parallel to $AC$ and $BD$ meets the edges $BC$, $CD$, $DA$ at $N$, $P$, $Q$ respectively. Prove that $MNPQ$ is a parallelogram.
+
+[LỜI GIẢI CŨ – EN]
+Since $AC\parallel(\alpha)$, the plane $(ABC)$ containing $AC$ meets $(\alpha)$ along $MN$, so $MN\parallel AC$; the plane $(ACD)$ containing $AC$ meets $(\alpha)$ along $PQ$, so $PQ\parallel AC$. Hence $MN\parallel PQ$. Similarly, since $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ and $NP=(\alpha)\cap(BCD)\parallel BD$, so $MQ\parallel NP$. The quadrilateral $MNPQ$ has both pairs of opposite sides parallel, so it is a parallelogram.
+
+**Answer.** $MNPQ$ is a parallelogram.
+
+
+######################################################################
+@@@ g11/lines-planes-space
+Bài học: Đường thẳng và mặt phẳng trong không gian / Lines and planes in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hình chóp có đáy là đa giác $7$ cạnh có bao nhiêu mặt, cạnh và đỉnh?
+
+[LỜI GIẢI CŨ – VI]
+Với $n=7$: $n+1=8$ mặt, $2n=14$ cạnh, $n+1=8$ đỉnh.
+
+**Đáp số.** $8$ mặt, $14$ cạnh, $8$ đỉnh.
+
+[ĐỀ – EN]
+How many faces, edges and vertices does a pyramid whose base has $7$ sides have?
+
+[LỜI GIẢI CŨ – EN]
+For $n=7$: $n+1=8$ faces, $2n=14$ edges, $n+1=8$ vertices.
+
+**Answer.** $8$ faces, $14$ edges, $8$ vertices.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho năm điểm trong không gian, trong đó không có ba điểm nào thẳng hàng và không có bốn điểm nào đồng phẳng. Có bao nhiêu mặt phẳng đi qua ba trong năm điểm đó?
+
+[LỜI GIẢI CŨ – VI]
+Số cách chọn ba điểm trong năm điểm là $\dbinom{5}{3}=10$. Mỗi bộ ba không thẳng hàng xác định đúng một mặt phẳng. Hai bộ ba khác nhau cho hai mặt phẳng khác nhau, vì nếu trùng nhau thì ít nhất bốn điểm đồng phẳng.
+
+**Đáp số.** $10$ mặt phẳng.
+
+[ĐỀ – EN]
+Take five points in space, with no three collinear and no four coplanar. How many planes pass through three of the five points?
+
+[LỜI GIẢI CŨ – EN]
+The number of ways to choose three points from five is $\dbinom{5}{3}=10$. Each non-collinear set of three points determines exactly one plane. Two different sets of three give different planes, because if they coincided, at least four points would be coplanar.
+
+**Answer.** $10$ planes.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tứ diện $ABCD$. Lấy $M$ thuộc cạnh $AB$ và $N$ thuộc cạnh $AC$ sao cho đường thẳng $MN$ cắt đường thẳng $BC$ tại $E$. Tìm giao tuyến của hai mặt phẳng $(DMN)$ và $(BCD)$.
+
+[LỜI GIẢI CŨ – VI]
+Điểm $D$ thuộc cả hai mặt phẳng. Vì $E\in MN\subset(DMN)$ và $E\in BC\subset(BCD)$ nên $E$ cũng là điểm chung. Hai điểm chung $D$, $E$ phân biệt (vì $E$ thuộc mặt phẳng $(ABC)$ còn $D$ thì không) cho giao tuyến $DE$.
+
+**Đáp số.** Giao tuyến là đường thẳng $DE$.
+
+[ĐỀ – EN]
+Take a tetrahedron $ABCD$. Take $M$ on the edge $AB$ and $N$ on the edge $AC$ such that the line $MN$ meets the line $BC$ at $E$. Find the line of intersection of the planes $(DMN)$ and $(BCD)$.
+
+[LỜI GIẢI CŨ – EN]
+The point $D$ lies in both planes. Since $E\in MN\subset(DMN)$ and $E\in BC\subset(BCD)$, $E$ is also a common point. The two common points $D$ and $E$ are distinct (because $E$ lies in the plane $(ABC)$ and $D$ does not), so the line of intersection is $DE$.
+
+**Answer.** The line of intersection is the line $DE$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là tứ giác $ABCD$ sao cho $AB$ cắt $CD$ tại $E$. Lấy điểm $M$ thuộc cạnh $SD$. Tìm giao điểm của đường thẳng $SC$ và mặt phẳng $(MAB)$.
+
+[LỜI GIẢI CŨ – VI]
+Mặt phẳng phụ chứa $SC$ là $(SCD)$. Điểm $M\in SD\subset(SCD)$ và $M\in(MAB)$; điểm $E\in CD\subset(SCD)$ và $E\in AB\subset(MAB)$. Do đó giao tuyến của $(SCD)$ và $(MAB)$ là $ME$. Trong mặt phẳng $(SCD)$, $ME$ cắt $SC$ tại $N$, và $N\in(MAB)$.
+
+**Đáp số.** Giao điểm là $N=SC\cap ME$.
+
+[ĐỀ – EN]
+Take a pyramid $S.ABCD$ whose base is a quadrilateral $ABCD$ such that $AB$ meets $CD$ at $E$. Take a point $M$ on the edge $SD$. Find the point where the line $SC$ meets the plane $(MAB)$.
+
+[LỜI GIẢI CŨ – EN]
+The auxiliary plane containing $SC$ is $(SCD)$. The point $M\in SD\subset(SCD)$ and $M\in(MAB)$; the point $E\in CD\subset(SCD)$ and $E\in AB\subset(MAB)$. So the line of intersection of $(SCD)$ and $(MAB)$ is $ME$. In the plane $(SCD)$, $ME$ meets $SC$ at $N$, and $N\in(MAB)$.
+
+**Answer.** The point is $N=SC\cap ME$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cánh cửa gắn vào khung bằng hai bản lề (coi như hai điểm cố định) vẫn quay được quanh trục nối hai bản lề. Nếu thêm một chốt khoá là điểm cố định thứ ba, không nằm trên trục đó, thì cánh cửa không quay được nữa. Giải thích bằng các tính chất của mặt phẳng.
+
+[LỜI GIẢI CŨ – VI]
+Hai bản lề cố định chỉ cho ta một đường thẳng cố định. Có vô số mặt phẳng chứa đường thẳng này, nên cánh cửa có thể quay quanh nó và chiếm các vị trí khác nhau. Khi thêm chốt thứ ba không nằm trên trục, ba điểm cố định không thẳng hàng xác định đúng một mặt phẳng. Cánh cửa phải nằm trong mặt phẳng duy nhất đó nên không quay được.
+
+**Đáp số.** Hai điểm chỉ cố định được một đường thẳng; ba điểm không thẳng hàng cố định được mặt phẳng.
+
+[ĐỀ – EN]
+A door is attached to its frame by two hinges (treated as two fixed points) and can still swing about the axis through the two hinges. If a third fixed point, a bolt not on that axis, is added, the door can no longer swing. Explain this using the properties of planes.
+
+[LỜI GIẢI CŨ – EN]
+Two fixed hinges give only one fixed line. Infinitely many planes contain this line, so the door can swing about it and take different positions. When a third bolt not on the axis is added, the three fixed non-collinear points determine exactly one plane. The door must lie in that one plane, so it cannot swing.
+
+**Answer.** Two points fix only a line; three non-collinear points fix a plane.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho bốn điểm $A$, $B$, $C$, $D$ không đồng phẳng. Xét tính đúng sai của các mệnh đề sau:
+
+a) Ba điểm $A$, $B$, $C$ không thẳng hàng.
+
+b) Hai đường thẳng $AB$ và $CD$ có thể cắt nhau.
+
+c) Hai mặt phẳng $(ABC)$ và $(ABD)$ có giao tuyến là đường thẳng $AB$.
+
+d) Có đúng $3$ mặt phẳng đi qua ba trong bốn điểm đã cho.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: nếu thẳng hàng thì cùng với $D$ chúng đồng phẳng.
+
+b) **Sai**: nếu $AB$ và $CD$ cắt nhau thì chúng nằm trên một mặt phẳng, và bốn điểm đồng phẳng.
+
+c) **Đúng**: $A$ và $B$ thuộc cả hai mặt phẳng nên giao tuyến là $AB$.
+
+d) **Sai**: có $4$ mặt phẳng $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Take four non-coplanar points $A$, $B$, $C$, $D$. Decide whether each statement is true or false.
+
+a) The points $A$, $B$, $C$ are not collinear.
+
+b) The lines $AB$ and $CD$ may meet.
+
+c) The planes $(ABC)$ and $(ABD)$ have the line $AB$ as their line of intersection.
+
+d) Exactly $3$ planes pass through three of the four given points.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: if they were collinear, they would be coplanar with $D$.
+
+b) **False**: if $AB$ and $CD$ meet, they lie in one plane, and the four points are coplanar.
+
+c) **True**: $A$ and $B$ lie in both planes, so the line of intersection is $AB$.
+
+d) **False**: there are $4$ planes $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Số cạnh của hình chóp có đáy là tam giác, tứ giác, ngũ giác, ... (đáy $n$-giác với $n=3, 4, 5, \dots$) lập thành một dãy số $(u_k)$. Chứng minh dãy này là cấp số cộng, tìm công sai và số hạng tổng quát, rồi tính số cạnh của hình chóp có đáy $20$ cạnh.
+
+[LỜI GIẢI CŨ – VI]
+Hình chóp đáy tam giác có $6$ cạnh nên $u_1=6$; đáy $k+2$ cạnh có $2(k+2)=2k+4$ cạnh, tức $u_k=2k+4$. Vì $u_{k+1}-u_k=2$ không đổi nên đây là cấp số cộng với $u_1=6$, $d=2$. Hình chóp đáy $20$ cạnh ứng với $k=18$, và $u_{18}=2\cdot18+4=40$.
+
+**Đáp số.** Cấp số cộng $u_k=2k+4$ (công sai $2$); hình chóp đáy $20$ cạnh có $40$ cạnh.
+
+[ĐỀ – EN]
+The numbers of edges of pyramids whose bases are a triangle, a quadrilateral, a pentagon, ... (base with $n$ sides, $n=3, 4, 5, \dots$) form a sequence $(u_k)$. Prove that this sequence is an arithmetic progression, find its common difference and general term, and find the number of edges of a pyramid whose base has $20$ sides.
+
+[LỜI GIẢI CŨ – EN]
+A pyramid with a triangular base has $6$ edges, so $u_1=6$; a base with $k+2$ sides gives $2(k+2)=2k+4$ edges, that is $u_k=2k+4$. Since $u_{k+1}-u_k=2$ is constant, this is an arithmetic progression with $u_1=6$, $d=2$. A base with $20$ sides corresponds to $k=18$, and $u_{18}=2\cdot18+4=40$.
+
+**Answer.** The arithmetic progression $u_k=2k+4$ (common difference $2$); a pyramid with a $20$-sided base has $40$ edges.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho ba mặt phẳng phân biệt $(P)$, $(Q)$, $(R)$ đôi một cắt nhau theo ba giao tuyến $a=(P)\cap(Q)$, $b=(Q)\cap(R)$, $c=(R)\cap(P)$. Chứng minh nếu $a$ và $b$ cắt nhau tại $I$ thì $I$ cũng thuộc $c$, tức là ba giao tuyến đồng quy.
+
+[LỜI GIẢI CŨ – VI]
+Vì $I\in a=(P)\cap(Q)$ nên $I\in(P)$ và $I\in(Q)$. Vì $I\in b=(Q)\cap(R)$ nên $I\in(Q)$ và $I\in(R)$. Do đó $I$ thuộc cả $(P)$ và $(R)$, nên $I$ thuộc giao tuyến $c=(R)\cap(P)$.
+
+**Đáp số.** $I\in c$; ba giao tuyến $a$, $b$, $c$ đồng quy tại $I$.
+
+[ĐỀ – EN]
+Take three distinct planes $(P)$, $(Q)$, $(R)$ that meet in pairs along the three lines $a=(P)\cap(Q)$, $b=(Q)\cap(R)$, $c=(R)\cap(P)$. Prove that if $a$ and $b$ meet at $I$, then $I$ also lies on $c$, that is, the three lines are concurrent.
+
+[LỜI GIẢI CŨ – EN]
+Since $I\in a=(P)\cap(Q)$, we have $I\in(P)$ and $I\in(Q)$. Since $I\in b=(Q)\cap(R)$, we have $I\in(Q)$ and $I\in(R)$. So $I$ lies in both $(P)$ and $(R)$, hence on their line of intersection $c=(R)\cap(P)$.
+
+**Answer.** $I\in c$; the three lines $a$, $b$, $c$ are concurrent at $I$.
+
+
+===== HẾT FILE chanh106-LG-3 =====

@@ -1,0 +1,887 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-LG-5   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-LG-5-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Kinangtoan-LG-5
+Người làm: tài khoản Kinangtoan. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Kinangtoan-LG-5-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Kinangtoan-LG-5-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g1/time-to-the-hour (8 bài tập)
+- g1/two-digit-numbers (8 bài tập)
+- g2/add-within-1000-no-regrouping (8 bài tập)
+- g2/adding-on-taking-away-problems (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g1/time-to-the-hour
+Bài học: Xem giờ đúng trên đồng hồ. Các ngày trong tuần / Telling the time: o'clock. Days of the week
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đồng hồ có kim dài chỉ số 12 và kim ngắn chỉ số 8. Đồng hồ chỉ mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+Kim ngắn chỉ số 8 nên đồng hồ chỉ 8 giờ.
+
+**Đáp số.** 8 giờ.
+
+[ĐỀ – EN]
+On a clock the long hand points to 12 and the short hand points to 8. What time does the clock show?
+
+[LỜI GIẢI CŨ – EN]
+The short hand points to 8, so the clock shows 8 o'clock.
+
+**Answer.** 8 o'clock.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Muốn đồng hồ chỉ 11 giờ thì kim dài chỉ số mấy và kim ngắn chỉ số mấy?
+
+[LỜI GIẢI CŨ – VI]
+Giờ đúng nên kim dài chỉ số 12. Kim ngắn chỉ số 11.
+
+**Đáp số.** Kim dài chỉ số 12, kim ngắn chỉ số 11.
+
+[ĐỀ – EN]
+Where do the long hand and the short hand point when a clock shows 11 o'clock?
+
+[LỜI GIẢI CŨ – EN]
+On the hour, the long hand points to 12. The short hand points to 11.
+
+**Answer.** The long hand points to 12 and the short hand points to 11.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số?
+
+a) 1 giờ sau 7 giờ là $\square$ giờ.
+
+b) 1 giờ trước 7 giờ là $\square$ giờ.
+
+[LỜI GIẢI CŨ – VI]
+a) $7+1=8$.
+
+b) $7-1=6$.
+
+**Đáp số.** a) 8 giờ; b) 6 giờ.
+
+[ĐỀ – EN]
+Fill in the missing numbers.
+
+a) 1 hour after 7 o'clock is $\square$ o'clock.
+
+b) 1 hour before 7 o'clock is $\square$ o'clock.
+
+[LỜI GIẢI CŨ – EN]
+a) $7+1=8$.
+
+b) $7-1=6$.
+
+**Answer.** a) 8 o'clock; b) 6 o'clock.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hôm nay là thứ năm. Hôm qua là thứ mấy? Ngày mai là thứ mấy?
+
+[LỜI GIẢI CŨ – VI]
+$$\text{thứ tư},\ \text{thứ năm},\ \text{thứ sáu}.$$
+
+**Đáp số.** Hôm qua là thứ tư, ngày mai là thứ sáu.
+
+[ĐỀ – EN]
+Today is Thursday. What day was yesterday? What day is tomorrow?
+
+[LỜI GIẢI CŨ – EN]
+$$\text{Wednesday},\ \text{Thursday},\ \text{Friday}.$$
+
+**Answer.** Yesterday was Wednesday and tomorrow is Friday.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử đồng hồ ở sân trường chỉ 9 giờ. Sau 3 giờ nữa, đồng hồ chỉ mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Sau 3 giờ nữa, đồng hồ chỉ:
+$$9+3=12\ \text{(giờ)}.$$
+Đáp số: 12 giờ.
+
+[ĐỀ – EN]
+Suppose the clock in the school playground shows 9 o'clock. What time will it show 3 hours later?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+3 hours later, the clock will show:
+$$9+3=12\ \text{(o'clock)}.$$
+Answer: 12 o'clock.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử thư viện trường mở cửa từ thứ hai đến thứ sáu. Mỗi tuần thư viện mở cửa mấy ngày?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Các ngày thư viện mở cửa là thứ hai, thứ ba, thứ tư, thứ năm, thứ sáu. Có 5 ngày.
+
+Đáp số: 5 ngày.
+
+[ĐỀ – EN]
+Suppose the school library is open from Monday to Friday. On how many days a week is the library open?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The library is open on Monday, Tuesday, Wednesday, Thursday and Friday. That is 5 days.
+
+Answer: 5 days.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại phép trừ trong phạm vi 10. Một tuần có 7 ngày, em đi học 5 ngày. Hỏi mỗi tuần em nghỉ mấy ngày?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Mỗi tuần em nghỉ số ngày là:
+$$7-5=2\ \text{(ngày)}.$$
+Đáp số: 2 ngày.
+
+[ĐỀ – EN]
+Remember subtraction within 10. A week has 7 days and you go to school on 5 of them. On how many days a week do you not go to school?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of days a week you do not go to school is:
+$$7-5=2\ \text{(days)}.$$
+Answer: 2 days.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hôm nay là thứ ba. Lớp em hẹn đi dã ngoại sau 5 ngày nữa. Ngày dã ngoại là thứ mấy?
+
+[LỜI GIẢI CŨ – VI]
+Đếm các ngày sau thứ ba: thứ tư (1), thứ năm (2), thứ sáu (3), thứ bảy (4), chủ nhật (5).
+
+**Đáp số.** Chủ nhật.
+
+[ĐỀ – EN]
+Today is Tuesday. Your class plans a field trip in 5 days' time. What day of the week is the trip?
+
+[LỜI GIẢI CŨ – EN]
+Count the days after Tuesday: Wednesday (1), Thursday (2), Friday (3), Saturday (4), Sunday (5).
+
+**Answer.** Sunday.
+
+
+######################################################################
+@@@ g1/two-digit-numbers
+Bài học: Số có hai chữ số / Two-digit numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số $34$ gồm $\square$ chục và $\square$ đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng chục là $3$, chữ số hàng đơn vị là $4$.
+
+**Đáp số.** $3$ chục và $4$ đơn vị.
+
+[ĐỀ – EN]
+The number $34$ is $\square$ tens and $\square$ ones.
+
+[LỜI GIẢI CŨ – EN]
+The tens digit is $3$ and the ones digit is $4$.
+
+**Answer.** $3$ tens and $4$ ones.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết số gồm $6$ chục và $2$ đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+Viết $6$ rồi đến $2$.
+
+**Đáp số.** $62$.
+
+[ĐỀ – EN]
+Write the number made of $6$ tens and $2$ ones.
+
+[LỜI GIẢI CŨ – EN]
+Write $6$ then $2$.
+
+**Answer.** $62$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: hàng có $6$ bạn, Nam đứng thứ tư từ đầu hàng. Có mấy bạn đứng sau Nam?
+
+[LỜI GIẢI CŨ – VI]
+Sau bạn thứ tư là bạn thứ năm và bạn thứ sáu, có $2$ bạn.
+
+**Đáp số.** $2$ bạn.
+
+[ĐỀ – EN]
+Remember the last lesson: $6$ children are in a line and Nam is fourth from the start. How many children are behind Nam?
+
+[LỜI GIẢI CŨ – EN]
+After the fourth child come the fifth and the sixth, which is $2$ children.
+
+**Answer.** $2$ children.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+a) Số $70$ gồm mấy chục và mấy đơn vị?
+b) Viết số gồm $9$ chục và $1$ đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+a) $70$ có chữ số hàng chục là $7$ và hàng đơn vị là $0$. b) Viết $9$ rồi $1$.
+
+**Đáp số.** a) $7$ chục và $0$ đơn vị. b) $91$.
+
+[ĐỀ – EN]
+a) How many tens and ones are in the number $70$?
+b) Write the number made of $9$ tens and $1$ one.
+
+[LỜI GIẢI CŨ – EN]
+a) The tens digit of $70$ is $7$ and the ones digit is $0$. b) Write $9$ then $1$.
+
+**Answer.** a) $7$ tens and $0$ ones. b) $91$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Nam nói: "$32$ và $23$ là cùng một số vì cùng có chữ số $2$ và $3$." Nam đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+$32$ gồm $3$ chục $2$ đơn vị. $23$ gồm $2$ chục $3$ đơn vị. Hai số khác nhau.
+
+**Đáp số.** Sai. $32$ và $23$ là hai số khác nhau.
+
+[ĐỀ – EN]
+Nam says: "$32$ and $23$ are the same number because they both have the digits $2$ and $3$." Is Nam right? Why?
+
+[LỜI GIẢI CŨ – EN]
+$32$ is $3$ tens and $2$ ones. $23$ is $2$ tens and $3$ ones. They are different numbers.
+
+**Answer.** No. $32$ and $23$ are different numbers.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai nói: "$5$ chục viết là $5$." Mai sai ở đâu? Viết lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Hàng chục là $5$, hàng đơn vị là $0$. Mai quên chữ số $0$.
+
+**Đáp số.** $5$ chục viết là $50$.
+
+[ĐỀ – EN]
+Mai says: "$5$ tens is written $5$." Where did Mai go wrong? Write it correctly.
+
+[LỜI GIẢI CŨ – EN]
+The tens digit is $5$ and the ones digit is $0$. Mai forgot the digit $0$.
+
+**Answer.** $5$ tens is written $50$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Có $4$ bó que tính, mỗi bó $10$ que, và $5$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
+
+![Bốn bó que tính, mỗi bó mười que, và năm que lẻ](/assets/img/g1/g1-two-digit-numbers-02.svg)
+
+[LỜI GIẢI CŨ – VI]
+$4$ bó là $4$ chục, $5$ que lẻ là $5$ đơn vị, nên có $45$ que.
+
+**Đáp số.** $45$ que tính.
+
+[ĐỀ – EN]
+There are $4$ bundles of sticks with $10$ sticks in each, and $5$ loose sticks. How many sticks are there altogether?
+
+![Four bundles of ten counting sticks and five loose sticks](/assets/img/g1/g1-two-digit-numbers-02.svg)
+
+[LỜI GIẢI CŨ – EN]
+$4$ bundles are $4$ tens and $5$ loose sticks are $5$ ones, so there are $45$ sticks.
+
+**Answer.** $45$ sticks.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Số có hai chữ số, chữ số hàng chục là $4$ và chữ số hàng đơn vị bé hơn $2$. Đó là những số nào?
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng đơn vị là $0$ hoặc $1$, nên có hai số là $40$ và $41$.
+
+**Kiểm tra.** Cả hai số đều có $4$ chục và số đơn vị bé hơn $2$. Đúng.
+
+**Đáp số.** $40$ và $41$.
+
+[ĐỀ – EN]
+A two-digit number has $4$ in the tens place and a digit less than $2$ in the ones place. Which numbers could it be?
+
+[LỜI GIẢI CŨ – EN]
+The ones digit is $0$ or $1$, so the two numbers are $40$ and $41$.
+
+**Check.** Both numbers have $4$ tens and fewer than $2$ ones. Correct.
+
+**Answer.** $40$ and $41$.
+
+
+######################################################################
+@@@ g2/add-within-1000-no-regrouping
+Bài học: Phép cộng (không nhớ) trong phạm vi 1000. Phép cộng (có nhớ) trong phạm vi 1000 / Addition within 1,000 (no regrouping). Addition within 1,000 (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $214+365$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
+Hàng đơn vị: $4+5=9$. Hàng chục: $1+6=7$. Hàng trăm: $2+3=5$.
+
+**Đáp số.** $579$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $214+365$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
+Ones: $4+5=9$. Tens: $1+6=7$. Hundreds: $2+3=5$.
+
+**Answer.** $579$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính nhẩm: $600+300$ và $520+70$.
+
+[LỜI GIẢI CŨ – VI]
+$6$ trăm cộng $3$ trăm bằng $9$ trăm, nên $600+300=900$.
+
+$52$ chục cộng $7$ chục bằng $59$ chục, nên $520+70=590$.
+
+**Đáp số.** $900$ và $590$.
+
+[ĐỀ – EN]
+Work out in your head: $600+300$ and $520+70$.
+
+[LỜI GIẢI CŨ – EN]
+$6$ hundreds plus $3$ hundreds is $9$ hundreds, so $600+300=900$.
+
+$52$ tens plus $7$ tens is $59$ tens, so $520+70=590$.
+
+**Answer.** $900$ and $590$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $346+278$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
+Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$. Hàng chục: $4+7+1=12$, viết $2$ nhớ $1$. Hàng trăm: $3+2+1=6$.
+
+**Đáp số.** $624$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $346+278$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
+Ones: $6+8=14$, write $4$ and regroup $1$. Tens: $4+7+1=12$, write $2$ and regroup $1$. Hundreds: $3+2+1=6$.
+
+**Answer.** $624$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $485+219$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
+Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$. Hàng chục: $8+1+1=10$, viết $0$ nhớ $1$. Hàng trăm: $4+2+1=7$.
+
+**Đáp số.** $704$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $485+219$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
+Ones: $5+9=14$, write $4$ and regroup $1$. Tens: $8+1+1=10$, write $0$ and regroup $1$. Hundreds: $4+2+1=7$.
+
+**Answer.** $704$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cửa hàng gạo ngày thứ nhất bán được $235$ kg gạo, ngày thứ hai bán được $187$ kg gạo. Hỏi cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Số ki-lô-gam gạo cửa hàng bán được trong cả hai ngày là:
+$$235+187=422\ \text{(kg)}.$$
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+8+1=12$, viết $2$ nhớ $1$. Hàng trăm: $2+1+1=4$.
+
+**Đáp số.** $422$ kg gạo.
+
+[ĐỀ – EN]
+A rice shop sold $235$ kg of rice on the first day and $187$ kg of rice on the second day. How many kilograms of rice did the shop sell in the two days altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of kilograms of rice the shop sold in the two days is:
+$$235+187=422\ \text{(kg)}.$$
+Ones: $5+7=12$, write $2$ and regroup $1$. Tens: $3+8+1=12$, write $2$ and regroup $1$. Hundreds: $2+1+1=4$.
+
+**Answer.** $422$ kg of rice.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em nhớ lại phép cộng trong phạm vi 100: $58+27=85$. Dựa vào kết quả đó, hãy tính nhẩm $158+27$ và $258+27$.
+
+[LỜI GIẢI CŨ – VI]
+$158$ hơn $58$ là $1$ trăm, nên $158+27=85+100=185$.
+
+$258$ hơn $58$ là $2$ trăm, nên $258+27=85+200=285$.
+
+**Nhận xét.** Hàng đơn vị và hàng chục làm giống hệt phép cộng $58+27$, chỉ có hàng trăm thay đổi.
+
+**Đáp số.** $185$ và $285$.
+
+[ĐỀ – EN]
+Remember adding within 100: $58+27=85$. Use this result to work out $158+27$ and $258+27$ in your head.
+
+[LỜI GIẢI CŨ – EN]
+$158$ is $1$ hundred more than $58$, so $158+27=85+100=185$.
+
+$258$ is $2$ hundreds more than $58$, so $258+27=85+200=285$.
+
+**Remark.** The ones and the tens work out exactly as in $58+27$; only the hundreds change.
+
+**Answer.** $185$ and $285$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Từ nhà Nam đến trường dài $450$ m, từ trường đến thư viện dài $380$ m. Hỏi từ nhà Nam đi qua trường rồi đến thư viện dài bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Quãng đường từ nhà Nam qua trường đến thư viện dài là:
+$$450+380=830\ \text{(m)}.$$
+Hàng đơn vị: $0+0=0$. Hàng chục: $5+8=13$, viết $3$ nhớ $1$. Hàng trăm: $4+3+1=8$.
+
+**Đáp số.** $830$ m.
+
+[ĐỀ – EN]
+It is $450$ m from Nam's house to school, and $380$ m from school to the library. How many metres is it from Nam's house, past the school, to the library?
+
+[LỜI GIẢI CŨ – EN]
+The distance from Nam's house past the school to the library is:
+$$450+380=830\ \text{(m)}.$$
+Ones: $0+0=0$. Tens: $5+8=13$, write $3$ and regroup $1$. Hundreds: $4+3+1=8$.
+
+**Answer.** $830$ m.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Điền chữ số thích hợp vào mỗi ô trống:
+$$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}$$
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$, nên chữ số cần điền là $7$.
+
+Hàng chục: $4+6+1=11$, viết $1$ nhớ $1$, nên chữ số cần điền là $6$.
+
+Hàng trăm: $3+2+1=6$, nên chữ số cần điền là $3$.
+
+Ta có $347+265=612$.
+
+**Đáp số.** $347+265=612$.
+
+[ĐỀ – EN]
+Fill in the missing digit in each box:
+$$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}$$
+
+[LỜI GIẢI CŨ – EN]
+Ones: $7+5=12$, write $2$ and regroup $1$, so the missing digit is $7$.
+
+Tens: $4+6+1=11$, write $1$ and regroup $1$, so the missing digit is $6$.
+
+Hundreds: $3+2+1=6$, so the missing digit is $3$.
+
+We have $347+265=612$.
+
+**Answer.** $347+265=612$.
+
+
+######################################################################
+@@@ g2/adding-on-taking-away-problems
+Bài học: Bài toán về thêm, bớt một số đơn vị. Bài toán về nhiều hơn, ít hơn một số đơn vị / Word problems: adding on and taking away. Word problems: more than and fewer than
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong giỏ có 8 quả táo. Mẹ cho thêm 5 quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Trong giỏ có tất cả số quả táo là:
+$$8+5=13\ \text{(quả)}.$$
+Đáp số: 13 quả táo.
+
+[ĐỀ – EN]
+There are 8 apples in a basket. Mum puts in 5 more apples. How many apples are in the basket altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of apples in the basket altogether is:
+$$8+5=13\ \text{(apples)}.$$
+Answer: 13 apples.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hà có 16 cái kẹo. Hà ăn 4 cái kẹo. Hỏi Hà còn lại bao nhiêu cái kẹo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Hà còn lại số cái kẹo là:
+$$16-4=12\ \text{(cái)}.$$
+Đáp số: 12 cái kẹo.
+
+[ĐỀ – EN]
+Ha has 16 sweets. Ha eats 4 sweets. How many sweets does Ha have left?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of sweets Ha has left is:
+$$16-4=12\ \text{(sweets)}.$$
+Answer: 12 sweets.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Lan có 6 bông hoa. Mai có nhiều hơn Lan 7 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Mai có số bông hoa là:
+$$6+7=13\ \text{(bông)}.$$
+Đáp số: 13 bông hoa.
+
+[ĐỀ – EN]
+Lan has 6 flowers. Mai has 7 more flowers than Lan. How many flowers does Mai have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of flowers Mai has is:
+$$6+7=13\ \text{(flowers)}.$$
+Answer: 13 flowers.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Nam có 15 viên bi. Hà có ít hơn Nam 4 viên bi. Hỏi Hà có bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Hà có số viên bi là:
+$$15-4=11\ \text{(viên)}.$$
+Đáp số: 11 viên bi.
+
+[ĐỀ – EN]
+Nam has 15 marbles. Ha has 4 fewer marbles than Nam. How many marbles does Ha have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of marbles Ha has is:
+$$15-4=11\ \text{(marbles)}.$$
+Answer: 11 marbles.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử trên xe buýt có 18 người. Đến bến, có 5 người xuống xe. Hỏi trên xe còn lại bao nhiêu người?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Trên xe còn lại số người là:
+$$18-5=13\ \text{(người)}.$$
+Đáp số: 13 người.
+
+[ĐỀ – EN]
+Suppose there are 18 people on a bus. At the stop, 5 people get off. How many people are left on the bus?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of people left on the bus is:
+$$18-5=13\ \text{(people)}.$$
+Answer: 13 people.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử sân trường có 17 cây phượng. Số cây bàng ít hơn số cây phượng 6 cây. Hỏi sân trường có bao nhiêu cây bàng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Sân trường có số cây bàng là:
+$$17-6=11\ \text{(cây)}.$$
+Đáp số: 11 cây bàng.
+
+[ĐỀ – EN]
+Suppose the school playground has 17 flame trees. There are 6 fewer banyan trees than flame trees. How many banyan trees are in the playground?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of banyan trees in the playground is:
+$$17-6=11\ \text{(trees)}.$$
+Answer: 11 banyan trees.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài "Hơn, kém nhau bao nhiêu". An có 12 viên bi, Bình có 16 viên bi.
+
+a) Bình nhiều hơn An mấy viên bi?
+
+b) Em kiểm tra lại: lấy số bi của An cộng với số viên Bình nhiều hơn, có được số bi của Bình không?
+
+[LỜI GIẢI CŨ – VI]
+a) Bình nhiều hơn An số viên bi là $16-12=4$ (viên).
+
+b) Ta có $12+4=16$, đúng bằng số bi của Bình.
+
+**Đáp số.** a) 4 viên bi; b) đúng.
+
+[ĐỀ – EN]
+Remember the lesson "How many more or fewer?". An has 12 marbles and Binh has 16 marbles.
+
+a) How many more marbles does Binh have than An?
+
+b) Check: if you add that number to An's marbles, do you get Binh's marbles?
+
+[LỜI GIẢI CŨ – EN]
+a) Binh has $16-12=4$ (marbles) more than An.
+
+b) We have $12+4=16$, which is exactly Binh's number of marbles.
+
+**Answer.** a) 4 marbles; b) yes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hà có 8 viên bi. Nam có nhiều hơn Hà 3 viên bi. Lan có ít hơn Nam 2 viên bi. Hỏi Lan có bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Số viên bi của Nam là:
+$$8+3=11\ \text{(viên)}.$$
+Số viên bi của Lan là:
+$$11-2=9\ \text{(viên)}.$$
+
+**Đáp số.** 9 viên bi.
+
+[ĐỀ – EN]
+Ha has 8 marbles. Nam has 3 more marbles than Ha. Lan has 2 fewer marbles than Nam. How many marbles does Lan have?
+
+[LỜI GIẢI CŨ – EN]
+The number of marbles Nam has is:
+$$8+3=11\ \text{(marbles)}.$$
+The number of marbles Lan has is:
+$$11-2=9\ \text{(marbles)}.$$
+
+**Answer.** 9 marbles.
+
+
+===== HẾT FILE Kinangtoan-LG-5 =====

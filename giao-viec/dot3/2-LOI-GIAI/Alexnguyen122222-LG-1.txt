@@ -1,0 +1,911 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-LG-1   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-LG-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Alexnguyen122222-LG-1
+Người làm: tài khoản Alexnguyen122222. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Alexnguyen122222-LG-1-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Alexnguyen122222-LG-1-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g2/addition-crossing-10 (8 bài tập)
+- g2/addition-facts-crossing-10 (8 bài tập)
+- g2/broken-lines-quadrilaterals (8 bài tập)
+- g2/certain-possible-impossible (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g2/addition-crossing-10
+Bài học: Phép cộng (qua 10) trong phạm vi 20 / Addition bridging through 10 (within 20)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $9+3$.
+
+[LỜI GIẢI CŨ – VI]
+$9+3=9+1+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Work out $9+3$.
+
+[LỜI GIẢI CŨ – EN]
+$9+3=9+1+2=10+2=12$.
+
+**Answer.** $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $8+4$.
+
+[LỜI GIẢI CŨ – VI]
+$8+4=8+2+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Work out $8+4$.
+
+[LỜI GIẢI CŨ – EN]
+$8+4=8+2+2=10+2=12$.
+
+**Answer.** $12$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $7+5$.
+
+[LỜI GIẢI CŨ – VI]
+$7+5=7+3+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Work out $7+5$.
+
+[LỜI GIẢI CŨ – EN]
+$7+5=7+3+2=10+2=12$.
+
+**Answer.** $12$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $5+9$.
+
+[LỜI GIẢI CŨ – VI]
+$5+9=9+5=9+1+4=10+4=14$.
+
+**Đáp số.** $14$.
+
+[ĐỀ – EN]
+Work out $5+9$.
+
+[LỜI GIẢI CŨ – EN]
+$5+9=9+5=9+1+4=10+4=14$.
+
+**Answer.** $14$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $8+6 \;\square\; 15$.
+
+[LỜI GIẢI CŨ – VI]
+$8+6=8+2+4=14$. Vì $14<15$ nên $8+6<15$.
+
+**Đáp số.** Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $8+6 \;\square\; 15$.
+
+[LỜI GIẢI CŨ – EN]
+$8+6=8+2+4=14$. Since $14<15$, we have $8+6<15$.
+
+**Answer.** The sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Trong vườn có $9$ con gà mái và $6$ con gà trống. Hỏi trong vườn có tất cả bao nhiêu con gà?
+
+[LỜI GIẢI CŨ – VI]
+Số con gà có tất cả là:
+$$9+6=9+1+5=10+5=15\ \text{(con)}.$$
+
+**Đáp số.** $15$ con gà.
+
+[ĐỀ – EN]
+In a garden there are $9$ hens and $6$ cockerels. How many chickens are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of chickens altogether is:
+$$9+6=9+1+5=10+5=15\ \text{(chickens)}.$$
+
+**Answer.** $15$ chickens.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: số liền sau của $12$ là số nào? Rồi tính: (số liền sau của $12$) $+\,7$.
+
+[LỜI GIẢI CŨ – VI]
+Số liền sau của $12$ là $13$. Ta có $13+7=20$ (vì $3+7=10$, và $10$ cùng với $10$ là $20$).
+
+**Đáp số.** $20$.
+
+[ĐỀ – EN]
+Remember the last lesson: what number comes just after $12$? Then work out (the number just after $12$) $+\,7$.
+
+[LỜI GIẢI CŨ – EN]
+The number just after $12$ is $13$. Then $13+7=20$ (because $3+7=10$, and $10$ and $10$ make $20$).
+
+**Answer.** $20$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống: $\square+8=15$.
+
+[LỜI GIẢI CŨ – VI]
+Từ $8$ lên $10$ cần $2$, từ $10$ lên $15$ cần $5$, nên số cần điền là $2+5=7$.
+
+**Kiểm tra.** $7+8=15$. Đúng.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Find the missing number: $\square+8=15$.
+
+[LỜI GIẢI CŨ – EN]
+From $8$ up to $10$ is $2$, and from $10$ up to $15$ is $5$, so the missing number is $2+5=7$.
+
+**Check.** $7+8=15$. Correct.
+
+**Answer.** $7$.
+
+
+######################################################################
+@@@ g2/addition-facts-crossing-10
+Bài học: Bảng cộng (qua 10) / Addition facts bridging through 10
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính, tách số để làm tròn 10:
+
+a) $9+4$
+
+b) $8+6$
+
+[LỜI GIẢI CŨ – VI]
+a) $9+4=9+1+3=10+3=13$.
+
+b) $8+6=8+2+4=10+4=14$.
+
+**Đáp số.** a) 13; b) 14.
+
+[ĐỀ – EN]
+Work out, splitting a number to make 10:
+
+a) $9+4$
+
+b) $8+6$
+
+[LỜI GIẢI CŨ – EN]
+a) $9+4=9+1+3=10+3=13$.
+
+b) $8+6=8+2+4=10+4=14$.
+
+**Answer.** a) 13; b) 14.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính nhẩm:
+
+a) $7+5$
+
+b) $6+8$
+
+c) $9+9$
+
+[LỜI GIẢI CŨ – VI]
+a) $7+5=7+3+2=10+2=12$.
+
+b) $6+8=8+6=8+2+4=14$.
+
+c) $9+9=9+1+8=10+8=18$.
+
+**Đáp số.** a) 12; b) 14; c) 18.
+
+[ĐỀ – EN]
+Work out in your head:
+
+a) $7+5$
+
+b) $6+8$
+
+c) $9+9$
+
+[LỜI GIẢI CŨ – EN]
+a) $7+5=7+3+2=10+2=12$.
+
+b) $6+8=8+6=8+2+4=14$.
+
+c) $9+9=9+1+8=10+8=18$.
+
+**Answer.** a) 12; b) 14; c) 18.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính nhẩm bằng cách đổi chỗ hai số hạng:
+
+a) $4+9$
+
+b) $6+7$
+
+[LỜI GIẢI CŨ – VI]
+a) $4+9=9+4=9+1+3=13$.
+
+b) $6+7=7+6=7+3+3=13$.
+
+**Đáp số.** a) 13; b) 13.
+
+[ĐỀ – EN]
+Work out in your head by swapping the two addends:
+
+a) $4+9$
+
+b) $6+7$
+
+[LỜI GIẢI CŨ – EN]
+a) $4+9=9+4=9+1+3=13$.
+
+b) $6+7=7+6=7+3+3=13$.
+
+**Answer.** a) 13; b) 13.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
+$$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
+
+[LỜI GIẢI CŨ – VI]
+Ta có $8+5=13$ và $13<14$.
+Ta có $7+6=13$ và $13=13$.
+Ta có $9+4=13$ và $13>12$.
+
+**Đáp số.** $8+5<14$; $7+6=13$; $9+4>12$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in each box:
+$$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
+
+[LỜI GIẢI CŨ – EN]
+We have $8+5=13$ and $13<14$.
+We have $7+6=13$ and $13=13$.
+We have $9+4=13$ and $13>12$.
+
+**Answer.** $8+5<14$; $7+6=13$; $9+4>12$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử buổi sáng Lan gấp được 6 chiếc thuyền giấy, buổi chiều Lan gấp được 7 chiếc. Hỏi cả hai buổi Lan gấp được bao nhiêu chiếc thuyền?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Cả hai buổi Lan gấp được số chiếc thuyền là:
+$$6+7=7+6=13\ \text{(chiếc)}.$$
+Đáp số: 13 chiếc thuyền.
+
+[ĐỀ – EN]
+Suppose that in the morning Lan folds 6 paper boats and in the afternoon she folds 7. How many paper boats does she fold in the two parts of the day?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of paper boats Lan folds in the two parts of the day is:
+$$6+7=7+6=13\ \text{(boats)}.$$
+Answer: 13 boats.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử trong thư viện lớp có 8 bạn đang đọc truyện và 9 bạn đang đọc sách khoa học. Hỏi thư viện có tất cả bao nhiêu bạn đang đọc?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Thư viện có tất cả số bạn đang đọc là:
+$$8+9=8+2+7=10+7=17\ \text{(bạn)}.$$
+Đáp số: 17 bạn.
+
+[ĐỀ – EN]
+Suppose that in the class library 8 children are reading story books and 9 children are reading science books. How many children are reading altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of children reading altogether is:
+$$8+9=8+2+7=10+7=17\ \text{(children)}.$$
+Answer: 17 children.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài tia số. Trên tia số, từ vạch 8 nhảy sang phải 7 vạch thì đến vạch nào?
+
+[LỜI GIẢI CŨ – VI]
+Nhảy sang phải 7 vạch là cộng 7:
+$$8+7=8+2+5=10+5=15.$$
+
+**Đáp số.** Vạch 15.
+
+[ĐỀ – EN]
+Remember the lesson on number lines. On a number line, jump 7 marks to the right from mark 8. Which mark do you land on?
+
+[LỜI GIẢI CŨ – EN]
+Jumping 7 marks to the right is adding 7:
+$$8+7=8+2+5=10+5=15.$$
+
+**Answer.** Mark 15.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Trong các phép cộng $9+2$, $9+3$, $9+4$, …, $9+9$, những phép cộng nào có tổng lớn hơn 14 và nhỏ hơn 18?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. Các tổng lớn hơn 14 và nhỏ hơn 18 là 15, 16, 17.
+
+**Đáp số.** Ba phép cộng: $9+6$, $9+7$, $9+8$.
+
+[ĐỀ – EN]
+Among the sums $9+2$, $9+3$, $9+4$, …, $9+9$, which ones have a sum greater than 14 and less than 18?
+
+[LỜI GIẢI CŨ – EN]
+We have $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. The sums greater than 14 and less than 18 are 15, 16 and 17.
+
+**Answer.** Three sums: $9+6$, $9+7$ and $9+8$.
+
+
+######################################################################
+@@@ g2/broken-lines-quadrilaterals
+Bài học: Đường gấp khúc. Hình tứ giác / Broken (zigzag) lines. Quadrilaterals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đường gấp khúc MNPQ gồm những đoạn thẳng nào?
+
+[LỜI GIẢI CŨ – VI]
+Đường gấp khúc MNPQ gồm ba đoạn thẳng MN, NP và PQ.
+
+**Đáp số.** MN, NP, PQ.
+
+[ĐỀ – EN]
+Which line segments make up the broken line MNPQ?
+
+[LỜI GIẢI CŨ – EN]
+The broken line MNPQ is made of three line segments: MN, NP and PQ.
+
+**Answer.** MN, NP, PQ.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đường gấp khúc EFGH có $EF=4$ cm, $FG=6$ cm, $GH=3$ cm. Tính độ dài đường gấp khúc EFGH.
+
+[LỜI GIẢI CŨ – VI]
+Độ dài đường gấp khúc EFGH là:
+$$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
+
+**Đáp số.** 13 cm.
+
+[ĐỀ – EN]
+The broken line EFGH has $EF=4$ cm, $FG=6$ cm and $GH=3$ cm. Find the length of the broken line EFGH.
+
+[LỜI GIẢI CŨ – EN]
+The length of the broken line EFGH is:
+$$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
+
+**Answer.** 13 cm.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đường gấp khúc ABC có $AB=8$ cm và $BC=7$ cm. Tính độ dài đường gấp khúc ABC.
+
+[LỜI GIẢI CŨ – VI]
+$$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
+
+**Đáp số.** 15 cm.
+
+[ĐỀ – EN]
+The broken line ABC has $AB=8$ cm and $BC=7$ cm. Find the length of the broken line ABC.
+
+[LỜI GIẢI CŨ – EN]
+$$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
+
+**Answer.** 15 cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hình tứ giác ABCD có bao nhiêu đỉnh, bao nhiêu cạnh? Kể tên các đỉnh và các cạnh.
+
+[LỜI GIẢI CŨ – VI]
+Hình tứ giác ABCD có 4 đỉnh là A, B, C, D và 4 cạnh là AB, BC, CD, DA.
+
+**Đáp số.** 4 đỉnh, 4 cạnh.
+
+[ĐỀ – EN]
+How many vertices and how many sides does the quadrilateral ABCD have? Name the vertices and the sides.
+
+[LỜI GIẢI CŨ – EN]
+The quadrilateral ABCD has 4 vertices, A, B, C and D, and 4 sides, AB, BC, CD and DA.
+
+**Answer.** 4 vertices, 4 sides.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử một sợi dây thép được uốn thành đường gấp khúc gồm ba đoạn thẳng dài 9 cm, 4 cm và 6 cm. Hỏi sợi dây thép ấy dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Sợi dây thép dài số xăng-ti-mét là:
+$$9+4+6=19\ \text{(cm)}.$$
+Đáp số: 19 cm.
+
+[ĐỀ – EN]
+Suppose a piece of wire is bent into a broken line made of three line segments that are 9 cm, 4 cm and 6 cm long. How many centimetres long is the wire?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The length of the wire in centimetres is:
+$$9+4+6=19\ \text{(cm)}.$$
+Answer: 19 cm.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử Mai dùng một sợi len xếp thành hình tứ giác ABCD có các cạnh $AB=4$ cm, $BC=5$ cm, $CD=4$ cm, $DA=5$ cm. Hỏi sợi len ấy dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Sợi len dài số xăng-ti-mét là:
+$$4+5+4+5=18\ \text{(cm)}.$$
+Đáp số: 18 cm.
+
+[ĐỀ – EN]
+Suppose Mai uses a piece of wool to make a quadrilateral ABCD with sides $AB=4$ cm, $BC=5$ cm, $CD=4$ cm and $DA=5$ cm. How many centimetres long is the wool?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The length of the wool in centimetres is:
+$$4+5+4+5=18\ \text{(cm)}.$$
+Answer: 18 cm.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài đo độ dài. Em dùng thước đo được $AB=6$ cm và $BC=8$ cm. Tính độ dài đường gấp khúc ABC. Đoạn thẳng nào dài hơn, dài hơn bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Độ dài đường gấp khúc ABC là:
+$$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
+Ta có $8>6$ nên đoạn BC dài hơn đoạn AB. Đoạn BC dài hơn đoạn AB là:
+$$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
+
+**Đáp số.** 14 cm; đoạn BC dài hơn 2 cm.
+
+[ĐỀ – EN]
+Remember the lesson on measuring length. You measure with a ruler and find $AB=6$ cm and $BC=8$ cm. Find the length of the broken line ABC. Which line segment is longer, and by how many centimetres?
+
+[LỜI GIẢI CŨ – EN]
+The length of the broken line ABC is:
+$$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
+We have $8>6$, so BC is longer than AB. BC is longer than AB by:
+$$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
+
+**Answer.** 14 cm; BC is longer by 2 cm.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Đường gấp khúc ABCD dài 18 cm. Biết $AB=7$ cm và $BC=5$ cm. Đoạn thẳng CD dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Hai đoạn AB và BC dài tất cả:
+$$7+5=12\ \text{(cm)}.$$
+Đoạn CD dài:
+$$18-12=6\ \text{(cm)}.$$
+
+**Kiểm tra.** $7+5+6=18$, đúng.
+
+**Đáp số.** 6 cm.
+
+[ĐỀ – EN]
+The broken line ABCD is 18 cm long. You know that $AB=7$ cm and $BC=5$ cm. How many centimetres long is the line segment CD?
+
+[LỜI GIẢI CŨ – EN]
+AB and BC together are:
+$$7+5=12\ \text{(cm)}.$$
+So CD is:
+$$18-12=6\ \text{(cm)}.$$
+
+**Check.** $7+5+6=18$, which is correct.
+
+**Answer.** 6 cm.
+
+
+######################################################################
+@@@ g2/certain-possible-impossible
+Bài học: Chắc chắn, có thể, không thể / Certain, possible, impossible
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hộp có $6$ viên bi xanh. Em lấy ra $1$ viên bi. Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể: a) lấy được bi xanh; b) lấy được bi đỏ.
+
+[LỜI GIẢI CŨ – VI]
+Hộp chỉ có bi xanh.
+
+a) Lần nào cũng lấy được bi xanh, nên sự kiện này là chắc chắn.
+
+b) Hộp không có bi đỏ, nên sự kiện này là không thể.
+
+**Đáp số.** a) chắc chắn; b) không thể.
+
+[ĐỀ – EN]
+A box holds $6$ blue marbles. You take out $1$ marble. Say whether each event is certain, possible or impossible: a) you pick a blue marble; b) you pick a red marble.
+
+[LỜI GIẢI CŨ – EN]
+The box holds only blue marbles.
+
+a) You pick a blue marble every time, so this event is certain.
+
+b) There is no red marble in the box, so this event is impossible.
+
+**Answer.** a) certain; b) impossible.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hộp có $4$ viên bi đỏ và $4$ viên bi xanh. Em lấy ra $1$ viên bi. Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể: a) lấy được bi đỏ; b) lấy được bi xanh; c) lấy được bi vàng.
+
+[LỜI GIẢI CŨ – VI]
+Hộp có cả bi đỏ lẫn bi xanh, nhưng không có bi vàng.
+
+a) Lấy được bi đỏ là có thể. b) Lấy được bi xanh là có thể. c) Lấy được bi vàng là không thể.
+
+**Đáp số.** a) có thể; b) có thể; c) không thể.
+
+[ĐỀ – EN]
+A box holds $4$ red marbles and $4$ blue marbles. You take out $1$ marble. Say whether each event is certain, possible or impossible: a) you pick a red marble; b) you pick a blue marble; c) you pick a yellow marble.
+
+[LỜI GIẢI CŨ – EN]
+The box holds both red and blue marbles, but no yellow marbles.
+
+a) Picking a red marble is possible. b) Picking a blue marble is possible. c) Picking a yellow marble is impossible.
+
+**Answer.** a) possible; b) possible; c) impossible.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hộp có $5$ tấm thẻ ghi các số $1$, $2$, $3$, $4$, $5$. Em rút ra $1$ tấm thẻ. Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể: a) rút được thẻ ghi số $6$; b) rút được thẻ ghi số bé hơn $6$; c) rút được thẻ ghi số lẻ.
+
+[LỜI GIẢI CŨ – VI]
+a) Không có thẻ số $6$, nên sự kiện này là không thể.
+
+b) Cả năm thẻ đều bé hơn $6$, nên sự kiện này là chắc chắn.
+
+c) Thẻ $1$, $3$, $5$ là số lẻ, thẻ $2$, $4$ thì không, nên sự kiện này là có thể.
+
+**Đáp số.** a) không thể; b) chắc chắn; c) có thể.
+
+[ĐỀ – EN]
+A box holds $5$ cards with the numbers $1$, $2$, $3$, $4$, $5$. You pick $1$ card. Say whether each event is certain, possible or impossible: a) you pick the card with the number $6$; b) you pick a card with a number less than $6$; c) you pick a card with an odd number.
+
+[LỜI GIẢI CŨ – EN]
+a) There is no card with $6$, so this event is impossible.
+
+b) All five cards are less than $6$, so this event is certain.
+
+c) The cards $1$, $3$, $5$ are odd, but $2$ and $4$ are not, so this event is possible.
+
+**Answer.** a) impossible; b) certain; c) possible.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hôm nay là thứ Sáu. Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể: a) ngày mai là thứ Bảy; b) chiều nay trời mưa; c) em đếm từ $1$ đến $10$ và gặp số $11$.
+
+[LỜI GIẢI CŨ – VI]
+a) Sau thứ Sáu luôn là thứ Bảy, nên sự kiện này là chắc chắn.
+
+b) Trời có khi mưa, có khi không, nên sự kiện này là có thể.
+
+c) Từ $1$ đến $10$ không có số $11$, nên sự kiện này là không thể.
+
+**Đáp số.** a) chắc chắn; b) có thể; c) không thể.
+
+[ĐỀ – EN]
+Today is Friday. Say whether each event is certain, possible or impossible: a) tomorrow is Saturday; b) it rains this afternoon; c) you count from $1$ to $10$ and say the number $11$.
+
+[LỜI GIẢI CŨ – EN]
+a) Saturday always comes after Friday, so this event is certain.
+
+b) Some days it rains and some days it does not, so this event is possible.
+
+c) There is no number $11$ from $1$ to $10$, so this event is impossible.
+
+**Answer.** a) certain; b) possible; c) impossible.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một vòng quay chia thành $8$ phần bằng nhau: $5$ phần đỏ và $3$ phần xanh. Em quay và kim dừng lại ở một phần. Hãy nói sự kiện a) kim dừng ở màu đỏ hoặc xanh; b) kim dừng ở màu vàng là chắc chắn, có thể hay không thể. c) Kim dừng ở màu nào dễ xảy ra hơn: đỏ hay xanh?
+
+[LỜI GIẢI CŨ – VI]
+a) Mọi phần đều là đỏ hoặc xanh, nên sự kiện này là chắc chắn.
+
+b) Vòng quay không có phần vàng, nên sự kiện này là không thể.
+
+c) Vì $5>3$, nên kim dừng ở màu đỏ dễ xảy ra hơn.
+
+**Đáp số.** a) chắc chắn; b) không thể; c) màu đỏ.
+
+[ĐỀ – EN]
+A spinner is divided into $8$ equal sections: $5$ red and $3$ blue. You spin it and the pointer stops on one section. Say whether each event is certain, possible or impossible: a) the pointer stops on red or blue; b) the pointer stops on yellow. c) Which is more likely, red or blue?
+
+[LỜI GIẢI CŨ – EN]
+a) Every section is red or blue, so this event is certain.
+
+b) The spinner has no yellow section, so this event is impossible.
+
+c) Since $5>3$, the pointer is more likely to stop on red.
+
+**Answer.** a) certain; b) impossible; c) red.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em nhớ lại bài kiểm đếm. Mai kiểm đếm các viên bi trong hộp: bi đỏ $\cancel{\mid\mid\mid\mid}\ \mid\mid$, bi xanh $\cancel{\mid\mid\mid\mid}$. Hộp có tất cả bao nhiêu viên bi? Lấy ra $1$ viên, lấy được bi vàng có thể xảy ra không? Lấy bi màu nào dễ hơn?
+
+[LỜI GIẢI CŨ – VI]
+Bi đỏ: $5+2=7$ viên. Bi xanh: $5$ viên.
+
+Số viên bi trong hộp là:
+$$7+5=12\ \text{(viên)}.$$
+Hộp không có bi vàng, nên lấy được bi vàng là không thể. Vì $7>5$, nên lấy bi đỏ dễ hơn.
+
+**Đáp số.** $12$ viên; không thể; bi đỏ.
+
+[ĐỀ – EN]
+Remember the lesson on tallying. Mai tallies the marbles in a box: red $\cancel{\mid\mid\mid\mid}\ \mid\mid$, blue $\cancel{\mid\mid\mid\mid}$. How many marbles are in the box altogether? You take out $1$ marble: can you pick a yellow one? Which colour is easier to pick?
+
+[LỜI GIẢI CŨ – EN]
+Red marbles: $5+2=7$. Blue marbles: $5$.
+
+The number of marbles in the box is:
+$$7+5=12\ \text{(marbles)}.$$
+There is no yellow marble, so picking a yellow marble is impossible. Since $7>5$, red is easier to pick.
+
+**Answer.** $12$ marbles; impossible; red.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Em cần làm gì để lấy $1$ viên bi mà chắc chắn được bi đỏ?
+
+[LỜI GIẢI CŨ – VI]
+Để lấy bi đỏ là chắc chắn, hộp chỉ được có bi đỏ. Vậy em lấy $2$ viên bi xanh ra khỏi hộp.
+
+**Đáp số.** Lấy $2$ viên bi xanh ra khỏi hộp.
+
+[ĐỀ – EN]
+A box holds $3$ red marbles and $2$ blue marbles. What must you do so that picking $1$ marble is certain to give a red one?
+
+[LỜI GIẢI CŨ – EN]
+To make picking a red marble certain, the box must hold only red marbles. So take the $2$ blue marbles out of the box.
+
+**Answer.** Take the $2$ blue marbles out of the box.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Lan muốn bỏ bi vào một chiếc hộp sao cho khi lấy ra $1$ viên bi thì: lấy được bi đỏ là có thể, lấy được bi xanh là có thể, lấy được bi vàng là không thể. Hộp của Lan có ít nhất bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Hộp phải có bi đỏ và bi xanh, nhưng không có bi vàng. Mỗi loại cần ít nhất $1$ viên.
+
+Số viên bi ít nhất là:
+$$1+1=2\ \text{(viên)}.$$
+**Đáp số.** Ít nhất $2$ viên bi: $1$ viên đỏ và $1$ viên xanh.
+
+[ĐỀ – EN]
+Lan wants to put marbles into a box so that, when $1$ marble is taken out: picking a red one is possible, picking a blue one is possible, and picking a yellow one is impossible. What is the least number of marbles in Lan's box?
+
+[LỜI GIẢI CŨ – EN]
+The box must hold red and blue marbles but no yellow marbles. Each kind needs at least $1$ marble.
+
+The least number of marbles is:
+$$1+1=2\ \text{(marbles)}.$$
+**Answer.** At least $2$ marbles: $1$ red and $1$ blue.
+
+
+===== HẾT FILE Alexnguyen122222-LG-1 =====

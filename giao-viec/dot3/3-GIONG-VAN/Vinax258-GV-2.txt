@@ -1,0 +1,1780 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-GV-2   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-GV-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-GV-2
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/frequency-tables-charts, g9/function-y-equals-ax2, g9/g9-equation-word-problems, g9/grouped-frequency-tables
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-GV-2-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-GV-2-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-GV-2-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/frequency-tables-charts – BẢN TIẾNG VIỆT ########
+---
+title: Bảng tần số và biểu đồ tần số
+description: Lập bảng tần số từ một mẫu dữ liệu, vẽ và đọc biểu đồ tần số dạng cột, dạng đoạn thẳng, rồi dùng chúng để nhận xét và ra quyết định.
+minutes: 20
+---
+
+  :::goals
+  - Lập được bảng tần số của một mẫu dữ liệu.
+  - Vẽ và đọc được biểu đồ tần số dạng cột, dạng đoạn thẳng.
+  - Dùng bảng, biểu đồ tần số để nhận xét và ra quyết định trong thực tế.
+  :::
+
+[[P1·5e26]]
+Theo khuyến nghị của Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ (dẫn theo trang của CDC Hoa Kỳ), thiếu niên từ 13 đến 18 tuổi cần ngủ từ 8 đến 10 giờ trong mỗi 24 giờ. Giả sử cô chủ nhiệm lớp 9A hỏi 30 bạn: "Đêm qua em ngủ mấy giờ?" và ghi lại (làm tròn đến giờ):
+
+  $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
+
+[[P2·a055]]
+Lớp có bao nhiêu bạn ngủ đủ giấc? Ba mươi con số lộn xộn che mất câu trả lời; bài này giúp ta sắp xếp chúng để câu trả lời hiện ra.
+
+## Bảng tần số
+
+### Khám phá: đếm từng giá trị
+
+[[P3·860b]]
+Trong dãy trên chỉ có năm giá trị khác nhau: $5$, $6$, $7$, $8$, $9$. Ta đếm xem mỗi giá trị xuất hiện bao nhiêu lần:
+
+| Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Số bạn | $3$ | $6$ | $10$ | $8$ | $3$ |
+
+[[P4·057b]]
+Kiểm tra: $3+6+10+8+3=30$. Bây giờ câu trả lời hiện ra: chỉ $8+3=11$ bạn ngủ từ 8 giờ trở lên, chưa đến một nửa lớp.
+
+  :::definition Tần số và bảng tần số
+  - Số lần xuất hiện của một giá trị trong mẫu dữ liệu gọi là **tần số** của giá trị đó.
+  - **Bảng tần số** gồm một hàng ghi các giá trị khác nhau $x_1, x_2, \ldots, x_k$ của mẫu dữ liệu và một hàng ghi tần số tương ứng $m_1, m_2, \ldots, m_k$.
+  - Tổng các tần số bằng số dữ liệu của mẫu, gọi là **cỡ mẫu**: $n=m_1+m_2+\ldots+m_k$.
+  :::
+
+[[P5·0cc3]]
+**Hiểu sâu hơn.** Bảng tần số "nén" ba mươi con số thành năm cặp (giá trị; tần số), chỉ mất thứ tự và danh tính ("ai ngủ 5 giờ"). Giá trị $8$ có tần số $8$ chỉ là trùng hợp.
+
+  :::example Số bàn thắng trong giải bóng đá
+  Giả sử số bàn thắng trong 20 trận của một giải bóng đá học sinh như sau:
+
+  $$0,\ 2,\ 1,\ 3,\ 3,\ 0,\ 4,\ 1,\ 2,\ 3,\ 5,\ 1,\ 2,\ 0,\ 3,\ 2,\ 1,\ 1,\ 2,\ 1.$$
+
+  a) Lập bảng tần số của mẫu dữ liệu.
+
+  b) Cả giải có tất cả bao nhiêu bàn thắng?
+
+  **Lời giải.** a) Đếm số lần xuất hiện của mỗi giá trị $0, 1, 2, 3, 4, 5$, ta được bảng tần số:
+
+  | Số bàn thắng ($x$) | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+  |---|---|---|---|---|---|---|
+  | Số trận ($m$) | $3$ | $6$ | $5$ | $4$ | $1$ | $1$ |
+
+  Kiểm tra: $3+6+5+4+1+1=20=n$.
+
+  b) Có $m$ trận cùng có $x$ bàn thắng, chúng góp $x\cdot m$ bàn. Do đó tổng số bàn thắng là
+
+  $$0\cdot3+1\cdot6+2\cdot5+3\cdot4+4\cdot1+5\cdot1=0+6+10+12+4+5=37.$$
+
+  Vậy cả giải có $37$ bàn thắng.
+  :::
+
+## Biểu đồ tần số dạng cột
+
+[[P6·a396]]
+Bảng tần số cho con số chính xác, còn biểu đồ cho thấy *hình dạng* của dữ liệu. Giả sử nhà trường hỏi 200 học sinh khối 9 về giấc ngủ và được bảng tần số:
+
+| Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Số học sinh | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+[[P7·15e3]]
+Để vẽ **biểu đồ tần số dạng cột**: trục ngang ghi các giá trị $x$, trục đứng ghi tần số $m$; tại mỗi giá trị $x_i$ vẽ một cột cao $m_i$, các cột rộng bằng nhau và cách đều nhau; ghi tên biểu đồ.
+
+:::graph Số giờ ngủ của 200 học sinh khối 9
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·eca9]]
+Trục ngang ($x$) là số giờ ngủ, trục đứng ($y$) là số học sinh. Chỉ cần nhìn, ta thấy cột $7$ cao nhất, các cột thấp dần về hai phía.
+
+  :::example Đọc biểu đồ cột
+  Dựa vào biểu đồ trên, hãy so sánh số học sinh ngủ từ 8 giờ trở lên với số học sinh ngủ dưới 7 giờ.
+
+  **Lời giải.** Số học sinh ngủ từ 8 giờ trở lên là $44+18=62$. Số học sinh ngủ dưới 7 giờ là $24+46=70$.
+
+  Vậy số học sinh ngủ dưới 7 giờ nhiều hơn số học sinh ngủ đủ giấc $8$ bạn.
+  :::
+
+## Biểu đồ tần số dạng đoạn thẳng
+
+[[P9·8574]]
+Khi các giá trị là số có thứ tự, ta còn vẽ được **biểu đồ tần số dạng đoạn thẳng**: đánh dấu các điểm $(x_i; m_i)$ rồi nối các điểm liên tiếp bằng đoạn thẳng.
+
+:::graph Biểu đồ đoạn thẳng của cùng mẫu dữ liệu
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·f257]]
+Đường gấp khúc cho thấy rõ xu hướng: tần số tăng đến 7 giờ rồi giảm. Nhưng với dữ liệu không phải số, như môn thể thao yêu thích, đoạn thẳng nối "bóng đá" với "cầu lông" không có nghĩa gì: khi đó ta dùng biểu đồ cột.
+
+  :::example Cửa hàng giày nên nhập hàng thế nào?
+  Giả sử một cửa hàng giày thể thao ghi lại cỡ giày của 100 đôi bán được trong tháng trước:
+
+  | Cỡ giày | $37$ | $38$ | $39$ | $40$ | $41$ | $42$ |
+  |---|---|---|---|---|---|---|
+  | Số đôi | $12$ | $20$ | $31$ | $25$ | $9$ | $3$ |
+
+  Chủ cửa hàng định nhập 120 đôi cho tháng sau, mỗi cỡ 20 đôi. Nếu nhu cầu không đổi, hãy nhận xét kế hoạch này.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Bảng tần số cho biết nhu cầu từng cỡ; mỗi cỡ được nhập $20$ đôi.
+
+  *Tìm cách giải.* Với mỗi cỡ, so sánh $20$ với tần số $m$: $m>20$ là thiếu hàng, $m<20$ là thừa hàng.
+
+  *Giải.* Cỡ 39 thiếu $31-20=11$ đôi, cỡ 40 thiếu $25-20=5$ đôi, tức là mất $16$ lượt bán. Cỡ 37, 41, 42 thừa $(20-12)+(20-9)+(20-3)=36$ đôi.
+
+  Vậy kế hoạch chia đều không hợp lí: nên nhập nhiều cỡ 39, 40 và ít cỡ 41, 42, theo hình dạng của bảng tần số.
+
+  *Nhìn lại.* Chỉ biết "cỡ trung bình khoảng 39" thì có đủ không? Không: con số đó không cho biết cần bao nhiêu đôi cỡ 37 hay 42.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P11·8537]]
+- **Tổng tần số khác cỡ mẫu** (đếm sót, đếm trùng). Luôn cộng hàng tần số và so với $n$.
+- **Nhầm giá trị với tần số.** Sai: "giá trị lớn nhất là $68$". Đúng: $68$ là tần số lớn nhất, ứng với giá trị $7$.
+- **Vẽ cột rộng hẹp khác nhau.** Mắt người so sánh diện tích, nên cột rộng trông như "nhiều hơn".
+:::
+
+[[P12·cba4]]
+**Kết nối.** Bảng tần số tiếp nối các biểu đồ đã học ở lớp 6, 7 và là nền móng của cả chương: bài sau ta chia tần số cho cỡ mẫu để được [tần số tương đối](lesson:relative-frequency-tables), rồi [ghép nhóm](lesson:grouped-frequency-tables) khi dữ liệu có quá nhiều giá trị; lên lớp 10, từ bảng tần số ta tính số trung bình, trung vị.
+
+## Thuật ngữ
+
+  :::terms
+  - mẫu dữ liệu | data set
+  - giá trị | value
+  - tần số | frequency
+  - bảng tần số | frequency table
+  - cỡ mẫu | sample size
+  - biểu đồ tần số dạng cột | frequency bar chart
+  - biểu đồ tần số dạng đoạn thẳng | frequency line graph
+  :::
+
+## Tóm tắt
+
+[[P13·24ed]]
+- Tần số: số lần một giá trị xuất hiện; $m_1+m_2+\ldots+m_k=n$ (cỡ mẫu).
+- Biểu đồ cột: cột cao bằng tần số, các cột rộng bằng nhau.
+- Biểu đồ đoạn thẳng: nối các điểm $(x_i; m_i)$; chỉ dùng khi giá trị là số.
+- Tổng các dữ liệu: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/frequency-tables-charts – BẢN TIẾNG ANH ########
+---
+title: Frequency tables and frequency charts
+description: Build a frequency table from a data set, draw and read frequency bar charts and line graphs, and use them to comment and make decisions.
+minutes: 20
+---
+
+  :::goals
+  - Build the frequency table of a data set.
+  - Draw and read frequency bar charts and frequency line graphs.
+  - Use frequency tables and charts to comment and make decisions in real situations.
+  :::
+
+[[P1·622a]]
+The American Academy of Sleep Medicine recommends (as quoted by the US CDC) that teenagers aged 13 to 18 sleep 8 to 10 hours per 24 hours. Suppose the form tutor of class 9A asks 30 students "How many hours did you sleep last night?" and writes down the answers (to the nearest hour):
+
+  $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
+
+[[P2·ef6e]]
+How many students in the class sleep enough? Thirty numbers in no order hide the answer; this lesson shows how to arrange them so that the answer appears.
+
+## Frequency tables
+
+### Explore: counting each value
+
+[[P3·2719]]
+The list contains only five different values: $5$, $6$, $7$, $8$, $9$. We count how many times each value appears:
+
+| Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Number of students | $3$ | $6$ | $10$ | $8$ | $3$ |
+
+[[P4·7ecc]]
+Check: $3+6+10+8+3=30$. Now the answer appears: only $8+3=11$ students slept 8 hours or more, less than half of the class.
+
+  :::definition Frequency and frequency table
+  - The number of times a value appears in a data set is the **frequency** of that value.
+  - A **frequency table** has one row listing the different values $x_1, x_2, \ldots, x_k$ of the data set and one row listing their frequencies $m_1, m_2, \ldots, m_k$.
+  - The sum of the frequencies is the number of data values, called the **sample size**: $n=m_1+m_2+\ldots+m_k$.
+  :::
+
+[[P5·4e3f]]
+**Going deeper.** A frequency table "compresses" thirty numbers into five (value; frequency) pairs, losing only the order and who gave each answer ("who slept 5 hours"). The value $8$ having frequency $8$ is only a coincidence.
+
+  :::example Goals in a football tournament
+  Suppose the numbers of goals in the 20 matches of a school football tournament are:
+
+  $$0,\ 2,\ 1,\ 3,\ 3,\ 0,\ 4,\ 1,\ 2,\ 3,\ 5,\ 1,\ 2,\ 0,\ 3,\ 2,\ 1,\ 1,\ 2,\ 1.$$
+
+  a) Build the frequency table of the data set.
+
+  b) How many goals were scored in the whole tournament?
+
+  **Solution.** a) Counting how many times each value $0, 1, 2, 3, 4, 5$ appears, we get the frequency table:
+
+  | Number of goals ($x$) | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+  |---|---|---|---|---|---|---|
+  | Number of matches ($m$) | $3$ | $6$ | $5$ | $4$ | $1$ | $1$ |
+
+  Check: $3+6+5+4+1+1=20=n$.
+
+  b) The $m$ matches with $x$ goals each contribute $x\cdot m$ goals. Hence the total number of goals is
+
+  $$0\cdot3+1\cdot6+2\cdot5+3\cdot4+4\cdot1+5\cdot1=0+6+10+12+4+5=37.$$
+
+  So $37$ goals were scored in the whole tournament.
+  :::
+
+## Frequency bar charts
+
+[[P6·d69c]]
+A frequency table gives exact numbers; a chart shows the *shape* of the data. Suppose the school asks 200 students in year 9 about their sleep and gets this frequency table:
+
+| Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Number of students | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+[[P7·00dc]]
+To draw a **frequency bar chart**: put the values $x$ on the horizontal axis and the frequencies $m$ on the vertical axis; at each value $x_i$ draw a bar of height $m_i$, with all bars the same width and equally spaced; give the chart a title.
+
+:::graph Hours of sleep of 200 year 9 students
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·2e7c]]
+The horizontal axis ($x$) shows hours of sleep and the vertical axis ($y$) the number of students. At a glance, the bar at $7$ is the tallest and the bars get shorter on both sides.
+
+  :::example Reading a bar chart
+  Using the chart above, compare the number of students who sleep 8 hours or more with the number who sleep less than 7 hours.
+
+  **Solution.** The number of students sleeping 8 hours or more is $44+18=62$. The number sleeping less than 7 hours is $24+46=70$.
+
+  So $8$ more students sleep less than 7 hours than sleep enough.
+  :::
+
+## Frequency line graphs
+
+[[P9·5613]]
+When the values are numbers in order, we can also draw a **frequency line graph**: mark the points $(x_i, m_i)$ and join consecutive points with line segments.
+
+:::graph Line graph of the same data set
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·ee35]]
+The broken line shows the trend clearly: the frequency rises up to 7 hours and then falls. But for data that are not numbers, such as a favourite sport, a segment joining "football" to "badminton" means nothing: then we use a bar chart.
+
+  :::example How should a shoe shop restock?
+  Suppose a trainer shop records the sizes of the 100 pairs it sold last month:
+
+  | Shoe size | $37$ | $38$ | $39$ | $40$ | $41$ | $42$ |
+  |---|---|---|---|---|---|---|
+  | Pairs sold | $12$ | $20$ | $31$ | $25$ | $9$ | $3$ |
+
+  The owner plans to order 120 pairs for next month, 20 pairs of each size. If demand stays the same, comment on this plan.
+
+  **Solution.**
+
+  *Understand.* The frequency table gives the demand for each size; $20$ pairs of each size will be ordered.
+
+  *Plan.* For each size, compare $20$ with the frequency $m$: $m>20$ means a shortage, $m<20$ means a surplus.
+
+  *Solve.* Size 39 is $31-20=11$ pairs short and size 40 is $25-20=5$ pairs short, so $16$ sales are lost. Sizes 37, 41 and 42 have $(20-12)+(20-9)+(20-3)=36$ pairs left over.
+
+  So the equal split is not sensible: the shop should order more of sizes 39 and 40 and fewer of sizes 41 and 42, following the shape of the frequency table.
+
+  *Look back.* Would knowing only "the average size is about 39" be enough? No: that number does not say how many pairs of size 37 or 42 are needed.
+  :::
+
+:::warning Common mistakes
+[[P11·c50f]]
+- **The frequencies do not add up to the sample size** (missed or double-counted values). Always add the frequency row and compare it with $n$.
+- **Mixing up values and frequencies.** Wrong: "the largest value is $68$". Right: $68$ is the largest frequency, for the value $7$.
+- **Bars of different widths.** The eye compares areas, so a wider bar looks like "more".
+:::
+
+[[P12·548d]]
+**Connections.** Frequency tables build on the charts you met in years 6 and 7 and are the foundation of this chapter: next we divide frequencies by the sample size to get [relative frequencies](lesson:relative-frequency-tables), then [group the data](lesson:grouped-frequency-tables) when there are too many values; in year 10, we find the mean and the median from a frequency table.
+
+## Key terms
+
+  :::terms
+  - data set | mẫu dữ liệu
+  - value | giá trị
+  - frequency | tần số
+  - frequency table | bảng tần số
+  - sample size | cỡ mẫu
+  - frequency bar chart | biểu đồ tần số dạng cột
+  - frequency line graph | biểu đồ tần số dạng đoạn thẳng
+  :::
+
+## Summary
+
+[[P13·029d]]
+- Frequency: the number of times a value appears; $m_1+m_2+\ldots+m_k=n$ (the sample size).
+- Bar chart: bar height equals the frequency; all bars have the same width.
+- Line graph: join the points $(x_i, m_i)$; use it only when the values are numbers.
+- Total of the data: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+
+## Practice
+
+[[P14·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/function-y-equals-ax2 – BẢN TIẾNG VIỆT ########
+---
+title: Hàm số y = ax² (a ≠ 0)
+description: Nhận biết hàm số y = ax², tính giá trị, lập bảng giá trị, vẽ đồ thị parabol và vận dụng vào các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết hàm số $y=ax^2$ ($a\neq0$) và tính được giá trị của hàm số tại một điểm.
+  - Lập bảng giá trị và vẽ được đồ thị (parabol) của hàm số $y=ax^2$.
+  - Nêu được tính chất đối xứng của đồ thị và vị trí của nó theo dấu của $a$.
+  - Giải được một số bài toán thực tế gắn với hàm số $y=ax^2$.
+  :::
+
+[[P1·a320]]
+Trong khoảng những năm 1602–1604, ở Padova (Ý), Galileo Galilei cho các viên bi lăn trên máng nghiêng để làm chậm chuyển động rơi, nhờ đó đo được nó. Ông tìm ra một quy luật bất ngờ: quãng đường đi được không tỉ lệ với thời gian, mà tỉ lệ với **bình phương** của thời gian (theo MacTutor, Đại học St Andrews). Ở môn Vật lí lớp 10, quy luật rơi tự do được viết là $s=\dfrac12gt^2$ với $g\approx9{,}8$ m/s²; lấy tròn $g\approx10$ ta được $s\approx5t^2$ (mét).
+
+[[P2·4cff]]
+Giả sử bạn thả một viên bi từ sân thượng của một toà nhà cao $45$ m (khoảng $15$ tầng) và bỏ qua sức cản của không khí. Sau bao lâu thì viên bi chạm đất? Và vì sao giây thứ ba viên bi rơi được nhiều hơn hẳn giây thứ nhất?
+
+## Hàm số $y=ax^2$ ($a\neq0$)
+
+### Khám phá: quãng đường rơi theo thời gian
+
+[[P3·986d]]
+Ta tính $s=5t^2$ tại vài thời điểm:
+
+| $t$ (giây) | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $s$ (mét) | $0$ | $5$ | $20$ | $45$ |
+
+[[P4·7211]]
+Thời gian tăng gấp đôi (từ $1$ lên $2$ giây) thì quãng đường tăng gấp bốn (từ $5$ lên $20$ m); thời gian gấp ba thì quãng đường gấp chín. Trong từng giây, viên bi rơi được $5$ m, rồi $15$ m, rồi $25$ m: nó rơi ngày càng nhanh. Mỗi giá trị của $t$ cho đúng một giá trị của $s$, nên $s$ là một hàm số của $t$.
+
+  :::definition Hàm số $y=ax^2$
+  Hàm số có dạng $y=ax^2$, trong đó $a$ là một số thực khác $0$, xác định với mọi số thực $x$. Số $a$ gọi là **hệ số** của hàm số.
+  :::
+
+[[P5·09f8]]
+**Hiểu sâu hơn.** Với hàm số bậc nhất $y=ax$ (lớp 8), $x$ gấp đôi thì $y$ gấp đôi. Với $y=ax^2$, $x$ gấp $k$ lần thì $y$ gấp $k^2$ lần, vì $a(kx)^2=k^2\cdot ax^2$. Đó là lí do diện tích hình vuông cạnh $x$ là $S=x^2$ ($a=1$) và diện tích hình tròn bán kính $R$ là $S=\pi R^2$ ($a=\pi$): phóng to hình gấp đôi thì diện tích gấp bốn.
+
+[[P6·458a]]
+Những hàm số như $y=x^2+1$ hay $y=(x-1)^2$ **không** có dạng $y=ax^2$: đồ thị của chúng không đi qua gốc $O$ (với $y=x^2+1$) hoặc không nhận $Oy$ làm trục đối xứng (với $y=(x-1)^2$). Ở lớp 10, bạn sẽ học các hàm số bậc hai tổng quát như vậy.
+
+  :::example Tính giá trị của hàm số
+  Cho hàm số $y=-2x^2$. Tính giá trị của $y$ khi $x=-3$; $x=\dfrac12$; $x=\sqrt2$.
+
+  **Lời giải.** Thay từng giá trị của $x$ vào công thức. Chú ý bình phương trước, nhân với $-2$ sau:
+
+  $$\begin{aligned} x=-3:&\quad y=-2\cdot(-3)^2=-2\cdot9=-18;\\ x=\tfrac12:&\quad y=-2\cdot\tfrac14=-\tfrac12;\\ x=\sqrt2:&\quad y=-2\cdot(\sqrt2)^2=-2\cdot2=-4. \end{aligned}$$
+
+  Vậy các giá trị tương ứng của $y$ là $-18$; $-\dfrac12$; $-4$.
+  :::
+
+## Đồ thị của hàm số $y=ax^2$
+
+### Khám phá: hai hàm số $y=x^2$ và $y=-x^2$
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
+| $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
+
+[[P7·5493]]
+Hai giá trị đối nhau của $x$ cho cùng một giá trị của $y$, vì $(-x)^2=x^2$. Biểu diễn các điểm $(x; y)$ trên mặt phẳng toạ độ rồi nối bằng một đường cong trơn, ta được hình dưới đây.
+
+:::graph Đồ thị của $y=x^2$ và $y=-x^2$
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Đồ thị của hàm số $y=ax^2$ ($a\neq0$)
+  Đồ thị của hàm số $y=ax^2$ là một đường cong đi qua gốc toạ độ $O$, nhận trục $Oy$ làm trục đối xứng. Đường cong này gọi là một **parabol** với **đỉnh** $O$.
+  - Nếu $a>0$ thì đồ thị nằm phía trên trục hoành, $O$ là điểm thấp nhất của đồ thị.
+  - Nếu $a<0$ thì đồ thị nằm phía dưới trục hoành, $O$ là điểm cao nhất của đồ thị.
+  :::
+
+[[P8·1bca]]
+**Vì sao đối xứng qua $Oy$?** Nếu điểm $(x_0; y_0)$ thuộc đồ thị thì $y_0=ax_0^2=a(-x_0)^2$, nên điểm $(-x_0; y_0)$ cũng thuộc đồ thị. Hai điểm này đối xứng với nhau qua $Oy$. Ngoài ra $x^2\geq0$, nên $y=ax^2$ cùng dấu với $a$ khi $x\neq0$.
+
+  :::example Vẽ đồ thị
+  Vẽ đồ thị của hàm số $y=\dfrac12x^2$.
+
+  **Lời giải.** Ta lập bảng giá trị (chọn $x$ chẵn để $y$ là số nguyên):
+
+  | $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|---|
+  | $y=\frac12x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |
+
+  Biểu diễn các điểm $(-4; 8)$, $(-2; 2)$, $(0; 0)$, $(2; 2)$, $(4; 8)$ rồi nối chúng bằng một đường cong trơn.
+
+  Vậy đồ thị là parabol đỉnh $O$, nằm phía trên trục hoành, nhận $Oy$ làm trục đối xứng (hình dưới).
+  :::
+
+:::graph Đồ thị của hàm số $y=\frac12x^2$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Điểm thuộc đồ thị và bài toán thực tế
+
+[[P9·7e55]]
+Điểm $M(x_0; y_0)$ thuộc đồ thị của hàm số $y=ax^2$ khi và chỉ khi $y_0=ax_0^2$. Nhờ đó, biết một điểm của đồ thị ta tìm được hệ số $a$.
+
+  :::example Tìm hệ số $a$
+  Cho hàm số $y=ax^2$ có đồ thị đi qua điểm $A(2; -12)$.
+
+  a) Tìm $a$.
+
+  b) Điểm $B(-1; -3)$ và $C(3; 27)$ có thuộc đồ thị không?
+
+  **Lời giải.** a) Thay $x=2$, $y=-12$ vào $y=ax^2$, ta được
+
+  $$-12=a\cdot2^2\Leftrightarrow 4a=-12\Leftrightarrow a=-3.$$
+
+  b) Với $y=-3x^2$, ta có $-3\cdot(-1)^2=-3$ nên $B$ thuộc đồ thị; $-3\cdot3^2=-27\neq27$ nên $C$ không thuộc đồ thị.
+
+  Vậy $a=-3$; điểm $B$ thuộc đồ thị, điểm $C$ không thuộc đồ thị.
+  :::
+
+[[P10·e10f]]
+Ngược lại, biết tung độ, ta tìm hoành độ bằng cách giải $ax^2=y_0$. Do tính đối xứng, thường có hai giá trị đối nhau của $x$.
+
+  :::example Trả lời câu hỏi ở đầu bài
+  Viên bi rơi từ độ cao $45$ m, quãng đường rơi là $s=5t^2$ (m). Sau bao lâu viên bi chạm đất? Sau $2$ giây, viên bi còn cách mặt đất bao nhiêu mét?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần tìm $t$ lúc viên bi chạm đất, và độ cao còn lại khi $t=2$.
+
+  *Tìm cách giải.* Viên bi chạm đất khi quãng đường rơi bằng độ cao, tức $s=45$. Độ cao còn lại bằng $45-s$.
+
+  *Giải.* Ta có
+
+  $$5t^2=45\Leftrightarrow t^2=9\Leftrightarrow t=3\ \text{ hoặc }\ t=-3.$$
+
+  Vì $t>0$ nên $t=3$. Sau $2$ giây, viên bi rơi được $s=5\cdot2^2=20$ (m), nên còn cách mặt đất $45-20=25$ (m).
+
+  Vậy viên bi chạm đất sau $3$ giây; sau $2$ giây nó còn cách mặt đất $25$ m.
+
+  *Nhìn lại.* Kết quả có hợp lí không? Sau $2$ giây (hai phần ba thời gian) viên bi mới rơi được chưa đến một nửa độ cao, vì nó rơi ngày càng nhanh. Nếu toà nhà cao gấp bốn ($180$ m) thì thời gian rơi chỉ gấp đôi ($t^2=36$, $t=6$ giây), không gấp bốn.
+  :::
+
+[[P11·07af]]
+**Kết nối.** Bài này dựa trên hàm số, đồ thị (lớp 8) và căn bậc hai. Giải $ax^2=k$ là trường hợp đơn giản nhất của [phương trình bậc hai một ẩn](lesson:quadratic-equations). Parabol còn là quỹ đạo của quả bóng được ném xiên (khi bỏ qua sức cản không khí) và là đồ thị của hàm số bậc hai lớp 10.
+
+:::warning Những sai lầm thường gặp
+[[P12·d09f]]
+- **Bình phương cả hệ số.** Sai: với $y=-2x^2$, tại $x=-3$ tính $y=(-2\cdot(-3))^2=36$. Lí do sai: chỉ $x$ được bình phương. Đúng: $y=-2\cdot(-3)^2=-18$.
+- **Bỏ sót một giá trị của $x$.** Sai: "$x^2=9$ nên $x=3$". Lí do sai: $(-3)^2=9$ cũng đúng. Đúng: $x=3$ hoặc $x=-3$, rồi đối chiếu điều kiện của bài toán (như $t>0$).
+- **Nối các điểm bằng đoạn thẳng.** Đồ thị là một đường cong trơn, ở gần đỉnh $O$ nó "tròn", không có góc nhọn.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàm số $y=ax^2$ | the function $y=ax^2$
+  - hệ số | coefficient
+  - bảng giá trị | table of values
+  - đồ thị | graph
+  - parabol | parabola
+  - đỉnh | vertex
+  - trục đối xứng | axis of symmetry
+  - điểm thấp nhất / cao nhất | lowest / highest point
+  :::
+
+## Tóm tắt
+
+[[P13·c894]]
+- Hàm số $y=ax^2$ ($a\neq0$) xác định với mọi $x\in\mathbb{R}$; $x$ và $-x$ cho cùng một giá trị $y$.
+- Đồ thị là parabol đỉnh $O$, trục đối xứng $Oy$.
+- $a>0$: đồ thị ở phía trên trục hoành, $O$ thấp nhất; $a<0$: đồ thị ở phía dưới trục hoành, $O$ cao nhất.
+- $M(x_0; y_0)$ thuộc đồ thị $\Leftrightarrow y_0=ax_0^2$; dùng điều này để tìm $a$ hoặc tìm điểm.
+- Vẽ đồ thị: lập bảng giá trị với các cặp $x$ đối nhau, nối bằng đường cong trơn.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/function-y-equals-ax2 – BẢN TIẾNG ANH ########
+---
+title: The function y = ax² (a ≠ 0)
+description: Recognise the function y = ax², find its values, make a table of values, draw its parabola and use it in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the function $y=ax^2$ ($a\neq0$) and find its value at a given point.
+  - Make a table of values and draw the graph (a parabola) of $y=ax^2$.
+  - State the symmetry of the graph and its position depending on the sign of $a$.
+  - Solve some real-life problems involving the function $y=ax^2$.
+  :::
+
+[[P1·43b3]]
+Between about 1602 and 1604, in Padua (Italy), Galileo Galilei rolled balls down sloping channels to slow down falling motion so that he could measure it. He found a surprising law: the distance travelled is not proportional to the time, but to the **square** of the time (MacTutor, University of St Andrews). In grade 10 physics, the law of free fall is written as $s=\dfrac12gt^2$ with $g\approx9.8$ m/s²; rounding to $g\approx10$ gives $s\approx5t^2$ (metres).
+
+[[P2·c784]]
+Suppose you drop a marble from the roof of a building $45$ m high (about $15$ storeys) and ignore air resistance. How long does it take the marble to reach the ground? And why does it fall so much further in the third second than in the first?
+
+## The function $y=ax^2$ ($a\neq0$)
+
+### Explore: distance fallen over time
+
+[[P3·74a7]]
+We work out $s=5t^2$ at a few times:
+
+| $t$ (seconds) | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $s$ (metres) | $0$ | $5$ | $20$ | $45$ |
+
+[[P4·f845]]
+When the time doubles (from $1$ to $2$ seconds), the distance becomes four times as large (from $5$ to $20$ m); three times the time gives nine times the distance. In each second the marble falls $5$ m, then $15$ m, then $25$ m: it keeps speeding up. Each value of $t$ gives exactly one value of $s$, so $s$ is a function of $t$.
+
+  :::definition The function $y=ax^2$
+  A function of the form $y=ax^2$, where $a$ is a real number other than $0$, is defined for every real number $x$. The number $a$ is called the **coefficient** of the function.
+  :::
+
+[[P5·8fa6]]
+**Going deeper.** For the linear function $y=ax$ (grade 8), doubling $x$ doubles $y$. For $y=ax^2$, multiplying $x$ by $k$ multiplies $y$ by $k^2$, because $a(kx)^2=k^2\cdot ax^2$. That is why the area of a square with side $x$ is $S=x^2$ ($a=1$) and the area of a circle with radius $R$ is $S=\pi R^2$ ($a=\pi$): enlarge a shape by a factor of $2$ and its area becomes four times as large.
+
+[[P6·ff06]]
+Functions such as $y=x^2+1$ or $y=(x-1)^2$ do **not** have the form $y=ax^2$: their graphs do not pass through $O$ (for $y=x^2+1$) or do not have the $y$-axis as axis of symmetry (for $y=(x-1)^2$). In grade 10 you will study general quadratic functions like these.
+
+  :::example Finding values of the function
+  Consider the function $y=-2x^2$. Find the value of $y$ when $x=-3$, $x=\dfrac12$ and $x=\sqrt2$.
+
+  **Solution.** We substitute each value of $x$ into the formula. Note that we square first and multiply by $-2$ afterwards:
+
+  $$\begin{aligned} x=-3:&\quad y=-2\cdot(-3)^2=-2\cdot9=-18;\\ x=\tfrac12:&\quad y=-2\cdot\tfrac14=-\tfrac12;\\ x=\sqrt2:&\quad y=-2\cdot(\sqrt2)^2=-2\cdot2=-4. \end{aligned}$$
+
+  So the corresponding values of $y$ are $-18$, $-\dfrac12$ and $-4$.
+  :::
+
+## The graph of $y=ax^2$
+
+### Explore: the functions $y=x^2$ and $y=-x^2$
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
+| $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
+
+[[P7·32ac]]
+Two opposite values of $x$ give the same value of $y$, because $(-x)^2=x^2$. Plotting the points $(x, y)$ on a coordinate grid and joining them with a smooth curve, we get the picture below.
+
+:::graph The graphs of $y=x^2$ and $y=-x^2$
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The graph of $y=ax^2$ ($a\neq0$)
+  The graph of $y=ax^2$ is a curve through the origin $O$ with the $y$-axis as its axis of symmetry. This curve is called a **parabola** with **vertex** $O$.
+  - If $a>0$, the graph lies above the $x$-axis and $O$ is its lowest point.
+  - If $a<0$, the graph lies below the $x$-axis and $O$ is its highest point.
+  :::
+
+[[P8·ba06]]
+**Why is it symmetrical about the $y$-axis?** If the point $(x_0, y_0)$ is on the graph, then $y_0=ax_0^2=a(-x_0)^2$, so the point $(-x_0, y_0)$ is on the graph too. These two points are reflections of each other in the $y$-axis. Also $x^2\geq0$, so $y=ax^2$ has the same sign as $a$ when $x\neq0$.
+
+  :::example Drawing a graph
+  Draw the graph of $y=\dfrac12x^2$.
+
+  **Solution.** We make a table of values (choosing even $x$ so that $y$ is a whole number):
+
+  | $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|---|
+  | $y=\frac12x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |
+
+  We plot the points $(-4, 8)$, $(-2, 2)$, $(0, 0)$, $(2, 2)$, $(4, 8)$ and join them with a smooth curve.
+
+  So the graph is a parabola with vertex $O$, lying above the $x$-axis, with the $y$-axis as its axis of symmetry (see the figure below).
+  :::
+
+:::graph The graph of $y=\frac12x^2$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Points on the graph and real-life problems
+
+[[P9·5254]]
+The point $M(x_0, y_0)$ lies on the graph of $y=ax^2$ exactly when $y_0=ax_0^2$. So if we know one point of the graph, we can find the coefficient $a$.
+
+  :::example Finding the coefficient $a$
+  The graph of $y=ax^2$ passes through the point $A(2, -12)$.
+
+  a) Find $a$.
+
+  b) Do the points $B(-1, -3)$ and $C(3, 27)$ lie on the graph?
+
+  **Solution.** a) Substituting $x=2$, $y=-12$ into $y=ax^2$, we get
+
+  $$-12=a\cdot2^2\Leftrightarrow 4a=-12\Leftrightarrow a=-3.$$
+
+  b) With $y=-3x^2$, we have $-3\cdot(-1)^2=-3$, so $B$ lies on the graph; $-3\cdot3^2=-27\neq27$, so $C$ does not.
+
+  So $a=-3$; the point $B$ lies on the graph and the point $C$ does not.
+  :::
+
+[[P10·cadf]]
+Conversely, if we know the $y$-coordinate, we find the $x$-coordinate by solving $ax^2=y_0$. Because of the symmetry, there are usually two opposite values of $x$.
+
+  :::example Answering the opening question
+  The marble falls from a height of $45$ m, and the distance fallen is $s=5t^2$ (m). How long does it take to reach the ground? After $2$ seconds, how far above the ground is it?
+
+  **Solution.**
+
+  *Understand.* We need the time $t$ when the marble reaches the ground, and the height left when $t=2$.
+
+  *Plan.* The marble reaches the ground when the distance fallen equals the height, that is $s=45$. The height left is $45-s$.
+
+  *Solve.* We have
+
+  $$5t^2=45\Leftrightarrow t^2=9\Leftrightarrow t=3\ \text{ or }\ t=-3.$$
+
+  Since $t>0$, $t=3$. After $2$ seconds the marble has fallen $s=5\cdot2^2=20$ (m), so it is $45-20=25$ (m) above the ground.
+
+  So the marble reaches the ground after $3$ seconds; after $2$ seconds it is $25$ m above the ground.
+
+  *Look back.* Is the result sensible? After $2$ seconds (two thirds of the time) the marble has fallen less than half the height, because it keeps speeding up. If the building were four times as high ($180$ m), the fall would take only twice as long ($t^2=36$, $t=6$ seconds), not four times as long.
+  :::
+
+[[P11·59fa]]
+**Connections.** This lesson builds on functions, graphs (grade 8) and square roots. Solving $ax^2=k$ is the simplest case of a [quadratic equation in one unknown](lesson:quadratic-equations). A parabola is also the path of a ball thrown at an angle (ignoring air resistance) and the graph of the quadratic functions of grade 10.
+
+:::warning Common mistakes
+[[P12·24e1]]
+- **Squaring the coefficient as well.** Wrong: for $y=-2x^2$ at $x=-3$, working out $y=(-2\cdot(-3))^2=36$. Why it is wrong: only $x$ is squared. Right: $y=-2\cdot(-3)^2=-18$.
+- **Missing one value of $x$.** Wrong: "$x^2=9$, so $x=3$". Why it is wrong: $(-3)^2=9$ as well. Right: $x=3$ or $x=-3$, then check the condition of the problem (such as $t>0$).
+- **Joining the points with straight lines.** The graph is a smooth curve; near the vertex $O$ it is "rounded", with no sharp corner.
+:::
+
+## Key terms
+
+  :::terms
+  - the function $y=ax^2$ | hàm số $y=ax^2$
+  - coefficient | hệ số
+  - table of values | bảng giá trị
+  - graph | đồ thị
+  - parabola | parabol
+  - vertex | đỉnh
+  - axis of symmetry | trục đối xứng
+  - lowest / highest point | điểm thấp nhất / cao nhất
+  :::
+
+## Summary
+
+[[P13·d964]]
+- The function $y=ax^2$ ($a\neq0$) is defined for all $x\in\mathbb{R}$; $x$ and $-x$ give the same value of $y$.
+- Its graph is a parabola with vertex $O$ and axis of symmetry the $y$-axis.
+- $a>0$: the graph is above the $x$-axis and $O$ is lowest; $a<0$: the graph is below the $x$-axis and $O$ is highest.
+- $M(x_0, y_0)$ is on the graph $\Leftrightarrow y_0=ax_0^2$; use this to find $a$ or to find points.
+- To draw the graph: make a table of values with opposite pairs of $x$ and join with a smooth curve.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/g9-equation-word-problems – BẢN TIẾNG VIỆT ########
+---
+title: Giải bài toán bằng cách lập phương trình
+description: Giải bài toán thực tế bằng cách lập phương trình bậc hai: chọn ẩn, đặt điều kiện, lập và giải phương trình, đối chiếu điều kiện và kết luận.
+minutes: 20
+---
+
+  :::goals
+  - Nắm vững các bước giải bài toán bằng cách lập phương trình.
+  - Biểu diễn các đại lượng chưa biết qua ẩn và lập được phương trình bậc hai từ đề bài.
+  - Giải các bài toán về hình học, năng suất, chuyển động và tăng trưởng phần trăm.
+  - Đối chiếu nghiệm với điều kiện và với thực tế trước khi kết luận.
+  :::
+
+[[P1·5b7a]]
+Giả sử đầu xuân, một đội thanh niên tình nguyện của xã dự định trồng $120$ cây xanh dọc con đường vào trường, mỗi ngày trồng một số cây như nhau. Khi bắt tay vào làm, có thêm các bạn học sinh tham gia nên mỗi ngày đội trồng được nhiều hơn dự định $4$ cây, và xong việc sớm hơn $1$ ngày. Theo dự định, mỗi ngày đội trồng bao nhiêu cây?
+
+[[P2·8dd5]]
+Trong bài toán này có ba đại lượng ràng buộc nhau: số cây mỗi ngày, số ngày và tổng số cây ($\text{tổng} = \text{mỗi ngày}\times\text{số ngày}$). Lập phương trình chính là viết mối ràng buộc ấy bằng ngôn ngữ đại số, rồi để phương trình bậc hai (bài [phương trình bậc hai một ẩn](lesson:quadratic-equations)) làm phần việc còn lại.
+
+## Các bước giải bài toán bằng cách lập phương trình
+
+  :::definition Các bước giải bài toán bằng cách lập phương trình
+  **Bước 1.** Lập phương trình:
+  - Chọn ẩn số và đặt điều kiện thích hợp cho ẩn (kèm đơn vị);
+  - Biểu diễn các đại lượng chưa biết khác theo ẩn và các đại lượng đã biết;
+  - Lập phương trình biểu thị mối quan hệ giữa các đại lượng.
+
+  **Bước 2.** Giải phương trình.
+
+  **Bước 3.** Kiểm tra xem trong các nghiệm của phương trình, nghiệm nào thoả mãn điều kiện của ẩn, rồi kết luận.
+  :::
+
+[[P3·d8a7]]
+**Hiểu sâu hơn.** Phương trình là một *mô hình* của tình huống thực tế, và mô hình thường "rộng" hơn thực tế: nó có thể có nghiệm âm dù không có độ dài nào âm. Vì thế điều kiện ở Bước 1 không phải là thủ tục: nó giúp Bước 3 lọc nghiệm. Thường ta chọn ẩn là đại lượng đề bài hỏi; nếu phương trình trở nên rối, hãy chọn đại lượng khác.
+
+  :::example Hai số tự nhiên liên tiếp
+  Tìm hai số tự nhiên liên tiếp có tích bằng $156$.
+
+  **Lời giải.** Gọi số nhỏ là $x$ ($x\in\mathbb{N}$); số liền sau là $x+1$. Theo đề bài ta có phương trình
+
+  $$x(x+1)=156\Leftrightarrow x^2+x-156=0.$$
+
+  Ta có $\Delta=1+624=625$, $\sqrt\Delta=25$, nên $x_1=\dfrac{-1+25}{2}=12$ (thoả mãn điều kiện), $x_2=\dfrac{-1-25}{2}=-13$ (loại vì không là số tự nhiên).
+
+  Vậy hai số cần tìm là $12$ và $13$.
+  :::
+
+## Bài toán có nội dung hình học
+
+[[P4·17b7]]
+Trong bài toán hình học, chu vi, diện tích và định lí Pythagore là "cầu nối" giữa ẩn và dữ kiện; một hình vẽ ghi kích thước theo $x$ giúp lập phương trình nhanh hơn.
+
+  :::example Lối đi trong vườn
+  Giả sử một mảnh vườn hình chữ nhật dài $20$ m, rộng $14$ m. Người ta làm một lối đi có chiều rộng đều nhau chạy sát bốn cạnh, bên trong mảnh vườn; phần còn lại để trồng rau có diện tích $160$ m². Tính chiều rộng của lối đi.
+
+  **Lời giải.** Gọi chiều rộng lối đi là $x$ (m), $0<x<7$. Phần trồng rau là hình chữ nhật có kích thước $20-2x$ và $14-2x$ (m). Theo đề bài ta có phương trình
+
+  $$(20-2x)(14-2x)=160\Leftrightarrow4x^2-68x+120=0\Leftrightarrow x^2-17x+30=0.$$
+
+  Ta có $\Delta=289-120=169$, nên $x_1=\dfrac{17+13}{2}=15$ (loại vì $15>7$), $x_2=\dfrac{17-13}{2}=2$ (thoả mãn điều kiện).
+
+  Vậy lối đi rộng $2$ m.
+  :::
+
+:::diagram Phần trồng rau $16$ m $\times$ $10$ m bên trong mảnh vườn $20$ m $\times$ $14$ m
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài toán về năng suất và chuyển động
+
+[[P5·4f50]]
+Hai dạng này có cùng một cấu trúc: $\text{khối lượng công việc}=\text{năng suất}\times\text{thời gian}$ và $\text{quãng đường}=\text{vận tốc}\times\text{thời gian}$. Thời gian được biểu diễn bằng một phân thức, nên phương trình có ẩn ở mẫu (bài [phương trình quy về phương trình bậc nhất](lesson:equations-reducible-to-linear)).
+
+  :::example Trả lời câu hỏi ở đầu bài
+  Giải bài toán trồng cây ở đầu bài.
+
+  **Lời giải.** Gọi số cây mỗi ngày đội dự định trồng là $x$ ($x\in\mathbb{N}^*$). Thời gian dự định là $\dfrac{120}{x}$ ngày; thực tế mỗi ngày trồng $x+4$ cây nên thời gian thực tế là $\dfrac{120}{x+4}$ ngày. Vì thực tế xong sớm hơn $1$ ngày nên ta có phương trình
+
+  $$\frac{120}{x}-\frac{120}{x+4}=1.$$
+
+  Nhân hai vế với $x(x+4)$, ta được $120(x+4)-120x=x(x+4)\Leftrightarrow x^2+4x-480=0$. Ta có $\Delta'=4+480=484$, $\sqrt{\Delta'}=22$, nên $x_1=-2+22=20$ (thoả mãn điều kiện), $x_2=-2-22=-24$ (loại).
+
+  Vậy theo dự định, mỗi ngày đội trồng $20$ cây.
+
+  **Kiểm tra.** Dự định $120:20=6$ ngày, thực tế $120:24=5$ ngày, sớm hơn $1$ ngày.
+  :::
+
+[[P6·43d1]]
+Bài toán chuyển động sau đây có nhiều dữ kiện hơn, nên ta đi đủ bốn bước.
+
+  :::example Đi và về với hai vận tốc
+  Một người đi xe máy từ nhà đến thành phố cách $60$ km. Lúc về, người đó tăng vận tốc thêm $10$ km/h nên thời gian về ít hơn thời gian đi $30$ phút. Tính vận tốc lúc đi.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Vận tốc về lớn hơn $10$ km/h; thời gian về ít hơn $30$ phút $=\dfrac12$ giờ.
+
+  *Tìm cách giải.* Gọi vận tốc lúc đi là $x$ (km/h), $x>0$. Thời gian đi là $\dfrac{60}{x}$ (giờ), thời gian về là $\dfrac{60}{x+10}$ (giờ). Theo đề bài ta có phương trình
+
+  $$\frac{60}{x}-\frac{60}{x+10}=\frac12.$$
+
+  *Giải.* Nhân hai vế với $2x(x+10)$, ta được $120(x+10)-120x=x(x+10)\Leftrightarrow x^2+10x-1200=0$. Ta có $\Delta'=25+1200=1225$, $\sqrt{\Delta'}=35$, nên $x_1=-5+35=30$ (thoả mãn), $x_2=-5-35=-40$ (loại).
+
+  Vậy vận tốc lúc đi là $30$ km/h.
+
+  *Nhìn lại.* Kết quả có hợp lí không? Đi hết $2$ giờ, về với $40$ km/h hết $1{,}5$ giờ, đúng là ít hơn $30$ phút. Nếu quên đổi $30$ phút ra giờ mà viết vế phải là $30$, ta được $x^2+10x-20=0$, cho vận tốc khoảng $1{,}7$ km/h, chậm hơn cả đi bộ: dấu hiệu đơn vị bị sai.
+  :::
+
+## Bài toán về tăng trưởng phần trăm
+
+[[P7·09a6]]
+Nếu một đại lượng tăng $r$ (viết dạng số thập phân) mỗi năm thì sau mỗi năm nó được nhân với $1+r$; sau hai năm, nó được nhân với $(1+r)^2$. Đây là quy luật chung của lãi kép, tăng dân số, tăng giá.
+
+  :::example Dân số của một xã
+  Giả sử dân số của một xã tăng từ $10\,000$ người lên $10\,404$ người sau $2$ năm, với tỉ lệ tăng hằng năm như nhau. Tính tỉ lệ tăng dân số hằng năm của xã.
+
+  **Lời giải.** Gọi tỉ lệ tăng hằng năm là $r$ ($r>0$). Theo đề bài ta có phương trình
+
+  $$10\,000(1+r)^2=10\,404\Leftrightarrow(1+r)^2=1{,}0404\Leftrightarrow1+r=1{,}02\ \text{(vì }1+r>0).$$
+
+  Suy ra $r=0{,}02$.
+
+  Vậy tỉ lệ tăng dân số hằng năm là $2\%$.
+
+  **Nhận xét.** Hai năm tăng tổng cộng $4{,}04\%$, không phải $4\%$, vì năm thứ hai tăng $2\%$ trên số dân *đã tăng*.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P8·52b1]]
+- **Không đối chiếu điều kiện.** Sai: "vận tốc là $30$ km/h hoặc $-40$ km/h". Đúng: loại nghiệm không thoả mãn điều kiện ($x>0$) rồi mới kết luận.
+- **Lập sai hiệu thời gian.** "Xong sớm hơn" nghĩa là thời gian dự định lớn hơn, nên phải lấy $\text{dự định}-\text{thực tế}=1$, không phải ngược lại.
+:::
+
+[[P9·a5c5]]
+**Kết nối.** Bài này gom các công cụ của chương: công thức nghiệm, định lí Viète, phương trình chứa ẩn ở mẫu; nó cũng nối với cách lập hệ phương trình ở chương I. Gặp một bài toán, hãy tự hỏi: các đại lượng nào phụ thuộc nhau, và quan hệ nào giữa chúng là "bằng nhau"?
+
+## Thuật ngữ
+
+  :::terms
+  - giải bài toán bằng cách lập phương trình | solving problems by forming equations
+  - chọn ẩn | choosing the unknown
+  - điều kiện của ẩn | condition on the unknown
+  - thoả mãn điều kiện | satisfies the condition
+  - năng suất | rate of work
+  - vận tốc | speed
+  - tỉ lệ tăng | growth rate
+  - lãi kép | compound interest
+  :::
+
+## Tóm tắt
+
+[[P10·bffa]]
+- Ba bước: lập phương trình (chọn ẩn, điều kiện, biểu diễn, lập) → giải → đối chiếu điều kiện và thực tế (độ dài dương, số tự nhiên…) rồi kết luận.
+- Hình học: dùng chu vi, diện tích, định lí Pythagore; vẽ hình ghi kích thước theo $x$.
+- Năng suất, chuyển động: $\text{thời gian}=\dfrac{\text{tổng}}{\text{năng suất}}$ hoặc $\dfrac{\text{quãng đường}}{\text{vận tốc}}$; đổi đơn vị cho thống nhất.
+- Tăng trưởng: sau hai năm đại lượng được nhân với $(1+r)^2$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/g9-equation-word-problems – BẢN TIẾNG ANH ########
+---
+title: Solving word problems by forming equations
+description: Solve real-life problems with quadratic equations: choose the unknown, state its condition, form and solve the equation, check the condition and conclude.
+minutes: 20
+---
+
+  :::goals
+  - Know the steps for solving a problem by forming an equation.
+  - Express unknown quantities in terms of one unknown and form a quadratic equation from the problem.
+  - Solve problems about geometry, rates of work, motion and percentage growth.
+  - Check the roots against the condition and against reality before concluding.
+  :::
+
+[[P1·bfbc]]
+Suppose that at the start of spring, a youth volunteer team in a commune plans to plant $120$ trees along the road to the school, the same number every day. When the work begins, some students join in, so the team plants $4$ more trees per day than planned and finishes $1$ day early. How many trees per day did the team plan to plant?
+
+[[P2·aeba]]
+Three quantities in this problem are tied together: trees per day, number of days and the total number of trees ($\text{total}=\text{per day}\times\text{days}$). Forming an equation means writing this link in the language of algebra, and then letting quadratic equations (lesson [quadratic equations in one unknown](lesson:quadratic-equations)) do the rest.
+
+## The steps for solving a problem by forming an equation
+
+  :::definition The steps for solving a problem by forming an equation
+  **Step 1.** Form the equation:
+  - Choose the unknown and state a suitable condition on it (with units);
+  - Express the other unknown quantities in terms of the unknown and the known quantities;
+  - Form an equation showing the relation between the quantities.
+
+  **Step 2.** Solve the equation.
+
+  **Step 3.** Check which roots of the equation satisfy the condition on the unknown, then conclude.
+  :::
+
+[[P3·9592]]
+**Going deeper.** An equation is a *model* of a real situation, and a model is often "wider" than reality: it can have a negative root even though no length is negative. So the condition in Step 1 is not a formality: it lets Step 3 filter the roots. We usually choose the quantity the problem asks for as the unknown; if the equation becomes messy, choose another quantity.
+
+  :::example Two consecutive natural numbers
+  Find two consecutive natural numbers whose product is $156$.
+
+  **Solution.** Let the smaller number be $x$ ($x\in\mathbb{N}$); the next number is $x+1$. From the problem we have the equation
+
+  $$x(x+1)=156\Leftrightarrow x^2+x-156=0.$$
+
+  We have $\Delta=1+624=625$ and $\sqrt\Delta=25$, so $x_1=\dfrac{-1+25}{2}=12$ (satisfies the condition) and $x_2=\dfrac{-1-25}{2}=-13$ (rejected, since it is not a natural number).
+
+  So the two numbers are $12$ and $13$.
+  :::
+
+## Geometry problems
+
+[[P4·8caf]]
+In geometry problems, perimeter, area and Pythagoras' theorem are the "bridges" between the unknown and the data; a figure with the dimensions written in terms of $x$ makes the equation quicker to form.
+
+  :::example A path in a garden
+  Suppose a rectangular garden is $20$ m long and $14$ m wide. A path of constant width runs along all four sides, inside the garden; the rest, used for vegetables, has area $160$ m². Find the width of the path.
+
+  **Solution.** Let the width of the path be $x$ (m), $0<x<7$. The vegetable plot is a rectangle measuring $20-2x$ by $14-2x$ (m). From the problem we have the equation
+
+  $$(20-2x)(14-2x)=160\Leftrightarrow4x^2-68x+120=0\Leftrightarrow x^2-17x+30=0.$$
+
+  We have $\Delta=289-120=169$, so $x_1=\dfrac{17+13}{2}=15$ (rejected, since $15>7$) and $x_2=\dfrac{17-13}{2}=2$ (satisfies the condition).
+
+  So the path is $2$ m wide.
+  :::
+
+:::diagram The vegetable plot $16$ m $\times$ $10$ m inside the garden $20$ m $\times$ $14$ m
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Rate of work and motion problems
+
+[[P5·de01]]
+These two types have the same structure: $\text{amount of work}=\text{rate}\times\text{time}$ and $\text{distance}=\text{speed}\times\text{time}$. The time is written as a fraction, so the equation has the unknown in a denominator (lesson [equations reducible to linear equations](lesson:equations-reducible-to-linear)).
+
+  :::example Answering the opening question
+  Solve the tree-planting problem from the opening.
+
+  **Solution.** Let the planned number of trees per day be $x$ ($x\in\mathbb{N}^*$). The planned time is $\dfrac{120}{x}$ days; in fact the team plants $x+4$ trees per day, so the actual time is $\dfrac{120}{x+4}$ days. Since the team finishes $1$ day early, we have the equation
+
+  $$\frac{120}{x}-\frac{120}{x+4}=1.$$
+
+  Multiplying both sides by $x(x+4)$, we get $120(x+4)-120x=x(x+4)\Leftrightarrow x^2+4x-480=0$. We have $\Delta'=4+480=484$ and $\sqrt{\Delta'}=22$, so $x_1=-2+22=20$ (satisfies the condition) and $x_2=-2-22=-24$ (rejected).
+
+  So the team planned to plant $20$ trees per day.
+
+  **Check.** Planned: $120\div20=6$ days; actual: $120\div24=5$ days, which is $1$ day early.
+  :::
+
+[[P6·935b]]
+The next motion problem has more data, so we go through all four steps.
+
+  :::example There and back at two speeds
+  A motorcyclist rides from home to a city $60$ km away. On the way back, the rider goes $10$ km/h faster, so the return journey takes $30$ minutes less. Find the speed on the way there.
+
+  **Solution.**
+
+  *Understand.* The return speed is $10$ km/h higher; the return time is $30$ minutes $=\dfrac12$ hour shorter.
+
+  *Plan.* Let the speed on the way there be $x$ (km/h), $x>0$. The time there is $\dfrac{60}{x}$ (hours) and the time back is $\dfrac{60}{x+10}$ (hours). From the problem we have the equation
+
+  $$\frac{60}{x}-\frac{60}{x+10}=\frac12.$$
+
+  *Solve.* Multiplying both sides by $2x(x+10)$, we get $120(x+10)-120x=x(x+10)\Leftrightarrow x^2+10x-1200=0$. We have $\Delta'=25+1200=1225$ and $\sqrt{\Delta'}=35$, so $x_1=-5+35=30$ (satisfies the condition) and $x_2=-5-35=-40$ (rejected).
+
+  So the speed on the way there is $30$ km/h.
+
+  *Look back.* Is the result sensible? The journey there takes $2$ hours and the return at $40$ km/h takes $1.5$ hours, indeed $30$ minutes less. If we forgot to convert $30$ minutes into hours and wrote $30$ on the right-hand side, we would get $x^2+10x-20=0$, giving a speed of about $1.7$ km/h, slower than walking: a sign that the units are wrong.
+  :::
+
+## Percentage growth problems
+
+[[P7·f2bc]]
+If a quantity grows by $r$ (written as a decimal) each year, then each year it is multiplied by $1+r$; after two years it is multiplied by $(1+r)^2$. This is the common law behind compound interest, population growth and rising prices.
+
+  :::example The population of a commune
+  Suppose the population of a commune grows from $10\,000$ to $10\,404$ people in $2$ years, at the same rate each year. Find the yearly growth rate of the population.
+
+  **Solution.** Let the yearly growth rate be $r$ ($r>0$). From the problem we have the equation
+
+  $$10\,000(1+r)^2=10\,404\Leftrightarrow(1+r)^2=1.0404\Leftrightarrow1+r=1.02\ \text{(since }1+r>0).$$
+
+  Hence $r=0.02$.
+
+  So the population grows by $2\%$ per year.
+
+  **Remark.** The total growth over two years is $4.04\%$, not $4\%$, because in the second year the $2\%$ is taken of the population that has *already grown*.
+  :::
+
+:::warning Common mistakes
+[[P8·440d]]
+- **Not checking the condition.** Wrong: "the speed is $30$ km/h or $-40$ km/h". Right: reject the roots that break the condition ($x>0$) before concluding.
+- **Subtracting the times the wrong way round.** "Finishes early" means the planned time is longer, so we need $\text{planned}-\text{actual}=1$, not the other way round.
+:::
+
+[[P9·c7e8]]
+**Connections.** This lesson gathers the tools of the chapter: the quadratic formula, Viète's theorem and equations with the unknown in a denominator; it also links to forming simultaneous equations in chapter I. When you meet a problem, ask yourself: which quantities depend on each other, and which relation between them is an "equals"?
+
+## Key terms
+
+  :::terms
+  - solving problems by forming equations | giải bài toán bằng cách lập phương trình
+  - choosing the unknown | chọn ẩn
+  - condition on the unknown | điều kiện của ẩn
+  - satisfies the condition | thoả mãn điều kiện
+  - rate of work | năng suất
+  - speed | vận tốc
+  - growth rate | tỉ lệ tăng
+  - compound interest | lãi kép
+  :::
+
+## Summary
+
+[[P10·cf28]]
+- Three steps: form the equation (unknown, condition, express, equation) → solve → check against the condition and reality (positive lengths, natural numbers, …), then conclude.
+- Geometry: use perimeter, area and Pythagoras' theorem; draw a figure with dimensions in terms of $x$.
+- Rate of work and motion: $\text{time}=\dfrac{\text{total}}{\text{rate}}$ or $\dfrac{\text{distance}}{\text{speed}}$; make the units consistent.
+- Growth: after two years a quantity is multiplied by $(1+r)^2$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/grouped-frequency-tables – BẢN TIẾNG VIỆT ########
+---
+title: Bảng tần số, tần số tương đối ghép nhóm và biểu đồ
+description: Ghép nhóm số liệu, lập bảng tần số và tần số tương đối ghép nhóm, vẽ và đọc biểu đồ dạng cột liền nhau và dạng đoạn thẳng.
+minutes: 20
+---
+
+  :::goals
+  - Hiểu vì sao và khi nào cần ghép nhóm số liệu; biết nhóm $[a; b)$, độ dài nhóm, giá trị đại diện của nhóm.
+  - Lập được bảng tần số ghép nhóm và bảng tần số tương đối ghép nhóm.
+  - Vẽ và đọc được biểu đồ tần số (tương đối) ghép nhóm dạng cột và dạng đoạn thẳng.
+  :::
+
+[[P1·76b1]]
+Giả sử thầy giáo thể dục đo chiều cao (cm) của 20 bạn trong đội tuyển điền kinh:
+
+  $$154,\ 161,\ 164,\ 151,\ 161,\ 155,\ 153,\ 163,\ 159,\ 159,\ 154,\ 149,\ 155,\ 146,\ 158,\ 168,\ 169,\ 159,\ 152,\ 157.$$
+
+[[P2·ca25]]
+Nếu lập bảng tần số như bài trước, ta được tới 15 giá trị khác nhau, phần lớn chỉ xuất hiện một lần: bảng dài mà chẳng cho thấy gì. Trong khi thầy chỉ cần biết "bao nhiêu bạn cao từ 155 cm đến dưới 160 cm" để chọn cỡ áo. Làm sao để bảng vừa gọn vừa nói được điều cần nói?
+
+## Ghép nhóm số liệu
+
+### Khám phá: gom theo từng khoảng 5 cm
+
+[[P3·8494]]
+Ta chia các chiều cao vào các khoảng dài 5 cm rồi đếm:
+
+| Chiều cao (cm) | $[145; 150)$ | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ |
+|---|---|---|---|---|---|
+| Số bạn | $2$ | $5$ | $7$ | $4$ | $2$ |
+
+[[P4·6152]]
+Kí hiệu $[155; 160)$ gồm các số $x$ với $155\leq x<160$: bạn cao $155$ cm thuộc nhóm này, còn bạn cao $160$ cm thuộc nhóm sau. Bây giờ ta thấy ngay: nhóm $[155; 160)$ đông nhất, với $7$ bạn.
+
+  :::definition Mẫu số liệu ghép nhóm
+  - Ghép nhóm là chia các số liệu vào các **nhóm** $[a_1; a_2), [a_2; a_3), \ldots, [a_k; a_{k+1})$, mỗi số liệu thuộc đúng một nhóm. Với nhóm $[a; b)$: $a$ là **đầu mút trái**, $b$ là **đầu mút phải**, $b-a$ là **độ dài nhóm**, $\dfrac{a+b}{2}$ là **giá trị đại diện** của nhóm (số chính giữa nhóm trên trục số).
+  - **Tần số** của một nhóm là số số liệu thuộc nhóm đó. **Tần số tương đối** của nhóm thứ $i$ là $f_i=\dfrac{m_i}{n}\cdot100\%$.
+  - **Bảng tần số ghép nhóm** (**bảng tần số tương đối ghép nhóm**) ghi các nhóm và tần số (tần số tương đối) tương ứng.
+  :::
+
+[[P5·634c]]
+**Hiểu sâu hơn.** Ghép nhóm là "nhìn từ xa": bỏ bớt chi tiết (không còn biết ai cao $151$ hay $153$ cm) để thấy bức tranh chung. Các nhóm thường dài bằng nhau, nối tiếp nhau; dạng nửa khoảng $[a; b)$ bảo đảm số ở đầu mút chỉ được đếm một lần. Quá ít nhóm thì mất thông tin, quá nhiều nhóm thì lại rối; thường chọn 5 đến 8 nhóm.
+
+  :::example Bảng tần số tương đối ghép nhóm
+  Giả sử chiều cao của 40 học sinh lớp 9A có bảng tần số ghép nhóm:
+
+  | Chiều cao (cm) | $[145; 150)$ | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |
+  |---|---|---|---|---|---|---|
+  | Tần số | $3$ | $7$ | $12$ | $10$ | $6$ | $2$ |
+
+  Lập bảng tần số tương đối ghép nhóm và cho biết có bao nhiêu phần trăm học sinh cao từ $160$ cm trở lên.
+
+  **Lời giải.** Cỡ mẫu $n=40$. Chia mỗi tần số cho $40$, ta được
+
+  $$\frac{3}{40}=7{,}5\%,\ \ \frac{7}{40}=17{,}5\%,\ \ \frac{12}{40}=30\%,\ \ \frac{10}{40}=25\%,\ \ \frac{6}{40}=15\%,\ \ \frac{2}{40}=5\%.$$
+
+  Học sinh cao từ $160$ cm trở lên thuộc ba nhóm cuối, chiếm $25\%+15\%+5\%=45\%$.
+
+  Vậy có $45\%$ học sinh cao từ $160$ cm trở lên.
+  :::
+
+## Biểu đồ của mẫu số liệu ghép nhóm
+
+### Dạng cột
+
+[[P6·52eb]]
+Trong **biểu đồ tần số ghép nhóm dạng cột**, mỗi cột có đáy là cả nhóm $[a; b)$ trên trục ngang, nên **các cột nằm liền nhau**: số liệu chạy liên tục, không có "khoảng trống" giữa $149{,}9$ cm và $150$ cm.
+
+:::graph Chiều cao của 40 học sinh lớp 9A
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·ff82]]
+Biểu đồ tần số tương đối ghép nhóm dạng cột vẽ giống hệt, chỉ thay chiều cao cột bằng tần số tương đối.
+
+### Dạng đoạn thẳng
+
+[[P8·4892]]
+Để vẽ **biểu đồ tần số tương đối ghép nhóm dạng đoạn thẳng**, với mỗi nhóm ta đánh dấu điểm có hoành độ là giá trị đại diện của nhóm, tung độ là tần số tương đối, rồi nối các điểm liên tiếp. Với lớp 9A, các giá trị đại diện là $147{,}5$; $152{,}5$; …; $172{,}5$.
+
+:::graph Tần số tương đối (%) theo giá trị đại diện của các nhóm
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·cd5e]]
+Đường gấp khúc cho thấy chiều cao tập trung quanh nhóm $[155; 160)$, thưa dần về hai phía.
+
+  :::example Đọc bảng ghép nhóm
+  Với bảng tần số ghép nhóm của lớp 9A ở trên, hãy cho biết:
+
+  a) Độ dài mỗi nhóm và giá trị đại diện của nhóm có tần số lớn nhất.
+
+  b) Có bao nhiêu học sinh cao dưới $155$ cm?
+
+  **Lời giải.** a) Mỗi nhóm có độ dài $150-145=5$ (cm). Nhóm có tần số lớn nhất là $[155; 160)$, có giá trị đại diện $\dfrac{155+160}{2}=157{,}5$.
+
+  b) Học sinh cao dưới $155$ cm thuộc hai nhóm đầu. Vậy có $3+7=10$ học sinh cao dưới $155$ cm.
+  :::
+
+  :::example Lời hứa của công ty xe buýt
+  Giả sử một công ty xe buýt khảo sát thời gian chờ xe (phút) của 60 hành khách:
+
+  | Thời gian chờ (phút) | $[0; 5)$ | $[5; 10)$ | $[10; 15)$ | $[15; 20)$ | $[20; 25)$ |
+  |---|---|---|---|---|---|
+  | Số hành khách | $21$ | $18$ | $12$ | $6$ | $3$ |
+
+  Công ty nói: "Đa số hành khách chờ dưới 10 phút". Lời nói này có đúng không? Ta có biết bao nhiêu hành khách chờ dưới 7 phút không?
+
+  **Lời giải.**
+
+  *Hiểu đề.* "Đa số" nghĩa là hơn một nửa, tức hơn $50\%$ của $60$ hành khách. "Dưới 10 phút" ứng với hai nhóm $[0; 5)$ và $[5; 10)$.
+
+  *Tìm cách giải.* Tính tần số tương đối của hai nhóm đầu.
+
+  *Giải.* Số hành khách chờ dưới 10 phút là $21+18=39$, chiếm $\dfrac{39}{60}\cdot100\%=65\%>50\%$. Mốc $7$ phút nằm bên trong nhóm $[5; 10)$; bảng chỉ cho biết cả nhóm có $18$ người.
+
+  Vậy lời nói của công ty là đúng ($65\%$); còn số hành khách chờ dưới 7 phút thì không xác định được từ bảng.
+
+  *Nhìn lại.* Đây là cái giá của ghép nhóm: gọn nhưng mất chi tiết trong nhóm. Muốn trả lời về mốc 7 phút, ta phải dùng số liệu gốc hoặc chia nhóm khác (chẳng hạn dài 1 phút).
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P10·b6bc]]
+- **Nhóm chồng lấn.** Sai: $[150; 155]$, $[155; 160]$ (số $155$ bị đếm hai lần). Đúng: $[150; 155)$, $[155; 160)$.
+- **Vẽ các cột cách nhau.** Với số liệu ghép nhóm, các cột phải liền nhau.
+:::
+
+[[P11·74c4]]
+**Kết nối.** Ghép nhóm tiếp nối [bảng tần số](lesson:frequency-tables-charts) và [tần số tương đối](lesson:relative-frequency-tables): cùng ý tưởng đếm, chỉ đổi "giá trị" thành "nhóm". Ở lớp 11, 12, từ bảng ghép nhóm và các giá trị đại diện, ta sẽ tính số trung bình, trung vị và độ lệch chuẩn.
+
+## Thuật ngữ
+
+  :::terms
+  - ghép nhóm | grouping data
+  - nhóm số liệu | class (group)
+  - độ dài nhóm | class width
+  - giá trị đại diện của nhóm | midpoint of a class
+  - bảng tần số ghép nhóm | grouped frequency table
+  - tần số tương đối ghép nhóm | grouped relative frequency
+  - biểu đồ tần số ghép nhóm dạng cột | histogram
+  - biểu đồ dạng đoạn thẳng | frequency polygon
+  :::
+
+## Tóm tắt
+
+[[P12·26e1]]
+- Nhóm $[a; b)$: $a\leq x<b$; độ dài $b-a$; giá trị đại diện $\dfrac{a+b}{2}$.
+- Tần số tương đối của nhóm: $f_i=\dfrac{m_i}{n}\cdot100\%$.
+- Dạng cột: các cột liền nhau. Dạng đoạn thẳng: nối các điểm (giá trị đại diện; $f_i$).
+- Ghép nhóm làm mất thông tin bên trong mỗi nhóm.
+
+## Luyện tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 39 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/grouped-frequency-tables – BẢN TIẾNG ANH ########
+---
+title: Grouped frequency and relative frequency tables and charts
+description: Group data into classes, build grouped frequency and relative frequency tables, and draw and read histograms and frequency polygons.
+minutes: 20
+---
+
+  :::goals
+  - Understand why and when data are grouped; know the class $[a, b)$, the class width and the class midpoint.
+  - Build grouped frequency tables and grouped relative frequency tables.
+  - Draw and read histograms and frequency polygons for grouped data.
+  :::
+
+[[P1·8284]]
+Suppose the PE teacher measures the heights (in cm) of the 20 students in the athletics team:
+
+  $$154,\ 161,\ 164,\ 151,\ 161,\ 155,\ 153,\ 163,\ 159,\ 159,\ 154,\ 149,\ 155,\ 146,\ 158,\ 168,\ 169,\ 159,\ 152,\ 157.$$
+
+[[P2·493b]]
+A frequency table as in the previous lessons would have 15 different values, most appearing only once: a long table that shows nothing. Yet the teacher only needs to know "how many students are from 155 cm up to 160 cm" to choose shirt sizes. How can a table be short and still say what we need?
+
+## Grouping data
+
+### Explore: counting in 5 cm steps
+
+[[P3·28fb]]
+We split the heights into intervals 5 cm wide and count:
+
+| Height (cm) | $[145, 150)$ | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ |
+|---|---|---|---|---|---|
+| Number of students | $2$ | $5$ | $7$ | $4$ | $2$ |
+
+[[P4·b3e9]]
+The notation $[155, 160)$ means the numbers $x$ with $155\leq x<160$: a student 155 cm tall belongs to this class, while one 160 cm tall belongs to the next. Now we see at once: the class $[155, 160)$ is the largest, with $7$ students.
+
+  :::definition Grouped data
+  - Grouping means sorting the data into **classes** $[a_1, a_2), [a_2, a_3), \ldots, [a_k, a_{k+1})$, so that each data value belongs to exactly one class. For the class $[a, b)$: $a$ is the **lower boundary**, $b$ is the **upper boundary**, $b-a$ is the **class width** and $\dfrac{a+b}{2}$ is the **midpoint** of the class (in Vietnamese textbooks, its representative value).
+  - The **frequency** of a class is the number of data values in it. The **relative frequency** of the $i$th class is $f_i=\dfrac{m_i}{n}\cdot100\%$.
+  - A **grouped frequency table** (**grouped relative frequency table**) lists the classes and their frequencies (relative frequencies).
+  :::
+
+[[P5·aac4]]
+**Going deeper.** Grouping is "looking from a distance": we drop some detail (we no longer know who is $151$ or $153$ cm tall) to see the overall picture. Classes usually have equal widths and follow on from each other; the half-open form $[a, b)$ makes sure a value on a boundary is counted only once. Too few classes lose information, too many are as messy as the original table; 5 to 8 classes is usual.
+
+  :::example Grouped relative frequency table
+  Suppose the heights of the 40 students in class 9A have this grouped frequency table:
+
+  | Height (cm) | $[145, 150)$ | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ | $[170, 175)$ |
+  |---|---|---|---|---|---|---|
+  | Frequency | $3$ | $7$ | $12$ | $10$ | $6$ | $2$ |
+
+  Build the grouped relative frequency table and find the percentage of students who are 160 cm tall or more.
+
+  **Solution.** The sample size is $n=40$. Dividing each frequency by $40$, we get
+
+  $$\frac{3}{40}=7.5\%,\ \ \frac{7}{40}=17.5\%,\ \ \frac{12}{40}=30\%,\ \ \frac{10}{40}=25\%,\ \ \frac{6}{40}=15\%,\ \ \frac{2}{40}=5\%.$$
+
+  Students 160 cm tall or more are in the last three classes, which make up $25\%+15\%+5\%=45\%$.
+
+  So $45\%$ of the students are 160 cm tall or more.
+  :::
+
+## Charts for grouped data
+
+### Histograms
+
+[[P6·e43d]]
+In a **histogram** (grouped frequency bar chart), each bar stands on a whole class $[a, b)$ on the horizontal axis, so **the bars touch each other**: the data run continuously, with no "gap" between $149.9$ cm and $150$ cm.
+
+:::graph Heights of the 40 students in class 9A
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·61fc]]
+A relative frequency histogram is drawn in exactly the same way, with bar heights equal to the relative frequencies.
+
+### Frequency polygons
+
+[[P8·b4dd]]
+To draw a **relative frequency polygon** for grouped data, for each class we mark the point whose $x$-coordinate is the class midpoint and whose $y$-coordinate is the relative frequency, then join consecutive points. For class 9A the midpoints are $147.5$, $152.5$, …, $172.5$.
+
+:::graph Relative frequency (%) against class midpoints
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·dc26]]
+The broken line shows that heights cluster around the class $[155, 160)$ and thin out on both sides.
+
+  :::example Reading a grouped table
+  Using the grouped frequency table of class 9A above, find:
+
+  a) the width of each class and the midpoint of the class with the largest frequency;
+
+  b) the number of students shorter than 155 cm.
+
+  **Solution.** a) Each class has width $150-145=5$ (cm). The class with the largest frequency is $[155, 160)$, with midpoint $\dfrac{155+160}{2}=157.5$.
+
+  b) Students shorter than 155 cm are in the first two classes. So $3+7=10$ students are shorter than 155 cm.
+  :::
+
+  :::example The bus company's promise
+  Suppose a bus company surveys the waiting times (in minutes) of 60 passengers:
+
+  | Waiting time (minutes) | $[0, 5)$ | $[5, 10)$ | $[10, 15)$ | $[15, 20)$ | $[20, 25)$ |
+  |---|---|---|---|---|---|
+  | Number of passengers | $21$ | $18$ | $12$ | $6$ | $3$ |
+
+  The company says: "Most passengers wait less than 10 minutes." Is this true? Do we know how many passengers wait less than 7 minutes?
+
+  **Solution.**
+
+  *Understand.* "Most" means more than half, that is, more than $50\%$ of the $60$ passengers. "Less than 10 minutes" corresponds to the two classes $[0, 5)$ and $[5, 10)$.
+
+  *Plan.* Work out the relative frequency of the first two classes.
+
+  *Solve.* The number of passengers waiting less than 10 minutes is $21+18=39$, which is $\dfrac{39}{60}\cdot100\%=65\%>50\%$. The 7-minute mark lies inside the class $[5, 10)$; the table only says that the whole class has $18$ people.
+
+  So the company's claim is true ($65\%$), but the number of passengers waiting less than 7 minutes cannot be found from the table.
+
+  *Look back.* This is the price of grouping: shorter, but the detail inside each class is lost. To answer a question about the 7-minute mark, we would need the original data or different classes (for example, 1 minute wide).
+  :::
+
+:::warning Common mistakes
+[[P10·3844]]
+- **Overlapping classes.** Wrong: $[150, 155]$, $[155, 160]$ (the value $155$ is counted twice). Right: $[150, 155)$, $[155, 160)$.
+- **Leaving gaps between bars.** For grouped data, the bars must touch.
+:::
+
+[[P11·dbb9]]
+**Connections.** Grouping continues [frequency tables](lesson:frequency-tables-charts) and [relative frequency](lesson:relative-frequency-tables): the same idea of counting, with "value" replaced by "class". In years 11 and 12, we use grouped tables and class midpoints to estimate the mean, the median and the standard deviation.
+
+## Key terms
+
+  :::terms
+  - grouping data | ghép nhóm
+  - class (group) | nhóm số liệu
+  - class width | độ dài nhóm
+  - midpoint of a class | giá trị đại diện của nhóm
+  - grouped frequency table | bảng tần số ghép nhóm
+  - grouped relative frequency | tần số tương đối ghép nhóm
+  - histogram | biểu đồ tần số ghép nhóm dạng cột
+  - frequency polygon | biểu đồ dạng đoạn thẳng
+  :::
+
+## Summary
+
+[[P12·aff9]]
+- Class $[a, b)$: $a\leq x<b$; width $b-a$; midpoint $\dfrac{a+b}{2}$.
+- Relative frequency of a class: $f_i=\dfrac{m_i}{n}\cdot100\%$.
+- Histogram: the bars touch. Frequency polygon: join the points (midpoint, $f_i$).
+- Grouping loses the information inside each class.
+
+## Practice
+
+[[P13·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 39 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

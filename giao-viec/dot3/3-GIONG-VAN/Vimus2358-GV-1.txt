@@ -1,0 +1,1722 @@
+######################################################################
+TÀI KHOẢN: Vimus2358   |   FILE: Vimus2358-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vimus2358-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vimus2358-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/random-experiments-sample-space, g9/regular-polygons, g9/relative-frequency-tables, g9/right-triangle-side-angle-relations
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vimus2358-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vimus2358-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vimus2358-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/random-experiments-sample-space – BẢN TIẾNG VIỆT ########
+---
+title: Phép thử ngẫu nhiên và không gian mẫu
+description: Nhận biết phép thử ngẫu nhiên, mô tả không gian mẫu bằng cách liệt kê, dùng sơ đồ cây hoặc bảng cho phép thử gồm hai bước.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết được phép thử ngẫu nhiên và mô tả được không gian mẫu.
+  - Dùng sơ đồ cây hoặc bảng để liệt kê không gian mẫu của phép thử gồm hai bước.
+  - Phân biệt lấy có hoàn lại, không hoàn lại và lấy đồng thời.
+  :::
+
+[[P1·822d]]
+An và Bình chơi trò tung hai đồng xu: nếu hai đồng xu cùng mặt thì An thắng, khác mặt thì Bình thắng. Bình phàn nàn: "Chỉ có ba khả năng: hai mặt sấp, hai mặt ngửa, một sấp một ngửa. An có hai khả năng thắng, mình chỉ có một. Không công bằng!" Bình nói đúng không? Để trả lời, ta phải liệt kê *đúng* và *đủ* mọi kết quả có thể xảy ra: việc tưởng đơn giản nhưng rất hay nhầm.
+
+## Phép thử ngẫu nhiên và không gian mẫu
+
+[[P2·3453]]
+Gieo một con xúc xắc, rút một lá thăm, chọn một bạn lên bảng: trước khi làm, ta biết những kết quả *có thể* xảy ra, nhưng không biết kết quả *nào* sẽ xảy ra.
+
+  :::definition Phép thử ngẫu nhiên và không gian mẫu
+  - **Phép thử ngẫu nhiên** (gọi tắt là phép thử) là một hoạt động mà ta không thể biết trước kết quả của nó.
+  - Tập hợp tất cả các kết quả có thể xảy ra của phép thử gọi là **không gian mẫu** của phép thử, kí hiệu là $\Omega$.
+  :::
+
+[[P3·0d1b]]
+**Hiểu sâu hơn.** Rút một thẻ từ hộp mà mọi thẻ đều ghi số $5$ không phải phép thử ngẫu nhiên: kết quả đã biết trước. Ngoài ra, "kết quả" phụ thuộc vào điều ta quan sát: gieo một xúc xắc và ghi số chấm thì $\Omega=\{1;2;3;4;5;6\}$, chỉ ghi "chẵn" hay "lẻ" thì $\Omega=\{\text{chẵn}; \text{lẻ}\}$. Vì vậy, trước khi liệt kê, hãy hỏi: "Một kết quả gồm những thông tin gì?"
+
+  :::example Mô tả không gian mẫu
+  Mô tả không gian mẫu của mỗi phép thử sau và cho biết không gian mẫu có bao nhiêu phần tử.
+
+  a) Gieo một con xúc xắc và quan sát số chấm xuất hiện.
+
+  b) Rút ngẫu nhiên một quả bóng từ túi có ba quả bóng màu xanh (X), đỏ (Đ), vàng (V).
+
+  c) Tung một đồng xu và quan sát mặt xuất hiện (S là sấp, N là ngửa).
+
+  **Lời giải.** a) Ta có $\Omega=\{1; 2; 3; 4; 5; 6\}$, gồm $6$ phần tử.
+
+  b) Ta có $\Omega=\{X; Đ; V\}$, gồm $3$ phần tử.
+
+  c) Ta có $\Omega=\{S; N\}$, gồm $2$ phần tử.
+  :::
+
+## Sơ đồ cây cho phép thử gồm hai bước
+
+[[P4·8213]]
+Khi phép thử gồm hai bước (tung hai đồng xu, rút hai lá thăm), mỗi kết quả là một **cặp có thứ tự**: kết quả bước 1, rồi kết quả bước 2. Để không bỏ sót, ta vẽ **sơ đồ cây**: từ gốc, vẽ một nhánh cho mỗi kết quả của bước 1; từ đầu mỗi nhánh đó, vẽ một nhánh cho mỗi kết quả của bước 2. Mỗi đường đi từ gốc đến ngọn cho một kết quả.
+
+:::diagram Sơ đồ cây khi tung hai đồng xu
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tung hai đồng xu
+  Tung hai đồng xu (một đồng 1 000 đồng và một đồng 2 000 đồng). Mô tả không gian mẫu, rồi trả lời câu hỏi của Bình ở đầu bài.
+
+  **Lời giải.** Kí hiệu $(S; N)$ là kết quả "đồng thứ nhất sấp, đồng thứ hai ngửa". Theo sơ đồ cây, ta có
+
+  $$\Omega=\{(S; S);\ (S; N);\ (N; S);\ (N; N)\}.$$
+
+  Không gian mẫu có $4$ phần tử. Hai đồng xu cùng mặt ứng với $2$ kết quả $(S; S)$, $(N; N)$; khác mặt cũng ứng với $2$ kết quả $(S; N)$, $(N; S)$.
+
+  Vậy Bình nhầm: "một sấp một ngửa" gồm hai kết quả khác nhau, nên mỗi bạn có $2$ trong $4$ kết quả.
+
+  **Nhận xét.** Dù hai đồng xu giống hệt nhau, chúng vẫn là hai vật riêng biệt, nên $(S; N)$ và $(N; S)$ vẫn là hai kết quả khác nhau.
+  :::
+
+  :::example Lấy có hoàn lại và không hoàn lại
+  Một hộp có ba viên bi màu đỏ (Đ), xanh (X), vàng (V). Lấy ngẫu nhiên lần lượt hai viên bi.
+
+  a) Mô tả không gian mẫu nếu viên thứ nhất không được trả lại hộp.
+
+  b) Không gian mẫu có bao nhiêu phần tử nếu viên thứ nhất được trả lại hộp trước khi lấy viên thứ hai?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Mỗi kết quả là một cặp (màu viên thứ nhất; màu viên thứ hai); ở b) hai viên có thể cùng màu.
+
+  *Tìm cách giải.* Sơ đồ cây: bước 1 có $3$ nhánh; bước 2 có $2$ nhánh (không hoàn lại) hoặc $3$ nhánh (có hoàn lại).
+
+  *Giải.* a) Mỗi màu ở lần thứ nhất có hai màu còn lại ở lần thứ hai, nên
+
+  $$\Omega=\{(Đ; X);\ (Đ; V);\ (X; Đ);\ (X; V);\ (V; Đ);\ (V; X)\},$$
+
+  gồm $3\cdot2=6$ phần tử.
+
+  b) Mỗi màu ở lần thứ nhất có cả ba màu ở lần thứ hai, nên không gian mẫu gồm $6$ kết quả ở câu a) và thêm $(Đ; Đ)$, $(X; X)$, $(V; V)$, tức là $3\cdot3=9$ phần tử.
+
+  *Nhìn lại.* Có quy luật không? Số phần tử bằng (số nhánh bước 1) $\times$ (số nhánh bước 2). Nếu lấy *đồng thời* hai viên thì sao? Khi đó không có "viên thứ nhất", $(Đ; X)$ và $(X; Đ)$ là cùng một kết quả $\{Đ; X\}$, nên chỉ còn $3$ kết quả.
+  :::
+
+## Dùng bảng cho phép thử gồm hai bước
+
+[[P5·bb47]]
+Khi mỗi bước có nhiều kết quả, sơ đồ cây trở nên rậm rạp; ta dùng **bảng**: hàng ứng với kết quả bước 1, cột ứng với kết quả bước 2, mỗi ô là một kết quả.
+
+  :::example Gieo hai con xúc xắc
+  Gieo hai con xúc xắc (một xanh, một đỏ). Mô tả không gian mẫu và cho biết có bao nhiêu kết quả mà tổng số chấm bằng $7$.
+
+  **Lời giải.** Kí hiệu $(i; j)$ là kết quả "xúc xắc xanh ra $i$ chấm, xúc xắc đỏ ra $j$ chấm". Ta có bảng:
+
+  | Xanh \ Đỏ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | $1$ | $(1;1)$ | $(1;2)$ | $(1;3)$ | $(1;4)$ | $(1;5)$ | $(1;6)$ |
+  | $2$ | $(2;1)$ | $(2;2)$ | $(2;3)$ | $(2;4)$ | $(2;5)$ | $(2;6)$ |
+  | $3$ | $(3;1)$ | $(3;2)$ | $(3;3)$ | $(3;4)$ | $(3;5)$ | $(3;6)$ |
+  | $4$ | $(4;1)$ | $(4;2)$ | $(4;3)$ | $(4;4)$ | $(4;5)$ | $(4;6)$ |
+  | $5$ | $(5;1)$ | $(5;2)$ | $(5;3)$ | $(5;4)$ | $(5;5)$ | $(5;6)$ |
+  | $6$ | $(6;1)$ | $(6;2)$ | $(6;3)$ | $(6;4)$ | $(6;5)$ | $(6;6)$ |
+
+  Do đó $\Omega$ gồm $6\cdot6=36$ phần tử. Các kết quả có tổng bằng $7$ nằm trên đường chéo từ $(1; 6)$ đến $(6; 1)$.
+
+  Vậy không gian mẫu có $36$ phần tử, trong đó có $6$ kết quả có tổng bằng $7$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P6·6ad3]]
+- **Gộp các kết quả khác nhau.** Sai: tung hai đồng xu có ba kết quả. Đúng: có bốn kết quả, vì $(S; N)$ và $(N; S)$ khác nhau.
+- **Quên kết quả trùng khi lấy có hoàn lại**, như $(Đ; Đ)$; hoặc **thêm kết quả trùng khi lấy không hoàn lại**.
+- **Lẫn lộn cặp có thứ tự và không thứ tự** (lấy lần lượt và lấy đồng thời).
+:::
+
+[[P7·5c9b]]
+**Kết nối.** Lớp 8 bạn đã tính xác suất khi gieo một xúc xắc. Bài này chuẩn bị cho [xác suất của biến cố](lesson:event-probability-experiments): muốn tính xác suất, trước hết phải liệt kê đúng không gian mẫu. Cách đếm (số nhánh bước 1) $\times$ (số nhánh bước 2) sẽ thành quy tắc nhân ở lớp 10.
+
+## Thuật ngữ
+
+  :::terms
+  - phép thử ngẫu nhiên | random experiment
+  - kết quả có thể | possible outcome
+  - không gian mẫu | sample space
+  - sơ đồ cây | tree diagram
+  - bảng | table (two-way table)
+  - lấy có hoàn lại | with replacement
+  - lấy không hoàn lại | without replacement
+  :::
+
+## Tóm tắt
+
+[[P8·c51e]]
+- Phép thử: không biết trước kết quả. Không gian mẫu $\Omega$: tập hợp mọi kết quả có thể.
+- Phép thử hai bước: mỗi kết quả là một cặp có thứ tự; liệt kê bằng sơ đồ cây hoặc bảng.
+- Số phần tử $=$ (số nhánh bước 1) $\times$ (số nhánh bước 2).
+
+## Luyện tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/random-experiments-sample-space – BẢN TIẾNG ANH ########
+---
+title: Random experiments and sample spaces
+description: Recognise random experiments, describe the sample space by listing, and use tree diagrams or tables for two-step experiments.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a random experiment and describe its sample space.
+  - Use a tree diagram or a table to list the sample space of a two-step experiment.
+  - Tell apart choosing with replacement, without replacement and at the same time.
+  :::
+
+[[P1·230d]]
+An and Binh play a game with two coins: if the two coins land the same way up, An wins; if they land differently, Binh wins. Binh complains: "There are only three possibilities: two heads, two tails, or one head and one tail. An has two ways to win and I have only one. It's not fair!" Is Binh right? To answer, we must list *all* the possible outcomes, *correctly*: a job that looks simple but is very easy to get wrong.
+
+## Random experiments and sample spaces
+
+[[P2·ff15]]
+Rolling a dice, drawing lots, picking a student to come to the board: before we do it, we know which outcomes are *possible*, but not *which* one will happen.
+
+  :::definition Random experiment and sample space
+  - A **random experiment** (or simply an experiment) is an activity whose outcome cannot be known in advance.
+  - The set of all possible outcomes of an experiment is called its **sample space**, written $\Omega$.
+  :::
+
+[[P3·0a44]]
+**Going deeper.** Drawing a card from a box in which every card shows the number $5$ is not a random experiment: the outcome is known in advance. Also, an "outcome" depends on what we record: rolling a dice and recording the score gives $\Omega=\{1,2,3,4,5,6\}$, while recording only "even" or "odd" gives $\Omega=\{\text{even}, \text{odd}\}$. So before listing, ask: "What information makes up one outcome?"
+
+  :::example Describing the sample space
+  Describe the sample space of each experiment and state how many elements it has.
+
+  a) Roll a dice and record the score.
+
+  b) Take a ball at random from a bag containing three balls: blue (B), red (R) and yellow (Y).
+
+  c) Toss a coin and record which side lands face up (H for heads, T for tails).
+
+  **Solution.** a) We have $\Omega=\{1, 2, 3, 4, 5, 6\}$, with $6$ elements.
+
+  b) We have $\Omega=\{B, R, Y\}$, with $3$ elements.
+
+  c) We have $\Omega=\{H, T\}$, with $2$ elements.
+  :::
+
+## Tree diagrams for two-step experiments
+
+[[P4·73f5]]
+When an experiment has two steps (tossing two coins, drawing two lots), each outcome is an **ordered pair**: the result of step 1, then the result of step 2. To miss nothing, we draw a **tree diagram**: from the root, draw one branch for each result of step 1; from the end of each of these, draw one branch for each result of step 2. Each path from the root to a tip gives one outcome.
+
+:::diagram Tree diagram for tossing two coins
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tossing two coins
+  Toss two coins (a 1 000-dong coin and a 2 000-dong coin). Describe the sample space, then answer Binh's question from the start of the lesson.
+
+  **Solution.** Write $(T, H)$ for the outcome "the first coin shows tails and the second shows heads". From the tree diagram,
+
+  $$\Omega=\{(T, T),\ (T, H),\ (H, T),\ (H, H)\}.$$
+
+  The sample space has $4$ elements. The coins landing the same way corresponds to $2$ outcomes, $(T, T)$ and $(H, H)$; landing differently also corresponds to $2$ outcomes, $(T, H)$ and $(H, T)$.
+
+  So Binh is wrong: "one head and one tail" consists of two different outcomes, so each player has $2$ of the $4$ outcomes.
+
+  **Remark.** Even if the two coins look identical, they are still two separate objects, so $(T, H)$ and $(H, T)$ are still two different outcomes.
+  :::
+
+  :::example With and without replacement
+  A box contains three marbles: red (R), blue (B) and yellow (Y). Two marbles are taken out at random, one after the other.
+
+  a) Describe the sample space if the first marble is not put back.
+
+  b) How many elements does the sample space have if the first marble is put back before the second is taken?
+
+  **Solution.**
+
+  *Understand.* Each outcome is a pair (colour of the first marble, colour of the second); in b) the two marbles can be the same colour.
+
+  *Plan.* Tree diagram: step 1 has $3$ branches; step 2 has $2$ branches (without replacement) or $3$ branches (with replacement).
+
+  *Solve.* a) Each colour in the first draw is followed by the two remaining colours in the second, so
+
+  $$\Omega=\{(R, B),\ (R, Y),\ (B, R),\ (B, Y),\ (Y, R),\ (Y, B)\},$$
+
+  with $3\cdot2=6$ elements.
+
+  b) Each colour in the first draw is followed by all three colours in the second, so the sample space consists of the $6$ outcomes in a) together with $(R, R)$, $(B, B)$, $(Y, Y)$, that is, $3\cdot3=9$ elements.
+
+  *Look back.* Is there a pattern? The number of elements is (number of branches at step 1) $\times$ (number of branches at step 2). What if both marbles are taken *at the same time*? Then there is no "first marble": $(R, B)$ and $(B, R)$ are the same outcome $\{R, B\}$, so there are only $3$ outcomes.
+  :::
+
+## Using a table for two-step experiments
+
+[[P5·1d9b]]
+When each step has many results, a tree diagram becomes crowded; instead we use a **table**: rows for the results of step 1, columns for the results of step 2, and each cell is one outcome.
+
+  :::example Rolling two dice
+  Roll two dice (one green, one red). Describe the sample space and find how many outcomes have a total score of $7$.
+
+  **Solution.** Write $(i, j)$ for the outcome "the green dice shows $i$ and the red dice shows $j$". We have the table:
+
+  | Green \ Red | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | $1$ | $(1, 1)$ | $(1, 2)$ | $(1, 3)$ | $(1, 4)$ | $(1, 5)$ | $(1, 6)$ |
+  | $2$ | $(2, 1)$ | $(2, 2)$ | $(2, 3)$ | $(2, 4)$ | $(2, 5)$ | $(2, 6)$ |
+  | $3$ | $(3, 1)$ | $(3, 2)$ | $(3, 3)$ | $(3, 4)$ | $(3, 5)$ | $(3, 6)$ |
+  | $4$ | $(4, 1)$ | $(4, 2)$ | $(4, 3)$ | $(4, 4)$ | $(4, 5)$ | $(4, 6)$ |
+  | $5$ | $(5, 1)$ | $(5, 2)$ | $(5, 3)$ | $(5, 4)$ | $(5, 5)$ | $(5, 6)$ |
+  | $6$ | $(6, 1)$ | $(6, 2)$ | $(6, 3)$ | $(6, 4)$ | $(6, 5)$ | $(6, 6)$ |
+
+  Hence $\Omega$ has $6\cdot6=36$ elements. The outcomes with total $7$ lie on the diagonal from $(1, 6)$ to $(6, 1)$.
+
+  So the sample space has $36$ elements, of which $6$ have a total of $7$.
+  :::
+
+:::warning Common mistakes
+[[P6·c569]]
+- **Merging different outcomes.** Wrong: tossing two coins has three outcomes. Right: it has four, because $(T, H)$ and $(H, T)$ are different.
+- **Forgetting the repeated outcomes with replacement**, such as $(R, R)$; or **including repeated outcomes without replacement**.
+- **Mixing up ordered and unordered pairs** (one after the other versus at the same time).
+:::
+
+[[P7·149a]]
+**Connections.** In year 8 you found probabilities when rolling one dice. This lesson prepares for [the probability of an event](lesson:event-probability-experiments): to find a probability, we must first list the sample space correctly. Counting (branches at step 1) $\times$ (branches at step 2) becomes the multiplication rule in year 10.
+
+## Key terms
+
+  :::terms
+  - random experiment | phép thử ngẫu nhiên
+  - possible outcome | kết quả có thể
+  - sample space | không gian mẫu
+  - tree diagram | sơ đồ cây
+  - table (two-way table) | bảng
+  - with replacement | lấy có hoàn lại
+  - without replacement | lấy không hoàn lại
+  :::
+
+## Summary
+
+[[P8·888a]]
+- Experiment: the outcome is not known in advance. Sample space $\Omega$: the set of all possible outcomes.
+- Two-step experiment: each outcome is an ordered pair; list them with a tree diagram or a table.
+- Number of elements $=$ (branches at step 1) $\times$ (branches at step 2).
+
+## Practice
+
+[[P9·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/regular-polygons – BẢN TIẾNG VIỆT ########
+---
+title: Đa giác đều
+description: Nhận biết đa giác đều, tính số đo mỗi góc, bán kính đường tròn ngoại tiếp và nội tiếp, và nhận biết các phép quay giữ nguyên một đa giác đều.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đa giác đều và tính được số đo mỗi góc của nó.
+  - Xác định tâm, tính bán kính đường tròn ngoại tiếp, nội tiếp của tam giác đều, hình vuông, lục giác đều.
+  - Nhận biết các phép quay biến một đa giác đều thành chính nó.
+  - Vận dụng vào các bài toán thực tế (lát nền, ốc vít, vòng quay).
+  :::
+
+[[P1·18fa]]
+Hơn hai nghìn năm trước, Archimedes (287–212 TCN) muốn biết đường tròn dài gấp bao nhiêu lần đường kính. Ông không đo được trực tiếp, nên "kẹp" đường tròn giữa hai **đa giác đều** $96$ cạnh, một nội tiếp và một ngoại tiếp, rồi tính chu vi hai đa giác. Kết quả: $3\frac{10}{71}<\pi<3\frac17$ (theo MacTutor, Đại học St Andrews).
+
+[[P2·60cc]]
+Vì sao lại là đa giác *đều*? Vì một đa giác đều được xác định hoàn toàn bởi số cạnh và bán kính đường tròn ngoại tiếp, nên mọi đại lượng của nó đều tính được. Bài này cho bạn những công cụ đầu tiên của Archimedes.
+
+## Đa giác đều và số đo các góc
+
+  :::definition Đa giác đều
+  **Đa giác đều** là đa giác lồi có tất cả các cạnh bằng nhau và tất cả các góc bằng nhau.
+  :::
+
+[[P3·4d82]]
+Tam giác đều và hình vuông là những đa giác đều quen thuộc. Một hình thoi (cạnh bằng nhau nhưng góc không bằng nhau) hay một hình chữ nhật không vuông (góc bằng nhau nhưng cạnh không bằng nhau) **không** phải đa giác đều: cần đủ cả hai điều kiện.
+
+### Khám phá: tổng các góc
+
+[[P4·8b70]]
+Từ một đỉnh của đa giác lồi $n$ cạnh, kẻ các đường chéo, ta chia đa giác thành $n-2$ tam giác. Mỗi tam giác có tổng ba góc $180^\circ$, nên tổng các góc của đa giác là $(n-2)\cdot180^\circ$. Đa giác đều có $n$ góc bằng nhau, do đó:
+
+  :::theorem Số đo mỗi góc của đa giác đều $n$ cạnh
+  $$\alpha=\frac{(n-2)\cdot180^\circ}{n}.$$
+  :::
+
+  :::example Góc của ngũ giác đều, lục giác đều, bát giác đều
+  Tính số đo mỗi góc của ngũ giác đều, lục giác đều và bát giác đều.
+
+  **Lời giải.** Áp dụng công thức với $n=5$, $n=6$, $n=8$, ta có
+
+  $$\frac{3\cdot180^\circ}{5}=108^\circ,\qquad \frac{4\cdot180^\circ}{6}=120^\circ,\qquad \frac{6\cdot180^\circ}{8}=135^\circ.$$
+
+  Vậy mỗi góc của ngũ giác đều, lục giác đều, bát giác đều lần lượt là $108^\circ$, $120^\circ$, $135^\circ$.
+  :::
+
+[[P5·e663]]
+Số đo góc quyết định một câu hỏi rất thực tế: lát nền bằng những viên gạch đều nhau.
+
+  :::example Vận dụng: gạch lát nền
+  Người ta muốn lát kín một mặt sàn bằng các viên gạch cùng hình một đa giác đều, sao cho tại mỗi đỉnh chung, các viên gạch ghép khít với nhau không chồng lên nhau. Gạch hình lục giác đều có dùng được không? Gạch hình ngũ giác đều thì sao?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Tại một đỉnh chung, các góc của những viên gạch ghép quanh đỉnh phải lấp đầy đúng $360^\circ$.
+
+  *Tìm cách giải.* Lấy $360^\circ$ chia cho số đo mỗi góc; kết quả phải là số tự nhiên.
+
+  *Giải.* Lục giác đều có góc $120^\circ$ và $360^\circ:120^\circ=3$, nên ba viên gạch ghép khít tại mỗi đỉnh. Ngũ giác đều có góc $108^\circ$ và $360^\circ:108^\circ\approx3{,}33$ không là số tự nhiên: ba viên để hở $360^\circ-324^\circ=36^\circ$, bốn viên thì chồng lên nhau.
+
+  Vậy gạch lục giác đều dùng được, gạch ngũ giác đều không dùng được.
+
+  *Nhìn lại.* Những đa giác đều nào dùng được? Cần $\alpha$ là ước của $360^\circ$, với $60^\circ\leq\alpha<180^\circ$. Chỉ có $\alpha=60^\circ$, $90^\circ$, $120^\circ$, tức tam giác đều, hình vuông, lục giác đều. Đó là lí do sàn nhà thường lát gạch vuông hoặc lục giác.
+  :::
+
+## Đường tròn ngoại tiếp và nội tiếp đa giác đều
+
+  :::theorem Định lí
+  Mỗi đa giác đều có đúng một đường tròn ngoại tiếp và đúng một đường tròn nội tiếp; hai đường tròn này có cùng tâm, gọi là **tâm của đa giác đều**.
+  :::
+
+[[P6·7f89]]
+Nối tâm $O$ với các đỉnh, đa giác đều $n$ cạnh được chia thành $n$ tam giác cân bằng nhau; mỗi tam giác có góc ở đỉnh $O$ bằng $\dfrac{360^\circ}{n}$. Bán kính ngoại tiếp $R$ là cạnh bên, bán kính nội tiếp $r$ là đường cao của các tam giác cân đó.
+
+:::diagram Lục giác đều $ABCDEF$ nội tiếp đường tròn $(O; R)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·4a17]]
+Với lục giác đều, mỗi tam giác $OAB$ cân có góc ở đỉnh $\dfrac{360^\circ}{6}=60^\circ$, nên là **tam giác đều**. Vì vậy cạnh lục giác đều bằng bán kính ngoại tiếp: $a=R$.
+
+| Đa giác đều cạnh $a$ | $R$ | $r$ |
+|---|---|---|
+| Tam giác đều | $\dfrac{a\sqrt3}{3}$ | $\dfrac{a\sqrt3}{6}$ |
+| Hình vuông | $\dfrac{a\sqrt2}{2}$ | $\dfrac a2$ |
+| Lục giác đều | $a$ | $\dfrac{a\sqrt3}{2}$ |
+
+  :::example Lục giác đều cạnh $4$ cm
+  Cho lục giác đều $ABCDEF$ cạnh $4$ cm. Tính $R$, $r$ và diện tích lục giác.
+
+  **Lời giải.** Ta có $R=a=4$ cm (tam giác $OAB$ đều). Gọi $H$ là trung điểm của $AB$, ta có $OH\perp AB$ (tam giác $OAB$ đều) nên
+
+  $$r=OH=\frac{4\sqrt3}{2}=2\sqrt3\ \text{(cm)}.$$
+
+  Lục giác gồm $6$ tam giác đều cạnh $4$ cm, do đó diện tích là
+
+  $$S=6\cdot\frac12\cdot AB\cdot OH=6\cdot\frac12\cdot4\cdot2\sqrt3=24\sqrt3\approx41{,}57\ \text{(cm}^2).$$
+
+  Vậy $R=4$ cm, $r=2\sqrt3$ cm và $S=24\sqrt3\approx41{,}57$ cm².
+  :::
+
+## Phép quay giữ nguyên đa giác đều
+
+  :::definition Phép quay
+  **Phép quay** tâm $O$ góc $\alpha^\circ$ ($0^\circ<\alpha^\circ<360^\circ$) biến điểm $O$ thành chính nó và biến mỗi điểm $M\neq O$ thành điểm $M'$ sao cho $OM'=OM$ và góc quay từ $OM$ đến $OM'$ bằng $\alpha^\circ$ theo chiều đã chọn (thuận hoặc ngược chiều kim đồng hồ).
+  :::
+
+[[P8·6ba7]]
+Hình dung một chiếc đĩa hình lục giác đều quay quanh tâm: sau mỗi $60^\circ$, đĩa lại khớp đúng vào "chỗ cũ" của nó. Tổng quát, phép quay tâm $O$ góc $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (theo cùng một chiều) biến đa giác đều $n$ cạnh tâm $O$ thành chính nó.
+
+  :::example Phép quay biến hình vuông thành chính nó
+  Cho hình vuông $ABCD$ tâm $O$ (các đỉnh theo thứ tự ngược chiều kim đồng hồ). Nêu các phép quay ngược chiều kim đồng hồ tâm $O$ biến hình vuông thành chính nó, và tìm ảnh của đỉnh $A$ trong mỗi phép quay.
+
+  **Lời giải.** Ta có $n=4$, nên các góc quay là $\dfrac{360^\circ}{4}=90^\circ$, $180^\circ$, $270^\circ$. Ta thấy $\widehat{AOB}=\widehat{BOC}=\widehat{COD}=90^\circ$ (hai đường chéo hình vuông vuông góc) và $OA=OB=OC=OD$. Do đó
+
+  $$\text{quay } 90^\circ:\ A\mapsto B,\qquad \text{quay } 180^\circ:\ A\mapsto C,\qquad \text{quay } 270^\circ:\ A\mapsto D.$$
+
+  Vậy có ba phép quay: $90^\circ$, $180^\circ$, $270^\circ$, biến $A$ lần lượt thành $B$, $C$, $D$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·3d36]]
+- **Chỉ kiểm tra một điều kiện.** Sai: "hình thoi có các cạnh bằng nhau nên là đa giác đều". Đúng: cần cả các góc bằng nhau.
+- **Nhầm góc của đa giác với góc ở tâm.** Lục giác đều có mỗi góc $120^\circ$, còn góc ở tâm $\widehat{AOB}=60^\circ$.
+- **Nhầm $R$ và $r$.** $R$ đi từ tâm đến **đỉnh**, $r$ đi từ tâm đến **trung điểm cạnh**; luôn có $r<R$.
+:::
+
+[[P10·9cbb]]
+**Kết nối.** Bài này dựa trên tổng các góc của tam giác, tam giác đều và [đường tròn ngoại tiếp, nội tiếp tam giác](lesson:circumcircle-incircle). Chu vi lục giác đều nội tiếp là $6R$, nhỏ hơn độ dài đường tròn $2\pi R$, nên $\pi>3$: đó chính là bước đầu tiên của Archimedes. Tăng số cạnh lên $12$, $24$, $48$, $96$, chu vi đa giác càng gần độ dài đường tròn. Phép quay còn giúp ta hiểu các hoa văn, logo có tính đối xứng quay quanh ta.
+
+## Thuật ngữ
+
+  :::terms
+  - đa giác đều | regular polygon
+  - ngũ giác đều | regular pentagon
+  - lục giác đều | regular hexagon
+  - bát giác đều | regular octagon
+  - tâm của đa giác đều | centre of a regular polygon
+  - phép quay | rotation
+  - ngược chiều kim đồng hồ | anticlockwise
+  - lát kín mặt phẳng | tessellation
+  :::
+
+## Tóm tắt
+
+[[P11·0b8a]]
+- Đa giác đều: lồi, các cạnh bằng nhau và các góc bằng nhau.
+- Mỗi góc: $\dfrac{(n-2)\cdot180^\circ}{n}$; góc ở tâm chắn một cạnh: $\dfrac{360^\circ}{n}$.
+- Đường tròn ngoại tiếp và nội tiếp có chung tâm; lục giác đều có $R=a$, $r=\dfrac{a\sqrt3}{2}$; hình vuông có $R=\dfrac{a\sqrt2}{2}$, $r=\dfrac a2$.
+- Các phép quay tâm $O$ góc $k\cdot\dfrac{360^\circ}{n}$ ($k=1,\dots,n-1$) giữ nguyên đa giác đều $n$ cạnh.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/regular-polygons – BẢN TIẾNG ANH ########
+---
+title: Regular polygons
+description: Recognise regular polygons, find each interior angle, the radii of the circumcircle and incircle, and the rotations that map a regular polygon onto itself.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a regular polygon and find the size of each of its angles.
+  - Find the centre and the radii of the circumcircle and incircle of an equilateral triangle, a square and a regular hexagon.
+  - Recognise the rotations that map a regular polygon onto itself.
+  - Apply these ideas to real-life problems (floor tiles, nuts, observation wheels).
+  :::
+
+[[P1·5bfe]]
+More than two thousand years ago, Archimedes (287–212 BC) wanted to know how many times longer a circle is than its diameter. He could not measure it directly, so he "trapped" the circle between two **regular polygons** with $96$ sides, one inscribed and one circumscribed, and computed their perimeters. The result: $3\frac{10}{71}<\pi<3\frac17$ (according to MacTutor, University of St Andrews).
+
+[[P2·2353]]
+Why *regular* polygons? Because a regular polygon is completely determined by its number of sides and the radius of its circumcircle, so every one of its measurements can be calculated. This lesson gives you Archimedes' first tools.
+
+## Regular polygons and their angles
+
+  :::definition Regular polygon
+  A **regular polygon** is a convex polygon whose sides are all equal and whose angles are all equal.
+  :::
+
+[[P3·08f4]]
+The equilateral triangle and the square are familiar regular polygons. A rhombus (equal sides but unequal angles) or a non-square rectangle (equal angles but unequal sides) is **not** a regular polygon: both conditions are needed.
+
+### Explore: the sum of the angles
+
+[[P4·7205]]
+From one vertex of a convex polygon with $n$ sides, draw the diagonals: they split the polygon into $n-2$ triangles. Each triangle has angles adding up to $180^\circ$, so the angles of the polygon add up to $(n-2)\cdot180^\circ$. A regular polygon has $n$ equal angles, hence:
+
+  :::theorem Each angle of a regular polygon with $n$ sides
+  $$\alpha=\frac{(n-2)\cdot180^\circ}{n}.$$
+  :::
+
+  :::example Angles of a regular pentagon, hexagon and octagon
+  Find each angle of a regular pentagon, a regular hexagon and a regular octagon.
+
+  **Solution.** Using the formula with $n=5$, $n=6$ and $n=8$, we have
+
+  $$\frac{3\cdot180^\circ}{5}=108^\circ,\qquad \frac{4\cdot180^\circ}{6}=120^\circ,\qquad \frac{6\cdot180^\circ}{8}=135^\circ.$$
+
+  So each angle of a regular pentagon, hexagon and octagon is $108^\circ$, $120^\circ$ and $135^\circ$ respectively.
+  :::
+
+[[P5·8ab5]]
+The size of the angle settles a very practical question: covering a floor with identical tiles.
+
+  :::example Application: floor tiles
+  We want to cover a floor with tiles that are all the same regular polygon, so that at each shared vertex the tiles fit exactly, without overlapping. Can regular hexagonal tiles be used? What about regular pentagonal tiles?
+
+  **Solution.**
+
+  *Understand.* At a shared vertex, the angles of the tiles around it must fill exactly $360^\circ$.
+
+  *Plan.* Divide $360^\circ$ by each angle; the result must be a whole number.
+
+  *Solve.* A regular hexagon has angles of $120^\circ$ and $360^\circ\div120^\circ=3$, so three tiles fit exactly at each vertex. A regular pentagon has angles of $108^\circ$ and $360^\circ\div108^\circ\approx3.33$ is not a whole number: three tiles leave a gap of $360^\circ-324^\circ=36^\circ$, and four tiles overlap.
+
+  So hexagonal tiles can be used and pentagonal tiles cannot.
+
+  *Look back.* Which regular polygons work? We need $\alpha$ to divide $360^\circ$, with $60^\circ\leq\alpha<180^\circ$. Only $\alpha=60^\circ$, $90^\circ$, $120^\circ$ work: the equilateral triangle, the square and the regular hexagon. That is why floors are usually tiled with squares or hexagons.
+  :::
+
+## The circumcircle and incircle of a regular polygon
+
+  :::theorem Theorem
+  Every regular polygon has exactly one circumcircle and exactly one incircle; these two circles have the same centre, called the **centre of the regular polygon**.
+  :::
+
+[[P6·f573]]
+Joining the centre $O$ to the vertices splits a regular polygon with $n$ sides into $n$ congruent isosceles triangles; each has an angle of $\dfrac{360^\circ}{n}$ at $O$. The circumradius $R$ is the equal side, and the inradius $r$ is the height of these isosceles triangles.
+
+:::diagram The regular hexagon $ABCDEF$ inscribed in the circle $(O, R)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·1405]]
+For a regular hexagon, each isosceles triangle $OAB$ has an angle of $\dfrac{360^\circ}{6}=60^\circ$ at $O$, so it is **equilateral**. Hence the side of a regular hexagon equals its circumradius: $a=R$.
+
+| Regular polygon with side $a$ | $R$ | $r$ |
+|---|---|---|
+| Equilateral triangle | $\dfrac{a\sqrt3}{3}$ | $\dfrac{a\sqrt3}{6}$ |
+| Square | $\dfrac{a\sqrt2}{2}$ | $\dfrac a2$ |
+| Regular hexagon | $a$ | $\dfrac{a\sqrt3}{2}$ |
+
+  :::example A regular hexagon with side $4$ cm
+  The regular hexagon $ABCDEF$ has side $4$ cm. Find $R$, $r$ and the area of the hexagon.
+
+  **Solution.** We have $R=a=4$ cm (the triangle $OAB$ is equilateral). Let $H$ be the midpoint of $AB$; then $OH\perp AB$ (the triangle $OAB$ is equilateral), so
+
+  $$r=OH=\frac{4\sqrt3}{2}=2\sqrt3\ \text{(cm)}.$$
+
+  The hexagon consists of $6$ equilateral triangles with side $4$ cm, hence its area is
+
+  $$S=6\cdot\frac12\cdot AB\cdot OH=6\cdot\frac12\cdot4\cdot2\sqrt3=24\sqrt3\approx41.57\ \text{(cm}^2).$$
+
+  So $R=4$ cm, $r=2\sqrt3$ cm and $S=24\sqrt3\approx41.57$ cm².
+  :::
+
+## Rotations that keep a regular polygon
+
+  :::definition Rotation
+  The **rotation** about $O$ through $\alpha^\circ$ ($0^\circ<\alpha^\circ<360^\circ$) maps $O$ to itself and maps each point $M\neq O$ to the point $M'$ such that $OM'=OM$ and the angle turned from $OM$ to $OM'$ is $\alpha^\circ$ in the chosen direction (clockwise or anticlockwise).
+  :::
+
+[[P8·8b18]]
+Picture a plate shaped like a regular hexagon turning about its centre: after every $60^\circ$ it fits exactly into its "old place" again. In general, the rotations about $O$ through $\dfrac{360^\circ}{n}$, $2\cdot\dfrac{360^\circ}{n}$, ..., $(n-1)\cdot\dfrac{360^\circ}{n}$ (all in the same direction) map a regular polygon with $n$ sides and centre $O$ onto itself.
+
+  :::example Rotations that map a square onto itself
+  The square $ABCD$ has centre $O$ (its vertices go anticlockwise). List the anticlockwise rotations about $O$ that map the square onto itself, and find the image of the vertex $A$ under each one.
+
+  **Solution.** We have $n=4$, so the angles are $\dfrac{360^\circ}{4}=90^\circ$, $180^\circ$ and $270^\circ$. We have $\angle AOB=\angle BOC=\angle COD=90^\circ$ (the diagonals of a square are perpendicular) and $OA=OB=OC=OD$. Hence
+
+  $$\text{rotation through } 90^\circ:\ A\mapsto B,\qquad 180^\circ:\ A\mapsto C,\qquad 270^\circ:\ A\mapsto D.$$
+
+  So there are three rotations, through $90^\circ$, $180^\circ$ and $270^\circ$, mapping $A$ to $B$, $C$ and $D$ respectively.
+  :::
+
+:::warning Common mistakes
+[[P9·998b]]
+- **Checking only one condition.** Wrong: "a rhombus has equal sides, so it is a regular polygon". Right: the angles must be equal too.
+- **Confusing the angle of the polygon with the angle at the centre.** A regular hexagon has angles of $120^\circ$, while the angle at the centre $\angle AOB$ is $60^\circ$.
+- **Confusing $R$ and $r$.** $R$ goes from the centre to a **vertex**, $r$ from the centre to the **midpoint of a side**; always $r<R$.
+:::
+
+[[P10·0b19]]
+**Connections.** This lesson builds on the angle sum of a triangle, equilateral triangles and [the circumcircle and incircle of a triangle](lesson:circumcircle-incircle). The perimeter of the inscribed regular hexagon is $6R$, less than the circumference $2\pi R$, so $\pi>3$: that is Archimedes' first step. Increasing the number of sides to $12$, $24$, $48$, $96$ brings the perimeter closer and closer to the circumference. Rotations also explain the patterns and logos with rotational symmetry all around us.
+
+## Key terms
+
+  :::terms
+  - regular polygon | đa giác đều
+  - regular pentagon | ngũ giác đều
+  - regular hexagon | lục giác đều
+  - regular octagon | bát giác đều
+  - centre of a regular polygon | tâm của đa giác đều
+  - rotation | phép quay
+  - anticlockwise | ngược chiều kim đồng hồ
+  - tessellation | lát kín mặt phẳng
+  :::
+
+## Summary
+
+[[P11·04ea]]
+- Regular polygon: convex, all sides equal and all angles equal.
+- Each angle: $\dfrac{(n-2)\cdot180^\circ}{n}$; the angle at the centre on one side: $\dfrac{360^\circ}{n}$.
+- The circumcircle and incircle share a centre; a regular hexagon has $R=a$, $r=\dfrac{a\sqrt3}{2}$; a square has $R=\dfrac{a\sqrt2}{2}$, $r=\dfrac a2$.
+- The rotations about $O$ through $k\cdot\dfrac{360^\circ}{n}$ ($k=1,\dots,n-1$) map a regular $n$-sided polygon onto itself.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/relative-frequency-tables – BẢN TIẾNG VIỆT ########
+---
+title: Bảng tần số tương đối và biểu đồ tần số tương đối
+description: Tính tần số tương đối, lập bảng tần số tương đối, vẽ và đọc biểu đồ tần số tương đối dạng cột và dạng hình quạt tròn để so sánh các mẫu dữ liệu.
+minutes: 20
+---
+
+  :::goals
+  - Tính được tần số tương đối và lập được bảng tần số tương đối.
+  - Vẽ và đọc được biểu đồ tần số tương đối dạng cột và dạng hình quạt tròn.
+  - Dùng tần số tương đối để so sánh các mẫu dữ liệu có cỡ khác nhau.
+  :::
+
+[[P1·28aa]]
+Giả sử trường A khảo sát 300 học sinh và thấy $84$ bạn dùng mạng xã hội hơn 3 giờ mỗi ngày; trường B khảo sát 180 học sinh và thấy $63$ bạn như vậy. Trường A có nhiều bạn hơn, vậy học sinh trường A "nghiện" mạng xã hội hơn? Chưa chắc: $84$ trên $300$ và $63$ trên $180$ là hai chuyện khác nhau. Để so sánh công bằng, ta cần biết mỗi nhóm chiếm *bao nhiêu phần* của cả mẫu. Đó chính là tần số tương đối.
+
+## Tần số tương đối
+
+### Khám phá: chia cho cỡ mẫu
+
+[[P2·749b]]
+Ta chia số bạn dùng mạng xã hội hơn 3 giờ cho số bạn được khảo sát:
+
+  $$\text{Trường A: } \frac{84}{300}=0{,}28=28\%;\qquad \text{Trường B: } \frac{63}{180}=0{,}35=35\%.$$
+
+[[P3·a17e]]
+Như vậy trường B có tỉ lệ cao hơn, dù số bạn ít hơn. Con số $28\%$ cho biết: cứ 100 học sinh trường A thì có khoảng 28 bạn dùng mạng xã hội hơn 3 giờ mỗi ngày.
+
+  :::definition Tần số tương đối
+  Cho mẫu dữ liệu cỡ $n$ có các giá trị $x_1, x_2, \ldots, x_k$ với tần số $m_1, m_2, \ldots, m_k$.
+  - **Tần số tương đối** của giá trị $x_i$ là tỉ số giữa tần số $m_i$ và cỡ mẫu $n$:
+  $$f_i=\frac{m_i}{n}\cdot100\%.$$
+  - **Bảng tần số tương đối** gồm một hàng ghi các giá trị $x_i$ và một hàng ghi các tần số tương đối $f_i$ tương ứng.
+  - Tổng các tần số tương đối bằng $100\%$.
+  :::
+
+[[P4·46e6]]
+**Hiểu sâu hơn.** Tần số trả lời "bao nhiêu?", còn tần số tương đối trả lời "bao nhiêu phần của cả mẫu?". Vì đã chia cho $n$, tần số tương đối không phụ thuộc cỡ mẫu, nên so sánh được một lớp 35 bạn với cả một quốc gia. Tổng bằng $100\%$ vì $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$. Khi các $f_i$ được làm tròn, tổng có thể là $99{,}9\%$ hoặc $100{,}1\%$: đó là sai số làm tròn, không phải lỗi.
+
+  :::example Lập bảng tần số tương đối
+  Số giờ ngủ của 200 học sinh khối 9 (bài [bảng tần số](lesson:frequency-tables-charts)) có bảng tần số:
+
+  | Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+  |---|---|---|---|---|---|
+  | Số học sinh | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+  Lập bảng tần số tương đối của mẫu dữ liệu.
+
+  **Lời giải.** Cỡ mẫu $n=200$. Ta có
+
+  $$f_1=\frac{24}{200}\cdot100\%=12\%,\quad f_2=\frac{46}{200}\cdot100\%=23\%,\quad f_3=\frac{68}{200}\cdot100\%=34\%,$$
+  $$f_4=\frac{44}{200}\cdot100\%=22\%,\quad f_5=\frac{18}{200}\cdot100\%=9\%.$$
+
+  Vậy bảng tần số tương đối là:
+
+  | Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+  |---|---|---|---|---|---|
+  | Tần số tương đối | $12\%$ | $23\%$ | $34\%$ | $22\%$ | $9\%$ |
+
+  **Kiểm tra.** $12+23+34+22+9=100$. Từ bảng ta đọc ngay: $22\%+9\%=31\%$ học sinh ngủ đủ từ 8 giờ trở lên.
+  :::
+
+[[P5·2c17]]
+Từ tần số tương đối, ta cũng tính ngược được tần số: $m_i=f_i\cdot n$.
+
+  :::example Vận dụng: phân loại rác tại nguồn
+  Giả sử một phường khảo sát 250 hộ gia đình về việc phân loại rác: $18\%$ phân loại đầy đủ, $46\%$ phân loại một phần, còn lại không phân loại. Tính số hộ của mỗi nhóm.
+
+  **Lời giải.** Tần số tương đối của nhóm không phân loại là $100\%-18\%-46\%=36\%$. Ta có
+
+  $$250\cdot18\%=45,\qquad 250\cdot46\%=115,\qquad 250\cdot36\%=90.$$
+
+  Vậy có $45$ hộ phân loại đầy đủ, $115$ hộ phân loại một phần và $90$ hộ không phân loại.
+  :::
+
+## Biểu đồ tần số tương đối
+
+### Dạng cột
+
+[[P6·9855]]
+Biểu đồ tần số tương đối dạng cột vẽ giống biểu đồ tần số dạng cột, chỉ khác là chiều cao mỗi cột bằng tần số tương đối (tính theo %).
+
+:::graph Tần số tương đối của số giờ ngủ (%)
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·4829]]
+Hình dạng giống hệt biểu đồ tần số của bài trước, vì mọi cột đều được chia cho cùng một số $n=200$. Chỉ thang đo trên trục đứng thay đổi.
+
+### Dạng hình quạt tròn
+
+[[P8·be8d]]
+Khi muốn thấy mỗi nhóm chiếm bao nhiêu phần của *toàn thể*, ta dùng biểu đồ hình quạt tròn: cả hình tròn ứng với $100\%$, mỗi giá trị ứng với một hình quạt có số đo góc ở tâm
+
+  $$\alpha_i=f_i\cdot360^\circ.$$
+
+[[P9·1ddb]]
+Chẳng hạn $f=25\%$ ứng với góc $90^\circ$, tức một phần tư hình tròn.
+
+  :::example Cơ cấu dân số Việt Nam theo nhóm tuổi
+  Theo kết quả Điều tra dân số và nhà ở giữa kì năm 2024 của Tổng cục Thống kê (công bố tháng 1/2025), tại thời điểm 1/4/2024, dân số Việt Nam là $101\,112\,656$ người, trong đó $23{,}3\%$ dưới 15 tuổi, $67{,}4\%$ từ 15 đến 64 tuổi và $9{,}3\%$ từ 65 tuổi trở lên.
+
+  a) Tính số đo góc ở tâm của mỗi hình quạt khi vẽ biểu đồ hình quạt tròn.
+
+  b) Ước tính số người từ 65 tuổi trở lên (làm tròn đến hàng trăm nghìn).
+
+  **Lời giải.** a) Ta có
+
+  $$23{,}3\%\cdot360^\circ\approx83{,}9^\circ,\qquad 67{,}4\%\cdot360^\circ\approx242{,}6^\circ,\qquad 9{,}3\%\cdot360^\circ\approx33{,}5^\circ.$$
+
+  b) Số người từ 65 tuổi trở lên khoảng $101\,112\,656\cdot9{,}3\%\approx9\,403\,477$, tức khoảng $9{,}4$ triệu người.
+
+  Vậy a) các góc khoảng $83{,}9^\circ$, $242{,}6^\circ$, $33{,}5^\circ$; b) khoảng $9{,}4$ triệu người.
+
+  **Nhận xét.** Hình quạt "65 tuổi trở lên" nhỏ, nhưng $9{,}4$ triệu người là rất nhiều: họ cần y tế, lương hưu, chăm sóc. Đọc tần số tương đối luôn cần nhớ cỡ của tổng thể.
+  :::
+
+:::diagram Cơ cấu dân số Việt Nam theo nhóm tuổi (1/4/2024)
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trường nào đáng lo hơn?
+  Trở lại tình huống mở đầu. Giả sử ngoài nhóm "hơn 3 giờ", trường A có $126$ bạn dùng từ 1 đến 3 giờ và trường B có $72$ bạn như vậy; những bạn còn lại dùng dưới 1 giờ. Lập bảng tần số tương đối của hai trường và nhận xét.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Mỗi trường có ba nhóm; cỡ mẫu khác nhau ($300$ và $180$) nên phải so sánh bằng tần số tương đối.
+
+  *Tìm cách giải.* Tìm số bạn dùng dưới 1 giờ ở mỗi trường, rồi chia từng tần số cho cỡ mẫu.
+
+  *Giải.* Số bạn dùng dưới 1 giờ: trường A có $300-84-126=90$, trường B có $180-63-72=45$. Ta có bảng:
+
+  | Thời gian dùng | Dưới 1 giờ | Từ 1 đến 3 giờ | Hơn 3 giờ |
+  |---|---|---|---|
+  | Trường A | $\frac{90}{300}=30\%$ | $\frac{126}{300}=42\%$ | $\frac{84}{300}=28\%$ |
+  | Trường B | $\frac{45}{180}=25\%$ | $\frac{72}{180}=40\%$ | $\frac{63}{180}=35\%$ |
+
+  Vậy trường B có tỉ lệ dùng hơn 3 giờ cao hơn ($35\%$ so với $28\%$) và tỉ lệ dùng dưới 1 giờ thấp hơn, nên đáng lo hơn.
+
+  *Nhìn lại.* Kết quả có hợp lí không? Mỗi hàng có tổng $100\%$. Nếu trường B chỉ hỏi 20 bạn thì sao? Khi đó một bạn đã chiếm $5\%$, kết luận dễ sai do ngẫu nhiên: tần số tương đối chỉ đáng tin khi cỡ mẫu đủ lớn.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P10·418f]]
+- **So sánh tần số thay cho tần số tương đối** khi hai mẫu có cỡ khác nhau (như $84>63$ ở mở đầu).
+- **Tính góc sai.** Sai: $25\%$ ứng với góc $25^\circ$. Đúng: $25\%\cdot360^\circ=90^\circ$.
+- **Chia cho sai cỡ mẫu**, chẳng hạn chia cho số giá trị $k$ thay vì cho $n$.
+:::
+
+[[P11·44ee]]
+**Kết nối.** Tần số tương đối là cầu nối giữa thống kê và xác suất: ở lớp 8 bạn đã thấy khi lặp lại một phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Ở chương sau, ta sẽ tính [xác suất](lesson:event-probability-experiments) bằng cách đếm, rồi so sánh với tần số tương đối thu được từ thực tế.
+
+## Thuật ngữ
+
+  :::terms
+  - tần số tương đối | relative frequency
+  - bảng tần số tương đối | relative frequency table
+  - biểu đồ tần số tương đối dạng cột | relative frequency bar chart
+  - biểu đồ hình quạt tròn | pie chart
+  - hình quạt | sector
+  - góc ở tâm | angle at the centre
+  - tỉ lệ phần trăm | percentage
+  :::
+
+## Tóm tắt
+
+[[P12·7d41]]
+- Tần số tương đối: $f_i=\dfrac{m_i}{n}\cdot100\%$; tổng các $f_i$ bằng $100\%$.
+- Ngược lại: $m_i=f_i\cdot n$.
+- Biểu đồ cột: chiều cao cột bằng $f_i$. Biểu đồ hình quạt tròn: góc ở tâm $f_i\cdot360^\circ$.
+- So sánh hai mẫu có cỡ khác nhau: dùng tần số tương đối, không dùng tần số.
+
+## Luyện tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/relative-frequency-tables – BẢN TIẾNG ANH ########
+---
+title: Relative frequency tables and charts
+description: Work out relative frequencies, build relative frequency tables, and draw and read relative frequency bar charts and pie charts to compare data sets.
+minutes: 20
+---
+
+  :::goals
+  - Work out relative frequencies and build a relative frequency table.
+  - Draw and read relative frequency bar charts and pie charts.
+  - Use relative frequencies to compare data sets of different sizes.
+  :::
+
+[[P1·2a45]]
+Suppose school A surveys 300 students and finds that $84$ of them use social media for more than 3 hours a day; school B surveys 180 students and finds $63$ such students. School A has more of them, so are school A's students more "hooked" on social media? Not necessarily: $84$ out of $300$ and $63$ out of $180$ are different things. To compare fairly, we need to know what *fraction* of the whole sample each group is. That is exactly the relative frequency.
+
+## Relative frequency
+
+### Explore: dividing by the sample size
+
+[[P2·e0e8]]
+We divide the number of students using social media for more than 3 hours by the number surveyed:
+
+  $$\text{School A: } \frac{84}{300}=0.28=28\%;\qquad \text{School B: } \frac{63}{180}=0.35=35\%.$$
+
+[[P3·a484]]
+So school B has the higher proportion, even though it has fewer such students. The figure $28\%$ means: for every 100 students in school A, about 28 use social media for more than 3 hours a day.
+
+  :::definition Relative frequency
+  Consider a data set of size $n$ with values $x_1, x_2, \ldots, x_k$ and frequencies $m_1, m_2, \ldots, m_k$.
+  - The **relative frequency** of the value $x_i$ is the ratio of its frequency $m_i$ to the sample size $n$:
+  $$f_i=\frac{m_i}{n}\cdot100\%.$$
+  - A **relative frequency table** has one row listing the values $x_i$ and one row listing their relative frequencies $f_i$.
+  - The relative frequencies add up to $100\%$.
+  :::
+
+[[P4·526f]]
+**Going deeper.** Frequency answers "how many?", relative frequency answers "what fraction of the whole sample?". Because we have divided by $n$, relative frequency does not depend on the sample size, so a class of 35 can be compared with a whole country. The total is $100\%$ because $\dfrac{m_1+m_2+\ldots+m_k}{n}=\dfrac nn=1$. When the $f_i$ are rounded, the total may be $99.9\%$ or $100.1\%$: that is rounding error, not a mistake.
+
+  :::example Building a relative frequency table
+  The hours of sleep of 200 year 9 students (lesson [frequency tables](lesson:frequency-tables-charts)) have this frequency table:
+
+  | Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+  |---|---|---|---|---|---|
+  | Number of students | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+  Build the relative frequency table of the data set.
+
+  **Solution.** The sample size is $n=200$. We have
+
+  $$f_1=\frac{24}{200}\cdot100\%=12\%,\quad f_2=\frac{46}{200}\cdot100\%=23\%,\quad f_3=\frac{68}{200}\cdot100\%=34\%,$$
+  $$f_4=\frac{44}{200}\cdot100\%=22\%,\quad f_5=\frac{18}{200}\cdot100\%=9\%.$$
+
+  So the relative frequency table is:
+
+  | Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+  |---|---|---|---|---|---|
+  | Relative frequency | $12\%$ | $23\%$ | $34\%$ | $22\%$ | $9\%$ |
+
+  **Check.** $12+23+34+22+9=100$. From the table we read at once: $22\%+9\%=31\%$ of the students sleep 8 hours or more.
+  :::
+
+[[P5·3e63]]
+From relative frequencies we can also work back to frequencies: $m_i=f_i\cdot n$.
+
+  :::example Application: sorting waste at source
+  Suppose a ward surveys 250 households about sorting their rubbish: $18\%$ sort it fully, $46\%$ sort it partly and the rest do not sort it. Find the number of households in each group.
+
+  **Solution.** The relative frequency of the group that does not sort is $100\%-18\%-46\%=36\%$. We have
+
+  $$250\cdot18\%=45,\qquad 250\cdot46\%=115,\qquad 250\cdot36\%=90.$$
+
+  So $45$ households sort fully, $115$ sort partly and $90$ do not sort.
+  :::
+
+## Relative frequency charts
+
+### Bar charts
+
+[[P6·c177]]
+A relative frequency bar chart is drawn like a frequency bar chart, except that the height of each bar is the relative frequency (as a percentage).
+
+:::graph Relative frequencies of hours of sleep (%)
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·ebb5]]
+The shape is exactly the same as the frequency bar chart in the previous lesson, because every bar is divided by the same number $n=200$. Only the scale on the vertical axis changes.
+
+### Pie charts
+
+[[P8·39c4]]
+To see what fraction of the *whole* each group is, we use a pie chart: the whole circle stands for $100\%$, and each value has a sector with angle at the centre
+
+  $$\alpha_i=f_i\cdot360^\circ.$$
+
+[[P9·439c]]
+For example, $f=25\%$ gives an angle of $90^\circ$, a quarter of the circle.
+
+  :::example The age structure of Vietnam's population
+  According to the 2024 Intercensal Population and Housing Survey of Vietnam's General Statistics Office (published in January 2025), on 1 April 2024 Vietnam's population was $101\,112\,656$, of whom $23.3\%$ were under 15, $67.4\%$ were aged 15 to 64 and $9.3\%$ were 65 or over.
+
+  a) Find the angle at the centre of each sector when drawing a pie chart.
+
+  b) Estimate the number of people aged 65 or over (to the nearest hundred thousand).
+
+  **Solution.** a) We have
+
+  $$23.3\%\cdot360^\circ\approx83.9^\circ,\qquad 67.4\%\cdot360^\circ\approx242.6^\circ,\qquad 9.3\%\cdot360^\circ\approx33.5^\circ.$$
+
+  b) The number of people aged 65 or over is about $101\,112\,656\cdot9.3\%\approx9\,403\,477$, that is, about $9.4$ million.
+
+  So a) the angles are about $83.9^\circ$, $242.6^\circ$ and $33.5^\circ$; b) about $9.4$ million people.
+
+  **Remark.** The "65 or over" sector is small, but $9.4$ million people is a great many: they need healthcare, pensions and care. When reading relative frequencies, always remember the size of the whole.
+  :::
+
+:::diagram The age structure of Vietnam's population (1 April 2024)
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Which school should worry more?
+  Back to the opening situation. Suppose that, besides the "more than 3 hours" group, school A has $126$ students who use social media for 1 to 3 hours and school B has $72$; the rest use it for less than 1 hour. Build the relative frequency tables of the two schools and comment.
+
+  **Solution.**
+
+  *Understand.* Each school has three groups; the sample sizes differ ($300$ and $180$), so we must compare relative frequencies.
+
+  *Plan.* Find the number using it for less than 1 hour in each school, then divide each frequency by the sample size.
+
+  *Solve.* Less than 1 hour: school A has $300-84-126=90$, school B has $180-63-72=45$. We get the table:
+
+  | Time used | Less than 1 hour | 1 to 3 hours | More than 3 hours |
+  |---|---|---|---|
+  | School A | $\frac{90}{300}=30\%$ | $\frac{126}{300}=42\%$ | $\frac{84}{300}=28\%$ |
+  | School B | $\frac{45}{180}=25\%$ | $\frac{72}{180}=40\%$ | $\frac{63}{180}=35\%$ |
+
+  So school B has a higher proportion using it for more than 3 hours ($35\%$ against $28\%$) and a lower proportion using it for less than 1 hour, so it should worry more.
+
+  *Look back.* Is the result sensible? Each row adds up to $100\%$. What if school B had asked only 20 students? Then one student alone would be $5\%$, and the conclusion could easily be wrong by chance: relative frequencies are only reliable when the sample is large enough.
+  :::
+
+:::warning Common mistakes
+[[P10·8f41]]
+- **Comparing frequencies instead of relative frequencies** when the samples have different sizes (like $84>63$ in the opening).
+- **Wrong angles.** Wrong: $25\%$ gives an angle of $25^\circ$. Right: $25\%\cdot360^\circ=90^\circ$.
+- **Dividing by the wrong number**, for example by the number of values $k$ instead of by $n$.
+:::
+
+[[P11·3d58]]
+**Connections.** Relative frequency is the bridge between statistics and probability: in year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. In the next chapter we work out [probabilities](lesson:event-probability-experiments) by counting and compare them with relative frequencies from real data.
+
+## Key terms
+
+  :::terms
+  - relative frequency | tần số tương đối
+  - relative frequency table | bảng tần số tương đối
+  - relative frequency bar chart | biểu đồ tần số tương đối dạng cột
+  - pie chart | biểu đồ hình quạt tròn
+  - sector | hình quạt
+  - angle at the centre | góc ở tâm
+  - percentage | tỉ lệ phần trăm
+  :::
+
+## Summary
+
+[[P12·6af3]]
+- Relative frequency: $f_i=\dfrac{m_i}{n}\cdot100\%$; the $f_i$ add up to $100\%$.
+- Conversely: $m_i=f_i\cdot n$.
+- Bar chart: bar height equals $f_i$. Pie chart: angle at the centre $f_i\cdot360^\circ$.
+- To compare two data sets of different sizes, use relative frequencies, not frequencies.
+
+## Practice
+
+[[P13·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/right-triangle-side-angle-relations – BẢN TIẾNG VIỆT ########
+---
+title: Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng
+description: Tính cạnh của tam giác vuông khi biết một cạnh và một góc nhọn, giải tam giác vuông và đo chiều cao, khoảng cách trong thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Viết và dùng các hệ thức giữa cạnh và góc trong tam giác vuông.
+  - Giải tam giác vuông khi biết hai cạnh, hoặc một cạnh và một góc nhọn.
+  - Tính chiều cao, khoảng cách trong thực tế mà không cần đo trực tiếp.
+  :::
+
+[[P1·bbf6]]
+Bạn Minh đứng cách chân cột cờ của trường $15$ m. Minh nhìn lên đỉnh cột cờ theo một tia hợp với phương nằm ngang góc $35^\circ$, mắt Minh cách mặt đất $1{,}5$ m. Không cần trèo lên, làm sao biết cột cờ cao bao nhiêu mét?
+
+[[P2·9d09]]
+Trong tam giác vuông tạo bởi mắt Minh, đỉnh cột và một điểm trên cột ngang tầm mắt, ta biết một cạnh ($15$ m) và một góc ($35^\circ$). Bài này cho ta cách tính các cạnh còn lại.
+
+## Hệ thức giữa cạnh và góc
+
+[[P3·a2e4]]
+Cho tam giác $ABC$ vuông tại $A$, với $BC=a$, $CA=b$, $AB=c$.
+
+:::diagram Tam giác vuông $ABC$ với các cạnh $a$, $b$, $c$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Khám phá
+
+[[P4·a23e]]
+Từ định nghĩa, $\sin B=\dfrac{b}{a}$. Nhân hai vế với $a$ ta được $b=a\sin B$. Chẳng hạn, nếu $a=10$ và $\widehat{B}=30^\circ$ thì $b=10\cdot\dfrac12=5$. Làm tương tự với các tỉ số khác, ta được bốn hệ thức.
+
+  :::theorem Hệ thức giữa cạnh và góc trong tam giác vuông
+  Trong tam giác $ABC$ vuông tại $A$:
+  - Mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề:
+  $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
+  - Mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối hoặc nhân với côtang góc kề:
+  $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
+  :::
+
+[[P5·f921]]
+Vì sao? Mỗi đẳng thức chỉ là định nghĩa viết lại. Ví dụ $\cos C=\dfrac{b}{a}$ (cạnh kề của góc $C$ là $b$), nên $b=a\cos C$; $\tan B=\dfrac bc$, nên $b=c\tan B$.
+
+  :::example Biết cạnh huyền và một góc nhọn
+  Cho tam giác $ABC$ vuông tại $A$ có $BC=12$ cm, $\widehat{B}=40^\circ$. Tính $AC$ và $AB$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng hệ thức giữa cạnh và góc cho tam giác $ABC$ vuông tại $A$ ($AC$ đối diện góc $B$, $AB$ kề góc $B$), ta được
+
+  $$AC=BC\sin B=12\sin40^\circ\approx7{,}71;\qquad AB=BC\cos B=12\cos40^\circ\approx9{,}19.$$
+
+  Vậy $AC\approx7{,}71$ cm và $AB\approx9{,}19$ cm.
+  :::
+
+[[P6·3f19]]
+Khi biết một cạnh góc vuông, ta dùng tang hoặc côtang.
+
+  :::example Biết một cạnh góc vuông và một góc nhọn
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{B}=55^\circ$. Tính $AC$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng hệ thức giữa cạnh và góc cho tam giác $ABC$ vuông tại $A$ ($AC$ đối diện góc $B$, $AB$ kề góc $B$), ta được
+
+  $$AC=AB\tan B=6\tan55^\circ\approx8{,}57.$$
+
+  Vậy $AC\approx8{,}57$ cm.
+  :::
+
+## Giải tam giác vuông
+
+[[P7·ff8a]]
+**Giải tam giác vuông** là tìm tất cả các cạnh và góc còn lại khi biết hai yếu tố, trong đó có ít nhất một cạnh. Ta dùng ba công cụ: định lí Pythagore, $\widehat{B}+\widehat{C}=90^\circ$, và các hệ thức ở trên.
+
+  :::example Biết hai cạnh góc vuông
+  Giải tam giác $ABC$ vuông tại $A$, biết $AB=5$ cm, $AC=7$ cm (góc làm tròn đến độ, cạnh đến hàng phần trăm).
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore) và $\tan B=\dfrac{AC}{AB}$. Do đó
+
+  $$BC=\sqrt{5^2+7^2}=\sqrt{74}\approx8{,}60;\qquad \tan B=\frac75=1{,}4\Rightarrow \widehat{B}\approx54^\circ;\qquad \widehat{C}\approx90^\circ-54^\circ=36^\circ.$$
+
+  Vậy $BC\approx8{,}60$ cm, $\widehat{B}\approx54^\circ$, $\widehat{C}\approx36^\circ$.
+  :::
+
+  :::example Biết cạnh huyền và một góc nhọn
+  Giải tam giác $ABC$ vuông tại $A$, biết $BC=20$ cm, $\widehat{C}=35^\circ$ (cạnh làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $\widehat B+\widehat C=90^\circ$. Áp dụng hệ thức giữa cạnh và góc ($AB$ đối diện góc $C$, $AC$ kề góc $C$), ta được
+
+  $$\widehat{B}=90^\circ-35^\circ=55^\circ;\qquad AB=20\sin35^\circ\approx11{,}47;\qquad AC=20\cos35^\circ\approx16{,}38.$$
+
+  Vậy $\widehat{B}=55^\circ$, $AB\approx11{,}47$ cm, $AC\approx16{,}38$ cm.
+  :::
+
+## Ứng dụng: đo chiều cao và khoảng cách
+
+[[P8·f36d]]
+Khi nhìn lên một vật, góc giữa tia nhìn và phương nằm ngang gọi là **góc nâng**. Khi nhìn xuống, góc đó gọi là **góc hạ**. Ta dựng một tam giác vuông có một cạnh nằm ngang, rồi dùng hệ thức.
+
+:::diagram Đo chiều cao cột cờ
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Chiều cao cột cờ
+  Trả lời câu hỏi ở đầu bài (làm tròn đến hàng phần mười).
+
+  **Lời giải.** *Hiểu đề:* $M$ là mắt Minh, $K$ là điểm trên cột ngang tầm mắt, $D$ là đỉnh cột; $MK=15$ m, $\widehat{DMK}=35^\circ$, $KF=1{,}5$ m. *Tìm cách giải:* trong tam giác $MKD$ vuông tại $K$, $DK$ đối diện góc $M$, $MK$ kề góc $M$, nên dùng tang. Chiều cao cột cờ bằng $DK$ cộng với chiều cao $KF$ từ mắt Minh xuống đất. *Giải:* Xét tam giác $MKD$ vuông tại $K$, ta có
+
+  $$DK=MK\tan35^\circ=15\tan35^\circ\approx10{,}50;\qquad DF=DK+KF\approx10{,}50+1{,}5=12{,}0.$$
+
+  Vậy cột cờ cao khoảng $12{,}0$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·7f30]]
+- **Chọn sai tỉ số.** Sai: $AC=BC\cos B$. Lí do sai: $AC$ đối diện góc $B$, nên đi với sin. Đúng: $AC=BC\sin B$ (hoặc $BC\cos C$).
+- **Chia thay vì nhân.** Sai: $AC=\dfrac{AB}{\tan B}$. Lí do sai: $\tan B=\dfrac{AC}{AB}$ nên $AC=AB\tan B$. Đúng: chỉ chia khi cần tìm cạnh ở mẫu, ví dụ $BC=\dfrac{AC}{\sin B}$.
+- **Làm tròn quá sớm.** Sai: ở bài thả diều, lấy $\sin38^\circ\approx0{,}6$ rồi tính $50\cdot0{,}6=30$ (m). Lí do sai: $50\sin38^\circ\approx30{,}78$, lệch gần $0{,}8$ m, và sai số còn lớn dần qua nhiều bước. Đúng: giữ nguyên trên máy, chỉ làm tròn kết quả cuối.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - cạnh góc vuông | leg of a right-angled triangle
+  - cạnh huyền | hypotenuse
+  - góc đối | opposite angle
+  - góc kề | adjacent angle
+  - giải tam giác vuông | solving a right-angled triangle
+  - góc nâng | angle of elevation
+  - góc hạ | angle of depression
+  - phương nằm ngang | horizontal
+  :::
+
+## Tóm tắt
+
+[[P10·0aec]]
+- Tam giác $ABC$ vuông tại $A$: $b=a\sin B=a\cos C$, $c=a\sin C=a\cos B$.
+- $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
+- Giải tam giác vuông: Pythagore, $\widehat B+\widehat C=90^\circ$, các hệ thức; cần biết ít nhất một cạnh.
+- Bài thực tế: vẽ hình, tìm tam giác vuông, chọn tỉ số, làm tròn ở bước cuối.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/right-triangle-side-angle-relations – BẢN TIẾNG ANH ########
+---
+title: Relations between sides and angles in a right-angled triangle, with applications
+description: Find sides of a right-angled triangle from one side and an acute angle, solve right-angled triangles and measure real heights and distances.
+minutes: 20
+---
+
+  :::goals
+  - Write and use the relations between the sides and angles of a right-angled triangle.
+  - Solve a right-angled triangle given two sides, or one side and one acute angle.
+  - Find real heights and distances without measuring them directly.
+  :::
+
+[[P1·ac7f]]
+Minh stands $15$ m from the foot of the school flagpole. He looks up at the top of the pole along a line that makes an angle of $35^\circ$ with the horizontal, and his eyes are $1.5$ m above the ground. Without climbing up, how can we find the height of the flagpole in metres?
+
+[[P2·378d]]
+In the right-angled triangle formed by Minh's eye, the top of the pole and the point on the pole level with his eye, we know one side ($15$ m) and one angle ($35^\circ$). This lesson shows how to find the other sides.
+
+## Relations between sides and angles
+
+[[P3·6492]]
+Take triangle $ABC$ with a right angle at $A$, and write $BC=a$, $CA=b$, $AB=c$. The two sides that form the right angle, $b$ and $c$, are called the **legs**.
+
+:::diagram The right-angled triangle $ABC$ with sides $a$, $b$, $c$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Explore
+
+[[P4·0a56]]
+From the definition, $\sin B=\dfrac{b}{a}$. Multiplying both sides by $a$ gives $b=a\sin B$. For example, if $a=10$ and $\angle B=30^\circ$, then $b=10\cdot\dfrac12=5$. Doing the same with the other ratios gives four relations.
+
+  :::theorem Relations between sides and angles in a right-angled triangle
+  In triangle $ABC$ with a right angle at $A$:
+  - Each leg equals the hypotenuse times the sine of the opposite angle, or times the cosine of the adjacent angle:
+  $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
+  - Each leg equals the other leg times the tangent of the opposite angle, or times the cotangent of the adjacent angle:
+  $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
+  :::
+
+[[P5·f706]]
+Why? Each equation is just a definition rewritten. For example, $\cos C=\dfrac{b}{a}$ (the side adjacent to $C$ is $b$), so $b=a\cos C$; and $\tan B=\dfrac bc$, so $b=c\tan B$.
+
+  :::example Given the hypotenuse and an acute angle
+  Triangle $ABC$ has a right angle at $A$, $BC=12$ cm and $\angle B=40^\circ$. Find $AC$ and $AB$ (rounded to two decimal places).
+
+  **Solution.** Applying the side–angle relations to triangle $ABC$ with a right angle at $A$ ($AC$ is opposite angle $B$, $AB$ is adjacent to it), we get
+
+  $$AC=BC\sin B=12\sin40^\circ\approx7.71;\qquad AB=BC\cos B=12\cos40^\circ\approx9.19.$$
+
+  So $AC\approx7.71$ cm and $AB\approx9.19$ cm.
+  :::
+
+[[P6·1531]]
+When we know a leg, we use the tangent or the cotangent.
+
+  :::example Given a leg and an acute angle
+  Triangle $ABC$ has a right angle at $A$, $AB=6$ cm and $\angle B=55^\circ$. Find $AC$ (rounded to two decimal places).
+
+  **Solution.** Applying the side–angle relations to triangle $ABC$ with a right angle at $A$ ($AC$ is opposite angle $B$, $AB$ is adjacent to it), we get
+
+  $$AC=AB\tan B=6\tan55^\circ\approx8.57.$$
+
+  So $AC\approx8.57$ cm.
+  :::
+
+## Solving a right-angled triangle
+
+[[P7·27b9]]
+**Solving a right-angled triangle** means finding all the remaining sides and angles from two known facts, at least one of which is a side. We use three tools: Pythagoras' theorem, $\angle B+\angle C=90^\circ$, and the relations above.
+
+  :::example Given the two legs
+  Solve triangle $ABC$ with a right angle at $A$, given $AB=5$ cm and $AC=7$ cm (angles to the nearest degree, sides to two decimal places).
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem) and $\tan B=\dfrac{AC}{AB}$. Hence
+
+  $$BC=\sqrt{5^2+7^2}=\sqrt{74}\approx8.60;\qquad \tan B=\frac75=1.4\Rightarrow \angle B\approx54^\circ;\qquad \angle C\approx90^\circ-54^\circ=36^\circ.$$
+
+  So $BC\approx8.60$ cm, $\angle B\approx54^\circ$ and $\angle C\approx36^\circ$.
+  :::
+
+  :::example Given the hypotenuse and an acute angle
+  Solve triangle $ABC$ with a right angle at $A$, given $BC=20$ cm and $\angle C=35^\circ$ (sides to two decimal places).
+
+  **Solution.** In the right-angled triangle $ABC$, $\angle B+\angle C=90^\circ$. Applying the side–angle relations ($AB$ is opposite angle $C$, $AC$ is adjacent to it), we get
+
+  $$\angle B=90^\circ-35^\circ=55^\circ;\qquad AB=20\sin35^\circ\approx11.47;\qquad AC=20\cos35^\circ\approx16.38.$$
+
+  So $\angle B=55^\circ$, $AB\approx11.47$ cm and $AC\approx16.38$ cm.
+  :::
+
+## Applications: measuring heights and distances
+
+[[P8·5371]]
+When we look up at an object, the angle between the line of sight and the horizontal is called the **angle of elevation**. When we look down, it is called the **angle of depression**. We draw a right-angled triangle with one horizontal side, then use the relations.
+
+:::diagram Measuring the height of the flagpole
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The height of the flagpole
+  Answer the question from the start (rounded to one decimal place).
+
+  **Solution.** *Understand:* $M$ is Minh's eye, $K$ is the point on the pole level with his eye, and $D$ is the top of the pole; $MK=15$ m, $\angle DMK=35^\circ$, $KF=1.5$ m. *Plan:* in triangle $MKD$ with a right angle at $K$, $DK$ is opposite angle $M$ and $MK$ is adjacent to it, so we use the tangent. The height of the pole is $DK$ plus the height $KF$ from Minh's eye to the ground. *Solve:* In triangle $MKD$ with a right angle at $K$, we have
+
+  $$DK=MK\tan35^\circ=15\tan35^\circ\approx10.50;\qquad DF=DK+KF\approx10.50+1.5=12.0.$$
+
+  So the flagpole is about $12.0$ m tall.
+  :::
+
+:::warning Common mistakes
+[[P9·0385]]
+- **Choosing the wrong ratio.** Wrong: $AC=BC\cos B$. Why it is wrong: $AC$ is opposite angle $B$, so it goes with sine. Right: $AC=BC\sin B$ (or $BC\cos C$).
+- **Dividing instead of multiplying.** Wrong: $AC=\dfrac{AB}{\tan B}$. Why it is wrong: $\tan B=\dfrac{AC}{AB}$, so $AC=AB\tan B$. Right: divide only when the side you want is in the denominator, for example $BC=\dfrac{AC}{\sin B}$.
+- **Rounding too early.** Wrong: in the kite problem, taking $\sin38^\circ\approx0.6$ and working out $50\cdot0.6=30$ (m). Why it is wrong: $50\sin38^\circ\approx30.78$, almost $0.8$ m more, and the error grows over several steps. Right: keep the full value on the calculator and round only the final answer.
+:::
+
+## Key terms
+
+  :::terms
+  - leg of a right-angled triangle | cạnh góc vuông
+  - hypotenuse | cạnh huyền
+  - opposite angle | góc đối
+  - adjacent angle | góc kề
+  - solving a right-angled triangle | giải tam giác vuông
+  - angle of elevation | góc nâng
+  - angle of depression | góc hạ
+  - horizontal | phương nằm ngang
+  :::
+
+## Summary
+
+[[P10·f33d]]
+- Triangle $ABC$ with a right angle at $A$: $b=a\sin B=a\cos C$, $c=a\sin C=a\cos B$.
+- $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
+- Solving a right-angled triangle: Pythagoras' theorem, $\angle B+\angle C=90^\circ$ and the relations; at least one side must be known.
+- Real-life problems: draw a picture, find the right-angled triangle, choose the ratio, round at the last step.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

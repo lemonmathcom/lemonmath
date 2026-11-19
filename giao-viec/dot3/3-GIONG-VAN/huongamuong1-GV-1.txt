@@ -1,0 +1,1290 @@
+######################################################################
+TÀI KHOẢN: huongamuong1   |   FILE: huongamuong1-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file huongamuong1-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – huongamuong1-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ib-aa/ibaa-hl-further-calculus, exams/ib-aa/ibaa-hl-vectors, exams/ib-aa/ibaa-number-algebra, exams/ib-aa/ibaa-overview
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  huongamuong1-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/huongamuong1-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file huongamuong1-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ib-aa/ibaa-hl-further-calculus – BẢN TIẾNG VIỆT ########
+---
+title: Giải tích nâng cao: chuỗi Maclaurin, phương trình vi phân
+description: IB Math AA HL: chuỗi Maclaurin, giới hạn bằng chuỗi và quy tắc L'Hôpital, phương trình vi phân tách biến, đẳng cấp, thừa số tích phân, phương pháp Euler.
+minutes: 50
+---
+
+  :::goals
+  - Tìm chuỗi Maclaurin bằng đạo hàm và bằng cách kết hợp các chuỗi đã biết.
+  - Dùng chuỗi và quy tắc L'Hôpital để tính giới hạn.
+  - Giải phương trình vi phân tách biến, đẳng cấp, và phương trình tuyến tính bằng thừa số tích phân.
+  - Xấp xỉ nghiệm của phương trình vi phân bằng phương pháp Euler.
+  :::
+
+[[P1·96d9]]
+Các nội dung giải tích HL này rất hay được chọn cho câu cuối Section B của Paper 1 hoặc Paper 2: lập một chuỗi Maclaurin, dùng nó để tính giới hạn hay giá trị gần đúng, hoặc giải từng bước một phương trình vi phân rồi giải thích nghiệm trong ngữ cảnh. Như mọi phần đại số ở HL, mỗi dòng phải suy ra từ dòng trước, nên hãy trình bày đầy đủ phương pháp.
+
+## Chuỗi Maclaurin
+
+  $$f(x)=f(0)+xf'(0)+\frac{x^2}{2!}f''(0)+\frac{x^3}{3!}f'''(0)+\dots$$
+[[P2·6bd0]]
+Sổ công thức cho sẵn chuỗi của $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ và $(1+x)^p$. Chuỗi mới được tạo bằng cách thế biến, nhân, lấy đạo hàm hoặc lấy tích phân.
+
+  :::example Nhân hai chuỗi
+  Tìm chuỗi Maclaurin của $e^x\sin x$ đến số hạng chứa $x^3$. [4 marks]
+
+  **Lời giải.** $\left(1+x+\dfrac{x^2}{2}+\dfrac{x^3}{6}+\dots\right)\left(x-\dfrac{x^3}{6}+\dots\right)=x+x^2+\dfrac{x^3}{2}-\dfrac{x^3}{6}+\dots=x+x^2+\dfrac{x^3}{3}+\dots$
+  :::
+
+  :::example Thế biến
+  Dùng chuỗi của $\ln(1+x)$ để tìm ba số hạng khác không đầu tiên của chuỗi $\ln(1+2x)$, và nêu các giá trị của $x$ để chuỗi đúng. [4 marks]
+
+  **Lời giải.** $\ln(1+x)=x-\dfrac{x^2}{2}+\dfrac{x^3}{3}-\dots$ với $-1<x\le1$. Thay $x$ bởi $2x$: $2x-2x^2+\dfrac{8x^3}{3}-\dots$, đúng khi $-1<2x\le1$, tức $-\dfrac12<x\le\dfrac12$.
+  :::
+
+## Giới hạn bằng chuỗi và quy tắc L'Hôpital
+
+[[P3·6e89]]
+Với giới hạn dạng $\dfrac00$ hoặc $\dfrac\infty\infty$, có thể thay các hàm bằng chuỗi của chúng, hoặc dùng **quy tắc L'Hôpital**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, lặp lại nếu cần.
+
+  :::example Một giới hạn, hai cách
+  Tính $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$. [4 marks]
+
+  **Lời giải.** Bằng chuỗi: $\dfrac{\frac{x^2}{2}+\frac{x^3}{6}+\dots}{x^2}=\dfrac12+\dfrac x6+\dots\to\dfrac12$.
+
+  Bằng L'Hôpital (hai lần, vì cả hai bước đều có dạng $\dfrac00$): $\displaystyle\lim_{x\to0}\frac{e^x-1}{2x}=\lim_{x\to0}\frac{e^x}{2}=\frac12$.
+  :::
+
+## Phương trình vi phân
+
+:::note Ba dạng và cách giải
+[[P4·b5bc]]
+- **Tách biến (separable):** $\dfrac{dy}{dx}=f(x)g(y)$. Tách biến rồi lấy tích phân: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
+- **Đẳng cấp (homogeneous):** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Đặt $y=vx$, khi đó $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$, rồi tách biến.
+- **Tuyến tính (linear):** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Nhân hai vế với **thừa số tích phân (integrating factor)** $e^{\int P(x)\,dx}$; vế trái trở thành đạo hàm của (thừa số tích phân $\times\ y$).
+:::
+
+  :::example Tách biến
+  Giải $\dfrac{dy}{dx}=xy^2$, biết $y=1$ khi $x=0$. [5 marks]
+
+  **Lời giải.** $\displaystyle\int y^{-2}\,dy=\int x\,dx$ cho $-\dfrac1y=\dfrac{x^2}{2}+C$. Tại $(0,1)$: $C=-1$. Vậy $\dfrac1y=1-\dfrac{x^2}{2}$ và $y=\dfrac{2}{2-x^2}$.
+  :::
+
+  :::example Thừa số tích phân
+  Giải $\dfrac{dy}{dx}+\dfrac{2y}{x}=x^2$ với $x>0$, biết $y=1$ khi $x=1$. [6 marks]
+
+  **Lời giải.** Thừa số tích phân là $e^{\int2/x\,dx}=e^{2\ln x}=x^2$. Khi đó $\dfrac{d}{dx}\left(x^2y\right)=x^4$, nên $x^2y=\dfrac{x^5}{5}+C$. Tại $(1,1)$: $C=\dfrac45$. Vậy $y=\dfrac{x^3}{5}+\dfrac{4}{5x^2}$.
+  :::
+
+  :::example Đẳng cấp
+  Tìm nghiệm tổng quát của $\dfrac{dy}{dx}=\dfrac{x+y}{x}$, $x>0$. [5 marks]
+
+  **Lời giải.** $\dfrac{dy}{dx}=1+\dfrac yx$. Với $y=vx$: $v+x\dfrac{dv}{dx}=1+v$, nên $\dfrac{dv}{dx}=\dfrac1x$ và $v=\ln x+C$. Vậy $y=x\ln x+Cx$.
+  :::
+
+## Phương pháp Euler
+
+[[P5·0226]]
+Xuất phát từ $(x_0,y_0)$ với bước nhảy $h$: $x_{n+1}=x_n+h$ và $y_{n+1}=y_n+h\,f(x_n,y_n)$, trong đó $\dfrac{dy}{dx}=f(x,y)$. Ở Paper 2, bảng giá trị của GDC hoặc bảng tính giúp tính nhanh.
+
+  :::example Hai bước Euler
+  Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, dùng phương pháp Euler với $h=0{,}1$ để ước lượng $y(0{,}2)$. [3 marks]
+
+  **Lời giải.** $y_1=1+0{,}1(0+1)=1{,}1$. $y_2=1{,}1+0{,}1(0{,}1+1{,}1)=1{,}22$. Vậy $y(0{,}2)\approx1{,}22$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·060c]]
+- **Hằng số tích phân** thêm quá muộn, hoặc chỉ thêm ở một vế.
+- **Sai thừa số tích phân:** đó là $e^{\int P\,dx}$ với phương trình đã viết dưới dạng $y'+Py=Q$; hãy sắp xếp lại trước.
+- **Khoảng hội tụ** của chuỗi sau khi thế biến.
+- **Dùng L'Hôpital cho giới hạn không có dạng $\dfrac00$ hay $\dfrac\infty\infty$.** Kiểm tra dạng ở mỗi bước.
+- **Phương pháp Euler:** dùng $x$ mới cùng $y$ cũ khi tính hệ số góc.
+:::
+
+  :::terms
+  - Maclaurin series | chuỗi Maclaurin
+  - L'Hôpital's rule | quy tắc L'Hôpital
+  - differential equation | phương trình vi phân
+  - separable, homogeneous | tách biến, đẳng cấp
+  - linear, integrating factor | tuyến tính, thừa số tích phân
+  - general solution, particular solution | nghiệm tổng quát, nghiệm riêng
+  - Euler's method, step length | phương pháp Euler, bước nhảy
+  :::
+
+## Bài tập tương tự
+
+:::exercise Chuỗi của cosin
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chuỗi của hàm mũ
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một giới hạn
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tách biến với arctan
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thừa số tích phân
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Bể pha trộn
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tích phân từ chuỗi
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Euler với bảng của GDC
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách: chuỗi bằng đạo hàm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-hl-further-calculus – BẢN TIẾNG ANH ########
+---
+title: Further calculus: Maclaurin series and differential equations
+description: IB Maths AA HL: Maclaurin series, limits with series and L'Hôpital, separable, homogeneous and integrating-factor differential equations, Euler's method.
+minutes: 50
+---
+
+  :::goals
+  - Find Maclaurin series by differentiation and by combining known series.
+  - Use series and L'Hôpital's rule to evaluate limits.
+  - Solve separable and homogeneous differential equations, and linear ones with an integrating factor.
+  - Approximate solutions of differential equations with Euler's method.
+  :::
+
+[[P1·0946]]
+These HL calculus topics are favorites for the last Section B question of Paper 1 or Paper 2: build a Maclaurin series, use it to find a limit or an approximation, or solve a differential equation step by step and interpret the solution in context. As with all HL algebra, every line must follow from the previous one, so write the method in full.
+
+## Maclaurin series
+
+  $$f(x)=f(0)+xf'(0)+\frac{x^2}{2!}f''(0)+\frac{x^3}{3!}f'''(0)+\dots$$
+[[P2·1cf2]]
+The formula booklet gives the series for $e^x$, $\ln(1+x)$, $\sin x$, $\cos x$, $\arctan x$ and $(1+x)^p$. New series are built by substitution, multiplication, differentiation or integration.
+
+  :::example Multiplying two series
+  Find the Maclaurin series of $e^x\sin x$ up to the term in $x^3$. [4 marks]
+
+  **Solution.** $\left(1+x+\dfrac{x^2}{2}+\dfrac{x^3}{6}+\dots\right)\left(x-\dfrac{x^3}{6}+\dots\right)=x+x^2+\dfrac{x^3}{2}-\dfrac{x^3}{6}+\dots=x+x^2+\dfrac{x^3}{3}+\dots$
+  :::
+
+  :::example Substitution
+  Use the series for $\ln(1+x)$ to find the first three nonzero terms of the series for $\ln(1+2x)$, and state the values of $x$ for which it is valid. [4 marks]
+
+  **Solution.** $\ln(1+x)=x-\dfrac{x^2}{2}+\dfrac{x^3}{3}-\dots$ for $-1<x\le1$. Replace $x$ by $2x$: $2x-2x^2+\dfrac{8x^3}{3}-\dots$, valid for $-1<2x\le1$, that is $-\dfrac12<x\le\dfrac12$.
+  :::
+
+## Limits with series and L'Hôpital's rule
+
+[[P3·e300]]
+For a limit of the form $\dfrac00$ or $\dfrac\infty\infty$, either replace the functions by their series, or use **L'Hôpital's rule**: $\displaystyle\lim\frac{f(x)}{g(x)}=\lim\frac{f'(x)}{g'(x)}$, repeated if necessary.
+
+  :::example A limit two ways
+  Find $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$. [4 marks]
+
+  **Solution.** With series: $\dfrac{\frac{x^2}{2}+\frac{x^3}{6}+\dots}{x^2}=\dfrac12+\dfrac x6+\dots\to\dfrac12$.
+
+  With L'Hôpital (twice, since both stages are $\dfrac00$): $\displaystyle\lim_{x\to0}\frac{e^x-1}{2x}=\lim_{x\to0}\frac{e^x}{2}=\frac12$.
+  :::
+
+## Differential equations
+
+:::note Three types and their methods
+[[P4·1e7f]]
+- **Separable:** $\dfrac{dy}{dx}=f(x)g(y)$. Separate and integrate: $\displaystyle\int\frac{dy}{g(y)}=\int f(x)\,dx$.
+- **Homogeneous:** $\dfrac{dy}{dx}=f\left(\dfrac yx\right)$. Substitute $y=vx$, so $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$, and separate.
+- **Linear:** $\dfrac{dy}{dx}+P(x)y=Q(x)$. Multiply by the **integrating factor** $e^{\int P(x)\,dx}$; the left side becomes the derivative of (integrating factor $\times\ y$).
+:::
+
+  :::example Separable
+  Solve $\dfrac{dy}{dx}=xy^2$, given that $y=1$ when $x=0$. [5 marks]
+
+  **Solution.** $\displaystyle\int y^{-2}\,dy=\int x\,dx$ gives $-\dfrac1y=\dfrac{x^2}{2}+C$. At $(0,1)$: $C=-1$. So $\dfrac1y=1-\dfrac{x^2}{2}$ and $y=\dfrac{2}{2-x^2}$.
+  :::
+
+  :::example Integrating factor
+  Solve $\dfrac{dy}{dx}+\dfrac{2y}{x}=x^2$ for $x>0$, given that $y=1$ when $x=1$. [6 marks]
+
+  **Solution.** The integrating factor is $e^{\int2/x\,dx}=e^{2\ln x}=x^2$. Then $\dfrac{d}{dx}\left(x^2y\right)=x^4$, so $x^2y=\dfrac{x^5}{5}+C$. At $(1,1)$: $C=\dfrac45$. Hence $y=\dfrac{x^3}{5}+\dfrac{4}{5x^2}$.
+  :::
+
+  :::example Homogeneous
+  Find the general solution of $\dfrac{dy}{dx}=\dfrac{x+y}{x}$, $x>0$. [5 marks]
+
+  **Solution.** $\dfrac{dy}{dx}=1+\dfrac yx$. With $y=vx$: $v+x\dfrac{dv}{dx}=1+v$, so $\dfrac{dv}{dx}=\dfrac1x$ and $v=\ln x+C$. Hence $y=x\ln x+Cx$.
+  :::
+
+## Euler's method
+
+[[P5·3afb]]
+Starting from $(x_0,y_0)$ with step $h$: $x_{n+1}=x_n+h$ and $y_{n+1}=y_n+h\,f(x_n,y_n)$, where $\dfrac{dy}{dx}=f(x,y)$. A GDC table or a spreadsheet makes the arithmetic quick on Paper 2.
+
+  :::example Two Euler steps
+  For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, use Euler's method with $h=0.1$ to estimate $y(0.2)$. [3 marks]
+
+  **Solution.** $y_1=1+0.1(0+1)=1.1$. $y_2=1.1+0.1(0.1+1.1)=1.22$. So $y(0.2)\approx1.22$.
+  :::
+
+:::warning Common traps
+[[P6·c723]]
+- **The constant of integration** added too late, or forgotten on one side only.
+- **Wrong integrating factor:** it is $e^{\int P\,dx}$ for the equation written as $y'+Py=Q$; rearrange first.
+- **Interval of validity** of a series after substitution.
+- **L'Hôpital on a limit that is not $\dfrac00$ or $\dfrac\infty\infty$.** Check the form at each stage.
+- **Euler's method:** using the new $x$ with the old $y$ in the slope.
+:::
+
+  :::terms
+  - Maclaurin series | chuỗi Maclaurin
+  - L'Hôpital's rule | quy tắc L'Hôpital
+  - differential equation | phương trình vi phân
+  - separable, homogeneous | tách biến, đẳng cấp
+  - linear, integrating factor | tuyến tính, thừa số tích phân
+  - general solution, particular solution | nghiệm tổng quát, nghiệm riêng
+  - Euler's method, step length | phương pháp Euler, bước nhảy
+  :::
+
+## Similar exercises
+
+:::exercise A cosine series
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise An exponential series
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A limit
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Separable with arctan
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Integrating factor
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A mixing tank
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise An integral from a series
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Euler with a GDC table
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge: a series by differentiation
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-hl-vectors – BẢN TIẾNG VIỆT ########
+---
+title: Véc-tơ, đường thẳng và mặt phẳng
+description: IB Math AA HL: tích vô hướng và tích có hướng, góc, phương trình véc-tơ của đường thẳng, đường thẳng cắt nhau và chéo nhau, mặt phẳng, khoảng cách và góc.
+minutes: 45
+---
+
+  :::goals
+  - Dùng tích vô hướng để tìm góc và kiểm tra hai véc-tơ vuông góc.
+  - Dùng tích có hướng để tìm véc-tơ pháp tuyến và diện tích.
+  - Viết phương trình véc-tơ của đường thẳng và xét hai đường thẳng song song, cắt nhau hay chéo nhau.
+  - Viết phương trình mặt phẳng, tìm giao điểm, góc và khoảng cách giữa đường thẳng và mặt phẳng.
+  :::
+
+[[P1·5a59]]
+Véc-tơ thường chiếm trọn một câu dài ở Section B trong Paper 1 hoặc Paper 2 của HL: vài điểm trong không gian, một đường thẳng qua hai điểm, một mặt phẳng qua ba điểm, rồi một giao điểm, một góc và một khoảng cách. Bước nào cũng dùng vài công cụ quen thuộc, nên điểm thuộc về học sinh trình bày ngăn nắp: đặt tên từng véc-tơ, viết đầy đủ từng phương trình, và kiểm tra một điểm bằng cách thay ngược lại.
+
+## Tích vô hướng và tích có hướng
+
+[[P2·6daa]]
+Với $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$:
+
+[[P3·e2e0]]
+- **Tích vô hướng (scalar product):** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. Nó bằng $0$ khi và chỉ khi hai véc-tơ vuông góc.
+- **Tích có hướng (vector product):** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ vuông góc với cả hai véc-tơ, và $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$ là diện tích hình bình hành tạo bởi chúng.
+
+  :::example Góc giữa hai véc-tơ
+  Tìm góc giữa $\boldsymbol a=\begin{pmatrix}2\\1\\-2\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}1\\3\\2\end{pmatrix}$. [4 marks]
+
+  **Lời giải.** $\boldsymbol a\cdot\boldsymbol b=2+3-4=1$, $|\boldsymbol a|=3$, $|\boldsymbol b|=\sqrt{14}$. Vậy $\cos\theta=\dfrac{1}{3\sqrt{14}}$ và $\theta\approx84{,}9^\circ$.
+  :::
+
+  :::example Diện tích tam giác
+  Tính diện tích tam giác có các đỉnh $A(1,0,0)$, $B(0,2,0)$ và $C(0,0,3)$. [5 marks]
+
+  **Lời giải.** $\overrightarrow{AB}=\begin{pmatrix}-1\\2\\0\end{pmatrix}$, $\overrightarrow{AC}=\begin{pmatrix}-1\\0\\3\end{pmatrix}$ và $\overrightarrow{AB}\times\overrightarrow{AC}=\begin{pmatrix}6\\3\\2\end{pmatrix}$, có độ dài $\sqrt{36+9+4}=7$. Diện tích bằng $\dfrac72=3{,}5$.
+  :::
+
+## Đường thẳng trong không gian
+
+[[P4·d674]]
+Đường thẳng đi qua điểm có véc-tơ vị trí $\boldsymbol a$, với véc-tơ chỉ phương $\boldsymbol b$, có phương trình véc-tơ $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. Hai đường thẳng trong không gian có thể **song song** (véc-tơ chỉ phương cùng phương), **cắt nhau** (có đúng một điểm chung), hoặc **chéo nhau (skew)** (không thuộc hai trường hợp trên).
+
+  :::example Cắt nhau hay chéo nhau?
+  $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\1\\0\end{pmatrix}$ và $L_2:\boldsymbol r=\begin{pmatrix}2\\3\\1\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. Chứng minh hai đường thẳng chéo nhau. [5 marks]
+
+  **Lời giải.** Hai véc-tơ chỉ phương không cùng phương, nên hai đường không song song. Cho các thành phần bằng nhau:
+  $x$: $1+\lambda=2$, nên $\lambda=1$. $y$: $\lambda=3+\mu$, nên $\mu=-2$. $z$: $2=1+\mu$, nên $\mu=1$.
+  Hai giá trị của $\mu$ mâu thuẫn, nên không có điểm chung. Không song song và không cắt nhau: hai đường thẳng chéo nhau.
+  :::
+
+## Mặt phẳng
+
+[[P5·1ef5]]
+Mặt phẳng có véc-tơ pháp tuyến $\boldsymbol n$ đi qua điểm $\boldsymbol a$ có phương trình $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, hay dạng toạ độ $n_1x+n_2y+n_3z=d$. Véc-tơ pháp tuyến thường tìm bằng tích có hướng của hai véc-tơ nằm trong mặt phẳng.
+
+  :::example Mặt phẳng qua ba điểm
+  Viết phương trình toạ độ của mặt phẳng qua $A(1,0,0)$, $B(0,2,0)$ và $C(0,0,3)$. [3 marks]
+
+  **Lời giải.** Từ ví dụ trước, $\boldsymbol n=\begin{pmatrix}6\\3\\2\end{pmatrix}$. Khi đó $6x+3y+2z=6(1)+0+0=6$. Kiểm tra $B$: $3(2)=6$, và $C$: $2(3)=6$.
+  :::
+
+  :::example Đường thẳng cắt mặt phẳng
+  Đường thẳng $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ cắt mặt phẳng $6x+3y+2z=6$ tại $P$.
+  (a) Tìm toạ độ của $P$. [3 marks]
+  (b) Tìm góc nhọn giữa đường thẳng và mặt phẳng. [4 marks]
+
+  **Lời giải.** (a) Thay $x=y=z=t$: $11t=6$, nên $t=\dfrac{6}{11}$ và $P=\left(\dfrac{6}{11},\dfrac{6}{11},\dfrac{6}{11}\right)$.
+
+  (b) Với $\boldsymbol d=\begin{pmatrix}1\\1\\1\end{pmatrix}$: $\sin\varphi=\dfrac{|\boldsymbol n\cdot\boldsymbol d|}{|\boldsymbol n||\boldsymbol d|}=\dfrac{11}{7\sqrt3}$, nên $\varphi\approx65{,}1^\circ$. Góc với mặt phẳng dùng sin, vì $\boldsymbol n$ vuông góc với mặt phẳng.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·7cad]]
+- **Dùng cùng một tham số cho hai đường thẳng.** Hãy dùng $\lambda$ cho đường này và $\mu$ cho đường kia.
+- **Chỉ kiểm tra hai thành phần** khi xét giao điểm; thành phần thứ ba mới quyết định.
+- **Góc giữa đường thẳng và mặt phẳng** tính bằng cosin thay vì sin.
+- **Góc tù.** Lấy giá trị tuyệt đối của tích vô hướng khi đề hỏi góc nhọn.
+- **Thứ tự trong tích có hướng.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$; làm véc-tơ pháp tuyến thì dấu nào cũng được, nhưng hãy tính cẩn thận.
+:::
+
+  :::terms
+  - position vector, direction vector | véc-tơ vị trí, véc-tơ chỉ phương
+  - scalar (dot) product | tích vô hướng
+  - vector (cross) product | tích có hướng
+  - normal vector | véc-tơ pháp tuyến
+  - parallel, intersecting, skew lines | đường thẳng song song, cắt nhau, chéo nhau
+  - vector equation, Cartesian equation | phương trình véc-tơ, phương trình toạ độ
+  - plane | mặt phẳng
+  - perpendicular distance | khoảng cách (theo đường vuông góc)
+  :::
+
+## Bài tập tương tự
+
+:::exercise Hai véc-tơ vuông góc
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đường thẳng qua hai điểm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hai đường thẳng cắt nhau
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một tích có hướng
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Mặt phẳng từ một điểm và véc-tơ pháp tuyến
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Một chiếc drone
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Khoảng cách từ điểm đến mặt phẳng
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Góc giữa hai mặt phẳng
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách: chân đường vuông góc
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-hl-vectors – BẢN TIẾNG ANH ########
+---
+title: Vectors, lines and planes
+description: IB Maths AA HL: scalar and vector products, angles, vector equations of lines, intersecting and skew lines, equations of planes, distances and angles.
+minutes: 45
+---
+
+  :::goals
+  - Use the scalar product to find angles and test for perpendicular vectors.
+  - Use the vector product to find normals and areas.
+  - Write vector equations of lines and decide whether two lines are parallel, intersecting or skew.
+  - Write equations of planes, and find intersections, angles and distances involving lines and planes.
+  :::
+
+[[P1·ec49]]
+Vectors usually fill one long Section B question in HL Paper 1 or Paper 2: a few points in space, a line through two of them, a plane through three, then an intersection, an angle and a distance. Every step uses the same few tools, so the marks go to students who organize their work: label each vector, write each equation in full, and check a point by substituting it back.
+
+## Scalar product and vector product
+
+[[P2·ffef]]
+For $\boldsymbol a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$:
+
+[[P3·8e20]]
+- **Scalar product:** $\boldsymbol a\cdot\boldsymbol b=a_1b_1+a_2b_2+a_3b_3=|\boldsymbol a||\boldsymbol b|\cos\theta$. It is $0$ exactly when the vectors are perpendicular.
+- **Vector product:** $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ is perpendicular to both, and $|\boldsymbol a\times\boldsymbol b|=|\boldsymbol a||\boldsymbol b|\sin\theta$ is the area of the parallelogram they span.
+
+  :::example The angle between two vectors
+  Find the angle between $\boldsymbol a=\begin{pmatrix}2\\1\\-2\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}1\\3\\2\end{pmatrix}$. [4 marks]
+
+  **Solution.** $\boldsymbol a\cdot\boldsymbol b=2+3-4=1$, $|\boldsymbol a|=3$, $|\boldsymbol b|=\sqrt{14}$. So $\cos\theta=\dfrac{1}{3\sqrt{14}}$ and $\theta\approx84.9^\circ$.
+  :::
+
+  :::example Area of a triangle
+  Find the area of the triangle with vertices $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)$. [5 marks]
+
+  **Solution.** $\overrightarrow{AB}=\begin{pmatrix}-1\\2\\0\end{pmatrix}$, $\overrightarrow{AC}=\begin{pmatrix}-1\\0\\3\end{pmatrix}$ and $\overrightarrow{AB}\times\overrightarrow{AC}=\begin{pmatrix}6\\3\\2\end{pmatrix}$, with length $\sqrt{36+9+4}=7$. The area is $\dfrac72=3.5$.
+  :::
+
+## Lines in space
+
+[[P4·5861]]
+A line through the point with position vector $\boldsymbol a$, with direction $\boldsymbol b$, has vector equation $\boldsymbol r=\boldsymbol a+\lambda\boldsymbol b$. Two lines in space are **parallel** (directions are multiples), **intersecting** (one common point), or **skew** (neither).
+
+  :::example Intersecting or skew?
+  $L_1:\boldsymbol r=\begin{pmatrix}1\\0\\2\end{pmatrix}+\lambda\begin{pmatrix}1\\1\\0\end{pmatrix}$ and $L_2:\boldsymbol r=\begin{pmatrix}2\\3\\1\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. Show that the lines are skew. [5 marks]
+
+  **Solution.** The directions are not multiples of each other, so the lines are not parallel. Equate components:
+  $x$: $1+\lambda=2$, so $\lambda=1$. $y$: $\lambda=3+\mu$, so $\mu=-2$. $z$: $2=1+\mu$, so $\mu=1$.
+  The values of $\mu$ disagree, so there is no common point. Not parallel and not intersecting: the lines are skew.
+  :::
+
+## Planes
+
+[[P5·f1ab]]
+A plane with normal vector $\boldsymbol n$ through the point $\boldsymbol a$ has equation $\boldsymbol r\cdot\boldsymbol n=\boldsymbol a\cdot\boldsymbol n$, or in Cartesian form $n_1x+n_2y+n_3z=d$. The normal is often found with a vector product of two directions in the plane.
+
+  :::example A plane through three points
+  Find the Cartesian equation of the plane through $A(1,0,0)$, $B(0,2,0)$ and $C(0,0,3)$. [3 marks]
+
+  **Solution.** From the previous example, $\boldsymbol n=\begin{pmatrix}6\\3\\2\end{pmatrix}$. Then $6x+3y+2z=6(1)+0+0=6$. Check $B$: $3(2)=6$, and $C$: $2(3)=6$.
+  :::
+
+  :::example A line meets the plane
+  The line $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ meets the plane $6x+3y+2z=6$ at $P$.
+  (a) Find the coordinates of $P$. [3 marks]
+  (b) Find the acute angle between the line and the plane. [4 marks]
+
+  **Solution.** (a) Substitute $x=y=z=t$: $11t=6$, so $t=\dfrac{6}{11}$ and $P=\left(\dfrac{6}{11},\dfrac{6}{11},\dfrac{6}{11}\right)$.
+
+  (b) With $\boldsymbol d=\begin{pmatrix}1\\1\\1\end{pmatrix}$: $\sin\varphi=\dfrac{|\boldsymbol n\cdot\boldsymbol d|}{|\boldsymbol n||\boldsymbol d|}=\dfrac{11}{7\sqrt3}$, so $\varphi\approx65.1^\circ$. The angle with a plane uses sine, because $\boldsymbol n$ is perpendicular to the plane.
+  :::
+
+:::warning Common traps
+[[P6·f9cc]]
+- **Using the same parameter for two lines.** Use $\lambda$ for one and $\mu$ for the other.
+- **Checking only two components** when testing for intersection; the third decides.
+- **Angle between a line and a plane** with cosine instead of sine.
+- **Obtuse angles.** Take the absolute value of the scalar product when the question asks for the acute angle.
+- **Order in the vector product.** $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$; for a normal either sign works, but compute carefully.
+:::
+
+  :::terms
+  - position vector, direction vector | véc-tơ vị trí, véc-tơ chỉ phương
+  - scalar (dot) product | tích vô hướng
+  - vector (cross) product | tích có hướng
+  - normal vector | véc-tơ pháp tuyến
+  - parallel, intersecting, skew lines | đường thẳng song song, cắt nhau, chéo nhau
+  - vector equation, Cartesian equation | phương trình véc-tơ, phương trình toạ độ
+  - plane | mặt phẳng
+  - perpendicular distance | khoảng cách (theo đường vuông góc)
+  :::
+
+## Similar exercises
+
+:::exercise Perpendicular vectors
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A line through two points
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Two intersecting lines
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A vector product
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A plane from a point and a normal
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A drone
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Distance from a point to a plane
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise The angle between two planes
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge: the foot of a perpendicular
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-number-algebra – BẢN TIẾNG VIỆT ########
+---
+title: Số và đại số: cấp số, logarit, nhị thức, chứng minh
+description: IB Math AA chủ đề 1: cấp số cộng, cấp số nhân, lãi kép, luỹ thừa và logarit, nhị thức Newton và chứng minh ngắn, theo đúng kiểu câu hỏi của đề thi.
+minutes: 45
+---
+
+  :::goals
+  - Dùng các công thức của cấp số cộng, cấp số nhân và chuỗi, kể cả tổng vô hạn.
+  - Giải bài toán lãi kép và tăng trưởng trong Paper 2.
+  - Áp dụng các quy tắc luỹ thừa và logarit, giải đúng phương trình mũ và phương trình logarit.
+  - Tìm một số hạng hoặc một hệ số bằng nhị thức Newton.
+  - Viết một chứng minh suy diễn ngắn theo kiểu "show that".
+  :::
+
+[[P1·f225]]
+Chủ đề 1 hiếm khi chiếm trọn một câu dài ở Section B, nhưng có mặt trong gần như mọi đề: một câu về cấp số ở Section A, một bước logarit trong câu giải tích, một hệ số nhị thức trong câu xác suất. Các công thức đều có trong sổ công thức; điểm số đến từ việc chọn đúng công thức, lập phương trình gọn gàng và ghi đáp số đúng dạng chính xác ở Paper 1.
+
+## Cấp số cộng và cấp số nhân
+
+| | Cấp số cộng (arithmetic) | Cấp số nhân (geometric) |
+|---|---|---|
+| Số hạng thứ $n$ | $u_n=u_1+(n-1)d$ | $u_n=u_1r^{n-1}$ |
+| Tổng $n$ số hạng | $S_n=\dfrac n2\big(2u_1+(n-1)d\big)=\dfrac n2(u_1+u_n)$ | $S_n=\dfrac{u_1\left(r^n-1\right)}{r-1}$, $r\ne1$ |
+| Tổng vô hạn | không tồn tại (trừ khi mọi số hạng bằng $0$) | $S_\infty=\dfrac{u_1}{1-r}$, chỉ khi $|r|<1$ |
+
+[[P2·a4e8]]
+Khi đề cho hai số hạng, hãy viết hai phương trình ẩn $u_1$ và $d$ (hoặc $u_1$ và $r$) rồi giải. Với cấp số nhân, chia hai phương trình cho nhau sẽ khử được $u_1$.
+
+  :::example Hai số hạng của cấp số cộng
+  Trong một cấp số cộng, $u_3=11$ và $u_8=26$.
+
+  (a) Tìm công sai và số hạng đầu. [3 marks]
+  (b) Tính $S_{20}$. [2 marks]
+
+  **Lời giải.** (a) $u_1+2d=11$ và $u_1+7d=26$. Trừ vế theo vế: $5d=15$, nên $d=3$ và $u_1=5$.
+
+  (b) $S_{20}=\dfrac{20}{2}\big(2\cdot5+19\cdot3\big)=10\cdot67=670$.
+  :::
+
+  :::example Tổng vô hạn
+  Số hạng đầu của một cấp số nhân là $48$, và tổng vô hạn bằng $64$.
+
+  (a) Tìm công bội. [2 marks]
+  (b) Tìm số hạng thứ tư. [2 marks]
+
+  **Lời giải.** (a) $\dfrac{48}{1-r}=64$, nên $1-r=\dfrac34$ và $r=\dfrac14$. Giá trị này thoả mãn $|r|<1$, đúng như phải thế.
+
+  (b) $u_4=48\left(\dfrac14\right)^3=\dfrac{48}{64}=\dfrac34$.
+  :::
+
+## Lãi kép và tăng trưởng (Paper 2)
+
+[[P3·f4f8]]
+Số tiền đầu tư với lãi suất năm $r\%$, ghép lãi $k$ lần mỗi năm, sau $n$ năm trở thành
+  $$FV=PV\left(1+\frac{r}{100k}\right)^{kn}.$$
+[[P4·f40c]]
+Ở Paper 2 bạn có thể dùng chức năng tài chính của GDC, nhưng hãy viết công thức đã thay số: dòng đó mang điểm phương pháp.
+
+  :::example Ghép lãi hằng tháng
+  Mai đầu tư $5000$ đô la với lãi suất năm $3{,}6\%$, ghép lãi hằng tháng. Tính giá trị khoản đầu tư sau $4$ năm, làm tròn đến đô la. [3 marks]
+
+  **Lời giải.** $5000\left(1+\dfrac{3{,}6}{1200}\right)^{12\cdot4}=5000(1{,}003)^{48}\approx5773{,}18$, nên khoản đầu tư có giá trị $5773$ đô la.
+  :::
+
+## Luỹ thừa và logarit
+
+:::note Các quy tắc dùng nhiều nhất
+[[P5·2032]]
+$$a^xa^y=a^{x+y},\quad\left(a^x\right)^y=a^{xy},\quad\log_a(xy)=\log_ax+\log_ay,\quad\log_a\frac xy=\log_ax-\log_ay,$$
+$$\log_a\left(x^m\right)=m\log_ax,\qquad\log_ax=\frac{\log_bx}{\log_ba},\qquad a^x=b\iff x=\log_ab.$$
+:::
+
+  :::example Phương trình mũ, giải chính xác
+  Giải $2^{x+1}=5^x$, viết đáp số dưới dạng $\dfrac{\ln a}{\ln b}$ với $a,b\in\mathbb{Q}$. [4 marks]
+
+  **Lời giải.** Lấy logarit tự nhiên hai vế: $(x+1)\ln2=x\ln5$. Gom các số hạng chứa $x$: $x(\ln5-\ln2)=\ln2$, nên
+  $$x=\frac{\ln2}{\ln5-\ln2}=\frac{\ln2}{\ln2{,}5}.$$
+  (Ở Paper 2, $x\approx0{,}756$.)
+  :::
+
+  :::example Phương trình logarit có nghiệm ngoại lai
+  Giải $\log_3x+\log_3(x-8)=2$. [5 marks]
+
+  **Lời giải.** $\log_3\big(x(x-8)\big)=2$, nên $x^2-8x=9$, tức $(x-9)(x+1)=0$. Loại $x=-1$ vì $\log_3x$ không xác định khi $x\le0$ (đây là điểm R). Nghiệm là $x=9$.
+  :::
+
+## Nhị thức Newton
+
+  $$(a+b)^n=\sum_{r=0}^{n}\binom nr a^{n-r}b^r,\qquad\binom nr=\frac{n!}{r!(n-r)!}.$$
+[[P6·6f8c]]
+Để tìm một số hạng, hãy viết số hạng tổng quát rồi xác định $r$ nào cho luỹ thừa cần tìm. Giữ nguyên dấu và hệ số ở trong ngoặc.
+
+  :::example Một hệ số và một số hạng không chứa x
+  (a) Tìm hệ số của $x^3$ trong khai triển $(2x-3)^5$. [3 marks]
+  (b) Tìm số hạng không chứa $x$ trong khai triển $\left(x^2+\dfrac2x\right)^6$. [4 marks]
+
+  **Lời giải.** (a) Số hạng chứa $x^3$ là $\dbinom53(2x)^3(-3)^2=10\cdot8x^3\cdot9=720x^3$. Hệ số là $720$.
+
+  (b) Số hạng tổng quát là $\dbinom6r\left(x^2\right)^{6-r}\left(\dfrac2x\right)^r=\dbinom6r2^rx^{12-3r}$. Không chứa $x$ khi $12-3r=0$, tức $r=4$: $\dbinom64\cdot2^4=15\cdot16=240$.
+  :::
+
+## Chứng minh
+
+[[P7·53d8]]
+Ở SL, các chứng minh ngắn và mang tính suy diễn: xuất phát từ điều đã biết, biến đổi đại số, và kết thúc bằng mệnh đề cần chứng minh. Hãy viết "VT $=$" (vế trái) rồi biến đổi từng bước thành vế phải, hoặc chứng tỏ một đại lượng là bội của một số bằng cách đặt số đó ra ngoài.
+
+  :::example Một chứng minh "show that"
+  Chứng minh rằng tổng của ba số nguyên liên tiếp bất kì là bội của $3$. [3 marks]
+
+  **Lời giải.** Gọi ba số nguyên là $n-1$, $n$, $n+1$, với $n\in\mathbb{Z}$. Tổng của chúng là $(n-1)+n+(n+1)=3n$. Vì $n$ là số nguyên nên $3n$ là bội của $3$.
+
+  Hãy để ý ba phần: gọi tên đối tượng bằng đại số, rút gọn, và nêu kết luận bằng lời.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·3290]]
+- **Dùng $S_\infty$ khi $|r|\ge1$.** Hãy kiểm tra điều kiện; có câu hỏi yêu cầu đúng việc kiểm tra này.
+- **Quên $-1$** trong $u_1+(n-1)d$ hoặc $u_1r^{n-1}$.
+- **Tự chế quy tắc logarit.** $\log(x+y)\ne\log x+\log y$, và $\dfrac{\log x}{\log y}\ne\log\dfrac xy$.
+- **Không loại nghiệm sai** của phương trình logarit, hoặc loại mà không nêu lí do.
+- **Mất dấu** trong số hạng nhị thức: $(-3)^2=9$, nhưng $(-3)^3=-27$.
+- **Chứng minh vòng quanh:** trong câu "show that", không bao giờ xuất phát từ mệnh đề cần chứng minh.
+:::
+
+  :::terms
+  - arithmetic sequence, common difference | cấp số cộng, công sai
+  - geometric sequence, common ratio | cấp số nhân, công bội
+  - sum to infinity | tổng vô hạn
+  - compound interest, compounded monthly | lãi kép, tính lãi hằng tháng
+  - logarithm, change of base | logarit, đổi cơ số
+  - binomial theorem, binomial coefficient | nhị thức Newton, hệ số nhị thức
+  - term independent of $x$ | số hạng không chứa $x$
+  - deductive proof | chứng minh suy diễn
+  :::
+
+## Bài tập tương tự
+
+:::exercise Cấp số cộng
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Cấp số nhân
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phương trình logarit
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hệ số nhị thức
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chứng minh
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Thị trấn đang lớn
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thang lương
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Quả bóng nảy
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-number-algebra – BẢN TIẾNG ANH ########
+---
+title: Number and algebra: sequences, logarithms, binomial, proof
+description: IB Maths AA topic 1: arithmetic and geometric sequences, compound interest, exponents and logarithms, the binomial theorem and simple proofs, in exam style.
+minutes: 45
+---
+
+  :::goals
+  - Use the formulas for arithmetic and geometric sequences and series, including the sum to infinity.
+  - Solve compound interest and growth problems on Paper 2.
+  - Apply the laws of exponents and logarithms, and solve exponential and logarithmic equations exactly.
+  - Find a specific term or coefficient with the binomial theorem.
+  - Write a short deductive proof in the "show that" style.
+  :::
+
+[[P1·21ee]]
+Topic 1 rarely fills a long Section B question on its own, but it appears in almost every paper: a sequence question in Section A, a logarithm step inside a calculus question, a binomial coefficient in a probability question. The formulas are in the formula booklet; the marks come from choosing the right one, setting up the equations cleanly and writing exact answers on Paper 1.
+
+## Arithmetic and geometric sequences
+
+| | Arithmetic | Geometric |
+|---|---|---|
+| $n$th term | $u_n=u_1+(n-1)d$ | $u_n=u_1r^{n-1}$ |
+| Sum of $n$ terms | $S_n=\dfrac n2\big(2u_1+(n-1)d\big)=\dfrac n2(u_1+u_n)$ | $S_n=\dfrac{u_1\left(r^n-1\right)}{r-1}$, $r\ne1$ |
+| Sum to infinity | does not exist (unless all terms are $0$) | $S_\infty=\dfrac{u_1}{1-r}$, only when $|r|<1$ |
+
+[[P2·abb8]]
+When two terms are given, write two equations in $u_1$ and $d$ (or $u_1$ and $r$) and solve them. For geometric sequences, dividing one equation by the other removes $u_1$.
+
+  :::example Two terms of an arithmetic sequence
+  In an arithmetic sequence, $u_3=11$ and $u_8=26$.
+
+  (a) Find the common difference and the first term. [3 marks]
+  (b) Find $S_{20}$. [2 marks]
+
+  **Solution.** (a) $u_1+2d=11$ and $u_1+7d=26$. Subtracting: $5d=15$, so $d=3$ and $u_1=5$.
+
+  (b) $S_{20}=\dfrac{20}{2}\big(2\cdot5+19\cdot3\big)=10\cdot67=670$.
+  :::
+
+  :::example A sum to infinity
+  The first term of a geometric sequence is $48$, and the sum to infinity is $64$.
+
+  (a) Find the common ratio. [2 marks]
+  (b) Find the fourth term. [2 marks]
+
+  **Solution.** (a) $\dfrac{48}{1-r}=64$, so $1-r=\dfrac34$ and $r=\dfrac14$. This satisfies $|r|<1$, as it must.
+
+  (b) $u_4=48\left(\dfrac14\right)^3=\dfrac{48}{64}=\dfrac34$.
+  :::
+
+## Compound interest and growth (Paper 2)
+
+[[P3·3088]]
+Money invested at an annual rate of $r\%$, compounded $k$ times per year, grows to
+  $$FV=PV\left(1+\frac{r}{100k}\right)^{kn}$$
+[[P4·2a19]]
+after $n$ years. On Paper 2 you can use the financial solver of your GDC, but write the formula with the numbers substituted: that line earns the method mark.
+
+  :::example Monthly compounding
+  Mai invests $5000$ dollars at an annual interest rate of $3.6\%$, compounded monthly. Find the value of the investment after $4$ years, to the nearest dollar. [3 marks]
+
+  **Solution.** $5000\left(1+\dfrac{3.6}{1200}\right)^{12\cdot4}=5000(1.003)^{48}\approx5773.18$, so the investment is worth $5773$ dollars.
+  :::
+
+## Exponents and logarithms
+
+:::note The laws you use most
+[[P5·2032]]
+$$a^xa^y=a^{x+y},\quad\left(a^x\right)^y=a^{xy},\quad\log_a(xy)=\log_ax+\log_ay,\quad\log_a\frac xy=\log_ax-\log_ay,$$
+$$\log_a\left(x^m\right)=m\log_ax,\qquad\log_ax=\frac{\log_bx}{\log_ba},\qquad a^x=b\iff x=\log_ab.$$
+:::
+
+  :::example An exponential equation, exactly
+  Solve $2^{x+1}=5^x$, giving your answer in the form $\dfrac{\ln a}{\ln b}$, where $a,b\in\mathbb{Q}$. [4 marks]
+
+  **Solution.** Take natural logarithms: $(x+1)\ln2=x\ln5$. Collect the $x$ terms: $x(\ln5-\ln2)=\ln2$, so
+  $$x=\frac{\ln2}{\ln5-\ln2}=\frac{\ln2}{\ln2.5}.$$
+  (On Paper 2, $x\approx0.756$.)
+  :::
+
+  :::example A logarithmic equation with a false root
+  Solve $\log_3x+\log_3(x-8)=2$. [5 marks]
+
+  **Solution.** $\log_3\big(x(x-8)\big)=2$, so $x^2-8x=9$, that is $(x-9)(x+1)=0$. The value $x=-1$ is rejected, because $\log_3x$ is not defined for $x\le0$ (this is the R mark). The solution is $x=9$.
+  :::
+
+## The binomial theorem
+
+  $$(a+b)^n=\sum_{r=0}^{n}\binom nr a^{n-r}b^r,\qquad\binom nr=\frac{n!}{r!(n-r)!}.$$
+[[P6·260e]]
+To find one term, write the general term, then decide which $r$ gives the power you want. Keep the signs and coefficients inside the brackets.
+
+  :::example A coefficient and a constant term
+  (a) Find the coefficient of $x^3$ in the expansion of $(2x-3)^5$. [3 marks]
+  (b) Find the term independent of $x$ in the expansion of $\left(x^2+\dfrac2x\right)^6$. [4 marks]
+
+  **Solution.** (a) The term with $x^3$ is $\dbinom53(2x)^3(-3)^2=10\cdot8x^3\cdot9=720x^3$. The coefficient is $720$.
+
+  (b) The general term is $\dbinom6r\left(x^2\right)^{6-r}\left(\dfrac2x\right)^r=\dbinom6r2^rx^{12-3r}$. Independent of $x$ when $12-3r=0$, so $r=4$: $\dbinom64\cdot2^4=15\cdot16=240$.
+  :::
+
+## Proof
+
+[[P7·e217]]
+At SL, proofs are short and deductive: start from what is known, use algebra, and end with the statement you were asked to prove. Write "LHS $=$" and transform it step by step into the right-hand side, or show that a quantity is a multiple of a number by factoring it out.
+
+  :::example A "show that" proof
+  Show that the sum of any three consecutive integers is a multiple of $3$. [3 marks]
+
+  **Solution.** Let the integers be $n-1$, $n$, $n+1$, where $n\in\mathbb{Z}$. Their sum is $(n-1)+n+(n+1)=3n$. Since $n$ is an integer, $3n$ is a multiple of $3$.
+
+  Notice the three parts: define the objects in algebra, simplify, and state the conclusion in words.
+  :::
+
+:::warning Common traps
+[[P8·096a]]
+- **Using $S_\infty$ when $|r|\ge1$.** Check the condition; some questions ask for exactly this check.
+- **Forgetting the $-1$** in $u_1+(n-1)d$ or $u_1r^{n-1}$.
+- **Inventing log laws.** $\log(x+y)\ne\log x+\log y$, and $\dfrac{\log x}{\log y}\ne\log\dfrac xy$.
+- **Not rejecting invalid roots** of logarithmic equations, or rejecting them without a reason.
+- **Losing the sign** in binomial terms: $(-3)^2=9$, but $(-3)^3=-27$.
+- **Circular proofs:** in a "show that", never start from the statement you have to prove.
+:::
+
+  :::terms
+  - arithmetic sequence, common difference | cấp số cộng, công sai
+  - geometric sequence, common ratio | cấp số nhân, công bội
+  - sum to infinity | tổng vô hạn
+  - compound interest, compounded monthly | lãi kép, tính lãi hằng tháng
+  - logarithm, change of base | logarit, đổi cơ số
+  - binomial theorem, binomial coefficient | nhị thức Newton, hệ số nhị thức
+  - term independent of $x$ | số hạng không chứa $x$
+  - deductive proof | chứng minh suy diễn
+  :::
+
+## Similar exercises
+
+:::exercise Arithmetic sequence
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Geometric sequence
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Logarithmic equation
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Binomial coefficient
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Proof
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A growing town
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Salary scale
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A bouncing ball
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-overview – BẢN TIẾNG VIỆT ########
+---
+title: IB Math AA gồm những gì và cách ôn
+description: Giải thích IB Mathematics Analysis and Approaches: các bài thi SL và HL, năm chủ đề, thuật ngữ mệnh lệnh, cách chấm điểm và kế hoạch ôn tập.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Nắm các bài thi của IB Math AA ở SL và HL: thời gian, số điểm, quy định máy tính và tỉ trọng.
+  - Hiểu cách thang chấm (markscheme) IB cho điểm phương pháp, điểm chính xác và điểm lập luận.
+  - Đọc đúng các thuật ngữ mệnh lệnh (command terms) như "write down", "show that", "hence".
+  - Lập kế hoạch ôn năm chủ đề và bài đánh giá nội bộ.
+  :::
+
+[[P1·a9c6]]
+IB Mathematics: Analysis and Approaches (AA) là môn toán của chương trình IB Diploma dành cho học sinh thích đại số, tư duy trừu tượng và chứng minh, thường được chọn bởi những bạn định theo kĩ thuật, khoa học tự nhiên hay kinh tế. Môn có hai cấp độ: Standard Level (SL) và Higher Level (HL). Bài này mô tả chương trình hiện hành, có kì thi cuối cùng vào tháng 11/2028. Chương trình mới sẽ được dạy từ tháng 8/2027 và thi lần đầu vào tháng 5/2029; nếu bạn bắt đầu học Diploma sau thời điểm đó, hãy xem cấu trúc mới trên trang chính thức của IB.
+
+## Các bài thi ở SL và HL
+
+| | SL | HL |
+|---|---|---|
+| Paper 1 | 90 phút, không máy tính, 80 điểm, 40% | 120 phút, không máy tính, 110 điểm, 30% |
+| Paper 2 | 90 phút, bắt buộc máy tính vẽ đồ thị (GDC), 80 điểm, 40% | 120 phút, bắt buộc GDC, 110 điểm, 30% |
+| Paper 3 | không có | bắt buộc GDC, 55 điểm, 20%: hai bài giải quyết vấn đề mở rộng |
+| Đánh giá nội bộ | bài khám phá toán học, 20 điểm, 20% | bài khám phá toán học, 20% |
+
+[[P2·ab3d]]
+Từ các kì thi năm 2025, Paper 3 kéo dài 1 giờ 15 phút; tài liệu cũ vẫn ghi 1 giờ. Paper 1 và Paper 2 đều có **Section A** (câu ngắn) và **Section B** (câu dài, nhiều ý nối tiếp). Mỗi bài thi đều có sổ công thức (formula booklet), nên việc của bạn không phải học thuộc công thức mà là biết khi nào và dùng như thế nào. Điểm tổng kết theo thang từ 1 đến 7.
+
+## Năm chủ đề
+
+[[P3·a5dc]]
+Hai cấp độ chung năm chủ đề; HL đi sâu hơn ở mỗi chủ đề.
+
+[[P4·14a2]]
+1. **Số và đại số (Number and algebra):** cấp số và chuỗi, luỹ thừa và logarit, nhị thức Newton, chứng minh. HL thêm tổ hợp, phân thức đơn giản, số phức, quy nạp và phản chứng.
+2. **Hàm số (Functions):** đồ thị, tập xác định và tập giá trị, hàm hợp và hàm ngược, phép biến đổi đồ thị, hàm bậc hai, hàm phân thức, hàm mũ và hàm logarit.
+3. **Hình học và lượng giác (Geometry and trigonometry):** thể tích và diện tích xung quanh, định lí sin và cosin, radian, đường tròn đơn vị, đẳng thức và phương trình lượng giác. HL thêm véc-tơ, đường thẳng và mặt phẳng.
+4. **Thống kê và xác suất (Statistics and probability):** dữ liệu và hồi quy, các quy tắc xác suất, phân phối rời rạc, phân phối nhị thức và phân phối chuẩn. HL thêm định lí Bayes và biến ngẫu nhiên.
+5. **Giải tích (Calculus):** giới hạn, đạo hàm, tích phân, động học và bài toán tối ưu. HL thêm chuỗi Maclaurin, phương trình vi phân và các kĩ thuật tích phân khác.
+
+## Điểm được cho như thế nào
+
+[[P5·4262]]
+Thang chấm IB chia mỗi câu thành nhiều điểm nhỏ, và biết các loại điểm sẽ thay đổi cách bạn trình bày:
+
+[[P6·6df0]]
+- **Điểm M** cho **phương pháp** đúng, kể cả khi sau đó tính sai.
+- **Điểm A** cho kết quả hoặc giá trị trung gian **chính xác**, thường đi sau điểm M tương ứng.
+- **Điểm R** cho **lập luận** rõ ràng, chẳng hạn lí do loại một nghiệm.
+- **Điểm kéo theo (follow-through, FT):** nếu một ý trước sai nhưng bạn dùng đúng giá trị sai đó ở ý sau, bạn vẫn có thể được điểm ý sau.
+
+[[P7·3ce4]]
+Từ đó suy ra hai điều. Đáp số đúng mà không có lời giải có thể không được trọn điểm, nên luôn trình bày phương pháp. Và đáp số sai nhưng phương pháp đúng vẫn có điểm, nên đừng bao giờ bỏ trống một ý. Trừ khi đề yêu cầu khác, hãy ghi kết quả gần đúng **lấy ba chữ số có nghĩa**, và giữ nhiều chữ số hơn trong máy cho đến bước cuối.
+
+## Thuật ngữ mệnh lệnh
+
+[[P8·6b8a]]
+Mỗi câu hỏi bắt đầu bằng một thuật ngữ mệnh lệnh, và mỗi thuật ngữ yêu cầu một việc cụ thể. Những thuật ngữ quan trọng nhất:
+
+| Thuật ngữ | Yêu cầu |
+|---|---|
+| Write down | Hầu như không cần trình bày: đáp số đọc ra hoặc thấy ngay được. |
+| Find / Calculate | Trình bày các bước chính. |
+| Show that | Đề đã cho kết quả; viết mọi bước dẫn tới nó, không được xuất phát từ kết quả. |
+| Hence | Dùng kết quả của ý trước; làm cách khác có thể không được điểm. |
+| Hence or otherwise | Dùng ý trước là nhanh nhất, nhưng cách hợp lệ khác vẫn được chấp nhận. |
+| Sketch | Hình vẽ đúng dáng, ghi rõ các đặc điểm chính (giao điểm với trục, tiệm cận, điểm cực trị). |
+| Justify / Explain | Đưa ra lí do, thường bằng một câu rõ ràng. |
+
+[[P9·d9ff]]
+Số điểm ghi sau mỗi ý dưới dạng [n marks] cho biết cần làm bao nhiêu. Ý 1 điểm hiếm khi cần quá một dòng; ý 7 điểm cần nhiều bước.
+
+## Paper 1 khác Paper 2 thế nào
+
+[[P10·2cd3]]
+Paper 1 không có máy tính nên các câu hỏi dùng giá trị đúng: phân số, căn thức, $\pi$, $\ln2$, giá trị lượng giác đặc biệt. Hãy luyện biến đổi đại số và tính toán bằng tay đến khi nhanh và chắc.
+
+[[P11·128a]]
+Paper 2 bắt buộc dùng GDC, và nhiều câu được viết để máy tính làm phần nặng: giải phương trình bằng đồ thị, tìm giao điểm, tính tích phân xác định, thống kê và phân phối xác suất. Hãy thành thạo các chức năng của máy từ trước kì thi, và vẫn viết phần toán học: ghi phương trình bạn đã giải hay tích phân bạn đã tính, rồi mới ghi kết quả.
+
+:::tip Dùng GDC để kiểm tra ở Paper 2
+[[P12·71f0]]
+Trước khi chuyển câu, hãy kiểm tra đáp số bằng cách khác: vẽ đồ thị để xác nhận nghiệm, hoặc thay ngược lại. Một phút kiểm tra giữ được những điểm bạn đã giành được.
+:::
+
+## Kế hoạch ôn tập
+
+:::note Mười hai tuần trước kì thi
+[[P13·dbfa]]
+1. **Tuần 1 đến 6: theo từng chủ đề.** Với mỗi chủ đề, ôn ý chính, rồi làm các câu đề thi cũ thuộc chủ đề đó, Section A trước, Section B sau. Tự chấm bằng thang chấm chính thức.
+2. **Tuần 7 đến 10: làm trọn đề có bấm giờ.** Mỗi tuần một Paper 1 và một Paper 2 (HL: thêm Paper 3 hai tuần một lần). Làm xong, chép mỗi điểm bị mất vào sổ lỗi sai, kèm lí do.
+3. **Tuần 11 đến 12: chỗ yếu và tốc độ.** Quay lại các chủ đề xuất hiện nhiều nhất trong sổ lỗi sai, và luyện câu Section B để quen thời gian.
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P14·dc1e]]
+- Làm tròn quá sớm, khiến đáp số cuối sai ở chữ số có nghĩa thứ ba.
+- Bỏ qua chữ "hence", giải theo đường dài và mất điểm.
+- Ở câu "show that", xuất phát từ kết quả, hoặc bỏ bước vì "hiển nhiên".
+- Quên để GDC ở chế độ radian khi làm giải tích và hàm lượng giác.
+- Bỏ trống một ý vì ý trước làm sai: điểm kéo theo vẫn còn đó.
+:::
+
+[[P15·479e]]
+Các bài trong mục này đi theo năm chủ đề, rồi đến phần mở rộng HL, rồi Paper 3 và bài khám phá, cuối cùng là một đề luyện SL và một đề luyện HL. Hãy bắt đầu với [Số và đại số](lesson:ibaa-number-algebra).
+
+
+######## BÀI exams/ib-aa/ibaa-overview – BẢN TIẾNG ANH ########
+---
+title: What IB Maths AA assesses and how to revise
+description: IB Mathematics Analysis and Approaches explained: SL and HL papers, the five topics, command terms, how marks are awarded and a revision plan.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Know the papers of IB Maths AA at SL and HL: timing, marks, calculator rules and weighting.
+  - Understand how IB markschemes award method, accuracy and reasoning marks.
+  - Read command terms such as "write down", "show that" and "hence" correctly.
+  - Plan your revision across the five topics and the internal assessment.
+  :::
+
+[[P1·fd4d]]
+IB Mathematics: Analysis and Approaches (AA) is the IB Diploma course for students who enjoy algebra, abstraction and proof, and it is the usual choice for future engineers, scientists and economists. It comes at two levels, Standard Level (SL) and Higher Level (HL). This guide describes the current course, whose last exams are in November 2028. A new course will be taught from August 2027 with first exams in May 2029; if you start the Diploma after that, check the official IB pages for the new structure.
+
+## The papers at SL and HL
+
+| | SL | HL |
+|---|---|---|
+| Paper 1 | 90 minutes, no calculator, 80 marks, 40% | 120 minutes, no calculator, 110 marks, 30% |
+| Paper 2 | 90 minutes, graphing calculator (GDC) required, 80 marks, 40% | 120 minutes, GDC required, 110 marks, 30% |
+| Paper 3 | none | GDC required, 55 marks, 20%: two extended problem-solving questions |
+| Internal assessment | mathematical exploration, 20 marks, 20% | mathematical exploration, 20% |
+
+[[P2·e030]]
+Paper 3 lasts 1 hour 15 minutes from the 2025 exams onward; older documents still say 1 hour. Papers 1 and 2 each have **Section A** (short questions) and **Section B** (longer, structured questions). A formula booklet is provided in every paper, so the job is not memorizing formulas but knowing when and how to use them. Final grades are on a scale from 1 to 7.
+
+## The five topics
+
+[[P3·a3d0]]
+Both levels share the same five topics; HL goes further in each.
+
+[[P4·eb7f]]
+1. **Number and algebra:** sequences and series, exponents and logarithms, the binomial theorem, proof. HL adds counting, partial fractions, complex numbers, induction and contradiction.
+2. **Functions:** graphs, domain and range, composite and inverse functions, transformations, quadratic, rational, exponential and logarithmic functions.
+3. **Geometry and trigonometry:** volume and surface area, the sine and cosine rules, radians, the unit circle, trigonometric identities and equations. HL adds vectors, lines and planes.
+4. **Statistics and probability:** data and regression, probability rules, discrete distributions, the binomial and normal distributions. HL adds Bayes' theorem and more on random variables.
+5. **Calculus:** limits, differentiation, integration, kinematics and optimization. HL adds Maclaurin series, differential equations and further integration.
+
+## How marks are awarded
+
+[[P5·7035]]
+IB markschemes split each question into small marks, and knowing the types changes how you write:
+
+[[P6·534a]]
+- **M marks** reward a correct **method**, even if the arithmetic then goes wrong.
+- **A marks** reward an **accurate** answer or intermediate value, usually after the M mark it depends on.
+- **R marks** reward clear **reasoning**, such as a justification for rejecting a solution.
+- **Follow-through (FT)**: if an earlier part is wrong but you use your wrong value correctly later, you can still earn the later marks.
+
+[[P7·0e65]]
+Two consequences follow. A correct answer with no working may not earn full marks, so always show your method. And a wrong answer with a correct method still earns marks, so never leave a part blank. Unless a question says otherwise, give approximate answers **to three significant figures**, and keep more digits in your calculator until the end.
+
+## Command terms
+
+[[P8·fcbb]]
+Every question starts with a command term, and each one asks for something specific. The most important ones:
+
+| Command term | What it asks |
+|---|---|
+| Write down | Little or no working is needed: the answer can be read off or seen directly. |
+| Find / Calculate | Show the main steps of your working. |
+| Show that | The answer is given; write every step that leads to it, without starting from the result. |
+| Hence | Use the result of the previous part; a different method may earn no marks. |
+| Hence or otherwise | Using the previous part is the quickest route, but another valid method is accepted. |
+| Sketch | A diagram with the right shape and the key features labeled (intercepts, asymptotes, turning points). |
+| Justify / Explain | Give a reason, usually in one clear sentence. |
+
+[[P9·1646]]
+The mark allocation, written as [n marks] after each part, tells you how much work is expected. A 1-mark part rarely needs more than a line; a 7-mark part needs several steps.
+
+## Paper 1 versus Paper 2
+
+[[P10·eae1]]
+Paper 1 has no calculator, so its questions use exact values: fractions, surds, $\pi$, $\ln2$, exact trigonometric values. Practise algebra and arithmetic by hand until they are fast and reliable.
+
+[[P11·fabb]]
+Paper 2 requires a GDC, and many questions are written so that the calculator does the heavy work: solving equations graphically, finding intersections, evaluating definite integrals, statistics and probability distributions. Learn your calculator's functions well before the exam, and still write the mathematics: state the equation you solved or the integral you evaluated, then the result.
+
+:::tip Use the GDC as a checker on Paper 2
+[[P12·3ba8]]
+Before moving on, check an answer another way: graph the function to confirm a solution, or substitute it back. A minute of checking protects marks you have already earned.
+:::
+
+## A revision plan
+
+:::note Twelve weeks before the exams
+[[P13·434e]]
+1. **Weeks 1 to 6: topic by topic.** For each topic, revise the key ideas, then do mixed past-paper questions on it, Section A first, then Section B. Mark them with the official markschemes.
+2. **Weeks 7 to 10: full papers under time.** One Paper 1 and one Paper 2 each week (HL: also Paper 3 every other week). Afterwards, copy each lost mark into an error log, with the reason.
+3. **Weeks 11 to 12: weak spots and speed.** Return to the topics your error log shows most often, and practise Section B questions for timing.
+:::
+
+:::warning Common traps
+[[P14·d114]]
+- Rounding too early, then giving a final answer that is wrong in the third significant figure.
+- Ignoring "hence", then solving a part the long way and losing marks.
+- In "show that" questions, starting from the result, or skipping steps because "it is obvious".
+- Forgetting radian mode on the GDC for calculus and trigonometric functions.
+- Leaving a part blank because an earlier part went wrong: follow-through marks are still available.
+:::
+
+[[P15·6950]]
+The lessons in this section follow the five topics, then the HL extensions, then Paper 3 and the exploration, and finish with an SL and an HL practice paper. Start with [Number and algebra](lesson:ibaa-number-algebra).
+

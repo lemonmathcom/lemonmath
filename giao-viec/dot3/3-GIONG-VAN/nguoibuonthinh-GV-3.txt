@@ -1,0 +1,1482 @@
+######################################################################
+TÀI KHOẢN: nguoibuonthinh   |   FILE: nguoibuonthinh-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file nguoibuonthinh-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – nguoibuonthinh-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-statistics/apstats-overview, exams/ap-statistics/apstats-two-variable-regression, exams/ib-aa/ibaa-calculus, exams/ib-aa/ibaa-functions
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  nguoibuonthinh-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/nguoibuonthinh-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file nguoibuonthinh-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-statistics/apstats-overview – BẢN TIẾNG VIỆT ########
+---
+title: AP Statistics gồm những gì và cách ôn
+description: Đề thi AP Statistics mới từ tháng 5/2027: 42 câu trắc nghiệm và 4 câu tự luận, năm unit và tỉ trọng, những thay đổi, và kế hoạch ôn tập.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Nắm cấu trúc đề thi AP Statistics từ tháng 5/2027: các phần, thời gian, máy tính và tỉ trọng điểm.
+  - Nắm năm unit của chương trình mới và những nội dung đã bị bỏ.
+  - Nhận ra bốn dạng câu tự luận.
+  - Lập kế hoạch ôn tập trong mười tuần.
+  :::
+
+[[P1·af98]]
+AP Statistics là môn học của College Board tương đương một học kì thống kê nhập môn ở đại học. Từ năm học 2026–27, môn học được sửa đổi: chín unit gộp còn năm, một số nội dung bị bỏ, và đề thi được thiết kế lại. Học sinh theo chương trình Việt Nam thường thấy phần tính toán dễ; thử thách thật sự là **viết**: giải thích phương pháp, kiểm tra điều kiện và nêu kết luận theo tình huống. Các bài trong mục này viết theo chương trình mới, nên sách ôn và đề luyện cũ sẽ không khớp hoàn toàn.
+
+## Đề thi từ tháng 5/2027
+
+[[P2·9e0b]]
+Toàn bộ bài thi làm trên ứng dụng **Bluebook**. Được dùng máy tính đồ thị, Bluebook có sẵn Desmos, và có bảng công thức kèm các bảng tra.
+
+| Phần | Số câu | Thời gian | Tỉ trọng |
+|---|---|---|---|
+| I: trắc nghiệm | 42, mỗi câu 4 phương án | 90 phút | 50% |
+| II: tự luận | 4, mỗi câu 10 điểm | 90 phút | 50% |
+
+[[P3·18c2]]
+Phần trắc nghiệm có **hai cụm ba câu** dùng chung một dữ kiện: một cụm về xác suất, biến ngẫu nhiên và phân phối, một cụm về hồi quy. Điểm báo theo thang AP từ 1 đến 5. Trước 2027, đề có 40 câu trắc nghiệm năm phương án và 6 câu tự luận, trong đó có một "investigative task"; dạng câu này nay không còn.
+
+## Nội dung thi
+
+| Unit | Nội dung | Tỉ trọng trong phần trắc nghiệm |
+|---|---|---|
+| 1. Exploring One-Variable Data and Collecting Data | câu hỏi khảo sát, biểu đồ và số đặc trưng, chọn mẫu và thí nghiệm | 20%–30% |
+| 2. Probability, Random Variables, and Probability Distributions | quy tắc xác suất, biến ngẫu nhiên, phân phối nhị thức và chuẩn, phân phối mẫu | 15%–25% |
+| 3. Inference for Categorical Data: Proportions | khoảng tin cậy và kiểm định cho tỉ lệ | 15%–25% |
+| 4. Inference for Quantitative Data: Means | khoảng tin cậy và kiểm định cho trung bình | 10%–20% |
+| 5. Regression Analysis | biểu đồ phân tán, hệ số tương quan, hồi quy bình phương nhỏ nhất, phần dư | 10%–20% |
+
+[[P4·1af4]]
+**Đã bỏ khỏi chương trình:** phân tích độ lệch khỏi dạng tuyến tính (biến đổi dữ liệu), tổ hợp các biến ngẫu nhiên, phân phối hình học, kiểm định chi bình phương về độ phù hợp (goodness of fit), và suy luận cho hệ số góc đường hồi quy. Gặp các phần này trong sách cũ thì bỏ qua. **Mới:** viết và đánh giá **câu hỏi khảo sát thống kê** (statistical investigative questions).
+
+[[P5·1114]]
+Trong mục này, bài hồi quy đặt ngay sau bài dữ liệu một biến, vì cả hai đều mô tả dữ liệu; trong đề thi, hồi quy là Unit 5.
+
+## Bốn câu tự luận
+
+[[P6·3086]]
+Mỗi câu 10 điểm và có dạng cố định:
+
+[[P7·00d5]]
+1. **Đặt câu hỏi và thu thập dữ liệu:** câu hỏi khảo sát, phương pháp chọn mẫu, thiết kế thí nghiệm.
+2. **Phân tích dữ liệu và diễn giải kết quả:** biểu đồ và số đặc trưng, so sánh, kết quả hồi quy.
+3. **Suy luận thống kê:** một khoảng tin cậy hoặc một kiểm định ý nghĩa, có điều kiện và kết luận theo tình huống.
+4. **Câu tổng hợp** kết hợp nhiều mảng của chương trình.
+
+## Ba câu hỏi mẫu
+
+  :::example Câu hỏi khảo sát thống kê
+  Hội học sinh muốn tìm hiểu về giấc ngủ ở trường. Câu nào sau đây là một câu hỏi khảo sát thống kê?
+  A. Tối qua Lan ngủ bao nhiêu giờ?
+  B. Giấc ngủ có quan trọng với học sinh không?
+  C. Học sinh trường ta thường ngủ bao nhiêu giờ vào các đêm trước ngày đi học?
+  D. Ngày học ở trường bắt đầu lúc mấy giờ?
+
+  **Lời giải.** Câu hỏi khảo sát thống kê phải được trả lời bằng dữ liệu **có biến động**, thu thập từ nhiều cá thể, và hỏi về một nhóm.
+
+  Phương án A hỏi về một người, phương án D có một đáp án cố định, còn phương án B là ý kiến, không trả lời bằng dữ liệu. Phương án C hỏi về giá trị điển hình của một nhóm, và câu trả lời đến từ dữ liệu biến động của nhiều học sinh.
+
+  Vậy câu hỏi khảo sát là C, chọn đáp án **C**.
+  :::
+
+  :::example Một quy tắc xác suất
+  Với hai biến cố $A$ và $B$, $P(A)=0{,}4$, $P(B)=0{,}5$ và $P(A\text{ và }B)=0{,}2$. Giá trị $P(A\text{ hoặc }B)$ là
+  A. $0{,}9$
+  B. $0{,}7$
+  C. $0{,}2$
+  D. $0{,}5$
+
+  **Lời giải.** Theo quy tắc cộng tổng quát,
+  $$P(A\text{ hoặc }B)=P(A)+P(B)-P(A\text{ và }B)=0{,}4+0{,}5-0{,}2=0{,}7.$$
+
+  Vậy $P(A\text{ hoặc }B)=0{,}7$, chọn đáp án **B**. Phương án A quên trừ phần giao, phần này bị đếm hai lần.
+  :::
+
+  :::example Diễn giải khoảng tin cậy
+  Một mẫu ngẫu nhiên cử tri cho khoảng tin cậy $95\%$ là $(0{,}42;\ 0{,}50)$ cho tỉ lệ cử tri của cả thành phố ủng hộ xây công viên mới. Cách diễn giải nào đúng?
+  A. $95\%$ cử tri trong mẫu ủng hộ công viên.
+  B. Xác suất để tỉ lệ mẫu nằm giữa $0{,}42$ và $0{,}50$ là $95\%$.
+  C. Từ $42\%$ đến $50\%$ cử tri trong mẫu ủng hộ công viên.
+  D. Ta tin cậy $95\%$ rằng khoảng từ $0{,}42$ đến $0{,}50$ chứa tỉ lệ cử tri của cả thành phố ủng hộ công viên.
+
+  **Lời giải.** Khoảng tin cậy ước lượng một **tham số của tổng thể**, ở đây là tỉ lệ của toàn bộ cử tri thành phố, và độ tin cậy mô tả mức đáng tin của phương pháp.
+
+  Phương án A và C nói về mẫu, điều ta đã biết chính xác, còn phương án B nói về tỉ lệ mẫu, vốn là tâm của khoảng, không phải đại lượng chưa biết.
+
+  Vậy cách diễn giải đúng là D, chọn đáp án **D**.
+  :::
+
+## Kế hoạch mười tuần
+
+:::note Các tuần trước kì thi
+[[P8·db85]]
+1. **Tuần 1–2:** [Mô tả dữ liệu một biến](lesson:apstats-one-variable-data) và [Dữ liệu hai biến và hồi quy tuyến tính](lesson:apstats-two-variable-regression).
+2. **Tuần 3:** [Chọn mẫu, nghiên cứu quan sát và thí nghiệm](lesson:apstats-collecting-data).
+3. **Tuần 4–5:** [Xác suất và biến ngẫu nhiên](lesson:apstats-probability-random-variables), rồi [Phân phối chuẩn và phân phối mẫu](lesson:apstats-sampling-distributions).
+4. **Tuần 6–8:** [Suy luận cho tỉ lệ](lesson:apstats-inference-proportions), rồi [Suy luận cho trung bình](lesson:apstats-inference-means); luyện viết đầy đủ kiểm định và khoảng tin cậy.
+5. **Tuần 9–10:** [bốn câu tự luận](lesson:apstats-frq-strategies), rồi [đề luyện](lesson:apstats-practice-exam-1) trọn vẹn có bấm giờ; ghi mọi lỗi sai vào sổ lỗi sai.
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P9·359d]]
+- **Tài liệu cũ:** các nội dung đã bỏ vẫn có trong sách và đề cũ; hãy bỏ qua.
+- **Trả lời không có tình huống:** chỉ viết "bác bỏ $H_0$" được rất ít điểm; hãy nói điều đó có nghĩa gì với tình huống.
+- **Mẫu và tổng thể:** suy luận luôn nói về tham số của tổng thể.
+- **Điều kiện:** nêu và kiểm tra điều kiện mỗi lần lập khoảng tin cậy hay làm kiểm định.
+:::
+
+[[P10·c9d9]]
+AP Classroom và trang môn học trên AP Central có câu hỏi luyện tập chính thức, tài liệu mô tả môn học và đề thi (course and exam description) và bảng công thức; hãy dùng chúng cùng các bài này.
+
+  :::terms
+  - statistical investigative question | câu hỏi khảo sát thống kê
+  - multiple choice / free response | trắc nghiệm / tự luận
+  - formula sheet | bảng công thức
+  - confidence interval | khoảng tin cậy
+  - significance test | kiểm định ý nghĩa
+  - population / sample | tổng thể / mẫu
+  - parameter / statistic | tham số / thống kê
+  :::
+
+
+######## BÀI exams/ap-statistics/apstats-overview – BẢN TIẾNG ANH ########
+---
+title: What AP Statistics tests and how to prepare
+description: The revised AP Statistics exam from May 2027: 42 multiple-choice and 4 free-response questions, the five units and their weights, what changed and a study plan.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Know the structure of the AP Statistics exam from May 2027: sections, timing, calculators and weighting.
+  - Know the five units of the revised course, and which topics were removed.
+  - Recognize the four free-response question types.
+  - Plan your revision with a ten-week schedule.
+  :::
+
+[[P1·f8cf]]
+AP Statistics is a College Board course equivalent to a one-semester introductory college statistics course. For the 2026–27 school year the course was revised: nine units became five, several topics were removed, and the exam was redesigned. Students from the Vietnamese curriculum usually find the calculations easy; the real challenge is **writing**: explaining methods, checking conditions and stating conclusions in context. These lessons are written for the revised course, so older review books and practice tests will not match it exactly.
+
+## The exam from May 2027
+
+[[P2·7f86]]
+The whole exam is taken in the **Bluebook** app. A graphing calculator is allowed, Desmos is built into Bluebook, and a formula sheet with tables is provided.
+
+| Section | Questions | Time | Weight |
+|---|---|---|---|
+| I: multiple choice | 42, each with 4 options | 90 minutes | 50% |
+| II: free response | 4, each worth 10 points | 90 minutes | 50% |
+
+[[P3·751f]]
+The multiple-choice section contains **two sets of three questions** that share a stimulus: one set on probability, random variables and distributions, and one on regression. Scores are reported on the AP scale from 1 to 5. Before 2027 the exam had 40 multiple-choice questions with 5 options and 6 free-response questions, including an "investigative task"; that task no longer exists.
+
+## What is tested
+
+| Unit | Content | Share of the multiple-choice section |
+|---|---|---|
+| 1. Exploring One-Variable Data and Collecting Data | investigative questions, displays and summaries, sampling and experiments | 20%–30% |
+| 2. Probability, Random Variables, and Probability Distributions | probability rules, random variables, binomial and normal distributions, sampling distributions | 15%–25% |
+| 3. Inference for Categorical Data: Proportions | confidence intervals and tests for proportions | 15%–25% |
+| 4. Inference for Quantitative Data: Means | confidence intervals and tests for means | 10%–20% |
+| 5. Regression Analysis | scatterplots, correlation, least-squares regression, residuals | 10%–20% |
+
+[[P4·a118]]
+**Removed from the course:** analysing departures from linearity (transforming data), combining random variables, the geometric distribution, the chi-square goodness-of-fit test, and inference for the slope of a regression line. Skip these in older books. **New:** writing and judging **statistical investigative questions**.
+
+[[P5·38a9]]
+In this section the regression lesson comes right after one-variable data, because both describe data; on the exam regression is Unit 5.
+
+## The four free-response questions
+
+[[P6·8a5e]]
+Each question is worth 10 points and has a fixed type:
+
+[[P7·0734]]
+1. **Formulating questions and collecting data:** investigative questions, sampling methods, experimental design.
+2. **Analysing data and interpreting results:** graphs and summary statistics, comparisons, regression output.
+3. **Statistical inference:** a confidence interval or a significance test, with conditions and a conclusion in context.
+4. **An integrated question** that combines several areas of the course.
+
+## Three sample questions
+
+  :::example An investigative question
+  A student council wants to learn about sleep at their school. Which of the following is a statistical investigative question?
+  A. How many hours did Lan sleep last night?
+  B. Is sleep important for students?
+  C. How many hours do students at our school typically sleep on school nights?
+  D. What time does the school day start?
+
+  **Solution.** A statistical investigative question must be answered with data that **vary**, collected from many individuals, and it asks about a group.
+
+  Option A asks about one person, option D has one fixed answer, and option B is an opinion, not a question answered with data. Option C asks about a typical value for a group, and its answer comes from variable data on many students.
+
+  So the investigative question is C, answer **C**.
+  :::
+
+  :::example A probability rule
+  For events $A$ and $B$, $P(A)=0.4$, $P(B)=0.5$ and $P(A\text{ and }B)=0.2$. What is $P(A\text{ or }B)$?
+  A. $0.9$
+  B. $0.7$
+  C. $0.2$
+  D. $0.5$
+
+  **Solution.** By the general addition rule,
+  $$P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)=0.4+0.5-0.2=0.7.$$
+
+  So $P(A\text{ or }B)=0.7$, answer **B**. Option A forgets to subtract the overlap, which would be counted twice.
+  :::
+
+  :::example Interpreting a confidence interval
+  A random sample of voters gives a $95\%$ confidence interval of $(0.42,\ 0.50)$ for the proportion of all voters in a city who support a new park. Which interpretation is correct?
+  A. $95\%$ of the voters in the sample support the park.
+  B. There is a $95\%$ probability that the sample proportion is between $0.42$ and $0.50$.
+  C. Between $42\%$ and $50\%$ of the voters in the sample support the park.
+  D. We are $95\%$ confident that the interval from $0.42$ to $0.50$ captures the proportion of all voters in the city who support the park.
+
+  **Solution.** A confidence interval estimates a **population** parameter, here the proportion of all voters in the city, and the confidence level describes how reliable the method is.
+
+  Options A and C talk about the sample, which we already know exactly, and option B describes the sample proportion, which is the centre of the interval, not something uncertain.
+
+  So the correct interpretation is D, answer **D**.
+  :::
+
+## A ten-week plan
+
+:::note Weeks before the exam
+[[P8·db59]]
+1. **Weeks 1 to 2:** [Describing one-variable data](lesson:apstats-one-variable-data) and [Two-variable data and linear regression](lesson:apstats-two-variable-regression).
+2. **Week 3:** [Sampling, observational studies and experiments](lesson:apstats-collecting-data).
+3. **Weeks 4 to 5:** [Probability and random variables](lesson:apstats-probability-random-variables), then [Normal models and sampling distributions](lesson:apstats-sampling-distributions).
+4. **Weeks 6 to 8:** [Inference for proportions](lesson:apstats-inference-proportions), then [Inference for means](lesson:apstats-inference-means); practise writing full tests and intervals.
+5. **Weeks 9 to 10:** [the free-response questions](lesson:apstats-frq-strategies), then the timed [practice exam](lesson:apstats-practice-exam-1); review every mistake in an error log.
+:::
+
+:::warning Common traps
+[[P9·1bad]]
+- **Old materials:** removed topics still appear in older books and past exams; skip them.
+- **Answers without context:** "reject $H_0$" alone earns little; say what it means for the situation.
+- **Sample versus population:** inference is always about the population parameter.
+- **Conditions:** state and check them every time you build an interval or run a test.
+:::
+
+[[P10·b6a8]]
+AP Classroom and the AP Central course page offer official practice questions, the course and exam description and the formula sheet; use them alongside these lessons.
+
+  :::terms
+  - statistical investigative question | câu hỏi khảo sát thống kê
+  - multiple choice / free response | trắc nghiệm / tự luận
+  - formula sheet | bảng công thức
+  - confidence interval | khoảng tin cậy
+  - significance test | kiểm định ý nghĩa
+  - population / sample | tổng thể / mẫu
+  - parameter / statistic | tham số / thống kê
+  :::
+
+
+######## BÀI exams/ap-statistics/apstats-two-variable-regression – BẢN TIẾNG VIỆT ########
+---
+title: Dữ liệu hai biến và hồi quy tuyến tính
+description: AP Statistics hồi quy: biểu đồ phân tán, hệ số tương quan, đường bình phương nhỏ nhất, diễn giải hệ số góc, hệ số chặn, phần dư, r² và giới hạn của hồi quy.
+minutes: 50
+---
+
+  :::goals
+  - Mô tả biểu đồ phân tán theo chiều, dạng, độ mạnh và điểm bất thường, gắn với tình huống.
+  - Diễn giải hệ số tương quan $r$ và hệ số xác định $r^2$.
+  - Tìm đường hồi quy bình phương nhỏ nhất từ dữ liệu hoặc từ các số đặc trưng, và diễn giải hệ số góc, hệ số chặn.
+  - Tính và diễn giải phần dư, dùng biểu đồ phần dư để đánh giá mô hình tuyến tính có phù hợp không.
+  - Nhận ra phép ngoại suy và phân biệt liên hệ với quan hệ nhân quả.
+  :::
+
+[[P1·ae30]]
+Hồi quy là Unit 5 của chương trình mới và có riêng một cụm ba câu trắc nghiệm trong đề, nên đây là phần nên chắc điểm. Phần tính toán nhẹ; điểm đến từ những lời diễn giải **gắn với tình huống** với đúng từ ngữ: "dự đoán", "trung bình", "mỗi khi … tăng thêm". Bài này gồm những gì còn trong chương trình; biến đổi dữ liệu để được dạng tuyến tính và suy luận cho hệ số góc đã bị bỏ.
+
+## Biểu đồ phân tán và hệ số tương quan
+
+[[P2·e071]]
+**Biểu đồ phân tán** (scatterplot) biểu diễn hai biến định lượng đo trên cùng các cá thể: **biến giải thích** $x$ trên trục hoành và **biến phản hồi** $y$ trên trục tung. Mô tả nó bằng bốn đặc điểm, gắn với tình huống:
+
+| Đặc điểm | Cần nói gì |
+|---|---|
+| Chiều | dương hay âm |
+| Dạng | tuyến tính hay cong |
+| Độ mạnh | mạnh, vừa hay yếu |
+| Điểm bất thường | điểm nằm xa xu hướng chung, cụm điểm |
+
+[[P3·82d5]]
+**Hệ số tương quan** $r$ đo chiều và độ mạnh của mối liên hệ **tuyến tính**. Ta có $-1\le r\le1$, $r$ không có đơn vị, và không đổi khi đổi chỗ $x$ với $y$ hay đổi đơn vị đo. Giá trị gần $0$ nghĩa là không có liên hệ tuyến tính, chưa chắc là không có liên hệ nào.
+
+:::graph Số giờ ôn bài và điểm kiểm tra của $11$ học sinh, kèm đường bình phương nhỏ nhất
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Đường hồi quy bình phương nhỏ nhất
+
+[[P4·d356]]
+**Đường hồi quy bình phương nhỏ nhất** (least-squares regression line) $\hat y=a+bx$ là đường làm cho tổng bình phương các phần dư nhỏ nhất. Từ các số đặc trưng,
+  $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
+[[P5·c775]]
+nên đường thẳng luôn đi qua $(\bar x,\bar y)$. Dấu mũ trên $\hat y$ nghĩa là giá trị **dự đoán**.
+
+[[P6·ca73]]
+- **Hệ số góc:** "Mỗi khi [$x$] tăng thêm một [đơn vị], [$y$] dự đoán tăng (giảm) $b$ [đơn vị của $y$]."
+- **Hệ số chặn:** "[$y$] dự đoán khi [$x$] $=0$ là $a$." Chỉ diễn giải khi $x=0$ có ý nghĩa.
+
+  :::example Diễn giải hệ số góc
+  Với các học sinh trong đồ thị, đường bình phương nhỏ nhất là $\widehat{\text{điểm}}=49{,}2+4{,}61\,(\text{giờ})$. Cách diễn giải đúng của $4{,}61$ là
+  A. Điểm của mỗi học sinh tăng đúng $4{,}61$ điểm cho mỗi giờ ôn bài.
+  B. Mỗi khi ôn thêm một giờ, điểm dự đoán tăng khoảng $4{,}61$ điểm.
+  C. Học sinh ôn $0$ giờ sẽ được $4{,}61$ điểm.
+  D. Khoảng $4{,}61\%$ sự biến động của điểm được giải thích bởi số giờ ôn bài.
+
+  **Lời giải.** Hệ số góc mô tả giá trị **dự đoán** của biến phản hồi thay đổi bao nhiêu khi biến giải thích tăng một đơn vị.
+
+  Phương án A quên rằng đường thẳng cho giá trị dự đoán, không phải giá trị chính xác của từng học sinh; phương án C nói về hệ số chặn, và nói sai; phương án D nhầm hệ số góc với $r^2$.
+
+  Vậy hệ số góc nghĩa là mỗi khi ôn thêm một giờ, điểm dự đoán tăng khoảng $4{,}61$ điểm, chọn đáp án **B**.
+  :::
+
+  :::example Đường hồi quy từ các số đặc trưng
+  Một bộ dữ liệu có $\bar x=5$, $s_x=2$, $\bar y=40$, $s_y=6$ và $r=0{,}8$. Đường hồi quy bình phương nhỏ nhất là
+  A. $\hat y=28+2{,}4x$
+  B. $\hat y=40+2{,}4x$
+  C. $\hat y=37{,}3+0{,}27x$
+  D. $\hat y=28+0{,}8x$
+
+  **Lời giải.** Hệ số góc là $b=r\,\dfrac{s_y}{s_x}=0{,}8\cdot\dfrac{6}{2}=2{,}4$.
+
+  Hệ số chặn là $a=\bar y-b\bar x=40-2{,}4(5)=28$, vì đường thẳng đi qua $(\bar x,\bar y)=(5;40)$.
+
+  Vậy đường hồi quy là $\hat y=28+2{,}4x$, chọn đáp án **A**. Phương án C dùng $\dfrac{s_x}{s_y}$ thay vì $\dfrac{s_y}{s_x}$.
+  :::
+
+## Phần dư và $r^2$
+
+[[P7·0ab2]]
+**Phần dư** (residual) là
+  $$\text{phần dư}=y-\hat y=\text{thực tế}-\text{dự đoán}.$$
+[[P8·ca18]]
+Phần dư dương nghĩa là đường thẳng ước lượng thấp hơn điểm đó. **Biểu đồ phần dư** (phần dư theo $x$) không có quy luật thì ủng hộ mô hình tuyến tính; quy luật dạng cong nghĩa là mô hình tuyến tính không phù hợp.
+
+[[P9·ee81]]
+**Hệ số xác định** $r^2$ là tỉ lệ sự biến động của $y$ được giải thích bởi mô hình tuyến tính theo $x$. **Độ lệch chuẩn của phần dư** $s$ là độ lớn điển hình của sai số dự đoán.
+
+  :::example Tính phần dư
+  Một mô hình cho giá ô tô cũ là $\hat y=24-1{,}8x$, với $x$ là tuổi xe (năm) và $y$ là giá (nghìn đô la). Một chiếc xe $5$ năm tuổi được bán với giá $13{,}5$ nghìn đô la. Phần dư của nó là bao nhiêu?
+
+  **Lời giải.** Giá dự đoán là $\hat y=24-1{,}8(5)=15$ nghìn đô la.
+
+  Phần dư là $y-\hat y=13{,}5-15=-1{,}5$ nghìn đô la.
+
+  Vậy phần dư là $-1{,}5$: chiếc xe được bán thấp hơn giá mô hình dự đoán $1500$ đô la.
+  :::
+
+  :::example Đọc $r^2$
+  Với dữ liệu giờ ôn bài và điểm, $r^2=0{,}965$. Khẳng định nào đúng?
+  A. $96{,}5\%$ điểm của học sinh được dự đoán chính xác.
+  B. Hệ số góc của đường thẳng là $0{,}965$.
+  C. $96{,}5\%$ sự biến động của điểm kiểm tra được giải thích bởi mô hình tuyến tính theo số giờ ôn bài.
+  D. Việc ôn bài tạo ra $96{,}5\%$ điểm số của học sinh.
+
+  **Lời giải.** Theo định nghĩa, $r^2$ cho biết bao nhiêu phần **sự biến động** của biến phản hồi được giải thích bởi mối liên hệ tuyến tính với biến giải thích.
+
+  Nó không nói gì về số dự đoán chính xác hay về quan hệ nhân quả, và nó không phải hệ số góc.
+
+  Vậy khẳng định đúng là C, chọn đáp án **C**. Vì liên hệ là dương nên $r=\sqrt{0{,}965}\approx0{,}982$.
+  :::
+
+## Giới hạn của hồi quy
+
+[[P10·d2ea]]
+- **Ngoại suy:** dự đoán ở các giá trị $x$ nằm xa ngoài khoảng dữ liệu dùng để lập đường thẳng là không đáng tin.
+- **Liên hệ không phải nhân quả:** dữ liệu quan sát có thể cho tương quan mạnh vì một **biến ẩn** (lurking variable) ảnh hưởng đến cả $x$ và $y$. Chỉ thí nghiệm được thiết kế tốt mới cho thấy quan hệ nhân quả.
+- **Dạng tuyến tính:** $r$ và đường bình phương nhỏ nhất chỉ mô tả quy luật tuyến tính; luôn xem biểu đồ phân tán và biểu đồ phần dư.
+
+:::warning Những cái bẫy thường gặp
+[[P11·529a]]
+- **"Dự đoán":** câu diễn giải hệ số góc và hệ số chặn phải có từ "dự đoán" hoặc "trung bình".
+- **Dấu của phần dư:** thực tế trừ dự đoán, không làm ngược lại.
+- **$r$ và $r^2$:** dấu của $r$ là dấu của hệ số góc; $r^2$ không bao giờ âm.
+- **Tình huống:** nêu tên cả hai biến và đơn vị trong mọi lời diễn giải.
+- **Nội dung đã bỏ:** suy luận cho hệ số góc và biến đổi dữ liệu không còn được thi.
+:::
+
+  :::terms
+  - explanatory / response variable | biến giải thích / biến phản hồi
+  - scatterplot | biểu đồ phân tán
+  - correlation | hệ số tương quan
+  - least-squares regression line | đường hồi quy bình phương nhỏ nhất
+  - predicted value | giá trị dự đoán
+  - residual / residual plot | phần dư / biểu đồ phần dư
+  - coefficient of determination | hệ số xác định
+  - extrapolation | ngoại suy
+  - lurking variable | biến ẩn
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-statistics/apstats-two-variable-regression – BẢN TIẾNG ANH ########
+---
+title: Two-variable data and linear regression
+description: AP Statistics regression: scatterplots, correlation, the least-squares line, interpreting slope, intercept, residuals and r², and the limits of regression.
+minutes: 50
+---
+
+  :::goals
+  - Describe a scatterplot by direction, form, strength and unusual features, in context.
+  - Interpret the correlation $r$ and the coefficient of determination $r^2$.
+  - Find the least-squares regression line from data or from summary statistics, and interpret its slope and intercept.
+  - Compute and interpret residuals, and use a residual plot to judge whether a linear model is appropriate.
+  - Recognise extrapolation and the difference between association and causation.
+  :::
+
+[[P1·cbad]]
+Regression is Unit 5 of the revised course and has its own set of three multiple-choice questions on the exam, so it is worth secure marks. The arithmetic is light; points come from interpretations written **in context**, with the right words: "predicted", "on average", "for each additional ...". This lesson covers what remains in the course; transformations to achieve linearity and inference for the slope have been removed.
+
+## Scatterplots and correlation
+
+[[P2·c4f0]]
+A **scatterplot** shows two quantitative variables measured on the same individuals: the **explanatory** variable $x$ on the horizontal axis and the **response** variable $y$ on the vertical axis. Describe it with four features, in context:
+
+| Feature | What to say |
+|---|---|
+| Direction | positive or negative |
+| Form | linear or curved |
+| Strength | strong, moderate or weak |
+| Unusual features | points far from the pattern, clusters |
+
+[[P3·c8b5]]
+The **correlation** $r$ measures the direction and strength of a **linear** relationship. It satisfies $-1\le r\le1$, has no units, and is not changed by switching $x$ and $y$ or by changing units. A value near $0$ means no linear relationship, not necessarily no relationship.
+
+:::graph Hours studied and test score for $11$ students, with the least-squares line
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The least-squares regression line
+
+[[P4·7ef5]]
+The **least-squares regression line** $\hat y=a+bx$ is the line that makes the sum of squared residuals as small as possible. From summary statistics,
+  $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
+[[P5·85cc]]
+so the line always passes through $(\bar x,\bar y)$. The hat on $\hat y$ means **predicted** value.
+
+[[P6·e8ef]]
+- **Slope:** "For each additional [unit of $x$], the predicted [$y$] increases (decreases) by $b$ [units of $y$]."
+- **Intercept:** "The predicted [$y$] when [$x$] $=0$ is $a$." Interpret it only if $x=0$ makes sense.
+
+  :::example Interpreting the slope
+  For the students in the graph, the least-squares line is $\widehat{\text{score}}=49.2+4.61\,(\text{hours})$. Which is the correct interpretation of $4.61$?
+  A. Each student's score increases by exactly $4.61$ points per hour studied.
+  B. For each additional hour studied, the predicted score increases by about $4.61$ points.
+  C. A student who studies $0$ hours will score $4.61$ points.
+  D. About $4.61\%$ of the variation in scores is explained by hours studied.
+
+  **Solution.** The slope describes how the **predicted** response changes when the explanatory variable increases by one unit.
+
+  Option A forgets that the line gives predictions, not exact values for each student; option C describes the intercept, and wrongly; option D confuses the slope with $r^2$.
+
+  So the slope means that for each additional hour studied, the predicted score increases by about $4.61$ points, answer **B**.
+  :::
+
+  :::example A line from summary statistics
+  For a set of data, $\bar x=5$, $s_x=2$, $\bar y=40$, $s_y=6$ and $r=0.8$. The least-squares regression line is
+  A. $\hat y=28+2.4x$
+  B. $\hat y=40+2.4x$
+  C. $\hat y=37.3+0.27x$
+  D. $\hat y=28+0.8x$
+
+  **Solution.** The slope is $b=r\,\dfrac{s_y}{s_x}=0.8\cdot\dfrac{6}{2}=2.4$.
+
+  The intercept is $a=\bar y-b\bar x=40-2.4(5)=28$, because the line passes through $(\bar x,\bar y)=(5,40)$.
+
+  So the line is $\hat y=28+2.4x$, answer **A**. Option C uses $\dfrac{s_x}{s_y}$ instead of $\dfrac{s_y}{s_x}$.
+  :::
+
+## Residuals and $r^2$
+
+[[P7·51d2]]
+A **residual** is
+  $$\text{residual}=y-\hat y=\text{actual}-\text{predicted}.$$
+[[P8·ef33]]
+A positive residual means the line underestimates that point. A **residual plot** (residuals against $x$) with no pattern supports a linear model; a curved pattern means a linear model is not appropriate.
+
+[[P9·982a]]
+The **coefficient of determination** $r^2$ is the proportion of the variation in $y$ that is accounted for by the linear model with $x$. The **standard deviation of the residuals** $s$ is the typical size of a prediction error.
+
+  :::example Computing a residual
+  A model for the price of a used car is $\hat y=24-1.8x$, where $x$ is the age in years and $y$ the price in thousands of dollars. A $5$-year-old car sells for $13.5$ thousand dollars. What is its residual?
+
+  **Solution.** The predicted price is $\hat y=24-1.8(5)=15$ thousand dollars.
+
+  The residual is $y-\hat y=13.5-15=-1.5$ thousand dollars.
+
+  So the residual is $-1.5$: the car sold for $1500$ dollars less than the model predicts.
+  :::
+
+  :::example Reading $r^2$
+  For the hours and scores data, $r^2=0.965$. Which statement is correct?
+  A. $96.5\%$ of the students' scores are predicted correctly.
+  B. The slope of the line is $0.965$.
+  C. $96.5\%$ of the variation in test scores is accounted for by the linear model with hours studied.
+  D. Studying causes $96.5\%$ of a student's score.
+
+  **Solution.** By definition, $r^2$ describes how much of the **variation** in the response is accounted for by the linear relationship with the explanatory variable.
+
+  It says nothing about the number of correct predictions or about causation, and it is not the slope.
+
+  So the correct statement is C, answer **C**. Since the association is positive, $r=\sqrt{0.965}\approx0.982$.
+  :::
+
+## Limits of regression
+
+[[P10·b369]]
+- **Extrapolation:** predicting far outside the range of the $x$-values used to build the line is unreliable.
+- **Association is not causation:** an observational data set can show a strong correlation because of a **lurking variable** that affects both $x$ and $y$. Only a well-designed experiment can show cause and effect.
+- **Linear form:** $r$ and the least-squares line describe only linear patterns; always look at the scatterplot and the residual plot.
+
+:::warning Common traps
+[[P11·e4a1]]
+- **"Predicted":** slope and intercept statements must say "predicted" or "on average".
+- **Residual sign:** actual minus predicted, never the other way round.
+- **$r$ versus $r^2$:** the sign of $r$ is the sign of the slope; $r^2$ is never negative.
+- **Context:** name both variables and their units in every interpretation.
+- **Removed topics:** inference for the slope and transformations are no longer tested.
+:::
+
+  :::terms
+  - explanatory / response variable | biến giải thích / biến phản hồi
+  - scatterplot | biểu đồ phân tán
+  - correlation | hệ số tương quan
+  - least-squares regression line | đường hồi quy bình phương nhỏ nhất
+  - predicted value | giá trị dự đoán
+  - residual / residual plot | phần dư / biểu đồ phần dư
+  - coefficient of determination | hệ số xác định
+  - extrapolation | ngoại suy
+  - lurking variable | biến ẩn
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Applied exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-calculus – BẢN TIẾNG VIỆT ########
+---
+title: Giải tích: đạo hàm, tích phân, động học
+description: IB Math AA chủ đề 5: đạo hàm, tiếp tuyến và pháp tuyến, điểm dừng, tối ưu, tích phân, diện tích và động học, theo kiểu câu hỏi Paper 1 và Paper 2.
+minutes: 50
+---
+
+  :::goals
+  - Lấy đạo hàm bằng quy tắc hàm hợp, quy tắc tích và quy tắc thương.
+  - Viết phương trình tiếp tuyến và pháp tuyến.
+  - Tìm và phân loại điểm dừng, giải bài toán tối ưu.
+  - Tìm nguyên hàm các hàm cơ bản, tính tích phân xác định và diện tích.
+  - Giải bài toán động học: độ dời, vận tốc, gia tốc và quãng đường.
+  :::
+
+[[P1·13a0]]
+Giải tích chiếm nhiều điểm nhất trong IB Math AA, và thường là nội dung của các câu dài ở Section B. Một câu điển hình bắt đầu bằng một hàm số, hỏi đạo hàm và điểm dừng, rồi đến một diện tích hay thể tích, và thường kết thúc bằng một bối cảnh như chuyển động hay tối ưu. Các quy tắc có trong sổ công thức; điểm số đến từ biến đổi đại số chính xác ở Paper 1 và thiết lập rõ ràng ở Paper 2.
+
+## Các quy tắc tính đạo hàm
+
+  $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
+[[P2·282d]]
+Đạo hàm cơ bản: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+
+  :::example Quy tắc thương
+  Cho $g(x)=\dfrac{\ln x}{x}$, $x>0$.
+  (a) Chứng minh $g'(x)=\dfrac{1-\ln x}{x^2}$. [3 marks]
+  (b) Từ đó tìm toạ độ điểm cực đại của $g$. [3 marks]
+
+  **Lời giải.** (a) $g'(x)=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+
+  (b) $g'(x)=0$ khi $\ln x=1$, tức $x=e$, và $g(e)=\dfrac1e$. Điểm cực đại là $\left(e,\dfrac1e\right)$; $g'$ đổi dấu từ dương sang âm tại $x=e$.
+  :::
+
+## Tiếp tuyến và pháp tuyến
+
+[[P3·f3d8]]
+Tại $x=a$, tiếp tuyến có hệ số góc $f'(a)$, còn **pháp tuyến (normal)** vuông góc với nó, có hệ số góc $-\dfrac{1}{f'(a)}$. Cả hai đi qua $\big(a,f(a)\big)$.
+
+  :::example Tiếp tuyến và pháp tuyến
+  Viết phương trình tiếp tuyến và pháp tuyến của $y=x^3-2x$ tại $x=1$. [5 marks]
+
+  **Lời giải.** Tại $x=1$: $y=-1$ và $\dfrac{dy}{dx}=3x^2-2=1$.
+
+  Tiếp tuyến: $y+1=1(x-1)$, tức $y=x-2$. Pháp tuyến: hệ số góc $-1$, nên $y+1=-(x-1)$, tức $y=-x$.
+  :::
+
+## Điểm dừng và bài toán tối ưu
+
+[[P4·77dd]]
+Điểm dừng (stationary point) thoả mãn $f'(x)=0$. Phân loại bằng dấu của $f'$ ở hai bên, hoặc bằng đạo hàm cấp hai: $f''(a)>0$ cho cực tiểu, $f''(a)<0$ cho cực đại. **Điểm uốn (point of inflection)** là nơi tính lồi lõm thay đổi, tức nơi $f''$ đổi dấu.
+
+  :::example Điểm dừng của hàm bậc ba
+  Cho $f(x)=x^3-3x^2-9x+2$. Tìm toạ độ các điểm dừng và xác định tính chất của chúng. [6 marks]
+
+  **Lời giải.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)=0$ tại $x=-1$ và $x=3$. $f''(x)=6x-6$.
+
+  $f''(-1)=-12<0$: cực đại tại $(-1,7)$. $f''(3)=12>0$: cực tiểu tại $(3,-25)$.
+  :::
+
+  :::example Chiếc hộp không nắp
+  Cắt bốn hình vuông cạnh $x$ cm ở bốn góc một tấm bìa $12$ cm × $12$ cm, rồi gấp lên thành một chiếc hộp không nắp.
+  (a) Chứng minh thể tích hộp là $V=x(12-2x)^2$. [2 marks]
+  (b) Tìm $x$ để $V$ lớn nhất, và tính thể tích lớn nhất. [5 marks]
+
+  **Lời giải.** (a) Đáy là hình vuông cạnh $(12-2x)$ và chiều cao là $x$.
+
+  (b) $V'=(12-2x)^2+x\cdot2(12-2x)(-2)=(12-2x)(12-6x)$. Trên miền $0<x<6$, $V'=0$ tại $x=2$. $V'$ đổi dấu từ dương sang âm tại đó, nên thể tích lớn nhất là $V(2)=2\cdot8^2=128$ cm³.
+  :::
+
+## Tích phân và diện tích
+
+  $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
+  $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
+[[P5·d5cd]]
+Diện tích giữa đường cong và trục $x$ là $\displaystyle\int_a^b|y|\,dx$; giữa hai đường cong, lấy tích phân của (trên $-$ dưới).
+
+  :::example Diện tích dưới parabol
+  Tính diện tích miền giới hạn bởi $y=4x-x^2$ và trục $x$. [4 marks]
+
+  **Lời giải.** Đường cong cắt trục tại $x=0$ và $x=4$.
+  $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
+  :::
+
+## Động học
+
+[[P6·0b95]]
+Với một hạt chuyển động thẳng: $v=\dfrac{ds}{dt}$ và $a=\dfrac{dv}{dt}$. Độ dời từ $t_1$ đến $t_2$ là $\displaystyle\int_{t_1}^{t_2}v\,dt$, còn **quãng đường (distance traveled)** là $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; ở Paper 2, GDC tính trực tiếp tích phân của $|v|$.
+
+  :::example Độ dời và quãng đường
+  Một hạt chuyển động với vận tốc $v(t)=6t-3t^2$ m s⁻¹, $0\le t\le3$.
+  (a) Tính gia tốc tại $t=1$. [2 marks]
+  (b) Tính độ dời từ $t=0$ đến $t=3$. [2 marks]
+  (c) Tính quãng đường đi được từ $t=0$ đến $t=3$. [3 marks]
+
+  **Lời giải.** (a) $a(t)=6-6t$, nên $a(1)=0$ m s⁻².
+
+  (b) $\displaystyle\int_0^3\left(6t-3t^2\right)dt=\left[3t^2-t^3\right]_0^3=27-27=0$ m: hạt trở về đúng chỗ xuất phát.
+
+  (c) $v$ đổi dấu tại $t=2$. $\displaystyle\int_0^2v\,dt=12-8=4$ và $\displaystyle\int_2^3v\,dt=0-4=-4$, nên quãng đường là $4+4=8$ m.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·5f59]]
+- **Quên quy tắc hàm hợp**, ví dụ $\dfrac{d}{dx}e^{3x}=3e^{3x}$.
+- **Hệ số góc pháp tuyến.** Là $-\dfrac{1}{m}$, không phải $-m$ hay $\dfrac1m$.
+- **Quên miền xác định** trong bài toán tối ưu: loại các nghiệm như $x=6$ cho hộp có thể tích $0$.
+- **Diện tích âm.** Tích phân âm ở chỗ đường cong nằm dưới trục; hãy tách tích phân khi tính diện tích hay quãng đường.
+- **Không giải thích tính chất** của điểm dừng khi đề yêu cầu "determine" hay "justify".
+- **Chế độ radian** trên GDC khi làm giải tích với hàm lượng giác.
+:::
+
+  :::terms
+  - chain rule, product rule, quotient rule | quy tắc hàm hợp, quy tắc tích, quy tắc thương
+  - gradient, tangent, normal | hệ số góc, tiếp tuyến, pháp tuyến
+  - stationary point, point of inflection | điểm dừng, điểm uốn
+  - second derivative test | dấu hiệu đạo hàm cấp hai
+  - optimization | bài toán tối ưu
+  - definite integral, area | tích phân xác định, diện tích
+  - displacement, velocity, acceleration | độ dời, vận tốc, gia tốc
+  - distance traveled | quãng đường đi được
+  :::
+
+## Bài tập tương tự
+
+:::exercise Quy tắc thương
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tiếp tuyến của hàm logarit
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Điểm dừng không phải cực trị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một tích phân xác định
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Từ gia tốc đến vận tốc
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Rào vườn sát tường
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Lon ít tốn vật liệu nhất
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Giữa sin và cos
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Động học ở Paper 2
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-calculus – BẢN TIẾNG ANH ########
+---
+title: Calculus: differentiation, integration, kinematics
+description: IB Maths AA topic 5: derivatives, tangents and normals, stationary points, optimization, integration, area and kinematics, in Paper 1 and Paper 2 style.
+minutes: 50
+---
+
+  :::goals
+  - Differentiate with the chain, product and quotient rules.
+  - Find equations of tangents and normals.
+  - Find and classify stationary points, and solve optimization problems.
+  - Integrate standard functions, evaluate definite integrals and find areas.
+  - Solve kinematics problems: displacement, velocity, acceleration and distance.
+  :::
+
+[[P1·1dac]]
+Calculus carries the largest share of marks in IB Maths AA, and it is the usual subject of the long Section B questions. A typical question starts with a function, asks for its derivative and stationary points, then an area or a volume, and often ends with a context such as motion or optimization. The rules are in the formula booklet; what earns marks is accurate algebra on Paper 1 and clearly stated setups on Paper 2.
+
+## Differentiation rules
+
+  $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
+[[P2·05fc]]
+Standard derivatives: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+
+  :::example Quotient rule
+  Let $g(x)=\dfrac{\ln x}{x}$, $x>0$.
+  (a) Show that $g'(x)=\dfrac{1-\ln x}{x^2}$. [3 marks]
+  (b) Hence find the coordinates of the maximum point of $g$. [3 marks]
+
+  **Solution.** (a) $g'(x)=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+
+  (b) $g'(x)=0$ when $\ln x=1$, so $x=e$, and $g(e)=\dfrac1e$. The maximum point is $\left(e,\dfrac1e\right)$; $g'$ changes from positive to negative at $x=e$.
+  :::
+
+## Tangents and normals
+
+[[P3·cff5]]
+At $x=a$, the tangent has gradient $f'(a)$, and the **normal** is perpendicular to it, with gradient $-\dfrac{1}{f'(a)}$. Both pass through $\big(a,f(a)\big)$.
+
+  :::example Tangent and normal
+  Find the equations of the tangent and the normal to $y=x^3-2x$ at $x=1$. [5 marks]
+
+  **Solution.** At $x=1$: $y=-1$ and $\dfrac{dy}{dx}=3x^2-2=1$.
+
+  Tangent: $y+1=1(x-1)$, so $y=x-2$. Normal: gradient $-1$, so $y+1=-(x-1)$, that is $y=-x$.
+  :::
+
+## Stationary points and optimization
+
+[[P4·78ac]]
+Stationary points satisfy $f'(x)=0$. Classify them with the sign of $f'$ on each side, or with the second derivative: $f''(a)>0$ gives a minimum, $f''(a)<0$ a maximum. A **point of inflection** is where the concavity changes, that is where $f''$ changes sign.
+
+  :::example Stationary points of a cubic
+  Let $f(x)=x^3-3x^2-9x+2$. Find the coordinates of the stationary points and determine their nature. [6 marks]
+
+  **Solution.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)=0$ at $x=-1$ and $x=3$. $f''(x)=6x-6$.
+
+  $f''(-1)=-12<0$: maximum at $(-1,7)$. $f''(3)=12>0$: minimum at $(3,-25)$.
+  :::
+
+  :::example An open box
+  Squares of side $x$ cm are cut from the corners of a $12$ cm by $12$ cm sheet, and the sides are folded up to make an open box.
+  (a) Show that the volume is $V=x(12-2x)^2$. [2 marks]
+  (b) Find the value of $x$ that maximizes $V$, and the maximum volume. [5 marks]
+
+  **Solution.** (a) The base is $(12-2x)$ by $(12-2x)$ and the height is $x$.
+
+  (b) $V'=(12-2x)^2+x\cdot2(12-2x)(-2)=(12-2x)(12-6x)$. In the domain $0<x<6$, $V'=0$ at $x=2$. $V'$ changes from positive to negative there, so the maximum volume is $V(2)=2\cdot8^2=128$ cm³.
+  :::
+
+## Integration and area
+
+  $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
+  $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
+[[P5·3020]]
+The area between a curve and the $x$-axis is $\displaystyle\int_a^b|y|\,dx$; between two curves, integrate (top $-$ bottom).
+
+  :::example Area under a parabola
+  Find the area enclosed by $y=4x-x^2$ and the $x$-axis. [4 marks]
+
+  **Solution.** The curve meets the axis at $x=0$ and $x=4$.
+  $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
+  :::
+
+## Kinematics
+
+[[P6·ab1f]]
+For a particle moving in a straight line: $v=\dfrac{ds}{dt}$ and $a=\dfrac{dv}{dt}$. The displacement from $t_1$ to $t_2$ is $\displaystyle\int_{t_1}^{t_2}v\,dt$, and the **distance traveled** is $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; on Paper 2, the GDC evaluates the integral of $|v|$ directly.
+
+  :::example Displacement and distance
+  A particle moves with velocity $v(t)=6t-3t^2$ m s⁻¹ for $0\le t\le3$.
+  (a) Find the acceleration at $t=1$. [2 marks]
+  (b) Find the displacement from $t=0$ to $t=3$. [2 marks]
+  (c) Find the distance traveled from $t=0$ to $t=3$. [3 marks]
+
+  **Solution.** (a) $a(t)=6-6t$, so $a(1)=0$ m s⁻².
+
+  (b) $\displaystyle\int_0^3\left(6t-3t^2\right)dt=\left[3t^2-t^3\right]_0^3=27-27=0$ m: the particle ends where it started.
+
+  (c) $v$ changes sign at $t=2$. $\displaystyle\int_0^2v\,dt=12-8=4$ and $\displaystyle\int_2^3v\,dt=0-4=-4$, so the distance is $4+4=8$ m.
+  :::
+
+:::warning Common traps
+[[P7·2a97]]
+- **Missing the chain rule**, for example $\dfrac{d}{dx}e^{3x}=3e^{3x}$.
+- **Normal gradient.** It is $-\dfrac{1}{m}$, not $-m$ or $\dfrac1m$.
+- **Forgetting the domain** in optimization: discard solutions such as $x=6$ that give a box of volume $0$.
+- **Negative area.** An integral is negative where the curve is below the axis; split the integral for area or distance.
+- **Not justifying the nature** of a stationary point when the question asks you to "determine" or "justify".
+- **Radian mode** on the GDC for trigonometric calculus.
+:::
+
+  :::terms
+  - chain rule, product rule, quotient rule | quy tắc hàm hợp, quy tắc tích, quy tắc thương
+  - gradient, tangent, normal | hệ số góc, tiếp tuyến, pháp tuyến
+  - stationary point, point of inflection | điểm dừng, điểm uốn
+  - second derivative test | dấu hiệu đạo hàm cấp hai
+  - optimization | bài toán tối ưu
+  - definite integral, area | tích phân xác định, diện tích
+  - displacement, velocity, acceleration | độ dời, vận tốc, gia tốc
+  - distance traveled | quãng đường đi được
+  :::
+
+## Similar exercises
+
+:::exercise Quotient rule
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tangent to a logarithm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A stationary point that is not an extremum
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A definite integral
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise From acceleration to velocity
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A field against a wall
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A can with least material
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Between sine and cosine
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Paper 2 kinematics
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-functions – BẢN TIẾNG VIỆT ########
+---
+title: Hàm số: đồ thị, phép biến đổi, hàm ngược
+description: IB Math AA chủ đề 2: tập xác định và tập giá trị, hàm hợp và hàm ngược, biến đổi đồ thị, hàm bậc hai, hàm phân thức và giải phương trình bằng GDC.
+minutes: 45
+---
+
+  :::goals
+  - Nêu tập xác định và tập giá trị của hàm số, và thu hẹp tập xác định để hàm ngược tồn tại.
+  - Lập hàm hợp và tìm hàm ngược bằng đại số.
+  - Mô tả và thực hiện các phép biến đổi đồ thị.
+  - Khảo sát hàm bậc hai bằng dạng đỉnh và biệt thức.
+  - Tìm tiệm cận và giao điểm với các trục của hàm phân thức $y=\dfrac{ax+b}{cx+d}$.
+  - Giải phương trình bằng đồ thị trên GDC và ghi đáp số đúng cách.
+  :::
+
+[[P1·ac91]]
+Chủ đề 2 là ngôn ngữ của cả chương trình. Một câu giải tích ở Section B gần như luôn mở đầu bằng một hàm số: bạn được hỏi tập xác định, một giao điểm, một tiệm cận hay hàm ngược trước khi đến phần đạo hàm. Những ý đầu này là điểm dễ, và chủ yếu bị mất vì kí hiệu cẩu thả hoặc quên điều kiện.
+
+## Tập xác định, tập giá trị, hàm hợp và hàm ngược
+
+[[P2·4cba]]
+**Tập xác định (domain)** là tập các giá trị đầu vào; **tập giá trị (range)** là tập các giá trị đầu ra. Hai điều kiện xuất hiện liên tục: không chia cho không, và (với hàm thực) không lấy căn bậc hai của số âm hay logarit của số không dương.
+
+[[P3·a8c0]]
+**Hàm hợp (composite)** $(f\circ g)(x)=f\big(g(x)\big)$ thực hiện $g$ trước. **Hàm ngược (inverse)** $f^{-1}$ đảo ngược tác dụng của $f$: để tìm nó, viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi rút $y$. Hàm ngược chỉ tồn tại khi $f$ là đơn ánh; đồ thị của $f^{-1}$ đối xứng với đồ thị của $f$ qua đường thẳng $y=x$, và tập xác định với tập giá trị đổi chỗ cho nhau.
+
+  :::example Hàm hợp và hàm ngược
+  Cho $f(x)=2x-3$ và $g(x)=x^2+1$.
+
+  (a) Tính $(f\circ g)(2)$. [2 marks]
+  (b) Tìm $(g\circ f)(x)$. [2 marks]
+  (c) Tìm $f^{-1}(x)$. [2 marks]
+
+  **Lời giải.** (a) $g(2)=5$, nên $(f\circ g)(2)=f(5)=7$.
+
+  (b) $(g\circ f)(x)=(2x-3)^2+1$, có thể để nguyên dạng này trừ khi đề yêu cầu khai triển.
+
+  (c) $y=2x-3$; đổi chỗ: $x=2y-3$, nên $f^{-1}(x)=\dfrac{x+3}{2}$.
+  :::
+
+  :::example Thu hẹp tập xác định
+  Cho $h(x)=(x-1)^2$ với $x\ge1$.
+
+  (a) Viết tập giá trị của $h$. [1 mark]
+  (b) Tìm $h^{-1}(x)$ và nêu tập xác định của nó. [3 marks]
+
+  **Lời giải.** (a) $h(x)\ge0$.
+
+  (b) $y=(x-1)^2$; đổi chỗ: $x=(y-1)^2$, nên $y-1=\pm\sqrt x$. Vì tập giá trị của $h^{-1}$ là tập xác định của $h$ nên $y\ge1$, do đó lấy căn dương: $h^{-1}(x)=1+\sqrt x$, với tập xác định $x\ge0$.
+  :::
+
+## Biến đổi đồ thị
+
+| Phương trình | Phép biến đổi đồ thị $y=f(x)$ |
+|---|---|
+| $y=f(x)+b$ | tịnh tiến lên trên $b$ đơn vị |
+| $y=f(x-a)$ | tịnh tiến sang phải $a$ đơn vị |
+| $y=pf(x)$ | co giãn theo phương thẳng đứng với hệ số $p$ |
+| $y=f(qx)$ | co giãn theo phương ngang với hệ số $\dfrac1q$ |
+| $y=-f(x)$ | đối xứng qua trục $x$ |
+| $y=f(-x)$ | đối xứng qua trục $y$ |
+
+[[P4·c929]]
+Thay đổi bên trong ngoặc tác động lên $x$ và làm điều "ngược" với vẻ bề ngoài: $f(x-3)$ dời đồ thị sang phải, còn $f(2x)$ ép đồ thị theo phương ngang.
+
+  :::example Theo dấu một điểm
+  Điểm $(4,-2)$ nằm trên đồ thị $y=f(x)$. Tìm toạ độ điểm tương ứng trên đồ thị $y=2f(x-3)+1$. [3 marks]
+
+  **Lời giải.** $x-3=4$ cho $x=7$. Giá trị $y$ mới là $2(-2)+1=-3$. Điểm cần tìm là $(7,-3)$. Với giá trị $y$, thứ tự quan trọng: co giãn trước, tịnh tiến sau.
+  :::
+
+## Hàm bậc hai
+
+[[P5·7349]]
+Hàm bậc hai có ba dạng viết: $f(x)=ax^2+bx+c$ (giao với trục $y$ tại $c$), $f(x)=a(x-h)^2+k$ (đỉnh $(h,k)$, trục đối xứng $x=h$) và $f(x)=a(x-p)(x-q)$ (giao với trục $x$ tại $p$ và $q$). **Biệt thức (discriminant)** $\Delta=b^2-4ac$ quyết định số nghiệm thực: hai nghiệm nếu $\Delta>0$, một nghiệm kép nếu $\Delta=0$, vô nghiệm nếu $\Delta<0$.
+
+  :::example Dạng đỉnh và biệt thức
+  (a) Viết $f(x)=2x^2-8x+5$ dưới dạng $a(x-h)^2+k$ và viết toạ độ đỉnh. [3 marks]
+  (b) Tìm các giá trị của $k$ để $x^2+kx+9=0$ có nghiệm kép. [3 marks]
+
+  **Lời giải.** (a) $2\left(x^2-4x\right)+5=2(x-2)^2-8+5=2(x-2)^2-3$. Đỉnh là $(2,-3)$.
+
+  (b) $\Delta=k^2-36=0$, nên $k=\pm6$.
+  :::
+
+## Hàm phân thức
+
+[[P6·bfe1]]
+Với $f(x)=\dfrac{ax+b}{cx+d}$, $c\ne0$: **tiệm cận đứng** là nơi mẫu bằng không, $x=-\dfrac dc$, và **tiệm cận ngang** là $y=\dfrac ac$, giá trị mà hàm số tiến tới khi $x\to\pm\infty$.
+
+:::graph Đồ thị $y=\dfrac{2x+1}{x-3}$ cùng các tiệm cận
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tiệm cận, giao điểm và hàm ngược
+  Cho $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
+
+  (a) Viết phương trình các tiệm cận. [2 marks]
+  (b) Tìm giao điểm với các trục toạ độ. [2 marks]
+  (c) Tìm $f^{-1}(x)$. [3 marks]
+
+  **Lời giải.** (a) $x=3$ và $y=2$.
+
+  (b) Giao với trục $x$: $2x+1=0$, nên $\left(-\dfrac12,0\right)$. Giao với trục $y$: $f(0)=-\dfrac13$, nên $\left(0,-\dfrac13\right)$.
+
+  (c) $x=\dfrac{2y+1}{y-3}$, nên $xy-3x=2y+1$, $y(x-2)=3x+1$ và $f^{-1}(x)=\dfrac{3x+1}{x-2}$, $x\ne2$. Các tiệm cận của $f^{-1}$ là $x=2$ và $y=3$: hai tiệm cận đổi chỗ, đúng như phép đối xứng qua $y=x$ dự báo.
+  :::
+
+## Giải phương trình bằng GDC (Paper 2)
+
+[[P7·3789]]
+Nhiều phương trình ở Paper 2 không giải được bằng đại số. Hãy vẽ đồ thị hai vế, tìm giao điểm, rồi ghi đáp số lấy ba chữ số có nghĩa. Ghi rõ phương trình bạn đã giải, để nếu đáp số cuối sai vẫn còn điểm phương pháp.
+
+  :::example Hai giao điểm
+  Giải $e^x=4-x^2$. [3 marks]
+
+  **Lời giải.** Vẽ $y=e^x$ và $y=4-x^2$ được hai giao điểm: $x\approx-1{,}96$ và $x\approx1{,}06$. Lỗi hay gặp là chỉ ghi nghiệm hiện ra trong khung nhìn mặc định; hãy thu nhỏ để chắc chắn không còn nghiệm khác.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·a828]]
+- **Thứ tự của hàm hợp:** $(f\circ g)(x)$ nghĩa là làm $g$ trước.
+- **$f^{-1}(x)$ không phải là $\dfrac{1}{f(x)}$.**
+- **Quên tập xác định** của hàm ngược, hoặc quên dấu $\pm$ mà điều kiện tập xác định loại bớt.
+- **Biến đổi bên trong ngoặc:** $f(x+2)$ dời đồ thị sang trái, không phải sang phải.
+- **Ghi tiệm cận bằng một con số.** Hãy viết phương trình: "$x=3$", không phải "$3$".
+- **Bỏ sót nghiệm trên GDC** nằm ngoài khung nhìn.
+:::
+
+  :::terms
+  - domain, range | tập xác định, tập giá trị
+  - composite function | hàm hợp
+  - inverse function, one-to-one | hàm ngược, đơn ánh
+  - translation, stretch, reflection | phép tịnh tiến, phép co giãn, phép đối xứng
+  - vertex, axis of symmetry | đỉnh, trục đối xứng
+  - discriminant | biệt thức
+  - rational function | hàm phân thức
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  :::
+
+## Bài tập tương tự
+
+:::exercise Tập xác định và tập giá trị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phương trình với hàm hợp
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hàm ngược của hàm mũ
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Biến đổi một parabol
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Bất phương trình với biệt thức
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Quả bóng bay lên
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Cốc nước nguội dần
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hàm tự ngược
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-functions – BẢN TIẾNG ANH ########
+---
+title: Functions: graphs, transformations, inverses
+description: IB Maths AA topic 2: domain and range, composite and inverse functions, transformations, quadratics, rational functions and solving equations with a GDC.
+minutes: 45
+---
+
+  :::goals
+  - State the domain and range of a function, and restrict a domain so that an inverse exists.
+  - Form composite functions and find inverse functions algebraically.
+  - Describe and apply transformations of graphs.
+  - Analyze quadratic functions with the vertex form and the discriminant.
+  - Find the asymptotes and intercepts of rational functions $y=\dfrac{ax+b}{cx+d}$.
+  - Solve equations graphically on a GDC and write the answer correctly.
+  :::
+
+[[P1·4e68]]
+Topic 2 is the language of the whole course. A calculus question in Section B nearly always opens with a function: you are asked for its domain, an intercept, an asymptote or an inverse before the derivatives begin. These first parts are worth easy marks, and they are lost mostly through careless notation and forgotten restrictions.
+
+## Domain, range, composite and inverse functions
+
+[[P2·33c5]]
+The **domain** is the set of inputs; the **range** is the set of outputs. Two restrictions come up again and again: no division by zero, and (for real functions) no square root of a negative number or logarithm of a non-positive number.
+
+[[P3·3134]]
+The **composite** $(f\circ g)(x)=f\big(g(x)\big)$ applies $g$ first. The **inverse** $f^{-1}$ undoes $f$: to find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. An inverse exists only if $f$ is one-to-one; the graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y=x$, and the domain and range swap.
+
+  :::example Composite and inverse
+  Let $f(x)=2x-3$ and $g(x)=x^2+1$.
+
+  (a) Find $(f\circ g)(2)$. [2 marks]
+  (b) Find $(g\circ f)(x)$. [2 marks]
+  (c) Find $f^{-1}(x)$. [2 marks]
+
+  **Solution.** (a) $g(2)=5$, so $(f\circ g)(2)=f(5)=7$.
+
+  (b) $(g\circ f)(x)=(2x-3)^2+1$, which can be left in this form unless the question asks to expand.
+
+  (c) $y=2x-3$; swap: $x=2y-3$, so $f^{-1}(x)=\dfrac{x+3}{2}$.
+  :::
+
+  :::example Restricting the domain
+  Let $h(x)=(x-1)^2$ for $x\ge1$.
+
+  (a) Write down the range of $h$. [1 mark]
+  (b) Find $h^{-1}(x)$ and state its domain. [3 marks]
+
+  **Solution.** (a) $h(x)\ge0$.
+
+  (b) $y=(x-1)^2$; swap: $x=(y-1)^2$, so $y-1=\pm\sqrt x$. Since the range of $h^{-1}$ is the domain of $h$, $y\ge1$, so we take the positive root: $h^{-1}(x)=1+\sqrt x$, with domain $x\ge0$.
+  :::
+
+## Transformations
+
+| Equation | Transformation of $y=f(x)$ |
+|---|---|
+| $y=f(x)+b$ | translation by $b$ units up |
+| $y=f(x-a)$ | translation by $a$ units right |
+| $y=pf(x)$ | vertical stretch with scale factor $p$ |
+| $y=f(qx)$ | horizontal stretch with scale factor $\dfrac1q$ |
+| $y=-f(x)$ | reflection in the $x$-axis |
+| $y=f(-x)$ | reflection in the $y$-axis |
+
+[[P4·5462]]
+Changes inside the bracket act on $x$ and do the "opposite" of what they look like: $f(x-3)$ moves the graph right, and $f(2x)$ squeezes it horizontally.
+
+  :::example Following a point
+  The point $(4,-2)$ lies on the graph of $y=f(x)$. Find the coordinates of the corresponding point on the graph of $y=2f(x-3)+1$. [3 marks]
+
+  **Solution.** $x-3=4$ gives $x=7$. The new $y$-value is $2(-2)+1=-3$. The point is $(7,-3)$. Order matters for the $y$-value: stretch first, then translate.
+  :::
+
+## Quadratic functions
+
+[[P5·6e6d]]
+A quadratic can be written in three forms: $f(x)=ax^2+bx+c$ (the $y$-intercept is $c$), $f(x)=a(x-h)^2+k$ (vertex $(h,k)$, axis of symmetry $x=h$) and $f(x)=a(x-p)(x-q)$ ($x$-intercepts $p$ and $q$). The **discriminant** $\Delta=b^2-4ac$ decides the number of real roots: two if $\Delta>0$, one (repeated) if $\Delta=0$, none if $\Delta<0$.
+
+  :::example Vertex form and the discriminant
+  (a) Write $f(x)=2x^2-8x+5$ in the form $a(x-h)^2+k$, and write down the vertex. [3 marks]
+  (b) Find the values of $k$ for which $x^2+kx+9=0$ has two equal roots. [3 marks]
+
+  **Solution.** (a) $2\left(x^2-4x\right)+5=2(x-2)^2-8+5=2(x-2)^2-3$. The vertex is $(2,-3)$.
+
+  (b) $\Delta=k^2-36=0$, so $k=\pm6$.
+  :::
+
+## Rational functions
+
+[[P6·100d]]
+For $f(x)=\dfrac{ax+b}{cx+d}$ with $c\ne0$: the **vertical asymptote** is where the denominator is zero, $x=-\dfrac dc$, and the **horizontal asymptote** is $y=\dfrac ac$, the value the function approaches as $x\to\pm\infty$.
+
+:::graph The graph of $y=\dfrac{2x+1}{x-3}$ with its asymptotes
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Asymptotes, intercepts and inverse
+  Let $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
+
+  (a) Write down the equations of the asymptotes. [2 marks]
+  (b) Find the intercepts with the axes. [2 marks]
+  (c) Find $f^{-1}(x)$. [3 marks]
+
+  **Solution.** (a) $x=3$ and $y=2$.
+
+  (b) $x$-intercept: $2x+1=0$, so $\left(-\dfrac12,0\right)$. $y$-intercept: $f(0)=-\dfrac13$, so $\left(0,-\dfrac13\right)$.
+
+  (c) $x=\dfrac{2y+1}{y-3}$, so $xy-3x=2y+1$, $y(x-2)=3x+1$ and $f^{-1}(x)=\dfrac{3x+1}{x-2}$, $x\ne2$. The asymptotes of $f^{-1}$ are $x=2$ and $y=3$: the asymptotes swap, as the reflection in $y=x$ predicts.
+  :::
+
+## Solving equations with a GDC (Paper 2)
+
+[[P7·c7ad]]
+Many Paper 2 equations cannot be solved algebraically. Graph both sides and find the intersections, then write the answers to three significant figures. Write which equation you solved, so that a wrong final answer can still earn the method mark.
+
+  :::example Two intersections
+  Solve $e^x=4-x^2$. [3 marks]
+
+  **Solution.** Graphing $y=e^x$ and $y=4-x^2$ gives two intersections: $x\approx-1.96$ and $x\approx1.06$. A common mistake is to report only the solution that appears in the default viewing window; zoom out to check that there are no others.
+  :::
+
+:::warning Common traps
+[[P8·8448]]
+- **The order of composition:** $(f\circ g)(x)$ means $g$ first.
+- **$f^{-1}(x)$ is not $\dfrac{1}{f(x)}$.**
+- **Forgetting the domain** of an inverse, or the $\pm$ that a restricted domain removes.
+- **Transformations inside the bracket:** $f(x+2)$ moves the graph left, not right.
+- **Asymptotes written as numbers.** Write equations: "$x=3$", not "$3$".
+- **Missing GDC solutions** outside the viewing window.
+:::
+
+  :::terms
+  - domain, range | tập xác định, tập giá trị
+  - composite function | hàm hợp
+  - inverse function, one-to-one | hàm ngược, đơn ánh
+  - translation, stretch, reflection | phép tịnh tiến, phép co giãn, phép đối xứng
+  - vertex, axis of symmetry | đỉnh, trục đối xứng
+  - discriminant | biệt thức
+  - rational function | hàm phân thức
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  :::
+
+## Similar exercises
+
+:::exercise Domain and range
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Composite equation
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Inverse of an exponential
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Transformations of a parabola
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Discriminant inequality
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A ball in flight
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A cooling drink
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A self-inverse function
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

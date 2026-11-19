@@ -1,0 +1,1920 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-GV-2   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-GV-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Nguyenchanh2358-GV-2
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/volume-of-a-cuboid, g7/intro-to-probability, g7/medians-angle-bisectors, g8/linear-functions-graphs
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Nguyenchanh2358-GV-2-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Nguyenchanh2358-GV-2-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Nguyenchanh2358-GV-2-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g5/volume-of-a-cuboid – BẢN TIẾNG VIỆT ########
+---
+title: Thể tích của hình hộp chữ nhật
+description: Em học cách tính thể tích hình hộp chữ nhật bằng công thức chiều dài × chiều rộng × chiều cao, và đổi về cùng đơn vị đo trước khi tính.
+minutes: 15
+---
+
+  :::goals
+  - Biết cách tính thể tích hình hộp chữ nhật: $V=a\times b\times c$.
+  - Đổi các kích thước về cùng một đơn vị đo rồi mới tính.
+  - Giải bài toán có lời văn về thể tích, và tìm một kích thước khi biết thể tích.
+  :::
+
+[[P1·3dcc]]
+Mai có một chiếc hộp hình hộp chữ nhật dài $4$ cm, rộng $3$ cm, cao $2$ cm. Mai muốn xếp đầy hộp bằng các khối lập phương nhỏ, mỗi khối có cạnh $1$ cm. Hỏi Mai cần bao nhiêu khối?
+
+[[P2·14e4]]
+Em có thể xếp thử rồi đếm từng khối. Nhưng với chiếc hộp to hơn thì cách đó rất lâu. Bài này giúp em tính nhanh.
+
+## Cùng khám phá
+
+[[P3·ede5]]
+Mỗi khối nhỏ cạnh $1$ cm có thể tích $1$ cm³. Vậy số khối xếp đầy hộp chính là thể tích của hộp, tính bằng cm³.
+
+[[P4·1afe]]
+Mai xếp từng lớp một:
+
+[[P5·bf12]]
+- Lớp dưới cùng có $4$ khối theo chiều dài và $3$ hàng theo chiều rộng. Lớp này có $4\times3=12$ khối.
+- Hộp cao $2$ cm nên xếp được $2$ lớp như vậy.
+- Số khối là $12\times2=24$.
+
+[[P6·50b8]]
+Vậy hộp có thể tích $24$ cm³. Em thấy không: $24=4\times3\times2$, đúng bằng ba kích thước của hộp nhân với nhau.
+
+:::diagram Hộp dài 4 cm, rộng 3 cm, cao 2 cm
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Thể tích hình hộp chữ nhật
+  Hình hộp chữ nhật có chiều dài $a$, chiều rộng $b$, chiều cao $c$ (cùng một đơn vị đo) thì có thể tích
+  $$V=a\times b\times c.$$
+  Nếu $a$, $b$, $c$ tính bằng cm thì $V$ tính bằng cm³. Tương tự với dm và m.
+  :::
+
+[[P7·90f6]]
+Công thức này đúng vì lớp dưới cùng có $a\times b$ khối, tức là diện tích đáy. Hộp có $c$ lớp, nên số khối là $a\times b\times c$. Vì thế em cũng có thể nhớ: thể tích bằng diện tích đáy nhân chiều cao.
+
+## Ví dụ
+
+[[P8·77a2]]
+Ta bắt đầu với một hình hộp cho sẵn ba kích thước cùng đơn vị.
+
+  :::example Tính thể tích hình hộp chữ nhật dài $6$ cm, rộng $4$ cm, cao $5$ cm
+  **Lời giải.** Ba kích thước cùng đơn vị cm, nên em nhân ba số với nhau:
+  $$V=6\times4\times5=120\ (\text{cm}^3).$$
+  Vậy thể tích hình hộp là $120$ cm³.
+  :::
+
+[[P9·032e]]
+Bây giờ em dùng công thức cho một vật trong cuộc sống.
+
+  :::example Thể tích lớp học
+  Một phòng học hình hộp chữ nhật dài $8$ m, rộng $6$ m, cao $3$ m. Hỏi thể tích không khí trong phòng là bao nhiêu mét khối?
+
+  **Lời giải.** Căn phòng là hình hộp chữ nhật, các kích thước cùng đơn vị m, nên em dùng công thức $V=a\times b\times c$:
+  $$V=8\times6\times3=144\ (\text{m}^3).$$
+  Vậy thể tích không khí trong phòng là $144$ m³.
+  :::
+
+[[P10·affe]]
+Đôi khi các kích thước cho bằng đơn vị khác nhau. Khi đó em đổi về cùng một đơn vị trước.
+
+  :::example Hộp có hai đơn vị
+  Một hộp hình hộp chữ nhật dài $2$ dm, rộng $15$ cm, cao $10$ cm. Tính thể tích hộp theo cm³.
+
+  **Lời giải.** Hộp có kích thước cho bằng dm và cm, nên em đổi chiều dài sang cm: $2$ dm $=20$ cm. Rồi tính:
+  $$V=20\times15\times10=3000\ (\text{cm}^3).$$
+  Vậy thể tích hộp là $3000$ cm³.
+  :::
+
+[[P11·a5a5]]
+Cuối cùng, ta đi ngược lại: biết thể tích, tìm một kích thước.
+
+  :::example Tìm chiều cao
+  Một hình hộp chữ nhật có thể tích $90$ cm³, chiều dài $6$ cm, chiều rộng $5$ cm. Tính chiều cao.
+
+  **Lời giải.** Thể tích bằng diện tích đáy nhân chiều cao, nên chiều cao bằng thể tích chia cho diện tích đáy. Diện tích đáy là:
+  $$6\times5=30\ (\text{cm}^2).$$
+  Chiều cao là:
+  $$90:30=3\ (\text{cm}).$$
+  **Kiểm tra.** $6\times5\times3=90$. Đúng.
+
+  Vậy chiều cao hình hộp là $3$ cm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·83e6]]
+- **Cộng thay vì nhân.** Sai: $4+3+2=9$. Vì sao sai: thể tích là số khối trong các lớp, nên phải nhân. Đúng: $4\times3\times2=24$.
+- **Không đổi về cùng đơn vị.** Sai: dài $2$ dm, rộng $15$ cm, cao $10$ cm, rồi tính $2\times15\times10=300$. Vì sao sai: $2$ dm và $15$ cm không cùng đơn vị. Đúng: $20\times15\times10=3000$ (cm³).
+- **Nhầm cm² với cm³.** Sai: "Thể tích là $24$ cm²". Vì sao sai: thể tích đếm các khối nên dùng đơn vị khối. Đúng: "$24$ cm³".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hình hộp chữ nhật | cuboid
+  - thể tích | volume
+  - chiều dài | length
+  - chiều rộng | width
+  - chiều cao | height
+  - diện tích đáy | base area
+  - đơn vị đo | unit of measurement
+  - xăng-ti-mét khối | cubic centimetre
+  - đề-xi-mét khối | cubic decimetre
+  - mét khối | cubic metre
+  :::
+
+## Tóm tắt
+
+[[P13·24b6]]
+- Thể tích hình hộp chữ nhật: $V=a\times b\times c$ (dài × rộng × cao).
+- Ba kích thước phải cùng đơn vị. Nếu khác đơn vị, em đổi trước khi tính.
+- Đơn vị thể tích là cm³, dm³, m³.
+- Thể tích bằng diện tích đáy nhân chiều cao, nên chiều cao bằng thể tích chia cho diện tích đáy.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g5/volume-of-a-cuboid – BẢN TIẾNG ANH ########
+---
+title: Volume of a cuboid
+description: Learn to find the volume of a cuboid with length × width × height, and to change all lengths to the same unit before you calculate.
+minutes: 15
+---
+
+  :::goals
+  - Know how to find the volume of a cuboid: $V=a\times b\times c$.
+  - Change the lengths to the same unit before you calculate.
+  - Solve word problems about volume, and find a missing length when you know the volume.
+  :::
+
+[[P1·a7f7]]
+Mai has a box in the shape of a cuboid. It is $4$ cm long, $3$ cm wide and $2$ cm high. Mai wants to fill it with small cubes, each with edges of $1$ cm. How many cubes does she need?
+
+[[P2·01b3]]
+You could pack the cubes and count them one by one. But with a bigger box that takes a very long time. This lesson shows you a quick way.
+
+## Let's explore
+
+[[P3·d053]]
+Each small cube with edges of $1$ cm has a volume of $1$ cm³. So the number of cubes that fill the box is the volume of the box, in cm³.
+
+[[P4·f2fa]]
+Mai packs the box layer by layer:
+
+[[P5·197c]]
+- The bottom layer has $4$ cubes along the length and $3$ rows along the width. This layer has $4\times3=12$ cubes.
+- The box is $2$ cm high, so there are $2$ layers like this.
+- The number of cubes is $12\times2=24$.
+
+[[P6·dc78]]
+So the box has a volume of $24$ cm³. You see: $24=4\times3\times2$, which is the three measurements of the box multiplied together.
+
+:::diagram A box 4 cm long, 3 cm wide and 2 cm high
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Volume of a cuboid
+  A cuboid with length $a$, width $b$ and height $c$ (all in the same unit) has volume
+  $$V=a\times b\times c.$$
+  If $a$, $b$ and $c$ are in cm, then $V$ is in cm³. It is the same with dm and m.
+  :::
+
+[[P7·b3a6]]
+The rule works because the bottom layer has $a\times b$ cubes, which is the base area. The box has $c$ layers, so the number of cubes is $a\times b\times c$. So you can also remember: volume is base area times height.
+
+## Examples
+
+[[P8·6daa]]
+We start with a cuboid whose three measurements are in the same unit.
+
+  :::example Find the volume of a cuboid $6$ cm long, $4$ cm wide and $5$ cm high
+  **Solution.** All three measurements are in cm, so multiply the three numbers:
+  $$V=6\times4\times5=120\ (\text{cm}^3).$$
+  So the volume of the cuboid is $120$ cm³.
+  :::
+
+[[P9·227a]]
+Now use the rule on an object from everyday life.
+
+  :::example Volume of a classroom
+  A classroom is a cuboid $8$ m long, $6$ m wide and $3$ m high. What is the volume of the air in the room, in cubic metres?
+
+  **Solution.** The room is a cuboid and all measurements are in m, so use $V=a\times b\times c$:
+  $$V=8\times6\times3=144\ (\text{m}^3).$$
+  So the volume of air in the room is $144$ m³.
+  :::
+
+[[P10·9bab]]
+Sometimes the measurements are in different units. Then you change them to the same unit first.
+
+  :::example A box with two units
+  A cuboid-shaped box is $2$ dm long, $15$ cm wide and $10$ cm high. Find its volume in cm³.
+
+  **Solution.** The measurements are in dm and cm, so change the length to cm: $2$ dm $=20$ cm. Then calculate:
+  $$V=20\times15\times10=3000\ (\text{cm}^3).$$
+  So the volume of the box is $3000$ cm³.
+  :::
+
+[[P11·a503]]
+Finally, we go the other way: we know the volume and look for a missing measurement.
+
+  :::example Find the height
+  A cuboid has volume $90$ cm³, length $6$ cm and width $5$ cm. Find its height.
+
+  **Solution.** Volume is base area times height, so the height is the volume divided by the base area. The base area is:
+  $$6\times5=30\ (\text{cm}^2).$$
+  The height is:
+  $$90\div30=3\ (\text{cm}).$$
+  **Check.** $6\times5\times3=90$. Correct.
+
+  So the height of the cuboid is $3$ cm.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·c76a]]
+- **Adding instead of multiplying.** Wrong: $4+3+2=9$. Why it is wrong: volume counts the cubes in the layers, so you must multiply. Right: $4\times3\times2=24$.
+- **Not changing to the same unit.** Wrong: length $2$ dm, width $15$ cm, height $10$ cm, then $2\times15\times10=300$. Why it is wrong: $2$ dm and $15$ cm are not in the same unit. Right: $20\times15\times10=3000$ (cm³).
+- **Mixing up cm² and cm³.** Wrong: "The volume is $24$ cm²". Why it is wrong: volume counts cubes, so the unit is a cubic unit. Right: "$24$ cm³".
+:::
+
+## Key terms
+
+  :::terms
+  - cuboid | hình hộp chữ nhật
+  - volume | thể tích
+  - length | chiều dài
+  - width | chiều rộng
+  - height | chiều cao
+  - base area | diện tích đáy
+  - unit of measurement | đơn vị đo
+  - cubic centimetre | xăng-ti-mét khối
+  - cubic decimetre | đề-xi-mét khối
+  - cubic metre | mét khối
+  :::
+
+## Summary
+
+[[P13·d616]]
+- Volume of a cuboid: $V=a\times b\times c$ (length × width × height).
+- The three measurements must be in the same unit. If they are not, change them before you calculate.
+- Units of volume are cm³, dm³, m³.
+- Volume is base area times height, so height is volume divided by base area.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/intro-to-probability – BẢN TIẾNG VIỆT ########
+---
+title: Làm quen với xác suất của biến cố
+description: Bạn tính xác suất của một biến cố khi các kết quả có khả năng như nhau, bằng tỉ số giữa số kết quả thuận lợi và số kết quả có thể.
+minutes: 20
+---
+
+  :::goals
+  - Xác định các kết quả có thể và các kết quả thuận lợi của một biến cố trong một phép thử.
+  - Tính xác suất của biến cố bằng công thức $P=\dfrac{k}{n}$ khi các kết quả có khả năng như nhau.
+  - Biết xác suất luôn nằm trong đoạn từ $0$ đến $1$: biến cố không thể có xác suất $0$, biến cố chắc chắn có xác suất $1$.
+  - Giải các bài toán thực tế đơn giản về xác suất.
+  :::
+
+[[P1·8d63]]
+Một hộp có $12$ viên bi cùng kích thước: $5$ viên đỏ, $4$ viên xanh và $3$ viên vàng. Minh nhắm mắt lấy ra một viên bi. Khả năng lấy được viên bi đỏ nhiều hay ít?
+
+[[P2·4b9b]]
+Ta có thể nói "nhiều" hay "ít", nhưng như vậy chưa rõ ràng. Bài này giúp bạn đo khả năng đó bằng một con số. Con số ấy gọi là xác suất.
+
+## Cùng khám phá
+
+[[P3·d096]]
+Ta bắt đầu với phép thử đơn giản nhất: tung một đồng xu cân đối. Có hai kết quả có thể: mặt sấp (S) hoặc mặt ngửa (N). Đồng xu cân đối nên hai kết quả này có khả năng như nhau.
+
+[[P4·ecfd]]
+Xét biến cố $A$: "Mặt sấp xuất hiện". Chỉ có $1$ kết quả làm cho $A$ xảy ra, trong tổng số $2$ kết quả. Ta nói khả năng của $A$ là $1$ trên $2$, tức là $\dfrac12$.
+
+[[P5·239b]]
+Bây giờ ta gieo một con xúc xắc cân đối. Có $6$ kết quả có thể: $1, 2, 3, 4, 5, 6$ chấm, và chúng có khả năng như nhau. Xét biến cố $B$: "Số chấm là số chẵn". Các kết quả làm cho $B$ xảy ra là $2, 4, 6$: có $3$ kết quả.
+
+[[P6·450b]]
+Ta ghi lại cả hai trường hợp trong một bảng:
+
+| Phép thử | Số kết quả có thể | Biến cố | Số kết quả thuận lợi | Khả năng |
+|---|---|---|---|---|
+| Tung đồng xu | $2$ | Mặt sấp | $1$ | $\dfrac12$ |
+| Gieo xúc xắc | $6$ | Số chấm chẵn | $3$ | $\dfrac36=\dfrac12$ |
+| Gieo xúc xắc | $6$ | Mặt $6$ chấm | $1$ | $\dfrac16$ |
+
+[[P7·eb8f]]
+Ở cả ba dòng, khả năng bằng số kết quả thuận lợi chia cho số kết quả có thể. Các kết quả có khả năng như nhau, nên mỗi kết quả chiếm đúng một phần như nhau trong tổng. Có $k$ kết quả thuận lợi thì chiếm $k$ phần trong $n$ phần.
+
+  :::definition Xác suất của biến cố
+  Giả sử một phép thử có $n$ kết quả có thể, các kết quả này có khả năng như nhau. Nếu có $k$ kết quả thuận lợi cho biến cố $A$ thì **xác suất của biến cố $A$** là
+  $$P(A)=\dfrac{k}{n}.$$
+  :::
+
+[[P8·a873]]
+Trong đó "kết quả thuận lợi cho $A$" là kết quả làm cho $A$ xảy ra. Quay lại bài toán đầu: hộp có $12$ viên bi, trong đó $5$ viên đỏ. Mỗi viên bi có khả năng được lấy như nhau, nên xác suất lấy được bi đỏ là $\dfrac{5}{12}$.
+
+## Xác suất luôn từ 0 đến 1
+
+[[P9·9226]]
+Số kết quả thuận lợi $k$ không thể âm và không thể lớn hơn tổng số kết quả $n$. Do đó $0\le k\le n$. Chia cả ba vế cho $n$ (số dương), ta được $0\le\dfrac{k}{n}\le1$.
+
+[[P10·4fdb]]
+Hai trường hợp đặc biệt cần nhớ:
+
+[[P11·4325]]
+- Nếu $k=0$ thì $P(A)=0$: không kết quả nào làm $A$ xảy ra, đó là biến cố không thể.
+- Nếu $k=n$ thì $P(A)=1$: mọi kết quả đều làm $A$ xảy ra, đó là biến cố chắc chắn.
+
+  :::theorem Giá trị của xác suất
+  Với mọi biến cố $A$ ta có $0\le P(A)\le1$. Biến cố không thể có xác suất bằng $0$. Biến cố chắc chắn có xác suất bằng $1$.
+  :::
+
+:::graph Mọi xác suất đều nằm trên đoạn từ 0 đến 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·eb0c]]
+Xác suất càng gần $1$ thì biến cố càng dễ xảy ra. Xác suất càng gần $0$ thì biến cố càng khó xảy ra.
+
+## Ví dụ
+
+[[P13·fd7e]]
+Ta bắt đầu với bài toán lấy bi ở đầu bài.
+
+  :::example Lấy bi trong hộp
+  Một hộp có $12$ viên bi cùng kích thước: $5$ bi đỏ, $4$ bi xanh, $3$ bi vàng. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $A$: "Lấy được bi đỏ" và biến cố $B$: "Lấy được bi xanh".
+
+  **Lời giải.** Các viên bi cùng kích thước nên $12$ kết quả có thể có khả năng như nhau. Ta đếm kết quả thuận lợi của từng biến cố rồi lập tỉ số $\dfrac{k}{n}$ với $n=12$:
+
+  $$P(A)=\dfrac{5}{12},\qquad P(B)=\dfrac{4}{12}=\dfrac13.$$
+
+  Ở biến cố $B$ ta rút gọn bằng cách chia cả tử và mẫu cho $4$. Vậy xác suất lấy được bi đỏ là $\dfrac{5}{12}$, xác suất lấy được bi xanh là $\dfrac13$.
+
+  **Kiểm tra.** Ba màu có $5+4+3=12$ viên, đúng bằng tổng số bi.
+  :::
+
+[[P14·a489]]
+Với xúc xắc, trước hết ta phải liệt kê đúng các kết quả thuận lợi.
+
+  :::example Gieo xúc xắc
+  Gieo một con xúc xắc cân đối. Tính xác suất của biến cố $C$: "Số chấm xuất hiện là số nguyên tố".
+
+  **Lời giải.** Phép thử có $n=6$ kết quả có khả năng như nhau. Trong các số $1, 2, 3, 4, 5, 6$, các số nguyên tố là $2, 3, 5$ (số $1$ không phải số nguyên tố). Vậy $k=3$:
+
+  $$P(C)=\dfrac{3}{6}=\dfrac12.$$
+
+  Vậy xác suất để số chấm là số nguyên tố bằng $\dfrac12$.
+  :::
+
+[[P15·5f2f]]
+Khi có nhiều kết quả hơn, ta cần đếm cẩn thận.
+
+  :::example Rút thẻ
+  Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất của biến cố $D$: "Thẻ rút được ghi số chia hết cho $4$".
+
+  **Lời giải.** Có $n=20$ kết quả có khả năng như nhau. Các số chia hết cho $4$ trong khoảng từ $1$ đến $20$ là $4, 8, 12, 16, 20$, tức là $k=5$:
+
+  $$P(D)=\dfrac{5}{20}=\dfrac14.$$
+
+  Vậy xác suất rút được thẻ ghi số chia hết cho $4$ là $\dfrac14$.
+
+  **Kiểm tra.** Cứ $4$ số liên tiếp thì có một số chia hết cho $4$, nên tỉ lệ $\dfrac14$ là hợp lí.
+  :::
+
+[[P16·c3ea]]
+Có khi biến cố được mô tả bằng cách "không phải", và ta vẫn đếm từng kết quả.
+
+  :::example Vòng quay may mắn
+  Một vòng quay được chia thành $8$ phần bằng nhau: $3$ phần đỏ, $2$ phần xanh, $2$ phần vàng, $1$ phần trắng. Quay vòng quay một lần, mũi tên dừng ở một phần. Tính xác suất của biến cố $E$: "Mũi tên dừng ở phần đỏ" và biến cố $G$: "Mũi tên không dừng ở phần đỏ".
+
+  **Lời giải.** Các phần bằng nhau nên $n=8$ kết quả có khả năng như nhau. Với $E$ có $k=3$ phần đỏ. Với $G$, số phần không đỏ là $2+2+1=5$:
+
+  $$P(E)=\dfrac{3}{8},\qquad P(G)=\dfrac{5}{8}.$$
+
+  Vậy xác suất dừng ở phần đỏ là $\dfrac38$, xác suất không dừng ở phần đỏ là $\dfrac58$.
+
+  **Kiểm tra.** Hai xác suất cộng lại bằng $\dfrac38+\dfrac58=1$, vì mũi tên hoặc dừng ở phần đỏ, hoặc không.
+  :::
+
+[[P17·6205]]
+Bây giờ ta xem hai trường hợp đặc biệt: xác suất bằng $0$ và bằng $1$.
+
+  :::example Biến cố không thể và biến cố chắc chắn
+  Một hộp có $4$ bi xanh và $3$ bi đỏ. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $H$: "Lấy được bi vàng" và biến cố $K$: "Lấy được bi xanh hoặc bi đỏ".
+
+  **Lời giải.** Hộp có $n=4+3=7$ viên bi, mỗi viên có khả năng được lấy như nhau. Trong hộp không có bi vàng, nên $H$ có $k=0$. Mọi viên bi trong hộp đều xanh hoặc đỏ, nên $K$ có $k=7$:
+
+  $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
+
+  Vậy $H$ là biến cố không thể ($P=0$) và $K$ là biến cố chắc chắn ($P=1$).
+  :::
+
+[[P18·9ee9]]
+Ở ví dụ cuối, ta phải tự đếm số kết quả có thể.
+
+  :::example Số có hai chữ số
+  Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Tính xác suất của biến cố $L$: "Số được chọn chia hết cho $10$".
+
+  **Lời giải.** Các số có hai chữ số là $10, 11, \dots, 99$. Số các số này là $99-10+1=90$, nên $n=90$. Các số chia hết cho $10$ là $10, 20, 30, 40, 50, 60, 70, 80, 90$, tức là $k=9$:
+
+  $$P(L)=\dfrac{9}{90}=\dfrac{1}{10}.$$
+
+  Vậy xác suất chọn được số chia hết cho $10$ là $\dfrac{1}{10}$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·993d]]
+- **Viết ngược tỉ số.** Sai: $P(\text{bi đỏ})=\dfrac{12}{5}$. Lí do sai: xác suất không thể lớn hơn $1$. Đúng: $\dfrac{5}{12}$, tức là số kết quả thuận lợi chia cho số kết quả có thể.
+- **Đếm nhầm kết quả thuận lợi.** Sai: số nguyên tố khi gieo xúc xắc là $1, 2, 3, 5$, nên $P=\dfrac46$. Lí do sai: $1$ không phải số nguyên tố. Đúng: $2, 3, 5$, nên $P=\dfrac36=\dfrac12$.
+- **Coi mọi màu có khả năng như nhau.** Sai: hộp có $3$ màu nên xác suất mỗi màu là $\dfrac13$. Lí do sai: các màu có số bi khác nhau. Đúng: coi mỗi viên bi là một kết quả, rồi đếm số bi của màu đó.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép thử | experiment
+  - kết quả có thể | possible outcome
+  - kết quả thuận lợi | favourable outcome
+  - biến cố | event
+  - biến cố chắc chắn | certain event
+  - biến cố không thể | impossible event
+  - xác suất | probability
+  - khả năng như nhau | equally likely
+  - xúc xắc cân đối | fair die
+  - đồng xu cân đối | fair coin
+  :::
+
+## Tóm tắt
+
+[[P20·c095]]
+- Nếu phép thử có $n$ kết quả có khả năng như nhau, trong đó $k$ kết quả thuận lợi cho biến cố $A$, thì $P(A)=\dfrac{k}{n}$.
+- Cách làm: đếm $n$, đếm $k$, rồi lập tỉ số và rút gọn.
+- Luôn có $0\le P(A)\le1$. Biến cố không thể có $P=0$, biến cố chắc chắn có $P=1$.
+- Muốn dùng công thức, các kết quả phải có khả năng như nhau. Trong bài toán chọn bi, ta coi mỗi viên bi là một kết quả.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/intro-to-probability – BẢN TIẾNG ANH ########
+---
+title: Getting to know the probability of an event
+description: Find the probability of an event when the outcomes are equally likely, as the ratio of favourable outcomes to possible outcomes.
+minutes: 20
+---
+
+  :::goals
+  - Identify the possible outcomes and the favourable outcomes of an event in an experiment.
+  - Find the probability of an event with the formula $P=\dfrac{k}{n}$ when the outcomes are equally likely.
+  - Know that a probability always lies between $0$ and $1$: an impossible event has probability $0$ and a certain event has probability $1$.
+  - Solve simple real-life problems about probability.
+  :::
+
+[[P1·828c]]
+A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. Minh closes his eyes and takes out one marble. Is he likely or unlikely to get a red marble?
+
+[[P2·e133]]
+We could say "quite likely" or "not very likely", but that is not precise. This lesson helps you measure that chance with a number. That number is called the probability.
+
+## Let's explore
+
+[[P3·476f]]
+We start with the simplest experiment: tossing a fair coin. There are two possible outcomes: heads (H) or tails (T). The coin is fair, so these two outcomes are equally likely.
+
+[[P4·acf1]]
+Consider the event $A$: "The coin lands heads". Only $1$ outcome makes $A$ happen, out of $2$ outcomes in total. We say the chance of $A$ is $1$ out of $2$, that is $\dfrac12$.
+
+[[P5·7983]]
+Now roll a fair die. There are $6$ possible outcomes: $1, 2, 3, 4, 5, 6$ dots, and they are equally likely. Consider the event $B$: "The score is even". The outcomes that make $B$ happen are $2, 4, 6$: there are $3$ of them.
+
+[[P6·e005]]
+We record these cases in a table:
+
+| Experiment | Number of possible outcomes | Event | Number of favourable outcomes | Chance |
+|---|---|---|---|---|
+| Toss a coin | $2$ | Heads | $1$ | $\dfrac12$ |
+| Roll a die | $6$ | Even score | $3$ | $\dfrac36=\dfrac12$ |
+| Roll a die | $6$ | A score of $6$ | $1$ | $\dfrac16$ |
+
+[[P7·006e]]
+In all three rows, the chance equals the number of favourable outcomes divided by the number of possible outcomes. The outcomes are equally likely, so each one takes exactly the same share of the total. With $k$ favourable outcomes, the event takes $k$ shares out of $n$.
+
+  :::definition The probability of an event
+  Suppose an experiment has $n$ possible outcomes and these outcomes are equally likely. If $k$ of them are favourable to the event $A$, then the **probability of the event $A$** is
+  $$P(A)=\dfrac{k}{n}.$$
+  :::
+
+[[P8·ce33]]
+Here an "outcome favourable to $A$" is an outcome that makes $A$ happen. Back to the opening problem: the box has $12$ marbles, $5$ of them red. Each marble is equally likely to be taken, so the probability of getting a red marble is $\dfrac{5}{12}$.
+
+## A probability always lies between 0 and 1
+
+[[P9·a00e]]
+The number of favourable outcomes $k$ cannot be negative and cannot be greater than the total number of outcomes $n$. So $0\le k\le n$. Dividing all three parts by $n$ (a positive number) gives $0\le\dfrac{k}{n}\le1$.
+
+[[P10·d737]]
+Two special cases to remember:
+
+[[P11·7fb7]]
+- If $k=0$ then $P(A)=0$: no outcome makes $A$ happen, so $A$ is an impossible event.
+- If $k=n$ then $P(A)=1$: every outcome makes $A$ happen, so $A$ is a certain event.
+
+  :::theorem The value of a probability
+  For every event $A$, $0\le P(A)\le1$. An impossible event has probability $0$. A certain event has probability $1$.
+  :::
+
+:::graph Every probability lies on the segment from 0 to 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·eeef]]
+The closer a probability is to $1$, the more likely the event is. The closer it is to $0$, the less likely the event is.
+
+## Examples
+
+[[P13·3b12]]
+We start with the marble problem from the beginning of the lesson.
+
+  :::example Marbles in a box
+  A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. One marble is taken at random. Find the probability of the event $A$: "A red marble is taken" and of the event $B$: "A blue marble is taken".
+
+  **Solution.** The marbles are the same size, so the $12$ possible outcomes are equally likely. Count the favourable outcomes of each event and form the ratio $\dfrac{k}{n}$ with $n=12$:
+
+  $$P(A)=\dfrac{5}{12},\qquad P(B)=\dfrac{4}{12}=\dfrac13.$$
+
+  For $B$ we simplify by dividing the numerator and the denominator by $4$. So the probability of a red marble is $\dfrac{5}{12}$ and the probability of a blue marble is $\dfrac13$.
+
+  **Check.** The three colours have $5+4+3=12$ marbles, which is exactly the total.
+  :::
+
+[[P14·f19b]]
+With a die, you must first list the favourable outcomes correctly.
+
+  :::example Rolling a die
+  Roll a fair die. Find the probability of the event $C$: "The score is a prime number".
+
+  **Solution.** The experiment has $n=6$ equally likely outcomes. Among $1, 2, 3, 4, 5, 6$, the prime numbers are $2, 3, 5$ ($1$ is not a prime number). So $k=3$:
+
+  $$P(C)=\dfrac{3}{6}=\dfrac12.$$
+
+  So the probability that the score is a prime number is $\dfrac12$.
+  :::
+
+[[P15·4cbd]]
+With more outcomes, you need to count carefully.
+
+  :::example Drawing a card
+  A bag holds $20$ cards numbered from $1$ to $20$. One card is drawn at random. Find the probability of the event $D$: "The number on the card is divisible by $4$".
+
+  **Solution.** There are $n=20$ equally likely outcomes. The numbers from $1$ to $20$ that are divisible by $4$ are $4, 8, 12, 16, 20$, so $k=5$:
+
+  $$P(D)=\dfrac{5}{20}=\dfrac14.$$
+
+  So the probability of drawing a card with a number divisible by $4$ is $\dfrac14$.
+
+  **Check.** One in every $4$ consecutive numbers is divisible by $4$, so a ratio of $\dfrac14$ makes sense.
+  :::
+
+[[P16·e896]]
+Sometimes an event is described with "not", and we still count each outcome.
+
+  :::example A lucky spinner
+  A spinner is divided into $8$ equal parts: $3$ red, $2$ blue, $2$ yellow and $1$ white. The spinner is spun once and the arrow stops on one part. Find the probability of the event $E$: "The arrow stops on red" and of the event $G$: "The arrow does not stop on red".
+
+  **Solution.** The parts are equal, so there are $n=8$ equally likely outcomes. For $E$ there are $k=3$ red parts. For $G$, the number of parts that are not red is $2+2+1=5$:
+
+  $$P(E)=\dfrac{3}{8},\qquad P(G)=\dfrac{5}{8}.$$
+
+  So the probability of stopping on red is $\dfrac38$ and the probability of not stopping on red is $\dfrac58$.
+
+  **Check.** The two probabilities add up to $\dfrac38+\dfrac58=1$, because the arrow either stops on red or it does not.
+  :::
+
+[[P17·d375]]
+Now look at the two special cases: probability $0$ and probability $1$.
+
+  :::example An impossible event and a certain event
+  A box holds $4$ blue marbles and $3$ red marbles. One marble is taken at random. Find the probability of the event $H$: "A yellow marble is taken" and of the event $K$: "A blue or a red marble is taken".
+
+  **Solution.** The box has $n=4+3=7$ marbles, each equally likely to be taken. There are no yellow marbles, so $H$ has $k=0$. Every marble in the box is blue or red, so $K$ has $k=7$:
+
+  $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
+
+  So $H$ is an impossible event ($P=0$) and $K$ is a certain event ($P=1$).
+  :::
+
+[[P18·97c8]]
+In the last example, you have to count the possible outcomes yourself.
+
+  :::example Two-digit numbers
+  A two-digit natural number is chosen at random. Find the probability of the event $L$: "The chosen number is divisible by $10$".
+
+  **Solution.** The two-digit numbers are $10, 11, \dots, 99$. There are $99-10+1=90$ of them, so $n=90$. The numbers divisible by $10$ are $10, 20, 30, 40, 50, 60, 70, 80, 90$, so $k=9$:
+
+  $$P(L)=\dfrac{9}{90}=\dfrac{1}{10}.$$
+
+  So the probability of choosing a number divisible by $10$ is $\dfrac{1}{10}$.
+  :::
+
+:::warning Common mistakes
+[[P19·9d49]]
+- **Writing the ratio upside down.** Wrong: $P(\text{red})=\dfrac{12}{5}$. Why it is wrong: a probability cannot be greater than $1$. Right: $\dfrac{5}{12}$, the number of favourable outcomes divided by the number of possible outcomes.
+- **Miscounting the favourable outcomes.** Wrong: the prime scores on a die are $1, 2, 3, 5$, so $P=\dfrac46$. Why it is wrong: $1$ is not a prime number. Right: $2, 3, 5$, so $P=\dfrac36=\dfrac12$.
+- **Treating every colour as equally likely.** Wrong: the box has $3$ colours, so each colour has probability $\dfrac13$. Why it is wrong: the colours have different numbers of marbles. Right: treat each marble as one outcome and count the marbles of that colour.
+:::
+
+## Key terms
+
+  :::terms
+  - experiment | phép thử
+  - possible outcome | kết quả có thể
+  - favourable outcome | kết quả thuận lợi
+  - event | biến cố
+  - certain event | biến cố chắc chắn
+  - impossible event | biến cố không thể
+  - probability | xác suất
+  - equally likely | khả năng như nhau
+  - fair die | xúc xắc cân đối
+  - fair coin | đồng xu cân đối
+  :::
+
+## Summary
+
+[[P20·9765]]
+- If an experiment has $n$ equally likely outcomes and $k$ of them are favourable to the event $A$, then $P(A)=\dfrac{k}{n}$.
+- Method: count $n$, count $k$, then form the ratio and simplify.
+- Always $0\le P(A)\le1$. An impossible event has $P=0$; a certain event has $P=1$.
+- To use the formula, the outcomes must be equally likely. When choosing marbles, treat each marble as one outcome.
+
+## Practice
+
+[[P21·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/medians-angle-bisectors – BẢN TIẾNG VIỆT ########
+---
+title: Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác
+description: Tìm hiểu trọng tâm của tam giác với tính chất AG = 2/3 AM, và điểm cắt nhau của ba đường phân giác, điểm cách đều ba cạnh của tam giác.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đường trung tuyến và đường phân giác của một tam giác.
+  - Biết ba đường trung tuyến cắt nhau tại trọng tâm và dùng được tính chất $AG=\dfrac23AM$.
+  - Biết ba đường phân giác cắt nhau tại một điểm cách đều ba cạnh.
+  - Giải bài toán tính độ dài và số đo góc có dùng các tính chất trên.
+  :::
+
+[[P1·ba5e]]
+Hoa cắt một tấm bìa hình tam giác và muốn đặt ngón tay đỡ đúng một điểm để tấm bìa nằm ngang, không bị nghiêng. Điểm đó nằm ở đâu trong tam giác?
+
+[[P2·188a]]
+Một câu hỏi khác: bác Nam muốn đặt một cột đèn trong khu đất hình tam giác sao cho cột đèn cách đều ba cạnh của khu đất. Cột đèn nên đặt ở đâu? Hai câu hỏi này có hai câu trả lời khác nhau, và ta sẽ tìm cả hai trong bài.
+
+## Đường trung tuyến và trọng tâm
+
+### Khám phá: ba đoạn thẳng cắt nhau tại một điểm
+
+[[P3·8d2a]]
+Ở bài trước, bạn đã biết tam giác có ba cạnh và mỗi cạnh có một trung điểm. Nối mỗi đỉnh với trung điểm của cạnh đối diện, ta được một đoạn thẳng gọi là **đường trung tuyến**.
+
+[[P4·f6cf]]
+Trên lưới ô vuông, tam giác $ABC$ có $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$. Ta vẽ ba trung tuyến $AM$, $BN$, $CP$.
+
+:::diagram Ba đường trung tuyến của tam giác $ABC$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·2cd3]]
+Ba trung tuyến cắt nhau tại cùng một điểm $G$. Ta đếm ô để so sánh các đoạn nằm trên cùng một trung tuyến:
+
+| Đoạn | Đi ngang | Đi lên hoặc xuống |
+|---|---|---|
+| $AG$ (từ $A$ đến $G$) | $4$ ô | $2$ ô |
+| $GM$ (từ $G$ đến $M$) | $2$ ô | $1$ ô |
+| $BG$ (từ $B$ đến $G$) | $5$ ô | $2$ ô |
+| $GN$ (từ $G$ đến $N$) | $2{,}5$ ô | $1$ ô |
+
+[[P6·60f7]]
+Đoạn $AG$ có số ô gấp đôi đoạn $GM$, nên $AG=2GM$. Đoạn $BG$ cũng có số ô gấp đôi đoạn $GN$, nên $BG=2GN$.
+
+  :::definition Đường trung tuyến và trọng tâm
+  **Đường trung tuyến** của tam giác là đoạn thẳng nối một đỉnh với trung điểm của cạnh đối diện.
+
+  Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là **trọng tâm** của tam giác.
+  :::
+
+  :::theorem Tính chất ba đường trung tuyến
+  Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM$. Khi đó
+  $$AG=\frac23AM,\qquad GM=\frac13AM,\qquad AG=2GM.$$
+  Tính chất tương tự đúng với hai trung tuyến còn lại.
+  :::
+
+[[P7·25dd]]
+Ta thừa nhận tính chất này. Ví dụ trên lưới cho thấy nó hợp lí: từ đỉnh đến $G$ dài gấp đôi từ $G$ đến trung điểm.
+
+[[P8·1c32]]
+Vậy trọng tâm là điểm mà Hoa cần tìm. Đặt ngón tay đúng chỗ $G$ thì tấm bìa nằm thăng bằng.
+
+## Đường phân giác và điểm cách đều ba cạnh
+
+[[P9·1e00]]
+Bạn đã biết tia phân giác của một góc chia góc đó thành hai góc bằng nhau. Trong tam giác $ABC$, tia phân giác của góc $A$ cắt cạnh $BC$ tại $D$, thì đoạn $AD$ gọi là **đường phân giác** xuất phát từ đỉnh $A$.
+
+[[P10·5a4c]]
+Một điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc. "Cách đều" nghĩa là hai khoảng cách bằng nhau, và khoảng cách từ một điểm đến một đường thẳng là độ dài đoạn vuông góc kẻ từ điểm đó đến đường thẳng.
+
+  :::theorem Tính chất ba đường phân giác
+  Ba đường phân giác của một tam giác cùng đi qua một điểm $I$. Điểm $I$ nằm trong tam giác và cách đều ba cạnh của tam giác.
+  :::
+
+[[P11·7c13]]
+Ta giải thích vì sao $I$ cách đều ba cạnh. Gọi $IP$, $IQ$, $IR$ là các khoảng cách từ $I$ đến $AB$, $AC$, $BC$. Vì $I$ nằm trên phân giác góc $A$ nên $IP=IQ$. Vì $I$ nằm trên phân giác góc $B$ nên $IP=IR$. Do đó $IP=IQ=IR$.
+
+:::diagram Ba đường phân giác của tam giác $ABC$ vuông tại $A$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·3d25]]
+Hình trên cho thấy ba đoạn vuông góc kẻ từ $I$ có cùng độ dài. Vậy cột đèn của bác Nam nên đặt tại $I$, giao điểm của ba đường phân giác.
+
+## Ví dụ
+
+[[P13·ecf6]]
+Ta bắt đầu với một phép tính độ dài đơn giản.
+
+  :::example Tính $AG$ và $GM$
+  Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=12$ cm. Tính $AG$ và $GM$.
+
+  **Lời giải.** Ta dùng $AG=\dfrac23AM$ và $GM=\dfrac13AM$:
+
+  $$AG=\frac23\cdot12=8\ \text{(cm)},\qquad GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Vậy $AG=8$ cm và $GM=4$ cm.
+
+  **Kiểm tra.** $AG+GM=8+4=12$ và $AG=2GM$.
+  :::
+
+[[P14·4e82]]
+Bây giờ đề bài cho đoạn ngắn và hỏi đoạn dài.
+
+  :::example Tính $BG$ và $BN$
+  Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $GN=5$ cm. Tính $BG$ và $BN$.
+
+  **Lời giải.** Ta có $BG=2GN$ vì $G$ là trọng tâm:
+
+  $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
+
+  Vậy $BG=10$ cm và $BN=15$ cm.
+  :::
+
+[[P15·fd88]]
+Ta dùng tính chất này để trả lời câu hỏi của Hoa.
+
+  :::example Chỗ đặt ngón tay
+  Tấm bìa của Hoa là tam giác cân $ABC$ với $AB=AC$ và đáy $BC=10$ cm. Gọi $M$ là trung điểm của $BC$; Hoa đo được trung tuyến $AM=12$ cm. Ngón tay phải đặt ở trọng tâm $G$. Hỏi điểm $G$ cách cạnh $BC$ bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** Ở bài tam giác cân, bạn đã biết trung tuyến $AM$ ứng với đáy cũng vuông góc với đáy, tức là $AM\perp BC$. Trọng tâm $G$ nằm trên $AM$ với $GM=\dfrac13AM$:
+
+  $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Vì $AM\perp BC$ nên $GM$ chính là khoảng cách từ $G$ đến $BC$. Vậy $G$ cách $BC$ là $4$ cm.
+  :::
+
+[[P16·75a9]]
+Chuyển sang đường phân giác, ta xét khoảng cách.
+
+  :::example Khoảng cách đến ba cạnh
+  Cho tam giác $ABC$. Ba đường phân giác cắt nhau tại $I$. Kẻ $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Biết $IH=3$ cm. Tính $IK$ và $IL$.
+
+  **Lời giải.** $I$ là giao điểm của ba đường phân giác nên $I$ cách đều ba cạnh:
+
+  $$IH=IK=IL=3\ \text{(cm)}.$$
+
+  Vậy $IK=3$ cm và $IL=3$ cm.
+  :::
+
+[[P17·1277]]
+Cuối cùng, ta tính một góc có liên quan đến điểm $I$.
+
+  :::example Tính góc $\widehat{BIC}$
+  Cho tam giác $ABC$ có $\widehat{A}=70^\circ$ và $\widehat{B}=50^\circ$. Hai đường phân giác của các góc $B$ và $C$ cắt nhau tại $I$. Tính $\widehat{BIC}$.
+
+  **Lời giải.** Trước hết tìm góc $C$ từ tổng ba góc của tam giác:
+
+  $$\widehat{C}=180^\circ-70^\circ-50^\circ=60^\circ.$$
+
+  $BI$ và $CI$ là phân giác nên mỗi góc ở $B$, $C$ bị chia đôi:
+
+  $$\widehat{IBC}=\frac{50^\circ}{2}=25^\circ,\qquad \widehat{ICB}=\frac{60^\circ}{2}=30^\circ.$$
+
+  Trong tam giác $IBC$, tổng ba góc bằng $180^\circ$:
+
+  $$\widehat{BIC}=180^\circ-25^\circ-30^\circ=125^\circ.$$
+
+  Vậy $\widehat{BIC}=125^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P18·23c8]]
+- **Nhầm tỉ lệ $\dfrac13$ và $\dfrac23$.** Sai: $G$ là trọng tâm, $AM=18$ cm nên $AG=\dfrac13\cdot18=6$ cm. Lí do sai: $AG$ là đoạn dài hơn, từ đỉnh đến $G$. Đúng: $AG=\dfrac23\cdot18=12$ cm và $GM=6$ cm.
+- **Nhầm trọng tâm với điểm cách đều ba cạnh.** Sai: "Trọng tâm cách đều ba cạnh của tam giác". Lí do sai: điểm cách đều ba cạnh là giao của ba đường phân giác. Đúng: trọng tâm là giao của ba đường trung tuyến.
+- **Chia đôi cạnh với chia đôi góc.** Sai: đường trung tuyến chia đôi góc ở đỉnh. Lí do sai: trung tuyến chia đôi cạnh đối diện. Đúng: đường phân giác mới chia đôi góc.
+- **Quên bước lấy $180^\circ$.** Sai: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Lí do sai: đó chỉ là tổng hai góc của tam giác $IBC$. Đúng: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đường trung tuyến | median
+  - trọng tâm | centroid
+  - trung điểm | midpoint
+  - đường phân giác | angle bisector
+  - đồng quy | concurrent (meeting at one point)
+  - cách đều | equidistant
+  - khoảng cách từ điểm đến đường thẳng | perpendicular distance from a point to a line
+  - tia phân giác | bisector (ray)
+  :::
+
+## Tóm tắt
+
+[[P19·9c5c]]
+- Đường trung tuyến nối đỉnh với trung điểm cạnh đối. Ba trung tuyến cắt nhau tại trọng tâm $G$.
+- Với trung tuyến $AM$: $AG=\dfrac23AM$, $GM=\dfrac13AM$, $AG=2GM$.
+- Ba đường phân giác cắt nhau tại $I$, điểm này cách đều ba cạnh của tam giác.
+- Điểm $I$ nằm trong tam giác và $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+- Trọng tâm cho thăng bằng; giao của ba phân giác cho khoảng cách bằng nhau đến ba cạnh.
+
+## Luyện tập
+
+[[P20·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/medians-angle-bisectors – BẢN TIẾNG ANH ########
+---
+title: Concurrency of the three medians and the three angle bisectors of a triangle
+description: Meet the centroid of a triangle with the property AG = 2/3 AM, and the meeting point of the three angle bisectors, the point equidistant from the three sides.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the medians and the angle bisectors of a triangle.
+  - Know that the three medians meet at the centroid and use the property $AG=\dfrac23AM$.
+  - Know that the three angle bisectors meet at a point that is equidistant from the three sides.
+  - Solve problems about lengths and angle sizes using these properties.
+  :::
+
+[[P1·9004]]
+Hoa cuts out a triangle of card and wants to hold it up on one fingertip so that it stays level without tipping. Where in the triangle is that point?
+
+[[P2·f68b]]
+Another question: Mr Nam wants to put a lamp post on a triangular plot of land so that the post is the same distance from all three sides of the plot. Where should the post go? These two questions have two different answers, and we will find both in this lesson.
+
+## Medians and the centroid
+
+### Explore: three segments that meet at one point
+
+[[P3·44aa]]
+You know from earlier lessons that a triangle has three sides and each side has a midpoint. Joining each vertex to the midpoint of the opposite side gives a segment called a **median**.
+
+[[P4·30c1]]
+On a square grid, triangle $ABC$ has $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$ respectively. We draw the three medians $AM$, $BN$, $CP$.
+
+:::diagram The three medians of triangle $ABC$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·555f]]
+The three medians meet at the same point $G$. We count squares to compare the parts of the same median:
+
+| Segment | Across | Up or down |
+|---|---|---|
+| $AG$ (from $A$ to $G$) | $4$ squares | $2$ squares |
+| $GM$ (from $G$ to $M$) | $2$ squares | $1$ square |
+| $BG$ (from $B$ to $G$) | $5$ squares | $2$ squares |
+| $GN$ (from $G$ to $N$) | $2.5$ squares | $1$ square |
+
+[[P6·010e]]
+The segment $AG$ covers twice as many squares as $GM$, so $AG=2GM$. The segment $BG$ also covers twice as many squares as $GN$, so $BG=2GN$.
+
+  :::definition Median and centroid
+  A **median** of a triangle is the segment joining a vertex to the midpoint of the opposite side.
+
+  The three medians of a triangle pass through one point. That point is called the **centroid** of the triangle.
+  :::
+
+  :::theorem Property of the three medians
+  Let triangle $ABC$ have centroid $G$ and median $AM$. Then
+  $$AG=\frac23AM,\qquad GM=\frac13AM,\qquad AG=2GM.$$
+  The same holds for the other two medians.
+  :::
+
+[[P7·ca7c]]
+We accept this property without proof. The grid example shows it is reasonable: the part from the vertex to $G$ is twice as long as the part from $G$ to the midpoint.
+
+[[P8·07fd]]
+So the centroid is the point Hoa is looking for. With her fingertip exactly at $G$, the card balances.
+
+## Angle bisectors and the point equidistant from the three sides
+
+[[P9·214f]]
+You know that the bisector of an angle splits the angle into two equal angles. In triangle $ABC$, if the bisector of angle $A$ meets side $BC$ at $D$, the segment $AD$ is called the **angle bisector** from vertex $A$.
+
+[[P10·84c6]]
+A point on the bisector of an angle is equidistant from the two arms of the angle. "Equidistant" means the two distances are equal, and the distance from a point to a line is the length of the perpendicular from the point to the line.
+
+  :::theorem Property of the three angle bisectors
+  The three angle bisectors of a triangle pass through one point $I$. The point $I$ lies inside the triangle and is equidistant from the three sides of the triangle.
+  :::
+
+[[P11·8343]]
+Here is why $I$ is equidistant from the three sides. Let $IP$, $IQ$, $IR$ be the distances from $I$ to $AB$, $AC$, $BC$. Since $I$ lies on the bisector of angle $A$, $IP=IQ$. Since $I$ lies on the bisector of angle $B$, $IP=IR$. Therefore $IP=IQ=IR$.
+
+:::diagram The three angle bisectors of triangle $ABC$ with a right angle at $A$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·96be]]
+The figure shows that the three perpendiculars from $I$ have the same length. So Mr Nam's lamp post should go at $I$, where the three angle bisectors meet.
+
+## Examples
+
+[[P13·2afa]]
+We start with a simple length calculation.
+
+  :::example Find $AG$ and $GM$
+  Triangle $ABC$ has centroid $G$ and median $AM=12$ cm. Find $AG$ and $GM$.
+
+  **Solution.** Use $AG=\dfrac23AM$ and $GM=\dfrac13AM$:
+
+  $$AG=\frac23\cdot12=8\ \text{(cm)},\qquad GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  So $AG=8$ cm and $GM=4$ cm.
+
+  **Check.** $AG+GM=8+4=12$ and $AG=2GM$.
+  :::
+
+[[P14·49c8]]
+Now the question gives the short part and asks for the long part.
+
+  :::example Find $BG$ and $BN$
+  Triangle $ABC$ has centroid $G$ and median $BN$. Given $GN=5$ cm, find $BG$ and $BN$.
+
+  **Solution.** Since $G$ is the centroid, $BG=2GN$:
+
+  $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
+
+  So $BG=10$ cm and $BN=15$ cm.
+  :::
+
+[[P15·895e]]
+We use this property to answer Hoa's question.
+
+  :::example Where to put the fingertip
+  Hoa's card is an isosceles triangle $ABC$ with $AB=AC$ and base $BC=10$ cm. Let $M$ be the midpoint of $BC$; Hoa measures the median $AM=12$ cm. Her fingertip must go at the centroid $G$. How many centimetres is $G$ from the side $BC$?
+
+  **Solution.** From the lesson on isosceles triangles, you know that the median to the base is also perpendicular to the base, that is $AM\perp BC$. The centroid $G$ lies on $AM$ with $GM=\dfrac13AM$:
+
+  $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Since $AM\perp BC$, $GM$ is the distance from $G$ to $BC$. So $G$ is $4$ cm from $BC$.
+  :::
+
+[[P16·94c3]]
+Turning to angle bisectors, we look at distances.
+
+  :::example Distances to the three sides
+  In triangle $ABC$, the three angle bisectors meet at $I$. Draw $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Given $IH=3$ cm, find $IK$ and $IL$.
+
+  **Solution.** $I$ is where the three angle bisectors meet, so $I$ is equidistant from the three sides:
+
+  $$IH=IK=IL=3\ \text{(cm)}.$$
+
+  So $IK=3$ cm and $IL=3$ cm.
+  :::
+
+[[P17·dd58]]
+Last, we find an angle at the point $I$.
+
+  :::example Find the angle $\widehat{BIC}$
+  Triangle $ABC$ has $\widehat{A}=70^\circ$ and $\widehat{B}=50^\circ$. The bisectors of angles $B$ and $C$ meet at $I$. Find $\widehat{BIC}$.
+
+  **Solution.** First find angle $C$ from the angle sum of the triangle:
+
+  $$\widehat{C}=180^\circ-70^\circ-50^\circ=60^\circ.$$
+
+  $BI$ and $CI$ are bisectors, so the angles at $B$ and $C$ are halved:
+
+  $$\widehat{IBC}=\frac{50^\circ}{2}=25^\circ,\qquad \widehat{ICB}=\frac{60^\circ}{2}=30^\circ.$$
+
+  In triangle $IBC$, the three angles add up to $180^\circ$:
+
+  $$\widehat{BIC}=180^\circ-25^\circ-30^\circ=125^\circ.$$
+
+  So $\widehat{BIC}=125^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P18·d131]]
+- **Mixing up $\dfrac13$ and $\dfrac23$.** Wrong: $G$ is the centroid and $AM=18$ cm, so $AG=\dfrac13\cdot18=6$ cm. Why it is wrong: $AG$ is the longer part, from the vertex to $G$. Right: $AG=\dfrac23\cdot18=12$ cm and $GM=6$ cm.
+- **Confusing the centroid with the point equidistant from the sides.** Wrong: "The centroid is equidistant from the three sides of the triangle". Why it is wrong: the point equidistant from the three sides is where the three angle bisectors meet. Right: the centroid is where the three medians meet.
+- **Halving a side versus halving an angle.** Wrong: a median halves the angle at the vertex. Why it is wrong: a median halves the opposite side. Right: it is the angle bisector that halves the angle.
+- **Forgetting to subtract from $180^\circ$.** Wrong: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Why it is wrong: that is only the sum of two angles of triangle $IBC$. Right: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+:::
+
+## Key terms
+
+  :::terms
+  - median | đường trung tuyến
+  - centroid | trọng tâm
+  - midpoint | trung điểm
+  - angle bisector | đường phân giác
+  - concurrent (meeting at one point) | đồng quy
+  - equidistant | cách đều
+  - perpendicular distance from a point to a line | khoảng cách từ điểm đến đường thẳng
+  - bisector (ray) | tia phân giác
+  :::
+
+## Summary
+
+[[P19·9378]]
+- A median joins a vertex to the midpoint of the opposite side. The three medians meet at the centroid $G$.
+- For the median $AM$: $AG=\dfrac23AM$, $GM=\dfrac13AM$, $AG=2GM$.
+- The three angle bisectors meet at $I$, a point equidistant from the three sides of the triangle.
+- The point $I$ lies inside the triangle and $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+- The centroid gives balance; the meeting point of the three bisectors gives equal distances to the three sides.
+
+## Practice
+
+[[P20·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g8/linear-functions-graphs – BẢN TIẾNG VIỆT ########
+---
+title: Hàm số bậc nhất và đồ thị của hàm số bậc nhất
+description: Nhận biết hàm số bậc nhất, tính giá trị, vẽ đồ thị bằng hai điểm và vận dụng vào tình huống thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết hàm số bậc nhất $y=ax+b$ với $a\ne0$ và xác định các hệ số $a$, $b$.
+  - Tính giá trị của hàm số và kiểm tra một điểm có thuộc đồ thị hay không.
+  - Vẽ đồ thị hàm số bậc nhất bằng hai điểm phân biệt.
+  - Dùng hàm số và đồ thị để giải một số bài toán thực tế.
+  :::
+
+[[P1·a349]]
+Cửa hàng xe đạp thu 20 nghìn đồng để mở khoá và 15 nghìn đồng mỗi giờ. Thuê $x$ giờ hết $y=15x+20$ nghìn đồng. Sau $3$ giờ, bạn trả bao nhiêu? Các điểm $(x; y)$ tạo thành hình gì?
+
+## Hàm số bậc nhất
+
+### Khám phá: chi phí thuê xe
+
+[[P2·4d0d]]
+Ta thay lần lượt vài giá trị của $x$ vào $y=15x+20$:
+
+| $x$ (giờ) | $0$ | $1$ | $2$ | $3$ |
+|---|---:|---:|---:|---:|
+| $y$ (nghìn đồng) | $20$ | $35$ | $50$ | $65$ |
+
+[[P3·4c94]]
+Mỗi giờ thêm làm chi phí tăng $15$ nghìn đồng. Số $20$ là chi phí ban đầu. Công thức có dạng $y=ax+b$ với $a=15$, $b=20$.
+
+  :::definition Hàm số bậc nhất
+  Hàm số bậc nhất là hàm số được cho bởi công thức
+  $$y=ax+b,$$
+  trong đó $a$, $b$ là các số đã cho và $a\ne0$.
+  :::
+
+[[P4·f2fe]]
+Nếu $a=0$ thì $y=b$ không đổi theo $x$: đây là hàm hằng, không phải hàm số bậc nhất. Số $b$ có thể bằng $0$; khi ấy $y=ax$.
+
+  :::example Nhận biết hàm số bậc nhất
+  Trong các hàm số sau, hàm số nào là hàm số bậc nhất? Hãy chỉ ra $a$ và $b$.
+
+  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
+
+  **Lời giải.** Ta so sánh với $y=ax+b$, $a\ne0$:
+
+  - a) $a=3$, $b=-5$: bậc nhất.
+  - b) $y=(-1)x+0$ có $a=-1$, $b=0$: bậc nhất.
+  - c) $y=0x+7$ có $a=0$: không bậc nhất.
+  - d) Có $x^2$: không có dạng $y=ax+b$.
+
+  Vậy các hàm số ở a) và b) là hàm số bậc nhất.
+  :::
+
+[[P5·57bb]]
+Khi đã có công thức, ta tính giá trị của hàm số bằng cách thay giá trị của $x$.
+
+  :::example Tính giá trị và kiểm tra điểm
+  Cho hàm số $y=-2x+7$.
+
+  a) Tính $y$ khi $x=3$ và khi $x=-1$.
+
+  b) Điểm $A(4; -1)$ và $B(2; 4)$ có thuộc đồ thị của hàm số không?
+
+  **Lời giải.** Ta thay hoành độ rồi so sánh với tung độ:
+
+  $$\begin{aligned}
+  x=3&\Rightarrow y=-2\cdot3+7=1;\\
+  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
+  \end{aligned}$$
+
+  Với $A$, $-2\cdot4+7=-1$, nên $A$ thuộc đồ thị. Với $B$, $-2\cdot2+7=3\ne4$, nên $B$ không thuộc đồ thị.
+  :::
+
+## Đồ thị của hàm số bậc nhất
+
+### Khám phá: các điểm có thẳng hàng không?
+
+[[P6·ef39]]
+Với $y=2x+1$, ta được $A(-1; -1)$, $B(0; 1)$, $C(1; 3)$, $D(2; 5)$. Cả bốn điểm nằm trên một đường thẳng.
+
+:::graph Các điểm thuộc đồ thị $y=2x+1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Đồ thị của hàm số bậc nhất
+  Đồ thị của hàm số bậc nhất $y=ax+b$ với $a\ne0$ là một đường thẳng. Đường thẳng đó được gọi là đường thẳng $y=ax+b$.
+
+  Muốn vẽ đồ thị, ta xác định hai điểm phân biệt thuộc đồ thị rồi vẽ đường thẳng đi qua hai điểm ấy.
+  :::
+
+[[P7·c337]]
+Đồ thị $y=ax$ là đường thẳng qua gốc toạ độ. Với cùng $x$, công thức $y=ax+b$ làm tung độ thay đổi thêm $b$. Mọi điểm được dịch theo phương thẳng đứng cùng một đoạn nên vẫn tạo thành đường thẳng.
+
+[[P8·a3af]]
+Hai cách chọn điểm thường thuận tiện là:
+
+[[P9·e125]]
+- Nếu $b\ne0$, cho $x=0$ được $P(0; b)$; cho $y=0$ được $Q\left(-\dfrac ba; 0\right)$.
+- Nếu $b=0$, đồ thị qua $O(0; 0)$. Chọn thêm $x=1$ để được $(1; a)$.
+
+  :::example Vẽ đồ thị khi $b\ne0$
+  Vẽ đồ thị hàm số $y=2x-4$.
+
+  **Lời giải.** Ta chọn hai giao điểm có toạ độ nguyên:
+
+  $$\begin{aligned}
+  x=0&\Rightarrow y=-4 &&\Rightarrow P(0; -4);\\
+  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2; 0).
+  \end{aligned}$$
+
+  Đồ thị là đường thẳng $PQ$.
+  :::
+
+:::graph Đồ thị $y=2x-4$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·035f]]
+Khi $b=0$, một trong hai điểm đã biết ngay là gốc toạ độ.
+
+  :::example Vẽ đồ thị khi $b=0$
+  Vẽ đồ thị hàm số $y=-3x$.
+
+  **Lời giải.** Cho $x=0$ và $x=1$:
+
+  $$x=0\Rightarrow y=0\Rightarrow O(0; 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1; -3).$$
+
+  Đồ thị là đường thẳng $OM$.
+  :::
+
+:::graph Đồ thị $y=-3x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P11·9506]]
+Trong bài toán thực tế, điều kiện của đại lượng có thể khiến ta chỉ dùng một phần của đường thẳng.
+
+  :::example Bể nước đang được xả
+  Bể có $90$ lít nước và được xả đều $6$ lít mỗi phút. Gọi $t$ là thời gian, $V$ là lượng còn lại.
+
+  a) Viết công thức của $V$ theo $t$.
+
+  b) Tìm lượng nước sau $8$ phút và thời điểm bể hết nước. Mô tả đồ thị trong tình huống này.
+
+  **Lời giải.** Lượng nước giảm $6$ lít mỗi phút, nên
+
+  $$V=90-6t=-6t+90.$$
+
+  Sau $8$ phút:
+
+  $$V=90-6\cdot8=42\text{ (lít)}.$$
+
+  Bể hết nước khi $V=0$:
+
+  $$90-6t=0\Rightarrow t=15\text{ (phút)}.$$
+
+  Công thức có dạng bậc nhất. Vì $0\le t\le15$, đồ thị thực tế là đoạn nối $(0; 90)$ và $(15; 0)$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·1c79]]
+- **Quên điều kiện $a\ne0$.** Sai: “$y=5$ là hàm số bậc nhất với $a=0$”. Đúng: đây là hàm hằng.
+- **Sai dấu khi thay số âm.** Với $y=-2x+1$ và $x=-3$, phải viết $y=-2\cdot(-3)+1=7$, không phải $-5$.
+- **Chỉ xác định một điểm rồi vẽ.** Qua một điểm có nhiều đường thẳng. Ta cần hai điểm phân biệt.
+- **Tìm sai giao điểm với trục hoành.** Với $y=2x+6$, cho $y=0$ được $2x+6=0$, nên $x=-3$, không phải $3$.
+- **Bỏ qua điều kiện thực tế.** Thời gian thường không âm, nên có thể chỉ dùng một đoạn hoặc một tia.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàm số bậc nhất | linear function
+  - hệ số | coefficient
+  - đồ thị | graph
+  - đường thẳng | straight line
+  - mặt phẳng toạ độ | coordinate plane
+  - trục hoành | x-axis
+  - trục tung | y-axis
+  - giao điểm với trục hoành | x-intercept
+  - giao điểm với trục tung | y-intercept
+  :::
+
+## Tóm tắt
+
+[[P13·a61a]]
+- Hàm số bậc nhất có dạng $y=ax+b$, trong đó $a\ne0$.
+- Điểm $M(x_0; y_0)$ thuộc đồ thị khi và chỉ khi $y_0=ax_0+b$.
+- Đồ thị của hàm số bậc nhất là một đường thẳng. Hai điểm phân biệt xác định đường thẳng đó.
+- Khi $b\ne0$, thường chọn hai điểm $P(0; b)$ và $Q\left(-\dfrac ba; 0\right)$.
+- Khi $b=0$, đồ thị đi qua $O(0; 0)$; chọn thêm một điểm để vẽ.
+- Trong tình huống thực tế, luôn xét điều kiện của biến trước khi chọn phần đồ thị phù hợp.
+
+## Luyện tập
+
+[[P14·ba07]]
+Hãy tự làm từng bài trước khi xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g8/linear-functions-graphs – BẢN TIẾNG ANH ########
+---
+title: Linear functions and their graphs
+description: Recognise linear functions, calculate values, draw their graphs from two points, and use them in real situations.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a linear function $y=ax+b$, where $a\ne0$, and identify the coefficients $a$ and $b$.
+  - Calculate function values and check whether a point lies on a graph.
+  - Draw the graph of a linear function from two distinct points.
+  - Use linear functions and their graphs to solve real-life problems.
+  :::
+
+[[P1·ecae]]
+A bicycle shop charges 20 thousand dong to unlock a bicycle and 15 thousand dong per hour. Hiring for $x$ hours costs $y=15x+20$ thousand dong. What is the cost after $3$ hours, and what shape do the points $(x, y)$ make?
+
+## Linear functions
+
+### Explore: the cost of hiring a bicycle
+
+[[P2·747b]]
+We substitute a few values of $x$ into $y=15x+20$:
+
+| $x$ (hours) | $0$ | $1$ | $2$ | $3$ |
+|---|---:|---:|---:|---:|
+| $y$ (thousand dong) | $20$ | $35$ | $50$ | $65$ |
+
+[[P3·b512]]
+Each extra hour adds 15 thousand dong. The number $20$ is the initial cost. The formula has the form $y=ax+b$, with $a=15$ and $b=20$.
+
+  :::definition Linear function
+  A linear function is a function given by
+  $$y=ax+b,$$
+  where $a$ and $b$ are fixed numbers and $a\ne0$.
+  :::
+
+[[P4·9cb5]]
+If $a=0$, then $y=b$ does not change with $x$: this is a constant function, not a linear function. The number $b$ may equal $0$; the formula is then $y=ax$.
+
+  :::example Recognising linear functions
+  Which of the following are linear functions? Give $a$ and $b$ for each linear function.
+
+  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
+
+  **Solution.** Compare each formula with $y=ax+b$, where $a\ne0$:
+
+  - a) $a=3$, $b=-5$: linear.
+  - b) $y=(-1)x+0$ has $a=-1$, $b=0$: linear.
+  - c) $y=0x+7$ has $a=0$: not linear.
+  - d) It contains $x^2$: not of the form $y=ax+b$.
+
+  Therefore the functions in a) and b) are linear.
+  :::
+
+[[P5·ecad]]
+Once we have a formula, we calculate a function value by substituting the value of $x$.
+
+  :::example Calculating values and checking points
+  Consider the function $y=-2x+7$.
+
+  a) Find $y$ when $x=3$ and when $x=-1$.
+
+  b) Do the points $A(4, -1)$ and $B(2, 4)$ lie on the graph?
+
+  **Solution.** We substitute the x-coordinate into the formula and compare the result with the y-coordinate:
+
+  $$\begin{aligned}
+  x=3&\Rightarrow y=-2\cdot3+7=1;\\
+  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
+  \end{aligned}$$
+
+  For $A$, $-2\cdot4+7=-1$, so $A$ lies on the graph. For $B$, $-2\cdot2+7=3\ne4$, so $B$ does not.
+  :::
+
+## Graphs of linear functions
+
+### Explore: are the points collinear?
+
+[[P6·3136]]
+For $y=2x+1$, we obtain the points $A(-1, -1)$, $B(0, 1)$, $C(1, 3)$ and $D(2, 5)$. When we plot them on the coordinate plane, all four points lie on one straight line.
+
+:::graph Points on the graph of $y=2x+1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The graph of a linear function
+  The graph of a linear function $y=ax+b$, where $a\ne0$, is a straight line. It is called the line $y=ax+b$.
+
+  To draw the graph, find two distinct points on it, then draw the straight line through them.
+  :::
+
+[[P7·7807]]
+The graph of $y=ax$ is a straight line through the origin. In $y=ax+b$, every y-coordinate changes by $b$. All points move vertically by the same amount, so they still form a straight line.
+
+[[P8·1dea]]
+Two convenient ways to choose points are:
+
+[[P9·661d]]
+- If $b\ne0$, set $x=0$ to obtain $P(0, b)$ on the y-axis; set $y=0$ to obtain $Q\left(-\dfrac ba, 0\right)$ on the x-axis.
+- If $b=0$, the graph passes through $O(0, 0)$. Choose one more value of $x$, for example $x=1$, to obtain $(1, a)$.
+
+  :::example Drawing a graph when $b\ne0$
+  Draw the graph of $y=2x-4$.
+
+  **Solution.** We choose the two intercepts because they have integer coordinates:
+
+  $$\begin{aligned}
+  x=0&\Rightarrow y=-4 &&\Rightarrow P(0, -4);\\
+  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2, 0).
+  \end{aligned}$$
+
+  Plot $P$ and $Q$, then draw the straight line $PQ$. This is the required graph.
+  :::
+
+:::graph The graph of $y=2x-4$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·92b6]]
+When $b=0$, one of the two points is already known: the origin.
+
+  :::example Drawing a graph when $b=0$
+  Draw the graph of $y=-3x$.
+
+  **Solution.** Set $x=0$ and $x=1$ to find two points:
+
+  $$x=0\Rightarrow y=0\Rightarrow O(0, 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1, -3).$$
+
+  Draw the straight line $OM$. This is the graph of $y=-3x$.
+  :::
+
+:::graph The graph of $y=-3x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P11·3703]]
+In a real-life problem, restrictions on the quantities may mean that we use only part of the straight line.
+
+  :::example A water tank being emptied
+  A tank contains $90$ litres of water. Water is released at a steady rate of $6$ litres per minute. Let $t$ be the time and $V$ the volume of water left.
+
+  a) Write $V$ in terms of $t$.
+
+  b) Find the volume after $8$ minutes and the time when the tank becomes empty. Describe the graph for this situation.
+
+  **Solution.** The volume falls by $6$ litres each minute from an initial volume of $90$ litres, so
+
+  $$V=90-6t=-6t+90.$$
+
+  After $8$ minutes:
+
+  $$V=90-6\cdot8=42\text{ litres}.$$
+
+  The tank is empty when $V=0$:
+
+  $$90-6t=0\Rightarrow t=15\text{ minutes}.$$
+
+  The formula has linear form. However, only $0\le t\le15$ makes sense here, so the graph is the line segment joining $(0, 90)$ and $(15, 0)$, not the whole straight line.
+  :::
+
+:::warning Common mistakes
+[[P12·b2cd]]
+- **Forgetting the condition $a\ne0$.** Wrong: “$y=5$ is linear with $a=0$.” Correct: it is a constant function.
+- **Losing a sign when substituting a negative number.** For $y=-2x+1$ and $x=-3$, write $y=-2\cdot(-3)+1=7$, not $-5$.
+- **Plotting only one point before drawing.** Many straight lines pass through one point. We need two distinct points.
+- **Finding the x-intercept with the wrong sign.** For $y=2x+6$, setting $y=0$ gives $2x+6=0$, so $x=-3$, not $3$.
+- **Ignoring a real-life restriction.** Time and quantities are often non-negative, so the relevant graph may be only a line segment or a ray.
+:::
+
+## Key terms
+
+  :::terms
+  - linear function | hàm số bậc nhất
+  - coefficient | hệ số
+  - graph | đồ thị
+  - straight line | đường thẳng
+  - coordinate plane | mặt phẳng toạ độ
+  - x-axis | trục hoành
+  - y-axis | trục tung
+  - x-intercept | giao điểm với trục hoành
+  - y-intercept | giao điểm với trục tung
+  :::
+
+## Summary
+
+[[P13·62ef]]
+- A linear function has the form $y=ax+b$, where $a\ne0$.
+- A point $M(x_0, y_0)$ lies on the graph exactly when $y_0=ax_0+b$.
+- The graph of a linear function is a straight line. Two distinct points determine this line.
+- When $b\ne0$, convenient points are $P(0, b)$ and $Q\left(-\dfrac ba, 0\right)$.
+- When $b=0$, the graph passes through $O(0, 0)$; choose one more point before drawing it.
+- In a real situation, check the restrictions on the variable before choosing the relevant part of the graph.
+
+## Practice
+
+[[P14·04f6]]
+Try each exercise before opening the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,1822 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Nguyenchanh2358-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g8/monomials, g9/acute-angle-trig-ratios, g9/arc-length-sector-area, g9/arcs-and-chords
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Nguyenchanh2358-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Nguyenchanh2358-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Nguyenchanh2358-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g8/monomials – BẢN TIẾNG VIỆT ########
+---
+title: Đơn thức
+description: Nhận biết đơn thức, thu gọn đơn thức, tìm hệ số, phần biến và bậc, nhận biết đơn thức đồng dạng, cộng, trừ và nhân các đơn thức.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đơn thức, đơn thức thu gọn; tìm hệ số, phần biến và bậc của đơn thức.
+  - Nhận biết các đơn thức đồng dạng, cộng và trừ các đơn thức đồng dạng.
+  - Nhân hai đơn thức bằng cách nhân hệ số với hệ số và nhân phần biến với phần biến.
+  - Dùng đơn thức để viết gọn diện tích, thể tích trong bài toán thực tế.
+  :::
+
+[[P1·cdcd]]
+Một hộp quà có đáy là hình vuông cạnh $x$ cm và chiều cao gấp đôi cạnh đáy, tức là $2x$ cm. Thể tích của hộp là $x\cdot x\cdot2x$ (cm³). Biểu thức này có thể viết gọn thế nào, và nó thuộc loại biểu thức nào?
+
+[[P2·8437]]
+Ở lớp 7, bạn đã biết dùng chữ để thay cho số và biết quy tắc nhân hai lũy thừa cùng cơ số. Hôm nay ta dùng hai điều đó để làm quen với một loại biểu thức đơn giản nhất: đơn thức.
+
+## Đơn thức và đơn thức thu gọn
+
+### Khám phá: viết gọn thể tích hộp quà
+
+[[P3·6e72]]
+Ta thử với $x=3$. Đáy là hình vuông cạnh $3$ cm, chiều cao là $2\cdot3=6$ cm. Thể tích là $3\cdot3\cdot6=54$ cm³.
+
+[[P4·105a]]
+Bây giờ ta gộp các thừa số giống nhau. Số $2$ đứng riêng, còn $x\cdot x\cdot x=x^3$, nên thể tích là $2x^3$. Thử lại với $x=3$: $2\cdot3^3=2\cdot27=54$. Hai kết quả bằng nhau, vậy $x\cdot x\cdot2x=2x^3$.
+
+[[P5·cf24]]
+Bảng dưới đây cho vài biểu thức và cho biết biểu thức nào "giống" $2x^3$.
+
+| Biểu thức | Có phải đơn thức? | Vì sao |
+|---|---|---|
+| $7$ | Có | chỉ là một số |
+| $y$ | Có | chỉ là một biến |
+| $-2xy$ | Có | tích của số $-2$ với các biến $x$, $y$ |
+| $\dfrac{2}{3}x^2y$ | Có | tích của số $\dfrac{2}{3}$ với các biến |
+| $x+y$ | Không | có phép cộng giữa hai biến |
+| $\dfrac{3}{x}$ | Không | biến $x$ nằm ở mẫu |
+
+  :::definition Đơn thức
+  **Đơn thức** là biểu thức chỉ gồm một số, hoặc một biến, hoặc một tích của các số và các biến (các biến có số mũ là số tự nhiên).
+  :::
+
+[[P6·a28a]]
+Một đơn thức có thể có nhiều biến, ví dụ $-2xy$ có hai biến $x$ và $y$. Biểu thức $x\cdot x\cdot2x$ cũng là đơn thức, nhưng chưa gọn, vì biến $x$ xuất hiện nhiều lần.
+
+  :::definition Đơn thức thu gọn, hệ số, phần biến, bậc
+  Đơn thức **thu gọn** là đơn thức chỉ gồm một số nhân với các lũy thừa của các biến, và mỗi biến chỉ xuất hiện một lần.
+
+  Trong đơn thức thu gọn $-5x^2y$:
+  - số $-5$ là **hệ số**;
+  - $x^2y$ là **phần biến**;
+  - **bậc** của đơn thức là tổng các số mũ của các biến: $2+1=3$.
+  :::
+
+[[P7·6f1c]]
+Số mũ của $y$ là $1$ vì $y=y^1$. Số khác $0$ là đơn thức bậc $0$. Số $0$ cũng là đơn thức, gọi là đơn thức không, và nó không có bậc.
+
+## Các phép tính với đơn thức
+
+### Đơn thức đồng dạng, cộng và trừ
+
+[[P8·3bda]]
+Ta xét $3x^2+5x^2$. Mỗi $x^2$ giống như một "gói" giống nhau: có $3$ gói cộng $5$ gói là $8$ gói. Vậy $3x^2+5x^2=8x^2$. Thử với $x=2$: $3\cdot4+5\cdot4=32$ và $8\cdot4=32$.
+
+[[P9·7b79]]
+Cách làm này đúng nhờ tính chất phân phối: $3x^2+5x^2=(3+5)x^2$. Nó chỉ dùng được khi hai đơn thức có cùng phần biến.
+
+  :::definition Đơn thức đồng dạng
+  Hai đơn thức có hệ số khác $0$ và có **cùng phần biến** gọi là **đơn thức đồng dạng**.
+
+  Muốn cộng (trừ) các đơn thức đồng dạng, ta cộng (trừ) các hệ số và giữ nguyên phần biến.
+  :::
+
+### Nhân hai đơn thức
+
+[[P10·ae81]]
+Ta nhân $(2x^2)\cdot(3x^3)$. Ta đổi chỗ các thừa số rồi nhóm số với số, biến với biến: $2\cdot3\cdot x^2\cdot x^3$. Số đứng riêng cho $6$. Với biến, ta dùng quy tắc nhân lũy thừa cùng cơ số: $x^2\cdot x^3=x^{2+3}=x^5$. Vậy $(2x^2)(3x^3)=6x^5$.
+
+  :::theorem Nhân hai đơn thức
+  Muốn nhân hai đơn thức, ta nhân các hệ số với nhau và nhân các phần biến với nhau (với cùng một biến thì cộng các số mũ):
+  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
+  :::
+
+## Ví dụ
+
+[[P11·f79d]]
+Ta bắt đầu bằng việc nhận biết đơn thức.
+
+  :::example Nhận biết đơn thức
+  Trong các biểu thức $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, biểu thức nào là đơn thức?
+
+  **Lời giải.** Ta kiểm tra từng biểu thức xem nó có phải là số, biến hoặc tích của số và biến không:
+
+  - $5$ là một số, nên là đơn thức.
+  - $-x^2y$ là tích của $-1$ và các biến, nên là đơn thức.
+  - $2x+3$ có phép cộng, nên không là đơn thức.
+  - $\dfrac{4}{y}$ có biến ở mẫu, nên không là đơn thức.
+  - $\dfrac{1}{3}xy^2$ là tích của số $\dfrac13$ và các biến, nên là đơn thức.
+
+  Vậy có ba đơn thức: $5$, $-x^2y$ và $\dfrac{1}{3}xy^2$.
+  :::
+
+[[P12·93e9]]
+Tiếp theo, ta thu gọn một đơn thức và đọc hệ số, phần biến, bậc của nó.
+
+  :::example Thu gọn đơn thức
+  Thu gọn $A=4x\cdot\dfrac12y\cdot x^2y$ rồi chỉ ra hệ số, phần biến và bậc của $A$.
+
+  **Lời giải.** Ta nhóm các số, rồi nhóm từng biến, và dùng $x\cdot x^2=x^{1+2}$, $y\cdot y=y^{1+1}$:
+
+  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
+
+  Vậy $A=2x^3y^2$ có hệ số là $2$, phần biến là $x^3y^2$ và bậc là $3+2=5$.
+  :::
+
+[[P13·2dfd]]
+Bây giờ ta đọc hệ số và bậc của vài đơn thức đã thu gọn.
+
+  :::example Hệ số và bậc
+  Tìm hệ số và bậc của các đơn thức $-7x^2y$, $\dfrac34x^4$ và $xy^2z$.
+
+  **Lời giải.** Với mỗi đơn thức, ta lấy số đứng đầu làm hệ số rồi cộng các số mũ để được bậc. Chú ý $xy^2z$ không viết số đứng đầu, tức là hệ số của nó là $1$:
+
+  | Đơn thức | Hệ số | Bậc |
+  |---|---|---|
+  | $-7x^2y$ | $-7$ | $2+1=3$ |
+  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
+  | $xy^2z$ | $1$ | $1+2+1=4$ |
+  :::
+
+[[P14·d3f3]]
+Ta chuyển sang đơn thức đồng dạng.
+
+  :::example Đơn thức đồng dạng và cộng trừ
+  Trong các đơn thức $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, đơn thức nào đồng dạng với $xy^2$? Tính tổng các đơn thức đó.
+
+  **Lời giải.** Ta so sánh phần biến. Ta có $5y^2x=5xy^2$ vì nhân có tính giao hoán. Phần biến của $3x^2y$ là $x^2y$, khác $xy^2$.
+
+  Vậy ba đơn thức $2xy^2$, $-xy^2$, $5y^2x$ đồng dạng với $xy^2$. Ta cộng các hệ số và giữ nguyên phần biến:
+
+  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
+
+  Vậy tổng là $6xy^2$.
+  :::
+
+[[P15·e039]]
+Còn phép nhân thì không cần đồng dạng.
+
+  :::example Nhân hai đơn thức
+  Tính $(-3x^2y)\cdot(2xy^3)$ và cho biết bậc của kết quả.
+
+  **Lời giải.** Ta nhân hệ số, rồi nhân từng biến bằng cách cộng số mũ ($x$ có $2+1$, $y$ có $1+3$):
+
+  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
+
+  Vậy kết quả là $-6x^3y^4$, có bậc $3+4=7$.
+  :::
+
+[[P16·5444]]
+Cuối cùng, ta dùng đơn thức trong bài toán thực tế mở đầu.
+
+  :::example Thể tích hai loại hộp
+  Hộp A có đáy hình vuông cạnh $x$ cm và cao $2x$ cm. Hộp B là hình lập phương cạnh $x$ cm. Viết thể tích một hộp A cộng thể tích một hộp B dưới dạng đơn thức, rồi tính giá trị khi $x=4$.
+
+  **Lời giải.** Thể tích hộp A là $x\cdot x\cdot2x=2x^3$. Thể tích hộp B là $x\cdot x\cdot x=x^3$. Hai đơn thức này đồng dạng, nên ta cộng các hệ số:
+
+  $$2x^3+x^3=(2+1)x^3=3x^3.$$
+
+  Với $x=4$: $3\cdot4^3=3\cdot64=192$.
+
+  Vậy tổng thể tích là $3x^3$ cm³, và bằng $192$ cm³ khi $x=4$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P17·9801]]
+- **Cho rằng $x+y$ là đơn thức.** Sai: $x+y$ là đơn thức. Lí do sai: đơn thức chỉ có phép nhân giữa số và biến, không có phép cộng. Đúng: $x+y$ không phải đơn thức.
+- **Tính bậc bằng cách nhân số mũ.** Sai: bậc của $x^2y^3$ là $2\cdot3=6$. Lí do sai: bậc là tổng các số mũ. Đúng: $2+3=5$.
+- **Cộng cả số mũ khi cộng đơn thức.** Sai: $3x^2+5x^2=8x^4$. Lí do sai: cộng hệ số thì phần biến giữ nguyên, giống như $3$ gói cộng $5$ gói là $8$ gói. Đúng: $8x^2$. (Thử $x=2$: $3\cdot4+5\cdot4=32$, còn $8\cdot2^4=128$.)
+- **Nhân lũy thừa mà nhân số mũ.** Sai: $x^2\cdot x^3=x^6$. Lí do sai: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ có $5$ thừa số $x$. Đúng: $x^5$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đơn thức | monomial
+  - biến | variable
+  - hệ số | coefficient
+  - phần biến | variable part
+  - đơn thức thu gọn | monomial in its simplest form
+  - bậc của đơn thức | degree of a monomial
+  - đơn thức đồng dạng | like terms
+  - lũy thừa | power
+  - số mũ | exponent (index)
+  - hằng số | constant
+  :::
+
+## Tóm tắt
+
+[[P18·b8cb]]
+- Đơn thức là một số, một biến, hoặc tích của các số và các biến. Biểu thức có phép cộng, trừ hoặc biến ở mẫu không phải đơn thức.
+- Đơn thức thu gọn $ax^my^n$ có hệ số $a$, phần biến $x^my^n$, bậc là tổng các số mũ $m+n$.
+- Hai đơn thức đồng dạng nếu hệ số khác $0$ và cùng phần biến. Cộng, trừ chúng: cộng, trừ hệ số, giữ nguyên phần biến.
+- Nhân hai đơn thức: nhân hệ số với nhau, nhân phần biến với nhau (cộng số mũ của cùng một biến).
+- Có thể thử lại bằng cách thay biến bằng một số nhỏ, ví dụ $x=2$, rồi so sánh hai vế.
+
+## Luyện tập
+
+[[P19·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g8/monomials – BẢN TIẾNG ANH ########
+---
+title: Monomials
+description: Recognise monomials, simplify them, find the coefficient, variable part and degree, spot like monomials, and add, subtract and multiply monomials.
+minutes: 20
+---
+
+  :::goals
+  - Recognise monomials and monomials in simplest form; find the coefficient, the variable part and the degree of a monomial.
+  - Recognise like monomials, and add and subtract like monomials.
+  - Multiply two monomials by multiplying coefficient by coefficient and variable part by variable part.
+  - Use monomials to write areas and volumes briefly in real-life problems.
+  :::
+
+[[P1·3294]]
+A gift box has a square base with side $x$ cm, and its height is twice the side of the base, that is $2x$ cm. The volume of the box is $x\cdot x\cdot2x$ (cm³). How can this expression be written more briefly, and what kind of expression is it?
+
+[[P2·136a]]
+In grade $7$ you learned to use letters in place of numbers and the rule for multiplying two powers with the same base. Today we use both ideas to meet the simplest kind of algebraic expression: the monomial.
+
+## Monomials and monomials in simplest form
+
+### Explore: writing the volume of the gift box briefly
+
+[[P3·24bd]]
+Try $x=3$. The base is a square with side $3$ cm and the height is $2\cdot3=6$ cm. The volume is $3\cdot3\cdot6=54$ cm³.
+
+[[P4·ebad]]
+Now group the factors that are the same. The number $2$ stands on its own, and $x\cdot x\cdot x=x^3$, so the volume is $2x^3$. Check with $x=3$: $2\cdot3^3=2\cdot27=54$. The two results are equal, so $x\cdot x\cdot2x=2x^3$.
+
+[[P5·3f68]]
+The table below lists some expressions and shows which ones are "like" $2x^3$.
+
+| Expression | A monomial? | Why |
+|---|---|---|
+| $7$ | Yes | it is just a number |
+| $y$ | Yes | it is just a variable |
+| $-2xy$ | Yes | a product of the number $-2$ and the variables $x$, $y$ |
+| $\dfrac{2}{3}x^2y$ | Yes | a product of the number $\dfrac{2}{3}$ and variables |
+| $x+y$ | No | there is an addition between two variables |
+| $\dfrac{3}{x}$ | No | the variable $x$ is in the denominator |
+
+  :::definition Monomial
+  A **monomial** is an expression that is just a number, or just a variable, or a product of numbers and variables (with the variables raised to natural-number powers).
+  :::
+
+[[P6·2130]]
+A monomial can have several variables; for example $-2xy$ has the two variables $x$ and $y$. The expression $x\cdot x\cdot2x$ is also a monomial, but it is not in simplest form, because the variable $x$ appears more than once.
+
+  :::definition Monomial in simplest form, coefficient, variable part, degree
+  A monomial **in simplest form** is a monomial made of one number multiplied by powers of the variables, with each variable appearing only once.
+
+  In the monomial in simplest form $-5x^2y$:
+  - the number $-5$ is the **coefficient**;
+  - $x^2y$ is the **variable part**;
+  - the **degree** of the monomial is the sum of the exponents of the variables: $2+1=3$.
+  :::
+
+[[P7·af01]]
+The exponent of $y$ is $1$ because $y=y^1$. A non-zero number is a monomial of degree $0$. The number $0$ is also a monomial, called the zero monomial, and it has no degree.
+
+## Operations with monomials
+
+### Like monomials, addition and subtraction
+
+[[P8·5724]]
+Look at $3x^2+5x^2$. Each $x^2$ is like an identical "packet": $3$ packets plus $5$ packets make $8$ packets. So $3x^2+5x^2=8x^2$. Check with $x=2$: $3\cdot4+5\cdot4=32$ and $8\cdot4=32$.
+
+[[P9·0d31]]
+This works because of the distributive law: $3x^2+5x^2=(3+5)x^2$. It only works when the two monomials have the same variable part.
+
+  :::definition Like monomials
+  Two monomials with non-zero coefficients and **the same variable part** are called **like monomials**.
+
+  To add (subtract) like monomials, add (subtract) the coefficients and keep the variable part the same.
+  :::
+
+### Multiplying two monomials
+
+[[P10·da1d]]
+Multiply $(2x^2)\cdot(3x^3)$. Rearrange the factors to group numbers with numbers and variables with variables: $2\cdot3\cdot x^2\cdot x^3$. The numbers give $6$. For the variable, use the rule for multiplying powers with the same base: $x^2\cdot x^3=x^{2+3}=x^5$. So $(2x^2)(3x^3)=6x^5$.
+
+  :::theorem Multiplying two monomials
+  To multiply two monomials, multiply the coefficients together and multiply the variable parts together (for the same variable, add the exponents):
+  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
+  :::
+
+## Examples
+
+[[P11·d778]]
+We start by recognising monomials.
+
+  :::example Recognising monomials
+  Of the expressions $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, which are monomials?
+
+  **Solution.** Check whether each expression is a number, a variable or a product of numbers and variables:
+
+  - $5$ is a number, so it is a monomial.
+  - $-x^2y$ is a product of $-1$ and variables, so it is a monomial.
+  - $2x+3$ contains an addition, so it is not a monomial.
+  - $\dfrac{4}{y}$ has a variable in the denominator, so it is not a monomial.
+  - $\dfrac{1}{3}xy^2$ is a product of the number $\dfrac13$ and variables, so it is a monomial.
+
+  So there are three monomials: $5$, $-x^2y$ and $\dfrac{1}{3}xy^2$.
+  :::
+
+[[P12·63f1]]
+Next, we simplify a monomial and read off its coefficient, variable part and degree.
+
+  :::example Simplifying a monomial
+  Simplify $A=4x\cdot\dfrac12y\cdot x^2y$, then give the coefficient, the variable part and the degree of $A$.
+
+  **Solution.** Group the numbers, then group each variable, using $x\cdot x^2=x^{1+2}$ and $y\cdot y=y^{1+1}$:
+
+  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
+
+  So $A=2x^3y^2$ has coefficient $2$, variable part $x^3y^2$ and degree $3+2=5$.
+  :::
+
+[[P13·ef80]]
+Now we read the coefficient and degree of some monomials already in simplest form.
+
+  :::example Coefficient and degree
+  Find the coefficient and the degree of the monomials $-7x^2y$, $\dfrac34x^4$ and $xy^2z$.
+
+  **Solution.** For each monomial, the number in front is the coefficient, and we add the exponents to get the degree. Note that $xy^2z$ has no number written in front, so its coefficient is $1$:
+
+  | Monomial | Coefficient | Degree |
+  |---|---|---|
+  | $-7x^2y$ | $-7$ | $2+1=3$ |
+  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
+  | $xy^2z$ | $1$ | $1+2+1=4$ |
+  :::
+
+[[P14·49a1]]
+We move on to like monomials.
+
+  :::example Like monomials, addition and subtraction
+  Of the monomials $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, which are like $xy^2$? Find the sum of those monomials.
+
+  **Solution.** Compare the variable parts. We have $5y^2x=5xy^2$ because multiplication is commutative. The variable part of $3x^2y$ is $x^2y$, which is different from $xy^2$.
+
+  So the three monomials $2xy^2$, $-xy^2$, $5y^2x$ are like $xy^2$. Add the coefficients and keep the variable part:
+
+  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
+
+  So the sum is $6xy^2$.
+  :::
+
+[[P15·65d6]]
+Multiplication, on the other hand, does not need like monomials.
+
+  :::example Multiplying two monomials
+  Work out $(-3x^2y)\cdot(2xy^3)$ and give the degree of the result.
+
+  **Solution.** Multiply the coefficients, then multiply each variable by adding its exponents ($x$ has $2+1$, $y$ has $1+3$):
+
+  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
+
+  So the result is $-6x^3y^4$, of degree $3+4=7$.
+  :::
+
+[[P16·4a6f]]
+Last, we use monomials in the real-life problem from the start of the lesson.
+
+  :::example The volume of two kinds of box
+  Box A has a square base with side $x$ cm and height $2x$ cm. Box B is a cube with side $x$ cm. Write the volume of one box A plus the volume of one box B as a monomial, then find its value when $x=4$.
+
+  **Solution.** The volume of box A is $x\cdot x\cdot2x=2x^3$. The volume of box B is $x\cdot x\cdot x=x^3$. These two monomials are like monomials, so we add the coefficients:
+
+  $$2x^3+x^3=(2+1)x^3=3x^3.$$
+
+  When $x=4$: $3\cdot4^3=3\cdot64=192$.
+
+  So the total volume is $3x^3$ cm³, which is $192$ cm³ when $x=4$.
+  :::
+
+:::warning Common mistakes
+[[P17·a291]]
+- **Thinking that $x+y$ is a monomial.** Wrong: $x+y$ is a monomial. Why it is wrong: a monomial only has multiplication between numbers and variables, never addition. Right: $x+y$ is not a monomial.
+- **Finding the degree by multiplying the exponents.** Wrong: the degree of $x^2y^3$ is $2\cdot3=6$. Why it is wrong: the degree is the sum of the exponents. Right: $2+3=5$.
+- **Adding the exponents when adding monomials.** Wrong: $3x^2+5x^2=8x^4$. Why it is wrong: when you add the coefficients, the variable part stays the same, just as $3$ packets plus $5$ packets make $8$ packets. Right: $8x^2$. (Try $x=2$: $3\cdot4+5\cdot4=32$, but $8\cdot2^4=128$.)
+- **Multiplying the exponents when multiplying powers.** Wrong: $x^2\cdot x^3=x^6$. Why it is wrong: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ has $5$ factors of $x$. Right: $x^5$.
+:::
+
+## Key terms
+
+  :::terms
+  - monomial | đơn thức
+  - variable | biến
+  - coefficient | hệ số
+  - variable part | phần biến
+  - monomial in its simplest form | đơn thức thu gọn
+  - degree of a monomial | bậc của đơn thức
+  - like terms | đơn thức đồng dạng
+  - power | lũy thừa
+  - exponent (index) | số mũ
+  - constant | hằng số
+  :::
+
+## Summary
+
+[[P18·72cf]]
+- A monomial is a number, a variable, or a product of numbers and variables. An expression with addition, subtraction or a variable in the denominator is not a monomial.
+- A monomial in simplest form $ax^my^n$ has coefficient $a$, variable part $x^my^n$, and degree equal to the sum of the exponents $m+n$.
+- Two monomials are like monomials if their coefficients are non-zero and they have the same variable part. To add or subtract them, add or subtract the coefficients and keep the variable part.
+- To multiply two monomials, multiply the coefficients together and the variable parts together (adding the exponents of the same variable).
+- You can check by replacing the variables with a small number, for example $x=2$, and comparing the two sides.
+
+## Practice
+
+[[P19·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG VIỆT ########
+---
+title: Tỉ số lượng giác của góc nhọn
+description: Định nghĩa sin, cos, tan, cot của góc nhọn trong tam giác vuông, nhớ giá trị của các góc đặc biệt và tỉ số lượng giác của hai góc phụ nhau.
+minutes: 20
+---
+
+  :::goals
+  - Viết được sin, cos, tan, cot của một góc nhọn trong tam giác vuông.
+  - Nhớ tỉ số lượng giác của các góc $30^\circ$, $45^\circ$, $60^\circ$ và dùng quan hệ giữa hai góc phụ nhau.
+  - Dùng máy tính cầm tay để tính tỉ số lượng giác và tìm góc khi biết một tỉ số.
+  :::
+
+[[P1·36c1]]
+Bác Tư dựng một chiếc thang dài $5$ m vào tường, chân thang cách chân tường $3$ m. Theo hướng dẫn an toàn, góc giữa thang và mặt đất nên vào khoảng $75^\circ$. Thang của bác Tư có đủ dốc không?
+
+[[P2·af28]]
+Ta biết hai cạnh của tam giác vuông nhưng cần một **góc**. Công cụ nối cạnh với góc là các tỉ số lượng giác.
+
+:::diagram Chiếc thang dựa vào tường
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Các tỉ số lượng giác của góc nhọn
+
+### Khám phá: tỉ số không phụ thuộc vào kích thước tam giác
+
+[[P3·66e3]]
+Xét hai tam giác vuông có cùng góc nhọn $\alpha$ ở đỉnh $B$: tam giác thứ nhất có các cạnh $3$, $4$, $5$; tam giác thứ hai có các cạnh $6$, $8$, $10$ (gấp đôi). Ta lập tỉ số giữa cạnh đối diện góc $\alpha$ và cạnh huyền:
+
+| Tam giác | cạnh đối | cạnh huyền | cạnh đối : cạnh huyền |
+|---|---|---|---|
+| thứ nhất | $3$ | $5$ | $0{,}6$ |
+| thứ hai | $6$ | $10$ | $0{,}6$ |
+
+[[P4·7c38]]
+Hai tam giác đồng dạng (lớp 8) nên tỉ số giống nhau. Tỉ số chỉ phụ thuộc vào góc $\alpha$, không phụ thuộc vào tam giác lớn hay nhỏ.
+
+:::diagram Cạnh đối, cạnh kề và cạnh huyền của góc $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Tỉ số lượng giác của góc nhọn
+  Cho tam giác vuông có góc nhọn $\alpha$. Khi đó:
+  $$\sin\alpha=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\quad \cos\alpha=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\quad \tan\alpha=\frac{\text{cạnh đối}}{\text{cạnh kề}},\quad \cot\alpha=\frac{\text{cạnh kề}}{\text{cạnh đối}}.$$
+  :::
+
+[[P5·746f]]
+Vì cạnh huyền dài nhất, ta luôn có $0<\sin\alpha<1$ và $0<\cos\alpha<1$. Mẹo nhớ quen thuộc: "**sin đi học, cos không hư, tan đoàn kết, cot kết đoàn**" (sin = đối : huyền, cos = kề : huyền, tan = đối : kề, cot = kề : đối).
+
+  :::example Tính bốn tỉ số
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=8$ cm, $AC=6$ cm. Tính các tỉ số lượng giác của góc $B$.
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $B$, cạnh đối là $AC$, cạnh kề là $AB$. Do đó
+
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
+
+  Vậy $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
+  :::
+
+[[P6·6032]]
+Cạnh đối và cạnh kề thay đổi khi ta xét góc nhọn còn lại, nên luôn xác định lại trước khi lập tỉ số.
+
+  :::example Tỉ số của góc còn lại
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=5$, $AC=12$. Tính các tỉ số lượng giác của góc $C$.
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $C$, cạnh đối là $AB$, cạnh kề là $AC$. Do đó
+
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
+
+  Vậy $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
+  :::
+
+## Tỉ số lượng giác của các góc đặc biệt
+
+[[P7·e294]]
+Nửa hình vuông cạnh $1$ là tam giác vuông cân có hai góc $45^\circ$, cạnh huyền $\sqrt2$. Nửa tam giác đều cạnh $2$ là tam giác vuông có các góc $30^\circ$, $60^\circ$ và các cạnh $1$, $\sqrt3$, $2$. Từ hai tam giác này ta được bảng sau.
+
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
+
+[[P8·fdda]]
+Chẳng hạn $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (trục căn thức ở mẫu như ở chương trước).
+
+  :::example Tính giá trị biểu thức
+  Tính: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
+
+  **Lời giải.** Thay các giá trị trong bảng, ta được
+
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
+
+  Vậy $A=0$ và $B=\dfrac32$.
+  :::
+
+## Tỉ số lượng giác của hai góc phụ nhau
+
+[[P9·f7f6]]
+Trong tam giác $ABC$ vuông tại $A$, hai góc $B$ và $C$ phụ nhau: $\widehat{B}+\widehat{C}=90^\circ$. Cạnh đối của góc $B$ chính là cạnh kề của góc $C$, nên $\sin B=\dfrac{AC}{BC}=\cos C$.
+
+  :::theorem Hai góc phụ nhau
+  Nếu $\alpha+\beta=90^\circ$ thì
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
+  :::
+
+  :::example Dùng góc phụ nhau
+  a) Viết $\sin72^\circ$ và $\tan65^\circ$ thành tỉ số lượng giác của góc nhỏ hơn $45^\circ$.
+  b) Không dùng máy tính, tính $\dfrac{\sin25^\circ}{\cos65^\circ}$ và $\tan40^\circ\cdot\tan50^\circ$.
+
+  **Lời giải.** Ta có $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (các cặp góc phụ nhau) và $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{đối}}{\text{kề}}\cdot\dfrac{\text{kề}}{\text{đối}}=1$. Do đó
+
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
+
+  Vậy a) $\cos18^\circ$ và $\cot25^\circ$; b) cả hai biểu thức đều bằng $1$.
+  :::
+
+[[P10·4235]]
+Với góc bất kì, ta dùng máy tính cầm tay (để ở chế độ độ, kí hiệu D). Phím `sin`, `cos`, `tan` cho tỉ số; tổ hợp `SHIFT` + `sin` (hoặc `cos`, `tan`) cho góc khi biết tỉ số. Không có phím cot, nên ta dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+
+  :::example Trả lời câu hỏi chiếc thang
+  Thang dài $5$ m, chân thang cách tường $3$ m. Tìm góc $\alpha$ giữa thang và mặt đất (làm tròn đến độ).
+
+  **Lời giải.** Xét tam giác $HPT$ vuông tại $H$, với góc $\alpha$ ở chân thang $P$, cạnh kề là $HP=3$ m, cạnh huyền là $PT=5$ m. Ta có
+
+  $$\cos\alpha=\frac35=0{,}6\ \Rightarrow\ \alpha\approx53{,}13^\circ\approx53^\circ.$$
+
+  Vậy góc giữa thang và mặt đất chỉ khoảng $53^\circ$, nhỏ hơn nhiều so với $75^\circ$, nên thang của bác Tư quá thoải, dễ trượt.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P11·fbff]]
+- **Nhầm cạnh đối và cạnh kề.** Sai: trong tam giác vuông tại $A$, $\sin C=\dfrac{AC}{BC}$. Lí do sai: cạnh đối diện góc $C$ là $AB$. Đúng: $\sin C=\dfrac{AB}{BC}$.
+- **Lập tỉ số với cạnh huyền ở tử.** Sai: $\cos B=\dfrac{BC}{AB}$. Lí do sai: tỉ số này lớn hơn $1$, mà $\cos B<1$. Đúng: $\cos B=\dfrac{AB}{BC}$.
+- **Nhầm giá trị đặc biệt.** Sai: $\sin60^\circ=\dfrac12$. Lí do sai: đó là $\sin30^\circ$ (cạnh đối góc $30^\circ$ ngắn nhất). Đúng: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Để máy tính sai chế độ.** Sai: bấm $\sin30$ được $-0{,}988$. Lí do sai: máy đang ở chế độ radian. Đúng: chuyển sang chế độ độ, được $0{,}5$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tỉ số lượng giác | trigonometric ratio
+  - góc nhọn | acute angle
+  - cạnh huyền | hypotenuse
+  - cạnh đối | opposite side
+  - cạnh kề | adjacent side
+  - sin, côsin, tang, côtang | sine, cosine, tangent, cotangent
+  - hai góc phụ nhau | complementary angles
+  - tam giác vuông cân | right-angled isosceles triangle
+  :::
+
+## Tóm tắt
+
+[[P12·d528]]
+- $\sin\alpha=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\alpha=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\alpha=\dfrac{\text{đối}}{\text{kề}}$, $\cot\alpha=\dfrac{\text{kề}}{\text{đối}}$.
+- Tỉ số chỉ phụ thuộc vào góc; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Hai góc phụ nhau: sin góc này bằng cos góc kia, tan góc này bằng cot góc kia.
+- Máy tính: chế độ độ; `SHIFT` + `sin`/`cos`/`tan` để tìm góc.
+
+## Luyện tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG ANH ########
+---
+title: Trigonometric ratios of acute angles
+description: Sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle, special-angle values and complementary angles.
+minutes: 20
+---
+
+  :::goals
+  - Write the sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle.
+  - Learn the trigonometric ratios of $30^\circ$, $45^\circ$ and $60^\circ$, and use the link between complementary angles.
+  - Use a calculator to find trigonometric ratios, and to find an angle from a ratio.
+  :::
+
+[[P1·9309]]
+Mr Tư leans a $5$ m ladder against a wall, with its foot $3$ m from the bottom of the wall. Safety advice says the angle between a ladder and the ground should be about $75^\circ$. Is Mr Tư's ladder steep enough?
+
+[[P2·4065]]
+We know two sides of a right-angled triangle, but we need an **angle**. This lesson gives us the tool that links sides to angles: the trigonometric ratios.
+
+:::diagram The ladder against the wall
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The trigonometric ratios of an acute angle
+
+### Explore: the ratio does not depend on the size of the triangle
+
+[[P3·856b]]
+Take two right-angled triangles with the same acute angle $\alpha$ at vertex $B$: the first has sides $3$, $4$, $5$; the second has sides $6$, $8$, $10$ (twice as big). We work out the ratio of the side opposite $\alpha$ to the hypotenuse:
+
+| Triangle | opposite | hypotenuse | opposite : hypotenuse |
+|---|---|---|---|
+| first | $3$ | $5$ | $0.6$ |
+| second | $6$ | $10$ | $0.6$ |
+
+[[P4·ec48]]
+The two triangles are similar (grade 8), so the ratios are the same. The ratio depends only on the angle $\alpha$, not on how big the triangle is.
+
+:::diagram The opposite side, adjacent side and hypotenuse for angle $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Trigonometric ratios of an acute angle
+  In a right-angled triangle with an acute angle $\alpha$:
+  $$\sin\alpha=\frac{\text{opposite}}{\text{hypotenuse}},\quad \cos\alpha=\frac{\text{adjacent}}{\text{hypotenuse}},\quad \tan\alpha=\frac{\text{opposite}}{\text{adjacent}},\quad \cot\alpha=\frac{\text{adjacent}}{\text{opposite}}.$$
+  :::
+
+[[P5·d1c6]]
+Because the hypotenuse is the longest side, we always have $0<\sin\alpha<1$ and $0<\cos\alpha<1$. A well-known memory aid is **SOH CAH TOA** (Sine = Opposite : Hypotenuse, Cosine = Adjacent : Hypotenuse, Tangent = Opposite : Adjacent); the cotangent is the tangent turned upside down.
+
+  :::example Finding the four ratios
+  Triangle $ABC$ has a right angle at $A$, $AB=8$ cm and $AC=6$ cm. Find the trigonometric ratios of angle $B$.
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $B$, the opposite side is $AC$ and the adjacent side is $AB$. Hence
+
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
+
+  So $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
+  :::
+
+[[P6·8355]]
+The opposite and adjacent sides change when we look at the other acute angle, so always identify them again before writing a ratio.
+
+  :::example The ratios of the other angle
+  Triangle $ABC$ has a right angle at $A$, $AB=5$ and $AC=12$. Find the trigonometric ratios of angle $C$.
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $C$, the opposite side is $AB$ and the adjacent side is $AC$. Hence
+
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
+
+  So $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
+  :::
+
+## The ratios of special angles
+
+[[P7·e2d4]]
+Half of a square with side $1$ is a right-angled isosceles triangle with two $45^\circ$ angles and hypotenuse $\sqrt2$. Half of an equilateral triangle with side $2$ is a right-angled triangle with angles $30^\circ$ and $60^\circ$ and sides $1$, $\sqrt3$, $2$. These two triangles give the table below.
+
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
+
+[[P8·5448]]
+For example, $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (rationalising the denominator as in the previous chapter).
+
+  :::example Evaluating expressions
+  Evaluate: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
+
+  **Solution.** Substituting the values from the table, we get
+
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
+
+  So $A=0$ and $B=\dfrac32$.
+  :::
+
+## The ratios of complementary angles
+
+[[P9·d634]]
+In triangle $ABC$ with a right angle at $A$, angles $B$ and $C$ are complementary: $\angle B+\angle C=90^\circ$. The side opposite $B$ is the side adjacent to $C$, so $\sin B=\dfrac{AC}{BC}=\cos C$.
+
+  :::theorem Complementary angles
+  If $\alpha+\beta=90^\circ$, then
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
+  :::
+
+  :::example Using complementary angles
+  a) Write $\sin72^\circ$ and $\tan65^\circ$ as trigonometric ratios of angles smaller than $45^\circ$.
+  b) Without a calculator, evaluate $\dfrac{\sin25^\circ}{\cos65^\circ}$ and $\tan40^\circ\cdot\tan50^\circ$.
+
+  **Solution.** We have $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (complementary angles) and $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{opp}}{\text{adj}}\cdot\dfrac{\text{adj}}{\text{opp}}=1$. Hence
+
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
+
+  So a) $\cos18^\circ$ and $\cot25^\circ$; b) both expressions equal $1$.
+  :::
+
+[[P10·e531]]
+For any other angle, we use a calculator (set to degree mode, shown as D). The `sin`, `cos` and `tan` keys give the ratio; `SHIFT` + `sin` (or `cos`, `tan`) gives the angle from a ratio. There is no cot key, so we use $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+
+  :::example Answering the ladder question
+  The ladder is $5$ m long and its foot is $3$ m from the wall. Find the angle $\alpha$ between the ladder and the ground (rounded to the nearest degree).
+
+  **Solution.** In triangle $HPT$ with a right angle at $H$, for the angle $\alpha$ at the foot $P$ of the ladder, the adjacent side is $HP=3$ m and the hypotenuse is $PT=5$ m. We have
+
+  $$\cos\alpha=\frac35=0.6\ \Rightarrow\ \alpha\approx53.13^\circ\approx53^\circ.$$
+
+  So the angle between the ladder and the ground is only about $53^\circ$, much less than $75^\circ$, so Mr Tư's ladder is too shallow and may slip.
+  :::
+
+:::warning Common mistakes
+[[P11·1480]]
+- **Mixing up opposite and adjacent.** Wrong: in a triangle with a right angle at $A$, $\sin C=\dfrac{AC}{BC}$. Why it is wrong: the side opposite $C$ is $AB$. Right: $\sin C=\dfrac{AB}{BC}$.
+- **Putting the hypotenuse on top.** Wrong: $\cos B=\dfrac{BC}{AB}$. Why it is wrong: this ratio is greater than $1$, but $\cos B<1$. Right: $\cos B=\dfrac{AB}{BC}$.
+- **Mixing up special values.** Wrong: $\sin60^\circ=\dfrac12$. Why it is wrong: that is $\sin30^\circ$ (the side opposite $30^\circ$ is the shortest). Right: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Using the wrong calculator mode.** Wrong: $\sin30$ gives $-0.988$. Why it is wrong: the calculator is in radian mode. Right: switch to degree mode to get $0.5$.
+:::
+
+## Key terms
+
+  :::terms
+  - trigonometric ratio | tỉ số lượng giác
+  - acute angle | góc nhọn
+  - hypotenuse | cạnh huyền
+  - opposite side | cạnh đối
+  - adjacent side | cạnh kề
+  - sine, cosine, tangent, cotangent | sin, côsin, tang, côtang
+  - complementary angles | hai góc phụ nhau
+  - right-angled isosceles triangle | tam giác vuông cân
+  :::
+
+## Summary
+
+[[P12·1e9f]]
+- $\sin\alpha=\dfrac{\text{opp}}{\text{hyp}}$, $\cos\alpha=\dfrac{\text{adj}}{\text{hyp}}$, $\tan\alpha=\dfrac{\text{opp}}{\text{adj}}$, $\cot\alpha=\dfrac{\text{adj}}{\text{opp}}$.
+- The ratios depend only on the angle; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Complementary angles: the sine of one is the cosine of the other, and the tangent of one is the cotangent of the other.
+- Calculator: degree mode; `SHIFT` + `sin`/`cos`/`tan` to find an angle.
+
+## Practice
+
+[[P13·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG VIỆT ########
+---
+title: Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên
+description: Tính độ dài cung tròn, diện tích hình quạt tròn và diện tích hình vành khuyên, áp dụng vào các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Tính được độ dài cung tròn $n^\circ$ của đường tròn bán kính $R$.
+  - Tính được diện tích hình quạt tròn và diện tích hình vành khuyên.
+  - Vận dụng các công thức vào bài toán thực tế (bánh xe, đồng hồ, cần gạt nước).
+  :::
+
+[[P1·a591]]
+Cần gạt nước của một ô tô quay quanh trục $O$. Lưỡi cao su gắn trên thanh gạt, từ điểm cách $O$ là $10$ cm đến điểm cách $O$ là $50$ cm. Mỗi lần gạt, thanh quay một góc $120^\circ$. Mỗi lần gạt lau được bao nhiêu xăng-ti-mét vuông kính?
+
+## Độ dài cung tròn
+
+### Khám phá: chia đường tròn thành $360$ phần
+
+[[P2·cc98]]
+Đường tròn bán kính $R$ có độ dài $C=2\pi R$. Cả đường tròn ứng với $360^\circ$, nên cung $1^\circ$ dài $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. Cung $n^\circ$ dài gấp $n$ lần cung $1^\circ$.
+
+  :::theorem Độ dài cung tròn
+  Trên đường tròn bán kính $R$, cung $n^\circ$ có độ dài
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Tính độ dài cung
+  Tính độ dài cung $60^\circ$ của đường tròn bán kính $6$ cm (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức độ dài cung với $R=6$, $n=60$, ta có
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6{,}28\ \text{(cm)}.$$
+
+  Vậy cung dài khoảng $6{,}28$ cm.
+  :::
+
+[[P3·5a6d]]
+Từ công thức, khi biết $l$ và $R$ ta tìm được $n$.
+
+  :::example Tìm số đo cung
+  Một cung của đường tròn bán kính $9$ cm có độ dài $5\pi$ cm. Tính số đo của cung đó.
+
+  **Lời giải.** Từ $l=\dfrac{\pi Rn}{180}$, ta có
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  Vậy cung có số đo $100^\circ$.
+  :::
+
+## Diện tích hình quạt tròn
+
+[[P4·f38b]]
+Hình quạt tròn là phần hình tròn giới hạn bởi một cung và hai bán kính đi qua hai đầu mút của cung. Hình tròn có diện tích $\pi R^2$ ứng với $360^\circ$, nên hình quạt $n^\circ$ có diện tích bằng $\dfrac{n}{360}$ diện tích hình tròn.
+
+  :::theorem Diện tích hình quạt tròn
+  Hình quạt tròn bán kính $R$, cung $n^\circ$ có diện tích
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  trong đó $l$ là độ dài cung của hình quạt.
+  :::
+
+:::diagram Hình quạt tròn $OAB$ bán kính $R$, cung $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Diện tích hình quạt
+  Tính diện tích hình quạt tròn bán kính $10$ cm, cung $72^\circ$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức diện tích hình quạt, ta có
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62{,}83\ \text{(cm}^2\text{)}.$$
+
+  Tính cách khác: cung dài $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, nên $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  Vậy diện tích hình quạt khoảng $62{,}83$ cm².
+  :::
+
+## Diện tích hình vành khuyên
+
+[[P5·9b77]]
+Hình vành khuyên là phần nằm giữa hai đường tròn đồng tâm. Diện tích của nó bằng diện tích hình tròn lớn trừ diện tích hình tròn nhỏ.
+
+  :::theorem Diện tích hình vành khuyên
+  Hình vành khuyên giới hạn bởi hai đường tròn $(O; R)$ và $(O; r)$ với $R>r$ có diện tích
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram Hình vành khuyên giữa hai đường tròn đồng tâm
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Lối đi quanh hồ
+  Một hồ nước hình tròn bán kính $30$ m. Người ta làm một lối đi rộng $2$ m bao quanh hồ. Tính diện tích lối đi (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Lối đi là hình vành khuyên với $r=30$ m và $R=30+2=32$ m. Ta có
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389{,}56\ \text{(m}^2\text{)}.$$
+
+  Vậy diện tích lối đi khoảng $389{,}56$ m².
+  :::
+
+[[P6·a3aa]]
+Phần kính được lau ở đầu bài là phần của hình vành khuyên nằm trong góc $120^\circ$.
+
+  :::example Cần gạt nước
+  Giải bài toán ở đầu bài (làm tròn kết quả đến hàng đơn vị).
+
+  **Lời giải.** Phần kính được lau bằng hình quạt bán kính $50$ cm trừ hình quạt bán kính $10$ cm, cùng cung $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  Vậy mỗi lần gạt lau được khoảng $2513$ cm² kính.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P7·b963]]
+- **Nhầm hai công thức.** Sai: cung $90^\circ$ của đường tròn bán kính $4$ dài $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Lí do sai: đó là diện tích hình quạt. Đúng: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Tính vành khuyên bằng hiệu bán kính.** Sai: $S=\pi(R-r)^2$. Lí do sai: phải trừ hai diện tích. Đúng: $S=\pi\left(R^2-r^2\right)$.
+- **Dùng đường kính thay cho bán kính.** Đọc kĩ đề: bánh xe "đường kính $70$ cm" có $R=35$ cm.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - độ dài đường tròn | circumference
+  - độ dài cung tròn | arc length
+  - hình quạt tròn | sector
+  - hình vành khuyên | annulus
+  - đường tròn đồng tâm | concentric circles
+  - hình viên phân | segment of a circle
+  :::
+
+## Tóm tắt
+
+[[P8·a4d5]]
+- Độ dài đường tròn $C=2\pi R$; diện tích hình tròn $\pi R^2$.
+- Cung $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Hình quạt $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Hình vành khuyên: $S=\pi\left(R^2-r^2\right)$.
+
+## Luyện tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG ANH ########
+---
+title: Arc length. Area of a sector and an annulus
+description: Find the length of an arc, the area of a sector and the area of an annulus, and use them in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Find the length of an arc of $n^\circ$ on a circle of radius $R$.
+  - Find the area of a sector and the area of an annulus.
+  - Use the formulas in real-life problems (wheels, clocks, windscreen wipers).
+  :::
+
+[[P1·54d9]]
+A car's windscreen wiper turns about a pivot $O$. The rubber blade is fixed on the arm from the point $10$ cm from $O$ to the point $50$ cm from $O$. On each sweep the arm turns through $120^\circ$. How many square centimetres of glass does one sweep clean?
+
+## Arc length
+
+### Explore: split the circle into $360$ parts
+
+[[P2·337e]]
+A circle of radius $R$ has circumference $C=2\pi R$. The whole circle corresponds to $360^\circ$, so an arc of $1^\circ$ has length $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. An arc of $n^\circ$ is $n$ times as long as an arc of $1^\circ$.
+
+  :::theorem Arc length
+  On a circle of radius $R$, an arc of $n^\circ$ has length
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Finding an arc length
+  Find the length of an arc of $60^\circ$ on a circle of radius $6$ cm (give your answer to 2 decimal places).
+
+  **Solution.** Using the arc-length formula with $R=6$ and $n=60$, we have
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6.28\ \text{(cm)}.$$
+
+  So the arc is about $6.28$ cm long.
+  :::
+
+[[P3·66a3]]
+From the formula, when we know $l$ and $R$ we can find $n$.
+
+  :::example Finding the measure of an arc
+  An arc of a circle of radius $9$ cm has length $5\pi$ cm. Find the measure of the arc.
+
+  **Solution.** From $l=\dfrac{\pi Rn}{180}$, we have
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  So the arc measures $100^\circ$.
+  :::
+
+## Area of a sector
+
+[[P4·6647]]
+A sector is the part of a disc bounded by an arc and the two radii through its end points. A disc of area $\pi R^2$ corresponds to $360^\circ$, so a sector of $n^\circ$ has area $\dfrac{n}{360}$ of the area of the disc.
+
+  :::theorem Area of a sector
+  A sector of radius $R$ with an arc of $n^\circ$ has area
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  where $l$ is the length of the arc of the sector.
+  :::
+
+:::diagram The sector $OAB$ of radius $R$ with an arc of $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Area of a sector
+  Find the area of a sector of radius $10$ cm with an arc of $72^\circ$ (give your answer to 2 decimal places).
+
+  **Solution.** Using the formula for the area of a sector, we have
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62.83\ \text{(cm}^2\text{)}.$$
+
+  Another way: the arc has length $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, so $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  So the area of the sector is about $62.83$ cm².
+  :::
+
+## Area of an annulus
+
+[[P5·8ba5]]
+An annulus is the region between two concentric circles. Its area is the area of the large disc minus the area of the small disc.
+
+  :::theorem Area of an annulus
+  The annulus between the circles $(O, R)$ and $(O, r)$, with $R>r$, has area
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram An annulus between two concentric circles
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example A path round a lake
+  A round lake has radius $30$ m. A path $2$ m wide is built all round the lake. Find the area of the path (give your answer to 2 decimal places).
+
+  **Solution.** The path is an annulus with $r=30$ m and $R=30+2=32$ m. We have
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389.56\ \text{(m}^2\text{)}.$$
+
+  So the area of the path is about $389.56$ m².
+  :::
+
+[[P6·eb0f]]
+The glass cleaned in the opening problem is the part of an annulus inside an angle of $120^\circ$.
+
+  :::example The windscreen wiper
+  Solve the opening problem (give your answer to the nearest whole number).
+
+  **Solution.** The cleaned glass is the sector of radius $50$ cm minus the sector of radius $10$ cm, both with an arc of $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  So one sweep cleans about $2513$ cm² of glass.
+  :::
+
+:::warning Common mistakes
+[[P7·09a7]]
+- **Mixing up the two formulas.** Wrong: an arc of $90^\circ$ on a circle of radius $4$ has length $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Why it is wrong: that is the area of the sector. Right: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Using the difference of the radii for an annulus.** Wrong: $S=\pi(R-r)^2$. Why it is wrong: we must subtract two areas. Right: $S=\pi\left(R^2-r^2\right)$.
+- **Using the diameter instead of the radius.** Read carefully: a wheel "of diameter $70$ cm" has $R=35$ cm.
+:::
+
+## Key terms
+
+  :::terms
+  - circumference | độ dài đường tròn
+  - arc length | độ dài cung tròn
+  - sector | hình quạt tròn
+  - annulus | hình vành khuyên
+  - concentric circles | đường tròn đồng tâm
+  - segment of a circle | hình viên phân
+  :::
+
+## Summary
+
+[[P8·ade9]]
+- Circumference $C=2\pi R$; area of a disc $\pi R^2$.
+- Arc of $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Sector of $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Annulus: $S=\pi\left(R^2-r^2\right)$.
+
+## Practice
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG VIỆT ########
+---
+title: Cung và dây của một đường tròn
+description: Nhận biết dây, góc ở tâm, cung nhỏ và cung lớn; tính độ dài dây và số đo cung của một đường tròn.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết dây cung và biết đường kính là dây lớn nhất.
+  - Tính độ dài dây hoặc khoảng cách từ tâm đến dây bằng định lí Pythagore.
+  - Nhận biết góc ở tâm, cung nhỏ, cung lớn và tính số đo cung.
+  :::
+
+[[P1·7bd1]]
+Chiếc đồng hồ treo tường trong lớp có kim phút dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim phút đi từ vị trí $A$ đến vị trí $B$ trên một cung tròn. Cung đó có số đo bao nhiêu độ? Đoạn thẳng $AB$ dài bao nhiêu?
+
+## Dây của đường tròn
+
+### Khám phá: dây nào dài nhất?
+
+[[P2·fa34]]
+Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta được một **dây**. Thử vài dây: dây cách tâm $4$ cm dài $6$ cm, dây cách tâm $3$ cm dài $8$ cm, dây đi qua tâm dài $10$ cm. Dây càng gần tâm càng dài, và dài nhất khi đi qua tâm.
+
+  :::definition Dây cung
+  Đoạn thẳng nối hai điểm phân biệt của một đường tròn gọi là **dây cung** (gọi tắt là **dây**). Dây đi qua tâm là đường kính.
+  :::
+
+  :::theorem Đường kính là dây lớn nhất
+  Trong các dây của một đường tròn, dây lớn nhất là đường kính.
+  :::
+
+[[P3·78b1]]
+**Vì sao?** Với dây $AB$ không đi qua tâm, xét tam giác $OAB$ ta có $AB<OA+OB=2R$. Nếu $AB$ đi qua tâm thì $AB=2R$.
+
+[[P4·b2ca]]
+Tam giác $OAB$ cân tại $O$ (vì $OA=OB=R$). Do đó nếu $H$ là chân đường vuông góc kẻ từ $O$ đến $AB$ thì $H$ là trung điểm của $AB$, và theo định lí Pythagore:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram Dây $AB$ và khoảng cách $OH$ từ tâm đến dây
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tính độ dài dây
+  Cho đường tròn $(O; 10\text{ cm})$ và dây $AB$ cách $O$ một khoảng $6$ cm. Tính $AB$.
+
+  **Lời giải.** Kẻ $OH\perp AB$ tại $H$, ta có $OH=6$ cm và $H$ là trung điểm của $AB$ (tam giác $OAB$ cân tại $O$). Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  Vậy $AB=2HA=16$ cm.
+  :::
+
+## Góc ở tâm và cung
+
+[[P5·7cfe]]
+Hai điểm $A$, $B$ trên đường tròn chia đường tròn thành hai **cung**, kí hiệu chung là $\overset{\frown}{AB}$. Để phân biệt, ta lấy thêm một điểm $M$ trên một cung và viết $\overset{\frown}{AMB}$.
+
+  :::definition Góc ở tâm, cung nhỏ, cung lớn
+  Góc có đỉnh trùng với tâm đường tròn gọi là **góc ở tâm**. Với góc ở tâm $\widehat{AOB}$ ($0^\circ<\widehat{AOB}<180^\circ$), cung nằm bên trong góc là **cung nhỏ**, cung còn lại là **cung lớn**; cung nhỏ $AB$ gọi là **cung bị chắn** bởi góc $\widehat{AOB}$. Nếu $AB$ là đường kính thì mỗi cung là một **nửa đường tròn**.
+  :::
+
+:::diagram Góc ở tâm $\widehat{AOB}$ chắn cung nhỏ $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Số đo cung
+
+  :::definition Số đo cung
+  - Số đo của cung nhỏ bằng số đo góc ở tâm chắn cung đó.
+  - Số đo của cung lớn bằng $360^\circ$ trừ số đo cung nhỏ có chung hai đầu mút.
+  - Số đo của nửa đường tròn bằng $180^\circ$; của cả đường tròn bằng $360^\circ$.
+
+  Số đo của cung $AB$ kí hiệu là $\text{sđ}\,\overset{\frown}{AB}$. Trong một đường tròn, hai cung bằng nhau nếu chúng có cùng số đo.
+  :::
+
+[[P6·91de]]
+Nếu điểm $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$ (vì góc ở tâm $\widehat{AOB}$ được chia thành hai góc).
+
+  :::example Cung nhỏ và cung lớn
+  Trên hình trên, $\widehat{AOB}=100^\circ$. Tính số đo cung nhỏ $AB$ và cung lớn $AMB$.
+
+  **Lời giải.** Ta có $\text{sđ}\,\overset{\frown}{AB}=\widehat{AOB}=100^\circ$ (số đo cung nhỏ bằng góc ở tâm chắn cung). Suy ra
+
+  $$\text{sđ}\,\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  Vậy cung nhỏ $AB$ có số đo $100^\circ$, cung lớn $AMB$ có số đo $260^\circ$.
+  :::
+
+[[P7·9959]]
+Bây giờ ta trả lời câu hỏi về chiếc đồng hồ ở đầu bài.
+
+  :::example Kim phút của đồng hồ
+  Kim phút $OA$ dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim đi từ $A$ đến $B$. Tính $\text{sđ}\,\overset{\frown}{AB}$ (cung đầu kim đi qua) và độ dài $AB$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Mỗi phút kim phút quay $\dfrac{360^\circ}{60}=6^\circ$, nên trong $20$ phút kim quay $20\cdot6^\circ=120^\circ$. Do đó $\widehat{AOB}=120^\circ$ và $\text{sđ}\,\overset{\frown}{AB}=120^\circ$.
+
+  Kẻ $OH\perp AB$. Tam giác $OAB$ cân tại $O$ nên $OH$ vừa là đường cao vừa là tia phân giác, suy ra $\widehat{AOH}=60^\circ$. Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25{,}98\ \text{(cm)}.$$
+
+  Vậy cung có số đo $120^\circ$ và $AB\approx25{,}98$ cm.
+  :::
+
+[[P8·4af2]]
+Khi ba điểm chia đường tròn thành ba cung, ta dùng tính chất cộng số đo cung.
+
+  :::example Ba cung của một đường tròn
+  Ba điểm $A$, $B$, $C$ chia đường tròn $(O)$ thành ba cung $AB$, $BC$, $CA$ không chứa điểm còn lại, với $\text{sđ}\,\overset{\frown}{AB}=100^\circ$, $\text{sđ}\,\overset{\frown}{BC}=140^\circ$. Tính $\text{sđ}\,\overset{\frown}{CA}$ và số đo cung $ACB$.
+
+  **Lời giải.** Ba cung ghép lại thành cả đường tròn, nên
+
+  $$\text{sđ}\,\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \text{sđ}\,\overset{\frown}{ACB}=\text{sđ}\,\overset{\frown}{BC}+\text{sđ}\,\overset{\frown}{CA}=260^\circ.$$
+
+  Vậy $\text{sđ}\,\overset{\frown}{CA}=120^\circ$ và $\text{sđ}\,\overset{\frown}{ACB}=260^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·9f3f]]
+- **Quên nhân đôi khi tính dây.** Sai: dây cách tâm $6$ cm của $(O; 10\text{ cm})$ dài $\sqrt{100-36}=8$ cm. Lí do sai: $8$ cm chỉ là nửa dây $HA$. Đúng: $AB=16$ cm.
+- **Lấy góc ở tâm làm số đo cung lớn.** Sai: $\widehat{AOB}=70^\circ$ nên cung lớn $AB$ có số đo $70^\circ$. Lí do sai: góc ở tâm chỉ bằng cung nhỏ. Đúng: cung lớn có số đo $290^\circ$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - dây cung | chord
+  - góc ở tâm | angle at the centre
+  - cung | arc
+  - cung nhỏ / cung lớn | minor arc / major arc
+  - cung bị chắn | intercepted arc
+  - nửa đường tròn | semicircle
+  - số đo cung | measure of an arc
+  :::
+
+## Tóm tắt
+
+[[P10·cedd]]
+- Dây nối hai điểm của đường tròn; đường kính là dây lớn nhất.
+- $OH\perp AB$ thì $H$ là trung điểm của $AB$ và $AB=2\sqrt{R^2-OH^2}$.
+- Số đo cung nhỏ bằng góc ở tâm chắn nó; cung lớn bằng $360^\circ$ trừ cung nhỏ; nửa đường tròn $180^\circ$.
+- $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG ANH ########
+---
+title: Arcs and chords of a circle
+description: Recognise chords, angles at the centre, minor and major arcs; find the length of a chord and the measure of an arc.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a chord and know that a diameter is the longest chord.
+  - Find the length of a chord, or its distance from the centre, using Pythagoras' theorem.
+  - Recognise angles at the centre, minor and major arcs, and find the measure of an arc.
+  :::
+
+[[P1·8752]]
+The classroom clock has a minute hand $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves along an arc from $A$ to $B$. What is the measure of that arc? How long is the segment $AB$?
+
+## Chords of a circle
+
+### Explore: which chord is the longest?
+
+[[P2·aa51]]
+On the circle $(O, 5\text{ cm})$, joining two points gives a **chord**. A chord $4$ cm from the centre is $6$ cm long, one $3$ cm from the centre is $8$ cm long, and one through the centre is $10$ cm long. The closer to the centre, the longer the chord.
+
+  :::definition Chord
+  A segment joining two different points of a circle is called a **chord**. A chord through the centre is a diameter.
+  :::
+
+  :::theorem A diameter is the longest chord
+  Of all the chords of a circle, the longest is a diameter.
+  :::
+
+[[P3·08f9]]
+**Why?** For a chord $AB$ not through the centre, the triangle $OAB$ gives $AB<OA+OB=2R$. If $AB$ passes through the centre, then $AB=2R$.
+
+[[P4·4f5d]]
+The triangle $OAB$ is isosceles ($OA=OB=R$). Hence the foot $H$ of the perpendicular from $O$ to $AB$ is the midpoint of $AB$, and by Pythagoras' theorem:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram The chord $AB$ and its distance $OH$ from the centre
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Finding the length of a chord
+  Consider the circle $(O, 10\text{ cm})$ and a chord $AB$ at distance $6$ cm from $O$. Find $AB$.
+
+  **Solution.** Draw $OH\perp AB$; then $OH=6$ cm and $H$ is the midpoint of $AB$ (the triangle $OAB$ is isosceles). In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  So $AB=2HA=16$ cm.
+  :::
+
+## Angles at the centre and arcs
+
+[[P5·d6a4]]
+Two points $A$, $B$ on a circle split it into two **arcs**, both written $\overset{\frown}{AB}$; to tell them apart, we name a point $M$ on one and write $\overset{\frown}{AMB}$.
+
+  :::definition Angle at the centre, minor arc, major arc
+  An angle whose vertex is the centre of the circle is called an **angle at the centre**. For an angle at the centre $\angle AOB$ ($0^\circ<\angle AOB<180^\circ$), the arc inside the angle is the **minor arc**, and the other arc is the **major arc**; the minor arc $AB$ is called the arc **subtended** by $\angle AOB$. If $AB$ is a diameter, each arc is a **semicircle**.
+  :::
+
+:::diagram The angle at the centre $\angle AOB$ subtending the minor arc $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The measure of an arc
+
+  :::definition The measure of an arc
+  - The measure of a minor arc equals the angle at the centre subtending it.
+  - The measure of a major arc is $360^\circ$ minus the measure of the minor arc with the same end points.
+  - A semicircle measures $180^\circ$; the whole circle measures $360^\circ$.
+
+  We write $\overset{\frown}{AB}=100^\circ$ for "the arc $AB$ measures $100^\circ$". In one circle, two arcs are equal if they have the same measure.
+  :::
+
+[[P6·4448]]
+If a point $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$ (the angle $\angle AOB$ splits into two angles).
+
+  :::example Minor arc and major arc
+  In the figure above, $\angle AOB=100^\circ$. Find the measures of the minor arc $AB$ and the major arc $AMB$.
+
+  **Solution.** We have $\overset{\frown}{AB}=\angle AOB=100^\circ$ (a minor arc equals the angle at the centre subtending it). Hence
+
+  $$\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  So the minor arc $AB$ measures $100^\circ$ and the major arc $AMB$ measures $260^\circ$.
+  :::
+
+[[P7·9673]]
+Now we answer the question about the clock from the start.
+
+  :::example The minute hand of a clock
+  The minute hand $OA$ is $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves from $A$ to $B$. Find the measure of the arc $AB$ travelled by the tip and the length $AB$ (give your answer to 2 decimal places).
+
+  **Solution.** Each minute the minute hand turns $\dfrac{360^\circ}{60}=6^\circ$, so in $20$ minutes it turns $20\cdot6^\circ=120^\circ$. Hence $\angle AOB=120^\circ$ and $\overset{\frown}{AB}=120^\circ$.
+
+  Draw $OH\perp AB$. The triangle $OAB$ is isosceles, so $OH$ is also an angle bisector, hence $\angle AOH=60^\circ$. In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25.98\ \text{(cm)}.$$
+
+  So the arc measures $120^\circ$ and $AB\approx25.98$ cm.
+  :::
+
+[[P8·d5ea]]
+When three points split a circle into three arcs, we add the measures of arcs.
+
+  :::example Three arcs of a circle
+  Three points $A$, $B$, $C$ split the circle $(O)$ into three arcs $AB$, $BC$, $CA$, none containing the third point, with $\overset{\frown}{AB}=100^\circ$ and $\overset{\frown}{BC}=140^\circ$. Find the measures of the arc $CA$ and the arc $ACB$.
+
+  **Solution.** The three arcs together make the whole circle, so
+
+  $$\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \overset{\frown}{ACB}=\overset{\frown}{BC}+\overset{\frown}{CA}=260^\circ.$$
+
+  So the arc $CA$ measures $120^\circ$ and the arc $ACB$ measures $260^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P9·3b16]]
+- **Forgetting to double for a chord.** Wrong: a chord $6$ cm from the centre of $(O, 10\text{ cm})$ has length $\sqrt{100-36}=8$ cm. Why it is wrong: $8$ cm is only half the chord, $HA$. Right: $AB=16$ cm.
+- **Using the angle at the centre for the major arc.** Wrong: $\angle AOB=70^\circ$, so the major arc $AB$ measures $70^\circ$. Why it is wrong: the angle equals the minor arc only. Right: the major arc measures $290^\circ$.
+:::
+
+## Key terms
+
+  :::terms
+  - chord | dây cung
+  - angle at the centre | góc ở tâm
+  - arc | cung
+  - minor arc / major arc | cung nhỏ / cung lớn
+  - subtended arc | cung bị chắn
+  - semicircle | nửa đường tròn
+  - measure of an arc | số đo cung
+  :::
+
+## Summary
+
+[[P10·7316]]
+- A chord joins two points of a circle; a diameter is the longest chord.
+- If $OH\perp AB$, then $H$ is the midpoint of $AB$ and $AB=2\sqrt{R^2-OH^2}$.
+- A minor arc equals the angle at the centre subtending it; a major arc is $360^\circ$ minus the minor arc; a semicircle is $180^\circ$.
+- If $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

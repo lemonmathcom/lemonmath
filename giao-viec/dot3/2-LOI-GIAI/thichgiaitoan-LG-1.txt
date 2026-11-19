@@ -1,0 +1,910 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-LG-1   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-LG-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – thichgiaitoan-LG-1
+Người làm: tài khoản thichgiaitoan. Gói này có 31 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/thichgiaitoan-LG-1-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/thichgiaitoan-LG-1-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g2/regroup-subtract-1-digit (8 bài tập)
+- g2/regroup-subtract-2-digit (8 bài tập)
+- g2/subtract-within-1000-no-regrouping (7 bài tập)
+- g2/subtraction-crossing-10 (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g2/regroup-subtract-1-digit
+Bài học: Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số / Subtracting a one-digit number from a two-digit number (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $53-7$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $3$ không trừ được $7$, mượn $1$ chục, $13-7=6$. Hàng chục: $5-1=4$. Vậy $53-7=46$.
+
+**Đáp số.** $46$.
+
+[ĐỀ – EN]
+Work out $53-7$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $3$ is too small to take away $7$, so borrow $1$ ten, $13-7=6$. Tens: $5-1=4$. So $53-7=46$.
+
+**Answer.** $46$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $72-5$.
+
+[LỜI GIẢI CŨ – VI]
+$12-5=7$, hàng chục $7-1=6$. Vậy $72-5=67$.
+
+**Đáp số.** $67$.
+
+[ĐỀ – EN]
+Set out the column and work out $72-5$.
+
+[LỜI GIẢI CŨ – EN]
+$12-5=7$, tens $7-1=6$. So $72-5=67$.
+
+**Answer.** $67$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng có nhớ.
+
+a) Tính $29+7$.
+
+b) Dùng kết quả câu a) để tính $36-7$.
+
+[LỜI GIẢI CŨ – VI]
+a) $9+7=16$, viết $6$ nhớ $1$; $2+1=3$. Vậy $29+7=36$.
+
+b) $16-7=9$, hàng chục $3-1=2$. Vậy $36-7=29$, đúng với phép cộng ở câu a).
+
+**Đáp số.** a) $36$; b) $29$.
+
+[ĐỀ – EN]
+Remember addition with regrouping.
+
+a) Work out $29+7$.
+
+b) Use part a) to work out $36-7$.
+
+[LỜI GIẢI CŨ – EN]
+a) $9+7=16$, write $6$ carry $1$; $2+1=3$. So $29+7=36$.
+
+b) $16-7=9$, tens $3-1=2$. So $36-7=29$, which matches the addition in part a).
+
+**Answer.** a) $36$; b) $29$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống.
+
+a) $45-\square=39$.
+
+b) $71-\square=64$.
+
+[LỜI GIẢI CŨ – VI]
+a) Từ $39$ lên $45$ cần $6$. Thử lại: $45-6=39$.
+
+b) Từ $64$ lên $71$ cần $7$. Thử lại: $71-7=64$.
+
+**Đáp số.** a) $6$; b) $7$.
+
+[ĐỀ – EN]
+Find the missing number.
+
+a) $45-\square=39$.
+
+b) $71-\square=64$.
+
+[LỜI GIẢI CŨ – EN]
+a) From $39$ up to $45$ is $6$. Check: $45-6=39$.
+
+b) From $64$ up to $71$ is $7$. Check: $71-7=64$.
+
+**Answer.** a) $6$; b) $7$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $62-8 \;\square\; 55$.
+
+b) $40-3 \;\square\; 37$.
+
+[LỜI GIẢI CŨ – VI]
+a) $62-8=54$. Vì $54<55$ nên $62-8<55$.
+
+b) $40-3=37$. Hai số bằng nhau nên $40-3=37$.
+
+**Đáp số.** a) Dấu $<$; b) Dấu $=$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $62-8 \;\square\; 55$.
+
+b) $40-3 \;\square\; 37$.
+
+[LỜI GIẢI CŨ – EN]
+a) $62-8=54$. Since $54<55$, we have $62-8<55$.
+
+b) $40-3=37$. The two numbers are equal, so $40-3=37$.
+
+**Answer.** a) The sign $<$; b) the sign $=$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn Bình làm bài: $52-7=55$. Bạn Bình làm sai ở đâu? Em hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Bạn Bình lấy $7-2=5$, đó là sai vì phải lấy $2$ trừ $7$. Mượn $1$ chục: $12-7=5$, hàng chục $5-1=4$. Vậy $52-7=45$.
+
+**Đáp số.** Bạn Bình lấy số lớn trừ số nhỏ; đúng là $45$.
+
+[ĐỀ – EN]
+Binh wrote: $52-7=55$. Where did Binh go wrong? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+Binh worked out $7-2=5$, which is wrong because you must take $7$ away from $2$. Borrow $1$ ten: $12-7=5$, tens $5-1=4$. So $52-7=45$.
+
+**Answer.** Binh took the smaller digit from the bigger one; the right answer is $45$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong rổ có $64$ quả cam. Mẹ bán đi $9$ quả cam. Hỏi trong rổ còn lại bao nhiêu quả cam?
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: mượn $1$ chục, $14-9=5$. Hàng chục: $6-1=5$. Số quả cam còn lại là:
+$$64-9=55\ \text{(quả)}.$$
+
+**Đáp số.** $55$ quả cam.
+
+[ĐỀ – EN]
+A basket has $64$ oranges. Mum sells $9$ oranges. How many oranges are left in the basket?
+
+[LỜI GIẢI CŨ – EN]
+Ones: borrow $1$ ten, $14-9=5$. Tens: $6-1=5$. The number of oranges left is:
+$$64-9=55\ \text{(oranges)}.$$
+
+**Answer.** $55$ oranges.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $7\square-8=65$.
+
+[LỜI GIẢI CŨ – VI]
+$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-8=65$ (vì $13-8=5$ và $7-1=6$).
+
+**Đáp số.** Chữ số cần điền là $3$.
+
+[ĐỀ – EN]
+Find the missing digit: $7\square-8=65$.
+
+[LỜI GIẢI CŨ – EN]
+$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-8=65$ (because $13-8=5$ and $7-1=6$).
+
+**Answer.** The missing digit is $3$.
+
+
+######################################################################
+@@@ g2/regroup-subtract-2-digit
+Bài học: Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số / Subtracting a two-digit number from a two-digit number (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $74-36$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $4$ không trừ được $6$, mượn $1$ chục, $14-6=8$. Hàng chục: $7-1-3=3$. Vậy $74-36=38$.
+
+**Đáp số.** $38$.
+
+[ĐỀ – EN]
+Work out $74-36$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $4$ is too small to take away $6$, so borrow $1$ ten, $14-6=8$. Tens: $7-1-3=3$. So $74-36=38$.
+
+**Answer.** $38$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $85-29$.
+
+[LỜI GIẢI CŨ – VI]
+$15-9=6$. Hàng chục: $8-1-2=5$. Vậy $85-29=56$.
+
+**Đáp số.** $56$.
+
+[ĐỀ – EN]
+Set out the column and work out $85-29$.
+
+[LỜI GIẢI CŨ – EN]
+$15-9=6$. Tens: $8-1-2=5$. So $85-29=56$.
+
+**Answer.** $56$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Tính $61-8$.
+
+[LỜI GIẢI CŨ – VI]
+$11-8=3$. Hàng chục: $6-1=5$. Vậy $61-8=53$.
+
+**Đáp số.** $53$.
+
+[ĐỀ – EN]
+Remember the last lesson. Work out $61-8$.
+
+[LỜI GIẢI CŨ – EN]
+$11-8=3$. Tens: $6-1=5$. So $61-8=53$.
+
+**Answer.** $53$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính.
+
+a) $93-47$.
+
+b) $60-25$.
+
+[LỜI GIẢI CŨ – VI]
+a) $13-7=6$; $9-1-4=4$. Vậy $93-47=46$.
+
+b) $10-5=5$; $6-1-2=3$. Vậy $60-25=35$.
+
+**Đáp số.** a) $46$; b) $35$.
+
+[ĐỀ – EN]
+Work out.
+
+a) $93-47$.
+
+b) $60-25$.
+
+[LỜI GIẢI CŨ – EN]
+a) $13-7=6$; $9-1-4=4$. So $93-47=46$.
+
+b) $10-5=5$; $6-1-2=3$. So $60-25=35$.
+
+**Answer.** a) $46$; b) $35$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $71-34 \;\square\; 36$.
+
+b) $56-19 \;\square\; 38$.
+
+[LỜI GIẢI CŨ – VI]
+a) $71-34=37$. Vì $37>36$ nên $71-34>36$.
+
+b) $56-19=37$. Vì $37<38$ nên $56-19<38$.
+
+**Đáp số.** a) Dấu $>$; b) Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $71-34 \;\square\; 36$.
+
+b) $56-19 \;\square\; 38$.
+
+[LỜI GIẢI CŨ – EN]
+a) $71-34=37$. Since $37>36$, we have $71-34>36$.
+
+b) $56-19=37$. Since $37<38$, we have $56-19<38$.
+
+**Answer.** a) The sign $>$; b) the sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn Phương làm bài: $63-27=44$. Bạn Phương làm sai ở đâu? Em hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Bạn Phương lấy $7-3=4$, đó là sai vì phải lấy $3$ trừ $7$. Mượn $1$ chục: $13-7=6$, hàng chục $6-1-2=3$. Vậy $63-27=36$.
+
+**Đáp số.** Bạn Phương lấy số lớn trừ số nhỏ; đúng là $36$.
+
+[ĐỀ – EN]
+Phuong wrote: $63-27=44$. Where did Phuong go wrong? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+Phuong worked out $7-3=4$, which is wrong because you must take $7$ away from $3$. Borrow $1$ ten: $13-7=6$, tens $6-1-2=3$. So $63-27=36$.
+
+**Answer.** Phuong took the smaller digit from the bigger one; the right answer is $36$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Sân trường có $82$ bạn đang chơi. Có $37$ bạn về lớp. Hỏi sân trường còn lại bao nhiêu bạn?
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: mượn $1$ chục, $12-7=5$. Hàng chục: $8-1-3=4$. Số bạn còn lại là:
+$$82-37=45\ \text{(bạn)}.$$
+
+**Đáp số.** $45$ bạn.
+
+[ĐỀ – EN]
+There are $82$ children playing in the school yard. Then $37$ children go back to class. How many children are left in the yard?
+
+[LỜI GIẢI CŨ – EN]
+Ones: borrow $1$ ten, $12-7=5$. Tens: $8-1-3=4$. The number of children left is:
+$$82-37=45\ \text{(children)}.$$
+
+**Answer.** $45$ children.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $7\square-28=45$.
+
+[LỜI GIẢI CŨ – VI]
+$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-28=45$ (vì $13-8=5$ và $7-1-2=4$).
+
+**Đáp số.** Chữ số cần điền là $3$.
+
+[ĐỀ – EN]
+Find the missing digit: $7\square-28=45$.
+
+[LỜI GIẢI CŨ – EN]
+$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-28=45$ (because $13-8=5$ and $7-1-2=4$).
+
+**Answer.** The missing digit is $3$.
+
+
+######################################################################
+@@@ g2/subtract-within-1000-no-regrouping
+Bài học: Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000 / Subtraction within 1,000 (no regrouping). Subtraction within 1,000 (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $786-354$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
+Hàng đơn vị: $6-4=2$. Hàng chục: $8-5=3$. Hàng trăm: $7-3=4$.
+
+**Đáp số.** $432$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $786-354$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
+Ones: $6-4=2$. Tens: $8-5=3$. Hundreds: $7-3=4$.
+
+**Answer.** $432$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính nhẩm: $900-400$ và $640-30$.
+
+[LỜI GIẢI CŨ – VI]
+$9$ trăm trừ $4$ trăm bằng $5$ trăm, nên $900-400=500$.
+
+$64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
+
+**Đáp số.** $500$ và $610$.
+
+[ĐỀ – EN]
+Work out in your head: $900-400$ and $640-30$.
+
+[LỜI GIẢI CŨ – EN]
+$9$ hundreds minus $4$ hundreds is $5$ hundreds, so $900-400=500$.
+
+$64$ tens minus $3$ tens is $61$ tens, so $640-30=610$.
+
+**Answer.** $500$ and $610$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $541-217$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
+Hàng đơn vị: $11-7=4$, hàng chục còn $3$. Hàng chục: $3-1=2$. Hàng trăm: $5-2=3$.
+
+**Đáp số.** $324$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $541-217$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
+Ones: $11-7=4$ and $3$ tens are left. Tens: $3-1=2$. Hundreds: $5-2=3$.
+
+**Answer.** $324$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $625-387$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
+Hàng đơn vị: $15-7=8$, hàng chục còn $1$. Hàng chục: $11-8=3$, hàng trăm còn $5$. Hàng trăm: $5-3=2$.
+
+**Đáp số.** $238$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $625-387$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
+Ones: $15-7=8$ and $1$ ten is left. Tens: $11-8=3$ and $5$ hundreds are left. Hundreds: $5-3=2$.
+
+**Answer.** $238$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cửa hàng có $735$ kg gạo, ngày đầu bán được $258$ kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Số ki-lô-gam gạo cửa hàng còn lại là:
+$$735-258=477\ \text{(kg)}.$$
+Hàng đơn vị: $15-8=7$, hàng chục còn $2$. Hàng chục: $12-5=7$, hàng trăm còn $6$. Hàng trăm: $6-2=4$.
+
+**Đáp số.** $477$ kg gạo.
+
+[ĐỀ – EN]
+A shop has $735$ kg of rice and sold $258$ kg on the first day. How many kilograms of rice are left?
+
+[LỜI GIẢI CŨ – EN]
+The number of kilograms of rice left is:
+$$735-258=477\ \text{(kg)}.$$
+Ones: $15-8=7$ and $2$ tens are left. Tens: $12-5=7$ and $6$ hundreds are left. Hundreds: $6-2=4$.
+
+**Answer.** $477$ kg of rice.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bể nước nhà bác An chứa $650$ lít nước. Sau một tuần dùng, bể hết $275$ lít. Hỏi bể còn lại bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Số lít nước còn lại trong bể là:
+$$650-275=375\ \text{(lít)}.$$
+Hàng đơn vị: $10-5=5$, hàng chục còn $4$. Hàng chục: $14-7=7$, hàng trăm còn $5$. Hàng trăm: $5-2=3$.
+
+**Đáp số.** $375$ lít nước.
+
+[ĐỀ – EN]
+Uncle An's water tank holds $650$ litres. After a week the tank has used $275$ litres. How many litres of water are left in the tank?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres of water left in the tank is:
+$$650-275=375\ \text{(litres)}.$$
+Ones: $10-5=5$ and $4$ tens are left. Tens: $14-7=7$ and $5$ hundreds are left. Hundreds: $5-2=3$.
+
+**Answer.** $375$ litres of water.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính nhanh $400-138$. Gợi ý: viết $400=399+1$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $400-138=(399-138)+1$.
+
+$$399-138=261.$$
+Vậy $400-138=261+1=262$.
+
+Thử lại: $262+138=400$. Đúng.
+
+**Đáp số.** $262$.
+
+[ĐỀ – EN]
+Work out quickly: $400-138$. Hint: write $400=399+1$.
+
+[LỜI GIẢI CŨ – EN]
+We have $400-138=(399-138)+1$.
+
+$$399-138=261.$$
+So $400-138=261+1=262$.
+
+Check: $262+138=400$. Correct.
+
+**Answer.** $262$.
+
+
+######################################################################
+@@@ g2/subtraction-crossing-10
+Bài học: Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10) / Subtraction bridging through 10 (within 20). Subtraction facts bridging through 10
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính, tách số trừ để được 10:
+
+a) $12-5$
+
+b) $14-8$
+
+c) $11-9$
+
+[LỜI GIẢI CŨ – VI]
+a) $12-5=12-2-3=10-3=7$.
+
+b) $14-8=14-4-4=10-4=6$.
+
+c) $11-9=11-1-8=10-8=2$.
+
+**Đáp số.** a) 7; b) 6; c) 2.
+
+[ĐỀ – EN]
+Work out, splitting the number you take away to reach 10:
+
+a) $12-5$
+
+b) $14-8$
+
+c) $11-9$
+
+[LỜI GIẢI CŨ – EN]
+a) $12-5=12-2-3=10-3=7$.
+
+b) $14-8=14-4-4=10-4=6$.
+
+c) $11-9=11-1-8=10-8=2$.
+
+**Answer.** a) 7; b) 6; c) 2.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính nhẩm:
+
+a) $13-7$
+
+b) $16-9$
+
+c) $17-8$
+
+[LỜI GIẢI CŨ – VI]
+a) $13-7=13-3-4=10-4=6$.
+
+b) $16-9=16-6-3=10-3=7$.
+
+c) $17-8=17-7-1=10-1=9$.
+
+**Đáp số.** a) 6; b) 7; c) 9.
+
+[ĐỀ – EN]
+Work out in your head:
+
+a) $13-7$
+
+b) $16-9$
+
+c) $17-8$
+
+[LỜI GIẢI CŨ – EN]
+a) $13-7=13-3-4=10-4=6$.
+
+b) $16-9=16-6-3=10-3=7$.
+
+c) $17-8=17-7-1=10-1=9$.
+
+**Answer.** a) 6; b) 7; c) 9.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Biết $9+8=17$. Viết hai phép trừ tương ứng.
+
+[LỜI GIẢI CŨ – VI]
+Tổng là 17. Ta có:
+$$17-9=8,\qquad 17-8=9.$$
+
+**Đáp số.** $17-9=8$ và $17-8=9$.
+
+[ĐỀ – EN]
+You know that $9+8=17$. Write the two matching subtractions.
+
+[LỜI GIẢI CŨ – EN]
+The sum is 17. We have:
+$$17-9=8,\qquad 17-8=9.$$
+
+**Answer.** $17-9=8$ and $17-8=9$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
+$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
+
+[LỜI GIẢI CŨ – VI]
+Ta có $15-7=8$ và $8<9$.
+Ta có $13-6=7$ và $7=7$.
+Ta có $12-4=8$ và $8>7$.
+
+**Đáp số.** $15-7<9$; $13-6=7$; $12-4>7$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in each box:
+$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
+
+[LỜI GIẢI CŨ – EN]
+We have $15-7=8$ and $8<9$.
+We have $13-6=7$ and $7=7$.
+We have $12-4=8$ and $8>7$.
+
+**Answer.** $15-7<9$; $13-6=7$; $12-4>7$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử trong hộp có 15 viên bi. Nam lấy ra 6 viên bi. Hỏi trong hộp còn lại bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Trong hộp còn lại số viên bi là:
+$$15-6=15-5-1=10-1=9\ \text{(viên)}.$$
+Đáp số: 9 viên bi.
+
+[ĐỀ – EN]
+Suppose there are 15 marbles in a box. Nam takes out 6 marbles. How many marbles are left in the box?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of marbles left in the box is:
+$$15-6=15-5-1=10-1=9\ \text{(marbles)}.$$
+Answer: 9 marbles.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử sân trường có 17 bạn đang chơi. Có 9 bạn đi vào lớp. Hỏi sân trường còn lại bao nhiêu bạn đang chơi?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Sân trường còn lại số bạn đang chơi là:
+$$17-9=17-7-2=10-2=8\ \text{(bạn)}.$$
+Đáp số: 8 bạn.
+
+[ĐỀ – EN]
+Suppose 17 children are playing in the school playground. 9 children go back into class. How many children are still playing in the playground?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of children still playing in the playground is:
+$$17-9=17-7-2=10-2=8\ \text{(children)}.$$
+Answer: 8 children.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài toán về ít hơn. Lan có 14 bông hoa. Mai có ít hơn Lan 6 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Mai có số bông hoa là:
+$$14-6=14-4-2=10-2=8\ \text{(bông)}.$$
+Đáp số: 8 bông hoa.
+
+[ĐỀ – EN]
+Remember the word problems about fewer than. Lan has 14 flowers. Mai has 6 fewer flowers than Lan. How many flowers does Mai have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of flowers Mai has is:
+$$14-6=14-4-2=10-2=8\ \text{(flowers)}.$$
+Answer: 8 flowers.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Trong bảng trừ qua 10, những phép trừ nào có hiệu bằng 9? Em nhận ra điều gì về số bị trừ và số trừ của các phép trừ ấy?
+
+[LỜI GIẢI CŨ – VI]
+Các phép trừ có hiệu bằng 9 là:
+$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
+Từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng 1 và số trừ cũng tăng 1, nên hiệu không đổi.
+
+**Đáp số.** Có 8 phép trừ; số bị trừ và số trừ cùng tăng 1 thì hiệu vẫn bằng 9.
+
+[ĐỀ – EN]
+In the subtraction facts that bridge through 10, which subtractions have a difference of 9? What do you notice about the minuend and the number taken away in those subtractions?
+
+[LỜI GIẢI CŨ – EN]
+The subtractions with a difference of 9 are:
+$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
+From one of these subtractions to the next, the minuend goes up by 1 and the number taken away also goes up by 1, so the difference stays the same.
+
+**Answer.** There are 8 subtractions; when the minuend and the number taken away both go up by 1, the difference is still 9.
+
+
+===== HẾT FILE thichgiaitoan-LG-1 =====

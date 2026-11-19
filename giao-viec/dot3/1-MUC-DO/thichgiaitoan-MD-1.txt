@@ -1,0 +1,1257 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-MD-1   |   VIỆC: gắn mức độ nhận thức (MD-03)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-MD-1-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-03 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 2 → Lớp 3)
+
+Tài khoản thực hiện: thichgiaitoan
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-03 (147 câu)
+
+## Các câu hỏi
+
+### M048 · Lớp 2 · Phép cộng (không nhớ) trong phạm vi 1000. Phép cộng (có nhớ) trong phạm vi 1000
+
+[M048.1] Nhiều lựa chọn
+Kết quả của $145+238$ là
+A. $383$.
+B. $93$.
+C. $373$.
+D. $473$.
+::key A
+$5+8=13$, viết $3$ nhớ $1$; $4+3+1=8$; $1+2=3$, nên tổng là $383$. A quên nhớ sang hàng chục, D nhớ nhầm sang hàng trăm, B là phép trừ $238-145$.
+
+[M048.2] Nhiều lựa chọn
+Tính nhẩm $270+360$ được
+A. $530$.
+B. $630$.
+C. $63$.
+D. $130$.
+::key B
+$27$ chục cộng $36$ chục bằng $63$ chục, tức là $630$. B quên nhớ, C quên chữ số $0$, D chỉ cộng $7+6$.
+
+[M048.3] Nhiều lựa chọn
+Buổi sáng một cửa hàng bán $248$ cái bút, buổi chiều bán $175$ cái bút. Cả hai buổi cửa hàng bán được
+A. $73$ cái bút.
+B. $413$ cái bút.
+C. $423$ cái bút.
+D. $323$ cái bút.
+::key C
+"Cả hai buổi" là gộp lại: $248+175=423$. B quên nhớ ở hàng đơn vị, D quên nhớ ở hàng chục, A là phép trừ $248-175$.
+
+[M048.4] Nhiều lựa chọn
+Phép cộng nào dưới đây có nhớ?
+A. $312+245$.
+B. $230+405$.
+C. $421+354$.
+D. $156+138$.
+::key D
+Ở $156+138$, hàng đơn vị có $6+8=14$, lớn hơn $10$ nên phải nhớ. Ở ba phép còn lại, tổng mỗi hàng đều nhỏ hơn $10$.
+
+[M048.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $358+267$.
+a) Khi đặt tính, chữ số $6$ của $267$ thẳng cột với chữ số $8$ của $358$.
+b) Ở hàng đơn vị, $8+7=15$, viết $5$ nhớ $1$.
+c) Tổng bằng $625$.
+d) Tổng nhỏ hơn $600$.
+::key S Đ Đ S
+a) Sai: chữ số $6$ ở hàng chục, thẳng cột với chữ số $5$ của $358$; chữ số $7$ mới thẳng cột với $8$. b) Đúng: $8+7=15$. c) Đúng: $5+6+1=12$, viết $2$ nhớ $1$; $3+2+1=6$, nên tổng là $625$. d) Sai: $625>600$.
+
+[M048.6] Trả lời ngắn
+Tính $468+275$.
+::key 743
+$8+5=13$, viết $3$ nhớ $1$; $6+7+1=14$, viết $4$ nhớ $1$; $4+2+1=7$. Vậy $468+275=743$.
+
+[M048.7] Trả lời ngắn
+Buổi sáng một bác nông dân thu hoạch được $325$ kg dưa, buổi chiều thu hoạch được $289$ kg dưa. Cả ngày bác thu hoạch được bao nhiêu ki-lô-gam dưa?
+::key 614
+$325+289=614$ (kg): $5+9=14$, viết $4$ nhớ $1$; $2+8+1=11$, viết $1$ nhớ $1$; $3+2+1=6$.
+
+### M049 · Lớp 2 · Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000
+
+[M049.1] Nhiều lựa chọn
+Kết quả của $463-281$ là
+A. $282$.
+B. $182$.
+C. $222$.
+D. $744$.
+::key B
+Hàng chục: $6$ không trừ được $8$, đổi $1$ trăm được $16-8=8$, hàng trăm còn $3$; $3-2=1$, nên hiệu là $182$. A quên bớt $1$ ở hàng trăm, C lấy số bé trừ số lớn ở mỗi hàng, D là phép cộng.
+
+[M049.2] Nhiều lựa chọn
+Kết quả của $534-278$ là
+A. $344$.
+B. $266$.
+C. $256$.
+D. $356$.
+::key C
+$14-8=6$, hàng chục còn $2$; $12-7=5$, hàng trăm còn $4$; $4-2=2$, nên hiệu là $256$. A lấy số bé trừ số lớn ở mỗi hàng, B quên bớt $1$ ở hàng chục, D quên bớt $1$ ở hàng trăm.
+
+[M049.3] Nhiều lựa chọn
+Một trại có $372$ con gà, đã bán $145$ con. Trại còn lại
+A. $237$ con gà.
+B. $233$ con gà.
+C. $517$ con gà.
+D. $227$ con gà.
+::key D
+"Còn lại" là bớt đi: $372-145=227$. B lấy số bé trừ số lớn ở mỗi hàng, C là phép cộng, A quên bớt $1$ ở hàng chục.
+
+[M049.4] Nhiều lựa chọn
+Phép trừ nào dưới đây phải đổi (có nhớ)?
+A. $543-218$.
+B. $696-432$.
+C. $758-325$.
+D. $879-456$.
+::key A
+Ở $543-218$, hàng đơn vị có $3<8$ nên phải đổi. Ở ba phép còn lại, chữ số của số bị trừ ở mọi hàng đều không nhỏ hơn chữ số của số trừ.
+
+[M049.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép trừ $623-358$.
+a) Số bị trừ là $623$.
+b) Hiệu bằng $275$.
+c) $265+358=623$.
+d) Hiệu lớn hơn số bị trừ.
+::key Đ S Đ S
+a) Đúng: số bị trừ là số đứng trước dấu trừ. b) Sai: $13-8=5$, $11-5=6$, $5-3=2$, nên hiệu là $265$. c) Đúng: hiệu cộng số trừ bằng số bị trừ. d) Sai: hiệu $265$ nhỏ hơn $623$.
+
+[M049.6] Trả lời ngắn
+Tính $812-567$.
+::key 245
+$12-7=5$, hàng chục còn $0$; $10-6=4$, hàng trăm còn $7$; $7-5=2$. Vậy $812-567=245$.
+
+[M049.7] Trả lời ngắn
+Một cửa hàng có $540$ hộp sữa, đã bán $285$ hộp. Hỏi cửa hàng còn lại bao nhiêu hộp sữa?
+::key 255
+$540-285=255$ (hộp): $10-5=5$, hàng chục còn $3$; $13-8=5$, hàng trăm còn $4$; $4-2=2$.
+
+### M050 · Lớp 2 · Thu thập, phân loại, kiểm đếm số liệu. Biểu đồ tranh
+
+[M050.1] Nhiều lựa chọn
+Trong bảng kiểm đếm, màu đỏ được ghi là $\cancel{\mid\mid\mid\mid}\ \mid\mid\mid$. Số bạn chọn màu đỏ là
+A. $8$.
+B. $5$.
+C. $7$.
+D. $3$.
+::key A
+Nhóm gạch chéo là $5$ bạn, cộng thêm $3$ vạch lẻ: $5+3=8$. Phương án C coi nhóm gạch chéo là $4$, phương án B chỉ đếm nhóm gạch chéo, phương án D chỉ đếm các vạch lẻ.
+
+[M050.2] Nhiều lựa chọn
+Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bóng đá" có ●●●●●. Số bạn thích bóng đá là
+A. $5$.
+B. $10$.
+C. $7$.
+D. $2$.
+::key B
+Có $5$ hình ●, mỗi ● là $2$ bạn, nên có $5\times 2=10$ bạn. Phương án A quên đọc chú thích, phương án C cộng $5+2$.
+
+[M050.3] Nhiều lựa chọn
+Bảng số liệu: Cam $9$ bạn, Chuối $7$ bạn, Táo $4$ bạn. Số bạn thích cam nhiều hơn số bạn thích táo là
+A. $13$.
+B. $2$.
+C. $5$.
+D. $3$.
+::key C
+"Nhiều hơn" là phép trừ: $9-4=5$. Phương án A là phép cộng, phương án B là $9-7$, phương án D là $7-4$: các phép trừ đó dùng sai hai loại quả.
+
+[M050.4] Nhiều lựa chọn
+Biểu đồ tranh, mỗi ● là $2$ quyển: Thứ Hai ●●●, Thứ Ba ●●●●. Cả hai ngày mượn được
+A. $7$ quyển.
+B. $12$ quyển.
+C. $34$ quyển.
+D. $14$ quyển.
+::key D
+Thứ Hai: $3\times 2=6$ quyển; Thứ Ba: $4\times 2=8$ quyển; $6+8=14$. Phương án A chỉ cộng số hình ●, phương án C ghép hai chữ số $3$ và $4$.
+
+[M050.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Bảng số liệu cho biết số bạn thích mỗi trò chơi: Kéo co $8$ bạn, Nhảy dây $11$ bạn, Cờ vua $6$ bạn.
+a) Nhảy dây được nhiều bạn thích nhất.
+b) Kéo co có nhiều bạn thích hơn Cờ vua.
+c) Cả ba trò chơi có $24$ bạn thích.
+d) Nhảy dây nhiều hơn Cờ vua $5$ bạn.
+::key Đ Đ S Đ
+a) Đúng: $11>8>6$. b) Đúng: $8>6$. c) Sai: $8+11+6=25$, không phải $24$. d) Đúng: $11-6=5$.
+
+[M050.6] Trả lời ngắn
+Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bơi" có $7$ hình ●. Có bao nhiêu bạn thích bơi?
+::key 14
+$7\times 2=14$ bạn.
+
+[M050.7] Trả lời ngắn
+Tổ Một nhặt $16$ túi rác, Tổ Hai nhặt $9$ túi, Tổ Ba nhặt $14$ túi. Cả ba tổ nhặt được bao nhiêu túi rác?
+::key 39
+$16+9+14=39$ (túi): $16+9=25$, rồi $25+14=39$.
+
+### M051 · Lớp 2 · Chắc chắn, có thể, không thể
+
+[M051.1] Nhiều lựa chọn
+Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
+A. Có thể lấy được bi đỏ.
+B. Không thể lấy được bi xanh.
+C. Chắc chắn lấy được bi xanh.
+D. Chắc chắn lấy được bi đỏ.
+::key A
+Hộp có bi đỏ nhưng cũng có bi xanh, nên lấy được bi đỏ là có thể.
+
+[M051.2] Nhiều lựa chọn
+Hộp có $6$ viên bi vàng. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
+A. Có thể lấy được bi đỏ.
+B. Chắc chắn lấy được bi vàng.
+C. Không thể lấy được bi vàng.
+D. Có thể lấy được bi xanh.
+::key B
+Hộp chỉ có bi vàng nên lần nào cũng lấy được bi vàng.
+
+[M051.3] Nhiều lựa chọn
+Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là không thể?
+A. Lấy được bi xanh.
+B. Lấy được bi đỏ.
+C. Lấy được bi vàng.
+D. Lấy được bi đỏ hoặc bi xanh.
+::key C
+Hộp không có bi vàng nên không bao giờ lấy được bi vàng.
+
+[M051.4] Nhiều lựa chọn
+Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là chắc chắn?
+A. Lấy được bi đỏ.
+B. Lấy được bi xanh.
+C. Lấy được bi vàng.
+D. Lấy được bi đỏ hoặc bi xanh.
+::key D
+Mọi viên bi đều là đỏ hoặc xanh nên sự kiện C lần nào cũng xảy ra.
+
+[M051.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một vòng quay chia thành $6$ phần bằng nhau: $4$ phần đỏ và $2$ phần xanh. Em quay và kim dừng lại ở một phần.
+a) Kim dừng ở màu đỏ là chắc chắn.
+b) Kim dừng ở màu xanh là có thể.
+c) Kim dừng ở màu vàng là không thể.
+d) Kim dừng ở màu đỏ dễ xảy ra hơn ở màu xanh.
+::key S Đ Đ Đ
+a) Sai: vòng quay còn có phần xanh, nên chỉ là có thể. b) Đúng: có $2$ phần xanh. c) Đúng: không có phần vàng. d) Đúng: $4>2$.
+
+[M051.6] Trả lời ngắn
+Hộp có $7$ viên bi đỏ và $5$ viên bi xanh. Hộp có tất cả bao nhiêu viên bi?
+::key 12
+$7+5=12$ (viên).
+
+[M051.7] Trả lời ngắn
+Hộp có $9$ viên bi đỏ và $4$ viên bi xanh. Số bi đỏ nhiều hơn số bi xanh bao nhiêu viên?
+::key 5
+$9-4=5$ (viên).
+
+### M052 · Lớp 3 · Tìm thành phần trong phép cộng, phép trừ
+
+[M052.1] Nhiều lựa chọn
+Tìm $\square$, biết $\square+7=19$.
+A. $26$.
+B. $22$.
+C. $12$.
+D. $19$.
+::key C
+$\square=19-7=12$. Phương án A là lỗi cộng $19+7$ thay vì trừ.
+
+[M052.2] Nhiều lựa chọn
+Tìm $\square$, biết $15-\square=6$.
+A. $21$.
+B. $8$.
+C. $11$.
+D. $9$.
+::key D
+$\square$ là số trừ nên $\square=15-6=9$. Phương án A là lỗi cộng $15+6$.
+
+[M052.3] Nhiều lựa chọn
+Tìm $\square$, biết $\square-14=25$.
+A. $39$.
+B. $11$.
+C. $40$.
+D. $29$.
+::key A
+$\square$ là số bị trừ nên $\square=25+14=39$. Phương án B là lỗi trừ $25-14$.
+
+[M052.4] Nhiều lựa chọn
+Hà có một số nhãn vở. Hà mua thêm $16$ cái thì có $50$ cái. Lúc đầu Hà có bao nhiêu nhãn vở?
+A. $66$ cái.
+B. $34$ cái.
+C. $44$ cái.
+D. $36$ cái.
+::key B
+Ta có $\square+16=50$ nên $\square=50-16=34$. Phương án A là lỗi cộng $50+16$.
+
+[M052.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép tính $\square+24=70$.
+a) Số cần tìm bằng $70-24$.
+b) Số cần tìm bằng $46$.
+c) Số cần tìm bằng $94$.
+d) Thử lại: $46+24=70$.
+::key Đ Đ S Đ
+a) Đúng: số hạng chưa biết bằng tổng trừ số hạng đã biết. b) Đúng: $70-24=46$. c) Sai: $94$ là $70+24$, và $94+24=118$. d) Đúng: $46+24=70$.
+
+[M052.6] Trả lời ngắn
+Tìm $\square$, biết $63-\square=29$.
+::key 34
+$\square$ là số trừ nên $\square=63-29=34$.
+
+[M052.7] Trả lời ngắn
+Trong sọt có một số quả cam. Mẹ lấy ra $18$ quả thì còn $27$ quả. Lúc đầu trong sọt có bao nhiêu quả cam?
+::key 45
+Ta có $\square-18=27$ nên $\square=27+18=45$ (quả).
+
+### M053 · Lớp 3 · Bảng nhân 3, bảng chia 3
+
+[M053.1] Nhiều lựa chọn
+Kết quả của $3\times 6$ là
+A. $9$.
+B. $18$.
+C. $15$.
+D. $21$.
+::key B
+$3\times 6=3\times 5+3=15+3=18$. Phương án A là lỗi cộng $3+6$ thay vì nhân.
+
+[M053.2] Nhiều lựa chọn
+Kết quả của $27:3$ là
+A. $9$.
+B. $24$.
+C. $8$.
+D. $30$.
+::key A
+Vì $3\times 9=27$ nên $27:3=9$. Phương án B là lỗi lấy $27-3$, phương án D là lỗi lấy $27+3$.
+
+[M053.3] Nhiều lựa chọn
+Phép tính nào dưới đây đúng?
+A. $3\times 4=7$.
+B. $3\times 7=24$.
+C. $3\times 5=18$.
+D. $3\times 9=27$.
+::key D
+$3\times 9=3\times 8+3=24+3=27$. Các phép tính khác lần lượt thành $12$, $21$, $15$.
+
+[M053.4] Nhiều lựa chọn
+Có $18$ chiếc bánh xếp đều vào các hộp, mỗi hộp $3$ chiếc. Xếp được bao nhiêu hộp?
+A. $15$ hộp.
+B. $6$ hộp.
+C. $21$ hộp.
+D. $54$ hộp.
+::key B
+Em chia thành các nhóm $3$: $18:3=6$ (hộp). Phương án A là lấy $18-3$, C là lấy $18+3$, D là lấy $18\times 3$.
+
+[M053.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Biết $3\times 8=24$. Em xét các phép tính sau.
+a) $24:3=8$.
+b) $3\times 9=24+6$.
+c) $3\times 7=24-3$.
+d) $24:3=21$.
+::key Đ S Đ S
+a) Đúng: từ $3\times 8=24$ ta có $24:3=8$. b) Sai: $3\times 9=27=24+3$. c) Đúng: $3\times 7=21=24-3$. d) Sai: $24:3=8$, còn $21$ là kết quả của $24-3$.
+
+[M053.6] Trả lời ngắn
+Hà cắm hoa vào bình, mỗi bình $3$ bông. Hà cắm $9$ bình. Hà có tất cả bao nhiêu bông hoa?
+::key 27
+$3\times 9=27$ (bông hoa).
+
+[M053.7] Trả lời ngắn
+Cô chia đều $30$ cái kẹo cho $3$ bạn. Mỗi bạn được bao nhiêu cái kẹo?
+::key 10
+$30:3=10$, vì $3\times 10=30$ (cái kẹo).
+
+### M054 · Lớp 3 · Bảng nhân 4, bảng chia 4
+
+[M054.1] Nhiều lựa chọn
+Kết quả của $4\times6$ là
+A. $10$.
+B. $28$.
+C. $20$.
+D. $24$.
+::key D
+$4\times6=4\times5+4=20+4=24$. Phương án A là lỗi cộng $4+6$.
+
+[M054.2] Nhiều lựa chọn
+Kết quả của $4\times7$ là
+A. $28$.
+B. $32$.
+C. $24$.
+D. $11$.
+::key A
+$4\times7=24+4=28$. Phương án C là $4\times6$, thiếu một nhóm $4$.
+
+[M054.3] Nhiều lựa chọn
+Kết quả của $32:4$ là
+A. $9$.
+B. $8$.
+C. $7$.
+D. $28$.
+::key B
+Vì $4\times8=32$ nên $32:4=8$. Phương án C là $28:4$.
+
+[M054.4] Nhiều lựa chọn
+Mỗi chuồng có $4$ con thỏ. Hỏi $9$ chuồng như vậy có bao nhiêu con thỏ?
+A. $13$ con.
+B. $32$ con.
+C. $36$ con.
+D. $40$ con.
+::key C
+$9$ nhóm, mỗi nhóm $4$ con: $4\times9=36$. Phương án A là lỗi cộng $4+9$.
+
+[M054.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $4\times8=32$.
+a) $4\times8=4\times7+4$.
+b) $32:4=8$.
+c) $32:8=4$.
+d) $4\times8$ lớn hơn $36$.
+::key Đ Đ Đ S
+a) Đúng: $28+4=32$. b) Đúng: $4\times8=32$. c) Đúng: $8\times4=32$. d) Sai: $32<36$.
+
+[M054.6] Trả lời ngắn
+Tính $4\times9$.
+::key 36
+$4\times9=4\times8+4=32+4=36$.
+
+[M054.7] Trả lời ngắn
+Có $40$ cái bút, xếp vào các hộp, mỗi hộp $4$ cái bút. Hỏi xếp được bao nhiêu hộp?
+::key 10
+$40:4=10$ (hộp), vì $4\times10=40$.
+
+### M055 · Lớp 3 · Bảng nhân 6, bảng chia 6
+
+[M055.1] Nhiều lựa chọn
+Kết quả của $6\times5$ là
+A. $11$.
+B. $30$.
+C. $36$.
+D. $25$.
+::key B
+$6\times5=6\times4+6=24+6=30$. Phương án A là lỗi cộng $6+5$.
+
+[M055.2] Nhiều lựa chọn
+Kết quả của $6\times8$ là
+A. $42$.
+B. $54$.
+C. $48$.
+D. $14$.
+::key C
+$6\times8=42+6=48$. Phương án A là $6\times7$, thiếu một nhóm $6$.
+
+[M055.3] Nhiều lựa chọn
+Kết quả của $54:6$ là
+A. $8$.
+B. $9$.
+C. $10$.
+D. $48$.
+::key B
+Vì $6\times9=54$ nên $54:6=9$. Phương án A là lỗi nhớ nhầm $6\times8=48$.
+
+[M055.4] Nhiều lựa chọn
+Mỗi hộp có $6$ chiếc bánh. Hỏi $7$ hộp như vậy có bao nhiêu chiếc bánh?
+A. $13$ chiếc.
+B. $36$ chiếc.
+C. $42$ chiếc.
+D. $48$ chiếc.
+::key C
+$7$ nhóm, mỗi nhóm $6$ chiếc: $6\times7=42$. Phương án A là lỗi cộng $6+7$.
+
+[M055.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $6\times6=36$.
+a) $6\times6=6\times5+6$.
+b) $36:6=6$.
+c) $36:9=6$.
+d) $6\times6$ bé hơn $30$.
+::key Đ Đ S S
+a) Đúng: $30+6=36$. b) Đúng: $6\times6=36$. c) Sai: $36:9=4$. d) Sai: $36>30$.
+
+[M055.6] Trả lời ngắn
+Tính $6\times9$.
+::key 54
+$6\times9=6\times10-6=60-6=54$.
+
+[M055.7] Trả lời ngắn
+Có $48$ quả trứng xếp vào các vỉ, mỗi vỉ $6$ quả. Hỏi xếp được bao nhiêu vỉ?
+::key 8
+$48:6=8$ (vỉ), vì $6\times8=48$.
+
+### M056 · Lớp 3 · Bảng nhân 7, bảng chia 7
+
+[M056.1] Nhiều lựa chọn
+Kết quả của $7\times4$ là
+A. $11$.
+B. $28$.
+C. $21$.
+D. $35$.
+::key B
+$7\times4=7\times3+7=21+7=28$. Phương án A là lỗi cộng $7+4$.
+
+[M056.2] Nhiều lựa chọn
+Kết quả của $7\times8$ là
+A. $49$.
+B. $54$.
+C. $56$.
+D. $15$.
+::key C
+$7\times8=49+7=56$. Phương án B là lỗi nhớ nhầm tích.
+
+[M056.3] Nhiều lựa chọn
+Kết quả của $63:7$ là
+A. $8$.
+B. $9$.
+C. $7$.
+D. $56$.
+::key B
+Vì $7\times9=63$ nên $63:7=9$. Phương án A là lỗi nhớ nhầm $7\times8=56$.
+
+[M056.4] Nhiều lựa chọn
+Mỗi tuần lễ có $7$ ngày. Hỏi $9$ tuần lễ có bao nhiêu ngày?
+A. $16$ ngày.
+B. $56$ ngày.
+C. $63$ ngày.
+D. $70$ ngày.
+::key C
+$9$ nhóm, mỗi nhóm $7$ ngày: $7\times9=63$. Phương án A là lỗi cộng $7+9$.
+
+[M056.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $7\times7=49$.
+a) $7\times7=7\times6+7$.
+b) $49:7=7$.
+c) $49:7=8$.
+d) $7\times7$ lớn hơn $50$.
+::key Đ Đ S S
+a) Đúng: $42+7=49$. b) Đúng: $7\times7=49$. c) Sai: $7\times8=56$, không phải $49$. d) Sai: $49<50$.
+
+[M056.6] Trả lời ngắn
+Tính $7\times9$.
+::key 63
+$7\times9=7\times10-7=70-7=63$.
+
+[M056.7] Trả lời ngắn
+Một chuyến đi dài $56$ ngày. Hỏi chuyến đi dài bao nhiêu tuần lễ?
+::key 8
+$56:7=8$ (tuần), vì $7\times8=56$.
+
+### M057 · Lớp 3 · Bảng nhân 8, bảng chia 8
+
+[M057.1] Nhiều lựa chọn
+Kết quả của $8\times5$ là
+A. $13$.
+B. $40$.
+C. $45$.
+D. $35$.
+::key B
+$8\times5=8\times4+8=32+8=40$. Phương án A là lỗi cộng $8+5$.
+
+[M057.2] Nhiều lựa chọn
+Kết quả của $8\times7$ là
+A. $54$.
+B. $48$.
+C. $56$.
+D. $15$.
+::key C
+$8\times7=48+8=56$. Phương án B là $8\times6$, thiếu một nhóm $8$.
+
+[M057.3] Nhiều lựa chọn
+Kết quả của $72:8$ là
+A. $8$.
+B. $9$.
+C. $10$.
+D. $64$.
+::key B
+Vì $8\times9=72$ nên $72:8=9$. Phương án A là lỗi nhớ nhầm $8\times8=64$.
+
+[M057.4] Nhiều lựa chọn
+Mỗi hộp có $8$ cây bút chì. Hỏi $6$ hộp như vậy có bao nhiêu cây bút chì?
+A. $14$ cây.
+B. $42$ cây.
+C. $48$ cây.
+D. $56$ cây.
+::key C
+$6$ nhóm, mỗi nhóm $8$ cây: $8\times6=48$. Phương án A là lỗi cộng $8+6$.
+
+[M057.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $8\times8=64$.
+a) $8\times8=8\times7+8$.
+b) $64:8=8$.
+c) $64:4=8$.
+d) $8\times8$ bé hơn $60$.
+::key Đ Đ S S
+a) Đúng: $56+8=64$. b) Đúng: $8\times8=64$. c) Sai: $64:4=16$. d) Sai: $64>60$.
+
+[M057.6] Trả lời ngắn
+Tính $8\times9$.
+::key 72
+$8\times9=8\times10-8=80-8=72$.
+
+[M057.7] Trả lời ngắn
+Có $48$ cái bánh chia vào các hộp, mỗi hộp $8$ cái. Hỏi chia được bao nhiêu hộp?
+::key 6
+$48:8=6$ (hộp), vì $8\times6=48$.
+
+### M058 · Lớp 3 · Bảng nhân 9, bảng chia 9
+
+[M058.1] Nhiều lựa chọn
+Kết quả của $9\times4$ là
+A. $36$.
+B. $13$.
+C. $45$.
+D. $32$.
+::key A
+$9\times4=40-4=36$. Phương án B là lỗi cộng $9+4$, phương án D là $8\times4$.
+
+[M058.2] Nhiều lựa chọn
+Kết quả của $9\times7$ là
+A. $54$.
+B. $63$.
+C. $72$.
+D. $16$.
+::key B
+$9\times7=70-7=63$. Phương án A là $9\times6$, thiếu một nhóm $9$.
+
+[M058.3] Nhiều lựa chọn
+Kết quả của $54:9$ là
+A. $5$.
+B. $7$.
+C. $6$.
+D. $45$.
+::key C
+Vì $9\times6=54$ nên $54:9=6$. Phương án A là lỗi nhớ nhầm $9\times5=45$.
+
+[M058.4] Nhiều lựa chọn
+Mỗi hàng có $9$ cái ghế. Hỏi $5$ hàng như vậy có bao nhiêu cái ghế?
+A. $14$ cái.
+B. $36$ cái.
+C. $54$ cái.
+D. $45$ cái.
+::key D
+$5$ nhóm, mỗi nhóm $9$ cái: $9\times5=45$. Phương án A là lỗi cộng $9+5$.
+
+[M058.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $9\times6=54$.
+a) $9\times6=60-6$.
+b) $54:9=6$.
+c) Tổng hai chữ số của $54$ bằng $9$.
+d) $54:6=8$.
+::key Đ Đ Đ S
+a) Đúng: $60-6=54$. b) Đúng: $9\times6=54$. c) Đúng: $5+4=9$. d) Sai: $54:6=9$.
+
+[M058.6] Trả lời ngắn
+Tính $9\times9$.
+::key 81
+$9\times9=90-9=81$.
+
+[M058.7] Trả lời ngắn
+Có $63$ cái bánh xếp vào các đĩa, mỗi đĩa $9$ cái. Hỏi xếp được bao nhiêu đĩa?
+::key 7
+$63:9=7$ (đĩa), vì $9\times7=63$.
+
+### M059 · Lớp 3 · Tìm thành phần trong phép nhân, phép chia
+
+[M059.1] Nhiều lựa chọn
+Tìm $\square$, biết $\square\times7=42$.
+A. $49$.
+B. $6$.
+C. $35$.
+D. $7$.
+::key B
+$\square=42:7=6$. Phương án A là $42+7$, phương án C là $42-7$.
+
+[M059.2] Nhiều lựa chọn
+Tìm $\square$, biết $\square:6=8$.
+A. $14$.
+B. $48$.
+C. $2$.
+D. $8$.
+::key B
+$\square$ là số bị chia nên $\square=8\times6=48$. Phương án A là lỗi cộng $8+6$.
+
+[M059.3] Nhiều lựa chọn
+Tìm $\square$, biết $40:\square=5$.
+A. $200$.
+B. $35$.
+C. $8$.
+D. $45$.
+::key C
+$\square$ là số chia nên $\square=40:5=8$. Phương án A là lỗi nhân $40\times5$.
+
+[M059.4] Nhiều lựa chọn
+Có $54$ viên bi chia đều vào các túi, mỗi túi $9$ viên. Hỏi có bao nhiêu túi?
+A. $63$ túi.
+B. $45$ túi.
+C. $6$ túi.
+D. $486$ túi.
+::key C
+Ta có $9\times\square=54$ nên $\square=54:9=6$. Phương án D là lỗi nhân $54\times9$.
+
+[M059.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép tính $\square\times8=56$.
+a) $\square=56:8$.
+b) $\square=7$.
+c) $\square=64$.
+d) Thử lại: $7\times8=56$.
+::key Đ Đ S Đ
+a) Đúng: thừa số chưa biết bằng tích chia thừa số đã biết. b) Đúng: $56:8=7$. c) Sai: $64$ là $56+8$, và $64\times8=512$. d) Đúng: $7\times8=56$.
+
+[M059.6] Trả lời ngắn
+Tìm $\square$, biết $72:\square=9$.
+::key 8
+$\square$ là số chia nên $\square=72:9=8$.
+
+[M059.7] Trả lời ngắn
+Một số quyển vở chia đều cho $7$ bạn, mỗi bạn $9$ quyển. Hỏi có tất cả bao nhiêu quyển vở?
+::key 63
+Ta có $\square:7=9$ nên $\square=9\times7=63$ (quyển).
+
+### M060 · Lớp 3 · Một phần mấy
+
+[M060.1] Nhiều lựa chọn
+Chia đều một chiếc bánh cho $6$ bạn. Mỗi bạn được mấy phần chiếc bánh?
+A. $\dfrac{1}{5}$.
+B. $\dfrac{1}{6}$.
+C. $6$.
+D. $\dfrac{1}{7}$.
+::key B
+Chiếc bánh chia thành $6$ phần bằng nhau, mỗi phần là $\dfrac{1}{6}$. Phương án C là lỗi viết số phần thay cho phân số.
+
+[M060.2] Nhiều lựa chọn
+Kết quả của $\dfrac{1}{3}$ của $18$ là
+A. $54$.
+B. $15$.
+C. $6$.
+D. $3$.
+::key C
+Ta chia: $18:3=6$. Phương án A là lỗi nhân $18\times3$, phương án B là lỗi trừ $18-3$.
+
+[M060.3] Nhiều lựa chọn
+Kết quả của $\dfrac{1}{8}$ của $40$ là
+A. $5$.
+B. $32$.
+C. $48$.
+D. $8$.
+::key A
+$40:8=5$. Phương án B là lỗi trừ $40-8$, phương án C là lỗi cộng $40+8$.
+
+[M060.4] Nhiều lựa chọn
+Trong các phân số $\dfrac{1}{2}$, $\dfrac{1}{3}$, $\dfrac{1}{5}$, $\dfrac{1}{9}$, phân số nào lớn nhất?
+A. $\dfrac{1}{2}$.
+B. $\dfrac{1}{3}$.
+C. $\dfrac{1}{5}$.
+D. $\dfrac{1}{9}$.
+::key A
+Chia thành càng ít phần bằng nhau thì mỗi phần càng lớn, nên $\dfrac{1}{2}$ lớn nhất. Phương án D là lỗi cho rằng số $9$ lớn hơn thì phần lớn hơn.
+
+[M060.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hình chữ nhật được chia thành $4$ phần bằng nhau.
+a) Mỗi phần là $\dfrac{1}{4}$ hình.
+b) $\dfrac{1}{4}$ của $20$ là $5$.
+c) $\dfrac{1}{4}$ của $20$ là $80$.
+d) Mỗi phần là $\dfrac{1}{5}$ hình.
+::key Đ Đ S S
+a) Đúng: $4$ phần bằng nhau. b) Đúng: $20:4=5$. c) Sai: $80$ là $20\times4$. d) Sai: có $4$ phần chứ không phải $5$.
+
+[M060.6] Trả lời ngắn
+Tìm $\dfrac{1}{7}$ của $56$.
+::key 8
+$56:7=8$.
+
+[M060.7] Trả lời ngắn
+Hộp có $45$ viên bi. Bình lấy $\dfrac{1}{9}$ số bi. Hỏi Bình lấy bao nhiêu viên bi?
+::key 5
+$45:9=5$ (viên bi).
+
+### M061 · Lớp 3 · Điểm ở giữa, trung điểm của đoạn thẳng
+
+[M061.1] Nhiều lựa chọn
+$M$ là trung điểm của đoạn thẳng $AB=14$ cm. Độ dài $AM$ là
+A. $28$ cm.
+B. $7$ cm.
+C. $14$ cm.
+D. $12$ cm.
+::key B
+$AM=14:2=7$ cm. Phương án A là lỗi nhân $14\times2$, phương án C là lỗi quên chia đôi.
+
+[M061.2] Nhiều lựa chọn
+$M$ là trung điểm của đoạn thẳng $CD$ và $MC=6$ cm. Độ dài $CD$ là
+A. $3$ cm.
+B. $6$ cm.
+C. $12$ cm.
+D. $36$ cm.
+::key C
+$CD=6\times2=12$ cm. Phương án A là lỗi chia đôi thay vì nhân đôi.
+
+[M061.3] Nhiều lựa chọn
+Trên một đường thẳng có bốn điểm $E$, $F$, $G$, $H$ theo thứ tự từ trái sang phải. Những điểm nào nằm giữa $E$ và $H$?
+A. Chỉ $F$.
+B. $F$ và $G$.
+C. Chỉ $G$.
+D. Không có điểm nào.
+::key B
+Đi từ $E$ đến $H$ ta qua $F$ rồi $G$. Phương án A bỏ sót $G$.
+
+[M061.4] Nhiều lựa chọn
+Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi
+A. $M$ nằm giữa $A$ và $B$.
+B. $MA=MB$.
+C. $M$ nằm giữa $A$, $B$ và $MA=MB$.
+D. $AB=2$ cm.
+::key C
+Cần cả hai điều kiện: nằm giữa và cách đều hai đầu. Phương án A và B mỗi cái chỉ có một điều kiện.
+
+[M061.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+$M$ là trung điểm của đoạn thẳng $AB=18$ cm.
+a) $AM=MB$.
+b) $AM=9$ cm.
+c) $AB=2\times AM$.
+d) $MB=18$ cm.
+::key Đ Đ Đ S
+a) Đúng: $M$ là trung điểm. b) Đúng: $18:2=9$. c) Đúng: $2\times9=18$. d) Sai: $MB=9$ cm.
+
+[M061.6] Trả lời ngắn
+$M$ là trung điểm của đoạn thẳng $AB=26$ cm. Tính $AM$ (đơn vị: cm).
+::key 13
+$AM=26:2=13$ (cm).
+
+[M061.7] Trả lời ngắn
+Trường học là trung điểm của đoạn đường từ nhà An đến nhà Bình, dài $18$ km. Hỏi từ nhà An đến trường dài bao nhiêu ki-lô-mét?
+::key 9
+$18:2=9$ (km).
+
+### M062 · Lớp 3 · Hình tròn. Tâm, bán kính, đường kính của hình tròn
+
+[M062.1] Nhiều lựa chọn
+Hình tròn có bán kính $7$ cm. Đường kính của hình tròn là
+A. $14$ cm.
+B. $7$ cm.
+C. $3$ cm.
+D. $49$ cm.
+::key A
+Đường kính gấp đôi bán kính: $7\times2=14$ cm. Phương án B là lỗi nhầm bán kính với đường kính.
+
+[M062.2] Nhiều lựa chọn
+Hình tròn có đường kính $18$ cm. Bán kính của hình tròn là
+A. $36$ cm.
+B. $9$ cm.
+C. $18$ cm.
+D. $8$ cm.
+::key B
+Bán kính bằng một nửa đường kính: $18:2=9$ cm. Phương án A là lỗi nhân đôi.
+
+[M062.3] Nhiều lựa chọn
+Trong hình tròn tâm $O$, các điểm $A$, $B$, $C$ nằm trên đường tròn và $O$ nằm trên đoạn $AB$. Đoạn nào là đường kính?
+A. $OA$.
+B. $OC$.
+C. $AB$.
+D. $AC$.
+::key C
+Chỉ $AB$ đi qua tâm và có hai đầu trên đường tròn. $OA$ và $OC$ là bán kính, còn $AC$ không đi qua tâm.
+
+[M062.4] Nhiều lựa chọn
+Muốn vẽ hình tròn bán kính $6$ cm, em mở com-pa
+A. $3$ cm.
+B. $6$ cm.
+C. $12$ cm.
+D. $36$ cm.
+::key B
+Độ mở com-pa bằng bán kính, tức $6$ cm. Phương án C là lỗi lấy đường kính.
+
+[M062.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình tròn tâm $O$ có đường kính $AB=20$ cm.
+a) Bán kính của hình tròn là $10$ cm.
+b) $OA=OB$.
+c) $O$ là trung điểm của $AB$.
+d) Bán kính dài hơn đường kính.
+::key Đ Đ Đ S
+a) Đúng: $20:2=10$. b) Đúng: hai bán kính bằng nhau. c) Đúng: $O$ nằm giữa $A$, $B$ và $OA=OB$. d) Sai: bán kính chỉ bằng một nửa đường kính.
+
+[M062.6] Trả lời ngắn
+Hình tròn có bán kính $15$ cm. Tính đường kính (đơn vị: cm).
+::key 30
+$15\times2=30$ (cm).
+
+[M062.7] Trả lời ngắn
+Hình tròn có đường kính $26$ cm. Tính bán kính (đơn vị: cm).
+::key 13
+$26:2=13$ (cm).
+
+### M063 · Lớp 3 · Góc, góc vuông, góc không vuông
+
+[M063.1] Nhiều lựa chọn
+Dụng cụ nào dùng để kiểm tra góc vuông?
+A. Thước kẻ.
+B. Ê-ke.
+C. Com-pa.
+D. Cái cân.
+::key B
+Ê-ke có một góc vuông để so với góc cần kiểm tra. Phương án A là lỗi dùng thước kẻ để đo độ dài.
+
+[M063.2] Nhiều lựa chọn
+Góc đỉnh $O$, cạnh $OA$ và $OB$. Đỉnh của góc là
+A. $A$.
+B. $B$.
+C. $O$.
+D. $AB$.
+::key C
+Đỉnh là điểm chung của hai cạnh $OA$ và $OB$, tức là $O$.
+
+[M063.3] Nhiều lựa chọn
+Đồ vật nào sau đây có góc vuông?
+A. Hai kim đồng hồ lúc $1$ giờ.
+B. Mái nhà hình chữ A.
+C. Góc quyển vở.
+D. Chữ cái $V$.
+::key C
+Góc quyển vở khớp ê-ke. Các phương án còn lại chụm hẹp hơn góc vuông.
+
+[M063.4] Nhiều lựa chọn
+Phát biểu nào đúng?
+A. Góc có cạnh dài hơn thì lớn hơn.
+B. Hai góc vuông luôn bằng nhau dù độ dài cạnh khác nhau.
+C. Góc vuông luôn có cạnh dài $3$ cm.
+D. Mọi góc đều là góc vuông.
+::key B
+Độ dài cạnh không làm đổi việc góc có vuông hay không. Phương án A là lỗi hay gặp khi nhìn bằng mắt.
+
+[M063.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em dùng ê-ke để kiểm tra góc đỉnh $O$.
+a) Nếu hai cạnh của góc trùng hai cạnh của ê-ke thì đó là góc vuông.
+b) Nếu cạnh ê-ke hở ra khỏi góc thì đó là góc không vuông.
+c) Chỉ cần nhìn bằng mắt là chắc chắn góc vuông.
+d) Độ dài hai cạnh của góc quyết định góc có vuông hay không.
+::key Đ Đ S S
+a) Đúng: khớp ê-ke là góc vuông. b) Đúng: hở ra là góc không vuông. c) Sai: mắt dễ nhầm. d) Sai: độ dài cạnh không quyết định.
+
+[M063.6] Trả lời ngắn
+Chữ cái $L$ viết đẹp có mấy góc vuông?
+::key 1
+Hai nét của chữ $L$ gặp nhau ở một góc vuông.
+
+[M063.7] Trả lời ngắn
+Một tờ giấy hình chữ nhật có $4$ góc vuông. Cắt bỏ một góc bằng một nhát cắt thẳng. Tờ giấy còn lại mấy góc vuông?
+::key 3
+Cắt bỏ một góc vuông thì còn $4-1=3$ góc vuông.
+
+### M064 · Lớp 3 · Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông
+
+[M064.1] Nhiều lựa chọn
+Hình nào có $4$ góc vuông và $4$ cạnh bằng nhau?
+A. Hình tam giác.
+B. Hình chữ nhật có chiều dài khác chiều rộng.
+C. Hình vuông.
+D. Hình có $3$ đỉnh.
+::key C
+Chỉ hình vuông có đủ $4$ góc vuông và $4$ cạnh bằng nhau. Phương án B có cạnh không bằng nhau.
+
+[M064.2] Nhiều lựa chọn
+Hình chữ nhật $ABCD$ có $AB=8$ cm, $BC=5$ cm. Độ dài $CD$ là
+A. $5$ cm.
+B. $8$ cm.
+C. $13$ cm.
+D. $3$ cm.
+::key B
+$CD$ đối diện $AB$ nên $CD=8$ cm. Phương án A là độ dài $BC$, phương án C là lỗi cộng hai cạnh.
+
+[M064.3] Nhiều lựa chọn
+Hình tứ giác có bao nhiêu đỉnh?
+A. $3$.
+B. $4$.
+C. $5$.
+D. $2$.
+::key B
+Hình tứ giác có $4$ đỉnh và $4$ cạnh. Phương án A là số đỉnh của hình tam giác.
+
+[M064.4] Nhiều lựa chọn
+Nam ghép $4$ que, mỗi que dài $6$ cm, thành một hình vuông. Tổng độ dài các que là
+A. $10$ cm.
+B. $12$ cm.
+C. $24$ cm.
+D. $6$ cm.
+::key C
+$6\times4=24$ (cm). Phương án B là $6\times2$, thiếu hai que.
+
+[M064.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình vuông $MNPQ$ có cạnh $4$ cm.
+a) Hình có $4$ góc vuông.
+b) $NP=4$ cm.
+c) $NP$ dài hơn $MN$.
+d) Tổng độ dài bốn cạnh là $16$ cm.
+::key Đ Đ S Đ
+a) Đúng: hình vuông có $4$ góc vuông. b) Đúng: $4$ cạnh bằng nhau. c) Sai: $NP=MN=4$ cm. d) Đúng: $4\times4=16$ (cm).
+
+[M064.6] Trả lời ngắn
+Hình chữ nhật $EFGH$ có $EF=9$ cm, $FG=4$ cm. Độ dài $HG$ bằng bao nhiêu xăng-ti-mét?
+::key 9
+$HG$ đối diện $EF$ nên $HG=EF=9$ cm.
+
+[M064.7] Trả lời ngắn
+Một tấm bìa hình vuông có cạnh $7$ cm. Tổng độ dài bốn cạnh là bao nhiêu xăng-ti-mét?
+::key 28
+$7\times4=28$ (cm).
+
+### M065 · Lớp 3 · Khối lập phương, khối hộp hình chữ nhật
+
+[M065.1] Nhiều lựa chọn
+Khối lập phương có bao nhiêu mặt?
+A. $4$.
+B. $6$.
+C. $8$.
+D. $12$.
+::key B
+Khối lập phương có $6$ mặt. Phương án C là số đỉnh, phương án D là số cạnh.
+
+[M065.2] Nhiều lựa chọn
+Mỗi mặt của khối lập phương là hình gì?
+A. Hình tam giác.
+B. Hình chữ nhật có hai cạnh khác nhau.
+C. Hình vuông.
+D. Hình tròn.
+::key C
+Các mặt của khối lập phương đều là hình vuông bằng nhau. Phương án B là mặt của khối hộp chữ nhật.
+
+[M065.3] Nhiều lựa chọn
+Khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $9$ cm, rộng $4$ cm. Mặt nắp đối diện có kích thước là
+A. dài $9$ cm, rộng $4$ cm.
+B. dài $9$ cm, rộng $9$ cm.
+C. dài $4$ cm, rộng $4$ cm.
+D. dài $13$ cm, rộng $4$ cm.
+::key A
+Hai mặt đối diện bằng nhau nên mặt nắp cũng dài $9$ cm, rộng $4$ cm. Phương án D là lỗi cộng hai số.
+
+[M065.4] Nhiều lựa chọn
+Xếp các khối nhỏ thành $3$ lớp, mỗi lớp $5$ khối. Có tất cả bao nhiêu khối?
+A. $8$.
+B. $15$.
+C. $53$.
+D. $10$.
+::key B
+$5\times3=15$ (khối). Phương án A là lỗi cộng $5+3$.
+
+[M065.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét khối lập phương.
+a) Có $6$ mặt.
+b) Mỗi mặt là hình vuông.
+c) Có $6$ đỉnh.
+d) Có $12$ cạnh.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: các mặt đều là hình vuông. c) Sai: có $8$ đỉnh. d) Đúng: có $12$ cạnh.
+
+[M065.6] Trả lời ngắn
+Khối lập phương có bao nhiêu đỉnh?
+::key 8
+Khối lập phương có $8$ đỉnh.
+
+[M065.7] Trả lời ngắn
+Xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp $9$ khối. Có tất cả bao nhiêu khối?
+::key 27
+$9\times3=27$ (khối).
+
+### M066 · Lớp 3 · Nhân số có hai chữ số với số có một chữ số
+
+[M066.1] Nhiều lựa chọn
+Kết quả của $32\times3$ là
+A. $96$.
+B. $36$.
+C. $69$.
+D. $35$.
+::key A
+$2\times3=6$ và $3\times3=9$ nên $32\times3=96$. Phương án B là lỗi quên nhân hàng chục.
+
+[M066.2] Nhiều lựa chọn
+Kết quả của $24\times4$ là
+A. $86$.
+B. $96$.
+C. $28$.
+D. $106$.
+::key B
+$4\times4=16$, viết $6$ nhớ $1$; $2\times4=8$, thêm $1$ được $9$. Phương án A là lỗi quên số nhớ.
+
+[M066.3] Nhiều lựa chọn
+Mỗi hộp có $15$ cái kẹo. Có $6$ hộp thì có tất cả bao nhiêu cái kẹo?
+A. $60$.
+B. $80$.
+C. $90$.
+D. $21$.
+::key C
+$5\times6=30$, viết $0$ nhớ $3$; $1\times6=6$, thêm $3$ được $9$. Vậy $90$ cái kẹo. Phương án A là lỗi quên số nhớ.
+
+[M066.4] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $68$?
+A. $17\times3$.
+B. $18\times4$.
+C. $16\times4$.
+D. $17\times4$.
+::key D
+$17\times4=68$. Các phép tính còn lại lần lượt bằng $51$, $64$, $72$.
+
+[M066.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $26\times3$.
+a) $6\times3=18$, viết $8$ nhớ $1$.
+b) $2\times3=6$, thêm $1$ nhớ được $7$.
+c) $26\times3=68$.
+d) $26\times3=78$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng. c) Sai: kết quả là $78$, không phải $68$. d) Đúng: viết $7$ ở hàng chục và $8$ ở hàng đơn vị.
+
+[M066.6] Trả lời ngắn
+Tính $17\times5$.
+::key 85
+$7\times5=35$, viết $5$ nhớ $3$; $1\times5=5$, thêm $3$ được $8$. Vậy $85$.
+
+[M066.7] Trả lời ngắn
+Phòng học có $8$ hàng ghế, mỗi hàng có $12$ ghế. Phòng có tất cả bao nhiêu ghế?
+::key 96
+$12\times8$: $2\times8=16$, viết $6$ nhớ $1$; $1\times8=8$, thêm $1$ được $9$. Vậy $96$ (ghế).
+
+### M067 · Lớp 3 · Gấp một số lên một số lần. Giảm một số đi một số lần
+
+[M067.1] Nhiều lựa chọn
+Gấp $8$ lên $6$ lần được
+A. $48$.
+B. $2$.
+C. $14$.
+D. $86$.
+::key A
+$8\times 6=48$. A cộng $8+6$, B trừ $8-6$, D ghép hai chữ số.
+
+[M067.2] Nhiều lựa chọn
+Giảm $56$ đi $7$ lần được
+A. $63$.
+B. $8$.
+C. $392$.
+D. $49$.
+::key B
+$56:7=8$. A cộng, D trừ, C nhân.
+
+[M067.3] Nhiều lựa chọn
+Một trại nuôi $7$ con vịt. Số gà gấp $5$ lần số vịt. Trại có bao nhiêu con gà?
+A. $2$ con gà.
+B. $12$ con gà.
+C. $35$ con gà.
+D. $75$ con gà.
+::key C
+"Gấp $5$ lần" là nhân: $7\times 5=35$. B cộng, A trừ, D ghép hai chữ số.
+
+[M067.4] Nhiều lựa chọn
+Một tấm vải dài $42$ m. Tấm vải thứ hai có độ dài bằng tấm thứ nhất giảm đi $6$ lần. Tấm thứ hai dài
+A. $36$ m.
+B. $252$ m.
+C. $48$ m.
+D. $7$ m.
+::key D
+"Giảm đi $6$ lần" là chia: $42:6=7$ (m). A trừ, C cộng, B nhân.
+
+[M067.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các phép tính với số $9$ và số $36$.
+a) Gấp $9$ lên $4$ lần được $13$.
+b) Giảm $36$ đi $4$ lần được $9$.
+c) Giảm một số đi $4$ lần thì nhân số đó với $4$.
+d) Gấp $9$ lên $4$ lần rồi giảm đi $4$ lần lại được $9$.
+::key S Đ S Đ
+a) Sai: gấp lên là nhân, $9\times 4=36$. b) Đúng: $36:4=9$. c) Sai: giảm đi thì chia cho $4$. d) Đúng: $9\times 4=36$, rồi $36:4=9$.
+
+[M067.6] Trả lời ngắn
+Gấp $13$ lên $5$ lần được bao nhiêu?
+::key 65
+$13\times 5=65$.
+
+[M067.7] Trả lời ngắn
+Chị Mai có $72$ bông hoa. Số hoa của Lan bằng số hoa của chị Mai giảm đi $9$ lần. Lan có bao nhiêu bông hoa?
+::key 8
+$72:9=8$ (bông hoa).
+
+### M068 · Lớp 3 · Phép chia hết, phép chia có dư. Chia số có hai chữ số cho số có một chữ số
+
+[M068.1] Nhiều lựa chọn
+Kết quả của $23:5$ là
+A. $3$ dư $8$.
+B. $4$ dư $3$.
+C. $5$ dư $3$.
+D. $18$.
+::key B
+$5\times 4=20$ và $23-20=3$, nên $23:5=4$ (dư $3$). B có số dư lớn hơn số chia, C làm tròn lên, D là $23-5$.
+
+[M068.2] Nhiều lựa chọn
+Kết quả của $84:4$ là
+A. $2$.
+B. $20$.
+C. $21$.
+D. $12$.
+::key C
+$8$ chục chia $4$ được $2$ chục, hạ $4$ chia $4$ được $1$, nên $84:4=21$. A quên hạ chữ số, B quên chia $4$ đơn vị, D đảo chữ số.
+
+[M068.3] Nhiều lựa chọn
+Kết quả của $59:4$ là
+A. $14$ dư $4$.
+B. $13$ dư $7$.
+C. $14$.
+D. $14$ dư $3$.
+::key D
+$59:4=14$ (dư $3$), vì $14\times 4=56$ và $59-56=3$. A và B có số dư không bé hơn số chia, C bỏ quên số dư.
+
+[M068.4] Nhiều lựa chọn
+Lớp có $47$ bạn xếp thành các hàng, mỗi hàng $6$ bạn. Cần ít nhất bao nhiêu hàng?
+A. $8$ hàng.
+B. $7$ hàng.
+C. $5$ hàng.
+D. $9$ hàng.
+::key A
+$47:6=7$ (dư $5$), còn $5$ bạn cần thêm $1$ hàng nữa nên cần $8$ hàng. A bỏ quên số dư, C là số dư, D thừa một hàng.
+
+[M068.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép chia $38:5$.
+a) $38:5=7$ (dư $3$).
+b) Thử lại: $7\times 5+3=38$.
+c) $38:5=6$ (dư $8$).
+d) Khi chia cho $5$, số dư có thể bằng $5$.
+::key Đ Đ S S
+a) Đúng: $5\times 7=35$ và $38-35=3$. b) Đúng: $35+3=38$. c) Sai: số dư $8$ lớn hơn số chia $5$. d) Sai: số dư phải bé hơn $5$.
+
+[M068.6] Trả lời ngắn
+Tính $78:6$.
+::key 13
+$7$ chục chia $6$ được $1$ chục, dư $1$ chục; hạ $8$ được $18$, $18:6=3$. Vậy $78:6=13$.
+
+[M068.7] Trả lời ngắn
+Tìm số dư của phép chia $53:8$.
+::key 5
+$8\times 6=48$ và $53-48=5$, nên $53:8=6$ (dư $5$).

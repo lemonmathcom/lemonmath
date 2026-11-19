@@ -1,0 +1,948 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-LG-2   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-LG-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-LG-2
+Người làm: tài khoản Lemonmath.com. Gói này có 31 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-LG-2-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-LG-2-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g3/missing-numbers-add-subtract (8 bài tập)
+- g3/missing-numbers-multiply-divide (8 bài tập)
+- g3/multiply-2-digit-by-1-digit (8 bài tập)
+- g3/multiply-3-digit-by-1-digit (7 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g3/missing-numbers-add-subtract
+Bài học: Tìm thành phần trong phép cộng, phép trừ / Finding missing numbers in addition and subtraction
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm $\square$, biết $\square+8=15$.
+
+[LỜI GIẢI CŨ – VI]
+$\square=15-8=7$.
+
+**Thử lại.** $7+8=15$. Đúng.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Find $\square$ when $\square+8=15$.
+
+[LỜI GIẢI CŨ – EN]
+$\square=15-8=7$.
+
+**Check.** $7+8=15$. Correct.
+
+**Answer.** $7$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm $\square$, biết $24+\square=40$.
+
+[LỜI GIẢI CŨ – VI]
+$\square=40-24=16$.
+
+**Thử lại.** $24+16=40$. Đúng.
+
+**Đáp số.** $16$.
+
+[ĐỀ – EN]
+Find $\square$ when $24+\square=40$.
+
+[LỜI GIẢI CŨ – EN]
+$\square=40-24=16$.
+
+**Check.** $24+16=40$. Correct.
+
+**Answer.** $16$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại phép cộng có nhớ: tính $46+28$. Rồi tìm $\square$, biết $\square+28=74$.
+
+[LỜI GIẢI CŨ – VI]
+$46+28=74$ (vì $6+8=14$, viết $4$ nhớ $1$; $4+2+1=7$). Từ $\square+28=74$ ta có $\square=74-28=46$.
+
+**Đáp số.** $46+28=74$ và $\square=46$.
+
+[ĐỀ – EN]
+Remember addition with regrouping: work out $46+28$. Then find $\square$ when $\square+28=74$.
+
+[LỜI GIẢI CŨ – EN]
+$46+28=74$ (because $6+8=14$, write $4$ and regroup $1$; $4+2+1=7$). From $\square+28=74$ we get $\square=74-28=46$.
+
+**Answer.** $46+28=74$ and $\square=46$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số bị trừ, biết số trừ là $9$ và hiệu là $30$, tức là $\square-9=30$.
+
+[LỜI GIẢI CŨ – VI]
+$\square=30+9=39$.
+
+**Thử lại.** $39-9=30$. Đúng.
+
+**Đáp số.** $39$.
+
+[ĐỀ – EN]
+Find the minuend when the subtrahend is $9$ and the difference is $30$, that is $\square-9=30$.
+
+[LỜI GIẢI CŨ – EN]
+$\square=30+9=39$.
+
+**Check.** $39-9=30$. Correct.
+
+**Answer.** $39$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Với mỗi phép tính, em chọn phép cộng hay phép trừ để tìm $\square$? Vì sao? Rồi tìm $\square$.
+
+a) $\square+15=40$.
+
+b) $\square-15=40$.
+
+c) $40-\square=15$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\square$ là số hạng: lấy tổng trừ số hạng, $\square=40-15=25$.
+
+b) $\square$ là số bị trừ: lấy hiệu cộng số trừ, $\square=40+15=55$.
+
+c) $\square$ là số trừ: lấy số bị trừ trừ hiệu, $\square=40-15=25$.
+
+**Đáp số.** a) $25$; b) $55$; c) $25$.
+
+[ĐỀ – EN]
+For each sum, do you add or subtract to find $\square$? Why? Then find $\square$.
+
+a) $\square+15=40$.
+
+b) $\square-15=40$.
+
+c) $40-\square=15$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\square$ is an addend: sum minus addend, $\square=40-15=25$.
+
+b) $\square$ is the minuend: difference plus subtrahend, $\square=40+15=55$.
+
+c) $\square$ is the subtrahend: minuend minus difference, $\square=40-15=25$.
+
+**Answer.** a) $25$; b) $55$; c) $25$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai giải bài $63-\square=45$ như sau: "$\square=63+45=108$". Bạn Mai làm sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Mai đã cộng, nhưng $\square$ là số trừ nên phải lấy số bị trừ trừ đi hiệu: $\square=63-45=18$.
+
+**Thử lại.** $63-18=45$. Đúng.
+
+**Đáp số.** Mai sai phép tính; $\square=18$.
+
+[ĐỀ – EN]
+Mai solved $63-\square=45$ like this: "$\square=63+45=108$". Where did Mai go wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+Mai added, but $\square$ is the subtrahend, so we subtract the difference from the minuend: $\square=63-45=18$.
+
+**Check.** $63-18=45$. Correct.
+
+**Answer.** Mai used the wrong operation; $\square=18$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+a) Cô giáo có một số quyển vở. Cô phát cho lớp $35$ quyển thì còn lại $18$ quyển. Hỏi lúc đầu cô có bao nhiêu quyển vở?
+
+b) Buổi sáng cửa hàng bán $27$ kg gạo. Cả ngày cửa hàng bán được $60$ kg gạo. Hỏi buổi chiều cửa hàng bán bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+a) Gọi số vở lúc đầu là $\square$: $\square-35=18$, nên $\square=18+35=53$ (quyển).
+
+b) Gọi số gạo bán buổi chiều là $\square$: $27+\square=60$, nên $\square=60-27=33$ (kg).
+
+**Đáp số.** a) $53$ quyển vở; b) $33$ kg gạo.
+
+[ĐỀ – EN]
+a) A teacher has some exercise books. She gives $35$ to the class and has $18$ left. How many books did she have at the start?
+
+b) A shop sold $27$ kg of rice in the morning. It sold $60$ kg in the whole day. How many kilograms of rice did it sell in the afternoon?
+
+[LỜI GIẢI CŨ – EN]
+a) Let the starting number be $\square$: $\square-35=18$, so $\square=18+35=53$ (books).
+
+b) Let the afternoon amount be $\square$: $27+\square=60$, so $\square=60-27=33$ (kg).
+
+**Answer.** a) $53$ books; b) $33$ kg of rice.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm $\square$.
+
+a) $\square+28=100-35$.
+
+b) $90-\square=47+16$.
+
+[LỜI GIẢI CŨ – VI]
+a) $100-35=65$, nên $\square+28=65$ và $\square=65-28=37$. Thử lại: $37+28=65$.
+
+b) $47+16=63$, nên $90-\square=63$ và $\square=90-63=27$. Thử lại: $90-27=63$.
+
+**Đáp số.** a) $37$; b) $27$.
+
+[ĐỀ – EN]
+Find $\square$.
+
+a) $\square+28=100-35$.
+
+b) $90-\square=47+16$.
+
+[LỜI GIẢI CŨ – EN]
+a) $100-35=65$, so $\square+28=65$ and $\square=65-28=37$. Check: $37+28=65$.
+
+b) $47+16=63$, so $90-\square=63$ and $\square=90-63=27$. Check: $90-27=63$.
+
+**Answer.** a) $37$; b) $27$.
+
+
+######################################################################
+@@@ g3/missing-numbers-multiply-divide
+Bài học: Tìm thành phần trong phép nhân, phép chia / Finding missing numbers in multiplication and division
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm $\square$:
+
+a) $\square\times3=18$.
+
+b) $4\times\square=32$.
+
+c) $\square\times9=81$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\square=18:3=6$. Thử lại: $6\times3=18$.
+
+b) $\square=32:4=8$. Thử lại: $4\times8=32$.
+
+c) $\square=81:9=9$. Thử lại: $9\times9=81$.
+
+**Đáp số.** a) $6$; b) $8$; c) $9$.
+
+[ĐỀ – EN]
+Find $\square$:
+
+a) $\square\times3=18$.
+
+b) $4\times\square=32$.
+
+c) $\square\times9=81$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\square=18\div3=6$. Check: $6\times3=18$.
+
+b) $\square=32\div4=8$. Check: $4\times8=32$.
+
+c) $\square=81\div9=9$. Check: $9\times9=81$.
+
+**Answer.** a) $6$; b) $8$; c) $9$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm số bị chia $\square$:
+
+a) $\square:5=6$.
+
+b) $\square:8=4$.
+
+c) $\square:9=7$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\square=6\times5=30$. Thử lại: $30:5=6$.
+
+b) $\square=4\times8=32$. Thử lại: $32:8=4$.
+
+c) $\square=7\times9=63$. Thử lại: $63:9=7$.
+
+**Đáp số.** a) $30$; b) $32$; c) $63$.
+
+[ĐỀ – EN]
+Find the missing dividend $\square$:
+
+a) $\square\div5=6$.
+
+b) $\square\div8=4$.
+
+c) $\square\div9=7$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\square=6\times5=30$. Check: $30\div5=6$.
+
+b) $\square=4\times8=32$. Check: $32\div8=4$.
+
+c) $\square=7\times9=63$. Check: $63\div9=7$.
+
+**Answer.** a) $30$; b) $32$; c) $63$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bảng nhân $9$. Tính $9\times6$. Rồi tìm $\square$, biết $\square\times9=54$ và tìm $54:9$.
+
+[LỜI GIẢI CŨ – VI]
+$9\times6=60-6=54$. Từ $\square\times9=54$ ta có $\square=54:9=6$.
+
+**Đáp số.** $9\times6=54$; $\square=6$ và $54:9=6$.
+
+[ĐỀ – EN]
+Remember the $9$ times table. Work out $9\times6$. Then find $\square$ when $\square\times9=54$ and work out $54\div9$.
+
+[LỜI GIẢI CŨ – EN]
+$9\times6=60-6=54$. From $\square\times9=54$ we get $\square=54\div9=6$.
+
+**Answer.** $9\times6=54$; $\square=6$ and $54\div9=6$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số chia $\square$:
+
+a) $24:\square=3$.
+
+b) $56:\square=7$.
+
+c) $90:\square=9$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\square=24:3=8$. Thử lại: $24:8=3$.
+
+b) $\square=56:7=8$. Thử lại: $56:8=7$.
+
+c) $\square=90:9=10$. Thử lại: $90:10=9$.
+
+**Đáp số.** a) $8$; b) $8$; c) $10$.
+
+[ĐỀ – EN]
+Find the missing divisor $\square$:
+
+a) $24\div\square=3$.
+
+b) $56\div\square=7$.
+
+c) $90\div\square=9$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\square=24\div3=8$. Check: $24\div8=3$.
+
+b) $\square=56\div7=8$. Check: $56\div8=7$.
+
+c) $\square=90\div9=10$. Check: $90\div10=9$.
+
+**Answer.** a) $8$; b) $8$; c) $10$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Với mỗi phép tính, em chọn phép nhân hay phép chia để tìm $\square$? Vì sao? Rồi tìm $\square$.
+
+a) $\square\times6=48$.
+
+b) $\square:6=8$.
+
+c) $48:\square=6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\square$ là thừa số: lấy tích chia thừa số, $\square=48:6=8$.
+
+b) $\square$ là số bị chia: lấy thương nhân số chia, $\square=8\times6=48$.
+
+c) $\square$ là số chia: lấy số bị chia chia thương, $\square=48:6=8$.
+
+**Đáp số.** a) $8$; b) $48$; c) $8$.
+
+[ĐỀ – EN]
+For each sum, do you multiply or divide to find $\square$? Why? Then find $\square$.
+
+a) $\square\times6=48$.
+
+b) $\square\div6=8$.
+
+c) $48\div\square=6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\square$ is a factor: product divided by factor, $\square=48\div6=8$.
+
+b) $\square$ is the dividend: quotient times divisor, $\square=8\times6=48$.
+
+c) $\square$ is the divisor: dividend divided by quotient, $\square=48\div6=8$.
+
+**Answer.** a) $8$; b) $48$; c) $8$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan giải bài $36:\square=4$ như sau: "$\square=36\times4=144$". Bạn Lan làm sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Lan đã nhân, nhưng $\square$ là số chia nên phải lấy số bị chia chia cho thương: $\square=36:4=9$.
+
+**Thử lại.** $36:9=4$. Đúng.
+
+**Đáp số.** Lan dùng sai phép tính; $\square=9$.
+
+[ĐỀ – EN]
+Lan solved $36\div\square=4$ like this: "$\square=36\times4=144$". Where did Lan go wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+Lan multiplied, but $\square$ is the divisor, so we divide the dividend by the quotient: $\square=36\div4=9$.
+
+**Check.** $36\div9=4$. Correct.
+
+**Answer.** Lan used the wrong operation; $\square=9$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+a) Có $72$ cái bánh xếp vào các hộp, mỗi hộp $8$ cái. Hỏi xếp được bao nhiêu hộp?
+
+b) Một số cây bút chia đều cho $7$ bạn, mỗi bạn $6$ cây. Hỏi có tất cả bao nhiêu cây bút?
+
+[LỜI GIẢI CŨ – VI]
+a) Gọi số hộp là $\square$: $8\times\square=72$, nên $\square=72:8=9$ (hộp).
+
+b) Gọi số bút là $\square$: $\square:7=6$, nên $\square=6\times7=42$ (cây).
+
+**Đáp số.** a) $9$ hộp; b) $42$ cây bút.
+
+[ĐỀ – EN]
+a) $72$ cakes are put into boxes, $8$ cakes in each box. How many boxes are filled?
+
+b) Some pens are shared equally among $7$ children, $6$ pens each. How many pens are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+a) Let the number of boxes be $\square$: $8\times\square=72$, so $\square=72\div8=9$ (boxes).
+
+b) Let the number of pens be $\square$: $\square\div7=6$, so $\square=6\times7=42$ (pens).
+
+**Answer.** a) $9$ boxes; b) $42$ pens.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm $\square$.
+
+a) $\square\times6=4\times9$.
+
+b) $63:\square=3\times3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times9=36$, nên $\square\times6=36$ và $\square=36:6=6$. Thử lại: $6\times6=36$.
+
+b) $3\times3=9$, nên $63:\square=9$ và $\square=63:9=7$. Thử lại: $63:7=9$.
+
+**Đáp số.** a) $6$; b) $7$.
+
+[ĐỀ – EN]
+Find $\square$.
+
+a) $\square\times6=4\times9$.
+
+b) $63\div\square=3\times3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times9=36$, so $\square\times6=36$ and $\square=36\div6=6$. Check: $6\times6=36$.
+
+b) $3\times3=9$, so $63\div\square=9$ and $\square=63\div9=7$. Check: $63\div7=9$.
+
+**Answer.** a) $6$; b) $7$.
+
+
+######################################################################
+@@@ g3/multiply-2-digit-by-1-digit
+Bài học: Nhân số có hai chữ số với số có một chữ số / Multiplying a two-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $21\times4$.
+
+[LỜI GIẢI CŨ – VI]
+$1\times4=4$; $2\times4=8$. Vậy $21\times4=84$.
+
+**Đáp số.** $84$.
+
+[ĐỀ – EN]
+Work out $21\times4$.
+
+[LỜI GIẢI CŨ – EN]
+$1\times4=4$; $2\times4=8$. So $21\times4=84$.
+
+**Answer.** $84$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $13\times3$.
+
+[LỜI GIẢI CŨ – VI]
+$3\times3=9$; $1\times3=3$. Vậy $13\times3=39$.
+
+**Đáp số.** $39$.
+
+[ĐỀ – EN]
+Work out $13\times3$.
+
+[LỜI GIẢI CŨ – EN]
+$3\times3=9$; $1\times3=3$. So $13\times3=39$.
+
+**Answer.** $39$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $18\times4$.
+
+[LỜI GIẢI CŨ – VI]
+$8\times4=32$, viết $2$ nhớ $3$. $1\times4=4$, thêm $3$ được $7$. Vậy $18\times4=72$.
+
+**Đáp số.** $72$.
+
+[ĐỀ – EN]
+Work out $18\times4$.
+
+[LỜI GIẢI CŨ – EN]
+$8\times4=32$, write $2$ and carry $3$. $1\times4=4$, and adding $3$ gives $7$. So $18\times4=72$.
+
+**Answer.** $72$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $25\times3$.
+
+[LỜI GIẢI CŨ – VI]
+$5\times3=15$, viết $5$ nhớ $1$. $2\times3=6$, thêm $1$ được $7$. Vậy $25\times3=75$.
+
+**Đáp số.** $75$.
+
+[ĐỀ – EN]
+Work out $25\times3$.
+
+[LỜI GIẢI CŨ – EN]
+$5\times3=15$, write $5$ and carry $1$. $2\times3=6$, and adding $1$ gives $7$. So $25\times3=75$.
+
+**Answer.** $75$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $14\times5 \;\square\; 70$.
+
+[LỜI GIẢI CŨ – VI]
+$4\times5=20$, viết $0$ nhớ $2$. $1\times5=5$, thêm $2$ được $7$. Vậy $14\times5=70$.
+
+**Đáp số.** Dấu $=$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $14\times5 \;\square\; 70$.
+
+[LỜI GIẢI CŨ – EN]
+$4\times5=20$, write $0$ and carry $2$. $1\times5=5$, and adding $2$ gives $7$. So $14\times5=70$.
+
+**Answer.** The sign $=$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mỗi túi có $23$ viên bi. Hỏi $4$ túi như thế có bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Số viên bi có tất cả là:
+$$23\times4=92\ \text{(viên)}.$$
+
+**Đáp số.** $92$ viên bi.
+
+[ĐỀ – EN]
+Each bag has $23$ marbles. How many marbles are in $4$ such bags?
+
+[LỜI GIẢI CŨ – EN]
+The number of marbles altogether is:
+$$23\times4=92\ \text{(marbles)}.$$
+
+**Answer.** $92$ marbles.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: một khối hộp xếp từ các khối lập phương nhỏ gồm $4$ lớp, mỗi lớp có $12$ khối. Hỏi có tất cả bao nhiêu khối nhỏ?
+
+[LỜI GIẢI CŨ – VI]
+Số khối nhỏ là:
+$$12\times4=48\ \text{(khối)}.$$
+
+**Đáp số.** $48$ khối.
+
+[ĐỀ – EN]
+Remember the last lesson: a cuboid is built from small cubes in $4$ layers with $12$ cubes in each layer. How many small cubes are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of small cubes is:
+$$12\times4=48\ \text{(cubes)}.$$
+
+**Answer.** $48$ cubes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống: $\square\times4=52$.
+
+[LỜI GIẢI CŨ – VI]
+Số cần tìm là $52:4=13$.
+
+**Kiểm tra.** $13\times4=52$. Đúng.
+
+**Đáp số.** $13$.
+
+[ĐỀ – EN]
+Find the missing number: $\square\times4=52$.
+
+[LỜI GIẢI CŨ – EN]
+The missing number is $52\div4=13$.
+
+**Check.** $13\times4=52$. Correct.
+
+**Answer.** $13$.
+
+
+######################################################################
+@@@ g3/multiply-3-digit-by-1-digit
+Bài học: Nhân số có ba chữ số với số có một chữ số. Chia số có ba chữ số cho số có một chữ số / Multiplying a three-digit number by a one-digit number. Dividing a three-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $213\times 3$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
+Hàng đơn vị: $3\times 3=9$. Hàng chục: $1\times 3=3$. Hàng trăm: $2\times 3=6$.
+
+**Đáp số.** $639$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $213\times 3$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
+Ones: $3\times 3=9$. Tens: $1\times 3=3$. Hundreds: $2\times 3=6$.
+
+**Answer.** $639$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $152\times 4$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
+Hàng đơn vị: $2\times 4=8$. Hàng chục: $5\times 4=20$, viết $0$ nhớ $2$. Hàng trăm: $1\times 4=4$, thêm $2$ được $6$.
+
+**Đáp số.** $608$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $152\times 4$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
+Ones: $2\times 4=8$. Tens: $5\times 4=20$, write $0$ and regroup $2$. Hundreds: $1\times 4=4$, add $2$ to make $6$.
+
+**Answer.** $608$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $307\times 3$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
+Hàng đơn vị: $7\times 3=21$, viết $1$ nhớ $2$. Hàng chục: $0\times 3=0$, thêm $2$ được $2$. Hàng trăm: $3\times 3=9$.
+
+**Đáp số.** $921$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $307\times 3$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
+Ones: $7\times 3=21$, write $1$ and regroup $2$. Tens: $0\times 3=0$, add $2$ to make $2$. Hundreds: $3\times 3=9$.
+
+**Answer.** $921$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Mỗi thùng sách có $125$ quyển. Hỏi $5$ thùng như vậy có tất cả bao nhiêu quyển sách?
+
+[LỜI GIẢI CŨ – VI]
+Số quyển sách trong $5$ thùng là:
+$$125\times 5=625\ \text{(quyển)}.$$
+Hàng đơn vị: $5\times 5=25$, viết $5$ nhớ $2$. Hàng chục: $2\times 5=10$, thêm $2$ được $12$, viết $2$ nhớ $1$. Hàng trăm: $1\times 5=5$, thêm $1$ được $6$.
+
+**Đáp số.** $625$ quyển sách.
+
+[ĐỀ – EN]
+Each crate holds $125$ books. How many books are there in $5$ crates like this?
+
+[LỜI GIẢI CŨ – EN]
+The number of books in $5$ crates is:
+$$125\times 5=625\ \text{(books)}.$$
+Ones: $5\times 5=25$, write $5$ and regroup $2$. Tens: $2\times 5=10$, add $2$ to make $12$, write $2$ and regroup $1$. Hundreds: $1\times 5=5$, add $1$ to make $6$.
+
+**Answer.** $625$ books.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $639:3$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng trăm: $6:3=2$. Hàng chục: $3:3=1$. Hàng đơn vị: $9:3=3$. Vậy
+$$639:3=213.$$
+Thử lại: $213\times 3=639$.
+
+**Đáp số.** $213$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $639\div3$.
+
+[LỜI GIẢI CŨ – EN]
+Hundreds: $6\div3=2$. Tens: $3\div3=1$. Ones: $9\div3=3$. So
+$$639\div3=213.$$
+Check: $213\times 3=639$.
+
+**Answer.** $213$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $408:4$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng trăm: $4:4=1$. Hàng chục: $0:4=0$. Hàng đơn vị: $8:4=2$. Vậy
+$$408:4=102.$$
+Thử lại: $102\times 4=408$.
+
+**Đáp số.** $102$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $408\div4$.
+
+[LỜI GIẢI CŨ – EN]
+Hundreds: $4\div4=1$. Tens: $0\div4=0$. Ones: $8\div4=2$. So
+$$408\div4=102.$$
+Check: $102\times 4=408$.
+
+**Answer.** $102$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cô giáo có $3$ hộp bút, mỗi hộp $168$ chiếc. Cô chia đều số bút đó cho $6$ lớp. Hỏi mỗi lớp được bao nhiêu chiếc bút?
+
+[LỜI GIẢI CŨ – VI]
+Tổng số chiếc bút của $3$ hộp là:
+$$168\times 3=504\ \text{(chiếc)}.$$
+Số chiếc bút mỗi lớp được là:
+$$504:6=84\ \text{(chiếc)}.$$
+Thử lại: $84\times 6=504$. Đúng.
+
+**Đáp số.** $84$ chiếc bút.
+
+[ĐỀ – EN]
+A teacher has $3$ boxes of pens, with $168$ pens in each box. She shares all the pens equally among $6$ classes. How many pens does each class get?
+
+[LỜI GIẢI CŨ – EN]
+The total number of pens in $3$ boxes is:
+$$168\times 3=504\ \text{(pens)}.$$
+The number of pens each class gets is:
+$$504\div6=84\ \text{(pens)}.$$
+Check: $84\times 6=504$. Correct.
+
+**Answer.** $84$ pens.
+
+
+===== HẾT FILE Lemonmath.com-LG-2 =====

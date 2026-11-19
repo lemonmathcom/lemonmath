@@ -1,0 +1,796 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-GV-4   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-GV-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-GV-4
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/regroup-add-1-digit, g2/regroup-add-2-digit
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Alexnguyen122222-GV-4-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Alexnguyen122222-GV-4-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-GV-4-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số
+description: Em học cộng số có hai chữ số với số có một chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 38 + 6, bằng cách đổi 10 đơn vị thành 1 chục.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu vì sao khi cộng hàng đơn vị được $10$ hoặc hơn thì phải thêm $1$ chục.
+  - Đặt tính theo cột dọc và tính đúng, ví dụ $38+6$.
+  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  :::
+
+[[P1·1404]]
+Nam có $38$ viên bi. Bạn Hùng cho Nam thêm $6$ viên nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
+
+[[P2·baf3]]
+Em đã biết cộng qua $10$ trong phạm vi $20$ ở các bài trước. Bài này dùng chính cách đó cho số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·f598]]
+Ta tách số $38$ thành $3$ chục và $8$ đơn vị. Số $6$ chỉ có $6$ đơn vị.
+
+[[P4·04f1]]
+- Cộng hàng đơn vị: $8+6=14$. Vậy có $14$ đơn vị.
+- $14$ đơn vị là $1$ chục và $4$ đơn vị. Ta đổi $10$ đơn vị lấy $1$ chục.
+- Cộng hàng chục: $3$ chục cũ cộng $1$ chục mới là $4$ chục.
+
+[[P5·4f59]]
+Vậy có $4$ chục và $4$ đơn vị, tức là $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·62ce]]
+Em cũng có thể nhảy trên tia số: từ $38$ nhảy $2$ bước đến $40$, rồi nhảy thêm $4$ bước đến $44$.
+
+:::graph Trên tia số: từ 38 nhảy 2 bước đến 40, rồi nhảy 4 bước đến 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cộng có nhớ số có hai chữ số với số có một chữ số
+  Muốn tính $38+6$:
+  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
+  2. Cộng hàng đơn vị: $8+6=14$. Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
+  3. Cộng hàng chục: $3+1=4$. Viết $4$ ở hàng chục.
+  :::
+
+[[P7·0a19]]
+Cách này đúng vì $14$ đơn vị bằng $1$ chục và $4$ đơn vị. Chục mới đó không bị mất: em cộng nó vào hàng chục.
+
+## Ví dụ
+
+[[P8·526a]]
+Ta bắt đầu với một phép cộng ở hàng đơn vị có tổng chỉ hơn $10$ một chút.
+
+  :::example Tính $27+5$
+  **Lời giải.** Cộng hàng đơn vị trước: $7+5=12$, viết $2$ và nhớ $1$ chục. Rồi cộng hàng chục: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  Vậy $27+5=32$.
+  :::
+
+[[P9·0e77]]
+Phép tính sau làm giống hệt, chỉ đổi số.
+
+  :::example Tính $46+8$
+  **Lời giải.** Hàng đơn vị: $6+8=14$, viết $4$ và nhớ $1$. Hàng chục: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  Vậy $46+8=54$.
+  :::
+
+[[P10·1ab5]]
+Bây giờ hàng đơn vị có tổng lớn hơn, nhưng cách làm vẫn như cũ.
+
+  :::example Tính $69+7$
+  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ và nhớ $1$. Hàng chục: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  Vậy $69+7=76$.
+
+  **Kiểm tra.** Em tách $7=1+6$: $69+1=70$, rồi $70+6=76$. Kết quả giống nhau.
+  :::
+
+[[P11·95a3]]
+Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+
+  :::example Giỏ táo
+  Trong giỏ có $58$ quả táo. Mẹ bỏ thêm $6$ quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
+
+  **Lời giải.** "Bỏ thêm" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $8+6=14$, viết $4$ và nhớ $1$. Hàng chục: $5+1=6$:
+  $$58+6=64\ \text{(quả)}.$$
+  Vậy trong giỏ có tất cả $64$ quả táo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·b605]]
+- **Quên chục nhớ.** Sai: $38+6=34$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục vào hàng chục. Đúng: $38+6=44$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $38+6=314$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $38+6=44$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $64$". Đúng: "Đáp số: $64$ quả táo".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng có nhớ | addition with regrouping
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
+  - đặt tính | set out the column
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·71c8]]
+- Cộng hàng đơn vị trước. Nếu được $10$ hoặc hơn, đổi $10$ đơn vị lấy $1$ chục.
+- Viết số đơn vị còn lại ở hàng đơn vị, nhớ $1$ chục sang hàng chục.
+- Ví dụ: $38+6$: $8+6=14$, viết $4$ nhớ $1$; $3+1=4$; kết quả $44$.
+- Bài toán hỏi "tất cả", "thêm" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG ANH ########
+---
+title: Adding a one-digit number to a two-digit number (with regrouping)
+description: Learn to add a one-digit number to a two-digit number when the ones make 10 or more, such as 38 + 6, by exchanging 10 ones for 1 ten.
+minutes: 15
+---
+
+  :::goals
+  - Understand why you add $1$ ten when the ones make $10$ or more.
+  - Set out the sum in columns and work it out correctly, such as $38+6$.
+  - Solve a word problem with one addition with regrouping.
+  :::
+
+[[P1·c6e7]]
+Nam has $38$ marbles. His friend Hung gives him $6$ more. How many marbles does Nam have altogether?
+
+[[P2·924b]]
+You already know how to add across $10$ within $20$ from earlier lessons. This lesson uses the same idea for bigger numbers.
+
+## Let's explore
+
+[[P3·99f4]]
+We split $38$ into $3$ tens and $8$ ones. The number $6$ has just $6$ ones.
+
+[[P4·98e1]]
+- Add the ones: $8+6=14$. So there are $14$ ones.
+- $14$ ones are $1$ ten and $4$ ones. We exchange $10$ ones for $1$ ten.
+- Add the tens: the $3$ tens we had plus the $1$ new ten make $4$ tens.
+
+[[P5·359c]]
+So there are $4$ tens and $4$ ones, which is $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·2136]]
+You can also jump along a number line: from $38$ jump $2$ steps to $40$, then $4$ more steps to $44$.
+
+:::graph On a number line: from 38 jump 2 steps to 40, then 4 steps to 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Adding a one-digit number to a two-digit number with regrouping
+  To work out $38+6$:
+  1. Set out the sum: ones under ones, tens under tens.
+  2. Add the ones: $8+6=14$. Write $4$ in the ones and carry $1$ ten.
+  3. Add the tens: $3+1=4$. Write $4$ in the tens.
+  :::
+
+[[P7·a882]]
+This works because $14$ ones are the same as $1$ ten and $4$ ones. The new ten is not lost: you add it to the tens.
+
+## Examples
+
+[[P8·c428]]
+We start with an addition where the ones make just a little more than $10$.
+
+  :::example Work out $27+5$
+  **Solution.** Add the ones first: $7+5=12$, write $2$ and carry $1$ ten. Then add the tens: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  So $27+5=32$.
+  :::
+
+[[P9·505b]]
+The next sum works in exactly the same way, with different numbers.
+
+  :::example Work out $46+8$
+  **Solution.** Ones: $6+8=14$, write $4$ and carry $1$. Tens: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  So $46+8=54$.
+  :::
+
+[[P10·a8be]]
+Now the ones make a bigger total, but the method stays the same.
+
+  :::example Work out $69+7$
+  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  So $69+7=76$.
+
+  **Check.** Split $7=1+6$: $69+1=70$, then $70+6=76$. The answers match.
+  :::
+
+[[P11·c417]]
+Now use addition to solve a problem from everyday life.
+
+  :::example A basket of apples
+  A basket holds $58$ apples. Mum puts in $6$ more apples. How many apples are in the basket altogether?
+
+  **Solution.** "Puts in more" means putting together, so you add. Ones: $8+6=14$, write $4$ and carry $1$. Tens: $5+1=6$:
+  $$58+6=64\ \text{(apples)}.$$
+  So there are $64$ apples in the basket altogether.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·5672]]
+- **Forgetting the carried ten.** Wrong: $38+6=34$. Why it is wrong: you wrote $4$ but forgot to add $1$ ten to the tens. Right: $38+6=44$.
+- **Writing all of $14$ in the ones.** Wrong: $38+6=314$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $38+6=44$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $64$". Right: "Answer: $64$ apples".
+:::
+
+## Key terms
+
+  :::terms
+  - addition with regrouping | phép cộng có nhớ
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
+  - set out the column | đặt tính
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·cd33]]
+- Add the ones first. If they make $10$ or more, exchange $10$ ones for $1$ ten.
+- Write the ones that are left in the ones place and carry $1$ ten to the tens.
+- Example: $38+6$: $8+6=14$, write $4$ carry $1$; $3+1=4$; the answer is $44$.
+- Word problems that ask "altogether" or "how many more are added" usually need an addition; remember to write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số
+description: Em học cộng hai số có hai chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 46 + 38, bằng cách đặt tính và nhớ 1 chục sang hàng chục.
+minutes: 15
+---
+
+  :::goals
+  - Đặt tính và cộng hai số có hai chữ số, ví dụ $46+38$.
+  - Nhớ cộng thêm $1$ chục khi hàng đơn vị được $10$ hoặc hơn.
+  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  :::
+
+[[P1·0795]]
+Lan có $46$ cái nhãn vở. Mai có $38$ cái nhãn vở. Hỏi hai bạn có tất cả bao nhiêu cái nhãn vở?
+
+[[P2·f110]]
+Ở bài trước, em đã cộng số có hai chữ số với số có một chữ số và biết nhớ $1$ chục. Bài này dùng đúng cách đó, chỉ thêm một số hạng có chục.
+
+## Cùng khám phá
+
+[[P3·0475]]
+Ta tách $46$ thành $4$ chục $6$ đơn vị, và $38$ thành $3$ chục $8$ đơn vị.
+
+[[P4·87a7]]
+- Cộng hàng đơn vị: $6+8=14$. Đó là $1$ chục và $4$ đơn vị.
+- Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
+- Cộng hàng chục: $4+3=7$, rồi cộng thêm $1$ chục nhớ được $8$.
+
+[[P5·d07a]]
+Vậy có $8$ chục và $4$ đơn vị, tức là $84$.
+
+  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
+
+[[P6·68a3]]
+Em cũng có thể nhảy trên tia số: từ $46$ cộng $30$ được $76$, rồi cộng $8$ được $84$.
+
+:::graph Trên tia số: từ 46 cộng 30 được 76, rồi cộng 8 được 84
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cộng có nhớ hai số có hai chữ số
+  Muốn tính $46+38$:
+  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
+  2. Cộng hàng đơn vị: $6+8=14$. Viết $4$, nhớ $1$ chục.
+  3. Cộng hàng chục: $4+3+1=8$. Viết $8$.
+  :::
+
+[[P7·ccad]]
+Cách này đúng vì $14$ đơn vị là $1$ chục và $4$ đơn vị. Chục mới được cộng vào hàng chục nên không bị mất.
+
+## Ví dụ
+
+[[P8·decb]]
+Ta bắt đầu với hai số nhỏ, tổng hàng đơn vị chỉ hơn $10$ một chút.
+
+  :::example Tính $27+15$
+  **Lời giải.** Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$ (số chục của hai số và $1$ chục nhớ):
+  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
+  Vậy $27+15=42$.
+  :::
+
+[[P9·0e77]]
+Phép tính sau làm giống hệt, chỉ đổi số.
+
+  :::example Tính $48+36$
+  **Lời giải.** Hàng đơn vị: $8+6=14$, viết $4$ nhớ $1$. Hàng chục: $4+3+1=8$:
+  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
+  Vậy $48+36=84$.
+  :::
+
+[[P10·f373]]
+Bây giờ hàng đơn vị có số $9$, nên tổng lớn hơn.
+
+  :::example Tính $59+27$
+  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ nhớ $1$. Hàng chục: $5+2+1=8$:
+  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
+  Vậy $59+27=86$.
+
+  **Kiểm tra.** Làm tròn $59$ thành $60$: $60+27=87$, rồi bớt $1$ được $86$. Kết quả giống nhau.
+  :::
+
+[[P11·95a3]]
+Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+
+  :::example Đội văn nghệ
+  Lớp có $35$ bạn nam và $48$ bạn nữ. Hỏi lớp có tất cả bao nhiêu bạn?
+
+  **Lời giải.** "Tất cả" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $5+8=13$, viết $3$ nhớ $1$. Hàng chục: $3+4+1=8$:
+  $$35+48=83\ \text{(bạn)}.$$
+  Vậy lớp có tất cả $83$ bạn.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·1e70]]
+- **Quên chục nhớ.** Sai: $46+38=74$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục nhớ vào hàng chục. Đúng: $46+38=84$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $46+38=714$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $46+38=84$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $83$". Đúng: "Đáp số: $83$ bạn".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng có nhớ | addition with regrouping
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
+  - đặt tính | set out the column
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·f67b]]
+- Đặt tính thẳng cột, cộng từ hàng đơn vị sang hàng chục.
+- Hàng đơn vị được $10$ hoặc hơn: viết số đơn vị còn lại, nhớ $1$ chục.
+- Hàng chục: cộng hai chữ số chục rồi cộng thêm $1$ chục nhớ.
+- Ví dụ: $46+38$: $6+8=14$, viết $4$ nhớ $1$; $4+3+1=8$; kết quả $84$.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG ANH ########
+---
+title: Adding two two-digit numbers (with regrouping)
+description: Learn to add two two-digit numbers when the ones make 10 or more, for example 46 + 38, by setting out the column and carrying 1 ten to the tens.
+minutes: 15
+---
+
+  :::goals
+  - Set out a column and add two two-digit numbers, for example $46+38$.
+  - Remember to add the extra $1$ ten when the ones make $10$ or more.
+  - Solve a word problem with one addition that needs regrouping.
+  :::
+
+[[P1·6553]]
+Lan has $46$ exercise-book labels. Mai has $38$ labels. How many labels do the two girls have altogether?
+
+[[P2·87b7]]
+In the last lesson you added a one-digit number to a two-digit number and carried $1$ ten. This lesson uses the same method, with one more number that has tens.
+
+## Let's explore
+
+[[P3·1416]]
+We split $46$ into $4$ tens and $6$ ones, and $38$ into $3$ tens and $8$ ones.
+
+[[P4·03c4]]
+- Add the ones: $6+8=14$. That is $1$ ten and $4$ ones.
+- Write $4$ in the ones place and carry $1$ ten.
+- Add the tens: $4+3=7$, then add the carried $1$ ten to make $8$.
+
+[[P5·214d]]
+So there are $8$ tens and $4$ ones, which is $84$.
+
+  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
+
+[[P6·a78c]]
+You can also jump on a number line: from $46$ add $30$ to reach $76$, then add $8$ to reach $84$.
+
+:::graph On the number line: from 46 add 30 to reach 76, then add 8 to reach 84
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Adding two two-digit numbers with regrouping
+  To work out $46+38$:
+  1. Set out the column: ones under ones, tens under tens.
+  2. Add the ones: $6+8=14$. Write $4$ and carry $1$ ten.
+  3. Add the tens: $4+3+1=8$. Write $8$.
+  :::
+
+[[P7·2ba4]]
+This works because $14$ ones make $1$ ten and $4$ ones. The new ten is added to the tens, so it is not lost.
+
+## Examples
+
+[[P8·27f9]]
+We start with two small numbers whose ones make just a little more than $10$.
+
+  :::example Work out $27+15$
+  **Solution.** Ones: $7+5=12$, write $2$ and carry $1$. Tens: $2+1+1=4$ (the tens of both numbers and the carried ten):
+  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
+  So $27+15=42$.
+  :::
+
+[[P9·9c4d]]
+The next sum is done in exactly the same way, with different numbers.
+
+  :::example Work out $48+36$
+  **Solution.** Ones: $8+6=14$, write $4$ and carry $1$. Tens: $4+3+1=8$:
+  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
+  So $48+36=84$.
+  :::
+
+[[P10·db68]]
+Now there is a $9$ in the ones, so the ones make more.
+
+  :::example Work out $59+27$
+  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $5+2+1=8$:
+  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
+  So $59+27=86$.
+
+  **Check.** Round $59$ up to $60$: $60+27=87$, then take away $1$ to get $86$. The answers match.
+  :::
+
+[[P11·c417]]
+Now use addition to solve a problem from everyday life.
+
+  :::example The class
+  A class has $35$ boys and $48$ girls. How many children are in the class altogether?
+
+  **Solution.** "Altogether" means putting together, so we add. Ones: $5+8=13$, write $3$ and carry $1$. Tens: $3+4+1=8$:
+  $$35+48=83\ \text{(children)}.$$
+  So there are $83$ children in the class.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·1df8]]
+- **Forgetting the carried ten.** Wrong: $46+38=74$. Why it is wrong: you wrote $4$ but forgot to add the carried $1$ ten to the tens. Right: $46+38=84$.
+- **Writing all of $14$ in the ones place.** Wrong: $46+38=714$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $46+38=84$.
+- **No unit in a word problem.** Wrong: "Answer: $83$". Right: "Answer: $83$ children".
+:::
+
+## Key terms
+
+  :::terms
+  - addition with regrouping | phép cộng có nhớ
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
+  - set out the column | đặt tính
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·7763]]
+- Set out the column and add from the ones to the tens.
+- If the ones make $10$ or more, write the ones that are left and carry $1$ ten.
+- In the tens: add the two tens digits, then add the carried $1$ ten.
+- Example: $46+38$: $6+8=14$, write $4$ carry $1$; $4+3+1=8$; the answer is $84$.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

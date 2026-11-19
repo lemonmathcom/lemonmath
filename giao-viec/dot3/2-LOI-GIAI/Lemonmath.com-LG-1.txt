@@ -1,0 +1,1181 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-LG-1   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-LG-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-LG-1
+Người làm: tài khoản Lemonmath.com. Gói này có 40 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-LG-1-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-LG-1-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g3/g3-vietnamese-money (8 bài tập)
+- g3/how-many-times-larger (8 bài tập)
+- g3/likelihood-of-an-event (8 bài tập)
+- g3/millilitres (8 bài tập)
+- g3/millimetres (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g3/g3-vietnamese-money
+Bài học: Tiền Việt Nam / Vietnamese money
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Em đếm số tiền:
+
+![Hai nhóm tiền a và b với các mệnh giá được ghi rõ](/assets/img/g3/g3-vietnamese-money-03.svg)
+
+a) Một tờ $5\,000$ đồng và một tờ $2\,000$ đồng.
+
+b) Một tờ $10\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng.
+
+[LỜI GIẢI CŨ – VI]
+a) $5+2=7$ nghìn đồng, tức là $7\,000$ đồng.
+
+b) $10+2+1=13$ nghìn đồng, tức là $13\,000$ đồng.
+
+**Đáp số.** a) $7\,000$ đồng; b) $13\,000$ đồng.
+
+[ĐỀ – EN]
+Count the money:
+
+![Two labelled groups of simplified notes with visible denominations](/assets/img/g3/g3-vietnamese-money-03.svg)
+
+a) One $5\,000$ dong note and one $2\,000$ dong note.
+
+b) One $10\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note.
+
+[LỜI GIẢI CŨ – EN]
+a) $5+2=7$ thousand dong, which is $7\,000$ dong.
+
+b) $10+2+1=13$ thousand dong, which is $13\,000$ dong.
+
+**Answer.** a) $7\,000$ dong; b) $13\,000$ dong.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+a) Em có hai tờ $20\,000$ đồng và một tờ $10\,000$ đồng. Em có bao nhiêu tiền?
+
+b) Một cuốn truyện giá $15\,000$ đồng và một cây bút chì giá $3\,000$ đồng. Mua cả hai phải trả bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+a) $20+20+10=50$ nghìn đồng, tức là $50\,000$ đồng.
+
+b) $15\,000+3\,000=18\,000$ (đồng).
+
+**Đáp số.** a) $50\,000$ đồng; b) $18\,000$ đồng.
+
+[ĐỀ – EN]
+a) You have two $20\,000$ dong notes and one $10\,000$ dong note. How much money do you have?
+
+b) A storybook costs $15\,000$ dong and a pencil costs $3\,000$ dong. How much do you pay for both?
+
+[LỜI GIẢI CŨ – EN]
+a) $20+20+10=50$ thousand dong, which is $50\,000$ dong.
+
+b) $15\,000+3\,000=18\,000$ (dong).
+
+**Answer.** a) $50\,000$ dong; b) $18\,000$ dong.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (xem đồng hồ, tháng và năm).
+
+a) Nam đến cửa hàng lúc $8$ giờ $15$ phút và mua xong sau $10$ phút. Nam mua xong lúc mấy giờ?
+
+b) Nam đi mua sách vào tháng $5$. Tháng $5$ có bao nhiêu ngày?
+
+[LỜI GIẢI CŨ – VI]
+a) $15+10=25$, nên Nam mua xong lúc $8$ giờ $25$ phút.
+
+b) Tháng $5$ nằm trong các tháng có $31$ ngày.
+
+**Đáp số.** a) $8$ giờ $25$ phút; b) $31$ ngày.
+
+[ĐỀ – EN]
+Remember the last lesson (telling the time, months and years).
+
+a) Nam arrives at the shop at $8{:}15$ and finishes shopping $10$ minutes later. At what time does he finish?
+
+b) Nam goes to buy books in month $5$ (May). How many days does May have?
+
+[LỜI GIẢI CŨ – EN]
+a) $15+10=25$, so Nam finishes at $8{:}25$.
+
+b) May is one of the months with $31$ days.
+
+**Answer.** a) $8{:}25$; b) $31$ days.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+a) Mẹ đưa $50\,000$ đồng để mua đồ hết $28\,000$ đồng. Người bán phải trả lại mẹ bao nhiêu tiền?
+
+b) Bố đưa $20\,000$ đồng, được trả lại $6\,000$ đồng. Bố đã mua đồ hết bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+a) $50\,000-28\,000=22\,000$ (đồng).
+
+b) $20\,000-6\,000=14\,000$ (đồng).
+
+**Kiểm tra.** Câu a): $28\,000+22\,000=50\,000$. Câu b): $14\,000+6\,000=20\,000$.
+
+**Đáp số.** a) $22\,000$ đồng; b) $14\,000$ đồng.
+
+[ĐỀ – EN]
+a) Mum hands over $50\,000$ dong to buy things costing $28\,000$ dong. How much change should the seller give her?
+
+b) Dad hands over $20\,000$ dong and gets $6\,000$ dong change. How much did his shopping cost?
+
+[LỜI GIẢI CŨ – EN]
+a) $50\,000-28\,000=22\,000$ (dong).
+
+b) $20\,000-6\,000=14\,000$ (dong).
+
+**Check.** Part a): $28\,000+22\,000=50\,000$. Part b): $14\,000+6\,000=20\,000$.
+
+**Answer.** a) $22\,000$ dong; b) $14\,000$ dong.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Em chọn phép tính (cộng hay trừ) và nói vì sao.
+
+a) Mai có $25\,000$ đồng, dì cho thêm $10\,000$ đồng. Mai có tất cả bao nhiêu tiền?
+
+b) Mai có $35\,000$ đồng, mua một quyển sách hết $28\,000$ đồng. Mai còn lại bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+a) Dì cho thêm tiền nên số tiền tăng lên, ta làm phép cộng: $25\,000+10\,000=35\,000$ (đồng).
+
+b) Mai trả đi một phần tiền nên số tiền giảm xuống, ta làm phép trừ: $35\,000-28\,000=7\,000$ (đồng).
+
+**Đáp số.** a) $35\,000$ đồng; b) $7\,000$ đồng.
+
+[ĐỀ – EN]
+Choose the operation (addition or subtraction) and say why.
+
+a) Mai has $25\,000$ dong and her aunt gives her $10\,000$ dong more. How much money does Mai have altogether?
+
+b) Mai has $35\,000$ dong and buys a book for $28\,000$ dong. How much money does Mai have left?
+
+[LỜI GIẢI CŨ – EN]
+a) Her aunt gives her more money, so the amount goes up and we add: $25\,000+10\,000=35\,000$ (dong).
+
+b) Mai pays out part of her money, so the amount goes down and we subtract: $35\,000-28\,000=7\,000$ (dong).
+
+**Answer.** a) $35\,000$ dong; b) $7\,000$ dong.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Hà: "Em có hai tờ $10\,000$ đồng và một tờ $5\,000$ đồng. Em có $10\,000+5\,000=15\,000$ (đồng)."
+
+b) Tú: "Tú đưa $50\,000$ đồng, mua hàng hết $31\,000$ đồng. Tiền trả lại là $50\,000+31\,000=81\,000$ (đồng)."
+
+[LỜI GIẢI CŨ – VI]
+a) Hà mới cộng một tờ $10\,000$ đồng, bỏ sót một tờ. Làm đúng: $10\,000+10\,000+5\,000=25\,000$ (đồng).
+
+b) Tú cộng thay vì trừ. Tiền trả lại không thể nhiều hơn tiền đưa. Làm đúng: $50\,000-31\,000=19\,000$ (đồng).
+
+**Đáp số.** a) $25\,000$ đồng; b) $19\,000$ đồng.
+
+[ĐỀ – EN]
+Find the mistake in each pupil's work and correct it.
+
+a) Ha: "I have two $10\,000$ dong notes and one $5\,000$ dong note. I have $10\,000+5\,000=15\,000$ (dong)."
+
+b) Tu: "Tu hands over $50\,000$ dong and the shopping costs $31\,000$ dong. The change is $50\,000+31\,000=81\,000$ (dong)."
+
+[LỜI GIẢI CŨ – EN]
+a) Ha only added one $10\,000$ dong note and left the other out. Done correctly: $10\,000+10\,000+5\,000=25\,000$ (dong).
+
+b) Tu added instead of subtracting. The change cannot be more than the money handed over. Done correctly: $50\,000-31\,000=19\,000$ (dong).
+
+**Answer.** a) $25\,000$ dong; b) $19\,000$ dong.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bảng giá của một quán ăn sáng:
+
+| Món | Giá (đồng) |
+|---|---|
+| Bánh mì | $12\,000$ |
+| Sữa | $8\,000$ |
+| Nước ép | $15\,000$ |
+
+An mua một cái bánh mì và một hộp sữa, rồi đưa tờ $50\,000$ đồng.
+
+a) An phải trả bao nhiêu tiền hàng?
+
+b) Người bán trả lại An bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+a) Tiền hàng: $12\,000+8\,000=20\,000$ (đồng).
+
+b) Tiền trả lại: $50\,000-20\,000=30\,000$ (đồng).
+
+**Kiểm tra.** $20\,000+30\,000=50\,000$. Khớp.
+
+**Đáp số.** a) $20\,000$ đồng; b) $30\,000$ đồng.
+
+[ĐỀ – EN]
+A breakfast shop's price list:
+
+| Item | Price (dong) |
+|---|---|
+| Bread roll | $12\,000$ |
+| Milk | $8\,000$ |
+| Juice | $15\,000$ |
+
+An buys one bread roll and one carton of milk, and hands over a $50\,000$ dong note.
+
+a) What is the total cost?
+
+b) How much change does the seller give An?
+
+[LỜI GIẢI CŨ – EN]
+a) Total cost: $12\,000+8\,000=20\,000$ (dong).
+
+b) Change: $50\,000-20\,000=30\,000$ (dong).
+
+**Check.** $20\,000+30\,000=50\,000$. It matches.
+
+**Answer.** a) $20\,000$ dong; b) $30\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hùng có một tờ $20\,000$ đồng, một tờ $5\,000$ đồng và ba tờ $2\,000$ đồng.
+
+a) Hùng có bao nhiêu tiền?
+
+b) Hùng muốn mua một cái kính bơi giá $45\,000$ đồng. Hùng còn thiếu bao nhiêu tiền?
+
+c) Mẹ cho Hùng thêm một tờ $20\,000$ đồng. Bây giờ Hùng có đủ tiền mua kính bơi không? Nếu đủ thì còn thừa bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+a) $20+5+2+2+2=31$ nghìn đồng, tức là $31\,000$ đồng.
+
+b) $45\,000-31\,000=14\,000$ (đồng).
+
+c) Sau khi mẹ cho thêm, Hùng có $31\,000+20\,000=51\,000$ (đồng). Vì $51\,000>45\,000$ nên Hùng đủ tiền. Số tiền còn thừa là $51\,000-45\,000=6\,000$ (đồng).
+
+**Đáp số.** a) $31\,000$ đồng; b) thiếu $14\,000$ đồng; c) đủ tiền, còn thừa $6\,000$ đồng.
+
+[ĐỀ – EN]
+Hung has one $20\,000$ dong note, one $5\,000$ dong note and three $2\,000$ dong notes.
+
+a) How much money does Hung have?
+
+b) Hung wants to buy swimming goggles that cost $45\,000$ dong. How much more money does he need?
+
+c) Mum gives Hung another $20\,000$ dong note. Does he now have enough money for the goggles? If so, how much money is left over?
+
+[LỜI GIẢI CŨ – EN]
+a) $20+5+2+2+2=31$ thousand dong, which is $31\,000$ dong.
+
+b) $45\,000-31\,000=14\,000$ (dong).
+
+c) After Mum's gift, Hung has $31\,000+20\,000=51\,000$ (dong). Since $51\,000>45\,000$, he has enough money. The money left over is $51\,000-45\,000=6\,000$ (dong).
+
+**Answer.** a) $31\,000$ dong; b) he needs $14\,000$ dong more; c) yes, with $6\,000$ dong left over.
+
+
+######################################################################
+@@@ g3/how-many-times-larger
+Bài học: So sánh số lớn gấp mấy lần số bé / How many times larger is one number than another?
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$18$ gấp mấy lần $6$?
+
+[LỜI GIẢI CŨ – VI]
+$$18:6=3.$$
+Thử lại: $6\times 3=18$.
+
+**Đáp số.** $3$ lần.
+
+[ĐỀ – EN]
+$18$ is how many times as large as $6$?
+
+[LỜI GIẢI CŨ – EN]
+$$18\div6=3.$$
+Check: $6\times 3=18$.
+
+**Answer.** $3$ times.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$56$ gấp mấy lần $8$?
+
+[LỜI GIẢI CŨ – VI]
+$$56:8=7.$$
+Thử lại: $8\times 7=56$.
+
+**Đáp số.** $7$ lần.
+
+[ĐỀ – EN]
+$56$ is how many times as large as $8$?
+
+[LỜI GIẢI CŨ – EN]
+$$56\div8=7.$$
+Check: $8\times 7=56$.
+
+**Answer.** $7$ times.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+$40$ gấp mấy lần $5$?
+
+[LỜI GIẢI CŨ – VI]
+$$40:5=8.$$
+Thử lại: $5\times 8=40$.
+
+**Đáp số.** $8$ lần.
+
+[ĐỀ – EN]
+$40$ is how many times as large as $5$?
+
+[LỜI GIẢI CŨ – EN]
+$$40\div5=8.$$
+Check: $5\times 8=40$.
+
+**Answer.** $8$ times.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Mẹ $36$ tuổi, Lan $9$ tuổi. Hỏi tuổi của mẹ gấp mấy lần tuổi của Lan?
+
+[LỜI GIẢI CŨ – VI]
+Tuổi của mẹ gấp tuổi của Lan số lần là:
+$$36:9=4\ \text{(lần)}.$$
+**Đáp số.** $4$ lần.
+
+[ĐỀ – EN]
+Mum is $36$ years old and Lan is $9$. How many times as old as Lan is Mum?
+
+[LỜI GIẢI CŨ – EN]
+The number of times Mum's age is as large as Lan's is:
+$$36\div9=4\ \text{(times)}.$$
+**Answer.** $4$ times.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bể nhỏ chứa $7$ l nước, bể to chứa $28$ l nước. Hỏi bể to chứa nhiều hơn bể nhỏ bao nhiêu lít nước? Bể to chứa gấp mấy lần bể nhỏ?
+
+[LỜI GIẢI CŨ – VI]
+Bể to chứa nhiều hơn bể nhỏ số lít là:
+$$28-7=21\ \text{(l)}.$$
+Bể to chứa gấp bể nhỏ số lần là:
+$$28:7=4\ \text{(lần)}.$$
+**Đáp số.** Nhiều hơn $21$ l; gấp $4$ lần.
+
+[ĐỀ – EN]
+A small tank holds $7$ l of water and a large tank holds $28$ l of water. How many litres more water does the large tank hold than the small tank? How many times as much water does the large tank hold as the small tank?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres more the large tank holds is:
+$$28-7=21\ \text{(l)}.$$
+The number of times as much the large tank holds is:
+$$28\div7=4\ \text{(times)}.$$
+**Answer.** $21$ l more; $4$ times as much.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà có $5$ quyển truyện. Lan có nhiều hơn Hà $15$ quyển truyện. Hỏi số truyện của Lan gấp mấy lần số truyện của Hà?
+
+[LỜI GIẢI CŨ – VI]
+Số quyển truyện của Lan là:
+$$5+15=20\ \text{(quyển)}.$$
+Số truyện của Lan gấp số truyện của Hà số lần là:
+$$20:5=4\ \text{(lần)}.$$
+**Đáp số.** $4$ lần.
+
+[ĐỀ – EN]
+Ha has $5$ storybooks. Lan has $15$ more storybooks than Ha. How many times as many storybooks as Ha does Lan have?
+
+[LỜI GIẢI CŨ – EN]
+The number of storybooks Lan has is:
+$$5+15=20\ \text{(books)}.$$
+The number of times Lan's books are as many as Ha's is:
+$$20\div5=4\ \text{(times)}.$$
+**Answer.** $4$ times.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại bài gấp một số lên một số lần. Một số gấp lên $6$ lần thì được $54$. Hỏi số đó là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Số cần tìm là:
+$$54:6=9.$$
+Thử lại: $9\times 6=54$. Đúng.
+
+**Đáp số.** $9$.
+
+[ĐỀ – EN]
+Remember the lesson on making a number several times larger. A number made $6$ times larger gives $54$. What is the number?
+
+[LỜI GIẢI CŨ – EN]
+The number is:
+$$54\div6=9.$$
+Check: $9\times 6=54$. Correct.
+
+**Answer.** $9$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Năm nay mẹ $28$ tuổi, con $4$ tuổi. Hỏi $4$ năm nữa tuổi của mẹ gấp mấy lần tuổi của con?
+
+[LỜI GIẢI CŨ – VI]
+Sau $4$ năm, tuổi của mẹ là $28+4=32$ (tuổi), tuổi của con là $4+4=8$ (tuổi).
+
+Tuổi của mẹ gấp tuổi của con số lần là:
+$$32:8=4\ \text{(lần)}.$$
+**Đáp số.** $4$ lần.
+
+[ĐỀ – EN]
+This year Mum is $28$ years old and her child is $4$. In $4$ years' time, how many times as old as her child will Mum be?
+
+[LỜI GIẢI CŨ – EN]
+After $4$ years, Mum's age is $28+4=32$ (years) and her child's age is $4+4=8$ (years).
+
+The number of times Mum's age is as large as her child's is:
+$$32\div8=4\ \text{(times)}.$$
+**Answer.** $4$ times.
+
+
+######################################################################
+@@@ g3/likelihood-of-an-event
+Bài học: Khả năng xảy ra của một sự kiện / How likely is an event?
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một hộp có $5$ viên bi xanh. Nhắm mắt lấy ra một viên. Hãy nói khả năng của:
+a) lấy được bi xanh;
+b) lấy được bi đỏ.
+
+[LỜI GIẢI CŨ – VI]
+a) Trong hộp chỉ có bi xanh nên lấy được bi xanh là **chắc chắn**.
+
+b) Trong hộp không có bi đỏ nên lấy được bi đỏ là **không thể**.
+
+**Đáp số.** a) Chắc chắn. b) Không thể.
+
+[ĐỀ – EN]
+A box has $5$ blue marbles. Shut your eyes and take out one. Say how likely each event is:
+a) you take a blue marble;
+b) you take a red marble.
+
+[LỜI GIẢI CŨ – EN]
+a) There are only blue marbles, so taking a blue marble is **certain**.
+
+b) There is no red marble, so taking a red marble is **impossible**.
+
+**Answer.** a) Certain. b) Impossible.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một túi có $3$ kẹo cam và $3$ kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
+a) lấy được kẹo cam;
+b) lấy được kẹo dâu;
+c) lấy được kẹo chanh.
+
+[LỜI GIẢI CŨ – VI]
+a) Có thể. b) Có thể. c) Trong túi không có kẹo chanh nên không thể.
+
+**Đáp số.** a) Có thể. b) Có thể. c) Không thể.
+
+[ĐỀ – EN]
+A bag has $3$ orange sweets and $3$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
+a) you take an orange sweet;
+b) you take a strawberry sweet;
+c) you take a lemon sweet.
+
+[LỜI GIẢI CŨ – EN]
+a) Possible. b) Possible. c) There is no lemon sweet in the bag, so it is impossible.
+
+**Answer.** a) Possible. b) Possible. c) Impossible.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
+a) Một tuần có $7$ ngày.
+b) Con mèo bay lên Mặt Trăng.
+c) Ngày mai trời nắng.
+
+[LỜI GIẢI CŨ – VI]
+a) Tuần nào cũng có $7$ ngày: chắc chắn. b) Không thể. c) Có ngày nắng, có ngày không: có thể.
+
+**Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
+
+[ĐỀ – EN]
+Say whether each event is certain, possible or impossible:
+a) A week has $7$ days.
+b) A cat flies to the Moon.
+c) It is sunny tomorrow.
+
+[LỜI GIẢI CŨ – EN]
+a) Every week has $7$ days: certain. b) Impossible. c) Some days are sunny and some are not: possible.
+
+**Answer.** a) Certain. b) Impossible. c) Possible.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một hộp có $4$ tấm thẻ ghi số $2$, $4$, $6$, $8$. Nhắm mắt lấy ra một tấm. Hãy nói khả năng của:
+a) lấy được thẻ ghi số chẵn;
+b) lấy được thẻ ghi số $5$;
+c) lấy được thẻ ghi số lớn hơn $5$.
+
+[LỜI GIẢI CŨ – VI]
+a) Cả bốn số đều là số chẵn: **chắc chắn**.
+
+b) Không có số $5$: **không thể**.
+
+c) Có số $6$ và $8$ lớn hơn $5$, nhưng $2$ và $4$ thì không: **có thể**.
+
+**Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
+
+[ĐỀ – EN]
+A box has $4$ cards with the numbers $2$, $4$, $6$, $8$. Shut your eyes and take out one. Say how likely each event is:
+a) you take a card with an even number;
+b) you take the card with $5$;
+c) you take a card with a number greater than $5$.
+
+[LỜI GIẢI CŨ – EN]
+a) All four numbers are even: **certain**.
+
+b) There is no $5$: **impossible**.
+
+c) The numbers $6$ and $8$ are greater than $5$, but $2$ and $4$ are not: **possible**.
+
+**Answer.** a) Certain. b) Impossible. c) Possible.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một hộp có $1$ viên bi đỏ và $9$ viên bi xanh. Nam nói: "Nhắm mắt lấy một viên thì chắc chắn được bi xanh". Nam nói đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Viên bi đỏ vẫn nằm trong hộp, nên có thể lấy được bi đỏ.
+
+**Đáp số.** Nam nói chưa đúng: lấy được bi xanh chỉ là **có thể**.
+
+[ĐỀ – EN]
+A box has $1$ red marble and $9$ blue marbles. Nam says: "If I shut my eyes and take one, I am certain to get blue." Is Nam right? Why?
+
+[LỜI GIẢI CŨ – EN]
+The red marble is still in the box, so you might get red.
+
+**Answer.** Nam is not right: getting blue is only **possible**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan nói: "Hộp có $4$ bi xanh và $1$ bi đỏ. Không thể lấy được bi đỏ vì bi đỏ ít quá". Lan sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Trong hộp có $1$ bi đỏ, nên lấy được bi đỏ có thể xảy ra.
+
+**Đáp số.** Lan sai: lấy được bi đỏ là **có thể**, không phải không thể.
+
+[ĐỀ – EN]
+Lan says: "A box has $4$ blue marbles and $1$ red marble. You cannot get red because there is so little red." Where is Lan wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+There is $1$ red marble in the box, so getting red can happen.
+
+**Answer.** Lan is wrong: getting red is **possible**, not impossible.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (bảng số liệu). Mai lấy một viên bi từ hộp, ghi màu rồi bỏ lại, làm $12$ lần: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh.
+
+a) Lập bảng số liệu (có vạch kiểm đếm).
+b) Trong hộp có cả hai màu không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+a)
+
+| Màu bi | Vạch kiểm đếm | Số lần |
+|---|---|---|
+| Đỏ | ///////  | $7$ |
+| Xanh | ///// | $5$ |
+
+Kiểm tra: $7+5=12$.
+
+b) Cả bi đỏ và bi xanh đều được lấy ra, nên trong hộp có cả hai màu.
+
+**Đáp số.** a) Đỏ $7$ lần, xanh $5$ lần. b) Có cả hai màu.
+
+[ĐỀ – EN]
+Remember the last lesson (data tables). Mai takes a marble from a box, writes down its colour, puts it back, and does this $12$ times: red, blue, red, red, blue, red, blue, red, red, blue, red, blue.
+
+a) Make a data table (with tally marks).
+b) Are there both colours in the box? Why?
+
+[LỜI GIẢI CŨ – EN]
+a)
+
+| Colour | Tally marks | Number of times |
+|---|---|---|
+| Red | /////// | $7$ |
+| Blue | ///// | $5$ |
+
+Check: $7+5=12$.
+
+b) Both red and blue marbles were taken out, so the box has both colours.
+
+**Answer.** a) Red $7$ times, blue $5$ times. b) Yes, both colours.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một hộp có $3$ bi đỏ và $5$ bi xanh.
+
+a) Phải lấy ra bao nhiêu viên bi xanh để chắc chắn lấy được bi đỏ?
+b) Nếu giữ nguyên $5$ bi xanh, phải lấy ra bao nhiêu viên bi đỏ để không thể lấy được bi đỏ?
+
+[LỜI GIẢI CŨ – VI]
+a) Phải lấy hết $5$ viên bi xanh, khi đó hộp chỉ còn $3$ bi đỏ.
+
+b) Phải lấy hết $3$ viên bi đỏ, khi đó hộp chỉ còn $5$ bi xanh.
+
+**Đáp số.** a) $5$ viên bi xanh. b) $3$ viên bi đỏ.
+
+[ĐỀ – EN]
+A box has $3$ red marbles and $5$ blue marbles.
+
+a) How many blue marbles must you take out so that you are certain to get a red marble?
+b) If you keep the $5$ blue marbles, how many red marbles must you take out so that getting a red marble is impossible?
+
+[LỜI GIẢI CŨ – EN]
+a) You must take out all $5$ blue marbles, and then only $3$ red marbles are left.
+
+b) You must take out all $3$ red marbles, and then only $5$ blue marbles are left.
+
+**Answer.** a) $5$ blue marbles. b) $3$ red marbles.
+
+
+######################################################################
+@@@ g3/millilitres
+Bài học: Mi-li-lít. Nhiệt độ. Đơn vị đo nhiệt độ / Millilitres. Temperature and units of temperature
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đổi ra mi-li-lít: a) $5\ \text{l}$; b) $3\ \text{l}\ 200\ \text{ml}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
+
+b) $3\ \text{l}=3000\ \text{ml}$, nên $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
+
+**Đáp số.** a) $5000$ ml; b) $3200$ ml.
+
+[ĐỀ – EN]
+Convert to millilitres: a) $5\ \text{l}$; b) $3\ \text{l}\ 200\ \text{ml}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
+
+b) $3\ \text{l}=3000\ \text{ml}$, so $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
+
+**Answer.** a) $5000$ ml; b) $3200$ ml.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đổi $2500\ \text{ml}$ ra lít và mi-li-lít.
+
+[LỜI GIẢI CŨ – VI]
+$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
+
+**Đáp số.** $2\ \text{l}\ 500\ \text{ml}$.
+
+[ĐỀ – EN]
+Convert $2500\ \text{ml}$ to litres and millilitres.
+
+[LỜI GIẢI CŨ – EN]
+$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
+
+**Answer.** $2\ \text{l}\ 500\ \text{ml}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: $1\ \text{l}\ 300\ \text{ml}\ \ldots\ 1200\ \text{ml}$.
+
+[LỜI GIẢI CŨ – VI]
+$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Vì $1300>1200$ nên $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
+
+**Đáp số.** $>$.
+
+[ĐỀ – EN]
+Fill in $>$, $<$ or $=$: $1\ \text{l}\ 300\ \text{ml}\ \ldots\ 1200\ \text{ml}$.
+
+[LỜI GIẢI CŨ – EN]
+$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Since $1300>1200$, we have $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
+
+**Answer.** $>$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Bình thứ nhất chứa $600$ ml nước, bình thứ hai chứa $800$ ml nước. Hỏi hai bình chứa tất cả bao nhiêu mi-li-lít nước? Đổi kết quả ra lít và mi-li-lít.
+
+[LỜI GIẢI CŨ – VI]
+Số mi-li-lít nước của hai bình là:
+$$600+800=1400\ \text{(ml)}.$$
+Vì $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$ nên $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+
+**Đáp số.** $1400$ ml, tức là $1\ \text{l}\ 400\ \text{ml}$.
+
+[ĐỀ – EN]
+The first jug holds $600$ ml of water and the second jug holds $800$ ml. How many millilitres of water do the two jugs hold altogether? Write the result in litres and millilitres.
+
+[LỜI GIẢI CŨ – EN]
+The number of millilitres of water in the two jugs is:
+$$600+800=1400\ \text{(ml)}.$$
+Since $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$, we have $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+
+**Answer.** $1400$ ml, which is $1\ \text{l}\ 400\ \text{ml}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mẹ rót $3$ cốc nước cam, mỗi cốc $300$ ml. Hỏi mẹ đã rót bao nhiêu mi-li-lít nước cam? Số nước đó ít hơn $1$ l bao nhiêu mi-li-lít?
+
+[LỜI GIẢI CŨ – VI]
+Số mi-li-lít nước cam mẹ đã rót là:
+$$300\times 3=900\ \text{(ml)}.$$
+Số nước đó ít hơn $1$ l là:
+$$1000-900=100\ \text{(ml)}.$$
+**Đáp số.** $900$ ml; ít hơn $1$ l là $100$ ml.
+
+[ĐỀ – EN]
+Mum pours $3$ cups of orange juice, $300$ ml in each cup. How many millilitres of orange juice has she poured? How many millilitres less than $1$ l is that?
+
+[LỜI GIẢI CŨ – EN]
+The number of millilitres of orange juice Mum has poured is:
+$$300\times 3=900\ \text{(ml)}.$$
+The amount less than $1$ l is:
+$$1000-900=100\ \text{(ml)}.$$
+**Answer.** $900$ ml; it is $100$ ml less than $1$ l.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Buổi sáng nhiệt độ là $22\ ^\circ\text{C}$. Buổi trưa nhiệt độ tăng thêm $9\ ^\circ\text{C}$, buổi chiều lại giảm đi $5\ ^\circ\text{C}$. Hỏi buổi chiều nhiệt độ là bao nhiêu độ C?
+
+[LỜI GIẢI CŨ – VI]
+Nhiệt độ buổi trưa là:
+$$22+9=31\ (^\circ\text{C}).$$
+Nhiệt độ buổi chiều là:
+$$31-5=26\ (^\circ\text{C}).$$
+**Đáp số.** $26\ ^\circ\text{C}$.
+
+[ĐỀ – EN]
+In the morning the temperature is $22\ ^\circ\text{C}$. At noon it rises by $9\ ^\circ\text{C}$ and in the afternoon it falls by $5\ ^\circ\text{C}$. What is the temperature in the afternoon, in degrees Celsius?
+
+[LỜI GIẢI CŨ – EN]
+The temperature at noon is:
+$$22+9=31\ (^\circ\text{C}).$$
+The temperature in the afternoon is:
+$$31-5=26\ (^\circ\text{C}).$$
+**Answer.** $26\ ^\circ\text{C}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại bài gấp một số lên một số lần. Một chai nhỏ chứa $200$ ml nước. Một chai to chứa gấp $5$ lần chai nhỏ. Hỏi chai to chứa bao nhiêu mi-li-lít? Đó là bao nhiêu lít?
+
+[LỜI GIẢI CŨ – VI]
+Chai to chứa:
+$$200\times 5=1000\ \text{(ml)}.$$
+Vì $1000\ \text{ml}=1\ \text{l}$ nên chai to chứa $1$ l.
+
+**Đáp số.** $1000$ ml, tức là $1$ l.
+
+[ĐỀ – EN]
+Remember the lesson on making a number several times larger. A small bottle holds $200$ ml of water. A large bottle holds $5$ times as much as the small bottle. How many millilitres does the large bottle hold? How many litres is that?
+
+[LỜI GIẢI CŨ – EN]
+The large bottle holds:
+$$200\times 5=1000\ \text{(ml)}.$$
+Since $1000\ \text{ml}=1\ \text{l}$, the large bottle holds $1$ l.
+
+**Answer.** $1000$ ml, which is $1$ l.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một bình chứa $2$ l nước. Em rót ra $3$ cốc, mỗi cốc $300$ ml, rồi rót tiếp $400$ ml vào ấm. Hỏi trong bình còn lại bao nhiêu mi-li-lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2\ \text{l}=2000\ \text{ml}$. Số nước rót vào $3$ cốc là:
+$$300\times 3=900\ \text{(ml)}.$$
+Số nước đã rót ra tất cả là:
+$$900+400=1300\ \text{(ml)}.$$
+Số nước còn lại trong bình là:
+$$2000-1300=700\ \text{(ml)}.$$
+**Đáp số.** $700$ ml.
+
+[ĐỀ – EN]
+A jug holds $2$ l of water. You pour out $3$ cups of $300$ ml each, then pour $400$ ml more into a kettle. How many millilitres of water are left in the jug?
+
+[LỜI GIẢI CŨ – EN]
+We have $2\ \text{l}=2000\ \text{ml}$. The water poured into $3$ cups is:
+$$300\times 3=900\ \text{(ml)}.$$
+The water poured out altogether is:
+$$900+400=1300\ \text{(ml)}.$$
+The water left in the jug is:
+$$2000-1300=700\ \text{(ml)}.$$
+**Answer.** $700$ ml.
+
+
+######################################################################
+@@@ g3/millimetres
+Bài học: Mi-li-mét. Gam / Millimetres. Grams
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đổi ra mi-li-mét: a) $6\ \text{cm}$; b) $7\ \text{cm}\ 3\ \text{mm}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $6\ \text{cm}=6\times 10=60\ \text{mm}$.
+
+b) $7\ \text{cm}=70\ \text{mm}$, nên $7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$.
+
+**Đáp số.** a) $60$ mm; b) $73$ mm.
+
+[ĐỀ – EN]
+Convert to millimetres: a) $6\ \text{cm}$; b) $7\ \text{cm}\ 3\ \text{mm}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $6\ \text{cm}=6\times 10=60\ \text{mm}$.
+
+b) $7\ \text{cm}=70\ \text{mm}$, so $7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$.
+
+**Answer.** a) $60$ mm; b) $73$ mm.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đổi $86\ \text{mm}$ ra xăng-ti-mét và mi-li-mét.
+
+[LỜI GIẢI CŨ – VI]
+$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
+
+**Đáp số.** $8\ \text{cm}\ 6\ \text{mm}$.
+
+[ĐỀ – EN]
+Convert $86\ \text{mm}$ to centimetres and millimetres.
+
+[LỜI GIẢI CŨ – EN]
+$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
+
+**Answer.** $8\ \text{cm}\ 6\ \text{mm}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: $5\ \text{cm}\ 4\ \text{mm}\ \ldots\ 56\ \text{mm}$.
+
+[LỜI GIẢI CŨ – VI]
+$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$. Vì $54<56$ nên $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
+
+**Đáp số.** $<$.
+
+[ĐỀ – EN]
+Fill in $>$, $<$ or $=$: $5\ \text{cm}\ 4\ \text{mm}\ \ldots\ 56\ \text{mm}$.
+
+[LỜI GIẢI CŨ – EN]
+$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$. Since $54<56$, we have $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
+
+**Answer.** $<$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một sợi dây dài $150$ mm. Người ta cắt đi $68$ mm. Hỏi sợi dây còn lại dài bao nhiêu mi-li-mét?
+
+[LỜI GIẢI CŨ – VI]
+Sợi dây còn lại dài là:
+$$150-68=82\ \text{(mm)}.$$
+Thử lại: $82+68=150$. Đúng.
+
+**Đáp số.** $82$ mm.
+
+[ĐỀ – EN]
+A piece of string is $150$ mm long. $68$ mm is cut off. How many millimetres long is the string that is left?
+
+[LỜI GIẢI CŨ – EN]
+The length of string left is:
+$$150-68=82\ \text{(mm)}.$$
+Check: $82+68=150$. Correct.
+
+**Answer.** $82$ mm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Đổi ra gam: a) $4\ \text{kg}$; b) $2\ \text{kg}\ 50\ \text{g}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\ \text{kg}=4\times 1000=4000\ \text{g}$.
+
+b) $2\ \text{kg}=2000\ \text{g}$, nên $2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$.
+
+**Đáp số.** a) $4000$ g; b) $2050$ g.
+
+[ĐỀ – EN]
+Convert to grams: a) $4\ \text{kg}$; b) $2\ \text{kg}\ 50\ \text{g}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\ \text{kg}=4\times 1000=4000\ \text{g}$.
+
+b) $2\ \text{kg}=2000\ \text{g}$, so $2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$.
+
+**Answer.** a) $4000$ g; b) $2050$ g.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mẹ mua $800$ g thịt và $700$ g cá. Hỏi mẹ mua tất cả bao nhiêu gam? Đổi kết quả ra ki-lô-gam và gam.
+
+[LỜI GIẢI CŨ – VI]
+Số gam thịt và cá mẹ mua tất cả là:
+$$800+700=1500\ \text{(g)}.$$
+Vì $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$ nên $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+
+**Đáp số.** $1500$ g, tức là $1\ \text{kg}\ 500\ \text{g}$.
+
+[ĐỀ – EN]
+Mum buys $800$ g of meat and $700$ g of fish. How many grams does she buy altogether? Write the result in kilograms and grams.
+
+[LỜI GIẢI CŨ – EN]
+The number of grams of meat and fish Mum buys altogether is:
+$$800+700=1500\ \text{(g)}.$$
+Since $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$, we have $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+
+**Answer.** $1500$ g, which is $1\ \text{kg}\ 500\ \text{g}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại bài gấp một số lên một số lần. Gói muối nặng $200$ g. Gói đường nặng gấp $3$ lần gói muối. Hỏi cả hai gói nặng tất cả bao nhiêu gam?
+
+[LỜI GIẢI CŨ – VI]
+Gói đường nặng:
+$$200\times 3=600\ \text{(g)}.$$
+Cả hai gói nặng:
+$$200+600=800\ \text{(g)}.$$
+**Đáp số.** $800$ g.
+
+[ĐỀ – EN]
+Remember the lesson on making a number several times larger. A packet of salt weighs $200$ g. A packet of sugar weighs $3$ times as much as the packet of salt. How many grams do the two packets weigh altogether?
+
+[LỜI GIẢI CŨ – EN]
+The packet of sugar weighs:
+$$200\times 3=600\ \text{(g)}.$$
+The two packets weigh:
+$$200+600=800\ \text{(g)}.$$
+**Answer.** $800$ g.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một chiếc thước dài $1$ m. Người ta cắt từ thước ra một đoạn dài $250$ mm và một đoạn dài $400$ mm. Hỏi phần thước còn lại dài bao nhiêu mi-li-mét?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $1\ \text{m}=1000\ \text{mm}$. Hai đoạn cắt đi dài tất cả:
+$$250+400=650\ \text{(mm)}.$$
+Phần thước còn lại dài:
+$$1000-650=350\ \text{(mm)}.$$
+**Đáp số.** $350$ mm.
+
+[ĐỀ – EN]
+A ruler is $1$ m long. A piece $250$ mm long and a piece $400$ mm long are cut from it. How many millimetres long is the part of the ruler that is left?
+
+[LỜI GIẢI CŨ – EN]
+We have $1\ \text{m}=1000\ \text{mm}$. The two pieces cut off are altogether:
+$$250+400=650\ \text{(mm)}.$$
+The part of the ruler that is left is:
+$$1000-650=350\ \text{(mm)}.$$
+**Answer.** $350$ mm.
+
+
+===== HẾT FILE Lemonmath.com-LG-1 =====

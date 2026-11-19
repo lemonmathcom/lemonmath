@@ -1,0 +1,1616 @@
+######################################################################
+TÀI KHOẢN: Vinax.vn   |   FILE: Vinax.vn-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax.vn-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/g4-bar-charts, g4/odd-and-even-numbers, g4/review-calculations-to-100000, g4/review-numbers-to-100000
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax.vn-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax.vn-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax.vn-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG VIỆT ########
+---
+title: Biểu đồ cột
+description: Em học cách đọc biểu đồ cột: đọc số liệu của từng cột, so sánh các cột, tìm cột cao nhất và thấp nhất, rồi tính tổng và hiệu.
+minutes: 15
+---
+
+  :::goals
+  - Biết các phần của biểu đồ cột: cột, trục ngang, trục dọc.
+  - Đọc được số liệu của từng cột, tìm cột cao nhất và thấp nhất.
+  - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
+  :::
+
+[[P1·2995]]
+Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+
+[[P2·50b8]]
+Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+
+## Cùng khám phá
+
+[[P3·af30]]
+Hãy nhìn biểu đồ dưới đây.
+
+:::diagram Số quyển sách mượn mỗi ngày trong tuần
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·95d6]]
+- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
+- Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
+- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+
+[[P5·375b]]
+Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+
+  :::definition Biểu đồ cột
+  **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
+  :::
+
+[[P6·38e5]]
+Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+
+## Ví dụ
+
+[[P7·8176]]
+Ta bắt đầu bằng việc đọc số liệu của từng cột.
+
+  :::example Đọc biểu đồ
+  Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
+
+  **Lời giải.** Ta nhìn số ghi trên đỉnh mỗi cột:
+
+  a) Cột Thứ Ba ghi $10$, nên các bạn mượn $10$ quyển.
+
+  b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhiều nhất, $12$ quyển.
+
+  c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
+  :::
+
+[[P8·cfd2]]
+Bây giờ ta so sánh hai cột bằng phép trừ.
+
+  :::example So sánh hai cột
+  Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+
+  **Lời giải.** Thứ Năm mượn $12$ quyển, Thứ Hai mượn $6$ quyển. Muốn biết nhiều hơn bao nhiêu, ta lấy số lớn trừ số bé:
+  $$12-6=6\ \text{(quyển)}.$$
+  Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
+  :::
+
+[[P9·7da7]]
+Ta cũng có thể cộng các cột và tìm trung bình cộng.
+
+  :::example Cả tuần
+  Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
+
+  **Lời giải.** Cộng số quyển của cả năm ngày:
+  $$6+10+8+12+4=40\ \text{(quyển)}.$$
+  Trung bình mỗi ngày là tổng chia cho số ngày:
+  $$40:5=8\ \text{(quyển)}.$$
+  Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
+  :::
+
+[[P10·0186]]
+Cuối cùng, ta tìm các cột thoả một điều kiện.
+
+  :::example Hơn $7$ quyển
+  Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
+
+  **Lời giải.** Ta so sánh số trên đỉnh từng cột với $7$: Thứ Hai $6<7$; Thứ Ba $10>7$; Thứ Tư $8>7$; Thứ Năm $12>7$; Thứ Sáu $4<7$.
+
+  Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Thứ Năm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·bd00]]
+- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
+- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
+- **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu đồ cột | bar chart
+  - cột | bar
+  - trục ngang | horizontal axis
+  - trục dọc | vertical axis
+  - vạch chia | scale mark
+  - so sánh | compare
+  - số liệu | data value
+  :::
+
+## Tóm tắt
+
+[[P12·fdf3]]
+- Biểu đồ cột dùng các cột để biểu diễn số liệu; cột cao hơn thì số liệu lớn hơn.
+- Trục ngang cho các đối tượng, trục dọc cho số liệu.
+- Đọc số liệu ở đỉnh mỗi cột.
+- Hơn kém bao nhiêu: lấy số lớn trừ số bé.
+- Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+
+## Luyện tập
+
+[[P13·ff66]]
+Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+[[P14·62bb]]
+Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG ANH ########
+---
+title: Bar charts
+description: Learn to read a bar chart: read each bar, compare bars, find the tallest and shortest, then work out totals and differences.
+minutes: 15
+---
+
+  :::goals
+  - Know the parts of a bar chart: bars, the horizontal axis and the vertical axis.
+  - Read the value of each bar and find the tallest and shortest bar.
+  - Compare bars by subtracting, and work out a total and a mean from a chart.
+  :::
+
+[[P1·1b1a]]
+The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+
+[[P2·0e14]]
+You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+
+## Let's explore
+
+[[P3·0385]]
+Look at the chart below.
+
+:::diagram Books borrowed each day of the week
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·8aa2]]
+- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
+- On top of each bar is the number of books. The Monday bar shows $6$.
+- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+
+[[P5·57a7]]
+The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+
+  :::definition Bar chart
+  A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
+  :::
+
+[[P6·2931]]
+To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+
+## Examples
+
+[[P7·ba59]]
+We start by reading the value of each bar.
+
+  :::example Reading the chart
+  Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
+
+  **Solution.** We look at the number on top of each bar:
+
+  a) The Tuesday bar shows $10$, so $10$ books were borrowed.
+
+  b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ books.
+
+  c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
+  :::
+
+[[P8·c15d]]
+Now we compare two bars by subtracting.
+
+  :::example Comparing two bars
+  How many more books were borrowed on Thursday than on Monday?
+
+  **Solution.** Thursday had $12$ books and Monday had $6$ books. To find how many more, subtract the smaller number from the larger:
+  $$12-6=6\ \text{(books)}.$$
+  So $6$ more books were borrowed on Thursday than on Monday.
+  :::
+
+[[P9·13f7]]
+We can also add the bars and find the mean.
+
+  :::example The whole week
+  How many books were borrowed in the whole week? On average, how many books were borrowed each day?
+
+  **Solution.** Add the books for all five days:
+  $$6+10+8+12+4=40\ \text{(books)}.$$
+  The mean per day is the total divided by the number of days:
+  $$40\div5=8\ \text{(books)}.$$
+  So $40$ books were borrowed in the week, and $8$ a day on average.
+  :::
+
+[[P10·b68f]]
+Finally, we find the bars that fit a condition.
+
+  :::example More than $7$ books
+  On which days were more than $7$ books borrowed?
+
+  **Solution.** We compare the number on top of each bar with $7$: Monday $6<7$; Tuesday $10>7$; Wednesday $8>7$; Thursday $12>7$; Friday $4<7$.
+
+  So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2b9c]]
+- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
+- **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
+- **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+:::
+
+## Key terms
+
+  :::terms
+  - bar chart | biểu đồ cột
+  - bar | cột
+  - horizontal axis | trục ngang
+  - vertical axis | trục dọc
+  - scale mark | vạch chia
+  - compare | so sánh
+  - data value | số liệu
+  :::
+
+## Summary
+
+[[P12·7238]]
+- A bar chart uses bars to show data; a taller bar means a bigger value.
+- The horizontal axis shows the things compared; the vertical axis shows the values.
+- Read the value on top of each bar.
+- To find how many more: subtract the smaller from the larger.
+- Total: add all the bars; mean: divide the total by the number of bars.
+
+## Practice
+
+[[P13·377d]]
+The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+[[P14·d156]]
+These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/odd-and-even-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Số chẵn, số lẻ
+description: Em học cách nhận biết số chẵn, số lẻ qua chữ số tận cùng và phép chia cho 2, rồi viết các số chẵn, số lẻ liên tiếp.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết số chẵn, số lẻ bằng chữ số tận cùng hoặc bằng phép chia cho $2$.
+  - Viết được các số chẵn, số lẻ liên tiếp.
+  - Giải bài toán đơn giản về số chẵn, số lẻ.
+  :::
+
+[[P1·318b]]
+Lớp $4$A có $18$ bạn xếp hàng đôi. Các bạn ghép thành từng cặp và không ai bị lẻ. Lớp $4$B có $19$ bạn xếp hàng đôi thì thừa một bạn. Số bạn của lớp nào xếp đủ cặp?
+
+[[P2·68fd]]
+Hai con số $18$ và $19$ khác nhau ở chỗ nào? Bài này sẽ giúp em trả lời.
+
+## Cùng khám phá
+
+[[P3·8558]]
+Ta chia số bạn cho $2$, vì mỗi cặp có $2$ bạn:
+
+[[P4·125c]]
+- $18:2=9$, dư $0$. Có $9$ cặp, không thừa ai.
+- $19:2=9$, dư $1$. Có $9$ cặp và thừa $1$ bạn.
+
+[[P5·9058]]
+Số $18$ chia hết cho $2$, ta gọi là **số chẵn**. Số $19$ chia cho $2$ dư $1$, ta gọi là **số lẻ**.
+
+[[P6·970d]]
+Bây giờ em nhìn các chữ số tận cùng. Các số chẵn nhỏ: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Các số lẻ nhỏ: $1$, $3$, $5$, $7$, $9$, $11$, $13$. Em thấy chữ số hàng đơn vị của số chẵn luôn là $0$, $2$, $4$, $6$ hoặc $8$; của số lẻ luôn là $1$, $3$, $5$, $7$ hoặc $9$.
+
+  :::theorem Số chẵn và số lẻ
+  - **Số chẵn** là số chia hết cho $2$. Chữ số tận cùng là $0$, $2$, $4$, $6$ hoặc $8$.
+  - **Số lẻ** là số chia cho $2$ dư $1$. Chữ số tận cùng là $1$, $3$, $5$, $7$ hoặc $9$.
+  - Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị. Hai số lẻ liên tiếp cũng hơn kém nhau $2$ đơn vị.
+  :::
+
+[[P7·3d4a]]
+Chỉ cần nhìn chữ số tận cùng vì mọi hàng khác (chục, trăm, nghìn, …) đều chia hết cho $2$. Phần còn lại chỉ do hàng đơn vị quyết định.
+
+## Ví dụ
+
+[[P8·7bc6]]
+Ta bắt đầu bằng việc nhận biết số chẵn, số lẻ.
+
+  :::example Nhận biết
+  Trong các số $3\,406$; $5\,719$; $80\,000$; $99\,997$, số nào là số chẵn, số nào là số lẻ?
+
+  **Lời giải.** Ta nhìn chữ số tận cùng của mỗi số:
+
+  - $3\,406$ tận cùng $6$: số chẵn.
+  - $5\,719$ tận cùng $9$: số lẻ.
+  - $80\,000$ tận cùng $0$: số chẵn.
+  - $99\,997$ tận cùng $7$: số lẻ.
+
+  Vậy số chẵn là $3\,406$ và $80\,000$; số lẻ là $5\,719$ và $99\,997$.
+  :::
+
+[[P9·d7ab]]
+Tiếp theo, em viết số theo điều kiện cho trước.
+
+  :::example Số chẵn lớn nhất, số lẻ nhỏ nhất
+  Tìm số chẵn lớn nhất có ba chữ số và số lẻ nhỏ nhất có bốn chữ số.
+
+  **Lời giải.** Số lớn nhất có ba chữ số là $999$, nhưng $999$ là số lẻ. Số chẵn liền trước nó là $998$.
+
+  Số nhỏ nhất có bốn chữ số là $1\,000$, nhưng $1\,000$ là số chẵn. Số lẻ liền sau nó là $1\,001$.
+
+  Vậy số chẵn lớn nhất có ba chữ số là $998$, số lẻ nhỏ nhất có bốn chữ số là $1\,001$.
+  :::
+
+[[P10·5c01]]
+Em cũng viết được dãy số chẵn, số lẻ liên tiếp.
+
+  :::example Các số liên tiếp
+  Viết ba số chẵn liên tiếp bắt đầu từ $48$.
+
+  **Lời giải.** Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị, nên ta cộng thêm $2$ mỗi lần:
+  $$48,\quad 48+2=50,\quad 50+2=52.$$
+
+  Vậy ba số chẵn liên tiếp là $48$, $50$, $52$.
+  :::
+
+[[P11·784f]]
+Bây giờ ta lập số từ các chữ số cho trước.
+
+  :::example Lập số chẵn
+  Từ ba chữ số $1$, $2$, $5$ (mỗi chữ số dùng một lần), lập tất cả các số chẵn có ba chữ số.
+
+  **Lời giải.** Số chẵn phải tận cùng bằng chữ số chẵn. Trong ba chữ số chỉ có $2$ là chữ số chẵn, nên hàng đơn vị là $2$. Hai chữ số $1$ và $5$ xếp vào hàng trăm và hàng chục theo hai cách: $152$ và $512$.
+
+  Vậy có hai số chẵn là $152$ và $512$.
+  :::
+
+[[P12·49d1]]
+Cuối cùng là một bài toán gần với đời sống.
+
+  :::example Số nhà
+  Các nhà bên phải đường Hoa Lan được đánh số chẵn liên tiếp: $2$, $4$, $6$, … Nhà thứ $10$ có số mấy?
+
+  **Lời giải.** Ta liệt kê các số chẵn liên tiếp và đếm đến số thứ $10$:
+  $$2,\ 4,\ 6,\ 8,\ 10,\ 12,\ 14,\ 16,\ 18,\ 20.$$
+
+  Số thứ $10$ trong dãy là $20$. Vậy nhà thứ $10$ có số $20$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·3d6d]]
+- **Nhìn chữ số ở giữa.** Sai: "$1\,250$ là số lẻ vì có chữ số $5$". Vì sao sai: chỉ chữ số tận cùng mới quyết định. Đúng: $1\,250$ tận cùng $0$ nên là số chẵn.
+- **Nhìn chữ số đầu tiên.** Sai: "$8\,371$ là số chẵn vì bắt đầu bằng $8$". Vì sao sai: chỉ xem chữ số hàng đơn vị. Đúng: $8\,371$ tận cùng $1$ nên là số lẻ.
+- **Hai số lẻ liên tiếp hơn kém $1$.** Sai: sau $7$ là $8$. Vì sao sai: $8$ là số chẵn. Đúng: sau $7$ là $9$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số chẵn | even number
+  - số lẻ | odd number
+  - chia hết | divisible (with no remainder)
+  - số dư | remainder
+  - chữ số tận cùng | last digit
+  - hàng đơn vị | ones place
+  - liên tiếp | consecutive
+  - cặp | pair
+  :::
+
+## Tóm tắt
+
+[[P14·7fbe]]
+- Số chẵn chia hết cho $2$; chữ số tận cùng là $0$, $2$, $4$, $6$, $8$.
+- Số lẻ chia cho $2$ dư $1$; chữ số tận cùng là $1$, $3$, $5$, $7$, $9$.
+- Hai số chẵn (hoặc hai số lẻ) liên tiếp hơn kém nhau $2$ đơn vị.
+- Muốn biết một số là chẵn hay lẻ, chỉ cần nhìn chữ số tận cùng.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/odd-and-even-numbers – BẢN TIẾNG ANH ########
+---
+title: Odd and even numbers
+description: Learn to tell odd and even numbers apart by the last digit and by dividing by 2, then write consecutive odd and even numbers.
+minutes: 15
+---
+
+  :::goals
+  - Tell even and odd numbers apart by the last digit or by dividing by $2$.
+  - Write consecutive even numbers and consecutive odd numbers.
+  - Solve simple problems about odd and even numbers.
+  :::
+
+[[P1·e5a7]]
+Class $4$A has $18$ pupils lining up in pairs. They all make pairs and nobody is left over. Class $4$B has $19$ pupils, and when they line up in pairs one pupil is left over. Which class fills every pair?
+
+[[P2·53a9]]
+How are the numbers $18$ and $19$ different? This lesson will help you answer.
+
+## Let's explore
+
+[[P3·b3ea]]
+We divide the number of pupils by $2$, because each pair has $2$ pupils:
+
+[[P4·eccc]]
+- $18\div2=9$, remainder $0$. There are $9$ pairs and nobody is left over.
+- $19\div2=9$, remainder $1$. There are $9$ pairs and $1$ pupil is left over.
+
+[[P5·3f45]]
+The number $18$ divides exactly by $2$; we call it an **even number**. The number $19$ leaves a remainder of $1$ when divided by $2$; we call it an **odd number**.
+
+[[P6·ebfb]]
+Now look at the last digits. Small even numbers: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Small odd numbers: $1$, $3$, $5$, $7$, $9$, $11$, $13$. The ones digit of an even number is always $0$, $2$, $4$, $6$ or $8$; the ones digit of an odd number is always $1$, $3$, $5$, $7$ or $9$.
+
+  :::theorem Even and odd numbers
+  - An **even number** divides exactly by $2$. Its last digit is $0$, $2$, $4$, $6$ or $8$.
+  - An **odd number** leaves a remainder of $1$ when divided by $2$. Its last digit is $1$, $3$, $5$, $7$ or $9$.
+  - Two consecutive even numbers differ by $2$. Two consecutive odd numbers also differ by $2$.
+  :::
+
+[[P7·6be8]]
+You only need to look at the last digit because every other place (tens, hundreds, thousands, …) divides exactly by $2$. What is left over depends only on the ones.
+
+## Examples
+
+[[P8·0cd3]]
+We start by telling even and odd numbers apart.
+
+  :::example Spotting even and odd
+  Among the numbers $3\,406$; $5\,719$; $80\,000$; $99\,997$, which are even and which are odd?
+
+  **Solution.** Look at the last digit of each number:
+
+  - $3\,406$ ends in $6$: even.
+  - $5\,719$ ends in $9$: odd.
+  - $80\,000$ ends in $0$: even.
+  - $99\,997$ ends in $7$: odd.
+
+  So the even numbers are $3\,406$ and $80\,000$; the odd numbers are $5\,719$ and $99\,997$.
+  :::
+
+[[P9·f28f]]
+Next, you write a number that fits a condition.
+
+  :::example The greatest even number and the least odd number
+  Find the greatest three-digit even number and the least four-digit odd number.
+
+  **Solution.** The greatest three-digit number is $999$, but $999$ is odd. The even number just before it is $998$.
+
+  The least four-digit number is $1\,000$, but $1\,000$ is even. The odd number just after it is $1\,001$.
+
+  So the greatest three-digit even number is $998$, and the least four-digit odd number is $1\,001$.
+  :::
+
+[[P10·7160]]
+You can also write a list of consecutive even or odd numbers.
+
+  :::example Consecutive numbers
+  Write three consecutive even numbers starting from $48$.
+
+  **Solution.** Two consecutive even numbers differ by $2$, so we add $2$ each time:
+  $$48,\quad 48+2=50,\quad 50+2=52.$$
+
+  So the three consecutive even numbers are $48$, $50$, $52$.
+  :::
+
+[[P11·d904]]
+Now we make numbers from given digits.
+
+  :::example Making even numbers
+  Using the digits $1$, $2$, $5$ (each digit once), make all the three-digit even numbers.
+
+  **Solution.** An even number must end in an even digit. Of the three digits, only $2$ is even, so the ones digit is $2$. The digits $1$ and $5$ go in the hundreds and tens places in two ways: $152$ and $512$.
+
+  So there are two even numbers: $152$ and $512$.
+  :::
+
+[[P12·3d33]]
+Last, a problem close to everyday life.
+
+  :::example House numbers
+  The houses on the right-hand side of Hoa Lan Street have consecutive even numbers: $2$, $4$, $6$, … What is the number of the $10$th house?
+
+  **Solution.** List the consecutive even numbers and count to the $10$th one:
+  $$2,\ 4,\ 6,\ 8,\ 10,\ 12,\ 14,\ 16,\ 18,\ 20.$$
+
+  The $10$th number in the list is $20$. So the $10$th house is number $20$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·3a3f]]
+- **Looking at a digit in the middle.** Wrong: "$1\,250$ is odd because it has the digit $5$". Why it is wrong: only the last digit decides. Right: $1\,250$ ends in $0$, so it is even.
+- **Looking at the first digit.** Wrong: "$8\,371$ is even because it starts with $8$". Why it is wrong: look only at the ones digit. Right: $8\,371$ ends in $1$, so it is odd.
+- **Thinking consecutive odd numbers differ by $1$.** Wrong: after $7$ comes $8$. Why it is wrong: $8$ is even. Right: after $7$ comes $9$.
+:::
+
+## Key terms
+
+  :::terms
+  - even number | số chẵn
+  - odd number | số lẻ
+  - divisible (with no remainder) | chia hết
+  - remainder | số dư
+  - last digit | chữ số tận cùng
+  - ones place | hàng đơn vị
+  - consecutive | liên tiếp
+  - pair | cặp
+  :::
+
+## Summary
+
+[[P14·5a87]]
+- An even number divides exactly by $2$; its last digit is $0$, $2$, $4$, $6$, $8$.
+- An odd number leaves a remainder of $1$ when divided by $2$; its last digit is $1$, $3$, $5$, $7$, $9$.
+- Two consecutive even numbers (or two consecutive odd numbers) differ by $2$.
+- To tell whether a number is even or odd, just look at its last digit.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập các phép tính trong phạm vi 100 000
+description: Em ôn cách đặt tính và tính cộng, trừ, nhân với số có một chữ số, chia cho số có một chữ số trong phạm vi 100 000, và cách thử lại kết quả.
+minutes: 15
+---
+
+  :::goals
+  - Cộng, trừ các số trong phạm vi $100\,000$ bằng cách đặt tính.
+  - Nhân và chia số có năm chữ số với (cho) số có một chữ số.
+  - Thử lại kết quả và giải bài toán có lời văn bằng các phép tính này.
+  :::
+
+[[P1·0056]]
+Tháng Một, một cửa hàng bán được $23\,456$ quyển vở. Tháng Hai bán được $18\,749$ quyển. Cả hai tháng cửa hàng bán được bao nhiêu quyển vở?
+
+[[P2·964c]]
+Em đã biết đặt tính từ lớp $3$. Bài này giúp em nhớ lại thật chắc cách làm cả bốn phép tính với số lớn.
+
+## Cùng khám phá
+
+[[P3·eced]]
+Muốn biết "cả hai tháng", em làm phép cộng. Em đặt tính sao cho các chữ số cùng hàng thẳng cột, rồi cộng từ phải sang trái:
+
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
+
+[[P4·f8b5]]
+Từng hàng, từ phải sang trái:
+
+[[P5·2462]]
+- Hàng đơn vị: $6+9=15$, viết $5$ nhớ $1$.
+- Hàng chục: $5+4+1=10$, viết $0$ nhớ $1$.
+- Hàng trăm: $4+7+1=12$, viết $2$ nhớ $1$.
+- Hàng nghìn: $3+8+1=12$, viết $2$ nhớ $1$.
+- Hàng chục nghìn: $2+1+1=4$, viết $4$.
+
+[[P6·dc92]]
+Vậy cả hai tháng bán được $42\,205$ quyển vở.
+
+  :::theorem Bốn phép tính và cách thử lại
+  - **Cộng, trừ:** đặt tính thẳng hàng, làm từ **phải sang trái**, nhớ khi cần. Thử lại phép cộng bằng phép trừ, thử lại phép trừ bằng phép cộng.
+  - **Nhân với số có một chữ số:** nhân lần lượt từng chữ số từ phải sang trái, nhớ khi cần.
+  - **Chia cho số có một chữ số:** chia từ **trái sang phải**, mỗi lần hạ một chữ số xuống. Thử lại bằng phép nhân.
+  :::
+
+[[P7·eeb7]]
+Các cách thử lại đúng vì phép cộng và phép trừ là hai phép ngược nhau, phép nhân và phép chia cũng vậy.
+
+## Ví dụ
+
+[[P8·b3dd]]
+Ta bắt đầu bằng một phép cộng có nhớ nhiều lần.
+
+  :::example Phép cộng
+  Tính $35\,628+24\,975$.
+
+  **Lời giải.** Đặt tính thẳng hàng rồi cộng từ phải sang trái:
+
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
+
+  Các bước: $8+5=13$ (viết $3$ nhớ $1$); $2+7+1=10$ (viết $0$ nhớ $1$); $6+9+1=16$ (viết $6$ nhớ $1$); $5+4+1=10$ (viết $0$ nhớ $1$); $3+2+1=6$.
+
+  Vậy $35\,628+24\,975=60\,603$.
+  :::
+
+[[P9·8ed0]]
+Phép trừ có khó hơn khi số bị trừ có nhiều chữ số $0$.
+
+  :::example Phép trừ
+  Tính $70\,000-25\,438$.
+
+  **Lời giải.** Hàng đơn vị: $0$ không trừ được $8$. Hàng gần nhất có chữ số khác $0$ là hàng chục nghìn, nên ta mượn từ đó, và các hàng ở giữa trở thành $9$:
+
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  Các bước: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Thử lại.** $44\,562+25\,438=70\,000$. Đúng.
+
+  Vậy $70\,000-25\,438=44\,562$.
+  :::
+
+[[P10·a9fd]]
+Bây giờ đến phép nhân.
+
+  :::example Phép nhân
+  Tính $12\,405\times6$.
+
+  **Lời giải.** Nhân từng chữ số với $6$, từ phải sang trái:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  Các bước: $5\times6=30$ (viết $0$ nhớ $3$); $0\times6+3=3$ (viết $3$); $4\times6=24$ (viết $4$ nhớ $2$); $2\times6+2=14$ (viết $4$ nhớ $1$); $1\times6+1=7$.
+
+  Vậy $12\,405\times6=74\,430$.
+  :::
+
+[[P11·eb5c]]
+Phép chia làm từ trái sang phải.
+
+  :::example Phép chia
+  Tính $48\,372:6$.
+
+  **Lời giải.** Ta chia từng bước, mỗi bước hạ một chữ số:
+
+  - $48:6=8$, dư $0$. Viết $8$.
+  - Hạ $3$: $3:6=0$, dư $3$. Viết $0$.
+  - Hạ $7$: $37:6=6$, dư $1$. Viết $6$.
+  - Hạ $2$: $12:6=2$, dư $0$. Viết $2$.
+
+  Thương là $8\,062$ và dư $0$.
+
+  **Thử lại.** $8\,062\times6=48\,372$. Đúng.
+
+  Vậy $48\,372:6=8\,062$.
+  :::
+
+[[P12·020d]]
+Cuối cùng, ta dùng các phép tính trong một bài toán có lời văn.
+
+  :::example Kho gạo
+  Kho có $36\,000$ kg gạo. Mỗi ngày kho bán $4\,250$ kg, bán trong $5$ ngày. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
+
+  **Lời giải.** Ta làm hai bước. Trước hết tìm số gạo bán trong $5$ ngày:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  Số gạo còn lại là số gạo ban đầu trừ số gạo đã bán:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  Vậy kho còn lại $14\,750$ kg gạo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·a100]]
+- **Đặt tính không thẳng hàng.** Sai: viết $9\,365$ lệch cột so với $25\,480$. Vì sao sai: cộng nhầm các hàng khác nhau. Đúng: viết đơn vị dưới đơn vị, chục dưới chục, …
+- **Quên chữ số $0$ trong thương.** Sai: $36\,054:6=609$. Vì sao sai: khi hạ $0$ và $5$ mà chưa chia được, phải viết $0$ vào thương. Đúng: $36\,054:6=6\,009$.
+- **Quên số nhớ.** Sai: $8+5=13$ rồi viết $13$ vào một hàng. Vì sao sai: mỗi hàng chỉ viết một chữ số. Đúng: viết $3$, nhớ $1$ sang hàng sau.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - phép trừ | subtraction
+  - phép nhân | multiplication
+  - phép chia | division
+  - đặt tính | write in columns
+  - nhớ | regrouping (carrying)
+  - tổng | sum
+  - hiệu | difference
+  - tích | product
+  - thương | quotient
+  - số dư | remainder
+  :::
+
+## Tóm tắt
+
+[[P14·7b84]]
+- Cộng, trừ: đặt tính thẳng hàng, làm từ phải sang trái, nhớ khi cần.
+- Nhân với số có một chữ số: nhân từng chữ số từ phải sang trái, nhớ khi cần.
+- Chia cho số có một chữ số: làm từ trái sang phải, mỗi bước hạ một chữ số; nhớ viết $0$ vào thương khi chưa chia được.
+- Thử lại: cộng và trừ ngược nhau; nhân và chia ngược nhau.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG ANH ########
+---
+title: Review: calculations within 100,000
+description: Review how to add, subtract, multiply and divide by a one-digit number within 100,000 using written methods, and how to check your answers.
+minutes: 15
+---
+
+  :::goals
+  - Add and subtract numbers within $100\,000$ using written columns.
+  - Multiply and divide a five-digit number by a one-digit number.
+  - Check answers and solve word problems with these operations.
+  :::
+
+[[P1·8792]]
+In January, a shop sold $23\,456$ exercise books. In February it sold $18\,749$. How many exercise books did the shop sell in the two months altogether?
+
+[[P2·3603]]
+You have used written columns since Grade 3. This lesson helps you remember all four operations with big numbers.
+
+## Let's explore
+
+[[P3·a134]]
+"Altogether" means we add. Write the numbers in columns so that digits of the same place line up, then add from right to left:
+
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
+
+[[P4·a7ee]]
+Place by place, from right to left:
+
+[[P5·e2be]]
+- Ones: $6+9=15$, write $5$, regroup $1$.
+- Tens: $5+4+1=10$, write $0$, regroup $1$.
+- Hundreds: $4+7+1=12$, write $2$, regroup $1$.
+- Thousands: $3+8+1=12$, write $2$, regroup $1$.
+- Ten thousands: $2+1+1=4$, write $4$.
+
+[[P6·394c]]
+So the shop sold $42\,205$ exercise books in the two months.
+
+  :::theorem Four operations and how to check them
+  - **Addition and subtraction:** write in columns, work from **right to left**, regroup when needed. Check an addition by subtracting, and check a subtraction by adding.
+  - **Multiplying by a one-digit number:** multiply each digit from right to left, regrouping when needed.
+  - **Dividing by a one-digit number:** work from **left to right**, bringing down one digit each time. Check by multiplying.
+  :::
+
+[[P7·21ac]]
+These checks work because addition and subtraction undo each other, and so do multiplication and division.
+
+## Examples
+
+[[P8·f242]]
+We start with an addition that regroups many times.
+
+  :::example Addition
+  Work out $35\,628+24\,975$.
+
+  **Solution.** Write in columns and add from right to left:
+
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
+
+  The steps: $8+5=13$ (write $3$, regroup $1$); $2+7+1=10$ (write $0$, regroup $1$); $6+9+1=16$ (write $6$, regroup $1$); $5+4+1=10$ (write $0$, regroup $1$); $3+2+1=6$.
+
+  So $35\,628+24\,975=60\,603$.
+  :::
+
+[[P9·4f89]]
+Subtraction is harder when the top number has many zeros.
+
+  :::example Subtraction
+  Work out $70\,000-25\,438$.
+
+  **Solution.** In the ones place, $0$ is too small to take away $8$. The nearest place with a non-zero digit is the ten thousands, so we regroup from there, and the places in between become $9$:
+
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  The steps: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Check.** $44\,562+25\,438=70\,000$. Correct.
+
+  So $70\,000-25\,438=44\,562$.
+  :::
+
+[[P10·b6bf]]
+Now multiplication.
+
+  :::example Multiplication
+  Work out $12\,405\times6$.
+
+  **Solution.** Multiply each digit by $6$, from right to left:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  The steps: $5\times6=30$ (write $0$, regroup $3$); $0\times6+3=3$ (write $3$); $4\times6=24$ (write $4$, regroup $2$); $2\times6+2=14$ (write $4$, regroup $1$); $1\times6+1=7$.
+
+  So $12\,405\times6=74\,430$.
+  :::
+
+[[P11·1648]]
+Division works from left to right.
+
+  :::example Division
+  Work out $48\,372\div6$.
+
+  **Solution.** We divide step by step, bringing down one digit each time:
+
+  - $48\div6=8$, remainder $0$. Write $8$.
+  - Bring down $3$: $3\div6=0$, remainder $3$. Write $0$.
+  - Bring down $7$: $37\div6=6$, remainder $1$. Write $6$.
+  - Bring down $2$: $12\div6=2$, remainder $0$. Write $2$.
+
+  The quotient is $8\,062$ with remainder $0$.
+
+  **Check.** $8\,062\times6=48\,372$. Correct.
+
+  So $48\,372\div6=8\,062$.
+  :::
+
+[[P12·f0b3]]
+Finally, we use the operations in a word problem.
+
+  :::example The rice store
+  A store has $36\,000$ kg of rice. Each day it sells $4\,250$ kg, for $5$ days. How many kilograms of rice are left?
+
+  **Solution.** We work in two steps. First, find the rice sold in $5$ days:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  The rice left is the starting amount minus the rice sold:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  So $14\,750$ kg of rice are left.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·c320]]
+- **Columns not lined up.** Wrong: writing $9\,365$ out of line with $25\,480$. Why it is wrong: you add digits from different places. Right: ones under ones, tens under tens, and so on.
+- **Forgetting a zero in the quotient.** Wrong: $36\,054\div6=609$. Why it is wrong: when you bring down $0$ and $5$ and cannot divide yet, you must write $0$ in the quotient. Right: $36\,054\div6=6\,009$.
+- **Forgetting to regroup.** Wrong: $8+5=13$ and writing $13$ in one place. Why it is wrong: each place holds only one digit. Right: write $3$ and regroup $1$ to the next place.
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - subtraction | phép trừ
+  - multiplication | phép nhân
+  - division | phép chia
+  - write in columns | đặt tính
+  - regrouping (carrying) | nhớ
+  - sum | tổng
+  - difference | hiệu
+  - product | tích
+  - quotient | thương
+  - remainder | số dư
+  :::
+
+## Summary
+
+[[P14·a90d]]
+- Add and subtract: write in columns, work from right to left, regroup when needed.
+- Multiply by a one-digit number: multiply each digit from right to left, regrouping when needed.
+- Divide by a one-digit number: work from left to right, bringing down one digit each step; write $0$ in the quotient when you cannot divide yet.
+- Check: addition and subtraction undo each other; multiplication and division undo each other.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập các số đến 100 000
+description: Em ôn cách đọc, viết, phân tích, so sánh và sắp xếp các số trong phạm vi 100 000 theo hàng chục nghìn, nghìn, trăm, chục, đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Đọc, viết các số trong phạm vi $100\,000$ và nêu giá trị của từng chữ số.
+  - Viết một số thành tổng các hàng.
+  - So sánh và sắp xếp các số trong phạm vi $100\,000$.
+  :::
+
+[[P1·23f6]]
+Thư viện trường em có $36\,407$ quyển sách. Em đọc số này thế nào? Chữ số $6$ trong số này có giá trị bao nhiêu? Thư viện của trường bên cạnh có $36\,470$ quyển. Trường nào có nhiều sách hơn?
+
+[[P2·2892]]
+Em đã học các số này ở lớp $3$. Bài này giúp em nhớ lại thật chắc trước khi học các số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·b067]]
+Mỗi chữ số trong một số có một **hàng**. Với số $36\,407$, em đọc từ trái sang phải:
+
+| Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|---|
+| Chữ số | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Giá trị | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·b388]]
+Cộng các giá trị lại, em được số ban đầu:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·2bad]]
+Vậy chữ số $6$ ở hàng nghìn, có giá trị $6\,000$. Em đọc số này là: **ba mươi sáu nghìn bốn trăm linh bảy**. Chữ số $0$ ở hàng chục nên em đọc "linh".
+
+[[P6·4619]]
+Bây giờ so sánh $36\,407$ và $36\,470$. Hai số đều có $5$ chữ số. Các chữ số hàng chục nghìn, nghìn, trăm đều giống nhau ($3$, $6$, $4$). Đến hàng chục: $0$ và $7$. Vì $0<7$ nên $36\,407<36\,470$. Trường bên cạnh có nhiều sách hơn.
+
+  :::theorem Cách đọc, viết và so sánh số
+  - **Đọc và viết:** đọc từ hàng cao đến hàng thấp, đọc "nghìn" sau phần chục nghìn và nghìn. Hàng nào có chữ số $0$ ở giữa thì đọc "không trăm" hoặc "linh".
+  - **So sánh:** số nào có nhiều chữ số hơn thì lớn hơn. Hai số có cùng số chữ số thì so từng hàng, bắt đầu từ hàng cao nhất; hàng nào khác nhau đầu tiên thì chữ số lớn hơn cho số lớn hơn.
+  :::
+
+[[P7·b156]]
+Cách so sánh này đúng vì hàng cao có giá trị lớn hơn rất nhiều: $1$ chục nghìn là $10\,000$, lớn hơn mọi giá trị của bốn hàng còn lại cộng lại.
+
+## Ví dụ
+
+[[P8·b10f]]
+Ta bắt đầu bằng việc đọc và phân tích một số.
+
+  :::example Đọc số
+  Đọc số $52\,019$ và nêu chữ số ở mỗi hàng.
+
+  **Lời giải.** Ta xem từng hàng, từ trái sang phải:
+
+  | Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+  |---|---|---|---|---|---|
+  | Chữ số | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  Hàng trăm là $0$ nên em đọc "không trăm". Vậy $52\,019$ đọc là: **năm mươi hai nghìn không trăm mười chín**.
+  :::
+
+[[P9·f4e0]]
+Từ cách phân tích hàng, em viết số thành tổng.
+
+  :::example Viết thành tổng
+  Viết số $84\,350$ thành tổng các hàng.
+
+  **Lời giải.** Mỗi chữ số có giá trị theo hàng của nó. Hàng đơn vị là $0$ nên không cần viết:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  Vậy $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·bcb0]]
+Tiếp theo là so sánh hai số.
+
+  :::example So sánh số
+  So sánh: a) $45\,678$ và $45\,687$; b) $9\,999$ và $10\,000$.
+
+  **Lời giải.** a) Hai số đều có $5$ chữ số. So từng hàng từ trái sang phải: $4=4$, $5=5$, $6=6$. Đến hàng chục: $7<8$. Vậy $45\,678<45\,687$.
+
+  b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số. Số có nhiều chữ số hơn thì lớn hơn. Vậy $9\,999<10\,000$.
+  :::
+
+[[P11·7310]]
+Có nhiều số thì ta so sánh lần lượt rồi sắp xếp.
+
+  :::example Sắp xếp số
+  Sắp xếp các số $23\,540$; $32\,450$; $23\,450$; $9\,999$ theo thứ tự từ bé đến lớn.
+
+  **Lời giải.** Số $9\,999$ có $4$ chữ số nên bé nhất. Ba số còn lại đều có $5$ chữ số. Hàng chục nghìn: $2$, $3$, $2$ nên $32\,450$ lớn nhất. Còn $23\,540$ và $23\,450$ có cùng hàng chục nghìn và hàng nghìn; hàng trăm: $5>4$ nên $23\,540>23\,450$.
+
+  Vậy thứ tự từ bé đến lớn là: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·7e20]]
+Cuối cùng là số liền trước và số liền sau.
+
+  :::example Số liền trước, liền sau
+  Tìm số liền sau của $69\,999$ và số liền trước của $40\,000$.
+
+  **Lời giải.** Số liền sau hơn số đó $1$ đơn vị, số liền trước kém $1$ đơn vị:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  Vậy số liền sau của $69\,999$ là $70\,000$, số liền trước của $40\,000$ là $39\,999$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·c3eb]]
+- **Bỏ sót "linh" hoặc "không trăm".** Sai: đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi". Vì sao sai: đó là số $30\,520$. Đúng: "ba mươi nghìn năm trăm linh hai".
+- **So sánh khi số chữ số khác nhau.** Sai: $9\,999>10\,000$ vì $9>1$. Vì sao sai: $10\,000$ có nhiều chữ số hơn. Đúng: $9\,999<10\,000$.
+- **Nhầm giá trị với chữ số.** Sai: chữ số $6$ trong $46\,280$ có giá trị $6$. Vì sao sai: $6$ ở hàng nghìn. Đúng: giá trị là $6\,000$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàng | place (place value position)
+  - chục nghìn | ten thousands
+  - nghìn | thousands
+  - trăm | hundreds
+  - chục | tens
+  - đơn vị | ones
+  - số liền trước | the number before
+  - số liền sau | the number after
+  :::
+
+## Tóm tắt
+
+[[P14·a427]]
+- Số có $5$ chữ số gồm các hàng: chục nghìn, nghìn, trăm, chục, đơn vị.
+- Mỗi chữ số có giá trị theo hàng của nó: $36\,407=30\,000+6\,000+400+7$.
+- Đọc từ hàng cao đến hàng thấp; chữ số $0$ ở giữa thì đọc "linh" hoặc "không trăm".
+- So sánh: nhiều chữ số hơn thì lớn hơn; cùng số chữ số thì so từng hàng từ hàng cao nhất.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG ANH ########
+---
+title: Review: numbers to 100,000
+description: Review how to read, write, partition, compare and order numbers up to 100,000 using ten thousands, thousands, hundreds, tens and ones.
+minutes: 15
+---
+
+  :::goals
+  - Read and write numbers up to $100\,000$ and give the value of each digit.
+  - Write a number as a sum of its places.
+  - Compare and order numbers up to $100\,000$.
+  :::
+
+[[P1·fdd1]]
+Our school library has $36\,407$ books. How do you read this number? What is the value of the digit $6$? The library of the next school has $36\,470$ books. Which school has more books?
+
+[[P2·8e23]]
+You learned these numbers in Grade 3. This lesson helps you remember them well before we meet bigger numbers.
+
+## Let's explore
+
+[[P3·4686]]
+Each digit in a number has a **place**. For the number $36\,407$, read from left to right:
+
+| Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|---|
+| Digit | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Value | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·2d76]]
+Add the values and you get the number back:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·9ef9]]
+So the digit $6$ is in the thousands place and has value $6\,000$. We read the number as: **thirty-six thousand, four hundred and seven**. The tens digit is $0$, so we say "and seven" with no tens.
+
+[[P6·55ac]]
+Now compare $36\,407$ and $36\,470$. Both have $5$ digits. The ten thousands, thousands and hundreds digits are the same ($3$, $6$, $4$). In the tens place we have $0$ and $7$. Since $0<7$, we get $36\,407<36\,470$. The next school has more books.
+
+  :::theorem Reading, writing and comparing numbers
+  - **Reading and writing:** read from the highest place to the lowest. Say "thousand" after the ten thousands and thousands part. If a place in the middle is $0$, skip it when reading, but write $0$ when writing.
+  - **Comparing:** the number with more digits is greater. If two numbers have the same number of digits, compare place by place from the highest place; the first place where they differ decides, and the bigger digit gives the bigger number.
+  :::
+
+[[P7·bb71]]
+This works because higher places are worth much more: $1$ ten thousand is $10\,000$, which is more than all the other four places can make together.
+
+## Examples
+
+[[P8·6f96]]
+We start by reading and partitioning a number.
+
+  :::example Reading a number
+  Read the number $52\,019$ and give the digit in each place.
+
+  **Solution.** We look at each place, from left to right:
+
+  | Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+  |---|---|---|---|---|---|
+  | Digit | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  The hundreds digit is $0$, so we skip hundreds. So $52\,019$ is read: **fifty-two thousand and nineteen**.
+  :::
+
+[[P9·bf77]]
+From the places, we can write a number as a sum.
+
+  :::example Writing as a sum
+  Write $84\,350$ as a sum of its places.
+
+  **Solution.** Each digit has a value given by its place. The ones digit is $0$, so we do not write it:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  So $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·700d]]
+Next we compare two numbers.
+
+  :::example Comparing numbers
+  Compare: a) $45\,678$ and $45\,687$; b) $9\,999$ and $10\,000$.
+
+  **Solution.** a) Both numbers have $5$ digits. Compare place by place from the left: $4=4$, $5=5$, $6=6$. In the tens place: $7<8$. So $45\,678<45\,687$.
+
+  b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits. The number with more digits is greater. So $9\,999<10\,000$.
+  :::
+
+[[P11·5b39]]
+With several numbers, we compare them one by one and then put them in order.
+
+  :::example Ordering numbers
+  Put the numbers $23\,540$; $32\,450$; $23\,450$; $9\,999$ in order from least to greatest.
+
+  **Solution.** $9\,999$ has $4$ digits, so it is the least. The other three have $5$ digits. Their ten thousands digits are $2$, $3$, $2$, so $32\,450$ is the greatest. The numbers $23\,540$ and $23\,450$ have the same ten thousands and thousands digits; in the hundreds place $5>4$, so $23\,540>23\,450$.
+
+  So the order from least to greatest is: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·0fd1]]
+Finally, the number before and the number after.
+
+  :::example The number before and after
+  Find the number after $69\,999$ and the number before $40\,000$.
+
+  **Solution.** The number after is $1$ more, and the number before is $1$ less:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  So the number after $69\,999$ is $70\,000$, and the number before $40\,000$ is $39\,999$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·54f8]]
+- **Dropping a zero when reading.** Wrong: reading $30\,502$ as "thirty thousand, five hundred and twenty". Why it is wrong: that is $30\,520$. Right: "thirty thousand, five hundred and two".
+- **Comparing when the numbers of digits differ.** Wrong: $9\,999>10\,000$ because $9>1$. Why it is wrong: $10\,000$ has more digits. Right: $9\,999<10\,000$.
+- **Mixing up a digit and its value.** Wrong: the digit $6$ in $46\,280$ has value $6$. Why it is wrong: the $6$ is in the thousands place. Right: its value is $6\,000$.
+:::
+
+## Key terms
+
+  :::terms
+  - place (place value position) | hàng
+  - ten thousands | chục nghìn
+  - thousands | nghìn
+  - hundreds | trăm
+  - tens | chục
+  - ones | đơn vị
+  - the number before | số liền trước
+  - the number after | số liền sau
+  :::
+
+## Summary
+
+[[P14·759c]]
+- A $5$-digit number has these places: ten thousands, thousands, hundreds, tens, ones.
+- Each digit has a value given by its place: $36\,407=30\,000+6\,000+400+7$.
+- Read from the highest place to the lowest; a middle $0$ is written but not read.
+- Comparing: more digits means greater; with the same number of digits, compare place by place from the highest place.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

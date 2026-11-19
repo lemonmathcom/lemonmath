@@ -1,0 +1,432 @@
+######################################################################
+TÀI KHOẢN: Xedap102   |   FILE: Xedap102-GV-4   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Xedap102-GV-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-GV-4
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/sat/sat-practice-test-1, exams/sat/sat-practice-test-2
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Xedap102-GV-4-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Xedap102-GV-4-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Xedap102-GV-4-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/sat/sat-practice-test-1 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện SAT Math số 1
+description: Đề luyện SAT Math số 1 đủ thời lượng: hai module, mỗi module 22 câu trong 35 phút, chấm điểm ngay, có lời giải từng câu.
+minutes: 70
+type: test
+---
+
+[[P1·4b71]]
+Đây là một đề luyện đủ thời lượng theo đúng cấu trúc phần Toán của SAT thi trên máy: hai module, mỗi module 22 câu trong 35 phút. Mọi câu hỏi do Lemonmath tự soạn; đây không phải câu hỏi SAT thật, nhưng bám sát các mảng nội dung và kiểu câu hỏi chính thức.
+
+## Cách làm đề
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Số câu | 22 | 22 |
+| Thời gian | 35 phút | 35 phút |
+| Máy tính | được dùng (Desmos hoặc máy của bạn) | được dùng |
+
+[[P2·03ac]]
+1. Đặt đồng hồ 35 phút và làm Module 1 liền một mạch. Nộp bài để xem điểm.
+2. Nghỉ tối đa 10 phút, rồi làm Module 2 trong 35 phút tiếp theo.
+3. Với câu tự điền đáp số, hãy nhập một số: số nguyên, số thập phân hoặc số âm (ở đây nhập dấu phẩy hay dấu chấm đều được). Trong đề thật, SAT dùng dấu chấm, ví dụ `0.25`, và chấp nhận cả phân số như `7/2`.
+4. Làm xong, mở phần đáp án, đọc lời giải của mọi câu sai và ghi vào sổ lỗi sai.
+
+[[P3·08f8]]
+Trong đề thật, Module 2 thay đổi theo kết quả Module 1. Ở đây cả hai module cố định, và Module 2 khó hơn một chút, giống module 2 bản khó.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 173 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P4·4dd5]]
+Mỗi module tính trên 22 câu. Dùng bảng dưới đây để biết mỗi câu sai cần ôn lại bài nào. Đạt từ 18 câu trở lên ở mỗi module cho thấy bạn đã sẵn sàng với những câu khó nhất của SAT; dưới 12 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 2 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 3 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 4 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 5 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 6 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 7 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 8 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 9 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 10 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 11 | [Hàm mũ](lesson:sat-exponential-functions) | [Thống kê và xác suất](lesson:sat-statistics-probability) |
+| 12 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 13 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 14 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 15 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 16 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm mũ](lesson:sat-exponential-functions) |
+| 17 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 18 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm mũ](lesson:sat-exponential-functions) |
+| 19 | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 20 | [Hàm mũ](lesson:sat-exponential-functions) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 21 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 22 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+
+[[P5·f241]]
+Sau ít nhất một tuần ôn tập, hãy làm [đề luyện thứ hai](lesson:sat-practice-test-2), và nhớ ôn bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision).
+
+
+######## BÀI exams/sat/sat-practice-test-1 – BẢN TIẾNG ANH ########
+---
+title: SAT Math practice test 1
+description: A full-length SAT Math practice test 1: two modules of 22 questions, 35 minutes each, marked instantly, with a solution to every question.
+minutes: 70
+type: test
+---
+
+[[P1·35d5]]
+This is a full-length practice test in the format of the digital SAT Math section: two modules of 22 questions, 35 minutes each. All questions are written by Lemonmath; they are not real SAT questions, but they follow the official content domains and question styles.
+
+## How to take this test
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Questions | 22 | 22 |
+| Time | 35 minutes | 35 minutes |
+| Calculator | allowed (Desmos or your own) | allowed |
+
+[[P2·bd43]]
+1. Set a timer for 35 minutes and do Module 1 without stopping. Submit it to see your score.
+2. Take a 10-minute break at most, then do Module 2 in another 35 minutes.
+3. For student-produced responses, type a number: integers, decimals with a point (for example `0.25`) or a minus sign. On the real test fractions such as `7/2` are also accepted.
+4. Afterwards, open the answers, read the explanation of every question you missed and add it to your error log.
+
+[[P3·2e08]]
+On the real test, Module 2 adapts to your performance on Module 1. Here both modules are fixed, and Module 2 is a little harder, like the harder second module.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 173 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the test
+
+[[P4·38bc]]
+Each module is marked out of 22. Use the table to see which lesson to revise for each question you missed. A score of 18 or more in each module suggests you are ready for the hardest SAT questions; below 12, go back to the lessons before taking another full test.
+
+| Question | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 2 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 3 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 4 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 5 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 6 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 7 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 8 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 9 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 10 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 11 | [Exponential functions](lesson:sat-exponential-functions) | [Statistics and probability](lesson:sat-statistics-probability) |
+| 12 | [Statistics and probability](lesson:sat-statistics-probability) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 13 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 14 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 15 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 16 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Exponential functions](lesson:sat-exponential-functions) |
+| 17 | [Statistics and probability](lesson:sat-statistics-probability) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 18 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Exponential functions](lesson:sat-exponential-functions) |
+| 19 | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 20 | [Exponential functions](lesson:sat-exponential-functions) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 21 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 22 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+
+[[P5·afb7]]
+Then take the [second practice test](lesson:sat-practice-test-2) after at least a week of revision, and remember to review with the methods in [Revision that works](lesson:evidence-based-revision).
+
+
+######## BÀI exams/sat/sat-practice-test-2 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện SAT Math số 2
+description: Đề luyện SAT Math số 2 đủ thời lượng: hai module, mỗi module 22 câu trong 35 phút, chấm điểm ngay, có lời giải từng câu.
+minutes: 70
+type: test
+---
+
+[[P1·4b71]]
+Đây là một đề luyện đủ thời lượng theo đúng cấu trúc phần Toán của SAT thi trên máy: hai module, mỗi module 22 câu trong 35 phút. Mọi câu hỏi do Lemonmath tự soạn; đây không phải câu hỏi SAT thật, nhưng bám sát các mảng nội dung và kiểu câu hỏi chính thức.
+
+## Cách làm đề
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Số câu | 22 | 22 |
+| Thời gian | 35 phút | 35 phút |
+| Máy tính | được dùng (Desmos hoặc máy của bạn) | được dùng |
+
+[[P2·03ac]]
+1. Đặt đồng hồ 35 phút và làm Module 1 liền một mạch. Nộp bài để xem điểm.
+2. Nghỉ tối đa 10 phút, rồi làm Module 2 trong 35 phút tiếp theo.
+3. Với câu tự điền đáp số, hãy nhập một số: số nguyên, số thập phân hoặc số âm (ở đây nhập dấu phẩy hay dấu chấm đều được). Trong đề thật, SAT dùng dấu chấm, ví dụ `0.25`, và chấp nhận cả phân số như `7/2`.
+4. Làm xong, mở phần đáp án, đọc lời giải của mọi câu sai và ghi vào sổ lỗi sai.
+
+[[P3·08f8]]
+Trong đề thật, Module 2 thay đổi theo kết quả Module 1. Ở đây cả hai module cố định, và Module 2 khó hơn một chút, giống module 2 bản khó.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 169 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P4·4dd5]]
+Mỗi module tính trên 22 câu. Dùng bảng dưới đây để biết mỗi câu sai cần ôn lại bài nào. Đạt từ 18 câu trở lên ở mỗi module cho thấy bạn đã sẵn sàng với những câu khó nhất của SAT; dưới 12 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 2 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 3 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 4 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 5 | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 6 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 7 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 8 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 9 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 10 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Hàm mũ](lesson:sat-exponential-functions) |
+| 11 | [Hàm mũ](lesson:sat-exponential-functions) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 12 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Thống kê và xác suất](lesson:sat-statistics-probability) |
+| 13 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 14 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 15 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 16 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 17 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 18 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Thống kê và xác suất](lesson:sat-statistics-probability) |
+| 19 | [Hàm mũ](lesson:sat-exponential-functions) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 20 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 21 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 22 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+
+[[P5·1bcb]]
+Sau ít nhất một tuần ôn tập, hãy làm [đề luyện thứ hai](lesson:sat-practice-test-1), và nhớ ôn bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision).
+
+
+######## BÀI exams/sat/sat-practice-test-2 – BẢN TIẾNG ANH ########
+---
+title: SAT Math practice test 2
+description: A full-length SAT Math practice test 2: two modules of 22 questions, 35 minutes each, marked instantly, with a solution to every question.
+minutes: 70
+type: test
+---
+
+[[P1·35d5]]
+This is a full-length practice test in the format of the digital SAT Math section: two modules of 22 questions, 35 minutes each. All questions are written by Lemonmath; they are not real SAT questions, but they follow the official content domains and question styles.
+
+## How to take this test
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Questions | 22 | 22 |
+| Time | 35 minutes | 35 minutes |
+| Calculator | allowed (Desmos or your own) | allowed |
+
+[[P2·bd43]]
+1. Set a timer for 35 minutes and do Module 1 without stopping. Submit it to see your score.
+2. Take a 10-minute break at most, then do Module 2 in another 35 minutes.
+3. For student-produced responses, type a number: integers, decimals with a point (for example `0.25`) or a minus sign. On the real test fractions such as `7/2` are also accepted.
+4. Afterwards, open the answers, read the explanation of every question you missed and add it to your error log.
+
+[[P3·2e08]]
+On the real test, Module 2 adapts to your performance on Module 1. Here both modules are fixed, and Module 2 is a little harder, like the harder second module.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 169 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the test
+
+[[P4·38bc]]
+Each module is marked out of 22. Use the table to see which lesson to revise for each question you missed. A score of 18 or more in each module suggests you are ready for the hardest SAT questions; below 12, go back to the lessons before taking another full test.
+
+| Question | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 2 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 3 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 4 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 5 | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 6 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 7 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 8 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 9 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 10 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Exponential functions](lesson:sat-exponential-functions) |
+| 11 | [Exponential functions](lesson:sat-exponential-functions) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 12 | [Statistics and probability](lesson:sat-statistics-probability) | [Statistics and probability](lesson:sat-statistics-probability) |
+| 13 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 14 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 15 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 16 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 17 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 18 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Statistics and probability](lesson:sat-statistics-probability) |
+| 19 | [Exponential functions](lesson:sat-exponential-functions) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 20 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 21 | [Statistics and probability](lesson:sat-statistics-probability) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 22 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+
+[[P5·6884]]
+Then take the [second practice test](lesson:sat-practice-test-1) after at least a week of revision, and remember to review with the methods in [Revision that works](lesson:evidence-based-revision).
+

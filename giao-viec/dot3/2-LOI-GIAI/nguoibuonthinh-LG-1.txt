@@ -1,0 +1,1108 @@
+######################################################################
+TÀI KHOẢN: nguoibuonthinh   |   FILE: nguoibuonthinh-LG-1   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file nguoibuonthinh-LG-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – nguoibuonthinh-LG-1
+Người làm: tài khoản nguoibuonthinh. Gói này có 35 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/nguoibuonthinh-LG-1-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/nguoibuonthinh-LG-1-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g12/monotonicity-extrema (5 bài tập)
+- g12/plane-equation (10 bài tập)
+- g12/review-functions-derivatives (10 bài tập)
+- g12/review-integrals (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/monotonicity-extrema
+Bài học: Tính đơn điệu và cực trị của hàm số / Monotonicity and extrema
+Cần viết lại lời giải các bài: 3, 5, 6, 7, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Xét tính đơn điệu của hàm số $y=\dfrac{x+2}{x-1}$.
+
+[LỜI GIẢI CŨ – VI]
+Tập xác định: $D=\mathbb{R}\setminus\{1\}$. Ta có $y'=\dfrac{1\cdot(-1)-2\cdot1}{(x-1)^2}=\dfrac{-3}{(x-1)^2}<0$ với mọi $x\in D$.
+
+Vậy hàm số nghịch biến trên từng khoảng xác định.
+
+**Đáp số.** Hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, không có cực trị.
+
+[ĐỀ – EN]
+Determine where $y=\dfrac{x+2}{x-1}$ is increasing or decreasing.
+
+[LỜI GIẢI CŨ – EN]
+The domain is $D=\mathbb{R}\setminus\{1\}$. We have $y'=\dfrac{1\cdot(-1)-2\cdot1}{(x-1)^2}=\dfrac{-3}{(x-1)^2}<0$ for every $x\in D$.
+
+So the function is decreasing on each interval of its domain.
+
+**Answer.** The function is decreasing on each interval $(-\infty, 1)$ and $(1, +\infty)$, and has no extremum.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hàm số $y=f(x)$ có đạo hàm $f'(x)=x(x-1)^2(x+2)$ với mọi $x\in\mathbb{R}$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Hàm số $f$ đồng biến trên khoảng $(0; +\infty)$.
+
+b) Hàm số $f$ có ba điểm cực trị.
+
+c) Hàm số $f$ đạt cực đại tại $x=-2$.
+
+d) Hàm số $f$ nghịch biến trên khoảng $(-2; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $(x-1)^2\ge0$ nên $f'$ cùng dấu với $x(x+2)$ (trừ tại $x=1$ thì $f'=0$). Do đó $f'$ dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
+
+a) **Đúng**. Vì $f'\ge 0$ trên $(0; +\infty)$ và chỉ bằng $0$ tại $x=1$ nên hàm số đồng biến trên khoảng này.
+
+b) **Sai**. Vì $f'$ chỉ đổi dấu tại $x=-2$ và $x=0$ nên hàm số có hai điểm cực trị.
+
+c) **Đúng**. Vì $f'$ đổi dấu từ $+$ sang $-$ tại $x=-2$ nên hàm số đạt cực đại tại đó.
+
+d) **Sai**. Trên $(0; 1)$ ta có $f'>0$ nên hàm số đồng biến trên khoảng này.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+A function $y=f(x)$ has derivative $f'(x)=x(x-1)^2(x+2)$ for every $x\in\mathbb{R}$. Decide whether each statement is true or false.
+
+a) The function $f$ is increasing on the interval $(0, +\infty)$.
+
+b) The function $f$ has three turning points.
+
+c) The function $f$ has a local maximum at $x=-2$.
+
+d) The function $f$ is decreasing on the interval $(-2, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+Since $(x-1)^2\ge0$, $f'$ has the same sign as $x(x+2)$ (except at $x=1$, where $f'=0$). Hence $f'$ is positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and $(1, +\infty)$.
+
+a) **True**. Since $f'\ge 0$ on $(0, +\infty)$ and it is zero only at $x=1$, the function is increasing on this interval.
+
+b) **False**. Since $f'$ changes sign only at $x=-2$ and $x=0$, the function has two turning points.
+
+c) **True**. Since $f'$ changes sign from $+$ to $-$ at $x=-2$, the function has a local maximum there.
+
+d) **False**. On $(0, 1)$ we have $f'>0$, so the function is increasing on this interval.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hàm số $y=x^3-3x^2-9x+4$ có giá trị cực đại $y_{\text{CĐ}}$ và giá trị cực tiểu $y_{\text{CT}}$. Tính $y_{\text{CĐ}}-y_{\text{CT}}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $y'=3(x+1)(x-3)$. Vì $a=3>0$ nên $y'$ đổi dấu $+\to-$ tại $x=-1$ và $-\to+$ tại $x=3$. Do đó $y_{\text{CĐ}}=y(-1)=-1-3+9+4=9$ và $y_{\text{CT}}=y(3)=27-27-27+4=-23$.
+
+Vậy $y_{\text{CĐ}}-y_{\text{CT}}=9-(-23)=32$.
+
+**Đáp số.** $32$.
+
+[ĐỀ – EN]
+The function $y=x^3-3x^2-9x+4$ has a local maximum value $y_{\text{max}}$ and a local minimum value $y_{\text{min}}$. Compute $y_{\text{max}}-y_{\text{min}}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $y'=3(x+1)(x-3)$. Since $a=3>0$, $y'$ changes sign $+\to-$ at $x=-1$ and $-\to+$ at $x=3$. Hence $y_{\text{max}}=y(-1)=-1-3+9+4=9$ and $y_{\text{min}}=y(3)=27-27-27+4=-23$.
+
+So $y_{\text{max}}-y_{\text{min}}=9-(-23)=32$.
+
+**Answer.** $32$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử nồng độ một loại thuốc trong máu sau khi tiêm $t$ giờ là $C(t)=\dfrac{30t}{t^2+9}$ (mg/l), $t>0$. Tìm các khoảng thời gian nồng độ thuốc tăng, giảm. Nồng độ đạt cực đại tại thời điểm nào và giá trị cực đại bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $C'(t)=\dfrac{30(t^2+9)-30t\cdot 2t}{(t^2+9)^2}=\dfrac{30(9-t^2)}{(t^2+9)^2}$. Với $t>0$, ta có $C'>0$ khi $0<t<3$ và $C'<0$ khi $t>3$.
+
+Vậy nồng độ đạt cực đại tại $t=3$ và $C(3)=\dfrac{90}{18}=5$.
+
+**Đáp số.** Tăng trong $3$ giờ đầu, giảm sau đó; cực đại $5$ mg/l lúc $t=3$ giờ.
+
+[ĐỀ – EN]
+Suppose the concentration of a medicine in the blood $t$ hours after an injection is $C(t)=\dfrac{30t}{t^2+9}$ (mg/l), $t>0$. Find the time intervals during which the concentration increases and decreases. At what time does the concentration reach its local maximum, and what is the local maximum value?
+
+[LỜI GIẢI CŨ – EN]
+We have $C'(t)=\dfrac{30(t^2+9)-30t\cdot 2t}{(t^2+9)^2}=\dfrac{30(9-t^2)}{(t^2+9)^2}$. For $t>0$, we have $C'>0$ when $0<t<3$ and $C'<0$ when $t>3$.
+
+So the concentration has a local maximum at $t=3$, and $C(3)=\dfrac{90}{18}=5$.
+
+**Answer.** It increases during the first $3$ hours and decreases afterwards; the local maximum is $5$ mg/l at $t=3$ hours.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chứng minh rằng hàm số $y=x^3+x^2+x+1$ đồng biến trên $\mathbb{R}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $y'=3x^2+2x+1$. Vì $\Delta=4-12=-8<0$ và $a=3>0$ nên $y'>0$ với mọi $x$.
+
+Vậy hàm số đồng biến trên $\mathbb{R}$.
+
+**Đáp số.** $y'>0$ với mọi $x\in\mathbb{R}$, nên hàm số đồng biến trên $\mathbb{R}$.
+
+[ĐỀ – EN]
+Prove that $y=x^3+x^2+x+1$ is increasing on $\mathbb{R}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $y'=3x^2+2x+1$. Since $\Delta=4-12=-8<0$ and $a=3>0$, $y'>0$ for every $x$.
+
+So the function is increasing on $\mathbb{R}$.
+
+**Answer.** $y'>0$ for every $x\in\mathbb{R}$, so the function is increasing on $\mathbb{R}$.
+
+
+######################################################################
+@@@ g12/plane-equation
+Bài học: Phương trình mặt phẳng / The equation of a plane
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình mặt phẳng đi qua $M(2; 1; -1)$ và có vectơ pháp tuyến $\vec{n}=(1; -3; 2)$.
+
+[LỜI GIẢI CŨ – VI]
+$$(x-2)-3(y-1)+2(z+1)=0\iff x-3y+2z+3=0.$$
+Kiểm tra $M$: $2-3-2+3=0$.
+
+**Đáp số.** $x-3y+2z+3=0$.
+
+[ĐỀ – EN]
+Write the equation of the plane through $M(2, 1, -1)$ with normal vector $\vec{n}=(1, -3, 2)$.
+
+[LỜI GIẢI CŨ – EN]
+$$(x-2)-3(y-1)+2(z+1)=0\iff x-3y+2z+3=0.$$
+Check with $M$: $2-3-2+3=0$.
+
+**Answer.** $x-3y+2z+3=0$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $A(1; 2; 3)$ và $B(3; 0; 5)$. Viết phương trình mặt phẳng trung trực của đoạn $AB$ (mặt phẳng vuông góc với $AB$ tại trung điểm của nó).
+
+[LỜI GIẢI CŨ – VI]
+$I(2; 1; 4)$, $\overrightarrow{AB}=(2; -2; 2)=2(1; -1; 1)$. Chọn $\vec{n}=(1; -1; 1)$:
+$$(x-2)-(y-1)+(z-4)=0\iff x-y+z-5=0.$$
+
+**Đáp số.** $x-y+z-5=0$.
+
+[ĐỀ – EN]
+Let $A(1, 2, 3)$ and $B(3, 0, 5)$. Write the equation of the perpendicular bisector plane of $AB$ (the plane perpendicular to $AB$ through its midpoint).
+
+[LỜI GIẢI CŨ – EN]
+$I(2, 1, 4)$, $\overrightarrow{AB}=(2, -2, 2)=2(1, -1, 1)$. Choose $\vec{n}=(1, -1, 1)$:
+$$(x-2)-(y-1)+(z-4)=0\iff x-y+z-5=0.$$
+
+**Answer.** $x-y+z-5=0$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phương trình mặt phẳng đi qua $A(2; 1; -1)$, $B(3; 0; 1)$, $C(1; 3; 0)$.
+
+[LỜI GIẢI CŨ – VI]
+$\overrightarrow{AB}=(1; -1; 2)$, $\overrightarrow{AC}=(-1; 2; 1)$.
+$$[\overrightarrow{AB}, \overrightarrow{AC}]=\big((-1)\cdot1-2\cdot2;\ 2\cdot(-1)-1\cdot1;\ 1\cdot2-(-1)\cdot(-1)\big)=(-5; -3; 1).$$
+Chọn $\vec{n}=(5; 3; -1)$: $5(x-2)+3(y-1)-(z+1)=0\iff 5x+3y-z-14=0$.
+Kiểm tra $C$: $5+9-0-14=0$.
+
+**Đáp số.** $5x+3y-z-14=0$.
+
+[ĐỀ – EN]
+Write the equation of the plane through $A(2, 1, -1)$, $B(3, 0, 1)$, $C(1, 3, 0)$.
+
+[LỜI GIẢI CŨ – EN]
+$\overrightarrow{AB}=(1, -1, 2)$, $\overrightarrow{AC}=(-1, 2, 1)$.
+$$\overrightarrow{AB}\times\overrightarrow{AC}=\big((-1)\cdot1-2\cdot2,\ 2\cdot(-1)-1\cdot1,\ 1\cdot2-(-1)\cdot(-1)\big)=(-5, -3, 1).$$
+Choose $\vec{n}=(5, 3, -1)$: $5(x-2)+3(y-1)-(z+1)=0\iff 5x+3y-z-14=0$.
+Check with $C$: $5+9-0-14=0$.
+
+**Answer.** $5x+3y-z-14=0$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một mặt phẳng cắt các trục $Ox$, $Oy$, $Oz$ lần lượt tại $(2; 0; 0)$, $(0; -3; 0)$, $(0; 0; 6)$. Viết phương trình tổng quát của nó.
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1\iff 3x-2y+z-6=0.$$
+
+**Đáp số.** $3x-2y+z-6=0$.
+
+[ĐỀ – EN]
+A plane meets the axes $Ox$, $Oy$, $Oz$ at $(2, 0, 0)$, $(0, -3, 0)$, $(0, 0, 6)$ respectively. Write its Cartesian equation.
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1\iff 3x-2y+z-6=0.$$
+
+**Answer.** $3x-2y+z-6=0$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho mặt phẳng $(P): 2x-y+2z-3=0$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\vec{n}=(2; -1; 2)$ là một vectơ pháp tuyến của $(P)$.
+
+b) Điểm $M(1; 2; 1)$ thuộc $(P)$.
+
+c) $(P)$ song song với mặt phẳng $(Q): 4x-2y+4z+1=0$.
+
+d) Khoảng cách từ $O$ đến $(P)$ bằng $3$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Các hệ số của $x$, $y$, $z$ là $2$, $-1$, $2$.
+
+b) **Sai.** $2-2+2-3=-1\neq0$.
+
+c) **Đúng.** $(4; -2; 4)=2(2; -1; 2)$ nhưng $1\neq2\cdot(-3)$.
+
+d) **Sai.** $d(O, (P))=\dfrac{|-3|}{\sqrt{4+1+4}}=1$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Let $(P): 2x-y+2z-3=0$. Is each claim true or false?
+
+a) $\vec{n}=(2, -1, 2)$ is a normal vector of $(P)$.
+
+b) The point $M(1, 2, 1)$ lies in $(P)$.
+
+c) $(P)$ is parallel to the plane $(Q): 4x-2y+4z+1=0$.
+
+d) The distance from $O$ to $(P)$ is $3$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** The coefficients of $x$, $y$, $z$ are $2$, $-1$, $2$.
+
+b) **False.** $2-2+2-3=-1\neq0$.
+
+c) **True.** $(4, -2, 4)=2(2, -1, 2)$ but $1\neq2\cdot(-3)$.
+
+d) **False.** $d(O, (P))=\dfrac{|-3|}{\sqrt{4+1+4}}=1$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một sườn đồi được coi gần đúng là mặt phẳng $(P): x+2y+2z-30=0$ (đơn vị: mét). Một drone khảo sát địa hình đang ở $M(10; 20; 25)$. Tính khoảng cách từ drone đến sườn đồi (đơn vị: mét, làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$$d=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23{,}3.$$
+
+**Đáp số.** $23{,}3$.
+
+[ĐỀ – EN]
+A hillside is modelled by the plane $(P): x+2y+2z-30=0$ (unit: metre). A survey drone is at $M(10, 20, 25)$. Find the distance from the drone to the hillside (in metres, to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+$$d=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23.3.$$
+
+**Answer.** $23.3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Chứng minh hai mặt phẳng $(P): 2x-2y+z+4=0$ và $(Q): 2x-2y+z-5=0$ song song và tính khoảng cách giữa chúng.
+
+[LỜI GIẢI CŨ – VI]
+Hai mặt phẳng có cùng vectơ pháp tuyến $(2; -2; 1)$ và $4\neq-5$, nên $(P)\parallel(Q)$. Điểm $E(0; 0; -4)$ thuộc $(P)$:
+$$d((P), (Q))=d(E, (Q))=\frac{|-4-5|}{\sqrt{4+4+1}}=\frac{9}{3}=3.$$
+
+**Đáp số.** $3$.
+
+[ĐỀ – EN]
+Prove that the planes $(P): 2x-2y+z+4=0$ and $(Q): 2x-2y+z-5=0$ are parallel and find the distance between them.
+
+[LỜI GIẢI CŨ – EN]
+The planes have the same normal vector $(2, -2, 1)$ and $4\neq-5$, so $(P)\parallel(Q)$. The point $E(0, 0, -4)$ lies in $(P)$:
+$$d((P), (Q))=d(E, (Q))=\frac{|-4-5|}{\sqrt{4+4+1}}=\frac{9}{3}=3.$$
+
+**Answer.** $3$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Viết phương trình mặt phẳng chứa trục $Oz$ và đi qua điểm $A(1; 2; 5)$.
+
+[LỜI GIẢI CŨ – VI]
+$A\cdot1+B\cdot2=0$, chọn $B=-1$, $A=2$. Mặt phẳng là $2x-y=0$.
+Kiểm tra: $2\cdot1-2=0$ và mọi điểm $(0; 0; z)$ đều thoả mãn.
+
+**Đáp số.** $2x-y=0$.
+
+[ĐỀ – EN]
+Write the equation of the plane that contains the axis $Oz$ and passes through $A(1, 2, 5)$.
+
+[LỜI GIẢI CŨ – EN]
+$A\cdot1+B\cdot2=0$; choose $B=-1$, $A=2$. The plane is $2x-y=0$.
+Check: $2\cdot1-2=0$, and every point $(0, 0, z)$ satisfies it.
+
+**Answer.** $2x-y=0$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations).) Ở bài trước, với $A(1; 0; 2)$, $B(2; 3; -1)$, $C(0; 4; 1)$, ta tìm được $D(-1; 1; 4)$ để $ABCD$ là hình bình hành. Viết phương trình mặt phẳng $(ABC)$ và kiểm tra rằng $D$ thuộc mặt phẳng đó.
+
+[LỜI GIẢI CŨ – VI]
+$$[\overrightarrow{AB}, \overrightarrow{AC}]=\big(3\cdot(-1)-4\cdot(-3);\ (-3)\cdot(-1)-(-1)\cdot1;\ 1\cdot4-(-1)\cdot3\big)=(9; 4; 7).$$
+$(ABC): 9(x-1)+4y+7(z-2)=0\iff 9x+4y+7z-23=0$. Thay $D$: $-9+4+28-23=0$.
+
+**Đáp số.** $9x+4y+7z-23=0$; $D$ thuộc $(ABC)$, đúng như một hình bình hành phải nằm trong một mặt phẳng.
+
+[ĐỀ – EN]
+(Revisiting [Operations on vectors in coordinates](lesson:vector-coordinate-operations).) In the previous lesson, for $A(1, 0, 2)$, $B(2, 3, -1)$, $C(0, 4, 1)$, we found $D(-1, 1, 4)$ such that $ABCD$ is a parallelogram. Write the equation of the plane $(ABC)$ and check that $D$ lies in it.
+
+[LỜI GIẢI CŨ – EN]
+$$\overrightarrow{AB}\times\overrightarrow{AC}=\big(3\cdot(-1)-4\cdot(-3),\ (-3)\cdot(-1)-(-1)\cdot1,\ 1\cdot4-(-1)\cdot3\big)=(9, 4, 7).$$
+$(ABC): 9(x-1)+4y+7(z-2)=0\iff 9x+4y+7z-23=0$. Substituting $D$: $-9+4+28-23=0$.
+
+**Answer.** $9x+4y+7z-23=0$; $D$ lies in $(ABC)$, as it must, since a parallelogram is a plane figure.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Viết phương trình mặt phẳng $(P)$ song song với $(Q): x+2y+2z+1=0$ và cách điểm $A(1; 1; 1)$ một khoảng bằng $2$.
+
+[LỜI GIẢI CŨ – VI]
+$$|5+D|=6\iff D=1\ \text{hoặc}\ D=-11.$$
+Với $D=1$, $(P)$ trùng $(Q)$, không phải song song, nên loại. Còn lại $D=-11$.
+**Kiểm tra.** $d(A, (P))=\dfrac{|5-11|}{3}=2$.
+
+**Đáp số.** $(P): x+2y+2z-11=0$.
+
+[ĐỀ – EN]
+Write the equation of the plane $(P)$ that is parallel to $(Q): x+2y+2z+1=0$ and at distance $2$ from the point $A(1, 1, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+$$|5+D|=6\iff D=1\ \text{or}\ D=-11.$$
+With $D=1$, $(P)$ coincides with $(Q)$ rather than being parallel to it, so we reject it. That leaves $D=-11$.
+**Check.** $d(A, (P))=\dfrac{|5-11|}{3}=2$.
+
+**Answer.** $(P): x+2y+2z-11=0$.
+
+
+######################################################################
+@@@ g12/review-functions-derivatives
+Bài học: Ôn tập: đạo hàm và khảo sát hàm số / Revision: derivatives and graphs of functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hàm số $y=x^4-2x^2+1$ có bao nhiêu điểm cực trị?
+A. $3$.
+B. $1$.
+C. $2$.
+D. $0$.
+
+[LỜI GIẢI CŨ – VI]
+$y'=4x(x-1)(x+1)$ có ba nghiệm đơn $-1$, $0$, $1$, và $y'$ đổi dấu qua mỗi nghiệm.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+How many turning points does $y=x^4-2x^2+1$ have?
+A. $3$.
+B. $1$.
+C. $2$.
+D. $0$.
+
+[LỜI GIẢI CŨ – EN]
+$y'=4x(x-1)(x+1)$ has three simple roots $-1$, $0$, $1$, and $y'$ changes sign at each of them.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đồ thị hàm số $y=\dfrac{3x-1}{x-2}$ có tiệm cận đứng và tiệm cận ngang lần lượt là
+A. $x=2$ và $y=3$.
+B. $x=-2$ và $y=3$.
+C. $x=2$ và $y=\dfrac12$.
+D. $x=3$ và $y=2$.
+
+[LỜI GIẢI CŨ – VI]
+Mẫu bằng $0$ tại $x=2$, tử bằng $5\ne0$, nên $x=2$ là tiệm cận đứng. $\lim\limits_{x\to\pm\infty}y=3$. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{-1}{-2}$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The vertical and horizontal asymptotes of the graph of $y=\dfrac{3x-1}{x-2}$ are
+A. $x=2$ and $y=3$.
+B. $x=-2$ and $y=3$.
+C. $x=2$ and $y=\dfrac12$.
+D. $x=3$ and $y=2$.
+
+[LỜI GIẢI CŨ – EN]
+The denominator is $0$ at $x=2$ and the numerator is $5\ne0$ there, so $x=2$ is a vertical asymptote. $\lim\limits_{x\to\pm\infty}y=3$. Option C takes the ratio of the constant terms $\dfrac{-1}{-2}$.
+
+**Answer.** A.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Gọi $M$, $m$ là giá trị lớn nhất và giá trị nhỏ nhất của $y=x+\dfrac4x$ trên đoạn $[1; 5]$. Tính $M+m$.
+
+[LỜI GIẢI CŨ – VI]
+$y'=0\iff x=2$ (loại $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0{,}8=5{,}8$. Vậy $M=5{,}8$, $m=4$.
+
+**Đáp số.** $9{,}8$.
+
+[ĐỀ – EN]
+Let $M$, $m$ be the maximum and minimum values of $y=x+\dfrac4x$ on $[1, 5]$. Find $M+m$.
+
+[LỜI GIẢI CŨ – EN]
+$y'=0\iff x=2$ (reject $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0.8=5.8$. So $M=5.8$ and $m=4$.
+
+**Answer.** $9.8$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm các đường tiệm cận của đồ thị hàm số $y=\dfrac{x^2+x+1}{x-1}$.
+
+[LỜI GIẢI CŨ – VI]
+Phép chia cho $x^2+x+1=(x-1)(x+2)+3$, nên $y=x+2+\dfrac{3}{x-1}$. Khi $x\to1^+$, $y\to+\infty$, nên $x=1$ là tiệm cận đứng. Khi $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, nên $y=x+2$ là tiệm cận xiên. Đồ thị không có tiệm cận ngang vì $y\to\pm\infty$.
+
+**Đáp số.** Tiệm cận đứng $x=1$, tiệm cận xiên $y=x+2$.
+
+[ĐỀ – EN]
+Find the asymptotes of the graph of $y=\dfrac{x^2+x+1}{x-1}$.
+
+[LỜI GIẢI CŨ – EN]
+The division gives $x^2+x+1=(x-1)(x+2)+3$, so $y=x+2+\dfrac{3}{x-1}$. As $x\to1^+$, $y\to+\infty$, so $x=1$ is a vertical asymptote. As $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, so $y=x+2$ is an oblique asymptote. There is no horizontal asymptote, because $y\to\pm\infty$.
+
+**Answer.** Vertical asymptote $x=1$, oblique asymptote $y=x+2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hàm số $y=f(x)$ có đạo hàm $f'(x)=x(x-1)^2(x+2)$ với mọi $x\in\mathbb{R}$.
+
+a) Hàm số có ba điểm cực trị.
+
+b) Hàm số đạt cực tiểu tại $x=0$.
+
+c) Hàm số đồng biến trên khoảng $(0; +\infty)$.
+
+d) $f(-1)>f(0)$.
+
+[LỜI GIẢI CŨ – VI]
+Dấu của $f'$: dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
+
+a) **Sai**: tại $x=1$ không đổi dấu; chỉ có hai điểm cực trị $x=-2$ và $x=0$.
+
+b) **Đúng**: $f'$ đổi dấu từ $-$ sang $+$ tại $x=0$.
+
+c) **Đúng**: $f'\ge0$ trên $(0; +\infty)$ và chỉ bằng $0$ tại $x=1$.
+
+d) **Đúng**: $f$ nghịch biến trên $(-2; 0)$ và $-1<0$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+The function $y=f(x)$ has derivative $f'(x)=x(x-1)^2(x+2)$ for all $x\in\mathbb{R}$.
+
+a) The function has three turning points.
+
+b) The function has a local minimum at $x=0$.
+
+c) The function is increasing on $(0, +\infty)$.
+
+d) $f(-1)>f(0)$.
+
+[LỜI GIẢI CŨ – EN]
+The sign of $f'$: positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and on $(1, +\infty)$.
+
+a) **False**: there is no sign change at $x=1$; there are only two turning points, $x=-2$ and $x=0$.
+
+b) **True**: $f'$ changes from $-$ to $+$ at $x=0$.
+
+c) **True**: $f'\ge0$ on $(0, +\infty)$ and is $0$ only at $x=1$.
+
+d) **True**: $f$ is decreasing on $(-2, 0)$ and $-1<0$.
+
+**Answer.** a) False; b) True; c) True; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nồng độ một loại thuốc trong máu sau khi uống $t$ giờ là $C(t)=\dfrac{5t}{t^2+4}$ (mg/l), $t\ge0$. Nồng độ cao nhất bằng bao nhiêu mg/l?
+
+[LỜI GIẢI CŨ – VI]
+$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
+Với $t\ge0$, $C'>0$ khi $t<2$ và $C'<0$ khi $t>2$. Nồng độ cao nhất là $C(2)=\dfrac{10}{8}=1{,}25$ mg/l, sau $2$ giờ.
+
+**Đáp số.** $1{,}25$.
+
+[ĐỀ – EN]
+The concentration of a drug in the blood $t$ hours after it is taken is $C(t)=\dfrac{5t}{t^2+4}$ (mg/l), $t\ge0$. What is the highest concentration, in mg/l?
+
+[LỜI GIẢI CŨ – EN]
+$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
+For $t\ge0$, $C'>0$ when $t<2$ and $C'<0$ when $t>2$. The highest concentration is $C(2)=\dfrac{10}{8}=1.25$ mg/l, after $2$ hours.
+
+**Answer.** $1.25$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ có bảng biến thiên:
+
+| $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+| $f(x)$ | $-\infty$ | $\nearrow$ | $1$ | $\searrow$ | $-3$ | $\nearrow$ | $+\infty$ |
+
+Số nghiệm của phương trình $2f(x)+6=0$ là
+A. $1$.
+B. $2$.
+C. $3$.
+D. $0$.
+
+[LỜI GIẢI CŨ – VI]
+$2f(x)+6=0\iff f(x)=-3$. Đường thẳng $y=-3$ chạm đồ thị tại điểm cực tiểu $x=2$ và cắt nhánh trái một lần trên $(-\infty; 0)$ (vì $f$ tăng từ $-\infty$ lên $1$). Không cắt trên $(2; +\infty)$ vì ở đó $f>-3$.
+
+**Đáp số.** B.
+
+[ĐỀ – EN]
+The function $y=f(x)$ is continuous on $\mathbb{R}$ with this table of variations:
+
+| $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+| $f(x)$ | $-\infty$ | $\nearrow$ | $1$ | $\searrow$ | $-3$ | $\nearrow$ | $+\infty$ |
+
+The number of roots of $2f(x)+6=0$ is
+A. $1$.
+B. $2$.
+C. $3$.
+D. $0$.
+
+[LỜI GIẢI CŨ – EN]
+$2f(x)+6=0\iff f(x)=-3$. The line $y=-3$ touches the graph at the local minimum $x=2$ and crosses the left branch once on $(-\infty, 0)$ (since $f$ rises from $-\infty$ to $1$). It does not meet the graph on $(2, +\infty)$, where $f>-3$.
+
+**Answer.** B.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho hàm số $y=\dfrac{x+1}{x-1}$.
+
+a) Tập xác định của hàm số là $\mathbb{R}\setminus\{1\}$.
+
+b) Hàm số nghịch biến trên $\mathbb{R}\setminus\{1\}$.
+
+c) Giao điểm hai tiệm cận của đồ thị là $I(1; 1)$.
+
+d) Giá trị lớn nhất của hàm số trên đoạn $[2; 4]$ bằng $3$.
+
+[LỜI GIẢI CŨ – VI]
+$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ với mọi $x\ne1$.
+
+a) **Đúng**: mẫu bằng $0$ chỉ tại $x=1$.
+
+b) **Sai**: hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, nhưng $y(0)=-1<y(2)=3$ nên không nghịch biến trên cả hợp.
+
+c) **Đúng**: tiệm cận đứng $x=1$, tiệm cận ngang $y=1$.
+
+d) **Đúng**: hàm số nghịch biến trên $[2; 4]$ nên giá trị lớn nhất là $y(2)=3$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Let $y=\dfrac{x+1}{x-1}$.
+
+a) The domain of the function is $\mathbb{R}\setminus\{1\}$.
+
+b) The function is decreasing on $\mathbb{R}\setminus\{1\}$.
+
+c) The asymptotes of the graph meet at $I(1, 1)$.
+
+d) The maximum value of the function on $[2, 4]$ is $3$.
+
+[LỜI GIẢI CŨ – EN]
+$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ for every $x\ne1$.
+
+a) **True**: the denominator is $0$ only at $x=1$.
+
+b) **False**: the function is decreasing on each of $(-\infty, 1)$ and $(1, +\infty)$, but $y(0)=-1<y(2)=3$, so it is not decreasing on the whole union.
+
+c) **True**: vertical asymptote $x=1$, horizontal asymptote $y=1$.
+
+d) **True**: the function is decreasing on $[2, 4]$, so the maximum is $y(2)=3$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm giá trị nhỏ nhất của hàm số $y=(x^2-3)e^x$ trên đoạn $[0; 2]$ (làm tròn kết quả đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (loại $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5{,}44$, $y(2)=e^2\approx7{,}39$. Giá trị nhỏ nhất là $-2e\approx-5{,}4$.
+
+**Đáp số.** $-5{,}4$.
+
+[ĐỀ – EN]
+Find the minimum value of $y=(x^2-3)e^x$ on $[0, 2]$. Give your answer to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (reject $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5.44$, $y(2)=e^2\approx7.39$. The minimum value is $-2e\approx-5.4$.
+
+**Answer.** $-5.4$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Đồ thị hàm số $y=ax^3+bx^2+cx+d$ có điểm cực đại $(0; 2)$ và điểm cực tiểu $(2; -2)$. Tìm $a$, $b$, $c$, $d$.
+
+[LỜI GIẢI CŨ – VI]
+$y'=3ax^2+2bx+c$. Từ $y(0)=2$ và $y'(0)=0$: $d=2$, $c=0$. Từ $y'(2)=0$: $12a+4b=0$, tức $b=-3a$. Từ $y(2)=-2$: $8a+4b+2=-2$, tức $8a-12a=-4$, nên $a=1$, $b=-3$.
+
+**Kiểm tra.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ đổi dấu từ $+$ sang $-$ tại $0$ và từ $-$ sang $+$ tại $2$; $y(0)=2$, $y(2)=-2$.
+
+**Đáp số.** $a=1$, $b=-3$, $c=0$, $d=2$.
+
+[ĐỀ – EN]
+The graph of $y=ax^3+bx^2+cx+d$ has a local maximum at $(0, 2)$ and a local minimum at $(2, -2)$. Find $a$, $b$, $c$, $d$.
+
+[LỜI GIẢI CŨ – EN]
+$y'=3ax^2+2bx+c$. From $y(0)=2$ and $y'(0)=0$: $d=2$, $c=0$. From $y'(2)=0$: $12a+4b=0$, so $b=-3a$. From $y(2)=-2$: $8a+4b+2=-2$, so $8a-12a=-4$, giving $a=1$, $b=-3$.
+
+**Check.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ changes from $+$ to $-$ at $0$ and from $-$ to $+$ at $2$; $y(0)=2$, $y(2)=-2$.
+
+**Answer.** $a=1$, $b=-3$, $c=0$, $d=2$.
+
+
+######################################################################
+@@@ g12/review-integrals
+Bài học: Ôn tập: nguyên hàm và tích phân / Revision: antiderivatives and integrals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ bằng
+A. $x^4+\dfrac1x+C$.
+B. $x^4-\dfrac1x+C$.
+C. $12x^2+\dfrac{2}{x^3}+C$.
+D. $x^4+\dfrac{1}{3x^3}+C$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int4x^3\,dx=x^4$ và $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Phương án B sai dấu; C là đạo hàm; D giảm số mũ thay vì tăng.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ equals
+A. $x^4+\dfrac1x+C$.
+B. $x^4-\dfrac1x+C$.
+C. $12x^2+\dfrac{2}{x^3}+C$.
+D. $x^4+\dfrac{1}{3x^3}+C$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int4x^3\,dx=x^4$ and $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Option B has the wrong sign; C is the derivative; D lowers the power instead of raising it.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ bằng
+A. $1$.
+B. $0$.
+C. $-1$.
+D. $\dfrac{\pi}{2}$.
+
+[LỜI GIẢI CŨ – VI]
+$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Phương án C dùng nhầm nguyên hàm $-\sin x$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ equals
+A. $1$.
+B. $0$.
+C. $-1$.
+D. $\dfrac{\pi}{2}$.
+
+[LỜI GIẢI CŨ – EN]
+$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Option C uses the wrong antiderivative $-\sin x$.
+
+**Answer.** A.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
+
+[LỜI GIẢI CŨ – VI]
+$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+
+**Đáp số.** $6$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
+
+[LỜI GIẢI CŨ – EN]
+$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+
+**Answer.** $6$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=e^x+2x$.
+
+a) $F(x)=e^x+x^2$ là một nguyên hàm của $f(x)$.
+
+b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
+
+c) Nguyên hàm $F$ của $f$ thoả mãn $F(0)=3$ là $F(x)=e^x+x^2+3$.
+
+d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $(e^x+x^2)'=e^x+2x$.
+
+b) **Sai**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+
+c) **Sai**: $F(0)=1+C=3$ nên $C=2$, $F(x)=e^x+x^2+2$.
+
+d) **Đúng**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Let $f(x)=e^x+2x$.
+
+a) $F(x)=e^x+x^2$ is an antiderivative of $f(x)$.
+
+b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
+
+c) The antiderivative $F$ of $f$ with $F(0)=3$ is $F(x)=e^x+x^2+3$.
+
+d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $(e^x+x^2)'=e^x+2x$.
+
+b) **False**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+
+c) **False**: $F(0)=1+C=3$, so $C=2$ and $F(x)=e^x+x^2+2$.
+
+d) **True**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+
+**Answer.** a) True; b) False; c) False; d) True.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-4$ và trục hoành (làm tròn kết quả đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
+
+**Đáp số.** $10{,}7$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2-4$ and the $x$-axis. Give your answer to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
+
+**Answer.** $10.7$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3-x$, trục hoành và hai đường thẳng $x=0$, $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+
+**Đáp số.** $S=\dfrac52$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^3-x$, the $x$-axis and the lines $x=0$, $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+
+**Answer.** $S=\dfrac52$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Quay hình phẳng giới hạn bởi $y=2x$, trục $Ox$ và đường thẳng $x=3$ quanh trục $Ox$, ta được một khối nón có thể tích bằng
+A. $36\pi$.
+B. $9\pi$.
+C. $108\pi$.
+D. $18\pi$.
+
+[LỜI GIẢI CŨ – VI]
+$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Kiểm tra: khối nón có $r=6$, $h=3$, $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Phương án B quên bình phương; C quên chia cho $3$; D chỉ bình phương $x$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+Rotating the region bounded by $y=2x$, the $x$-axis and the line $x=3$ about the $x$-axis gives a cone of volume
+A. $36\pi$.
+B. $9\pi$.
+C. $108\pi$.
+D. $18\pi$.
+
+[LỜI GIẢI CŨ – EN]
+$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Check: the cone has $r=6$, $h=3$, so $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Option B forgets to square; C forgets to divide by $3$; D squares only $x$.
+
+**Answer.** A.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nước chảy vào một bể với tốc độ $r(t)=0{,}6t+2$ (lít/phút), $t$ tính bằng phút. Trong $10$ phút đầu, bao nhiêu lít nước chảy vào bể?
+
+[LỜI GIẢI CŨ – VI]
+$\Big[0{,}3t^2+2t\Big]_0^{10}=30+20=50$.
+
+**Đáp số.** $50$.
+
+[ĐỀ – EN]
+Water flows into a tank at a rate of $r(t)=0.6t+2$ (litres per minute), with $t$ in minutes. How many litres flow into the tank in the first $10$ minutes?
+
+[LỜI GIẢI CŨ – EN]
+$\Big[0.3t^2+2t\Big]_0^{10}=30+20=50$.
+
+**Answer.** $50$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một ô tô đạp phanh và chuyển động chậm dần đều với vận tốc $v(t)=12-3t$ (m/s), $t$ là số giây kể từ lúc đạp phanh.
+
+a) Ô tô dừng hẳn sau $4$ giây.
+
+b) Quãng đường đi được sau $t$ giây kể từ lúc phanh là $s(t)=12t-1{,}5t^2$ (m), $0\le t\le4$.
+
+c) Từ lúc đạp phanh đến khi dừng, ô tô đi được $24$ m.
+
+d) Trong giây cuối cùng trước khi dừng, ô tô đi được $3$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $12-3t=0\iff t=4$.
+
+b) **Đúng**: $s(t)=\Big[12u-1{,}5u^2\Big]_0^t=12t-1{,}5t^2$.
+
+c) **Đúng**: $s(4)=48-24=24$.
+
+d) **Sai**: $s(4)-s(3)=24-22{,}5=1{,}5$ m.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+A car brakes and slows down uniformly with velocity $v(t)=12-3t$ (m/s), where $t$ is the time in seconds since braking.
+
+a) The car stops after $4$ seconds.
+
+b) The distance travelled $t$ seconds after braking is $s(t)=12t-1.5t^2$ (m), $0\le t\le4$.
+
+c) From braking to stopping, the car travels $24$ m.
+
+d) In the last second before stopping, the car travels $3$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $12-3t=0\iff t=4$.
+
+b) **True**: $s(t)=\Big[12u-1.5u^2\Big]_0^t=12t-1.5t^2$.
+
+c) **True**: $s(4)=48-24=24$.
+
+d) **False**: $s(4)-s(3)=24-22.5=1.5$ m.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cao $4$ m so với mặt đất. Người ta lắp kính kín toàn bộ mặt cổng. Tính diện tích phần kính (đơn vị: m², làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Parabol có dạng $y=4-ax^2$ và đi qua $(4; 0)$ nên $a=\dfrac14$.
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21{,}33.$$
+
+**Đáp số.** $21{,}3$.
+
+[ĐỀ – EN]
+A gateway has the shape of a parabola: it is $8$ m wide at ground level and its top is $4$ m above the ground. The whole gateway is filled with glass. Find the area of glass, in m², to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+The parabola has the form $y=4-ax^2$ and passes through $(4, 0)$, so $a=\dfrac14$.
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21.33.$$
+
+**Answer.** $21.3$.
+
+
+===== HẾT FILE nguoibuonthinh-LG-1 =====

@@ -1,0 +1,753 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-LG-2   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-LG-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax258-LG-2
+Người làm: tài khoản Vinax258. Gói này có 28 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Vinax258-LG-2-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax258-LG-2-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g5/g5-pie-charts (10 bài tập)
+- g5/g5-practice-paper-2 (10 bài tập)
+- g5/g5-review-decimals-percent (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g5/g5-pie-charts
+Bài học: Biểu đồ hình quạt tròn. Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện / Pie charts. Relative frequency of an event
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Biểu đồ hình quạt tròn cho biết cách đến trường của $200$ học sinh khối $5$: đi xe đạp $40\%$, đi bộ $35\%$, được đưa đón bằng xe máy $25\%$. Tính số học sinh mỗi cách.
+
+[LỜI GIẢI CŨ – VI]
+Số học sinh đi xe đạp: $200:100\times40=80$ (bạn). Số học sinh đi bộ: $200:100\times35=70$ (bạn). Số học sinh đi xe máy: $200:100\times25=50$ (bạn).
+
+**Kiểm tra.** $80+70+50=200$.
+
+**Đáp số.** $80$ bạn; $70$ bạn; $50$ bạn.
+
+[ĐỀ – EN]
+A pie chart shows how $200$ pupils in Year $5$ travel to school: by bicycle $40\%$, on foot $35\%$, by motorbike (taken by parents) $25\%$. Find the number of pupils for each way.
+
+[LỜI GIẢI CŨ – EN]
+By bicycle: $200\div100\times40=80$ (pupils). On foot: $200\div100\times35=70$ (pupils). By motorbike: $200\div100\times25=50$ (pupils).
+
+**Check.** $80+70+50=200$.
+
+**Answer.** $80$ pupils; $70$ pupils; $50$ pupils.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong biểu đồ về loại sách ưa thích: truyện tranh $45\%$, sách văn $30\%$, sách khoa học $15\%$, còn lại là các loại khác. Các loại khác chiếm bao nhiêu phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+Ba loại đã biết chiếm $45+30+15=90\ (\%)$. Các loại khác chiếm $100-90=10\ (\%)$.
+
+**Đáp số.** $10\%$.
+
+[ĐỀ – EN]
+In a chart of favourite kinds of book: comics $45\%$, stories $30\%$, science books $15\%$, and the rest are other kinds. What percentage are other kinds?
+
+[LỜI GIẢI CŨ – EN]
+The three known kinds make $45+30+15=90\ (\%)$. Other kinds make $100-90=10\ (\%)$.
+
+**Answer.** $10\%$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Trong $25$ bạn, có $7$ bạn thích vẽ. Tìm tỉ số phần trăm số bạn thích vẽ so với cả nhóm.
+
+[LỜI GIẢI CŨ – VI]
+$7:25=0{,}28=28\%$.
+
+**Đáp số.** $28\%$.
+
+[ĐỀ – EN]
+Of $25$ children, $7$ like drawing. Find the percentage of the group who like drawing.
+
+[LỜI GIẢI CŨ – EN]
+$7:25=0.28=28\%$.
+
+**Answer.** $28\%$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một trường thu gom $50$ kg rác tái chế gồm $30$ kg giấy, $15$ kg nhựa và $5$ kg kim loại. Tìm tỉ số phần trăm của mỗi loại so với tổng khối lượng.
+
+[LỜI GIẢI CŨ – VI]
+Giấy: $30:50=0{,}6=60\%$. Nhựa: $15:50=0{,}3=30\%$. Kim loại: $5:50=0{,}1=10\%$.
+
+**Kiểm tra.** $60+30+10=100$.
+
+**Đáp số.** Giấy $60\%$; nhựa $30\%$; kim loại $10\%$.
+
+[ĐỀ – EN]
+A school collects $50$ kg of recycling: $30$ kg of paper, $15$ kg of plastic and $5$ kg of metal. Find the percentage of each kind out of the total mass.
+
+[LỜI GIẢI CŨ – EN]
+Paper: $30:50=0.6=60\%$. Plastic: $15:50=0.3=30\%$. Metal: $5:50=0.1=10\%$.
+
+**Check.** $60+30+10=100$.
+
+**Answer.** Paper $60\%$; plastic $30\%$; metal $10\%$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Gia đình An chi tiêu $10$ triệu đồng mỗi tháng. Biểu đồ cho biết: ăn uống $40\%$, học tập $20\%$, điện nước $10\%$, còn lại là tiết kiệm. Tính số tiền của từng khoản.
+
+[LỜI GIẢI CŨ – VI]
+Tiết kiệm chiếm $100-(40+20+10)=30\ (\%)$. Số tiền từng khoản (triệu đồng):
+$$\begin{aligned} \text{Ăn uống: }&10:100\times40=4,\\ \text{Học tập: }&10:100\times20=2,\\ \text{Điện nước: }&10:100\times10=1,\\ \text{Tiết kiệm: }&10:100\times30=3. \end{aligned}$$
+**Đáp số.** Ăn uống $4$ triệu đồng; học tập $2$ triệu đồng; điện nước $1$ triệu đồng; tiết kiệm $3$ triệu đồng.
+
+[ĐỀ – EN]
+An's family spends $10$ million dong a month. The chart shows: food $40\%$, education $20\%$, water and electricity $10\%$, and the rest is saved. Find the amount for each item.
+
+[LỜI GIẢI CŨ – EN]
+Savings are $100-(40+20+10)=30\ (\%)$. The amounts (in million dong) are:
+$$\begin{aligned} \text{Food: }&10\div100\times40=4,\\ \text{Education: }&10\div100\times20=2,\\ \text{Water and electricity: }&10\div100\times10=1,\\ \text{Savings: }&10\div100\times30=3. \end{aligned}$$
+**Answer.** Food $4$ million dong; education $2$ million dong; water and electricity $1$ million dong; savings $3$ million dong.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà tung một đồng xu $40$ lần, được $18$ lần mặt sấp. Tính tỉ số phần trăm số lần xuất hiện mặt sấp và mặt ngửa.
+
+[LỜI GIẢI CŨ – VI]
+Mặt sấp: $18:40=0{,}45=45\%$. Mặt ngửa xuất hiện $40-18=22$ (lần): $22:40=0{,}55=55\%$.
+
+**Đáp số.** Mặt sấp $45\%$; mặt ngửa $55\%$.
+
+[ĐỀ – EN]
+Ha tosses a coin $40$ times and gets heads $18$ times. Find the percentage of tosses that gave heads and the percentage that gave tails.
+
+[LỜI GIẢI CŨ – EN]
+Heads: $18:40=0.45=45\%$. Tails came up $40-18=22$ (times): $22:40=0.55=55\%$.
+
+**Answer.** Heads $45\%$; tails $55\%$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài tỉ số phần trăm. a) Tìm $35\%$ của $240$. b) Biết $15\%$ của một số là $36$. Tìm số đó.
+
+[LỜI GIẢI CŨ – VI]
+a) $240:100\times35=84$.
+
+b) $1\%$ của số đó là $36:15=2{,}4$. Số đó là $2{,}4\times100=240$.
+
+**Đáp số.** a) $84$; b) $240$.
+
+[ĐỀ – EN]
+Remember the lesson on percentages. a) Find $35\%$ of $240$. b) $15\%$ of a number is $36$. Find the number.
+
+[LỜI GIẢI CŨ – EN]
+a) $240\div100\times35=84$.
+
+b) $1\%$ of the number is $36\div15=2.4$. The number is $2.4\times100=240$.
+
+**Answer.** a) $84$; b) $240$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Trong một thùng có bi đỏ và bi xanh. Hùng lấy ngẫu nhiên một viên bi, ghi màu rồi trả lại, làm như vậy $30$ lần. Có $12$ lần lấy được bi đỏ. Tìm tỉ số của số lần lấy được bi đỏ so với tổng số lần lấy, viết dưới dạng phân số tối giản và dạng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+$12:30=\dfrac{12}{30}=\dfrac25=0{,}4=40\%$.
+
+**Đáp số.** $\dfrac25$; $40\%$.
+
+[ĐỀ – EN]
+A box holds red and blue marbles. Hung picks a marble at random, notes its colour and puts it back, $30$ times. He gets a red marble $12$ times. Find the relative frequency of red marbles as a fraction in its simplest form and as a percentage.
+
+[LỜI GIẢI CŨ – EN]
+$12:30=\dfrac{12}{30}=\dfrac25=0.4=40\%$.
+
+**Answer.** $\dfrac25$; $40\%$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Khảo sát $80$ học sinh về môn học yêu thích: toán $35\%$, tiếng Việt $25\%$, mĩ thuật $20\%$, còn lại là tiếng Anh. Môn nào được chọn nhiều nhất? Môn đó được chọn nhiều hơn môn được chọn ít nhất bao nhiêu bạn?
+
+[LỜI GIẢI CŨ – VI]
+Tiếng Anh chiếm $100-(35+25+20)=20\ (\%)$. Số bạn: toán $80:100\times35=28$; tiếng Việt $80:100\times25=20$; mĩ thuật $80:100\times20=16$; tiếng Anh $80:100\times20=16$.
+
+Toán được chọn nhiều nhất. Môn ít nhất có $16$ bạn, và $28-16=12$.
+
+**Đáp số.** Toán; nhiều hơn $12$ bạn.
+
+[ĐỀ – EN]
+$80$ pupils were asked about their favourite subject: maths $35\%$, Vietnamese $25\%$, art $20\%$, and the rest chose English. Which subject was chosen most often? How many more pupils chose it than the least popular subject?
+
+[LỜI GIẢI CŨ – EN]
+English has $100-(35+25+20)=20\ (\%)$. The numbers of pupils are: maths $80\div100\times35=28$; Vietnamese $80\div100\times25=20$; art $80\div100\times20=16$; English $80\div100\times20=16$.
+
+Maths was chosen most often. The least popular subjects have $16$ pupils, and $28-16=12$.
+
+**Answer.** Maths; $12$ more pupils.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một thùng chứa bi đỏ và bi xanh. Hùng lấy ngẫu nhiên một viên, ghi màu rồi trả lại, làm như vậy $40$ lần và được $10$ lần bi đỏ. Dựa vào kết quả này, ước lượng thùng có $200$ viên bi thì có khoảng bao nhiêu viên bi đỏ?
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số lần lấy được bi đỏ là $10:40=0{,}25=25\%$. Ta ước lượng số bi đỏ là $200:100\times25=50$ (viên).
+
+Đây chỉ là ước lượng, số bi đỏ thật có thể hơi khác.
+
+**Đáp số.** Khoảng $50$ viên bi đỏ.
+
+[ĐỀ – EN]
+A box holds red and blue marbles. Hung picks a marble at random, notes its colour and puts it back, $40$ times, and gets a red marble $10$ times. Using this result, estimate how many red marbles there are if the box holds $200$ marbles.
+
+[LỜI GIẢI CŨ – EN]
+The relative frequency of red marbles is $10:40=0.25=25\%$. We estimate the number of red marbles as $200\div100\times25=50$ (marbles).
+
+This is only an estimate; the true number of red marbles may be a little different.
+
+**Answer.** About $50$ red marbles.
+
+
+######################################################################
+@@@ g5/g5-practice-paper-2
+Bài học: Đề ôn tập cuối cấp tiểu học số 2 / End-of-primary practice paper 2
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+**Bài 1. (0,5 điểm)** Tính giá trị biểu thức $(3{,}2+1{,}8)\times4-6:2$.
+
+[LỜI GIẢI CŨ – VI]
+$$(3{,}2+1{,}8)\times4-6:2=5\times4-3=20-3=17.$$
+**Đáp số.** $17$.
+
+[ĐỀ – EN]
+**Question 1. (0.5 marks)** Evaluate $(3.2+1.8)\times4-6\div2$.
+
+[LỜI GIẢI CŨ – EN]
+$$(3.2+1.8)\times4-6\div2=5\times4-3=20-3=17.$$
+**Answer.** $17$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+**Bài 2. (1,0 điểm)** Tính $\dfrac56-\dfrac14+\dfrac13$.
+
+[LỜI GIẢI CŨ – VI]
+$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
+**Đáp số.** $\dfrac{11}{12}$.
+
+[ĐỀ – EN]
+**Question 2. (1.0 mark)** Calculate $\dfrac56-\dfrac14+\dfrac13$.
+
+[LỜI GIẢI CŨ – EN]
+$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
+**Answer.** $\dfrac{11}{12}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+**Bài 3. (1,0 điểm)** Đặt tính rồi tính: a) $25{,}4-8{,}75$; b) $3{,}6\times2{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+a) $25{,}40-8{,}75=16{,}65$.
+
+b) $36\times25=900$ và tích có hai chữ số ở phần thập phân, nên $3{,}6\times2{,}5=9{,}00=9$.
+
+**Đáp số.** a) $16{,}65$; b) $9$.
+
+[ĐỀ – EN]
+**Question 3. (1.0 mark)** Set out in columns and calculate: a) $25.4-8.75$; b) $3.6\times2.5$.
+
+[LỜI GIẢI CŨ – EN]
+a) $25.40-8.75=16.65$.
+
+b) $36\times25=900$ and the product has two decimal places, so $3.6\times2.5=9.00=9$.
+
+**Answer.** a) $16.65$; b) $9$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+**Bài 4. (1,0 điểm)** Một bể cá hình lập phương có cạnh $5$ dm. Người ta đổ vào bể lượng nước bằng $\dfrac45$ thể tích bể. Hỏi trong bể có bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Thể tích bể là $5\times5\times5=125\ (\text{dm}^3)$. Lượng nước trong bể là $125\times\dfrac45=100\ (\text{dm}^3)=100$ lít.
+
+**Đáp số.** $100$ lít.
+
+[ĐỀ – EN]
+**Question 4. (1.0 mark)** A cube-shaped fish tank has edges of $5$ dm. Water is poured in until it fills $\dfrac45$ of the tank. How many litres of water are in the tank?
+
+[LỜI GIẢI CŨ – EN]
+The volume of the tank is $5\times5\times5=125\ (\text{dm}^3)$. The water is $125\times\dfrac45=100\ (\text{dm}^3)=100$ litres.
+
+**Answer.** $100$ litres.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+**Bài 5. (1,0 điểm)** Buổi học thêm bắt đầu lúc $14$ giờ $40$ phút, gồm $3$ tiết, mỗi tiết $40$ phút, và nghỉ $2$ lần, mỗi lần $10$ phút. Hỏi buổi học kết thúc lúc mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian học là $40\times3=120$ (phút). Thời gian nghỉ là $10\times2=20$ (phút). Cả buổi kéo dài $120+20=140$ (phút) $=2$ giờ $20$ phút. Buổi học kết thúc lúc:
+$$14\text{ giờ }40\text{ phút}+2\text{ giờ }20\text{ phút}=16\text{ giờ }60\text{ phút}=17\text{ giờ}.$$
+**Đáp số.** $17$ giờ.
+
+[ĐỀ – EN]
+**Question 5. (1.0 mark)** An extra class starts at $14{:}40$. It has $3$ lessons of $40$ minutes each, with $2$ breaks of $10$ minutes each. At what time does the class finish?
+
+[LỜI GIẢI CŨ – EN]
+Lesson time is $40\times3=120$ (min). Break time is $10\times2=20$ (min). The whole class lasts $120+20=140$ (min) $=2$ h $20$ min. The class finishes at:
+$$14\text{ h }40\text{ min}+2\text{ h }20\text{ min}=16\text{ h }60\text{ min}=17\text{ h}.$$
+**Answer.** $17{:}00$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+**Bài 6. (1,0 điểm)** Một xe máy đi với vận tốc $54$ km/giờ trong $2$ giờ $20$ phút. a) Tính quãng đường xe đi được. b) Xe khởi hành lúc $6$ giờ $45$ phút thì đến nơi lúc mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $2$ giờ $20$ phút $=\dfrac73$ giờ. Quãng đường là $54\times\dfrac73=126$ (km).
+
+b) Xe đến nơi lúc $6$ giờ $45$ phút $+$ $2$ giờ $20$ phút $=8$ giờ $65$ phút $=9$ giờ $5$ phút.
+
+**Đáp số.** a) $126$ km; b) $9$ giờ $5$ phút.
+
+[ĐỀ – EN]
+**Question 6. (1.0 mark)** A motorbike travels at $54$ km/h for $2$ hours $20$ minutes. a) Find the distance it travels. b) If it sets off at $6{:}45$, at what time does it arrive?
+
+[LỜI GIẢI CŨ – EN]
+a) $2$ h $20$ min $=\dfrac73$ h. The distance is $54\times\dfrac73=126$ (km).
+
+b) It arrives at $6$ h $45$ min $+$ $2$ h $20$ min $=8$ h $65$ min $=9$ h $5$ min.
+
+**Answer.** a) $126$ km; b) $9{:}05$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+**Bài 7. (1,0 điểm)** Biểu đồ hình quạt tròn cho biết $80$ học sinh chọn câu lạc bộ: Cờ vua $25\%$, Vẽ $35\%$, Bóng bàn $15\%$, còn lại là Hát. Số học sinh câu lạc bộ Vẽ nhiều hơn số học sinh câu lạc bộ Bóng bàn bao nhiêu bạn?
+
+[LỜI GIẢI CŨ – VI]
+Câu lạc bộ Vẽ có $80:100\times35=28$ (bạn). Câu lạc bộ Bóng bàn có $80:100\times15=12$ (bạn). Số bạn nhiều hơn là $28-12=16$ (bạn).
+
+**Kiểm tra.** Cờ vua $20$ bạn; Hát chiếm $100-(25+35+15)=25\ (\%)$ nên có $20$ bạn; $20+28+12+20=80$.
+
+**Đáp số.** $16$ bạn.
+
+[ĐỀ – EN]
+**Question 7. (1.0 mark)** A pie chart shows the clubs chosen by $80$ students: Chess $25\%$, Art $35\%$, Table tennis $15\%$, and the rest chose Singing. How many more students are in the Art club than in the Table tennis club?
+
+[LỜI GIẢI CŨ – EN]
+Art has $80\div100\times35=28$ students. Table tennis has $80\div100\times15=12$ students. The difference is $28-12=16$ students.
+
+**Check.** Chess has $20$ students; Singing is $100-(25+35+15)=25\ (\%)$, so $20$ students; $20+28+12+20=80$.
+
+**Answer.** $16$ students.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+**Bài 8. (1,0 điểm)** Một thửa ruộng hình thang có hai đáy $24$ m và $16$ m, chiều cao bằng một nửa đáy bé. Tính diện tích thửa ruộng.
+
+[LỜI GIẢI CŨ – VI]
+Chiều cao là $16:2=8$ (m). Diện tích thửa ruộng là $(24+16)\times8:2=160\ (\text{m}^2)$.
+
+**Đáp số.** $160\ \text{m}^2$.
+
+[ĐỀ – EN]
+**Question 8. (1.0 mark)** A field is a trapezium with parallel sides of $24$ m and $16$ m. Its height is half of the shorter parallel side. Find the area of the field.
+
+[LỜI GIẢI CŨ – EN]
+The height is $16\div2=8$ (m). The area is $(24+16)\times8\div2=160\ (\text{m}^2)$.
+
+**Answer.** $160\ \text{m}^2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+**Bài 9. (1,0 điểm)** Hà tung một đồng xu $80$ lần, được $36$ lần mặt sấp. Tính tỉ số phần trăm số lần xuất hiện mặt sấp và mặt ngửa.
+
+[LỜI GIẢI CŨ – VI]
+Mặt sấp: $36:80=0{,}45=45\%$. Mặt ngửa xuất hiện $80-36=44$ (lần): $44:80=0{,}55=55\%$.
+
+**Đáp số.** Mặt sấp $45\%$; mặt ngửa $55\%$.
+
+[ĐỀ – EN]
+**Question 9. (1.0 mark)** Ha tosses a coin $80$ times and gets tails $36$ times. Find the percentage of tosses that were tails and the percentage that were heads.
+
+[LỜI GIẢI CŨ – EN]
+Tails: $36\div80=0.45=45\%$. Heads came up $80-36=44$ times: $44\div80=0.55=55\%$.
+
+**Answer.** Tails $45\%$; heads $55\%$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+**Bài 10. (1,5 điểm)** Giả sử bác Nam gửi tiết kiệm $50$ triệu đồng với lãi suất $6\%$ một năm. Hết một năm, bác rút cả gốc lẫn lãi và dùng $\dfrac25$ số tiền đó mua xe đạp cho con. a) Tính tiền lãi. b) Tính số tiền mua xe đạp. c) Tính số tiền còn lại.
+
+[LỜI GIẢI CŨ – VI]
+a) Tiền lãi là $50:100\times6=3$ (triệu đồng).
+
+b) Cả gốc lẫn lãi là $50+3=53$ (triệu đồng). Tiền mua xe đạp là $53\times\dfrac25=21{,}2$ (triệu đồng).
+
+c) Số tiền còn lại là $53-21{,}2=31{,}8$ (triệu đồng).
+
+**Đáp số.** a) $3$ triệu đồng; b) $21{,}2$ triệu đồng; c) $31{,}8$ triệu đồng.
+
+[ĐỀ – EN]
+**Question 10. (1.5 marks)** Suppose Mr Nam puts $50$ million dong in a savings account at an interest rate of $6\%$ per year. After one year he withdraws the money and the interest, and spends $\dfrac25$ of the total on a bicycle for his child. a) Find the interest. b) Find the cost of the bicycle. c) Find the money left.
+
+[LỜI GIẢI CŨ – EN]
+a) The interest is $50\div100\times6=3$ (million dong).
+
+b) The total is $50+3=53$ (million dong). The bicycle costs $53\times\dfrac25=21.2$ (million dong).
+
+c) The money left is $53-21.2=31.8$ (million dong).
+
+**Answer.** a) $3$ million dong; b) $21.2$ million dong; c) $31.8$ million dong.
+
+
+######################################################################
+@@@ g5/g5-review-decimals-percent
+Bài học: Ôn tập: số thập phân và tỉ số phần trăm / Review: decimals and percentages
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết mỗi phân số sau dưới dạng số thập phân và dạng tỉ số phần trăm: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3:4=0{,}75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0{,}35=35\%$.
+
+**Đáp số.** a) $0{,}75=75\%$; b) $0{,}35=35\%$.
+
+[ĐỀ – EN]
+Write each fraction as a decimal and as a percentage: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3\div4=0.75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0.35=35\%$.
+
+**Answer.** a) $0.75=75\%$; b) $0.35=35\%$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính: a) $25{,}4-8{,}75$; b) $4{,}8\times0{,}25$; c) $9{,}6:0{,}8$.
+
+[LỜI GIẢI CŨ – VI]
+a) $25{,}40-8{,}75=16{,}65$.
+b) $48\times25=1\,200$ và có $1+2=3$ chữ số thập phân, nên $4{,}8\times0{,}25=1{,}2$.
+c) $9{,}6:0{,}8=96:8=12$.
+
+**Đáp số.** a) $16{,}65$; b) $1{,}2$; c) $12$.
+
+[ĐỀ – EN]
+Work out: a) $25.4-8.75$; b) $4.8\times0.25$; c) $9.6\div0.8$.
+
+[LỜI GIẢI CŨ – EN]
+a) $25.40-8.75=16.65$.
+b) $48\times25=1\,200$, and there are $1+2=3$ decimal places, so $4.8\times0.25=1.2$.
+c) $9.6\div0.8=96\div8=12$.
+
+**Answer.** a) $16.65$; b) $1.2$; c) $12$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$: a) $7{,}305\;\square\;7{,}35$; b) $0{,}6\;\square\;65\%$; c) $\dfrac{2}{5}\;\square\;40\%$.
+
+[LỜI GIẢI CŨ – VI]
+a) Hai số có hàng phần mười đều là $3$; hàng phần trăm là $0$ và $5$, nên $7{,}305<7{,}35$.
+b) $65\%=0{,}65$ và $0{,}6=0{,}60$, nên $0{,}6<65\%$.
+c) $\dfrac{2}{5}=2:5=0{,}4=40\%$, nên hai số bằng nhau.
+
+**Đáp số.** a) $<$; b) $<$; c) $=$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: a) $7.305\;\square\;7.35$; b) $0.6\;\square\;65\%$; c) $\dfrac{2}{5}\;\square\;40\%$.
+
+[LỜI GIẢI CŨ – EN]
+a) Both have tenths digit $3$; the hundredths digits are $0$ and $5$, so $7.305<7.35$.
+b) $65\%=0.65$ and $0.6=0.60$, so $0.6<65\%$.
+c) $\dfrac{2}{5}=2\div5=0.4=40\%$, so the two are equal.
+
+**Answer.** a) $<$; b) $<$; c) $=$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Lan chạy $1{,}2$ km, Mai chạy $1{,}5$ km. Quãng đường Lan chạy bằng bao nhiêu phần trăm quãng đường Mai chạy?
+
+[LỜI GIẢI CŨ – VI]
+$1{,}2:1{,}5=12:15=0{,}8=80\%$.
+
+**Đáp số.** $80\%$.
+
+[ĐỀ – EN]
+Lan runs $1.2$ km and Mai runs $1.5$ km. What percentage of Mai's distance is Lan's distance?
+
+[LỜI GIẢI CŨ – EN]
+$1.2\div1.5=12\div15=0.8=80\%$.
+
+**Answer.** $80\%$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một trường có $1\,250$ học sinh, trong đó $48\%$ là học sinh nữ. Hỏi trường có bao nhiêu học sinh nam?
+
+[LỜI GIẢI CŨ – VI]
+Số học sinh nữ là $1\,250\times48:100=600$ (em).
+Số học sinh nam là $1\,250-600=650$ (em).
+
+**Đáp số.** $650$ học sinh nam.
+
+[ĐỀ – EN]
+A school has $1\,250$ pupils, and $48\%$ of them are girls. How many boys are there?
+
+[LỜI GIẢI CŨ – EN]
+The number of girls is $1\,250\times48\div100=600$.
+The number of boys is $1\,250-600=650$.
+
+**Answer.** $650$ boys.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước về phân số. Một bể nước: buổi sáng người ta dùng $\dfrac{2}{5}$ lượng nước ban đầu, buổi chiều dùng $35\%$ lượng nước ban đầu. Lúc này bể còn $100$ lít. Hỏi lúc đầu bể có bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Vì $\dfrac{2}{5}=40\%$ nên đã dùng $40\%+35\%=75\%$ lượng nước, và còn lại $100\%-75\%=25\%$.
+$25\%$ lượng nước là $100$ lít, nên lúc đầu bể có $100:25\times100=400$ (lít).
+
+**Kiểm tra.** $\dfrac{2}{5}\times400=160$ và $35\%\times400=140$; $400-160-140=100$. Đúng.
+
+**Đáp số.** $400$ lít.
+
+[ĐỀ – EN]
+Remember the last lesson on fractions. A water tank is used like this: in the morning $\dfrac{2}{5}$ of the original water is used, and in the afternoon $35\%$ of the original water is used. Now $100$ litres are left. How many litres were in the tank at first?
+
+[LỜI GIẢI CŨ – EN]
+Since $\dfrac{2}{5}=40\%$, the amount used is $40\%+35\%=75\%$, so $100\%-75\%=25\%$ is left.
+$25\%$ of the water is $100$ litres, so at first there were $100\div25\times100=400$ litres.
+
+**Check.** $\dfrac{2}{5}\times400=160$ and $35\%\times400=140$; $400-160-140=100$. Correct.
+
+**Answer.** $400$ litres.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một đôi giày được giảm giá $25\%$ và có giá sau khi giảm là $150\,000$ đồng. a) Giá ban đầu của đôi giày là bao nhiêu đồng? b) Số tiền được giảm là bao nhiêu đồng?
+
+[LỜI GIẢI CŨ – VI]
+a) $150\,000$ đồng là $75\%$ giá ban đầu, nên giá ban đầu là $150\,000:75\times100=200\,000$ (đồng).
+b) Số tiền được giảm là $200\,000-150\,000=50\,000$ (đồng). Đây cũng là $25\%$ của $200\,000$.
+
+**Đáp số.** a) $200\,000$ đồng; b) $50\,000$ đồng.
+
+[ĐỀ – EN]
+A pair of shoes has a $25\%$ discount, and the price after the discount is $150\,000$ dong. a) What was the original price, in dong? b) How much was the discount, in dong?
+
+[LỜI GIẢI CŨ – EN]
+a) $150\,000$ dong is $75\%$ of the original price, so the original price is $150\,000\div75\times100=200\,000$ dong.
+b) The discount is $200\,000-150\,000=50\,000$ dong. This is also $25\%$ of $200\,000$.
+
+**Answer.** a) $200\,000$ dong; b) $50\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một chiếc áo giá $500\,000$ đồng. Tháng trước cửa hàng tăng giá $10\%$. Tháng này cửa hàng giảm giá $10\%$ so với giá đã tăng. Hỏi giá hiện nay là bao nhiêu đồng? Giá hiện nay cao hơn hay thấp hơn giá ban đầu, và chênh lệch bằng bao nhiêu phần trăm giá ban đầu?
+
+[LỜI GIẢI CŨ – VI]
+Giá sau khi tăng là $500\,000\times110:100=550\,000$ (đồng).
+Giá hiện nay là $550\,000\times90:100=495\,000$ (đồng).
+Giá hiện nay thấp hơn giá ban đầu $500\,000-495\,000=5\,000$ (đồng), và $5\,000:500\,000=0{,}01=1\%$.
+
+**Đáp số.** Giá hiện nay là $495\,000$ đồng, thấp hơn giá ban đầu $1\%$.
+
+[ĐỀ – EN]
+A shirt costs $500\,000$ dong. Last month the shop raised the price by $10\%$. This month the shop lowers the price by $10\%$ of the raised price. What is the price now, in dong? Is it higher or lower than the original price, and by what percentage of the original price?
+
+[LỜI GIẢI CŨ – EN]
+The price after the increase is $500\,000\times110\div100=550\,000$ dong.
+The price now is $550\,000\times90\div100=495\,000$ dong.
+It is lower than the original price by $500\,000-495\,000=5\,000$ dong, and $5\,000\div500\,000=0.01=1\%$.
+
+**Answer.** The price now is $495\,000$ dong, which is $1\%$ lower than the original price.
+
+
+===== HẾT FILE Vinax258-LG-2 =====

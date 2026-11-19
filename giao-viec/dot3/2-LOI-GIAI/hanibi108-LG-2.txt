@@ -1,0 +1,995 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-LG-2   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-LG-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – hanibi108-LG-2
+Người làm: tài khoản hanibi108. Gói này có 34 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/hanibi108-LG-2-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/hanibi108-LG-2-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g8/squares-identities (5 bài tập)
+- g8/thales-theorem-triangle (6 bài tập)
+- g8/triangle-midline (4 bài tập)
+- g8/triangle-similarity-conditions (9 bài tập)
+- g10/approximations-errors (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g8/squares-identities
+Bài học: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu / Difference of two squares. Square of a sum or a difference
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+7)^2$.
+
+b) $(x-6)^2$.
+
+c) $(2x+1)^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+7)^2=x^2+14x+49$.
+
+b) $(x-6)^2=x^2-12x+36$.
+
+c) $(2x+1)^2=4x^2+4x+1$.
+
+Vậy a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
+
+**Đáp số.** a) $x^2+14x+49$. b) $x^2-12x+36$. c) $4x^2+4x+1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+7)^2$.
+
+b) $(x-6)^2$.
+
+c) $(2x+1)^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+7)^2=x^2+14x+49$.
+
+b) $(x-6)^2=x^2-12x+36$.
+
+c) $(2x+1)^2=4x^2+4x+1$.
+
+So a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
+
+**Answer.** a) $x^2+14x+49$. b) $x^2-12x+36$. c) $4x^2+4x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(3x-2y)^2$.
+
+b) $\left(\dfrac12x+3\right)^2$.
+
+c) $(5x^2-y)^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+
+b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+
+c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+
+Vậy a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
+
+**Đáp số.** a) $9x^2-12xy+4y^2$. b) $\dfrac14x^2+3x+9$. c) $25x^4-10x^2y+y^2$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(3x-2y)^2$.
+
+b) $\left(\dfrac12x+3\right)^2$.
+
+c) $(5x^2-y)^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+
+b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+
+c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+
+So a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
+
+**Answer.** a) $9x^2-12xy+4y^2$. b) $\dfrac14x^2+3x+9$. c) $25x^4-10x^2y+y^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x-8)(x+8)$.
+
+b) $(4x+3y)(4x-3y)$.
+
+c) $(x^2+1)(x^2-1)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x-8)(x+8)=x^2-64$.
+
+b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+
+c) $(x^2+1)(x^2-1)=x^4-1$.
+
+Vậy a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
+
+**Đáp số.** a) $x^2-64$. b) $16x^2-9y^2$. c) $x^4-1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x-8)(x+8)$.
+
+b) $(4x+3y)(4x-3y)$.
+
+c) $(x^2+1)(x^2-1)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x-8)(x+8)=x^2-64$.
+
+b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+
+c) $(x^2+1)(x^2-1)=x^4-1$.
+
+So a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
+
+**Answer.** a) $x^2-64$. b) $16x^2-9y^2$. c) $x^4-1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhẩm bằng hằng đẳng thức:
+
+a) $103^2$.
+
+b) $98^2$.
+
+c) $61\cdot59$.
+
+[LỜI GIẢI CŨ – VI]
+a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+
+b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+
+c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+
+Vậy a) $10\,609$; b) $9604$; c) $3599$.
+
+**Đáp số.** a) $10\,609$. b) $9604$. c) $3599$.
+
+[ĐỀ – EN]
+Calculate mentally using identities:
+
+a) $103^2$.
+
+b) $98^2$.
+
+c) $61\cdot59$.
+
+[LỜI GIẢI CŨ – EN]
+a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+
+b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+
+c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+
+So a) $10\,609$; b) $9604$; c) $3599$.
+
+**Answer.** a) $10\,609$. b) $9604$. c) $3599$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chứng minh rằng hiệu các bình phương của hai số lẻ liên tiếp luôn chia hết cho $8$.
+
+[LỜI GIẢI CŨ – VI]
+Gọi hai số lẻ liên tiếp là $2k-1$ và $2k+1$. Ta có
+$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
+Vì $8k$ là bội của $8$ nên hiệu các bình phương của hai số lẻ liên tiếp chia hết cho $8$.
+
+**Đáp số.** Hiệu bằng $8k$, chia hết cho $8$.
+
+[ĐỀ – EN]
+Prove that the difference of the squares of two consecutive odd numbers is always divisible by $8$.
+
+[LỜI GIẢI CŨ – EN]
+Let the two consecutive odd numbers be $2k-1$ and $2k+1$. We have
+$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
+Since $8k$ is a multiple of $8$, the difference of the squares of two consecutive odd numbers is divisible by $8$.
+
+**Answer.** The difference equals $8k$, which is divisible by $8$.
+
+
+######################################################################
+@@@ g8/thales-theorem-triangle
+Bài học: Định lí Thalès trong tam giác / The intercept theorem in a triangle
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $AB=15$ cm và $CD=1{,}2$ dm. Tính tỉ số $\dfrac{AB}{CD}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $CD=1{,}2$ dm $=12$ cm. Do đó $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+
+Vậy $\dfrac{AB}{CD}=\dfrac54$.
+
+**Đáp số.** $\dfrac54$.
+
+[ĐỀ – EN]
+Let $AB=15$ cm and $CD=1.2$ dm. Find the ratio $\dfrac{AB}{CD}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $CD=1.2$ dm $=12$ cm. Hence $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+
+So $\dfrac{AB}{CD}=\dfrac54$.
+
+**Answer.** $\dfrac54$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=6$ cm, $DB=9$ cm và $AE=4$ cm. Tính $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{6}{9}=\dfrac{4}{EC}$. Suy ra $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+
+Vậy $EC=6$ cm.
+
+**Đáp số.** $EC=6$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=6$ cm, $DB=9$ cm and $AE=4$ cm, find $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{6}{9}=\dfrac{4}{EC}$. So $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+
+So $EC=6$ cm.
+
+**Answer.** $EC=6$ cm.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AB=12$ cm, $AD=5$ cm và $AC=18$ cm. Tính $AE$ và $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{5}{12}=\dfrac{AE}{18}$. Suy ra $AE=\dfrac{5\cdot18}{12}=7{,}5$ (cm). Do đó $EC=18-7{,}5=10{,}5$ (cm).
+
+Vậy $AE=7{,}5$ cm và $EC=10{,}5$ cm.
+
+**Đáp số.** $AE=7{,}5$ cm; $EC=10{,}5$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AB=12$ cm, $AD=5$ cm and $AC=18$ cm, find $AE$ and $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{5}{12}=\dfrac{AE}{18}$. So $AE=\dfrac{5\cdot18}{12}=7.5$ (cm). Hence $EC=18-7.5=10.5$ (cm).
+
+So $AE=7.5$ cm and $EC=10.5$ cm.
+
+**Answer.** $AE=7.5$ cm; $EC=10.5$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=x$ cm, $DB=3$ cm, $AE=4$ cm và $EC=6$ cm. Tìm $x$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{x}{3}=\dfrac{4}{6}$. Suy ra $x=\dfrac{3\cdot4}{6}=2$.
+
+Vậy $x=2$ (cm).
+
+**Đáp số.** $x=2$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=x$ cm, $DB=3$ cm, $AE=4$ cm and $EC=6$ cm, find $x$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{x}{3}=\dfrac{4}{6}$. So $x=\dfrac{3\cdot4}{6}=2$.
+
+So $x=2$ (cm).
+
+**Answer.** $x=2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=15$ cm, $AC=20$ cm. Trên $AB$ lấy $D$ với $AD=6$ cm, trên $AC$ lấy $E$ với $AE=8$ cm. Chứng minh rằng $DE\parallel BC$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ và $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. Hai tỉ số bằng nhau nên theo định lí Thalès đảo, $DE\parallel BC$.
+
+**Đáp số.** $DE\parallel BC$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $AB=15$ cm and $AC=20$ cm. On $AB$ take $D$ with $AD=6$ cm, and on $AC$ take $E$ with $AE=8$ cm. Prove that $DE\parallel BC$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ and $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. The two ratios are equal, so by the converse of the intercept theorem, $DE\parallel BC$.
+
+**Answer.** $DE\parallel BC$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một khung mái nhà hình tam giác $ABC$ có $AB=6$ m và $AC=5$ m. Người ta đóng thanh ngang $DE$ song song với $BC$, với $D\in AB$, $E\in AC$ và $AD=2{,}4$ m. Tính $AE$ và $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{2{,}4}{6}=\dfrac{AE}{5}$. Suy ra $AE=\dfrac{2{,}4\cdot5}{6}=2$ (m). Do đó $EC=5-2=3$ (m).
+
+Vậy $AE=2$ m và $EC=3$ m.
+
+**Đáp số.** $AE=2$ m; $EC=3$ m.
+
+[ĐỀ – EN]
+Suppose a triangular roof frame $ABC$ has $AB=6$ m and $AC=5$ m. A crossbar $DE$ is fixed parallel to $BC$, with $D\in AB$, $E\in AC$ and $AD=2.4$ m. Find $AE$ and $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{2.4}{6}=\dfrac{AE}{5}$. So $AE=\dfrac{2.4\cdot5}{6}=2$ (m). Hence $EC=5-2=3$ (m).
+
+So $AE=2$ m and $EC=3$ m.
+
+**Answer.** $AE=2$ m; $EC=3$ m.
+
+
+######################################################################
+@@@ g8/triangle-midline
+Bài học: Đường trung bình của tam giác / The midsegment of a triangle
+Cần viết lại lời giải các bài: 1, 2, 4, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $BC=18$ cm. Gọi $D$, $E$ là trung điểm của $AB$, $AC$. Tính $DE$.
+
+[LỜI GIẢI CŨ – VI]
+$DE$ là đường trung bình của tam giác $ABC$ nên $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+
+Vậy $DE=9$ cm.
+
+**Đáp số.** $9$ cm.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $BC=18$ cm. Let $D$ and $E$ be the midpoints of $AB$ and $AC$. Find $DE$.
+
+[LỜI GIẢI CŨ – EN]
+$DE$ is a midsegment of triangle $ABC$, so $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+
+So $DE=9$ cm.
+
+**Answer.** $9$ cm.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=7{,}5$ cm. Tính $BC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE$ là đường trung bình nên $BC=2DE=2\cdot7{,}5=15$ (cm).
+
+Vậy $BC=15$ cm.
+
+**Đáp số.** $15$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $DE=7.5$ cm. Find $BC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE$ is a midsegment, $BC=2DE=2\cdot7.5=15$ (cm).
+
+So $BC=15$ cm.
+
+**Answer.** $15$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $\widehat{B}=60^\circ$ và $\widehat{C}=75^\circ$. Gọi $D$, $E$ là trung điểm của $AB$, $AC$. Tính $\widehat{ADE}$ và $\widehat{AED}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE$ là đường trung bình nên $DE\parallel BC$. Do đó $\widehat{ADE}=\widehat{B}=60^\circ$ và $\widehat{AED}=\widehat{C}=75^\circ$ (các cặp góc đồng vị).
+
+Vậy $\widehat{ADE}=60^\circ$ và $\widehat{AED}=75^\circ$.
+
+**Đáp số.** $\widehat{ADE}=60^\circ$; $\widehat{AED}=75^\circ$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $\angle B=60^\circ$ and $\angle C=75^\circ$. Let $D$ and $E$ be the midpoints of $AB$ and $AC$. Find $\angle ADE$ and $\angle AED$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE$ is a midsegment, $DE\parallel BC$. Hence $\angle ADE=\angle B=60^\circ$ and $\angle AED=\angle C=75^\circ$ (pairs of corresponding angles).
+
+So $\angle ADE=60^\circ$ and $\angle AED=75^\circ$.
+
+**Answer.** $\angle ADE=60^\circ$; $\angle AED=75^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử hai điểm $A$, $B$ nằm ở hai bờ của một đầm lầy. Chọn điểm $C$ trên đất liền, gọi $M$, $N$ là trung điểm của $CA$, $CB$ và đo được $MN=23$ m. Tính khoảng cách $AB$.
+
+[LỜI GIẢI CŨ – VI]
+$MN$ là đường trung bình của tam giác $CAB$ nên $AB=2MN=2\cdot23=46$ (m).
+
+Vậy khoảng cách $AB$ là $46$ m.
+
+**Đáp số.** $46$ m.
+
+[ĐỀ – EN]
+Suppose two points $A$ and $B$ lie on opposite banks of a marsh. Choose a point $C$ on dry land, let $M$ and $N$ be the midpoints of $CA$ and $CB$, and measure $MN=23$ m. Find the distance $AB$.
+
+[LỜI GIẢI CŨ – EN]
+$MN$ is a midsegment of triangle $CAB$, so $AB=2MN=2\cdot23=46$ (m).
+
+So the distance $AB$ is $46$ m.
+
+**Answer.** $46$ m.
+
+
+######################################################################
+@@@ g8/triangle-similarity-conditions
+Bài học: Ba trường hợp đồng dạng của hai tam giác / The three similarity conditions for triangles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có các cạnh $5$, $12$, $13$ và $\triangle DEF$ có các cạnh $10$, $24$, $26$. Hai tam giác có đồng dạng không? Nêu tỉ số.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. Ba tỉ số bằng nhau nên hai tam giác đồng dạng (c.c.c) với tỉ số $2$.
+
+**Đáp số.** Đồng dạng, tỉ số $2$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has sides $5$, $12$, $13$ and triangle $DEF$ has sides $10$, $24$, $26$. Are the triangles similar? State the scale factor.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. The three ratios are equal, so the triangles are similar (SSS) with scale factor $2$.
+
+**Answer.** Similar, scale factor $2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hai tam giác có các cạnh $3$, $5$, $7$ và $6$, $10$, $15$ có đồng dạng không?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac63=2$, $\dfrac{10}{5}=2$ nhưng $\dfrac{15}{7}\neq2$. Ba tỉ số không bằng nhau nên hai tam giác không đồng dạng.
+
+**Đáp số.** Không đồng dạng.
+
+[ĐỀ – EN]
+Are two triangles with sides $3$, $5$, $7$ and $6$, $10$, $15$ similar?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac63=2$, $\dfrac{10}{5}=2$ but $\dfrac{15}{7}\neq2$. The three ratios are not equal, so the triangles are not similar.
+
+**Answer.** Not similar.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có $AB=4$, $AC=6$, $\widehat A=60^\circ$ và $\triangle A'B'C'$ có $A'B'=6$, $A'C'=9$, $\widehat{A'}=60^\circ$. Chứng minh hai tam giác đồng dạng. Nếu $BC=5$, tính $B'C'$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ và góc xen giữa $\widehat{A'}=\widehat A=60^\circ$. Theo c.g.c, $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Do đó $B'C'=\dfrac32\cdot5=7{,}5$.
+
+**Đáp số.** Đồng dạng; $B'C'=7{,}5$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $AB=4$, $AC=6$, $\angle A=60^\circ$ and triangle $A'B'C'$ has $A'B'=6$, $A'C'=9$, $\angle A'=60^\circ$. Prove that the triangles are similar. If $BC=5$, find $B'C'$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ and the included angle $\angle A'=\angle A=60^\circ$. By SAS, $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. Hence $B'C'=\dfrac32\cdot5=7.5$.
+
+**Answer.** Similar; $B'C'=7.5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có $\widehat A=50^\circ$, $\widehat B=70^\circ$ và $\triangle MNP$ có $\widehat M=50^\circ$, $\widehat P=60^\circ$. Chứng minh hai tam giác đồng dạng và viết đúng thứ tự đỉnh.
+
+[LỜI GIẢI CŨ – VI]
+Trong $\triangle ABC$: $\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. Trong $\triangle MNP$: $\widehat N=180^\circ-50^\circ-60^\circ=70^\circ$. Ta có $\widehat A=\widehat M$, $\widehat B=\widehat N$, $\widehat C=\widehat P$. Theo g.g, $\triangle ABC\sim\triangle MNP$.
+
+**Đáp số.** $\triangle ABC\sim\triangle MNP$ (g.g).
+
+[ĐỀ – EN]
+Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$ and triangle $MNP$ has $\angle M=50^\circ$, $\angle P=60^\circ$. Prove that the triangles are similar and write the vertices in the correct order.
+
+[LỜI GIẢI CŨ – EN]
+In $\triangle ABC$: $\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. In $\triangle MNP$: $\angle N=180^\circ-50^\circ-60^\circ=70^\circ$. We have $\angle A=\angle M$, $\angle B=\angle N$, $\angle C=\angle P$. By AA, $\triangle ABC\sim\triangle MNP$.
+
+**Answer.** $\triangle ABC\sim\triangle MNP$ (AA).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$; tam giác $DEF$ vuông tại $D$ có $DE=6$, $DF=8$. Chứng minh hai tam giác đồng dạng và tính $EF$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac63=\dfrac84=2$ và hai góc vuông xen giữa bằng nhau, nên $\triangle DEF\sim\triangle ABC$ (c.g.c) với tỉ số $2$. Theo định lí Pythagore, $BC=5$. Do đó $EF=2\cdot5=10$.
+
+**Đáp số.** Đồng dạng, $EF=10$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $AB=3$, $AC=4$; triangle $DEF$ is right-angled at $D$ with $DE=6$, $DF=8$. Prove that the triangles are similar and find $EF$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac63=\dfrac84=2$ and the two right angles (included) are equal, so $\triangle DEF\sim\triangle ABC$ (SAS) with scale factor $2$. By Pythagoras' theorem, $BC=5$. Hence $EF=2\cdot5=10$.
+
+**Answer.** Similar, $EF=10$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$, điểm $D$ trên cạnh $AC$ sao cho $\widehat{ABD}=\widehat{ACB}$. Biết $AB=10$, $AD=5$. Tính $AC$ và $DC$.
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác $ABD$ và $ACB$ có góc $A$ chung và $\widehat{ABD}=\widehat{ACB}$ nên đồng dạng (g.g). Suy ra $AB^2=AD\cdot AC$, tức $100=5\cdot AC$ và $AC=20$. Do đó $DC=20-5=15$.
+
+**Đáp số.** $AC=20$; $DC=15$.
+
+[ĐỀ – EN]
+In $\triangle ABC$, the point $D$ lies on side $AC$ with $\angle ABD=\angle ACB$. Given $AB=10$ and $AD=5$, find $AC$ and $DC$.
+
+[LỜI GIẢI CŨ – EN]
+Triangles $ABD$ and $ACB$ share the angle $A$ and have $\angle ABD=\angle ACB$, so they are similar (AA). Hence $AB^2=AD\cdot AC$, that is $100=5\cdot AC$ and $AC=20$. So $DC=20-5=15$.
+
+**Answer.** $AC=20$; $DC=15$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử để đo khoảng cách $AB$ giữa hai điểm hai bên một cái hồ, người ta chọn điểm $O$ rồi đo $OA=90$ m, $OB=120$ m. Lấy $A'\in OA$ với $OA'=30$ m, $B'\in OB$ với $OB'=40$ m và đo $A'B'=25$ m. Tính $AB$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ và $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, và $\widehat O$ chung. Theo c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số $\dfrac13$, nên $AB=3\cdot A'B'=75$ (m).
+
+**Đáp số.** $75$ m.
+
+[ĐỀ – EN]
+Suppose that to measure the distance $AB$ between two points on opposite sides of a lake, people choose a point $O$ and measure $OA=90$ m, $OB=120$ m. They mark $A'\in OA$ with $OA'=30$ m, $B'\in OB$ with $OB'=40$ m and measure $A'B'=25$ m. Find $AB$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ and $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, and $\angle O$ is common. By SAS, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$, so $AB=3\cdot A'B'=75$ (m).
+
+**Answer.** $75$ m.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử để đo chiều cao một toà nhà, người ta đặt một chiếc gương nhỏ trên mặt đất cách chân toà nhà $30$ m. Một người cao $1{,}6$ m đứng cách gương $2$ m, nhìn thấy đỉnh toà nhà qua gương. Tính chiều cao toà nhà. (Tia sáng tới và tia phản xạ tạo với mặt đất hai góc bằng nhau.)
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác vuông (người và khoảng cách đến gương; toà nhà và khoảng cách đến gương) có một cặp góc nhọn bằng nhau (góc tới bằng góc phản xạ), nên đồng dạng (g.g). Gọi $h$ là chiều cao toà nhà. Ta có $\dfrac{h}{30}=\dfrac{1{,}6}{2}$, suy ra $h=24$ (m).
+
+**Đáp số.** $24$ m.
+
+[ĐỀ – EN]
+Suppose that to measure the height of a building, a small mirror is placed on the ground $30$ m from the foot of the building. A person $1.6$ m tall, standing $2$ m from the mirror, sees the top of the building in the mirror. Find the height of the building. (The incoming ray and the reflected ray make equal angles with the ground.)
+
+[LỜI GIẢI CŨ – EN]
+The two right-angled triangles (the person and the distance to the mirror; the building and the distance to the mirror) have one pair of equal acute angles (the angle of incidence equals the angle of reflection), so they are similar (AA). Let $h$ be the height of the building. We have $\dfrac{h}{30}=\dfrac{1.6}{2}$, so $h=24$ (m).
+
+**Answer.** $24$ m.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hình thang $ABCD$ có $AB\parallel CD$; hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Chứng minh $\triangle OAB\sim\triangle OCD$ và tính $CD$ khi $OA=4$, $OC=6$, $AB=8$. (Ôn lại [tam giác đồng dạng](lesson:similar-triangles).)
+
+[LỜI GIẢI CŨ – VI]
+Vì $AB\parallel CD$ nên $\widehat{OAB}=\widehat{OCD}$ và $\widehat{OBA}=\widehat{ODC}$ (so le trong). Theo g.g, $\triangle OAB\sim\triangle OCD$. Do đó $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, suy ra $CD=8\cdot\dfrac32=12$.
+
+**Đáp số.** Đã chứng minh; $CD=12$.
+
+[ĐỀ – EN]
+In trapezium $ABCD$, $AB\parallel CD$; the diagonals $AC$ and $BD$ meet at $O$. Prove that $\triangle OAB\sim\triangle OCD$ and find $CD$ when $OA=4$, $OC=6$, $AB=8$. (Revise [similar triangles](lesson:similar-triangles).)
+
+[LỜI GIẢI CŨ – EN]
+Since $AB\parallel CD$, $\angle OAB=\angle OCD$ and $\angle OBA=\angle ODC$ (alternate angles). By AA, $\triangle OAB\sim\triangle OCD$. Hence $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, so $CD=8\cdot\dfrac32=12$.
+
+**Answer.** Proved; $CD=12$.
+
+
+######################################################################
+@@@ g10/approximations-errors
+Bài học: Số gần đúng và sai số / Approximate values and errors
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Quy tròn $4\,863$ đến hàng chục và hàng trăm; quy tròn $2{,}71828$ đến hàng phần trăm và hàng phần nghìn.
+
+[LỜI GIẢI CŨ – VI]
+$4\,863$: chữ số hàng đơn vị $3<5$ nên đến hàng chục là $4\,860$; chữ số hàng chục $6\ge5$ nên đến hàng trăm là $4\,900$. $2{,}71828$: chữ số hàng phần nghìn $8\ge5$ nên đến hàng phần trăm là $2{,}72$; chữ số hàng phần chục nghìn $2<5$ nên đến hàng phần nghìn là $2{,}718$.
+
+**Đáp số.** $4\,860$; $4\,900$; $2{,}72$; $2{,}718$.
+
+[ĐỀ – EN]
+Round $4\,863$ to the nearest ten and the nearest hundred; round $2.71828$ to two and to three decimal places.
+
+[LỜI GIẢI CŨ – EN]
+$4\,863$: the units digit $3<5$, so to the nearest ten it is $4\,860$; the tens digit $6\ge5$, so to the nearest hundred it is $4\,900$. $2.71828$: the thousandths digit $8\ge5$, so to two decimal places it is $2.72$; the ten-thousandths digit $2<5$, so to three decimal places it is $2.718$.
+
+**Answer.** $4\,860$; $4\,900$; $2.72$; $2.718$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Biết $\sqrt3=1{,}7320508\ldots$ Lấy $\bar a=1{,}73$ làm số gần đúng của $\sqrt3$. Chứng tỏ $\Delta_{\bar a}<0{,}0021$ và tìm cận trên của sai số tương đối (dạng phần trăm, làm tròn đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$\Delta_{\bar a}=1{,}7320508\ldots-1{,}73=0{,}0020508\ldots<0{,}0021$. Do đó
+$$\delta_{\bar a}\le\dfrac{0{,}0021}{1{,}73}\approx0{,}0012=0{,}12\%.$$
+
+**Đáp số.** $\delta_{\bar a}\le0{,}12\%$.
+
+[ĐỀ – EN]
+Given $\sqrt3=1.7320508\ldots$, take $\bar a=1.73$ as an approximation of $\sqrt3$. Show that $\Delta_{\bar a}<0.0021$ and find an upper bound for the relative error (as a percentage, rounded to two decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$\Delta_{\bar a}=1.7320508\ldots-1.73=0.0020508\ldots<0.0021$. Hence
+$$\delta_{\bar a}\le\dfrac{0.0021}{1.73}\approx0.0012=0.12\%.$$
+
+**Answer.** $\delta_{\bar a}\le0.12\%$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số nào xấp xỉ $\sqrt2=1{,}41421356\ldots$ tốt hơn: $1{,}41$ hay $\dfrac{99}{70}$?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{99}{70}=1{,}4142857\ldots$ Ta có
+$$|\sqrt2-1{,}41|\approx0{,}0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0{,}000072.$$
+Sai số thứ hai nhỏ hơn rất nhiều.
+
+**Đáp số.** $\dfrac{99}{70}$ xấp xỉ $\sqrt2$ tốt hơn.
+
+[ĐỀ – EN]
+Which is the better approximation of $\sqrt2=1.41421356\ldots$: $1.41$ or $\dfrac{99}{70}$?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{99}{70}=1.4142857\ldots$ We have
+$$|\sqrt2-1.41|\approx0.0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0.000072.$$
+The second error is far smaller.
+
+**Answer.** $\dfrac{99}{70}$ is the better approximation of $\sqrt2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Biết $\sqrt7=2{,}6457513\ldots$ và $\pi^2=9{,}8696044\ldots$ Viết số gần đúng của $\sqrt7$ với độ chính xác $0{,}001$ và của $\pi^2$ với độ chính xác $0{,}01$.
+
+[LỜI GIẢI CŨ – VI]
+$\sqrt7\approx2{,}646$ với sai số $\approx0{,}00025\le0{,}001$. $\pi^2\approx9{,}87$ với sai số $\approx0{,}0004\le0{,}01$.
+
+**Đáp số.** $\sqrt7\approx2{,}646$; $\pi^2\approx9{,}87$.
+
+[ĐỀ – EN]
+Given $\sqrt7=2.6457513\ldots$ and $\pi^2=9.8696044\ldots$, write an approximation of $\sqrt7$ with error bound $0.001$ and of $\pi^2$ with error bound $0.01$.
+
+[LỜI GIẢI CŨ – EN]
+$\sqrt7\approx2.646$ with error $\approx0.00025\le0.001$. $\pi^2\approx9.87$ with error $\approx0.0004\le0.01$.
+
+**Answer.** $\sqrt7\approx2.646$; $\pi^2\approx9.87$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết số quy tròn của mỗi số gần đúng: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0{,}73914\pm0{,}004$.
+
+[LỜI GIẢI CŨ – VI]
+(a) $2\,000$ không nhỏ hơn $1\,000$ nhưng nhỏ hơn $10\,000$, nên quy tròn đến hàng chục nghìn; chữ số hàng nghìn là $6\ge5$: $2\,480\,000$.
+
+(b) $0{,}004$ nhỏ hơn $0{,}01$ nhưng không nhỏ hơn $0{,}001$, nên quy tròn đến hàng phần trăm; chữ số hàng phần nghìn là $9\ge5$: $0{,}74$.
+
+**Đáp số.** (a) $2\,480\,000$; (b) $0{,}74$.
+
+[ĐỀ – EN]
+Write the rounded form of each approximate value: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0.73914\pm0.004$.
+
+[LỜI GIẢI CŨ – EN]
+(a) $2\,000$ is not less than $1\,000$ but is less than $10\,000$, so round to the nearest ten thousand; the thousands digit is $6\ge5$: $2\,480\,000$.
+
+(b) $0.004$ is less than $0.01$ but not less than $0.001$, so round to two decimal places; the thousandths digit is $9\ge5$: $0.74$.
+
+**Answer.** (a) $2\,480\,000$; (b) $0.74$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một thợ may đo tấm vải dài $6{,}4$ m với độ chính xác $0{,}05$ m. Một thợ xây đo bức tường dài $85$ m với độ chính xác $0{,}4$ m. Phép đo của ai chính xác hơn?
+
+[LỜI GIẢI CŨ – VI]
+Thợ may: $\delta_1\le\dfrac{0{,}05}{6{,}4}\approx0{,}78\%$. Thợ xây: $\delta_2\le\dfrac{0{,}4}{85}\approx0{,}47\%$.
+
+**Đáp số.** Phép đo của thợ xây chính xác hơn.
+
+[ĐỀ – EN]
+A tailor measures a piece of cloth as $6.4$ m with error bound $0.05$ m. A builder measures a wall as $85$ m with error bound $0.4$ m. Whose measurement is more accurate?
+
+[LỜI GIẢI CŨ – EN]
+Tailor: $\delta_1\le\dfrac{0.05}{6.4}\approx0.78\%$. Builder: $\delta_2\le\dfrac{0.4}{85}\approx0.47\%$.
+
+**Answer.** The builder's measurement is more accurate.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $\bar a=4{,}375$ là số gần đúng của $a$ với độ chính xác $d=0{,}02$. Mỗi khẳng định sau đúng hay sai?
+
+a) $a$ thuộc đoạn $[4{,}355; 4{,}395]$.
+b) Sai số tương đối của $\bar a$ không vượt quá $0{,}5\%$.
+c) Số quy tròn của $\bar a$ là $4{,}38$.
+d) Có thể $a=4{,}4$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $4{,}375-0{,}02=4{,}355$ và $4{,}375+0{,}02=4{,}395$.
+
+b) **Đúng.** $\dfrac{0{,}02}{4{,}375}\approx0{,}46\%\le0{,}5\%$.
+
+c) **Sai.** $0{,}02$ không nhỏ hơn $0{,}01$ nhưng nhỏ hơn $0{,}1$, nên quy tròn đến hàng phần mười: $4{,}4$.
+
+d) **Sai.** $4{,}4-4{,}375=0{,}025>0{,}02$, nên $4{,}4$ nằm ngoài đoạn ở câu a).
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Let $\bar a=4.375$ be an approximation of $a$ with error bound $d=0.02$. Is each claim true or false?
+
+a) $a$ lies in the interval $[4.355, 4.395]$.
+b) The relative error of $\bar a$ is at most $0.5\%$.
+c) The rounded form of $\bar a$ is $4.38$.
+d) It is possible that $a=4.4$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $4.375-0.02=4.355$ and $4.375+0.02=4.395$.
+
+b) **True.** $\dfrac{0.02}{4.375}\approx0.46\%\le0.5\%$.
+
+c) **False.** $0.02$ is not less than $0.01$ but is less than $0.1$, so we round to one decimal place: $4.4$.
+
+d) **False.** $4.4-4.375=0.025>0.02$, so $4.4$ lies outside the interval in a).
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một sân hình chữ nhật có chiều dài $32{,}5\pm0{,}1$ m và chiều rộng $18{,}4\pm0{,}1$ m. Tính cận trên của sai số tương đối của chu vi, viết dưới dạng phần trăm và làm tròn đến hàng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+Chu vi gần đúng $\bar P=2(32{,}5+18{,}4)=101{,}8$ m, độ chính xác $d=2(0{,}1+0{,}1)=0{,}4$ m. Do đó
+$$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
+
+**Đáp số.** $\delta\le0{,}39\%$.
+
+[ĐỀ – EN]
+A rectangular yard is $32.5\pm0.1$ m long and $18.4\pm0.1$ m wide. Find an upper bound for the relative error of its perimeter, as a percentage rounded to two decimal places.
+
+[LỜI GIẢI CŨ – EN]
+Approximate perimeter $\bar P=2(32.5+18.4)=101.8$ m, error bound $d=2(0.1+0.1)=0.4$ m. Hence
+$$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
+
+**Answer.** $\delta\le0.39\%$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn tập bài [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations)) Biết $\pi=3{,}14\pm0{,}002$.
+
+(a) Viết tập $I$ các giá trị có thể của $\pi$ theo thông tin này dưới dạng một đoạn. (b) Số $\dfrac{22}{7}$ có thuộc $I$ không? (c) Tìm $I\cap[3{,}141; 3{,}15]$.
+
+[LỜI GIẢI CŨ – VI]
+(a) $I=[3{,}138; 3{,}142]$.
+
+(b) $\dfrac{22}{7}=3{,}142857\ldots>3{,}142$, nên $\dfrac{22}{7}\notin I$.
+
+(c) Phần chung của $[3{,}138; 3{,}142]$ và $[3{,}141; 3{,}15]$ là $[3{,}141; 3{,}142]$.
+
+**Đáp số.** (a) $[3{,}138; 3{,}142]$; (b) không; (c) $[3{,}141; 3{,}142]$.
+
+[ĐỀ – EN]
+(Review of [Sets and set operations](lesson:sets-and-set-operations)) We know that $\pi=3.14\pm0.002$.
+
+(a) Write the set $I$ of possible values of $\pi$ given by this information as a closed interval. (b) Does $\dfrac{22}{7}$ belong to $I$? (c) Find $I\cap[3.141, 3.15]$.
+
+[LỜI GIẢI CŨ – EN]
+(a) $I=[3.138, 3.142]$.
+
+(b) $\dfrac{22}{7}=3.142857\ldots>3.142$, so $\dfrac{22}{7}\notin I$.
+
+(c) The common part of $[3.138, 3.142]$ and $[3.141, 3.15]$ is $[3.141, 3.142]$.
+
+**Answer.** (a) $[3.138, 3.142]$; (b) no; (c) $[3.141, 3.142]$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Với sân hình chữ nhật ở bài trên ($32{,}5\pm0{,}1$ m và $18{,}4\pm0{,}1$ m), diện tích được ước lượng là $32{,}5\cdot18{,}4$. Tìm diện tích nhỏ nhất và lớn nhất có thể, một độ chính xác $d$ cho diện tích ước lượng, rồi viết số quy tròn của diện tích.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích ước lượng $\bar S=32{,}5\cdot18{,}4=598$ m². Nhỏ nhất $32{,}4\cdot18{,}3=592{,}92$, lớn nhất $32{,}6\cdot18{,}5=603{,}1$. Hai khoảng cách là $598-592{,}92=5{,}08$ và $603{,}1-598=5{,}1$, nên lấy $d=5{,}1$. Vì $5{,}1$ không nhỏ hơn $1$ nhưng nhỏ hơn $10$, ta quy tròn $598$ đến hàng chục: $600$.
+
+**Đáp số.** $592{,}92\le S\le603{,}1$; $S=598\pm5{,}1$ (m²); số quy tròn là $600$ m².
+
+[ĐỀ – EN]
+For the yard in the previous exercise ($32.5\pm0.1$ m by $18.4\pm0.1$ m), the area is estimated as $32.5\cdot18.4$. Find the smallest and largest possible areas, an error bound $d$ for the estimated area, and then the rounded form of the area.
+
+[LỜI GIẢI CŨ – EN]
+Estimated area $\bar S=32.5\cdot18.4=598$ m². Smallest $32.4\cdot18.3=592.92$, largest $32.6\cdot18.5=603.1$. The two distances are $598-592.92=5.08$ and $603.1-598=5.1$, so take $d=5.1$. Since $5.1$ is not less than $1$ but is less than $10$, we round $598$ to the nearest ten: $600$.
+
+**Answer.** $592.92\le S\le603.1$; $S=598\pm5.1$ (m²); the rounded form is $600$ m².
+
+
+===== HẾT FILE hanibi108-LG-2 =====

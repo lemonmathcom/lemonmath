@@ -1,6 +1,6 @@
-# Gói MD-20 – gắn mức độ nhận thức cho 44 câu hỏi (Lớp 12 → Lớp 12)
+# Gói MD-20 – gắn mức độ nhận thức cho 105 câu hỏi (Lớp 11 → Lớp 11)
 
-Tài khoản thực hiện: Vimus2358
+Tài khoản thực hiện: Vinax.vn
 
 Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
 
@@ -47,687 +47,861 @@ M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mớ
 - Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
 - Lý do: tối đa 12 chữ.
 - Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
-- Khi xong, ghi dòng cuối: HẾT GÓI MD-20 (44 câu)
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-20 (105 câu)
 
 ## Các câu hỏi
 
-### M385 · Lớp 12 · Đề luyện thi tốt nghiệp số 3
+### M331 · Lớp 11 · Các số đặc trưng đo xu thế trung tâm
 
-[M385.1] Nhiều lựa chọn
-Cho hàm số $y=f(x)$ có đạo hàm $f'(x)=x^2(x-1)(x+2)^3$ với mọi $x\in\mathbb{R}$. Số điểm cực trị của hàm số đã cho là
-A. $1$.
-B. $2$.
-C. $3$.
-D. $6$.
-::key B
-Hàm số đạt cực trị tại những điểm mà $f'(x)$ đổi dấu, tức là các nghiệm có bội lẻ:
-
-$$x=1\ (\text{bội } 1),\qquad x=-2\ (\text{bội } 3),\qquad x=0\ (\text{bội } 2 \text{, không đổi dấu}).$$
-
-Vậy hàm số có $2$ điểm cực trị. Phương án C đếm cả nghiệm kép $x=0$; phương án D cộng các số mũ $2+1+3$.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M385.2] Nhiều lựa chọn
-Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y=\dfrac{2x^2-3x+1}{x^2-1}$ là
-A. $1$.
-B. $2$.
-C. $3$.
-D. $4$.
-::key B
-Phân tích tử và mẫu thành nhân tử rồi rút gọn (với $x\neq1$):
-
-$$y=\dfrac{(2x-1)(x-1)}{(x-1)(x+1)}=\dfrac{2x-1}{x+1}.$$
-
-Khi $x\to1$ thì $y\to\dfrac12$ (hữu hạn) nên $x=1$ không phải tiệm cận đứng. Đồ thị có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=2$, tổng cộng $2$ đường. Phương án C quên kiểm tra giới hạn tại $x=1$, chỉ nhìn nghiệm của mẫu.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M385.3] Nhiều lựa chọn
-Cho hàm số $y=f(x)$ có bảng biến thiên như sau.
-
-| $x$ | $-\infty$ | | $-1$ | | $3$ | | $+\infty$ |
-|---|---|---|---|---|---|---|---|
-| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
-| $f(x)$ | $-\infty$ | $\nearrow$ | $2$ | $\searrow$ | $-4$ | $\nearrow$ | $+\infty$ |
-
-Số nghiệm thực của phương trình $2f(x)+5=0$ là
-A. $1$.
-B. $2$.
-C. $3$.
-D. $0$.
-::key C
-Đưa phương trình về dạng $f(x)=k$ rồi đếm giao điểm với đường thẳng $y=k$:
-
-$$2f(x)+5=0\iff f(x)=-\dfrac52.$$
-
-Vì $-4<-\dfrac52<2$, đường thẳng $y=-\dfrac52$ cắt đồ thị trên mỗi khoảng $(-\infty; -1)$, $(-1; 3)$, $(3; +\infty)$ tại đúng một điểm, nên phương trình có $3$ nghiệm. Phương án A chuyển vế sai dấu thành $f(x)=\dfrac52>2$.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M385.4] Nhiều lựa chọn
-Họ nguyên hàm của hàm số $f(x)=e^{2x}-\dfrac1x$ trên khoảng $(0; +\infty)$ là
-A. $2e^{2x}-\ln x+C$.
-B. $\dfrac12e^{2x}+\dfrac{1}{x^2}+C$.
-C. $\dfrac12e^{2x}-\ln x+C$.
-D. $\dfrac12e^{2x}+\ln x+C$.
-::key C
-Dùng bảng nguyên hàm $\displaystyle\int e^{ax}\,dx=\dfrac1a e^{ax}+C$ và $\displaystyle\int\dfrac1x\,dx=\ln|x|+C$, với $x>0$ thì $|x|=x$:
-
-$$\int\Big(e^{2x}-\dfrac1x\Big)dx=\dfrac12e^{2x}-\ln x+C.$$
-
-Phương án A lấy đạo hàm của $e^{2x}$ thay vì nguyên hàm; phương án B đạo hàm $\dfrac1x$; phương án D sai dấu.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M385.5] Nhiều lựa chọn
-Cho $\displaystyle\int_0^2 f(x)\,dx=3$ và $\displaystyle\int_0^5 f(x)\,dx=7$. Giá trị của $\displaystyle\int_2^5\big[2f(x)-1\big]\,dx$ bằng
-A. $8$.
-B. $5$.
-C. $7$.
-D. $11$.
-::key B
-Tách khoảng lấy tích phân, rồi dùng tính chất tuyến tính:
-
-$$\int_2^5 f(x)\,dx=7-3=4,\qquad \int_2^5\big[2f(x)-1\big]dx=2\cdot4-(5-2)=5.$$
-
-Phương án A quên số hạng $-1$; phương án C coi $\displaystyle\int_2^5 1\,dx=1$; phương án D dùng nhầm $\displaystyle\int_0^5$ thay cho $\displaystyle\int_2^5$: $2\cdot7-3$.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M385.6] Nhiều lựa chọn
-Trong không gian $Oxyz$, cho hai điểm $A(1; 2; -1)$ và $B(3; 0; 3)$. Mặt phẳng trung trực của đoạn thẳng $AB$ có phương trình là
-A. $x-y+2z+3=0$.
-B. $x-y+2z-9=0$.
-C. $2x+y+z-6=0$.
-D. $x-y+2z-3=0$.
+[M331.1] Nhiều lựa chọn
+Mẫu số liệu ghép nhóm có các nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ với tần số $2$, $3$, $5$. Số trung bình ước lượng bằng
+A. $15$.
+B. $20$.
+C. $180$.
+D. $18$.
 ::key D
-Mặt phẳng trung trực đi qua trung điểm $I$ của $AB$ và nhận $\overrightarrow{AB}$ làm vectơ pháp tuyến:
+$\bar{x}=\dfrac{2\cdot5+3\cdot15+5\cdot25}{10}=\dfrac{180}{10}=18$. Phương án A là trung bình cộng của ba giá trị đại diện (quên tần số), phương án C quên chia cho $n$.
 
-$$I(2; 1; 1),\qquad \overrightarrow{AB}=(2; -2; 4)=2(1; -1; 2).$$
-
-$$1(x-2)-1(y-1)+2(z-1)=0\iff x-y+2z-3=0.$$
-
-Phương án A đi qua $A$, phương án B đi qua $B$ thay vì trung điểm; phương án C lấy nhầm toạ độ của $I$ làm vectơ pháp tuyến.
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M385.7] Nhiều lựa chọn
-Trong không gian $Oxyz$, cho mặt cầu $(S)\colon x^2+y^2+z^2-4x+2y-6z-2=0$ và mặt phẳng $(P)\colon 2x-y+2z+1=0$. Khẳng định nào sau đây đúng?
-A. $(P)$ tiếp xúc với $(S)$.
-B. $(P)$ cắt $(S)$ theo một đường tròn.
-C. $(P)$ và $(S)$ không có điểm chung.
-D. $(P)$ đi qua tâm của $(S)$.
+[M331.2] Nhiều lựa chọn
+Một mẫu số liệu ghép nhóm cỡ $40$ có năm nhóm với tần số $15, 3, 3, 3, 16$. Nhóm chứa trung vị là nhóm thứ
+A. ba.
+B. một.
+C. năm.
+D. hai.
 ::key A
-Tìm tâm và bán kính của mặt cầu, rồi so sánh khoảng cách từ tâm đến mặt phẳng với bán kính:
-
-$$I(2; -1; 3),\qquad R=\sqrt{2^2+1^2+3^2+2}=4.$$
-
-$$d\big(I,(P)\big)=\dfrac{|2\cdot2-(-1)+2\cdot3+1|}{\sqrt{4+1+4}}=\dfrac{12}{3}=4=R.$$
-
-Vậy $(P)$ tiếp xúc với $(S)$. Phương án C xuất hiện khi quên số hạng $+2$ trong $R$ (được $R=\sqrt{14}<4$) hoặc quên chia cho $3$; phương án B xuất hiện khi lấy sai dấu tâm $I(-2; 1; -3)$.
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M385.8] Nhiều lựa chọn
-Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với mặt phẳng đáy và $SA=a\sqrt2$. Góc giữa đường thẳng $SC$ và mặt phẳng $(SAB)$ bằng
-A. $45^\circ$.
-B. $60^\circ$.
-C. $90^\circ$.
-D. $30^\circ$.
-::key D
-Ta tìm hình chiếu của $C$ lên $(SAB)$. Vì $BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, do đó hình chiếu của $SC$ lên $(SAB)$ là $SB$ và góc cần tìm là $\widehat{CSB}$:
-
-$$SB=\sqrt{SA^2+AB^2}=a\sqrt3,\qquad \tan\widehat{CSB}=\dfrac{BC}{SB}=\dfrac{a}{a\sqrt3}=\dfrac{1}{\sqrt3}.$$
-
-Vậy góc bằng $30^\circ$. Phương án A là góc giữa $SC$ và mặt đáy ($\tan=\dfrac{SA}{AC}=1$); phương án B là góc $\widehat{SCB}$, phần bù trong tam giác vuông $SBC$.
-
-Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
-
-[M385.9] Nhiều lựa chọn
-Thời gian tự học mỗi ngày của $40$ học sinh được cho trong bảng sau.
-
-| Thời gian (phút) | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
-|---|---|---|---|---|---|
-| Số học sinh | $5$ | $12$ | $15$ | $6$ | $2$ |
-
-Mốt của mẫu số liệu ghép nhóm trên là
-A. $22{,}5$.
-B. $25$.
-C. $27{,}5$.
-D. $22$.
-::key A
-Nhóm có tần số lớn nhất là $[20; 30)$, với $n_{m-1}=12$, $n_m=15$, $n_{m+1}=6$, độ dài nhóm $h=10$:
-
-$$M_o=20+\dfrac{15-12}{(15-12)+(15-6)}\cdot10=20+\dfrac{3}{12}\cdot10=22{,}5.$$
-
-Phương án B là giá trị đại diện của nhóm; phương án C đặt nhầm $15-6$ lên tử số; phương án D là số trung bình.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M385.10] Nhiều lựa chọn
-Chiều dài (cm) của $10$ chiếc lá được cho trong bảng sau.
-
-| Chiều dài (cm) | $[4; 6)$ | $[6; 8)$ | $[8; 10)$ |
-|---|---|---|---|
-| Số lá | $3$ | $5$ | $2$ |
-
-Độ lệch chuẩn của mẫu số liệu ghép nhóm trên là
-A. $1{,}96$.
-B. $6$.
-C. $1{,}4$.
-D. $2$.
-::key C
-Dùng các giá trị đại diện $5$, $7$, $9$:
-
-$$\bar x=\dfrac{3\cdot5+5\cdot7+2\cdot9}{10}=6{,}8,\qquad s^2=\dfrac{3\cdot25+5\cdot49+2\cdot81}{10}-6{,}8^2=48{,}2-46{,}24=1{,}96.$$
-
-Vậy $s=\sqrt{1{,}96}=1{,}4$. Phương án A là phương sai (quên lấy căn); phương án B là khoảng biến thiên $10-4$; phương án D là độ dài một nhóm.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M385.11] Nhiều lựa chọn
-Cho hai biến cố $A$, $B$ với $P(A)=0{,}5$, $P(B)=0{,}4$ và $P(A\cap B)=0{,}12$. Giá trị của $P(A\mid B)$ bằng
-A. $0{,}24$.
-B. $0{,}2$.
-C. $0{,}12$.
-D. $0{,}3$.
-::key D
-Theo định nghĩa xác suất có điều kiện, chia cho xác suất của biến cố đã biết là $B$:
-
-$$P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}=\dfrac{0{,}12}{0{,}4}=0{,}3.$$
-
-Phương án A chia cho $P(A)$, tức là tính $P(B\mid A)$; phương án B là tích $P(A)\cdot P(B)$, chỉ đúng khi hai biến cố độc lập; phương án C là $P(A\cap B)$.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M385.12] Nhiều lựa chọn
-Tập nghiệm của bất phương trình $\log_{\frac12}(x-1)\ge-2$ là
-A. $(1; 5]$.
-B. $[5; +\infty)$.
-C. $(-\infty; 5]$.
-D. $\Big(1; \dfrac54\Big]$.
-::key A
-Điều kiện $x>1$. Cơ số $\dfrac12<1$ nên khi bỏ lôgarit ta đổi chiều bất phương trình:
-
-$$\log_{\frac12}(x-1)\ge-2\iff x-1\le\Big(\dfrac12\Big)^{-2}=4\iff x\le5.$$
-
-Kết hợp điều kiện được $S=(1; 5]$. Phương án B quên đổi chiều; phương án C quên điều kiện; phương án D tính nhầm $\Big(\dfrac12\Big)^{-2}=\dfrac14$.
-
-Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
-
-[M385.13] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Cho hàm số $f(x)=\dfrac{x^2-3x+6}{x-1}$.
-a) Đạo hàm của hàm số là $f'(x)=\dfrac{x^2-2x-3}{(x-1)^2}$ với mọi $x\neq1$.
-b) Hàm số nghịch biến trên khoảng $(-1; 3)$.
-c) Đồ thị hàm số có tiệm cận xiên là đường thẳng $y=x-2$.
-d) Khoảng cách giữa hai điểm cực trị của đồ thị hàm số bằng $4\sqrt5$.
-::key Đ S Đ Đ
-a) Đúng: $f'(x)=\dfrac{(2x-3)(x-1)-(x^2-3x+6)}{(x-1)^2}=\dfrac{x^2-2x-3}{(x-1)^2}$.
-
-b) Sai: $f'(x)=\dfrac{(x+1)(x-3)}{(x-1)^2}<0$ trên $(-1; 1)$ và $(1; 3)$, nhưng hàm số không xác định tại $x=1$, nên không nói nghịch biến trên cả khoảng $(-1; 3)$ (chẳng hạn $f(0)=-6<f(2)=4$).
-
-c) Đúng: chia đa thức được $f(x)=x-2+\dfrac{4}{x-1}$ và $\dfrac{4}{x-1}\to0$ khi $x\to\pm\infty$.
-
-d) Đúng: hai điểm cực trị là $(-1; -5)$ và $(3; 3)$, khoảng cách bằng $\sqrt{4^2+8^2}=\sqrt{80}=4\sqrt5$.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M385.14] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một bể chứa đang có $200$ lít nước. Từ thời điểm $t=0$, người ta mở vòi cho nước chảy vào bể với tốc độ $v(t)=16+6t-t^2$ (lít/phút), $0\le t\le8$, $t$ tính bằng phút.
-a) Tại thời điểm $t=2$, tốc độ nước chảy vào bể là $24$ lít/phút.
-b) Tốc độ nước chảy vào bể tăng trên cả đoạn $[0; 8]$.
-c) Sau $8$ phút, lượng nước trong bể xấp xỉ $349{,}3$ lít.
-d) Lượng nước trong bể đạt $300$ lít trước thời điểm $t=4$.
-::key Đ S Đ S
-a) Đúng: $v(2)=16+12-4=24$.
-
-b) Sai: $v'(t)=6-2t$ đổi dấu tại $t=3$, nên tốc độ tăng trên $[0; 3]$ và giảm trên $[3; 8]$ (tốc độ lớn nhất $v(3)=25$).
-
-c) Đúng: lượng nước sau $t$ phút là $W(t)=200+\displaystyle\int_0^t v(s)\,ds=200+16t+3t^2-\dfrac{t^3}{3}$, nên $W(8)=200+128+192-\dfrac{512}{3}=\dfrac{1048}{3}\approx349{,}3$ lít.
-
-d) Sai: $W(4)=200+64+48-\dfrac{64}{3}\approx290{,}7<300$; vì $v(t)>0$ nên $W$ tăng, do đó bể chỉ đạt $300$ lít sau thời điểm $t=4$.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M385.15] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Trong không gian $Oxyz$ (đơn vị trên mỗi trục là mét), một drone bay thẳng đều từ điểm $M(1; 2; 3)$ theo hướng của vectơ $\vec u=(2; -1; 2)$ với tốc độ $3$ m/s. Mặt phẳng $(Oxy)$ là mặt đất. Trạm điều khiển đặt tại điểm $K(7; 2; 6)$.
-a) Vị trí của drone sau $t$ giây là điểm $(1+2t; 2-t; 3+2t)$.
-b) Sau $2$ giây, drone ở điểm $(5; 0; 7)$.
-c) Góc giữa đường bay của drone và mặt đất lớn hơn $45^\circ$.
-d) Khoảng cách nhỏ nhất giữa drone và trạm điều khiển bằng $3$ m.
-::key Đ Đ S Đ
-a) Đúng: $|\vec u|=\sqrt{4+1+4}=3$ đúng bằng tốc độ, nên mỗi giây drone dịch chuyển đúng một vectơ $\vec u$.
-
-b) Đúng: thay $t=2$ được $(5; 0; 7)$.
-
-c) Sai: mặt đất có vectơ pháp tuyến $\vec k=(0; 0; 1)$, nên $\sin\varphi=\dfrac{|\vec u\cdot\vec k|}{|\vec u|\cdot|\vec k|}=\dfrac23$, $\varphi\approx41{,}8^\circ<45^\circ$.
-
-d) Đúng: với $P(t)=(1+2t; 2-t; 3+2t)$, $\overrightarrow{KP}=(2t-6; -t; 2t-3)$ và $KP^2=9t^2-36t+45=9(t-2)^2+9\ge9$, nhỏ nhất khi $t=2$, nên khoảng cách nhỏ nhất là $3$ m.
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M385.16] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một nhà máy có hai dây chuyền. Dây chuyền I làm ra $60\%$ số sản phẩm với tỉ lệ lỗi $3\%$; dây chuyền II làm ra $40\%$ số sản phẩm với tỉ lệ lỗi $5\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy.
-a) Xác suất sản phẩm được chọn bị lỗi là $0{,}038$.
-b) Biết sản phẩm được chọn bị lỗi, xác suất nó do dây chuyền I làm ra lớn hơn $0{,}5$.
-c) Biết sản phẩm được chọn không bị lỗi, xác suất nó do dây chuyền II làm ra lớn hơn $0{,}4$.
-d) Chọn ngẫu nhiên và độc lập hai sản phẩm, xác suất có ít nhất một sản phẩm bị lỗi nhỏ hơn $0{,}08$.
-::key Đ S S Đ
-Gọi $L$ là biến cố "sản phẩm bị lỗi", $D_1$, $D_2$ là "do dây chuyền I, II làm ra".
-
-a) Đúng: theo công thức xác suất toàn phần, $P(L)=0{,}6\cdot0{,}03+0{,}4\cdot0{,}05=0{,}018+0{,}02=0{,}038$.
-
-b) Sai: theo công thức Bayes, $P(D_1\mid L)=\dfrac{0{,}018}{0{,}038}=\dfrac{9}{19}\approx0{,}474<0{,}5$. Dây chuyền I làm nhiều sản phẩm hơn nhưng tỉ lệ lỗi thấp hơn.
-
-c) Sai: $P(D_2\mid\overline L)=\dfrac{0{,}4\cdot0{,}95}{1-0{,}038}=\dfrac{0{,}38}{0{,}962}\approx0{,}395<0{,}4$.
-
-d) Đúng: dùng biến cố đối, $1-0{,}962^2\approx0{,}0746<0{,}08$.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M385.17] Trả lời ngắn
-Một xưởng làm vỏ lon hình trụ có nắp, thể tích $1000\ \text{cm}^3$. Giá vật liệu làm hai đáy gấp đôi giá vật liệu làm mặt xung quanh (tính theo mỗi $\text{cm}^2$). Để chi phí vật liệu nhỏ nhất thì bán kính đáy của lon bằng bao nhiêu centimét (làm tròn kết quả đến hàng phần mười)?
-::key 4,3
-Gọi bán kính đáy là $r$, chiều cao $h=\dfrac{1000}{\pi r^2}$. Lấy giá mặt xung quanh là $1$ đơn vị mỗi $\text{cm}^2$, chi phí tỉ lệ với
-
-$$C(r)=2\cdot2\pi r^2+2\pi rh=4\pi r^2+\dfrac{2000}{r},\qquad r>0.$$
-
-$$C'(r)=8\pi r-\dfrac{2000}{r^2}=0\iff r^3=\dfrac{250}{\pi}\iff r=\sqrt[3]{\dfrac{250}{\pi}}\approx4{,}30.$$
-
-$C'(r)$ đổi dấu từ âm sang dương tại đó nên chi phí nhỏ nhất khi $r\approx4{,}3$ cm.
-
-Ôn lại: [Ôn tập: bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
-
-[M385.18] Trả lời ngắn
-Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $2$, $SA$ vuông góc với mặt phẳng đáy và $SA=2$. Tính khoảng cách giữa hai đường thẳng chéo nhau $BD$ và $SC$ (làm tròn kết quả đến hàng phần trăm).
-::key 0,82
-Dựng đoạn vuông góc chung. Gọi $O$ là tâm hình vuông. Vì $BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$. Trong $(SAC)$ kẻ $OH\perp SC$ tại $H$; khi đó $OH\perp BD$, nên $OH$ là đoạn vuông góc chung và $d(BD, SC)=OH$.
-
-$$AC=2\sqrt2,\qquad SC=\sqrt{SA^2+AC^2}=2\sqrt3,\qquad OC=\sqrt2.$$
-
-Hai tam giác vuông $CHO$ và $CAS$ có chung góc $C$ nên đồng dạng:
-
-$$OH=\dfrac{OC\cdot SA}{SC}=\dfrac{\sqrt2\cdot2}{2\sqrt3}=\dfrac{\sqrt6}{3}\approx0{,}816.$$
-
-Vậy khoảng cách xấp xỉ $0{,}82$.
-
-Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
-
-[M385.19] Trả lời ngắn
-Trong không gian $Oxyz$ (đơn vị: mét), mặt đất là mặt phẳng $(Oxy)$. Một đường trượt zipline là đoạn dây cáp căng thẳng từ điểm $A(0; 0; 20)$ trên một tháp đến điểm $B(40; 30; 5)$ trên một cột thấp hơn. Tính góc giữa dây cáp và mặt đất (đơn vị: độ, làm tròn kết quả đến hàng phần mười).
-::key 16,7
-Góc $\varphi$ giữa đường thẳng $AB$ và mặt phẳng $(Oxy)$ có vectơ pháp tuyến $\vec k=(0; 0; 1)$:
-
-$$\overrightarrow{AB}=(40; 30; -15),\qquad AB=\sqrt{1600+900+225}=5\sqrt{109}\approx52{,}2.$$
-
-$$\sin\varphi=\dfrac{|-15|}{5\sqrt{109}}\approx0{,}2873\ \Rightarrow\ \varphi\approx16{,}7^\circ.$$
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M385.20] Trả lời ngắn
-Một hộp có $5$ viên bi đỏ và $4$ viên bi xanh. Lấy ngẫu nhiên đồng thời $2$ viên bi. Biết rằng trong hai viên lấy ra có ít nhất một viên màu đỏ, tính xác suất cả hai viên đều màu đỏ (làm tròn kết quả đến hàng phần trăm).
-::key 0,33
-Gọi $A$ là "hai viên đều đỏ", $B$ là "có ít nhất một viên đỏ"; vì $A\subset B$ nên $A\cap B=A$:
-
-$$P(A)=\dfrac{C_5^2}{C_9^2}=\dfrac{10}{36},\qquad P(B)=1-\dfrac{C_4^2}{C_9^2}=1-\dfrac{6}{36}=\dfrac{30}{36}.$$
-
-$$P(A\mid B)=\dfrac{10}{30}=\dfrac13\approx0{,}33.$$
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M385.21] Trả lời ngắn
-Trong một mặt phẳng toạ độ (đơn vị trên mỗi trục là mét), một bồn hoa có dạng hình phẳng giới hạn bởi parabol $y=\dfrac{x^2}{2}$ và đường thẳng $y=x+4$. Chi phí trồng hoa là $250\,000$ đồng cho mỗi mét vuông. Tính chi phí trồng hoa cho cả bồn (đơn vị: triệu đồng).
-::key 4,5
-Hoành độ giao điểm là nghiệm của $\dfrac{x^2}{2}=x+4\iff x^2-2x-8=0\iff x=-2$ hoặc $x=4$. Trên $[-2; 4]$ đường thẳng nằm trên parabol, nên diện tích là
-
-$$S=\int_{-2}^{4}\Big(x+4-\dfrac{x^2}{2}\Big)dx=\Big[\dfrac{x^2}{2}+4x-\dfrac{x^3}{6}\Big]_{-2}^{4}=\dfrac{40}{3}-\Big(-\dfrac{14}{3}\Big)=18\ (\text{m}^2).$$
-
-Chi phí là $18\cdot250\,000=4\,500\,000$ đồng, tức $4{,}5$ triệu đồng.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M385.22] Trả lời ngắn
-Một cốc nước nóng được để trong phòng có nhiệt độ $25^\circ\text{C}$. Nhiệt độ của nước sau $t$ phút là $T(t)=25+70e^{-kt}$ ($^\circ$C), với $k>0$ là hằng số. Sau $10$ phút nhiệt độ của nước là $60^\circ\text{C}$. Sau bao nhiêu phút kể từ lúc bắt đầu thì nhiệt độ của nước còn $35^\circ\text{C}$ (làm tròn kết quả đến hàng phần mười)?
-::key 28,1
-Từ $T(10)=60$ ta tìm $k$:
-
-$$25+70e^{-10k}=60\iff e^{-10k}=\dfrac12\iff k=\dfrac{\ln2}{10}.$$
-
-Giải $T(t)=35$:
-
-$$70e^{-kt}=10\iff e^{-kt}=\dfrac17\iff t=\dfrac{\ln7}{k}=\dfrac{10\ln7}{\ln2}\approx28{,}07.$$
-
-Vậy sau khoảng $28{,}1$ phút.
-
-Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
-
-### M386 · Lớp 12 · Đề luyện thi tốt nghiệp số 4
-
-[M386.1] Nhiều lựa chọn
-Cho hàm số $y=\ln(x^2+1)-x$. Khẳng định nào sau đây đúng?
-A. Hàm số đạt cực đại tại $x=1$.
-B. Hàm số có hai điểm cực trị.
-C. Hàm số nghịch biến trên $\mathbb{R}$.
-D. Hàm số đồng biến trên khoảng $(1; +\infty)$.
-::key C
-Tính đạo hàm và quy đồng:
-
-$$y'=\dfrac{2x}{x^2+1}-1=\dfrac{2x-x^2-1}{x^2+1}=-\dfrac{(x-1)^2}{x^2+1}\le0\quad\text{với mọi } x.$$
-
-$y'=0$ chỉ tại $x=1$ và $y'$ không đổi dấu qua điểm này, nên hàm số nghịch biến trên $\mathbb{R}$ và không có cực trị. Phương án A cho rằng mọi nghiệm của $y'=0$ đều là điểm cực trị.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M386.2] Nhiều lựa chọn
-Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y=\dfrac{x+1}{\sqrt{x^2-4}}$ là
-A. $1$.
-B. $2$.
-C. $3$.
-D. $4$.
-::key D
-Tập xác định là $(-\infty; -2)\cup(2; +\infty)$. Khi tính giới hạn ở vô cực, chú ý $\sqrt{x^2}=|x|$:
-
-$$\lim_{x\to+\infty}y=\lim_{x\to+\infty}\dfrac{1+\frac1x}{\sqrt{1-\frac{4}{x^2}}}=1,\qquad \lim_{x\to-\infty}y=\lim_{x\to-\infty}\dfrac{1+\frac1x}{-\sqrt{1-\frac{4}{x^2}}}=-1.$$
-
-Ngoài ra $\displaystyle\lim_{x\to2^+}y=+\infty$ và $\displaystyle\lim_{x\to-2^-}y=-\infty$ (tử số lần lượt dần tới $3$ và $-1$, khác $0$). Vậy có $2$ tiệm cận ngang $y=\pm1$ và $2$ tiệm cận đứng $x=\pm2$, tổng cộng $4$. Phương án C bỏ sót $y=-1$ do viết $\sqrt{x^2}=x$.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M386.3] Nhiều lựa chọn
-Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ và có bảng xét dấu đạo hàm như sau.
-
-| $x$ | $-\infty$ | | $-2$ | | $1$ | | $3$ | | $+\infty$ |
-|---|---|---|---|---|---|---|---|---|---|
-| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $-$ | $0$ | $+$ | |
-
-Khẳng định nào sau đây đúng?
-A. Hàm số đạt cực tiểu tại $x=1$.
-B. Hàm số có ba điểm cực trị.
-C. Hàm số nghịch biến trên khoảng $(-2; 3)$.
-D. $f(1)<f(3)$.
-::key C
-Trên $(-2; 3)$ ta có $f'(x)<0$, chỉ bằng $0$ tại một điểm $x=1$, nên $f$ nghịch biến trên $(-2; 3)$. Tại $x=1$ đạo hàm không đổi dấu nên đó không phải điểm cực trị: hàm số chỉ có hai điểm cực trị $x=-2$ và $x=3$. Vì $f$ nghịch biến trên $[-2; 3]$ nên $f(1)>f(3)$. Phương án A và B coi $x=1$ là điểm cực trị chỉ vì $f'(1)=0$.
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M386.4] Nhiều lựa chọn
-Biết $F(x)$ là một nguyên hàm của hàm số $f(x)=2x+\sin x$ và $F(0)=3$. Khi đó $F(x)$ là
-A. $x^2-\cos x+3$.
-B. $x^2+\cos x+2$.
-C. $x^2-\cos x+4$.
-D. $x^2-\cos x+2$.
-::key C
-Họ nguyên hàm là $F(x)=x^2-\cos x+C$. Dùng điều kiện $F(0)=3$, nhớ rằng $\cos0=1$:
-
-$$0-1+C=3\iff C=4.$$
-
-Vậy $F(x)=x^2-\cos x+4$. Phương án A quên $\cos0=1$; phương án B nhầm nguyên hàm của $\sin x$ là $\cos x$; phương án D chuyển vế sai dấu, được $C=3-1=2$.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M386.5] Nhiều lựa chọn
-Giá trị của tích phân $\displaystyle\int_0^{\ln2}\big(e^x+1\big)^2\,dx$ bằng
-A. $5+\ln2$.
-B. $\dfrac{19}{3}$.
-C. $\dfrac32+\ln2$.
-D. $\dfrac72+\ln2$.
-::key D
-Khai triển bình phương rồi dùng bảng nguyên hàm:
-
-$$\int_0^{\ln2}\big(e^{2x}+2e^x+1\big)dx=\Big[\dfrac12e^{2x}+2e^x+x\Big]_0^{\ln2}=\big(2+4+\ln2\big)-\Big(\dfrac12+2\Big)=\dfrac72+\ln2.$$
-
-Phương án A quên hệ số $\dfrac12$ trong nguyên hàm của $e^{2x}$; phương án B coi $\dfrac{(e^x+1)^3}{3}$ là nguyên hàm; phương án C bỏ sót số hạng $2e^x$.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M386.6] Nhiều lựa chọn
-Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $M(3; 3; -1)$ lên mặt phẳng $(P)\colon x+2y-2z-2=0$ là điểm
-A. $H(2; 1; 1)$.
-B. $H(1; -1; 3)$.
-C. $H(4; 5; -3)$.
-D. $H(2; 1; -1)$.
-::key A
-Đường thẳng qua $M$ vuông góc với $(P)$ có vectơ chỉ phương $\vec n=(1; 2; -2)$, gồm các điểm $H(3+t; 3+2t; -1-2t)$. Thay vào phương trình $(P)$:
-
-$$(3+t)+2(3+2t)-2(-1-2t)-2=0\iff 9+9t=0\iff t=-1.$$
-
-Vậy $H(2; 1; 1)$. Phương án C lấy nhầm $t=1$; phương án B là điểm đối xứng của $M$ qua $(P)$ (ứng với $t=-2$).
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M386.7] Nhiều lựa chọn
-Trong không gian $Oxyz$, góc giữa đường thẳng $d\colon\begin{cases}x=1+t\\ y=2\\ z=-t\end{cases}$ và mặt phẳng $(P)\colon x+y-3=0$ bằng
-A. $60^\circ$.
-B. $30^\circ$.
-C. $45^\circ$.
-D. $90^\circ$.
+Tần số tích luỹ là $15, 18, 21, 24, 40$ và $\dfrac n2=20$, nên nhóm đầu tiên có $C_p\ge20$ là nhóm thứ ba. Phương án C là nhóm có tần số lớn nhất.
+
+[M331.3] Nhiều lựa chọn
+Bảng $[0; 10)$: $4$; $[10; 20)$: $10$; $[20; 30)$: $6$ có mốt ước lượng bằng
+A. $15$.
+B. $16$.
+C. $14$.
+D. $20$.
 ::key B
-Với $\vec u=(1; 0; -1)$ và $\vec n=(1; 1; 0)$, góc $\varphi$ giữa đường thẳng và mặt phẳng tính bằng sin:
+$M_o=10+\dfrac{10-4}{(10-4)+(10-6)}\cdot10=16$. Phương án A là giá trị đại diện, phương án C đổi vai hai nhóm kề, phương án D là đầu mút phải.
 
-$$\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}=\dfrac{1}{\sqrt2\cdot\sqrt2}=\dfrac12\ \Rightarrow\ \varphi=30^\circ.$$
+[M331.4] Nhiều lựa chọn
+Bảng cỡ $40$: $[0; 10)$: $5$; $[10; 20)$: $10$; $[20; 30)$: $15$; $[30; 40)$: $10$. Tứ phân vị thứ nhất $Q_1$ bằng
+A. $5$.
+B. $10$.
+C. $15$.
+D. $20$.
+::key C
+$\dfrac n4=10$, nhóm $[10; 20)$ ($C_1=5$, $m_2=10$): $Q_1=10+\dfrac{10-5}{10}\cdot10=15$. Phương án A là $C_1$, phương án B là $\dfrac n4$, phương án D là đầu mút phải của nhóm.
 
-Phương án A dùng công thức côsin như góc giữa hai đường thẳng.
+[M331.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Mẫu số liệu ghép nhóm cỡ $60$: $[0; 20)$ có $10$, $[20; 40)$ có $30$, $[40; 60)$ có $20$. Xét tính đúng sai của các mệnh đề sau:
+a) Số trung bình ước lượng bằng $30$.
+b) Nhóm chứa $Q_3$ là $[40; 60)$.
+c) Trung vị $M_e\approx33{,}3$.
+d) $Q_1=20$.
+::key S Đ Đ S
+Tần số tích luỹ là $10, 40, 60$. a) Sai: $\bar{x}=\dfrac{10\cdot10+30\cdot30+20\cdot50}{60}\approx33{,}3$; $30$ là trung bình cộng các giá trị đại diện. b) Đúng: $\dfrac{3n}{4}=45>40$. c) Đúng: $M_e=20+\dfrac{30-10}{30}\cdot20\approx33{,}3$. d) Sai: $Q_1=20+\dfrac{15-10}{30}\cdot20\approx23{,}3$.
 
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+[M331.6] Trả lời ngắn
+Mẫu số liệu ghép nhóm cỡ $10$ có các nhóm $[0; 5)$ và $[5; 10)$ với tần số $3$ và $7$. Số trung bình ước lượng bằng bao nhiêu?
+::key 6
+$\bar{x}=\dfrac{3\cdot2{,}5+7\cdot7{,}5}{10}=\dfrac{60}{10}=6$.
 
-[M386.8] Nhiều lựa chọn
-Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với mặt phẳng đáy và $SA=\dfrac{a\sqrt6}{2}$. Số đo của góc nhị diện $[S, BD, A]$ bằng
-A. $30^\circ$.
-B. $60^\circ$.
-C. khoảng $50{,}8^\circ$.
-D. khoảng $40{,}9^\circ$.
-::key B
-Gọi $O$ là tâm hình vuông. Vì $BD\perp AO$ và $BD\perp SA$ nên $BD\perp SO$; góc phẳng nhị diện là $\widehat{SOA}$:
+[M331.7] Trả lời ngắn
+Bảng cỡ $40$: $[0; 10)$: $5$; $[10; 20)$: $10$; $[20; 30)$: $15$; $[30; 40)$: $10$. Tứ phân vị thứ ba $Q_3$ bằng bao nhiêu?
+::key 30
+$\dfrac{3n}{4}=30$; tần số tích luỹ là $5, 15, 30, 40$ nên nhóm $[20; 30)$ ($C_2=15$, $m_3=15$): $Q_3=20+\dfrac{30-15}{15}\cdot10=30$.
 
-$$AO=\dfrac{a\sqrt2}{2},\qquad \tan\widehat{SOA}=\dfrac{SA}{AO}=\dfrac{a\sqrt6/2}{a\sqrt2/2}=\sqrt3\ \Rightarrow\ \widehat{SOA}=60^\circ.$$
+### M332 · Lớp 11 · Đường thẳng và mặt phẳng trong không gian
 
-Phương án A lấy nhầm $\dfrac{AO}{SA}$; phương án C dùng $\widehat{SBA}$ (góc nhị diện cạnh $BC$); phương án D dùng $AC$ thay cho $AO$.
+[M332.1] Nhiều lựa chọn
+Có bao nhiêu mặt phẳng đi qua ba điểm không thẳng hàng cho trước?
+A. Vô số.
+B. Hai.
+C. Một và chỉ một.
+D. Không có mặt phẳng nào.
+::key C
+Đây là tính chất thừa nhận thứ hai. Phương án A đúng với ba điểm thẳng hàng.
 
-Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
-
-[M386.9] Nhiều lựa chọn
-Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông cân tại $A$, $BC=2a$, góc giữa đường thẳng $A'B$ và mặt phẳng đáy bằng $60^\circ$. Thể tích của khối lăng trụ bằng
-A. $a^3\sqrt6$.
-B. $\dfrac{a^3\sqrt6}{3}$.
-C. $2a^3\sqrt6$.
-D. $\dfrac{a^3\sqrt3}{2}$.
-::key A
-Tam giác vuông cân có cạnh huyền $2a$ nên $AB=AC=a\sqrt2$. Hình chiếu của $A'B$ lên đáy là $AB$, nên góc $\widehat{A'BA}=60^\circ$:
-
-$$AA'=AB\tan60^\circ=a\sqrt6,\qquad V=\dfrac12\big(a\sqrt2\big)^2\cdot a\sqrt6=a^3\sqrt6.$$
-
-Phương án B dùng công thức thể tích khối chóp; phương án C quên hệ số $\dfrac12$ của diện tích tam giác; phương án D lấy nhầm $AB=a$.
-
-Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
-
-[M386.10] Nhiều lựa chọn
-Tuổi của $40$ người tham gia một câu lạc bộ dưỡng sinh được cho trong bảng sau.
-
-| Tuổi | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ |
-|---|---|---|---|---|---|
-| Số người | $6$ | $10$ | $14$ | $7$ | $3$ |
-
-Trung vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng phần trăm) là
-A. $62{,}86$.
-B. $64$.
-C. $65$.
-D. $60$.
-::key A
-Tần số tích luỹ là $6$, $16$, $30$, $37$, $40$; $\dfrac n2=20$ nằm trong nhóm $[60; 70)$, với tần số tích luỹ của nhóm trước là $16$:
-
-$$M_e=60+\dfrac{20-16}{14}\cdot10=60+\dfrac{20}{7}\approx62{,}86.$$
-
-Phương án C là giá trị đại diện của nhóm; phương án B chia nhầm cho tần số $10$ của nhóm trước; phương án D là đầu mút trái của nhóm.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M386.11] Nhiều lựa chọn
-Hộp I có $3$ bi trắng và $2$ bi đen; hộp II có $2$ bi trắng và $4$ bi đen. Tung một đồng xu cân đối: nếu được mặt sấp thì lấy ngẫu nhiên một viên bi từ hộp I, nếu được mặt ngửa thì lấy từ hộp II. Xác suất lấy được bi trắng là
-A. $\dfrac{5}{11}$.
-B. $\dfrac{7}{15}$.
-C. $\dfrac{1}{5}$.
-D. $\dfrac{14}{15}$.
-::key B
-Theo công thức xác suất toàn phần, chia theo hộp được chọn:
-
-$$P(T)=\dfrac12\cdot\dfrac35+\dfrac12\cdot\dfrac26=\dfrac{3}{10}+\dfrac16=\dfrac{7}{15}.$$
-
-Phương án A gộp hai hộp thành một ($5$ bi trắng trên $11$ bi); phương án C nhân hai xác suất $\dfrac35\cdot\dfrac13$; phương án D quên nhân với $\dfrac12$.
-
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
-
-[M386.12] Nhiều lựa chọn
-Độ cao mực nước (mét) tại một cảng biển sau $t$ giờ kể từ lúc $0$ giờ được mô tả bởi $h(t)=3+2\sin\dfrac{\pi t}{6}$, $0\le t\le24$. Trong một ngày, tổng thời gian mực nước không thấp hơn $4$ m là
-A. $4$ giờ.
-B. $12$ giờ.
-C. $16$ giờ.
-D. $8$ giờ.
+[M332.2] Nhiều lựa chọn
+Hình chóp có đáy là lục giác có bao nhiêu mặt?
+A. $6$.
+B. $12$.
+C. $8$.
+D. $7$.
 ::key D
-Đưa về bất phương trình lượng giác cơ bản:
+Hình chóp đáy lục giác có $6$ mặt bên và $1$ mặt đáy, tức $7$ mặt. Phương án A bỏ sót mặt đáy, phương án B là số cạnh.
 
-$$h(t)\ge4\iff\sin\dfrac{\pi t}{6}\ge\dfrac12\iff\dfrac{\pi}{6}+k2\pi\le\dfrac{\pi t}{6}\le\dfrac{5\pi}{6}+k2\pi\iff1+12k\le t\le5+12k.$$
+[M332.3] Nhiều lựa chọn
+Hai mặt phẳng phân biệt có một điểm chung. Khẳng định nào sau đây đúng?
+A. Hai mặt phẳng có một đường thẳng chung duy nhất đi qua điểm đó.
+B. Hai mặt phẳng không còn điểm chung nào khác.
+C. Hai mặt phẳng trùng nhau.
+D. Hai mặt phẳng có đúng ba điểm chung.
+::key A
+Theo tính chất thừa nhận thứ năm, hai mặt phẳng phân biệt có điểm chung thì cắt nhau theo một đường thẳng (giao tuyến).
 
-Với $0\le t\le24$ ta được $t\in[1; 5]\cup[13; 17]$, tổng cộng $8$ giờ. Phương án A chỉ xét một chu kì $12$ giờ; phương án C giải nhầm $\sin\dfrac{\pi t}{6}\ge-\dfrac12$ (tức là $h\ge2$).
+[M332.4] Nhiều lựa chọn
+Cách nào sau đây không luôn xác định duy nhất một mặt phẳng?
+A. Ba điểm không thẳng hàng.
+B. Ba điểm bất kì.
+C. Một đường thẳng và một điểm không thuộc nó.
+D. Hai đường thẳng cắt nhau.
+::key B
+Ba điểm thẳng hàng nằm trên vô số mặt phẳng, nên ba điểm bất kì chưa chắc xác định một mặt phẳng duy nhất. Các phương án A, C, D là ba cách xác định mặt phẳng.
 
-Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
-
-[M386.13] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Cho hàm số $f(x)=(x^2-3)e^x$.
-a) $f'(x)=(x^2+2x-3)e^x$ với mọi $x\in\mathbb{R}$.
-b) Hàm số đạt cực đại tại $x=1$.
-c) Giá trị nhỏ nhất của $f(x)$ trên đoạn $[0; 2]$ bằng $-2e$.
-d) Phương trình $f(x)=0{,}3$ có ba nghiệm phân biệt.
-::key Đ S Đ S
-a) Đúng: $f'(x)=2xe^x+(x^2-3)e^x=(x^2+2x-3)e^x=(x-1)(x+3)e^x$.
-
-b) Sai: $f'(x)$ đổi dấu từ $-$ sang $+$ tại $x=1$, nên $x=1$ là điểm cực tiểu; điểm cực đại là $x=-3$.
-
-c) Đúng: so sánh $f(0)=-3$, $f(1)=-2e\approx-5{,}44$, $f(2)=e^2$; nhỏ nhất là $-2e$.
-
-d) Sai: khi $x\to-\infty$ thì $f(x)\to0$ và $f(x)>0$ với $x<-\sqrt3$; $f$ đồng biến trên $(-\infty; -3)$ đến giá trị cực đại $f(-3)=6e^{-3}\approx0{,}2987<0{,}3$, rồi nghịch biến trên $(-3; 1)$ và đồng biến trên $(1; +\infty)$ từ $-2e$ đến $+\infty$. Vậy đường thẳng $y=0{,}3$ chỉ cắt đồ thị tại một điểm (trên $(1; +\infty)$).
-
-Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
-
-[M386.14] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Trên một đường thẳng, xe A chạy đều với vận tốc $16$ m/s. Tại thời điểm $t=0$, xe A đi ngang qua xe B đang đứng yên và xe B bắt đầu chạy cùng chiều với vận tốc $v_B(t)=2t$ (m/s) trong $12$ giây đầu, sau đó giữ nguyên vận tốc $24$ m/s.
-a) Trong $8$ giây đầu, xe B đi được $64$ m.
-b) Trước khi xe B đuổi kịp xe A, khoảng cách lớn nhất giữa hai xe là $64$ m.
-c) Xe B đuổi kịp xe A tại thời điểm $t=16$ giây.
-d) Khi xe B đuổi kịp xe A, mỗi xe đã đi được $288$ m kể từ thời điểm $t=0$.
-::key Đ Đ S Đ
-a) Đúng: $\displaystyle\int_0^8 2t\,dt=\Big[t^2\Big]_0^8=64$.
-
-b) Đúng: khi $0\le t\le12$, khoảng cách là $16t-t^2$, lớn nhất khi hai vận tốc bằng nhau ($2t=16$, $t=8$) và bằng $128-64=64$ m; khi $t>12$ xe B nhanh hơn nên khoảng cách giảm.
-
-c) Sai: giải $t^2=16t$ được $t=16$, nhưng công thức $v_B=2t$ chỉ đúng khi $t\le12$. Với $t>12$, quãng đường của B là $144+24(t-12)$, nên $144+24(t-12)=16t\iff t=18$.
-
-d) Đúng: $16\cdot18=288$ m và $144+24\cdot6=288$ m.
-
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
-
-[M386.15] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Trong không gian $Oxyz$ (đơn vị: mét), mặt sàn của một nhà kho là mặt phẳng $(Oxy)$. Một thiết bị phát sóng đặt tại $I(1; -2; 3)$ có vùng phủ sóng là khối cầu tâm $I$, bán kính $5$ m.
-a) Mặt cầu giới hạn vùng phủ sóng có phương trình $(x-1)^2+(y+2)^2+(z-3)^2=25$.
-b) Điểm $A(4; 2; 3)$ nằm ngoài vùng phủ sóng.
-c) Phần mặt sàn được phủ sóng là một hình tròn có bán kính $4$ m.
-d) Một robot chạy trên sàn dọc theo trục $Ox$. Quãng đường robot đi trong vùng phủ sóng dài $4\sqrt3$ m.
-::key Đ S Đ Đ
-a) Đúng: mặt cầu tâm $I(1; -2; 3)$, bán kính $5$.
-
-b) Sai: $IA=\sqrt{3^2+4^2+0^2}=5$, nên $A$ nằm trên mặt cầu, vẫn thuộc vùng phủ sóng.
-
-c) Đúng: khoảng cách từ $I$ đến mặt sàn là $3$, bán kính hình tròn là $\sqrt{5^2-3^2}=4$; tâm hình tròn là $(1; -2; 0)$.
-
-d) Đúng: trên trục $Ox$ có $y=0$, $z=0$: $(x-1)^2+4+9\le25\iff(x-1)^2\le12$, nên $x$ chạy trên đoạn dài $2\sqrt{12}=4\sqrt3\approx6{,}93$ m.
-
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
-
-[M386.16] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Trong hộp thư của một công ty, $30\%$ số thư là thư rác. Bộ lọc tự động đánh dấu $92\%$ số thư rác và đánh dấu nhầm $4\%$ số thư thường. Chọn ngẫu nhiên một thư.
-a) Xác suất thư được chọn bị đánh dấu là $0{,}276$.
-b) Biết thư bị đánh dấu, xác suất đó là thư rác lớn hơn $0{,}9$.
-c) Biết thư không bị đánh dấu, xác suất đó là thư rác lớn hơn $0{,}05$.
-d) Mỗi thư bị đánh dấu được đưa qua bộ lọc thứ hai có cùng tỉ lệ như trên và hoạt động độc lập với bộ lọc thứ nhất (với từng loại thư). Biết thư bị đánh dấu ở cả hai bộ lọc, xác suất đó là thư rác lớn hơn $0{,}99$.
+[M332.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp $S.ABCD$ có đáy là tứ giác lồi $ABCD$, hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Xét tính đúng sai của các mệnh đề sau:
+a) Điểm $O$ thuộc mặt phẳng $(SAB)$.
+b) Điểm $O$ thuộc mặt phẳng $(SBD)$.
+c) Giao tuyến của $(SAC)$ và $(SBD)$ là đường thẳng $AC$.
+d) Đường thẳng $BD$ cắt mặt phẳng $(SAC)$ tại $O$.
 ::key S Đ S Đ
-Gọi $R$ là "thư rác", $D$ là "thư bị đánh dấu".
+a) Sai: $O$ nằm trong tứ giác, không thuộc đường thẳng $AB$ nên không thuộc $(SAB)$. b) Đúng: $O\in BD\subset(SBD)$. c) Sai: giao tuyến là $SO$. d) Đúng: $O\in AC\subset(SAC)$ và $O\in BD$.
 
-a) Sai: $0{,}276=0{,}3\cdot0{,}92$ mới chỉ là phần thư rác bị đánh dấu. Theo công thức xác suất toàn phần, $P(D)=0{,}3\cdot0{,}92+0{,}7\cdot0{,}04=0{,}276+0{,}028=0{,}304$.
+[M332.6] Trả lời ngắn
+Một tứ diện đều có cạnh $6$ cm. Tổng độ dài tất cả các cạnh của nó là bao nhiêu xentimét?
+::key 36
+Tứ diện có $6$ cạnh, mỗi cạnh dài $6$ cm nên tổng là $6\cdot6=36$ cm.
 
-b) Đúng: $P(R\mid D)=\dfrac{0{,}276}{0{,}304}\approx0{,}908>0{,}9$.
+[M332.7] Trả lời ngắn
+Cho bảy điểm trong không gian, không có ba điểm nào thẳng hàng và không có bốn điểm nào đồng phẳng. Có bao nhiêu mặt phẳng đi qua ba trong bảy điểm đó?
+::key 35
+Số cách chọn ba điểm trong bảy điểm là $\dbinom{7}{3}=35$, và các mặt phẳng này đôi một khác nhau.
 
-c) Sai: $P(R\mid\overline D)=\dfrac{0{,}3\cdot0{,}08}{1-0{,}304}=\dfrac{0{,}024}{0{,}696}\approx0{,}034<0{,}05$.
+### M333 · Lớp 11 · Hai đường thẳng song song
 
-d) Đúng: xác suất bị đánh dấu cả hai lần là $0{,}3\cdot0{,}92^2=0{,}25392$ với thư rác và $0{,}7\cdot0{,}04^2=0{,}00112$ với thư thường, nên xác suất cần tìm là $\dfrac{0{,}25392}{0{,}25392+0{,}00112}\approx0{,}9956>0{,}99$.
+[M333.1] Nhiều lựa chọn
+Hai đường thẳng $a$, $b$ trong không gian không có điểm chung. Khẳng định nào sau đây đúng?
+A. $a$ và $b$ song song.
+B. $a$ và $b$ chéo nhau.
+C. $a$ và $b$ trùng nhau.
+D. $a$ và $b$ song song hoặc chéo nhau.
+::key D
+Hai đường thẳng không có điểm chung là song song nếu đồng phẳng, và chéo nhau nếu không đồng phẳng. Phương án A và B chỉ đúng một trong hai trường hợp.
 
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
+[M333.2] Nhiều lựa chọn
+Trong hình lập phương $ABCD.A'B'C'D'$, cặp đường thẳng nào sau đây chéo nhau?
+A. $AB$ và $CC'$.
+B. $AB$ và $AD$.
+C. $AB$ và $CD$.
+D. $AB$ và $A'B'$.
+::key A
+$AB$ và $CC'$ không đồng phẳng và không có điểm chung. Phương án C và D song song, phương án B cắt nhau tại $A$.
 
-[M386.17] Trả lời ngắn
-Một khung cửa sổ gồm một hình chữ nhật và một nửa hình tròn ghép phía trên, đường kính nửa hình tròn bằng chiều rộng hình chữ nhật. Chu vi của cả khung (gồm đáy, hai cạnh bên và cung tròn) bằng $6$ m. Diện tích lớn nhất của cửa sổ là bao nhiêu mét vuông (làm tròn kết quả đến hàng phần trăm)?
-::key 2,52
-Gọi bán kính nửa hình tròn là $r$, chiều cao phần chữ nhật là $h$. Từ chu vi:
+[M333.3] Nhiều lựa chọn
+Ba mặt phẳng phân biệt đôi một cắt nhau theo ba giao tuyến phân biệt. Khẳng định nào sau đây đúng?
+A. Ba giao tuyến luôn đồng quy.
+B. Ba giao tuyến đồng quy hoặc đôi một song song.
+C. Ba giao tuyến luôn đôi một song song.
+D. Ba giao tuyến luôn chéo nhau.
+::key B
+Đây là định lí về ba giao tuyến.
 
-$$2r+2h+\pi r=6\iff h=\dfrac{6-(2+\pi)r}{2}.$$
+[M333.4] Nhiều lựa chọn
+Cho tứ diện $ABCD$; $M$, $N$ là trung điểm của $AB$, $AC$. Đường thẳng $MN$ song song với đường thẳng nào sau đây?
+A. $BD$.
+B. $CD$.
+C. $BC$.
+D. $AD$.
+::key C
+$MN$ là đường trung bình của tam giác $ABC$ nên $MN\parallel BC$.
 
-$$S(r)=2rh+\dfrac{\pi r^2}{2}=6r-\Big(2+\dfrac{\pi}{2}\Big)r^2,\qquad S'(r)=6-(4+\pi)r=0\iff r=\dfrac{6}{4+\pi}.$$
+[M333.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
+a) Giao tuyến của $(SAB)$ và $(SCD)$ song song với $AB$.
+b) Giao tuyến của $(SAD)$ và $(SBC)$ cắt đường thẳng $AD$ tại một điểm.
+c) $AB$ và $SC$ chéo nhau.
+d) $SB$ và $AD$ chéo nhau.
+::key Đ S Đ Đ
+a) Đúng: $AB\parallel CD$ nên giao tuyến đi qua $S$ và song song với $AB$. b) Sai: giao tuyến song song với $AD$ nên không cắt $AD$. c) Đúng: $AB$ và $SC$ không đồng phẳng. d) Đúng: $SB$ và $AD$ không đồng phẳng và không có điểm chung.
 
-$S$ là hàm bậc hai có hệ số $r^2$ âm, nên đạt lớn nhất tại đó (khi đó $h=r>0$): $S_{\max}=3r=\dfrac{18}{4+\pi}\approx2{,}52$ m$^2$.
+[M333.6] Trả lời ngắn
+Trong hình hộp chữ nhật, mỗi cạnh chéo nhau với bao nhiêu cạnh khác?
+::key 4
+Mỗi cạnh chéo nhau với $4$ cạnh (ví dụ $AB$ chéo nhau với $CC'$, $DD'$, $B'C'$, $A'D'$).
 
-Ôn lại: [Ôn tập: bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
+[M333.7] Trả lời ngắn
+Tứ diện $ABCD$ có bao nhiêu cặp cạnh chéo nhau?
+::key 3
+Các cặp cạnh đối chéo nhau là $(AB, CD)$, $(AC, BD)$, $(AD, BC)$: $3$ cặp.
 
-[M386.18] Trả lời ngắn
-Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $4$ và chiều cao bằng $3$. Tính khoảng cách từ $A$ đến mặt phẳng $(SCD)$ (làm tròn kết quả đến hàng phần trăm).
-::key 3,33
-Gọi $O$ là tâm đáy, $M$ là trung điểm $CD$. Đường thẳng $AO$ cắt $(SCD)$ tại $C$ và $AC=2OC$, nên $d\big(A,(SCD)\big)=2\,d\big(O,(SCD)\big)$. Trong tam giác $SOM$ vuông tại $O$, khoảng cách từ $O$ là đường cao:
+### M334 · Lớp 11 · Đường thẳng và mặt phẳng song song
 
-$$OM=2,\qquad d\big(O,(SCD)\big)=\dfrac{SO\cdot OM}{\sqrt{SO^2+OM^2}}=\dfrac{3\cdot2}{\sqrt{13}}=\dfrac{6}{\sqrt{13}}.$$
+[M334.1] Nhiều lựa chọn
+Số điểm chung của một đường thẳng và một mặt phẳng không thể là
+A. $2$.
+B. $0$.
+C. $1$.
+D. vô số.
+::key A
+Nếu đường thẳng có hai điểm chung với mặt phẳng thì nó nằm trong mặt phẳng, nên có vô số điểm chung. Vậy số điểm chung là $0$, $1$ hoặc vô số, không thể là $2$.
 
-Vậy $d\big(A,(SCD)\big)=\dfrac{12}{\sqrt{13}}\approx3{,}33$.
+[M334.2] Nhiều lựa chọn
+Cho hai đường thẳng $a\parallel b$ với $b\subset(P)$ và $a\not\subset(P)$. Khi đó
+A. $a$ cắt $(P)$.
+B. $a\parallel(P)$.
+C. $a\subset(P)$.
+D. $a$ chéo nhau với $(P)$.
+::key B
+Đây là điều kiện để đường thẳng song song với mặt phẳng. Phương án C trái với giả thiết $a\not\subset(P)$.
 
-Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
+[M334.3] Nhiều lựa chọn
+Cho tứ diện $ABCD$; $M$, $N$ là trung điểm của $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?
+A. $(ABC)$.
+B. $(ABD)$.
+C. $(BCD)$.
+D. $(ACD)$.
+::key C
+$MN\parallel BC\subset(BCD)$ và $MN\not\subset(BCD)$. Phương án A chứa $MN$, các phương án B và D cắt $MN$ lần lượt tại $M$ và $N$.
 
-[M386.19] Trả lời ngắn
-Trong không gian $Oxyz$ (đơn vị: mét), hai drone bay thẳng đều cùng lúc. Sau $t$ giây, drone thứ nhất ở điểm $P(2t; t; 10)$ và drone thứ hai ở điểm $Q(20-t; 2t; 4+t)$. Khoảng cách nhỏ nhất giữa hai drone là bao nhiêu mét (làm tròn kết quả đến hàng phần trăm)?
-::key 6,32
-Bình phương khoảng cách là một tam thức bậc hai theo $t$:
+[M334.4] Nhiều lựa chọn
+Cho $d\parallel(P)$, mặt phẳng $(Q)$ chứa $d$ và cắt $(P)$ theo giao tuyến $a$. Khẳng định nào sau đây đúng?
+A. $a$ cắt $d$.
+B. $a$ và $d$ chéo nhau.
+C. $a$ trùng $d$.
+D. $a\parallel d$.
+::key D
+Đây là tính chất 1: $a$ và $d$ cùng nằm trong $(Q)$ và không có điểm chung nên song song.
 
-$$\overrightarrow{QP}=(3t-20; -t; 6-t),\qquad PQ^2=(3t-20)^2+t^2+(6-t)^2=11t^2-132t+436=11(t-6)^2+40.$$
+[M334.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
+a) $AD\parallel(SBC)$.
+b) $SA\parallel(ABCD)$.
+c) $BC\parallel(SAD)$.
+d) $AB\parallel(SAD)$.
+::key Đ S Đ S
+a) Đúng: $AD\parallel BC\subset(SBC)$. b) Sai: $SA$ cắt $(ABCD)$ tại $A$. c) Đúng: $BC\parallel AD\subset(SAD)$. d) Sai: $AB$ cắt $(SAD)$ tại $A$.
 
-$PQ^2$ nhỏ nhất bằng $40$ khi $t=6$, nên khoảng cách nhỏ nhất là $\sqrt{40}=2\sqrt{10}\approx6{,}32$ m.
+[M334.6] Trả lời ngắn
+Mỗi cạnh của hình lập phương song song với bao nhiêu mặt của nó?
+::key 2
+Cạnh $AB$ song song với hai mặt $(CDD'C')$ và $(A'B'C'D')$; nó nằm trong hai mặt và cắt hai mặt còn lại.
 
-Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+[M334.7] Trả lời ngắn
+Hình hộp $ABCD.A'B'C'D'$ có bao nhiêu cạnh song song với mặt phẳng $(ABCD)$?
+::key 4
+Đó là bốn cạnh của mặt trên $A'B'C'D'$; bốn cạnh đáy nằm trong $(ABCD)$ và bốn cạnh bên cắt $(ABCD)$.
 
-[M386.20] Trả lời ngắn
-Gieo hai con xúc xắc cân đối. Biết tổng số chấm xuất hiện không nhỏ hơn $9$, tính xác suất có ít nhất một con xúc xắc xuất hiện mặt $6$ chấm.
-::key 0,7
-Biến cố "tổng không nhỏ hơn $9$" gồm $10$ kết quả:
+### M335 · Lớp 11 · Hai mặt phẳng song song
 
-$$(3; 6), (6; 3), (4; 5), (5; 4), (4; 6), (6; 4), (5; 5), (5; 6), (6; 5), (6; 6).$$
+[M335.1] Nhiều lựa chọn
+Hai mặt phẳng phân biệt song song với nhau khi
+A. chúng có đúng một điểm chung.
+B. chúng có một đường thẳng chung.
+C. chúng có hai điểm chung.
+D. chúng không có điểm chung.
+::key D
+Đây là định nghĩa. Phương án B là hai mặt phẳng cắt nhau.
 
-Trong đó có $7$ kết quả có mặt $6$ chấm (chỉ trừ $(4; 5)$, $(5; 4)$, $(5; 5)$). Vậy xác suất cần tìm là $\dfrac{7}{10}=0{,}7$.
+[M335.2] Nhiều lựa chọn
+Qua một điểm nằm ngoài mặt phẳng $(P)$ có bao nhiêu mặt phẳng song song với $(P)$?
+A. Đúng một.
+B. Hai.
+C. Vô số.
+D. Không có.
+::key A
+Đây là tính chất thứ nhất của hai mặt phẳng song song.
 
-Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
+[M335.3] Nhiều lựa chọn
+Ba mặt phẳng song song chắn trên cát tuyến $d$ các đoạn $AB=3$, $BC=6$ và chắn trên cát tuyến $d'$ đoạn $A'B'=4$. Khi đó $B'C'$ bằng
+A. $2$.
+B. $8$.
+C. $12$.
+D. $4{,}5$.
+::key B
+$\dfrac{AB}{BC}=\dfrac{A'B'}{B'C'}$ nên $B'C'=\dfrac{4\cdot6}{3}=8$. Phương án A viết ngược tỉ số.
 
-[M386.21] Trả lời ngắn
-Một chi tiết máy có dạng khối tròn xoay, tạo thành khi quay hình phẳng giới hạn bởi các đường $y=1+\sqrt x$, $y=0$, $x=0$, $x=4$ quanh trục $Ox$ (đơn vị trên mỗi trục là decimét). Tính thể tích của chi tiết máy (đơn vị: $\text{dm}^3$, làm tròn kết quả đến hàng phần mười).
-::key 71,2
-Khai triển bình phương để dùng bảng nguyên hàm:
+[M335.4] Nhiều lựa chọn
+Hình lăng trụ có đáy là ngũ giác có bao nhiêu mặt?
+A. $5$.
+B. $10$.
+C. $7$.
+D. $15$.
+::key C
+Lăng trụ đáy $n$-giác có $n+2=7$ mặt. Phương án B là số đỉnh, phương án D là số cạnh.
 
-$$V=\pi\int_0^4\big(1+\sqrt x\big)^2dx=\pi\int_0^4\big(1+2\sqrt x+x\big)dx=\pi\Big[x+\dfrac43x^{\frac32}+\dfrac{x^2}{2}\Big]_0^4=\pi\Big(4+\dfrac{32}{3}+8\Big)=\dfrac{68\pi}{3}.$$
+[M335.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Xét tính đúng sai của các mệnh đề sau:
+a) $(ABCD)\parallel(A'B'C'D')$.
+b) Mỗi mặt của hình hộp cắt đúng $4$ mặt khác.
+c) Hình hộp có $8$ cạnh.
+d) $AA'\parallel(CDD'C')$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: mỗi mặt song song với một mặt và cắt $4$ mặt còn lại. c) Sai: hình hộp có $12$ cạnh. d) Đúng: $AA'\parallel DD'\subset(CDD'C')$.
 
-Vậy $V\approx71{,}2\ \text{dm}^3$.
+[M335.6] Trả lời ngắn
+Hình lăng trụ có đáy $8$ cạnh có bao nhiêu cạnh?
+::key 24
+Lăng trụ đáy $n$-giác có $3n$ cạnh, với $n=8$ là $24$.
 
-Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
+[M335.7] Trả lời ngắn
+Ba mặt phẳng song song chắn trên cát tuyến $d$ các đoạn $AB=4$, $AC=10$ và trên cát tuyến $d'$ đoạn $A'B'=6$. Tính $A'C'$.
+::key 15
+$\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ nên $A'C'=\dfrac{6\cdot10}{4}=15$.
 
-[M386.22] Trả lời ngắn
-Đầu mỗi tháng, chị Lan gửi vào tài khoản tiết kiệm $5$ triệu đồng. Lãi suất $0{,}5\%$ mỗi tháng, tiền lãi cuối mỗi tháng được nhập vào gốc. Hỏi sau ít nhất bao nhiêu tháng (tính cả lãi của tháng cuối) thì số tiền trong tài khoản đạt từ $100$ triệu đồng trở lên?
-::key 20
-Sau $n$ tháng, số tiền là tổng của một cấp số nhân với công bội $q=1{,}005$:
+### M336 · Lớp 11 · Phép chiếu song song
 
-$$S_n=5\cdot1{,}005\cdot\dfrac{1{,}005^n-1}{0{,}005}=1005\big(1{,}005^n-1\big).$$
+[M336.1] Nhiều lựa chọn
+Phép chiếu song song biến ba điểm thẳng hàng thành
+A. ba điểm trùng nhau.
+B. ba điểm không thẳng hàng.
+C. ba điểm thẳng hàng giữ nguyên thứ tự.
+D. hai điểm.
+::key C
+Tính thẳng hàng và thứ tự của các điểm được bảo toàn (tính chất 3).
 
-$$S_n\ge100\iff1{,}005^n\ge1+\dfrac{100}{1005}\iff n\ge\dfrac{\ln\big(1+\frac{100}{1005}\big)}{\ln1{,}005}\approx19{,}02.$$
+[M336.2] Nhiều lựa chọn
+Cho tam giác $ABC$ có trọng tâm $G$. Hình chiếu song song của $G$ là
+A. tâm đường tròn ngoại tiếp tam giác $A'B'C'$.
+B. trực tâm của tam giác $A'B'C'$.
+C. trung điểm của một cạnh.
+D. trọng tâm của tam giác $A'B'C'$.
+::key D
+Phép chiếu song song giữ trung điểm và tỉ số, nên giữ trọng tâm. Tâm đường tròn ngoại tiếp và trực tâm không được bảo toàn vì cần góc vuông và độ dài.
 
-Vậy cần ít nhất $20$ tháng (kiểm tra: $S_{19}\approx99{,}9$ triệu, $S_{20}\approx105{,}4$ triệu).
+[M336.3] Nhiều lựa chọn
+Ba điểm $A$, $B$, $C$ thẳng hàng với $AB=2BC$. Hình chiếu song song có $A'B'=8$. Khi đó $B'C'$ bằng
+A. $4$.
+B. $16$.
+C. $2$.
+D. $6$.
+::key A
+$\dfrac{A'B'}{B'C'}=\dfrac{AB}{BC}=2$ nên $B'C'=4$. Phương án B viết ngược tỉ số.
 
-Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
+[M336.4] Nhiều lựa chọn
+Hình nào sau đây không thể là hình biểu diễn của một hình vuông?
+A. Hình bình hành.
+B. Hình thang không phải hình bình hành.
+C. Hình vuông.
+D. Hình chữ nhật.
+::key B
+Hình vuông có hai cặp cạnh đối song song, hình biểu diễn cũng phải có hai cặp cạnh đối song song, tức là hình bình hành (kể cả hình chữ nhật, hình thoi, hình vuông).
+
+[M336.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cùng một thời điểm, một cột thẳng đứng cao $6$ m có bóng dài $4{,}5$ m. Xét tính đúng sai của các mệnh đề sau:
+a) Một người đứng thẳng cao $1{,}6$ m có bóng dài $1{,}5$ m.
+b) Một cây thẳng đứng có bóng dài $9$ m thì cao $12$ m.
+c) Tỉ số chiều cao trên bóng phụ thuộc vào từng vật.
+d) Vật thẳng đứng cao gấp đôi thì có bóng dài gấp đôi.
+::key S Đ S Đ
+Tỉ số chiều cao trên bóng là $\dfrac{6}{4{,}5}=\dfrac43$. a) Sai: người cao $1{,}6$ m có bóng $\dfrac{1{,}6\cdot4{,}5}{6}=1{,}2$ m. b) Đúng: $9\cdot\dfrac43=12$. c) Sai: tỉ số như nhau với mọi vật thẳng đứng. d) Đúng.
+
+[M336.6] Trả lời ngắn
+Cùng một thời điểm, cọc cao $2$ m có bóng dài $1{,}5$ m. Một cây thẳng đứng có bóng dài $9$ m. Cây cao bao nhiêu mét?
+::key 12
+$h=\dfrac{9\cdot2}{1{,}5}=12$ m.
+
+[M336.7] Trả lời ngắn
+Ba điểm $A$, $B$, $C$ thẳng hàng với $AB=3BC$. Hình chiếu song song có $A'B'=9$. Tính $B'C'$.
+::key 3
+$\dfrac{A'B'}{B'C'}=3$ nên $B'C'=\dfrac93=3$.
+
+### M337 · Lớp 11 · Giới hạn của dãy số
+
+[M337.1] Nhiều lựa chọn
+$\lim\dfrac{3n+2}{n+1}$ bằng
+A. $2$.
+B. $1$.
+C. $3$.
+D. $+\infty$.
+::key C
+Chia tử và mẫu cho $n$: $\dfrac{3+\frac2n}{1+\frac1n}\to3$. Phương án A chỉ lấy tỉ số $\dfrac21$ của các hằng số.
+
+[M337.2] Nhiều lựa chọn
+$\lim\dfrac{2^n}{3^n}$ bằng
+A. $1$.
+B. $+\infty$.
+C. $\dfrac23$.
+D. $0$.
+::key D
+$\dfrac{2^n}{3^n}=\left(\dfrac23\right)^n$ với $|q|=\dfrac23<1$ nên giới hạn bằng $0$.
+
+[M337.3] Nhiều lựa chọn
+$\lim(n^2-n)$ bằng
+A. $+\infty$.
+B. $-\infty$.
+C. $0$.
+D. $1$.
+::key A
+$n^2-n=n^2\left(1-\dfrac1n\right)$ với $n^2\to+\infty$ và $1-\dfrac1n\to1>0$. Phương án C coi hiệu $\infty-\infty$ bằng $0$.
+
+[M337.4] Nhiều lựa chọn
+Tổng $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$ bằng
+A. $2$.
+B. $\dfrac32$.
+C. $1$.
+D. $3$.
+::key B
+Cấp số nhân lùi vô hạn có $u_1=1$, $q=\dfrac13$ nên $S=\dfrac{1}{1-\frac13}=\dfrac32$.
+
+[M337.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho dãy số $u_n=\dfrac{2n-3}{n+1}$. Xét tính đúng sai của các mệnh đề sau:
+a) $\lim u_n=-3$.
+b) $\lim u_n=2$.
+c) Có số nguyên dương $n$ để $u_n=2$.
+d) $u_n<2$ với mọi $n$.
+::key S Đ S Đ
+a) Sai: $u_n=\dfrac{2-\frac3n}{1+\frac1n}\to2$. b) Đúng. c) Sai: $u_n=2-\dfrac{5}{n+1}<2$. d) Đúng.
+
+[M337.6] Trả lời ngắn
+Tính $\lim\dfrac{4n^2+1}{2n^2+n}$.
+::key 2
+Chia cho $n^2$: $\dfrac{4+\frac1{n^2}}{2+\frac1n}\to\dfrac42=2$.
+
+[M337.7] Trả lời ngắn
+Tính tổng $6+3+\dfrac32+\dfrac34+\dots$.
+::key 12
+Cấp số nhân lùi vô hạn có $u_1=6$, $q=\dfrac12$ nên $S=\dfrac{6}{1-\frac12}=12$.
+
+### M338 · Lớp 11 · Giới hạn của hàm số
+
+[M338.1] Nhiều lựa chọn
+$\lim\limits_{x\to2}\dfrac{x^2+1}{x-1}$ bằng
+A. $3$.
+B. $5$.
+C. $+\infty$.
+D. $1$.
+::key B
+Mẫu tại $x=2$ khác $0$ nên thay $x=2$: $\dfrac{4+1}{2-1}=5$.
+
+[M338.2] Nhiều lựa chọn
+$\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$ bằng
+A. $0$.
+B. $3$.
+C. $6$.
+D. không tồn tại.
+::key C
+$\dfrac{x^2-9}{x-3}=x+3\to6$. Phương án A coi dạng $\dfrac00$ bằng $0$.
+
+[M338.3] Nhiều lựa chọn
+$\lim\limits_{x\to+\infty}\dfrac{2x+1}{x-3}$ bằng
+A. $1$.
+B. $+\infty$.
+C. $-3$.
+D. $2$.
+::key D
+Chia tử và mẫu cho $x$: $\dfrac{2+\frac1x}{1-\frac3x}\to2$.
+
+[M338.4] Nhiều lựa chọn
+$\lim\limits_{x\to0^+}\dfrac1x$ bằng
+A. $+\infty$.
+B. $-\infty$.
+C. $0$.
+D. $1$.
+::key A
+Với $x>0$ nhỏ dần, $\dfrac1x$ dương và lớn không giới hạn. Phương án B là giới hạn khi $x\to0^-$.
+
+[M338.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $g(x)=x+2$ nếu $x<1$ và $g(x)=4-x$ nếu $x\ge1$. Xét tính đúng sai của các mệnh đề sau:
+a) $\lim\limits_{x\to1^-}g(x)=3$.
+b) $\lim\limits_{x\to1^+}g(x)=4$.
+c) $\lim\limits_{x\to1}g(x)=3$.
+d) $g(1)=4$.
+::key Đ S Đ S
+a) Đúng: $x+2\to3$. b) Sai: $4-x\to3$. c) Đúng: hai giới hạn một phía cùng bằng $3$. d) Sai: $g(1)=4-1=3$.
+
+[M338.6] Trả lời ngắn
+Tính $\lim\limits_{x\to1}\dfrac{x^2-1}{x-1}$.
+::key 2
+$\dfrac{x^2-1}{x-1}=x+1\to2$.
+
+[M338.7] Trả lời ngắn
+Tính $\lim\limits_{x\to+\infty}\dfrac{5x^2+1}{x^2-2}$.
+::key 5
+Chia cho $x^2$: $\dfrac{5+\frac1{x^2}}{1-\frac2{x^2}}\to5$.
+
+### M339 · Lớp 11 · Hàm số liên tục
+
+[M339.1] Nhiều lựa chọn
+Hàm số nào dưới đây liên tục trên $\mathbb{R}$?
+A. $y=\dfrac{1}{x-1}$.
+B. $y=\dfrac{x}{x^2-4}$.
+C. $y=\sqrt{x}$.
+D. $y=x^3-2x+5$.
+::key D
+Đa thức liên tục trên $\mathbb{R}$. Hàm số ở A và B không xác định tại một số điểm, còn hàm số ở D chỉ xác định khi $x\ge0$.
+
+[M339.2] Nhiều lựa chọn
+Cho hàm số $f(x)=\begin{cases}\dfrac{x^2-x-2}{x-2}&\text{nếu }x\neq2,\\3&\text{nếu }x=2.\end{cases}$ Phát biểu nào sau đây đúng?
+A. Hàm số liên tục tại $x=2$.
+B. Hàm số không liên tục tại $x=2$ vì không xác định tại $2$.
+C. Hàm số không liên tục tại $x=2$ vì $\lim_{x\to2}f(x)=0$.
+D. Hàm số không liên tục tại $x=2$ vì không tồn tại $\lim_{x\to2}f(x)$.
+::key A
+Với $x\neq2$, $f(x)=\dfrac{(x-2)(x+1)}{x-2}=x+1$ nên $\lim_{x\to2}f(x)=3=f(2)$. Phương án B quên rằng $f(2)=3$, C tính sai giới hạn, D nhầm dạng $\dfrac{0}{0}$ với giới hạn không tồn tại.
+
+[M339.3] Nhiều lựa chọn
+Phương trình nào sau đây có nghiệm trong khoảng $(1; 2)$?
+A. $x^3+x-1=0$.
+B. $x^3-3x-1=0$.
+C. $x^2-4x+5=0$.
+D. $2x^2-5x+4=0$.
+::key B
+Với $f(x)=x^3-3x-1$ ta có $f(1)=-3$, $f(2)=1$ nên $f(1)f(2)<0$. Ở A, D, C hai giá trị $f(1)$, $f(2)$ cùng dấu và các phương trình không có nghiệm trong $(1; 2)$.
+
+[M339.4] Nhiều lựa chọn
+Cho hàm số $f(x)=\begin{cases}x^2+1&\text{nếu }x<1,\\3&\text{nếu }x=1,\\2x&\text{nếu }x>1.\end{cases}$ Phát biểu nào sau đây đúng?
+A. Hàm số liên tục tại $x=1$ vì tồn tại các giới hạn một bên.
+B. Hàm số không liên tục tại $x=1$ vì giới hạn trái khác giới hạn phải.
+C. Hàm số không liên tục tại $x=1$ vì $\lim_{x\to1}f(x)=2$ khác $f(1)=3$.
+D. Hàm số liên tục tại $x=1$ vì $f(1)$ xác định.
+::key C
+Giới hạn trái và giới hạn phải đều bằng $2$ nên $\lim_{x\to1}f(x)=2\neq f(1)=3$. Phương án B sai vì hai giới hạn một bên bằng nhau; A và D thiếu điều kiện $\lim f=f(x_0)$.
+
+[M339.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Giả sử một gói cước điện thoại tính tiền (nghìn đồng) theo dung lượng dữ liệu $x$ (GB) như sau: $C(x)=50$ nếu $0\le x\le5$ và $C(x)=50+20(x-5)$ nếu $x>5$. Xét tính đúng sai của các mệnh đề sau:
+a) Hàm số $C$ không liên tục tại $x=5$ vì được cho bởi hai công thức.
+b) $\lim_{x\to5^+}C(x)=50$.
+c) $C(8)=110$.
+d) $C(7)=100$.
+::key S Đ Đ S
+a) Sai: $C(5)=50$, $\lim_{x\to5^-}C(x)=50$ và $\lim_{x\to5^+}C(x)=50$ nên $C$ liên tục tại $5$, dù có hai công thức. b) Đúng: $50+20\cdot0=50$. c) Đúng: $50+20\cdot3=110$. d) Sai: $C(7)=50+20\cdot2=90$.
+
+[M339.6] Trả lời ngắn
+Phương trình $x^3+x-1=0$ có một nghiệm trong khoảng $(0; 1)$. Tìm nghiệm này (làm tròn kết quả đến hàng phần trăm).
+::key 0,68
+Với $f(x)=x^3+x-1$ ta có $f(0)=-1<0$ và $f(1)=1>0$ nên có nghiệm trong $(0; 1)$. Thu hẹp khoảng chứa nghiệm bằng máy tính, ta được nghiệm gần đúng $0{,}682\ldots\approx0{,}68$.
+
+[M339.7] Trả lời ngắn
+Với biểu giá điện bậc thang trong bài, tiền điện (nghìn đồng) khi dùng $x>100$ kWh là $T(x)=3x-75$. Tính số tiền (nghìn đồng) phải trả khi dùng $120$ kWh.
+::key 285
+$T(120)=3\cdot120-75=285$ (nghìn đồng).
+
+### M340 · Lớp 11 · Luỹ thừa với số mũ thực
+
+[M340.1] Nhiều lựa chọn
+Giá trị của biểu thức $\sqrt[3]{-27}+\sqrt[4]{16}$ bằng
+A. $-1$.
+B. $5$.
+C. $-5$.
+D. $1$.
+::key A
+Ta có $\sqrt[3]{-27}=-3$ và $\sqrt[4]{16}=2$ nên tổng bằng $-1$. Phương án B bỏ dấu của căn bậc ba, C lấy cả hai căn âm, D đổi dấu kết quả.
+
+[M340.2] Nhiều lựa chọn
+Giá trị của $8^{-2/3}$ bằng
+A. $\dfrac{1}{64}$.
+B. $\dfrac14$.
+C. $4$.
+D. $-4$.
+::key B
+$8^{-2/3}=\left(2^3\right)^{-2/3}=2^{-2}=\dfrac14$. Phương án A tính $8^{-2}$, C bỏ dấu của số mũ, D coi số mũ âm cho giá trị âm.
+
+[M340.3] Nhiều lựa chọn
+Với $a>0$, biểu thức $\left(a^{\sqrt3+1}\right)^{\sqrt3-1}$ bằng
+A. $a^{2\sqrt3}$.
+B. $a^{4}$.
+C. $a^{2}$.
+D. $a^{3}$.
+::key C
+Ta nhân hai số mũ: $(\sqrt3+1)(\sqrt3-1)=3-1=2$. Phương án A cộng hai số mũ, B dùng $3+1$ thay cho $3-1$, D quên trừ $1^2$.
+
+[M340.4] Nhiều lựa chọn
+Mệnh đề nào sau đây đúng?
+A. $\left(\dfrac13\right)^{2{,}5}<\left(\dfrac13\right)^{3}$.
+B. $2^{\sqrt3}<2^{1{,}7}$.
+C. $3^{-\sqrt2}>3^{-1{,}4}$.
+D. $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1{,}7}$.
+::key D
+Cơ số $\dfrac12<1$ và $\sqrt3>1{,}7$ nên $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1{,}7}$. Phương án B quên $\sqrt3>1{,}7$, C sai vì $-\sqrt2<-1{,}4$, A quên đảo chiều với cơ số nhỏ hơn $1$.
+
+[M340.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $a>0$, $b>0$. Xét tính đúng sai của các mệnh đề sau:
+a) $(a+b)^{1/2}=a^{1/2}+b^{1/2}$.
+b) $a^{1/2}\cdot a^{1/3}=a^{1/6}$.
+c) $a^{3/2}=a\sqrt{a}$.
+d) $\dfrac{a^{5/3}}{a^{2/3}}=a$.
+::key S S Đ Đ
+a) Sai: ví dụ $a=4$, $b=9$ cho $\sqrt{13}\neq5$. b) Sai: cộng số mũ được $\dfrac12+\dfrac13=\dfrac56$, tức $a^{5/6}$. c) Đúng: $a^{3/2}=a^{1+1/2}=a\cdot a^{1/2}$. d) Đúng: $a^{5/3-2/3}=a^1$.
+
+[M340.6] Trả lời ngắn
+Giả sử số vi khuẩn trong một mẻ nuôi cấy là $N(t)=200\cdot2^{t/2}$ con, với $t$ là số giờ. Tính số vi khuẩn sau $5$ giờ (làm tròn đến hàng đơn vị).
+::key 1131
+$N(5)=200\cdot2^{2{,}5}\approx200\cdot5{,}657\approx1131$ (con).
+
+[M340.7] Trả lời ngắn
+Tính giá trị của $81^{3/4}\cdot16^{-1/2}$ (viết dưới dạng số thập phân).
+::key 6,75
+$81^{3/4}=\left(3^4\right)^{3/4}=27$ và $16^{-1/2}=\dfrac14$, nên tích bằng $\dfrac{27}{4}=6{,}75$.
+
+### M341 · Lớp 11 · Lôgarit
+
+[M341.1] Nhiều lựa chọn
+Giá trị của $\log_{1/2}8$ bằng
+A. $-\dfrac13$.
+B. $3$.
+C. $-3$.
+D. $\dfrac13$.
+::key C
+Vì $\left(\dfrac12\right)^{-3}=8$ nên $\log_{1/2}8=-3$. Phương án B bỏ qua cơ số nhỏ hơn $1$, A và D lấy nghịch đảo của kết quả.
+
+[M341.2] Nhiều lựa chọn
+Tập xác định của hàm số $y=\lg(x^2-1)$ là
+A. $(1; +\infty)$.
+B. $(-1; 1)$.
+C. $\mathbb{R}\setminus\{-1; 1\}$.
+D. $(-\infty; -1)\cup(1; +\infty)$.
+::key D
+Cần $x^2-1>0$, tức $x<-1$ hoặc $x>1$. Phương án A quên nửa âm, B nhầm dấu, C coi điều kiện như điều kiện mẫu khác $0$.
+
+[M341.3] Nhiều lựa chọn
+Giá trị của $\log_62+\log_618$ bằng
+A. $2$.
+B. $\log_620$.
+C. $\log_69$.
+D. $6$.
+::key A
+Ta có $\log_62+\log_618=\log_6(2\cdot18)=\log_636=2$. Phương án B cộng các đối số, C chia thay vì nhân, D dừng ở $36$ mà không lấy lôgarit.
+
+[M341.4] Nhiều lựa chọn
+Cho $a=\log_23$. Khi đó $\log_618$ bằng
+A. $\dfrac{2+a}{1+a}$.
+B. $\dfrac{1+2a}{1+a}$.
+C. $\dfrac{1+a}{1+2a}$.
+D. $\dfrac{2a}{1+a}$.
+::key B
+$\log_618=\dfrac{\log_218}{\log_26}=\dfrac{1+2\log_23}{1+\log_23}=\dfrac{1+2a}{1+a}$. Phương án A là $\log_612$, C đảo tử và mẫu, D chỉ tính $\log_29$ ở tử.
+
+[M341.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Độ pH của dung dịch được tính bằng $\mathrm{pH}=-\lg[\mathrm{H}^+]$. Dung dịch A có $[\mathrm{H}^+]=10^{-3}$ mol/lít và dung dịch B có $[\mathrm{H}^+]=10^{-5}$ mol/lít. Xét tính đúng sai của các mệnh đề sau:
+a) Độ pH của dung dịch A bằng $-3$.
+b) Độ pH của dung dịch B bằng $5$.
+c) Nồng độ $[\mathrm{H}^+]$ của dung dịch A gấp $100$ lần của dung dịch B.
+d) Độ pH của dung dịch B lớn hơn độ pH của dung dịch A.
+::key S Đ Đ Đ
+a) Sai: $\mathrm{pH}=-\lg10^{-3}=3$, dấu trừ trong công thức triệt tiêu số mũ âm. b) Đúng: $-\lg10^{-5}=5$. c) Đúng: $\dfrac{10^{-3}}{10^{-5}}=100$. d) Đúng: $5>3$.
+
+[M341.6] Trả lời ngắn
+Giả sử lãi suất là $6\%$ một năm, lãi kép. Sau bao nhiêu năm số tiền gửi tăng gấp ba (làm tròn kết quả đến hàng phần mười)?
+::key 18,9
+Cần $1{,}06^t=3$, nên $t=\dfrac{\ln3}{\ln1{,}06}\approx\dfrac{1{,}0986}{0{,}0583}\approx18{,}9$ (năm).
+
+[M341.7] Trả lời ngắn
+Mức cường độ âm là $L=10\lg\dfrac{I}{I_0}$ (dB) với $I_0=10^{-12}$ W/m². Một âm có $I=3\cdot10^{-6}$ W/m². Tính $L$ (làm tròn kết quả đến hàng phần mười).
+::key 64,8
+$\dfrac{I}{I_0}=3\cdot10^6$ nên $L=10(\lg3+6)\approx10\cdot6{,}4771\approx64{,}8$ (dB).
+
+### M342 · Lớp 11 · Hàm số mũ và hàm số lôgarit
+
+[M342.1] Nhiều lựa chọn
+Tập xác định của hàm số $y=\log_{1/2}(2x-4)$ là
+A. $[2; +\infty)$.
+B. $(-\infty; 2)$.
+C. $(0; +\infty)$.
+D. $(2; +\infty)$.
+::key D
+Cần $2x-4>0$, tức $x>2$. Phương án A lấy cả đầu mút $2$, B đảo chiều, C quên dịch chuyển do $2x-4$.
+
+[M342.2] Nhiều lựa chọn
+Hàm số nào sau đây nghịch biến trên $\mathbb{R}$?
+A. $y=\left(\dfrac{\sqrt2}{2}\right)^x$.
+B. $y=\left(\dfrac{\pi}{3}\right)^x$.
+C. $y=\log_{1/2}x$.
+D. $y=e^x$.
+::key A
+Cơ số $\dfrac{\sqrt2}{2}\approx0{,}71<1$ nên hàm nghịch biến trên $\mathbb{R}$. Phương án B có cơ số $\dfrac\pi3>1$, D có cơ số $e>1$, còn C chỉ xác định trên $(0; +\infty)$.
+
+[M342.3] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. $2^{\sqrt3}<2^{1{,}7}$.
+B. $\log_{1/2}3>\log_{1/2}5$.
+C. $\log_32>1$.
+D. $0{,}9^{0{,}5}>0{,}9^{0{,}4}$.
+::key B
+Cơ số $\dfrac12<1$ nên hàm nghịch biến, $3<5$ cho $\log_{1/2}3>\log_{1/2}5$. B sai vì $\sqrt3\approx1{,}73>1{,}7$; C sai vì $2<3$; D sai vì cơ số $0{,}9<1$ và $0{,}5>0{,}4$.
+
+[M342.4] Nhiều lựa chọn
+Đường tiệm cận ngang của đồ thị hàm số $y=3^x-5$ là
+A. $y=5$.
+B. $x=-5$.
+C. $y=-5$.
+D. $x=0$.
+::key C
+$3^x>0$ và tiến sát $0$ khi $x$ rất âm nên $y$ tiến sát $-5$ từ phía trên. Phương án A sai dấu, B và D là đường thẳng đứng.
+
+[M342.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=\log_2(x-1)$. Xét tính đúng sai của các mệnh đề sau:
+a) Tập xác định của $f$ là $(0; +\infty)$.
+b) $f(3)=1$.
+c) Hàm số $f$ nghịch biến trên tập xác định.
+d) Đồ thị của $f$ có tiệm cận đứng $x=1$.
+::key S Đ S Đ
+a) Sai: cần $x-1>0$, tức $x>1$. b) Đúng: $\log_22=1$. c) Sai: cơ số $2>1$ nên hàm đồng biến. d) Đúng: $x-1=0$ khi $x=1$, nên đồ thị tiến sát đường thẳng $x=1$.
+
+[M342.6] Trả lời ngắn
+Giả sử khối lượng một chất phóng xạ sau $t$ ngày là $m(t)=80\cdot\left(\dfrac12\right)^{t/6}$ gam. Sau bao nhiêu ngày thì còn lại $10$ g?
+::key 18
+Cần $\left(\dfrac12\right)^{t/6}=\dfrac18=\left(\dfrac12\right)^3$ nên $\dfrac t6=3$ và $t=18$ (ngày).
+
+[M342.7] Trả lời ngắn
+Giả sử giá trị một chiếc máy giảm $10\%$ mỗi năm. Sau ít nhất bao nhiêu năm nguyên thì giá trị còn dưới $10\%$ giá ban đầu?
+::key 22
+Cần $0{,}9^n<0{,}1$, tức $n>\dfrac{\ln0{,}1}{\ln0{,}9}\approx21{,}9$ nên $n=22$. Thử lại: $0{,}9^{21}\approx0{,}109>0{,}1$ và $0{,}9^{22}\approx0{,}098<0{,}1$.
+
+### M343 · Lớp 11 · Phương trình, bất phương trình mũ và lôgarit
+
+[M343.1] Nhiều lựa chọn
+Tập nghiệm của phương trình $2^{x^2-1}=8$ là
+A. $\{2\}$.
+B. $\{-\sqrt2; \sqrt2\}$.
+C. $\{-2; 2\}$.
+D. $\{4\}$.
+::key C
+$8=2^3$ nên $x^2-1=3$, suy ra $x^2=4$ và $x=\pm2$. Phương án A bỏ nghiệm âm, B giải $x^2=2$, D nhầm $x^2=4$ thành $x=4$.
+
+[M343.2] Nhiều lựa chọn
+Tập nghiệm của bất phương trình $\left(\dfrac12\right)^x>8$ là
+A. $(-3; +\infty)$.
+B. $(3; +\infty)$.
+C. $(-\infty; 3)$.
+D. $(-\infty; -3)$.
+::key D
+$8=\left(\dfrac12\right)^{-3}$, cơ số $\dfrac12<1$ nên đảo chiều: $x<-3$. Phương án A quên đảo chiều, B và C nhầm dấu của số mũ $-3$.
+
+[M343.3] Nhiều lựa chọn
+Nghiệm của phương trình $\log_2x+\log_2(x-3)=2$ là
+A. $x=4$.
+B. $x=-1$ hoặc $x=4$.
+C. $x=-1$.
+D. phương trình vô nghiệm.
+::key A
+Điều kiện $x>3$. Ta có $x(x-3)=4$ nên $x^2-3x-4=0$ và $x=-1$ hoặc $x=4$. Chỉ $x=4$ thoả $x>3$. Phương án B quên loại nghiệm ngoại lai $x=-1$.
+
+[M343.4] Nhiều lựa chọn
+Tập nghiệm của bất phương trình $\log_3(2x-1)\le2$ là
+A. $\left[\dfrac12; 5\right]$.
+B. $\left(\dfrac12; 5\right]$.
+C. $(-\infty; 5]$.
+D. $(5; +\infty)$.
+::key B
+Cần $0<2x-1\le9$, tức $\dfrac12<x\le5$. Phương án A lấy cả đầu mút $\dfrac12$, C quên điều kiện $2x-1>0$, D đảo chiều.
+
+[M343.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét phương trình $4^x-3\cdot2^x-4=0$. Xét tính đúng sai của các mệnh đề sau:
+a) Đặt $t=2^x$ thì phương trình trở thành $t^2-3t-4=0$.
+b) Giá trị $t=-1$ cho một nghiệm của phương trình.
+c) Phương trình có đúng một nghiệm.
+d) Nghiệm của phương trình là $x=4$.
+::key Đ S Đ S
+a) Đúng: $4^x=\left(2^x\right)^2$. b) Sai: $t=2^x>0$ nên $t=-1$ bị loại. c) Đúng: chỉ $t=4$, tức $x=2$. d) Sai: $2^x=4$ cho $x=2$, không phải $x=4$.
+
+[M343.6] Trả lời ngắn
+Giả sử số tiền gửi tăng $8\%$ mỗi năm, lãi kép. Sau ít nhất bao nhiêu năm nguyên thì số tiền gấp ba số ban đầu?
+::key 15
+Cần $1{,}08^t\ge3$, tức $t\ge\dfrac{\ln3}{\ln1{,}08}\approx14{,}3$ nên $t=15$. Thử lại: $1{,}08^{14}\approx2{,}94<3$ và $1{,}08^{15}\approx3{,}17\ge3$.
+
+[M343.7] Trả lời ngắn
+Nghiệm của phương trình $5^{2x-1}=40$ là bao nhiêu (làm tròn đến hàng phần mười)?
+::key 1,6
+$2x-1=\log_540\approx2{,}292$, suy ra $x\approx\dfrac{3{,}292}{2}\approx1{,}6$.
+
+### M344 · Lớp 11 · Đạo hàm
+
+[M344.1] Nhiều lựa chọn
+Cho $f(x)=x^2+2x$. Giá trị $f'(1)$ bằng
+A. $4$.
+B. $2$.
+C. $3$.
+D. $5$.
+::key A
+$\dfrac{x^2+2x-3}{x-1}=\dfrac{(x-1)(x+3)}{x-1}=x+3\to4$. Phương án C là $f(1)$, B chỉ lấy hệ số của $2x$, D cộng nhầm.
+
+[M344.2] Nhiều lựa chọn
+Tiếp tuyến của đồ thị $y=x^3$ tại điểm có hoành độ $1$ có phương trình
+A. $y=3x+2$.
+B. $y=3x-2$.
+C. $y=x$.
+D. $y=-3x+4$.
+::key B
+$f(1)=1$ và $f'(1)=3$ nên $y=3(x-1)+1=3x-2$. Phương án A sai dấu hệ số tự do, C dùng hệ số góc $1$, D dùng hệ số góc $-3$.
+
+[M344.3] Nhiều lựa chọn
+Hàm số $f(x)=|x|$ có tính chất nào sau đây?
+A. Có đạo hàm tại $0$ và $f'(0)=1$.
+B. Có đạo hàm tại $0$ và $f'(0)=0$.
+C. Liên tục tại $0$ nhưng không có đạo hàm tại $0$.
+D. Không liên tục tại $0$.
+::key C
+$|x|$ liên tục tại $0$, nhưng hai giới hạn một bên của tỉ số số gia là $1$ và $-1$ nên không có đạo hàm. Phương án B, A nhầm về giá trị, D nhầm về tính liên tục.
+
+[M344.4] Nhiều lựa chọn
+Một chất điểm có quãng đường $s(t)=t^2+4t$ (mét) sau $t$ giây. Vận tốc tức thời tại $t=2$ bằng
+A. $4$ m/s.
+B. $6$ m/s.
+C. $10$ m/s.
+D. $8$ m/s.
+::key D
+$\dfrac{t^2+4t-12}{t-2}=\dfrac{(t-2)(t+6)}{t-2}=t+6\to8$. Phương án A chỉ lấy hệ số $4$ của $4t$, còn B và C do rút gọn tỉ số sai.
+
+[M344.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $h(x)=\begin{cases}x^2&\text{nếu }x\le0\\x&\text{nếu }x>0.\end{cases}$ Xét tính đúng sai của các mệnh đề sau:
+a) $h$ liên tục tại $x=0$.
+b) Giới hạn của $\dfrac{h(x)-h(0)}{x}$ khi $x\to0^+$ bằng $1$.
+c) Giới hạn của $\dfrac{h(x)-h(0)}{x}$ khi $x\to0^-$ bằng $1$.
+d) $h$ có đạo hàm tại $x=0$.
+::key Đ Đ S S
+a) Đúng: $h(0)=0$, giới hạn hai bên đều bằng $0$. b) Đúng: $\dfrac{x-0}{x}=1$. c) Sai: $\dfrac{x^2}{x}=x\to0$. d) Sai: hai giới hạn một bên khác nhau ($1$ và $0$).
+
+[M344.6] Trả lời ngắn
+Một vật có quãng đường $s(t)=3t^2+t$ mét sau $t$ giây (số liệu giả định). Tính vận tốc tức thời tại $t=5$ (đơn vị m/s).
+::key 31
+$\dfrac{3t^2+t-80}{t-5}=\dfrac{(t-5)(3t+16)}{t-5}=3t+16\to31$.
+
+[M344.7] Trả lời ngắn
+Tính hệ số góc của tiếp tuyến của đồ thị $y=\dfrac1x$ tại điểm có hoành độ $\dfrac14$.
+::key -16
+$\dfrac{\frac1x-4}{x-\frac14}=\dfrac{\frac{1-4x}{x}}{x-\frac14}=\dfrac{-4\left(x-\frac14\right)}{x\left(x-\frac14\right)}=-\dfrac4x\to-16$.
+
+### M345 · Lớp 11 · Các quy tắc tính đạo hàm
+
+[M345.1] Nhiều lựa chọn
+Cho $f(x)=x^3-3x^2+2x$. Giá trị $f'(2)$ bằng
+A. $0$.
+B. $4$.
+C. $2$.
+D. $6$.
+::key C
+$f'(x)=3x^2-6x+2$ nên $f'(2)=12-12+2=2$. Phương án A bỏ số hạng $2$, B và D do tính sai.
+
+[M345.2] Nhiều lựa chọn
+Đạo hàm của hàm số $y=xe^x$ là
+A. $(x+e)e^x$.
+B. $e^x$.
+C. $xe^x$.
+D. $(x+1)e^x$.
+::key D
+$y'=1\cdot e^x+x\cdot e^x=(x+1)e^x$. Phương án B quên số hạng $xe^x$, C quên số hạng $e^x$, A nhầm $1$ thành $e$.
+
+[M345.3] Nhiều lựa chọn
+Đạo hàm của hàm số $y=\dfrac{2x+1}{x+3}$ là
+A. $\dfrac{5}{(x+3)^2}$.
+B. $2$.
+C. $-\dfrac{5}{(x+3)^2}$.
+D. $\dfrac{4x+7}{(x+3)^2}$.
+::key A
+$y'=\dfrac{2(x+3)-(2x+1)}{(x+3)^2}=\dfrac5{(x+3)^2}$. Phương án B chia các đạo hàm, C đảo dấu tử, D cộng thay vì trừ.
+
+[M345.4] Nhiều lựa chọn
+Đạo hàm của $y=\ln(x^2+1)$ tại $x=1$ bằng
+A. $0$.
+B. $1$.
+C. $\dfrac12$.
+D. $2$.
+::key B
+$y'=\dfrac{2x}{x^2+1}$ nên $y'(1)=\dfrac22=1$. Phương án D quên mẫu, C chia cho $4$, A nhầm với $\ln1$.
+
+[M345.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^3-3x+1$. Xét tính đúng sai của các mệnh đề sau:
+a) $f'(x)=3x^2-3$.
+b) Hệ số góc của tiếp tuyến tại $x=0$ bằng $3$.
+c) Tiếp tuyến tại $x=1$ song song với trục hoành.
+d) Phương trình $f'(x)=0$ có hai nghiệm là $x=\pm1$.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: $f'(0)=-3$. c) Đúng: $f'(1)=0$. d) Đúng: $3x^2-3=0\Leftrightarrow x=\pm1$.
+
+[M345.6] Trả lời ngắn
+Giả sử số vi khuẩn sau $t$ giờ là $N(t)=1000e^{0{,}3t}$. Tính tốc độ tăng tại $t=2$ (làm tròn đến hàng đơn vị, đơn vị con/giờ).
+::key 547
+$N'(t)=300e^{0{,}3t}$ nên $N'(2)=300e^{0{,}6}\approx300\cdot1{,}8221\approx547$.
+
+[M345.7] Trả lời ngắn
+Tính hệ số góc của tiếp tuyến của đồ thị $y=\dfrac{x^2+1}{x}$ tại điểm có hoành độ $2$.
+::key 0,75
+$y'=\dfrac{2x\cdot x-(x^2+1)}{x^2}=\dfrac{x^2-1}{x^2}$ nên $y'(2)=\dfrac34=0{,}75$.

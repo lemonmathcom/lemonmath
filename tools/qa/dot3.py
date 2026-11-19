@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Đợt 3 (19/11/2026): chia mọi việc còn dở cho 15 tài khoản Claude Free, mỗi tài khoản một thư mục,
-mỗi file là MỘT cuộc trò chuyện, đánh số theo đúng thứ tự giao.
+"""Đợt 3 (19/11/2026): chia mọi việc còn dở cho 15 tài khoản Claude Free, làm theo giai đoạn
+(1 mức độ → 2 lời giải → 3 giọng văn → 4 kho đề), mỗi giai đoạn một thư mục, mỗi file một cuộc trò chuyện.
 
   python3 tools/qa/dot3.py         tạo lại giao-viec/dot3/ (xoá thư mục cũ)
 
@@ -22,9 +22,7 @@ OUT = os.path.join(ROOT, 'giao-viec', 'dot3')
 ACCS = ['Kinangtoan', 'Alexnguyen122222', 'thichgiaitoan', 'Lemonmath.com', 'Vinax.vn', 'Nguyenchanh2358',
         'Vinax258', 'Vimus2358', 'Lemonmath112', 'hanibi108', 'Xedap102', 'chanh106',
         'thaodebao1', 'nguoibuonthinh', 'huongamuong1']
-KD_ACC = {'chanh106': 'kd-thpt', 'Xedap102': 'kd-vao-10', 'hanibi108': 'kd-hk'}
-NEW = ('thaodebao1', 'nguoibuonthinh', 'huongamuong1')   # không có gói MD nên nhận thêm bài
-SHARE = {a: (0.6 if a in KD_ACC else 1.2 if a in NEW else 1.0) for a in ACCS}
+LG_FILES = 5        # mỗi tài khoản đúng 5 file lời giải
 LG_MAX = 45          # số bài tập tối đa một file LG
 GV_MAX = 4           # số bài học tối đa một file GV
 GV_WEIGHT = 12       # một bài viết lại giọng văn ~ 12 bài tập viết lại lời giải
@@ -108,115 +106,142 @@ KD_PAPERS = {
 }
 
 
-def kd_file(acc, tag, kind):
-    title, papers = KD_PAPERS[kind]
-    lst = '\n'.join('  %d. %s' % (i, p) for i, p in enumerate(papers, 1))
+def kd_file(acc, tag, kind, paper):
+    title = KD_PAPERS[kind][0]
+    lst = '  ' + paper
     head = ('#' * 70 + '\nTÀI KHOẢN: %s   |   FILE: %s   |   VIỆC: chuyển đề thi thật thành trang Kho đề thi (%s)\n' % (acc, tag, title) +
-            'Chủ dự án: tải đề (PDF) từ toanmath.com. MỖI ĐỀ mở MỘT cuộc trò chuyện MỚI, đính kèm file này + file PDF đề,\n'
+            'Chủ dự án: tải đề (PDF) từ toanmath.com, mở MỘT cuộc trò chuyện MỚI, đính kèm file này + file PDF đề,\n'
             'gõ: "Làm đúng theo hướng dẫn trong file, với đề đính kèm."\n'
-            'Kết quả mỗi đề: hai file <mã đề>.vi.md và <mã đề>.en.md, lưu vào Dropbox Lemonmath.com/viec da lam\n'
-            'Các đề cần làm (5 đề):\n%s\n' % lst + '#' * 70 + '\n\n')
+            'Kết quả: hai file <mã đề>.vi.md và <mã đề>.en.md, lưu vào Dropbox Lemonmath.com/viec da lam\n'
+            'Đề cần làm:\n%s\n' % lst + '#' * 70 + '\n\n')
     return head + KD_BRIEF.replace('{ACC}', acc).replace('{CHUONG}', title)
+
+
+PHASES = [('1-MUC-DO', 'MD', 'Gắn mức độ nhận thức cho câu trắc nghiệm'),
+          ('2-LOI-GIAI', 'LG', 'Viết lại lời giải bài tập (chuẩn 2e)'),
+          ('3-GIONG-VAN', 'GV', 'Viết lại phần lời theo giọng người thầy (chuẩn 2f)'),
+          ('4-KHO-DE', 'KD', 'Chuyển đề thi thật thành trang Kho đề thi')]
+KD_LIST = [('kd-thpt', 'Đề thi tốt nghiệp THPT 2025 môn Toán chính thức (một mã đề)'),
+           ('kd-thpt', 'Đề minh họa thi tốt nghiệp THPT 2025 môn Toán của Bộ GD&ĐT'),
+           ('kd-thpt', 'Đề thi thử tốt nghiệp THPT 2026 môn Toán (Sở GD&ĐT Hà Nội hoặc một Sở khác)'),
+           ('kd-thpt', 'Đề thi thử tốt nghiệp THPT 2026 môn Toán (một trường THPT chuyên)'),
+           ('kd-thpt', 'Đề thi thử tốt nghiệp THPT 2026 môn Toán (một Sở GD&ĐT phía Nam)'),
+           ('kd-vao-10', 'Đề tuyển sinh lớp 10 môn Toán năm 2025 Hà Nội'),
+           ('kd-vao-10', 'Đề tuyển sinh lớp 10 môn Toán năm 2025 TP Hồ Chí Minh'),
+           ('kd-vao-10', 'Đề tuyển sinh lớp 10 môn Toán năm 2025 Đà Nẵng'),
+           ('kd-vao-10', 'Đề tuyển sinh lớp 10 môn Toán năm 2025 Nghệ An'),
+           ('kd-vao-10', 'Đề tuyển sinh lớp 10 môn Toán năm 2025 Hải Phòng'),
+           ('kd-hk', 'Đề cuối học kì 1 Toán 6'),
+           ('kd-hk', 'Đề cuối học kì 1 Toán 7'),
+           ('kd-hk', 'Đề cuối học kì 1 Toán 8'),
+           ('kd-hk', 'Đề cuối học kì 1 Toán 9'),
+           ('kd-hk', 'Đề giữa học kì 1 Toán 10')]
+
+
+def split(seq, weight, n):
+    """Chia seq (đã xếp theo lớp) thành n phần liền mạch, tổng trọng số gần bằng nhau."""
+    total = sum(weight(x) for x in seq); out, pos, acc = [], 0, 0
+    for i in range(n):
+        target, part = total * (i + 1) / n, []
+        while pos < len(seq) and (i == n - 1 or acc + weight(seq[pos]) / 2 <= target or not part):
+            part.append(seq[pos]); acc += weight(seq[pos]); pos += 1
+        out.append(part)
+    return out
 
 
 def main():
     allr, lg, gv = lessons()
-    w = {r: (lg[r][1] if r in lg else 0) + (GV_WEIGHT if r in gv else 0) for r in allr}
-    total = sum(w.values()); unit = total / sum(SHARE.values())
-    # chia liền mạch theo thứ tự lớp
-    chunks, pos = {}, 0
-    for i, a in enumerate(ACCS):
-        target, got, mine = unit * SHARE[a], 0, []
-        while pos < len(allr) and (got + w[allr[pos]] / 2 <= target or i == len(ACCS) - 1 or not mine):
-            mine.append(allr[pos]); got += w[allr[pos]]; pos += 1
-        chunks[a] = mine
     if os.path.isdir(OUT): shutil.rmtree(OUT)
     os.makedirs(OUT)
     spec = G.spec_2f()
-    table, gv_owner = [], {}
+    board = {ph: [] for ph, _, _ in PHASES}
+    gv_owner = {}
+
+    def save(ph, name, text):
+        d = os.path.join(OUT, ph); os.makedirs(d, exist_ok=True)
+        open(os.path.join(d, name), 'w', encoding='utf-8').write(text)
+        return len(text.encode()) // 1024
+
+    # 1. Mức độ: 30 gói có sẵn, 2 gói mỗi tài khoản
     md = collections.defaultdict(list)
     for ln in open(os.path.join(ROOT, 'giao-viec', 'muc-do', 'PHAN-CONG.md'), encoding='utf-8'):
         m = re.match(r'^\|\s*(MD-\d+)\s*\|\s*(\S+)\s*\|\s*(\d+)\s*\|[^|]*\|\s*([^|]*?)\s*\|', ln)
         if m: md[m.group(2)].append((m.group(1), int(m.group(3)), m.group(4)))
-    for ai, a in enumerate(ACCS, 1):
-        d = os.path.join(OUT, '%02d-%s' % (ai, a)); os.makedirs(d)
-        rows, k = [], 0
-        def add(kind, text, out, desc):
-            nonlocal k
-            k += 1
-            tag = '%s-%02d-%s' % (a, k, kind)
-            if text is None: return tag
-            open(os.path.join(d, tag + '.txt'), 'w', encoding='utf-8').write(text)
-            rows.append((k, tag + '.txt', out, desc, len(text.encode()) // 1024))
-            return tag
-        for code, n, scope in md[a]:
-            k += 1; tag = '%s-%02d-MD' % (a, k)
+    for a in ACCS:
+        for j, (code, n, scope) in enumerate(md[a], 1):
+            tag = '%s-MD-%d' % (a, j)
             src = open(os.path.join(ROOT, 'giao-viec', 'muc-do', code + '.txt'), encoding='utf-8').read()
             txt = intro(a, tag, tag + '-ketqua.txt', 'gắn mức độ nhận thức (%s)' % code).replace(
-                'đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."',
-                'đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."\nKhi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản') + src
-            open(os.path.join(d, tag + '.txt'), 'w', encoding='utf-8').write(txt)
-            rows.append((k, tag + '.txt', tag + '-ketqua.txt', 'Mức độ %s: %d câu, %s' % (code, n, scope), len(txt.encode()) // 1024))
-        # nhóm bài theo lượt: mỗi lượt <= LG_MAX bài tập và <= GV_MAX bài học, không vượt lớp
-        mine, batch = chunks[a], []
-        def flush():
-            nonlocal batch
-            if not batch: return
-            items = [(r, lg[r][0], lg[r][1]) for r in batch if r in lg]
-            gvs = [r for r in batch if r in gv]
+                'Bị dừng giữa chừng', 'Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.\nBị dừng giữa chừng') + src
+            kb = save('1-MUC-DO', tag + '.txt', txt)
+            board['1-MUC-DO'].append((a, tag + '.txt', tag + '-ketqua.txt', '%s: %d câu, %s' % (code, n, scope), kb))
+
+    # 2. Lời giải: chia đều số bài tập, theo dải lớp liền nhau
+    lgl = [r for r in allr if r in lg]
+    for a, part in zip(ACCS, split(lgl, lambda r: lg[r][1], len(ACCS))):
+        for j, batch in enumerate([b for b in split(part, lambda r: lg[r][1], LG_FILES) if b], 1):
+            tag = '%s-LG-%d' % (a, j)
+            items = [(r, lg[r][0], lg[r][1]) for r in batch]
+            txt, out = lg_file(a, tag, items)
             rng = label(batch[0]) + ('' if label(batch[0]) == label(batch[-1]) else ' → ' + label(batch[-1]))
-            if items:
-                k1 = k + 1; tag = '%s-%02d-LG' % (a, k1)
-                txt, out = lg_file(a, tag, items); add('LG', txt, out, 'Lời giải %s: %d bài tập, %d bài học (%s)' % (rng, sum(x[2] for x in items), len(items), ', '.join(x[0] for x in items)))
-            if gvs:
-                k1 = k + 1; tag = '%s-%02d-GV' % (a, k1)
-                txt, out = gv_file(a, tag, gvs, spec); add('GV', txt, out, 'Giọng văn %s: %d bài học (%s)' % (rng, len(gvs), ', '.join(gvs)))
-                for r in gvs: gv_owner[r] = (a, tag)
-            batch = []
-        for r in mine:
-            nlg = sum(lg[x][1] for x in batch if x in lg) + (lg[r][1] if r in lg else 0)
-            ngv = sum(1 for x in batch if x in gv) + (1 if r in gv else 0)
-            if batch and (nlg > LG_MAX or ngv > GV_MAX or label(r) != label(batch[0])): flush()
-            batch.append(r)
-        flush()
-        if a in KD_ACC:
-            k += 1; tag = '%s-%02d-KD' % (a, k)
-            txt = kd_file(a, tag, KD_ACC[a]); open(os.path.join(d, tag + '.txt'), 'w', encoding='utf-8').write(txt)
-            rows.append((k, tag + '.txt', '<mã đề>.vi.md + <mã đề>.en.md (mỗi đề)', 'Kho đề thi: 5 đề ' + KD_PAPERS[KD_ACC[a]][0].lower(), len(txt.encode()) // 1024))
-        table.append((a, d, rows, mine))
-    write_board(table)
+            board['2-LOI-GIAI'].append((a, tag + '.txt', out, '%s: %d bài tập, %d bài học' % (rng, sum(x[2] for x in items), len(items)), save('2-LOI-GIAI', tag + '.txt', txt)))
+
+    # 3. Giọng văn: chia đều số bài học
+    gvl = [r for r in allr if r in gv]
+    for a, part in zip(ACCS, split(gvl, lambda r: 1, len(ACCS))):
+        j = 0
+        for i in range(0, len(part), GV_MAX):
+            rels = part[i:i + GV_MAX]; j += 1; tag = '%s-GV-%d' % (a, j)
+            txt, out = gv_file(a, tag, rels, spec)
+            rng = label(rels[0]) + ('' if label(rels[0]) == label(rels[-1]) else ' → ' + label(rels[-1]))
+            board['3-GIONG-VAN'].append((a, tag + '.txt', out, '%s: %d bài học' % (rng, len(rels)), save('3-GIONG-VAN', tag + '.txt', txt)))
+            for r in rels: gv_owner[r] = (a, tag)
+
+    # 4. Kho đề: mỗi tài khoản một đề
+    for a, (kind, paper) in zip(ACCS, KD_LIST):
+        tag = '%s-KD-1' % a
+        txt = kd_file(a, tag, kind, paper)
+        board['4-KHO-DE'].append((a, tag + '.txt', '<mã đề>.vi.md và <mã đề>.en.md', paper, save('4-KHO-DE', tag + '.txt', txt)))
+
+    write_board(board)
     mark_tables(gv_owner)
-    for a, d, rows, mine in table:
-        print('%-18s %2d file, %3d bài học (%s → %s)' % (a, len(rows), len(mine), label(mine[0]), label(mine[-1])))
+    for ph, kind, title in PHASES:
+        rows = board[ph]
+        print('%-12s %3d file' % (ph, len(rows)))
 
 
-def write_board(table):
-    L = ['# Đợt 3 (19/11/2026): bảng giao việc cho 15 tài khoản Claude Free', '',
-         'Mỗi tài khoản một thư mục. Mỗi file là MỘT cuộc trò chuyện mới. Giao ĐÚNG THỨ TỰ số trong tên file',
-         '(01, 02, 03, …); xong file trước mới giao file sau. Không cần đợi các tài khoản khác.', '',
-         '**Cách giao một file:** mở cuộc trò chuyện MỚI trong đúng tài khoản → đính kèm file → gõ',
-         '"Làm đúng theo hướng dẫn trong file." Bị dừng giữa chừng: lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.', '',
-         '**Cách nộp:** tải file kết quả về, giữ ĐÚNG tên ở cột "File nộp về", bỏ vào Dropbox `Lemonmath.com/viec da lam`,',
-         'rồi đánh dấu ô Xong. Riêng file MD (mức độ): kết quả nằm trong khung chat, chép hết vào một file .txt đặt đúng tên.', '',
-         '**Nhắn tài khoản Pro:** "nhận bài đợt 3" bất cứ lúc nào có file mới trong "viec da lam".', '',
-         'Ghi chú: LG = viết lại lời giải bài tập (chuẩn 2e); GV = viết lại phần lời theo giọng người thầy (chuẩn 2f);',
-         'MD = gắn mức độ nhận thức cho câu trắc nghiệm; KD = chuyển đề thi thật thành trang Kho đề thi (bạn tải PDF đề đính kèm).', '']
-    L += ['## Tổng quan', '', '| Tài khoản | Số file | Bài học | Phạm vi |', '|---|---|---|---|']
-    for a, d, rows, mine in table:
-        L.append('| %s | %d | %d | %s → %s |' % (a, len(rows), len(mine), label(mine[0]), label(mine[-1])))
-    for a, d, rows, mine in table:
-        L += ['', '## %s (thư mục `%s`)' % (a, os.path.basename(d)), '', '| # | File giao | File nộp về | Nội dung | Cỡ | Xong |', '|---|---|---|---|---|---|']
-        for k, f, out, desc, kb in rows:
-            short = re.sub(r' \((?:[a-z0-9/-]+, )*[a-z0-9/-]+\)$', '', desc)
-            L.append('| %02d | %s | %s | %s | %d KB | ☐ |' % (k, f, out, short, kb))
+def write_board(board):
+    L = ['# Đợt 3 (19/11/2026): bảng giao việc cho %d tài khoản Claude Free' % len(ACCS), '',
+         'Làm theo GIAI ĐOẠN: cả %d tài khoản cùng làm giai đoạn 1; tài khoản nào xong phần của mình ở giai đoạn 1' % len(ACCS),
+         'thì sang giai đoạn 2, và cứ thế. Mỗi giai đoạn là một thư mục; trong thư mục, file xếp theo tên tài khoản.', '',
+         '| Giai đoạn | Thư mục | Việc | Số file |', '|---|---|---|---|']
+    for i, (ph, kind, title) in enumerate(PHASES, 1):
+        L.append('| %d | `%s` | %s | %d |' % (i, ph, title, len(board[ph])))
+    L += ['', '**Cách giao một file:** mở cuộc trò chuyện MỚI trong đúng tài khoản (tên tài khoản ở đầu tên file) → đính kèm file → gõ',
+          '"Làm đúng theo hướng dẫn trong file." Bị dừng giữa chừng: lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.',
+          'Một tài khoản có nhiều file trong cùng giai đoạn (…-1, …-2, …): làm lần lượt, mỗi file một cuộc trò chuyện mới.', '',
+          '**Cách nộp:** tải file kết quả về, giữ ĐÚNG tên ở cột "File nộp về", bỏ vào Dropbox `Lemonmath.com/viec da lam`,',
+          'rồi đánh dấu ô Xong. Riêng giai đoạn 1 (mức độ): kết quả nằm trong khung chat, chép hết vào một file .txt đặt đúng tên.',
+          'Giai đoạn 4 (Kho đề): bạn tải đề PDF từ toanmath.com theo cột "Nội dung" và đính kèm cùng file giao.', '',
+          '**Đặt tên cuộc trò chuyện** đúng bằng tên file (ví dụ `Kinangtoan-LG-2`): nhìn danh sách chat là biết đang làm tới đâu.', '',
+          '**Nhắn tài khoản Pro:** "nhận bài đợt 3" bất cứ lúc nào có file mới trong "viec da lam".', '',
+          'Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BANG-THEO-DOI.txt`.']
+    for i, (ph, kind, title) in enumerate(PHASES, 1):
+        L += ['', '## Giai đoạn %d: %s (thư mục `%s`)' % (i, title, ph), '',
+              '| Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |', '|---|---|---|---|---|---|']
+        for a, f, out, desc, kb in board[ph]:
+            L.append('| %s | %s | %s | %s | %d KB | ☐ |' % (a, f, out, desc, kb))
     open(os.path.join(OUT, 'BANG-GIAO.md'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
-    # bản chi tiết cho tài khoản Pro: bài nào trong file nào
-    D = ['# Đợt 3: bài học trong từng file (dành cho tài khoản Pro)', '']
-    for a, d, rows, mine in table:
-        D.append('## ' + a)
-        for k, f, out, desc, kb in rows: D.append('- %s: %s' % (f, desc))
-        D.append('')
-    open(os.path.join(OUT, 'CHI-TIET.md'), 'w', encoding='utf-8').write('\n'.join(D))
+    # bảng theo dõi nhanh: mỗi tài khoản một dòng, mỗi file một ô
+    cols = {a: [] for a in ACCS}
+    for ph, kind, title in PHASES:
+        for a, f, out, desc, kb in board[ph]: cols[a].append(f[len(a) + 1:-4])
+    T = ['ĐỢT 3 – BẢNG THEO DÕI (tích [x] khi file đó đã nộp vào "viec da lam")',
+         'Thứ tự làm: MD (mức độ) -> LG (lời giải) -> GV (giọng văn) -> KD (kho đề). Tên chat = tên file.', '']
+    w = max(len(a) for a in ACCS)
+    for a in ACCS:
+        T.append(a.ljust(w) + '  ' + '  '.join('[ ] ' + c for c in cols[a]))
+    open(os.path.join(OUT, 'BANG-THEO-DOI.txt'), 'w', encoding='utf-8').write('\n'.join(T) + '\n')
 
 
 def mark_tables(gv_owner):

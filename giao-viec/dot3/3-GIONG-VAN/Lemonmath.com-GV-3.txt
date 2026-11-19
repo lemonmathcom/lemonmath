@@ -1,0 +1,1552 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/triangles-quadrilaterals-rectangles, g3/unit-fractions, g4/basic-property-of-fractions, g4/event-frequency
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath.com-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath.com-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/triangles-quadrilaterals-rectangles – BẢN TIẾNG VIỆT ########
+---
+title: Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông
+description: Em nhận biết hình tam giác, hình tứ giác, hình chữ nhật, hình vuông qua số đỉnh, số cạnh, góc vuông và độ dài các cạnh.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hình tam giác và hình tứ giác qua số đỉnh, số cạnh.
+  - Nhận biết hình chữ nhật và hình vuông, nêu đặc điểm về góc và cạnh.
+  - Tìm độ dài các cạnh của hình chữ nhật, hình vuông khi biết một vài cạnh.
+  :::
+
+[[P1·3a91]]
+Lan cắt giấy màu thành nhiều hình. Có hình có $3$ cạnh, có hình có $4$ cạnh. Có hình có $4$ góc vuông. Em hãy giúp Lan gọi tên từng hình nhé.
+
+[[P2·e7bc]]
+Muốn gọi đúng tên, em chỉ cần đếm đỉnh, đếm cạnh và dùng ê ke kiểm tra góc vuông.
+
+## Cùng khám phá
+
+[[P3·c8d7]]
+Em nhìn một hình và đếm:
+
+[[P4·fc56]]
+- Hình có $3$ đỉnh và $3$ cạnh là **hình tam giác**.
+- Hình có $4$ đỉnh và $4$ cạnh là **hình tứ giác**.
+
+[[P5·0921]]
+Trong các hình tứ giác, có hai hình rất đặc biệt. Em xem hình chữ nhật $ABCD$ dưới đây.
+
+:::diagram Hình chữ nhật ABCD
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·ec09]]
+Hình có $4$ góc vuông. Hai cạnh đối diện $AB$ và $CD$ bằng nhau, hai cạnh đối diện $BC$ và $AD$ cũng bằng nhau.
+
+[[P7·91ee]]
+Còn hình vuông $MNPQ$ thì cả $4$ cạnh đều bằng nhau.
+
+:::diagram Hình vuông MNPQ
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách nhận biết các hình
+  - **Hình tam giác:** $3$ đỉnh, $3$ cạnh.
+  - **Hình tứ giác:** $4$ đỉnh, $4$ cạnh.
+  - **Hình chữ nhật:** $4$ góc vuông, các cạnh đối diện bằng nhau.
+  - **Hình vuông:** $4$ góc vuông, $4$ cạnh bằng nhau.
+  :::
+
+[[P8·2b99]]
+Em có thể tự kiểm tra: gấp đôi một tờ giấy hình chữ nhật, hai cạnh đối diện sẽ trùng khít nhau.
+
+## Ví dụ
+
+[[P9·b253]]
+Ta bắt đầu với một bài tìm độ dài cạnh của hình chữ nhật.
+
+  :::example Cạnh của hình chữ nhật
+  Hình chữ nhật $ABCD$ có $AB=4$ cm, $BC=3$ cm. Tìm độ dài $CD$ và $AD$.
+
+  **Lời giải.** Hai cạnh đối diện của hình chữ nhật bằng nhau. $CD$ đối diện $AB$, còn $AD$ đối diện $BC$:
+
+  $$CD=AB=4\ \text{cm},\qquad AD=BC=3\ \text{cm}.$$
+
+  Vậy $CD=4$ cm và $AD=3$ cm.
+  :::
+
+[[P10·f98c]]
+Bây giờ em đoán tên hình từ các đặc điểm.
+
+  :::example Gọi tên hình
+  Một hình có $4$ đỉnh, $4$ góc vuông và $4$ cạnh đều dài $5$ cm. Đó là hình gì?
+
+  **Lời giải.** Hình có $4$ góc vuông và $4$ cạnh bằng nhau nên đó là hình vuông.
+
+  Vậy đó là hình vuông có cạnh $5$ cm.
+  :::
+
+[[P11·3885]]
+Hình vuông có $4$ cạnh bằng nhau, nên ta dùng phép nhân để tính tổng độ dài các cạnh.
+
+  :::example Tổng độ dài bốn cạnh
+  Hình vuông $MNPQ$ có cạnh $5$ cm. Tổng độ dài bốn cạnh là bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** Bốn cạnh đều dài $5$ cm, nên ta lấy $5$ nhân $4$:
+  $$5\times4=20\ \text{(cm)}.$$
+
+  Vậy tổng độ dài bốn cạnh là $20$ cm.
+  :::
+
+[[P12·1905]]
+Cuối cùng, ta xem một đoạn thẳng có thể chia hình thành những hình nào.
+
+  :::example Chia hình chữ nhật
+  Nối hai đỉnh đối diện $A$ và $C$ của hình chữ nhật $ABCD$. Hình chữ nhật được chia thành mấy hình tam giác?
+
+  ![Hình chữ nhật ABCD có đường nối từ A đến C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
+
+  **Lời giải.** Đoạn $AC$ chia hình chữ nhật thành hai hình, mỗi hình có $3$ đỉnh và $3$ cạnh. Đó là tam giác $ABC$ và tam giác $ACD$.
+
+  Vậy hình chữ nhật được chia thành $2$ hình tam giác.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·beff]]
+- **Gọi hình chữ nhật có hai cạnh khác nhau là hình vuông.** Sai: hình có hai cạnh $6$ cm, hai cạnh $2$ cm là hình vuông. Vì sao sai: hình vuông phải có $4$ cạnh bằng nhau. Đúng: đó là hình chữ nhật.
+- **Nhầm cạnh đối diện.** Sai: $ABCD$ là hình chữ nhật, $AB=4$ cm nên $BC=4$ cm. Vì sao sai: $BC$ không đối diện $AB$. Đúng: $CD=4$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $20$". Đúng: "Đáp số: $20$ cm".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hình tam giác | triangle
+  - hình tứ giác | quadrilateral
+  - đỉnh | vertex (corner)
+  - cạnh | side
+  - góc vuông | right angle
+  - hình chữ nhật | rectangle
+  - hình vuông | square
+  - cạnh đối diện | opposite sides
+  :::
+
+## Tóm tắt
+
+[[P14·3f51]]
+- Hình tam giác có $3$ đỉnh, $3$ cạnh; hình tứ giác có $4$ đỉnh, $4$ cạnh.
+- Hình chữ nhật có $4$ góc vuông; các cạnh đối diện bằng nhau.
+- Hình vuông có $4$ góc vuông và $4$ cạnh bằng nhau.
+- Tổng độ dài bốn cạnh của hình vuông cạnh $a$ là $a\times4$.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/triangles-quadrilaterals-rectangles – BẢN TIẾNG ANH ########
+---
+title: Triangles and quadrilaterals. Rectangles and squares
+description: Recognise triangles, quadrilaterals, rectangles and squares by their vertices, sides, right angles and side lengths.
+minutes: 15
+---
+
+  :::goals
+  - Recognise triangles and quadrilaterals by their number of vertices and sides.
+  - Recognise rectangles and squares and say what is special about their angles and sides.
+  - Find the side lengths of a rectangle or a square when you know some of them.
+  :::
+
+[[P1·df12]]
+Lan cuts coloured paper into different shapes. Some shapes have $3$ sides and some have $4$ sides. Some have $4$ right angles. Can you help Lan name each shape?
+
+[[P2·0329]]
+To name a shape correctly, you only need to count the vertices, count the sides and check right angles with a set square.
+
+## Let's explore
+
+[[P3·a525]]
+Look at a shape and count:
+
+[[P4·1f1a]]
+- A shape with $3$ vertices and $3$ sides is a **triangle**.
+- A shape with $4$ vertices and $4$ sides is a **quadrilateral**.
+
+[[P5·a77e]]
+Two quadrilaterals are very special. Look at rectangle $ABCD$ below.
+
+:::diagram Rectangle ABCD
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·cf41]]
+It has $4$ right angles. The opposite sides $AB$ and $CD$ are equal, and the opposite sides $BC$ and $AD$ are equal too.
+
+[[P7·65fb]]
+In square $MNPQ$, all $4$ sides are equal.
+
+:::diagram Square MNPQ
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to recognise the shapes
+  - **Triangle:** $3$ vertices, $3$ sides.
+  - **Quadrilateral:** $4$ vertices, $4$ sides.
+  - **Rectangle:** $4$ right angles, opposite sides equal.
+  - **Square:** $4$ right angles, $4$ equal sides.
+  :::
+
+[[P8·fb79]]
+You can check this yourself: fold a paper rectangle in half, and the opposite sides lie exactly on top of each other.
+
+## Examples
+
+[[P9·b59b]]
+We start with finding the sides of a rectangle.
+
+  :::example Sides of a rectangle
+  Rectangle $ABCD$ has $AB=4$ cm and $BC=3$ cm. Find $CD$ and $AD$.
+
+  **Solution.** Opposite sides of a rectangle are equal. $CD$ is opposite $AB$, and $AD$ is opposite $BC$:
+
+  $$CD=AB=4\ \text{cm},\qquad AD=BC=3\ \text{cm}.$$
+
+  So $CD=4$ cm and $AD=3$ cm.
+  :::
+
+[[P10·8620]]
+Now guess a shape from its features.
+
+  :::example Naming a shape
+  A shape has $4$ vertices, $4$ right angles and $4$ sides that are each $5$ cm long. What shape is it?
+
+  **Solution.** It has $4$ right angles and $4$ equal sides, so it is a square.
+
+  So it is a square with sides of $5$ cm.
+  :::
+
+[[P11·86d4]]
+A square has $4$ equal sides, so we can use multiplication to find the total length of its sides.
+
+  :::example Total length of the four sides
+  Square $MNPQ$ has sides of $5$ cm. What is the total length of the four sides, in centimetres?
+
+  **Solution.** All four sides are $5$ cm, so we multiply $5$ by $4$:
+  $$5\times4=20\ \text{(cm)}.$$
+
+  So the four sides are $20$ cm long altogether.
+  :::
+
+[[P12·431f]]
+Finally, see which shapes a straight line can make inside another shape.
+
+  :::example Cutting a rectangle
+  Join the opposite vertices $A$ and $C$ of rectangle $ABCD$. Into how many triangles is the rectangle divided?
+
+  ![Rectangle ABCD with a diagonal from A to C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
+
+  **Solution.** The line $AC$ cuts the rectangle into two shapes, each with $3$ vertices and $3$ sides. They are triangle $ABC$ and triangle $ACD$.
+
+  So the rectangle is divided into $2$ triangles.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·4e7e]]
+- **Calling a rectangle with unequal sides a square.** Wrong: a shape with two sides of $6$ cm and two sides of $2$ cm is a square. Why it is wrong: a square needs $4$ equal sides. Right: it is a rectangle.
+- **Mixing up opposite sides.** Wrong: $ABCD$ is a rectangle and $AB=4$ cm, so $BC=4$ cm. Why it is wrong: $BC$ is not opposite $AB$. Right: $CD=4$ cm.
+- **No unit.** Wrong: "Answer: $20$". Right: "Answer: $20$ cm".
+:::
+
+## Key terms
+
+  :::terms
+  - triangle | hình tam giác
+  - quadrilateral | hình tứ giác
+  - vertex (corner) | đỉnh
+  - side | cạnh
+  - right angle | góc vuông
+  - rectangle | hình chữ nhật
+  - square | hình vuông
+  - opposite sides | cạnh đối diện
+  :::
+
+## Summary
+
+[[P14·464d]]
+- A triangle has $3$ vertices and $3$ sides; a quadrilateral has $4$ vertices and $4$ sides.
+- A rectangle has $4$ right angles; opposite sides are equal.
+- A square has $4$ right angles and $4$ equal sides.
+- The total length of the four sides of a square with side $a$ is $a\times4$.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/unit-fractions – BẢN TIẾNG VIỆT ########
+---
+title: Một phần mấy
+description: Em học cách chia một hình hoặc một số thành các phần bằng nhau, đọc và viết một phần n, rồi tìm một phần n của một số bằng phép chia.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết một phần $n$ của một hình, đọc và viết $\dfrac{1}{n}$.
+  - Biết chia càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
+  - Tìm một phần $n$ của một số bằng phép chia và giải bài toán có lời văn.
+  :::
+
+[[P1·27b6]]
+Mẹ cắt một chiếc bánh thành các phần bằng nhau để chia cho $4$ bạn, mỗi bạn một phần. Hỏi mỗi bạn được một phần mấy của chiếc bánh?
+
+[[P2·8a15]]
+Em có thể trả lời bằng lời, nhưng toán học có cách viết gọn cho "một phần mấy". Bài này dạy em cách đọc, cách viết và cách dùng nó.
+
+## Cùng khám phá
+
+[[P3·0b74]]
+Ta xem chiếc bánh là một hình chữ nhật và chia thành $4$ phần bằng nhau.
+
+:::diagram Hình chữ nhật chia thành 4 phần bằng nhau
+   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·29c1]]
+Hình được chia thành $4$ phần **bằng nhau**. Mỗi phần là **một phần bốn** của hình, viết là $\dfrac{1}{4}$. Vậy mỗi bạn được $\dfrac{1}{4}$ chiếc bánh.
+
+[[P5·0b6e]]
+Nếu chia thành $2$ phần bằng nhau, mỗi phần là $\dfrac{1}{2}$ hình. Nếu chia thành $8$ phần bằng nhau, mỗi phần là $\dfrac{1}{8}$ hình. Chia thành càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
+
+  :::theorem Một phần mấy
+  Chia một hình (hoặc một số) thành $n$ phần bằng nhau, mỗi phần là **một phần $n$** của hình (của số đó), viết là $\dfrac{1}{n}$.
+
+  | Viết | $\dfrac{1}{2}$ | $\dfrac{1}{3}$ | $\dfrac{1}{4}$ | $\dfrac{1}{5}$ | $\dfrac{1}{6}$ |
+  |---|---|---|---|---|---|
+  | Đọc | một phần hai | một phần ba | một phần bốn | một phần năm | một phần sáu |
+
+  Muốn tìm một phần $n$ của một số, ta lấy số đó chia cho $n$.
+  :::
+
+[[P6·9c28]]
+Cách tìm này đúng vì chia số đó thành $n$ phần bằng nhau, mỗi phần chính là một phần $n$ của số đó. Ví dụ $12$ cái kẹo chia thành $3$ phần bằng nhau, mỗi phần có $12:3=4$ cái, nên $\dfrac{1}{3}$ của $12$ là $4$.
+
+## Ví dụ
+
+[[P7·3be6]]
+Ta bắt đầu bằng việc gọi tên một phần.
+
+  :::example Sợi dây
+  Một sợi dây được cắt thành $3$ đoạn bằng nhau. Mỗi đoạn là một phần mấy của sợi dây?
+
+  ![Một sợi dây có hai vạch cắt chia thành ba đoạn bằng nhau](/assets/img/g3/g3-unit-fractions-01.svg)
+
+  **Lời giải.** Sợi dây được chia thành $3$ phần bằng nhau, nên mỗi đoạn là một phần ba của sợi dây:
+  $$\dfrac{1}{3}.$$
+  Vậy mỗi đoạn là $\dfrac{1}{3}$ sợi dây.
+  :::
+
+[[P8·89e3]]
+Bây giờ em tập đọc và viết.
+
+  :::example Đọc và viết
+  a) Viết "một phần bảy" bằng chữ số.
+
+  b) Đọc $\dfrac{1}{8}$.
+
+  **Lời giải.** Số dưới là số phần bằng nhau, số trên là $1$ phần được lấy.
+
+  a) Một phần bảy viết là $\dfrac{1}{7}$.
+
+  b) $\dfrac{1}{8}$ đọc là một phần tám.
+  :::
+
+[[P9·b0bc]]
+Tiếp theo, em tìm một phần $n$ của một số.
+
+  :::example Tìm $\dfrac{1}{4}$ của $20$
+  **Lời giải.** Muốn tìm một phần bốn của $20$, ta chia $20$ cho $4$:
+  $$20:4=5.$$
+  **Thử lại.** $4\times5=20$. Đúng.
+
+  Vậy $\dfrac{1}{4}$ của $20$ là $5$.
+  :::
+
+[[P10·6a96]]
+Làm tương tự với số lớn hơn.
+
+  :::example Tìm $\dfrac{1}{6}$ của $42$
+  **Lời giải.** Ta chia $42$ cho $6$:
+  $$42:6=7.$$
+  **Thử lại.** $6\times7=42$. Đúng.
+
+  Vậy $\dfrac{1}{6}$ của $42$ là $7$.
+  :::
+
+[[P11·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Chia cam
+  Mẹ có $18$ quả cam, cho em $\dfrac{1}{3}$ số cam. Hỏi em được cho bao nhiêu quả cam?
+
+  **Lời giải.** Em được một phần ba của $18$ quả, nên ta chia $18$ cho $3$:
+  $$18:3=6\ \text{(quả)}.$$
+  **Thử lại.** $3\times6=18$. Đúng.
+
+  Vậy em được cho $6$ quả cam.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·be99]]
+- **Các phần không bằng nhau.** Sai: hình chia thành $4$ phần to nhỏ khác nhau, mỗi phần là $\dfrac{1}{4}$. Vì sao sai: $\dfrac{1}{4}$ chỉ dùng khi $4$ phần bằng nhau. Đúng: phải chia thành $4$ phần bằng nhau.
+- **Nhân thay cho chia.** Sai: $\dfrac{1}{3}$ của $12$ là $12\times3=36$. Vì sao sai: một phần ba của $12$ không thể lớn hơn $12$. Đúng: $12:3=4$.
+- **Nhầm phần nhỏ, phần lớn.** Sai: $\dfrac{1}{8}$ lớn hơn $\dfrac{1}{4}$ vì $8>4$. Vì sao sai: chia thành $8$ phần thì mỗi phần nhỏ hơn khi chia thành $4$ phần. Đúng: $\dfrac{1}{4}$ lớn hơn $\dfrac{1}{8}$.
+- **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ quả cam".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - một phần mấy | unit fraction
+  - phân số | fraction
+  - phần bằng nhau | equal parts
+  - một phần hai | one half
+  - một phần ba | one third
+  - một phần bốn | one quarter
+  - chia đều | share equally
+  - thử lại | check the answer
+  :::
+
+## Tóm tắt
+
+[[P13·c0ba]]
+- Chia một hình (hoặc một số) thành $n$ phần **bằng nhau**, mỗi phần là $\dfrac{1}{n}$ của hình (của số đó).
+- $\dfrac{1}{2}$ đọc là một phần hai, $\dfrac{1}{3}$ là một phần ba, $\dfrac{1}{4}$ là một phần bốn.
+- Chia càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
+- Một phần $n$ của một số bằng số đó chia cho $n$.
+- Thử lại bằng phép nhân; ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/unit-fractions – BẢN TIẾNG ANH ########
+---
+title: Unit fractions
+description: Learn to split a shape or a number into equal parts, read and write one-nth, and find one-nth of a number by dividing.
+minutes: 15
+---
+
+  :::goals
+  - Recognise one-$n$th of a shape, and read and write $\dfrac{1}{n}$.
+  - Know that the more equal parts there are, the smaller each part is.
+  - Find one-$n$th of a number by dividing, and solve word problems.
+  :::
+
+[[P1·dbc9]]
+Mum cuts a cake into equal pieces to share among $4$ friends, one piece each. What fraction of the cake does each friend get?
+
+[[P2·35b5]]
+You could answer in words, but maths has a short way to write "one out of so many". This lesson shows you how to read it, write it and use it.
+
+## Let's explore
+
+[[P3·229c]]
+We think of the cake as a rectangle split into $4$ equal parts.
+
+:::diagram A rectangle split into 4 equal parts
+   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·69f0]]
+The shape is split into $4$ **equal** parts. Each part is **one quarter** of the shape, written $\dfrac{1}{4}$. So each friend gets $\dfrac{1}{4}$ of the cake.
+
+[[P5·04ff]]
+If we split into $2$ equal parts, each part is $\dfrac{1}{2}$ of the shape. If we split into $8$ equal parts, each part is $\dfrac{1}{8}$. The more equal parts we make, the smaller each part is.
+
+  :::theorem Unit fractions
+  Split a shape (or a number) into $n$ equal parts. Each part is **one-$n$th** of the shape (of the number), written $\dfrac{1}{n}$.
+
+  | Written | $\dfrac{1}{2}$ | $\dfrac{1}{3}$ | $\dfrac{1}{4}$ | $\dfrac{1}{5}$ | $\dfrac{1}{6}$ |
+  |---|---|---|---|---|---|
+  | Read | one half | one third | one quarter | one fifth | one sixth |
+
+  To find one-$n$th of a number, divide that number by $n$.
+  :::
+
+[[P6·2cde]]
+This works because splitting the number into $n$ equal parts makes each part exactly one-$n$th of it. For example, $12$ sweets split into $3$ equal parts give $12\div3=4$ in each part, so $\dfrac{1}{3}$ of $12$ is $4$.
+
+## Examples
+
+[[P7·4e01]]
+We start by naming one part.
+
+  :::example A piece of string
+  A piece of string is cut into $3$ equal lengths. What fraction of the string is each length?
+
+  ![A rope with two cut marks dividing it into three equal sections](/assets/img/g3/g3-unit-fractions-01.svg)
+
+  **Solution.** The string is split into $3$ equal parts, so each length is one third of the string:
+  $$\dfrac{1}{3}.$$
+  So each length is $\dfrac{1}{3}$ of the string.
+  :::
+
+[[P8·ce80]]
+Now practise reading and writing.
+
+  :::example Read and write
+  a) Write "one seventh" with numbers.
+
+  b) Read $\dfrac{1}{8}$.
+
+  **Solution.** The bottom number is the number of equal parts and the top number is the $1$ part we take.
+
+  a) One seventh is written $\dfrac{1}{7}$.
+
+  b) $\dfrac{1}{8}$ is read "one eighth".
+  :::
+
+[[P9·6bf7]]
+Next, find one-$n$th of a number.
+
+  :::example Find $\dfrac{1}{4}$ of $20$
+  **Solution.** To find one quarter of $20$, we divide $20$ by $4$:
+  $$20\div4=5.$$
+  **Check.** $4\times5=20$. Correct.
+
+  So $\dfrac{1}{4}$ of $20$ is $5$.
+  :::
+
+[[P10·79c9]]
+Do the same with a bigger number.
+
+  :::example Find $\dfrac{1}{6}$ of $42$
+  **Solution.** We divide $42$ by $6$:
+  $$42\div6=7.$$
+  **Check.** $6\times7=42$. Correct.
+
+  So $\dfrac{1}{6}$ of $42$ is $7$.
+  :::
+
+[[P11·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Sharing oranges
+  Mum has $18$ oranges and gives her child $\dfrac{1}{3}$ of them. How many oranges does the child get?
+
+  **Solution.** The child gets one third of $18$ oranges, so we divide $18$ by $3$:
+  $$18\div3=6\ \text{(oranges)}.$$
+  **Check.** $3\times6=18$. Correct.
+
+  So the child gets $6$ oranges.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·c7e3]]
+- **Parts that are not equal.** Wrong: a shape split into $4$ parts of different sizes, each part called $\dfrac{1}{4}$. Why it is wrong: $\dfrac{1}{4}$ is only used when the $4$ parts are equal. Right: split it into $4$ equal parts.
+- **Multiplying instead of dividing.** Wrong: $\dfrac{1}{3}$ of $12$ is $12\times3=36$. Why it is wrong: one third of $12$ cannot be bigger than $12$. Right: $12\div3=4$.
+- **Mixing up small and big.** Wrong: $\dfrac{1}{8}$ is bigger than $\dfrac{1}{4}$ because $8>4$. Why it is wrong: splitting into $8$ parts makes each part smaller than splitting into $4$. Right: $\dfrac{1}{4}$ is bigger than $\dfrac{1}{8}$.
+- **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ oranges".
+:::
+
+## Key terms
+
+  :::terms
+  - unit fraction | một phần mấy
+  - fraction | phân số
+  - equal parts | phần bằng nhau
+  - one half | một phần hai
+  - one third | một phần ba
+  - one quarter | một phần bốn
+  - share equally | chia đều
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P13·9b02]]
+- Split a shape (or a number) into $n$ **equal** parts: each part is $\dfrac{1}{n}$ of it.
+- $\dfrac{1}{2}$ is one half, $\dfrac{1}{3}$ is one third, $\dfrac{1}{4}$ is one quarter.
+- The more equal parts, the smaller each part.
+- One-$n$th of a number is that number divided by $n$.
+- Check with multiplication; write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG VIỆT ########
+---
+title: Tính chất cơ bản của phân số
+description: Em học: nhân hoặc chia cả tử số và mẫu số với cùng một số khác 0 thì được phân số mới bằng phân số đã cho.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu hai phân số bằng nhau có thể có tử số và mẫu số khác nhau.
+  - Nhân hoặc chia cả tử số và mẫu số với cùng một số khác $0$ để được phân số bằng phân số đã cho.
+  - Tìm số còn thiếu trong hai phân số bằng nhau.
+  :::
+
+[[P1·e665]]
+Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Hai bạn ai ăn nhiều hơn?
+
+[[P2·96ec]]
+Hai phân số trông khác nhau, vì tử số và mẫu số đều khác. Nhưng có thể phần bánh hai bạn ăn bằng nhau. Bài này giúp em biết khi nào hai phân số bằng nhau.
+
+## Cùng khám phá
+
+[[P3·7362]]
+Ta cắt chiếc bánh từng bước.
+
+[[P4·e835]]
+- Chiếc bánh cắt đôi: Lan ăn $1$ phần trong $2$ phần, tức $\dfrac{1}{2}$.
+- Cắt mỗi nửa thành $2$ phần nhỏ bằng nhau. Chiếc bánh có $4$ phần, và phần Lan ăn gồm $2$ phần nhỏ, tức $\dfrac{2}{4}$.
+- Cắt tiếp mỗi phần nhỏ thành $2$: chiếc bánh có $8$ phần, phần Lan ăn gồm $4$ phần, tức $\dfrac{4}{8}$.
+
+[[P5·f3b6]]
+Chiếc bánh và phần Lan ăn vẫn như cũ, chỉ cách cắt khác nhau. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
+
+[[P6·77a2]]
+Ta thấy tử số và mẫu số cùng nhân với $2$: $1\times2=2$ và $2\times2=4$.
+
+:::graph Trên trục số: 1/2, 2/4 và 4/8 là cùng một điểm
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Tính chất cơ bản của phân số
+  Nếu nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+
+  Nếu chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (chia hết cả hai) thì cũng được một phân số bằng phân số đã cho.
+  :::
+
+[[P7·2e48]]
+Điều này đúng vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần cả bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
+
+## Ví dụ
+
+[[P8·6384]]
+Ta bắt đầu với phép nhân.
+
+  :::example Nhân tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Lời giải.** Mẫu số $3$ thành $6$ nên đã nhân với $2$, vì $3\times2=6$. Ta nhân cả tử số với $2$:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  Vậy số cần tìm là $4$.
+  :::
+
+[[P9·0012]]
+Bây giờ số nhân khó thấy hơn.
+
+  :::example Tìm số nhân
+  Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Lời giải.** Ta tìm số nhân bằng cách hỏi: $5$ nhân mấy được $20$? Đó là $20:5=4$. Nhân cả tử số với $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  Vậy số cần tìm là $12$.
+
+  **Kiểm tra.** $12:4=3$ và $20:4=5$, đúng là $\dfrac{3}{5}$.
+  :::
+
+[[P10·fb76]]
+Ta cũng có thể chia, nhưng phải chia hết cả hai số.
+
+  :::example Chia tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Lời giải.** Mẫu số $8$ thành $4$ nên đã chia cho $2$, vì $8:2=4$. Chia cả tử số cho $2$:
+  $$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
+  Vậy số cần tìm là $3$.
+  :::
+
+[[P11·85ac]]
+Bây giờ em dùng tính chất này để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Ai ăn nhiều hơn?
+  Lan ăn $\dfrac{1}{2}$ chiếc bánh, Hà ăn $\dfrac{3}{6}$ chiếc bánh cùng loại. Hai bạn có ăn bằng nhau không?
+
+  **Lời giải.** Ta đưa $\dfrac{3}{6}$ về mẫu số nhỏ hơn bằng cách chia cả tử số và mẫu số cho $3$:
+  $$\frac{3}{6}=\frac{3:3}{6:3}=\frac{1}{2}.$$
+  Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·6a26]]
+- **Chỉ nhân tử số.** Sai: $\dfrac{2}{3}=\dfrac{4}{3}$. Vì sao sai: phải nhân cả tử số và mẫu số với cùng một số. Đúng: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Cộng thay vì nhân.** Sai: $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$). Vì sao sai: tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Chia không hết.** Sai: chia cả $5$ và $8$ cho $2$. Vì sao sai: $5$ không chia hết cho $2$. Đúng: chỉ chia khi cả hai số cùng chia hết cho số đó.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tính chất cơ bản của phân số | basic property of fractions
+  - phân số bằng nhau | equivalent fractions
+  - tử số | numerator
+  - mẫu số | denominator
+  - nhân | multiply
+  - chia hết | divide exactly
+  - cùng một số | the same number
+  :::
+
+## Tóm tắt
+
+[[P13·a615]]
+- Nhân cả tử số và mẫu số với cùng một số khác $0$ thì được phân số bằng phân số đã cho.
+- Chia cả tử số và mẫu số cho cùng một số khác $0$ (chia hết cả hai) cũng vậy.
+- Ví dụ: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- Tìm số còn thiếu: tìm số nhân hoặc số chia từ hai mẫu số.
+- Hai phân số bằng nhau cùng biểu diễn một điểm trên trục số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG ANH ########
+---
+title: The basic property of fractions
+description: Learn that multiplying or dividing both the numerator and denominator by the same non-zero number gives a fraction equal to the one we started with.
+minutes: 15
+---
+
+  :::goals
+  - Understand that equal fractions can have different numerators and denominators.
+  - Multiply or divide both the numerator and denominator by the same non-zero number to get an equal fraction.
+  - Find a missing number in two equal fractions.
+  :::
+
+[[P1·4cd7]]
+Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more?
+
+[[P2·cdc7]]
+The two fractions look different, because both the numerators and the denominators are different. But the two children may have eaten the same amount. This lesson helps you see when two fractions are equal.
+
+## Let's explore
+
+[[P3·fabe]]
+We cut the cake step by step.
+
+[[P4·4235]]
+- The cake is cut in half: Lan eats $1$ part out of $2$, which is $\dfrac{1}{2}$.
+- Cut each half into $2$ equal smaller pieces. The cake has $4$ pieces, and Lan's part is $2$ small pieces, which is $\dfrac{2}{4}$.
+- Cut each small piece into $2$ again: the cake has $8$ pieces and Lan's part is $4$ pieces, which is $\dfrac{4}{8}$.
+
+[[P5·df7c]]
+The cake and Lan's part have not changed, only the way we cut it. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
+
+[[P6·cbe0]]
+We can see that the numerator and denominator are both multiplied by $2$: $1\times2=2$ and $2\times2=4$.
+
+:::graph On the number line: 1/2, 2/4 and 4/8 are the same point
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The basic property of fractions
+  If we multiply both the numerator and the denominator of a fraction by the same non-zero whole number, we get a fraction equal to the one we started with.
+
+  If we divide both the numerator and the denominator by the same non-zero whole number (dividing both exactly), we also get an equal fraction.
+  :::
+
+[[P7·86b5]]
+This is true because multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
+
+## Examples
+
+[[P8·65ae]]
+We start with multiplying.
+
+  :::example Multiplying the numerator and denominator
+  Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Solution.** The denominator $3$ became $6$, so it was multiplied by $2$, because $3\times2=6$. We multiply the numerator by $2$ as well:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  So the missing number is $4$.
+  :::
+
+[[P9·c0a7]]
+Now the multiplier is harder to see.
+
+  :::example Finding the multiplier
+  Find the missing number: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Solution.** To find the multiplier, ask: $5$ times what makes $20$? That is $20\div5=4$. Multiply the numerator by $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  So the missing number is $12$.
+
+  **Check.** $12\div4=3$ and $20\div4=5$, which gives $\dfrac{3}{5}$. Correct.
+  :::
+
+[[P10·8750]]
+We can also divide, but both numbers must divide exactly.
+
+  :::example Dividing the numerator and denominator
+  Find the missing number: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Solution.** The denominator $8$ became $4$, so it was divided by $2$, because $8\div2=4$. Divide the numerator by $2$ as well:
+  $$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
+  So the missing number is $3$.
+  :::
+
+[[P11·0b8e]]
+Now we use the property to answer a question from everyday life.
+
+  :::example Who eats more?
+  Lan eats $\dfrac{1}{2}$ of a cake and Ha eats $\dfrac{3}{6}$ of the same kind of cake. Do they eat the same amount?
+
+  **Solution.** We bring $\dfrac{3}{6}$ to a smaller denominator by dividing both the numerator and the denominator by $3$:
+  $$\frac{3}{6}=\frac{3\div3}{6\div3}=\frac{1}{2}.$$
+  So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·1f25]]
+- **Multiplying only the numerator.** Wrong: $\dfrac{2}{3}=\dfrac{4}{3}$. Why it is wrong: both the numerator and the denominator must be multiplied by the same number. Right: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Adding instead of multiplying.** Wrong: $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both). Why it is wrong: the basic property is only about multiplying and dividing. Right: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Dividing when it does not divide exactly.** Wrong: dividing both $5$ and $8$ by $2$. Why it is wrong: $5$ does not divide exactly by $2$. Right: divide only when both numbers divide exactly by that number.
+:::
+
+## Key terms
+
+  :::terms
+  - basic property of fractions | tính chất cơ bản của phân số
+  - equivalent fractions | phân số bằng nhau
+  - numerator | tử số
+  - denominator | mẫu số
+  - multiply | nhân
+  - divide exactly | chia hết
+  - the same number | cùng một số
+  :::
+
+## Summary
+
+[[P13·ccd4]]
+- Multiplying both the numerator and the denominator by the same non-zero number gives an equal fraction.
+- Dividing both by the same non-zero number (exactly) also does.
+- Example: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- To find a missing number, find the multiplier or divisor from the two denominators.
+- Equal fractions show the same point on a number line.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/event-frequency – BẢN TIẾNG VIỆT ########
+---
+title: Số lần xuất hiện của một sự kiện
+description: Em học cách ghi kết quả nhiều lần thử, dùng vạch kiểm đếm và đếm số lần xuất hiện của từng sự kiện, rồi kiểm tra tổng bằng số lần thử.
+minutes: 15
+---
+
+  :::goals
+  - Biết đếm số lần xuất hiện của một sự kiện trong nhiều lần thử.
+  - Dùng bảng kiểm đếm (vạch kiểm đếm) để ghi và đọc kết quả.
+  - Kiểm tra: tổng số lần các sự kiện bằng số lần thử.
+  :::
+
+[[P1·a9c8]]
+Nam tung một đồng xu $10$ lần và ghi lại kết quả mỗi lần: mặt ngửa (N) hay mặt sấp (S). Kết quả là: N, S, S, N, N, S, N, N, S, N. Mặt ngửa xuất hiện bao nhiêu lần? Mặt sấp xuất hiện bao nhiêu lần?
+
+[[P2·7ace]]
+Em đã biết đọc dãy số liệu và biểu đồ cột. Bài này dạy em cách đếm kết quả của những lần thử như thế.
+
+## Cùng khám phá
+
+[[P3·08c5]]
+Mỗi lần tung đồng xu gọi là một **lần thử**. Mặt ngửa hay mặt sấp xuất hiện là một **sự kiện**. Ta đếm từng sự kiện bằng **vạch kiểm đếm**: mỗi lần xuất hiện, ta gạch một vạch. Cứ đủ $5$ vạch thì gom thành một nhóm cho dễ đếm.
+
+[[P4·ddbe]]
+Với dãy N, S, S, N, N, S, N, N, S, N, em đọc từng lần:
+
+[[P5·0011]]
+- Lần $1$: N, lần $4$: N, lần $5$: N, lần $7$: N, lần $8$: N, lần $10$: N. Có $6$ lần ngửa.
+- Lần $2$, $3$, $6$, $9$ là S. Có $4$ lần sấp.
+
+| Sự kiện | Vạch kiểm đếm | Số lần |
+|---|---|---|
+| Mặt ngửa | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
+| Mặt sấp | $\mid\mid\mid\mid$ | $4$ |
+
+[[P6·0a36]]
+Em kiểm tra lại: $6+4=10$, đúng bằng số lần tung.
+
+  :::definition Số lần xuất hiện của một sự kiện
+  **Số lần xuất hiện** của một sự kiện là số lần sự kiện đó xảy ra trong tất cả các lần thử. Tổng số lần xuất hiện của mọi sự kiện bằng số lần thử.
+  :::
+
+[[P7·1624]]
+Điều này đúng vì mỗi lần thử cho đúng một kết quả. Nên đếm hết các kết quả thì ta được đúng số lần thử.
+
+## Ví dụ
+
+[[P8·fb01]]
+Ta bắt đầu với bài toán đếm trực tiếp.
+
+  :::example Đếm từ dãy kết quả
+  Tung đồng xu $10$ lần được: N, S, S, N, N, S, N, N, S, N. Hỏi mặt ngửa và mặt sấp mỗi mặt xuất hiện mấy lần?
+
+  **Lời giải.** Ta đếm từng mặt, đánh dấu để không sót và không đếm trùng:
+  $$\text{ngửa: } 6\ \text{lần},\qquad \text{sấp: } 4\ \text{lần}.$$
+  Kiểm tra: $6+4=10$ lần tung. Vậy ngửa $6$ lần, sấp $4$ lần.
+  :::
+
+[[P9·d0d0]]
+Bây giờ có ba kết quả khác nhau thay vì hai.
+
+  :::example Lấy bi
+  Trong hộp có bi đỏ, bi xanh và bi vàng. Hà lấy một viên ra xem rồi bỏ lại, làm $12$ lần. Kết quả lần lượt là: Đ, X, Đ, Đ, V, X, Đ, V, Đ, X, Đ, Đ. Mỗi màu xuất hiện mấy lần?
+
+  **Lời giải.** Đếm từng màu trong dãy:
+  $$\text{Đỏ: } 7\ \text{lần},\qquad \text{Xanh: } 3\ \text{lần},\qquad \text{Vàng: } 2\ \text{lần}.$$
+  Kiểm tra: $7+3+2=12$ lần lấy. Vậy đỏ $7$ lần, xanh $3$ lần, vàng $2$ lần.
+  :::
+
+[[P10·7182]]
+Đôi khi kết quả đã cho trong bảng kiểm đếm. Ta đọc bảng rồi trả lời.
+
+  :::example Gieo xúc xắc
+  Gieo một con xúc xắc $20$ lần, ta được số lần xuất hiện của từng mặt:
+
+  | Mặt | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | Số lần | $3$ | $4$ | $2$ | $5$ | $3$ | $3$ |
+
+  Hỏi: a) Mặt nào xuất hiện nhiều nhất, mấy lần? b) Mặt nào ít nhất? c) Các mặt chẵn ($2$, $4$, $6$) xuất hiện tất cả mấy lần?
+
+  **Lời giải.** Trước hết kiểm tra bảng: $3+4+2+5+3+3=20$, đúng bằng số lần gieo.
+
+  a) Số lớn nhất là $5$, ứng với mặt $4$. Mặt $4$ xuất hiện nhiều nhất, $5$ lần.
+
+  b) Số nhỏ nhất là $2$, ứng với mặt $3$.
+
+  c) Cộng số lần của ba mặt chẵn:
+  $$4+5+3=12\ \text{(lần)}.$$
+  Vậy các mặt chẵn xuất hiện $12$ lần.
+  :::
+
+[[P11·9159]]
+Biết tổng số lần thử, ta có thể tìm số lần còn thiếu.
+
+  :::example Tìm số lần còn thiếu
+  Tung đồng xu $15$ lần, mặt ngửa xuất hiện $9$ lần. Mặt sấp xuất hiện mấy lần?
+
+  **Lời giải.** Mỗi lần tung cho ngửa hoặc sấp, nên số lần ngửa cộng số lần sấp bằng $15$. Vậy số lần sấp là:
+  $$15-9=6\ \text{(lần)}.$$
+  **Kiểm tra.** $9+6=15$. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·75d9]]
+- **Đếm sót hoặc đếm trùng.** Sai: dãy N, S, S, N, N có $2$ lần N. Vì sao sai: bỏ sót một lần N. Đúng: $3$ lần N. Em hãy đánh dấu từng kết quả khi đếm.
+- **Tổng không bằng số lần thử.** Sai: $6+5=11$ nhưng chỉ tung $10$ lần. Vì sao sai: có chỗ đếm trùng. Đúng: đếm lại cho đến khi tổng bằng $10$.
+- **Nhầm số lần với tên sự kiện.** Sai: "Mặt ngửa xuất hiện nhiều nhất là $6$" khi hỏi mặt nào. Vì sao sai: $6$ là số lần, còn câu hỏi cần tên mặt. Đúng: mặt ngửa, $6$ lần.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - sự kiện | event
+  - lần thử | trial
+  - số lần xuất hiện | frequency (number of times)
+  - kiểm đếm | tally
+  - vạch kiểm đếm | tally mark
+  - đồng xu | coin
+  - xúc xắc | dice
+  :::
+
+## Tóm tắt
+
+[[P13·d13c]]
+- Mỗi lần tung, lấy, gieo là một lần thử; kết quả của lần thử là một sự kiện.
+- Số lần xuất hiện của một sự kiện: đếm xem sự kiện xảy ra mấy lần.
+- Vạch kiểm đếm: mỗi lần một vạch, đủ $5$ vạch thì gom thành nhóm.
+- Tổng số lần của mọi sự kiện bằng số lần thử.
+- Biết tổng và số lần của một sự kiện thì tìm số lần còn lại bằng phép trừ.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/event-frequency – BẢN TIẾNG ANH ########
+---
+title: How many times an event happens
+description: Learn to record the results of many trials, use tally marks and count how many times each event happens, then check the total matches the trials.
+minutes: 15
+---
+
+  :::goals
+  - Count how many times an event happens in many trials.
+  - Use a tally chart (tally marks) to record and read results.
+  - Check that the total number of times all events happen equals the number of trials.
+  :::
+
+[[P1·8028]]
+Nam tosses a coin $10$ times and records each result: heads (H) or tails (T). The results are: H, T, T, H, H, T, H, H, T, H. How many times did heads come up? How many times did tails come up?
+
+[[P2·34b3]]
+You already know how to read a list of data and a bar chart. This lesson shows you how to count the results of trials like these.
+
+## Let's explore
+
+[[P3·fae9]]
+Each toss of the coin is one **trial**. Heads coming up, or tails coming up, is an **event**. We count each event with **tally marks**: for every time it happens we draw one mark. Every $5$ marks make a group, which is easier to count.
+
+[[P4·bd74]]
+For the list H, T, T, H, H, T, H, H, T, H, read through each toss:
+
+[[P5·d990]]
+- Tosses $1$, $4$, $5$, $7$, $8$ and $10$ are H. Heads came up $6$ times.
+- Tosses $2$, $3$, $6$ and $9$ are T. Tails came up $4$ times.
+
+| Event | Tally marks | Number of times |
+|---|---|---|
+| Heads | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
+| Tails | $\mid\mid\mid\mid$ | $4$ |
+
+[[P6·f33b]]
+Check: $6+4=10$, exactly the number of tosses.
+
+  :::definition How many times an event happens
+  The **frequency** of an event is how many times it happens in all the trials. The frequencies of all the events add up to the number of trials.
+  :::
+
+[[P7·610b]]
+This is true because each trial gives exactly one result. So when we count all the results we get exactly the number of trials.
+
+## Examples
+
+[[P8·2f5c]]
+We start with counting directly.
+
+  :::example Counting from a list of results
+  A coin is tossed $10$ times: H, T, T, H, H, T, H, H, T, H. How many times does each side come up?
+
+  **Solution.** We count each side, ticking the results so that we miss none and count none twice:
+  $$\text{heads: } 6\ \text{times},\qquad \text{tails: } 4\ \text{times}.$$
+  Check: $6+4=10$ tosses. So heads came up $6$ times and tails $4$ times.
+  :::
+
+[[P9·7a97]]
+Now there are three different results instead of two.
+
+  :::example Picking counters
+  A bag has red, blue and yellow counters. Ha takes one out, looks, and puts it back, $12$ times. The results in order are: R, B, R, R, Y, B, R, Y, R, B, R, R. How many times does each colour come up?
+
+  **Solution.** Count each colour in the list:
+  $$\text{Red: } 7\ \text{times},\qquad \text{Blue: } 3\ \text{times},\qquad \text{Yellow: } 2\ \text{times}.$$
+  Check: $7+3+2=12$ picks. So red came up $7$ times, blue $3$ times and yellow $2$ times.
+  :::
+
+[[P10·4a8e]]
+Sometimes the results are already in a tally chart. We read the chart and answer.
+
+  :::example Rolling a dice
+  A dice is rolled $20$ times. This table shows how many times each face came up:
+
+  | Face | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | Number of times | $3$ | $4$ | $2$ | $5$ | $3$ | $3$ |
+
+  a) Which face came up most often, and how many times? b) Which face came up least often? c) How many times did the even faces ($2$, $4$, $6$) come up altogether?
+
+  **Solution.** First check the table: $3+4+2+5+3+3=20$, which equals the number of rolls.
+
+  a) The greatest number is $5$, for face $4$. Face $4$ came up most often, $5$ times.
+
+  b) The least number is $2$, for face $3$.
+
+  c) Add the times for the three even faces:
+  $$4+5+3=12\ \text{(times)}.$$
+  So the even faces came up $12$ times.
+  :::
+
+[[P11·3d1a]]
+If we know the number of trials, we can find a missing frequency.
+
+  :::example Finding a missing number of times
+  A coin is tossed $15$ times and heads comes up $9$ times. How many times does tails come up?
+
+  **Solution.** Every toss gives heads or tails, so the times for heads plus the times for tails make $15$. So tails came up:
+  $$15-9=6\ \text{(times)}.$$
+  **Check.** $9+6=15$. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·5b20]]
+- **Missing or double-counting a result.** Wrong: the list H, T, T, H, H has $2$ heads. Why it is wrong: one H was missed. Right: $3$ heads. Tick each result as you count it.
+- **A total that does not match the trials.** Wrong: $6+5=11$ but only $10$ tosses were made. Why it is wrong: something was counted twice. Right: count again until the total is $10$.
+- **Mixing up the number of times with the name of the event.** Wrong: "The side that came up most is $6$" when asked which side. Why it is wrong: $6$ is a count, but the question asks for a side. Right: heads, $6$ times.
+:::
+
+## Key terms
+
+  :::terms
+  - event | sự kiện
+  - trial | lần thử
+  - frequency (number of times) | số lần xuất hiện
+  - tally | kiểm đếm
+  - tally mark | vạch kiểm đếm
+  - coin | đồng xu
+  - dice | xúc xắc
+  :::
+
+## Summary
+
+[[P13·53d2]]
+- Each toss, pick or roll is one trial; its result is an event.
+- To find how many times an event happens, count its results.
+- Tally marks: one mark each time; every $5$ marks make a group.
+- The times for all events add up to the number of trials.
+- If you know the total and the times for one event, subtract to find the other.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

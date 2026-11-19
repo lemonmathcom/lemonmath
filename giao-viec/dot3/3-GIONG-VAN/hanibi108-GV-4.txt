@@ -1,0 +1,1104 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-GV-4   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-GV-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-GV-4
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/review-space-geometry, g12/review-statistics-probability
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-GV-4-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-GV-4-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-GV-4-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/review-space-geometry – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: hình học không gian"
+description: Ôn quan hệ song song, vuông góc, góc, khoảng cách, góc nhị diện và thể tích khối chóp, khối lăng trụ theo đúng dạng câu hỏi của đề thi tốt nghiệp.
+minutes: 40
+---
+
+  :::goals
+  - Chứng minh nhanh một đường thẳng vuông góc với một mặt phẳng và nhận ra hai mặt phẳng vuông góc.
+  - Xác định và tính góc giữa đường thẳng và mặt phẳng, góc nhị diện.
+  - Tính khoảng cách từ một điểm đến một mặt phẳng và giữa hai đường thẳng chéo nhau.
+  - Tính thể tích khối chóp, khối lăng trụ, kể cả trong bài toán thực tế.
+  :::
+
+[[P1·8eb6]]
+Hình học không gian lớp 11 vẫn có mặt trong đề thi tốt nghiệp. Ở Phần I (trắc nghiệm nhiều lựa chọn), thường có một đến hai câu hỏi về quan hệ vuông góc, góc hoặc thể tích. Ở Phần II hoặc Phần III, đề thường có một câu về khoảng cách, góc nhị diện hoặc thể tích trong tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $0{,}5$ đến $1$ điểm.
+
+[[P2·edc5]]
+Bài ôn này đi qua bốn mảng: quan hệ vuông góc, góc, khoảng cách và thể tích. Mọi ví dụ được viết đúng như một câu trong đề thi. Hầu hết đều dùng chung một hình quen thuộc: hình chóp có cạnh bên vuông góc với đáy.
+
+:::diagram Hình chóp $S.ABCD$ có $SA\perp(ABCD)$, đáy là hình vuông tâm $O$
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Quan hệ song song và vuông góc
+
+  :::theorem Các dấu hiệu cần nhớ
+  - **Đường thẳng vuông góc với mặt phẳng:** nếu $d$ vuông góc với hai đường thẳng cắt nhau nằm trong $(P)$ thì $d\perp(P)$. Khi đó $d$ vuông góc với **mọi** đường thẳng nằm trong $(P)$.
+  - **Hai mặt phẳng vuông góc:** nếu $(Q)$ chứa một đường thẳng vuông góc với $(P)$ thì $(Q)\perp(P)$.
+  - **Định lí ba đường vuông góc:** cho $a$ nằm trong $(P)$ và $b$ không vuông góc với $(P)$, có hình chiếu vuông góc trên $(P)$ là $b'$. Khi đó $a\perp b\iff a\perp b'$.
+  - **Song song:** nếu $d$ song song với một đường thẳng nằm trong $(P)$ và $d$ không nằm trong $(P)$ thì $d\parallel(P)$.
+  :::
+
+[[P3·5ef1]]
+Với hình chóp có $SA\perp(ABCD)$ và đáy là hình vuông, ta luôn có hai "cặp vuông góc" sau. Hãy nhớ cách suy ra chứ không học thuộc kết quả:
+
+  $$BC\perp AB,\ BC\perp SA\ \Rightarrow\ BC\perp(SAB);\qquad BD\perp AC,\ BD\perp SA\ \Rightarrow\ BD\perp(SAC).$$
+
+[[P4·4271]]
+Câu hỏi trắc nghiệm thường đưa ra bốn quan hệ và hỏi quan hệ nào đúng. Cách làm chắc chắn là tìm cho đường thẳng đó **hai** đường thẳng cắt nhau trong mặt phẳng mà nó vuông góc.
+
+  :::example Trắc nghiệm: chọn quan hệ vuông góc đúng
+  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\perp(ABCD)$. Khẳng định nào sau đây đúng?
+
+  **A.** $BD\perp(SAB)$.
+
+  **B.** $BC\perp(SAB)$.
+
+  **C.** $AC\perp(SBD)$.
+
+  **D.** $CD\perp(SBC)$.
+
+  **Lời giải.** Ta kiểm tra từng đường thẳng xem có vuông góc với hai đường thẳng cắt nhau của mặt phẳng đó không.
+
+  $$BC\perp AB\ (\text{đáy là hình vuông}),\quad BC\perp SA\ (SA\perp(ABCD))\ \Rightarrow\ BC\perp(SAB).$$
+
+  Phương án A sai vì $BD$ không vuông góc với $AB$ (góc giữa chúng là $45^\circ$). Phương án C sai vì $AC$ không vuông góc với $SO$. Phương án D sai vì $CD\parallel AB$, mà $AB$ không vuông góc với $SB$ (tam giác $SAB$ vuông tại $A$), nên $CD$ không vuông góc với $SB$.
+
+  Vậy chọn **B**.
+  :::
+
+## Góc trong không gian
+
+:::note Cách xác định góc
+[[P5·e374]]
+- **Góc giữa đường thẳng $d$ và mặt phẳng $(P)$:** là góc giữa $d$ và hình chiếu $d'$ của nó trên $(P)$. Với $SA\perp(ABCD)$, hình chiếu của $SC$ là $AC$, nên góc giữa $SC$ và $(ABCD)$ là $\widehat{SCA}$.
+- **Góc nhị diện $[S, BD, A]$:** lấy điểm $O$ trên cạnh $BD$, kẻ $OS\perp BD$ trong mặt $(SBD)$ và $OA\perp BD$ trong mặt $(ABD)$. Khi đó số đo góc nhị diện là $\widehat{SOA}$.
+- Góc giữa hai mặt phẳng cắt nhau là góc từ $0^\circ$ đến $90^\circ$; góc nhị diện có thể từ $0^\circ$ đến $180^\circ$.
+:::
+
+[[P6·1b08]]
+Để tính góc, ta đưa về một tam giác vuông rồi dùng $\tan$, $\sin$ hoặc $\cos$. Trong đề thi, câu Đúng/Sai về góc thường hỏi cả việc **xác định** góc và việc **tính** góc.
+
+  :::example Đúng/Sai: góc với mặt phẳng và góc nhị diện
+  Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, tâm $O$, $SA\perp(ABCD)$ và $SA=a\sqrt2$.
+
+  a) Góc giữa $SC$ và mặt phẳng $(ABCD)$ là $\widehat{SCA}$.
+
+  b) Góc giữa $SC$ và mặt phẳng $(ABCD)$ bằng $45^\circ$.
+
+  c) Số đo của góc nhị diện $[S, BD, A]$ bằng $60^\circ$.
+
+  d) Sin của góc giữa $SB$ và mặt phẳng $(SAD)$ bằng $\dfrac{\sqrt3}{3}$.
+
+  **Lời giải.** Ta xét từng ý, mỗi ý quy về một tam giác vuông.
+
+  a) **Đúng.** $SA\perp(ABCD)$ nên $AC$ là hình chiếu của $SC$ trên đáy.
+
+  b) **Đúng.** Đường chéo hình vuông là $AC=a\sqrt2$, nên trong tam giác $SAC$ vuông tại $A$:
+
+  $$\tan\widehat{SCA}=\frac{SA}{AC}=\frac{a\sqrt2}{a\sqrt2}=1\ \Rightarrow\ \widehat{SCA}=45^\circ.$$
+
+  c) **Sai.** Vì $BD\perp(SAC)$ nên $BD\perp SO$ và $BD\perp AO$; góc nhị diện là $\widehat{SOA}$. Với $AO=\dfrac{a\sqrt2}{2}$:
+
+  $$\tan\widehat{SOA}=\frac{SA}{AO}=\frac{a\sqrt2}{\frac{a\sqrt2}{2}}=2\ \Rightarrow\ \widehat{SOA}\approx63{,}4^\circ.$$
+
+  d) **Đúng.** $AB\perp AD$ và $AB\perp SA$ nên $AB\perp(SAD)$; hình chiếu của $SB$ trên $(SAD)$ là $SA$, góc cần tìm là $\widehat{BSA}$. Ta có $SB=\sqrt{a^2+2a^2}=a\sqrt3$:
+
+  $$\sin\widehat{BSA}=\frac{AB}{SB}=\frac{a}{a\sqrt3}=\frac{\sqrt3}{3}.$$
+
+  Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
+  :::
+
+:::warning Bẫy thường gặp về góc
+[[P7·92d2]]
+- **Lấy nhầm góc tại đỉnh $S$.** Góc giữa $SC$ và đáy là $\widehat{SCA}$ (đỉnh tại giao điểm của $SC$ với đáy), không phải $\widehat{CSA}$.
+- **Kẻ đường vuông góc sai chỗ.** Với góc nhị diện $[S, BC, A]$ khi đáy là hình vuông, chân đường vuông góc là $B$ (vì $BC\perp(SAB)$), góc là $\widehat{SBA}$; không phải trung điểm $BC$.
+- **Đoán góc là $60^\circ$ vì "trông giống".** Luôn tính $\tan$ trước; $\tan=2$ không cho góc đặc biệt.
+:::
+
+## Khoảng cách
+
+  :::theorem Hai công thức dùng nhiều nhất
+  - Nếu $SA\perp(ABC)$, $AH\perp SK$ với $K$ là chân đường vuông góc hạ từ $A$ xuống $BC$, thì $d(A, (SBC))=AH$ và
+  $$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AK^2}.$$
+  - **Đổi điểm:** nếu $MN\parallel(P)$ thì $d(M, (P))=d(N, (P))$. Nếu đường thẳng $AM$ cắt $(P)$ tại $I$ thì $\dfrac{d(A, (P))}{d(M, (P))}=\dfrac{IA}{IM}$.
+  - **Hai đường thẳng chéo nhau $a$, $b$:** nếu $a\parallel(P)$ với $(P)\supset b$ thì $d(a, b)=d(a, (P))$.
+  :::
+
+[[P8·bfc3]]
+Với đáy là hình vuông hoặc hình chữ nhật, chân $K$ trùng $B$ vì $AB\perp BC$. Kĩ thuật đổi điểm giúp đưa khoảng cách từ một điểm "khó" ($D$, $C$, trung điểm...) về khoảng cách từ $A$.
+
+  :::example Trả lời ngắn: khoảng cách đến một mặt bên
+  Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $3$, $SA\perp(ABCD)$ và $SA=4$. Tính khoảng cách từ điểm $D$ đến mặt phẳng $(SBC)$.
+
+  **Lời giải.** Vì $AD\parallel BC$ nên $AD\parallel(SBC)$, do đó $d(D, (SBC))=d(A, (SBC))$. Kẻ $AH\perp SB$; vì $BC\perp(SAB)$ nên $BC\perp AH$, suy ra $AH\perp(SBC)$:
+
+  $$\frac{1}{AH^2}=\frac{1}{4^2}+\frac{1}{3^2}=\frac{9+16}{144}=\frac{25}{144}\ \Rightarrow\ AH=\frac{12}{5}=2{,}4.$$
+
+  Vậy $d(D, (SBC))=2{,}4$. Trên phiếu trả lời ta ghi $2{,}4$.
+
+  **Nhìn lại.** Theo cùng lí do, khoảng cách giữa hai đường thẳng chéo nhau $AD$ và $SB$ cũng bằng $2{,}4$.
+  :::
+
+## Thể tích khối chóp và khối lăng trụ
+
+  :::theorem Công thức thể tích
+  - Khối chóp: $V=\dfrac13 B\cdot h$; khối lăng trụ: $V=B\cdot h$ ($B$ là diện tích đáy, $h$ là chiều cao).
+  - Khối hộp chữ nhật: $V=abc$; khối lập phương cạnh $a$: $V=a^3$.
+  - Tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc: $V=\dfrac16\,OA\cdot OB\cdot OC$.
+  - Diện tích tam giác đều cạnh $a$: $\dfrac{a^2\sqrt3}{4}$.
+  :::
+
+[[P9·7835]]
+Trong khối chóp đều, chân đường cao là tâm của đáy. Vì vậy chiều cao thường tính bằng định lí Pythagore trong tam giác tạo bởi cạnh bên, đường cao và nửa đường chéo đáy.
+
+  :::example Trả lời ngắn: thể tích một chiếc lều
+  Một chiếc lều cắm trại có dạng khối chóp tứ giác đều, đáy là hình vuông cạnh $6$ m, mỗi cạnh bên dài $5$ m. Tính thể tích không khí bên trong lều (đơn vị: m³, làm tròn kết quả đến hàng phần mười).
+
+  **Lời giải.** Gọi $O$ là tâm đáy; $SO$ là chiều cao. Nửa đường chéo đáy là $OA=\dfrac{6\sqrt2}{2}=3\sqrt2$, nên:
+
+  $$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7,\qquad V=\frac13\cdot 6^2\cdot\sqrt7=12\sqrt7\approx31{,}749.$$
+
+  Vậy thể tích không khí trong lều khoảng $31{,}7$ m³ (ghi $31{,}7$).
+
+  **Nhìn lại.** Nếu dùng nhầm nửa cạnh đáy $3$ thay cho nửa đường chéo, ta được chiều cao $4$ và thể tích $48$ m³, một đáp án sai rất "đẹp".
+  :::
+
+:::warning Bẫy thường gặp về khoảng cách và thể tích
+[[P10·f903]]
+- **Quên hệ số $\dfrac13$** khi tính thể tích khối chóp, hoặc thêm $\dfrac13$ vào khối lăng trụ.
+- **Nhầm cạnh bên với chiều cao.** Chỉ trong khối lăng trụ đứng thì cạnh bên mới là chiều cao.
+- **Lấy $AB$ hoặc $SB$ làm khoảng cách.** Khoảng cách từ $A$ đến $(SBC)$ là đường vuông góc $AH$, luôn ngắn hơn $AB$ và $SA$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đường thẳng vuông góc với mặt phẳng | line perpendicular to a plane
+  - hai mặt phẳng vuông góc | perpendicular planes
+  - định lí ba đường vuông góc | theorem of three perpendiculars
+  - hình chiếu vuông góc | orthogonal projection
+  - góc nhị diện | dihedral angle
+  - khoảng cách | distance
+  - đường thẳng chéo nhau | skew lines
+  - hình chóp đều | regular pyramid
+  - hình lăng trụ đứng | right prism
+  - thể tích | volume
+  :::
+
+## Bài tập
+
+[[P11·1795]]
+Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn (thử thách)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-space-geometry – BẢN TIẾNG ANH ########
+---
+title: "Revision: geometry in space"
+description: Revise parallel and perpendicular lines and planes, angles, distances, dihedral angles and volumes of pyramids and prisms, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Prove quickly that a line is perpendicular to a plane and recognise perpendicular planes.
+  - Identify and calculate the angle between a line and a plane, and a dihedral angle.
+  - Calculate the distance from a point to a plane and between two skew lines.
+  - Calculate the volume of pyramids and prisms, including in real-life problems.
+  :::
+
+[[P1·3a39]]
+Grade 11 geometry in space still appears in the graduation exam. In Part I (multiple choice) there are usually one or two questions on perpendicularity, angles or volume. In Part II or Part III there is usually one question on a distance, a dihedral angle or a volume in a real-life setting. Altogether this topic is usually worth about $0.5$ to $1$ mark.
+
+[[P2·8d9d]]
+This revision lesson covers four areas: perpendicularity, angles, distances and volumes. Every example is written exactly like an exam question. Most of them use the same familiar figure: a pyramid with one lateral edge perpendicular to the base.
+
+:::diagram The pyramid $S.ABCD$ with $SA\perp(ABCD)$ and a square base with centre $O$
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Parallel and perpendicular lines and planes
+
+  :::theorem Criteria to remember
+  - **A line perpendicular to a plane:** if $d$ is perpendicular to two intersecting lines in $(P)$, then $d\perp(P)$. Then $d$ is perpendicular to **every** line in $(P)$.
+  - **Perpendicular planes:** if $(Q)$ contains a line perpendicular to $(P)$, then $(Q)\perp(P)$.
+  - **The theorem of three perpendiculars:** let $a$ lie in $(P)$ and let $b$ be a line not perpendicular to $(P)$, with orthogonal projection $b'$ on $(P)$. Then $a\perp b\iff a\perp b'$.
+  - **Parallel:** if $d$ is parallel to a line in $(P)$ and $d$ does not lie in $(P)$, then $d\parallel(P)$.
+  :::
+
+[[P3·1bb4]]
+For a pyramid with $SA\perp(ABCD)$ and a square base, the following two "perpendicular pairs" always hold. Remember how to derive them rather than learning the results by heart:
+
+  $$BC\perp AB,\ BC\perp SA\ \Rightarrow\ BC\perp(SAB);\qquad BD\perp AC,\ BD\perp SA\ \Rightarrow\ BD\perp(SAC).$$
+
+[[P4·995a]]
+Multiple-choice questions often give four relations and ask which is correct. The reliable method is to find **two** intersecting lines in the plane that the line is perpendicular to.
+
+  :::example Multiple choice: choose the correct perpendicular relation
+  The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$. Which statement is correct?
+
+  **A.** $BD\perp(SAB)$.
+
+  **B.** $BC\perp(SAB)$.
+
+  **C.** $AC\perp(SBD)$.
+
+  **D.** $CD\perp(SBC)$.
+
+  **Solution.** We check whether each line is perpendicular to two intersecting lines of the plane.
+
+  $$BC\perp AB\ (\text{square base}),\quad BC\perp SA\ (SA\perp(ABCD))\ \Rightarrow\ BC\perp(SAB).$$
+
+  Option A is wrong because $BD$ is not perpendicular to $AB$ (the angle between them is $45^\circ$). Option C is wrong because $AC$ is not perpendicular to $SO$. Option D is wrong because $CD\parallel AB$ and $AB$ is not perpendicular to $SB$ (triangle $SAB$ has its right angle at $A$), so $CD$ is not perpendicular to $SB$.
+
+  So the answer is **B**.
+  :::
+
+## Angles in space
+
+:::note How to identify an angle
+[[P5·39b8]]
+- **The angle between a line $d$ and a plane $(P)$:** the angle between $d$ and its projection $d'$ on $(P)$. With $SA\perp(ABCD)$, the projection of $SC$ is $AC$, so the angle between $SC$ and $(ABCD)$ is $\angle SCA$.
+- **The dihedral angle $[S, BD, A]$:** take a point $O$ on the edge $BD$, draw $OS\perp BD$ in the face $(SBD)$ and $OA\perp BD$ in the face $(ABD)$. The size of the dihedral angle is then $\angle SOA$.
+- The angle between two intersecting planes is between $0^\circ$ and $90^\circ$; a dihedral angle can be between $0^\circ$ and $180^\circ$.
+:::
+
+[[P6·b5eb]]
+To calculate an angle we reduce it to a right-angled triangle and use $\tan$, $\sin$ or $\cos$. In the exam, a true/false question on angles often tests both **identifying** the angle and **calculating** it.
+
+  :::example True/false: the angle with a plane and a dihedral angle
+  The pyramid $S.ABCD$ has a square base with side $a$ and centre $O$, $SA\perp(ABCD)$ and $SA=a\sqrt2$.
+
+  a) The angle between $SC$ and the plane $(ABCD)$ is $\angle SCA$.
+
+  b) The angle between $SC$ and the plane $(ABCD)$ is $45^\circ$.
+
+  c) The dihedral angle $[S, BD, A]$ is $60^\circ$.
+
+  d) The sine of the angle between $SB$ and the plane $(SAD)$ is $\dfrac{\sqrt3}{3}$.
+
+  **Solution.** We judge each claim; each one reduces to a right-angled triangle.
+
+  a) **True.** $SA\perp(ABCD)$, so $AC$ is the projection of $SC$ on the base.
+
+  b) **True.** The diagonal of the square is $AC=a\sqrt2$, so in triangle $SAC$ with its right angle at $A$:
+
+  $$\tan\angle SCA=\frac{SA}{AC}=\frac{a\sqrt2}{a\sqrt2}=1\ \Rightarrow\ \angle SCA=45^\circ.$$
+
+  c) **False.** Since $BD\perp(SAC)$, we have $BD\perp SO$ and $BD\perp AO$; the dihedral angle is $\angle SOA$. With $AO=\dfrac{a\sqrt2}{2}$:
+
+  $$\tan\angle SOA=\frac{SA}{AO}=\frac{a\sqrt2}{\frac{a\sqrt2}{2}}=2\ \Rightarrow\ \angle SOA\approx63.4^\circ.$$
+
+  d) **True.** $AB\perp AD$ and $AB\perp SA$, so $AB\perp(SAD)$; the projection of $SB$ on $(SAD)$ is $SA$ and the angle is $\angle BSA$. We have $SB=\sqrt{a^2+2a^2}=a\sqrt3$:
+
+  $$\sin\angle BSA=\frac{AB}{SB}=\frac{a}{a\sqrt3}=\frac{\sqrt3}{3}.$$
+
+  So the answers are a) True, b) True, c) False, d) True.
+  :::
+
+:::warning Common traps with angles
+[[P7·ce3b]]
+- **Taking the angle at the vertex $S$.** The angle between $SC$ and the base is $\angle SCA$ (at the point where $SC$ meets the base), not $\angle CSA$.
+- **Drawing the perpendicular in the wrong place.** For the dihedral angle $[S, BC, A]$ with a square base, the foot of the perpendicular is $B$ (because $BC\perp(SAB)$), and the angle is $\angle SBA$; it is not at the midpoint of $BC$.
+- **Guessing $60^\circ$ because it "looks like it".** Always calculate the $\tan$ first; $\tan=2$ does not give a special angle.
+:::
+
+## Distances
+
+  :::theorem The two most used formulas
+  - If $SA\perp(ABC)$ and $AH\perp SK$, where $K$ is the foot of the perpendicular from $A$ to $BC$, then $d(A, (SBC))=AH$ and
+  $$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AK^2}.$$
+  - **Changing the point:** if $MN\parallel(P)$, then $d(M, (P))=d(N, (P))$. If the line $AM$ meets $(P)$ at $I$, then $\dfrac{d(A, (P))}{d(M, (P))}=\dfrac{IA}{IM}$.
+  - **Two skew lines $a$, $b$:** if $a\parallel(P)$ where $(P)\supset b$, then $d(a, b)=d(a, (P))$.
+  :::
+
+[[P8·8fa3]]
+With a square or rectangular base, the foot $K$ is $B$ itself, because $AB\perp BC$. Changing the point lets us turn the distance from an "awkward" point ($D$, $C$, a midpoint...) into the distance from $A$.
+
+  :::example Short answer: the distance to a lateral face
+  The pyramid $S.ABCD$ has a square base with side $3$, $SA\perp(ABCD)$ and $SA=4$. Find the distance from $D$ to the plane $(SBC)$.
+
+  **Solution.** Since $AD\parallel BC$, we have $AD\parallel(SBC)$, so $d(D, (SBC))=d(A, (SBC))$. Draw $AH\perp SB$; since $BC\perp(SAB)$, $BC\perp AH$, so $AH\perp(SBC)$:
+
+  $$\frac{1}{AH^2}=\frac{1}{4^2}+\frac{1}{3^2}=\frac{9+16}{144}=\frac{25}{144}\ \Rightarrow\ AH=\frac{12}{5}=2.4.$$
+
+  So $d(D, (SBC))=2.4$. On the answer sheet we write $2.4$.
+
+  **Look back.** For the same reason, the distance between the skew lines $AD$ and $SB$ is also $2.4$.
+  :::
+
+## Volumes of pyramids and prisms
+
+  :::theorem Volume formulas
+  - Pyramid: $V=\dfrac13 B\cdot h$; prism: $V=B\cdot h$ ($B$ is the base area, $h$ the height).
+  - Cuboid: $V=abc$; cube with side $a$: $V=a^3$.
+  - Tetrahedron $OABC$ with $OA$, $OB$, $OC$ mutually perpendicular: $V=\dfrac16\,OA\cdot OB\cdot OC$.
+  - Area of an equilateral triangle with side $a$: $\dfrac{a^2\sqrt3}{4}$.
+  :::
+
+[[P9·237e]]
+In a regular pyramid, the foot of the height is the centre of the base. So the height is usually found with Pythagoras' theorem in the triangle formed by a lateral edge, the height and half a diagonal of the base.
+
+  :::example Short answer: the volume of a tent
+  A camping tent has the shape of a regular square pyramid with a square base of side $6$ m, and each lateral edge is $5$ m long. Find the volume of air inside the tent (in m³, to 1 decimal place).
+
+  **Solution.** Let $O$ be the centre of the base; $SO$ is the height. Half the diagonal of the base is $OA=\dfrac{6\sqrt2}{2}=3\sqrt2$, so:
+
+  $$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7,\qquad V=\frac13\cdot 6^2\cdot\sqrt7=12\sqrt7\approx31.749.$$
+
+  So the volume of air in the tent is about $31.7$ m³ (write $31.7$).
+
+  **Look back.** Using half the side, $3$, instead of half the diagonal gives a height of $4$ and a volume of $48$ m³, a wrong answer that looks very "nice".
+  :::
+
+:::warning Common traps with distances and volumes
+[[P10·2c48]]
+- **Forgetting the factor $\dfrac13$** for a pyramid, or adding $\dfrac13$ for a prism.
+- **Confusing a lateral edge with the height.** Only in a right prism is the lateral edge the height.
+- **Taking $AB$ or $SB$ as the distance.** The distance from $A$ to $(SBC)$ is the perpendicular $AH$, which is always shorter than $AB$ and $SA$.
+:::
+
+## Key terms
+
+  :::terms
+  - line perpendicular to a plane | đường thẳng vuông góc với mặt phẳng
+  - perpendicular planes | hai mặt phẳng vuông góc
+  - theorem of three perpendiculars | định lí ba đường vuông góc
+  - orthogonal projection | hình chiếu vuông góc
+  - dihedral angle | góc nhị diện
+  - distance | khoảng cách
+  - skew lines | đường thẳng chéo nhau
+  - regular pyramid | hình chóp đều
+  - right prism | hình lăng trụ đứng
+  - volume | thể tích
+  :::
+
+## Exercises
+
+[[P11·96a7]]
+The exercises go from easy to hard, and each one states its exam format.
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/false
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer (challenge)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-statistics-probability – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: thống kê và xác suất"
+description: Ôn các số đặc trưng của mẫu số liệu ghép nhóm, xác suất có điều kiện, công thức xác suất toàn phần và công thức Bayes theo dạng câu hỏi thi tốt nghiệp.
+minutes: 40
+---
+
+  :::goals
+  - Tính số trung bình, trung vị, tứ phân vị, mốt của mẫu số liệu ghép nhóm.
+  - Tính khoảng biến thiên, khoảng tứ phân vị, phương sai, độ lệch chuẩn và dùng chúng để so sánh.
+  - Dùng quy tắc cộng, quy tắc nhân, xác suất có điều kiện và biến cố độc lập.
+  - Dùng sơ đồ cây, công thức xác suất toàn phần và công thức Bayes trong bài toán thực tế.
+  :::
+
+[[P1·ec55]]
+Thống kê và xác suất chắc chắn có trong đề thi. Phần I thường có hai đến ba câu tính nhanh một số đặc trưng hoặc một xác suất. Ở Phần II hoặc Phần III, đề thường có một câu xác suất có điều kiện hoặc công thức Bayes gắn với thực tế. Chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+
+[[P2·7b7e]]
+Phần thống kê dùng chung bảng sau: thời gian dùng điện thoại mỗi ngày (phút) của $40$ học sinh.
+
+| Thời gian (phút) | $[0; 30)$ | $[30; 60)$ | $[60; 90)$ | $[90; 120)$ | $[120; 150)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $10$ | $14$ | $8$ | $4$ |
+| Giá trị đại diện | $15$ | $45$ | $75$ | $105$ | $135$ |
+| Tần số tích luỹ | $4$ | $14$ | $28$ | $36$ | $40$ |
+
+## Số đặc trưng đo xu thế trung tâm
+
+  :::theorem Công thức cho mẫu ghép nhóm
+  Mẫu có các nhóm $[u_1; u_2)$, …, $[u_k; u_{k+1})$, tần số $n_1$, …, $n_k$, giá trị đại diện $x_1$, …, $x_k$ và cỡ mẫu $n$.
+  - Số trung bình: $\bar x=\dfrac{n_1x_1+n_2x_2+\cdots+n_kx_k}{n}$.
+  - Trung vị: nếu $[u_m; u_{m+1})$ là nhóm đầu tiên có tần số tích luỹ $\ge\dfrac n2$ và $C$ là tần số tích luỹ của các nhóm trước nó thì $M_e=u_m+\dfrac{\frac n2-C}{n_m}(u_{m+1}-u_m)$. Tứ phân vị $Q_1$, $Q_3$: thay $\dfrac n2$ bằng $\dfrac n4$, $\dfrac{3n}{4}$.
+  - Mốt: nếu $[u_m; u_{m+1})$ là nhóm có tần số lớn nhất thì $M_o=u_m+\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}(u_{m+1}-u_m)$.
+  :::
+
+[[P3·790e]]
+Với bảng trên, $\dfrac n2=20$ nằm trong nhóm $[60; 90)$ (vì $14<20\le28$), nên $M_e=60+\dfrac{20-14}{14}\cdot30\approx72{,}86$. Nhóm có tần số lớn nhất cũng là $[60; 90)$, nên $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
+
+  :::example Trắc nghiệm: số trung bình của mẫu ghép nhóm
+  Số trung bình của mẫu số liệu ở trên là
+
+  **A.** $75$.
+
+  **B.** $72$.
+
+  **C.** $73{,}5$.
+
+  **D.** $72{,}86$.
+
+  **Lời giải.** Nhân mỗi giá trị đại diện với tần số rồi chia cho cỡ mẫu:
+
+  $$\bar x=\frac{4\cdot15+10\cdot45+14\cdot75+8\cdot105+4\cdot135}{40}=\frac{60+450+1050+840+540}{40}=\frac{2940}{40}=73{,}5.$$
+
+  Chọn **C**. Phương án A là giá trị đại diện của nhóm đông nhất, phương án B là mốt, phương án D là trung vị.
+  :::
+
+## Số đặc trưng đo độ phân tán
+
+  :::theorem Khoảng biến thiên, khoảng tứ phân vị, phương sai, độ lệch chuẩn
+  - $R=u_{k+1}-u_1$; $\Delta_Q=Q_3-Q_1$.
+  - Phương sai: $s^2=\dfrac{n_1(x_1-\bar x)^2+\cdots+n_k(x_k-\bar x)^2}{n}=\dfrac{n_1x_1^2+\cdots+n_kx_k^2}{n}-\bar x^2$.
+  - Độ lệch chuẩn: $s=\sqrt{s^2}$, cùng đơn vị với số liệu.
+  :::
+
+  :::example Đúng/Sai: các số đo độ phân tán
+  Với mẫu số liệu ở trên:
+
+  a) Khoảng biến thiên của mẫu số liệu là $150$ phút.
+
+  b) Tứ phân vị thứ nhất là $Q_1=48$.
+
+  c) Tứ phân vị thứ ba thuộc nhóm $[60; 90)$.
+
+  d) Độ lệch chuẩn của mẫu số liệu xấp xỉ $33{,}51$ phút.
+
+  **Lời giải.** Ta dùng dòng tần số tích luỹ $4$, $14$, $28$, $36$, $40$.
+
+  a) **Đúng.** $R=150-0=150$.
+
+  b) **Đúng.** $\dfrac n4=10$ và $4<10\le14$, nên $Q_1$ thuộc $[30; 60)$:
+
+  $$Q_1=30+\frac{10-4}{10}\cdot30=48.$$
+
+  c) **Sai.** $\dfrac{3n}{4}=30$ và $28<30\le36$, nên $Q_3$ thuộc nhóm $[90; 120)$; cụ thể $Q_3=90+\dfrac{30-28}{8}\cdot30=97{,}5$.
+
+  d) **Đúng.** Ta tính trung bình các bình phương rồi trừ $\bar x^2=73{,}5^2$:
+
+  $$s^2=\frac{4\cdot15^2+10\cdot45^2+14\cdot75^2+8\cdot105^2+4\cdot135^2}{40}-73{,}5^2=6525-5402{,}25=1122{,}75.$$
+
+  Do đó $s=\sqrt{1122{,}75}\approx33{,}51$ phút.
+
+  Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
+  :::
+
+:::warning Bẫy thường gặp về thống kê
+[[P4·b7b8]]
+- **Chọn nhóm theo tần số lớn nhất** thay vì theo tần số tích luỹ khi tìm nhóm chứa $Q_1$, $M_e$, $Q_3$.
+- **Lấy $C$ gồm cả nhóm đang xét.** $C$ chỉ là tần số tích luỹ của các nhóm **đứng trước**.
+- **Quên trừ $\bar x^2$** trong công thức phương sai, hoặc trả lời phương sai khi đề hỏi độ lệch chuẩn.
+:::
+
+## Xác suất có điều kiện và quy tắc nhân
+
+  :::theorem Các quy tắc tính xác suất
+  - $P(\overline A)=1-P(A)$; $P(A\cup B)=P(A)+P(B)-P(A\cap B)$.
+  - Xác suất của $A$ khi biết $B$ đã xảy ra: $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ ($P(B)>0$).
+  - Quy tắc nhân: $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+  - $A$ và $B$ độc lập $\iff P(A\cap B)=P(A)\cdot P(B)$.
+  :::
+
+  :::example Trắc nghiệm: xác suất có điều kiện từ bảng
+  Lớp 12A có $40$ học sinh, trong đó có $24$ nữ. Có $15$ bạn nữ và $6$ bạn nam tham gia câu lạc bộ Toán. Chọn ngẫu nhiên một học sinh của lớp. Biết học sinh được chọn tham gia câu lạc bộ Toán, xác suất học sinh đó là nữ bằng
+
+  **A.** $\dfrac58$.
+
+  **B.** $\dfrac57$.
+
+  **C.** $\dfrac38$.
+
+  **D.** $\dfrac{21}{40}$.
+
+  **Lời giải.** Gọi $B$ là biến cố "tham gia câu lạc bộ", $A$ là biến cố "là nữ". Biến cố $B$ có $15+6=21$ học sinh, trong đó $15$ bạn nữ:
+
+  $$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{15/40}{21/40}=\frac{15}{21}=\frac57.$$
+
+  Chọn **B**. Phương án A là $P(B\mid A)=\dfrac{15}{24}$ (đổi chỗ hai biến cố), phương án C là $P(A\cap B)$, phương án D là $P(B)$.
+  :::
+
+  :::example Trả lời ngắn: hai biến cố độc lập
+  Hai xạ thủ bắn độc lập vào cùng một bia, mỗi người một viên. Xác suất bắn trúng của người thứ nhất là $0{,}8$, của người thứ hai là $0{,}7$. Tính xác suất có đúng một người bắn trúng.
+
+  **Lời giải.** "Đúng một người trúng" gồm hai trường hợp xung khắc: người thứ nhất trúng, người thứ hai trượt hoặc ngược lại. Mỗi trường hợp dùng quy tắc nhân:
+
+  $$P=0{,}8\cdot0{,}3+0{,}2\cdot0{,}7=0{,}24+0{,}14=0{,}38.$$
+
+  Vậy $P=0{,}38$.
+  :::
+
+## Công thức xác suất toàn phần và công thức Bayes
+
+  :::theorem Hai công thức
+  Với $0<P(B)<1$:
+  $$P(A)=P(B)\cdot P(A\mid B)+P(\overline B)\cdot P(A\mid\overline B),\qquad P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}.$$
+  Trên sơ đồ cây: nhân theo từng nhánh, cộng các nhánh dẫn tới $A$ để được $P(A)$; công thức Bayes là "nhánh cần tìm chia cho tổng các nhánh".
+  :::
+
+:::diagram Sơ đồ cây cho xét nghiệm
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đúng/Sai: xét nghiệm sàng lọc
+  Một bệnh có tỉ lệ người mắc trong cộng đồng là $2\%$. Một xét nghiệm cho kết quả dương tính với $95\%$ người mắc bệnh và với $10\%$ người không mắc bệnh. Chọn ngẫu nhiên một người để xét nghiệm. Gọi $B$ là biến cố "người đó mắc bệnh", $A$ là biến cố "kết quả dương tính".
+
+  a) $P(\overline B)=0{,}98$.
+
+  b) $P(A)=0{,}117$.
+
+  c) Nếu kết quả dương tính thì khả năng người đó mắc bệnh lớn hơn $50\%$.
+
+  d) $P(B\mid A)\approx0{,}16$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Đề cho $P(B)=0{,}02$, $P(A\mid B)=0{,}95$, $P(A\mid\overline B)=0{,}1$; ta đọc các nhánh trên sơ đồ cây.
+
+  a) **Đúng.** $P(\overline B)=1-0{,}02=0{,}98$.
+
+  b) **Đúng.** Theo công thức xác suất toàn phần:
+
+  $$P(A)=0{,}02\cdot0{,}95+0{,}98\cdot0{,}1=0{,}019+0{,}098=0{,}117.$$
+
+  c) **Sai.** Theo công thức Bayes, $P(B\mid A)=\dfrac{0{,}019}{0{,}117}\approx0{,}162<0{,}5$.
+
+  d) **Đúng.** Làm tròn $0{,}162$ đến hàng phần trăm được $0{,}16$.
+
+  Vậy đáp án là a) Đúng, b) Đúng, c) Sai, d) Đúng.
+
+  :::
+
+:::warning Bẫy thường gặp về xác suất
+[[P5·d54c]]
+- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Câu "biết … " cho biết biến cố nào đứng sau dấu $\mid$.
+- **Nhầm xung khắc với độc lập.** Xung khắc thì cộng xác suất; độc lập thì nhân xác suất.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - mẫu số liệu ghép nhóm | grouped data
+  - giá trị đại diện | class midpoint
+  - trung vị | median
+  - tứ phân vị | quartile
+  - mốt | mode
+  - phương sai | variance
+  - độ lệch chuẩn | standard deviation
+  - xác suất có điều kiện | conditional probability
+  - biến cố độc lập | independent events
+  - công thức xác suất toàn phần | law of total probability
+  - công thức Bayes | Bayes' theorem
+  - sơ đồ cây | tree diagram
+  :::
+
+## Bài tập
+
+[[P6·e9e9]]
+Các bài xếp từ dễ đến khó, có ghi dạng câu hỏi trong đề thi.
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn (thử thách)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-statistics-probability – BẢN TIẾNG ANH ########
+---
+title: "Revision: statistics and probability"
+description: Revise measures of grouped data, conditional probability, the law of total probability and Bayes' theorem, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Calculate the mean, median, quartiles and mode of grouped data.
+  - Calculate the range, interquartile range, variance and standard deviation, and use them to compare data sets.
+  - Use the addition rule, the multiplication rule, conditional probability and independent events.
+  - Use tree diagrams, the law of total probability and Bayes' theorem in real-life problems.
+  :::
+
+[[P1·b9a1]]
+Statistics and probability is certain to appear in the graduation exam. Part I usually has two or three questions that ask for a quick measure from a grouped frequency table or a probability. Part II or Part III usually has one real-life question on conditional probability or Bayes' theorem. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+
+[[P2·5d7d]]
+The statistics part of this lesson uses one data set throughout. The daily phone use (minutes) of $40$ students is grouped as follows:
+
+| Time (minutes) | $[0, 30)$ | $[30, 60)$ | $[60, 90)$ | $[90, 120)$ | $[120, 150)$ |
+|---|---|---|---|---|---|
+| Number of students | $4$ | $10$ | $14$ | $8$ | $4$ |
+| Midpoint | $15$ | $45$ | $75$ | $105$ | $135$ |
+| Cumulative frequency | $4$ | $14$ | $28$ | $36$ | $40$ |
+
+## Measures of central tendency
+
+  :::theorem Formulas for grouped data
+  The data has classes $[u_1, u_2)$, …, $[u_k, u_{k+1})$, frequencies $n_1$, …, $n_k$, midpoints $x_1$, …, $x_k$ and size $n$.
+  - Mean: $\bar x=\dfrac{n_1x_1+n_2x_2+\cdots+n_kx_k}{n}$.
+  - Median: if $[u_m, u_{m+1})$ is the first class with cumulative frequency $\ge\dfrac n2$ and $C$ is the cumulative frequency of the classes before it, then $M_e=u_m+\dfrac{\frac n2-C}{n_m}(u_{m+1}-u_m)$. Quartiles $Q_1$, $Q_3$: replace $\dfrac n2$ by $\dfrac n4$, $\dfrac{3n}{4}$.
+  - Mode: if $[u_m, u_{m+1})$ is the class with the highest frequency, then $M_o=u_m+\dfrac{n_m-n_{m-1}}{(n_m-n_{m-1})+(n_m-n_{m+1})}(u_{m+1}-u_m)$.
+  :::
+
+[[P3·38ae]]
+For the table above, $\dfrac n2=20$ lies in the class $[60, 90)$ (because $14<20\le28$), so $M_e=60+\dfrac{20-14}{14}\cdot30\approx72.86$. The class with the highest frequency is also $[60, 90)$, so $M_o=60+\dfrac{4}{4+6}\cdot30=72$.
+
+  :::example Multiple choice: the mean of grouped data
+  The mean of the phone-use data above is
+
+  **A.** $75$.
+
+  **B.** $72$.
+
+  **C.** $73.5$.
+
+  **D.** $72.86$.
+
+  **Solution.** We multiply each midpoint by its frequency and divide by the size of the data set:
+
+  $$\bar x=\frac{4\cdot15+10\cdot45+14\cdot75+8\cdot105+4\cdot135}{40}=\frac{60+450+1050+840+540}{40}=\frac{2940}{40}=73.5.$$
+
+  The answer is **C**. Option A is the midpoint of the class with the highest frequency, option B is the mode, and option D is the median.
+  :::
+
+## Measures of spread
+
+  :::theorem Range, interquartile range, variance, standard deviation
+  - $R=u_{k+1}-u_1$; $\Delta_Q=Q_3-Q_1$.
+  - Variance: $s^2=\dfrac{n_1(x_1-\bar x)^2+\cdots+n_k(x_k-\bar x)^2}{n}=\dfrac{n_1x_1^2+\cdots+n_kx_k^2}{n}-\bar x^2$.
+  - Standard deviation: $s=\sqrt{s^2}$, in the same units as the data.
+  :::
+
+  :::example True/false: measures of spread
+  For the phone-use data above:
+
+  a) The range of the data is $150$ minutes.
+
+  b) The lower quartile is $Q_1=48$.
+
+  c) The upper quartile lies in the class $[60, 90)$.
+
+  d) The standard deviation of the data is approximately $33.51$ minutes.
+
+  **Solution.** We use the cumulative frequencies $4$, $14$, $28$, $36$, $40$.
+
+  a) **True.** $R=150-0=150$.
+
+  b) **True.** $\dfrac n4=10$ and $4<10\le14$, so $Q_1$ lies in $[30, 60)$:
+
+  $$Q_1=30+\frac{10-4}{10}\cdot30=48.$$
+
+  c) **False.** $\dfrac{3n}{4}=30$ and $28<30\le36$, so $Q_3$ lies in the class $[90, 120)$; in fact $Q_3=90+\dfrac{30-28}{8}\cdot30=97.5$.
+
+  d) **True.** We find the mean of the squares and subtract $\bar x^2=73.5^2$:
+
+  $$s^2=\frac{4\cdot15^2+10\cdot45^2+14\cdot75^2+8\cdot105^2+4\cdot135^2}{40}-73.5^2=6525-5402.25=1122.75.$$
+
+  So $s=\sqrt{1122.75}\approx33.51$ minutes.
+
+  So the answers are a) True, b) True, c) False, d) True.
+  :::
+
+:::warning Common traps in statistics
+[[P4·a512]]
+- **Choosing the class with the highest frequency** instead of using the cumulative frequency to find the class containing $Q_1$, $M_e$ or $Q_3$.
+- **Including the class itself in $C$.** $C$ is only the cumulative frequency of the classes **before** it.
+- **Forgetting to subtract $\bar x^2$** in the variance formula, or giving the variance when the question asks for the standard deviation.
+:::
+
+## Conditional probability and the multiplication rule
+
+  :::theorem Rules of probability
+  - $P(\overline A)=1-P(A)$; $P(A\cup B)=P(A)+P(B)-P(A\cap B)$.
+  - The probability of $A$ given that $B$ has happened: $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ ($P(B)>0$).
+  - Multiplication rule: $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+  - $A$ and $B$ are independent $\iff P(A\cap B)=P(A)\cdot P(B)$.
+  :::
+
+  :::example Multiple choice: conditional probability from a table
+  Class 12A has $40$ students, of whom $24$ are girls. In the class, $15$ girls and $6$ boys belong to the maths club. A student of the class is chosen at random. Given that the student belongs to the maths club, the probability that the student is a girl is
+
+  **A.** $\dfrac58$.
+
+  **B.** $\dfrac57$.
+
+  **C.** $\dfrac38$.
+
+  **D.** $\dfrac{21}{40}$.
+
+  **Solution.** Let $B$ be the event "belongs to the club" and $A$ the event "is a girl". The event $B$ contains $15+6=21$ students, $15$ of them girls:
+
+  $$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{15/40}{21/40}=\frac{15}{21}=\frac57.$$
+
+  The answer is **B**. Option A is $P(B\mid A)=\dfrac{15}{24}$ (the events swapped), option C is $P(A\cap B)$ and option D is $P(B)$.
+  :::
+
+  :::example Short answer: two independent events
+  Two archers shoot independently at the same target, one arrow each. The first hits with probability $0.8$ and the second with probability $0.7$. Find the probability that exactly one of them hits.
+
+  **Solution.** "Exactly one hits" consists of two mutually exclusive cases: the first hits and the second misses, or the other way round. We use the multiplication rule for independent events:
+
+  $$P=0.8\cdot0.3+0.2\cdot0.7=0.24+0.14=0.38.$$
+
+  So the required probability is $0.38$.
+  :::
+
+## The law of total probability and Bayes' theorem
+
+  :::theorem Two formulas
+  With $0<P(B)<1$:
+  $$P(A)=P(B)\cdot P(A\mid B)+P(\overline B)\cdot P(A\mid\overline B),\qquad P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}.$$
+  On a tree diagram: multiply along each branch, and add the branches that lead to $A$ to get $P(A)$; Bayes' theorem is "the branch you want divided by the sum of the branches".
+  :::
+
+:::diagram Tree diagram for a screening test
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example True/false: a screening test
+  A disease affects $2\%$ of a population. A test gives a positive result for $95\%$ of people with the disease and for $10\%$ of people without it. A person is chosen at random and tested. Let $B$ be the event "the person has the disease" and $A$ the event "the result is positive".
+
+  a) $P(\overline B)=0.98$.
+
+  b) $P(A)=0.117$.
+
+  c) If the result is positive, the chance that the person has the disease is more than $50\%$.
+
+  d) $P(B\mid A)\approx0.16$ (to 2 decimal places).
+
+  **Solution.** We are given $P(B)=0.02$, $P(A\mid B)=0.95$, $P(A\mid\overline B)=0.1$; we read the branches of the tree diagram.
+
+  a) **True.** $P(\overline B)=1-0.02=0.98$.
+
+  b) **True.** By the law of total probability:
+
+  $$P(A)=0.02\cdot0.95+0.98\cdot0.1=0.019+0.098=0.117.$$
+
+  c) **False.** By Bayes' theorem, $P(B\mid A)=\dfrac{0.019}{0.117}\approx0.162<0.5$.
+
+  d) **True.** Rounding $0.162$ to 2 decimal places gives $0.16$.
+
+  So the answers are a) True, b) True, c) False, d) True.
+
+  :::
+
+:::warning Common traps in probability
+[[P5·719f]]
+- **Confusing $P(A\mid B)$ with $P(B\mid A)$.** The word "given" tells you which event goes after the bar $\mid$.
+- **Confusing mutually exclusive with independent.** For mutually exclusive events add the probabilities; for independent events multiply them.
+:::
+
+## Key terms
+
+  :::terms
+  - grouped data | mẫu số liệu ghép nhóm
+  - class midpoint | giá trị đại diện
+  - median | trung vị
+  - quartile | tứ phân vị
+  - mode | mốt
+  - variance | phương sai
+  - standard deviation | độ lệch chuẩn
+  - conditional probability | xác suất có điều kiện
+  - independent events | biến cố độc lập
+  - law of total probability | công thức xác suất toàn phần
+  - Bayes' theorem | công thức Bayes
+  - tree diagram | sơ đồ cây
+  :::
+
+## Exercises
+
+[[P6·96a7]]
+The exercises go from easy to hard, and each one states its exam format.
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/false
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer (challenge)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

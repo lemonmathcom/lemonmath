@@ -1,0 +1,1143 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-MD-1   |   VIỆC: gắn mức độ nhận thức (MD-09)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-MD-1-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-09 – gắn mức độ nhận thức cho 133 câu hỏi (Lớp 5 → Lớp 6)
+
+Tài khoản thực hiện: Lemonmath112
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-09 (133 câu)
+
+## Các câu hỏi
+
+### M156 · Lớp 5 · Vận tốc của một chuyển động đều. Quãng đường, thời gian của một chuyển động đều
+
+[M156.1] Nhiều lựa chọn
+Một ô tô đi $160$ km hết $4$ giờ. Vận tốc của ô tô là
+A. $40$ km/giờ.
+B. $0{,}025$ km/giờ.
+C. $640$ km/giờ.
+D. $164$ km/giờ.
+::key A
+$v=160:4=40$ km/giờ. Phương án C nhân thay vì chia, B chia ngược ($4:160$), D cộng hai số.
+
+[M156.2] Nhiều lựa chọn
+Một xe đi với vận tốc $45$ km/giờ trong $2$ giờ $30$ phút. Quãng đường xe đi được là
+A. $103{,}5$ km.
+B. $112{,}5$ km.
+C. $90$ km.
+D. $18$ km.
+::key B
+$2$ giờ $30$ phút $=2{,}5$ giờ nên $s=45\times2{,}5=112{,}5$ km. Phương án A coi $30$ phút là $0{,}3$ giờ, C bỏ $30$ phút, D là $45:2{,}5$.
+
+[M156.3] Nhiều lựa chọn
+Quãng đường dài $36$ km, người đi xe đạp có vận tốc $12$ km/giờ. Thời gian đi là
+A. $432$ giờ.
+B. $48$ giờ.
+C. $3$ giờ.
+D. $24$ giờ.
+::key C
+$t=36:12=3$ giờ. Phương án A nhân, B cộng, D trừ hai số đã cho.
+
+[M156.4] Nhiều lựa chọn
+Quãng đường AB dài $90$ km. Một xe khởi hành từ A lúc $7$ giờ $15$ phút với vận tốc $45$ km/giờ. Xe đến B lúc
+A. $7$ giờ $45$ phút.
+B. $7$ giờ $17$ phút.
+C. $8$ giờ $45$ phút.
+D. $9$ giờ $15$ phút.
+::key D
+$t=90:45=2$ giờ nên xe đến lúc $9$ giờ $15$ phút. Phương án A chia ngược ($45:90=0{,}5$ giờ), C coi $90$ km là $90$ phút, B cộng $2$ phút thay vì $2$ giờ.
+
+[M156.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một xe máy đi $90$ km hết $2$ giờ $30$ phút.
+a) Vận tốc của xe là $45$ km/giờ.
+b) Vận tốc của xe là $36$ km/giờ.
+c) Với vận tốc đó, xe đi $1$ giờ $30$ phút được $54$ km.
+d) Với vận tốc đó, xe đi quãng đường $144$ km hết $4$ giờ.
+::key S Đ Đ Đ
+a) Sai: $2$ giờ $30$ phút không phải $2$ giờ; $90:2=45$ là cách tính sai. b) Đúng: $90:2{,}5=36$. c) Đúng: $36\times1{,}5=54$. d) Đúng: $144:36=4$.
+
+[M156.6] Trả lời ngắn
+Một ô tô đi $2{,}5$ giờ với vận tốc $48$ km/giờ. Quãng đường ô tô đi được là bao nhiêu ki-lô-mét?
+::key 120
+$s=48\times2{,}5=120$ (km).
+
+[M156.7] Trả lời ngắn
+Quãng đường dài $18$ km, người đi bộ có vận tốc $4$ km/giờ. Hỏi người đó đi hết bao nhiêu giờ?
+::key 4,5
+$t=18:4=4{,}5$ (giờ).
+
+### M157 · Lớp 5 · Thu thập, phân loại, sắp xếp các số liệu
+
+[M157.1] Nhiều lựa chọn
+Dãy nào được xếp theo thứ tự tăng dần?
+A. $48, 40, 84, 80$.
+B. $84, 80, 48, 40$.
+C. $40, 80, 48, 84$.
+D. $40, 48, 80, 84$.
+::key D
+Tăng dần là từ bé đến lớn: $40<48<80<84$. Phương án B là thứ tự giảm dần.
+
+[M157.2] Nhiều lựa chọn
+Hình kiểm đếm ///// /// ứng với số nào?
+A. $8$.
+B. $5$.
+C. $7$.
+D. $3$.
+::key A
+Một nhóm đủ $5$ vạch và thêm $3$ vạch nữa: $5+3=8$. Phương án B quên nhóm $3$ vạch, phương án D quên nhóm $5$ vạch.
+
+[M157.3] Nhiều lựa chọn
+Cô hỏi $20$ bạn thích môn nào nhất: Toán $6$ bạn, Tiếng Việt $5$ bạn, Tiếng Anh $4$ bạn, còn lại thích Thể dục. Có bao nhiêu bạn thích Thể dục?
+A. $15$.
+B. $5$.
+C. $35$.
+D. $4$.
+::key B
+Ba môn đầu có $6+5+4=15$ bạn, nên Thể dục có $20-15=5$ bạn. Phương án A là số bạn của ba môn đầu, chưa trừ khỏi $20$.
+
+[M157.4] Nhiều lựa chọn
+Dãy nào được xếp theo thứ tự giảm dần?
+A. $0{,}9;\ 0{,}8;\ 0{,}85;\ 0{,}75$.
+B. $0{,}75;\ 0{,}8;\ 0{,}85;\ 0{,}9$.
+C. $0{,}9;\ 0{,}85;\ 0{,}8;\ 0{,}75$.
+D. $0{,}85;\ 0{,}9;\ 0{,}8;\ 0{,}75$.
+::key C
+Ta có $0{,}9>0{,}85>0{,}8>0{,}75$. Phương án B là tăng dần; phương án A đặt $0{,}8$ trước $0{,}85$ nên sai.
+
+[M157.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Số quyển sách bốn bạn đọc trong tháng: Lan $8$, Mai $12$, Nam $5$, Hùng $12$.
+a) Mai và Hùng đọc nhiều sách nhất.
+b) Cả bốn bạn đọc $36$ quyển.
+c) Xếp tăng dần: $5, 8, 12, 12$.
+d) Nam đọc ít hơn Lan $4$ quyển.
+::key Đ S Đ S
+a) Đúng: số lớn nhất là $12$. b) Sai: $8+12+5+12=37$. c) Đúng: $5<8<12=12$. d) Sai: $8-5=3$.
+
+[M157.6] Trả lời ngắn
+Cửa hàng bán $45$ cái bánh ngày thứ nhất, $38$ cái ngày thứ hai và $52$ cái ngày thứ ba. Tổng cộng bán bao nhiêu cái bánh?
+::key 135
+$45+38+52=135$ (cái).
+
+[M157.7] Trả lời ngắn
+Điểm kiểm tra của $5$ bạn: $36, 29, 41, 33, 38$. Khi xếp tăng dần, số đứng thứ hai là số nào?
+::key 33
+Xếp tăng dần: $29, 33, 36, 38, 41$. Số đứng thứ hai là $33$.
+
+### M158 · Lớp 5 · Biểu đồ hình quạt tròn. Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện
+
+[M158.1] Nhiều lựa chọn
+Biểu đồ hình quạt tròn cho biết $25\%$ trong $40$ học sinh chọn cầu lông. Số học sinh chọn cầu lông là
+A. $25$.
+B. $1000$.
+C. $16$.
+D. $10$.
+::key D
+$40:100\times25=10$. Phương án A coi $25\%$ là $25$ bạn, C là $40\%$ của $40$, B quên chia cho $100$.
+
+[M158.2] Nhiều lựa chọn
+Tỉ số phần trăm của $8$ so với $32$ là
+A. $25\%$.
+B. $32\%$.
+C. $400\%$.
+D. $8\%$.
+::key A
+$8:32=0{,}25=25\%$. Phương án D viết số lần là phần trăm, B lấy tổng, C là $32:8=4$.
+
+[M158.3] Nhiều lựa chọn
+Tung một đồng xu $20$ lần, được $13$ lần mặt sấp. Tỉ số phần trăm số lần xuất hiện mặt sấp là
+A. $13\%$.
+B. $65\%$.
+C. $35\%$.
+D. $\dfrac{20}{13}$.
+::key B
+$13:20=0{,}65=65\%$. Phương án A viết số lần thành phần trăm, C là tỉ số của mặt ngửa, D đảo thứ tự của tỉ số.
+
+[M158.4] Nhiều lựa chọn
+Một biểu đồ hình quạt tròn có ba phần chiếm $40\%$, $35\%$ và $15\%$. Phần còn lại chiếm
+A. $90\%$.
+B. $5\%$.
+C. $10\%$.
+D. $100\%$.
+::key C
+$40+35+15=90$ nên phần còn lại là $100-90=10\ (\%)$. Phương án A là tổng ba phần, D là cả hình tròn.
+
+[M158.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Biểu đồ khảo sát $40$ học sinh: bóng đá $50\%$, cầu lông $25\%$, bơi $15\%$, các môn khác $10\%$.
+a) Có $20$ bạn chọn bóng đá.
+b) Có $6$ bạn chọn bơi.
+c) Số bạn chọn bóng đá gấp $3$ lần số bạn chọn cầu lông.
+d) Hai môn cầu lông và bơi cộng lại chiếm $30\%$ số bạn.
+::key Đ Đ S S
+a) Đúng: $40:100\times50=20$. b) Đúng: $40:100\times15=6$. c) Sai: $20:10=2$, gấp $2$ lần. d) Sai: $25\%+15\%=40\%$.
+
+[M158.6] Trả lời ngắn
+Tìm tỉ số phần trăm của $6$ so với $25$ (không ghi dấu $\%$).
+::key 24
+$6:25=0{,}24=24\%$.
+
+[M158.7] Trả lời ngắn
+Tung một con xúc xắc $50$ lần, được $8$ lần mặt $6$ chấm. Tỉ số phần trăm số lần xuất hiện mặt $6$ chấm là bao nhiêu (không ghi dấu $\%$)?
+::key 16
+$8:50=0{,}16=16\%$.
+
+### M159 · Lớp 5 · Ôn tập: số tự nhiên và phân số
+
+[M159.1] Nhiều lựa chọn
+Số "năm mươi nghìn không trăm linh bảy" viết là
+A. $5007$.
+B. $50\,070$.
+C. $500\,007$.
+D. $50\,007$.
+::key D
+Số đó gồm $50$ nghìn và $7$ đơn vị nên là $50\,007$. Phương án A thiếu một chữ số, B đặt $7$ vào hàng chục, C thừa một chữ số.
+
+[M159.2] Nhiều lựa chọn
+Giá trị của biểu thức $6+4\times5-2$ là
+A. $24$.
+B. $48$.
+C. $18$.
+D. $28$.
+::key A
+Ta nhân trước: $6+20-2=24$. Phương án B làm $(6+4)\times5-2$, C làm $6+4\times(5-2)$, D cộng $2$ thay vì trừ.
+
+[M159.3] Nhiều lựa chọn
+$\dfrac12+\dfrac13$ bằng
+A. $\dfrac25$.
+B. $\dfrac56$.
+C. $\dfrac16$.
+D. $\dfrac26$.
+::key B
+$\dfrac12+\dfrac13=\dfrac36+\dfrac26=\dfrac56$. Phương án A cộng tử với tử và mẫu với mẫu, D cộng tử nhưng giữ mẫu $6$, C là hiệu $\dfrac12-\dfrac13$.
+
+[M159.4] Nhiều lựa chọn
+$\dfrac23:\dfrac45$ bằng
+A. $\dfrac8{15}$.
+B. $\dfrac65$.
+C. $\dfrac56$.
+D. $\dfrac{22}{15}$.
+::key C
+$\dfrac23:\dfrac45=\dfrac23\times\dfrac54=\dfrac{10}{12}=\dfrac56$. Phương án A quên đảo ngược, B đảo nhầm phân số thứ nhất, D là phép cộng.
+
+[M159.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét hai phân số $\dfrac7{12}$ và $\dfrac58$.
+a) Quy đồng mẫu số với mẫu số chung $24$ ta được $\dfrac{14}{24}$ và $\dfrac{15}{24}$.
+b) $\dfrac7{12}>\dfrac58$.
+c) $\dfrac58-\dfrac7{12}=\dfrac24$.
+d) $\dfrac7{12}+\dfrac58=\dfrac{29}{24}$.
+::key Đ S S Đ
+a) Đúng: $\dfrac7{12}=\dfrac{14}{24}$ và $\dfrac58=\dfrac{15}{24}$. b) Sai: $14<15$ nên $\dfrac7{12}<\dfrac58$. c) Sai: $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac1{24}$, không trừ cả mẫu số. d) Đúng: $\dfrac{14+15}{24}=\dfrac{29}{24}$.
+
+[M159.6] Trả lời ngắn
+Tìm $\dfrac38$ của $240$.
+::key 90
+$240\times\dfrac38=90$.
+
+[M159.7] Trả lời ngắn
+Viết phân số $\dfrac7{20}$ dưới dạng số thập phân.
+::key 0,35
+$7:20=0{,}35$.
+
+### M160 · Lớp 5 · Ôn tập: số thập phân và tỉ số phần trăm
+
+[M160.1] Nhiều lựa chọn
+Số lớn nhất trong các số $4{,}62$; $4{,}6$; $4{,}602$; $4{,}26$ là
+A. $4{,}26$.
+B. $4{,}6$.
+C. $4{,}602$.
+D. $4{,}62$.
+::key D
+Viết cùng ba chữ số thập phân: $4{,}620$; $4{,}600$; $4{,}602$; $4{,}260$. Phương án C là lỗi coi $602$ lớn hơn $62$ như số tự nhiên.
+
+[M160.2] Nhiều lựa chọn
+$25\%$ của $360$ là
+A. $90$.
+B. $14{,}4$.
+C. $9\,000$.
+D. $1\,440$.
+::key A
+$360\times25:100=90$. Phương án B là $360:25$, phương án C quên chia cho $100$, phương án D coi $360$ là $25\%$ của một số.
+
+[M160.3] Nhiều lựa chọn
+Kết quả của $6{,}4:0{,}08$ là
+A. $0{,}8$.
+B. $80$.
+C. $8$.
+D. $800$.
+::key B
+Nhân cả hai số với $100$: $6{,}4:0{,}08=640:8=80$. Các phương án còn lại do dời dấu phẩy ở hai số không cùng số chữ số.
+
+[M160.4] Nhiều lựa chọn
+Biết $30\%$ của một số bằng $45$. Số đó là
+A. $13{,}5$.
+B. $1\,350$.
+C. $150$.
+D. $75$.
+::key C
+$45:30\times100=150$. Phương án A là lỗi tìm $30\%$ của $45$, phương án B là $45\times30$, phương án D là $45+30$.
+
+[M160.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Lớp 5A có $40$ học sinh, trong đó có $18$ em nữ.
+a) Số em nữ chiếm $45\%$ số học sinh cả lớp.
+b) Số em nam chiếm $22\%$ số học sinh cả lớp.
+c) Số em nam nhiều hơn số em nữ một lượng bằng $10\%$ số học sinh cả lớp.
+d) Số em nữ bằng $0{,}45$ số em nam.
+::key Đ S Đ S
+a) Đúng: $18:40=0{,}45=45\%$. b) Sai: có $40-18=22$ em nam và $22:40=0{,}55=55\%$. c) Đúng: $22-18=4$ và $10\%\times40=4$. d) Sai: $0{,}45$ là tỉ số so với cả lớp, còn so với số em nam phải tính $18:22$.
+
+[M160.6] Trả lời ngắn
+Viết $\dfrac{3}{8}$ dưới dạng tỉ số phần trăm. Điền số vào chỗ trống: $\square\%$.
+::key 37,5
+$\dfrac{3}{8}=3:8=0{,}375=37{,}5\%$.
+
+[M160.7] Trả lời ngắn
+Một chiếc áo giá $250$ nghìn đồng được giảm giá $12\%$. Hỏi sau khi giảm, chiếc áo có giá bao nhiêu nghìn đồng?
+::key 220
+Số tiền được giảm là $250\times12:100=30$ (nghìn đồng), nên giá mới là $250-30=220$ (nghìn đồng).
+
+### M161 · Lớp 5 · Ôn tập: hình học và đo lường
+
+[M161.1] Nhiều lựa chọn
+Tam giác có đáy $10$ cm và chiều cao $6$ cm có diện tích là
+A. $30\ \text{cm}^2$.
+B. $16\ \text{cm}^2$.
+C. $120\ \text{cm}^2$.
+D. $60\ \text{cm}^2$.
+::key A
+$S=10\times6:2=30\ (\text{cm}^2)$. Phương án D quên chia $2$, B là tổng hai số, C nhân thêm $2$.
+
+[M161.2] Nhiều lựa chọn
+Hình tròn có bán kính $3$ cm có chu vi là
+A. $28{,}26$ cm.
+B. $18{,}84$ cm.
+C. $9{,}42$ cm.
+D. $37{,}68$ cm.
+::key B
+$C=3\times2\times3{,}14=18{,}84$ cm. Phương án A là diện tích ($3\times3\times3{,}14$), C coi $3$ cm là đường kính, D dùng bán kính $6$ cm.
+
+[M161.3] Nhiều lựa chọn
+Bể hình hộp chữ nhật dài $8$ dm, rộng $5$ dm, cao $6$ dm chứa đầy được
+A. $2400$ lít.
+B. $19$ lít.
+C. $240$ lít.
+D. $120$ lít.
+::key C
+$8\times5\times6=240\ (\text{dm}^3)=240$ lít. Phương án B cộng ba số, A nhân thêm $10$, D chia $2$ như tính diện tích tam giác.
+
+[M161.4] Nhiều lựa chọn
+$3{,}5$ ha bằng
+A. $350\ \text{m}^2$.
+B. $350\,000\ \text{m}^2$.
+C. $3500\ \text{m}^2$.
+D. $35\,000\ \text{m}^2$.
+::key D
+$1$ ha $=10\,000\ \text{m}^2$ nên $3{,}5\times10\,000=35\,000$. Các phương án còn lại nhân với $100$, $1000$ hoặc $100\,000$.
+
+[M161.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hình thang có đáy lớn $14$ m, đáy bé $8$ m và chiều cao $6$ m.
+a) Diện tích hình thang là $132\ \text{m}^2$.
+b) Diện tích hình thang là $66\ \text{m}^2$.
+c) Hình thang này có cùng diện tích với tam giác đáy $14$ m, cao $6$ m.
+d) Nếu chiều cao tăng gấp đôi (hai đáy giữ nguyên) thì diện tích là $132\ \text{m}^2$.
+::key S Đ S Đ
+a) Sai: $(14+8)\times6=132$ chưa chia $2$. b) Đúng: $132:2=66$. c) Sai: tam giác đó có diện tích $14\times6:2=42\ \text{m}^2$. d) Đúng: $(14+8)\times12:2=132$.
+
+[M161.6] Trả lời ngắn
+Tính diện tích hình tròn có bán kính $10$ cm, lấy $3{,}14$ (đơn vị: $\text{cm}^2$).
+::key 314
+$S=10\times10\times3{,}14=314$.
+
+[M161.7] Trả lời ngắn
+Đổi $0{,}5\ \text{m}^3$ ra $\text{dm}^3$.
+::key 500
+$0{,}5\times1000=500$.
+
+### M162 · Lớp 5 · Ôn tập: chuyển động đều và toán có lời văn
+
+[M162.1] Nhiều lựa chọn
+Một ô tô đi $150$ km hết $2{,}5$ giờ. Vận tốc của ô tô là
+A. $375$ km/giờ.
+B. $6$ km/giờ.
+C. $60$ km/giờ.
+D. $152{,}5$ km/giờ.
+::key C
+$v=150:2{,}5=60$ km/giờ. Phương án A nhân hai số, B quên dấu phẩy của $2{,}5$, D cộng hai số.
+
+[M162.2] Nhiều lựa chọn
+Một xe đi với vận tốc $45$ km/giờ trong $20$ phút. Quãng đường xe đi được là
+A. $900$ km.
+B. $2{,}25$ km.
+C. $65$ km.
+D. $15$ km.
+::key D
+$20$ phút $=\dfrac13$ giờ nên $s=45\times\dfrac13=15$ km. Phương án A nhân $45\times20$ (không đổi phút ra giờ), B chia $45:20$, C cộng hai số.
+
+[M162.3] Nhiều lựa chọn
+Mua $4$ chiếc bút giống nhau hết $48\,000$ đồng. Mua $7$ chiếc bút như vậy hết
+A. $84\,000$ đồng.
+B. $192\,000$ đồng.
+C. $12\,000$ đồng.
+D. $55\,000$ đồng.
+::key A
+Giá một chiếc bút là $12\,000$ đồng nên $7$ chiếc hết $84\,000$ đồng. Phương án B nhân $48\,000\times4$, C là giá một chiếc, D cộng $48\,000+7000$.
+
+[M162.4] Nhiều lựa chọn
+Một chiếc cặp giá $250\,000$ đồng được giảm giá $20\%$. Giá sau khi giảm là
+A. $50\,000$ đồng.
+B. $200\,000$ đồng.
+C. $230\,000$ đồng.
+D. $249\,980$ đồng.
+::key B
+Tiền giảm là $50\,000$ đồng nên giá mới là $200\,000$ đồng. Phương án A là tiền giảm, C coi $20\%$ là $20\,000$ đồng, D trừ đi $20$ đồng.
+
+[M162.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một ô tô đi từ A đến B dài $120$ km với vận tốc $40$ km/giờ, rồi quay về A với vận tốc $60$ km/giờ.
+a) Thời gian đi từ A đến B là $3$ giờ.
+b) Thời gian về từ B đến A là $2$ giờ.
+c) Vận tốc trung bình cả đi lẫn về là $50$ km/giờ.
+d) Vận tốc trung bình cả đi lẫn về là $48$ km/giờ.
+::key Đ Đ S Đ
+a) Đúng: $120:40=3$. b) Đúng: $120:60=2$. c) Sai: $50$ là trung bình cộng hai vận tốc, không phải vận tốc trung bình. d) Đúng: $240:5=48$.
+
+[M162.6] Trả lời ngắn
+Một xe đi $90$ km với vận tốc $45$ km/giờ. Xe đi hết bao nhiêu phút?
+::key 120
+$90:45=2$ giờ $=120$ phút.
+
+[M162.7] Trả lời ngắn
+Cùng một công việc, $6$ công nhân làm xong trong $8$ ngày. Hỏi $12$ công nhân (làm việc như nhau) làm xong trong mấy ngày?
+::key 4
+$6\times8=48$ ngày công, $48:12=4$ (ngày).
+
+### M163 · Lớp 5 · Đề ôn tập cuối cấp tiểu học số 2
+
+[M163.1] Nhiều lựa chọn
+Kết quả của $3{,}6\times2{,}5$ là
+A. $90$.
+B. $6{,}1$.
+C. $0{,}9$.
+D. $9$.
+::key D
+$36\times25=900$ và tích có hai chữ số thập phân, nên $3{,}6\times2{,}5=9$. Phương án A quên dấu phẩy, C đặt dấu phẩy sai, B là phép cộng.
+
+[M163.2] Nhiều lựa chọn
+Thể tích hình lập phương có cạnh $5$ dm là
+A. $125\ \text{dm}^3$.
+B. $25\ \text{dm}^3$.
+C. $125\ \text{dm}^2$.
+D. $15\ \text{dm}^3$.
+::key A
+$5\times5\times5=125\ (\text{dm}^3)$. Phương án D là $5\times3$, B là $5\times5$, C ghi sai đơn vị.
+
+[M163.3] Nhiều lựa chọn
+Một xe máy đi với vận tốc $54$ km/giờ trong $2$ giờ $20$ phút. Quãng đường xe đi được là
+A. $124{,}2$ km.
+B. $126$ km.
+C. $108$ km.
+D. $118{,}8$ km.
+::key B
+$2$ giờ $20$ phút $=\dfrac73$ giờ nên $s=54\times\dfrac73=126$ km. Phương án A coi $20$ phút là $0{,}3$ giờ, C bỏ $20$ phút, D coi $2$ giờ $20$ phút là $2{,}2$ giờ.
+
+[M163.4] Nhiều lựa chọn
+$25\%$ của $80$ là
+A. $25$.
+B. $320$.
+C. $20$.
+D. $2000$.
+::key C
+$80:100\times25=20$. Phương án A lấy số phần trăm, B là $80:0{,}25$, D nhân $80\times25$ mà không chia $100$.
+
+[M163.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tung một đồng xu $80$ lần, được $36$ lần mặt sấp.
+a) Tỉ số phần trăm số lần xuất hiện mặt sấp là $45\%$.
+b) Mặt ngửa xuất hiện $44$ lần.
+c) Tỉ số phần trăm số lần xuất hiện mặt ngửa là $55\%$.
+d) Tỉ số của mặt sấp lớn hơn tỉ số của mặt ngửa.
+::key Đ Đ Đ S
+a) Đúng: $36:80=0{,}45$. b) Đúng: $80-36=44$. c) Đúng: $44:80=0{,}55$. d) Sai: $45\%<55\%$.
+
+[M163.6] Trả lời ngắn
+Hình thang có hai đáy $24$ m và $16$ m, chiều cao $8$ m. Diện tích hình thang là bao nhiêu mét vuông?
+::key 160
+$(24+16)\times8:2=160$.
+
+[M163.7] Trả lời ngắn
+Mua $6$ quyển vở giống nhau hết $72\,000$ đồng. Giá một quyển vở là bao nhiêu nghìn đồng?
+::key 12
+$72\,000:6=12\,000$ đồng $=12$ nghìn đồng.
+
+### M164 · Lớp 6 · Làm quen với tập hợp
+
+[M164.1] Nhiều lựa chọn
+Cho $A=\{2;4;6;8\}$. Phát biểu nào sau đây đúng?
+A. $2\notin A$.
+B. $5\in A$.
+C. $6\in A$.
+D. $8\notin A$.
+::key C
+$6$ là một phần tử của $A$. Các phương án còn lại sai: $2$ và $8$ có trong $A$, còn $5$ thì không.
+
+[M164.2] Nhiều lựa chọn
+Tập hợp các số tự nhiên nhỏ hơn $4$ là
+A. $\{1;2;3;4\}$.
+B. $\{1;2;3\}$.
+C. $\{0;1;2;3;4\}$.
+D. $\{0;1;2;3\}$.
+::key D
+Số $0$ là số tự nhiên và số $4$ không nhỏ hơn $4$. Phương án B quên $0$, C tính cả $4$, A quên $0$ và tính cả $4$.
+
+[M164.3] Nhiều lựa chọn
+Tập hợp các chữ số của số $4554$ có bao nhiêu phần tử?
+A. $2$.
+B. $1$.
+C. $3$.
+D. $4$.
+::key A
+Các chữ số khác nhau là $4$ và $5$ nên có $2$ phần tử. Phương án D đếm cả chữ số lặp lại.
+
+[M164.4] Nhiều lựa chọn
+Tập hợp các tháng dương lịch có đúng $30$ ngày có bao nhiêu phần tử?
+A. $5$.
+B. $4$.
+C. $7$.
+D. $12$.
+::key B
+Đó là các tháng $4$, $6$, $9$, $11$. Phương án A tính thêm tháng $2$, C là số tháng có $31$ ngày, D là cả năm.
+
+[M164.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $B=\{12;14;16;18\}$ là tập hợp các số tự nhiên chẵn lớn hơn $10$ và nhỏ hơn $20$.
+a) $10\in B$.
+b) $16\in B$.
+c) $B$ có $4$ phần tử.
+d) $B$ có $5$ phần tử.
+::key S Đ Đ S
+a) Sai: $10$ không lớn hơn $10$. b) Đúng. c) Đúng: $12$, $14$, $16$, $18$. d) Sai: chỉ có $4$ phần tử.
+
+[M164.6] Trả lời ngắn
+Tập hợp các số tự nhiên lẻ nhỏ hơn $12$ có bao nhiêu phần tử?
+::key 6
+Đó là $1$, $3$, $5$, $7$, $9$, $11$.
+
+[M164.7] Trả lời ngắn
+Tập hợp các tháng dương lịch có đúng $31$ ngày có bao nhiêu phần tử?
+::key 7
+Đó là các tháng $1$, $3$, $5$, $7$, $8$, $10$, $12$.
+
+### M165 · Lớp 6 · Cách ghi số tự nhiên. Thứ tự trong tập hợp các số tự nhiên
+
+[M165.1] Nhiều lựa chọn
+Dùng ba chữ số $0$, $3$, $7$, mỗi chữ số dùng đúng một lần, số nhỏ nhất có ba chữ số là
+A. $037$.
+B. $307$.
+C. $370$.
+D. $703$.
+::key B
+Chữ số hàng trăm không được là $0$, nên chọn $3$ rồi xếp $0$, $7$ từ bé đến lớn: $307$. Phương án A chỉ có hai chữ số, C và D lớn hơn $307$.
+
+[M165.2] Nhiều lựa chọn
+Số $14$ viết bằng số La Mã là
+A. $\text{XIIII}$.
+B. $\text{IVX}$.
+C. $\text{XIV}$.
+D. $\text{VIX}$.
+::key C
+$14=10+4$ nên $\text{XIV}$. Phương án A viết $4$ bằng $\text{IIII}$ (sai quy tắc), B và D sắp xếp kí hiệu không đúng.
+
+[M165.3] Nhiều lựa chọn
+Số liền trước của $1000$ là
+A. $990$.
+B. $1001$.
+C. $99$.
+D. $999$.
+::key D
+$1000-1=999$. Phương án B là số liền sau, C và A là các lỗi tính sai khi trừ.
+
+[M165.4] Nhiều lựa chọn
+Dãy nào sau đây sắp xếp các số $3045$; $3504$; $345$; $3450$ theo thứ tự tăng dần?
+A. $345$; $3045$; $3450$; $3504$.
+B. $3045$; $345$; $3450$; $3504$.
+C. $345$; $3504$; $3450$; $3045$.
+D. $3504$; $3450$; $3045$; $345$.
+::key A
+$345$ có ít chữ số nhất; trong ba số bốn chữ số, hàng trăm $0<4<5$. Phương án D là thứ tự giảm dần, C và B xếp sai.
+
+[M165.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Về tập hợp $\mathbb{N}$ các số tự nhiên và tập hợp $\mathbb{N}^*$ các số tự nhiên khác $0$.
+a) $0\in\mathbb{N}$.
+b) $5\in\mathbb{N}^*$.
+c) Trong $\mathbb{N}$ có số lớn nhất.
+d) Số $0$ không có số liền trước trong $\mathbb{N}$.
+::key Đ Đ S Đ
+a) Đúng: $0$ là số tự nhiên. b) Đúng: $5\ne0$. c) Sai: sau mỗi số luôn có số liền sau lớn hơn. d) Đúng: $0$ là số nhỏ nhất.
+
+[M165.6] Trả lời ngắn
+Số La Mã $\text{XXIV}$ biểu diễn số tự nhiên nào?
+::key 24
+$\text{XXIV}=10+10+4=24$.
+
+[M165.7] Trả lời ngắn
+Có bao nhiêu số tự nhiên có hai chữ số?
+::key 90
+Từ $10$ đến $99$ có $99-10+1=90$ số.
+
+### M166 · Lớp 6 · Phép cộng, trừ, nhân, chia số tự nhiên
+
+[M166.1] Nhiều lựa chọn
+Giá trị của $125+38+75+62$ là
+A. $300$.
+B. $238$.
+C. $200$.
+D. $400$.
+::key A
+$(125+75)+(38+62)=200+100=300$. Phương án C quên cặp $38+62$, B chỉ cộng $125+38+75$, D cộng nhầm hai nhóm thành $200+200$.
+
+[M166.2] Nhiều lựa chọn
+Giá trị của $1976-999$ là
+A. $1977$.
+B. $977$.
+C. $987$.
+D. $877$.
+::key B
+$1976-999=1977-1000=977$. Phương án A quên trừ $1000$, C và D tính sai khi trừ.
+
+[M166.3] Nhiều lựa chọn
+Giá trị của $47\times99$ là
+A. $4700$.
+B. $4606$.
+C. $4653$.
+D. $4747$.
+::key C
+$47\times99=47\times(100-1)=4700-47=4653$. Phương án A bỏ qua phép trừ, B là $47\times98$, D là $47\times101$.
+
+[M166.4] Nhiều lựa chọn
+Cách viết nào đúng cho phép chia $100$ cho $7$?
+A. $100=7\times13+9$.
+B. $100=7\times12+16$.
+C. $100=7\times15-5$.
+D. $100=7\times14+2$.
+::key D
+Số dư phải nhỏ hơn số chia và không âm: $2<7$. Phương án A và B có số dư lớn hơn $7$, C có số dư âm.
+
+[M166.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Về phép chia các số tự nhiên.
+a) $0:5=0$.
+b) $5:0=0$.
+c) Khi chia cho $6$, số dư có thể bằng $6$.
+d) $6\times(10+4)=6\times10+6\times4$.
+::key Đ S S Đ
+a) Đúng: $5\times0=0$. b) Sai: không có phép chia cho $0$. c) Sai: số dư nhỏ hơn $6$. d) Đúng: tính chất phân phối.
+
+[M166.6] Trả lời ngắn
+Tìm số dư của phép chia $250$ cho $12$.
+::key 10
+$250=12\times20+10$.
+
+[M166.7] Trả lời ngắn
+$200$ học sinh lên các xe $45$ chỗ. Cần ít nhất bao nhiêu xe?
+::key 5
+$200=45\times4+20$, còn $20$ học sinh nên cần thêm $1$ xe: $4+1=5$.
+
+### M167 · Lớp 6 · Luỹ thừa với số mũ tự nhiên
+
+[M167.1] Nhiều lựa chọn
+Giá trị của $2^5$ là
+A. $10$.
+B. $7$.
+C. $32$.
+D. $25$.
+::key C
+$2^5=2\times2\times2\times2\times2=32$. Phương án A là $2\times5$, B là $2+5$, D là $5^2$.
+
+[M167.2] Nhiều lựa chọn
+Kết quả của $3^4\times3^3$ viết dưới dạng một luỹ thừa là
+A. $3^1$.
+B. $3^{12}$.
+C. $9^7$.
+D. $3^7$.
+::key D
+Cơ số giữ nguyên, cộng số mũ: $3^{4+3}=3^7$. Phương án B nhân số mũ, C nhân cả cơ số, A trừ số mũ.
+
+[M167.3] Nhiều lựa chọn
+Kết quả của $5^8:5^5$ là
+A. $5^3$.
+B. $5^{13}$.
+C. $1^3$.
+D. $5^{40}$.
+::key A
+Cơ số giữ nguyên, trừ số mũ: $5^{8-5}=5^3$. Phương án B cộng số mũ, C chia cả cơ số, D nhân số mũ.
+
+[M167.4] Nhiều lựa chọn
+Giá trị của $7^0$ là
+A. $0$.
+B. $1$.
+C. $7$.
+D. không có nghĩa.
+::key B
+Quy ước $a^0=1$ với $a\ne0$, vì $7^0=7^3:7^3=1$. Phương án A và C là các nhầm lẫn thường gặp.
+
+[M167.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Về số $64$.
+a) $64=2^8$.
+b) $64=2^6$.
+c) $64=4^3$.
+d) $64=8^2$.
+::key S Đ Đ Đ
+a) Sai: $2^8=256$. b) Đúng: $2^6=64$. c) Đúng: $4\times4\times4=64$. d) Đúng: $8\times8=64$.
+
+[M167.6] Trả lời ngắn
+Giá trị của $3^4$ là bao nhiêu?
+::key 81
+$3\times3\times3\times3=81$.
+
+[M167.7] Trả lời ngắn
+Giá trị của $5^8:5^6$ là bao nhiêu?
+::key 25
+$5^8:5^6=5^2=25$.
+
+### M168 · Lớp 6 · Thứ tự thực hiện các phép tính
+
+[M168.1] Nhiều lựa chọn
+Giá trị của $12+3\times7$ là
+A. $105$.
+B. $36$.
+C. $22$.
+D. $33$.
+::key D
+Nhân trước: $3\times7=21$, rồi $12+21=33$. Phương án A cộng trước, C cộng $12+3+7$, B lấy $12\times3$.
+
+[M168.2] Nhiều lựa chọn
+Giá trị của $48-12+8$ là
+A. $44$.
+B. $28$.
+C. $52$.
+D. $68$.
+::key A
+Tính từ trái sang phải: $36+8=44$. Phương án B cộng $12+8$ trước, C là $48+12-8$, D là $48+12+8$.
+
+[M168.3] Nhiều lựa chọn
+Giá trị của $2\times3^2$ là
+A. $36$.
+B. $18$.
+C. $12$.
+D. $11$.
+::key B
+Luỹ thừa trước: $3^2=9$, rồi $2\times9=18$. Phương án A tính $(2\times3)^2$, C là $2\times3\times2$, D là $2+9$.
+
+[M168.4] Nhiều lựa chọn
+Giá trị của $36:(2+4)\times3$ là
+A. $2$.
+B. $30$.
+C. $18$.
+D. $6$.
+::key C
+Ngoặc trước: $36:6\times3=6\times3=18$. Phương án A là $36:(6\times3)$, B bỏ qua ngoặc, D quên nhân $3$.
+
+[M168.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Về thứ tự thực hiện các phép tính.
+a) $12+3\times7=33$.
+b) $2\times3^2=36$.
+c) $20-(6+4)=10$.
+d) $48-12+8=28$.
+::key Đ S Đ S
+a) Đúng. b) Sai: $2\times9=18$. c) Đúng: $20-10=10$. d) Sai: từ trái sang phải được $44$.
+
+[M168.6] Trả lời ngắn
+Tính $3\times2^3+5^2$.
+::key 49
+$3\times8+25=24+25=49$.
+
+[M168.7] Trả lời ngắn
+Tính $2\times[30-(4+6)]$.
+::key 40
+$2\times[30-10]=2\times20=40$.
+
+### M169 · Lớp 6 · Quan hệ chia hết và tính chất. Dấu hiệu chia hết
+
+[M169.1] Nhiều lựa chọn
+Tập hợp các ước của $12$ là
+A. $\{0;12;24;36\}$.
+B. $\{1;2;3;4;6\}$.
+C. $\{1;2;3;4;6;12\}$.
+D. $\{2;3;4;6;12\}$.
+::key C
+$12=1\times12=2\times6=3\times4$, nên có $6$ ước. Phương án B thiếu $12$, A là các bội của $12$, D thiếu $1$.
+
+[M169.2] Nhiều lựa chọn
+Số nào sau đây chia hết cho cả $2$ và $5$?
+A. $4125$.
+B. $3128$.
+C. $5207$.
+D. $3460$.
+::key D
+$3460$ tận cùng $0$ nên chia hết cho cả $2$ và $5$. Phương án A chỉ chia hết cho $5$, B chỉ chia hết cho $2$, C không chia hết cho cả hai.
+
+[M169.3] Nhiều lựa chọn
+Số $1011$ chia hết cho số nào trong các số sau?
+A. $3$.
+B. $2$.
+C. $5$.
+D. $9$.
+::key A
+Tổng các chữ số là $1+0+1+1=3$ chia hết cho $3$ nhưng không chia hết cho $9$. Tận cùng $1$ nên không chia hết cho $2$ và $5$.
+
+[M169.4] Nhiều lựa chọn
+Thay $*$ bởi chữ số nào thì số $\overline{34*}$ chia hết cho $9$?
+A. $0$.
+B. $2$.
+C. $5$.
+D. $7$.
+::key B
+$3+4+*=7+*$ phải chia hết cho $9$ nên $*=2$ (số $342=9\times38$). Phương án A, C, D không làm tổng chia hết cho $9$.
+
+[M169.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Về quan hệ chia hết.
+a) $0$ là bội của $7$.
+b) $1011\vdots3$.
+c) $21\vdots9$.
+d) Vì $7+5=12$ chia hết cho $6$ nên $7$ chia hết cho $6$.
+::key Đ Đ S S
+a) Đúng: $0=7\times0$. b) Đúng: tổng chữ số bằng $3$. c) Sai: tổng chữ số $3$ không chia hết cho $9$. d) Sai: $7=6\times1+1$.
+
+[M169.6] Trả lời ngắn
+Số $20$ có bao nhiêu ước?
+::key 6
+$\text{Ư}(20)=\{1;2;4;5;10;20\}$.
+
+[M169.7] Trả lời ngắn
+Thay $*$ bởi chữ số nào để $\overline{47*}$ chia hết cho $9$?
+::key 7
+$4+7+*=11+*$ chia hết cho $9$ nên $*=7$.
+
+### M170 · Lớp 6 · Số nguyên tố
+
+[M170.1] Nhiều lựa chọn
+Số nào sau đây là số nguyên tố?
+A. $1$.
+B. $51$.
+C. $91$.
+D. $47$.
+::key D
+$47$ chỉ có hai ước là $1$ và $47$. A: $1$ chỉ có một ước; B: $51=3\cdot17$; C: $91=7\cdot13$.
+
+[M170.2] Nhiều lựa chọn
+Dạng phân tích ra thừa số nguyên tố của $72$ là
+A. $2^3\cdot3^2$.
+B. $8\cdot9$.
+C. $2^2\cdot3^3$.
+D. $2\cdot36$.
+::key A
+$72=2\cdot2\cdot2\cdot3\cdot3=2^3\cdot3^2$. B và D còn hợp số; C đảo số mũ ($2^2\cdot3^3=108$).
+
+[M170.3] Nhiều lựa chọn
+Có bao nhiêu số nguyên tố nhỏ hơn $20$?
+A. $7$.
+B. $8$.
+C. $9$.
+D. $10$.
+::key B
+Đó là $2$; $3$; $5$; $7$; $11$; $13$; $17$; $19$. A quên số $2$; C tính thêm số $1$.
+
+[M170.4] Nhiều lựa chọn
+Biết $n=2^2\cdot7$. Số nào sau đây **không** là ước của $n$?
+A. $4$.
+B. $14$.
+C. $8$.
+D. $28$.
+::key C
+$n=28$ có các ước $1$; $2$; $4$; $7$; $14$; $28$. Số $8=2^3$ cần ba thừa số $2$, mà $n$ chỉ có hai.
+
+[M170.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số nguyên tố đều là số lẻ.
+b) Số $57$ là hợp số.
+c) $2\cdot3\cdot5+1$ là số nguyên tố.
+d) $120=2^3\cdot3\cdot5$.
+::key S Đ Đ Đ
+a) Sai: $2$ là số nguyên tố chẵn. b) Đúng: $57=3\cdot19$. c) Đúng: $31$ là số nguyên tố. d) Đúng: $2^3\cdot3\cdot5=8\cdot15=120$.
+
+[M170.6] Trả lời ngắn
+Số $2^3\cdot5$ bằng bao nhiêu?
+::key 40
+$2^3\cdot5=8\cdot5=40$.
+
+[M170.7] Trả lời ngắn
+Số $210$ có bao nhiêu thừa số nguyên tố khác nhau?
+::key 4
+$210=2\cdot3\cdot5\cdot7$, có $4$ thừa số nguyên tố khác nhau.
+
+### M171 · Lớp 6 · Ước chung. Ước chung lớn nhất
+
+[M171.1] Nhiều lựa chọn
+$\text{ƯCLN}(24,36)$ bằng
+A. $6$.
+B. $12$.
+C. $72$.
+D. $4$.
+::key B
+$24=2^3\cdot3$, $36=2^2\cdot3^2$, nên $\text{ƯCLN}=2^2\cdot3=12$. A là một ước chung nhưng chưa lớn nhất; C là bội chung nhỏ nhất; D thiếu thừa số $3$.
+
+[M171.2] Nhiều lựa chọn
+Biết $\text{ƯCLN}(a,b)=10$. Tập hợp $\text{ƯC}(a,b)$ là
+A. $\{1;2;5;10\}$.
+B. $\{10;20;30;\dots\}$.
+C. $\{2;5\}$.
+D. $\{1;10\}$.
+::key A
+Các ước chung là các ước của $10$. B là các bội của $10$; C và D thiếu ước.
+
+[M171.3] Nhiều lựa chọn
+Phân số nào sau đây là phân số tối giản?
+A. $\dfrac{14}{21}$.
+B. $\dfrac{15}{25}$.
+C. $\dfrac{9}{16}$.
+D. $\dfrac{12}{18}$.
+::key C
+$\text{ƯCLN}(9,16)=1$. Các phân số còn lại rút gọn được: $\dfrac{14}{21}=\dfrac{2}{3}$, $\dfrac{15}{25}=\dfrac{3}{5}$, $\dfrac{12}{18}=\dfrac{2}{3}$.
+
+[M171.4] Nhiều lựa chọn
+Có $30$ quả cam và $45$ quả quýt chia đều vào các đĩa, mỗi đĩa có số cam như nhau và số quýt như nhau. Số đĩa nhiều nhất là
+A. $5$.
+B. $3$.
+C. $90$.
+D. $15$.
+::key D
+Số đĩa nhiều nhất là $\text{ƯCLN}(30,45)=15$. A và B là ước chung nhưng chưa lớn nhất; C là BCNN.
+
+[M171.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $\text{ƯCLN}(18,30)=6$.
+b) Hai hợp số không bao giờ nguyên tố cùng nhau.
+c) Nếu $a$ chia hết cho $b$ thì $\text{ƯCLN}(a,b)=b$.
+d) $\text{ƯCLN}(15,1)=15$.
+::key Đ S Đ S
+a) Đúng: $18=2\cdot3^2$, $30=2\cdot3\cdot5$, ƯCLN là $2\cdot3=6$. b) Sai: $8$ và $9$ đều là hợp số nhưng $\text{ƯCLN}(8,9)=1$. c) Đúng: $b$ là ước của cả $a$ và $b$, và không có ước nào của $b$ lớn hơn $b$. d) Sai: $\text{ƯCLN}(15,1)=1$.
+
+[M171.6] Trả lời ngắn
+Tìm $\text{ƯCLN}(42,70)$.
+::key 14
+$42=2\cdot3\cdot7$, $70=2\cdot5\cdot7$, nên $\text{ƯCLN}=2\cdot7=14$.
+
+[M171.7] Trả lời ngắn
+Hai số $54$ và $90$ có bao nhiêu ước chung?
+::key 6
+$\text{ƯCLN}(54,90)=2\cdot3^2=18$, và $18$ có $6$ ước: $1$; $2$; $3$; $6$; $9$; $18$.
+
+### M172 · Lớp 6 · Bội chung. Bội chung nhỏ nhất
+
+[M172.1] Nhiều lựa chọn
+$\text{BCNN}(12,20)$ bằng
+A. $4$.
+B. $240$.
+C. $60$.
+D. $120$.
+::key C
+$12=2^2\cdot3$, $20=2^2\cdot5$, nên BCNN là $2^2\cdot3\cdot5=60$. A là ƯCLN; B là tích $12\cdot20$; D là một bội chung nhưng chưa nhỏ nhất.
+
+[M172.2] Nhiều lựa chọn
+Biết $\text{BCNN}(a,b)=15$. Các bội chung của $a$ và $b$ nhỏ hơn $50$ là
+A. $1$; $3$; $5$; $15$.
+B. $0$; $15$; $30$; $45$.
+C. $15$; $30$; $45$; $60$.
+D. $0$; $15$.
+::key B
+Các bội chung là các bội của $15$. A là các ước của $15$; C có $60>50$ và thiếu $0$; D thiếu $30$, $45$.
+
+[M172.3] Nhiều lựa chọn
+Mẫu chung nhỏ nhất khi quy đồng $\dfrac{1}{6}$ và $\dfrac{3}{10}$ là
+A. $60$.
+B. $16$.
+C. $2$.
+D. $30$.
+::key D
+Mẫu chung nhỏ nhất là $\text{BCNN}(6,10)=30$. A là tích $6\cdot10$; B là tổng; C là ƯCLN.
+
+[M172.4] Nhiều lựa chọn
+Hai bánh răng ăn khớp nhau, bánh nhỏ có $12$ răng, bánh lớn có $18$ răng. Hai răng đánh dấu đang chạm nhau. Bánh nhỏ phải quay ít nhất bao nhiêu vòng để hai răng ấy lại chạm nhau?
+A. $3$ vòng.
+B. $2$ vòng.
+C. $36$ vòng.
+D. $6$ vòng.
+::key A
+Số răng đi qua chỗ tiếp xúc ít nhất là $\text{BCNN}(12,18)=36$, nên bánh nhỏ quay $36:12=3$ vòng. B là số vòng của bánh lớn; C nhầm số răng với số vòng; D là ƯCLN.
+
+[M172.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $\text{BCNN}(5,7)=35$.
+b) $\text{BCNN}(16,4)=64$.
+c) Số $0$ là bội chung của mọi cặp số khác $0$.
+d) Nếu $\text{ƯCLN}(a,b)=1$ thì $\text{BCNN}(a,b)=a\cdot b$.
+::key Đ S Đ Đ
+a) Đúng: $5$ và $7$ nguyên tố cùng nhau. b) Sai: $16$ chia hết cho $4$ nên $\text{BCNN}=16$. c) Đúng: $0$ chia hết cho mọi số khác $0$. d) Đúng: hai số không có thừa số chung nên BCNN là tích.
+
+[M172.6] Trả lời ngắn
+Tìm $\text{BCNN}(18,24)$.
+::key 72
+$18=2\cdot3^2$, $24=2^3\cdot3$, nên BCNN là $2^3\cdot3^2=72$.
+
+[M172.7] Trả lời ngắn
+Một số chia hết cho $4$, $5$ và $6$. Số nhỏ nhất khác $0$ như vậy là bao nhiêu?
+::key 60
+Đó là $\text{BCNN}(4,5,6)=2^2\cdot3\cdot5=60$.
+
+### M173 · Lớp 6 · Tập hợp các số nguyên
+
+[M173.1] Nhiều lựa chọn
+Số nào sau đây là số nguyên âm?
+A. $0$.
+B. $-(-5)$.
+C. $-9$.
+D. $7$.
+::key C
+$-9$ là số nguyên âm. A: $0$ không âm; B: $-(-5)=5$ là số dương; D là số dương.
+
+[M173.2] Nhiều lựa chọn
+Số đối của $-15$ là
+A. $15$.
+B. $-15$.
+C. $0$.
+D. $\dfrac{1}{15}$.
+::key A
+Số đối của $-15$ là $15$. B là chính số đó; C không liên quan; D là nghịch đảo (học sau), không phải số đối.
+
+[M173.3] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. $-6>-2$.
+B. $-1<-10$.
+C. $0<-3$.
+D. $-7<-4$.
+::key D
+Vì $7>4$ nên $-7<-4$. A và B so sánh số âm như số tự nhiên; C sai vì số âm nhỏ hơn $0$.
+
+[M173.4] Nhiều lựa chọn
+Có bao nhiêu số nguyên $x$ thoả mãn $-3\le x\le2$?
+A. $4$.
+B. $5$.
+C. $6$.
+D. $7$.
+::key C
+Đó là $-3$; $-2$; $-1$; $0$; $1$; $2$, gồm $6$ số. A bỏ cả hai đầu; B quên số $0$; D đếm thừa.
+
+[M173.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số tự nhiên đều là số nguyên.
+b) Số $0$ là số nguyên dương nhỏ nhất.
+c) Số đối của số nguyên âm là số nguyên dương.
+d) Trong hai số nguyên âm, số nào có phần số tự nhiên nhỏ hơn thì số đó nhỏ hơn.
+::key Đ S Đ S
+a) Đúng: $\mathbb{N}\subset\mathbb{Z}$. b) Sai: $0$ không là số dương; số nguyên dương nhỏ nhất là $1$. c) Đúng: ví dụ số đối của $-4$ là $4$. d) Sai: ví dụ $3<8$ nhưng $-3>-8$.
+
+[M173.6] Trả lời ngắn
+Số nguyên âm lớn nhất là số nào?
+::key -1
+Các số nguyên âm là $-1$; $-2$; $-3$; …, trong đó $-1$ nằm gần $0$ nhất nên lớn nhất.
+
+[M173.7] Trả lời ngắn
+Lúc $6$ giờ nhiệt độ là $-3^\circ\text{C}$, đến trưa nhiệt độ tăng thêm $8^\circ\text{C}$. Nhiệt độ buổi trưa là bao nhiêu độ C?
+::key 5
+Trên nhiệt kế, từ $-3$ đi lên $8$ vạch: $3$ vạch đầu đến $0$, còn $5$ vạch nữa đến $5$. Nhiệt độ buổi trưa là $5^\circ\text{C}$.
+
+### M174 · Lớp 6 · Phép cộng và phép trừ số nguyên. Quy tắc dấu ngoặc
+
+[M174.1] Nhiều lựa chọn
+Kết quả của phép tính $(-25)+(-15)$ là
+A. $-10$.
+B. $40$.
+C. $-40$.
+D. $10$.
+::key C
+$(-25)+(-15)=-(25+15)=-40$. A lấy hiệu thay vì tổng; B quên dấu "$-$"; D vừa lấy hiệu vừa sai dấu.
+
+[M174.2] Nhiều lựa chọn
+Kết quả của phép tính $(-18)+11$ là
+A. $-7$.
+B. $7$.
+C. $-29$.
+D. $29$.
+::key A
+Hai số khác dấu, $18>11$ nên tổng là $-(18-11)=-7$. B sai dấu; C cộng hai phần số như cùng dấu; D cộng hai phần số và quên dấu.
+
+[M174.3] Nhiều lựa chọn
+Kết quả của phép tính $5-(-8)$ là
+A. $-3$.
+B. $3$.
+C. $-13$.
+D. $13$.
+::key D
+$5-(-8)=5+8=13$. A tính $5-8$, quên đổi dấu; B tính $8-5$; C đổi sai dấu cả hai số.
+
+[M174.4] Nhiều lựa chọn
+Với $a$, $b$, $c$ là các số nguyên, biểu thức $a-(b-c)$ bằng
+A. $a-b-c$.
+B. $a-b+c$.
+C. $a+b-c$.
+D. $a+b+c$.
+::key B
+Trước ngoặc có dấu "$-$" nên đổi dấu cả hai số hạng: $a-(b-c)=a-b+c$. A chỉ đổi dấu số hạng đầu; C đổi dấu ngược; D sai cả hai.
+
+[M174.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Tổng của một số nguyên dương và một số nguyên âm luôn là một số nguyên dương.
+b) Tổng của hai số nguyên âm là một số nguyên âm.
+c) Hiệu của hai số nguyên âm luôn là một số nguyên âm.
+d) Hai số nguyên đối nhau có tổng bằng $0$.
+::key S Đ S Đ
+a) Sai: ví dụ $3+(-5)=-2$ là số âm. b) Đúng: $(-a)+(-b)=-(a+b)$. c) Sai: ví dụ $(-2)-(-5)=3$ là số dương. d) Đúng: $a+(-a)=0$.
+
+[M174.6] Trả lời ngắn
+Tính giá trị của biểu thức $(-120)+75-(-45)$.
+::key 0
+$(-120)+75-(-45)=(-120)+75+45=(-120)+120=0$.
+
+[M174.7] Trả lời ngắn
+Lúc $5$ giờ sáng nhiệt độ là $-6^\circ\text{C}$, đến trưa nhiệt độ là $4^\circ\text{C}$. Từ $5$ giờ sáng đến trưa, nhiệt độ đã tăng bao nhiêu độ C?
+::key 10
+Mức tăng bằng nhiệt độ lúc sau trừ nhiệt độ lúc đầu: $4-(-6)=4+6=10$ (độ C).

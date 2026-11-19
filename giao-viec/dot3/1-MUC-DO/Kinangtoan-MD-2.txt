@@ -1,0 +1,915 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-MD-2   |   VIỆC: gắn mức độ nhận thức (MD-16)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-MD-2-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-16 – gắn mức độ nhận thức cho 105 câu hỏi (Lớp 9 → Lớp 9)
+
+Tài khoản thực hiện: Kinangtoan
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-16 (105 câu)
+
+## Các câu hỏi
+
+### M274 · Lớp 9 · Bảng tần số và biểu đồ tần số
+
+[M274.1] Nhiều lựa chọn
+Cho mẫu dữ liệu $3, 5, 4, 5, 2, 5, 4, 3, 5, 1$. Tần số của giá trị $5$ là
+A. $5$.
+B. $10$.
+C. $4$.
+D. $2$.
+::key C
+Giá trị $5$ xuất hiện $4$ lần. A nhầm giá trị với tần số, B là cỡ mẫu, D là tần số của giá trị $3$ (hoặc $4$).
+
+[M274.2] Nhiều lựa chọn
+Một mẫu dữ liệu có bảng tần số: giá trị $1, 2, 3, 4$ với tần số lần lượt $6, 9, 4, 1$. Cỡ mẫu là
+A. $20$.
+B. $10$.
+C. $4$.
+D. $9$.
+::key A
+$n=6+9+4+1=20$. B cộng các giá trị, C là số giá trị khác nhau, D là tần số lớn nhất.
+
+[M274.3] Nhiều lựa chọn
+Trong biểu đồ tần số dạng cột, chiều cao mỗi cột biểu diễn
+A. giá trị của dữ liệu.
+B. cỡ mẫu.
+C. số giá trị khác nhau.
+D. tần số của giá trị ứng với cột.
+::key D
+Chiều cao cột bằng tần số của giá trị ứng với cột. Giá trị được ghi ở chân cột (A), cỡ mẫu là tổng chiều cao các cột (B), số giá trị khác nhau là số cột (C).
+
+[M274.4] Nhiều lựa chọn
+Số bàn thắng trong các trận đấu có bảng tần số: giá trị $0, 1, 2, 3$ với tần số lần lượt $4, 7, 6, 3$. Số trận có ít nhất 2 bàn thắng là
+A. $6$.
+B. $9$.
+C. $16$.
+D. $3$.
+::key B
+$6+3=9$. A chỉ đếm các trận đúng 2 bàn, D chỉ đếm các trận 3 bàn, C đếm các trận có ít nhất 1 bàn.
+
+[M274.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Số giờ tự học mỗi ngày của một nhóm học sinh có các giá trị $1, 2, 3, 4$ với tần số lần lượt $5, 8, 4, 3$. Xét tính đúng sai của các mệnh đề sau:
+a) Cỡ mẫu là $20$.
+b) Giá trị có tần số lớn nhất là $8$.
+c) Có $7$ học sinh tự học từ 3 giờ trở lên.
+d) Tổng số giờ tự học của cả nhóm là $45$ giờ.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: $8$ là tần số, giá trị là $2$. c) Đúng: $4+3=7$. d) Đúng: $5+16+12+12=45$.
+
+[M274.6] Trả lời ngắn
+Một mẫu dữ liệu cỡ $20$ có bảng tần số: giá trị $5, 6, 7, 8$ với tần số lần lượt $3, x, 7, 4$. Tìm $x$.
+::key 6
+$x=20-(3+7+4)=6$.
+
+[M274.7] Trả lời ngắn
+Số bàn thắng trong các trận đấu có bảng tần số: giá trị $0, 1, 2, 3$ với tần số lần lượt $4, 7, 6, 3$. Tính tổng số bàn thắng của tất cả các trận.
+::key 28
+$0\cdot4+1\cdot7+2\cdot6+3\cdot3=0+7+12+9=28$.
+
+### M275 · Lớp 9 · Bảng tần số tương đối và biểu đồ tần số tương đối
+
+[M275.1] Nhiều lựa chọn
+Một giá trị có tần số $9$ trong mẫu dữ liệu cỡ $36$. Tần số tương đối của giá trị đó là
+A. $9\%$.
+B. $25\%$.
+C. $4\%$.
+D. $75\%$.
+::key B
+$\dfrac{9}{36}\cdot100\%=25\%$. A lấy tần số làm phần trăm, C tính $36:9$, D là phần còn lại $100\%-25\%$.
+
+[M275.2] Nhiều lựa chọn
+Trong mẫu dữ liệu cỡ $50$, một giá trị có tần số tương đối $30\%$. Tần số của giá trị đó là
+A. $30$.
+B. $20$.
+C. $35$.
+D. $15$.
+::key D
+$m=50\cdot30\%=15$. A lấy phần trăm làm tần số, B tính $50-30$, C là tần số của phần còn lại $50-15$.
+
+[M275.3] Nhiều lựa chọn
+Trong biểu đồ hình quạt tròn, hình quạt ứng với tần số tương đối $15\%$ có góc ở tâm là
+A. $54^\circ$.
+B. $15^\circ$.
+C. $27^\circ$.
+D. $5{,}4^\circ$.
+::key A
+$15\%\cdot360^\circ=54^\circ$. B lấy phần trăm làm số đo góc, C nhân với $180^\circ$ thay vì $360^\circ$, D đổi nhầm $15\%$ thành $0{,}015$.
+
+[M275.4] Nhiều lựa chọn
+Để thấy rõ mỗi nhóm chiếm bao nhiêu phần của tổng thể, nên dùng
+A. biểu đồ đoạn thẳng.
+B. bảng tần số.
+C. biểu đồ hình quạt tròn.
+D. danh sách dữ liệu ban đầu.
+::key C
+Cả hình tròn ứng với $100\%$, mỗi hình quạt cho thấy ngay phần của từng nhóm. Biểu đồ đoạn thẳng (A) cho thấy xu hướng; bảng tần số (B) và danh sách dữ liệu (D) cho con số, không cho hình ảnh "phần của toàn thể".
+
+[M275.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một mẫu dữ liệu cỡ $80$ có bốn nhóm với tần số tương đối $35\%$, $25\%$, $x\%$, $15\%$. Xét tính đúng sai của các mệnh đề sau:
+a) $x=25$.
+b) Tần số của nhóm thứ nhất là $35$.
+c) Hình quạt của nhóm thứ tư có góc ở tâm $54^\circ$.
+d) Nhóm thứ ba và nhóm thứ tư có tổng tần số là $30$.
+::key Đ S Đ S
+a) Đúng: $100-35-25-15=25$. b) Sai: $80\cdot35\%=28$. c) Đúng: $15\%\cdot360^\circ=54^\circ$. d) Sai: $80\cdot40\%=32$.
+
+[M275.6] Trả lời ngắn
+Một giá trị có tần số $18$ và tần số tương đối $12\%$. Tính cỡ mẫu.
+::key 150
+$n=18:0{,}12=150$.
+
+[M275.7] Trả lời ngắn
+Một hình quạt trong biểu đồ hình quạt tròn có góc ở tâm $126^\circ$. Tần số tương đối của nhóm đó bằng bao nhiêu phần trăm?
+::key 35
+$\dfrac{126}{360}=0{,}35=35\%$.
+
+### M276 · Lớp 9 · Bảng tần số, tần số tương đối ghép nhóm và biểu đồ
+
+[M276.1] Nhiều lựa chọn
+Với các nhóm $[145; 150)$, $[150; 155)$, $[155; 160)$, số liệu $155$ thuộc nhóm
+A. $[150; 155)$.
+B. cả hai nhóm $[150; 155)$ và $[155; 160)$.
+C. không nhóm nào.
+D. $[155; 160)$.
+::key D
+Ta có $155\leq155<160$. Nhóm $[150; 155)$ không chứa đầu mút phải $155$ (A sai), nên $155$ thuộc đúng một nhóm (B, C sai).
+
+[M276.2] Nhiều lựa chọn
+Giá trị đại diện của nhóm $[40; 50)$ là
+A. $10$.
+B. $40$.
+C. $45$.
+D. $50$.
+::key C
+$\dfrac{40+50}{2}=45$. A là độ dài nhóm, B là đầu mút trái, D là đầu mút phải.
+
+[M276.3] Nhiều lựa chọn
+Một mẫu số liệu cỡ $30$ có bốn nhóm với tần số $5$, $12$, $8$, $5$. Tần số tương đối của nhóm thứ hai là
+A. $40\%$.
+B. $12\%$.
+C. $60\%$.
+D. $2{,}5\%$.
+::key A
+$\dfrac{12}{30}\cdot100\%=40\%$. B lấy tần số làm phần trăm, C là phần còn lại, D tính $30:12$.
+
+[M276.4] Nhiều lựa chọn
+Trong biểu đồ tần số ghép nhóm dạng cột, các cột
+A. cách đều nhau, đáy mỗi cột là giá trị đại diện của nhóm.
+B. nằm liền nhau, đáy mỗi cột là một nhóm.
+C. có chiều rộng bằng tần số.
+D. có chiều cao bằng giá trị đại diện của nhóm.
+::key B
+Số liệu chạy liên tục qua các nhóm nên các cột liền nhau. A là cách vẽ với số liệu không ghép nhóm; chiều rộng cột là độ dài nhóm (C sai), chiều cao cột là tần số (D sai).
+
+[M276.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Giả sử thời gian chờ (phút) của 50 khách hàng có bảng: $[0; 5)$: $12$, $[5; 10)$: $20$, $[10; 15)$: $10$, $[15; 20)$: $8$. Xét tính đúng sai của các mệnh đề sau:
+a) Độ dài mỗi nhóm là $5$ phút.
+b) Tần số tương đối của nhóm $[5; 10)$ là $40\%$.
+c) Có $18$ khách chờ từ 10 phút trở lên.
+d) Từ bảng, ta biết có đúng $6$ khách chờ dưới 2 phút.
+::key Đ Đ Đ S
+a) Đúng. b) Đúng: $\dfrac{20}{50}=40\%$. c) Đúng: $10+8=18$. d) Sai: bảng không cho biết số liệu bên trong nhóm $[0; 5)$.
+
+[M276.6] Trả lời ngắn
+Với bảng ở câu trên, bao nhiêu phần trăm khách hàng chờ từ 10 phút trở lên?
+::key 36
+$\dfrac{18}{50}=36\%$.
+
+[M276.7] Trả lời ngắn
+Tìm giá trị đại diện của nhóm $[12{,}5; 17{,}5)$.
+::key 15
+$\dfrac{12{,}5+17{,}5}{2}=15$.
+
+### M277 · Lớp 9 · Phép thử ngẫu nhiên và không gian mẫu
+
+[M277.1] Nhiều lựa chọn
+Gieo một con xúc xắc. Số phần tử của không gian mẫu là
+A. $1$.
+B. $2$.
+C. $6$.
+D. $36$.
+::key C
+$\Omega=\{1; 2; 3; 4; 5; 6\}$. A nhầm "mỗi lần chỉ ra một mặt", B nhầm với tung một đồng xu, D là số kết quả khi gieo hai xúc xắc.
+
+[M277.2] Nhiều lựa chọn
+Tung hai đồng xu. Không gian mẫu là
+A. $\{(S; S); (S; N); (N; N)\}$.
+B. $\{S; N\}$.
+C. $\{(S; N); (N; S)\}$.
+D. $\{(S; S); (S; N); (N; S); (N; N)\}$.
+::key D
+A gộp nhầm $(S; N)$ với $(N; S)$, B là không gian mẫu khi tung một đồng xu, C chỉ gồm các kết quả khác mặt.
+
+[M277.3] Nhiều lựa chọn
+Gieo hai con xúc xắc. Số phần tử của không gian mẫu là
+A. $12$.
+B. $36$.
+C. $21$.
+D. $6$.
+::key B
+$6\cdot6=36$. A cộng $6+6$, C đếm các cặp không phân biệt thứ tự, D là của một xúc xắc.
+
+[M277.4] Nhiều lựa chọn
+Một hộp có $4$ viên bi khác màu. Lấy ngẫu nhiên lần lượt $2$ viên, không hoàn lại. Số phần tử của không gian mẫu là
+A. $12$.
+B. $16$.
+C. $6$.
+D. $8$.
+::key A
+$4\cdot3=12$. B là lấy có hoàn lại, C là lấy đồng thời (không thứ tự), D cộng $4+4$.
+
+[M277.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hộp có ba thẻ ghi số $1$, $2$, $3$. Rút ngẫu nhiên lần lượt hai thẻ, có hoàn lại. Xét tính đúng sai của các mệnh đề sau:
+a) Không gian mẫu có $9$ phần tử.
+b) $(1; 1)$ là một phần tử của không gian mẫu.
+c) $(1; 2)$ và $(2; 1)$ là cùng một kết quả.
+d) Có $3$ kết quả mà hai thẻ ghi cùng một số.
+::key Đ Đ S Đ
+a) Đúng: $3\cdot3=9$. b) Đúng vì có hoàn lại. c) Sai: thứ tự rút khác nhau. d) Đúng: $(1; 1), (2; 2), (3; 3)$.
+
+[M277.6] Trả lời ngắn
+Gieo hai con xúc xắc. Có bao nhiêu kết quả mà tổng số chấm bằng $9$?
+::key 4
+$(3; 6), (4; 5), (5; 4), (6; 3)$.
+
+[M277.7] Trả lời ngắn
+Chọn ngẫu nhiên đồng thời hai bạn trong năm bạn. Không gian mẫu có bao nhiêu phần tử?
+::key 10
+Ghép từng bạn với các bạn sau: $4+3+2+1=10$.
+
+### M278 · Lớp 9 · Xác suất của biến cố liên quan tới phép thử
+
+[M278.1] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm lẻ là
+A. $\dfrac13$.
+B. $\dfrac16$.
+C. $3$.
+D. $\dfrac12$.
+::key D
+Có $3$ kết quả thuận lợi $1, 3, 5$ trên $6$ kết quả. A quên số $1$ là số lẻ, B là xác suất của một mặt, C là số kết quả thuận lợi, không phải xác suất.
+
+[M278.2] Nhiều lựa chọn
+Tung hai đồng xu cân đối. Xác suất để cả hai đồng xu đều xuất hiện mặt ngửa là
+A. $\dfrac13$.
+B. $\dfrac14$.
+C. $\dfrac12$.
+D. $\dfrac34$.
+::key B
+Chỉ có $(N; N)$ trong $4$ kết quả. A dùng nhầm ba kết quả không đồng khả năng, C là xác suất một đồng xu ngửa, D là xác suất có ít nhất một mặt ngửa.
+
+[M278.3] Nhiều lựa chọn
+Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng $4$ là
+A. $\dfrac{1}{12}$.
+B. $\dfrac{1}{18}$.
+C. $\dfrac{1}{11}$.
+D. $\dfrac{1}{9}$.
+::key A
+$(1; 3), (2; 2), (3; 1)$: $\dfrac{3}{36}=\dfrac{1}{12}$. B quên thứ tự, C coi $11$ tổng từ $2$ đến $12$ là đồng khả năng, D đếm $(2; 2)$ hai lần.
+
+[M278.4] Nhiều lựa chọn
+Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy ngẫu nhiên $1$ bi. Xác suất lấy được bi xanh là
+A. $\dfrac23$.
+B. $\dfrac35$.
+C. $\dfrac25$.
+D. $\dfrac12$.
+::key C
+$k=2$, $n=5$. A lấy số bi xanh chia số bi đỏ, B là xác suất lấy được bi đỏ, D coi hai màu là hai kết quả đồng khả năng.
+
+[M278.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hộp có bốn thẻ ghi số $1$, $2$, $3$, $4$. Rút ngẫu nhiên đồng thời hai thẻ. Xét tính đúng sai của các mệnh đề sau:
+a) Không gian mẫu có $6$ phần tử.
+b) Xác suất để tổng hai số là số chẵn bằng $\dfrac13$.
+c) Xác suất để tích hai số là số chẵn bằng $\dfrac56$.
+d) Xác suất để tổng hai số bằng $5$ bằng $\dfrac12$.
+::key Đ Đ Đ S
+a) Đúng: $12, 13, 14, 23, 24, 34$. b) Đúng: $\{1; 3\}$, $\{2; 4\}$. c) Đúng: chỉ $\{1; 3\}$ có tích lẻ. d) Sai: $\{1; 4\}$, $\{2; 3\}$ cho $\dfrac26=\dfrac13$.
+
+[M278.6] Trả lời ngắn
+Gieo hai con xúc xắc cân đối. Tính xác suất để hai con xúc xắc xuất hiện cùng số chấm (làm tròn kết quả đến hàng phần trăm).
+::key 0,17
+Có $6$ kết quả $(i; i)$ trên $36$: $\dfrac16\approx0{,}17$.
+
+[M278.7] Trả lời ngắn
+Chọn ngẫu nhiên đồng thời $2$ học sinh từ một nhóm gồm $2$ nam và $3$ nữ. Tính xác suất để chọn được $1$ nam và $1$ nữ (viết dưới dạng số thập phân).
+::key 0,6
+Có $2\cdot3=6$ cặp nam–nữ trên $10$ cặp: $\dfrac{6}{10}=0{,}6$.
+
+### M279 · Lớp 9 · Góc nội tiếp
+
+[M279.1] Nhiều lựa chọn
+Góc nội tiếp chắn cung có số đo $100^\circ$ có số đo là
+A. $100^\circ$.
+B. $50^\circ$.
+C. $200^\circ$.
+D. $130^\circ$.
+::key B
+Góc nội tiếp bằng nửa cung bị chắn: $50^\circ$. A nhầm với góc ở tâm, C nhân đôi thay vì chia đôi, D lấy nửa cung lớn.
+
+[M279.2] Nhiều lựa chọn
+Cho đường tròn $(O)$ đường kính $AB$ và điểm $C$ thuộc đường tròn với $\widehat{CAB}=35^\circ$. Số đo $\widehat{CBA}$ là
+A. $35^\circ$.
+B. $90^\circ$.
+C. $145^\circ$.
+D. $55^\circ$.
+::key D
+$\widehat{ACB}=90^\circ$ (chắn nửa đường tròn), nên $\widehat{CBA}=90^\circ-35^\circ=55^\circ$. A coi tam giác cân tại $C$, B nhầm với $\widehat{ACB}$, C quên góc vuông tại $C$ (lấy $180^\circ-35^\circ$).
+
+[M279.3] Nhiều lựa chọn
+Cho $A$, $B$, $M$ thuộc đường tròn $(O)$, $\widehat{AOB}=140^\circ$ và $M$ thuộc cung lớn $AB$. Số đo $\widehat{AMB}$ là
+A. $70^\circ$.
+B. $140^\circ$.
+C. $110^\circ$.
+D. $280^\circ$.
+::key A
+$\widehat{AMB}$ chắn cung nhỏ $140^\circ$, nên bằng $70^\circ$. B là góc ở tâm, C ứng với $M$ thuộc cung nhỏ, D nhân đôi thay vì chia đôi.
+
+[M279.4] Nhiều lựa chọn
+Cho bốn điểm $A$, $B$, $C$, $D$ thuộc một đường tròn, $C$ và $D$ cùng thuộc cung lớn $AB$, $\widehat{ACB}=40^\circ$. Số đo $\widehat{ADB}$ là
+A. $80^\circ$.
+B. $140^\circ$.
+C. $40^\circ$.
+D. $20^\circ$.
+::key C
+Hai góc nội tiếp cùng chắn cung nhỏ $AB$ nên bằng nhau: $\widehat{ADB}=40^\circ$. A nhân đôi như góc ở tâm, B coi $D$ ở cung kia ($180^\circ-40^\circ$), D chia đôi thêm một lần.
+
+[M279.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường tròn $(O; 8{,}5\text{ cm})$ có đường kính $AB$ và điểm $C$ thuộc đường tròn với $AC=8$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat{ACB}=90^\circ$.
+b) $BC=15$ cm.
+c) $\widehat{AOC}=2\widehat{ABC}$.
+d) Diện tích tam giác $ABC$ bằng $120$ cm².
+::key Đ Đ Đ S
+a) Đúng: chắn nửa đường tròn. b) Đúng: $\sqrt{17^2-8^2}=15$. c) Đúng: góc ở tâm và góc nội tiếp cùng chắn cung nhỏ $AC$. d) Sai: $\dfrac12\cdot8\cdot15=60$ cm².
+
+[M279.6] Trả lời ngắn
+Một góc nội tiếp có số đo $27^\circ$. Tính số đo (đơn vị: độ) của cung bị chắn.
+::key 54
+Cung bị chắn bằng hai lần góc nội tiếp: $2\cdot27^\circ=54^\circ$.
+
+[M279.7] Trả lời ngắn
+Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O)$ có $\widehat{ABC}=62^\circ$. Tính số đo (đơn vị: độ) của góc $\widehat{AOC}$.
+::key 124
+Góc nội tiếp $\widehat{ABC}$ và góc ở tâm $\widehat{AOC}$ cùng chắn cung nhỏ $AC$, nên $\widehat{AOC}=2\cdot62^\circ=124^\circ$.
+
+### M280 · Lớp 9 · Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác
+
+[M280.1] Nhiều lựa chọn
+Tâm đường tròn ngoại tiếp một tam giác là giao điểm của ba đường
+A. trung trực.
+B. phân giác.
+C. trung tuyến.
+D. cao.
+::key A
+Tâm cách đều ba đỉnh nên nằm trên các đường trung trực. B cho tâm nội tiếp, C cho trọng tâm, D cho trực tâm; ba điểm này nói chung không cách đều ba đỉnh.
+
+[M280.2] Nhiều lựa chọn
+Tam giác vuông có cạnh huyền $10$ cm. Bán kính đường tròn ngoại tiếp là
+A. $10$ cm.
+B. $5$ cm.
+C. $2{,}5$ cm.
+D. $20$ cm.
+::key B
+Bán kính bằng nửa cạnh huyền. A lấy cả cạnh huyền, C chia đôi hai lần, D nhân đôi thay vì chia đôi.
+
+[M280.3] Nhiều lựa chọn
+Bán kính đường tròn nội tiếp tam giác đều cạnh $6$ cm là
+A. $2\sqrt3$ cm.
+B. $3\sqrt3$ cm.
+C. $3$ cm.
+D. $\sqrt3$ cm.
+::key D
+$r=\dfrac{6\sqrt3}{6}=\sqrt3$. A là $R$, B là đường cao, C là nửa cạnh.
+
+[M280.4] Nhiều lựa chọn
+Tam giác vuông có hai cạnh góc vuông $5$ cm và $12$ cm. Bán kính đường tròn nội tiếp là
+A. $4$ cm.
+B. $6{,}5$ cm.
+C. $2$ cm.
+D. $8{,}5$ cm.
+::key C
+Cạnh huyền $13$ cm, $r=\dfrac{5+12-13}{2}=2$. A quên chia $2$, B là $R$, D quên trừ cạnh huyền.
+
+[M280.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác đều $ABC$ cạnh $12$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Bán kính đường tròn ngoại tiếp là $4\sqrt3$ cm.
+b) Bán kính đường tròn nội tiếp là $2\sqrt3$ cm.
+c) Bán kính đường tròn ngoại tiếp gấp đôi bán kính đường tròn nội tiếp.
+d) Tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp là hai điểm khác nhau.
+::key Đ Đ Đ S
+a) Đúng: $\dfrac{12\sqrt3}{3}$. b) Đúng: $\dfrac{12\sqrt3}{6}$. c) Đúng: $R=2r$. d) Sai: hai tâm trùng nhau tại trọng tâm.
+
+[M280.6] Trả lời ngắn
+Tam giác vuông có hai cạnh góc vuông $8$ cm và $15$ cm. Tính bán kính (đơn vị: cm) đường tròn ngoại tiếp (viết dưới dạng số thập phân).
+::key 8,5
+Cạnh huyền $\sqrt{64+225}=17$ cm, nên $R=8{,}5$ cm.
+
+[M280.7] Trả lời ngắn
+Một tam giác có diện tích $24$ cm² và chu vi $24$ cm. Tính bán kính (đơn vị: cm) đường tròn nội tiếp.
+::key 2
+$S=\dfrac12r\cdot(\text{chu vi})$, nên $r=\dfrac{2\cdot24}{24}=2$ cm.
+
+### M281 · Lớp 9 · Tứ giác nội tiếp
+
+[M281.1] Nhiều lựa chọn
+Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=65^\circ$. Số đo $\widehat{C}$ là
+A. $65^\circ$.
+B. $115^\circ$.
+C. $25^\circ$.
+D. $295^\circ$.
+::key B
+$\widehat{A}+\widehat{C}=180^\circ$. A cho rằng hai góc đối bằng nhau, C lấy phần bù $90^\circ$, D lấy $360^\circ-65^\circ$.
+
+[M281.2] Nhiều lựa chọn
+Tứ giác nào sau đây luôn nội tiếp được đường tròn?
+A. Hình thoi.
+B. Hình bình hành.
+C. Hình chữ nhật.
+D. Hình thang.
+::key C
+Hình chữ nhật có hai góc đối cùng bằng $90^\circ$. Hình thoi, hình bình hành chỉ nội tiếp được khi là hình vuông, hình chữ nhật; hình thang phải cân.
+
+[M281.3] Nhiều lựa chọn
+Hình chữ nhật có hai cạnh $5$ cm và $12$ cm nội tiếp đường tròn có bán kính là
+A. $13$ cm.
+B. $8{,}5$ cm.
+C. $3{,}25$ cm.
+D. $6{,}5$ cm.
+::key D
+Đường chéo $13$ cm, bán kính bằng nửa đường chéo. A lấy cả đường chéo, B lấy nửa tổng hai cạnh, C chia đường chéo cho $4$.
+
+[M281.4] Nhiều lựa chọn
+Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{B}=2\widehat{D}$. Số đo $\widehat{D}$ là
+A. $60^\circ$.
+B. $120^\circ$.
+C. $90^\circ$.
+D. $30^\circ$.
+::key A
+$3\widehat{D}=180^\circ$ nên $\widehat{D}=60^\circ$. B là $\widehat{B}$, C coi $\widehat{B}=\widehat{D}$, D nhầm tổng hai góc đối là $90^\circ$.
+
+[M281.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ có ba góc nhọn, hai đường cao $BE$, $CF$ cắt nhau tại $H$. Xét tính đúng sai của các mệnh đề sau:
+a) Tứ giác $AEHF$ nội tiếp.
+b) Tứ giác $BCEF$ nội tiếp.
+c) Tâm đường tròn đi qua $B$, $C$, $E$, $F$ là trung điểm của $BC$.
+d) $\widehat{AEF}+\widehat{ABC}=180^\circ$.
+::key Đ Đ Đ S
+a) Đúng: hai góc đối vuông. b), c) Đúng: $E$, $F$ nhìn $BC$ dưới góc vuông. d) Sai: vì $BCEF$ nội tiếp nên $\widehat{AEF}=\widehat{ABC}$ (cùng bù với $\widehat{FEC}$), do đó tổng bằng $2\widehat{ABC}<180^\circ$ (tam giác nhọn).
+
+[M281.6] Trả lời ngắn
+Tính bán kính (đơn vị: cm) đường tròn ngoại tiếp hình vuông cạnh $6$ cm (làm tròn kết quả đến hàng phần trăm).
+::key 4,24
+Đường chéo $6\sqrt2$ cm, nên $R=3\sqrt2\approx4{,}24$ cm.
+
+[M281.7] Trả lời ngắn
+Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=3\widehat{C}$. Tính số đo (đơn vị: độ) của $\widehat{A}$.
+::key 135
+$4\widehat{C}=180^\circ$ nên $\widehat{C}=45^\circ$, $\widehat{A}=135^\circ$.
+
+### M282 · Lớp 9 · Đa giác đều
+
+[M282.1] Nhiều lựa chọn
+Số đo mỗi góc của lục giác đều là
+A. $120^\circ$.
+B. $60^\circ$.
+C. $720^\circ$.
+D. $108^\circ$.
+::key A
+$\dfrac{4\cdot180^\circ}{6}=120^\circ$. B là góc ở tâm, C là tổng các góc, D là góc của ngũ giác đều.
+
+[M282.2] Nhiều lựa chọn
+Lục giác đều nội tiếp đường tròn bán kính $5$ cm có cạnh bằng
+A. $10$ cm.
+B. $5\sqrt3$ cm.
+C. $5$ cm.
+D. $2{,}5$ cm.
+::key C
+Các tam giác $OAB$ đều nên cạnh bằng $R$. A là khoảng cách giữa hai đỉnh đối diện ($2R$), B là khoảng cách giữa hai cạnh đối diện ($2r$), D là $\dfrac R2$.
+
+[M282.3] Nhiều lựa chọn
+Góc quay dương nhỏ nhất của phép quay tâm $O$ biến ngũ giác đều tâm $O$ thành chính nó là
+A. $108^\circ$.
+B. $36^\circ$.
+C. $60^\circ$.
+D. $72^\circ$.
+::key D
+$\dfrac{360^\circ}{5}=72^\circ$. A là góc của ngũ giác đều, B là nửa góc ở tâm, C là góc quay của lục giác đều.
+
+[M282.4] Nhiều lựa chọn
+Một đa giác đều có mỗi góc bằng $150^\circ$. Số cạnh của đa giác là
+A. $6$.
+B. $12$.
+C. $5$.
+D. $24$.
+::key B
+$180n-360=150n$ nên $n=12$. A lấy $180^\circ:30^\circ$ thay vì $360^\circ:30^\circ$, C lấy $150^\circ:30^\circ$, D lấy $360^\circ:15^\circ$ (chia đôi nhầm góc $30^\circ$).
+
+[M282.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình vuông $ABCD$ nội tiếp đường tròn $(O; 4\text{ cm})$. Xét tính đúng sai của các mệnh đề sau:
+a) $AB=4\sqrt2$ cm.
+b) $\widehat{AOB}=90^\circ$.
+c) Bán kính đường tròn nội tiếp hình vuông là $2\sqrt2$ cm.
+d) Phép quay tâm $O$ góc $45^\circ$ biến hình vuông thành chính nó.
+::key Đ Đ Đ S
+a) Đúng: $\dfrac{a\sqrt2}{2}=4$. b) Đúng: $\dfrac{360^\circ}{4}$. c) Đúng: $r=\dfrac a2=2\sqrt2$. d) Sai: góc quay phải là bội của $90^\circ$.
+
+[M282.6] Trả lời ngắn
+Tính tổng số đo (đơn vị: độ) các góc của một bát giác đều.
+::key 1080
+$(8-2)\cdot180^\circ=1080^\circ$.
+
+[M282.7] Trả lời ngắn
+Tính diện tích (đơn vị: cm²) của lục giác đều cạnh $2$ cm (làm tròn kết quả đến hàng phần mười).
+::key 10,4
+Lục giác gồm $6$ tam giác đều cạnh $2$ cm, diện tích $6\cdot\dfrac{4\sqrt3}{4}=6\sqrt3\approx10{,}4$ cm².
+
+### M283 · Lớp 9 · Hình trụ và hình nón
+
+[M283.1] Nhiều lựa chọn
+Diện tích xung quanh của hình trụ có bán kính đáy $2$ cm, chiều cao $5$ cm là
+A. $10\pi$ cm².
+B. $28\pi$ cm².
+C. $20\pi$ cm².
+D. $40\pi$ cm².
+::key C
+$2\pi\cdot2\cdot5=20\pi$. A quên hệ số $2$, B là diện tích toàn phần, D dùng đường kính thay cho bán kính.
+
+[M283.2] Nhiều lựa chọn
+Thể tích của hình trụ có bán kính đáy $3$ cm, chiều cao $4$ cm là
+A. $36\pi$ cm³.
+B. $12\pi$ cm³.
+C. $24\pi$ cm³.
+D. $48\pi$ cm³.
+::key A
+$\pi\cdot9\cdot4=36\pi$. B là thể tích hình nón, C là diện tích xung quanh, D đổi chỗ $r$ và $h$ ($\pi\cdot4^2\cdot3$).
+
+[M283.3] Nhiều lựa chọn
+Hình nón có bán kính đáy $3$ cm, chiều cao $4$ cm có đường sinh bằng
+A. $7$ cm.
+B. $\sqrt7$ cm.
+C. $25$ cm.
+D. $5$ cm.
+::key D
+$l=\sqrt{9+16}=5$. A cộng hai cạnh, B lấy hiệu dưới căn, C quên lấy căn.
+
+[M283.4] Nhiều lựa chọn
+Diện tích xung quanh của hình nón có bán kính đáy $3$ cm, đường sinh $5$ cm là
+A. $12\pi$ cm².
+B. $15\pi$ cm².
+C. $30\pi$ cm².
+D. $24\pi$ cm².
+::key B
+$\pi\cdot3\cdot5=15\pi$. A dùng chiều cao $4$ thay cho đường sinh, C dùng $2\pi rl$ như hình trụ, D là diện tích toàn phần.
+
+[M283.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình nón có bán kính đáy $6$ cm, chiều cao $8$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Đường sinh của hình nón dài $10$ cm.
+b) Diện tích xung quanh là $60\pi$ cm².
+c) Thể tích là $288\pi$ cm³.
+d) Nếu giữ nguyên bán kính và tăng chiều cao lên gấp đôi thì thể tích tăng gấp đôi.
+::key Đ Đ S Đ
+a) Đúng: $\sqrt{36+64}=10$. b) Đúng: $\pi\cdot6\cdot10$. c) Sai: $V=\dfrac13\pi\cdot36\cdot8=96\pi$. d) Đúng: $V$ tỉ lệ thuận với $h$.
+
+[M283.6] Trả lời ngắn
+Tính thể tích (đơn vị: cm³) của hình trụ có bán kính đáy $1$ cm, chiều cao $2$ cm (làm tròn kết quả đến hàng phần trăm).
+::key 6,28
+$V=\pi\cdot1\cdot2=2\pi\approx6{,}28$ cm³.
+
+[M283.7] Trả lời ngắn
+Một hình nón và một hình trụ có cùng bán kính đáy và cùng chiều cao. Thể tích hình trụ là $27$ dm³. Tính thể tích (đơn vị: dm³) của hình nón.
+::key 9
+$V_{\text{nón}}=\dfrac13V_{\text{trụ}}=9$ dm³.
+
+### M284 · Lớp 9 · Hình cầu
+
+[M284.1] Nhiều lựa chọn
+Diện tích mặt cầu bán kính $2$ cm là
+A. $8\pi$ cm².
+B. $16\pi$ cm².
+C. $\dfrac{32\pi}{3}$ cm².
+D. $4\pi$ cm².
+::key B
+$S=4\pi\cdot2^2=16\pi$. A dùng $4\pi R$ (quên bình phương), C là thể tích, D là diện tích một hình tròn lớn.
+
+[M284.2] Nhiều lựa chọn
+Thể tích hình cầu bán kính $3$ cm là
+A. $108\pi$ cm³.
+B. $12\pi$ cm³.
+C. $36\pi$ cm³.
+D. $27\pi$ cm³.
+::key C
+$V=\dfrac43\pi\cdot27=36\pi$. A quên $\dfrac13$, B dùng $R^2$ thay cho $R^3$, D quên hệ số $\dfrac43$.
+
+[M284.3] Nhiều lựa chọn
+Một mặt phẳng cách tâm hình cầu bán kính $5$ cm một khoảng $3$ cm. Mặt cắt là hình tròn bán kính
+A. $4$ cm.
+B. $2$ cm.
+C. $8$ cm.
+D. $\sqrt{34}$ cm.
+::key A
+$\sqrt{25-9}=4$. B lấy hiệu $5-3$, C lấy tổng $5+3$, D cộng dưới dấu căn.
+
+[M284.4] Nhiều lựa chọn
+Nếu bán kính hình cầu tăng gấp đôi thì thể tích tăng
+A. $2$ lần.
+B. $4$ lần.
+C. $6$ lần.
+D. $8$ lần.
+::key D
+$V$ tỉ lệ với $R^3$, $2^3=8$. A coi $V$ tỉ lệ thuận với $R$, B là tỉ số diện tích, C nhân $2\cdot3$ thay vì tính $2^3$.
+
+[M284.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình cầu bán kính $6$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Diện tích mặt cầu là $144\pi$ cm².
+b) Thể tích hình cầu là $288\pi$ cm³.
+c) Mỗi đường tròn lớn có độ dài $12\pi$ cm.
+d) Hình trụ ngoại tiếp hình cầu có thể tích gấp đôi thể tích hình cầu.
+::key Đ Đ Đ S
+a) Đúng: $4\pi\cdot36$. b) Đúng: $\dfrac43\pi\cdot216$. c) Đúng: $2\pi\cdot6$. d) Sai: hình trụ có thể tích $\pi\cdot36\cdot12=432\pi$, gấp $1{,}5$ lần.
+
+[M284.6] Trả lời ngắn
+Hình cầu có số đo diện tích mặt cầu (cm²) bằng số đo thể tích (cm³). Tính bán kính (đơn vị: cm) của hình cầu.
+::key 3
+$4\pi R^2=\dfrac43\pi R^3$ nên $R=3$.
+
+[M284.7] Trả lời ngắn
+Một quả cầu kim loại bán kính $4$ cm được nấu chảy và đúc thành các viên bi bán kính $1$ cm. Bỏ qua hao hụt, đúc được bao nhiêu viên bi?
+::key 64
+Tỉ số thể tích là $\left(\dfrac41\right)^3=64$.
+
+### M285 · Lớp 9 · Đề thi vào 10 gồm những gì và cách ôn
+
+[M285.1] Nhiều lựa chọn
+Một đề thi có thời gian làm bài $90$ phút, thang điểm $10$. Dành $10$ phút để đọc đề và kiểm tra lại, phần còn lại chia theo điểm. Thời gian cho một bài $3$ điểm là
+A. $30$ phút.
+B. $27$ phút.
+C. $24$ phút.
+D. $8$ phút.
+::key C
+$(90-10):10=8$ phút mỗi điểm, nên bài $3$ điểm được $3\cdot8=24$ phút. Đáp án B không trừ thời gian dự trữ, A tính $10$ phút mỗi điểm, D chỉ là thời gian cho một điểm.
+
+[M285.2] Nhiều lựa chọn
+Quỹ $36$ giờ được chia cho ba nhóm chuyên đề theo tỉ lệ $1:2:3$. Nhóm nhiều giờ nhất được
+A. $12$ giờ.
+B. $6$ giờ.
+C. $9$ giờ.
+D. $18$ giờ.
+::key D
+Tổng các phần là $6$, một phần là $36:6=6$ giờ, nhóm lớn nhất là $3\cdot6=18$ giờ. Đáp án A là nhóm giữa, B là nhóm nhỏ nhất, C là $36:4$.
+
+[M285.3] Nhiều lựa chọn
+Trong $6{,}0$ điểm bị mất, có $1{,}5$ điểm do tính nhầm. Tỉ lệ phần trăm điểm mất do tính nhầm là
+A. $25\%$.
+B. $1{,}5\%$.
+C. $15\%$.
+D. $75\%$.
+::key A
+$\dfrac{1{,}5}{6{,}0}=0{,}25=25\%$. Đáp án C chia cho $10$ thay vì $6$, B nhầm dấu phẩy, D là tỉ lệ điểm mất do các lỗi còn lại.
+
+[M285.4] Nhiều lựa chọn
+Bốn đề thi thử đầu của một bạn được $7{,}5$; $8{,}0$; $8{,}5$; $7{,}0$ điểm. Để điểm trung bình năm đề đạt ít nhất $8{,}0$ thì đề thứ năm cần ít nhất
+A. $8{,}0$ điểm.
+B. $9{,}0$ điểm.
+C. $8{,}5$ điểm.
+D. $10$ điểm.
+::key B
+Tổng cần có là $5\cdot8{,}0=40$, tổng bốn đề là $31$, nên đề thứ năm cần $40-31=9{,}0$. Đáp án A chỉ lấy mục tiêu, C là điểm của một đề, D nhầm là phải đạt tối đa.
+
+[M285.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một đề giả định có thời gian $120$ phút, dành $20$ phút đọc đề và kiểm tra lại. Các bài có điểm lần lượt là $2$; $2$; $2$; $3$; $1$. Các nhận định sau đúng hay sai?
+a) Ba bài đầu chiếm $70\%$ tổng điểm.
+b) Bài $4$ nên dành $30$ phút.
+c) Bài $5$ nên dành $15$ phút.
+d) Tổng thời gian dành cho giải năm bài là $100$ phút.
+::key S Đ S Đ
+a) Sai: $6$ điểm trên $10$ là $60\%$. b) Đúng: mỗi điểm $10$ phút, bài $4$ có $3$ điểm. c) Sai: bài $5$ có $1$ điểm nên là $10$ phút. d) Đúng: $120-20=100$.
+
+[M285.6] Trả lời ngắn
+Một bạn cần thêm $2{,}0$ điểm để đạt mục tiêu. Cứ $0{,}5$ điểm cần thêm khoảng $6$ giờ ôn tập. Cần bao nhiêu giờ ôn tập?
+::key 24
+$2{,}0$ gồm $4$ lần $0{,}5$ điểm, nên cần $4\cdot6=24$ giờ.
+
+[M285.7] Trả lời ngắn
+Đề thi có thời gian làm bài $90$ phút, thang điểm $10$, dành $15$ phút đọc đề và kiểm tra lại. Bài $3$ điểm nên dành bao nhiêu phút?
+::key 22,5
+Thời gian giải bài là $75$ phút, mỗi điểm $7{,}5$ phút, nên bài $3$ điểm là $3\cdot7{,}5=22{,}5$ phút.
+
+### M286 · Lớp 9 · Chuyên đề: rút gọn biểu thức chứa căn
+
+[M286.1] Nhiều lựa chọn
+Giá trị rút gọn của $\sqrt{48}-\sqrt{12}$ là
+A. $6$.
+B. $2\sqrt3$.
+C. $2$.
+D. $3\sqrt3$.
+::key B
+$\sqrt{48}-\sqrt{12}=4\sqrt3-2\sqrt3=2\sqrt3$. Đáp án A là $\sqrt{48-12}$ (căn của hiệu), C là $\sqrt{48}:\sqrt{12}$, D là $4\sqrt3-\sqrt3$.
+
+[M286.2] Nhiều lựa chọn
+Trục căn thức ở mẫu của $\dfrac{6}{\sqrt5-\sqrt2}$ ta được
+A. $2\sqrt5-2\sqrt2$.
+B. $6(\sqrt5+\sqrt2)$.
+C. $2\sqrt5+2\sqrt2$.
+D. $\dfrac{\sqrt5+\sqrt2}{2}$.
+::key C
+$\dfrac{6(\sqrt5+\sqrt2)}{5-2}=2(\sqrt5+\sqrt2)$. Đáp án A nhầm dấu của liên hợp, B quên chia cho $5-2=3$, D chia nhầm cho $12$.
+
+[M286.3] Nhiều lựa chọn
+Giá trị của $\sqrt{(\sqrt5-3)^2}$ là
+A. $\sqrt5-3$.
+B. $3+\sqrt5$.
+C. $\sqrt5+3$.
+D. $3-\sqrt5$.
+::key D
+$\sqrt{(\sqrt5-3)^2}=|\sqrt5-3|=3-\sqrt5$ vì $\sqrt5<3$. Đáp án A quên giá trị tuyệt đối, B và C là các biểu thức khác (phép cộng thay phép trừ).
+
+[M286.4] Nhiều lựa chọn
+Điều kiện xác định của biểu thức $\dfrac{1}{\sqrt{x-3}}$ là
+A. $x>3$.
+B. $x\geq3$.
+C. $x\neq3$.
+D. $x>0$.
+::key A
+Biểu thức dưới căn phải không âm và mẫu khác $0$, nên $x-3>0$. Đáp án B bỏ sót việc mẫu khác $0$, C bỏ sót điều kiện của căn, D lấy điều kiện của $\sqrt x$.
+
+[M286.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $P=\dfrac{2\sqrt x}{\sqrt x+2}$ với $x\geq0$. Các nhận định sau đúng hay sai?
+a) $P$ xác định với mọi $x\geq0$.
+b) $P=2$ khi $x=0$.
+c) $P=1$ khi $x=4$.
+d) $P=\dfrac12$ khi $x=1$.
+::key Đ S Đ S
+a) Đúng: $\sqrt x+2>0$ với mọi $x\geq0$. b) Sai: tại $x=0$ thì $P=0$. c) Đúng: $P=\dfrac{4}{4}=1$. d) Sai: tại $x=1$ thì $P=\dfrac23$.
+
+[M286.6] Trả lời ngắn
+Cho $P=\dfrac{x-1}{\sqrt x}$ với $x>0$. Tính giá trị của $P$ khi $x=4$.
+::key 1,5
+$P=\dfrac{4-1}{2}=\dfrac32=1{,}5$.
+
+[M286.7] Trả lời ngắn
+Một tấm kính hình vuông có diện tích $72$ dm². Tính độ dài đường chéo của tấm kính (đơn vị dm).
+::key 12
+Cạnh là $6\sqrt2$ nên đường chéo là $6\sqrt2\cdot\sqrt2=12$.
+
+### M287 · Lớp 9 · Chuyên đề: phương trình bậc hai và định lí Viète
+
+[M287.1] Nhiều lựa chọn
+Tập nghiệm của phương trình $3x^2-7x+2=0$ là
+A. $\left\{-2;-\dfrac13\right\}$.
+B. $\{2;3\}$.
+C. $\left\{1;\dfrac23\right\}$.
+D. $\left\{2;\dfrac13\right\}$.
+::key D
+$\Delta=49-24=25$ nên $x=\dfrac{7\pm5}{6}$, tức là $2$ và $\dfrac13$. Đáp án A nhầm dấu của $-b$, B lấy cả $a=3$ làm nghiệm, C nhầm với nghiệm nhẩm khi $a+b+c=0$.
+
+[M287.2] Nhiều lựa chọn
+Phương trình $x^2-4x+1=0$ có hai nghiệm $x_1$, $x_2$. Giá trị của $x_1^2+x_2^2$ là
+A. $14$.
+B. $18$.
+C. $12$.
+D. $16$.
+::key A
+$S=4$, $P=1$ nên $x_1^2+x_2^2=16-2=14$. Đáp án D là $S^2$, B là $S^2+2P$, C là $S^2-4P$.
+
+[M287.3] Nhiều lựa chọn
+Phương trình $2x^2-5x-3=0$ có hai nghiệm. Tổng hai nghiệm bằng
+A. $-\dfrac52$.
+B. $\dfrac52$.
+C. $\dfrac32$.
+D. $-\dfrac32$.
+::key B
+$x_1+x_2=-\dfrac ba=\dfrac52$. Đáp án A nhầm dấu, C và D lấy tích $\dfrac ca=-\dfrac32$ (hoặc số đối của nó) thay cho tổng.
+
+[M287.4] Nhiều lựa chọn
+Phương trình $5x^2-8x+3=0$ có hai nghiệm là
+A. $1$ và $-\dfrac35$.
+B. $-1$ và $\dfrac35$.
+C. $1$ và $\dfrac35$.
+D. $-1$ và $-\dfrac35$.
+::key C
+$a+b+c=5-8+3=0$ nên $x_1=1$ và $x_2=\dfrac ca=\dfrac35$. Các đáp án khác nhầm dấu của một hoặc cả hai nghiệm.
+
+[M287.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Các nhận định sau đúng hay sai?
+a) Phương trình có hai nghiệm phân biệt.
+b) $x_1+x_2=6$.
+c) $x_1^2+x_2^2=32$.
+d) $(x_1-x_2)^2=16$.
+::key Đ Đ S S
+a) Đúng: $\Delta'=9-4=5>0$. b) Đúng: $x_1+x_2=-\dfrac{-6}{1}=6$. c) Sai: $x_1^2+x_2^2=36-8=28$. d) Sai: $(x_1-x_2)^2=36-16=20$.
+
+[M287.6] Trả lời ngắn
+Cho $x^2-3x-5=0$ có hai nghiệm $x_1$, $x_2$. Tính $x_1^2+x_2^2$.
+::key 19
+$S=3$, $P=-5$ nên $x_1^2+x_2^2=9-2\cdot(-5)=19$.
+
+[M287.7] Trả lời ngắn
+Một tấm bảng hình chữ nhật có chu vi $36$ dm và diện tích $80$ dm². Tính độ dài cạnh ngắn hơn (đơn vị dm).
+::key 8
+Hai cạnh là nghiệm của $X^2-18X+80=0$, tức là $10$ và $8$. Cạnh ngắn hơn là $8$.
+
+### M288 · Lớp 9 · Chuyên đề: giải bài toán bằng cách lập phương trình, hệ phương trình
+
+[M288.1] Nhiều lựa chọn
+Một ca nô có vận tốc xuôi dòng là $24$ km/h và vận tốc ngược dòng là $16$ km/h. Vận tốc của dòng nước là
+A. $4$ km/h.
+B. $20$ km/h.
+C. $40$ km/h.
+D. $8$ km/h.
+::key A
+$x+y=24$ và $x-y=16$ nên $y=\dfrac{24-16}{2}=4$. Đáp án D là hiệu $24-16$ (quên chia $2$), B là vận tốc riêng của ca nô, C là tổng hai vận tốc.
+
+[M288.2] Nhiều lựa chọn
+Một vòi chảy một mình đầy bể trong $12$ giờ; mở cả hai vòi thì sau $4$ giờ đầy bể. Vòi thứ hai chảy một mình đầy bể sau
+A. $8$ giờ.
+B. $6$ giờ.
+C. $3$ giờ.
+D. $16$ giờ.
+::key B
+$\dfrac1x=\dfrac14-\dfrac1{12}=\dfrac16$ nên $x=6$. Đáp án A là $12-4$, C là $\dfrac{12}{4}$, D là $12+4$.
+
+[M288.3] Nhiều lựa chọn
+Giá một món hàng tăng $20\%$ rồi giảm $20\%$ (tính trên giá mới). So với giá ban đầu, giá cuối bằng
+A. $100\%$.
+B. $104\%$.
+C. $96\%$.
+D. $80\%$.
+::key C
+$1{,}2\cdot0{,}8=0{,}96$. Đáp án A là sai lầm quen thuộc (cho rằng tăng rồi giảm cùng phần trăm thì về lại như cũ), B và D lấy sai hệ số.
+
+[M288.4] Nhiều lựa chọn
+Tích của hai số tự nhiên liên tiếp bằng $156$. Số lớn là
+A. $12$.
+B. $14$.
+C. $11$.
+D. $13$.
+::key D
+$x(x+1)=156$ nên $x=12$ và số lớn là $13$. Đáp án A là số bé, B và C là các số không thoả mãn ($14\cdot15=210$, $11\cdot12=132$).
+
+[M288.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một ô tô đi quãng đường $60$ km. Lúc về tăng vận tốc thêm $10$ km/h nên thời gian về ít hơn thời gian đi $18$ phút. Gọi vận tốc lúc đi là $x$ (km/h). Các nhận định sau đúng hay sai?
+a) Thời gian đi là $\dfrac x{60}$ giờ.
+b) $18$ phút bằng $0{,}18$ giờ.
+c) Vận tốc lúc đi là $40$ km/h.
+d) Phương trình của bài toán là $\dfrac{60}x-\dfrac{60}{x+10}=0{,}3$.
+::key S S Đ Đ
+a) Sai: thời gian đi là $\dfrac{60}x$ giờ. b) Sai: $18$ phút $=0{,}3$ giờ. c) Đúng: $40\cdot50=2000$ và $60:40-60:50=0{,}3$. d) Đúng: chênh lệch thời gian bằng $0{,}3$ giờ.
+
+[M288.6] Trả lời ngắn
+Hai số có tổng bằng $40$ và hiệu bằng $12$. Tìm số lớn.
+::key 26
+$\dfrac{40+12}2=26$.
+
+[M288.7] Trả lời ngắn
+Hai đội cùng làm một việc thì sau $6$ ngày xong. Làm riêng, đội I xong sớm hơn đội II $5$ ngày. Hỏi đội I làm một mình xong trong bao nhiêu ngày?
+::key 10
+Gọi $x$ là số ngày của đội I: $\dfrac1x+\dfrac1{x+5}=\dfrac16$ cho $x^2-7x-30=0$, nên $x=10$.

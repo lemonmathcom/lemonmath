@@ -1,4 +1,4 @@
-# Gói MD-02 – gắn mức độ nhận thức cho 196 câu hỏi (Lớp 2 → Lớp 3)
+# Gói MD-02 – gắn mức độ nhận thức cho 161 câu hỏi (Lớp 2 → Lớp 2)
 
 Tài khoản thực hiện: Alexnguyen122222
 
@@ -47,9 +47,294 @@ M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mớ
 - Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
 - Lý do: tối đa 12 chữ.
 - Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
-- Khi xong, ghi dòng cuối: HẾT GÓI MD-02 (196 câu)
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-02 (161 câu)
 
 ## Các câu hỏi
+
+### M025 · Lớp 2 · Bài toán về thêm, bớt một số đơn vị. Bài toán về nhiều hơn, ít hơn một số đơn vị
+
+[M025.1] Nhiều lựa chọn
+Trong giỏ có 9 quả cam, mẹ cho thêm 4 quả. Trong giỏ có tất cả
+A. $13$ quả cam.
+B. $5$ quả cam.
+C. $12$ quả cam.
+D. $14$ quả cam.
+::key A
+"Cho thêm" thì cộng: $9+4=13$. Phương án B là phép trừ nhầm.
+
+[M025.2] Nhiều lựa chọn
+Nam có 17 quyển vở, Nam cho bạn 5 quyển. Nam còn lại
+A. $22$ quyển vở.
+B. $12$ quyển vở.
+C. $11$ quyển vở.
+D. $13$ quyển vở.
+::key B
+"Cho bạn" thì số vở giảm: $17-5=12$. Phương án A là phép cộng nhầm.
+
+[M025.3] Nhiều lựa chọn
+Hà có 7 viên bi. Nam có nhiều hơn Hà 4 viên bi. Nam có
+A. $3$ viên bi.
+B. $10$ viên bi.
+C. $11$ viên bi.
+D. $12$ viên bi.
+::key C
+"Nhiều hơn" thì cộng: $7+4=11$. Phương án A là phép trừ nhầm.
+
+[M025.4] Nhiều lựa chọn
+Lan có 8 bông hoa. Mai có ít hơn Lan 3 bông hoa. Mai có
+A. $11$ bông hoa.
+B. $4$ bông hoa.
+C. $6$ bông hoa.
+D. $5$ bông hoa.
+::key D
+"Ít hơn" thì trừ: $8-3=5$. Phương án A là phép cộng nhầm.
+
+[M025.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hà có 9 viên kẹo. Mai có ít hơn Hà 4 viên kẹo.
+a) Mai có $9-4=5$ viên kẹo.
+b) Mai có 13 viên kẹo.
+c) Mai có nhiều hơn Hà 4 viên kẹo.
+d) Nếu Mai có nhiều hơn Hà 4 viên kẹo thì Mai có 13 viên kẹo.
+::key Đ S S Đ
+a) Đúng: "ít hơn" thì trừ. b) Sai: 13 là kết quả phép cộng $9+4$. c) Sai: Mai ít hơn Hà, không phải nhiều hơn. d) Đúng: $9+4=13$.
+
+[M025.6] Trả lời ngắn
+Trong giỏ có 8 quả táo, mẹ cho thêm 6 quả. Trong giỏ có tất cả bao nhiêu quả táo?
+::key 14
+$8+6=14$ (quả).
+
+[M025.7] Trả lời ngắn
+Mai có 13 bông hoa giấy. Lan có ít hơn Mai 2 bông. Lan có bao nhiêu bông hoa giấy?
+::key 11
+$13-2=11$ (bông).
+
+### M026 · Lớp 2 · Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10)
+
+[M026.1] Nhiều lựa chọn
+Kết quả của $14-6$ là
+A. $7$.
+B. $8$.
+C. $9$.
+D. $10$.
+::key B
+$14-6=14-4-2=10-2=8$. Phương án D mới trừ 4 mà quên trừ nốt 2.
+
+[M026.2] Nhiều lựa chọn
+Kết quả của $13-5$ là
+A. $7$.
+B. $9$.
+C. $8$.
+D. $18$.
+::key C
+$13-5=13-3-2=10-2=8$. Phương án D là phép cộng nhầm.
+
+[M026.3] Nhiều lựa chọn
+Để tính $15-7$, em tách $7=5+2$. Cách làm đúng là
+A. $15-5-3$.
+B. $15-5+2$.
+C. $15-7-2$.
+D. $15-5-2$.
+::key D
+Trừ 7 cũng như trừ 5 rồi trừ 2, nên $15-5-2=10-2=8$. Phương án A trừ thừa 1, phương án B lại cộng thêm.
+
+[M026.4] Nhiều lựa chọn
+Biết $8+6=14$. Phép trừ đúng là
+A. $14-8=6$.
+B. $14-8=22$.
+C. $8-14=6$.
+D. $14-6=6$.
+::key A
+Lấy tổng 14 trừ số hạng 8 được số hạng còn lại là 6. Phương án D sai vì $14-6=8$.
+
+[M026.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phép trừ $16-9$.
+a) $16-9=7$.
+b) $16-7=9$.
+c) Hiệu $16-9$ lớn hơn 8.
+d) Từ $9+7=16$ suy ra hai phép trừ $16-9=7$ và $16-7=9$.
+::key Đ Đ S Đ
+a) Đúng: $16-9=16-6-3=7$. b) Đúng: $7+9=16$. c) Sai: hiệu bằng 7, bé hơn 8. d) Đúng: lấy tổng trừ lần lượt từng số hạng.
+
+[M026.6] Trả lời ngắn
+Tính $17-8$.
+::key 9
+$17-8=17-7-1=10-1=9$.
+
+[M026.7] Trả lời ngắn
+Trong hộp có 15 viên bi, lấy ra 7 viên. Hộp còn lại bao nhiêu viên bi?
+::key 8
+$15-7=15-5-2=8$ (viên).
+
+### M027 · Lớp 2 · Ki-lô-gam. Lít
+
+[M027.1] Nhiều lựa chọn
+Túi gạo đặt trên cân, kim cân chỉ đúng vạch ghi số 4. Túi gạo nặng
+A. $4$ l.
+B. $5$ kg.
+C. $3$ kg.
+D. $4$ kg.
+::key D
+Kim chỉ vạch 4 nên túi gạo nặng 4 kg. Phương án A dùng sai đơn vị, phương án B và C đọc nhầm số.
+
+[M027.2] Nhiều lựa chọn
+Kết quả của $8\ \text{kg}+7\ \text{kg}$ là
+A. $15$ kg.
+B. $1$ kg.
+C. $15$ l.
+D. $14$ kg.
+::key A
+$8+7=15$ và đơn vị là kg. Phương án B là phép trừ, phương án C sai đơn vị.
+
+[M027.3] Nhiều lựa chọn
+Trong thùng có 18 lít nước, mẹ lấy ra 9 lít. Trong thùng còn lại
+A. $27$ l nước.
+B. $9$ l nước.
+C. $9$ kg nước.
+D. $8$ l nước.
+::key B
+"Lấy ra" nghĩa là bớt đi: $18-9=9$ (l). Phương án A là phép cộng nhầm, phương án C sai đơn vị.
+
+[M027.4] Nhiều lựa chọn
+Đơn vị dùng để đong lượng nước trong chai là
+A. ki-lô-gam.
+B. xăng-ti-mét.
+C. lít.
+D. giờ.
+::key C
+Lượng chất lỏng đong bằng lít, viết tắt là l. Ki-lô-gam đo khối lượng, xăng-ti-mét đo độ dài.
+
+[M027.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trên cân đĩa, đĩa bên trái hạ thấp hơn đĩa bên phải.
+a) Vật ở đĩa bên trái nhẹ hơn.
+b) Vật ở đĩa bên phải nhẹ hơn.
+c) Hai vật nặng bằng nhau.
+d) Đĩa nhẹ hơn thì hạ thấp xuống.
+::key S Đ S S
+a) Sai: đĩa hạ thấp hơn chứa vật nặng hơn. b) Đúng: vật ở đĩa bên phải nhẹ hơn. c) Sai: nếu nặng bằng nhau thì hai đĩa ngang bằng nhau. d) Sai: đĩa nặng hơn mới hạ thấp xuống.
+
+[M027.6] Trả lời ngắn
+Tính $6\ \text{kg}+9\ \text{kg}$ (viết số, không viết đơn vị).
+::key 15
+$6+9=15$ (kg).
+
+[M027.7] Trả lời ngắn
+Trong thùng có 16 lít nước, đổ ra 7 lít. Trong thùng còn lại bao nhiêu lít nước?
+::key 9
+$16-7=9$ (l).
+
+### M028 · Lớp 2 · Phép cộng (có nhớ) số có hai chữ số với số có một chữ số
+
+[M028.1] Nhiều lựa chọn
+Kết quả của $47+6$ là
+A. $53$.
+B. $43$.
+C. $52$.
+D. $413$.
+::key A
+$7+6=13$, viết $3$ nhớ $1$; $4+1=5$, nên $47+6=53$. Phương án B quên chục nhớ, D viết cả $13$ vào hàng đơn vị.
+
+[M028.2] Nhiều lựa chọn
+Khi tính $68+5$, em viết $3$ ở hàng đơn vị. Số chục nhớ cần cộng thêm vào hàng chục là
+A. $0$.
+B. $1$.
+C. $2$.
+D. $3$.
+::key B
+$8+5=13$ là $1$ chục và $3$ đơn vị, nên nhớ $1$ chục. Hàng chục: $6+1=7$, kết quả $73$.
+
+[M028.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $52$?
+A. $47+4$.
+B. $45+8$.
+C. $46+6$.
+D. $49+4$.
+::key C
+$46+6=52$. Các phép tính khác lần lượt bằng $53$, $51$, $53$.
+
+[M028.4] Nhiều lựa chọn
+Lan có $36$ cái nhãn vở, bạn cho thêm $8$ cái. Lan có tất cả bao nhiêu cái nhãn vở?
+A. $34$ cái.
+B. $28$ cái.
+C. $314$ cái.
+D. $44$ cái.
+::key D
+"Cho thêm" là gộp lại: $36+8=44$. Phương án A quên chục nhớ, B là $36-8$, nhầm sang phép trừ.
+
+[M028.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $59+7$.
+a) Hàng đơn vị: $9+7=16$.
+b) $16$ đơn vị đổi được $1$ chục và $6$ đơn vị.
+c) $59+7=65$.
+d) $59+7$ lớn hơn $60$.
+::key Đ Đ S Đ
+a) Đúng: $9+7=16$. b) Đúng: $16=10+6$. c) Sai: hàng chục là $5+1=6$ nên kết quả là $66$. d) Đúng: $66>60$.
+
+[M028.6] Trả lời ngắn
+Tính $75+8$.
+::key 83
+$5+8=13$, viết $3$ nhớ $1$; $7+1=8$. Vậy $75+8=83$.
+
+[M028.7] Trả lời ngắn
+Bể có $49$ con cá, người ta thả thêm $5$ con cá. Bể có tất cả bao nhiêu con cá?
+::key 54
+$9+5=14$, viết $4$ nhớ $1$; $4+1=5$. Vậy $49+5=54$ (con cá).
+
+### M029 · Lớp 2 · Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số
+
+[M029.1] Nhiều lựa chọn
+Kết quả của $38+45$ là
+A. $73$.
+B. $82$.
+C. $713$.
+D. $83$.
+::key D
+$8+5=13$, viết $3$ nhớ $1$; $3+4+1=8$, nên $38+45=83$. Phương án A quên chục nhớ, C viết cả $13$ vào hàng đơn vị.
+
+[M029.2] Nhiều lựa chọn
+Phép tính nào đúng?
+A. $29+36=65$.
+B. $29+36=55$.
+C. $29+36=515$.
+D. $29+36=64$.
+::key A
+$9+6=15$, viết $5$ nhớ $1$; $2+3+1=6$, nên $29+36=65$. A quên chục nhớ, C viết cả $15$ vào hàng đơn vị.
+
+[M029.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $71$?
+A. $35+35$.
+B. $35+36$.
+C. $34+36$.
+D. $38+34$.
+::key B
+$35+36=71$. Các phép tính khác lần lượt bằng $70$, $70$, $72$.
+
+[M029.4] Nhiều lựa chọn
+Lớp 2A có $29$ bạn, lớp 2B có $34$ bạn. Cả hai lớp có bao nhiêu bạn?
+A. $53$ bạn.
+B. $613$ bạn.
+C. $63$ bạn.
+D. $5$ bạn.
+::key C
+"Cả hai lớp" là gộp lại: $29+34=63$. Phương án A quên chục nhớ, D là $34-29$, nhầm sang phép trừ.
+
+[M029.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $48+27$.
+a) Hàng đơn vị: $8+7=15$.
+b) $15$ đơn vị đổi được $1$ chục và $5$ đơn vị.
+c) Hàng chục của tổng là $6$.
+d) $48+27=75$.
+::key Đ Đ S Đ
+a) Đúng: $8+7=15$. b) Đúng: $15=10+5$. c) Sai: hàng chục là $4+2+1=7$. d) Đúng: $48+27=75$.
+
+[M029.6] Trả lời ngắn
+Tính $56+38$.
+::key 94
+$6+8=14$, viết $4$ nhớ $1$; $5+3+1=9$. Vậy $56+38=94$.
+
+[M029.7] Trả lời ngắn
+Thùng có $45$ quả cam và $37$ quả quýt. Thùng có tất cả bao nhiêu quả?
+::key 82
+$5+7=12$, viết $2$ nhớ $1$; $4+3+1=8$. Vậy $45+37=82$ (quả).
 
 ### M030 · Lớp 2 · Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số
 
@@ -1076,573 +1361,3 @@ $8+5=13$ (nghìn đồng).
 Một tờ $20\,000$ đồng đổi được mấy tờ $5\,000$ đồng?
 ::key 4
 $5+5+5+5=20$ nên đổi được 4 tờ.
-
-### M048 · Lớp 2 · Phép cộng (không nhớ) trong phạm vi 1000. Phép cộng (có nhớ) trong phạm vi 1000
-
-[M048.1] Nhiều lựa chọn
-Kết quả của $145+238$ là
-A. $383$.
-B. $93$.
-C. $373$.
-D. $473$.
-::key A
-$5+8=13$, viết $3$ nhớ $1$; $4+3+1=8$; $1+2=3$, nên tổng là $383$. A quên nhớ sang hàng chục, D nhớ nhầm sang hàng trăm, B là phép trừ $238-145$.
-
-[M048.2] Nhiều lựa chọn
-Tính nhẩm $270+360$ được
-A. $530$.
-B. $630$.
-C. $63$.
-D. $130$.
-::key B
-$27$ chục cộng $36$ chục bằng $63$ chục, tức là $630$. B quên nhớ, C quên chữ số $0$, D chỉ cộng $7+6$.
-
-[M048.3] Nhiều lựa chọn
-Buổi sáng một cửa hàng bán $248$ cái bút, buổi chiều bán $175$ cái bút. Cả hai buổi cửa hàng bán được
-A. $73$ cái bút.
-B. $413$ cái bút.
-C. $423$ cái bút.
-D. $323$ cái bút.
-::key C
-"Cả hai buổi" là gộp lại: $248+175=423$. B quên nhớ ở hàng đơn vị, D quên nhớ ở hàng chục, A là phép trừ $248-175$.
-
-[M048.4] Nhiều lựa chọn
-Phép cộng nào dưới đây có nhớ?
-A. $312+245$.
-B. $230+405$.
-C. $421+354$.
-D. $156+138$.
-::key D
-Ở $156+138$, hàng đơn vị có $6+8=14$, lớn hơn $10$ nên phải nhớ. Ở ba phép còn lại, tổng mỗi hàng đều nhỏ hơn $10$.
-
-[M048.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép cộng $358+267$.
-a) Khi đặt tính, chữ số $6$ của $267$ thẳng cột với chữ số $8$ của $358$.
-b) Ở hàng đơn vị, $8+7=15$, viết $5$ nhớ $1$.
-c) Tổng bằng $625$.
-d) Tổng nhỏ hơn $600$.
-::key S Đ Đ S
-a) Sai: chữ số $6$ ở hàng chục, thẳng cột với chữ số $5$ của $358$; chữ số $7$ mới thẳng cột với $8$. b) Đúng: $8+7=15$. c) Đúng: $5+6+1=12$, viết $2$ nhớ $1$; $3+2+1=6$, nên tổng là $625$. d) Sai: $625>600$.
-
-[M048.6] Trả lời ngắn
-Tính $468+275$.
-::key 743
-$8+5=13$, viết $3$ nhớ $1$; $6+7+1=14$, viết $4$ nhớ $1$; $4+2+1=7$. Vậy $468+275=743$.
-
-[M048.7] Trả lời ngắn
-Buổi sáng một bác nông dân thu hoạch được $325$ kg dưa, buổi chiều thu hoạch được $289$ kg dưa. Cả ngày bác thu hoạch được bao nhiêu ki-lô-gam dưa?
-::key 614
-$325+289=614$ (kg): $5+9=14$, viết $4$ nhớ $1$; $2+8+1=11$, viết $1$ nhớ $1$; $3+2+1=6$.
-
-### M049 · Lớp 2 · Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000
-
-[M049.1] Nhiều lựa chọn
-Kết quả của $463-281$ là
-A. $282$.
-B. $182$.
-C. $222$.
-D. $744$.
-::key B
-Hàng chục: $6$ không trừ được $8$, đổi $1$ trăm được $16-8=8$, hàng trăm còn $3$; $3-2=1$, nên hiệu là $182$. A quên bớt $1$ ở hàng trăm, C lấy số bé trừ số lớn ở mỗi hàng, D là phép cộng.
-
-[M049.2] Nhiều lựa chọn
-Kết quả của $534-278$ là
-A. $344$.
-B. $266$.
-C. $256$.
-D. $356$.
-::key C
-$14-8=6$, hàng chục còn $2$; $12-7=5$, hàng trăm còn $4$; $4-2=2$, nên hiệu là $256$. A lấy số bé trừ số lớn ở mỗi hàng, B quên bớt $1$ ở hàng chục, D quên bớt $1$ ở hàng trăm.
-
-[M049.3] Nhiều lựa chọn
-Một trại có $372$ con gà, đã bán $145$ con. Trại còn lại
-A. $237$ con gà.
-B. $233$ con gà.
-C. $517$ con gà.
-D. $227$ con gà.
-::key D
-"Còn lại" là bớt đi: $372-145=227$. B lấy số bé trừ số lớn ở mỗi hàng, C là phép cộng, A quên bớt $1$ ở hàng chục.
-
-[M049.4] Nhiều lựa chọn
-Phép trừ nào dưới đây phải đổi (có nhớ)?
-A. $543-218$.
-B. $696-432$.
-C. $758-325$.
-D. $879-456$.
-::key A
-Ở $543-218$, hàng đơn vị có $3<8$ nên phải đổi. Ở ba phép còn lại, chữ số của số bị trừ ở mọi hàng đều không nhỏ hơn chữ số của số trừ.
-
-[M049.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép trừ $623-358$.
-a) Số bị trừ là $623$.
-b) Hiệu bằng $275$.
-c) $265+358=623$.
-d) Hiệu lớn hơn số bị trừ.
-::key Đ S Đ S
-a) Đúng: số bị trừ là số đứng trước dấu trừ. b) Sai: $13-8=5$, $11-5=6$, $5-3=2$, nên hiệu là $265$. c) Đúng: hiệu cộng số trừ bằng số bị trừ. d) Sai: hiệu $265$ nhỏ hơn $623$.
-
-[M049.6] Trả lời ngắn
-Tính $812-567$.
-::key 245
-$12-7=5$, hàng chục còn $0$; $10-6=4$, hàng trăm còn $7$; $7-5=2$. Vậy $812-567=245$.
-
-[M049.7] Trả lời ngắn
-Một cửa hàng có $540$ hộp sữa, đã bán $285$ hộp. Hỏi cửa hàng còn lại bao nhiêu hộp sữa?
-::key 255
-$540-285=255$ (hộp): $10-5=5$, hàng chục còn $3$; $13-8=5$, hàng trăm còn $4$; $4-2=2$.
-
-### M050 · Lớp 2 · Thu thập, phân loại, kiểm đếm số liệu. Biểu đồ tranh
-
-[M050.1] Nhiều lựa chọn
-Trong bảng kiểm đếm, màu đỏ được ghi là $\cancel{\mid\mid\mid\mid}\ \mid\mid\mid$. Số bạn chọn màu đỏ là
-A. $8$.
-B. $5$.
-C. $7$.
-D. $3$.
-::key A
-Nhóm gạch chéo là $5$ bạn, cộng thêm $3$ vạch lẻ: $5+3=8$. Phương án C coi nhóm gạch chéo là $4$, phương án B chỉ đếm nhóm gạch chéo, phương án D chỉ đếm các vạch lẻ.
-
-[M050.2] Nhiều lựa chọn
-Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bóng đá" có ●●●●●. Số bạn thích bóng đá là
-A. $5$.
-B. $10$.
-C. $7$.
-D. $2$.
-::key B
-Có $5$ hình ●, mỗi ● là $2$ bạn, nên có $5\times 2=10$ bạn. Phương án A quên đọc chú thích, phương án C cộng $5+2$.
-
-[M050.3] Nhiều lựa chọn
-Bảng số liệu: Cam $9$ bạn, Chuối $7$ bạn, Táo $4$ bạn. Số bạn thích cam nhiều hơn số bạn thích táo là
-A. $13$.
-B. $2$.
-C. $5$.
-D. $3$.
-::key C
-"Nhiều hơn" là phép trừ: $9-4=5$. Phương án A là phép cộng, phương án B là $9-7$, phương án D là $7-4$: các phép trừ đó dùng sai hai loại quả.
-
-[M050.4] Nhiều lựa chọn
-Biểu đồ tranh, mỗi ● là $2$ quyển: Thứ Hai ●●●, Thứ Ba ●●●●. Cả hai ngày mượn được
-A. $7$ quyển.
-B. $12$ quyển.
-C. $34$ quyển.
-D. $14$ quyển.
-::key D
-Thứ Hai: $3\times 2=6$ quyển; Thứ Ba: $4\times 2=8$ quyển; $6+8=14$. Phương án A chỉ cộng số hình ●, phương án C ghép hai chữ số $3$ và $4$.
-
-[M050.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Bảng số liệu cho biết số bạn thích mỗi trò chơi: Kéo co $8$ bạn, Nhảy dây $11$ bạn, Cờ vua $6$ bạn.
-a) Nhảy dây được nhiều bạn thích nhất.
-b) Kéo co có nhiều bạn thích hơn Cờ vua.
-c) Cả ba trò chơi có $24$ bạn thích.
-d) Nhảy dây nhiều hơn Cờ vua $5$ bạn.
-::key Đ Đ S Đ
-a) Đúng: $11>8>6$. b) Đúng: $8>6$. c) Sai: $8+11+6=25$, không phải $24$. d) Đúng: $11-6=5$.
-
-[M050.6] Trả lời ngắn
-Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bơi" có $7$ hình ●. Có bao nhiêu bạn thích bơi?
-::key 14
-$7\times 2=14$ bạn.
-
-[M050.7] Trả lời ngắn
-Tổ Một nhặt $16$ túi rác, Tổ Hai nhặt $9$ túi, Tổ Ba nhặt $14$ túi. Cả ba tổ nhặt được bao nhiêu túi rác?
-::key 39
-$16+9+14=39$ (túi): $16+9=25$, rồi $25+14=39$.
-
-### M051 · Lớp 2 · Chắc chắn, có thể, không thể
-
-[M051.1] Nhiều lựa chọn
-Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
-A. Có thể lấy được bi đỏ.
-B. Không thể lấy được bi xanh.
-C. Chắc chắn lấy được bi xanh.
-D. Chắc chắn lấy được bi đỏ.
-::key A
-Hộp có bi đỏ nhưng cũng có bi xanh, nên lấy được bi đỏ là có thể.
-
-[M051.2] Nhiều lựa chọn
-Hộp có $6$ viên bi vàng. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
-A. Có thể lấy được bi đỏ.
-B. Chắc chắn lấy được bi vàng.
-C. Không thể lấy được bi vàng.
-D. Có thể lấy được bi xanh.
-::key B
-Hộp chỉ có bi vàng nên lần nào cũng lấy được bi vàng.
-
-[M051.3] Nhiều lựa chọn
-Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là không thể?
-A. Lấy được bi xanh.
-B. Lấy được bi đỏ.
-C. Lấy được bi vàng.
-D. Lấy được bi đỏ hoặc bi xanh.
-::key C
-Hộp không có bi vàng nên không bao giờ lấy được bi vàng.
-
-[M051.4] Nhiều lựa chọn
-Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là chắc chắn?
-A. Lấy được bi đỏ.
-B. Lấy được bi xanh.
-C. Lấy được bi vàng.
-D. Lấy được bi đỏ hoặc bi xanh.
-::key D
-Mọi viên bi đều là đỏ hoặc xanh nên sự kiện C lần nào cũng xảy ra.
-
-[M051.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một vòng quay chia thành $6$ phần bằng nhau: $4$ phần đỏ và $2$ phần xanh. Em quay và kim dừng lại ở một phần.
-a) Kim dừng ở màu đỏ là chắc chắn.
-b) Kim dừng ở màu xanh là có thể.
-c) Kim dừng ở màu vàng là không thể.
-d) Kim dừng ở màu đỏ dễ xảy ra hơn ở màu xanh.
-::key S Đ Đ Đ
-a) Sai: vòng quay còn có phần xanh, nên chỉ là có thể. b) Đúng: có $2$ phần xanh. c) Đúng: không có phần vàng. d) Đúng: $4>2$.
-
-[M051.6] Trả lời ngắn
-Hộp có $7$ viên bi đỏ và $5$ viên bi xanh. Hộp có tất cả bao nhiêu viên bi?
-::key 12
-$7+5=12$ (viên).
-
-[M051.7] Trả lời ngắn
-Hộp có $9$ viên bi đỏ và $4$ viên bi xanh. Số bi đỏ nhiều hơn số bi xanh bao nhiêu viên?
-::key 5
-$9-4=5$ (viên).
-
-### M052 · Lớp 3 · Tìm thành phần trong phép cộng, phép trừ
-
-[M052.1] Nhiều lựa chọn
-Tìm $\square$, biết $\square+7=19$.
-A. $26$.
-B. $22$.
-C. $12$.
-D. $19$.
-::key C
-$\square=19-7=12$. Phương án A là lỗi cộng $19+7$ thay vì trừ.
-
-[M052.2] Nhiều lựa chọn
-Tìm $\square$, biết $15-\square=6$.
-A. $21$.
-B. $8$.
-C. $11$.
-D. $9$.
-::key D
-$\square$ là số trừ nên $\square=15-6=9$. Phương án A là lỗi cộng $15+6$.
-
-[M052.3] Nhiều lựa chọn
-Tìm $\square$, biết $\square-14=25$.
-A. $39$.
-B. $11$.
-C. $40$.
-D. $29$.
-::key A
-$\square$ là số bị trừ nên $\square=25+14=39$. Phương án B là lỗi trừ $25-14$.
-
-[M052.4] Nhiều lựa chọn
-Hà có một số nhãn vở. Hà mua thêm $16$ cái thì có $50$ cái. Lúc đầu Hà có bao nhiêu nhãn vở?
-A. $66$ cái.
-B. $34$ cái.
-C. $44$ cái.
-D. $36$ cái.
-::key B
-Ta có $\square+16=50$ nên $\square=50-16=34$. Phương án A là lỗi cộng $50+16$.
-
-[M052.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép tính $\square+24=70$.
-a) Số cần tìm bằng $70-24$.
-b) Số cần tìm bằng $46$.
-c) Số cần tìm bằng $94$.
-d) Thử lại: $46+24=70$.
-::key Đ Đ S Đ
-a) Đúng: số hạng chưa biết bằng tổng trừ số hạng đã biết. b) Đúng: $70-24=46$. c) Sai: $94$ là $70+24$, và $94+24=118$. d) Đúng: $46+24=70$.
-
-[M052.6] Trả lời ngắn
-Tìm $\square$, biết $63-\square=29$.
-::key 34
-$\square$ là số trừ nên $\square=63-29=34$.
-
-[M052.7] Trả lời ngắn
-Trong sọt có một số quả cam. Mẹ lấy ra $18$ quả thì còn $27$ quả. Lúc đầu trong sọt có bao nhiêu quả cam?
-::key 45
-Ta có $\square-18=27$ nên $\square=27+18=45$ (quả).
-
-### M053 · Lớp 3 · Bảng nhân 3, bảng chia 3
-
-[M053.1] Nhiều lựa chọn
-Kết quả của $3\times 6$ là
-A. $9$.
-B. $18$.
-C. $15$.
-D. $21$.
-::key B
-$3\times 6=3\times 5+3=15+3=18$. Phương án A là lỗi cộng $3+6$ thay vì nhân.
-
-[M053.2] Nhiều lựa chọn
-Kết quả của $27:3$ là
-A. $9$.
-B. $24$.
-C. $8$.
-D. $30$.
-::key A
-Vì $3\times 9=27$ nên $27:3=9$. Phương án B là lỗi lấy $27-3$, phương án D là lỗi lấy $27+3$.
-
-[M053.3] Nhiều lựa chọn
-Phép tính nào dưới đây đúng?
-A. $3\times 4=7$.
-B. $3\times 7=24$.
-C. $3\times 5=18$.
-D. $3\times 9=27$.
-::key D
-$3\times 9=3\times 8+3=24+3=27$. Các phép tính khác lần lượt thành $12$, $21$, $15$.
-
-[M053.4] Nhiều lựa chọn
-Có $18$ chiếc bánh xếp đều vào các hộp, mỗi hộp $3$ chiếc. Xếp được bao nhiêu hộp?
-A. $15$ hộp.
-B. $6$ hộp.
-C. $21$ hộp.
-D. $54$ hộp.
-::key B
-Em chia thành các nhóm $3$: $18:3=6$ (hộp). Phương án A là lấy $18-3$, C là lấy $18+3$, D là lấy $18\times 3$.
-
-[M053.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Biết $3\times 8=24$. Em xét các phép tính sau.
-a) $24:3=8$.
-b) $3\times 9=24+6$.
-c) $3\times 7=24-3$.
-d) $24:3=21$.
-::key Đ S Đ S
-a) Đúng: từ $3\times 8=24$ ta có $24:3=8$. b) Sai: $3\times 9=27=24+3$. c) Đúng: $3\times 7=21=24-3$. d) Sai: $24:3=8$, còn $21$ là kết quả của $24-3$.
-
-[M053.6] Trả lời ngắn
-Hà cắm hoa vào bình, mỗi bình $3$ bông. Hà cắm $9$ bình. Hà có tất cả bao nhiêu bông hoa?
-::key 27
-$3\times 9=27$ (bông hoa).
-
-[M053.7] Trả lời ngắn
-Cô chia đều $30$ cái kẹo cho $3$ bạn. Mỗi bạn được bao nhiêu cái kẹo?
-::key 10
-$30:3=10$, vì $3\times 10=30$ (cái kẹo).
-
-### M054 · Lớp 3 · Bảng nhân 4, bảng chia 4
-
-[M054.1] Nhiều lựa chọn
-Kết quả của $4\times6$ là
-A. $10$.
-B. $28$.
-C. $20$.
-D. $24$.
-::key D
-$4\times6=4\times5+4=20+4=24$. Phương án A là lỗi cộng $4+6$.
-
-[M054.2] Nhiều lựa chọn
-Kết quả của $4\times7$ là
-A. $28$.
-B. $32$.
-C. $24$.
-D. $11$.
-::key A
-$4\times7=24+4=28$. Phương án C là $4\times6$, thiếu một nhóm $4$.
-
-[M054.3] Nhiều lựa chọn
-Kết quả của $32:4$ là
-A. $9$.
-B. $8$.
-C. $7$.
-D. $28$.
-::key B
-Vì $4\times8=32$ nên $32:4=8$. Phương án C là $28:4$.
-
-[M054.4] Nhiều lựa chọn
-Mỗi chuồng có $4$ con thỏ. Hỏi $9$ chuồng như vậy có bao nhiêu con thỏ?
-A. $13$ con.
-B. $32$ con.
-C. $36$ con.
-D. $40$ con.
-::key C
-$9$ nhóm, mỗi nhóm $4$ con: $4\times9=36$. Phương án A là lỗi cộng $4+9$.
-
-[M054.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép nhân $4\times8=32$.
-a) $4\times8=4\times7+4$.
-b) $32:4=8$.
-c) $32:8=4$.
-d) $4\times8$ lớn hơn $36$.
-::key Đ Đ Đ S
-a) Đúng: $28+4=32$. b) Đúng: $4\times8=32$. c) Đúng: $8\times4=32$. d) Sai: $32<36$.
-
-[M054.6] Trả lời ngắn
-Tính $4\times9$.
-::key 36
-$4\times9=4\times8+4=32+4=36$.
-
-[M054.7] Trả lời ngắn
-Có $40$ cái bút, xếp vào các hộp, mỗi hộp $4$ cái bút. Hỏi xếp được bao nhiêu hộp?
-::key 10
-$40:4=10$ (hộp), vì $4\times10=40$.
-
-### M055 · Lớp 3 · Bảng nhân 6, bảng chia 6
-
-[M055.1] Nhiều lựa chọn
-Kết quả của $6\times5$ là
-A. $11$.
-B. $30$.
-C. $36$.
-D. $25$.
-::key B
-$6\times5=6\times4+6=24+6=30$. Phương án A là lỗi cộng $6+5$.
-
-[M055.2] Nhiều lựa chọn
-Kết quả của $6\times8$ là
-A. $42$.
-B. $54$.
-C. $48$.
-D. $14$.
-::key C
-$6\times8=42+6=48$. Phương án A là $6\times7$, thiếu một nhóm $6$.
-
-[M055.3] Nhiều lựa chọn
-Kết quả của $54:6$ là
-A. $8$.
-B. $9$.
-C. $10$.
-D. $48$.
-::key B
-Vì $6\times9=54$ nên $54:6=9$. Phương án A là lỗi nhớ nhầm $6\times8=48$.
-
-[M055.4] Nhiều lựa chọn
-Mỗi hộp có $6$ chiếc bánh. Hỏi $7$ hộp như vậy có bao nhiêu chiếc bánh?
-A. $13$ chiếc.
-B. $36$ chiếc.
-C. $42$ chiếc.
-D. $48$ chiếc.
-::key C
-$7$ nhóm, mỗi nhóm $6$ chiếc: $6\times7=42$. Phương án A là lỗi cộng $6+7$.
-
-[M055.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép nhân $6\times6=36$.
-a) $6\times6=6\times5+6$.
-b) $36:6=6$.
-c) $36:9=6$.
-d) $6\times6$ bé hơn $30$.
-::key Đ Đ S S
-a) Đúng: $30+6=36$. b) Đúng: $6\times6=36$. c) Sai: $36:9=4$. d) Sai: $36>30$.
-
-[M055.6] Trả lời ngắn
-Tính $6\times9$.
-::key 54
-$6\times9=6\times10-6=60-6=54$.
-
-[M055.7] Trả lời ngắn
-Có $48$ quả trứng xếp vào các vỉ, mỗi vỉ $6$ quả. Hỏi xếp được bao nhiêu vỉ?
-::key 8
-$48:6=8$ (vỉ), vì $6\times8=48$.
-
-### M056 · Lớp 3 · Bảng nhân 7, bảng chia 7
-
-[M056.1] Nhiều lựa chọn
-Kết quả của $7\times4$ là
-A. $11$.
-B. $28$.
-C. $21$.
-D. $35$.
-::key B
-$7\times4=7\times3+7=21+7=28$. Phương án A là lỗi cộng $7+4$.
-
-[M056.2] Nhiều lựa chọn
-Kết quả của $7\times8$ là
-A. $49$.
-B. $54$.
-C. $56$.
-D. $15$.
-::key C
-$7\times8=49+7=56$. Phương án B là lỗi nhớ nhầm tích.
-
-[M056.3] Nhiều lựa chọn
-Kết quả của $63:7$ là
-A. $8$.
-B. $9$.
-C. $7$.
-D. $56$.
-::key B
-Vì $7\times9=63$ nên $63:7=9$. Phương án A là lỗi nhớ nhầm $7\times8=56$.
-
-[M056.4] Nhiều lựa chọn
-Mỗi tuần lễ có $7$ ngày. Hỏi $9$ tuần lễ có bao nhiêu ngày?
-A. $16$ ngày.
-B. $56$ ngày.
-C. $63$ ngày.
-D. $70$ ngày.
-::key C
-$9$ nhóm, mỗi nhóm $7$ ngày: $7\times9=63$. Phương án A là lỗi cộng $7+9$.
-
-[M056.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép nhân $7\times7=49$.
-a) $7\times7=7\times6+7$.
-b) $49:7=7$.
-c) $49:7=8$.
-d) $7\times7$ lớn hơn $50$.
-::key Đ Đ S S
-a) Đúng: $42+7=49$. b) Đúng: $7\times7=49$. c) Sai: $7\times8=56$, không phải $49$. d) Sai: $49<50$.
-
-[M056.6] Trả lời ngắn
-Tính $7\times9$.
-::key 63
-$7\times9=7\times10-7=70-7=63$.
-
-[M056.7] Trả lời ngắn
-Một chuyến đi dài $56$ ngày. Hỏi chuyến đi dài bao nhiêu tuần lễ?
-::key 8
-$56:7=8$ (tuần), vì $7\times8=56$.
-
-### M057 · Lớp 3 · Bảng nhân 8, bảng chia 8
-
-[M057.1] Nhiều lựa chọn
-Kết quả của $8\times5$ là
-A. $13$.
-B. $40$.
-C. $45$.
-D. $35$.
-::key B
-$8\times5=8\times4+8=32+8=40$. Phương án A là lỗi cộng $8+5$.
-
-[M057.2] Nhiều lựa chọn
-Kết quả của $8\times7$ là
-A. $54$.
-B. $48$.
-C. $56$.
-D. $15$.
-::key C
-$8\times7=48+8=56$. Phương án B là $8\times6$, thiếu một nhóm $8$.
-
-[M057.3] Nhiều lựa chọn
-Kết quả của $72:8$ là
-A. $8$.
-B. $9$.
-C. $10$.
-D. $64$.
-::key B
-Vì $8\times9=72$ nên $72:8=9$. Phương án A là lỗi nhớ nhầm $8\times8=64$.
-
-[M057.4] Nhiều lựa chọn
-Mỗi hộp có $8$ cây bút chì. Hỏi $6$ hộp như vậy có bao nhiêu cây bút chì?
-A. $14$ cây.
-B. $42$ cây.
-C. $48$ cây.
-D. $56$ cây.
-::key C
-$6$ nhóm, mỗi nhóm $8$ cây: $8\times6=48$. Phương án A là lỗi cộng $8+6$.
-
-[M057.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép nhân $8\times8=64$.
-a) $8\times8=8\times7+8$.
-b) $64:8=8$.
-c) $64:4=8$.
-d) $8\times8$ bé hơn $60$.
-::key Đ Đ S S
-a) Đúng: $56+8=64$. b) Đúng: $8\times8=64$. c) Sai: $64:4=16$. d) Sai: $64>60$.
-
-[M057.6] Trả lời ngắn
-Tính $8\times9$.
-::key 72
-$8\times9=8\times10-8=80-8=72$.
-
-[M057.7] Trả lời ngắn
-Có $48$ cái bánh chia vào các hộp, mỗi hộp $8$ cái. Hỏi chia được bao nhiêu hộp?
-::key 6
-$48:8=6$ (hộp), vì $8\times6=48$.

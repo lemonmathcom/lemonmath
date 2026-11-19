@@ -1,0 +1,956 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-LG-5   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-LG-5-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – chanh106-LG-5
+Người làm: tài khoản chanh106. Gói này có 33 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/chanh106-LG-5-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/chanh106-LG-5-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g11/parallel-planes (7 bài tập)
+- g11/parallel-projection (8 bài tập)
+- g11/perpendicular-lines-space (8 bài tập)
+- g11/perpendicular-planes (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g11/parallel-planes
+Bài học: Hai mặt phẳng song song / Parallel planes
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $(ABB'A')\parallel(CDD'C')$.
+
+[LỜI GIẢI CŨ – VI]
+$AB\parallel CD\subset(CDD'C')$ nên $AB\parallel(CDD'C')$. $AA'\parallel DD'\subset(CDD'C')$ nên $AA'\parallel(CDD'C')$. Mặt phẳng $(ABB'A')$ chứa hai đường thẳng cắt nhau $AB$, $AA'$ cùng song song với $(CDD'C')$, nên $(ABB'A')\parallel(CDD'C')$.
+
+**Đáp số.** $(ABB'A')\parallel(CDD'C')$.
+
+[ĐỀ – EN]
+Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $(ABB'A')\parallel(CDD'C')$.
+
+[LỜI GIẢI CŨ – EN]
+$AB\parallel CD\subset(CDD'C')$, so $AB\parallel(CDD'C')$. $AA'\parallel DD'\subset(CDD'C')$, so $AA'\parallel(CDD'C')$. The plane $(ABB'A')$ contains the two intersecting lines $AB$, $AA'$ both parallel to $(CDD'C')$, so $(ABB'A')\parallel(CDD'C')$.
+
+**Answer.** $(ABB'A')\parallel(CDD'C')$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $(AB'D')\parallel(C'BD)$.
+
+[LỜI GIẢI CŨ – VI]
+$AB'C'D$ là hình bình hành nên $AB'\parallel DC'$, mà $DC'\subset(C'BD)$ nên $AB'\parallel(C'BD)$. $AD'C'B$ là hình bình hành nên $AD'\parallel BC'$, mà $BC'\subset(C'BD)$ nên $AD'\parallel(C'BD)$. Mặt phẳng $(AB'D')$ chứa $AB'$ và $AD'$ cắt nhau tại $A$, cùng song song với $(C'BD)$.
+
+**Đáp số.** $(AB'D')\parallel(C'BD)$.
+
+[ĐỀ – EN]
+Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $(AB'D')\parallel(C'BD)$.
+
+[LỜI GIẢI CŨ – EN]
+$AB'C'D$ is a parallelogram, so $AB'\parallel DC'$, with $DC'\subset(C'BD)$, so $AB'\parallel(C'BD)$. $AD'C'B$ is a parallelogram, so $AD'\parallel BC'$, with $BC'\subset(C'BD)$, so $AD'\parallel(C'BD)$. The plane $(AB'D')$ contains $AB'$ and $AD'$ meeting at $A$, both parallel to $(C'BD)$.
+
+**Answer.** $(AB'D')\parallel(C'BD)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Ba mặt phẳng song song cắt hai cát tuyến $d$, $d'$ tại $A$, $B$, $C$ và $A'$, $B'$, $C'$. Biết $AB=3$, $BC=5$ và $A'C'=24$. Tính $A'B'$ và $B'C'$.
+
+[LỜI GIẢI CŨ – VI]
+$AC=3+5=8$. Từ $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ ta có $A'B'=\dfrac{3}{8}\cdot24=9$, nên $B'C'=24-9=15$.
+
+**Đáp số.** $A'B'=9$, $B'C'=15$.
+
+[ĐỀ – EN]
+Three parallel planes meet two transversals $d$, $d'$ at $A$, $B$, $C$ and $A'$, $B'$, $C'$. Given $AB=3$, $BC=5$ and $A'C'=24$, find $A'B'$ and $B'C'$.
+
+[LỜI GIẢI CŨ – EN]
+$AC=3+5=8$. From $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ we get $A'B'=\dfrac{3}{8}\cdot24=9$, so $B'C'=24-9=15$.
+
+**Answer.** $A'B'=9$, $B'C'=15$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hình lăng trụ có đáy là đa giác $12$ cạnh có bao nhiêu đỉnh, cạnh và mặt?
+
+[LỜI GIẢI CŨ – VI]
+Với $n=12$: $2n=24$ đỉnh, $3n=36$ cạnh, $n+2=14$ mặt.
+
+**Đáp số.** $24$ đỉnh, $36$ cạnh, $14$ mặt.
+
+[ĐỀ – EN]
+How many vertices, edges and faces does a prism whose base has $12$ sides have?
+
+[LỜI GIẢI CŨ – EN]
+For $n=12$: $2n=24$ vertices, $3n=36$ edges, $n+2=14$ faces.
+
+**Answer.** $24$ vertices, $36$ edges, $14$ faces.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử ba tấm ván song song của một giá sách chia một thanh gỗ dài $1{,}2$ m thành hai đoạn có tỉ lệ $3:5$. Một thanh gỗ khác dài $2{,}4$ m cũng bị ba tấm ván đó cắt. Tính các đoạn của hai thanh.
+
+[LỜI GIẢI CŨ – VI]
+Tổng số phần là $3+5=8$. Thanh $1{,}2$ m: đoạn trên $\dfrac38\cdot1{,}2=0{,}45$ m và đoạn dưới $0{,}75$ m. Thanh $2{,}4$ m: đoạn trên $\dfrac38\cdot2{,}4=0{,}9$ m và đoạn dưới $1{,}5$ m.
+
+**Đáp số.** Thanh $1{,}2$ m: $0{,}45$ m và $0{,}75$ m; thanh $2{,}4$ m: $0{,}9$ m và $1{,}5$ m.
+
+[ĐỀ – EN]
+Suppose three parallel boards of a bookshelf divide a stick $1.2$ m long into two parts in the ratio $3:5$. Another stick $2.4$ m long is also cut by the same three boards. Find the parts of both sticks.
+
+[LỜI GIẢI CŨ – EN]
+The total number of parts is $3+5=8$. The $1.2$ m stick: upper part $\dfrac38\cdot1.2=0.45$ m and lower part $0.75$ m. The $2.4$ m stick: upper part $\dfrac38\cdot2.4=0.9$ m and lower part $1.5$ m.
+
+**Answer.** The $1.2$ m stick: $0.45$ m and $0.75$ m; the $2.4$ m stick: $0.9$ m and $1.5$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $(ABCD)\parallel(A'B'C'D')$.
+
+b) Mỗi mặt của hình hộp cắt đúng $4$ mặt còn lại.
+
+c) Hình hộp có $8$ cạnh.
+
+d) $AA'\parallel(CDD'C')$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: hai mặt đối diện song song.
+
+b) **Đúng**: mỗi mặt song song với mặt đối diện và cắt $4$ mặt kề còn lại.
+
+c) **Sai**: hình hộp có $12$ cạnh.
+
+d) **Đúng**: $AA'\parallel DD'\subset(CDD'C')$ và $AA'\not\subset(CDD'C')$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Take a cuboid $ABCD.A'B'C'D'$. Decide whether each statement is true or false.
+
+a) $(ABCD)\parallel(A'B'C'D')$.
+
+b) Each face of the cuboid meets exactly $4$ of the other faces.
+
+c) The cuboid has $8$ edges.
+
+d) $AA'\parallel(CDD'C')$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: opposite faces are parallel.
+
+b) **True**: each face is parallel to its opposite face and meets the $4$ adjacent faces.
+
+c) **False**: a cuboid has $12$ edges.
+
+d) **True**: $AA'\parallel DD'\subset(CDD'C')$ and $AA'\not\subset(CDD'C')$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$. Mặt phẳng $(\alpha)$ song song với $(ABC)$ cắt $SA$, $SB$, $SC$ lần lượt tại $A_1$, $B_1$, $C_1$. Chứng minh $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
+
+[LỜI GIẢI CŨ – VI]
+Mặt phẳng $(SAB)$ cắt $(\alpha)$ và $(ABC)$ song song theo $A_1B_1$ và $AB$ nên $A_1B_1\parallel AB$. Theo Thalès trong tam giác $SAB$, $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{A_1B_1}{AB}$. Tương tự với mặt phẳng $(SBC)$ ta có $B_1C_1\parallel BC$ và $\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}$. Ghép các đẳng thức ta có điều phải chứng minh.
+
+**Đáp số.** $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
+
+[ĐỀ – EN]
+Take a pyramid $S.ABC$. A plane $(\alpha)$ parallel to $(ABC)$ meets $SA$, $SB$, $SC$ at $A_1$, $B_1$, $C_1$ respectively. Prove that $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
+
+[LỜI GIẢI CŨ – EN]
+The plane $(SAB)$ cuts the parallel planes $(\alpha)$ and $(ABC)$ along $A_1B_1$ and $AB$, so $A_1B_1\parallel AB$. By the intercept theorem in triangle $SAB$, $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{A_1B_1}{AB}$. Similarly, with the plane $(SBC)$ we have $B_1C_1\parallel BC$ and $\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}$. Combining these equalities gives the result.
+
+**Answer.** $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
+
+
+######################################################################
+@@@ g11/parallel-projection
+Bài học: Phép chiếu song song / Parallel projection
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cùng một thời điểm, một cái cây thẳng đứng có bóng dài $12$ m và một cọc thẳng đứng cao $2$ m có bóng dài $1{,}6$ m. Tính chiều cao của cây.
+
+[LỜI GIẢI CŨ – VI]
+$h=\dfrac{12\cdot2}{1{,}6}=15$ m.
+
+**Đáp số.** Cây cao $15$ m.
+
+[ĐỀ – EN]
+At the same moment, a vertical tree casts a shadow $12$ m long and a vertical stake $2$ m tall casts a shadow $1.6$ m long. Find the height of the tree.
+
+[LỜI GIẢI CŨ – EN]
+$h=\dfrac{12\cdot2}{1.6}=15$ m.
+
+**Answer.** The tree is $15$ m tall.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ và điểm $M$ thuộc $BC$ sao cho $BM=2MC$. Phép chiếu song song biến $A$, $B$, $C$, $M$ thành $A'$, $B'$, $C'$, $M'$. Cho $B'C'=9$. Tính $B'M'$ và $M'C'$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{B'M'}{M'C'}=\dfrac{BM}{MC}=2$ và $B'M'+M'C'=9$, nên $M'C'=3$ và $B'M'=6$.
+
+**Đáp số.** $B'M'=6$, $M'C'=3$.
+
+[ĐỀ – EN]
+Take a triangle $ABC$ and a point $M$ on $BC$ with $BM=2MC$. A parallel projection maps $A$, $B$, $C$, $M$ to $A'$, $B'$, $C'$, $M'$. Given $B'C'=9$, find $B'M'$ and $M'C'$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{B'M'}{M'C'}=\dfrac{BM}{MC}=2$ and $B'M'+M'C'=9$, so $M'C'=3$ and $B'M'=6$.
+
+**Answer.** $B'M'=6$, $M'C'=3$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hình bình hành $ABCD$ có hình biểu diễn $A'B'C'D'$. Hình biểu diễn đó là hình gì?
+
+[LỜI GIẢI CŨ – VI]
+$AB\parallel CD$ nên $A'B'\parallel C'D'$; $AD\parallel BC$ nên $A'D'\parallel B'C'$. Hai cặp cạnh đối song song nên $A'B'C'D'$ là hình bình hành.
+
+**Đáp số.** Hình bình hành.
+
+[ĐỀ – EN]
+A parallelogram $ABCD$ has a drawing $A'B'C'D'$. What kind of figure is the drawing?
+
+[LỜI GIẢI CŨ – EN]
+$AB\parallel CD$, so $A'B'\parallel C'D'$; $AD\parallel BC$, so $A'D'\parallel B'C'$. Both pairs of opposite sides are parallel, so $A'B'C'D'$ is a parallelogram.
+
+**Answer.** A parallelogram.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Bốn điểm $A$, $B$, $C$, $D$ thẳng hàng theo thứ tự với $AB:BC:CD=2:3:5$. Hình chiếu song song của chúng có $A'D'=30$. Tính $A'B'$, $B'C'$, $C'D'$.
+
+[LỜI GIẢI CŨ – VI]
+$A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+
+**Đáp số.** $A'B'=6$, $B'C'=9$, $C'D'=15$.
+
+[ĐỀ – EN]
+Four collinear points $A$, $B$, $C$, $D$, in that order, satisfy $AB:BC:CD=2:3:5$. Their parallel projections have $A'D'=30$. Find $A'B'$, $B'C'$, $C'D'$.
+
+[LỜI GIẢI CŨ – EN]
+$A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+
+**Answer.** $A'B'=6$, $B'C'=9$, $C'D'=15$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Vào một thời điểm, một người cao $1{,}7$ m đứng thẳng có bóng dài $1{,}2$ m trên mặt đất phẳng, còn bóng của một toà nhà trên cùng mặt đất dài $24$ m. Tính chiều cao toà nhà (coi toà nhà thẳng đứng).
+
+[LỜI GIẢI CŨ – VI]
+Chiều cao toà nhà là $h=\dfrac{24\cdot1{,}7}{1{,}2}=34$ m.
+
+**Đáp số.** $34$ m.
+
+[ĐỀ – EN]
+At one moment, a person $1.7$ m tall standing upright casts a shadow $1.2$ m long on level ground, and the shadow of a building on the same ground is $24$ m long. Find the height of the building (treat it as vertical).
+
+[LỜI GIẢI CŨ – EN]
+The height of the building is $h=\dfrac{24\cdot1.7}{1.2}=34$ m.
+
+**Answer.** $34$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau về phép chiếu song song lên mặt phẳng $(P)$ theo phương $l$:
+
+a) Hình chiếu của hai đường thẳng song song luôn là hai đường thẳng song song.
+
+b) Hình chiếu của trung điểm một đoạn thẳng là trung điểm của hình chiếu đoạn thẳng đó.
+
+c) Hình chiếu của hai đường thẳng cắt nhau có thể là hai đường thẳng song song.
+
+d) Hình chiếu của một tam giác có thể là một đoạn thẳng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: hai đường thẳng song song có thể có hình chiếu trùng nhau.
+
+b) **Đúng**: phép chiếu song song giữ tỉ số, nên giữ trung điểm.
+
+c) **Sai**: hai đường thẳng cắt nhau có hình chiếu là hai đường thẳng cắt nhau hoặc trùng nhau, không thể song song.
+
+d) **Đúng**: khi mặt phẳng chứa tam giác song song với $l$, hình chiếu của tam giác nằm trên một đường thẳng.
+
+**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Decide whether each statement about parallel projection onto a plane $(P)$ in the direction $l$ is true or false:
+
+a) The projections of two parallel lines are always two parallel lines.
+
+b) The projection of the midpoint of a segment is the midpoint of the projection of the segment.
+
+c) The projections of two intersecting lines may be two parallel lines.
+
+d) The projection of a triangle may be a segment.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: two parallel lines may have the same projection.
+
+b) **True**: parallel projection preserves ratios, so it preserves midpoints.
+
+c) **False**: two intersecting lines have projections that intersect or coincide, never parallel.
+
+d) **True**: when the plane of the triangle is parallel to $l$, the projection of the triangle lies on a line.
+
+**Answer.** a) False; b) True; c) False; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hai mặt phẳng $(P)$ và $(Q)$ song song. Phép chiếu song song lên $(Q)$ theo phương $l$ biến tam giác $ABC$ nằm trong $(P)$ thành tam giác $A'B'C'$. Chứng minh $A'B'C'$ bằng $ABC$.
+
+[LỜI GIẢI CŨ – VI]
+$AA'$ và $BB'$ cùng song song với $l$ nên song song, và mặt phẳng $(AA'B'B)$ cắt $(P)$ và $(Q)$ theo $AB$ và $A'B'$, nên $AB\parallel A'B'$. Do đó $ABB'A'$ là hình bình hành và $A'B'=AB$. Tương tự $B'C'=BC$ và $C'A'=CA$. Hai tam giác có ba cặp cạnh bằng nhau nên bằng nhau.
+
+**Đáp số.** Tam giác $A'B'C'$ bằng tam giác $ABC$.
+
+[ĐỀ – EN]
+Two planes $(P)$ and $(Q)$ are parallel. A parallel projection onto $(Q)$ in the direction $l$ maps a triangle $ABC$ in $(P)$ to a triangle $A'B'C'$. Prove that $A'B'C'$ is congruent to $ABC$.
+
+[LỜI GIẢI CŨ – EN]
+$AA'$ and $BB'$ are both parallel to $l$, so they are parallel, and the plane $(AA'B'B)$ cuts $(P)$ and $(Q)$ along $AB$ and $A'B'$, so $AB\parallel A'B'$. Hence $ABB'A'$ is a parallelogram and $A'B'=AB$. Similarly $B'C'=BC$ and $C'A'=CA$. The two triangles have three pairs of equal sides, so they are congruent.
+
+**Answer.** Triangle $A'B'C'$ is congruent to triangle $ABC$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho hình vuông $ABCD$ và $M$ là trung điểm của $CD$. Gọi $N$ là giao điểm của $AM$ và $BD$. Chứng minh $BN=2ND$. Từ đó nêu cách xác định điểm $N'$ trên hình biểu diễn $A'B'C'D'$ của hình vuông.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AB\parallel DM$ nên tam giác $NBA$ đồng dạng với tam giác $NDM$, suy ra $\dfrac{BN}{ND}=\dfrac{AB}{DM}=2$, tức $BN=2ND$. Phép chiếu song song giữ trung điểm và tỉ số, nên trên hình biểu diễn, $M'$ là trung điểm của $C'D'$ và $N'$ là giao điểm của $A'M'$ với $B'D'$, thoả mãn $B'N'=2N'D'$.
+
+**Đáp số.** $BN=2ND$; $N'=A'M'\cap B'D'$ với $M'$ là trung điểm $C'D'$, và $B'N'=2N'D'$.
+
+[ĐỀ – EN]
+Take a square $ABCD$ and let $M$ be the midpoint of $CD$. Let $N$ be the intersection of $AM$ and $BD$. Prove that $BN=2ND$. Hence describe how to find the point $N'$ on the drawing $A'B'C'D'$ of the square.
+
+[LỜI GIẢI CŨ – EN]
+Since $AB\parallel DM$, triangle $NBA$ is similar to triangle $NDM$, so $\dfrac{BN}{ND}=\dfrac{AB}{DM}=2$, that is $BN=2ND$. Parallel projection preserves midpoints and ratios, so in the drawing $M'$ is the midpoint of $C'D'$ and $N'$ is the intersection of $A'M'$ with $B'D'$, and it satisfies $B'N'=2N'D'$.
+
+**Answer.** $BN=2ND$; $N'=A'M'\cap B'D'$ where $M'$ is the midpoint of $C'D'$, and $B'N'=2N'D'$.
+
+
+######################################################################
+@@@ g11/perpendicular-lines-space
+Bài học: Hai đường thẳng vuông góc / Perpendicular lines in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa:
+
+a) $AB$ và $A'D'$.
+
+b) $AC$ và $B'D'$.
+
+c) $AB'$ và $A'D$.
+
+[LỜI GIẢI CŨ – VI]
+a) $A'D'\parallel AD$ nên $\widehat{(AB, A'D')}=\widehat{(AB, AD)}=\widehat{BAD}=90^\circ$.
+
+b) $B'D'\parallel BD$ và $AC\perp BD$ (hai đường chéo hình vuông) nên $AC\perp B'D'$, tức góc bằng $90^\circ$.
+
+c) $A'D\parallel B'C$ nên $\widehat{(AB', A'D)}=\widehat{(AB', B'C)}=\widehat{AB'C}$. Tam giác $AB'C$ có ba cạnh là đường chéo các mặt nên là tam giác đều, do đó $\widehat{AB'C}=60^\circ$.
+
+**Đáp số.** a) $90^\circ$; b) $90^\circ$; c) $60^\circ$.
+
+[ĐỀ – EN]
+Let $ABCD.A'B'C'D'$ be a cube. Find the angle between:
+
+a) $AB$ and $A'D'$.
+
+b) $AC$ and $B'D'$.
+
+c) $AB'$ and $A'D$.
+
+[LỜI GIẢI CŨ – EN]
+a) $A'D'\parallel AD$, so $\angle(AB, A'D')=\angle(AB, AD)=\angle BAD=90^\circ$.
+
+b) $B'D'\parallel BD$ and $AC\perp BD$ (the diagonals of a square), so $AC\perp B'D'$, that is the angle is $90^\circ$.
+
+c) $A'D\parallel B'C$, so $\angle(AB', A'D)=\angle(AB', B'C)=\angle AB'C$. Triangle $AB'C$ has three sides that are face diagonals, so it is equilateral, hence $\angle AB'C=60^\circ$.
+
+**Answer.** a) $90^\circ$; b) $90^\circ$; c) $60^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Chứng minh $AA'\perp B'C'$ và $BB'\perp CD$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $B'C'\parallel A'D'$ và $AA'\perp A'D'$ (mặt $ADD'A'$ là hình chữ nhật) nên $AA'\perp B'C'$.
+
+Vì $CD\parallel AB$ và $BB'\perp AB$ (mặt $ABB'A'$ là hình chữ nhật) nên $BB'\perp CD$.
+
+**Đáp số.** Cả hai đều vuông góc.
+
+[ĐỀ – EN]
+Let $ABCD.A'B'C'D'$ be a cuboid. Prove that $AA'\perp B'C'$ and $BB'\perp CD$.
+
+[LỜI GIẢI CŨ – EN]
+Since $B'C'\parallel A'D'$ and $AA'\perp A'D'$ (face $ADD'A'$ is a rectangle), $AA'\perp B'C'$.
+
+Since $CD\parallel AB$ and $BB'\perp AB$ (face $ABB'A'$ is a rectangle), $BB'\perp CD$.
+
+**Answer.** Both are perpendicular.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giả sử một căn phòng hình hộp chữ nhật có sàn là hình chữ nhật $ABCD$ với $AB=6$ m, $BC=4$ m và cao $3$ m (số liệu giả định). Một ống nước chạy dọc theo cạnh sàn $AB$, một ống khác chạy chéo trên trần theo đường $A'C'$. Tính góc giữa hai ống (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$A'C'\parallel AC$ nên $\widehat{(AB, A'C')}=\widehat{(AB, AC)}=\widehat{BAC}$. Trong tam giác $ABC$ vuông tại $B$, ta có $\tan\widehat{BAC}=\dfrac{BC}{AB}=\dfrac46=\dfrac23$, suy ra $\widehat{BAC}\approx33{,}7^\circ$.
+
+**Đáp số.** Khoảng $33{,}7^\circ$.
+
+[ĐỀ – EN]
+Suppose a room is a cuboid with floor the rectangle $ABCD$, $AB=6$ m, $BC=4$ m, and height $3$ m (hypothetical figures). One water pipe runs along the floor edge $AB$, and another runs diagonally across the ceiling along $A'C'$. Find the angle between the two pipes (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$A'C'\parallel AC$, so $\angle(AB, A'C')=\angle(AB, AC)=\angle BAC$. In triangle $ABC$, right-angled at $B$, we have $\tan\angle BAC=\dfrac{BC}{AB}=\dfrac46=\dfrac23$, so $\angle BAC\approx33.7^\circ$.
+
+**Answer.** About $33.7^\circ$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giả sử khung một giá sách có dạng hình hộp chữ nhật $ABCD.A'B'C'D'$ với $AB=40$ cm, $AD=90$ cm, $AA'=30$ cm (số liệu giả định). Hai thanh chéo $AC$ (ở đáy) và $B'D'$ (ở mặt trên) hợp với nhau góc bao nhiêu (làm tròn đến hàng phần mười của độ)?
+
+[LỜI GIẢI CŨ – VI]
+$B'D'\parallel BD$ nên $\widehat{(AC, B'D')}=\widehat{(AC, BD)}$. Ta có $AC=BD=\sqrt{40^2+90^2}=\sqrt{9700}$ nên $OA=OB=\dfrac{\sqrt{9700}}{2}$ và $OA^2=2425$. Do đó
+$$\cos\widehat{AOB}=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0{,}6701,$$
+suy ra $\widehat{AOB}\approx47{,}9^\circ$ (góc nhọn).
+
+**Đáp số.** Khoảng $47{,}9^\circ$.
+
+[ĐỀ – EN]
+Suppose the frame of a bookcase is a cuboid $ABCD.A'B'C'D'$ with $AB=40$ cm, $AD=90$ cm, $AA'=30$ cm (hypothetical figures). What angle do the diagonal bars $AC$ (on the base) and $B'D'$ (on the top face) make with each other (to one decimal place of a degree)?
+
+[LỜI GIẢI CŨ – EN]
+$B'D'\parallel BD$, so $\angle(AC, B'D')=\angle(AC, BD)$. We have $AC=BD=\sqrt{40^2+90^2}=\sqrt{9700}$, so $OA=OB=\dfrac{\sqrt{9700}}{2}$ and $OA^2=2425$. Hence
+$$\cos\angle AOB=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0.6701,$$
+so $\angle AOB\approx47.9^\circ$ (acute).
+
+**Answer.** About $47.9^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau:
+
+a) Hai đường thẳng chéo nhau thì không có góc giữa chúng.
+
+b) Nếu $a\parallel b$ và $a\perp c$ thì $b\perp c$.
+
+c) Hai đường thẳng cùng vuông góc với một đường thẳng thứ ba thì song song với nhau.
+
+d) Góc giữa hai đường thẳng luôn có số đo từ $0^\circ$ đến $90^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: góc giữa hai đường thẳng chéo nhau được xác định qua đường song song.
+
+b) **Đúng**: tính chất đã học.
+
+c) **Sai**: trong hình lập phương, $AB$ và $AD$ cùng vuông góc với $AA'$ nhưng không song song.
+
+d) **Đúng**: theo định nghĩa.
+
+**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Decide whether each statement is true or false:
+
+a) Two skew lines have no angle between them.
+
+b) If $a\parallel b$ and $a\perp c$ then $b\perp c$.
+
+c) Two lines perpendicular to a third line are parallel to each other.
+
+d) The angle between two lines always measures from $0^\circ$ to $90^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: the angle between skew lines is defined through parallel lines.
+
+b) **True**: the property we have learned.
+
+c) **False**: in a cube, $AB$ and $AD$ are both perpendicular to $AA'$ but are not parallel.
+
+d) **True**: by definition.
+
+**Answer.** a) False; b) True; c) False; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Ôn lại định lí côsin. Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=1$, $AD=2$, $AA'=2$. Tính góc giữa $AC$ và $A'D$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$A'D\parallel B'C$ nên $\widehat{(AC, A'D)}=\widehat{ACB'}$. Ta có $AC=\sqrt{1+4}=\sqrt5$, $AB'=\sqrt{1+4}=\sqrt5$ và $B'C=\sqrt{4+4}=2\sqrt2$. Do đó
+$$\cos\widehat{ACB'}=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0{,}6325,$$
+suy ra $\widehat{ACB'}\approx50{,}8^\circ$.
+
+**Đáp số.** $50{,}8^\circ$.
+
+[ĐỀ – EN]
+Revisit the cosine rule. The cuboid $ABCD.A'B'C'D'$ has $AB=1$, $AD=2$, $AA'=2$. Find the angle between $AC$ and $A'D$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$A'D\parallel B'C$, so $\angle(AC, A'D)=\angle ACB'$. We have $AC=\sqrt{1+4}=\sqrt5$, $AB'=\sqrt{1+4}=\sqrt5$ and $B'C=\sqrt{4+4}=2\sqrt2$. Hence
+$$\cos\angle ACB'=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0.6325,$$
+so $\angle ACB'\approx50.8^\circ$.
+
+**Answer.** $50.8^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một khung mái hình lăng trụ tam giác đều $ABC.A'B'C'$ có tất cả các cạnh bằng $3$ m (số liệu giả định). Tính góc giữa thanh $AB'$ và thanh $A'C'$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$A'C'\parallel AC$ nên $\widehat{(AB', A'C')}=\widehat{B'AC}$. Mặt $ABB'A'$ là hình vuông cạnh $3$ nên $AB'=3\sqrt2$; mặt $BCC'B'$ là hình vuông nên $B'C=3\sqrt2$; $AC=3$. Do đó
+$$\cos\widehat{B'AC}=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0{,}3536,$$
+suy ra $\widehat{B'AC}\approx69{,}3^\circ$.
+
+**Đáp số.** $69{,}3^\circ$.
+
+[ĐỀ – EN]
+Suppose a roof frame is a regular triangular prism $ABC.A'B'C'$ with all edges $3$ m (hypothetical figures). Find the angle between the bar $AB'$ and the bar $A'C'$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$A'C'\parallel AC$, so $\angle(AB', A'C')=\angle B'AC$. Face $ABB'A'$ is a square of side $3$, so $AB'=3\sqrt2$; face $BCC'B'$ is a square, so $B'C=3\sqrt2$; $AC=3$. Hence
+$$\cos\angle B'AC=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0.3536,$$
+so $\angle B'AC\approx69.3^\circ$.
+
+**Answer.** $69.3^\circ$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=a$, $AD=b$, $AA'=c$. Gọi $\varphi$ là góc giữa $AC$ và $B'D'$. Chứng minh $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, không phụ thuộc vào $c$.
+
+[LỜI GIẢI CŨ – VI]
+$B'D'\parallel BD$ nên $\varphi$ là góc nhọn giữa $AC$ và $BD$. Với $d^2=a^2+b^2$ và $OA=OB=\dfrac d2$:
+$$\cos\widehat{AOB}=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{b^2-a^2}{a^2+b^2}.$$
+Nếu $b\ge a$ thì $\widehat{AOB}$ nhọn và $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}$. Nếu $b<a$ thì $\widehat{AOB}$ tù, góc giữa là góc bù và $\cos\varphi=-\cos\widehat{AOB}=\dfrac{a^2-b^2}{a^2+b^2}$. Cả hai trường hợp cho $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, không chứa $c$.
+
+**Đáp số.** $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+[ĐỀ – EN]
+The cuboid $ABCD.A'B'C'D'$ has $AB=a$, $AD=b$, $AA'=c$. Let $\varphi$ be the angle between $AC$ and $B'D'$. Prove that $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, independent of $c$.
+
+[LỜI GIẢI CŨ – EN]
+$B'D'\parallel BD$, so $\varphi$ is the acute angle between $AC$ and $BD$. With $d^2=a^2+b^2$ and $OA=OB=\dfrac d2$:
+$$\cos\angle AOB=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{b^2-a^2}{a^2+b^2}.$$
+If $b\ge a$ then $\angle AOB$ is acute and $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}$. If $b<a$ then $\angle AOB$ is obtuse, the angle between the lines is the supplement and $\cos\varphi=-\cos\angle AOB=\dfrac{a^2-b^2}{a^2+b^2}$. Both cases give $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, which does not contain $c$.
+
+**Answer.** $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+
+######################################################################
+@@@ g11/perpendicular-planes
+Bài học: Hai mặt phẳng vuông góc / Perpendicular planes
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hai mặt phẳng $(\alpha)$ và $(\beta)$ cắt nhau theo đường thẳng $d$. Một góc nhị diện tạo bởi chúng có góc phẳng $135^\circ$. Tính góc giữa $(\alpha)$ và $(\beta)$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $135^\circ>90^\circ$ nên góc giữa hai mặt phẳng là $180^\circ-135^\circ=45^\circ$.
+
+**Đáp số.** $45^\circ$.
+
+[ĐỀ – EN]
+The planes $(\alpha)$ and $(\beta)$ intersect along a line $d$. One of their dihedral angles has plane angle $135^\circ$. Find the angle between $(\alpha)$ and $(\beta)$.
+
+[LỜI GIẢI CŨ – EN]
+Since $135^\circ>90^\circ$, the angle between the planes is $180^\circ-135^\circ=45^\circ$.
+
+**Answer.** $45^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một tờ bìa được gập theo nếp gấp $d$. Lấy điểm $H$ trên nếp gấp, điểm $A$ trên một nửa tờ bìa và điểm $B$ trên nửa còn lại sao cho $HA\perp d$, $HB\perp d$, $HA=12$ cm, $HB=16$ cm. Đo được $AB=20$ cm. Hai nửa tờ bìa có vuông góc với nhau không?
+
+[LỜI GIẢI CŨ – VI]
+$HA^2+HB^2=144+256=400=20^2=AB^2$, nên $\widehat{AHB}=90^\circ$.
+
+**Đáp số.** Có, hai nửa tờ bìa vuông góc với nhau.
+
+[ĐỀ – EN]
+A sheet of card is folded along a crease $d$. Take a point $H$ on the crease, a point $A$ on one half and a point $B$ on the other half so that $HA\perp d$, $HB\perp d$, $HA=12$ cm and $HB=16$ cm. We measure $AB=20$ cm. Are the two halves of the card perpendicular?
+
+[LỜI GIẢI CŨ – EN]
+$HA^2+HB^2=144+256=400=20^2=AB^2$, so $\angle AHB=90^\circ$.
+
+**Answer.** Yes, the two halves are perpendicular.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Chứng minh $(ABB'A')\perp(ADD'A')$.
+
+[LỜI GIẢI CŨ – VI]
+$AB\perp AD$ (đáy là hình chữ nhật) và $AB\perp AA'$ (mặt bên là hình chữ nhật). Hai đường thẳng $AD$, $AA'$ cắt nhau trong $(ADD'A')$, nên $AB\perp(ADD'A')$. Mặt phẳng $(ABB'A')$ chứa $AB$.
+
+**Đáp số.** $(ABB'A')\perp(ADD'A')$.
+
+[ĐỀ – EN]
+In the cuboid $ABCD.A'B'C'D'$, prove that $(ABB'A')\perp(ADD'A')$.
+
+[LỜI GIẢI CŨ – EN]
+$AB\perp AD$ (the base is a rectangle) and $AB\perp AA'$ (a lateral face is a rectangle). The lines $AD$ and $AA'$ intersect in $(ADD'A')$, so $AB\perp(ADD'A')$. The plane $(ABB'A')$ contains $AB$.
+
+**Answer.** $(ABB'A')\perp(ADD'A')$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$ và $SA=AB=2$. Tính góc giữa $(SBC)$ và $(ABC)$.
+
+[LỜI GIẢI CŨ – VI]
+$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$. Góc phẳng nhị diện là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=\dfrac22=1$.
+
+**Đáp số.** $45^\circ$.
+
+[ĐỀ – EN]
+The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ is right-angled at $B$, and $SA=AB=2$. Find the angle between $(SBC)$ and $(ABC)$.
+
+[LỜI GIẢI CŨ – EN]
+$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$, which gives $BC\perp SB$. The plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=\dfrac22=1$.
+
+**Answer.** $45^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AB=3$, $AD=4$, $SA\perp(ABCD)$ và $SA=4$. Mỗi khẳng định sau đúng hay sai?
+
+a) $(SAB)\perp(ABCD)$.
+
+b) $(SCD)\perp(SAD)$.
+
+c) Góc giữa $(SBC)$ và $(ABCD)$ bằng $45^\circ$.
+
+d) Góc giữa $(SCD)$ và $(ABCD)$ bằng $45^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $(SAB)$ chứa $SA\perp(ABCD)$.
+
+b) **Đúng**: $CD\perp AD$ và $CD\perp SA$ nên $CD\perp(SAD)$; mà $(SCD)$ chứa $CD$.
+
+c) **Sai**: góc phẳng là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=\dfrac43\ne1$.
+
+d) **Đúng**: $CD\perp(SAD)$ nên $CD\perp SD$; góc phẳng là $\widehat{SDA}$ với $\tan\widehat{SDA}=\dfrac{SA}{AD}=1$, tức $45^\circ$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a rectangular base with $AB=3$ and $AD=4$, $SA\perp(ABCD)$ and $SA=4$. Is each statement true or false?
+
+a) $(SAB)\perp(ABCD)$.
+
+b) $(SCD)\perp(SAD)$.
+
+c) The angle between $(SBC)$ and $(ABCD)$ is $45^\circ$.
+
+d) The angle between $(SCD)$ and $(ABCD)$ is $45^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $(SAB)$ contains $SA\perp(ABCD)$.
+
+b) **True**: $CD\perp AD$ and $CD\perp SA$, so $CD\perp(SAD)$; and $(SCD)$ contains $CD$.
+
+c) **False**: the plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=\dfrac43\ne1$.
+
+d) **True**: $CD\perp(SAD)$ gives $CD\perp SD$; the plane angle is $\angle SDA$ with $\tan\angle SDA=\dfrac{SA}{AD}=1$, that is $45^\circ$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một ngôi nhà có hai tấm mái phẳng. Mặt cắt thẳng đứng vuông góc với đường nóc là một tam giác cân có đáy nằm ngang dài $8$ m và chiều cao $3$ m. Mỗi tấm mái tạo với mặt phẳng ngang một góc bao nhiêu độ (làm tròn đến hàng đơn vị)?
+
+[LỜI GIẢI CŨ – VI]
+Nửa đáy bằng $4$ m, chiều cao $3$ m nên $\tan\alpha=\dfrac34$, suy ra $\alpha\approx36{,}87^\circ$.
+
+**Đáp số.** Khoảng $37^\circ$.
+
+[ĐỀ – EN]
+A house has two flat roof panels. A vertical cross-section perpendicular to the ridge is an isosceles triangle with a horizontal base $8$ m long and height $3$ m. What angle does each roof panel make with the horizontal plane (round to the nearest degree)?
+
+[LỜI GIẢI CŨ – EN]
+Half of the base is $4$ m and the height is $3$ m, so $\tan\alpha=\dfrac34$, which gives $\alpha\approx36.87^\circ$.
+
+**Answer.** About $37^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho lăng trụ tam giác đều $ABC.A'B'C'$ có cạnh đáy bằng $6$ và cạnh bên bằng $9$. Tính góc giữa $(A'BC)$ và $(ABC)$.
+
+[LỜI GIẢI CŨ – VI]
+Tam giác $ABC$ đều nên $AM\perp BC$ và $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. Vì $AA'\perp(ABC)$ nên $BC\perp(A'AM)$, suy ra $BC\perp A'M$. Góc phẳng là $\widehat{A'MA}$ với $\tan\widehat{A'MA}=\dfrac{9}{3\sqrt3}=\sqrt3$.
+
+**Đáp số.** $60^\circ$.
+
+[ĐỀ – EN]
+The regular triangular prism $ABC.A'B'C'$ has base side $6$ and lateral edge $9$. Find the angle between $(A'BC)$ and $(ABC)$.
+
+[LỜI GIẢI CŨ – EN]
+Triangle $ABC$ is equilateral, so $AM\perp BC$ and $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. Since $AA'\perp(ABC)$, we have $BC\perp(A'AM)$, so $BC\perp A'M$. The plane angle is $\angle A'MA$ with $\tan\angle A'MA=\dfrac{9}{3\sqrt3}=\sqrt3$.
+
+**Answer.** $60^\circ$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SC=a\sqrt3$. Tính
+a) góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ (làm tròn đến hàng phần mười của độ);
+b) góc giữa $(SBC)$ và $(ABCD)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $AC=a\sqrt2$, $SA=\sqrt{3a^2-2a^2}=a$. Góc cần tìm là $\widehat{SCA}$ với $\cos\widehat{SCA}=\dfrac{AC}{SC}=\sqrt{\dfrac23}$, nên $\widehat{SCA}\approx35{,}3^\circ$.
+
+b) $BC\perp(SAB)$ nên góc phẳng là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=1$, tức $45^\circ$.
+
+**Đáp số.** a) $35{,}3^\circ$; b) $45^\circ$.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a square base of side $a$, $SA\perp(ABCD)$ and $SC=a\sqrt3$. Find
+a) the angle between the line $SC$ and the plane $(ABCD)$ (round to the nearest tenth of a degree);
+b) the angle between $(SBC)$ and $(ABCD)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $AC=a\sqrt2$ and $SA=\sqrt{3a^2-2a^2}=a$. The required angle is $\angle SCA$ with $\cos\angle SCA=\dfrac{AC}{SC}=\sqrt{\dfrac23}$, so $\angle SCA\approx35.3^\circ$.
+
+b) $BC\perp(SAB)$, so the plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=1$, that is $45^\circ$.
+
+**Answer.** a) $35.3^\circ$; b) $45^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc giữa $(A'BD)$ và $(C'BD)$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+Tam giác $A'BD$ cân tại $A'$ nên $A'O\perp BD$; tương tự $C'O\perp BD$. Góc phẳng là $\widehat{A'OC'}$. Ta có $A'O=C'O=\sqrt{a^2+\dfrac{a^2}{2}}=\dfrac{a\sqrt6}{2}$ và $A'C'=a\sqrt2$:
+
+$$\cos\widehat{A'OC'}=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac13.$$
+
+Góc này nhọn nên $\widehat{A'OC'}\approx70{,}5^\circ$.
+
+**Đáp số.** $70{,}5^\circ$.
+
+[ĐỀ – EN]
+The cube $ABCD.A'B'C'D'$ has edge $a$. Find the angle between $(A'BD)$ and $(C'BD)$ (round to the nearest tenth of a degree).
+
+[LỜI GIẢI CŨ – EN]
+Triangle $A'BD$ is isosceles at $A'$, so $A'O\perp BD$; similarly $C'O\perp BD$. The plane angle is $\angle A'OC'$. We have $A'O=C'O=\sqrt{a^2+\dfrac{a^2}{2}}=\dfrac{a\sqrt6}{2}$ and $A'C'=a\sqrt2$:
+
+$$\cos\angle A'OC'=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac13.$$
+
+This angle is acute, so $\angle A'OC'\approx70.5^\circ$.
+
+**Answer.** $70.5^\circ$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$ có $(SAB)\perp(ABC)$ và $(SAC)\perp(ABC)$. Chứng minh $SA\perp(ABC)$. Biết $AB=3$ và $SB=5$, tính $SA$.
+
+[LỜI GIẢI CŨ – VI]
+Hai mặt phẳng $(SAB)$, $(SAC)$ cắt nhau theo $SA$ và cùng vuông góc với $(ABC)$, nên $SA\perp(ABC)$. Khi đó $SA\perp AB$ và $SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4$.
+
+**Đáp số.** $SA=4$.
+
+[ĐỀ – EN]
+The pyramid $S.ABC$ has $(SAB)\perp(ABC)$ and $(SAC)\perp(ABC)$. Prove that $SA\perp(ABC)$. Given $AB=3$ and $SB=5$, find $SA$.
+
+[LỜI GIẢI CŨ – EN]
+The planes $(SAB)$ and $(SAC)$ meet along $SA$ and are both perpendicular to $(ABC)$, so $SA\perp(ABC)$. Then $SA\perp AB$ and $SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4$.
+
+**Answer.** $SA=4$.
+
+
+===== HẾT FILE chanh106-LG-5 =====

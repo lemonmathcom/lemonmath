@@ -1,0 +1,875 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-LG-5   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-LG-5-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Alexnguyen122222-LG-5
+Người làm: tài khoản Alexnguyen122222. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Alexnguyen122222-LG-5-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Alexnguyen122222-LG-5-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g2/partitioning-hundreds-tens-ones (8 bài tập)
+- g2/points-lines-curves (8 bài tập)
+- g2/regroup-add-1-digit (8 bài tập)
+- g2/regroup-add-2-digit (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g2/partitioning-hundreds-tens-ones
+Bài học: Viết số thành tổng các trăm, chục, đơn vị / Writing a number as hundreds, tens and ones
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết thành tổng các trăm, chục, đơn vị.
+
+a) $236$.
+
+b) $910$.
+
+[LỜI GIẢI CŨ – VI]
+a) $236$ có $2$ trăm, $3$ chục, $6$ đơn vị. b) $910$ có $9$ trăm, $1$ chục, $0$ đơn vị.
+
+**Đáp số.** a) $236=200+30+6$; b) $910=900+10$.
+
+[ĐỀ – EN]
+Write as a sum of hundreds, tens and ones.
+
+a) $236$.
+
+b) $910$.
+
+[LỜI GIẢI CŨ – EN]
+a) $236$ has $2$ hundreds, $3$ tens, $6$ ones. b) $910$ has $9$ hundreds, $1$ ten, $0$ ones.
+
+**Answer.** a) $236=200+30+6$; b) $910=900+10$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết số.
+
+a) $400+50+7$.
+
+b) $800+20$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4$ trăm, $5$ chục, $7$ đơn vị. b) $8$ trăm, $2$ chục, $0$ đơn vị.
+
+**Đáp số.** a) $457$; b) $820$.
+
+[ĐỀ – EN]
+Write the number.
+
+a) $400+50+7$.
+
+b) $800+20$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4$ hundreds, $5$ tens, $7$ ones. b) $8$ hundreds, $2$ tens, $0$ ones.
+
+**Answer.** a) $457$; b) $820$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em nhớ lại bài trước. Số có chữ số hàng trăm là $6$, hàng chục là $0$, hàng đơn vị là $4$. Viết số đó rồi viết thành tổng.
+
+[LỜI GIẢI CŨ – VI]
+Số đó là $604$. Ta có $604=600+4$.
+
+**Đáp số.** $604=600+4$.
+
+[ĐỀ – EN]
+Remember the last lesson. A number has the hundreds digit $6$, the tens digit $0$ and the ones digit $4$. Write the number and then write it as a sum.
+
+[LỜI GIẢI CŨ – EN]
+The number is $604$. We have $604=600+4$.
+
+**Answer.** $604=600+4$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền số thích hợp vào chỗ trống.
+
+a) $500+\square+3=573$.
+
+b) $\square+40+2=942$.
+
+[LỜI GIẢI CŨ – VI]
+a) $573$ có $7$ ở hàng chục, giá trị $70$. b) $942$ có $9$ ở hàng trăm, giá trị $900$.
+
+**Đáp số.** a) $70$; b) $900$.
+
+[ĐỀ – EN]
+Write the right number in each box.
+
+a) $500+\square+3=573$.
+
+b) $\square+40+2=942$.
+
+[LỜI GIẢI CŨ – EN]
+a) $573$ has $7$ in the tens place, value $70$. b) $942$ has $9$ in the hundreds place, value $900$.
+
+**Answer.** a) $70$; b) $900$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cách viết nào đúng cho số $372$: $3+7+2$, $30+70+2$ hay $300+70+2$? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+$3$ ở hàng trăm là $300$, $7$ ở hàng chục là $70$, $2$ ở hàng đơn vị là $2$. Cộng lại được $372$.
+
+**Đáp số.** $372=300+70+2$.
+
+[ĐỀ – EN]
+Which is right for $372$: $3+7+2$, $30+70+2$ or $300+70+2$? Why?
+
+[LỜI GIẢI CŨ – EN]
+$3$ in the hundreds place is $300$, $7$ in the tens place is $70$ and $2$ in the ones place is $2$. Adding gives $372$.
+
+**Answer.** $372=300+70+2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan viết "$305=300+50$". Lan sai ở đâu? Sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$300+50=350$, không phải $305$. Số $305$ có $3$ trăm, $0$ chục, $5$ đơn vị.
+
+**Đáp số.** $305=300+5$.
+
+[ĐỀ – EN]
+Lan writes "$305=300+50$". What is wrong with what Lan writes? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+$300+50=350$, not $305$. The number $305$ has $3$ hundreds, $0$ tens and $5$ ones.
+
+**Answer.** $305=300+5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Thư viện có $4$ thùng sách loại $100$ quyển, $6$ bó sách loại $10$ quyển và $8$ quyển lẻ. Hỏi có bao nhiêu quyển sách? Viết thành tổng.
+
+[LỜI GIẢI CŨ – VI]
+Tổng là $400+60+8=468$.
+
+**Đáp số.** $468$ quyển sách; $468=400+60+8$.
+
+[ĐỀ – EN]
+A library has $4$ crates of $100$ books, $6$ bundles of $10$ books and $8$ loose books. How many books are there? Write it as a sum.
+
+[LỜI GIẢI CŨ – EN]
+The sum is $400+60+8=468$.
+
+**Answer.** $468$ books; $468=400+60+8$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số có ba chữ số có dạng $400+\square0+\square$, biết chữ số hàng chục bằng chữ số hàng đơn vị và hàng đơn vị là $8$.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng chục là $8$, nên phần chục là $80$. Ta có $400+80+8=488$.
+
+**Kiểm tra.** $488$ có hàng chục và hàng đơn vị đều là $8$. Đúng.
+
+**Đáp số.** $488$.
+
+[ĐỀ – EN]
+Find the three-digit number of the form $400+\square0+\square$, where the tens digit equals the ones digit and the ones digit is $8$.
+
+[LỜI GIẢI CŨ – EN]
+The tens digit is $8$, so the tens part is $80$. We have $400+80+8=488$.
+
+**Check.** $488$ has the tens digit and the ones digit both equal to $8$. Correct.
+
+**Answer.** $488$.
+
+
+######################################################################
+@@@ g2/points-lines-curves
+Bài học: Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng / Points, line segments, lines, curves and points in a line
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hình gồm hai điểm $P$, $Q$ và nét thẳng nối $P$ với $Q$ vẽ bằng thước. Hình đó là gì? Viết tên hình.
+
+[LỜI GIẢI CŨ – VI]
+Nét thẳng nối hai điểm $P$ và $Q$ có hai đầu, nên đó là đoạn thẳng $PQ$.
+
+**Đáp số.** Đoạn thẳng $PQ$.
+
+[ĐỀ – EN]
+A shape has two points $P$ and $Q$ and a straight line joining $P$ to $Q$ drawn with a ruler. What is the shape? Write its name.
+
+[LỜI GIẢI CŨ – EN]
+The straight line joining $P$ and $Q$ has two ends, so it is the line segment $PQ$.
+
+**Answer.** Line segment $PQ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Em hãy nêu các bước vẽ đoạn thẳng $AB$ dài $5$ cm.
+
+[LỜI GIẢI CŨ – VI]
+Chấm điểm $A$. Đặt thước sao cho vạch $0$ ở $A$. Chấm điểm $B$ ở vạch $5$ cm. Dùng bút kẻ nét thẳng từ $A$ đến $B$ theo mép thước. Ta được đoạn thẳng $AB$ dài $5$ cm.
+
+**Đáp số.** Đoạn thẳng $AB$ dài $5$ cm.
+
+[ĐỀ – EN]
+Describe how to draw a line segment $AB$ that is $5$ cm long.
+
+[LỜI GIẢI CŨ – EN]
+Mark point $A$. Place the ruler with its $0$ mark at $A$. Mark point $B$ at $5$ cm. Draw a straight line from $A$ to $B$ along the edge of the ruler. This gives line segment $AB$, $5$ cm long.
+
+**Answer.** Line segment $AB$, $5$ cm long.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Mỗi vật sau gợi ra đoạn thẳng hay đường cong?
+
+a) Mép tấm bảng.
+
+b) Sợi dây thừng uốn lượn trên sàn.
+
+c) Vành chiếc bánh xe đạp.
+
+[LỜI GIẢI CŨ – VI]
+a) Mép bảng thẳng, có hai đầu: đoạn thẳng.
+
+b) Sợi dây uốn lượn: đường cong.
+
+c) Vành bánh xe tròn, không thẳng: đường cong.
+
+**Đáp số.** a) Đoạn thẳng; b) Đường cong; c) Đường cong.
+
+[ĐỀ – EN]
+Does each object suggest a line segment or a curve?
+
+a) The edge of a board.
+
+b) A rope lying in loops on the floor.
+
+c) The rim of a bicycle wheel.
+
+[LỜI GIẢI CŨ – EN]
+a) The edge of a board is straight and has two ends: a line segment.
+
+b) A rope in loops bends: a curve.
+
+c) The rim of a wheel is round, not straight: a curve.
+
+**Answer.** a) Line segment; b) Curve; c) Curve.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trừ có nhớ. Đoạn thẳng $AB$ dài $52$ cm, đoạn thẳng $CD$ dài $27$ cm. Đoạn thẳng $AB$ dài hơn đoạn thẳng $CD$ bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$12-7=5$ và $5-1-2=2$. Đoạn $AB$ dài hơn đoạn $CD$ là:
+$$52-27=25\ \text{(cm)}.$$
+
+**Đáp số.** $25$ cm.
+
+[ĐỀ – EN]
+Remember subtraction with regrouping. Line segment $AB$ is $52$ cm long and line segment $CD$ is $27$ cm long. How many centimetres longer is $AB$ than $CD$?
+
+[LỜI GIẢI CŨ – EN]
+$12-7=5$ and $5-1-2=2$. The difference in length is:
+$$52-27=25\ \text{(cm)}.$$
+
+**Answer.** $25$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho ba điểm $A$, $B$, $C$ thẳng hàng, điểm $B$ ở giữa. Em hãy kể tên các đoạn thẳng có hai đầu là hai trong ba điểm đó.
+
+[LỜI GIẢI CŨ – VI]
+Các cặp điểm: $A$ với $B$, $B$ với $C$, $A$ với $C$. Các đoạn thẳng là $AB$, $BC$, $AC$.
+
+**Đáp số.** $AB$, $BC$, $AC$ (có $3$ đoạn thẳng).
+
+[ĐỀ – EN]
+Points $A$, $B$, $C$ are in a line, with $B$ in the middle. Name the line segments whose endpoints are two of these three points.
+
+[LỜI GIẢI CŨ – EN]
+The pairs are $A$ and $B$, $B$ and $C$, $A$ and $C$. The line segments are $AB$, $BC$, $AC$.
+
+**Answer.** $AB$, $BC$, $AC$ ($3$ line segments).
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn Nam vẽ nét hơi cong nối hai điểm $A$, $B$ rồi nói: "Đây là đoạn thẳng $AB$." Bạn Nam nói đúng hay sai? Vì sao? Em sửa lại thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Nét của Nam hơi cong, không thẳng, nên đó không phải đoạn thẳng. Em dùng thước đặt theo mép đi qua $A$ và $B$, rồi kẻ nét thẳng.
+
+**Đáp số.** Sai; cần vẽ lại bằng thước.
+
+[ĐỀ – EN]
+Nam draws a slightly bent line joining points $A$ and $B$ and says, "This is line segment $AB$." Is Nam right? Why? How would you fix it?
+
+[LỜI GIẢI CŨ – EN]
+Nam's line is slightly bent, so it is not a line segment. Use a ruler with its edge through $A$ and $B$, and draw a straight line along it.
+
+**Answer.** Nam is wrong; draw it again with a ruler.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ba cọc tiêu $A$, $B$, $C$ cắm thẳng hàng trên sân. Các bạn căng sợi dây từ cọc $A$ đến cọc $C$. Cọc $B$ có nằm trên sợi dây căng không? Còn một cọc $D$ cắm lệch ra ngoài thì sao?
+
+[LỜI GIẢI CŨ – VI]
+Vì $A$, $B$, $C$ thẳng hàng nên cọc $B$ nằm trên sợi dây căng từ $A$ đến $C$. Cọc $D$ cắm lệch ra ngoài nên không nằm trên sợi dây.
+
+**Đáp số.** Cọc $B$ nằm trên dây; cọc $D$ không nằm trên dây.
+
+[ĐỀ – EN]
+Three marker poles $A$, $B$, $C$ are placed in a line on a field. The children stretch a string from pole $A$ to pole $C$. Is pole $B$ on the stretched string? What about a pole $D$ placed off to the side?
+
+[LỜI GIẢI CŨ – EN]
+Since $A$, $B$, $C$ are in a line, pole $B$ is on the string stretched from $A$ to $C$. Pole $D$ is off to the side, so it is not on the string.
+
+**Answer.** Pole $B$ is on the string; pole $D$ is not.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho bốn điểm $A$, $B$, $C$, $D$. Ba điểm $A$, $B$, $C$ thẳng hàng, điểm $D$ nằm ngoài. Nối từng cặp điểm với nhau. Có tất cả bao nhiêu đoạn thẳng?
+
+[LỜI GIẢI CŨ – VI]
+Các đoạn thẳng: $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. Có $3+2+1=6$ đoạn thẳng.
+
+**Đáp số.** $6$ đoạn thẳng.
+
+[ĐỀ – EN]
+There are four points $A$, $B$, $C$, $D$. The points $A$, $B$, $C$ are in a line and point $D$ is outside it. We join every pair of points. How many line segments are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+The line segments are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. That is $3+2+1=6$ line segments.
+
+**Answer.** $6$ line segments.
+
+
+######################################################################
+@@@ g2/regroup-add-1-digit
+Bài học: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số / Adding a one-digit number to a two-digit number (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $35+7$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+1=4$. Vậy $35+7=42$.
+
+**Đáp số.** $42$.
+
+[ĐỀ – EN]
+Work out $35+7$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $5+7=12$, write $2$ carry $1$. Tens: $3+1=4$. So $35+7=42$.
+
+**Answer.** $42$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $48+5$.
+
+[LỜI GIẢI CŨ – VI]
+$8+5=13$, viết $3$ nhớ $1$. $4+1=5$. Vậy $48+5=53$.
+
+**Đáp số.** $53$.
+
+[ĐỀ – EN]
+Set out in columns and work out $48+5$.
+
+[LỜI GIẢI CŨ – EN]
+$8+5=13$, write $3$ carry $1$. $4+1=5$. So $48+5=53$.
+
+**Answer.** $53$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài Lít. Một can đựng $26$ lít nước. Đổ thêm $7$ lít nước nữa vào can. Hỏi can có tất cả bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+$6+7=13$, viết $3$ nhớ $1$. $2+1=3$. Số lít nước là:
+$$26+7=33\ \text{(lít)}.$$
+
+**Đáp số.** $33$ lít nước.
+
+[ĐỀ – EN]
+Remember the lesson on litres. A can holds $26$ litres of water. Someone pours in $7$ more litres. How many litres of water are in the can altogether?
+
+[LỜI GIẢI CŨ – EN]
+$6+7=13$, write $3$ carry $1$. $2+1=3$. The amount of water is:
+$$26+7=33\ \text{(litres)}.$$
+
+**Answer.** $33$ litres of water.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống.
+
+a) $56+\square=62$.
+
+b) $47+\square=52$.
+
+[LỜI GIẢI CŨ – VI]
+a) Từ $56$ lên $60$ cần $4$, từ $60$ lên $62$ cần $2$, nên số cần điền là $4+2=6$. Thử lại: $56+6=62$.
+
+b) Từ $47$ lên $50$ cần $3$, từ $50$ lên $52$ cần $2$, nên số cần điền là $5$. Thử lại: $47+5=52$.
+
+**Đáp số.** a) $6$; b) $5$.
+
+[ĐỀ – EN]
+Find the number that goes in the box.
+
+a) $56+\square=62$.
+
+b) $47+\square=52$.
+
+[LỜI GIẢI CŨ – EN]
+a) From $56$ to $60$ is $4$, and from $60$ to $62$ is $2$, so the missing number is $4+2=6$. Check: $56+6=62$.
+
+b) From $47$ to $50$ is $3$, and from $50$ to $52$ is $2$, so the missing number is $5$. Check: $47+5=52$.
+
+**Answer.** a) $6$; b) $5$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $59+4 \;\square\; 62$.
+
+b) $28+5 \;\square\; 34$.
+
+[LỜI GIẢI CŨ – VI]
+a) $59+4=63$. Vì $63>62$ nên $59+4>62$.
+
+b) $28+5=33$. Vì $33<34$ nên $28+5<34$.
+
+**Đáp số.** a) Dấu $>$; b) Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $59+4 \;\square\; 62$.
+
+b) $28+5 \;\square\; 34$.
+
+[LỜI GIẢI CŨ – EN]
+a) $59+4=63$. Since $63>62$, $59+4>62$.
+
+b) $28+5=33$. Since $33<34$, $28+5<34$.
+
+**Answer.** a) The sign $>$; b) the sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn An làm bài: $47+8=45$. Bạn An làm sai ở đâu? Em hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$7+8=15$, viết $5$ nhớ $1$. Hàng chục phải là $4+1=5$, nhưng bạn An chỉ viết $4$ (quên chục nhớ). Vậy $47+8=55$.
+
+**Đáp số.** Bạn An quên chục nhớ; đúng là $55$.
+
+[ĐỀ – EN]
+An writes: $47+8=45$. Where did An go wrong? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+$7+8=15$, write $5$ carry $1$. The tens should be $4+1=5$, but An only wrote $4$ (forgot the carried ten). So $47+8=55$.
+
+**Answer.** An forgot the carried ten; the right answer is $55$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong sân trường có $67$ học sinh đang xếp hàng. Có thêm $9$ học sinh chạy tới xếp hàng. Hỏi lúc này có tất cả bao nhiêu học sinh?
+
+[LỜI GIẢI CŨ – VI]
+$7+9=16$, viết $6$ nhớ $1$. $6+1=7$. Số học sinh là:
+$$67+9=76\ \text{(học sinh)}.$$
+
+**Đáp số.** $76$ học sinh.
+
+[ĐỀ – EN]
+There are $67$ pupils lining up in the school yard. Then $9$ more pupils run over and join the line. How many pupils are there now altogether?
+
+[LỜI GIẢI CŨ – EN]
+$7+9=16$, write $6$ carry $1$. $6+1=7$. The number of pupils is:
+$$67+9=76\ \text{(pupils)}.$$
+
+**Answer.** $76$ pupils.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $4\square+7=51$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị của tổng là $1$, nên $\square+7=11$, suy ra $\square=4$. Thử lại: $44+7=51$ (vì $4+7=11$ và $4+1=5$).
+
+**Đáp số.** Chữ số cần điền là $4$.
+
+[ĐỀ – EN]
+Find the digit that goes in the box: $4\square+7=51$.
+
+[LỜI GIẢI CŨ – EN]
+The sum has $1$ in the ones, so $\square+7=11$, which means $\square=4$. Check: $44+7=51$ (because $4+7=11$ and $4+1=5$).
+
+**Answer.** The missing digit is $4$.
+
+
+######################################################################
+@@@ g2/regroup-add-2-digit
+Bài học: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số / Adding two two-digit numbers (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $24+18$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$. Vậy $24+18=42$.
+
+**Đáp số.** $42$.
+
+[ĐỀ – EN]
+Work out $24+18$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $4+8=12$, write $2$ carry $1$. Tens: $2+1+1=4$. So $24+18=42$.
+
+**Answer.** $42$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $37+25$.
+
+[LỜI GIẢI CŨ – VI]
+$7+5=12$, viết $2$ nhớ $1$. $3+2+1=6$. Vậy $37+25=62$.
+
+**Đáp số.** $62$.
+
+[ĐỀ – EN]
+Set out the column and work out $37+25$.
+
+[LỜI GIẢI CŨ – EN]
+$7+5=12$, write $2$ carry $1$. $3+2+1=6$. So $37+25=62$.
+
+**Answer.** $62$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Tính $58+7$.
+
+[LỜI GIẢI CŨ – VI]
+$8+7=15$, viết $5$ nhớ $1$. $5+1=6$. Vậy $58+7=65$.
+
+**Đáp số.** $65$.
+
+[ĐỀ – EN]
+Remember the last lesson. Work out $58+7$.
+
+[LỜI GIẢI CŨ – EN]
+$8+7=15$, write $5$ carry $1$. $5+1=6$. So $58+7=65$.
+
+**Answer.** $65$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính.
+
+a) $45+39$.
+
+b) $56+27$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5+9=14$, viết $4$ nhớ $1$; $4+3+1=8$. Vậy $45+39=84$.
+
+b) $6+7=13$, viết $3$ nhớ $1$; $5+2+1=8$. Vậy $56+27=83$.
+
+**Đáp số.** a) $84$; b) $83$.
+
+[ĐỀ – EN]
+Work out.
+
+a) $45+39$.
+
+b) $56+27$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5+9=14$, write $4$ carry $1$; $4+3+1=8$. So $45+39=84$.
+
+b) $6+7=13$, write $3$ carry $1$; $5+2+1=8$. So $56+27=83$.
+
+**Answer.** a) $84$; b) $83$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $38+47 \;\square\; 84$.
+
+b) $29+35 \;\square\; 65$.
+
+[LỜI GIẢI CŨ – VI]
+a) $38+47=85$. Vì $85>84$ nên $38+47>84$.
+
+b) $29+35=64$. Vì $64<65$ nên $29+35<65$.
+
+**Đáp số.** a) Dấu $>$; b) Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $38+47 \;\square\; 84$.
+
+b) $29+35 \;\square\; 65$.
+
+[LỜI GIẢI CŨ – EN]
+a) $38+47=85$. Since $85>84$, we have $38+47>84$.
+
+b) $29+35=64$. Since $64<65$, we have $29+35<65$.
+
+**Answer.** a) The sign $>$; b) the sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn Hà làm bài: $36+47=73$. Bạn Hà làm sai ở đâu? Em hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$6+7=13$, viết $3$ nhớ $1$. Hàng chục phải là $3+4+1=8$, nhưng bạn Hà chỉ làm $3+4=7$ (quên chục nhớ). Vậy $36+47=83$.
+
+**Đáp số.** Bạn Hà quên chục nhớ; đúng là $83$.
+
+[ĐỀ – EN]
+Ha wrote: $36+47=73$. Where did Ha go wrong? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+$6+7=13$, write $3$ carry $1$. The tens should be $3+4+1=8$, but Ha only worked out $3+4=7$ (the carried ten was forgotten). So $36+47=83$.
+
+**Answer.** Ha forgot the carried ten; the right answer is $83$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tổ Một trồng được $49$ cây, tổ Hai trồng được $38$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
+
+[LỜI GIẢI CŨ – VI]
+$9+8=17$, viết $7$ nhớ $1$. $4+3+1=8$. Số cây là:
+$$49+38=87\ \text{(cây)}.$$
+
+**Đáp số.** $87$ cây.
+
+[ĐỀ – EN]
+Group One planted $49$ trees and Group Two planted $38$ trees. How many trees did the two groups plant altogether?
+
+[LỜI GIẢI CŨ – EN]
+$9+8=17$, write $7$ carry $1$. $4+3+1=8$. The number of trees is:
+$$49+38=87\ \text{(trees)}.$$
+
+**Answer.** $87$ trees.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $5\square+27=84$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị của tổng là $4$, nên $\square+7=14$, suy ra $\square=7$. Thử lại: $57+27=84$ (vì $7+7=14$ và $5+2+1=8$).
+
+**Đáp số.** Chữ số cần điền là $7$.
+
+[ĐỀ – EN]
+Find the missing digit: $5\square+27=84$.
+
+[LỜI GIẢI CŨ – EN]
+The ones digit of the sum is $4$, so $\square+7=14$, which gives $\square=7$. Check: $57+27=84$ (because $7+7=14$ and $5+2+1=8$).
+
+**Answer.** The missing digit is $7$.
+
+
+===== HẾT FILE Alexnguyen122222-LG-5 =====

@@ -1,0 +1,2118 @@
+######################################################################
+TÀI KHOẢN: Xedap102   |   FILE: Xedap102-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Xedap102-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/review-trig-exp-log-sequences, g12/sphere-equation, g12/total-probability-bayes, g12/vector-coordinate-operations
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Xedap102-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Xedap102-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Xedap102-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/review-trig-exp-log-sequences – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: lượng giác, mũ – lôgarit, cấp số"
+description: Ôn hàm số và phương trình lượng giác, mũ và lôgarit cùng mô hình tăng trưởng, cấp số cộng, cấp số nhân và giới hạn theo dạng câu hỏi thi tốt nghiệp.
+minutes: 40
+---
+
+  :::goals
+  - Dùng đúng công thức lượng giác, giải phương trình lượng giác cơ bản và đếm nghiệm trên một đoạn.
+  - Biến đổi luỹ thừa, lôgarit; giải phương trình, bất phương trình mũ và lôgarit có điều kiện.
+  - Lập và giải mô hình tăng trưởng, suy giảm theo hàm số mũ (lãi kép, vi khuẩn, thuốc trong máu).
+  - Dùng công thức cấp số cộng, cấp số nhân, tổng cấp số nhân lùi vô hạn và các giới hạn cơ bản.
+  :::
+
+[[P1·1cf9]]
+Các chủ đề lớp 11 này ít khi đứng thành một câu dài, nhưng xuất hiện rải rác khắp đề. Ở Phần I, thường có hai đến bốn câu hỏi ngắn: một công thức lượng giác, một phương trình lôgarit, một số hạng của cấp số, một giới hạn. Ở Phần II hoặc Phần III, đề hay có một mô hình thực tế dùng hàm số mũ hoặc hàm số lượng giác. Tổng cộng các chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+
+[[P2·b0c9]]
+Bài ôn này nhắc lại công thức của từng mảng ngắn gọn, rồi làm ví dụ đúng như câu trong đề.
+
+## Hàm số và phương trình lượng giác
+
+  :::theorem Công thức và phương trình cơ bản
+  - $\sin^2x+\cos^2x=1$; $\cos2x=\cos^2x-\sin^2x=1-2\sin^2x=2\cos^2x-1$; $\sin2x=2\sin x\cos x$.
+  - $\cos(a\pm b)=\cos a\cos b\mp\sin a\sin b$; $\sin(a\pm b)=\sin a\cos b\pm\cos a\sin b$.
+  - $\sin x=\sin\alpha\iff x=\alpha+k2\pi$ hoặc $x=\pi-\alpha+k2\pi$; $\cos x=\cos\alpha\iff x=\pm\alpha+k2\pi$; $\tan x=\tan\alpha\iff x=\alpha+k\pi$ ($k\in\mathbb{Z}$).
+  - Hàm số $y=A\sin(\omega x+\varphi)$ và $y=A\cos(\omega x+\varphi)$ có chu kì $\dfrac{2\pi}{|\omega|}$, giá trị nằm trong $[-|A|; |A|]$.
+  :::
+
+[[P3·0f71]]
+Khi đề hỏi số nghiệm trên một đoạn, ta viết họ nghiệm rồi thử từng giá trị $k$ nguyên, hoặc nhìn đường tròn lượng giác.
+
+  :::example Trắc nghiệm: phương trình côsin cơ bản
+  Nghiệm của phương trình $2\cos x+1=0$ là
+
+  **A.** $x=\pm\dfrac{2\pi}{3}+k2\pi$, $k\in\mathbb{Z}$.
+
+  **B.** $x=\pm\dfrac{\pi}{3}+k2\pi$, $k\in\mathbb{Z}$.
+
+  **C.** $x=\dfrac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$.
+
+  **D.** $x=\pm\dfrac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$.
+
+  **Lời giải.** Đưa về dạng $\cos x=\cos\alpha$ với $\cos\dfrac{2\pi}{3}=-\dfrac12$:
+
+  $$2\cos x+1=0\iff\cos x=-\frac12=\cos\frac{2\pi}{3}\iff x=\pm\frac{2\pi}{3}+k2\pi.$$
+
+  Chọn **A**. Phương án B ứng với $\cos x=\dfrac12$ (quên dấu trừ); phương án C và D dùng nhầm chu kì $\pi$ của hàm $\tan$.
+  :::
+
+[[P4·0909]]
+Hàm số lượng giác mô tả rất tốt các chuyển động lặp lại, chẳng hạn một cabin vòng quay.
+
+:::graph Độ cao cabin $h(t)=22-20\cos\dfrac{\pi t}{10}$ trong một vòng
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đúng/Sai: vòng quay quan sát
+  Một vòng quay quan sát quay đều. Độ cao (mét) của một cabin so với mặt đất sau $t$ phút là $h(t)=22-20\cos\dfrac{\pi t}{10}$, $t\ge0$.
+
+  a) Độ cao thấp nhất của cabin là $0$ m.
+
+  b) Mỗi vòng quay mất $20$ phút.
+
+  c) Tại thời điểm $t=10$ phút, cabin ở độ cao $42$ m.
+
+  d) Trong một vòng, thời gian cabin ở độ cao từ $32$ m trở lên là $10$ phút.
+
+  **Lời giải.** Ta dùng $-1\le\cos\dfrac{\pi t}{10}\le1$ và công thức chu kì.
+
+  a) **Sai.** Khi $\cos\dfrac{\pi t}{10}=1$, độ cao thấp nhất là $22-20=2$ m.
+
+  b) **Đúng.** Chu kì là $\dfrac{2\pi}{\pi/10}=20$ phút.
+
+  c) **Đúng.** $h(10)=22-20\cos\pi=22+20=42$ m.
+
+  d) **Sai.** Xét $t\in[0; 20]$, giải bất phương trình:
+
+  $$22-20\cos\frac{\pi t}{10}\ge32\iff\cos\frac{\pi t}{10}\le-\frac12\iff\frac{2\pi}{3}\le\frac{\pi t}{10}\le\frac{4\pi}{3}\iff\frac{20}{3}\le t\le\frac{40}{3}.$$
+
+  Thời gian đó là $\dfrac{40}{3}-\dfrac{20}{3}=\dfrac{20}{3}\approx6{,}67$ phút, không phải $10$ phút.
+
+  Vậy đáp án là a) Sai, b) Đúng, c) Đúng, d) Sai.
+  :::
+
+## Hàm số mũ và hàm số lôgarit
+
+  :::theorem Luỹ thừa, lôgarit và mô hình
+  - Với $0<a\neq1$, $b, c>0$: $\log_a(bc)=\log_ab+\log_ac$, $\log_a\dfrac bc=\log_ab-\log_ac$, $\log_ab^\alpha=\alpha\log_ab$, $\log_ab=\dfrac{\log_cb}{\log_ca}$.
+  - $a^x=b\iff x=\log_ab$ (cần $b>0$); $\log_ax=b\iff x=a^b$ (cần $x>0$).
+  - Khi giải bất phương trình: với $a>1$ giữ nguyên chiều; với $0<a<1$ **đổi chiều**.
+  - Lãi kép: $A=A_0(1+r)^n$. Tăng trưởng hoặc suy giảm: $N(t)=N_0e^{kt}$ hoặc $N(t)=N_0\cdot q^t$ (tăng khi $q>1$, giảm khi $0<q<1$).
+  :::
+
+[[P5·6385]]
+Với phương trình lôgarit, việc đầu tiên luôn là **đặt điều kiện**. Bỏ bước này là cách mất điểm phổ biến nhất.
+
+  :::example Trắc nghiệm: phương trình lôgarit
+  Tập nghiệm của phương trình $\log_2(x-1)+\log_2(x+1)=3$ là
+
+  **A.** $\{3\}$.
+
+  **B.** $\{-3; 3\}$.
+
+  **C.** $\{-3\}$.
+
+  **D.** $\{\sqrt7\}$.
+
+  **Lời giải.** Điều kiện $x>1$. Gộp tổng hai lôgarit thành lôgarit của một tích:
+
+  $$\log_2\big[(x-1)(x+1)\big]=3\iff x^2-1=2^3=8\iff x=3\ \text{hoặc}\ x=-3.$$
+
+  Đối chiếu điều kiện $x>1$, chỉ nhận $x=3$. Chọn **A**. Phương án B quên điều kiện; phương án D tính nhầm $2^3$ thành $2\cdot3$.
+  :::
+
+  :::example Trả lời ngắn: thuốc trong máu
+  Sau khi tiêm, nồng độ một loại thuốc trong máu của bệnh nhân là $C(t)=40\cdot0{,}8^t$ (mg/L), với $t$ là số giờ kể từ lúc tiêm. Sau bao nhiêu giờ thì nồng độ thuốc giảm còn $5$ mg/L (làm tròn kết quả đến hàng phần mười)?
+
+  **Lời giải.** Ta giải phương trình mũ bằng cách lấy lôgarit:
+
+  $$40\cdot0{,}8^t=5\iff0{,}8^t=\frac18\iff t=\log_{0{,}8}\frac18=\frac{\ln0{,}125}{\ln0{,}8}\approx9{,}32.$$
+
+  Vậy sau khoảng $9{,}3$ giờ (ghi $9{,}3$).
+
+  **Kiểm tra.** Mỗi giờ nồng độ còn $80\%$, nên sau $9$ giờ còn $40\cdot0{,}8^9\approx5{,}4$ mg/L, hơi lớn hơn $5$; kết quả $9{,}3$ là hợp lí.
+  :::
+
+:::warning Bẫy thường gặp về mũ và lôgarit
+[[P6·7131]]
+- **Quên điều kiện** của lôgarit, nhận cả nghiệm làm biểu thức trong lôgarit âm.
+- **Không đổi chiều** khi cơ số nằm giữa $0$ và $1$: $\log_{\frac12}x\ge-2\iff0<x\le4$, không phải $x\ge4$.
+- **Nhầm công thức**: $\log_a(b+c)$ **không** bằng $\log_ab+\log_ac$.
+:::
+
+## Cấp số cộng và cấp số nhân
+
+  :::theorem Hai loại cấp số
+  | | Cấp số cộng (công sai $d$) | Cấp số nhân (công bội $q$) |
+  |---|---|---|
+  | Số hạng tổng quát | $u_n=u_1+(n-1)d$ | $u_n=u_1\cdot q^{n-1}$ |
+  | Tổng $n$ số hạng đầu | $S_n=\dfrac{n(u_1+u_n)}{2}=\dfrac{n\big[2u_1+(n-1)d\big]}{2}$ | $S_n=\dfrac{u_1(1-q^n)}{1-q}$ ($q\neq1$) |
+  | Ba số hạng liên tiếp | $u_k=\dfrac{u_{k-1}+u_{k+1}}{2}$ | $u_k^2=u_{k-1}\cdot u_{k+1}$ |
+  :::
+
+[[P7·cf74]]
+Nhiều bài thực tế là cấp số "nguỵ trang": số ghế mỗi hàng tăng đều là cấp số cộng; số tiền tăng theo phần trăm là cấp số nhân.
+
+  :::example Trả lời ngắn: số ghế trong hội trường
+  Một hội trường có $20$ hàng ghế. Hàng đầu tiên có $16$ ghế, mỗi hàng sau nhiều hơn hàng ngay trước nó $2$ ghế. Hội trường có tất cả bao nhiêu ghế?
+
+  **Lời giải.** Số ghế các hàng lập thành cấp số cộng với $u_1=16$, $d=2$, $n=20$:
+
+  $$S_{20}=\frac{20\big[2\cdot16+19\cdot2\big]}{2}=10\cdot70=700.$$
+
+  Vậy hội trường có $700$ ghế.
+
+  **Nhìn lại.** Hàng cuối có $u_{20}=16+19\cdot2=54$ ghế; dùng $u_1+20d$ là lỗi "thừa một công sai" hay gặp.
+  :::
+
+## Giới hạn
+
+:::note Các giới hạn cơ bản
+[[P8·d85b]]
+- $\lim\dfrac{1}{n^k}=0$ ($k>0$); $\lim q^n=0$ khi $|q|<1$.
+- Giới hạn của phân thức theo $n$: chia cả tử và mẫu cho luỹ thừa cao nhất của $n$ ở mẫu.
+- Cấp số nhân lùi vô hạn ($|q|<1$): $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
+- Giới hạn dạng $\dfrac00$ của hàm số: phân tích thành nhân tử rồi rút gọn, ví dụ $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
+:::
+
+  :::example Trắc nghiệm: giới hạn của dãy số
+  Giá trị của $\lim\dfrac{2n^2+1}{n^2-3n}$ là
+
+  **A.** $0$.
+
+  **B.** $-\dfrac13$.
+
+  **C.** $2$.
+
+  **D.** $+\infty$.
+
+  **Lời giải.** Chia cả tử và mẫu cho $n^2$:
+
+  $$\lim\frac{2n^2+1}{n^2-3n}=\lim\frac{2+\frac{1}{n^2}}{1-\frac3n}=\frac{2+0}{1-0}=2.$$
+
+  Chọn **C**. Phương án B lấy nhầm tỉ số $\dfrac{1}{-3}$ của các hệ số thấp nhất.
+  :::
+
+## Thuật ngữ
+
+  :::terms
+  - phương trình lượng giác cơ bản | basic trigonometric equation
+  - chu kì | period
+  - lôgarit tự nhiên | natural logarithm
+  - lãi kép | compound interest
+  - tăng trưởng mũ | exponential growth
+  - cấp số cộng | arithmetic sequence
+  - cấp số nhân | geometric sequence
+  - công sai | common difference
+  - công bội | common ratio
+  - cấp số nhân lùi vô hạn | convergent geometric series (sum to infinity)
+  - giới hạn | limit
+  :::
+
+## Bài tập
+
+[[P9·1795]]
+Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+
+:::exercise Trắc nghiệm
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn (thử thách)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-trig-exp-log-sequences – BẢN TIẾNG ANH ########
+---
+title: "Revision: trigonometry, exponentials, logarithms and sequences"
+description: Revise trigonometric functions and equations, exponentials, logarithms and growth models, arithmetic and geometric sequences and limits, in exam style.
+minutes: 40
+---
+
+  :::goals
+  - Use the trigonometric identities correctly, solve basic trigonometric equations and count solutions in an interval.
+  - Manipulate powers and logarithms; solve exponential and logarithmic equations and inequalities with their conditions.
+  - Set up and solve exponential growth and decay models (compound interest, bacteria, a drug in the blood).
+  - Use the formulas for arithmetic and geometric sequences, the sum to infinity and basic limits.
+  :::
+
+[[P1·2cfe]]
+These grade 11 topics rarely form one long question, but they are scattered all over the paper. Part I usually has two to four short questions: a trigonometric identity, a logarithmic equation, a term of a sequence, a limit. Part II or Part III often has a real-life model using an exponential or trigonometric function. Altogether these topics are usually worth about $1$ to $1.5$ marks.
+
+[[P2·1d00]]
+This revision lesson recalls the formulas of each area briefly, then works examples exactly like exam questions.
+
+## Trigonometric functions and equations
+
+  :::theorem Identities and basic equations
+  - $\sin^2x+\cos^2x=1$; $\cos2x=\cos^2x-\sin^2x=1-2\sin^2x=2\cos^2x-1$; $\sin2x=2\sin x\cos x$.
+  - $\cos(a\pm b)=\cos a\cos b\mp\sin a\sin b$; $\sin(a\pm b)=\sin a\cos b\pm\cos a\sin b$.
+  - $\sin x=\sin\alpha\iff x=\alpha+k2\pi$ or $x=\pi-\alpha+k2\pi$; $\cos x=\cos\alpha\iff x=\pm\alpha+k2\pi$; $\tan x=\tan\alpha\iff x=\alpha+k\pi$ ($k\in\mathbb{Z}$).
+  - The functions $y=A\sin(\omega x+\varphi)$ and $y=A\cos(\omega x+\varphi)$ have period $\dfrac{2\pi}{|\omega|}$ and take values in $[-|A|, |A|]$.
+  :::
+
+[[P3·bd61]]
+When a question asks for the number of solutions in an interval, write the general solution and try each integer $k$, or look at the unit circle.
+
+  :::example Multiple choice: a basic cosine equation
+  The solutions of the equation $2\cos x+1=0$ are
+
+  **A.** $x=\pm\dfrac{2\pi}{3}+k2\pi$, $k\in\mathbb{Z}$.
+
+  **B.** $x=\pm\dfrac{\pi}{3}+k2\pi$, $k\in\mathbb{Z}$.
+
+  **C.** $x=\dfrac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$.
+
+  **D.** $x=\pm\dfrac{2\pi}{3}+k\pi$, $k\in\mathbb{Z}$.
+
+  **Solution.** We write it in the form $\cos x=\cos\alpha$, using $\cos\dfrac{2\pi}{3}=-\dfrac12$:
+
+  $$2\cos x+1=0\iff\cos x=-\frac12=\cos\frac{2\pi}{3}\iff x=\pm\frac{2\pi}{3}+k2\pi.$$
+
+  The answer is **A**. Option B corresponds to $\cos x=\dfrac12$ (a lost minus sign); options C and D wrongly use the period $\pi$ of $\tan$.
+  :::
+
+[[P4·2756]]
+Trigonometric functions model repeated motion very well, for example a capsule on an observation wheel.
+
+:::graph Height of a capsule $h(t)=22-20\cos\dfrac{\pi t}{10}$ over one turn
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example True/false: an observation wheel
+  An observation wheel turns at a constant speed. The height (in metres) of a capsule above the ground after $t$ minutes is $h(t)=22-20\cos\dfrac{\pi t}{10}$, $t\ge0$.
+
+  a) The lowest height of the capsule is $0$ m.
+
+  b) One turn of the wheel takes $20$ minutes.
+
+  c) At time $t=10$ minutes the capsule is $42$ m high.
+
+  d) During one turn, the capsule spends $10$ minutes at a height of $32$ m or more.
+
+  **Solution.** We use $-1\le\cos\dfrac{\pi t}{10}\le1$ and the period formula.
+
+  a) **False.** When $\cos\dfrac{\pi t}{10}=1$, the lowest height is $22-20=2$ m.
+
+  b) **True.** The period is $\dfrac{2\pi}{\pi/10}=20$ minutes.
+
+  c) **True.** $h(10)=22-20\cos\pi=22+20=42$ m.
+
+  d) **False.** For $t\in[0, 20]$ we solve the inequality:
+
+  $$22-20\cos\frac{\pi t}{10}\ge32\iff\cos\frac{\pi t}{10}\le-\frac12\iff\frac{2\pi}{3}\le\frac{\pi t}{10}\le\frac{4\pi}{3}\iff\frac{20}{3}\le t\le\frac{40}{3}.$$
+
+  That time is $\dfrac{40}{3}-\dfrac{20}{3}=\dfrac{20}{3}\approx6.67$ minutes, not $10$ minutes.
+
+  So the answers are a) False, b) True, c) True, d) False.
+  :::
+
+## Exponential and logarithmic functions
+
+  :::theorem Powers, logarithms and models
+  - For $0<a\neq1$ and $b, c>0$: $\log_a(bc)=\log_ab+\log_ac$, $\log_a\dfrac bc=\log_ab-\log_ac$, $\log_ab^\alpha=\alpha\log_ab$, $\log_ab=\dfrac{\log_cb}{\log_ca}$.
+  - $a^x=b\iff x=\log_ab$ (needs $b>0$); $\log_ax=b\iff x=a^b$ (needs $x>0$).
+  - In inequalities: with $a>1$ keep the direction; with $0<a<1$ **reverse** it.
+  - Compound interest: $A=A_0(1+r)^n$. Growth or decay: $N(t)=N_0e^{kt}$ or $N(t)=N_0\cdot q^t$ (growth when $q>1$, decay when $0<q<1$).
+  :::
+
+[[P5·bd0c]]
+With a logarithmic equation, the first job is always to **state the conditions**. Skipping this step is the most common way to lose marks.
+
+  :::example Multiple choice: a logarithmic equation
+  The solution set of the equation $\log_2(x-1)+\log_2(x+1)=3$ is
+
+  **A.** $\{3\}$.
+
+  **B.** $\{-3, 3\}$.
+
+  **C.** $\{-3\}$.
+
+  **D.** $\{\sqrt7\}$.
+
+  **Solution.** The condition is $x>1$. We combine the sum of two logarithms into the logarithm of a product:
+
+  $$\log_2\big[(x-1)(x+1)\big]=3\iff x^2-1=2^3=8\iff x=3\ \text{or}\ x=-3.$$
+
+  Checking against $x>1$, only $x=3$ is accepted. The answer is **A**. Option B forgets the condition; option D computes $2^3$ as $2\cdot3$.
+  :::
+
+  :::example Short answer: a drug in the blood
+  After an injection, the concentration of a drug in a patient's blood is $C(t)=40\cdot0.8^t$ (mg/L), where $t$ is the number of hours since the injection. After how many hours has the concentration fallen to $5$ mg/L (to 1 decimal place)?
+
+  **Solution.** We solve the exponential equation by taking logarithms:
+
+  $$40\cdot0.8^t=5\iff0.8^t=\frac18\iff t=\log_{0.8}\frac18=\frac{\ln0.125}{\ln0.8}\approx9.32.$$
+
+  So after about $9.3$ hours (write $9.3$).
+
+  **Check.** Each hour $80\%$ of the drug remains, so after $9$ hours there is $40\cdot0.8^9\approx5.4$ mg/L, slightly more than $5$; the answer $9.3$ is sensible.
+  :::
+
+:::warning Common traps with exponentials and logarithms
+[[P6·75d7]]
+- **Forgetting the conditions** of a logarithm and accepting a solution that makes the expression inside the logarithm negative.
+- **Not reversing the inequality** when the base is between $0$ and $1$: $\log_{\frac12}x\ge-2\iff0<x\le4$, not $x\ge4$.
+- **Using a false rule**: $\log_a(b+c)$ is **not** equal to $\log_ab+\log_ac$.
+:::
+
+## Arithmetic and geometric sequences
+
+  :::theorem The two kinds of sequence
+  | | Arithmetic sequence (common difference $d$) | Geometric sequence (common ratio $q$) |
+  |---|---|---|
+  | General term | $u_n=u_1+(n-1)d$ | $u_n=u_1\cdot q^{n-1}$ |
+  | Sum of the first $n$ terms | $S_n=\dfrac{n(u_1+u_n)}{2}=\dfrac{n\big[2u_1+(n-1)d\big]}{2}$ | $S_n=\dfrac{u_1(1-q^n)}{1-q}$ ($q\neq1$) |
+  | Three consecutive terms | $u_k=\dfrac{u_{k-1}+u_{k+1}}{2}$ | $u_k^2=u_{k-1}\cdot u_{k+1}$ |
+  :::
+
+[[P7·eca9]]
+Many real-life problems are sequences "in disguise": seats per row increasing steadily form an arithmetic sequence; money growing by a percentage forms a geometric sequence.
+
+  :::example Short answer: seats in a hall
+  A hall has $20$ rows of seats. The first row has $16$ seats, and each row has $2$ seats more than the row in front of it. How many seats does the hall have altogether?
+
+  **Solution.** The numbers of seats form an arithmetic sequence with $u_1=16$, $d=2$, $n=20$:
+
+  $$S_{20}=\frac{20\big[2\cdot16+19\cdot2\big]}{2}=10\cdot70=700.$$
+
+  So the hall has $700$ seats.
+
+  **Look back.** The last row has $u_{20}=16+19\cdot2=54$ seats; using $u_1+20d$ is the common "one difference too many" error.
+  :::
+
+## Limits
+
+:::note Basic limits
+[[P8·4104]]
+- $\lim\dfrac{1}{n^k}=0$ ($k>0$); $\lim q^n=0$ when $|q|<1$.
+- The limit of a rational expression in $n$: divide the numerator and the denominator by the highest power of $n$ in the denominator.
+- Sum to infinity ($|q|<1$): $S=u_1+u_1q+u_1q^2+\cdots=\dfrac{u_1}{1-q}$.
+- A limit of a function of the form $\dfrac00$: factorise and cancel, for example $\lim\limits_{x\to2}\dfrac{x^2-4}{x-2}=\lim\limits_{x\to2}(x+2)=4$.
+:::
+
+  :::example Multiple choice: the limit of a sequence
+  The value of $\lim\dfrac{2n^2+1}{n^2-3n}$ is
+
+  **A.** $0$.
+
+  **B.** $-\dfrac13$.
+
+  **C.** $2$.
+
+  **D.** $+\infty$.
+
+  **Solution.** We divide the numerator and the denominator by $n^2$:
+
+  $$\lim\frac{2n^2+1}{n^2-3n}=\lim\frac{2+\frac{1}{n^2}}{1-\frac3n}=\frac{2+0}{1-0}=2.$$
+
+  The answer is **C**. Option B takes the ratio $\dfrac{1}{-3}$ of the lowest-order coefficients by mistake.
+  :::
+
+## Key terms
+
+  :::terms
+  - basic trigonometric equation | phương trình lượng giác cơ bản
+  - period | chu kì
+  - natural logarithm | lôgarit tự nhiên
+  - compound interest | lãi kép
+  - exponential growth | tăng trưởng mũ
+  - arithmetic sequence | cấp số cộng
+  - geometric sequence | cấp số nhân
+  - common difference | công sai
+  - common ratio | công bội
+  - convergent geometric series (sum to infinity) | cấp số nhân lùi vô hạn
+  - limit | giới hạn
+  :::
+
+## Exercises
+
+[[P9·96a7]]
+The exercises go from easy to hard, and each one states its exam format.
+
+:::exercise Multiple choice
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/false
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer (challenge)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/sphere-equation – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình mặt cầu
+description: Viết phương trình mặt cầu, tìm tâm và bán kính từ dạng khai triển, xét vị trí của điểm và mặt phẳng với mặt cầu, viết phương trình mặt phẳng tiếp diện.
+minutes: 22
+---
+
+  :::goals
+  - Viết phương trình mặt cầu $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ khi biết tâm và bán kính.
+  - Nhận biết phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu và tìm tâm, bán kính.
+  - Viết phương trình mặt cầu có đường kính cho trước, đi qua các điểm cho trước, tiếp xúc với một mặt phẳng.
+  - Xét vị trí của một điểm, một mặt phẳng với mặt cầu; viết phương trình mặt phẳng tiếp diện.
+  :::
+
+[[P1·3cea]]
+Một bộ phát Wi-Fi đặt ở $I(2; 3; 1)$ trong một hội trường (đơn vị: mét). Sóng đủ mạnh trong phạm vi $10$ m quanh bộ phát. Một chiếc điện thoại ở $M(8; 10; 3)$ có bắt được sóng không? Một chiếc loa treo trên trần tại $N(2; 3; 12)$ thì sao?
+
+[[P2·6ffb]]
+Tập hợp các điểm cách $I$ đúng $10$ m là một **mặt cầu**. Bài này viết mặt cầu thành một phương trình, để mọi câu hỏi "ở trong hay ở ngoài" chỉ còn là một phép tính.
+
+## Phương trình mặt cầu
+
+### Khám phá: khoảng cách tới bộ phát
+
+[[P3·0658]]
+Ta tính khoảng cách từ bộ phát tới hai điểm:
+  $$IM=\sqrt{6^2+7^2+2^2}=\sqrt{89}\approx9{,}43<10,\qquad IN=\sqrt{0^2+0^2+11^2}=11>10.$$
+[[P4·6596]]
+Vậy điện thoại bắt được sóng, còn chiếc loa nằm ngoài vùng phủ sóng. Một điểm $P(x; y; z)$ nằm **đúng** trên biên của vùng phủ sóng khi $IP=10$, tức
+  $$(x-2)^2+(y-3)^2+(z-1)^2=100.$$
+
+:::diagram Mặt cầu tâm $I$ bán kính $R$
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Mặt cầu
+  Mặt cầu tâm $I$ bán kính $R>0$ là tập hợp các điểm $M$ trong không gian sao cho $IM=R$. Điểm $M$ nằm **trong** mặt cầu nếu $IM<R$, nằm **ngoài** mặt cầu nếu $IM>R$.
+  :::
+
+  :::theorem Phương trình mặt cầu
+  - Mặt cầu tâm $I(a; b; c)$ bán kính $R$ có phương trình
+  $$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
+  - Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là phương trình của một mặt cầu khi và chỉ khi $a^2+b^2+c^2-d>0$. Khi đó mặt cầu có tâm $I(a; b; c)$ và bán kính $R=\sqrt{a^2+b^2+c^2-d}$.
+  :::
+
+[[P5·6c44]]
+**Vì sao đúng?** $M(x; y; z)$ thuộc mặt cầu khi và chỉ khi $IM^2=R^2$, và $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. Với dạng thứ hai, thêm bớt để có bình phương: phương trình tương đương $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. Vế phải phải dương thì mới là $R^2$.
+
+  :::example Biết tâm và bán kính; biết đường kính
+  a) Viết phương trình mặt cầu tâm $I(1; -2; 3)$, bán kính $4$, và kiểm tra rằng $A(1; 2; 3)$ thuộc mặt cầu.
+
+  b) Viết phương trình mặt cầu đường kính $AB$ với $A(1; 3; -1)$, $B(3; -1; 5)$.
+
+  **Lời giải.** a) Thay tâm và bán kính vào công thức. Chú ý $y-(-2)=y+2$:
+
+  $$(x-1)^2+(y+2)^2+(z-3)^2=16.$$
+
+  Thay $A$: $0^2+4^2+0^2=16$, nên $A$ thuộc mặt cầu.
+
+  b) Tâm là trung điểm $I$ của $AB$, bán kính bằng nửa $AB$:
+
+  $$I(2; 1; 2),\qquad AB=\sqrt{2^2+(-4)^2+6^2}=\sqrt{56},\qquad R=\frac{\sqrt{56}}{2}=\sqrt{14}.$$
+
+  Vậy a) $(x-1)^2+(y+2)^2+(z-3)^2=16$; b) $(x-2)^2+(y-1)^2+(z-2)^2=14$.
+  :::
+
+[[P6·4194]]
+Khi phương trình đã khai triển, ta đọc $a$, $b$, $c$ bằng cách chia hệ số của $x$, $y$, $z$ cho $-2$.
+
+  :::example Từ dạng khai triển
+  Mỗi phương trình sau có phải phương trình mặt cầu không? Nếu có, tìm tâm và bán kính.
+
+  a) $x^2+y^2+z^2-4x+2y-6z-2=0$. b) $x^2+y^2+z^2-2x+4y+6=0$.
+
+  **Lời giải.** a) Chia các hệ số $-4$, $2$, $-6$ cho $-2$: $a=2$, $b=-1$, $c=3$; còn $d=-2$. Kiểm tra điều kiện:
+
+  $$a^2+b^2+c^2-d=4+1+9+2=16>0,\qquad R=4.$$
+
+  b) $a=1$, $b=-2$, $c=0$, $d=6$:
+
+  $$a^2+b^2+c^2-d=1+4+0-6=-1<0.$$
+
+  Vậy a) là mặt cầu tâm $I(2; -1; 3)$, bán kính $4$; b) không phải phương trình mặt cầu (không có điểm nào thoả mãn).
+  :::
+
+[[P7·0ae6]]
+Khi biết bốn điểm trên mặt cầu, dạng khai triển cho bốn phương trình bậc nhất với bốn ẩn $a$, $b$, $c$, $d$.
+
+  :::example Mặt cầu đi qua bốn điểm
+  Viết phương trình mặt cầu đi qua $O(0; 0; 0)$, $A(2; 0; 0)$, $B(0; 4; 0)$, $C(0; 0; 6)$.
+
+  **Lời giải.** Gọi mặt cầu là $x^2+y^2+z^2-2ax-2by-2cz+d=0$. Thay lần lượt bốn điểm:
+
+  $$\begin{aligned} O&: d=0;\\ A&: 4-4a+d=0\Rightarrow a=1;\\ B&: 16-8b+d=0\Rightarrow b=2;\\ C&: 36-12c+d=0\Rightarrow c=3. \end{aligned}$$
+
+  Khi đó $R^2=1+4+9-0=14$. Vậy mặt cầu là $x^2+y^2+z^2-2x-4y-6z=0$, tâm $I(1; 2; 3)$, bán kính $\sqrt{14}$.
+  :::
+
+## Mặt phẳng và mặt cầu
+
+[[P8·8777]]
+So sánh khoảng cách $h$ từ tâm $I$ đến mặt phẳng với bán kính $R$, giống như so sánh khoảng cách từ tâm đến đường thẳng trong hình học phẳng.
+
+  :::theorem Vị trí của mặt phẳng và mặt cầu
+  Cho mặt cầu $(S)$ tâm $I$, bán kính $R$ và mặt phẳng $(P)$, $h=d(I, (P))$.
+  - $h>R$: $(P)$ và $(S)$ không có điểm chung.
+  - $h=R$: $(P)$ **tiếp xúc** với $(S)$ tại một điểm $H$ (hình chiếu của $I$ trên $(P)$); $(P)$ là **mặt phẳng tiếp diện**.
+  - $h<R$: $(P)$ cắt $(S)$ theo một đường tròn tâm $H$, bán kính $r=\sqrt{R^2-h^2}$.
+
+  Mặt phẳng tiếp diện của $(S)$ tại điểm $M\in(S)$ là mặt phẳng đi qua $M$ và vuông góc với $IM$, tức nhận $\overrightarrow{IM}$ làm vectơ pháp tuyến.
+  :::
+
+  :::example Ba mặt phẳng và một mặt cầu
+  Cho $(S): (x-1)^2+(y+1)^2+(z-2)^2=9$. Xét vị trí của $(S)$ với $(P): 2x-y+2z+2=0$, $(Q): x+2y+2z-6=0$, $(R): 2x+2y-z+15=0$. Nếu tiếp xúc, tìm tiếp điểm; nếu cắt, tìm bán kính đường tròn giao tuyến.
+
+  **Lời giải.** Tâm $I(1; -1; 2)$, $R=3$. Ba vectơ pháp tuyến đều có độ dài $3$, nên:
+
+  $$d(I, (P))=\frac{|2+1+4+2|}{3}=3,\qquad d(I, (Q))=\frac{|1-2+4-6|}{3}=1,\qquad d(I, (R))=\frac{|2-2-2+15|}{3}=\frac{13}{3}.$$
+
+  $(P)$ tiếp xúc với $(S)$. Tiếp điểm $H$ là hình chiếu của $I$: đường thẳng $x=1+2t$, $y=-1-t$, $z=2+2t$ cắt $(P)$ khi $9+9t=0$, tức $t=-1$, nên $H(-1; 0; 0)$.
+
+  $(Q)$ cắt $(S)$ theo đường tròn bán kính $r=\sqrt{9-1}=2\sqrt2$. Còn $\dfrac{13}{3}>3$ nên $(R)$ không cắt $(S)$.
+
+  Vậy $(P)$ tiếp xúc $(S)$ tại $H(-1; 0; 0)$, $(Q)$ cắt $(S)$ theo đường tròn bán kính $2\sqrt2$, $(R)$ không có điểm chung với $(S)$.
+  :::
+
+  :::example Mặt phẳng tiếp diện tại một điểm
+  Cho $(S): (x-1)^2+(y-2)^2+(z+1)^2=9$ và $M(3; 3; 1)$. Chứng minh $M\in(S)$ và viết phương trình mặt phẳng tiếp diện của $(S)$ tại $M$.
+
+  **Lời giải.** Thay $M$: $2^2+1^2+2^2=9$, nên $M\in(S)$. Mặt phẳng tiếp diện nhận $\overrightarrow{IM}=(2; 1; 2)$ làm vectơ pháp tuyến:
+
+  $$2(x-3)+(y-3)+2(z-1)=0\iff 2x+y+2z-11=0.$$
+
+  Vậy mặt phẳng tiếp diện là $2x+y+2z-11=0$.
+
+  **Kiểm tra.** $d(I, (P))=\dfrac{|2+2-2-11|}{3}=3=R$.
+  :::
+
+[[P9·2101]]
+Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm theo bốn bước.
+
+:::graph Mặt cắt thẳng đứng của vùng radar (đơn vị: $10$ km)
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Vùng quét của radar
+  Một trạm radar đặt ở $O(0; 0; 0)$ phát hiện được máy bay trong phạm vi $50$ km. Một máy bay bay thẳng ở độ cao $30$ km theo đường $x=-60+t$, $y=20$, $z=30$ (đơn vị: km). Máy bay bay bao nhiêu kilômét trong vùng radar phát hiện được (làm tròn đến hàng phần mười)?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Vùng phát hiện là khối cầu $x^2+y^2+z^2\le2500$. Cần độ dài phần đường bay nằm trong khối cầu.
+
+  *Tìm cách giải.* Đường bay nằm trong mặt phẳng $z=30$. Mặt phẳng này cách $O$ một khoảng $h=30<50$, nên cắt mặt cầu theo đường tròn bán kính $r=\sqrt{50^2-30^2}=40$, tâm $(0; 0; 30)$.
+
+  *Giải.* Ở độ cao $30$, máy bay trong vùng radar khi $x^2+y^2\le1600$. Với $y=20$:
+
+  $$x^2\le1600-400=1200\iff -20\sqrt3\le x\le20\sqrt3.$$
+
+  Đoạn này dài $40\sqrt3\approx69{,}3$ km (mỗi đơn vị $t$ ứng với $1$ km theo trục $Ox$).
+
+  Vậy máy bay bay khoảng $69{,}3$ km trong vùng radar.
+
+  *Nhìn lại.* Ta đã đưa bài toán không gian về một đường tròn trong mặt phẳng $z=30$, nhờ công thức $r=\sqrt{R^2-h^2}$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P10·8006]]
+- **Sai dấu toạ độ tâm.** Sai: $(x+1)^2+(y-2)^2+z^2=9$ có tâm $(1; -2; 0)$. Vì sao sai: $x+1=x-(-1)$. Đúng: tâm $I(-1; 2; 0)$.
+- **Nhầm $R$ với $R^2$.** Sai: mặt cầu tâm $I(1; -2; 3)$, bán kính $4$ là $(x-1)^2+(y+2)^2+(z-3)^2=4$. Đúng: vế phải là $R^2=16$.
+- **Đọc tâm khi hệ số của $x^2$ khác $1$.** Với $2x^2+2y^2+2z^2-4x+8y-2=0$, sai: $a=2$, $b=-4$. Vì sao sai: công thức cần hệ số của $x^2$, $y^2$, $z^2$ bằng $1$. Đúng: chia cho $2$ được $x^2+y^2+z^2-2x+4y-1=0$, nên $a=1$, $b=-2$, $c=0$, $R=\sqrt{1+4+0+1}=\sqrt6$.
+- **Quên kiểm tra $a^2+b^2+c^2-d>0$.** Sai: $x^2+y^2+z^2-2x+4y+6=0$ có $R=\sqrt{-1}$ "không xác định nhưng vẫn là mặt cầu". Đúng: điều kiện không thoả mãn, phương trình không biểu diễn mặt cầu nào.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - mặt cầu | sphere
+  - tâm | centre
+  - bán kính | radius
+  - đường kính | diameter
+  - khối cầu | solid sphere (ball)
+  - mặt phẳng tiếp diện | tangent plane
+  - tiếp điểm | point of contact
+  - đường tròn giao tuyến | circle of intersection
+  :::
+
+## Tóm tắt
+
+[[P11·0838]]
+- Tâm $I(a; b; c)$, bán kính $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+- $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu $\iff a^2+b^2+c^2-d>0$; khi đó $R=\sqrt{a^2+b^2+c^2-d}$.
+- Đường kính $AB$: tâm là trung điểm $AB$, $R=\dfrac{AB}{2}$.
+- Điểm $M$: $IM<R$ ở trong, $IM=R$ ở trên, $IM>R$ ở ngoài mặt cầu.
+- Mặt phẳng: $h=d(I, (P))$; $h>R$ không cắt, $h=R$ tiếp xúc, $h<R$ cắt theo đường tròn bán kính $\sqrt{R^2-h^2}$.
+- Tiếp diện tại $M$: qua $M$, vectơ pháp tuyến $\overrightarrow{IM}$.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/sphere-equation – BẢN TIẾNG ANH ########
+---
+title: The equation of a sphere
+description: Write the equation of a sphere, find its centre and radius from the expanded form, decide how points and planes meet a sphere, and find tangent planes.
+minutes: 22
+---
+
+  :::goals
+  - Write the equation $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ of a sphere with a given centre and radius.
+  - Recognise when $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere and find its centre and radius.
+  - Write the equation of a sphere with a given diameter, through given points, or tangent to a plane.
+  - Decide where a point or a plane lies relative to a sphere; write the equation of a tangent plane.
+  :::
+
+[[P1·ea28]]
+A Wi-Fi router is placed at $I(2, 3, 1)$ in a hall (unit: metre). The signal is strong enough within $10$ m of the router. Does a phone at $M(8, 10, 3)$ get the signal? What about a speaker hanging from the ceiling at $N(2, 3, 12)$?
+
+[[P2·656a]]
+The set of points exactly $10$ m from $I$ is a **sphere**. This lesson turns a sphere into an equation, so that every "inside or outside" question becomes a calculation.
+
+## The equation of a sphere
+
+### Exploring: distances from the router
+
+[[P3·11ef]]
+We find the distances from the router to the two points:
+  $$IM=\sqrt{6^2+7^2+2^2}=\sqrt{89}\approx9.43<10,\qquad IN=\sqrt{0^2+0^2+11^2}=11>10.$$
+[[P4·e9c1]]
+So the phone gets the signal, but the speaker is outside the coverage area. A point $P(x, y, z)$ lies **exactly** on the edge of the coverage area when $IP=10$, that is
+  $$(x-2)^2+(y-3)^2+(z-1)^2=100.$$
+
+:::diagram The sphere with centre $I$ and radius $R$
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Sphere
+  The sphere with centre $I$ and radius $R>0$ is the set of points $M$ in space with $IM=R$. A point $M$ is **inside** the sphere if $IM<R$ and **outside** the sphere if $IM>R$.
+  :::
+
+  :::theorem Equation of a sphere
+  - The sphere with centre $I(a, b, c)$ and radius $R$ has equation
+  $$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
+  - The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is the equation of a sphere if and only if $a^2+b^2+c^2-d>0$. The sphere then has centre $I(a, b, c)$ and radius $R=\sqrt{a^2+b^2+c^2-d}$.
+  :::
+
+[[P5·6a35]]
+**Why is it true?** $M(x, y, z)$ lies on the sphere exactly when $IM^2=R^2$, and $IM^2=(x-a)^2+(y-b)^2+(z-c)^2$. For the second form, complete the squares: the equation becomes $(x-a)^2+(y-b)^2+(z-c)^2=a^2+b^2+c^2-d$. The right-hand side must be positive to be $R^2$.
+
+  :::example Given the centre and radius; given a diameter
+  a) Write the equation of the sphere with centre $I(1, -2, 3)$ and radius $4$, and check that $A(1, 2, 3)$ lies on it.
+
+  b) Write the equation of the sphere with diameter $AB$, where $A(1, 3, -1)$, $B(3, -1, 5)$.
+
+  **Solution.** a) Substitute the centre and the radius into the formula. Note that $y-(-2)=y+2$:
+
+  $$(x-1)^2+(y+2)^2+(z-3)^2=16.$$
+
+  Substituting $A$: $0^2+4^2+0^2=16$, so $A$ lies on the sphere.
+
+  b) The centre is the midpoint $I$ of $AB$ and the radius is half of $AB$:
+
+  $$I(2, 1, 2),\qquad AB=\sqrt{2^2+(-4)^2+6^2}=\sqrt{56},\qquad R=\frac{\sqrt{56}}{2}=\sqrt{14}.$$
+
+  So a) $(x-1)^2+(y+2)^2+(z-3)^2=16$; b) $(x-2)^2+(y-1)^2+(z-2)^2=14$.
+  :::
+
+[[P6·d326]]
+When the equation is expanded, we read off $a$, $b$, $c$ by dividing the coefficients of $x$, $y$, $z$ by $-2$.
+
+  :::example From the expanded form
+  Is each equation the equation of a sphere? If so, find its centre and radius.
+
+  a) $x^2+y^2+z^2-4x+2y-6z-2=0$. b) $x^2+y^2+z^2-2x+4y+6=0$.
+
+  **Solution.** a) Divide the coefficients $-4$, $2$, $-6$ by $-2$: $a=2$, $b=-1$, $c=3$; and $d=-2$. Check the condition:
+
+  $$a^2+b^2+c^2-d=4+1+9+2=16>0,\qquad R=4.$$
+
+  b) $a=1$, $b=-2$, $c=0$, $d=6$:
+
+  $$a^2+b^2+c^2-d=1+4+0-6=-1<0.$$
+
+  So a) is a sphere with centre $I(2, -1, 3)$ and radius $4$; b) is not the equation of a sphere (no point satisfies it).
+  :::
+
+[[P7·97f4]]
+Given four points on a sphere, the expanded form gives four linear equations in the four unknowns $a$, $b$, $c$, $d$.
+
+  :::example The sphere through four points
+  Write the equation of the sphere through $O(0, 0, 0)$, $A(2, 0, 0)$, $B(0, 4, 0)$, $C(0, 0, 6)$.
+
+  **Solution.** Let the sphere be $x^2+y^2+z^2-2ax-2by-2cz+d=0$. Substitute the four points in turn:
+
+  $$\begin{aligned} O&: d=0;\\ A&: 4-4a+d=0\Rightarrow a=1;\\ B&: 16-8b+d=0\Rightarrow b=2;\\ C&: 36-12c+d=0\Rightarrow c=3. \end{aligned}$$
+
+  Then $R^2=1+4+9-0=14$. So the sphere is $x^2+y^2+z^2-2x-4y-6z=0$, with centre $I(1, 2, 3)$ and radius $\sqrt{14}$.
+  :::
+
+## Planes and spheres
+
+[[P8·daba]]
+We compare the distance $h$ from the centre $I$ to the plane with the radius $R$, just as we compare the distance from the centre to a line in plane geometry.
+
+  :::theorem A plane and a sphere
+  Let $(S)$ be a sphere with centre $I$ and radius $R$, let $(P)$ be a plane, and let $h=d(I, (P))$.
+  - $h>R$: $(P)$ and $(S)$ have no common point.
+  - $h=R$: $(P)$ **touches** $(S)$ at one point $H$ (the projection of $I$ on $(P)$); $(P)$ is a **tangent plane**.
+  - $h<R$: $(P)$ cuts $(S)$ in a circle with centre $H$ and radius $r=\sqrt{R^2-h^2}$.
+
+  The tangent plane to $(S)$ at a point $M\in(S)$ is the plane through $M$ perpendicular to $IM$, that is, with normal vector $\overrightarrow{IM}$.
+  :::
+
+  :::example Three planes and a sphere
+  Let $(S): (x-1)^2+(y+1)^2+(z-2)^2=9$. Decide how $(S)$ meets $(P): 2x-y+2z+2=0$, $(Q): x+2y+2z-6=0$, $(R): 2x+2y-z+15=0$. If a plane touches the sphere, find the point of contact; if it cuts the sphere, find the radius of the circle of intersection.
+
+  **Solution.** The centre is $I(1, -1, 2)$ and $R=3$. All three normal vectors have length $3$, so:
+
+  $$d(I, (P))=\frac{|2+1+4+2|}{3}=3,\qquad d(I, (Q))=\frac{|1-2+4-6|}{3}=1,\qquad d(I, (R))=\frac{|2-2-2+15|}{3}=\frac{13}{3}.$$
+
+  $(P)$ touches $(S)$. The point of contact $H$ is the projection of $I$: the line $x=1+2t$, $y=-1-t$, $z=2+2t$ meets $(P)$ when $9+9t=0$, that is $t=-1$, so $H(-1, 0, 0)$.
+
+  $(Q)$ cuts $(S)$ in a circle of radius $r=\sqrt{9-1}=2\sqrt2$. Since $\dfrac{13}{3}>3$, $(R)$ does not meet $(S)$.
+
+  So $(P)$ touches $(S)$ at $H(-1, 0, 0)$, $(Q)$ cuts $(S)$ in a circle of radius $2\sqrt2$, and $(R)$ has no common point with $(S)$.
+  :::
+
+  :::example The tangent plane at a point
+  Let $(S): (x-1)^2+(y-2)^2+(z+1)^2=9$ and $M(3, 3, 1)$. Prove that $M\in(S)$ and write the equation of the tangent plane to $(S)$ at $M$.
+
+  **Solution.** Substituting $M$: $2^2+1^2+2^2=9$, so $M\in(S)$. The tangent plane has normal vector $\overrightarrow{IM}=(2, 1, 2)$:
+
+  $$2(x-3)+(y-3)+2(z-1)=0\iff 2x+y+2z-11=0.$$
+
+  So the tangent plane is $2x+y+2z-11=0$.
+
+  **Check.** $d(I, (P))=\dfrac{|2+2-2-11|}{3}=3=R$.
+  :::
+
+[[P9·e336]]
+The last example is a real problem with several steps, so we follow the four stages.
+
+:::graph A vertical cross-section of the radar zone (unit: $10$ km)
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The radar zone
+  A radar station at $O(0, 0, 0)$ detects aircraft within $50$ km. An aeroplane flies in a straight line at a height of $30$ km along the line $x=-60+t$, $y=20$, $z=30$ (unit: km). How many kilometres does the aeroplane fly inside the zone the radar can detect (to 1 decimal place)?
+
+  **Solution.**
+
+  *Understand.* The detection zone is the solid sphere $x^2+y^2+z^2\le2500$. We need the length of the part of the flight path inside it.
+
+  *Plan.* The flight path lies in the plane $z=30$. This plane is at distance $h=30<50$ from $O$, so it cuts the sphere in a circle of radius $r=\sqrt{50^2-30^2}=40$ with centre $(0, 0, 30)$.
+
+  *Solve.* At height $30$, the aeroplane is inside the radar zone when $x^2+y^2\le1600$. With $y=20$:
+
+  $$x^2\le1600-400=1200\iff -20\sqrt3\le x\le20\sqrt3.$$
+
+  This stretch has length $40\sqrt3\approx69.3$ km (each unit of $t$ is $1$ km along the $x$-axis).
+
+  So the aeroplane flies about $69.3$ km inside the radar zone.
+
+  *Look back.* We turned a problem in space into a circle in the plane $z=30$, thanks to the formula $r=\sqrt{R^2-h^2}$.
+  :::
+
+:::warning Common mistakes
+[[P10·2fc7]]
+- **The wrong sign for the centre.** Wrong: $(x+1)^2+(y-2)^2+z^2=9$ has centre $(1, -2, 0)$. Why it is wrong: $x+1=x-(-1)$. Right: the centre is $I(-1, 2, 0)$.
+- **Confusing $R$ with $R^2$.** Wrong: the sphere with centre $I(1, -2, 3)$ and radius $4$ is $(x-1)^2+(y+2)^2+(z-3)^2=4$. Right: the right-hand side is $R^2=16$.
+- **Reading off the centre when the coefficient of $x^2$ is not $1$.** For $2x^2+2y^2+2z^2-4x+8y-2=0$, wrong: $a=2$, $b=-4$. Why it is wrong: the formula needs the coefficients of $x^2$, $y^2$, $z^2$ to be $1$. Right: divide by $2$ to get $x^2+y^2+z^2-2x+4y-1=0$, so $a=1$, $b=-2$, $c=0$ and $R=\sqrt{1+4+0+1}=\sqrt6$.
+- **Forgetting to check $a^2+b^2+c^2-d>0$.** Wrong: $x^2+y^2+z^2-2x+4y+6=0$ has $R=\sqrt{-1}$, "undefined but still a sphere". Right: the condition fails, so the equation describes no sphere at all.
+:::
+
+## Key terms
+
+  :::terms
+  - sphere | mặt cầu
+  - centre | tâm
+  - radius | bán kính
+  - diameter | đường kính
+  - solid sphere (ball) | khối cầu
+  - tangent plane | mặt phẳng tiếp diện
+  - point of contact | tiếp điểm
+  - circle of intersection | đường tròn giao tuyến
+  :::
+
+## Summary
+
+[[P11·460b]]
+- Centre $I(a, b, c)$, radius $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+- $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere $\iff a^2+b^2+c^2-d>0$; then $R=\sqrt{a^2+b^2+c^2-d}$.
+- Diameter $AB$: the centre is the midpoint of $AB$ and $R=\dfrac{AB}{2}$.
+- A point $M$: $IM<R$ inside, $IM=R$ on, $IM>R$ outside the sphere.
+- A plane: $h=d(I, (P))$; $h>R$ no common point, $h=R$ tangent, $h<R$ a circle of radius $\sqrt{R^2-h^2}$.
+- The tangent plane at $M$: through $M$ with normal vector $\overrightarrow{IM}$.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/total-probability-bayes – BẢN TIẾNG VIỆT ########
+---
+title: Công thức xác suất toàn phần và công thức Bayes
+description: Tính xác suất của một biến cố qua các trường hợp bằng công thức xác suất toàn phần, rồi "đi ngược" bằng công thức Bayes, với sơ đồ cây và ví dụ thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Dùng công thức xác suất toàn phần để tính xác suất của một biến cố qua các trường hợp.
+  - Dùng công thức Bayes để tính xác suất của một trường hợp khi đã biết kết quả.
+  - Lập sơ đồ cây cho bài toán hai bước và đọc các công thức trên sơ đồ.
+  - Giải thích vì sao một xét nghiệm dương tính với bệnh hiếm vẫn có thể ít khả năng là mắc bệnh.
+  :::
+
+[[P1·8d50]]
+Một bệnh hiếm gặp có ở $1\%$ dân số. Có một xét nghiệm cho kết quả dương tính với $95\%$ người mắc bệnh, nhưng cũng dương tính nhầm với $5\%$ người không mắc bệnh. Bạn Lan đi xét nghiệm và nhận kết quả dương tính. Có phải khả năng Lan mắc bệnh là $95\%$?
+
+[[P2·94a8]]
+Rất nhiều người, kể cả người lớn, trả lời "có". Câu trả lời đúng thấp hơn nhiều. Bài này cho ta công cụ để tính nó.
+
+## Công thức xác suất toàn phần
+
+### Khám phá: hình dung $10\,000$ người
+
+[[P3·3c85]]
+Thay vì nói xác suất, ta tưởng tượng $10\,000$ người đi xét nghiệm.
+- Có $1\%$, tức $100$ người, mắc bệnh. Trong đó $95\%$, tức $95$ người, dương tính.
+- Có $9\,900$ người không mắc bệnh. Trong đó $5\%$, tức $495$ người, dương tính nhầm.
+
+[[P4·0b54]]
+Tổng số người dương tính là $95+495=590$. Trong $590$ người ấy chỉ có $95$ người thật sự mắc bệnh:
+
+  $$\frac{95}{590}\approx0{,}161.$$
+
+[[P5·f7ea]]
+Vậy dương tính thì khả năng mắc bệnh chỉ khoảng $16\%$. Để có $590$, ta đã cộng số người dương tính của **hai trường hợp**: mắc bệnh và không mắc bệnh. Đó là ý tưởng của công thức xác suất toàn phần.
+
+  :::theorem Công thức xác suất toàn phần
+  Cho hai biến cố $A$ và $B$ với $0<P(B)<1$. Khi đó
+  $$P(A)=P(B)\cdot P(A\mid B)+P(\overline{B})\cdot P(A\mid\overline{B}).$$
+  Tổng quát, nếu $B_1, B_2, \dots, B_n$ đôi một xung khắc, có xác suất dương và hợp của chúng là toàn bộ không gian mẫu (ta nói chúng tạo thành một **hệ biến cố đầy đủ**), thì
+  $$P(A)=P(B_1)P(A\mid B_1)+P(B_2)P(A\mid B_2)+\dots+P(B_n)P(A\mid B_n).$$
+  :::
+
+[[P6·09d2]]
+**Vì sao đúng?** Biến cố $A$ xảy ra hoặc cùng với $B$, hoặc cùng với $\overline{B}$, nên $A=(A\cap B)\cup(A\cap\overline{B})$, và hai phần này xung khắc. Theo quy tắc cộng, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Mỗi số hạng được tính bằng công thức nhân, chẳng hạn $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+
+[[P7·7284]]
+Trên sơ đồ cây, công thức này rất dễ nhớ: nhân dọc theo mỗi đường đi dẫn đến $A$, rồi cộng các đường đi đó lại.
+
+  :::example Hai máy cùng sản xuất
+  Một xưởng có hai máy cùng làm một loại sản phẩm. Máy I làm $60\%$ số sản phẩm, với tỉ lệ lỗi $2\%$; máy II làm $40\%$, với tỉ lệ lỗi $5\%$. Lấy ngẫu nhiên một sản phẩm của xưởng. Tính xác suất sản phẩm đó bị lỗi.
+
+  **Lời giải.** Gọi $B$: "sản phẩm do máy I làm", $A$: "sản phẩm bị lỗi". Đề cho $P(B)=0{,}6$, $P(A\mid B)=0{,}02$, $P(\overline B)=0{,}4$, $P(A\mid\overline B)=0{,}05$. Cộng hai đường đi dẫn đến "lỗi":
+
+  $$P(A)=0{,}6\cdot0{,}02+0{,}4\cdot0{,}05=0{,}012+0{,}02=0{,}032.$$
+
+  Vậy xác suất sản phẩm bị lỗi là $0{,}032$, tức $3{,}2\%$.
+  :::
+
+:::diagram Sơ đồ cây cho hai máy
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Công thức Bayes
+
+[[P8·326b]]
+Câu hỏi tiếp theo thường là câu hỏi "ngược": đã thấy kết quả $A$, vậy khả năng nó đến từ trường hợp $B$ là bao nhiêu? Ta cần $P(B\mid A)$, trong khi đề chỉ cho $P(A\mid B)$.
+
+  :::theorem Công thức Bayes
+  Cho hai biến cố $A$, $B$ với $P(A)>0$ và $0<P(B)<1$. Khi đó
+  $$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{P(B)\cdot P(A\mid B)}{P(B)\cdot P(A\mid B)+P(\overline B)\cdot P(A\mid\overline B)}.$$
+  Với hệ biến cố đầy đủ $B_1, \dots, B_n$: $P(B_i\mid A)=\dfrac{P(B_i)\cdot P(A\mid B_i)}{P(A)}$.
+  :::
+
+[[P9·4b40]]
+**Vì sao đúng?** Theo định nghĩa, $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. Tử số viết lại bằng công thức nhân, $P(A\cap B)=P(B)\cdot P(A\mid B)$; mẫu số viết bằng công thức xác suất toàn phần. Trên sơ đồ cây: **tử số là một đường đi, mẫu số là tổng mọi đường đi dẫn đến $A$**.
+
+  :::example Sản phẩm lỗi đến từ máy nào?
+  Tiếp ví dụ hai máy, lấy ngẫu nhiên một sản phẩm và thấy nó bị lỗi. Tính xác suất sản phẩm đó do máy II làm.
+
+  **Lời giải.** Tử số là đường đi "máy II rồi lỗi", mẫu số là $P(A)=0{,}032$ vừa tính:
+
+  $$P(\overline B\mid A)=\frac{0{,}4\cdot0{,}05}{0{,}032}=\frac{0{,}02}{0{,}032}=0{,}625.$$
+
+  Máy II chỉ làm $40\%$ sản phẩm, nhưng chiếm $62{,}5\%$ số sản phẩm lỗi, vì tỉ lệ lỗi của nó cao hơn.
+  :::
+
+[[P10·5b7d]]
+Bài toán chọn hộp rồi lấy bi cũng có hai bước như vậy.
+
+  :::example Hai hộp bi
+  Hộp I có $3$ bi đỏ, $2$ bi trắng; hộp II có $1$ bi đỏ, $4$ bi trắng. Tung một đồng xu cân đối: ngửa thì chọn hộp I, sấp thì chọn hộp II, rồi lấy ngẫu nhiên một viên bi từ hộp đã chọn. Tính xác suất lấy được bi đỏ. Nếu lấy được bi đỏ, xác suất bi đó từ hộp I là bao nhiêu?
+
+  **Lời giải.** Gọi $H$: "chọn hộp I", $D$: "lấy được bi đỏ". Ta có $P(H)=P(\overline H)=\dfrac12$, $P(D\mid H)=\dfrac35$, $P(D\mid\overline H)=\dfrac15$. Theo công thức xác suất toàn phần:
+
+  $$P(D)=\frac12\cdot\frac35+\frac12\cdot\frac15=\frac{3}{10}+\frac1{10}=\frac25.$$
+
+  Theo công thức Bayes:
+
+  $$P(H\mid D)=\frac{3/10}{2/5}=\frac34.$$
+
+  Vậy $P(D)=\dfrac25$ và $P(H\mid D)=\dfrac34$.
+  :::
+
+[[P11·dec0]]
+Khi có nhiều hơn hai trường hợp, ta dùng dạng tổng quát của hai công thức.
+
+  :::example Ba nhà cung cấp
+  Một cửa hàng nhập bóng đèn từ ba nhà cung cấp: $50\%$ từ X, $30\%$ từ Y và $20\%$ từ Z. Tỉ lệ bóng hỏng của X, Y, Z lần lượt là $1\%$, $2\%$, $3\%$. Chọn ngẫu nhiên một bóng thì thấy bóng hỏng. Tính xác suất bóng đó của nhà cung cấp Z.
+
+  **Lời giải.** Ba biến cố "của X", "của Y", "của Z" tạo thành hệ biến cố đầy đủ. Gọi $A$: "bóng hỏng". Theo công thức xác suất toàn phần:
+
+  $$P(A)=0{,}5\cdot0{,}01+0{,}3\cdot0{,}02+0{,}2\cdot0{,}03=0{,}005+0{,}006+0{,}006=0{,}017.$$
+
+  Theo công thức Bayes:
+
+  $$P(Z\mid A)=\frac{0{,}006}{0{,}017}=\frac{6}{17}\approx0{,}353.$$
+
+  Vậy xác suất bóng hỏng đó của Z khoảng $35{,}3\%$, dù Z chỉ cung cấp $20\%$ số bóng.
+  :::
+
+## Xét nghiệm bệnh hiếm
+
+[[P12·023d]]
+Bây giờ ta trả lời câu hỏi ở đầu bài bằng công thức.
+
+  :::example Xét nghiệm dương tính
+  Bệnh có ở $1\%$ dân số; xét nghiệm dương tính với $95\%$ người bệnh và với $5\%$ người không bệnh. Một người xét nghiệm dương tính. Tính xác suất người đó mắc bệnh.
+
+  **Hiểu đề.** Gọi $B$: "mắc bệnh", $A$: "dương tính". Đề cho $P(B)=0{,}01$, $P(A\mid B)=0{,}95$, $P(A\mid\overline B)=0{,}05$; cần tìm $P(B\mid A)$.
+
+  **Tìm cách giải.** Đây là câu hỏi "ngược", nên dùng công thức Bayes, mẫu số tính bằng công thức xác suất toàn phần.
+
+  **Giải.**
+
+  $$P(A)=0{,}01\cdot0{,}95+0{,}99\cdot0{,}05=0{,}0095+0{,}0495=0{,}059,$$
+
+  $$P(B\mid A)=\frac{0{,}0095}{0{,}059}=\frac{19}{118}\approx0{,}161.$$
+
+  **Nhìn lại.** Kết quả trùng với cách đếm $\dfrac{95}{590}$. Xác suất thấp vì người khoẻ đông gấp $99$ lần người bệnh: $5\%$ của một nhóm rất lớn ($0{,}0495$) lớn hơn $95\%$ của một nhóm rất nhỏ ($0{,}0095$).
+  :::
+
+[[P13·4e41]]
+Vì thế, khi xét nghiệm sàng lọc dương tính, bác sĩ thường cho xét nghiệm lại.
+
+  :::example Xét nghiệm lần thứ hai
+  Lan xét nghiệm lại bằng cùng loại xét nghiệm, và lần này vẫn dương tính. Giả sử với mỗi người, kết quả hai lần xét nghiệm độc lập với nhau. Tính xác suất Lan mắc bệnh.
+
+  **Lời giải.** Sau lần thứ nhất, xác suất Lan mắc bệnh đã là $\dfrac{19}{118}$, còn không mắc bệnh là $\dfrac{99}{118}$. Ta dùng hai số này làm xác suất ban đầu và áp dụng công thức Bayes một lần nữa (rút gọn mẫu số $118$ ở cả tử và mẫu):
+
+  $$P=\frac{19\cdot0{,}95}{19\cdot0{,}95+99\cdot0{,}05}=\frac{18{,}05}{18{,}05+4{,}95}=\frac{18{,}05}{23}\approx0{,}785.$$
+
+  Sau hai lần dương tính, xác suất mắc bệnh tăng từ khoảng $16\%$ lên khoảng $78{,}5\%$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P14·a0fe]]
+- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Sai: "xét nghiệm đúng $95\%$, nên dương tính thì $95\%$ là mắc bệnh". Lí do sai: $95\%$ là $P(\text{dương}\mid\text{bệnh})$. Đúng: $P(\text{bệnh}\mid\text{dương})=\dfrac{19}{118}\approx0{,}161$.
+- **Thiếu một nhánh.** Sai: ở ví dụ hai máy, $P(\text{lỗi})=0{,}6\cdot0{,}02=0{,}012$. Lí do sai: sản phẩm lỗi còn có thể đến từ máy II. Đúng: cộng cả hai nhánh, được $0{,}032$.
+- **Quên nhân với xác suất ban đầu.** Sai: $P(\text{máy II}\mid\text{lỗi})=\dfrac{0{,}05}{0{,}032}$. Lí do sai: tử số phải là xác suất của cả đường đi, $P(\overline B)\cdot P(A\mid\overline B)$. Đúng: $\dfrac{0{,}4\cdot0{,}05}{0{,}032}=0{,}625$.
+- **Coi $P(A\mid\overline B)=1-P(A\mid B)$.** Sai: tỉ lệ dương tính nhầm bằng $1-0{,}95=0{,}05$ "vì phần còn lại". Lí do sai: $1-P(A\mid B)$ là $P(\overline A\mid B)$, xác suất người **bệnh** âm tính. Đúng: $P(A\mid\overline B)$ là một số liệu riêng mà đề phải cho.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - công thức xác suất toàn phần | law of total probability
+  - công thức Bayes | Bayes' theorem
+  - hệ biến cố đầy đủ | partition of the sample space
+  - biến cố đối | complementary event
+  - xác suất ban đầu | prior probability
+  - xác suất sau khi biết kết quả | posterior probability
+  - dương tính giả | false positive
+  - xét nghiệm sàng lọc | screening test
+  :::
+
+## Tóm tắt
+
+[[P15·2c97]]
+- Xác suất toàn phần: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; tổng quát, cộng $P(B_i)P(A\mid B_i)$ trên một hệ biến cố đầy đủ.
+- Bayes: $P(B\mid A)=\dfrac{P(B)P(A\mid B)}{P(A)}$.
+- Trên sơ đồ cây: nhân dọc mỗi đường đi; $P(A)$ là tổng các đường đến $A$; Bayes là "một đường chia cho tổng".
+- Với bệnh hiếm, dương tính giả của nhóm người khoẻ rất đông có thể áp đảo, nên $P(\text{bệnh}\mid\text{dương})$ có thể nhỏ.
+- $P(A\mid\overline B)$ không phải $1-P(A\mid B)$.
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/total-probability-bayes – BẢN TIẾNG ANH ########
+---
+title: The law of total probability and Bayes' theorem
+description: Find a probability case by case with the law of total probability, then work backwards with Bayes' theorem, using tree diagrams and real examples.
+minutes: 20
+---
+
+  :::goals
+  - Use the law of total probability to find the probability of an event case by case.
+  - Use Bayes' theorem to find the probability of a case once the result is known.
+  - Draw a tree diagram for a two-stage problem and read both formulas from it.
+  - Explain why a positive test for a rare disease can still be unlikely to mean the disease.
+  :::
+
+[[P1·dbf1]]
+A rare disease affects $1\%$ of the population. A test gives a positive result for $95\%$ of people who have the disease, but it also gives a false positive for $5\%$ of people who do not. Lan takes the test and gets a positive result. Is the chance that Lan has the disease $95\%$?
+
+[[P2·f05b]]
+Many people, adults included, answer "yes". The right answer is much lower. This lesson gives us the tools to find it.
+
+## The law of total probability
+
+### Explore: picture $10\,000$ people
+
+[[P3·180e]]
+Instead of talking about probabilities, we imagine $10\,000$ people taking the test.
+- $1\%$ of them, that is $100$ people, have the disease. Of these, $95\%$, that is $95$ people, test positive.
+- $9\,900$ people do not have the disease. Of these, $5\%$, that is $495$ people, test positive by mistake.
+
+[[P4·76fc]]
+The total number of positive results is $95+495=590$. Of those $590$ people, only $95$ really have the disease:
+
+  $$\frac{95}{590}\approx0.161.$$
+
+[[P5·01b3]]
+So a positive result means only about a $16\%$ chance of the disease. To get $590$ we added the positive results from **two cases**: with the disease and without it. That is the idea behind the law of total probability.
+
+  :::theorem The law of total probability
+  Let $A$ and $B$ be events with $0<P(B)<1$. Then
+  $$P(A)=P(B)\cdot P(A\mid B)+P(\overline{B})\cdot P(A\mid\overline{B}).$$
+  More generally, if $B_1, B_2, \dots, B_n$ are mutually exclusive, have positive probabilities and together make up the whole sample space (we say they form a **partition of the sample space**), then
+  $$P(A)=P(B_1)P(A\mid B_1)+P(B_2)P(A\mid B_2)+\dots+P(B_n)P(A\mid B_n).$$
+  :::
+
+[[P6·3eb8]]
+**Why is it true?** The event $A$ happens either together with $B$ or together with $\overline{B}$, so $A=(A\cap B)\cup(A\cap\overline{B})$, and these two parts are mutually exclusive. By the addition rule, $P(A)=P(A\cap B)+P(A\cap\overline{B})$. Each term comes from the multiplication rule, for example $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+
+[[P7·5094]]
+On a tree diagram the formula is easy to remember: multiply along each path that leads to $A$, then add those paths.
+
+  :::example Two machines making the same item
+  A workshop has two machines making the same item. Machine I makes $60\%$ of the items, with a defect rate of $2\%$; machine II makes $40\%$, with a defect rate of $5\%$. One item from the workshop is picked at random. Find the probability that it is defective.
+
+  **Solution.** Let $B$ be "made by machine I" and $A$ be "defective". We are given $P(B)=0.6$, $P(A\mid B)=0.02$, $P(\overline B)=0.4$ and $P(A\mid\overline B)=0.05$. We add the two paths that lead to "defective":
+
+  $$P(A)=0.6\cdot0.02+0.4\cdot0.05=0.012+0.02=0.032.$$
+
+  So the probability that the item is defective is $0.032$, that is $3.2\%$.
+  :::
+
+:::diagram Tree diagram for the two machines
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bayes' theorem
+
+[[P8·3030]]
+The next question is often a "backwards" one: we have seen the result $A$, so how likely is it that it came from case $B$? We need $P(B\mid A)$, while we are only given $P(A\mid B)$.
+
+  :::theorem Bayes' theorem
+  Let $A$ and $B$ be events with $P(A)>0$ and $0<P(B)<1$. Then
+  $$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{P(B)\cdot P(A\mid B)}{P(B)\cdot P(A\mid B)+P(\overline B)\cdot P(A\mid\overline B)}.$$
+  For a partition $B_1, \dots, B_n$: $P(B_i\mid A)=\dfrac{P(B_i)\cdot P(A\mid B_i)}{P(A)}$.
+  :::
+
+[[P9·4ca5]]
+**Why is it true?** By definition, $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$. The numerator is rewritten with the multiplication rule, $P(A\cap B)=P(B)\cdot P(A\mid B)$; the denominator with the law of total probability. On a tree diagram: **the numerator is one path, the denominator is the sum of all paths leading to $A$**.
+
+  :::example Which machine made the defective item?
+  Continuing the two-machine example, an item is picked at random and found to be defective. Find the probability that it was made by machine II.
+
+  **Solution.** The numerator is the path "machine II, then defective", and the denominator is $P(A)=0.032$ found above:
+
+  $$P(\overline B\mid A)=\frac{0.4\cdot0.05}{0.032}=\frac{0.02}{0.032}=0.625.$$
+
+  Machine II makes only $40\%$ of the items but accounts for $62.5\%$ of the defective ones, because its defect rate is higher.
+  :::
+
+[[P10·31ea]]
+Choosing a box and then drawing a ball is a two-stage problem of the same kind.
+
+  :::example Two boxes of balls
+  Box I holds $3$ red and $2$ white balls; box II holds $1$ red and $4$ white balls. A fair coin is tossed: heads chooses box I and tails chooses box II, and then one ball is drawn at random from the chosen box. Find the probability of drawing a red ball. If the ball is red, what is the probability that it came from box I?
+
+  **Solution.** Let $H$ be "box I is chosen" and $D$ be "a red ball is drawn". We have $P(H)=P(\overline H)=\dfrac12$, $P(D\mid H)=\dfrac35$ and $P(D\mid\overline H)=\dfrac15$. By the law of total probability:
+
+  $$P(D)=\frac12\cdot\frac35+\frac12\cdot\frac15=\frac{3}{10}+\frac1{10}=\frac25.$$
+
+  By Bayes' theorem:
+
+  $$P(H\mid D)=\frac{3/10}{2/5}=\frac34.$$
+
+  So $P(D)=\dfrac25$ and $P(H\mid D)=\dfrac34$.
+  :::
+
+[[P11·7e35]]
+With more than two cases, we use the general form of both formulas.
+
+  :::example Three suppliers
+  A shop buys light bulbs from three suppliers: $50\%$ from X, $30\%$ from Y and $20\%$ from Z. The proportions of faulty bulbs from X, Y and Z are $1\%$, $2\%$ and $3\%$. A bulb chosen at random turns out to be faulty. Find the probability that it came from supplier Z.
+
+  **Solution.** The three events "from X", "from Y", "from Z" form a partition of the sample space. Let $A$ be "the bulb is faulty". By the law of total probability:
+
+  $$P(A)=0.5\cdot0.01+0.3\cdot0.02+0.2\cdot0.03=0.005+0.006+0.006=0.017.$$
+
+  By Bayes' theorem:
+
+  $$P(Z\mid A)=\frac{0.006}{0.017}=\frac{6}{17}\approx0.353.$$
+
+  So the probability that the faulty bulb came from Z is about $35.3\%$, even though Z supplies only $20\%$ of the bulbs.
+  :::
+
+## A test for a rare disease
+
+[[P12·8a22]]
+Now we answer the question from the start with the formulas.
+
+  :::example A positive test
+  The disease affects $1\%$ of the population; the test is positive for $95\%$ of people with the disease and for $5\%$ of people without it. A person tests positive. Find the probability that this person has the disease.
+
+  **Understand.** Let $B$ be "has the disease" and $A$ be "tests positive". We are given $P(B)=0.01$, $P(A\mid B)=0.95$, $P(A\mid\overline B)=0.05$, and we want $P(B\mid A)$.
+
+  **Plan.** This is a "backwards" question, so we use Bayes' theorem, with the denominator from the law of total probability.
+
+  **Solve.**
+
+  $$P(A)=0.01\cdot0.95+0.99\cdot0.05=0.0095+0.0495=0.059,$$
+
+  $$P(B\mid A)=\frac{0.0095}{0.059}=\frac{19}{118}\approx0.161.$$
+
+  **Look back.** The result agrees with the count $\dfrac{95}{590}$. The probability is low because the healthy people outnumber the sick ones $99$ to $1$: $5\%$ of a very large group ($0.0495$) is more than $95\%$ of a very small group ($0.0095$).
+  :::
+
+[[P13·ab72]]
+That is why, after a positive screening test, doctors usually order a second test.
+
+  :::example A second test
+  Lan retakes the same kind of test, and again it is positive. Assume that, for each person, the results of the two tests are independent. Find the probability that Lan has the disease.
+
+  **Solution.** After the first test, the probability that Lan has the disease is already $\dfrac{19}{118}$, and that she does not is $\dfrac{99}{118}$. We use these as the starting probabilities and apply Bayes' theorem again (the denominator $118$ cancels top and bottom):
+
+  $$P=\frac{19\cdot0.95}{19\cdot0.95+99\cdot0.05}=\frac{18.05}{18.05+4.95}=\frac{18.05}{23}\approx0.785.$$
+
+  After two positive tests, the probability of the disease rises from about $16\%$ to about $78.5\%$.
+  :::
+
+:::warning Common mistakes
+[[P14·f841]]
+- **Mixing up $P(A\mid B)$ and $P(B\mid A)$.** Wrong: "the test is $95\%$ accurate, so a positive result means a $95\%$ chance of the disease". Why it is wrong: $95\%$ is $P(\text{positive}\mid\text{disease})$. Right: $P(\text{disease}\mid\text{positive})=\dfrac{19}{118}\approx0.161$.
+- **Missing a branch.** Wrong: in the two-machine example, $P(\text{defective})=0.6\cdot0.02=0.012$. Why it is wrong: a defective item can also come from machine II. Right: add both branches to get $0.032$.
+- **Forgetting to multiply by the starting probability.** Wrong: $P(\text{machine II}\mid\text{defective})=\dfrac{0.05}{0.032}$. Why it is wrong: the numerator must be the probability of the whole path, $P(\overline B)\cdot P(A\mid\overline B)$. Right: $\dfrac{0.4\cdot0.05}{0.032}=0.625$.
+- **Taking $P(A\mid\overline B)=1-P(A\mid B)$.** Wrong: the false positive rate is $1-0.95=0.05$ "because it is the rest". Why it is wrong: $1-P(A\mid B)$ is $P(\overline A\mid B)$, the probability that a **sick** person tests negative. Right: $P(A\mid\overline B)$ is a separate figure that the problem must give.
+:::
+
+## Key terms
+
+  :::terms
+  - law of total probability | công thức xác suất toàn phần
+  - Bayes' theorem | công thức Bayes
+  - partition of the sample space | hệ biến cố đầy đủ
+  - complementary event | biến cố đối
+  - prior probability | xác suất ban đầu
+  - posterior probability | xác suất sau khi biết kết quả
+  - false positive | dương tính giả
+  - screening test | xét nghiệm sàng lọc
+  :::
+
+## Summary
+
+[[P15·1829]]
+- Total probability: $P(A)=P(B)P(A\mid B)+P(\overline B)P(A\mid\overline B)$; in general, add $P(B_i)P(A\mid B_i)$ over a partition.
+- Bayes: $P(B\mid A)=\dfrac{P(B)P(A\mid B)}{P(A)}$.
+- On a tree diagram: multiply along each path; $P(A)$ is the sum of the paths to $A$; Bayes is "one path divided by the sum".
+- For a rare disease, the false positives from the huge healthy group can dominate, so $P(\text{disease}\mid\text{positive})$ can be small.
+- $P(A\mid\overline B)$ is not $1-P(A\mid B)$.
+
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/vector-coordinate-operations – BẢN TIẾNG VIỆT ########
+---
+title: Biểu thức toạ độ của các phép toán vectơ
+description: Cộng, trừ, nhân vectơ với một số và tính tích vô hướng bằng toạ độ trong Oxyz; tìm độ dài, góc, xét vuông góc, cùng phương và giải bài toán hình học.
+minutes: 24
+---
+
+  :::goals
+  - Cộng, trừ, nhân vectơ với một số theo toạ độ trong không gian.
+  - Tính tích vô hướng $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ và độ dài $|\vec{a}|$.
+  - Tính góc giữa hai vectơ; nhận biết hai vectơ vuông góc, cùng phương.
+  - Dùng toạ độ để tìm đỉnh hình bình hành, góc của tam giác, chứng minh vuông góc.
+  :::
+
+[[P1·1ef5]]
+Một chiếc lều cắm trại có cột dựng thẳng đứng, đỉnh cột ở độ cao $3$ m. Hai sợi dây néo đi từ đỉnh cột xuống hai cọc trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 3)$, hai cọc là $P(2; -1; 0)$ và $Q(-1; 2; 0)$. Hai sợi dây hợp với nhau một góc bao nhiêu độ?
+
+[[P2·2cb9]]
+Bài trước cho ta toạ độ của điểm và vectơ. Bài này biến mọi phép toán vectơ, kể cả tích vô hướng, thành phép tính trên các con số, nên câu hỏi trên chỉ còn là vài phép nhân và cộng.
+
+## Cộng, trừ và nhân với một số
+
+[[P3·be9f]]
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, ta gom các số hạng cùng vectơ đơn vị:
+  $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
+[[P4·23f0]]
+Hiệu và tích với một số làm tương tự.
+
+  :::theorem Các phép toán theo toạ độ
+  Cho $\vec{a}=(x_1; y_1; z_1)$, $\vec{b}=(x_2; y_2; z_2)$ và số $k$. Khi đó
+  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2;\ z_1+z_2)$, $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2;\ z_1-z_2)$;
+  - $k\vec{a}=(kx_1;\ ky_1;\ kz_1)$;
+  - với $\vec{a}\neq\vec{0}$: $\vec{b}$ cùng phương với $\vec{a}$ khi và chỉ khi có số $k$ sao cho $\vec{b}=k\vec{a}$, tức $x_2=kx_1$, $y_2=ky_1$, $z_2=kz_1$.
+  :::
+
+  :::example Kết hợp các vectơ
+  Cho $\vec{a}=(1; -2; 3)$ và $\vec{b}=(2; 0; -1)$. Tìm $\vec{a}+\vec{b}$ và $2\vec{a}-3\vec{b}$.
+
+  **Lời giải.** Ta làm từng toạ độ. Với biểu thức thứ hai, nhân trước rồi trừ:
+
+  $$\vec{a}+\vec{b}=(3; -2; 2),\qquad 2\vec{a}=(2; -4; 6),\quad 3\vec{b}=(6; 0; -3),\quad 2\vec{a}-3\vec{b}=(-4; -4; 9).$$
+
+  Vậy $\vec{a}+\vec{b}=(3; -2; 2)$ và $2\vec{a}-3\vec{b}=(-4; -4; 9)$.
+  :::
+
+[[P5·8e9f]]
+Điều kiện cùng phương cho ta cách kiểm tra ba điểm thẳng hàng: $A$, $B$, $C$ thẳng hàng khi và chỉ khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+  :::example Ba điểm thẳng hàng và hai vectơ cùng phương
+  a) Chứng minh $A(1; 2; -1)$, $B(3; 1; 1)$, $C(7; -1; 5)$ thẳng hàng.
+
+  b) Tìm $x$, $y$ để $\vec{u}=(2; x; -4)$ và $\vec{v}=(-1; 3; y)$ cùng phương.
+
+  **Lời giải.** a) Ta so sánh $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(2; -1; 2),\qquad \overrightarrow{AC}=(6; -3; 6)=3\overrightarrow{AB}.$$
+
+  Hai vectơ cùng phương và chung điểm $A$, nên $A$, $B$, $C$ thẳng hàng.
+
+  b) Toạ độ thứ nhất của $\vec{v}$ khác $0$ và đã biết, nên tìm $k$ từ đó: $\vec{u}=k\vec{v}$ cần $2=k\cdot(-1)$, tức $k=-2$. Hai toạ độ còn lại phải khớp:
+
+  $$x=-2\cdot3=-6,\qquad -4=-2y\iff y=2.$$
+
+  Vậy $x=-6$, $y=2$, và $\vec{u}=-2\vec{v}$.
+  :::
+
+## Tích vô hướng theo toạ độ
+
+### Khám phá: nhân phân phối với $\vec{i}$, $\vec{j}$, $\vec{k}$
+
+[[P6·a86c]]
+Ta tính thử $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ bằng cách nhân phân phối. Có bốn tích:
+  $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
+[[P7·cd16]]
+Vì $\vec{i}\cdot\vec{i}=1$ còn các tích của hai vectơ đơn vị khác nhau bằng $0$, chỉ còn $3$. Đó đúng bằng $1\cdot3+2\cdot0+0\cdot1$: nhân các toạ độ cùng vị trí rồi cộng lại.
+
+  :::theorem Tích vô hướng, độ dài, góc
+  Cho $\vec{a}=(x_1; y_1; z_1)$ và $\vec{b}=(x_2; y_2; z_2)$. Khi đó
+  $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2,\qquad |\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}.$$
+  Với $\vec{a}$, $\vec{b}$ khác $\vec{0}$:
+  $$\cos(\vec{a}, \vec{b})=\frac{x_1x_2+y_1y_2+z_1z_2}{\sqrt{x_1^2+y_1^2+z_1^2}\cdot\sqrt{x_2^2+y_2^2+z_2^2}},\qquad \vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2+z_1z_2=0.$$
+  :::
+
+[[P8·780b]]
+**Vì sao đúng?** Nhân phân phối $\vec{a}\cdot\vec{b}$ như phần Khám phá cho chín tích; sáu tích của hai vectơ đơn vị khác nhau bằng $0$, ba tích còn lại là $x_1x_2$, $y_1y_2$, $z_1z_2$. Lấy $\vec{b}=\vec{a}$ ta được $|\vec{a}|^2=\vec{a}\cdot\vec{a}=x_1^2+y_1^2+z_1^2$.
+
+  :::example Tích vô hướng, góc và vuông góc
+  Cho $\vec{a}=(1; 2; 2)$, $\vec{b}=(2; -1; 2)$, $\vec{c}=(2; 1; -2)$. Tính góc $(\vec{a}, \vec{b})$ và chứng minh $\vec{a}\perp\vec{c}$.
+
+  **Lời giải.** Tính tích vô hướng và hai độ dài:
+
+  $$\vec{a}\cdot\vec{b}=2-2+4=4,\qquad |\vec{a}|=\sqrt{1+4+4}=3,\qquad |\vec{b}|=\sqrt{4+1+4}=3.$$
+
+  Thay vào công thức góc:
+
+  $$\cos(\vec{a}, \vec{b})=\frac{4}{3\cdot3}=\frac49,\qquad (\vec{a}, \vec{b})\approx63{,}6^\circ.$$
+
+  Còn $\vec{a}\cdot\vec{c}=2+2-4=0$, nên $\vec{a}\perp\vec{c}$.
+
+  Vậy $(\vec{a}, \vec{b})\approx63{,}6^\circ$ và $\vec{a}\perp\vec{c}$.
+  :::
+
+[[P9·7f67]]
+Bây giờ ta trả lời câu hỏi chiếc lều. Góc giữa hai sợi dây là góc giữa hai vectơ cùng xuất phát từ đỉnh cột.
+
+:::diagram Cột lều và hai sợi dây néo
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Góc giữa hai sợi dây néo
+  Với $T(0; 0; 3)$, $P(2; -1; 0)$, $Q(-1; 2; 0)$ (đơn vị: mét), tính góc $\widehat{PTQ}$ (làm tròn đến hàng phần mười của độ) và độ dài mỗi sợi dây.
+
+  **Lời giải.** Góc $\widehat{PTQ}$ là góc giữa $\overrightarrow{TP}$ và $\overrightarrow{TQ}$, hai vectơ chung điểm đầu $T$:
+
+  $$\overrightarrow{TP}=(2; -1; -3),\qquad \overrightarrow{TQ}=(-1; 2; -3),\qquad \overrightarrow{TP}\cdot\overrightarrow{TQ}=-2-2+9=5.$$
+
+  Hai sợi dây dài bằng nhau:
+
+  $$TP=TQ=\sqrt{4+1+9}=\sqrt{14}\approx3{,}74,\qquad \cos\widehat{PTQ}=\frac{5}{\sqrt{14}\cdot\sqrt{14}}=\frac{5}{14}.$$
+
+  Vậy hai sợi dây hợp với nhau góc khoảng $69{,}1^\circ$, mỗi sợi dài khoảng $3{,}74$ m.
+
+  **Kiểm tra.** $\cos\widehat{PTQ}>0$ nên góc nhọn, phù hợp với hình ảnh hai sợi dây cùng chĩa xuống đất.
+  :::
+
+## Giải bài toán hình học bằng toạ độ
+
+[[P10·6eeb]]
+Khi đã có toạ độ, nhiều câu hỏi hình học trở thành tính toán: hình bình hành $ABCD$ cần $\overrightarrow{AD}=\overrightarrow{BC}$, hai đường thẳng vuông góc cần tích vô hướng bằng $0$.
+
+  :::example Đỉnh thứ tư của hình bình hành
+  Cho $A(1; 0; 2)$, $B(2; 3; -1)$, $C(0; 4; 1)$. Chứng minh $A$, $B$, $C$ không thẳng hàng và tìm $D$ để $ABCD$ là hình bình hành.
+
+  **Lời giải.** Trước hết, $\overrightarrow{AB}=(1; 3; -3)$ và $\overrightarrow{AC}=(-1; 4; -1)$. Nếu $\overrightarrow{AC}=k\overrightarrow{AB}$ thì toạ độ đầu cho $k=-1$, nhưng toạ độ thứ hai cần $4=-3$, vô lí. Vậy ba điểm không thẳng hàng.
+
+  Gọi $D(x; y; z)$. $ABCD$ là hình bình hành khi $\overrightarrow{AD}=\overrightarrow{BC}$:
+
+  $$(x-1;\ y;\ z-2)=(-2; 1; 2)\iff x=-1,\ y=1,\ z=4.$$
+
+  Vậy $D(-1; 1; 4)$.
+
+  **Kiểm tra.** Trung điểm của $AC$ là $\left(\frac12; 2; \frac32\right)$, trùng trung điểm của $BD$.
+  :::
+
+[[P11·8d54]]
+Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+
+  :::example Đường chéo của hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Chứng minh $A'C\perp BD$ và tính góc giữa $\overrightarrow{A'C}$ và $\overrightarrow{AB}$.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần một tích vô hướng bằng $0$ và một góc giữa hai vectơ trong hình lập phương.
+
+  *Tìm cách giải.* Đặt hình lập phương vào hệ $Oxyz$ với $A$ ở gốc, $B$ trên $Ox$, $D$ trên $Oy$, $A'$ trên $Oz$, rồi tính bằng toạ độ.
+
+  *Giải.* Ta có $A(0; 0; 0)$, $B(1; 0; 0)$, $C(1; 1; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Khi đó:
+
+  $$\overrightarrow{A'C}=(1; 1; -1),\qquad \overrightarrow{BD}=(-1; 1; 0),\qquad \overrightarrow{A'C}\cdot\overrightarrow{BD}=-1+1+0=0.$$
+
+  Vậy $A'C\perp BD$. Với $\overrightarrow{AB}=(1; 0; 0)$:
+
+  $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1}{\sqrt3}\approx0{,}577,\qquad (\overrightarrow{A'C}, \overrightarrow{AB})\approx54{,}7^\circ.$$
+
+  *Nhìn lại.* Hệ toạ độ biến một chứng minh hình học không gian thành một phép tính ba dòng. Bước quan trọng nhất là đặt hình vào hệ trục sao cho nhiều toạ độ bằng $0$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·afe1]]
+- **Coi tích vô hướng là vectơ.** Sai: $(1; 2; 2)\cdot(2; -1; 2)=(2; -2; 4)$. Vì sao sai: tích vô hướng là một số. Đúng: $2-2+4=4$.
+- **Quên căn khi tính độ dài.** Sai: $|(1; 2; 2)|=1+4+4=9$. Đúng: $|(1; 2; 2)|=\sqrt9=3$.
+- **Xét cùng phương bằng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2; 4)$ và $(0; 1; 2)$, tỉ số $\frac00$ vô nghĩa. Đúng: tìm $k$ từ một toạ độ khác $0$: $(0; 2; 4)=2(0; 1; 2)$, nên hai vectơ cùng phương.
+- **Lấy góc giữa hai vectơ không chung điểm đầu.** Sai: dùng $\overrightarrow{PT}$ và $\overrightarrow{TQ}$ để tính $\widehat{PTQ}$. Vì sao sai: $\overrightarrow{PT}=-\overrightarrow{TP}$ đổi dấu cosin, cho góc $180^\circ-69{,}1^\circ$. Đúng: dùng $\overrightarrow{TP}$ và $\overrightarrow{TQ}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu thức toạ độ | component form
+  - tích vô hướng | scalar product (dot product)
+  - độ dài của vectơ | length of a vector
+  - góc giữa hai vectơ | angle between two vectors
+  - hai vectơ vuông góc | perpendicular vectors
+  - hai vectơ cùng phương | parallel (collinear) vectors
+  - ba điểm thẳng hàng | collinear points
+  - hình bình hành | parallelogram
+  :::
+
+## Tóm tắt
+
+[[P13·c700]]
+- Cộng, trừ, nhân với một số: làm trên từng toạ độ.
+- $\vec{b}$ cùng phương $\vec{a}\neq\vec{0}$ $\iff$ $\vec{b}=k\vec{a}$; $A$, $B$, $C$ thẳng hàng $\iff$ $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
+- $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ (một số); $|\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}$.
+- $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- Góc $\widehat{BAC}$ của tam giác là góc giữa $\overrightarrow{AB}$ và $\overrightarrow{AC}$.
+- Hình bình hành $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/vector-coordinate-operations – BẢN TIẾNG ANH ########
+---
+title: Operations on vectors in coordinates
+description: Add, subtract, scale vectors and take scalar products in Oxyz coordinates; find lengths and angles, test perpendicular and collinear vectors, solve geometry.
+minutes: 24
+---
+
+  :::goals
+  - Add, subtract and multiply vectors by a number using coordinates in space.
+  - Compute the scalar product (dot product) $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ and the length $|\vec{a}|$.
+  - Find the angle between two vectors; recognise perpendicular and collinear vectors.
+  - Use coordinates to find a vertex of a parallelogram, an angle of a triangle, and to prove perpendicularity.
+  :::
+
+[[P1·8cb8]]
+A camping tent has a vertical pole whose top is $3$ m above the ground. Two guy ropes run from the top of the pole down to two pegs in the ground. With the foot of the pole at the origin and the metre as unit, the top of the pole is $T(0, 0, 3)$ and the pegs are $P(2, -1, 0)$ and $Q(-1, 2, 0)$. What angle do the two ropes make with each other?
+
+[[P2·adcd]]
+The previous lesson gave us coordinates of points and vectors. This lesson turns every vector operation, the scalar product included, into arithmetic on numbers, so the question above needs only a few multiplications and additions.
+
+## Addition, subtraction and multiplication by a number
+
+[[P3·f13b]]
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, we collect the terms with the same unit vector:
+  $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
+[[P4·ac6a]]
+The difference and the product with a number work the same way.
+
+  :::theorem Operations in coordinates
+  Let $\vec{a}=(x_1, y_1, z_1)$, $\vec{b}=(x_2, y_2, z_2)$ and let $k$ be a number. Then
+  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2,\ z_1+z_2)$, $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2,\ z_1-z_2)$;
+  - $k\vec{a}=(kx_1,\ ky_1,\ kz_1)$;
+  - for $\vec{a}\neq\vec{0}$: $\vec{b}$ is collinear with $\vec{a}$ if and only if there is a number $k$ with $\vec{b}=k\vec{a}$, that is $x_2=kx_1$, $y_2=ky_1$, $z_2=kz_1$.
+  :::
+
+  :::example Combining vectors
+  Let $\vec{a}=(1, -2, 3)$ and $\vec{b}=(2, 0, -1)$. Find $\vec{a}+\vec{b}$ and $2\vec{a}-3\vec{b}$.
+
+  **Solution.** We work coordinate by coordinate. For the second expression, multiply first, then subtract:
+
+  $$\vec{a}+\vec{b}=(3, -2, 2),\qquad 2\vec{a}=(2, -4, 6),\quad 3\vec{b}=(6, 0, -3),\quad 2\vec{a}-3\vec{b}=(-4, -4, 9).$$
+
+  So $\vec{a}+\vec{b}=(3, -2, 2)$ and $2\vec{a}-3\vec{b}=(-4, -4, 9)$.
+  :::
+
+[[P5·e153]]
+The collinearity condition gives a test for three points on a line: $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+  :::example Three collinear points and two collinear vectors
+  a) Prove that $A(1, 2, -1)$, $B(3, 1, 1)$, $C(7, -1, 5)$ are collinear.
+
+  b) Find $x$, $y$ such that $\vec{u}=(2, x, -4)$ and $\vec{v}=(-1, 3, y)$ are collinear.
+
+  **Solution.** a) We compare $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(2, -1, 2),\qquad \overrightarrow{AC}=(6, -3, 6)=3\overrightarrow{AB}.$$
+
+  The two vectors are collinear and share the point $A$, so $A$, $B$, $C$ are collinear.
+
+  b) The first coordinate of $\vec{v}$ is known and non-zero, so we find $k$ from it: $\vec{u}=k\vec{v}$ needs $2=k\cdot(-1)$, that is $k=-2$. The other two coordinates must match:
+
+  $$x=-2\cdot3=-6,\qquad -4=-2y\iff y=2.$$
+
+  So $x=-6$, $y=2$, and $\vec{u}=-2\vec{v}$.
+  :::
+
+## The scalar product in coordinates
+
+### Exploring: expanding with $\vec{i}$, $\vec{j}$, $\vec{k}$
+
+[[P6·29f5]]
+Let us compute $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ by expanding. There are four products:
+  $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
+[[P7·96f0]]
+Since $\vec{i}\cdot\vec{i}=1$ while products of two different unit vectors are $0$, only $3$ is left. That is exactly $1\cdot3+2\cdot0+0\cdot1$: multiply the coordinates in the same position and add.
+
+  :::theorem Dot product, length, angle
+  Let $\vec{a}=(x_1, y_1, z_1)$ and $\vec{b}=(x_2, y_2, z_2)$. Then
+  $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2,\qquad |\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}.$$
+  For non-zero $\vec{a}$, $\vec{b}$:
+  $$\cos(\vec{a}, \vec{b})=\frac{x_1x_2+y_1y_2+z_1z_2}{\sqrt{x_1^2+y_1^2+z_1^2}\cdot\sqrt{x_2^2+y_2^2+z_2^2}},\qquad \vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2+z_1z_2=0.$$
+  :::
+
+[[P8·816b]]
+**Why is it true?** Expanding $\vec{a}\cdot\vec{b}$ as in the exploration gives nine products; the six products of two different unit vectors are $0$, and the remaining three are $x_1x_2$, $y_1y_2$, $z_1z_2$. Taking $\vec{b}=\vec{a}$ gives $|\vec{a}|^2=\vec{a}\cdot\vec{a}=x_1^2+y_1^2+z_1^2$.
+
+  :::example Dot product, angle and perpendicularity
+  Let $\vec{a}=(1, 2, 2)$, $\vec{b}=(2, -1, 2)$, $\vec{c}=(2, 1, -2)$. Find the angle $(\vec{a}, \vec{b})$ and prove that $\vec{a}\perp\vec{c}$.
+
+  **Solution.** Compute the scalar product and the two lengths:
+
+  $$\vec{a}\cdot\vec{b}=2-2+4=4,\qquad |\vec{a}|=\sqrt{1+4+4}=3,\qquad |\vec{b}|=\sqrt{4+1+4}=3.$$
+
+  Substitute into the angle formula:
+
+  $$\cos(\vec{a}, \vec{b})=\frac{4}{3\cdot3}=\frac49,\qquad (\vec{a}, \vec{b})\approx63.6^\circ.$$
+
+  Also $\vec{a}\cdot\vec{c}=2+2-4=0$, so $\vec{a}\perp\vec{c}$.
+
+  So $(\vec{a}, \vec{b})\approx63.6^\circ$ and $\vec{a}\perp\vec{c}$.
+  :::
+
+[[P9·375f]]
+Now we answer the tent question. The angle between the ropes is the angle between two vectors starting at the top of the pole.
+
+:::diagram The tent pole and the two guy ropes
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The angle between the guy ropes
+  With $T(0, 0, 3)$, $P(2, -1, 0)$, $Q(-1, 2, 0)$ (unit: metre), find the angle $\angle PTQ$ (to one decimal place of a degree) and the length of each rope.
+
+  **Solution.** The angle $\angle PTQ$ is the angle between $\overrightarrow{TP}$ and $\overrightarrow{TQ}$, two vectors with the common initial point $T$:
+
+  $$\overrightarrow{TP}=(2, -1, -3),\qquad \overrightarrow{TQ}=(-1, 2, -3),\qquad \overrightarrow{TP}\cdot\overrightarrow{TQ}=-2-2+9=5.$$
+
+  The two ropes have equal length:
+
+  $$TP=TQ=\sqrt{4+1+9}=\sqrt{14}\approx3.74,\qquad \cos\angle PTQ=\frac{5}{\sqrt{14}\cdot\sqrt{14}}=\frac{5}{14}.$$
+
+  So the ropes make an angle of about $69.1^\circ$, and each is about $3.74$ m long.
+
+  **Check.** $\cos\angle PTQ>0$, so the angle is acute, which fits the picture of two ropes both pointing down to the ground.
+  :::
+
+## Solving geometry problems with coordinates
+
+[[P10·a06c]]
+Once we have coordinates, many geometric questions become calculations: a parallelogram $ABCD$ needs $\overrightarrow{AD}=\overrightarrow{BC}$, and two perpendicular lines need a zero scalar product.
+
+  :::example The fourth vertex of a parallelogram
+  Let $A(1, 0, 2)$, $B(2, 3, -1)$, $C(0, 4, 1)$. Prove that $A$, $B$, $C$ are not collinear and find $D$ such that $ABCD$ is a parallelogram.
+
+  **Solution.** First, $\overrightarrow{AB}=(1, 3, -3)$ and $\overrightarrow{AC}=(-1, 4, -1)$. If $\overrightarrow{AC}=k\overrightarrow{AB}$, the first coordinate gives $k=-1$, but then the second needs $4=-3$, which is impossible. So the three points are not collinear.
+
+  Let $D(x, y, z)$. $ABCD$ is a parallelogram when $\overrightarrow{AD}=\overrightarrow{BC}$:
+
+  $$(x-1,\ y,\ z-2)=(-2, 1, 2)\iff x=-1,\ y=1,\ z=4.$$
+
+  So $D(-1, 1, 4)$.
+
+  **Check.** The midpoint of $AC$ is $\left(\frac12, 2, \frac32\right)$, the same as the midpoint of $BD$.
+  :::
+
+[[P11·bc15]]
+The last example has more steps, so we follow the four stages.
+
+  :::example Diagonals of a cube
+  Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Prove that $A'C\perp BD$ and find the angle between $\overrightarrow{A'C}$ and $\overrightarrow{AB}$.
+
+  **Solution.**
+
+  *Understand.* We need one scalar product equal to $0$ and one angle between two vectors in a cube.
+
+  *Plan.* Place the cube in $Oxyz$ with $A$ at the origin, $B$ on $Ox$, $D$ on $Oy$, $A'$ on $Oz$, and compute with coordinates.
+
+  *Solve.* We have $A(0, 0, 0)$, $B(1, 0, 0)$, $C(1, 1, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Then:
+
+  $$\overrightarrow{A'C}=(1, 1, -1),\qquad \overrightarrow{BD}=(-1, 1, 0),\qquad \overrightarrow{A'C}\cdot\overrightarrow{BD}=-1+1+0=0.$$
+
+  So $A'C\perp BD$. With $\overrightarrow{AB}=(1, 0, 0)$:
+
+  $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1}{\sqrt3}\approx0.577,\qquad (\overrightarrow{A'C}, \overrightarrow{AB})\approx54.7^\circ.$$
+
+  *Look back.* The coordinate system turns a proof in solid geometry into a three-line calculation. The key step is placing the figure so that many coordinates are $0$.
+  :::
+
+:::warning Common mistakes
+[[P12·993c]]
+- **Treating the scalar product as a vector.** Wrong: $(1, 2, 2)\cdot(2, -1, 2)=(2, -2, 4)$. Why it is wrong: the scalar product is a number. Right: $2-2+4=4$.
+- **Forgetting the square root for a length.** Wrong: $|(1, 2, 2)|=1+4+4=9$. Right: $|(1, 2, 2)|=\sqrt9=3$.
+- **Testing collinearity with ratios when a coordinate is $0$.** For $(0, 2, 4)$ and $(0, 1, 2)$ the ratio $\frac00$ is meaningless. Right: find $k$ from a non-zero coordinate: $(0, 2, 4)=2(0, 1, 2)$, so the vectors are collinear.
+- **Taking the angle between vectors that do not share a starting point.** Wrong: using $\overrightarrow{PT}$ and $\overrightarrow{TQ}$ to find $\angle PTQ$. Why it is wrong: $\overrightarrow{PT}=-\overrightarrow{TP}$ changes the sign of the cosine and gives $180^\circ-69.1^\circ$. Right: use $\overrightarrow{TP}$ and $\overrightarrow{TQ}$.
+:::
+
+## Key terms
+
+  :::terms
+  - component form | biểu thức toạ độ
+  - scalar product (dot product) | tích vô hướng
+  - length of a vector | độ dài của vectơ
+  - angle between two vectors | góc giữa hai vectơ
+  - perpendicular vectors | hai vectơ vuông góc
+  - parallel (collinear) vectors | hai vectơ cùng phương
+  - collinear points | ba điểm thẳng hàng
+  - parallelogram | hình bình hành
+  :::
+
+## Summary
+
+[[P13·b6b6]]
+- Add, subtract, multiply by a number: work on each coordinate.
+- $\vec{b}$ is collinear with $\vec{a}\neq\vec{0}$ $\iff$ $\vec{b}=k\vec{a}$; $A$, $B$, $C$ are collinear $\iff$ $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
+- $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ (a number); $|\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}$.
+- $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- The angle $\angle BAC$ of a triangle is the angle between $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
+- Parallelogram $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

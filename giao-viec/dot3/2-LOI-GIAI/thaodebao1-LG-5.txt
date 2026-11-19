@@ -1,0 +1,1029 @@
+######################################################################
+TÀI KHOẢN: thaodebao1   |   FILE: thaodebao1-LG-5   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thaodebao1-LG-5-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – thaodebao1-LG-5
+Người làm: tài khoản thaodebao1. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/thaodebao1-LG-5-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/thaodebao1-LG-5-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g12/grouped-variance-sd (9 bài tập)
+- g12/integral-applications (9 bài tập)
+- g12/line-equation-space (10 bài tập)
+- g12/max-min-values (4 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/grouped-variance-sd
+Bài học: Phương sai và độ lệch chuẩn / Variance and standard deviation of grouped data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thời gian dùng điện thoại mỗi ngày (giờ) của $20$ học sinh được cho trong bảng. Tính $s^2$ và $s$ bằng công thức định nghĩa.
+
+| Thời gian (giờ) | $[0; 4)$ | $[4; 8)$ | $[8; 12)$ | $[12; 16)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $7$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; các độ lệch $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6,\qquad s\approx3{,}69.$$
+
+**Đáp số.** $s^2=13{,}6$; $s\approx3{,}69$ giờ.
+
+[ĐỀ – EN]
+The daily phone use (hours) of $20$ students is given in the table. Find $s^2$ and $s$ with the definition.
+
+| Time (hours) | $[0, 4)$ | $[4, 8)$ | $[8, 12)$ | $[12, 16)$ |
+|---|---|---|---|---|
+| Students | $3$ | $7$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; the deviations are $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13.6,\qquad s\approx3.69.$$
+
+**Answer.** $s^2=13.6$; $s\approx3.69$ hours.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điểm kiểm tra của $40$ học sinh được ghép nhóm như sau. Lập bảng tính và tìm $\bar{x}$, $s^2$, $s$.
+
+| Điểm | $[4; 5)$ | $[5; 6)$ | $[6; 7)$ | $[7; 8)$ | $[8; 9)$ | $[9; 10)$ |
+|---|---|---|---|---|---|---|
+| Số học sinh | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$\sum n_ix_i=9+27{,}5+58{,}5+105+59{,}5+28{,}5=288$ và $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7{,}2,\qquad s^2=\frac{2136}{40}-7{,}2^2=53{,}4-51{,}84=1{,}56,\qquad s\approx1{,}25.$$
+
+**Đáp số.** $\bar{x}=7{,}2$; $s^2=1{,}56$; $s\approx1{,}25$.
+
+[ĐỀ – EN]
+The test marks of $40$ students are grouped as follows. Draw up the table and find $\bar{x}$, $s^2$, $s$.
+
+| Mark | $[4, 5)$ | $[5, 6)$ | $[6, 7)$ | $[7, 8)$ | $[8, 9)$ | $[9, 10)$ |
+|---|---|---|---|---|---|---|
+| Students | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$\sum n_ix_i=9+27.5+58.5+105+59.5+28.5=288$ and $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7.2,\qquad s^2=\frac{2136}{40}-7.2^2=53.4-51.84=1.56,\qquad s\approx1.25.$$
+
+**Answer.** $\bar{x}=7.2$; $s^2=1.56$; $s\approx1.25$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hai đơn vị giao hàng P và Q ghi lại thời gian giao (phút) của $40$ đơn hàng mỗi bên.
+
+| Thời gian (phút) | $[20; 25)$ | $[25; 30)$ | $[30; 35)$ | $[35; 40)$ | $[40; 45)$ |
+|---|---|---|---|---|---|
+| Đơn vị P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Đơn vị Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Tính thời gian trung bình và độ lệch chuẩn của mỗi đơn vị. Đơn vị nào giao hàng đúng hẹn ổn định hơn?
+
+[LỜI GIẢI CŨ – VI]
+Cả hai có $\bar{x}=32{,}5$ phút.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22{,}5,\ s\approx4{,}74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7{,}07.$$
+
+**Đáp số.** Trung bình $32{,}5$ phút; $s\approx4{,}74$ (P) và $s\approx7{,}07$ (Q). Đơn vị P ổn định hơn.
+
+[ĐỀ – EN]
+Two delivery services P and Q recorded the delivery times (minutes) of $40$ orders each.
+
+| Time (minutes) | $[20, 25)$ | $[25, 30)$ | $[30, 35)$ | $[35, 40)$ | $[40, 45)$ |
+|---|---|---|---|---|---|
+| Service P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Service Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Find the mean time and the standard deviation for each service. Which service delivers more reliably on time?
+
+[LỜI GIẢI CŨ – EN]
+Both have $\bar{x}=32.5$ minutes.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22.5,\ s\approx4.74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7.07.$$
+
+**Answer.** Mean $32.5$ minutes; $s\approx4.74$ (P) and $s\approx7.07$ (Q). Service P is more reliable.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho mẫu số liệu ghép nhóm sau.
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $1$ | $4$ | $4$ | $1$ |
+
+Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình bằng $20$.
+
+b) Phương sai bằng $65$.
+
+c) Độ lệch chuẩn lớn hơn $9$.
+
+d) Nếu mọi giá trị tăng thêm $5$ (các nhóm thành $[5; 15)$, …, $[35; 45)$) thì phương sai bằng $70$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **Đúng.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **Sai.** $s=\sqrt{65}\approx8{,}06<9$.
+
+d) **Sai.** Trung điểm và $\bar{x}$ cùng tăng $5$, các độ lệch giữ nguyên, nên phương sai vẫn bằng $65$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Consider the following grouped data.
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $1$ | $4$ | $4$ | $1$ |
+
+Is each claim true or false?
+
+a) The mean is $20$.
+
+b) The variance is $65$.
+
+c) The standard deviation is greater than $9$.
+
+d) If every value is increased by $5$ (the classes become $[5, 15)$, …, $[35, 45)$), the variance becomes $70$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **True.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **False.** $s=\sqrt{65}\approx8.06<9$.
+
+d) **False.** The midpoints and $\bar{x}$ all increase by $5$, so the deviations are unchanged and the variance is still $65$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chiều cao (cm) của $50$ học sinh được cho trong bảng. Tính độ lệch chuẩn (đơn vị: cm, làm tròn đến hàng phần trăm).
+
+| Chiều cao (cm) | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $12$ | $18$ | $10$ | $5$ |
+
+[LỜI GIẢI CŨ – VI]
+$\sum n_ix_i=8115$, nên $\bar{x}=162{,}3$; $\sum n_ix_i^2=1318612{,}5$.
+$$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96,\qquad s\approx5{,}564.$$
+
+**Đáp số.** $5{,}56$.
+
+[ĐỀ – EN]
+The heights (cm) of $50$ students are given in the table. Find the standard deviation (in cm, to two decimal places).
+
+| Height (cm) | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ | $[170, 175)$ |
+|---|---|---|---|---|---|
+| Students | $5$ | $12$ | $18$ | $10$ | $5$ |
+
+[LỜI GIẢI CŨ – EN]
+$\sum n_ix_i=8115$, so $\bar{x}=162.3$; $\sum n_ix_i^2=1318612.5$.
+$$s^2=\frac{1318612.5}{50}-162.3^2=26372.25-26341.29=30.96,\qquad s\approx5.564.$$
+
+**Answer.** $5.56$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+(Ôn lại số trung bình của mẫu số liệu ghép nhóm, lớp 11.) Thời gian (phút) hoàn thành một bài tập của $20$ học sinh được cho trong bảng. Tính $\bar{x}$, rồi tính $s$.
+
+| Thời gian (phút) | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $9$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28{,}5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28{,}5^2=885-812{,}25=72{,}75,\qquad s\approx8{,}53.$$
+
+**Đáp số.** $\bar{x}=28{,}5$ phút; $s\approx8{,}53$ phút.
+
+[ĐỀ – EN]
+(Revisiting the mean of grouped data, grade 11.) The times (minutes) that $20$ students took to finish an assignment are given in the table. Find $\bar{x}$, then $s$.
+
+| Time (minutes) | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
+|---|---|---|---|---|
+| Students | $3$ | $9$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28.5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28.5^2=885-812.25=72.75,\qquad s\approx8.53.$$
+
+**Answer.** $\bar{x}=28.5$ minutes; $s\approx8.53$ minutes.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+(Ôn lại [Khoảng biến thiên và khoảng tứ phân vị](lesson:grouped-range-iqr).) Với hai đơn vị giao hàng ở Bài 3, tính khoảng tứ phân vị của mỗi đơn vị. Kết luận có giống khi dùng độ lệch chuẩn không?
+
+[LỜI GIẢI CŨ – VI]
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
+
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26{,}25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38{,}75$, $\Delta_Q=12{,}5$.
+
+**Đáp số.** $\Delta_Q=7$ (P) và $12{,}5$ (Q); giống kết luận từ độ lệch chuẩn: P ổn định hơn.
+
+[ĐỀ – EN]
+(Revisiting [Range and interquartile range of grouped data](lesson:grouped-range-iqr).) For the two delivery services in Exercise 3, find the interquartile range of each. Is the conclusion the same as with the standard deviation?
+
+[LỜI GIẢI CŨ – EN]
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
+
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26.25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38.75$, $\Delta_Q=12.5$.
+
+**Answer.** $\Delta_Q=7$ (P) and $12.5$ (Q); the same conclusion as from the standard deviation: P is more reliable.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là số nguyên dương. Biết số trung bình bằng $4{,}2$. Tìm $x$, rồi tính phương sai (làm tròn đến hàng phần trăm).
+
+| Nhóm | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
+|---|---|---|---|---|
+| Tần số | $2$ | $x$ | $5$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{2+3x+25+21}{10+x}=4{,}2\iff 48+3x=42+4{,}2x\iff 1{,}2x=6\iff x=5.$$
+Khi đó $n=15$ và $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4{,}2^2=\frac{319}{15}-17{,}64=\frac{272}{75}\approx3{,}63.$$
+
+**Đáp số.** $x=5$; $s^2\approx3{,}63$.
+
+[ĐỀ – EN]
+Grouped data have the following frequency table, where $x$ is a positive integer. The mean is $4.2$. Find $x$, then the variance (to two decimal places).
+
+| Class | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ |
+|---|---|---|---|---|
+| Frequency | $2$ | $x$ | $5$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{2+3x+25+21}{10+x}=4.2\iff 48+3x=42+4.2x\iff 1.2x=6\iff x=5.$$
+Then $n=15$ and $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4.2^2=\frac{319}{15}-17.64=\frac{272}{75}\approx3.63.$$
+
+**Answer.** $x=5$; $s^2\approx3.63$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Ở Ví dụ 1, thời gian ngủ có $s^2=1{,}1275$ (đơn vị: giờ²). Nếu đổi toàn bộ số liệu sang phút (nhân mọi giá trị và đầu mút nhóm với $60$), thì phương sai và độ lệch chuẩn mới bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$$s^2_{\text{mới}}=3600\cdot1{,}1275=4059,\qquad s_{\text{mới}}=60\cdot\sqrt{1{,}1275}\approx63{,}71.$$
+(Kiểm tra: $\sqrt{4059}\approx63{,}71$.)
+
+**Đáp số.** $s^2=4059$ (phút²); $s\approx63{,}71$ phút.
+
+[ĐỀ – EN]
+In Example 1 the sleep data have $s^2=1.1275$ (unit: hours²). If all the data are converted to minutes (every value and every class end multiplied by $60$), what are the new variance and standard deviation?
+
+[LỜI GIẢI CŨ – EN]
+$$s^2_{\text{new}}=3600\cdot1.1275=4059,\qquad s_{\text{new}}=60\cdot\sqrt{1.1275}\approx63.71.$$
+(Check: $\sqrt{4059}\approx63.71$.)
+
+**Answer.** $s^2=4059$ (minutes²); $s\approx63.71$ minutes.
+
+
+######################################################################
+@@@ g12/integral-applications
+Bài học: Ứng dụng hình học của tích phân / Applications of integrals: area and volume
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trục hoành và hai đường thẳng $x=0$, $x=3$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $x^2+1>0$ trên $[0; 3]$ nên $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+Vậy diện tích hình phẳng bằng $12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and the lines $x=0$, $x=3$.
+
+[LỜI GIẢI CŨ – EN]
+Since $x^2+1>0$ on $[0, 3]$, $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+So the area of the region is $12$.
+
+**Answer.** $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3$, trục hoành và hai đường thẳng $x=-1$, $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $x^3$ đổi dấu tại $x=0$ nên ta tách đoạn: $\displaystyle\int_{-1}^0x^3dx=-\frac14$, $\displaystyle\int_0^2x^3dx=4$. Vậy $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Đáp số.** $\dfrac{17}{4}$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^3$, the $x$-axis and the lines $x=-1$, $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+Since $x^3$ changes sign at $x=0$, we split the interval: $\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Answer.** $\dfrac{17}{4}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^2=2x\iff x=0$ hoặc $x=2$. Tại $x=1$ ta có $2x=2>1=x^2$ nên đường thẳng nằm trên parabol trên $(0; 2)$.
+
+Vậy $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+
+**Đáp số.** $\dfrac43$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2$ and the line $y=2x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^2=2x\iff x=0$ or $x=2$. At $x=1$ we have $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
+
+So $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+
+**Answer.** $\dfrac43$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Gọi $H$ là hình phẳng giới hạn bởi đồ thị $y=x^2-4$ và trục hoành. Xét tính đúng sai của các mệnh đề sau:
+
+a) $H$ nằm giữa hai đường thẳng $x=-2$ và $x=2$.
+
+b) Diện tích của $H$ là $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) Diện tích của $H$ bằng $\dfrac{32}{3}$.
+
+d) Quay $H$ quanh trục $Ox$ được khối tròn xoay có thể tích $\dfrac{512\pi}{15}$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**. Ta có $x^2-4=0\iff x=\pm2$.
+
+b) **Sai**. Tích phân đó bằng $-\dfrac{32}{3}<0$, không thể là diện tích.
+
+c) **Đúng**. Vì $x^2-4\le0$ trên $[-2; 2]$ nên diện tích bằng $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **Đúng**. Ta có $(x^2-4)^2=x^4-8x^2+16$ và $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Let $H$ be the region bounded by the graph of $y=x^2-4$ and the $x$-axis. Decide whether each statement is true or false.
+
+a) $H$ lies between the lines $x=-2$ and $x=2$.
+
+b) The area of $H$ is $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) The area of $H$ is $\dfrac{32}{3}$.
+
+d) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\dfrac{512\pi}{15}$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**. We have $x^2-4=0\iff x=\pm2$.
+
+b) **False**. That integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
+
+c) **True**. Since $x^2-4\le0$ on $[-2, 2]$, the area is $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **True**. We have $(x^2-4)^2=x^4-8x^2+16$ and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đường thẳng $y=x$ (viết kết quả dưới dạng số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Phương trình hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $(0; 3)$ đường thẳng nằm trên parabol, do đó $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+Vậy diện tích bằng $\dfrac92$.
+
+**Đáp số.** $4{,}5$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2-2x$ and the line $y=x$ (give the result as a decimal).
+
+[LỜI GIẢI CŨ – EN]
+The intersection points satisfy $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $(0, 3)$ the line lies above the parabola, hence $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+So the area is $\dfrac92$.
+
+**Answer.** $4.5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một ô cửa sổ có dạng hình phẳng giới hạn bởi parabol $y=1{,}5-1{,}5x^2$ và trục hoành (đơn vị mét): rộng $2$ m, cao $1{,}5$ m. Kính lắp cửa giá $800$ nghìn đồng một mét vuông. Tính số tiền mua kính để lắp ô cửa đó.
+
+[LỜI GIẢI CŨ – VI]
+Parabol cắt trục hoành tại $x=\pm1$. Diện tích ô cửa là $S=\displaystyle\int_{-1}^1(1{,}5-1{,}5x^2)\,dx=\Big[1{,}5x-0{,}5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+Vậy tiền kính là $2\cdot800=1600$ nghìn đồng.
+
+**Đáp số.** $1\,600$ nghìn đồng ($1{,}6$ triệu đồng).
+
+[ĐỀ – EN]
+A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and the $x$-axis (units in metres): it is $2$ m wide and $1.5$ m high. The glass costs $800$ thousand đồng per square metre. Find the cost of the glass for this window.
+
+[LỜI GIẢI CŨ – EN]
+The parabola meets the $x$-axis at $x=\pm1$. The area of the window is $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+So the glass costs $2\cdot800=1600$ thousand đồng.
+
+**Answer.** $1\,600$ thousand đồng ($1.6$ million đồng).
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một vật thể nằm giữa hai mặt phẳng $x=0$ và $x=4$. Thiết diện vuông góc với $Ox$ tại $x$ $(0\le x\le4)$ là hình chữ nhật có hai cạnh $x$ và $4-x$. Tính thể tích vật thể.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thiết diện là $S(x)=x(4-x)=4x-x^2$. Do đó $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+Vậy thể tích vật thể bằng $\dfrac{32}{3}$.
+
+**Đáp số.** $\dfrac{32}{3}$.
+
+[ĐỀ – EN]
+A solid lies between the planes $x=0$ and $x=4$. Its cross-section perpendicular to the $x$-axis at $x$ $(0\le x\le4)$ is a rectangle with sides $x$ and $4-x$. Find the volume of the solid.
+
+[LỜI GIẢI CŨ – EN]
+The cross-section has area $S(x)=x(4-x)=4x-x^2$. Hence $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+So the volume of the solid is $\dfrac{32}{3}$.
+
+**Answer.** $\dfrac{32}{3}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=\sin x$, trục hoành và hai đường thẳng $x=0$, $x=\pi$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $\sin x\ge0$ trên $[0; \pi]$ nên $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+Vậy diện tích bằng $2$.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=\sin x$, the $x$-axis and the lines $x=0$, $x=\pi$.
+
+[LỜI GIẢI CŨ – EN]
+Since $\sin x\ge0$ on $[0, \pi]$, $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+So the area is $2$.
+
+**Answer.** $2$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3-x$ và $y=3x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2; 0; 2\}$. Ta có $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. Vậy $S=8$.
+
+**Đáp số.** $8$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graphs of $y=x^3-x$ and $y=3x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
+
+**Answer.** $8$.
+
+
+######################################################################
+@@@ g12/line-equation-space
+Bài học: Phương trình đường thẳng trong không gian / The equation of a line in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình tham số của đường thẳng đi qua $A(2; -1; 3)$ và có vectơ chỉ phương $\vec{u}=(1; 4; -2)$. Tìm điểm ứng với $t=-1$ và kiểm tra xem $B(4; 7; -1)$ có thuộc đường thẳng không.
+
+[LỜI GIẢI CŨ – VI]
+$x=2+t$, $y=-1+4t$, $z=3-2t$. Với $t=-1$: $(1; -5; 5)$. Với $B$: $2+t=4$ cho $t=2$, khi đó $y=7$, $z=-1$, khớp.
+
+**Đáp số.** $(1; -5; 5)$; $B$ thuộc đường thẳng (ứng với $t=2$).
+
+[ĐỀ – EN]
+Write parametric equations of the line through $A(2, -1, 3)$ with direction vector $\vec{u}=(1, 4, -2)$. Find the point for $t=-1$ and check whether $B(4, 7, -1)$ lies on the line.
+
+[LỜI GIẢI CŨ – EN]
+$x=2+t$, $y=-1+4t$, $z=3-2t$. For $t=-1$: $(1, -5, 5)$. For $B$: $2+t=4$ gives $t=2$; then $y=7$ and $z=-1$, which match.
+
+**Answer.** $(1, -5, 5)$; $B$ lies on the line (for $t=2$).
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết phương trình tham số và phương trình chính tắc của đường thẳng đi qua $A(1; 0; -2)$ và $B(3; 2; -1)$.
+
+[LỜI GIẢI CŨ – VI]
+$\overrightarrow{AB}=(2; 2; 1)$.
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+**Đáp số.** Như trên.
+
+[ĐỀ – EN]
+Write parametric and Cartesian equations of the line through $A(1, 0, -2)$ and $B(3, 2, -1)$.
+
+[LỜI GIẢI CŨ – EN]
+$\overrightarrow{AB}=(2, 2, 1)$.
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+**Answer.** As above.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phương trình đường thẳng $d$ đi qua $M(1; -1; 2)$ và vuông góc với $(P): 2x-y+3z+5=0$. Tìm giao điểm của $d$ và $(P)$.
+
+[LỜI GIẢI CŨ – VI]
+$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Thay vào $(P)$:
+$$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
+Giao điểm là $(-1; 0; -1)$.
+
+**Đáp số.** $(-1; 0; -1)$.
+
+[ĐỀ – EN]
+Write the equation of the line $d$ through $M(1, -1, 2)$ perpendicular to $(P): 2x-y+3z+5=0$. Find the point where $d$ meets $(P)$.
+
+[LỜI GIẢI CŨ – EN]
+$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Substituting into $(P)$:
+$$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
+The point of intersection is $(-1, 0, -1)$.
+
+**Answer.** $(-1, 0, -1)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết phương trình tham số và chính tắc của đường thẳng đi qua $M(0; 1; -1)$ và song song với $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+$M$ không thuộc $\Delta$ (vì $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), nên đường thẳng này song song, không trùng $\Delta$.
+
+**Đáp số.** Như trên.
+
+[ĐỀ – EN]
+Write parametric and Cartesian equations of the line through $M(0, 1, -1)$ parallel to $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+$M$ does not lie on $\Delta$ (because $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), so this line is parallel to $\Delta$, not the same line.
+
+**Answer.** As above.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho $d_1: \begin{cases}x=1+2t\\ y=-t\\ z=3+t\end{cases}$ và $d_2: \dfrac{x-3}{-4}=\dfrac{y+1}{2}=\dfrac{z-4}{-2}$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\vec{u}_1=(2; -1; 1)$ là một vectơ chỉ phương của $d_1$.
+
+b) Điểm $M(3; -1; 4)$ thuộc $d_1$.
+
+c) $d_1$ song song với $d_2$.
+
+d) $d_1$ vuông góc với mặt phẳng $(P): 2x-y+z=0$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Hệ số của $t$ là $2$, $-1$, $1$.
+
+b) **Đúng.** $t=1$ cho $(3; -1; 4)$.
+
+c) **Sai.** $\vec{u}_2=(-4; 2; -2)=-2\vec{u}_1$, và $M(3; -1; 4)$ thuộc cả $d_2$, nên hai đường thẳng trùng nhau.
+
+d) **Đúng.** $\vec{n}_P=(2; -1; 1)=\vec{u}_1$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Let $d_1: \begin{cases}x=1+2t\\ y=-t\\ z=3+t\end{cases}$ and $d_2: \dfrac{x-3}{-4}=\dfrac{y+1}{2}=\dfrac{z-4}{-2}$. Is each claim true or false?
+
+a) $\vec{u}_1=(2, -1, 1)$ is a direction vector of $d_1$.
+
+b) The point $M(3, -1, 4)$ lies on $d_1$.
+
+c) $d_1$ is parallel to $d_2$.
+
+d) $d_1$ is perpendicular to the plane $(P): 2x-y+z=0$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** The coefficients of $t$ are $2$, $-1$, $1$.
+
+b) **True.** $t=1$ gives $(3, -1, 4)$.
+
+c) **False.** $\vec{u}_2=(-4, 2, -2)=-2\vec{u}_1$, and $M(3, -1, 4)$ also lies on $d_2$, so the two lines coincide.
+
+d) **True.** $\vec{n}_P=(2, -1, 1)=\vec{u}_1$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một máy bay cất cánh từ điểm $O(0; 0; 0)$ và bay thẳng, mỗi giây dịch chuyển theo vectơ $\vec{v}=(80; 60; 10)$ (đơn vị: mét). Khi máy bay đạt độ cao $1500$ m, hình chiếu của nó trên mặt đất cách $O$ bao nhiêu kilômét?
+
+[LỜI GIẢI CŨ – VI]
+$t=150$ giây. Hình chiếu là $(12000; 9000; 0)$, cách $O$ một khoảng $\sqrt{12000^2+9000^2}=15000$ m.
+
+**Đáp số.** $15$.
+
+[ĐỀ – EN]
+An aeroplane takes off from the point $O(0, 0, 0)$ and flies in a straight line, moving by the vector $\vec{v}=(80, 60, 10)$ every second (unit: metre). When it reaches a height of $1500$ m, how many kilometres from $O$ is the point on the ground directly below it?
+
+[LỜI GIẢI CŨ – EN]
+$t=150$ seconds. The point on the ground is $(12000, 9000, 0)$, at distance $\sqrt{12000^2+9000^2}=15000$ m from $O$.
+
+**Answer.** $15$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $d: x=2+t$, $y=1-t$, $z=3+2t$. Xét vị trí của $d$ với $(P_1): x+y-1=0$, $(P_2): x+3y+z-8=0$, $(P_3): x-y+z-6=0$.
+
+[LỜI GIẢI CŨ – VI]
+$(P_1)$: $(2+t)+(1-t)-1=2=0$, vô lí, nên $d\parallel(P_1)$.
+$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ với mọi $t$, nên $d$ nằm trong $(P_2)$.
+$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, giao điểm $\left(\dfrac52; \dfrac12; 4\right)$.
+
+**Đáp số.** Song song với $(P_1)$; nằm trong $(P_2)$; cắt $(P_3)$ tại $\left(\dfrac52; \dfrac12; 4\right)$.
+
+[ĐỀ – EN]
+Let $d: x=2+t$, $y=1-t$, $z=3+2t$. Decide the position of $d$ relative to $(P_1): x+y-1=0$, $(P_2): x+3y+z-8=0$, $(P_3): x-y+z-6=0$.
+
+[LỜI GIẢI CŨ – EN]
+$(P_1)$: $(2+t)+(1-t)-1=2=0$, impossible, so $d\parallel(P_1)$.
+$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ for every $t$, so $d$ lies in $(P_2)$.
+$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, and the point of intersection is $\left(\dfrac52, \dfrac12, 4\right)$.
+
+**Answer.** Parallel to $(P_1)$; lies in $(P_2)$; meets $(P_3)$ at $\left(\dfrac52, \dfrac12, 4\right)$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Xét vị trí của hai đường thẳng $d_1: x=1+t$, $y=1-t$, $z=2t$ và $d_2: x=1+2s$, $y=-2+s$, $z=5-s$. Nếu chúng cắt nhau, tìm giao điểm.
+
+[LỜI GIẢI CŨ – VI]
+Hai vectơ không cùng phương. Từ $1+t=1+2s$ và $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, nên $s=1$, $t=2$. Phương trình thứ ba: $2\cdot2=5-1$, đúng.
+
+**Đáp số.** Cắt nhau tại $(3; -1; 4)$.
+
+[ĐỀ – EN]
+Decide the position of the lines $d_1: x=1+t$, $y=1-t$, $z=2t$ and $d_2: x=1+2s$, $y=-2+s$, $z=5-s$. If they intersect, find the point of intersection.
+
+[LỜI GIẢI CŨ – EN]
+The vectors are not parallel. From $1+t=1+2s$ and $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, so $s=1$, $t=2$. The third equation: $2\cdot2=5-1$, which holds.
+
+**Answer.** They intersect at $(3, -1, 4)$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations).) Ở bài trước, ta chứng minh $A(1; 2; -1)$, $B(3; 1; 1)$, $C(7; -1; 5)$ thẳng hàng bằng vectơ cùng phương. Hãy viết phương trình tham số của đường thẳng $AB$ và chỉ ra giá trị $t$ ứng với điểm $C$.
+
+[LỜI GIẢI CŨ – VI]
+$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. Từ $1+2t=7$ ta có $t=3$; khi đó $y=-1$, $z=5$, khớp với $C$.
+
+**Đáp số.** $t=3$, đúng với $\overrightarrow{AC}=3\overrightarrow{AB}$ ở bài trước.
+
+[ĐỀ – EN]
+(Revisiting [Operations on vectors in coordinates](lesson:vector-coordinate-operations).) In the previous lesson we proved that $A(1, 2, -1)$, $B(3, 1, 1)$, $C(7, -1, 5)$ are collinear using parallel vectors. Write parametric equations of the line $AB$ and give the value of $t$ for the point $C$.
+
+[LỜI GIẢI CŨ – EN]
+$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. From $1+2t=7$ we get $t=3$; then $y=-1$ and $z=5$, which match $C$.
+
+**Answer.** $t=3$, which agrees with $\overrightarrow{AC}=3\overrightarrow{AB}$ from the previous lesson.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một tia laze xuất phát từ $A(1; 2; 3)$, phản xạ trên một tấm gương phẳng nằm trong mặt phẳng $(P): x+2y+2z-2=0$ rồi tới $B(3; 2; 2)$. Tìm điểm phản xạ $M$ trên gương. (Gợi ý: đường đi $A\to M\to B$ ngắn nhất khi $M$ nằm trên đoạn $A'B$, với $A'$ là điểm đối xứng của $A$ qua $(P)$.)
+
+[LỜI GIẢI CŨ – VI]
+Đường thẳng qua $A$ vuông góc với $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Thay vào $(P)$: $9+9t=0$, $t=-1$, nên $H(0; 0; 1)$ và $A'(-1; -2; -1)$.
+Thay $A'$ và $B$ vào vế trái của $(P)$ được $-9$ và $9$, nên $A'$, $B$ ở hai phía và cách $(P)$ bằng nhau; vì vậy $M$ là trung điểm của $A'B$:
+$$M\left(1; 0; \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
+Đường đi của tia sáng dài $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6{,}40$.
+
+**Đáp số.** $M\left(1; 0; \dfrac12\right)$.
+
+[ĐỀ – EN]
+A laser beam starts at $A(1, 2, 3)$, reflects off a flat mirror lying in the plane $(P): x+2y+2z-2=0$, and then reaches $B(3, 2, 2)$. Find the point $M$ of the mirror where it reflects. (Hint: the path $A\to M\to B$ is shortest when $M$ lies on the segment $A'B$, where $A'$ is the reflection of $A$ in $(P)$.)
+
+[LỜI GIẢI CŨ – EN]
+The line through $A$ perpendicular to $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Substituting into $(P)$: $9+9t=0$, $t=-1$, so $H(0, 0, 1)$ and $A'(-1, -2, -1)$.
+Substituting $A'$ and $B$ into the left-hand side of $(P)$ gives $-9$ and $9$, so $A'$ and $B$ are on opposite sides at equal distances from $(P)$; therefore $M$ is the midpoint of $A'B$:
+$$M\left(1, 0, \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
+The beam travels a distance $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6.40$.
+
+**Answer.** $M\left(1, 0, \dfrac12\right)$.
+
+
+######################################################################
+@@@ g12/max-min-values
+Bài học: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số / Maximum and minimum values
+Cần viết lại lời giải các bài: 2, 5, 6, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=\dfrac{x-1}{x+2}$ trên đoạn $[0; 3]$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$ nên hàm số đồng biến trên $[0; 3]$.
+
+Vậy giá trị lớn nhất là $y(3)=\dfrac25$, giá trị nhỏ nhất là $y(0)=-\dfrac12$.
+
+**Đáp số.** Giá trị lớn nhất $\dfrac25$; giá trị nhỏ nhất $-\dfrac12$.
+
+[ĐỀ – EN]
+Find the maximum and minimum values of $y=\dfrac{x-1}{x+2}$ on $[0, 3]$.
+
+[LỜI GIẢI CŨ – EN]
+We have $y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$, so the function is increasing on $[0, 3]$.
+
+So the maximum value is $y(3)=\dfrac25$ and the minimum value is $y(0)=-\dfrac12$.
+
+**Answer.** Maximum value $\dfrac25$; minimum value $-\dfrac12$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=-x^3+3x^2+2$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Phương trình $f'(x)=0$ có hai nghiệm thuộc đoạn $[-1; 3]$.
+
+b) Giá trị lớn nhất của $f$ trên $[-1; 3]$ bằng $6$.
+
+c) Hàm số $f$ chỉ đạt giá trị lớn nhất tại $x=2$.
+
+d) Giá trị nhỏ nhất của $f$ trên $[-1; 3]$ bằng $2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $f'(x)=-3x(x-2)=0\iff x=0$ hoặc $x=2$. Ta có $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
+
+a) **Đúng**. Hai nghiệm $0$ và $2$ đều thuộc $[-1; 3]$.
+
+b) **Đúng**. Số lớn nhất trong các giá trị trên là $6$.
+
+c) **Sai**. Vì $f(-1)=6$ nên giá trị lớn nhất đạt tại cả $x=-1$ và $x=2$.
+
+d) **Đúng**. Số nhỏ nhất trong các giá trị trên là $2$, đạt tại $x=0$ và $x=3$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the function $f(x)=-x^3+3x^2+2$ on $[-1, 3]$. Decide whether each statement is true or false.
+
+a) The equation $f'(x)=0$ has two roots in $[-1, 3]$.
+
+b) The maximum value of $f$ on $[-1, 3]$ is $6$.
+
+c) The function $f$ reaches its maximum value only at $x=2$.
+
+d) The minimum value of $f$ on $[-1, 3]$ is $2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $f'(x)=-3x(x-2)=0\iff x=0$ or $x=2$. We have $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
+
+a) **True**. The two roots $0$ and $2$ are both in $[-1, 3]$.
+
+b) **True**. The largest of the values above is $6$.
+
+c) **False**. Since $f(-1)=6$, the maximum is reached at both $x=-1$ and $x=2$.
+
+d) **True**. The smallest of the values above is $2$, reached at $x=0$ and $x=3$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm giá trị lớn nhất của hàm số $y=x\sqrt{9-x^2}$ trên đoạn $[0; 3]$ (ghi kết quả dưới dạng số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Trên khoảng $(0; 3)$, ta có $y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, tức là $x=\dfrac{3}{\sqrt2}$. Khi đó $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Mà $y(0)=y(3)=0$.
+
+Vậy giá trị lớn nhất của hàm số là $\dfrac92$.
+
+**Đáp số.** $4{,}5$.
+
+[ĐỀ – EN]
+Find the maximum value of $y=x\sqrt{9-x^2}$ on $[0, 3]$ (give the result as a decimal).
+
+[LỜI GIẢI CŨ – EN]
+On the interval $(0, 3)$, we have $y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, that is $x=\dfrac{3}{\sqrt2}$. Then $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Also $y(0)=y(3)=0$.
+
+So the maximum value of the function is $\dfrac92$.
+
+**Answer.** $4.5$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x+\sqrt2\cos x$ trên đoạn $\left[0; \dfrac{\pi}{2}\right]$.
+
+[LỜI GIẢI CŨ – VI]
+Trên khoảng $\left(0; \dfrac{\pi}{2}\right)$, ta có $y'=0\iff\sin x=\dfrac{1}{\sqrt2}\iff x=\dfrac{\pi}{4}$. Ta có $y(0)=\sqrt2\approx1{,}414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1{,}785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1{,}571$.
+
+Vậy giá trị lớn nhất là $\dfrac{\pi}{4}+1$, giá trị nhỏ nhất là $\sqrt2$.
+
+**Đáp số.** Giá trị lớn nhất $\dfrac{\pi}{4}+1$ (tại $x=\dfrac{\pi}{4}$); giá trị nhỏ nhất $\sqrt2$ (tại $x=0$).
+
+[ĐỀ – EN]
+Find the maximum and minimum values of $y=x+\sqrt2\cos x$ on $\left[0, \dfrac{\pi}{2}\right]$.
+
+[LỜI GIẢI CŨ – EN]
+On the interval $\left(0, \dfrac{\pi}{2}\right)$, we have $y'=0\iff\sin x=\dfrac{1}{\sqrt2}\iff x=\dfrac{\pi}{4}$. We have $y(0)=\sqrt2\approx1.414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1.785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1.571$.
+
+So the maximum value is $\dfrac{\pi}{4}+1$ and the minimum value is $\sqrt2$.
+
+**Answer.** Maximum value $\dfrac{\pi}{4}+1$ (at $x=\dfrac{\pi}{4}$); minimum value $\sqrt2$ (at $x=0$).
+
+
+===== HẾT FILE thaodebao1-LG-5 =====

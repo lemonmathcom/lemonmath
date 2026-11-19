@@ -1,0 +1,1433 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-LG-3   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-LG-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-LG-3
+Người làm: tài khoản Lemonmath112. Gói này có 36 bài tập thuộc 7 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath112-LG-3-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/7). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-LG-3-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g8/cubes-of-sums-differences (7 bài tập)
+- g8/experimental-theoretical-probability (3 bài tập)
+- g8/factorising-polynomials (8 bài tập)
+- g8/g8-collecting-classifying-data (4 bài tập)
+- g8/g8-multiplying-polynomials (4 bài tập)
+- g8/gradient-of-a-line (6 bài tập)
+- g8/intro-algebraic-fractions (4 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g8/cubes-of-sums-differences
+Bài học: Lập phương của một tổng. Lập phương của một hiệu. Tổng và hiệu hai lập phương / Cube of a sum. Cube of a difference. Sum and difference of two cubes
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+1)^3$.
+
+b) $(x-3)^3$.
+
+c) $(2x+1)^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+1)^3=x^3+3x^2+3x+1$.
+
+b) $(x-3)^3=x^3-9x^2+27x-27$.
+
+c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+
+Vậy a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
+
+**Đáp số.** a) $x^3+3x^2+3x+1$. b) $x^3-9x^2+27x-27$. c) $8x^3+12x^2+6x+1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+1)^3$.
+
+b) $(x-3)^3$.
+
+c) $(2x+1)^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+1)^3=x^3+3x^2+3x+1$.
+
+b) $(x-3)^3=x^3-9x^2+27x-27$.
+
+c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+
+So a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
+
+**Answer.** a) $x^3+3x^2+3x+1$. b) $x^3-9x^2+27x-27$. c) $8x^3+12x^2+6x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(3x-2y)^3$.
+
+b) $(x^2+2)^3$.
+
+c) $\left(\dfrac12x+2\right)^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+
+b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+
+c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+Vậy a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+**Đáp số.** a) $27x^3-54x^2y+36xy^2-8y^3$. b) $x^6+6x^4+12x^2+8$. c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(3x-2y)^3$.
+
+b) $(x^2+2)^3$.
+
+c) $\left(\dfrac12x+2\right)^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+
+b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+
+c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+So a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+**Answer.** a) $27x^3-54x^2y+36xy^2-8y^3$. b) $x^6+6x^4+12x^2+8$. c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+4)(x^2-4x+16)$.
+
+b) $(3x-1)(9x^2+3x+1)$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+4)(x^2-4x+16)=x^3+64$.
+
+b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+
+Vậy a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
+
+**Đáp số.** a) $x^3+64$. b) $27x^3-1$. c) $8x^3+27y^3$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+4)(x^2-4x+16)$.
+
+b) $(3x-1)(9x^2+3x+1)$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+4)(x^2-4x+16)=x^3+64$.
+
+b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+
+So a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
+
+**Answer.** a) $x^3+64$. b) $27x^3-1$. c) $8x^3+27y^3$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhẩm bằng hằng đẳng thức:
+
+a) $21^3$.
+
+b) $19^3$.
+
+c) $31^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+
+b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+
+c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+
+Vậy a) $9261$; b) $6859$; c) $29\,791$.
+
+**Đáp số.** a) $9261$. b) $6859$. c) $29\,791$.
+
+[ĐỀ – EN]
+Calculate mentally using identities:
+
+a) $21^3$.
+
+b) $19^3$.
+
+c) $31^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+
+b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+
+c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+
+So a) $9261$; b) $6859$; c) $29\,791$.
+
+**Answer.** a) $9261$. b) $6859$. c) $29\,791$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết các biểu thức sau thành lập phương của một tổng (hiệu) hoặc thành tích:
+
+a) $x^3+12x^2+48x+64$.
+
+b) $8x^3-125$.
+
+c) $27+x^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Với $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+
+b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+
+c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+
+Vậy a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
+
+**Đáp số.** a) $(x+4)^3$. b) $(2x-5)(4x^2+10x+25)$. c) $(3+x)(9-3x+x^2)$.
+
+[ĐỀ – EN]
+Write each expression as the cube of a sum (or difference), or as a product:
+
+a) $x^3+12x^2+48x+64$.
+
+b) $8x^3-125$.
+
+c) $27+x^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) With $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+
+b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+
+c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+
+So a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
+
+**Answer.** a) $(x+4)^3$. b) $(2x-5)(4x^2+10x+25)$. c) $(3+x)(9-3x+x^2)$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nhớ lại bài về hình hộp chữ nhật và hình lập phương. Một hình lập phương có cạnh $(2x-1)$ cm. Viết thể tích dưới dạng đa thức, rồi tính khi $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
+
+Khi $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Kiểm tra: cạnh là $3$ cm, $3^3=27$.)
+
+Vậy $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, và bằng $27\ \text{cm}^3$ khi $x=2$.
+
+**Đáp số.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
+
+[ĐỀ – EN]
+Recall the lesson on cuboids and cubes. A cube has edge $(2x-1)$ cm. Write its volume as a polynomial, then find it when $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
+
+When $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Check: the edge is $3$ cm, and $3^3=27$.)
+
+So $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, which equals $27\ \text{cm}^3$ when $x=2$.
+
+**Answer.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho $a+b=1$. Chứng minh rằng $a^3+b^3+3ab=1$.
+
+[LỜI GIẢI CŨ – VI]
+Từ $(a+b)^3=a^3+b^3+3ab(a+b)$ ta có $a^3+b^3=(a+b)^3-3ab(a+b)$. Vì $a+b=1$ nên
+$$a^3+b^3=1-3ab.$$
+Do đó $a^3+b^3+3ab=1-3ab+3ab=1$.
+
+**Đáp số.** Đẳng thức được chứng minh.
+
+[ĐỀ – EN]
+Given $a+b=1$, prove that $a^3+b^3+3ab=1$.
+
+[LỜI GIẢI CŨ – EN]
+From $(a+b)^3=a^3+b^3+3ab(a+b)$ we get $a^3+b^3=(a+b)^3-3ab(a+b)$. Since $a+b=1$,
+$$a^3+b^3=1-3ab.$$
+Hence $a^3+b^3+3ab=1-3ab+3ab=1$.
+
+**Answer.** The identity is proved.
+
+
+######################################################################
+@@@ g8/experimental-theoretical-probability
+Bài học: Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng / Experimental and theoretical probability, with applications
+Cần viết lại lời giải các bài: 4, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một hộp có $40$ bi đỏ và xanh. Lấy ngẫu nhiên một bi, ghi màu rồi trả lại, lặp lại $80$ lần; có $20$ lần lấy được bi đỏ. Ước lượng số bi đỏ trong hộp.
+
+[LỜI GIẢI CŨ – VI]
+Xác suất thực nghiệm là $\dfrac{20}{80}=\dfrac14$. Số bi đỏ ước lượng là $40\cdot\dfrac14=10$.
+
+Vậy trong hộp có khoảng $10$ bi đỏ.
+
+**Đáp số.** Khoảng $10$ bi đỏ.
+
+[ĐỀ – EN]
+A box holds $40$ marbles, red and blue. A marble is taken at random, its colour noted and put back; this is repeated $80$ times, and a red marble comes out $20$ times. Estimate the number of red marbles in the box.
+
+[LỜI GIẢI CŨ – EN]
+The experimental probability is $\dfrac{20}{80}=\dfrac14$. The estimated number of red marbles is $40\cdot\dfrac14=10$.
+
+So the box holds about $10$ red marbles.
+
+**Answer.** About $10$ red marbles.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một máy quay thưởng được quay $80$ lần và có $12$ lần trúng thưởng (giả sử). Tính xác suất thực nghiệm của biến cố "trúng thưởng" và của biến cố đối "không trúng". (Ôn lại [biến cố đối](lesson:possible-favourable-outcomes).)
+
+[LỜI GIẢI CŨ – VI]
+Xác suất thực nghiệm trúng thưởng là $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. Xác suất thực nghiệm không trúng là $1-0{,}15=0{,}85=85\%$ (cũng bằng $\dfrac{68}{80}$).
+
+**Đáp số.** $15\%$; $85\%$.
+
+[ĐỀ – EN]
+A prize machine is spun $80$ times and wins a prize $12$ times (an imagined case). Find the experimental probability of the event "wins a prize" and of the complementary event "does not win". (Revise [complementary events](lesson:possible-favourable-outcomes).)
+
+[LỜI GIẢI CŨ – EN]
+The experimental probability of winning is $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. The experimental probability of not winning is $1-0.15=0.85=85\%$ (also $\dfrac{68}{80}$).
+
+**Answer.** $15\%$; $85\%$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Gieo cùng lúc hai con xúc xắc $72$ lần; tổng số chấm bằng $7$ xuất hiện $15$ lần. Tính xác suất thực nghiệm của biến cố đó và so với xác suất lí thuyết $\dfrac16$. Nếu dùng xác suất thực nghiệm để dự đoán cho $600$ lần gieo thì được bao nhiêu lần, và con số lí thuyết là bao nhiêu? Nhận xét.
+
+[LỜI GIẢI CŨ – VI]
+Xác suất thực nghiệm là $\dfrac{15}{72}=\dfrac{5}{24}\approx20{,}8\%$, lớn hơn $\dfrac16\approx16{,}7\%$ (lí thuyết mong đợi $72\cdot\dfrac16=12$ lần, ta được $15$ lần). Dự đoán cho $600$ lần theo thực nghiệm: $600\cdot\dfrac{5}{24}=125$ lần; theo lí thuyết: $600\cdot\dfrac16=100$ lần.
+
+Nhận xét: $72$ lần thử còn ít nên xác suất thực nghiệm chưa đáng tin; với tổng cặp đồng khả năng ta nên dùng xác suất lí thuyết $\dfrac16$.
+
+**Đáp số.** $\dfrac{5}{24}$; $125$ lần so với $100$ lần.
+
+[ĐỀ – EN]
+Two dice are rolled together $72$ times, and a total of $7$ occurs $15$ times. Find the experimental probability of that event and compare it with the theoretical probability $\dfrac16$. If we use the experimental probability to predict for $600$ rolls, how many times do we get, and what is the theoretical figure? Comment.
+
+[LỜI GIẢI CŨ – EN]
+The experimental probability is $\dfrac{15}{72}=\dfrac{5}{24}\approx20.8\%$, larger than $\dfrac16\approx16.7\%$ (theory expects $72\cdot\dfrac16=12$ times, and we got $15$). The prediction for $600$ rolls from the experiment is $600\cdot\dfrac{5}{24}=125$ times; from theory it is $600\cdot\dfrac16=100$ times.
+
+Comment: $72$ trials are still few, so the experimental probability is not yet reliable; since the outcomes of a pair of dice are equally likely, we should use the theoretical probability $\dfrac16$.
+
+**Answer.** $\dfrac{5}{24}$; $125$ times against $100$ times.
+
+
+######################################################################
+@@@ g8/factorising-polynomials
+Bài học: Phân tích đa thức thành nhân tử / Factorising polynomials
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Phân tích thành nhân tử:
+
+a) $4x^2-6x$.
+
+b) $12x^3y-18x^2y^2$.
+
+c) $5x(y-2)-3(y-2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4x^2-6x=2x(2x-3)$.
+
+b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+
+c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+
+Vậy a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
+
+**Đáp số.** a) $2x(2x-3)$. b) $6x^2y(2x-3y)$. c) $(y-2)(5x-3)$.
+
+[ĐỀ – EN]
+Factorise:
+
+a) $4x^2-6x$.
+
+b) $12x^3y-18x^2y^2$.
+
+c) $5x(y-2)-3(y-2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4x^2-6x=2x(2x-3)$.
+
+b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+
+c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+
+So a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
+
+**Answer.** a) $2x(2x-3)$. b) $6x^2y(2x-3y)$. c) $(y-2)(5x-3)$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Phân tích thành nhân tử:
+
+a) $2x(x-3)+5(x-3)$.
+
+b) $x(x-y)+y(y-x)$.
+
+c) $3a(b-1)-6(1-b)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
+
+b) Ta có $y(y-x)=-y(x-y)$, nên $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+
+c) Ta có $-6(1-b)=6(b-1)$, nên $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+
+Vậy a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
+
+**Đáp số.** a) $(x-3)(2x+5)$. b) $(x-y)^2$. c) $3(b-1)(a+2)$.
+
+[ĐỀ – EN]
+Factorise:
+
+a) $2x(x-3)+5(x-3)$.
+
+b) $x(x-y)+y(y-x)$.
+
+c) $3a(b-1)-6(1-b)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
+
+b) We have $y(y-x)=-y(x-y)$, so $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+
+c) We have $-6(1-b)=6(b-1)$, so $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+
+So a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
+
+**Answer.** a) $(x-3)(2x+5)$. b) $(x-y)^2$. c) $3(b-1)(a+2)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Phân tích thành nhân tử bằng hằng đẳng thức:
+
+a) $9x^2-16y^2$.
+
+b) $x^2-10x+25$.
+
+c) $4x^2+12x+9$.
+
+[LỜI GIẢI CŨ – VI]
+a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
+
+b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+
+c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+
+Vậy a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
+
+**Đáp số.** a) $(3x-4y)(3x+4y)$. b) $(x-5)^2$. c) $(2x+3)^2$.
+
+[ĐỀ – EN]
+Factorise using identities:
+
+a) $9x^2-16y^2$.
+
+b) $x^2-10x+25$.
+
+c) $4x^2+12x+9$.
+
+[LỜI GIẢI CŨ – EN]
+a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
+
+b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+
+c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+
+So a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
+
+**Answer.** a) $(3x-4y)(3x+4y)$. b) $(x-5)^2$. c) $(2x+3)^2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Phân tích thành nhân tử bằng hằng đẳng thức lập phương:
+
+a) $x^3+8$.
+
+b) $27x^3-1$.
+
+c) $x^3+6x^2+12x+8$.
+
+[LỜI GIẢI CŨ – VI]
+a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
+
+b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
+
+c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
+
+Vậy a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
+
+**Đáp số.** a) $(x+2)(x^2-2x+4)$. b) $(3x-1)(9x^2+3x+1)$. c) $(x+2)^3$.
+
+[ĐỀ – EN]
+Factorise using the identities for cubes:
+
+a) $x^3+8$.
+
+b) $27x^3-1$.
+
+c) $x^3+6x^2+12x+8$.
+
+[LỜI GIẢI CŨ – EN]
+a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
+
+b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
+
+c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
+
+So a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
+
+**Answer.** a) $(x+2)(x^2-2x+4)$. b) $(3x-1)(9x^2+3x+1)$. c) $(x+2)^3$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Phân tích thành nhân tử bằng cách nhóm hạng tử:
+
+a) $xy+2x+3y+6$.
+
+b) $x^2-2xy+x-2y$.
+
+c) $a^2-ab-4a+4b$.
+
+[LỜI GIẢI CŨ – VI]
+a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
+
+b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+
+c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+
+Vậy a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
+
+**Đáp số.** a) $(y+2)(x+3)$. b) $(x-2y)(x+1)$. c) $(a-b)(a-4)$.
+
+[ĐỀ – EN]
+Factorise by grouping terms:
+
+a) $xy+2x+3y+6$.
+
+b) $x^2-2xy+x-2y$.
+
+c) $a^2-ab-4a+4b$.
+
+[LỜI GIẢI CŨ – EN]
+a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
+
+b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+
+c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+
+So a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
+
+**Answer.** a) $(y+2)(x+3)$. b) $(x-2y)(x+1)$. c) $(a-b)(a-4)$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Phân tích hoàn toàn thành nhân tử:
+
+a) $3x^3-12x$.
+
+b) $2x^2-12x+18$.
+
+c) $x^4-16$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
+
+b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+
+c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+
+Vậy a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
+
+**Đáp số.** a) $3x(x-2)(x+2)$. b) $2(x-3)^2$. c) $(x-2)(x+2)(x^2+4)$.
+
+[ĐỀ – EN]
+Factorise completely:
+
+a) $3x^3-12x$.
+
+b) $2x^2-12x+18$.
+
+c) $x^4-16$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
+
+b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+
+c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+
+So a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
+
+**Answer.** a) $3x(x-2)(x+2)$. b) $2(x-3)^2$. c) $(x-2)(x+2)(x^2+4)$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tính nhanh:
+
+a) $45\cdot37+45\cdot63$.
+
+b) $65^2-35^2$.
+
+c) $76^2+2\cdot76\cdot24+24^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
+
+b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+
+c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
+
+Vậy a) $4500$; b) $3000$; c) $10\,000$.
+
+**Đáp số.** a) $4500$. b) $3000$. c) $10\,000$.
+
+[ĐỀ – EN]
+Calculate quickly:
+
+a) $45\cdot37+45\cdot63$.
+
+b) $65^2-35^2$.
+
+c) $76^2+2\cdot76\cdot24+24^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
+
+b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+
+c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
+
+So a) $4500$; b) $3000$; c) $10\,000$.
+
+**Answer.** a) $4500$. b) $3000$. c) $10\,000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nhớ lại bài về hiệu hai bình phương. Giả sử một tấm bìa hình vuông cạnh $12$ cm bị cắt bỏ một hình vuông cạnh $8$ cm ở một góc. Tính diện tích phần còn lại bằng cách phân tích thành nhân tử.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích phần còn lại là $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Kiểm tra: $144-64=80$.)
+
+Vậy diện tích phần còn lại là $80\ \text{cm}^2$.
+
+**Đáp số.** $80\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Recall the lesson on the difference of two squares. Suppose a square piece of card with side $12$ cm has a square of side $8$ cm cut out of one corner. Find the area of what remains by factorising.
+
+[LỜI GIẢI CŨ – EN]
+The remaining area is $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Check: $144-64=80$.)
+
+So the remaining area is $80\ \text{cm}^2$.
+
+**Answer.** $80\ \text{cm}^2$.
+
+
+######################################################################
+@@@ g8/g8-collecting-classifying-data
+Bài học: Thu thập và phân loại dữ liệu. Biểu diễn dữ liệu bằng bảng, biểu đồ / Collecting and classifying data. Representing data in tables and charts
+Cần viết lại lời giải các bài: 1, 4, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho biết mỗi dữ liệu sau là định tính hay định lượng:
+
+a) Màu mắt của các bạn trong lớp.
+
+b) Chiều cao (cm) của các bạn.
+
+c) Số học sinh của mỗi lớp trong trường.
+
+d) Tên các bài hát yêu thích.
+
+[LỜI GIẢI CŨ – VI]
+a) Màu mắt là tên gọi: định tính. b) Chiều cao là số đo: định lượng. c) Số học sinh là số đếm: định lượng. d) Tên bài hát: định tính.
+
+Vậy a) và d) là định tính; b) và c) là định lượng.
+
+**Đáp số.** a) định tính; b) định lượng; c) định lượng; d) định tính.
+
+[ĐỀ – EN]
+State whether each kind of data is qualitative or quantitative:
+
+a) Eye colour of the students in a class.
+
+b) Height (cm) of the students.
+
+c) Number of students in each class of a school.
+
+d) Names of favourite songs.
+
+[LỜI GIẢI CŨ – EN]
+a) Eye colour is a name: qualitative. b) Height is a measurement: quantitative. c) The number of students is a count: quantitative. d) Song names: qualitative.
+
+So a) and d) are qualitative; b) and c) are quantitative.
+
+**Answer.** a) qualitative; b) quantitative; c) quantitative; d) qualitative.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số anh chị em ruột của $20$ bạn được ghi lại: $1$, $2$, $0$, $1$, $1$, $3$, $2$, $1$, $0$, $2$, $1$, $1$, $2$, $0$, $1$, $2$, $1$, $0$, $1$, $2$. Lập bảng tần số và tần số tương đối.
+
+[LỜI GIẢI CŨ – VI]
+Ta đếm và chia cho $20$:
+
+| Số anh chị em | $0$ | $1$ | $2$ | $3$ | Tổng |
+|---|---|---|---|---|---|
+| Tần số | $4$ | $9$ | $6$ | $1$ | $20$ |
+| Tần số tương đối | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
+
+Kiểm tra: $4+9+6+1=20$.
+
+**Đáp số.** Tần số $4$; $9$; $6$; $1$, tần số tương đối $20\%$; $45\%$; $30\%$; $5\%$.
+
+[ĐỀ – EN]
+The numbers of brothers and sisters of $20$ students are recorded as $1$, $2$, $0$, $1$, $1$, $3$, $2$, $1$, $0$, $2$, $1$, $1$, $2$, $0$, $1$, $2$, $1$, $0$, $1$, $2$. Build a table of frequencies and relative frequencies.
+
+[LỜI GIẢI CŨ – EN]
+We count and divide by $20$:
+
+| Number of siblings | $0$ | $1$ | $2$ | $3$ | Total |
+|---|---|---|---|---|---|
+| Frequency | $4$ | $9$ | $6$ | $1$ | $20$ |
+| Relative frequency | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
+
+Check: $4+9+6+1=20$.
+
+**Answer.** Frequencies $4$; $9$; $6$; $1$, relative frequencies $20\%$; $45\%$; $30\%$; $5\%$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Khảo sát $40$ bạn về thể loại sách yêu thích: Truyện $16$ bạn, Khoa học $12$ bạn, Thơ $4$ bạn, Khác $8$ bạn. Tính tần số tương đối và số đo cung tương ứng của biểu đồ hình quạt tròn.
+
+[LỜI GIẢI CŨ – VI]
+Ta có: Truyện $\dfrac{16}{40}=40\%$, cung $144^\circ$; Khoa học $\dfrac{12}{40}=30\%$, cung $108^\circ$; Thơ $\dfrac{4}{40}=10\%$, cung $36^\circ$; Khác $\dfrac{8}{40}=20\%$, cung $72^\circ$.
+
+Kiểm tra: $144+108+36+72=360$.
+
+**Đáp số.** $40\%$, $30\%$, $10\%$, $20\%$; cung $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
+
+[ĐỀ – EN]
+A survey of $40$ students about their favourite type of book gives: Stories $16$, Science $12$, Poetry $4$, Other $8$. Find the relative frequencies and the matching sector angles of a pie chart.
+
+[LỜI GIẢI CŨ – EN]
+We have: Stories $\dfrac{16}{40}=40\%$, angle $144^\circ$; Science $\dfrac{12}{40}=30\%$, angle $108^\circ$; Poetry $\dfrac{4}{40}=10\%$, angle $36^\circ$; Other $\dfrac{8}{40}=20\%$, angle $72^\circ$.
+
+Check: $144+108+36+72=360$.
+
+**Answer.** $40\%$, $30\%$, $10\%$, $20\%$; angles $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Chọn loại biểu đồ (cột, cột kép, hình quạt tròn, đoạn thẳng) phù hợp nhất cho mỗi mục đích:
+
+a) So sánh số học sinh của bốn lớp $8$.
+
+b) Theo dõi nhiệt độ ngoài trời mỗi giờ trong một ngày.
+
+c) Cho thấy phần trăm các khoản chi trong ngân sách của một gia đình.
+
+d) So sánh số học sinh nam và nữ ở từng lớp trong bốn lớp.
+
+[LỜI GIẢI CŨ – VI]
+a) So sánh các nhóm: biểu đồ cột. b) Theo thời gian: biểu đồ đoạn thẳng. c) Tỉ lệ các phần trong một tổng: biểu đồ hình quạt tròn. d) So sánh hai tập dữ liệu trên cùng các nhóm: biểu đồ cột kép.
+
+**Đáp số.** a) cột; b) đoạn thẳng; c) hình quạt tròn; d) cột kép.
+
+[ĐỀ – EN]
+Choose the most suitable chart (bar chart, double bar chart, pie chart, line graph) for each purpose:
+
+a) Compare the number of students in four classes of grade 8.
+
+b) Follow the outdoor temperature every hour during a day.
+
+c) Show the percentage of each item in a family's budget.
+
+d) Compare the number of boys and girls in each of four classes.
+
+[LỜI GIẢI CŨ – EN]
+a) Comparing groups: bar chart. b) Over time: line graph. c) Proportions of a whole: pie chart. d) Two data sets on the same groups: double bar chart.
+
+**Answer.** a) bar chart; b) line graph; c) pie chart; d) double bar chart.
+
+
+######################################################################
+@@@ g8/g8-multiplying-polynomials
+Bài học: Phép nhân đa thức. Phép chia đa thức cho đơn thức / Multiplying polynomials. Dividing a polynomial by a monomial
+Cần viết lại lời giải các bài: 1, 2, 5, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thực hiện phép nhân:
+
+a) $3x^2(2x-5)$.
+
+b) $-2xy(x^2-3y+1)$.
+
+c) $\dfrac12x(4x^2-6x+2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3x^2(2x-5)=6x^3-15x^2$.
+
+b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+
+c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+
+Vậy a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
+
+**Đáp số.** a) $6x^3-15x^2$. b) $-2x^3y+6xy^2-2xy$. c) $2x^3-3x^2+x$.
+
+[ĐỀ – EN]
+Find the products:
+
+a) $3x^2(2x-5)$.
+
+b) $-2xy(x^2-3y+1)$.
+
+c) $\dfrac12x(4x^2-6x+2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3x^2(2x-5)=6x^3-15x^2$.
+
+b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+
+c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+
+So a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
+
+**Answer.** a) $6x^3-15x^2$. b) $-2x^3y+6xy^2-2xy$. c) $2x^3-3x^2+x$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thực hiện phép nhân:
+
+a) $(x+4)(x-3)$.
+
+b) $(2x-1)(x^2+x-2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+
+b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+
+Vậy a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
+
+**Đáp số.** a) $x^2+x-12$. b) $2x^3+x^2-5x+2$.
+
+[ĐỀ – EN]
+Find the products:
+
+a) $(x+4)(x-3)$.
+
+b) $(2x-1)(x^2+x-2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+
+b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+
+So a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
+
+**Answer.** a) $x^2+x-12$. b) $2x^3+x^2-5x+2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Thực hiện phép chia:
+
+a) $12x^3y^2:(-4xy)$.
+
+b) $(15x^4y^3-10x^2y^2+5xy):(5xy)$.
+
+c) $(8x^3-4x^2+6x):(2x)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $12x^3y^2:(-4xy)=-3x^2y$.
+
+b) $(15x^4y^3-10x^2y^2+5xy):(5xy)=3x^3y^2-2xy+1$.
+
+c) $(8x^3-4x^2+6x):(2x)=4x^2-2x+3$.
+
+Vậy a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
+
+**Đáp số.** a) $-3x^2y$. b) $3x^3y^2-2xy+1$. c) $4x^2-2x+3$.
+
+[ĐỀ – EN]
+Carry out the divisions:
+
+a) $12x^3y^2\div(-4xy)$.
+
+b) $(15x^4y^3-10x^2y^2+5xy)\div(5xy)$.
+
+c) $(8x^3-4x^2+6x)\div(2x)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $12x^3y^2\div(-4xy)=-3x^2y$.
+
+b) $(15x^4y^3-10x^2y^2+5xy)\div(5xy)=3x^3y^2-2xy+1$.
+
+c) $(8x^3-4x^2+6x)\div(2x)=4x^2-2x+3$.
+
+So a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
+
+**Answer.** a) $-3x^2y$. b) $3x^3y^2-2xy+1$. c) $4x^2-2x+3$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật có đáy là hình chữ nhật rộng $x$ cm, dài $(x+2)$ cm và cao $(x+3)$ cm. Viết đa thức biểu thị thể tích, rồi tính khi $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+
+Khi $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Kiểm tra: $2\cdot4\cdot5=40$.)
+
+Vậy $V=x^3+5x^2+6x\ (\text{cm}^3)$, và bằng $40\ \text{cm}^3$ khi $x=2$.
+
+**Đáp số.** $x^3+5x^2+6x$; $40\ \text{cm}^3$.
+
+[ĐỀ – EN]
+Recall the lesson on cuboids. A cuboid has a rectangular base of width $x$ cm and length $(x+2)$ cm, and height $(x+3)$ cm. Write a polynomial for the volume, then find it when $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+
+When $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Check: $2\cdot4\cdot5=40$.)
+
+So $V=x^3+5x^2+6x\ (\text{cm}^3)$, which equals $40\ \text{cm}^3$ when $x=2$.
+
+**Answer.** $x^3+5x^2+6x$; $40\ \text{cm}^3$.
+
+
+######################################################################
+@@@ g8/gradient-of-a-line
+Bài học: Hệ số góc của đường thẳng / The gradient of a straight line
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Xác định hệ số góc $a$ và hệ số $b$ của mỗi hàm số:
+
+a) $y=-3x+5$.
+
+b) $y=\dfrac{x}{4}-1$.
+
+c) $y=4-2x$.
+
+d) $y=7x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=-3$, $b=5$.
+
+b) $y=\dfrac14x-1$ nên $a=\dfrac14$, $b=-1$.
+
+c) $y=-2x+4$ nên $a=-2$, $b=4$.
+
+d) $y=7x+0$ nên $a=7$, $b=0$.
+
+**Đáp số.** a) $(-3; 5)$. b) $\left(\dfrac14; -1\right)$. c) $(-2; 4)$. d) $(7; 0)$.
+
+[ĐỀ – EN]
+Find the gradient $a$ and the constant $b$ of each function:
+
+a) $y=-3x+5$.
+
+b) $y=\dfrac{x}{4}-1$.
+
+c) $y=4-2x$.
+
+d) $y=7x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=-3$, $b=5$.
+
+b) $y=\dfrac14x-1$, so $a=\dfrac14$, $b=-1$.
+
+c) $y=-2x+4$, so $a=-2$, $b=4$.
+
+d) $y=7x+0$, so $a=7$, $b=0$.
+
+**Answer.** a) $(-3, 5)$. b) $\left(\dfrac14, -1\right)$. c) $(-2, 4)$. d) $(7, 0)$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hàm số nào đi lên, hàm số nào đi xuống?
+
+a) $y=0{,}5x+2$.
+
+b) $y=-4x+1$.
+
+c) $y=1-3x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=0{,}5>0$: đi lên. b) $a=-4<0$: đi xuống. c) $y=-3x+1$ nên $a=-3<0$: đi xuống.
+
+Vậy a) đi lên; b) và c) đi xuống.
+
+**Đáp số.** a) lên. b) xuống. c) xuống.
+
+[ĐỀ – EN]
+Which functions rise and which fall?
+
+a) $y=0.5x+2$.
+
+b) $y=-4x+1$.
+
+c) $y=1-3x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=0.5>0$: rises. b) $a=-4<0$: falls. c) $y=-3x+1$, so $a=-3<0$: falls.
+
+So a) rises; b) and c) fall.
+
+**Answer.** a) rises. b) falls. c) falls.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phương trình đường thẳng đi qua:
+
+a) $A(-1; -3)$ và $B(2; 3)$.
+
+b) $A(0; 5)$ và $B(4; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. Từ $A$: $-3=2\cdot(-1)+b$, suy ra $b=-1$. Phương trình: $y=2x-1$. Kiểm tra với $B$: $2\cdot2-1=3$, đúng.
+
+b) $a=\dfrac{1-5}{4-0}=-1$. Đường thẳng cắt trục tung tại $(0; 5)$ nên $b=5$. Phương trình: $y=-x+5$. Kiểm tra với $B$: $-4+5=1$, đúng.
+
+**Đáp số.** a) $y=2x-1$. b) $y=-x+5$.
+
+[ĐỀ – EN]
+Write the equation of the line through:
+
+a) $A(-1, -3)$ and $B(2, 3)$.
+
+b) $A(0, 5)$ and $B(4, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. From $A$: $-3=2\cdot(-1)+b$, so $b=-1$. Equation: $y=2x-1$. Check with $B$: $2\cdot2-1=3$, correct.
+
+b) $a=\dfrac{1-5}{4-0}=-1$. The line meets the $y$-axis at $(0, 5)$, so $b=5$. Equation: $y=-x+5$. Check with $B$: $-4+5=1$, correct.
+
+**Answer.** a) $y=2x-1$. b) $y=-x+5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Vẽ đồ thị của hàm số $y=\dfrac{x}{2}+1$.
+
+[LỜI GIẢI CŨ – VI]
+Cho $x=0$ thì $y=1$, được $(0; 1)$. Cho $x=2$ thì $y=2$, được $(2; 2)$. Nối hai điểm ta được đường thẳng đi lên (vì $a=\dfrac12>0$), đi qua thêm điểm $(-2; 0)$.
+
+**Đáp số.** Đường thẳng đi qua $(0; 1)$ và $(2; 2)$.
+
+[ĐỀ – EN]
+Draw the graph of $y=\dfrac{x}{2}+1$.
+
+[LỜI GIẢI CŨ – EN]
+For $x=0$, $y=1$, giving $(0, 1)$. For $x=2$, $y=2$, giving $(2, 2)$. Joining the two points gives a line that rises (since $a=\dfrac12>0$) and also passes through $(-2, 0)$.
+
+**Answer.** The line through $(0, 1)$ and $(2, 2)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho bốn đường thẳng $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: y=2x+3$. Xét vị trí của $d_1$ với từng đường còn lại.
+
+[LỜI GIẢI CŨ – VI]
+Với $d_2$: cùng $a=2$, $b$ khác ($3\neq-5$): song song. Với $d_3$: $a=-2\neq2$: cắt nhau, giao điểm có $2x+3=-2x+3$, suy ra $x=0$ và $y=3$, tức $(0; 3)$. Với $d_4$: cùng $a=2$ và cùng $b=3$: trùng nhau.
+
+**Đáp số.** $d_1\parallel d_2$; $d_1$ cắt $d_3$ tại $(0; 3)$; $d_1\equiv d_4$.
+
+[ĐỀ – EN]
+Consider the four lines $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: y=2x+3$. Find the position of $d_1$ relative to each of the others.
+
+[LỜI GIẢI CŨ – EN]
+With $d_2$: same $a=2$, different $b$ ($3\neq-5$): parallel. With $d_3$: $a=-2\neq2$: intersecting, and at the intersection $2x+3=-2x+3$, so $x=0$ and $y=3$, that is $(0, 3)$. With $d_4$: same $a=2$ and same $b=3$: coincident.
+
+**Answer.** $d_1\parallel d_2$; $d_1$ meets $d_3$ at $(0, 3)$; $d_1\equiv d_4$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm giao điểm của hai đường thẳng $y=2x-1$ và $y=-x+5$. (Ôn lại [phương trình bậc nhất](lesson:linear-equations-one-unknown).)
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2x-1=-x+5$, suy ra $3x=6$ và $x=2$. Khi đó $y=2\cdot2-1=3$.
+
+Kiểm tra: $-2+5=3$.
+
+Vậy giao điểm là $(2; 3)$.
+
+**Đáp số.** $(2; 3)$.
+
+[ĐỀ – EN]
+Find the point of intersection of the lines $y=2x-1$ and $y=-x+5$. (Revise [linear equations](lesson:linear-equations-one-unknown).)
+
+[LỜI GIẢI CŨ – EN]
+We have $2x-1=-x+5$, so $3x=6$ and $x=2$. Then $y=2\cdot2-1=3$.
+
+Check: $-2+5=3$.
+
+So the point of intersection is $(2, 3)$.
+
+**Answer.** $(2, 3)$.
+
+
+######################################################################
+@@@ g8/intro-algebraic-fractions
+Bài học: Phân thức đại số. Tính chất cơ bản của phân thức đại số / Algebraic fractions. The basic property of algebraic fractions
+Cần viết lại lời giải các bài: 1, 2, 4, 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Biểu thức nào sau đây là phân thức đại số?
+
+a) $\dfrac{x+1}{x^2+1}$.
+
+b) $\dfrac{3x}{0}$.
+
+c) $\dfrac{2x-1}{7}$.
+
+d) $4x-5$.
+
+[LỜI GIẢI CŨ – VI]
+a) Là phân thức. b) Mẫu bằng $0$ nên không là phân thức. c) Là phân thức. d) Là đa thức, viết được $\dfrac{4x-5}{1}$ nên là phân thức.
+
+Vậy a), c), d) là phân thức đại số.
+
+**Đáp số.** a), c), d).
+
+[ĐỀ – EN]
+Which of these expressions are algebraic fractions?
+
+a) $\dfrac{x+1}{x^2+1}$.
+
+b) $\dfrac{3x}{0}$.
+
+c) $\dfrac{2x-1}{7}$.
+
+d) $4x-5$.
+
+[LỜI GIẢI CŨ – EN]
+a) It is an algebraic fraction. b) The denominator is $0$, so it is not. c) It is an algebraic fraction. d) It is a polynomial, which can be written $\dfrac{4x-5}{1}$, so it is an algebraic fraction.
+
+So a), c), d) are algebraic fractions.
+
+**Answer.** a), c), d).
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm điều kiện xác định của các phân thức sau:
+
+a) $\dfrac{5}{2x-6}$.
+
+b) $\dfrac{x+1}{x^2-25}$.
+
+c) $\dfrac{3}{x^2+4}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $2x-6\neq0$ nên $x\neq3$.
+
+b) $x^2-25\neq0$ nên $(x-5)(x+5)\neq0$, tức $x\neq5$ và $x\neq-5$.
+
+c) Vì $x^2+4\geq4>0$ nên mẫu không bao giờ bằng $0$; phân thức xác định với mọi $x$.
+
+**Đáp số.** a) $x\neq3$. b) $x\neq\pm5$. c) với mọi $x$.
+
+[ĐỀ – EN]
+Find when each of these fractions is defined:
+
+a) $\dfrac{5}{2x-6}$.
+
+b) $\dfrac{x+1}{x^2-25}$.
+
+c) $\dfrac{3}{x^2+4}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $2x-6\neq0$, so $x\neq3$.
+
+b) $x^2-25\neq0$, so $(x-5)(x+5)\neq0$, that is $x\neq5$ and $x\neq-5$.
+
+c) Since $x^2+4\geq4>0$, the denominator is never $0$; the fraction is defined for every $x$.
+
+**Answer.** a) $x\neq3$. b) $x\neq\pm5$. c) every $x$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Chứng minh $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12$ và $(x^2-4)\cdot3=3x^2-12$. Hai tích bằng nhau.
+
+Vậy $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
+
+**Đáp số.** Đã chứng minh.
+
+[ĐỀ – EN]
+Prove that $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12$ and $(x^2-4)\cdot3=3x^2-12$. The two products are equal.
+
+So $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
+
+**Answer.** Proved.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Rút gọn các phân thức sau:
+
+a) $\dfrac{12x^3y^2}{18x^2y^3}$.
+
+b) $\dfrac{5x+10}{x^2-4}$.
+
+c) $\dfrac{x^2-6x+9}{x^2-9}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{12x^3y^2}{18x^2y^3}=\dfrac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\dfrac{2x}{3y}$.
+
+b) $\dfrac{5x+10}{x^2-4}=\dfrac{5(x+2)}{(x-2)(x+2)}=\dfrac{5}{x-2}$.
+
+c) $\dfrac{x^2-6x+9}{x^2-9}=\dfrac{(x-3)^2}{(x-3)(x+3)}=\dfrac{x-3}{x+3}$.
+
+Vậy a) $\dfrac{2x}{3y}$; b) $\dfrac{5}{x-2}$; c) $\dfrac{x-3}{x+3}$.
+
+**Đáp số.** a) $\dfrac{2x}{3y}$. b) $\dfrac{5}{x-2}$. c) $\dfrac{x-3}{x+3}$.
+
+[ĐỀ – EN]
+Simplify the following fractions:
+
+a) $\dfrac{12x^3y^2}{18x^2y^3}$.
+
+b) $\dfrac{5x+10}{x^2-4}$.
+
+c) $\dfrac{x^2-6x+9}{x^2-9}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{12x^3y^2}{18x^2y^3}=\dfrac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\dfrac{2x}{3y}$.
+
+b) $\dfrac{5x+10}{x^2-4}=\dfrac{5(x+2)}{(x-2)(x+2)}=\dfrac{5}{x-2}$.
+
+c) $\dfrac{x^2-6x+9}{x^2-9}=\dfrac{(x-3)^2}{(x-3)(x+3)}=\dfrac{x-3}{x+3}$.
+
+So a) $\dfrac{2x}{3y}$; b) $\dfrac{5}{x-2}$; c) $\dfrac{x-3}{x+3}$.
+
+**Answer.** a) $\dfrac{2x}{3y}$. b) $\dfrac{5}{x-2}$. c) $\dfrac{x-3}{x+3}$.
+
+
+===== HẾT FILE Lemonmath112-LG-3 =====

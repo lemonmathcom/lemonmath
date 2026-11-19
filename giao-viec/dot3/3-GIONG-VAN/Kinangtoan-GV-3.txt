@@ -1,0 +1,1518 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Kinangtoan-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g1/number-bonds, g1/numbers-0-to-5, g1/numbers-6-to-10, g1/position-and-direction
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Kinangtoan-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Kinangtoan-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Kinangtoan-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g1/number-bonds – BẢN TIẾNG VIỆT ########
+---
+title: Mấy và mấy
+description: Em học tách một số từ 2 đến 10 thành hai số nhỏ hơn, ví dụ 5 gồm 2 và 3, và tìm số còn thiếu khi biết một phần.
+minutes: 15
+---
+
+  :::goals
+  - Biết một số gồm hai số nhỏ hơn, ví dụ $5$ gồm $2$ và $3$.
+  - Tìm số còn thiếu khi biết số lớn và một phần.
+  - Biết đổi chỗ hai phần mà số lớn không đổi.
+  :::
+
+[[P1·b297]]
+Lan có $5$ viên bi. Lan cầm $2$ viên ở tay trái, phần còn lại ở tay phải. Tay phải có mấy viên bi?
+
+[[P2·0f6f]]
+Em đã biết đếm và so sánh các số đến $10$. Bài này em học cách tách một số thành hai phần.
+
+## Cùng khám phá
+
+[[P3·6804]]
+Em có $5$ viên bi và chia vào hai tay.
+
+| Tay trái | Tay phải |
+|---|---|
+| $1$ | $4$ |
+| $2$ | $3$ |
+| $3$ | $2$ |
+| $4$ | $1$ |
+
+[[P4·dac7]]
+Ở mỗi dòng, hai phần ghép lại đều đủ $5$ viên. Ta nói: $5$ gồm $1$ và $4$; $5$ gồm $2$ và $3$; $5$ gồm $3$ và $2$; $5$ gồm $4$ và $1$.
+
+[[P5·86da]]
+Vậy tay phải của Lan có $3$ viên bi.
+
+  :::theorem Mấy và mấy
+  1. Một số có thể gồm hai số nhỏ hơn. Ví dụ $5$ gồm $2$ và $3$.
+  2. Đổi chỗ hai phần thì số lớn không đổi: $5$ gồm $3$ và $2$.
+  3. Biết số lớn và một phần, em tìm phần còn lại bằng cách đếm tiếp hoặc ghép.
+  :::
+
+[[P6·c722]]
+Cách này đúng vì khi chia các viên bi vào hai tay, không viên bi nào mất đi. Hai tay cộng lại vẫn là cả nhóm bi ban đầu.
+
+## Ví dụ
+
+[[P7·8b53]]
+Ta bắt đầu với số $4$.
+
+  :::example Số 4 gồm 1 và mấy
+  $4$ gồm $1$ và $\square$. Tìm số còn thiếu.
+
+  **Lời giải.** Em có $4$ viên, lấy ra $1$ viên. Em đếm số viên còn lại: "một, hai, ba".
+
+  Vậy $4$ gồm $1$ và $3$.
+  :::
+
+[[P8·5929]]
+Bây giờ em làm với số lớn hơn.
+
+  :::example Số 6 gồm 2 và mấy
+  $6$ gồm $2$ và $\square$. Tìm số còn thiếu.
+
+  **Lời giải.** Em đếm từ $2$ lên $6$: "ba, bốn, năm, sáu". Em đếm thêm $4$ số.
+
+  Vậy $6$ gồm $2$ và $4$.
+
+  **Kiểm tra.** $6$ gồm $4$ và $2$ (đổi chỗ). Đúng.
+  :::
+
+[[P9·d600]]
+Tiếp theo em dùng cách đổi chỗ hai phần.
+
+  :::example Đổi chỗ hai phần
+  Biết $7$ gồm $3$ và $4$. Hỏi $7$ gồm $4$ và mấy?
+
+  **Lời giải.** Đổi chỗ hai phần thì số lớn không đổi. Vậy phần còn lại của $4$ là $3$.
+
+  Vậy $7$ gồm $4$ và $3$.
+  :::
+
+[[P10·1477]]
+Cuối cùng em giải một bài toán trong cuộc sống.
+
+  :::example Chia kẹo vào hai đĩa
+  Có $8$ cái kẹo chia vào hai đĩa. Đĩa thứ nhất có $3$ cái kẹo. Đĩa thứ hai có mấy cái kẹo?
+
+  ![Hai đĩa, đĩa trái có ba viên kẹo và đĩa phải được phủ khăn có dấu hỏi](/assets/img/g1/g1-number-bonds-01.svg)
+
+  **Lời giải.** Em cần biết $8$ gồm $3$ và mấy. Em đếm từ $3$ lên $8$: "bốn, năm, sáu, bảy, tám". Em đếm thêm $5$ số.
+
+  Vậy đĩa thứ hai có $5$ cái kẹo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·ed13]]
+- **Hai phần không đủ cả nhóm.** Sai: $6$ gồm $4$ và $3$. Vì sao sai: $4$ và $3$ ghép lại thành bảy, không phải sáu. Đúng: $6$ gồm $4$ và $2$.
+- **Quên đổi chỗ vẫn đúng.** Sai: $7$ gồm $3$ và $4$ nhưng $7$ gồm $4$ và $3$ thì sai. Vì sao sai: đổi chỗ hai phần thì số lớn không đổi. Đúng: cả hai đều đúng.
+- **Đếm cả số đã biết.** Sai: $6$ gồm $2$ và $5$ vì đếm "hai, ba, bốn, năm, sáu". Vì sao sai: em đã đếm thừa số $2$. Đúng: đếm tiếp sau số $2$, được $4$ số.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - gồm | is made of
+  - tách số | split a number
+  - hai phần | two parts
+  - mấy và mấy | number bonds
+  - số lớn | whole (the big number)
+  - đổi chỗ | swap
+  :::
+
+## Tóm tắt
+
+[[P12·7c52]]
+- Một số có thể gồm hai số nhỏ hơn: $5$ gồm $2$ và $3$.
+- Đổi chỗ hai phần thì số lớn không đổi.
+- Biết số lớn và một phần, đếm tiếp từ phần đã biết lên số lớn để tìm phần còn thiếu.
+- Hai phần phải ghép lại đủ cả nhóm.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/number-bonds – BẢN TIẾNG ANH ########
+---
+title: Number bonds
+description: Learn to split a number from 2 to 10 into two smaller numbers, for example 5 is made of 2 and 3, and find the missing part when you know one part.
+minutes: 15
+---
+
+  :::goals
+  - Know that a number is made of two smaller numbers, for example $5$ is made of $2$ and $3$.
+  - Find the missing part when you know the whole and one part.
+  - Know that swapping the two parts does not change the whole.
+  :::
+
+[[P1·bfd6]]
+Lan has $5$ marbles. She holds $2$ marbles in her left hand and the rest in her right hand. How many marbles are in her right hand?
+
+[[P2·bb07]]
+You can already count and compare numbers up to $10$. In this lesson you learn to split a number into two parts.
+
+## Let's explore
+
+[[P3·2dc0]]
+You have $5$ marbles and share them between two hands.
+
+| Left hand | Right hand |
+|---|---|
+| $1$ | $4$ |
+| $2$ | $3$ |
+| $3$ | $2$ |
+| $4$ | $1$ |
+
+[[P4·46b7]]
+In every row, the two parts together make all $5$ marbles. We say: $5$ is made of $1$ and $4$; $5$ is made of $2$ and $3$; $5$ is made of $3$ and $2$; $5$ is made of $4$ and $1$.
+
+[[P5·4665]]
+So Lan has $3$ marbles in her right hand.
+
+  :::theorem Number bonds
+  1. A number can be made of two smaller numbers. For example, $5$ is made of $2$ and $3$.
+  2. Swap the two parts and the whole stays the same: $5$ is made of $3$ and $2$.
+  3. If you know the whole and one part, you find the other part by counting on or by matching.
+  :::
+
+[[P6·f8c2]]
+This works because when you share the marbles between two hands, no marble is lost. The two hands together are still the whole group.
+
+## Examples
+
+[[P7·8353]]
+We start with the number $4$.
+
+  :::example $4$ is made of $1$ and what
+  $4$ is made of $1$ and $\square$. Find the missing number.
+
+  **Solution.** You have $4$ marbles and take away $1$. You count the marbles left: "one, two, three".
+
+  So $4$ is made of $1$ and $3$.
+  :::
+
+[[P8·86e8]]
+Now try a bigger number.
+
+  :::example $6$ is made of $2$ and what
+  $6$ is made of $2$ and $\square$. Find the missing number.
+
+  **Solution.** Count on from $2$ to $6$: "three, four, five, six". You counted $4$ numbers.
+
+  So $6$ is made of $2$ and $4$.
+
+  **Check.** $6$ is made of $4$ and $2$ (swapped). Correct.
+  :::
+
+[[P9·44f5]]
+Next, use swapping the two parts.
+
+  :::example Swapping the two parts
+  You know $7$ is made of $3$ and $4$. What is $7$ made of $4$ and?
+
+  **Solution.** Swapping the parts does not change the whole. So the other part of $4$ is $3$.
+
+  So $7$ is made of $4$ and $3$.
+  :::
+
+[[P10·5ef8]]
+Last, solve an everyday problem.
+
+  :::example Sharing sweets on two plates
+  $8$ sweets are shared between two plates. The first plate has $3$ sweets. How many sweets are on the second plate?
+
+  ![Two plates: three candies on the left plate and a question-mark cloth over the right plate](/assets/img/g1/g1-number-bonds-01.svg)
+
+  **Solution.** You need to know what $8$ is made of $3$ and. Count on from $3$ to $8$: "four, five, six, seven, eight". You counted $5$ numbers.
+
+  So the second plate has $5$ sweets.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2027]]
+- **Parts that do not make the whole.** Wrong: $6$ is made of $4$ and $3$. Why it is wrong: $4$ and $3$ together make seven, not six. Right: $6$ is made of $4$ and $2$.
+- **Forgetting that swapping still works.** Wrong: $7$ is made of $3$ and $4$ but not of $4$ and $3$. Why it is wrong: swapping the parts does not change the whole. Right: both are correct.
+- **Counting the number you already know.** Wrong: $6$ is made of $2$ and $5$ because you count "two, three, four, five, six". Why it is wrong: you counted the $2$ as well. Right: count on after $2$ to get $4$ numbers.
+:::
+
+## Key terms
+
+  :::terms
+  - is made of | gồm
+  - split a number | tách số
+  - two parts | hai phần
+  - number bonds | mấy và mấy
+  - whole | số lớn
+  - swap | đổi chỗ
+  :::
+
+## Summary
+
+[[P12·df03]]
+- A number can be made of two smaller numbers: $5$ is made of $2$ and $3$.
+- Swap the two parts and the whole stays the same.
+- If you know the whole and one part, count on from the known part to the whole to find the missing part.
+- The two parts must make the whole group.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/numbers-0-to-5 – BẢN TIẾNG VIỆT ########
+---
+title: Các số 0, 1, 2, 3, 4, 5
+description: Em học đếm, đọc và viết các số 0, 1, 2, 3, 4, 5, biết số 0 nghĩa là không có gì và điền số còn thiếu trong dãy số.
+minutes: 15
+---
+
+  :::goals
+  - Đếm được từ $0$ đến $5$ và nói được có bao nhiêu đồ vật.
+  - Đọc và viết các số $0, 1, 2, 3, 4, 5$.
+  - Biết số $0$ nghĩa là không có đồ vật nào.
+  - Điền số còn thiếu trong dãy số từ $0$ đến $5$.
+  :::
+
+[[P1·8d3a]]
+Trên bàn có một đĩa kẹo. Lan đếm xong và nói: "Có $4$ cái kẹo." Lan ăn hết kẹo trên đĩa. Bây giờ trên đĩa có mấy cái kẹo, và em viết bằng số nào?
+
+[[P2·3656]]
+Em đã biết đếm ở trường mầm non. Bài này giúp em đọc và viết các số đó thật đẹp.
+
+## Cùng khám phá
+
+[[P3·b8d7]]
+Em hãy đếm từng đồ vật, mỗi đồ vật đếm một lần.
+
+[[P4·f1e8]]
+- Trên cành có một con chim. Em đếm: "một". Ta viết số $1$.
+- Có hai bông hoa trong lọ. Em đếm: "một, hai". Ta viết số $2$.
+- Có ba quả cam trong rổ. Em đếm: "một, hai, ba". Ta viết số $3$.
+- Có bốn cái kẹo trên đĩa. Ta viết số $4$.
+- Có năm quả bóng bay. Ta viết số $5$.
+- Trong bể không có con cá nào. Ta viết số $0$ và đọc là "không".
+
+[[P5·7ea9]]
+Vậy khi Lan ăn hết kẹo, trên đĩa có $0$ cái kẹo.
+
+:::graph Các số từ 0 đến 5 xếp thành hàng trên tia số
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách dùng các số 0, 1, 2, 3, 4, 5
+  1. Mỗi số cho biết có bao nhiêu đồ vật.
+  2. Khi đếm, em đếm theo thứ tự: không, một, hai, ba, bốn, năm.
+  3. Không có đồ vật nào thì viết số $0$.
+  4. Đếm thêm một thì được số đứng ngay sau.
+  :::
+
+[[P6·927b]]
+Cách này đúng vì mỗi lần đếm, em chỉ chạm vào một đồ vật và nói một số. Số cuối cùng em nói chính là số đồ vật.
+
+## Ví dụ
+
+[[P7·8310]]
+Ta bắt đầu với một việc rất đơn giản: đếm các con chim.
+
+  :::example Đếm chim
+  Trên cây có ba con chim. Viết số con chim.
+
+  ![Ba con chim đậu trên một cành cây](/assets/img/g1/g1-numbers-0-to-5-01.svg)
+
+  **Lời giải.** Em đếm: "một, hai, ba". Số cuối cùng em nói là ba.
+
+  Vậy có $3$ con chim.
+  :::
+
+[[P8·39f7]]
+Bây giờ em đếm một nhóm có nhiều đồ vật hơn.
+
+  :::example Đếm bóng bay
+  Bạn Nam cầm năm quả bóng bay. Viết số quả bóng bay.
+
+  ![Năm quả bóng bay nhiều màu có dây chụm lại](/assets/img/g1/g1-numbers-0-to-5-02.svg)
+
+  **Lời giải.** Em đếm từng quả: "một, hai, ba, bốn, năm". Số cuối cùng là năm.
+
+  Vậy có $5$ quả bóng bay.
+  :::
+
+[[P9·2980]]
+Có khi chẳng có đồ vật nào để đếm.
+
+  :::example Bể cá trống
+  Trong bể không có con cá nào. Viết số con cá.
+
+  ![Bể cá có nước, rong và sỏi nhưng không có cá](/assets/img/g1/g1-numbers-0-to-5-03.svg)
+
+  **Lời giải.** Không có con cá nào để đếm, nên em viết số không.
+
+  Vậy có $0$ con cá.
+  :::
+
+[[P10·834a]]
+Cuối cùng em điền số còn thiếu trong dãy số.
+
+  :::example Điền số vào dãy
+  Điền số thích hợp vào ô trống: $0, 1, \square, 3, 4, 5$.
+
+  **Lời giải.** Em đếm theo thứ tự: không, một, ..., ba. Sau số $1$ là số hai, rồi mới đến số $3$.
+
+  Vậy số cần điền là $2$.
+
+  **Kiểm tra.** Đếm lại cả dãy: không, một, hai, ba, bốn, năm. Đúng thứ tự.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·1950]]
+- **Đếm sót.** Sai: có $4$ quả bóng nhưng đếm "một, hai, ba, năm". Vì sao sai: em bỏ quên số bốn. Đúng: đếm "một, hai, ba, bốn", được $4$ quả.
+- **Quên số $0$.** Sai: lọ không có hoa, em viết số $1$. Vì sao sai: $1$ nghĩa là có một bông hoa. Đúng: viết $0$.
+- **Đếm một vật hai lần.** Sai: chạm vào một quả cam hai lần. Vì sao sai: kết quả sẽ nhiều hơn thật. Đúng: mỗi vật chỉ đếm một lần, đếm xong thì đánh dấu.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số | number
+  - đếm | count
+  - không ($0$) | zero
+  - một ($1$) | one
+  - hai ($2$) | two
+  - ba ($3$) | three
+  - bốn ($4$) | four
+  - năm ($5$) | five
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P12·3f12]]
+- Số cho biết có bao nhiêu đồ vật: $1, 2, 3, 4, 5$.
+- Không có đồ vật nào thì viết số $0$.
+- Thứ tự đếm: $0, 1, 2, 3, 4, 5$.
+- Mỗi đồ vật chỉ đếm một lần; số cuối cùng em nói là kết quả.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/numbers-0-to-5 – BẢN TIẾNG ANH ########
+---
+title: Numbers 0, 1, 2, 3, 4, 5
+description: Learn to count, read and write the numbers 0, 1, 2, 3, 4, 5, know that 0 means nothing at all, and fill in the missing number in a row.
+minutes: 15
+---
+
+  :::goals
+  - Count from $0$ to $5$ and say how many things there are.
+  - Read and write the numbers $0, 1, 2, 3, 4, 5$.
+  - Know that $0$ means there is nothing.
+  - Fill in the missing number in a row from $0$ to $5$.
+  :::
+
+[[P1·eb26]]
+There is a plate of sweets on the table. Lan counts and says: "There are $4$ sweets." Then Lan eats all the sweets. How many sweets are on the plate now, and which number do you write?
+
+[[P2·77c7]]
+You already know how to count from nursery. This lesson helps you read and write those numbers neatly.
+
+## Let's explore
+
+[[P3·82eb]]
+Count each thing once.
+
+[[P4·8b5a]]
+- There is one bird on a branch. You count: "one". We write the number $1$.
+- There are two flowers in a vase. You count: "one, two". We write the number $2$.
+- There are three oranges in a basket. You count: "one, two, three". We write the number $3$.
+- There are four sweets on a plate. We write the number $4$.
+- There are five balloons. We write the number $5$.
+- There is no fish in the tank. We write the number $0$ and say "zero".
+
+[[P5·1f51]]
+So when Lan eats all the sweets, there are $0$ sweets on the plate.
+
+:::graph The numbers from 0 to 5 in a row on a number line
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to use the numbers 0, 1, 2, 3, 4, 5
+  1. Each number tells you how many things there are.
+  2. When you count, say the numbers in order: zero, one, two, three, four, five.
+  3. If there is nothing, write $0$.
+  4. Count on one more and you get the number just after.
+  :::
+
+[[P6·1a58]]
+This works because each time you count, you touch one thing and say one number. The last number you say is how many things there are.
+
+## Examples
+
+[[P7·863a]]
+We start with something very simple: counting birds.
+
+  :::example Counting birds
+  There are three birds in a tree. Write the number of birds.
+
+  ![Three birds sitting on one branch](/assets/img/g1/g1-numbers-0-to-5-01.svg)
+
+  **Solution.** You count: "one, two, three". The last number you say is three.
+
+  So there are $3$ birds.
+  :::
+
+[[P8·ecf0]]
+Now count a group with more things.
+
+  :::example Counting balloons
+  Nam holds five balloons. Write the number of balloons.
+
+  ![Five colorful balloons with strings gathered below](/assets/img/g1/g1-numbers-0-to-5-02.svg)
+
+  **Solution.** Count each balloon: "one, two, three, four, five". The last number is five.
+
+  So there are $5$ balloons.
+  :::
+
+[[P9·07f6]]
+Sometimes there is nothing to count.
+
+  :::example An empty fish tank
+  There is no fish in the tank. Write the number of fish.
+
+  ![An aquarium with water, plants, and stones but no fish](/assets/img/g1/g1-numbers-0-to-5-03.svg)
+
+  **Solution.** There is no fish to count, so you write zero.
+
+  So there are $0$ fish.
+  :::
+
+[[P10·c90c]]
+Last, fill in the missing number in a row.
+
+  :::example Fill in the row
+  Fill in the box: $0, 1, \square, 3, 4, 5$.
+
+  **Solution.** Count in order: zero, one, ..., three. After $1$ comes two, and then $3$.
+
+  So the missing number is $2$.
+
+  **Check.** Count the whole row again: zero, one, two, three, four, five. The order is right.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·7097]]
+- **Missing one when counting.** Wrong: there are $4$ balloons but you count "one, two, three, five". Why it is wrong: you forgot four. Right: count "one, two, three, four" and get $4$ balloons.
+- **Forgetting $0$.** Wrong: the vase has no flowers, but you write $1$. Why it is wrong: $1$ means one flower. Right: write $0$.
+- **Counting one thing twice.** Wrong: touching the same orange two times. Why it is wrong: the answer is too big. Right: count each thing once and mark it when counted.
+:::
+
+## Key terms
+
+  :::terms
+  - number | số
+  - count | đếm
+  - zero ($0$) | không
+  - one ($1$) | một
+  - two ($2$) | hai
+  - three ($3$) | ba
+  - four ($4$) | bốn
+  - five ($5$) | năm
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P12·d8cf]]
+- A number tells you how many things there are: $1, 2, 3, 4, 5$.
+- If there is nothing, write $0$.
+- Counting order: $0, 1, 2, 3, 4, 5$.
+- Count each thing once; the last number you say is the answer.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/numbers-6-to-10 – BẢN TIẾNG VIỆT ########
+---
+title: Các số 6, 7, 8, 9, 10
+description: Em học đếm, đọc và viết các số 6, 7, 8, 9, 10, biết số liền sau và điền số còn thiếu trong dãy số từ 0 đến 10.
+minutes: 15
+---
+
+  :::goals
+  - Đếm được đến $10$ và nói được có bao nhiêu đồ vật.
+  - Đọc và viết các số $6, 7, 8, 9, 10$.
+  - Biết số liền sau của một số.
+  - Điền số còn thiếu trong dãy số từ $0$ đến $10$.
+  :::
+
+[[P1·5605]]
+Trong hộp có một số viên bi. Mai đếm từng viên và nói: "Có $8$ viên bi." Làm sao Mai biết mình đếm đúng, và em viết số $8$ như thế nào?
+
+[[P2·a70a]]
+Ở bài trước em đã biết các số từ $0$ đến $5$. Bài này em học thêm năm số mới: $6, 7, 8, 9, 10$.
+
+## Cùng khám phá
+
+[[P3·c7c2]]
+Em đếm các đồ vật, mỗi đồ vật một lần.
+
+[[P4·f080]]
+- Có sáu cái bút chì. Em đếm: "một, hai, ba, bốn, năm, sáu". Ta viết số $6$.
+- Có bảy chiếc lá. Ta viết số $7$.
+- Có tám viên bi. Ta viết số $8$.
+- Có chín quả trứng. Ta viết số $9$.
+- Hai bàn tay có mười ngón. Ta viết số $10$.
+
+[[P5·4567]]
+Số $10$ được viết bằng hai chữ số: chữ số $1$ đứng trước, chữ số $0$ đứng sau.
+
+[[P6·ab6d]]
+Em đếm thêm một sau số $5$ thì được số $6$. Ta nói $6$ là số liền sau của $5$.
+
+:::graph Các số từ 0 đến 10 xếp thành hàng trên tia số
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Các số từ 0 đến 10
+  1. Thứ tự đếm là $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
+  2. Đếm thêm một thì được số liền sau.
+  3. Số $10$ viết bằng chữ số $1$ rồi đến chữ số $0$.
+  :::
+
+[[P7·d78a]]
+Cách này đúng vì mỗi số đứng sau hơn số trước đúng một đồ vật. Em đếm đến đâu thì dừng ở số đó.
+
+## Ví dụ
+
+[[P8·8b24]]
+Ta bắt đầu với việc đếm bút chì.
+
+  :::example Đếm bút chì
+  Trong hộp có sáu cái bút chì. Viết số bút chì.
+
+  ![Hộp bút mở chứa sáu bút chì nhiều màu](/assets/img/g1/g1-numbers-6-to-10-01.svg)
+
+  **Lời giải.** Em đếm: "một, hai, ba, bốn, năm, sáu". Số cuối cùng là sáu.
+
+  Vậy có $6$ cái bút chì.
+  :::
+
+[[P9·7fcb]]
+Bây giờ em đếm các ngón tay.
+
+  :::example Đếm ngón tay
+  Hai bàn tay của em có bao nhiêu ngón tay?
+
+  ![Hai bàn tay xòe, mỗi tay có năm ngón](/assets/img/g1/g1-numbers-6-to-10-02.svg)
+
+  **Lời giải.** Mỗi bàn tay có $5$ ngón. Em đếm ngón của bàn tay thứ nhất đến $5$, rồi đếm tiếp: "sáu, bảy, tám, chín, mười".
+
+  Vậy hai bàn tay có $10$ ngón tay.
+  :::
+
+[[P10·706b]]
+Tiếp theo em tìm số liền sau.
+
+  :::example Số liền sau
+  Tìm số liền sau của số $8$.
+
+  **Lời giải.** Em đếm: "... bảy, tám, chín". Sau tám là chín.
+
+  Vậy số liền sau của $8$ là $9$.
+  :::
+
+[[P11·55cb]]
+Cuối cùng em điền số còn thiếu trong dãy.
+
+  :::example Điền số vào dãy
+  Điền số thích hợp vào ô trống: $6, 7, \square, 9, 10$.
+
+  **Lời giải.** Em đọc: "sáu, bảy, ..., chín". Sau bảy là tám, rồi mới đến chín.
+
+  Vậy số cần điền là $8$.
+
+  **Kiểm tra.** Đọc lại cả dãy: sáu, bảy, tám, chín, mười. Đúng thứ tự.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·060b]]
+- **Đếm sót.** Sai: có $8$ cái ghế nhưng đếm "một, ..., sáu, tám". Vì sao sai: em quên số bảy. Đúng: đếm đủ "..., sáu, bảy, tám", được $8$ cái.
+- **Viết ngược số $10$.** Sai: viết $01$. Vì sao sai: chữ số $1$ phải đứng trước chữ số $0$. Đúng: viết $10$.
+- **Nhầm số liền sau với số liền trước.** Sai: số liền sau của $8$ là $7$. Vì sao sai: $7$ đứng trước $8$. Đúng: số liền sau của $8$ là $9$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - sáu ($6$) | six
+  - bảy ($7$) | seven
+  - tám ($8$) | eight
+  - chín ($9$) | nine
+  - mười ($10$) | ten
+  - chữ số | digit
+  - số liền sau | the number after
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·1adc]]
+- Các số mới: $6, 7, 8, 9, 10$.
+- Thứ tự đếm: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
+- Đếm thêm một thì được số liền sau.
+- Số $10$ viết bằng chữ số $1$ rồi chữ số $0$.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/numbers-6-to-10 – BẢN TIẾNG ANH ########
+---
+title: Numbers 6, 7, 8, 9, 10
+description: Learn to count, read and write the numbers 6, 7, 8, 9, 10, find the number after, and fill in the missing number in a row from 0 to 10.
+minutes: 15
+---
+
+  :::goals
+  - Count up to $10$ and say how many things there are.
+  - Read and write the numbers $6, 7, 8, 9, 10$.
+  - Know the number after a given number.
+  - Fill in the missing number in a row from $0$ to $10$.
+  :::
+
+[[P1·69dd]]
+There are some marbles in a box. Mai counts each one and says: "There are $8$ marbles." How does Mai know she counted right, and how do you write the number $8$?
+
+[[P2·bce3]]
+In the last lesson you learned the numbers from $0$ to $5$. Now you learn five new numbers: $6, 7, 8, 9, 10$.
+
+## Let's explore
+
+[[P3·8e8a]]
+Count the things, one at a time.
+
+[[P4·6e67]]
+- There are six pencils. You count: "one, two, three, four, five, six". We write the number $6$.
+- There are seven leaves. We write the number $7$.
+- There are eight marbles. We write the number $8$.
+- There are nine eggs. We write the number $9$.
+- Two hands have ten fingers. We write the number $10$.
+
+[[P5·673e]]
+The number $10$ is written with two digits: the digit $1$ first, then the digit $0$.
+
+[[P6·c385]]
+Count on one more after $5$ and you get $6$. We say $6$ is the number after $5$.
+
+:::graph The numbers from 0 to 10 in a row on a number line
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The numbers from 0 to 10
+  1. The counting order is $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
+  2. Count on one more and you get the number after.
+  3. The number $10$ is written with the digit $1$, then the digit $0$.
+  :::
+
+[[P7·ec0a]]
+This works because each number is exactly one more thing than the number before. You stop at the number where you finish counting.
+
+## Examples
+
+[[P8·8a6c]]
+We start with counting pencils.
+
+  :::example Counting pencils
+  There are six pencils in a box. Write the number of pencils.
+
+  ![An open pencil case holding six colorful pencils](/assets/img/g1/g1-numbers-6-to-10-01.svg)
+
+  **Solution.** You count: "one, two, three, four, five, six". The last number is six.
+
+  So there are $6$ pencils.
+  :::
+
+[[P9·76ba]]
+Now count fingers.
+
+  :::example Counting fingers
+  How many fingers are on your two hands?
+
+  ![Two open hands with five fingers on each hand](/assets/img/g1/g1-numbers-6-to-10-02.svg)
+
+  **Solution.** Each hand has $5$ fingers. Count the first hand up to $5$, then carry on: "six, seven, eight, nine, ten".
+
+  So two hands have $10$ fingers.
+  :::
+
+[[P10·10d9]]
+Next, find the number after.
+
+  :::example The number after
+  Find the number just after $8$.
+
+  **Solution.** You count: "... seven, eight, nine". After eight comes nine.
+
+  So the number after $8$ is $9$.
+  :::
+
+[[P11·c90c]]
+Last, fill in the missing number in a row.
+
+  :::example Fill in the row
+  Fill in the box: $6, 7, \square, 9, 10$.
+
+  **Solution.** Say: "six, seven, ..., nine". After seven comes eight, and then nine.
+
+  So the missing number is $8$.
+
+  **Check.** Say the whole row: six, seven, eight, nine, ten. The order is right.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·2544]]
+- **Missing one when counting.** Wrong: there are $8$ chairs but you count "one, ..., six, eight". Why it is wrong: you forgot seven. Right: count "..., six, seven, eight" and get $8$ chairs.
+- **Writing $10$ backwards.** Wrong: writing $01$. Why it is wrong: the digit $1$ must come first. Right: write $10$.
+- **Mixing up the number after and the number before.** Wrong: the number after $8$ is $7$. Why it is wrong: $7$ comes before $8$. Right: the number after $8$ is $9$.
+:::
+
+## Key terms
+
+  :::terms
+  - six ($6$) | sáu
+  - seven ($7$) | bảy
+  - eight ($8$) | tám
+  - nine ($9$) | chín
+  - ten ($10$) | mười
+  - digit | chữ số
+  - the number after | số liền sau
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·2659]]
+- The new numbers are $6, 7, 8, 9, 10$.
+- Counting order: $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$.
+- Count on one more to get the number after.
+- The number $10$ is written with the digit $1$, then the digit $0$.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/position-and-direction – BẢN TIẾNG VIỆT ########
+---
+title: Vị trí, định hướng trong không gian
+description: Em dùng các từ trên, dưới, trái, phải, trước, sau, ở giữa để nói vị trí của đồ vật và của bạn bè.
+minutes: 15
+---
+
+  :::goals
+  - Dùng các từ trên, dưới, bên trái, bên phải để nói vị trí.
+  - Dùng các từ trước, sau, ở giữa để nói vị trí trong hàng.
+  - Nói và hiểu đúng vị trí của đồ vật và của bạn bè.
+  :::
+
+[[P1·5826]]
+Lan, Mai và Nam xếp hàng vào lớp. Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+
+[[P2·15e5]]
+Em đã biết các hình khối. Bài này em học cách nói đồ vật ở đâu bằng những từ chỉ vị trí.
+
+## Cùng khám phá
+
+[[P3·9024]]
+Em nhìn ba hình xếp thành hàng ngang.
+
+:::diagram Ba hình xếp hàng ngang
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·e45e]]
+- Hình vuông ở bên trái hình tròn.
+- Hình tam giác ở bên phải hình tròn.
+- Hình tròn ở giữa hình vuông và hình tam giác.
+
+[[P5·8dae]]
+Bây giờ em nhìn ba hình xếp thành hàng dọc.
+
+:::diagram Ba hình xếp hàng dọc
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·0612]]
+- Hình tam giác ở trên hình vuông.
+- Hình tròn ở dưới hình vuông.
+- Hình vuông ở giữa hình tam giác và hình tròn.
+
+  :::theorem Các từ chỉ vị trí
+  1. **Trái** và **phải**: em giơ tay phải là tay cầm bút, tay còn lại là tay trái.
+  2. **Trên** và **dưới**: trên là phía cao, dưới là phía thấp.
+  3. **Trước** và **sau**: trong hàng, người đứng gần đầu hàng hơn thì đứng trước.
+  4. **Ở giữa**: nằm giữa hai đồ vật hoặc hai bạn.
+  :::
+
+[[P7·9f12]]
+Cách này đúng vì các từ này cho em biết một vật nằm ở phía nào so với vật khác.
+
+## Ví dụ
+
+[[P8·4ba5]]
+Ta bắt đầu với hàng ngang.
+
+  :::example Hình bên trái hình tròn
+  Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên trái hình tròn?
+
+  **Lời giải.** Em đọc từ trái sang phải: hình vuông, hình tròn, hình tam giác. Hình đứng trước hình tròn là hình vuông.
+
+  Vậy hình vuông ở bên trái hình tròn.
+  :::
+
+[[P9·f5fe]]
+Tiếp theo em tìm hình ở giữa.
+
+  :::example Hình ở giữa
+  Trong hàng ngang trên, hình nào ở giữa?
+
+  **Lời giải.** Hàng có ba hình. Hình ở giữa có một hình bên trái và một hình bên phải: đó là hình tròn.
+
+  Vậy hình tròn ở giữa.
+  :::
+
+[[P10·dc88]]
+Bây giờ em xem hàng dọc.
+
+  :::example Trên và dưới
+  Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình nào ở trên hình vuông? Hình nào ở dưới hình vuông?
+
+  **Lời giải.** Em đọc từ trên xuống dưới: tam giác, vuông, tròn. Hình tam giác đứng trên hình vuông, hình tròn đứng dưới hình vuông.
+
+  Vậy hình tam giác ở trên và hình tròn ở dưới hình vuông.
+  :::
+
+[[P11·5419]]
+Cuối cùng em trả lời câu hỏi ở đầu bài.
+
+  :::example Xếp hàng vào lớp
+  Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+
+  **Lời giải.** Thứ tự từ đầu hàng là: Lan, Mai, Nam. Mai có Lan ở trước và Nam ở sau.
+
+  Vậy Mai đứng ở giữa.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·57f9]]
+- **Nhầm trái và phải.** Sai: tay cầm bút là tay trái. Vì sao sai: tay cầm bút của đa số bạn là tay phải. Đúng: nhớ tay cầm bút là tay phải, tay kia là tay trái.
+- **Nhầm trước và sau.** Sai: người đứng cuối hàng đứng trước. Vì sao sai: người gần đầu hàng đứng trước. Đúng: đọc thứ tự từ đầu hàng.
+- **Nhầm ở giữa.** Sai: hình ở bên trái cùng là hình ở giữa. Vì sao sai: hình ở giữa phải có hình ở hai bên. Đúng: tìm hình có một hình bên trái và một hình bên phải.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - trên | above
+  - dưới | below
+  - bên trái | on the left
+  - bên phải | on the right
+  - trước | in front of
+  - sau | behind
+  - ở giữa | in the middle
+  - vị trí | position
+  :::
+
+## Tóm tắt
+
+[[P13·8d21]]
+- Trái – phải: tay cầm bút là tay phải.
+- Trên – dưới: trên là phía cao, dưới là phía thấp.
+- Trước – sau: đọc thứ tự từ đầu hàng.
+- Ở giữa: có một vật ở mỗi bên.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/position-and-direction – BẢN TIẾNG ANH ########
+---
+title: Position and direction in space
+description: Learn to use the words above, below, left, right, in front of, behind and in the middle to say where things and friends are.
+minutes: 15
+---
+
+  :::goals
+  - Use the words above, below, on the left and on the right to say position.
+  - Use the words in front of, behind and in the middle to say position in a line.
+  - Say and understand where things and friends are.
+  :::
+
+[[P1·e72f]]
+Lan, Mai and Nam line up to go into class. Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
+
+[[P2·09f6]]
+You already know some solid shapes. In this lesson you learn to say where things are with words for position.
+
+## Let's explore
+
+[[P3·e205]]
+Look at three shapes in a row.
+
+:::diagram Three shapes in a row
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·bb17]]
+- The square is on the left of the circle.
+- The triangle is on the right of the circle.
+- The circle is in the middle, between the square and the triangle.
+
+[[P5·93c0]]
+Now look at three shapes in a column.
+
+:::diagram Three shapes in a column
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·b832]]
+- The triangle is above the square.
+- The circle is below the square.
+- The square is in the middle, between the triangle and the circle.
+
+  :::theorem Words for position
+  1. **Left** and **right**: the hand you write with is your right hand, and the other is your left hand.
+  2. **Above** and **below**: above is the higher side, below is the lower side.
+  3. **In front of** and **behind**: in a line, the one nearer the start of the line is in front.
+  4. **In the middle**: between two things or two friends.
+  :::
+
+[[P7·624c]]
+This works because these words tell you which side one thing is on compared with another.
+
+## Examples
+
+[[P8·a2b4]]
+We start with the row.
+
+  :::example The shape on the left of the circle
+  In the row (square, circle, triangle from left to right), which shape is on the left of the circle?
+
+  **Solution.** Read from left to right: square, circle, triangle. The shape before the circle is the square.
+
+  So the square is on the left of the circle.
+  :::
+
+[[P9·80ce]]
+Next, find the shape in the middle.
+
+  :::example The shape in the middle
+  In the row above, which shape is in the middle?
+
+  **Solution.** The row has three shapes. The middle one has a shape on its left and a shape on its right: that is the circle.
+
+  So the circle is in the middle.
+  :::
+
+[[P10·75b4]]
+Now look at the column.
+
+  :::example Above and below
+  In the column (triangle, square, circle from top to bottom), which shape is above the square? Which shape is below the square?
+
+  **Solution.** Read from top to bottom: triangle, square, circle. The triangle is above the square and the circle is below the square.
+
+  So the triangle is above and the circle is below the square.
+  :::
+
+[[P11·1d99]]
+Last, answer the question from the start.
+
+  :::example Lining up for class
+  Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
+
+  **Solution.** The order from the start of the line is: Lan, Mai, Nam. Mai has Lan in front and Nam behind.
+
+  So Mai stands in the middle.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·6db7]]
+- **Mixing up left and right.** Wrong: the hand you write with is the left hand. Why it is wrong: most children write with the right hand. Right: remember the writing hand is the right hand, the other is the left.
+- **Mixing up in front of and behind.** Wrong: the child at the end of the line is in front. Why it is wrong: the child nearer the start is in front. Right: read the order from the start of the line.
+- **Mixing up the middle.** Wrong: the shape furthest to the left is in the middle. Why it is wrong: the middle one needs a shape on each side. Right: find the shape with one on its left and one on its right.
+:::
+
+## Key terms
+
+  :::terms
+  - above | trên
+  - below | dưới
+  - on the left | bên trái
+  - on the right | bên phải
+  - in front of | trước
+  - behind | sau
+  - in the middle | ở giữa
+  - position | vị trí
+  :::
+
+## Summary
+
+[[P13·0752]]
+- Left and right: the writing hand is the right hand.
+- Above and below: above is higher, below is lower.
+- In front of and behind: read the order from the start of the line.
+- In the middle: there is one thing on each side.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

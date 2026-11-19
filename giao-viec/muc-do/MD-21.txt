@@ -1,6 +1,6 @@
-# Gói MD-21 – gắn mức độ nhận thức cho 231 câu hỏi (Ôn thi SAT → Ôn thi ACT)
+# Gói MD-21 – gắn mức độ nhận thức cho 91 câu hỏi (Lớp 11 → Lớp 12)
 
-Tài khoản thực hiện: Lemonmath112
+Tài khoản thực hiện: Nguyenchanh2358
 
 Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
 
@@ -47,1911 +47,747 @@ M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mớ
 - Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
 - Lý do: tối đa 12 chữ.
 - Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
-- Khi xong, ghi dòng cuối: HẾT GÓI MD-21 (231 câu)
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-21 (91 câu)
 
 ## Các câu hỏi
 
-### M387 · Ôn thi SAT · Phương trình và hệ phương trình bậc nhất
+### M346 · Lớp 11 · Đạo hàm cấp hai
 
-[M387.1] Nhiều lựa chọn
-Nếu $7x-5=3x+19$ thì giá trị của $x$ là
-A. $4$
-B. $6$
-C. $7$
-D. $14$
-::key B
-$4x=24$, nên $x=6$. Phương án D là $24-10$, do chuyển vế sai dấu.
-
-[M387.2] Nhiều lựa chọn
-Phương trình nào sau đây vô nghiệm?
-A. $2x+3=2x+3$
-B. $2x+3=3x+2$
-C. $2(x+1)=2x+5$
-D. $2x=0$
-::key C
-$2(x+1)=2x+2$, và $2x+2=2x+5$ đòi hỏi $2=5$. A có vô số nghiệm; B có $x=1$; D có $x=0$.
-
-[M387.3] Nhiều lựa chọn
-Nếu $x+y=10$ và $x-y=4$ thì giá trị của $x$ là
-A. $3$
-B. $6$
-C. $14$
-D. $7$
+[M346.1] Nhiều lựa chọn
+Cho $y=x^4-2x^2$. Giá trị $y''(1)$ bằng
+A. $10$.
+B. $12$.
+C. $4$.
+D. $8$.
 ::key D
-Cộng hai phương trình được $2x=14$, nên $x=7$. Phương án A là $y$; phương án C là $2x$.
+$y'=4x^3-4x$ và $y''=12x^2-4$ nên $y''(1)=8$. Phương án B bỏ số hạng $-4$, còn C và A tính sai hệ số.
 
-[M387.4] Nhiều lựa chọn
-Một tiệm bánh bán bánh muffin giá 3 đô la một chiếc và bánh quy giá 2 đô la một chiếc. Tiệm bán được 15 chiếc với tổng số tiền 36 đô la. Có bao nhiêu chiếc muffin đã được bán?
-A. $6$
-B. $9$
-C. $12$
-D. $15$
+[M346.2] Nhiều lựa chọn
+Đạo hàm cấp hai của hàm số $y=e^{3x}$ là
+A. $9e^{3x}$.
+B. $3e^{3x}$.
+C. $6e^{3x}$.
+D. $e^{3x}$.
 ::key A
-Với $m$ chiếc muffin: $3m+2(15-m)=36\iff m+30=36\iff m=6$. Phương án B là số bánh quy.
+$y'=3e^{3x}$ và $y''=9e^{3x}$. Phương án B là $y'$, C cộng $3+3$ thay vì nhân, D quên hệ số.
 
-[M387.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Xét hệ $2x+y=7$ và $4x+2y=k$, trong đó $k$ là hằng số.
-a) Nếu $k=14$ thì hệ có vô số nghiệm.
-b) Nếu $k=10$ thì hệ vô nghiệm.
-c) Nếu $k=14$ thì $(2, 4)$ là một nghiệm của hệ.
-d) Có một giá trị của $k$ để hệ có đúng một nghiệm.
-::key Đ Đ S S
-a) Đúng: phương trình thứ hai gấp đôi phương trình thứ nhất. b) Đúng: hai vế trái tỉ lệ nhưng $10\ne14$. c) Sai: $2\cdot2+4=8\ne7$. d) Sai: với mọi $k$, hai đường thẳng song song hoặc trùng nhau.
-
-[M387.6] Trả lời ngắn
-Nếu $3(x+4)=2x+20$ thì giá trị của $x$ bằng bao nhiêu?
-::key 8
-$3x+12=2x+20\iff x=8$.
-
-[M387.7] Trả lời ngắn
-Nếu $5x+2y=24$ và $2x+5y=18$ thì giá trị của $x+y$ bằng bao nhiêu?
-::key 6
-Cộng lại được $7x+7y=42$, nên $x+y=6$. (Ở đây $x=4$, $y=2$.)
-
-### M388 · Ôn thi SAT · Hàm số bậc nhất và bất phương trình
-
-[M388.1] Nhiều lựa chọn
-Hệ số góc của đường thẳng đi qua các điểm $(-1, 2)$ và $(3, 10)$ là
-A. $\dfrac12$
-B. $2$
-C. $3$
-D. $8$
+[M346.3] Nhiều lựa chọn
+Một chất điểm có $s(t)=t^3-6t^2+2t$ mét sau $t$ giây. Gia tốc tại $t=3$ bằng
+A. $-7$ m/s$^2$.
+B. $6$ m/s$^2$.
+C. $12$ m/s$^2$.
+D. $18$ m/s$^2$.
 ::key B
-$\dfrac{10-2}{3-(-1)}=\dfrac84=2$. Phương án A là nghịch đảo; phương án D chỉ là độ thay đổi của $y$.
+$v=3t^2-12t+2$ và $a=6t-12$ nên $a(3)=6$. Phương án A là $v(3)=-7$, D là $6t$ ở $t=3$ quên $-12$, C tính sai.
 
-[M388.2] Nhiều lựa chọn
-Một đường thẳng vuông góc với đường thẳng $y=-4x+9$. Hệ số góc của nó là
-A. $-4$
-B. $4$
-C. $\dfrac14$
-D. $-\dfrac14$
+[M346.4] Nhiều lựa chọn
+Cho $y=x^3-3x^2$. Tập các $x$ để $y''>0$ là
+A. $x<1$.
+B. $x>0$.
+C. $x>1$.
+D. $x>2$.
 ::key C
-Nghịch đảo đối của $-4$ là $\dfrac14$, vì $-4\cdot\dfrac14=-1$.
+$y''=6x-6>0\Leftrightarrow x>1$. Phương án A đảo chiều, B và D dùng nghiệm của $y'$ hoặc $y$.
 
-[M388.3] Nhiều lựa chọn
-Mệnh đề nào sau đây mô tả tất cả các nghiệm của $-2x\ge8$?
-A. $x\le-4$
-B. $x\ge-4$
-C. $x\le4$
-D. $x\ge-16$
-::key A
-Chia cho $-2$ thì đổi chiều: $x\le-4$.
-
-[M388.4] Nhiều lựa chọn
-Chi phí, tính bằng đô la, để thuê một chiếc xe đạp trong $d$ ngày là $F=30+8d$. Mỗi ngày thuê thêm, chi phí tăng bao nhiêu đô la?
-A. $30$
-B. $38$
-C. $240$
-D. $8$
-::key D
-Tốc độ thay đổi là số nhân với $d$, tức là $8$. Phương án A là phí cố định; phương án B là chi phí của một ngày.
-
-[M388.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Hàm số $f$ được cho bởi $f(x)=-2x+6$.
-a) Đồ thị của $f$ cắt trục $y$ tại $(0, 6)$.
-b) Hoành độ giao điểm của đồ thị với trục $x$ là $3$.
-c) Giá trị của $f(x)$ tăng khi $x$ tăng.
-d) $f(5)=-4$.
+[M346.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một quả bóng ném thẳng đứng có độ cao $s(t)=20t-5t^2$ mét sau $t$ giây. Xét tính đúng sai của các mệnh đề sau:
+a) Vận tốc là $v(t)=20-10t$.
+b) Gia tốc của bóng bằng $-10$ m/s$^2$ tại mọi thời điểm.
+c) Bóng lên cao nhất tại $t=1$.
+d) Độ cao lớn nhất của bóng là $20$ mét.
 ::key Đ Đ S Đ
-a) Đúng: $b=6$. b) Đúng: $-2x+6=0$ cho $x=3$. c) Sai: hệ số góc âm. d) Đúng: $-10+6=-4$.
-
-[M388.6] Trả lời ngắn
-Hàm số $f$ là hàm bậc nhất, với $f(0)=5$ và $f(3)=17$. Giá trị của $f(6)$ bằng bao nhiêu?
-::key 29
-Hệ số góc là $\dfrac{17-5}{3}=4$, nên $f(6)=17+3\cdot4=29$.
-
-[M388.7] Trả lời ngắn
-Số nguyên $x$ nhỏ nhất thoả mãn $4x-7>21$ là số nào?
-::key 8
-$4x>28\iff x>7$, và số nguyên nhỏ nhất lớn hơn $7$ là $8$.
-
-### M389 · Ôn thi SAT · Biểu thức tương đương và lũy thừa
-
-[M389.1] Nhiều lựa chọn
-Biểu thức nào tương đương với $(x^2)^3\cdot x^4$?
-A. $x^9$
-B. $x^{10}$
-C. $x^{24}$
-D. $x^{14}$
-::key B
-$(x^2)^3=x^6$ và $x^6\cdot x^4=x^{10}$. Phương án C nhân cả ba số mũ.
-
-[M389.2] Nhiều lựa chọn
-Biểu thức nào tương đương với $4x^2-25$?
-A. $(4x-5)(x+5)$
-B. $(2x-5)^2$
-C. $(4x-25)(x+1)$
-D. $(2x-5)(2x+5)$
-::key D
-$4x^2-25=(2x)^2-5^2=(2x-5)(2x+5)$.
-
-[M389.3] Nhiều lựa chọn
-Biểu thức nào tương đương với $(x+3)^2$?
-A. $x^2+9$
-B. $x^2+3x+9$
-C. $x^2+6x+9$
-D. $x^2+6x+6$
-::key C
-$(x+3)^2=x^2+2\cdot3\cdot x+9$. Phương án A là lỗi quen thuộc: bình phương từng số hạng.
-
-[M389.4] Nhiều lựa chọn
-Với $x>0$, biểu thức nào tương đương với $x^{\frac12}\cdot x^{\frac13}$?
-A. $\sqrt[6]{x^5}$
-B. $\sqrt[6]{x}$
-C. $\sqrt[5]{x^6}$
-D. $x^{\frac16}$
-::key A
-$\dfrac12+\dfrac13=\dfrac56$ và $x^{\frac56}=\sqrt[6]{x^5}$. Phương án B và D nhân các số mũ.
-
-[M389.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Xét biểu thức $(x-1)(x+5)$.
-a) Biểu thức tương đương với $x^2+4x-5$.
-b) $x+1$ là một nhân tử của biểu thức.
-c) Giá trị của biểu thức tại $x=1$ bằng $0$.
-d) Biểu thức tương đương với $(x+2)^2-9$.
-::key Đ S Đ Đ
-a) Đúng: $x^2+5x-x-5$. b) Sai: các nhân tử là $x-1$ và $x+5$. c) Đúng: $0\cdot6=0$. d) Đúng: $x^2+4x+4-9=x^2+4x-5$.
-
-[M389.6] Trả lời ngắn
-Trong đẳng thức $(3x+2)(x+5)=3x^2+bx+10$, $b$ là hằng số và đẳng thức đúng với mọi $x$. Giá trị của $b$ bằng bao nhiêu?
-::key 17
-$(3x+2)(x+5)=3x^2+15x+2x+10=3x^2+17x+10$.
-
-[M389.7] Trả lời ngắn
-Nếu $a+b=7$ và $a-b=3$ thì giá trị của $a^2-b^2$ bằng bao nhiêu?
-::key 21
-$a^2-b^2=(a+b)(a-b)=7\cdot3=21$.
-
-### M390 · Ôn thi SAT · Hàm bậc hai và phương trình phi tuyến
-
-[M390.1] Nhiều lựa chọn
-Đỉnh của đồ thị $y=(x-4)^2+3$ là
-A. $(-4, 3)$
-B. $(4, -3)$
-C. $(4, 3)$
-D. $(3, 4)$
-::key C
-Trong $a(x-h)^2+k$, đỉnh là $(h, k)=(4, 3)$. Phương án A là lỗi dấu quen thuộc.
-
-[M390.2] Nhiều lựa chọn
-Phương trình $x^2-4x+5=0$ có bao nhiêu nghiệm thực?
-A. $0$
-B. $1$
-C. $2$
-D. Vô số
-::key A
-$D=16-20=-4<0$, nên phương trình không có nghiệm thực.
-
-[M390.3] Nhiều lựa chọn
-Nghiệm của $x^2-x-12=0$ là
-A. $-4$ và $3$
-B. $4$ và $-3$
-C. $6$ và $-2$
-D. $12$ và $-1$
-::key B
-$(x-4)(x+3)=0$. Phương án A đúng số nhưng sai dấu.
-
-[M390.4] Nhiều lựa chọn
-Giá trị lớn nhất của $f(x)=-2x^2+8x-3$ là
-A. $2$
-B. $3$
-C. $8$
-D. $5$
-::key D
-Đỉnh tại $x=-\dfrac{8}{2\cdot(-2)}=2$, và $f(2)=-8+16-3=5$. Phương án A là chỗ đạt giá trị lớn nhất, không phải giá trị đó.
-
-[M390.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Hàm số $f$ được cho bởi $f(x)=x^2-6x+8$.
-a) Các nghiệm của $f$ là $2$ và $4$.
-b) Đỉnh của đồ thị $y=f(x)$ là $(3, -1)$.
-c) $f(x)=(x-3)^2+1$ với mọi $x$.
-d) Đồ thị $y=f(x)$ cắt trục $y$ tại $(0, 8)$.
-::key Đ Đ S Đ
-a) Đúng: $(x-2)(x-4)$. b) Đúng: $f(3)=9-18+8=-1$. c) Sai: $(x-3)^2-1$. d) Đúng: $f(0)=8$.
-
-[M390.6] Trả lời ngắn
-Nghiệm dương của $x^2+2x-15=0$ là bao nhiêu?
-::key 3
-$(x+5)(x-3)=0$, nên $x=3$ hoặc $x=-5$.
-
-[M390.7] Trả lời ngắn
-Nghiệm của $\sqrt{x+12}=x$ là bao nhiêu?
-::key 4
-$x^2-x-12=0$ cho $x=4$ hoặc $x=-3$; $x=-3$ là nghiệm ngoại lai vì $\sqrt9=3\ne-3$.
-
-### M391 · Ôn thi SAT · Hàm mũ: tăng trưởng và suy giảm
-
-[M391.1] Nhiều lựa chọn
-Hàm số $f$ được cho bởi $f(x)=3\cdot2^x$. Giá trị của $f(4)$ là
-A. $24$
-B. $48$
-C. $96$
-D. $11$
-::key B
-$3\cdot2^4=3\cdot16=48$. Phương án A tính $3\cdot2\cdot4$; phương án C là $3\cdot2^5$, nhân đôi thừa một lần.
-
-[M391.2] Nhiều lựa chọn
-Một đại lượng được mô tả bởi $y=50(0{,}7)^t$. Câu nào đúng?
-A. Đại lượng tăng 70% sau mỗi đơn vị thời gian.
-B. Đại lượng giảm 70% sau mỗi đơn vị thời gian.
-C. Đại lượng tăng 30% sau mỗi đơn vị thời gian.
-D. Đại lượng giảm 30% sau mỗi đơn vị thời gian.
-::key D
-$0{,}7=1-0{,}3$, tức là giảm $30\%$ sau mỗi đơn vị thời gian.
-
-[M391.3] Nhiều lựa chọn
-Một đại lượng bắt đầu bằng 4 và tăng gấp ba mỗi ngày. Sau 3 ngày giá trị của nó là
-A. $12$
-B. $36$
-C. $108$
-D. $324$
-::key C
-$4\cdot3^3=108$. Phương án A là $4\cdot3$, lỗi nghĩ theo kiểu bậc nhất.
-
-[M391.4] Nhiều lựa chọn
-Biểu thức nào cho giá trị của 500 đô la sau $t$ năm nếu số tiền tăng 2% mỗi năm?
-A. $500(1{,}02)^t$
-B. $500(0{,}02)^t$
-C. $500+0{,}02t$
-D. $500(1{,}2)^t$
-::key A
-Hệ số là $1+0{,}02=1{,}02$. Phương án D dùng $20\%$.
-
-[M391.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Giá trị, tính bằng đô la, của một chiếc máy sau $t$ năm kể từ khi mua là $V(t)=8.000\cdot(0{,}9)^t$.
-a) Chiếc máy được mua với giá 8.000 đô la.
-b) Giá trị giảm 10% mỗi năm.
-c) Sau 2 năm, giá trị là 6.480 đô la.
-d) Mỗi năm chiếc máy mất 800 đô la giá trị.
-::key Đ Đ Đ S
-a) Đúng: $V(0)=8.000$. b) Đúng: $0{,}9=1-0{,}1$. c) Đúng: $8.000\cdot0{,}81=6.480$. d) Sai: chỉ năm đầu mất 800 đô la, các năm sau mất ít hơn.
-
-[M391.6] Trả lời ngắn
-Nếu $3\cdot2^x=96$ thì giá trị của $x$ bằng bao nhiêu?
-::key 5
-$2^x=32=2^5$, nên $x=5$.
-
-[M391.7] Trả lời ngắn
-Một mẫu chất nặng 64 gam có chu kì bán rã 5 ngày. Sau 15 ngày còn lại bao nhiêu gam?
-::key 8
-$15$ ngày là $3$ chu kì bán rã: $64\left(\dfrac12\right)^3=8$.
-
-### M392 · Ôn thi SAT · Tỉ số, tỉ lệ, phần trăm và đổi đơn vị
-
-[M392.1] Nhiều lựa chọn
-Hai số có tỉ số $2:3$ và tổng bằng 45. Số lớn hơn là
-A. $18$
-B. $27$
-C. $30$
-D. $15$
-::key B
-Mỗi phần là $45:5=9$, nên số lớn hơn là $3\cdot9=27$. Phương án A là số nhỏ hơn.
-
-[M392.2] Nhiều lựa chọn
-40% của 65 bằng
-A. $26$
-B. $16$
-C. $39$
-D. $2{,}6$
-::key A
-$0{,}4\cdot65=26$. Phương án C là 60% của 65.
-
-[M392.3] Nhiều lựa chọn
-Một đại lượng tăng từ 50 lên 65. Phần trăm tăng là
-A. $15\%$
-B. $23\%$
-C. $30\%$
-D. $130\%$
-::key C
-$\dfrac{15}{50}=0{,}3$. Phương án B chia cho $65$; phương án D là tỉ số $\dfrac{65}{50}$.
-
-[M392.4] Nhiều lựa chọn
-Một người đi xe đạp với tốc độ 15 mét mỗi giây. Tốc độ đó bằng bao nhiêu ki-lô-mét mỗi giờ?
-A. $4{,}2$
-B. $25$
-C. $900$
-D. $54$
-::key D
-$15\cdot\dfrac{3.600}{1.000}=15\cdot3{,}6=54$. Phương án A lại chia cho $3{,}6$.
-
-[M392.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một đôi giày giá 120 đô la đang được giảm giá 25%.
-a) Giá sau khi giảm là 90 đô la.
-b) Số tiền được giảm là 25 đô la.
-c) Nếu sau đó giá sau giảm được tăng 25% thì giá trở lại 120 đô la.
-d) Giá sau giảm bằng 75% giá ban đầu.
-::key Đ S S Đ
-a) Đúng: $120\cdot0{,}75=90$. b) Sai: số tiền được giảm là $30$ đô la. c) Sai: $90\cdot1{,}25=112{,}5$. d) Đúng: $1-0{,}25=0{,}75$.
-
-[M392.6] Trả lời ngắn
-12 bằng bao nhiêu phần trăm của 48?
-::key 25
-$\dfrac{12}{48}=0{,}25=25\%$.
-
-[M392.7] Trả lời ngắn
-Trên bản đồ, 1 xăng-ti-mét ứng với 4 ki-lô-mét. Hai hồ nước cách nhau 6,5 xăng-ti-mét trên bản đồ. Khoảng cách thực giữa chúng là bao nhiêu ki-lô-mét?
-::key 26
-$6{,}5\cdot4=26$ ki-lô-mét.
-
-### M393 · Ôn thi SAT · Thống kê, đọc biểu đồ và xác suất
-
-[M393.1] Nhiều lựa chọn
-Trung vị của tập dữ liệu 3, 9, 4, 7, 12, 5 là
-A. $5$
-B. $6$
-C. $7$
-D. $6{,}7$
-::key B
-Sắp xếp: 3, 4, 5, 7, 9, 12. Trung vị là $\dfrac{5+7}{2}=6$. Phương án D là số trung bình, khoảng $6{,}7$.
-
-[M393.2] Nhiều lựa chọn
-Số trung bình của 4, 8, 10 và 14 là
-A. $8$
-B. $10$
-C. $9$
-D. $36$
-::key C
-$\dfrac{36}{4}=9$. Phương án D là tổng.
-
-[M393.3] Nhiều lựa chọn
-Một hộp có 3 quả bóng đỏ, 5 quả bóng trắng và 2 quả bóng đen. Chọn ngẫu nhiên một quả. Xác suất để quả bóng đó màu trắng là
-A. $\dfrac12$
-B. $\dfrac15$
-C. $\dfrac{3}{10}$
-D. $\dfrac{1}{10}$
-::key A
-$\dfrac{5}{10}=\dfrac12$.
-
-[M393.4] Nhiều lựa chọn
-Một mẫu ngẫu nhiên gồm 300 người trưởng thành ở một thành phố được hỏi có dùng phương tiện công cộng không. Trong số đó, 45% trả lời có. Kết luận nào được ủng hộ tốt nhất?
-A. Đúng 45% người trưởng thành trong cả nước dùng phương tiện công cộng.
-B. Phương tiện công cộng làm 45% người trưởng thành đi lại ít hơn.
-C. Đúng 135 người trưởng thành trong thành phố dùng phương tiện công cộng.
-D. Khoảng 45% người trưởng thành trong thành phố dùng phương tiện công cộng.
-::key D
-Mẫu ngẫu nhiên cho phép ước lượng tổng thể mà mẫu được chọn ra, tức người trưởng thành ở thành phố đó, và chỉ ở mức gần đúng.
-
-[M393.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Dùng bảng hai chiều về câu lạc bộ trong bài.
-a) Có tổng cộng 80 học sinh.
-b) Xác suất để một học sinh chọn ngẫu nhiên thuộc CLB Toán là $\dfrac12$.
-c) Xác suất để một học sinh lớp 10 chọn ngẫu nhiên thuộc CLB Mĩ thuật là $0{,}4$.
-d) Xác suất để một thành viên CLB Toán chọn ngẫu nhiên học lớp 10 là $0{,}6$.
-::key Đ Đ Đ S
-a) Đúng. b) Đúng: $\dfrac{40}{80}$. c) Đúng: $\dfrac{12}{30}=0{,}4$. d) Sai: $\dfrac{18}{40}=0{,}45$.
-
-[M393.6] Trả lời ngắn
-Số trung bình của 7 số là 10. Khi bỏ đi một số trong đó là 22, số trung bình của các số còn lại là bao nhiêu?
-::key 8
-$\dfrac{70-22}{6}=\dfrac{48}{6}=8$.
-
-[M393.7] Trả lời ngắn
-Dùng bảng hai chiều về câu lạc bộ. Chọn ngẫu nhiên một thành viên CLB Toán. Xác suất để học sinh đó học lớp 11 là bao nhiêu? Viết đáp số dưới dạng số thập phân.
-::key 0,55
-$\dfrac{22}{40}=0{,}55$.
-
-### M394 · Ôn thi SAT · Diện tích, thể tích, đường thẳng và góc
-
-[M394.1] Nhiều lựa chọn
-Hai góc trên một đường thẳng có số đo $x^\circ$ và $3x^\circ$. Giá trị của $x$ là
-A. $30$
-B. $45$
-C. $60$
-D. $90$
-::key B
-$x+3x=180$, nên $x=45$.
-
-[M394.2] Nhiều lựa chọn
-Thể tích của hình lập phương cạnh 5 là
-A. $25$
-B. $75$
-C. $150$
-D. $125$
-::key D
-$5^3=125$. Phương án A là diện tích một mặt; phương án C là diện tích toàn phần.
-
-[M394.3] Nhiều lựa chọn
-Diện tích hình tròn có đường kính 10 là
-A. $10\pi$
-B. $100\pi$
-C. $25\pi$
-D. $5\pi$
-::key C
-Bán kính là $5$, nên diện tích là $25\pi$. Phương án B dùng đường kính làm bán kính; phương án A là chu vi.
-
-[M394.4] Nhiều lựa chọn
-Tổng các góc trong của ngũ giác là
-A. $540^\circ$
-B. $360^\circ$
-C. $720^\circ$
-D. $900^\circ$
-::key A
-$(5-2)\cdot180^\circ=540^\circ$.
-
-[M394.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một hình hộp chữ nhật có các cạnh 3, 4 và 12 xăng-ti-mét.
-a) Thể tích của nó là 144 xăng-ti-mét khối.
-b) Diện tích toàn phần của nó là 192 xăng-ti-mét vuông.
-c) Đường chéo của hình hộp dài 13 xăng-ti-mét.
-d) Nếu gấp đôi mọi cạnh thì thể tích gấp đôi.
-::key Đ Đ Đ S
-a) Đúng: $3\cdot4\cdot12$. b) Đúng: $2(12+36+48)=192$. c) Đúng: $\sqrt{9+16+144}=13$. d) Sai: thể tích được nhân với $2^3=8$.
-
-[M394.6] Trả lời ngắn
-Một hình trụ có bán kính đáy 2 và chiều cao 5. Thể tích của nó là $k\pi$. Giá trị của $k$ bằng bao nhiêu?
-::key 20
-$\pi\cdot2^2\cdot5=20\pi$.
-
-[M394.7] Trả lời ngắn
-Hai tam giác đồng dạng có tỉ số đồng dạng 3. Tam giác nhỏ có diện tích 6. Diện tích tam giác lớn là bao nhiêu?
-::key 54
-Diện tích được nhân với $3^2=9$: $6\cdot9=54$.
-
-### M395 · Ôn thi SAT · Tam giác, lượng giác và đường tròn
-
-[M395.1] Nhiều lựa chọn
-Một tam giác vuông có hai cạnh góc vuông là 6 và 8. Cạnh huyền dài
-A. $10$
-B. $14$
-C. $48$
-D. $7$
-::key A
-$\sqrt{36+64}=10$. Phương án B cộng hai cạnh góc vuông.
-
-[M395.2] Nhiều lựa chọn
-$90^\circ$ bằng bao nhiêu radian?
-A. $\pi$
-B. $2\pi$
-C. $\dfrac{\pi}{2}$
-D. $\dfrac{\pi}{4}$
-::key C
-$90^\circ=\dfrac{90}{180}\pi=\dfrac{\pi}{2}$.
-
-[M395.3] Nhiều lựa chọn
-Giá trị của $\sin30^\circ$ là
-A. $\dfrac{\sqrt3}{2}$
-B. $1$
-C. $\dfrac{\sqrt2}{2}$
-D. $\dfrac12$
-::key D
-Trong tam giác $30^\circ$–$60^\circ$–$90^\circ$, cạnh đối diện $30^\circ$ bằng nửa cạnh huyền.
-
-[M395.4] Nhiều lựa chọn
-Tâm và bán kính của đường tròn $(x+1)^2+(y-4)^2=49$ là
-A. Tâm $(1, -4)$, bán kính $7$
-B. Tâm $(-1, 4)$, bán kính $7$
-C. Tâm $(-1, 4)$, bán kính $49$
-D. Tâm $(1, 4)$, bán kính $7$
-::key B
-$x+1=x-(-1)$, nên $h=-1$; $k=4$; $r=\sqrt{49}=7$.
-
-[M395.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Trong tam giác $ABC$ vuông tại $C$, $BC=5$, $AC=12$ và $AB=13$.
-a) $\sin A=\dfrac{5}{13}$.
-b) $\cos A=\dfrac{12}{13}$.
-c) $\tan A=\dfrac{12}{5}$.
-d) $\sin A=\cos B$.
-::key Đ Đ S Đ
-a) Đúng: cạnh đối diện $A$ là $BC=5$. b) Đúng. c) Sai: $\tan A=\dfrac{5}{12}$. d) Đúng: $A$ và $B$ phụ nhau.
-
-[M395.6] Trả lời ngắn
-Một đường tròn có bán kính 9. Cung bị chắn bởi góc ở tâm $40^\circ$ có độ dài $k\pi$. Giá trị của $k$ bằng bao nhiêu?
-::key 2
-$\dfrac{40}{360}\cdot2\pi\cdot9=2\pi$.
-
-[M395.7] Trả lời ngắn
-Với góc $0<x<90$, $\sin x^\circ=\cos25^\circ$. Giá trị của $x$ bằng bao nhiêu?
-::key 65
-$90-x=25$, nên $x=65$.
-
-### M396 · Ôn thi SAT · Đề luyện SAT Math số 1
-
-[M396.1] Nhiều lựa chọn
-Nếu $5x-3=17$ thì giá trị của $x$ là
-A. $3$
-B. $4$
-C. $20$
-D. $70$
-::key B
-$5x=20$, nên $x=4$. Phương án C là $5x$.
-
-[M396.2] Nhiều lựa chọn
-Một cửa hàng bán bút chì với giá 1,20 đô la cho 3 chiếc. Với giá đó, 15 chiếc bút chì giá bao nhiêu đô la?
-A. $4{,}50$
-B. $5{,}40$
-C. $6{,}00$
-D. $18{,}00$
-::key C
-Một chiếc giá $0{,}40$ đô la, và $15\cdot0{,}40=6$.
-
-[M396.3] Nhiều lựa chọn
-Biểu thức nào tương đương với $3(x^2+2x)-x(x-4)$?
-A. $2x^2+2x$
-B. $4x^2+10x$
-C. $2x^2-2x$
-D. $2x^2+10x$
-::key D
-$3x^2+6x-x^2+4x=2x^2+10x$. Phương án A và C sai dấu của $-x\cdot(-4)$.
-
-[M396.4] Trả lời ngắn
-Một đường thẳng trong mặt phẳng $xy$ đi qua các điểm $(0, 3)$ và $(2, 11)$. Hệ số góc của đường thẳng bằng bao nhiêu?
-::key 4
-$\dfrac{11-3}{2-0}=4$.
-
-[M396.5] Nhiều lựa chọn
-Hai góc của một tam giác có số đo $50^\circ$ và $65^\circ$. Số đo góc thứ ba là
-A. $65^\circ$
-B. $55^\circ$
-C. $115^\circ$
-D. $245^\circ$
-::key A
-$180-50-65=65$. Phương án C là tổng hai góc đã cho.
-
-[M396.6] Nhiều lựa chọn
-Hàm số $f$ được cho bởi $f(x)=4x-7$. Giá trị của $f(5)$ là
-A. $3$
-B. $20$
-C. $27$
-D. $13$
-::key D
-$4\cdot5-7=13$.
-
-[M396.7] Trả lời ngắn
-Trong một cuộc khảo sát 250 học sinh, 36% cho biết đi xe buýt đến trường. Có bao nhiêu học sinh được khảo sát đi xe buýt đến trường?
-::key 90
-$0{,}36\cdot250=90$.
-
-[M396.8] Nhiều lựa chọn
-Số nào sau đây là một nghiệm của $x^2-5x+6=0$?
-A. $-2$
-B. $-3$
-C. $3$
-D. $6$
-::key C
-$(x-2)(x-3)=0$, nên các nghiệm là $2$ và $3$. Phương án A và B sai dấu.
-
-[M396.9] Nhiều lựa chọn
-Một phòng tập thu phí theo $C=25+12m$, trong đó $C$ là tổng chi phí, tính bằng đô la, cho $m$ tháng. Số $12$ biểu thị điều gì?
-A. Phí đăng kí một lần
-B. Chi phí mỗi tháng
-C. Tổng chi phí sau 12 tháng
-D. Số tháng
-::key B
-Số nhân với $m$ là mức mỗi đơn vị: 12 đô la mỗi tháng. Phương án A mô tả số $25$.
-
-[M396.10] Trả lời ngắn
-Nếu $x+y=12$ và $x-y=4$ thì giá trị của $x$ bằng bao nhiêu?
-::key 8
-Cộng hai phương trình được $2x=16$, nên $x=8$.
-
-[M396.11] Nhiều lựa chọn
-Hàm số $f$ được cho bởi $f(x)=3\cdot2^x$. Giá trị của $f(3)$ là
-A. $18$
-B. $216$
-C. $12$
-D. $24$
-::key D
-$3\cdot8=24$. Phương án B tính $6^3$; phương án A tính $3\cdot2\cdot3$.
-
-[M396.12] Nhiều lựa chọn
-Số trung bình của bốn số 70, 85, 90 và $x$ là 80. Giá trị của $x$ là
-A. $75$
-B. $80$
-C. $65$
-D. $85$
-::key A
-Tổng phải là $4\cdot80=320$, nên $x=320-245=75$.
-
-[M396.13] Nhiều lựa chọn
-Diện tích hình tròn bán kính 5 là
-A. $10\pi$
-B. $5\pi$
-C. $100\pi$
-D. $25\pi$
-::key D
-$\pi\cdot5^2=25\pi$. Phương án A là chu vi.
-
-[M396.14] Nhiều lựa chọn
-Kim tiết kiệm 20 đô la mỗi tuần. Kim cần ít nhất 300 đô la. Bất phương trình nào cho số tuần $w$ để Kim đạt mục tiêu?
-A. $20w\le300$
-B. $20+w\ge300$
-C. $20w\ge300$
-D. $w\ge20\cdot300$
-::key C
-"Ít nhất" là $\ge$, và số tiền sau $w$ tuần là $20w$.
-
-[M396.15] Trả lời ngắn
-Trong đẳng thức $(x+5)(x-2)=x^2+bx-10$, $b$ là hằng số và đẳng thức đúng với mọi $x$. Giá trị của $b$ bằng bao nhiêu?
-::key 3
-$(x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10$.
-
-[M396.16] Nhiều lựa chọn
-Đường thẳng $k$ vuông góc với đường thẳng $y=-\dfrac13x+2$. Hệ số góc của $k$ là
-A. $-3$
-B. $\dfrac13$
-C. $3$
-D. $-\dfrac13$
-::key C
-Nghịch đảo đối của $-\dfrac13$ là $3$.
-
-[M396.17] Nhiều lựa chọn
-Trong một nhóm 120 người, 45 người thích trà. Trong số những người thích trà, 18 người dưới 30 tuổi. Chọn ngẫu nhiên một người thích trà. Xác suất để người đó dưới 30 tuổi là
-A. $0{,}15$
-B. $0{,}4$
-C. $0{,}375$
-D. $0{,}18$
-::key B
-Tổng là 45 người thích trà: $\dfrac{18}{45}=0{,}4$. Phương án A chia cho 120.
-
-[M396.18] Nhiều lựa chọn
-Đỉnh của đồ thị $y=(x+3)^2-7$ là
-A. $(3, -7)$
-B. $(-3, 7)$
-C. $(-3, -7)$
-D. $(3, 7)$
-::key C
-$(x+3)^2=(x-(-3))^2$, nên đỉnh là $(-3, -7)$.
-
-[M396.19] Trả lời ngắn
-Một tam giác vuông có hai cạnh góc vuông dài 9 và 12. Cạnh huyền dài bao nhiêu?
-::key 15
-$\sqrt{81+144}=\sqrt{225}=15$.
-
-[M396.20] Nhiều lựa chọn
-Giá trị, tính bằng đô la, của một chiếc máy sau $t$ năm kể từ khi mua là $V(t)=800(0{,}95)^t$. Câu nào đúng?
-A. Giá trị giảm 5% mỗi năm.
-B. Giá trị tăng 95% mỗi năm.
-C. Giá trị giảm 95% mỗi năm.
-D. Giá trị tăng 5% mỗi năm.
-::key A
-$0{,}95=1-0{,}05$: giảm 5% mỗi năm.
-
-[M396.21] Trả lời ngắn
-$$3x+ky=12$$
-$$6x+8y=24$$
-Trong hệ, $k$ là hằng số. Hệ có vô số nghiệm. Giá trị của $k$ bằng bao nhiêu?
-::key 4
-Phương trình thứ hai phải gấp đôi phương trình thứ nhất, nên $2k=8$ và $k=4$.
-
-[M396.22] Nhiều lựa chọn
-Nếu $x>0$ và $x^2-4x-21=0$ thì giá trị của $x-3$ là
-A. $4$
-B. $7$
-C. $10$
-D. $-10$
-::key A
-$(x-7)(x+3)=0$ và $x>0$, nên $x=7$ và $x-3=4$. Phương án B là $x$.
-
-[M396.23] Nhiều lựa chọn
-Nếu $2(x+3)=x-4$ thì giá trị của $x$ là
-A. $-10$
-B. $-2$
-C. $2$
-D. $10$
-::key A
-$2x+6=x-4$, nên $x=-10$.
-
-[M396.24] Nhiều lựa chọn
-Giá một trò chơi là 60 đô la. Giá tăng 15%. Giá mới là bao nhiêu đô la?
-A. $61{,}50$
-B. $69$
-C. $75$
-D. $51$
-::key B
-$60\cdot1{,}15=69$. Phương án D là giảm 15%.
-
-[M396.25] Trả lời ngắn
-Nếu $x^{\frac12}=6$ thì giá trị của $x^{\frac32}$ bằng bao nhiêu?
-::key 216
-$x^{\frac32}=\left(x^{\frac12}\right)^3=6^3=216$.
-
-[M396.26] Nhiều lựa chọn
-Trong một quan hệ bậc nhất, $y=7$ khi $x=1$, $y=13$ khi $x=3$ và $y=19$ khi $x=5$. Phương trình nào mô tả quan hệ đó?
-A. $y=6x+1$
-B. $y=2x+5$
-C. $y=3x+7$
-D. $y=3x+4$
-::key D
-Hệ số góc là $\dfrac{13-7}{3-1}=3$ và $7=3+b$ cho $b=4$.
-
-[M396.27] Nhiều lựa chọn
-Hai tam giác đồng dạng có các cạnh tương ứng theo tỉ số $3:5$. Tam giác nhỏ có diện tích 18. Diện tích tam giác lớn là
-A. $30$
-B. $50$
-C. $54$
-D. $90$
-::key B
-Diện tích được nhân với $\left(\dfrac53\right)^2=\dfrac{25}{9}$: $18\cdot\dfrac{25}9=50$. Phương án A nhân theo tỉ lệ bậc nhất.
-
-[M396.28] Nhiều lựa chọn
-Biểu thức nào sau đây là một nhân tử của $6x^2-x-12$?
-A. $3x-4$
-B. $2x+3$
-C. $2x-3$
-D. $6x+4$
-::key C
-$6x^2-x-12=(2x-3)(3x+4)$.
-
-[M396.29] Trả lời ngắn
-Một ô tô đi 48 dặm trong 40 phút với tốc độ không đổi. Tốc độ của nó là bao nhiêu dặm mỗi giờ?
-::key 72
-40 phút là $\dfrac23$ giờ: $48:\dfrac23=72$.
-
-[M396.30] Nhiều lựa chọn
-Đồ thị của $f(x)=x^2-8x+k$, với $k$ là hằng số, có đúng một giao điểm với trục $x$. Giá trị của $k$ là
-A. $4$
-B. $8$
-C. $-16$
-D. $16$
-::key D
-Đúng một giao điểm nghĩa là $64-4k=0$, nên $k=16$.
-
-[M396.31] Nhiều lựa chọn
-Phương trình nào xác định đường thẳng đi qua $(2, 5)$ và song song với đường thẳng $3x-y=4$?
-A. $y=3x-1$
-B. $y=-3x+11$
-C. $y=\dfrac13x+\dfrac{13}3$
-D. $y=3x+5$
-::key A
-$3x-y=4$ là $y=3x-4$, hệ số góc $3$. Khi đó $5=6+b$ cho $b=-1$.
-
-[M396.32] Trả lời ngắn
-Nghiệm của $\sqrt{3x+10}=x+2$ là bao nhiêu?
-::key 2
-Bình phương được $x^2+x-6=0$, nên $x=2$ hoặc $x=-3$. Với $x=-3$: $\sqrt1=1\ne-1$, nên nghiệm duy nhất là $2$.
-
-[M396.33] Nhiều lựa chọn
-Tập dữ liệu 12, 15, 15, 18, 20, 95 là tuổi của sáu người trong một buổi họp. Nếu bỏ giá trị 95 thì câu nào đúng?
-A. Cả số trung bình và trung vị đều giảm, số trung bình giảm nhiều hơn.
-B. Cả hai đều giảm, trung vị giảm nhiều hơn.
-C. Cả số trung bình và trung vị đều tăng.
-D. Số trung bình và trung vị đều không đổi.
-::key A
-Số trung bình giảm từ khoảng $29{,}2$ xuống $16$; trung vị giảm từ $16{,}5$ xuống $15$.
-
-[M396.34] Nhiều lựa chọn
-Bán kính của đường tròn $x^2+y^2-10x+6y+18=0$ là
-A. $16$
-B. $18$
-C. $34$
-D. $4$
-::key D
-$(x-5)^2+(y+3)^2=25+9-18=16$, nên $r=4$. Phương án A là $r^2$.
-
-[M396.35] Nhiều lựa chọn
-Độ cao của một quả bóng, tính bằng mét, sau $t$ giây kể từ khi ném là $h(t)=-5t^2+30t+2$. Độ cao lớn nhất của quả bóng là bao nhiêu mét?
-A. $3$
-B. $32$
-C. $47$
-D. $92$
-::key C
-Đỉnh tại $t=3$, và $h(3)=-45+90+2=47$. Phương án A là thời điểm.
-
-[M396.36] Trả lời ngắn
-$$4x+3y=24$$
-$$x-3y=-9$$
-Nghiệm của hệ là $(x, y)$. Giá trị của $x+y$ bằng bao nhiêu?
-::key 7
-Cộng lại được $5x=15$, nên $x=3$; khi đó $3-3y=-9$ cho $y=4$, và $x+y=7$.
-
-[M396.37] Nhiều lựa chọn
-Với $x$, $y$ khác $0$, biểu thức nào tương đương với $\dfrac{\left(x^3y^{-2}\right)^2}{xy^{-3}}$?
-A. $x^4y$
-B. $\dfrac{x^5}{y}$
-C. $x^5y$
-D. $\dfrac{x^6}{y}$
-::key B
-$\dfrac{x^6y^{-4}}{xy^{-3}}=x^5y^{-1}$.
-
-[M396.38] Nhiều lựa chọn
-Một thị trấn có 2.000 dân, và dân số tăng 3% mỗi năm. Biểu thức nào cho dân số sau $t$ năm?
-A. $2.000\cdot(0{,}03)^t$
-B. $2.000+0{,}03t$
-C. $2.000\cdot(1{,}03)^t$
-D. $2.000\cdot(1{,}3)^t$
-::key C
-Hệ số tăng trưởng là $1+0{,}03=1{,}03$.
-
-[M396.39] Trả lời ngắn
-Với góc nhọn, $\sin x^\circ=\cos(2x-30)^\circ$. Giá trị của $x$ bằng bao nhiêu?
-::key 40
-Hai góc phụ nhau: $x+2x-30=90$, nên $x=40$.
-
-[M396.40] Nhiều lựa chọn
-Một khoản đầu tư được mô tả bởi $f(t)=500(1{,}44)^t$, với $t$ tính bằng năm. Dạng tương đương nào thể hiện tốc độ tăng sau mỗi nửa năm?
-A. $500\cdot(0{,}72)^{2t}$
-B. $500\cdot(1{,}72)^{\frac t2}$
-C. $500\cdot(1{,}2)^{\frac t2}$
-D. $500\cdot(1{,}2)^{2t}$
-::key D
-$1{,}2^2=1{,}44$, nên $(1{,}44)^t=(1{,}2)^{2t}$: tăng 20% mỗi nửa năm.
-
-[M396.41] Nhiều lựa chọn
-$$kx+2y=5$$
-$$3x-4y=1$$
-Trong hệ, $k$ là hằng số. Hệ vô nghiệm. Giá trị của $k$ là
-A. $-6$
-B. $1{,}5$
-C. $-1{,}5$
-D. $6$
-::key C
-Hai đường thẳng song song: $\dfrac k3=\dfrac{2}{-4}$, nên $k=-1{,}5$.
-
-[M396.42] Trả lời ngắn
-Nếu $x^2-y^2=40$ và $x-y=4$ thì giá trị của $x+y$ bằng bao nhiêu?
-::key 10
-$(x+y)(x-y)=40$, nên $x+y=10$.
-
-[M396.43] Nhiều lựa chọn
-Một hình nón có bán kính đáy 3 và chiều cao 8. Thể tích của nó là
-A. $72\pi$
-B. $24\pi$
-C. $8\pi$
-D. $48\pi$
-::key B
-$\dfrac13\pi\cdot9\cdot8=24\pi$. Phương án A quên $\dfrac13$.
-
-[M396.44] Trả lời ngắn
-Phương trình $x^2+bx+12=0$, với $b>0$, có hai nghiệm hơn kém nhau 1. Giá trị của $b$ bằng bao nhiêu?
-::key 7
-Hai số hơn kém nhau 1 có tích 12: $3, 4$ hoặc $-3, -4$. Vì $b>0$ nên tổng $-b$ âm, do đó hai nghiệm là $-3, -4$ và $b=7$.
-
-### M397 · Ôn thi SAT · Đề luyện SAT Math số 2
-
-[M397.1] Nhiều lựa chọn
-Nếu $7-2x=15$ thì giá trị của $x$ là
-A. $-4$
-B. $4$
-C. $-11$
-D. $11$
-::key A
-$-2x=8$, nên $x=-4$.
-
-[M397.2] Nhiều lựa chọn
-Một công thức dùng 3 cốc bột để làm 24 chiếc bánh quy. Cần bao nhiêu cốc bột để làm 60 chiếc với cùng tỉ lệ?
-A. $6$
-B. $7{,}5$
-C. $8$
-D. $20$
-::key B
-$\dfrac{3}{24}=\dfrac{c}{60}$, nên $c=7{,}5$.
-
-[M397.3] Nhiều lựa chọn
-Biểu thức nào tương đương với $(2x-3)^2$?
-A. $4x^2-9$
-B. $4x^2+9$
-C. $4x^2-6x+9$
-D. $4x^2-12x+9$
-::key D
-$(2x)^2-2\cdot2x\cdot3+9=4x^2-12x+9$.
-
-[M397.4] Trả lời ngắn
-Hàm số $f$ được cho bởi $f(x)=3x+b$, với $b$ là hằng số. Nếu $f(2)=11$ thì giá trị của $b$ bằng bao nhiêu?
-::key 5
-$6+b=11$, nên $b=5$.
-
-[M397.5] Nhiều lựa chọn
-Một hình chữ nhật rộng 9 đơn vị và dài 12 đơn vị. Đường chéo của nó dài
-A. $15$
-B. $21$
-C. $108$
-D. $42$
-::key A
-$\sqrt{81+144}=15$.
-
-[M397.6] Nhiều lựa chọn
-18 là 30% của số nào?
-A. $5{,}4$
-B. $54$
-C. $60$
-D. $600$
-::key C
-$0{,}3N=18$, nên $N=60$. Phương án A là 30% của 18.
-
-[M397.7] Nhiều lựa chọn
-Một gói cước điện thoại có giá $30+0{,}1m$ đô la mỗi tháng, trong đó $m$ là số phút gọi quốc tế. Số $30$ biểu thị điều gì?
-A. Giá mỗi phút
-B. Chi phí cố định mỗi tháng
-C. Số phút được tặng
-D. Tổng chi phí cho 30 phút
-::key B
-$30$ không phụ thuộc vào $m$: đó là chi phí cố định mỗi tháng.
-
-[M397.8] Trả lời ngắn
-Nghiệm dương của $x^2=3x+10$ là bao nhiêu?
-::key 5
-$x^2-3x-10=0\iff(x-5)(x+2)=0$.
-
-[M397.9] Nhiều lựa chọn
-Phương trình nào xác định đường thẳng đi qua $(-1, 2)$ và $(3, 10)$?
-A. $y=x+3$
-B. $y=2x+4$
-C. $y=4x+6$
-D. $y=2x+2$
-::key B
-Hệ số góc là $\dfrac{8}{4}=2$, và $2=-2+b$ cho $b=4$.
-
-[M397.10] Trả lời ngắn
-Hai góc bù nhau có số đo $x^\circ$ và $(2x+30)^\circ$. Giá trị của $x$ bằng bao nhiêu?
-::key 50
-$3x+30=180$, nên $x=50$.
-
-[M397.11] Nhiều lựa chọn
-Hàm số $g$ được cho bởi $g(x)=4\left(\dfrac12\right)^x$. Giá trị của $g(3)$ là
-A. $0{,}5$
-B. $1$
-C. $2$
-D. $6$
-::key A
-$4\cdot\dfrac18=0{,}5$.
-
-[M397.12] Nhiều lựa chọn
-Trung vị của tập dữ liệu 8, 3, 10, 6, 7 là
-A. $6$
-B. $6{,}8$
-C. $7$
-D. $8$
-::key C
-Sắp xếp: 3, 6, 7, 8, 10. Phương án B là số trung bình.
-
-[M397.13] Nhiều lựa chọn
-Điểm $(x, y)$ nào là một nghiệm của bất phương trình $y<2x+1$?
-A. $(0, 2)$
-B. $(1, 4)$
-C. $(-1, 0)$
-D. $(2, 4)$
-::key D
-$4<5$ đúng. Các điểm còn lại cho $2<1$, $4<3$ và $0<-1$, đều sai.
-
-[M397.14] Nhiều lựa chọn
-Với $x>0$, biểu thức nào tương đương với $\sqrt x\cdot x^2$?
-A. $x^{\frac52}$
-B. $x^3$
-C. $x^{\frac25}$
-D. $x$
-::key A
-$x^{\frac12}\cdot x^2=x^{\frac52}$.
-
-[M397.15] Trả lời ngắn
-Nếu $2x+y=9$ và $x+2y=9$ thì giá trị của $x+y$ bằng bao nhiêu?
-::key 6
-Cộng lại được $3x+3y=18$, nên $x+y=6$.
-
-[M397.16] Nhiều lựa chọn
-Một đoàn tàu chạy với tốc độ 72 ki-lô-mét mỗi giờ. Tốc độ đó bằng bao nhiêu mét mỗi giây?
-A. $2$
-B. $259{,}2$
-C. $72.000$
-D. $20$
-::key D
-$72\cdot\dfrac{1.000}{3.600}=20$.
-
-[M397.17] Nhiều lựa chọn
-Hàm số $f$ được cho bởi $f(x)=(x-4)(x+1)$. Giá trị của $f(0)$ là
-A. $4$
-B. $-4$
-C. $3$
-D. $-3$
-::key B
-$(-4)(1)=-4$.
-
-[M397.18] Nhiều lựa chọn
-Một hình trụ có bán kính đáy 3 và chiều cao 4. Thể tích của nó là
-A. $12\pi$
-B. $24\pi$
-C. $36\pi$
-D. $48\pi$
-::key C
-$\pi\cdot9\cdot4=36\pi$.
-
-[M397.19] Trả lời ngắn
-Nếu $2^{x+1}=32$ thì giá trị của $x$ bằng bao nhiêu?
-::key 4
-$32=2^5$, nên $x+1=5$.
-
-[M397.20] Nhiều lựa chọn
-$$ax+3y=6$$
-$$2x+6y=12$$
-Trong hệ, $a$ là hằng số. Hệ có vô số nghiệm. Giá trị của $a$ là
-A. $2$
-B. $3$
-C. $4$
-D. $1$
-::key D
-Phương trình thứ hai gấp đôi phương trình thứ nhất, nên $2a=2$ và $a=1$.
-
-[M397.21] Trả lời ngắn
-Trong 200 người trưởng thành được khảo sát, 120 người có ô tô. Trong số người có ô tô, 30 người cũng đạp xe đi làm. Chọn ngẫu nhiên một người có ô tô. Xác suất để người đó đạp xe đi làm là bao nhiêu? Viết dưới dạng số thập phân.
+a) Đúng. b) Đúng: $a=v'=-10$. c) Sai: $v=0$ khi $t=2$. d) Đúng: $s(2)=40-20=20$.
+
+[M346.6] Trả lời ngắn
+Giả sử $s(t)=2t^3-9t^2+12t$ mét sau $t$ giây. Tính vận tốc (m/s) tại thời điểm gia tốc bằng $0$.
+::key -1,5
+$v=6t^2-18t+12$, $a=12t-18=0$ khi $t=1{,}5$. Khi đó $v=13{,}5-27+12=-1{,}5$.
+
+[M346.7] Trả lời ngắn
+Tính $y''(2)$ với $y=\dfrac1x$.
 ::key 0,25
-$\dfrac{30}{120}=0{,}25$.
+$y'=-\dfrac1{x^2}$ và $y''=\dfrac{2}{x^3}$ nên $y''(2)=\dfrac28=0{,}25$.
 
-[M397.22] Nhiều lựa chọn
-Hàm số $f(x)=a(x-2)^2+5$, với $a$ là hằng số, thoả mãn $f(4)=13$. Giá trị của $f(0)$ là
-A. $5$
-B. $9$
-C. $13$
-D. $21$
-::key C
-$4a+5=13$ cho $a=2$, và $f(0)=2\cdot4+5=13$. Đồ thị đối xứng qua $x=2$, nên $f(0)=f(4)$.
+### M347 · Lớp 11 · Hai đường thẳng vuông góc
 
-[M397.23] Nhiều lựa chọn
-Nếu $3(x-2)+4=2x+7$ thì giá trị của $x$ là
-A. $9$
-B. $5$
-C. $3$
-D. $13$
-::key A
-$3x-2=2x+7$, nên $x=9$.
-
-[M397.24] Nhiều lựa chọn
-Sau khi giảm 25%, một chiếc tai nghe có giá 45 đô la. Giá trước khi giảm là bao nhiêu đô la?
-A. $56{,}25$
-B. $60$
-C. $70$
-D. $33{,}75$
+[M347.1] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AC$ và $A'D'$ bằng
+A. $90^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $30^\circ$.
 ::key B
-$0{,}75P=45$, nên $P=60$. Phương án A cộng thêm 25% của 45.
+$A'D'\parallel AD$ nên góc cần tìm là $\widehat{CAD}=45^\circ$ (đường chéo hình vuông). Phương án A lấy góc giữa $AB$ và $AD$, C nhầm với tam giác đều.
 
-[M397.25] Trả lời ngắn
-Với mọi $x\ne4$, $\dfrac{x^2-16}{x-4}=ax+b$, trong đó $a$ và $b$ là các hằng số. Giá trị của $a+b$ bằng bao nhiêu?
-::key 5
-$\dfrac{(x-4)(x+4)}{x-4}=x+4$, nên $a=1$, $b=4$.
-
-[M397.26] Nhiều lựa chọn
-Số đo mỗi góc trong của ngũ giác đều là
-A. $72^\circ$
-B. $120^\circ$
-C. $108^\circ$
-D. $540^\circ$
+[M347.2] Nhiều lựa chọn
+Mệnh đề nào sau đây đúng?
+A. Hai đường thẳng vuông góc thì phải cắt nhau.
+B. Hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song.
+C. Nếu $a\parallel b$ và $c\perp a$ thì $c\perp b$.
+D. Góc giữa hai đường thẳng có thể bằng $120^\circ$.
 ::key C
-$\dfrac{3\cdot180^\circ}{5}=108^\circ$. Phương án A là góc ngoài.
+Đây là tính chất vuông góc và song song. B và A sai trong không gian (ví dụ $AB$, $AD$ và $AB$, $B'C'$); D sai vì góc giữa hai đường thẳng không vượt quá $90^\circ$.
 
-[M397.27] Nhiều lựa chọn
-Hệ số góc của một đường thẳng vuông góc với $2x+5y=10$ là
-A. $-\dfrac25$
-B. $\dfrac25$
-C. $-\dfrac52$
-D. $\dfrac52$
+[M347.3] Nhiều lựa chọn
+Cho tứ diện đều $ABCD$ cạnh $a$. Góc giữa hai đường thẳng $AB$ và $CD$ bằng
+A. $30^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
 ::key D
-$2x+5y=10$ có hệ số góc $-\dfrac25$; nghịch đảo đối là $\dfrac52$.
+Hai cạnh đối của tứ diện đều vuông góc với nhau (như ví dụ trên). Phương án C nhầm với góc của tam giác đều.
 
-[M397.28] Nhiều lựa chọn
-Với $x\ne1$ và $x\ne-1$, biểu thức nào tương đương với $\dfrac{1}{x+1}+\dfrac{1}{x-1}$?
-A. $\dfrac{2}{x^2-1}$
-B. $\dfrac{2x}{x^2-1}$
-C. $\dfrac{2}{2x}$
-D. $\dfrac{x}{x^2-1}$
-::key B
-$\dfrac{(x-1)+(x+1)}{x^2-1}=\dfrac{2x}{x^2-1}$.
-
-[M397.29] Trả lời ngắn
-Một tấm thảm dài 3 feet và rộng 2 feet. Diện tích của nó là bao nhiêu inch vuông? (1 foot = 12 inch)
-::key 864
-$36\cdot24=864$, hoặc $6\cdot144$: một foot vuông bằng $144$ inch vuông.
-
-[M397.30] Nhiều lựa chọn
-Phương trình $2x^2-3x+5=0$ có bao nhiêu nghiệm thực?
-A. $0$
-B. $1$
-C. $2$
-D. Vô số
+[M347.4] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\perp AB$, $SA\perp AD$ và $SA=a$. Góc giữa $SB$ và $CD$ bằng
+A. $45^\circ$.
+B. $60^\circ$.
+C. $90^\circ$.
+D. $30^\circ$.
 ::key A
-$D=9-40=-31<0$.
+$CD\parallel AB$ nên góc cần tìm là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=1$, suy ra $45^\circ$. Phương án C là góc giữa $SA$ và $CD$.
 
-[M397.31] Trả lời ngắn
-Hàm số $f$ là hàm bậc nhất, với $f(1)=5$ và $f(4)=17$. Giá trị của $f(10)$ bằng bao nhiêu?
-::key 41
-Hệ số góc là $4$, nên $f(10)=17+6\cdot4=41$.
+[M347.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Xét tính đúng sai của các mệnh đề sau:
+a) Góc giữa $AB$ và $A'D'$ bằng $0^\circ$.
+b) $AA'\perp BC$.
+c) $AC\perp B'D'$.
+d) Góc giữa $AC$ và $A'C'$ bằng $90^\circ$.
+::key S Đ S S
+a) Sai: $A'D'\parallel AD$ nên góc giữa $AB$ và $A'D'$ là $90^\circ$. b) Đúng: $BC\parallel AD$ và $AA'\perp AD$. c) Sai: $\cos\widehat{(AC, BD)}=\dfrac{7}{25}$ nên hai đường không vuông góc (hình chữ nhật không phải hình vuông). d) Sai: $A'C'\parallel AC$ nên góc bằng $0^\circ$.
 
-[M397.32] Nhiều lựa chọn
-Số tiền, tính bằng đô la, trong một tài khoản sau $t$ năm nữa là $A(t)=1.200\cdot(1{,}5)^{\frac t4}$. Câu nào đúng?
-A. Số tiền tăng 50% mỗi năm.
-B. Số tiền tăng 150% sau mỗi 4 năm.
-C. Số tiền tăng 50% sau mỗi 4 năm.
-D. Số tiền tăng 4% mỗi năm.
-::key C
-Hệ số $1{,}5$ được nhân một lần sau mỗi 4 năm: tăng 50%.
+[M347.6] Trả lời ngắn
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Tính góc giữa $AC$ và $B'D'$ (đơn vị độ, làm tròn đến hàng phần mười).
+::key 73,7
+$B'D'\parallel BD$ và $OA=OB=2{,}5$ nên $\cos\widehat{AOB}=\dfrac{2\cdot6{,}25-9}{2\cdot6{,}25}=0{,}28$, suy ra $\widehat{AOB}\approx73{,}7^\circ$ (góc nhọn).
 
-[M397.33] Nhiều lựa chọn
-Trong một tam giác vuông, góc nhọn $A$ có $\cos A=0{,}6$. Giá trị của $\tan A$ là
-A. $\dfrac34$
-B. $\dfrac43$
-C. $\dfrac45$
-D. $\dfrac53$
+[M347.7] Trả lời ngắn
+Cho tứ diện đều $ABCD$ cạnh $a$, $M$ là trung điểm $BC$. Tính côsin của góc giữa $AB$ và $DM$ (làm tròn kết quả đến hàng phần trăm).
+::key 0,29
+Gọi $N$ là trung điểm $AC$ thì $MN\parallel AB$ và $MN=\dfrac a2$, còn $DM=DN=\dfrac{a\sqrt3}{2}$. Trong tam giác $DMN$ cân tại $D$: $\cos\widehat{DMN}=\dfrac{MN}{2DM}=\dfrac{\sqrt3}{6}\approx0{,}29$.
+
+### M348 · Lớp 11 · Đường thẳng vuông góc với mặt phẳng
+
+[M348.1] Nhiều lựa chọn
+Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi
+A. $d$ vuông góc với một đường thẳng nằm trong $(P)$.
+B. $d$ vuông góc với hai đường thẳng cắt nhau nằm trong $(P)$.
+C. $d$ vuông góc với hai đường thẳng song song nằm trong $(P)$.
+D. $d$ cắt $(P)$ tại một điểm.
 ::key B
-Lấy các cạnh 3, 4, 5 với cạnh kề bằng 3: $\tan A=\dfrac43$.
+Đó là điều kiện vuông góc với mặt phẳng. Phương án A và C thiếu một phương, D chỉ nói về việc cắt.
 
-[M397.34] Nhiều lựa chọn
-Một mẫu ngẫu nhiên 400 cử tri trong một bang cho thấy 52% ủng hộ một đề xuất, với biên sai số 3%. Kết luận nào được ủng hộ tốt nhất?
-A. Chắc chắn hơn một nửa cử tri trong bang ủng hộ đề xuất.
-B. Đúng 52% cử tri trong bang ủng hộ đề xuất.
-C. Tỉ lệ thật những người ủng hộ trong bang hợp lí nằm trong khoảng từ 49% đến 55%.
-D. Khoảng 52% cử tri ở mọi bang ủng hộ đề xuất.
+[M348.2] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Đường thẳng $BD$ vuông góc với mặt phẳng nào sau đây?
+A. $(A'B'C'D')$.
+B. $(ABB'A')$.
+C. $(ACC'A')$.
+D. $(BCC'B')$.
 ::key C
-$52\pm3$ cho khoảng 49% đến 55%, có cả giá trị dưới 50%, nên A không chắc chắn.
+$BD\perp AC$ và $BD\perp AA'$. Phương án B và D chứa $BD$ không vuông góc, A song song với $(ABCD)$ nên $BD$ không vuông góc.
 
-[M397.35] Trả lời ngắn
-Nếu $(x-3)^2=49$ và $x<0$ thì giá trị của $x$ bằng bao nhiêu?
-::key -4
-$x-3=\pm7$, nên $x=10$ hoặc $x=-4$.
-
-[M397.36] Nhiều lựa chọn
-Ana kiếm 15 đô la mỗi giờ dạy kèm ($t$ giờ) và 12 đô la mỗi giờ ở quán cà phê ($c$ giờ). Ana muốn kiếm ít nhất 360 đô la và làm nhiều nhất 28 giờ. Hệ nào mô tả mục tiêu của Ana?
-A. $15t+12c\le360$, $t+c\ge28$
-B. $15t+12c\ge360$, $t+c\ge28$
-C. $12t+15c\ge360$, $t+c\le28$
-D. $15t+12c\ge360$, $t+c\le28$
+[M348.3] Nhiều lựa chọn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và $OA=OB=OC=a$. Gọi $M$ là trung điểm $BC$. Độ dài $AM$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $\dfrac{a\sqrt3}{2}$.
+C. $a$.
+D. $\dfrac{a\sqrt6}{2}$.
 ::key D
-"Ít nhất 360" là $\ge360$ cho thu nhập; "nhiều nhất 28" là $\le28$ cho số giờ.
+$OA\perp(OBC)$ nên $AM^2=OA^2+OM^2=a^2+\dfrac{a^2}{2}=\dfrac{3a^2}{2}$. Phương án A là $OM$, B nhầm với tam giác đều, C bỏ $OM$.
 
-[M397.37] Nhiều lựa chọn
-Đồ thị $y=x^2+2x-8$ và $y=2x+1$ cắt nhau tại hai điểm. Tích hoành độ của hai điểm đó là
-A. $-9$
-B. $9$
-C. $0$
-D. $-3$
+[M348.4] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(ABCD)$. Đường thẳng nào sau đây vuông góc với $(SAB)$?
+A. $BC$.
+B. $CD$.
+C. $BD$.
+D. $AC$.
 ::key A
-$x^2+2x-8=2x+1\iff x^2=9$, nên $x=3$ hoặc $x=-3$, tích bằng $-9$.
+$BC\perp AB$ và $BC\perp SA$. Phương án B song song với $AB$, C và D không vuông góc với $AB$ hoặc $SA$.
 
-[M397.38] Trả lời ngắn
-Trong đường tròn bán kính 12, góc ở tâm $150^\circ$ chắn một cung dài $k\pi$. Giá trị của $k$ bằng bao nhiêu?
-::key 10
-$\dfrac{150}{360}\cdot24\pi=10\pi$.
+[M348.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\perp(ABCD)$. Xét tính đúng sai của các mệnh đề sau:
+a) $AC\perp(SBD)$.
+b) $BD\perp(SAC)$.
+c) $AD\perp(SCD)$.
+d) $BC\perp(SAB)$.
+::key S Đ S Đ
+a) Sai: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$. b) Đúng: $BD\perp AC$ và $BD\perp SA$. c) Sai: $AD$ không vuông góc với $SD$. d) Đúng: $BC\perp AB$ và $BC\perp SA$.
 
-[M397.39] Nhiều lựa chọn
-Biểu thức nào sau đây là một nhân tử của $x^4-16$?
-A. $x-4$
-B. $x+4$
-C. $x^2+4$
-D. $x^2+16$
+[M348.6] Trả lời ngắn
+Giả sử một mái chóp là hình chóp $S.ABCD$ có đáy là hình vuông cạnh $8$ m và các cạnh bên đều bằng $7$ m. Tính chiều cao của mái (làm tròn đến hàng phần mười của mét).
+::key 4,1
+Chân đường cao là tâm $O$ của đáy nên $OA^2=32$, $SO^2=49-32=17$ và $SO\approx4{,}1$.
+
+[M348.7] Trả lời ngắn
+Giả sử một căn phòng hình hộp chữ nhật có sàn $5$ m $\times4$ m và cao $2{,}5$ m. Tính khoảng cách từ góc trần đến góc sàn đối diện qua đường chéo (làm tròn đến hàng phần mười của mét).
+::key 6,9
+Đường chéo là $\sqrt{25+16+6{,}25}=\sqrt{47{,}25}\approx6{,}9$.
+
+### M349 · Lớp 11 · Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng
+
+[M349.1] Nhiều lựa chọn
+Hình chiếu vuông góc của điểm $M$ lên mặt phẳng $(P)$ là
+A. điểm bất kì của $(P)$.
+B. giao điểm của $(P)$ với đường thẳng qua $M$ song song với $(P)$.
+C. giao điểm của $(P)$ với đường thẳng qua $M$ vuông góc với $(P)$.
+D. trung điểm của một đoạn thẳng trong $(P)$.
 ::key C
-$x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+Đó là định nghĩa hình chiếu vuông góc. Các phương án còn lại không xác định một điểm duy nhất theo định nghĩa.
 
-[M397.40] Nhiều lựa chọn
-Số trung bình của 10 số là 15. Bỏ đi hai số có tổng bằng 50. Số trung bình của 8 số còn lại là
-A. $12{,}5$
-B. $15$
-C. $10$
-D. $13$
-::key A
-$\dfrac{150-50}{8}=12{,}5$.
-
-[M397.41] Trả lời ngắn
-Giá trị nhỏ nhất của $f(x)=(x-1)(x-7)$ là bao nhiêu?
-::key -9
-Đỉnh nằm chính giữa hai nghiệm, tại $x=4$: $f(4)=3\cdot(-3)=-9$.
-
-[M397.42] Nhiều lựa chọn
-Một mặt cầu có diện tích $100\pi$. Thể tích khối cầu đó là
-A. $\dfrac{100\pi}{3}$
-B. $125\pi$
-C. $\dfrac{4.000\pi}{3}$
-D. $\dfrac{500\pi}{3}$
+[M349.2] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có $SA\perp(ABCD)$. Góc giữa $SD$ và $(ABCD)$ là
+A. $\widehat{ASD}$.
+B. $\widehat{SAD}$.
+C. $\widehat{SDC}$.
+D. $\widehat{SDA}$.
 ::key D
-$4\pi r^2=100\pi$ cho $r=5$, và $\dfrac43\pi\cdot125=\dfrac{500\pi}{3}$.
+Hình chiếu của $SD$ lên đáy là $AD$ nên góc cần tìm là $\widehat{SDA}$. Phương án B là góc vuông, C và A không là góc với hình chiếu.
 
-[M397.43] Trả lời ngắn
-Một quán bán 22 món đồ uống: một số món giá 0,40 đô la, số còn lại giá 0,25 đô la. Tổng tiền là 7 đô la. Có bao nhiêu món giá 0,40 đô la đã được bán?
-::key 10
-$0{,}4x+0{,}25(22-x)=7\iff0{,}15x=1{,}5\iff x=10$.
-
-[M397.44] Nhiều lựa chọn
-Với giá trị dương nào của $k$ thì đường thẳng $y=kx$ cắt parabol $y=x^2+4$ tại đúng một điểm?
-A. $2$
-B. $4$
-C. $8$
-D. $16$
-::key B
-$x^2-kx+4=0$ có một nghiệm khi $k^2-16=0$, nên $k=4$.
-
-### M398 · Ôn thi ACT · Số, đại lượng và tỉ lệ
-
-[M398.1] Nhiều lựa chọn
-$15\%$ của $240$ bằng
-A. $24$
-B. $16$
-C. $36$
-D. $3{,}6$
-::key C
-$0{,}15\times240=36$.
-
-[M398.2] Nhiều lựa chọn
-Số nào sau đây bằng $\sqrt{72}$?
-A. $6\sqrt2$
-B. $8\sqrt3$
-C. $3\sqrt6$
-D. $12\sqrt2$
+[M349.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa $BD'$ và $(ABCD)$ có $\tan$ bằng
+A. $\dfrac1{\sqrt2}$.
+B. $\sqrt2$.
+C. $1$.
+D. $\dfrac{1}{\sqrt3}$.
 ::key A
-$\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án C là $\sqrt{54}$ và phương án D là $\sqrt{288}$.
+Hình chiếu của $BD'$ là $BD=a\sqrt2$ và $DD'=a$, nên $\tan=\dfrac{a}{a\sqrt2}=\dfrac1{\sqrt2}$. Phương án C tương ứng góc $45^\circ$, B là nghịch đảo, D là giá trị khác.
 
-[M398.3] Nhiều lựa chọn
-$(2-i)+(3+4i)$ bằng
-A. $5+5i$
-B. $5+3i$
-C. $6-4i$
-D. $-1+3i$
+[M349.4] Nhiều lựa chọn
+Một dây neo dài $10$ m nối đỉnh cột thẳng đứng cao $6$ m với điểm trên mặt đất phẳng. Góc giữa dây và mặt đất có $\sin$ bằng
+A. $0{,}8$.
+B. $0{,}6$.
+C. $0{,}75$.
+D. $1{,}67$.
 ::key B
-Cộng phần thực với nhau và phần ảo với nhau: $(2+3)+(-1+4)i$.
+$\sin=\dfrac{\text{chiều cao}}{\text{dây}}=\dfrac6{10}=0{,}6$. Phương án A là $\cos$, C là $\tan$, D là tỉ số lớn hơn $1$ nên không phải $\sin$.
 
-[M398.4] Nhiều lựa chọn
-Kết quả của $\left(5\times10^3\right)\left(4\times10^{-5}\right)$ viết dưới dạng kí hiệu khoa học là
-A. $20\times10^{-2}$
-B. $2\times10^{-2}$
-C. $2\times10^{8}$
-D. $2\times10^{-1}$
-::key D
-$20\times10^{-2}=2\times10^{-1}$. Phương án A có cùng giá trị nhưng chưa ở dạng kí hiệu khoa học.
+[M349.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $d$ và mặt phẳng $(P)$. Xét tính đúng sai của các mệnh đề sau:
+a) Nếu $d\perp(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
+b) Nếu $d\parallel(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
+c) Góc giữa $d$ và $(P)$ luôn không vượt quá $90^\circ$.
+d) Góc giữa $d$ và $(P)$ là góc giữa $d$ và một đường thẳng bất kì của $(P)$.
+::key Đ S Đ S
+a) Đúng theo định nghĩa. b) Sai: góc bằng $0^\circ$. c) Đúng: góc thuộc đoạn từ $0^\circ$ đến $90^\circ$. d) Sai: phải dùng hình chiếu của $d$ lên $(P)$.
 
-[M398.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một giá tăng $50\%$ rồi giảm $50\%$. Xét tính đúng sai của các mệnh đề sau:
-a) Giá cuối cùng bằng $75\%$ giá ban đầu.
-b) Thay đổi chung là giảm $25\%$.
-c) Giá cuối cùng bằng giá ban đầu.
-d) Nếu giảm trước rồi mới tăng thì giá cuối cùng vẫn như vậy.
-::key T T F T
-$1{,}5\times0{,}5=0{,}75$. Phép nhân có tính giao hoán, nên thứ tự các lần thay đổi không ảnh hưởng.
-
-[M398.6] Trả lời ngắn
-Tính $25\%$ của $64$.
-::key 16
-$0{,}25\times64=16$.
-
-[M398.7] Trả lời ngắn
-Đổi $90$ km/h sang mét mỗi giây.
-::key 25
-$\dfrac{90\times1000}{3600}=25$.
-
-### M399 · Ôn thi ACT · Đại số và hàm số
-
-[M399.1] Nhiều lựa chọn
-Hệ số góc của đường thẳng đi qua $(1,2)$ và $(4,11)$ là
-A. $\dfrac13$
-B. $3$
-C. $9$
-D. $-3$
-::key B
-$\dfrac{11-2}{4-1}=\dfrac93=3$.
-
-[M399.2] Nhiều lựa chọn
-Nếu $f(x)=3x^2-x$ thì $f(-2)$ bằng
-A. $10$
-B. $-14$
-C. $14$
-D. $38$
-::key C
-$3(4)-(-2)=12+2=14$.
-
-[M399.3] Nhiều lựa chọn
-Nghiệm của phương trình $3(x-2)=2x+5$ là
-A. $11$
-B. $3$
-C. $7$
-D. $-1$
-::key A
-$3x-6=2x+5$, nên $x=11$.
-
-[M399.4] Nhiều lựa chọn
-Biểu thức nào tương đương với $(x+3)(x-3)$?
-A. $x^2+9$
-B. $x^2-6x-9$
-C. $x^2+6x-9$
-D. $x^2-9$
-::key D
-Hằng đẳng thức hiệu hai bình phương.
-
-[M399.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Cho $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
-a) Các nghiệm của $f$ là $1$ và $3$.
-b) Đỉnh của đồ thị là $(2,-1)$.
-c) Đồ thị cắt trục tung tại điểm có tung độ $3$.
-d) Giá trị nhỏ nhất của $f$ là $-2$.
-::key T T T F
-$f(x)=(x-1)(x-3)$; đỉnh nằm tại $x=2$ với $f(2)=-1$, nên giá trị nhỏ nhất là $-1$.
-
-[M399.6] Trả lời ngắn
-Giải phương trình $2^{x+1}=16$.
-::key 3
-$16=2^4$, nên $x+1=4$.
-
-[M399.7] Trả lời ngắn
-Tìm nghiệm lớn hơn của phương trình $|x-4|=6$.
-::key 10
-$x-4=6$ hoặc $x-4=-6$, nên $x=10$ hoặc $x=-2$.
-
-### M400 · Ôn thi ACT · Hình học phẳng, toạ độ và lượng giác
-
-[M400.1] Nhiều lựa chọn
-Tổng các góc trong của một lục giác là
-A. $540^\circ$
-B. $360^\circ$
-C. $1080^\circ$
-D. $720^\circ$
-::key D
-$(6-2)\times180^\circ=720^\circ$.
-
-[M400.2] Nhiều lựa chọn
-Một tam giác có đáy $10$ và chiều cao $6$. Diện tích của nó là
-A. $30$
-B. $60$
-C. $16$
-D. $15$
-::key A
-$\dfrac12\times10\times6=30$.
-
-[M400.3] Nhiều lựa chọn
-Giá trị của $\tan45^\circ$ là
-A. $\dfrac{\sqrt2}{2}$
-B. $1$
-C. $\sqrt3$
-D. $\dfrac{\sqrt3}{3}$
-::key B
-Trong tam giác vuông cân, cạnh đối và cạnh kề bằng nhau.
-
-[M400.4] Nhiều lựa chọn
-Thể tích của hình lập phương cạnh $4$ là
-A. $16$
-B. $48$
-C. $64$
-D. $96$
-::key C
-$4^3=64$. Phương án D là diện tích toàn phần.
-
-[M400.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Xét đường tròn $(x-1)^2+(y+2)^2=9$. Xét tính đúng sai của các mệnh đề sau:
-a) Tâm là $(1,-2)$.
-b) Bán kính bằng $9$.
-c) Đường tròn đi qua điểm $(4,-2)$.
-d) Diện tích hình tròn bằng $9\pi$.
-::key T F T T
-Bán kính là $\sqrt9=3$; điểm $(4,-2)$ cách tâm $3$ đơn vị; diện tích là $\pi(3)^2=9\pi$.
-
-[M400.6] Trả lời ngắn
-Một tam giác vuông có hai cạnh góc vuông $6$ và $8$. Tính cạnh huyền.
-::key 10
-$\sqrt{36+64}=10$.
-
-[M400.7] Trả lời ngắn
-Tìm hệ số góc của đường thẳng đi qua $(0,1)$ và $(2,7)$.
-::key 3
-$\dfrac{7-1}{2-0}=3$.
-
-### M401 · Ôn thi ACT · Thống kê và xác suất
-
-[M401.1] Nhiều lựa chọn
-Mốt của $2, 3, 3, 5, 7, 7, 7$ là
-A. $3$
-B. $5$
-C. $7$
-D. $4$
-::key C
-$7$ xuất hiện ba lần, nhiều hơn mọi giá trị khác.
-
-[M401.2] Nhiều lựa chọn
-Một vòng quay có $8$ ô bằng nhau, trong đó $3$ ô màu xanh. Xác suất kim dừng ở ô xanh là
-A. $\dfrac38$
-B. $\dfrac35$
-C. $\dfrac58$
-D. $\dfrac13$
-::key A
-Có $3$ ô thuận lợi trong $8$ ô.
-
-[M401.3] Nhiều lựa chọn
-Có bao nhiêu cách xếp $5$ quyển sách khác nhau lên một giá?
-A. $25$
-B. $60$
-C. $15$
-D. $120$
-::key D
-$5!=120$.
-
-[M401.4] Nhiều lựa chọn
-Số trung bình của $2, 4, 6, 8, 10$ là
-A. $5$
-B. $6$
-C. $30$
-D. $7$
-::key B
-$\dfrac{30}{5}=6$.
-
-[M401.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Xét dữ liệu $1, 2, 2, 3, 10$. Xét tính đúng sai của các mệnh đề sau:
-a) Số trung bình bằng $3{,}6$.
-b) Trung vị bằng $2$.
-c) Mốt bằng $2$.
-d) Bỏ giá trị $10$ đi thì số trung bình tăng.
-::key T T T F
-Số trung bình là $\dfrac{18}{5}=3{,}6$; bỏ giá trị $10$ thì số trung bình còn $2$.
-
-[M401.6] Trả lời ngắn
-Có bao nhiêu cách chọn $2$ đồ vật từ $5$ đồ vật?
-::key 10
-$\dbinom52=10$.
-
-[M401.7] Trả lời ngắn
-Tung một đồng xu cân đối hai lần. Tính xác suất được hai lần mặt sấp.
-::key 0,25
-$\dfrac12\times\dfrac12=0{,}25$.
-
-### M402 · Ôn thi ACT · Mô hình hoá và bài tổng hợp
-
-[M402.1] Nhiều lựa chọn
-Nếu $y=3x+2$ thì khi $x=5$, $y$ bằng
-A. $15$
-B. $17$
-C. $10$
-D. $25$
-::key B
-$3(5)+2=17$.
-
-[M402.2] Nhiều lựa chọn
-Một giá tăng $10\%$ rồi lại tăng thêm $10\%$. Giá ban đầu được nhân với số nào?
-A. $1{,}2$
-B. $1{,}02$
-C. $1{,}21$
-D. $2{,}1$
-::key C
-$1{,}1\times1{,}1=1{,}21$.
-
-[M402.3] Nhiều lựa chọn
-$2{,}5$ giờ bằng bao nhiêu phút?
-A. $250$
-B. $130$
-C. $210$
-D. $150$
-::key D
-$2{,}5\times60=150$.
-
-[M402.4] Nhiều lựa chọn
-Dữ liệu tăng cùng một tỉ lệ phần trăm mỗi năm phù hợp nhất với loại hàm số nào?
-A. Hàm mũ
-B. Hàm bậc nhất
-C. Hàm bậc hai
-D. Hàm hằng
-::key A
-Tỉ số giữa các giá trị liên tiếp không đổi nghĩa là mô hình hàm mũ.
-
-[M402.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Giá một chuyến taxi dài $m$ phút là $C=20+0{,}5m$ nghìn đồng. Xét tính đúng sai của các mệnh đề sau:
-a) Phí cố định là $20$ nghìn đồng.
-b) Mỗi phút tốn $0{,}5$ nghìn đồng.
-c) Chuyến đi $100$ phút tốn $70$ nghìn đồng.
-d) Số phút tăng gấp đôi thì giá cũng tăng gấp đôi.
-::key T T T F
-$C(100)=20+50=70$; vì có phí cố định nên giá không tỉ lệ thuận với $m$.
-
-[M402.6] Trả lời ngắn
-Một bể chứa $3000$ lít và được bơm đầy với tốc độ $50$ lít mỗi phút. Cần bao nhiêu phút để bể đầy?
+[M349.6] Trả lời ngắn
+Giả sử một chiếc thang dài $6$ m dựa vào tường thẳng đứng, chân thang cách tường $3$ m. Tính góc giữa thang và mặt đất theo đơn vị độ.
 ::key 60
-$\dfrac{3000}{50}=60$.
+$\cos\varphi=\dfrac36=0{,}5$ nên $\varphi=60^\circ$.
 
-[M402.7] Trả lời ngắn
-Một cơ sở có chi phí cố định $500$ đô la, chi phí $4$ đô la mỗi sản phẩm, và giá bán $9$ đô la mỗi sản phẩm. Cần bán bao nhiêu sản phẩm để hoà vốn?
-::key 100
-$\dfrac{500}{9-4}=100$.
+[M349.7] Trả lời ngắn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4$. Tính $\tan$ của góc giữa $SC$ và $(ABCD)$, làm tròn đến hàng phần trăm.
+::key 0,71
+$AC=4\sqrt2$ nên $\tan=\dfrac4{4\sqrt2}=\dfrac1{\sqrt2}\approx0{,}71$.
 
-### M403 · Ôn thi ACT · Đề luyện ACT Math số 1
+### M350 · Lớp 11 · Hai mặt phẳng vuông góc
 
-[M403.1] Nhiều lựa chọn
-Nếu $3x-7=14$ thì giá trị của $x$ là
-A. $7$
-B. $\dfrac73$
-C. $21$
-D. $3$
-::key A
-Cộng $7$ vào hai vế: $3x=21$, nên $x=7$.
-
-[M403.2] Nhiều lựa chọn
-$25\%$ của $180$ bằng
-A. $72$
-B. $4{,}5$
-C. $45$
-D. $155$
+[M350.1] Nhiều lựa chọn
+Hai mặt phẳng cắt nhau có một góc nhị diện với góc phẳng $120^\circ$. Góc giữa hai mặt phẳng đó bằng
+A. $120^\circ$.
+B. $30^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
 ::key C
-$0{,}25\times180=45$.
+Góc giữa hai mặt phẳng không vượt quá $90^\circ$ nên lấy $180^\circ-120^\circ=60^\circ$. Phương án A quên đổi góc tù.
 
-[M403.3] Nhiều lựa chọn
-Một chiếc áo khoác giá $60$ đô la. Trong đợt giảm giá, giá được giảm $15\%$. Giá bán khi giảm là
-A. $45$ đô la
-B. $51$ đô la
-C. $9$ đô la
-D. $69$ đô la
-::key B
-Giá khi giảm là $60\times0{,}85=51$ đô la. Phương án C là số tiền được giảm, không phải giá bán.
-
-[M403.4] Nhiều lựa chọn
-Giá trị của $2a^2-b$ khi $a=-3$ và $b=4$ là
-A. $-22$
-B. $32$
-C. $-14$
-D. $14$
+[M350.2] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Mặt phẳng nào sau đây **không** vuông góc với $(ABCD)$?
+A. $(ABB'A')$.
+B. $(BCC'B')$.
+C. $(BDD'B')$.
+D. $(A'BCD')$.
 ::key D
-$2(-3)^2-4=2(9)-4=14$. Bình phương trước nên kết quả dương.
+Các mặt phẳng ở A, B, C đều chứa một cạnh bên vuông góc với $(ABCD)$. Mặt phẳng $(A'BCD')$ tạo với $(ABCD)$ góc $45^\circ$.
 
-[M403.5] Nhiều lựa chọn
-Ba số tỉ lệ với $2:3:5$ và có tổng bằng $120$. Số lớn nhất là
-A. $24$
-B. $60$
-C. $50$
-D. $36$
-::key B
-Viết các số là $2k$, $3k$, $5k$. Khi đó $10k=120$, nên $k=12$ và số lớn nhất là $5k=60$.
-
-[M403.6] Nhiều lựa chọn
-Trung bình của $5$ số là $14$. Bỏ đi số $22$. Trung bình của $4$ số còn lại là
-A. $12$
-B. $13$
-C. $14$
-D. $8$
+[M350.3] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông và $SA\perp(ABCD)$. Mặt phẳng nào sau đây vuông góc với $(SAC)$?
+A. $(SBD)$.
+B. $(SAD)$.
+C. $(SAB)$.
+D. $(SBC)$.
 ::key A
-Tổng là $5\times14=70$; bỏ $22$ còn $48$, và $\dfrac{48}{4}=12$.
+$BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$, suy ra $(SBD)\perp(SAC)$. Các mặt phẳng còn lại đều đi qua $SA$ và không vuông góc với $(SAC)$.
 
-[M403.7] Nhiều lựa chọn
-Hệ số góc của đường thẳng $4x+2y=10$ là
-A. $4$
-B. $2$
-C. $5$
-D. $-2$
-::key D
-Rút $y$: $y=-2x+5$, nên hệ số góc là $-2$. Phương án D là tung độ gốc.
-
-[M403.8] Nhiều lựa chọn
-Biểu thức nào tương đương với $(x+5)(x-2)$?
-A. $x^2-3x-10$
-B. $x^2+7x-10$
-C. $x^2+3x-10$
-D. $x^2-10$
-::key C
-$x^2-2x+5x-10=x^2+3x-10$.
-
-[M403.9] Nhiều lựa chọn
-Số nào sau đây bằng $\sqrt{48}$?
-A. $3\sqrt4$
-B. $16\sqrt3$
-C. $4\sqrt3$
-D. $4\sqrt{12}$
-::key C
-$\sqrt{48}=\sqrt{16\cdot3}=4\sqrt3$.
-
-[M403.10] Nhiều lựa chọn
-Một hình chữ nhật có chu vi $30$ cm và chiều dài $9$ cm. Diện tích của nó là
-A. $54$ cm²
-B. $270$ cm²
-C. $21$ cm²
-D. $63$ cm²
-::key A
-Chiều rộng là $\dfrac{30}{2}-9=6$ cm, nên diện tích là $9\times6=54$ cm².
-
-[M403.11] Nhiều lựa chọn
-Tất cả các nghiệm của $x^2=6x$ là
-A. chỉ $6$
-B. $0$ và $6$
-C. $-6$ và $6$
-D. chỉ $0$
+[M350.4] Nhiều lựa chọn
+Hình chóp tứ giác đều có cạnh đáy $6$ và chiều cao $4$. Tang của góc giữa mặt bên và mặt đáy bằng
+A. $\dfrac34$.
+B. $\dfrac43$.
+C. $\dfrac{2\sqrt2}{3}$.
+D. $\dfrac23$.
 ::key B
-$x^2-6x=x(x-6)=0$, nên $x=0$ hoặc $x=6$. Chia hai vế cho $x$ sẽ mất nghiệm $0$.
+Góc phẳng là $\widehat{SMO}$ với $OM=3$, $SO=4$ nên $\tan=\dfrac{SO}{OM}=\dfrac43$. Phương án A đảo tỉ số, C dùng $OB=3\sqrt2$ thay cho $OM$, D dùng cả cạnh đáy $6$.
 
-[M403.12] Nhiều lựa chọn
-Nếu $f(x)=2x^2-3x$ thì $f(-1)$ bằng
-A. $-1$
-B. $-5$
-C. $1$
-D. $5$
-::key D
-$2(1)-3(-1)=2+3=5$.
+[M350.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $4$ và chiều cao $SO=2\sqrt3$ ($O$ là tâm đáy, $M$ là trung điểm $BC$).
+a) $(SAC)\perp(ABCD)$.
+b) $(SAC)\perp(SBD)$.
+c) Góc giữa $(SBC)$ và $(ABCD)$ bằng $30^\circ$.
+d) $SM=4$.
+::key Đ Đ S Đ
+a) Đúng: $(SAC)$ chứa $SO\perp(ABCD)$. b) Đúng: $BD\perp AC$ và $BD\perp SO$ nên $BD\perp(SAC)$. c) Sai: $\tan\widehat{SMO}=\dfrac{2\sqrt3}{2}=\sqrt3$ nên góc là $60^\circ$. d) Đúng: $SM=\sqrt{12+4}=4$.
 
-[M403.13] Nhiều lựa chọn
-Chọn ngẫu nhiên một chữ cái từ từ MATHEMATICS. Xác suất chọn được nguyên âm là
-A. $\dfrac{4}{11}$
-B. $\dfrac{3}{11}$
-C. $\dfrac{4}{7}$
-D. $\dfrac{7}{11}$
-::key A
-$11$ chữ cái có các nguyên âm A, E, A, I: $4$ chữ.
+[M350.6] Trả lời ngắn
+Cho hình lập phương $ABCD.A'B'C'D'$. Tính số đo (độ) của góc giữa $(A'BD)$ và $(ABCD)$, làm tròn đến hàng phần mười.
+::key 54,7
+Gọi $O$ là tâm $ABCD$, góc phẳng là $\widehat{A'OA}$ với $\tan=\dfrac{AA'}{AO}=\dfrac{a}{a\sqrt2/2}=\sqrt2$, nên góc xấp xỉ $54{,}7^\circ$.
 
-[M403.14] Nhiều lựa chọn
-Một xe buýt đi $150$ km trong $2$ giờ $30$ phút. Tốc độ trung bình của xe là
-A. $75$ km/h
-B. $65$ km/h
-C. $60$ km/h
-D. $50$ km/h
+[M350.7] Trả lời ngắn
+Hình chóp $S.ABCD$ có đáy là hình chữ nhật $AB=4$, $BC=3$, tam giác $SAB$ đều và $(SAB)\perp(ABCD)$. Tính độ dài $SC$.
+::key 5
+Gọi $H$ là trung điểm $AB$ thì $SH\perp(ABCD)$ và $SH=2\sqrt3$, $HC=\sqrt{4+9}=\sqrt{13}$. Vậy $SC=\sqrt{12+13}=5$.
+
+### M351 · Lớp 11 · Khoảng cách trong không gian
+
+[M351.1] Nhiều lựa chọn
+Khoảng cách từ điểm $M$ đến mặt phẳng $(P)$ bằng
+A. độ dài $MN$ với $N$ là điểm bất kì của $(P)$.
+B. độ dài lớn nhất của đoạn nối $M$ với một điểm của $(P)$.
+C. độ dài $MH$ với $H$ là hình chiếu vuông góc của $M$ lên $(P)$.
+D. độ dài đoạn nối $M$ với một điểm của $(P)$ trong cùng một mặt phẳng.
 ::key C
-$2$ giờ $30$ phút là $2{,}5$ giờ, và $\dfrac{150}{2{,}5}=60$. Phương án C coi $2$ giờ $30$ phút là $2{,}3$ giờ.
+Đó là định nghĩa, và $MH$ là độ dài ngắn nhất. Phương án A và D phụ thuộc vào điểm chọn, B sai vì không có độ dài lớn nhất.
 
-[M403.15] Nhiều lựa chọn
-Diện tích hình tròn bán kính $7$ là
-A. $14\pi$
-B. $7\pi$
-C. $196\pi$
-D. $49\pi$
+[M351.2] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a$. Khoảng cách từ $A$ đến $(SBC)$ bằng
+A. $a$.
+B. $\dfrac{a\sqrt3}{3}$.
+C. $a\sqrt2$.
+D. $\dfrac{a\sqrt2}{2}$.
 ::key D
-$\pi r^2=49\pi$. Phương án A là chu vi.
+$AH=\dfrac{SA\cdot AB}{SB}=\dfrac{a^2}{a\sqrt2}=\dfrac{a\sqrt2}{2}$. Phương án A là $SA$, B là khoảng cách của một tứ diện vuông khác, C là đường chéo đáy.
 
-[M403.16] Nhiều lựa chọn
-Nếu $x+y=10$ và $x-y=4$ thì giá trị của $xy$ là
-A. $40$
-B. $21$
-C. $24$
-D. $14$
-::key B
-Cộng hai phương trình được $2x=14$, nên $x=7$ và $y=3$; do đó $xy=21$.
-
-[M403.17] Nhiều lựa chọn
-Tổng các nghiệm của $|x-3|=5$ là
-A. $6$
-B. $10$
-C. $8$
-D. $-2$
+[M351.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Khoảng cách giữa $AA'$ và mặt phẳng $(BDD'B')$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $a$.
+C. $\dfrac{a}{2}$.
+D. $a\sqrt2$.
 ::key A
-$x-3=5$ hoặc $x-3=-5$, nên $x=8$ hoặc $x=-2$, và $8+(-2)=6$.
+$d(AA',(BDD'B'))=d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$. Phương án B là cạnh, C là nửa cạnh, D là đường chéo mặt.
 
-[M403.18] Nhiều lựa chọn
-Một tam giác vuông có hai cạnh góc vuông dài $9$ và $12$. Cạnh huyền dài
-A. $21$
-B. $\sqrt{63}$
-C. $15$
-D. $18$
-::key C
-$\sqrt{81+144}=\sqrt{225}=15$.
-
-[M403.19] Nhiều lựa chọn
-Nếu $3^x=81$ thì $x$ bằng
-A. $27$
-B. $3$
-C. $9$
-D. $4$
-::key D
-$81=3^4$.
-
-[M403.20] Nhiều lựa chọn
-Một đường thẳng đi qua $(2,3)$ và có hệ số góc $-1$. Tung độ gốc của nó là
-A. $1$
-B. $5$
-C. $3$
-D. $-1$
+[M351.4] Nhiều lựa chọn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và bằng $a$. Khoảng cách từ $O$ đến $(ABC)$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $\dfrac{a\sqrt3}{3}$.
+C. $\dfrac{a}{2}$.
+D. $a$.
 ::key B
-$y=-x+b$ với $3=-2+b$, nên $b=5$.
+$\dfrac1{OH^2}=\dfrac3{a^2}$ nên $OH=\dfrac{a}{\sqrt3}=\dfrac{a\sqrt3}{3}$. Phương án A là $OM$, C và D không thoả hệ thức.
 
-[M403.21] Nhiều lựa chọn
-Tập nghiệm của $-3x+4\le16$ là
-A. $x\le-4$
-B. $x\ge4$
-C. $x\le4$
-D. $x\ge-4$
-::key D
-$-3x\le12$; chia cho $-3$ thì đổi chiều: $x\ge-4$.
+[M351.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Khoảng cách từ điểm $M$ đến đường thẳng $\Delta$ là độ dài đoạn vuông góc hạ từ $M$ xuống $\Delta$.
+b) Nếu $(P)\parallel(Q)$ thì mọi điểm của $(P)$ cách $(Q)$ một khoảng như nhau.
+c) Nếu $\Delta\parallel(P)$ thì $d(\Delta,(P))=0$.
+d) Khoảng cách giữa hai đường chéo nhau $a$, $b$ là khoảng cách giữa $a$ và mặt phẳng chứa $b$ song song với $a$.
+::key Đ Đ S Đ
+a) Đúng theo định nghĩa. b) Đúng theo định lí. c) Sai: $\Delta$ không có điểm chung với $(P)$ nên khoảng cách lớn hơn $0$. d) Đúng theo định nghĩa.
 
-[M403.22] Nhiều lựa chọn
-Trung vị của $5, 9, 2, 8, 11, 3$ là
-A. $8$
-B. $6{,}33$
-C. $6{,}5$
-D. $5$
+[M351.6] Trả lời ngắn
+Giả sử một căn phòng hình hộp chữ nhật có sàn $8$ m $\times6$ m và cao $3$ m. Một ống chạy thẳng đứng dọc một góc phòng và một sợi cáp căng theo đường chéo của sàn không đi qua góc đó. Tính khoảng cách ngắn nhất giữa ống và cáp theo mét.
+::key 4,8
+Khoảng cách bằng đường cao ứng với cạnh huyền của tam giác vuông có hai cạnh góc vuông $8$ và $6$: $\dfrac{8\cdot6}{10}=4{,}8$.
+
+[M351.7] Trả lời ngắn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và đều bằng $6$. Tính khoảng cách từ $O$ đến $(ABC)$, làm tròn đến hàng phần mười.
+::key 3,5
+$d=\dfrac{6}{\sqrt3}=2\sqrt3\approx3{,}5$.
+
+### M352 · Lớp 11 · Thể tích
+
+[M352.1] Nhiều lựa chọn
+Thể tích của khối lăng trụ có diện tích đáy $B$ và chiều cao $h$ là
+A. $\dfrac13Bh$.
+B. $Bh$.
+C. $\dfrac12Bh$.
+D. $B+h$.
+::key B
+Đó là công thức khối lăng trụ. Phương án A là khối chóp, C và D không phải công thức thể tích.
+
+[M352.2] Nhiều lựa chọn
+Một khối hộp chữ nhật có ba kích thước $7$, $3$, $2$. Thể tích của nó là
+A. $12$.
+B. $21$.
+C. $42$.
+D. $84$.
 ::key C
-Sắp xếp: $2, 3, 5, 8, 9, 11$; trung vị là $\dfrac{5+8}{2}=6{,}5$. Phương án C là số trung bình.
+$V=7\cdot3\cdot2=42$. Phương án A là tổng, B bỏ một kích thước, D nhân thừa.
 
-[M403.23] Nhiều lựa chọn
-Trung điểm của đoạn thẳng có hai đầu mút $(-4,7)$ và $(6,-1)$ là
-A. $(1,3)$
-B. $(5,4)$
-C. $(2,6)$
-D. $(1,4)$
+[M352.3] Nhiều lựa chọn
+Một khối chóp có diện tích đáy bằng $12$ và chiều cao bằng $5$. Thể tích của nó là
+A. $60$.
+B. $30$.
+C. $17$.
+D. $20$.
+::key D
+$V=\dfrac13\cdot12\cdot5=20$. Phương án A thiếu hệ số $\dfrac13$, B là một nửa, C là tổng.
+
+[M352.4] Nhiều lựa chọn
+Một khối lăng trụ đứng có đáy là tam giác đều cạnh $4$ và chiều cao $5$. Thể tích của nó là
+A. $20\sqrt3$.
+B. $10\sqrt3$.
+C. $20$.
+D. $40\sqrt3$.
 ::key A
-$\left(\dfrac{-4+6}{2},\dfrac{7-1}{2}\right)=(1,3)$.
+$B=\dfrac{\sqrt3}{4}\cdot16=4\sqrt3$ và $V=4\sqrt3\cdot5=20\sqrt3$. Phương án C bỏ qua diện tích đáy, B và D sai hệ số.
 
-[M403.24] Nhiều lựa chọn
-$(2+3i)(2-3i)$ bằng
-A. $-5$
-B. $13$
-C. $4-9i$
-D. $13-12i$
-::key B
-$4-9i^2=4+9=13$. Phương án B dùng $i^2=1$.
+[M352.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Thể tích khối lập phương cạnh $a$ là $a^3$.
+b) Thể tích khối chóp là $Bh$.
+c) Thể tích khối chóp bằng một phần ba thể tích khối lăng trụ có cùng đáy và cùng chiều cao.
+d) $1$ m$^3$ bằng $100$ lít.
+::key Đ S Đ S
+a) Đúng. b) Sai: phải có hệ số $\dfrac13$. c) Đúng. d) Sai: $1$ m$^3=1000$ lít.
 
-[M403.25] Nhiều lựa chọn
-Một tiệm pizza có $7$ loại nhân phủ. Khách hàng có bao nhiêu cách chọn $3$ loại khác nhau?
-A. $210$
-B. $35$
-C. $21$
-D. $343$
-::key B
-Không tính thứ tự: $\dbinom73=35$. Phương án A đếm các cách chọn có thứ tự.
+[M352.6] Trả lời ngắn
+Một khối lập phương có cạnh $2{,}5$. Tính thể tích, làm tròn đến hàng phần mười.
+::key 15,6
+$V=2{,}5^3=15{,}625\approx15{,}6$.
 
-[M403.26] Nhiều lựa chọn
-Hai tam giác đồng dạng có các cạnh tương ứng tỉ lệ $3:5$. Tỉ số diện tích của chúng là
-A. $3:5$
-B. $6:10$
-C. $27:125$
-D. $9:25$
-::key D
-Diện tích tỉ lệ với bình phương tỉ số cạnh: $3^2:5^2$.
+[M352.7] Trả lời ngắn
+Giả sử một thùng chứa có dạng khối chóp cụt đều, đáy dưới là hình vuông cạnh $2$ m, đáy trên là hình vuông cạnh $1$ m và cao $0{,}9$ m. Tính thể tích theo mét khối.
+::key 2,1
+$V=\dfrac13\cdot0{,}9\cdot(4+2+1)=0{,}3\cdot7=2{,}1$.
 
-[M403.27] Nhiều lựa chọn
-Đỉnh của parabol $y=2x^2-8x+1$ là
-A. $(-2,25)$
-B. $(4,1)$
-C. $(2,-7)$
-D. $(2,1)$
-::key C
-$x=-\dfrac{-8}{2\cdot2}=2$ và $y=8-16+1=-7$.
+### M353 · Lớp 11 · Biến cố hợp, biến cố giao, biến cố độc lập
 
-[M403.28] Nhiều lựa chọn
-Một thị trấn có $8000$ dân, mỗi năm tăng $5\%$. Sau $3$ năm dân số là
-A. $9261$
-B. $9200$
-C. $8400$
-D. $9600$
+[M353.1] Nhiều lựa chọn
+Biến cố $A\cup B$ xảy ra khi
+A. ít nhất một trong hai biến cố $A$, $B$ xảy ra.
+B. $A$ xảy ra mà $B$ không xảy ra.
+C. cả $A$ và $B$ cùng xảy ra.
+D. không biến cố nào xảy ra.
 ::key A
-$8000\times1{,}05^3=9261$. Phương án A cộng $5\%$ của $8000$ ba lần (tăng đơn).
+Đó là định nghĩa biến cố hợp. Phương án C là biến cố giao, B và D là các biến cố khác.
 
-[M403.29] Nhiều lựa chọn
-Với góc nhọn $\theta$, $\sin\theta=0{,}6$. Giá trị $\tan\theta$ là
-A. $0{,}8$
-B. $1{,}33$
-C. $0{,}6$
-D. $0{,}75$
-::key D
-$\cos\theta=\sqrt{1-0{,}36}=0{,}8$, nên $\tan\theta=\dfrac{0{,}6}{0{,}8}=0{,}75$.
-
-[M403.30] Nhiều lựa chọn
-Nếu $f(x)=x+4$ và $g(x)=x^2$ thì $g\big(f(-6)\big)$ bằng
-A. $40$
-B. $4$
-C. $-2$
-D. $36$
+[M353.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chẵn" và $B$: "số chấm không nhỏ hơn $4$". Xác suất $P(A\cap B)$ bằng
+A. $\dfrac12$.
+B. $\dfrac13$.
+C. $\dfrac16$.
+D. $\dfrac23$.
 ::key B
-$f(-6)=-2$ và $g(-2)=4$. Phương án B là $f\big(g(-6)\big)$.
+$A\cap B=\{4,6\}$ nên $P=\dfrac26=\dfrac13$. Phương án D là $P(A\cup B)$, A là $P(A)$, C chỉ đếm một kết quả.
 
-[M403.31] Nhiều lựa chọn
-Số hạng thứ $20$ của cấp số cộng $7, 11, 15, \dots$ là
-A. $87$
-B. $80$
-C. $83$
-D. $147$
+[M353.3] Nhiều lựa chọn
+Rút một lá từ bộ bài tây $52$ lá. Gọi $A$: "lá cơ" và $B$: "lá K". Xác suất $P(A\cup B)$ bằng
+A. $\dfrac1{52}$.
+B. $\dfrac{17}{52}$.
+C. $\dfrac4{13}$.
+D. $\dfrac1{13}$.
 ::key C
-$7+19\times4=83$. Phương án A dùng $20\times4$.
+$n(A\cup B)=13+4-1=16$ nên $P=\dfrac{16}{52}=\dfrac4{13}$. Phương án B quên trừ phần chung, A là $P(AB)$, D là $P(B)$.
 
-[M403.32] Nhiều lựa chọn
-Thể tích hình trụ có bán kính $3$ và chiều cao $8$ là
-A. $72\pi$
-B. $24\pi$
-C. $48\pi$
-D. $192\pi$
-::key A
-$\pi r^2h=\pi\cdot9\cdot8=72\pi$. Phương án B là thể tích hình nón.
-
-[M403.33] Nhiều lựa chọn
-Trong một lớp $30$ học sinh, $18$ em học tiếng Pháp, $12$ em học tiếng Tây Ban Nha và $5$ em học cả hai. Có bao nhiêu em không học thứ tiếng nào?
-A. $0$
-B. $10$
-C. $5$
-D. $7$
-::key C
-$18+12-5=25$ em học ít nhất một thứ tiếng, nên $30-25=5$ em không học thứ tiếng nào.
-
-[M403.34] Nhiều lựa chọn
-Giá trị của $\log_264-\log_39$ là
-A. $55$
-B. $8$
-C. $3$
-D. $4$
+[M353.4] Nhiều lựa chọn
+Hai biến cố $A$, $B$ độc lập khi và chỉ khi
+A. $A\cap B=\varnothing$.
+B. $P(AB)=0$.
+C. $P(A\cup B)=P(A)+P(B)$.
+D. $P(AB)=P(A)\,P(B)$.
 ::key D
-$\log_264=6$ và $\log_39=2$.
+Đó là điều kiện độc lập. Phương án A và B nói về biến cố xung khắc, C chỉ đúng khi xung khắc.
 
-[M403.35] Nhiều lựa chọn
-Khoảng cách giữa $(1,2)$ và $(7,10)$ là
-A. $10$
-B. $14$
-C. $\sqrt{28}$
-D. $8$
+[M353.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Biến cố giao $A\cap B$ xảy ra khi cả $A$ và $B$ cùng xảy ra.
+b) $A$ và biến cố đối $\overline A$ luôn xung khắc.
+c) Hai biến cố xung khắc có xác suất dương thì luôn độc lập.
+d) Nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ cũng độc lập.
+::key Đ Đ S Đ
+a) Đúng theo định nghĩa. b) Đúng vì $A$ và $\overline A$ không thể cùng xảy ra. c) Sai: khi đó $P(AB)=0\neq P(A)P(B)$. d) Đúng theo tính chất.
+
+[M353.6] Trả lời ngắn
+Hai biến cố độc lập $A$, $B$ có $P(A)=0{,}6$ và $P(B)=0{,}5$. Tính $P(AB)$.
+::key 0,3
+$P(AB)=0{,}6\cdot0{,}5=0{,}3$.
+
+[M353.7] Trả lời ngắn
+Giả sử trong một khảo sát $50$ người, có $30$ người dùng ứng dụng X, $24$ người dùng ứng dụng Y và $14$ người dùng cả hai. Chọn ngẫu nhiên một người. Tính xác suất người đó dùng ít nhất một ứng dụng.
+::key 0,8
+$30+24-14=40$ người, xác suất $\dfrac{40}{50}=0{,}8$.
+
+### M354 · Lớp 11 · Công thức cộng xác suất
+
+[M354.1] Nhiều lựa chọn
+Với hai biến cố $A$, $B$ bất kì, $P(A\cup B)$ bằng
+A. $P(A)+P(B)-P(AB)$.
+B. $P(A)+P(B)$.
+C. $P(A)\,P(B)$.
+D. $P(A)-P(B)$.
 ::key A
-$\sqrt{6^2+8^2}=10$.
+Đó là công thức cộng xác suất. Phương án B chỉ đúng khi xung khắc, C chỉ liên quan đến độc lập.
 
-[M403.36] Nhiều lựa chọn
-Trong một trò chơi, người chơi thắng $5$ đô la với xác suất $0{,}3$, ngược lại thua $2$ đô la. Tiền lãi kì vọng mỗi ván là
-A. $3$ đô la
-B. $0{,}1$ đô la
-C. $1{,}5$ đô la
-D. $-0{,}1$ đô la
+[M354.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất số chấm là số nguyên tố hoặc là số chẵn bằng
+A. $\dfrac12$.
+B. $\dfrac56$.
+C. $\dfrac23$.
+D. $1$.
 ::key B
-$5(0{,}3)-2(0{,}7)=1{,}5-1{,}4=0{,}1$.
+Hợp là $\{2,3,4,5,6\}$ nên $P=\dfrac56$. Phương án A là xác suất số chẵn, C và D không khớp với phép đếm.
 
-[M403.37] Nhiều lựa chọn
-Phương trình đường tròn tâm $(-2,3)$ bán kính $4$ là
-A. $(x-2)^2+(y+3)^2=16$
-B. $(x+2)^2+(y-3)^2=4$
-C. $(x-2)^2+(y-3)^2=16$
-D. $(x+2)^2+(y-3)^2=16$
-::key D
-$(x-h)^2+(y-k)^2=r^2$ với $h=-2$, $k=3$, $r^2=16$.
-
-[M403.38] Nhiều lựa chọn
-Phương trình $2x^2+3x+5=0$ có bao nhiêu nghiệm thực?
-A. $1$
-B. $0$
-C. $2$
-D. vô số
-::key B
-Biệt thức là $9-40=-31<0$.
-
-[M403.39] Nhiều lựa chọn
-Một vòi chảy đầy bể trong $6$ giờ, vòi khác trong $3$ giờ. Hai vòi cùng chảy thì bao lâu đầy bể?
-A. $4{,}5$ giờ
-B. $9$ giờ
-C. $2$ giờ
-D. $3$ giờ
+[M354.3] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối hai lần. Xác suất ít nhất một lần ra $6$ chấm bằng
+A. $\dfrac13$.
+B. $\dfrac{25}{36}$.
+C. $\dfrac{11}{36}$.
+D. $\dfrac16$.
 ::key C
-Cùng chảy, mỗi giờ hai vòi đầy $\dfrac16+\dfrac13=\dfrac12$ bể, nên mất $2$ giờ. Phương án A lấy trung bình hai thời gian.
+$1-\left(\dfrac56\right)^2=\dfrac{11}{36}$. Phương án A là tổng sai, B là xác suất không ra $6$ lần nào, D là một lần.
 
-[M403.40] Nhiều lựa chọn
-Nhìn đỉnh một toà nhà cao $40$ m từ một điểm cách chân toà nhà $30$ m trên mặt đất bằng phẳng. Khoảng cách theo đường thẳng từ điểm đó đến đỉnh toà nhà là
-A. $50$ m
-B. $70$ m
-C. $10$ m
-D. $35$ m
-::key A
-$\sqrt{30^2+40^2}=50$ (bộ ba $3$-$4$-$5$ nhân với $10$).
-
-[M403.41] Nhiều lựa chọn
-Tổng tất cả các phần tử của $\begin{pmatrix}2&1\\0&3\end{pmatrix}+\begin{pmatrix}1&-1\\4&2\end{pmatrix}$ là
-A. $14$
-B. $10$
-C. $6$
-D. $12$
+[M354.4] Nhiều lựa chọn
+Giả sử hai xạ thủ bắn độc lập với xác suất trúng lần lượt là $0{,}6$ và $0{,}5$. Xác suất có ít nhất một người bắn trúng bằng
+A. $1{,}1$.
+B. $0{,}3$.
+C. $0{,}2$.
+D. $0{,}8$.
 ::key D
-Tổng là $\begin{pmatrix}3&0\\4&5\end{pmatrix}$, các phần tử cộng lại bằng $12$.
+$1-0{,}4\cdot0{,}5=0{,}8$. Phương án A là tổng vượt $1$, B là xác suất cả hai trúng, C là xác suất cả hai trượt.
 
-[M403.42] Nhiều lựa chọn
-Nếu $f(x)=\dfrac{x-1}{3}$ thì $f^{-1}(4)$ bằng
-A. $1$
-B. $13$
-C. $\dfrac13$
-D. $11$
+[M354.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $P(A\cup B)=P(A)+P(B)$ với mọi biến cố $A$, $B$.
+b) Nếu $A$, $B$ độc lập thì $P(A\cup B)=P(A)\,P(B)$.
+c) $P(\overline A)=1-P(A)$.
+d) $P(A\cup B)\ge P(B)$.
+::key S S Đ Đ
+a) Sai: phải trừ $P(AB)$. b) Sai: khi độc lập $P(AB)=P(A)P(B)$ nhưng $P(A\cup B)=P(A)+P(B)-P(A)P(B)$. c) Đúng. d) Đúng vì $B\subset A\cup B$.
+
+[M354.6] Trả lời ngắn
+Cho $P(A)=0{,}3$, $P(B)=0{,}45$ và $P(AB)=0{,}1$. Tính $P(A\cup B)$.
+::key 0,65
+$0{,}3+0{,}45-0{,}1=0{,}65$.
+
+[M354.7] Trả lời ngắn
+Tung một đồng xu cân đối bốn lần. Tính xác suất có ít nhất một lần ngửa, làm tròn đến hàng phần trăm.
+::key 0,94
+$1-\left(\dfrac12\right)^4=\dfrac{15}{16}=0{,}9375\approx0{,}94$.
+
+### M355 · Lớp 11 · Công thức nhân xác suất cho hai biến cố độc lập
+
+[M355.1] Nhiều lựa chọn
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}7$ và $P(B)=0{,}4$. Giá trị $P(A\cap B)$ là
+A. $0{,}28$.
+B. $0{,}42$.
+C. $0{,}7$.
+D. $1{,}1$.
+::key A
+Do $A$, $B$ độc lập, $P(A\cap B)=0{,}7\cdot0{,}4=0{,}28$. Phương án B dùng xác suất của $\overline B$, còn D cộng hai xác suất.
+
+[M355.2] Nhiều lựa chọn
+Hai cảm biến hoạt động độc lập với xác suất hoạt động tốt lần lượt là $0{,}98$ và $0{,}95$. Xác suất cả hai cùng hoạt động tốt là
+A. $0{,}069$.
+B. $0{,}931$.
+C. $0{,}001$.
+D. $0{,}965$.
 ::key B
-Giải $\dfrac{x-1}{3}=4$: $x=13$. Phương án A là $f(4)$.
+Xác suất cả hai cùng tốt là $0{,}98\cdot0{,}95=0{,}931$. Phương án A là xác suất có ít nhất một cảm biến lỗi, còn C là xác suất cả hai cùng lỗi.
 
-[M403.43] Nhiều lựa chọn
-Giá trị một tài khoản sau $t$ tháng là $V=1500(1{,}02)^t$ đô la. Số $1{,}02$ biểu thị điều gì?
-A. Tăng $2\%$ mỗi tháng
-B. Giá trị ban đầu
-C. Tăng $1{,}02$ đô la mỗi tháng
-D. Tăng $102\%$ mỗi tháng
-::key A
-Mỗi tháng giá trị được nhân với $1{,}02$, tức tăng $2\%$.
-
-[M403.44] Nhiều lựa chọn
-Tung một đồng xu cân đối $3$ lần. Xác suất được ít nhất một lần mặt ngửa là
-A. $\dfrac38$
-B. $\dfrac12$
-C. $\dfrac78$
-D. $\dfrac18$
+[M355.3] Nhiều lựa chọn
+Biết $P(A)=0{,}5$ và $P(B)=0{,}6$. Nếu $A$, $B$ độc lập thì $P(A\cap B)$ bằng
+A. $0{,}1$.
+B. $0{,}5$.
+C. $0{,}3$.
+D. $0{,}6$.
 ::key C
-$1-P(\text{không lần nào ngửa})=1-\left(\dfrac12\right)^3=\dfrac78$.
+Tiêu chí độc lập cho $P(A\cap B)=P(A)P(C)=0{,}5\cdot0{,}6=0{,}3$.
 
-[M403.45] Nhiều lựa chọn
-Hai số dương có tổng bằng $20$. Tích của chúng lớn nhất bằng
-A. $99$
-B. $400$
-C. $96$
-D. $100$
+[M355.4] Nhiều lựa chọn
+Hai lần thử độc lập có xác suất thành công lần lượt là $0{,}8$ và $0{,}6$. Xác suất có ít nhất một lần thành công là
+A. $0{,}48$.
+B. $0{,}44$.
+C. $0{,}08$.
+D. $0{,}92$.
 ::key D
-Với hai số $x$ và $20-x$, tích $x(20-x)$ lớn nhất tại đỉnh $x=10$: $10\times10=100$.
+Xác suất cả hai lần đều thất bại là $0{,}2\cdot0{,}4=0{,}08$, nên xác suất cần tìm là $1-0{,}08=0{,}92$. Phương án A là xác suất cả hai cùng thành công, B là xác suất đúng một lần thành công.
+
+[M355.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}6$ và $P(B)=0{,}25$.
+a) $P(A\cap B)=0{,}15$.
+b) $P(\overline A\cap B)=0{,}4$.
+c) $P(A\cup B)=0{,}7$.
+d) $A$ và $B$ xung khắc.
+::key Đ S Đ S
+a) Đúng vì $0{,}6\cdot0{,}25=0{,}15$. b) Sai vì $P(\overline A\cap B)=0{,}4\cdot0{,}25=0{,}1$. c) Đúng vì $0{,}6+0{,}25-0{,}15=0{,}7$. d) Sai vì $P(A\cap B)>0$.
+
+[M355.6] Trả lời ngắn
+Hai máy hoạt động độc lập. Xác suất máy thứ nhất không hỏng là $0{,}98$, máy thứ hai không hỏng là $0{,}97$. Xác suất cả hai máy không hỏng là bao nhiêu phần trăm? Làm tròn đến hàng phần mười.
+::key 95,1
+Xác suất cả hai máy không hỏng là $0{,}98\cdot0{,}97=0{,}9506=95{,}06\%$, làm tròn được $95{,}1\%$.
+
+[M355.7] Trả lời ngắn
+Hai lần thử độc lập có cùng xác suất thành công là $p$. Biết xác suất cả hai lần đều thất bại là $0{,}09$. Tìm $p$.
+::key 0,7
+Ta có $(1-p)^2=0{,}09$ và $1-p\ge0$, nên $1-p=0{,}3$ và $p=0{,}7$.
+
+### M356 · Lớp 12 · Tính đơn điệu và cực trị của hàm số
+
+[M356.1] Nhiều lựa chọn
+Hàm số $y=x^3-3x^2+2$ nghịch biến trên khoảng nào dưới đây?
+A. $(-\infty; 0)$.
+B. $(2; +\infty)$.
+C. $(0; 2)$.
+D. $(-2; 0)$.
+::key C
+Ta có $y'=3x^2-6x=3x(x-2)$. Vì $a=3>0$ nên $y'<0$ giữa hai nghiệm $0$ và $2$. Phương án D sai do giải nhầm $y'=0$ thành $x=0$, $x=-2$.
+
+[M356.2] Nhiều lựa chọn
+Điểm cực đại của hàm số $y=-x^3+3x+1$ là
+A. $x=-1$.
+B. $x=1$.
+C. $x=3$.
+D. $x=0$.
+::key B
+Ta có $y'=-3(x-1)(x+1)$ đổi dấu từ $+$ sang $-$ khi $x$ đi qua $x=1$ nên $x=1$ là điểm cực đại. Phương án C là giá trị cực đại $y(1)=3$, không phải điểm cực đại; $x=0$ là nghiệm của $y''$.
+
+[M356.3] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có đạo hàm cấp hai trên $\mathbb{R}$, thoả mãn $f'(2)=0$ và $f''(2)=-3$. Khẳng định nào dưới đây đúng?
+A. Hàm số đạt cực tiểu tại $x=2$.
+B. Hàm số đạt cực đại tại $x=-3$.
+C. Hàm số không có cực trị tại $x=2$.
+D. Hàm số đạt cực đại tại $x=2$.
+::key D
+Vì $f'(2)=0$ và $f''(2)<0$ nên $x=2$ là điểm cực đại (dấu hiệu dùng đạo hàm cấp hai). Số $-3$ là giá trị của $f''(2)$, không phải một điểm.
+
+[M356.4] Nhiều lựa chọn
+Hàm số nào dưới đây đồng biến trên $\mathbb{R}$?
+A. $y=x^3+3x-1$.
+B. $y=x^3-3x$.
+C. $y=\dfrac{2x+1}{x+3}$.
+D. $y=x^4+2x^2$.
+::key A
+Hàm số A có $y'=3x^2+3>0$ với mọi $x$ nên đồng biến trên $\mathbb{R}$. Hàm số C không xác định tại $x=-3$ nên chỉ đồng biến trên từng khoảng $(-\infty; -3)$ và $(-3; +\infty)$; hàm số D có $y'=4x(x^2+1)$ âm khi $x<0$.
+
+[M356.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=2x^3-3x^2-12x+1$. Xét tính đúng sai của các mệnh đề sau:
+a) $f'(x)=6x^2-6x-12$.
+b) Hàm số đồng biến trên khoảng $(-1; 2)$.
+c) Giá trị cực đại của hàm số bằng $8$.
+d) Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số có hệ số góc bằng $9$.
+::key Đ S Đ S
+a) Đúng: đạo hàm từng hạng tử, ta được kết quả trên. b) Sai: ta có $f'(x)=6(x+1)(x-2)<0$ trên $(-1; 2)$ nên hàm số nghịch biến trên khoảng này. c) Đúng: vì $f'$ đổi dấu từ $+$ sang $-$ tại $x=-1$ nên giá trị cực đại là $f(-1)=8$. d) Sai: hai điểm cực trị là $(-1; 8)$ và $(2; -19)$, do đó hệ số góc là $\dfrac{-19-8}{2-(-1)}=-9$.
+
+[M356.6] Trả lời ngắn
+Tính tổng giá trị cực đại và giá trị cực tiểu của hàm số $y=-x^4+8x^2-3$.
+::key 10
+Ta có $y'=-4x(x-2)(x+2)$. Hàm số đạt cực đại tại $x=\pm2$ với $y_{\text{CĐ}}=13$ và đạt cực tiểu tại $x=0$ với $y_{\text{CT}}=-3$. Vậy tổng cần tìm là $13+(-3)=10$ (giá trị cực đại chỉ tính một lần).
+
+[M356.7] Trả lời ngắn
+Mực nước trong một hồ chứa sau $t$ giờ được mô hình bởi $h(t)=t^3-15t^2+60t+100$ (cm), $0\le t\le 12$. Hỏi mực nước giảm trong khoảng thời gian dài bao nhiêu giờ (làm tròn kết quả đến hàng phần mười)?
+::key 4,5
+Ta có $h'(t)=3(t^2-10t+20)<0$ khi $5-\sqrt5<t<5+\sqrt5$, và khoảng này nằm trong $[0; 12]$. Do đó mực nước giảm trong khoảng thời gian dài $2\sqrt5\approx 4{,}47$ giờ. Vậy kết quả làm tròn là $4{,}5$ giờ.
+
+### M357 · Lớp 12 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số
+
+[M357.1] Nhiều lựa chọn
+Giá trị lớn nhất của hàm số $f(x)=x^3-12x+1$ trên đoạn $[-1; 3]$ bằng
+A. $17$.
+B. $-15$.
+C. $-8$.
+D. $12$.
+::key D
+Ta có $f'(x)=3x^2-12=0\iff x=\pm2$, trong đó chỉ có $x=2\in(-1; 3)$. Ta có $f(-1)=12$, $f(2)=-15$, $f(3)=-8$ nên giá trị lớn nhất là $12$. Phương án A là $f(-2)=17$, giá trị tại nghiệm nằm ngoài đoạn.
+
+[M357.2] Nhiều lựa chọn
+Giá trị nhỏ nhất của hàm số $y=\dfrac{2x-1}{x+1}$ trên đoạn $[0; 2]$ bằng
+A. $-1$.
+B. $1$.
+C. $2$.
+D. $0$.
+::key A
+Ta có $y'=\dfrac{3}{(x+1)^2}>0$ nên hàm số đồng biến trên $[0; 2]$. Do đó giá trị nhỏ nhất là $y(0)=-1$. Phương án B là giá trị lớn nhất $y(2)$; số $2$ chỉ là giới hạn khi $x\to+\infty$.
+
+[M357.3] Nhiều lựa chọn
+Giá trị nhỏ nhất của hàm số $y=x+\dfrac{4}{x-1}$ trên khoảng $(1; +\infty)$ bằng
+A. $4$.
+B. $3$.
+C. $5$.
+D. $-3$.
+::key C
+Ta có $y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (loại $x=-1$). Vì $y'$ đổi dấu từ $-$ sang $+$ tại $x=3$ nên giá trị nhỏ nhất là $y(3)=5$. Phương án B là điểm $x=3$, phương án A quên số hạng $+1$ khi viết $y=(x-1)+\dfrac{4}{x-1}+1$, phương án D là $y(-1)$.
+
+[M357.4] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2; 4]$ và có $f'(x)>0$ với mọi $x\in(-2; 4)$. Khẳng định nào dưới đây đúng?
+A. $\max\limits_{[-2; 4]} f(x)=f(-2)$.
+B. $\max\limits_{[-2; 4]} f(x)=f(4)$.
+C. $\min\limits_{[-2; 4]} f(x)=f(4)$.
+D. Hàm số không có giá trị lớn nhất trên $[-2; 4]$.
+::key B
+Vì hàm số đồng biến trên $[-2; 4]$ nên giá trị lớn nhất đạt tại đầu mút phải $x=4$. Phương án D sai vì hàm số liên tục trên một đoạn luôn có giá trị lớn nhất.
+
+[M357.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^4-8x^2+3$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
+a) Phương trình $f'(x)=0$ có ba nghiệm thuộc đoạn $[-1; 3]$.
+b) $f(2)=-13$.
+c) Giá trị lớn nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $3$.
+d) Tổng giá trị lớn nhất và giá trị nhỏ nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $-1$.
+::key S Đ S Đ
+a) Sai: ta có $f'(x)=4x(x^2-4)$ có các nghiệm $0$, $2$, $-2$ nhưng $-2\notin[-1; 3]$. b) Đúng: thay vào, ta được $16-32+3=-13$. c) Sai: ta có $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$ nên giá trị lớn nhất là $12$ (tại đầu mút). d) Đúng: tổng cần tìm là $12+(-13)=-1$.
+
+[M357.6] Trả lời ngắn
+Một xưởng sản xuất $x$ tấn hàng mỗi tháng ($0\le x\le 20$) với lợi nhuận $P(x)=-x^3+18x^2+135x$ (triệu đồng). Hỏi lợi nhuận lớn nhất mỗi tháng của xưởng bằng bao nhiêu triệu đồng?
+::key 2700
+Ta có $P'(x)=-3(x-15)(x+3)=0\iff x=15$ (loại $x=-3$). Ta có $P(0)=0$, $P(15)=2700$, $P(20)=1900$. Vậy lợi nhuận lớn nhất là $2700$ triệu đồng.
+
+[M357.7] Trả lời ngắn
+Tìm giá trị lớn nhất của hàm số $y=\sqrt{x}\,(6-x)$ trên đoạn $[0; 6]$ (làm tròn kết quả đến hàng phần mười).
+::key 5,7
+Ta có $y=6\sqrt x-x\sqrt x$, suy ra $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. Ta có $y(0)=y(6)=0$ và $y(2)=4\sqrt2\approx5{,}66$. Vậy giá trị lớn nhất làm tròn đến hàng phần mười là $5{,}7$.
+
+### M358 · Lớp 12 · Đường tiệm cận của đồ thị hàm số
+
+[M358.1] Nhiều lựa chọn
+Tiệm cận đứng của đồ thị hàm số $y=\dfrac{3x-1}{x-2}$ là đường thẳng
+A. $x=-2$.
+B. $x=2$.
+C. $y=3$.
+D. $x=\dfrac13$.
+::key B
+Mẫu bằng $0$ tại $x=2$, tử tại đó bằng $5\neq0$ nên $\lim\limits_{x\to2^+}y=+\infty$. Do đó tiệm cận đứng là $x=2$. Phương án C là tiệm cận ngang, phương án D là nghiệm của tử.
+
+[M358.2] Nhiều lựa chọn
+Tiệm cận ngang của đồ thị hàm số $y=\dfrac{1+6x}{3-2x}$ là đường thẳng
+A. $x=\dfrac32$.
+B. $y=3$.
+C. $y=\dfrac13$.
+D. $y=-3$.
+::key D
+Ta có $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Phương án B quên dấu của hệ số $-2$, phương án C lấy tỉ số hai hệ số tự do.
+
+[M358.3] Nhiều lựa chọn
+Tiệm cận xiên của đồ thị hàm số $y=\dfrac{x^2+3x-2}{x+1}$ là đường thẳng
+A. $y=x+2$.
+B. $y=x+3$.
+C. $y=x-2$.
+D. $y=x$.
+::key A
+Ta có $x^2+3x-2=(x+1)(x+2)-4$ nên $y=x+2-\dfrac{4}{x+1}$ và $y-(x+2)\to0$ khi $x\to\pm\infty$.
+
+[M358.4] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có $\lim\limits_{x\to+\infty}f(x)=2$ và $\lim\limits_{x\to-\infty}f(x)=-2$. Khẳng định nào dưới đây đúng?
+A. Đồ thị hàm số có đúng một tiệm cận ngang.
+B. Đồ thị hàm số có hai tiệm cận đứng là $x=2$ và $x=-2$.
+C. Đồ thị hàm số có hai tiệm cận ngang là $y=2$ và $y=-2$.
+D. Đồ thị hàm số không có tiệm cận ngang.
+::key C
+Mỗi giới hạn hữu hạn tại $+\infty$ hoặc $-\infty$ cho một tiệm cận ngang. Vì hai giới hạn khác nhau nên đồ thị có hai tiệm cận ngang. Tiệm cận đứng có dạng $x=x_0$ và cần giới hạn vô cực, nên B sai.
+
+[M358.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=\dfrac{2x^2-3x+1}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
+a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị hàm số.
+b) Đường thẳng $y=2$ là tiệm cận ngang của đồ thị hàm số.
+c) Đường thẳng $y=2x+1$ là tiệm cận xiên của đồ thị hàm số.
+d) Tiệm cận xiên của đồ thị cắt hai trục toạ độ tạo thành một tam giác có diện tích bằng $\dfrac14$.
+::key Đ S Đ Đ
+a) Đúng: mẫu bằng $0$ và tử bằng $3\neq0$ tại $x=2$. b) Sai: vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang. c) Đúng: ta có $2x^2-3x+1=(x-2)(2x+1)+3$. d) Đúng: đường thẳng $y=2x+1$ cắt hai trục tại $\left(-\dfrac12; 0\right)$ và $(0; 1)$, do đó diện tích tam giác là $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
+
+[M358.6] Trả lời ngắn
+Đồ thị hàm số $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
+::key 2
+Tại $x=1$ tử cũng bằng $0$ và $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (hữu hạn) nên $x=1$ không phải tiệm cận. Đồ thị có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=0$ (vì $\lim\limits_{x\to+\infty}y=0$). Vậy có $2$ đường.
+
+[M358.7] Trả lời ngắn
+Nồng độ một chất trong bể nước sau $t$ phút là $C(t)=\dfrac{25t}{3t+8}$ (mg/l). Đồ thị của $C(t)$ có tiệm cận ngang $C=c$. Tìm $c$ (làm tròn kết quả đến hàng phần mười).
+::key 8,3
+Ta có $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8{,}33$. Vậy $c\approx8{,}3$: theo thời gian, nồng độ tiến gần $8{,}3$ mg/l.

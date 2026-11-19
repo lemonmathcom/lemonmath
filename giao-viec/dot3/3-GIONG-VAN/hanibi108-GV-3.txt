@@ -1,0 +1,1976 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/review-coordinates-space, g12/review-functions-derivatives, g12/review-integrals, g12/review-optimisation-real-life
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/review-coordinates-space – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: phương pháp toạ độ trong không gian"
+description: Ôn vectơ trong hệ Oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu, công thức góc và khoảng cách, mô hình toạ độ thực tế theo dạng đề thi.
+minutes: 40
+---
+
+  :::goals
+  - Tính nhanh toạ độ vectơ, độ dài, tích vô hướng và góc giữa hai vectơ.
+  - Viết phương trình mặt phẳng, đường thẳng, mặt cầu và đọc được các yếu tố từ phương trình.
+  - Dùng công thức góc và khoảng cách để giải câu trắc nghiệm, Đúng/Sai và trả lời ngắn.
+  - Đặt hệ trục toạ độ cho một tình huống thực tế (căn phòng, máy bay, trạm phát sóng).
+  :::
+
+[[P1·3345]]
+Phương pháp toạ độ trong không gian là chủ đề "dễ lấy điểm" của lớp 12. Phần I thường có hai đến bốn câu hỏi đọc nhanh từ phương trình: vectơ pháp tuyến, tâm và bán kính mặt cầu, khoảng cách. Phần II hoặc Phần III thường có một câu tổng hợp, nhiều khi gắn với tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+
+[[P2·e831]]
+Bí quyết là thuộc chắc các công thức và tính cẩn thận dấu. Bài ôn đi qua bốn mảng: vectơ, mặt phẳng, đường thẳng, mặt cầu và mô hình thực tế.
+
+:::diagram Hệ trục toạ độ $Oxyz$ và điểm $M(2; 3; 2)$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Vectơ và toạ độ
+
+  :::theorem Công thức với $\vec a=(a_1; a_2; a_3)$, $\vec b=(b_1; b_2; b_3)$
+  - $\overrightarrow{AB}=(x_B-x_A; y_B-y_A; z_B-z_A)$, $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - Trung điểm $I$ của $AB$: trung bình cộng toạ độ của $A$ và $B$; trọng tâm $G$ của tam giác: trung bình cộng toạ độ ba đỉnh.
+  - Tích vô hướng $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
+  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, với $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
+  - Tích có hướng $[\vec a, \vec b]=(a_2b_3-a_3b_2; a_3b_1-a_1b_3; a_1b_2-a_2b_1)$ vuông góc với cả $\vec a$ và $\vec b$.
+  :::
+
+  :::example Trắc nghiệm: côsin của góc giữa hai vectơ
+  Trong không gian $Oxyz$, cho $\vec a=(1; -2; 2)$ và $\vec b=(2; 1; -2)$. Giá trị của $\cos(\vec a, \vec b)$ là
+
+  **A.** $\dfrac49$.
+
+  **B.** $-\dfrac49$.
+
+  **C.** $-\dfrac43$.
+
+  **D.** $0$.
+
+  **Lời giải.** Ta tính tích vô hướng và hai độ dài rồi thay vào công thức:
+
+  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
+
+  Do đó $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. Chọn **B**.
+
+  **Nhìn lại.** Góc giữa hai **vectơ** có thể tù nên côsin được phép âm. Phương án A là côsin của góc giữa hai **đường thẳng** (có dấu giá trị tuyệt đối); phương án D sai dấu ở số hạng thứ hai.
+  :::
+
+## Phương trình mặt phẳng
+
+  :::theorem Mặt phẳng
+  - Mặt phẳng qua $M(x_0; y_0; z_0)$ có vectơ pháp tuyến $\vec n=(A; B; C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+  - Mặt phẳng $Ax+By+Cz+D=0$ có vectơ pháp tuyến $\vec n=(A; B; C)$.
+  - Mặt phẳng qua ba điểm $A$, $B$, $C$: dùng $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. Mặt phẳng theo đoạn chắn qua $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
+  - Khoảng cách: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ khi hai vectơ pháp tuyến cùng phương và hai mặt phẳng không trùng nhau.
+  :::
+
+  :::example Đúng/Sai: mặt phẳng theo đoạn chắn
+  Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$.
+
+  a) Mặt phẳng $(ABC)$ có một vectơ pháp tuyến là $\vec n=(6; 3; 2)$.
+
+  b) Gốc toạ độ $O$ thuộc mặt phẳng $(ABC)$.
+
+  c) Khoảng cách từ $O$ đến mặt phẳng $(ABC)$ bằng $\dfrac67$.
+
+  d) Mặt phẳng $(ABC)$ vuông góc với mặt phẳng $(Oxy)$.
+
+  **Lời giải.** Ba điểm nằm trên ba trục nên ta dùng phương trình đoạn chắn rồi quy đồng với mẫu chung $6$:
+
+  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
+
+  a) **Đúng.** Các hệ số của $x$, $y$, $z$ là $6$, $3$, $2$.
+
+  b) **Sai.** Thay $O$: $0+0+0-6=-6\neq0$.
+
+  c) **Đúng.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
+
+  d) **Sai.** Mặt phẳng $(Oxy)$ có vectơ pháp tuyến $\vec k=(0; 0; 1)$ và $\vec n\cdot\vec k=2\neq0$.
+
+  Vậy đáp án là a) Đúng, b) Sai, c) Đúng, d) Sai.
+  :::
+
+## Phương trình đường thẳng và công thức góc
+
+  :::theorem Đường thẳng và góc
+  - Đường thẳng qua $M(x_0; y_0; z_0)$ có vectơ chỉ phương $\vec u=(a; b; c)$: phương trình tham số $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; nếu $abc\neq0$, phương trình chính tắc $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
+  - Góc giữa hai đường thẳng: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
+  - Góc giữa đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
+  - Góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
+  :::
+
+[[P3·2abf]]
+Đường thẳng vuông góc với một mặt phẳng nhận vectơ pháp tuyến của mặt phẳng làm vectơ chỉ phương. Đây là ý của rất nhiều câu trắc nghiệm.
+
+  :::example Trắc nghiệm: đường thẳng vuông góc với mặt phẳng
+  Đường thẳng đi qua $A(1; 2; -1)$ và vuông góc với mặt phẳng $(P)\colon 2x-y+3z-5=0$ có phương trình tham số là
+
+  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
+
+  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
+
+  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
+
+  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
+
+  **Lời giải.** Đường thẳng vuông góc với $(P)$ nên có vectơ chỉ phương $\vec u=\vec n_P=(2; -1; 3)$; điểm đi qua là $A(1; 2; -1)$:
+
+  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
+
+  Chọn **A**. Phương án B đổi vai trò điểm và vectơ, phương án C sai dấu hệ số của $y$, phương án D sai dấu toạ độ $z$ của $A$.
+  :::
+
+  :::example Trả lời ngắn: góc giữa đường thẳng và mặt phẳng
+  Tính góc giữa đường thẳng $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ và mặt phẳng $(P)\colon 2x-y+2z+3=0$ (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
+
+  **Lời giải.** Góc giữa đường thẳng và mặt phẳng dùng **sin**, với $\vec u=(1; 2; 2)$ và $\vec n=(2; -1; 2)$:
+
+  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26{,}39^\circ.$$
+
+  Vậy góc cần tìm khoảng $26^\circ$ (ghi $26$).
+  :::
+
+:::warning Bẫy thường gặp
+[[P4·6948]]
+- **Dùng $\cos$ thay cho $\sin$** với góc giữa đường thẳng và mặt phẳng. Ở ví dụ trên, dùng $\cos$ sẽ cho khoảng $64^\circ$, là góc phụ với đáp án đúng.
+- **Quên dấu giá trị tuyệt đối** khi tính góc giữa hai đường thẳng hoặc hai mặt phẳng: góc này không vượt quá $90^\circ$.
+- **Đọc sai toạ độ từ phương trình chính tắc.** Từ $\dfrac{z+1}{2}$ ta có $z_0=-1$, không phải $1$.
+:::
+
+## Mặt cầu và mô hình toạ độ thực tế
+
+  :::theorem Mặt cầu
+  - Mặt cầu tâm $I(a; b; c)$, bán kính $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+  - Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu khi $a^2+b^2+c^2-d>0$; khi đó tâm $I(a; b; c)$ và $R=\sqrt{a^2+b^2+c^2-d}$.
+  - Với $h=d(I, (P))$: nếu $h>R$ thì $(P)$ không cắt mặt cầu; $h=R$ thì $(P)$ tiếp xúc; $h<R$ thì $(P)$ cắt theo đường tròn bán kính $r=\sqrt{R^2-h^2}$.
+  :::
+
+[[P5·f56d]]
+Trong bài toán thực tế, ta đặt gốc toạ độ ở một vị trí thuận tiện (góc phòng, chân tháp, trạm radar), chọn đơn vị (m hoặc km), rồi dịch câu hỏi thành câu hỏi về điểm, đường thẳng, mặt phẳng hay mặt cầu.
+
+  :::example Trả lời ngắn: máy bay đi qua vùng phủ sóng radar
+  Chọn hệ trục $Oxyz$ (đơn vị: km) với trạm radar đặt tại gốc $O$. Radar phát hiện được mọi vật cách nó không quá $5$ km. Một máy bay bay thẳng với vị trí $M(1+2t; 2-t; 2)$. Tính độ dài quãng đường máy bay bay trong vùng radar phát hiện được (đơn vị: km).
+
+  **Lời giải.** *Hiểu đề.* Vùng phát hiện là khối cầu tâm $O$, bán kính $5$; quãng đường cần tìm là dây cung của đường bay nằm trong mặt cầu.
+
+  *Tìm cách giải.* Giải điều kiện $OM\le5$ theo $t$, hoặc dùng khoảng cách từ $O$ đến đường bay.
+
+  *Giải.* Bình phương điều kiện $OM\le5$:
+
+  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
+
+  Vậy $t$ chạy từ $-\dfrac{4}{\sqrt5}$ đến $\dfrac{4}{\sqrt5}$. Vectơ chỉ phương $\vec u=(2; -1; 0)$ có độ dài $\sqrt5$, nên quãng đường là
+
+  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
+
+  *Nhìn lại.* Điểm gần $O$ nhất ứng với $t=0$, là $H(1; 2; 2)$ với $OH=3$; theo định lí Pythagore, dây cung dài $2\sqrt{25-9}=8$, khớp với kết quả.
+  :::
+
+## Thuật ngữ
+
+  :::terms
+  - hệ trục toạ độ Oxyz | Oxyz coordinate system
+  - tích vô hướng | scalar product
+  - tích có hướng | vector product (cross product)
+  - vectơ pháp tuyến | normal vector
+  - vectơ chỉ phương | direction vector
+  - phương trình tham số | parametric equations
+  - phương trình chính tắc | Cartesian equations (of a line)
+  - mặt cầu | sphere
+  - tiếp xúc | tangent
+  - khoảng cách từ điểm đến mặt phẳng | distance from a point to a plane
+  :::
+
+## Bài tập
+
+[[P6·1795]]
+Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+
+:::exercise Trắc nghiệm
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn (thử thách)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-coordinates-space – BẢN TIẾNG ANH ########
+---
+title: "Revision: coordinates in space"
+description: Revise vectors in Oxyz, equations of planes, lines and spheres, angle and distance formulas, and real-life coordinate models, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Calculate vector components, lengths, scalar products and the angle between two vectors quickly.
+  - Write equations of planes, lines and spheres and read their features from an equation.
+  - Use the angle and distance formulas in multiple-choice, true/false and short-answer questions.
+  - Set up a coordinate system for a real-life situation (a room, an aircraft, a radar station).
+  :::
+
+[[P1·e78a]]
+Coordinates in space is one of the "easy marks" topics of grade 12. Part I usually has two to four questions that are read straight from an equation: a normal vector, the centre and radius of a sphere, a distance. Part II or Part III usually has one mixed question, often set in a real-life context. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+
+[[P2·fd93]]
+The secret is to know the formulas thoroughly and to watch the signs. This revision lesson covers four areas: vectors, planes, lines, and spheres with real-life models.
+
+:::diagram The coordinate system $Oxyz$ and the point $M(2, 3, 2)$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Vectors and coordinates
+
+  :::theorem Formulas for $\vec a=(a_1, a_2, a_3)$, $\vec b=(b_1, b_2, b_3)$
+  - $\overrightarrow{AB}=(x_B-x_A, y_B-y_A, z_B-z_A)$ and $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - The midpoint $I$ of $AB$: the mean of the coordinates of $A$ and $B$; the centroid $G$ of a triangle: the mean of the coordinates of the three vertices.
+  - Scalar product $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
+  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, where $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
+  - The vector product $[\vec a, \vec b]=(a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)$ is perpendicular to both $\vec a$ and $\vec b$.
+  :::
+
+  :::example Multiple choice: the cosine of the angle between two vectors
+  In $Oxyz$, let $\vec a=(1, -2, 2)$ and $\vec b=(2, 1, -2)$. The value of $\cos(\vec a, \vec b)$ is
+
+  **A.** $\dfrac49$.
+
+  **B.** $-\dfrac49$.
+
+  **C.** $-\dfrac43$.
+
+  **D.** $0$.
+
+  **Solution.** We compute the scalar product and the two lengths, then use the formula:
+
+  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
+
+  So $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. The answer is **B**.
+
+  **Look back.** The angle between two **vectors** can be obtuse, so the cosine may be negative. Option A is the cosine of the angle between two **lines** (with an absolute value); option D has a sign error in the second term.
+  :::
+
+## Equations of planes
+
+  :::theorem Planes
+  - The plane through $M(x_0, y_0, z_0)$ with normal vector $\vec n=(A, B, C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+  - The plane $Ax+By+Cz+D=0$ has normal vector $\vec n=(A, B, C)$.
+  - The plane through three points $A$, $B$, $C$: use $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. The plane through the intercepts $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
+  - Distance: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ when the normal vectors are parallel and the planes do not coincide.
+  :::
+
+  :::example True/false: the intercept form of a plane
+  In $Oxyz$, consider the points $A(1, 0, 0)$, $B(0, 2, 0)$, $C(0, 0, 3)$.
+
+  a) The plane $(ABC)$ has normal vector $\vec n=(6, 3, 2)$.
+
+  b) The origin $O$ lies in the plane $(ABC)$.
+
+  c) The distance from $O$ to the plane $(ABC)$ is $\dfrac67$.
+
+  d) The plane $(ABC)$ is perpendicular to the plane $(Oxy)$.
+
+  **Solution.** The three points lie on the three axes, so we use the intercept form and multiply through by the common denominator $6$:
+
+  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
+
+  a) **True.** The coefficients of $x$, $y$, $z$ are $6$, $3$, $2$.
+
+  b) **False.** Substituting $O$: $0+0+0-6=-6\neq0$.
+
+  c) **True.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
+
+  d) **False.** The plane $(Oxy)$ has normal vector $\vec k=(0, 0, 1)$ and $\vec n\cdot\vec k=2\neq0$.
+
+  So the answers are a) True, b) False, c) True, d) False.
+  :::
+
+## Equations of lines and angle formulas
+
+  :::theorem Lines and angles
+  - The line through $M(x_0, y_0, z_0)$ with direction vector $\vec u=(a, b, c)$: parametric equations $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; if $abc\neq0$, Cartesian equations $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
+  - The angle between two lines: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
+  - The angle between a line and a plane: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
+  - The angle between two planes: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
+  :::
+
+[[P3·4caa]]
+A line perpendicular to a plane takes the plane's normal vector as its direction vector. This idea is behind many multiple-choice questions.
+
+  :::example Multiple choice: a line perpendicular to a plane
+  The line through $A(1, 2, -1)$ perpendicular to the plane $(P)\colon 2x-y+3z-5=0$ has parametric equations
+
+  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
+
+  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
+
+  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
+
+  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
+
+  **Solution.** The line is perpendicular to $(P)$, so its direction vector is $\vec u=\vec n_P=(2, -1, 3)$; it passes through $A(1, 2, -1)$:
+
+  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
+
+  The answer is **A**. Option B swaps the point and the vector, option C has the wrong sign for the coefficient of $y$, and option D has the wrong sign for the $z$-coordinate of $A$.
+  :::
+
+  :::example Short answer: the angle between a line and a plane
+  Find the angle between the line $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ and the plane $(P)\colon 2x-y+2z+3=0$ (in degrees, to the nearest whole number).
+
+  **Solution.** The angle between a line and a plane uses **sine**, with $\vec u=(1, 2, 2)$ and $\vec n=(2, -1, 2)$:
+
+  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26.39^\circ.$$
+
+  So the angle is about $26^\circ$ (write $26$).
+  :::
+
+:::warning Common traps
+[[P4·57bc]]
+- **Using $\cos$ instead of $\sin$** for the angle between a line and a plane. In the example above, $\cos$ would give about $64^\circ$, the complement of the correct answer.
+- **Forgetting the absolute value** for the angle between two lines or two planes: this angle is never more than $90^\circ$.
+- **Misreading coordinates from the Cartesian equations.** From $\dfrac{z+1}{2}$ we get $z_0=-1$, not $1$.
+:::
+
+## Spheres and real-life coordinate models
+
+  :::theorem Spheres
+  - The sphere with centre $I(a, b, c)$ and radius $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+  - The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere when $a^2+b^2+c^2-d>0$; its centre is $I(a, b, c)$ and $R=\sqrt{a^2+b^2+c^2-d}$.
+  - With $h=d(I, (P))$: if $h>R$ the plane $(P)$ misses the sphere; if $h=R$ it is tangent; if $h<R$ it cuts the sphere in a circle of radius $r=\sqrt{R^2-h^2}$.
+  :::
+
+[[P5·5b29]]
+In a real-life problem we put the origin in a convenient place (a corner of a room, the foot of a tower, a radar station), choose a unit (m or km), and then translate the question into one about points, lines, planes or spheres.
+
+  :::example Short answer: an aircraft crossing radar coverage
+  Choose axes $Oxyz$ (unit: km) with a radar station at the origin $O$. The radar detects every object within $5$ km of it. An aircraft flies in a straight line with position $M(1+2t, 2-t, 2)$. Find the length of the part of the flight path inside the radar's range (in km).
+
+  **Solution.** *Understand.* The detection zone is the solid sphere with centre $O$ and radius $5$; the required distance is the chord of the flight path inside the sphere.
+
+  *Plan.* Solve the condition $OM\le5$ for $t$, or use the distance from $O$ to the flight path.
+
+  *Solve.* Squaring the condition $OM\le5$:
+
+  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
+
+  So $t$ runs from $-\dfrac{4}{\sqrt5}$ to $\dfrac{4}{\sqrt5}$. The direction vector $\vec u=(2, -1, 0)$ has length $\sqrt5$, so the distance is
+
+  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
+
+  *Look back.* The point closest to $O$ is at $t=0$, namely $H(1, 2, 2)$ with $OH=3$; by Pythagoras' theorem the chord is $2\sqrt{25-9}=8$ long, which agrees.
+  :::
+
+## Key terms
+
+  :::terms
+  - Oxyz coordinate system | hệ trục toạ độ Oxyz
+  - scalar product | tích vô hướng
+  - vector product (cross product) | tích có hướng
+  - normal vector | vectơ pháp tuyến
+  - direction vector | vectơ chỉ phương
+  - parametric equations | phương trình tham số
+  - Cartesian equations (of a line) | phương trình chính tắc
+  - sphere | mặt cầu
+  - tangent | tiếp xúc
+  - distance from a point to a plane | khoảng cách từ điểm đến mặt phẳng
+  :::
+
+## Exercises
+
+[[P6·96a7]]
+The exercises go from easy to hard, and each one states its exam format.
+
+:::exercise Multiple choice
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/false
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer (challenge)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-functions-derivatives – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: đạo hàm và khảo sát hàm số"
+description: Ôn tính đơn điệu, cực trị, giá trị lớn nhất và nhỏ nhất, tiệm cận, bảng biến thiên và đọc đồ thị theo đúng dạng câu hỏi của đề thi tốt nghiệp THPT.
+minutes: 40
+---
+
+  :::goals
+  - Xét tính đơn điệu và tìm cực trị từ công thức của $f(x)$, từ $f'(x)$ hoặc từ bảng biến thiên.
+  - Tìm giá trị lớn nhất, nhỏ nhất của hàm số trên một đoạn và trên một khoảng.
+  - Tìm tiệm cận đứng, ngang, xiên của đồ thị hàm phân thức.
+  - Đọc bảng biến thiên, đồ thị; đếm số nghiệm của phương trình $f(x)=k$; nhận dạng hàm số từ đồ thị.
+  :::
+
+[[P1·434d]]
+Chủ đề này thường có mặt ở cả ba phần của đề: vài câu ngắn ở Phần I (đọc bảng biến thiên, tìm tiệm cận), thường một câu đúng/sai về một hàm số ở Phần II, và một hai câu giá trị lớn nhất, nhỏ nhất ở Phần III, tổng cộng thường khoảng $1{,}5$ đến $2{,}5$ điểm.
+
+[[P2·704e]]
+Chi tiết nằm ở các bài [cực trị](lesson:monotonicity-extrema), [giá trị lớn nhất, nhỏ nhất](lesson:max-min-values), [tiệm cận](lesson:asymptotes) và [khảo sát hàm số](lesson:graphing-functions).
+
+## Tính đơn điệu và cực trị
+
+:::note Ghi nhớ
+[[P3·a124]]
+- Nếu $f'(x)\ge0$ với mọi $x$ thuộc khoảng $K$ và dấu bằng chỉ xảy ra tại hữu hạn điểm thì $f$ **đồng biến** trên $K$; nếu $f'(x)\le0$ (cùng điều kiện) thì $f$ **nghịch biến**.
+- $f$ đạt **cực trị** tại $x_0$ khi $f'$ **đổi dấu** khi $x$ đi qua $x_0$: từ $+$ sang $-$ là cực đại, từ $-$ sang $+$ là cực tiểu.
+- Nghiệm bội chẵn của $f'$ (như $(x-2)^2$) làm $f'$ bằng $0$ nhưng **không đổi dấu**, nên không phải điểm cực trị.
+:::
+
+[[P4·53eb]]
+Dạng câu hỏi thường gặp: cho $f'(x)$ dạng tích, hỏi khoảng đồng biến, nghịch biến hoặc số điểm cực trị; cho hàm bậc ba, bậc bốn, hỏi giá trị cực đại, cực tiểu.
+
+  :::example Trắc nghiệm: đọc dấu của đạo hàm
+  Hàm số $y=f(x)$ có đạo hàm $f'(x)=(x+1)(x-2)^2$ với mọi $x\in\mathbb{R}$. Hàm số nghịch biến trên khoảng nào dưới đây?
+  A. $(-\infty; -1)$.
+  B. $(-1; 2)$.
+  C. $(2; +\infty)$.
+  D. $(-1; +\infty)$.
+
+  **Lời giải.** Vì $(x-2)^2\ge0$, dấu của $f'(x)$ là dấu của $x+1$ (trừ tại $x=2$, nơi $f'=0$):
+
+  $$f'(x)<0\iff x<-1,\qquad f'(x)\ge0\ \text{khi}\ x\ge-1.$$
+
+  Vậy hàm số nghịch biến trên $(-\infty; -1)$, chọn **A**. Hàm số chỉ có một điểm cực trị là $x=-1$; tại $x=2$ đạo hàm không đổi dấu.
+  :::
+
+[[P5·65df]]
+Với câu đúng/sai, ta tính đạo hàm và các giá trị cực trị một lần cho cả bốn ý.
+
+  :::example Đúng/sai: một hàm bậc ba
+  Cho hàm số $f(x)=-x^3+3x^2+9x-2$.
+  a) Hàm số đồng biến trên khoảng $(-1; 3)$.
+  b) Hàm số đạt cực đại tại $x=-1$.
+  c) Giá trị cực đại của hàm số bằng $25$.
+  d) Đường thẳng đi qua hai điểm cực trị của đồ thị có hệ số góc bằng $8$.
+
+  **Lời giải.** Ta tính đạo hàm và các giá trị tại nghiệm:
+
+  $$f'(x)=-3x^2+6x+9=-3(x+1)(x-3);\qquad f(-1)=-7,\quad f(3)=25.$$
+
+  Hệ số $-3<0$ nên $f'>0$ giữa hai nghiệm và $f'<0$ ở ngoài.
+
+  a) **Đúng**: $f'(x)>0$ với $-1<x<3$.
+
+  b) **Sai**: $f'$ đổi dấu từ $-$ sang $+$ tại $x=-1$, đó là điểm cực tiểu.
+
+  c) **Đúng**: cực đại tại $x=3$, giá trị cực đại $f(3)=-27+27+27-2=25$.
+
+  d) **Đúng**: hai điểm cực trị là $(-1; -7)$ và $(3; 25)$, hệ số góc $\dfrac{25-(-7)}{3-(-1)}=\dfrac{32}{4}=8$.
+
+  Đáp án: Đ S Đ Đ.
+  :::
+
+## Giá trị lớn nhất và giá trị nhỏ nhất
+
+:::note Quy trình trên đoạn $[a; b]$
+[[P6·719b]]
+1. Tìm các điểm thuộc **khoảng** $(a; b)$ tại đó $f'(x)=0$ hoặc $f'(x)$ không xác định.
+2. Tính $f$ tại các điểm đó và tại $a$, $b$.
+3. Số lớn nhất là $\max\limits_{[a; b]}f$, số nhỏ nhất là $\min\limits_{[a; b]}f$.
+
+[[P7·0bcf]]
+Trên một **khoảng**, ta lập bảng biến thiên.
+:::
+
+  :::example Trả lời ngắn: tổng giá trị lớn nhất và nhỏ nhất
+  Gọi $M$, $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^3-3x^2-9x+5$ trên đoạn $[-2; 4]$. Tính $M+m$.
+
+  **Lời giải.** Ta giải $f'(x)=0$ và giữ các nghiệm thuộc $(-2; 4)$:
+
+  $$f'(x)=3x^2-6x-9=3(x+1)(x-3)=0\iff x=-1\ \text{hoặc}\ x=3.$$
+
+  So sánh bốn giá trị:
+
+  $$f(-2)=3,\qquad f(-1)=10,\qquad f(3)=-22,\qquad f(4)=-15.$$
+
+  Vậy $M=10$, $m=-22$ và $M+m=-12$. Đáp số ghi vào phiếu: $-12$.
+  :::
+
+## Tiệm cận
+
+:::note Ghi nhớ
+[[P8·7739]]
+- $x=x_0$ là **tiệm cận đứng** nếu $\lim\limits_{x\to x_0^+}f(x)$ hoặc $\lim\limits_{x\to x_0^-}f(x)$ bằng $\pm\infty$.
+- $y=b$ là **tiệm cận ngang** nếu $\lim\limits_{x\to+\infty}f(x)=b$ hoặc $\lim\limits_{x\to-\infty}f(x)=b$.
+- $y=ax+b$ ($a\ne0$) là **tiệm cận xiên** nếu $\lim\limits_{x\to\pm\infty}\left[f(x)-(ax+b)\right]=0$. Với $y=\dfrac{x^2+x+1}{x-1}=x+2+\dfrac{3}{x-1}$, tiệm cận xiên là $y=x+2$.
+- Với $y=\dfrac{ax+b}{cx+d}$ ($c\ne0$, $ad-bc\ne0$): tiệm cận đứng $x=-\dfrac dc$, tiệm cận ngang $y=\dfrac ac$.
+:::
+
+[[P9·f08e]]
+Bẫy hay gặp: mẫu số bằng $0$ tại $x_0$ nhưng tử số cũng bằng $0$ tại đó; sau khi rút gọn, $x_0$ có thể không còn là tiệm cận đứng.
+
+  :::example Trắc nghiệm: đếm tiệm cận
+  Đồ thị hàm số $y=\dfrac{x^2-1}{x^2-3x+2}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
+  A. $2$.
+  B. $3$.
+  C. $1$.
+  D. $4$.
+
+  **Lời giải.** Phân tích tử và mẫu rồi rút gọn với $x\ne1$:
+
+  $$y=\frac{(x-1)(x+1)}{(x-1)(x-2)}=\frac{x+1}{x-2}\quad(x\ne1).$$
+
+  Khi $x\to1$, $y\to-2$ (hữu hạn), nên $x=1$ không phải tiệm cận đứng. Khi $x\to2^+$, $y\to+\infty$, nên $x=2$ là tiệm cận đứng. Khi $x\to\pm\infty$, $y\to1$, nên $y=1$ là tiệm cận ngang.
+
+  Vậy có $2$ đường tiệm cận, chọn **A**. Phương án B tính nhầm cả $x=1$.
+  :::
+
+## Bảng biến thiên và đọc đồ thị
+
+[[P10·aac9]]
+Từ bảng biến thiên hoặc đồ thị, ta đọc được khoảng đơn điệu, cực trị, giá trị lớn nhất, nhỏ nhất và **số nghiệm** của phương trình $f(x)=k$: đó là số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$.
+
+  :::example Đúng/sai: đọc bảng biến thiên
+  Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ và có bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $-1$ | | $2$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $f(x)$ | $-\infty$ | $\nearrow$ | $3$ | $\searrow$ | $-2$ | $\nearrow$ | $+\infty$ |
+
+  a) Giá trị cực đại của hàm số bằng $3$.
+  b) Hàm số đồng biến trên khoảng $(-1; +\infty)$.
+  c) Phương trình $f(x)=1$ có ba nghiệm phân biệt.
+  d) Phương trình $f(x)=3$ có ba nghiệm phân biệt.
+
+  **Lời giải.** a) **Đúng**: $f'$ đổi dấu từ $+$ sang $-$ tại $x=-1$, giá trị cực đại là $3$.
+
+  b) **Sai**: trên $(-1; 2)$ hàm số nghịch biến.
+
+  c) **Đúng**: vì $-2<1<3$, đường thẳng $y=1$ cắt đồ thị một lần trên mỗi khoảng $(-\infty; -1)$, $(-1; 2)$, $(2; +\infty)$.
+
+  d) **Sai**: đường thẳng $y=3$ chỉ chạm đồ thị tại điểm cực đại $x=-1$ và cắt thêm một lần trên $(2; +\infty)$, tức là $2$ nghiệm.
+
+  Đáp án: Đ S Đ S.
+  :::
+
+[[P11·09a8]]
+Để nhận dạng hàm bậc ba $y=ax^3+bx^2+cx+d$ từ đồ thị, ta kiểm tra lần lượt: nhánh phải đi lên thì $a>0$; giao điểm với trục tung là $(0; d)$; hoành độ hai điểm cực trị là nghiệm của $y'$.
+
+:::graph Đồ thị của một hàm bậc ba
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trắc nghiệm: nhận dạng đồ thị
+  Đường cong trong hình trên là đồ thị của hàm số nào?
+  A. $y=x^3-6x^2+9x-1$.
+  B. $y=-x^3+6x^2-9x+1$.
+  C. $y=x^3-6x^2+9x+1$.
+  D. $y=x^3+6x^2+9x-1$.
+
+  **Lời giải.** Ta loại dần bằng các đặc điểm đọc từ hình. Nhánh phải đi lên nên $a>0$: loại B. Đồ thị cắt trục tung tại $(0; -1)$ nên $d=-1$: loại C. Với D, $y'=3(x+1)(x+3)$ có nghiệm âm, trái với hình (cực trị tại $x=1$ và $x=3$): loại D.
+
+  Kiểm tra A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, khớp với hình. Chọn **A**.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·a9d6]]
+- **Coi mọi nghiệm của $f'$ là cực trị.** Sai: "$f'=(x+1)(x-2)^2$ nên có $2$ điểm cực trị". Đúng: tại $x=2$, $f'$ không đổi dấu; chỉ có $1$ điểm cực trị.
+- **Nhầm điểm cực trị với giá trị cực trị.** Điểm cực đại là $x_0$, giá trị cực đại là $f(x_0)$, điểm cực đại của đồ thị là $(x_0; f(x_0))$. Đọc kĩ đề hỏi cái nào.
+- **Quên đầu mút.** Giá trị lớn nhất trên đoạn có thể đạt tại đầu mút, không nhất thiết tại điểm cực đại.
+- **Không rút gọn trước khi tìm tiệm cận đứng.** Nghiệm chung của tử và mẫu có thể không phải tiệm cận.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đồng biến / nghịch biến | increasing / decreasing
+  - điểm cực đại / cực tiểu | local maximum / local minimum point
+  - giá trị cực trị | turning value (local extreme value)
+  - giá trị lớn nhất / nhỏ nhất | maximum / minimum value
+  - tiệm cận đứng / ngang / xiên | vertical / horizontal / oblique asymptote
+  - bảng biến thiên | table of variations
+  - nghiệm bội chẵn | repeated root of even multiplicity
+  - hệ số góc | gradient
+  - đoạn / khoảng | closed interval / open interval
+  :::
+
+## Bài tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 61 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-functions-derivatives – BẢN TIẾNG ANH ########
+---
+title: "Revision: derivatives and graphs of functions"
+description: Revise monotonicity, turning points, maximum and minimum values, asymptotes, tables of variations and graph reading, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Find where a function increases or decreases and find its turning points from $f(x)$, from $f'(x)$ or from a table of variations.
+  - Find the maximum and minimum values of a function on a closed interval and on an open interval.
+  - Find the vertical, horizontal and oblique asymptotes of the graph of a rational function.
+  - Read tables of variations and graphs; count the roots of $f(x)=k$; identify a function from its graph.
+  :::
+
+[[P1·58e3]]
+This topic usually appears in all three parts of the paper: a few short questions in Part I (reading a table of variations, finding asymptotes), usually a true/false question about one function in Part II, and one or two maximum/minimum questions in Part III, altogether usually worth about $1.5$ to $2.5$ marks.
+
+[[P2·092c]]
+For the details, look back at the lessons on [turning points](lesson:monotonicity-extrema), [maximum and minimum values](lesson:max-min-values), [asymptotes](lesson:asymptotes) and [curve sketching](lesson:graphing-functions).
+
+## Monotonicity and turning points
+
+:::note Remember
+[[P3·9d2c]]
+- If $f'(x)\ge0$ for every $x$ in an interval $K$, with $f'(x)=0$ at only finitely many points, then $f$ is **increasing** on $K$; if $f'(x)\le0$ with the same condition, $f$ is **decreasing** on $K$.
+- $f$ has a **turning point** at $x_0$ when $f'$ **changes sign** as $x$ passes $x_0$: from $+$ to $-$ gives a local maximum, from $-$ to $+$ a local minimum.
+- A repeated root of even multiplicity of $f'$ (such as $(x-2)^2$) makes $f'=0$ but with **no change of sign**, so it is not a turning point.
+:::
+
+[[P4·c402]]
+Typical questions: given $f'(x)$ as a product, find where $f$ increases or decreases, or how many turning points it has; given a cubic or quartic, find the local maximum or minimum value.
+
+  :::example Multiple choice: reading the sign of the derivative
+  The function $y=f(x)$ has derivative $f'(x)=(x+1)(x-2)^2$ for all $x\in\mathbb{R}$. On which interval is the function decreasing?
+  A. $(-\infty, -1)$.
+  B. $(-1, 2)$.
+  C. $(2, +\infty)$.
+  D. $(-1, +\infty)$.
+
+  **Solution.** Since $(x-2)^2\ge0$, the sign of $f'(x)$ is the sign of $x+1$ (except at $x=2$, where $f'=0$):
+
+  $$f'(x)<0\iff x<-1,\qquad f'(x)\ge0\ \text{for}\ x\ge-1.$$
+
+  So the function is decreasing on $(-\infty, -1)$: the answer is **A**. The function has only one turning point, $x=-1$; at $x=2$ the derivative does not change sign.
+  :::
+
+[[P5·7fa9]]
+In a true/false question, we compute the derivative and the turning values once for all four statements.
+
+  :::example True/false: a cubic
+  Let $f(x)=-x^3+3x^2+9x-2$.
+  a) The function is increasing on $(-1, 3)$.
+  b) The function has a local maximum at $x=-1$.
+  c) The local maximum value of the function is $25$.
+  d) The line through the two turning points of the graph has gradient $8$.
+
+  **Solution.** We compute the derivative and the values at its roots:
+
+  $$f'(x)=-3x^2+6x+9=-3(x+1)(x-3);\qquad f(-1)=-7,\quad f(3)=25.$$
+
+  The coefficient $-3<0$, so $f'>0$ between the roots and $f'<0$ outside.
+
+  a) **True**: $f'(x)>0$ for $-1<x<3$.
+
+  b) **False**: $f'$ changes from $-$ to $+$ at $x=-1$, so this is a local minimum.
+
+  c) **True**: the local maximum is at $x=3$, with value $f(3)=-27+27+27-2=25$.
+
+  d) **True**: the turning points are $(-1, -7)$ and $(3, 25)$, and the gradient is $\dfrac{25-(-7)}{3-(-1)}=\dfrac{32}{4}=8$.
+
+  Key: T F T T.
+  :::
+
+## Maximum and minimum values
+
+:::note Method on a closed interval $[a, b]$
+[[P6·b6eb]]
+1. Find the points in the **open interval** $(a, b)$ where $f'(x)=0$ or $f'(x)$ is undefined.
+2. Compute $f$ at those points and at $a$, $b$.
+3. The largest value is $\max\limits_{[a, b]}f$, the smallest is $\min\limits_{[a, b]}f$.
+
+[[P7·a9f1]]
+On an **open interval**, draw the table of variations.
+:::
+
+  :::example Short answer: the sum of the maximum and minimum
+  Let $M$ and $m$ be the maximum and minimum values of $f(x)=x^3-3x^2-9x+5$ on $[-2, 4]$. Find $M+m$.
+
+  **Solution.** We solve $f'(x)=0$ and keep the roots in $(-2, 4)$:
+
+  $$f'(x)=3x^2-6x-9=3(x+1)(x-3)=0\iff x=-1\ \text{or}\ x=3.$$
+
+  We compare four values:
+
+  $$f(-2)=3,\qquad f(-1)=10,\qquad f(3)=-22,\qquad f(4)=-15.$$
+
+  So $M=10$, $m=-22$ and $M+m=-12$. On the answer sheet: $-12$.
+  :::
+
+## Asymptotes
+
+:::note Remember
+[[P8·66d8]]
+- $x=x_0$ is a **vertical asymptote** if $\lim\limits_{x\to x_0^+}f(x)$ or $\lim\limits_{x\to x_0^-}f(x)$ is $\pm\infty$.
+- $y=b$ is a **horizontal asymptote** if $\lim\limits_{x\to+\infty}f(x)=b$ or $\lim\limits_{x\to-\infty}f(x)=b$.
+- $y=ax+b$ ($a\ne0$) is an **oblique asymptote** if $\lim\limits_{x\to\pm\infty}\left[f(x)-(ax+b)\right]=0$. For $y=\dfrac{x^2+x+1}{x-1}=x+2+\dfrac{3}{x-1}$, the oblique asymptote is $y=x+2$.
+- For $y=\dfrac{ax+b}{cx+d}$ ($c\ne0$, $ad-bc\ne0$): vertical asymptote $x=-\dfrac dc$, horizontal asymptote $y=\dfrac ac$.
+:::
+
+[[P9·10d2]]
+A common trap: the denominator is $0$ at $x_0$ but so is the numerator; after cancelling, $x_0$ may no longer be a vertical asymptote.
+
+  :::example Multiple choice: counting asymptotes
+  How many vertical and horizontal asymptotes does the graph of $y=\dfrac{x^2-1}{x^2-3x+2}$ have altogether?
+  A. $2$.
+  B. $3$.
+  C. $1$.
+  D. $4$.
+
+  **Solution.** We factorise the numerator and denominator and cancel for $x\ne1$:
+
+  $$y=\frac{(x-1)(x+1)}{(x-1)(x-2)}=\frac{x+1}{x-2}\quad(x\ne1).$$
+
+  As $x\to1$, $y\to-2$ (finite), so $x=1$ is not a vertical asymptote. As $x\to2^+$, $y\to+\infty$, so $x=2$ is a vertical asymptote. As $x\to\pm\infty$, $y\to1$, so $y=1$ is a horizontal asymptote.
+
+  So there are $2$ asymptotes: the answer is **A**. Option B wrongly counts $x=1$.
+  :::
+
+## Tables of variations and graph reading
+
+[[P10·ae4a]]
+From a table of variations or a graph we can read where the function increases or decreases, its turning points, its maximum and minimum, and the **number of roots** of $f(x)=k$: the number of points where the graph meets the horizontal line $y=k$.
+
+  :::example True/false: reading a table of variations
+  The function $y=f(x)$ is continuous on $\mathbb{R}$ and has this table of variations:
+
+  | $x$ | $-\infty$ | | $-1$ | | $2$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $f(x)$ | $-\infty$ | $\nearrow$ | $3$ | $\searrow$ | $-2$ | $\nearrow$ | $+\infty$ |
+
+  a) The local maximum value of the function is $3$.
+  b) The function is increasing on $(-1, +\infty)$.
+  c) The equation $f(x)=1$ has three distinct roots.
+  d) The equation $f(x)=3$ has three distinct roots.
+
+  **Solution.** a) **True**: $f'$ changes from $+$ to $-$ at $x=-1$ and the local maximum value is $3$.
+
+  b) **False**: on $(-1, 2)$ the function is decreasing.
+
+  c) **True**: since $-2<1<3$, the line $y=1$ meets the graph once on each of $(-\infty, -1)$, $(-1, 2)$, $(2, +\infty)$.
+
+  d) **False**: the line $y=3$ only touches the graph at the local maximum $x=-1$ and crosses it once more on $(2, +\infty)$, giving $2$ roots.
+
+  Key: T F T F.
+  :::
+
+[[P11·da98]]
+To identify a cubic $y=ax^3+bx^2+cx+d$ from its graph, check in turn: if the right-hand branch rises, $a>0$; the graph meets the $y$-axis at $(0, d)$; the $x$-coordinates of the turning points are the roots of $y'$.
+
+:::graph The graph of a cubic
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Multiple choice: identifying a graph
+  The curve in the figure above is the graph of which function?
+  A. $y=x^3-6x^2+9x-1$.
+  B. $y=-x^3+6x^2-9x+1$.
+  C. $y=x^3-6x^2+9x+1$.
+  D. $y=x^3+6x^2+9x-1$.
+
+  **Solution.** We eliminate options using features read from the figure. The right-hand branch rises, so $a>0$: rule out B. The graph meets the $y$-axis at $(0, -1)$, so $d=-1$: rule out C. For D, $y'=3(x+1)(x+3)$ has negative roots, which contradicts the figure (turning points at $x=1$ and $x=3$): rule out D.
+
+  Check A: $y'=3(x-1)(x-3)$, $y(1)=3$, $y(3)=-1$, matching the figure. The answer is **A**.
+  :::
+
+:::warning Common mistakes
+[[P12·a3cb]]
+- **Treating every root of $f'$ as a turning point.** Wrong: "$f'=(x+1)(x-2)^2$, so there are $2$ turning points". Right: at $x=2$, $f'$ does not change sign; there is only $1$ turning point.
+- **Confusing the turning point with the turning value.** The local maximum point is $x_0$, the local maximum value is $f(x_0)$, and the point on the graph is $(x_0, f(x_0))$. Read carefully which one is asked.
+- **Forgetting the endpoints.** The maximum on a closed interval may be at an endpoint, not necessarily at a local maximum.
+- **Not cancelling before looking for vertical asymptotes.** A common root of the numerator and denominator may not give an asymptote.
+:::
+
+## Key terms
+
+  :::terms
+  - increasing / decreasing | đồng biến / nghịch biến
+  - local maximum / local minimum point | điểm cực đại / cực tiểu
+  - turning value (local extreme value) | giá trị cực trị
+  - maximum / minimum value | giá trị lớn nhất / nhỏ nhất
+  - vertical / horizontal / oblique asymptote | tiệm cận đứng / ngang / xiên
+  - table of variations | bảng biến thiên
+  - repeated root of even multiplicity | nghiệm bội chẵn
+  - gradient | hệ số góc
+  - closed interval / open interval | đoạn / khoảng
+  :::
+
+## Exercises
+
+[[P13·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 61 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-integrals – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: nguyên hàm và tích phân"
+description: Ôn bảng nguyên hàm, cách tính tích phân, diện tích hình phẳng, thể tích khối tròn xoay và bài toán thực tế theo dạng câu hỏi của đề thi tốt nghiệp THPT.
+minutes: 40
+---
+
+  :::goals
+  - Tìm nguyên hàm bằng bảng nguyên hàm và tính chất, kể cả nguyên hàm thoả mãn một điều kiện cho trước.
+  - Tính tích phân bằng công thức Newton – Leibniz và dùng các tính chất của tích phân.
+  - Tính diện tích hình phẳng và thể tích khối tròn xoay quanh trục $Ox$.
+  - Dùng tích phân cho bài toán thực tế: quãng đường từ vận tốc, tổng lượng từ tốc độ thay đổi.
+  :::
+
+[[P1·5830]]
+Nguyên hàm và tích phân thường chiếm hai đến ba câu ở Phần I (bảng nguyên hàm, tính chất), có thể một câu đúng/sai ở Phần II và một câu diện tích hoặc bài toán thực tế ở Phần III, tổng cộng thường khoảng $1$ đến $2$ điểm. Máy tính cầm tay tính được tích phân xác định, nên đây là phần dễ kiểm tra lại nhất.
+
+[[P2·adb1]]
+Chi tiết nằm ở các bài [nguyên hàm](lesson:antiderivatives), [tích phân](lesson:definite-integrals) và [ứng dụng của tích phân](lesson:integral-applications).
+
+## Nguyên hàm
+
+:::note Bảng nguyên hàm cần nhớ ($C$ là hằng số)
+[[P3·5ab4]]
+| $f(x)$ | $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $x^\alpha$ ($\alpha\ne-1$) | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac1x$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ ($0<a\ne1$) | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P4·c4e9]]
+Tính chất: $\displaystyle\int\left[f(x)\pm g(x)\right]dx=\int f(x)\,dx\pm\int g(x)\,dx$ và $\displaystyle\int kf(x)\,dx=k\int f(x)\,dx$ ($k\ne0$).
+:::
+
+[[P5·96ab]]
+Cách kiểm tra nhanh nhất: lấy đạo hàm kết quả, phải được lại $f(x)$.
+
+  :::example Trắc nghiệm: nguyên hàm có điều kiện
+  Biết $F(x)$ là một nguyên hàm của $f(x)=3x^2+2\sin x$ và $F(0)=1$. Khi đó $F(x)$ bằng
+  A. $x^3-2\cos x+3$.
+  B. $x^3+2\cos x-1$.
+  C. $x^3-2\cos x+1$.
+  D. $6x+2\cos x+3$.
+
+  **Lời giải.** Dùng bảng nguyên hàm, chú ý $\displaystyle\int\sin x\,dx=-\cos x+C$:
+
+  $$F(x)=x^3-2\cos x+C,\qquad F(0)=0-2\cos0+C=-2+C=1\iff C=3.$$
+
+  Vậy $F(x)=x^3-2\cos x+3$, chọn **A**. Phương án B nhầm dấu nguyên hàm của $\sin x$; C quên $\cos0=1$; D lấy đạo hàm thay vì nguyên hàm.
+  :::
+
+## Tích phân
+
+  :::theorem Công thức Newton – Leibniz và tính chất
+  Nếu $F$ là một nguyên hàm của $f$ liên tục trên $[a; b]$ thì $\displaystyle\int_a^b f(x)\,dx=\Big[F(x)\Big]_a^b=F(b)-F(a)$. Với $f$, $g$ liên tục và $c\in[a; b]$:
+  - $\displaystyle\int_a^b\left[f(x)\pm g(x)\right]dx=\int_a^b f(x)\,dx\pm\int_a^b g(x)\,dx$, $\displaystyle\int_a^b kf(x)\,dx=k\int_a^b f(x)\,dx$;
+  - $\displaystyle\int_a^b f(x)\,dx=\int_a^c f(x)\,dx+\int_c^b f(x)\,dx$;
+  - $\displaystyle\int_b^a f(x)\,dx=-\int_a^b f(x)\,dx$.
+  :::
+
+  :::example Đúng/sai: dùng tính chất tích phân
+  Hàm số $f$ liên tục trên $\mathbb{R}$, $\displaystyle\int_0^3 f(x)\,dx=5$ và $\displaystyle\int_0^1 f(x)\,dx=2$.
+  a) $\displaystyle\int_1^3 f(x)\,dx=3$.
+  b) $\displaystyle\int_0^3\left[2f(x)-1\right]dx=7$.
+  c) $\displaystyle\int_3^1 f(x)\,dx=3$.
+  d) $\displaystyle\int_0^1\left[f(x)+x\right]dx=2{,}5$.
+
+  **Lời giải.** a) **Đúng**: tách đoạn $[0; 3]$ tại $1$: $\displaystyle\int_1^3 f=5-2=3$.
+
+  b) **Đúng**: $2\cdot5-\displaystyle\int_0^3 1\,dx=10-3=7$.
+
+  c) **Sai**: đổi cận thì đổi dấu, $\displaystyle\int_3^1 f=-3$.
+
+  d) **Đúng**: $2+\displaystyle\int_0^1 x\,dx=2+\dfrac12=2{,}5$.
+
+  Đáp án: Đ Đ S Đ.
+  :::
+
+  :::example Trả lời ngắn: tính tích phân
+  Tính $\displaystyle\int_1^e\left(2x+\frac1x\right)dx$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Một nguyên hàm của $2x+\dfrac1x$ trên $(0; +\infty)$ là $x^2+\ln x$:
+
+  $$\int_1^e\left(2x+\frac1x\right)dx=\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7{,}389.$$
+
+  Làm tròn đến hàng phần trăm, đáp số là $7{,}39$.
+  :::
+
+## Diện tích và thể tích
+
+  :::theorem Công thức
+  - Diện tích hình phẳng giới hạn bởi $y=f(x)$, $y=g(x)$, $x=a$, $x=b$: $S=\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$. Với $g(x)=0$ ta được diện tích giữa đồ thị và trục hoành.
+  - Thể tích khối tròn xoay khi quay hình phẳng giới hạn bởi $y=f(x)$, trục $Ox$, $x=a$, $x=b$ quanh trục $Ox$: $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+  :::
+
+[[P6·54c9]]
+Để bỏ dấu giá trị tuyệt đối, ta tìm các nghiệm của $f(x)-g(x)=0$ trong $[a; b]$, chia đoạn tại các nghiệm đó, và trên mỗi đoạn con lấy "hàm trên trừ hàm dưới".
+
+:::graph Hình phẳng giữa $y=2x$ và $y=x^2$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trắc nghiệm: diện tích giữa hai đường
+  Diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$ bằng
+  A. $\dfrac43$.
+  B. $-\dfrac43$.
+  C. $\dfrac83$.
+  D. $4$.
+
+  **Lời giải.** Hoành độ giao điểm là nghiệm của $x^2=2x$, tức $x=0$ hoặc $x=2$. Trên $[0; 2]$ đường thẳng nằm trên ($2x\ge x^2$):
+
+  $$S=\int_0^2(2x-x^2)\,dx=\Big[x^2-\frac{x^3}{3}\Big]_0^2=4-\frac83=\frac43.$$
+
+  Chọn **A**. Phương án B lấy "dưới trừ trên" và quên rằng diện tích không âm; C là $\displaystyle\int_0^2x^2\,dx$; D là $\displaystyle\int_0^2 2x\,dx$.
+  :::
+
+  :::example Trả lời ngắn: thể tích khối tròn xoay
+  Tính thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi $y=\sqrt x$, trục $Ox$ và đường thẳng $x=4$ quanh trục $Ox$ (làm tròn kết quả đến hàng phần mười).
+
+  **Lời giải.** Đồ thị $y=\sqrt x$ cắt $Ox$ tại $x=0$, nên ta lấy tích phân từ $0$ đến $4$ với $f^2(x)=x$:
+
+  $$V=\pi\int_0^4 x\,dx=\pi\Big[\frac{x^2}{2}\Big]_0^4=8\pi\approx25{,}13.$$
+
+  Làm tròn đến hàng phần mười, đáp số là $25{,}1$.
+  :::
+
+## Bài toán thực tế
+
+:::note Ghi nhớ
+[[P7·9ef8]]
+- Vận tốc $v(t)\ge0$ trên $[a; b]$ thì quãng đường đi được là $s=\displaystyle\int_a^b v(t)\,dt$.
+- Nếu $Q'(t)$ là tốc độ thay đổi của $Q$ thì lượng thay đổi từ $t=a$ đến $t=b$ là $Q(b)-Q(a)=\displaystyle\int_a^b Q'(t)\,dt$.
+:::
+
+  :::example Trả lời ngắn: quãng đường phanh
+  Một ô tô đang chạy thì người lái đạp phanh; từ đó ô tô chuyển động chậm dần đều với vận tốc $v(t)=20-5t$ (m/s), $t$ là số giây tính từ lúc đạp phanh. Từ lúc đạp phanh đến khi dừng hẳn, ô tô đi được bao nhiêu mét?
+
+  **Lời giải.** Ô tô dừng khi $v(t)=0$, tức $t=4$. Trên $[0; 4]$ thì $v(t)\ge0$, nên:
+
+  $$s=\int_0^4(20-5t)\,dt=\Big[20t-\frac{5t^2}{2}\Big]_0^4=80-40=40.$$
+
+  Vậy ô tô đi thêm $40$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P8·b2ac]]
+- **Sai dấu với $\sin$, $\cos$.** $\displaystyle\int\sin x\,dx=-\cos x+C$, còn $\displaystyle\int\cos x\,dx=\sin x+C$.
+- **Dùng công thức luỹ thừa cho $\dfrac1x$ hoặc $e^x$.** $\dfrac1x=x^{-1}$ là trường hợp $\alpha=-1$, nguyên hàm là $\ln\lvert x\rvert$.
+- **Bỏ dấu giá trị tuyệt đối khi tính diện tích.** Sai: diện tích giữa $y=x^3-x$ và $Ox$ trên $[0; 2]$ là $\displaystyle\int_0^2(x^3-x)\,dx=2$. Đúng: chia tại $x=1$, được $\dfrac14+\dfrac94=\dfrac52$.
+- **Quên bình phương hoặc quên $\pi$ trong công thức thể tích.** $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+- **Quên rằng tích phân của tích không bằng tích các tích phân.**
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - nguyên hàm | antiderivative (indefinite integral)
+  - họ nguyên hàm | family of antiderivatives
+  - tích phân | definite integral
+  - cận trên / cận dưới | upper / lower limit
+  - công thức Newton – Leibniz | fundamental theorem of calculus (Newton–Leibniz formula)
+  - hình phẳng | plane region
+  - khối tròn xoay | solid of revolution
+  - quãng đường / vận tốc | distance / velocity
+  :::
+
+## Bài tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-integrals – BẢN TIẾNG ANH ########
+---
+title: "Revision: antiderivatives and integrals"
+description: Revise standard antiderivatives, properties and evaluation of integrals, areas, volumes of revolution and real-life applications, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Find antiderivatives using the table of standard results and the properties, including an antiderivative satisfying a given condition.
+  - Evaluate definite integrals with the Newton–Leibniz formula and use the properties of integrals.
+  - Find the area of a plane region and the volume of a solid of revolution about the $x$-axis.
+  - Use integrals in real-life problems: distance from velocity, total change from a rate of change.
+  :::
+
+[[P1·4dc9]]
+Antiderivatives and integrals usually take two or three questions in Part I (standard results, properties), possibly a true/false question in Part II and an area or real-life question in Part III, altogether usually about $1$ to $2$ marks. A scientific calculator can evaluate definite integrals, so this is the easiest part of the paper to check.
+
+[[P2·c8e1]]
+The details are in the lessons on [antiderivatives](lesson:antiderivatives), [definite integrals](lesson:definite-integrals) and [applications of integrals](lesson:integral-applications).
+
+## Antiderivatives
+
+:::note Standard antiderivatives ($C$ is a constant)
+[[P3·5ab4]]
+| $f(x)$ | $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $x^\alpha$ ($\alpha\ne-1$) | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac1x$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ ($0<a\ne1$) | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P4·896d]]
+Properties: $\displaystyle\int\left[f(x)\pm g(x)\right]dx=\int f(x)\,dx\pm\int g(x)\,dx$ and $\displaystyle\int kf(x)\,dx=k\int f(x)\,dx$ ($k\ne0$).
+:::
+
+[[P5·fab9]]
+The quickest check: differentiate your result; you must get $f(x)$ back.
+
+  :::example Multiple choice: an antiderivative with a condition
+  $F(x)$ is an antiderivative of $f(x)=3x^2+2\sin x$ with $F(0)=1$. Then $F(x)$ is
+  A. $x^3-2\cos x+3$.
+  B. $x^3+2\cos x-1$.
+  C. $x^3-2\cos x+1$.
+  D. $6x+2\cos x+3$.
+
+  **Solution.** We use the standard results, noting that $\displaystyle\int\sin x\,dx=-\cos x+C$:
+
+  $$F(x)=x^3-2\cos x+C,\qquad F(0)=0-2\cos0+C=-2+C=1\iff C=3.$$
+
+  So $F(x)=x^3-2\cos x+3$: the answer is **A**. Option B has the wrong sign for the antiderivative of $\sin x$; C forgets that $\cos0=1$; D differentiates instead of integrating.
+  :::
+
+## Definite integrals
+
+  :::theorem The Newton–Leibniz formula and properties
+  If $F$ is an antiderivative of a function $f$ continuous on $[a, b]$, then $\displaystyle\int_a^b f(x)\,dx=\Big[F(x)\Big]_a^b=F(b)-F(a)$. For continuous $f$, $g$ and $c\in[a, b]$:
+  - $\displaystyle\int_a^b\left[f(x)\pm g(x)\right]dx=\int_a^b f(x)\,dx\pm\int_a^b g(x)\,dx$, $\displaystyle\int_a^b kf(x)\,dx=k\int_a^b f(x)\,dx$;
+  - $\displaystyle\int_a^b f(x)\,dx=\int_a^c f(x)\,dx+\int_c^b f(x)\,dx$;
+  - $\displaystyle\int_b^a f(x)\,dx=-\int_a^b f(x)\,dx$.
+  :::
+
+  :::example True/false: using the properties of integrals
+  The function $f$ is continuous on $\mathbb{R}$, with $\displaystyle\int_0^3 f(x)\,dx=5$ and $\displaystyle\int_0^1 f(x)\,dx=2$.
+  a) $\displaystyle\int_1^3 f(x)\,dx=3$.
+  b) $\displaystyle\int_0^3\left[2f(x)-1\right]dx=7$.
+  c) $\displaystyle\int_3^1 f(x)\,dx=3$.
+  d) $\displaystyle\int_0^1\left[f(x)+x\right]dx=2.5$.
+
+  **Solution.** a) **True**: split $[0, 3]$ at $1$: $\displaystyle\int_1^3 f=5-2=3$.
+
+  b) **True**: $2\cdot5-\displaystyle\int_0^3 1\,dx=10-3=7$.
+
+  c) **False**: swapping the limits changes the sign, so $\displaystyle\int_3^1 f=-3$.
+
+  d) **True**: $2+\displaystyle\int_0^1 x\,dx=2+\dfrac12=2.5$.
+
+  Key: T T F T.
+  :::
+
+  :::example Short answer: evaluating an integral
+  Evaluate $\displaystyle\int_1^e\left(2x+\frac1x\right)dx$. Give your answer to 2 decimal places.
+
+  **Solution.** An antiderivative of $2x+\dfrac1x$ on $(0, +\infty)$ is $x^2+\ln x$:
+
+  $$\int_1^e\left(2x+\frac1x\right)dx=\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7.389.$$
+
+  To 2 decimal places, the answer is $7.39$.
+  :::
+
+## Area and volume
+
+  :::theorem Formulae
+  - The area of the region bounded by $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ is $S=\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$. With $g(x)=0$ this is the area between the graph and the $x$-axis.
+  - The volume of the solid formed by rotating the region bounded by $y=f(x)$, the $x$-axis, $x=a$, $x=b$ about the $x$-axis is $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+  :::
+
+[[P6·d28f]]
+To remove the modulus, find the roots of $f(x)-g(x)=0$ in $[a, b]$, split the interval at those roots, and on each piece take "upper curve minus lower curve".
+
+:::graph The region between $y=2x$ and $y=x^2$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Multiple choice: the area between two curves
+  The area of the region bounded by the parabola $y=x^2$ and the line $y=2x$ is
+  A. $\dfrac43$.
+  B. $-\dfrac43$.
+  C. $\dfrac83$.
+  D. $4$.
+
+  **Solution.** The $x$-coordinates of the intersection points satisfy $x^2=2x$, so $x=0$ or $x=2$. On $[0, 2]$ the line is on top ($2x\ge x^2$):
+
+  $$S=\int_0^2(2x-x^2)\,dx=\Big[x^2-\frac{x^3}{3}\Big]_0^2=4-\frac83=\frac43.$$
+
+  The answer is **A**. Option B takes "lower minus upper" and forgets that an area cannot be negative; C is $\displaystyle\int_0^2x^2\,dx$; D is $\displaystyle\int_0^2 2x\,dx$.
+  :::
+
+  :::example Short answer: a volume of revolution
+  Find the volume of the solid formed when the region bounded by $y=\sqrt x$, the $x$-axis and the line $x=4$ is rotated about the $x$-axis. Give your answer to 1 decimal place.
+
+  **Solution.** The graph of $y=\sqrt x$ meets the $x$-axis at $x=0$, so we integrate from $0$ to $4$ with $f^2(x)=x$:
+
+  $$V=\pi\int_0^4 x\,dx=\pi\Big[\frac{x^2}{2}\Big]_0^4=8\pi\approx25.13.$$
+
+  To 1 decimal place, the answer is $25.1$.
+  :::
+
+## Real-life applications
+
+:::note Remember
+[[P7·be1e]]
+- If the velocity $v(t)\ge0$ on $[a, b]$, the distance travelled is $s=\displaystyle\int_a^b v(t)\,dt$.
+- If $Q'(t)$ is the rate of change of $Q$, the change from $t=a$ to $t=b$ is $Q(b)-Q(a)=\displaystyle\int_a^b Q'(t)\,dt$.
+:::
+
+  :::example Short answer: braking distance
+  A driver brakes; from then on the car slows down uniformly with velocity $v(t)=20-5t$ (m/s), where $t$ is the time in seconds since braking. How many metres does the car travel from the moment of braking until it stops?
+
+  **Solution.** The car stops when $v(t)=0$, that is at $t=4$. On $[0, 4]$, $v(t)\ge0$, so:
+
+  $$s=\int_0^4(20-5t)\,dt=\Big[20t-\frac{5t^2}{2}\Big]_0^4=80-40=40.$$
+
+  So the car travels a further $40$ m.
+  :::
+
+:::warning Common mistakes
+[[P8·94a7]]
+- **Wrong signs with $\sin$ and $\cos$.** $\displaystyle\int\sin x\,dx=-\cos x+C$, while $\displaystyle\int\cos x\,dx=\sin x+C$.
+- **Using the power rule for $\dfrac1x$ or $e^x$.** $\dfrac1x=x^{-1}$ is the case $\alpha=-1$, and its antiderivative is $\ln\lvert x\rvert$.
+- **Dropping the modulus when finding an area.** Wrong: the area between $y=x^3-x$ and the $x$-axis on $[0, 2]$ is $\displaystyle\int_0^2(x^3-x)\,dx=2$. Right: split at $x=1$ to get $\dfrac14+\dfrac94=\dfrac52$.
+- **Forgetting to square, or forgetting $\pi$, in the volume formula.** $V=\pi\displaystyle\int_a^b f^2(x)\,dx$.
+- **Forgetting that the integral of a product is not the product of the integrals.**
+:::
+
+## Key terms
+
+  :::terms
+  - antiderivative (indefinite integral) | nguyên hàm
+  - family of antiderivatives | họ nguyên hàm
+  - definite integral | tích phân
+  - upper / lower limit | cận trên / cận dưới
+  - fundamental theorem of calculus (Newton–Leibniz formula) | công thức Newton – Leibniz
+  - plane region | hình phẳng
+  - solid of revolution | khối tròn xoay
+  - distance / velocity | quãng đường / vận tốc
+  :::
+
+## Exercises
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-optimisation-real-life – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: bài toán tối ưu và thực tế"
+description: Ôn cách lập hàm số và dùng đạo hàm cho bài toán tối ưu, tốc độ thay đổi, chuyển động, chi phí và lợi nhuận theo dạng câu hỏi của đề thi tốt nghiệp THPT.
+minutes: 40
+---
+
+  :::goals
+  - Chuyển một bài toán thực tế thành bài toán tìm giá trị lớn nhất, nhỏ nhất của một hàm số trên một tập xác định đúng.
+  - Dùng đạo hàm làm tốc độ thay đổi: vận tốc, gia tốc, tốc độ tăng trưởng.
+  - Giải bài toán chi phí, doanh thu, lợi nhuận và bài toán đường đi, lắp đặt có chi phí nhỏ nhất.
+  - Trình bày đáp số đúng đơn vị và đúng yêu cầu làm tròn.
+  :::
+
+[[P1·a035]]
+Bài toán thực tế là "đặc sản" của đề thi theo cấu trúc mới. Chúng thường xuất hiện ở Phần III (trả lời ngắn, đáp số là một con số có đơn vị), đôi khi thành cả một câu đúng/sai ở Phần II, tổng cộng thường khoảng $1$ đến $2$ điểm. Phần toán thường không khó; cái khó là **lập được hàm số** và **xác định đúng miền** của biến.
+
+[[P2·8b01]]
+Kiến thức nền nằm ở bài [giá trị lớn nhất và nhỏ nhất](lesson:max-min-values) và bài [đạo hàm và bài toán thực tế](lesson:derivative-real-problems).
+
+## Quy trình giải bài toán tối ưu
+
+:::note Bốn bước
+[[P3·afea]]
+1. **Chọn biến** $x$ (đại lượng có thể thay đổi), ghi đơn vị và **điều kiện** của $x$.
+2. **Lập hàm** cần tối ưu theo $x$ (dùng các ràng buộc để khử bớt biến).
+3. **Tìm giá trị lớn nhất, nhỏ nhất** của hàm trên miền đó: tính đạo hàm, so sánh với đầu mút hoặc lập bảng biến thiên.
+4. **Trả lời đúng câu hỏi**: đề hỏi $x$, hỏi giá trị lớn nhất, hay hỏi một đại lượng khác?
+:::
+
+  :::example Trả lời ngắn: hộp không nắp
+  Từ một tấm bìa hình vuông cạnh $30$ cm, người ta cắt bỏ ở bốn góc bốn hình vuông bằng nhau cạnh $x$ cm rồi gấp lên thành một chiếc hộp không nắp. Thể tích lớn nhất của hộp là bao nhiêu cm³?
+
+  **Lời giải.** Đáy hộp là hình vuông cạnh $30-2x$, chiều cao $x$, với $0<x<15$. Thể tích:
+
+  $$V(x)=x(30-2x)^2,\qquad V'(x)=(30-2x)^2-4x(30-2x)=(30-2x)(30-6x).$$
+
+  Trên $(0; 15)$, $30-2x>0$, nên $V'$ có dấu của $30-6x$: dương khi $x<5$, âm khi $x>5$. Vậy $V$ lớn nhất tại $x=5$:
+
+  $$V(5)=5\cdot20^2=2000.$$
+
+  Thể tích lớn nhất là $2000$ cm³ (cắt hình vuông cạnh $5$ cm).
+  :::
+
+## Tốc độ thay đổi và chuyển động
+
+:::note Ghi nhớ
+[[P4·1767]]
+- Nếu đại lượng $Q$ phụ thuộc thời gian $t$ thì $Q'(t)$ là **tốc độ thay đổi tức thời** của $Q$ tại thời điểm $t$.
+- Chuyển động thẳng với phương trình $s(t)$: vận tốc $v(t)=s'(t)$, gia tốc $a(t)=v'(t)=s''(t)$.
+- Vận tốc và gia tốc cùng dấu thì vật đang nhanh dần; trái dấu thì vật đang chậm dần.
+:::
+
+[[P5·3730]]
+Hai câu hỏi hay bị nhầm: "khi nào $Q$ lớn nhất" (giải $Q'=0$) và "khi nào $Q$ **tăng nhanh nhất**" (tìm giá trị lớn nhất của $Q'$, tức là xét $Q''$).
+
+  :::example Trắc nghiệm: tăng nhanh nhất
+  Số vi khuẩn trong một mẻ nuôi cấy sau $t$ giờ là $N(t)=1000+30t^2-t^3$, $0\le t\le20$. Số vi khuẩn tăng nhanh nhất tại thời điểm nào?
+  A. $t=10$.
+  B. $t=20$.
+  C. $t=0$.
+  D. $t=15$.
+
+  **Lời giải.** Tốc độ tăng là $N'(t)=60t-3t^2$. Ta tìm giá trị lớn nhất của $N'$ trên $[0; 20]$:
+
+  $$N''(t)=60-6t=0\iff t=10;\qquad N'(0)=0,\quad N'(10)=300,\quad N'(20)=0.$$
+
+  Vậy vi khuẩn tăng nhanh nhất lúc $t=10$ giờ, chọn **A**. Phương án B là lúc $N'(t)=0$, tức lúc số vi khuẩn **lớn nhất**, không phải lúc tăng nhanh nhất.
+  :::
+
+  :::example Đúng/sai: chuyển động thẳng
+  Một vật chuyển động thẳng với quãng đường $s(t)=-t^3+9t^2$ (m), $t$ (giây), $0\le t\le6$.
+  a) Vận tốc của vật tại $t=2$ là $24$ m/s.
+  b) Vận tốc lớn nhất của vật là $27$ m/s.
+  c) Tại $t=4$, vật đang chuyển động nhanh dần.
+  d) Quãng đường vật đi được trong $6$ giây là $108$ m.
+
+  **Lời giải.** Ta tính trước vận tốc và gia tốc:
+
+  $$v(t)=-3t^2+18t,\qquad a(t)=-6t+18.$$
+
+  a) **Đúng**: $v(2)=-12+36=24$.
+
+  b) **Đúng**: $v$ là hàm bậc hai với hệ số $-3<0$, lớn nhất tại $t=3$ (nơi $a=0$): $v(3)=-27+54=27$.
+
+  c) **Sai**: $v(4)=24>0$ còn $a(4)=-6<0$, trái dấu nên vật đang chậm dần.
+
+  d) **Đúng**: $v(t)=3t(6-t)\ge0$ trên $[0; 6]$ nên vật không quay đầu, quãng đường là $s(6)-s(0)=-216+324=108$.
+
+  Đáp án: Đ Đ S Đ.
+  :::
+
+## Chi phí, doanh thu và lợi nhuận
+
+:::note Ghi nhớ
+[[P6·e015]]
+- Lợi nhuận = doanh thu − chi phí: $P(x)=R(x)-C(x)$.
+- Chi phí trung bình mỗi sản phẩm: $\overline{C}(x)=\dfrac{C(x)}{x}$.
+- Số sản phẩm $x$ thường là số tự nhiên, nhưng ta xét $x$ liên tục trên một đoạn rồi kiểm tra lại nghiệm.
+:::
+
+  :::example Trắc nghiệm: sản lượng cho lợi nhuận lớn nhất
+  Một xưởng sản xuất $x$ sản phẩm mỗi ngày ($0\le x\le60$) thu lợi nhuận $P(x)=-x^3+45x^2+1200x$ (nghìn đồng). Mỗi ngày xưởng nên sản xuất bao nhiêu sản phẩm để lợi nhuận lớn nhất?
+  A. $40$.
+  B. $15$.
+  C. $60$.
+  D. $10$.
+
+  **Lời giải.** Ta giải $P'(x)=0$ trên $(0; 60)$ rồi so sánh với hai đầu mút:
+
+  $$P'(x)=-3x^2+90x+1200=-3(x-40)(x+10)=0\iff x=40\ (\text{loại } x=-10).$$
+
+  $$P(0)=0,\qquad P(40)=56\,000,\qquad P(60)=18\,000.$$
+
+  Vậy nên sản xuất $40$ sản phẩm mỗi ngày (lợi nhuận $56$ triệu đồng), chọn **A**. Phương án B là nghiệm của $P''(x)=0$; D là nghiệm bị đổi dấu; C chỉ là đầu mút.
+  :::
+
+## Bài toán đường đi và lắp đặt
+
+[[P7·d1fd]]
+Dạng này có một điểm $M$ chạy trên một đường thẳng; quãng đường hoặc chi phí gồm một đoạn xiên (dùng định lí Pythagore) và một đoạn thẳng.
+
+:::diagram Kéo dây điện từ nhà máy $A$ ra đảo $C$
+   (… 11 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trả lời ngắn: chi phí lắp đặt nhỏ nhất
+  Một nhà máy điện $A$ nằm trên bờ biển thẳng. Đảo $C$ cách bờ $3$ km, điểm gần đảo nhất trên bờ là $B$ với $AB=8$ km. Người ta kéo dây trên bờ từ $A$ đến $M$ (thuộc đoạn $AB$) rồi kéo dưới nước từ $M$ đến $C$. Chi phí mỗi km dây là $30$ triệu đồng trên bờ và $50$ triệu đồng dưới nước. Điểm $M$ cách $B$ bao nhiêu km thì chi phí nhỏ nhất?
+
+  **Lời giải.** Đặt $BM=x$ (km), $0\le x\le8$. Khi đó $MC=\sqrt{x^2+9}$, $AM=8-x$, chi phí (triệu đồng):
+
+  $$T(x)=30(8-x)+50\sqrt{x^2+9},\qquad T'(x)=-30+\frac{50x}{\sqrt{x^2+9}}.$$
+
+  Giải $T'(x)=0$ (cần $x>0$ để bình phương):
+
+  $$5x=3\sqrt{x^2+9}\iff25x^2=9x^2+81\iff x^2=\frac{81}{16}\iff x=\frac94.$$
+
+  So sánh: $T(0)=390$, $T\left(\frac94\right)=172{,}5+187{,}5=360$, $T(8)=50\sqrt{73}\approx427$. Vậy $M$ cách $B$ $2{,}25$ km, chi phí nhỏ nhất là $360$ triệu đồng.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P8·e7d4]]
+- **Sai miền của biến.** Với hộp cạnh $30$ cm, $x$ phải nhỏ hơn $15$; nghiệm $x=15$ của $V'$ cho thể tích $0$.
+- **Trả lời nhầm đại lượng.** Đề hỏi "cách $B$ bao nhiêu km" mà ghi chi phí $360$, hoặc ngược lại.
+- **Nhầm "lớn nhất" với "tăng nhanh nhất".** Lớn nhất: $Q'=0$. Tăng nhanh nhất: $Q'$ lớn nhất.
+- **Quên đầu mút.** Giá trị tối ưu có thể nằm ở đầu mút, nhất là khi miền bị giới hạn bởi thực tế.
+- **Quên đổi đơn vị.** Phút và giờ, mét và kilômét, nghìn đồng và triệu đồng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bài toán tối ưu | optimisation problem
+  - tốc độ thay đổi tức thời | instantaneous rate of change
+  - vận tốc / gia tốc | velocity / acceleration
+  - chi phí / doanh thu / lợi nhuận | cost / revenue / profit
+  - chi phí trung bình | average cost
+  - điều kiện của biến | constraint on the variable
+  - thể tích / diện tích toàn phần | volume / total surface area
+  - định lí Pythagore | Pythagoras' theorem
+  :::
+
+## Bài tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-optimisation-real-life – BẢN TIẾNG ANH ########
+---
+title: "Revision: optimisation and real-life problems"
+description: Revise setting up a function and using derivatives for optimisation, rates of change, motion, cost and profit, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Turn a real-life problem into finding the maximum or minimum of a function on the correct domain.
+  - Use the derivative as a rate of change: velocity, acceleration, growth rate.
+  - Solve cost, revenue and profit problems, and route or installation problems with the least cost.
+  - Give answers with the right units and the requested rounding.
+  :::
+
+[[P1·0695]]
+Real-life problems are a speciality of the new exam format. They usually appear in Part III (short answer, with a single number in some unit), sometimes as a whole true/false question in Part II, and are usually worth about $1$ to $2$ marks altogether. The calculus is usually not hard; the hard part is **setting up the function** and **finding the right domain** for the variable.
+
+[[P2·4f2a]]
+The background is in the lessons on [maximum and minimum values](lesson:max-min-values) and [derivatives in real-life problems](lesson:derivative-real-problems).
+
+## A method for optimisation problems
+
+:::note Four steps
+[[P3·6648]]
+1. **Choose a variable** $x$ (a quantity that can vary), with its unit and its **constraints**.
+2. **Write the function** to be optimised in terms of $x$ (use the conditions to eliminate other variables).
+3. **Find the maximum or minimum** of the function on that domain: differentiate, compare with the endpoints or draw a table of variations.
+4. **Answer the actual question**: does it ask for $x$, for the maximum value, or for another quantity?
+:::
+
+  :::example Short answer: an open box
+  Four equal squares of side $x$ cm are cut from the corners of a square sheet of card of side $30$ cm, and the sides are folded up to make an open box. What is the greatest possible volume of the box, in cm³?
+
+  **Solution.** The base is a square of side $30-2x$ and the height is $x$, with $0<x<15$. The volume is
+
+  $$V(x)=x(30-2x)^2,\qquad V'(x)=(30-2x)^2-4x(30-2x)=(30-2x)(30-6x).$$
+
+  On $(0, 15)$, $30-2x>0$, so $V'$ has the sign of $30-6x$: positive for $x<5$, negative for $x>5$. So $V$ is greatest at $x=5$:
+
+  $$V(5)=5\cdot20^2=2000.$$
+
+  The greatest volume is $2000$ cm³ (cutting squares of side $5$ cm).
+  :::
+
+## Rates of change and motion
+
+:::note Remember
+[[P4·a53d]]
+- If a quantity $Q$ depends on time $t$, then $Q'(t)$ is the **instantaneous rate of change** of $Q$ at time $t$.
+- For motion in a straight line with displacement $s(t)$: velocity $v(t)=s'(t)$, acceleration $a(t)=v'(t)=s''(t)$.
+- If velocity and acceleration have the same sign, the object is speeding up; if opposite signs, it is slowing down.
+:::
+
+[[P5·4a07]]
+Two questions that are often confused: "when is $Q$ greatest" (solve $Q'=0$) and "when is $Q$ **increasing fastest**" (find the maximum of $Q'$, that is, look at $Q''$).
+
+  :::example Multiple choice: increasing fastest
+  The number of bacteria in a culture after $t$ hours is $N(t)=1000+30t^2-t^3$, $0\le t\le20$. At what time is the number of bacteria increasing fastest?
+  A. $t=10$.
+  B. $t=20$.
+  C. $t=0$.
+  D. $t=15$.
+
+  **Solution.** The growth rate is $N'(t)=60t-3t^2$. We find the maximum of $N'$ on $[0, 20]$:
+
+  $$N''(t)=60-6t=0\iff t=10;\qquad N'(0)=0,\quad N'(10)=300,\quad N'(20)=0.$$
+
+  So the bacteria increase fastest at $t=10$ hours: the answer is **A**. Option B is when $N'(t)=0$, that is when the number of bacteria is **greatest**, not when it grows fastest.
+  :::
+
+  :::example True/false: motion in a straight line
+  An object moves in a straight line with displacement $s(t)=-t^3+9t^2$ (m), $t$ in seconds, $0\le t\le6$.
+  a) The velocity of the object at $t=2$ is $24$ m/s.
+  b) The greatest velocity of the object is $27$ m/s.
+  c) At $t=4$, the object is speeding up.
+  d) The distance travelled in the $6$ seconds is $108$ m.
+
+  **Solution.** We first find the velocity and acceleration:
+
+  $$v(t)=-3t^2+18t,\qquad a(t)=-6t+18.$$
+
+  a) **True**: $v(2)=-12+36=24$.
+
+  b) **True**: $v$ is a quadratic with coefficient $-3<0$, greatest at $t=3$ (where $a=0$): $v(3)=-27+54=27$.
+
+  c) **False**: $v(4)=24>0$ but $a(4)=-6<0$; opposite signs, so the object is slowing down.
+
+  d) **True**: $v(t)=3t(6-t)\ge0$ on $[0, 6]$, so the object never turns back, and the distance is $s(6)-s(0)=-216+324=108$.
+
+  Key: T T F T.
+  :::
+
+## Cost, revenue and profit
+
+:::note Remember
+[[P6·8388]]
+- Profit = revenue − cost: $P(x)=R(x)-C(x)$.
+- Average cost per item: $\overline{C}(x)=\dfrac{C(x)}{x}$.
+- The number of items $x$ is usually a whole number, but we treat $x$ as continuous on an interval and check the result.
+:::
+
+  :::example Multiple choice: output for the greatest profit
+  A workshop makes $x$ items a day ($0\le x\le60$) and earns a profit of $P(x)=-x^3+45x^2+1200x$ (thousand đồng). How many items a day should it make to maximise profit?
+  A. $40$.
+  B. $15$.
+  C. $60$.
+  D. $10$.
+
+  **Solution.** We solve $P'(x)=0$ on $(0, 60)$ and compare with the two endpoints:
+
+  $$P'(x)=-3x^2+90x+1200=-3(x-40)(x+10)=0\iff x=40\ (\text{reject } x=-10).$$
+
+  $$P(0)=0,\qquad P(40)=56\,000,\qquad P(60)=18\,000.$$
+
+  So it should make $40$ items a day (a profit of $56$ million đồng): the answer is **A**. Option B is the root of $P''(x)=0$; D is the root with the sign changed; C is just an endpoint.
+  :::
+
+## Route and installation problems
+
+[[P7·5a5c]]
+Here a point $M$ moves along a straight line; the distance or cost has a slanting part (use Pythagoras' theorem) and a straight part.
+
+:::diagram Laying a cable from the power station $A$ to the island $C$
+   (… 11 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Short answer: the least installation cost
+  A power station $A$ stands on a straight coastline. An island $C$ is $3$ km from the shore, and the nearest point of the shore to the island is $B$, with $AB=8$ km. A cable is laid along the shore from $A$ to a point $M$ on $AB$, then underwater from $M$ to $C$. The cable costs $30$ million đồng per km on land and $50$ million đồng per km underwater. How far from $B$ should $M$ be to make the cost least, in km?
+
+  **Solution.** Let $BM=x$ (km), $0\le x\le8$. Then $MC=\sqrt{x^2+9}$, $AM=8-x$, and the cost (million đồng) is
+
+  $$T(x)=30(8-x)+50\sqrt{x^2+9},\qquad T'(x)=-30+\frac{50x}{\sqrt{x^2+9}}.$$
+
+  We solve $T'(x)=0$ (this needs $x>0$, so we may square):
+
+  $$5x=3\sqrt{x^2+9}\iff25x^2=9x^2+81\iff x^2=\frac{81}{16}\iff x=\frac94.$$
+
+  Comparing: $T(0)=390$, $T\left(\frac94\right)=172.5+187.5=360$, $T(8)=50\sqrt{73}\approx427$. So $M$ should be $2.25$ km from $B$, and the least cost is $360$ million đồng.
+  :::
+
+:::warning Common mistakes
+[[P8·886d]]
+- **The wrong domain.** For the $30$ cm box, $x$ must be less than $15$; the root $x=15$ of $V'$ gives volume $0$.
+- **Answering for the wrong quantity.** The question asks "how far from $B$" and the answer given is the cost $360$, or the other way round.
+- **Confusing "greatest" with "increasing fastest".** Greatest: $Q'=0$. Increasing fastest: $Q'$ greatest.
+- **Forgetting the endpoints.** The optimum may be at an endpoint, especially when the domain is limited by the situation.
+- **Forgetting to convert units.** Minutes and hours, metres and kilometres, thousand đồng and million đồng.
+:::
+
+## Key terms
+
+  :::terms
+  - optimisation problem | bài toán tối ưu
+  - instantaneous rate of change | tốc độ thay đổi tức thời
+  - velocity / acceleration | vận tốc / gia tốc
+  - cost / revenue / profit | chi phí / doanh thu / lợi nhuận
+  - average cost | chi phí trung bình
+  - constraint on the variable | điều kiện của biến
+  - volume / total surface area | thể tích / diện tích toàn phần
+  - Pythagoras' theorem | định lí Pythagore
+  :::
+
+## Exercises
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

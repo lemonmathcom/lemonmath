@@ -1,0 +1,745 @@
+######################################################################
+TÀI KHOẢN: Vimus2358   |   FILE: Vimus2358-LG-2   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vimus2358-LG-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Vimus2358-LG-2
+Người làm: tài khoản Vimus2358. Gói này có 28 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Vimus2358-LG-2-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vimus2358-LG-2-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g5/review-natural-number-operations (8 bài tập)
+- g5/review-natural-numbers (10 bài tập)
+- g5/speed-uniform-motion (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g5/review-natural-number-operations
+Bài học: Ôn tập các phép tính với số tự nhiên / Review: calculations with natural numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5\,274+3\,968=9\,242$.
+
+b) $6\,005-2\,847=3\,158$ (thử lại: $3\,158+2\,847=6\,005$).
+
+**Đáp số.** a) $9\,242$; b) $3\,158$.
+
+[ĐỀ – EN]
+Set out in columns and work out: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5\,274+3\,968=9\,242$.
+
+b) $6\,005-2\,847=3\,158$ (check: $3\,158+2\,847=6\,005$).
+
+**Answer.** a) $9\,242$; b) $3\,158$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính: a) $406\times25$; b) $3\,150:15$.
+
+[LỜI GIẢI CŨ – VI]
+a) $406\times25=8\,120+2\,030=10\,150$.
+
+b) $3\,150:15=210$, vì $15\times210=3\,150$.
+
+**Đáp số.** a) $10\,150$; b) $210$.
+
+[ĐỀ – EN]
+Work out: a) $406\times25$; b) $3\,150\div15$.
+
+[LỜI GIẢI CŨ – EN]
+a) $406\times25=8\,120+2\,030=10\,150$.
+
+b) $3\,150\div15=210$, because $15\times210=3\,150$.
+
+**Answer.** a) $10\,150$; b) $210$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính giá trị biểu thức: a) $56+24:6\times5$; b) $90-(18+12)\times2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $56+24:6\times5=56+4\times5=56+20=76$.
+
+b) $90-(18+12)\times2=90-30\times2=90-60=30$.
+
+**Đáp số.** a) $76$; b) $30$.
+
+[ĐỀ – EN]
+Work out the value of: a) $56+24\div6\times5$; b) $90-(18+12)\times2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $56+24\div6\times5=56+4\times5=56+20=76$.
+
+b) $90-(18+12)\times2=90-30\times2=90-60=30$.
+
+**Answer.** a) $76$; b) $30$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhanh: a) $4\times18\times25$; b) $75\times34+75\times66$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+
+b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+
+**Đáp số.** a) $1\,800$; b) $7\,500$.
+
+[ĐỀ – EN]
+Calculate quickly: a) $4\times18\times25$; b) $75\times34+75\times66$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+
+b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+
+**Answer.** a) $1\,800$; b) $7\,500$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mẹ mua $3$ hộp sữa, mỗi hộp $38\,000$ đồng, và $2$ túi bánh, mỗi túi $25\,000$ đồng. Mẹ đưa cô bán hàng $200\,000$ đồng. Hỏi cô trả lại mẹ bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Tiền sữa: $3\times38\,000=114\,000$ (đồng).
+
+Tiền bánh: $2\times25\,000=50\,000$ (đồng).
+
+Tiền trả lại: $200\,000-(114\,000+50\,000)=36\,000$ (đồng).
+
+**Đáp số.** $36\,000$ đồng.
+
+[ĐỀ – EN]
+Mum buys $3$ cartons of milk at $38\,000$ dong each and $2$ bags of biscuits at $25\,000$ dong each. She gives the cashier $200\,000$ dong. How much change does she get?
+
+[LỜI GIẢI CŨ – EN]
+Cost of the milk: $3\times38\,000=114\,000$ dong.
+
+Cost of the biscuits: $2\times25\,000=50\,000$ dong.
+
+Change: $200\,000-(114\,000+50\,000)=36\,000$ dong.
+
+**Answer.** $36\,000$ dong.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Có $250$ học sinh đi tham quan. Mỗi xe chở nhiều nhất $45$ học sinh. Cần ít nhất bao nhiêu xe?
+
+[LỜI GIẢI CŨ – VI]
+$250:45=5$ (dư $25$). Năm xe chở $225$ học sinh, còn $25$ học sinh nên cần thêm $1$ xe: $5+1=6$.
+
+**Đáp số.** $6$ xe.
+
+[ĐỀ – EN]
+$250$ students go on a trip. Each coach carries at most $45$ students. What is the smallest number of coaches needed?
+
+[LỜI GIẢI CŨ – EN]
+$250\div45=5$ remainder $25$. Five coaches carry $225$ students, so $25$ are left and $1$ more coach is needed: $5+1=6$.
+
+**Answer.** $6$ coaches.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Dùng bốn chữ số $3,\ 0,\ 8,\ 5$, mỗi chữ số đúng một lần, lập số lớn nhất và số bé nhất có bốn chữ số. Tính hiệu hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất là $8\,530$, số bé nhất là $3\,058$. Hiệu là $8\,530-3\,058=5\,472$.
+
+**Đáp số.** $5\,472$.
+
+[ĐỀ – EN]
+Remember the previous lesson. Use the four digits $3,\ 0,\ 8,\ 5$, each exactly once, to make the largest and the smallest four-digit number. Work out the difference between them.
+
+[LỜI GIẢI CŨ – EN]
+The largest number is $8\,530$ and the smallest is $3\,058$. The difference is $8\,530-3\,058=5\,472$.
+
+**Answer.** $5\,472$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số tự nhiên $x$ biết $5\times(x+12)-30=120$.
+
+[LỜI GIẢI CŨ – VI]
+$5\times(x+12)=120+30=150$, nên $x+12=150:5=30$ và $x=30-12=18$.
+
+**Kiểm tra.** $5\times(18+12)-30=150-30=120$. Đúng.
+
+**Đáp số.** $18$.
+
+[ĐỀ – EN]
+Find the natural number $x$ such that $5\times(x+12)-30=120$.
+
+[LỜI GIẢI CŨ – EN]
+$5\times(x+12)=120+30=150$, so $x+12=150\div5=30$ and $x=30-12=18$.
+
+**Check.** $5\times(18+12)-30=150-30=120$. Correct.
+
+**Answer.** $18$.
+
+
+######################################################################
+@@@ g5/review-natural-numbers
+Bài học: Ôn tập số tự nhiên / Review: natural numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số: tám triệu bốn trăm linh năm nghìn hai trăm ba mươi.
+
+[LỜI GIẢI CŨ – VI]
+Tám triệu là $8$; bốn trăm linh năm nghìn là $405$ nghìn; hai trăm ba mươi là $230$.
+
+**Đáp số.** $8\,405\,230$.
+
+[ĐỀ – EN]
+Write the number: eight million four hundred and five thousand two hundred and thirty.
+
+[LỜI GIẢI CŨ – EN]
+Eight million is $8$; four hundred and five thousand is $405$ thousand; two hundred and thirty is $230$.
+
+**Answer.** $8\,405\,230$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Nêu giá trị của chữ số $7$ trong số $3\,571\,092$.
+
+[LỜI GIẢI CŨ – VI]
+Số $3\,571\,092$ có chữ số $7$ ở hàng chục nghìn.
+
+**Đáp số.** Giá trị của chữ số $7$ là $70\,000$.
+
+[ĐỀ – EN]
+State the value of the digit $7$ in the number $3\,571\,092$.
+
+[LỜI GIẢI CŨ – EN]
+In the number $3\,571\,092$ the digit $7$ is in the ten thousands place.
+
+**Answer.** The value of the digit $7$ is $70\,000$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$: $3\,571\,092\ \ldots\ 3\,517\,920$.
+
+[LỜI GIẢI CŨ – VI]
+Hai số đều có $7$ chữ số. Hàng triệu: $3=3$. Hàng trăm nghìn: $5=5$. Hàng chục nghìn: $7>1$.
+
+**Đáp số.** $3\,571\,092>3\,517\,920$.
+
+[ĐỀ – EN]
+Put $>$, $<$ or $=$ in the gap: $3\,571\,092\ \ldots\ 3\,517\,920$.
+
+[LỜI GIẢI CŨ – EN]
+Both numbers have $7$ digits. Millions: $3=3$. Hundred thousands: $5=5$. Ten thousands: $7>1$.
+
+**Answer.** $3\,571\,092>3\,517\,920$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Sắp xếp các số $45\,720$; $45\,270$; $54\,027$; $5\,472$ theo thứ tự từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Số $5\,472$ có $4$ chữ số nên bé nhất. Trong các số có $5$ chữ số: $45\,270<45\,720<54\,027$.
+
+**Đáp số.** $5\,472<45\,270<45\,720<54\,027$.
+
+[ĐỀ – EN]
+Put the numbers $45\,720$; $45\,270$; $54\,027$; $5\,472$ in order from least to greatest.
+
+[LỜI GIẢI CŨ – EN]
+The number $5\,472$ has $4$ digits, so it is the least. Among the numbers with $5$ digits: $45\,270<45\,720<54\,027$.
+
+**Answer.** $5\,472<45\,270<45\,720<54\,027$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Làm tròn số $6\,481\,300$ đến hàng nghìn và đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Làm tròn đến hàng nghìn: chữ số hàng trăm là $3<5$, nên được $6\,481\,000$.
+
+Làm tròn đến hàng trăm nghìn: chữ số hàng chục nghìn là $8\geq5$, nên tăng $4$ thêm $1$ thành $5$, được $6\,500\,000$.
+
+**Đáp số.** $6\,481\,000$ và $6\,500\,000$.
+
+[ĐỀ – EN]
+Round $6\,481\,300$ to the nearest thousand and to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+To the nearest thousand: the hundreds digit is $3<5$, so we get $6\,481\,000$.
+
+To the nearest hundred thousand: the ten thousands digit is $8\geq5$, so increase $4$ by $1$ to make $5$, giving $6\,500\,000$.
+
+**Answer.** $6\,481\,000$ and $6\,500\,000$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức: $125\times8-360:6+14$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{aligned} 125\times8-360:6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+
+**Đáp số.** $954$.
+
+[ĐỀ – EN]
+Work out the value of the expression: $125\times8-360\div6+14$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{aligned} 125\times8-360\div6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+
+**Answer.** $954$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một nhà xuất bản in $24\,500$ cuốn sách vào tháng Một và $31\,750$ cuốn sách vào tháng Hai. Hỏi cả hai tháng nhà xuất bản in được bao nhiêu cuốn sách? Làm tròn kết quả đến hàng nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Số sách in được trong hai tháng là $24\,500+31\,750=56\,250$ (cuốn).
+
+Làm tròn đến hàng nghìn: chữ số hàng trăm là $2<5$ nên được $56\,000$.
+
+**Đáp số.** $56\,250$ cuốn, khoảng $56\,000$ cuốn.
+
+[ĐỀ – EN]
+A publisher prints $24\,500$ books in January and $31\,750$ books in February. How many books does the publisher print in the two months altogether? Round the result to the nearest thousand.
+
+[LỜI GIẢI CŨ – EN]
+The number of books printed in the two months is $24\,500+31\,750=56\,250$ (books).
+
+To the nearest thousand: the hundreds digit is $2<5$, so we get $56\,000$.
+
+**Answer.** $56\,250$ books, about $56\,000$ books.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Mẹ có $100\,000$ đồng và mua $3$ hộp sữa, mỗi hộp giá $24\,500$ đồng. Hỏi mẹ còn lại bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền mua $3$ hộp sữa là $24\,500\times3=73\,500$ (đồng).
+
+Số tiền mẹ còn lại là $100\,000-73\,500=26\,500$ (đồng).
+
+**Đáp số.** $26\,500$ đồng.
+
+[ĐỀ – EN]
+Mum has $100\,000$ dong and buys $3$ cartons of milk at $24\,500$ dong each. How much money does Mum have left?
+
+[LỜI GIẢI CŨ – EN]
+The cost of $3$ cartons of milk is $24\,500\times3=73\,500$ (dong).
+
+The money Mum has left is $100\,000-73\,500=26\,500$ (dong).
+
+**Answer.** $26\,500$ dong.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài tính chất của phép nhân. Tính bằng cách thuận tiện: $25\times37\times4$.
+
+[LỜI GIẢI CŨ – VI]
+$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+
+**Đáp số.** $3\,700$.
+
+[ĐỀ – EN]
+Remember the lesson on properties of multiplication. Calculate in the easy way: $25\times37\times4$.
+
+[LỜI GIẢI CŨ – EN]
+$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+
+**Answer.** $3\,700$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm chữ số $a$ để số $\overline{4a5}$ chia hết cho cả $5$ và $9$.
+
+[LỜI GIẢI CŨ – VI]
+Số $\overline{4a5}$ tận cùng bằng $5$ nên luôn chia hết cho $5$.
+
+Tổng các chữ số là $4+a+5=9+a$. Để chia hết cho $9$ thì $a$ phải bằng $0$ hoặc $9$.
+
+**Thử lại.** $405:9=45$ và $495:9=55$. Đúng.
+
+**Đáp số.** $a=0$ hoặc $a=9$.
+
+[ĐỀ – EN]
+Find the digit $a$ for which the number $\overline{4a5}$ is divisible by both $5$ and $9$.
+
+[LỜI GIẢI CŨ – EN]
+The number $\overline{4a5}$ ends in $5$, so it is always divisible by $5$.
+
+The digit sum is $4+a+5=9+a$. For this to be divisible by $9$, $a$ must be $0$ or $9$.
+
+**Check.** $405\div9=45$ and $495\div9=55$. Correct.
+
+**Answer.** $a=0$ or $a=9$.
+
+
+######################################################################
+@@@ g5/speed-uniform-motion
+Bài học: Vận tốc của một chuyển động đều. Quãng đường, thời gian của một chuyển động đều / Speed in uniform motion. Distance and time in uniform motion
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một xe máy đi $135$ km hết $3$ giờ. Tính vận tốc của xe máy.
+
+[LỜI GIẢI CŨ – VI]
+Vận tốc của xe máy là:
+$$135:3=45\ (\text{km/giờ}).$$
+**Đáp số.** $45$ km/giờ.
+
+[ĐỀ – EN]
+A motorbike travels $135$ km in $3$ hours. Find its speed.
+
+[LỜI GIẢI CŨ – EN]
+The speed of the motorbike is:
+$$135\div3=45\ (\text{km/h}).$$
+**Answer.** $45$ km/h.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một con ốc sên bò được $3$ m trong $5$ phút. Tính vận tốc của ốc sên theo m/phút.
+
+[LỜI GIẢI CŨ – VI]
+$$v=3:5=0{,}6\ (\text{m/phút}).$$
+**Đáp số.** $0{,}6$ m/phút.
+
+[ĐỀ – EN]
+A snail crawls $3$ m in $5$ minutes. Find the snail's speed in m/min.
+
+[LỜI GIẢI CŨ – EN]
+$$v=3\div5=0.6\ (\text{m/min}).$$
+**Answer.** $0.6$ m/min.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một ô tô đi với vận tốc $54$ km/giờ trong $2{,}5$ giờ. Tính quãng đường ô tô đi được.
+
+[LỜI GIẢI CŨ – VI]
+Quãng đường ô tô đi được là:
+$$54\times2{,}5=135\ (\text{km}).$$
+**Đáp số.** $135$ km.
+
+[ĐỀ – EN]
+A car travels at $54$ km/h for $2.5$ hours. Find the distance it travels.
+
+[LỜI GIẢI CŨ – EN]
+The distance the car travels is:
+$$54\times2.5=135\ (\text{km}).$$
+**Answer.** $135$ km.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một người đi bộ với vận tốc $5$ km/giờ. Hỏi người đó đi quãng đường $12$ km hết bao lâu? (Viết kết quả theo giờ và phút.)
+
+[LỜI GIẢI CŨ – VI]
+Thời gian đi là $12:5=2{,}4$ (giờ). Vì $0{,}4\times60=24$ nên $2{,}4$ giờ $=2$ giờ $24$ phút.
+
+**Đáp số.** $2$ giờ $24$ phút.
+
+[ĐỀ – EN]
+A walker goes at $5$ km/h. How long does the walker take to cover $12$ km? (Give the answer in hours and minutes.)
+
+[LỜI GIẢI CŨ – EN]
+The time is $12\div5=2.4$ (hours). Since $0.4\times60=24$, $2.4$ hours $=2$ hours $24$ minutes.
+
+**Answer.** $2$ hours $24$ minutes.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một tàu cá chạy với vận tốc $18$ km/giờ từ $6$ giờ đến $8$ giờ $30$ phút. Hỏi tàu cá chạy được bao nhiêu ki-lô-mét?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian chạy là $8$ giờ $30$ phút $-$ $6$ giờ $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là:
+$$18\times2{,}5=45\ (\text{km}).$$
+**Đáp số.** $45$ km.
+
+[ĐỀ – EN]
+A fishing boat travels at $18$ km/h from $6{:}00$ to $8{:}30$. How many kilometres does the boat travel?
+
+[LỜI GIẢI CŨ – EN]
+The travelling time is $8$ h $30$ min $-$ $6$ h $=2$ h $30$ min $=2.5$ h. The distance is:
+$$18\times2.5=45\ (\text{km}).$$
+**Answer.** $45$ km.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một người đi xe máy đi quãng đường $100$ km hết $2$ giờ $30$ phút. Tính vận tốc của người đó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2$ giờ $30$ phút $=2{,}5$ giờ. Vận tốc là:
+$$100:2{,}5=40\ (\text{km/giờ}).$$
+**Đáp số.** $40$ km/giờ.
+
+[ĐỀ – EN]
+A motorcyclist covers $100$ km in $2$ hours $30$ minutes. Find the speed of the motorcyclist.
+
+[LỜI GIẢI CŨ – EN]
+We have $2$ h $30$ min $=2.5$ h. The speed is:
+$$100\div2.5=40\ (\text{km/h}).$$
+**Answer.** $40$ km/h.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hành lúc $7$ giờ $45$ phút, đi $2$ giờ $30$ phút với vận tốc $48$ km/giờ thì đến B. Tính quãng đường AB và cho biết xe đến B lúc mấy giờ.
+
+[LỜI GIẢI CŨ – VI]
+Quãng đường AB là $48\times2{,}5=120$ (km). Xe đến B lúc:
+$$7\text{ giờ }45\text{ phút}+2\text{ giờ }30\text{ phút}=9\text{ giờ }75\text{ phút}=10\text{ giờ }15\text{ phút}.$$
+**Đáp số.** $120$ km; $10$ giờ $15$ phút.
+
+[ĐỀ – EN]
+Remember the lesson on adding and subtracting times. A vehicle leaves at $7{:}45$ and travels for $2$ h $30$ min at $48$ km/h to reach B. Find the distance AB and the time of arrival at B.
+
+[LỜI GIẢI CŨ – EN]
+The distance AB is $48\times2.5=120$ (km). The vehicle arrives at:
+$$7\text{ h }45\text{ min}+2\text{ h }30\text{ min}=9\text{ h }75\text{ min}=10\text{ h }15\text{ min}.$$
+**Answer.** $120$ km; $10{:}15$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Xe A đi $120$ km hết $3$ giờ. Xe B đi $150$ km hết $4$ giờ. Xe nào chạy nhanh hơn và nhanh hơn bao nhiêu ki-lô-mét mỗi giờ?
+
+[LỜI GIẢI CŨ – VI]
+Vận tốc xe A là $120:3=40$ (km/giờ). Vận tốc xe B là $150:4=37{,}5$ (km/giờ). Vì $40>37{,}5$ nên xe A nhanh hơn, và hơn $40-37{,}5=2{,}5$ (km/giờ).
+
+**Đáp số.** Xe A nhanh hơn, hơn $2{,}5$ km/giờ.
+
+[ĐỀ – EN]
+Car A travels $120$ km in $3$ hours. Car B travels $150$ km in $4$ hours. Which car is faster, and by how many kilometres per hour?
+
+[LỜI GIẢI CŨ – EN]
+The speed of car A is $120\div3=40$ (km/h). The speed of car B is $150\div4=37.5$ (km/h). Since $40>37.5$, car A is faster, by $40-37.5=2.5$ (km/h).
+
+**Answer.** Car A is faster, by $2.5$ km/h.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+An đi xe đạp từ nhà đến trường với vận tốc $12$ km/giờ và mất $20$ phút. Bình đi bộ từ nhà đến trường (cùng quãng đường) với vận tốc $4$ km/giờ. Hỏi Bình đi mất bao lâu?
+
+[LỜI GIẢI CŨ – VI]
+Vì $20$ phút $=\dfrac13$ giờ nên quãng đường từ nhà đến trường là:
+$$12\times\frac13=4\ (\text{km}).$$
+Thời gian Bình đi là $4:4=1$ (giờ).
+
+**Đáp số.** $1$ giờ.
+
+[ĐỀ – EN]
+An cycles from home to school at $12$ km/h and takes $20$ minutes. Binh walks from home to school (the same distance) at $4$ km/h. How long does Binh take?
+
+[LỜI GIẢI CŨ – EN]
+Since $20$ min $=\dfrac13$ hour, the distance from home to school is:
+$$12\times\frac13=4\ (\text{km}).$$
+Binh's time is $4\div4=1$ (hour).
+
+**Answer.** $1$ hour.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một bạn chạy với vận tốc $5$ m/giây. Nếu giữ nguyên vận tốc đó, một giờ bạn chạy được bao nhiêu ki-lô-mét? Vậy $5$ m/giây bằng bao nhiêu km/giờ?
+
+[LỜI GIẢI CŨ – VI]
+Trong $1$ giờ $=3600$ giây, bạn chạy được $5\times3600=18\,000$ (m) $=18$ (km). Vậy $5$ m/giây $=18$ km/giờ.
+
+**Đáp số.** $18$ km; $5$ m/giây $=18$ km/giờ.
+
+[ĐỀ – EN]
+A girl runs at $5$ m/s. If she keeps this speed, how many kilometres does she run in one hour? So how many km/h is $5$ m/s?
+
+[LỜI GIẢI CŨ – EN]
+In $1$ hour $=3600$ seconds she runs $5\times3600=18\,000$ (m) $=18$ (km). So $5$ m/s $=18$ km/h.
+
+**Answer.** $18$ km; $5$ m/s $=18$ km/h.
+
+
+===== HẾT FILE Vimus2358-LG-2 =====

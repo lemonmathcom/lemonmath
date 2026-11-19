@@ -1,0 +1,1410 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-LG-1   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-LG-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-LG-1
+Người làm: tài khoản Lemonmath112. Gói này có 35 bài tập thuộc 9 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath112-LG-1-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/9). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-LG-1-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g7/identifying-parallel-lines (4 bài tập)
+- g7/intro-to-events (7 bài tập)
+- g7/intro-to-probability (8 bài tập)
+- g7/isosceles-perpendicular-bisector (1 bài tập)
+- g7/line-graphs (1 bài tập)
+- g7/medians-angle-bisectors (9 bài tập)
+- g7/operations-and-transposition (2 bài tập)
+- g7/powers-of-rational-numbers (2 bài tập)
+- g7/proportions (1 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g7/identifying-parallel-lines
+Bài học: Hai đường thẳng song song và dấu hiệu nhận biết. Tiên đề Euclid. Tính chất của hai đường thẳng song song / Parallel lines and how to identify them. Euclid's axiom. Properties of parallel lines
+Cần viết lại lời giải các bài: 1, 2, 4, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đường thẳng $c$ cắt $a$ tại $A$, cắt $b$ tại $B$ (cách đánh số như hình lí thuyết). Điền vào chỗ trống:
+
+a) $\widehat{A}_3$ và $\widehat{B}_5$ là hai góc ...
+
+b) $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc ...
+
+c) $\widehat{A}_4$ và $\widehat{B}_5$ là hai góc ...
+
+[LỜI GIẢI CŨ – VI]
+a) $\widehat{A}_3$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và khác phía đối với $c$, nên là hai góc so le trong.
+
+b) $\widehat{A}_2$ nằm ngoài, $\widehat{B}_6$ nằm giữa $a$, $b$, cùng phía bên phải $c$, nên là hai góc đồng vị.
+
+c) $\widehat{A}_4$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và cùng phía bên trái $c$, nên là hai góc trong cùng phía.
+
+**Đáp số.** a) so le trong; b) đồng vị; c) trong cùng phía.
+
+[ĐỀ – EN]
+The line $c$ crosses $a$ at $A$ and $b$ at $B$ (numbered as in the figure in the lesson). Fill in the blanks:
+
+a) $\angle A_3$ and $\angle B_5$ are ... angles.
+
+b) $\angle A_2$ and $\angle B_6$ are ... angles.
+
+c) $\angle A_4$ and $\angle B_5$ are ... angles.
+
+[LỜI GIẢI CŨ – EN]
+a) $\angle A_3$ and $\angle B_5$ both lie between $a$ and $b$ on opposite sides of $c$, so they are alternate angles.
+
+b) $\angle A_2$ is outside, $\angle B_6$ is between $a$ and $b$, and both are to the right of $c$, so they are corresponding angles.
+
+c) $\angle A_4$ and $\angle B_5$ both lie between $a$ and $b$ and both to the left of $c$, so they are co-interior angles.
+
+**Answer.** a) alternate; b) corresponding; c) co-interior.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đường thẳng $c$ cắt $a$, $b$ tại $A$, $B$ và $\widehat{A}_2=\widehat{B}_6=118^\circ$. Chứng tỏ $a\parallel b$.
+
+[LỜI GIẢI CŨ – VI]
+Hai góc $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc đồng vị và $\widehat{A}_2=\widehat{B}_6=118^\circ$ (giả thiết).
+
+Vì có một cặp góc đồng vị bằng nhau nên theo dấu hiệu nhận biết hai đường thẳng song song, $a\parallel b$.
+
+**Đáp số.** $a\parallel b$.
+
+[ĐỀ – EN]
+The line $c$ crosses $a$, $b$ at $A$, $B$ and $\angle A_2=\angle B_6=118^\circ$. Show that $a\parallel b$.
+
+[LỜI GIẢI CŨ – EN]
+The angles $\angle A_2$ and $\angle B_6$ are corresponding angles and $\angle A_2=\angle B_6=118^\circ$ (given).
+
+Since one pair of corresponding angles is equal, by the test for parallel lines, $a\parallel b$.
+
+**Answer.** $a\parallel b$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Tìm $x$ trong mỗi trường hợp:
+
+a) Hai góc so le trong là $(3x+10)^\circ$ và $(x+50)^\circ$.
+
+b) Hai góc trong cùng phía là $(2x+20)^\circ$ và $(x+10)^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) Vì $a\parallel b$ nên $3x+10=x+50$, suy ra $2x=40$, $x=20$. Mỗi góc bằng $70^\circ$.
+
+b) Vì $a\parallel b$ nên $(2x+20)+(x+10)=180$, suy ra $3x=150$, $x=50$. Hai góc là $120^\circ$ và $60^\circ$.
+
+**Đáp số.** a) $x=20$; b) $x=50$.
+
+[ĐỀ – EN]
+$a\parallel b$ and a line $c$ crosses $a$, $b$. Find $x$ in each case:
+
+a) The alternate angles are $(3x+10)^\circ$ and $(x+50)^\circ$.
+
+b) The co-interior angles are $(2x+20)^\circ$ and $(x+10)^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) Since $a\parallel b$, $3x+10=x+50$, so $2x=40$ and $x=20$. Each angle is $70^\circ$.
+
+b) Since $a\parallel b$, $(2x+20)+(x+10)=180$, so $3x=150$ and $x=50$. The angles are $120^\circ$ and $60^\circ$.
+
+**Answer.** a) $x=20$; b) $x=50$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho $a\parallel b$, $c$ cắt $a$ tại $A$, cắt $b$ tại $B$. Tia $Am$ là phân giác của $\widehat{A}_3$, tia $Bn$ là phân giác của $\widehat{B}_5$ ($Am$ và $Bn$ nằm về hai phía của $c$). Chứng minh $Am\parallel Bn$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $a\parallel b$ nên $\widehat{A}_3=\widehat{B}_5$ (so le trong).
+
+Vì $Am$ là phân giác của $\widehat{A}_3$ nên $\widehat{mAB}=\dfrac12\widehat{A}_3$. Vì $Bn$ là phân giác của $\widehat{B}_5$ nên $\widehat{ABn}=\dfrac12\widehat{B}_5$. Mà $\widehat{A}_3=\widehat{B}_5$ nên $\widehat{mAB}=\widehat{ABn}$.
+
+Hai góc $\widehat{mAB}$ và $\widehat{ABn}$ nằm ở vị trí so le trong đối với hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $AB$. Theo dấu hiệu nhận biết, $Am\parallel Bn$.
+
+**Đáp số.** Đã chứng minh.
+
+[ĐỀ – EN]
+$a\parallel b$, and $c$ crosses $a$ at $A$ and $b$ at $B$. The ray $Am$ bisects $\angle A_3$ and the ray $Bn$ bisects $\angle B_5$ ($Am$ and $Bn$ lie on opposite sides of $c$). Prove that $Am\parallel Bn$.
+
+[LỜI GIẢI CŨ – EN]
+Since $a\parallel b$, $\angle A_3=\angle B_5$ (alternate angles).
+
+Since $Am$ bisects $\angle A_3$, $\angle mAB=\dfrac12\angle A_3$. Since $Bn$ bisects $\angle B_5$, $\angle ABn=\dfrac12\angle B_5$. As $\angle A_3=\angle B_5$, we get $\angle mAB=\angle ABn$.
+
+The angles $\angle mAB$ and $\angle ABn$ are alternate angles for the two lines $Am$, $Bn$ and the transversal $AB$. By the test for parallel lines, $Am\parallel Bn$.
+
+**Answer.** Proved.
+
+
+######################################################################
+@@@ g7/intro-to-events
+Bài học: Làm quen với biến cố / Introducing events
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mỗi biến cố sau là chắc chắn, không thể hay ngẫu nhiên?
+
+a) Rút một thẻ từ hộp chỉ có thẻ xanh: thẻ rút được màu xanh.
+
+b) Tung một đồng xu: xuất hiện mặt sấp.
+
+c) Gieo một con xúc xắc: số chấm bằng $0$.
+
+d) Một túi có $5$ bi đỏ và $3$ bi xanh, lấy một bi: được bi vàng.
+
+e) Cũng túi đó, lấy một bi: được bi đỏ hoặc bi xanh.
+
+[LỜI GIẢI CŨ – VI]
+Ta xét từng biến cố xem nó xảy ra với mọi kết quả, không kết quả nào hay một số kết quả.
+
+a) Hộp chỉ có thẻ xanh nên thẻ rút ra luôn xanh: chắc chắn.
+
+b) Đồng xu có thể ra sấp hoặc ngửa: ngẫu nhiên.
+
+c) Xúc xắc không có mặt $0$ chấm: không thể.
+
+d) Túi không có bi vàng: không thể.
+
+e) Túi chỉ có bi đỏ và bi xanh nên bi lấy ra luôn thuộc hai màu đó: chắc chắn.
+
+**Đáp số.** a) chắc chắn; b) ngẫu nhiên; c) không thể; d) không thể; e) chắc chắn.
+
+[ĐỀ – EN]
+Is each of the following events certain, impossible or random?
+
+a) A card is drawn from a box that holds only blue cards: the card is blue.
+
+b) A coin is tossed: it shows heads.
+
+c) A fair dice is rolled: the number of dots is $0$.
+
+d) A bag has $5$ red balls and $3$ blue balls, and one ball is taken: it is yellow.
+
+e) From the same bag, one ball is taken: it is red or blue.
+
+[LỜI GIẢI CŨ – EN]
+We check each event: does it happen for every outcome, for none, or for some?
+
+a) The box has only blue cards, so the card drawn is always blue: certain.
+
+b) The coin may show heads or tails: random.
+
+c) A dice has no face with $0$ dots: impossible.
+
+d) The bag has no yellow ball: impossible.
+
+e) The bag has only red and blue balls, so the ball taken is always one of those colours: certain.
+
+**Answer.** a) certain; b) random; c) impossible; d) impossible; e) certain.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối. Liệt kê các kết quả thuận lợi và tính xác suất của các biến cố:
+
+a) $A$: "số chấm là số nguyên tố".
+
+b) $B$: "số chấm lớn hơn $2$ và nhỏ hơn $6$".
+
+c) $C$: "số chấm chia hết cho $7$".
+
+[LỜI GIẢI CŨ – VI]
+Có $6$ kết quả đồng khả năng: $1$, $2$, $3$, $4$, $5$, $6$.
+
+a) Các số nguyên tố là $2$, $3$, $5$ ($3$ kết quả), nên $P(A)=\dfrac36=\dfrac12$.
+
+b) Các số thoả mãn là $3$, $4$, $5$ ($3$ kết quả), nên $P(B)=\dfrac36=\dfrac12$.
+
+c) Không số nào trong $1$ đến $6$ chia hết cho $7$, nên $C$ là biến cố không thể và $P(C)=0$.
+
+**Đáp số.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
+
+[ĐỀ – EN]
+A fair dice is rolled. List the favourable outcomes and find the probability of each event:
+
+a) $A$: "the number of dots is a prime number".
+
+b) $B$: "the number of dots is greater than $2$ and less than $6$".
+
+c) $C$: "the number of dots is a multiple of $7$".
+
+[LỜI GIẢI CŨ – EN]
+There are $6$ equally likely outcomes: $1$, $2$, $3$, $4$, $5$, $6$.
+
+a) The primes are $2$, $3$, $5$ ($3$ outcomes), so $P(A)=\dfrac36=\dfrac12$.
+
+b) The numbers that fit are $3$, $4$, $5$ ($3$ outcomes), so $P(B)=\dfrac36=\dfrac12$.
+
+c) No number from $1$ to $6$ is a multiple of $7$, so $C$ is impossible and $P(C)=0$.
+
+**Answer.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hộp có $12$ thẻ giống hệt nhau, đánh số từ $1$ đến $12$. Rút ngẫu nhiên một thẻ. Tính xác suất của các biến cố: "thẻ số chia hết cho $3$", "thẻ số nguyên tố", "thẻ số lớn hơn $12$". Biến cố nào trong ba biến cố ấy dễ xảy ra hơn: chia hết cho $3$ hay nguyên tố?
+
+[LỜI GIẢI CŨ – VI]
+Có $12$ kết quả đồng khả năng.
+
+Thẻ chia hết cho $3$ là $3$, $6$, $9$, $12$ ($4$ kết quả), nên xác suất là $\dfrac{4}{12}=\dfrac13$.
+
+Thẻ nguyên tố là $2$, $3$, $5$, $7$, $11$ ($5$ kết quả), nên xác suất là $\dfrac{5}{12}$.
+
+Không có thẻ nào lớn hơn $12$, nên xác suất của biến cố thứ ba là $0$.
+
+Vì $\dfrac{5}{12}>\dfrac{4}{12}$ nên biến cố "thẻ số nguyên tố" dễ xảy ra hơn.
+
+**Đáp số.** $\dfrac13$; $\dfrac{5}{12}$; $0$; biến cố "nguyên tố" dễ xảy ra hơn.
+
+[ĐỀ – EN]
+A box has $12$ identical cards numbered $1$ to $12$. One card is drawn at random. Find the probabilities of the events: "the card is a multiple of $3$", "the card is a prime number", "the card is greater than $12$". Which is more likely: a multiple of $3$ or a prime?
+
+[LỜI GIẢI CŨ – EN]
+There are $12$ equally likely outcomes.
+
+The multiples of $3$ are $3$, $6$, $9$, $12$ ($4$ outcomes), so the probability is $\dfrac{4}{12}=\dfrac13$.
+
+The primes are $2$, $3$, $5$, $7$, $11$ ($5$ outcomes), so the probability is $\dfrac{5}{12}$.
+
+No card is greater than $12$, so the probability of the third event is $0$.
+
+Since $\dfrac{5}{12}>\dfrac{4}{12}$, the event "a prime number" is more likely.
+
+**Answer.** $\dfrac13$; $\dfrac{5}{12}$; $0$; "a prime number" is more likely.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một túi có $4$ bi đỏ, $3$ bi xanh, $2$ bi vàng và $1$ bi trắng, các viên bi giống hệt nhau về kích thước. Lấy ngẫu nhiên một viên bi.
+
+a) Tính xác suất lấy được bi đỏ.
+
+b) Tính xác suất lấy được bi không phải màu xanh.
+
+c) Màu bi nào có khả năng được lấy ra cao nhất?
+
+[LỜI GIẢI CŨ – VI]
+Tổng số bi là $4+3+2+1=10$, nên có $10$ kết quả đồng khả năng.
+
+a) Có $4$ bi đỏ nên xác suất là $\dfrac{4}{10}=\dfrac25$.
+
+b) Số bi không phải màu xanh là $10-3=7$, nên xác suất là $\dfrac{7}{10}$.
+
+c) Màu đỏ có nhiều bi nhất ($4$ bi) nên có khả năng được lấy ra cao nhất.
+
+**Đáp số.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) màu đỏ.
+
+[ĐỀ – EN]
+A bag has $4$ red balls, $3$ blue balls, $2$ yellow balls and $1$ white ball, all the same size. One ball is taken at random.
+
+a) Find the probability of taking a red ball.
+
+b) Find the probability of taking a ball that is not blue.
+
+c) Which colour is the most likely to be taken?
+
+[LỜI GIẢI CŨ – EN]
+The total number of balls is $4+3+2+1=10$, so there are $10$ equally likely outcomes.
+
+a) There are $4$ red balls, so the probability is $\dfrac{4}{10}=\dfrac25$.
+
+b) The number of balls that are not blue is $10-3=7$, so the probability is $\dfrac{7}{10}$.
+
+c) Red has the most balls ($4$), so red is the most likely colour to be taken.
+
+**Answer.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) red.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan và Minh chơi rút một thẻ từ hộp $10$ thẻ giống hệt nhau, đánh số từ $1$ đến $10$. Lan thắng nếu rút được thẻ số lẻ; Minh thắng nếu rút được thẻ số lớn hơn $7$. Ai có lợi hơn? Hãy sửa luật của Minh để trò chơi công bằng.
+
+[LỜI GIẢI CŨ – VI]
+Có $10$ kết quả đồng khả năng.
+
+Lan thắng với các thẻ $1$, $3$, $5$, $7$, $9$ ($5$ kết quả), nên xác suất là $\dfrac{5}{10}=\dfrac12$.
+
+Minh thắng với các thẻ $8$, $9$, $10$ ($3$ kết quả), nên xác suất là $\dfrac{3}{10}$.
+
+Vì $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$ nên Lan có lợi hơn.
+
+Nếu Minh thắng khi thẻ "lớn hơn $5$" (các thẻ $6$, $7$, $8$, $9$, $10$) thì xác suất là $\dfrac{5}{10}=\dfrac12$, trò chơi công bằng.
+
+**Đáp số.** Lan có lợi hơn; đổi luật của Minh thành "thẻ lớn hơn $5$".
+
+[ĐỀ – EN]
+Lan and Minh play a game by drawing one card from a box of $10$ identical cards numbered $1$ to $10$. Lan wins if the card is odd; Minh wins if the card is greater than $7$. Who has the advantage? Change Minh's rule to make the game fair.
+
+[LỜI GIẢI CŨ – EN]
+There are $10$ equally likely outcomes.
+
+Lan wins with the cards $1$, $3$, $5$, $7$, $9$ ($5$ outcomes), so the probability is $\dfrac{5}{10}=\dfrac12$.
+
+Minh wins with the cards $8$, $9$, $10$ ($3$ outcomes), so the probability is $\dfrac{3}{10}$.
+
+Since $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$, Lan has the advantage.
+
+If Minh wins when the card is "greater than $5$" (cards $6$, $7$, $8$, $9$, $10$), his probability is $\dfrac{5}{10}=\dfrac12$ and the game is fair.
+
+**Answer.** Lan has the advantage; change Minh's rule to "a card greater than $5$".
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lớp 7A có $40$ học sinh, gồm $24$ bạn nữ và $16$ bạn nam. Cô giáo chọn ngẫu nhiên một bạn để trực nhật. Tính xác suất bạn được chọn là nữ, là nam; viết các xác suất đó dưới dạng phần trăm. (Ôn lại bài [tỉ số phần trăm](lesson:ratio-percentage-problems).)
+
+[LỜI GIẢI CŨ – VI]
+Có $40$ kết quả đồng khả năng.
+
+Xác suất chọn được bạn nữ là $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+
+Xác suất chọn được bạn nam là $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+
+Kiểm tra: $60\%+40\%=100\%$, vì bạn được chọn chắc chắn là nữ hoặc nam.
+
+**Đáp số.** Nữ: $\dfrac35=60\%$; nam: $\dfrac25=40\%$.
+
+[ĐỀ – EN]
+Class 7A has $40$ students: $24$ girls and $16$ boys. The teacher chooses one student at random to clean the board. Find the probability that the student chosen is a girl, and that it is a boy; write these probabilities as percentages. (Revise the lesson on [percentages](lesson:ratio-percentage-problems).)
+
+[LỜI GIẢI CŨ – EN]
+There are $40$ equally likely outcomes.
+
+The probability of choosing a girl is $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+
+The probability of choosing a boy is $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+
+Check: $60\%+40\%=100\%$, because the student chosen is certainly a girl or a boy.
+
+**Answer.** Girl: $\dfrac35=60\%$; boy: $\dfrac25=40\%$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một vòng quay được chia thành $10$ ô bằng nhau gồm bốn loại: Giải nhất, Giải nhì, Giải ba và "Không giải". Cần thiết kế sao cho xác suất trúng Giải nhất là $\dfrac{1}{10}$, trúng Giải nhì là $\dfrac15$ và trúng Giải ba là $\dfrac{3}{10}$.
+
+a) Mỗi loại cần bao nhiêu ô?
+
+b) Xác suất không trúng giải là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+a) Xác suất $\dfrac{1}{10}$ ứng với $1$ ô. Xác suất $\dfrac15=\dfrac{2}{10}$ ứng với $2$ ô. Xác suất $\dfrac{3}{10}$ ứng với $3$ ô. Số ô "Không giải" là $10-1-2-3=4$.
+
+b) Xác suất không trúng giải là $\dfrac{4}{10}=\dfrac25$.
+
+Kiểm tra: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+**Đáp số.** a) Giải nhất $1$ ô, Giải nhì $2$ ô, Giải ba $3$ ô, Không giải $4$ ô. b) $\dfrac25$.
+
+[ĐỀ – EN]
+A spinner is divided into $10$ equal sections of four kinds: First prize, Second prize, Third prize and "No prize". It must be designed so that the probability of First prize is $\dfrac{1}{10}$, of Second prize is $\dfrac15$ and of Third prize is $\dfrac{3}{10}$.
+
+a) How many sections of each kind are needed?
+
+b) What is the probability of winning no prize?
+
+[LỜI GIẢI CŨ – EN]
+a) A probability of $\dfrac{1}{10}$ needs $1$ section. A probability of $\dfrac15=\dfrac{2}{10}$ needs $2$ sections. A probability of $\dfrac{3}{10}$ needs $3$ sections. The number of "No prize" sections is $10-1-2-3=4$.
+
+b) The probability of winning no prize is $\dfrac{4}{10}=\dfrac25$.
+
+Check: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+**Answer.** a) First prize $1$ section, Second prize $2$, Third prize $3$, No prize $4$. b) $\dfrac25$.
+
+
+######################################################################
+@@@ g7/intro-to-probability
+Bài học: Làm quen với xác suất của biến cố / Getting to know the probability of an event
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối.
+
+a) Liệt kê các kết quả có thể.
+
+b) Biến cố $A$: "Số chấm là số lẻ". Liệt kê các kết quả thuận lợi cho $A$ và tính $P(A)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Có $6$ kết quả: $1, 2, 3, 4, 5, 6$.
+
+b) Kết quả thuận lợi cho $A$ là $1, 3, 5$, nên $k=3$ và $P(A)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $6$ kết quả; b) $P(A)=\dfrac12$.
+
+[ĐỀ – EN]
+Roll a fair die.
+
+a) List the possible outcomes.
+
+b) Let $A$ be the event "The score is odd". List the outcomes favourable to $A$ and find $P(A)$.
+
+[LỜI GIẢI CŨ – EN]
+a) There are $6$ outcomes: $1, 2, 3, 4, 5, 6$.
+
+b) The outcomes favourable to $A$ are $1, 3, 5$, so $k=3$ and $P(A)=\dfrac36=\dfrac12$.
+
+**Answer.** a) $6$ outcomes; b) $P(A)=\dfrac12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một hộp có $15$ viên kẹo cùng cỡ: $6$ viên cam, $5$ viên dâu, $4$ viên nho. Lấy ngẫu nhiên một viên. Tính xác suất lấy được kẹo cam, kẹo dâu, kẹo nho.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{cam})=\dfrac{6}{15}=\dfrac25$; $P(\text{dâu})=\dfrac{5}{15}=\dfrac13$; $P(\text{nho})=\dfrac{4}{15}$.
+
+**Đáp số.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
+
+[ĐỀ – EN]
+A box holds $15$ sweets of the same size: $6$ orange, $5$ strawberry and $4$ grape. One sweet is taken at random. Find the probability of taking an orange sweet, a strawberry sweet and a grape sweet.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{orange})=\dfrac{6}{15}=\dfrac25$; $P(\text{strawberry})=\dfrac{5}{15}=\dfrac13$; $P(\text{grape})=\dfrac{4}{15}$.
+
+**Answer.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hãy nhớ lại bài trước (biến cố). Gieo một con xúc xắc cân đối. Mỗi biến cố sau là chắc chắn, không thể hay ngẫu nhiên? Tính xác suất của mỗi biến cố.
+
+a) "Số chấm nhỏ hơn $7$".
+
+b) "Số chấm bằng $0$".
+
+c) "Số chấm lớn hơn $4$".
+
+[LỜI GIẢI CŨ – VI]
+a) Cả $6$ kết quả đều nhỏ hơn $7$: chắc chắn, $P=\dfrac66=1$.
+
+b) Không có kết quả nào bằng $0$: không thể, $P=0$.
+
+c) Các kết quả $5, 6$: ngẫu nhiên, $P=\dfrac26=\dfrac13$.
+
+**Đáp số.** a) Chắc chắn, $1$; b) không thể, $0$; c) ngẫu nhiên, $\dfrac13$.
+
+[ĐỀ – EN]
+Remember the last lesson (events). Roll a fair die. Is each event below certain, impossible or random? Find the probability of each event.
+
+a) "The score is less than $7$".
+
+b) "The score is $0$".
+
+c) "The score is greater than $4$".
+
+[LỜI GIẢI CŨ – EN]
+a) All $6$ outcomes are less than $7$: certain, $P=\dfrac66=1$.
+
+b) No outcome is $0$: impossible, $P=0$.
+
+c) The outcomes $5, 6$: random, $P=\dfrac26=\dfrac13$.
+
+**Answer.** a) Certain, $1$; b) impossible, $0$; c) random, $\dfrac13$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất để thẻ rút được:
+
+a) ghi số nhỏ hơn $6$;
+
+b) ghi số chẵn;
+
+c) ghi số có một chữ số.
+
+[LỜI GIẢI CŨ – VI]
+a) Các số $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+
+b) Các số chẵn $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+
+c) Các số $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+
+**Đáp số.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
+
+[ĐỀ – EN]
+A bag holds $20$ cards numbered from $1$ to $20$. One card is drawn at random. Find the probability that the card shows:
+
+a) a number less than $6$;
+
+b) an even number;
+
+c) a one-digit number.
+
+[LỜI GIẢI CŨ – EN]
+a) The numbers $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+
+b) The even numbers $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+
+c) The numbers $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+
+**Answer.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hộp $A$ có $3$ bi đỏ và $7$ bi xanh. Hộp $B$ có $2$ bi đỏ và $3$ bi xanh. Lấy ngẫu nhiên một viên bi từ mỗi hộp. Lấy từ hộp nào thì khả năng được bi đỏ lớn hơn? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Hộp $A$ có $10$ viên: $P_A=\dfrac{3}{10}$. Hộp $B$ có $5$ viên: $P_B=\dfrac25=\dfrac{4}{10}$. Vì $\dfrac{3}{10}<\dfrac{4}{10}$ nên $P_A<P_B$.
+
+**Đáp số.** Hộp $B$, vì $\dfrac25>\dfrac{3}{10}$.
+
+[ĐỀ – EN]
+Box $A$ has $3$ red and $7$ blue marbles. Box $B$ has $2$ red and $3$ blue marbles. One marble is taken at random from each box. From which box are you more likely to get a red marble? Why?
+
+[LỜI GIẢI CŨ – EN]
+Box $A$ has $10$ marbles: $P_A=\dfrac{3}{10}$. Box $B$ has $5$ marbles: $P_B=\dfrac25=\dfrac{4}{10}$. Since $\dfrac{3}{10}<\dfrac{4}{10}$, $P_A<P_B$.
+
+**Answer.** Box $B$, because $\dfrac25>\dfrac{3}{10}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Mai: "Hộp có $5$ bi đỏ và $1$ bi xanh. Hộp chỉ có hai màu nên xác suất lấy được bi xanh là $\dfrac12$."
+
+b) Bình: "Gieo xúc xắc, biến cố $M$: số chấm chia hết cho $2$. Các kết quả thuận lợi là $2, 4, 6$ nên $P(M)=\dfrac33=1$."
+
+[LỜI GIẢI CŨ – VI]
+a) Mai coi hai màu có khả năng như nhau, nhưng bi đỏ nhiều hơn bi xanh. Mỗi viên bi mới là một kết quả: $n=6$, $k=1$, nên $P=\dfrac16$.
+
+b) Bình lấy $n=3$, trong khi xúc xắc có $6$ kết quả có thể. Đúng là $P(M)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $\dfrac16$; b) $\dfrac12$.
+
+[ĐỀ – EN]
+Find the mistake in each student's work and correct it.
+
+a) Mai: "A box has $5$ red marbles and $1$ blue marble. There are only two colours, so the probability of taking a blue marble is $\dfrac12$."
+
+b) Binh: "Roll a die; let $M$ be the event that the score is divisible by $2$. The favourable outcomes are $2, 4, 6$, so $P(M)=\dfrac33=1$."
+
+[LỜI GIẢI CŨ – EN]
+a) Mai treats the two colours as equally likely, but there are more red marbles than blue ones. Each marble is one outcome: $n=6$, $k=1$, so $P=\dfrac16$.
+
+b) Binh used $n=3$, but a die has $6$ possible outcomes. The right answer is $P(M)=\dfrac36=\dfrac12$.
+
+**Answer.** a) $\dfrac16$; b) $\dfrac12$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lớp $7$B có $40$ học sinh, trong đó có $22$ bạn nữ. Cô giáo gọi ngẫu nhiên một bạn lên bảng.
+
+a) Tính xác suất bạn được gọi là nữ.
+
+b) Tính xác suất bạn được gọi là nam.
+
+c) Cộng hai xác suất ở câu a) và b). Vì sao kết quả như vậy?
+
+[LỜI GIẢI CŨ – VI]
+a) $P(\text{nữ})=\dfrac{22}{40}=\dfrac{11}{20}$.
+
+b) Số bạn nam là $40-22=18$, nên $P(\text{nam})=\dfrac{18}{40}=\dfrac{9}{20}$.
+
+c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Mỗi bạn hoặc là nữ hoặc là nam, nên biến cố "nữ hoặc nam" là chắc chắn.
+
+**Đáp số.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
+
+[ĐỀ – EN]
+Class $7$B has $40$ students, $22$ of them girls. The teacher calls one student to the board at random.
+
+a) Find the probability that the student called is a girl.
+
+b) Find the probability that the student called is a boy.
+
+c) Add the two probabilities from parts a) and b). Why do you get this result?
+
+[LỜI GIẢI CŨ – EN]
+a) $P(\text{girl})=\dfrac{22}{40}=\dfrac{11}{20}$.
+
+b) The number of boys is $40-22=18$, so $P(\text{boy})=\dfrac{18}{40}=\dfrac{9}{20}$.
+
+c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Every student is either a girl or a boy, so the event "a girl or a boy" is certain.
+
+**Answer.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một hộp có $30$ viên bi, được ghi lại trong bảng sau:
+
+| Màu | Đỏ | Xanh | Vàng | Trắng |
+|---|---|---|---|---|
+| Số viên | $6$ | $9$ | $5$ | $10$ |
+
+Lấy ngẫu nhiên một viên bi. Tính xác suất lấy được mỗi màu rồi cộng bốn xác suất lại.
+
+[LỜI GIẢI CŨ – VI]
+Tổng số bi là $6+9+5+10=30$. Các xác suất là $P(\text{đỏ})=\dfrac{6}{30}=\dfrac15$, $P(\text{xanh})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{vàng})=\dfrac{5}{30}=\dfrac16$, $P(\text{trắng})=\dfrac{10}{30}=\dfrac13$. Tổng bốn xác suất là $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+
+**Đáp số.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; tổng bằng $1$.
+
+[ĐỀ – EN]
+A box holds $30$ marbles, as recorded in the table below:
+
+| Colour | Red | Blue | Yellow | White |
+|---|---|---|---|---|
+| Number of marbles | $6$ | $9$ | $5$ | $10$ |
+
+One marble is taken at random. Find the probability of each colour, then add the four probabilities.
+
+[LỜI GIẢI CŨ – EN]
+The total number of marbles is $6+9+5+10=30$. The probabilities are $P(\text{red})=\dfrac{6}{30}=\dfrac15$, $P(\text{blue})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{yellow})=\dfrac{5}{30}=\dfrac16$, $P(\text{white})=\dfrac{10}{30}=\dfrac13$. The sum of the four probabilities is $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+
+**Answer.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; they add up to $1$.
+
+
+######################################################################
+@@@ g7/isosceles-perpendicular-bisector
+Bài học: Tam giác cân. Đường trung trực của đoạn thẳng / Isosceles triangles. The perpendicular bisector of a line segment
+Cần viết lại lời giải các bài: 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD=CE$. Chứng minh tam giác $ADE$ cân. (Ôn lại c.g.c.)
+
+[LỜI GIẢI CŨ – VI]
+Vì tam giác $ABC$ cân tại $A$ nên $AB=AC$ và $\widehat{ABC}=\widehat{ACB}$. Vì $\widehat{ABD}$ và $\widehat{ABC}$ kề bù, $\widehat{ACE}$ và $\widehat{ACB}$ kề bù nên $\widehat{ABD}=180^\circ-\widehat{ABC}=180^\circ-\widehat{ACB}=\widehat{ACE}$.
+
+Xét tam giác $ABD$ và tam giác $ACE$ có:
+
+- $AB=AC$ (chứng minh trên);
+- $\widehat{ABD}=\widehat{ACE}$ (chứng minh trên);
+- $BD=CE$ (gt).
+
+Do đó $\triangle ABD=\triangle ACE$ (c.g.c). Suy ra $AD=AE$, tức tam giác $ADE$ cân tại $A$.
+
+**Đáp số.** Chứng minh xong.
+
+[ĐỀ – EN]
+Triangle $ABC$ is isosceles with apex $A$. On the extension of $CB$ beyond $B$ take a point $D$, and on the extension of $BC$ beyond $C$ take a point $E$, with $BD=CE$. Prove that triangle $ADE$ is isosceles. (This revisits SAS.)
+
+[LỜI GIẢI CŨ – EN]
+Since triangle $ABC$ is isosceles with apex $A$, $AB=AC$ and $\angle ABC=\angle ACB$. Since $\angle ABD$ and $\angle ABC$ are adjacent on a straight line, and so are $\angle ACE$ and $\angle ACB$, we get $\angle ABD=180^\circ-\angle ABC=180^\circ-\angle ACB=\angle ACE$.
+
+Consider triangles $ABD$ and $ACE$. We have:
+
+- $AB=AC$ (shown above);
+- $\angle ABD=\angle ACE$ (shown above);
+- $BD=CE$ (given).
+
+Hence $\triangle ABD\equiv\triangle ACE$ (SAS). So $AD=AE$, that is, triangle $ADE$ is isosceles with apex $A$.
+
+**Answer.** Proved.
+
+
+######################################################################
+@@@ g7/line-graphs
+Bài học: Biểu đồ đoạn thẳng / Line graphs
+Cần viết lại lời giải các bài: 3 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cân nặng của một chú chó con trong sáu tháng đầu đời như sau (số liệu giả định):
+
+| Tháng | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Cân nặng (kg) | 2 | 3 | 6 | 6 | 7 | 8 |
+
+a) Nêu cách vẽ biểu đồ đoạn thẳng biểu diễn bảng số liệu này.
+
+b) Cân nặng của chó không đổi trong khoảng thời gian nào?
+
+c) Đoạn thẳng nào dốc nhất?
+
+[LỜI GIẢI CŨ – VI]
+a) Vẽ trục ngang ghi các tháng từ $1$ đến $6$ cách đều nhau. Vẽ trục đứng từ $0$ đến $8$, mỗi vạch ứng với $1$ kg, ghi đơn vị "kg". Đánh dấu các điểm $(1; 2)$, $(2; 3)$, $(3; 6)$, $(4; 6)$, $(5; 7)$, $(6; 8)$ rồi nối các điểm liên tiếp bằng đoạn thẳng, ghi tên biểu đồ.
+
+b) Cân nặng tháng 3 và tháng 4 đều là $6$ kg, nên cân nặng không đổi từ tháng 3 đến tháng 4 (đoạn thẳng nằm ngang).
+
+c) Mức tăng ở các khoảng là $1$; $3$; $0$; $1$; $1$ (kg). Mức tăng lớn nhất là $3$ kg, nên đoạn thẳng nối tháng 2 với tháng 3 dốc nhất.
+
+**Đáp số.** b) Từ tháng 3 đến tháng 4; c) đoạn nối tháng 2 và tháng 3.
+
+[ĐỀ – EN]
+The weight of a puppy in its first six months is as follows (made-up data):
+
+| Month | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Weight (kg) | 2 | 3 | 6 | 6 | 7 | 8 |
+
+a) Describe how to draw a line graph of this table.
+
+b) During which period did the puppy's weight stay the same?
+
+c) Which segment is the steepest?
+
+[LỜI GIẢI CŨ – EN]
+a) Draw a horizontal axis with the months $1$ to $6$ equally spaced. Draw a vertical axis from $0$ to $8$, each mark standing for $1$ kg, and write the unit "kg". Mark the points $(1, 2)$, $(2, 3)$, $(3, 6)$, $(4, 6)$, $(5, 7)$, $(6, 8)$, join consecutive points with line segments and give the graph a title.
+
+b) The weight in months 3 and 4 is $6$ kg in both, so the weight stays the same from month 3 to month 4 (a horizontal segment).
+
+c) The rises in the intervals are $1$; $3$; $0$; $1$; $1$ (kg). The greatest rise is $3$ kg, so the segment from month 2 to month 3 is the steepest.
+
+**Answer.** b) From month 3 to month 4; c) the segment from month 2 to month 3.
+
+
+######################################################################
+@@@ g7/medians-angle-bisectors
+Bài học: Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác / Concurrency of the three medians and the three angle bisectors of a triangle
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=15$ cm.
+
+a) Viết tỉ số $\dfrac{AG}{AM}$.
+
+b) Tính $AG$ và $GM$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{AG}{AM}=\dfrac23$.
+
+b) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+**Đáp số.** a) $\dfrac23$; b) $AG=10$ cm, $GM=5$ cm.
+
+[ĐỀ – EN]
+Triangle $ABC$ has centroid $G$ and median $AM=15$ cm.
+
+a) Write the ratio $\dfrac{AG}{AM}$.
+
+b) Find $AG$ and $GM$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{AG}{AM}=\dfrac23$.
+
+b) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+**Answer.** a) $\dfrac23$; b) $AG=10$ cm, $GM=5$ cm.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $BG=14$ cm. Tính $GN$ và $BN$.
+
+[LỜI GIẢI CŨ – VI]
+$GN=BG:2=14:2=7$ (cm). $BN=14+7=21$ (cm).
+
+**Kiểm tra.** $BG=\dfrac23\cdot21=14$.
+
+**Đáp số.** $GN=7$ cm, $BN=21$ cm.
+
+[ĐỀ – EN]
+Triangle $ABC$ has centroid $G$ and median $BN$. Given $BG=14$ cm, find $GN$ and $BN$.
+
+[LỜI GIẢI CŨ – EN]
+$GN=BG\div2=14\div2=7$ (cm). $BN=14+7=21$ (cm).
+
+**Check.** $BG=\dfrac23\cdot21=14$.
+
+**Answer.** $GN=7$ cm, $BN=21$ cm.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$. Ba đường phân giác cắt nhau tại $I$. Khoảng cách từ $I$ đến cạnh $AB$ bằng $4$ cm.
+
+a) Khoảng cách từ $I$ đến cạnh $BC$ là bao nhiêu?
+
+b) Khoảng cách từ $I$ đến cạnh $CA$ là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Vì $I$ là giao điểm của ba đường phân giác nên $I$ cách đều ba cạnh. Do đó khoảng cách từ $I$ đến $BC$ và đến $CA$ đều bằng $4$ cm.
+
+**Đáp số.** a) $4$ cm; b) $4$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, the three angle bisectors meet at $I$. The distance from $I$ to side $AB$ is $4$ cm.
+
+a) What is the distance from $I$ to side $BC$?
+
+b) What is the distance from $I$ to side $CA$?
+
+[LỜI GIẢI CŨ – EN]
+Since $I$ is where the three angle bisectors meet, $I$ is equidistant from the three sides. So the distances from $I$ to $BC$ and to $CA$ are both $4$ cm.
+
+**Answer.** a) $4$ cm; b) $4$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $\widehat B=64^\circ$ và $\widehat C=56^\circ$. Các đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$.
+
+a) Tính $\widehat A$.
+
+b) Tính $\widehat{IBC}$ và $\widehat{ICB}$.
+
+c) Tính $\widehat{BIC}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\widehat A=180^\circ-64^\circ-56^\circ=60^\circ$.
+
+b) $\widehat{IBC}=64^\circ:2=32^\circ$, $\widehat{ICB}=56^\circ:2=28^\circ$.
+
+c) $\widehat{BIC}=180^\circ-32^\circ-28^\circ=120^\circ$.
+
+**Đáp số.** a) $60^\circ$; b) $32^\circ$ và $28^\circ$; c) $120^\circ$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $\widehat B=64^\circ$ and $\widehat C=56^\circ$. The bisectors of angles $B$ and $C$ meet at $I$.
+
+a) Find $\widehat A$.
+
+b) Find $\widehat{IBC}$ and $\widehat{ICB}$.
+
+c) Find $\widehat{BIC}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\widehat A=180^\circ-64^\circ-56^\circ=60^\circ$.
+
+b) $\widehat{IBC}=64^\circ\div2=32^\circ$, $\widehat{ICB}=56^\circ\div2=28^\circ$.
+
+c) $\widehat{BIC}=180^\circ-32^\circ-28^\circ=120^\circ$.
+
+**Answer.** a) $60^\circ$; b) $32^\circ$ and $28^\circ$; c) $120^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chọn đường trung tuyến hay đường phân giác để giải quyết mỗi việc sau. Vì sao?
+
+a) Đặt một cái giếng trong khu đất hình tam giác sao cho giếng cách đều ba cạnh của khu đất.
+
+b) Tìm điểm để đặt một ngón tay đỡ tấm bìa tam giác cho nằm thăng bằng.
+
+[LỜI GIẢI CŨ – VI]
+a) Chọn ba đường phân giác. Giao điểm $I$ của chúng cách đều ba cạnh của khu đất.
+
+b) Chọn ba đường trung tuyến. Giao điểm của chúng là trọng tâm, tại đó tấm bìa thăng bằng.
+
+**Đáp số.** a) đường phân giác; b) đường trung tuyến.
+
+[ĐỀ – EN]
+For each task below, do you need the medians or the angle bisectors? Why?
+
+a) Placing a well on a triangular plot of land so that the well is equidistant from the three sides of the plot.
+
+b) Finding the point where one fingertip can hold a triangle of card level.
+
+[LỜI GIẢI CŨ – EN]
+a) Use the three angle bisectors. Their meeting point $I$ is equidistant from the three sides of the plot.
+
+b) Use the three medians. They meet at the centroid, where the card balances.
+
+**Answer.** a) the angle bisectors; b) the medians.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải rồi sửa lại.
+
+Đề: Tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=18$ cm. Tính $AG$.
+
+Lời giải của Bình: "$AG=\dfrac13AM=\dfrac13\cdot18=6$ cm."
+
+[LỜI GIẢI CŨ – VI]
+Bình dùng nhầm $\dfrac13$. Con số $6$ cm thực ra là $GM$, đoạn từ $G$ đến trung điểm $M$. Làm đúng: $AG=\dfrac23\cdot18=12$ (cm).
+
+**Kiểm tra.** $AG=2GM=2\cdot6=12$.
+
+**Đáp số.** $AG=12$ cm.
+
+[ĐỀ – EN]
+Find the mistake in the solution and correct it.
+
+Question: triangle $ABC$ has centroid $G$ and median $AM=18$ cm. Find $AG$.
+
+Binh's solution: "$AG=\dfrac13AM=\dfrac13\cdot18=6$ cm."
+
+[LỜI GIẢI CŨ – EN]
+Binh used $\dfrac13$ by mistake. The $6$ cm he found is really $GM$, the part from $G$ to the midpoint $M$. Done correctly: $AG=\dfrac23\cdot18=12$ (cm).
+
+**Check.** $AG=2GM=2\cdot6=12$.
+
+**Answer.** $AG=12$ cm.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hoa cắt một tấm bìa hình tam giác cân $ABC$ với $AB=AC$ và đáy $BC=16$ cm. Gọi $M$ là trung điểm của $BC$; Hoa đo được $AM=15$ cm. Hoa đỡ tấm bìa tại trọng tâm $G$.
+
+a) Tính $AG$ và $GM$.
+
+b) Tính khoảng cách từ $G$ đến $BC$.
+
+[LỜI GIẢI CŨ – VI]
+a) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+b) Tam giác $ABC$ cân tại $A$ nên trung tuyến $AM$ vuông góc với $BC$. Do đó khoảng cách từ $G$ đến $BC$ là $GM=5$ cm.
+
+**Đáp số.** a) $AG=10$ cm, $GM=5$ cm; b) $5$ cm.
+
+[ĐỀ – EN]
+Hoa cuts out an isosceles triangle of card $ABC$ with $AB=AC$ and base $BC=16$ cm. Let $M$ be the midpoint of $BC$; Hoa measures $AM=15$ cm. She holds the card up at the centroid $G$.
+
+a) Find $AG$ and $GM$.
+
+b) Find the distance from $G$ to $BC$.
+
+[LỜI GIẢI CŨ – EN]
+a) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+b) Triangle $ABC$ is isosceles with apex $A$, so the median $AM$ is perpendicular to $BC$. Therefore the distance from $G$ to $BC$ is $GM=5$ cm.
+
+**Answer.** a) $AG=10$ cm, $GM=5$ cm; b) $5$ cm.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ôn bài trước (quan hệ giữa ba cạnh của một tam giác). Bộ ba độ dài nào sau đây là ba cạnh của một tam giác?
+
+a) $5$ cm, $7$ cm, $11$ cm.
+
+b) $4$ cm, $9$ cm, $13$ cm.
+
+c) $8$ cm, $8$ cm, $15$ cm.
+
+[LỜI GIẢI CŨ – VI]
+a) $5+7=12>11$: có.
+
+b) $4+9=13$, không lớn hơn $13$: không.
+
+c) $8+8=16>15$: có.
+
+**Đáp số.** a) có; b) không; c) có.
+
+[ĐỀ – EN]
+Revise the last lesson (the relationship between the three sides of a triangle). Which of these sets of three lengths can be the sides of a triangle?
+
+a) $5$ cm, $7$ cm, $11$ cm.
+
+b) $4$ cm, $9$ cm, $13$ cm.
+
+c) $8$ cm, $8$ cm, $15$ cm.
+
+[LỜI GIẢI CŨ – EN]
+a) $5+7=12>11$: yes.
+
+b) $4+9=13$, which is not greater than $13$: no.
+
+c) $8+8=16>15$: yes.
+
+**Answer.** a) yes; b) no; c) yes.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$. Hai trung tuyến $BN$ và $CP$ cắt nhau tại $G$. Biết $BN=18$ cm và $CP=12$ cm.
+
+a) Tính $BG$ và $CG$.
+
+b) Dùng bất đẳng thức tam giác cho tam giác $GBC$ để tìm khoảng giá trị của $BC$.
+
+c) $BC$ có thể bằng $3$ cm không?
+
+[LỜI GIẢI CŨ – VI]
+a) $BG=\dfrac23\cdot18=12$ (cm), $CG=\dfrac23\cdot12=8$ (cm).
+
+b) $BG+CG=20$ và $BG-CG=4$, nên $4<BC<20$.
+
+c) Không, vì $3<4$.
+
+**Đáp số.** a) $BG=12$ cm, $CG=8$ cm; b) $4$ cm $<BC<20$ cm; c) không.
+
+[ĐỀ – EN]
+In triangle $ABC$, the two medians $BN$ and $CP$ meet at $G$. Given $BN=18$ cm and $CP=12$ cm:
+
+a) Find $BG$ and $CG$.
+
+b) Use the triangle inequality in triangle $GBC$ to find the range of possible values of $BC$.
+
+c) Can $BC$ be $3$ cm?
+
+[LỜI GIẢI CŨ – EN]
+a) $BG=\dfrac23\cdot18=12$ (cm), $CG=\dfrac23\cdot12=8$ (cm).
+
+b) $BG+CG=20$ and $BG-CG=4$, so $4<BC<20$.
+
+c) No, because $3<4$.
+
+**Answer.** a) $BG=12$ cm, $CG=8$ cm; b) $4$ cm $<BC<20$ cm; c) no.
+
+
+######################################################################
+@@@ g7/operations-and-transposition
+Bài học: Thứ tự thực hiện các phép tính. Quy tắc chuyển vế / Order of operations. Moving terms across the equals sign
+Cần viết lại lời giải các bài: 3, 4 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Bỏ dấu ngoặc rồi tính hợp lí:
+
+a) $\left(\dfrac79-\dfrac25\right)-\left(\dfrac79+\dfrac35\right)$.
+
+b) $-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $\dfrac79-\dfrac25-\dfrac79-\dfrac35=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)=0-1=-1$.
+
+b) Ta có $-\dfrac58+\dfrac23-\dfrac38-\dfrac13=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)=-1+\dfrac13=-\dfrac23$.
+
+Vậy kết quả là $-1$ và $-\dfrac23$.
+
+**Đáp số.** a) $-1$; b) $-\dfrac23$.
+
+[ĐỀ – EN]
+Remove the brackets and calculate smartly:
+
+a) $\left(\dfrac79-\dfrac25\right)-\left(\dfrac79+\dfrac35\right)$.
+
+b) $-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)$.
+
+[LỜI GIẢI CŨ – EN]
+a) We have $\dfrac79-\dfrac25-\dfrac79-\dfrac35=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)=0-1=-1$.
+
+b) We have $-\dfrac58+\dfrac23-\dfrac38-\dfrac13=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)=-1+\dfrac13=-\dfrac23$.
+
+So the results are $-1$ and $-\dfrac23$.
+
+**Answer.** a) $-1$; b) $-\dfrac23$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm $x$ bằng quy tắc chuyển vế:
+
+a) $x-\dfrac13=\dfrac25$.
+
+b) $x+\dfrac56=-\dfrac12$.
+
+c) $\dfrac34-x=\dfrac18$.
+
+d) $-x+\dfrac12=-\dfrac23$.
+
+[LỜI GIẢI CŨ – VI]
+a) $x=\dfrac25+\dfrac13=\dfrac6{15}+\dfrac5{15}=\dfrac{11}{15}$.
+
+b) $x=-\dfrac12-\dfrac56=-\dfrac36-\dfrac56=-\dfrac86=-\dfrac43$.
+
+c) $x=\dfrac34-\dfrac18=\dfrac68-\dfrac18=\dfrac58$.
+
+d) $-x=-\dfrac23-\dfrac12=-\dfrac46-\dfrac36=-\dfrac76$, nên $x=\dfrac76$.
+
+Vậy a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
+
+**Đáp số.** a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
+
+[ĐỀ – EN]
+Find $x$ by moving terms across the equals sign:
+
+a) $x-\dfrac13=\dfrac25$.
+
+b) $x+\dfrac56=-\dfrac12$.
+
+c) $\dfrac34-x=\dfrac18$.
+
+d) $-x+\dfrac12=-\dfrac23$.
+
+[LỜI GIẢI CŨ – EN]
+a) $x=\dfrac25+\dfrac13=\dfrac6{15}+\dfrac5{15}=\dfrac{11}{15}$.
+
+b) $x=-\dfrac12-\dfrac56=-\dfrac36-\dfrac56=-\dfrac86=-\dfrac43$.
+
+c) $x=\dfrac34-\dfrac18=\dfrac68-\dfrac18=\dfrac58$.
+
+d) $-x=-\dfrac23-\dfrac12=-\dfrac46-\dfrac36=-\dfrac76$, so $x=\dfrac76$.
+
+So a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
+
+**Answer.** a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
+
+
+######################################################################
+@@@ g7/powers-of-rational-numbers
+Bài học: Lũy thừa với số mũ tự nhiên của một số hữu tỉ / Natural-number powers of a rational number
+Cần viết lại lời giải các bài: 4, 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhanh:
+
+a) $(0{,}25)^3\cdot4^3$;
+
+b) $15^5:3^5$;
+
+c) $\left(\dfrac12\right)^3\cdot6^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $(0{,}25)^3\cdot4^3=(0{,}25\cdot4)^3=1^3=1$.
+
+b) Ta có $15^5:3^5=(15:3)^5=5^5=3125$.
+
+c) Ta có $\left(\dfrac12\right)^3\cdot6^3=\left(\dfrac12\cdot6\right)^3=3^3=27$.
+
+Vậy kết quả là $1$; $3125$; $27$.
+
+**Đáp số.** a) $1$. b) $3125$. c) $27$.
+
+[ĐỀ – EN]
+Calculate quickly:
+
+a) $(0.25)^3\cdot4^3$;
+
+b) $15^5:3^5$;
+
+c) $\left(\dfrac12\right)^3\cdot6^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) We have $(0.25)^3\cdot4^3=(0.25\cdot4)^3=1^3=1$.
+
+b) We have $15^5:3^5=(15:3)^5=5^5=3125$.
+
+c) We have $\left(\dfrac12\right)^3\cdot6^3=\left(\dfrac12\cdot6\right)^3=3^3=27$.
+
+So the results are $1$, $3125$ and $27$.
+
+**Answer.** a) $1$. b) $3125$. c) $27$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+So sánh:
+
+a) $2^{500}$ và $5^{200}$;
+
+b) $\left(\dfrac13\right)^{20}$ và $\left(\dfrac19\right)^{10}$.
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $2^{500}=\left(2^5\right)^{100}=32^{100}$ và $5^{200}=\left(5^2\right)^{100}=25^{100}$. Vì $32>25$ nên $32^{100}>25^{100}$. Vậy $2^{500}>5^{200}$.
+
+b) Ta có $\dfrac19=\left(\dfrac13\right)^2$ nên $\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}$. Vậy hai số bằng nhau.
+
+**Đáp số.** a) $2^{500}>5^{200}$. b) Hai số bằng nhau.
+
+[ĐỀ – EN]
+Compare:
+
+a) $2^{500}$ and $5^{200}$;
+
+b) $\left(\dfrac13\right)^{20}$ and $\left(\dfrac19\right)^{10}$.
+
+[LỜI GIẢI CŨ – EN]
+a) We have $2^{500}=\left(2^5\right)^{100}=32^{100}$ and $5^{200}=\left(5^2\right)^{100}=25^{100}$. Since $32>25$, we get $32^{100}>25^{100}$. So $2^{500}>5^{200}$.
+
+b) We have $\dfrac19=\left(\dfrac13\right)^2$, so $\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}$. So the two numbers are equal.
+
+**Answer.** a) $2^{500}>5^{200}$. b) The two numbers are equal.
+
+
+######################################################################
+@@@ g7/proportions
+Bài học: Tỉ lệ thức. Tính chất của dãy tỉ số bằng nhau / Proportions. Properties of a chain of equal ratios
+Cần viết lại lời giải các bài: 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho $\dfrac ab=\dfrac cd$ ($b\neq0$, $d\neq0$). Chứng minh rằng $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{a+b}b=\dfrac ab+\dfrac bb=\dfrac ab+1$ và $\dfrac{c+d}d=\dfrac cd+\dfrac dd=\dfrac cd+1$.
+
+Vì $\dfrac ab=\dfrac cd$ (giả thiết) nên $\dfrac ab+1=\dfrac cd+1$.
+
+Do đó $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+Vậy điều cần chứng minh đã được chứng minh.
+
+**Đáp số.** $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+[ĐỀ – EN]
+Given $\dfrac ab=\dfrac cd$ ($b\neq0$, $d\neq0$), prove that $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{a+b}b=\dfrac ab+\dfrac bb=\dfrac ab+1$ and $\dfrac{c+d}d=\dfrac cd+\dfrac dd=\dfrac cd+1$.
+
+Since $\dfrac ab=\dfrac cd$ (given), we have $\dfrac ab+1=\dfrac cd+1$.
+
+Hence $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+So the statement is proved.
+
+**Answer.** $\dfrac{a+b}b=\dfrac{c+d}d$.
+
+
+===== HẾT FILE Lemonmath112-LG-1 =====

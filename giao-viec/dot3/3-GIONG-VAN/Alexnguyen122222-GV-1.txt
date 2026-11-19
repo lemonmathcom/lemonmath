@@ -1,0 +1,1482 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g1/subtract-2-digit-numbers, g1/subtraction-within-10, g1/two-digit-numbers, g2/addition-crossing-10
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Alexnguyen122222-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Alexnguyen122222-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g1/subtract-2-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Phép trừ số có hai chữ số cho số có hai chữ số
+description: Em học cách trừ hai số có hai chữ số (không nhớ), ví dụ 57 − 23: trừ hàng chục cho hàng chục, hàng đơn vị cho hàng đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hàng chục và hàng đơn vị của hai số có hai chữ số.
+  - Trừ số có hai chữ số cho số có hai chữ số (không nhớ), ví dụ $57-23$.
+  - Giải bài toán có lời văn bằng một phép trừ.
+  :::
+
+[[P1·5b43]]
+Lan có $57$ cái nhãn dán. Lan tặng bạn $23$ cái. Hỏi Lan còn lại bao nhiêu cái nhãn dán?
+
+[[P2·2d03]]
+Đếm lùi từng cái thì rất lâu. Bài này giúp em trừ nhanh bằng cách tách mỗi số thành hàng chục và hàng đơn vị.
+
+## Cùng khám phá
+
+[[P3·da15]]
+Em đã học ở bài trước: $27-4$ thì trừ ở hàng đơn vị và giữ nguyên hàng chục. Bây giờ ta trừ cả hàng chục.
+
+[[P4·d45f]]
+Ta tách mỗi số thành chục và đơn vị:
+
+| Số | Chục | Đơn vị |
+|---|---|---|
+| $57$ | $5$ | $7$ |
+| $23$ | $2$ | $3$ |
+
+[[P5·68ee]]
+- Trừ hàng đơn vị cho hàng đơn vị: $7-3=4$.
+- Trừ hàng chục cho hàng chục: $5-2=3$.
+- $3$ chục và $4$ đơn vị là $34$.
+
+[[P6·9e07]]
+Vậy $57-23=34$.
+
+:::graph Trên tia số: từ 57, lùi 2 chục về 37, rồi lùi 3 đơn vị về 34
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách trừ hai số có hai chữ số
+  Muốn tính $57-23$:
+  1. Trừ hàng đơn vị cho hàng đơn vị: $7-3=4$.
+  2. Trừ hàng chục cho hàng chục: $5-2=3$.
+  3. Ghép lại: $3$ chục và $4$ đơn vị là $34$.
+  :::
+
+[[P7·7f55]]
+Cách này đúng vì em bớt chục ở phần chục và bớt lẻ ở phần lẻ, nên không bớt thừa hay thiếu cái nhãn dán nào.
+
+## Ví dụ
+
+[[P8·e6de]]
+Ta bắt đầu với một phép trừ đơn giản nhất.
+
+  :::example Tính $57-23$
+  **Lời giải.** Trừ hàng đơn vị: $7-3=4$. Trừ hàng chục: $5-2=3$:
+  $$57-23=34.$$
+  Vậy $57-23=34$.
+  :::
+
+[[P9·e609]]
+Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+
+  :::example Tính $86-41$
+  **Lời giải.** Trừ hàng đơn vị: $6-1=5$. Trừ hàng chục: $8-4=4$:
+  $$86-41=45.$$
+  Vậy $86-41=45$.
+  :::
+
+[[P10·1e85]]
+Khi số trừ là số tròn chục, hàng đơn vị của số bị trừ giữ nguyên.
+
+  :::example Tính $78-30$
+  **Lời giải.** Trừ hàng đơn vị: $8-0=8$. Trừ hàng chục: $7-3=4$:
+  $$78-30=48.$$
+  Vậy $78-30=48$.
+  :::
+
+[[P11·7b08]]
+Ta có thể thử lại một phép trừ bằng phép cộng.
+
+  :::example Tính $95-54$ và thử lại
+  **Lời giải.** Trừ hàng đơn vị: $5-4=1$. Trừ hàng chục: $9-5=4$:
+  $$95-54=41.$$
+  Thử lại bằng phép cộng: $41+54=95$. Kết quả đúng.
+
+  Vậy $95-54=41$.
+  :::
+
+[[P12·dfdb]]
+Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Học sinh nam
+  Lớp có $68$ học sinh, trong đó có $36$ học sinh nữ. Hỏi lớp có bao nhiêu học sinh nam?
+
+  **Lời giải.** Học sinh nam là phần còn lại sau khi bớt học sinh nữ, nên em làm phép trừ. Hàng đơn vị: $8-6=2$. Hàng chục: $6-3=3$:
+  $$68-36=32\ \text{(học sinh)}.$$
+  Vậy lớp có $32$ học sinh nam.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·c13b]]
+- **Quên hàng chục.** Sai: $57-23=4$. Vì sao sai: em mới trừ hàng đơn vị. Đúng: còn $5-2=3$ chục, nên $57-23=34$.
+- **Đảo chục và đơn vị.** Sai: $57-23=43$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $3$ chục và $4$ đơn vị là $34$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $32$". Đúng: "Đáp số: $32$ học sinh".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép trừ | subtraction
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - số có hai chữ số | two-digit number
+  :::
+
+## Tóm tắt
+
+[[P14·50d2]]
+- Muốn trừ hai số có hai chữ số (không nhớ), em trừ hàng đơn vị cho hàng đơn vị và hàng chục cho hàng chục.
+- Ví dụ: $57-23=34$ vì $7-3=4$ và $5-2=3$.
+- Viết hàng chục trước, hàng đơn vị sau: $3$ chục và $4$ đơn vị là $34$.
+- Thử lại bằng phép cộng: $34+23=57$.
+- Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtract-2-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Subtracting a two-digit number from a two-digit number
+description: Learn to subtract one two-digit number from another (no regrouping), such as 57 − 23: take tens from tens and ones from ones.
+minutes: 15
+---
+
+  :::goals
+  - Know the tens and the ones of two two-digit numbers.
+  - Subtract a two-digit number from a two-digit number (no regrouping), such as $57-23$.
+  - Solve a word problem with one subtraction.
+  :::
+
+[[P1·f038]]
+Lan has $57$ stickers. Lan gives $23$ stickers to a friend. How many stickers does Lan have left?
+
+[[P2·5d9b]]
+Counting back one by one takes a long time. This lesson helps you subtract quickly by splitting each number into tens and ones.
+
+## Let's explore
+
+[[P3·21da]]
+You learned in the last lesson: for $27-4$, you subtract in the ones and keep the tens the same. Now we subtract the tens as well.
+
+[[P4·2321]]
+We split each number into tens and ones:
+
+| Number | Tens | Ones |
+|---|---|---|
+| $57$ | $5$ | $7$ |
+| $23$ | $2$ | $3$ |
+
+[[P5·7eb8]]
+- Take ones from ones: $7-3=4$.
+- Take tens from tens: $5-2=3$.
+- $3$ tens and $4$ ones make $34$.
+
+[[P6·6d09]]
+So $57-23=34$.
+
+:::graph On a number line: from 57, go back 2 tens to 37, then back 3 ones to 34
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to subtract two two-digit numbers
+  To work out $57-23$:
+  1. Take ones from ones: $7-3=4$.
+  2. Take tens from tens: $5-2=3$.
+  3. Put them together: $3$ tens and $4$ ones make $34$.
+  :::
+
+[[P7·0c0f]]
+This works because you take tens away from the tens and single ones away from the ones, so you never take away too many or too few stickers.
+
+## Examples
+
+[[P8·54c1]]
+We start with the simplest kind of subtraction.
+
+  :::example Work out $57-23$
+  **Solution.** Ones: $7-3=4$. Tens: $5-2=3$:
+  $$57-23=34.$$
+  So $57-23=34$.
+  :::
+
+[[P9·47f1]]
+Now we do the same kind of subtraction with different numbers.
+
+  :::example Work out $86-41$
+  **Solution.** Ones: $6-1=5$. Tens: $8-4=4$:
+  $$86-41=45.$$
+  So $86-41=45$.
+  :::
+
+[[P10·55dc]]
+When the number you take away is a multiple of ten, the ones of the first number stay the same.
+
+  :::example Work out $78-30$
+  **Solution.** Ones: $8-0=8$. Tens: $7-3=4$:
+  $$78-30=48.$$
+  So $78-30=48$.
+  :::
+
+[[P11·c791]]
+You can check a subtraction with an addition.
+
+  :::example Work out $95-54$ and check
+  **Solution.** Ones: $5-4=1$. Tens: $9-5=4$:
+  $$95-54=41.$$
+  Check with an addition: $41+54=95$. The answer is right.
+
+  So $95-54=41$.
+  :::
+
+[[P12·2534]]
+Now use subtraction to answer a question from everyday life.
+
+  :::example Boys in the class
+  A class has $68$ pupils, and $36$ of them are girls. How many boys are in the class?
+
+  **Solution.** The boys are what is left after taking away the girls, so you subtract. Ones: $8-6=2$. Tens: $6-3=3$:
+  $$68-36=32\ \text{(pupils)}.$$
+  So the class has $32$ boys.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·619a]]
+- **Forgetting the tens.** Wrong: $57-23=4$. Why it is wrong: you only subtracted the ones. Right: there are still $5-2=3$ tens, so $57-23=34$.
+- **Swapping tens and ones.** Wrong: $57-23=43$. Why it is wrong: you wrote the ones before the tens. Right: $3$ tens and $4$ ones make $34$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $32$". Right: "Answer: $32$ pupils".
+:::
+
+## Key terms
+
+  :::terms
+  - subtraction | phép trừ
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - two-digit number | số có hai chữ số
+  :::
+
+## Summary
+
+[[P14·a7f4]]
+- To subtract two two-digit numbers (no regrouping), take ones from ones and tens from tens.
+- Example: $57-23=34$ because $7-3=4$ and $5-2=3$.
+- Write the tens first, then the ones: $3$ tens and $4$ ones make $34$.
+- Check with an addition: $34+23=57$.
+- Word problems that ask "how many are left" or "how many after taking away" usually need a subtraction; remember to write the unit in the answer.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtraction-within-10 – BẢN TIẾNG VIỆT ########
+---
+title: Phép trừ trong phạm vi 10
+description: Em học phép trừ trong phạm vi 10: bớt đi một số đồ vật, đọc và viết phép trừ như 7 - 2 = 5, tính bằng cách đếm lùi.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu phép trừ là bớt đi một số đồ vật.
+  - Đọc và viết phép trừ trong phạm vi $10$, ví dụ $7-2=5$.
+  - Tính bằng cách đếm lùi và kiểm tra bằng phép cộng.
+  - Giải bài toán có lời văn bằng một phép trừ.
+  :::
+
+[[P1·b83e]]
+Lan có $7$ cái kẹo. Lan ăn $2$ cái. Hỏi Lan còn lại bao nhiêu cái kẹo?
+
+[[P2·61ab]]
+Ở bài trước em gộp hai nhóm lại bằng phép cộng. Bài này em làm ngược lại: bớt đi.
+
+## Cùng khám phá
+
+[[P3·4fd9]]
+Lan có $7$ cái kẹo, ăn mất $2$ cái. Em đếm lùi $2$ số bắt đầu từ $7$.
+
+[[P4·b3e7]]
+- Em nói số $7$ trước: "bảy".
+- Em đếm lùi hai số: "sáu, năm".
+- Số cuối cùng là năm.
+
+[[P5·af81]]
+Vậy Lan còn $5$ cái kẹo. Ta viết $7-2=5$ và đọc là "bảy trừ hai bằng năm".
+
+:::graph Trên tia số: từ 7 đếm lùi 2 bước về 5
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Phép trừ
+  1. Bớt đi một số đồ vật thì làm phép trừ. Dấu trừ là $-$.
+  2. Muốn tính $7-2$, đếm lùi $2$ số từ $7$: được $5$.
+  3. Trừ đi $0$ thì số không đổi: $9-0=9$.
+  4. Một số trừ chính nó thì bằng $0$: $6-6=0$.
+  5. Em kiểm tra bằng phép cộng: $5+2=7$.
+  :::
+
+[[P6·cbfd]]
+Cách này đúng vì khi bớt $2$ cái kẹo thì số kẹo giảm đi $2$, em chỉ đếm số kẹo còn lại.
+
+## Ví dụ
+
+[[P7·01d4]]
+Ta bắt đầu với một phép trừ rất nhỏ.
+
+  :::example Tính $5-1$
+  **Lời giải.** Em nói số đầu "năm", rồi đếm lùi một số: "bốn".
+
+  Vậy $5-1=4$.
+  :::
+
+[[P8·b271]]
+Bây giờ em đếm lùi nhiều số hơn.
+
+  :::example Tính $8-3$
+  **Lời giải.** Em nói số đầu "tám", rồi đếm lùi ba số: "bảy, sáu, năm".
+
+  Vậy $8-3=5$.
+
+  **Kiểm tra.** $5+3=8$. Đúng.
+  :::
+
+[[P9·0e6a]]
+Có khi bớt hết cả nhóm.
+
+  :::example Tính $6-6$
+  **Lời giải.** Bớt hết $6$ đồ vật thì không còn đồ vật nào.
+
+  Vậy $6-6=0$.
+  :::
+
+[[P10·c7f4]]
+Trừ đi $0$ thì sao?
+
+  :::example Tính $9-0$
+  **Lời giải.** Bớt đi $0$ nghĩa là không bớt gì, nên số không đổi.
+
+  Vậy $9-0=9$.
+  :::
+
+[[P11·11f7]]
+Cuối cùng em giải một bài toán có lời văn.
+
+  :::example Bóng bay
+  Bình có $9$ quả bóng bay. Gió thổi bay mất $4$ quả. Hỏi Bình còn lại mấy quả bóng bay?
+
+  ![Chín quả bóng bay, bốn quả đang bị gió thổi bay đi](/assets/img/g1/g1-subtraction-within-10-01.svg)
+
+  **Lời giải.** "Bay mất" nghĩa là bớt đi, nên em làm phép trừ. Em đếm lùi $4$ số từ $9$: "tám, bảy, sáu, năm":
+  $$9-4=5\ \text{(quả)}.$$
+  Vậy Bình còn lại $5$ quả bóng bay.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·f4dd]]
+- **Đếm cả số đầu khi lùi.** Sai: $8-3=6$ vì đếm "tám, bảy, sáu". Vì sao sai: em chỉ đếm lùi $2$ số. Đúng: đếm lùi đủ $3$ số: bảy, sáu, năm. Vậy $8-3=5$.
+- **Đổi chỗ hai số.** Sai: $2-5=3$. Vì sao sai: không thể bớt $5$ cái từ $2$ cái. Đúng: phép trừ không đổi chỗ được.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ quả".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép trừ | subtraction
+  - trừ ($-$) | minus
+  - bớt | take away
+  - còn lại | left
+  - đếm lùi | count back
+  - bằng ($=$) | equals
+  :::
+
+## Tóm tắt
+
+[[P13·213f]]
+- Bớt đi thì làm phép trừ: $7-2=5$.
+- Đếm lùi từ số đầu đúng số lần của số thứ hai.
+- $9-0=9$ và $6-6=0$.
+- Kiểm tra phép trừ bằng phép cộng: $5+2=7$.
+- Bài toán "bớt đi", "bay mất", "còn lại" thường là phép trừ; nhớ ghi đơn vị.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtraction-within-10 – BẢN TIẾNG ANH ########
+---
+title: Subtraction within 10
+description: Learn subtraction within 10: take away some things, read and write sums like 7 - 2 = 5, and work them out by counting back.
+minutes: 15
+---
+
+  :::goals
+  - Understand that subtraction means taking some things away.
+  - Read and write subtractions within $10$, for example $7-2=5$.
+  - Work them out by counting back and check them with addition.
+  - Solve a word problem with one subtraction.
+  :::
+
+[[P1·4a65]]
+Lan has $7$ sweets. She eats $2$ of them. How many sweets does Lan have left?
+
+[[P2·df84]]
+In the last lesson you put two groups together with addition. In this lesson you do the opposite: take away.
+
+## Let's explore
+
+[[P3·c3ed]]
+Lan has $7$ sweets and eats $2$. You count back $2$ numbers starting from $7$.
+
+[[P4·11cc]]
+- Say the number $7$ first: "seven".
+- Count back two: "six, five".
+- The last number is five.
+
+[[P5·e31c]]
+So Lan has $5$ sweets left. We write $7-2=5$ and read it "seven minus two equals five".
+
+:::graph On the number line: from 7 count back 2 steps to 5
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Subtraction
+  1. Taking away some things is subtraction. The minus sign is $-$.
+  2. To work out $7-2$, count back $2$ numbers from $7$: you get $5$.
+  3. Taking away $0$ does not change the number: $9-0=9$.
+  4. A number minus itself is $0$: $6-6=0$.
+  5. Check with addition: $5+2=7$.
+  :::
+
+[[P6·d84d]]
+This works because when you take away $2$ sweets, there are $2$ fewer sweets, and you just count the ones left.
+
+## Examples
+
+[[P7·9d5c]]
+We start with a very small subtraction.
+
+  :::example Work out $5-1$
+  **Solution.** Say the first number "five", then count back one: "four".
+
+  So $5-1=4$.
+  :::
+
+[[P8·db89]]
+Now count back more numbers.
+
+  :::example Work out $8-3$
+  **Solution.** Say the first number "eight", then count back three: "seven, six, five".
+
+  So $8-3=5$.
+
+  **Check.** $5+3=8$. Correct.
+  :::
+
+[[P9·ce03]]
+Sometimes you take away the whole group.
+
+  :::example Work out $6-6$
+  **Solution.** Take away all $6$ things and nothing is left.
+
+  So $6-6=0$.
+  :::
+
+[[P10·ca6b]]
+What about taking away $0$?
+
+  :::example Work out $9-0$
+  **Solution.** Taking away $0$ means taking away nothing, so the number stays the same.
+
+  So $9-0=9$.
+  :::
+
+[[P11·70ab]]
+Last, solve a word problem.
+
+  :::example Balloons
+  Binh has $9$ balloons. The wind blows $4$ of them away. How many balloons does Binh have left?
+
+  ![Nine balloons, four of them drifting away in the wind](/assets/img/g1/g1-subtraction-within-10-01.svg)
+
+  **Solution.** "Blows away" means taking away, so we subtract. Count back $4$ numbers from $9$: "eight, seven, six, five":
+  $$9-4=5\ \text{(balloons)}.$$
+  So Binh has $5$ balloons left.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·ade8]]
+- **Counting the first number when going back.** Wrong: $8-3=6$ because you count "eight, seven, six". Why it is wrong: you only counted back $2$ numbers. Right: count back all $3$ numbers: seven, six, five. So $8-3=5$.
+- **Swapping the two numbers.** Wrong: $2-5=3$. Why it is wrong: you cannot take $5$ away from $2$. Right: subtraction cannot be swapped.
+- **No unit in a word problem.** Wrong: "Answer: $5$". Right: "Answer: $5$ balloons".
+:::
+
+## Key terms
+
+  :::terms
+  - subtraction | phép trừ
+  - minus ($-$) | trừ
+  - take away | bớt
+  - left | còn lại
+  - count back | đếm lùi
+  - equals ($=$) | bằng
+  :::
+
+## Summary
+
+[[P13·fc08]]
+- Taking away is subtraction: $7-2=5$.
+- Count back from the first number as many times as the second number says.
+- $9-0=9$ and $6-6=0$.
+- Check a subtraction with addition: $5+2=7$.
+- Words like "take away", "blown away" and "left" usually mean subtraction; remember the unit.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/two-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Số có hai chữ số
+description: Em học đọc, viết số có hai chữ số, biết mỗi số gồm mấy chục và mấy đơn vị, và nhận ra chữ số nào ở hàng chục, hàng đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Đếm, đọc và viết các số có hai chữ số.
+  - Biết mỗi số gồm mấy chục và mấy đơn vị.
+  - Nhận ra chữ số hàng chục và chữ số hàng đơn vị.
+  :::
+
+[[P1·d3a8]]
+Lan có rất nhiều viên bi. Lan xếp mỗi $10$ viên thành một bó và được $2$ bó, còn $3$ viên lẻ. Lan có tất cả bao nhiêu viên bi?
+
+[[P2·3916]]
+Em đã biết các số đến $10$. Bài này em học các số lớn hơn bằng cách đếm theo chục.
+
+## Cùng khám phá
+
+[[P3·ba1f]]
+Em gom $10$ đồ vật thành một chục. Một chục có $10$ đơn vị.
+
+[[P4·830b]]
+- $10$ viên bi là $1$ chục và $0$ đơn vị. Ta viết số $10$.
+- $2$ bó bi và $3$ viên lẻ là $2$ chục và $3$ đơn vị. Ta viết số $23$ (đọc là hai mươi ba).
+- $4$ bó bi và $7$ viên lẻ là $4$ chục và $7$ đơn vị. Ta viết số $47$ (đọc là bốn mươi bảy).
+
+[[P5·740a]]
+Vậy Lan có $23$ viên bi.
+
+| Số | Chục | Đơn vị |
+|---|---|---|
+| $10$ | $1$ | $0$ |
+| $23$ | $2$ | $3$ |
+| $47$ | $4$ | $7$ |
+
+  :::theorem Số có hai chữ số
+  1. Số có hai chữ số gồm một chữ số hàng chục và một chữ số hàng đơn vị.
+  2. Chữ số bên trái là hàng chục, chữ số bên phải là hàng đơn vị.
+  3. Số $23$ gồm $2$ chục và $3$ đơn vị.
+  4. $1$ chục bằng $10$ đơn vị; $5$ chục là $50$.
+  :::
+
+[[P6·324d]]
+Cách này đúng vì mỗi bó có $10$ viên. Đếm số bó là số chục, đếm số viên lẻ là số đơn vị.
+
+## Ví dụ
+
+[[P7·35d8]]
+Ta bắt đầu bằng việc đọc một số.
+
+  :::example Số 23
+  Số $23$ gồm mấy chục và mấy đơn vị?
+
+  **Lời giải.** Chữ số bên trái là $2$, ở hàng chục. Chữ số bên phải là $3$, ở hàng đơn vị.
+
+  Vậy $23$ gồm $2$ chục và $3$ đơn vị.
+  :::
+
+[[P8·5ab8]]
+Bây giờ em làm ngược lại: viết số.
+
+  :::example Viết số
+  Viết số gồm $4$ chục và $7$ đơn vị.
+
+  **Lời giải.** Chữ số hàng chục là $4$, chữ số hàng đơn vị là $7$. Em viết $4$ trước, $7$ sau.
+
+  Vậy số cần viết là $47$.
+  :::
+
+[[P9·6515]]
+Có số tròn chục.
+
+  :::example Số 50
+  Số $50$ gồm mấy chục và mấy đơn vị?
+
+  **Lời giải.** Chữ số hàng chục là $5$, chữ số hàng đơn vị là $0$.
+
+  Vậy $50$ gồm $5$ chục và $0$ đơn vị.
+  :::
+
+[[P10·1477]]
+Cuối cùng em giải một bài toán trong cuộc sống.
+
+  :::example Bó que tính
+  Có $3$ bó que tính, mỗi bó $10$ que, và $4$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
+
+  ![Ba bó que tính, mỗi bó mười que, và bốn que lẻ](/assets/img/g1/g1-two-digit-numbers-01.svg)
+
+  **Lời giải.** $3$ bó là $3$ chục, $4$ que lẻ là $4$ đơn vị. Em viết $3$ ở hàng chục và $4$ ở hàng đơn vị.
+
+  Vậy có $34$ que tính.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·f900]]
+- **Đảo chữ số.** Sai: $2$ chục $3$ đơn vị viết là $32$. Vì sao sai: $32$ có $3$ chục. Đúng: $23$.
+- **Bỏ quên số $0$.** Sai: $5$ chục viết là $5$. Vì sao sai: $5$ chỉ có $5$ đơn vị. Đúng: $5$ chục viết là $50$.
+- **Nhầm chục với đơn vị.** Sai: chữ số $6$ của số $68$ là hàng đơn vị. Vì sao sai: $6$ đứng bên trái nên là hàng chục. Đúng: $6$ ở hàng chục, $8$ ở hàng đơn vị.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số có hai chữ số | two-digit number
+  - chữ số | digit
+  - chục | ten
+  - đơn vị | one
+  - hàng chục | tens place
+  - hàng đơn vị | ones place
+  - bó | bundle
+  :::
+
+## Tóm tắt
+
+[[P12·7d49]]
+- Một chục là $10$ đơn vị.
+- Số có hai chữ số gồm chục và đơn vị: $23$ là $2$ chục $3$ đơn vị.
+- Chữ số bên trái là hàng chục; chữ số bên phải là hàng đơn vị.
+- $5$ chục viết là $50$.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/two-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Two-digit numbers
+description: Learn to read and write two-digit numbers, know how many tens and ones each has, and spot the digit in the tens place and the ones place.
+minutes: 15
+---
+
+  :::goals
+  - Count, read and write two-digit numbers.
+  - Know how many tens and ones each number has.
+  - Spot the digit in the tens place and the digit in the ones place.
+  :::
+
+[[P1·702c]]
+Lan has lots of marbles. She makes bundles of $10$ marbles and gets $2$ bundles, with $3$ marbles left over. How many marbles does Lan have altogether?
+
+[[P2·047c]]
+You already know the numbers up to $10$. In this lesson you learn bigger numbers by counting in tens.
+
+## Let's explore
+
+[[P3·7cc8]]
+Put $10$ things together to make one ten. One ten has $10$ ones.
+
+[[P4·68a2]]
+- $10$ marbles are $1$ ten and $0$ ones. We write the number $10$.
+- $2$ bundles of marbles and $3$ loose marbles are $2$ tens and $3$ ones. We write the number $23$ (read "twenty-three").
+- $4$ bundles of marbles and $7$ loose marbles are $4$ tens and $7$ ones. We write the number $47$ (read "forty-seven").
+
+[[P5·25d4]]
+So Lan has $23$ marbles.
+
+| Number | Tens | Ones |
+|---|---|---|
+| $10$ | $1$ | $0$ |
+| $23$ | $2$ | $3$ |
+| $47$ | $4$ | $7$ |
+
+  :::theorem Two-digit numbers
+  1. A two-digit number has a digit in the tens place and a digit in the ones place.
+  2. The digit on the left is the tens digit and the digit on the right is the ones digit.
+  3. The number $23$ is $2$ tens and $3$ ones.
+  4. $1$ ten is $10$ ones; $5$ tens make $50$.
+  :::
+
+[[P6·4dec]]
+This works because each bundle has $10$ marbles. The number of bundles is the tens, and the loose marbles are the ones.
+
+## Examples
+
+[[P7·a77d]]
+We start by reading a number.
+
+  :::example The number 23
+  How many tens and ones are in the number $23$?
+
+  **Solution.** The digit on the left is $2$, in the tens place. The digit on the right is $3$, in the ones place.
+
+  So $23$ is $2$ tens and $3$ ones.
+  :::
+
+[[P8·3754]]
+Now do it the other way: write a number.
+
+  :::example Writing a number
+  Write the number made of $4$ tens and $7$ ones.
+
+  **Solution.** The tens digit is $4$ and the ones digit is $7$. Write $4$ first, then $7$.
+
+  So the number is $47$.
+  :::
+
+[[P9·5820]]
+Some numbers are whole tens.
+
+  :::example The number 50
+  How many tens and ones are in the number $50$?
+
+  **Solution.** The tens digit is $5$ and the ones digit is $0$.
+
+  So $50$ is $5$ tens and $0$ ones.
+  :::
+
+[[P10·5ef8]]
+Last, solve an everyday problem.
+
+  :::example Bundles of sticks
+  There are $3$ bundles of sticks with $10$ sticks in each, and $4$ loose sticks. How many sticks are there altogether?
+
+  ![Three bundles of ten counting sticks and four loose sticks](/assets/img/g1/g1-two-digit-numbers-01.svg)
+
+  **Solution.** $3$ bundles are $3$ tens and $4$ loose sticks are $4$ ones. Write $3$ in the tens place and $4$ in the ones place.
+
+  So there are $34$ sticks.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·f191]]
+- **Swapping the digits.** Wrong: $2$ tens $3$ ones is written $32$. Why it is wrong: $32$ has $3$ tens. Right: $23$.
+- **Forgetting the $0$.** Wrong: $5$ tens is written $5$. Why it is wrong: $5$ is only $5$ ones. Right: $5$ tens is written $50$.
+- **Mixing up tens and ones.** Wrong: the digit $6$ in $68$ is in the ones place. Why it is wrong: $6$ is on the left, so it is in the tens place. Right: $6$ is in the tens place and $8$ in the ones place.
+:::
+
+## Key terms
+
+  :::terms
+  - two-digit number | số có hai chữ số
+  - digit | chữ số
+  - ten | chục
+  - one | đơn vị
+  - tens place | hàng chục
+  - ones place | hàng đơn vị
+  - bundle | bó
+  :::
+
+## Summary
+
+[[P12·a65e]]
+- One ten is $10$ ones.
+- A two-digit number has tens and ones: $23$ is $2$ tens and $3$ ones.
+- The digit on the left is the tens digit; the digit on the right is the ones digit.
+- $5$ tens is written $50$.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/addition-crossing-10 – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (qua 10) trong phạm vi 20
+description: Em học cách cộng qua 10, ví dụ 8 + 5, bằng mẹo "gộp cho đủ 10": tách số thứ hai để làm tròn 10 rồi cộng tiếp phần còn lại.
+minutes: 15
+---
+
+  :::goals
+  - Biết cộng hai số có tổng lớn hơn 10, ví dụ $8+5$.
+  - Dùng mẹo "gộp cho đủ 10" để tính nhanh, không cần đếm từng cái.
+  - Giải bài toán có lời văn bằng một phép cộng.
+  :::
+
+[[P1·6ae7]]
+Lan có $8$ cái kẹo. Mẹ cho Lan thêm $5$ cái nữa. Hỏi Lan có tất cả bao nhiêu cái kẹo?
+
+[[P2·b511]]
+Em có thể đếm thêm từng cái: $9, 10, 11, 12, 13$. Nhưng đếm như vậy dễ nhầm và chậm. Bài này dạy em một mẹo nhanh hơn nhiều.
+
+## Cùng khám phá
+
+[[P3·b1d4]]
+Lan có một hộp đựng kẹo có đúng $10$ ô. Lan bỏ $8$ cái kẹo vào, hộp còn trống $2$ ô.
+
+[[P4·f845]]
+- Lan lấy $2$ cái trong $5$ cái mẹ cho để lấp đầy hộp. Hộp đủ $10$ cái.
+- Số kẹo mẹ cho còn lại $3$ cái ở ngoài hộp.
+- $10$ cái trong hộp và $3$ cái ở ngoài là $13$ cái.
+
+[[P5·f4ea]]
+Vậy $8+5=13$. Em thấy không, chỉ cần **gộp cho đủ 10** là tính được ngay.
+
+:::graph Trên tia số: từ 8, nhảy 2 bước đến 10, rồi nhảy 3 bước đến 13
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Mẹo "gộp cho đủ 10"
+  Muốn tính $8+5$:
+  1. Hỏi: $8$ cần thêm mấy để được $10$? Cần thêm $2$.
+  2. Tách $5$ thành $2$ và $3$.
+  3. Cộng: $8+2=10$, rồi $10+3=13$.
+  :::
+
+[[P6·0628]]
+Mẹo này đúng vì em không làm mất cái kẹo nào: em chỉ chuyển $2$ cái vào hộp cho đủ $10$, phần còn lại vẫn được đếm.
+
+## Ví dụ
+
+[[P7·9613]]
+Ta bắt đầu với một phép cộng có số $9$, vì $9$ chỉ cần thêm $1$ là đủ $10$.
+
+  :::example Tính $9+4$
+  **Lời giải.** $9$ cần thêm $1$ để được $10$, nên em tách $4$ thành $1$ và $3$:
+  $$9+4=9+1+3=10+3=13.$$
+  Vậy $9+4=13$.
+  :::
+
+[[P8·c2dc]]
+Với số $7$, em cần thêm nhiều hơn để đủ $10$.
+
+  :::example Tính $7+6$
+  **Lời giải.** $7$ cần thêm $3$ để được $10$, nên em tách $6$ thành $3$ và $3$:
+  $$7+6=7+3+3=10+3=13.$$
+  Vậy $7+6=13$.
+  :::
+
+[[P9·8d45]]
+Khi số đứng trước nhỏ hơn, em có thể đổi chỗ hai số cho dễ tính.
+
+  :::example Tính $6+8$
+  **Lời giải.** Đổi chỗ hai số hạng thì tổng không đổi, nên $6+8=8+6$. Số $8$ chỉ cần thêm $2$ để được $10$, nên em tách $6$ thành $2$ và $4$:
+  $$8+6=8+2+4=10+4=14.$$
+  Vậy $6+8=14$.
+  :::
+
+[[P10·9135]]
+Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Trồng cây
+  Tổ Một trồng được $9$ cây, tổ Hai trồng được $7$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
+
+  **Lời giải.** "Cả hai tổ" nghĩa là gộp số cây của hai tổ lại, nên em làm phép cộng. $9$ cần thêm $1$ để được $10$, em tách $7$ thành $1$ và $6$:
+  $$9+7=10+6=16.$$
+  Vậy cả hai tổ trồng được $16$ cây.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·02b9]]
+- **Quên phần còn lại.** Sai: $8+5=10$. Vì sao sai: em mới cộng $2$ trong số $5$, còn quên $3$. Đúng: $8+5=10+3=13$.
+- **Tách sai.** Sai: tách $5$ thành $2$ và $2$. Vì sao sai: $2+2=4$, không bằng $5$. Đúng: $5=2+3$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $16$". Đúng: "Đáp số: $16$ cây".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - số hạng | addend
+  - tổng | sum (total)
+  - cộng qua 10 | bridging through 10
+  - gộp cho đủ 10 | make 10
+  - tách số | partition a number
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P12·9ac8]]
+- Muốn cộng qua $10$, em **gộp cho đủ 10**: tách số thứ hai thành phần cần để đủ $10$ và phần còn lại.
+- Ví dụ: $8+5=8+2+3=10+3=13$.
+- Đổi chỗ các số hạng thì tổng không đổi; em có thể cộng vào số lớn hơn cho dễ.
+- Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/addition-crossing-10 – BẢN TIẾNG ANH ########
+---
+title: Addition bridging through 10 (within 20)
+description: Learn to add across 10, for example 8 + 5, with the "make 10" trick: split the second number to make 10, then add what is left.
+minutes: 15
+---
+
+  :::goals
+  - Add two numbers whose total is more than 10, for example $8+5$.
+  - Use the "make 10" trick to add quickly, without counting one by one.
+  - Solve a word problem with one addition.
+  :::
+
+[[P1·f75a]]
+Lan has $8$ sweets. Her mum gives her $5$ more. How many sweets does Lan have altogether?
+
+[[P2·718a]]
+You could count on one at a time: $9, 10, 11, 12, 13$. But counting like that is slow and easy to get wrong. This lesson shows you a much quicker trick.
+
+## Let's explore
+
+[[P3·5f05]]
+Lan has a sweet box with exactly $10$ spaces. She puts her $8$ sweets in, so $2$ spaces are still empty.
+
+[[P4·5a42]]
+- Lan takes $2$ of the $5$ sweets from her mum to fill the box. Now the box has $10$.
+- $3$ of mum's sweets are left outside the box.
+- $10$ in the box and $3$ outside make $13$.
+
+[[P5·f6ec]]
+So $8+5=13$. You see: just **make 10** first, and the answer is easy.
+
+:::graph On the number line: from 8, jump 2 to reach 10, then jump 3 to reach 13
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The "make 10" trick
+  To work out $8+5$:
+  1. Ask: how many does $8$ need to make $10$? It needs $2$.
+  2. Split $5$ into $2$ and $3$.
+  3. Add: $8+2=10$, then $10+3=13$.
+  :::
+
+[[P6·48cc]]
+The trick works because no sweet is lost: you only move $2$ of them into the box to make $10$, and the rest are still counted.
+
+## Examples
+
+[[P7·eaba]]
+We start with a sum that has a $9$ in it, because $9$ needs only $1$ more to make $10$.
+
+  :::example Work out $9+4$
+  **Solution.** $9$ needs $1$ more to make $10$, so split $4$ into $1$ and $3$:
+  $$9+4=9+1+3=10+3=13.$$
+  So $9+4=13$.
+  :::
+
+[[P8·1c33]]
+With a $7$, you need more to make $10$.
+
+  :::example Work out $7+6$
+  **Solution.** $7$ needs $3$ more to make $10$, so split $6$ into $3$ and $3$:
+  $$7+6=7+3+3=10+3=13.$$
+  So $7+6=13$.
+  :::
+
+[[P9·e880]]
+When the first number is the smaller one, you can swap the two numbers to make it easier.
+
+  :::example Work out $6+8$
+  **Solution.** Swapping the addends does not change the sum, so $6+8=8+6$. $8$ needs only $2$ more to make $10$, so split $6$ into $2$ and $4$:
+  $$8+6=8+2+4=10+4=14.$$
+  So $6+8=14$.
+  :::
+
+[[P10·9c6b]]
+Now use addition to answer a question from everyday life.
+
+  :::example Planting trees
+  Group One planted $9$ trees and Group Two planted $7$ trees. How many trees did the two groups plant altogether?
+
+  **Solution.** "Altogether" means putting the two groups' trees together, so we add. $9$ needs $1$ more to make $10$, so split $7$ into $1$ and $6$:
+  $$9+7=10+6=16.$$
+  So the two groups planted $16$ trees.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·3dff]]
+- **Forgetting what is left.** Wrong: $8+5=10$. Why it is wrong: you only added $2$ of the $5$ and forgot the other $3$. Right: $8+5=10+3=13$.
+- **Splitting wrongly.** Wrong: splitting $5$ into $2$ and $2$. Why it is wrong: $2+2=4$, not $5$. Right: $5=2+3$.
+- **No unit in a word problem.** Wrong: "Answer: $16$". Right: "Answer: $16$ trees".
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - addend | số hạng
+  - sum (total) | tổng
+  - bridging through 10 | cộng qua 10
+  - make 10 | gộp cho đủ 10
+  - partition a number | tách số
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P12·fd7a]]
+- To add across $10$, **make 10**: split the second number into the part that makes $10$ and the part that is left.
+- Example: $8+5=8+2+3=10+3=13$.
+- Swapping the addends does not change the sum; add on to the bigger number to make it easier.
+- Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

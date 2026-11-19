@@ -1,0 +1,1195 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – chanh106-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/act/act-overview, exams/act/act-practice-test-1, exams/act/act-statistics-probability, exams/ap-precalculus/apprecalc-frq-strategies
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  chanh106-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/chanh106-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file chanh106-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/act/act-overview – BẢN TIẾNG VIỆT ########
+---
+title: ACT Math gồm những gì và cách ôn
+description: Giải thích bài thi Toán của ACT mới: 45 câu trong 50 phút, cách tính điểm, các mảng nội dung, phân bổ thời gian, so sánh với SAT và kế hoạch 8 tuần.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Nắm cấu trúc bài thi ACT Math mới và cách tính điểm.
+  - Nhận ra các mảng nội dung và kiểu câu hỏi.
+  - Phân bổ thời gian: khoảng 67 giây một câu.
+  - Chuẩn bị theo kế hoạch tám tuần với tài liệu luyện tập phù hợp.
+  :::
+
+[[P1·0c60]]
+ACT là kì thi chuẩn hoá dùng để xét tuyển đại học, chủ yếu ở Hoa Kì, song song với SAT. Phần Toán (Math) của ACT là bài kiểm tra tốc độ về toán phổ thông: nhiều câu ngắn, mỗi câu có một đáp án đúng, và rất ít thời gian cho mỗi câu. Với học sinh học chương trình Việt Nam, phần lớn kiến thức đều quen thuộc; thử thách nằm ở tốc độ, ở việc đọc bài toán có lời văn bằng tiếng Anh, và ở vài chủ đề được dạy theo cách khác.
+
+## Cấu trúc của ACT mới
+
+[[P2·0cb5]]
+"ACT mới" (enhanced ACT) áp dụng cho hình thức thi trên máy từ tháng 4/2025 và thi trên giấy từ tháng 9/2025.
+
+| | ACT Math mới |
+|---|---|
+| Số câu | 45, mỗi câu 4 phương án |
+| Thời gian | 50 phút, khoảng 67 giây mỗi câu |
+| Máy tính | được dùng trong toàn bộ bài thi Toán |
+| Trả lời sai | không bị trừ điểm |
+| Thang điểm | từ 1 đến 36 |
+
+[[P3·c01c]]
+Trước khi thay đổi, bài thi Toán có 60 câu trong 60 phút với 5 phương án, nên các sách luyện thi cũ không còn khớp với cấu trúc hiện tại. Trong 45 câu có 4 câu thử nghiệm không tính điểm; bạn không biết đó là câu nào, nên hãy làm nghiêm túc mọi câu.
+
+[[P4·b8de]]
+**Điểm tổng (Composite score)** là trung bình của English, Math và Reading. Phần Science nay là phần tự chọn.
+
+## Các câu hỏi bao quát những gì
+
+[[P5·d81f]]
+ACT chia các câu Toán thành những mảng sau:
+
+[[P6·e8be]]
+- **Chuẩn bị cho toán cao hơn (Preparing for Higher Math)**, gồm **Số và đại lượng (Number and Quantity)**, **Đại số (Algebra)**, **Hàm số (Functions)**, **Hình học (Geometry)**, **Thống kê và xác suất (Statistics and Probability)**.
+- **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**: tốc độ, phần trăm, tỉ lệ, diện tích và thể tích, số trung bình và các phép toán đời thường khác, thường kết hợp trong một bài.
+- **Mô hình hoá (Modeling)**: câu hỏi yêu cầu xây dựng, sử dụng hoặc giải thích một mô hình toán học của tình huống thực tế.
+
+[[P7·2fb4]]
+ACT công bố chi tiết từng mảng trên trang chính thức; hãy xem act.org để có tỉ lệ mới nhất thay vì dựa vào số liệu trong sách cũ.
+
+## Phân bổ thời gian: 67 giây một câu
+
+[[P8·18eb]]
+ACT thưởng cho tốc độ đều tay hơn là sự sâu sắc. Ba thói quen sau rất có ích.
+
+[[P9·0bc2]]
+1. **Làm hai lượt.** Lượt đầu trả lời mọi câu làm nhanh được; đánh dấu các câu chậm và quay lại sau.
+2. **Không bỏ trống.** Trả lời sai không bị trừ điểm, nên trong phút cuối hãy điền hết các câu còn lại.
+3. **Dùng máy tính khôn ngoan.** Máy tính được dùng suốt bài, nhưng tính nhẩm thường nhanh hơn với các bước đơn giản; hãy để máy tính cho số thập phân, căn bậc hai và việc kiểm tra.
+
+## Ba câu hỏi mẫu
+
+  :::example Một câu về tốc độ
+  Một máy in in được $24$ trang trong $1{,}5$ phút. Với tốc độ đó, máy in được bao nhiêu trang trong $10$ phút?
+  A. $144$
+  B. $160$
+  C. $240$
+  D. $36$
+
+  **Lời giải.** Trước hết ta tính số trang in được trong một phút:
+  $$\frac{24}{1{,}5}=16\text{ trang mỗi phút}.$$
+
+  Trong $10$ phút, máy in được $16\times10=160$ trang.
+
+  Vậy máy in được $160$ trang, chọn đáp án **B**. Phương án C nhân $24$ với $10$ mà quên $1{,}5$ phút.
+  :::
+
+  :::example Một hàm số bậc nhất
+  Chi phí $C$, tính bằng đô la, để thuê một chiếc xe đạp trong $h$ giờ là $C=4h+6$. Số $4$ biểu thị điều gì?
+  A. Chi phí cố định khi thuê xe
+  B. Tổng chi phí cho một giờ
+  C. Chi phí thêm cho mỗi giờ
+  D. Số giờ thuê xe
+
+  **Lời giải.** Trong $C=4h+6$, mỗi khi $h$ tăng $1$ thì $C$ tăng $4$, nên $4$ là tốc độ thay đổi của chi phí theo giờ. Số $6$ là chi phí khi $h=0$, tức phí cố định.
+
+  Vậy $4$ là chi phí thêm cho mỗi giờ, chọn đáp án **C**.
+  :::
+
+  :::example Một câu xác suất
+  Một túi có $5$ viên bi đỏ, $3$ viên bi xanh dương và $2$ viên bi xanh lá. Lấy ngẫu nhiên một viên bi. Xác suất để viên bi đó không phải màu xanh dương là bao nhiêu?
+  A. $\dfrac{3}{10}$
+  B. $\dfrac{1}{2}$
+  C. $\dfrac{3}{7}$
+  D. $\dfrac{7}{10}$
+
+  **Lời giải.** Túi có $5+3+2=10$ viên bi, trong đó $10-3=7$ viên không phải màu xanh dương.
+
+  Do đó xác suất cần tìm là $\dfrac{7}{10}$.
+
+  Vậy xác suất để viên bi không phải màu xanh dương là $\dfrac{7}{10}$, chọn đáp án **D**. Phương án A là xác suất lấy được bi xanh dương.
+  :::
+
+## So sánh ACT với SAT
+
+[[P10·7903]]
+Cả hai kì thi đều được các trường đại học Hoa Kì chấp nhận, và nhiều học sinh thử cả hai. Phần Toán của SAT dạng số có hai mô-đun, mỗi mô-đun 22 câu trong 35 phút, có máy tính Desmos tích hợp và một số câu tự điền đáp số. ACT có nhiều câu hơn trên mỗi phút, và tất cả đều là trắc nghiệm. Nếu bạn làm nhanh và chính xác, ACT có thể hợp với bạn; nếu bạn thích nhiều thời gian hơn cho mỗi câu và các mô-đun thích ứng, hãy xem [mục SAT](lesson:sat-overview). Làm thử một đề của mỗi kì thi là cách tốt nhất để quyết định.
+
+## Kế hoạch tám tuần
+
+:::note Các tuần trước kì thi
+[[P11·f714]]
+1. **Tuần 1:** làm trọn một đề luyện có bấm giờ; liệt kê các chủ đề bạn làm sai.
+2. **Tuần 2 đến 5:** mỗi tuần ôn một mảng bằng các bài trong mục này: [Số, đại lượng và tỉ lệ](lesson:act-number-quantity), [Đại số và hàm số](lesson:act-algebra-functions), rồi hình học và thống kê. Cuối mỗi tuần làm các câu tổng hợp có bấm giờ.
+3. **Tuần 6:** mô hình hoá và bài tổng hợp; luyện đọc nhanh các bài toán có lời văn dài.
+4. **Tuần 7 đến 8:** mỗi tuần làm trọn một đề có bấm giờ, rồi xem lại mọi lỗi sai trong sổ lỗi sai.
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P12·7e54]]
+- **Luyện bằng cấu trúc cũ.** Sách cũ có 60 câu với 5 phương án; hãy điều chỉnh tốc độ cho 45 câu trong 50 phút.
+- **Dành ba phút cho một câu.** Đánh dấu, làm tiếp, rồi quay lại sau.
+- **Đọc quá nhanh.** Nhiều câu sai vì bỏ sót các từ như "not", "except" hay "least".
+- **Bỏ trống.** Đoán chỉ có lợi chứ không có hại.
+:::
+
+[[P13·5e38]]
+Trang chính thức của ACT có tài liệu luyện tập miễn phí, kể cả một đề luyện đầy đủ; hãy dùng song song với các bài học ở đây. Khi đã ôn xong các chủ đề, hãy làm [Đề luyện ACT Math số 1](lesson:act-practice-test-1).
+
+
+######## BÀI exams/act/act-overview – BẢN TIẾNG ANH ########
+---
+title: What ACT Math tests and how to prepare
+description: The enhanced ACT Math test explained: 45 questions in 50 minutes, scoring, content areas, pacing, how it differs from the SAT, and an 8-week plan.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Know the format of the enhanced ACT Math test and how it is scored.
+  - Recognize the content areas and the style of the questions.
+  - Plan your pacing: about 67 seconds per question.
+  - Prepare with an eight-week plan and the right practice materials.
+  :::
+
+[[P1·9ad1]]
+The ACT is a college admissions test used mainly by universities in the United States, alongside the SAT. Its Math section is a fast test of school mathematics: many short questions, each with one correct answer, and very little time for each. For students who have studied the Vietnamese curriculum, most of the mathematics is familiar; the challenges are speed, reading word problems in English, and a few topics taught differently.
+
+## The format of the enhanced ACT
+
+[[P2·b3dc]]
+The "enhanced ACT" applies to online testing from April 2025 and to paper testing from September 2025.
+
+| | Enhanced ACT Math |
+|---|---|
+| Questions | 45, each with 4 answer options |
+| Time | 50 minutes, about 67 seconds per question |
+| Calculator | allowed for the whole Math test |
+| Wrong answers | no penalty |
+| Score | 1 to 36 |
+
+[[P3·b551]]
+Before the change, the Math test had 60 questions in 60 minutes with 5 options, so older practice books do not match the current format. Among the 45 questions, 4 are experimental and do not count towards your score; you cannot tell which ones they are, so treat every question seriously.
+
+[[P4·e372]]
+The **Composite score** is the average of English, Math and Reading. Science is now optional.
+
+## What the questions cover
+
+[[P5·5da1]]
+ACT groups its Math questions into these areas:
+
+[[P6·8965]]
+- **Preparing for Higher Math**, made up of **Number and Quantity**, **Algebra**, **Functions**, **Geometry**, and **Statistics and Probability**.
+- **Integrating Essential Skills**: rates, percentages, proportions, area and volume, averages and similar everyday mathematics, often combined in one problem.
+- **Modeling**: questions in which you build, use or interpret a mathematical model of a real situation.
+
+[[P7·2aea]]
+ACT publishes the details of each area on its official site; check act.org for the latest breakdown rather than relying on percentages from older books.
+
+## Pacing: 67 seconds per question
+
+[[P8·3314]]
+The ACT rewards steady speed more than deep insight. Three habits help.
+
+[[P9·a4e8]]
+1. **Two passes.** On the first pass answer every question you can do quickly; mark the slow ones and return to them.
+2. **Never leave a blank.** There is no penalty for a wrong answer, so in the last minute fill in every remaining question.
+3. **Use the calculator wisely.** It is allowed throughout, but mental arithmetic is often faster for simple steps; save the calculator for decimals, square roots and checking.
+
+## Three sample questions
+
+  :::example A rate question
+  A printer prints $24$ pages in $1.5$ minutes. At this rate, how many pages does it print in $10$ minutes?
+  A. $144$
+  B. $160$
+  C. $240$
+  D. $36$
+
+  **Solution.** First we find the rate per minute:
+  $$\frac{24}{1.5}=16\text{ pages per minute}.$$
+
+  In $10$ minutes the printer prints $16\times10=160$ pages.
+
+  So the printer prints $160$ pages, answer **B**. Option C multiplies $24$ by $10$ and forgets the $1.5$ minutes.
+  :::
+
+  :::example A linear function
+  The cost $C$, in dollars, of renting a bike for $h$ hours is $C=4h+6$. What does the number $4$ represent?
+  A. The fixed cost of renting the bike
+  B. The total cost for one hour
+  C. The additional cost for each hour
+  D. The number of hours rented
+
+  **Solution.** In $C=4h+6$, each increase of $1$ in $h$ increases $C$ by $4$, so $4$ is the rate of change of the cost per hour. The number $6$ is the cost when $h=0$, the fixed fee.
+
+  So $4$ is the additional cost for each hour, answer **C**.
+  :::
+
+  :::example A probability question
+  A bag contains $5$ red, $3$ blue and $2$ green marbles. One marble is chosen at random. What is the probability that it is not blue?
+  A. $\dfrac{3}{10}$
+  B. $\dfrac{1}{2}$
+  C. $\dfrac{3}{7}$
+  D. $\dfrac{7}{10}$
+
+  **Solution.** There are $5+3+2=10$ marbles, and $10-3=7$ of them are not blue.
+
+  The probability is therefore $\dfrac{7}{10}$.
+
+  So the probability that the marble is not blue is $\dfrac{7}{10}$, answer **D**. Option A is the probability that it is blue.
+  :::
+
+## How the ACT compares with the SAT
+
+[[P10·6925]]
+Both tests are accepted by US universities, and many students try both. The digital SAT Math section has two modules of 22 questions, 35 minutes each, with a built-in Desmos calculator and some questions where you type the answer. The ACT has more questions per minute, all multiple choice. If you are fast and accurate, the ACT format may suit you; if you prefer more time per question and adaptive modules, look at our [SAT section](lesson:sat-overview). Taking one practice test of each is the best way to decide.
+
+## An eight-week plan
+
+:::note Weeks before the test
+[[P11·1887]]
+1. **Week 1:** take a full practice test under time; list the topics where you lost questions.
+2. **Weeks 2 to 5:** study one topic area each week with the lessons in this section: [Number, quantity and proportion](lesson:act-number-quantity), [Algebra and functions](lesson:act-algebra-functions), then geometry and statistics. Finish each week with mixed timed questions.
+3. **Week 6:** modeling and integrated problems; practice reading long word problems quickly.
+4. **Weeks 7 to 8:** one full timed test each week, then review every mistake in an error log.
+:::
+
+:::warning Common traps
+[[P12·e32a]]
+- **Practicing with the old format.** Old books have 60 questions with 5 options; adjust your pacing to 45 questions in 50 minutes.
+- **Spending three minutes on one question.** Mark it, move on, and come back.
+- **Reading too fast.** Many wrong answers come from missing a word such as "not", "except" or "least".
+- **Leaving blanks.** A guess can only help.
+:::
+
+[[P13·af51]]
+The official ACT website offers free practice material, including a full practice test; use it alongside the lessons here. When you have revised the topics, try [ACT Math practice test 1](lesson:act-practice-test-1).
+
+
+######## BÀI exams/act/act-practice-test-1 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện ACT Math số 1
+description: Đề luyện ACT Math trọn vẹn theo cấu trúc mới: 45 câu trắc nghiệm trong 50 phút, chấm điểm ngay, có lời giải cho từng câu.
+minutes: 50
+type: test
+---
+
+[[P1·6fe9]]
+Đề luyện này theo cấu trúc ACT Math mới: **45 câu, 50 phút, 4 phương án, được dùng máy tính, trả lời sai không bị trừ điểm**. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi ACT thật, nhưng bao quát các mảng nội dung chính thức ở đúng mức độ của kì thi. Các câu khó dần, như trong đề thật.
+
+## Cách làm đề
+
+[[P2·a5a7]]
+1. Bấm giờ **50 phút** (khoảng 67 giây mỗi câu) và làm mà không xem lời giải.
+2. Làm lượt đầu qua tất cả các câu, bỏ qua câu chậm, rồi quay lại sau.
+3. Trong phút cuối, điền hết các câu còn lại: đoán không thể làm giảm điểm của bạn.
+4. Nộp bài để xem số câu đúng, rồi đọc lời giải của mọi câu sai.
+
+## Đề thi
+
+:::quiz test
+   (… 404 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·7240]]
+Số câu đúng là điểm thô của bạn trên 45. ACT quy đổi điểm thô sang thang 1–36 bằng một bảng khác nhau theo từng đề, nên đề luyện này không đưa ra điểm quy đổi. Hãy dùng bảng dưới để biết mỗi câu sai cần ôn lại bài nào.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 2 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 3 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 4 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 5 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 6 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 7 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 8 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 9 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 10 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 11 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 12 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 13 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 14 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 15 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 16 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 17 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 18 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 19 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 20 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 21 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 22 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 23 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 24 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 25 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 26 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 27 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 28 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 29 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 30 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 31 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 32 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 33 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 34 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 35 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 36 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 37 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 38 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 39 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 40 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 41 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 42 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 43 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 44 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 45 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+
+[[P4·c93f]]
+Sau đó ôn lại bằng bài [ACT Math gồm những gì và cách ôn](lesson:act-overview), và ghi mọi lỗi sai vào sổ lỗi sai.
+
+
+######## BÀI exams/act/act-practice-test-1 – BẢN TIẾNG ANH ########
+---
+title: ACT Math practice test 1
+description: A full ACT Math practice test in the enhanced format: 45 multiple-choice questions in 50 minutes, marked instantly, with a solution to every question.
+minutes: 50
+type: test
+---
+
+[[P1·395d]]
+This practice test follows the enhanced ACT Math format: **45 questions, 50 minutes, 4 answer options, calculator allowed, no penalty for wrong answers**. All questions are written by Lemonmath; they are not real ACT questions, but they cover the official content areas at the level of the test. The questions get gradually harder, as on the real test.
+
+## How to take this test
+
+[[P2·0981]]
+1. Set a timer for **50 minutes** (about 67 seconds per question) and work without looking at the solutions.
+2. Make a first pass through all the questions, skip the slow ones, and come back to them.
+3. In the last minute, answer every remaining question: a guess cannot lower your score.
+4. Submit to see how many questions you got right, then read the solution of every question you missed.
+
+## The test
+
+:::quiz test
+   (… 404 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the test
+
+[[P3·decd]]
+The number of correct answers is your raw score out of 45. ACT converts raw scores to the 1–36 scale with a table that differs from test to test, so this practice test does not give a scaled score. Use the table below to find which lesson to revise for each question you missed.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Algebra and functions](lesson:act-algebra-functions) |
+| 2 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 3 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 4 | [Algebra and functions](lesson:act-algebra-functions) |
+| 5 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 6 | [Statistics and probability](lesson:act-statistics-probability) |
+| 7 | [Algebra and functions](lesson:act-algebra-functions) |
+| 8 | [Algebra and functions](lesson:act-algebra-functions) |
+| 9 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 10 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 11 | [Algebra and functions](lesson:act-algebra-functions) |
+| 12 | [Algebra and functions](lesson:act-algebra-functions) |
+| 13 | [Statistics and probability](lesson:act-statistics-probability) |
+| 14 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 15 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 16 | [Algebra and functions](lesson:act-algebra-functions) |
+| 17 | [Algebra and functions](lesson:act-algebra-functions) |
+| 18 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 19 | [Algebra and functions](lesson:act-algebra-functions) |
+| 20 | [Algebra and functions](lesson:act-algebra-functions) |
+| 21 | [Algebra and functions](lesson:act-algebra-functions) |
+| 22 | [Statistics and probability](lesson:act-statistics-probability) |
+| 23 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 24 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 25 | [Statistics and probability](lesson:act-statistics-probability) |
+| 26 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 27 | [Algebra and functions](lesson:act-algebra-functions) |
+| 28 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 29 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 30 | [Algebra and functions](lesson:act-algebra-functions) |
+| 31 | [Algebra and functions](lesson:act-algebra-functions) |
+| 32 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 33 | [Statistics and probability](lesson:act-statistics-probability) |
+| 34 | [Algebra and functions](lesson:act-algebra-functions) |
+| 35 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 36 | [Statistics and probability](lesson:act-statistics-probability) |
+| 37 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 38 | [Algebra and functions](lesson:act-algebra-functions) |
+| 39 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 40 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 41 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 42 | [Algebra and functions](lesson:act-algebra-functions) |
+| 43 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 44 | [Statistics and probability](lesson:act-statistics-probability) |
+| 45 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+
+[[P4·c4d3]]
+Then review with [What ACT Math tests and how to prepare](lesson:act-overview), and keep an error log of every mistake.
+
+
+######## BÀI exams/act/act-statistics-probability – BẢN TIẾNG VIỆT ########
+---
+title: Thống kê và xác suất
+description: ACT Math thống kê và xác suất: trung bình, trung vị, mốt, độ phân tán, giá trị còn thiếu, đếm, xác suất của biến cố kết hợp, bảng hai chiều, kì vọng.
+minutes: 45
+---
+
+  :::goals
+  - Tìm và so sánh trung bình, trung vị, mốt, khoảng biến thiên, và nhận xét tập dữ liệu nào phân tán hơn.
+  - Tìm giá trị còn thiếu khi biết trung bình, kể cả trung bình có trọng số.
+  - Đếm số cách sắp xếp và lựa chọn bằng quy tắc nhân, hoán vị và tổ hợp.
+  - Tính xác suất của biến cố đơn và biến cố kết hợp, kể cả xác suất có điều kiện từ bảng.
+  - Tính giá trị kì vọng.
+  :::
+
+[[P1·bf06]]
+Câu hỏi thống kê và xác suất trong ACT hiếm khi cần tính toán dài. Chúng kiểm tra xem bạn có hiểu chính xác ý nghĩa của từng số đặc trưng và biết dùng quy tắc đếm nào. Một câu điển hình cho một tập dữ liệu nhỏ, một bảng hoặc một mô tả ngắn, và hỏi một con số. Hãy viết quy tắc bạn dùng trước khi tính; điều đó ngăn được phần lớn lỗi sai.
+
+## Trung bình, trung vị, mốt và độ phân tán
+
+[[P2·b2e8]]
+**Số trung bình (mean)** là tổng chia cho số giá trị; **trung vị (median)** là giá trị đứng giữa của dãy đã sắp xếp (trung bình của hai giá trị giữa nếu số giá trị chẵn); **mốt (mode)** là giá trị xuất hiện nhiều nhất; **khoảng biến thiên (range)** là giá trị lớn nhất trừ giá trị nhỏ nhất. **Độ lệch chuẩn (standard deviation)** đo mức các giá trị thường cách xa trung bình: dữ liệu càng phân tán thì độ lệch chuẩn càng lớn.
+
+  :::example Ba số đặc trưng đo xu thế trung tâm
+  Với dữ liệu $4, 7, 7, 9, 13$, khẳng định nào đúng?
+  A. Số trung bình lớn hơn trung vị.
+  B. Trung vị lớn hơn số trung bình.
+  C. Mốt lớn hơn trung vị.
+  D. Số trung bình, trung vị và mốt bằng nhau.
+
+  **Lời giải.** Số trung bình là $\dfrac{4+7+7+9+13}{5}=\dfrac{40}{5}=8$.
+
+  Dữ liệu đã được sắp xếp, nên trung vị là giá trị thứ ba, bằng $7$. Mốt là $7$, vì nó xuất hiện hai lần.
+
+  Vì $8>7$ nên số trung bình lớn hơn trung vị.
+
+  Vậy khẳng định A đúng, chọn đáp án **A**.
+  :::
+
+  :::example Điểm cần đạt
+  Điểm trung bình của Minh trong $5$ bài kiểm tra là $82$. Minh cần đạt bao nhiêu điểm ở bài thứ sáu để điểm trung bình tăng lên $85$?
+  A. $85$
+  B. $88$
+  C. $95$
+  D. $100$
+
+  **Lời giải.** Tổng điểm của $5$ bài đầu là $5\times82=410$.
+
+  Để trung bình của $6$ bài là $85$, tổng điểm phải bằng $6\times85=510$.
+
+  Do đó điểm bài thứ sáu phải là $510-410=100$.
+
+  Vậy Minh cần đạt $100$ điểm, chọn đáp án **D**. Phương án B cộng hiệu $3$ vào $85$ thay vì làm việc với các tổng.
+  :::
+
+## Đếm
+
+[[P3·a830]]
+Theo **quy tắc nhân**, nếu một lựa chọn có $m$ cách và lựa chọn thứ hai có $n$ cách thì cả hai lựa chọn có $mn$ cách. Số cách xếp $n$ đồ vật khác nhau thành một hàng là $n!$. Số cách chọn $r$ đồ vật từ $n$ đồ vật, khi không tính thứ tự, là $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+
+  :::example Có thứ tự hay không
+  Một câu lạc bộ có $8$ thành viên. Có bao nhiêu cách chọn một ban gồm $3$ thành viên?
+  A. $336$
+  B. $56$
+  C. $24$
+  D. $512$
+
+  **Lời giải.** Thứ tự các thành viên trong một ban không quan trọng, nên ta đếm tổ hợp:
+  $$\binom83=\frac{8\times7\times6}{3\times2\times1}=56.$$
+
+  Vậy có $56$ cách chọn ban, chọn đáp án **B**. Phương án A đếm các cách chọn có thứ tự, chẳng hạn chủ tịch, thư kí và thủ quỹ.
+  :::
+
+## Xác suất
+
+[[P4·a45a]]
+Với các kết quả đồng khả năng, $P(A)=\dfrac{\text{số kết quả thuận lợi}}{\text{số kết quả có thể}}$. Với hai biến cố **độc lập**, $P(A\text{ và }B)=P(A)P(B)$. Xác suất để $A$ không xảy ra là $1-P(A)$. **Xác suất có điều kiện** chỉ xét các kết quả thoả mãn điều kiện.
+
+  :::example Một đồng xu và một con xúc xắc
+  Tung một đồng xu cân đối và gieo một con xúc xắc cân đối sáu mặt. Xác suất được mặt ngửa và mặt $6$ chấm là
+  A. $\dfrac{1}{12}$
+  B. $\dfrac{2}{3}$
+  C. $\dfrac{1}{8}$
+  D. $\dfrac{7}{12}$
+
+  **Lời giải.** Đồng xu và con xúc xắc không ảnh hưởng đến nhau, nên hai biến cố độc lập:
+  $$P(\text{ngửa và }6)=\frac12\times\frac16=\frac{1}{12}.$$
+
+  Vậy xác suất cần tìm là $\dfrac{1}{12}$, chọn đáp án **A**. Phương án B cộng hai xác suất thay vì nhân.
+  :::
+
+  :::example Xác suất có điều kiện từ bảng
+  Một khảo sát hỏi $100$ người xem họ có uống trà và có uống cà phê hay không.
+
+  | | Cà phê | Không cà phê | Tổng |
+  |---|---|---|---|
+  | Trà | $25$ | $15$ | $40$ |
+  | Không trà | $35$ | $25$ | $60$ |
+  | Tổng | $60$ | $40$ | $100$ |
+
+  Chọn ngẫu nhiên một người uống trà. Xác suất người đó cũng uống cà phê là
+  A. $\dfrac14$
+  B. $\dfrac{5}{12}$
+  C. $\dfrac58$
+  D. $\dfrac35$
+
+  **Lời giải.** Điều kiện "uống trà" giới hạn ta trong $40$ người ở hàng Trà. Trong số đó, $25$ người cũng uống cà phê.
+
+  Do đó xác suất là
+  $$\frac{25}{40}=\frac58.$$
+
+  Vậy xác suất cần tìm là $\dfrac58$, chọn đáp án **C**. Phương án A chia cho $100$, còn phương án B chia cho $60$ người uống cà phê.
+  :::
+
+## Giá trị kì vọng
+
+[[P5·57b2]]
+Giá trị kì vọng của một biến ngẫu nhiên là $E(X)=\sum x\,P(X=x)$: kết quả trung bình mỗi lần thử khi lặp lại rất nhiều lần.
+
+  :::example Có nên chơi trò này không?
+  Trong một trò chơi, người chơi thắng $10$ đô la với xác suất $0{,}2$, ngược lại thì thua $3$ đô la. Số tiền lãi kì vọng mỗi ván là
+  A. $7$ đô la
+  B. $-0{,}4$ đô la
+  C. $2$ đô la
+  D. $0{,}4$ đô la
+
+  **Lời giải.** Người chơi thua với xác suất $1-0{,}2=0{,}8$. Do đó
+  $$E=10(0{,}2)+(-3)(0{,}8)=2-2{,}4=-0{,}4.$$
+
+  Vậy số tiền lãi kì vọng là $-0{,}4$ đô la mỗi ván, tức trung bình mỗi ván lỗ $40$ xu, chọn đáp án **B**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·8059]]
+- **Trung vị của dữ liệu chưa sắp xếp:** hãy sắp xếp trước.
+- **Bài toán về trung bình:** làm việc với tổng, không làm với hiệu các trung bình.
+- **Hoán vị hay tổ hợp:** thứ tự có quan trọng không? Một ban: không; xếp hạng hay các vai trò khác nhau: có.
+- **"Và" với "hoặc":** nhân với "và" khi các biến cố độc lập; với "hoặc", cộng rồi trừ phần chung.
+- **Mẫu số của xác suất có điều kiện** là tổng của nhóm thoả điều kiện, không phải tổng chung.
+:::
+
+  :::terms
+  - mean, median, mode, range | trung bình, trung vị, mốt, khoảng biến thiên
+  - standard deviation | độ lệch chuẩn
+  - weighted average | trung bình có trọng số
+  - multiplication principle | quy tắc nhân
+  - permutation, combination | hoán vị, tổ hợp
+  - independent events | biến cố độc lập
+  - conditional probability | xác suất có điều kiện
+  - expected value | giá trị kì vọng
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-statistics-probability – BẢN TIẾNG ANH ########
+---
+title: Statistics and probability
+description: ACT Math statistics and probability: mean, median, mode and spread, missing values, counting, probability of combined events, two-way tables, expected value.
+minutes: 45
+---
+
+  :::goals
+  - Find and compare the mean, median, mode and range, and judge which data set is more spread out.
+  - Find a missing value from a given mean, including weighted averages.
+  - Count arrangements and selections with the multiplication principle, permutations and combinations.
+  - Find probabilities of single and combined events, including conditional probability from a table.
+  - Calculate an expected value.
+  :::
+
+[[P1·4a8e]]
+Statistics and probability questions on the ACT rarely need long calculations. They test whether you know exactly what each measure means and which counting rule to use. A typical question gives a small data set, a table or a short description, and asks for one number. Write the rule you use before you calculate; it prevents most errors.
+
+## Mean, median, mode and spread
+
+[[P2·f04e]]
+The **mean** is the sum divided by the number of values; the **median** is the middle value of the ordered data (the mean of the two middle values when there is an even number of values); the **mode** is the most frequent value; the **range** is the largest value minus the smallest. The **standard deviation** measures how far the values typically are from the mean: more spread out data has a larger standard deviation.
+
+  :::example Three measures of center
+  For the data $4, 7, 7, 9, 13$, which statement is true?
+  A. The mean is greater than the median.
+  B. The median is greater than the mean.
+  C. The mode is greater than the median.
+  D. The mean, median and mode are all equal.
+
+  **Solution.** The mean is $\dfrac{4+7+7+9+13}{5}=\dfrac{40}{5}=8$.
+
+  The data are already in order, so the median is the third value, $7$. The mode is $7$, because it appears twice.
+
+  Since $8>7$, the mean is greater than the median.
+
+  So statement A is true, answer **A**.
+  :::
+
+  :::example The score needed
+  Minh's mean score on $5$ tests is $82$. What score does he need on the sixth test to raise his mean to $85$?
+  A. $85$
+  B. $88$
+  C. $95$
+  D. $100$
+
+  **Solution.** The total of the first $5$ scores is $5\times82=410$.
+
+  For a mean of $85$ over $6$ tests, the total must be $6\times85=510$.
+
+  So the sixth score must be $510-410=100$.
+
+  So Minh needs a score of $100$, answer **D**. Option B adds the difference $3$ to $85$ instead of working with totals.
+  :::
+
+## Counting
+
+[[P3·99a3]]
+By the **multiplication principle**, if one choice can be made in $m$ ways and a second in $n$ ways, both can be made in $mn$ ways. The number of ways to arrange $n$ different objects in a row is $n!$. The number of ways to choose $r$ objects from $n$, when order does not matter, is $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+
+  :::example Order or no order
+  A club has $8$ members. In how many ways can a committee of $3$ members be chosen?
+  A. $336$
+  B. $56$
+  C. $24$
+  D. $512$
+
+  **Solution.** The order of the members in a committee does not matter, so we count combinations:
+  $$\binom83=\frac{8\times7\times6}{3\times2\times1}=56.$$
+
+  So there are $56$ possible committees, answer **B**. Option A counts ordered choices, such as president, secretary and treasurer.
+  :::
+
+## Probability
+
+[[P4·c07e]]
+For equally likely outcomes, $P(A)=\dfrac{\text{number of favorable outcomes}}{\text{number of outcomes}}$. For **independent** events, $P(A\text{ and }B)=P(A)P(B)$. The probability that $A$ does not happen is $1-P(A)$. A **conditional** probability restricts the outcomes to those satisfying the condition.
+
+  :::example A coin and a die
+  A fair coin is tossed and a fair six-sided die is rolled. What is the probability of getting heads and a $6$?
+  A. $\dfrac{1}{12}$
+  B. $\dfrac{2}{3}$
+  C. $\dfrac{1}{8}$
+  D. $\dfrac{7}{12}$
+
+  **Solution.** The coin and the die do not affect each other, so the events are independent:
+  $$P(\text{heads and }6)=\frac12\times\frac16=\frac{1}{12}.$$
+
+  So the probability is $\dfrac{1}{12}$, answer **A**. Option B adds the probabilities instead of multiplying.
+  :::
+
+  :::example Conditional probability from a table
+  A survey asked $100$ people whether they drink tea and whether they drink coffee.
+
+  | | Coffee | No coffee | Total |
+  |---|---|---|---|
+  | Tea | $25$ | $15$ | $40$ |
+  | No tea | $35$ | $25$ | $60$ |
+  | Total | $60$ | $40$ | $100$ |
+
+  If a person who drinks tea is chosen at random, what is the probability that this person also drinks coffee?
+  A. $\dfrac14$
+  B. $\dfrac{5}{12}$
+  C. $\dfrac58$
+  D. $\dfrac35$
+
+  **Solution.** The condition "drinks tea" restricts us to the $40$ people in the Tea row. Of these, $25$ also drink coffee.
+
+  So the probability is
+  $$\frac{25}{40}=\frac58.$$
+
+  So the probability is $\dfrac58$, answer **C**. Option A divides by $100$, and option B divides by the $60$ coffee drinkers.
+  :::
+
+## Expected value
+
+[[P5·558d]]
+The expected value of a random variable is $E(X)=\sum x\,P(X=x)$: the long-run average result per trial.
+
+  :::example Is the game worth playing?
+  In a game, a player wins $10$ dollars with probability $0.2$ and loses $3$ dollars otherwise. What is the expected gain per game?
+  A. $7$ dollars
+  B. $-0.4$ dollars
+  C. $2$ dollars
+  D. $0.4$ dollars
+
+  **Solution.** The player loses with probability $1-0.2=0.8$. So
+  $$E=10(0.2)+(-3)(0.8)=2-2.4=-0.4.$$
+
+  So the expected gain is $-0.4$ dollars per game, a loss of $40$ cents on average, answer **B**.
+  :::
+
+:::warning Common traps
+[[P6·65a2]]
+- **The median of unordered data:** sort first.
+- **Mean problems:** work with totals, not with differences of means.
+- **Permutations and combinations:** does order matter? A committee: no; a ranking or different roles: yes.
+- **"And" and "or":** multiply for independent "and"; for "or", add and subtract the overlap.
+- **The denominator of a conditional probability** is the total of the condition, not the grand total.
+:::
+
+  :::terms
+  - mean, median, mode, range | trung bình, trung vị, mốt, khoảng biến thiên
+  - standard deviation | độ lệch chuẩn
+  - weighted average | trung bình có trọng số
+  - multiplication principle | quy tắc nhân
+  - permutation, combination | hoán vị, tổ hợp
+  - independent events | biến cố độc lập
+  - conditional probability | xác suất có điều kiện
+  - expected value | giá trị kì vọng
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-frq-strategies – BẢN TIẾNG VIỆT ########
+---
+title: Bốn dạng câu tự luận và cách đạt điểm
+description: Cách tổ chức và chấm bốn câu tự luận AP Precalculus, mỗi dạng hỏi gì, những câu viết giúp lấy điểm, và một bài giải mẫu chấm từng điểm.
+minutes: 35
+type: guide
+---
+
+  :::goals
+  - Nắm thời gian và cách chấm phần tự luận.
+  - Nhận ra mỗi dạng trong bốn dạng câu hỏi thường hỏi gì.
+  - Viết câu trả lời theo đúng cách hướng dẫn chấm cho điểm: số thập phân đủ chính xác, có phần trình bày, dùng kí hiệu giới hạn và giải thích theo tình huống.
+  - Luyện với một câu hỏi được chấm mẫu từng điểm.
+  :::
+
+[[P1·adf7]]
+Phần tự luận (free-response) chiếm $37{,}5\%$ điểm AP Precalculus: bốn câu, mỗi câu $6$ điểm. Mỗi điểm gắn với một điều bạn viết ra, nên biết giám khảo tìm gì cũng quan trọng ngang biết toán. Lời khuyên dưới đây dựa trên hướng dẫn chấm (scoring guidelines), bài làm mẫu của thí sinh và báo cáo của trưởng ban chấm đăng trên AP Central; tự đọc hai, ba câu hỏi gần đây ở đó là cách chuẩn bị tốt nhất.
+
+## Phần tự luận diễn ra thế nào
+
+[[P2·c9c0]]
+Từ kì thi tháng 5/2027, Section II kéo dài 1 giờ 10 phút và làm bài viết tay.
+
+| Phần | Thời gian | Máy tính | Câu hỏi |
+|---|---|---|---|
+| A | 35 phút | bắt buộc máy tính đồ thị | FRQ 1 Function Concepts, FRQ 2 Modeling a Non-Periodic Context |
+| B | 35 phút | không được dùng | FRQ 3 Modeling a Periodic Context, FRQ 4 Symbolic Manipulations |
+
+[[P3·11b7]]
+Mỗi câu $6$ điểm. Trong các hướng dẫn chấm gần đây, điểm được đánh nhãn theo từng ý (chẳng hạn A1, A2, B1, B2, C1, C2), và mỗi điểm được xét riêng. Sai ở một ý không ngăn bạn lấy điểm ở ý sau, nên đừng bỏ trống ý sau chỉ vì ý trước làm sai.
+
+:::tip Ba quy tắc năm nào cũng làm mất điểm
+[[P4·866e]]
+- **Số thập phân:** trừ khi đề nói khác, đáp số thập phân phải chính xác đến **ba chữ số sau dấu phẩy**, làm tròn hoặc cắt bớt đều được. Không làm tròn ở bước trung gian: hãy lưu giá trị trong máy tính.
+- **Phần trình bày:** khi một điểm đòi hỏi phần trình bày, chỉ ghi đáp số sẽ không được điểm. Viết biểu thức cần tính, chẳng hạn $g\big(f(1)\big)$, trước con số.
+- **Giá trị đúng được chấp nhận:** đáp số đúng dạng chính xác, như $\ln5$ hay $\dfrac{\sqrt3}{2}$, vẫn được chấp nhận ở chỗ đề yêu cầu số thập phân.
+:::
+
+## Bốn dạng câu hỏi
+
+[[P5·351d]]
+**FRQ 1, Function Concepts (có máy tính).** Hàm số cho bằng đồ thị, bảng hoặc công thức, thường nhiều cách cùng lúc, không có tình huống thực tế. Yêu cầu thường gặp: tính giá trị hàm hợp hay hàm ngược, giải phương trình bằng máy tính và nêu đủ mọi nghiệm, xác định khoảng đồng biến, nghịch biến, lõm lên, lõm xuống, mô tả dáng điệu ở vô cực hay tiệm cận. Dáng điệu ở vô cực phải viết bằng **kí hiệu giới hạn**, chẳng hạn $\displaystyle\lim_{x\to\infty}f(x)=0$.
+
+[[P6·528a]]
+**FRQ 2, Modeling a Non-Periodic Context (có máy tính).** Một tình huống có dữ liệu, ví dụ dân số hay giá cả. Yêu cầu thường gặp: lập phương trình từ các điểm dữ liệu để tìm tham số, dùng mô hình để ước lượng, giải thích một tốc độ biến thiên hay một tham số theo tình huống, và nhận xét mô hình có phù hợp không hoặc đến đâu thì hết hợp lí. Lời giải thích cần có **đơn vị và tình huống**.
+
+[[P7·66ad]]
+**FRQ 3, Modeling a Periodic Context (không máy tính).** Một tình huống lặp lại, như vòng quay, thuỷ triều hay nhiệt độ, thường kèm đồ thị. Yêu cầu thường gặp: tìm chu kì, biên độ, đường trung bình và độ dịch pha, viết hàm dạng sin, mô tả hàm số tăng hay giảm ở đâu và tốc độ biến thiên thay đổi ra sao.
+
+[[P8·c988]]
+**FRQ 4, Symbolic Manipulations (không máy tính).** Biến đổi và giải: dùng quy tắc luỹ thừa, logarit và đồng nhất thức lượng giác để viết biểu thức theo dạng yêu cầu, giải phương trình trên một khoảng, tìm tập xác định. Mỗi bước nên chỉ rõ quy tắc đã dùng.
+
+## Những câu viết giúp lấy điểm
+
+| Để thể hiện | Hãy viết |
+|---|---|
+| Dáng điệu ở vô cực | "$\displaystyle\lim_{x\to\infty}f(x)=3$" thay vì "tiến tới $3$" |
+| Đồng biến và lõm xuống | "As $x$ increases, $f(x)$ increases at a decreasing rate" (khi $x$ tăng, $f(x)$ tăng với tốc độ giảm dần) |
+| Ý nghĩa một tham số | "The population increases by $4\%$ each year" (dân số tăng $4\%$ mỗi năm) |
+| Ý nghĩa tốc độ trung bình | "Từ 2020 đến 2025, giá tăng trung bình $1{,}20$ đô la mỗi năm" |
+| Giới hạn của mô hình | Nêu một đặc điểm của tình huống mà mô hình không đáp ứng được, như giá trị âm hay tăng không giới hạn |
+| Mọi nghiệm | Liệt kê mọi giá trị trong khoảng, không chỉ giá trị máy tính hiện ra đầu tiên |
+
+[[P9·fd45]]
+Đề thi viết bằng tiếng Anh, nên hãy tập viết các câu giải thích bằng tiếng Anh ngắn gọn như trong bảng.
+
+## Một câu hỏi giải mẫu
+
+  :::example Mô hình không tuần hoàn (kiểu FRQ 2, có máy tính)
+  Một cốc cà phê nguội dần trong phòng. Nhiệt độ của nó (độ C) được mô hình hoá bởi $T(t)=20+ab^t$, với $t$ là thời gian tính bằng phút. Nhiệt độ là $80^\circ$C tại $t=0$ và $56^\circ$C tại $t=5$.
+
+  (A) Tìm $a$ và $b$. **(2 điểm)**
+
+  (B) Dùng mô hình tính nhiệt độ tại $t=12$, và thời điểm nhiệt độ bằng $40^\circ$C. **(2 điểm)**
+
+  (C) Tìm $\lim\limits_{t\to\infty}T(t)$ và giải thích ý nghĩa theo tình huống. **(2 điểm)**
+
+  **Bài giải mẫu.** (A) Tại $t=0$, $T(0)=20+a=80$, nên $a=60$. *[A1: một phương trình dùng dữ liệu]*
+
+  Tại $t=5$, $20+60b^5=56$, nên $b^5=0{,}6$ và $b=0{,}6^{1/5}\approx0{,}902880$. *[A2: giá trị đúng, từ ba chữ số thập phân trở lên]*
+
+  (B) Dùng giá trị $b$ đã lưu, $T(12)=20+60b^{12}\approx20+60\cdot0{,}293470\approx37{,}608^\circ$C. *[B1]*
+
+  Giải $20+60b^t=40$ được $b^t=\dfrac13$ và $t=\dfrac{\ln(1/3)}{\ln b}\approx10{,}753$ phút. *[B2: có biểu thức, rồi mới đến giá trị]*
+
+  (C) Vì $0<b<1$ nên $b^t\to0$, do đó $\lim\limits_{t\to\infty}T(t)=20$. *[C1: kí hiệu giới hạn]*
+
+  Theo tình huống, nhiệt độ cà phê ngày càng gần $20^\circ$C, tức nhiệt độ của căn phòng, khi thời gian trôi qua. *[C2: ý nghĩa có đơn vị và tình huống]*
+
+  Vậy $a=60$, $b\approx0{,}903$, $T(12)\approx37{,}608^\circ$C, cà phê còn $40^\circ$C sau khoảng $10{,}753$ phút, và giới hạn là $20^\circ$C.
+  :::
+
+[[P10·f6d6]]
+Hãy để ý những chỗ dễ mất điểm: viết $b\approx0{,}9$ (không đủ ba chữ số thập phân), làm tròn $b$ trước khi tính $T(12)$, ghi $10{,}753$ mà không có phương trình, hoặc viết "nhiệt độ chững lại" mà không có kí hiệu giới hạn và không nhắc đến nhiệt độ phòng.
+
+:::warning Những lí do mất điểm thường gặp
+[[P11·601a]]
+- **Thiếu chữ số thập phân** hoặc làm tròn quá sớm.
+- **Thiếu nghiệm** khi máy tính cho thấy nhiều giao điểm.
+- **Giải thích mơ hồ**, không đơn vị, không gắn với tình huống.
+- **Viết cú pháp máy tính** thay cho kí hiệu toán học trong bài làm.
+- **Sai chế độ máy tính:** Part B không dùng máy tính, nhưng ở Part A hãy để máy ở chế độ radian khi làm mô hình lượng giác.
+:::
+
+## Kế hoạch cho 70 phút
+
+[[P12·d4f3]]
+1. **Part A (35 phút):** khoảng $17$ phút mỗi câu. Mở đầu mỗi câu bằng cách ghi lại những gì đề cho: điểm dữ liệu, tập xác định, đơn vị.
+2. **Part B (35 phút):** đọc cả hai câu trước; câu biến đổi biểu thức thường có ý nhanh, nên làm sớm.
+3. **Kiểm tra:** đọc lại động từ của từng ý. "Find" cần một giá trị, "explain" cần một câu giải thích, "justify" cần một lí do gắn với hàm số.
+
+  :::terms
+  - free-response question (FRQ) | câu tự luận
+  - scoring guidelines | hướng dẫn chấm
+  - supporting work | phần trình bày dẫn đến đáp số
+  - limit notation | kí hiệu giới hạn
+  - end behavior | dáng điệu ở vô cực
+  - interpret in context | giải thích theo tình huống
+  - truncate | cắt bớt chữ số
+  :::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-frq-strategies – BẢN TIẾNG ANH ########
+---
+title: The four free-response types and how to score
+description: How the four AP Precalculus free-response questions are organized and scored, what each type asks, the sentences that earn points, and a worked example.
+minutes: 35
+type: guide
+---
+
+  :::goals
+  - Know how the free-response section is timed and scored.
+  - Recognize what each of the four question types usually asks.
+  - Write answers in the form the scoring guidelines reward: accurate decimals, supporting work, limit notation and interpretations in context.
+  - Practise on a worked question scored point by point.
+  :::
+
+[[P1·c546]]
+The free-response section is $37.5\%$ of your AP Precalculus score: four questions of $6$ points each. Every point is tied to something you write, so knowing what the graders look for is worth as much as knowing the mathematics. The advice here is based on the published scoring guidelines, student samples and chief reader reports on AP Central; reading two or three recent questions there yourself is the best preparation of all.
+
+## How the section works
+
+[[P2·8279]]
+From the May 2027 exam, Section II lasts 1 hour 10 minutes and is written by hand.
+
+| Part | Time | Calculator | Questions |
+|---|---|---|---|
+| A | 35 minutes | graphing calculator required | FRQ 1 Function Concepts, FRQ 2 Modeling a Non-Periodic Context |
+| B | 35 minutes | not allowed | FRQ 3 Modeling a Periodic Context, FRQ 4 Symbolic Manipulations |
+
+[[P3·bb20]]
+Each question is worth $6$ points. In recent scoring guidelines, the points are labelled by part (for example A1, A2, B1, B2, C1, C2), and each point is decided on its own. A mistake in one part does not stop you earning points in the next, so never leave a later part blank because an earlier one went wrong.
+
+:::tip Three rules that cost points every year
+[[P4·65ad]]
+- **Decimals:** unless a question says otherwise, decimal answers must be accurate to **three places after the decimal point**, rounded or truncated. Do not round in intermediate steps: store values in the calculator.
+- **Supporting work:** when a point requires supporting work, an answer alone earns nothing. Write the expression you evaluate, such as $g\big(f(1)\big)$, before the number.
+- **Exact values are fine:** a correct exact answer, such as $\ln5$ or $\dfrac{\sqrt3}{2}$, is acceptable where a decimal is requested.
+:::
+
+## The four question types
+
+[[P5·89c1]]
+**FRQ 1, Function Concepts (calculator).** Functions are given by a graph, a table or a formula, often several at once, without a real-world context. Typical tasks: evaluate a composition or an inverse, solve an equation with the calculator and report every solution, decide where a function is increasing, decreasing, concave up or down, and describe end behavior or asymptotes. End behavior must be written with **limit notation**, such as $\displaystyle\lim_{x\to\infty}f(x)=0$.
+
+[[P6·19d9]]
+**FRQ 2, Modeling a Non-Periodic Context (calculator).** A situation with data, for example a population or a price. Typical tasks: write equations from data points to find parameters, use the model to estimate a value, interpret a rate of change or a parameter in context, and judge whether the model fits or where it stops being reasonable. Interpretations need **units and the context**.
+
+[[P7·8dbb]]
+**FRQ 3, Modeling a Periodic Context (no calculator).** A situation that repeats, such as a wheel, a tide or a temperature, often with a graph. Typical tasks: find the period, amplitude, midline and phase shift, write the sinusoidal function, and describe where the function is increasing or decreasing and how its rate of change behaves.
+
+[[P8·a5f2]]
+**FRQ 4, Symbolic Manipulations (no calculator).** Rewrite and solve: use exponent, logarithm and trigonometric identities to write an expression in a required form, solve equations on an interval, and find domains. Every step should show which rule is used.
+
+## Sentences that earn points
+
+| To show | Write |
+|---|---|
+| End behavior | "$\displaystyle\lim_{x\to\infty}f(x)=3$" rather than "approaches $3$" |
+| Increasing and concave down | "As $x$ increases, $f(x)$ increases at a decreasing rate" |
+| Meaning of a parameter | "The population increases by $4\%$ each year" |
+| Meaning of an average rate | "From 2020 to 2025, the price increased by $1.20$ dollars per year on average" |
+| A model's limitation | Name a feature of the context the model cannot match, such as negative values or unbounded growth |
+| All solutions | List every value in the interval, not only the one the calculator shows first |
+
+## A worked question
+
+  :::example A non-periodic model (FRQ 2 style, calculator)
+  A cup of coffee cools in a room. Its temperature, in degrees Celsius, is modelled by $T(t)=20+ab^t$, where $t$ is the time in minutes. The temperature is $80^\circ$C at $t=0$ and $56^\circ$C at $t=5$.
+
+  (A) Find $a$ and $b$. **(2 points)**
+
+  (B) Use the model to find the temperature at $t=12$, and the time when the temperature is $40^\circ$C. **(2 points)**
+
+  (C) Find $\lim\limits_{t\to\infty}T(t)$ and explain its meaning in context. **(2 points)**
+
+  **Model answer.** (A) At $t=0$, $T(0)=20+a=80$, so $a=60$. *[A1: an equation using the data]*
+
+  At $t=5$, $20+60b^5=56$, so $b^5=0.6$ and $b=0.6^{1/5}\approx0.902880$. *[A2: correct value, three decimals or more]*
+
+  (B) Using the stored value of $b$, $T(12)=20+60b^{12}\approx20+60\cdot0.293470\approx37.608^\circ$C. *[B1]*
+
+  Solving $20+60b^t=40$ gives $b^t=\dfrac13$ and $t=\dfrac{\ln(1/3)}{\ln b}\approx10.753$ minutes. *[B2: expression shown, then the value]*
+
+  (C) Since $0<b<1$, $b^t\to0$, so $\lim\limits_{t\to\infty}T(t)=20$. *[C1: limit notation]*
+
+  In context, the coffee's temperature gets closer and closer to $20^\circ$C, the temperature of the room, as time goes on. *[C2: meaning with units and context]*
+
+  So $a=60$, $b\approx0.903$, $T(12)\approx37.608^\circ$C, the coffee reaches $40^\circ$C after about $10.753$ minutes, and the limit is $20^\circ$C.
+  :::
+
+[[P9·4cd7]]
+Notice where points would be lost: writing $b\approx0.9$ (not accurate to three places), rounding $b$ before computing $T(12)$, giving $10.753$ without the equation, or writing "it levels off" without limit notation and without the room temperature.
+
+:::warning Common reasons for lost points
+[[P10·6d0a]]
+- **Too few decimals** or rounding early.
+- **Missing a solution** when the calculator shows several intersections.
+- **Vague interpretations** with no units or no reference to the context.
+- **Calculator syntax** in place of mathematical notation in written work.
+- **Using the wrong mode:** Part B has no calculator, but on Part A keep the calculator in radian mode for trigonometric models.
+:::
+
+## A plan for the 70 minutes
+
+[[P11·d5c4]]
+1. **Part A (35 minutes):** about $17$ minutes per question. Start each question by writing what is given: the data points, the domain, the units.
+2. **Part B (35 minutes):** read both questions first; the symbolic question often has quick parts worth doing early.
+3. **Check:** reread each part's verb. "Find" needs a value, "explain" needs a sentence, "justify" needs a reason tied to the function.
+
+  :::terms
+  - free-response question (FRQ) | câu tự luận
+  - scoring guidelines | hướng dẫn chấm
+  - supporting work | phần trình bày dẫn đến đáp số
+  - limit notation | kí hiệu giới hạn
+  - end behavior | dáng điệu ở vô cực
+  - interpret in context | giải thích theo tình huống
+  - truncate | cắt bớt chữ số
+  :::
+

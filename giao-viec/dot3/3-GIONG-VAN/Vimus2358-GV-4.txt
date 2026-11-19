@@ -1,0 +1,1208 @@
+######################################################################
+TÀI KHOẢN: Vimus2358   |   FILE: Vimus2358-GV-4   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vimus2358-GV-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vimus2358-GV-4
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/vietes-theorem, g10/vectors-in-coordinates
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vimus2358-GV-4-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vimus2358-GV-4-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vimus2358-GV-4-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/vietes-theorem – BẢN TIẾNG VIỆT ########
+---
+title: Định lí Viète và ứng dụng
+description: Hiểu định lí Viète về tổng và tích hai nghiệm, nhẩm nghiệm, tìm hai số biết tổng và tích, tính biểu thức đối xứng và xét dấu các nghiệm.
+minutes: 20
+---
+
+  :::goals
+  - Hiểu và giải thích được định lí Viète về tổng và tích hai nghiệm của phương trình bậc hai.
+  - Tính nhẩm nghiệm khi $a+b+c=0$ hoặc $a-b+c=0$.
+  - Tìm hai số khi biết tổng và tích của chúng.
+  - Tính giá trị các biểu thức đối xứng của hai nghiệm và xét dấu các nghiệm mà không cần giải phương trình.
+  :::
+
+[[P1·0766]]
+François Viète (1540–1603) là một luật sư, cố vấn của vua Pháp Henri III rồi làm việc cho vua Henri IV. Ông đã giải mã những bức thư mật gửi vua Tây Ban Nha Philip II, giúp Henri IV biết trước kế hoạch quân sự của đối phương. Trong toán học, ông đưa ra hệ thống kí hiệu đại số đầu tiên: dùng nguyên âm để kí hiệu ẩn và phụ âm để kí hiệu các số đã biết, nhờ đó viết được những quy luật chung cho *mọi* phương trình (theo MacTutor, Đại học St Andrews). Mối liên hệ giữa nghiệm và hệ số mà ta học hôm nay mang tên ông.
+
+[[P2·9f83]]
+Bạn Minh nói với cả lớp: "Phương trình $x^2-7x+12=0$ có nghiệm $3$ và $4$, mình biết ngay mà không cần tính $\Delta$, vì $3+4=7$ và $3\cdot4=12$." Minh đoán may mắn, hay có một quy luật đằng sau? Nếu có, quy luật ấy giúp ta làm được những gì?
+
+## Định lí Viète
+
+### Khám phá: tổng và tích của hai nghiệm
+
+[[P3·1a26]]
+Ta giải vài phương trình (bằng công thức nghiệm) rồi tính tổng và tích hai nghiệm:
+
+| Phương trình | Nghiệm | $x_1+x_2$ | $x_1x_2$ |
+|---|---|---|---|
+| $x^2-5x+6=0$ | $2$; $3$ | $5$ | $6$ |
+| $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
+| $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
+
+[[P4·772a]]
+Ở dòng thứ hai, tổng là $\dfrac72=\dfrac{-(-7)}{2}$ và tích là $\dfrac32$: tổng luôn bằng $-\dfrac{b}{a}$, tích luôn bằng $\dfrac{c}{a}$.
+
+  :::theorem Định lí Viète
+  Nếu $x_1$, $x_2$ là hai nghiệm của phương trình $ax^2+bx+c=0$ ($a\neq0$) thì
+  $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
+  :::
+
+[[P5·e1f7]]
+**Vì sao?** Khi $\Delta\geq0$, cộng và nhân hai nghiệm $\dfrac{-b\pm\sqrt\Delta}{2a}$ (bài [phương trình bậc hai](lesson:quadratic-equations)), các căn triệt tiêu nhau:
+
+  $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
+
+[[P6·0d06]]
+**Hiểu sâu hơn.** Nếu $x_1$, $x_2$ là hai nghiệm thì $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. So sánh với $x^2+\dfrac bax+\dfrac ca$ (chia phương trình cho $a$), ta thấy định lí Viète là điều rất tự nhiên. Nhưng định lí chỉ nói về nghiệm khi nghiệm **tồn tại**: luôn kiểm tra $\Delta\geq0$ (hoặc $a$, $c$ trái dấu) trước khi dùng.
+
+  :::example Tổng và tích mà không cần giải
+  Không giải phương trình, tính tổng và tích hai nghiệm của phương trình $2x^2-9x+4=0$.
+
+  **Lời giải.** Ta có $\Delta=81-32=49>0$ nên phương trình có hai nghiệm $x_1$, $x_2$. Theo định lí Viète, ta có
+
+  $$x_1+x_2=\frac92,\qquad x_1x_2=\frac42=2.$$
+
+  Vậy tổng hai nghiệm là $\dfrac92$, tích là $2$.
+
+  **Kiểm tra.** Hai nghiệm là $4$ và $\dfrac12$: $4+\dfrac12=\dfrac92$, $4\cdot\dfrac12=2$.
+  :::
+
+[[P7·a1ca]]
+Từ tổng $S$ và tích $P$, ta tính được nhiều biểu thức "đối xứng" (đổi chỗ $x_1$, $x_2$ không đổi giá trị), chẳng hạn $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+
+  :::example Biểu thức đối xứng của hai nghiệm
+  Gọi $x_1$, $x_2$ là hai nghiệm của phương trình $x^2-5x+3=0$. Không giải phương trình, tính $x_1^2+x_2^2$ và $\dfrac1{x_1}+\dfrac1{x_2}$.
+
+  **Lời giải.** Ta có $\Delta=25-12=13>0$. Theo định lí Viète, $S=x_1+x_2=5$, $P=x_1x_2=3$. Do đó
+
+  $$x_1^2+x_2^2=S^2-2P=25-6=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac53.$$
+
+  Vậy $x_1^2+x_2^2=19$ và $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
+
+  **Nhận xét.** Hai nghiệm $\dfrac{5\pm\sqrt{13}}{2}$ chứa căn, nhưng các biểu thức đối xứng lại là số hữu tỉ: định lí Viète giúp ta tránh hẳn các phép tính với căn.
+  :::
+
+## Tính nhẩm nghiệm
+
+[[P8·271b]]
+Thay $x=1$ vào $ax^2+bx+c$ ta được $a+b+c$; thay $x=-1$ ta được $a-b+c$. Kết hợp với tích $x_1x_2=\dfrac ca$, ta tìm ngay nghiệm còn lại.
+
+  :::theorem Nhẩm nghiệm
+  - Nếu $a+b+c=0$ thì phương trình $ax^2+bx+c=0$ có hai nghiệm $x_1=1$, $x_2=\dfrac ca$.
+  - Nếu $a-b+c=0$ thì phương trình có hai nghiệm $x_1=-1$, $x_2=-\dfrac ca$.
+  :::
+
+  :::example Nhẩm nghiệm
+  Tính nhẩm nghiệm của các phương trình sau:
+
+  a) $3x^2-8x+5=0$.
+
+  b) $2x^2+7x+5=0$.
+
+  c) $x^2-2027x+2026=0$.
+
+  **Lời giải.** a) Ta có $a+b+c=3-8+5=0$ nên $x_1=1$, $x_2=\dfrac53$.
+
+  b) Ta có $a-b+c=2-7+5=0$ nên $x_1=-1$, $x_2=-\dfrac52$.
+
+  c) Ta có $a+b+c=1-2027+2026=0$ nên $x_1=1$, $x_2=2026$.
+
+  Vậy a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
+  :::
+
+[[P9·9de5]]
+Câu c) cho thấy sức mạnh của cách nhẩm: dùng công thức nghiệm, bạn phải tính $\Delta=2027^2-4\cdot2026=2025^2$.
+
+## Tìm hai số biết tổng và tích
+
+[[P10·16b4]]
+Đảo lại định lí Viète: nếu hai số $u$, $v$ có $u+v=S$ và $uv=P$ thì $(x-u)(x-v)=x^2-Sx+P$, nên $u$, $v$ là hai nghiệm của $x^2-Sx+P=0$.
+
+  :::theorem Tìm hai số biết tổng và tích
+  Nếu hai số có tổng bằng $S$ và tích bằng $P$ thì hai số đó là hai nghiệm của phương trình
+  $$x^2-Sx+P=0.$$
+  Điều kiện để có hai số đó là $S^2-4P\geq0$.
+  :::
+
+  :::example Hai số có tổng $11$, tích $28$
+  a) Tìm hai số có tổng bằng $11$ và tích bằng $28$.
+
+  b) Có hai số nào có tổng bằng $4$ và tích bằng $5$ không?
+
+  **Lời giải.** a) Hai số cần tìm là nghiệm của $x^2-11x+28=0$. Ta có $\Delta=121-112=9$, nên $x_1=\dfrac{11+3}{2}=7$, $x_2=\dfrac{11-3}{2}=4$.
+
+  b) Ta có $S^2-4P=16-20=-4<0$, nên phương trình $x^2-4x+5=0$ vô nghiệm.
+
+  Vậy a) hai số là $7$ và $4$; b) không có hai số như vậy.
+  :::
+
+  :::example Vận dụng: kích thước mảnh vườn
+  Giả sử một mảnh vườn hình chữ nhật có chu vi $34$ m và diện tích $60$ m². Tính các kích thước của mảnh vườn.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Chu vi $34$ m cho biết tổng hai cạnh; diện tích $60$ m² là tích hai cạnh.
+
+  *Tìm cách giải.* Hai cạnh có tổng $S=34:2=17$ và tích $P=60$, nên chúng là nghiệm của $x^2-17x+60=0$.
+
+  *Giải.* Ta có $\Delta=289-240=49$, nên $x_1=\dfrac{17+7}{2}=12$, $x_2=\dfrac{17-7}{2}=5$. Cả hai đều dương.
+
+  Vậy mảnh vườn có chiều dài $12$ m và chiều rộng $5$ m.
+
+  *Nhìn lại.* Có cách khác không? Gọi hai cạnh là $x$, $y$ rồi giải hệ $x+y=17$, $xy=60$ bằng phương pháp thế, ta cũng được đúng phương trình trên. Nếu chu vi chỉ còn $30$ m thì sao? Khi đó $S=15$, $S^2-4P=225-240<0$: không có mảnh vườn nào như vậy. Thật vậy, với chu vi $30$ m, hình vuông cạnh $7{,}5$ m có diện tích lớn nhất, chỉ $56{,}25$ m² $<60$ m².
+  :::
+
+:::diagram Mảnh vườn $12$ m $\times$ $5$ m
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Xét dấu các nghiệm
+
+[[P11·85b0]]
+Không cần giải, từ $S$ và $P$ ta biết được dấu của hai nghiệm (khi phương trình có nghiệm):
+- $P<0$: hai nghiệm trái dấu (khi đó $a$, $c$ trái dấu nên phương trình chắc chắn có hai nghiệm);
+- $\Delta\geq0$, $P>0$, $S>0$: hai nghiệm cùng dương;
+- $\Delta\geq0$, $P>0$, $S<0$: hai nghiệm cùng âm.
+
+[[P12·7260]]
+Lí do: tích âm thì hai số khác dấu; tích dương thì cùng dấu, và tổng cho biết dấu chung đó.
+
+  :::example Xét dấu các nghiệm
+  Không giải phương trình, xét dấu các nghiệm của mỗi phương trình sau:
+
+  a) $x^2-5x-6=0$.
+
+  b) $3x^2+11x+2=0$.
+
+  c) $x^2-7x+4=0$.
+
+  **Lời giải.** a) Ta có $P=-6<0$ nên phương trình có hai nghiệm trái dấu.
+
+  b) Ta có $\Delta=121-24=97>0$, $P=\dfrac23>0$, $S=-\dfrac{11}3<0$ nên phương trình có hai nghiệm cùng âm.
+
+  c) Ta có $\Delta=49-16=33>0$, $P=4>0$, $S=7>0$ nên phương trình có hai nghiệm cùng dương.
+
+  Vậy a) hai nghiệm trái dấu; b) hai nghiệm âm; c) hai nghiệm dương.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P13·a483]]
+- **Quên kiểm tra $\Delta$.** Sai: với $x^2-2x+5=0$, viết $S=2$, $P=5$, nên $x_1^2+x_2^2=4-10=-6$. Lí do sai: $\Delta'=1-5<0$, phương trình vô nghiệm (tổng hai bình phương cũng không thể âm). Đúng: kiểm tra $\Delta\geq0$ trước.
+- **Sai dấu của tổng.** Sai: $2x^2-9x+4=0$ có $x_1+x_2=-\dfrac92$. Đúng: $x_1+x_2=-\dfrac ba=\dfrac92$.
+- **Nhầm hai trường hợp nhẩm nghiệm.** Khi $a-b+c=0$, nghiệm thứ hai là $-\dfrac ca$, không phải $\dfrac ca$.
+:::
+
+[[P14·7ec3]]
+**Kết nối.** Định lí Viète được suy ra trực tiếp từ công thức nghiệm, và cho ta một cách nhìn mới: thay vì tìm từng nghiệm, ta làm việc với cặp $(S; P)$. Cách nhìn này dùng nhiều trong [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) (các bài toán hình chữ nhật), trong phân tích $ax^2+bx+c=a(x-x_1)(x-x_2)$, và là dạng bài quen thuộc của đề thi vào lớp 10.
+
+## Thuật ngữ
+
+  :::terms
+  - định lí Viète | Viète's theorem
+  - tổng hai nghiệm | sum of the roots
+  - tích hai nghiệm | product of the roots
+  - tính nhẩm nghiệm | finding the roots mentally
+  - biểu thức đối xứng | symmetric expression
+  - hai nghiệm trái dấu | roots of opposite signs
+  - hai nghiệm cùng dương | two positive roots
+  - hai nghiệm cùng âm | two negative roots
+  :::
+
+## Tóm tắt
+
+[[P15·e00a]]
+- Nếu $\Delta\geq0$: $x_1+x_2=-\dfrac ba$, $x_1x_2=\dfrac ca$.
+- $a+b+c=0$: nghiệm $1$ và $\dfrac ca$; $a-b+c=0$: nghiệm $-1$ và $-\dfrac ca$.
+- Hai số có tổng $S$, tích $P$ là nghiệm của $x^2-Sx+P=0$ (cần $S^2-4P\geq0$).
+- $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
+- $P<0$: trái dấu; $P>0$, $S>0$: cùng dương; $P>0$, $S<0$: cùng âm (khi $\Delta\geq0$).
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/vietes-theorem – BẢN TIẾNG ANH ########
+---
+title: Viète's theorem and its applications
+description: Understand Viète's theorem on the sum and product of the roots, find roots mentally, find two numbers from their sum and product, and check signs of roots.
+minutes: 20
+---
+
+  :::goals
+  - Understand and explain Viète's theorem on the sum and product of the roots of a quadratic equation.
+  - Find the roots mentally when $a+b+c=0$ or $a-b+c=0$.
+  - Find two numbers given their sum and product.
+  - Evaluate symmetric expressions in the two roots and find the signs of the roots without solving the equation.
+  :::
+
+[[P1·d20a]]
+François Viète (1540–1603) was a lawyer, a royal counsellor to King Henry III of France and later worked for King Henry IV. He decoded secret letters sent to King Philip II of Spain, so that Henry IV learnt of his enemy's military plans. In mathematics, he introduced the first systematic algebraic notation: vowels for the unknowns and consonants for the known numbers, which let him write general rules for *every* equation (MacTutor, University of St Andrews). The link between roots and coefficients that we study today bears his name.
+
+[[P2·334f]]
+Minh tells the class: "The equation $x^2-7x+12=0$ has roots $3$ and $4$. I knew at once, without working out $\Delta$, because $3+4=7$ and $3\cdot4=12$." Was Minh lucky, or is there a rule behind it? And if there is, what can that rule do for us?
+
+## Viète's theorem
+
+### Explore: the sum and product of the roots
+
+[[P3·a45c]]
+We solve a few equations (with the quadratic formula) and work out the sum and product of the roots:
+
+| Equation | Roots | $x_1+x_2$ | $x_1x_2$ |
+|---|---|---|---|
+| $x^2-5x+6=0$ | $2$; $3$ | $5$ | $6$ |
+| $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
+| $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
+
+[[P4·8435]]
+In the second row the sum is $\dfrac72=\dfrac{-(-7)}{2}$ and the product is $\dfrac32$: the sum is always $-\dfrac{b}{a}$ and the product is always $\dfrac{c}{a}$.
+
+  :::theorem Viète's theorem
+  If $x_1$, $x_2$ are the two roots of the equation $ax^2+bx+c=0$ ($a\neq0$), then
+  $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
+  :::
+
+[[P5·8446]]
+**Why?** When $\Delta\geq0$, add and multiply the two roots $\dfrac{-b\pm\sqrt\Delta}{2a}$ (lesson [quadratic equations](lesson:quadratic-equations)); the square roots cancel:
+
+  $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
+
+[[P6·1eb0]]
+**Going deeper.** If $x_1$, $x_2$ are the roots, then $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. Comparing this with $x^2+\dfrac bax+\dfrac ca$ (the equation divided by $a$), we see that Viète's theorem is very natural. But the theorem only talks about roots that **exist**: always check that $\Delta\geq0$ (or that $a$ and $c$ have opposite signs) before using it.
+
+  :::example Sum and product without solving
+  Without solving the equation, find the sum and the product of the roots of $2x^2-9x+4=0$.
+
+  **Solution.** We have $\Delta=81-32=49>0$, so the equation has two roots $x_1$, $x_2$. By Viète's theorem,
+
+  $$x_1+x_2=\frac92,\qquad x_1x_2=\frac42=2.$$
+
+  So the sum of the roots is $\dfrac92$ and the product is $2$.
+
+  **Check.** The roots are $4$ and $\dfrac12$: $4+\dfrac12=\dfrac92$ and $4\cdot\dfrac12=2$.
+  :::
+
+[[P7·c648]]
+From the sum $S$ and the product $P$ we can work out many "symmetric" expressions (swapping $x_1$ and $x_2$ does not change their value), for example $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+
+  :::example Symmetric expressions in the roots
+  Let $x_1$, $x_2$ be the roots of the equation $x^2-5x+3=0$. Without solving the equation, find $x_1^2+x_2^2$ and $\dfrac1{x_1}+\dfrac1{x_2}$.
+
+  **Solution.** We have $\Delta=25-12=13>0$. By Viète's theorem, $S=x_1+x_2=5$ and $P=x_1x_2=3$. Hence
+
+  $$x_1^2+x_2^2=S^2-2P=25-6=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac53.$$
+
+  So $x_1^2+x_2^2=19$ and $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
+
+  **Remark.** The roots $\dfrac{5\pm\sqrt{13}}{2}$ involve square roots, yet the symmetric expressions are rational numbers: Viète's theorem lets us avoid calculating with surds altogether.
+  :::
+
+## Finding the roots mentally
+
+[[P8·a509]]
+Substituting $x=1$ into $ax^2+bx+c$ gives $a+b+c$; substituting $x=-1$ gives $a-b+c$. Together with the product $x_1x_2=\dfrac ca$, we find the other root at once.
+
+  :::theorem Finding roots mentally
+  - If $a+b+c=0$, the equation $ax^2+bx+c=0$ has the roots $x_1=1$, $x_2=\dfrac ca$.
+  - If $a-b+c=0$, the equation has the roots $x_1=-1$, $x_2=-\dfrac ca$.
+  :::
+
+  :::example Finding roots mentally
+  Find the roots of the following equations mentally:
+
+  a) $3x^2-8x+5=0$.
+
+  b) $2x^2+7x+5=0$.
+
+  c) $x^2-2027x+2026=0$.
+
+  **Solution.** a) We have $a+b+c=3-8+5=0$, so $x_1=1$ and $x_2=\dfrac53$.
+
+  b) We have $a-b+c=2-7+5=0$, so $x_1=-1$ and $x_2=-\dfrac52$.
+
+  c) We have $a+b+c=1-2027+2026=0$, so $x_1=1$ and $x_2=2026$.
+
+  So a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
+  :::
+
+[[P9·1e52]]
+Part c) shows the power of this method: with the quadratic formula you would have to work out $\Delta=2027^2-4\cdot2026=2025^2$.
+
+## Finding two numbers from their sum and product
+
+[[P10·0913]]
+Viète's theorem also works backwards: if two numbers $u$, $v$ have $u+v=S$ and $uv=P$, then $(x-u)(x-v)=x^2-Sx+P$, so $u$ and $v$ are the roots of $x^2-Sx+P=0$.
+
+  :::theorem Two numbers from their sum and product
+  If two numbers have sum $S$ and product $P$, then they are the roots of the equation
+  $$x^2-Sx+P=0.$$
+  Such numbers exist when $S^2-4P\geq0$.
+  :::
+
+  :::example Two numbers with sum $11$ and product $28$
+  a) Find two numbers whose sum is $11$ and whose product is $28$.
+
+  b) Are there two numbers whose sum is $4$ and whose product is $5$?
+
+  **Solution.** a) The required numbers are the roots of $x^2-11x+28=0$. We have $\Delta=121-112=9$, so $x_1=\dfrac{11+3}{2}=7$ and $x_2=\dfrac{11-3}{2}=4$.
+
+  b) We have $S^2-4P=16-20=-4<0$, so the equation $x^2-4x+5=0$ has no solutions.
+
+  So a) the two numbers are $7$ and $4$; b) there are no such numbers.
+  :::
+
+  :::example Application: the size of a garden
+  Suppose a rectangular garden has perimeter $34$ m and area $60$ m². Find the dimensions of the garden.
+
+  **Solution.**
+
+  *Understand.* The perimeter $34$ m tells us the sum of the two sides; the area $60$ m² is their product.
+
+  *Plan.* The two sides have sum $S=34\div2=17$ and product $P=60$, so they are the roots of $x^2-17x+60=0$.
+
+  *Solve.* We have $\Delta=289-240=49$, so $x_1=\dfrac{17+7}{2}=12$ and $x_2=\dfrac{17-7}{2}=5$. Both are positive.
+
+  So the garden is $12$ m long and $5$ m wide.
+
+  *Look back.* Is there another method? Let the sides be $x$ and $y$ and solve the simultaneous equations $x+y=17$, $xy=60$ by substitution; we get exactly the same equation. What if the perimeter were only $30$ m? Then $S=15$ and $S^2-4P=225-240<0$: no such garden exists. Indeed, with perimeter $30$ m the square of side $7.5$ m has the largest area, only $56.25$ m² $<60$ m².
+  :::
+
+:::diagram The garden $12$ m $\times$ $5$ m
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The signs of the roots
+
+[[P11·376f]]
+Without solving, $S$ and $P$ tell us the signs of the two roots (when the equation has roots):
+- $P<0$: the roots have opposite signs (then $a$ and $c$ have opposite signs, so the equation certainly has two roots);
+- $\Delta\geq0$, $P>0$, $S>0$: both roots are positive;
+- $\Delta\geq0$, $P>0$, $S<0$: both roots are negative.
+
+[[P12·9c2c]]
+The reason: a negative product means the numbers have different signs; a positive product means the same sign, and the sum shows which sign.
+
+  :::example The signs of the roots
+  Without solving, find the signs of the roots of each equation:
+
+  a) $x^2-5x-6=0$.
+
+  b) $3x^2+11x+2=0$.
+
+  c) $x^2-7x+4=0$.
+
+  **Solution.** a) We have $P=-6<0$, so the equation has two roots of opposite signs.
+
+  b) We have $\Delta=121-24=97>0$, $P=\dfrac23>0$ and $S=-\dfrac{11}3<0$, so the equation has two negative roots.
+
+  c) We have $\Delta=49-16=33>0$, $P=4>0$ and $S=7>0$, so the equation has two positive roots.
+
+  So a) roots of opposite signs; b) two negative roots; c) two positive roots.
+  :::
+
+:::warning Common mistakes
+[[P13·8116]]
+- **Forgetting to check $\Delta$.** Wrong: for $x^2-2x+5=0$, writing $S=2$, $P=5$, so $x_1^2+x_2^2=4-10=-6$. Why it is wrong: $\Delta'=1-5<0$, so the equation has no solutions (and a sum of two squares cannot be negative anyway). Right: check that $\Delta\geq0$ first.
+- **Wrong sign of the sum.** Wrong: $2x^2-9x+4=0$ has $x_1+x_2=-\dfrac92$. Right: $x_1+x_2=-\dfrac ba=\dfrac92$.
+- **Mixing up the two mental rules.** When $a-b+c=0$, the second root is $-\dfrac ca$, not $\dfrac ca$.
+:::
+
+[[P14·a676]]
+**Connections.** Viète's theorem follows directly from the quadratic formula and gives a new point of view: instead of finding each root, we work with the pair $(S, P)$. This point of view is used a lot in [solving word problems by forming equations](lesson:g9-equation-word-problems) (rectangle problems), in factorising $ax^2+bx+c=a(x-x_1)(x-x_2)$, and it is a standard question type in the grade 10 entrance exam.
+
+## Key terms
+
+  :::terms
+  - Viète's theorem | định lí Viète
+  - sum of the roots | tổng hai nghiệm
+  - product of the roots | tích hai nghiệm
+  - finding the roots mentally | tính nhẩm nghiệm
+  - symmetric expression | biểu thức đối xứng
+  - roots of opposite signs | hai nghiệm trái dấu
+  - two positive roots | hai nghiệm cùng dương
+  - two negative roots | hai nghiệm cùng âm
+  :::
+
+## Summary
+
+[[P15·b8b5]]
+- If $\Delta\geq0$: $x_1+x_2=-\dfrac ba$, $x_1x_2=\dfrac ca$.
+- $a+b+c=0$: roots $1$ and $\dfrac ca$; $a-b+c=0$: roots $-1$ and $-\dfrac ca$.
+- Two numbers with sum $S$ and product $P$ are the roots of $x^2-Sx+P=0$ (need $S^2-4P\geq0$).
+- $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
+- $P<0$: opposite signs; $P>0$, $S>0$: both positive; $P>0$, $S<0$: both negative (when $\Delta\geq0$).
+
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG VIỆT ########
+---
+title: Vectơ trong mặt phẳng toạ độ
+description: Mô tả vectơ bằng toạ độ, cộng và nhân vectơ với một số, rồi tìm độ dài, trung điểm, trọng tâm và các điểm thẳng hàng bằng toạ độ.
+minutes: 25
+---
+
+  :::goals
+  - Viết vectơ dưới dạng $\vec{a}=(x; y)$ và tìm toạ độ của $\overrightarrow{AB}$ từ hai điểm $A$, $B$.
+  - Cộng, trừ và nhân vectơ với một số bằng toạ độ.
+  - Tìm độ dài của vectơ và khoảng cách giữa hai điểm.
+  - Dùng toạ độ cho trung điểm, trọng tâm, tính thẳng hàng và đỉnh còn thiếu của hình bình hành.
+  :::
+
+[[P1·0b05]]
+Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào?
+
+## Toạ độ của vectơ
+
+[[P2·674d]]
+Ta thử tính. Thao tác "đi $3$ sang phải, $2$ lên trên" cộng $3$ vào hoành độ và $2$ vào tung độ, dù xuất phát ở đâu:
+
+  $$\text{Lan: } (0+3;\ 0+2)=(3; 2),\qquad \text{Minh: } (1+3;\ 4+2)=(4; 6).$$
+
+[[P3·b2e4]]
+Hai bạn đi hai mũi tên khác chỗ nhưng **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vậy Minh đến điểm $(4; 6)$. Cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
+
+[[P4·3c26]]
+Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Đây là các **vectơ đơn vị** của hai trục.
+
+  :::definition Toạ độ của vectơ
+  Mỗi vectơ $\vec{a}$ viết được duy nhất dưới dạng
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  Cặp số $(x; y)$ là **toạ độ** của $\vec{a}$, và ta viết $\vec{a}=(x; y)$.
+  :::
+
+:::diagram Vectơ $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·d6a7]]
+Hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
+
+### Từ hai điểm đến một vectơ
+
+[[P6·8182]]
+Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
+  $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A).$$
+[[P7·c3fa]]
+Nói gọn: toạ độ **điểm cuối trừ điểm đầu**.
+
+[[P8·523c]]
+Ví dụ đầu tiên áp dụng công thức này và cho thấy một vectơ có thể "nằm" ở nhiều chỗ.
+
+  :::example Vectơ từ hai điểm
+  Cho $A(1; 2)$, $B(4; 6)$, $C(-2; 0)$, $D(1; 4)$. Tìm toạ độ của $\overrightarrow{AB}$ và $\overrightarrow{CD}$. Hai vectơ này có bằng nhau không?
+
+  **Lời giải.** Lấy toạ độ điểm cuối trừ toạ độ điểm đầu:
+
+  $$\overrightarrow{AB}=(4-1;\ 6-2)=(3; 4),\qquad \overrightarrow{CD}=(1-(-2);\ 4-0)=(3; 4).$$
+
+  Hai vectơ có cùng toạ độ, nên $\overrightarrow{AB}=\overrightarrow{CD}$, dù bốn điểm khác nhau.
+  :::
+
+## Các phép toán theo toạ độ
+
+[[P9·c570]]
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Làm tương tự cho hiệu và tích với một số:
+
+  :::theorem Các phép toán theo toạ độ
+  Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
+  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1;\ ky_1)$.
+  :::
+
+[[P10·3da5]]
+Như vậy ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**.
+
+  :::example Kết hợp các vectơ
+  Cho $\vec{a}=(2; -1)$ và $\vec{b}=(-3; 4)$. Tìm $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ và $3\vec{a}-2\vec{b}$.
+
+  **Lời giải.** Ta tính riêng hoành độ và tung độ:
+
+  $$\vec{a}+\vec{b}=(2-3;\ -1+4)=(-1; 3),\qquad \vec{a}-\vec{b}=(2+3;\ -1-4)=(5; -5).$$
+
+  Với biểu thức thứ ba, nhân trước rồi trừ sau:
+
+  $$3\vec{a}=(6; -3),\quad 2\vec{b}=(-6; 8),\quad 3\vec{a}-2\vec{b}=(6+6;\ -3-8)=(12; -11).$$
+
+  Vậy $\vec{a}+\vec{b}=(-1; 3)$, $\vec{a}-\vec{b}=(5; -5)$ và $3\vec{a}-2\vec{b}=(12; -11)$.
+  :::
+
+## Độ dài vectơ và khoảng cách
+
+[[P11·0ca9]]
+Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·7397]]
+Vì $AB$ là độ dài của $\overrightarrow{AB}$, nên **khoảng cách giữa hai điểm** là
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·b8b2]]
+Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ.
+
+  :::example Tam giác vuông
+  Cho $A(1; 2)$, $B(4; 6)$, $C(9; -4)$. Chứng minh tam giác $ABC$ vuông.
+
+  **Lời giải.** Ta tính bình phương ba cạnh rồi dùng định lí Pythagore đảo:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3; 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8; -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5; -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Vì $AB^2+AC^2=25+100=125=BC^2$, tam giác $ABC$ vuông tại $A$.
+
+  **Kiểm tra.** Cạnh dài nhất $BC$ là cạnh huyền, nên góc vuông nằm ở đỉnh đối diện, tức $A$.
+  :::
+
+## Trung điểm và trọng tâm
+
+[[P14·6023]]
+Dùng $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên ta được toạ độ bằng cách lấy trung bình cộng.
+
+  :::theorem Trung điểm và trọng tâm
+  - Trung điểm $M$ của $AB$ là $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2}\right)$.
+  - Trọng tâm $G$ của tam giác $ABC$ là $G\left(\dfrac{x_A+x_B+x_C}{3};\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Trung điểm và trọng tâm
+  a) Tìm trung điểm của đoạn thẳng nối $A(2; -1)$ và $B(6; 5)$.
+  b) Tìm trọng tâm của tam giác có các đỉnh $A(1; 1)$, $B(5; 2)$, $C(0; 6)$.
+
+  **Lời giải.** Lấy trung bình cộng từng toạ độ:
+
+  $$M\left(\frac{2+6}{2};\ \frac{-1+5}{2}\right)=M(4; 2),\qquad G\left(\frac{1+5+0}{3};\ \frac{1+2+6}{3}\right)=G(2; 3).$$
+
+  Vậy trung điểm là $M(4; 2)$ và trọng tâm là $G(2; 3)$.
+  :::
+
+## Vectơ cùng phương và ba điểm thẳng hàng
+
+[[P15·9bc9]]
+Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·560e]]
+Ta dùng phép thử bằng tích này thay cho tỉ số $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, vì tỉ số không dùng được khi có một toạ độ bằng $0$. Ba điểm $A$, $B$, $C$ thẳng hàng khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+[[P17·effa]]
+Ví dụ sau dùng phép thử này hai lần: một lần để kiểm tra, một lần để tìm một điểm chưa biết.
+
+  :::example Ba điểm thẳng hàng
+  Cho $A(-1; 1)$, $B(3; 3)$, $C(7; 5)$.
+
+  a) Chứng minh $A$, $B$, $C$ thẳng hàng.
+  b) Đường thẳng $AB$ cắt trục hoành tại $M$. Tìm toạ độ của $M$.
+
+  **Lời giải.** a) Ta xét $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4; 2),\quad \overrightarrow{AC}=(8; 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  Hai vectơ cùng phương (thật vậy $\overrightarrow{AC}=2\overrightarrow{AB}$), nên $A$, $B$, $C$ thẳng hàng.
+
+  b) Điểm $M$ nằm trên trục hoành nên $M(t; 0)$. Cần $\overrightarrow{AM}=(t+1; -1)$ cùng phương với $\overrightarrow{AB}=(4; 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  Vậy $M(-3; 0)$.
+  :::
+
+## Đỉnh còn thiếu của hình bình hành
+
+[[P18·2eff]]
+$ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
+
+:::diagram Hình bình hành $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đỉnh thứ tư
+  Ba đỉnh của hình bình hành $ABCD$ là $A(1; 1)$, $B(4; 2)$ và $C(5; 5)$. Tìm $D$.
+
+  **Lời giải.** Gọi $D(x; y)$. Hình bình hành cho $\overrightarrow{AB}=\overrightarrow{DC}$; ta cho hai toạ độ bằng nhau:
+
+  $$(3; 1)=(5-x;\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  Vậy $D(2; 4)$.
+
+  **Kiểm tra.** Hai đường chéo phải cắt nhau tại trung điểm mỗi đường: trung điểm của $AC$ là $(3; 3)$ và trung điểm của $BD$ cũng là $(3; 3)$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·8d5f]]
+- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
+- **Cộng toạ độ thay cho tính độ dài.** Sai: $|(3; 4)|=3+4=7$. Đúng: $|(3; 4)|=\sqrt{9+16}=5$.
+- **Dùng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2)$ và $(0; 5)$, tỉ số $\frac{0}{0}$ không có nghĩa, nhưng $0\cdot5-0\cdot2=0$ cho biết hai vectơ cùng phương.
+- **Sai thứ tự đỉnh hình bình hành.** $ABCD$ là hình bình hành cần $\overrightarrow{AB}=\overrightarrow{DC}$, không phải $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - các vectơ đơn vị | unit vectors
+  - toạ độ của vectơ | coordinates of a vector
+  - hai vectơ bằng nhau | equal vectors
+  - độ dài vectơ | length of a vector
+  - khoảng cách giữa hai điểm | distance between two points
+  - trung điểm | midpoint
+  - trọng tâm | centroid
+  - cùng phương | collinear
+  - hình bình hành | parallelogram
+  :::
+
+## Tóm tắt
+
+[[P20·54b2]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ được viết là $\vec{a}=(x; y)$; $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A)$ (cuối trừ đầu).
+- Cộng, trừ và nhân với một số từng toạ độ một.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Trung điểm: trung bình cộng hai toạ độ; trọng tâm: trung bình cộng ba toạ độ.
+- $\vec{a}$, $\vec{b}$ cùng phương $\iff x_1y_2-x_2y_1=0$; ba điểm thẳng hàng khi $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
+- Đỉnh thứ tư của hình bình hành $ABCD$: giải $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG ANH ########
+---
+title: Vectors in the coordinate plane
+description: Describe a vector by its coordinates, add and scale vectors with numbers, and find lengths, midpoints, centroids and collinear points from coordinates.
+minutes: 25
+---
+
+  :::goals
+  - Write a vector as $\vec{a}=(x, y)$ and find the coordinates of $\overrightarrow{AB}$ from the points $A$ and $B$.
+  - Add, subtract and scale vectors using coordinates.
+  - Find the length of a vector and the distance between two points.
+  - Use coordinates for midpoints, centroids, collinearity and a missing vertex of a parallelogram.
+  :::
+
+[[P1·19b5]]
+On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up?
+
+## Coordinates of a vector
+
+[[P2·9496]]
+Let us compute. The move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate, wherever you start:
+
+  $$\text{Lan: } (0+3,\ 0+2)=(3, 2),\qquad \text{Minh: } (1+3,\ 4+2)=(4, 6).$$
+
+[[P3·2fae]]
+The two friends follow arrows in different places, but the arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
+
+[[P4·7c1d]]
+In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
+
+  :::definition Coordinates of a vector
+  Every vector $\vec{a}$ can be written in exactly one way as
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  The pair $(x, y)$ is the **coordinates** of $\vec{a}$, and we write $\vec{a}=(x, y)$.
+  :::
+
+:::diagram The vector $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·360f]]
+Two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
+
+### From points to a vector
+
+[[P6·3dc2]]
+If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
+  $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A).$$
+[[P7·d4b9]]
+In short: **end point minus start point**.
+
+[[P8·5226]]
+The first example applies this formula and shows that one vector can "sit" in many places.
+
+  :::example A vector from two points
+  Let $A(1, 2)$, $B(4, 6)$, $C(-2, 0)$, $D(1, 4)$. Find the coordinates of $\overrightarrow{AB}$ and $\overrightarrow{CD}$. Are the two vectors equal?
+
+  **Solution.** Subtract the coordinates of the start point from those of the end point:
+
+  $$\overrightarrow{AB}=(4-1,\ 6-2)=(3, 4),\qquad \overrightarrow{CD}=(1-(-2),\ 4-0)=(3, 4).$$
+
+  The two vectors have the same coordinates, so $\overrightarrow{AB}=\overrightarrow{CD}$, even though the four points are different.
+  :::
+
+## Operations in coordinates
+
+[[P9·a86b]]
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. The same works for differences and for multiples:
+
+  :::theorem Operations on coordinates
+  Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
+  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1,\ ky_1)$.
+  :::
+
+[[P10·b414]]
+So we add, subtract and scale vectors **one coordinate at a time**.
+
+  :::example Combining vectors
+  Let $\vec{a}=(2, -1)$ and $\vec{b}=(-3, 4)$. Find $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ and $3\vec{a}-2\vec{b}$.
+
+  **Solution.** We work on the $x$- and $y$-coordinates separately:
+
+  $$\vec{a}+\vec{b}=(2-3,\ -1+4)=(-1, 3),\qquad \vec{a}-\vec{b}=(2+3,\ -1-4)=(5, -5).$$
+
+  For the third expression, multiply first and subtract afterwards:
+
+  $$3\vec{a}=(6, -3),\quad 2\vec{b}=(-6, 8),\quad 3\vec{a}-2\vec{b}=(6+6,\ -3-8)=(12, -11).$$
+
+  So $\vec{a}+\vec{b}=(-1, 3)$, $\vec{a}-\vec{b}=(5, -5)$ and $3\vec{a}-2\vec{b}=(12, -11)$.
+  :::
+
+## Length of a vector and distance
+
+[[P11·66a6]]
+In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·1c55]]
+Since $AB$ is the length of $\overrightarrow{AB}$, the **distance between two points** is
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·7a7e]]
+With the three side lengths, we can recognise a triangle without drawing it.
+
+  :::example A right-angled triangle
+  Let $A(1, 2)$, $B(4, 6)$, $C(9, -4)$. Prove that triangle $ABC$ is right-angled.
+
+  **Solution.** We find the squares of the three sides and use the converse of Pythagoras' theorem:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3, 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8, -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5, -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Since $AB^2+AC^2=25+100=125=BC^2$, triangle $ABC$ has a right angle at $A$.
+
+  **Check.** The longest side $BC$ is the hypotenuse, so the right angle is at the opposite vertex, $A$.
+  :::
+
+## Midpoint and centroid
+
+[[P14·2069]]
+Use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so we get coordinates by averaging.
+
+  :::theorem Midpoint and centroid
+  - The midpoint $M$ of $AB$ is $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2}\right)$.
+  - The centroid $G$ of triangle $ABC$ is $G\left(\dfrac{x_A+x_B+x_C}{3},\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Midpoint and centroid
+  a) Find the midpoint of the segment joining $A(2, -1)$ and $B(6, 5)$.
+  b) Find the centroid of the triangle with vertices $A(1, 1)$, $B(5, 2)$, $C(0, 6)$.
+
+  **Solution.** Average each coordinate:
+
+  $$M\left(\frac{2+6}{2},\ \frac{-1+5}{2}\right)=M(4, 2),\qquad G\left(\frac{1+5+0}{3},\ \frac{1+2+6}{3}\right)=G(2, 3).$$
+
+  So the midpoint is $M(4, 2)$ and the centroid is $G(2, 3)$.
+  :::
+
+## Collinear vectors and collinear points
+
+[[P15·b68b]]
+Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·c2c5]]
+We use this product test instead of the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, because the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+[[P17·f4e2]]
+The next example uses the test twice: once to check, and once to find an unknown point.
+
+  :::example Three collinear points
+  Let $A(-1, 1)$, $B(3, 3)$, $C(7, 5)$.
+
+  a) Prove that $A$, $B$, $C$ are collinear.
+  b) The line $AB$ meets the $x$-axis at $M$. Find the coordinates of $M$.
+
+  **Solution.** a) We look at $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4, 2),\quad \overrightarrow{AC}=(8, 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  The vectors are collinear (indeed $\overrightarrow{AC}=2\overrightarrow{AB}$), so $A$, $B$, $C$ are collinear.
+
+  b) The point $M$ is on the $x$-axis, so $M(t, 0)$. We need $\overrightarrow{AM}=(t+1, -1)$ to be collinear with $\overrightarrow{AB}=(4, 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  So $M(-3, 0)$.
+  :::
+
+## A missing vertex of a parallelogram
+
+[[P18·5e5b]]
+$ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
+
+:::diagram Parallelogram $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Fourth vertex
+  Three vertices of parallelogram $ABCD$ are $A(1, 1)$, $B(4, 2)$ and $C(5, 5)$. Find $D$.
+
+  **Solution.** Let $D(x, y)$. The parallelogram gives $\overrightarrow{AB}=\overrightarrow{DC}$; we set the coordinates equal:
+
+  $$(3, 1)=(5-x,\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  So $D(2, 4)$.
+
+  **Check.** The diagonals must bisect each other: the midpoint of $AC$ is $(3, 3)$, and the midpoint of $BD$ is also $(3, 3)$.
+  :::
+
+:::warning Common mistakes
+[[P19·44ac]]
+- **Subtracting in the wrong order.** Wrong: for $A(1, 2)$, $B(4, 6)$, writing $\overrightarrow{AB}=(1-4,\ 2-6)=(-3, -4)$. That is $\overrightarrow{BA}$. Right: end minus start, $\overrightarrow{AB}=(3, 4)$.
+- **Adding coordinates instead of finding the length.** Wrong: $|(3, 4)|=3+4=7$. Right: $|(3, 4)|=\sqrt{9+16}=5$.
+- **Using the ratio when a coordinate is $0$.** For $(0, 2)$ and $(0, 5)$ the ratio $\frac{0}{0}$ means nothing, but $0\cdot5-0\cdot2=0$ shows the vectors are collinear.
+- **The wrong order of vertices.** $ABCD$ being a parallelogram needs $\overrightarrow{AB}=\overrightarrow{DC}$, not $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Key terms
+
+  :::terms
+  - unit vectors | các vectơ đơn vị
+  - coordinates of a vector | toạ độ của vectơ
+  - equal vectors | hai vectơ bằng nhau
+  - length of a vector | độ dài vectơ
+  - distance between two points | khoảng cách giữa hai điểm
+  - midpoint | trung điểm
+  - centroid | trọng tâm
+  - collinear | cùng phương
+  - parallelogram | hình bình hành
+  :::
+
+## Summary
+
+[[P20·a33d]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ is written $\vec{a}=(x, y)$; $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A)$ (end minus start).
+- Add, subtract and scale one coordinate at a time.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Midpoint: average of two sets of coordinates; centroid: average of three.
+- $\vec{a}$, $\vec{b}$ collinear $\iff x_1y_2-x_2y_1=0$; three points are collinear when $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
+- Fourth vertex of parallelogram $ABCD$: solve $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Practice
+
+[[P21·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

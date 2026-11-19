@@ -1,0 +1,1149 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-LG-4   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-LG-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-LG-4
+Người làm: tài khoản Lemonmath.com. Gói này có 38 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-LG-4-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-LG-4-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g3/right-angles (8 bài tập)
+- g3/roman-numerals (8 bài tập)
+- g3/rounding-thousands-ten-thousands (6 bài tập)
+- g3/rounding-to-tens-hundreds (8 bài tập)
+- g3/scaling-up (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g3/right-angles
+Bài học: Góc, góc vuông, góc không vuông / Angles: right angles and non-right angles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một góc có đỉnh $K$, hai cạnh là $KA$ và $KB$.
+
+a) Đỉnh của góc là điểm nào?
+
+b) Hai cạnh của góc là gì?
+
+c) Điểm nào là điểm chung của hai cạnh?
+
+[LỜI GIẢI CŨ – VI]
+a) Đỉnh là $K$.
+
+b) Hai cạnh là $KA$ và $KB$.
+
+c) Điểm chung của hai cạnh là $K$.
+
+**Đáp số.** a) $K$; b) $KA$, $KB$; c) $K$.
+
+[ĐỀ – EN]
+An angle has vertex $K$ and sides $KA$ and $KB$.
+
+a) Which point is the vertex?
+
+b) What are the two sides?
+
+c) Which point is shared by both sides?
+
+[LỜI GIẢI CŨ – EN]
+a) The vertex is $K$.
+
+b) The sides are $KA$ and $KB$.
+
+c) The point shared by both sides is $K$.
+
+**Answer.** a) $K$; b) $KA$, $KB$; c) $K$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Em đặt ê-ke vào ba góc. Mỗi góc là góc vuông hay không vuông?
+
+a) Cạnh còn lại của ê-ke trùng với cạnh còn lại của góc.
+
+b) Cạnh còn lại của ê-ke nằm ngoài góc, hở ra.
+
+c) Cạnh còn lại của góc nằm lọt vào trong góc của ê-ke.
+
+[LỜI GIẢI CŨ – VI]
+a) Trùng nhau: góc vuông.
+
+b) Hở ra: góc không vuông.
+
+c) Lệch vào trong: góc không vuông.
+
+**Đáp số.** a) Vuông; b) không vuông; c) không vuông.
+
+[ĐỀ – EN]
+You put a set square on three angles. Is each angle a right angle or not?
+
+a) The other side of the set square lines up with the other side of the angle.
+
+b) The other side of the set square sticks out of the angle, leaving a gap.
+
+c) The other side of the angle falls inside the corner of the set square.
+
+[LỜI GIẢI CŨ – EN]
+a) They line up: a right angle.
+
+b) A gap: not a right angle.
+
+c) It falls inside: not a right angle.
+
+**Answer.** a) Right angle; b) not a right angle; c) not a right angle.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước về hình tròn. Hình tròn tâm $O$ có bán kính $4$ cm. Các điểm $A$, $B$ nằm trên đường tròn. Góc đỉnh $O$, cạnh $OA$ và $OB$ có hai cạnh dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$OA$ và $OB$ đều là bán kính nên mỗi cạnh dài $4$ cm. Hai cạnh của góc bằng nhau.
+
+**Đáp số.** $OA=4$ cm và $OB=4$ cm.
+
+[ĐỀ – EN]
+Remember the last lesson on circles. A circle with centre $O$ has radius $4$ cm. The points $A$ and $B$ are on the circle. The angle with vertex $O$ and sides $OA$ and $OB$ has two sides. How many centimetres long is each side?
+
+[LỜI GIẢI CŨ – EN]
+$OA$ and $OB$ are both radii, so each side is $4$ cm long. The two sides of the angle are equal.
+
+**Answer.** $OA=4$ cm and $OB=4$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong các đồ vật sau, đồ vật nào có góc vuông?
+
+a) Góc của quyển vở.
+
+b) Hai kim đồng hồ lúc $1$ giờ đúng.
+
+c) Góc của bảng đen.
+
+d) Mái nhà hình chữ A.
+
+[LỜI GIẢI CŨ – VI]
+a) Góc quyển vở khớp ê-ke: góc vuông.
+
+b) Hai kim lúc $1$ giờ chụm hẹp: không vuông.
+
+c) Góc bảng đen khớp ê-ke: góc vuông.
+
+d) Mái chữ A chụm hẹp: không vuông.
+
+**Đáp số.** Góc quyển vở và góc bảng đen.
+
+[ĐỀ – EN]
+Which of these has a right angle?
+
+a) A corner of a book.
+
+b) The two hands of a clock at exactly $1$ o'clock.
+
+c) A corner of a blackboard.
+
+d) A roof shaped like the letter A.
+
+[LỜI GIẢI CŨ – EN]
+a) The corner of a book fits the set square: a right angle.
+
+b) The clock hands at $1$ o'clock are close together: not a right angle.
+
+c) The corner of a blackboard fits the set square: a right angle.
+
+d) The A-shaped roof is closer together: not a right angle.
+
+**Answer.** The corner of a book and the corner of a blackboard.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hai góc vuông: một góc có hai cạnh dài $3$ cm, góc kia có hai cạnh dài $6$ cm. Hai góc có "bằng nhau" không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Cả hai đều là góc vuông, nên chúng bằng nhau. Độ dài cạnh không làm đổi việc góc có vuông hay không.
+
+**Đáp số.** Bằng nhau, vì cả hai đều là góc vuông.
+
+[ĐỀ – EN]
+Two right angles: one has sides $3$ cm long and the other has sides $6$ cm long. Are the two angles "equal"? Why?
+
+[LỜI GIẢI CŨ – EN]
+Both are right angles, so they are equal. The length of the sides does not change whether an angle is a right angle.
+
+**Answer.** Equal, because both are right angles.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam nói: "Góc này trông giống góc vuông nên đó là góc vuông". Nam làm chưa đúng ở đâu? Em sẽ làm thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Nam chỉ nhìn bằng mắt nên có thể nhầm với góc gần vuông. Em dùng ê-ke: đặt đỉnh trùng đỉnh, một cạnh trùng một cạnh, rồi xem cạnh còn lại có trùng không.
+
+**Đáp số.** Phải kiểm tra bằng ê-ke.
+
+[ĐỀ – EN]
+Nam says: "This angle looks like a right angle, so it is a right angle". What is wrong with what Nam says? What would you do?
+
+[LỜI GIẢI CŨ – EN]
+Nam only used his eyes, which can be fooled by an angle that is nearly right. You use a set square: put its corner on the vertex, line up one side with one side, then see whether the other side lines up too.
+
+**Answer.** It must be tested with a set square.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+a) Trong các chữ cái $L$, $V$, $T$, chữ nào có góc vuông?
+
+![Ba chữ cái L, V, T và một đồng hồ chỉ 3 giờ](/assets/img/g3/g3-right-angles-02.svg)
+
+b) Hai kim đồng hồ lúc $3$ giờ đúng tạo thành góc gì?
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ $L$ và chữ $T$ có hai nét gặp nhau ở góc vuông; chữ $V$ thì không.
+
+b) Hai kim lúc $3$ giờ đúng tạo thành góc vuông.
+
+**Đáp số.** a) $L$, $T$; b) góc vuông.
+
+[ĐỀ – EN]
+a) Of the letters $L$, $V$ and $T$, which have a right angle?
+
+![The letters L, V, T and a clock showing 3 o'clock](/assets/img/g3/g3-right-angles-02.svg)
+
+b) What kind of angle do the clock hands make at exactly $3$ o'clock?
+
+[LỜI GIẢI CŨ – EN]
+a) The letters $L$ and $T$ have two strokes meeting at a right angle; the letter $V$ does not.
+
+b) The clock hands at exactly $3$ o'clock make a right angle.
+
+**Answer.** a) $L$, $T$; b) a right angle.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một tờ giấy hình chữ nhật có $4$ góc vuông. Em cắt bỏ một góc bằng một nhát cắt thẳng (nhát cắt không đi qua góc nào khác). Tờ giấy còn lại có mấy góc vuông?
+
+![Tờ giấy hình chữ nhật có đường cắt chéo qua một góc và biểu tượng kéo](/assets/img/g3/g3-right-angles-03.svg)
+
+[LỜI GIẢI CŨ – VI]
+Ban đầu có $4$ góc vuông. Cắt bỏ một góc thì mất $1$ góc vuông, còn $4-1=3$ góc vuông. Hai góc mới ở chỗ cắt là góc không vuông.
+
+**Đáp số.** $3$ góc vuông.
+
+[ĐỀ – EN]
+A rectangular sheet of paper has $4$ right angles. You cut off one corner with a single straight cut (the cut does not pass through any other corner). How many right angles does the sheet have left?
+
+![A rectangular sheet with a diagonal cut across one corner and scissors](/assets/img/g3/g3-right-angles-03.svg)
+
+[LỜI GIẢI CŨ – EN]
+At the start there are $4$ right angles. Cutting off one corner removes $1$ right angle, leaving $4-1=3$ right angles. The two new corners along the cut are not right angles.
+
+**Answer.** $3$ right angles.
+
+
+######################################################################
+@@@ g3/roman-numerals
+Bài học: Làm quen với chữ số La Mã / Introducing Roman numerals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đọc các số La Mã: a) VIII; b) XIII; c) XVII.
+
+[LỜI GIẢI CŨ – VI]
+a) VIII $=5+3=8$.
+
+b) XIII $=10+3=13$.
+
+c) XVII $=10+5+2=17$.
+
+**Đáp số.** a) $8$; b) $13$; c) $17$.
+
+[ĐỀ – EN]
+Read the Roman numerals: a) VIII; b) XIII; c) XVII.
+
+[LỜI GIẢI CŨ – EN]
+a) VIII $=5+3=8$.
+
+b) XIII $=10+3=13$.
+
+c) XVII $=10+5+2=17$.
+
+**Answer.** a) $8$; b) $13$; c) $17$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết bằng số La Mã: a) $6$; b) $14$; c) $20$.
+
+[LỜI GIẢI CŨ – VI]
+a) $6=5+1$, viết là VI.
+
+b) $14=10+4$, mà $4$ viết là IV, nên viết là XIV.
+
+c) $20=10+10$, viết là XX.
+
+**Đáp số.** a) VI; b) XIV; c) XX.
+
+[ĐỀ – EN]
+Write in Roman numerals: a) $6$; b) $14$; c) $20$.
+
+[LỜI GIẢI CŨ – EN]
+a) $6=5+1$, written VI.
+
+b) $14=10+4$, and $4$ is written IV, so it is written XIV.
+
+c) $20=10+10$, written XX.
+
+**Answer.** a) VI; b) XIV; c) XX.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết bằng số La Mã: a) $4$; b) $9$; c) $19$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4=5-1$, viết là IV.
+
+b) $9=10-1$, viết là IX.
+
+c) $19=10+9$, viết là XIX.
+
+**Đáp số.** a) IV; b) IX; c) XIX.
+
+[ĐỀ – EN]
+Write in Roman numerals: a) $4$; b) $9$; c) $19$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4=5-1$, written IV.
+
+b) $9=10-1$, written IX.
+
+c) $19=10+9$, written XIX.
+
+**Answer.** a) IV; b) IX; c) XIX.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) XIV $\ldots$ XI; b) VIII $\ldots$ IX; c) XX $\ldots$ XIX.
+
+[LỜI GIẢI CŨ – VI]
+a) XIV $=14$ và XI $=11$; $14>11$.
+
+b) VIII $=8$ và IX $=9$; $8<9$.
+
+c) XX $=20$ và XIX $=19$; $20>19$.
+
+**Đáp số.** a) $>$; b) $<$; c) $>$.
+
+[ĐỀ – EN]
+Fill in $>$, $<$ or $=$: a) XIV $\ldots$ XI; b) VIII $\ldots$ IX; c) XX $\ldots$ XIX.
+
+[LỜI GIẢI CŨ – EN]
+a) XIV $=14$ and XI $=11$; $14>11$.
+
+b) VIII $=8$ and IX $=9$; $8<9$.
+
+c) XX $=20$ and XIX $=19$; $20>19$.
+
+**Answer.** a) $>$; b) $<$; c) $>$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Trên mặt đồng hồ, kim dài chỉ vào XII. Hỏi đồng hồ chỉ mấy giờ nếu kim ngắn chỉ vào: a) V; b) XI?
+
+[LỜI GIẢI CŨ – VI]
+a) V là $5$, nên đồng hồ chỉ $5$ giờ.
+
+b) XI là $11$, nên đồng hồ chỉ $11$ giờ.
+
+**Đáp số.** a) $5$ giờ; b) $11$ giờ.
+
+[ĐỀ – EN]
+On a clock face the minute hand points at XII. What time does the clock show if the hour hand points at: a) V; b) XI?
+
+[LỜI GIẢI CŨ – EN]
+a) V is $5$, so the clock shows $5$ o'clock.
+
+b) XI is $11$, so the clock shows $11$ o'clock.
+
+**Answer.** a) $5$ o'clock; b) $11$ o'clock.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính, viết kết quả bằng số La Mã: a) VI $+$ IX; b) XVIII $-$ XII.
+
+[LỜI GIẢI CŨ – VI]
+a) VI $=6$ và IX $=9$, nên $6+9=15$. Số $15$ viết là XV.
+
+b) XVIII $=18$ và XII $=12$, nên $18-12=6$. Số $6$ viết là VI.
+
+**Đáp số.** a) XV; b) VI.
+
+[ĐỀ – EN]
+Work out, writing the result in Roman numerals: a) VI $+$ IX; b) XVIII $-$ XII.
+
+[LỜI GIẢI CŨ – EN]
+a) VI $=6$ and IX $=9$, so $6+9=15$. The number $15$ is written XV.
+
+b) XVIII $=18$ and XII $=12$, so $18-12=6$. The number $6$ is written VI.
+
+**Answer.** a) XV; b) VI.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại bài so sánh số. Sắp xếp các số La Mã IX, XV, V, XII theo thứ tự từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+IX $=9$, XV $=15$, V $=5$, XII $=12$. Vì $5<9<12<15$ nên thứ tự từ bé đến lớn là V, IX, XII, XV.
+
+**Đáp số.** V, IX, XII, XV.
+
+[ĐỀ – EN]
+Remember comparing numbers. Put the Roman numerals IX, XV, V, XII in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+IX $=9$, XV $=15$, V $=5$, XII $=12$. Since $5<9<12<15$, the order from smallest to largest is V, IX, XII, XV.
+
+**Answer.** V, IX, XII, XV.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Đồng hồ đang chỉ VIII giờ. Sau bao nhiêu giờ nữa thì kim ngắn chỉ vào XII? Viết số giờ đó bằng số La Mã.
+
+[LỜI GIẢI CŨ – VI]
+VIII là $8$ giờ và XII là $12$ giờ. Số giờ cần đợi là:
+$$12-8=4\ \text{(giờ)}.$$
+Số $4$ viết bằng số La Mã là IV.
+
+**Đáp số.** $4$ giờ, viết là IV.
+
+[ĐỀ – EN]
+The clock shows VIII o'clock. In how many hours will the hour hand point at XII? Write that number of hours in Roman numerals.
+
+[LỜI GIẢI CŨ – EN]
+VIII is $8$ o'clock and XII is $12$ o'clock. The number of hours to wait is:
+$$12-8=4\ \text{(hours)}.$$
+The number $4$ written in Roman numerals is IV.
+
+**Answer.** $4$ hours, written IV.
+
+
+######################################################################
+@@@ g3/rounding-thousands-ten-thousands
+Bài học: Làm tròn số đến hàng nghìn, hàng chục nghìn / Rounding to the nearest thousand and ten thousand
+Cần viết lại lời giải các bài: 1, 2, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Làm tròn mỗi số sau đến hàng nghìn:
+
+a) $2\,148$.
+
+b) $6\,905$.
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng trăm của $2\,148$ là $1$, bé hơn $5$, nên $2\,148\approx2\,000$.
+
+b) Chữ số hàng trăm của $6\,905$ là $9$, từ $5$ trở lên, nên $6\,905\approx7\,000$.
+
+**Đáp số.** a) $2\,000$; b) $7\,000$.
+
+[ĐỀ – EN]
+Round each number to the nearest thousand:
+
+a) $2\,148$.
+
+b) $6\,905$.
+
+[LỜI GIẢI CŨ – EN]
+a) The hundreds digit of $2\,148$ is $1$, less than $5$, so $2\,148\approx2\,000$.
+
+b) The hundreds digit of $6\,905$ is $9$, which is $5$ or more, so $6\,905\approx7\,000$.
+
+**Answer.** a) $2\,000$; b) $7\,000$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Làm tròn:
+
+a) $4\,372$ đến hàng nghìn.
+
+b) $8\,650$ đến hàng nghìn.
+
+c) $35\,480$ đến hàng chục nghìn.
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng trăm là $3$, bé hơn $5$: $4\,372\approx4\,000$.
+
+b) Chữ số hàng trăm là $6$, từ $5$ trở lên: $8\,650\approx9\,000$.
+
+c) Chữ số hàng nghìn là $5$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn: $35\,480\approx40\,000$.
+
+**Đáp số.** a) $4\,000$; b) $9\,000$; c) $40\,000$.
+
+[ĐỀ – EN]
+Round:
+
+a) $4\,372$ to the nearest thousand.
+
+b) $8\,650$ to the nearest thousand.
+
+c) $35\,480$ to the nearest ten thousand.
+
+[LỜI GIẢI CŨ – EN]
+a) The hundreds digit is $3$, less than $5$: $4\,372\approx4\,000$.
+
+b) The hundreds digit is $6$, which is $5$ or more: $8\,650\approx9\,000$.
+
+c) The thousands digit is $5$, which is $5$ or more, so the $3$ ten thousands go up to $4$ ten thousands: $35\,480\approx40\,000$.
+
+**Answer.** a) $4\,000$; b) $9\,000$; c) $40\,000$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong các số $5\,499$, $5\,500$, $6\,499$, $6\,500$, $6\,501$, những số nào làm tròn đến hàng nghìn được $6\,000$?
+
+[LỜI GIẢI CŨ – VI]
+$5\,499\approx5\,000$ (hàng trăm là $4$). $5\,500\approx6\,000$ (hàng trăm là $5$). $6\,499\approx6\,000$ (hàng trăm là $4$). $6\,500\approx7\,000$ (hàng trăm là $5$). $6\,501\approx7\,000$ (hàng trăm là $5$).
+
+**Đáp số.** $5\,500$ và $6\,499$.
+
+[ĐỀ – EN]
+Of the numbers $5\,499$, $5\,500$, $6\,499$, $6\,500$, $6\,501$, which round to $6\,000$ to the nearest thousand?
+
+[LỜI GIẢI CŨ – EN]
+$5\,499\approx5\,000$ (hundreds digit $4$). $5\,500\approx6\,000$ (hundreds digit $5$). $6\,499\approx6\,000$ (hundreds digit $4$). $6\,500\approx7\,000$ (hundreds digit $5$). $6\,501\approx7\,000$ (hundreds digit $5$).
+
+**Answer.** $5\,500$ and $6\,499$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Hà: "Làm tròn $3\,700$ đến hàng nghìn: chữ số hàng trăm là $7$ nên em giữ nguyên, được $3\,000$."
+
+b) Tú: "Làm tròn $27\,450$ đến hàng chục nghìn: em nhìn chữ số hàng trăm là $4$, bé hơn $5$, nên được $27\,000$."
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng trăm là $7$, từ $5$ trở lên, nên phải làm tròn lên: $3\,700\approx4\,000$.
+
+b) Làm tròn đến hàng chục nghìn thì phải nhìn chữ số hàng nghìn, là $7$, từ $5$ trở lên, nên $27\,450\approx30\,000$. Tú đã nhìn nhầm hàng, và kết quả $27\,000$ chưa phải số tròn chục nghìn.
+
+**Đáp số.** a) $4\,000$; b) $30\,000$.
+
+[ĐỀ – EN]
+Find the mistake in each pupil's work and correct it.
+
+a) Ha: "Rounding $3\,700$ to the nearest thousand: the hundreds digit is $7$, so I keep the thousands and get $3\,000$."
+
+b) Tu: "Rounding $27\,450$ to the nearest ten thousand: I look at the hundreds digit, $4$, which is less than $5$, so I get $27\,000$."
+
+[LỜI GIẢI CŨ – EN]
+a) The hundreds digit is $7$, which is $5$ or more, so you must round up: $3\,700\approx4\,000$.
+
+b) To round to the nearest ten thousand you look at the thousands digit, which is $7$, so $5$ or more, and $27\,450\approx30\,000$. Tu looked at the wrong place, and $27\,000$ is not a whole ten thousand.
+
+**Answer.** a) $4\,000$; b) $30\,000$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bảng dưới đây ghi số khán giả của ba trận bóng.
+
+| Trận | Số khán giả |
+|---|---|
+| Trận 1 | $12\,380$ |
+| Trận 2 | $15\,720$ |
+| Trận 3 | $9\,560$ |
+
+a) Làm tròn số khán giả của mỗi trận đến hàng nghìn.
+
+b) Theo số đã làm tròn, trận nào có nhiều khán giả nhất?
+
+[LỜI GIẢI CŨ – VI]
+a) $12\,380\approx12\,000$ (hàng trăm là $3$). $15\,720\approx16\,000$ (hàng trăm là $7$). $9\,560\approx10\,000$ (hàng trăm là $5$).
+
+b) So sánh $12\,000$, $16\,000$, $10\,000$: số lớn nhất là $16\,000$, của trận $2$.
+
+**Đáp số.** a) $12\,000$; $16\,000$; $10\,000$. b) Trận $2$.
+
+[ĐỀ – EN]
+The table shows the number of spectators at three football matches.
+
+| Match | Spectators |
+|---|---|
+| Match 1 | $12\,380$ |
+| Match 2 | $15\,720$ |
+| Match 3 | $9\,560$ |
+
+a) Round the number of spectators at each match to the nearest thousand.
+
+b) Using the rounded numbers, which match had the most spectators?
+
+[LỜI GIẢI CŨ – EN]
+a) $12\,380\approx12\,000$ (hundreds digit $3$). $15\,720\approx16\,000$ (hundreds digit $7$). $9\,560\approx10\,000$ (hundreds digit $5$).
+
+b) Compare $12\,000$, $16\,000$, $10\,000$: the greatest is $16\,000$, for match $2$.
+
+**Answer.** a) $12\,000$; $16\,000$; $10\,000$. b) Match $2$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một số có bốn chữ số, chữ số hàng nghìn là $4$. Làm tròn số đó đến hàng nghìn được $5\,000$.
+
+a) Chữ số hàng trăm của số đó có thể là những chữ số nào?
+
+b) Số nhỏ nhất và số lớn nhất như thế là những số nào?
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng trăm phải từ $5$ trở lên, tức là $5$, $6$, $7$, $8$ hoặc $9$.
+
+b) Số nhỏ nhất: hàng trăm là $5$, các hàng còn lại là $0$, được $4\,500$. Số lớn nhất: hàng trăm là $9$, các hàng còn lại là $9$, được $4\,999$.
+
+**Kiểm tra.** $4\,500\approx5\,000$ và $4\,999\approx5\,000$.
+
+**Đáp số.** a) $5$, $6$, $7$, $8$, $9$; b) $4\,500$ và $4\,999$.
+
+[ĐỀ – EN]
+A four-digit number has $4$ as its thousands digit. Rounded to the nearest thousand, it becomes $5\,000$.
+
+a) What can its hundreds digit be?
+
+b) What are the least and the greatest such numbers?
+
+[LỜI GIẢI CŨ – EN]
+a) The hundreds digit must be $5$ or more, so it is $5$, $6$, $7$, $8$ or $9$.
+
+b) Least number: hundreds digit $5$ and the other places $0$, giving $4\,500$. Greatest number: hundreds digit $9$ and the other places $9$, giving $4\,999$.
+
+**Check.** $4\,500\approx5\,000$ and $4\,999\approx5\,000$.
+
+**Answer.** a) $5$, $6$, $7$, $8$, $9$; b) $4\,500$ and $4\,999$.
+
+
+######################################################################
+@@@ g3/rounding-to-tens-hundreds
+Bài học: Làm tròn số đến hàng chục, hàng trăm / Rounding to the nearest ten or hundred
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Làm tròn đến hàng chục: a) $23$; b) $68$; c) $95$.
+
+[LỜI GIẢI CŨ – VI]
+a) $23$ có chữ số hàng đơn vị là $3$, nên $23\approx 20$.
+
+b) $68$ có chữ số hàng đơn vị là $8$, nên $68\approx 70$.
+
+c) $95$ có chữ số hàng đơn vị là $5$, nên $95\approx 100$.
+
+**Đáp số.** a) $20$; b) $70$; c) $100$.
+
+[ĐỀ – EN]
+Round to the nearest ten: a) $23$; b) $68$; c) $95$.
+
+[LỜI GIẢI CŨ – EN]
+a) $23$ has ones digit $3$, so $23\approx 20$.
+
+b) $68$ has ones digit $8$, so $68\approx 70$.
+
+c) $95$ has ones digit $5$, so $95\approx 100$.
+
+**Answer.** a) $20$; b) $70$; c) $100$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Làm tròn đến hàng chục: a) $154$; b) $281$; c) $399$.
+
+[LỜI GIẢI CŨ – VI]
+a) $154$: chữ số $4$, làm tròn xuống, $154\approx 150$.
+
+b) $281$: chữ số $1$, làm tròn xuống, $281\approx 280$.
+
+c) $399$: chữ số $9$, làm tròn lên, $39$ chục thành $40$ chục, $399\approx 400$.
+
+**Đáp số.** a) $150$; b) $280$; c) $400$.
+
+[ĐỀ – EN]
+Round to the nearest ten: a) $154$; b) $281$; c) $399$.
+
+[LỜI GIẢI CŨ – EN]
+a) $154$: digit $4$, round down, $154\approx 150$.
+
+b) $281$: digit $1$, round down, $281\approx 280$.
+
+c) $399$: digit $9$, round up, $39$ tens becomes $40$ tens, $399\approx 400$.
+
+**Answer.** a) $150$; b) $280$; c) $400$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Làm tròn đến hàng trăm: a) $326$; b) $750$; c) $899$.
+
+[LỜI GIẢI CŨ – VI]
+a) $326$: chữ số hàng chục là $2$, nên $326\approx 300$.
+
+b) $750$: chữ số hàng chục là $5$, nên $750\approx 800$.
+
+c) $899$: chữ số hàng chục là $9$, nên $899\approx 900$.
+
+**Đáp số.** a) $300$; b) $800$; c) $900$.
+
+[ĐỀ – EN]
+Round to the nearest hundred: a) $326$; b) $750$; c) $899$.
+
+[LỜI GIẢI CŨ – EN]
+a) $326$: the tens digit is $2$, so $326\approx 300$.
+
+b) $750$: the tens digit is $5$, so $750\approx 800$.
+
+c) $899$: the tens digit is $9$, so $899\approx 900$.
+
+**Answer.** a) $300$; b) $800$; c) $900$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một trường tiểu học có $637$ học sinh. Hãy làm tròn số học sinh đến hàng chục và đến hàng trăm.
+
+[LỜI GIẢI CŨ – VI]
+Đến hàng chục: chữ số hàng đơn vị là $7$, làm tròn lên, $637\approx 640$.
+
+Đến hàng trăm: chữ số hàng chục là $3$, làm tròn xuống, $637\approx 600$.
+
+**Đáp số.** Khoảng $640$ học sinh (hàng chục) và khoảng $600$ học sinh (hàng trăm).
+
+[ĐỀ – EN]
+A primary school has $637$ pupils. Round the number of pupils to the nearest ten and to the nearest hundred.
+
+[LỜI GIẢI CŨ – EN]
+To the nearest ten: the ones digit is $7$, round up, $637\approx 640$.
+
+To the nearest hundred: the tens digit is $3$, round down, $637\approx 600$.
+
+**Answer.** About $640$ pupils (nearest ten) and about $600$ pupils (nearest hundred).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Ước lượng $38+41$ bằng cách làm tròn mỗi số đến hàng chục, rồi tính đúng tổng và so sánh.
+
+[LỜI GIẢI CŨ – VI]
+$38\approx 40$ và $41\approx 40$, nên tổng ước lượng là $40+40=80$.
+
+Tổng đúng là $38+41=79$. Hai số $80$ và $79$ rất gần nhau.
+
+**Đáp số.** Ước lượng $80$; tổng đúng $79$.
+
+[ĐỀ – EN]
+Estimate $38+41$ by rounding each number to the nearest ten, then work out the exact total and compare.
+
+[LỜI GIẢI CŨ – EN]
+$38\approx 40$ and $41\approx 40$, so the estimated total is $40+40=80$.
+
+The exact total is $38+41=79$. The numbers $80$ and $79$ are very close.
+
+**Answer.** Estimate $80$; exact total $79$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em nhớ lại các số có bốn chữ số. Làm tròn $998$ đến hàng chục và đến hàng trăm.
+
+[LỜI GIẢI CŨ – VI]
+Đến hàng chục: chữ số hàng đơn vị là $8$, làm tròn lên, $99$ chục thành $100$ chục, tức là $998\approx 1000$.
+
+Đến hàng trăm: chữ số hàng chục là $9$, làm tròn lên, $9$ trăm thành $10$ trăm, tức là $998\approx 1000$.
+
+**Đáp số.** Cả hai đều bằng $1000$.
+
+[ĐỀ – EN]
+Remember four-digit numbers. Round $998$ to the nearest ten and to the nearest hundred.
+
+[LỜI GIẢI CŨ – EN]
+To the nearest ten: the ones digit is $8$, round up, $99$ tens becomes $100$ tens, so $998\approx 1000$.
+
+To the nearest hundred: the tens digit is $9$, round up, $9$ hundreds becomes $10$ hundreds, so $998\approx 1000$.
+
+**Answer.** Both are $1000$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tìm tất cả các số có hai chữ số mà khi làm tròn đến hàng chục thì được $60$.
+
+[LỜI GIẢI CŨ – VI]
+Các số có hàng chục là $6$ và đơn vị từ $0$ đến $4$: $60$, $61$, $62$, $63$, $64$. Các số có hàng chục là $5$ và đơn vị từ $5$ đến $9$: $55$, $56$, $57$, $58$, $59$.
+
+Có tất cả $10$ số: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+
+**Đáp số.** $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+
+[ĐỀ – EN]
+Find all the two-digit numbers that round to $60$ when rounded to the nearest ten.
+
+[LỜI GIẢI CŨ – EN]
+Numbers with tens digit $6$ and ones digit from $0$ to $4$: $60$, $61$, $62$, $63$, $64$. Numbers with tens digit $5$ and ones digit from $5$ to $9$: $55$, $56$, $57$, $58$, $59$.
+
+There are $10$ numbers: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+
+**Answer.** $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Số lớn nhất và số bé nhất có ba chữ số mà khi làm tròn đến hàng trăm thì được $500$ là những số nào?
+
+[LỜI GIẢI CŨ – VI]
+Số bé nhất: $450$, vì hàng chục là $5$ nên làm tròn lên thành $500$ ($449\approx 400$).
+
+Số lớn nhất: $549$, vì hàng chục là $4$ nên làm tròn xuống thành $500$ ($550\approx 600$).
+
+**Đáp số.** Số bé nhất là $450$; số lớn nhất là $549$.
+
+[ĐỀ – EN]
+What are the smallest and the largest three-digit numbers that round to $500$ when rounded to the nearest hundred?
+
+[LỜI GIẢI CŨ – EN]
+The smallest number: $450$, because its tens digit is $5$ so it rounds up to $500$ ($449\approx 400$).
+
+The largest number: $549$, because its tens digit is $4$ so it rounds down to $500$ ($550\approx 600$).
+
+**Answer.** The smallest number is $450$; the largest number is $549$.
+
+
+######################################################################
+@@@ g3/scaling-up
+Bài học: Gấp một số lên một số lần. Giảm một số đi một số lần / Making a number several times larger. Making a number several times smaller
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gấp $6$ lên $3$ lần.
+
+[LỜI GIẢI CŨ – VI]
+$$6\times 3=18.$$
+**Đáp số.** $18$.
+
+[ĐỀ – EN]
+Make $6$ become $3$ times larger.
+
+[LỜI GIẢI CŨ – EN]
+$$6\times 3=18.$$
+**Answer.** $18$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Gấp $15$ lên $5$ lần.
+
+[LỜI GIẢI CŨ – VI]
+$$15\times 5=75.$$
+**Đáp số.** $75$.
+
+[ĐỀ – EN]
+Make $15$ become $5$ times larger.
+
+[LỜI GIẢI CŨ – EN]
+$$15\times 5=75.$$
+**Answer.** $75$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giảm $32$ đi $4$ lần.
+
+[LỜI GIẢI CŨ – VI]
+$$32:4=8.$$
+Thử lại: $8\times 4=32$.
+
+**Đáp số.** $8$.
+
+[ĐỀ – EN]
+Make $32$ become $4$ times smaller.
+
+[LỜI GIẢI CŨ – EN]
+$$32\div4=8.$$
+Check: $8\times 4=32$.
+
+**Answer.** $8$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giảm $54$ đi $6$ lần.
+
+[LỜI GIẢI CŨ – VI]
+$$54:6=9.$$
+Thử lại: $9\times 6=54$.
+
+**Đáp số.** $9$.
+
+[ĐỀ – EN]
+Make $54$ become $6$ times smaller.
+
+[LỜI GIẢI CŨ – EN]
+$$54\div6=9.$$
+Check: $9\times 6=54$.
+
+**Answer.** $9$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Nhà Lan nuôi $9$ con gà. Số vịt nhà Lan nuôi gấp $4$ lần số gà. Hỏi nhà Lan nuôi bao nhiêu con vịt?
+
+[LỜI GIẢI CŨ – VI]
+Số vịt nhà Lan nuôi là:
+$$9\times 4=36\ \text{(con)}.$$
+**Đáp số.** $36$ con vịt.
+
+[ĐỀ – EN]
+Lan's family keeps $9$ hens. They keep $4$ times as many ducks as hens. How many ducks does Lan's family keep?
+
+[LỜI GIẢI CŨ – EN]
+The number of ducks Lan's family keeps is:
+$$9\times 4=36\ \text{(ducks)}.$$
+**Answer.** $36$ ducks.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Buổi sáng một cửa hàng bán được $72$ chiếc bút. Số bút bán được buổi chiều bằng số bút buổi sáng giảm đi $8$ lần. Hỏi buổi chiều cửa hàng bán được bao nhiêu chiếc bút? Cả ngày bán được bao nhiêu chiếc bút?
+
+[LỜI GIẢI CŨ – VI]
+Số bút bán được buổi chiều là:
+$$72:8=9\ \text{(chiếc)}.$$
+Số bút bán được cả ngày là:
+$$72+9=81\ \text{(chiếc)}.$$
+**Đáp số.** Buổi chiều $9$ chiếc bút; cả ngày $81$ chiếc bút.
+
+[ĐỀ – EN]
+In the morning a shop sold $72$ pens. In the afternoon it sold the morning's number made $8$ times smaller. How many pens did the shop sell in the afternoon? How many pens did it sell in the whole day?
+
+[LỜI GIẢI CŨ – EN]
+The number of pens sold in the afternoon is:
+$$72\div8=9\ \text{(pens)}.$$
+The number of pens sold in the whole day is:
+$$72+9=81\ \text{(pens)}.$$
+**Answer.** $9$ pens in the afternoon; $81$ pens in the whole day.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại bảng nhân $6$: biết $6\times 7=42$. Hãy giảm $42$ đi $6$ lần và giảm $42$ đi $7$ lần.
+
+[LỜI GIẢI CŨ – VI]
+Vì $6\times 7=42$, nên $42:6=7$ và $42:7=6$.
+
+**Đáp số.** Giảm $42$ đi $6$ lần được $7$; giảm $42$ đi $7$ lần được $6$.
+
+[ĐỀ – EN]
+Remember the $6$ times table: you know that $6\times 7=42$. Make $42$ become $6$ times smaller and make $42$ become $7$ times smaller.
+
+[LỜI GIẢI CŨ – EN]
+Since $6\times 7=42$, we have $42\div6=7$ and $42\div7=6$.
+
+**Answer.** $42$ made $6$ times smaller is $7$; $42$ made $7$ times smaller is $6$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một số khi gấp lên $4$ lần rồi giảm đi $2$ lần thì được $18$. Tìm số đó.
+
+[LỜI GIẢI CŨ – VI]
+Trước khi giảm đi $2$ lần, số đó là $18\times 2=36$.
+
+Trước khi gấp lên $4$ lần, số đó là $36:4=9$.
+
+Thử lại: $9\times 4=36$, rồi $36:2=18$. Đúng.
+
+**Đáp số.** $9$.
+
+[ĐỀ – EN]
+A number is made $4$ times larger and then $2$ times smaller, and the result is $18$. Find the number.
+
+[LỜI GIẢI CŨ – EN]
+Before being made $2$ times smaller, the number was $18\times 2=36$.
+
+Before being made $4$ times larger, the number was $36\div4=9$.
+
+Check: $9\times 4=36$, then $36\div2=18$. Correct.
+
+**Answer.** $9$.
+
+
+===== HẾT FILE Lemonmath.com-LG-4 =====

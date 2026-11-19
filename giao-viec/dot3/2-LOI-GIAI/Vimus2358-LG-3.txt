@@ -1,0 +1,993 @@
+######################################################################
+TÀI KHOẢN: Vimus2358   |   FILE: Vimus2358-LG-3   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vimus2358-LG-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Vimus2358-LG-3
+Người làm: tài khoản Vimus2358. Gói này có 36 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Vimus2358-LG-3-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vimus2358-LG-3-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g5/square-kilometres-hectares (10 bài tập)
+- g5/subtracting-decimals (8 bài tập)
+- g5/sum-and-ratio-problems (10 bài tập)
+- g5/surface-area-of-a-cube (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g5/square-kilometres-hectares
+Bài học: Ki-lô-mét vuông. Héc-ta. Các đơn vị đo diện tích / Square kilometres. Hectares. Units of area
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số?
+a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+
+b) $12\,000\,000:1\,000\,000=12\ \text{km}^2$.
+
+c) $4\times100=400$ ha.
+
+d) $900:100=9\ \text{km}^2$.
+
+**Đáp số.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+
+b) $12\,000\,000\div1\,000\,000=12\ \text{km}^2$.
+
+c) $4\times100=400$ ha.
+
+d) $900\div100=9\ \text{km}^2$.
+
+**Answer.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Số?
+a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3{,}5$ ha $=?\ \text{m}^2$; d) $0{,}25$ ha $=?\ \text{m}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $6\times10\,000=60\,000\ \text{m}^2$.
+
+b) $80\,000:10\,000=8$ ha.
+
+c) $3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+
+d) $0{,}25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+
+**Đáp số.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3.5$ ha $=?\ \text{m}^2$; d) $0.25$ ha $=?\ \text{m}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $6\times10\,000=60\,000\ \text{m}^2$.
+
+b) $80\,000\div10\,000=8$ ha.
+
+c) $3.5$ ha $=3$ ha $+0.5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+
+d) $0.25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+
+**Answer.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số?
+a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3\times100=300\ \text{m}^2$.
+
+b) $5\times100=500\ \text{dam}^2$.
+
+c) $40\,000:100=400\ \text{m}^2$.
+
+d) Từ $\text{mm}^2$ lên $\text{dm}^2$ có hai bậc, mỗi bậc chia $100$, nên chia $10\,000$: $70\,000:10\,000=7\ \text{dm}^2$.
+
+**Đáp số.** a) $300$; b) $500$; c) $400$; d) $7$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3\times100=300\ \text{m}^2$.
+
+b) $5\times100=500\ \text{dam}^2$.
+
+c) $40\,000\div100=400\ \text{m}^2$.
+
+d) From $\text{mm}^2$ up to $\text{dm}^2$ there are two steps, each dividing by $100$, so we divide by $10\,000$: $70\,000\div10\,000=7\ \text{dm}^2$.
+
+**Answer.** a) $300$; b) $500$; c) $400$; d) $7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giả sử một khu bảo tồn hình chữ nhật dài $8$ km và rộng $5$ km. Tính diện tích khu bảo tồn theo ki-lô-mét vuông và theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích khu bảo tồn là $8\times5=40\ \text{km}^2$.
+
+Đổi ra héc-ta: $40\times100=4000$ ha.
+
+**Đáp số.** $40\ \text{km}^2$, tức là $4000$ ha.
+
+[ĐỀ – EN]
+Suppose a nature reserve is a rectangle $8$ km long and $5$ km wide. Find the area of the reserve in square kilometres and in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the reserve is $8\times5=40\ \text{km}^2$.
+
+Change to hectares: $40\times100=4000$ ha.
+
+**Answer.** $40\ \text{km}^2$, which is $4000$ ha.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử một thửa ruộng hình chữ nhật dài $400$ m, rộng $150$ m. Mỗi héc-ta ruộng thu được $7$ tấn thóc. Hỏi cả thửa ruộng thu được bao nhiêu tấn thóc?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thửa ruộng là $400\times150=60\,000\ \text{m}^2=6$ ha.
+
+Số tấn thóc thu được là $6\times7=42$ (tấn).
+
+**Đáp số.** $42$ tấn thóc.
+
+[ĐỀ – EN]
+Suppose a field is a rectangle $400$ m long and $150$ m wide. Each hectare of the field produces $7$ tonnes of rice. How many tonnes of rice does the whole field produce?
+
+[LỜI GIẢI CŨ – EN]
+The area of the field is $400\times150=60\,000\ \text{m}^2=6$ ha.
+
+The number of tonnes of rice produced is $6\times7=42$ (tonnes).
+
+**Answer.** $42$ tonnes of rice.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0{,}3$ ha.
+
+[LỜI GIẢI CŨ – VI]
+a) $3$ ha $=30\,000\ \text{m}^2$, nên điền dấu $=$.
+
+b) $5\ \text{km}^2=500$ ha. Vì $500>450$ nên điền dấu $>$.
+
+c) $0{,}3$ ha $=3000\ \text{m}^2$. Vì $2500<3000$ nên điền dấu $<$.
+
+**Đáp số.** a) $=$; b) $>$; c) $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0.3$ ha.
+
+[LỜI GIẢI CŨ – EN]
+a) $3$ ha $=30\,000\ \text{m}^2$, so write $=$.
+
+b) $5\ \text{km}^2=500$ ha. Since $500>450$, write $>$.
+
+c) $0.3$ ha $=3000\ \text{m}^2$. Since $2500<3000$, write $<$.
+
+**Answer.** a) $=$; b) $>$; c) $<$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một xã có ba khu đất rộng $2{,}5$ ha, $15\,000\ \text{m}^2$ và $0{,}4$ ha. Hãy sắp xếp diện tích ba khu đất từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+$2{,}5$ ha $=25\,000\ \text{m}^2$ và $0{,}4$ ha $=4000\ \text{m}^2$. Ba diện tích là $25\,000$; $15\,000$; $4000$ (mét vuông).
+
+Vì $4000<15\,000<25\,000$ nên thứ tự từ bé đến lớn là $0{,}4$ ha; $15\,000\ \text{m}^2$; $2{,}5$ ha.
+
+**Đáp số.** $0{,}4$ ha $<15\,000\ \text{m}^2<2{,}5$ ha.
+
+[ĐỀ – EN]
+Suppose a village has three plots of land of areas $2.5$ ha, $15\,000\ \text{m}^2$ and $0.4$ ha. Put the areas of the three plots in order from least to greatest.
+
+[LỜI GIẢI CŨ – EN]
+$2.5$ ha $=25\,000\ \text{m}^2$ and $0.4$ ha $=4000\ \text{m}^2$. The three areas are $25\,000$; $15\,000$; $4000$ (square metres).
+
+Since $4000<15\,000<25\,000$, the order from least to greatest is $0.4$ ha; $15\,000\ \text{m}^2$; $2.5$ ha.
+
+**Answer.** $0.4$ ha $<15\,000\ \text{m}^2<2.5$ ha.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài ôn tập về diện tích hình chữ nhật và hình vuông. Một mảnh đất hình vuông có cạnh $200$ m. Tính diện tích mảnh đất theo mét vuông và theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích mảnh đất là $200\times200=40\,000\ \text{m}^2$.
+
+Đổi ra héc-ta: $40\,000:10\,000=4$ ha.
+
+**Đáp số.** $40\,000\ \text{m}^2$, tức là $4$ ha.
+
+[ĐỀ – EN]
+Remember the review lesson on the area of rectangles and squares. A square plot of land has side $200$ m. Find the area of the plot in square metres and in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the plot is $200\times200=40\,000\ \text{m}^2$.
+
+Change to hectares: $40\,000\div10\,000=4$ ha.
+
+**Answer.** $40\,000\ \text{m}^2$, which is $4$ ha.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giả sử một huyện có $1200$ ha đất trồng lúa và $8\ \text{km}^2$ đất rừng. Hỏi tổng diện tích đất trồng lúa và đất rừng của huyện là bao nhiêu héc-ta?
+
+[LỜI GIẢI CŨ – VI]
+Đất rừng có diện tích $8\ \text{km}^2=8\times100=800$ ha.
+
+Tổng diện tích là $1200+800=2000$ (ha).
+
+**Đáp số.** $2000$ ha.
+
+[ĐỀ – EN]
+Suppose a district has $1200$ ha of rice fields and $8\ \text{km}^2$ of forest. How many hectares are the rice fields and the forest altogether?
+
+[LỜI GIẢI CŨ – EN]
+The forest has area $8\ \text{km}^2=8\times100=800$ ha.
+
+The total area is $1200+800=2000$ (ha).
+
+**Answer.** $2000$ ha.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một hình chữ nhật có diện tích $1$ ha, chiều dài gấp $4$ lần chiều rộng. Tính chu vi hình chữ nhật đó theo mét.
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật chia được thành $4$ hình vuông bằng nhau, mỗi hình vuông có diện tích $10\,000:4=2500\ \text{m}^2$. Vì $50\times50=2500$ nên cạnh hình vuông là $50$ m.
+
+Chiều rộng là $50$ m, chiều dài là $50\times4=200$ m. Chu vi là $(50+200)\times2=500$ (m).
+
+**Đáp số.** $500$ m.
+
+[ĐỀ – EN]
+A rectangle has area $1$ ha and its length is $4$ times its width. Find the perimeter of the rectangle in metres.
+
+[LỜI GIẢI CŨ – EN]
+The rectangle can be cut into $4$ equal squares, each with area $10\,000\div4=2500\ \text{m}^2$. Since $50\times50=2500$, the side of a square is $50$ m.
+
+The width is $50$ m and the length is $50\times4=200$ m. The perimeter is $(50+200)\times2=500$ (m).
+
+**Answer.** $500$ m.
+
+
+######################################################################
+@@@ g5/subtracting-decimals
+Bài học: Phép trừ số thập phân / Subtracting decimals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $8{,}95-4{,}32$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 8{,}95 \\ -\ 4{,}32 \\ \hline 4{,}63 \end{array}$$
+
+**Đáp số.** $4{,}63$.
+
+[ĐỀ – EN]
+Set out and work out $8.95-4.32$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 8.95 \\ -\ 4.32 \\ \hline 4.63 \end{array}$$
+
+**Answer.** $4.63$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $15{,}7-6{,}9$.
+
+[LỜI GIẢI CŨ – VI]
+$15{,}7-6{,}9=8{,}8$.
+
+**Kiểm tra.** $8{,}8+6{,}9=15{,}7$. Đúng.
+
+**Đáp số.** $8{,}8$.
+
+[ĐỀ – EN]
+Work out $15.7-6.9$.
+
+[LỜI GIẢI CŨ – EN]
+$15.7-6.9=8.8$.
+
+**Check.** $8.8+6.9=15.7$. Correct.
+
+**Answer.** $8.8$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $20{,}5-8{,}76$.
+
+[LỜI GIẢI CŨ – VI]
+$20{,}50-8{,}76=11{,}74$.
+
+**Đáp số.** $11{,}74$.
+
+[ĐỀ – EN]
+Work out $20.5-8.76$.
+
+[LỜI GIẢI CŨ – EN]
+$20.50-8.76=11.74$.
+
+**Answer.** $11.74$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $6-2{,}8$.
+
+[LỜI GIẢI CŨ – VI]
+$6{,}0-2{,}8=3{,}2$.
+
+**Đáp số.** $3{,}2$.
+
+[ĐỀ – EN]
+Work out $6-2.8$.
+
+[LỜI GIẢI CŨ – EN]
+$6.0-2.8=3.2$.
+
+**Answer.** $3.2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $14{,}5-6{,}25 \;\square\; 8{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+$14{,}50-6{,}25=8{,}25$. Vì $8{,}25<8{,}50$ nên $14{,}5-6{,}25<8{,}5$.
+
+**Đáp số.** Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $14.5-6.25 \;\square\; 8.5$.
+
+[LỜI GIẢI CŨ – EN]
+$14.50-6.25=8.25$. Since $8.25<8.50$, we have $14.5-6.25<8.5$.
+
+**Answer.** The sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bao đường nặng $25{,}5$ kg. Cửa hàng bán đi $18{,}75$ kg. Hỏi trong bao còn bao nhiêu ki-lô-gam đường?
+
+[LỜI GIẢI CŨ – VI]
+Số đường còn lại là:
+$$25{,}50-18{,}75=6{,}75\ \text{(kg)}.$$
+
+**Kiểm tra.** $6{,}75+18{,}75=25{,}50$. Đúng.
+
+**Đáp số.** $6{,}75$ kg.
+
+[ĐỀ – EN]
+A sack of sugar weighs $25.5$ kg. A shop sells $18.75$ kg of it. How many kilograms of sugar are left in the sack?
+
+[LỜI GIẢI CŨ – EN]
+The sugar left is:
+$$25.50-18.75=6.75\ \text{(kg)}.$$
+
+**Check.** $6.75+18.75=25.50$. Correct.
+
+**Answer.** $6.75$ kg.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: tính $4{,}75+3{,}6$. Rồi lấy kết quả đó trừ đi $5{,}9$.
+
+[LỜI GIẢI CŨ – VI]
+$4{,}75+3{,}60=8{,}35$. Sau đó $8{,}35-5{,}90=2{,}45$.
+
+**Đáp số.** $2{,}45$.
+
+[ĐỀ – EN]
+Remember the last lesson: work out $4.75+3.6$. Then subtract $5.9$ from your answer.
+
+[LỜI GIẢI CŨ – EN]
+$4.75+3.60=8.35$. Then $8.35-5.90=2.45$.
+
+**Answer.** $2.45$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm $x$, biết $x+3{,}75=10{,}2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x=10{,}2-3{,}75=10{,}20-3{,}75=6{,}45$.
+
+**Kiểm tra.** $6{,}45+3{,}75=10{,}20$. Đúng.
+
+**Đáp số.** $x=6{,}45$.
+
+[ĐỀ – EN]
+Find $x$, given that $x+3.75=10.2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x=10.2-3.75=10.20-3.75=6.45$.
+
+**Check.** $6.45+3.75=10.20$. Correct.
+
+**Answer.** $x=6.45$.
+
+
+######################################################################
+@@@ g5/sum-and-ratio-problems
+Bài học: Tìm hai số khi biết tổng và tỉ số của hai số đó. Tìm hai số khi biết hiệu và tỉ số của hai số đó / Finding two numbers from their sum and ratio. Finding two numbers from their difference and ratio
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tổng của hai số là $56$. Tỉ số của hai số là $\dfrac{3}{4}$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Tổng số phần bằng nhau là $3+4=7$ (phần). Giá trị một phần là $56:7=8$. Số bé là $8\times3=24$. Số lớn là $8\times4=32$.
+
+**Thử lại.** $24+32=56$ và $\dfrac{24}{32}=\dfrac{3}{4}$. Đúng.
+
+**Đáp số.** $24$ và $32$.
+
+[ĐỀ – EN]
+The sum of two numbers is $56$. The ratio of the two numbers is $\dfrac{3}{4}$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The total number of equal parts is $3+4=7$ (parts). The value of one part is $56\div7=8$. The smaller number is $8\times3=24$. The larger number is $8\times4=32$.
+
+**Check.** $24+32=56$ and $\dfrac{24}{32}=\dfrac{3}{4}$. Correct.
+
+**Answer.** $24$ and $32$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tổng của hai số là $90$. Số bé bằng $\dfrac{2}{7}$ số lớn. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Tổng số phần bằng nhau là $2+7=9$ (phần). Giá trị một phần là $90:9=10$. Số bé là $10\times2=20$. Số lớn là $10\times7=70$.
+
+**Đáp số.** $20$ và $70$.
+
+[ĐỀ – EN]
+The sum of two numbers is $90$. The smaller number is $\dfrac{2}{7}$ of the larger number. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The total number of equal parts is $2+7=9$ (parts). The value of one part is $90\div9=10$. The smaller number is $10\times2=20$. The larger number is $10\times7=70$.
+
+**Answer.** $20$ and $70$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giả sử hai thùng chứa tất cả $150$ lít nước. Lượng nước ở thùng thứ nhất bằng $\dfrac{2}{3}$ lượng nước ở thùng thứ hai. Hỏi mỗi thùng chứa bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $150:5=30$ (lít). Thùng thứ nhất chứa $30\times2=60$ (lít). Thùng thứ hai chứa $30\times3=90$ (lít).
+
+**Đáp số.** Thùng thứ nhất $60$ lít; thùng thứ hai $90$ lít.
+
+[ĐỀ – EN]
+Suppose two tanks hold $150$ litres of water altogether. The amount of water in the first tank is $\dfrac{2}{3}$ of the amount in the second tank. How many litres of water does each tank hold?
+
+[LỜI GIẢI CŨ – EN]
+The total number of equal parts is $2+3=5$ (parts). One part is $150\div5=30$ (litres). The first tank holds $30\times2=60$ (litres). The second tank holds $30\times3=90$ (litres).
+
+**Answer.** The first tank holds $60$ litres; the second tank holds $90$ litres.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài ôn tập về hình chữ nhật. Giả sử một sân trường hình chữ nhật có nửa chu vi là $75$ m và chiều rộng bằng $\dfrac{2}{3}$ chiều dài. Tính chiều dài, chiều rộng và diện tích của sân trường.
+
+[LỜI GIẢI CŨ – VI]
+Chiều rộng có $2$ phần, chiều dài có $3$ phần. Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $75:5=15$ (m). Chiều rộng là $15\times2=30$ (m). Chiều dài là $15\times3=45$ (m).
+
+Diện tích sân trường là $45\times30=1350\ \text{(m}^2\text{)}$.
+
+**Đáp số.** Chiều dài $45$ m; chiều rộng $30$ m; diện tích $1350\ \text{m}^2$.
+
+[ĐỀ – EN]
+Remember the review lesson on rectangles. Suppose a school playground is a rectangle with half-perimeter $75$ m, and its width is $\dfrac{2}{3}$ of its length. Find the length, the width and the area of the playground.
+
+[LỜI GIẢI CŨ – EN]
+The width has $2$ parts and the length has $3$ parts. The total number of equal parts is $2+3=5$ (parts). One part is $75\div5=15$ (m). The width is $15\times2=30$ (m). The length is $15\times3=45$ (m).
+
+The area of the playground is $45\times30=1350\ \text{(m}^2\text{)}$.
+
+**Answer.** Length $45$ m; width $30$ m; area $1350\ \text{m}^2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hiệu của hai số là $15$. Tỉ số của số bé và số lớn là $\dfrac{2}{5}$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Hiệu số phần bằng nhau là $5-2=3$ (phần). Giá trị một phần là $15:3=5$. Số bé là $5\times2=10$. Số lớn là $5\times5=25$.
+
+**Thử lại.** $25-10=15$ và $\dfrac{10}{25}=\dfrac{2}{5}$. Đúng.
+
+**Đáp số.** $10$ và $25$.
+
+[ĐỀ – EN]
+The difference of two numbers is $15$. The ratio of the smaller number to the larger number is $\dfrac{2}{5}$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The difference in the number of equal parts is $5-2=3$ (parts). The value of one part is $15\div3=5$. The smaller number is $5\times2=10$. The larger number is $5\times5=25$.
+
+**Check.** $25-10=15$ and $\dfrac{10}{25}=\dfrac{2}{5}$. Correct.
+
+**Answer.** $10$ and $25$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hiệu của hai số là $48$. Tỉ số của số lớn và số bé là $\dfrac{7}{3}$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Hiệu số phần bằng nhau là $7-3=4$ (phần). Giá trị một phần là $48:4=12$. Số lớn là $12\times7=84$. Số bé là $12\times3=36$.
+
+**Đáp số.** Số lớn $84$; số bé $36$.
+
+[ĐỀ – EN]
+The difference of two numbers is $48$. The ratio of the larger number to the smaller number is $\dfrac{7}{3}$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The difference in the number of equal parts is $7-3=4$ (parts). The value of one part is $48\div4=12$. The larger number is $12\times7=84$. The smaller number is $12\times3=36$.
+
+**Answer.** The larger number is $84$; the smaller number is $36$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một cửa hàng có số gạo nếp ít hơn số gạo tẻ $120$ kg. Số gạo nếp bằng $\dfrac{3}{8}$ số gạo tẻ. Hỏi cửa hàng có bao nhiêu ki-lô-gam gạo mỗi loại?
+
+[LỜI GIẢI CŨ – VI]
+Hiệu số phần bằng nhau là $8-3=5$ (phần). Một phần là $120:5=24$ (kg). Gạo nếp là $24\times3=72$ (kg). Gạo tẻ là $24\times8=192$ (kg).
+
+**Kiểm tra.** $192-72=120$. Đúng.
+
+**Đáp số.** Gạo nếp $72$ kg; gạo tẻ $192$ kg.
+
+[ĐỀ – EN]
+Suppose a shop has $120$ kg less sticky rice than ordinary rice. The mass of sticky rice is $\dfrac{3}{8}$ of the mass of ordinary rice. How many kilograms of each kind of rice does the shop have?
+
+[LỜI GIẢI CŨ – EN]
+The difference in the number of equal parts is $8-3=5$ (parts). One part is $120\div5=24$ (kg). The sticky rice is $24\times3=72$ (kg). The ordinary rice is $24\times8=192$ (kg).
+
+**Check.** $192-72=120$. Correct.
+
+**Answer.** Sticky rice $72$ kg; ordinary rice $192$ kg.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử bố hơn con $30$ tuổi và tuổi bố gấp $6$ lần tuổi con. Hỏi bố bao nhiêu tuổi, con bao nhiêu tuổi?
+
+[LỜI GIẢI CŨ – VI]
+Hiệu số phần bằng nhau là $6-1=5$ (phần). Một phần là $30:5=6$ (tuổi). Tuổi con là $6$ tuổi. Tuổi bố là $6\times6=36$ (tuổi).
+
+**Đáp số.** Con $6$ tuổi; bố $36$ tuổi.
+
+[ĐỀ – EN]
+Suppose a father is $30$ years older than his child and the father's age is $6$ times the child's age. How old are the father and the child?
+
+[LỜI GIẢI CŨ – EN]
+The difference in the number of equal parts is $6-1=5$ (parts). One part is $30\div5=6$ (years). The child's age is $6$ years. The father's age is $6\times6=36$ (years).
+
+**Answer.** The child is $6$ years old; the father is $36$ years old.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài về tỉ số và tỉ số phần trăm. Một lớp có $40$ học sinh, trong đó số học sinh nữ chiếm $55\%$. a) Tìm số học sinh nữ và số học sinh nam. b) Viết tỉ số của số học sinh nam và số học sinh nữ dưới dạng phân số tối giản, rồi giải lại bài toán bằng cách tìm hai số khi biết tổng và tỉ số để kiểm tra.
+
+[LỜI GIẢI CŨ – VI]
+a) Số học sinh nữ là $40\times\dfrac{55}{100}=22$ (học sinh). Số học sinh nam là $40-22=18$ (học sinh).
+
+b) Tỉ số của số nam và số nữ là $\dfrac{18}{22}=\dfrac{9}{11}$. Tổng số phần bằng nhau là $9+11=20$ (phần), một phần là $40:20=2$ (học sinh). Số nam là $2\times9=18$ và số nữ là $2\times11=22$, giống kết quả ở câu a).
+
+**Đáp số.** a) $22$ nữ, $18$ nam; b) tỉ số $\dfrac{9}{11}$, kết quả khớp.
+
+[ĐỀ – EN]
+Remember the lesson on ratios and percentages. A class has $40$ students, and the girls make up $55\%$ of the class. a) Find the number of girls and the number of boys. b) Write the ratio of the number of boys to the number of girls as a fraction in its simplest form, then solve the problem again by finding two numbers from their sum and ratio, to check.
+
+[LỜI GIẢI CŨ – EN]
+a) The number of girls is $40\times\dfrac{55}{100}=22$ (students). The number of boys is $40-22=18$ (students).
+
+b) The ratio of boys to girls is $\dfrac{18}{22}=\dfrac{9}{11}$. The total number of equal parts is $9+11=20$ (parts) and one part is $40\div20=2$ (students). The number of boys is $2\times9=18$ and the number of girls is $2\times11=22$, the same as in part a).
+
+**Answer.** a) $22$ girls, $18$ boys; b) the ratio is $\dfrac{9}{11}$ and the results agree.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tổng của hai số là $91$. Biết $\dfrac{1}{3}$ số thứ nhất bằng $\dfrac{1}{4}$ số thứ hai. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số thứ nhất có $3$ phần và số thứ hai có $4$ phần như thế. Tổng số phần bằng nhau là $3+4=7$ (phần). Một phần là $91:7=13$. Số thứ nhất là $13\times3=39$. Số thứ hai là $13\times4=52$.
+
+**Thử lại.** $39+52=91$; $39:3=13$ và $52:4=13$. Đúng.
+
+**Đáp số.** $39$ và $52$.
+
+[ĐỀ – EN]
+The sum of two numbers is $91$. We know that $\dfrac{1}{3}$ of the first number equals $\dfrac{1}{4}$ of the second number. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The first number has $3$ parts and the second number has $4$ parts of the same size. The total number of equal parts is $3+4=7$ (parts). One part is $91\div7=13$. The first number is $13\times3=39$. The second number is $13\times4=52$.
+
+**Check.** $39+52=91$; $39\div3=13$ and $52\div4=13$. Correct.
+
+**Answer.** $39$ and $52$.
+
+
+######################################################################
+@@@ g5/surface-area-of-a-cube
+Bài học: Diện tích xung quanh và diện tích toàn phần của hình lập phương / Lateral and total surface area of a cube
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính diện tích xung quanh của hình lập phương có cạnh $4$ cm.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích một mặt là $4\times4=16\ (\text{cm}^2)$. Diện tích xung quanh là:
+$$16\times4=64\ (\text{cm}^2).$$
+
+**Đáp số.** $64\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Find the lateral surface area of a cube with edge $4$ cm.
+
+[LỜI GIẢI CŨ – EN]
+The area of one face is $4\times4=16\ (\text{cm}^2)$. The lateral surface area is:
+$$16\times4=64\ (\text{cm}^2).$$
+
+**Answer.** $64\ \text{cm}^2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính diện tích toàn phần của hình lập phương có cạnh $7$ cm.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích một mặt là $7\times7=49\ (\text{cm}^2)$. Diện tích toàn phần là:
+$$49\times6=294\ (\text{cm}^2).$$
+
+**Đáp số.** $294\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Find the total surface area of a cube with edge $7$ cm.
+
+[LỜI GIẢI CŨ – EN]
+The area of one face is $7\times7=49\ (\text{cm}^2)$. The total surface area is:
+$$49\times6=294\ (\text{cm}^2).$$
+
+**Answer.** $294\ \text{cm}^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hình lập phương có cạnh $0{,}5$ m. Tính:
+
+a) diện tích xung quanh;
+
+b) diện tích toàn phần.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích một mặt là $0{,}5\times0{,}5=0{,}25\ (\text{m}^2)$.
+
+a) $S_{\text{xq}}=0{,}25\times4=1\ (\text{m}^2)$.
+
+b) $S_{\text{tp}}=0{,}25\times6=1{,}5\ (\text{m}^2)$.
+
+**Đáp số.** a) $1\ \text{m}^2$; b) $1{,}5\ \text{m}^2$.
+
+[ĐỀ – EN]
+A cube has an edge of $0.5$ m. Find:
+
+a) the lateral surface area;
+
+b) the total surface area.
+
+[LỜI GIẢI CŨ – EN]
+The area of one face is $0.5\times0.5=0.25\ (\text{m}^2)$.
+
+a) $S_{\text{lat}}=0.25\times4=1\ (\text{m}^2)$.
+
+b) $S_{\text{total}}=0.25\times6=1.5\ (\text{m}^2)$.
+
+**Answer.** a) $1\ \text{m}^2$; b) $1.5\ \text{m}^2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Mỗi mặt của một viên xúc xắc hình lập phương có diện tích $9\ \text{cm}^2$. Tính diện tích toàn phần của viên xúc xắc.
+
+[LỜI GIẢI CŨ – VI]
+Viên xúc xắc có $6$ mặt bằng nhau, nên:
+$$S_{\text{tp}}=9\times6=54\ (\text{cm}^2).$$
+
+**Đáp số.** $54\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Each face of a cube-shaped dice has an area of $9\ \text{cm}^2$. Find the total surface area of the dice.
+
+[LỜI GIẢI CŨ – EN]
+The dice has $6$ equal faces, so:
+$$S_{\text{total}}=9\times6=54\ (\text{cm}^2).$$
+
+**Answer.** $54\ \text{cm}^2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bạn Lan dán giấy kín toàn bộ một hộp quà hình lập phương cạnh $12$ cm (không tính phần giấy chồng mép). Hỏi Lan cần bao nhiêu xăng-ti-mét vuông giấy?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích một mặt là $12\times12=144\ (\text{cm}^2)$. Diện tích giấy cần dùng là:
+$$144\times6=864\ (\text{cm}^2).$$
+
+**Đáp số.** $864\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Lan covers the whole of a cube-shaped gift box with paper (ignoring any overlap). The edge of the box is $12$ cm. How many square centimetres of paper does she need?
+
+[LỜI GIẢI CŨ – EN]
+The area of one face is $12\times12=144\ (\text{cm}^2)$. The paper needed is:
+$$144\times6=864\ (\text{cm}^2).$$
+
+**Answer.** $864\ \text{cm}^2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan sơn $4$ mặt bên của một khối gỗ hình lập phương cạnh $15$ cm; hai mặt đáy không sơn. Hỏi diện tích được sơn là bao nhiêu xăng-ti-mét vuông?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích một mặt là $15\times15=225\ (\text{cm}^2)$. Diện tích được sơn là:
+$$225\times4=900\ (\text{cm}^2).$$
+
+**Đáp số.** $900\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Lan paints the $4$ side faces of a cube-shaped block of wood with edge $15$ cm; the two bases are not painted. How many square centimetres are painted?
+
+[LỜI GIẢI CŨ – EN]
+The area of one face is $15\times15=225\ (\text{cm}^2)$. The painted area is:
+$$225\times4=900\ (\text{cm}^2).$$
+
+**Answer.** $900\ \text{cm}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Hộp chữ nhật $A$ có chiều dài $8$ cm, chiều rộng $5$ cm, chiều cao $4$ cm. Hộp lập phương $B$ có cạnh $6$ cm. Hộp nào có diện tích toàn phần lớn hơn, và lớn hơn bao nhiêu xăng-ti-mét vuông?
+
+[LỜI GIẢI CŨ – VI]
+Hộp $A$: chu vi đáy là $(8+5)\times2=26\ (\text{cm})$, nên $S_{\text{xq}}=26\times4=104\ (\text{cm}^2)$. Diện tích một đáy là $8\times5=40\ (\text{cm}^2)$, nên $S_{\text{tp}}=104+40\times2=184\ (\text{cm}^2)$.
+
+Hộp $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+Vì $216>184$ nên hộp $B$ lớn hơn, và $216-184=32\ (\text{cm}^2)$.
+
+**Đáp số.** Hộp lập phương $B$ lớn hơn, lớn hơn $32\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Remember the last lesson. Cuboid $A$ is $8$ cm long, $5$ cm wide and $4$ cm high. Cube $B$ has an edge of $6$ cm. Which one has the larger total surface area, and by how many square centimetres?
+
+[LỜI GIẢI CŨ – EN]
+Cuboid $A$: the perimeter of the base is $(8+5)\times2=26\ (\text{cm})$, so $S_{\text{lat}}=26\times4=104\ (\text{cm}^2)$. One base has area $8\times5=40\ (\text{cm}^2)$, so $S_{\text{total}}=104+40\times2=184\ (\text{cm}^2)$.
+
+Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+Since $216>184$, cube $B$ is larger, and $216-184=32\ (\text{cm}^2)$.
+
+**Answer.** Cube $B$ is larger, by $32\ \text{cm}^2$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hình lập phương $A$ có cạnh $3$ cm. Hình lập phương $B$ có cạnh $6$ cm, gấp đôi cạnh của $A$. Diện tích toàn phần của $B$ gấp mấy lần diện tích toàn phần của $A$?
+
+[LỜI GIẢI CŨ – VI]
+Hình $A$: $S_{\text{tp}}=3\times3\times6=54\ (\text{cm}^2)$.
+
+Hình $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+Ta có $216:54=4$. Cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì diện tích mỗi mặt tính bằng cạnh nhân cạnh.
+
+**Đáp số.** Gấp $4$ lần.
+
+[ĐỀ – EN]
+Cube $A$ has an edge of $3$ cm. Cube $B$ has an edge of $6$ cm, twice the edge of $A$. How many times as large as the total surface area of $A$ is the total surface area of $B$?
+
+[LỜI GIẢI CŨ – EN]
+Cube $A$: $S_{\text{total}}=3\times3\times6=54\ (\text{cm}^2)$.
+
+Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+We have $216\div54=4$. The edge is doubled but the area is $4$ times as large, because the area of each face is the edge times the edge.
+
+**Answer.** $4$ times as large.
+
+
+===== HẾT FILE Vimus2358-LG-3 =====

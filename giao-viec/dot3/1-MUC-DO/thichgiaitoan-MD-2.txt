@@ -1,0 +1,801 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-MD-2   |   VIỆC: gắn mức độ nhận thức (MD-18)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-MD-2-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-18 – gắn mức độ nhận thức cho 91 câu hỏi (Lớp 10 → Lớp 10)
+
+Tài khoản thực hiện: thichgiaitoan
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-18 (91 câu)
+
+## Các câu hỏi
+
+### M303 · Lớp 10 · Tổng và hiệu của hai vectơ
+
+[M303.1] Nhiều lựa chọn
+Với ba điểm bất kì $A$, $B$, $C$, vectơ $\overrightarrow{AB}+\overrightarrow{CA}$ bằng
+A. $\vec{0}$.
+B. $\overrightarrow{BC}$.
+C. $\overrightarrow{AC}$.
+D. $\overrightarrow{CB}$.
+::key D
+Đổi chỗ để điểm cuối vectơ trước là điểm đầu vectơ sau: $\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$. Phương án B viết ngược hướng.
+
+[M303.2] Nhiều lựa chọn
+Với hai điểm $A$, $B$ và điểm $M$ bất kì, $\overrightarrow{MA}-\overrightarrow{MB}$ bằng
+A. $\overrightarrow{BA}$.
+B. $\overrightarrow{AB}$.
+C. $\vec{0}$.
+D. $2\overrightarrow{MA}$.
+::key A
+Hiệu của hai vectơ chung điểm đầu là vectơ nối hai điểm cuối, hướng về điểm cuối của vectơ thứ nhất: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Phương án B là lỗi đổi thứ tự.
+
+[M303.3] Nhiều lựa chọn
+Hình vuông $ABCD$ có cạnh $3$. Độ dài của $\overrightarrow{AB}+\overrightarrow{AD}$ là
+A. $6$.
+B. $3$.
+C. $3\sqrt2$.
+D. $0$.
+::key C
+Theo quy tắc hình bình hành, $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, và $AC=\sqrt{3^2+3^2}=3\sqrt2$. Phương án A cộng thẳng hai độ dài.
+
+[M303.4] Nhiều lựa chọn
+Cho $M$ là trung điểm của đoạn thẳng $AB$. Khẳng định nào sau đây đúng?
+A. $\overrightarrow{MA}=\overrightarrow{MB}$.
+B. $\overrightarrow{MA}+\overrightarrow{MB}=\vec{0}$.
+C. $\overrightarrow{AM}+\overrightarrow{BM}=\overrightarrow{AB}$.
+D. $\overrightarrow{MA}-\overrightarrow{MB}=\vec{0}$.
+::key B
+$\overrightarrow{MA}$ và $\overrightarrow{MB}$ cùng độ dài, ngược hướng nên là hai vectơ đối, tổng bằng $\vec{0}$. Phương án A và D coi hai vectơ đối là bằng nhau; ở C thực ra $\overrightarrow{AM}+\overrightarrow{BM}=\vec{0}$.
+
+[M303.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chữ nhật $ABCD$ có $AB=3$, $AD=4$ và tâm $O$.
+a) $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$.
+b) $|\overrightarrow{AB}-\overrightarrow{AD}|=1$.
+c) $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0}$.
+d) $|\overrightarrow{AB}+\overrightarrow{CD}|=6$.
+::key Đ S Đ S
+a) Đúng: quy tắc hình bình hành. b) Sai: $\overrightarrow{AB}-\overrightarrow{AD}=\overrightarrow{DB}$ có độ dài $5$, không phải $4-3$. c) Đúng: $O$ là trung điểm của $AC$ và của $BD$. d) Sai: $\overrightarrow{CD}=-\overrightarrow{AB}$ nên tổng bằng $\vec{0}$, độ dài $0$.
+
+[M303.6] Trả lời ngắn
+Hình vuông $ABCD$ có cạnh $6$. Tính $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AC}|$ (làm tròn đến hàng đơn vị).
+::key 17
+$\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, nên tổng bằng $\overrightarrow{AC}+\overrightarrow{AC}$, một vectơ cùng hướng với $\overrightarrow{AC}$ và dài gấp đôi: $2\cdot6\sqrt2=12\sqrt2\approx16{,}97$, làm tròn được $17$.
+
+[M303.7] Trả lời ngắn
+Hai lực có độ lớn $30$ N và $40$ N cùng tác động vào một điểm và tạo với nhau góc $60^\circ$. Tính độ lớn của hợp lực theo niutơn (làm tròn đến hàng đơn vị).
+::key 61
+Hợp lực là đường chéo của hình bình hành dựng trên hai lực; trong tam giác tạo bởi hai cạnh $30$, $40$ và đường chéo, góc xen giữa là $180^\circ-60^\circ=120^\circ$. Theo định lí côsin, $F^2=900+1600-2\cdot30\cdot40\cos120^\circ=3700$, nên $F\approx60{,}8$, làm tròn được $61$ N.
+
+### M304 · Lớp 10 · Tích của một vectơ với một số
+
+[M304.1] Nhiều lựa chọn
+Cho $|\vec{a}|=4$. Độ dài của vectơ $-3\vec{a}$ là
+A. $12$.
+B. $-12$.
+C. $7$.
+D. $1$.
+::key A
+$|-3\vec{a}|=|-3|\cdot|\vec{a}|=3\cdot4=12$. Độ dài không bao giờ âm, nên phương án B (quên giá trị tuyệt đối) sai.
+
+[M304.2] Nhiều lựa chọn
+Rút gọn $2(\vec{a}+\vec{b})-3(\vec{a}-\vec{b})$ ta được
+A. $-\vec{a}-\vec{b}$.
+B. $-\vec{a}+5\vec{b}$.
+C. $5\vec{a}-\vec{b}$.
+D. $-\vec{a}+\vec{b}$.
+::key B
+$2\vec{a}+2\vec{b}-3\vec{a}+3\vec{b}=-\vec{a}+5\vec{b}$. Phương án A quên đổi dấu: $-3\cdot(-\vec{b})=+3\vec{b}$.
+
+[M304.3] Nhiều lựa chọn
+Cho $\vec{a}$, $\vec{b}$ không cùng phương. Vectơ nào sau đây cùng phương với $\vec{u}=2\vec{a}-3\vec{b}$?
+A. $4\vec{a}+6\vec{b}$.
+B. $2\vec{a}+3\vec{b}$.
+C. $-4\vec{a}+6\vec{b}$.
+D. $-2\vec{a}-6\vec{b}$.
+::key C
+$-4\vec{a}+6\vec{b}=-2(2\vec{a}-3\vec{b})=-2\vec{u}$. Các phương án khác không viết được dạng $k\vec{u}$: hai hệ số không cùng tỉ lệ (A, B sai dấu một hệ số, D nhân hai hệ số với hai số khác nhau).
+
+[M304.4] Nhiều lựa chọn
+Cho tam giác $ABC$ và $M$ là trung điểm của $BC$. Khẳng định nào sau đây đúng?
+A. $\overrightarrow{AM}=\overrightarrow{AB}+\overrightarrow{AC}$.
+B. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}-\overrightarrow{AC})$.
+C. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AC}-\overrightarrow{AB})$.
+D. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}+\overrightarrow{AC})$.
+::key D
+Công thức trung điểm với điểm $O=A$: $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}$. Phương án A quên chia $2$; phương án C thực ra bằng $\dfrac12\overrightarrow{BC}$.
+
+[M304.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ và điểm $D$ thuộc cạnh $BC$ sao cho $\overrightarrow{BD}=3\overrightarrow{DC}$.
+a) $\overrightarrow{BD}=\dfrac34\overrightarrow{BC}$.
+b) $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
+c) $\overrightarrow{DB}=-3\overrightarrow{DC}$.
+d) $BD=3DC$.
+::key Đ S Đ Đ
+a) Đúng: $BC=BD+DC=4DC$ nên $BD=\dfrac34BC$, cùng hướng. b) Sai: $\overrightarrow{AD}=\overrightarrow{AB}+\dfrac34(\overrightarrow{AC}-\overrightarrow{AB})=\dfrac14\overrightarrow{AB}+\dfrac34\overrightarrow{AC}$ (hai hệ số bị đổi chỗ). c) Đúng: $\overrightarrow{DB}=-\overrightarrow{BD}=-3\overrightarrow{DC}$. d) Đúng: lấy độ dài hai vế.
+
+[M304.6] Trả lời ngắn
+Cho $\vec{a}$, $\vec{b}$ không cùng phương, $\vec{u}=3\vec{a}-2\vec{b}$ và $\vec{v}=k\vec{a}+4\vec{b}$. Tìm số $k$ để $\vec{u}$ và $\vec{v}$ cùng phương.
+::key -6
+Ta cần $\vec{v}=t\vec{u}$: so sánh hệ số của $\vec{b}$ được $-2t=4$, tức $t=-2$. Khi đó $k=3t=-6$.
+
+[M304.7] Trả lời ngắn
+Tam giác $ABC$ có $AB=4$, $AC=6$, $\widehat{BAC}=60^\circ$ và trọng tâm $G$. Tính $AG$ (làm tròn đến hàng phần mười).
+::key 2,9
+Với $M$ là trung điểm của $BC$: $\overrightarrow{AG}=\dfrac23\overrightarrow{AM}=\dfrac13(\overrightarrow{AB}+\overrightarrow{AC})$. Dựng hình bình hành $ABDC$ thì $AD^2=4^2+6^2-2\cdot4\cdot6\cos120^\circ=76$, nên $AG=\dfrac{AD}{3}=\dfrac{\sqrt{76}}{3}\approx2{,}91$, làm tròn được $2{,}9$.
+
+### M305 · Lớp 10 · Vectơ trong mặt phẳng toạ độ
+
+[M305.1] Nhiều lựa chọn
+Cho $A(2; -1)$ và $B(-1; 3)$. Toạ độ của $\overrightarrow{AB}$ là
+A. $(-3; 4)$.
+B. $(3; -4)$.
+C. $(1; 2)$.
+D. $(-3; 2)$.
+::key A
+Điểm cuối trừ điểm đầu: $\overrightarrow{AB}=(-1-2;\ 3-(-1))=(-3; 4)$. Phương án B là $\overrightarrow{BA}$ (trừ ngược thứ tự); phương án C cộng toạ độ.
+
+[M305.2] Nhiều lựa chọn
+Độ dài của vectơ $\vec{a}=(-5; 12)$ là
+A. $7$.
+B. $13$.
+C. $17$.
+D. $\sqrt{119}$.
+::key B
+$|\vec{a}|=\sqrt{(-5)^2+12^2}=\sqrt{169}=13$. Phương án A, C cộng thẳng hai toạ độ; phương án D lấy $144-25$.
+
+[M305.3] Nhiều lựa chọn
+Trọng tâm của tam giác có các đỉnh $A(1; 4)$, $B(3; -2)$, $C(5; 7)$ là
+A. $G(4{,}5; 4{,}5)$.
+B. $G(9; 9)$.
+C. $G(3; 3)$.
+D. $G(2; 1)$.
+::key C
+$G\left(\dfrac{1+3+5}{3};\ \dfrac{4-2+7}{3}\right)=G(3; 3)$. Phương án B quên chia, A chia cho $2$ thay vì $3$, D là trung điểm của $AB$.
+
+[M305.4] Nhiều lựa chọn
+Vectơ nào sau đây cùng phương với $\vec{u}=(2; -3)$?
+A. $(3; -2)$.
+B. $(4; 6)$.
+C. $(-2; -3)$.
+D. $(-4; 6)$.
+::key D
+$(-4; 6)=-2(2; -3)$; kiểm tra: $2\cdot6-(-4)\cdot(-3)=12-12=0$. Phương án A đổi chỗ hai toạ độ; B và C sai dấu một toạ độ.
+
+[M305.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A(0; 2)$, $B(4; 0)$, $C(6; 4)$.
+a) $\overrightarrow{AB}=(4; -2)$.
+b) $AC=2\sqrt5$.
+c) Trung điểm của $AC$ là $(3; 3)$.
+d) Nếu $ABCD$ là hình bình hành thì $D(10; 2)$.
+::key Đ S Đ S
+a) Đúng: $(4-0;\ 0-2)$. b) Sai: $\overrightarrow{AC}=(6; 2)$ nên $AC=\sqrt{40}=2\sqrt{10}$ ($2\sqrt5$ là $AB$). c) Đúng: $\left(\dfrac{0+6}{2};\ \dfrac{2+4}{2}\right)$. d) Sai: từ $\overrightarrow{AB}=\overrightarrow{DC}$ ta được $D(2; 6)$; điểm $(10; 2)$ cho hình bình hành $ABDC$.
+
+[M305.6] Trả lời ngắn
+Tính khoảng cách giữa hai điểm $A(-1; 2)$ và $B(5; -6)$.
+::key 10
+$\overrightarrow{AB}=(6; -8)$, nên $AB=\sqrt{36+64}=\sqrt{100}=10$.
+
+[M305.7] Trả lời ngắn
+Cho $A(2; 1)$ và $B(6; 4)$. Đường thẳng $AB$ cắt trục $Oy$ tại điểm $M$. Tìm tung độ của $M$.
+::key -0,5
+$M(0; t)$. Cần $\overrightarrow{AM}=(-2;\ t-1)$ cùng phương với $\overrightarrow{AB}=(4; 3)$: $(-2)\cdot3-4(t-1)=0\iff 4t=-2\iff t=-0{,}5$.
+
+### M306 · Lớp 10 · Tích vô hướng của hai vectơ
+
+[M306.1] Nhiều lựa chọn
+Cho $|\vec a|=4$, $|\vec b|=5$ và $(\vec a, \vec b)=120^\circ$. Tích vô hướng $\vec a\cdot\vec b$ bằng
+A. $10$.
+B. $-10$.
+C. $20$.
+D. $-10\sqrt3$.
+::key B
+$\vec a\cdot\vec b=4\cdot5\cdot\cos120^\circ=20\cdot\left(-\dfrac12\right)=-10$. Phương án A quên dấu âm của $\cos120^\circ$; C quên nhân với côsin.
+
+[M306.2] Nhiều lựa chọn
+Cho $\vec a=(2; -3)$ và $\vec b=(4; 1)$. Khi đó $\vec a\cdot\vec b$ bằng
+A. $5$.
+B. $(8; -3)$.
+C. $11$.
+D. $-5$.
+::key A
+$\vec a\cdot\vec b=2\cdot4+(-3)\cdot1=8-3=5$. Tích vô hướng là một số, không phải vectơ (phương án B).
+
+[M306.3] Nhiều lựa chọn
+Vectơ nào sau đây vuông góc với $\vec a=(3; -2)$?
+A. $(2; 3)$.
+B. $(3; 2)$.
+C. $(-3; 2)$.
+D. $(2; -3)$.
+::key A
+$3\cdot2+(-2)\cdot3=0$. Với B, C, D tích vô hướng lần lượt là $5$, $-13$, $12$, đều khác $0$; vectơ ở C ngược hướng với $\vec a$.
+
+[M306.4] Nhiều lựa chọn
+Tam giác $ABC$ đều có cạnh bằng $2$. Tích vô hướng $\overrightarrow{AB}\cdot\overrightarrow{BC}$ bằng
+A. $2$.
+B. $-2$.
+C. $4$.
+D. $2\sqrt3$.
+::key B
+Hai vectơ không chung gốc; dời $\overrightarrow{AB}$ về gốc $B$ thì góc giữa chúng là $180^\circ-60^\circ=120^\circ$. Vậy tích bằng $2\cdot2\cdot\cos120^\circ=-2$. Phương án A lấy nhầm góc $\widehat{ABC}=60^\circ$.
+
+[M306.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong mặt phẳng toạ độ, cho $A(1; 1)$, $B(4; 2)$, $C(2; 4)$.
+a) $\overrightarrow{AB}\cdot\overrightarrow{AC}=6$.
+b) Tam giác $ABC$ cân tại $A$.
+c) $\widehat{BAC}=60^\circ$.
+d) Góc $\widehat{ABC}$ là góc tù.
+::key Đ Đ S S
+$\overrightarrow{AB}=(3; 1)$, $\overrightarrow{AC}=(1; 3)$. a) Đúng: $3+3=6$. b) Đúng: $AB=AC=\sqrt{10}$. c) Sai: $\cos A=\dfrac{6}{10}=0{,}6\ne\dfrac12$ (góc $A\approx53{,}1^\circ$). d) Sai: $\overrightarrow{BA}\cdot\overrightarrow{BC}=(-3)(-2)+(-1)\cdot2=4>0$ nên góc $B$ nhọn.
+
+[M306.6] Trả lời ngắn
+Cho $|\vec a|=3$, $|\vec b|=4$ và $(\vec a, \vec b)=60^\circ$. Tính $|\vec a+\vec b|$ (làm tròn đến hàng phần trăm).
+::key 6,08
+$\vec a\cdot\vec b=3\cdot4\cdot\dfrac12=6$, nên $|\vec a+\vec b|^2=9+2\cdot6+16=37$ và $|\vec a+\vec b|=\sqrt{37}\approx6{,}08$.
+
+[M306.7] Trả lời ngắn
+Một người kéo một thùng hàng trượt trên sàn bằng một sợi dây với lực $50$ N; dây hợp với hướng chuyển động một góc $40^\circ$. Thùng hàng di chuyển được $10$ m. Tính công của lực kéo (đơn vị: J, làm tròn đến hàng đơn vị).
+::key 383
+$W=\vec F\cdot\vec d=50\cdot10\cdot\cos40^\circ\approx383$ (J).
+
+### M307 · Lớp 10 · Số gần đúng và sai số
+
+[M307.1] Nhiều lựa chọn
+Chiều dài của một chiếc bút là $a=12{,}5\pm0{,}3$ (cm). Khẳng định nào sau đây đúng?
+A. $12{,}2\le a\le12{,}8$.
+B. $12{,}47\le a\le12{,}53$.
+C. $12{,}5\le a\le12{,}8$.
+D. $12{,}2\le a\le12{,}5$.
+::key A
+$a=\bar a\pm d$ nghĩa là $\bar a-d\le a\le\bar a+d$, tức là $12{,}5-0{,}3\le a\le12{,}5+0{,}3$. Phải trừ và cộng cả hai phía, không chỉ một phía.
+
+[M307.2] Nhiều lựa chọn
+Quy tròn số $52\,846$ đến hàng trăm, ta được
+A. $52\,800$.
+B. $52\,900$.
+C. $52\,850$.
+D. $53\,000$.
+::key A
+Chữ số hàng chục là $4<5$ nên giữ nguyên hàng trăm: $52\,800$. Phương án B là lỗi quy tròn "nối tiếp" $52\,846\to52\,850\to52\,900$.
+
+[M307.3] Nhiều lựa chọn
+Số gần đúng $\bar a=40$ có độ chính xác $d=0{,}2$. Sai số tương đối của $\bar a$ không vượt quá
+A. $0{,}2\%$.
+B. $0{,}5\%$.
+C. $5\%$.
+D. $200\%$.
+::key B
+$\delta_{\bar a}\le\dfrac{d}{|\bar a|}=\dfrac{0{,}2}{40}=0{,}005=0{,}5\%$. Phương án A lấy nhầm $d$ làm sai số tương đối; D lấy $\dfrac{40}{0{,}2}$.
+
+[M307.4] Nhiều lựa chọn
+Số quy tròn của số gần đúng $\bar a=1\,734\,562$ với độ chính xác $d=300$ là
+A. $1\,734\,600$.
+B. $1\,735\,000$.
+C. $1\,734\,000$.
+D. $1\,730\,000$.
+::key B
+Hàng trăm có đơn vị $100<300$, hàng nghìn có đơn vị $1000>300$, nên quy tròn đến hàng nghìn. Chữ số hàng trăm là $5\ge5$ nên được $1\,735\,000$ (C là lỗi bỏ bớt chữ số mà không quy tròn).
+
+[M307.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Biết $\sqrt5=2{,}2360679\ldots$ Lấy $\bar a=2{,}24$ làm số gần đúng của $\sqrt5$.
+a) Sai số tuyệt đối của $\bar a$ nhỏ hơn $0{,}004$.
+b) Có thể viết $\sqrt5=2{,}24\pm0{,}003$.
+c) Với độ chính xác $d=0{,}004$, sai số tương đối của $\bar a$ không vượt quá $0{,}2\%$.
+d) Quy tròn $\sqrt5$ đến hàng phần nghìn ta được $2{,}237$.
+::key Đ S Đ S
+a) Đúng: $2{,}24-2{,}2360679\ldots=0{,}0039\ldots<0{,}004$. b) Sai: sai số thật $0{,}0039\ldots$ lớn hơn $0{,}003$. c) Đúng: $\dfrac{0{,}004}{2{,}24}\approx0{,}18\%$. d) Sai: quy tròn đến hàng phần nghìn, chữ số sau là $0<5$, nên được $2{,}236$.
+
+[M307.6] Trả lời ngắn
+Một bao gạo cân được $49{,}6$ kg với độ chính xác $0{,}2$ kg. Khối lượng thật của bao gạo lớn nhất có thể là bao nhiêu ki-lô-gam?
+::key 49,8
+Khối lượng thật $a$ thoả mãn $49{,}6-0{,}2\le a\le49{,}6+0{,}2$, nên lớn nhất là $49{,}8$ kg.
+
+[M307.7] Trả lời ngắn
+Đo chiều dài một chiếc lá nhiều lần, mọi kết quả đều nằm giữa $7{,}42$ cm và $7{,}58$ cm. Lấy $\bar a$ là trung điểm của đoạn này. Sai số tương đối của $\bar a$ không vượt quá bao nhiêu phần trăm? (Làm tròn đến hàng phần trăm.)
+::key 1,07
+$\bar a=\dfrac{7{,}42+7{,}58}{2}=7{,}5$ và $d=\dfrac{7{,}58-7{,}42}{2}=0{,}08$, nên $\delta\le\dfrac{0{,}08}{7{,}5}\approx1{,}07\%$.
+
+### M308 · Lớp 10 · Các số đặc trưng đo xu thế trung tâm
+
+[M308.1] Nhiều lựa chọn
+Số trung bình cộng của mẫu số liệu $2, 5, 6, 9, 13$ là
+A. $6$.
+B. $7$.
+C. $8{,}75$.
+D. $35$.
+::key B
+Tổng bằng $35$, có $5$ giá trị nên $\bar x=\dfrac{35}{5}=7$. Phương án A là trung vị, C là chia nhầm cho $4$, D là tổng chưa chia.
+
+[M308.2] Nhiều lựa chọn
+Trung vị của mẫu số liệu $9, 2, 13, 4, 6, 15$ là
+A. $6$.
+B. $8{,}5$.
+C. $7{,}5$.
+D. $9$.
+::key C
+Sắp xếp: $2, 4, 6, 9, 13, 15$. Có $6$ giá trị nên $M_e=\dfrac{6+9}{2}=7{,}5$. Phương án B lấy hai số ở giữa khi chưa sắp xếp ($13$ và $4$).
+
+[M308.3] Nhiều lựa chọn
+Trong một tháng, một cửa hàng bán được $5$ đôi giày cỡ $36$, $9$ đôi cỡ $37$, $14$ đôi cỡ $38$, $8$ đôi cỡ $39$ và $3$ đôi cỡ $40$. Mốt của mẫu số liệu cỡ giày là
+A. $14$.
+B. $37$.
+C. $40$.
+D. $38$.
+::key D
+Mốt là giá trị có tần số lớn nhất: cỡ $38$ (bán $14$ đôi). Phương án A nhầm mốt với tần số.
+
+[M308.4] Nhiều lựa chọn
+Tứ phân vị thứ nhất $Q_1$ của mẫu số liệu $1, 3, 4, 6, 7, 8, 9, 11, 12$ là
+A. $3{,}5$.
+B. $4$.
+C. $3$.
+D. $10$.
+::key A
+$n=9$ lẻ, $M_e=7$. Bỏ $7$ ra, nửa dưới là $1, 3, 4, 6$ nên $Q_1=\dfrac{3+4}{2}=3{,}5$. Phương án B tính cả $7$ vào nửa dưới; D là $Q_3$.
+
+[M308.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mẫu số liệu $3, 5, 5, 6, 8, 9, 20$.
+a) Số trung bình cộng bằng $8$.
+b) Trung vị bằng $6$.
+c) Tứ phân vị thứ ba là $Q_3=8{,}5$.
+d) Nếu bỏ giá trị $20$ thì số trung bình cộng giảm ít hơn $1$.
+::key Đ Đ S S
+a) Đúng: $\bar x=\dfrac{56}{7}=8$. b) Đúng: giá trị thứ $4$ là $6$. c) Sai: nửa trên (không tính $6$) là $8, 9, 20$ nên $Q_3=9$. d) Sai: còn lại $\bar x=\dfrac{36}{6}=6$, giảm $2$.
+
+[M308.6] Trả lời ngắn
+Trong một nhóm $20$ học sinh, có $4$ bạn được $6$ điểm, $6$ bạn được $7$ điểm, $7$ bạn được $8$ điểm và $3$ bạn được $9$ điểm. Tính điểm trung bình của nhóm.
+::key 7,45
+$\bar x=\dfrac{4\cdot6+6\cdot7+7\cdot8+3\cdot9}{20}=\dfrac{149}{20}=7{,}45$.
+
+[M308.7] Trả lời ngắn
+Một nhóm $12$ bạn có tuổi trung bình là $15$. Khi cô giáo vào nhóm, tuổi trung bình của cả $13$ người là $17$. Cô giáo bao nhiêu tuổi?
+::key 41
+Tổng tuổi của $12$ bạn là $12\cdot15=180$, của $13$ người là $13\cdot17=221$. Vậy cô giáo $221-180=41$ tuổi.
+
+### M309 · Lớp 10 · Các số đặc trưng đo độ phân tán
+
+[M309.1] Nhiều lựa chọn
+Khoảng biến thiên của mẫu số liệu $12, 7, 15, 9, 20, 11$ là
+A. $13$.
+B. $20$.
+C. $9$.
+D. $27$.
+::key A
+$R=x_{\max}-x_{\min}=20-7=13$. Phương án C lấy hiệu của giá trị lớn nhất với giá trị cuối cùng ($20-11$) thay vì giá trị nhỏ nhất.
+
+[M309.2] Nhiều lựa chọn
+Phương sai của mẫu số liệu $2, 4, 6$ là
+A. $4$.
+B. $\dfrac83$.
+C. $\sqrt{\dfrac83}$.
+D. $0$.
+::key B
+$\bar x=4$, các độ lệch là $-2, 0, 2$, nên $s^2=\dfrac{4+0+4}{3}=\dfrac83$. Phương án A chia cho $n-1=2$; C là độ lệch chuẩn; D là trung bình của các độ lệch (chưa bình phương).
+
+[M309.3] Nhiều lựa chọn
+Khoảng tứ phân vị của mẫu số liệu $1, 2, 4, 5, 7, 8, 10, 12$ là
+A. $11$.
+B. $6$.
+C. $9$.
+D. $3$.
+::key B
+Nửa dưới $1, 2, 4, 5$ cho $Q_1=3$; nửa trên $7, 8, 10, 12$ cho $Q_3=9$. Vậy $\Delta_Q=9-3=6$. Phương án A là khoảng biến thiên; C và D chỉ là $Q_3$ và $Q_1$.
+
+[M309.4] Nhiều lựa chọn
+Một mẫu số liệu có $Q_1=10$ và $Q_3=14$. Giá trị nào sau đây là giá trị ngoại lệ?
+A. $5$.
+B. $19$.
+C. $21$.
+D. $15$.
+::key C
+$\Delta_Q=4$, $1{,}5\,\Delta_Q=6$, nên hai ngưỡng là $10-6=4$ và $14+6=20$. Chỉ có $21>20$. Phương án A và B là ngoại lệ nếu dùng nhầm ngưỡng $Q_1-\Delta_Q$ và $Q_3+\Delta_Q$.
+
+[M309.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mẫu số liệu $5, 7, 8, 9, 11$.
+a) Số trung bình cộng bằng $8$.
+b) Phương sai bằng $5$.
+c) Độ lệch chuẩn bằng $2$.
+d) Nếu nhân mỗi giá trị với $3$ thì phương sai của mẫu mới bằng $36$.
+::key Đ S Đ Đ
+a) Đúng: $\dfrac{40}{5}=8$. b) Sai: bình phương các độ lệch là $9, 1, 0, 1, 9$, tổng $20$, nên $s^2=\dfrac{20}{5}=4$ (giá trị $5$ là do chia cho $4$). c) Đúng: $s=\sqrt4=2$. d) Đúng: mọi độ lệch gấp $3$ lần nên phương sai gấp $9$ lần: $36$.
+
+[M309.6] Trả lời ngắn
+Trong $10$ ngày, có $2$ ngày cửa hàng bán được $1$ chiếc tủ lạnh, $5$ ngày bán được $2$ chiếc và $3$ ngày bán được $3$ chiếc. Tính phương sai của số tủ lạnh bán được mỗi ngày.
+::key 0,49
+$\bar x=\dfrac{2\cdot1+5\cdot2+3\cdot3}{10}=2{,}1$; trung bình các bình phương là $\dfrac{2\cdot1+5\cdot4+3\cdot9}{10}=4{,}9$. Vậy $s^2=4{,}9-2{,}1^2=0{,}49$.
+
+[M309.7] Trả lời ngắn
+Tính độ lệch chuẩn của mẫu số liệu $10, 12, 14, 16, 18$ (làm tròn đến hàng phần trăm).
+::key 2,83
+$\bar x=14$, các độ lệch là $-4, -2, 0, 2, 4$, nên $s^2=\dfrac{16+4+0+4+16}{5}=8$ và $s=\sqrt8\approx2{,}83$.
+
+### M310 · Lớp 10 · Hàm số
+
+[M310.1] Nhiều lựa chọn
+Tập xác định của hàm số $f(x)=\dfrac{\sqrt{x+1}}{x-3}$ là
+A. $[-1; +\infty)$.
+B. $[-1; 3)\cup(3; +\infty)$.
+C. $(-1; 3)\cup(3; +\infty)$.
+D. $\mathbb{R}\setminus\{3\}$.
+::key B
+Cần $x+1\ge0$ và $x-3\ne0$, tức $x\ge-1$ và $x\ne3$. Phương án A quên điều kiện mẫu khác $0$; C bỏ nhầm $x=-1$ (tại đó $\sqrt0=0$ vẫn xác định); D quên điều kiện của căn.
+
+[M310.2] Nhiều lựa chọn
+Bảng nào sau đây cho $y$ là hàm số của $x$?
+A. $(1; 2)$, $(2; 3)$, $(1; 4)$.
+B. $(1; 5)$, $(2; 5)$, $(3; 5)$.
+C. $(0; 1)$, $(0; -1)$, $(1; 0)$.
+D. $(2; 1)$, $(3; 2)$, $(2; 2)$.
+::key B
+Ở B, mỗi giá trị của $x$ ứng với đúng một giá trị của $y$; nhiều $x$ cùng cho $y=5$ vẫn được phép. Ở A, C, D có một giá trị $x$ ứng với hai giá trị $y$ khác nhau.
+
+[M310.3] Nhiều lựa chọn
+Cho hàm số $f(x)=\begin{cases}2x-1 & \text{nếu } x<1,\\ x^2+1 & \text{nếu } x\ge1.\end{cases}$ Giá trị của $f(1)+f(-2)$ là
+A. $-3$.
+B. $-4$.
+C. $7$.
+D. $6$.
+::key A
+$1\ge1$ nên $f(1)=1^2+1=2$; $-2<1$ nên $f(-2)=2\cdot(-2)-1=-5$. Tổng bằng $-3$. Phương án B tính nhầm $f(1)$ bằng dòng thứ nhất; C tính nhầm $f(-2)$ bằng dòng thứ hai.
+
+[M310.4] Nhiều lựa chọn
+Hàm số $f(x)=-x^2+4x$ đồng biến trên khoảng nào sau đây?
+A. $(-\infty; 2)$.
+B. $(2; +\infty)$.
+C. $(0; 4)$.
+D. $(-\infty; 4)$.
+::key A
+$f(x)=4-(x-2)^2$: đồ thị là parabol quay bề lõm xuống, đỉnh $(2; 4)$, nên đi lên khi $x<2$ và đi xuống khi $x>2$. Phương án C là khoảng giữa hai không điểm $0$ và $4$, trên đó hàm số vừa tăng vừa giảm.
+
+[M310.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^2-4x+3$.
+a) $f(0)=3$.
+b) Các không điểm của $f$ là $x=1$ và $x=3$.
+c) Tập giá trị của $f$ là $[-1; +\infty)$.
+d) $f$ nghịch biến trên khoảng $(1; 3)$.
+::key Đ Đ Đ S
+a) Đúng. b) Đúng: $f(1)=f(3)=0$. c) Đúng: $f(x)=(x-2)^2-1\ge-1$ và nhận mọi giá trị từ $-1$ trở lên. d) Sai: $f$ chỉ nghịch biến trên $(-\infty; 2)$; trên $(2; 3)$ nó đồng biến, ví dụ $f(2)=-1<f(2{,}5)=-0{,}75$.
+
+[M310.6] Trả lời ngắn
+Có bao nhiêu số nguyên dương thuộc tập xác định của hàm số $f(x)=\sqrt{12-3x}$?
+::key 4
+Cần $12-3x\ge0\iff x\le4$. Các số nguyên dương thoả mãn là $1, 2, 3, 4$: có $4$ số.
+
+[M310.7] Trả lời ngắn
+Một công ty nước tính giá $8$ nghìn đồng mỗi m³ cho $10$ m³ đầu tiên và $12$ nghìn đồng mỗi m³ cho phần vượt quá $10$ m³. Tháng này một gia đình trả $176$ nghìn đồng. Gia đình đó đã dùng bao nhiêu m³ nước?
+::key 18
+$10$ m³ đầu tiên giá $80$ nghìn đồng $<176$, nên lượng nước $x>10$ và $80+12(x-10)=176\iff 12(x-10)=96\iff x=18$.
+
+### M311 · Lớp 10 · Hàm số bậc hai
+
+[M311.1] Nhiều lựa chọn
+Đỉnh của parabol $y=2x^2-8x+5$ là
+A. $(2; -3)$.
+B. $(-2; 29)$.
+C. $(4; 5)$.
+D. $(2; 3)$.
+::key A
+$x_I=-\dfrac{b}{2a}=\dfrac{8}{4}=2$ và $y_I=8-16+5=-3$. Quên dấu trừ trong $-\dfrac{b}{2a}$ thì ra $x=-2$ (phương án B).
+
+[M311.2] Nhiều lựa chọn
+Hàm số $y=-x^2+6x-1$ đồng biến trên khoảng nào?
+A. $(3; +\infty)$.
+B. $(-\infty; 3)$.
+C. $(-\infty; -3)$.
+D. $(-3; +\infty)$.
+::key B
+$a=-1<0$ và $x_I=3$, nên hàm số đồng biến bên trái đỉnh, tức trên $(-\infty; 3)$. Phương án A là khoảng nghịch biến, đúng cho trường hợp $a>0$.
+
+[M311.3] Nhiều lựa chọn
+Parabol nào sau đây có đỉnh $(-1; 4)$?
+A. $y=2(x-1)^2+4$.
+B. $y=2(x+1)^2+4$.
+C. $y=2(x+1)^2-4$.
+D. $y=2(x-4)^2-1$.
+::key B
+$y=a(x-p)^2+q$ có đỉnh $(p; q)$. Với $p=-1$, $q=4$ ta được $y=2(x+1)^2+4$; phương án A đọc nhầm dấu của $p$.
+
+[M311.4] Nhiều lựa chọn
+Giá trị lớn nhất của hàm số $y=-2x^2+4x+3$ là
+A. $5$.
+B. $3$.
+C. $1$.
+D. $-5$.
+::key A
+$a<0$ nên giá trị lớn nhất đạt tại đỉnh $x=1$: $y(1)=-2+4+3=5$. Phương án C là hoành độ đỉnh, phương án D sai dấu khi tính $-\dfrac{\Delta}{4a}$.
+
+[M311.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=x^2-2x-3$.
+a) Parabol có bề lõm hướng lên.
+b) Trục đối xứng của parabol là đường thẳng $x=-1$.
+c) Đồ thị cắt trục $Oy$ tại điểm $(0; 3)$.
+d) Giá trị nhỏ nhất của hàm số là $-4$, đạt tại $x=1$.
+::key Đ S S Đ
+a) Đúng: $a=1>0$. b) Sai: $x=-\dfrac{b}{2a}=1$. c) Sai: $x=0$ cho $y=-3$, nên giao điểm là $(0; -3)$. d) Đúng: $y(1)=1-2-3=-4$.
+
+[M311.6] Trả lời ngắn
+Parabol $y=x^2+bx+c$ có đỉnh $I(3; -2)$. Tìm $c$.
+::key 7
+Từ $-\dfrac{b}{2}=3$ ta có $b=-6$. Đỉnh nằm trên đồ thị: $9-18+c=-2$, nên $c=7$.
+
+[M311.7] Trả lời ngắn
+Một quán bán nước với giá $p$ nghìn đồng một cốc ($10\le p\le 50$) thì mỗi ngày bán được $120-2p$ cốc. Doanh thu lớn nhất trong một ngày là bao nhiêu nghìn đồng?
+::key 1800
+Doanh thu $R(p)=p(120-2p)=-2p^2+120p$ có $a<0$, lớn nhất tại $p=\dfrac{120}{4}=30$ (thuộc $[10; 50]$). Khi đó $R(30)=30\cdot60=1800$ nghìn đồng.
+
+### M312 · Lớp 10 · Dấu của tam thức bậc hai
+
+[M312.1] Nhiều lựa chọn
+Tam thức $f(x)=x^2-6x+8$ nhận giá trị âm khi và chỉ khi
+A. $x<2$ hoặc $x>4$.
+B. $2<x<4$.
+C. $x<-4$ hoặc $x>-2$.
+D. $-4<x<-2$.
+::key B
+Hai nghiệm là $2$ và $4$, hệ số $a=1>0$ nên $f(x)<0$ khi $x$ nằm giữa hai nghiệm.
+
+[M312.2] Nhiều lựa chọn
+Tập nghiệm của bất phương trình $x^2+2x+3\le 0$ là
+A. $\mathbb{R}$.
+B. $\varnothing$.
+C. $\{-1\}$.
+D. $[-3; 1]$.
+::key B
+$\Delta'=1-3=-2<0$ và $a=1>0$, nên tam thức luôn dương; không có $x$ nào làm nó $\le 0$.
+
+[M312.3] Nhiều lựa chọn
+Tam thức nào sau đây luôn âm với mọi số thực $x$?
+A. $x^2-x-1$.
+B. $-x^2+4x-4$.
+C. $-x^2+x-1$.
+D. $-2x^2+3x+1$.
+::key C
+Với C: $a=-1<0$, $\Delta=1-4=-3<0$ nên luôn âm. Phương án B bằng $-(x-2)^2$, bằng $0$ tại $x=2$ nên không "luôn âm".
+
+[M312.4] Nhiều lựa chọn
+Tập nghiệm của bất phương trình $\dfrac{x-3}{x+1}\ge 0$ là
+A. $(-1; 3]$.
+B. $[-1; 3]$.
+C. $(-\infty; -1)\cup[3; +\infty)$.
+D. $(-\infty; -1]\cup[3; +\infty)$.
+::key C
+Thương không âm khi tử và mẫu cùng dấu, hoặc tử bằng $0$. Giá trị $x=-1$ làm mẫu bằng $0$ nên bị loại; $x=3$ được lấy.
+
+[M312.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam thức $f(x)=-x^2+2x+3$.
+a) $f(x)$ có hai nghiệm là $x=-1$ và $x=3$.
+b) $f(x)>0$ với mọi $x\in(-1; 3)$.
+c) $f(4)>0$.
+d) Bất phương trình $f(x)\ge 3$ có tập nghiệm là $[0; 2]$.
+::key Đ Đ S Đ
+a) Đúng: $f(-1)=f(3)=0$. b) Đúng: $a<0$ nên tam thức dương giữa hai nghiệm. c) Sai: $f(4)=-5$. d) Đúng: $f(x)\ge 3\iff -x^2+2x\ge 0\iff 0\le x\le 2$.
+
+[M312.6] Trả lời ngắn
+Có bao nhiêu số nguyên $x$ thoả mãn $x^2-5x-6<0$?
+::key 6
+Hai nghiệm là $-1$ và $6$, nên $-1<x<6$. Các số nguyên là $0, 1, 2, 3, 4, 5$: có $6$ số.
+
+[M312.7] Trả lời ngắn
+Độ cao của một quả bóng sau $t$ giây là $h(t)=-5t^2+30t$ (mét). Bóng ở độ cao trên $40$ m trong bao nhiêu giây?
+::key 2
+$-5t^2+30t>40\iff t^2-6t+8<0\iff 2<t<4$. Khoảng thời gian dài $2$ giây.
+
+### M313 · Lớp 10 · Phương trình quy về phương trình bậc hai
+
+[M313.1] Nhiều lựa chọn
+Tập nghiệm của phương trình $\sqrt{3x-2}=\sqrt{x+4}$ là
+A. $S=\{3\}$.
+B. $S=\{-3\}$.
+C. $S=\{1\}$.
+D. $S=\varnothing$.
+::key A
+Bình phương: $3x-2=x+4\iff 2x=6\iff x=3$. Thử lại: $x+4=7\ge0$ và hai vế cùng bằng $\sqrt7$. Phương án B là lỗi chuyển vế sai dấu.
+
+[M313.2] Nhiều lựa chọn
+Tập nghiệm của phương trình $\sqrt{x+1}=x-1$ là
+A. $S=\{0; 3\}$.
+B. $S=\{3\}$.
+C. $S=\{0\}$.
+D. $S=\{2\}$.
+::key B
+Cần $x\ge1$. Bình phương: $x+1=x^2-2x+1\iff x^2-3x=0\iff x=0$ hoặc $x=3$; chỉ $x=3$ thoả mãn. Phương án A quên thử lại; D là lỗi viết $(x-1)^2=x^2-1$.
+
+[M313.3] Nhiều lựa chọn
+Khi giải phương trình $\sqrt{2x+3}=x$ bằng cách bình phương hai vế, giá trị nào là nghiệm ngoại lai?
+A. $x=3$.
+B. $x=-1$.
+C. $x=-3$.
+D. $x=1$.
+::key B
+Bình phương: $x^2-2x-3=0\iff x=3$ hoặc $x=-1$. Với $x=-1$: vế trái $\sqrt1=1$, vế phải $-1$, nên $x=-1$ là nghiệm ngoại lai.
+
+[M313.4] Nhiều lựa chọn
+Tổng các nghiệm của phương trình $\sqrt{x^2+2x+4}=\sqrt{2x+13}$ là
+A. $0$.
+B. $3$.
+C. $-3$.
+D. $6$.
+::key A
+Bình phương: $x^2+2x+4=2x+13\iff x^2=9\iff x=\pm3$. Cả hai đều thoả mãn $2x+13\ge0$ ($19$ và $7$), nên tổng là $0$. Phương án B loại nhầm $x=-3$ chỉ vì nó âm.
+
+[M313.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $\sqrt{x+10}=x-2$.
+a) Điều kiện để vế phải không âm là $x\ge2$.
+b) Bình phương hai vế ta được $x^2-3x-6=0$.
+c) $x=-1$ là một nghiệm của phương trình.
+d) Phương trình có đúng một nghiệm và nghiệm đó lớn hơn $5$.
+::key Đ S S Đ
+a) Đúng. b) Sai: $x+10=x^2-4x+4\iff x^2-5x-6=0$. c) Sai: với $x=-1$, vế trái là $3$, vế phải là $-3$. d) Đúng: $x^2-5x-6=0$ cho $x=6$ hoặc $x=-1$, chỉ giữ $x=6$.
+
+[M313.6] Trả lời ngắn
+Giải phương trình $\sqrt{2x+7}=x+2$.
+::key 1
+Cần $x\ge-2$. Bình phương: $2x+7=x^2+4x+4\iff x^2+2x-3=0\iff x=1$ hoặc $x=-3$. Chỉ $x=1$ thoả mãn; thử lại $\sqrt9=3=1+2$.
+
+[M313.7] Trả lời ngắn
+Một con thuyền được kéo vào bờ bằng một sợi dây buộc vào một điểm cao $5$ m so với mặt nước. Khi thuyền cách chân bờ $x$ m thì đoạn dây từ thuyền đến điểm buộc dài hơn $x$ đúng $1$ m. Tìm $x$.
+::key 12
+Đoạn dây là cạnh huyền: $\sqrt{x^2+25}=x+1$ với $x>0$. Bình phương: $x^2+25=x^2+2x+1\iff 2x=24\iff x=12$. Thử lại: $\sqrt{169}=13=12+1$.
+
+### M314 · Lớp 10 · Phương trình đường thẳng
+
+[M314.1] Nhiều lựa chọn
+Một vectơ pháp tuyến của đường thẳng $2x-5y+3=0$ là
+A. $(2; 5)$.
+B. $(5; 2)$.
+C. $(2; -5)$.
+D. $(-5; 3)$.
+::key C
+Trong phương trình $Ax+By+C=0$, cặp hệ số $(A; B)=(2; -5)$ là một vectơ pháp tuyến. Phương án B là một vectơ chỉ phương; A sai dấu.
+
+[M314.2] Nhiều lựa chọn
+Phương trình tham số của đường thẳng đi qua $A(1; -2)$ và có vectơ chỉ phương $\vec u=(3; 1)$ là
+A. $\begin{cases}x=3+t\\ y=1-2t\end{cases}$.
+B. $\begin{cases}x=1+t\\ y=-2+3t\end{cases}$.
+C. $\begin{cases}x=1+3t\\ y=2+t\end{cases}$.
+D. $\begin{cases}x=1+3t\\ y=-2+t\end{cases}$.
+::key D
+$x=x_0+at$, $y=y_0+bt$ với $(x_0; y_0)=(1; -2)$ và $(a; b)=(3; 1)$. Phương án A đổi vai trò điểm và vectơ, B đổi chỗ hai toạ độ của $\vec u$, C sai dấu $y_0$.
+
+[M314.3] Nhiều lựa chọn
+Hệ số góc của đường thẳng $3x+4y-8=0$ là
+A. $\dfrac34$.
+B. $-\dfrac34$.
+C. $-\dfrac43$.
+D. $2$.
+::key B
+Rút $y$: $y=-\dfrac34x+2$, nên $k=-\dfrac AB=-\dfrac34$. Phương án A quên dấu trừ; D là tung độ giao điểm với trục tung.
+
+[M314.4] Nhiều lựa chọn
+Đường thẳng đi qua $M(1; 2)$ và vuông góc với đường thẳng $x-3y+5=0$ có phương trình là
+A. $x-3y+5=0$.
+B. $3x+y+5=0$.
+C. $3x+y-5=0$.
+D. $3x-y-1=0$.
+::key C
+Đường vuông góc nhận $(3; 1)$ làm vectơ pháp tuyến: $3(x-1)+(y-2)=0\iff 3x+y-5=0$. Phương án A song song (thực ra trùng) với đường đã cho; D đi qua $M$ nhưng có vectơ pháp tuyến $(3; -1)$ nên không vuông góc.
+
+[M314.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $d: \begin{cases}x=2+t\\ y=-1+2t\end{cases}$.
+a) $d$ đi qua điểm $A(2; -1)$.
+b) $\vec n=(2; 1)$ là một vectơ pháp tuyến của $d$.
+c) Phương trình tổng quát của $d$ là $2x-y-5=0$.
+d) $d$ cắt trục tung tại điểm có tung độ bằng $5$.
+::key Đ S Đ S
+a) Đúng: $t=0$. b) Sai: $\vec u=(1; 2)$ và $\vec u\cdot\vec n=4\ne0$; một vectơ pháp tuyến là $(2; -1)$. c) Đúng: $2(x-2)-(y+1)=0\iff 2x-y-5=0$. d) Sai: $x=0$ cho $y=-5$.
+
+[M314.6] Trả lời ngắn
+Đường thẳng đi qua $A(-1; 3)$ và $B(2; 9)$ cắt trục tung tại điểm có tung độ bằng bao nhiêu?
+::key 5
+$\overrightarrow{AB}=(3; 6)=3(1; 2)$ nên $\vec n=(2; -1)$: $2(x+1)-(y-3)=0\iff y=2x+5$. Với $x=0$ ta được $y=5$.
+
+[M314.7] Trả lời ngắn
+Trên hải đồ (đơn vị: km), một con tàu rời điểm $A(1; 2)$ và mỗi giờ đi được một độ dời bằng vectơ $\vec v=(3; -1)$. Bờ biển là đường thẳng $x+y-15=0$. Sau bao nhiêu giờ thì tàu chạm bờ?
+::key 6
+Sau $t$ giờ tàu ở $(1+3t; 2-t)$. Thay vào phương trình bờ: $1+3t+2-t-15=0\iff 2t=12\iff t=6$.
+
+### M315 · Lớp 10 · Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách
+
+[M315.1] Nhiều lựa chọn
+Vị trí tương đối của hai đường thẳng $x-2y+1=0$ và $-2x+4y-2=0$ là
+A. cắt nhau.
+B. song song.
+C. trùng nhau.
+D. vuông góc.
+::key C
+$\dfrac{1}{-2}=\dfrac{-2}{4}=\dfrac{1}{-2}$: cả ba tỉ số bằng nhau nên hai phương trình tỉ lệ, hai đường thẳng trùng nhau. Chọn B là quên so sánh hệ số tự do.
+
+[M315.2] Nhiều lựa chọn
+Khoảng cách từ điểm $M(1; -2)$ đến đường thẳng $3x-4y+4=0$ là
+A. $3$.
+B. $15$.
+C. $\dfrac15$.
+D. $\dfrac{11}{5}$.
+::key A
+$d=\dfrac{|3\cdot1-4\cdot(-2)+4|}{\sqrt{3^2+4^2}}=\dfrac{15}{5}=3$. Phương án B quên chia cho $5$; C thay nhầm $y=2$; D quên hệ số tự do $4$.
+
+[M315.3] Nhiều lựa chọn
+Góc giữa hai đường thẳng $x-2=0$ và $-x+y+3=0$ là
+A. $135^\circ$.
+B. $45^\circ$.
+C. $90^\circ$.
+D. $30^\circ$.
+::key B
+$\vec{n}_1=(1; 0)$, $\vec{n}_2=(-1; 1)$: $\cos\varphi=\dfrac{|-1|}{1\cdot\sqrt2}=\dfrac{1}{\sqrt2}$, nên $\varphi=45^\circ$. Bỏ dấu giá trị tuyệt đối thì ra $135^\circ$, nhưng góc giữa hai đường thẳng không vượt quá $90^\circ$.
+
+[M315.4] Nhiều lựa chọn
+Đường thẳng nào sau đây vuông góc với đường thẳng $2x+3y-1=0$?
+A. $2x+3y+5=0$.
+B. $3x+2y=0$.
+C. $2x-3y+1=0$.
+D. $3x-2y+5=0$.
+::key D
+Hai đường thẳng vuông góc khi $a_1a_2+b_1b_2=0$: $2\cdot3+3\cdot(-2)=0$. Phương án A song song; B đổi chỗ hệ số mà quên đổi dấu ($6+6\ne0$).
+
+[M315.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai đường thẳng $d_1: x+2y-4=0$, $d_2: 2x-y-3=0$ và điểm $A(3; 4)$.
+a) $d_1$ vuông góc với $d_2$.
+b) $d_1$ và $d_2$ cắt nhau tại điểm $(1; 2)$.
+c) Khoảng cách từ $A$ đến $d_1$ bằng $7$.
+d) Khoảng cách từ $A$ đến $d_2$ bằng $\dfrac{\sqrt5}{5}$.
+::key Đ S S Đ
+a) Đúng: $1\cdot2+2\cdot(-1)=0$. b) Sai: $1+4-4=1\ne0$, nên $(1; 2)$ không thuộc $d_1$ (giao điểm là $(2; 1)$). c) Sai: $d=\dfrac{|3+8-4|}{\sqrt5}=\dfrac{7}{\sqrt5}$; $7$ là kết quả khi quên chia cho $\sqrt5$. d) Đúng: $d=\dfrac{|6-4-3|}{\sqrt5}=\dfrac{1}{\sqrt5}=\dfrac{\sqrt5}{5}$.
+
+[M315.6] Trả lời ngắn
+Tính khoảng cách giữa hai đường thẳng song song $3x+4y-5=0$ và $6x+8y+15=0$.
+::key 2,5
+Chia phương trình thứ hai cho $2$: $3x+4y+7{,}5=0$. Khi đó $d=\dfrac{|-5-7{,}5|}{\sqrt{3^2+4^2}}=\dfrac{12{,}5}{5}=2{,}5$.
+
+[M315.7] Trả lời ngắn
+Tam giác $ABC$ có $A(1; 2)$, $B(4; -2)$, $C(5; 3)$. Tính diện tích tam giác $ABC$.
+::key 9,5
+$\overrightarrow{AB}=(3; -4)$ nên $AB=5$ và đường thẳng $AB$ có vectơ pháp tuyến $(4; 3)$: $4x+3y-10=0$. Khoảng cách từ $C$ đến $AB$ là $\dfrac{|20+9-10|}{5}=\dfrac{19}{5}$, nên $S=\dfrac12\cdot5\cdot\dfrac{19}{5}=9{,}5$.

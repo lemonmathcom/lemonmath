@@ -1,0 +1,1078 @@
+######################################################################
+TÀI KHOẢN: nguoibuonthinh   |   FILE: nguoibuonthinh-GV-2   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file nguoibuonthinh-GV-2-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – nguoibuonthinh-GV-2
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-calculus/apcalc-overview, exams/ap-calculus/apcalc-practice-exam-ab, exams/ap-calculus/apcalc-practice-exam-bc, exams/ap-statistics/apstats-one-variable-data
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  nguoibuonthinh-GV-2-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/nguoibuonthinh-GV-2-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file nguoibuonthinh-GV-2-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-calculus/apcalc-overview – BẢN TIẾNG VIỆT ########
+---
+title: AP Calculus AB/BC gồm những gì và cách ôn
+description: Giải thích kì thi AP Calculus AB và BC: cấu trúc đề từ tháng 5/2027, khác nhau giữa AB và BC, mười unit, các dạng câu tự luận, máy tính và kế hoạch ôn.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Mô tả cấu trúc đề AP Calculus AB và BC từ tháng 5/2027: các phần, thời gian, quy định máy tính và cách tính điểm.
+  - Giải thích khác nhau giữa AB và BC và chọn đúng kì thi.
+  - Nhận ra các dạng câu tự luận chính.
+  - Lập kế hoạch ôn bằng các bài học Lemonmath và các tài nguyên chính thức miễn phí.
+  :::
+
+[[P1·05af]]
+AP Calculus là một trong những kì thi Advanced Placement phổ biến nhất. Điểm tốt có thể được nhiều trường đại học ở Mỹ và các nước khác công nhận tín chỉ hoặc xếp lớp, và cho hội đồng tuyển sinh thấy bạn theo được Toán bậc đại học. Với học sinh Việt Nam, nội dung khá quen thuộc: giới hạn, đạo hàm và tích phân có trong chương trình lớp 11 và 12. Điều khác biệt là mức độ **lập luận** (justification): AP yêu cầu giải thích suy luận bằng lời và bằng định lí, không chỉ tính toán.
+
+## AB hay BC?
+
+| | Calculus AB | Calculus BC |
+|---|---|---|
+| Nội dung | Unit 1–8: giới hạn, đạo hàm, tích phân, phương trình vi phân và ứng dụng | Toàn bộ AB, thêm Unit 9–10 (hàm tham số, toạ độ cực, hàm véc-tơ; chuỗi vô hạn) và một số mục thêm trong Unit 6–8 |
+| Tương đương | khoảng một học kì giải tích đại học | khoảng hai học kì |
+| Điểm | một điểm AP, từ 1 đến 5 | một điểm AP, kèm điểm phụ AB |
+
+[[P2·4a71]]
+Nếu kế hoạch học tập cho phép và bạn đã vững nội dung AB, thì BC thường là lựa chọn tốt hơn: điểm phụ AB cho thấy cả kết quả của bạn ở phần AB.
+
+## Cấu trúc đề (từ tháng 5/2027)
+
+[[P3·0339]]
+Hai đề có cùng cấu trúc. Phần trắc nghiệm làm trên ứng dụng Bluebook; phần tự luận viết tay vào tập bài làm.
+
+| Phần | Nhánh | Số câu | Thời gian | Máy tính | Tỉ trọng |
+|---|---|---|---|---|---|
+| I. Trắc nghiệm | A | 29 | 62 phút | không được dùng | 50% cho Phần I |
+| | B | 13 | 38 phút | bắt buộc máy tính đồ thị | |
+| II. Tự luận | A | 2 | 30 phút | bắt buộc máy tính đồ thị | 50% cho Phần II |
+| | B | 4 | 60 phút | không được dùng | |
+
+[[P4·0230]]
+Câu trắc nghiệm có bốn phương án và sai không bị trừ điểm. Mỗi câu tự luận được 9 điểm. Sách và trang web cũ mô tả 30 + 15 câu trắc nghiệm; cấu trúc đó kết thúc ở kì thi năm 2026. Kì thi AB năm 2027 dự kiến vào ngày 10 tháng 5; hãy xem AP Central để biết lịch chính thức.
+
+## Mười unit
+
+| Unit | Tên | Bài học Lemonmath |
+|---|---|---|
+| 1 | Limits and Continuity | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 2 | Differentiation: Definition and Fundamental Properties | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 3 | Differentiation: Composite, Implicit, and Inverse Functions | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 4 | Contextual Applications of Differentiation | Tốc độ liên quan, chuyển động và xấp xỉ tuyến tính |
+| 5 | Analytical Applications of Differentiation | Định lí giá trị trung bình, cực trị và khảo sát |
+| 6 | Integration and Accumulation of Change | Tổng Riemann, định lí cơ bản; kĩ thuật tính tích phân |
+| 7 | Differential Equations | Phương trình vi phân và trường hướng |
+| 8 | Applications of Integration | Diện tích, thể tích và giá trị trung bình |
+| 9 | Parametric Equations, Polar Coordinates, and Vector-Valued Functions (BC) | Hàm tham số, hàm véc-tơ và toạ độ cực |
+| 10 | Infinite Sequences and Series (BC) | Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa |
+
+## Câu tự luận trông như thế nào
+
+[[P5·f3a0]]
+Câu tự luận trộn nhiều unit, và mỗi ý được chấm riêng, nên bạn vẫn có điểm ở các ý sau dù ý trước sai. Các dạng thường gặp:
+
+[[P6·b58f]]
+- **Tốc độ thay đổi trong bối cảnh**, thường kèm bảng giá trị: ước lượng đạo hàm, tổng Riemann, hoặc lượng thay đổi $\displaystyle\int_a^b r(t)\,dt$.
+- **Chuyển động của chất điểm**: vận tốc, gia tốc, nhanh dần hay chậm dần, tổng quãng đường.
+- **Phân tích đồ thị của $f'$**: $f$ đồng biến ở đâu, có cực trị hay điểm uốn ở đâu, kèm giải thích.
+- **Phương trình vi phân**: trường hướng (slope field), xấp xỉ bằng tiếp tuyến, tách biến.
+- **Diện tích và thể tích** của miền giữa các đường cong.
+- **Chỉ BC**: đa thức Taylor và cận sai số, sự hội tụ của chuỗi, đường cong tham số hoặc cực.
+
+:::warning Câu tự luận được chấm thế nào
+[[P7·55f3]]
+Giám khảo tìm **phần thiết lập** và **phần giải thích**, không chỉ con số. "Hàm số có cực đại tại $x=2$" gần như không có điểm nếu thiếu lí do: "vì $f'$ đổi dấu từ dương sang âm tại $x=2$". Ở phần dùng máy tính, hãy viết tích phân hoặc phương trình đang giải trước khi ghi kết quả thập phân, chính xác đến ba chữ số sau dấu phẩy.
+:::
+
+## Hai câu hỏi mẫu
+
+  :::example Trắc nghiệm, không dùng máy tính
+  $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng
+  A. $0$
+  B. $3$
+  C. $6$
+  D. Giới hạn không tồn tại.
+
+  **Lời giải.** Với $x\ne3$, $\dfrac{x^2-9}{x-3}=x+3$, tiến tới $6$. Đáp án là **C**. Phương án D là lỗi thường gặp: hàm số không xác định tại $x=3$, nhưng giới hạn vẫn tồn tại.
+  :::
+
+  :::example Một ý tự luận, không dùng máy tính
+  Hàm số $f$ có đạo hàm cấp hai, và $f'(x)=x^2-4$. $f$ đồng biến trên những khoảng nào? Giải thích câu trả lời.
+
+  **Lời giải.** $f'(x)=(x-2)(x+2)>0$ khi $x<-2$ và khi $x>2$. Vậy $f$ đồng biến trên $(-\infty, -2]$ và $[2, \infty)$, **vì $f'(x)>0$ trên các khoảng này** (trừ tại đầu mút). Câu giải thích chính là phần được điểm.
+  :::
+
+## Kế hoạch ôn
+
+[[P8·5dc1]]
+1. **Tuần 1–2:** làm một đề luyện chính thức trọn vẹn trên Bluebook để biết trình độ; ôn Unit 1–3.
+2. **Tuần 3–6:** Unit 4–8 (và 9–10 nếu thi BC), mỗi lần một bài, làm kèm bài tập.
+3. **Tuần 7–9:** câu tự luận các năm trước trên AP Central, bấm giờ 15 phút mỗi câu. Đối chiếu bài làm với hướng dẫn chấm chính thức.
+4. **Tuần 10–12:** đề luyện trọn vẹn và [sổ lỗi sai](lesson:error-log).
+
+[[P9·0d4e]]
+Tài nguyên chính thức miễn phí: AP Classroom (qua nhà trường), câu tự luận các năm trước kèm hướng dẫn chấm trên AP Central, và các đề luyện trong Bluebook. Về kĩ năng dùng máy, xem bài [Dùng máy tính cầm tay và Desmos thông minh](lesson:calculator-skills).
+
+
+######## BÀI exams/ap-calculus/apcalc-overview – BẢN TIẾNG ANH ########
+---
+title: What AP Calculus AB/BC tests and how to prepare
+description: The AP Calculus AB and BC exams explained: the May 2027 format, AB versus BC, the ten units, free-response question types, calculators and a study plan.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Describe the format of the AP Calculus AB and BC exams from May 2027: sections, timing, calculator rules and scoring.
+  - Explain the difference between AB and BC and choose the right exam.
+  - Recognize the main types of free-response questions.
+  - Plan your preparation using the Lemonmath lessons and official free resources.
+  :::
+
+[[P1·4c2c]]
+AP Calculus is one of the most popular Advanced Placement exams. A good score can earn college credit or placement at many universities in the United States and elsewhere, and it shows admissions officers that you can handle university-level mathematics. For students from Vietnam the content is familiar: limits, derivatives and integrals appear in grades 11 and 12. What is different is the depth of **justification**: AP asks you to explain your reasoning in words and with theorems, not only to compute.
+
+## AB or BC?
+
+| | Calculus AB | Calculus BC |
+|---|---|---|
+| Content | Units 1–8: limits, derivatives, integrals, differential equations and their applications | Everything in AB, plus Units 9–10 (parametric, polar and vector-valued functions; infinite series) and a few extra topics inside Units 6–8 |
+| Equivalent to | about one semester of college calculus | about two semesters |
+| Scores | one AP score, 1 to 5 | one AP score, plus an AB subscore |
+
+[[P2·764d]]
+If your school or university plan allows it and you are comfortable with the AB content, BC is usually the better choice: the AB subscore shows your performance on the AB part as well.
+
+## The exam format (from May 2027)
+
+[[P3·784e]]
+Both exams have the same structure. The multiple-choice section is taken in the Bluebook app; free-response answers are handwritten in a booklet.
+
+| Section | Part | Questions | Time | Calculator | Weight |
+|---|---|---|---|---|---|
+| I. Multiple choice | A | 29 | 62 minutes | not permitted | 50% for Section I |
+| | B | 13 | 38 minutes | graphing calculator required | |
+| II. Free response | A | 2 | 30 minutes | graphing calculator required | 50% for Section II |
+| | B | 4 | 60 minutes | not permitted | |
+
+[[P4·4c79]]
+Multiple-choice questions have four options and there is no penalty for wrong answers. Each free-response question is worth 9 points. Older books and websites describe 30 + 15 multiple-choice questions; that format ended with the 2026 exam. The AB exam in 2027 is scheduled for 10 May; check AP Central for the final timetable.
+
+## The ten units
+
+| Unit | Title | Lemonmath lessons |
+|---|---|---|
+| 1 | Limits and Continuity | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 2 | Differentiation: Definition and Fundamental Properties | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 3 | Differentiation: Composite, Implicit, and Inverse Functions | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 4 | Contextual Applications of Differentiation | Related rates, motion and linear approximation |
+| 5 | Analytical Applications of Differentiation | Mean value theorem, extrema and curve analysis |
+| 6 | Integration and Accumulation of Change | Riemann sums, the fundamental theorem; integration techniques |
+| 7 | Differential Equations | Differential equations and slope fields |
+| 8 | Applications of Integration | Area, volume and average value |
+| 9 | Parametric Equations, Polar Coordinates, and Vector-Valued Functions (BC) | Parametric, vector-valued and polar functions |
+| 10 | Infinite Sequences and Series (BC) | Infinite series, Taylor and power series |
+
+## What free-response questions look like
+
+[[P5·cc18]]
+Free-response questions mix several units, and each part is scored separately, so you can earn points on later parts even if an earlier part is wrong. Common types are:
+
+[[P6·d5ab]]
+- **Rates in context**, often with a table of values: estimating a derivative, a Riemann sum, or the total change $\displaystyle\int_a^b r(t)\,dt$.
+- **Particle motion**: velocity, acceleration, speeding up or slowing down, total distance.
+- **Analysis of a graph of $f'$**: where $f$ increases, has extrema or inflection points, with justification.
+- **Differential equations**: a slope field, a tangent-line approximation, separation of variables.
+- **Area and volume** of regions between curves.
+- **BC only**: Taylor polynomials and error bounds, convergence of series, parametric or polar curves.
+
+:::warning How free-response answers are marked
+[[P7·c8c8]]
+Readers look for the **setup** and the **justification**, not just the number. "The function has a relative maximum at $x=2$" earns little without the reason: "because $f'$ changes from positive to negative at $x=2$". In calculator parts, write the integral or equation you are solving before giving the decimal answer, correct to three decimal places.
+:::
+
+## Two sample questions
+
+  :::example Multiple choice, no calculator
+  What is $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$?
+  A. $0$
+  B. $3$
+  C. $6$
+  D. The limit does not exist.
+
+  **Solution.** For $x\ne3$, $\dfrac{x^2-9}{x-3}=x+3$, which approaches $6$. The answer is **C**. Option D is a common error: the function is undefined at $x=3$, but the limit exists.
+  :::
+
+  :::example A free-response part, no calculator
+  The function $f$ is twice differentiable, and $f'(x)=x^2-4$. On which intervals is $f$ increasing? Justify your answer.
+
+  **Solution.** $f'(x)=(x-2)(x+2)>0$ for $x<-2$ and for $x>2$. So $f$ is increasing on $(-\infty, -2]$ and $[2, \infty)$, **because $f'(x)>0$ on these intervals** (except at the endpoints). The justification sentence is what earns the point.
+  :::
+
+## A study plan
+
+[[P8·a1aa]]
+1. **Weeks 1–2:** take a full official practice exam in Bluebook to find your level; review Units 1–3.
+2. **Weeks 3–6:** Units 4–8 (and 9–10 for BC), one lesson at a time, with the exercises.
+3. **Weeks 7–9:** past free-response questions from AP Central, timed: 15 minutes per question. Compare your work with the official scoring guidelines.
+4. **Weeks 10–12:** full practice exams and your [error log](lesson:error-log).
+
+[[P9·27d8]]
+Free official resources: AP Classroom (through your school), past free-response questions with scoring guidelines on AP Central, and the practice exams in Bluebook. For calculator skills, see [Using calculators and Desmos wisely](lesson:calculator-skills).
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-ab – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện AP Calculus AB: phần trắc nghiệm
+description: Trọn phần trắc nghiệm AP Calculus AB theo cấu trúc 2027: 42 câu, 29 câu không và 13 câu có máy tính, chấm điểm ngay, có lời giải từng câu.
+minutes: 100
+type: test
+---
+
+[[P1·d198]]
+Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus AB từ tháng 5/2027. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP; với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
+
+## Cách làm đề
+
+| | Part A | Part B |
+|---|---|---|
+| Số câu | 29 | 13 |
+| Thời gian | 62 phút | 38 phút |
+| Máy tính | không được dùng | máy tính vẽ đồ thị (Desmos hoặc máy của bạn) |
+
+[[P2·a8a2]]
+1. Bấm giờ 62 phút và làm Part A không dùng máy tính. Nộp bài để xem điểm.
+2. Sau đó làm Part B trong 38 phút với máy tính vẽ đồ thị, để ở chế độ radian.
+3. Đáp số ở Part B cho đến ba chữ số thập phân, như trong đề thật.
+4. Làm xong, đọc lời giải của mọi câu sai và chép vào sổ lỗi sai.
+
+## Part A: không dùng máy tính
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: dùng máy tính vẽ đồ thị
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·aa93]]
+Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 2 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 3 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 4 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 5 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 6 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 7 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 8 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 9 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 10 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 11 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 12 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 13 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 14 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 15 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 16 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 17 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 18 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 19 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 20 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 21 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 22 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 23 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 24 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 25 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 26 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 27 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 28 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 29 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 30 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 31 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 32 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 33 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 34 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 35 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 36 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 37 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 38 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 39 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 40 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 41 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 42 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+
+[[P4·b8ea]]
+Ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision) trước khi làm đề đầy đủ tiếp theo.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-ab – BẢN TIẾNG ANH ########
+---
+title: AP Calculus AB practice exam: multiple choice
+description: A full AP Calculus AB multiple-choice section in the 2027 format: 42 questions, 29 without and 13 with a calculator, marked instantly with solutions.
+minutes: 100
+type: test
+---
+
+[[P1·122a]]
+This is a full multiple-choice section in the format of the AP Calculus AB exam from May 2027. All questions are written by Lemonmath; they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score; for the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
+
+## How to take this exam
+
+| | Part A | Part B |
+|---|---|---|
+| Questions | 29 | 13 |
+| Time | 62 minutes | 38 minutes |
+| Calculator | not allowed | graphing calculator (Desmos or your own) |
+
+[[P2·a75e]]
+1. Set a timer for 62 minutes and do Part A without a calculator. Submit it to see your score.
+2. Then do Part B in 38 minutes with a graphing calculator, in radian mode.
+3. Answers in Part B are given to three decimal places, as on the real exam.
+4. Afterwards, read the solution of every question you missed and add it to your error log.
+
+## Part A: no calculator
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: graphing calculator
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the exam
+
+[[P3·e915]]
+Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 2 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 3 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 4 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 5 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 6 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 7 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 8 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 9 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 10 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 11 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 12 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 13 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 14 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 15 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 16 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 17 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 18 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 19 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 20 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 21 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 22 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 23 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 24 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 25 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 26 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 27 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 28 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 29 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 30 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 31 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 32 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 33 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 34 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 35 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 36 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 37 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 38 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 39 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 40 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 41 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 42 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+
+[[P4·917d]]
+Review with the methods in [Revision that works](lesson:evidence-based-revision) before your next full exam.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-bc – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện AP Calculus BC: phần trắc nghiệm
+description: Trọn phần trắc nghiệm AP Calculus BC theo cấu trúc 2027: 42 câu, 29 câu không và 13 câu có máy tính, chấm điểm ngay, có lời giải từng câu.
+minutes: 100
+type: test
+---
+
+[[P1·f11d]]
+Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus BC từ tháng 5/2027. Trong đề thật, khoảng 60% điểm đến từ nội dung AB; đề luyện này tập trung vào các unit chỉ có ở BC (27 trên 42 câu: phương pháp Euler và mô hình logistic, kĩ thuật tích phân nâng cao, hàm tham số, hàm véc-tơ, toạ độ cực, chuỗi), vì nội dung AB đã có trong [đề luyện AB](lesson:apcalc-practice-exam-ab). Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP; với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
+
+## Cách làm đề
+
+| | Part A | Part B |
+|---|---|---|
+| Số câu | 29 | 13 |
+| Thời gian | 62 phút | 38 phút |
+| Máy tính | không được dùng | máy tính vẽ đồ thị (Desmos hoặc máy của bạn) |
+
+[[P2·a8a2]]
+1. Bấm giờ 62 phút và làm Part A không dùng máy tính. Nộp bài để xem điểm.
+2. Sau đó làm Part B trong 38 phút với máy tính vẽ đồ thị, để ở chế độ radian.
+3. Đáp số ở Part B cho đến ba chữ số thập phân, như trong đề thật.
+4. Làm xong, đọc lời giải của mọi câu sai và chép vào sổ lỗi sai.
+
+## Part A: không dùng máy tính
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: dùng máy tính vẽ đồ thị
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·aa93]]
+Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 2 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 3 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 4 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 5 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 6 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 7 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 8 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 9 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 10 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 11 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 12 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 13 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 14 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 15 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 16 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 17 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 18 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 19 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 20 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 21 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 22 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 23 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 24 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 25 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 26 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 27 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 28 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 29 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 30 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 31 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 32 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 33 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 34 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 35 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 36 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 37 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 38 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 39 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 40 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 41 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 42 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+
+[[P4·b8ea]]
+Ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision) trước khi làm đề đầy đủ tiếp theo.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-bc – BẢN TIẾNG ANH ########
+---
+title: AP Calculus BC practice exam: multiple choice
+description: A full AP Calculus BC multiple-choice section in the 2027 format: 42 questions, 29 without and 13 with a calculator, marked instantly with solutions.
+minutes: 100
+type: test
+---
+
+[[P1·d3d3]]
+This is a full multiple-choice section in the format of the AP Calculus BC exam from May 2027. On the real exam about 60% of the score comes from AB topics; this practice exam leans on the BC-only units (27 of the 42 questions: Euler and logistic models, further integration, parametric, vector and polar functions, series), because the AB topics are already covered in the [AB practice exam](lesson:apcalc-practice-exam-ab). All questions are written by Lemonmath; they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score; for the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
+
+## How to take this exam
+
+| | Part A | Part B |
+|---|---|---|
+| Questions | 29 | 13 |
+| Time | 62 minutes | 38 minutes |
+| Calculator | not allowed | graphing calculator (Desmos or your own) |
+
+[[P2·a75e]]
+1. Set a timer for 62 minutes and do Part A without a calculator. Submit it to see your score.
+2. Then do Part B in 38 minutes with a graphing calculator, in radian mode.
+3. Answers in Part B are given to three decimal places, as on the real exam.
+4. Afterwards, read the solution of every question you missed and add it to your error log.
+
+## Part A: no calculator
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: graphing calculator
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the exam
+
+[[P3·e915]]
+Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 2 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 3 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 4 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 5 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 6 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 7 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 8 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 9 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 10 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 11 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 12 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 13 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 14 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 15 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 16 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 17 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 18 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 19 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 20 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 21 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 22 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 23 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 24 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 25 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 26 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 27 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 28 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 29 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 30 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 31 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 32 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 33 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 34 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 35 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 36 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 37 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 38 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 39 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 40 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 41 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 42 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+
+[[P4·917d]]
+Review with the methods in [Revision that works](lesson:evidence-based-revision) before your next full exam.
+
+
+######## BÀI exams/ap-statistics/apstats-one-variable-data – BẢN TIẾNG VIỆT ########
+---
+title: Mô tả dữ liệu một biến
+description: AP Statistics Unit 1: biểu đồ, hình dạng, trung tâm và độ phân tán, tứ phân vị và giá trị ngoại lai, điểm z và bách phân vị, so sánh hai phân phối.
+minutes: 50
+---
+
+  :::goals
+  - Phân biệt biến định tính và biến định lượng, chọn biểu đồ phù hợp.
+  - Mô tả một phân phối theo hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, gắn với tình huống.
+  - Tính và diễn giải trung bình, trung vị, độ lệch chuẩn, tứ phân vị và khoảng tứ phân vị, nhận ra giá trị ngoại lai bằng quy tắc $1{,}5\times\text{IQR}$.
+  - Dùng điểm z và bách phân vị để mô tả vị trí của một giá trị.
+  - So sánh hai phân phối bằng ngôn ngữ so sánh.
+  :::
+
+[[P1·6746]]
+Mọi cuộc khảo sát thống kê đều bắt đầu bằng việc nhìn vào dữ liệu. Trong đề AP, đây là trọng tâm của câu tự luận số 2 và xuất hiện trong hầu hết các câu khác. Phần tính toán ngắn; điều mang lại điểm là mô tả những gì bạn thấy **gắn với tình huống của dữ liệu** và **so sánh** bằng những từ như "lớn hơn", "gần bằng".
+
+## Biến và biểu đồ
+
+[[P2·f45b]]
+**Biến định tính** (categorical) xếp mỗi cá thể vào một nhóm (môn thể thao yêu thích, nhóm máu); **biến định lượng** (quantitative) nhận giá trị số mà phép tính có ý nghĩa (chiều cao, thời gian). Dữ liệu định tính được biểu diễn bằng biểu đồ cột và tóm tắt bằng tần số hoặc tần số tương đối; dữ liệu định lượng biểu diễn bằng biểu đồ chấm, biểu đồ thân lá, biểu đồ tần số (histogram) và biểu đồ hộp.
+
+[[P3·acc3]]
+Để mô tả một phân phối định lượng, hãy nói đủ bốn điều, luôn gắn với tình huống:
+
+| Đặc điểm | Cần nói gì |
+|---|---|
+| Hình dạng | gần đối xứng, lệch phải hay lệch trái; số đỉnh |
+| Trung tâm | trung bình hoặc trung vị, kèm đơn vị |
+| Độ phân tán | độ lệch chuẩn, khoảng biến thiên hoặc IQR, kèm đơn vị |
+| Đặc điểm bất thường | giá trị ngoại lai, khoảng trống, cụm |
+
+## Số đo trung tâm và độ phân tán
+
+[[P4·cfc2]]
+Với dữ liệu $x_1,\dots,x_n$: **trung bình** là $\bar x=\dfrac{\sum x_i}{n}$; **trung vị** là giá trị đứng giữa của dữ liệu đã sắp xếp. **Độ lệch chuẩn mẫu** là
+  $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
+[[P5·b4a0]]
+xấp xỉ khoảng cách điển hình từ các giá trị đến trung bình. **Tứ phân vị** $Q_1$ và $Q_3$ là trung vị của nửa dưới và nửa trên, và $\text{IQR}=Q_3-Q_1$.
+
+[[P6·f634]]
+Trung vị và IQR là số đo **bền vững** (resistant): giá trị cực đoan hầu như không ảnh hưởng đến chúng. Trung bình và độ lệch chuẩn thì không. Trong phân phối lệch phải, đuôi dài kéo trung bình lên trên trung vị; trong phân phối lệch trái thì kéo xuống dưới.
+
+[[P7·4f0e]]
+Theo quy tắc $1{,}5\times\text{IQR}$, một giá trị là **giá trị ngoại lai** nếu nó nhỏ hơn $Q_1-1{,}5\,\text{IQR}$ hoặc lớn hơn $Q_3+1{,}5\,\text{IQR}$.
+
+  :::example Tìm giá trị ngoại lai
+  Số phút làm bài tập về nhà trong một buổi tối của $12$ học sinh là
+  $$3,\ 5,\ 6,\ 6,\ 7,\ 8,\ 9,\ 10,\ 11,\ 12,\ 14,\ 29.$$
+  Theo quy tắc $1{,}5\times\text{IQR}$, những giá trị nào là ngoại lai?
+  A. Chỉ $3$
+  B. $3$ và $29$
+  C. Không có giá trị ngoại lai.
+  D. Chỉ $29$
+
+  **Lời giải.** Với $12$ giá trị đã sắp xếp, nửa dưới là $3,5,6,6,7,8$ và nửa trên là $9,10,11,12,14,29$. Do đó $Q_1=\dfrac{6+6}{2}=6$, $Q_3=\dfrac{11+12}{2}=11{,}5$ và $\text{IQR}=5{,}5$.
+
+  Hai ngưỡng là $Q_1-1{,}5(5{,}5)=6-8{,}25=-2{,}25$ và $Q_3+1{,}5(5{,}5)=11{,}5+8{,}25=19{,}75$.
+
+  Chỉ có $29$ vượt ngưỡng, nên giá trị ngoại lai duy nhất là $29$ phút, chọn đáp án **D**.
+  :::
+
+  :::example Trung bình, trung vị và hình dạng
+  Lương năm ở một công ty nhỏ có trung bình $52$ nghìn đô la và trung vị $45$ nghìn đô la. Hình dạng nào của phân phối là có khả năng nhất?
+  A. Lệch trái
+  B. Lệch phải
+  C. Gần đối xứng
+  D. Đều
+
+  **Lời giải.** Trung bình lớn hơn trung vị khá nhiều. Điều này xảy ra khi vài giá trị rất lớn, ở đây là vài mức lương cao, kéo trung bình lên, trong khi trung vị vẫn nằm cùng phần lớn dữ liệu.
+
+  Vậy phân phối nhiều khả năng lệch phải, chọn đáp án **B**. Với dữ liệu như vậy, trung vị mô tả mức lương điển hình tốt hơn.
+  :::
+
+## Vị trí: điểm z và bách phân vị
+
+[[P8·6d11]]
+**Điểm z** của một giá trị cho biết nó cách trung bình bao nhiêu độ lệch chuẩn:
+  $$z=\frac{x-\text{trung bình}}{\text{độ lệch chuẩn}}.$$
+[[P9·95ba]]
+Điểm z âm nghĩa là nhỏ hơn trung bình. **Bách phân vị** (percentile) của một giá trị là phần trăm dữ liệu nhỏ hơn hoặc bằng nó. Điểm z cho phép so sánh các giá trị thuộc những phân phối khác nhau.
+
+  :::example So sánh bằng điểm z
+  Minh được $82$ điểm bài kiểm tra toán có trung bình $70$, độ lệch chuẩn $8$, và $75$ điểm bài kiểm tra vật lí có trung bình $65$, độ lệch chuẩn $4$. So với các bạn, Minh làm bài nào tốt hơn?
+
+  **Lời giải.** Ta so sánh điểm z. Với môn toán, $z=\dfrac{82-70}{8}=1{,}5$; với môn vật lí, $z=\dfrac{75-65}{4}=2{,}5$.
+
+  Điểm vật lí cao hơn trung bình $2{,}5$ độ lệch chuẩn, còn điểm toán chỉ cao hơn $1{,}5$ độ lệch chuẩn.
+
+  Vậy so với các bạn, Minh làm bài vật lí tốt hơn, dù điểm thô thấp hơn.
+  :::
+
+## So sánh hai phân phối
+
+[[P10·df21]]
+Khi so sánh hai nhóm, hãy nói về hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, và dùng **từ so sánh**. Liệt kê hai trung vị chưa phải là so sánh; "trung vị của A lớn hơn trung vị của B" mới là so sánh.
+
+  :::example Hai lớp học
+  Bộ năm số tóm tắt điểm kiểm tra của hai lớp như sau.
+
+  | Lớp | Min | $Q_1$ | Trung vị | $Q_3$ | Max |
+  |---|---|---|---|---|---|
+  | A | $40$ | $55$ | $68$ | $75$ | $90$ |
+  | B | $52$ | $60$ | $65$ | $70$ | $78$ |
+
+  So sánh trung tâm và độ phân tán của hai phân phối.
+
+  **Lời giải.** Trung tâm: trung vị điểm của lớp A ($68$) lớn hơn một chút so với trung vị của lớp B ($65$).
+
+  Độ phân tán: điểm của lớp A phân tán hơn. Khoảng biến thiên của lớp A là $90-40=50$ và IQR là $75-55=20$, còn của lớp B là $78-52=26$ và $70-60=10$.
+
+  Vậy lớp A có điểm điển hình cao hơn một chút nhưng điểm phân tán hơn nhiều so với lớp B.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P11·7589]]
+- **Thiếu tình huống:** "trung vị là $68$" nên viết "trung vị điểm của lớp A là $68$ điểm".
+- **Liệt kê thay vì so sánh:** dùng "lớn hơn", "nhỏ hơn", "gần bằng".
+- **Dùng trung bình cho dữ liệu lệch:** khi lệch mạnh hoặc có ngoại lai, mô tả trung tâm bằng trung vị và độ phân tán bằng IQR.
+- **Tính tứ phân vị bằng tay:** khi $n$ lẻ, bỏ trung vị ra khỏi cả hai nửa.
+- **Phương sai và độ lệch chuẩn:** độ lệch chuẩn có cùng đơn vị với dữ liệu.
+:::
+
+  :::terms
+  - categorical / quantitative variable | biến định tính / biến định lượng
+  - distribution | phân phối
+  - skewed right / left | lệch phải / lệch trái
+  - mean / median | trung bình / trung vị
+  - standard deviation | độ lệch chuẩn
+  - interquartile range (IQR) | khoảng tứ phân vị
+  - outlier | giá trị ngoại lai
+  - resistant measure | số đo bền vững
+  - z-score / percentile | điểm z / bách phân vị
+  - five-number summary | bộ năm số tóm tắt
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-statistics/apstats-one-variable-data – BẢN TIẾNG ANH ########
+---
+title: Describing one-variable data
+description: AP Statistics Unit 1: displays, shape, centre and variability, quartiles and outliers, z-scores and percentiles, and comparing distributions in context.
+minutes: 50
+---
+
+  :::goals
+  - Distinguish categorical and quantitative variables and choose suitable displays.
+  - Describe a distribution by its shape, centre, variability and unusual features, in context.
+  - Compute and interpret the mean, median, standard deviation, quartiles and interquartile range, and identify outliers with the $1.5\times\text{IQR}$ rule.
+  - Use z-scores and percentiles to describe the position of a value.
+  - Compare two distributions with comparative language.
+  :::
+
+[[P1·e81b]]
+Every statistical investigation starts by looking at the data. On the AP exam this is the core of free-response question 2 and appears in almost every other question too. The calculations are short; what earns points is describing what you see **in the context of the data** and **comparing** with words like "greater than" and "about the same as".
+
+## Variables and displays
+
+[[P2·11f3]]
+A **categorical** variable places each individual in a group (favourite sport, blood type); a **quantitative** variable takes numerical values for which arithmetic makes sense (height, time). Categorical data are shown with bar charts and summarised with counts or relative frequencies; quantitative data are shown with dotplots, stemplots, histograms and boxplots.
+
+[[P3·d06f]]
+To describe a quantitative distribution, cover four things, always in context:
+
+| Feature | What to say |
+|---|---|
+| Shape | roughly symmetric, skewed right or skewed left; number of peaks |
+| Centre | mean or median, with units |
+| Variability | standard deviation, range or IQR, with units |
+| Unusual features | outliers, gaps, clusters |
+
+## Measures of centre and variability
+
+[[P4·d09e]]
+For data $x_1,\dots,x_n$: the **mean** is $\bar x=\dfrac{\sum x_i}{n}$; the **median** is the middle value of the ordered data. The **sample standard deviation** is
+  $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
+[[P5·aca8]]
+roughly the typical distance of the values from the mean. The **quartiles** $Q_1$ and $Q_3$ are the medians of the lower and upper halves, and $\text{IQR}=Q_3-Q_1$.
+
+[[P6·4526]]
+The median and IQR are **resistant**: extreme values hardly affect them. The mean and standard deviation are not. In a right-skewed distribution the long tail pulls the mean above the median; in a left-skewed one, below it.
+
+[[P7·129d]]
+A value is an **outlier** by the $1.5\times\text{IQR}$ rule if it is below $Q_1-1.5\,\text{IQR}$ or above $Q_3+1.5\,\text{IQR}$.
+
+  :::example Finding outliers
+  The numbers of minutes $12$ students spent on homework one evening are
+  $$3,\ 5,\ 6,\ 6,\ 7,\ 8,\ 9,\ 10,\ 11,\ 12,\ 14,\ 29.$$
+  According to the $1.5\times\text{IQR}$ rule, which values are outliers?
+  A. $3$ only
+  B. $3$ and $29$
+  C. There are no outliers.
+  D. $29$ only
+
+  **Solution.** With $12$ ordered values, the lower half is $3,5,6,6,7,8$ and the upper half is $9,10,11,12,14,29$. So $Q_1=\dfrac{6+6}{2}=6$ and $Q_3=\dfrac{11+12}{2}=11.5$, and $\text{IQR}=5.5$.
+
+  The fences are $Q_1-1.5(5.5)=6-8.25=-2.25$ and $Q_3+1.5(5.5)=11.5+8.25=19.75$.
+
+  Only $29$ is beyond a fence, so the only outlier is $29$ minutes, answer **D**.
+  :::
+
+  :::example Mean, median and shape
+  The annual salaries at a small company have mean $52$ thousand dollars and median $45$ thousand dollars. Which is the most likely shape of the distribution?
+  A. Skewed left
+  B. Skewed right
+  C. Roughly symmetric
+  D. Uniform
+
+  **Solution.** The mean is well above the median. That happens when a few very large values, here a few high salaries, pull the mean upward while the median stays with the bulk of the data.
+
+  So the distribution is most likely skewed right, answer **B**. For such data the median is the better measure of a typical salary.
+  :::
+
+## Position: z-scores and percentiles
+
+[[P8·bb9d]]
+The **z-score** of a value says how many standard deviations it is from the mean:
+  $$z=\frac{x-\text{mean}}{\text{standard deviation}}.$$
+[[P9·4504]]
+A negative z-score means below the mean. The **percentile** of a value is the percent of the data less than or equal to it. Z-scores let us compare values from different distributions.
+
+  :::example Comparing with z-scores
+  Minh scored $82$ on a mathematics test with mean $70$ and standard deviation $8$, and $75$ on a physics test with mean $65$ and standard deviation $4$. On which test did he do better relative to the other students?
+
+  **Solution.** We compare z-scores. For mathematics, $z=\dfrac{82-70}{8}=1.5$; for physics, $z=\dfrac{75-65}{4}=2.5$.
+
+  His physics score is $2.5$ standard deviations above the mean, while his mathematics score is only $1.5$ standard deviations above.
+
+  So Minh did better on the physics test relative to the other students, even though his raw score was lower.
+  :::
+
+## Comparing distributions
+
+[[P10·abf0]]
+When comparing two groups, address shape, centre, variability and unusual features, and use **comparative words**. Listing the two medians is not a comparison; "the median for A is greater than the median for B" is.
+
+  :::example Two classes
+  Five-number summaries of test scores are given for two classes.
+
+  | Class | Min | $Q_1$ | Median | $Q_3$ | Max |
+  |---|---|---|---|---|---|
+  | A | $40$ | $55$ | $68$ | $75$ | $90$ |
+  | B | $52$ | $60$ | $65$ | $70$ | $78$ |
+
+  Compare the centre and variability of the two distributions.
+
+  **Solution.** Centre: the median score for class A ($68$) is slightly greater than the median for class B ($65$).
+
+  Variability: class A's scores vary more. Its range is $90-40=50$ and its IQR is $75-55=20$, while class B's range is $78-52=26$ and its IQR is $70-60=10$.
+
+  So class A has a slightly higher typical score but much more variable scores than class B.
+  :::
+
+:::warning Common traps
+[[P11·9093]]
+- **No context:** "the median is $68$" should be "the median score for class A is $68$ points".
+- **Listing instead of comparing:** use "greater than", "less than", "about the same as".
+- **Mean for skewed data:** with strong skew or outliers, describe centre with the median and variability with the IQR.
+- **Quartiles by hand:** exclude the median from both halves when $n$ is odd.
+- **Variance versus standard deviation:** the standard deviation has the same units as the data.
+:::
+
+  :::terms
+  - categorical / quantitative variable | biến định tính / biến định lượng
+  - distribution | phân phối
+  - skewed right / left | lệch phải / lệch trái
+  - mean / median | trung bình / trung vị
+  - standard deviation | độ lệch chuẩn
+  - interquartile range (IQR) | khoảng tứ phân vị
+  - outlier | giá trị ngoại lai
+  - resistant measure | số đo bền vững
+  - z-score / percentile | điểm z / bách phân vị
+  - five-number summary | bộ năm số tóm tắt
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Applied exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

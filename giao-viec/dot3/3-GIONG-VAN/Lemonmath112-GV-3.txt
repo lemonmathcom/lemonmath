@@ -1,0 +1,2104 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/derivative-real-problems, g12/exam-format-strategy, g12/graphing-functions, g12/grouped-range-iqr
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath112-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath112-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/derivative-real-problems – BẢN TIẾNG VIỆT ########
+---
+title: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn
+description: Lập hàm số cho bài toán thực tế, tìm giá trị lớn nhất, nhỏ nhất (diện tích, thể tích, chi phí, lợi nhuận) và tính vận tốc, gia tốc, tốc độ thay đổi.
+minutes: 22
+---
+
+  :::goals
+  - Chuyển một bài toán thực tế thành bài toán tìm giá trị lớn nhất, nhỏ nhất của một hàm số trên một miền.
+  - Giải các bài toán tối ưu về diện tích, thể tích, vật liệu, chi phí, lợi nhuận và đường đi.
+  - Dùng đạo hàm để tính vận tốc, gia tốc và tốc độ thay đổi của một đại lượng.
+  - Trả lời đầy đủ, có đơn vị, và kiểm tra kết quả có hợp lí không.
+  :::
+
+[[P1·fe3e]]
+Một xưởng cần làm những chiếc thùng tôn **không nắp**, đáy hình vuông, chứa được đúng $32$ dm³ (tức $32$ lít). Thùng càng tốn ít tôn thì càng rẻ. Nếu đáy rộng $2$ dm thì thùng phải cao $8$ dm; nếu đáy rộng $6$ dm thì chỉ cần cao chưa đến $1$ dm. Nên chọn cạnh đáy bao nhiêu để tốn ít tôn nhất?
+
+[[P2·35ee]]
+"Làm thế nào cho tốt nhất" là câu hỏi của người kĩ sư, người bán hàng và cả người làm vườn: rào vườn sao cho tốn ít lưới nhất, định giá sao cho doanh thu cao nhất, chạy xe ở tốc độ nào cho chuyến đi đỡ tốn kém nhất. Đạo hàm biến những câu hỏi đời thường ấy thành bài toán tìm giá trị lớn nhất, nhỏ nhất mà ta đã biết cách giải.
+
+## Bài toán tối ưu
+
+### Khám phá: thử vài kích thước
+
+[[P3·9b6e]]
+Gọi cạnh đáy là $x$ (dm). Chiều cao là $h=\dfrac{32}{x^2}$, và diện tích tôn (đáy và bốn mặt bên) là
+  $$S(x)=x^2+4xh=x^2+\frac{128}{x}.$$
+
+| $x$ (dm) | $2$ | $3$ | $4$ | $5$ | $6$ |
+|---|---|---|---|---|---|
+| $S(x)$ (dm²) | $68$ | $\approx51{,}67$ | $48$ | $50{,}6$ | $\approx57{,}33$ |
+
+[[P4·9e8e]]
+Đáy nhỏ thì thành cao, tốn tôn ở mặt bên; đáy lớn thì tốn tôn ở đáy. Giá trị tốt nhất có vẻ ở gần $x=4$, nhưng bảng chưa chứng minh được điều đó. Đạo hàm sẽ trả lời chính xác.
+
+[[P5·669c]]
+**Hiểu sâu hơn.** Trong bài toán tối ưu thường có hai xu hướng ngược nhau: ở đây, thu nhỏ đáy thì tiết kiệm tôn ở đáy nhưng tốn thêm tôn ở thành. Điểm tốt nhất là nơi hai xu hướng "cân bằng", tức là nơi đạo hàm bằng $0$. Chẳng hạn tại $x=4$, phần đáy $x^2$ có đạo hàm $2x=8$, phần thành $\dfrac{128}{x}$ có đạo hàm $-\dfrac{128}{x^2}=-8$: tăng cạnh đáy thêm một chút thì phần tôn thêm ở đáy vừa bằng phần tôn bớt ở thành.
+
+[[P6·bc5f]]
+**Kết nối.** Bài này dùng trực tiếp cách tìm giá trị lớn nhất, nhỏ nhất (bài trước) và ý nghĩa của đạo hàm là tốc độ thay đổi (lớp 11): vận tốc, gia tốc, chi phí tăng thêm khi làm thêm một sản phẩm. Ở chương sau, nguyên hàm và tích phân làm điều ngược lại: từ tốc độ thay đổi tìm lại đại lượng ban đầu.
+
+:::note Các bước giải bài toán tối ưu
+[[P7·478f]]
+1. **Chọn ẩn** (thường là một độ dài, một số lượng, một thời điểm) và nêu **điều kiện** của ẩn.
+2. **Lập hàm số** biểu diễn đại lượng cần lớn nhất hoặc nhỏ nhất theo ẩn.
+3. **Tìm giá trị lớn nhất hoặc nhỏ nhất** của hàm số trên miền điều kiện (bảng biến thiên hoặc so sánh giá trị trên một đoạn).
+4. **Kết luận** bằng lời, có đơn vị, và kiểm tra kết quả có hợp lí không.
+:::
+
+  :::example Thùng tôn tốn ít vật liệu nhất
+  Tìm cạnh đáy và chiều cao của thùng tôn không nắp, đáy vuông, thể tích $32$ dm³, sao cho diện tích tôn cần dùng là nhỏ nhất.
+
+  **Lời giải.** Gọi $x$ (dm) là cạnh đáy của thùng ($x>0$). Theo phần khám phá, diện tích tôn cần dùng là $S(x)=x^2+\dfrac{128}{x}$. Xét hàm số trên khoảng $(0; +\infty)$, ta có
+
+  $$S'(x)=2x-\frac{128}{x^2}=\frac{2(x^3-64)}{x^2},\qquad S'(x)=0\iff x^3=64\iff x=4.$$
+
+  Vì $S'<0$ khi $0<x<4$ và $S'>0$ khi $x>4$ nên $S$ nhỏ nhất tại $x=4$, với $S(4)=16+32=48$. Khi đó $h=\dfrac{32}{16}=2$. Ta thấy thể tích $4\cdot4\cdot2=32$ dm³, thoả mãn yêu cầu.
+
+  Vậy nên làm thùng có đáy $4\times4$ dm và cao $2$ dm; lượng tôn ít nhất là $48$ dm².
+  :::
+
+:::graph Diện tích tôn $S(x)=x^2+\dfrac{128}{x}$
+   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·afc2]]
+Bài toán kinh doanh cũng có dạng này, nhưng miền của ẩn thường là một đoạn, nên phải so sánh cả hai đầu mút.
+
+  :::example Lợi nhuận lớn nhất
+  Một công ty ước tính nếu sản xuất $x$ trăm sản phẩm mỗi tháng ($0\le x\le 15$) thì lợi nhuận là $P(x)=-x^3+9x^2+120x-200$ (triệu đồng). Hỏi công ty nên sản xuất bao nhiêu sản phẩm mỗi tháng để lợi nhuận lớn nhất?
+
+  **Lời giải.** Ta cần tìm giá trị lớn nhất của hàm số $P$ trên đoạn $[0; 15]$. Ta có
+
+  $$P'(x)=-3x^2+18x+120=-3(x-10)(x+4)=0\iff x=10\ \ (\text{loại } x=-4).$$
+
+  Ta có
+
+  $$P(0)=-200,\qquad P(10)=-1000+900+1200-200=900,\qquad P(15)=250.$$
+
+  Vậy công ty nên sản xuất $1000$ sản phẩm mỗi tháng ($x=10$); lợi nhuận lớn nhất là $900$ triệu đồng.
+  :::
+
+## Vận tốc, gia tốc và tốc độ thay đổi
+
+[[P9·8378]]
+Đạo hàm $f'(t_0)$ là **tốc độ thay đổi tức thời** của đại lượng $f$ tại thời điểm $t_0$. Với một vật chuyển động trên đường thẳng có quãng đường $s(t)$:
+
+[[P10·0ff5]]
+- vận tốc là $v(t)=s'(t)$;
+- gia tốc là $a(t)=v'(t)=s''(t)$ (xem đạo hàm cấp hai ở lớp 11).
+
+  :::example Vận tốc lớn nhất
+  Một chiếc xe thử nghiệm chạy trên đường thẳng với quãng đường $s(t)=-t^3+9t^2$ (mét) sau $t$ giây, $0\le t\le 6$. Tính gia tốc tại $t=1$ và tìm vận tốc lớn nhất của xe.
+
+  **Lời giải.** Ta có
+
+  $$v(t)=s'(t)=-3t^2+18t,\qquad a(t)=v'(t)=-6t+18.$$
+
+  Do đó $a(1)=12$ m/s². Xét hàm số $v$ trên đoạn $[0; 6]$, ta có $v'(t)=a(t)$ và
+
+  $$a(t)=0\iff t=3;\qquad v(0)=0,\quad v(3)=-27+54=27,\quad v(6)=-108+108=0.$$
+
+  Ta thấy vận tốc lớn nhất đạt đúng lúc gia tốc bằng $0$: trước đó xe tăng tốc ($a>0$), sau đó xe giảm tốc ($a<0$).
+
+  Vậy tại $t=1$ gia tốc là $12$ m/s²; vận tốc lớn nhất là $27$ m/s, đạt tại $t=3$ giây.
+  :::
+
+[[P11·e204]]
+Tốc độ thay đổi không chỉ dùng cho chuyển động. Ví dụ sau là nhiệt độ.
+
+  :::example Cốc trà nguội đi
+  Nhiệt độ của một cốc trà sau $t$ phút là $T(t)=20+\dfrac{70}{1+0{,}1t}$ (°C). Tính nhiệt độ lúc đầu, và tốc độ thay đổi nhiệt độ tại thời điểm $t=10$ phút.
+
+  **Lời giải.** Ta có $T(0)=20+70=90$ °C. Viết $T(t)=20+70(1+0{,}1t)^{-1}$, theo quy tắc đạo hàm của hàm hợp, ta có
+
+  $$T'(t)=-70\cdot0{,}1\cdot(1+0{,}1t)^{-2}=\frac{-7}{(1+0{,}1t)^2},\qquad T'(10)=\frac{-7}{2^2}=-1{,}75.$$
+
+  Vậy lúc đầu trà nóng $90$ °C; tại $t=10$ phút, nhiệt độ đang giảm với tốc độ $1{,}75$ °C mỗi phút (dấu âm nghĩa là giảm).
+  :::
+
+## Đường đi và chi phí nhỏ nhất
+
+[[P12·add3]]
+Bài toán có nhiều dữ kiện nên ta giải theo bốn bước.
+
+:::diagram Đường ống từ trạm bơm $A$ đến nhà máy $F$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đường ống rẻ nhất
+  Nhà máy $F$ cách bờ sông (thẳng) $3$ km, $H$ là điểm trên bờ gần $F$ nhất. Trạm bơm $A$ nằm trên bờ, cách $H$ là $8$ km. Người ta đặt ống dọc bờ từ $A$ đến một điểm $M$ thuộc đoạn $AH$, rồi đặt ống thẳng từ $M$ đến $F$. Mỗi km ống dọc bờ tốn $3$ tỉ đồng, mỗi km ống trên đất liền từ $M$ đến $F$ tốn $5$ tỉ đồng. Xác định vị trí của điểm $M$ để chi phí đặt ống là nhỏ nhất.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần chọn vị trí $M$ trên đoạn $AH$ dài $8$ km. Chi phí gồm hai đoạn ống có giá khác nhau, nên đường ống ngắn nhất chưa chắc rẻ nhất.
+
+  *Tìm cách giải.* Gọi $HM=x$ (km), $0\le x\le 8$. Khi đó $AM=8-x$ và theo định lí Pythagore, $MF=\sqrt{x^2+9}$. Chi phí đặt ống là
+  $$C(x)=3(8-x)+5\sqrt{x^2+9}\ \ (\text{tỉ đồng}).$$
+  Ta tìm giá trị nhỏ nhất của $C$ trên đoạn $[0; 8]$.
+
+  *Giải.* Ta có (hai vế không âm nên bình phương được)
+
+  $$C'(x)=-3+\frac{5x}{\sqrt{x^2+9}}=0\iff 5x=3\sqrt{x^2+9}\iff 25x^2=9x^2+81\iff x=\frac94.$$
+
+  Với $x=\dfrac94=2{,}25$, ta có $\sqrt{x^2+9}=\sqrt{14{,}0625}=3{,}75$ nên $C(2{,}25)=3\cdot5{,}75+5\cdot3{,}75=36$. Mà $C(0)=24+15=39$, $C(8)=5\sqrt{73}\approx42{,}72$.
+
+  Vậy chọn $M$ cách $H$ là $2{,}25$ km (cách $A$ là $5{,}75$ km); chi phí nhỏ nhất là $36$ tỉ đồng.
+
+  *Nhìn lại.* Nếu trạm bơm ở xa hơn, chẳng hạn $AH=12$ km, thì điểm $M$ tốt nhất có thay đổi không? Phương trình $C'(x)=0$ không chứa độ dài $AH$, nên vẫn có $x=\dfrac94$: điểm $M$ luôn cách $H$ là $2{,}25$ km (miễn là $AH\ge 2{,}25$ km). Kết quả cũng hợp lí: đặt ống thẳng từ $A$ đến $F$ ($x=8$) cho đường ống ngắn nhất nhưng đắt nhất, vì toàn bộ ống đi trên đất liền.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P13·afc7]]
+- **Quên điều kiện của ẩn.** Sai: hộp làm từ tấm bìa $60$ cm, cắt hình vuông cạnh $x$, giải $V'(x)=0$ được $x=10$ và $x=30$ rồi lấy cả hai. Lí do sai: phải có $0<x<30$ để hộp tồn tại. Đúng: chỉ lấy $x=10$.
+- **Tìm được điểm tới hạn nhưng không kiểm tra đó là lớn nhất hay nhỏ nhất.** Sai: "$S'(4)=0$ nên $S(4)$ là lớn nhất". Lí do sai: $S'$ đổi dấu từ $-$ sang $+$ tại $4$. Đúng: $S(4)$ là nhỏ nhất.
+- **Bỏ qua đầu mút trong bài toán trên một đoạn.** Sai: kết luận lợi nhuận lớn nhất mà không tính $P(0)$, $P(15)$. Lí do sai: giá trị lớn nhất có thể ở đầu mút. Đúng: so sánh cả ba giá trị.
+- **Trả lời thiếu đơn vị hoặc sai đại lượng.** Sai: "đáp số là $x=10$" khi đề hỏi số sản phẩm và $x$ tính theo trăm. Lí do sai: $x=10$ là $10$ trăm. Đúng: $1000$ sản phẩm, lợi nhuận $900$ triệu đồng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bài toán tối ưu | optimisation problem
+  - hàm mục tiêu | objective function
+  - điều kiện của ẩn | constraint on the variable
+  - vận tốc | velocity
+  - gia tốc | acceleration
+  - tốc độ thay đổi tức thời | instantaneous rate of change
+  - chi phí | cost
+  - lợi nhuận | profit
+  - doanh thu | revenue
+  :::
+
+## Tóm tắt
+
+[[P14·2e8b]]
+- Bốn bước: chọn ẩn và điều kiện → lập hàm số → tìm giá trị lớn nhất, nhỏ nhất trên miền → kết luận có đơn vị.
+- Miền là một khoảng: dùng bảng biến thiên. Miền là một đoạn: so sánh giá trị tại điểm tới hạn và hai đầu mút.
+- Chuyển động: $v(t)=s'(t)$, $a(t)=v'(t)=s''(t)$; vận tốc lớn nhất thường đạt khi $a(t)=0$.
+- $f'(t_0)$ là tốc độ thay đổi tức thời của $f$ tại $t_0$; dấu âm nghĩa là đại lượng đang giảm.
+- Luôn kiểm tra kết quả: có thoả điều kiện không, có hợp lí với thực tế không.
+
+## Luyện tập
+
+[[P15·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/derivative-real-problems – BẢN TIẾNG ANH ########
+---
+title: Derivatives in real-world problems
+description: Set up a function for a real problem, find a maximum or minimum (area, volume, cost, profit) and compute velocity, acceleration and rates of change.
+minutes: 22
+---
+
+  :::goals
+  - Turn a real-life problem into finding the maximum or minimum of a function on a domain.
+  - Solve optimisation problems about area, volume, material, cost, profit and paths.
+  - Use derivatives to compute velocity, acceleration and the rate of change of a quantity.
+  - Give a complete answer with units, and check that the result is sensible.
+  :::
+
+[[P1·9f74]]
+A workshop has to make sheet-metal tanks **with no lid**, with a square base, holding exactly $32$ dm³ (that is, $32$ litres). The less metal a tank uses, the cheaper it is. If the base is $2$ dm wide, the tank must be $8$ dm tall; if the base is $6$ dm wide, it needs to be less than $1$ dm tall. What base side should we choose to use the least metal?
+
+[[P2·15d8]]
+"What is the best way to do it?" is a question for engineers, shopkeepers and gardeners alike: how to fence a garden with the least netting, how to price a product for the highest revenue, how fast to drive so that a trip costs least. The derivative turns these everyday questions into problems of finding maximum and minimum values, which we already know how to solve.
+
+## Optimisation problems
+
+### Explore: try a few sizes
+
+[[P3·6763]]
+Let the base side be $x$ (dm). The height is $h=\dfrac{32}{x^2}$, and the area of metal (the base and four sides) is
+  $$S(x)=x^2+4xh=x^2+\frac{128}{x}.$$
+
+| $x$ (dm) | $2$ | $3$ | $4$ | $5$ | $6$ |
+|---|---|---|---|---|---|
+| $S(x)$ (dm²) | $68$ | $\approx51.67$ | $48$ | $50.6$ | $\approx57.33$ |
+
+[[P4·85aa]]
+A small base means tall sides, so a lot of metal goes on the sides; a large base uses a lot of metal on the bottom. The best value seems to be near $x=4$, but the table does not prove it. The derivative will give the exact answer.
+
+[[P5·d299]]
+**A closer look.** An optimisation problem usually has two opposite tendencies: here, a smaller base saves metal on the bottom but needs more metal on the sides. The best point is where the two tendencies "balance", that is, where the derivative is $0$. For example, at $x=4$ the bottom $x^2$ has derivative $2x=8$ and the sides $\dfrac{128}{x}$ have derivative $-\dfrac{128}{x^2}=-8$: widening the base a little adds exactly as much metal to the bottom as it saves on the sides.
+
+[[P6·2839]]
+**Connections.** This lesson uses maximum and minimum values (previous lesson) and the meaning of the derivative as a rate of change (grade 11): velocity, acceleration, the extra cost of one more product. In the next chapter, antiderivatives and integrals do the reverse: from a rate of change they recover the original quantity.
+
+:::note Steps for an optimisation problem
+[[P7·71ad]]
+1. **Choose the variable** (often a length, a quantity or a time) and state its **constraint**.
+2. **Set up the function** giving the quantity to be maximised or minimised in terms of the variable.
+3. **Find the maximum or minimum** of the function on the allowed domain (a table of variations, or comparing values on a closed interval).
+4. **Conclude** in words, with units, and check that the result is sensible.
+:::
+
+  :::example The tank that uses the least material
+  Find the base side and the height of the open tank with a square base and volume $32$ dm³ that uses the least area of metal.
+
+  **Solution.** Let $x$ (dm) be the base side of the tank ($x>0$). From the exploration, the area of metal needed is $S(x)=x^2+\dfrac{128}{x}$. Considering the function on $(0, +\infty)$, we have
+
+  $$S'(x)=2x-\frac{128}{x^2}=\frac{2(x^3-64)}{x^2},\qquad S'(x)=0\iff x^3=64\iff x=4.$$
+
+  Since $S'<0$ for $0<x<4$ and $S'>0$ for $x>4$, $S$ is smallest at $x=4$, with $S(4)=16+32=48$. Then $h=\dfrac{32}{16}=2$. We see that the volume is $4\cdot4\cdot2=32$ dm³, as required.
+
+  So the tank should have a $4\times4$ dm base and be $2$ dm tall; the least amount of metal is $48$ dm².
+  :::
+
+:::graph Area of metal $S(x)=x^2+\dfrac{128}{x}$
+   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·51fc]]
+Business problems have the same shape, but the domain is often a closed interval, so both endpoints must be compared too.
+
+  :::example The largest profit
+  A company estimates that if it makes $x$ hundred products a month ($0\le x\le 15$), its profit is $P(x)=-x^3+9x^2+120x-200$ (million đồng). How many products a month should the company make so that its profit is largest?
+
+  **Solution.** We need the maximum value of the function $P$ on $[0, 15]$. We have
+
+  $$P'(x)=-3x^2+18x+120=-3(x-10)(x+4)=0\iff x=10\ \ (\text{reject } x=-4).$$
+
+  We have
+
+  $$P(0)=-200,\qquad P(10)=-1000+900+1200-200=900,\qquad P(15)=250.$$
+
+  So the company should make $1000$ products a month ($x=10$); the largest profit is $900$ million đồng.
+  :::
+
+## Velocity, acceleration and rates of change
+
+[[P9·f515]]
+The derivative $f'(t_0)$ is the **instantaneous rate of change** of the quantity $f$ at time $t_0$. For an object moving along a straight line with distance $s(t)$:
+
+[[P10·3ffb]]
+- the velocity is $v(t)=s'(t)$;
+- the acceleration is $a(t)=v'(t)=s''(t)$ (see the second derivative in grade 11).
+
+  :::example The greatest velocity
+  A test car runs along a straight track and has travelled $s(t)=-t^3+9t^2$ (metres) after $t$ seconds, $0\le t\le 6$. Find the acceleration at $t=1$ and the greatest velocity of the car.
+
+  **Solution.** We have
+
+  $$v(t)=s'(t)=-3t^2+18t,\qquad a(t)=v'(t)=-6t+18.$$
+
+  Hence $a(1)=12$ m/s². Considering the function $v$ on $[0, 6]$, we have $v'(t)=a(t)$ and
+
+  $$a(t)=0\iff t=3;\qquad v(0)=0,\quad v(3)=-27+54=27,\quad v(6)=-108+108=0.$$
+
+  We see that the greatest velocity occurs exactly when the acceleration is $0$: before that the car speeds up ($a>0$), and after it the car slows down ($a<0$).
+
+  So at $t=1$ the acceleration is $12$ m/s²; the greatest velocity is $27$ m/s, reached at $t=3$ seconds.
+  :::
+
+[[P11·b4c1]]
+Rates of change are not only for motion. The next example is about temperature.
+
+  :::example A cup of tea cools down
+  The temperature of a cup of tea after $t$ minutes is $T(t)=20+\dfrac{70}{1+0.1t}$ (°C). Find the starting temperature and the rate of change of the temperature at $t=10$ minutes.
+
+  **Solution.** We have $T(0)=20+70=90$ °C. Writing $T(t)=20+70(1+0.1t)^{-1}$, by the chain rule we have
+
+  $$T'(t)=-70\cdot0.1\cdot(1+0.1t)^{-2}=\frac{-7}{(1+0.1t)^2},\qquad T'(10)=\frac{-7}{2^2}=-1.75.$$
+
+  So the tea starts at $90$ °C; at $t=10$ minutes its temperature is falling at $1.75$ °C per minute (the minus sign means it is decreasing).
+  :::
+
+## Shortest paths and least cost
+
+[[P12·660f]]
+This problem has a lot of data, so we solve it in four steps.
+
+:::diagram A pipeline from the pumping station $A$ to the factory $F$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The cheapest pipeline
+  A factory $F$ is $3$ km from a straight river bank, and $H$ is the point on the bank closest to $F$. A pumping station $A$ is on the bank, $8$ km from $H$. A pipe is laid along the bank from $A$ to a point $M$ on the segment $AH$, then straight from $M$ to $F$. Each km of pipe along the bank costs $3$ billion đồng, and each km of pipe over land from $M$ to $F$ costs $5$ billion đồng. Find the position of $M$ that makes the cost of the pipeline as small as possible.
+
+  **Solution.**
+
+  *Understand.* We must choose the position of $M$ on the segment $AH$, which is $8$ km long. The cost is made of two pieces of pipe with different prices, so the shortest pipeline is not necessarily the cheapest.
+
+  *Plan.* Let $HM=x$ (km), $0\le x\le 8$. Then $AM=8-x$ and, by Pythagoras' theorem, $MF=\sqrt{x^2+9}$. The cost of the pipeline is
+  $$C(x)=3(8-x)+5\sqrt{x^2+9}\ \ (\text{billion đồng}).$$
+  We find the minimum value of $C$ on $[0, 8]$.
+
+  *Solve.* We have (both sides are non-negative, so we may square)
+
+  $$C'(x)=-3+\frac{5x}{\sqrt{x^2+9}}=0\iff 5x=3\sqrt{x^2+9}\iff 25x^2=9x^2+81\iff x=\frac94.$$
+
+  For $x=\dfrac94=2.25$, we have $\sqrt{x^2+9}=\sqrt{14.0625}=3.75$, so $C(2.25)=3\cdot5.75+5\cdot3.75=36$. Also $C(0)=24+15=39$, $C(8)=5\sqrt{73}\approx42.72$.
+
+  So $M$ should be $2.25$ km from $H$ (that is, $5.75$ km from $A$); the least cost is $36$ billion đồng.
+
+  *Look back.* If the pumping station were further away, say $AH=12$ km, would the best point $M$ change? The equation $C'(x)=0$ does not involve the length $AH$, so we still get $x=\dfrac94$: the point $M$ is always $2.25$ km from $H$ (as long as $AH\ge 2.25$ km). The result is also sensible: laying the pipe straight from $A$ to $F$ ($x=8$) gives the shortest pipeline but the most expensive one, because all of the pipe is over land.
+  :::
+
+:::warning Common mistakes
+[[P13·cbae]]
+- **Forgetting the constraint on the variable.** Wrong: for a box made from a $60$ cm sheet by cutting squares of side $x$, solving $V'(x)=0$ gives $x=10$ and $x=30$, and both are kept. Why it is wrong: the box exists only if $0<x<30$. Right: keep only $x=10$.
+- **Finding a critical point without checking whether it is a maximum or a minimum.** Wrong: "$S'(4)=0$, so $S(4)$ is the largest". Why it is wrong: $S'$ changes sign from $-$ to $+$ at $4$. Right: $S(4)$ is the smallest.
+- **Ignoring the endpoints on a closed interval.** Wrong: concluding the largest profit without computing $P(0)$ and $P(15)$. Why it is wrong: the maximum can be at an endpoint. Right: compare all three values.
+- **Answering without units or with the wrong quantity.** Wrong: "the answer is $x=10$" when the question asks for the number of products and $x$ counts hundreds. Why it is wrong: $x=10$ means $10$ hundred. Right: $1000$ products, with a profit of $900$ million đồng.
+:::
+
+## Key terms
+
+  :::terms
+  - optimisation problem | bài toán tối ưu
+  - objective function | hàm mục tiêu
+  - constraint on the variable | điều kiện của ẩn
+  - velocity | vận tốc
+  - acceleration | gia tốc
+  - instantaneous rate of change | tốc độ thay đổi tức thời
+  - cost | chi phí
+  - profit | lợi nhuận
+  - revenue | doanh thu
+  :::
+
+## Summary
+
+[[P14·8b62]]
+- Four steps: choose the variable and its constraint → set up the function → find the maximum or minimum on the domain → conclude with units.
+- The domain is an open interval: use a table of variations. A closed interval: compare the values at the critical points and at both endpoints.
+- Motion: $v(t)=s'(t)$, $a(t)=v'(t)=s''(t)$; the greatest velocity is usually reached when $a(t)=0$.
+- $f'(t_0)$ is the instantaneous rate of change of $f$ at $t_0$; a minus sign means the quantity is decreasing.
+- Always check the result: does it satisfy the constraint, and does it make sense in real life?
+
+## Practice
+
+[[P15·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/exam-format-strategy – BẢN TIẾNG VIỆT ########
+---
+title: Cấu trúc đề thi và cách làm bài
+description: Nắm cấu trúc đề thi tốt nghiệp THPT môn Toán từ năm 2025, cách tính điểm ba phần, cách phân bổ thời gian và cách ghi đáp số trả lời ngắn.
+minutes: 25
+---
+
+  :::goals
+  - Mô tả được ba phần của đề thi tốt nghiệp THPT môn Toán và cách tính điểm từng phần.
+  - Tính được điểm của một bài làm, đặc biệt là điểm của câu đúng/sai.
+  - Lập được kế hoạch thời gian cho 90 phút và chọn thứ tự làm bài hợp lí.
+  - Làm tròn và ghi đáp số trả lời ngắn vào 4 ô đúng quy định.
+  :::
+
+[[P1·556b]]
+Hai bạn cùng làm đúng $8$ ý đúng/sai trong Phần II. Bạn Hà đúng đủ $4$ ý ở hai câu, còn hai câu kia sai hết. Bạn Nam đúng $2$ ý ở mỗi câu trong bốn câu. Ai được nhiều điểm hơn?
+
+[[P2·bd5b]]
+Câu trả lời nằm ở cách tính điểm Phần II, và nó ảnh hưởng trực tiếp đến cách bạn nên làm bài. Bài này giới thiệu cấu trúc đề theo đề minh hoạ của Bộ GD&ĐT từ năm 2025 và các thói quen giúp bạn không mất điểm oan. Bộ có thể điều chỉnh cấu trúc hoặc cách tính điểm theo từng năm, vì vậy bạn nên theo dõi thông báo chính thức của năm mình thi.
+
+## Cấu trúc đề và cách tính điểm
+
+[[P3·b770]]
+Đề thi gồm ba phần, làm trong $90$ phút, tổng điểm là $10$.
+
+| Phần | Dạng câu hỏi | Số câu | Điểm mỗi câu | Tổng |
+|---|---|---|---|---|
+| I | Trắc nghiệm nhiều phương án lựa chọn (A, B, C, D) | $12$ | $0{,}25$ | $3$ |
+| II | Trắc nghiệm đúng/sai, mỗi câu có $4$ ý a), b), c), d) | $4$ | tối đa $1$ | $4$ |
+| III | Trắc nghiệm trả lời ngắn | $6$ | $0{,}5$ | $3$ |
+
+:::note Điểm một câu đúng/sai
+[[P4·47c6]]
+Trong một câu của Phần II, số ý bạn chọn đúng quyết định điểm của câu đó:
+
+[[P5·d3b1]]
+| Số ý đúng | $0$ | $1$ | $2$ | $3$ | $4$ |
+|---|---|---|---|---|---|
+| Điểm | $0$ | $0{,}1$ | $0{,}25$ | $0{,}5$ | $1$ |
+:::
+
+[[P6·67b9]]
+Điểm tăng rất nhanh ở ý cuối: từ $3$ lên $4$ ý đúng, điểm tăng gấp đôi. Vì vậy mỗi ý đều đáng để kiểm tra kĩ.
+
+  :::example Tính điểm một bài làm
+  Bạn An làm đúng $10$ câu Phần I. Ở Phần II, An đúng lần lượt $4$, $3$, $2$, $3$ ý. Ở Phần III, An đúng $4$ câu. Tính điểm của An.
+
+  **Lời giải.** Ta tính điểm từng phần rồi cộng lại:
+
+  $$\begin{aligned}
+  \text{Phần I}&: 10\cdot0{,}25=2{,}5,\\
+  \text{Phần II}&: 1+0{,}5+0{,}25+0{,}5=2{,}25,\\
+  \text{Phần III}&: 4\cdot0{,}5=2.
+  \end{aligned}$$
+
+  Vậy An được $2{,}5+2{,}25+2=6{,}75$ điểm.
+  :::
+
+[[P7·fcac]]
+Quay lại câu hỏi đầu bài: Hà được $1+1=2$ điểm, còn Nam được $4\cdot0{,}25=1$ điểm. Cùng $8$ ý đúng, nhưng Hà được gấp đôi.
+
+## Phần I: trắc nghiệm nhiều phương án
+
+[[P8·b205]]
+Mỗi câu có đúng một phương án đúng, không trừ điểm khi sai. Vì vậy **không bỏ trống câu nào**. Các câu Phần I thường ngắn, kiểm tra một công thức hoặc một bước tính.
+
+[[P9·7c1f]]
+Ba cách làm nhanh:
+- **Giải trực tiếp** rồi so với các phương án.
+- **Thử ngược**: thay từng phương án vào điều kiện của đề (ví dụ lấy đạo hàm của phương án để kiểm tra nguyên hàm).
+- **Loại trừ**: các phương án sai thường là kết quả của một lỗi quen thuộc (sai dấu, quên hệ số, nhầm công thức). Nhận ra lỗi giúp bạn loại nhanh.
+
+  :::example Thử ngược bằng đạo hàm
+  Họ nguyên hàm của hàm số $f(x)=2x+e^x$ là
+  A. $x^2+e^x+C$.
+  B. $2+e^x+C$.
+  C. $x^2+\dfrac{e^{x+1}}{x+1}+C$.
+  D. $\dfrac{x^2}{2}+e^x+C$.
+
+  **Lời giải.** Phương án nào có đạo hàm bằng $f(x)$ thì đúng. Lấy đạo hàm phương án A:
+
+  $$\left(x^2+e^x+C\right)'=2x+e^x=f(x).$$
+
+  Vậy chọn **A**. Phương án B là đạo hàm của $2x$ chứ không phải nguyên hàm; C dùng sai công thức luỹ thừa cho $e^x$; D quên hệ số $2$.
+  :::
+
+## Phần II: trắc nghiệm đúng/sai
+
+[[P10·bfc9]]
+Mỗi câu cho một tình huống chung (một hàm số, một hình, một bảng số liệu) rồi đưa ra bốn ý. Ý sau thường khó hơn ý trước.
+
+:::tip Xét từng ý độc lập
+[[P11·214a]]
+- Đọc kĩ phần dẫn chung, tính trước những thứ dùng nhiều lần (đạo hàm, nghiệm, giá trị tại các điểm).
+- Mỗi ý là một khẳng định riêng; ý này sai không có nghĩa ý kia sai. Không có quy luật "phải có ít nhất một ý sai".
+- Chú ý các chữ nhỏ quyết định đúng sai: "phân biệt", "trên khoảng", "chỉ", "lớn nhất", đơn vị đo.
+:::
+
+  :::example Một câu đúng/sai về hàm số
+  Cho hàm số $f(x)=x^3-3x+2$.
+  a) $f'(x)=3x^2-3$.
+  b) Hàm số đồng biến trên khoảng $(-1; 1)$.
+  c) Giá trị cực đại của hàm số bằng $4$.
+  d) Phương trình $f(x)=0$ có ba nghiệm phân biệt.
+
+  **Lời giải.** Ta tính trước đạo hàm và các giá trị cần dùng: $f'(x)=3(x-1)(x+1)$, $f(-1)=4$, $f(1)=0$.
+
+  a) **Đúng**: đạo hàm của $x^3$ là $3x^2$, của $-3x$ là $-3$.
+
+  b) **Sai**: với $-1<x<1$ thì $f'(x)<0$, nên hàm số nghịch biến trên $(-1; 1)$.
+
+  c) **Đúng**: $f'$ đổi dấu từ $+$ sang $-$ tại $x=-1$, giá trị cực đại là $f(-1)=-1+3+2=4$.
+
+  d) **Sai**: phân tích $f(x)=(x-1)^2(x+2)$, phương trình chỉ có hai nghiệm phân biệt $x=1$ và $x=-2$.
+
+  Đáp án: Đ S Đ S.
+  :::
+
+## Phần III: trả lời ngắn và cách ghi 4 ô
+
+[[P12·567a]]
+Đáp số mỗi câu là **một số**, ghi vào phiếu gồm $4$ ô. Dấu trừ và dấu phẩy thập phân **mỗi thứ chiếm một ô**.
+
+:::diagram Ghi đáp số $-0{,}5$ vào 4 ô
+   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::note Quy tắc ghi đáp số
+[[P13·e5f1]]
+- Làm tròn **đúng như đề yêu cầu** (hàng đơn vị, phần mười, phần trăm). Chỉ làm tròn ở bước cuối, các bước giữa giữ nhiều chữ số.
+- Ghi từ ô bên trái sang, mỗi kí tự một ô; ô thừa để trống.
+- Không ghi chữ số $0$ ở cuối phần thập phân: kết quả làm tròn được $1{,}10$ thì ghi 1,1, được $2{,}50$ thì ghi 2,5.
+- Đáp số đề ra luôn viết được trong $4$ ô. Nếu kết quả của bạn cần $5$ kí tự trở lên, gần như chắc chắn bạn đã tính sai hoặc làm tròn sai.
+:::
+
+[[P14·017c]]
+Ví dụ: $\dfrac{7}{4}=1{,}75$ ghi là 1,75 (đủ $4$ ô); $-\dfrac{2}{3}$ làm tròn đến hàng phần mười là $-0{,}7$ (đủ $4$ ô).
+
+  :::example Một câu trả lời ngắn có làm tròn
+  Tính $\displaystyle\int_1^3\frac{1}{x}\,dx$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Một nguyên hàm của $\dfrac1x$ trên $(0; +\infty)$ là $\ln x$:
+
+  $$\int_1^3\frac1x\,dx=\Big[\ln x\Big]_1^3=\ln 3-\ln 1=\ln 3\approx1{,}0986.$$
+
+  Làm tròn đến hàng phần trăm được $1{,}10$. Chữ số $0$ ở cuối phần thập phân không ghi vào phiếu, nên đáp số là $1{,}1$: ta ghi 1,1 (ba ô).
+  :::
+
+## Kế hoạch thời gian và kiểm tra
+
+[[P15·3eec]]
+$90$ phút cho $22$ câu là khá gấp. Một kế hoạch tham khảo:
+
+| Việc | Thời gian gợi ý |
+|---|---|
+| Phần I ($12$ câu) | khoảng $20$–$25$ phút |
+| Phần II ($4$ câu) | khoảng $25$–$30$ phút |
+| Phần III ($6$ câu) | khoảng $25$–$30$ phút |
+| Kiểm tra, tô phiếu | khoảng $5$–$10$ phút |
+
+[[P16·8676]]
+Thứ tự làm bài nên theo **độ dễ** chứ không nhất thiết theo số câu: làm lượt đầu tất cả các câu bạn chắc chắn, đánh dấu câu khó, rồi quay lại. Không dừng quá $5$ phút ở một câu Phần I.
+
+[[P17·9a0c]]
+Dùng máy tính cầm tay để **kiểm tra**: tính giá trị hàm số tại các điểm, tính tích phân xác định, giải phương trình bậc hai, bậc ba. Máy tính giúp phát hiện sai sót, nhưng bạn vẫn cần lập luận để biết phải tính gì.
+
+:::warning Những sai lầm thường gặp
+[[P18·5fdc]]
+- **Bỏ trống câu trắc nghiệm.** Không bị trừ điểm khi sai, nên luôn chọn một phương án.
+- **Đoán ý đúng/sai theo "cảm giác cân bằng".** Sai: "ba ý đầu đúng rồi nên ý d chắc sai". Đúng: kiểm tra từng ý bằng phép tính.
+- **Làm tròn sớm.** Sai: lấy $\ln 3\approx1{,}1$ rồi nhân với $5$, được $5{,}5$. Đúng: $5\ln3\approx5{,}49$; làm tròn ở bước cuối.
+- **Ghi sai số ô.** Sai: viết dấu trừ chung ô với chữ số, hoặc dùng dấu chấm thập phân. Đúng: dấu trừ một ô, dấu phẩy một ô.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - trắc nghiệm nhiều phương án lựa chọn | multiple-choice question
+  - trắc nghiệm đúng/sai | true/false question
+  - trắc nghiệm trả lời ngắn | short-answer question
+  - ý (của câu đúng/sai) | statement (claim)
+  - phương án nhiễu | distractor
+  - làm tròn đến hàng phần mười | round to 1 decimal place
+  - làm tròn đến hàng phần trăm | round to 2 decimal places
+  - phiếu trả lời | answer sheet
+  - máy tính cầm tay | scientific calculator
+  :::
+
+## Bài tập
+
+[[P19·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise Trắc nghiệm
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/exam-format-strategy – BẢN TIẾNG ANH ########
+---
+title: The exam format and how to tackle it
+description: Learn the 2025+ format of the Vietnamese graduation maths exam, how each part is marked, how to plan 90 minutes and how to write short answers in 4 boxes.
+minutes: 25
+---
+
+  :::goals
+  - Describe the three parts of the graduation maths exam and how each part is marked.
+  - Work out the mark of a paper, especially the mark of a true/false question.
+  - Plan the 90 minutes and choose a sensible order of work.
+  - Round and write a short answer in the 4 boxes correctly.
+  :::
+
+[[P1·27c5]]
+Two students each get $8$ true/false statements right in Part II. Hà gets all $4$ statements right in two questions and none in the other two. Nam gets $2$ statements right in each of the four questions. Who scores more?
+
+[[P2·f557]]
+The answer lies in how Part II is marked, and it directly affects how you should work. This lesson describes the format of the specimen papers published by the Ministry of Education and Training from 2025, and the habits that stop you losing marks needlessly. The Ministry may adjust the format or the marking from year to year, so check its official announcement for your exam year.
+
+## Format and marking
+
+[[P3·1b5f]]
+The paper has three parts, lasts $90$ minutes, and is marked out of $10$.
+
+| Part | Question type | Questions | Mark each | Total |
+|---|---|---|---|---|
+| I | Multiple choice (A, B, C, D) | $12$ | $0.25$ | $3$ |
+| II | True/false, each with $4$ statements a), b), c), d) | $4$ | up to $1$ | $4$ |
+| III | Short answer | $6$ | $0.5$ | $3$ |
+
+:::note The mark for a true/false question
+[[P4·dc51]]
+In one Part II question, the number of statements you judge correctly decides the mark:
+
+[[P5·4158]]
+| Correct statements | $0$ | $1$ | $2$ | $3$ | $4$ |
+|---|---|---|---|---|---|
+| Mark | $0$ | $0.1$ | $0.25$ | $0.5$ | $1$ |
+:::
+
+[[P6·22b1]]
+The mark rises steeply at the last statement: going from $3$ to $4$ correct doubles the mark. So every statement is worth checking carefully.
+
+  :::example Marking a paper
+  An gets $10$ questions right in Part I. In Part II, An gets $4$, $3$, $2$, $3$ statements right. In Part III, An gets $4$ questions right. Find An's mark.
+
+  **Solution.** We work out each part and add:
+
+  $$\begin{aligned}
+  \text{Part I}&: 10\cdot0.25=2.5,\\
+  \text{Part II}&: 1+0.5+0.25+0.5=2.25,\\
+  \text{Part III}&: 4\cdot0.5=2.
+  \end{aligned}$$
+
+  So An scores $2.5+2.25+2=6.75$.
+  :::
+
+[[P7·67f9]]
+Back to the opening question: Hà scores $1+1=2$, while Nam scores $4\cdot0.25=1$. The same $8$ correct statements, but Hà scores twice as much.
+
+## Part I: multiple choice
+
+[[P8·01f7]]
+Each question has exactly one correct option and wrong answers lose nothing. So **never leave a question blank**. Part I questions are usually short and test one formula or one step.
+
+[[P9·e1ef]]
+Three quick methods:
+- **Solve directly**, then match with the options.
+- **Work backwards**: put each option into the condition of the question (for example, differentiate an option to check an antiderivative).
+- **Eliminate**: wrong options usually come from a familiar mistake (wrong sign, missing coefficient, wrong formula). Spotting the mistake lets you rule them out quickly.
+
+  :::example Working backwards with the derivative
+  The family of antiderivatives of $f(x)=2x+e^x$ is
+  A. $x^2+e^x+C$.
+  B. $2+e^x+C$.
+  C. $x^2+\dfrac{e^{x+1}}{x+1}+C$.
+  D. $\dfrac{x^2}{2}+e^x+C$.
+
+  **Solution.** The correct option is the one whose derivative is $f(x)$. Differentiate option A:
+
+  $$\left(x^2+e^x+C\right)'=2x+e^x=f(x).$$
+
+  So the answer is **A**. Option B is the derivative of $2x$, not an antiderivative; C applies the power rule to $e^x$, which is wrong; D loses the coefficient $2$.
+  :::
+
+## Part II: true or false
+
+[[P10·862a]]
+Each question gives a common setting (a function, a figure, a data table) followed by four statements. Later statements are usually harder.
+
+:::tip Judge each statement on its own
+[[P11·1374]]
+- Read the common stem carefully and work out first what is used several times (derivative, roots, values at key points).
+- Each statement is a separate claim; one being false says nothing about another. There is no rule that "at least one must be false".
+- Watch the small words that decide the answer: "distinct", "on the interval", "only", "greatest", units.
+:::
+
+  :::example A true/false question on a function
+  Let $f(x)=x^3-3x+2$.
+  a) $f'(x)=3x^2-3$.
+  b) The function is increasing on $(-1, 1)$.
+  c) The local maximum value of the function is $4$.
+  d) The equation $f(x)=0$ has three distinct roots.
+
+  **Solution.** We first work out the derivative and the values we need: $f'(x)=3(x-1)(x+1)$, $f(-1)=4$, $f(1)=0$.
+
+  a) **True**: the derivative of $x^3$ is $3x^2$, and of $-3x$ is $-3$.
+
+  b) **False**: for $-1<x<1$, $f'(x)<0$, so the function is decreasing on $(-1, 1)$.
+
+  c) **True**: $f'$ changes from $+$ to $-$ at $x=-1$, and the local maximum value is $f(-1)=-1+3+2=4$.
+
+  d) **False**: factorising, $f(x)=(x-1)^2(x+2)$, so the equation has only two distinct roots, $x=1$ and $x=-2$.
+
+  Key: T F T F.
+  :::
+
+## Part III: short answers and the 4 boxes
+
+[[P12·dd40]]
+Each answer is **one number**, written on the sheet in $4$ boxes. The minus sign and the decimal comma **each take a box** (the Vietnamese sheet uses a comma, not a point, as the decimal separator).
+
+:::diagram Writing the answer $-0.5$ in 4 boxes
+   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::note Rules for writing an answer
+[[P13·0cb6]]
+- Round **exactly as the question says** (to the nearest whole number, 1 decimal place, 2 decimal places). Round only at the last step; keep more digits in between.
+- Fill the boxes from the left, one character per box; leave unused boxes empty.
+- Do not write a final $0$ after the decimal comma: a result that rounds to $1.10$ is written 1,1, and $2.50$ is written 2,5.
+- The intended answer always fits in $4$ boxes. If your result needs $5$ characters or more, you have almost certainly made a calculation or rounding error.
+:::
+
+[[P14·6339]]
+For example, $\dfrac{7}{4}=1.75$ is written 1,75 (all $4$ boxes); $-\dfrac{2}{3}$ to 1 decimal place is $-0.7$ (all $4$ boxes).
+
+  :::example A short-answer question with rounding
+  Find $\displaystyle\int_1^3\frac{1}{x}\,dx$. Give your answer to 2 decimal places.
+
+  **Solution.** An antiderivative of $\dfrac1x$ on $(0, +\infty)$ is $\ln x$:
+
+  $$\int_1^3\frac1x\,dx=\Big[\ln x\Big]_1^3=\ln 3-\ln 1=\ln 3\approx1.0986.$$
+
+  To 2 decimal places this is $1.10$. A final $0$ after the decimal comma is not written on the sheet, so the answer is $1.1$: we write 1,1 (three boxes).
+  :::
+
+## Time plan and checking
+
+[[P15·7831]]
+$90$ minutes for $22$ questions is tight. A suggested plan:
+
+| Task | Suggested time |
+|---|---|
+| Part I ($12$ questions) | about $20$–$25$ minutes |
+| Part II ($4$ questions) | about $25$–$30$ minutes |
+| Part III ($6$ questions) | about $25$–$30$ minutes |
+| Checking, filling in the sheet | about $5$–$10$ minutes |
+
+[[P16·8b5a]]
+Work in order of **difficulty**, not necessarily in question order: on a first pass do every question you are sure of, mark the hard ones, then come back. Do not spend more than $5$ minutes on one Part I question.
+
+[[P17·c6d9]]
+Use your scientific calculator to **check**: evaluate a function at given points, compute definite integrals, solve quadratic and cubic equations. The calculator catches slips, but you still need reasoning to know what to compute.
+
+:::warning Common mistakes
+[[P18·2d51]]
+- **Leaving a multiple-choice question blank.** Wrong answers lose nothing, so always choose an option.
+- **Guessing true/false "to balance".** Wrong: "the first three are true, so d must be false". Right: check each statement with a calculation.
+- **Rounding too early.** Wrong: taking $\ln 3\approx1.1$ and multiplying by $5$ to get $5.5$. Right: $5\ln3\approx5.49$; round at the last step.
+- **Wrong use of the boxes.** Wrong: putting the minus sign in the same box as a digit, or using a decimal point. Right: the minus sign takes one box and the comma takes one box.
+:::
+
+## Key terms
+
+  :::terms
+  - multiple-choice question | trắc nghiệm nhiều phương án lựa chọn
+  - true/false question | trắc nghiệm đúng/sai
+  - short-answer question | trắc nghiệm trả lời ngắn
+  - statement (claim) | ý (của câu đúng/sai)
+  - distractor | phương án nhiễu
+  - round to 1 decimal place | làm tròn đến hàng phần mười
+  - round to 2 decimal places | làm tròn đến hàng phần trăm
+  - answer sheet | phiếu trả lời
+  - scientific calculator | máy tính cầm tay
+  :::
+
+## Exercises
+
+[[P19·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise Multiple choice
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/False
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/graphing-functions – BẢN TIẾNG VIỆT ########
+---
+title: Khảo sát và vẽ đồ thị hàm số
+description: Áp dụng sơ đồ khảo sát cho hàm bậc ba và hai loại hàm phân thức, đọc đồ thị, đếm số nghiệm của phương trình và viết tiếp tuyến.
+minutes: 25
+---
+
+  :::goals
+  - Thực hiện sơ đồ khảo sát: tập xác định, giới hạn và tiệm cận, bảng biến thiên, cực trị, giao điểm với các trục, đồ thị.
+  - Khảo sát và vẽ đồ thị hàm bậc ba, $y=\dfrac{ax+b}{cx+d}$ và $y=\dfrac{ax^2+bx+c}{mx+n}$.
+  - Đọc các đặc điểm của hàm số từ đồ thị và dùng đồ thị để đếm số nghiệm của phương trình.
+  - Viết tiếp tuyến của đồ thị tại một điểm.
+  :::
+
+[[P1·8111]]
+Bạn Lan muốn vẽ đồ thị $y=x^3-3x+1$ bằng tay. Lan chấm năm điểm:
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y$ | $-1$ | $3$ | $1$ | $-1$ | $3$ |
+
+[[P2·7dbb]]
+rồi nối lại. Nhưng biết đâu giữa hai điểm chấm, đồ thị còn có một chỗ "nhô" lên mà Lan không thấy? Và phương trình $x^3-3x+1=0$ có bao nhiêu nghiệm?
+
+[[P3·b7d4]]
+Dù chấm bao nhiêu điểm, ta cũng không chắc chắn được giữa hai điểm liền nhau đồ thị làm gì. Khảo sát hàm số cho ta sự chắc chắn đó: nó tổng hợp mọi điều đã học về đạo hàm, cực trị và tiệm cận thành một bức tranh đầy đủ về hình dạng của đồ thị.
+
+## Sơ đồ khảo sát hàm số
+
+### Khám phá: đạo hàm cho biết hình dạng
+
+[[P4·956d]]
+Đạo hàm $y'=3x^2-3=3(x-1)(x+1)$ chỉ bằng $0$ tại $x=-1$ và $x=1$. Vậy đồ thị chỉ có thể "quay đầu" tại hai điểm đó: đi lên trên $(-\infty; -1)$, đi xuống trên $(-1; 1)$, đi lên trên $(1; +\infty)$. Giữa các điểm Lan chấm không còn chỗ nhô nào khác.
+
+[[P5·bd34]]
+Như vậy chỉ cần vài điểm và bảng biến thiên là ta vẽ được đồ thị đúng hình dạng. Đó là ý tưởng của sơ đồ khảo sát.
+
+[[P6·6333]]
+**Hiểu sâu hơn.** Mỗi bước của sơ đồ trả lời một câu hỏi về hình dạng: tập xác định cho biết đồ thị có bị "đứt" không; dấu của $y'$ cho biết đồ thị đi lên hay đi xuống; giới hạn và tiệm cận cho biết đồ thị đi về đâu khi ở rất xa; giao điểm với các trục giúp đặt đồ thị đúng vị trí.
+
+[[P7·73ac]]
+**Kết nối.** Sơ đồ này gom lại ba bài trước (tính đơn điệu và cực trị, giá trị lớn nhất và nhỏ nhất, tiệm cận). Đồ thị vẽ được lại dùng ngay để tìm số nghiệm của phương trình và để mô tả các đại lượng thực tế.
+
+:::note Sơ đồ khảo sát và vẽ đồ thị hàm số
+[[P8·0680]]
+1. **Tập xác định** của hàm số.
+2. **Sự biến thiên:**
+   - tính $y'$, tìm các điểm $y'=0$ hoặc $y'$ không xác định;
+   - tìm giới hạn tại vô cực, giới hạn vô cực và các tiệm cận (nếu có);
+   - lập bảng biến thiên; kết luận khoảng đơn điệu và cực trị.
+3. **Đồ thị:** tìm giao điểm với các trục toạ độ, vài điểm đặc biệt, nhận xét tính đối xứng, rồi vẽ.
+:::
+
+## Hàm số bậc ba
+
+  :::example Khảo sát $y=x^3-3x+1$
+  Khảo sát và vẽ đồ thị hàm số $y=x^3-3x+1$. Phương trình $x^3-3x+1=0$ có bao nhiêu nghiệm?
+
+  **Lời giải.** Tập xác định: $\mathbb{R}$. Ta có
+
+  $$y'=3(x-1)(x+1)=0\iff x=\pm1;\qquad \lim_{x\to+\infty}y=+\infty,\quad \lim_{x\to-\infty}y=-\infty.$$
+
+  Thay $x=\pm1$ vào hàm số, ta được $y(-1)=3$, $y(1)=-1$. Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $-1$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $3$ | $\searrow$ | $-1$ | $\nearrow$ | $+\infty$ |
+
+  Hàm số đồng biến trên $(-\infty; -1)$ và $(1; +\infty)$, nghịch biến trên $(-1; 1)$; cực đại $(-1; 3)$, cực tiểu $(1; -1)$. Đồ thị cắt trục tung tại $(0; 1)$.
+
+  Số nghiệm của phương trình bằng số giao điểm của đồ thị với trục hoành. Trên mỗi khoảng $(-\infty; -1)$, $(-1; 1)$, $(1; +\infty)$ hàm số đơn điệu và $y$ đổi dấu đúng một lần (từ $-\infty$ lên $3$, từ $3$ xuống $-1$, từ $-1$ lên $+\infty$).
+
+  Vậy phương trình $x^3-3x+1=0$ có đúng $3$ nghiệm (gần đúng $-1{,}88$; $0{,}35$; $1{,}53$).
+
+  **Nhìn lại.** Có cách nào biết phương trình bậc ba có ba nghiệm mà không cần vẽ? Ta thấy $y_{\text{CĐ}}\cdot y_{\text{CT}}=3\cdot(-1)<0$: hai điểm cực trị nằm về hai phía của trục hoành nên đồ thị phải cắt trục hoành ba lần. Nếu tích này dương thì phương trình chỉ có một nghiệm.
+  :::
+
+:::graph Đồ thị $y=x^3-3x+1$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·84cc]]
+Điểm $(0; 1)$ là trung điểm của hai điểm cực trị, và đồ thị đối xứng qua điểm này. Mọi đồ thị bậc ba đều có một **tâm đối xứng**: đó là điểm có hoành độ là nghiệm của $y''=0$ (ở đây $y''=6x=0\iff x=0$).
+
+[[P10·758a]]
+Không phải hàm bậc ba nào cũng có cực trị. Khi $y'$ không đổi dấu, đồ thị đi một chiều.
+
+  :::example Hàm bậc ba không có cực trị
+  Khảo sát và vẽ đồ thị hàm số $y=-x^3+3x^2-3x+2$.
+
+  **Lời giải.** Tập xác định: $\mathbb{R}$. Ta có
+
+  $$y'=-3x^2+6x-3=-3(x-1)^2\le0,\qquad y'=0\iff x=1.$$
+
+  Ta có $\lim\limits_{x\to+\infty}y=-\infty$, $\lim\limits_{x\to-\infty}y=+\infty$. Vì $y'\le0$ và $y'$ chỉ bằng $0$ tại một điểm nên hàm số nghịch biến trên $\mathbb{R}$, không có cực trị. Ta có $y''=-6x+6=0\iff x=1$, $y(1)=1$, suy ra tâm đối xứng là $I(1; 1)$, tại đó tiếp tuyến nằm ngang.
+
+  Giao điểm với các trục: $y(0)=2$; và $-x^3+3x^2-3x+2=-(x-2)(x^2-x+1)=0\iff x=2$ (vì $x^2-x+1$ có $\Delta=-3<0$).
+
+  Vậy hàm số nghịch biến trên $\mathbb{R}$; đồ thị đi qua $(0; 2)$, $I(1; 1)$ và $(2; 0)$.
+  :::
+
+:::graph Đồ thị $y=-x^3+3x^2-3x+2$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Hàm số phân thức
+
+[[P11·1597]]
+Với phân thức, bước "giới hạn và tiệm cận" quan trọng hơn: các tiệm cận được vẽ trước bằng nét đứt, rồi ta vẽ các nhánh sát chúng.
+
+  :::example Khảo sát $y=\dfrac{x+1}{x-1}$
+  Khảo sát và vẽ đồ thị hàm số $y=\dfrac{x+1}{x-1}$.
+
+  **Lời giải.** Tập xác định: $D=\mathbb{R}\setminus\{1\}$. Áp dụng công thức $\left(\dfrac{ax+b}{cx+d}\right)'=\dfrac{ad-bc}{(cx+d)^2}$, ta có
+
+  $$y'=\frac{1\cdot(-1)-1\cdot1}{(x-1)^2}=\frac{-2}{(x-1)^2}<0\quad\text{với mọi } x\in D.$$
+
+  Vì $\lim\limits_{x\to\pm\infty}y=1$ nên $y=1$ là tiệm cận ngang; vì $\lim\limits_{x\to1^+}y=+\infty$, $\lim\limits_{x\to1^-}y=-\infty$ nên $x=1$ là tiệm cận đứng. Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|
+  | $y'$ | | $-$ | $\Vert$ | $-$ | |
+  | $y$ | $1$ | $\searrow$ | $-\infty\ \Vert\ +\infty$ | $\searrow$ | $1$ |
+
+  Đồ thị cắt các trục toạ độ tại $(-1; 0)$ và $(0; -1)$.
+
+  Vậy hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, không có cực trị; đồ thị nhận giao điểm $I(1; 1)$ của hai tiệm cận làm tâm đối xứng.
+  :::
+
+:::graph Đồ thị $y=\dfrac{x+1}{x-1}$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·24d6]]
+Với $y=\dfrac{ax^2+bx+c}{mx+n}$, ta chia đa thức trước: vừa thấy tiệm cận xiên, vừa tính đạo hàm dễ hơn.
+
+  :::example Khảo sát $y=\dfrac{x^2-2x+2}{x-1}$
+  Khảo sát và vẽ đồ thị hàm số $y=\dfrac{x^2-2x+2}{x-1}$.
+
+  **Lời giải.** Tập xác định: $D=\mathbb{R}\setminus\{1\}$. Ta có $x^2-2x+2=(x-1)(x-1)+1$ nên
+
+  $$y=x-1+\frac{1}{x-1},\qquad y'=1-\frac{1}{(x-1)^2}=\frac{x(x-2)}{(x-1)^2}.$$
+
+  Ta có $y'=0\iff x=0$ hoặc $x=2$; $y(0)=-2$, $y(2)=2$. Đồ thị có tiệm cận đứng $x=1$ (vì $\lim\limits_{x\to1^+}y=+\infty$) và tiệm cận xiên $y=x-1$ (vì $\dfrac{1}{x-1}\to0$). Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $0$ | | $1$ | | $2$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $\Vert$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $-2$ | $\searrow$ | $-\infty\ \Vert\ +\infty$ | $\searrow$ | $2$ | $\nearrow$ | $+\infty$ |
+
+  Đồ thị cắt trục tung tại $(0; -2)$ và không cắt trục hoành (vì $x^2-2x+2$ có $\Delta'=1-2<0$).
+
+  Vậy hàm số có cực đại $(0; -2)$, cực tiểu $(2; 2)$, tiệm cận đứng $x=1$ và tiệm cận xiên $y=x-1$.
+  :::
+
+:::graph Đồ thị $y=\dfrac{x^2-2x+2}{x-1}$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Đọc đồ thị và ứng dụng
+
+[[P13·fc5a]]
+Khi đã có đồ thị, ta đọc được nhiều thông tin mà không cần tính lại, chẳng hạn số nghiệm của phương trình $f(x)=k$ (với $k$ là một số cho trước): đó là số giao điểm của đồ thị với đường thẳng nằm ngang $y=k$.
+
+:::graph Đồ thị của một hàm bậc ba $y=f(x)$ và đường thẳng $y=1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc đồ thị
+  Một con đường đi qua vùng đồi (tình huống giả định). Trên mặt cắt dọc, độ cao của đường so với chân đồi tại vị trí cách cột mốc $x$ km là $f(x)=ax^3+bx^2+cx+d$ (chục mét), $-1\le x\le 3$. Đồ thị ở hình trên có điểm cực đại $(0; 4)$ và điểm cực tiểu $(2; 0)$.
+  a) Tìm $a$, $b$, $c$, $d$.
+  b) Trên đoạn đường này có bao nhiêu vị trí có độ cao $10$ m, tức là $f(x)=1$? Có bao nhiêu vị trí có độ cao $40$ m?
+
+  **Lời giải.** a) Ta có $f'(x)=3ax^2+2bx+c$. Theo đề bài, $f(0)=4$, $f'(0)=0$, $f'(2)=0$, $f(2)=0$. Do đó
+
+  $$\begin{aligned} f(0)=4 &\Rightarrow d=4; & f'(0)=0 &\Rightarrow c=0;\\ f'(2)=0 &\Rightarrow 12a+4b=0\Rightarrow b=-3a; & f(2)=0 &\Rightarrow 8a-12a+4=0\Rightarrow a=1. \end{aligned}$$
+
+  Suy ra $b=-3$, do đó $f(x)=x^3-3x^2+4$.
+
+  b) Vì đường thẳng $y=1$ nằm giữa giá trị cực tiểu $0$ và giá trị cực đại $4$ nên nó cắt đồ thị tại $3$ điểm, cả ba đều thuộc đoạn $[-1; 3]$ (vì $f(-1)=0<1$ và $f(3)=4>1$). Đường thẳng $y=4$ đi qua điểm cực đại (tiếp xúc tại đó) và cắt nhánh bên phải thêm một điểm. Thật vậy, $x^3-3x^2+4=4\iff x^2(x-3)=0$.
+
+  Vậy $f(x)=x^3-3x^2+4$; trên đoạn đường có $3$ vị trí cao $10$ m và $2$ vị trí cao $40$ m ($x=0$ và $x=3$).
+  :::
+
+[[P14·c24d]]
+Cuối cùng, ta nhắc lại cách viết tiếp tuyến đã học ở lớp 11: tiếp tuyến tại $M(x_0; y_0)$ có phương trình $y=f'(x_0)(x-x_0)+y_0$.
+
+  :::example Tiếp tuyến của đồ thị phân thức
+  Viết phương trình tiếp tuyến của đồ thị $y=\dfrac{x+1}{x-1}$ tại điểm có hoành độ $x_0=2$.
+
+  **Lời giải.** Theo Ví dụ 3, ta có $y'=\dfrac{-2}{(x-1)^2}$. Do đó
+
+  $$y_0=\frac{2+1}{2-1}=3,\qquad y'(2)=\frac{-2}{1^2}=-2.$$
+
+  Thay vào phương trình $y=f'(x_0)(x-x_0)+y_0$, ta được $y=-2(x-2)+3$.
+
+  Vậy tiếp tuyến là $y=-2x+7$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P15·0773]]
+- **Vẽ đồ thị phân thức liền một nét.** Sai: nối hai nhánh của $y=\dfrac{x+1}{x-1}$ qua $x=1$. Lí do sai: hàm số không xác định tại $x=1$, đồ thị bị tiệm cận đứng tách làm hai nhánh. Đúng: vẽ tiệm cận nét đứt trước, mỗi nhánh nằm về một phía.
+- **Đếm nghiệm sai khi đường thẳng đi qua điểm cực trị.** Sai: "$f(x)=4$ có $3$ nghiệm vì $4$ nằm trong khoảng giá trị của hàm số". Lí do sai: $y=4$ chỉ tiếp xúc tại điểm cực đại, không cắt hai lần ở đó. Đúng: $2$ nghiệm.
+- **Quên chia đa thức nên không thấy tiệm cận xiên.** Sai: "$y=\dfrac{x^2-2x+2}{x-1}$ chỉ có tiệm cận đứng". Lí do sai: $y=x-1+\dfrac{1}{x-1}$. Đúng: còn tiệm cận xiên $y=x-1$.
+- **Dùng nhầm $y'(x)$ thay cho $y'(x_0)$ khi viết tiếp tuyến.** Sai: $y=\dfrac{-2}{(x-1)^2}(x-2)+3$. Lí do sai: hệ số góc là một số. Đúng: $y=-2(x-2)+3$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - khảo sát hàm số | curve sketching (analysing a function)
+  - sơ đồ khảo sát | curve-sketching procedure
+  - bảng biến thiên | table of variations
+  - tâm đối xứng | centre of symmetry
+  - giao điểm | intersection point
+  - tiếp tuyến | tangent line
+  - hệ số góc | gradient
+  - số nghiệm của phương trình | number of solutions of an equation
+  :::
+
+## Tóm tắt
+
+[[P16·bc5a]]
+- Sơ đồ: tập xác định → $y'$, giới hạn, tiệm cận, bảng biến thiên → giao điểm với các trục, điểm đặc biệt → vẽ.
+- Hàm bậc ba: có hai cực trị hoặc không có cực trị; tâm đối xứng là điểm có $y''=0$.
+- $y=\dfrac{ax+b}{cx+d}$: luôn đồng biến hoặc luôn nghịch biến trên từng khoảng; hai tiệm cận cắt nhau tại tâm đối xứng.
+- $y=\dfrac{ax^2+bx+c}{mx+n}$: chia đa thức để có tiệm cận xiên và đạo hàm gọn.
+- Số nghiệm của $f(x)=k$ bằng số giao điểm của đồ thị với đường thẳng $y=k$. Tiếp tuyến tại $x_0$: $y=f'(x_0)(x-x_0)+f(x_0)$.
+
+## Luyện tập
+
+[[P17·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/graphing-functions – BẢN TIẾNG ANH ########
+---
+title: Studying and graphing a function
+description: Apply the standard procedure to cubics and two kinds of rational function, read graphs, count the solutions of an equation and write tangent lines.
+minutes: 25
+---
+
+  :::goals
+  - Carry out the procedure: domain, limits and asymptotes, table of variations, extrema, intercepts, graph.
+  - Analyse and sketch cubic functions, $y=\dfrac{ax+b}{cx+d}$ and $y=\dfrac{ax^2+bx+c}{mx+n}$.
+  - Read the features of a function from its graph and use the graph to count the solutions of an equation.
+  - Write the tangent line to a graph at a point.
+  :::
+
+[[P1·a76a]]
+Lan wants to draw the graph of $y=x^3-3x+1$ by hand. She plots five points:
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y$ | $-1$ | $3$ | $1$ | $-1$ | $3$ |
+
+[[P2·40cc]]
+and joins them up. But what if, between two plotted points, the graph has a "bump" that Lan cannot see? And how many solutions does the equation $x^3-3x+1=0$ have?
+
+[[P3·0a68]]
+However many points we plot, we cannot be sure what the graph does between two neighbouring points. Analysing the function gives us that certainty: it brings together everything we have learnt about derivatives, extrema and asymptotes into a complete picture of the shape of the graph.
+
+## The curve-sketching procedure
+
+### Explore: the derivative tells the shape
+
+[[P4·d756]]
+The derivative $y'=3x^2-3=3(x-1)(x+1)$ is zero only at $x=-1$ and $x=1$. So the graph can only "turn round" at those two points: it goes up on $(-\infty, -1)$, down on $(-1, 1)$ and up on $(1, +\infty)$. There is no other bump between Lan's points.
+
+[[P5·c6fa]]
+So a few points and the table of variations are enough to draw the graph with the right shape. That is the idea of the procedure.
+
+[[P6·b87f]]
+**A closer look.** Each step of the procedure answers a question about shape: the domain tells us whether the graph is "broken"; the sign of $y'$ tells us whether it goes up or down; limits and asymptotes tell us where it goes far away; the intercepts place it in the right position.
+
+[[P7·57d9]]
+**Connections.** The procedure brings together the three previous lessons (monotonicity and extrema, maximum and minimum values, asymptotes). The graph we draw is then used straight away to count the solutions of equations and to describe real-life quantities.
+
+:::note Procedure for analysing a function and sketching its graph
+[[P8·2c7a]]
+1. **Domain** of the function.
+2. **Behaviour:**
+   - compute $y'$ and find the points where $y'=0$ or $y'$ is undefined;
+   - find the limits at infinity, the infinite limits and the asymptotes (if any);
+   - draw the table of variations; state where the function increases or decreases, and its extrema.
+3. **Graph:** find the intercepts with the axes, a few special points, note any symmetry, then draw.
+:::
+
+## Cubic functions
+
+  :::example Analysing $y=x^3-3x+1$
+  Analyse $y=x^3-3x+1$ and sketch its graph. How many solutions does $x^3-3x+1=0$ have?
+
+  **Solution.** The domain is $\mathbb{R}$. We have
+
+  $$y'=3(x-1)(x+1)=0\iff x=\pm1;\qquad \lim_{x\to+\infty}y=+\infty,\quad \lim_{x\to-\infty}y=-\infty.$$
+
+  Substituting $x=\pm1$ into the function, we get $y(-1)=3$, $y(1)=-1$. The table of variations:
+
+  | $x$ | $-\infty$ | | $-1$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $3$ | $\searrow$ | $-1$ | $\nearrow$ | $+\infty$ |
+
+  The function is increasing on $(-\infty, -1)$ and $(1, +\infty)$ and decreasing on $(-1, 1)$; local maximum $(-1, 3)$, local minimum $(1, -1)$. The graph meets the y-axis at $(0, 1)$.
+
+  The number of solutions equals the number of points where the graph meets the x-axis. On each of $(-\infty, -1)$, $(-1, 1)$, $(1, +\infty)$ the function is monotonic and $y$ changes sign exactly once (from $-\infty$ up to $3$, from $3$ down to $-1$, from $-1$ up to $+\infty$).
+
+  So the equation $x^3-3x+1=0$ has exactly $3$ solutions (approximately $-1.88$, $0.35$, $1.53$).
+
+  **Look back.** Can we tell that a cubic equation has three solutions without drawing? We see that $y_{\text{max}}\cdot y_{\text{min}}=3\cdot(-1)<0$: the two turning points lie on opposite sides of the x-axis, so the graph must cross the x-axis three times. If this product were positive, the equation would have only one solution.
+  :::
+
+:::graph The graph of $y=x^3-3x+1$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·9f48]]
+The point $(0, 1)$ is the midpoint of the two turning points, and the graph is symmetric about it. Every cubic graph has a **centre of symmetry**: the point whose x-coordinate is the root of $y''=0$ (here $y''=6x=0\iff x=0$).
+
+[[P10·afc0]]
+Not every cubic has extrema. When $y'$ does not change sign, the graph goes one way only.
+
+  :::example A cubic with no extrema
+  Analyse $y=-x^3+3x^2-3x+2$ and sketch its graph.
+
+  **Solution.** The domain is $\mathbb{R}$. We have
+
+  $$y'=-3x^2+6x-3=-3(x-1)^2\le0,\qquad y'=0\iff x=1.$$
+
+  We have $\lim\limits_{x\to+\infty}y=-\infty$, $\lim\limits_{x\to-\infty}y=+\infty$. Since $y'\le0$ and $y'$ is zero at only one point, the function is decreasing on $\mathbb{R}$ and has no extremum. We have $y''=-6x+6=0\iff x=1$, $y(1)=1$, so the centre of symmetry is $I(1, 1)$, where the tangent is horizontal.
+
+  Intercepts: $y(0)=2$; and $-x^3+3x^2-3x+2=-(x-2)(x^2-x+1)=0\iff x=2$ (since $x^2-x+1$ has $\Delta=-3<0$).
+
+  So the function is decreasing on $\mathbb{R}$; the graph passes through $(0, 2)$, $I(1, 1)$ and $(2, 0)$.
+  :::
+
+:::graph The graph of $y=-x^3+3x^2-3x+2$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Rational functions
+
+[[P11·6985]]
+For a rational function, the step "limits and asymptotes" matters more: we draw the asymptotes first as dashed lines, then draw the branches close to them.
+
+  :::example Analysing $y=\dfrac{x+1}{x-1}$
+  Analyse $y=\dfrac{x+1}{x-1}$ and sketch its graph.
+
+  **Solution.** The domain is $D=\mathbb{R}\setminus\{1\}$. Applying the formula $\left(\dfrac{ax+b}{cx+d}\right)'=\dfrac{ad-bc}{(cx+d)^2}$, we have
+
+  $$y'=\frac{1\cdot(-1)-1\cdot1}{(x-1)^2}=\frac{-2}{(x-1)^2}<0\quad\text{for every } x\in D.$$
+
+  Since $\lim\limits_{x\to\pm\infty}y=1$, $y=1$ is a horizontal asymptote; since $\lim\limits_{x\to1^+}y=+\infty$, $\lim\limits_{x\to1^-}y=-\infty$, $x=1$ is a vertical asymptote. The table of variations:
+
+  | $x$ | $-\infty$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|
+  | $y'$ | | $-$ | $\Vert$ | $-$ | |
+  | $y$ | $1$ | $\searrow$ | $-\infty\ \Vert\ +\infty$ | $\searrow$ | $1$ |
+
+  The graph meets the coordinate axes at $(-1, 0)$ and $(0, -1)$.
+
+  So the function is decreasing on each interval $(-\infty, 1)$ and $(1, +\infty)$ and has no extremum; the graph is symmetric about the intersection $I(1, 1)$ of the two asymptotes.
+  :::
+
+:::graph The graph of $y=\dfrac{x+1}{x-1}$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·fc4c]]
+For $y=\dfrac{ax^2+bx+c}{mx+n}$, we divide first: we see the oblique asymptote, and the derivative becomes easier.
+
+  :::example Analysing $y=\dfrac{x^2-2x+2}{x-1}$
+  Analyse $y=\dfrac{x^2-2x+2}{x-1}$ and sketch its graph.
+
+  **Solution.** The domain is $D=\mathbb{R}\setminus\{1\}$. We have $x^2-2x+2=(x-1)(x-1)+1$, so
+
+  $$y=x-1+\frac{1}{x-1},\qquad y'=1-\frac{1}{(x-1)^2}=\frac{x(x-2)}{(x-1)^2}.$$
+
+  We have $y'=0\iff x=0$ or $x=2$; $y(0)=-2$, $y(2)=2$. The graph has the vertical asymptote $x=1$ (since $\lim\limits_{x\to1^+}y=+\infty$) and the oblique asymptote $y=x-1$ (since $\dfrac{1}{x-1}\to0$). The table of variations:
+
+  | $x$ | $-\infty$ | | $0$ | | $1$ | | $2$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $\Vert$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $-2$ | $\searrow$ | $-\infty\ \Vert\ +\infty$ | $\searrow$ | $2$ | $\nearrow$ | $+\infty$ |
+
+  The graph meets the y-axis at $(0, -2)$ and does not meet the x-axis (since $x^2-2x+2$ has $\Delta'=1-2<0$).
+
+  So the function has the local maximum $(0, -2)$, the local minimum $(2, 2)$, the vertical asymptote $x=1$ and the oblique asymptote $y=x-1$.
+  :::
+
+:::graph The graph of $y=\dfrac{x^2-2x+2}{x-1}$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Reading graphs and applications
+
+[[P13·1875]]
+Once we have the graph, we can read a lot without computing again, for example the number of solutions of $f(x)=k$ (for a given number $k$): it is the number of intersection points of the graph with the horizontal line $y=k$.
+
+:::graph The graph of a cubic $y=f(x)$ and the line $y=1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading a graph
+  A road crosses some hills (an imagined situation). In the side profile, the height of the road above the foot of the hills at a point $x$ km from a marker post is $f(x)=ax^3+bx^2+cx+d$ (tens of metres), $-1\le x\le 3$. The graph in the figure above has local maximum point $(0, 4)$ and local minimum point $(2, 0)$.
+  a) Find $a$, $b$, $c$, $d$.
+  b) How many points of this stretch of road are at a height of $10$ m, that is $f(x)=1$? How many are at a height of $40$ m?
+
+  **Solution.** a) We have $f'(x)=3ax^2+2bx+c$. From the given information, $f(0)=4$, $f'(0)=0$, $f'(2)=0$, $f(2)=0$. Hence
+
+  $$\begin{aligned} f(0)=4 &\Rightarrow d=4; & f'(0)=0 &\Rightarrow c=0;\\ f'(2)=0 &\Rightarrow 12a+4b=0\Rightarrow b=-3a; & f(2)=0 &\Rightarrow 8a-12a+4=0\Rightarrow a=1. \end{aligned}$$
+
+  It follows that $b=-3$, hence $f(x)=x^3-3x^2+4$.
+
+  b) Since the line $y=1$ lies between the local minimum value $0$ and the local maximum value $4$, it cuts the graph at $3$ points, all with $-1\le x\le 3$ (since $f(-1)=0<1$ and $f(3)=4>1$). The line $y=4$ passes through the local maximum point (touching the graph there) and cuts the right-hand part at one more point. Indeed, $x^3-3x^2+4=4\iff x^2(x-3)=0$.
+
+  So $f(x)=x^3-3x^2+4$; the road has $3$ points at a height of $10$ m and $2$ points at a height of $40$ m ($x=0$ and $x=3$).
+  :::
+
+[[P14·cc67]]
+Finally, we recall how to write a tangent line from grade 11: the tangent at $M(x_0, y_0)$ is $y=f'(x_0)(x-x_0)+y_0$.
+
+  :::example A tangent to a rational graph
+  Write the equation of the tangent to the graph of $y=\dfrac{x+1}{x-1}$ at the point with x-coordinate $x_0=2$.
+
+  **Solution.** By Example 3, we have $y'=\dfrac{-2}{(x-1)^2}$. Hence
+
+  $$y_0=\frac{2+1}{2-1}=3,\qquad y'(2)=\frac{-2}{1^2}=-2.$$
+
+  Substituting into the equation $y=f'(x_0)(x-x_0)+y_0$, we get $y=-2(x-2)+3$.
+
+  So the tangent is $y=-2x+7$.
+  :::
+
+:::warning Common mistakes
+[[P15·3146]]
+- **Drawing a rational graph in one stroke.** Wrong: joining the two branches of $y=\dfrac{x+1}{x-1}$ across $x=1$. Why it is wrong: the function is undefined at $x=1$, and the vertical asymptote splits the graph into two branches. Right: draw the dashed asymptotes first, with one branch on each side.
+- **Miscounting when the line passes through a turning point.** Wrong: "$f(x)=4$ has $3$ solutions because $4$ is within the range of the function". Why it is wrong: $y=4$ only touches the graph at the local maximum and does not cross it twice there. Right: $2$ solutions.
+- **Not dividing, so missing the oblique asymptote.** Wrong: "$y=\dfrac{x^2-2x+2}{x-1}$ only has a vertical asymptote". Why it is wrong: $y=x-1+\dfrac{1}{x-1}$. Right: there is also the oblique asymptote $y=x-1$.
+- **Using $y'(x)$ instead of $y'(x_0)$ in a tangent.** Wrong: $y=\dfrac{-2}{(x-1)^2}(x-2)+3$. Why it is wrong: the gradient is a number. Right: $y=-2(x-2)+3$.
+:::
+
+## Key terms
+
+  :::terms
+  - curve sketching (analysing a function) | khảo sát hàm số
+  - curve-sketching procedure | sơ đồ khảo sát
+  - table of variations | bảng biến thiên
+  - centre of symmetry | tâm đối xứng
+  - intersection point | giao điểm
+  - tangent line | tiếp tuyến
+  - gradient | hệ số góc
+  - number of solutions of an equation | số nghiệm của phương trình
+  :::
+
+## Summary
+
+[[P16·8973]]
+- Procedure: domain → $y'$, limits, asymptotes, table of variations → intercepts, special points → draw.
+- A cubic has either two extrema or none; its centre of symmetry is the point where $y''=0$.
+- $y=\dfrac{ax+b}{cx+d}$: always increasing or always decreasing on each interval; its two asymptotes meet at the centre of symmetry.
+- $y=\dfrac{ax^2+bx+c}{mx+n}$: divide to get the oblique asymptote and a tidy derivative.
+- The number of solutions of $f(x)=k$ is the number of intersections of the graph with the line $y=k$. Tangent at $x_0$: $y=f'(x_0)(x-x_0)+f(x_0)$.
+
+## Practice
+
+[[P17·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/grouped-range-iqr – BẢN TIẾNG VIỆT ########
+---
+title: Khoảng biến thiên và khoảng tứ phân vị
+description: Tính khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm, dùng chúng để so sánh độ phân tán của hai mẫu và hiểu ý nghĩa thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Tính khoảng biến thiên $R$ của mẫu số liệu ghép nhóm.
+  - Tính tứ phân vị $Q_1$, $Q_3$ và khoảng tứ phân vị $\Delta_Q$ của mẫu số liệu ghép nhóm.
+  - So sánh độ phân tán của hai mẫu số liệu ghép nhóm và giải thích ý nghĩa.
+  - Hiểu vì sao các số đo này chỉ là giá trị xấp xỉ của số đo của mẫu số liệu gốc.
+  :::
+
+[[P1·1063]]
+Nhà trường khảo sát thời gian đi từ nhà đến trường của học sinh hai lớp 12A và 12B, mỗi lớp $40$ bạn. Kết quả được ghép nhóm như sau.
+
+| Thời gian (phút) | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
+|---|---|---|---|---|---|
+| Lớp 12A | $4$ | $12$ | $12$ | $8$ | $4$ |
+| Lớp 12B | $2$ | $6$ | $24$ | $6$ | $2$ |
+
+[[P2·0499]]
+Ở cả hai lớp, thời gian trải từ $0$ đến $50$ phút. Vậy lớp nào có thời gian đi học đồng đều hơn, và ta đo điều đó bằng con số nào?
+
+[[P3·1794]]
+Ở lớp 10, ta đã đo độ phân tán của số liệu gốc. Bài này làm điều tương tự khi chỉ có bảng ghép nhóm.
+
+## Khoảng biến thiên của mẫu số liệu ghép nhóm
+
+### Khám phá: ta biết gì về giá trị lớn nhất và nhỏ nhất?
+
+[[P4·d43b]]
+Từ bảng của lớp 12A, ta không biết chính xác thời gian của từng bạn. Ta chỉ biết bạn đi nhanh nhất nằm trong nhóm $[0; 10)$ và bạn đi lâu nhất nằm trong nhóm $[40; 50)$. Do đó hiệu giữa hai giá trị đó không vượt quá $50-0=50$ phút. Ta lấy con số $50$ làm khoảng biến thiên của mẫu ghép nhóm.
+
+[[P5·af00]]
+Trong bài, mẫu số liệu ghép nhóm có $k$ nhóm $[u_1; u_2)$, $[u_2; u_3)$, …, $[u_k; u_{k+1})$ với tần số $n_1$, $n_2$, …, $n_k$ và cỡ mẫu $n=n_1+n_2+\cdots+n_k$. Ta giả sử nhóm đầu và nhóm cuối có tần số khác $0$.
+
+  :::definition Khoảng biến thiên
+  Khoảng biến thiên của mẫu số liệu ghép nhóm là
+  $$R=u_{k+1}-u_1,$$
+  tức là đầu mút phải của nhóm cuối trừ đầu mút trái của nhóm đầu.
+  :::
+
+[[P6·86db]]
+Với cả hai lớp, $R=50-0=50$ phút. Khoảng biến thiên **không** phân biệt được hai lớp, vì nó chỉ phụ thuộc vào hai nhóm ở hai đầu. Ta cần một số đo nhìn vào phần giữa của số liệu.
+
+## Khoảng tứ phân vị
+
+[[P7·7615]]
+Ở lớp 11, ta đã tính tứ phân vị của mẫu ghép nhóm bằng cách "chia đều" các giá trị trong nhóm chứa nó. Nhắc lại: tứ phân vị thứ nhất $Q_1$ nằm ở vị trí thứ $\frac n4$, tứ phân vị thứ ba $Q_3$ ở vị trí thứ $\frac{3n}{4}$.
+
+  :::theorem Tứ phân vị của mẫu số liệu ghép nhóm
+  Gọi $[u_m; u_{m+1})$ là **nhóm đầu tiên có tần số tích luỹ lớn hơn hoặc bằng $\frac n4$**, $n_m$ là tần số của nó và $C=n_1+\cdots+n_{m-1}$ là tần số tích luỹ của các nhóm đứng trước. Khi đó
+  $$Q_1=u_m+\frac{\frac n4-C}{n_m}\cdot(u_{m+1}-u_m).$$
+  $Q_3$ tính giống hệt, chỉ thay $\frac n4$ bằng $\frac{3n}{4}$ (và chọn nhóm theo $\frac{3n}{4}$).
+  :::
+
+[[P8·26f0]]
+Phân số $\dfrac{\frac n4-C}{n_m}$ cho biết vị trí thứ $\frac n4$ đi được bao nhiêu phần của nhóm đó. Chẳng hạn nhóm có $12$ giá trị, cần đi thêm $6$ giá trị nữa, thì $Q_1$ nằm ở giữa nhóm.
+
+  :::definition Khoảng tứ phân vị
+  Khoảng tứ phân vị của mẫu số liệu ghép nhóm là $\Delta_Q=Q_3-Q_1$. Khoảng từ $Q_1$ đến $Q_3$ chứa khoảng một nửa số liệu nằm ở giữa; $\Delta_Q$ càng nhỏ thì phần giữa của số liệu càng tập trung.
+  :::
+
+[[P9·8dd5]]
+Ví dụ đầu tiên tính đủ các số đo cho lớp 12A.
+
+  :::example Lớp 12A
+  Tính $R$, $Q_1$, $Q_3$ và $\Delta_Q$ cho thời gian đi học của lớp 12A.
+
+  **Lời giải.** Cỡ mẫu $n=40$ và các tần số tích luỹ là $4$, $16$, $28$, $36$, $40$. Trước hết $R=50-0=50$.
+
+  Ta có $\frac n4=10$. Vì $4<10\le16$, nhóm chứa $Q_1$ là $[10; 20)$, với $C=4$, $n_m=12$:
+
+  $$Q_1=10+\frac{10-4}{12}\cdot10=10+5=15.$$
+
+  Ta có $\frac{3n}{4}=30$. Vì $28<30\le36$, nhóm chứa $Q_3$ là $[30; 40)$, với $C=28$, $n_m=8$:
+
+  $$Q_3=30+\frac{30-28}{8}\cdot10=30+2{,}5=32{,}5.$$
+
+  Vậy $R=50$ phút, $Q_1=15$, $Q_3=32{,}5$ và $\Delta_Q=32{,}5-15=17{,}5$ phút. Khoảng một nửa số học sinh lớp 12A mất từ $15$ đến $32{,}5$ phút để đến trường.
+  :::
+
+[[P10·0608]]
+Làm tương tự cho lớp 12B, ta trả lời được câu hỏi ở đầu bài.
+
+  :::example So sánh hai lớp
+  Tính $\Delta_Q$ cho lớp 12B và so sánh với lớp 12A.
+
+  **Lời giải.** Các tần số tích luỹ của lớp 12B là $2$, $8$, $32$, $38$, $40$. Cả hai vị trí $10$ và $30$ đều thoả mãn $8<\text{vị trí}\le32$, nên $Q_1$ và $Q_3$ cùng nằm trong nhóm $[20; 30)$, với $C=8$, $n_m=24$:
+
+  $$\begin{aligned}
+  Q_1&=20+\frac{10-8}{24}\cdot10=20+\frac56\approx20{,}83,\\
+  Q_3&=20+\frac{30-8}{24}\cdot10=20+\frac{55}{6}\approx29{,}17.
+  \end{aligned}$$
+
+  Do đó $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8{,}33$ phút.
+
+  | | $R$ | $Q_1$ | $Q_3$ | $\Delta_Q$ |
+  |---|---|---|---|---|
+  | Lớp 12A | $50$ | $15$ | $32{,}5$ | $17{,}5$ |
+  | Lớp 12B | $50$ | $20{,}83$ | $29{,}17$ | $8{,}33$ |
+
+  Hai lớp có cùng khoảng biến thiên, nhưng khoảng tứ phân vị của 12B chỉ bằng khoảng một nửa của 12A. Vậy thời gian đi học của lớp 12B đồng đều hơn.
+  :::
+
+[[P11·8917]]
+Khi $\frac n4$ không phải số nguyên, công thức vẫn dùng như cũ. Độ rộng nhóm cũng không nhất thiết bằng $10$.
+
+  :::example Chiều cao cây giống
+  Chiều cao (cm) của $50$ cây giống trong một vườn ươm được cho trong bảng. Tính $R$ và $\Delta_Q$.
+
+  | Chiều cao (cm) | $[10; 14)$ | $[14; 18)$ | $[18; 22)$ | $[22; 26)$ | $[26; 30)$ |
+  |---|---|---|---|---|---|
+  | Số cây | $6$ | $10$ | $16$ | $12$ | $6$ |
+
+  **Lời giải.** Ta có $R=30-10=20$ cm. Các tần số tích luỹ là $6$, $16$, $32$, $44$, $50$; độ rộng mỗi nhóm là $4$.
+
+  Với $\frac n4=12{,}5$: vì $6<12{,}5\le16$, nhóm chứa $Q_1$ là $[14; 18)$:
+
+  $$Q_1=14+\frac{12{,}5-6}{10}\cdot4=14+2{,}6=16{,}6.$$
+
+  Với $\frac{3n}{4}=37{,}5$: vì $32<37{,}5\le44$, nhóm chứa $Q_3$ là $[22; 26)$:
+
+  $$Q_3=22+\frac{37{,}5-32}{12}\cdot4=22+\frac{11}{6}\approx23{,}83.$$
+
+  Vậy $R=20$ cm và $\Delta_Q\approx23{,}83-16{,}6=7{,}23$ cm.
+  :::
+
+:::note Giá trị bất thường
+[[P12·3569]]
+Giống như ở lớp 10, có thể coi một giá trị là **bất thường** nếu nó nhỏ hơn $Q_1-1{,}5\,\Delta_Q$ hoặc lớn hơn $Q_3+1{,}5\,\Delta_Q$. Với vườn ươm trên, hai ngưỡng là khoảng $5{,}75$ cm và $34{,}68$ cm: một cây cao $36$ cm sẽ đáng được kiểm tra lại.
+:::
+
+## Số đo của mẫu ghép nhóm chỉ là xấp xỉ
+
+[[P13·b0d4]]
+Khi ghép nhóm, ta mất thông tin về từng giá trị. Ví dụ sau so sánh số đo tính từ số liệu gốc với số đo tính từ bảng ghép nhóm.
+
+  :::example Số liệu gốc và số liệu ghép nhóm
+  Thời gian đi học (phút) của $20$ học sinh, đã sắp xếp:
+  $$5,\ 8,\ 12,\ 14,\ 15,\ 17,\ 18,\ 19,\ 21,\ 22,\ 23,\ 24,\ 25,\ 26,\ 28,\ 31,\ 33,\ 36,\ 41,\ 47.$$
+  a) Tính $R$ và $\Delta_Q$ từ số liệu gốc. b) Ghép thành các nhóm $[0; 10)$, …, $[40; 50)$ rồi tính lại.
+
+  **Lời giải.** a) Với số liệu gốc (cách của lớp 10): $R=47-5=42$. Nửa dưới gồm $10$ giá trị đầu, nửa trên gồm $10$ giá trị cuối:
+
+  $$Q_1=\frac{15+17}{2}=16,\qquad Q_3=\frac{28+31}{2}=29{,}5,\qquad \Delta_Q=13{,}5.$$
+
+  b) Đếm số giá trị trong mỗi nhóm, ta được các tần số $2$, $6$, $7$, $3$, $2$ (tần số tích luỹ $2$, $8$, $15$, $18$, $20$). Khi đó $R=50-0=50$. Với $\frac n4=5$ và $\frac{3n}{4}=15$:
+
+  $$Q_1=10+\frac{5-2}{6}\cdot10=15,\qquad Q_3=20+\frac{15-8}{7}\cdot10=30,\qquad \Delta_Q=15.$$
+
+  Vậy từ bảng ghép nhóm ta được $R=50$ (thật là $42$) và $\Delta_Q=15$ (thật là $13{,}5$). Các số đo của mẫu ghép nhóm là **giá trị xấp xỉ** cho số đo của mẫu gốc; $\Delta_Q$ gần hơn nhiều so với $R$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P14·bcd8]]
+- **Sai đầu mút khi tính $R$.** Sai: với lớp 12A, $R=40-0=40$ (lấy đầu mút trái của nhóm cuối). Vì sao sai: giá trị lớn nhất có thể gần $50$. Đúng: $R=u_{k+1}-u_1=50$.
+- **Lấy $C$ gồm cả nhóm chứa tứ phân vị.** Sai: $Q_1=10+\frac{10-16}{12}\cdot10=5$, nhỏ hơn cả đầu mút $10$ của nhóm. Đúng: $C$ chỉ gồm các nhóm **đứng trước**, $C=4$, nên $Q_1=15$.
+- **Chọn nhóm có tần số lớn nhất.** Sai: với lớp 12A, cho $Q_1$ nằm trong $[10; 20)$ hay $[20; 30)$ vì "chúng có tần số $12$". Đúng: chọn nhóm đầu tiên có tần số tích luỹ $\ge\frac n4$.
+- **Quên nhân với độ rộng nhóm.** Sai: ở vườn ươm, $Q_1=14+\frac{6{,}5}{10}=14{,}65$. Đúng: nhân với độ rộng $4$, $Q_1=16{,}6$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - mẫu số liệu ghép nhóm | grouped data
+  - nhóm số liệu | class
+  - tần số | frequency
+  - tần số tích luỹ | cumulative frequency
+  - độ rộng nhóm | class width
+  - khoảng biến thiên | range
+  - tứ phân vị | quartile
+  - khoảng tứ phân vị | interquartile range
+  - giá trị bất thường | outlier
+  - giá trị xấp xỉ | approximate value
+  :::
+
+## Tóm tắt
+
+[[P15·3c7e]]
+- Mẫu ghép nhóm $[u_1; u_2)$, …, $[u_k; u_{k+1})$, tần số $n_1$, …, $n_k$, cỡ mẫu $n$.
+- $R=u_{k+1}-u_1$ (đầu mút phải nhóm cuối trừ đầu mút trái nhóm đầu).
+- $Q_1=u_m+\dfrac{\frac n4-C}{n_m}(u_{m+1}-u_m)$, với nhóm $m$ là nhóm đầu tiên có tần số tích luỹ $\ge\frac n4$, $C$ là tần số tích luỹ của các nhóm trước nó; $Q_3$: thay $\frac n4$ bằng $\frac{3n}{4}$.
+- $\Delta_Q=Q_3-Q_1$: độ rộng của nửa số liệu ở giữa; nhỏ hơn thì đồng đều hơn.
+- Đây là các giá trị xấp xỉ; $\Delta_Q$ ít bị ảnh hưởng bởi hai nhóm ở hai đầu hơn $R$.
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 69 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/grouped-range-iqr – BẢN TIẾNG ANH ########
+---
+title: Range and interquartile range of grouped data
+description: Find the range and the interquartile range of grouped data, use them to compare the spread of two data sets, and interpret them in real situations.
+minutes: 20
+---
+
+  :::goals
+  - Find the range $R$ of grouped data.
+  - Find the quartiles $Q_1$, $Q_3$ and the interquartile range $\Delta_Q$ of grouped data.
+  - Compare the spread of two sets of grouped data and explain what it means.
+  - Understand why these measures are only approximations of the measures of the raw data.
+  :::
+
+[[P1·0aac]]
+A school surveyed how long students in classes 12A and 12B take to travel from home to school, $40$ students in each class. The results were grouped as follows.
+
+| Time (minutes) | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
+|---|---|---|---|---|---|
+| Class 12A | $4$ | $12$ | $12$ | $8$ | $4$ |
+| Class 12B | $2$ | $6$ | $24$ | $6$ | $2$ |
+
+[[P2·a74a]]
+In both classes the times stretch from $0$ to $50$ minutes. So which class has the more even travel times, and which number measures that?
+
+[[P3·aa61]]
+In grade 10 we measured the spread of raw data. This lesson does the same when we only have a grouped table.
+
+## The range of grouped data
+
+### Exploring: what do we know about the largest and smallest values?
+
+[[P4·b649]]
+From the table for class 12A we do not know each student's exact time. We only know that the quickest student is in the class $[0, 10)$ and the slowest is in the class $[40, 50)$. So the difference between those two values is at most $50-0=50$ minutes. We take the number $50$ as the range of the grouped data.
+
+[[P5·8821]]
+In this lesson, grouped data have $k$ classes $[u_1, u_2)$, $[u_2, u_3)$, …, $[u_k, u_{k+1})$ with frequencies $n_1$, $n_2$, …, $n_k$ and sample size $n=n_1+n_2+\cdots+n_k$. We assume that the first and last classes have non-zero frequency.
+
+  :::definition Range
+  The range of grouped data is
+  $$R=u_{k+1}-u_1,$$
+  that is, the right end of the last class minus the left end of the first class.
+  :::
+
+[[P6·8038]]
+For both classes, $R=50-0=50$ minutes. The range **cannot** tell the two classes apart, because it depends only on the two classes at the ends. We need a measure that looks at the middle of the data.
+
+## The interquartile range
+
+[[P7·eb34]]
+In grade 11 we found the quartiles of grouped data by "spreading out" the values evenly inside the class that contains them. Recall: the first quartile $Q_1$ is at position $\frac n4$, the third quartile $Q_3$ at position $\frac{3n}{4}$.
+
+  :::theorem Quartiles of grouped data
+  Let $[u_m, u_{m+1})$ be **the first class whose cumulative frequency is greater than or equal to $\frac n4$**, let $n_m$ be its frequency and $C=n_1+\cdots+n_{m-1}$ the cumulative frequency of the classes before it. Then
+  $$Q_1=u_m+\frac{\frac n4-C}{n_m}\cdot(u_{m+1}-u_m).$$
+  $Q_3$ is found in exactly the same way, with $\frac n4$ replaced by $\frac{3n}{4}$ (and the class chosen using $\frac{3n}{4}$).
+  :::
+
+[[P8·d8b1]]
+The fraction $\dfrac{\frac n4-C}{n_m}$ tells us how far into the class position $\frac n4$ lies. For example, if the class holds $12$ values and we need $6$ more of them, then $Q_1$ is in the middle of the class.
+
+  :::definition Interquartile range
+  The interquartile range of grouped data is $\Delta_Q=Q_3-Q_1$. The interval from $Q_1$ to $Q_3$ holds about the middle half of the data; the smaller $\Delta_Q$, the more concentrated the middle of the data.
+  :::
+
+[[P9·0c20]]
+The first example finds all these measures for class 12A.
+
+  :::example Class 12A
+  Find $R$, $Q_1$, $Q_3$ and $\Delta_Q$ for the travel times of class 12A.
+
+  **Solution.** The sample size is $n=40$ and the cumulative frequencies are $4$, $16$, $28$, $36$, $40$. First, $R=50-0=50$.
+
+  We have $\frac n4=10$. Since $4<10\le16$, the class containing $Q_1$ is $[10, 20)$, with $C=4$, $n_m=12$:
+
+  $$Q_1=10+\frac{10-4}{12}\cdot10=10+5=15.$$
+
+  We have $\frac{3n}{4}=30$. Since $28<30\le36$, the class containing $Q_3$ is $[30, 40)$, with $C=28$, $n_m=8$:
+
+  $$Q_3=30+\frac{30-28}{8}\cdot10=30+2.5=32.5.$$
+
+  So $R=50$ minutes, $Q_1=15$, $Q_3=32.5$ and $\Delta_Q=32.5-15=17.5$ minutes. About half the students of class 12A take between $15$ and $32.5$ minutes to get to school.
+  :::
+
+[[P10·a02c]]
+Doing the same for class 12B answers the opening question.
+
+  :::example Comparing the two classes
+  Find $\Delta_Q$ for class 12B and compare it with class 12A.
+
+  **Solution.** The cumulative frequencies for class 12B are $2$, $8$, $32$, $38$, $40$. Both positions $10$ and $30$ satisfy $8<\text{position}\le32$, so $Q_1$ and $Q_3$ are both in the class $[20, 30)$, with $C=8$, $n_m=24$:
+
+  $$\begin{aligned}
+  Q_1&=20+\frac{10-8}{24}\cdot10=20+\frac56\approx20.83,\\
+  Q_3&=20+\frac{30-8}{24}\cdot10=20+\frac{55}{6}\approx29.17.
+  \end{aligned}$$
+
+  Hence $\Delta_Q=\dfrac{55}{6}-\dfrac56=\dfrac{50}{6}\approx8.33$ minutes.
+
+  | | $R$ | $Q_1$ | $Q_3$ | $\Delta_Q$ |
+  |---|---|---|---|---|
+  | Class 12A | $50$ | $15$ | $32.5$ | $17.5$ |
+  | Class 12B | $50$ | $20.83$ | $29.17$ | $8.33$ |
+
+  The two classes have the same range, but the interquartile range of 12B is only about half that of 12A. So the travel times of class 12B are more even.
+  :::
+
+[[P11·d499]]
+When $\frac n4$ is not a whole number, the formula is used in the same way. The class width need not be $10$ either.
+
+  :::example Heights of seedlings
+  The heights (cm) of $50$ seedlings in a nursery are given in the table. Find $R$ and $\Delta_Q$.
+
+  | Height (cm) | $[10, 14)$ | $[14, 18)$ | $[18, 22)$ | $[22, 26)$ | $[26, 30)$ |
+  |---|---|---|---|---|---|
+  | Seedlings | $6$ | $10$ | $16$ | $12$ | $6$ |
+
+  **Solution.** We have $R=30-10=20$ cm. The cumulative frequencies are $6$, $16$, $32$, $44$, $50$; each class has width $4$.
+
+  For $\frac n4=12.5$: since $6<12.5\le16$, the class containing $Q_1$ is $[14, 18)$:
+
+  $$Q_1=14+\frac{12.5-6}{10}\cdot4=14+2.6=16.6.$$
+
+  For $\frac{3n}{4}=37.5$: since $32<37.5\le44$, the class containing $Q_3$ is $[22, 26)$:
+
+  $$Q_3=22+\frac{37.5-32}{12}\cdot4=22+\frac{11}{6}\approx23.83.$$
+
+  So $R=20$ cm and $\Delta_Q\approx23.83-16.6=7.23$ cm.
+  :::
+
+:::note Outliers
+[[P12·b663]]
+As in grade 10, a value is regarded as an **outlier** (an unusual value) if it is less than $Q_1-1.5\,\Delta_Q$ or greater than $Q_3+1.5\,\Delta_Q$. For the nursery above, the two limits are about $5.75$ cm and $34.68$ cm: a seedling $36$ cm tall would deserve a second look.
+:::
+
+## Measures of grouped data are approximations
+
+[[P13·19d0]]
+Grouping loses information about the individual values. The next example compares the measures from the raw data with those from the grouped table.
+
+  :::example Raw data and grouped data
+  The travel times (minutes) of $20$ students, sorted:
+  $$5,\ 8,\ 12,\ 14,\ 15,\ 17,\ 18,\ 19,\ 21,\ 22,\ 23,\ 24,\ 25,\ 26,\ 28,\ 31,\ 33,\ 36,\ 41,\ 47.$$
+  a) Find $R$ and $\Delta_Q$ from the raw data. b) Group them into the classes $[0, 10)$, …, $[40, 50)$ and find them again.
+
+  **Solution.** a) With the raw data (the grade-10 method): $R=47-5=42$. The lower half is the first $10$ values and the upper half the last $10$:
+
+  $$Q_1=\frac{15+17}{2}=16,\qquad Q_3=\frac{28+31}{2}=29.5,\qquad \Delta_Q=13.5.$$
+
+  b) Counting the values in each class gives the frequencies $2$, $6$, $7$, $3$, $2$ (cumulative $2$, $8$, $15$, $18$, $20$). Then $R=50-0=50$. With $\frac n4=5$ and $\frac{3n}{4}=15$:
+
+  $$Q_1=10+\frac{5-2}{6}\cdot10=15,\qquad Q_3=20+\frac{15-8}{7}\cdot10=30,\qquad \Delta_Q=15.$$
+
+  So the grouped table gives $R=50$ (really $42$) and $\Delta_Q=15$ (really $13.5$). The measures of grouped data are **approximate values** of the measures of the raw data; $\Delta_Q$ is much closer than $R$.
+  :::
+
+:::warning Common mistakes
+[[P14·82fb]]
+- **Wrong end point for $R$.** Wrong: for class 12A, $R=40-0=40$ (using the left end of the last class). Why it is wrong: the largest value may be close to $50$. Right: $R=u_{k+1}-u_1=50$.
+- **Including the quartile's own class in $C$.** Wrong: $Q_1=10+\frac{10-16}{12}\cdot10=5$, which is even below the left end $10$ of the class. Right: $C$ counts only the classes **before** it, $C=4$, so $Q_1=15$.
+- **Choosing the class with the largest frequency.** Wrong: for class 12A, putting $Q_1$ in $[10, 20)$ or $[20, 30)$ "because they have frequency $12$". Right: choose the first class whose cumulative frequency is $\ge\frac n4$.
+- **Forgetting to multiply by the class width.** Wrong: for the nursery, $Q_1=14+\frac{6.5}{10}=14.65$. Right: multiply by the width $4$, $Q_1=16.6$.
+:::
+
+## Key terms
+
+  :::terms
+  - grouped data | mẫu số liệu ghép nhóm
+  - class | nhóm số liệu
+  - frequency | tần số
+  - cumulative frequency | tần số tích luỹ
+  - class width | độ rộng nhóm
+  - range | khoảng biến thiên
+  - quartile | tứ phân vị
+  - interquartile range | khoảng tứ phân vị
+  - outlier | giá trị bất thường
+  - approximate value | giá trị xấp xỉ
+  :::
+
+## Summary
+
+[[P15·5b9f]]
+- Grouped data $[u_1, u_2)$, …, $[u_k, u_{k+1})$, frequencies $n_1$, …, $n_k$, sample size $n$.
+- $R=u_{k+1}-u_1$ (right end of the last class minus left end of the first class).
+- $Q_1=u_m+\dfrac{\frac n4-C}{n_m}(u_{m+1}-u_m)$, where class $m$ is the first class with cumulative frequency $\ge\frac n4$ and $C$ is the cumulative frequency of the classes before it; $Q_3$: replace $\frac n4$ by $\frac{3n}{4}$.
+- $\Delta_Q=Q_3-Q_1$: the width of the middle half of the data; smaller means more even.
+- These are approximate values; $\Delta_Q$ is less affected by the two end classes than $R$.
+
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 69 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

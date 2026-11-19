@@ -1,0 +1,858 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-MD-2   |   VIỆC: gắn mức độ nhận thức (MD-17)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-MD-2-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-17 – gắn mức độ nhận thức cho 98 câu hỏi (Lớp 9 → Lớp 10)
+
+Tài khoản thực hiện: Alexnguyen122222
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-17 (98 câu)
+
+## Các câu hỏi
+
+### M289 · Lớp 9 · Chuyên đề: parabol y = ax² và đường thẳng
+
+[M289.1] Nhiều lựa chọn
+Điểm nào sau đây thuộc đồ thị hàm số $y=-3x^2$?
+A. $(1;3)$.
+B. $(2;6)$.
+C. $(-1;-3)$.
+D. $(-2;12)$.
+::key C
+$y(-1)=-3\cdot1=-3$. Đáp án A bỏ dấu của $a$, B lấy $3\cdot2$, D bỏ dấu của $a$ và tính $3\cdot4$.
+
+[M289.2] Nhiều lựa chọn
+Parabol $y=ax^2$ đi qua điểm $(-3;-18)$. Giá trị của $a$ là
+A. $2$.
+B. $-6$.
+C. $6$.
+D. $-2$.
+::key D
+$-18=a\cdot9$ nên $a=-2$. Đáp án A bỏ dấu, B và C lấy $\dfrac{-18}{\pm3}$ thay vì chia cho $x^2=9$.
+
+[M289.3] Nhiều lựa chọn
+Số giao điểm của parabol $y=x^2$ và đường thẳng $y=2x-1$ là
+A. $1$.
+B. $2$.
+C. $0$.
+D. $3$.
+::key A
+$x^2-2x+1=0\iff(x-1)^2=0$ có nghiệm kép $x=1$, nên tiếp xúc, chỉ có một điểm chung. Đáp án C nhầm với $\Delta<0$, B nhầm với $\Delta>0$, D không thể có (phương trình bậc hai có tối đa hai nghiệm).
+
+[M289.4] Nhiều lựa chọn
+Hoành độ các giao điểm của parabol $y=x^2$ và đường thẳng $y=x+6$ là
+A. $x=-3$ và $x=2$.
+B. $x=3$ và $x=-2$.
+C. $x=3$ và $x=6$.
+D. $x=-3$ và $x=-2$.
+::key B
+$x^2-x-6=0\iff(x-3)(x+2)=0$. Đáp án A đổi dấu cả hai nghiệm, C và D lấy sai nghiệm.
+
+[M289.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho parabol $(P)\colon y=-x^2$ và đường thẳng $(d)\colon y=-2x-3$. Các nhận định sau đúng hay sai?
+a) Parabol $(P)$ nằm phía dưới trục hoành, trừ điểm $O$.
+b) Điểm $(-1;-1)$ thuộc $(P)$.
+c) $(P)$ và $(d)$ cắt nhau tại hai điểm phân biệt.
+d) Một giao điểm của $(P)$ và $(d)$ là $(3;9)$.
+::key Đ Đ Đ S
+a) Đúng: $a=-1<0$ nên $y\leq0$. b) Đúng: $y(-1)=-1$. c) Đúng: $-x^2=-2x-3\iff x^2-2x-3=0$ có nghiệm $x=3$, $x=-1$. d) Sai: giao điểm là $(3;-9)$ và $(-1;-1)$.
+
+[M289.6] Trả lời ngắn
+Parabol $y=x^2$ và đường thẳng $y=x+2$ cắt nhau tại hai điểm. Tính tổng hai hoành độ giao điểm.
+::key 1
+$x^2-x-2=0$ nên theo hệ thức Viète, $x_1+x_2=1$ (hai nghiệm là $-1$ và $2$).
+
+[M289.7] Trả lời ngắn
+Mặt cắt của một chảo là parabol $y=\dfrac{x^2}8$ (đơn vị: dm). Đường kính miệng chảo là $12$ dm. Tính độ sâu của chảo (đơn vị dm).
+::key 4,5
+Mép chảo có $x=6$ nên $y=\dfrac{36}8=4{,}5$.
+
+### M290 · Lớp 9 · Chuyên đề: hình học đường tròn
+
+[M290.1] Nhiều lựa chọn
+Tam giác $ABC$ nội tiếp đường tròn $(O)$ có góc ở tâm $\widehat{BOC}=80^\circ$ (cùng chắn cung $BC$ với $\widehat{BAC}$). Số đo $\widehat{BAC}$ là
+A. $80^\circ$.
+B. $160^\circ$.
+C. $40^\circ$.
+D. $100^\circ$.
+::key C
+Góc nội tiếp bằng một nửa góc ở tâm cùng chắn một cung: $\widehat{BAC}=80^\circ:2=40^\circ$. Đáp án A nhầm hai góc bằng nhau, B nhân đôi thay vì chia đôi, D là $180^\circ-80^\circ$.
+
+[M290.2] Nhiều lựa chọn
+Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat A=70^\circ$. Số đo $\widehat C$ là
+A. $290^\circ$.
+B. $70^\circ$.
+C. $20^\circ$.
+D. $110^\circ$.
+::key D
+Hai góc đối bù nhau nên $\widehat C=180^\circ-70^\circ=110^\circ$. Đáp án B cho hai góc đối bằng nhau, C là $90^\circ-70^\circ$, A là $360^\circ-70^\circ$.
+
+[M290.3] Nhiều lựa chọn
+Cho đường tròn $(O;3\text{ cm})$ và điểm $A$ với $OA=5$ cm. $AB$ là tiếp tuyến của đường tròn tại $B$. Độ dài $AB$ là
+A. $4$ cm.
+B. $2$ cm.
+C. $\sqrt{34}$ cm.
+D. $8$ cm.
+::key A
+Tam giác $ABO$ vuông tại $B$ nên $AB=\sqrt{25-9}=4$. Đáp án D là $5+3$, B là $5-3$, C là $\sqrt{25+9}$ (cộng thay vì trừ).
+
+[M290.4] Nhiều lựa chọn
+Độ dài cung $90^\circ$ của đường tròn bán kính $4$ cm là
+A. $\pi$ cm.
+B. $2\pi$ cm.
+C. $4\pi$ cm.
+D. $8\pi$ cm.
+::key B
+$l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$. Đáp án A chia thêm cho $2$, C là $\dfrac{\pi R n}{90}$, D là chu vi cả đường tròn.
+
+[M290.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ nội tiếp đường tròn $(O;5\text{ cm})$ có $\widehat{BAC}=30^\circ$. Các nhận định sau đúng hay sai?
+a) $\widehat{BOC}=60^\circ$.
+b) $BC=5$ cm.
+c) $\widehat{OBC}=70^\circ$.
+d) Tam giác $OBC$ đều.
+::key Đ Đ S Đ
+a) Đúng: góc ở tâm gấp đôi góc nội tiếp. b) Đúng: tam giác $OBC$ cân có góc ở đỉnh $60^\circ$ nên đều, $BC=OB=5$. c) Sai: $\widehat{OBC}=60^\circ$. d) Đúng: như ở b).
+
+[M290.6] Trả lời ngắn
+Cho đường tròn $(O;6\text{ cm})$ và điểm $A$ sao cho $OA=10$ cm. $AB$ là tiếp tuyến tại $B$. Tính $AB$ (đơn vị cm).
+::key 8
+$AB=\sqrt{10^2-6^2}=8$.
+
+[M290.7] Trả lời ngắn
+Tính diện tích hình quạt tròn bán kính $6$ cm, góc ở tâm $60^\circ$ (đơn vị cm², làm tròn đến một chữ số thập phân).
+::key 18,8
+$S=\dfrac{\pi\cdot36\cdot60}{360}=6\pi\approx18{,}8$.
+
+### M291 · Lớp 9 · Chuyên đề: hệ thức lượng và hình học thực tế
+
+[M291.1] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $AB=3$ và $AC=4$. Giá trị của $\sin C$ là
+A. $\dfrac45$.
+B. $\dfrac53$.
+C. $\dfrac34$.
+D. $\dfrac35$.
+::key D
+$BC=5$ và cạnh đối của góc $C$ là $AB=3$ nên $\sin C=\dfrac35$. Đáp án A là $\cos C$, C là $\tan C$, B là $\dfrac{BC}{AB}$.
+
+[M291.2] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $BC=10$ cm và $\widehat B=30^\circ$. Độ dài $AC$ là
+A. $5$ cm.
+B. $5\sqrt3$ cm.
+C. $\dfrac{10\sqrt3}3$ cm.
+D. $20$ cm.
+::key A
+$AC=BC\sin30^\circ=10\cdot\dfrac12=5$. Đáp án B dùng $\cos30^\circ$ thay vì $\sin30^\circ$, C là $\dfrac{BC}{\sqrt3}$, D là $2BC$.
+
+[M291.3] Nhiều lựa chọn
+Góc nhọn $\alpha$ có $\tan\alpha=1{,}5$. Số đo $\alpha$ (làm tròn đến một chữ số thập phân) là
+A. $33{,}7^\circ$.
+B. $56{,}3^\circ$.
+C. $48{,}2^\circ$.
+D. $1{,}5^\circ$.
+::key B
+$\alpha=\arctan1{,}5\approx56{,}3^\circ$. Đáp án A là góc phụ $90^\circ-56{,}3^\circ$ (ứng với $\tan\alpha=\dfrac23$), C là $\arccos\dfrac23$, D lấy luôn giá trị $\tan\alpha$ làm số đo góc.
+
+[M291.4] Nhiều lựa chọn
+Một người đứng cách chân tháp $20$ m, nhìn đỉnh tháp dưới góc nâng $40^\circ$ (bỏ qua chiều cao mắt). Chiều cao tháp (làm tròn đến một chữ số thập phân) là
+A. $15{,}3$ m.
+B. $12{,}9$ m.
+C. $16{,}8$ m.
+D. $23{,}8$ m.
+::key C
+$h=20\tan40^\circ\approx16{,}8$. Đáp án A là $20\cos40^\circ$, B là $20\sin40^\circ$, D là $\dfrac{20}{\tan40^\circ}$.
+
+[M291.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ vuông tại $A$ có đường cao $AH$, $AB=6$ cm và $AC=8$ cm. Các nhận định sau đúng hay sai?
+a) $BC=10$ cm.
+b) $AH=5$ cm.
+c) $BH=6{,}4$ cm.
+d) $\tan B=\dfrac34$.
+::key Đ S S S
+a) Đúng: $\sqrt{36+64}=10$. b) Sai: $AH=\dfrac{6\cdot8}{10}=4{,}8$ cm. c) Sai: $BH=\dfrac{36}{10}=3{,}6$ cm ($6{,}4$ là $CH$). d) Sai: $\tan B=\dfrac{AC}{AB}=\dfrac43$.
+
+[M291.6] Trả lời ngắn
+Một chiếc thang dài $4$ m dựa vào tường, tạo với mặt đất góc $60^\circ$. Đầu thang cao bao nhiêu mét so với mặt đất (làm tròn đến một chữ số thập phân)?
+::key 3,5
+$4\sin60^\circ=2\sqrt3\approx3{,}5$.
+
+[M291.7] Trả lời ngắn
+Một người cao đến mắt $1{,}6$ m đứng cách chân một cột $12$ m, nhìn thấy đỉnh cột dưới góc nâng $45^\circ$. Cột cao bao nhiêu mét?
+::key 13,6
+$12\tan45^\circ=12$, cộng chiều cao mắt $1{,}6$ được $13{,}6$ m.
+
+### M292 · Lớp 9 · Chuyên đề: thống kê và xác suất
+
+[M292.1] Nhiều lựa chọn
+Trong $20$ bạn làm bài kiểm tra, có $6$ bạn được $8$ điểm. Tần số tương đối của điểm $8$ là
+A. $30\%$.
+B. $3{,}3\%$.
+C. $6\%$.
+D. $70\%$.
+::key A
+$\dfrac6{20}=30\%$. Đáp án C lấy tần số làm phần trăm, B là $\dfrac{20}6$ (chia ngược), D là tần số tương đối của các điểm còn lại.
+
+[M292.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất để số chấm lớn hơn $4$ là
+A. $\dfrac16$.
+B. $\dfrac13$.
+C. $\dfrac12$.
+D. $\dfrac23$.
+::key B
+Các kết quả thuận lợi là $5$ và $6$ nên $P=\dfrac26=\dfrac13$. Đáp án A chỉ đếm mặt $6$, C là xác suất của "lớn hơn hoặc bằng $4$", D là xác suất của "nhỏ hơn hoặc bằng $4$".
+
+[M292.3] Nhiều lựa chọn
+Một hộp có $5$ bi đỏ, $3$ bi xanh, $2$ bi vàng. Lấy ngẫu nhiên một bi. Xác suất để bi lấy ra không phải bi vàng là
+A. $\dfrac15$.
+B. $\dfrac12$.
+C. $\dfrac45$.
+D. $\dfrac3{10}$.
+::key C
+$P=1-\dfrac2{10}=\dfrac8{10}=\dfrac45$. Đáp án A là xác suất lấy được bi vàng, B là xác suất lấy bi đỏ, D là xác suất lấy bi xanh.
+
+[M292.4] Nhiều lựa chọn
+Một biểu đồ tròn có một nhóm chiếm $15\%$. Góc ở tâm của hình quạt tương ứng là
+A. $150^\circ$.
+B. $15^\circ$.
+C. $27^\circ$.
+D. $54^\circ$.
+::key D
+$0{,}15\cdot360^\circ=54^\circ$. Đáp án B lấy phần trăm làm số đo độ, C là $\dfrac{54}{2}$, A nhân nhầm với $10$.
+
+[M292.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Điểm kiểm tra của $40$ học sinh có bảng tần số: điểm $5$: $4$; điểm $6$: $8$; điểm $7$: $12$; điểm $8$: $10$; điểm $9$: $6$. Các nhận định sau đúng hay sai?
+a) Tần số tương đối của điểm $7$ là $30\%$.
+b) Điểm xuất hiện nhiều nhất là $8$.
+c) Có $40\%$ số học sinh đạt từ $8$ điểm trở lên.
+d) Tổng các tần số tương đối bằng $100\%$.
+::key Đ S Đ Đ
+a) Đúng: $\dfrac{12}{40}=30\%$. b) Sai: điểm $7$ có tần số lớn nhất ($12$). c) Đúng: $\dfrac{10+6}{40}=40\%$. d) Đúng: tổng các tần số tương đối luôn bằng $100\%$.
+
+[M292.6] Trả lời ngắn
+Một hộp có $5$ bi đỏ, $3$ bi xanh, $2$ bi vàng. Lấy ngẫu nhiên một bi. Xác suất lấy được bi xanh bằng bao nhiêu phần trăm?
+::key 30
+$P=\dfrac3{10}=30\%$.
+
+[M292.7] Trả lời ngắn
+Gieo hai con xúc xắc cân đối. Có bao nhiêu kết quả để tổng số chấm bằng $8$?
+::key 5
+Các cặp là $(2;6)$, $(3;5)$, $(4;4)$, $(5;3)$, $(6;2)$.
+
+### M293 · Lớp 9 · Đề luyện thi vào 10 số 1
+
+[M293.1] Nhiều lựa chọn
+Với $x=9$, giá trị của $B=\dfrac{\sqrt x-1}{\sqrt x+1}$ là
+A. $2$.
+B. $\dfrac14$.
+C. $-\dfrac12$.
+D. $\dfrac12$.
+::key D
+$B=\dfrac{3-1}{3+1}=\dfrac12$. Đáp án A là $\dfrac{3-1}{1}$, B là $\dfrac1{3+1}$, C là $\dfrac{1-3}{3+1}$ (đảo thứ tự phép trừ).
+
+[M293.2] Nhiều lựa chọn
+Nghiệm của hệ phương trình $\begin{cases}2x-y=5\\3x+2y=4\end{cases}$ là
+A. $(2;-1)$.
+B. $(2;1)$.
+C. $(-1;2)$.
+D. $(1;-3)$.
+::key A
+Thế $y=2x-5$ vào phương trình thứ hai ta có $7x=14$, $x=2$ và $y=-1$. Đáp án C đổi chỗ hai ẩn, B sai dấu của $y$, D không thoả mãn phương trình thứ hai.
+
+[M293.3] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AM$, $AB=10$ và $BM=8$. Độ dài $BC$ là
+A. $6{,}4$.
+B. $12{,}5$.
+C. $8$.
+D. $12$.
+::key B
+$AB^2=BM\cdot BC$ nên $BC=\dfrac{100}8=12{,}5$. Đáp án A là $\dfrac{BM^2}{AB}$, C là $BM$, D là $AB+2$.
+
+[M293.4] Nhiều lựa chọn
+Xưởng may dự định làm $1200$ chiếc áo, mỗi ngày $80$ chiếc. Số ngày dự định là
+A. $80$.
+B. $12$.
+C. $15$.
+D. $10$.
+::key C
+$1200:80=15$ ngày. Đáp án B là số ngày thực tế ($1200:100$), A là số áo mỗi ngày, D là $1200:120$.
+
+[M293.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho parabol $(P)\colon y=-x^2$ và đường thẳng $(d)\colon y=x-2$. Các nhận định sau đúng hay sai?
+a) $(d)$ tiếp xúc với $(P)$.
+b) Điểm $(1;1)$ là giao điểm của $(P)$ và $(d)$.
+c) Điểm $(-2;-4)$ là giao điểm của $(P)$ và $(d)$.
+d) Diện tích tam giác $OAB$ bằng $6$ ($A$, $B$ là các giao điểm).
+::key S S Đ S
+a) Sai: $\Delta=1+8=9>0$ nên $(d)$ cắt $(P)$ tại hai điểm. b) Sai: giao điểm là $(1;-1)$. c) Đúng: $-(-2)^2=-4$ và $-2-2=-4$. d) Sai: diện tích bằng $3$.
+
+[M293.6] Trả lời ngắn
+Tìm $x$ để $B=\dfrac{\sqrt x-1}{\sqrt x+1}=\dfrac13$.
+::key 4
+$3(\sqrt x-1)=\sqrt x+1$ cho $\sqrt x=2$, nên $x=4$.
+
+[M293.7] Trả lời ngắn
+Parabol $y=-x^2$ và đường thẳng $y=x-2$ cắt nhau tại $A$, $B$. Tính diện tích tam giác $OAB$.
+::key 3
+$A(1;-1)$, $B(-2;-4)$, $C(0;-2)$ nên $S=\dfrac12\cdot2\cdot(1+2)=3$.
+
+### M294 · Lớp 9 · Đề luyện thi vào 10 số 2
+
+[M294.1] Nhiều lựa chọn
+Với $x=16$, giá trị của $P=\dfrac{\sqrt x}{\sqrt x+2}$ là
+A. $\dfrac43$.
+B. $\dfrac23$.
+C. $\dfrac12$.
+D. $\dfrac45$.
+::key B
+$P=\dfrac4{4+2}=\dfrac23$. Đáp án A là $\dfrac{4}{4-1}$, C là $\dfrac{2}{4}$, D là $\dfrac{4}{4+1}$.
+
+[M294.2] Nhiều lựa chọn
+Mảnh vườn hình chữ nhật có chu vi $70$ m và diện tích $300$ m$^2$. Chiều rộng là
+A. $10$ m.
+B. $12$ m.
+C. $15$ m.
+D. $20$ m.
+::key C
+Hai kích thước là nghiệm của $t^2-35t+300=0$, tức $15$ và $20$; chiều rộng là số nhỏ hơn. Đáp án D là chiều dài.
+
+[M294.3] Nhiều lựa chọn
+Từ điểm $A$ cách tâm $O$ của đường tròn bán kính $3$ cm một khoảng $OA=5$ cm kẻ tiếp tuyến $AB$. Độ dài $AB$ là
+A. $3$ cm.
+B. $8$ cm.
+C. $\sqrt{34}$ cm.
+D. $4$ cm.
+::key D
+$AB=\sqrt{OA^2-OB^2}=\sqrt{25-9}=4$. Đáp án C là $\sqrt{25+9}$, B là $5+3$.
+
+[M294.4] Nhiều lựa chọn
+Phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Giá trị của $\dfrac1{x_1}+\dfrac1{x_2}$ là
+A. $\dfrac32$.
+B. $6$.
+C. $4$.
+D. $\dfrac23$.
+::key A
+$\dfrac1{x_1}+\dfrac1{x_2}=\dfrac{x_1+x_2}{x_1x_2}=\dfrac64=\dfrac32$. Đáp án D là nghịch đảo của kết quả đúng.
+
+[M294.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường tròn $(O;3\text{ cm})$, $OA=5$ cm, $AB$, $AC$ là hai tiếp tuyến ($B$, $C$ là tiếp điểm), $H$ là giao điểm của $OA$ và $BC$. Các khẳng định sau đúng hay sai?
+a) $AB=5$ cm.
+b) $BC=2{,}4$ cm.
+c) $OH=2{,}4$ cm.
+d) $AH\cdot AO=AB^2$.
+::key S S S Đ
+a) Sai: $AB=4$ cm. b) Sai: $BH=2{,}4$ nên $BC=4{,}8$ cm. c) Sai: $OH=\dfrac95=1{,}8$ cm. d) Đúng: $AH=3{,}2$ và $AH\cdot AO=3{,}2\cdot5=16=4^2$.
+
+[M294.6] Trả lời ngắn
+Tìm $x$ để $P=\dfrac{\sqrt x}{\sqrt x+2}=\dfrac13$.
+::key 1
+$3\sqrt x=\sqrt x+2$ nên $\sqrt x=1$, $x=1$.
+
+[M294.7] Trả lời ngắn
+Cho phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Tính $x_1^2+x_2^2$.
+::key 28
+$x_1^2+x_2^2=6^2-2\cdot4=28$.
+
+### M295 · Lớp 9 · Đề luyện thi vào 10 số 3
+
+[M295.1] Nhiều lựa chọn
+Giá trị của $A=\sqrt{7-4\sqrt3}+\sqrt{12}$ là
+A. $2+\sqrt3$.
+B. $2-\sqrt3$.
+C. $4-\sqrt3$.
+D. $\sqrt3$.
+::key A
+$\sqrt{7-4\sqrt3}=2-\sqrt3$ và $\sqrt{12}=2\sqrt3$ nên $A=2+\sqrt3$. Đáp án B quên cộng $\sqrt{12}$.
+
+[M295.2] Nhiều lựa chọn
+Một hộp có $12$ viên bi gồm $5$ xanh, $4$ đỏ, $3$ vàng. Lấy ngẫu nhiên $1$ viên. Xác suất để viên bi không phải màu đỏ là
+A. $\dfrac13$.
+B. $\dfrac23$.
+C. $\dfrac34$.
+D. $\dfrac5{12}$.
+::key B
+Có $8$ viên không đỏ trên $12$ viên, nên xác suất là $\dfrac8{12}=\dfrac23$. Đáp án A là xác suất lấy được bi đỏ.
+
+[M295.3] Nhiều lựa chọn
+Ô tô và xe máy cùng đi quãng đường $90$ km; ô tô nhanh hơn xe máy $15$ km/h và đến sớm hơn $1$ giờ. Vận tốc của ô tô là
+A. $30$ km/h.
+B. $15$ km/h.
+C. $45$ km/h.
+D. $60$ km/h.
+::key C
+Xe máy $30$ km/h, ô tô $30+15=45$ km/h. Đáp án A là vận tốc xe máy.
+
+[M295.4] Nhiều lựa chọn
+Parabol $y=x^2$ cắt đường thẳng $y=2x+3$ tại $A(-1;1)$ và $B(3;9)$. Diện tích tam giác $OAB$ là
+A. $3$.
+B. $12$.
+C. $9$.
+D. $6$.
+::key D
+$S=\dfrac12\cdot3\cdot(1+3)=6$. Đáp án B là $\dfrac12\cdot 3\cdot(1+3)\cdot2$, tức là gấp đôi.
+
+[M295.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Bảng điểm của $20$ học sinh: điểm $5$ có $2$ em, điểm $6$ có $4$ em, điểm $7$ có $6$ em, điểm $8$ có $5$ em, điểm $9$ có $3$ em. Các khẳng định sau đúng hay sai?
+a) Tần số tương đối của điểm $7$ là $25\%$.
+b) Có $40\%$ số học sinh đạt từ $8$ điểm trở lên.
+c) Xác suất chọn ngẫu nhiên một học sinh điểm $9$ là $\dfrac14$.
+d) Xác suất chọn ngẫu nhiên một học sinh có điểm dưới $6$ là $0{,}2$.
+::key S Đ S S
+a) Sai: $\dfrac6{20}=30\%$. b) Đúng: $\dfrac{5+3}{20}=40\%$. c) Sai: $\dfrac3{20}$. d) Sai: có $2$ em điểm $5$, xác suất là $\dfrac2{20}=0{,}1$.
+
+[M295.6] Trả lời ngắn
+Tìm giá trị lớn nhất của $x$ thoả mãn $\dfrac{x-1}2\geq\dfrac{2x+1}3-1$.
+::key 1
+Bất phương trình tương đương $x\leq1$, nên giá trị lớn nhất của $x$ là $1$.
+
+[M295.7] Trả lời ngắn
+Cho tam giác nhọn $ABC$ có hai đường cao $BE$, $CF$ cắt nhau tại $H$ và $AH$ cắt $BC$ tại $D$. Biết $AH=4$ cm, $AD=6$ cm. Tính $AF\cdot AB$ (đơn vị cm$^2$).
+::key 24
+$AF\cdot AB=AH\cdot AD=4\cdot6=24$.
+
+### M296 · Lớp 10 · Mệnh đề
+
+[M296.1] Nhiều lựa chọn
+Câu nào sau đây là một mệnh đề?
+A. $x+2>5$.
+B. Hôm nay trời đẹp quá!
+C. Số $15$ chia hết cho $4$.
+D. Bạn đã làm bài tập chưa?
+::key C
+Câu C khẳng định một điều sai nên là mệnh đề (mệnh đề sai). Câu A còn phụ thuộc $x$ nên mới là mệnh đề chứa biến; B là câu cảm thán, D là câu hỏi.
+
+[M296.2] Nhiều lựa chọn
+Mệnh đề phủ định của mệnh đề "$\exists x\in\mathbb{R},\ x^2<2x$" là
+A. "$\forall x\in\mathbb{R},\ x^2>2x$".
+B. "$\forall x\in\mathbb{R},\ x^2\ge 2x$".
+C. "$\exists x\in\mathbb{R},\ x^2\ge 2x$".
+D. "$\exists x\in\mathbb{R},\ x^2>2x$".
+::key B
+Ta đổi $\exists$ thành $\forall$ và phủ định tính chất: phủ định của "$<$" là "$\ge$" (không phải "$>$"). Phương án C quên đổi lượng từ.
+
+[M296.3] Nhiều lựa chọn
+Mệnh đề kéo theo nào sau đây **sai**?
+A. Nếu $3>2$ thì $9>4$.
+B. Nếu $2>3$ thì $5$ là số chẵn.
+C. Nếu $7$ là số nguyên tố thì $7$ là số lẻ.
+D. Nếu $4$ là số chẵn thì $4$ là số nguyên tố.
+::key D
+$P\Rightarrow Q$ chỉ sai khi $P$ đúng và $Q$ sai: ở D, "$4$ là số chẵn" đúng còn "$4$ là số nguyên tố" sai. Phương án B có $P$ sai nên mệnh đề kéo theo vẫn đúng.
+
+[M296.4] Nhiều lựa chọn
+Với số thực $x$, "$x=2$" là điều kiện gì để có "$x^2=4$"?
+A. Điều kiện cần nhưng không đủ.
+B. Điều kiện đủ nhưng không cần.
+C. Điều kiện cần và đủ.
+D. Không là điều kiện cần, cũng không là điều kiện đủ.
+::key B
+$x=2\Rightarrow x^2=4$ đúng nên "$x=2$" là điều kiện đủ. Chiều ngược sai vì $x=-2$ cũng có $x^2=4$, nên nó không phải điều kiện cần.
+
+[M296.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mệnh đề chứa biến $P(x)$: "$x^2-3x+2=0$" với $x\in\mathbb{R}$.
+a) $P(1)$ là mệnh đề đúng.
+b) Mệnh đề "$\forall x\in\mathbb{R},\ P(x)$" đúng.
+c) Mệnh đề phủ định của "$\exists x\in\mathbb{R},\ P(x)$" là "$\forall x\in\mathbb{R},\ x^2-3x+2\ne 0$".
+d) "$x=2$" là điều kiện cần để $P(x)$ đúng.
+::key Đ S Đ S
+a) Đúng: $1-3+2=0$. b) Sai: với $x=0$ ta có $2\ne 0$ (một phản ví dụ là đủ). c) Đúng: đổi $\exists$ thành $\forall$ và "$=$" thành "$\ne$". d) Sai: $P(1)$ đúng mà $1\ne 2$, nên $P(x)\Rightarrow x=2$ sai.
+
+[M296.6] Trả lời ngắn
+Có bao nhiêu số tự nhiên $n$ với $1\le n\le 30$ làm cho mệnh đề "$n^2+1$ chia hết cho $5$" đúng?
+::key 12
+$n^2+1$ chia hết cho $5$ khi $n$ chia $5$ dư $2$ hoặc dư $3$ (khi đó $n^2$ chia $5$ dư $4$). Mỗi nhóm $5$ số liên tiếp có $2$ số như vậy, nên từ $1$ đến $30$ có $6\cdot 2=12$ số.
+
+[M296.7] Trả lời ngắn
+Xét khẳng định "Với mọi số tự nhiên $n$, số $n^2+n+41$ là số nguyên tố". Tìm số tự nhiên $n$ nhỏ nhất là phản ví dụ của khẳng định này.
+::key 40
+Với $n=40$: $40^2+40+41=40\cdot41+41=41^2=1681$, không phải số nguyên tố. Kiểm tra bằng máy với $n=0, 1, \dots, 39$ đều cho số nguyên tố, nên $40$ là phản ví dụ nhỏ nhất.
+
+### M297 · Lớp 10 · Tập hợp và các phép toán trên tập hợp
+
+[M297.1] Nhiều lựa chọn
+Cho $A=\{x\in\mathbb{Z}\mid -2\le x<3\}$. Số phần tử của $A$ là
+A. $4$.
+B. $5$.
+C. $6$.
+D. $3$.
+::key B
+$A=\{-2, -1, 0, 1, 2\}$ có $5$ phần tử. Đếm cả $3$ (dấu "$<$" không lấy $3$) thì ra $6$; bỏ $-2$ thì ra $4$.
+
+[M297.2] Nhiều lựa chọn
+Cho $A=(-1; 4]$ và $B=[2; 6)$. Tập $A\cap B$ là
+A. $[2; 4]$.
+B. $(2; 4)$.
+C. $(-1; 6)$.
+D. $[2; 4)$.
+::key A
+Ta cần $-1<x\le 4$ và $2\le x<6$, tức $2\le x\le 4$. Cả $2$ và $4$ đều thuộc hai tập nên được lấy; $(-1; 6)$ là hợp chứ không phải giao.
+
+[M297.3] Nhiều lựa chọn
+Phần bù của $[1; +\infty)$ trong $\mathbb{R}$ là
+A. $(-\infty; 1]$.
+B. $(-\infty; 1)$.
+C. $(1; +\infty)$.
+D. $(-\infty; -1)$.
+::key B
+Phần bù gồm các số thực không thuộc $[1; +\infty)$, tức $x<1$. Điểm $1$ thuộc tập đã cho nên không thuộc phần bù.
+
+[M297.4] Nhiều lựa chọn
+Cho $A=\{1, 2, 3, 4, 5\}$ và $B$ là tập các ước tự nhiên của $6$. Tập $A\setminus B$ là
+A. $\{4, 5\}$.
+B. $\{6\}$.
+C. $\{1, 2, 3\}$.
+D. $\{4, 5, 6\}$.
+::key A
+$B=\{1, 2, 3, 6\}$. $A\setminus B$ gồm các phần tử thuộc $A$ mà không thuộc $B$: $4$ và $5$. Phương án B là $B\setminus A$, phương án C là $A\cap B$.
+
+[M297.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A=[-2; 3)$ và $B=(0; 5]$.
+a) $A\cup B=[-2; 5]$.
+b) $A\cap B=[0; 3)$.
+c) $A\setminus B=[-2; 0]$.
+d) $B\setminus A$ chứa đúng $3$ số nguyên.
+::key Đ S Đ Đ
+a) Đúng: hai đoạn nối liền từ $-2$ (lấy) đến $5$ (lấy). b) Sai: $0\notin B$ nên $A\cap B=(0; 3)$. c) Đúng: $0\notin B$ nên $0$ vẫn ở lại trong $A\setminus B$. d) Đúng: $B\setminus A=[3; 5]$ chứa $3, 4, 5$.
+
+[M297.6] Trả lời ngắn
+Có bao nhiêu tập hợp $X$ là tập con của $\{1, 2, 3, 4, 5, 6\}$, chứa phần tử $1$ nhưng không chứa phần tử $6$?
+::key 16
+Phần tử $1$ bắt buộc có, phần tử $6$ bắt buộc không có. Mỗi phần tử $2, 3, 4, 5$ có $2$ cách (lấy hoặc không), nên có $2^4=16$ tập.
+
+[M297.7] Trả lời ngắn
+Lớp 10B có $40$ học sinh, trong đó $25$ bạn thích môn Toán, $18$ bạn thích môn Văn và $7$ bạn thích cả hai môn. Có bao nhiêu bạn thích **đúng một** trong hai môn?
+::key 29
+Chỉ thích Toán: $25-7=18$; chỉ thích Văn: $18-7=11$. Thích đúng một môn: $18+11=29$ bạn (cộng $25+18-7=36$ là số bạn thích ít nhất một môn).
+
+### M298 · Lớp 10 · Bất phương trình bậc nhất hai ẩn
+
+[M298.1] Nhiều lựa chọn
+Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?
+A. $2x-3y\le5$.
+B. $x^2+y>1$.
+C. $xy\ge2$.
+D. $\dfrac1x+y\le2$.
+::key A
+Bất phương trình bậc nhất hai ẩn có dạng $ax+by\le c$ (hoặc $<, \ge, >$): mỗi ẩn chỉ có bậc nhất. B có $x^2$, C có tích $xy$, D có $x$ ở mẫu.
+
+[M298.2] Nhiều lựa chọn
+Cặp số nào sau đây là một nghiệm của bất phương trình $3x-2y>4$?
+A. $(2; 1)$.
+B. $(0; -3)$.
+C. $(1; 0)$.
+D. $(3; 3)$.
+::key B
+$(0; -3)$: $0+6=6>4$, đúng. Với A ta được $6-2=4$, mà $4>4$ sai: điểm này nằm trên bờ, dấu $>$ không lấy bờ. C cho $3$, D cho $3$, đều không lớn hơn $4$.
+
+[M298.3] Nhiều lựa chọn
+Miền nghiệm của bất phương trình $x+3y\ge6$ là
+A. nửa mặt phẳng bờ $x+3y=6$ chứa gốc $O$, kể cả bờ.
+B. nửa mặt phẳng bờ $x+3y=6$ chứa gốc $O$, không kể bờ.
+C. nửa mặt phẳng bờ $x+3y=6$ không chứa gốc $O$, kể cả bờ.
+D. nửa mặt phẳng bờ $x+3y=6$ không chứa gốc $O$, không kể bờ.
+::key C
+Thay $O(0; 0)$: $0\ge6$ sai, nên lấy nửa mặt phẳng không chứa $O$. Dấu $\ge$ cho phép dấu bằng, nên bờ thuộc miền nghiệm (vẽ nét liền).
+
+[M298.4] Nhiều lựa chọn
+Miền nghiệm của một bất phương trình là nửa mặt phẳng có bờ là đường thẳng đi qua $(2; 0)$ và $(0; 4)$, không chứa gốc $O$, kể cả bờ. Bất phương trình đó là
+A. $2x+y\le4$.
+B. $2x+y\ge4$.
+C. $x+2y\ge4$.
+D. $2x+y>4$.
+::key B
+Đường thẳng qua $(2; 0)$ và $(0; 4)$ là $\dfrac x2+\dfrac y4=1\iff 2x+y=4$. Tại $O$: $0<4$, nên phía không chứa $O$ là $2x+y\ge4$ (kể cả bờ nên dùng $\ge$). Phương án C đổi chỗ hai giao điểm; D không lấy bờ.
+
+[M298.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một tiệm bánh làm $x$ chiếc bánh loại I (chi phí $20$ nghìn đồng mỗi chiếc) và $y$ chiếc bánh loại II (chi phí $30$ nghìn đồng mỗi chiếc), với tổng chi phí không quá $600$ nghìn đồng.
+a) Điều kiện về chi phí là $20x+30y\ge600$.
+b) Tiệm có thể làm $15$ chiếc loại I và $10$ chiếc loại II.
+c) Tiệm có thể làm $20$ chiếc loại I và $8$ chiếc loại II.
+d) Nếu tiệm làm $12$ chiếc loại II thì có thể làm nhiều nhất $12$ chiếc loại I.
+::key S Đ S Đ
+Điều kiện đúng là $20x+30y\le600\iff 2x+3y\le60$. a) Sai: "không quá" là $\le$. b) Đúng: $30+30=60\le60$. c) Sai: $40+24=64>60$. d) Đúng: $2x+36\le60\iff x\le12$.
+
+[M298.6] Trả lời ngắn
+Điểm $M(a; 2)$ thuộc miền nghiệm của bất phương trình $3x-y\le7$. Tìm giá trị lớn nhất của $a$.
+::key 3
+Thay $x=a$, $y=2$: $3a-2\le7\iff a\le3$. Vậy giá trị lớn nhất của $a$ là $3$.
+
+[M298.7] Trả lời ngắn
+Vé xem phim cho học sinh giá $25$ nghìn đồng, vé người lớn giá $40$ nghìn đồng. Một nhóm có $4$ người lớn và có không quá $300$ nghìn đồng. Nhóm có thể mua nhiều nhất bao nhiêu vé học sinh?
+::key 5
+Gọi $y$ là số vé học sinh: $25y+40\cdot4\le300\iff 25y\le140\iff y\le5{,}6$. Số vé là số tự nhiên nên nhiều nhất là $5$.
+
+### M299 · Lớp 10 · Hệ bất phương trình bậc nhất hai ẩn
+
+[M299.1] Nhiều lựa chọn
+Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?
+A. $\begin{cases} x+y\ge 1\\ x^2-y<2 \end{cases}$
+B. $\begin{cases} 2x-y\le 3\\ x+5y>0 \end{cases}$
+C. $\begin{cases} xy\ge 1\\ x-y<0 \end{cases}$
+D. $\begin{cases} x+y=2\\ x-y>1 \end{cases}$
+::key B
+Cả hai bất phương trình ở B đều có dạng $ax+by<c$ (hoặc $\le$, $>$, $\ge$). Phương án A có $x^2$, C có tích $xy$, D có một phương trình chứ không phải bất phương trình.
+
+[M299.2] Nhiều lựa chọn
+Cặp số nào sau đây là nghiệm của hệ $\begin{cases} x+y\le 3\\ 2x-y>0 \end{cases}$?
+A. $(1; 1)$.
+B. $(0; 0)$.
+C. $(2; 2)$.
+D. $(1; 2)$.
+::key A
+$(1; 1)$: $2\le 3$ và $1>0$, cả hai đúng. $(0; 0)$ và $(1; 2)$ cho $2x-y=0$, không thoả dấu "$>$" chặt; $(2; 2)$ cho $x+y=4>3$.
+
+[M299.3] Nhiều lựa chọn
+Miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 5$, $x\le 3$ là một tứ giác. Điểm nào sau đây **không** phải là đỉnh của tứ giác đó?
+A. $(3; 2)$.
+B. $(0; 5)$.
+C. $(5; 0)$.
+D. $(3; 0)$.
+::key C
+$(5; 0)$ là giao điểm của $x+y=5$ với trục $Ox$, nhưng $5\le 3$ sai nên điểm này nằm ngoài miền nghiệm. Các đỉnh là $(0; 0)$, $(3; 0)$, $(3; 2)$, $(0; 5)$.
+
+[M299.4] Nhiều lựa chọn
+Miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $2x+y\le 8$, $x+3y\le 9$ là tứ giác có các đỉnh $(0; 0)$, $(4; 0)$, $(3; 2)$, $(0; 3)$. Giá trị lớn nhất của $F=x+2y$ trên miền đó là
+A. $6$.
+B. $7$.
+C. $16$.
+D. $4$.
+::key B
+Tại bốn đỉnh, $F$ bằng $0$, $4$, $7$, $6$; lớn nhất là $7$ tại $(3; 2)$. Số $16$ là $F(0; 8)$, nhưng $(0; 8)$ là giao của $2x+y=8$ với trục $Oy$ và không thoả $x+3y\le 9$.
+
+[M299.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho miền nghiệm $D$ của hệ $\begin{cases} x\ge 0,\ y\ge 0\\ x+y\le 4\\ y\le x+2 \end{cases}$
+a) Cặp $(2; 1)$ là một nghiệm của hệ.
+b) Điểm $(1; 3)$ là một đỉnh của $D$.
+c) Giá trị lớn nhất của $x+2y$ trên $D$ là $8$.
+d) Giá trị nhỏ nhất của $y-x$ trên $D$ là $-4$.
+::key Đ Đ S Đ
+Các đỉnh của $D$ là $(0; 0)$, $(4; 0)$, $(1; 3)$, $(0; 2)$. a) Đúng: $3\le 4$ và $1\le 4$. b) Đúng: giải $x+y=4$, $y=x+2$ được $x=1$, $y=3$. c) Sai: $x+2y$ tại các đỉnh là $0, 4, 7, 4$, lớn nhất là $7$. d) Đúng: $y-x$ tại các đỉnh là $0, -4, 2, 2$.
+
+[M299.6] Trả lời ngắn
+Có bao nhiêu cặp số nguyên $(x; y)$ thoả mãn hệ $x\ge 0$, $y\ge 0$, $x+y\le 3$?
+::key 10
+Với $x=0, 1, 2, 3$, số giá trị của $y$ lần lượt là $4, 3, 2, 1$. Tổng cộng $4+3+2+1=10$ cặp.
+
+[M299.7] Trả lời ngắn
+Một tiệm bánh làm $x$ mẻ bánh mì và $y$ mẻ bánh ngọt mỗi ngày. Mỗi mẻ bánh mì cần $3$ kg bột và $1$ giờ lò; mỗi mẻ bánh ngọt cần $2$ kg bột và $2$ giờ lò. Mỗi ngày tiệm có $18$ kg bột và $10$ giờ lò. Mỗi mẻ bánh mì lãi $500$ nghìn đồng, mỗi mẻ bánh ngọt lãi $400$ nghìn đồng. Tiền lãi lớn nhất trong một ngày là bao nhiêu nghìn đồng?
+::key 3200
+Hệ: $3x+2y\le 18$, $x+2y\le 10$, $x, y\ge 0$, với các đỉnh $(0; 0)$, $(6; 0)$, $(4; 3)$, $(0; 5)$. Lãi $F=500x+400y$ tại các đỉnh là $0$, $3000$, $3200$, $2000$; lớn nhất là $3200$ nghìn đồng (làm $4$ mẻ bánh mì, $3$ mẻ bánh ngọt).
+
+### M300 · Lớp 10 · Giá trị lượng giác của một góc từ 0° đến 180°
+
+[M300.1] Nhiều lựa chọn
+Giá trị của $\cos150^\circ$ là
+A. $\dfrac{\sqrt3}{2}$.
+B. $-\dfrac{\sqrt3}{2}$.
+C. $\dfrac12$.
+D. $-\dfrac12$.
+::key B
+$\cos150^\circ=\cos(180^\circ-30^\circ)=-\cos30^\circ=-\dfrac{\sqrt3}{2}$. Phương án A quên đổi dấu; góc tù luôn có côsin âm.
+
+[M300.2] Nhiều lựa chọn
+Giá trị nào sau đây **không xác định**?
+A. $\tan0^\circ$.
+B. $\cot90^\circ$.
+C. $\tan90^\circ$.
+D. $\cos180^\circ$.
+::key C
+Tại $90^\circ$, điểm $M(0; 1)$ có hoành độ $x_0=0$ nên $\tan90^\circ=\dfrac{y_0}{x_0}$ không xác định. Các giá trị còn lại là $0$, $0$, $-1$.
+
+[M300.3] Nhiều lựa chọn
+Cho $\sin\alpha=\dfrac45$ với $90^\circ<\alpha<180^\circ$. Giá trị của $\cos\alpha$ là
+A. $\dfrac35$.
+B. $-\dfrac35$.
+C. $\dfrac15$.
+D. $-\dfrac15$.
+::key B
+$\cos^2\alpha=1-\dfrac{16}{25}=\dfrac{9}{25}$, góc tù nên lấy giá trị âm: $\cos\alpha=-\dfrac35$. Phương án C lấy $1-\sin\alpha$ thay vì $1-\sin^2\alpha$.
+
+[M300.4] Nhiều lựa chọn
+Giá trị của biểu thức $\sin120^\circ\cos30^\circ+\cos120^\circ\sin30^\circ$ là
+A. $\dfrac12$.
+B. $1$.
+C. $0$.
+D. $-\dfrac12$.
+::key A
+$\dfrac{\sqrt3}{2}\cdot\dfrac{\sqrt3}{2}+\left(-\dfrac12\right)\cdot\dfrac12=\dfrac34-\dfrac14=\dfrac12$. Lấy nhầm $\cos120^\circ=\dfrac12$ thì ra $1$ (phương án B).
+
+[M300.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho góc $\alpha$ với $90^\circ<\alpha<180^\circ$ và $\cos\alpha=-\dfrac{\sqrt5}{3}$.
+a) $\sin\alpha=\dfrac23$.
+b) $\sin(180^\circ-\alpha)=-\dfrac23$.
+c) $\tan\alpha=-\dfrac{2\sqrt5}{5}$.
+d) $\cos(180^\circ-\alpha)=\dfrac{\sqrt5}{3}$.
+::key Đ S Đ Đ
+a) Đúng: $\sin^2\alpha=1-\dfrac59=\dfrac49$ và $\sin\alpha\ge 0$. b) Sai: $\sin(180^\circ-\alpha)=\sin\alpha=\dfrac23$. c) Đúng: $\tan\alpha=\dfrac{2/3}{-\sqrt5/3}=-\dfrac{2}{\sqrt5}=-\dfrac{2\sqrt5}{5}$. d) Đúng: $\cos(180^\circ-\alpha)=-\cos\alpha$.
+
+[M300.6] Trả lời ngắn
+Tính $P=\sin^2 25^\circ+\sin^2 65^\circ+\cos100^\circ+\cos80^\circ$.
+::key 1
+$\sin65^\circ=\cos25^\circ$ (hai góc phụ nhau) nên $\sin^2 25^\circ+\sin^2 65^\circ=1$. Còn $\cos100^\circ=-\cos80^\circ$ (hai góc bù nhau) nên hai số hạng cuối có tổng $0$. Vậy $P=1$.
+
+[M300.7] Trả lời ngắn
+Trên mặt phẳng toạ độ, điểm $M$ nằm trên nửa đường tròn tâm $O$ bán kính $4$ (phía trên trục hoành) với $\widehat{xOM}=140^\circ$. Tìm hoành độ của $M$ (làm tròn đến hàng phần mười).
+::key -3,1
+Phóng to nửa đường tròn đơn vị lên $4$ lần: hoành độ của $M$ là $4\cos140^\circ\approx4\cdot(-0{,}766)\approx-3{,}06$, làm tròn được $-3{,}1$. Hoành độ âm vì góc tù đưa $M$ sang bên trái trục tung.
+
+### M301 · Lớp 10 · Hệ thức lượng trong tam giác
+
+[M301.1] Nhiều lựa chọn
+Tam giác $ABC$ có $b=3$, $c=5$ và $A=120^\circ$. Độ dài cạnh $a$ là
+A. $7$.
+B. $\sqrt{19}$.
+C. $\sqrt{34}$.
+D. $\sqrt{\dfrac{83}{2}}$.
+::key A
+$a^2=9+25-2\cdot3\cdot5\cdot\cos120^\circ=34+15=49$, nên $a=7$. Lấy $\cos120^\circ=\dfrac12$ thì ra $\sqrt{19}$; quên hệ số $2$ thì ra $\sqrt{83/2}$.
+
+[M301.2] Nhiều lựa chọn
+Tam giác $ABC$ có $a=6$ và $A=30^\circ$. Bán kính đường tròn ngoại tiếp $R$ bằng
+A. $12$.
+B. $3$.
+C. $6$.
+D. $\dfrac32$.
+::key C
+Theo định lí sin, $2R=\dfrac{a}{\sin A}=\dfrac{6}{1/2}=12$, nên $R=6$. Phương án A quên chia đôi.
+
+[M301.3] Nhiều lựa chọn
+Tam giác $ABC$ có $a=4$, $b=5$ và $C=150^\circ$. Diện tích tam giác là
+A. $10$.
+B. $5$.
+C. $5\sqrt3$.
+D. $10\sqrt3$.
+::key B
+$S=\dfrac12ab\sin C=\dfrac12\cdot4\cdot5\cdot\dfrac12=5$. Phương án A quên hệ số $\dfrac12$; phương án C dùng nhầm $|\cos150^\circ|$ thay cho $\sin150^\circ$.
+
+[M301.4] Nhiều lựa chọn
+Diện tích tam giác có ba cạnh $5$, $5$, $6$ là
+A. $12$.
+B. $15$.
+C. $24$.
+D. $30$.
+::key A
+$p=8$, theo công thức Heron $S=\sqrt{8\cdot3\cdot3\cdot2}=\sqrt{144}=12$. Phương án C là tích đáy $6$ với chiều cao $4$ mà quên chia $2$.
+
+[M301.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ có $a=7$, $b=3$, $c=8$.
+a) $A=60^\circ$.
+b) Diện tích tam giác là $6\sqrt3$.
+c) Bán kính đường tròn ngoại tiếp là $R=\dfrac{14\sqrt3}{3}$.
+d) Góc $C$ là góc tù.
+::key Đ Đ S Đ
+a) Đúng: $\cos A=\dfrac{9+64-49}{2\cdot3\cdot8}=\dfrac12$. b) Đúng: $S=\dfrac12\cdot3\cdot8\cdot\dfrac{\sqrt3}{2}=6\sqrt3$. c) Sai: $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ nên $R=\dfrac{7\sqrt3}{3}$. d) Đúng: $\cos C=\dfrac{49+9-64}{2\cdot7\cdot3}=-\dfrac17<0$.
+
+[M301.6] Trả lời ngắn
+Từ một ngã ba, hai con đường thẳng tạo với nhau góc $60^\circ$. Nhà An ở trên đường thứ nhất, cách ngã ba $10$ km; nhà Bình ở trên đường thứ hai, cách ngã ba $6$ km. Khoảng cách theo đường chim bay giữa hai nhà là bao nhiêu kilômét (làm tròn đến hàng phần mười)?
+::key 8,7
+Theo định lí côsin, $d^2=10^2+6^2-2\cdot10\cdot6\cos60^\circ=136-60=76$, nên $d=\sqrt{76}\approx8{,}72$, làm tròn được $8{,}7$ km.
+
+[M301.7] Trả lời ngắn
+Hai điểm $A$, $B$ cách nhau $100$ m trên cùng một bờ sông; $C$ là một cái cây ở bờ bên kia. Người ta đo được $\widehat{CAB}=50^\circ$ và $\widehat{CBA}=60^\circ$. Tính khoảng cách $AC$ theo mét (làm tròn đến hàng đơn vị).
+::key 92
+$\widehat{ACB}=180^\circ-50^\circ-60^\circ=70^\circ$. Theo định lí sin, $AC=\dfrac{AB\sin B}{\sin C}=\dfrac{100\sin60^\circ}{\sin70^\circ}\approx92{,}2$, làm tròn được $92$ m.
+
+### M302 · Lớp 10 · Các khái niệm mở đầu về vectơ
+
+[M302.1] Nhiều lựa chọn
+Cho ba điểm phân biệt $A$, $B$, $C$. Có bao nhiêu vectơ khác vectơ-không có điểm đầu và điểm cuối là hai trong ba điểm đó?
+A. $3$.
+B. $6$.
+C. $9$.
+D. $12$.
+::key B
+Có $3$ cách chọn điểm đầu và $2$ cách chọn điểm cuối khác nó: $3\cdot2=6$ vectơ. Phương án A chỉ đếm đoạn thẳng (quên rằng $\overrightarrow{AB}\ne\overrightarrow{BA}$); phương án C đếm cả $\overrightarrow{AA}$, $\overrightarrow{BB}$, $\overrightarrow{CC}$.
+
+[M302.2] Nhiều lựa chọn
+Cho hình bình hành $ABCD$. Đẳng thức nào sau đây đúng?
+A. $\overrightarrow{AB}=\overrightarrow{CD}$.
+B. $\overrightarrow{AB}=\overrightarrow{DC}$.
+C. $\overrightarrow{AD}=\overrightarrow{CB}$.
+D. $\overrightarrow{AC}=\overrightarrow{BD}$.
+::key B
+$\overrightarrow{AB}$ và $\overrightarrow{DC}$ cùng hướng và cùng độ dài. Phương án A và C viết sai thứ tự chữ nên được hai vectơ đối nhau; hai đường chéo ở D không cùng phương.
+
+[M302.3] Nhiều lựa chọn
+Tam giác đều $ABC$ có cạnh $2$, $M$ là trung điểm của $BC$. Độ dài của $\overrightarrow{AM}$ là
+A. $\sqrt3$.
+B. $2$.
+C. $1$.
+D. $\sqrt5$.
+::key A
+$AM$ là đường cao: $AM=\sqrt{AB^2-BM^2}=\sqrt{4-1}=\sqrt3$. Phương án C là $|\overrightarrow{BM}|$; phương án D cộng nhầm $4+1$ trong định lí Pythagore.
+
+[M302.4] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. Hai vectơ có độ dài bằng nhau thì bằng nhau.
+B. Hai vectơ cùng phương thì cùng hướng.
+C. Vectơ-không cùng phương với mọi vectơ.
+D. Nếu $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng phương thì bốn điểm $A$, $B$, $C$, $D$ thẳng hàng.
+::key C
+Đây là quy ước. A sai vì còn cần cùng hướng; B sai vì hai vectơ cùng phương có thể ngược hướng; D sai vì hai giá có thể song song chứ không trùng nhau.
+
+[M302.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho lục giác đều $ABCDEF$ có tâm $O$.
+a) $\overrightarrow{OA}=\overrightarrow{DO}$.
+b) $\overrightarrow{FE}=\overrightarrow{OB}$.
+c) $\overrightarrow{OB}$ và $\overrightarrow{OE}$ là hai vectơ đối nhau.
+d) $|\overrightarrow{AD}|=2|\overrightarrow{AB}|$.
+::key Đ S Đ Đ
+a) Đúng: $D$, $O$, $A$ thẳng hàng theo thứ tự đó và $DO=OA$. b) Sai: $FE\parallel AD$ còn $OB$ nằm trên đường thẳng $BE$, hai vectơ không cùng phương. c) Đúng: $O$ là trung điểm của $BE$. d) Đúng: $AD=2\cdot OA=2\cdot AB$.
+
+[M302.6] Trả lời ngắn
+Cho hình bình hành $ABCD$; $M$, $N$ lần lượt là trung điểm của $AB$, $CD$. Có bao nhiêu vectơ có điểm đầu và điểm cuối thuộc tập $\{A, B, C, D, M, N\}$ và bằng $\overrightarrow{AM}$ (kể cả $\overrightarrow{AM}$)?
+::key 4
+Các đoạn song song với $AB$ và dài bằng $\dfrac{AB}{2}$ là $AM$, $MB$, $DN$, $NC$. Lấy mỗi đoạn theo chiều cùng hướng với $\overrightarrow{AB}$, ta được $\overrightarrow{AM}$, $\overrightarrow{MB}$, $\overrightarrow{DN}$, $\overrightarrow{NC}$: có $4$ vectơ.
+
+[M302.7] Trả lời ngắn
+Hình thoi $ABCD$ có cạnh $5$ và $\widehat{BAD}=60^\circ$. Tính $|\overrightarrow{AC}|$ (làm tròn đến hàng phần mười).
+::key 8,7
+Đường chéo $AC$ là phân giác góc $A$ và vuông góc với $BD$, nên $AC=2\cdot5\cos30^\circ=5\sqrt3\approx8{,}66$, làm tròn được $8{,}7$.

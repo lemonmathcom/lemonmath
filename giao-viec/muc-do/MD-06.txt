@@ -1,4 +1,4 @@
-# Gói MD-06 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 5 → Lớp 5)
+# Gói MD-06 – gắn mức độ nhận thức cho 133 câu hỏi (Lớp 4 → Lớp 4)
 
 Tài khoản thực hiện: Nguyenchanh2358
 
@@ -47,1203 +47,1089 @@ M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mớ
 - Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
 - Lý do: tối đa 12 chữ.
 - Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
-- Khi xong, ghi dòng cuối: HẾT GÓI MD-06 (147 câu)
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-06 (133 câu)
 
 ## Các câu hỏi
 
-### M128 · Lớp 5 · Phân số thập phân
+### M104 · Lớp 4 · Tìm hai số biết tổng và hiệu của hai số đó
 
-[M128.1] Nhiều lựa chọn
-Phân số nào sau đây là phân số thập phân?
-A. $\dfrac{17}{100}$.
-B. $\dfrac{3}{8}$.
-C. $\dfrac{9}{25}$.
-D. $\dfrac{7}{20}$.
-::key A
-Chỉ $\dfrac{17}{100}$ có mẫu số là $100$. Các phân số còn lại có mẫu số $20$, $8$ và $25$.
-
-[M128.2] Nhiều lựa chọn
-Viết $\dfrac{3}{5}$ thành phân số thập phân có mẫu số $10$ được
-A. $\dfrac{3}{10}$.
-B. $\dfrac{6}{10}$.
-C. $\dfrac{6}{50}$.
-D. $\dfrac{30}{10}$.
-::key B
-Nhân cả tử số và mẫu số với $2$: $\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$. Phương án A chỉ đổi mẫu số.
-
-[M128.3] Nhiều lựa chọn
-Viết $\dfrac{7}{8}$ thành phân số thập phân có mẫu số $1\,000$ được
-A. $\dfrac{78}{1\,000}$.
-B. $\dfrac{700}{1\,000}$.
-C. $\dfrac{875}{1\,000}$.
-D. $\dfrac{7}{1\,000}$.
-::key C
-Nhân cả tử số và mẫu số với $125$: $\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}$.
-
-[M128.4] Nhiều lựa chọn
-Viết $125$ g dưới dạng phân số của ki-lô-gam được
-A. $\dfrac{125}{100}$ kg.
-B. $\dfrac{1}{125}$ kg.
-C. $\dfrac{125}{10}$ kg.
-D. $\dfrac{125}{1\,000}$ kg.
+[M104.1] Nhiều lựa chọn
+Tổng của hai số là $84$, hiệu là $12$. Số lớn là
+A. $96$.
+B. $36$.
+C. $72$.
+D. $48$.
 ::key D
-$1$ kg $=1\,000$ g nên $125$ g $=\dfrac{125}{1\,000}$ kg.
+Số lớn là $(84+12):2=96:2=48$. Phương án B là số bé, phương án C là $84-12$, phương án A là $84+12$.
 
-[M128.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phân số $\dfrac{7}{20}$ và số đo $35$ cm.
-a) $\dfrac{7}{20}$ là phân số thập phân.
-b) $\dfrac{7}{20}=\dfrac{35}{100}$.
-c) $35$ cm $=\dfrac{35}{100}$ m.
-d) $\dfrac{35}{100}=\dfrac{7}{10}$.
-::key S Đ Đ S
-a) Sai: mẫu số $20$ không phải $10$, $100$, ... b) Đúng: nhân cả hai với $5$. c) Đúng: $1$ cm $=\dfrac{1}{100}$ m. d) Sai: $\dfrac{35}{100}=\dfrac{7}{20}$.
-
-[M128.6] Trả lời ngắn
-Viết $\dfrac{3}{4}$ thành phân số thập phân có mẫu số $100$. Tử số của phân số đó là bao nhiêu?
-::key 75
-$\dfrac{3}{4}=\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.
-
-[M128.7] Trả lời ngắn
-Bình có $\dfrac{9}{10}$ lít sữa và uống hết $\dfrac{37}{100}$ lít. Số sữa còn lại là một phân số có mẫu số $100$; tử số của phân số đó là bao nhiêu?
-::key 53
-$\dfrac{9}{10}=\dfrac{90}{100}$ và $\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}$.
-
-### M129 · Lớp 5 · Ôn tập các phép tính với phân số
-
-[M129.1] Nhiều lựa chọn
-Kết quả của $\dfrac{2}{3}+\dfrac{3}{4}$ là
-A. $\dfrac{17}{12}$.
-B. $\dfrac{5}{7}$.
-C. $\dfrac{6}{12}$.
-D. $\dfrac{5}{12}$.
+[M104.2] Nhiều lựa chọn
+Tổng của hai số là $125$, hiệu là $35$. Số bé là
+A. $45$.
+B. $90$.
+C. $80$.
+D. $160$.
 ::key A
-$\dfrac{2}{3}+\dfrac{3}{4}=\dfrac{8}{12}+\dfrac{9}{12}=\dfrac{17}{12}$. Phương án B cộng cả tử số và mẫu số.
+Số bé là $(125-35):2=90:2=45$. Phương án C là số lớn, phương án B quên chia cho $2$, phương án D là $125+35$.
 
-[M129.2] Nhiều lựa chọn
-Kết quả của $\dfrac{5}{6}-\dfrac{3}{8}$ là
-A. $\dfrac{2}{24}$.
-B. $\dfrac{11}{24}$.
-C. $\dfrac{1}{2}$.
-D. $\dfrac{8}{14}$.
+[M104.3] Nhiều lựa chọn
+Hai kho chứa tất cả $480$ tấn gạo. Kho A chứa nhiều hơn kho B $60$ tấn. Kho B chứa
+A. $270$ tấn.
+B. $210$ tấn.
+C. $540$ tấn.
+D. $420$ tấn.
 ::key B
-$\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}$.
+Số gạo ở kho B là $(480-60):2=210$ tấn. Phương án A là kho A, phương án D quên chia cho $2$, phương án C là $480+60$.
 
-[M129.3] Nhiều lựa chọn
-Kết quả của $\dfrac{5}{6}:\dfrac{5}{12}$ là
-A. $\dfrac{25}{72}$.
-B. $\dfrac{1}{2}$.
-C. $2$.
+[M104.4] Nhiều lựa chọn
+Một hình chữ nhật có chu vi $56$ m, chiều dài hơn chiều rộng $8$ m. Chiều rộng là
+A. $18$ m.
+B. $28$ m.
+C. $10$ m.
+D. $20$ m.
+::key C
+Nửa chu vi là $56:2=28$ m. Chiều rộng là $(28-8):2=10$ m. Phương án A là chiều dài, phương án B là nửa chu vi, phương án D là $28-8$.
+
+[M104.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét bài toán: tổng hai số là $96$, hiệu hai số là $18$.
+a) Số bé là $39$.
+b) Số lớn là $57$.
+c) Số lớn bằng số bé trừ $18$.
+d) Tổng của hai số tìm được bằng $96$.
+::key Đ Đ S Đ
+a) Đúng: $(96-18):2=39$. b) Đúng: $39+18=57$. c) Sai: số lớn bằng số bé cộng $18$. d) Đúng: $39+57=96$.
+
+[M104.6] Trả lời ngắn
+Tổng của hai số là $70$, hiệu là $10$. Số lớn là bao nhiêu?
+::key 40
+$(70+10):2=40$.
+
+[M104.7] Trả lời ngắn
+Tổng của hai số là $100$, hiệu là $36$. Số bé là bao nhiêu?
+::key 32
+$(100-36):2=64:2=32$.
+
+### M105 · Lớp 4 · Hai đường thẳng vuông góc. Hai đường thẳng song song
+
+[M105.1] Nhiều lựa chọn
+Hai đường thẳng cắt nhau tạo thành một góc vuông. Hai đường thẳng đó
+A. song song với nhau.
+B. không có điểm chung.
+C. trùng nhau.
+D. vuông góc với nhau.
+::key D
+Có một góc vuông thì ba góc còn lại cũng vuông, nên hai đường thẳng vuông góc. Phương án A và B sai vì hai đường thẳng đã cắt nhau.
+
+[M105.2] Nhiều lựa chọn
+Hai đường thẳng song song là hai đường thẳng
+A. không bao giờ cắt nhau, dù kéo dài mãi về hai phía.
+B. cắt nhau tạo thành góc vuông.
+C. có đúng một điểm chung.
+D. cắt nhau tạo thành góc nhọn.
+::key A
+Đây là định nghĩa hai đường thẳng song song. Phương án B là hai đường thẳng vuông góc.
+
+[M105.3] Nhiều lựa chọn
+Trong hình chữ nhật $ABCD$, cạnh $AB$ song song với cạnh
+A. $BC$.
+B. $CD$.
+C. $DA$.
+D. $AC$.
+::key B
+Cạnh đối diện của $AB$ là $CD$ nên $AB\parallel CD$. Các cạnh $BC$ và $DA$ vuông góc với $AB$; $AC$ không phải là cạnh của hình chữ nhật.
+
+[M105.4] Nhiều lựa chọn
+Hai đường thẳng phân biệt $a$ và $b$ cùng vuông góc với đường thẳng $c$. Khi đó
+A. $a$ vuông góc với $b$.
+B. $a$ cắt $b$ tại một điểm.
+C. $a$ song song với $b$.
+D. $a$ và $b$ tạo thành góc nhọn.
+::key C
+Hai đường thẳng cùng vuông góc với một đường thẳng thứ ba thì song song với nhau. Phương án A là nhầm "cùng vuông góc với $c$" với "vuông góc với nhau".
+
+[M105.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét hình chữ nhật $MNPQ$.
+a) Cạnh $MN$ song song với cạnh $NP$.
+b) Cạnh $MN$ vuông góc với cạnh $NP$.
+c) Cạnh $MQ$ song song với cạnh $NP$.
+d) Cạnh $PQ$ vuông góc với cạnh $MN$.
+::key S Đ Đ S
+a) Sai: $MN$ và $NP$ là hai cạnh kề, chúng vuông góc. b) Đúng: góc $N$ là góc vuông. c) Đúng: $MQ$ và $NP$ là hai cạnh đối diện. d) Sai: $PQ$ và $MN$ là hai cạnh đối diện nên song song.
+
+[M105.6] Trả lời ngắn
+Hình chữ nhật có bao nhiêu cặp cạnh vuông góc với nhau?
+::key 4
+Hình chữ nhật có bốn góc vuông nên có bốn cặp cạnh vuông góc.
+
+[M105.7] Trả lời ngắn
+Mảnh đất hình chữ nhật $ABCD$ có $AB=16$ m, $AD=7$ m. Điểm $M$ thuộc cạnh $AB$, điểm $N$ thuộc cạnh $DC$ sao cho $AMND$ là hình chữ nhật với $AM=5$ m. Chu vi hình chữ nhật $AMND$ là bao nhiêu mét?
+::key 24
+$MN=AD=7$ m, nên chu vi là $(5+7)\times2=24$ (m).
+
+### M106 · Lớp 4 · Hình bình hành, hình thoi
+
+[M106.1] Nhiều lựa chọn
+Hình bình hành là tứ giác có
+A. hai cặp cạnh đối diện song song.
+B. bốn góc vuông.
+C. bốn cạnh bằng nhau.
+D. một cặp cạnh vuông góc.
+::key A
+Đây là định nghĩa hình bình hành. Phương án C là hình thoi, phương án B là hình chữ nhật.
+
+[M106.2] Nhiều lựa chọn
+Hình bình hành $ABCD$ có $AB=7$ cm, $BC=4$ cm. Chu vi của hình bình hành là
+A. $11$ cm.
+B. $22$ cm.
+C. $28$ cm.
+D. $14$ cm.
+::key B
+$(7+4)\times2=22$ (cm). Phương án A quên nhân $2$; phương án C là $7\times4$; phương án D là $7\times2$.
+
+[M106.3] Nhiều lựa chọn
+Hình thoi có cạnh $12$ cm. Chu vi của hình thoi là
+A. $24$ cm.
+B. $36$ cm.
+C. $48$ cm.
+D. $144$ cm.
+::key C
+$12\times4=48$ (cm). Phương án A là $12\times2$, phương án B là $12\times3$, phương án D là $12\times12$.
+
+[M106.4] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. Hình bình hành có bốn cạnh bằng nhau.
+B. Hình thoi có các cạnh đối diện không song song.
+C. Hình bình hành có bốn góc vuông.
+D. Hình thoi là hình bình hành.
+::key D
+Hình thoi có hai cặp cạnh đối diện song song nên là hình bình hành. Các phương án A, C, B không đúng với mọi hình bình hành hoặc hình thoi.
+
+[M106.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét hình thoi $ABCD$ có cạnh $8$ cm.
+a) $BC=5$ cm.
+b) $AB\parallel DC$.
+c) Chu vi hình thoi là $32$ cm.
+d) $AD\parallel BC$.
+::key S Đ Đ Đ
+a) Sai: hình thoi có bốn cạnh bằng nhau nên $BC=8$ cm. b) Đúng: hai cạnh đối diện song song. c) Đúng: $8\times4=32$ (cm). d) Đúng: $AD$ và $BC$ là hai cạnh đối diện.
+
+[M106.6] Trả lời ngắn
+Hình thoi có chu vi $52$ cm. Mỗi cạnh của hình thoi dài bao nhiêu xăng-ti-mét?
+::key 13
+$52:4=13$ (cm).
+
+[M106.7] Trả lời ngắn
+Hình bình hành có chu vi $38$ cm và một cạnh dài $11$ cm. Cạnh kề với nó dài bao nhiêu xăng-ti-mét?
+::key 8
+Nửa chu vi là $38:2=19$ (cm). Cạnh kề dài $19-11=8$ (cm).
+
+### M107 · Lớp 4 · Nhân với số có một chữ số. Chia cho số có một chữ số
+
+[M107.1] Nhiều lựa chọn
+Kết quả của $2\,306\times4$ là
+A. $9\,204$.
+B. $2\,310$.
+C. $9\,224$.
+D. $8\,224$.
+::key C
+$6\times4=24$, viết $4$ nhớ $2$; $0\times4+2=2$; $3\times4=12$, viết $2$ nhớ $1$; $2\times4+1=9$. Phương án A quên nhớ $2$, phương án D quên nhớ $1$, phương án B là phép cộng.
+
+[M107.2] Nhiều lựa chọn
+Kết quả của $7\,245:5$ là
+A. $1\,409$.
+B. $1\,450$.
+C. $1\,549$.
+D. $1\,449$.
+::key D
+$7:5=1$ (dư $2$); $22:5=4$ (dư $2$); $24:5=4$ (dư $4$); $45:5=9$. Thử lại: $1\,449\times5=7\,245$.
+
+[M107.3] Nhiều lựa chọn
+Kết quả của $6\,123:6$ là
+A. $1\,020$ (dư $3$).
+B. $1\,020$ (dư $9$).
+C. $102$ (dư $3$).
+D. $1\,002$ (dư $3$).
+::key A
+$6:6=1$; $1:6=0$ (dư $1$); $12:6=2$; $3:6=0$ (dư $3$). Phương án C thiếu một chữ số, phương án B có số dư lớn hơn số chia, phương án D đặt chữ số $0$ sai chỗ.
+
+[M107.4] Nhiều lựa chọn
+Trong phép chia cho $8$, số dư lớn nhất có thể là
+A. $8$.
+B. $7$.
+C. $9$.
+D. $1$.
+::key B
+Số dư luôn bé hơn số chia, mà số chia là $8$ nên số dư lớn nhất là $7$.
+
+[M107.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép chia $4\,078:5$.
+a) Số dư của phép chia này bằng $8$.
+b) Thương của phép chia này bằng $815$.
+c) Đây là phép chia hết.
+d) $815\times5+3=4\,078$.
+::key S Đ S Đ
+a) Sai: số dư phải bé hơn số chia $5$; số dư là $3$. b) Đúng: $5\times815=4\,075$. c) Sai: số dư là $3$, khác $0$. d) Đúng: $4\,075+3=4\,078$.
+
+[M107.6] Trả lời ngắn
+Tính $1\,125\times4$.
+::key 4500
+$4\times5=20$, viết $0$ nhớ $2$; $4\times2+2=10$, viết $0$ nhớ $1$; $4\times1+1=5$; $4\times1=4$. Vậy $1\,125\times4=4\,500$.
+
+[M107.7] Trả lời ngắn
+Một kho có $3\,045$ kg ngô, đóng đều vào $7$ bao. Mỗi bao đựng bao nhiêu ki-lô-gam ngô?
+::key 435
+$3\,045:7=435$ (kg), vì $435\times7=3\,045$.
+
+### M108 · Lớp 4 · Tính chất giao hoán và kết hợp của phép nhân. Tính chất phân phối của phép nhân đối với phép cộng
+
+[M108.1] Nhiều lựa chọn
+Biết $a\times7=7\times9$. Giá trị của $a$ là
+A. $16$.
+B. $7$.
+C. $63$.
+D. $9$.
+::key D
+Theo tính chất giao hoán, $7\times9=9\times7$ nên $a=9$. Phương án C là tích $7\times9$, phương án A là tổng $7+9$.
+
+[M108.2] Nhiều lựa chọn
+Giá trị của $4\times63\times25$ là
+A. $6\,300$.
+B. $1\,575$.
+C. $630$.
+D. $25\,200$.
+::key A
+$4\times63\times25=(4\times25)\times63=100\times63=6\,300$. Phương án C thiếu một chữ số $0$, phương án B là $63\times25$, phương án D là $252\times100$.
+
+[M108.3] Nhiều lựa chọn
+Giá trị của $7\times(20+3)$ là
+A. $143$.
+B. $161$.
+C. $30$.
+D. $140$.
+::key B
+$7\times(20+3)=7\times20+7\times3=140+21=161$. Phương án A chỉ nhân $7$ với số hạng đầu rồi cộng $3$, phương án D quên nhân số hạng thứ hai.
+
+[M108.4] Nhiều lựa chọn
+Biểu thức nào dưới đây bằng $9\times4+9\times6$?
+A. $9\times(4\times6)$.
+B. $9+(4+6)$.
+C. $9\times(4+6)$.
+D. $(9+4)\times6$.
+::key C
+Đặt thừa số chung $9$ ra ngoài: $9\times4+9\times6=9\times(4+6)$.
+
+[M108.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các đẳng thức sau.
+a) $(3\times4)\times5=3\times(4\times5)$.
+b) $5\times(2+3)=5\times2+3$.
+c) $25\times4\times9=100\times9$.
+d) $6\times(4\times5)=6\times4+6\times5$.
+::key Đ S Đ S
+a) Đúng: tính chất kết hợp, cả hai vế bằng $60$. b) Sai: $5\times(2+3)=25$, còn $5\times2+3=13$. c) Đúng: $25\times4=100$. d) Sai: $6\times(4\times5)=120$, còn $6\times4+6\times5=54$.
+
+[M108.6] Trả lời ngắn
+Tính $25\times8\times4$.
+::key 800
+$25\times8\times4=(25\times4)\times8=100\times8=800$.
+
+[M108.7] Trả lời ngắn
+Tính nhanh $54\times7+54\times3$.
+::key 540
+$54\times7+54\times3=54\times(7+3)=54\times10=540$.
+
+### M109 · Lớp 4 · Nhân, chia với 10, 100, 1 000, ...
+
+[M109.1] Nhiều lựa chọn
+Kết quả của $207\times100$ là
+A. $2\,070$.
+B. $207\,100$.
+C. $20\,700$.
+D. $2\,700$.
+::key C
+Nhân với $100$ thì thêm hai chữ số 0: $207\times100=20\,700$. Phương án A chỉ thêm một chữ số 0.
+
+[M109.2] Nhiều lựa chọn
+Kết quả của $12\,000:100$ là
+A. $12$.
+B. $1\,200$.
+C. $12\,100$.
+D. $120$.
+::key D
+Chia cho $100$ thì bỏ hai chữ số 0: $12\,000:100=120$. Phương án A bỏ ba chữ số 0, phương án B chỉ bỏ một chữ số 0.
+
+[M109.3] Nhiều lựa chọn
+Số thích hợp điền vào chỗ chấm: $3$ tấn $=\ldots$ kg là
+A. $3\,000$.
+B. $300$.
+C. $30$.
+D. $30\,000$.
+::key A
+$1$ tấn $=1\,000$ kg nên $3$ tấn $=3\times1\,000=3\,000$ kg.
+
+[M109.4] Nhiều lựa chọn
+Kết quả của $45\times30$ là
+A. $135$.
+B. $1\,350$.
+C. $75$.
+D. $13\,500$.
+::key B
+$45\times30=(45\times3)\times10=135\times10=1\,350$. Phương án A quên nhân với $10$, phương án C là phép cộng.
+
+[M109.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các phép tính sau.
+a) $8\times1\,000=8\,000$.
+b) $4\,000:100=4$.
+c) $2$ tấn $=200$ kg.
+d) $7\,200:400=18$.
+::key Đ S S Đ
+a) Đúng: thêm ba chữ số 0. b) Sai: bỏ hai chữ số 0 được $40$. c) Sai: $2$ tấn $=2\,000$ kg. d) Đúng: $72:4=18$.
+
+[M109.6] Trả lời ngắn
+Tính $6\,500:100$.
+::key 65
+Bỏ hai chữ số 0 ở số bị chia: $6\,500:100=65$.
+
+[M109.7] Trả lời ngắn
+Một cuộn dây dài $8$ m được cắt thành các đoạn, mỗi đoạn dài $10$ cm. Cắt được bao nhiêu đoạn?
+::key 80
+$8$ m $=800$ cm và $800:10=80$ (đoạn).
+
+### M110 · Lớp 4 · Nhân với số có hai chữ số
+
+[M110.1] Nhiều lựa chọn
+Kết quả của $56\times23$ là
+A. $280$.
+B. $1\,278$.
+C. $1\,120$.
+D. $1\,288$.
+::key D
+$56\times3=168$ và $56\times20=1\,120$, nên $168+1\,120=1\,288$. Phương án B quên số nhớ, phương án C chỉ là tích riêng thứ hai, phương án A không lùi tích riêng thứ hai ($168+112$).
+
+[M110.2] Nhiều lựa chọn
+Kết quả của $214\times30$ là
+A. $6\,420$.
+B. $64\,200$.
+C. $6\,042$.
+D. $642$.
+::key A
+$214\times30=(214\times3)\times10=642\times10=6\,420$. Phương án D quên nhân với $10$, phương án B thêm hai chữ số 0.
+
+[M110.3] Nhiều lựa chọn
+Trong phép nhân $235\times24$, giá trị của $235\times20$ là
+A. $470$.
+B. $4\,700$.
+C. $940$.
+D. $47\,000$.
+::key B
+$235\times2=470$ nên $235\times20=4\,700$. Phương án C là $235\times4$.
+
+[M110.4] Nhiều lựa chọn
+Mỗi hộp có $36$ chiếc bút. $25$ hộp như vậy có tất cả
+A. $61$ chiếc bút.
+B. $180$ chiếc bút.
+C. $900$ chiếc bút.
+D. $9\,000$ chiếc bút.
+::key C
+$36\times25=180+720=900$ (chiếc). Phương án A là phép cộng, phương án B là $36\times5$.
+
+[M110.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép nhân $42\times35$.
+a) Tích riêng thứ nhất là $42\times5=210$.
+b) $42\times30=1\,260$.
+c) $42\times35=210+126=336$.
+d) $42\times35$ lớn hơn $1\,500$.
+::key Đ Đ S S
+a) Đúng: $42\times5=210$. b) Đúng: $42\times3=126$ nên $42\times30=1\,260$. c) Sai: tích riêng thứ hai phải là $1\,260$; $42\times35=210+1\,260=1\,470$. d) Sai: $1\,470<1\,500$.
+
+[M110.6] Trả lời ngắn
+Tính $25\times16$.
+::key 400
+$25\times6=150$ và $25\times10=250$. Vậy $25\times16=150+250=400$.
+
+[M110.7] Trả lời ngắn
+Một sân hình chữ nhật dài $45$ m, rộng $22$ m. Diện tích sân là bao nhiêu mét vuông?
+::key 990
+$45\times22=90+900=990$ ($\text{m}^2$).
+
+### M111 · Lớp 4 · Chia cho số có hai chữ số
+
+[M111.1] Nhiều lựa chọn
+Kết quả của $936:12$ là
+A. $78$.
+B. $780$.
+C. $77$.
+D. $68$.
+::key A
+$12\times78=936$ nên $936:12=78$. Với $68$ thì $12\times68=816$, không đúng; phương án B thêm một chữ số 0.
+
+[M111.2] Nhiều lựa chọn
+Kết quả của $4\,205:35$ là
+A. $12$ (dư $5$).
+B. $120$ (dư $5$).
+C. $120$ (dư $35$).
+D. $121$ (dư $0$).
+::key B
+$120\times35+5=4\,205$. Phương án A thiếu chữ số 0 ở thương, phương án C có số dư không bé hơn số chia.
+
+[M111.3] Nhiều lựa chọn
+Trong phép chia cho $25$, số dư lớn nhất có thể là
+A. $26$.
+B. $25$.
+C. $24$.
 D. $1$.
 ::key C
-$\dfrac{5}{6}:\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2$. Phương án A là phép nhân hai phân số.
+Số dư luôn bé hơn số chia $25$, nên số dư lớn nhất là $24$.
 
-[M129.4] Nhiều lựa chọn
-Giá trị của biểu thức $\dfrac{1}{2}+\dfrac{1}{3}\times\dfrac{3}{4}$ là
-A. $\dfrac{5}{8}$.
-B. $\dfrac{5}{6}$.
-C. $\dfrac{1}{4}$.
-D. $\dfrac{3}{4}$.
+[M111.4] Nhiều lựa chọn
+Có $150$ quyển vở xếp vào các hộp, mỗi hộp $12$ quyển. Cần ít nhất bao nhiêu hộp để xếp hết số vở?
+A. $12$ hộp.
+B. $6$ hộp.
+C. $14$ hộp.
+D. $13$ hộp.
 ::key D
-Nhân trước: $\dfrac{1}{3}\times\dfrac{3}{4}=\dfrac{1}{4}$, rồi $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{3}{4}$. Phương án A là kết quả khi cộng trước.
-
-[M129.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét bài tìm $x$ biết $x+\dfrac{2}{5}=\dfrac{7}{10}$.
-a) $x=\dfrac{7}{10}-\dfrac{2}{5}$.
-b) $x=\dfrac{3}{10}$.
-c) $x=\dfrac{11}{10}$.
-d) $x$ lớn hơn $\dfrac{7}{10}$.
-::key Đ Đ S S
-a) Đúng: số hạng chưa biết bằng tổng trừ số hạng đã biết. b) Đúng: $\dfrac{7}{10}-\dfrac{4}{10}=\dfrac{3}{10}$. c) Sai: $\dfrac{11}{10}$ là $\dfrac{7}{10}+\dfrac{2}{5}$. d) Sai: $x$ bé hơn tổng $\dfrac{7}{10}$.
-
-[M129.6] Trả lời ngắn
-Mỗi chiếc khăn cần $\dfrac{1}{12}$ m vải. Có $\dfrac{5}{6}$ m vải thì may được nhiều nhất bao nhiêu chiếc khăn?
-::key 10
-$\dfrac{5}{6}:\dfrac{1}{12}=\dfrac{5}{6}\times12=10$ (chiếc).
-
-[M129.7] Trả lời ngắn
-Cuộn dây dài $\dfrac{3}{4}$ m, cắt đi $\dfrac{1}{3}$ m. Phần dây còn lại viết với mẫu số $12$ thì tử số là bao nhiêu?
-::key 5
-$\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}$.
-
-### M130 · Lớp 5 · Cộng, trừ hai phân số khác mẫu số
-
-[M130.1] Nhiều lựa chọn
-Kết quả của $\dfrac{2}{3}+\dfrac{1}{5}$ là
-A. $\dfrac{3}{8}$.
-B. $\dfrac{11}{15}$.
-C. $\dfrac{3}{15}$.
-D. $\dfrac{13}{15}$.
-::key D
-$\dfrac{2}{3}=\dfrac{10}{15}$ và $\dfrac{1}{5}=\dfrac{3}{15}$ nên tổng là $\dfrac{13}{15}$. Phương án A cộng tử với tử, mẫu với mẫu; C và B quên đổi tử số.
-
-[M130.2] Nhiều lựa chọn
-Kết quả của $\dfrac{7}{8}-\dfrac{1}{4}$ là
-A. $\dfrac{5}{8}$.
-B. $\dfrac{3}{4}$.
-C. $\dfrac{1}{2}$.
-D. $\dfrac{6}{4}$.
-::key A
-$\dfrac{7}{8}-\dfrac{2}{8}=\dfrac{5}{8}$. Phương án D trừ tử với tử, mẫu với mẫu; B quên đổi tử số của $\dfrac{1}{4}$; C trừ tử và cộng mẫu.
-
-[M130.3] Nhiều lựa chọn
-Kết quả của $\dfrac{1}{4}+\dfrac{1}{12}$, viết dưới dạng phân số tối giản, là
-A. $\dfrac{1}{8}$.
-B. $\dfrac{1}{3}$.
-C. $\dfrac{4}{12}$.
-D. $\dfrac{1}{6}$.
-::key B
-$\dfrac{3}{12}+\dfrac{1}{12}=\dfrac{4}{12}=\dfrac{1}{3}$. Phương án A cộng tử với tử, mẫu với mẫu; C chưa rút gọn; D quên đổi tử số của $\dfrac{1}{4}$.
-
-[M130.4] Nhiều lựa chọn
-Một thùng sơn, buổi sáng dùng $\dfrac{1}{3}$ thùng, buổi chiều dùng $\dfrac{1}{5}$ thùng. Số phần thùng sơn còn lại là
-A. $\dfrac{8}{15}$.
-B. $\dfrac{3}{4}$.
-C. $\dfrac{7}{15}$.
-D. $\dfrac{3}{5}$.
-::key C
-Đã dùng $\dfrac{5}{15}+\dfrac{3}{15}=\dfrac{8}{15}$ thùng, còn lại $1-\dfrac{8}{15}=\dfrac{7}{15}$. Phương án A quên lấy $1$ trừ đi; B cộng tử với tử, mẫu với mẫu rồi lấy $1$ trừ đi; D quên đổi tử số của $\dfrac{1}{5}$.
-
-[M130.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét hiệu $\dfrac{3}{4}-\dfrac{1}{6}$.
-a) Mẫu số chung nhỏ nhất của hai phân số là $24$.
-b) $\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}$.
-c) $\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{7}{12}$.
-d) Hiệu này lớn hơn $\dfrac{1}{2}$.
-::key S Đ Đ Đ
-a) Sai: $12$ chia hết cho cả $4$ và $6$ nên mẫu số chung nhỏ nhất là $12$. b) Đúng: $\dfrac{3}{4}=\dfrac{9}{12}$ và $\dfrac{1}{6}=\dfrac{2}{12}$. c) Đúng: $9-2=7$. d) Đúng: $\dfrac{7}{12}>\dfrac{6}{12}=\dfrac{1}{2}$.
-
-[M130.6] Trả lời ngắn
-Số?  $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{?}{20}$.
-::key 7
-$\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
-
-[M130.7] Trả lời ngắn
-Mỗi giờ vòi thứ nhất chảy được $\dfrac{1}{4}$ bể, vòi thứ hai chảy được $\dfrac{1}{6}$ bể. Trong $1$ giờ cả hai vòi chảy được $\dfrac{a}{12}$ bể. Tìm $a$.
-::key 5
-$\dfrac{3}{12}+\dfrac{2}{12}=\dfrac{5}{12}$, nên $a=5$.
-
-### M131 · Lớp 5 · Hỗn số
-
-[M131.1] Nhiều lựa chọn
-Hỗn số $3\dfrac{4}{7}$ được đổi thành phân số là
-A. $\dfrac{25}{7}$.
-B. $\dfrac{34}{7}$.
-C. $\dfrac{12}{7}$.
-D. $\dfrac{25}{4}$.
-::key A
-$3\times7+4=25$ nên $3\dfrac{4}{7}=\dfrac{25}{7}$. Phương án C nhân phần nguyên với tử số; B viết liền các chữ số; D nhầm mẫu số.
-
-[M131.2] Nhiều lựa chọn
-Phân số $\dfrac{31}{9}$ được đổi thành hỗn số là
-A. $4\dfrac{3}{9}$.
-B. $3\dfrac{4}{9}$.
-C. $3\dfrac{5}{9}$.
-D. $4\dfrac{4}{9}$.
-::key B
-$31:9=3$ (dư $4$) nên $\dfrac{31}{9}=3\dfrac{4}{9}$. Phương án A đổi chỗ thương và số dư; C tính sai số dư; D lấy thương làm tròn lên.
-
-[M131.3] Nhiều lựa chọn
-Trong các số sau, số lớn nhất là
-A. $2\dfrac{9}{10}$.
-B. $3\dfrac{2}{5}$.
-C. $3\dfrac{1}{2}$.
-D. $2\dfrac{3}{4}$.
-::key C
-Hai số có phần nguyên $3$ lớn hơn hai số có phần nguyên $2$. Giữa $3\dfrac{1}{2}$ và $3\dfrac{2}{5}$: $\dfrac{1}{2}=\dfrac{5}{10}>\dfrac{4}{10}=\dfrac{2}{5}$. Phương án A chỉ nhìn phần phân số lớn nhất; B cho rằng mẫu số lớn hơn thì phân số lớn hơn.
-
-[M131.4] Nhiều lựa chọn
-Kết quả của $2\dfrac{3}{4}+1\dfrac{2}{3}$ là
-A. $3\dfrac{5}{7}$.
-B. $3\dfrac{5}{12}$.
-C. $3\dfrac{17}{12}$.
-D. $4\dfrac{5}{12}$.
-::key D
-$\dfrac{3}{4}+\dfrac{2}{3}=\dfrac{17}{12}=1\dfrac{5}{12}$ và $2+1=3$, nên tổng là $4\dfrac{5}{12}$. Phương án A cộng tử với tử, mẫu với mẫu; C để phần phân số lớn hơn $1$; D quên nhớ $1$.
-
-[M131.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét hỗn số $3\dfrac{2}{5}$.
-a) $3\dfrac{2}{5}=3\times\dfrac{2}{5}$.
-b) $3\dfrac{2}{5}=\dfrac{17}{5}$.
-c) $3\dfrac{2}{5}>3\dfrac{1}{2}$.
-d) $3\dfrac{2}{5}$ lớn hơn $3$ nhưng bé hơn $4$.
-::key S Đ S Đ
-a) Sai: $3\dfrac{2}{5}$ là $3+\dfrac{2}{5}$, không phải $3\times\dfrac{2}{5}$. b) Đúng: $3\times5+2=17$. c) Sai: $\dfrac{2}{5}=\dfrac{4}{10}<\dfrac{5}{10}=\dfrac{1}{2}$. d) Đúng: phần phân số $\dfrac{2}{5}$ bé hơn $1$.
-
-[M131.6] Trả lời ngắn
-Số?  $4\dfrac{3}{8}=\dfrac{?}{8}$.
-::key 35
-$4\times8+3=35$.
-
-[M131.7] Trả lời ngắn
-Hai bao đường nặng $2\dfrac{3}{4}$ kg và $1\dfrac{1}{2}$ kg. Cả hai bao nặng $\dfrac{a}{4}$ kg. Tìm $a$.
-::key 17
-$\dfrac{11}{4}+\dfrac{6}{4}=\dfrac{17}{4}$, nên $a=17$.
-
-### M132 · Lớp 5 · Ôn tập hình học và đo lường
-
-[M132.1] Nhiều lựa chọn
-Kết quả của $3\ \text{m}^2\ 5\ \text{dm}^2$ khi đổi ra đề-xi-mét vuông là
-A. $305\ \text{dm}^2$.
-B. $3005\ \text{dm}^2$.
-C. $3050\ \text{dm}^2$.
-D. $35\ \text{dm}^2$.
-::key A
-$3\ \text{m}^2=300\ \text{dm}^2$ nên tổng là $305\ \text{dm}^2$. Phương án D coi $1\ \text{m}^2=10\ \text{dm}^2$; B và C nhầm số đề-xi-mét vuông trong $1\ \text{m}^2$.
-
-[M132.2] Nhiều lựa chọn
-Một hình chữ nhật dài $9$ cm, rộng $4$ cm. Chu vi của hình chữ nhật là
-A. $36$ cm.
-B. $26$ cm.
-C. $13$ cm.
-D. $52$ cm.
-::key B
-$(9+4)\times2=26$ cm. Phương án A là diện tích; C quên nhân $2$; D nhân với $4$ như chu vi hình vuông.
-
-[M132.3] Nhiều lựa chọn
-Một hình vuông có chu vi $20$ cm. Diện tích của hình vuông là
-A. $20\ \text{cm}^2$.
-B. $100\ \text{cm}^2$.
-C. $25\ \text{cm}^2$.
-D. $400\ \text{cm}^2$.
-::key C
-Cạnh là $20:4=5$ cm nên diện tích là $5\times5=25\ \text{cm}^2$. Phương án B nhân chu vi với cạnh; C nhân cạnh với $4$; D lấy chu vi nhân chu vi.
-
-[M132.4] Nhiều lựa chọn
-Nền một căn phòng hình chữ nhật dài $5$ m, rộng $4$ m được lát bằng gạch vuông cạnh $50$ cm. Số viên gạch cần dùng là
-A. $20$ viên.
-B. $40$ viên.
-C. $8$ viên.
-D. $80$ viên.
-::key D
-Dọc chiều dài xếp $500:50=10$ viên, dọc chiều rộng xếp $400:50=8$ viên, nên cần $10\times8=80$ viên. Phương án A quên đổi đơn vị; B lấy $50$ làm diện tích một viên gạch; D coi $1\ \text{m}^2=10\ \text{dm}^2$.
-
-[M132.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Một hình chữ nhật có chiều dài $8$ m và chiều rộng $5$ m.
-a) Diện tích hình chữ nhật là $40\ \text{m}^2$.
-b) Chu vi hình chữ nhật là $8\times5=40$ m.
-c) Diện tích hình chữ nhật là $400\,000\ \text{cm}^2$.
-d) Nếu tăng chiều dài thêm $2$ m thì chu vi tăng thêm $2$ m.
-::key Đ S Đ S
-a) Đúng: $8\times5=40$. b) Sai: $8\times5$ là diện tích; chu vi là $(8+5)\times2=26$ m. c) Đúng: $40\times10\,000=400\,000$. d) Sai: chiều dài tăng $2$ m thì $(a+b)$ tăng $2$ m, nên chu vi tăng $4$ m.
-
-[M132.6] Trả lời ngắn
-Số?  $6\ \text{m}^2\ 40\ \text{dm}^2=?\ \text{dm}^2$.
-::key 640
-$6\ \text{m}^2=600\ \text{dm}^2$, nên $600+40=640\ \text{dm}^2$.
-
-[M132.7] Trả lời ngắn
-Một sân hình chữ nhật dài $15$ m, rộng $8$ m. Em đi bộ quanh sân đúng hai vòng. Hỏi em đi được bao nhiêu mét?
-::key 92
-Một vòng dài $(15+8)\times2=46$ m, hai vòng dài $46\times2=92$ m.
-
-### M133 · Lớp 5 · Khái niệm số thập phân. So sánh các số thập phân
-
-[M133.1] Nhiều lựa chọn
-Số thập phân gồm $7$ đơn vị, $0$ phần mười và $6$ phần trăm viết là
-A. $7{,}6$.
-B. $70{,}6$.
-C. $7{,}06$.
-D. $7{,}006$.
-::key C
-Hàng phần mười là $0$, hàng phần trăm là $6$ nên số đó là $7{,}06$. Phương án A bỏ chữ số $0$; C coi $7$ ở hàng chục; D đặt $6$ ở hàng phần nghìn.
-
-[M133.2] Nhiều lựa chọn
-Giá trị của chữ số $8$ trong số $25{,}184$ là
-A. $8$.
-B. $0{,}8$.
-C. $0{,}008$.
-D. $0{,}08$.
-::key D
-Trong $25{,}184$, chữ số $1$ ở hàng phần mười, chữ số $8$ ở hàng phần trăm, nên giá trị là $0{,}08$. Phương án B coi $8$ ở hàng phần mười; C coi $8$ ở hàng phần nghìn.
-
-[M133.3] Nhiều lựa chọn
-Số lớn nhất trong các số $4{,}9$; $4{,}19$; $4{,}09$; $3{,}99$ là
-A. $4{,}9$.
-B. $4{,}19$.
-C. $4{,}09$.
-D. $3{,}99$.
-::key A
-Số $3{,}99$ có phần nguyên bé nhất. Với ba số còn lại, hàng phần mười là $9$, $1$, $0$, nên $4{,}9$ lớn nhất. Phương án B cho rằng $19>9$; C chỉ nhìn chữ số $9$ ở cuối; D chỉ nhìn phần thập phân.
-
-[M133.4] Nhiều lựa chọn
-Bốn bạn chạy $100$ m với thời gian: Hà $12{,}8$ giây, Lan $12{,}75$ giây, Mai $12{,}08$ giây, Ngọc $12{,}5$ giây. Bạn chạy nhanh nhất là
-A. Hà.
-B. Mai.
-C. Lan.
-D. Ngọc.
-::key B
-Thời gian ít nhất là $12{,}08$ giây, nên Mai nhanh nhất. Phương án A chọn bạn chậm nhất; B chọn số có nhiều chữ số hơn hoặc nhìn nhầm; D so sánh phần thập phân như số tự nhiên ($5<8<75$).
-
-[M133.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét số thập phân $40{,}605$.
-a) Chữ số $6$ ở hàng phần mười.
-b) Chữ số $5$ có giá trị $0{,}5$.
-c) $40{,}605=40{,}65$.
-d) $40{,}605<40{,}65$.
-::key Đ S S Đ
-a) Đúng: sau dấu phẩy, chữ số $6$ ở hàng phần mười. b) Sai: chữ số $5$ ở hàng phần nghìn, giá trị $0{,}005$. c) Sai: không được bỏ chữ số $0$ ở giữa; $40{,}65=40{,}650$. d) Đúng: $40{,}605<40{,}650$ vì ở hàng phần trăm $0<5$.
-
-[M133.6] Trả lời ngắn
-Có bao nhiêu số thập phân có một chữ số ở phần thập phân, lớn hơn $2{,}3$ và bé hơn $2{,}8$?
-::key 4
-Đó là các số $2{,}4$; $2{,}5$; $2{,}6$; $2{,}7$.
-
-[M133.7] Trả lời ngắn
-Số?  $\dfrac{3}{4}=\dfrac{?}{100}$.
-::key 75
-$\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.
-
-### M134 · Lớp 5 · Viết số đo đại lượng dưới dạng số thập phân. Làm tròn số thập phân
-
-[M134.1] Nhiều lựa chọn
-Số đo $5$ m $8$ cm viết dưới dạng số thập phân có đơn vị mét là
-A. $5{,}8$ m.
-B. $508$ m.
-C. $5{,}008$ m.
-D. $5{,}08$ m.
-::key D
-$8$ cm $=\dfrac{8}{100}$ m $=0{,}08$ m nên $5$ m $8$ cm $=5{,}08$ m. Phương án A coi $8$ cm là $0{,}8$ m; C coi $1$ m $=1000$ cm; D viết liền các chữ số.
-
-[M134.2] Nhiều lựa chọn
-Số đo $2$ kg $75$ g viết dưới dạng số thập phân có đơn vị ki-lô-gam là
-A. $2{,}075$ kg.
-B. $2{,}0075$ kg.
-C. $2{,}75$ kg.
-D. $207{,}5$ kg.
-::key A
-$75$ g $=\dfrac{75}{1000}$ kg $=0{,}075$ kg nên số đo là $2{,}075$ kg. Phương án C coi $75$ g là $0{,}75$ kg; B nhầm $1$ kg $=10\,000$ g; D đặt sai dấu phẩy.
-
-[M134.3] Nhiều lựa chọn
-Làm tròn số $6{,}748$ đến hàng phần trăm được
-A. $6{,}74$.
-B. $6{,}75$.
-C. $6{,}7$.
-D. $6{,}8$.
-::key B
-Chữ số hàng phần nghìn là $8\ge5$ nên tăng chữ số hàng phần trăm thêm $1$: $6{,}75$. Phương án A bỏ chữ số $8$; C làm tròn đến hàng phần mười; D làm tròn hai lần.
-
-[M134.4] Nhiều lựa chọn
-Cân điện tử hiển thị $4{,}963$ kg. Làm tròn đến hàng phần mười, khối lượng là
-A. $4{,}9$ kg.
-B. $4{,}96$ kg.
-C. $5{,}0$ kg.
-D. $4{,}97$ kg.
-::key C
-Chữ số hàng phần trăm là $6\ge5$ nên tăng $4{,}9$ thêm $0{,}1$, được $5{,}0$ kg. Phương án A chỉ bỏ các chữ số bên phải; B bỏ chữ số $3$; C làm tròn đến hàng phần trăm.
-
-[M134.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét số đo $3$ m $4$ cm.
-a) $3$ m $4$ cm $=3{,}4$ m.
-b) $3$ m $4$ cm $=3{,}04$ m.
-c) $3{,}04$ m $=304$ cm.
-d) Làm tròn $3{,}04$ m đến hàng phần mười được $3{,}1$ m.
-::key S Đ Đ S
-a) Sai: $4$ cm $=0{,}04$ m, không phải $0{,}4$ m. b) Đúng: $4$ cm $=\dfrac{4}{100}$ m. c) Đúng: $3$ m $=300$ cm và $0{,}04$ m $=4$ cm. d) Sai: chữ số hàng phần trăm là $4<5$ nên $3{,}04\approx3{,}0$.
-
-[M134.6] Trả lời ngắn
-Số?  $3$ kg $40$ g $=?$ kg.
-::key 3,04
-$40$ g $=\dfrac{40}{1000}$ kg $=0{,}04$ kg, nên $3$ kg $40$ g $=3{,}04$ kg.
-
-[M134.7] Trả lời ngắn
-Chiếc cân điện tử hiển thị $38{,}52$ kg. Làm tròn khối lượng đó đến số tự nhiên.
-::key 39
-Chữ số hàng phần mười là $5\ge5$ nên làm tròn thành $39$.
-
-### M135 · Lớp 5 · Ki-lô-mét vuông. Héc-ta. Các đơn vị đo diện tích
-
-[M135.1] Nhiều lựa chọn
-Số đo $4\ \text{km}^2$ đổi ra mét vuông là
-A. $4\,000\,000\ \text{m}^2$.
-B. $400\,000\ \text{m}^2$.
-C. $4000\ \text{m}^2$.
-D. $40\,000\ \text{m}^2$.
-::key A
-$4\ \text{km}^2=4\times1\,000\,000=4\,000\,000\ \text{m}^2$. Phương án C coi $1\ \text{km}^2=1000\ \text{m}^2$; B và D nhầm số mét vuông trong $1\ \text{km}^2$.
-
-[M135.2] Nhiều lựa chọn
-Số đo $3{,}5$ ha đổi ra mét vuông là
-A. $3500\ \text{m}^2$.
-B. $35\,000\ \text{m}^2$.
-C. $350\,000\ \text{m}^2$.
-D. $30\,500\ \text{m}^2$.
-::key B
-$3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$. Phương án A coi $1$ ha $=1000\ \text{m}^2$; C coi $1$ ha $=100\,000\ \text{m}^2$; D coi $0{,}5$ ha là $500\ \text{m}^2$.
-
-[M135.3] Nhiều lựa chọn
-Số đo $5\ \text{km}^2$ đổi ra héc-ta là
-A. $5000$ ha.
-B. $50$ ha.
-C. $500$ ha.
-D. $5$ ha.
-::key C
-$1\ \text{km}^2=100$ ha nên $5\ \text{km}^2=500$ ha. Phương án A coi $1\ \text{km}^2=1000$ ha; B coi $1\ \text{km}^2=10$ ha; C không đổi đơn vị.
-
-[M135.4] Nhiều lựa chọn
-Một thửa ruộng hình chữ nhật dài $300$ m, rộng $200$ m. Diện tích thửa ruộng là
-A. $60$ ha.
-B. $0{,}6$ ha.
-C. $600$ ha.
-D. $6$ ha.
-::key D
-Diện tích là $300\times200=60\,000\ \text{m}^2=6$ ha. Phương án A coi $1$ ha $=1000\ \text{m}^2$; C coi $1$ ha $=100\ \text{m}^2$; D coi $1$ ha $=100\,000\ \text{m}^2$.
-
-[M135.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét hình vuông có cạnh $100$ m.
-a) Diện tích hình vuông là $10\,000\ \text{m}^2$.
-b) Diện tích hình vuông là $1$ ha.
-c) Diện tích hình vuông là $0{,}1\ \text{km}^2$.
-d) Một ki-lô-mét vuông gồm $10$ hình vuông như thế.
-::key Đ Đ S S
-a) Đúng: $100\times100=10\,000$. b) Đúng: $1$ ha $=10\,000\ \text{m}^2$. c) Sai: $10\,000\ \text{m}^2=\dfrac{1}{100}\ \text{km}^2=0{,}01\ \text{km}^2$. d) Sai: $1\ \text{km}^2=100$ ha nên gồm $100$ hình vuông như thế.
-
-[M135.6] Trả lời ngắn
-Số?  $0{,}5\ \text{km}^2=?$ ha.
-::key 50
-$0{,}5\ \text{km}^2=\dfrac{5}{10}\times100=50$ ha.
-
-[M135.7] Trả lời ngắn
-Một thửa ruộng hình chữ nhật dài $500$ m, rộng $400$ m. Diện tích thửa ruộng là bao nhiêu héc-ta?
-::key 20
-$500\times400=200\,000\ \text{m}^2$ và $200\,000:10\,000=20$ ha.
-
-### M136 · Lớp 5 · Phép cộng số thập phân
-
-[M136.1] Nhiều lựa chọn
-Kết quả của $4{,}7+3{,}5$ là
-A. $7{,}12$.
-B. $7{,}2$.
-C. $82$.
-D. $8{,}2$.
-::key D
-$7+5=12$ phần mười, viết $2$ nhớ $1$; $4+3+1=8$, nên tổng là $8{,}2$. Phương án B quên nhớ, phương án C quên dấu phẩy.
-
-[M136.2] Nhiều lựa chọn
-Kết quả của $6{,}3+2{,}45$ là
-A. $8{,}75$.
-B. $8{,}48$.
-C. $8{,}7$.
-D. $3{,}08$.
-::key A
-$6{,}3=6{,}30$ nên $6{,}30+2{,}45=8{,}75$. Phương án B coi $0{,}3$ như $3$ phần trăm ($3+45=48$); phương án D không thẳng dấu phẩy ($63+245=308$).
-
-[M136.3] Nhiều lựa chọn
-Kết quả của $15+2{,}36$ là
-A. $2{,}51$.
-B. $17{,}36$.
-C. $3{,}86$.
-D. $15{,}36$.
-::key B
-$15=15{,}00$ nên $15{,}00+2{,}36=17{,}36$. Phương án C là coi $15$ như $1{,}5$; phương án D quên cộng phần nguyên $2$.
-
-[M136.4] Nhiều lựa chọn
-Sáng nay Nam đạp xe $3{,}8$ km, chiều đạp thêm $2{,}45$ km. Cả ngày Nam đạp xe được
-A. $5{,}25$ km.
-B. $2{,}83$ km.
-C. $6{,}25$ km.
-D. $1{,}35$ km.
-::key C
-"Cả ngày" là gộp lại: $3{,}80+2{,}45=6{,}25$. Phương án A quên nhớ $1$, phương án D là phép trừ $3{,}8-2{,}45$.
-
-[M136.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép cộng $2{,}8+1{,}95$.
-a) Có thể viết $2{,}8$ thành $2{,}80$ mà giá trị không đổi.
-b) $2{,}8+1{,}95=3{,}75$.
-c) $2{,}8+1{,}95=1{,}95+2{,}8$.
-d) Tổng này nhỏ hơn $4{,}5$.
-::key Đ S Đ S
-a) Đúng: thêm chữ số $0$ ở cuối phần thập phân không đổi giá trị. b) Sai: $2{,}80+1{,}95=4{,}75$; $3{,}75$ là kết quả khi quên nhớ $1$. c) Đúng: đổi chỗ các số hạng thì tổng không đổi. d) Sai: $4{,}75>4{,}5$.
-
-[M136.6] Trả lời ngắn
-Tính $7{,}6+5{,}9$.
-::key 13,5
-$6+9=15$ phần mười, viết $5$ nhớ $1$; $7+5+1=13$. Vậy $7{,}6+5{,}9=13{,}5$.
-
-[M136.7] Trả lời ngắn
-Lan mua $1{,}5$ m ruy băng đỏ và $2{,}75$ m ruy băng xanh. Lan mua tất cả bao nhiêu mét ruy băng?
-::key 4,25
-$1{,}50+2{,}75=4{,}25$ (m).
-
-### M137 · Lớp 5 · Phép trừ số thập phân
-
-[M137.1] Nhiều lựa chọn
-Kết quả của $10-4{,}6$ là
-A. $6{,}6$.
-B. $14{,}6$.
-C. $5{,}4$.
-D. $54$.
-::key C
-$10{,}0-4{,}6=5{,}4$. Phương án A là lỗi lấy $10-4=6$ rồi chép lại $6$; phương án D là lỗi quên dấu phẩy.
-
-[M137.2] Nhiều lựa chọn
-Để tính $12{,}4-5{,}78$, em viết $12{,}4$ thành số có hai chữ số thập phân là
-A. $12{,}04$.
-B. $12{,}44$.
-C. $124{,}0$.
-D. $12{,}40$.
-::key D
-Thêm chữ số $0$ vào bên phải thì giá trị không đổi: $12{,}4=12{,}40$. Phương án A và C làm đổi giá trị của số.
-
-[M137.3] Nhiều lựa chọn
-Phép tính nào có kết quả bằng $2{,}5$?
-A. $7{,}9-5{,}4$.
-B. $6{,}2-3{,}8$.
-C. $9{,}3-6{,}7$.
-D. $5{,}5-2{,}5$.
-::key A
-$7{,}9-5{,}4=2{,}5$. Các phép tính khác lần lượt bằng $2{,}4$; $2{,}6$; $3$.
-
-[M137.4] Nhiều lựa chọn
-Trong can có $5$ lít dầu, đã dùng $1{,}75$ lít. Trong can còn lại bao nhiêu lít dầu?
-A. $4{,}75$ lít.
-B. $3{,}25$ lít.
-C. $325$ lít.
-D. $6{,}75$ lít.
-::key B
-"Đã dùng" là bớt đi: $5{,}00-1{,}75=3{,}25$. Phương án D là cộng nhầm; phương án C là quên dấu phẩy.
-
-[M137.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép trừ $8{,}3-2{,}45$.
-a) Viết $8{,}3$ thành $8{,}30$ thì giá trị không đổi.
-b) $8{,}3-2{,}45=6{,}15$.
-c) Hiệu nhỏ hơn $6$.
-d) $5{,}85+2{,}45=7{,}3$.
-::key Đ S Đ S
-a) Đúng: thêm chữ số $0$ ở cuối phần thập phân không đổi giá trị. b) Sai: $8{,}30-2{,}45=5{,}85$. c) Đúng: $5{,}85<6$. d) Sai: $5{,}85+2{,}45=8{,}30$.
-
-[M137.6] Trả lời ngắn
-Tính $12{,}5-4{,}75$.
-::key 7,75
-$12{,}50-4{,}75=7{,}75$.
-
-[M137.7] Trả lời ngắn
-Sợi dây dài $20$ m, cắt đi $3{,}6$ m. Sợi dây còn lại dài bao nhiêu mét?
-::key 16,4
-$20{,}0-3{,}6=16{,}4$ (m).
-
-### M138 · Lớp 5 · Phép nhân số thập phân
-
-[M138.1] Nhiều lựa chọn
-Kết quả của $0{,}28\times7$ là
-A. $1{,}96$.
-B. $19{,}6$.
-C. $196$.
-D. $0{,}196$.
-::key A
-$28\times7=196$ và $0{,}28$ có hai chữ số thập phân nên tích là $1{,}96$. Phương án B chỉ lấy một chữ số thập phân; C quên dấu phẩy; D lấy ba chữ số thập phân.
-
-[M138.2] Nhiều lựa chọn
-Kết quả của $4{,}2\times1{,}3$ là
-A. $4{,}6$.
-B. $5{,}46$.
-C. $0{,}546$.
-D. $54{,}6$.
-::key B
-$42\times13=546$ và hai thừa số có $1+1=2$ chữ số thập phân nên tích là $5{,}46$. Phương án A nhân từng phần riêng; B chỉ lấy một chữ số thập phân; C lấy ba chữ số thập phân.
-
-[M138.3] Nhiều lựa chọn
-Kết quả của $0{,}6\times0{,}05$ là
-A. $0{,}3$.
-B. $0{,}003$.
-C. $0{,}03$.
-D. $30$.
-::key C
-$6\times5=30$, hai thừa số có $1+2=3$ chữ số thập phân nên tích là $0{,}030=0{,}03$. Phương án A chỉ lấy hai chữ số thập phân; B lấy bốn chữ số thập phân; D bỏ quên dấu phẩy.
-
-[M138.4] Nhiều lựa chọn
-Giả sử $1$ m vải giá $45\,000$ đồng. Mua $2{,}5$ m vải như thế hết
-A. $90\,000$ đồng.
-B. $11\,250$ đồng.
-C. $1\,125\,000$ đồng.
-D. $112\,500$ đồng.
-::key D
-$45\,000\times2{,}5=112\,500$ đồng. Phương án B và C đặt dấu phẩy sai chỗ; D chỉ tính $2$ m vải ($45\,000\times2$).
-
-[M138.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét tích $1{,}2\times0{,}5$.
-a) $1{,}2\times0{,}5=6$.
-b) $1{,}2\times0{,}5=0{,}6$.
-c) Tích này lớn hơn $1{,}2$.
-d) $1{,}2\times0{,}5=0{,}5\times1{,}2$.
-::key S Đ S Đ
-a) Sai: $12\times5=60$ và tích có hai chữ số thập phân nên bằng $0{,}60=0{,}6$. b) Đúng. c) Sai: $0{,}5<1$ nên tích bé hơn $1{,}2$. d) Đúng: đổi chỗ các thừa số thì tích không đổi.
-
-[M138.6] Trả lời ngắn
-Tính $2{,}5\times1{,}6$.
-::key 4
-$25\times16=400$, tổng hai chữ số thập phân nên tích là $4{,}00=4$.
-
-[M138.7] Trả lời ngắn
-Một hình vuông có cạnh $0{,}3$ m. Diện tích hình vuông là bao nhiêu mét vuông?
-::key 0,09
-$0{,}3\times0{,}3$: $3\times3=9$ và tổng hai chữ số thập phân nên tích là $0{,}09$ ($\text{m}^2$).
-
-### M139 · Lớp 5 · Phép chia số thập phân
-
-[M139.1] Nhiều lựa chọn
-Kết quả của $15{,}6:4$ là
-A. $39$.
-B. $0{,}39$.
-C. $3{,}09$.
-D. $3{,}9$.
-::key D
-$15:4=3$ (dư $3$), viết dấu phẩy, hạ $6$ được $36$ và $36:4=9$, nên thương là $3{,}9$. Phương án A quên dấu phẩy; B đặt dấu phẩy sai chỗ; D thêm chữ số $0$ thừa.
-
-[M139.2] Nhiều lựa chọn
-Kết quả của $0{,}36:6$ là
-A. $0{,}06$.
-B. $0{,}6$.
-C. $0{,}006$.
-D. $6$.
-::key A
-$3<6$ nên chữ số hàng phần mười của thương là $0$, rồi $36:6=6$, nên thương là $0{,}06$. Phương án B bỏ chữ số $0$; C thêm chữ số $0$ thừa; D quên dấu phẩy.
-
-[M139.3] Nhiều lựa chọn
-Kết quả của $7{,}35:1{,}5$ là
-A. $49$.
-B. $4{,}9$.
-C. $0{,}049$.
-D. $0{,}49$.
-::key B
-$7{,}35:1{,}5=73{,}5:15=4{,}9$. Phương án A chỉ chuyển dấu phẩy ở số bị chia ($73{,}5:1{,}5$); B chỉ chuyển dấu phẩy ở số chia ($7{,}35:15$); C chuyển sai số chữ số.
-
-[M139.4] Nhiều lựa chọn
-Giả sử mua $2{,}5$ kg thịt hết $187\,500$ đồng. Giá $1$ kg thịt là
-A. $7500$ đồng.
-B. $750\,000$ đồng.
-C. $75\,000$ đồng.
-D. $468\,750$ đồng.
-::key C
-$187\,500:2{,}5=75\,000$ đồng. Phương án A và B đặt sai số chữ số $0$; D là phép nhân $187\,500\times2{,}5$.
-
-[M139.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét phép chia $9:4$.
-a) $9:4=2{,}5$.
-b) $9$ chia hết cho $4$ nên thương là số tự nhiên.
-c) $9:4=2{,}25$.
-d) Thương của phép chia này bé hơn $9$.
+$150:12=12$ (dư $6$). $12$ hộp chứa $144$ quyển, còn $6$ quyển nên cần thêm $1$ hộp: $12+1=13$ hộp.
+
+[M111.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép chia $2\,592:36$.
+a) Thương của phép chia là $62$.
+b) Số dư của phép chia là $12$.
+c) $36\times72=2\,592$.
+d) $36\times8=288$ lớn hơn $259$, nên chữ số đầu tiên của thương không thể là $8$.
 ::key S S Đ Đ
-a) Sai: $9:4=2$ (dư $1$), $10:4=2$ (dư $2$), $20:4=5$, nên thương là $2{,}25$. b) Sai: $9$ không chia hết cho $4$. c) Đúng. d) Đúng: $2{,}25<9$ vì chia cho số lớn hơn $1$.
+a) Sai: thương là $72$. b) Sai: số dư là $0$. c) Đúng: $36\times72=2\,592$. d) Đúng: không trừ được $288$ khỏi $259$.
 
-[M139.6] Trả lời ngắn
-Tính $12:0{,}25$.
-::key 48
-$12:0{,}25=1200:25=48$.
-
-[M139.7] Trả lời ngắn
-Tính $6:8$.
-::key 0,75
-$6:8=0$ (dư $6$), $60:8=7$ (dư $4$), $40:8=5$, nên thương là $0{,}75$.
-
-### M140 · Lớp 5 · Nhân, chia số thập phân với 10; 100; 1000;... hoặc với 0,1; 0,01; 0,001; ...
-
-[M140.1] Nhiều lựa chọn
-Kết quả của $3{,}57\times100$ là
-A. $35{,}7$.
-B. $3570$.
-C. $357$.
-D. $0{,}0357$.
-::key C
-Chuyển dấu phẩy sang phải hai chữ số: $3{,}57\times100=357$. Phương án A chỉ chuyển một chữ số; B thêm chữ số $0$ thừa; C chuyển dấu phẩy sang trái.
-
-[M140.2] Nhiều lựa chọn
-Kết quả của $45{,}6:100$ là
-A. $4{,}56$.
-B. $456$.
-C. $4560$.
-D. $0{,}456$.
-::key D
-Chuyển dấu phẩy sang trái hai chữ số: $45{,}6:100=0{,}456$. Phương án A chỉ chuyển một chữ số; C và B chuyển dấu phẩy sang phải.
-
-[M140.3] Nhiều lựa chọn
-Kết quả của $56\times0{,}01$ là
-A. $0{,}56$.
-B. $5{,}6$.
-C. $5600$.
-D. $0{,}056$.
-::key A
-Nhân với $0{,}01$ là chia cho $100$: $56:100=0{,}56$. Phương án B nhân với $0{,}1$; C nhân với $100$; D chuyển dấu phẩy ba chữ số.
-
-[M140.4] Nhiều lựa chọn
-Số đo $0{,}35$ kg đổi ra gam là
-A. $3{,}5$ g.
-B. $350$ g.
-C. $35$ g.
-D. $3500$ g.
-::key B
-$1$ kg $=1000$ g nên $0{,}35\times1000=350$ g. Phương án A và C chuyển dấu phẩy thiếu chữ số; D chuyển thừa chữ số.
-
-[M140.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét số $4{,}5$.
-a) $4{,}5\times100=450$.
-b) $4{,}5:10=0{,}45$.
-c) $4{,}5\times0{,}1=45$.
-d) $4{,}5:0{,}1=45$.
-::key Đ Đ S Đ
-a) Đúng: chuyển dấu phẩy sang phải hai chữ số. b) Đúng: chuyển dấu phẩy sang trái một chữ số. c) Sai: nhân với $0{,}1$ là chia cho $10$, kết quả là $0{,}45$. d) Đúng: chia cho $0{,}1$ là nhân với $10$.
-
-[M140.6] Trả lời ngắn
-Tính $0{,}082\times1000$.
-::key 82
-Chuyển dấu phẩy sang phải ba chữ số: $0{,}082\times1000=82$.
-
-[M140.7] Trả lời ngắn
-Tính $3{,}6:0{,}01$.
-::key 360
-Chia cho $0{,}01$ là nhân với $100$: $3{,}6\times100=360$.
-
-### M141 · Lớp 5 · Hình tam giác. Diện tích hình tam giác. Hình thang. Diện tích hình thang
-
-[M141.1] Nhiều lựa chọn
-Tam giác có ba góc $30^\circ$, $40^\circ$, $110^\circ$ là
-A. tam giác nhọn.
-B. tam giác tù.
-C. tam giác vuông.
-D. tam giác có ba góc bằng nhau.
-::key B
-Có góc $110^\circ>90^\circ$ nên là tam giác tù. Phương án A cần ba góc nhọn; B cần một góc $90^\circ$; D sai vì ba góc khác nhau.
-
-[M141.2] Nhiều lựa chọn
-Diện tích hình tam giác có đáy $14$ cm và chiều cao $6$ cm là
-A. $84\ \text{cm}^2$.
-B. $20\ \text{cm}^2$.
-C. $42\ \text{cm}^2$.
-D. $168\ \text{cm}^2$.
-::key C
-$14\times6:2=42\ \text{cm}^2$. Phương án A quên chia $2$; C cộng thay vì nhân; D nhân thêm $2$.
-
-[M141.3] Nhiều lựa chọn
-Diện tích hình thang có hai đáy $8$ cm và $12$ cm, chiều cao $5$ cm là
-A. $25\ \text{cm}^2$.
-B. $100\ \text{cm}^2$.
-C. $38\ \text{cm}^2$.
-D. $50\ \text{cm}^2$.
-::key D
-$(8+12)\times5:2=50\ \text{cm}^2$. Phương án B quên chia $2$; C tính sai thứ tự phép tính; D chia $2$ hai lần.
-
-[M141.4] Nhiều lựa chọn
-Mảnh vườn hình tam giác có đáy $18$ m, chiều cao $12$ m. Dành $\dfrac{1}{3}$ diện tích để trồng rau thì diện tích trồng rau là
-A. $36\ \text{m}^2$.
-B. $108\ \text{m}^2$.
-C. $72\ \text{m}^2$.
-D. $216\ \text{m}^2$.
-::key A
-Diện tích mảnh vườn là $18\times12:2=108\ \text{m}^2$, một phần ba là $108:3=36\ \text{m}^2$. Phương án D quên chia $2$; B là diện tích cả mảnh vườn; C là phần còn lại, bằng $\dfrac{2}{3}$ diện tích.
-
-[M141.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Tam giác $ABC$ có đáy $BC=10$ cm, cạnh bên $AB=6$ cm và đường cao $AH=5$ cm ($AH\perp BC$).
-a) Diện tích tam giác là $10\times5:2=25\ \text{cm}^2$.
-b) Diện tích tam giác là $10\times6:2=30\ \text{cm}^2$.
-c) $AH$ là đường cao ứng với đáy $BC$.
-d) Diện tích tam giác bằng nửa diện tích hình chữ nhật $10$ cm $\times$ $5$ cm.
-::key Đ S Đ Đ
-a) Đúng. b) Sai: $AB$ không vuông góc với đáy nên không phải chiều cao. c) Đúng: $AH$ vuông góc với $BC$. d) Đúng: hình chữ nhật đó có diện tích $50\ \text{cm}^2$, và $25$ là một nửa của $50$.
-
-[M141.6] Trả lời ngắn
-Một tam giác vuông có hai cạnh góc vuông dài $6$ cm và $5$ cm. Diện tích tam giác là bao nhiêu xăng-ti-mét vuông?
-::key 15
-Hai cạnh góc vuông là đáy và chiều cao: $6\times5:2=15\ \text{cm}^2$.
-
-[M141.7] Trả lời ngắn
-Một hình thang có hai đáy $6$ cm và $10$ cm, diện tích $48\ \text{cm}^2$. Chiều cao hình thang là bao nhiêu xăng-ti-mét?
-::key 6
-$48\times2=96$ và $96:(6+10)=6$ cm.
-
-### M142 · Lớp 5 · Đường tròn. Chu vi và diện tích hình tròn
-
-[M142.1] Nhiều lựa chọn
-Chu vi hình tròn có đường kính $12$ cm là
-A. $75{,}36$ cm.
-B. $18{,}84$ cm.
-C. $452{,}16$ cm.
-D. $37{,}68$ cm.
-::key D
-$C=12\times3{,}14=37{,}68$ cm. Phương án A lấy đường kính nhân $2$ rồi nhân $3{,}14$; B quên nhân $2$ khi dùng bán kính $6$; C là diện tích tính sai bằng đường kính.
-
-[M142.2] Nhiều lựa chọn
-Diện tích hình tròn có bán kính $5$ cm là
-A. $78{,}5\ \text{cm}^2$.
-B. $31{,}4\ \text{cm}^2$.
-C. $15{,}7\ \text{cm}^2$.
-D. $314\ \text{cm}^2$.
-::key A
-$S=5\times5\times3{,}14=78{,}5\ \text{cm}^2$. Phương án B là chu vi; C là $5\times3{,}14$; D dùng đường kính $10$ thay cho bán kính.
-
-[M142.3] Nhiều lựa chọn
-Hình tròn có chu vi $62{,}8$ cm thì đường kính là
-A. $10$ cm.
-B. $20$ cm.
-C. $197{,}192$ cm.
-D. $31{,}4$ cm.
-::key B
-$d=62{,}8:3{,}14=20$ cm. Phương án A là bán kính; B nhân thay vì chia; D chia chu vi cho $2$.
-
-[M142.4] Nhiều lựa chọn
-Giả sử bánh xe đạp có đường kính $0{,}65$ m. Bánh xe lăn $10$ vòng thì xe đi được
-A. $2{,}041$ m.
-B. $204{,}1$ m.
-C. $20{,}41$ m.
-D. $6{,}5$ m.
-::key C
-Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ m, sau $10$ vòng xe đi được $20{,}41$ m. Phương án A chỉ là một vòng; C nhân với $100$; D nhân đường kính với $10$.
-
-[M142.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét hình tròn có bán kính $4$ dm.
-a) Đường kính hình tròn là $4$ dm.
-b) Chu vi hình tròn là $4\times2\times3{,}14=25{,}12$ dm.
-c) Diện tích hình tròn là $4\times4\times3{,}14=50{,}24\ \text{dm}^2$.
-d) Nếu bán kính gấp đôi thì chu vi cũng gấp đôi.
-::key S Đ Đ Đ
-a) Sai: đường kính là $4\times2=8$ dm. b) Đúng. c) Đúng. d) Đúng: chu vi là $r\times2\times3{,}14$ nên tăng gấp đôi khi $r$ gấp đôi.
-
-[M142.6] Trả lời ngắn
-Hình tròn có đường kính $20$ cm. Chu vi hình tròn là bao nhiêu xăng-ti-mét?
-::key 62,8
-$C=20\times3{,}14=62{,}8$ cm.
-
-[M142.7] Trả lời ngắn
-Hình tròn có bán kính $10$ cm. Diện tích hình tròn là bao nhiêu xăng-ti-mét vuông?
-::key 314
-$S=10\times10\times3{,}14=314\ \text{cm}^2$.
-
-### M143 · Lớp 5 · Tỉ số. Tỉ số phần trăm. Tỉ lệ bản đồ và ứng dụng
-
-[M143.1] Nhiều lựa chọn
-Tỉ số của $50$ cm và $2$ m là
-A. $50:2$.
-B. $1:40$.
-C. $4:1$.
-D. $1:4$.
-::key D
-$2$ m $=200$ cm nên tỉ số là $50:200=1:4$. Phương án A không đổi đơn vị; C đảo ngược tỉ số; D chia sai.
-
-[M143.2] Nhiều lựa chọn
-Tỉ số phần trăm của $24$ và $40$ là
-A. $60\%$.
-B. $6\%$.
-C. $0{,}6\%$.
-D. $166{,}7\%$.
-::key A
-$24:40=0{,}6=60\%$. Phương án C quên nhân với $100$; B chỉ nhân với $10$; D là tỉ số phần trăm của $40$ và $24$.
-
-[M143.3] Nhiều lựa chọn
-$20\%$ của $80$ là
-A. $1600$.
-B. $16$.
-C. $4$.
-D. $100$.
-::key B
-$80\times20:100=16$. Phương án A quên chia cho $100$; C là $80:20$; D là $80+20$.
-
-[M143.4] Nhiều lựa chọn
-Trên bản đồ tỉ lệ $1:1\,000\,000$, đoạn đường dài $7$ cm ứng với quãng đường thật dài
-A. $7$ km.
-B. $700$ km.
-C. $70$ km.
-D. $7000$ km.
-::key C
-$7\times1\,000\,000=7\,000\,000$ cm $=70$ km. Phương án A, B, D đổi sai đơn vị từ xăng-ti-mét sang ki-lô-mét.
-
-[M143.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Bản đồ có tỉ lệ $1:500\,000$.
-a) $1$ cm trên bản đồ ứng với $500\,000$ km ngoài thực tế.
-b) $1$ cm trên bản đồ ứng với $5$ km ngoài thực tế.
-c) $4$ cm trên bản đồ ứng với $20$ km ngoài thực tế.
-d) Đoạn đường $10$ km thật được vẽ dài $20$ cm trên bản đồ.
-::key S Đ Đ S
-a) Sai: $500\,000$ cm $=5$ km. b) Đúng. c) Đúng: $4\times5=20$ km. d) Sai: $10$ km $=1\,000\,000$ cm, chia cho $500\,000$ được $2$ cm.
-
-[M143.6] Trả lời ngắn
-$9$ là bao nhiêu phần trăm của $12$?
-::key 75
-$9:12=0{,}75=75\%$.
-
-[M143.7] Trả lời ngắn
-Tìm số biết $40\%$ của nó là $18$.
-::key 45
-$18:40\times100=45$.
-
-### M144 · Lớp 5 · Tìm hai số khi biết tổng và tỉ số của hai số đó. Tìm hai số khi biết hiệu và tỉ số của hai số đó
-
-[M144.1] Nhiều lựa chọn
-Tổng của hai số là $48$. Số bé bằng $\dfrac{1}{5}$ số lớn. Hai số đó là
-A. $9{,}6$ và $38{,}4$.
-B. $12$ và $36$.
-C. $8$ và $40$.
-D. $24$ và $24$.
-::key C
-Số bé có $1$ phần, số lớn có $5$ phần, tổng $6$ phần, một phần là $48:6=8$, nên hai số là $8$ và $40$. Phương án A chia tổng cho $5$; C ứng với tỉ số $\dfrac{1}{3}$; D chia đôi tổng.
-
-[M144.2] Nhiều lựa chọn
-Hiệu của hai số là $24$. Tỉ số của số lớn và số bé là $\dfrac{5}{3}$. Số lớn là
-A. $36$.
-B. $15$.
-C. $120$.
-D. $60$.
-::key D
-Hiệu số phần là $5-3=2$, một phần là $24:2=12$, số lớn là $12\times5=60$. Phương án B chia hiệu cho tổng số phần; C nhân hiệu với số phần; D là số bé.
-
-[M144.3] Nhiều lựa chọn
-Một lớp có $36$ học sinh. Số học sinh nam bằng $\dfrac{4}{5}$ số học sinh nữ. Số học sinh nữ là
-A. $20$.
-B. $18$.
-C. $16$.
-D. $45$.
-::key A
-Tổng số phần là $4+5=9$, một phần là $36:9=4$, số học sinh nữ là $4\times5=20$. Phương án C là số học sinh nam; B chia đôi $36$; D lấy $36:4\times5$.
-
-[M144.4] Nhiều lựa chọn
-Giả sử bố hơn con $30$ tuổi và tuổi bố gấp $6$ lần tuổi con. Tuổi bố là
-A. $6$ tuổi.
-B. $36$ tuổi.
-C. $180$ tuổi.
-D. $30$ tuổi.
-::key B
-Hiệu số phần là $6-1=5$, một phần là $30:5=6$, tuổi bố là $6\times6=36$. Phương án A là tuổi con; B là hiệu; C nhân hiệu với $6$.
-
-[M144.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Hai số có tổng là $24$ và tỉ số của số bé và số lớn là $\dfrac{1}{3}$.
-a) Tổng số phần bằng nhau là $4$.
-b) Số bé là $8$.
-c) Số lớn là $18$.
-d) Số lớn gấp $3$ lần số bé.
-::key Đ S Đ Đ
-a) Đúng: $1+3=4$. b) Sai: một phần là $24:4=6$, nên số bé là $6$. c) Đúng: $6\times3=18$. d) Đúng: $18=3\times6$.
-
-[M144.6] Trả lời ngắn
-Tổng của hai số là $45$. Tỉ số của hai số là $\dfrac{2}{7}$. Số bé là bao nhiêu?
-::key 10
-Tổng số phần là $2+7=9$, một phần là $45:9=5$, số bé là $5\times2=10$.
-
-[M144.7] Trả lời ngắn
-Hiệu của hai số là $18$. Tỉ số của số bé và số lớn là $\dfrac{4}{7}$. Số lớn là bao nhiêu?
-::key 42
-Hiệu số phần là $7-4=3$, một phần là $18:3=6$, số lớn là $6\times7=42$.
-
-### M145 · Lớp 5 · Tìm tỉ số phần trăm của hai số
-
-[M145.1] Nhiều lựa chọn
-Tỉ số phần trăm của $5$ và $20$ là
-A. $0{,}25\%$.
-B. $15\%$.
-C. $25\%$.
-D. $400\%$.
-::key C
-$5:20=0{,}25$, nhân với $100$ được $25$. Phương án A quên nhân với $100$, phương án B lấy hiệu $20-5$, phương án D chia ngược $20:5$.
-
-[M145.2] Nhiều lựa chọn
-Lớp 5B có $40$ học sinh, trong đó $12$ em tham gia câu lạc bộ cờ vua. Số em tham gia câu lạc bộ chiếm bao nhiêu phần trăm số học sinh cả lớp?
-A. $0{,}3\%$.
-B. $12\%$.
-C. $28\%$.
-D. $30\%$.
-::key D
-$12:40=0{,}3$, nhân với $100$ được $30$. Phương án A quên nhân với $100$, phương án C lấy hiệu $40-12$.
-
-[M145.3] Nhiều lựa chọn
-Một mảnh vải dài $4$ m. Người ta đã dùng hết $80$ cm. Số vải đã dùng chiếm bao nhiêu phần trăm mảnh vải?
-A. $20\%$.
-B. $2000\%$.
-C. $80\%$.
-D. $0{,}2\%$.
-::key A
-Đổi $4\ \text{m}=400\ \text{cm}$, rồi $80:400=0{,}2$, tức $20\%$. Phương án B quên đổi đơn vị ($80:4=20$, rồi nhân $100$), phương án C là phần vải còn lại.
-
-[M145.4] Nhiều lựa chọn
-Tỉ số phần trăm của $3$ và $8$ là
-A. $375\%$.
-B. $37{,}5\%$.
-C. $0{,}375\%$.
-D. $5\%$.
-::key B
-$3:8=0{,}375$, nhân với $100$ được $37{,}5$. Phương án A nhân với $1000$, phương án C quên nhân với $100$, phương án D lấy hiệu $8-3$.
-
-[M145.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Lớp 5C có $25$ học sinh, trong đó $10$ em là nam. Em xét các nhận xét sau.
-a) Số em nam chiếm $40\%$ số học sinh cả lớp.
-b) Số em nữ chiếm $60\%$ số học sinh cả lớp.
-c) Số em nam chiếm $10\%$ số học sinh cả lớp.
-d) Số em nam và số em nữ cộng lại chiếm $100\%$ số học sinh cả lớp.
-::key Đ Đ S Đ
-a) Đúng: $10:25=0{,}4=40\%$. b) Đúng: có $25-10=15$ em nữ và $15:25=0{,}6=60\%$. c) Sai: $10\%$ là nhầm số $10$ với số phần trăm, đúng phải là $40\%$. d) Đúng: $40\%+60\%=100\%$.
-
-[M145.6] Trả lời ngắn
-Tìm tỉ số phần trăm của $21$ và $40$. Viết kết quả là một số, không ghi dấu $\%$.
-::key 52,5
-$21:40=0{,}525$, nhân với $100$ được $52{,}5$.
-
-[M145.7] Trả lời ngắn
-Một bao gạo nặng $25$ kg. Người ta đã bán $4$ kg. Số gạo đã bán chiếm bao nhiêu phần trăm bao gạo? Viết kết quả là một số, không ghi dấu $\%$.
+[M111.6] Trả lời ngắn
+Tìm số dư của phép chia $1\,234:21$.
 ::key 16
-$4:25=0{,}16$, nhân với $100$ được $16$, tức $16\%$.
+$123:21=5$ (dư $18$); hạ $4$ được $184$, $184:21=8$ (dư $16$). Vậy $1\,234:21=58$ (dư $16$).
 
-### M146 · Lớp 5 · Tìm giá trị phần trăm của một số
+[M111.7] Trả lời ngắn
+Có $2\,450$ quyển truyện chia đều vào $35$ thư viện lớp. Mỗi thư viện lớp được bao nhiêu quyển?
+::key 70
+$2\,450:35=70$ (quyển), vì $35\times70=2\,450$.
 
-[M146.1] Nhiều lựa chọn
-$20\%$ của $150$ là
-A. $3\,000$.
-B. $7{,}5$.
-C. $30$.
-D. $750$.
+### M112 · Lớp 4 · Tìm số trung bình cộng
+
+[M112.1] Nhiều lựa chọn
+Số trung bình cộng của $6$, $8$ và $10$ là
+A. $24$.
+B. $12$.
+C. $8$.
+D. $6$.
 ::key C
-$150\times20:100=3\,000:100=30$. Phương án A là lỗi quên chia $100$; phương án B là $150:20$.
+$(6+8+10):3=24:3=8$. Phương án A là quên chia, B là chia cho $2$.
 
-[M146.2] Nhiều lựa chọn
-Muốn tìm $12\%$ của $350$, em tính
-A. $350:12$.
-B. $350\times100:12$.
-C. $350:100:12$.
-D. $350\times12:100$.
-::key D
-$12\%$ của $350$ là $12$ phần trong $100$ phần của $350$, tức là $350\times12:100$. Các phương án còn lại chia cho $12$, không đúng.
-
-[M146.3] Nhiều lựa chọn
-Một chiếc áo giá $300\,000$ đồng được giảm giá $10\%$. Số tiền phải trả là
-A. $270\,000$ đồng.
-B. $330\,000$ đồng.
-C. $3\,000\,000$ đồng.
-D. $30\,000$ đồng.
-::key A
-Số tiền được giảm là $300\,000\times10:100=30\,000$ đồng, nên phải trả $300\,000-30\,000=270\,000$ đồng. Phương án D quên trừ.
-
-[M146.4] Nhiều lựa chọn
-Lớp có $30$ học sinh, trong đó $40\%$ đi bộ đến trường. Số học sinh đi bộ là
-A. $1\,200$ em.
-B. $12$ em.
-C. $75$ em.
-D. $70$ em.
+[M112.2] Nhiều lựa chọn
+Cách đúng để tìm số trung bình cộng của $5$, $7$, $9$ và $11$ là
+A. $(5+7+9+11):3$.
+B. $(5+7+9+11):4$.
+C. $5+7+9+11$.
+D. $(5+11):4$.
 ::key B
-$30\times40:100=1\,200:100=12$ (em). Phương án A quên chia $100$; phương án C là $30:40\times100$, tìm tỉ số phần trăm chứ không phải giá trị phần trăm.
+Có $4$ số nên chia tổng cho $4$. Phương án A chia sai số lần, C quên chia.
 
-[M146.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét $60\%$ của $90$.
-a) Có thể tính bằng $90:100\times60$.
-b) Kết quả là $54$.
-c) Kết quả là $5\,400$.
-d) Kết quả bằng $40\%$ của $140$.
-::key Đ Đ S S
-a) Đúng: chia $100$ rồi nhân $60$. b) Đúng: $0{,}9\times60=54$. c) Sai: $5\,400$ là $90\times60$, chưa chia $100$. d) Sai: $140\times40:100=56$, khác $54$.
-
-[M146.6] Trả lời ngắn
-Tính $35\%$ của $80$.
-::key 28
-$80\times35:100=2\,800:100=28$.
-
-[M146.7] Trả lời ngắn
-Cửa hàng có $450$ kg gạo, đã bán $60\%$ số gạo. Hỏi còn lại bao nhiêu ki-lô-gam gạo?
-::key 180
-Số gạo đã bán là $450\times60:100=270$ (kg), còn lại $450-270=180$ (kg).
-
-### M147 · Lớp 5 · Máy tính cầm tay
-
-[M147.1] Nhiều lựa chọn
-Kết quả của $12{,}5\times3{,}6$ là
-A. $4{,}5$.
-B. $450$.
-C. $45$.
-D. $4500$.
+[M112.3] Nhiều lựa chọn
+Trung bình cộng của ba số là $9$. Tổng ba số đó là
+A. $3$.
+B. $12$.
+C. $27$.
+D. $9$.
 ::key C
-Ước lượng $12\times4=48$, gần $45$, và máy tính cho $45$. Các phương án A, B, D đặt dấu phẩy sai chỗ nên quá bé hoặc quá lớn so với ước lượng.
+Tổng bằng $9\times3=27$. Phương án B là lấy $9+3$ nhầm với phép nhân.
 
-[M147.2] Nhiều lựa chọn
-Kết quả của $17:6$, làm tròn đến hàng phần trăm, là
-A. $2{,}8$.
-B. $2{,}84$.
+[M112.4] Nhiều lựa chọn
+Ba ngày cửa hàng bán $18$, $24$, $21$ hộp bánh. Trung bình mỗi ngày bán bao nhiêu hộp?
+A. $63$ hộp.
+B. $21$ hộp.
+C. $7$ hộp.
+D. $24$ hộp.
+::key B
+$(18+24+21):3=63:3=21$. Phương án A là quên chia, C là chia thêm một lần nữa.
+
+[M112.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét ba số $4$, $6$, $8$.
+a) Tổng ba số là $18$.
+b) Số trung bình cộng là $6$.
+c) Số trung bình cộng bằng tổng chia cho $2$.
+d) Ba số $6$, $6$, $6$ có cùng số trung bình cộng với ba số trên.
+::key Đ Đ S Đ
+a) Đúng: $4+6+8=18$. b) Đúng: $18:3=6$. c) Sai: phải chia cho $3$. d) Đúng: $(6+6+6):3=6$.
+
+[M112.6] Trả lời ngắn
+Tìm số trung bình cộng của $12$, $14$, $16$ và $18$.
+::key 15
+$(12+14+16+18):4=60:4=15$.
+
+[M112.7] Trả lời ngắn
+Trung bình cộng của $5$ số là $8$. Tổng của $5$ số đó là bao nhiêu?
+::key 40
+Tổng bằng $8\times5=40$.
+
+### M113 · Lớp 4 · Bài toán liên quan đến rút về đơn vị
+
+[M113.1] Nhiều lựa chọn
+Mua $5$ quyển vở hết $30\,000$ đồng. Giá một quyển vở là
+A. $6\,000$ đồng.
+B. $150\,000$ đồng.
+C. $25\,000$ đồng.
+D. $6$ đồng.
+::key A
+$30\,000:5=6\,000$. Phương án B là nhân thay vì chia, C là trừ.
+
+[M113.2] Nhiều lựa chọn
+Biết $4$ cái bút giá $12\,000$ đồng. Để tính giá $8$ cái bút, bước đầu tiên là
+A. $12\,000\times4$.
+B. $12\,000:4$.
+C. $12\,000\times8$.
+D. $12\,000+8$.
+::key B
+Phải tìm giá một cái bút trước: $12\,000:4=3\,000$. Phương án C nhân luôn với $8$ là lỗi hay gặp.
+
+[M113.3] Nhiều lựa chọn
+Một xe đi đều $3$ giờ được $90$ km. Hỏi $5$ giờ xe đi được bao nhiêu ki-lô-mét?
+A. $30$ km.
+B. $450$ km.
+C. $150$ km.
+D. $95$ km.
+::key C
+$90:3=30$ km một giờ, $30\times5=150$ km. Phương án A mới là quãng đường $1$ giờ, B nhân mà quên chia.
+
+[M113.4] Nhiều lựa chọn
+$6$ gói bánh có $48$ cái bánh. Hỏi $4$ gói như thế có bao nhiêu cái bánh?
+A. $8$ cái.
+B. $288$ cái.
+C. $12$ cái.
+D. $32$ cái.
+::key D
+$48:6=8$ cái một gói, $8\times4=32$ cái. Phương án A là số bánh một gói, B là nhân $48\times6$.
+
+[M113.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+$4$ chai nước giá $20\,000$ đồng.
+a) Một chai nước giá $5\,000$ đồng.
+b) $6$ chai nước giá $30\,000$ đồng.
+c) $6$ chai nước giá $20\,000\times6$ đồng.
+d) Có $10\,000$ đồng thì mua được $2$ chai.
+::key Đ Đ S Đ
+a) Đúng: $20\,000:4=5\,000$. b) Đúng: $5\,000\times6=30\,000$. c) Sai: $20\,000$ là giá $4$ chai. d) Đúng: $10\,000:5\,000=2$.
+
+[M113.6] Trả lời ngắn
+$5$ hộp có $40$ cái bút. Hỏi $9$ hộp như thế có bao nhiêu cái bút?
+::key 72
+$40:5=8$ cái một hộp, $8\times9=72$ cái.
+
+[M113.7] Trả lời ngắn
+$4$ quyển vở giá $24\,000$ đồng. Với $42\,000$ đồng mua được bao nhiêu quyển vở như thế?
+::key 7
+Giá một quyển: $24\,000:4=6\,000$ đồng. $42\,000:6\,000=7$ quyển.
+
+### M114 · Lớp 4 · Dãy số liệu thống kê
+
+[M114.1] Nhiều lựa chọn
+Dãy số liệu $4, 9, 6, 9, 3$ có bao nhiêu số?
+A. $4$.
+B. $5$.
 C. $3$.
-D. $2{,}83$.
-::key D
-Màn hình hiện $2{,}8333333$; chữ số hàng phần nghìn là $3<5$ nên được $2{,}83$. Phương án A làm tròn đến hàng phần mười; B làm tròn lên sai; C làm tròn đến số tự nhiên.
-
-[M147.3] Nhiều lựa chọn
-Giả sử mẹ mua $4{,}75$ kg thịt, giá $135\,000$ đồng một ki-lô-gam. Số tiền phải trả là
-A. $641\,250$ đồng.
-B. $64\,125\,000$ đồng.
-C. $28\,421$ đồng.
-D. $6\,412\,500$ đồng.
-::key A
-$4{,}75\times135\,000=641\,250$ đồng. Phương án B nhập $4{,}75$ thành $475$; C là phép chia $135\,000:4{,}75$; D đặt sai dấu phẩy.
-
-[M147.4] Nhiều lựa chọn
-Một thư viện có $1250$ quyển sách, trong đó có $325$ quyển truyện tranh. Truyện tranh chiếm
-A. $385\%$.
-B. $26\%$.
-C. $0{,}26\%$.
-D. $260\%$.
+D. $9$.
 ::key B
-$325:1250=0{,}26$ và $0{,}26\times100=26$, nên chiếm $26\%$. Phương án A chia ngược thứ tự; B quên nhân với $100$; D nhân với $1000$.
+Có $5$ số, mỗi số đếm một lần kể cả số lặp lại. Phương án A là lỗi chỉ đếm số $9$ một lần.
 
-[M147.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em dùng máy tính để tính $36:0{,}4$.
-a) Kết quả là $90$.
-b) Chia cho số bé hơn $1$ thì kết quả bé hơn $36$.
-c) Ước lượng $36:0{,}5=72$ cho thấy kết quả phải lớn hơn $72$.
-d) Nếu máy hiển thị $9$ thì em tin kết quả vì máy không bao giờ sai.
-::key Đ S Đ S
-a) Đúng: $36:0{,}4=360:4=90$. b) Sai: chia cho số bé hơn $1$ thì kết quả lớn hơn $36$. c) Đúng: $0{,}4<0{,}5$ nên thương lớn hơn $72$. d) Sai: máy chỉ làm đúng điều em bấm, nên em phải ước lượng để kiểm tra.
-
-[M147.6] Trả lời ngắn
-Dùng máy tính tính $78{,}4:1{,}6$.
-::key 49
-$78{,}4:1{,}6=784:16=49$.
-
-[M147.7] Trả lời ngắn
-Làm tròn $100:3$ đến hàng phần mười.
-::key 33,3
-$100:3=33{,}333\ldots$; chữ số hàng phần trăm là $3<5$ nên được $33{,}3$.
-
-### M148 · Lớp 5 · Thể tích của một hình. Xăng-ti-mét khối. Đề-xi-mét khối. Mét khối
-
-[M148.1] Nhiều lựa chọn
-Số đo $5\ \text{dm}^3$ đổi ra xăng-ti-mét khối là
-A. $50\ \text{cm}^3$.
-B. $5000\ \text{cm}^3$.
-C. $500\ \text{cm}^3$.
-D. $50\,000\ \text{cm}^3$.
-::key B
-$5\ \text{dm}^3=5\times1000=5000\ \text{cm}^3$. Phương án A coi $1\ \text{dm}^3=10\ \text{cm}^3$; B coi $1\ \text{dm}^3=100\ \text{cm}^3$; D coi $1\ \text{dm}^3=10\,000\ \text{cm}^3$.
-
-[M148.2] Nhiều lựa chọn
-Số đo $7\,000\,000\ \text{cm}^3$ đổi ra mét khối là
-A. $700\ \text{m}^3$.
-B. $70\ \text{m}^3$.
-C. $7\ \text{m}^3$.
-D. $7000\ \text{m}^3$.
+[M114.2] Nhiều lựa chọn
+Số lớn nhất trong dãy $12, 8, 15, 9$ là
+A. $8$.
+B. $12$.
+C. $15$.
+D. $9$.
 ::key C
-$1\ \text{m}^3=1\,000\,000\ \text{cm}^3$ nên $7\,000\,000\ \text{cm}^3=7\ \text{m}^3$. Phương án B, A, D đổi sai số lần giữa hai đơn vị.
+So sánh các số thì $15$ lớn nhất. Phương án B là lỗi chọn số đầu tiên.
 
-[M148.3] Nhiều lựa chọn
-Số đo $3\ \text{m}^3\ 250\ \text{dm}^3$ đổi ra đề-xi-mét khối là
-A. $325\ \text{dm}^3$.
-B. $3025\ \text{dm}^3$.
-C. $32\,500\ \text{dm}^3$.
-D. $3250\ \text{dm}^3$.
-::key D
-$3\ \text{m}^3=3000\ \text{dm}^3$ nên $3000+250=3250\ \text{dm}^3$. Phương án A coi $1\ \text{m}^3=100\ \text{dm}^3$; B quên chữ số $2$ của $250$; C coi $1\ \text{m}^3=10\,000\ \text{dm}^3$.
-
-[M148.4] Nhiều lựa chọn
-Một chiếc bể chứa được $1800\ \text{dm}^3$ nước. Bể chứa được bao nhiêu lít nước?
-A. $1800$ lít.
-B. $18$ lít.
-C. $180$ lít.
-D. $18\,000$ lít.
+[M114.3] Nhiều lựa chọn
+Sắp xếp dãy $7, 3, 9, 3$ từ bé đến lớn được
+A. $3, 3, 7, 9$.
+B. $9, 7, 3, 3$.
+C. $3, 7, 9, 3$.
+D. $3, 7, 9$.
 ::key A
-$1\ \text{dm}^3=1$ lít nên $1800\ \text{dm}^3=1800$ lít. Các phương án B, C, D nhân hoặc chia sai.
+Phải viết đủ hai số $3$. Phương án D bỏ một số $3$, B là sắp từ lớn đến bé.
 
-[M148.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
-Em xét khối lập phương cạnh $1$ dm.
-a) Thể tích khối đó là $1\ \text{dm}^2$.
-b) $1\ \text{dm}^3=1000\ \text{cm}^3$.
-c) Xếp vừa kín khối đó cần $100$ khối lập phương cạnh $1$ cm.
-d) $1\ \text{dm}^3=1$ lít.
-::key S Đ S Đ
-a) Sai: thể tích đo bằng $\text{dm}^3$, không phải $\text{dm}^2$. b) Đúng: $10\times10\times10=1000$. c) Sai: cần $1000$ khối. d) Đúng: $1$ lít là dung tích của khối $1\ \text{dm}^3$.
+[M114.4] Nhiều lựa chọn
+Nhiệt độ năm ngày là $24, 27, 22, 27, 25$ (độ). Nhiệt độ cao nhất hơn nhiệt độ thấp nhất bao nhiêu độ?
+A. $5$ độ.
+B. $3$ độ.
+C. $27$ độ.
+D. $2$ độ.
+::key A
+$27-22=5$. Phương án B lấy $27-24$ vì quên tìm số nhỏ nhất, C là số lớn nhất.
 
-[M148.6] Trả lời ngắn
-Số?  $4\ \text{m}^3=?\ \text{dm}^3$.
-::key 4000
-$4\ \text{m}^3=4\times1000=4000\ \text{dm}^3$.
+[M114.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho dãy số liệu $6, 2, 8, 2, 5, 2$.
+a) Dãy có $6$ số.
+b) Số lớn nhất là $8$.
+c) Số $2$ xuất hiện $2$ lần.
+d) Sắp xếp từ bé đến lớn được $2, 2, 2, 5, 6, 8$.
+::key Đ Đ S Đ
+a) Đúng: đếm đủ sáu số. b) Đúng: $8$ lớn nhất. c) Sai: số $2$ xuất hiện $3$ lần. d) Đúng: đủ ba số $2$.
 
-[M148.7] Trả lời ngắn
-Số?  $2\ \text{dm}^3\ 50\ \text{cm}^3=?\ \text{cm}^3$.
-::key 2050
-$2\ \text{dm}^3=2000\ \text{cm}^3$ nên $2000+50=2050\ \text{cm}^3$.
+[M114.6] Trả lời ngắn
+Cho dãy $15, 9, 12, 20, 9$. Số lớn nhất hơn số nhỏ nhất bao nhiêu?
+::key 11
+$20-9=11$.
+
+[M114.7] Trả lời ngắn
+Số $7$ xuất hiện bao nhiêu lần trong dãy $7, 3, 7, 5, 7, 4$?
+::key 3
+Số $7$ ở vị trí thứ nhất, thứ ba và thứ năm, tức $3$ lần.
+
+### M115 · Lớp 4 · Biểu đồ cột
+
+[M115.1] Nhiều lựa chọn
+Cột cao nhất của biểu đồ cột ứng với
+A. số liệu nhỏ nhất.
+B. số liệu lớn nhất.
+C. số liệu đầu tiên.
+D. tổng các số liệu.
+::key B
+Cột càng cao thì số liệu càng lớn. Phương án C là lỗi chọn cột bên trái nhất.
+
+[M115.2] Nhiều lựa chọn
+Thứ Tư các bạn mượn bao nhiêu quyển sách?
+A. $6$ quyển.
+B. $10$ quyển.
+C. $8$ quyển.
+D. $12$ quyển.
+::key C
+Cột Thứ Tư ghi $8$. Phương án B là số của ngày Thứ Ba bên cạnh.
+
+[M115.3] Nhiều lựa chọn
+Thứ Năm mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+A. $18$ quyển.
+B. $8$ quyển.
+C. $12$ quyển.
+D. $6$ quyển.
+::key D
+$12-6=6$. Phương án A là lấy $12+6$, nhầm sang phép cộng.
+
+[M115.4] Nhiều lựa chọn
+Cả tuần các bạn mượn tất cả bao nhiêu quyển?
+A. $40$ quyển.
+B. $8$ quyển.
+C. $12$ quyển.
+D. $36$ quyển.
+::key A
+$6+10+8+12+4=40$. Phương án D bỏ sót cột Thứ Sáu, B là trung bình mỗi ngày.
+
+[M115.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét biểu đồ số quyển sách mượn.
+a) Thứ Ba mượn $10$ quyển.
+b) Thứ Sáu là ngày mượn ít nhất.
+c) Có $3$ ngày mượn nhiều hơn $8$ quyển.
+d) Bốn ngày từ Thứ Hai đến Thứ Năm mượn tất cả $36$ quyển.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: cột Thứ Sáu thấp nhất. c) Sai: chỉ Thứ Ba ($10$) và Thứ Năm ($12$) nhiều hơn $8$, tức $2$ ngày. d) Đúng: $6+10+8+12=36$.
+
+[M115.6] Trả lời ngắn
+Thứ Ba mượn nhiều hơn Thứ Sáu bao nhiêu quyển?
+::key 6
+$10-4=6$.
+
+[M115.7] Trả lời ngắn
+Trung bình mỗi ngày trong tuần các bạn mượn bao nhiêu quyển?
+::key 8
+$(6+10+8+12+4):5=40:5=8$.
+
+### M116 · Lớp 4 · Số lần xuất hiện của một sự kiện
+
+[M116.1] Nhiều lựa chọn
+Tung đồng xu $10$ lần, mặt ngửa xuất hiện $6$ lần. Mặt sấp xuất hiện
+A. $6$ lần.
+B. $4$ lần.
+C. $16$ lần.
+D. $10$ lần.
+::key B
+$10-6=4$. Phương án C là cộng thay vì trừ.
+
+[M116.2] Nhiều lựa chọn
+Trong dãy Đ, X, Đ, Đ, X, kí hiệu Đ xuất hiện mấy lần?
+A. $2$ lần.
+B. $3$ lần.
+C. $5$ lần.
+D. $4$ lần.
+::key B
+Đ ở lần $1$, $3$, $4$, tức $3$ lần. Phương án C là số lần thử.
+
+[M116.3] Nhiều lựa chọn
+Tổng số lần xuất hiện của mọi sự kiện luôn bằng
+A. số lần thử.
+B. số lần lớn nhất.
+C. $1$.
+D. $0$.
+::key A
+Mỗi lần thử cho đúng một kết quả. Phương án B là nhầm với số lớn nhất.
+
+[M116.4] Nhiều lựa chọn
+Trước cổng trường có $12$ xe đạp, $9$ xe máy và $5$ ô tô đi qua. Có tất cả bao nhiêu xe?
+A. $26$ xe.
+B. $14$ xe.
+C. $17$ xe.
+D. $12$ xe.
+::key A
+$12+9+5=26$. Phương án B bỏ sót xe đạp, C bỏ sót xe máy.
+
+[M116.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Gieo xúc xắc $20$ lần được số lần các mặt $1$ đến $6$ lần lượt là $3, 4, 2, 5, 3, 3$.
+a) Mặt $4$ xuất hiện $5$ lần.
+b) Mặt $3$ xuất hiện ít nhất.
+c) Tổng số lần xuất hiện của các mặt là $20$.
+d) Các mặt chẵn xuất hiện tất cả $10$ lần.
+::key Đ Đ Đ S
+a) Đúng. b) Đúng: $2$ lần là ít nhất. c) Đúng: $3+4+2+5+3+3=20$. d) Sai: $4+5+3=12$ lần.
+
+[M116.6] Trả lời ngắn
+Tung đồng xu $15$ lần, ngửa xuất hiện $9$ lần. Sấp xuất hiện mấy lần?
+::key 6
+$15-9=6$.
+
+[M116.7] Trả lời ngắn
+Gieo xúc xắc $20$ lần với số lần các mặt $1$ đến $6$ là $3, 4, 2, 5, 3, 3$. Các mặt chẵn xuất hiện tất cả mấy lần?
+::key 12
+Mặt $2$, $4$, $6$: $4+5+3=12$.
+
+### M117 · Lớp 4 · Khái niệm phân số
+
+[M117.1] Nhiều lựa chọn
+Mẫu số của phân số $\dfrac{3}{5}$ là
+A. $5$.
+B. $3$.
+C. $8$.
+D. $15$.
+::key A
+Mẫu số là số ở dưới, $5$. Phương án B là tử số, C là tổng hai số.
+
+[M117.2] Nhiều lựa chọn
+Chiếc bánh cắt thành $6$ phần bằng nhau, ăn $1$ phần. Phân số chỉ phần đã ăn là
+A. $\dfrac{6}{1}$.
+B. $\dfrac{1}{6}$.
+C. $\dfrac{1}{5}$.
+D. $\dfrac{5}{6}$.
+::key B
+Cả chiếc bánh có $6$ phần, ăn $1$ phần nên $\dfrac{1}{6}$. Phương án A viết ngược, D là phần chưa ăn.
+
+[M117.3] Nhiều lựa chọn
+Phân số "bảy phần mười" viết là
+A. $\dfrac{10}{7}$.
+B. $7+10$.
+C. $\dfrac{7}{10}$.
+D. $17$.
+::key C
+Tử số $7$, mẫu số $10$. Phương án A viết ngược tử số và mẫu số.
+
+[M117.4] Nhiều lựa chọn
+Một hình được chia thành $8$ phần bằng nhau, tô màu $5$ phần. Phân số chỉ phần không tô màu là
+A. $\dfrac{5}{8}$.
+B. $\dfrac{3}{5}$.
+C. $\dfrac{8}{3}$.
+D. $\dfrac{3}{8}$.
+::key D
+Phần không tô là $8-5=3$ phần nên $\dfrac{3}{8}$. Phương án A là phần đã tô.
+
+[M117.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phân số $\dfrac{5}{9}$.
+a) Tử số là $5$.
+b) Mẫu số là $9$.
+c) Đọc là "chín phần năm".
+d) Có thể là $5$ phần trong một hình chia thành $9$ phần bằng nhau.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng. c) Sai: đọc là "năm phần chín". d) Đúng.
+
+[M117.6] Trả lời ngắn
+Chiếc bánh chia thành $12$ phần bằng nhau, Mai ăn $5$ phần. Còn lại bao nhiêu phần?
+::key 7
+$12-5=7$ phần.
+
+[M117.7] Trả lời ngắn
+Phân số $\dfrac{3}{8}$ có mẫu số là bao nhiêu?
+::key 8
+Mẫu số là số ở dưới, $8$.
+
+### M118 · Lớp 4 · Phân số và phép chia số tự nhiên
+
+[M118.1] Nhiều lựa chọn
+Thương của phép chia $5:8$ viết thành phân số là
+A. $\dfrac{8}{5}$.
+B. $5+8$.
+C. $\dfrac{5}{8}$.
+D. $13$.
+::key C
+Số bị chia $5$ là tử số, số chia $8$ là mẫu số. Phương án A là lỗi viết ngược.
+
+[M118.2] Nhiều lựa chọn
+Chia đều $3$ m dây cho $4$ bạn. Mỗi bạn được
+A. $\dfrac{4}{3}$ m.
+B. $3$ m.
+C. $\dfrac{1}{4}$ m.
+D. $\dfrac{3}{4}$ m.
+::key D
+$3:4=\dfrac{3}{4}$. Phương án A viết ngược.
+
+[M118.3] Nhiều lựa chọn
+Số $7$ viết dưới dạng phân số là
+A. $\dfrac{7}{1}$.
+B. $\dfrac{1}{7}$.
+C. $\dfrac{7}{7}$.
+D. $\dfrac{0}{7}$.
+::key A
+$7:1=7$ nên $7=\dfrac{7}{1}$. Phương án C bằng $1$, không phải $7$.
+
+[M118.4] Nhiều lựa chọn
+Phân số $\dfrac{9}{4}$ là thương của phép chia
+A. $4:9$.
+B. $9:4$.
+C. $9+4$.
+D. $9-4$.
+::key B
+Tử số là số bị chia, mẫu số là số chia, nên $\dfrac{9}{4}=9:4$.
+
+[M118.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các phép chia và phân số.
+a) $3:5=\dfrac{3}{5}$.
+b) $5:3=\dfrac{3}{5}$.
+c) $\dfrac{8}{8}=1$.
+d) Có thể viết $5:0$ thành phân số $\dfrac{5}{0}$.
+::key Đ S Đ S
+a) Đúng. b) Sai: $5:3=\dfrac{5}{3}$. c) Đúng: $8:8=1$. d) Sai: không chia cho $0$.
+
+[M118.6] Trả lời ngắn
+Biết $12:?=\dfrac{12}{5}$. Số cần điền vào $?$ là bao nhiêu?
+::key 5
+Số chia là mẫu số, nên $?=5$.
+
+[M118.7] Trả lời ngắn
+Phân số $\dfrac{10}{10}$ bằng số nào?
+::key 1
+$10:10=1$.
+
+### M119 · Lớp 4 · Tính chất cơ bản của phân số
+
+[M119.1] Nhiều lựa chọn
+Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{12}$.
+A. $4$.
+B. $8$.
+C. $5$.
+D. $14$.
+::key B
+$3\times4=12$ nên $2\times4=8$. Phương án C là lỗi cộng thêm $3$ vào $2$.
+
+[M119.2] Nhiều lựa chọn
+Tìm số thích hợp: $\dfrac{6}{9}=\dfrac{?}{3}$.
+A. $2$.
+B. $3$.
+C. $6$.
+D. $1$.
+::key A
+$9:3=3$ nên $6:3=2$. Phương án C là lỗi giữ nguyên tử số.
+
+[M119.3] Nhiều lựa chọn
+Phân số nào bằng $\dfrac{1}{2}$?
+A. $\dfrac{2}{3}$.
+B. $\dfrac{3}{6}$.
+C. $\dfrac{2}{5}$.
+D. $\dfrac{1}{4}$.
+::key B
+$\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Phương án A có tử số gấp đôi nhưng mẫu số không gấp đôi.
+
+[M119.4] Nhiều lựa chọn
+Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{9}{?}$.
+A. $8$.
+B. $12$.
+C. $15$.
+D. $14$.
+::key C
+$3\times3=9$ nên $5\times3=15$. Phương án A là lỗi cộng thêm $3$ vào $5$.
+
+[M119.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các phân số.
+a) $\dfrac{1}{2}=\dfrac{2}{4}$.
+b) $\dfrac{1}{3}=\dfrac{2}{6}$.
+c) $\dfrac{2}{5}=\dfrac{3}{6}$.
+d) $\dfrac{4}{8}=\dfrac{1}{2}$.
+::key Đ Đ S Đ
+a) Đúng: nhân với $2$. b) Đúng: nhân với $2$. c) Sai: tử số nhân $1{,}5$ mà mẫu số không nhân với số tự nhiên đó. d) Đúng: chia cho $4$.
+
+[M119.6] Trả lời ngắn
+Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{?}{20}$.
+::key 16
+$5\times4=20$ nên $4\times4=16$.
+
+[M119.7] Trả lời ngắn
+Tìm số thích hợp: $\dfrac{15}{20}=\dfrac{?}{4}$.
+::key 3
+$20:5=4$ nên $15:5=3$.
+
+### M120 · Lớp 4 · Rút gọn phân số. Quy đồng mẫu số các phân số
+
+[M120.1] Nhiều lựa chọn
+Rút gọn $\dfrac{18}{24}$ đến phân số tối giản được
+A. $\dfrac{3}{4}$.
+B. $\dfrac{6}{8}$.
+C. $\dfrac{9}{12}$.
+D. $\dfrac{2}{3}$.
+::key A
+$\dfrac{18}{24}=\dfrac{18:6}{24:6}=\dfrac{3}{4}$. Phương án C và B còn rút gọn được; phương án D không bằng $\dfrac{18}{24}$.
+
+[M120.2] Nhiều lựa chọn
+Phân số nào sau đây là phân số tối giản?
+A. $\dfrac{6}{9}$.
+B. $\dfrac{7}{15}$.
+C. $\dfrac{12}{18}$.
+D. $\dfrac{10}{15}$.
+::key B
+$7$ và $15$ không có số chung lớn hơn $1$. Ba phân số còn lại đều rút gọn được (cho $3$, $5$ và $6$).
+
+[M120.3] Nhiều lựa chọn
+Quy đồng mẫu số hai phân số $\dfrac{2}{3}$ và $\dfrac{3}{5}$ được
+A. $\dfrac{2}{15}$ và $\dfrac{3}{15}$.
+B. $\dfrac{6}{15}$ và $\dfrac{15}{15}$.
+C. $\dfrac{10}{15}$ và $\dfrac{9}{15}$.
+D. $\dfrac{10}{8}$ và $\dfrac{9}{8}$.
+::key C
+$\dfrac{2}{3}=\dfrac{2\times5}{3\times5}=\dfrac{10}{15}$ và $\dfrac{3}{5}=\dfrac{3\times3}{5\times3}=\dfrac{9}{15}$. Phương án A chỉ nhân mẫu số.
+
+[M120.4] Nhiều lựa chọn
+Phân số nào bằng $\dfrac{3}{5}$?
+A. $\dfrac{5}{3}$.
+B. $\dfrac{4}{6}$.
+C. $\dfrac{3}{10}$.
+D. $\dfrac{12}{20}$.
+::key D
+$\dfrac{3}{5}=\dfrac{3\times4}{5\times4}=\dfrac{12}{20}$. Phương án B cộng $1$ vào cả tử số và mẫu số nên sai.
+
+[M120.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phân số $\dfrac{4}{6}$.
+a) $\dfrac{4}{6}=\dfrac{2}{3}$.
+b) $\dfrac{4}{6}$ là phân số tối giản.
+c) $\dfrac{4}{6}=\dfrac{8}{12}$.
+d) Chia cả tử số và mẫu số của $\dfrac{4}{6}$ cho $2$ được $\dfrac{2}{3}$.
+::key Đ S Đ Đ
+a) Đúng: chia cả hai cho $2$. b) Sai: $4$ và $6$ cùng chia hết cho $2$. c) Đúng: nhân cả hai với $2$. d) Đúng: $4:2=2$ và $6:2=3$.
+
+[M120.6] Trả lời ngắn
+Tìm $x$ biết $\dfrac{3}{5}=\dfrac{x}{20}$.
+::key 12
+Vì $20=5\times4$ nên $x=3\times4=12$.
+
+[M120.7] Trả lời ngắn
+Rút gọn $\dfrac{24}{36}$ đến phân số tối giản, rồi tính tổng của tử số và mẫu số của phân số đó.
+::key 5
+$\dfrac{24}{36}=\dfrac{2}{3}$ và $2+3=5$.
+
+### M121 · Lớp 4 · So sánh phân số
+
+[M121.1] Nhiều lựa chọn
+So sánh $\dfrac{5}{9}$ và $\dfrac{7}{9}$.
+A. $\dfrac{5}{9}>\dfrac{7}{9}$.
+B. $\dfrac{5}{9}<\dfrac{7}{9}$.
+C. $\dfrac{5}{9}=\dfrac{7}{9}$.
+D. Không so sánh được.
+::key B
+Hai phân số cùng mẫu số $9$ và $5<7$ nên $\dfrac{5}{9}<\dfrac{7}{9}$.
+
+[M121.2] Nhiều lựa chọn
+Trong ba phân số $\dfrac{3}{4}$, $\dfrac{3}{7}$, $\dfrac{3}{10}$, phân số lớn nhất là
+A. $\dfrac{3}{10}$.
+B. $\dfrac{3}{7}$.
+C. $\dfrac{3}{4}$.
+D. Ba phân số bằng nhau.
+::key C
+Các phân số cùng tử số $3$, mẫu số bé nhất là $4$ nên $\dfrac{3}{4}$ lớn nhất.
+
+[M121.3] Nhiều lựa chọn
+So sánh $\dfrac{2}{3}$ và $\dfrac{3}{5}$.
+A. $\dfrac{2}{3}<\dfrac{3}{5}$.
+B. $\dfrac{2}{3}=\dfrac{3}{5}$.
+C. Không so sánh được.
+D. $\dfrac{2}{3}>\dfrac{3}{5}$.
+::key D
+$\dfrac{2}{3}=\dfrac{10}{15}$ và $\dfrac{3}{5}=\dfrac{9}{15}$, mà $10>9$. Phương án A là lỗi so sánh trực tiếp $2<3$.
+
+[M121.4] Nhiều lựa chọn
+Sắp xếp $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$ từ bé đến lớn được
+A. $\dfrac{1}{2}$, $\dfrac{5}{8}$, $\dfrac{3}{4}$.
+B. $\dfrac{5}{8}$, $\dfrac{1}{2}$, $\dfrac{3}{4}$.
+C. $\dfrac{3}{4}$, $\dfrac{5}{8}$, $\dfrac{1}{2}$.
+D. $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$.
+::key A
+$\dfrac{1}{2}=\dfrac{4}{8}$, $\dfrac{3}{4}=\dfrac{6}{8}$ và $4<5<6$.
+
+[M121.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét hai phân số $\dfrac{7}{6}$ và $\dfrac{4}{9}$.
+a) $\dfrac{7}{6}>1$.
+b) $\dfrac{4}{9}<1$.
+c) $\dfrac{7}{6}>\dfrac{4}{9}$.
+d) $\dfrac{7}{6}<1$.
+::key Đ Đ Đ S
+a) Đúng: $7>6$. b) Đúng: $4<9$. c) Đúng: $\dfrac{7}{6}>1>\dfrac{4}{9}$. d) Sai: $\dfrac{7}{6}$ lớn hơn $1$.
+
+[M121.6] Trả lời ngắn
+Tìm số tự nhiên $x$ lớn nhất sao cho $\dfrac{x}{7}<\dfrac{5}{7}$.
+::key 4
+Cùng mẫu số $7$ nên $x<5$. Số tự nhiên lớn nhất bé hơn $5$ là $4$.
+
+[M121.7] Trả lời ngắn
+Quy đồng mẫu số $\dfrac{3}{4}$ và $\dfrac{4}{5}$ với mẫu số chung $20$. Tử số của phân số lớn hơn là bao nhiêu?
+::key 16
+$\dfrac{3}{4}=\dfrac{15}{20}$ và $\dfrac{4}{5}=\dfrac{16}{20}$, mà $15<16$. Phân số lớn hơn có tử số $16$.
+
+### M122 · Lớp 4 · Phép cộng phân số. Phép trừ phân số
+
+[M122.1] Nhiều lựa chọn
+Kết quả của $\dfrac{2}{7}+\dfrac{3}{7}$ là
+A. $\dfrac{5}{14}$.
+B. $\dfrac{5}{7}$.
+C. $\dfrac{6}{14}$.
+D. $\dfrac{6}{7}$.
+::key B
+Cùng mẫu số thì cộng tử số, giữ nguyên mẫu số: $\dfrac{2+3}{7}=\dfrac{5}{7}$. Phương án A cộng cả hai mẫu số.
+
+[M122.2] Nhiều lựa chọn
+Kết quả của $\dfrac{1}{2}+\dfrac{1}{3}$ là
+A. $\dfrac{1}{6}$.
+B. $\dfrac{2}{5}$.
+C. $\dfrac{5}{6}$.
+D. $\dfrac{2}{6}$.
+::key C
+$\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$. Phương án B là lỗi cộng cả tử số và mẫu số.
+
+[M122.3] Nhiều lựa chọn
+Kết quả của $\dfrac{5}{6}-\dfrac{1}{4}$ là
+A. $\dfrac{4}{10}$.
+B. $\dfrac{4}{2}$.
+C. $\dfrac{13}{12}$.
+D. $\dfrac{7}{12}$.
+::key D
+$\dfrac{5}{6}-\dfrac{1}{4}=\dfrac{10}{12}-\dfrac{3}{12}=\dfrac{7}{12}$. Phương án C là phép cộng, phương án B trừ cả tử số lẫn mẫu số.
+
+[M122.4] Nhiều lựa chọn
+Kết quả của $1-\dfrac{3}{8}$ là
+A. $\dfrac{5}{8}$.
+B. $\dfrac{4}{8}$.
+C. $\dfrac{2}{8}$.
+D. $\dfrac{3}{8}$.
+::key A
+$1=\dfrac{8}{8}$ nên $1-\dfrac{3}{8}=\dfrac{8}{8}-\dfrac{3}{8}=\dfrac{5}{8}$.
+
+[M122.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét tổng $\dfrac{3}{8}+\dfrac{1}{8}$.
+a) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{16}$.
+b) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{8}$.
+c) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{1}{2}$.
+d) Tổng này lớn hơn $1$.
+::key S Đ Đ S
+a) Sai: giữ nguyên mẫu số, không cộng mẫu số. b) Đúng: $\dfrac{3+1}{8}$. c) Đúng: $\dfrac{4}{8}=\dfrac{1}{2}$. d) Sai: $\dfrac{1}{2}<1$.
+
+[M122.6] Trả lời ngắn
+Tính $\dfrac{3}{4}+\dfrac{1}{4}$.
+::key 1
+$\dfrac{3}{4}+\dfrac{1}{4}=\dfrac{4}{4}=1$.
+
+[M122.7] Trả lời ngắn
+Một mảnh vườn có $\dfrac{1}{2}$ diện tích trồng rau và $\dfrac{1}{5}$ diện tích trồng hoa. Phần diện tích còn lại viết với mẫu số $10$ thì tử số là bao nhiêu?
+::key 3
+$\dfrac{1}{2}+\dfrac{1}{5}=\dfrac{5}{10}+\dfrac{2}{10}=\dfrac{7}{10}$, nên phần còn lại là $1-\dfrac{7}{10}=\dfrac{3}{10}$.

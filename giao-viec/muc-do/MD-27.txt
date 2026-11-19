@@ -1,0 +1,1466 @@
+# Gói MD-27 – gắn mức độ nhận thức cho 164 câu hỏi (Ôn thi ACT → Ôn thi AP PRECALCULUS)
+
+Tài khoản thực hiện: hanibi108
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-27 (164 câu)
+
+## Các câu hỏi
+
+### M398 · Ôn thi ACT · Số, đại lượng và tỉ lệ
+
+[M398.1] Nhiều lựa chọn
+$15\%$ của $240$ bằng
+A. $24$
+B. $16$
+C. $36$
+D. $3{,}6$
+::key C
+$0{,}15\times240=36$.
+
+[M398.2] Nhiều lựa chọn
+Số nào sau đây bằng $\sqrt{72}$?
+A. $6\sqrt2$
+B. $8\sqrt3$
+C. $3\sqrt6$
+D. $12\sqrt2$
+::key A
+$\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án C là $\sqrt{54}$ và phương án D là $\sqrt{288}$.
+
+[M398.3] Nhiều lựa chọn
+$(2-i)+(3+4i)$ bằng
+A. $5+5i$
+B. $5+3i$
+C. $6-4i$
+D. $-1+3i$
+::key B
+Cộng phần thực với nhau và phần ảo với nhau: $(2+3)+(-1+4)i$.
+
+[M398.4] Nhiều lựa chọn
+Kết quả của $\left(5\times10^3\right)\left(4\times10^{-5}\right)$ viết dưới dạng kí hiệu khoa học là
+A. $20\times10^{-2}$
+B. $2\times10^{-2}$
+C. $2\times10^{8}$
+D. $2\times10^{-1}$
+::key D
+$20\times10^{-2}=2\times10^{-1}$. Phương án A có cùng giá trị nhưng chưa ở dạng kí hiệu khoa học.
+
+[M398.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một giá tăng $50\%$ rồi giảm $50\%$. Xét tính đúng sai của các mệnh đề sau:
+a) Giá cuối cùng bằng $75\%$ giá ban đầu.
+b) Thay đổi chung là giảm $25\%$.
+c) Giá cuối cùng bằng giá ban đầu.
+d) Nếu giảm trước rồi mới tăng thì giá cuối cùng vẫn như vậy.
+::key T T F T
+$1{,}5\times0{,}5=0{,}75$. Phép nhân có tính giao hoán, nên thứ tự các lần thay đổi không ảnh hưởng.
+
+[M398.6] Trả lời ngắn
+Tính $25\%$ của $64$.
+::key 16
+$0{,}25\times64=16$.
+
+[M398.7] Trả lời ngắn
+Đổi $90$ km/h sang mét mỗi giây.
+::key 25
+$\dfrac{90\times1000}{3600}=25$.
+
+### M399 · Ôn thi ACT · Đại số và hàm số
+
+[M399.1] Nhiều lựa chọn
+Hệ số góc của đường thẳng đi qua $(1,2)$ và $(4,11)$ là
+A. $\dfrac13$
+B. $3$
+C. $9$
+D. $-3$
+::key B
+$\dfrac{11-2}{4-1}=\dfrac93=3$.
+
+[M399.2] Nhiều lựa chọn
+Nếu $f(x)=3x^2-x$ thì $f(-2)$ bằng
+A. $10$
+B. $-14$
+C. $14$
+D. $38$
+::key C
+$3(4)-(-2)=12+2=14$.
+
+[M399.3] Nhiều lựa chọn
+Nghiệm của phương trình $3(x-2)=2x+5$ là
+A. $11$
+B. $3$
+C. $7$
+D. $-1$
+::key A
+$3x-6=2x+5$, nên $x=11$.
+
+[M399.4] Nhiều lựa chọn
+Biểu thức nào tương đương với $(x+3)(x-3)$?
+A. $x^2+9$
+B. $x^2-6x-9$
+C. $x^2+6x-9$
+D. $x^2-9$
+::key D
+Hằng đẳng thức hiệu hai bình phương.
+
+[M399.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
+a) Các nghiệm của $f$ là $1$ và $3$.
+b) Đỉnh của đồ thị là $(2,-1)$.
+c) Đồ thị cắt trục tung tại điểm có tung độ $3$.
+d) Giá trị nhỏ nhất của $f$ là $-2$.
+::key T T T F
+$f(x)=(x-1)(x-3)$; đỉnh nằm tại $x=2$ với $f(2)=-1$, nên giá trị nhỏ nhất là $-1$.
+
+[M399.6] Trả lời ngắn
+Giải phương trình $2^{x+1}=16$.
+::key 3
+$16=2^4$, nên $x+1=4$.
+
+[M399.7] Trả lời ngắn
+Tìm nghiệm lớn hơn của phương trình $|x-4|=6$.
+::key 10
+$x-4=6$ hoặc $x-4=-6$, nên $x=10$ hoặc $x=-2$.
+
+### M400 · Ôn thi ACT · Hình học phẳng, toạ độ và lượng giác
+
+[M400.1] Nhiều lựa chọn
+Tổng các góc trong của một lục giác là
+A. $540^\circ$
+B. $360^\circ$
+C. $1080^\circ$
+D. $720^\circ$
+::key D
+$(6-2)\times180^\circ=720^\circ$.
+
+[M400.2] Nhiều lựa chọn
+Một tam giác có đáy $10$ và chiều cao $6$. Diện tích của nó là
+A. $30$
+B. $60$
+C. $16$
+D. $15$
+::key A
+$\dfrac12\times10\times6=30$.
+
+[M400.3] Nhiều lựa chọn
+Giá trị của $\tan45^\circ$ là
+A. $\dfrac{\sqrt2}{2}$
+B. $1$
+C. $\sqrt3$
+D. $\dfrac{\sqrt3}{3}$
+::key B
+Trong tam giác vuông cân, cạnh đối và cạnh kề bằng nhau.
+
+[M400.4] Nhiều lựa chọn
+Thể tích của hình lập phương cạnh $4$ là
+A. $16$
+B. $48$
+C. $64$
+D. $96$
+::key C
+$4^3=64$. Phương án D là diện tích toàn phần.
+
+[M400.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét đường tròn $(x-1)^2+(y+2)^2=9$. Xét tính đúng sai của các mệnh đề sau:
+a) Tâm là $(1,-2)$.
+b) Bán kính bằng $9$.
+c) Đường tròn đi qua điểm $(4,-2)$.
+d) Diện tích hình tròn bằng $9\pi$.
+::key T F T T
+Bán kính là $\sqrt9=3$; điểm $(4,-2)$ cách tâm $3$ đơn vị; diện tích là $\pi(3)^2=9\pi$.
+
+[M400.6] Trả lời ngắn
+Một tam giác vuông có hai cạnh góc vuông $6$ và $8$. Tính cạnh huyền.
+::key 10
+$\sqrt{36+64}=10$.
+
+[M400.7] Trả lời ngắn
+Tìm hệ số góc của đường thẳng đi qua $(0,1)$ và $(2,7)$.
+::key 3
+$\dfrac{7-1}{2-0}=3$.
+
+### M401 · Ôn thi ACT · Thống kê và xác suất
+
+[M401.1] Nhiều lựa chọn
+Mốt của $2, 3, 3, 5, 7, 7, 7$ là
+A. $3$
+B. $5$
+C. $7$
+D. $4$
+::key C
+$7$ xuất hiện ba lần, nhiều hơn mọi giá trị khác.
+
+[M401.2] Nhiều lựa chọn
+Một vòng quay có $8$ ô bằng nhau, trong đó $3$ ô màu xanh. Xác suất kim dừng ở ô xanh là
+A. $\dfrac38$
+B. $\dfrac35$
+C. $\dfrac58$
+D. $\dfrac13$
+::key A
+Có $3$ ô thuận lợi trong $8$ ô.
+
+[M401.3] Nhiều lựa chọn
+Có bao nhiêu cách xếp $5$ quyển sách khác nhau lên một giá?
+A. $25$
+B. $60$
+C. $15$
+D. $120$
+::key D
+$5!=120$.
+
+[M401.4] Nhiều lựa chọn
+Số trung bình của $2, 4, 6, 8, 10$ là
+A. $5$
+B. $6$
+C. $30$
+D. $7$
+::key B
+$\dfrac{30}{5}=6$.
+
+[M401.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét dữ liệu $1, 2, 2, 3, 10$. Xét tính đúng sai của các mệnh đề sau:
+a) Số trung bình bằng $3{,}6$.
+b) Trung vị bằng $2$.
+c) Mốt bằng $2$.
+d) Bỏ giá trị $10$ đi thì số trung bình tăng.
+::key T T T F
+Số trung bình là $\dfrac{18}{5}=3{,}6$; bỏ giá trị $10$ thì số trung bình còn $2$.
+
+[M401.6] Trả lời ngắn
+Có bao nhiêu cách chọn $2$ đồ vật từ $5$ đồ vật?
+::key 10
+$\dbinom52=10$.
+
+[M401.7] Trả lời ngắn
+Tung một đồng xu cân đối hai lần. Tính xác suất được hai lần mặt sấp.
+::key 0,25
+$\dfrac12\times\dfrac12=0{,}25$.
+
+### M402 · Ôn thi ACT · Mô hình hoá và bài tổng hợp
+
+[M402.1] Nhiều lựa chọn
+Nếu $y=3x+2$ thì khi $x=5$, $y$ bằng
+A. $15$
+B. $17$
+C. $10$
+D. $25$
+::key B
+$3(5)+2=17$.
+
+[M402.2] Nhiều lựa chọn
+Một giá tăng $10\%$ rồi lại tăng thêm $10\%$. Giá ban đầu được nhân với số nào?
+A. $1{,}2$
+B. $1{,}02$
+C. $1{,}21$
+D. $2{,}1$
+::key C
+$1{,}1\times1{,}1=1{,}21$.
+
+[M402.3] Nhiều lựa chọn
+$2{,}5$ giờ bằng bao nhiêu phút?
+A. $250$
+B. $130$
+C. $210$
+D. $150$
+::key D
+$2{,}5\times60=150$.
+
+[M402.4] Nhiều lựa chọn
+Dữ liệu tăng cùng một tỉ lệ phần trăm mỗi năm phù hợp nhất với loại hàm số nào?
+A. Hàm mũ
+B. Hàm bậc nhất
+C. Hàm bậc hai
+D. Hàm hằng
+::key A
+Tỉ số giữa các giá trị liên tiếp không đổi nghĩa là mô hình hàm mũ.
+
+[M402.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Giá một chuyến taxi dài $m$ phút là $C=20+0{,}5m$ nghìn đồng. Xét tính đúng sai của các mệnh đề sau:
+a) Phí cố định là $20$ nghìn đồng.
+b) Mỗi phút tốn $0{,}5$ nghìn đồng.
+c) Chuyến đi $100$ phút tốn $70$ nghìn đồng.
+d) Số phút tăng gấp đôi thì giá cũng tăng gấp đôi.
+::key T T T F
+$C(100)=20+50=70$; vì có phí cố định nên giá không tỉ lệ thuận với $m$.
+
+[M402.6] Trả lời ngắn
+Một bể chứa $3000$ lít và được bơm đầy với tốc độ $50$ lít mỗi phút. Cần bao nhiêu phút để bể đầy?
+::key 60
+$\dfrac{3000}{50}=60$.
+
+[M402.7] Trả lời ngắn
+Một cơ sở có chi phí cố định $500$ đô la, chi phí $4$ đô la mỗi sản phẩm, và giá bán $9$ đô la mỗi sản phẩm. Cần bán bao nhiêu sản phẩm để hoà vốn?
+::key 100
+$\dfrac{500}{9-4}=100$.
+
+### M403 · Ôn thi ACT · Đề luyện ACT Math số 1
+
+[M403.1] Nhiều lựa chọn
+Nếu $3x-7=14$ thì giá trị của $x$ là
+A. $7$
+B. $\dfrac73$
+C. $21$
+D. $3$
+::key A
+Cộng $7$ vào hai vế: $3x=21$, nên $x=7$.
+
+[M403.2] Nhiều lựa chọn
+$25\%$ của $180$ bằng
+A. $72$
+B. $4{,}5$
+C. $45$
+D. $155$
+::key C
+$0{,}25\times180=45$.
+
+[M403.3] Nhiều lựa chọn
+Một chiếc áo khoác giá $60$ đô la. Trong đợt giảm giá, giá được giảm $15\%$. Giá bán khi giảm là
+A. $45$ đô la
+B. $51$ đô la
+C. $9$ đô la
+D. $69$ đô la
+::key B
+Giá khi giảm là $60\times0{,}85=51$ đô la. Phương án C là số tiền được giảm, không phải giá bán.
+
+[M403.4] Nhiều lựa chọn
+Giá trị của $2a^2-b$ khi $a=-3$ và $b=4$ là
+A. $-22$
+B. $32$
+C. $-14$
+D. $14$
+::key D
+$2(-3)^2-4=2(9)-4=14$. Bình phương trước nên kết quả dương.
+
+[M403.5] Nhiều lựa chọn
+Ba số tỉ lệ với $2:3:5$ và có tổng bằng $120$. Số lớn nhất là
+A. $24$
+B. $60$
+C. $50$
+D. $36$
+::key B
+Viết các số là $2k$, $3k$, $5k$. Khi đó $10k=120$, nên $k=12$ và số lớn nhất là $5k=60$.
+
+[M403.6] Nhiều lựa chọn
+Trung bình của $5$ số là $14$. Bỏ đi số $22$. Trung bình của $4$ số còn lại là
+A. $12$
+B. $13$
+C. $14$
+D. $8$
+::key A
+Tổng là $5\times14=70$; bỏ $22$ còn $48$, và $\dfrac{48}{4}=12$.
+
+[M403.7] Nhiều lựa chọn
+Hệ số góc của đường thẳng $4x+2y=10$ là
+A. $4$
+B. $2$
+C. $5$
+D. $-2$
+::key D
+Rút $y$: $y=-2x+5$, nên hệ số góc là $-2$. Phương án D là tung độ gốc.
+
+[M403.8] Nhiều lựa chọn
+Biểu thức nào tương đương với $(x+5)(x-2)$?
+A. $x^2-3x-10$
+B. $x^2+7x-10$
+C. $x^2+3x-10$
+D. $x^2-10$
+::key C
+$x^2-2x+5x-10=x^2+3x-10$.
+
+[M403.9] Nhiều lựa chọn
+Số nào sau đây bằng $\sqrt{48}$?
+A. $3\sqrt4$
+B. $16\sqrt3$
+C. $4\sqrt3$
+D. $4\sqrt{12}$
+::key C
+$\sqrt{48}=\sqrt{16\cdot3}=4\sqrt3$.
+
+[M403.10] Nhiều lựa chọn
+Một hình chữ nhật có chu vi $30$ cm và chiều dài $9$ cm. Diện tích của nó là
+A. $54$ cm²
+B. $270$ cm²
+C. $21$ cm²
+D. $63$ cm²
+::key A
+Chiều rộng là $\dfrac{30}{2}-9=6$ cm, nên diện tích là $9\times6=54$ cm².
+
+[M403.11] Nhiều lựa chọn
+Tất cả các nghiệm của $x^2=6x$ là
+A. chỉ $6$
+B. $0$ và $6$
+C. $-6$ và $6$
+D. chỉ $0$
+::key B
+$x^2-6x=x(x-6)=0$, nên $x=0$ hoặc $x=6$. Chia hai vế cho $x$ sẽ mất nghiệm $0$.
+
+[M403.12] Nhiều lựa chọn
+Nếu $f(x)=2x^2-3x$ thì $f(-1)$ bằng
+A. $-1$
+B. $-5$
+C. $1$
+D. $5$
+::key D
+$2(1)-3(-1)=2+3=5$.
+
+[M403.13] Nhiều lựa chọn
+Chọn ngẫu nhiên một chữ cái từ từ MATHEMATICS. Xác suất chọn được nguyên âm là
+A. $\dfrac{4}{11}$
+B. $\dfrac{3}{11}$
+C. $\dfrac{4}{7}$
+D. $\dfrac{7}{11}$
+::key A
+$11$ chữ cái có các nguyên âm A, E, A, I: $4$ chữ.
+
+[M403.14] Nhiều lựa chọn
+Một xe buýt đi $150$ km trong $2$ giờ $30$ phút. Tốc độ trung bình của xe là
+A. $75$ km/h
+B. $65$ km/h
+C. $60$ km/h
+D. $50$ km/h
+::key C
+$2$ giờ $30$ phút là $2{,}5$ giờ, và $\dfrac{150}{2{,}5}=60$. Phương án C coi $2$ giờ $30$ phút là $2{,}3$ giờ.
+
+[M403.15] Nhiều lựa chọn
+Diện tích hình tròn bán kính $7$ là
+A. $14\pi$
+B. $7\pi$
+C. $196\pi$
+D. $49\pi$
+::key D
+$\pi r^2=49\pi$. Phương án A là chu vi.
+
+[M403.16] Nhiều lựa chọn
+Nếu $x+y=10$ và $x-y=4$ thì giá trị của $xy$ là
+A. $40$
+B. $21$
+C. $24$
+D. $14$
+::key B
+Cộng hai phương trình được $2x=14$, nên $x=7$ và $y=3$; do đó $xy=21$.
+
+[M403.17] Nhiều lựa chọn
+Tổng các nghiệm của $|x-3|=5$ là
+A. $6$
+B. $10$
+C. $8$
+D. $-2$
+::key A
+$x-3=5$ hoặc $x-3=-5$, nên $x=8$ hoặc $x=-2$, và $8+(-2)=6$.
+
+[M403.18] Nhiều lựa chọn
+Một tam giác vuông có hai cạnh góc vuông dài $9$ và $12$. Cạnh huyền dài
+A. $21$
+B. $\sqrt{63}$
+C. $15$
+D. $18$
+::key C
+$\sqrt{81+144}=\sqrt{225}=15$.
+
+[M403.19] Nhiều lựa chọn
+Nếu $3^x=81$ thì $x$ bằng
+A. $27$
+B. $3$
+C. $9$
+D. $4$
+::key D
+$81=3^4$.
+
+[M403.20] Nhiều lựa chọn
+Một đường thẳng đi qua $(2,3)$ và có hệ số góc $-1$. Tung độ gốc của nó là
+A. $1$
+B. $5$
+C. $3$
+D. $-1$
+::key B
+$y=-x+b$ với $3=-2+b$, nên $b=5$.
+
+[M403.21] Nhiều lựa chọn
+Tập nghiệm của $-3x+4\le16$ là
+A. $x\le-4$
+B. $x\ge4$
+C. $x\le4$
+D. $x\ge-4$
+::key D
+$-3x\le12$; chia cho $-3$ thì đổi chiều: $x\ge-4$.
+
+[M403.22] Nhiều lựa chọn
+Trung vị của $5, 9, 2, 8, 11, 3$ là
+A. $8$
+B. $6{,}33$
+C. $6{,}5$
+D. $5$
+::key C
+Sắp xếp: $2, 3, 5, 8, 9, 11$; trung vị là $\dfrac{5+8}{2}=6{,}5$. Phương án C là số trung bình.
+
+[M403.23] Nhiều lựa chọn
+Trung điểm của đoạn thẳng có hai đầu mút $(-4,7)$ và $(6,-1)$ là
+A. $(1,3)$
+B. $(5,4)$
+C. $(2,6)$
+D. $(1,4)$
+::key A
+$\left(\dfrac{-4+6}{2},\dfrac{7-1}{2}\right)=(1,3)$.
+
+[M403.24] Nhiều lựa chọn
+$(2+3i)(2-3i)$ bằng
+A. $-5$
+B. $13$
+C. $4-9i$
+D. $13-12i$
+::key B
+$4-9i^2=4+9=13$. Phương án B dùng $i^2=1$.
+
+[M403.25] Nhiều lựa chọn
+Một tiệm pizza có $7$ loại nhân phủ. Khách hàng có bao nhiêu cách chọn $3$ loại khác nhau?
+A. $210$
+B. $35$
+C. $21$
+D. $343$
+::key B
+Không tính thứ tự: $\dbinom73=35$. Phương án A đếm các cách chọn có thứ tự.
+
+[M403.26] Nhiều lựa chọn
+Hai tam giác đồng dạng có các cạnh tương ứng tỉ lệ $3:5$. Tỉ số diện tích của chúng là
+A. $3:5$
+B. $6:10$
+C. $27:125$
+D. $9:25$
+::key D
+Diện tích tỉ lệ với bình phương tỉ số cạnh: $3^2:5^2$.
+
+[M403.27] Nhiều lựa chọn
+Đỉnh của parabol $y=2x^2-8x+1$ là
+A. $(-2,25)$
+B. $(4,1)$
+C. $(2,-7)$
+D. $(2,1)$
+::key C
+$x=-\dfrac{-8}{2\cdot2}=2$ và $y=8-16+1=-7$.
+
+[M403.28] Nhiều lựa chọn
+Một thị trấn có $8000$ dân, mỗi năm tăng $5\%$. Sau $3$ năm dân số là
+A. $9261$
+B. $9200$
+C. $8400$
+D. $9600$
+::key A
+$8000\times1{,}05^3=9261$. Phương án A cộng $5\%$ của $8000$ ba lần (tăng đơn).
+
+[M403.29] Nhiều lựa chọn
+Với góc nhọn $\theta$, $\sin\theta=0{,}6$. Giá trị $\tan\theta$ là
+A. $0{,}8$
+B. $1{,}33$
+C. $0{,}6$
+D. $0{,}75$
+::key D
+$\cos\theta=\sqrt{1-0{,}36}=0{,}8$, nên $\tan\theta=\dfrac{0{,}6}{0{,}8}=0{,}75$.
+
+[M403.30] Nhiều lựa chọn
+Nếu $f(x)=x+4$ và $g(x)=x^2$ thì $g\big(f(-6)\big)$ bằng
+A. $40$
+B. $4$
+C. $-2$
+D. $36$
+::key B
+$f(-6)=-2$ và $g(-2)=4$. Phương án B là $f\big(g(-6)\big)$.
+
+[M403.31] Nhiều lựa chọn
+Số hạng thứ $20$ của cấp số cộng $7, 11, 15, \dots$ là
+A. $87$
+B. $80$
+C. $83$
+D. $147$
+::key C
+$7+19\times4=83$. Phương án A dùng $20\times4$.
+
+[M403.32] Nhiều lựa chọn
+Thể tích hình trụ có bán kính $3$ và chiều cao $8$ là
+A. $72\pi$
+B. $24\pi$
+C. $48\pi$
+D. $192\pi$
+::key A
+$\pi r^2h=\pi\cdot9\cdot8=72\pi$. Phương án B là thể tích hình nón.
+
+[M403.33] Nhiều lựa chọn
+Trong một lớp $30$ học sinh, $18$ em học tiếng Pháp, $12$ em học tiếng Tây Ban Nha và $5$ em học cả hai. Có bao nhiêu em không học thứ tiếng nào?
+A. $0$
+B. $10$
+C. $5$
+D. $7$
+::key C
+$18+12-5=25$ em học ít nhất một thứ tiếng, nên $30-25=5$ em không học thứ tiếng nào.
+
+[M403.34] Nhiều lựa chọn
+Giá trị của $\log_264-\log_39$ là
+A. $55$
+B. $8$
+C. $3$
+D. $4$
+::key D
+$\log_264=6$ và $\log_39=2$.
+
+[M403.35] Nhiều lựa chọn
+Khoảng cách giữa $(1,2)$ và $(7,10)$ là
+A. $10$
+B. $14$
+C. $\sqrt{28}$
+D. $8$
+::key A
+$\sqrt{6^2+8^2}=10$.
+
+[M403.36] Nhiều lựa chọn
+Trong một trò chơi, người chơi thắng $5$ đô la với xác suất $0{,}3$, ngược lại thua $2$ đô la. Tiền lãi kì vọng mỗi ván là
+A. $3$ đô la
+B. $0{,}1$ đô la
+C. $1{,}5$ đô la
+D. $-0{,}1$ đô la
+::key B
+$5(0{,}3)-2(0{,}7)=1{,}5-1{,}4=0{,}1$.
+
+[M403.37] Nhiều lựa chọn
+Phương trình đường tròn tâm $(-2,3)$ bán kính $4$ là
+A. $(x-2)^2+(y+3)^2=16$
+B. $(x+2)^2+(y-3)^2=4$
+C. $(x-2)^2+(y-3)^2=16$
+D. $(x+2)^2+(y-3)^2=16$
+::key D
+$(x-h)^2+(y-k)^2=r^2$ với $h=-2$, $k=3$, $r^2=16$.
+
+[M403.38] Nhiều lựa chọn
+Phương trình $2x^2+3x+5=0$ có bao nhiêu nghiệm thực?
+A. $1$
+B. $0$
+C. $2$
+D. vô số
+::key B
+Biệt thức là $9-40=-31<0$.
+
+[M403.39] Nhiều lựa chọn
+Một vòi chảy đầy bể trong $6$ giờ, vòi khác trong $3$ giờ. Hai vòi cùng chảy thì bao lâu đầy bể?
+A. $4{,}5$ giờ
+B. $9$ giờ
+C. $2$ giờ
+D. $3$ giờ
+::key C
+Cùng chảy, mỗi giờ hai vòi đầy $\dfrac16+\dfrac13=\dfrac12$ bể, nên mất $2$ giờ. Phương án A lấy trung bình hai thời gian.
+
+[M403.40] Nhiều lựa chọn
+Nhìn đỉnh một toà nhà cao $40$ m từ một điểm cách chân toà nhà $30$ m trên mặt đất bằng phẳng. Khoảng cách theo đường thẳng từ điểm đó đến đỉnh toà nhà là
+A. $50$ m
+B. $70$ m
+C. $10$ m
+D. $35$ m
+::key A
+$\sqrt{30^2+40^2}=50$ (bộ ba $3$-$4$-$5$ nhân với $10$).
+
+[M403.41] Nhiều lựa chọn
+Tổng tất cả các phần tử của $\begin{pmatrix}2&1\\0&3\end{pmatrix}+\begin{pmatrix}1&-1\\4&2\end{pmatrix}$ là
+A. $14$
+B. $10$
+C. $6$
+D. $12$
+::key D
+Tổng là $\begin{pmatrix}3&0\\4&5\end{pmatrix}$, các phần tử cộng lại bằng $12$.
+
+[M403.42] Nhiều lựa chọn
+Nếu $f(x)=\dfrac{x-1}{3}$ thì $f^{-1}(4)$ bằng
+A. $1$
+B. $13$
+C. $\dfrac13$
+D. $11$
+::key B
+Giải $\dfrac{x-1}{3}=4$: $x=13$. Phương án A là $f(4)$.
+
+[M403.43] Nhiều lựa chọn
+Giá trị một tài khoản sau $t$ tháng là $V=1500(1{,}02)^t$ đô la. Số $1{,}02$ biểu thị điều gì?
+A. Tăng $2\%$ mỗi tháng
+B. Giá trị ban đầu
+C. Tăng $1{,}02$ đô la mỗi tháng
+D. Tăng $102\%$ mỗi tháng
+::key A
+Mỗi tháng giá trị được nhân với $1{,}02$, tức tăng $2\%$.
+
+[M403.44] Nhiều lựa chọn
+Tung một đồng xu cân đối $3$ lần. Xác suất được ít nhất một lần mặt ngửa là
+A. $\dfrac38$
+B. $\dfrac12$
+C. $\dfrac78$
+D. $\dfrac18$
+::key C
+$1-P(\text{không lần nào ngửa})=1-\left(\dfrac12\right)^3=\dfrac78$.
+
+[M403.45] Nhiều lựa chọn
+Hai số dương có tổng bằng $20$. Tích của chúng lớn nhất bằng
+A. $99$
+B. $400$
+C. $96$
+D. $100$
+::key D
+Với hai số $x$ và $20-x$, tích $x(20-x)$ lớn nhất tại đỉnh $x=10$: $10\times10=100$.
+
+### M404 · Ôn thi AP PRECALCULUS · Tốc độ thay đổi và hàm đa thức
+
+[M404.1] Nhiều lựa chọn
+Tốc độ thay đổi trung bình của $f(x)=x^3$ trên $[0,2]$ là
+A. $8$
+B. $2$
+C. $6$
+D. $4$
+::key D
+$\dfrac{8-0}{2-0}=4$.
+
+[M404.2] Nhiều lựa chọn
+Dáng điệu ở vô cực của $f(x)=-x^4+5x$ là
+A. Cả hai đầu tiến tới $-\infty$
+B. Cả hai đầu tiến tới $\infty$
+C. Đầu trái $\infty$, đầu phải $-\infty$
+D. Đầu trái $-\infty$, đầu phải $\infty$
+::key A
+Số hạng bậc cao nhất $-x^4$ có bậc chẵn và hệ số âm.
+
+[M404.3] Nhiều lựa chọn
+Tại một nghiệm bội chẵn, đồ thị của đa thức
+A. cắt trục $x$
+B. tiếp xúc với trục $x$ rồi quay lại
+C. có tiệm cận đứng
+D. không xác định
+::key B
+Bội chẵn: dấu không đổi, nên đồ thị tiếp xúc với trục.
+
+[M404.4] Nhiều lựa chọn
+Số điểm đổi chiều nhiều nhất có thể của một đa thức bậc $5$ là
+A. $5$
+B. $6$
+C. $4$
+D. $3$
+::key C
+Đa thức bậc $n$ có nhiều nhất $n-1$ điểm đổi chiều.
+
+[M404.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $p(x)=x(x-3)^2$. Xét tính đúng sai của các mệnh đề sau:
+a) Các nghiệm của $p$ là $0$ và $3$.
+b) $p$ có bậc $3$.
+c) Đồ thị cắt trục $x$ tại $x=3$.
+d) $p(x)\to\infty$ khi $x\to\infty$.
+::key T T F T
+$3$ là nghiệm bội $2$ nên đồ thị chỉ tiếp xúc với trục tại đó; số hạng bậc cao nhất là $x^3$.
+
+[M404.6] Trả lời ngắn
+Tính tốc độ thay đổi trung bình của $f(x)=2x^2+1$ trên $[1,3]$.
+::key 8
+$\dfrac{19-3}{2}=8$.
+
+[M404.7] Trả lời ngắn
+Hàm số $f(x)=x^3-x$ có bao nhiêu nghiệm thực?
+::key 3
+$x(x-1)(x+1)$ có các nghiệm $-1$, $0$, $1$.
+
+### M405 · Ôn thi AP PRECALCULUS · Hàm phân thức, phép biến đổi và mô hình hoá
+
+[M405.1] Nhiều lựa chọn
+Đồ thị của $f(x)=\dfrac{x+1}{x^2-1}$ có tiệm cận đứng ở đâu?
+A. $x=1$ và $x=-1$
+B. Chỉ $x=1$
+C. Chỉ $x=-1$
+D. Không có
+::key B
+$\dfrac{x+1}{(x-1)(x+1)}$: nhân tử $x+1$ rút gọn được (điểm khuyết tại $x=-1$).
+
+[M405.2] Nhiều lựa chọn
+Tiệm cận ngang của $\dfrac{4x^2}{2x^2+1}$ là
+A. $y=4$
+B. $y=0$
+C. $y=\dfrac12$
+D. $y=2$
+::key D
+Cùng bậc: $\dfrac42=2$.
+
+[M405.3] Nhiều lựa chọn
+Đồ thị $y=f(x+3)$ có quan hệ thế nào với đồ thị $y=f(x)$?
+A. Dời sang trái $3$ đơn vị
+B. Dời sang phải $3$ đơn vị
+C. Dời lên trên $3$ đơn vị
+D. Dời xuống dưới $3$ đơn vị
+::key A
+Cộng thêm bên trong ngoặc thì đồ thị dời sang trái.
+
+[M405.4] Nhiều lựa chọn
+Đường thẳng nào là tiệm cận xiên của $\dfrac{x^3}{x^2+1}$?
+A. $y=x^2$
+B. $y=1$
+C. $y=x$
+D. $y=0$
+::key C
+$\dfrac{x^3}{x^2+1}=x-\dfrac{x}{x^2+1}$, và số hạng cuối tiến tới $0$.
+
+[M405.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $r(x)=\dfrac{x-2}{x+1}$. Xét tính đúng sai của các mệnh đề sau:
+a) $r$ có nghiệm tại $x=2$.
+b) Đồ thị có tiệm cận đứng $x=-1$.
+c) Đồ thị có tiệm cận ngang $y=1$.
+d) $r(0)=2$.
+::key T T T F
+$r(0)=\dfrac{-2}{1}=-2$.
+
+[M405.6] Trả lời ngắn
+Đồ thị của $f(x)=\dfrac{x^2-1}{x-1}$ có điểm khuyết tại $x=1$. Tìm tung độ của điểm khuyết.
+::key 2
+Với $x\ne1$, $f(x)=x+1$, bằng $2$ tại $x=1$.
+
+[M405.7] Trả lời ngắn
+Tìm tiệm cận ngang $y=c$ của $\dfrac{6x+1}{3x-2}$. Cho biết $c$.
+::key 2
+$\dfrac63=2$.
+
+### M406 · Ôn thi AP PRECALCULUS · Dãy số và hàm mũ
+
+[M406.1] Nhiều lựa chọn
+Số hạng tiếp theo của dãy $2, 6, 18, \dots$ là
+A. $24$
+B. $36$
+C. $54$
+D. $30$
+::key C
+Công bội là $3$, nên số hạng tiếp theo là $18\times3=54$.
+
+[M406.2] Nhiều lựa chọn
+Công thức nào cho cấp số cộng $4, 9, 14, \dots$?
+A. $a_n=5n-1$
+B. $a_n=4n+5$
+C. $a_n=4\cdot5^{n-1}$
+D. $a_n=5n+4$
+::key A
+$a_1=4$ và $d=5$: $4+5(n-1)=5n-1$.
+
+[M406.3] Nhiều lựa chọn
+Một đại lượng được mô hình hoá bởi $Q(t)=80(1{,}07)^t$. Số $1{,}07$ cho biết điều gì?
+A. Đại lượng tăng $1{,}07$ đơn vị mỗi chu kì.
+B. Đại lượng giảm $7\%$ mỗi chu kì.
+C. Giá trị ban đầu là $1{,}07$.
+D. Đại lượng tăng $7\%$ mỗi chu kì.
+::key D
+Hệ số tăng trưởng $1{,}07$ nghĩa là tăng $7\%$ mỗi chu kì.
+
+[M406.4] Nhiều lựa chọn
+Hàm số nào thể hiện sự suy giảm theo hàm mũ?
+A. $f(x)=0{,}9x+3$
+B. $f(x)=3(0{,}9)^x$
+C. $f(x)=3(1{,}9)^x$
+D. $f(x)=-3(1{,}9)^{-x}$
+::key B
+Với $a>0$, cơ số nằm giữa $0$ và $1$ cho sự suy giảm.
+
+[M406.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $f(x)=200(0{,}5)^{x/3}$. Xét tính đúng sai của các mệnh đề sau:
+a) $f(0)=200$.
+b) Giá trị giảm một nửa sau mỗi $3$ đơn vị của $x$.
+c) $f$ đồng biến.
+d) Đồ thị có tiệm cận ngang $y=0$.
+::key T T F T
+Cơ số $0{,}5$ nhỏ hơn $1$, nên $f$ nghịch biến và tiến về $0$.
+
+[M406.6] Trả lời ngắn
+Một cấp số nhân có $g_1=3$ và $r=2$. Tính $g_5$.
+::key 48
+$3\cdot2^4=48$.
+
+[M406.7] Trả lời ngắn
+Một hàm mũ có $f(0)=10$ và $f(1)=15$. Tính $f(2)$.
+::key 22,5
+Hệ số là $1{,}5$, nên $f(2)=15\times1{,}5=22{,}5$.
+
+### M407 · Ôn thi AP PRECALCULUS · Logarit, hàm ngược và mô hình bán logarit
+
+[M407.1] Nhiều lựa chọn
+Giá trị của $\log_2 32$ là
+A. $16$
+B. $5$
+C. $6$
+D. $64$
+::key B
+$2^5=32$.
+
+[M407.2] Nhiều lựa chọn
+Biểu thức nào bằng $\log M+\log N-\log P$?
+A. $\log(M+N-P)$
+B. $\dfrac{\log MN}{\log P}$
+C. $\log\dfrac{MN}{P}$
+D. $\log(MNP)$
+::key C
+Dùng quy tắc tích, rồi quy tắc thương.
+
+[M407.3] Nhiều lựa chọn
+Đồ thị $y=\log_3(x+2)$ có tiệm cận đứng là
+A. $x=2$
+B. $x=-2$
+C. $y=-2$
+D. $x=0$
+::key B
+Biểu thức $x+2$ bằng $0$ tại $x=-2$.
+
+[M407.4] Nhiều lựa chọn
+Nếu $f(x)=e^x$ thì $f^{-1}(x)$ là
+A. $\ln x$
+B. $\dfrac{1}{e^x}$
+C. $e^{-x}$
+D. $\log x$
+::key A
+Logarit tự nhiên là hàm ngược của $e^x$.
+
+[M407.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $g(x)=\ln x$. Xét tính đúng sai của các mệnh đề sau:
+a) Tập xác định của $g$ là $x>0$.
+b) $g(1)=0$.
+c) Đồ thị $g$ lõm lên.
+d) $g(e^3)=3$.
+::key T T F T
+$\ln x$ đồng biến nhưng đồ thị lõm xuống.
+
+[M407.6] Trả lời ngắn
+Tính $\log_3 81$.
+::key 4
+$3^4=81$.
+
+[M407.7] Trả lời ngắn
+Giải phương trình $2^x=64$.
+::key 6
+$2^6=64$.
+
+### M408 · Ôn thi AP PRECALCULUS · Hàm lượng giác và mô hình tuần hoàn
+
+[M408.1] Nhiều lựa chọn
+Chu kì của $y=\sin4x$ là
+A. $4\pi$
+B. $\dfrac\pi4$
+C. $\dfrac\pi2$
+D. $8\pi$
+::key C
+$\dfrac{2\pi}{4}=\dfrac\pi2$.
+
+[M408.2] Nhiều lựa chọn
+Biên độ của $y=-5\cos x+1$ là
+A. $-5$
+B. $1$
+C. $6$
+D. $5$
+::key D
+Biên độ là $\lvert-5\rvert=5$.
+
+[M408.3] Nhiều lựa chọn
+Giá trị đúng của $\sin\dfrac\pi3$ là
+A. $\dfrac{\sqrt3}{2}$
+B. $\dfrac12$
+C. $\dfrac{\sqrt2}{2}$
+D. $\sqrt3$
+::key A
+Theo đường tròn lượng giác.
+
+[M408.4] Nhiều lựa chọn
+Đường trung bình của $y=2\sin x+7$ là
+A. $y=2$
+B. $y=7$
+C. $y=9$
+D. $y=5$
+::key B
+Độ dịch dọc $k=7$ cho đường trung bình.
+
+[M408.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $y=3\sin2x$. Xét tính đúng sai của các mệnh đề sau:
+a) Biên độ là $3$.
+b) Chu kì là $\pi$.
+c) Đồ thị đi qua gốc toạ độ.
+d) Giá trị lớn nhất là $6$.
+::key T T T F
+Giá trị lớn nhất là $3$.
+
+[M408.6] Trả lời ngắn
+Tìm chu kì của $y=\sin\dfrac{\pi x}{6}$.
+::key 12
+$\dfrac{2\pi}{\pi/6}=12$.
+
+[M408.7] Trả lời ngắn
+Tìm giá trị lớn nhất của $y=2\cos x+3$.
+::key 5
+$3+2=5$.
+
+### M409 · Ôn thi AP PRECALCULUS · Phương trình lượng giác và toạ độ cực
+
+[M409.1] Nhiều lựa chọn
+Giá trị của $\arcsin\dfrac12$ là
+A. $\dfrac\pi3$
+B. $\dfrac{5\pi}{6}$
+C. $\dfrac\pi6$
+D. $\dfrac\pi4$
+::key C
+$\sin\dfrac\pi6=\dfrac12$ và $\dfrac\pi6$ thuộc tập giá trị của $\arcsin$.
+
+[M409.2] Nhiều lựa chọn
+Phương trình $\sin x=0{,}3$ có bao nhiêu nghiệm trên $[0;2\pi)$?
+A. $2$
+B. $1$
+C. $0$
+D. $4$
+::key A
+Một nghiệm ở góc phần tư I và một nghiệm ở góc phần tư II.
+
+[M409.3] Nhiều lựa chọn
+Giá trị của $\sec\dfrac\pi3$ là
+A. $\dfrac12$
+B. $\dfrac{2}{\sqrt3}$
+C. $\sqrt3$
+D. $2$
+::key D
+$\sec\dfrac\pi3=\dfrac{1}{\cos(\pi/3)}=2$.
+
+[M409.4] Nhiều lựa chọn
+Điểm có toạ độ cực $(2,\pi)$ có toạ độ vuông góc là
+A. $(2,0)$
+B. $(-2,0)$
+C. $(0,2)$
+D. $(0,-2)$
+::key B
+$x=2\cos\pi=-2$ và $y=2\sin\pi=0$.
+
+[M409.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm cực $r=2\cos\theta$. Xét tính đúng sai của các mệnh đề sau:
+a) $r=2$ khi $\theta=0$.
+b) $r=0$ khi $\theta=\dfrac\pi2$.
+c) $r$ đồng biến trên $0<\theta<\dfrac\pi2$.
+d) Đồ thị đi qua gốc toạ độ.
+::key T T F T
+Trên $\left(0;\dfrac\pi2\right)$, $\cos\theta$ giảm, nên $r$ giảm.
+
+[M409.6] Trả lời ngắn
+Phương trình $2\cos x=1$ có bao nhiêu nghiệm trên $[0;2\pi)$?
+::key 2
+$x=\dfrac\pi3$ và $x=\dfrac{5\pi}3$.
+
+[M409.7] Trả lời ngắn
+Tìm $r>0$ cho điểm có toạ độ vuông góc $(3,4)$.
+::key 5
+$r=\sqrt{9+16}=5$.
+
+### M410 · Ôn thi AP PRECALCULUS · Đề luyện AP Precalculus số 1
+
+[M410.1] Nhiều lựa chọn
+Tốc độ biến thiên trung bình của $f(x)=x^3-2x$ trên đoạn $[-1,2]$ là
+A. $3$
+B. $-1$
+C. $1$
+D. $2$
+::key C
+$f(2)=4$ và $f(-1)=1$, nên tốc độ biến thiên trung bình là $\dfrac{4-1}{2-(-1)}=1$. Phương án A quên chia cho độ dài $3$.
+
+[M410.2] Nhiều lựa chọn
+Khẳng định nào mô tả đúng dáng điệu ở vô cực của $p(x)=-2x^4+x^3+5$?
+A. $\lim\limits_{x\to\infty}p(x)=-\infty$ và $\lim\limits_{x\to-\infty}p(x)=-\infty$
+B. $\lim\limits_{x\to\infty}p(x)=\infty$ và $\lim\limits_{x\to-\infty}p(x)=\infty$
+C. $\lim\limits_{x\to\infty}p(x)=-\infty$ và $\lim\limits_{x\to-\infty}p(x)=\infty$
+D. $\lim\limits_{x\to\infty}p(x)=\infty$ và $\lim\limits_{x\to-\infty}p(x)=-\infty$
+::key A
+Số hạng bậc cao nhất $-2x^4$ có bậc chẵn và hệ số âm, nên $p(x)\to-\infty$ ở cả hai phía.
+
+[M410.3] Nhiều lựa chọn
+Đồ thị của đa thức $p(x)=(x-2)^2(x+1)(x+3)$ có đặc điểm gì tại $x=2$?
+A. Đồ thị cắt qua trục hoành.
+B. Đồ thị có tiệm cận đứng.
+C. Đồ thị có một điểm bị khuyết.
+D. Đồ thị tiếp xúc với trục hoành nhưng không cắt qua.
+::key D
+Nghiệm $x=2$ có bội chẵn ($2$), nên $p(x)$ không đổi dấu tại đó: đồ thị tiếp xúc với trục hoành rồi quay lại.
+
+[M410.4] Nhiều lựa chọn
+Đa thức $p$ có $p(0)=1$, $p(1)=2$, $p(2)=9$, $p(3)=28$, $p(4)=65$. Bậc nhỏ nhất có thể của $p$ là
+A. $2$
+B. $3$
+C. $4$
+D. $1$
+::key B
+Hiệu bậc một $1,7,19,37$; hiệu bậc hai $6,12,18$; hiệu bậc ba $6,6$ không đổi, nên bậc là $3$.
+
+[M410.5] Nhiều lựa chọn
+Hàm số $f$ có $f(0)=2$, $f(1)=7$, $f(2)=10$ và $f(3)=11$. Dựa vào các giá trị này, trên $[0,3]$ hàm số $f$
+A. đồng biến và lõm lên
+B. nghịch biến và lõm xuống
+C. nghịch biến và lõm lên
+D. đồng biến và lõm xuống
+::key D
+Các giá trị tăng, và tốc độ trên các đoạn liên tiếp $5,3,1$ giảm dần: $f$ tăng với tốc độ giảm dần, nên đồ thị lõm xuống.
+
+[M410.6] Nhiều lựa chọn
+Một đa thức hệ số thực có các nghiệm $3$ và $2+i$. Bậc nhỏ nhất có thể của đa thức là
+A. $3$
+B. $2$
+C. $4$
+D. $1$
+::key A
+Nghiệm không thực của đa thức hệ số thực đi theo cặp liên hợp, nên $2-i$ cũng là nghiệm: có ít nhất $3$ nghiệm.
+
+[M410.7] Nhiều lựa chọn
+Tiệm cận đứng của $r(x)=\dfrac{x^2-9}{x^2+x-6}$ có phương trình là
+A. $x=-3$
+B. $x=3$
+C. $x=2$
+D. $x=-2$
+::key C
+$r(x)=\dfrac{(x-3)(x+3)}{(x+3)(x-2)}$. Nhân tử $x+3$ rút gọn được, cho điểm khuyết tại $x=-3$; tiệm cận là $x=2$.
+
+[M410.8] Nhiều lựa chọn
+Tiệm cận ngang của $r(x)=\dfrac{6x^2+1}{3x^2-x}$ là
+A. $y=6$
+B. $y=2$
+C. $y=0$
+D. Không có tiệm cận ngang.
+::key B
+Bậc tử bằng bậc mẫu, nên tiệm cận là tỉ số các hệ số bậc cao nhất, $\dfrac63=2$.
+
+[M410.9] Nhiều lựa chọn
+Đồ thị của $g(x)=-f(x)+3$ nhận được từ đồ thị của $f$ như thế nào?
+A. Lấy đối xứng qua trục hoành, rồi tịnh tiến lên $3$ đơn vị
+B. Lấy đối xứng qua trục tung, rồi tịnh tiến lên $3$ đơn vị
+C. Tịnh tiến lên $3$ đơn vị, rồi lấy đối xứng qua trục hoành
+D. Lấy đối xứng qua trục hoành, rồi tịnh tiến sang phải $3$ đơn vị
+::key A
+$-f(x)$ lấy đối xứng đồ thị qua trục hoành, rồi cộng $3$ thì tịnh tiến lên trên. Phương án C cho $-f(x)-3$.
+
+[M410.10] Nhiều lựa chọn
+Tập nghiệm của $\dfrac{x-1}{x+3}\le0$ là
+A. $-3\le x\le1$
+B. $x<-3$ hoặc $x\ge1$
+C. $x\le1$
+D. $-3<x\le1$
+::key D
+Dấu đổi tại $x=-3$ và $x=1$; thương âm ở giữa hai giá trị này, bằng $0$ tại $x=1$ và không xác định tại $x=-3$.
+
+[M410.11] Nhiều lựa chọn
+Một cấp số cộng có $a_1=7$ và công sai $-3$. Số hạng $a_{10}$ bằng
+A. $-23$
+B. $-20$
+C. $-17$
+D. $37$
+::key B
+$a_{10}=7+9(-3)=-20$. Phương án A dùng $10$ bước thay vì $9$.
+
+[M410.12] Nhiều lựa chọn
+Một cấp số nhân có $g_2=6$ và $g_5=162$. Số hạng $g_1$ bằng
+A. $3$
+B. $18$
+C. $2$
+D. $1$
+::key C
+$r^3=\dfrac{162}{6}=27$, nên $r=3$ và $g_1=\dfrac{6}{3}=2$.
+
+[M410.13] Nhiều lựa chọn
+Hàm mũ $f(x)=ab^x$ đi qua $(0,4)$ và $(2,36)$. Giá trị $f(3)$ là
+A. $108$
+B. $72$
+C. $81$
+D. $144$
+::key A
+$a=4$ và $4b^2=36$, nên $b=3$ và $f(3)=4\cdot27=108$.
+
+[M410.14] Nhiều lựa chọn
+Biểu thức nào tương đương với $5\cdot4^{x/2}$?
+A. $5\cdot8^x$
+B. $10\cdot4^x$
+C. $5\cdot16^x$
+D. $5\cdot2^x$
+::key D
+$4^{x/2}=\left(4^{1/2}\right)^x=2^x$.
+
+[M410.15] Nhiều lựa chọn
+Một đại lượng được mô hình hoá bởi $Q(t)=300(0{,}92)^t$. Khẳng định nào đúng?
+A. $Q$ giảm $92\%$ sau mỗi đơn vị của $t$.
+B. $Q$ giảm $0{,}92$ sau mỗi đơn vị của $t$.
+C. $Q$ giảm $8\%$ sau mỗi đơn vị của $t$.
+D. $Q$ tăng $8\%$ sau mỗi đơn vị của $t$.
+::key C
+Hệ số $0{,}92=1-0{,}08$ giữ lại $92\%$ mỗi chu kì, tức giảm $8\%$.
+
+[M410.16] Nhiều lựa chọn
+Giá trị của $\log_2 48-\log_2 3$ là
+A. $4$
+B. $16$
+C. $\log_2 45$
+D. $8$
+::key A
+$\log_2\dfrac{48}{3}=\log_2 16=4$. Phương án A là biểu thức dưới dấu logarit, không phải logarit.
+
+[M410.17] Nhiều lựa chọn
+Nghiệm của phương trình $3^{2x}=81$ là
+A. $x=4$
+B. $x=2$
+C. $x=3$
+D. $x=1$
+::key B
+$81=3^4$, nên $2x=4$ và $x=2$.
+
+[M410.18] Nhiều lựa chọn
+Nếu $f(x)=e^x+2$ thì $f^{-1}(x)$ là
+A. $\ln x-2$
+B. $\ln(x+2)$
+C. $e^{x-2}$
+D. $\ln(x-2)$
+::key D
+Đổi chỗ: $x=e^y+2$, nên $e^y=x-2$ và $y=\ln(x-2)$.
+
+[M410.19] Nhiều lựa chọn
+Trên một đồ thị bán logarit, dữ liệu nằm trên đường thẳng $\log y=2-0{,}5x$. Mô hình hàm mũ $y=ab^x$ của dữ liệu có $a$ bằng
+A. $100$
+B. $2$
+C. $10$
+D. $-0{,}5$
+::key A
+$y=10^{2-0{,}5x}=10^2\cdot\left(10^{-0{,}5}\right)^x$, nên $a=100$.
+
+[M410.20] Nhiều lựa chọn
+Chu kì của $y=4\sin\dfrac{\pi x}{5}+1$ là
+A. $5$
+B. $\dfrac{2\pi}{5}$
+C. $10$
+D. $\dfrac{\pi}{5}$
+::key C
+Chu kì là $\dfrac{2\pi}{\pi/5}=10$.
+
+[M410.21] Nhiều lựa chọn
+Giá trị của $\cos\dfrac{4\pi}{3}$ là
+A. $\dfrac12$
+B. $-\dfrac12$
+C. $-\dfrac{\sqrt3}{2}$
+D. $\dfrac{\sqrt3}{2}$
+::key B
+$\dfrac{4\pi}{3}$ ở góc phần tư III với góc tham chiếu $\dfrac\pi3$, nơi cos âm: $-\dfrac12$.
+
+[M410.22] Nhiều lựa chọn
+Một hàm dạng sin có giá trị lớn nhất $9$, nhỏ nhất $3$ và chu kì $4$. Hàm số đó có thể là
+A. $y=6\sin\dfrac{\pi x}{2}+3$
+B. $y=3\sin4x+6$
+C. $y=3\sin\dfrac{\pi x}{4}+6$
+D. $y=3\sin\dfrac{\pi x}{2}+6$
+::key D
+Đường trung bình $\dfrac{9+3}{2}=6$, biên độ $\dfrac{9-3}{2}=3$, và $b=\dfrac{2\pi}{4}=\dfrac\pi2$.
+
+[M410.23] Nhiều lựa chọn
+Đường nào sau đây là tiệm cận đứng của $y=\tan\dfrac{x}{2}$?
+A. $x=\dfrac\pi2$
+B. $x=\pi$
+C. $x=2\pi$
+D. $x=\dfrac\pi4$
+::key B
+Tiệm cận xảy ra khi $\dfrac x2=\dfrac\pi2+k\pi$, tức $x=\pi+2k\pi$. Tại $x=2\pi$ hàm số bằng $0$.
+
+[M410.24] Nhiều lựa chọn
+Góc $\theta$ ở góc phần tư II và $\sin\theta=\dfrac35$. Giá trị $\cos\theta$ là
+A. $-\dfrac45$
+B. $\dfrac45$
+C. $-\dfrac35$
+D. $\dfrac34$
+::key A
+$\cos^2\theta=1-\dfrac{9}{25}=\dfrac{16}{25}$, và cos âm ở góc phần tư II.
+
+[M410.25] Nhiều lựa chọn
+Nếu $\sin\theta=\dfrac35$ và $\cos\theta=-\dfrac45$ thì $\sin2\theta$ bằng
+A. $\dfrac{24}{25}$
+B. $\dfrac{7}{25}$
+C. $-\dfrac{24}{25}$
+D. $-\dfrac65$
+::key C
+$\sin2\theta=2\sin\theta\cos\theta=2\cdot\dfrac35\cdot\left(-\dfrac45\right)=-\dfrac{24}{25}$. Phương án C là $\cos2\theta$.
+
+[M410.26] Nhiều lựa chọn
+Giá trị của $\arctan(-1)$ là
+A. $\dfrac{3\pi}{4}$
+B. $\dfrac{7\pi}{4}$
+C. $\dfrac\pi4$
+D. $-\dfrac\pi4$
+::key D
+Tập giá trị của $\arctan$ là $\left(-\dfrac\pi2,\dfrac\pi2\right)$, và $\tan\left(-\dfrac\pi4\right)=-1$.
+
+[M410.27] Nhiều lựa chọn
+Tất cả các nghiệm của $\sin x=-\dfrac{\sqrt3}{2}$ trên $[0,2\pi)$ là
+A. $\dfrac{\pi}{3}$ và $\dfrac{2\pi}{3}$
+B. $\dfrac{7\pi}{6}$ và $\dfrac{11\pi}{6}$
+C. $\dfrac{4\pi}{3}$ và $\dfrac{5\pi}{3}$
+D. $\dfrac{2\pi}{3}$ và $\dfrac{4\pi}{3}$
+::key C
+Góc tham chiếu là $\dfrac\pi3$ và sin âm ở góc phần tư III, IV: $\pi+\dfrac\pi3$ và $2\pi-\dfrac\pi3$.
+
+[M410.28] Nhiều lựa chọn
+Với $\sin x\ne0$, biểu thức $\dfrac{1-\cos^2x}{\sin x}$ bằng
+A. $\cos x$
+B. $\sin x$
+C. $1$
+D. $\tan x$
+::key B
+$1-\cos^2x=\sin^2x$, và $\dfrac{\sin^2x}{\sin x}=\sin x$.
+
+[M410.29] Nhiều lựa chọn
+Toạ độ cực nào biểu diễn điểm có toạ độ vuông góc $(-3,-3)$?
+A. $\left(3\sqrt2,\dfrac{\pi}{4}\right)$
+B. $\left(3\sqrt2,\dfrac{3\pi}{4}\right)$
+C. $\left(18,\dfrac{5\pi}{4}\right)$
+D. $\left(3\sqrt2,\dfrac{5\pi}{4}\right)$
+::key D
+$r=\sqrt{9+9}=3\sqrt2$, và điểm ở góc phần tư III, nên $\theta=\dfrac{5\pi}{4}$. Phương án A có cùng giá trị tang nhưng sai góc phần tư.
+
+[M410.30] Nhiều lựa chọn
+Nghiệm thực lớn nhất của $f(x)=x^3-4x+1$ là
+A. $1{,}861$
+B. $0{,}254$
+C. $2{,}115$
+D. $1{,}732$
+::key A
+Vẽ đồ thị cho ba nghiệm, khoảng $-2{,}115$, $0{,}254$ và $1{,}861$.
+
+[M410.31] Nhiều lựa chọn
+Tốc độ biến thiên trung bình của $f(x)=2^x+x$ trên $[1,4]$ là
+A. $17$
+B. $6{,}667$
+C. $5{,}667$
+D. $4{,}250$
+::key C
+$f(4)=20$ và $f(1)=3$, nên $\dfrac{20-3}{3}\approx5{,}667$.
+
+[M410.32] Nhiều lựa chọn
+Nghiệm dương của phương trình $\dfrac{2x+1}{x-3}=x$ là
+A. $-0{,}193$
+B. $5{,}193$
+C. $2{,}596$
+D. $6{,}193$
+::key B
+Nhân chéo được $x^2-5x-1=0$, nên $x=\dfrac{5\pm\sqrt{29}}{2}$; giá trị dương xấp xỉ $5{,}193$.
+
+[M410.33] Nhiều lựa chọn
+Giá trị nhỏ nhất của $r(x)=\dfrac{x^2+4}{x}$ với $x>0$ là
+A. $2$
+B. $5$
+C. $8$
+D. $4$
+::key D
+Đồ thị đạt cực tiểu tại $x=2$, với $r(2)=\dfrac{8}{2}=4$. Phương án A là hoành độ, không phải giá trị nhỏ nhất.
+
+[M410.34] Nhiều lựa chọn
+Dân số một thị trấn là $1200$ tại $t=0$ và $2000$ tại $t=6$ năm. Với mô hình $P(t)=ab^t$, giá trị $b$ là
+A. $1{,}089$
+B. $1{,}667$
+C. $1{,}111$
+D. $0{,}918$
+::key A
+$b^6=\dfrac{2000}{1200}=\dfrac53$, nên $b=\left(\dfrac53\right)^{1/6}\approx1{,}089$.
+
+[M410.35] Nhiều lựa chọn
+Một tài khoản bắt đầu với $5000$ đô la và tăng $3{,}5\%$ mỗi năm. Giá trị $t$ thoả mãn $5000(1{,}035)^t=8000$ là
+A. $17{,}143$
+B. $13{,}662$
+C. $8{,}548$
+D. $1{,}600$
+::key B
+$t=\dfrac{\ln1{,}6}{\ln1{,}035}\approx13{,}662$. Phương án A cộng $3{,}5\%$ của $5000$ mỗi năm, tức mô hình tuyến tính.
+
+[M410.36] Nhiều lựa chọn
+Nghiệm của phương trình $\ln(x+1)=2{,}5$ là
+A. $12{,}182$
+B. $1{,}500$
+C. $11{,}182$
+D. $0{,}916$
+::key C
+$x+1=e^{2{,}5}\approx12{,}182$, nên $x\approx11{,}182$.
+
+[M410.37] Nhiều lựa chọn
+Nghiệm của phương trình $\log_3x=1{,}7$ là
+A. $6{,}473$
+B. $5{,}100$
+C. $4{,}913$
+D. $0{,}483$
+::key A
+$x=3^{1{,}7}\approx6{,}473$. Phương án A nhân thay vì nâng lên luỹ thừa.
+
+[M410.38] Nhiều lựa chọn
+Trên đồ thị bán logarit (cơ số $10$), dữ liệu nằm trên một đường thẳng có hệ số góc $0{,}12$. Khi $x$ tăng $1$ thì $y$ được nhân với
+A. $0{,}120$
+B. $1{,}127$
+C. $1{,}120$
+D. $1{,}318$
+::key D
+Hệ số góc là $\log b$, nên $b=10^{0{,}12}\approx1{,}318$. Phương án C dùng cơ số $e$.
+
+[M410.39] Nhiều lựa chọn
+Độ cao của một điểm trên bánh xe là $h(t)=10+8\sin\dfrac{\pi t}{6}$. Thời điểm $t>0$ đầu tiên mà $h(t)=15$ là
+A. $0{,}675$
+B. $4{,}711$
+C. $1{,}289$
+D. $1{,}194$
+::key C
+$\sin\dfrac{\pi t}{6}=0{,}625$, nên $\dfrac{\pi t}{6}=\arcsin0{,}625\approx0{,}6751$ và $t\approx1{,}289$. Phương án A là góc, không phải thời gian.
+
+[M410.40] Nhiều lựa chọn
+Mô hình nhiệt độ là $T(t)=18+7\cos\dfrac{\pi(t-15)}{12}$, với $t$ là số giờ sau nửa đêm. Giá trị $T(10)$ là
+A. $24{,}761$
+B. $19{,}812$
+C. $16{,}188$
+D. $25{,}000$
+::key B
+$T(10)=18+7\cos\left(-\dfrac{5\pi}{12}\right)\approx18+7(0{,}2588)\approx19{,}812$, ở chế độ radian.
+
+[M410.41] Nhiều lựa chọn
+Nghiệm của $3\cos x=1$ trên $[0,\pi]$ là
+A. $0{,}340$
+B. $1{,}911$
+C. $0{,}333$
+D. $1{,}231$
+::key D
+$x=\arccos\dfrac13\approx1{,}231$, thuộc $[0,\pi]$.
+
+[M410.42] Nhiều lựa chọn
+Với hàm cực $r=2+3\cos\theta$, tốc độ biến thiên trung bình của $r$ trên $\left[0,\dfrac\pi3\right]$ là
+A. $-1{,}432$
+B. $-1{,}500$
+C. $1{,}432$
+D. $-0{,}716$
+::key A
+$r(0)=5$ và $r\left(\dfrac\pi3\right)=3{,}5$, nên $\dfrac{3{,}5-5}{\pi/3}\approx-1{,}432$. Phương án A quên chia cho $\dfrac\pi3$.

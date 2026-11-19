@@ -1,0 +1,873 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-LG-3   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-LG-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – hanibi108-LG-3
+Người làm: tài khoản hanibi108. Gói này có 30 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/hanibi108-LG-3-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/hanibi108-LG-3-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g10/binomial-theorem (10 bài tập)
+- g10/central-tendency (10 bài tập)
+- g10/circles (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g10/binomial-theorem
+Bài học: Nhị thức Newton / The binomial theorem
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển $(x+1)^5$.
+
+[LỜI GIẢI CŨ – VI]
+Với $a=x$, $b=1$, mọi luỹ thừa của $b$ đều bằng $1$.
+
+**Đáp số.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
+
+[ĐỀ – EN]
+Expand $(x+1)^5$.
+
+[LỜI GIẢI CŨ – EN]
+With $a=x$, $b=1$, every power of $b$ equals $1$.
+
+**Answer.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển $(x-3)^4$.
+
+[LỜI GIẢI CŨ – VI]
+$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+
+**Đáp số.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
+
+[ĐỀ – EN]
+Expand $(x-3)^4$.
+
+[LỜI GIẢI CŨ – EN]
+$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+
+**Answer.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^2$ trong khai triển $(3+x)^5$.
+
+[LỜI GIẢI CŨ – VI]
+$C_5^2\cdot3^3=10\cdot27=270$.
+
+**Đáp số.** $270$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^2$ in the expansion of $(3+x)^5$.
+
+[LỜI GIẢI CŨ – EN]
+$\binom{5}{2}\cdot3^3=10\cdot27=270$.
+
+**Answer.** $270$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Rút gọn biểu thức $(x+y)^4+(x-y)^4$.
+
+[LỜI GIẢI CŨ – VI]
+$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ và $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Cộng lại, các số hạng $\pm4x^3y$, $\pm4xy^3$ triệt tiêu.
+
+**Đáp số.** $2x^4+12x^2y^2+2y^4$.
+
+[ĐỀ – EN]
+Simplify $(x+y)^4+(x-y)^4$.
+
+[LỜI GIẢI CŨ – EN]
+$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ and $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Adding, the terms $\pm4x^3y$ and $\pm4xy^3$ cancel.
+
+**Answer.** $2x^4+12x^2y^2+2y^4$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Xét khai triển $(1-2x)^5$. Mỗi khẳng định sau đúng hay sai?
+
+a) Khai triển có $6$ số hạng.
+b) Hệ số của $x^2$ là $40$.
+c) Tổng các hệ số bằng $1$.
+d) Số hạng chứa $x^5$ là $32x^5$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Số mũ $5$ cho $5+1=6$ số hạng.
+
+b) **Đúng.** $C_5^2(-2)^2=10\cdot4=40$.
+
+c) **Sai.** Thay $x=1$: $(1-2)^5=-1$.
+
+d) **Sai.** $C_5^5(-2)^5x^5=-32x^5$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Consider the expansion of $(1-2x)^5$. Is each claim true or false?
+
+a) The expansion has $6$ terms.
+b) The coefficient of $x^2$ is $40$.
+c) The sum of the coefficients is $1$.
+d) The term containing $x^5$ is $32x^5$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** Exponent $5$ gives $5+1=6$ terms.
+
+b) **True.** $\binom{5}{2}(-2)^2=10\cdot4=40$.
+
+c) **False.** Putting $x=1$: $(1-2)^5=-1$.
+
+d) **False.** $\binom{5}{5}(-2)^5x^5=-32x^5$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^4$ trong khai triển $\left(x^2+\dfrac2x\right)^5$ (với $x\ne0$).
+
+[LỜI GIẢI CŨ – VI]
+$C_5^k(x^2)^{5-k}\left(\dfrac2x\right)^k=C_5^k2^kx^{10-3k}$. Ta cần $10-3k=4$, tức $k=2$: hệ số là $C_5^2\cdot2^2=10\cdot4=40$.
+
+**Đáp số.** $40$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^4$ in the expansion of $\left(x^2+\dfrac2x\right)^5$ (with $x\ne0$).
+
+[LỜI GIẢI CŨ – EN]
+$\binom{5}{k}(x^2)^{5-k}\left(\dfrac2x\right)^k=\binom{5}{k}2^kx^{10-3k}$. We need $10-3k=4$, so $k=2$: the coefficient is $\binom{5}{2}\cdot2^2=10\cdot4=40$.
+
+**Answer.** $40$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một máy lọc nước giá $10$ triệu đồng, mỗi năm giá trị của nó giảm $2\%$ so với năm trước. Dùng ba số hạng đầu của khai triển $(1-0{,}02)^5$ để ước lượng giá trị của máy sau $5$ năm.
+
+[LỜI GIẢI CŨ – VI]
+$$0{,}98^5\approx1-5\cdot0{,}02+10\cdot0{,}02^2=1-0{,}1+0{,}004=0{,}904.$$
+Giá trị của máy khoảng $10\,000\,000\cdot0{,}904=9\,040\,000$ đồng. (Giá trị đúng là $9\,039\,207{,}968$ đồng, lệch chưa tới $800$ đồng.)
+
+**Đáp số.** Khoảng $9\,040\,000$ đồng.
+
+[ĐỀ – EN]
+A water filter costs $10$ million dong, and each year its value falls by $2\%$ of the previous year's value. Use the first three terms of the expansion of $(1-0.02)^5$ to estimate its value after $5$ years.
+
+[LỜI GIẢI CŨ – EN]
+$$0.98^5\approx1-5\cdot0.02+10\cdot0.02^2=1-0.1+0.004=0.904.$$
+The filter is worth about $10\,000\,000\cdot0.904=9\,040\,000$ dong. (The exact value is $9\,039\,207.968$ dong, less than $800$ dong away.)
+
+**Answer.** About $9\,040\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn tập bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations)) Cho tập $X=\{1; 2; 3; 4; 5\}$.
+
+(a) Với mỗi $k=0, 1, \dots, 5$, tập $X$ có bao nhiêu tập con gồm $k$ phần tử? (b) Dùng công thức khai triển để giải thích vì sao $X$ có tất cả $32$ tập con.
+
+[LỜI GIẢI CŨ – VI]
+(a) $C_5^0=1$, $C_5^1=5$, $C_5^2=10$, $C_5^3=10$, $C_5^4=5$, $C_5^5=1$.
+
+(b) Thay $a=b=1$ vào khai triển $(a+b)^5$:
+$$C_5^0+C_5^1+\cdots+C_5^5=(1+1)^5=32.$$
+
+**Đáp số.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
+
+[ĐỀ – EN]
+(Review of [Permutations, arrangements and combinations](lesson:permutations-combinations)) Let $X=\{1, 2, 3, 4, 5\}$.
+
+(a) For each $k=0, 1, \dots, 5$, how many subsets of $X$ have $k$ elements? (b) Use the expansion to explain why $X$ has $32$ subsets in all.
+
+[LỜI GIẢI CŨ – EN]
+(a) $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$.
+
+(b) Put $a=b=1$ in the expansion of $(a+b)^5$:
+$$\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=(1+1)^5=32.$$
+
+**Answer.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^2$ trong khai triển của $(1+x)(1+2x)^4$.
+
+[LỜI GIẢI CŨ – VI]
+Trong $(1+2x)^4$: hệ số của $x$ là $C_4^1\cdot2=8$, của $x^2$ là $C_4^2\cdot2^2=24$. Trong tích, $x^2$ đến từ $1\cdot24x^2$ và $x\cdot8x$, nên hệ số là $24+8=32$.
+
+**Đáp số.** $32$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^2$ in the expansion of $(1+x)(1+2x)^4$.
+
+[LỜI GIẢI CŨ – EN]
+In $(1+2x)^4$: the coefficient of $x$ is $\binom{4}{1}\cdot2=8$ and of $x^2$ is $\binom{4}{2}\cdot2^2=24$. In the product, $x^2$ comes from $1\cdot24x^2$ and $x\cdot8x$, so the coefficient is $24+8=32$.
+
+**Answer.** $32$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Không dùng máy tính, hãy so sánh $1{,}1^5$ với $1{,}6$.
+
+[LỜI GIẢI CŨ – VI]
+$$1{,}1^5=1+5\cdot0{,}1+10\cdot0{,}01+10\cdot0{,}001+5\cdot0{,}0001+0{,}00001=1{,}61051.$$
+Ngay ba số hạng đầu đã cho $1+0{,}5+0{,}1=1{,}6$, và các số hạng còn lại đều dương.
+
+**Đáp số.** $1{,}1^5=1{,}61051>1{,}6$.
+
+[ĐỀ – EN]
+Without a calculator, compare $1.1^5$ with $1.6$.
+
+[LỜI GIẢI CŨ – EN]
+$$1.1^5=1+5\cdot0.1+10\cdot0.01+10\cdot0.001+5\cdot0.0001+0.00001=1.61051.$$
+The first three terms already give $1+0.5+0.1=1.6$, and the other terms are all positive.
+
+**Answer.** $1.1^5=1.61051>1.6$.
+
+
+######################################################################
+@@@ g10/central-tendency
+Bài học: Các số đặc trưng đo xu thế trung tâm / Measures of central tendency
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+a) Tìm số trung bình cộng của $6, 8, 9, 10, 12$.
+
+b) Tìm trung vị của $3, 9, 4, 7, 1, 6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\bar{x}=\dfrac{45}{5}=9$.
+
+b) Sắp xếp: $1, 3, 4, 6, 7, 9$; $M_e=\dfrac{4+6}{2}=5$.
+
+**Đáp số.** a) $9$; b) $5$.
+
+[ĐỀ – EN]
+a) Find the mean of $6, 8, 9, 10, 12$.
+
+b) Find the median of $3, 9, 4, 7, 1, 6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\bar{x}=\dfrac{45}{5}=9$.
+
+b) Sorted: $1, 3, 4, 6, 7, 9$; $M=\dfrac{4+6}{2}=5$.
+
+**Answer.** a) $9$; b) $5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+a) Tìm mốt của $2, 3, 3, 5, 5, 5, 7$.
+
+b) Một cửa hàng ghi cỡ áo bán được trong ngày: M, L, S, M, XL, M, L, M, S, L. Tìm mốt. Có thể tính số trung bình cộng của dữ liệu này không?
+
+[LỜI GIẢI CŨ – VI]
+a) $5$ xuất hiện ba lần, nhiều nhất.
+
+b) Tần số: S: $2$, M: $4$, L: $3$, XL: $1$. Cỡ áo không phải là số nên không cộng và chia được.
+
+**Đáp số.** a) $M_o=5$; b) $M_o=\text{M}$; không tính được số trung bình cộng.
+
+[ĐỀ – EN]
+a) Find the mode of $2, 3, 3, 5, 5, 5, 7$.
+
+b) A shop records the shirt sizes sold in one day: M, L, S, M, XL, M, L, M, S, L. Find the mode. Can we compute the mean of these data?
+
+[LỜI GIẢI CŨ – EN]
+a) $5$ occurs three times, more than any other value.
+
+b) Frequencies: S: $2$, M: $4$, L: $3$, XL: $1$. Shirt sizes are not numbers, so they cannot be added and divided.
+
+**Answer.** a) mode $5$; b) mode M; the mean cannot be computed.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm $M_e$, $Q_1$, $Q_3$ của mỗi mẫu số liệu:
+
+a) $2, 4, 5, 7, 8, 10, 11, 13, 15$;
+
+b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
+
+[LỜI GIẢI CŨ – VI]
+a) $n=9$, $M_e=8$. Nửa dưới $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4{,}5$. Nửa trên $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+
+b) $n=12$, $M_e=\dfrac{10+12}{2}=11$. Nửa dưới $3, 4, 6, 7, 9, 10$: $Q_1=6{,}5$. Nửa trên $12, 13, 15, 16, 18, 20$: $Q_3=15{,}5$.
+
+**Đáp số.** a) $M_e=8$, $Q_1=4{,}5$, $Q_3=12$; b) $M_e=11$, $Q_1=6{,}5$, $Q_3=15{,}5$.
+
+[ĐỀ – EN]
+Find $M$, $Q_1$, $Q_3$ for each data set:
+
+a) $2, 4, 5, 7, 8, 10, 11, 13, 15$;
+
+b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
+
+[LỜI GIẢI CŨ – EN]
+a) $n=9$, $M=8$. Lower half $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4.5$. Upper half $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+
+b) $n=12$, $M=\dfrac{10+12}{2}=11$. Lower half $3, 4, 6, 7, 9, 10$: $Q_1=6.5$. Upper half $12, 13, 15, 16, 18, 20$: $Q_3=15.5$.
+
+**Answer.** a) $M=8$, $Q_1=4.5$, $Q_3=12$; b) $M=11$, $Q_1=6.5$, $Q_3=15.5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Bảng cho số quyển sách đã đọc trong tháng của $22$ học sinh. Tìm $\bar{x}$ (làm tròn đến hàng phần trăm), $M_e$ và mốt.
+
+| Số sách | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Số học sinh | 3 | 5 | 8 | 4 | 2 |
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2{,}86.$$
+Tần số tích luỹ $3, 8, 16, 20, 22$: giá trị thứ $11$ và $12$ đều bằng $3$, nên $M_e=3$. Tần số lớn nhất là $8$, ứng với $3$ quyển.
+
+**Đáp số.** $\bar{x}\approx2{,}86$; $M_e=3$; $M_o=3$.
+
+[ĐỀ – EN]
+The table gives the number of books read in one month by $22$ students. Find $\bar{x}$ (to two decimal places), $M$ and the mode.
+
+| Books | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Students | 3 | 5 | 8 | 4 | 2 |
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2.86.$$
+Cumulative frequencies $3, 8, 16, 20, 22$: the $11$th and $12$th values are both $3$, so $M=3$. The largest frequency is $8$, for $3$ books.
+
+**Answer.** $\bar{x}\approx2.86$; $M=3$; mode $3$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho mẫu số liệu $5, 7, 7, 8, 9, 10, 10, 10, 12$. Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình cộng bằng $8$.
+
+b) Trung vị bằng $9$.
+
+c) Tứ phân vị thứ nhất $Q_1=7$.
+
+d) Nếu thêm giá trị $30$ vào mẫu thì trung vị thay đổi nhiều hơn số trung bình cộng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai:** $\bar{x}=\dfrac{78}{9}\approx8{,}67$.
+
+b) **Đúng:** giá trị thứ $5$ là $9$.
+
+c) **Đúng:** nửa dưới $5, 7, 7, 8$ cho $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **Sai:** sau khi thêm $30$, $M_e=\dfrac{9+10}{2}=9{,}5$ (tăng $0{,}5$), còn $\bar{x}=\dfrac{108}{10}=10{,}8$ (tăng khoảng $2{,}13$).
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the data set $5, 7, 7, 8, 9, 10, 10, 10, 12$. Is each claim true or false?
+
+a) The mean is $8$.
+
+b) The median is $9$.
+
+c) The first quartile is $Q_1=7$.
+
+d) If the value $30$ is added to the data set, the median changes more than the mean.
+
+[LỜI GIẢI CŨ – EN]
+a) **False:** $\bar{x}=\dfrac{78}{9}\approx8.67$.
+
+b) **True:** the $5$th value is $9$.
+
+c) **True:** the lower half $5, 7, 7, 8$ gives $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **False:** after adding $30$, $M=\dfrac{9+10}{2}=9.5$ (up by $0.5$), while $\bar{x}=\dfrac{108}{10}=10.8$ (up by about $2.13$).
+
+**Answer.** a) False; b) True; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một lớp có $20$ bạn nữ với điểm trung bình $7{,}0$ và $10$ bạn nam với điểm trung bình $8{,}5$. Tính điểm trung bình của cả lớp.
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{20\cdot7+10\cdot8{,}5}{30}=\frac{140+85}{30}=\frac{225}{30}=7{,}5.$$
+Không được lấy $\dfrac{7+8{,}5}{2}=7{,}75$, vì hai nhóm có số người khác nhau.
+
+**Đáp số.** $7{,}5$.
+
+[ĐỀ – EN]
+A class has $20$ girls with a mean mark of $7.0$ and $10$ boys with a mean mark of $8.5$. Find the mean mark of the whole class.
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{20\cdot7+10\cdot8.5}{30}=\frac{140+85}{30}=\frac{225}{30}=7.5.$$
+We cannot take $\dfrac{7+8.5}{2}=7.75$, because the two groups have different sizes.
+
+**Answer.** $7.5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lương tháng (triệu đồng) của bảy nhân viên một cửa hàng nhỏ là $12, 13, 14, 15, 16, 17, 90$ (số $90$ là lương của chủ cửa hàng). Tính số trung bình cộng và trung vị. Một bạn muốn biết "một nhân viên ở đây thường được trả bao nhiêu"; nên dùng số nào?
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{177}{7}\approx25{,}29,\qquad M_e=15.$$
+Sáu trong bảy người nhận dưới $18$ triệu đồng, nên $25{,}29$ không đại diện cho ai.
+
+**Đáp số.** $\bar{x}\approx25{,}29$ triệu đồng, $M_e=15$ triệu đồng; nên dùng trung vị.
+
+[ĐỀ – EN]
+The monthly salaries (million dong) of the seven people working in a small shop are $12, 13, 14, 15, 16, 17, 90$ (the $90$ is the owner's salary). Find the mean and the median. Someone wants to know "how much a person working here is usually paid"; which number should they use?
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{177}{7}\approx25.29,\qquad M=15.$$
+Six of the seven people earn less than $18$ million dong, so $25.29$ represents nobody.
+
+**Answer.** $\bar{x}\approx25.29$ million dong, $M=15$ million dong; the median should be used.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bảy số có trung bình cộng bằng $10$. Bỏ đi một số thì trung bình cộng của sáu số còn lại bằng $9$. Số bị bỏ đi là số nào?
+
+[LỜI GIẢI CŨ – VI]
+Tổng bảy số là $7\cdot10=70$, tổng sáu số là $6\cdot9=54$, nên số bị bỏ là $70-54=16$.
+
+**Đáp số.** $16$.
+
+[ĐỀ – EN]
+Seven numbers have mean $10$. When one number is removed, the remaining six have mean $9$. Which number was removed?
+
+[LỜI GIẢI CŨ – EN]
+The seven numbers add up to $7\cdot10=70$ and the six to $6\cdot9=54$, so the removed number is $70-54=16$.
+
+**Answer.** $16$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một mẫu gồm $5$ số nguyên dương có số trung bình cộng bằng $6$, trung vị bằng $5$, mốt duy nhất bằng $3$ và giá trị lớn nhất bằng $11$. Tìm mẫu số liệu đó.
+
+[LỜI GIẢI CŨ – VI]
+Tổng bằng $5\cdot6=30$. Vì $3<5=c$, số $3$ chỉ có thể là $a$, $b$, nên $a=b=3$. Khi đó
+$$d=30-3-3-5-11=8.$$
+Mẫu $3, 3, 5, 8, 11$ có mỗi giá trị khác $3$ xuất hiện một lần, nên mốt duy nhất là $3$.
+
+**Đáp số.** $3, 3, 5, 8, 11$.
+
+[ĐỀ – EN]
+A data set of $5$ positive whole numbers has mean $6$, median $5$, a single mode $3$, and largest value $11$. Find the data set.
+
+[LỜI GIẢI CŨ – EN]
+The total is $5\cdot6=30$. Since $3<5=c$, the value $3$ can only be $a$ and $b$, so $a=b=3$. Then
+$$d=30-3-3-5-11=8.$$
+In $3, 3, 5, 8, 11$ every value other than $3$ occurs once, so $3$ is the only mode.
+
+**Answer.** $3, 3, 5, 8, 11$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+(Ôn lại [Bất phương trình bậc nhất hai ẩn](lesson:linear-inequality-two-variables).) Bình đã có bốn bài kiểm tra được $6, 7, 8, 7$. Còn hai bài nữa, được $x$ và $y$ điểm. Viết điều kiện để điểm trung bình của sáu bài ít nhất là $7{,}5$. Cặp điểm $(8; 9)$ và $(10; 6)$ có thoả mãn không?
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{6+7+8+7+x+y}{6}\ge7{,}5\iff 28+x+y\ge45\iff x+y\ge17.$$
+Với $(8; 9)$: $17\ge17$, đúng. Với $(10; 6)$: $16\ge17$, sai.
+
+**Đáp số.** $x+y\ge17$ (với $0\le x, y\le10$); $(8; 9)$ thoả mãn, $(10; 6)$ không thoả mãn.
+
+[ĐỀ – EN]
+(Revisiting [Linear inequalities in two variables](lesson:linear-inequality-two-variables).) Binh has four test marks: $6, 7, 8, 7$. There are two more tests, with marks $x$ and $y$. Write the condition for the mean of all six tests to be at least $7.5$. Do the pairs of marks $(8, 9)$ and $(10, 6)$ satisfy it?
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{6+7+8+7+x+y}{6}\ge7.5\iff 28+x+y\ge45\iff x+y\ge17.$$
+For $(8, 9)$: $17\ge17$, true. For $(10, 6)$: $16\ge17$, false.
+
+**Answer.** $x+y\ge17$ (with $0\le x, y\le10$); $(8, 9)$ satisfies it, $(10, 6)$ does not.
+
+
+######################################################################
+@@@ g10/circles
+Bài học: Đường tròn trong mặt phẳng toạ độ / Circles in the coordinate plane
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn tâm $(-2; 3)$, bán kính $4$.
+
+[LỜI GIẢI CŨ – VI]
+$(x+2)^2+(y-3)^2=4^2=16$.
+
+**Đáp số.** $(x+2)^2+(y-3)^2=16$.
+
+[ĐỀ – EN]
+Write the equation of the circle with centre $(-2, 3)$ and radius $4$.
+
+[LỜI GIẢI CŨ – EN]
+$(x+2)^2+(y-3)^2=4^2=16$.
+
+**Answer.** $(x+2)^2+(y-3)^2=16$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm tâm và bán kính của đường tròn $x^2+y^2-4x+6y-3=0$.
+
+[LỜI GIẢI CŨ – VI]
+$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, nên $R=4$.
+
+**Đáp số.** Tâm $(2; -3)$, $R=4$.
+
+[ĐỀ – EN]
+Find the centre and the radius of the circle $x^2+y^2-4x+6y-3=0$.
+
+[LỜI GIẢI CŨ – EN]
+$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, so $R=4$.
+
+**Answer.** Centre $(2, -3)$, $R=4$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Phương trình $x^2+y^2-2x+4y+6=0$ có phải là phương trình đường tròn không?
+
+[LỜI GIẢI CŨ – VI]
+$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+
+**Đáp số.** Không phải phương trình đường tròn.
+
+[ĐỀ – EN]
+Is $x^2+y^2-2x+4y+6=0$ the equation of a circle?
+
+[LỜI GIẢI CŨ – EN]
+$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+
+**Answer.** It is not the equation of a circle.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn đi qua ba điểm $O(0; 0)$, $A(6; 0)$ và $B(0; 8)$.
+
+[LỜI GIẢI CŨ – VI]
+$O$: $c=0$. $A$: $36-12a=0$, nên $a=3$. $B$: $64-16b=0$, nên $b=4$. $R^2=9+16-0=25$.
+
+**Đáp số.** $(x-3)^2+(y-4)^2=25$.
+
+[ĐỀ – EN]
+Write the equation of the circle through the three points $O(0, 0)$, $A(6, 0)$ and $B(0, 8)$.
+
+[LỜI GIẢI CŨ – EN]
+$O$: $c=0$. $A$: $36-12a=0$, so $a=3$. $B$: $64-16b=0$, so $b=4$. $R^2=9+16-0=25$.
+
+**Answer.** $(x-3)^2+(y-4)^2=25$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của đường tròn $x^2+y^2=25$ tại điểm $M(3; 4)$.
+
+[LỜI GIẢI CŨ – VI]
+$3^2+4^2=25$, nên $M$ thuộc đường tròn. $\overrightarrow{OM}=(3; 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+
+**Đáp số.** $3x+4y-25=0$.
+
+[ĐỀ – EN]
+Write the equation of the tangent to the circle $x^2+y^2=25$ at the point $M(3, 4)$.
+
+[LỜI GIẢI CŨ – EN]
+$3^2+4^2=25$, so $M$ is on the circle. $\overrightarrow{OM}=(3, 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+
+**Answer.** $3x+4y-25=0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho đường tròn $(C): x^2+y^2-6x+2y-15=0$ và điểm $A(6; 3)$. Mỗi khẳng định sau đúng hay sai?
+
+a) $(C)$ có tâm $I(3; -1)$.
+
+b) $(C)$ có bán kính bằng $25$.
+
+c) Điểm $A$ thuộc $(C)$.
+
+d) Tiếp tuyến của $(C)$ tại $A$ có phương trình $3x+4y-30=0$.
+
+[LỜI GIẢI CŨ – VI]
+$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
+
+a) **Đúng**: tâm $(a; b)=(3; -1)$.
+
+b) **Sai**: $R^2=25$, nên $R=5$.
+
+c) **Đúng**: $36+9-36+6-15=0$.
+
+d) **Đúng**: $\overrightarrow{IA}=(3; 4)$, tiếp tuyến $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Consider the circle $(C): x^2+y^2-6x+2y-15=0$ and the point $A(6, 3)$. Is each claim true or false?
+
+a) $(C)$ has centre $I(3, -1)$.
+
+b) $(C)$ has radius $25$.
+
+c) The point $A$ lies on $(C)$.
+
+d) The tangent to $(C)$ at $A$ has equation $3x+4y-30=0$.
+
+[LỜI GIẢI CŨ – EN]
+$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
+
+a) **True**: the centre is $(a, b)=(3, -1)$.
+
+b) **False**: $R^2=25$, so $R=5$.
+
+c) **True**: $36+9-36+6-15=0$.
+
+d) **True**: $\overrightarrow{IA}=(3, 4)$, and the tangent is $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Đường thẳng $x+2y-5=0$ cắt đường tròn $x^2+y^2=25$ tại hai điểm $A$ và $B$. Tính độ dài $AB$ (làm tròn đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, nên $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8{,}94$. (Giải hệ cũng cho $A(5; 0)$, $B(-3; 4)$ và $AB=\sqrt{64+16}=\sqrt{80}$.)
+
+**Đáp số.** $8{,}94$.
+
+[ĐỀ – EN]
+The line $x+2y-5=0$ cuts the circle $x^2+y^2=25$ at two points $A$ and $B$. Find the length $AB$ (rounded to two decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, so $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8.94$. (Solving the system also gives $A(5, 0)$, $B(-3, 4)$ and $AB=\sqrt{64+16}=\sqrt{80}$.)
+
+**Answer.** $8.94$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một máy phát Wi-Fi đặt tại điểm $I(2; 3)$ trên sơ đồ một căn phòng (đơn vị: mét) và phát sóng trong bán kính $5$ m. Ba chiếc máy tính đặt tại $A(5; 6)$, $B(7; 1)$ và $C(-1; 7)$. Máy nào nằm trong vùng phủ sóng, máy nào nằm ngoài, máy nào ở đúng biên?
+
+[LỜI GIẢI CŨ – VI]
+$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
+
+**Đáp số.** $A$ trong vùng phủ sóng, $B$ ngoài, $C$ ở đúng biên.
+
+[ĐỀ – EN]
+A Wi-Fi router stands at the point $I(2, 3)$ on a plan of a room (units: metres) and has a range of $5$ m. Three computers are at $A(5, 6)$, $B(7, 1)$ and $C(-1, 7)$. Which computer is inside the range, which is outside, and which is exactly on the edge?
+
+[LỜI GIẢI CŨ – EN]
+$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
+
+**Answer.** $A$ is inside the range, $B$ is outside, and $C$ is exactly on the edge.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn tâm $I(1; 2)$ tiếp xúc với đường thẳng $\Delta: 3x-4y+15=0$, rồi tìm toạ độ tiếp điểm.
+
+[LỜI GIẢI CŨ – VI]
+$R=\dfrac{|3-8+15|}{5}=2$, nên đường tròn là $(x-1)^2+(y-2)^2=4$. Đường thẳng qua $I$ vuông góc với $\Delta$: $x=1+3t$, $y=2-4t$. Thay vào $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, cho $x=-\dfrac15$, $y=\dfrac{18}{5}$.
+
+**Đáp số.** $(x-1)^2+(y-2)^2=4$; tiếp điểm $\left(-\dfrac15; \dfrac{18}{5}\right)$.
+
+[ĐỀ – EN]
+Write the equation of the circle with centre $I(1, 2)$ that is tangent to the line $\Delta: 3x-4y+15=0$, then find the point of tangency.
+
+[LỜI GIẢI CŨ – EN]
+$R=\dfrac{|3-8+15|}{5}=2$, so the circle is $(x-1)^2+(y-2)^2=4$. The line through $I$ perpendicular to $\Delta$: $x=1+3t$, $y=2-4t$. Substituting into $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, which gives $x=-\dfrac15$, $y=\dfrac{18}{5}$.
+
+**Answer.** $(x-1)^2+(y-2)^2=4$; point of tangency $\left(-\dfrac15, \dfrac{18}{5}\right)$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn đi qua $A(1; 1)$, $B(5; 3)$ và có tâm nằm trên trục hoành.
+
+[LỜI GIẢI CŨ – VI]
+Trung điểm $(3; 2)$, $\overrightarrow{AB}=(4; 2)$: trung trực $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. Với $y=0$: $x=4$, tâm $I(4; 0)$. $R^2=IA^2=9+1=10$ (và $IB^2=1+9=10$).
+
+**Đáp số.** $(x-4)^2+y^2=10$.
+
+[ĐỀ – EN]
+Write the equation of the circle through $A(1, 1)$ and $B(5, 3)$ whose centre lies on the $x$-axis.
+
+[LỜI GIẢI CŨ – EN]
+Midpoint $(3, 2)$, $\overrightarrow{AB}=(4, 2)$: the perpendicular bisector is $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. For $y=0$: $x=4$, so the centre is $I(4, 0)$. $R^2=IA^2=9+1=10$ (and $IB^2=1+9=10$).
+
+**Answer.** $(x-4)^2+y^2=10$.
+
+
+===== HẾT FILE hanibi108-LG-3 =====

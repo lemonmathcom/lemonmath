@@ -1,0 +1,2193 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-GV-1   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-GV-1-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-GV-1
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g11/multiplication-rule, g11/perpendicular-planes, g12/angle-formulas-space, g12/antiderivatives
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath112-GV-1-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath112-GV-1-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-GV-1-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g11/multiplication-rule – BẢN TIẾNG VIỆT ########
+---
+title: Công thức nhân xác suất cho hai biến cố độc lập
+description: Nhận biết hai biến cố độc lập và dùng công thức nhân để tính xác suất của giao, biến cố đối và các tình huống kết hợp.
+minutes: 16
+---
+
+  :::goals
+  - Nhận biết hai biến cố độc lập từ cách tiến hành phép thử hoặc từ các xác suất đã biết.
+  - Dùng công thức $P(A\cap B)=P(A)P(B)$ cho hai biến cố độc lập.
+  - Kết hợp công thức nhân với biến cố đối và công thức cộng xác suất.
+  - Phân biệt hai biến cố độc lập với hai biến cố xung khắc.
+  :::
+
+[[P1·0c5d]]
+Trong một trò chơi ở ngày hội trường, bạn gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Bạn nhận quà nếu xúc xắc xuất hiện số chẵn **và** đồng xu xuất hiện mặt ngửa. Xác suất nhận quà là bao nhiêu: ta cộng hay nhân hai xác suất?
+
+[[P2·dce3]]
+Kết quả của dụng cụ này không ảnh hưởng đến dụng cụ kia. Đó là dấu hiệu của hai biến cố độc lập.
+
+## Nhận biết hai biến cố độc lập
+
+### Khám phá: xúc xắc và đồng xu
+
+[[P3·024e]]
+Mỗi kết quả của phép thử là một cặp gồm số chấm của xúc xắc và mặt của đồng xu. Có $6\cdot2=12$ kết quả đồng khả năng:
+
+| Mặt đồng xu | Số chấm có thể đi kèm | Số kết quả |
+|---|---|---|
+| Ngửa | $1,2,3,4,5,6$ | $6$ |
+| Sấp | $1,2,3,4,5,6$ | $6$ |
+
+[[P4·cd86]]
+Gọi $A$ là biến cố “xúc xắc xuất hiện số chẵn” và $B$ là biến cố “đồng xu xuất hiện mặt ngửa”. Trong $12$ kết quả, có $6$ kết quả thuộc $A$, $6$ kết quả thuộc $B$ và $3$ kết quả thuộc $A\cap B$. Do đó
+
+  $$P(A)=\frac{6}{12}=\frac12,\qquad P(B)=\frac{6}{12}=\frac12,\qquad P(A\cap B)=\frac{3}{12}=\frac14.$$
+
+[[P5·80d5]]
+Trong $6$ kết quả thuộc $A$, một nửa vẫn thuộc $B$. Vì vậy $A$ không làm thay đổi khả năng xảy ra của $B$; đổi vai trò $A$, $B$ cũng vậy.
+
+  :::definition Hai biến cố độc lập
+  Hai biến cố $A$ và $B$ gọi là **độc lập** nếu việc xảy ra hay không xảy ra của biến cố này không làm thay đổi khả năng xảy ra của biến cố kia.
+  :::
+
+## Công thức nhân xác suất
+
+[[P6·7966]]
+Trong khám phá trên, $\dfrac14=\dfrac12\cdot\dfrac12$. Đây là trường hợp đầu tiên của công thức tổng quát.
+
+  :::theorem Công thức nhân cho hai biến cố độc lập
+  Hai biến cố $A$ và $B$ độc lập khi và chỉ khi
+
+  $$P(A\cap B)=P(A)P(B).$$
+
+  Vì thế, nếu đã biết $A$ và $B$ độc lập, xác suất để **cả hai** cùng xảy ra bằng tích hai xác suất. Ngược lại, khi biết ba xác suất, đẳng thức trên là tiêu chí kiểm tra tính độc lập.
+  :::
+
+[[P7·0a52]]
+Vì sao có phép nhân? Trong mô hình hai giai đoạn độc lập, tỉ lệ thuận lợi ở mỗi giai đoạn lần lượt là $P(A)$, $P(B)$. Vì tỉ lệ thứ hai không đổi theo kết quả đầu, tỉ lệ thuận lợi cho cả hai là $P(A)P(B)$.
+
+  :::example Gieo xúc xắc và tung đồng xu
+  Gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Tính xác suất để xúc xắc xuất hiện số lớn hơn $4$ và đồng xu xuất hiện mặt sấp.
+
+  **Lời giải.** Gọi $A$ là biến cố “số chấm lớn hơn $4$”, $B$ là biến cố “mặt sấp”. Hai biến cố độc lập vì kết quả của xúc xắc không ảnh hưởng đến đồng xu:
+
+  $$P(A)=\frac26=\frac13,\qquad P(B)=\frac12.$$
+
+  Dùng công thức nhân:
+
+  $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
+
+  Vậy xác suất cần tìm là $\dfrac16$.
+  :::
+
+[[P8·ca9f]]
+Khi lặp lại một thao tác, ta cần xem điều kiện của lần sau có được giữ nguyên hay không.
+
+  :::example Có hoàn lại và không hoàn lại
+  Một hộp có $3$ thẻ đỏ và $2$ thẻ xanh, các thẻ được phân biệt. Rút ngẫu nhiên hai lần. Gọi $A$ là biến cố “lần đầu rút được thẻ đỏ”, $B$ là biến cố “lần hai rút được thẻ đỏ”. Xét tính độc lập của $A$ và $B$ trong hai cách: hoàn lại thẻ sau lần đầu, và không hoàn lại.
+
+  **Lời giải.** Nếu hoàn lại, mỗi lần hộp đều có $3$ thẻ đỏ trong $5$ thẻ. Có $5\cdot5=25$ cặp thẻ đồng khả năng, trong đó có $3\cdot3=9$ cặp đỏ–đỏ:
+
+  $$P(A)=P(B)=\frac35,\qquad P(A\cap B)=\frac9{25}=\frac35\cdot\frac35.$$
+
+  Vậy $A$ và $B$ độc lập khi có hoàn lại.
+
+  Nếu không hoàn lại, có $5\cdot4=20$ cặp thẻ khác nhau có thứ tự, trong đó có $3\cdot2=6$ cặp đỏ–đỏ. Mỗi vị trí vẫn có xác suất nhận thẻ đỏ bằng $\dfrac35$, nhưng
+
+  $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
+
+  Vậy $A$ và $B$ không độc lập khi không hoàn lại.
+  :::
+
+[[P9·72e9]]
+Không được dùng công thức nhân chỉ vì đề bài có từ “và”: trước hết phải xét tính độc lập.
+
+## Kết hợp với biến cố đối và công thức cộng
+
+[[P10·fa3d]]
+Nếu $A$ và $B$ độc lập thì $A$ cũng độc lập với $\overline B$. Thật vậy, $A\cap B$ và $A\cap\overline B$ xung khắc, hợp của chúng là $A$, nên
+
+  $$\begin{aligned}
+  P(A\cap\overline B)
+  &=P(A)-P(A\cap B)\\
+  &=P(A)-P(A)P(B)\\
+  &=P(A)\bigl(1-P(B)\bigr)\\
+  &=P(A)P(\overline B).
+  \end{aligned}$$
+
+[[P11·61dd]]
+Tương tự, các cặp $\overline A$ và $B$, $\overline A$ và $\overline B$ cũng độc lập. Ta có thể kết hợp công thức nhân và công thức cộng để xử lí “ít nhất một” hoặc “đúng một”.
+
+  :::example Ít nhất một linh kiện lỗi
+  Hai linh kiện hoạt động độc lập. Xác suất linh kiện thứ nhất đạt chuẩn là $0{,}96$ và xác suất linh kiện thứ hai đạt chuẩn là $0{,}95$. Tính xác suất cả hai đều đạt chuẩn và xác suất có ít nhất một linh kiện lỗi.
+
+  **Lời giải.** Gọi $A$, $B$ lần lượt là biến cố linh kiện thứ nhất, thứ hai đạt chuẩn. Do $A$ và $B$ độc lập:
+
+  $$P(A\cap B)=0{,}96\cdot0{,}95=0{,}912.$$
+
+  Biến cố “có ít nhất một linh kiện lỗi” là biến cố đối của “cả hai đều đạt chuẩn”. Vì vậy
+
+  $$P(\text{ít nhất một linh kiện lỗi})=1-0{,}912=0{,}088.$$
+
+  Vậy hai xác suất lần lượt là $0{,}912$ và $0{,}088$, tức $91{,}2\%$ và $8{,}8\%$.
+  :::
+
+[[P12·ec1b]]
+“Đúng một” gồm hai trường hợp xung khắc: lần thứ nhất thành công còn lần thứ hai thất bại, hoặc ngược lại.
+
+  :::example Đúng một lần ném trúng
+  Một vận động viên thực hiện hai quả ném độc lập. Xác suất ném trúng ở quả thứ nhất là $0{,}7$, ở quả thứ hai là $0{,}8$. Tính xác suất vận động viên ném trúng đúng một quả.
+
+  **Lời giải.** Gọi $A$, $B$ là biến cố ném trúng ở quả thứ nhất, thứ hai. Hai trường hợp $A\cap\overline B$ và $\overline A\cap B$ xung khắc, nên ta cộng xác suất của chúng:
+
+  $$\begin{aligned}
+  P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
+  &=0{,}7\cdot0{,}2+0{,}3\cdot0{,}8\\
+  &=0{,}14+0{,}24=0{,}38.
+  \end{aligned}$$
+
+  Vậy xác suất ném trúng đúng một quả là $0{,}38$.
+  :::
+
+[[P13·0ca2]]
+Công thức nhân còn cho phép tìm một xác suất chưa biết khi xác suất của giao đã được cho.
+
+  :::example Tìm xác suất còn thiếu
+  Một ứng dụng có hai bước kiểm tra độc lập $A$ và $B$. Xác suất vượt qua bước $A$ là $0{,}8$, còn xác suất vượt qua cả hai bước là $0{,}52$. Tính xác suất vượt qua bước $B$ và xác suất không vượt qua bước nào.
+
+  **Lời giải.** Vì $A$ và $B$ độc lập và $P(A)>0$, ta chia công thức nhân cho $P(A)$:
+
+  $$P(B)=\frac{P(A\cap B)}{P(A)}=\frac{0{,}52}{0{,}8}=0{,}65.$$
+
+  Hai biến cố đối cũng độc lập. Do đó
+
+  $$P(\overline A\cap\overline B)=(1-0{,}8)(1-0{,}65)=0{,}2\cdot0{,}35=0{,}07.$$
+
+  Vậy xác suất vượt qua bước $B$ là $0{,}65$; xác suất không vượt qua bước nào là $0{,}07$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P14·4419]]
+- **Thấy từ “và” là nhân.** Công thức $P(A\cap B)=P(A)P(B)$ chỉ dùng khi $A$, $B$ độc lập. Hãy kiểm tra điều kiện của phép thử hoặc đẳng thức xác suất.
+- **Nhân để tính “ít nhất một”.** Tích là xác suất cả hai cùng xảy ra. Xác suất ít nhất một thường bằng $1-P(\overline A\cap\overline B)$.
+- **Coi xung khắc là độc lập.** Nếu $P(A)>0$, $P(B)>0$ và $A$, $B$ xung khắc thì $P(A\cap B)=0$ nhưng $P(A)P(B)>0$; chúng không độc lập.
+- **Mặc nhiên coi hai lần rút là độc lập.** Nếu không hoàn lại, lần đầu làm thay đổi thành phần của hộp, nên hai lần rút không độc lập.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép thử ngẫu nhiên | random experiment
+  - biến cố | event
+  - biến cố giao | intersection of events
+  - biến cố hợp | union of events
+  - biến cố đối | complementary event
+  - biến cố xung khắc | mutually exclusive events
+  - biến cố độc lập | independent events
+  - công thức nhân xác suất | multiplication rule for probabilities
+  :::
+
+## Tóm tắt
+
+[[P15·eaac]]
+- $A$ và $B$ độc lập khi việc xảy ra hay không xảy ra của biến cố này không làm thay đổi khả năng xảy ra của biến cố kia.
+- Tiêu chí và công thức nhân: $A$, $B$ độc lập $\Leftrightarrow P(A\cap B)=P(A)P(B)$.
+- Nếu $A$, $B$ độc lập thì các cặp có thay $A$ hoặc $B$ bằng biến cố đối của nó cũng độc lập.
+- “Ít nhất một” thường tính bằng $1-P(\overline A\cap\overline B)$; “đúng một” là hợp của $A\cap\overline B$ và $\overline A\cap B$.
+- Độc lập không có nghĩa là xung khắc. Hai biến cố có xác suất dương và xung khắc thì không độc lập.
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g11/multiplication-rule – BẢN TIẾNG ANH ########
+---
+title: The multiplication rule for independent events
+description: Recognise independent events and use the multiplication rule to find intersections, complements and combined probabilities.
+minutes: 16
+---
+
+  :::goals
+  - Recognise independent events from the design of an experiment or from known probabilities.
+  - Use the rule $P(A\cap B)=P(A)P(B)$ for two independent events.
+  - Combine the multiplication rule with complementary events and the addition rule.
+  - Distinguish independent events from mutually exclusive events.
+  :::
+
+[[P1·a6d7]]
+In a game at a school fair, you roll a fair die and toss a fair coin. You win a prize if the die shows an even number **and** the coin shows heads. What is the probability of winning: should we add or multiply the two probabilities?
+
+[[P2·fe32]]
+The two results come from different devices. The result from one does not change the result from the other. We express this idea by saying that the two events are independent.
+
+## Recognising independent events
+
+### Explore: a die and a coin
+
+[[P3·4125]]
+Each outcome of the experiment is a pair consisting of the number on the die and the side of the coin. There are $6\cdot2=12$ equally likely outcomes:
+
+| Side of the coin | Die scores that can accompany it | Number of outcomes |
+|---|---|---|
+| Heads | $1,2,3,4,5,6$ | $6$ |
+| Tails | $1,2,3,4,5,6$ | $6$ |
+
+[[P4·3ccd]]
+Let $A$ be the event “the die shows an even number” and $B$ the event “the coin shows heads”. Of the $12$ outcomes, $6$ belong to $A$, $6$ belong to $B$ and $3$ belong to $A\cap B$. Therefore
+
+  $$P(A)=\frac{6}{12}=\frac12,\qquad P(B)=\frac{6}{12}=\frac12,\qquad P(A\cap B)=\frac{3}{12}=\frac14.$$
+
+[[P5·021a]]
+If we know that $A$ has occurred, only the $6$ outcomes with an even die score remain; half of these still have heads. Thus the occurrence of $A$ does not change the likelihood of $B$. The same statement holds when the roles of $A$ and $B$ are reversed.
+
+  :::definition Independent events
+  Two events $A$ and $B$ are **independent** if whether one event occurs does not change the likelihood that the other event occurs.
+  :::
+
+[[P6·663f]]
+Independence must come from the design of the experiment or be checked using probability values. Two actions separated in time are not automatically independent; for example, drawing two cards without replacement changes the contents of the box.
+
+## The multiplication rule
+
+[[P7·7485]]
+In the exploration, $\dfrac14=\dfrac12\cdot\dfrac12$. This is the first instance of the general rule.
+
+  :::theorem Multiplication rule for independent events
+  Two events $A$ and $B$ are independent if and only if
+
+  $$P(A\cap B)=P(A)P(B).$$
+
+  Therefore, if $A$ and $B$ are known to be independent, the probability that **both** occur is the product of their probabilities. Conversely, when the three probabilities are known, this equation tests independence.
+  :::
+
+[[P8·0cef]]
+Why does multiplication appear? In an independent two-stage model, suppose the proportion of first-stage outcomes favourable to $A$ is $P(A)$. For every such first-stage outcome, the proportion of second-stage outcomes favourable to $B$ remains $P(B)$. The proportion favourable to both stages is therefore $P(A)P(B)$.
+
+  :::example Rolling a die and tossing a coin
+  A fair die is rolled and a fair coin is tossed. Find the probability that the die shows a number greater than $4$ and the coin shows tails.
+
+  **Solution.** Let $A$ be the event “the score is greater than $4$” and $B$ the event “tails”. The events are independent because the die result does not affect the coin:
+
+  $$P(A)=\frac26=\frac13,\qquad P(B)=\frac12.$$
+
+  Use the multiplication rule:
+
+  $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
+
+  So the required probability is $\dfrac16$.
+  :::
+
+[[P9·6c81]]
+When an action is repeated, we must check whether the conditions for the later trial remain unchanged.
+
+  :::example With and without replacement
+  A box contains $3$ red cards and $2$ blue cards, all distinguishable. Two random draws are made. Let $A$ be the event “the first card is red” and $B$ the event “the second card is red”. Decide whether $A$ and $B$ are independent in two cases: the first card is replaced, and it is not replaced.
+
+  **Solution.** With replacement, the box contains $3$ red cards out of $5$ before each draw. There are $5\cdot5=25$ equally likely ordered pairs, of which $3\cdot3=9$ are red–red:
+
+  $$P(A)=P(B)=\frac35,\qquad P(A\cap B)=\frac9{25}=\frac35\cdot\frac35.$$
+
+  Thus $A$ and $B$ are independent with replacement.
+
+  Without replacement, there are $5\cdot4=20$ ordered pairs of different cards, of which $3\cdot2=6$ are red–red. Each position still contains a red card with probability $\dfrac35$, but
+
+  $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
+
+  Thus $A$ and $B$ are not independent without replacement.
+  :::
+
+[[P10·9045]]
+This example shows that we cannot use the multiplication rule merely because a question contains the word “and”. We must first decide whether the events are independent.
+
+## Combining complements and the addition rule
+
+[[P11·e82c]]
+If $A$ and $B$ are independent, then $A$ is also independent of $\overline B$. Indeed, $A\cap B$ and $A\cap\overline B$ are mutually exclusive and their union is $A$, so
+
+  $$\begin{aligned}
+  P(A\cap\overline B)
+  &=P(A)-P(A\cap B)\\
+  &=P(A)-P(A)P(B)\\
+  &=P(A)\bigl(1-P(B)\bigr)\\
+  &=P(A)P(\overline B).
+  \end{aligned}$$
+
+[[P12·9aed]]
+Similarly, the pairs $\overline A$ and $B$, and $\overline A$ and $\overline B$, are independent. We can therefore combine multiplication and addition to find probabilities involving “neither”, “at least one” or “exactly one”.
+
+  :::example At least one faulty component
+  Two components operate independently. The probability that the first meets the standard is $0.96$, and the probability that the second meets the standard is $0.95$. Find the probability that both meet the standard and the probability that at least one component is faulty.
+
+  **Solution.** Let $A$ and $B$ be the events that the first and second components meet the standard. Since $A$ and $B$ are independent,
+
+  $$P(A\cap B)=0.96\cdot0.95=0.912.$$
+
+  The event “at least one component is faulty” is the complement of “both components meet the standard”. Hence
+
+  $$P(\text{at least one faulty component})=1-0.912=0.088.$$
+
+  The two probabilities are $0.912$ and $0.088$, or $91.2\%$ and $8.8\%$, respectively.
+  :::
+
+[[P13·e887]]
+“Exactly one” consists of two mutually exclusive cases: the first trial succeeds and the second fails, or the other way round.
+
+  :::example Exactly one successful shot
+  An athlete takes two independent shots. The probability of success on the first shot is $0.7$, and that on the second is $0.8$. Find the probability of exactly one successful shot.
+
+  **Solution.** Let $A$ and $B$ be the events of success on the first and second shots. The cases $A\cap\overline B$ and $\overline A\cap B$ are mutually exclusive, so we add their probabilities:
+
+  $$\begin{aligned}
+  P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
+  &=0.7\cdot0.2+0.3\cdot0.8\\
+  &=0.14+0.24=0.38.
+  \end{aligned}$$
+
+  So the probability of exactly one successful shot is $0.38$.
+  :::
+
+[[P14·3af3]]
+The multiplication rule can also be rearranged to find an unknown probability when the probability of the intersection is given.
+
+  :::example Finding a missing probability
+  An app has two independent checks, $A$ and $B$. The probability of passing check $A$ is $0.8$, while the probability of passing both checks is $0.52$. Find the probability of passing check $B$ and the probability of passing neither check.
+
+  **Solution.** Since $A$ and $B$ are independent and $P(A)>0$, divide the multiplication rule by $P(A)$:
+
+  $$P(B)=\frac{P(A\cap B)}{P(A)}=\frac{0.52}{0.8}=0.65.$$
+
+  The complementary events are also independent. Therefore
+
+  $$P(\overline A\cap\overline B)=(1-0.8)(1-0.65)=0.2\cdot0.35=0.07.$$
+
+  The probability of passing check $B$ is $0.65$; the probability of passing neither check is $0.07$.
+  :::
+
+:::warning Common mistakes
+[[P15·77a5]]
+- **Multiplying whenever the word “and” appears.** Wrong: always write $P(A\cap B)=P(A)P(B)$. This rule requires $A$ and $B$ to be independent. First check the design of the experiment or verify $P(A\cap B)=P(A)P(B)$.
+- **Multiplying to find “at least one”.** The product $P(A)P(B)$ gives the probability that both events occur, not that at least one occurs. Usually use $1-P(\overline A\cap\overline B)$.
+- **Treating mutually exclusive events as independent.** If $P(A)>0$, $P(B)>0$ and $A$, $B$ are mutually exclusive, then $P(A\cap B)=0$ but $P(A)P(B)>0$; they are not independent.
+- **Assuming that two draws are independent.** Without replacement, the first draw changes the contents of the box. Use the multiplication rule for independent events only when the question or the model guarantees independence.
+:::
+
+## Key terms
+
+  :::terms
+  - random experiment | phép thử ngẫu nhiên
+  - event | biến cố
+  - intersection of events | biến cố giao
+  - union of events | biến cố hợp
+  - complementary event | biến cố đối
+  - mutually exclusive events | biến cố xung khắc
+  - independent events | biến cố độc lập
+  - multiplication rule for probabilities | công thức nhân xác suất
+  :::
+
+## Summary
+
+[[P16·9bd5]]
+- $A$ and $B$ are independent when whether one occurs does not change the likelihood that the other occurs.
+- Test and multiplication rule: $A$, $B$ independent $\Leftrightarrow P(A\cap B)=P(A)P(B)$.
+- If $A$, $B$ are independent, replacing either event by its complement also gives an independent pair.
+- Find “at least one” using $1-P(\overline A\cap\overline B)$; “exactly one” is the union of $A\cap\overline B$ and $\overline A\cap B$.
+- Independent does not mean mutually exclusive. Mutually exclusive events with positive probabilities are not independent.
+
+## Practice
+
+[[P17·8392]]
+Each exercise gives the fact you need and some steps. Try it yourself before opening the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g11/perpendicular-planes – BẢN TIẾNG VIỆT ########
+---
+title: Hai mặt phẳng vuông góc
+description: Hiểu góc nhị diện, góc giữa hai mặt phẳng, điều kiện hai mặt phẳng vuông góc và tính góc giữa các mặt trong lăng trụ đứng, hình chóp đều.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết góc nhị diện và xác định góc phẳng nhị diện.
+  - Xác định và tính góc giữa hai mặt phẳng cắt nhau.
+  - Chứng minh hai mặt phẳng vuông góc và dùng tính chất của hai mặt phẳng vuông góc.
+  - Nhận biết lăng trụ đứng, lăng trụ đều, hình hộp chữ nhật, hình chóp đều và tính góc giữa các mặt của chúng.
+  :::
+
+[[P1·a866]]
+Màn hình laptop quay quanh bản lề, là một đường thẳng $d$ nằm trên đế. Lấy $H$ trên bản lề, điểm $A$ trên đế và điểm $B$ trên màn hình sao cho $HA$ và $HB$ đều vuông góc với bản lề và dài $20$ cm.
+
+[[P2·3786]]
+Khi nào màn hình thẳng đứng so với đế? Nếu đo được $AB=20\sqrt2$ cm thì ta có kết luận được không?
+
+[[P3·e0a0]]
+Để trả lời, ta cần đo "độ mở" giữa hai mặt phẳng.
+
+## Góc nhị diện
+
+### Khám phá: mở màn hình laptop
+
+[[P4·27a4]]
+Gọi $\theta=\widehat{AHB}$ là góc mở. Vì $HA=HB=20$, ta tính $AB$ với vài giá trị của $\theta$:
+
+| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
+|---|---|---|---|
+| $AB$ | $20$ | $20\sqrt2\approx28{,}28$ | $20\sqrt3\approx34{,}64$ |
+
+[[P5·5f62]]
+Với $\theta=60^\circ$, tam giác $AHB$ đều nên $AB=20$. Với $\theta=90^\circ$, định lí Pythagore cho $AB=\sqrt{20^2+20^2}=20\sqrt2$. Với $\theta=120^\circ$, tam giác cân $AHB$ cho $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
+
+[[P6·861f]]
+Ngược lại, nếu $AB^2=800=HA^2+HB^2$ thì theo định lí Pythagore đảo, $\widehat{AHB}=90^\circ$. Vậy $AB=20\sqrt2$ cm cho biết màn hình thẳng đứng. Góc $\widehat{AHB}$ chính là thứ ta gọi là góc phẳng nhị diện.
+
+  :::definition Góc nhị diện
+  Hình gồm hai nửa mặt phẳng $(\alpha)$, $(\beta)$ có chung bờ $d$ gọi là **góc nhị diện**; $d$ là **cạnh**, hai nửa mặt phẳng là hai **mặt** của góc nhị diện.
+  :::
+
+  :::definition Góc phẳng nhị diện
+  Lấy $O\in d$. Trong $(\alpha)$ kẻ tia $Ox\perp d$, trong $(\beta)$ kẻ tia $Oy\perp d$. Góc $\widehat{xOy}$ gọi là **góc phẳng** của góc nhị diện, và **số đo của góc nhị diện** bằng số đo của $\widehat{xOy}$ (từ $0^\circ$ đến $180^\circ$).
+  :::
+
+[[P7·25ce]]
+Số đo này không phụ thuộc vào vị trí của $O$: khi dời $O$ dọc theo $d$, các tia mới song song và cùng hướng với các tia cũ, nên hai góc bằng nhau.
+
+:::diagram Góc phẳng nhị diện
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Góc giữa hai mặt phẳng
+
+[[P8·97c6]]
+Hai mặt phẳng cắt nhau tạo ra bốn góc nhị diện. Hai góc kề nhau có tổng số đo bằng $180^\circ$, nên ta chọn góc không vượt quá $90^\circ$ để đo độ mở.
+
+  :::definition Góc giữa hai mặt phẳng
+  Nếu hai mặt phẳng $(\alpha)$, $(\beta)$ cắt nhau và một góc nhị diện tạo bởi chúng có góc phẳng $\varphi$, thì **góc giữa** $(\alpha)$ và $(\beta)$ bằng $\varphi$ khi $\varphi\le90^\circ$ và bằng $180^\circ-\varphi$ khi $\varphi>90^\circ$. Nếu hai mặt phẳng song song hoặc trùng nhau, góc giữa chúng bằng $0^\circ$.
+
+  Hai mặt phẳng **vuông góc** khi góc giữa chúng bằng $90^\circ$; ta viết $(\alpha)\perp(\beta)$.
+  :::
+
+:::note Cách tìm góc giữa hai mặt phẳng cắt nhau
+[[P9·bf6e]]
+1. Tìm giao tuyến $d$ của hai mặt phẳng.
+2. Trong mỗi mặt phẳng, tìm một đường thẳng vuông góc với $d$ tại cùng một điểm.
+3. Tính góc giữa hai đường thẳng đó; nếu góc tù thì lấy góc bù.
+:::
+
+[[P10·adcf]]
+Ta áp dụng ngay trong hình lập phương.
+
+:::diagram Mặt phẳng $(A'BCD')$ cắt đáy $(ABCD)$ theo $BC$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Góc giữa hai mặt phẳng trong hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa $(A'BCD')$ và $(ABCD)$.
+
+  **Lời giải.** Hai mặt phẳng cắt nhau theo $BC$, nên ta tìm trong mỗi mặt phẳng một đường thẳng vuông góc với $BC$ tại $B$. Trong $(ABCD)$ đó là $BA$, vì $AB\perp BC$. Trong $(A'BCD')$ đó là $BA'$, vì $BC\perp(ABB'A')$ nên $BC\perp BA'$.
+
+  Vậy góc phẳng nhị diện là $\widehat{ABA'}$. Tam giác $ABA'$ vuông cân tại $A$ vì $AA'=AB$ và $AA'\perp AB$:
+
+  $$\widehat{ABA'}=45^\circ.$$
+
+  Vậy góc giữa $(A'BCD')$ và $(ABCD)$ bằng $45^\circ$.
+  :::
+
+## Hai mặt phẳng vuông góc
+
+[[P11·6a0c]]
+Làm sao biết hai mặt phẳng vuông góc mà không cần đo góc? Câu trả lời nằm ở một đường thẳng vuông góc với mặt phẳng.
+
+  :::theorem Điều kiện để hai mặt phẳng vuông góc
+  Nếu mặt phẳng $(\alpha)$ chứa một đường thẳng $a$ vuông góc với mặt phẳng $(\beta)$ thì $(\alpha)\perp(\beta)$.
+  :::
+
+[[P12·41cc]]
+Thật vậy, gọi $d$ là giao tuyến và $O$ là giao điểm của $a$ với $(\beta)$; khi đó $O\in d$. Vì $a\perp(\beta)$ nên $a\perp d$. Trong $(\beta)$ kẻ $Oy\perp d$; vì $a\perp(\beta)$ nên cũng có $a\perp Oy$. Vậy $a$ và $Oy$ cùng vuông góc với $d$ và vuông góc với nhau, tức là góc phẳng nhị diện bằng $90^\circ$.
+
+[[P13·6e0c]]
+Chiều ngược lại cho ta những tính chất hay dùng nhất khi tính toán.
+
+  :::theorem Tính chất của hai mặt phẳng vuông góc
+  Cho $(\alpha)\perp(\beta)$ có giao tuyến $d$.
+  - Nếu đường thẳng $a\subset(\alpha)$ và $a\perp d$ thì $a\perp(\beta)$.
+  - Nếu hai mặt phẳng cắt nhau cùng vuông góc với một mặt phẳng thứ ba thì giao tuyến của chúng vuông góc với mặt phẳng thứ ba đó.
+  :::
+
+[[P14·71a3]]
+Với tính chất thứ nhất: gọi $O=a\cap d$ và kẻ $Oy\perp d$ trong $(\beta)$. Góc phẳng nhị diện là $90^\circ$ nên $a\perp Oy$. Đường thẳng $a$ vuông góc với hai đường thẳng cắt nhau $d$ và $Oy$ của $(\beta)$, nên $a\perp(\beta)$. Tính chất thứ hai ta dùng như một kết quả có sẵn.
+
+:::diagram Hình chóp $S.ABCD$ có $SA\perp(ABCD)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Chứng minh hai mặt phẳng vuông góc
+  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4\sqrt3$. Chứng minh
+  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
+  Sau đó tính góc giữa $(SBC)$ và $(ABCD)$.
+
+  **Lời giải.** Mỗi câu ta tìm một đường thẳng nằm trong mặt phẳng này và vuông góc với mặt phẳng kia.
+
+  a) Mặt phẳng $(SAB)$ chứa $SA$, mà $SA\perp(ABCD)$. Vậy $(SAB)\perp(ABCD)$.
+
+  b) $BC\perp AB$ (hình vuông) và $BC\perp SA$ (vì $SA\perp(ABCD)$). Vậy $BC\perp(SAB)$. Mặt phẳng $(SBC)$ chứa $BC$, nên $(SBC)\perp(SAB)$.
+
+  c) $BD\perp AC$ (hai đường chéo của hình vuông) và $BD\perp SA$. Vậy $BD\perp(SAC)$. Mặt phẳng $(SBD)$ chứa $BD$, nên $(SBD)\perp(SAC)$.
+
+  Góc giữa $(SBC)$ và $(ABCD)$: giao tuyến là $BC$, ta có $BA\perp BC$ và $BS\perp BC$ (theo câu b, vì $BC\perp(SAB)$). Góc phẳng nhị diện là $\widehat{SBA}$, trong tam giác $SAB$ vuông tại $A$:
+
+  $$\tan\widehat{SBA}=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\widehat{SBA}=60^\circ.$$
+
+  Vậy góc giữa $(SBC)$ và $(ABCD)$ bằng $60^\circ$.
+  :::
+
+[[P15·beaf]]
+Khi một mặt bên nằm trong mặt phẳng vuông góc với đáy, đường cao của hình chóp nằm ngay trong mặt bên đó.
+
+  :::example Mặt bên vuông góc với đáy
+  Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=6$, $BC=4$. Tam giác $SAB$ đều và nằm trong mặt phẳng vuông góc với $(ABCD)$. Tính chiều cao $SH$ với $H$ là trung điểm của $AB$, rồi tính góc giữa $SC$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Tam giác $SAB$ đều nên đường trung tuyến $SH$ cũng là đường cao, tức $SH\perp AB$. Đường thẳng $SH$ nằm trong $(SAB)$ và vuông góc với giao tuyến $AB$, mà $(SAB)\perp(ABCD)$, nên $SH\perp(ABCD)$. Chiều cao là
+
+  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+  Vì $SH\perp(ABCD)$ nên $H$ là hình chiếu của $S$, và góc giữa $SC$ với $(ABCD)$ là $\widehat{SCH}$. Tam giác $HBC$ vuông tại $B$ cho $HC=\sqrt{3^2+4^2}=5$, rồi tam giác $SHC$ vuông tại $H$:
+
+  $$\tan\widehat{SCH}=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1{,}039\Rightarrow\widehat{SCH}\approx46{,}1^\circ.$$
+
+  Vậy chiều cao là $3\sqrt3$ và góc giữa $SC$ với $(ABCD)$ xấp xỉ $46{,}1^\circ$.
+  :::
+
+## Lăng trụ đứng và hình chóp đều
+
+[[P16·c6b9]]
+Các hình sau xuất hiện thường xuyên trong bài toán về góc giữa hai mặt phẳng.
+
+[[P17·f395]]
+- **Lăng trụ đứng** có cạnh bên vuông góc với mặt đáy. Mỗi mặt bên là hình chữ nhật chứa một cạnh bên, nên theo điều kiện ở trên, mỗi mặt bên vuông góc với đáy.
+- **Lăng trụ đều** là lăng trụ đứng có đáy là đa giác đều. **Hình hộp đứng** là lăng trụ đứng có đáy là hình bình hành; **hình hộp chữ nhật** có đáy là hình chữ nhật; **hình lập phương** có mọi mặt là hình vuông.
+- **Hình chóp đều** có đáy là đa giác đều và chân đường cao là tâm của đáy. Các cạnh bên bằng nhau, các mặt bên là những tam giác cân bằng nhau, và đường cao kẻ từ đỉnh của một mặt bên gọi là **trung đoạn**.
+- **Hình chóp cụt đều** là phần của hình chóp đều nằm giữa đáy và một mặt phẳng song song với đáy cắt các cạnh bên. Hai đáy là hai đa giác đều đồng dạng, các mặt bên là những hình thang cân bằng nhau.
+
+  :::example Lăng trụ đứng
+  Cho lăng trụ đứng $ABC.A'B'C'$ có đáy $ABC$ vuông tại $A$, $AB=3$, $AC=4$ và $AA'=1{,}8$. Tính góc giữa $(A'BC)$ và $(ABC)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Giao tuyến của hai mặt phẳng là $BC$. Kẻ $AH\perp BC$ tại $H$ trong $(ABC)$. Vì $AA'\perp(ABC)$ nên $BC\perp AA'$, do đó $BC\perp(A'AH)$ và suy ra $BC\perp A'H$. Góc phẳng nhị diện là $\widehat{A'HA}$.
+
+  Tính $AH$ từ diện tích tam giác vuông $ABC$ (với $BC=5$):
+
+  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2{,}4,\qquad\tan\widehat{A'HA}=\frac{AA'}{AH}=\frac{1{,}8}{2{,}4}=0{,}75.$$
+
+  Do đó $\widehat{A'HA}\approx36{,}9^\circ$. Vậy góc giữa $(A'BC)$ và $(ABC)$ xấp xỉ $36{,}9^\circ$.
+  :::
+
+[[P18·d566]]
+Với hình chóp đều, mặt bên và đáy cắt nhau theo một cạnh đáy, và trung điểm của cạnh đó giúp ta tìm góc phẳng.
+
+  :::example Hình chóp tứ giác đều
+  Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và cạnh bên bằng $5$. Gọi $O$ là tâm của đáy.
+  a) Chứng minh $(SAC)\perp(ABCD)$.
+  b) Tính góc giữa $(SBC)$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** a) Vì $S.ABCD$ là hình chóp đều nên $SO\perp(ABCD)$. Mặt phẳng $(SAC)$ chứa $SO$, vậy $(SAC)\perp(ABCD)$.
+
+  b) Gọi $M$ là trung điểm của $BC$. Hình vuông cho $OM\perp BC$, tam giác $SBC$ cân tại $S$ cho $SM\perp BC$. Vậy góc phẳng nhị diện là $\widehat{SMO}$. Ta có $OM=\dfrac{6}{2}=3$ và $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. Trong tam giác $SOM$ vuông tại $O$:
+
+  $$\cos\widehat{SMO}=\frac{OM}{SM}=\frac34\Rightarrow\widehat{SMO}\approx41{,}4^\circ.$$
+
+  Vậy góc giữa $(SBC)$ và $(ABCD)$ xấp xỉ $41{,}4^\circ$.
+
+  **Kiểm tra.** Chiều cao $SO=\sqrt{SM^2-OM^2}=\sqrt7$, và $SB^2=SO^2+OB^2=7+18=25$, đúng với cạnh bên $5$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·ea8a]]
+- **Lấy hai đường thẳng tuỳ ý.** Sai: góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng bất kì, mỗi đường nằm trong một mặt phẳng. Lí do sai: hai đường thẳng đó có thể không vuông góc với giao tuyến. Đúng: lấy hai đường thẳng cùng vuông góc với giao tuyến tại một điểm.
+- **Quên đổi góc tù.** Sai: góc phẳng nhị diện là $120^\circ$ nên góc giữa hai mặt phẳng là $120^\circ$. Lí do sai: góc giữa hai mặt phẳng không vượt quá $90^\circ$. Đúng: $180^\circ-120^\circ=60^\circ$.
+- **Cho rằng mọi đường thẳng trong $(\alpha)$ đều vuông góc với $(\beta)$.** Sai: $(\alpha)\perp(\beta)$ nên mọi đường thẳng của $(\alpha)$ vuông góc với $(\beta)$. Lí do sai: chỉ những đường thẳng vuông góc với giao tuyến mới vuông góc với $(\beta)$. Đúng: $a\subset(\alpha)$ và $a\perp d$.
+- **Thiếu điều kiện vuông góc với giao tuyến.** Sai: $(SAB)\perp(ABCD)$ nên $SA\perp(ABCD)$ với mọi tam giác $SAB$. Lí do sai: phải có $SA\perp AB$ (vuông góc với giao tuyến) mới suy ra được. Đúng: kiểm tra $SA\perp AB$ rồi mới kết luận.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - góc nhị diện | dihedral angle
+  - cạnh của góc nhị diện | edge of a dihedral angle
+  - góc phẳng nhị diện | plane angle of a dihedral angle
+  - góc giữa hai mặt phẳng | angle between two planes
+  - hai mặt phẳng vuông góc | perpendicular planes
+  - giao tuyến | line of intersection
+  - lăng trụ đứng | right prism
+  - lăng trụ đều | regular prism
+  - hình hộp chữ nhật | cuboid
+  - hình chóp đều | regular pyramid
+  - trung đoạn | slant height
+  - hình chóp cụt đều | frustum of a regular pyramid
+  :::
+
+## Tóm tắt
+
+[[P20·c709]]
+- Góc phẳng nhị diện $\widehat{xOy}$: $Ox\subset(\alpha)$, $Oy\subset(\beta)$ cùng vuông góc với giao tuyến $d$ tại $O$.
+- Góc giữa hai mặt phẳng cắt nhau là góc nhị diện không tù: $\varphi$ nếu $\varphi\le90^\circ$, $180^\circ-\varphi$ nếu $\varphi>90^\circ$.
+- $(\alpha)\perp(\beta)$ khi góc giữa chúng bằng $90^\circ$; chỉ cần $(\alpha)$ chứa một đường thẳng vuông góc với $(\beta)$.
+- Nếu $(\alpha)\perp(\beta)$ và $a\subset(\alpha)$, $a\perp d$ thì $a\perp(\beta)$. Hai mặt phẳng cắt nhau cùng vuông góc với mặt phẳng thứ ba thì giao tuyến vuông góc với mặt phẳng đó.
+- Lăng trụ đứng: các mặt bên vuông góc với đáy. Hình chóp đều: chân đường cao là tâm đáy; góc giữa mặt bên và đáy là $\widehat{SMO}$ với $M$ là trung điểm cạnh đáy.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g11/perpendicular-planes – BẢN TIẾNG ANH ########
+---
+title: Perpendicular planes
+description: Learn dihedral angles, the angle between two planes, the test for perpendicular planes, and how to find angles in right prisms and regular pyramids.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a dihedral angle and find its plane angle.
+  - Find and calculate the angle between two intersecting planes.
+  - Prove that two planes are perpendicular and use the properties of perpendicular planes.
+  - Recognise right prisms, regular prisms, cuboids and regular pyramids, and find the angles between their faces.
+  :::
+
+[[P1·c0e1]]
+A laptop screen turns about its hinge, which is a line $d$ lying in the base. Take a point $H$ on the hinge, a point $A$ on the base and a point $B$ on the screen so that $HA$ and $HB$ are both perpendicular to the hinge and each is $20$ cm long.
+
+[[P2·f468]]
+When is the screen upright, at a right angle to the base? If we measure $AB=20\sqrt2$ cm, can we draw a conclusion?
+
+[[P3·1281]]
+To answer, we need a way to measure how far open two planes are.
+
+## Dihedral angles
+
+### Explore: opening a laptop screen
+
+[[P4·0b29]]
+Let $\theta=\angle AHB$ be the opening angle. Since $HA=HB=20$, we compute $AB$ for a few values of $\theta$:
+
+| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
+|---|---|---|---|
+| $AB$ | $20$ | $20\sqrt2\approx28.28$ | $20\sqrt3\approx34.64$ |
+
+[[P5·a6c9]]
+For $\theta=60^\circ$, triangle $AHB$ is equilateral, so $AB=20$. For $\theta=90^\circ$, Pythagoras' theorem gives $AB=\sqrt{20^2+20^2}=20\sqrt2$. For $\theta=120^\circ$, the isosceles triangle $AHB$ gives $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
+
+[[P6·5f86]]
+Conversely, if $AB^2=800=HA^2+HB^2$, then by the converse of Pythagoras' theorem, $\angle AHB=90^\circ$. So $AB=20\sqrt2$ cm tells us the screen is upright. The angle $\angle AHB$ is exactly what we call the plane angle of a dihedral angle.
+
+  :::definition Dihedral angle
+  Two half-planes $(\alpha)$, $(\beta)$ with a common boundary line $d$ form a **dihedral angle**. The line $d$ is its **edge** and the two half-planes are its **faces**.
+  :::
+
+  :::definition Plane angle of a dihedral angle
+  Take a point $O\in d$. In $(\alpha)$ draw the ray $Ox\perp d$, and in $(\beta)$ draw the ray $Oy\perp d$. The angle $\angle xOy$ is the **plane angle** of the dihedral angle, and the **measure of the dihedral angle** is the measure of $\angle xOy$ (from $0^\circ$ to $180^\circ$).
+  :::
+
+[[P7·9820]]
+This measure does not depend on the position of $O$: when we slide $O$ along $d$, the new rays are parallel to the old ones and point the same way, so the two angles are equal.
+
+:::diagram Plane angle of a dihedral angle
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### The angle between two planes
+
+[[P8·753e]]
+Two intersecting planes form four dihedral angles. Two neighbouring angles add up to $180^\circ$, so we choose the one that is at most $90^\circ$ to measure the opening.
+
+  :::definition Angle between two planes
+  Suppose $(\alpha)$ and $(\beta)$ intersect and one of their dihedral angles has plane angle $\varphi$. The **angle between** $(\alpha)$ and $(\beta)$ is $\varphi$ if $\varphi\le90^\circ$ and $180^\circ-\varphi$ if $\varphi>90^\circ$. If the planes are parallel or coincide, the angle between them is $0^\circ$.
+
+  Two planes are **perpendicular** when the angle between them is $90^\circ$; we write $(\alpha)\perp(\beta)$.
+  :::
+
+:::note Finding the angle between two intersecting planes
+[[P9·31bd]]
+1. Find the line of intersection $d$ of the two planes.
+2. In each plane, find a line perpendicular to $d$ at the same point.
+3. Find the angle between these two lines; if it is obtuse, take its supplement.
+:::
+
+[[P10·4b13]]
+We try this at once in a cube.
+
+:::diagram Plane $(A'BCD')$ meets the base $(ABCD)$ along $BC$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The angle between two planes in a cube
+  In the cube $ABCD.A'B'C'D'$, find the angle between $(A'BCD')$ and $(ABCD)$.
+
+  **Solution.** The planes meet along $BC$, so we look for a line perpendicular to $BC$ at $B$ in each plane. In $(ABCD)$ it is $BA$, because $AB\perp BC$. In $(A'BCD')$ it is $BA'$, because $BC\perp(ABB'A')$ gives $BC\perp BA'$.
+
+  So the plane angle is $\angle ABA'$. Triangle $ABA'$ is right-angled and isosceles at $A$, since $AA'=AB$ and $AA'\perp AB$:
+
+  $$\angle ABA'=45^\circ.$$
+
+  So the angle between $(A'BCD')$ and $(ABCD)$ is $45^\circ$.
+  :::
+
+## Perpendicular planes
+
+[[P11·64f7]]
+How can we know that two planes are perpendicular without measuring an angle? The answer lies in a line perpendicular to a plane.
+
+  :::theorem Test for perpendicular planes
+  If a plane $(\alpha)$ contains a line $a$ that is perpendicular to a plane $(\beta)$, then $(\alpha)\perp(\beta)$.
+  :::
+
+[[P12·6eb5]]
+Here is why. Let $d$ be the line of intersection and $O$ the point where $a$ meets $(\beta)$; then $O\in d$. Since $a\perp(\beta)$, we have $a\perp d$. In $(\beta)$ draw $Oy\perp d$; since $a\perp(\beta)$, also $a\perp Oy$. So $a$ and $Oy$ are both perpendicular to $d$ and perpendicular to each other: the plane angle is $90^\circ$.
+
+[[P13·6bf5]]
+The other direction gives the properties we use most in calculations.
+
+  :::theorem Properties of perpendicular planes
+  Let $(\alpha)\perp(\beta)$ with line of intersection $d$.
+  - If a line $a\subset(\alpha)$ and $a\perp d$, then $a\perp(\beta)$.
+  - If two intersecting planes are both perpendicular to a third plane, then their line of intersection is perpendicular to the third plane.
+  :::
+
+[[P14·9400]]
+For the first property: let $O=a\cap d$ and draw $Oy\perp d$ in $(\beta)$. The plane angle is $90^\circ$, so $a\perp Oy$. The line $a$ is perpendicular to two intersecting lines $d$ and $Oy$ of $(\beta)$, so $a\perp(\beta)$. We use the second property as a ready-made result.
+
+:::diagram Pyramid $S.ABCD$ with $SA\perp(ABCD)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Proving that planes are perpendicular
+  The pyramid $S.ABCD$ has a square base $ABCD$ of side $4$, $SA\perp(ABCD)$ and $SA=4\sqrt3$. Prove that
+  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
+  Then find the angle between $(SBC)$ and $(ABCD)$.
+
+  **Solution.** For each part we find a line lying in one plane and perpendicular to the other plane.
+
+  a) The plane $(SAB)$ contains $SA$, and $SA\perp(ABCD)$. So $(SAB)\perp(ABCD)$.
+
+  b) $BC\perp AB$ (square) and $BC\perp SA$ (because $SA\perp(ABCD)$). So $BC\perp(SAB)$. The plane $(SBC)$ contains $BC$, so $(SBC)\perp(SAB)$.
+
+  c) $BD\perp AC$ (diagonals of a square) and $BD\perp SA$. So $BD\perp(SAC)$. The plane $(SBD)$ contains $BD$, so $(SBD)\perp(SAC)$.
+
+  For the angle between $(SBC)$ and $(ABCD)$: the line of intersection is $BC$, and $BA\perp BC$ and $BS\perp BC$ (by part b, since $BC\perp(SAB)$). The plane angle is $\angle SBA$, and in triangle $SAB$, right-angled at $A$:
+
+  $$\tan\angle SBA=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\angle SBA=60^\circ.$$
+
+  So the angle between $(SBC)$ and $(ABCD)$ is $60^\circ$.
+  :::
+
+[[P15·7b04]]
+When a face lies in a plane perpendicular to the base, the height of the pyramid lies in that face.
+
+  :::example A face perpendicular to the base
+  The pyramid $S.ABCD$ has a rectangular base with $AB=6$ and $BC=4$. Triangle $SAB$ is equilateral and lies in a plane perpendicular to $(ABCD)$. Find the height $SH$, where $H$ is the midpoint of $AB$, and then the angle between $SC$ and $(ABCD)$ (round to the nearest tenth of a degree).
+
+  **Solution.** Triangle $SAB$ is equilateral, so its median $SH$ is also an altitude: $SH\perp AB$. The line $SH$ lies in $(SAB)$ and is perpendicular to the line of intersection $AB$, and $(SAB)\perp(ABCD)$, so $SH\perp(ABCD)$. The height is
+
+  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+  Since $SH\perp(ABCD)$, the point $H$ is the projection of $S$, and the angle between $SC$ and $(ABCD)$ is $\angle SCH$. Triangle $HBC$ is right-angled at $B$, so $HC=\sqrt{3^2+4^2}=5$; then in triangle $SHC$, right-angled at $H$:
+
+  $$\tan\angle SCH=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1.039\Rightarrow\angle SCH\approx46.1^\circ.$$
+
+  So the height is $3\sqrt3$ and the angle between $SC$ and $(ABCD)$ is about $46.1^\circ$.
+  :::
+
+## Right prisms and regular pyramids
+
+[[P16·8de0]]
+These solids appear all the time in problems about the angle between two planes.
+
+[[P17·cea4]]
+- A **right prism** has its lateral edges perpendicular to the base. Each lateral face is a rectangle containing a lateral edge, so by the test above, each lateral face is perpendicular to the base.
+- A **regular prism** is a right prism whose base is a regular polygon. A right parallelepiped is a right prism whose base is a parallelogram; a **cuboid** has a rectangular base; a **cube** has six square faces.
+- A **regular pyramid** has a regular polygon as its base, and the foot of its height is the centre of the base. Its lateral edges are equal, its lateral faces are congruent isosceles triangles, and the altitude of a lateral face from the apex is the **slant height**.
+- A **frustum of a regular pyramid** is the part of a regular pyramid between its base and a plane parallel to the base. Its two bases are similar regular polygons, and its lateral faces are congruent isosceles trapezia.
+
+  :::example A right prism
+  The right prism $ABC.A'B'C'$ has base $ABC$ right-angled at $A$, with $AB=3$, $AC=4$ and $AA'=1.8$. Find the angle between $(A'BC)$ and $(ABC)$ (round to the nearest tenth of a degree).
+
+  **Solution.** The line of intersection is $BC$. In $(ABC)$ draw $AH\perp BC$ at $H$. Since $AA'\perp(ABC)$, we have $BC\perp AA'$, so $BC\perp(A'AH)$ and therefore $BC\perp A'H$. The plane angle is $\angle A'HA$.
+
+  We find $AH$ from the area of the right-angled triangle $ABC$ (with $BC=5$):
+
+  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2.4,\qquad\tan\angle A'HA=\frac{AA'}{AH}=\frac{1.8}{2.4}=0.75.$$
+
+  So $\angle A'HA\approx36.9^\circ$. The angle between $(A'BC)$ and $(ABC)$ is about $36.9^\circ$.
+  :::
+
+[[P18·35f5]]
+In a regular pyramid, a lateral face meets the base along a side of the base, and the midpoint of that side helps us find the plane angle.
+
+  :::example A regular square pyramid
+  The regular square pyramid $S.ABCD$ has base side $6$ and lateral edge $5$. Let $O$ be the centre of the base.
+  a) Prove that $(SAC)\perp(ABCD)$.
+  b) Find the angle between $(SBC)$ and $(ABCD)$ (round to the nearest tenth of a degree).
+
+  **Solution.** a) Since $S.ABCD$ is a regular pyramid, $SO\perp(ABCD)$. The plane $(SAC)$ contains $SO$, so $(SAC)\perp(ABCD)$.
+
+  b) Let $M$ be the midpoint of $BC$. The square gives $OM\perp BC$, and the isosceles triangle $SBC$ gives $SM\perp BC$. So the plane angle is $\angle SMO$. We have $OM=\dfrac{6}{2}=3$ and $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. In triangle $SOM$, right-angled at $O$:
+
+  $$\cos\angle SMO=\frac{OM}{SM}=\frac34\Rightarrow\angle SMO\approx41.4^\circ.$$
+
+  So the angle between $(SBC)$ and $(ABCD)$ is about $41.4^\circ$.
+
+  **Check.** The height is $SO=\sqrt{SM^2-OM^2}=\sqrt7$, and $SB^2=SO^2+OB^2=7+18=25$, which matches the lateral edge $5$.
+  :::
+
+:::warning Common mistakes
+[[P19·0dbd]]
+- **Taking any two lines.** Wrong: the angle between two planes equals the angle between any two lines, one in each plane. Why it is wrong: those lines may not be perpendicular to the line of intersection. Right: take two lines that are both perpendicular to the line of intersection at one point.
+- **Forgetting to change an obtuse angle.** Wrong: the plane angle is $120^\circ$, so the angle between the planes is $120^\circ$. Why it is wrong: the angle between two planes is never more than $90^\circ$. Right: $180^\circ-120^\circ=60^\circ$.
+- **Thinking every line in $(\alpha)$ is perpendicular to $(\beta)$.** Wrong: $(\alpha)\perp(\beta)$, so every line of $(\alpha)$ is perpendicular to $(\beta)$. Why it is wrong: only lines perpendicular to the line of intersection are. Right: $a\subset(\alpha)$ and $a\perp d$.
+- **Missing the condition of being perpendicular to the line of intersection.** Wrong: $(SAB)\perp(ABCD)$, so $SA\perp(ABCD)$ for any triangle $SAB$. Why it is wrong: we need $SA\perp AB$ (perpendicular to the line of intersection) first. Right: check $SA\perp AB$, then conclude.
+:::
+
+## Key terms
+
+  :::terms
+  - dihedral angle | góc nhị diện
+  - edge of a dihedral angle | cạnh của góc nhị diện
+  - plane angle of a dihedral angle | góc phẳng nhị diện
+  - angle between two planes | góc giữa hai mặt phẳng
+  - perpendicular planes | hai mặt phẳng vuông góc
+  - line of intersection | giao tuyến
+  - right prism | lăng trụ đứng
+  - regular prism | lăng trụ đều
+  - cuboid | hình hộp chữ nhật
+  - regular pyramid | hình chóp đều
+  - slant height | trung đoạn
+  - frustum of a regular pyramid | hình chóp cụt đều
+  :::
+
+## Summary
+
+[[P20·7e06]]
+- The plane angle $\angle xOy$: $Ox\subset(\alpha)$ and $Oy\subset(\beta)$ are both perpendicular to the line of intersection $d$ at $O$.
+- The angle between two intersecting planes is the non-obtuse dihedral angle: $\varphi$ if $\varphi\le90^\circ$, and $180^\circ-\varphi$ if $\varphi>90^\circ$.
+- $(\alpha)\perp(\beta)$ when the angle between them is $90^\circ$; it is enough that $(\alpha)$ contains a line perpendicular to $(\beta)$.
+- If $(\alpha)\perp(\beta)$ and $a\subset(\alpha)$ with $a\perp d$, then $a\perp(\beta)$. If two intersecting planes are both perpendicular to a third plane, their line of intersection is perpendicular to it.
+- Right prism: the lateral faces are perpendicular to the base. Regular pyramid: the foot of the height is the centre of the base; the angle between a lateral face and the base is $\angle SMO$, where $M$ is the midpoint of a side of the base.
+
+## Practice
+
+[[P21·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Revision
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/angle-formulas-space – BẢN TIẾNG VIỆT ########
+---
+title: Công thức tính góc trong không gian
+description: Tính góc giữa hai đường thẳng, giữa đường thẳng và mặt phẳng, giữa hai mặt phẳng bằng toạ độ; áp dụng cho hình lập phương, hình chóp và bài toán thực tế.
+minutes: 22
+---
+
+  :::goals
+  - Tính góc giữa hai đường thẳng: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+  - Tính góc giữa đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$.
+  - Tính góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+  - Đặt hình lập phương, hình chóp vào hệ $Oxyz$ để tính góc.
+  :::
+
+[[P1·ba6e]]
+Một cột ăng-ten cao $10$ m được giữ bằng dây cáp nối từ đỉnh cột xuống một móc neo trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 10)$, móc neo là $A(6; 8; 0)$. Dây cáp hợp với mặt đất một góc bao nhiêu độ?
+
+[[P2·a0a8]]
+Ở bài [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations) ta đã tính góc giữa hai vectơ. Bài này dùng công thức đó, thêm dấu giá trị tuyệt đối, để tính góc giữa đường thẳng và mặt phẳng.
+
+:::diagram Cột ăng-ten và dây cáp
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Góc giữa đường thẳng và mặt phẳng
+
+### Khám phá: hai cách tính góc của dây cáp
+
+[[P3·3687]]
+**Cách 1: tam giác vuông.** Hình chiếu của dây $TA$ trên mặt đất là $OA$, với $OA=\sqrt{36+64}=10$. Tam giác $TOA$ vuông tại $O$ có $OT=OA=10$, nên $\widehat{OAT}=45^\circ$.
+
+[[P4·c430]]
+**Cách 2: vectơ.** Lấy $\vec{u}=\overrightarrow{TA}=(6; 8; -10)$ và vectơ pháp tuyến của mặt đất $\vec{k}=(0; 0; 1)$. Ta có
+  $$\cos(\vec{u}, \vec{k})=\frac{-10}{\sqrt{200}\cdot1}=-\frac{\sqrt2}{2},\qquad (\vec{u}, \vec{k})=135^\circ.$$
+[[P5·fdbe]]
+Góc giữa giá của $\vec{u}$ và đường vuông góc với mặt đất là $180^\circ-135^\circ=45^\circ$. Góc cần tìm bù với góc đó tới $90^\circ$: $90^\circ-45^\circ=45^\circ$. Vì $\sin\varphi=\cos(90^\circ-\varphi)$, ta có thể tính thẳng $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}||\vec{k}|}=\dfrac{\sqrt2}{2}$.
+
+  :::theorem Góc giữa đường thẳng và mặt phẳng
+  Cho đường thẳng $\Delta$ có vectơ chỉ phương $\vec{u}$ và mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}$. Góc $\varphi$ giữa $\Delta$ và $(P)$ ($0^\circ\le\varphi\le90^\circ$) thoả mãn
+  $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
+  :::
+
+[[P6·1db9]]
+**Vì sao đúng?** Góc giữa $\Delta$ và $(P)$ là góc giữa $\Delta$ và hình chiếu của nó trên $(P)$. Góc này cộng với góc giữa $\Delta$ và đường vuông góc với $(P)$ bằng $90^\circ$. Góc giữa hai đường thẳng $\Delta$ và giá của $\vec{n}$ có cosin bằng $\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$, và cosin của $90^\circ-\varphi$ chính là $\sin\varphi$.
+
+## Góc giữa hai đường thẳng và giữa hai mặt phẳng
+
+[[P7·fc5f]]
+Góc giữa hai đường thẳng luôn từ $0^\circ$ đến $90^\circ$, còn góc giữa hai vectơ chỉ phương có thể tù. Vì vậy ta lấy giá trị tuyệt đối của tích vô hướng. Góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng lần lượt vuông góc với chúng, nên ta dùng hai vectơ pháp tuyến.
+
+  :::theorem Hai công thức góc
+  - Hai đường thẳng $\Delta_1$, $\Delta_2$ có vectơ chỉ phương $\vec{u}_1$, $\vec{u}_2$ tạo với nhau góc $\varphi$ ($0^\circ\le\varphi\le90^\circ$) với
+  $$\cos\varphi=\frac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}.$$
+  - Hai mặt phẳng $(P_1)$, $(P_2)$ có vectơ pháp tuyến $\vec{n}_1$, $\vec{n}_2$ tạo với nhau góc $\varphi$ ($0^\circ\le\varphi\le90^\circ$) với
+  $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|}.$$
+  :::
+
+  :::example Góc giữa hai đường thẳng
+  Tính góc giữa $d_1: \begin{cases}x=1+t\\ y=2-t\\ z=3\end{cases}$ và $d_2: \begin{cases}x=2\\ y=s\\ z=1-s.\end{cases}$
+
+  **Lời giải.** Đọc vectơ chỉ phương từ các hệ số của tham số: $\vec{u}_1=(1; -1; 0)$, $\vec{u}_2=(0; 1; -1)$. Khi đó:
+
+  $$\vec{u}_1\cdot\vec{u}_2=0-1+0=-1,\qquad \cos\varphi=\frac{|-1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  Vậy góc giữa $d_1$ và $d_2$ bằng $60^\circ$.
+
+  **Kiểm tra.** Góc giữa hai *vectơ* $\vec{u}_1$, $\vec{u}_2$ là $120^\circ$ (cosin bằng $-\dfrac12$); góc giữa hai *đường thẳng* là $180^\circ-120^\circ=60^\circ$.
+  :::
+
+[[P8·d19c]]
+Trong hình học không gian, ta đặt hình vào hệ trục sao cho nhiều toạ độ bằng $0$, rồi dùng các công thức trên.
+
+  :::example Hai đường chéo mặt của hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Tính góc giữa hai đường thẳng $AB'$ và $BC'$.
+
+  **Lời giải.** Đặt $A(0; 0; 0)$, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Khi đó $B'(1; 0; 1)$, $C'(1; 1; 1)$ và
+
+  $$\overrightarrow{AB'}=(1; 0; 1),\qquad \overrightarrow{BC'}=(0; 1; 1),\qquad \cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  Vậy góc giữa $AB'$ và $BC'$ bằng $60^\circ$.
+  :::
+
+[[P9·5665]]
+Hình chóp có một cạnh bên vuông góc với đáy cũng đặt được vào hệ trục rất gọn.
+
+:::diagram Hình chóp $S.ABCD$ có $SA$ vuông góc với đáy
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Góc giữa cạnh bên và mặt phẳng trong hình chóp
+  Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $2$, $SA$ vuông góc với đáy và $SA=2$. Tính góc giữa $SC$ và mặt đáy, và góc giữa $SB$ và mặt phẳng $(SAC)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Đặt $A(0; 0; 0)$, $B(2; 0; 0)$, $D(0; 2; 0)$, $S(0; 0; 2)$, nên $C(2; 2; 0)$. Mặt đáy là $(Oxy)$ với vectơ pháp tuyến $(0; 0; 1)$:
+
+  $$\overrightarrow{SC}=(2; 2; -2),\qquad \sin\varphi_1=\frac{|-2|}{\sqrt{12}\cdot1}=\frac{1}{\sqrt3},\qquad \varphi_1\approx35{,}3^\circ.$$
+
+  Mặt phẳng $(SAC)$ chứa $Oz$ và điểm $C(2; 2; 0)$, nên có phương trình $x-y=0$, với $\vec{n}=(1; -1; 0)$. Với $\overrightarrow{SB}=(2; 0; -2)$:
+
+  $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \varphi_2=30^\circ.$$
+
+  Vậy $SC$ tạo với đáy góc khoảng $35{,}3^\circ$, và $SB$ tạo với $(SAC)$ góc $30^\circ$.
+  :::
+
+[[P10·97c1]]
+Với hai mặt phẳng, ta chỉ cần hai vectơ pháp tuyến.
+
+  :::example Góc giữa hai mặt phẳng
+  a) Tính góc giữa $(P): x+2y-2z+1=0$ và $(Q): 2x-y+2z-3=0$ (làm tròn đến hàng phần mười của độ).
+
+  b) Trong hình chóp ở ví dụ trước, tính góc giữa mặt bên $(SBC)$ và mặt đáy.
+
+  **Lời giải.** a) $\vec{n}_P=(1; 2; -2)$, $\vec{n}_Q=(2; -1; 2)$, đều có độ dài $3$:
+
+  $$\cos\varphi=\frac{|2-2-4|}{3\cdot3}=\frac49,\qquad \varphi\approx63{,}6^\circ.$$
+
+  b) Mặt phẳng $(SBC)$ đi qua $B(2; 0; 0)$, $C(2; 2; 0)$, $S(0; 0; 2)$. Nó chứa đường $BC$ song song với $Oy$, nên có dạng $Ax+Cz+D=0$; thay $B$ và $S$ ta được $(SBC): x+z-2=0$, với $\vec{n}=(1; 0; 1)$:
+
+  $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\circ.$$
+
+  Vậy a) góc khoảng $63{,}6^\circ$; b) góc $45^\circ$.
+  :::
+
+[[P11·2101]]
+Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm theo bốn bước.
+
+  :::example Mái lều hình chóp
+  Một chiếc lều có dạng hình chóp tứ giác đều: đáy là hình vuông cạnh $4$ m, đỉnh lều cao $3$ m so với tâm đáy. Tính góc giữa một mặt mái và mặt đất, và góc giữa một cạnh mái với mặt đất (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần một góc giữa hai mặt phẳng và một góc giữa đường thẳng và mặt phẳng.
+
+  *Tìm cách giải.* Đặt tâm đáy ở gốc: $B(2; -2; 0)$, $C(2; 2; 0)$, đỉnh $S(0; 0; 3)$; mặt đất là $(Oxy)$, vectơ pháp tuyến $\vec{k}=(0; 0; 1)$.
+
+  *Giải.* Mặt mái $(SBC)$ chứa $BC$ song song với $Oy$, nên có dạng $Ax+Cz+D=0$. Thay $B$ và $S$: $(SBC): 3x+2z-6=0$. Khi đó:
+
+  $$\cos\varphi_1=\frac{|2|}{\sqrt{9+4}\cdot1}=\frac{2}{\sqrt{13}},\qquad \varphi_1\approx56{,}3^\circ.$$
+
+  Với cạnh $SC$, $\overrightarrow{SC}=(2; 2; -3)$:
+
+  $$\sin\varphi_2=\frac{|-3|}{\sqrt{17}\cdot1}=\frac{3}{\sqrt{17}},\qquad \varphi_2\approx46{,}7^\circ.$$
+
+  Vậy mặt mái nghiêng khoảng $56{,}3^\circ$ và cạnh mái nghiêng khoảng $46{,}7^\circ$ so với mặt đất.
+
+  *Nhìn lại.* Cạnh mái thoải hơn mặt mái ($46{,}7^\circ<56{,}3^\circ$), hợp lí vì cạnh mái đi xa hơn theo phương ngang ($2\sqrt2$ m so với $2$ m) để lên cùng độ cao $3$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·dcf7]]
+- **Quên dấu giá trị tuyệt đối.** Sai: góc giữa $d_1$, $d_2$ ở Ví dụ 1 là $120^\circ$. Vì sao sai: góc giữa hai đường thẳng không vượt quá $90^\circ$. Đúng: $\cos\varphi=\dfrac{|-1|}{2}$, $\varphi=60^\circ$.
+- **Dùng côsin cho góc giữa đường thẳng và mặt phẳng.** Sai: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ cho $SB$ và $(SAC)$, ra $60^\circ$. Vì sao sai: biểu thức đó là côsin của góc giữa $SB$ và đường vuông góc với mặt phẳng. Đúng: dùng $\sin\varphi$, được $30^\circ$.
+- **Dùng vectơ chỉ phương thay cho vectơ pháp tuyến của mặt phẳng.** Sai: lấy $\overrightarrow{BC}$ làm "vectơ của mặt phẳng $(SBC)$". Vì sao sai: $\overrightarrow{BC}$ nằm trong mặt phẳng, không vuông góc với nó. Đúng: tìm phương trình mặt phẳng, rồi đọc vectơ pháp tuyến.
+- **Nhầm chế độ độ và radian trên máy tính.** Sai: $\arccos\dfrac49\approx1{,}11$ rồi ghi $1{,}11^\circ$. Đúng: chuyển máy tính sang chế độ độ, được $63{,}6^\circ$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - góc giữa hai đường thẳng | angle between two lines
+  - góc giữa đường thẳng và mặt phẳng | angle between a line and a plane
+  - góc giữa hai mặt phẳng | angle between two planes
+  - vectơ chỉ phương | direction vector
+  - vectơ pháp tuyến | normal vector
+  - hình chiếu vuông góc | orthogonal projection
+  - hình chóp tứ giác đều | regular square pyramid
+  - góc nhị diện | dihedral angle
+  :::
+
+## Tóm tắt
+
+[[P13·246e]]
+- Hai đường thẳng: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+- Đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ (sin, vì góc với pháp tuyến bằng $90^\circ-\varphi$).
+- Hai mặt phẳng: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+- Mọi góc trên đều thuộc đoạn $[0^\circ; 90^\circ]$, nhờ dấu giá trị tuyệt đối.
+- Mặt đất, mặt đáy: $(Oxy)$ với $\vec{k}=(0; 0; 1)$.
+- Hình lập phương, hình chóp: chọn gốc ở một đỉnh hoặc tâm đáy để nhiều toạ độ bằng $0$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/angle-formulas-space – BẢN TIẾNG ANH ########
+---
+title: Angle formulas in space
+description: Find the angle between two lines, between a line and a plane, and between two planes with coordinates; apply it to cubes, pyramids and real problems.
+minutes: 22
+---
+
+  :::goals
+  - Find the angle between two lines: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+  - Find the angle between a line and a plane: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$.
+  - Find the angle between two planes: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+  - Place a cube or a pyramid in $Oxyz$ to compute angles.
+  :::
+
+[[P1·1d17]]
+A $10$ m radio mast is held by a cable running from the top of the mast to an anchor in the ground. With the foot of the mast at the origin and the metre as unit, the top of the mast is $T(0, 0, 10)$ and the anchor is $A(6, 8, 0)$. What angle does the cable make with the ground?
+
+[[P2·5f80]]
+In the lesson [Operations on vectors in coordinates](lesson:vector-coordinate-operations) we found the angle between two vectors. This lesson uses that formula, with an absolute value added, to find angles between lines and planes.
+
+:::diagram The mast and the cable
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The angle between a line and a plane
+
+### Exploring: two ways to find the angle of the cable
+
+[[P3·3ab1]]
+**Method 1: a right-angled triangle.** The projection of the cable $TA$ on the ground is $OA$, with $OA=\sqrt{36+64}=10$. Triangle $TOA$ has a right angle at $O$ and $OT=OA=10$, so $\angle OAT=45^\circ$.
+
+[[P4·c130]]
+**Method 2: vectors.** Take $\vec{u}=\overrightarrow{TA}=(6, 8, -10)$ and the normal vector of the ground $\vec{k}=(0, 0, 1)$. We have
+  $$\cos(\vec{u}, \vec{k})=\frac{-10}{\sqrt{200}\cdot1}=-\frac{\sqrt2}{2},\qquad (\vec{u}, \vec{k})=135^\circ.$$
+[[P5·acfb]]
+The angle between the line of $\vec{u}$ and the vertical is $180^\circ-135^\circ=45^\circ$. The angle we want makes $90^\circ$ together with that angle: $90^\circ-45^\circ=45^\circ$. Since $\sin\varphi=\cos(90^\circ-\varphi)$, we can go straight to $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}||\vec{k}|}=\dfrac{\sqrt2}{2}$.
+
+  :::theorem The angle between a line and a plane
+  Let the line $\Delta$ have direction vector $\vec{u}$ and the plane $(P)$ have normal vector $\vec{n}$. The angle $\varphi$ between $\Delta$ and $(P)$ ($0^\circ\le\varphi\le90^\circ$) satisfies
+  $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
+  :::
+
+[[P6·8ed7]]
+**Why is it true?** The angle between $\Delta$ and $(P)$ is the angle between $\Delta$ and its projection on $(P)$. This angle and the angle between $\Delta$ and the normal to $(P)$ add up to $90^\circ$. The angle between the line $\Delta$ and the line of $\vec{n}$ has cosine $\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$, and the cosine of $90^\circ-\varphi$ is exactly $\sin\varphi$.
+
+## The angle between two lines and between two planes
+
+[[P7·fc37]]
+The angle between two lines is always between $0^\circ$ and $90^\circ$, but the angle between their direction vectors can be obtuse. That is why we take the absolute value of the scalar product. The angle between two planes equals the angle between two lines perpendicular to them, so we use the two normal vectors.
+
+  :::theorem Two angle formulas
+  - Two lines $\Delta_1$, $\Delta_2$ with direction vectors $\vec{u}_1$, $\vec{u}_2$ make an angle $\varphi$ ($0^\circ\le\varphi\le90^\circ$) with
+  $$\cos\varphi=\frac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}.$$
+  - Two planes $(P_1)$, $(P_2)$ with normal vectors $\vec{n}_1$, $\vec{n}_2$ make an angle $\varphi$ ($0^\circ\le\varphi\le90^\circ$) with
+  $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|}.$$
+  :::
+
+  :::example The angle between two lines
+  Find the angle between $d_1: \begin{cases}x=1+t\\ y=2-t\\ z=3\end{cases}$ and $d_2: \begin{cases}x=2\\ y=s\\ z=1-s.\end{cases}$
+
+  **Solution.** Read the direction vectors from the coefficients of the parameters: $\vec{u}_1=(1, -1, 0)$, $\vec{u}_2=(0, 1, -1)$. Then:
+
+  $$\vec{u}_1\cdot\vec{u}_2=0-1+0=-1,\qquad \cos\varphi=\frac{|-1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  So the angle between $d_1$ and $d_2$ is $60^\circ$.
+
+  **Check.** The angle between the *vectors* $\vec{u}_1$, $\vec{u}_2$ is $120^\circ$ (cosine $-\dfrac12$); the angle between the *lines* is $180^\circ-120^\circ=60^\circ$.
+  :::
+
+[[P8·956d]]
+In solid geometry, we place the figure in the axes so that many coordinates are $0$, then use the formulas above.
+
+  :::example Two face diagonals of a cube
+  Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Find the angle between the lines $AB'$ and $BC'$.
+
+  **Solution.** Put $A(0, 0, 0)$, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Then $B'(1, 0, 1)$, $C'(1, 1, 1)$ and
+
+  $$\overrightarrow{AB'}=(1, 0, 1),\qquad \overrightarrow{BC'}=(0, 1, 1),\qquad \cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  So the angle between $AB'$ and $BC'$ is $60^\circ$.
+  :::
+
+[[P9·8a6c]]
+A pyramid with one lateral edge perpendicular to the base also fits the axes very neatly.
+
+:::diagram The pyramid $S.ABCD$ with $SA$ perpendicular to the base
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The angle between a lateral edge and a plane in a pyramid
+  The pyramid $S.ABCD$ has a square base with side $2$, $SA$ perpendicular to the base and $SA=2$. Find the angle between $SC$ and the base, and the angle between $SB$ and the plane $(SAC)$ (to one decimal place of a degree).
+
+  **Solution.** Put $A(0, 0, 0)$, $B(2, 0, 0)$, $D(0, 2, 0)$, $S(0, 0, 2)$, so $C(2, 2, 0)$. The base is $(Oxy)$, with normal vector $(0, 0, 1)$:
+
+  $$\overrightarrow{SC}=(2, 2, -2),\qquad \sin\varphi_1=\frac{|-2|}{\sqrt{12}\cdot1}=\frac{1}{\sqrt3},\qquad \varphi_1\approx35.3^\circ.$$
+
+  The plane $(SAC)$ contains $Oz$ and the point $C(2, 2, 0)$, so its equation is $x-y=0$, with $\vec{n}=(1, -1, 0)$. With $\overrightarrow{SB}=(2, 0, -2)$:
+
+  $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \varphi_2=30^\circ.$$
+
+  So $SC$ makes an angle of about $35.3^\circ$ with the base, and $SB$ makes an angle of $30^\circ$ with $(SAC)$.
+  :::
+
+[[P10·e985]]
+For two planes we only need the two normal vectors.
+
+  :::example The angle between two planes
+  a) Find the angle between $(P): x+2y-2z+1=0$ and $(Q): 2x-y+2z-3=0$ (to one decimal place of a degree).
+
+  b) In the pyramid of the previous example, find the angle between the lateral face $(SBC)$ and the base.
+
+  **Solution.** a) $\vec{n}_P=(1, 2, -2)$ and $\vec{n}_Q=(2, -1, 2)$ both have length $3$:
+
+  $$\cos\varphi=\frac{|2-2-4|}{3\cdot3}=\frac49,\qquad \varphi\approx63.6^\circ.$$
+
+  b) The plane $(SBC)$ passes through $B(2, 0, 0)$, $C(2, 2, 0)$, $S(0, 0, 2)$. It contains the line $BC$, which is parallel to $Oy$, so it has the form $Ax+Cz+D=0$; substituting $B$ and $S$ gives $(SBC): x+z-2=0$, with $\vec{n}=(1, 0, 1)$:
+
+  $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\circ.$$
+
+  So a) the angle is about $63.6^\circ$; b) the angle is $45^\circ$.
+  :::
+
+[[P11·e336]]
+The last example is a real problem with several steps, so we follow the four stages.
+
+  :::example A pyramid tent
+  A tent is a regular square pyramid: its base is a square with side $4$ m and its apex is $3$ m above the centre of the base. Find the angle between one face of the roof and the ground, and the angle between one roof edge and the ground (to one decimal place of a degree).
+
+  **Solution.**
+
+  *Understand.* We need one angle between two planes and one angle between a line and a plane.
+
+  *Plan.* Put the centre of the base at the origin: $B(2, -2, 0)$, $C(2, 2, 0)$, apex $S(0, 0, 3)$; the ground is $(Oxy)$ with normal vector $\vec{k}=(0, 0, 1)$.
+
+  *Solve.* The face $(SBC)$ contains $BC$, which is parallel to $Oy$, so it has the form $Ax+Cz+D=0$. Substituting $B$ and $S$: $(SBC): 3x+2z-6=0$. Then:
+
+  $$\cos\varphi_1=\frac{|2|}{\sqrt{9+4}\cdot1}=\frac{2}{\sqrt{13}},\qquad \varphi_1\approx56.3^\circ.$$
+
+  For the edge $SC$, $\overrightarrow{SC}=(2, 2, -3)$:
+
+  $$\sin\varphi_2=\frac{|-3|}{\sqrt{17}\cdot1}=\frac{3}{\sqrt{17}},\qquad \varphi_2\approx46.7^\circ.$$
+
+  So the roof faces slope at about $56.3^\circ$ and the roof edges at about $46.7^\circ$ to the ground.
+
+  *Look back.* The edge is less steep than the face ($46.7^\circ<56.3^\circ$), which makes sense: the edge covers a longer horizontal distance ($2\sqrt2$ m instead of $2$ m) to rise the same $3$ m.
+  :::
+
+:::warning Common mistakes
+[[P12·18d5]]
+- **Forgetting the absolute value.** Wrong: the angle between $d_1$, $d_2$ in Example 1 is $120^\circ$. Why it is wrong: the angle between two lines is never more than $90^\circ$. Right: $\cos\varphi=\dfrac{|-1|}{2}$, $\varphi=60^\circ$.
+- **Using cosine for the angle between a line and a plane.** Wrong: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ for $SB$ and $(SAC)$, giving $60^\circ$. Why it is wrong: that expression is the cosine of the angle between $SB$ and the normal to the plane. Right: use $\sin\varphi$, which gives $30^\circ$.
+- **Using a direction vector instead of the normal vector of a plane.** Wrong: taking $\overrightarrow{BC}$ as "the vector of the plane $(SBC)$". Why it is wrong: $\overrightarrow{BC}$ lies in the plane; it is not perpendicular to it. Right: find the equation of the plane and read off its normal vector.
+- **Mixing up degrees and radians on the calculator.** Wrong: $\arccos\dfrac49\approx1.11$, written as $1.11^\circ$. Right: switch the calculator to degrees to get $63.6^\circ$.
+:::
+
+## Key terms
+
+  :::terms
+  - angle between two lines | góc giữa hai đường thẳng
+  - angle between a line and a plane | góc giữa đường thẳng và mặt phẳng
+  - angle between two planes | góc giữa hai mặt phẳng
+  - direction vector | vectơ chỉ phương
+  - normal vector | vectơ pháp tuyến
+  - orthogonal projection | hình chiếu vuông góc
+  - regular square pyramid | hình chóp tứ giác đều
+  - dihedral angle | góc nhị diện
+  :::
+
+## Summary
+
+[[P13·95a5]]
+- Two lines: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+- A line and a plane: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ (sine, because the angle with the normal is $90^\circ-\varphi$).
+- Two planes: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+- Every one of these angles lies in $[0^\circ, 90^\circ]$, thanks to the absolute value.
+- The ground or a base: $(Oxy)$ with $\vec{k}=(0, 0, 1)$.
+- Cubes and pyramids: put the origin at a vertex or at the centre of the base so that many coordinates are $0$.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/antiderivatives – BẢN TIẾNG VIỆT ########
+---
+title: Nguyên hàm
+description: Hiểu nguyên hàm là phép ngược của đạo hàm, dùng bảng nguyên hàm cơ bản, tìm nguyên hàm thoả mãn một điều kiện và tính quãng đường từ vận tốc.
+minutes: 20
+---
+
+  :::goals
+  - Hiểu nguyên hàm của một hàm số và họ nguyên hàm $F(x)+C$.
+  - Dùng bảng nguyên hàm cơ bản và hai tính chất tuyến tính để tìm $\displaystyle\int f(x)\,dx$.
+  - Tìm nguyên hàm thoả mãn một điều kiện cho trước, và kiểm tra kết quả bằng cách lấy đạo hàm.
+  - Tìm quãng đường khi biết vận tốc trong bài toán chuyển động.
+  :::
+
+[[P1·9e1d]]
+Một ô tô đang chạy với vận tốc $20$ m/s thì người lái đạp phanh. Từ lúc đó, vận tốc của xe sau $t$ giây là $v(t)=20-5t$ (m/s), và xe dừng hẳn sau $4$ giây. Trong $4$ giây ấy xe đi thêm được bao nhiêu mét?
+
+[[P2·8f29]]
+Bạn có thể nghĩ: $20\cdot 4=80$ m. Nhưng xe chạy chậm dần, nên quãng đường phải ít hơn. Để trả lời, ta cần làm ngược lại phép tính đạo hàm.
+
+[[P3·3498]]
+Đồng hồ tốc độ trên xe cho biết vận tốc ở từng thời điểm, còn đồng hồ quãng đường (đồng hồ ODO) cho biết xe đã đi bao xa. Đạo hàm đi từ quãng đường đến vận tốc; bài này học phép đi theo chiều ngược lại, từ vận tốc tìm lại quãng đường. Cũng phép ngược ấy cho phép tìm lượng nước trong bể khi biết tốc độ chảy, hay dân số khi biết tốc độ tăng dân số.
+
+## Nguyên hàm là gì?
+
+### Khám phá: hàm số nào có đạo hàm là $2x$?
+
+[[P4·9d72]]
+Ở lớp 11 ta đã biết lấy đạo hàm. Bây giờ ta hỏi ngược lại: biết đạo hàm là $2x$, hàm số ban đầu là gì?
+
+| Hàm số $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
+|---|---|---|---|---|
+| Đạo hàm $F'(x)$ | $2x$ | $2x$ | $2x$ | $2x$ |
+
+[[P5·c146]]
+Có rất nhiều đáp án, nhưng chúng chỉ khác nhau một hằng số, vì đạo hàm của hằng số bằng $0$. Trong bài toán ô tô, vận tốc là đạo hàm của quãng đường, nên ta cần một hàm $s(t)$ có $s'(t)=20-5t$.
+
+  :::definition Nguyên hàm
+  Cho hàm số $f(x)$ xác định trên khoảng $K$ (hoặc đoạn, nửa khoảng). Hàm số $F(x)$ là một **nguyên hàm** của $f(x)$ trên $K$ nếu
+  $$F'(x)=f(x)\quad\text{với mọi } x\in K.$$
+  :::
+
+  :::theorem Họ nguyên hàm
+  Nếu $F(x)$ là một nguyên hàm của $f(x)$ trên $K$ thì mọi nguyên hàm của $f(x)$ trên $K$ đều có dạng $F(x)+C$, với $C$ là hằng số. Ta viết
+  $$\int f(x)\,dx=F(x)+C.$$
+  :::
+
+[[P6·b0f7]]
+**Vì sao đúng?** Nếu $G(x)$ cũng là một nguyên hàm thì $\big(G(x)-F(x)\big)'=f(x)-f(x)=0$ trên $K$. Một hàm có đạo hàm bằng $0$ trên cả khoảng thì không tăng cũng không giảm, nên là hằng số: $G(x)-F(x)=C$.
+
+[[P7·e734]]
+**Hiểu sâu hơn.** Hằng số $C$ không phải là chi tiết thừa. Biết vận tốc của xe ở mọi thời điểm, ta biết xe đi *thêm* được bao xa, nhưng chưa biết xe đang ở *đâu*: còn phụ thuộc vào vị trí xuất phát. Hằng số $C$ chính là thông tin còn thiếu đó, và một điều kiện như $s(0)=0$ sẽ xác định nó.
+
+[[P8·5e93]]
+**Kết nối.** Bài này đọc ngược các công thức đạo hàm (lớp 11). Nguyên hàm là công cụ để tính tích phân ở bài sau, rồi tính diện tích và thể tích ở bài ứng dụng tích phân.
+
+[[P9·aee4]]
+Kí hiệu $\displaystyle\int f(x)\,dx$ đọc là "tích phân bất định của $f$" hay "họ nguyên hàm của $f$". Mọi hàm số liên tục trên $K$ đều có nguyên hàm trên $K$. Từ định nghĩa ta còn có $\displaystyle\int f'(x)\,dx=f(x)+C$.
+
+## Bảng nguyên hàm và tính chất
+
+[[P10·a717]]
+Mỗi dòng của bảng sau là một công thức đạo hàm đọc ngược. Bạn có thể tự kiểm tra từng dòng bằng cách lấy đạo hàm vế phải.
+
+| Hàm số $f(x)$ | Họ nguyên hàm $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $0$ | $C$ |
+| $1$ | $x+C$ |
+| $x^{\alpha}$ $(\alpha\neq-1)$ | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac{1}{x}$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ $(0<a\neq1)$ | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P11·7a73]]
+Chú ý dấu trừ ở dòng $\sin x$: vì $(\cos x)'=-\sin x$, nên muốn được $\sin x$ ta phải lấy $-\cos x$.
+
+  :::theorem Tính chất của nguyên hàm
+  Nếu $f$, $g$ có nguyên hàm trên $K$ và $k$ là hằng số khác $0$ thì
+  $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
+  :::
+
+[[P12·83b9]]
+Hai tính chất này đúng vì đạo hàm cũng có tính chất như vậy. Nhờ chúng, ta tìm nguyên hàm của một tổng bằng cách xử lí từng số hạng.
+
+  :::example Nguyên hàm của một đa thức
+  Tìm $\displaystyle\int(3x^2-4x+5)\,dx$.
+
+  **Lời giải.** Áp dụng công thức nguyên hàm của $x^{\alpha}$ cho từng số hạng, ta có
+
+  $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C.$$
+
+  **Kiểm tra.** $(x^3-2x^2+5x)'=3x^2-4x+5$, đúng hàm ban đầu.
+
+  Vậy $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
+  :::
+
+[[P13·4dc5]]
+Với căn thức và phân thức, ta viết lại thành luỹ thừa trước khi dùng bảng.
+
+  :::example Căn thức và phân thức
+  Tìm $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ trên khoảng $(0; +\infty)$.
+
+  **Lời giải.** Ta có $\sqrt x=x^{\frac12}$ và $\dfrac{1}{x^2}=x^{-2}$. Vì $\dfrac3x$ có số mũ $-1$ nên ta dùng công thức $\ln\lvert x\rvert$. Do đó
+
+  $$\begin{aligned}
+  \int\left(2x^{\frac12}-\frac3x+x^{-2}\right)dx&=2\cdot\frac{x^{\frac32}}{\frac32}-3\ln\lvert x\rvert+\frac{x^{-1}}{-1}+C\\
+  &=\frac43x\sqrt x-3\ln x-\frac1x+C.
+  \end{aligned}$$
+
+  Vì trên $(0; +\infty)$ ta có $\lvert x\rvert=x$ nên ta viết được $\ln x$.
+
+  Vậy họ nguyên hàm cần tìm là $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
+  :::
+
+[[P14·fb47]]
+Tiếp theo là các hàm mũ và lượng giác. Chú ý từng dấu.
+
+  :::example Hàm mũ và hàm lượng giác
+  Tìm $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
+
+  **Lời giải.** Áp dụng các công thức nguyên hàm của $\cos x$, $\sin x$ và $a^x$, ta có
+
+  $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
+  :::
+
+[[P15·7ab5]]
+Nhiều hàm số không có sẵn trong bảng, nhưng biến đổi một chút thì có.
+
+  :::example Biến đổi trước khi tìm nguyên hàm
+  Tìm a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ trên $(0; +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ trên $\left(-\dfrac{\pi}{2}; \dfrac{\pi}{2}\right)$.
+
+  **Lời giải.** a) Khai triển tử số rồi chia từng số hạng cho $x$, ta có
+
+  $$\int\frac{x^2+2x+1}{x}\,dx=\int\left(x+2+\frac1x\right)dx=\frac{x^2}{2}+2x+\ln x+C.$$
+
+  b) Vì $1+\tan^2x=\dfrac{1}{\cos^2x}$ nên $\tan^2x=\dfrac{1}{\cos^2x}-1$. Do đó
+
+  $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
+  :::
+
+## Nguyên hàm thoả mãn một điều kiện
+
+[[P16·b290]]
+Họ nguyên hàm có vô số hàm. Khi đề cho thêm một giá trị, chẳng hạn $F(0)=5$, ta thay vào để tìm đúng một hằng số $C$.
+
+  :::example Nguyên hàm đi qua một điểm
+  Tìm nguyên hàm $F(x)$ của hàm số $f(x)=e^x+4x$ thoả mãn $F(0)=5$.
+
+  **Lời giải.** Ta có
+
+  $$F(x)=\int(e^x+4x)\,dx=e^x+2x^2+C.$$
+
+  Thay $x=0$ vào, ta được (chú ý $e^0=1$, không phải $0$)
+
+  $$F(0)=1+0+C=5\iff C=4.$$
+
+  Vậy $F(x)=e^x+2x^2+4$.
+  :::
+
+[[P17·5df2]]
+Về hình học, mỗi hằng số $C$ cho một đồ thị, và các đồ thị này là những bản tịnh tiến theo chiều dọc của nhau. Điều kiện $F(x_0)=y_0$ chọn ra đúng đồ thị đi qua điểm $(x_0; y_0)$.
+
+:::graph Ba nguyên hàm của $f(x)=2x$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Từ vận tốc đến quãng đường
+
+[[P18·8373]]
+Nếu $s(t)$ là quãng đường vật đi được sau $t$ giây thì vận tốc là $v(t)=s'(t)$. Vậy $s(t)$ là một nguyên hàm của $v(t)$. Tương tự, vận tốc là một nguyên hàm của gia tốc. Bây giờ ta trả lời câu hỏi về chiếc ô tô.
+
+  :::example Quãng đường phanh
+  Sau khi đạp phanh, ô tô có vận tốc $v(t)=20-5t$ (m/s). Tính quãng đường xe đi được từ lúc phanh đến lúc dừng.
+
+  **Lời giải.** Xe dừng khi $v(t)=0$, tức là $20-5t=0\iff t=4$. Gọi $s(t)$ (m) là quãng đường xe đi được sau $t$ giây kể từ lúc phanh. Ta có $s(0)=0$ và
+
+  $$s(t)=\int(20-5t)\,dt=20t-\frac{5t^2}{2}+C,\qquad s(0)=C=0.$$
+
+  Do đó quãng đường đến lúc dừng là
+
+  $$s(4)=20\cdot4-\frac{5\cdot16}{2}=80-40=40.$$
+
+  Vậy xe đi thêm $40$ m, chỉ bằng một nửa con số $80$ m đoán lúc đầu.
+
+  **Nhìn lại.** Nếu xe chỉ chạy $10$ m/s và phanh với cùng mức giảm tốc, tức là $v(t)=10-5t$, thì sao? Xe dừng sau $2$ giây và đi thêm $s(2)=20-10=10$ m. Vận tốc giảm một nửa nhưng quãng đường phanh chỉ còn một phần tư: với cùng mức giảm tốc, quãng đường phanh tỉ lệ với bình phương vận tốc. Đây là lí do mỗi km/h vượt tốc độ đều làm quãng đường phanh dài thêm đáng kể.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·b0a5]]
+- **Dùng công thức luỹ thừa cho $\dfrac1x$.** Sai: $\displaystyle\int x^{-1}dx=\frac{x^0}{0}+C$. Lí do sai: công thức $\dfrac{x^{\alpha+1}}{\alpha+1}$ chỉ dùng khi $\alpha\neq-1$. Đúng: $\displaystyle\int\frac1x\,dx=\ln\lvert x\rvert+C$.
+- **Sai dấu với $\sin x$.** Sai: $\displaystyle\int\sin x\,dx=\cos x+C$. Lí do sai: $(\cos x)'=-\sin x$. Đúng: $\displaystyle\int\sin x\,dx=-\cos x+C$.
+- **Tách nguyên hàm của một tích.** Sai: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Lí do sai: không có quy tắc "nguyên hàm của tích bằng tích các nguyên hàm"; lấy đạo hàm vế phải được $x^3\neq x^2$. Đúng: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
+- **Coi $e^0=0$ khi tìm $C$.** Sai: $F(x)=e^x+2x^2+C$, $F(0)=5$ nên $C=5$. Lí do sai: $e^0=1$. Đúng: $1+C=5$, $C=4$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - nguyên hàm | antiderivative
+  - họ nguyên hàm | family of antiderivatives
+  - tích phân bất định | indefinite integral
+  - hằng số tuỳ ý $C$ | arbitrary constant $C$
+  - bảng nguyên hàm cơ bản | table of standard antiderivatives
+  - vận tốc | velocity
+  - gia tốc | acceleration
+  - quãng đường | distance travelled
+  :::
+
+## Tóm tắt
+
+[[P20·2875]]
+- $F$ là nguyên hàm của $f$ trên $K$ khi $F'(x)=f(x)$ với mọi $x\in K$.
+- Mọi nguyên hàm có dạng $F(x)+C$; viết $\displaystyle\int f(x)\,dx=F(x)+C$.
+- Bảng cần nhớ: $x^\alpha\to\dfrac{x^{\alpha+1}}{\alpha+1}$ ($\alpha\neq-1$), $\dfrac1x\to\ln\lvert x\rvert$, $e^x\to e^x$, $a^x\to\dfrac{a^x}{\ln a}$, $\cos x\to\sin x$, $\sin x\to-\cos x$, $\dfrac1{\cos^2x}\to\tan x$, $\dfrac1{\sin^2x}\to-\cot x$.
+- Hằng số nhân và tổng, hiệu được tách ra; tích thì **không**.
+- Cho thêm $F(x_0)=y_0$ thì thay vào để tìm $C$.
+- Quãng đường là nguyên hàm của vận tốc; luôn kiểm tra bằng cách lấy đạo hàm.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/antiderivatives – BẢN TIẾNG ANH ########
+---
+title: Antiderivatives
+description: See antiderivatives as differentiation in reverse, use the table of standard antiderivatives, meet a given condition and find distance from velocity.
+minutes: 20
+---
+
+  :::goals
+  - Understand an antiderivative of a function and the family $F(x)+C$.
+  - Use the table of standard antiderivatives and the two linearity rules to find $\displaystyle\int f(x)\,dx$.
+  - Find the antiderivative that meets a given condition, and check the result by differentiating.
+  - Find the distance travelled from the velocity in a motion problem.
+  :::
+
+[[P1·6a98]]
+A car is travelling at $20$ m/s when the driver brakes. From that moment, its velocity after $t$ seconds is $v(t)=20-5t$ (m/s), and the car comes to a stop after $4$ seconds. How many metres does it travel in those $4$ seconds?
+
+[[P2·20c2]]
+You might think: $20\cdot 4=80$ m. But the car keeps slowing down, so the distance must be less. To answer, we need to run differentiation backwards.
+
+[[P3·5fe3]]
+A car's speedometer shows the velocity at each moment, while its odometer shows how far the car has gone. Differentiation goes from distance to velocity; this lesson studies the reverse journey, from velocity back to distance. The same reverse step finds the amount of water in a tank from its rate of flow, or a population from its rate of growth.
+
+## What is an antiderivative?
+
+### Explore: which functions have derivative $2x$?
+
+[[P4·0b17]]
+In grade 11 we learnt to differentiate. Now we ask the reverse question: if the derivative is $2x$, what was the function?
+
+| Function $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
+|---|---|---|---|---|
+| Derivative $F'(x)$ | $2x$ | $2x$ | $2x$ | $2x$ |
+
+[[P5·2c19]]
+There are many answers, but they differ only by a constant, because the derivative of a constant is $0$. In the car problem, the velocity is the derivative of the distance, so we need a function $s(t)$ with $s'(t)=20-5t$.
+
+  :::definition Antiderivative
+  Let $f(x)$ be defined on an interval $K$ (open, closed or half-open). A function $F(x)$ is an **antiderivative** of $f(x)$ on $K$ if
+  $$F'(x)=f(x)\quad\text{for every } x\in K.$$
+  :::
+
+  :::theorem The family of antiderivatives
+  If $F(x)$ is an antiderivative of $f(x)$ on $K$, then every antiderivative of $f(x)$ on $K$ has the form $F(x)+C$, where $C$ is a constant. We write
+  $$\int f(x)\,dx=F(x)+C.$$
+  :::
+
+[[P6·99a7]]
+**Why is it true?** If $G(x)$ is another antiderivative, then $\big(G(x)-F(x)\big)'=f(x)-f(x)=0$ on $K$. A function whose derivative is $0$ on a whole interval neither increases nor decreases, so it is a constant: $G(x)-F(x)=C$.
+
+[[P7·9230]]
+**A closer look.** The constant $C$ is not a spare detail. If we know a car's velocity at every moment, we know how much *further* it goes, but not *where* it is: that also depends on where it started. The constant $C$ is exactly this missing piece of information, and a condition such as $s(0)=0$ fixes it.
+
+[[P8·5ac1]]
+**Connections.** This lesson reads the differentiation formulas (grade 11) backwards. Antiderivatives are the tool for computing definite integrals in the next lesson, and then areas and volumes in the lesson on applications of integrals.
+
+[[P9·955e]]
+The symbol $\displaystyle\int f(x)\,dx$ is read "the indefinite integral of $f$"; it stands for the whole family of antiderivatives. Every function that is continuous on $K$ has an antiderivative on $K$. The definition also gives $\displaystyle\int f'(x)\,dx=f(x)+C$.
+
+## The table and the rules
+
+[[P10·f87c]]
+Each row of this table is a derivative formula read backwards. You can check every row by differentiating the right-hand side.
+
+| Function $f(x)$ | Indefinite integral $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $0$ | $C$ |
+| $1$ | $x+C$ |
+| $x^{\alpha}$ $(\alpha\neq-1)$ | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac{1}{x}$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ $(0<a\neq1)$ | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P11·adec]]
+Notice the minus sign in the $\sin x$ row: since $(\cos x)'=-\sin x$, to get $\sin x$ we must take $-\cos x$.
+
+  :::theorem Rules for antiderivatives
+  If $f$ and $g$ have antiderivatives on $K$ and $k$ is a non-zero constant, then
+  $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
+  :::
+
+[[P12·6560]]
+Both rules hold because differentiation follows the same rules. With them, we find the antiderivative of a sum one term at a time.
+
+  :::example The antiderivative of a polynomial
+  Find $\displaystyle\int(3x^2-4x+5)\,dx$.
+
+  **Solution.** Applying the formula for the antiderivative of $x^{\alpha}$ to each term, we have
+
+  $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C.$$
+
+  **Check.** $(x^3-2x^2+5x)'=3x^2-4x+5$, which is the original function.
+
+  So $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
+  :::
+
+[[P13·cd18]]
+With roots and fractions, we rewrite them as powers before using the table.
+
+  :::example Roots and fractions
+  Find $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
+
+  **Solution.** We have $\sqrt x=x^{\frac12}$ and $\dfrac{1}{x^2}=x^{-2}$. Since $\dfrac3x$ has exponent $-1$, we use the $\ln\lvert x\rvert$ formula. Hence
+
+  $$\begin{aligned}
+  \int\left(2x^{\frac12}-\frac3x+x^{-2}\right)dx&=2\cdot\frac{x^{\frac32}}{\frac32}-3\ln\lvert x\rvert+\frac{x^{-1}}{-1}+C\\
+  &=\frac43x\sqrt x-3\ln x-\frac1x+C.
+  \end{aligned}$$
+
+  Since $\lvert x\rvert=x$ on $(0, +\infty)$, we may write $\ln x$.
+
+  So the required family of antiderivatives is $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
+  :::
+
+[[P14·e858]]
+Next come exponential and trigonometric functions. Watch every sign.
+
+  :::example Exponential and trigonometric functions
+  Find $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
+
+  **Solution.** Applying the formulas for the antiderivatives of $\cos x$, $\sin x$ and $a^x$, we have
+
+  $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
+  :::
+
+[[P15·ff80]]
+Many functions are not in the table, but a small rearrangement puts them there.
+
+  :::example Rearranging first
+  Find a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ on $(0, +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ on $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$.
+
+  **Solution.** a) Expanding the numerator and dividing each term by $x$, we have
+
+  $$\int\frac{x^2+2x+1}{x}\,dx=\int\left(x+2+\frac1x\right)dx=\frac{x^2}{2}+2x+\ln x+C.$$
+
+  b) Since $1+\tan^2x=\dfrac{1}{\cos^2x}$, we have $\tan^2x=\dfrac{1}{\cos^2x}-1$. Hence
+
+  $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
+  :::
+
+## The antiderivative that meets a condition
+
+[[P16·702e]]
+A family of antiderivatives has infinitely many members. When we are given one more value, such as $F(0)=5$, we substitute it to find exactly one constant $C$.
+
+  :::example An antiderivative through a point
+  Find the antiderivative $F(x)$ of the function $f(x)=e^x+4x$ that satisfies $F(0)=5$.
+
+  **Solution.** We have
+
+  $$F(x)=\int(e^x+4x)\,dx=e^x+2x^2+C.$$
+
+  Substituting $x=0$, we get (note that $e^0=1$, not $0$)
+
+  $$F(0)=1+0+C=5\iff C=4.$$
+
+  So $F(x)=e^x+2x^2+4$.
+  :::
+
+[[P17·b9e6]]
+Graphically, each constant $C$ gives one graph, and these graphs are vertical translations of one another. The condition $F(x_0)=y_0$ picks out the one graph through the point $(x_0, y_0)$.
+
+:::graph Three antiderivatives of $f(x)=2x$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## From velocity to distance
+
+[[P18·dd1c]]
+If $s(t)$ is the distance an object has travelled after $t$ seconds, its velocity is $v(t)=s'(t)$. So $s(t)$ is an antiderivative of $v(t)$. In the same way, the velocity is an antiderivative of the acceleration. Now we can answer the question about the car.
+
+  :::example Braking distance
+  After braking, the car has velocity $v(t)=20-5t$ (m/s). Find the distance it travels from the moment of braking until it stops.
+
+  **Solution.** The car stops when $v(t)=0$, that is $20-5t=0\iff t=4$. Let $s(t)$ (m) be the distance travelled $t$ seconds after braking. We have $s(0)=0$ and
+
+  $$s(t)=\int(20-5t)\,dt=20t-\frac{5t^2}{2}+C,\qquad s(0)=C=0.$$
+
+  Hence the distance until it stops is
+
+  $$s(4)=20\cdot4-\frac{5\cdot16}{2}=80-40=40.$$
+
+  So the car travels $40$ m more, only half of the $80$ m guessed at the start.
+
+  **Look back.** What if the car were going at only $10$ m/s and braked with the same deceleration, so that $v(t)=10-5t$? It stops after $2$ seconds and travels $s(2)=20-10=10$ m. Halving the speed cuts the braking distance to a quarter: with the same deceleration, the braking distance is proportional to the square of the speed. This is why every extra km/h above the speed limit makes the braking distance noticeably longer.
+  :::
+
+:::warning Common mistakes
+[[P19·7846]]
+- **Using the power rule for $\dfrac1x$.** Wrong: $\displaystyle\int x^{-1}dx=\frac{x^0}{0}+C$. Why it is wrong: the formula $\dfrac{x^{\alpha+1}}{\alpha+1}$ only works when $\alpha\neq-1$. Right: $\displaystyle\int\frac1x\,dx=\ln\lvert x\rvert+C$.
+- **The wrong sign with $\sin x$.** Wrong: $\displaystyle\int\sin x\,dx=\cos x+C$. Why it is wrong: $(\cos x)'=-\sin x$. Right: $\displaystyle\int\sin x\,dx=-\cos x+C$.
+- **Splitting the antiderivative of a product.** Wrong: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Why it is wrong: there is no rule "the antiderivative of a product is the product of the antiderivatives"; differentiating the right-hand side gives $x^3\neq x^2$. Right: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
+- **Taking $e^0=0$ when finding $C$.** Wrong: $F(x)=e^x+2x^2+C$ and $F(0)=5$, so $C=5$. Why it is wrong: $e^0=1$. Right: $1+C=5$, so $C=4$.
+:::
+
+## Key terms
+
+  :::terms
+  - antiderivative | nguyên hàm
+  - family of antiderivatives | họ nguyên hàm
+  - indefinite integral | tích phân bất định
+  - arbitrary constant $C$ | hằng số tuỳ ý $C$
+  - table of standard antiderivatives | bảng nguyên hàm cơ bản
+  - velocity | vận tốc
+  - acceleration | gia tốc
+  - distance travelled | quãng đường
+  :::
+
+## Summary
+
+[[P20·dc2d]]
+- $F$ is an antiderivative of $f$ on $K$ when $F'(x)=f(x)$ for every $x\in K$.
+- Every antiderivative has the form $F(x)+C$; we write $\displaystyle\int f(x)\,dx=F(x)+C$.
+- The table to remember: $x^\alpha\to\dfrac{x^{\alpha+1}}{\alpha+1}$ ($\alpha\neq-1$), $\dfrac1x\to\ln\lvert x\rvert$, $e^x\to e^x$, $a^x\to\dfrac{a^x}{\ln a}$, $\cos x\to\sin x$, $\sin x\to-\cos x$, $\dfrac1{\cos^2x}\to\tan x$, $\dfrac1{\sin^2x}\to-\cot x$.
+- Constant factors, sums and differences split apart; products do **not**.
+- Given $F(x_0)=y_0$, substitute it to find $C$.
+- Distance is an antiderivative of velocity; always check by differentiating.
+
+## Practice
+
+[[P21·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,1738 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/g3-midpoints, g3/g3-vietnamese-money, g3/likelihood-of-an-event, g3/missing-numbers-add-subtract
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  thichgiaitoan-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/thichgiaitoan-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/g3-midpoints – BẢN TIẾNG VIỆT ########
+---
+title: Điểm ở giữa, trung điểm của đoạn thẳng
+description: Em học nhận biết điểm nằm giữa hai điểm, trung điểm của đoạn thẳng, và tính độ dài đoạn thẳng khi biết trung điểm.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết ba điểm thẳng hàng và điểm nằm giữa hai điểm.
+  - Nhận biết trung điểm của đoạn thẳng: nằm giữa và cách đều hai đầu.
+  - Tính độ dài một nửa đoạn thẳng hoặc cả đoạn thẳng khi biết trung điểm.
+  :::
+
+[[P1·bf37]]
+Nhà An, trường học và nhà Bình nằm trên cùng một con đường thẳng. Từ nhà An đến trường là $3$ km, từ trường đến nhà Bình cũng là $3$ km. Vị trí của trường so với hai nhà có gì đặc biệt?
+
+[[P2·9f77]]
+Bài này giúp em gọi tên vị trí ấy và dùng nó để tính độ dài.
+
+## Cùng khám phá
+
+[[P3·5371]]
+Ba điểm cùng nằm trên một đường thẳng gọi là **ba điểm thẳng hàng**. Trong ba điểm $A$, $M$, $B$ thẳng hàng, nếu đi từ $A$ đến $B$ ta phải qua $M$ thì $M$ **nằm giữa** $A$ và $B$.
+
+[[P4·6df1]]
+Ta vẽ nhà An là điểm $A$, trường là điểm $M$, nhà Bình là điểm $B$:
+
+:::diagram Điểm M nằm giữa A và B, hai đoạn MA và MB bằng nhau
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·5068]]
+Điểm $M$ nằm giữa $A$ và $B$, và $MA=MB=3$ km. Điểm $M$ chia đoạn thẳng $AB$ thành hai đoạn bằng nhau. Ta gọi $M$ là **trung điểm** của đoạn thẳng $AB$.
+
+  :::theorem Trung điểm của đoạn thẳng
+  Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi $M$ nằm giữa $A$ và $B$ và $MA=MB$.
+
+  Khi đó $AB=MA+MB=2\times MA$, nên $MA=AB:2$.
+  :::
+
+[[P6·4f9e]]
+Điều này đúng vì $MA$ và $MB$ bằng nhau, nên mỗi đoạn là $\dfrac{1}{2}$ đoạn $AB$. Ở bài trước em đã biết: một nửa của một số bằng số đó chia cho $2$.
+
+## Ví dụ
+
+[[P7·0295]]
+Ta bắt đầu bằng việc tìm điểm nằm giữa.
+
+  :::example Điểm ở giữa
+  Trên một đường thẳng có bốn điểm $D$, $E$, $G$, $H$ theo thứ tự từ trái sang phải. Điểm nào nằm giữa $D$ và $H$? Điểm nào nằm giữa $E$ và $H$?
+
+  **Lời giải.** Đi từ $D$ đến $H$ ta lần lượt qua $E$ rồi $G$, nên $E$ và $G$ nằm giữa $D$ và $H$. Đi từ $E$ đến $H$ ta chỉ qua $G$, nên chỉ có $G$ nằm giữa $E$ và $H$.
+
+  Vậy $E$, $G$ nằm giữa $D$ và $H$; $G$ nằm giữa $E$ và $H$.
+  :::
+
+[[P8·70f6]]
+Bây giờ em kiểm tra một điểm có là trung điểm không.
+
+  :::example Kiểm tra trung điểm
+  Cho $M$ nằm giữa $A$ và $B$.
+
+  a) $AM=5$ cm, $MB=5$ cm. $M$ có là trung điểm của $AB$ không?
+
+  b) $AM=4$ cm, $MB=6$ cm. $M$ có là trung điểm của $AB$ không?
+
+  **Lời giải.** $M$ nằm giữa rồi, ta chỉ cần so sánh $AM$ và $MB$.
+
+  a) $AM=MB=5$ cm, nên $M$ là trung điểm của $AB$.
+
+  b) $AM=4$ cm khác $MB=6$ cm, nên $M$ không là trung điểm của $AB$.
+
+  Vậy a) có; b) không.
+  :::
+
+[[P9·d173]]
+Tiếp theo, em tính độ dài một nửa đoạn thẳng.
+
+  :::example Tính $AM$
+  $M$ là trung điểm của đoạn thẳng $AB$ dài $12$ cm. Tính $AM$.
+
+  **Lời giải.** Vì $M$ là trung điểm nên $AM$ bằng một nửa $AB$, ta chia $AB$ cho $2$:
+  $$AM=12:2=6\ \text{(cm)}.$$
+  **Thử lại.** $MB=6$ cm, $AM+MB=6+6=12$ cm. Đúng.
+
+  Vậy $AM=6$ cm.
+  :::
+
+[[P10·4a0f]]
+Làm ngược lại, em tính cả đoạn thẳng.
+
+  :::example Tính $AB$
+  $M$ là trung điểm của đoạn thẳng $AB$ và $MA=7$ cm. Tính $AB$.
+
+  **Lời giải.** $AB$ gồm hai đoạn bằng nhau $MA$ và $MB$, nên ta nhân $MA$ với $2$:
+  $$AB=7\times2=14\ \text{(cm)}.$$
+  **Thử lại.** $14:2=7$. Đúng.
+
+  Vậy $AB=14$ cm.
+  :::
+
+[[P11·932b]]
+Cuối cùng, em giải bài toán ở đầu bài trong một tình huống khác.
+
+  :::example Đường đến trường
+  Nhà An, trường học và nhà Bình nằm trên một đường thẳng. Trường học là trung điểm của đoạn đường từ nhà An đến nhà Bình, dài $8$ km. Hỏi từ nhà An đến trường dài bao nhiêu ki-lô-mét?
+
+  **Lời giải.** Trường là trung điểm nên khoảng cách từ nhà An đến trường bằng một nửa $8$ km:
+  $$8:2=4\ \text{(km)}.$$
+  **Thử lại.** $4+4=8$. Đúng.
+
+  Vậy từ nhà An đến trường dài $4$ km.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·be40]]
+- **Nằm giữa chưa chắc là trung điểm.** Sai: $M$ nằm giữa $A$ và $B$ nên $M$ là trung điểm. Vì sao sai: nếu $AM=3$ cm, $MB=7$ cm thì $M$ vẫn nằm giữa nhưng hai đoạn không bằng nhau. Đúng: còn phải có $MA=MB$.
+- **Quên chia đôi.** Sai: $M$ là trung điểm của $AB=12$ cm nên $AM=12$ cm. Vì sao sai: $AM$ chỉ là một nửa $AB$. Đúng: $AM=12:2=6$ cm.
+- **Quên nhân đôi.** Sai: $MA=7$ cm nên $AB=7$ cm. Vì sao sai: $AB$ gồm hai đoạn $MA$ và $MB$. Đúng: $AB=7\times2=14$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ cm".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đoạn thẳng | line segment
+  - đường thẳng | straight line
+  - ba điểm thẳng hàng | three points in a straight line
+  - điểm nằm giữa | point between two points
+  - trung điểm | midpoint
+  - độ dài | length
+  - bằng nhau | equal
+  - chia đôi | halve
+  :::
+
+## Tóm tắt
+
+[[P13·87c1]]
+- Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.
+- Điểm $M$ nằm giữa $A$ và $B$ khi đi từ $A$ đến $B$ phải qua $M$.
+- $M$ là trung điểm của $AB$ khi $M$ nằm giữa $A$, $B$ và $MA=MB$.
+- Khi $M$ là trung điểm: $MA=AB:2$ và $AB=MA\times2$.
+- Ghi đơn vị đo độ dài trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/g3-midpoints – BẢN TIẾNG ANH ########
+---
+title: Points in the middle and midpoints of line segments
+description: Learn to spot a point that lies between two points and the midpoint of a line segment, and to work out lengths when you know the midpoint.
+minutes: 15
+---
+
+  :::goals
+  - Recognise three points in a straight line and a point between two points.
+  - Recognise the midpoint of a line segment: it lies between the ends and is the same distance from both.
+  - Work out half of a segment, or the whole segment, when you know the midpoint.
+  :::
+
+[[P1·c39b]]
+An's house, the school and Binh's house are on the same straight road. From An's house to the school is $3$ km, and from the school to Binh's house is also $3$ km. What is special about where the school stands?
+
+[[P2·4664]]
+This lesson helps you name that position and use it to work out lengths.
+
+## Let's explore
+
+[[P3·68c9]]
+Points on the same straight line are called **three points in a straight line**. If $A$, $M$, $B$ are in a straight line and going from $A$ to $B$ means passing through $M$, then $M$ is **between** $A$ and $B$.
+
+[[P4·6d9b]]
+We draw An's house as point $A$, the school as point $M$ and Binh's house as point $B$:
+
+:::diagram M is between A and B, and MA and MB are equal
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·d7c5]]
+Point $M$ is between $A$ and $B$, and $MA=MB=3$ km. Point $M$ splits the line segment $AB$ into two equal parts. We call $M$ the **midpoint** of the line segment $AB$.
+
+  :::theorem The midpoint of a line segment
+  Point $M$ is the midpoint of the line segment $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
+
+  Then $AB=MA+MB=2\times MA$, so $MA=AB\div2$.
+  :::
+
+[[P6·8ea9]]
+This is true because $MA$ and $MB$ are equal, so each one is $\dfrac{1}{2}$ of $AB$. In the last lesson you saw that half of a number is that number divided by $2$.
+
+## Examples
+
+[[P7·c6c0]]
+We start by finding points between.
+
+  :::example Points in between
+  On a straight line there are four points $D$, $E$, $G$, $H$ in this order from left to right. Which points are between $D$ and $H$? Which point is between $E$ and $H$?
+
+  **Solution.** Going from $D$ to $H$ we pass $E$ and then $G$, so $E$ and $G$ are between $D$ and $H$. Going from $E$ to $H$ we pass only $G$, so only $G$ is between $E$ and $H$.
+
+  So $E$ and $G$ are between $D$ and $H$; $G$ is between $E$ and $H$.
+  :::
+
+[[P8·a56a]]
+Now check whether a point is a midpoint.
+
+  :::example Is it a midpoint?
+  $M$ is between $A$ and $B$.
+
+  a) $AM=5$ cm and $MB=5$ cm. Is $M$ the midpoint of $AB$?
+
+  b) $AM=4$ cm and $MB=6$ cm. Is $M$ the midpoint of $AB$?
+
+  **Solution.** $M$ is already between $A$ and $B$, so we only compare $AM$ and $MB$.
+
+  a) $AM=MB=5$ cm, so $M$ is the midpoint of $AB$.
+
+  b) $AM=4$ cm is not equal to $MB=6$ cm, so $M$ is not the midpoint of $AB$.
+
+  So a) yes; b) no.
+  :::
+
+[[P9·521c]]
+Next, work out half of a segment.
+
+  :::example Find $AM$
+  $M$ is the midpoint of the line segment $AB$, which is $12$ cm long. Find $AM$.
+
+  **Solution.** Since $M$ is the midpoint, $AM$ is half of $AB$, so we divide $AB$ by $2$:
+  $$AM=12\div2=6\ \text{(cm)}.$$
+  **Check.** $MB=6$ cm, and $AM+MB=6+6=12$ cm. Correct.
+
+  So $AM=6$ cm.
+  :::
+
+[[P10·c08e]]
+Now go the other way and find the whole segment.
+
+  :::example Find $AB$
+  $M$ is the midpoint of the line segment $AB$ and $MA=7$ cm. Find $AB$.
+
+  **Solution.** $AB$ is made of two equal parts $MA$ and $MB$, so we multiply $MA$ by $2$:
+  $$AB=7\times2=14\ \text{(cm)}.$$
+  **Check.** $14\div2=7$. Correct.
+
+  So $AB=14$ cm.
+  :::
+
+[[P11·a84d]]
+Finally, the problem from the start, in a different setting.
+
+  :::example The road to school
+  An's house, the school and Binh's house are on a straight line. The school is the midpoint of the road from An's house to Binh's house, which is $8$ km long. How many kilometres is it from An's house to the school?
+
+  **Solution.** The school is the midpoint, so the distance from An's house to the school is half of $8$ km:
+  $$8\div2=4\ \text{(km)}.$$
+  **Check.** $4+4=8$. Correct.
+
+  So it is $4$ km from An's house to the school.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·7c4d]]
+- **Between does not always mean midpoint.** Wrong: $M$ is between $A$ and $B$, so $M$ is the midpoint. Why it is wrong: if $AM=3$ cm and $MB=7$ cm, $M$ is still between $A$ and $B$ but the two parts are not equal. Right: we also need $MA=MB$.
+- **Forgetting to halve.** Wrong: $M$ is the midpoint of $AB=12$ cm so $AM=12$ cm. Why it is wrong: $AM$ is only half of $AB$. Right: $AM=12\div2=6$ cm.
+- **Forgetting to double.** Wrong: $MA=7$ cm so $AB=7$ cm. Why it is wrong: $AB$ is made of two parts, $MA$ and $MB$. Right: $AB=7\times2=14$ cm.
+- **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ cm".
+:::
+
+## Key terms
+
+  :::terms
+  - line segment | đoạn thẳng
+  - straight line | đường thẳng
+  - three points in a straight line | ba điểm thẳng hàng
+  - point between two points | điểm nằm giữa
+  - midpoint | trung điểm
+  - length | độ dài
+  - equal | bằng nhau
+  - halve | chia đôi
+  :::
+
+## Summary
+
+[[P13·621b]]
+- Three points on the same straight line are in a straight line.
+- Point $M$ is between $A$ and $B$ when going from $A$ to $B$ means passing through $M$.
+- $M$ is the midpoint of $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
+- When $M$ is the midpoint: $MA=AB\div2$ and $AB=MA\times2$.
+- Write the unit of length in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG VIỆT ########
+---
+title: Tiền Việt Nam
+description: Em học cách đếm tiền, tính tiền hàng và tiền trả lại với các tờ tiền Việt Nam, bằng cách tính theo nghìn đồng.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết các tờ tiền Việt Nam và giá trị của chúng.
+  - Đếm số tiền của nhiều tờ tiền bằng cách tính theo nghìn đồng.
+  - Tính tiền hàng và tiền trả lại khi mua hàng.
+  - Giải bài toán có lời văn về tiền, nhớ ghi đơn vị đồng.
+  :::
+
+[[P1·52e9]]
+Nam có một tờ tiền $20\,000$ đồng. Nam mua một cuốn sổ giá $12\,000$ đồng và đưa cô bán hàng tờ tiền đó. Hỏi cô bán hàng phải trả lại Nam bao nhiêu tiền?
+
+[[P2·8092]]
+Em đã học cộng và trừ các số trong phạm vi $100\,000$. Bài này dùng chính các phép tính đó để tính tiền.
+
+## Cùng khám phá
+
+[[P3·db0b]]
+Ở Việt Nam, đơn vị tiền là **đồng**. Em thường gặp các tờ tiền ghi trong bảng sau. Cột bên phải cho biết mỗi tờ bằng bao nhiêu **nghìn** đồng.
+
+| Tờ tiền (đồng) | Bằng bao nhiêu nghìn đồng |
+|---|---|
+| $1\,000$ | $1$ nghìn |
+| $2\,000$ | $2$ nghìn |
+| $5\,000$ | $5$ nghìn |
+| $10\,000$ | $10$ nghìn |
+| $20\,000$ | $20$ nghìn |
+| $50\,000$ | $50$ nghìn |
+| $100\,000$ | $100$ nghìn |
+
+[[P4·3827]]
+Ta bắt đầu với một ví dụ nhỏ. Mẹ cho Nam hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Nam có tất cả bao nhiêu tiền?
+
+[[P5·376a]]
+- Mỗi tờ $5\,000$ đồng là $5$ nghìn. Hai tờ là $5+5=10$ nghìn.
+- Tờ $2\,000$ đồng là $2$ nghìn.
+- Cộng lại: $10+2=12$ nghìn.
+
+[[P6·93e6]]
+Vậy Nam có $12$ nghìn đồng, tức là $12\,000$ đồng. Em thấy không, ta cộng các số nhỏ rồi mới thêm chữ "nghìn".
+
+[[P7·482f]]
+Bây giờ ta quay lại bài toán của Nam ở đầu bài. Nam đưa $20$ nghìn đồng và tiền hàng là $12$ nghìn đồng. Em hãy xem trên tia số: từ $12$ lên $20$ cần thêm bao nhiêu nghìn?
+
+:::graph Trên tia số (đơn vị: nghìn đồng): từ 12 lên 20 cần thêm 8
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·fa78]]
+Từ $12$ lên $20$ cần thêm $8$ nghìn. Em cũng có thể trừ: $20-12=8$ nghìn. Vậy cô bán hàng trả lại Nam $8\,000$ đồng.
+
+  :::theorem Tính tiền
+  - **Số tiền của nhiều tờ tiền:** đổi mỗi tờ ra nghìn đồng, cộng lại, rồi viết thêm "nghìn đồng".
+  - **Tiền hàng của nhiều món:** cộng giá tiền của từng món.
+  - **Tiền trả lại** $=$ tiền đưa $-$ tiền hàng.
+  :::
+
+[[P9·3e23]]
+Tiền trả lại dùng phép trừ vì đó là phần tiền đưa dư ra sau khi đã trả đủ tiền hàng. Em luôn có thể thử lại: tiền hàng $+$ tiền trả lại phải bằng tiền đưa. Ở trên, $12+8=20$, đúng.
+
+## Ví dụ
+
+[[P10·b539]]
+Ta bắt đầu với việc đếm một ít tờ tiền.
+
+  :::example Đếm tiền
+  Mai có một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và hai tờ $2\,000$ đồng. Hỏi Mai có bao nhiêu tiền?
+
+  ![Bốn tờ tiền giản lược: 10 000, 5 000 và hai tờ 2 000](/assets/img/g3/g3-vietnamese-money-01.svg)
+
+  **Lời giải.** Em đổi mỗi tờ ra nghìn đồng rồi cộng:
+  $$10+5+2+2=19\ \text{(nghìn đồng)}.$$
+  Vậy Mai có $19\,000$ đồng.
+
+  **Kiểm tra.** $10\,000+5\,000+2\,000+2\,000=19\,000$. Khớp.
+  :::
+
+[[P11·b3b3]]
+Ví dụ sau có nhiều tờ tiền hơn, nhưng cách làm vẫn như vậy.
+
+  :::example Đếm nhiều tờ tiền
+  Hà có hai tờ $20\,000$ đồng, một tờ $5\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Hà có bao nhiêu tiền?
+
+  ![Năm tờ tiền giản lược gồm hai tờ 20 000 cùng các tờ 5 000, 2 000 và 1 000](/assets/img/g3/g3-vietnamese-money-02.svg)
+
+  **Lời giải.** Hai tờ $20$ nghìn là $20+20=40$ nghìn. Em cộng thêm các tờ còn lại:
+  $$40+5+2+1=48\ \text{(nghìn đồng)}.$$
+  Vậy Hà có $48\,000$ đồng.
+  :::
+
+[[P12·7eef]]
+Bây giờ em tính tiền hàng khi mua nhiều món.
+
+  :::example Tiền hàng
+  Nam mua một quyển vở giá $7\,000$ đồng, một cái bút giá $4\,000$ đồng và một cục tẩy giá $2\,000$ đồng. Hỏi Nam phải trả bao nhiêu tiền?
+
+  **Lời giải.** "Phải trả" cả ba món nghĩa là gộp giá của ba món, nên em làm phép cộng:
+  $$7\,000+4\,000+2\,000=13\,000\ \text{(đồng)}.$$
+  Vậy Nam phải trả $13\,000$ đồng.
+  :::
+
+[[P13·8f1d]]
+Sau khi biết tiền hàng, em có thể tính tiền trả lại.
+
+  :::example Tiền trả lại
+  Cô Lan mua rau hết $35\,000$ đồng và đưa người bán tờ $50\,000$ đồng. Hỏi người bán phải trả lại cô Lan bao nhiêu tiền?
+
+  **Lời giải.** Tiền trả lại bằng tiền đưa trừ đi tiền hàng:
+  $$50\,000-35\,000=15\,000\ \text{(đồng)}.$$
+  Vậy người bán trả lại cô Lan $15\,000$ đồng.
+
+  **Kiểm tra.** $35\,000+15\,000=50\,000$. Khớp với tiền đưa.
+  :::
+
+[[P14·a65d]]
+Cuối cùng là một bài cần so sánh số tiền có với số tiền cần dùng.
+
+  :::example Có đủ tiền không?
+  Lan có $30\,000$ đồng. Lan muốn mua một con gấu bông giá $18\,000$ đồng và một hộp bút giá $15\,000$ đồng. Lan có đủ tiền không? Nếu không đủ thì thiếu bao nhiêu?
+
+  **Lời giải.** Trước hết em tính tiền hàng của cả hai món:
+  $$18\,000+15\,000=33\,000\ \text{(đồng)}.$$
+  Vì $33\,000>30\,000$ nên Lan không đủ tiền. Số tiền còn thiếu là:
+  $$33\,000-30\,000=3\,000\ \text{(đồng)}.$$
+  Vậy Lan không đủ tiền, còn thiếu $3\,000$ đồng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P15·7efe]]
+- **Đếm thiếu tờ tiền.** Sai: có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng, tính $5\,000+2\,000=7\,000$ đồng. Vì sao sai: em bỏ sót một tờ $5\,000$ đồng. Đúng: $5\,000+5\,000+2\,000=12\,000$ đồng.
+- **Cộng thay vì trừ khi tính tiền trả lại.** Sai: $20\,000+12\,000=32\,000$ đồng. Vì sao sai: tiền trả lại là phần dư ra, không thể nhiều hơn tiền đưa. Đúng: $20\,000-12\,000=8\,000$ đồng.
+- **Quên đổi về đồng.** Sai: "Đáp số: $12$ đồng". Vì sao sai: $12$ nghìn đồng là $12\,000$ đồng. Đúng: "Đáp số: $12\,000$ đồng".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tiền Việt Nam | Vietnamese money
+  - đồng | dong (the Vietnamese currency)
+  - tờ tiền | banknote
+  - nghìn | thousand
+  - giá tiền | price
+  - tiền hàng | total cost
+  - tiền đưa | money handed over
+  - tiền trả lại | change
+  - đủ tiền | enough money
+  - thiếu | short by
+  :::
+
+## Tóm tắt
+
+[[P16·5b69]]
+- Đơn vị tiền Việt Nam là **đồng**. Có các tờ $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$, $100\,000$ đồng.
+- Muốn đếm tiền, đổi mỗi tờ ra nghìn đồng rồi cộng. Ví dụ: $5+5+2=12$ nghìn, tức là $12\,000$ đồng.
+- Tiền hàng: cộng giá các món. Tiền trả lại $=$ tiền đưa $-$ tiền hàng.
+- Em có thể thử lại bằng phép cộng: tiền hàng $+$ tiền trả lại $=$ tiền đưa. Nhớ ghi đơn vị đồng.
+
+## Luyện tập
+
+[[P17·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG ANH ########
+---
+title: Vietnamese money
+description: Learn to count money, work out the total cost and the change with Vietnamese banknotes, by working in thousands of dong.
+minutes: 15
+---
+
+  :::goals
+  - Know the Vietnamese banknotes and their values.
+  - Count the money in several banknotes by working in thousands of dong.
+  - Work out the total cost and the change when you buy things.
+  - Solve word problems about money, remembering to write the unit dong.
+  :::
+
+[[P1·c958]]
+Nam has one $20\,000$ dong note. He buys a notebook that costs $12\,000$ dong and hands the note to the shopkeeper. How much change should the shopkeeper give Nam?
+
+[[P2·9397]]
+You have learned to add and subtract numbers up to $100\,000$. This lesson uses the same calculations to work with money.
+
+## Let's explore
+
+[[P3·9f8a]]
+In Vietnam, the unit of money is the **dong**. You often see the banknotes in the table below. The right-hand column shows how many **thousand** dong each note is worth.
+
+| Banknote (dong) | Worth in thousands of dong |
+|---|---|
+| $1\,000$ | $1$ thousand |
+| $2\,000$ | $2$ thousand |
+| $5\,000$ | $5$ thousand |
+| $10\,000$ | $10$ thousand |
+| $20\,000$ | $20$ thousand |
+| $50\,000$ | $50$ thousand |
+| $100\,000$ | $100$ thousand |
+
+[[P4·b3f1]]
+We start with a small example. Mum gives Nam two $5\,000$ dong notes and one $2\,000$ dong note. How much money does Nam have altogether?
+
+[[P5·8b91]]
+- Each $5\,000$ dong note is $5$ thousand. Two notes make $5+5=10$ thousand.
+- The $2\,000$ dong note is $2$ thousand.
+- Add them up: $10+2=12$ thousand.
+
+[[P6·730f]]
+So Nam has $12$ thousand dong, which is $12\,000$ dong. See: we add the small numbers first and only then put the word "thousand" back.
+
+[[P7·e560]]
+Now go back to Nam's problem at the start of the lesson. Nam hands over $20$ thousand dong and the notebook costs $12$ thousand dong. Look at the number line: how many thousand do you need to go from $12$ up to $20$?
+
+:::graph On a number line (unit: thousand dong): from 12 to 20 you need 8 more
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·b529]]
+From $12$ to $20$ you need $8$ thousand more. You can also subtract: $20-12=8$ thousand. So the shopkeeper gives Nam $8\,000$ dong change.
+
+  :::theorem Working with money
+  - **The money in several notes:** change each note into thousands of dong, add them up, then write "thousand dong".
+  - **The total cost of several items:** add the prices of the items.
+  - **Change** $=$ money handed over $-$ total cost.
+  :::
+
+[[P9·c1f4]]
+Change is a subtraction because it is the extra money left after you have paid the full cost. You can always check: total cost $+$ change must equal the money handed over. Above, $12+8=20$, which is right.
+
+## Examples
+
+[[P10·c917]]
+We start by counting a few banknotes.
+
+  :::example Counting money
+  Mai has one $10\,000$ dong note, one $5\,000$ dong note and two $2\,000$ dong notes. How much money does Mai have?
+
+  ![Four simplified notes: 10,000, 5,000, and two 2,000 notes](/assets/img/g3/g3-vietnamese-money-01.svg)
+
+  **Solution.** Change each note into thousands of dong and add:
+  $$10+5+2+2=19\ \text{(thousand dong)}.$$
+  So Mai has $19\,000$ dong.
+
+  **Check.** $10\,000+5\,000+2\,000+2\,000=19\,000$. It matches.
+  :::
+
+[[P11·a762]]
+The next example has more notes, but the method is the same.
+
+  :::example Counting more notes
+  Ha has two $20\,000$ dong notes, one $5\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. How much money does Ha have?
+
+  ![Five simplified notes: two 20,000 notes plus 5,000, 2,000, and 1,000](/assets/img/g3/g3-vietnamese-money-02.svg)
+
+  **Solution.** Two $20$ thousand notes make $20+20=40$ thousand. Add the other notes:
+  $$40+5+2+1=48\ \text{(thousand dong)}.$$
+  So Ha has $48\,000$ dong.
+  :::
+
+[[P12·d6c1]]
+Now work out the total cost when you buy several items.
+
+  :::example Total cost
+  Nam buys an exercise book for $7\,000$ dong, a pen for $4\,000$ dong and a rubber for $2\,000$ dong. How much must Nam pay?
+
+  **Solution.** Paying for all three items means putting the three prices together, so you add:
+  $$7\,000+4\,000+2\,000=13\,000\ \text{(dong)}.$$
+  So Nam must pay $13\,000$ dong.
+  :::
+
+[[P13·f0c1]]
+Once you know the total cost, you can work out the change.
+
+  :::example Change
+  Ms Lan buys vegetables for $35\,000$ dong and hands the seller a $50\,000$ dong note. How much change should the seller give her?
+
+  **Solution.** The change is the money handed over minus the total cost:
+  $$50\,000-35\,000=15\,000\ \text{(dong)}.$$
+  So the seller gives Ms Lan $15\,000$ dong change.
+
+  **Check.** $35\,000+15\,000=50\,000$. It matches the money handed over.
+  :::
+
+[[P14·9685]]
+Last, a problem where you compare the money you have with the money you need.
+
+  :::example Is there enough money?
+  Lan has $30\,000$ dong. She wants to buy a teddy bear for $18\,000$ dong and a pencil case for $15\,000$ dong. Does Lan have enough money? If not, how much more does she need?
+
+  **Solution.** First work out the total cost of the two items:
+  $$18\,000+15\,000=33\,000\ \text{(dong)}.$$
+  Since $33\,000>30\,000$, Lan does not have enough money. She is short by:
+  $$33\,000-30\,000=3\,000\ \text{(dong)}.$$
+  So Lan does not have enough money; she needs $3\,000$ dong more.
+  :::
+
+:::warning Mistakes to watch out for
+[[P15·df54]]
+- **Missing a note when counting.** Wrong: with two $5\,000$ dong notes and one $2\,000$ dong note, working out $5\,000+2\,000=7\,000$ dong. Why it is wrong: you left out one $5\,000$ dong note. Right: $5\,000+5\,000+2\,000=12\,000$ dong.
+- **Adding instead of subtracting for the change.** Wrong: $20\,000+12\,000=32\,000$ dong. Why it is wrong: change is the extra money, so it can never be more than the money handed over. Right: $20\,000-12\,000=8\,000$ dong.
+- **Forgetting to turn thousands back into dong.** Wrong: "Answer: $12$ dong". Why it is wrong: $12$ thousand dong is $12\,000$ dong. Right: "Answer: $12\,000$ dong".
+:::
+
+## Key terms
+
+  :::terms
+  - Vietnamese money | tiền Việt Nam
+  - dong (the Vietnamese currency) | đồng
+  - banknote | tờ tiền
+  - thousand | nghìn
+  - price | giá tiền
+  - total cost | tiền hàng
+  - money handed over | tiền đưa
+  - change | tiền trả lại
+  - enough money | đủ tiền
+  - short by | thiếu
+  :::
+
+## Summary
+
+[[P16·7bfb]]
+- The unit of Vietnamese money is the **dong**. There are $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$ and $100\,000$ dong notes.
+- To count money, change each note into thousands of dong and add. Example: $5+5+2=12$ thousand, which is $12\,000$ dong.
+- Total cost: add the prices of the items. Change $=$ money handed over $-$ total cost.
+- You can check with an addition: total cost $+$ change $=$ money handed over. Remember to write the unit dong.
+
+## Practice
+
+[[P17·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG VIỆT ########
+---
+title: Khả năng xảy ra của một sự kiện
+description: Em học cách nói một sự kiện là chắc chắn, có thể hay không thể xảy ra, qua các trò lấy bi, lấy kẹo, lấy thẻ trong hộp.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết một sự kiện là chắc chắn, có thể hay không thể xảy ra.
+  - Giải thích vì sao bằng cách nhìn vào những gì có trong hộp.
+  - Ghi kết quả thử nghiệm vào bảng số liệu.
+  :::
+
+[[P1·4ce0]]
+Mai có một chiếc hộp kín, trong hộp chỉ có $5$ viên bi đỏ. Mai nhắm mắt lấy ra một viên bi. Mai có thể lấy được viên bi xanh không? Mai có chắc chắn lấy được viên bi đỏ không?
+
+[[P2·42d7]]
+Bài này giúp em trả lời những câu hỏi như vậy, chỉ bằng cách nhìn xem trong hộp có gì.
+
+## Cùng khám phá
+
+[[P3·4d67]]
+Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
+
+![Ba hộp A, B, C lần lượt chứa năm bi đỏ; ba bi đỏ và hai bi xanh; năm bi xanh](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
+
+[[P4·d2a6]]
+- **Hộp A:** $5$ viên bi đỏ.
+- **Hộp B:** $3$ viên bi đỏ và $2$ viên bi xanh.
+- **Hộp C:** $5$ viên bi xanh.
+
+[[P5·16a3]]
+**Hộp A.** Trong hộp chỉ có bi đỏ. Dù lấy thế nào, ta cũng được bi đỏ. Ta nói: lấy được bi đỏ là **chắc chắn**. Lấy được bi xanh là **không thể**.
+
+[[P6·9184]]
+**Hộp B.** Trong hộp có cả bi đỏ và bi xanh. Lần này ta có thể được bi đỏ, lần khác có thể được bi xanh. Ta nói: lấy được bi đỏ là **có thể**, lấy được bi xanh cũng là **có thể**.
+
+[[P7·cfaa]]
+**Hộp C.** Trong hộp chỉ có bi xanh. Lấy được bi xanh là **chắc chắn**, lấy được bi đỏ là **không thể**.
+
+  :::theorem Ba mức khả năng
+  - **Chắc chắn:** sự kiện luôn luôn xảy ra.
+  - **Không thể:** sự kiện không bao giờ xảy ra.
+  - **Có thể:** sự kiện có lúc xảy ra, có lúc không xảy ra.
+
+  Muốn biết là mức nào, em nhìn xem trong hộp có những gì.
+  :::
+
+[[P8·1954]]
+Cách nghĩ này đúng vì em biết rõ mọi thứ trong hộp. Nếu thứ cần tìm không có, nó không thể xảy ra. Nếu mọi thứ trong hộp đều là thứ đó, nó chắc chắn xảy ra.
+
+## Ví dụ
+
+[[P9·31c8]]
+Ta bắt đầu với một hộp chỉ có một loại bóng.
+
+  :::example Hộp bóng vàng
+  Một hộp có $6$ quả bóng vàng. Nhắm mắt lấy ra một quả. Hãy nói khả năng của mỗi sự kiện:
+  a) lấy được quả bóng vàng;
+  b) lấy được quả bóng xanh.
+
+  **Lời giải.** Trong hộp chỉ có bóng vàng.
+
+  a) Quả nào lấy ra cũng là bóng vàng, nên sự kiện này **chắc chắn** xảy ra.
+
+  b) Trong hộp không có bóng xanh, nên sự kiện này **không thể** xảy ra.
+  :::
+
+[[P10·9f78]]
+Bây giờ hộp có hai loại kẹo.
+
+  :::example Túi kẹo
+  Một túi có $4$ chiếc kẹo cam và $2$ chiếc kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
+  a) lấy được kẹo cam;
+  b) lấy được kẹo dâu;
+  c) lấy được kẹo chanh.
+
+  **Lời giải.** Trong túi có cả kẹo cam và kẹo dâu, nhưng không có kẹo chanh.
+
+  a) Có thể lấy được kẹo cam, nên sự kiện này **có thể** xảy ra.
+
+  b) Có thể lấy được kẹo dâu, nên sự kiện này cũng **có thể** xảy ra.
+
+  c) Không có kẹo chanh, nên sự kiện này **không thể** xảy ra.
+  :::
+
+[[P11·1c76]]
+Ta cũng có thể hỏi về các số trên thẻ.
+
+  :::example Thẻ số
+  Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Nhắm mắt lấy ra một tấm thẻ. Hãy nói khả năng của:
+  a) lấy được thẻ ghi số $5$;
+  b) lấy được thẻ ghi số bé hơn $4$;
+  c) lấy được thẻ ghi số $2$.
+
+  **Lời giải.** Các số có thể lấy ra là $1$, $2$, $3$.
+
+  a) Không có thẻ số $5$, nên **không thể**.
+
+  b) Cả ba số $1$, $2$, $3$ đều bé hơn $4$, nên **chắc chắn**.
+
+  c) Thẻ số $2$ có trong hộp nhưng cũng có thẻ khác, nên **có thể**.
+  :::
+
+[[P12·8aee]]
+Em cũng gặp những câu hỏi này ở ngoài đời.
+
+  :::example Chuyện hằng ngày
+  Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
+  a) Mặt trời mọc vào buổi sáng.
+  b) Em đi bộ từ nhà đến trường trong $1$ giây.
+  c) Ngày mai trời mưa.
+
+  **Lời giải.** Ta nghĩ xem sự kiện có luôn xảy ra, không bao giờ xảy ra, hay có khi có khi không.
+
+  a) Buổi sáng nào Mặt trời cũng mọc, nên **chắc chắn**.
+
+  b) Không ai đi bộ nhanh như vậy, nên **không thể**.
+
+  c) Có ngày mưa, có ngày không, nên **có thể**.
+  :::
+
+[[P13·1821]]
+Cuối cùng, ta thử thật và ghi kết quả vào bảng số liệu như ở bài trước.
+
+  :::example Thử lấy bi
+  Hộp B có $3$ bi đỏ và $2$ bi xanh. Nam lấy một viên, ghi màu rồi bỏ lại vào hộp, làm $10$ lần. Kết quả: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh. Hãy lập bảng số liệu.
+
+  **Lời giải.** Ta đọc dãy một lượt và kẻ vạch vào hàng đúng màu:
+
+  | Màu bi | Vạch kiểm đếm | Số lần |
+  |---|---|---|
+  | Đỏ | ////// | $6$ |
+  | Xanh | //// | $4$ |
+
+  Kiểm tra: $6+4=10$ lần. Cả hai màu đều xuất hiện, đúng với "có thể được đỏ, có thể được xanh".
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·141f]]
+- **Nhầm "có thể" với "chắc chắn".** Sai: hộp có $1$ bi đỏ và $9$ bi xanh, nói "chắc chắn lấy được bi xanh". Vì sao sai: bi đỏ vẫn nằm trong hộp nên có thể lấy được bi đỏ. Đúng: lấy được bi xanh là có thể.
+- **Nhầm "rất ít" với "không thể".** Sai: hộp có $1$ bi đỏ, nói "không thể lấy được bi đỏ". Vì sao sai: bi đỏ có trong hộp. Đúng: có thể lấy được bi đỏ.
+- **Không nhìn vào hộp.** Sai: trả lời mà không xem trong hộp có gì. Đúng: luôn xem trong hộp có những gì trước khi trả lời.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - khả năng | chance (likelihood)
+  - sự kiện | event
+  - chắc chắn | certain
+  - có thể | possible (might happen)
+  - không thể | impossible
+  - hộp | box
+  - thử nghiệm | trial (experiment)
+  - bảng số liệu | data table
+  :::
+
+## Tóm tắt
+
+[[P15·2734]]
+- **Chắc chắn:** luôn xảy ra. **Không thể:** không bao giờ xảy ra. **Có thể:** có lúc xảy ra, có lúc không.
+- Nhìn xem trong hộp có gì: nếu thứ cần tìm không có thì không thể; nếu mọi thứ đều là thứ đó thì chắc chắn.
+- Trong hộp có nhiều loại thì mỗi loại đều có thể được lấy ra, dù loại đó ít.
+- Ghi kết quả thử nghiệm bằng vạch kiểm đếm và bảng số liệu.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG ANH ########
+---
+title: How likely is an event?
+description: Learn to say whether an event is certain, possible or impossible, using games with marbles, sweets and cards in a box.
+minutes: 15
+---
+
+  :::goals
+  - Tell whether an event is certain, possible or impossible.
+  - Give a reason by looking at what is in the box.
+  - Record the results of a trial in a data table.
+  :::
+
+[[P1·c46d]]
+Mai has a closed box with only $5$ red marbles inside. Mai shuts her eyes and takes out one marble. Can Mai get a blue marble? Is Mai certain to get a red marble?
+
+[[P2·d48b]]
+This lesson helps you answer questions like these, just by looking at what is in the box.
+
+## Let's explore
+
+[[P3·72ef]]
+There are three boxes. Each time, we shut our eyes and take out one marble.
+
+![Boxes A, B, and C contain five red; three red and two blue; and five blue marbles](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
+
+[[P4·b45a]]
+- **Box A:** $5$ red marbles.
+- **Box B:** $3$ red marbles and $2$ blue marbles.
+- **Box C:** $5$ blue marbles.
+
+[[P5·016f]]
+**Box A.** There are only red marbles. However we pick, we get a red marble. We say: getting a red marble is **certain**. Getting a blue marble is **impossible**.
+
+[[P6·4ff1]]
+**Box B.** There are red and blue marbles. This time we might get red, another time we might get blue. We say: getting a red marble is **possible**, and getting a blue marble is also **possible**.
+
+[[P7·bc6c]]
+**Box C.** There are only blue marbles. Getting a blue marble is **certain**, and getting a red marble is **impossible**.
+
+  :::theorem Three levels of likelihood
+  - **Certain:** the event always happens.
+  - **Impossible:** the event never happens.
+  - **Possible:** the event sometimes happens and sometimes does not.
+
+  To decide which level it is, look at what is in the box.
+  :::
+
+[[P8·ecaf]]
+This works because you know everything in the box. If the thing you want is not there, it is impossible. If everything in the box is that thing, it is certain.
+
+## Examples
+
+[[P9·8375]]
+We start with a box that holds only one kind of ball.
+
+  :::example A box of yellow balls
+  A box has $6$ yellow balls. Shut your eyes and take out one. Say how likely each event is:
+  a) you take a yellow ball;
+  b) you take a green ball.
+
+  **Solution.** There are only yellow balls in the box.
+
+  a) Every ball you take out is yellow, so this event is **certain**.
+
+  b) There is no green ball in the box, so this event is **impossible**.
+  :::
+
+[[P10·52d9]]
+Now the box has two kinds of sweets.
+
+  :::example A bag of sweets
+  A bag has $4$ orange sweets and $2$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
+  a) you take an orange sweet;
+  b) you take a strawberry sweet;
+  c) you take a lemon sweet.
+
+  **Solution.** The bag has both orange and strawberry sweets, but no lemon sweets.
+
+  a) You might take an orange sweet, so this event is **possible**.
+
+  b) You might take a strawberry sweet, so this event is also **possible**.
+
+  c) There are no lemon sweets, so this event is **impossible**.
+  :::
+
+[[P11·e1b3]]
+We can also ask about numbers on cards.
+
+  :::example Number cards
+  A box has $3$ cards with the numbers $1$, $2$, $3$. Shut your eyes and take out one card. Say how likely each event is:
+  a) you take the card with $5$;
+  b) you take a card with a number less than $4$;
+  c) you take the card with $2$.
+
+  **Solution.** The numbers you can take are $1$, $2$, $3$.
+
+  a) There is no card with $5$, so it is **impossible**.
+
+  b) All three numbers $1$, $2$, $3$ are less than $4$, so it is **certain**.
+
+  c) The card with $2$ is in the box, but so are other cards, so it is **possible**.
+  :::
+
+[[P12·903b]]
+You meet these questions in everyday life too.
+
+  :::example Everyday events
+  Say whether each event is certain, possible or impossible:
+  a) The Sun rises in the morning.
+  b) You walk from home to school in $1$ second.
+  c) It rains tomorrow.
+
+  **Solution.** We think about whether the event always happens, never happens, or sometimes happens.
+
+  a) The Sun rises every morning, so it is **certain**.
+
+  b) Nobody can walk that fast, so it is **impossible**.
+
+  c) Some days it rains and some days it does not, so it is **possible**.
+  :::
+
+[[P13·277b]]
+Finally, we try it for real and record the results in a data table, as in the last lesson.
+
+  :::example A trial with marbles
+  Box B has $3$ red and $2$ blue marbles. Nam takes out one marble, writes down its colour, puts it back, and does this $10$ times. The results are: red, blue, red, red, blue, red, blue, red, red, blue. Make a data table.
+
+  **Solution.** We read the list once and draw a stroke in the row of the right colour:
+
+  | Colour | Tally marks | Number of times |
+  |---|---|---|
+  | Red | ////// | $6$ |
+  | Blue | //// | $4$ |
+
+  Check: $6+4=10$ times. Both colours appeared, which fits "possible to get red, possible to get blue".
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·009d]]
+- **Mixing up "possible" and "certain".** Wrong: a box has $1$ red and $9$ blue marbles, and you say "you are certain to get blue". Why it is wrong: the red marble is still in the box, so you might get red. Right: getting blue is possible.
+- **Mixing up "very few" and "impossible".** Wrong: a box has $1$ red marble, and you say "you cannot get red". Why it is wrong: the red marble is in the box. Right: getting red is possible.
+- **Not looking in the box.** Wrong: answering without checking what is inside. Right: always check what is in the box before you answer.
+:::
+
+## Key terms
+
+  :::terms
+  - chance (likelihood) | khả năng
+  - event | sự kiện
+  - certain | chắc chắn
+  - possible (might happen) | có thể
+  - impossible | không thể
+  - box | hộp
+  - trial (experiment) | thử nghiệm
+  - data table | bảng số liệu
+  :::
+
+## Summary
+
+[[P15·70c1]]
+- **Certain:** always happens. **Impossible:** never happens. **Possible:** sometimes happens, sometimes does not.
+- Look at what is in the box: if the thing you want is not there, it is impossible; if everything is that thing, it is certain.
+- If the box holds several kinds, each kind is possible to take out, even if there are only a few of that kind.
+- Record the results of a trial with tally marks and a data table.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG VIỆT ########
+---
+title: Tìm thành phần trong phép cộng, phép trừ
+description: Em học cách tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược, rồi thử lại để chắc chắn kết quả đúng.
+minutes: 15
+---
+
+  :::goals
+  - Gọi đúng tên các thành phần của phép cộng và phép trừ.
+  - Tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược.
+  - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số ban đầu".
+  :::
+
+[[P1·de9e]]
+Lan có một số hình dán trong hộp. Mẹ cho Lan thêm $7$ hình nữa, bây giờ Lan có $15$ hình. Hỏi lúc đầu trong hộp có bao nhiêu hình dán?
+
+[[P2·0270]]
+Em chưa biết số hình lúc đầu, nên ta viết $\square+7=15$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn, không cần đoán.
+
+## Cùng khám phá
+
+[[P3·7dc4]]
+Em nhớ lại bài trước: trong phép cộng $8+7=15$, các số $8$ và $7$ gọi là **số hạng**, số $15$ gọi là **tổng**.
+
+[[P4·aaab]]
+Ta nhìn lại câu chuyện của Lan:
+
+[[P5·ec80]]
+- Cả hộp có $15$ hình sau khi thêm.
+- Phần mẹ cho thêm là $7$ hình.
+- Phần có lúc đầu là phần còn lại, nên ta lấy $15$ bớt đi $7$.
+
+[[P6·7933]]
+Vậy $15-7=8$. Lúc đầu Lan có $8$ hình dán.
+
+:::graph Trên tia số: đi từ 7 đến 15 là đi thêm 8 bước
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·416f]]
+Em thấy không: biết tổng và một số hạng, muốn tìm số hạng còn lại ta làm phép trừ.
+
+  :::theorem Tìm số hạng chưa biết
+  Số hạng chưa biết bằng tổng trừ đi số hạng đã biết.
+
+  Nếu $\square+7=15$ thì $\square=15-7=8$.
+  :::
+
+[[P8·a917]]
+Bây giờ ta xem phép trừ. Trong $15-7=8$, số $15$ là **số bị trừ**, số $7$ là **số trừ**, số $8$ là **hiệu**.
+
+[[P9·5341]]
+Em hãy nhớ câu chuyện: có $15$ hình, lấy đi $7$ hình, còn $8$ hình. Nếu biết còn $8$ và đã lấy đi $7$ thì lúc đầu có $8+7=15$ hình. Nếu biết lúc đầu có $15$ và còn $8$ thì đã lấy đi $15-8=7$ hình.
+
+  :::theorem Tìm số bị trừ, số trừ chưa biết
+  Số bị trừ bằng hiệu cộng số trừ.
+
+  Số trừ bằng số bị trừ trừ đi hiệu.
+
+  Nếu $\square-7=8$ thì $\square=8+7=15$. Nếu $15-\square=8$ thì $\square=15-8=7$.
+  :::
+
+[[P10·1f37]]
+Cách làm này đúng vì phép cộng và phép trừ "ngược nhau": cộng rồi trừ cùng một số thì về lại số ban đầu.
+
+## Ví dụ
+
+[[P11·77ad]]
+Ta bắt đầu với số hạng chưa biết ở vị trí đầu.
+
+  :::example Tìm $\square$, biết $\square+6=14$
+  **Lời giải.** $\square$ là số hạng chưa biết, nên ta lấy tổng trừ đi số hạng đã biết:
+  $$\square=14-6=8.$$
+  **Thử lại.** $8+6=14$. Đúng.
+
+  Vậy $\square=8$.
+  :::
+
+[[P12·df9b]]
+Số hạng chưa biết cũng có thể đứng ở vị trí thứ hai, cách làm vẫn như vậy.
+
+  :::example Tìm $\square$, biết $9+\square=17$
+  **Lời giải.** Lấy tổng trừ đi số hạng đã biết là $9$:
+  $$\square=17-9=8.$$
+  **Thử lại.** $9+8=17$. Đúng.
+
+  Vậy $\square=8$.
+  :::
+
+[[P13·345c]]
+Bây giờ ta tìm số bị trừ.
+
+  :::example Tìm $\square$, biết $\square-5=12$
+  **Lời giải.** $\square$ là số bị trừ, nên ta lấy hiệu cộng với số trừ:
+  $$\square=12+5=17.$$
+  **Thử lại.** $17-5=12$. Đúng.
+
+  Vậy $\square=17$.
+  :::
+
+[[P14·cefc]]
+Tiếp theo là số trừ chưa biết.
+
+  :::example Tìm $\square$, biết $20-\square=13$
+  **Lời giải.** $\square$ là số trừ, nên ta lấy số bị trừ trừ đi hiệu:
+  $$\square=20-13=7.$$
+  **Thử lại.** $20-7=13$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P15·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Số viên bi
+  Bình có một số viên bi. Bạn Nam cho Bình thêm $12$ viên, bây giờ Bình có $30$ viên. Hỏi lúc đầu Bình có bao nhiêu viên bi?
+
+  **Lời giải.** Gọi số bi lúc đầu là $\square$. Đề cho biết $\square+12=30$. Số hạng chưa biết bằng tổng trừ đi số hạng đã biết:
+  $$\square=30-12=18\ \text{(viên)}.$$
+  **Thử lại.** $18+12=30$. Đúng.
+
+  Vậy lúc đầu Bình có $18$ viên bi.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P16·034b]]
+- **Cộng thay vì trừ ở phép cộng.** Sai: $\square+6=14$ nên $\square=14+6=20$. Vì sao sai: $20+6=26$, không bằng $14$. Đúng: $\square=14-6=8$.
+- **Trừ thay vì cộng khi tìm số bị trừ.** Sai: $\square-5=12$ nên $\square=12-5=7$. Vì sao sai: $7-5=2$, không bằng $12$. Đúng: $\square=12+5=17$.
+- **Nhầm vị trí số trừ.** Sai: $20-\square=13$ nên $\square=20+13=33$. Vì sao sai: $20-33$ không làm được. Đúng: $\square=20-13=7$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số hạng | addend
+  - tổng | sum (total)
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - số chưa biết | missing number
+  - phép tính ngược | inverse operation
+  - thử lại | check the answer
+  :::
+
+## Tóm tắt
+
+[[P17·fa9c]]
+- Phép cộng: số hạng + số hạng = tổng. Phép trừ: số bị trừ − số trừ = hiệu.
+- Số hạng chưa biết = tổng − số hạng đã biết.
+- Số bị trừ chưa biết = hiệu + số trừ.
+- Số trừ chưa biết = số bị trừ − hiệu.
+- Luôn thử lại bằng cách đặt kết quả vào ô trống; ghi đơn vị khi giải bài toán có lời văn.
+
+## Luyện tập
+
+[[P18·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG ANH ########
+---
+title: Finding missing numbers in addition and subtraction
+description: Learn to find a missing addend, minuend or subtrahend with the inverse operation, then check your answer to be sure it is right.
+minutes: 15
+---
+
+  :::goals
+  - Name the parts of an addition and a subtraction.
+  - Find a missing addend, minuend or subtrahend with the inverse operation.
+  - Check the answer and solve word problems that ask for the starting number.
+  :::
+
+[[P1·4662]]
+Lan has some stickers in a box. Her mum gives her $7$ more, and now Lan has $15$ stickers. How many stickers were in the box at the start?
+
+[[P2·84c4]]
+We do not know the starting number, so we write $\square+7=15$. This lesson shows you how to find the number in the box for sure, without guessing.
+
+## Let's explore
+
+[[P3·4aec]]
+Remember the last lesson: in the addition $8+7=15$, the numbers $8$ and $7$ are called **addends** and $15$ is called the **sum**.
+
+[[P4·ce69]]
+Look again at Lan's story:
+
+[[P5·23f1]]
+- The box holds $15$ stickers after the new ones are added.
+- Mum gave $7$ stickers.
+- The stickers Lan had at the start are the rest, so we take $7$ away from $15$.
+
+[[P6·9586]]
+So $15-7=8$. Lan had $8$ stickers at the start.
+
+:::graph On the number line: going from 7 to 15 is 8 steps
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·6b65]]
+You see: if we know the sum and one addend, we subtract to find the other addend.
+
+  :::theorem Finding a missing addend
+  The missing addend is the sum minus the known addend.
+
+  If $\square+7=15$, then $\square=15-7=8$.
+  :::
+
+[[P8·a19e]]
+Now look at subtraction. In $15-7=8$, the number $15$ is the **minuend**, $7$ is the **subtrahend** and $8$ is the **difference**.
+
+[[P9·5d92]]
+Think of the story: there are $15$ stickers, we take away $7$, and $8$ are left. If we know $8$ are left and $7$ were taken away, then at the start there were $8+7=15$. If we know there were $15$ and $8$ are left, then $15-8=7$ were taken away.
+
+  :::theorem Finding a missing minuend or subtrahend
+  The minuend is the difference plus the subtrahend.
+
+  The subtrahend is the minuend minus the difference.
+
+  If $\square-7=8$, then $\square=8+7=15$. If $15-\square=8$, then $\square=15-8=7$.
+  :::
+
+[[P10·2a39]]
+This works because addition and subtraction undo each other: add a number and then subtract it, and you are back where you started.
+
+## Examples
+
+[[P11·7a50]]
+We start with the missing addend in the first place.
+
+  :::example Find $\square$ when $\square+6=14$
+  **Solution.** $\square$ is an addend, so we subtract the known addend from the sum:
+  $$\square=14-6=8.$$
+  **Check.** $8+6=14$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P12·5000]]
+The missing addend can also be in the second place. The method is the same.
+
+  :::example Find $\square$ when $9+\square=17$
+  **Solution.** Subtract the known addend, $9$, from the sum:
+  $$\square=17-9=8.$$
+  **Check.** $9+8=17$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P13·18cf]]
+Now we find a missing minuend.
+
+  :::example Find $\square$ when $\square-5=12$
+  **Solution.** $\square$ is the minuend, so we add the subtrahend to the difference:
+  $$\square=12+5=17.$$
+  **Check.** $17-5=12$. Correct.
+
+  So $\square=17$.
+  :::
+
+[[P14·822a]]
+Next, a missing subtrahend.
+
+  :::example Find $\square$ when $20-\square=13$
+  **Solution.** $\square$ is the subtrahend, so we subtract the difference from the minuend:
+  $$\square=20-13=7.$$
+  **Check.** $20-7=13$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P15·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Marbles
+  Binh has some marbles. Nam gives him $12$ more, and now Binh has $30$ marbles. How many marbles did Binh have at the start?
+
+  **Solution.** Let the starting number be $\square$. The story says $\square+12=30$. The missing addend is the sum minus the known addend:
+  $$\square=30-12=18\ \text{(marbles)}.$$
+  **Check.** $18+12=30$. Correct.
+
+  So Binh had $18$ marbles at the start.
+  :::
+
+:::warning Mistakes to watch out for
+[[P16·d6bd]]
+- **Adding instead of subtracting in an addition.** Wrong: $\square+6=14$ so $\square=14+6=20$. Why it is wrong: $20+6=26$, not $14$. Right: $\square=14-6=8$.
+- **Subtracting instead of adding for a minuend.** Wrong: $\square-5=12$ so $\square=12-5=7$. Why it is wrong: $7-5=2$, not $12$. Right: $\square=12+5=17$.
+- **Mixing up the subtrahend.** Wrong: $20-\square=13$ so $\square=20+13=33$. Why it is wrong: $20-33$ cannot be done here. Right: $\square=20-13=7$.
+:::
+
+## Key terms
+
+  :::terms
+  - addend | số hạng
+  - sum (total) | tổng
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - missing number | số chưa biết
+  - inverse operation | phép tính ngược
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P17·c0a0]]
+- Addition: addend + addend = sum. Subtraction: minuend − subtrahend = difference.
+- Missing addend = sum − known addend.
+- Missing minuend = difference + subtrahend.
+- Missing subtrahend = minuend − difference.
+- Always check by putting your answer in the box; write the unit in word problems.
+
+## Practice
+
+[[P18·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

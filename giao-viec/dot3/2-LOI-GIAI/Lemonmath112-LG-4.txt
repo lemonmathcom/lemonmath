@@ -1,0 +1,1150 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-LG-4   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-LG-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-LG-4
+Người làm: tài khoản Lemonmath112. Gói này có 35 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath112-LG-4-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-LG-4-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g8/intro-functions-graphs (5 bài tập)
+- g8/isosceles-trapeziums (5 bài tập)
+- g8/linear-equations-one-unknown (6 bài tập)
+- g8/linear-functions-graphs (9 bài tập)
+- g8/monomials (8 bài tập)
+- g8/multiply-divide-algebraic-fractions (2 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g8/intro-functions-graphs
+Bài học: Khái niệm hàm số và đồ thị của hàm số / The idea of a function and its graph
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong mỗi bảng, $y$ có là hàm số của $x$ không?
+
+a) $x:0,1,2,3$ và $y:1,3,5,7$.
+
+b) $x:1,1,2$ và $y:2,3,4$.
+
+[LỜI GIẢI CŨ – VI]
+a) Các giá trị $x$ đều khác nhau, mỗi $x$ có một $y$: là hàm số.
+
+b) Giá trị $x=1$ ứng với hai giá trị $y=2$ và $y=3$: không phải hàm số.
+
+**Đáp số.** a) là hàm số. b) không là hàm số.
+
+[ĐỀ – EN]
+In each table, is $y$ a function of $x$?
+
+a) $x:0,1,2,3$ and $y:1,3,5,7$.
+
+b) $x:1,1,2$ and $y:2,3,4$.
+
+[LỜI GIẢI CŨ – EN]
+a) All the values of $x$ are different, and each has one $y$: it is a function.
+
+b) The value $x=1$ has two values $y=2$ and $y=3$: it is not a function.
+
+**Answer.** a) a function. b) not a function.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong các hệ thức sau, $y$ có là hàm số của $x$ không?
+
+a) $y^2=x$.
+
+b) $y=3-x$.
+
+c) $y=\dfrac1x$.
+
+[LỜI GIẢI CŨ – VI]
+a) Với $x=4$ ta có $y=2$ hoặc $y=-2$: một $x$ cho hai $y$, không phải hàm số.
+
+b) Mỗi $x$ cho đúng một $y=3-x$: là hàm số.
+
+c) Mỗi $x\neq0$ cho đúng một $y=\dfrac1x$: là hàm số với tập xác định $x\neq0$.
+
+**Đáp số.** a) không. b) có. c) có (với $x\neq0$).
+
+[ĐỀ – EN]
+In each relation, is $y$ a function of $x$?
+
+a) $y^2=x$.
+
+b) $y=3-x$.
+
+c) $y=\dfrac1x$.
+
+[LỜI GIẢI CŨ – EN]
+a) For $x=4$ we have $y=2$ or $y=-2$: one $x$ gives two $y$, so it is not a function.
+
+b) Each $x$ gives exactly one $y=3-x$: it is a function.
+
+c) Each $x\neq0$ gives exactly one $y=\dfrac1x$: it is a function with domain $x\neq0$.
+
+**Answer.** a) no. b) yes. c) yes (for $x\neq0$).
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=3x-4$. Tính $f(0)$, $f(2)$, $f(-1)$ và tìm $x$ để $f(x)=11$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $f(0)=-4$; $f(2)=6-4=2$; $f(-1)=-3-4=-7$. Phương trình $3x-4=11$ cho $3x=15$ và $x=5$.
+
+Vậy $f(0)=-4$, $f(2)=2$, $f(-1)=-7$ và $f(x)=11$ khi $x=5$.
+
+**Đáp số.** $-4$; $2$; $-7$; $x=5$.
+
+[ĐỀ – EN]
+Let $f(x)=3x-4$. Find $f(0)$, $f(2)$, $f(-1)$ and find $x$ such that $f(x)=11$.
+
+[LỜI GIẢI CŨ – EN]
+We have $f(0)=-4$; $f(2)=6-4=2$; $f(-1)=-3-4=-7$. The equation $3x-4=11$ gives $3x=15$ and $x=5$.
+
+So $f(0)=-4$, $f(2)=2$, $f(-1)=-7$ and $f(x)=11$ when $x=5$.
+
+**Answer.** $-4$; $2$; $-7$; $x=5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm tập xác định của các hàm số:
+
+a) $y=\dfrac{2}{x+3}$.
+
+b) $y=\dfrac{x-1}{2x-6}$.
+
+c) $y=x^2+1$.
+
+[LỜI GIẢI CŨ – VI]
+a) $x+3\neq0$ nên $x\neq-3$.
+
+b) $2x-6\neq0$ nên $x\neq3$.
+
+c) Biểu thức có nghĩa với mọi $x$, tập xác định là $\mathbb R$.
+
+**Đáp số.** a) $x\neq-3$. b) $x\neq3$. c) $\mathbb R$.
+
+[ĐỀ – EN]
+Find the domain of each function:
+
+a) $y=\dfrac{2}{x+3}$.
+
+b) $y=\dfrac{x-1}{2x-6}$.
+
+c) $y=x^2+1$.
+
+[LỜI GIẢI CŨ – EN]
+a) $x+3\neq0$, so $x\neq-3$.
+
+b) $2x-6\neq0$, so $x\neq3$.
+
+c) The expression makes sense for every $x$, so the domain is $\mathbb R$.
+
+**Answer.** a) $x\neq-3$. b) $x\neq3$. c) $\mathbb R$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Trong các điểm $A(1; 2)$, $B(2; 2)$, $C(0; 3)$, $D(-1; 4)$, những điểm nào thuộc đồ thị của hàm số $y=-x+3$?
+
+[LỜI GIẢI CŨ – VI]
+Với $A$: $-1+3=2$, đúng. Với $B$: $-2+3=1\neq2$, sai. Với $C$: $-0+3=3$, đúng. Với $D$: $-(-1)+3=4$, đúng.
+
+Vậy $A$, $C$, $D$ thuộc đồ thị.
+
+**Đáp số.** $A$, $C$, $D$.
+
+[ĐỀ – EN]
+Which of the points $A(1, 2)$, $B(2, 2)$, $C(0, 3)$, $D(-1, 4)$ lie on the graph of $y=-x+3$?
+
+[LỜI GIẢI CŨ – EN]
+For $A$: $-1+3=2$, correct. For $B$: $-2+3=1\neq2$, wrong. For $C$: $-0+3=3$, correct. For $D$: $-(-1)+3=4$, correct.
+
+So $A$, $C$, $D$ lie on the graph.
+
+**Answer.** $A$, $C$, $D$.
+
+
+######################################################################
+@@@ g8/isosceles-trapeziums
+Bài học: Hình thang cân / Isosceles trapeziums
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hình thang $ABCD$ ($AB\parallel CD$) có $\widehat{A}=120^\circ$ và $\widehat{B}=100^\circ$. Tính $\widehat{D}$ và $\widehat{C}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\widehat{D}=180^\circ-120^\circ=60^\circ$ và $\widehat{C}=180^\circ-100^\circ=80^\circ$. (Kiểm tra: $120+100+80+60=360$.)
+
+Vậy $\widehat{D}=60^\circ$ và $\widehat{C}=80^\circ$.
+
+**Đáp số.** $\widehat{D}=60^\circ$; $\widehat{C}=80^\circ$.
+
+[ĐỀ – EN]
+The trapezium $ABCD$ ($AB\parallel CD$) has $\angle A=120^\circ$ and $\angle B=100^\circ$. Find $\angle D$ and $\angle C$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\angle D=180^\circ-120^\circ=60^\circ$ and $\angle C=180^\circ-100^\circ=80^\circ$. (Check: $120+100+80+60=360$.)
+
+So $\angle D=60^\circ$ and $\angle C=80^\circ$.
+
+**Answer.** $\angle D=60^\circ$; $\angle C=80^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hình thang cân $MNPQ$ ($MN\parallel PQ$) có $\widehat{Q}=65^\circ$. Tính các góc còn lại.
+
+[LỜI GIẢI CŨ – VI]
+Hai góc kề đáy $PQ$ bằng nhau nên $\widehat{P}=\widehat{Q}=65^\circ$. Vì $MN\parallel PQ$ nên $\widehat{M}=180^\circ-\widehat{Q}=115^\circ$ và $\widehat{N}=180^\circ-\widehat{P}=115^\circ$.
+
+Vậy $\widehat{P}=65^\circ$ và $\widehat{M}=\widehat{N}=115^\circ$.
+
+**Đáp số.** $\widehat{P}=65^\circ$; $\widehat{M}=\widehat{N}=115^\circ$.
+
+[ĐỀ – EN]
+The isosceles trapezium $MNPQ$ ($MN\parallel PQ$) has $\angle Q=65^\circ$. Find the other angles.
+
+[LỜI GIẢI CŨ – EN]
+The two base angles at the base $PQ$ are equal, so $\angle P=\angle Q=65^\circ$. Since $MN\parallel PQ$, we have $\angle M=180^\circ-\angle Q=115^\circ$ and $\angle N=180^\circ-\angle P=115^\circ$.
+
+So $\angle P=65^\circ$ and $\angle M=\angle N=115^\circ$.
+
+**Answer.** $\angle P=65^\circ$; $\angle M=\angle N=115^\circ$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hình thang cân $ABCD$ ($AB\parallel CD$) có $AB=8$ cm, $CD=14$ cm và $AD=5$ cm. Tính chu vi.
+
+[LỜI GIẢI CŨ – VI]
+Vì $ABCD$ là hình thang cân nên $BC=AD=5$ cm. Chu vi là $8+5+14+5=32$ (cm).
+
+Vậy chu vi bằng $32$ cm.
+
+**Đáp số.** $32$ cm.
+
+[ĐỀ – EN]
+The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $AB=8$ cm, $CD=14$ cm and $AD=5$ cm. Find the perimeter.
+
+[LỜI GIẢI CŨ – EN]
+Since $ABCD$ is an isosceles trapezium, $BC=AD=5$ cm. The perimeter is $8+5+14+5=32$ (cm).
+
+So the perimeter is $32$ cm.
+
+**Answer.** $32$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hình thang cân $ABCD$ ($AB\parallel CD$) có $AB=6$ cm, $CD=14$ cm và $AD=5$ cm. Tính chiều cao.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $DH=\dfrac{14-6}{2}=4$ (cm). Trong tam giác vuông $AHD$: $AH^2=AD^2-DH^2=25-16=9$, nên $AH=3$ cm.
+
+Vậy chiều cao bằng $3$ cm.
+
+**Đáp số.** $3$ cm.
+
+[ĐỀ – EN]
+The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $AB=6$ cm, $CD=14$ cm and $AD=5$ cm. Find the height.
+
+[LỜI GIẢI CŨ – EN]
+We have $DH=\dfrac{14-6}{2}=4$ (cm). In the right triangle $AHD$: $AH^2=AD^2-DH^2=25-16=9$, so $AH=3$ cm.
+
+So the height is $3$ cm.
+
+**Answer.** $3$ cm.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{A}=3\widehat{C}$. Tính các góc của hình thang.
+
+[LỜI GIẢI CŨ – VI]
+Vì $\widehat{D}=\widehat{C}$ nên $\widehat{A}+\widehat{C}=\widehat{A}+\widehat{D}=180^\circ$. Thay $\widehat{A}=3\widehat{C}$: $4\widehat{C}=180^\circ$, nên $\widehat{C}=45^\circ$. Do đó $\widehat{D}=45^\circ$ và $\widehat{A}=\widehat{B}=135^\circ$.
+
+Vậy $\widehat{C}=\widehat{D}=45^\circ$ và $\widehat{A}=\widehat{B}=135^\circ$.
+
+**Đáp số.** $\widehat{C}=\widehat{D}=45^\circ$; $\widehat{A}=\widehat{B}=135^\circ$.
+
+[ĐỀ – EN]
+The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle A=3\angle C$. Find the angles of the trapezium.
+
+[LỜI GIẢI CŨ – EN]
+Since $\angle D=\angle C$, we have $\angle A+\angle C=\angle A+\angle D=180^\circ$. Substituting $\angle A=3\angle C$: $4\angle C=180^\circ$, so $\angle C=45^\circ$. Hence $\angle D=45^\circ$ and $\angle A=\angle B=135^\circ$.
+
+So $\angle C=\angle D=45^\circ$ and $\angle A=\angle B=135^\circ$.
+
+**Answer.** $\angle C=\angle D=45^\circ$; $\angle A=\angle B=135^\circ$.
+
+
+######################################################################
+@@@ g8/linear-equations-one-unknown
+Bài học: Phương trình bậc nhất một ẩn / Linear equations in one unknown
+Cần viết lại lời giải các bài: 1, 2, 3, 6, 7, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Phương trình nào sau đây là phương trình bậc nhất một ẩn?
+
+a) $5x-3=0$.
+
+b) $0x-4=0$.
+
+c) $x^2+2=0$.
+
+d) $7-2t=0$.
+
+[LỜI GIẢI CŨ – VI]
+a) Có $a=5\neq0$: đúng. b) $a=0$: không phải. c) Ẩn có số mũ $2$: không phải. d) Viết $-2t+7=0$ với $a=-2\neq0$: đúng.
+
+Vậy a) và d) là phương trình bậc nhất một ẩn.
+
+**Đáp số.** a), d).
+
+[ĐỀ – EN]
+Which of these equations are linear equations in one unknown?
+
+a) $5x-3=0$.
+
+b) $0x-4=0$.
+
+c) $x^2+2=0$.
+
+d) $7-2t=0$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=5\neq0$: yes. b) $a=0$: no. c) The unknown has exponent $2$: no. d) Written as $-2t+7=0$ with $a=-2\neq0$: yes.
+
+So a) and d) are linear equations in one unknown.
+
+**Answer.** a), d).
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Giải các phương trình sau:
+
+a) $2x-10=0$.
+
+b) $3x+8=0$.
+
+c) $7-4x=0$.
+
+[LỜI GIẢI CŨ – VI]
+a) $2x=10$ nên $x=5$.
+
+b) $3x=-8$ nên $x=-\dfrac83$.
+
+c) $-4x=-7$ nên $x=\dfrac74$.
+
+Vậy a) $x=5$; b) $x=-\dfrac83$; c) $x=\dfrac74$.
+
+**Đáp số.** a) $5$. b) $-\dfrac83$. c) $\dfrac74$.
+
+[ĐỀ – EN]
+Solve the following equations:
+
+a) $2x-10=0$.
+
+b) $3x+8=0$.
+
+c) $7-4x=0$.
+
+[LỜI GIẢI CŨ – EN]
+a) $2x=10$, so $x=5$.
+
+b) $3x=-8$, so $x=-\dfrac83$.
+
+c) $-4x=-7$, so $x=\dfrac74$.
+
+So a) $x=5$; b) $x=-\dfrac83$; c) $x=\dfrac74$.
+
+**Answer.** a) $5$. b) $-\dfrac83$. c) $\dfrac74$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải phương trình $5x-3=2x+9$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $5x-2x=9+3$, tức $3x=12$, suy ra $x=4$.
+
+Kiểm tra: vế trái $5\cdot4-3=17$, vế phải $2\cdot4+9=17$.
+
+Vậy phương trình có nghiệm $x=4$.
+
+**Đáp số.** $x=4$.
+
+[ĐỀ – EN]
+Solve the equation $5x-3=2x+9$.
+
+[LỜI GIẢI CŨ – EN]
+We have $5x-2x=9+3$, that is $3x=12$, so $x=4$.
+
+Check: left-hand side $5\cdot4-3=17$, right-hand side $2\cdot4+9=17$.
+
+So the equation has the solution $x=4$.
+
+**Answer.** $x=4$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giải các phương trình sau và nhận xét số nghiệm:
+
+a) $3(x+2)=3x+6$.
+
+b) $2x+5=2(x-1)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Bỏ ngoặc: $3x+6=3x+6$, tức $0x=0$ đúng với mọi $x$: phương trình có vô số nghiệm.
+
+b) Bỏ ngoặc: $2x+5=2x-2$, suy ra $0x=-7$, không có $x$ nào thoả mãn: phương trình vô nghiệm.
+
+**Đáp số.** a) vô số nghiệm. b) vô nghiệm.
+
+[ĐỀ – EN]
+Solve the following equations and comment on the number of solutions:
+
+a) $3(x+2)=3x+6$.
+
+b) $2x+5=2(x-1)$.
+
+[LỜI GIẢI CŨ – EN]
+a) Removing brackets: $3x+6=3x+6$, that is $0x=0$, true for every $x$: the equation has infinitely many solutions.
+
+b) Removing brackets: $2x+5=2x-2$, so $0x=-7$; no $x$ satisfies this: the equation has no solution.
+
+**Answer.** a) infinitely many solutions. b) no solution.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một hãng taxi tính cước mở cửa $12\,000$ đồng và $14\,000$ đồng cho mỗi ki-lô-mét. Một hành khách trả $96\,000$ đồng. Hỏi hành khách đã đi bao nhiêu ki-lô-mét?
+
+[LỜI GIẢI CŨ – VI]
+Phương trình: $14\,000x+12\,000=96\,000$. Chuyển vế: $14\,000x=84\,000$, suy ra $x=6$.
+
+Kiểm tra: $14\,000\cdot6+12\,000=96\,000$.
+
+Vậy hành khách đã đi $6$ km.
+
+**Đáp số.** $6$ km.
+
+[ĐỀ – EN]
+Suppose a taxi company charges a starting fee of $12\,000$ dong plus $14\,000$ dong per kilometre. A passenger pays $96\,000$ dong. How many kilometres did the passenger travel?
+
+[LỜI GIẢI CŨ – EN]
+The equation is $14\,000x+12\,000=96\,000$. Moving terms: $14\,000x=84\,000$, so $x=6$.
+
+Check: $14\,000\cdot6+12\,000=96\,000$.
+
+So the passenger travelled $6$ km.
+
+**Answer.** $6$ km.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Trong các số $-2$, $0$, $2$, số nào là nghiệm của phương trình $3x+7=x+3$?
+
+[LỜI GIẢI CŨ – VI]
+Với $x=-2$: vế trái $3\cdot(-2)+7=1$, vế phải $-2+3=1$, bằng nhau. Với $x=0$: $7\neq3$. Với $x=2$: $13\neq5$.
+
+Vậy chỉ có $x=-2$ là nghiệm.
+
+**Đáp số.** $-2$.
+
+[ĐỀ – EN]
+Which of the numbers $-2$, $0$, $2$ is a solution of the equation $3x+7=x+3$?
+
+[LỜI GIẢI CŨ – EN]
+For $x=-2$: left-hand side $3\cdot(-2)+7=1$, right-hand side $-2+3=1$, equal. For $x=0$: $7\neq3$. For $x=2$: $13\neq5$.
+
+So only $x=-2$ is a solution.
+
+**Answer.** $-2$.
+
+
+######################################################################
+@@@ g8/linear-functions-graphs
+Bài học: Hàm số bậc nhất và đồ thị của hàm số bậc nhất / Linear functions and their graphs
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Công thức nào sau đây cho hàm số bậc nhất? Hãy xác định $a$, $b$.
+
+a) $y=4x+1$; b) $y=-3x$; c) $y=6$; d) $y=x^2-4$.
+
+[LỜI GIẢI CŨ – VI]
+a) Có $a=4$, $b=1$. b) Có $a=-3$, $b=0$. c) Có $a=0$. d) Chứa $x^2$.
+
+**Đáp số.** a) và b) là hàm số bậc nhất.
+
+[ĐỀ – EN]
+Which of the following formulas give a linear function? For each linear function, state $a$ and $b$.
+
+a) $y=4x+1$; b) $y=-3x$; c) $y=6$; d) $y=x^2-4$.
+
+[LỜI GIẢI CŨ – EN]
+a) has $a=4$, $b=1$. b) has $a=-3$, $b=0$. c) has $a=0$. d) contains $x^2$.
+
+**Answer.** a) and b) are linear functions.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hàm số $y=-2x+5$. Tính $y$ khi $x=-1$, $x=0$ và $x=3$.
+
+[LỜI GIẢI CŨ – VI]
+$$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
+
+**Đáp số.** $7$, $5$, $-1$.
+
+[ĐỀ – EN]
+For the function $y=-2x+5$, find $y$ when $x=-1$, $x=0$ and $x=3$.
+
+[LỜI GIẢI CŨ – EN]
+$$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
+
+**Answer.** $7$, $5$, $-1$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điểm nào trong các điểm $A(0; -2)$, $B(1; 1)$, $C(-1; -5)$, $D(2; 5)$ thuộc đồ thị $y=3x-2$?
+
+[LỜI GIẢI CŨ – VI]
+Với $x=0,1,-1,2$, ta được $-2,1,-5,4$. Ba kết quả đầu khớp; điểm $D$ có $5\ne4$.
+
+**Đáp số.** $A$, $B$, $C$.
+
+[ĐỀ – EN]
+Which of the points $A(0, -2)$, $B(1, 1)$, $C(-1, -5)$ and $D(2, 5)$ lie on the graph $y=3x-2$?
+
+[LỜI GIẢI CŨ – EN]
+For $x=0,1,-1,2$, the values of $3x-2$ are respectively $-2,1,-5,4$. The first three match the corresponding y-coordinates, while point $D$ has y-coordinate $5\ne4$.
+
+**Answer.** $A$, $B$, $C$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Vẽ đồ thị hàm số $y=2x+6$ bằng hai giao điểm với các trục toạ độ.
+
+[LỜI GIẢI CŨ – VI]
+$x=0\Rightarrow y=6$, nên $P(0; 6)$. $y=0\Rightarrow2x+6=0\Rightarrow x=-3$, nên $Q(-3; 0)$. Đồ thị là đường thẳng $PQ$.
+
+**Đáp số.** Đường thẳng qua $(0; 6)$ và $(-3; 0)$.
+
+[ĐỀ – EN]
+Draw the graph of $y=2x+6$ using its two intercepts.
+
+[LỜI GIẢI CŨ – EN]
+$x=0\Rightarrow y=6$, so $P(0, 6)$. Also, $y=0\Rightarrow2x+6=0\Rightarrow x=-3$, so $Q(-3, 0)$. The graph is the straight line $PQ$.
+
+**Answer.** The straight line through $(0, 6)$ and $(-3, 0)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Vẽ đồ thị hàm số $y=-4x$.
+
+[LỜI GIẢI CŨ – VI]
+$x=0\Rightarrow O(0; 0)$. $x=1\Rightarrow M(1; -4)$. Đồ thị là đường thẳng $OM$.
+
+**Đáp số.** Đường thẳng qua $(0; 0)$ và $(1; -4)$.
+
+[ĐỀ – EN]
+Draw the graph of $y=-4x$.
+
+[LỜI GIẢI CŨ – EN]
+$x=0\Rightarrow O(0, 0)$. Also, $x=1\Rightarrow M(1, -4)$. The graph is the straight line $OM$.
+
+**Answer.** The straight line through $(0, 0)$ and $(1, -4)$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Không cần vẽ, hãy tìm giao điểm của đồ thị $y=-\dfrac12x+3$ với mỗi trục toạ độ.
+
+[LỜI GIẢI CŨ – VI]
+$x=0\Rightarrow y=3$, nên giao điểm với trục tung là $(0; 3)$. Cho $y=0$: $-\dfrac12x+3=0\Rightarrow x=6$.
+
+**Đáp số.** $(0; 3)$ và $(6; 0)$.
+
+[ĐỀ – EN]
+Without drawing, find where the graph of $y=-\dfrac12x+3$ meets each coordinate axis.
+
+[LỜI GIẢI CŨ – EN]
+$x=0\Rightarrow y=3$, so the y-intercept is $(0, 3)$. Setting $y=0$ gives $-\dfrac12x+3=0\Rightarrow x=6$.
+
+**Answer.** $(0, 3)$ and $(6, 0)$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bãi giữ xe thu $12$ nghìn đồng vào cổng và $4$ nghìn đồng mỗi giờ. Gọi $t$ là số giờ, $C$ là chi phí nghìn đồng, với $0\le t\le8$.
+
+a) Viết công thức của $C$ theo $t$. b) Tính phí gửi $5$ giờ. c) Nêu hai đầu mút của phần đồ thị phù hợp với tình huống.
+
+[LỜI GIẢI CŨ – VI]
+$C=4t+12$. Với $t=5$, $C=4\cdot5+12=32$. Khi $t=0$, $C=12$; khi $t=8$, $C=44$.
+
+**Đáp số.** a) $C=4t+12$; b) $32$ nghìn đồng; c) $(0; 12)$ và $(8; 44)$.
+
+[ĐỀ – EN]
+A car park charges an entry fee of 12 thousand dong and a further 4 thousand dong for each hour. Let $t$ be the number of hours and $C$ the cost in thousands of dong, where $0\le t\le8$.
+
+a) Write $C$ in terms of $t$. b) Find the cost for $5$ hours. c) Give the two endpoints of the part of the graph that fits the situation.
+
+[LỜI GIẢI CŨ – EN]
+$C=4t+12$. For $t=5$, $C=4\cdot5+12=32$. When $t=0$, $C=12$; when $t=8$, $C=44$.
+
+**Answer.** a) $C=4t+12$; b) 32 thousand dong; c) $(0, 12)$ and $(8, 44)$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bể có $72$ lít nước, xả đều $8$ lít mỗi phút. Gọi $t$ là số phút và $V$ là số lít còn lại.
+
+a) Viết $V$ theo $t$. b) Tính $V$ sau $6$ phút. c) Khi nào bể hết nước, và phần đồ thị phù hợp có hai đầu mút nào?
+
+[LỜI GIẢI CŨ – VI]
+$V=72-8t$. Sau $6$ phút, $V=72-8\cdot6=24$. Bể hết nước khi $72-8t=0\Rightarrow t=9$.
+
+**Đáp số.** a) $V=72-8t$; b) $24$ lít; c) $9$ phút, hai đầu mút $(0; 72)$ và $(9; 0)$.
+
+[ĐỀ – EN]
+A tank contains $72$ litres of water and is being emptied at a steady rate of $8$ litres per minute. Let $t$ be the number of minutes and $V$ the number of litres left.
+
+a) Write $V$ in terms of $t$. b) Find $V$ after $6$ minutes. c) When is the tank empty, and what are the endpoints of the relevant part of the graph?
+
+[LỜI GIẢI CŨ – EN]
+$V=72-8t$. After $6$ minutes, $V=72-8\cdot6=24$. The tank is empty when $72-8t=0\Rightarrow t=9$.
+
+**Answer.** a) $V=72-8t$; b) $24$ litres; c) $9$ minutes, with endpoints $(0, 72)$ and $(9, 0)$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hai đường thẳng $y=2x-3$ và $y=-x+6$ cắt nhau tại $M$. Không vẽ đồ thị, hãy tìm toạ độ $M$ rồi kiểm tra kết quả.
+
+[LỜI GIẢI CŨ – VI]
+$2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Khi đó $y=2\cdot3-3=3$. Kiểm tra: $-3+6=3$.
+
+**Đáp số.** $M(3; 3)$.
+
+[ĐỀ – EN]
+The lines $y=2x-3$ and $y=-x+6$ meet at $M$. Without drawing the graphs, find the coordinates of $M$ and check your result.
+
+[LỜI GIẢI CŨ – EN]
+$2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Then $y=2\cdot3-3=3$. Check: $-3+6=3$.
+
+**Answer.** $M(3, 3)$.
+
+
+######################################################################
+@@@ g8/monomials
+Bài học: Đơn thức / Monomials
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong các biểu thức $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$, biểu thức nào là đơn thức?
+
+[LỜI GIẢI CŨ – VI]
+$x-2y$ có phép trừ nên không là đơn thức. $\dfrac{5}{x}$ có biến ở mẫu nên không là đơn thức. Các biểu thức còn lại đều là số, biến hoặc tích của số và biến.
+
+**Đáp số.** $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
+
+[ĐỀ – EN]
+Of the expressions $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$, which are monomials?
+
+[LỜI GIẢI CŨ – EN]
+$x-2y$ contains a subtraction, so it is not a monomial. $\dfrac{5}{x}$ has a variable in the denominator, so it is not a monomial. The other expressions are all numbers, variables or products of numbers and variables.
+
+**Answer.** $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thu gọn rồi chỉ ra hệ số và bậc:
+
+a) $5x\cdot(-2)\cdot xy^2$.
+
+b) $\dfrac12x^2\cdot6y\cdot x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot x^2y^2=-10x^2y^2$. Hệ số $-10$, bậc $2+2=4$.
+
+b) $\dfrac12x^2\cdot6y\cdot x=\left(\dfrac12\cdot6\right)\cdot x^3y=3x^3y$. Hệ số $3$, bậc $3+1=4$.
+
+**Đáp số.** a) $-10x^2y^2$, hệ số $-10$, bậc $4$; b) $3x^3y$, hệ số $3$, bậc $4$.
+
+[ĐỀ – EN]
+Simplify, then give the coefficient and the degree:
+
+a) $5x\cdot(-2)\cdot xy^2$.
+
+b) $\dfrac12x^2\cdot6y\cdot x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot x^2y^2=-10x^2y^2$. Coefficient $-10$, degree $2+2=4$.
+
+b) $\dfrac12x^2\cdot6y\cdot x=\left(\dfrac12\cdot6\right)\cdot x^3y=3x^3y$. Coefficient $3$, degree $3+1=4$.
+
+**Answer.** a) $-10x^2y^2$, coefficient $-10$, degree $4$; b) $3x^3y$, coefficient $3$, degree $4$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính:
+
+a) $6xy^2+(-2xy^2)+xy^2$.
+
+b) $9x^3y-4x^3y-x^3y$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(6-2+1)xy^2=5xy^2$.
+
+b) $(9-4-1)x^3y=4x^3y$.
+
+**Đáp số.** a) $5xy^2$; b) $4x^3y$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $6xy^2+(-2xy^2)+xy^2$.
+
+b) $9x^3y-4x^3y-x^3y$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(6-2+1)xy^2=5xy^2$.
+
+b) $(9-4-1)x^3y=4x^3y$.
+
+**Answer.** a) $5xy^2$; b) $4x^3y$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hãy nhớ lại lũy thừa ở lớp 7: $x^m\cdot x^n=x^{m+n}$.
+
+a) Viết $2^3\cdot2^4$ thành một lũy thừa của $2$ rồi tính giá trị.
+
+b) Viết $x^3\cdot x^4$ thành một lũy thừa của $x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $2^3\cdot2^4=2^{3+4}=2^7=128$. (Thử lại: $8\cdot16=128$.)
+
+b) $x^3\cdot x^4=x^{3+4}=x^7$.
+
+**Đáp số.** a) $2^7=128$; b) $x^7$.
+
+[ĐỀ – EN]
+Remember powers from grade $7$: $x^m\cdot x^n=x^{m+n}$.
+
+a) Write $2^3\cdot2^4$ as a single power of $2$, then work out its value.
+
+b) Write $x^3\cdot x^4$ as a single power of $x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $2^3\cdot2^4=2^{3+4}=2^7=128$. (Check: $8\cdot16=128$.)
+
+b) $x^3\cdot x^4=x^{3+4}=x^7$.
+
+**Answer.** a) $2^7=128$; b) $x^7$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho đơn thức $-4x^3yz^2$. Hãy cho biết:
+
+a) hệ số của đơn thức;
+
+b) phần biến của đơn thức;
+
+c) bậc của đơn thức.
+
+[LỜI GIẢI CŨ – VI]
+a) Hệ số là $-4$.
+
+b) Phần biến là $x^3yz^2$.
+
+c) Bậc là $3+1+2=6$.
+
+**Đáp số.** a) $-4$; b) $x^3yz^2$; c) $6$.
+
+[ĐỀ – EN]
+For the monomial $-4x^3yz^2$, give:
+
+a) its coefficient;
+
+b) its variable part;
+
+c) its degree.
+
+[LỜI GIẢI CŨ – EN]
+a) The coefficient is $-4$.
+
+b) The variable part is $x^3yz^2$.
+
+c) The degree is $3+1+2=6$.
+
+**Answer.** a) $-4$; b) $x^3yz^2$; c) $6$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Trong mỗi cặp sau, hai đơn thức có đồng dạng không? Vì sao?
+
+a) $3x^2y$ và $-5x^2y$.
+
+b) $2xy$ và $2xy^2$.
+
+c) $4ab$ và $ba$.
+
+[LỜI GIẢI CŨ – VI]
+a) Có: cùng phần biến $x^2y$, hệ số $3$ và $-5$ khác $0$.
+
+b) Không: phần biến là $xy$ và $xy^2$, khác nhau.
+
+c) Có: $ba=ab$ có hệ số $1$, cùng phần biến $ab$ với $4ab$.
+
+**Đáp số.** a) có; b) không; c) có.
+
+[ĐỀ – EN]
+In each pair, are the two monomials like monomials? Why?
+
+a) $3x^2y$ and $-5x^2y$.
+
+b) $2xy$ and $2xy^2$.
+
+c) $4ab$ and $ba$.
+
+[LỜI GIẢI CŨ – EN]
+a) Yes: they have the same variable part $x^2y$, and the coefficients $3$ and $-5$ are non-zero.
+
+b) No: the variable parts are $xy$ and $xy^2$, which are different.
+
+c) Yes: $ba=ab$ has coefficient $1$ and the same variable part $ab$ as $4ab$.
+
+**Answer.** a) yes; b) no; c) yes.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của bạn Hà rồi sửa lại.
+
+a) $4x^2+3x^2=7x^4$.
+
+b) $(-2x)\cdot(3x^2)=-6x^2$.
+
+c) Bậc của đơn thức $5x^3y$ là $3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Sai ở phần biến: khi cộng chỉ cộng hệ số. Đúng: $4x^2+3x^2=7x^2$ (thử $x=2$: $16+12=28=7\cdot4$).
+
+b) Sai ở số mũ: $x\cdot x^2=x^3$. Đúng: $(-2x)(3x^2)=-6x^3$.
+
+c) Sai vì quên số mũ của $y$: $3+1=4$.
+
+**Đáp số.** a) $7x^2$; b) $-6x^3$; c) bậc $4$.
+
+[ĐỀ – EN]
+Find the mistakes in Ha's work and correct them.
+
+a) $4x^2+3x^2=7x^4$.
+
+b) $(-2x)\cdot(3x^2)=-6x^2$.
+
+c) The degree of the monomial $5x^3y$ is $3$.
+
+[LỜI GIẢI CŨ – EN]
+a) The mistake is in the variable part: when adding, only the coefficients are added. Right: $4x^2+3x^2=7x^2$ (try $x=2$: $16+12=28=7\cdot4$).
+
+b) The mistake is in the exponent: $x\cdot x^2=x^3$. Right: $(-2x)(3x^2)=-6x^3$.
+
+c) Wrong because Ha forgot the exponent of $y$: $3+1=4$.
+
+**Answer.** a) $7x^2$; b) $-6x^3$; c) degree $4$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một sân chơi hình chữ nhật có chiều dài $3x$ m và chiều rộng $2x$ m.
+
+a) Viết diện tích sân dưới dạng đơn thức thu gọn và cho biết bậc của nó.
+
+b) Tính diện tích khi $x=5$.
+
+[LỜI GIẢI CŨ – VI]
+a) Diện tích là $3x\cdot2x=(3\cdot2)\cdot x^{1+1}=6x^2$ (m²). Bậc là $2$.
+
+b) Với $x=5$: $6\cdot5^2=6\cdot25=150$ (m²).
+
+**Đáp số.** a) $6x^2$ m², bậc $2$; b) $150$ m².
+
+[ĐỀ – EN]
+A rectangular playground is $3x$ m long and $2x$ m wide.
+
+a) Write the area of the playground as a monomial in simplest form and give its degree.
+
+b) Find the area when $x=5$.
+
+[LỜI GIẢI CŨ – EN]
+a) The area is $3x\cdot2x=(3\cdot2)\cdot x^{1+1}=6x^2$ (m²). Its degree is $2$.
+
+b) When $x=5$: $6\cdot5^2=6\cdot25=150$ (m²).
+
+**Answer.** a) $6x^2$ m², degree $2$; b) $150$ m².
+
+
+######################################################################
+@@@ g8/multiply-divide-algebraic-fractions
+Bài học: Phép nhân và phép chia phân thức đại số / Multiplying and dividing algebraic fractions
+Cần viết lại lời giải các bài: 1, 3 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thực hiện các phép tính:
+
+a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}$.
+
+b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}=\dfrac{30x^2y^2}{45xy}=\dfrac{2xy}{3}$.
+
+b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}=\dfrac{(x-1)(x+1)x^2}{x(x+1)}=x(x-1)$.
+
+Vậy a) $\dfrac{2xy}{3}$; b) $x(x-1)$.
+
+**Đáp số.** a) $\dfrac{2xy}{3}$. b) $x(x-1)$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}$.
+
+b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}=\dfrac{30x^2y^2}{45xy}=\dfrac{2xy}{3}$.
+
+b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}=\dfrac{(x-1)(x+1)x^2}{x(x+1)}=x(x-1)$.
+
+So a) $\dfrac{2xy}{3}$; b) $x(x-1)$.
+
+**Answer.** a) $\dfrac{2xy}{3}$. b) $x(x-1)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm phân thức nghịch đảo của mỗi phân thức sau và nêu điều kiện:
+
+a) $\dfrac{5}{x-1}$.
+
+b) $x^2+1$.
+
+c) $\dfrac{x-2}{x+3}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{x-1}{5}$ (điều kiện $x\neq1$ để phân thức ban đầu xác định).
+
+b) $\dfrac{1}{x^2+1}$; $x^2+1>0$ với mọi $x$ nên không cần điều kiện.
+
+c) $\dfrac{x+3}{x-2}$ (điều kiện $x\neq2$ để phân thức ban đầu khác $0$ và $x\neq-3$ để xác định).
+
+**Đáp số.** a) $\dfrac{x-1}{5}$. b) $\dfrac{1}{x^2+1}$. c) $\dfrac{x+3}{x-2}$.
+
+[ĐỀ – EN]
+Find the reciprocal of each fraction and state the conditions:
+
+a) $\dfrac{5}{x-1}$.
+
+b) $x^2+1$.
+
+c) $\dfrac{x-2}{x+3}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{x-1}{5}$ (condition $x\neq1$ so that the original fraction is defined).
+
+b) $\dfrac{1}{x^2+1}$; $x^2+1>0$ for every $x$, so no condition is needed.
+
+c) $\dfrac{x+3}{x-2}$ (condition $x\neq2$ so that the original fraction is non-zero, and $x\neq-3$ so that it is defined).
+
+**Answer.** a) $\dfrac{x-1}{5}$. b) $\dfrac{1}{x^2+1}$. c) $\dfrac{x+3}{x-2}$.
+
+
+===== HẾT FILE Lemonmath112-LG-4 =====

@@ -1,0 +1,1112 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-GV-4   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-GV-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-GV-4
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/linear-inequalities-one-unknown, g9/quadratic-equations
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-GV-4-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-GV-4-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-GV-4-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/linear-inequalities-one-unknown – BẢN TIẾNG VIỆT ########
+---
+title: Bất phương trình bậc nhất một ẩn
+description: Nhận biết bất phương trình bậc nhất một ẩn, giải bằng quy tắc chuyển vế và quy tắc nhân (đổi chiều khi nhân với số âm), và áp dụng vào bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết bất phương trình bậc nhất một ẩn và kiểm tra một số có là nghiệm không.
+  - Giải bất phương trình bậc nhất một ẩn bằng quy tắc chuyển vế và quy tắc nhân.
+  - Đưa bất phương trình về dạng bậc nhất và giải các bài toán thực tế.
+  :::
+
+[[P1·c71e]]
+Bạn Minh có $200$ nghìn đồng. Minh mua một hộp bút giá $50$ nghìn đồng và muốn mua thêm vở, mỗi quyển $12$ nghìn đồng. Minh mua được **nhiều nhất** bao nhiêu quyển vở?
+
+[[P2·17c6]]
+Gọi $x$ là số vở. Số tiền phải trả là $50+12x$ và không được vượt quá $200$, nên $50+12x\le200$. Đây không phải phương trình mà là một **bất phương trình**.
+
+## Bất phương trình bậc nhất một ẩn
+
+### Khám phá: thử vài giá trị
+
+| $x$ | $10$ | $12$ | $13$ |
+|---|---|---|---|
+| $50+12x$ | $170$ | $194$ | $206$ |
+| $\le200$? | có | có | không |
+
+[[P3·b18a]]
+Mua $12$ quyển thì vẫn đủ tiền, mua $13$ quyển thì thiếu. Nhưng thử từng số rất chậm; ta cần một cách giải giống như giải phương trình.
+
+  :::definition Bất phương trình bậc nhất một ẩn
+  **Bất phương trình bậc nhất một ẩn** $x$ là bất phương trình dạng
+  $$ax+b<0,\quad ax+b>0,\quad ax+b\le0\quad\text{hoặc}\quad ax+b\ge0,$$
+  trong đó $a$, $b$ là các số đã biết và $a\neq0$.
+
+  Số $x_0$ là một **nghiệm** nếu thay $x=x_0$ ta được một khẳng định đúng.
+  :::
+
+  :::example Nhận biết và kiểm tra nghiệm
+  a) Bất phương trình nào là bất phương trình bậc nhất một ẩn: $2x-3>0$; $0x+5\le0$; $x^2>1$; $-x+4\ge0$?
+
+  b) $x=2$ có là nghiệm của $3x-7<0$ không?
+
+  **Lời giải.** a) Ta xem hệ số của $x$ có khác $0$ không và $x$ có mũ khác $1$ không. Chỉ $2x-3>0$ và $-x+4\ge0$ đúng dạng ($0x+5\le0$ có $a=0$; $x^2>1$ có $x^2$).
+
+  b) Thay $x=2$:
+
+  $$3\cdot2-7=-1<0.$$
+
+  Vậy $x=2$ là một nghiệm của $3x-7<0$.
+  :::
+
+## Cách giải
+
+[[P4·ebe9]]
+Ta biến đổi bất phương trình nhờ các tính chất của bất đẳng thức ở bài trước.
+
+  :::theorem Hai quy tắc biến đổi
+  - **Quy tắc chuyển vế:** chuyển một hạng tử từ vế này sang vế kia và **đổi dấu** hạng tử đó.
+  - **Quy tắc nhân:** nhân (hoặc chia) hai vế với cùng một số khác $0$; giữ nguyên chiều nếu số đó **dương**, **đổi chiều** nếu số đó **âm**.
+  :::
+
+[[P5·ba77]]
+Hai quy tắc này đúng vì cộng cùng một số vào hai vế không làm đổi chiều, còn nhân với số âm thì đổi chiều (ví dụ $2<3$ nhưng $-2>-3$).
+
+  :::example Giải bất phương trình với hệ số dương
+  Giải bất phương trình $3x-6>0$.
+
+  **Lời giải.** Chuyển $-6$ sang vế phải rồi chia hai vế cho $3>0$ (giữ chiều):
+
+  $$3x-6>0\iff 3x>6\iff x>2.$$
+
+  Vậy nghiệm của bất phương trình là $x>2$.
+  :::
+
+[[P6·c038]]
+Khi hệ số của $x$ âm, bước chia cần chú ý nhất.
+
+  :::example Giải bất phương trình với hệ số âm
+  Giải bất phương trình $-4x+12\ge0$.
+
+  **Lời giải.** Chuyển $12$ sang vế phải, rồi chia hai vế cho $-4<0$ nên **đổi chiều**:
+
+  $$-4x+12\ge0\iff -4x\ge-12\iff x\le3.$$
+
+  Vậy nghiệm của bất phương trình là $x\le3$.
+
+  **Kiểm tra.** $x=3$: $-12+12=0\ge0$, đúng; $x=4$: $-16+12=-4<0$, nên $4$ không là nghiệm.
+  :::
+
+:::graph Nghiệm $x>2$ (trên) và $x\le3$ (dưới) trên trục số
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·d328]]
+Điểm rỗng nghĩa là số đó **không** là nghiệm (dấu $>$ hoặc $<$), điểm tô đậm nghĩa là số đó là nghiệm (dấu $\ge$ hoặc $\le$).
+
+## Bất phương trình đưa được về dạng bậc nhất
+
+[[P8·a0a1]]
+Nhiều bất phương trình có ngoặc hoặc phân số. Ta phá ngoặc, khử mẫu, chuyển các hạng tử chứa $x$ sang một vế và các số sang vế kia.
+
+  :::example Có dấu ngoặc
+  Giải bất phương trình $5(x-1)-2\le3x+1$.
+
+  **Lời giải.** Phá ngoặc, chuyển $3x$ sang vế trái và $-7$ sang vế phải, rồi chia cho $2>0$:
+
+  $$5x-7\le3x+1\iff 2x\le8\iff x\le4.$$
+
+  Vậy nghiệm của bất phương trình là $x\le4$.
+  :::
+
+  :::example Có mẫu số
+  Giải bất phương trình $\dfrac{x+1}{2}-\dfrac{x-2}{3}<1$.
+
+  **Lời giải.** Nhân hai vế với $6>0$ (giữ chiều); chú ý nhân **cả** số $1$ ở vế phải và dấu trừ đứng trước phân số thứ hai:
+
+  $$3(x+1)-2(x-2)<6\iff 3x+3-2x+4<6\iff x+7<6\iff x<-1.$$
+
+  Vậy nghiệm của bất phương trình là $x<-1$.
+  :::
+
+[[P9·6d9b]]
+Bây giờ ta trả lời câu hỏi của Minh.
+
+  :::example Mua được bao nhiêu vở?
+  Giải $50+12x\le200$ với $x$ là số tự nhiên, rồi trả lời bài toán ở đầu bài.
+
+  **Lời giải.** Chuyển $50$ sang vế phải rồi chia cho $12>0$:
+
+  $$12x\le150\iff x\le12{,}5.$$
+
+  Số vở là số tự nhiên không vượt quá $12{,}5$, nên lớn nhất là $12$. Vậy Minh mua được nhiều nhất $12$ quyển vở.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P10·aab0]]
+- **Quên đổi chiều khi chia cho số âm.** Sai: $-4x\ge-12\iff x\ge3$. Lí do sai: chia cho $-4<0$ phải đổi chiều. Đúng: $x\le3$.
+- **Phá ngoặc sai dấu.** Sai: $-2(x-2)=-2x-4$. Lí do sai: $(-2)\cdot(-2)=4$. Đúng: $-2x+4$.
+- **Làm tròn sai trong bài thực tế.** Sai: $x\le12{,}5$ nên mua được $13$ quyển. Lí do sai: $13>12{,}5$. Đúng: lấy số tự nhiên lớn nhất không vượt quá $12{,}5$, tức $12$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bất phương trình | inequality (to be solved)
+  - bất phương trình bậc nhất một ẩn | linear inequality in one unknown
+  - nghiệm của bất phương trình | solution of the inequality
+  - quy tắc chuyển vế | rule for moving a term to the other side
+  - quy tắc nhân | rule for multiplying both sides
+  - đổi chiều | reverse the inequality sign
+  - trục số | number line
+  - giải bất phương trình | solve an inequality
+  :::
+
+## Tóm tắt
+
+[[P11·2a8c]]
+- Bất phương trình bậc nhất một ẩn: $ax+b<0$ (hoặc $>$, $\le$, $\ge$), $a\neq0$.
+- Chuyển vế thì đổi dấu hạng tử.
+- Nhân, chia với số dương: giữ chiều; với số âm: **đổi chiều**.
+- Có ngoặc, có mẫu: phá ngoặc, nhân với mẫu chung dương, đưa về $ax<c$ rồi chia cho $a$.
+- Bài thực tế: đối chiếu điều kiện (số tự nhiên…) rồi chọn đáp số.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/linear-inequalities-one-unknown – BẢN TIẾNG ANH ########
+---
+title: Linear inequalities in one unknown
+description: Recognise linear inequalities in one unknown, solve them by moving terms and multiplying (reversing for negative numbers), and use them in real problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a linear inequality in one unknown and check whether a number is a solution.
+  - Solve linear inequalities in one unknown by moving terms and by multiplying both sides.
+  - Reduce inequalities to linear form and solve real-life problems.
+  :::
+
+[[P1·7787]]
+Minh has $200$ thousand đồng. He buys a box of pens for $50$ thousand đồng and wants to buy some exercise books at $12$ thousand đồng each. What is the **greatest** number of books he can buy?
+
+[[P2·829a]]
+Let $x$ be the number of books. He pays $50+12x$, which must not exceed $200$, so $50+12x\le200$. This is not an equation but an **inequality**.
+
+## Linear inequalities in one unknown
+
+### Explore: trying a few values
+
+| $x$ | $10$ | $12$ | $13$ |
+|---|---|---|---|
+| $50+12x$ | $170$ | $194$ | $206$ |
+| $\le200$? | yes | yes | no |
+
+[[P3·47fb]]
+With $12$ books he has enough money; with $13$ he does not. But trying numbers one by one is slow; we need a method like the one for solving equations.
+
+  :::definition Linear inequality in one unknown
+  A **linear inequality in one unknown** $x$ is an inequality of the form
+  $$ax+b<0,\quad ax+b>0,\quad ax+b\le0\quad\text{or}\quad ax+b\ge0,$$
+  where $a$, $b$ are known numbers and $a\neq0$.
+
+  A number $x_0$ is a **solution** if putting $x=x_0$ gives a true statement.
+  :::
+
+  :::example Recognising and checking
+  a) Which are linear inequalities in one unknown: $2x-3>0$; $0x+5\le0$; $x^2>1$; $-x+4\ge0$?
+
+  b) Is $x=2$ a solution of $3x-7<0$?
+
+  **Solution.** a) We check whether the coefficient of $x$ is non-zero and whether $x$ has a power other than $1$. Only $2x-3>0$ and $-x+4\ge0$ have the right form ($0x+5\le0$ has $a=0$; $x^2>1$ contains $x^2$).
+
+  b) Substitute $x=2$:
+
+  $$3\cdot2-7=-1<0.$$
+
+  So $x=2$ is a solution of $3x-7<0$.
+  :::
+
+## How to solve
+
+[[P4·3d32]]
+We transform an inequality using the properties of inequalities from the last lesson.
+
+  :::theorem Two rules for transforming
+  - **Moving a term:** move a term from one side to the other and **change its sign**.
+  - **Multiplying:** multiply (or divide) both sides by the same non-zero number; keep the direction if the number is **positive**, **reverse** the sign if it is **negative**.
+  :::
+
+[[P5·278f]]
+These rules work because adding the same number to both sides keeps the direction, while multiplying by a negative number reverses it (for example $2<3$ but $-2>-3$).
+
+  :::example An inequality with a positive coefficient
+  Solve the inequality $3x-6>0$.
+
+  **Solution.** Move $-6$ to the right-hand side, then divide both sides by $3>0$ (keep the direction):
+
+  $$3x-6>0\iff 3x>6\iff x>2.$$
+
+  So the solution of the inequality is $x>2$.
+  :::
+
+[[P6·57c8]]
+When the coefficient of $x$ is negative, the division step needs the most care.
+
+  :::example An inequality with a negative coefficient
+  Solve the inequality $-4x+12\ge0$.
+
+  **Solution.** Move $12$ to the right-hand side, then divide both sides by $-4<0$, so **reverse** the sign:
+
+  $$-4x+12\ge0\iff -4x\ge-12\iff x\le3.$$
+
+  So the solution of the inequality is $x\le3$.
+
+  **Check.** $x=3$: $-12+12=0\ge0$, true; $x=4$: $-16+12=-4<0$, so $4$ is not a solution.
+  :::
+
+:::graph The solutions $x>2$ (top) and $x\le3$ (bottom) on number lines
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·3ae2]]
+A hollow point means that number is **not** a solution (sign $>$ or $<$); a filled point means it is a solution (sign $\ge$ or $\le$).
+
+## Inequalities that reduce to linear form
+
+[[P8·eaa4]]
+Many inequalities have brackets or fractions. We expand the brackets, clear the fractions, move the terms in $x$ to one side and the numbers to the other.
+
+  :::example With brackets
+  Solve the inequality $5(x-1)-2\le3x+1$.
+
+  **Solution.** Expand, move $3x$ to the left and $-7$ to the right, then divide by $2>0$:
+
+  $$5x-7\le3x+1\iff 2x\le8\iff x\le4.$$
+
+  So the solution of the inequality is $x\le4$.
+  :::
+
+  :::example With fractions
+  Solve the inequality $\dfrac{x+1}{2}-\dfrac{x-2}{3}<1$.
+
+  **Solution.** Multiply both sides by $6>0$ (keep the direction); remember to multiply the $1$ on the right as well, and mind the minus sign in front of the second fraction:
+
+  $$3(x+1)-2(x-2)<6\iff 3x+3-2x+4<6\iff x+7<6\iff x<-1.$$
+
+  So the solution of the inequality is $x<-1$.
+  :::
+
+[[P9·4e72]]
+Now we answer Minh's question.
+
+  :::example How many books?
+  Solve $50+12x\le200$ where $x$ is a whole number, then answer the question at the start.
+
+  **Solution.** Move $50$ to the right-hand side, then divide by $12>0$:
+
+  $$12x\le150\iff x\le12.5.$$
+
+  The number of books is a whole number not exceeding $12.5$, so the greatest is $12$. So Minh can buy at most $12$ books.
+  :::
+
+:::warning Common mistakes
+[[P10·1c71]]
+- **Forgetting to reverse when dividing by a negative number.** Wrong: $-4x\ge-12\iff x\ge3$. Why it is wrong: dividing by $-4<0$ reverses the sign. Right: $x\le3$.
+- **Sign errors when expanding brackets.** Wrong: $-2(x-2)=-2x-4$. Why it is wrong: $(-2)\cdot(-2)=4$. Right: $-2x+4$.
+- **Rounding the wrong way in real problems.** Wrong: $x\le12.5$, so he can buy $13$ books. Why it is wrong: $13>12.5$. Right: take the greatest whole number not exceeding $12.5$, which is $12$.
+:::
+
+## Key terms
+
+  :::terms
+  - inequality (to be solved) | bất phương trình
+  - linear inequality in one unknown | bất phương trình bậc nhất một ẩn
+  - solution of the inequality | nghiệm của bất phương trình
+  - rule for moving a term to the other side | quy tắc chuyển vế
+  - rule for multiplying both sides | quy tắc nhân
+  - reverse the inequality sign | đổi chiều
+  - number line | trục số
+  - solve an inequality | giải bất phương trình
+  :::
+
+## Summary
+
+[[P11·7205]]
+- Linear inequality in one unknown: $ax+b<0$ (or $>$, $\le$, $\ge$), $a\neq0$.
+- Moving a term to the other side changes its sign.
+- Multiplying or dividing by a positive number: keep the direction; by a negative number: **reverse** it.
+- Brackets or fractions: expand, multiply by a positive common denominator, reach $ax<c$, then divide by $a$.
+- Real problems: check the conditions (whole numbers…) before choosing the answer.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/quadratic-equations – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình bậc hai một ẩn
+description: Nhận biết phương trình bậc hai một ẩn, giải các dạng đặc biệt, dùng công thức nghiệm và công thức nghiệm thu gọn, vận dụng vào bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết phương trình bậc hai một ẩn và xác định các hệ số $a$, $b$, $c$.
+  - Giải phương trình bậc hai dạng đặc biệt ($b=0$ hoặc $c=0$) và hiểu cách "đưa về bình phương".
+  - Giải phương trình bậc hai bằng công thức nghiệm và công thức nghiệm thu gọn.
+  - Vận dụng phương trình bậc hai vào các bài toán thực tế.
+  :::
+
+[[P1·c804]]
+Phương trình bậc hai là một trong những bài toán lâu đời nhất của loài người. Trên các tấm đất sét của người Babylon, có tấm đã khoảng $4000$ năm tuổi, đã có những bài toán kiểu "tìm cạnh của hình chữ nhật khi biết diện tích và hiệu hai cạnh". Khoảng năm $830$, nhà toán học al-Khwarizmi ở Baghdad giải những phương trình như vậy bằng cách ghép hình để "đưa về hình vuông", và từ tên cuốn sách của ông (*Hisab al-jabr w'al-muqabala*) mà có chữ "algebra", tức đại số (theo MacTutor, Đại học St Andrews).
+
+[[P2·9233]]
+Bài toán của người xưa vẫn rất gần với ta. Giả sử nhà bạn có một mảnh vườn hình chữ nhật, chiều dài hơn chiều rộng $3$ m và diện tích là $40$ m². Chiều rộng của mảnh vườn là bao nhiêu? Gọi chiều rộng là $x$ (m), ta có $x(x+3)=40$, tức là $x^2+3x-40=0$. Thử từng số thì mất công, và không phải lúc nào nghiệm cũng là số nguyên. Bài này cho bạn một công thức giải được mọi phương trình như vậy.
+
+## Phương trình bậc hai một ẩn
+
+  :::definition Phương trình bậc hai một ẩn
+  Phương trình bậc hai một ẩn (nói gọn là phương trình bậc hai) là phương trình có dạng
+  $$ax^2+bx+c=0,$$
+  trong đó $x$ là ẩn; $a$, $b$, $c$ là những số cho trước gọi là các **hệ số** và $a\neq0$.
+  :::
+
+[[P3·747f]]
+**Hiểu sâu hơn.** Điều kiện $a\neq0$ là cốt lõi: nếu $a=0$ thì phương trình trở thành $bx+c=0$, là phương trình bậc nhất mà bạn đã biết giải. Các hệ số $b$, $c$ thì có thể bằng $0$. Phương trình $x^3-2x=0$ (bậc ba) hay $\dfrac1x+x=2$ (ẩn ở mẫu) không phải là phương trình bậc hai, dù có thể biến đổi về những dạng quen thuộc.
+
+  :::example Nhận biết phương trình bậc hai
+  Phương trình nào sau đây là phương trình bậc hai một ẩn? Chỉ rõ các hệ số $a$, $b$, $c$ của nó.
+
+  a) $5x^2-3x+1=0$.
+
+  b) $-x^2+4x=0$.
+
+  c) $2x^2-7=0$.
+
+  d) $x^3-2x=0$.
+
+  **Lời giải.** Ta so sánh từng phương trình với dạng $ax^2+bx+c=0$, $a\neq0$.
+
+  a) Là phương trình bậc hai với $a=5$, $b=-3$, $c=1$.
+
+  b) Là phương trình bậc hai với $a=-1$, $b=4$, $c=0$.
+
+  c) Là phương trình bậc hai với $a=2$, $b=0$, $c=-7$.
+
+  d) Không là phương trình bậc hai vì có số hạng $x^3$.
+
+  Vậy các phương trình a), b), c) là phương trình bậc hai.
+  :::
+
+## Giải phương trình bậc hai dạng đặc biệt
+
+[[P4·0a62]]
+Khi $c=0$, ta đặt nhân tử chung $x$ để đưa về phương trình tích. Khi $b=0$, ta đưa về dạng $x^2=k$ rồi dùng căn bậc hai.
+
+  :::example Hai dạng đặc biệt
+  Giải các phương trình sau:
+
+  a) $3x^2-12x=0$.
+
+  b) $2x^2-18=0$.
+
+  c) $(x-2)^2=5$.
+
+  **Lời giải.** a) Ta có $3x^2-12x=0\Leftrightarrow 3x(x-4)=0\Leftrightarrow x=0$ hoặc $x=4$.
+
+  b) Ta có $2x^2-18=0\Leftrightarrow x^2=9\Leftrightarrow x=3$ hoặc $x=-3$.
+
+  c) Ta có $(x-2)^2=5\Leftrightarrow x-2=\sqrt5$ hoặc $x-2=-\sqrt5$, suy ra $x=2+\sqrt5$ hoặc $x=2-\sqrt5$.
+
+  Vậy a) $x=0$, $x=4$; b) $x=3$, $x=-3$; c) $x=2\pm\sqrt5$.
+  :::
+
+[[P5·5208]]
+Phương trình $x^2=k$ có bao nhiêu nghiệm? Đó chính là số giao điểm của parabol $y=x^2$ (bài [hàm số $y=ax^2$](lesson:function-y-equals-ax2)) với đường thẳng nằm ngang $y=k$: hai giao điểm khi $k>0$, một khi $k=0$, không có khi $k<0$.
+
+:::graph Số nghiệm của $x^2=k$
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Khám phá: đưa về bình phương
+
+[[P6·4309]]
+Câu c) gợi ý một ý tưởng: nếu viết được vế trái thành một bình phương thì ta giải được. Thử với $x^2-6x+5=0$. Vì $(x-3)^2=x^2-6x+9$, ta thêm $4$ vào hai vế:
+
+  $$x^2-6x+5=0\Leftrightarrow x^2-6x+9=4\Leftrightarrow(x-3)^2=4\Leftrightarrow x-3=\pm2.$$
+
+[[P7·2ba3]]
+Do đó $x=5$ hoặc $x=1$. Đây cũng chính là cách al-Khwarizmi "ghép thành hình vuông". Làm như vậy với các hệ số bất kì, ta được công thức nghiệm.
+
+## Công thức nghiệm
+
+  :::theorem Công thức nghiệm của phương trình bậc hai
+  Xét phương trình $ax^2+bx+c=0$ ($a\neq0$) và **biệt thức** $\Delta=b^2-4ac$.
+  - Nếu $\Delta>0$ thì phương trình có hai nghiệm phân biệt $x_1=\dfrac{-b+\sqrt\Delta}{2a}$, $x_2=\dfrac{-b-\sqrt\Delta}{2a}$.
+  - Nếu $\Delta=0$ thì phương trình có nghiệm kép $x_1=x_2=-\dfrac{b}{2a}$.
+  - Nếu $\Delta<0$ thì phương trình vô nghiệm.
+  :::
+
+[[P8·459a]]
+**Vì sao?** Chia hai vế cho $a$, rồi thêm bớt như ở phần khám phá, ta được
+
+  $$\left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}=\frac{\Delta}{4a^2}.$$
+
+[[P9·964d]]
+Vế phải có mẫu $4a^2>0$, nên dấu của nó là dấu của $\Delta$. Đây đúng là dạng $X^2=k$ ở trên: $\Delta>0$ cho hai nghiệm, $\Delta=0$ cho một nghiệm, $\Delta<0$ thì vô nghiệm (vì bình phương không âm). Chữ "biệt thức" nghĩa là biểu thức giúp *phân biệt* ba trường hợp.
+
+  :::example Ba trường hợp của $\Delta$
+  Giải các phương trình sau:
+
+  a) $2x^2-5x+2=0$.
+
+  b) $4x^2-4x+1=0$.
+
+  c) $x^2+x+3=0$.
+
+  **Lời giải.** a) Ta có $\Delta=(-5)^2-4\cdot2\cdot2=25-16=9>0$, $\sqrt\Delta=3$. Phương trình có hai nghiệm phân biệt
+
+  $$x_1=\frac{5+3}{4}=2,\qquad x_2=\frac{5-3}{4}=\frac12.$$
+
+  b) Ta có $\Delta=(-4)^2-4\cdot4\cdot1=0$. Phương trình có nghiệm kép $x_1=x_2=\dfrac{4}{2\cdot4}=\dfrac12$.
+
+  c) Ta có $\Delta=1^2-4\cdot1\cdot3=-11<0$. Phương trình vô nghiệm.
+
+  Vậy a) $x=2$, $x=\dfrac12$; b) $x=\dfrac12$; c) vô nghiệm.
+  :::
+
+:::note Khi $a$ và $c$ trái dấu
+[[P10·faf3]]
+Nếu $a$ và $c$ trái dấu thì $ac<0$, nên $\Delta=b^2-4ac>0$: phương trình luôn có hai nghiệm phân biệt. Ví dụ, $3x^2-5x-7=0$ có hai nghiệm phân biệt mà không cần tính $\Delta$.
+:::
+
+[[P11·bb2d]]
+Bây giờ ta trả lời câu hỏi ở đầu bài, đi đủ bốn bước của việc giải một bài toán.
+
+  :::example Mảnh vườn ở đầu bài
+  Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng $3$ m và diện tích là $40$ m². Tính chiều rộng và chiều dài của mảnh vườn.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Biết hiệu hai cạnh ($3$ m) và diện tích ($40$ m²); cần tìm hai cạnh.
+
+  *Tìm cách giải.* Gọi chiều rộng là $x$ (m), $x>0$; chiều dài là $x+3$ (m). Diện tích cho phương trình $x(x+3)=40$, tức $x^2+3x-40=0$.
+
+  *Giải.* Ta có $\Delta=3^2-4\cdot1\cdot(-40)=169>0$, $\sqrt\Delta=13$. Do đó
+
+  $$x_1=\frac{-3+13}{2}=5,\qquad x_2=\frac{-3-13}{2}=-8.$$
+
+  Vì $x>0$ nên $x=5$. Vậy mảnh vườn rộng $5$ m và dài $8$ m.
+
+  *Nhìn lại.* Thử lại: $5\cdot8=40$ và $8-5=3$. Nghiệm $-8$ không phải là độ dài nhưng không vô nghĩa: $x^2+3x-40=(x-5)(x+8)$, nên $-8$ là "nghiệm thứ hai" của cùng phương trình. Có cách khác không? Ta có thể tìm hai số có tích $40$ và hơn kém nhau $3$; bài [định lí Viète](lesson:vietes-theorem) sẽ biến cách đoán này thành phương pháp.
+  :::
+
+## Công thức nghiệm thu gọn
+
+[[P12·e6f0]]
+Khi $b$ là số chẵn, đặt $b=2b'$. Khi đó $\Delta=4b'^2-4ac=4(b'^2-ac)$, và các phân số trong công thức nghiệm rút gọn được cho $2$.
+
+  :::theorem Công thức nghiệm thu gọn
+  Xét phương trình $ax^2+bx+c=0$ ($a\neq0$) với $b=2b'$ và $\Delta'=b'^2-ac$.
+  - Nếu $\Delta'>0$ thì phương trình có hai nghiệm phân biệt $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
+  - Nếu $\Delta'=0$ thì phương trình có nghiệm kép $x_1=x_2=-\dfrac{b'}{a}$.
+  - Nếu $\Delta'<0$ thì phương trình vô nghiệm.
+  :::
+
+  :::example Dùng công thức nghiệm thu gọn
+  Giải các phương trình sau:
+
+  a) $3x^2-8x+4=0$.
+
+  b) $x^2+6x+4=0$.
+
+  **Lời giải.** a) Ta có $b'=-4$, $\Delta'=(-4)^2-3\cdot4=4>0$, $\sqrt{\Delta'}=2$. Do đó $x_1=\dfrac{4+2}{3}=2$, $x_2=\dfrac{4-2}{3}=\dfrac23$.
+
+  b) Ta có $b'=3$, $\Delta'=3^2-1\cdot4=5>0$. Do đó $x_{1,2}=-3\pm\sqrt5$.
+
+  Vậy a) $x=2$, $x=\dfrac23$; b) $x=-3+\sqrt5$, $x=-3-\sqrt5$.
+  :::
+
+:::tip Kiểm tra bằng máy tính cầm tay
+[[P13·0b01]]
+Máy tính cầm tay có chế độ giải phương trình bậc hai: nhập $a$, $b$, $c$ là máy cho nghiệm. Hãy dùng nó để **kiểm tra**, còn trong bài làm vẫn trình bày $\Delta$ (hoặc $\Delta'$) và công thức nghiệm.
+:::
+
+:::warning Những sai lầm thường gặp
+[[P14·a39d]]
+- **Sai dấu của $b$.** Sai: với $2x^2-5x+2=0$, viết $x=\dfrac{-5\pm3}{4}$. Lí do sai: $-b=-(-5)=5$. Đúng: $x=\dfrac{5\pm3}{4}$.
+- **Sai dấu khi tính $\Delta$ với $c<0$.** Sai: $x^2+3x-40=0$ có $\Delta=9-160$. Đúng: $\Delta=9-4\cdot1\cdot(-40)=9+160=169$.
+- **Chia hai vế cho $x$.** Sai: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Lí do sai: chia cho $x$ làm mất nghiệm $x=0$. Đúng: $3x(x-4)=0$, nên $x=0$ hoặc $x=4$.
+:::
+
+[[P15·f622]]
+**Kết nối.** Phương trình bậc hai nối liền nhiều điều bạn đã học: hằng đẳng thức (để đưa về bình phương), căn bậc hai (để lấy nghiệm), phương trình tích (khi $c=0$) và parabol $y=x^2$ (để "nhìn thấy" số nghiệm). Tiếp theo, [định lí Viète](lesson:vietes-theorem) cho biết tổng và tích hai nghiệm mà không cần giải, và bài [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) dùng công thức nghiệm cho nhiều tình huống thực tế.
+
+## Thuật ngữ
+
+  :::terms
+  - phương trình bậc hai một ẩn | quadratic equation in one unknown
+  - hệ số | coefficient
+  - biệt thức | discriminant
+  - công thức nghiệm | quadratic formula
+  - biệt thức thu gọn | reduced discriminant
+  - hai nghiệm phân biệt | two distinct roots
+  - nghiệm kép | repeated root
+  - vô nghiệm | no (real) solutions
+  - đưa về bình phương | completing the square
+  :::
+
+## Tóm tắt
+
+[[P16·3719]]
+- Phương trình bậc hai: $ax^2+bx+c=0$ với $a\neq0$.
+- $c=0$: đặt nhân tử chung $x$; $b=0$: đưa về $x^2=k$.
+- $\Delta=b^2-4ac$: $\Delta>0$ hai nghiệm $x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}$; $\Delta=0$ nghiệm kép $-\dfrac{b}{2a}$; $\Delta<0$ vô nghiệm.
+- $b=2b'$: $\Delta'=b'^2-ac$, $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
+- $a$, $c$ trái dấu thì luôn có hai nghiệm phân biệt.
+- Bài toán thực tế: đối chiếu nghiệm với điều kiện của ẩn.
+
+## Luyện tập
+
+[[P17·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 43 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/quadratic-equations – BẢN TIẾNG ANH ########
+---
+title: Quadratic equations in one unknown
+description: Recognise quadratic equations, solve special cases, use the quadratic formula and the reduced discriminant, and apply them to real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a quadratic equation in one unknown and identify its coefficients $a$, $b$, $c$.
+  - Solve special quadratic equations ($b=0$ or $c=0$) and understand completing the square.
+  - Solve quadratic equations with the quadratic formula and with the reduced discriminant.
+  - Apply quadratic equations to real-life problems.
+  :::
+
+[[P1·4515]]
+Quadratic equations are among the oldest problems in mathematics. On Babylonian clay tablets, some of them about $4000$ years old, there are already problems such as "find the sides of a rectangle given its area and the difference of its sides". Around the year $830$, the mathematician al-Khwarizmi in Baghdad solved such equations by rearranging pieces to "complete a square", and the title of his book (*Hisab al-jabr w'al-muqabala*) gave us the word "algebra" (MacTutor, University of St Andrews).
+
+[[P2·29c0]]
+The old problem is still close to home. Suppose your family has a rectangular garden whose length is $3$ m more than its width and whose area is $40$ m². How wide is the garden? Let the width be $x$ (m); then $x(x+3)=40$, that is $x^2+3x-40=0$. Trying numbers one by one takes time, and the solutions are not always whole numbers. This lesson gives you a formula that solves every equation like this.
+
+## Quadratic equations in one unknown
+
+  :::definition Quadratic equation in one unknown
+  A quadratic equation in one unknown (a quadratic equation, for short) is an equation of the form
+  $$ax^2+bx+c=0,$$
+  where $x$ is the unknown and $a$, $b$, $c$ are given numbers called the **coefficients**, with $a\neq0$.
+  :::
+
+[[P3·b3b3]]
+**Going deeper.** The condition $a\neq0$ is essential: if $a=0$, the equation becomes $bx+c=0$, a linear equation that you already know how to solve. The coefficients $b$ and $c$ may be $0$. The equations $x^3-2x=0$ (a cubic) and $\dfrac1x+x=2$ (unknown in a denominator) are not quadratic equations, even though they can be turned into familiar forms.
+
+  :::example Recognising quadratic equations
+  Which of the following are quadratic equations in one unknown? State their coefficients $a$, $b$, $c$.
+
+  a) $5x^2-3x+1=0$.
+
+  b) $-x^2+4x=0$.
+
+  c) $2x^2-7=0$.
+
+  d) $x^3-2x=0$.
+
+  **Solution.** We compare each equation with the form $ax^2+bx+c=0$, $a\neq0$.
+
+  a) It is a quadratic equation with $a=5$, $b=-3$, $c=1$.
+
+  b) It is a quadratic equation with $a=-1$, $b=4$, $c=0$.
+
+  c) It is a quadratic equation with $a=2$, $b=0$, $c=-7$.
+
+  d) It is not a quadratic equation, because it has a term in $x^3$.
+
+  So the equations a), b), c) are quadratic equations.
+  :::
+
+## Solving special quadratic equations
+
+[[P4·1df7]]
+When $c=0$, we take out the common factor $x$ to get a product equation. When $b=0$, we rewrite the equation as $x^2=k$ and use square roots.
+
+  :::example Two special cases
+  Solve the following equations:
+
+  a) $3x^2-12x=0$.
+
+  b) $2x^2-18=0$.
+
+  c) $(x-2)^2=5$.
+
+  **Solution.** a) We have $3x^2-12x=0\Leftrightarrow 3x(x-4)=0\Leftrightarrow x=0$ or $x=4$.
+
+  b) We have $2x^2-18=0\Leftrightarrow x^2=9\Leftrightarrow x=3$ or $x=-3$.
+
+  c) We have $(x-2)^2=5\Leftrightarrow x-2=\sqrt5$ or $x-2=-\sqrt5$, so $x=2+\sqrt5$ or $x=2-\sqrt5$.
+
+  So a) $x=0$, $x=4$; b) $x=3$, $x=-3$; c) $x=2\pm\sqrt5$.
+  :::
+
+[[P5·2998]]
+How many solutions does $x^2=k$ have? Exactly as many as the points where the parabola $y=x^2$ (lesson [the function $y=ax^2$](lesson:function-y-equals-ax2)) meets the horizontal line $y=k$: two points when $k>0$, one when $k=0$, none when $k<0$.
+
+:::graph The number of solutions of $x^2=k$
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Explore: completing the square
+
+[[P6·b784]]
+Part c) suggests an idea: if we can write the left-hand side as a square, we can solve the equation. Try it with $x^2-6x+5=0$. Since $(x-3)^2=x^2-6x+9$, we add $4$ to both sides:
+
+  $$x^2-6x+5=0\Leftrightarrow x^2-6x+9=4\Leftrightarrow(x-3)^2=4\Leftrightarrow x-3=\pm2.$$
+
+[[P7·6e46]]
+Hence $x=5$ or $x=1$. This is exactly al-Khwarizmi's "completing the square". Doing the same with any coefficients gives the quadratic formula.
+
+## The quadratic formula
+
+  :::theorem The quadratic formula
+  Consider the equation $ax^2+bx+c=0$ ($a\neq0$) and its **discriminant** $\Delta=b^2-4ac$.
+  - If $\Delta>0$, the equation has two distinct roots $x_1=\dfrac{-b+\sqrt\Delta}{2a}$, $x_2=\dfrac{-b-\sqrt\Delta}{2a}$.
+  - If $\Delta=0$, the equation has a repeated root $x_1=x_2=-\dfrac{b}{2a}$.
+  - If $\Delta<0$, the equation has no solutions.
+  :::
+
+[[P8·6150]]
+**Why?** Divide both sides by $a$ and complete the square as in the exploration; we get
+
+  $$\left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}=\frac{\Delta}{4a^2}.$$
+
+[[P9·c521]]
+The right-hand side has denominator $4a^2>0$, so its sign is the sign of $\Delta$. This is exactly the form $X^2=k$ above: $\Delta>0$ gives two roots, $\Delta=0$ gives one, and $\Delta<0$ gives none (a square is never negative). The word "discriminant" means the expression that *discriminates*, or tells apart, the three cases.
+
+  :::example The three cases of $\Delta$
+  Solve the following equations:
+
+  a) $2x^2-5x+2=0$.
+
+  b) $4x^2-4x+1=0$.
+
+  c) $x^2+x+3=0$.
+
+  **Solution.** a) We have $\Delta=(-5)^2-4\cdot2\cdot2=25-16=9>0$ and $\sqrt\Delta=3$. The equation has two distinct roots
+
+  $$x_1=\frac{5+3}{4}=2,\qquad x_2=\frac{5-3}{4}=\frac12.$$
+
+  b) We have $\Delta=(-4)^2-4\cdot4\cdot1=0$. The equation has a repeated root $x_1=x_2=\dfrac{4}{2\cdot4}=\dfrac12$.
+
+  c) We have $\Delta=1^2-4\cdot1\cdot3=-11<0$. The equation has no solutions.
+
+  So a) $x=2$, $x=\dfrac12$; b) $x=\dfrac12$; c) no solutions.
+  :::
+
+:::note When $a$ and $c$ have opposite signs
+[[P10·80b0]]
+If $a$ and $c$ have opposite signs, then $ac<0$, so $\Delta=b^2-4ac>0$: the equation always has two distinct roots. For example, $3x^2-5x-7=0$ has two distinct roots, with no need to work out $\Delta$.
+:::
+
+[[P11·998c]]
+Now we answer the opening question, going through all four steps of solving a problem.
+
+  :::example The garden from the opening
+  A rectangular garden has length $3$ m more than its width and area $40$ m². Find the width and the length of the garden.
+
+  **Solution.**
+
+  *Understand.* We know the difference of the sides ($3$ m) and the area ($40$ m²); we need both sides.
+
+  *Plan.* Let the width be $x$ (m), $x>0$; the length is $x+3$ (m). The area gives the equation $x(x+3)=40$, that is $x^2+3x-40=0$.
+
+  *Solve.* We have $\Delta=3^2-4\cdot1\cdot(-40)=169>0$ and $\sqrt\Delta=13$. Hence
+
+  $$x_1=\frac{-3+13}{2}=5,\qquad x_2=\frac{-3-13}{2}=-8.$$
+
+  Since $x>0$, $x=5$. So the garden is $5$ m wide and $8$ m long.
+
+  *Look back.* Check: $5\cdot8=40$ and $8-5=3$. The root $-8$ is not a length, but it is not meaningless: $x^2+3x-40=(x-5)(x+8)$, so $-8$ is the "second root" of the same equation. Is there another method? We could look for two numbers with product $40$ that differ by $3$; the lesson on [Viète's theorem](lesson:vietes-theorem) turns this guess into a method.
+  :::
+
+## The reduced discriminant
+
+[[P12·f69c]]
+When $b$ is even, write $b=2b'$. Then $\Delta=4b'^2-4ac=4(b'^2-ac)$, and the fractions in the quadratic formula can be simplified by $2$.
+
+  :::theorem The formula with the reduced discriminant
+  Consider the equation $ax^2+bx+c=0$ ($a\neq0$) with $b=2b'$ and the reduced discriminant $\Delta'=b'^2-ac$.
+  - If $\Delta'>0$, the equation has two distinct roots $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
+  - If $\Delta'=0$, the equation has a repeated root $x_1=x_2=-\dfrac{b'}{a}$.
+  - If $\Delta'<0$, the equation has no solutions.
+  :::
+
+  :::example Using the reduced discriminant
+  Solve the following equations:
+
+  a) $3x^2-8x+4=0$.
+
+  b) $x^2+6x+4=0$.
+
+  **Solution.** a) We have $b'=-4$, $\Delta'=(-4)^2-3\cdot4=4>0$ and $\sqrt{\Delta'}=2$. Hence $x_1=\dfrac{4+2}{3}=2$ and $x_2=\dfrac{4-2}{3}=\dfrac23$.
+
+  b) We have $b'=3$ and $\Delta'=3^2-1\cdot4=5>0$. Hence $x_{1,2}=-3\pm\sqrt5$.
+
+  So a) $x=2$, $x=\dfrac23$; b) $x=-3+\sqrt5$, $x=-3-\sqrt5$.
+  :::
+
+:::tip Checking with a calculator
+[[P13·dbb8]]
+A scientific calculator has a mode for solving quadratic equations: enter $a$, $b$, $c$ and it gives the roots. Use it to **check** your answers; in your written work, still show $\Delta$ (or $\Delta'$) and the formula.
+:::
+
+:::warning Common mistakes
+[[P14·1618]]
+- **Wrong sign of $b$.** Wrong: for $2x^2-5x+2=0$, writing $x=\dfrac{-5\pm3}{4}$. Why it is wrong: $-b=-(-5)=5$. Right: $x=\dfrac{5\pm3}{4}$.
+- **Wrong sign in $\Delta$ when $c<0$.** Wrong: $x^2+3x-40=0$ has $\Delta=9-160$. Right: $\Delta=9-4\cdot1\cdot(-40)=9+160=169$.
+- **Dividing both sides by $x$.** Wrong: "$3x^2=12x\Rightarrow3x=12\Rightarrow x=4$". Why it is wrong: dividing by $x$ loses the root $x=0$. Right: $3x(x-4)=0$, so $x=0$ or $x=4$.
+:::
+
+[[P15·2a7b]]
+**Connections.** Quadratic equations tie together many things you have learnt: algebraic identities (to complete the square), square roots (to find the roots), product equations (when $c=0$) and the parabola $y=x^2$ (to "see" the number of solutions). Next, [Viète's theorem](lesson:vietes-theorem) gives the sum and product of the roots without solving, and the lesson [solving word problems by forming equations](lesson:g9-equation-word-problems) uses the quadratic formula in many real situations.
+
+## Key terms
+
+  :::terms
+  - quadratic equation in one unknown | phương trình bậc hai một ẩn
+  - coefficient | hệ số
+  - discriminant | biệt thức
+  - quadratic formula | công thức nghiệm
+  - reduced discriminant | biệt thức thu gọn
+  - two distinct roots | hai nghiệm phân biệt
+  - repeated root | nghiệm kép
+  - no (real) solutions | vô nghiệm
+  - completing the square | đưa về bình phương
+  :::
+
+## Summary
+
+[[P16·7fe6]]
+- A quadratic equation: $ax^2+bx+c=0$ with $a\neq0$.
+- $c=0$: take out the common factor $x$; $b=0$: rewrite as $x^2=k$.
+- $\Delta=b^2-4ac$: $\Delta>0$ two roots $x_{1,2}=\dfrac{-b\pm\sqrt\Delta}{2a}$; $\Delta=0$ a repeated root $-\dfrac{b}{2a}$; $\Delta<0$ no solutions.
+- $b=2b'$: $\Delta'=b'^2-ac$, $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
+- If $a$ and $c$ have opposite signs, there are always two distinct roots.
+- Real-life problems: check each root against the condition on the unknown.
+
+## Practice
+
+[[P17·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 43 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

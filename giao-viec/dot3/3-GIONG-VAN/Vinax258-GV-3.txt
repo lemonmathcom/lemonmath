@@ -1,0 +1,1646 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-GV-3
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/inequalities-and-properties, g9/inscribed-angles, g9/intro-to-circles, g9/line-circle-positions
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-GV-3-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-GV-3-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/inequalities-and-properties – BẢN TIẾNG VIỆT ########
+---
+title: Bất đẳng thức và tính chất
+description: Hiểu bất đẳng thức, tính chất bắc cầu, liên hệ giữa thứ tự với phép cộng và phép nhân, và dùng chúng để so sánh, chứng minh bất đẳng thức đơn giản.
+minutes: 20
+---
+
+  :::goals
+  - Đọc, viết bất đẳng thức với các dấu $<$, $>$, $\le$, $\ge$.
+  - Dùng tính chất bắc cầu và liên hệ giữa thứ tự với phép cộng, phép nhân để so sánh hai biểu thức.
+  - Chứng minh một số bất đẳng thức đơn giản.
+  :::
+
+[[P1·f25f]]
+Bạn An cao hơn bạn Bình. Một năm sau, cả hai đều cao thêm $5$ cm. An có còn cao hơn Bình không? Chắc chắn có. Nhưng nếu biết $a>b$ thì $-2a$ và $-2b$, số nào lớn hơn? Câu trả lời làm nhiều bạn bất ngờ.
+
+[[P2·4dbb]]
+Bài này giúp ta trả lời những câu hỏi như vậy một cách chắc chắn, không cần đoán.
+
+## Bất đẳng thức
+
+[[P3·b85b]]
+Ta gọi hệ thức dạng $a<b$ (hay $a>b$, $a\le b$, $a\ge b$) là một **bất đẳng thức**; $a$ là **vế trái**, $b$ là **vế phải**.
+
+[[P4·7ae9]]
+- $a\le b$ đọc là "$a$ nhỏ hơn hoặc bằng $b$", hay "$a$ không lớn hơn $b$".
+- $a\ge b$ đọc là "$a$ lớn hơn hoặc bằng $b$", hay "$a$ không nhỏ hơn $b$".
+
+  :::example Viết bằng kí hiệu
+  Viết các khẳng định sau bằng bất đẳng thức: a) số $x$ không âm; b) tốc độ $v$ (km/h) không vượt quá $60$; c) tuổi $t$ của người lái ô tô ít nhất là $18$.
+
+  **Lời giải.** "Không âm" là $\ge0$, "không vượt quá" là $\le$, "ít nhất" là $\ge$:
+
+  $$\text{a) } x\ge0;\qquad \text{b) } v\le60;\qquad \text{c) } t\ge18.$$
+
+  Vậy ba khẳng định được viết là $x\ge0$, $v\le60$ và $t\ge18$.
+  :::
+
+  :::theorem Tính chất bắc cầu
+  Nếu $a<b$ và $b<c$ thì $a<c$. (Tương tự với $>$, $\le$, $\ge$.)
+  :::
+
+[[P5·9d74]]
+Trên trục số, $a<b$ nghĩa là điểm $a$ nằm bên trái điểm $b$. Nếu $a$ ở bên trái $b$ và $b$ ở bên trái $c$ thì $a$ ở bên trái $c$.
+
+## Liên hệ giữa thứ tự và phép cộng
+
+### Khám phá: dịch chuyển trên trục số
+
+[[P6·00e7]]
+Ta có $2<3$. Cộng $4$ vào hai vế: $6<7$. Cộng $-5$: $-3<-2$. Cộng một số vào hai vế giống như dịch cả hai điểm đi cùng một đoạn trên trục số, nên thứ tự không đổi.
+
+  :::theorem Liên hệ giữa thứ tự và phép cộng
+  Với mọi số $a$, $b$, $c$: nếu $a<b$ thì $a+c<b+c$.
+  :::
+
+[[P7·7284]]
+Tính chất cũng đúng với $>$, $\le$, $\ge$, và với phép trừ (vì trừ $c$ là cộng $-c$).
+
+  :::example Cộng cùng một số vào hai vế
+  Cho $a>b$. So sánh: a) $a+3$ và $b+3$; b) $a-7$ và $b-7$. Từ đó so sánh $2025+(-7)$ và $2024+(-7)$.
+
+  **Lời giải.** Cộng cùng một số vào hai vế thì giữ nguyên chiều:
+
+  $$a>b\Rightarrow a+3>b+3;\qquad a>b\Rightarrow a-7>b-7.$$
+
+  Vì $2025>2024$ nên $2025+(-7)>2024+(-7)$, không cần tính.
+  :::
+
+## Liên hệ giữa thứ tự và phép nhân
+
+### Khám phá: nhân với số âm
+
+[[P8·59f3]]
+Ta có $2<3$. Nhân hai vế với $4$: $8<12$, chiều giữ nguyên. Nhân hai vế với $-1$: $-2$ và $-3$, mà $-2>-3$, chiều bị **đổi**. Trên trục số, nhân với $-1$ là lấy đối xứng qua điểm $0$, nên điểm ở bên trái trở thành điểm ở bên phải.
+
+:::graph Nhân với $-1$ làm đổi thứ tự
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Liên hệ giữa thứ tự và phép nhân
+  Cho $a<b$.
+  - Nếu $c>0$ thì $ac<bc$ (giữ nguyên chiều).
+  - Nếu $c<0$ thì $ac>bc$ (**đổi chiều**).
+  :::
+
+[[P9·5954]]
+Phép chia cho $c\neq0$ là nhân với $\dfrac1c$, nên cũng theo quy tắc này.
+
+  :::example Nhân với số âm
+  Cho $a<b$. So sánh: a) $3a$ và $3b$; b) $-4a$ và $-4b$; c) $5-2a$ và $5-2b$.
+
+  **Lời giải.** Nhân với số dương thì giữ chiều, nhân với số âm thì đổi chiều. Câu c) nhân với $-2$ rồi cộng $5$:
+
+  $$\text{a) } 3a<3b;\qquad \text{b) } -4a>-4b;\qquad \text{c) } -2a>-2b\Rightarrow 5-2a>5-2b.$$
+
+  Vậy $3a<3b$, $-4a>-4b$ và $5-2a>5-2b$.
+  :::
+
+[[P10·8cf1]]
+Kết hợp các tính chất, ta chứng minh được nhiều bất đẳng thức.
+
+  :::example Dùng tính chất bắc cầu
+  Cho $a>b$. Chứng minh $3a+1>3b-2$.
+
+  **Lời giải.** Nhân hai vế của $a>b$ với $3>0$, cộng $1$, rồi so sánh $3b+1$ với $3b-2$:
+
+  $$a>b\Rightarrow 3a>3b\Rightarrow 3a+1>3b+1;\qquad 3b+1>3b-2\ (\text{vì } 1>-2).$$
+
+  Theo tính chất bắc cầu, $3a+1>3b-2$.
+  :::
+
+[[P11·9fa3]]
+Để chứng minh một bất đẳng thức có chữ, ta thường dùng sự thật đơn giản: **bình phương của mọi số đều không âm**.
+
+  :::example Một bất đẳng thức quan trọng
+  Chứng minh rằng với mọi số $a$, $b$ ta có $a^2+b^2\ge2ab$. Khi nào xảy ra dấu bằng?
+
+  **Lời giải.** Bắt đầu từ $(a-b)^2\ge0$, khai triển rồi cộng $2ab$ vào hai vế:
+
+  $$(a-b)^2\ge0\iff a^2-2ab+b^2\ge0\iff a^2+b^2\ge2ab.$$
+
+  Vậy $a^2+b^2\ge2ab$ với mọi $a$, $b$; dấu bằng xảy ra khi $a-b=0$, tức $a=b$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·277c]]
+- **Quên đổi chiều khi nhân với số âm.** Sai: $a<b\Rightarrow -3a<-3b$. Lí do sai: nhân với $-3<0$ phải đổi chiều. Đúng: $-3a>-3b$.
+- **Bình phương hai vế.** Sai: $a<b\Rightarrow a^2<b^2$. Lí do sai: $-3<1$ nhưng $9>1$. Đúng: chỉ được bình phương khi biết hai vế không âm (xem bài tập 8).
+- **Trừ từng vế hai bất đẳng thức.** Sai: $5>1$ và $4>0$ nên $5-4>1-0$. Lí do sai: $1>1$ là sai. Đúng: chỉ cộng (hoặc trừ) **cùng một số** vào hai vế.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bất đẳng thức | inequality
+  - vế trái / vế phải | left-hand side / right-hand side
+  - nhỏ hơn hoặc bằng | less than or equal to
+  - lớn hơn hoặc bằng | greater than or equal to
+  - tính chất bắc cầu | transitive property
+  - giữ nguyên chiều | keep the direction (of the inequality)
+  - đổi chiều | reverse the inequality sign
+  - dấu bằng xảy ra | equality holds
+  :::
+
+## Tóm tắt
+
+[[P13·0eb0]]
+- Bất đẳng thức: $a<b$, $a>b$, $a\le b$, $a\ge b$.
+- Bắc cầu: $a<b$, $b<c\Rightarrow a<c$.
+- Cộng (trừ) cùng một số vào hai vế: giữ nguyên chiều.
+- Nhân (chia) cùng một số dương: giữ chiều; số âm: **đổi chiều**.
+- Chứng minh: đưa về $(\dots)^2\ge0$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/inequalities-and-properties – BẢN TIẾNG ANH ########
+---
+title: Inequalities and their properties
+description: Understand inequalities, the transitive property and how order behaves under addition and multiplication, and use them to compare and prove simple inequalities.
+minutes: 20
+---
+
+  :::goals
+  - Read and write inequalities with the signs $<$, $>$, $\le$, $\ge$.
+  - Use the transitive property and the rules for addition and multiplication to compare two expressions.
+  - Prove some simple inequalities.
+  :::
+
+[[P1·03f8]]
+An is taller than Bình. A year later both have grown by $5$ cm. Is An still taller than Bình? Certainly. But if we know $a>b$, which is larger, $-2a$ or $-2b$? The answer surprises many students.
+
+[[P2·3494]]
+This lesson helps us answer questions like these with certainty, without guessing.
+
+## Inequalities
+
+[[P3·3ce8]]
+A statement of the form $a<b$ (or $a>b$, $a\le b$, $a\ge b$) is called an **inequality**; $a$ is the **left-hand side** and $b$ is the **right-hand side**.
+
+[[P4·e5e3]]
+- $a\le b$ is read "$a$ is less than or equal to $b$", or "$a$ is not greater than $b$".
+- $a\ge b$ is read "$a$ is greater than or equal to $b$", or "$a$ is not less than $b$".
+
+  :::example Writing in symbols
+  Write each statement as an inequality: a) the number $x$ is non-negative; b) the speed $v$ (km/h) does not exceed $60$; c) the age $t$ of a car driver is at least $18$.
+
+  **Solution.** "Non-negative" means $\ge0$, "does not exceed" means $\le$, and "at least" means $\ge$:
+
+  $$\text{a) } x\ge0;\qquad \text{b) } v\le60;\qquad \text{c) } t\ge18.$$
+
+  So the three statements are $x\ge0$, $v\le60$ and $t\ge18$.
+  :::
+
+  :::theorem The transitive property
+  If $a<b$ and $b<c$, then $a<c$. (Likewise for $>$, $\le$, $\ge$.)
+  :::
+
+[[P5·3054]]
+On a number line, $a<b$ means that the point $a$ is to the left of the point $b$. If $a$ is to the left of $b$ and $b$ is to the left of $c$, then $a$ is to the left of $c$.
+
+## Order and addition
+
+### Explore: sliding along the number line
+
+[[P6·644e]]
+We have $2<3$. Add $4$ to both sides: $6<7$. Add $-5$: $-3<-2$. Adding a number to both sides slides both points the same distance along the number line, so the order does not change.
+
+  :::theorem Order and addition
+  For all numbers $a$, $b$, $c$: if $a<b$, then $a+c<b+c$.
+  :::
+
+[[P7·a0c7]]
+The rule also holds for $>$, $\le$, $\ge$, and for subtraction (since subtracting $c$ is adding $-c$).
+
+  :::example Adding the same number to both sides
+  Suppose $a>b$. Compare: a) $a+3$ and $b+3$; b) $a-7$ and $b-7$. Then compare $2025+(-7)$ and $2024+(-7)$.
+
+  **Solution.** Adding the same number to both sides keeps the direction:
+
+  $$a>b\Rightarrow a+3>b+3;\qquad a>b\Rightarrow a-7>b-7.$$
+
+  Since $2025>2024$, we get $2025+(-7)>2024+(-7)$ without any calculation.
+  :::
+
+## Order and multiplication
+
+### Explore: multiplying by a negative number
+
+[[P8·44a7]]
+We have $2<3$. Multiplying both sides by $4$ gives $8<12$: the direction stays the same. Multiplying both sides by $-1$ gives $-2$ and $-3$, and $-2>-3$: the direction is **reversed**. On a number line, multiplying by $-1$ reflects every point in $0$, so the point on the left ends up on the right.
+
+:::graph Multiplying by $-1$ reverses the order
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Order and multiplication
+  Suppose $a<b$.
+  - If $c>0$, then $ac<bc$ (the direction stays the same).
+  - If $c<0$, then $ac>bc$ (the inequality is **reversed**).
+  :::
+
+[[P9·37db]]
+Dividing by $c\neq0$ is multiplying by $\dfrac1c$, so the same rule applies.
+
+  :::example Multiplying by a negative number
+  Suppose $a<b$. Compare: a) $3a$ and $3b$; b) $-4a$ and $-4b$; c) $5-2a$ and $5-2b$.
+
+  **Solution.** Multiplying by a positive number keeps the direction; multiplying by a negative number reverses it. In part c) we multiply by $-2$, then add $5$:
+
+  $$\text{a) } 3a<3b;\qquad \text{b) } -4a>-4b;\qquad \text{c) } -2a>-2b\Rightarrow 5-2a>5-2b.$$
+
+  So $3a<3b$, $-4a>-4b$ and $5-2a>5-2b$.
+  :::
+
+[[P10·e02f]]
+Putting the properties together, we can prove many inequalities.
+
+  :::example Using the transitive property
+  Suppose $a>b$. Prove that $3a+1>3b-2$.
+
+  **Solution.** Multiply both sides of $a>b$ by $3>0$, add $1$, then compare $3b+1$ with $3b-2$:
+
+  $$a>b\Rightarrow 3a>3b\Rightarrow 3a+1>3b+1;\qquad 3b+1>3b-2\ (\text{since } 1>-2).$$
+
+  By the transitive property, $3a+1>3b-2$.
+  :::
+
+[[P11·ab4b]]
+To prove an inequality with letters, we often use a simple fact: **the square of any number is non-negative**.
+
+  :::example An important inequality
+  Prove that $a^2+b^2\ge2ab$ for all numbers $a$, $b$. When does equality hold?
+
+  **Solution.** Start from $(a-b)^2\ge0$, expand, then add $2ab$ to both sides:
+
+  $$(a-b)^2\ge0\iff a^2-2ab+b^2\ge0\iff a^2+b^2\ge2ab.$$
+
+  So $a^2+b^2\ge2ab$ for all $a$, $b$; equality holds when $a-b=0$, that is $a=b$.
+  :::
+
+:::warning Common mistakes
+[[P12·fdc4]]
+- **Forgetting to reverse when multiplying by a negative number.** Wrong: $a<b\Rightarrow -3a<-3b$. Why it is wrong: multiplying by $-3<0$ reverses the sign. Right: $-3a>-3b$.
+- **Squaring both sides.** Wrong: $a<b\Rightarrow a^2<b^2$. Why it is wrong: $-3<1$ but $9>1$. Right: you may only square when both sides are known to be non-negative (see exercise 8).
+- **Subtracting one inequality from another.** Wrong: $5>1$ and $4>0$, so $5-4>1-0$. Why it is wrong: $1>1$ is false. Right: only add (or subtract) **the same number** on both sides.
+:::
+
+## Key terms
+
+  :::terms
+  - inequality | bất đẳng thức
+  - left-hand side / right-hand side | vế trái / vế phải
+  - less than or equal to | nhỏ hơn hoặc bằng
+  - greater than or equal to | lớn hơn hoặc bằng
+  - transitive property | tính chất bắc cầu
+  - keep the direction (of the inequality) | giữ nguyên chiều
+  - reverse the inequality sign | đổi chiều
+  - equality holds | dấu bằng xảy ra
+  :::
+
+## Summary
+
+[[P13·9f87]]
+- Inequalities: $a<b$, $a>b$, $a\le b$, $a\ge b$.
+- Transitive: $a<b$, $b<c\Rightarrow a<c$.
+- Adding (subtracting) the same number on both sides: the direction stays the same.
+- Multiplying (dividing) by a positive number: keep the direction; by a negative number: **reverse** it.
+- Proofs: reduce to $(\dots)^2\ge0$.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/inscribed-angles – BẢN TIẾNG VIỆT ########
+---
+title: Góc nội tiếp
+description: Nhận biết góc nội tiếp, hiểu vì sao góc nội tiếp bằng nửa số đo cung bị chắn và dùng các hệ quả để tính góc, chứng minh vuông góc.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết được góc nội tiếp và cung bị chắn.
+  - Giải thích và sử dụng được định lí: số đo góc nội tiếp bằng nửa số đo cung bị chắn.
+  - Vận dụng các hệ quả của định lí để tính góc và chứng minh.
+  :::
+
+[[P1·bafe]]
+Trong bóng đá, khung thành rộng $7{,}32$ m (khoảng cách giữa mép trong của hai cột dọc, theo Luật 1 trong Luật bóng đá của IFAB). Một tiền đạo đứng ở điểm $M$ "nhìn" hai cột dọc $A$, $B$ dưới góc $\widehat{AMB}$, gọi là góc sút: góc càng lớn, khung thành càng "rộng" trong mắt cầu thủ.
+
+[[P2·7559]]
+Vậy có những vị trí *khác nhau* mà góc sút *bằng nhau* không? Chúng nằm trên đường nào? Câu trả lời rất đẹp: chúng nằm trên một cung tròn đi qua hai cột dọc. Để hiểu vì sao, ta cần một loại góc mới: góc nội tiếp.
+
+## Góc nội tiếp là gì?
+
+[[P3·bd48]]
+Ở bài [Cung và dây](lesson:arcs-and-chords), góc ở tâm có đỉnh tại tâm $O$. Bây giờ ta dời đỉnh của góc lên chính đường tròn.
+
+  :::definition Góc nội tiếp
+  **Góc nội tiếp** là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó. Cung nằm bên trong góc gọi là **cung bị chắn**.
+  :::
+
+[[P4·ee45]]
+Chẳng hạn, $A$, $B$, $M$ thuộc đường tròn $(O)$ thì $\widehat{AMB}$ là góc nội tiếp chắn cung $AB$ (cung không chứa $M$).
+
+[[P5·54c6]]
+**Không phải góc nội tiếp:** góc có đỉnh trong hoặc ngoài đường tròn (chẳng hạn góc ở tâm), hay góc có đỉnh trên đường tròn nhưng một cạnh không cắt đường tròn thêm điểm nào.
+
+:::diagram Góc nội tiếp $\widehat{AMB}$ và góc ở tâm $\widehat{AOB}$ cùng chắn cung $AB$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Định lí góc nội tiếp
+
+### Khám phá: đo rồi so sánh
+
+[[P6·98bc]]
+Trên hình, cung nhỏ $AB$ có số đo $100^\circ$ (bằng góc ở tâm). Đo bằng thước đo góc, ta được $\widehat{AMB}=50^\circ$; dời $M$ trên cung lớn rồi đo lại, vẫn được $50^\circ$. Góc nội tiếp dường như luôn bằng **một nửa** cung bị chắn.
+
+  :::theorem Định lí góc nội tiếp
+  Trong một đường tròn, số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.
+  :::
+
+[[P7·2a32]]
+**Vì sao?** Xét trường hợp tâm $O$ nằm trên cạnh $MB$. Tam giác $OMA$ cân tại $O$ (vì $OM=OA=R$) nên $\widehat{OMA}=\widehat{OAM}$. Góc $\widehat{AOB}$ là góc ngoài của tam giác $OMA$, do đó
+
+  $$\widehat{AOB}=\widehat{OMA}+\widehat{OAM}=2\widehat{AMB}.$$
+
+[[P8·0683]]
+Mà $\widehat{AOB}$ bằng số đo cung $AB$, nên $\widehat{AMB}$ bằng nửa số đo cung đó. Khi $O$ nằm trong hoặc ngoài góc, ta kẻ đường kính $MD$ rồi cộng hoặc trừ hai trường hợp như trên.
+
+[[P9·1fa2]]
+Trở lại câu hỏi về góc sút.
+
+  :::example Vận dụng: những vị trí có cùng góc sút
+  Khung thành có hai cột dọc $A$, $B$ với $AB=7{,}32$ m. Giả sử vẽ trên mặt sân một đường tròn tâm $O$ đi qua $A$, $B$ sao cho $\widehat{AOB}=60^\circ$. Tính góc sút $\widehat{AMB}$ của một cầu thủ đứng tại điểm $M$ bất kì trên cung lớn $AB$, và tính bán kính của đường tròn.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Biết dây $AB$ và góc ở tâm; cần góc nội tiếp cùng chắn cung $AB$ và bán kính.
+
+  *Tìm cách giải.* Định lí góc nội tiếp cho góc; tam giác $OAB$ cho bán kính.
+
+  *Giải.* Góc $\widehat{AMB}$ là góc nội tiếp chắn cung nhỏ $AB$ có số đo $60^\circ$, nên
+
+  $$\widehat{AMB}=\frac{60^\circ}{2}=30^\circ.$$
+
+  Tam giác $OAB$ cân tại $O$ (vì $OA=OB$) và có $\widehat{AOB}=60^\circ$ nên là tam giác đều. Suy ra $OA=AB=7{,}32$ m.
+
+  Vậy mọi vị trí trên cung lớn $AB$ đều có góc sút $30^\circ$, và bán kính đường tròn là $7{,}32$ m.
+
+  *Nhìn lại.* Đứng tại $N$ **bên trong** đường tròn thì sao? Kéo dài $AN$ cắt đường tròn tại $M$; $\widehat{ANB}$ là góc ngoài của tam giác $NMB$ nên $\widehat{ANB}>30^\circ$. Đứng ngoài thì góc sút nhỏ hơn: đường tròn là "đường đồng mức" của góc sút.
+  :::
+
+:::diagram Các điểm $M_1$, $M_2$, $M_3$ trên cung lớn nhìn $AB$ dưới cùng một góc
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Các hệ quả của định lí
+
+[[P10·3cb2]]
+Định lí cho ta ba hệ quả rất hay dùng.
+
+  :::theorem Hệ quả
+  Trong một đường tròn:
+  - Các góc nội tiếp bằng nhau chắn các cung bằng nhau; các góc nội tiếp cùng chắn một cung (hoặc chắn các cung bằng nhau) thì bằng nhau.
+  - Góc nội tiếp (nhỏ hơn hoặc bằng $90^\circ$) có số đo bằng nửa số đo góc ở tâm cùng chắn một cung.
+  - Góc nội tiếp chắn nửa đường tròn là góc vuông.
+  :::
+
+[[P11·0cf8]]
+Đảo lại, góc nội tiếp vuông thì chắn cung $180^\circ$, tức là hai cạnh của nó đi qua hai đầu một đường kính.
+
+  :::example Vận dụng: tìm tâm mặt bàn tròn
+  Để tìm tâm một mặt bàn tròn, bác thợ mộc đặt đỉnh góc vuông của ê ke tại điểm $C$ trên mép bàn, hai cạnh ê ke cắt mép tại $A$, $B$, rồi kẻ $AB$. Làm lại tại một điểm khác, được $A'B'$. Giải thích vì sao giao điểm của $AB$ và $A'B'$ là tâm mặt bàn.
+
+  **Lời giải.** Ta có $\widehat{ACB}=90^\circ$ là góc nội tiếp, nên nó chắn cung có số đo $2\cdot90^\circ=180^\circ$ (định lí góc nội tiếp). Do đó $AB$ là một đường kính, tức là $AB$ đi qua tâm.
+
+  Tương tự, $A'B'$ cũng là một đường kính và đi qua tâm.
+
+  Vậy hai đường kính $AB$, $A'B'$ cắt nhau tại tâm của mặt bàn.
+  :::
+
+[[P12·d546]]
+Các góc nội tiếp cùng chắn một cung cho ta những cặp góc bằng nhau, từ đó có tam giác đồng dạng (lớp 8).
+
+  :::example Hai dây cắt nhau
+  Hai dây $AB$ và $CD$ của đường tròn $(O)$ cắt nhau tại $I$ nằm bên trong đường tròn. Chứng minh rằng $IA\cdot IB=IC\cdot ID$.
+
+  **Lời giải.** Xét tam giác $IAC$ và tam giác $IDB$, ta có:
+
+  $\widehat{AIC}=\widehat{DIB}$ (hai góc đối đỉnh);
+
+  $\widehat{CAB}=\widehat{CDB}$ (hai góc nội tiếp cùng chắn cung $BC$).
+
+  Do đó $\triangle IAC\backsim\triangle IDB$ (g.g), suy ra
+
+  $$\frac{IA}{ID}=\frac{IC}{IB}\ \Rightarrow\ IA\cdot IB=IC\cdot ID.$$
+
+  Vậy $IA\cdot IB=IC\cdot ID$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P13·58cc]]
+- **Lấy góc nội tiếp bằng góc ở tâm.** Sai: "$\widehat{AOB}=110^\circ$ nên $\widehat{ACB}=110^\circ$". Lí do sai: góc nội tiếp chỉ bằng **nửa** cung bị chắn. Đúng: $\widehat{ACB}=55^\circ$.
+- **Chọn nhầm cung bị chắn.** Sai: "$\widehat{AOB}=110^\circ$, $D$ thuộc cung nhỏ $AB$, nên $\widehat{ADB}=55^\circ$". Lí do sai: góc $\widehat{ADB}$ chắn cung **lớn** $AB$ (cung không chứa $D$) có số đo $250^\circ$. Đúng: $\widehat{ADB}=125^\circ$.
+:::
+
+[[P14·5e09]]
+**Kết nối.** Bài này dựa trên góc ở tâm ([Cung và dây](lesson:arcs-and-chords)), góc ngoài của tam giác (lớp 7) và tam giác đồng dạng (lớp 8). Nó dẫn tới [đường tròn ngoại tiếp tam giác vuông](lesson:circumcircle-incircle) và [tứ giác nội tiếp](lesson:cyclic-quadrilaterals), dạng bài có trong hầu hết đề thi vào lớp 10.
+
+## Thuật ngữ
+
+  :::terms
+  - góc nội tiếp | inscribed angle (angle at the circumference)
+  - góc ở tâm | angle at the centre
+  - cung bị chắn | intercepted arc
+  - nửa đường tròn | semicircle
+  - đường kính | diameter
+  - dây cung | chord
+  - góc đối đỉnh | vertically opposite angles
+  :::
+
+## Tóm tắt
+
+[[P15·68f6]]
+- Góc nội tiếp: đỉnh trên đường tròn, hai cạnh chứa hai dây.
+- Góc nội tiếp $=\dfrac12$ số đo cung bị chắn (cung nằm trong góc).
+- Cùng chắn một cung (hoặc các cung bằng nhau) thì bằng nhau.
+- Góc nội tiếp $\leq 90^\circ$ bằng nửa góc ở tâm cùng chắn một cung.
+- Chắn nửa đường tròn thì là góc vuông; góc nội tiếp vuông thì chắn đường kính.
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/inscribed-angles – BẢN TIẾNG ANH ########
+---
+title: Inscribed angles
+description: Recognise inscribed angles, see why an inscribed angle is half the arc it subtends, and use the consequences to find angles and prove right angles.
+minutes: 20
+---
+
+  :::goals
+  - Recognise an inscribed angle and the arc it subtends.
+  - Explain and use the theorem: an inscribed angle is half the measure of the arc it subtends.
+  - Use the consequences of the theorem to find angles and to prove results.
+  :::
+
+[[P1·3f84]]
+In football, the goal is $7.32$ m wide (the distance between the inside of the posts, by Law 1 of the IFAB Laws of the Game). A striker standing at a point $M$ "sees" the posts $A$ and $B$ at the angle $\angle AMB$, the shooting angle: the bigger the angle, the "wider" the goal looks to the player.
+
+[[P2·409c]]
+So are there *different* positions with the *same* shooting angle? On what line do they lie? The answer is beautiful: they lie on an arc of a circle through the two posts. To see why, we need a new kind of angle: the inscribed angle.
+
+## What is an inscribed angle?
+
+[[P3·c337]]
+In the lesson [Arcs and chords](lesson:arcs-and-chords), the angle at the centre had its vertex at the centre $O$. Now we move the vertex of the angle onto the circle itself.
+
+  :::definition Inscribed angle
+  An **inscribed angle** (angle at the circumference) is an angle whose vertex lies on a circle and whose two arms contain two chords of the circle. The arc lying inside the angle is the **arc it subtends** (the intercepted arc).
+  :::
+
+[[P4·cc15]]
+For example, if $A$, $B$, $M$ lie on the circle $(O)$, then $\angle AMB$ is an inscribed angle subtending the arc $AB$ (the arc that does not contain $M$).
+
+[[P5·690d]]
+**Not inscribed angles:** an angle with its vertex inside or outside the circle (such as the angle at the centre), or an angle with its vertex on the circle but with one arm meeting the circle at no other point.
+
+:::diagram The inscribed angle $\angle AMB$ and the angle at the centre $\angle AOB$ subtend the same arc $AB$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The inscribed angle theorem
+
+### Explore: measure and compare
+
+[[P6·0b16]]
+In the figure, the minor arc $AB$ measures $100^\circ$ (equal to the angle at the centre). A protractor gives $\angle AMB=50^\circ$; move $M$ along the major arc and measure again: still $50^\circ$. An inscribed angle seems always to be **half** the arc it subtends.
+
+  :::theorem The inscribed angle theorem
+  In a circle, an inscribed angle is half the measure of the arc it subtends.
+  :::
+
+[[P7·d29f]]
+**Why?** Take the case where the centre $O$ lies on the arm $MB$. The triangle $OMA$ is isosceles at $O$ (because $OM=OA=R$), so $\angle OMA=\angle OAM$. The angle $\angle AOB$ is an exterior angle of the triangle $OMA$, hence
+
+  $$\angle AOB=\angle OMA+\angle OAM=2\angle AMB.$$
+
+[[P8·82bb]]
+Since $\angle AOB$ equals the measure of the arc $AB$, the angle $\angle AMB$ is half that measure. When $O$ lies inside or outside the angle, we draw the diameter $MD$ and add or subtract two cases like the one above.
+
+[[P9·540e]]
+Back to the shooting angle.
+
+  :::example Application: positions with the same shooting angle
+  A goal has posts $A$ and $B$ with $AB=7.32$ m. Suppose a circle with centre $O$ is drawn on the pitch through $A$ and $B$ so that $\angle AOB=60^\circ$. Find the shooting angle $\angle AMB$ of a player standing at any point $M$ on the major arc $AB$, and find the radius of the circle.
+
+  **Solution.**
+
+  *Understand.* We know the chord $AB$ and the angle at the centre; we need the inscribed angle on the arc $AB$ and the radius.
+
+  *Plan.* The inscribed angle theorem gives the angle; the triangle $OAB$ gives the radius.
+
+  *Solve.* The angle $\angle AMB$ is an inscribed angle subtending the minor arc $AB$, which measures $60^\circ$, so
+
+  $$\angle AMB=\frac{60^\circ}{2}=30^\circ.$$
+
+  The triangle $OAB$ is isosceles at $O$ (because $OA=OB$) with $\angle AOB=60^\circ$, so it is equilateral. Hence $OA=AB=7.32$ m.
+
+  So every position on the major arc $AB$ has a shooting angle of $30^\circ$, and the radius of the circle is $7.32$ m.
+
+  *Look back.* What about a point $N$ **inside** the circle? Extend $AN$ to meet the circle at $M$; $\angle ANB$ is an exterior angle of the triangle $NMB$, so $\angle ANB>30^\circ$. Outside the circle the angle is smaller: the circle is a "contour line" of the shooting angle.
+  :::
+
+:::diagram The points $M_1$, $M_2$, $M_3$ on the major arc see $AB$ at the same angle
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Consequences of the theorem
+
+[[P10·c95f]]
+The theorem has three consequences that are used all the time.
+
+  :::theorem Consequences
+  In a circle:
+  - Equal inscribed angles subtend equal arcs; inscribed angles subtending the same arc (or equal arcs) are equal.
+  - An inscribed angle (at most $90^\circ$) is half the angle at the centre subtending the same arc.
+  - The angle in a semicircle is a right angle.
+  :::
+
+[[P11·5506]]
+Conversely, a right inscribed angle subtends an arc of $180^\circ$, so its arms pass through the two ends of a diameter.
+
+  :::example Application: finding the centre of a round table
+  To find the centre of a round tabletop, a carpenter puts the right-angle corner of a set square at a point $C$ on the edge; its edges cross the edge of the table at $A$ and $B$, and he draws $AB$. He does the same at another point and gets $A'B'$. Explain why the point where $AB$ and $A'B'$ meet is the centre of the table.
+
+  **Solution.** We have $\angle ACB=90^\circ$, an inscribed angle, so it subtends an arc of $2\cdot90^\circ=180^\circ$ (inscribed angle theorem). Hence $AB$ is a diameter, so $AB$ passes through the centre.
+
+  In the same way, $A'B'$ is also a diameter and passes through the centre.
+
+  So the two diameters $AB$ and $A'B'$ meet at the centre of the table.
+  :::
+
+[[P12·e71e]]
+Inscribed angles on the same arc give pairs of equal angles, and from them similar triangles (grade 8).
+
+  :::example Two intersecting chords
+  The chords $AB$ and $CD$ of the circle $(O)$ meet at a point $I$ inside the circle. Prove that $IA\cdot IB=IC\cdot ID$.
+
+  **Solution.** Consider the triangles $IAC$ and $IDB$. We have:
+
+  $\angle AIC=\angle DIB$ (vertically opposite angles);
+
+  $\angle CAB=\angle CDB$ (inscribed angles subtending the same arc $BC$).
+
+  Hence $\triangle IAC\sim\triangle IDB$ (AA), so
+
+  $$\frac{IA}{ID}=\frac{IC}{IB}\ \Rightarrow\ IA\cdot IB=IC\cdot ID.$$
+
+  So $IA\cdot IB=IC\cdot ID$.
+  :::
+
+:::warning Common mistakes
+[[P13·8c75]]
+- **Taking the inscribed angle equal to the angle at the centre.** Wrong: "$\angle AOB=110^\circ$, so $\angle ACB=110^\circ$". Why it is wrong: an inscribed angle is only **half** the arc it subtends. Right: $\angle ACB=55^\circ$.
+- **Choosing the wrong arc.** Wrong: "$\angle AOB=110^\circ$ and $D$ is on the minor arc $AB$, so $\angle ADB=55^\circ$". Why it is wrong: $\angle ADB$ subtends the **major** arc $AB$ (the arc not containing $D$), which measures $250^\circ$. Right: $\angle ADB=125^\circ$.
+:::
+
+[[P14·018f]]
+**Connections.** This lesson builds on angles at the centre ([Arcs and chords](lesson:arcs-and-chords)), exterior angles (grade 7) and similar triangles (grade 8). It leads to the [circumcircle of a right-angled triangle](lesson:circumcircle-incircle) and to [cyclic quadrilaterals](lesson:cyclic-quadrilaterals), a topic in almost every grade 10 entrance exam.
+
+## Key terms
+
+  :::terms
+  - inscribed angle (angle at the circumference) | góc nội tiếp
+  - angle at the centre | góc ở tâm
+  - intercepted arc | cung bị chắn
+  - semicircle | nửa đường tròn
+  - diameter | đường kính
+  - chord | dây cung
+  - vertically opposite angles | góc đối đỉnh
+  :::
+
+## Summary
+
+[[P15·e5eb]]
+- Inscribed angle: vertex on the circle, both arms contain chords.
+- Inscribed angle $=\dfrac12$ of the arc it subtends (the arc inside the angle).
+- Inscribed angles on the same arc (or equal arcs) are equal.
+- An inscribed angle $\leq 90^\circ$ is half the angle at the centre on the same arc.
+- The angle in a semicircle is a right angle; a right inscribed angle stands on a diameter.
+
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/intro-to-circles – BẢN TIẾNG VIỆT ########
+---
+title: Mở đầu về đường tròn
+description: Hiểu đường tròn là gì, xác định vị trí của một điểm đối với đường tròn và dùng tính đối xứng của đường tròn để giải toán.
+minutes: 20
+---
+
+  :::goals
+  - Nêu được định nghĩa đường tròn, bán kính và đường kính.
+  - Xác định được một điểm nằm trong, nằm trên hay nằm ngoài một đường tròn.
+  - Biết đường tròn có tâm đối xứng là tâm và có vô số trục đối xứng.
+  :::
+
+[[P1·a52b]]
+Thầy thể dục buộc sợi dây dài $5$ m vào gốc cây giữa sân, đầu kia buộc viên phấn, kéo căng dây và đi một vòng để vẽ vạch. Từ gốc cây, An đi $3$ m về phía đông rồi $4$ m về phía bắc; Bình đi $4$ m đông, $4$ m bắc; Chi đi $2$ m tây, $4$ m nam.
+
+[[P2·6365]]
+Bạn nào đứng đúng trên vạch, bạn nào trong vòng, bạn nào ngoài vòng?
+
+## Đường tròn
+
+### Khám phá: những điểm cách gốc cây đúng $5$ m
+
+[[P3·35e2]]
+Viên phấn luôn cách gốc cây $O$ đúng $5$ m. Hai hướng đông và bắc vuông góc, nên ta tính khoảng cách theo định lí Pythagore:
+
+| Bạn | An | Bình | Chi |
+|---|---|---|---|
+| Khoảng cách đến $O$ | $\sqrt{3^2+4^2}=5$ m | $\sqrt{4^2+4^2}=\sqrt{32}$ m | $\sqrt{2^2+4^2}=\sqrt{20}$ m |
+
+[[P4·61ca]]
+An cách $O$ đúng $5$ m nên đứng trên vạch. Vạch gồm mọi điểm cách $O$ đúng $5$ m: đó là một đường tròn.
+
+  :::definition Đường tròn
+  Đường tròn tâm $O$ bán kính $R$ ($R>0$) là hình gồm tất cả các điểm cách điểm $O$ một khoảng bằng $R$. Kí hiệu: $(O; R)$, hoặc $(O)$ khi không cần nói rõ bán kính.
+  :::
+
+[[P5·ebb8]]
+Đoạn thẳng nối tâm với một điểm của đường tròn cũng gọi là **bán kính**; đoạn thẳng qua tâm có hai đầu mút trên đường tròn là **đường kính** (dài $2R$). Đường tròn cùng phần bên trong nó là **hình tròn**.
+
+## Vị trí của một điểm đối với đường tròn
+
+[[P6·fdd4]]
+Ta so sánh khoảng cách từ điểm đến tâm với bán kính.
+
+  :::theorem Vị trí của điểm $M$ đối với đường tròn $(O; R)$
+  - $M$ nằm trên đường tròn khi và chỉ khi $OM=R$.
+  - $M$ nằm trong đường tròn khi và chỉ khi $OM<R$.
+  - $M$ nằm ngoài đường tròn khi và chỉ khi $OM>R$.
+  :::
+
+:::diagram Ba vị trí của một điểm đối với đường tròn $(O; R)$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·35c2]]
+Trở lại câu hỏi đầu bài: $OB=\sqrt{32}\approx5{,}66>5$ và $OC=\sqrt{20}\approx4{,}47<5$, nên Bình đứng ngoài vòng, Chi đứng trong vòng.
+
+[[P8·69af]]
+Để chứng minh nhiều điểm cùng nằm trên một đường tròn, ta chỉ ra một điểm cách đều tất cả các điểm đó.
+
+  :::example Bốn đỉnh của hình chữ nhật
+  Cho hình chữ nhật $ABCD$ có $AB=8$ cm, $BC=6$ cm, $O$ là giao điểm của hai đường chéo. Chứng minh rằng $A$, $B$, $C$, $D$ cùng nằm trên một đường tròn. Tính bán kính của đường tròn đó.
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $B$, ta có $AC=\sqrt{8^2+6^2}=10$ (cm) (định lí Pythagore).
+
+  Hai đường chéo hình chữ nhật bằng nhau, cắt nhau tại trung điểm mỗi đường, do đó
+
+  $$OA=OB=OC=OD=\frac{AC}{2}=5\ \text{(cm)}.$$
+
+  Vậy $A$, $B$, $C$, $D$ cùng nằm trên đường tròn $(O; 5\text{ cm})$.
+  :::
+
+[[P9·9281]]
+Một điểm thuộc đường tròn thì cách tâm đúng $R$.
+
+  :::example Đường thẳng vuông góc với $OM$
+  Cho đường tròn $(O; 13\text{ cm})$ và điểm $M$ với $OM=5$ cm. Đường thẳng qua $M$ vuông góc với $OM$ cắt đường tròn tại $A$ và $B$. Tính $MA$.
+
+  **Lời giải.** Ta có $OA=13$ cm (vì $A$ thuộc đường tròn). Xét tam giác $OMA$ vuông tại $M$, theo định lí Pythagore ta có
+
+  $$MA=\sqrt{OA^2-OM^2}=\sqrt{13^2-5^2}=12\ \text{(cm)}.$$
+
+  Vậy $MA=12$ cm.
+  :::
+
+## Tính đối xứng của đường tròn
+
+[[P10·e905]]
+Gấp đôi một tấm bìa tròn theo nếp đi qua tâm, hai nửa trùng khít nhau.
+
+  :::theorem Tâm đối xứng và trục đối xứng
+  - Đường tròn có tâm đối xứng là tâm của nó.
+  - Đường tròn có vô số trục đối xứng: mỗi đường thẳng đi qua tâm là một trục đối xứng.
+  :::
+
+[[P11·fd03]]
+**Vì sao?** Nếu $A'$ đối xứng với $A$ qua $O$ thì $OA'=OA=R$. Nếu $A''$ đối xứng với $A$ qua đường thẳng $d$ đi qua $O$ thì $d$ là trung trực của $AA''$, nên $OA''=OA=R$. Vậy $A'$, $A''$ cùng thuộc đường tròn.
+
+  :::example Tìm tâm của một chiếc đĩa giấy
+  Lan gấp đôi một chiếc đĩa giấy hình tròn sao cho hai nửa trùng khít, mở ra, rồi gấp đôi theo cách khác. Giải thích vì sao giao điểm của hai nếp gấp là tâm của đĩa.
+
+  **Lời giải.** Mỗi nếp gấp là một trục đối xứng nên đi qua tâm. Hai nếp gấp khác nhau chỉ có một điểm chung.
+
+  Vậy giao điểm của hai nếp gấp là tâm của đĩa.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·5bb1]]
+- **Nhầm bán kính với đường kính.** Sai: "Đường tròn đường kính $10$ cm có $R=10$ cm". Lí do sai: đường kính bằng $2R$. Đúng: $R=5$ cm.
+- **Kết luận theo hình vẽ.** Sai: "Trên hình $M$ sát đường tròn nên $M$ thuộc đường tròn". Lí do sai: hình vẽ không chính xác. Đúng: tính $OM$, so sánh với $R$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đường tròn | circle
+  - tâm | centre
+  - bán kính | radius
+  - đường kính | diameter
+  - hình tròn | disc
+  - trục đối xứng | line of symmetry
+  :::
+
+## Tóm tắt
+
+[[P13·1421]]
+- Đường tròn $(O; R)$ gồm các điểm cách $O$ đúng $R$; đường kính dài $2R$.
+- $M$ nằm trên, trong, ngoài $(O; R)$ khi $OM=R$, $OM<R$, $OM>R$.
+- Tâm là tâm đối xứng; mỗi đường thẳng qua tâm là một trục đối xứng.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/intro-to-circles – BẢN TIẾNG ANH ########
+---
+title: Introducing circles
+description: Learn what a circle is, decide whether a point lies inside, on or outside a circle, and use the symmetry of a circle to solve problems.
+minutes: 20
+---
+
+  :::goals
+  - State the definition of a circle, its radius and its diameter.
+  - Decide whether a point lies inside, on or outside a circle.
+  - Know that a circle has its centre as a centre of symmetry and infinitely many lines of symmetry.
+  :::
+
+[[P1·ce1f]]
+The PE teacher ties a $5$ m rope to the tree in the middle of the schoolyard, ties a piece of chalk to the other end, pulls the rope tight and walks all the way round to draw a line. From the tree, An walks $3$ m east and then $4$ m north; Binh walks $4$ m east, $4$ m north; Chi walks $2$ m west, $4$ m south.
+
+[[P2·1575]]
+Who is standing exactly on the line, who is inside the ring, and who is outside?
+
+## The circle
+
+### Explore: the points exactly $5$ m from the tree
+
+[[P3·2aec]]
+The chalk always stays exactly $5$ m from the foot of the tree $O$. East and north are perpendicular, so we find each distance by Pythagoras' theorem:
+
+| Student | An | Binh | Chi |
+|---|---|---|---|
+| Distance to $O$ | $\sqrt{3^2+4^2}=5$ m | $\sqrt{4^2+4^2}=\sqrt{32}$ m | $\sqrt{2^2+4^2}=\sqrt{20}$ m |
+
+[[P4·976b]]
+An is exactly $5$ m from $O$, so An is on the line. The line is made of every point exactly $5$ m from $O$: it is a circle.
+
+  :::definition The circle
+  The circle with centre $O$ and radius $R$ ($R>0$) is the figure made of all the points at distance $R$ from the point $O$. We write it as $(O, R)$, or $(O)$ when the radius does not need to be stated.
+  :::
+
+[[P5·e847]]
+A segment joining the centre to a point of the circle is also called a **radius**; a segment through the centre with both ends on the circle is a **diameter** (of length $2R$). The circle together with the region inside it is a **disc**.
+
+## Position of a point relative to a circle
+
+[[P6·5a7f]]
+We compare the distance from the point to the centre with the radius.
+
+  :::theorem Position of a point $M$ relative to the circle $(O, R)$
+  - $M$ lies on the circle if and only if $OM=R$.
+  - $M$ lies inside the circle if and only if $OM<R$.
+  - $M$ lies outside the circle if and only if $OM>R$.
+  :::
+
+:::diagram Three positions of a point relative to the circle $(O, R)$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·c1d0]]
+Back to the opening question: $OB=\sqrt{32}\approx5.66>5$ and $OC=\sqrt{20}\approx4.47<5$, so Binh is outside the ring and Chi is inside it.
+
+[[P8·3429]]
+To prove that several points lie on one circle, we find one point at the same distance from all of them.
+
+  :::example The four vertices of a rectangle
+  The rectangle $ABCD$ has $AB=8$ cm and $BC=6$ cm, and $O$ is the point where its diagonals meet. Prove that $A$, $B$, $C$, $D$ lie on one circle. Find the radius of this circle.
+
+  **Solution.** In the triangle $ABC$, right-angled at $B$, we have $AC=\sqrt{8^2+6^2}=10$ (cm) (Pythagoras' theorem).
+
+  The diagonals of a rectangle are equal and bisect each other, hence
+
+  $$OA=OB=OC=OD=\frac{AC}{2}=5\ \text{(cm)}.$$
+
+  So $A$, $B$, $C$, $D$ lie on the circle $(O, 5\text{ cm})$.
+  :::
+
+[[P9·5854]]
+A point on the circle is exactly $R$ from the centre.
+
+  :::example A line perpendicular to $OM$
+  Consider the circle $(O, 13\text{ cm})$ and a point $M$ with $OM=5$ cm. The line through $M$ perpendicular to $OM$ cuts the circle at $A$ and $B$. Find $MA$.
+
+  **Solution.** We have $OA=13$ cm (because $A$ is on the circle). In the triangle $OMA$, right-angled at $M$, Pythagoras' theorem gives
+
+  $$MA=\sqrt{OA^2-OM^2}=\sqrt{13^2-5^2}=12\ \text{(cm)}.$$
+
+  So $MA=12$ cm.
+  :::
+
+## The symmetry of a circle
+
+[[P10·ce5f]]
+Fold a paper disc in half along a crease through the centre, and the two halves fit exactly.
+
+  :::theorem Centre of symmetry and lines of symmetry
+  - A circle has its centre as a centre of symmetry.
+  - A circle has infinitely many lines of symmetry: every line through the centre is a line of symmetry.
+  :::
+
+[[P11·9c05]]
+**Why?** If $A'$ is the reflection of $A$ in $O$, then $OA'=OA=R$. If $A''$ is the reflection of $A$ in a line $d$ through $O$, then $d$ is the perpendicular bisector of $AA''$, so $OA''=OA=R$. So $A'$ and $A''$ both lie on the circle.
+
+  :::example Finding the centre of a paper plate
+  Lan folds a round paper plate in half so that the two halves fit exactly, opens it, and folds it in half a different way. Explain why the point where the two creases cross is the centre of the plate.
+
+  **Solution.** Each crease is a line of symmetry, so it passes through the centre. Two different creases have only one point in common.
+
+  So the point where the creases cross is the centre of the plate.
+  :::
+
+:::warning Common mistakes
+[[P12·20b8]]
+- **Mixing up radius and diameter.** Wrong: "A circle with diameter $10$ cm has $R=10$ cm". Why it is wrong: the diameter is $2R$. Right: $R=5$ cm.
+- **Trusting the picture.** Wrong: "In the picture $M$ touches the circle, so $M$ is on the circle". Why it is wrong: a drawing is not exact. Right: compute $OM$ and compare it with $R$.
+:::
+
+## Key terms
+
+  :::terms
+  - circle | đường tròn
+  - centre | tâm
+  - radius | bán kính
+  - diameter | đường kính
+  - disc | hình tròn
+  - line of symmetry | trục đối xứng
+  :::
+
+## Summary
+
+[[P13·66c9]]
+- The circle $(O, R)$ is made of the points exactly $R$ from $O$; a diameter has length $2R$.
+- $M$ lies on, inside or outside $(O, R)$ when $OM=R$, $OM<R$ or $OM>R$.
+- The centre is a centre of symmetry; every line through the centre is a line of symmetry.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/line-circle-positions – BẢN TIẾNG VIỆT ########
+---
+title: Vị trí tương đối của đường thẳng và đường tròn
+description: Xác định vị trí của đường thẳng và đường tròn bằng khoảng cách từ tâm, nhận biết tiếp tuyến và dùng tính chất hai tiếp tuyến cắt nhau.
+minutes: 20
+---
+
+  :::goals
+  - Xác định được vị trí tương đối của đường thẳng và đường tròn bằng cách so sánh $d$ với $R$.
+  - Nhận biết và chứng minh được một đường thẳng là tiếp tuyến của đường tròn.
+  - Vận dụng tính chất hai tiếp tuyến cắt nhau.
+  :::
+
+[[P1·0851]]
+Một trạm phát sóng điện thoại phủ sóng trong bán kính $5$ km. Một đường quốc lộ thẳng cách trạm $3$ km, một đường khác cách trạm $7$ km. Trên mỗi đường, đoạn có sóng dài bao nhiêu?
+
+## Ba vị trí của đường thẳng và đường tròn
+
+### Khám phá: dịch đường thẳng ra xa tâm
+
+[[P2·0678]]
+Gọi $d=OH$ là khoảng cách từ $O$ đến đường thẳng $a$ ($OH\perp a$). Dịch dần $a$ ra xa tâm: lúc đầu có hai giao điểm, chúng nhập làm một khi $d=R$, rồi biến mất khi $d>R$.
+
+  :::theorem Vị trí tương đối của đường thẳng $a$ và đường tròn $(O; R)$
+  - $d<R$: $a$ và $(O)$ cắt nhau (có $2$ điểm chung);
+  - $d=R$: $a$ và $(O)$ tiếp xúc nhau (có $1$ điểm chung);
+  - $d>R$: $a$ và $(O)$ không giao nhau.
+  :::
+
+[[P3·adf5]]
+Khi $a$ tiếp xúc với $(O)$, $a$ gọi là **tiếp tuyến**, điểm chung là **tiếp điểm**. Khi cắt nhau, hai giao điểm tạo thành một dây dài $2\sqrt{R^2-d^2}$ (bài [Cung và dây](lesson:arcs-and-chords)).
+
+:::diagram Đường thẳng $a$ cắt, $b$ tiếp xúc, $c$ không giao với $(O)$
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trả lời câu hỏi ở đầu bài
+  Giải bài toán ở đầu bài.
+
+  **Lời giải.** Đường thứ nhất có $d=3<5$ nên cắt biên vùng phủ sóng theo một dây dài
+
+  $$2\sqrt{R^2-d^2}=2\sqrt{5^2-3^2}=2\cdot4=8\ \text{(km)}.$$
+
+  Đường thứ hai có $d=7>5$ nên không giao vùng phủ sóng.
+
+  Vậy đường thứ nhất có $8$ km có sóng, đường thứ hai không có sóng.
+  :::
+
+## Tiếp tuyến của đường tròn
+
+  :::theorem Tính chất và dấu hiệu nhận biết tiếp tuyến
+  - Nếu đường thẳng $a$ là tiếp tuyến của $(O)$ tại $A$ thì $a\perp OA$.
+  - Ngược lại, nếu đường thẳng $a$ đi qua điểm $A$ thuộc $(O)$ và $a\perp OA$ thì $a$ là tiếp tuyến của $(O)$ tại $A$.
+  :::
+
+[[P4·a479]]
+Thật vậy, $a\perp OA$ tại $A$ khi và chỉ khi khoảng cách từ $O$ đến $a$ là $d=OA=R$.
+
+  :::example Chứng minh một đường thẳng là tiếp tuyến
+  Cho tam giác $ABC$ vuông tại $A$. Chứng minh rằng $AC$ là tiếp tuyến của đường tròn $(B; BA)$.
+
+  **Lời giải.** Ta có $A$ thuộc đường tròn $(B; BA)$ và $AC\perp BA$ tại $A$ (vì $\widehat{BAC}=90^\circ$).
+
+  Vậy $AC$ là tiếp tuyến của $(B; BA)$ tại $A$ (dấu hiệu nhận biết tiếp tuyến).
+  :::
+
+[[P5·85b8]]
+Nhờ góc vuông ở tiếp điểm, ta tính độ dài tiếp tuyến bằng định lí Pythagore.
+
+  :::example Độ dài tiếp tuyến
+  Từ điểm $M$ cách tâm $O$ của đường tròn $(O; 6\text{ cm})$ là $10$ cm, kẻ tiếp tuyến $MA$ ($A$ là tiếp điểm). Tính $MA$.
+
+  **Lời giải.** Ta có $OA\perp MA$ (tính chất tiếp tuyến). Xét tam giác $OAM$ vuông tại $A$, theo định lí Pythagore ta có
+
+  $$MA=\sqrt{OM^2-OA^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  Vậy $MA=8$ cm.
+  :::
+
+## Hai tiếp tuyến cắt nhau
+
+  :::theorem Tính chất của hai tiếp tuyến cắt nhau
+  Nếu hai tiếp tuyến của $(O)$ tại $A$ và $B$ cắt nhau tại $M$ thì:
+  - $MA=MB$;
+  - $MO$ là tia phân giác của góc $\widehat{AMB}$;
+  - $OM$ là tia phân giác của góc $\widehat{AOB}$.
+  :::
+
+[[P6·612c]]
+**Vì sao?** Hai tam giác $OAM$ và $OBM$ vuông tại $A$, $B$, có chung cạnh huyền $OM$ và $OA=OB$, nên bằng nhau (cạnh huyền – cạnh góc vuông). Suy ra $MA=MB$, $\widehat{AMO}=\widehat{BMO}$ và $\widehat{AOM}=\widehat{BOM}$.
+
+:::diagram Hai tiếp tuyến $MA$, $MB$ của đường tròn $(O)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Hai tiếp tuyến từ một điểm
+  Từ điểm $M$ với $OM=10$ cm, kẻ hai tiếp tuyến $MA$, $MB$ của đường tròn $(O; 5\text{ cm})$. Tính $MA$, góc $\widehat{AMB}$ và $AB$.
+
+  **Lời giải.** Xét tam giác $OAM$ vuông tại $A$, ta có
+
+  $$MA=\sqrt{10^2-5^2}=5\sqrt3\approx8{,}66\ \text{(cm)},\qquad \sin\widehat{AMO}=\frac{OA}{OM}=\frac12\Rightarrow\widehat{AMO}=30^\circ.$$
+
+  Vì $MO$ là tia phân giác của $\widehat{AMB}$ nên $\widehat{AMB}=60^\circ$. Tam giác $MAB$ cân tại $M$ có góc $60^\circ$ nên là tam giác đều, suy ra $AB=MA$.
+
+  Vậy $MA=AB=5\sqrt3\approx8{,}66$ cm, $\widehat{AMB}=60^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P7·adfe]]
+- **Đo $d$ đến một điểm bất kì của đường thẳng.** Sai: "$M\in a$, $OM=7>5$ nên $a$ không giao $(O; 5)$". Lí do sai: $d=OH$ với $OH\perp a$, ngắn hơn $OM$. Đúng: tính $OH$.
+- **Kết luận tiếp tuyến khi chưa đủ điều kiện.** Sai: "$a\perp OA$ nên $a$ là tiếp tuyến". Lí do sai: còn cần $A$ thuộc đường tròn. Đúng: kiểm tra cả hai điều kiện.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - cắt nhau | intersect
+  - tiếp xúc | touch (be tangent)
+  - không giao nhau | do not meet
+  - tiếp tuyến | tangent
+  - tiếp điểm | point of contact
+  - tia phân giác | angle bisector
+  :::
+
+## Tóm tắt
+
+[[P8·cf0f]]
+- $d<R$: cắt nhau (dây dài $2\sqrt{R^2-d^2}$); $d=R$: tiếp xúc; $d>R$: không giao nhau.
+- Tiếp tuyến vuông góc với bán kính tại tiếp điểm, và ngược lại.
+- Độ dài tiếp tuyến: $MA=\sqrt{OM^2-R^2}$.
+- Hai tiếp tuyến từ $M$: $MA=MB$, $MO$ và $OM$ là các tia phân giác.
+
+## Luyện tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/line-circle-positions – BẢN TIẾNG ANH ########
+---
+title: Relative positions of a line and a circle
+description: Find the position of a line and a circle from the distance to the centre, recognise tangents and use the property of two tangents from a point.
+minutes: 20
+---
+
+  :::goals
+  - Find the relative position of a line and a circle by comparing $d$ with $R$.
+  - Recognise and prove that a line is a tangent to a circle.
+  - Use the property of two tangents from a point.
+  :::
+
+[[P1·b427]]
+A mobile phone mast covers a radius of $5$ km. One straight main road is $3$ km from the mast, and another road is $7$ km from it. How long is the stretch with signal on each road?
+
+## Three positions of a line and a circle
+
+### Explore: move the line away from the centre
+
+[[P2·59c4]]
+Let $d=OH$ be the distance from $O$ to the line $a$ ($OH\perp a$). Move $a$ slowly away from the centre: at first there are two points of intersection, they merge into one when $d=R$, and then they disappear when $d>R$.
+
+  :::theorem Relative position of a line $a$ and a circle $(O, R)$
+  - $d<R$: $a$ and $(O)$ intersect (they have $2$ common points);
+  - $d=R$: $a$ and $(O)$ touch (they have $1$ common point);
+  - $d>R$: $a$ and $(O)$ do not meet.
+  :::
+
+[[P3·1f1c]]
+When $a$ touches $(O)$, $a$ is called a **tangent** and the common point is the **point of contact**. When they intersect, the two points form a chord of length $2\sqrt{R^2-d^2}$ (lesson [Arcs and chords](lesson:arcs-and-chords)).
+
+:::diagram The line $a$ cuts, $b$ touches and $c$ does not meet $(O)$
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Answering the opening question
+  Solve the opening problem.
+
+  **Solution.** The first road has $d=3<5$, so it cuts the edge of the coverage zone in a chord of length
+
+  $$2\sqrt{R^2-d^2}=2\sqrt{5^2-3^2}=2\cdot4=8\ \text{(km)}.$$
+
+  The second road has $d=7>5$, so it does not meet the coverage zone.
+
+  So the first road has $8$ km with signal and the second road has no signal.
+  :::
+
+## Tangents to a circle
+
+  :::theorem Property and test for a tangent
+  - If the line $a$ is the tangent to $(O)$ at $A$, then $a\perp OA$.
+  - Conversely, if the line $a$ passes through a point $A$ on $(O)$ and $a\perp OA$, then $a$ is the tangent to $(O)$ at $A$.
+  :::
+
+[[P4·fbbf]]
+Indeed, $a\perp OA$ at $A$ exactly when the distance from $O$ to $a$ is $d=OA=R$.
+
+  :::example Proving that a line is a tangent
+  The triangle $ABC$ is right-angled at $A$. Prove that $AC$ is a tangent to the circle $(B, BA)$.
+
+  **Solution.** We have $A$ on the circle $(B, BA)$ and $AC\perp BA$ at $A$ (because $\angle BAC=90^\circ$).
+
+  So $AC$ is the tangent to $(B, BA)$ at $A$ (test for a tangent).
+  :::
+
+[[P5·7c7a]]
+Because of the right angle at the point of contact, we find the length of a tangent by Pythagoras' theorem.
+
+  :::example The length of a tangent
+  From a point $M$ at distance $10$ cm from the centre $O$ of the circle $(O, 6\text{ cm})$, draw the tangent $MA$ ($A$ is the point of contact). Find $MA$.
+
+  **Solution.** We have $OA\perp MA$ (property of a tangent). In the triangle $OAM$, right-angled at $A$, Pythagoras' theorem gives
+
+  $$MA=\sqrt{OM^2-OA^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  So $MA=8$ cm.
+  :::
+
+## Two tangents from a point
+
+  :::theorem Property of two tangents from a point
+  If the tangents to $(O)$ at $A$ and $B$ meet at $M$, then:
+  - $MA=MB$;
+  - $MO$ bisects the angle $\angle AMB$;
+  - $OM$ bisects the angle $\angle AOB$.
+  :::
+
+[[P6·527a]]
+**Why?** The triangles $OAM$ and $OBM$ are right-angled at $A$ and $B$, share the hypotenuse $OM$ and have $OA=OB$, so they are congruent (RHS). Hence $MA=MB$, $\angle AMO=\angle BMO$ and $\angle AOM=\angle BOM$.
+
+:::diagram Two tangents $MA$, $MB$ to the circle $(O)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Two tangents from one point
+  From a point $M$ with $OM=10$ cm, draw the two tangents $MA$, $MB$ to the circle $(O, 5\text{ cm})$. Find $MA$, the angle $\angle AMB$ and $AB$.
+
+  **Solution.** In the triangle $OAM$, right-angled at $A$, we have
+
+  $$MA=\sqrt{10^2-5^2}=5\sqrt3\approx8.66\ \text{(cm)},\qquad \sin\angle AMO=\frac{OA}{OM}=\frac12\Rightarrow\angle AMO=30^\circ.$$
+
+  Since $MO$ bisects $\angle AMB$, we get $\angle AMB=60^\circ$. The triangle $MAB$ is isosceles with an angle of $60^\circ$, so it is equilateral, hence $AB=MA$.
+
+  So $MA=AB=5\sqrt3\approx8.66$ cm and $\angle AMB=60^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P7·ca3d]]
+- **Measuring $d$ to any point of the line.** Wrong: "$M$ is on $a$ and $OM=7>5$, so $a$ does not meet $(O, 5)$". Why it is wrong: $d=OH$ with $OH\perp a$, which is shorter than $OM$. Right: compute $OH$.
+- **Calling a line a tangent too soon.** Wrong: "$a\perp OA$, so $a$ is a tangent". Why it is wrong: $A$ must also lie on the circle. Right: check both conditions.
+:::
+
+## Key terms
+
+  :::terms
+  - intersect | cắt nhau
+  - touch (be tangent) | tiếp xúc
+  - do not meet | không giao nhau
+  - tangent | tiếp tuyến
+  - point of contact | tiếp điểm
+  - angle bisector | tia phân giác
+  :::
+
+## Summary
+
+[[P8·93a5]]
+- $d<R$: they intersect (chord of length $2\sqrt{R^2-d^2}$); $d=R$: they touch; $d>R$: they do not meet.
+- A tangent is perpendicular to the radius at the point of contact, and conversely.
+- Length of a tangent: $MA=\sqrt{OM^2-R^2}$.
+- Two tangents from $M$: $MA=MB$, and $MO$, $OM$ are angle bisectors.
+
+## Practice
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
