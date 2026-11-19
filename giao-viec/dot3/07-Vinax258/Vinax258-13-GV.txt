@@ -1,0 +1,690 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-13-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-13-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-13-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g10/vectors-in-coordinates
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-13-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-13-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-13-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG VIỆT ########
+---
+title: Vectơ trong mặt phẳng toạ độ
+description: Mô tả vectơ bằng toạ độ, cộng và nhân vectơ với một số, rồi tìm độ dài, trung điểm, trọng tâm và các điểm thẳng hàng bằng toạ độ.
+minutes: 25
+---
+
+  :::goals
+  - Viết vectơ dưới dạng $\vec{a}=(x; y)$ và tìm toạ độ của $\overrightarrow{AB}$ từ hai điểm $A$, $B$.
+  - Cộng, trừ và nhân vectơ với một số bằng toạ độ.
+  - Tìm độ dài của vectơ và khoảng cách giữa hai điểm.
+  - Dùng toạ độ cho trung điểm, trọng tâm, tính thẳng hàng và đỉnh còn thiếu của hình bình hành.
+  :::
+
+[[P1·0b05]]
+Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào?
+
+## Toạ độ của vectơ
+
+[[P2·674d]]
+Ta thử tính. Thao tác "đi $3$ sang phải, $2$ lên trên" cộng $3$ vào hoành độ và $2$ vào tung độ, dù xuất phát ở đâu:
+
+  $$\text{Lan: } (0+3;\ 0+2)=(3; 2),\qquad \text{Minh: } (1+3;\ 4+2)=(4; 6).$$
+
+[[P3·b2e4]]
+Hai bạn đi hai mũi tên khác chỗ nhưng **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vậy Minh đến điểm $(4; 6)$. Cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
+
+[[P4·3c26]]
+Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Đây là các **vectơ đơn vị** của hai trục.
+
+  :::definition Toạ độ của vectơ
+  Mỗi vectơ $\vec{a}$ viết được duy nhất dưới dạng
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  Cặp số $(x; y)$ là **toạ độ** của $\vec{a}$, và ta viết $\vec{a}=(x; y)$.
+  :::
+
+:::diagram Vectơ $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·d6a7]]
+Hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
+
+### Từ hai điểm đến một vectơ
+
+[[P6·8182]]
+Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
+  $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A).$$
+[[P7·c3fa]]
+Nói gọn: toạ độ **điểm cuối trừ điểm đầu**.
+
+[[P8·523c]]
+Ví dụ đầu tiên áp dụng công thức này và cho thấy một vectơ có thể "nằm" ở nhiều chỗ.
+
+  :::example Vectơ từ hai điểm
+  Cho $A(1; 2)$, $B(4; 6)$, $C(-2; 0)$, $D(1; 4)$. Tìm toạ độ của $\overrightarrow{AB}$ và $\overrightarrow{CD}$. Hai vectơ này có bằng nhau không?
+
+  **Lời giải.** Lấy toạ độ điểm cuối trừ toạ độ điểm đầu:
+
+  $$\overrightarrow{AB}=(4-1;\ 6-2)=(3; 4),\qquad \overrightarrow{CD}=(1-(-2);\ 4-0)=(3; 4).$$
+
+  Hai vectơ có cùng toạ độ, nên $\overrightarrow{AB}=\overrightarrow{CD}$, dù bốn điểm khác nhau.
+  :::
+
+## Các phép toán theo toạ độ
+
+[[P9·c570]]
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Làm tương tự cho hiệu và tích với một số:
+
+  :::theorem Các phép toán theo toạ độ
+  Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
+  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1;\ ky_1)$.
+  :::
+
+[[P10·3da5]]
+Như vậy ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**.
+
+  :::example Kết hợp các vectơ
+  Cho $\vec{a}=(2; -1)$ và $\vec{b}=(-3; 4)$. Tìm $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ và $3\vec{a}-2\vec{b}$.
+
+  **Lời giải.** Ta tính riêng hoành độ và tung độ:
+
+  $$\vec{a}+\vec{b}=(2-3;\ -1+4)=(-1; 3),\qquad \vec{a}-\vec{b}=(2+3;\ -1-4)=(5; -5).$$
+
+  Với biểu thức thứ ba, nhân trước rồi trừ sau:
+
+  $$3\vec{a}=(6; -3),\quad 2\vec{b}=(-6; 8),\quad 3\vec{a}-2\vec{b}=(6+6;\ -3-8)=(12; -11).$$
+
+  Vậy $\vec{a}+\vec{b}=(-1; 3)$, $\vec{a}-\vec{b}=(5; -5)$ và $3\vec{a}-2\vec{b}=(12; -11)$.
+  :::
+
+## Độ dài vectơ và khoảng cách
+
+[[P11·0ca9]]
+Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·7397]]
+Vì $AB$ là độ dài của $\overrightarrow{AB}$, nên **khoảng cách giữa hai điểm** là
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·b8b2]]
+Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ.
+
+  :::example Tam giác vuông
+  Cho $A(1; 2)$, $B(4; 6)$, $C(9; -4)$. Chứng minh tam giác $ABC$ vuông.
+
+  **Lời giải.** Ta tính bình phương ba cạnh rồi dùng định lí Pythagore đảo:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3; 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8; -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5; -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Vì $AB^2+AC^2=25+100=125=BC^2$, tam giác $ABC$ vuông tại $A$.
+
+  **Kiểm tra.** Cạnh dài nhất $BC$ là cạnh huyền, nên góc vuông nằm ở đỉnh đối diện, tức $A$.
+  :::
+
+## Trung điểm và trọng tâm
+
+[[P14·6023]]
+Dùng $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên ta được toạ độ bằng cách lấy trung bình cộng.
+
+  :::theorem Trung điểm và trọng tâm
+  - Trung điểm $M$ của $AB$ là $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2}\right)$.
+  - Trọng tâm $G$ của tam giác $ABC$ là $G\left(\dfrac{x_A+x_B+x_C}{3};\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Trung điểm và trọng tâm
+  a) Tìm trung điểm của đoạn thẳng nối $A(2; -1)$ và $B(6; 5)$.
+  b) Tìm trọng tâm của tam giác có các đỉnh $A(1; 1)$, $B(5; 2)$, $C(0; 6)$.
+
+  **Lời giải.** Lấy trung bình cộng từng toạ độ:
+
+  $$M\left(\frac{2+6}{2};\ \frac{-1+5}{2}\right)=M(4; 2),\qquad G\left(\frac{1+5+0}{3};\ \frac{1+2+6}{3}\right)=G(2; 3).$$
+
+  Vậy trung điểm là $M(4; 2)$ và trọng tâm là $G(2; 3)$.
+  :::
+
+## Vectơ cùng phương và ba điểm thẳng hàng
+
+[[P15·9bc9]]
+Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·560e]]
+Ta dùng phép thử bằng tích này thay cho tỉ số $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, vì tỉ số không dùng được khi có một toạ độ bằng $0$. Ba điểm $A$, $B$, $C$ thẳng hàng khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+[[P17·effa]]
+Ví dụ sau dùng phép thử này hai lần: một lần để kiểm tra, một lần để tìm một điểm chưa biết.
+
+  :::example Ba điểm thẳng hàng
+  Cho $A(-1; 1)$, $B(3; 3)$, $C(7; 5)$.
+
+  a) Chứng minh $A$, $B$, $C$ thẳng hàng.
+  b) Đường thẳng $AB$ cắt trục hoành tại $M$. Tìm toạ độ của $M$.
+
+  **Lời giải.** a) Ta xét $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4; 2),\quad \overrightarrow{AC}=(8; 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  Hai vectơ cùng phương (thật vậy $\overrightarrow{AC}=2\overrightarrow{AB}$), nên $A$, $B$, $C$ thẳng hàng.
+
+  b) Điểm $M$ nằm trên trục hoành nên $M(t; 0)$. Cần $\overrightarrow{AM}=(t+1; -1)$ cùng phương với $\overrightarrow{AB}=(4; 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  Vậy $M(-3; 0)$.
+  :::
+
+## Đỉnh còn thiếu của hình bình hành
+
+[[P18·2eff]]
+$ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
+
+:::diagram Hình bình hành $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đỉnh thứ tư
+  Ba đỉnh của hình bình hành $ABCD$ là $A(1; 1)$, $B(4; 2)$ và $C(5; 5)$. Tìm $D$.
+
+  **Lời giải.** Gọi $D(x; y)$. Hình bình hành cho $\overrightarrow{AB}=\overrightarrow{DC}$; ta cho hai toạ độ bằng nhau:
+
+  $$(3; 1)=(5-x;\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  Vậy $D(2; 4)$.
+
+  **Kiểm tra.** Hai đường chéo phải cắt nhau tại trung điểm mỗi đường: trung điểm của $AC$ là $(3; 3)$ và trung điểm của $BD$ cũng là $(3; 3)$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·8d5f]]
+- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
+- **Cộng toạ độ thay cho tính độ dài.** Sai: $|(3; 4)|=3+4=7$. Đúng: $|(3; 4)|=\sqrt{9+16}=5$.
+- **Dùng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2)$ và $(0; 5)$, tỉ số $\frac{0}{0}$ không có nghĩa, nhưng $0\cdot5-0\cdot2=0$ cho biết hai vectơ cùng phương.
+- **Sai thứ tự đỉnh hình bình hành.** $ABCD$ là hình bình hành cần $\overrightarrow{AB}=\overrightarrow{DC}$, không phải $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - các vectơ đơn vị | unit vectors
+  - toạ độ của vectơ | coordinates of a vector
+  - hai vectơ bằng nhau | equal vectors
+  - độ dài vectơ | length of a vector
+  - khoảng cách giữa hai điểm | distance between two points
+  - trung điểm | midpoint
+  - trọng tâm | centroid
+  - cùng phương | collinear
+  - hình bình hành | parallelogram
+  :::
+
+## Tóm tắt
+
+[[P20·54b2]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ được viết là $\vec{a}=(x; y)$; $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A)$ (cuối trừ đầu).
+- Cộng, trừ và nhân với một số từng toạ độ một.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Trung điểm: trung bình cộng hai toạ độ; trọng tâm: trung bình cộng ba toạ độ.
+- $\vec{a}$, $\vec{b}$ cùng phương $\iff x_1y_2-x_2y_1=0$; ba điểm thẳng hàng khi $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
+- Đỉnh thứ tư của hình bình hành $ABCD$: giải $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG ANH ########
+---
+title: Vectors in the coordinate plane
+description: Describe a vector by its coordinates, add and scale vectors with numbers, and find lengths, midpoints, centroids and collinear points from coordinates.
+minutes: 25
+---
+
+  :::goals
+  - Write a vector as $\vec{a}=(x, y)$ and find the coordinates of $\overrightarrow{AB}$ from the points $A$ and $B$.
+  - Add, subtract and scale vectors using coordinates.
+  - Find the length of a vector and the distance between two points.
+  - Use coordinates for midpoints, centroids, collinearity and a missing vertex of a parallelogram.
+  :::
+
+[[P1·19b5]]
+On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up?
+
+## Coordinates of a vector
+
+[[P2·9496]]
+Let us compute. The move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate, wherever you start:
+
+  $$\text{Lan: } (0+3,\ 0+2)=(3, 2),\qquad \text{Minh: } (1+3,\ 4+2)=(4, 6).$$
+
+[[P3·2fae]]
+The two friends follow arrows in different places, but the arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
+
+[[P4·7c1d]]
+In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
+
+  :::definition Coordinates of a vector
+  Every vector $\vec{a}$ can be written in exactly one way as
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  The pair $(x, y)$ is the **coordinates** of $\vec{a}$, and we write $\vec{a}=(x, y)$.
+  :::
+
+:::diagram The vector $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·360f]]
+Two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
+
+### From points to a vector
+
+[[P6·3dc2]]
+If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
+  $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A).$$
+[[P7·d4b9]]
+In short: **end point minus start point**.
+
+[[P8·5226]]
+The first example applies this formula and shows that one vector can "sit" in many places.
+
+  :::example A vector from two points
+  Let $A(1, 2)$, $B(4, 6)$, $C(-2, 0)$, $D(1, 4)$. Find the coordinates of $\overrightarrow{AB}$ and $\overrightarrow{CD}$. Are the two vectors equal?
+
+  **Solution.** Subtract the coordinates of the start point from those of the end point:
+
+  $$\overrightarrow{AB}=(4-1,\ 6-2)=(3, 4),\qquad \overrightarrow{CD}=(1-(-2),\ 4-0)=(3, 4).$$
+
+  The two vectors have the same coordinates, so $\overrightarrow{AB}=\overrightarrow{CD}$, even though the four points are different.
+  :::
+
+## Operations in coordinates
+
+[[P9·a86b]]
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. The same works for differences and for multiples:
+
+  :::theorem Operations on coordinates
+  Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
+  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1,\ ky_1)$.
+  :::
+
+[[P10·b414]]
+So we add, subtract and scale vectors **one coordinate at a time**.
+
+  :::example Combining vectors
+  Let $\vec{a}=(2, -1)$ and $\vec{b}=(-3, 4)$. Find $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ and $3\vec{a}-2\vec{b}$.
+
+  **Solution.** We work on the $x$- and $y$-coordinates separately:
+
+  $$\vec{a}+\vec{b}=(2-3,\ -1+4)=(-1, 3),\qquad \vec{a}-\vec{b}=(2+3,\ -1-4)=(5, -5).$$
+
+  For the third expression, multiply first and subtract afterwards:
+
+  $$3\vec{a}=(6, -3),\quad 2\vec{b}=(-6, 8),\quad 3\vec{a}-2\vec{b}=(6+6,\ -3-8)=(12, -11).$$
+
+  So $\vec{a}+\vec{b}=(-1, 3)$, $\vec{a}-\vec{b}=(5, -5)$ and $3\vec{a}-2\vec{b}=(12, -11)$.
+  :::
+
+## Length of a vector and distance
+
+[[P11·66a6]]
+In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·1c55]]
+Since $AB$ is the length of $\overrightarrow{AB}$, the **distance between two points** is
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·7a7e]]
+With the three side lengths, we can recognise a triangle without drawing it.
+
+  :::example A right-angled triangle
+  Let $A(1, 2)$, $B(4, 6)$, $C(9, -4)$. Prove that triangle $ABC$ is right-angled.
+
+  **Solution.** We find the squares of the three sides and use the converse of Pythagoras' theorem:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3, 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8, -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5, -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Since $AB^2+AC^2=25+100=125=BC^2$, triangle $ABC$ has a right angle at $A$.
+
+  **Check.** The longest side $BC$ is the hypotenuse, so the right angle is at the opposite vertex, $A$.
+  :::
+
+## Midpoint and centroid
+
+[[P14·2069]]
+Use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so we get coordinates by averaging.
+
+  :::theorem Midpoint and centroid
+  - The midpoint $M$ of $AB$ is $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2}\right)$.
+  - The centroid $G$ of triangle $ABC$ is $G\left(\dfrac{x_A+x_B+x_C}{3},\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Midpoint and centroid
+  a) Find the midpoint of the segment joining $A(2, -1)$ and $B(6, 5)$.
+  b) Find the centroid of the triangle with vertices $A(1, 1)$, $B(5, 2)$, $C(0, 6)$.
+
+  **Solution.** Average each coordinate:
+
+  $$M\left(\frac{2+6}{2},\ \frac{-1+5}{2}\right)=M(4, 2),\qquad G\left(\frac{1+5+0}{3},\ \frac{1+2+6}{3}\right)=G(2, 3).$$
+
+  So the midpoint is $M(4, 2)$ and the centroid is $G(2, 3)$.
+  :::
+
+## Collinear vectors and collinear points
+
+[[P15·b68b]]
+Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·c2c5]]
+We use this product test instead of the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, because the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+[[P17·f4e2]]
+The next example uses the test twice: once to check, and once to find an unknown point.
+
+  :::example Three collinear points
+  Let $A(-1, 1)$, $B(3, 3)$, $C(7, 5)$.
+
+  a) Prove that $A$, $B$, $C$ are collinear.
+  b) The line $AB$ meets the $x$-axis at $M$. Find the coordinates of $M$.
+
+  **Solution.** a) We look at $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4, 2),\quad \overrightarrow{AC}=(8, 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  The vectors are collinear (indeed $\overrightarrow{AC}=2\overrightarrow{AB}$), so $A$, $B$, $C$ are collinear.
+
+  b) The point $M$ is on the $x$-axis, so $M(t, 0)$. We need $\overrightarrow{AM}=(t+1, -1)$ to be collinear with $\overrightarrow{AB}=(4, 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  So $M(-3, 0)$.
+  :::
+
+## A missing vertex of a parallelogram
+
+[[P18·5e5b]]
+$ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
+
+:::diagram Parallelogram $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Fourth vertex
+  Three vertices of parallelogram $ABCD$ are $A(1, 1)$, $B(4, 2)$ and $C(5, 5)$. Find $D$.
+
+  **Solution.** Let $D(x, y)$. The parallelogram gives $\overrightarrow{AB}=\overrightarrow{DC}$; we set the coordinates equal:
+
+  $$(3, 1)=(5-x,\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  So $D(2, 4)$.
+
+  **Check.** The diagonals must bisect each other: the midpoint of $AC$ is $(3, 3)$, and the midpoint of $BD$ is also $(3, 3)$.
+  :::
+
+:::warning Common mistakes
+[[P19·44ac]]
+- **Subtracting in the wrong order.** Wrong: for $A(1, 2)$, $B(4, 6)$, writing $\overrightarrow{AB}=(1-4,\ 2-6)=(-3, -4)$. That is $\overrightarrow{BA}$. Right: end minus start, $\overrightarrow{AB}=(3, 4)$.
+- **Adding coordinates instead of finding the length.** Wrong: $|(3, 4)|=3+4=7$. Right: $|(3, 4)|=\sqrt{9+16}=5$.
+- **Using the ratio when a coordinate is $0$.** For $(0, 2)$ and $(0, 5)$ the ratio $\frac{0}{0}$ means nothing, but $0\cdot5-0\cdot2=0$ shows the vectors are collinear.
+- **The wrong order of vertices.** $ABCD$ being a parallelogram needs $\overrightarrow{AB}=\overrightarrow{DC}$, not $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Key terms
+
+  :::terms
+  - unit vectors | các vectơ đơn vị
+  - coordinates of a vector | toạ độ của vectơ
+  - equal vectors | hai vectơ bằng nhau
+  - length of a vector | độ dài vectơ
+  - distance between two points | khoảng cách giữa hai điểm
+  - midpoint | trung điểm
+  - centroid | trọng tâm
+  - collinear | cùng phương
+  - parallelogram | hình bình hành
+  :::
+
+## Summary
+
+[[P20·a33d]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ is written $\vec{a}=(x, y)$; $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A)$ (end minus start).
+- Add, subtract and scale one coordinate at a time.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Midpoint: average of two sets of coordinates; centroid: average of three.
+- $\vec{a}$, $\vec{b}$ collinear $\iff x_1y_2-x_2y_1=0$; three points are collinear when $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
+- Fourth vertex of parallelogram $ABCD$: solve $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Practice
+
+[[P21·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

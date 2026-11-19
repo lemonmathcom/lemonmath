@@ -1,0 +1,1646 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-06-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-06-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/missing-numbers-add-subtract, g3/missing-numbers-multiply-divide, g3/multiply-2-digit-by-1-digit, g3/multiply-4-digit-by-1-digit
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  thichgiaitoan-06-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/thichgiaitoan-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-06-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG VIỆT ########
+---
+title: Tìm thành phần trong phép cộng, phép trừ
+description: Em học cách tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược, rồi thử lại để chắc chắn kết quả đúng.
+minutes: 15
+---
+
+  :::goals
+  - Gọi đúng tên các thành phần của phép cộng và phép trừ.
+  - Tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược.
+  - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số ban đầu".
+  :::
+
+[[P1·de9e]]
+Lan có một số hình dán trong hộp. Mẹ cho Lan thêm $7$ hình nữa, bây giờ Lan có $15$ hình. Hỏi lúc đầu trong hộp có bao nhiêu hình dán?
+
+[[P2·0270]]
+Em chưa biết số hình lúc đầu, nên ta viết $\square+7=15$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn, không cần đoán.
+
+## Cùng khám phá
+
+[[P3·7dc4]]
+Em nhớ lại bài trước: trong phép cộng $8+7=15$, các số $8$ và $7$ gọi là **số hạng**, số $15$ gọi là **tổng**.
+
+[[P4·aaab]]
+Ta nhìn lại câu chuyện của Lan:
+
+[[P5·ec80]]
+- Cả hộp có $15$ hình sau khi thêm.
+- Phần mẹ cho thêm là $7$ hình.
+- Phần có lúc đầu là phần còn lại, nên ta lấy $15$ bớt đi $7$.
+
+[[P6·7933]]
+Vậy $15-7=8$. Lúc đầu Lan có $8$ hình dán.
+
+:::graph Trên tia số: đi từ 7 đến 15 là đi thêm 8 bước
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·416f]]
+Em thấy không: biết tổng và một số hạng, muốn tìm số hạng còn lại ta làm phép trừ.
+
+  :::theorem Tìm số hạng chưa biết
+  Số hạng chưa biết bằng tổng trừ đi số hạng đã biết.
+
+  Nếu $\square+7=15$ thì $\square=15-7=8$.
+  :::
+
+[[P8·a917]]
+Bây giờ ta xem phép trừ. Trong $15-7=8$, số $15$ là **số bị trừ**, số $7$ là **số trừ**, số $8$ là **hiệu**.
+
+[[P9·5341]]
+Em hãy nhớ câu chuyện: có $15$ hình, lấy đi $7$ hình, còn $8$ hình. Nếu biết còn $8$ và đã lấy đi $7$ thì lúc đầu có $8+7=15$ hình. Nếu biết lúc đầu có $15$ và còn $8$ thì đã lấy đi $15-8=7$ hình.
+
+  :::theorem Tìm số bị trừ, số trừ chưa biết
+  Số bị trừ bằng hiệu cộng số trừ.
+
+  Số trừ bằng số bị trừ trừ đi hiệu.
+
+  Nếu $\square-7=8$ thì $\square=8+7=15$. Nếu $15-\square=8$ thì $\square=15-8=7$.
+  :::
+
+[[P10·1f37]]
+Cách làm này đúng vì phép cộng và phép trừ "ngược nhau": cộng rồi trừ cùng một số thì về lại số ban đầu.
+
+## Ví dụ
+
+[[P11·77ad]]
+Ta bắt đầu với số hạng chưa biết ở vị trí đầu.
+
+  :::example Tìm $\square$, biết $\square+6=14$
+  **Lời giải.** $\square$ là số hạng chưa biết, nên ta lấy tổng trừ đi số hạng đã biết:
+  $$\square=14-6=8.$$
+  **Thử lại.** $8+6=14$. Đúng.
+
+  Vậy $\square=8$.
+  :::
+
+[[P12·df9b]]
+Số hạng chưa biết cũng có thể đứng ở vị trí thứ hai, cách làm vẫn như vậy.
+
+  :::example Tìm $\square$, biết $9+\square=17$
+  **Lời giải.** Lấy tổng trừ đi số hạng đã biết là $9$:
+  $$\square=17-9=8.$$
+  **Thử lại.** $9+8=17$. Đúng.
+
+  Vậy $\square=8$.
+  :::
+
+[[P13·345c]]
+Bây giờ ta tìm số bị trừ.
+
+  :::example Tìm $\square$, biết $\square-5=12$
+  **Lời giải.** $\square$ là số bị trừ, nên ta lấy hiệu cộng với số trừ:
+  $$\square=12+5=17.$$
+  **Thử lại.** $17-5=12$. Đúng.
+
+  Vậy $\square=17$.
+  :::
+
+[[P14·cefc]]
+Tiếp theo là số trừ chưa biết.
+
+  :::example Tìm $\square$, biết $20-\square=13$
+  **Lời giải.** $\square$ là số trừ, nên ta lấy số bị trừ trừ đi hiệu:
+  $$\square=20-13=7.$$
+  **Thử lại.** $20-7=13$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P15·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Số viên bi
+  Bình có một số viên bi. Bạn Nam cho Bình thêm $12$ viên, bây giờ Bình có $30$ viên. Hỏi lúc đầu Bình có bao nhiêu viên bi?
+
+  **Lời giải.** Gọi số bi lúc đầu là $\square$. Đề cho biết $\square+12=30$. Số hạng chưa biết bằng tổng trừ đi số hạng đã biết:
+  $$\square=30-12=18\ \text{(viên)}.$$
+  **Thử lại.** $18+12=30$. Đúng.
+
+  Vậy lúc đầu Bình có $18$ viên bi.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P16·034b]]
+- **Cộng thay vì trừ ở phép cộng.** Sai: $\square+6=14$ nên $\square=14+6=20$. Vì sao sai: $20+6=26$, không bằng $14$. Đúng: $\square=14-6=8$.
+- **Trừ thay vì cộng khi tìm số bị trừ.** Sai: $\square-5=12$ nên $\square=12-5=7$. Vì sao sai: $7-5=2$, không bằng $12$. Đúng: $\square=12+5=17$.
+- **Nhầm vị trí số trừ.** Sai: $20-\square=13$ nên $\square=20+13=33$. Vì sao sai: $20-33$ không làm được. Đúng: $\square=20-13=7$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số hạng | addend
+  - tổng | sum (total)
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - số chưa biết | missing number
+  - phép tính ngược | inverse operation
+  - thử lại | check the answer
+  :::
+
+## Tóm tắt
+
+[[P17·fa9c]]
+- Phép cộng: số hạng + số hạng = tổng. Phép trừ: số bị trừ − số trừ = hiệu.
+- Số hạng chưa biết = tổng − số hạng đã biết.
+- Số bị trừ chưa biết = hiệu + số trừ.
+- Số trừ chưa biết = số bị trừ − hiệu.
+- Luôn thử lại bằng cách đặt kết quả vào ô trống; ghi đơn vị khi giải bài toán có lời văn.
+
+## Luyện tập
+
+[[P18·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG ANH ########
+---
+title: Finding missing numbers in addition and subtraction
+description: Learn to find a missing addend, minuend or subtrahend with the inverse operation, then check your answer to be sure it is right.
+minutes: 15
+---
+
+  :::goals
+  - Name the parts of an addition and a subtraction.
+  - Find a missing addend, minuend or subtrahend with the inverse operation.
+  - Check the answer and solve word problems that ask for the starting number.
+  :::
+
+[[P1·4662]]
+Lan has some stickers in a box. Her mum gives her $7$ more, and now Lan has $15$ stickers. How many stickers were in the box at the start?
+
+[[P2·84c4]]
+We do not know the starting number, so we write $\square+7=15$. This lesson shows you how to find the number in the box for sure, without guessing.
+
+## Let's explore
+
+[[P3·4aec]]
+Remember the last lesson: in the addition $8+7=15$, the numbers $8$ and $7$ are called **addends** and $15$ is called the **sum**.
+
+[[P4·ce69]]
+Look again at Lan's story:
+
+[[P5·23f1]]
+- The box holds $15$ stickers after the new ones are added.
+- Mum gave $7$ stickers.
+- The stickers Lan had at the start are the rest, so we take $7$ away from $15$.
+
+[[P6·9586]]
+So $15-7=8$. Lan had $8$ stickers at the start.
+
+:::graph On the number line: going from 7 to 15 is 8 steps
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·6b65]]
+You see: if we know the sum and one addend, we subtract to find the other addend.
+
+  :::theorem Finding a missing addend
+  The missing addend is the sum minus the known addend.
+
+  If $\square+7=15$, then $\square=15-7=8$.
+  :::
+
+[[P8·a19e]]
+Now look at subtraction. In $15-7=8$, the number $15$ is the **minuend**, $7$ is the **subtrahend** and $8$ is the **difference**.
+
+[[P9·5d92]]
+Think of the story: there are $15$ stickers, we take away $7$, and $8$ are left. If we know $8$ are left and $7$ were taken away, then at the start there were $8+7=15$. If we know there were $15$ and $8$ are left, then $15-8=7$ were taken away.
+
+  :::theorem Finding a missing minuend or subtrahend
+  The minuend is the difference plus the subtrahend.
+
+  The subtrahend is the minuend minus the difference.
+
+  If $\square-7=8$, then $\square=8+7=15$. If $15-\square=8$, then $\square=15-8=7$.
+  :::
+
+[[P10·2a39]]
+This works because addition and subtraction undo each other: add a number and then subtract it, and you are back where you started.
+
+## Examples
+
+[[P11·7a50]]
+We start with the missing addend in the first place.
+
+  :::example Find $\square$ when $\square+6=14$
+  **Solution.** $\square$ is an addend, so we subtract the known addend from the sum:
+  $$\square=14-6=8.$$
+  **Check.** $8+6=14$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P12·5000]]
+The missing addend can also be in the second place. The method is the same.
+
+  :::example Find $\square$ when $9+\square=17$
+  **Solution.** Subtract the known addend, $9$, from the sum:
+  $$\square=17-9=8.$$
+  **Check.** $9+8=17$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P13·18cf]]
+Now we find a missing minuend.
+
+  :::example Find $\square$ when $\square-5=12$
+  **Solution.** $\square$ is the minuend, so we add the subtrahend to the difference:
+  $$\square=12+5=17.$$
+  **Check.** $17-5=12$. Correct.
+
+  So $\square=17$.
+  :::
+
+[[P14·822a]]
+Next, a missing subtrahend.
+
+  :::example Find $\square$ when $20-\square=13$
+  **Solution.** $\square$ is the subtrahend, so we subtract the difference from the minuend:
+  $$\square=20-13=7.$$
+  **Check.** $20-7=13$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P15·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Marbles
+  Binh has some marbles. Nam gives him $12$ more, and now Binh has $30$ marbles. How many marbles did Binh have at the start?
+
+  **Solution.** Let the starting number be $\square$. The story says $\square+12=30$. The missing addend is the sum minus the known addend:
+  $$\square=30-12=18\ \text{(marbles)}.$$
+  **Check.** $18+12=30$. Correct.
+
+  So Binh had $18$ marbles at the start.
+  :::
+
+:::warning Mistakes to watch out for
+[[P16·d6bd]]
+- **Adding instead of subtracting in an addition.** Wrong: $\square+6=14$ so $\square=14+6=20$. Why it is wrong: $20+6=26$, not $14$. Right: $\square=14-6=8$.
+- **Subtracting instead of adding for a minuend.** Wrong: $\square-5=12$ so $\square=12-5=7$. Why it is wrong: $7-5=2$, not $12$. Right: $\square=12+5=17$.
+- **Mixing up the subtrahend.** Wrong: $20-\square=13$ so $\square=20+13=33$. Why it is wrong: $20-33$ cannot be done here. Right: $\square=20-13=7$.
+:::
+
+## Key terms
+
+  :::terms
+  - addend | số hạng
+  - sum (total) | tổng
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - missing number | số chưa biết
+  - inverse operation | phép tính ngược
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P17·c0a0]]
+- Addition: addend + addend = sum. Subtraction: minuend − subtrahend = difference.
+- Missing addend = sum − known addend.
+- Missing minuend = difference + subtrahend.
+- Missing subtrahend = minuend − difference.
+- Always check by putting your answer in the box; write the unit in word problems.
+
+## Practice
+
+[[P18·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-multiply-divide – BẢN TIẾNG VIỆT ########
+---
+title: Tìm thành phần trong phép nhân, phép chia
+description: Em học cách tìm thừa số, số bị chia, số chia chưa biết bằng phép tính ngược và các bảng nhân, bảng chia, rồi thử lại kết quả.
+minutes: 15
+---
+
+  :::goals
+  - Gọi đúng tên các thành phần của phép nhân và phép chia.
+  - Tìm thừa số, số bị chia, số chia chưa biết bằng phép tính ngược.
+  - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số nhóm" hoặc "tìm số ban đầu".
+  :::
+
+[[P1·71a5]]
+Mỗi hộp có $6$ cây bút. Cô giáo có một số hộp như vậy, tất cả có $24$ cây bút. Hỏi cô giáo có bao nhiêu hộp bút?
+
+[[P2·d0c6]]
+Em chưa biết số hộp, nên ta viết $6\times\square=24$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn.
+
+## Cùng khám phá
+
+[[P3·7153]]
+Em nhớ lại bảng nhân $6$: $6\times4=24$. Trong phép nhân này, $6$ và $4$ là **thừa số**, $24$ là **tích**.
+
+[[P4·a831]]
+Từ $6\times4=24$ ta cũng có $24:6=4$ và $24:4=6$. Trong phép chia $24:6=4$, số $24$ là **số bị chia**, số $6$ là **số chia**, số $4$ là **thương**.
+
+[[P5·2755]]
+Với câu chuyện của cô giáo: tất cả $24$ cây, mỗi hộp $6$ cây, nên số hộp là $24:6=4$.
+
+  :::theorem Tìm thừa số chưa biết
+  Thừa số chưa biết bằng tích chia cho thừa số đã biết.
+
+  Nếu $6\times\square=24$ thì $\square=24:6=4$.
+  :::
+
+[[P6·96b0]]
+Bây giờ ta xem phép chia $24:6=4$ khi thiếu một thành phần.
+
+[[P7·85f0]]
+- Biết số chia $6$ và thương $4$: mỗi nhóm $6$, có $4$ nhóm, nên số bị chia là $4\times6=24$.
+- Biết số bị chia $24$ và thương $4$: chia $24$ thành $4$ nhóm bằng nhau, mỗi nhóm có $24:4=6$, nên số chia là $6$.
+
+  :::theorem Tìm số bị chia, số chia chưa biết
+  Số bị chia bằng thương nhân số chia.
+
+  Số chia bằng số bị chia chia cho thương.
+
+  Nếu $\square:6=4$ thì $\square=4\times6=24$. Nếu $24:\square=4$ thì $\square=24:4=6$.
+  :::
+
+[[P8·3510]]
+Cách làm này đúng vì phép nhân và phép chia "ngược nhau": nhân rồi chia cho cùng một số thì về lại số ban đầu.
+
+## Ví dụ
+
+[[P9·d261]]
+Ta bắt đầu với thừa số chưa biết ở vị trí đầu.
+
+  :::example Tìm $\square$, biết $\square\times7=35$
+  **Lời giải.** $\square$ là thừa số chưa biết, nên ta lấy tích chia cho thừa số đã biết:
+  $$\square=35:7=5.$$
+  **Thử lại.** $5\times7=35$. Đúng.
+
+  Vậy $\square=5$.
+  :::
+
+[[P10·98c6]]
+Thừa số chưa biết cũng có thể đứng ở vị trí thứ hai.
+
+  :::example Tìm $\square$, biết $8\times\square=56$
+  **Lời giải.** Lấy tích chia cho thừa số đã biết là $8$:
+  $$\square=56:8=7.$$
+  **Thử lại.** $8\times7=56$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P11·7e7b]]
+Bây giờ ta tìm số bị chia.
+
+  :::example Tìm $\square$, biết $\square:4=9$
+  **Lời giải.** $\square$ là số bị chia, nên ta lấy thương nhân số chia:
+  $$\square=9\times4=36.$$
+  **Thử lại.** $36:4=9$. Đúng.
+
+  Vậy $\square=36$.
+  :::
+
+[[P12·4827]]
+Tiếp theo là số chia chưa biết.
+
+  :::example Tìm $\square$, biết $42:\square=6$
+  **Lời giải.** $\square$ là số chia, nên ta lấy số bị chia chia cho thương:
+  $$\square=42:6=7.$$
+  **Thử lại.** $42:7=6$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P13·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Xếp hàng
+  Có $45$ học sinh xếp thành các hàng đều nhau, mỗi hàng $9$ em. Hỏi xếp được bao nhiêu hàng?
+
+  **Lời giải.** Gọi số hàng là $\square$. Đề cho biết $9\times\square=45$. Thừa số chưa biết bằng tích chia cho thừa số đã biết:
+  $$\square=45:9=5\ \text{(hàng)}.$$
+  **Thử lại.** $9\times5=45$. Đúng.
+
+  Vậy xếp được $5$ hàng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·b437]]
+- **Nhân thay vì chia khi tìm thừa số.** Sai: $\square\times7=35$ nên $\square=35\times7=245$. Vì sao sai: $245\times7$ lớn hơn $35$ rất nhiều. Đúng: $\square=35:7=5$.
+- **Chia thay vì nhân khi tìm số bị chia.** Sai: $\square:4=9$ nên $\square=9:4$. Vì sao sai: $9$ không chia hết cho $4$, và $9:4$ không phải số cần tìm. Đúng: $\square=9\times4=36$.
+- **Nhân khi tìm số chia.** Sai: $42:\square=6$ nên $\square=42\times6$. Vì sao sai: $42:252$ không bằng $6$. Đúng: $\square=42:6=7$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - thừa số | factor
+  - tích | product
+  - số bị chia | dividend
+  - số chia | divisor
+  - thương | quotient
+  - số chưa biết | missing number
+  - phép tính ngược | inverse operation
+  - thử lại | check the answer
+  :::
+
+## Tóm tắt
+
+[[P15·db69]]
+- Phép nhân: thừa số $\times$ thừa số $=$ tích. Phép chia: số bị chia $:$ số chia $=$ thương.
+- Thừa số chưa biết $=$ tích $:$ thừa số đã biết.
+- Số bị chia chưa biết $=$ thương $\times$ số chia.
+- Số chia chưa biết $=$ số bị chia $:$ thương.
+- Dùng bảng nhân, bảng chia để tính; luôn thử lại bằng cách đặt kết quả vào ô trống.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-multiply-divide – BẢN TIẾNG ANH ########
+---
+title: Finding missing numbers in multiplication and division
+description: Learn to find a missing factor, dividend or divisor with the inverse operation and the times tables, then check your answer.
+minutes: 15
+---
+
+  :::goals
+  - Name the parts of a multiplication and a division.
+  - Find a missing factor, dividend or divisor with the inverse operation.
+  - Check the answer and solve word problems that ask for the number of groups or the starting number.
+  :::
+
+[[P1·16a9]]
+Each box holds $6$ pens. A teacher has some such boxes, with $24$ pens altogether. How many boxes of pens does the teacher have?
+
+[[P2·2cc5]]
+We do not know the number of boxes, so we write $6\times\square=24$. This lesson shows you how to find the number in the box for sure.
+
+## Let's explore
+
+[[P3·81f6]]
+Remember the $6$ times table: $6\times4=24$. In this multiplication, $6$ and $4$ are **factors** and $24$ is the **product**.
+
+[[P4·3d64]]
+From $6\times4=24$ we also get $24\div6=4$ and $24\div4=6$. In the division $24\div6=4$, the number $24$ is the **dividend**, $6$ is the **divisor** and $4$ is the **quotient**.
+
+[[P5·2b02]]
+In the teacher's story: there are $24$ pens altogether and $6$ in each box, so the number of boxes is $24\div6=4$.
+
+  :::theorem Finding a missing factor
+  The missing factor is the product divided by the known factor.
+
+  If $6\times\square=24$, then $\square=24\div6=4$.
+  :::
+
+[[P6·db04]]
+Now look at the division $24\div6=4$ when one part is missing.
+
+[[P7·025f]]
+- We know the divisor $6$ and the quotient $4$: each group is $6$, there are $4$ groups, so the dividend is $4\times6=24$.
+- We know the dividend $24$ and the quotient $4$: split $24$ into $4$ equal groups, each group has $24\div4=6$, so the divisor is $6$.
+
+  :::theorem Finding a missing dividend or divisor
+  The dividend is the quotient times the divisor.
+
+  The divisor is the dividend divided by the quotient.
+
+  If $\square\div6=4$, then $\square=4\times6=24$. If $24\div\square=4$, then $\square=24\div4=6$.
+  :::
+
+[[P8·608f]]
+This works because multiplication and division undo each other: multiply by a number and then divide by it, and you are back where you started.
+
+## Examples
+
+[[P9·4b9d]]
+We start with the missing factor in the first place.
+
+  :::example Find $\square$ when $\square\times7=35$
+  **Solution.** $\square$ is a missing factor, so we divide the product by the known factor:
+  $$\square=35\div7=5.$$
+  **Check.** $5\times7=35$. Correct.
+
+  So $\square=5$.
+  :::
+
+[[P10·c6aa]]
+The missing factor can also be in the second place.
+
+  :::example Find $\square$ when $8\times\square=56$
+  **Solution.** Divide the product by the known factor, $8$:
+  $$\square=56\div8=7.$$
+  **Check.** $8\times7=56$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P11·c70d]]
+Now we find a missing dividend.
+
+  :::example Find $\square$ when $\square\div4=9$
+  **Solution.** $\square$ is the dividend, so we multiply the quotient by the divisor:
+  $$\square=9\times4=36.$$
+  **Check.** $36\div4=9$. Correct.
+
+  So $\square=36$.
+  :::
+
+[[P12·e410]]
+Next, a missing divisor.
+
+  :::example Find $\square$ when $42\div\square=6$
+  **Solution.** $\square$ is the divisor, so we divide the dividend by the quotient:
+  $$\square=42\div6=7.$$
+  **Check.** $42\div7=6$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P13·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Standing in rows
+  $45$ pupils stand in equal rows of $9$. How many rows are there?
+
+  **Solution.** Let the number of rows be $\square$. The story says $9\times\square=45$. The missing factor is the product divided by the known factor:
+  $$\square=45\div9=5\ \text{(rows)}.$$
+  **Check.** $9\times5=45$. Correct.
+
+  So there are $5$ rows.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·f2e4]]
+- **Multiplying instead of dividing for a factor.** Wrong: $\square\times7=35$ so $\square=35\times7=245$. Why it is wrong: $245\times7$ is far bigger than $35$. Right: $\square=35\div7=5$.
+- **Dividing instead of multiplying for a dividend.** Wrong: $\square\div4=9$ so $\square=9\div4$. Why it is wrong: $9$ does not divide by $4$ exactly, and $9\div4$ is not the number we want. Right: $\square=9\times4=36$.
+- **Multiplying for a divisor.** Wrong: $42\div\square=6$ so $\square=42\times6$. Why it is wrong: $42\div252$ does not equal $6$. Right: $\square=42\div6=7$.
+:::
+
+## Key terms
+
+  :::terms
+  - factor | thừa số
+  - product | tích
+  - dividend | số bị chia
+  - divisor | số chia
+  - quotient | thương
+  - missing number | số chưa biết
+  - inverse operation | phép tính ngược
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P15·8b7b]]
+- Multiplication: factor $\times$ factor $=$ product. Division: dividend $\div$ divisor $=$ quotient.
+- Missing factor $=$ product $\div$ known factor.
+- Missing dividend $=$ quotient $\times$ divisor.
+- Missing divisor $=$ dividend $\div$ quotient.
+- Use the times tables and division facts; always check by putting your answer in the box.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-2-digit-by-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Nhân số có hai chữ số với số có một chữ số
+description: Em học cách nhân số có hai chữ số với số có một chữ số, có nhớ và không nhớ, bằng cách tách số thành chục và đơn vị, rồi đặt tính.
+minutes: 15
+---
+
+  :::goals
+  - Nhân số có hai chữ số với số có một chữ số (không nhớ và có nhớ), tích không quá $100$.
+  - Đặt tính và tính đúng theo thứ tự: hàng đơn vị trước, hàng chục sau.
+  - Giải bài toán có lời văn bằng một phép nhân.
+  :::
+
+[[P1·8e44]]
+Mai có $4$ hộp bút chì, mỗi hộp có $12$ cây. Hỏi Mai có tất cả bao nhiêu cây bút chì?
+
+[[P2·c312]]
+Em chưa có bảng nhân $12$, nhưng em vẫn tính được. Bài này dạy em cách nhân một số có hai chữ số.
+
+## Cùng khám phá
+
+[[P3·1d2a]]
+Số $12$ gồm $1$ chục và $2$ đơn vị, tức là $12=10+2$. Mỗi hộp có $10+2$ cây, nên $4$ hộp có:
+
+[[P4·29d9]]
+- $10\times4=40$ cây (phần chục);
+- $2\times4=8$ cây (phần đơn vị);
+- $40+8=48$ cây.
+
+[[P5·6375]]
+Vậy $12\times4=48$. Em thấy không, ta nhân từng phần rồi cộng lại.
+
+[[P6·0b5f]]
+Khi viết gọn, ta **đặt tính** và nhân hàng đơn vị trước, rồi nhân hàng chục.
+
+  :::theorem Cách nhân số có hai chữ số với số có một chữ số
+  Muốn tính $24\times3$:
+  1. Nhân hàng đơn vị: $4\times3=12$. Viết $2$, nhớ $1$ (chục).
+  2. Nhân hàng chục: $2\times3=6$, cộng thêm $1$ nhớ: $6+1=7$. Viết $7$.
+  3. Kết quả: $24\times3=72$.
+
+  Nếu tích ở hàng đơn vị nhỏ hơn $10$ thì không cần nhớ.
+  :::
+
+[[P7·ad56]]
+Cách này đúng vì $24\times3=(20+4)\times3=60+12=72$. Số $1$ nhớ chính là $1$ chục trong $12$.
+
+## Ví dụ
+
+[[P8·e5d7]]
+Ta bắt đầu với một phép nhân không nhớ.
+
+  :::example Nhân không nhớ
+  Tính $12\times4$.
+
+  **Lời giải.** Nhân hàng đơn vị trước, rồi nhân hàng chục:
+  $$2\times4=8,\qquad 1\times4=4.$$
+
+  Viết $4$ ở hàng chục và $8$ ở hàng đơn vị. Vậy $12\times4=48$.
+  :::
+
+[[P9·66c9]]
+Bây giờ là phép nhân có nhớ. Em đặt tính cho dễ nhìn.
+
+  :::example Nhân có nhớ
+  Tính $24\times3$.
+
+  **Lời giải.** Đặt tính rồi nhân hàng đơn vị trước: $4\times3=12$, viết $2$ nhớ $1$. Sau đó $2\times3=6$, thêm $1$ nhớ được $7$:
+  $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
+
+  Vậy $24\times3=72$.
+  :::
+
+[[P10·ea8e]]
+Có lúc tích ở hàng đơn vị là một số tròn chục hoặc có chữ số $5$. Em làm tương tự.
+
+  :::example Một phép nhân có nhớ khác
+  Tính $15\times5$.
+
+  **Lời giải.** Hàng đơn vị: $5\times5=25$, viết $5$ nhớ $2$. Hàng chục: $1\times5=5$, thêm $2$ nhớ được $7$:
+  $$15\times5=75.$$
+
+  Vậy $15\times5=75$.
+  :::
+
+[[P11·fe29]]
+Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+
+  :::example Hộp bút màu
+  Mỗi hộp có $16$ bút màu. Hỏi $5$ hộp như thế có bao nhiêu bút màu?
+
+  **Lời giải.** Có $5$ hộp, mỗi hộp $16$ bút, nên ta làm phép nhân. Hàng đơn vị: $6\times5=30$, viết $0$ nhớ $3$. Hàng chục: $1\times5=5$, thêm $3$ nhớ được $8$:
+  $$16\times5=80\ \text{(bút)}.$$
+
+  Vậy $5$ hộp có $80$ bút màu.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·95cb]]
+- **Quên số nhớ.** Sai: $24\times3=62$. Vì sao sai: em viết $2$ rồi nhân $2\times3=6$ mà quên cộng $1$ nhớ. Đúng: $24\times3=72$.
+- **Cộng số nhớ vào hàng đơn vị.** Sai: $15\times5=70+5$ rồi viết $75$ nhưng không hiểu, hoặc cộng nhớ vào $5$. Vì sao sai: số nhớ là chục, phải cộng vào hàng chục. Đúng: $1\times5+2=7$ chục.
+- **Quên đơn vị.** Sai: "Đáp số: $80$". Đúng: "Đáp số: $80$ bút".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép nhân | multiplication
+  - thừa số | factor
+  - tích | product
+  - hàng đơn vị | ones
+  - hàng chục | tens
+  - nhớ | carry
+  - đặt tính | set out in columns
+  :::
+
+## Tóm tắt
+
+[[P13·84b3]]
+- Số có hai chữ số gồm chục và đơn vị: $24=20+4$.
+- Nhân hàng đơn vị trước, rồi nhân hàng chục.
+- Nếu tích hàng đơn vị từ $10$ trở lên thì viết chữ số hàng đơn vị và nhớ sang hàng chục.
+- Bài toán nhiều nhóm bằng nhau dùng phép nhân; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-2-digit-by-1-digit – BẢN TIẾNG ANH ########
+---
+title: Multiplying a two-digit number by a one-digit number
+description: Learn to multiply a two-digit number by a one-digit number, with and without carrying, by splitting into tens and ones and then setting it out in columns.
+minutes: 15
+---
+
+  :::goals
+  - Multiply a two-digit number by a one-digit number (with and without carrying), with a product of at most $100$.
+  - Set out the working in columns: ones first, then tens.
+  - Solve a word problem with one multiplication.
+  :::
+
+[[P1·2be5]]
+Mai has $4$ boxes of pencils, with $12$ pencils in each box. How many pencils does Mai have altogether?
+
+[[P2·5af9]]
+You do not know a $12$ times table, but you can still work it out. This lesson shows you how to multiply a two-digit number.
+
+## Let's explore
+
+[[P3·746b]]
+The number $12$ is $1$ ten and $2$ ones, so $12=10+2$. Each box has $10+2$ pencils, so $4$ boxes have:
+
+[[P4·90a4]]
+- $10\times4=40$ pencils (the tens part);
+- $2\times4=8$ pencils (the ones part);
+- $40+8=48$ pencils.
+
+[[P5·fa47]]
+So $12\times4=48$. You see: we multiply each part and then add.
+
+[[P6·7fbd]]
+To write this shortly, we **set it out in columns** and multiply the ones first, then the tens.
+
+  :::theorem How to multiply a two-digit number by a one-digit number
+  To work out $24\times3$:
+  1. Multiply the ones: $4\times3=12$. Write $2$ and carry $1$ (ten).
+  2. Multiply the tens: $2\times3=6$, then add the carried $1$: $6+1=7$. Write $7$.
+  3. The result is $24\times3=72$.
+
+  If the product of the ones is less than $10$, there is nothing to carry.
+  :::
+
+[[P7·cfa8]]
+This works because $24\times3=(20+4)\times3=60+12=72$. The carried $1$ is the $1$ ten in $12$.
+
+## Examples
+
+[[P8·985e]]
+We start with a multiplication where nothing is carried.
+
+  :::example No carrying
+  Work out $12\times4$.
+
+  **Solution.** Multiply the ones first, then the tens:
+  $$2\times4=8,\qquad 1\times4=4.$$
+
+  Write $4$ in the tens place and $8$ in the ones place. So $12\times4=48$.
+  :::
+
+[[P9·fb60]]
+Now a multiplication with carrying. Setting it out in columns makes it easier to see.
+
+  :::example With carrying
+  Work out $24\times3$.
+
+  **Solution.** Set it out in columns and multiply the ones first: $4\times3=12$, write $2$ and carry $1$. Then $2\times3=6$, and adding the carried $1$ gives $7$:
+  $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
+
+  So $24\times3=72$.
+  :::
+
+[[P10·5433]]
+Sometimes the product of the ones ends in $5$ or $0$. We work in just the same way.
+
+  :::example Another multiplication with carrying
+  Work out $15\times5$.
+
+  **Solution.** Ones: $5\times5=25$, write $5$ and carry $2$. Tens: $1\times5=5$, and adding the carried $2$ gives $7$:
+  $$15\times5=75.$$
+
+  So $15\times5=75$.
+  :::
+
+[[P11·39b7]]
+Finally, use multiplication to solve a problem from everyday life.
+
+  :::example Boxes of crayons
+  Each box has $16$ crayons. How many crayons are in $5$ such boxes?
+
+  **Solution.** There are $5$ boxes with $16$ crayons each, so we multiply. Ones: $6\times5=30$, write $0$ and carry $3$. Tens: $1\times5=5$, and adding the carried $3$ gives $8$:
+  $$16\times5=80\ \text{(crayons)}.$$
+
+  So $5$ boxes have $80$ crayons.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·2887]]
+- **Forgetting the carry.** Wrong: $24\times3=62$. Why it is wrong: you wrote $2$, then worked out $2\times3=6$ and forgot to add the carried $1$. Right: $24\times3=72$.
+- **Adding the carry to the ones.** Wrong: adding the carried ten to the $5$ in the ones place. Why it is wrong: the carry is tens, so it must be added to the tens. Right: $1\times5+2=7$ tens.
+- **No unit.** Wrong: "Answer: $80$". Right: "Answer: $80$ crayons".
+:::
+
+## Key terms
+
+  :::terms
+  - multiplication | phép nhân
+  - factor | thừa số
+  - product | tích
+  - ones | hàng đơn vị
+  - tens | hàng chục
+  - carry | nhớ
+  - set out in columns | đặt tính
+  :::
+
+## Summary
+
+[[P13·b569]]
+- A two-digit number is tens and ones: $24=20+4$.
+- Multiply the ones first, then the tens.
+- If the product of the ones is $10$ or more, write the ones digit and carry the tens.
+- A problem with several equal groups needs multiplication; remember the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Nhân số có bốn chữ số với số có một chữ số
+description: Em học cách đặt tính và nhân số có bốn chữ số với số có một chữ số, có nhớ và không nhớ, rồi giải bài toán có lời văn.
+minutes: 15
+---
+
+  :::goals
+  - Đặt tính và nhân số có bốn chữ số với số có một chữ số (không nhớ).
+  - Nhân có nhớ: biết viết một chữ số và nhớ sang hàng bên trái.
+  - Kiểm tra kết quả bằng cách ước lượng.
+  - Giải bài toán có lời văn bằng một phép nhân.
+  :::
+
+[[P1·cd64]]
+Một thùng có $1\,213$ quyển vở. Hỏi $3$ thùng như thế có bao nhiêu quyển vở?
+
+[[P2·ca9d]]
+Em đã biết bảng nhân và cách đặt tính nhân với số có ít chữ số hơn. Bài này mở rộng cách làm ấy cho số có bốn chữ số.
+
+## Cùng khám phá
+
+[[P3·34b6]]
+Số $1\,213$ gồm $1$ nghìn, $2$ trăm, $1$ chục và $3$ đơn vị. Ta nhân từng hàng với $3$ rồi ghép lại.
+
+| | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|
+| Số $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Nhân với $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
+
+[[P4·cae1]]
+Ghép lại, em được $3$ nghìn, $6$ trăm, $3$ chục và $9$ đơn vị, tức là $3\,639$. Vậy $3$ thùng có $3\,639$ quyển vở.
+
+[[P5·a18e]]
+Thay vì kẻ bảng, em đặt tính như sau và nhân lần lượt từ phải sang trái:
+
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
+
+  :::theorem Cách nhân số có bốn chữ số với số có một chữ số
+  1. Viết số có một chữ số dưới số có bốn chữ số, thẳng hàng đơn vị.
+  2. Nhân lần lượt từ phải sang trái: hàng đơn vị, hàng chục, hàng trăm, hàng nghìn.
+  3. Nếu tích của một hàng có hai chữ số, viết chữ số hàng đơn vị và **nhớ** chữ số hàng chục sang hàng bên trái. Ở hàng đó, nhân xong rồi **cộng thêm số nhớ**.
+  :::
+
+[[P6·13f0]]
+Vì sao lại nhớ? Ví dụ $15$ đơn vị là $1$ chục và $5$ đơn vị. Em viết $5$ đơn vị ở hàng đơn vị, còn $1$ chục phải để lại cho hàng chục.
+
+## Ví dụ
+
+[[P7·6407]]
+Ta bắt đầu với phép nhân không phải nhớ.
+
+  :::example Nhân không nhớ
+  Tính $2\,121\times4$.
+
+  **Lời giải.** Em đặt tính rồi nhân từng chữ số với $4$, từ phải sang trái:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Hàng đơn vị: $1\times4=4$, viết $4$.
+  - Hàng chục: $2\times4=8$, viết $8$.
+  - Hàng trăm: $1\times4=4$, viết $4$.
+  - Hàng nghìn: $2\times4=8$, viết $8$.
+
+  Vậy $2\,121\times4=8\,484$.
+  :::
+
+[[P8·9cff]]
+Ví dụ sau làm giống hệt, chỉ đổi số.
+
+  :::example Nhân không nhớ, số khác
+  Tính $3\,102\times3$.
+
+  **Lời giải.** Mỗi hàng nhân với $3$ đều nhỏ hơn $10$, nên không cần nhớ:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Hàng đơn vị: $2\times3=6$. Hàng chục: $0\times3=0$. Hàng trăm: $1\times3=3$. Hàng nghìn: $3\times3=9$.
+
+  Vậy $3\,102\times3=9\,306$.
+  :::
+
+[[P9·c317]]
+Bây giờ có hàng cho tích từ $10$ trở lên, em phải nhớ.
+
+  :::example Nhân có nhớ
+  Tính $1\,425\times3$.
+
+  **Lời giải.** Em nhân từng hàng và nhớ khi tích có hai chữ số:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Hàng đơn vị: $5\times3=15$, viết $5$ nhớ $1$.
+  - Hàng chục: $2\times3=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng trăm: $4\times3=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $1\times3=3$, thêm $1$ được $4$, viết $4$.
+
+  Vậy $1\,425\times3=4\,275$.
+
+  **Kiểm tra.** $1\,425$ gần $1\,400$, mà $1\,400\times3=4\,200$. Kết quả $4\,275$ gần $4\,200$, hợp lí.
+  :::
+
+[[P10·254a]]
+Khi gặp chữ số $0$, em vẫn phải cộng số nhớ.
+
+  :::example Nhân có chữ số 0 và có nhớ
+  Tính $2\,308\times4$.
+
+  **Lời giải.** Hàng chục có chữ số $0$, nhưng em vẫn cộng số nhớ từ hàng đơn vị:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Hàng đơn vị: $8\times4=32$, viết $2$ nhớ $3$.
+  - Hàng chục: $0\times4=0$, thêm $3$ được $3$, viết $3$.
+  - Hàng trăm: $3\times4=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $2\times4=8$, thêm $1$ được $9$, viết $9$.
+
+  Vậy $2\,308\times4=9\,232$.
+
+  **Kiểm tra.** $2\,300\times4=9\,200$, gần $9\,232$. Hợp lí.
+  :::
+
+[[P11·fe29]]
+Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+
+  :::example Xếp hộp bút
+  Một kho có $6$ thùng, mỗi thùng đựng $1\,125$ cái bút. Hỏi kho có tất cả bao nhiêu cái bút?
+
+  **Lời giải.** Mỗi thùng có số bút bằng nhau, nên em lấy số bút của một thùng nhân với số thùng:
+  $$1\,125\times6=6\,750\ \text{(cái)}.$$
+  - Hàng đơn vị: $5\times6=30$, viết $0$ nhớ $3$.
+  - Hàng chục: $2\times6=12$, thêm $3$ được $15$, viết $5$ nhớ $1$.
+  - Hàng trăm: $1\times6=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng nghìn: $1\times6=6$, viết $6$.
+
+  Vậy kho có $6\,750$ cái bút.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·85ba]]
+- **Quên cộng số nhớ.** Sai: $1\,425\times3=4\,265$. Vì sao sai: ở hàng chục, em quên cộng $1$ nhớ từ hàng đơn vị. Đúng: $2\times3=6$, thêm $1$ được $7$, nên kết quả là $4\,275$.
+- **Gặp chữ số 0 là bỏ qua số nhớ.** Sai: $2\,308\times4=9\,202$. Vì sao sai: $0\times4=0$ nhưng còn phải cộng $3$ nhớ nên hàng chục là $3$. Đúng: $9\,232$.
+- **Quên đơn vị trong bài toán có lời văn.** Sai: "Đáp số: $6\,750$". Đúng: "Đáp số: $6\,750$ cái bút".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép nhân | multiplication
+  - thừa số | factor
+  - tích | product
+  - đặt tính | set out in columns
+  - nhân có nhớ | multiplication with regrouping
+  - số nhớ | carried digit
+  - hàng nghìn | thousands
+  - hàng trăm | hundreds
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  :::
+
+## Tóm tắt
+
+[[P13·0f65]]
+- Đặt tính thẳng hàng, nhân từng chữ số từ phải sang trái: đơn vị, chục, trăm, nghìn.
+- Tích của một hàng có hai chữ số: viết hàng đơn vị, nhớ hàng chục sang hàng bên trái.
+- Ở hàng tiếp theo, nhân xong rồi cộng thêm số nhớ, kể cả khi chữ số đó là $0$.
+- Kiểm tra bằng cách làm tròn số rồi ước lượng, và nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG ANH ########
+---
+title: Multiplying a four-digit number by a one-digit number
+description: Learn to set out and multiply a four-digit number by a one-digit number, with and without regrouping, then solve word problems.
+minutes: 15
+---
+
+  :::goals
+  - Set out and multiply a four-digit number by a one-digit number (no regrouping).
+  - Multiply with regrouping: write one digit and carry to the place on the left.
+  - Check the answer by estimating.
+  - Solve a word problem with one multiplication.
+  :::
+
+[[P1·a2e2]]
+A box holds $1\,213$ exercise books. How many exercise books are there in $3$ such boxes?
+
+[[P2·9a41]]
+You already know the times tables and how to multiply smaller numbers in columns. This lesson takes the same method to four-digit numbers.
+
+## Let's explore
+
+[[P3·486c]]
+The number $1\,213$ is $1$ thousand, $2$ hundreds, $1$ ten and $3$ ones. We multiply each place by $3$ and put them back together.
+
+| | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|
+| The number $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Times $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
+
+[[P4·d381]]
+Putting them together gives $3$ thousands, $6$ hundreds, $3$ tens and $9$ ones, which is $3\,639$. So $3$ boxes hold $3\,639$ exercise books.
+
+[[P5·9961]]
+Instead of drawing a table, you set out the multiplication like this and multiply from right to left:
+
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
+
+  :::theorem How to multiply a four-digit number by a one-digit number
+  1. Write the one-digit number under the four-digit number, lined up with the ones.
+  2. Multiply from right to left: ones, tens, hundreds, thousands.
+  3. If the product in a place has two digits, write the ones digit and **carry** the tens digit to the place on the left. In that place, multiply first and then **add the carried digit**.
+  :::
+
+[[P6·5bad]]
+Why do we carry? For example, $15$ ones are $1$ ten and $5$ ones. You write the $5$ ones in the ones place, and the $1$ ten must go to the tens place.
+
+## Examples
+
+[[P7·5110]]
+We start with a multiplication that needs no carrying.
+
+  :::example Multiplying without regrouping
+  Work out $2\,121\times4$.
+
+  **Solution.** Set out the multiplication and multiply each digit by $4$, from right to left:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Ones: $1\times4=4$, write $4$.
+  - Tens: $2\times4=8$, write $8$.
+  - Hundreds: $1\times4=4$, write $4$.
+  - Thousands: $2\times4=8$, write $8$.
+
+  So $2\,121\times4=8\,484$.
+  :::
+
+[[P8·4ac4]]
+The next example works in exactly the same way, with different numbers.
+
+  :::example Without regrouping, different numbers
+  Work out $3\,102\times3$.
+
+  **Solution.** Each place times $3$ is less than $10$, so there is nothing to carry:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Ones: $2\times3=6$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $3\times3=9$.
+
+  So $3\,102\times3=9\,306$.
+  :::
+
+[[P9·7cc4]]
+Now some places give a product of $10$ or more, so you must carry.
+
+  :::example Multiplying with regrouping
+  Work out $1\,425\times3$.
+
+  **Solution.** Multiply each place and carry when the product has two digits:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Ones: $5\times3=15$, write $5$ carry $1$.
+  - Tens: $2\times3=6$, add $1$ to get $7$, write $7$.
+  - Hundreds: $4\times3=12$, write $2$ carry $1$.
+  - Thousands: $1\times3=3$, add $1$ to get $4$, write $4$.
+
+  So $1\,425\times3=4\,275$.
+
+  **Check.** $1\,425$ is close to $1\,400$, and $1\,400\times3=4\,200$. The answer $4\,275$ is close to $4\,200$, so it makes sense.
+  :::
+
+[[P10·994a]]
+When you meet a $0$, you still add the carried digit.
+
+  :::example A zero digit and regrouping
+  Work out $2\,308\times4$.
+
+  **Solution.** The tens digit is $0$, but you still add the digit carried from the ones:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Ones: $8\times4=32$, write $2$ carry $3$.
+  - Tens: $0\times4=0$, add $3$ to get $3$, write $3$.
+  - Hundreds: $3\times4=12$, write $2$ carry $1$.
+  - Thousands: $2\times4=8$, add $1$ to get $9$, write $9$.
+
+  So $2\,308\times4=9\,232$.
+
+  **Check.** $2\,300\times4=9\,200$, close to $9\,232$. It makes sense.
+  :::
+
+[[P11·6db5]]
+Last, use multiplication to solve a problem from everyday life.
+
+  :::example Boxes of pens
+  A storeroom has $6$ boxes, and each box holds $1\,125$ pens. How many pens are in the storeroom altogether?
+
+  **Solution.** Every box holds the same number of pens, so multiply the pens in one box by the number of boxes:
+  $$1\,125\times6=6\,750\ \text{(pens)}.$$
+  - Ones: $5\times6=30$, write $0$ carry $3$.
+  - Tens: $2\times6=12$, add $3$ to get $15$, write $5$ carry $1$.
+  - Hundreds: $1\times6=6$, add $1$ to get $7$, write $7$.
+  - Thousands: $1\times6=6$, write $6$.
+
+  So the storeroom has $6\,750$ pens.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·9315]]
+- **Forgetting to add the carried digit.** Wrong: $1\,425\times3=4\,265$. Why it is wrong: in the tens you forgot to add the $1$ carried from the ones. Right: $2\times3=6$, add $1$ to get $7$, so the answer is $4\,275$.
+- **Dropping the carried digit at a zero.** Wrong: $2\,308\times4=9\,202$. Why it is wrong: $0\times4=0$, but you still add the carried $3$, so the tens digit is $3$. Right: $9\,232$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $6\,750$". Right: "Answer: $6\,750$ pens".
+:::
+
+## Key terms
+
+  :::terms
+  - multiplication | phép nhân
+  - factor | thừa số
+  - product | tích
+  - set out in columns | đặt tính
+  - multiplication with regrouping | nhân có nhớ
+  - carried digit | số nhớ
+  - thousands | hàng nghìn
+  - hundreds | hàng trăm
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  :::
+
+## Summary
+
+[[P13·8189]]
+- Line up the places and multiply each digit from right to left: ones, tens, hundreds, thousands.
+- If the product in a place has two digits, write the ones digit and carry the tens digit to the place on the left.
+- In the next place, multiply first and then add the carried digit, even when the digit is $0$.
+- Check by rounding and estimating, and remember to write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

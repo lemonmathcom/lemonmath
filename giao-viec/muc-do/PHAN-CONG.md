@@ -30,3 +30,5 @@ Tạo bằng `python3 tools/qa/mucdo.py pack`. Tổng 3490 câu chưa gắn mứ
 | MD-24 | hanibi108 | 161 | M432–M454 | Ôn thi IB AA → Ôn thi IGCSE | chưa |
 
 Cách giao, cách nộp: xem HUONG-DAN.md trong thư mục này.
+
+Từ 19/11/2026 các gói này được chép vào thư mục từng tài khoản trong `giao-viec/dot3/` (file số 01, 02 của mỗi tài khoản, tên `<tài khoản>-0N-MD.txt`); kết quả nộp về `<tài khoản>-0N-MD-ketqua.txt`.

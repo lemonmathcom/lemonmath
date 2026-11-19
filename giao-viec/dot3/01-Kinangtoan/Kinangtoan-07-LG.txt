@@ -1,0 +1,825 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-07-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-07-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Kinangtoan-07-LG
+Người làm: tài khoản Kinangtoan. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Kinangtoan-07-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Kinangtoan-07-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g1/more-fewer-same (8 bài tập)
+- g1/number-bonds (8 bài tập)
+- g1/numbers-0-to-5 (8 bài tập)
+- g1/numbers-6-to-10 (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g1/more-fewer-same
+Bài học: Nhiều hơn, ít hơn, bằng nhau / More, fewer, the same
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Có $3$ cái cốc và $4$ cái thìa. Nhóm nào nhiều hơn?
+
+[LỜI GIẢI CŨ – VI]
+Hết $3$ cốc thì còn thừa $1$ thìa.
+
+**Đáp số.** Thìa nhiều hơn cốc.
+
+[ĐỀ – EN]
+There are $3$ cups and $4$ spoons. Which group has more?
+
+[LỜI GIẢI CŨ – EN]
+When the $3$ cups are used up, $1$ spoon is left over.
+
+**Answer.** There are more spoons than cups.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Có $5$ bạn và $5$ chiếc mũ. Mỗi bạn đội một chiếc mũ. Hai nhóm thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Không còn bạn hay mũ nào thừa.
+
+**Đáp số.** Số bạn bằng số mũ.
+
+[ĐỀ – EN]
+There are $5$ children and $5$ hats. Each child wears one hat. What can you say about the two groups?
+
+[LỜI GIẢI CŨ – EN]
+No child and no hat is left over.
+
+**Answer.** The number of children is the same as the number of hats.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. a) Điền số: $6, 7, \square, 9, 10$. b) Có $7$ con cá và $9$ con tôm. Nhóm nào ít hơn?
+
+[LỜI GIẢI CŨ – VI]
+a) Sau $7$ là $8$. b) Hết $7$ con cá thì còn thừa $2$ con tôm, nên cá hết trước.
+
+**Đáp số.** a) $8$. b) Cá ít hơn tôm.
+
+[ĐỀ – EN]
+Remember the last lesson. a) Fill in the box: $6, 7, \square, 9, 10$. b) There are $7$ fish and $9$ prawns. Which group has fewer?
+
+[LỜI GIẢI CŨ – EN]
+a) After $7$ comes $8$. b) When the $7$ fish are used up, $2$ prawns are left over, so the fish ran out first.
+
+**Answer.** a) $8$. b) There are fewer fish than prawns.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Có $6$ con chim và $4$ cái tổ. Mỗi con chim vào một tổ. Còn con chim nào chưa có tổ không? Có mấy con?
+
+[LỜI GIẢI CŨ – VI]
+Hết $4$ tổ thì còn thừa $2$ con chim.
+
+**Đáp số.** Còn $2$ con chim chưa có tổ.
+
+[ĐỀ – EN]
+There are $6$ birds and $4$ nests. Each bird goes into one nest. Is any bird without a nest? How many?
+
+[LỜI GIẢI CŨ – EN]
+When the $4$ nests are used up, $2$ birds are left over.
+
+**Answer.** $2$ birds have no nest.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hộp to có $3$ viên bi, hộp nhỏ có $5$ viên bi. Bình nói: "Hộp to nhiều bi hơn." Bình nói đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Hết $3$ viên bi hộp to thì còn thừa $2$ viên bi hộp nhỏ. Hộp nhỏ nhiều bi hơn.
+
+**Đáp số.** Sai. Hộp nhỏ nhiều bi hơn.
+
+[ĐỀ – EN]
+A big box has $3$ marbles and a small box has $5$ marbles. Binh says: "The big box has more marbles." Is Binh right? Why?
+
+[LỜI GIẢI CŨ – EN]
+When the $3$ marbles of the big box are used up, $2$ marbles of the small box are left over. The small box has more.
+
+**Answer.** No. The small box has more marbles.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan ghép $4$ cái bát với $4$ cái thìa rồi nói: "Bát nhiều hơn thìa." Lan sai ở đâu? Nói đúng như thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Ghép $4$ bát với $4$ thìa thì không thừa gì. Hai nhóm bằng nhau.
+
+**Đáp số.** Số bát bằng số thìa.
+
+[ĐỀ – EN]
+Lan matches $4$ bowls with $4$ spoons and says: "There are more bowls than spoons." Where did Lan go wrong? What should she say?
+
+[LỜI GIẢI CŨ – EN]
+Matching $4$ bowls with $4$ spoons leaves nothing over. The two groups are the same.
+
+**Answer.** The number of bowls is the same as the number of spoons.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bảng cho biết số kẹo của ba bạn:
+
+| Bạn | Mai | Nam | Hà |
+|---|---|---|---|
+| Số kẹo | $5$ | $7$ | $5$ |
+
+a) Ai có kẹo nhiều hơn Mai?
+b) Hai bạn nào có số kẹo bằng nhau?
+
+[LỜI GIẢI CŨ – VI]
+a) Nam có $7$ kẹo, hơn Mai $2$ kẹo. b) Mai và Hà đều có $5$ kẹo.
+
+**Đáp số.** a) Nam. b) Mai và Hà.
+
+[ĐỀ – EN]
+The table shows how many sweets three children have:
+
+| Child | Mai | Nam | Ha |
+|---|---|---|---|
+| Sweets | $5$ | $7$ | $5$ |
+
+a) Who has more sweets than Mai?
+b) Which two children have the same number of sweets?
+
+[LỜI GIẢI CŨ – EN]
+a) Nam has $7$ sweets, which is $2$ more than Mai. b) Mai and Ha both have $5$ sweets.
+
+**Answer.** a) Nam. b) Mai and Ha.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nhóm A có $6$ hình tròn, nhóm B có $9$ hình tròn. Cần vẽ thêm mấy hình tròn vào nhóm A để hai nhóm bằng nhau?
+
+![Khung A có sáu hình tròn và khung B có chín hình tròn](/assets/img/g1/g1-more-fewer-same-02.svg)
+
+[LỜI GIẢI CŨ – VI]
+Hết $6$ hình của A thì còn thừa $3$ hình của B. Vẽ thêm $3$ hình vào A.
+
+**Kiểm tra.** A có $6$ và $3$ hình mới, ghép hết $9$ hình của B. Đúng.
+
+**Đáp số.** $3$ hình tròn.
+
+[ĐỀ – EN]
+Group A has $6$ circles and group B has $9$ circles. How many circles must you draw in group A to make the two groups the same?
+
+![Frame A has six circles and frame B has nine circles](/assets/img/g1/g1-more-fewer-same-02.svg)
+
+[LỜI GIẢI CŨ – EN]
+When the $6$ circles of A are used up, $3$ circles of B are left over. Draw $3$ more circles in A.
+
+**Check.** A now has $6$ and $3$ new circles, which match all $9$ circles of B. Correct.
+
+**Answer.** $3$ circles.
+
+
+######################################################################
+@@@ g1/number-bonds
+Bài học: Mấy và mấy / Number bonds
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$3$ gồm $1$ và $\square$. Tìm số còn thiếu.
+
+[LỜI GIẢI CŨ – VI]
+Đếm từ $1$ lên $3$: "hai, ba". Có $2$ số.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+$3$ is made of $1$ and $\square$. Find the missing number.
+
+[LỜI GIẢI CŨ – EN]
+Count from $1$ to $3$: "two, three". That is $2$ numbers.
+
+**Answer.** $2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$5$ gồm $4$ và $\square$. Tìm số còn thiếu.
+
+[LỜI GIẢI CŨ – VI]
+Đếm từ $4$ lên $5$: "năm". Có $1$ số.
+
+**Đáp số.** $1$.
+
+[ĐỀ – EN]
+$5$ is made of $4$ and $\square$. Find the missing number.
+
+[LỜI GIẢI CŨ – EN]
+Count from $4$ to $5$: "five". That is $1$ number.
+
+**Answer.** $1$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. a) Điền dấu $>$, $<$ hoặc $=$: $6 \;\square\; 8$. b) $6$ gồm $2$ và $\square$.
+
+[LỜI GIẢI CŨ – VI]
+a) $6$ đếm trước $8$ nên $6<8$. b) Đếm từ $2$ lên $6$: "ba, bốn, năm, sáu", có $4$ số.
+
+**Đáp số.** a) $6<8$. b) $4$.
+
+[ĐỀ – EN]
+Remember the last lesson. a) Write $>$, $<$ or $=$: $6 \;\square\; 8$. b) $6$ is made of $2$ and $\square$.
+
+[LỜI GIẢI CŨ – EN]
+a) $6$ is counted before $8$, so $6<8$. b) Count from $2$ to $6$: "three, four, five, six", which is $4$ numbers.
+
+**Answer.** a) $6<8$. b) $4$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+a) $7$ gồm $5$ và $\square$.
+b) $7$ gồm $3$ và $\square$.
+
+[LỜI GIẢI CŨ – VI]
+a) Đếm từ $5$ lên $7$: "sáu, bảy", có $2$ số. b) Đếm từ $3$ lên $7$: "bốn, năm, sáu, bảy", có $4$ số.
+
+**Đáp số.** a) $2$. b) $4$.
+
+[ĐỀ – EN]
+a) $7$ is made of $5$ and $\square$.
+b) $7$ is made of $3$ and $\square$.
+
+[LỜI GIẢI CŨ – EN]
+a) Count from $5$ to $7$: "six, seven", which is $2$ numbers. b) Count from $3$ to $7$: "four, five, six, seven", which is $4$ numbers.
+
+**Answer.** a) $2$. b) $4$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hà nói: "$6$ gồm $4$ và $3$." Hà nói đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Từ $4$ đếm tiếp $3$ số thì tới bảy, không phải sáu. Hà nói sai. Từ $4$ lên $6$ chỉ cần $2$ số.
+
+**Đáp số.** Sai. $6$ gồm $4$ và $2$.
+
+[ĐỀ – EN]
+Ha says: "$6$ is made of $4$ and $3$." Is Ha right? Why?
+
+[LỜI GIẢI CŨ – EN]
+From $4$, counting on $3$ numbers reaches seven, not six. Ha is wrong. From $4$ to $6$ you count only $2$ numbers.
+
+**Answer.** No. $6$ is made of $4$ and $2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam tách số $8$ thành $5$ và $2$. Nam sai ở đâu? Tách đúng như thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Từ $5$ lên $8$: "sáu, bảy, tám", cần $3$ số. Nam chọn $2$ là sai.
+
+**Đáp số.** $8$ gồm $5$ và $3$.
+
+[ĐỀ – EN]
+Nam splits the number $8$ into $5$ and $2$. Where did Nam go wrong? What is the right split?
+
+[LỜI GIẢI CŨ – EN]
+From $5$ to $8$: "six, seven, eight", so $3$ numbers are needed. Nam's $2$ is wrong.
+
+**Answer.** $8$ is made of $5$ and $3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Có $9$ quả bóng chia vào hai túi. Túi đỏ có $6$ quả bóng. Túi xanh có mấy quả bóng?
+
+[LỜI GIẢI CŨ – VI]
+Đếm từ $6$ lên $9$: "bảy, tám, chín", có $3$ số.
+
+**Đáp số.** Túi xanh có $3$ quả bóng.
+
+[ĐỀ – EN]
+$9$ balloons are shared between two bags. The red bag has $6$ balloons. How many balloons are in the blue bag?
+
+[LỜI GIẢI CŨ – EN]
+Count from $6$ to $9$: "seven, eight, nine", which is $3$ numbers.
+
+**Answer.** The blue bag has $3$ balloons.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Viết tất cả các cách tách số $4$ thành hai số, cả hai số đều lớn hơn $0$ (đổi chỗ tính là cách khác).
+
+[LỜI GIẢI CŨ – VI]
+Phần đầu $1$: đếm từ $1$ lên $4$ được $3$. Phần đầu $2$: được $2$. Phần đầu $3$: được $1$.
+
+**Kiểm tra.** Mỗi cặp ghép lại đủ $4$.
+
+**Đáp số.** $4$ gồm $1$ và $3$; $2$ và $2$; $3$ và $1$.
+
+[ĐỀ – EN]
+Write all the ways to split the number $4$ into two numbers, both greater than $0$ (swapped parts count as a different way).
+
+[LỜI GIẢI CŨ – EN]
+First part $1$: counting from $1$ to $4$ gives $3$. First part $2$: gives $2$. First part $3$: gives $1$.
+
+**Check.** Each pair makes $4$.
+
+**Answer.** $4$ is made of $1$ and $3$; $2$ and $2$; $3$ and $1$.
+
+
+######################################################################
+@@@ g1/numbers-0-to-5
+Bài học: Các số 0, 1, 2, 3, 4, 5 / Numbers 0, 1, 2, 3, 4, 5
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong rổ có ba quả cam. Viết số quả cam.
+
+[LỜI GIẢI CŨ – VI]
+Ba viết là $3$.
+
+**Đáp số.** $3$ quả cam.
+
+[ĐỀ – EN]
+There are three oranges in a basket. Write the number of oranges.
+
+[LỜI GIẢI CŨ – EN]
+Three is written $3$.
+
+**Answer.** $3$ oranges.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điền số thích hợp vào ô trống: $0, 1, 2, \square, 4, 5$.
+
+[LỜI GIẢI CŨ – VI]
+Sau $2$ là $3$, rồi đến $4$.
+
+**Đáp số.** $3$.
+
+[ĐỀ – EN]
+Fill in the box: $0, 1, 2, \square, 4, 5$.
+
+[LỜI GIẢI CŨ – EN]
+After $2$ comes $3$, then $4$.
+
+**Answer.** $3$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em đã biết đếm ở trường mầm non. Em hãy đếm các ngón tay của một bàn tay và viết số.
+
+[LỜI GIẢI CŨ – VI]
+Đếm được năm ngón tay, viết là $5$.
+
+**Đáp số.** $5$ ngón tay.
+
+[ĐỀ – EN]
+You learned to count in nursery. Count the fingers on one hand and write the number.
+
+[LỜI GIẢI CŨ – EN]
+You count five fingers, written $5$.
+
+**Answer.** $5$ fingers.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hộp bút của Mai không có cái bút nào. Viết số bút trong hộp.
+
+[LỜI GIẢI CŨ – VI]
+Không có cái bút nào nên em viết $0$.
+
+**Đáp số.** $0$ cái bút.
+
+[ĐỀ – EN]
+Mai's pencil case has no pens. Write the number of pens in it.
+
+[LỜI GIẢI CŨ – EN]
+There is no pen, so you write $0$.
+
+**Answer.** $0$ pens.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Lọ không có bông hoa nào. Lan viết số bông hoa là $5$. Lan viết đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Lọ không có hoa nên số hoa là $0$. Lan viết $5$ là sai.
+
+**Đáp số.** Sai. Phải viết $0$.
+
+[ĐỀ – EN]
+A vase has no flowers. Lan writes that the number of flowers is $5$. Is Lan right? Why?
+
+[LỜI GIẢI CŨ – EN]
+The vase has no flowers, so the number is $0$. Lan's $5$ is wrong.
+
+**Answer.** No. It should be $0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam đếm bốn quả bóng và nói: "một, hai, ba, năm". Nam đếm sai ở đâu? Đếm đúng như thế nào?
+
+[LỜI GIẢI CŨ – VI]
+Nam bỏ quên số bốn. Đếm đúng là: một, hai, ba, bốn.
+
+**Đáp số.** Nam bỏ quên số $4$; đúng là $1, 2, 3, 4$.
+
+[ĐỀ – EN]
+Nam counts four balloons and says: "one, two, three, five". Where did Nam go wrong? What is the right count?
+
+[LỜI GIẢI CŨ – EN]
+Nam left out four. The right count is: one, two, three, four.
+
+**Answer.** Nam missed $4$; the right count is $1, 2, 3, 4$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong hộp đồ dùng học tập có: $4$ bút chì, $2$ cục tẩy, $0$ thước kẻ, $5$ bút màu. Đồ vật nào không có trong hộp?
+
+[LỜI GIẢI CŨ – VI]
+Số $0$ đứng cạnh thước kẻ, nên hộp không có thước kẻ.
+
+**Đáp số.** Thước kẻ.
+
+[ĐỀ – EN]
+A school box holds: $4$ pencils, $2$ rubbers, $0$ rulers, $5$ felt pens. Which thing is not in the box?
+
+[LỜI GIẢI CŨ – EN]
+The number $0$ is next to rulers, so the box has no ruler.
+
+**Answer.** The ruler.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Điền số thích hợp vào các ô trống (đếm ngược): $5, \square, 3, \square, 1, \square$.
+
+[LỜI GIẢI CŨ – VI]
+Đếm ngược: $5, 4, 3, 2, 1, 0$.
+
+**Kiểm tra.** Đọc từ $0$ đến $5$: $0, 1, 2, 3, 4, 5$. Đúng.
+
+**Đáp số.** $4$, $2$, $0$.
+
+[ĐỀ – EN]
+Fill in the boxes (count backwards): $5, \square, 3, \square, 1, \square$.
+
+[LỜI GIẢI CŨ – EN]
+Counting backwards: $5, 4, 3, 2, 1, 0$.
+
+**Check.** Read from $0$ to $5$: $0, 1, 2, 3, 4, 5$. Correct.
+
+**Answer.** $4$, $2$, $0$.
+
+
+######################################################################
+@@@ g1/numbers-6-to-10
+Bài học: Các số 6, 7, 8, 9, 10 / Numbers 6, 7, 8, 9, 10
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong đĩa có bảy quả táo. Viết số quả táo.
+
+[LỜI GIẢI CŨ – VI]
+Bảy viết là $7$.
+
+**Đáp số.** $7$ quả táo.
+
+[ĐỀ – EN]
+There are seven apples on a plate. Write the number of apples.
+
+[LỜI GIẢI CŨ – EN]
+Seven is written $7$.
+
+**Answer.** $7$ apples.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điền số thích hợp vào ô trống: $6, 7, 8, \square, 10$.
+
+[LỜI GIẢI CŨ – VI]
+Sau $8$ là $9$, rồi đến $10$.
+
+**Đáp số.** $9$.
+
+[ĐỀ – EN]
+Fill in the box: $6, 7, 8, \square, 10$.
+
+[LỜI GIẢI CŨ – EN]
+After $8$ comes $9$, then $10$.
+
+**Answer.** $9$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: số liền sau của $5$ là số nào? Rồi điền số: $0, 1, \square, 3, 4, 5$.
+
+[LỜI GIẢI CŨ – VI]
+Sau năm là sáu, nên số liền sau của $5$ là $6$. Trong dãy, sau $1$ là $2$.
+
+**Đáp số.** $6$ và $2$.
+
+[ĐỀ – EN]
+Remember the last lesson: what is the number after $5$? Then fill in the box: $0, 1, \square, 3, 4, 5$.
+
+[LỜI GIẢI CŨ – EN]
+After five comes six, so the number after $5$ is $6$. In the row, after $1$ comes $2$.
+
+**Answer.** $6$ and $2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hai bàn tay của Lan có bao nhiêu ngón tay? Viết số.
+
+[LỜI GIẢI CŨ – VI]
+Đếm đến mười ngón tay, viết là $10$.
+
+**Đáp số.** $10$ ngón tay.
+
+[ĐỀ – EN]
+How many fingers does Lan have on her two hands? Write the number.
+
+[LỜI GIẢI CŨ – EN]
+You count up to ten fingers, written $10$.
+
+**Answer.** $10$ fingers.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bình viết số mười là $01$. Bình viết đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Số mười viết là $10$, không phải $01$. Bình viết sai.
+
+**Đáp số.** Sai. Phải viết $10$.
+
+[ĐỀ – EN]
+Binh writes the number ten as $01$. Is Binh right? Why?
+
+[LỜI GIẢI CŨ – EN]
+Ten is written $10$, not $01$. Binh is wrong.
+
+**Answer.** No. It should be $10$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+An đếm tám cái ghế và nói: "một, hai, ba, bốn, năm, sáu, tám". An đếm sai ở đâu? Đếm đúng như thế nào?
+
+![Tám chiếc ghế giống nhau xếp thành một hàng](/assets/img/g1/g1-numbers-6-to-10-03.svg)
+
+[LỜI GIẢI CŨ – VI]
+An bỏ quên số bảy. Đếm đúng là: một, hai, ba, bốn, năm, sáu, bảy, tám.
+
+**Đáp số.** An bỏ quên số $7$.
+
+[ĐỀ – EN]
+An counts eight chairs and says: "one, two, three, four, five, six, eight". Where did An go wrong? What is the right count?
+
+![Eight matching chairs arranged in one row](/assets/img/g1/g1-numbers-6-to-10-03.svg)
+
+[LỜI GIẢI CŨ – EN]
+An left out seven. The right count is: one, two, three, four, five, six, seven, eight.
+
+**Answer.** An missed $7$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bảng cho biết số đồ vật trong hộp đồ dùng:
+
+| Đồ vật | Bút | Vở | Tẩy | Thước |
+|---|---|---|---|---|
+| Số lượng | $6$ | $9$ | $0$ | $10$ |
+
+a) Đồ vật nào có $10$ cái?
+b) Đồ vật nào không có cái nào?
+
+[LỜI GIẢI CŨ – VI]
+a) Số $10$ ở cột thước. b) Số $0$ ở cột tẩy.
+
+**Đáp số.** a) Thước. b) Tẩy.
+
+[ĐỀ – EN]
+The table shows how many things are in a school box:
+
+| Thing | Pens | Exercise books | Rubbers | Rulers |
+|---|---|---|---|---|
+| Number | $6$ | $9$ | $0$ | $10$ |
+
+a) Which thing has $10$?
+b) Which thing has none?
+
+[LỜI GIẢI CŨ – EN]
+a) The number $10$ is under rulers. b) The number $0$ is under rubbers.
+
+**Answer.** a) Rulers. b) Rubbers.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Điền số vào các ô trống (đếm ngược): $10, \square, 8, \square, 6, \square$.
+
+[LỜI GIẢI CŨ – VI]
+Đếm ngược: $10, 9, 8, 7, 6, 5$.
+
+**Kiểm tra.** Đọc xuôi từ $5$ đến $10$: $5, 6, 7, 8, 9, 10$. Đúng.
+
+**Đáp số.** $9$, $7$, $5$.
+
+[ĐỀ – EN]
+Fill in the boxes (count backwards): $10, \square, 8, \square, 6, \square$.
+
+[LỜI GIẢI CŨ – EN]
+Counting backwards: $10, 9, 8, 7, 6, 5$.
+
+**Check.** Read forwards from $5$ to $10$: $5, 6, 7, 8, 9, 10$. Correct.
+
+**Answer.** $9$, $7$, $5$.
+
+
+===== HẾT FILE Kinangtoan-07-LG =====

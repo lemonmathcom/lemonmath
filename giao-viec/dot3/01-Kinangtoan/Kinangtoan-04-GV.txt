@@ -1,0 +1,1526 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-04-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Kinangtoan-04-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g1/add-1-digit-to-2-digit, g1/add-2-digit-numbers, g1/addition-subtraction-facts-to-10, g1/addition-within-10
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Kinangtoan-04-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Kinangtoan-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Kinangtoan-04-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g1/add-1-digit-to-2-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng số có hai chữ số với số có một chữ số
+description: Em học cách cộng số có hai chữ số với số có một chữ số, ví dụ 23 + 4: cộng hàng đơn vị với hàng đơn vị và giữ nguyên hàng chục.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hàng chục và hàng đơn vị của số có hai chữ số, ví dụ $23$.
+  - Cộng số có hai chữ số với số có một chữ số (không nhớ), ví dụ $23+4$.
+  - Giải bài toán có lời văn bằng một phép cộng.
+  :::
+
+[[P1·d795]]
+Nam có $23$ viên bi. Bạn Minh cho Nam thêm $4$ viên bi nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
+
+[[P2·c0c5]]
+Em có thể đếm thêm từng viên: $24, 25, 26, 27$. Nhưng nếu thêm nhiều viên thì đếm rất lâu. Bài này giúp em cộng nhanh bằng hàng chục và hàng đơn vị.
+
+## Cùng khám phá
+
+[[P3·4800]]
+Em đã học ở bài trước: mỗi số có hai chữ số gồm hàng chục và hàng đơn vị. Số $23$ có $2$ chục và $3$ đơn vị.
+
+[[P4·0357]]
+- Nam có $2$ chục viên bi và $3$ viên bi lẻ.
+- Minh cho thêm $4$ viên bi lẻ. Các viên bi lẻ bây giờ là $3+4=7$ viên.
+- Số chục vẫn là $2$ chục, vì Nam không được thêm bó chục nào.
+
+[[P5·5ca8]]
+Vậy $2$ chục và $7$ đơn vị là $27$. Ta có $23+4=27$.
+
+:::graph Trên tia số: từ 23, nhảy thêm 4 bước đến 27
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách cộng số có hai chữ số với số có một chữ số
+  Muốn tính $23+4$:
+  1. Cộng hàng đơn vị với số có một chữ số: $3+4=7$.
+  2. Giữ nguyên hàng chục: $2$ chục.
+  3. Viết kết quả: $2$ chục và $7$ đơn vị là $27$.
+  :::
+
+[[P6·34a5]]
+Cách này đúng vì em chỉ thêm các viên bi lẻ. Số chục không đổi, nên em giữ nguyên hàng chục.
+
+## Ví dụ
+
+[[P7·3dc4]]
+Ta bắt đầu với một phép cộng đơn giản nhất.
+
+  :::example Tính $23+4$
+  **Lời giải.** $23$ có $2$ chục và $3$ đơn vị. Ta cộng hàng đơn vị: $3+4=7$. Hàng chục giữ nguyên là $2$:
+  $$23+4=27.$$
+  Vậy $23+4=27$.
+  :::
+
+[[P8·e609]]
+Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+
+  :::example Tính $52+6$
+  **Lời giải.** $52$ có $5$ chục và $2$ đơn vị. Cộng hàng đơn vị: $2+6=8$. Hàng chục giữ nguyên là $5$:
+  $$52+6=58.$$
+  Vậy $52+6=58$.
+  :::
+
+[[P9·ffe0]]
+Khi hàng đơn vị là $0$, phép tính còn dễ hơn.
+
+  :::example Tính $40+5$
+  **Lời giải.** $40$ có $4$ chục và $0$ đơn vị. Cộng hàng đơn vị: $0+5=5$. Hàng chục giữ nguyên là $4$:
+  $$40+5=45.$$
+  Vậy $40+5=45$.
+  :::
+
+[[P10·e0c8]]
+Khi số có một chữ số đứng trước, em có thể đổi chỗ hai số hạng cho dễ tính.
+
+  :::example Tính $6+31$
+  **Lời giải.** Đổi chỗ hai số hạng thì tổng không đổi, nên $6+31=31+6$. Cộng hàng đơn vị: $1+6=7$. Hàng chục giữ nguyên là $3$:
+  $$31+6=37.$$
+  Vậy $6+31=37$.
+  :::
+
+[[P11·9135]]
+Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Đọc sách
+  Hà đã đọc $35$ trang truyện. Hôm nay Hà đọc thêm $3$ trang. Hỏi Hà đã đọc tất cả bao nhiêu trang?
+
+  **Lời giải.** "Đọc thêm" nghĩa là thêm vào, nên em làm phép cộng. Cộng hàng đơn vị: $5+3=8$. Hàng chục giữ nguyên là $3$:
+  $$35+3=38.$$
+  Vậy Hà đã đọc tất cả $38$ trang.
+
+  **Kiểm tra.** Đếm thêm từ $35$: $36, 37, 38$. Kết quả đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·cd2f]]
+- **Cộng nhầm vào hàng chục.** Sai: $23+4=63$. Vì sao sai: em cộng $4$ vào $2$ chục. Đúng: $4$ là $4$ đơn vị, nên $23+4=27$.
+- **Quên hàng chục.** Sai: $23+4=7$. Vì sao sai: em mới tính $3+4$ mà quên $2$ chục. Đúng: $23+4=27$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $38$". Đúng: "Đáp số: $38$ trang".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - số có hai chữ số | two-digit number
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·c437]]
+- Số có hai chữ số gồm hàng chục và hàng đơn vị. Ví dụ: $23$ là $2$ chục và $3$ đơn vị.
+- Muốn cộng số có hai chữ số với số có một chữ số, em cộng hàng đơn vị và giữ nguyên hàng chục.
+- Ví dụ: $23+4=27$ vì $3+4=7$ và hàng chục vẫn là $2$.
+- Đổi chỗ các số hạng thì tổng không đổi: $6+31=31+6$.
+- Bài toán hỏi "thêm", "tất cả" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/add-1-digit-to-2-digit – BẢN TIẾNG ANH ########
+---
+title: Adding a one-digit number to a two-digit number
+description: Learn to add a one-digit number to a two-digit number, for example 23 + 4: add the ones to the ones and keep the tens the same.
+minutes: 15
+---
+
+  :::goals
+  - Name the tens and the ones of a two-digit number, for example $23$.
+  - Add a one-digit number to a two-digit number (no regrouping), for example $23+4$.
+  - Solve a word problem with one addition.
+  :::
+
+[[P1·d9dc]]
+Nam has $23$ marbles. His friend Minh gives him $4$ more marbles. How many marbles does Nam have altogether?
+
+[[P2·a2a1]]
+You could count on one at a time: $24, 25, 26, 27$. But if you add many marbles, counting takes a long time. This lesson shows you a quicker way, using tens and ones.
+
+## Let's explore
+
+[[P3·5451]]
+You learned in the last lesson that a two-digit number is made of tens and ones. The number $23$ has $2$ tens and $3$ ones.
+
+[[P4·33ce]]
+- Nam has $2$ tens of marbles and $3$ single marbles.
+- Minh gives $4$ more single marbles. Now the single marbles are $3+4=7$.
+- The tens stay at $2$ tens, because Nam did not get any new group of ten.
+
+[[P5·04d2]]
+So $2$ tens and $7$ ones make $27$. We have $23+4=27$.
+
+:::graph On the number line: from 23, jump 4 to reach 27
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to add a one-digit number to a two-digit number
+  To work out $23+4$:
+  1. Add the ones to the one-digit number: $3+4=7$.
+  2. Keep the tens the same: $2$ tens.
+  3. Write the answer: $2$ tens and $7$ ones make $27$.
+  :::
+
+[[P6·9ade]]
+This works because you only add single marbles. The number of tens does not change, so you keep the tens the same.
+
+## Examples
+
+[[P7·889c]]
+We start with the simplest sum.
+
+  :::example Work out $23+4$
+  **Solution.** $23$ has $2$ tens and $3$ ones. Add the ones: $3+4=7$. Keep the tens the same: $2$:
+  $$23+4=27.$$
+  So $23+4=27$.
+  :::
+
+[[P8·0daa]]
+Now a similar sum with different numbers.
+
+  :::example Work out $52+6$
+  **Solution.** $52$ has $5$ tens and $2$ ones. Add the ones: $2+6=8$. Keep the tens the same: $5$:
+  $$52+6=58.$$
+  So $52+6=58$.
+  :::
+
+[[P9·522a]]
+When the ones digit is $0$, the sum is even easier.
+
+  :::example Work out $40+5$
+  **Solution.** $40$ has $4$ tens and $0$ ones. Add the ones: $0+5=5$. Keep the tens the same: $4$:
+  $$40+5=45.$$
+  So $40+5=45$.
+  :::
+
+[[P10·5a98]]
+When the one-digit number comes first, you can swap the two numbers to make it easier.
+
+  :::example Work out $6+31$
+  **Solution.** Swapping the addends does not change the sum, so $6+31=31+6$. Add the ones: $1+6=7$. Keep the tens the same: $3$:
+  $$31+6=37.$$
+  So $6+31=37$.
+  :::
+
+[[P11·9c6b]]
+Now use addition to answer a question from everyday life.
+
+  :::example Reading
+  Ha has read $35$ pages of a storybook. Today she reads $3$ more pages. How many pages has she read altogether?
+
+  **Solution.** "Reads more" means adding on, so we add. Add the ones: $5+3=8$. Keep the tens the same: $3$:
+  $$35+3=38.$$
+  So Ha has read $38$ pages altogether.
+
+  **Check.** Count on from $35$: $36, 37, 38$. The answer is correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·7852]]
+- **Adding to the tens.** Wrong: $23+4=63$. Why it is wrong: you added $4$ to the $2$ tens. Right: $4$ is $4$ ones, so $23+4=27$.
+- **Forgetting the tens.** Wrong: $23+4=7$. Why it is wrong: you only worked out $3+4$ and forgot the $2$ tens. Right: $23+4=27$.
+- **No unit in a word problem.** Wrong: "Answer: $38$". Right: "Answer: $38$ pages".
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - two-digit number | số có hai chữ số
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·80a3]]
+- A two-digit number is made of tens and ones. For example, $23$ is $2$ tens and $3$ ones.
+- To add a one-digit number to a two-digit number, add the ones and keep the tens the same.
+- Example: $23+4=27$ because $3+4=7$ and the tens stay $2$.
+- Swapping the addends does not change the sum: $6+31=31+6$.
+- Questions with "more" or "altogether" usually need addition; remember the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/add-2-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng số có hai chữ số với số có hai chữ số
+description: Em học cách cộng hai số có hai chữ số (không nhớ), ví dụ 23 + 34: cộng hàng chục với hàng chục, hàng đơn vị với hàng đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hàng chục và hàng đơn vị của hai số có hai chữ số.
+  - Cộng hai số có hai chữ số (không nhớ), ví dụ $23+34$.
+  - Giải bài toán có lời văn bằng một phép cộng.
+  :::
+
+[[P1·78eb]]
+Lan có $23$ cái nhãn dán. Hoa có $34$ cái nhãn dán. Hỏi hai bạn có tất cả bao nhiêu cái nhãn dán?
+
+[[P2·20fe]]
+Đếm thêm từng cái thì rất lâu. Bài này giúp em cộng nhanh bằng cách tách mỗi số thành hàng chục và hàng đơn vị.
+
+## Cùng khám phá
+
+[[P3·8cca]]
+Em đã học ở bài trước: $23+4$ thì cộng hàng đơn vị và giữ nguyên hàng chục. Bây giờ ta cộng thêm cả hàng chục.
+
+[[P4·d45f]]
+Ta tách mỗi số thành chục và đơn vị:
+
+| Số | Chục | Đơn vị |
+|---|---|---|
+| $23$ | $2$ | $3$ |
+| $34$ | $3$ | $4$ |
+
+[[P5·37e9]]
+- Cộng hàng đơn vị với hàng đơn vị: $3+4=7$.
+- Cộng hàng chục với hàng chục: $2+3=5$.
+- $5$ chục và $7$ đơn vị là $57$.
+
+[[P6·ee75]]
+Vậy $23+34=57$.
+
+:::graph Trên tia số: từ 23, nhảy 3 chục đến 53, rồi nhảy 4 đơn vị đến 57
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách cộng hai số có hai chữ số
+  Muốn tính $23+34$:
+  1. Cộng hàng đơn vị với hàng đơn vị: $3+4=7$.
+  2. Cộng hàng chục với hàng chục: $2+3=5$.
+  3. Ghép lại: $5$ chục và $7$ đơn vị là $57$.
+  :::
+
+[[P7·4283]]
+Cách này đúng vì em gộp chục với chục và lẻ với lẻ, nên không bị mất hay thừa cái nhãn dán nào.
+
+## Ví dụ
+
+[[P8·3dc4]]
+Ta bắt đầu với một phép cộng đơn giản nhất.
+
+  :::example Tính $23+34$
+  **Lời giải.** Cộng hàng đơn vị: $3+4=7$. Cộng hàng chục: $2+3=5$:
+  $$23+34=57.$$
+  Vậy $23+34=57$.
+  :::
+
+[[P9·e609]]
+Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+
+  :::example Tính $41+25$
+  **Lời giải.** Cộng hàng đơn vị: $1+5=6$. Cộng hàng chục: $4+2=6$:
+  $$41+25=66.$$
+  Vậy $41+25=66$.
+  :::
+
+[[P10·d8d9]]
+Khi một số tròn chục, hàng đơn vị chỉ có một số khác $0$.
+
+  :::example Tính $30+52$
+  **Lời giải.** Cộng hàng đơn vị: $0+2=2$. Cộng hàng chục: $3+5=8$:
+  $$30+52=82.$$
+  Vậy $30+52=82$.
+  :::
+
+[[P11·9863]]
+Hãy thử một phép tính mà hàng đơn vị cộng lại gần bằng $10$.
+
+  :::example Tính $45+34$
+  **Lời giải.** Cộng hàng đơn vị: $5+4=9$. Cộng hàng chục: $4+3=7$:
+  $$45+34=79.$$
+  Vậy $45+34=79$.
+
+  **Kiểm tra.** $79$ lớn hơn $45$ và lớn hơn $34$, đúng như mong đợi của một tổng.
+  :::
+
+[[P12·9135]]
+Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Học sinh hai lớp
+  Lớp $1$A có $32$ học sinh, lớp $1$B có $36$ học sinh. Hỏi cả hai lớp có tất cả bao nhiêu học sinh?
+
+  **Lời giải.** "Cả hai lớp" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $2+6=8$. Hàng chục: $3+3=6$:
+  $$32+36=68.$$
+  Vậy cả hai lớp có $68$ học sinh.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·5160]]
+- **Quên cộng hàng chục.** Sai: $23+34=7$. Vì sao sai: em mới cộng hàng đơn vị. Đúng: còn $2+3=5$ chục, nên $23+34=57$.
+- **Đảo chục và đơn vị.** Sai: $23+34=75$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $5$ chục và $7$ đơn vị là $57$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $68$". Đúng: "Đáp số: $68$ học sinh".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - số hạng | addend
+  - tổng | sum (total)
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - số có hai chữ số | two-digit number
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P14·1ea5]]
+- Muốn cộng hai số có hai chữ số (không nhớ), em cộng hàng đơn vị với hàng đơn vị và hàng chục với hàng chục.
+- Ví dụ: $23+34=57$ vì $3+4=7$ và $2+3=5$.
+- Viết hàng chục trước, hàng đơn vị sau: $5$ chục và $7$ đơn vị là $57$.
+- Đổi chỗ các số hạng thì tổng không đổi.
+- Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/add-2-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Adding two two-digit numbers
+description: Learn to add two two-digit numbers (no regrouping), for example 23 + 34: add the tens to the tens and the ones to the ones.
+minutes: 15
+---
+
+  :::goals
+  - Name the tens and the ones of two two-digit numbers.
+  - Add two two-digit numbers (no regrouping), for example $23+34$.
+  - Solve a word problem with one addition.
+  :::
+
+[[P1·6dab]]
+Lan has $23$ stickers. Hoa has $34$ stickers. How many stickers do the two girls have altogether?
+
+[[P2·fd1f]]
+Counting on one at a time takes too long. This lesson shows you a quick way: split each number into tens and ones.
+
+## Let's explore
+
+[[P3·e031]]
+You learned in the last lesson that $23+4$ means adding the ones and keeping the tens the same. Now we add the tens as well.
+
+[[P4·2321]]
+We split each number into tens and ones:
+
+| Number | Tens | Ones |
+|---|---|---|
+| $23$ | $2$ | $3$ |
+| $34$ | $3$ | $4$ |
+
+[[P5·c210]]
+- Add the ones to the ones: $3+4=7$.
+- Add the tens to the tens: $2+3=5$.
+- $5$ tens and $7$ ones make $57$.
+
+[[P6·2378]]
+So $23+34=57$.
+
+:::graph On the number line: from 23, jump 3 tens to reach 53, then jump 4 ones to reach 57
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to add two two-digit numbers
+  To work out $23+34$:
+  1. Add the ones to the ones: $3+4=7$.
+  2. Add the tens to the tens: $2+3=5$.
+  3. Put them together: $5$ tens and $7$ ones make $57$.
+  :::
+
+[[P7·8ab6]]
+This works because you put tens with tens and ones with ones, so no sticker is lost and none is counted twice.
+
+## Examples
+
+[[P8·889c]]
+We start with the simplest sum.
+
+  :::example Work out $23+34$
+  **Solution.** Add the ones: $3+4=7$. Add the tens: $2+3=5$:
+  $$23+34=57.$$
+  So $23+34=57$.
+  :::
+
+[[P9·0daa]]
+Now a similar sum with different numbers.
+
+  :::example Work out $41+25$
+  **Solution.** Add the ones: $1+5=6$. Add the tens: $4+2=6$:
+  $$41+25=66.$$
+  So $41+25=66$.
+  :::
+
+[[P10·c0d8]]
+When one number is a whole number of tens, its ones digit is $0$.
+
+  :::example Work out $30+52$
+  **Solution.** Add the ones: $0+2=2$. Add the tens: $3+5=8$:
+  $$30+52=82.$$
+  So $30+52=82$.
+  :::
+
+[[P11·0f41]]
+Now try a sum where the ones add up to nearly $10$.
+
+  :::example Work out $45+34$
+  **Solution.** Add the ones: $5+4=9$. Add the tens: $4+3=7$:
+  $$45+34=79.$$
+  So $45+34=79$.
+
+  **Check.** $79$ is bigger than $45$ and bigger than $34$, as a sum should be.
+  :::
+
+[[P12·9c6b]]
+Now use addition to answer a question from everyday life.
+
+  :::example Two classes
+  Class $1$A has $32$ pupils and Class $1$B has $36$ pupils. How many pupils are in the two classes altogether?
+
+  **Solution.** "The two classes" means putting them together, so we add. Ones: $2+6=8$. Tens: $3+3=6$:
+  $$32+36=68.$$
+  So the two classes have $68$ pupils.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·1169]]
+- **Forgetting the tens.** Wrong: $23+34=7$. Why it is wrong: you only added the ones. Right: there are also $2+3=5$ tens, so $23+34=57$.
+- **Swapping tens and ones.** Wrong: $23+34=75$. Why it is wrong: you wrote the ones before the tens. Right: $5$ tens and $7$ ones make $57$.
+- **No unit in a word problem.** Wrong: "Answer: $68$". Right: "Answer: $68$ pupils".
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - addend | số hạng
+  - sum (total) | tổng
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - two-digit number | số có hai chữ số
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P14·cd4e]]
+- To add two two-digit numbers (no regrouping), add the ones to the ones and the tens to the tens.
+- Example: $23+34=57$ because $3+4=7$ and $2+3=5$.
+- Write the tens first and the ones second: $5$ tens and $7$ ones make $57$.
+- Swapping the addends does not change the sum.
+- Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/addition-subtraction-facts-to-10 – BẢN TIẾNG VIỆT ########
+---
+title: Bảng cộng, bảng trừ trong phạm vi 10
+description: Em học các phép cộng, phép trừ trong phạm vi 10 từ ba số, thấy mối liên hệ giữa cộng và trừ, và dùng bảng để tìm số còn thiếu.
+minutes: 15
+---
+
+  :::goals
+  - Từ ba số, viết được hai phép cộng và hai phép trừ.
+  - Biết phép cộng và phép trừ liên hệ với nhau.
+  - Dùng phép cộng để tìm kết quả phép trừ và số còn thiếu.
+  - Đọc bảng cộng, bảng trừ trong phạm vi $10$.
+  :::
+
+[[P1·1b9b]]
+Lan viết $3+2=5$. Từ ba số $2$, $3$, $5$, Lan còn viết được những phép tính nào nữa?
+
+[[P2·b7dd]]
+Em đã biết phép cộng và phép trừ. Bài này em thấy chúng là một "gia đình" đi cùng nhau.
+
+## Cùng khám phá
+
+[[P3·5c76]]
+Em có ba số $2$, $3$, $5$. Số $5$ là số lớn nhất, gồm $2$ và $3$.
+
+[[P4·f665]]
+- Gộp hai phần: $2+3=5$ và $3+2=5$.
+- Bớt một phần khỏi $5$: $5-2=3$ và $5-3=2$.
+
+[[P5·f071]]
+Từ một phép cộng em viết được thêm ba phép tính khác, và bốn phép tính này dùng chung ba số.
+
+[[P6·bea6]]
+Bảng dưới đây cho các phép cộng có kết quả bằng $6$.
+
+| Phép cộng | $1+5$ | $2+4$ | $3+3$ | $4+2$ | $5+1$ |
+|---|---|---|---|---|---|
+| Kết quả | $6$ | $6$ | $6$ | $6$ | $6$ |
+
+  :::theorem Cộng và trừ đi cùng nhau
+  1. Từ ba số, số lớn nhất bằng hai số kia gộp lại: $2+3=5$.
+  2. Đổi chỗ hai phần: $3+2=5$.
+  3. Bớt một phần khỏi số lớn thì còn phần kia: $5-2=3$ và $5-3=2$.
+  4. Muốn tìm kết quả phép trừ, em nghĩ phép cộng tương ứng.
+  :::
+
+[[P7·9c42]]
+Cách này đúng vì gộp hai phần được cả nhóm, và bớt một phần khỏi cả nhóm thì còn phần kia.
+
+## Ví dụ
+
+[[P8·c29b]]
+Ta bắt đầu với một bộ ba số.
+
+  :::example Bốn phép tính từ ba số $3$, $4$, $7$
+  Từ $4+3=7$ hãy viết các phép tính còn lại.
+
+  **Lời giải.** Số lớn nhất là $7$, hai phần là $3$ và $4$. Đổi chỗ hai phần: $3+4=7$. Bớt một phần khỏi $7$: $7-3=4$ và $7-4=3$.
+
+  Vậy ba phép còn lại là $3+4=7$, $7-3=4$, $7-4=3$.
+  :::
+
+[[P9·db78]]
+Bây giờ em dùng phép cộng để làm phép trừ.
+
+  :::example Tính $6-2$
+  **Lời giải.** Em nghĩ: $2$ cộng mấy bằng $6$? Đếm từ $2$ lên $6$: "ba, bốn, năm, sáu", có $4$ số, nên $2+4=6$.
+
+  Vậy $6-2=4$.
+  :::
+
+[[P10·3416]]
+Tiếp theo em tìm số còn thiếu.
+
+  :::example Tìm số còn thiếu
+  Điền số thích hợp: $8-\square=3$.
+
+  **Lời giải.** Em nghĩ: $3$ cộng mấy bằng $8$? Đếm từ $3$ lên $8$: "bốn, năm, sáu, bảy, tám", có $5$ số, nên $3+5=8$.
+
+  Vậy số cần điền là $5$.
+
+  **Kiểm tra.** $8-5=3$. Đúng.
+  :::
+
+[[P11·e0bc]]
+Em cũng dùng bảng để tìm các phép tính.
+
+  :::example Đọc bảng cộng
+  Dùng bảng ở phần khám phá, tìm các phép cộng có kết quả bằng $6$ mà số đầu bé hơn $4$.
+
+  **Lời giải.** Em đọc hàng đầu của bảng và chọn các số đầu bé hơn $4$: $1$, $2$, $3$.
+
+  Vậy các phép cộng là $1+5=6$, $2+4=6$, $3+3=6$.
+  :::
+
+[[P12·acb9]]
+Cuối cùng em giải bài toán có lời văn.
+
+  :::example Thỏ ở lồng và ngoài sân
+  Có $7$ con thỏ. Có $3$ con thỏ ở trong lồng, còn lại ở ngoài sân. Hỏi có mấy con thỏ ở ngoài sân?
+
+  **Lời giải.** Bớt $3$ con trong lồng khỏi $7$ con, nên em làm phép trừ: $7-3$. Em nghĩ $3+4=7$:
+  $$7-3=4\ \text{(con)}.$$
+  Vậy có $4$ con thỏ ở ngoài sân.
+
+  **Kiểm tra.** $3+4=7$. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·03f9]]
+- **Lấy số bé trừ số lớn.** Sai: từ ba số $3$, $4$, $7$ viết $3-4=7$. Vì sao sai: không thể bớt $4$ khỏi $3$. Đúng: $7-4=3$.
+- **Viết số lớn nhất sai chỗ.** Sai: $3+7=4$. Vì sao sai: số lớn nhất phải là kết quả của phép cộng. Đúng: $3+4=7$.
+- **Bỏ sót phép tính.** Sai: từ ba số chỉ viết hai phép tính. Vì sao sai: còn thiếu phép đổi chỗ. Đúng: có đủ bốn phép tính.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bảng cộng | addition table
+  - bảng trừ | subtraction facts
+  - phép cộng | addition
+  - phép trừ | subtraction
+  - ba số | three numbers
+  - số lớn nhất | the biggest number (the whole)
+  - còn thiếu | missing
+  :::
+
+## Tóm tắt
+
+[[P14·aacb]]
+- Từ ba số có thể viết hai phép cộng và hai phép trừ: $2+3=5$, $3+2=5$, $5-2=3$, $5-3=2$.
+- Số lớn nhất là kết quả của phép cộng và là số bị trừ trong phép trừ.
+- Muốn tính $6-2$, nghĩ $2+\square=6$.
+- Dùng bảng để tìm nhanh các phép cộng có cùng kết quả.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/addition-subtraction-facts-to-10 – BẢN TIẾNG ANH ########
+---
+title: Addition and subtraction facts to 10
+description: Learn the addition and subtraction facts within 10 from three numbers, see how addition and subtraction link up, and use tables to find missing numbers.
+minutes: 15
+---
+
+  :::goals
+  - From three numbers, write two additions and two subtractions.
+  - Know that addition and subtraction are linked.
+  - Use addition to find the answer to a subtraction and a missing number.
+  - Read the addition and subtraction facts within $10$.
+  :::
+
+[[P1·2be9]]
+Lan writes $3+2=5$. From the three numbers $2$, $3$ and $5$, what other sums can Lan write?
+
+[[P2·f684]]
+You already know addition and subtraction. In this lesson you see that they belong to one family.
+
+## Let's explore
+
+[[P3·e131]]
+You have three numbers $2$, $3$, $5$. The number $5$ is the biggest, made of $2$ and $3$.
+
+[[P4·cf96]]
+- Put the two parts together: $2+3=5$ and $3+2=5$.
+- Take one part from $5$: $5-2=3$ and $5-3=2$.
+
+[[P5·2e86]]
+From one addition you can write three more sums, and all four sums use the same three numbers.
+
+[[P6·376d]]
+The table below shows the additions that make $6$.
+
+| Addition | $1+5$ | $2+4$ | $3+3$ | $4+2$ | $5+1$ |
+|---|---|---|---|---|---|
+| Answer | $6$ | $6$ | $6$ | $6$ | $6$ |
+
+  :::theorem Addition and subtraction go together
+  1. Of three numbers, the biggest is the two others put together: $2+3=5$.
+  2. Swap the two parts: $3+2=5$.
+  3. Take one part from the biggest and the other part is left: $5-2=3$ and $5-3=2$.
+  4. To find the answer to a subtraction, think of the matching addition.
+  :::
+
+[[P7·7ee2]]
+This works because putting two parts together makes the whole group, and taking one part from the whole group leaves the other part.
+
+## Examples
+
+[[P8·c8db]]
+We start with a set of three numbers.
+
+  :::example Four sums from the numbers $3$, $4$, $7$
+  From $4+3=7$ write the other sums.
+
+  **Solution.** The biggest number is $7$, and the two parts are $3$ and $4$. Swap the two parts: $3+4=7$. Take one part from $7$: $7-3=4$ and $7-4=3$.
+
+  So the other three sums are $3+4=7$, $7-3=4$, $7-4=3$.
+  :::
+
+[[P9·d758]]
+Now use addition to work out a subtraction.
+
+  :::example Work out $6-2$
+  **Solution.** Think: $2$ plus what makes $6$? Count from $2$ to $6$: "three, four, five, six", which is $4$ numbers, so $2+4=6$.
+
+  So $6-2=4$.
+  :::
+
+[[P10·29b9]]
+Next, find a missing number.
+
+  :::example Find the missing number
+  Fill in the box: $8-\square=3$.
+
+  **Solution.** Think: $3$ plus what makes $8$? Count from $3$ to $8$: "four, five, six, seven, eight", which is $5$ numbers, so $3+5=8$.
+
+  So the missing number is $5$.
+
+  **Check.** $8-5=3$. Correct.
+  :::
+
+[[P11·12ce]]
+You can also use a table to find sums.
+
+  :::example Reading the addition table
+  Use the table in the explore part to find the additions that make $6$ where the first number is less than $4$.
+
+  **Solution.** Read the top row and pick the first numbers less than $4$: $1$, $2$, $3$.
+
+  So the additions are $1+5=6$, $2+4=6$, $3+3=6$.
+  :::
+
+[[P12·70ab]]
+Last, solve a word problem.
+
+  :::example Rabbits in a hutch and in the yard
+  There are $7$ rabbits. $3$ rabbits are in the hutch and the rest are in the yard. How many rabbits are in the yard?
+
+  **Solution.** Take the $3$ in the hutch away from the $7$, so we subtract: $7-3$. Think $3+4=7$:
+  $$7-3=4\ \text{(rabbits)}.$$
+  So there are $4$ rabbits in the yard.
+
+  **Check.** $3+4=7$. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·f717]]
+- **Taking the bigger number from the smaller.** Wrong: from the numbers $3$, $4$, $7$ writing $3-4=7$. Why it is wrong: you cannot take $4$ away from $3$. Right: $7-4=3$.
+- **Putting the biggest number in the wrong place.** Wrong: $3+7=4$. Why it is wrong: the biggest number must be the answer of the addition. Right: $3+4=7$.
+- **Missing a sum.** Wrong: writing only two sums from three numbers. Why it is wrong: the swapped sum is missing. Right: there are four sums.
+:::
+
+## Key terms
+
+  :::terms
+  - addition table | bảng cộng
+  - subtraction facts | bảng trừ
+  - addition | phép cộng
+  - subtraction | phép trừ
+  - three numbers | ba số
+  - the biggest number (the whole) | số lớn nhất
+  - missing | còn thiếu
+  :::
+
+## Summary
+
+[[P14·f4aa]]
+- From three numbers you can write two additions and two subtractions: $2+3=5$, $3+2=5$, $5-2=3$, $5-3=2$.
+- The biggest number is the answer of the addition and the first number of the subtraction.
+- To work out $6-2$, think $2+\square=6$.
+- Use a table to find sums with the same answer quickly.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/addition-within-10 – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng trong phạm vi 10
+description: Em học phép cộng trong phạm vi 10: gộp hai nhóm, đọc và viết phép cộng như 3 + 2 = 5, và giải bài toán có lời văn đơn giản.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu phép cộng là gộp hai nhóm lại.
+  - Đọc và viết phép cộng trong phạm vi $10$, ví dụ $3+2=5$.
+  - Tính bằng cách đếm tiếp và biết đổi chỗ hai số.
+  - Giải bài toán có lời văn bằng một phép cộng.
+  :::
+
+[[P1·3b69]]
+Lan có $3$ viên bi. Mai cho Lan thêm $2$ viên bi nữa. Hỏi Lan có tất cả bao nhiêu viên bi?
+
+[[P2·25f1]]
+Em đã biết $5$ gồm $3$ và $2$. Bài này em học cách viết điều đó thành một phép tính.
+
+## Cùng khám phá
+
+[[P3·bd00]]
+Lan có $3$ viên bi. Mai cho thêm $2$ viên. Em gộp hai nhóm lại và đếm tiếp từ $3$.
+
+[[P4·4f44]]
+- Em nói số $3$ trước: "ba".
+- Em đếm thêm hai viên: "bốn, năm".
+- Số cuối cùng là năm.
+
+[[P5·614a]]
+Vậy Lan có tất cả $5$ viên bi. Ta viết $3+2=5$ và đọc là "ba cộng hai bằng năm".
+
+:::graph Trên tia số: từ 3 đếm thêm 2 bước đến 5
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Phép cộng
+  1. Gộp hai nhóm lại thì làm phép cộng. Dấu cộng là $+$, dấu bằng là $=$.
+  2. Muốn tính $3+2$, đếm tiếp từ $3$ thêm $2$ số: được $5$.
+  3. Đổi chỗ hai số thì kết quả không đổi: $3+2=2+3$.
+  4. Cộng với $0$ thì số không đổi: $7+0=7$.
+  :::
+
+[[P6·ddb2]]
+Cách này đúng vì gộp nhóm $3$ và nhóm $2$ thì không mất viên bi nào, em chỉ đếm tất cả các viên.
+
+## Ví dụ
+
+[[P7·d6c6]]
+Ta bắt đầu với một phép cộng rất nhỏ.
+
+  :::example Tính $4+1$
+  **Lời giải.** Em nói số đầu "bốn", rồi đếm thêm một số: "năm".
+
+  Vậy $4+1=5$.
+  :::
+
+[[P8·61fb]]
+Bây giờ em đếm thêm nhiều số hơn.
+
+  :::example Tính $5+3$
+  **Lời giải.** Em nói số đầu "năm", rồi đếm thêm ba số: "sáu, bảy, tám".
+
+  Vậy $5+3=8$.
+  :::
+
+[[P9·90c7]]
+Khi số đầu bé, em đổi chỗ cho dễ đếm.
+
+  :::example Tính $2+6$
+  **Lời giải.** Đổi chỗ hai số thì kết quả không đổi, nên $2+6=6+2$. Em đếm tiếp từ số lớn $6$ thêm hai số: "bảy, tám".
+
+  Vậy $2+6=8$.
+  :::
+
+[[P10·d0a7]]
+Cộng với $0$ thì sao?
+
+  :::example Tính $7+0$
+  **Lời giải.** Thêm $0$ nghĩa là không thêm gì, nên số không đổi.
+
+  Vậy $7+0=7$.
+  :::
+
+[[P11·11f7]]
+Cuối cùng em giải một bài toán có lời văn.
+
+  :::example Gà và vịt
+  Nhà bà có $4$ con gà và $5$ con vịt. Hỏi nhà bà có tất cả bao nhiêu con gà và vịt?
+
+  ![Bốn con gà bên trái và năm con vịt bên phải](/assets/img/g1/g1-addition-within-10-01.svg)
+
+  **Lời giải.** "Tất cả" nghĩa là gộp hai nhóm lại, nên em làm phép cộng. Em đếm tiếp từ số lớn $5$ thêm $4$ số: "sáu, bảy, tám, chín":
+  $$4+5=5+4=9.$$
+  Vậy nhà bà có $9$ con.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·9881]]
+- **Đếm cả số đầu thêm lần nữa.** Sai: $3+2=6$ vì đếm "ba, bốn, năm, sáu". Vì sao sai: em đếm thêm $3$ số thay vì $2$ số. Đúng: đếm thêm đúng $2$ số: bốn, năm. Vậy $3+2=5$.
+- **Viết dấu bằng sai chỗ.** Sai: $3+2$ viết thành $5=3+2$ rồi quên cách đọc. Vì sao sai: dễ lẫn kết quả với phép tính. Đúng: viết phép tính trước, kết quả sau dấu $=$.
+- **Bài có lời văn quên đơn vị.** Sai: "Đáp số: $9$". Đúng: "Đáp số: $9$ con".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - cộng ($+$) | plus
+  - bằng ($=$) | equals
+  - gộp | put together
+  - tất cả | altogether
+  - đổi chỗ | swap
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·07fa]]
+- Gộp hai nhóm lại thì làm phép cộng: $3+2=5$.
+- Đếm tiếp từ số đầu thêm đúng số lần của số thứ hai.
+- Đổi chỗ hai số thì kết quả không đổi.
+- Cộng với $0$ thì số không đổi.
+- Bài toán hỏi "tất cả" thường là phép cộng; nhớ ghi đơn vị.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/addition-within-10 – BẢN TIẾNG ANH ########
+---
+title: Addition within 10
+description: Learn addition within 10: put two groups together, read and write sums like 3 + 2 = 5, and solve simple word problems.
+minutes: 15
+---
+
+  :::goals
+  - Understand that addition means putting two groups together.
+  - Read and write additions within $10$, for example $3+2=5$.
+  - Work them out by counting on and know you can swap the two numbers.
+  - Solve a word problem with one addition.
+  :::
+
+[[P1·db2e]]
+Lan has $3$ marbles. Mai gives Lan $2$ more marbles. How many marbles does Lan have altogether?
+
+[[P2·1ae1]]
+You already know that $5$ is made of $3$ and $2$. In this lesson you learn to write that as a sum.
+
+## Let's explore
+
+[[P3·f7ff]]
+Lan has $3$ marbles. Mai gives $2$ more. Put the two groups together and count on from $3$.
+
+[[P4·f2e3]]
+- Say the first number: "three".
+- Count on two more: "four, five".
+- The last number is five.
+
+[[P5·908e]]
+So Lan has $5$ marbles altogether. We write $3+2=5$ and read it "three plus two equals five".
+
+:::graph On the number line: from 3 count on 2 steps to 5
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Addition
+  1. Putting two groups together is addition. The plus sign is $+$ and the equals sign is $=$.
+  2. To work out $3+2$, count on $2$ numbers from $3$: you get $5$.
+  3. Swap the two numbers and the answer stays the same: $3+2=2+3$.
+  4. Adding $0$ does not change the number: $7+0=7$.
+  :::
+
+[[P6·3a8e]]
+This works because when you put the group of $3$ and the group of $2$ together, no marble is lost. You just count them all.
+
+## Examples
+
+[[P7·d85b]]
+We start with a very small sum.
+
+  :::example Work out $4+1$
+  **Solution.** Say the first number "four", then count on one more: "five".
+
+  So $4+1=5$.
+  :::
+
+[[P8·e0e5]]
+Now count on more numbers.
+
+  :::example Work out $5+3$
+  **Solution.** Say the first number "five", then count on three more: "six, seven, eight".
+
+  So $5+3=8$.
+  :::
+
+[[P9·9e1f]]
+When the first number is small, swap to make counting easier.
+
+  :::example Work out $2+6$
+  **Solution.** Swapping the two numbers does not change the answer, so $2+6=6+2$. Count on two numbers from the bigger number $6$: "seven, eight".
+
+  So $2+6=8$.
+  :::
+
+[[P10·5abb]]
+What about adding $0$?
+
+  :::example Work out $7+0$
+  **Solution.** Adding $0$ means adding nothing, so the number stays the same.
+
+  So $7+0=7$.
+  :::
+
+[[P11·70ab]]
+Last, solve a word problem.
+
+  :::example Hens and ducks
+  Grandma has $4$ hens and $5$ ducks. How many hens and ducks does she have altogether?
+
+  ![Four chickens on the left and five ducks on the right](/assets/img/g1/g1-addition-within-10-01.svg)
+
+  **Solution.** "Altogether" means putting the two groups together, so we add. Count on $4$ numbers from the bigger number $5$: "six, seven, eight, nine":
+  $$4+5=5+4=9.$$
+  So Grandma has $9$ birds.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·63b2]]
+- **Counting the first number again.** Wrong: $3+2=6$ because you count "three, four, five, six". Why it is wrong: you counted on $3$ numbers instead of $2$. Right: count on exactly $2$ numbers: four, five. So $3+2=5$.
+- **Putting the equals sign in the wrong place.** Wrong: writing $5=3+2$ and then mixing up how to read it. Why it is wrong: it is easy to mix up the answer and the sum. Right: write the sum first, the answer after the $=$ sign.
+- **No unit in a word problem.** Wrong: "Answer: $9$". Right: "Answer: $9$ birds".
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - plus ($+$) | cộng
+  - equals ($=$) | bằng
+  - put together | gộp
+  - altogether | tất cả
+  - swap | đổi chỗ
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·730b]]
+- Putting two groups together is addition: $3+2=5$.
+- Count on from the first number as many times as the second number says.
+- Swap the two numbers and the answer stays the same.
+- Adding $0$ does not change the number.
+- Questions with "altogether" usually need addition; remember the unit.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

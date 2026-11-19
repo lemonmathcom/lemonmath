@@ -1,0 +1,975 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-05-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-05-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-05-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 38 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-05-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-05-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/g4-adding-fractions (10 bài tập)
+- g4/g4-bar-charts (8 bài tập)
+- g4/g4-comparing-fractions (10 bài tập)
+- g4/measuring-angles (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/g4-adding-fractions
+Bài học: Phép cộng phân số. Phép trừ phân số / Adding fractions. Subtracting fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $\dfrac{3}{10}+\dfrac{4}{10}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{3+4}{10}=\dfrac{7}{10}.$$
+
+**Đáp số.** $\dfrac{7}{10}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{3}{10}+\dfrac{4}{10}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{3+4}{10}=\dfrac{7}{10}.$$
+
+**Answer.** $\dfrac{7}{10}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $\dfrac{5}{12}+\dfrac{1}{12}$ và rút gọn kết quả.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{6}{12}=\dfrac{6:6}{12:6}=\dfrac{1}{2}.$$
+
+**Đáp số.** $\dfrac{1}{2}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{5}{12}+\dfrac{1}{12}$ and simplify the answer.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{6}{12}=\dfrac{6\div6}{12\div6}=\dfrac{1}{2}.$$
+
+**Answer.** $\dfrac{1}{2}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\dfrac{2}{5}+\dfrac{1}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{2}{5}=\dfrac{6}{15},\qquad \dfrac{1}{3}=\dfrac{5}{15}.$$
+Do đó $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{6}{15}+\dfrac{5}{15}=\dfrac{11}{15}$.
+
+**Đáp số.** $\dfrac{11}{15}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{2}{5}+\dfrac{1}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{2}{5}=\dfrac{6}{15},\qquad \dfrac{1}{3}=\dfrac{5}{15}.$$
+So $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{6}{15}+\dfrac{5}{15}=\dfrac{11}{15}$.
+
+**Answer.** $\dfrac{11}{15}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $\dfrac{7}{12}+\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $12$ chia hết cho $6$ nên $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+Do đó $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{7}{12}+\dfrac{10}{12}=\dfrac{17}{12}$.
+
+**Đáp số.** $\dfrac{17}{12}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{7}{12}+\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – EN]
+Since $12$ is divisible by $6$, $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+So $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{7}{12}+\dfrac{10}{12}=\dfrac{17}{12}$.
+
+**Answer.** $\dfrac{17}{12}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính $\dfrac{11}{15}-\dfrac{4}{15}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{11-4}{15}=\dfrac{7}{15}.$$
+
+**Đáp số.** $\dfrac{7}{15}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{11}{15}-\dfrac{4}{15}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{11-4}{15}=\dfrac{7}{15}.$$
+
+**Answer.** $\dfrac{7}{15}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính $\dfrac{3}{4}-\dfrac{2}{5}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{2}{5}=\dfrac{8}{20}.$$
+Do đó $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
+
+**Đáp số.** $\dfrac{7}{20}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{3}{4}-\dfrac{2}{5}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{2}{5}=\dfrac{8}{20}.$$
+So $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
+
+**Answer.** $\dfrac{7}{20}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bác Hai trồng rau trên $\dfrac{2}{5}$ diện tích mảnh vườn và trồng hoa trên $\dfrac{1}{4}$ diện tích mảnh vườn. Hỏi hai loại cây chiếm bao nhiêu phần diện tích mảnh vườn? Phần diện tích còn lại là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Phần diện tích trồng rau và hoa là:
+$$\dfrac{2}{5}+\dfrac{1}{4}=\dfrac{8}{20}+\dfrac{5}{20}=\dfrac{13}{20}.$$
+Phần diện tích còn lại là $1-\dfrac{13}{20}=\dfrac{20}{20}-\dfrac{13}{20}=\dfrac{7}{20}$.
+
+**Đáp số.** $\dfrac{13}{20}$ diện tích; còn lại $\dfrac{7}{20}$ diện tích.
+
+[ĐỀ – EN]
+Uncle Hai grows vegetables on $\dfrac{2}{5}$ of his garden and flowers on $\dfrac{1}{4}$ of it. What fraction of the garden do the two crops cover? What fraction of the garden is left?
+
+[LỜI GIẢI CŨ – EN]
+The fraction of the garden with vegetables and flowers is:
+$$\dfrac{2}{5}+\dfrac{1}{4}=\dfrac{8}{20}+\dfrac{5}{20}=\dfrac{13}{20}.$$
+The fraction left is $1-\dfrac{13}{20}=\dfrac{20}{20}-\dfrac{13}{20}=\dfrac{7}{20}$.
+
+**Answer.** $\dfrac{13}{20}$ of the garden; $\dfrac{7}{20}$ is left.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một chiếc can đựng $\dfrac{3}{4}$ lít nước. Người ta rót ra $\dfrac{1}{3}$ lít. Hỏi trong can còn lại bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Số lít nước còn lại là:
+$$\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}\ \text{(lít)}.$$
+
+**Đáp số.** $\dfrac{5}{12}$ lít.
+
+[ĐỀ – EN]
+Suppose a jug holds $\dfrac{3}{4}$ of a litre of water. $\dfrac{1}{3}$ of a litre is poured out. How many litres of water are left in the jug?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres of water left is:
+$$\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}\ \text{(litres)}.$$
+
+**Answer.** $\dfrac{5}{12}$ litre.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài so sánh phân số. Hãy tính $\dfrac{2}{3}+\dfrac{1}{6}$ rồi so sánh kết quả với $\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{2}{3}=\dfrac{4}{6}$ nên $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{4}{6}+\dfrac{1}{6}=\dfrac{5}{6}$.
+
+Hai phân số có cùng tử số và cùng mẫu số nên bằng nhau.
+
+**Đáp số.** $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
+
+[ĐỀ – EN]
+Remember the lesson on comparing fractions. Work out $\dfrac{2}{3}+\dfrac{1}{6}$ and compare the result with $\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{2}{3}=\dfrac{4}{6}$, so $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{4}{6}+\dfrac{1}{6}=\dfrac{5}{6}$.
+
+The two fractions have the same numerator and the same denominator, so they are equal.
+
+**Answer.** $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính tổng $\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}$. Tổng này còn thiếu bao nhiêu để bằng $1$?
+
+[LỜI GIẢI CŨ – VI]
+Quy đồng về mẫu số $16$: $\dfrac{1}{2}=\dfrac{8}{16}$, $\dfrac{1}{4}=\dfrac{4}{16}$, $\dfrac{1}{8}=\dfrac{2}{16}$.
+
+Tổng là $\dfrac{8}{16}+\dfrac{4}{16}+\dfrac{2}{16}+\dfrac{1}{16}=\dfrac{15}{16}$.
+
+Còn thiếu $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{16}$ để bằng $1$.
+
+**Đáp số.** Tổng bằng $\dfrac{15}{16}$; còn thiếu $\dfrac{1}{16}$ để bằng $1$.
+
+[ĐỀ – EN]
+Work out the sum $\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}$. How much is it short of $1$?
+
+[LỜI GIẢI CŨ – EN]
+Over the denominator $16$: $\dfrac{1}{2}=\dfrac{8}{16}$, $\dfrac{1}{4}=\dfrac{4}{16}$, $\dfrac{1}{8}=\dfrac{2}{16}$.
+
+The sum is $\dfrac{8}{16}+\dfrac{4}{16}+\dfrac{2}{16}+\dfrac{1}{16}=\dfrac{15}{16}$.
+
+It is short of $1$ by $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{16}$.
+
+**Answer.** The sum is $\dfrac{15}{16}$; it is short of $1$ by $\dfrac{1}{16}$.
+
+
+######################################################################
+@@@ g4/g4-bar-charts
+Bài học: Biểu đồ cột / Bar charts
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Ngày nào các bạn mượn ít nhất, và mượn bao nhiêu quyển?
+
+[LỜI GIẢI CŨ – VI]
+Cột thấp nhất là cột Thứ Sáu, ghi $4$.
+
+**Đáp số.** Thứ Sáu, $4$ quyển.
+
+[ĐỀ – EN]
+On which day were the fewest books borrowed, and how many?
+
+[LỜI GIẢI CŨ – EN]
+The shortest bar is Friday, showing $4$.
+
+**Answer.** Friday, $4$ books.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thứ Ba các bạn mượn nhiều hơn Thứ Sáu bao nhiêu quyển?
+
+[LỜI GIẢI CŨ – VI]
+$10-4=6$ (quyển).
+
+**Đáp số.** $6$ quyển.
+
+[ĐỀ – EN]
+How many more books were borrowed on Tuesday than on Friday?
+
+[LỜI GIẢI CŨ – EN]
+$10-4=6$ (books).
+
+**Answer.** $6$ books.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: viết dãy số liệu của biểu đồ theo thứ tự các ngày từ Thứ Hai đến Thứ Sáu, rồi sắp xếp từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Dãy số liệu: $6, 10, 8, 12, 4$. Sắp xếp từ bé đến lớn: $4, 6, 8, 10, 12$.
+
+**Đáp số.** $6, 10, 8, 12, 4$; sắp xếp: $4, 6, 8, 10, 12$.
+
+[ĐỀ – EN]
+Remember the last lesson: write the list of data for the chart in order from Monday to Friday, then put it in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+The list is $6, 10, 8, 12, 4$. In order from smallest to largest: $4, 6, 8, 10, 12$.
+
+**Answer.** $6, 10, 8, 12, 4$; in order: $4, 6, 8, 10, 12$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Ngày nào các bạn mượn số quyển đúng gấp đôi ngày Thứ Sáu?
+
+[LỜI GIẢI CŨ – VI]
+Thứ Sáu mượn $4$ quyển, gấp đôi là $4\times2=8$ quyển. Cột ghi $8$ là Thứ Tư.
+
+**Đáp số.** Thứ Tư.
+
+[ĐỀ – EN]
+On which day were exactly twice as many books borrowed as on Friday?
+
+[LỜI GIẢI CŨ – EN]
+Friday had $4$ books, and twice that is $4\times2=8$ books. The bar showing $8$ is Wednesday.
+
+**Answer.** Wednesday.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Biểu đồ cột cho số bạn thích môn thể thao: cột bóng đá cao $12$, cột bơi $8$, cột cầu lông $6$, cột cờ vua $4$. Muốn biết tổng số bạn được hỏi, ta làm phép tính gì? Vì sao? Tính kết quả.
+
+![Biểu đồ cột số bạn thích bóng đá, bơi, cầu lông và cờ vua](/assets/img/g4/g4-bar-charts-01-vi.svg)
+
+[LỜI GIẢI CŨ – VI]
+Ta làm phép cộng vì tổng số bạn là số bạn của cả bốn môn gộp lại: $12+8+6+4=30$ (bạn).
+
+**Đáp số.** Phép cộng; $30$ bạn.
+
+[ĐỀ – EN]
+A bar chart shows how many children like each sport: the football bar is $12$ tall, swimming $8$, badminton $6$ and chess $4$. To find how many children were asked in all, which calculation do we do? Why? Work it out.
+
+![Bar chart of how many children like football, swimming, badminton and chess](/assets/img/g4/g4-bar-charts-01-en.svg)
+
+[LỜI GIẢI CŨ – EN]
+We add, because the total number of children is the children for all four sports put together: $12+8+6+4=30$ (children).
+
+**Answer.** Addition; $30$ children.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà nói: "Thứ Năm mượn $12$ quyển, Thứ Sáu mượn $4$ quyển, nên Thứ Năm mượn nhiều hơn Thứ Sáu là $12+4=16$ quyển." Hà sai ở đâu? Hãy làm lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Hà dùng phép cộng, nhưng phải dùng phép trừ: $12-4=8$ (quyển).
+
+**Đáp số.** $8$ quyển.
+
+[ĐỀ – EN]
+Ha said: "Thursday had $12$ books and Friday had $4$ books, so Thursday had $12+4=16$ more books than Friday." Where did Ha go wrong? Do it correctly.
+
+[LỜI GIẢI CŨ – EN]
+Ha added, but we must subtract: $12-4=8$ (books).
+
+**Answer.** $8$ books.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Biểu đồ cột cho số cây trồng của bốn lớp, mỗi vạch ứng với $5$ cây: lớp $4$A cao $5$ vạch, lớp $4$B cao $6$ vạch, lớp $4$C cao $4$ vạch, lớp $4$D cao $5$ vạch.
+a) Mỗi lớp trồng bao nhiêu cây?
+b) Lớp nhiều nhất trồng hơn lớp ít nhất bao nhiêu cây?
+c) Trung bình mỗi lớp trồng bao nhiêu cây?
+
+![Biểu đồ cột số cây trồng của các lớp 4A, 4B, 4C, 4D, mỗi vạch lưới ứng với 5 cây](/assets/img/g4/g4-bar-charts-02.svg)
+
+[LỜI GIẢI CŨ – VI]
+a) $4$A: $5\times5=25$; $4$B: $6\times5=30$; $4$C: $4\times5=20$; $4$D: $25$ (cây). b) $30-20=10$ (cây). c) $(25+30+20+25):4=100:4=25$ (cây).
+
+**Đáp số.** a) $25$, $30$, $20$, $25$ cây; b) $10$ cây; c) $25$ cây.
+
+[ĐỀ – EN]
+A bar chart shows the trees planted by four classes, with each mark standing for $5$ trees: class $4$A is $5$ marks tall, class $4$B is $6$ marks, class $4$C is $4$ marks and class $4$D is $5$ marks.
+a) How many trees did each class plant?
+b) How many more trees did the best class plant than the lowest?
+c) On average, how many trees did each class plant?
+
+![Bar chart of trees planted by classes 4A, 4B, 4C and 4D, each grid line standing for 5 trees](/assets/img/g4/g4-bar-charts-02.svg)
+
+[LỜI GIẢI CŨ – EN]
+a) $4$A: $5\times5=25$; $4$B: $6\times5=30$; $4$C: $4\times5=20$; $4$D: $25$ (trees). b) $30-20=10$ (trees). c) $(25+30+20+25)\div4=100\div4=25$ (trees).
+
+**Answer.** a) $25$, $30$, $20$, $25$ trees; b) $10$ trees; c) $25$ trees.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Biểu đồ có ba cột A, B, C. Cột C cao $5$. Cột B cao hơn cột C là $3$. Cột A cao hơn cột B là $4$. Hỏi chiều cao mỗi cột và tổng chiều cao ba cột.
+
+[LỜI GIẢI CŨ – VI]
+Cột B: $5+3=8$. Cột A: $8+4=12$. Tổng: $12+8+5=25$.
+
+**Kiểm tra.** $12-8=4$ và $8-5=3$. Đúng.
+
+**Đáp số.** A cao $12$, B cao $8$, C cao $5$; tổng $25$.
+
+[ĐỀ – EN]
+A chart has three bars A, B and C. Bar C is $5$ tall. Bar B is $3$ taller than bar C. Bar A is $4$ taller than bar B. Find the height of each bar and the total height of the three bars.
+
+[LỜI GIẢI CŨ – EN]
+Bar B: $5+3=8$. Bar A: $8+4=12$. Total: $12+8+5=25$.
+
+**Check.** $12-8=4$ and $8-5=3$. Correct.
+
+**Answer.** A is $12$, B is $8$, C is $5$; total $25$.
+
+
+######################################################################
+@@@ g4/g4-comparing-fractions
+Bài học: So sánh phân số / Comparing fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm:
+a) $\dfrac{5}{9}\ldots\dfrac{7}{9}$
+b) $\dfrac{4}{11}\ldots\dfrac{4}{7}$
+c) $\dfrac{6}{6}\ldots1$
+
+[LỜI GIẢI CŨ – VI]
+a) Cùng mẫu số $9$ và $5<7$ nên $\dfrac{5}{9}<\dfrac{7}{9}$.
+
+b) Cùng tử số $4$ và $11>7$ nên $\dfrac{4}{11}<\dfrac{4}{7}$.
+
+c) Tử số bằng mẫu số nên $\dfrac{6}{6}=1$.
+
+**Đáp số.** a) $<$. b) $<$. c) $=$.
+
+[ĐỀ – EN]
+Put $>$, $<$ or $=$ in the gap:
+a) $\dfrac{5}{9}\ldots\dfrac{7}{9}$
+b) $\dfrac{4}{11}\ldots\dfrac{4}{7}$
+c) $\dfrac{6}{6}\ldots1$
+
+[LỜI GIẢI CŨ – EN]
+a) Same denominator $9$ and $5<7$, so $\dfrac{5}{9}<\dfrac{7}{9}$.
+
+b) Same numerator $4$ and $11>7$, so $\dfrac{4}{11}<\dfrac{4}{7}$.
+
+c) The numerator equals the denominator, so $\dfrac{6}{6}=1$.
+
+**Answer.** a) $<$. b) $<$. c) $=$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+So sánh $\dfrac{3}{5}$ và $\dfrac{7}{10}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $10$ chia hết cho $5$ nên $\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$.
+
+Vì $6<7$ nên $\dfrac{6}{10}<\dfrac{7}{10}$.
+
+**Đáp số.** $\dfrac{3}{5}<\dfrac{7}{10}$.
+
+[ĐỀ – EN]
+Compare $\dfrac{3}{5}$ and $\dfrac{7}{10}$.
+
+[LỜI GIẢI CŨ – EN]
+Since $10$ is divisible by $5$, $\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$.
+
+Since $6<7$, $\dfrac{6}{10}<\dfrac{7}{10}$.
+
+**Answer.** $\dfrac{3}{5}<\dfrac{7}{10}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+So sánh $\dfrac{5}{8}$ và $\dfrac{2}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24},\qquad \dfrac{2}{3}=\dfrac{2\times8}{3\times8}=\dfrac{16}{24}.$$
+Vì $15<16$ nên $\dfrac{15}{24}<\dfrac{16}{24}$.
+
+**Đáp số.** $\dfrac{5}{8}<\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Compare $\dfrac{5}{8}$ and $\dfrac{2}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24},\qquad \dfrac{2}{3}=\dfrac{2\times8}{3\times8}=\dfrac{16}{24}.$$
+Since $15<16$, $\dfrac{15}{24}<\dfrac{16}{24}$.
+
+**Answer.** $\dfrac{5}{8}<\dfrac{2}{3}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+So sánh $\dfrac{11}{12}$ và $\dfrac{7}{6}$ bằng cách so sánh với $1$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{11}{12}$ có tử số bé hơn mẫu số nên $\dfrac{11}{12}<1$. $\dfrac{7}{6}$ có tử số lớn hơn mẫu số nên $\dfrac{7}{6}>1$.
+
+**Đáp số.** $\dfrac{11}{12}<\dfrac{7}{6}$.
+
+[ĐỀ – EN]
+Compare $\dfrac{11}{12}$ and $\dfrac{7}{6}$ by comparing each with $1$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{11}{12}$ has numerator less than denominator, so $\dfrac{11}{12}<1$. $\dfrac{7}{6}$ has numerator greater than denominator, so $\dfrac{7}{6}>1$.
+
+**Answer.** $\dfrac{11}{12}<\dfrac{7}{6}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Sắp xếp các phân số $\dfrac{2}{3}$, $\dfrac{5}{6}$, $\dfrac{1}{2}$ theo thứ tự từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{2}{3}=\dfrac{4}{6},\qquad \dfrac{1}{2}=\dfrac{3}{6},\qquad \dfrac{5}{6}\ \text{(giữ nguyên)}.$$
+Ta có $3<4<5$.
+
+**Đáp số.** $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
+
+[ĐỀ – EN]
+Put the fractions $\dfrac{2}{3}$, $\dfrac{5}{6}$, $\dfrac{1}{2}$ in order from least to greatest.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{2}{3}=\dfrac{4}{6},\qquad \dfrac{1}{2}=\dfrac{3}{6},\qquad \dfrac{5}{6}\ \text{(unchanged)}.$$
+We have $3<4<5$.
+
+**Answer.** $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hai bể nước có dung tích bằng nhau. Bể thứ nhất đã đầy $\dfrac{3}{4}$ bể, bể thứ hai đã đầy $\dfrac{4}{5}$ bể. Hỏi bể nào có nhiều nước hơn?
+
+[LỜI GIẢI CŨ – VI]
+Quy đồng mẫu số với mẫu số chung $20$:
+$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{4}{5}=\dfrac{16}{20}.$$
+Vì $15<16$ nên $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+**Đáp số.** Bể thứ hai có nhiều nước hơn.
+
+[ĐỀ – EN]
+Two water tanks have the same capacity. The first tank is $\dfrac{3}{4}$ full and the second is $\dfrac{4}{5}$ full. Which tank holds more water?
+
+[LỜI GIẢI CŨ – EN]
+Write over the common denominator $20$:
+$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{4}{5}=\dfrac{16}{20}.$$
+Since $15<16$, $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+**Answer.** The second tank holds more water.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một sợi dây đỏ dài $\dfrac{5}{6}$ m và một sợi dây xanh dài $\dfrac{7}{9}$ m. Hỏi sợi dây nào dài hơn?
+
+[LỜI GIẢI CŨ – VI]
+Quy đồng mẫu số với mẫu số chung $18$:
+$$\dfrac{5}{6}=\dfrac{5\times3}{6\times3}=\dfrac{15}{18},\qquad \dfrac{7}{9}=\dfrac{7\times2}{9\times2}=\dfrac{14}{18}.$$
+Vì $15>14$ nên $\dfrac{5}{6}>\dfrac{7}{9}$.
+
+**Đáp số.** Sợi dây đỏ dài hơn.
+
+[ĐỀ – EN]
+Suppose a red rope is $\dfrac{5}{6}$ m long and a blue rope is $\dfrac{7}{9}$ m long. Which rope is longer?
+
+[LỜI GIẢI CŨ – EN]
+Write over the common denominator $18$:
+$$\dfrac{5}{6}=\dfrac{5\times3}{6\times3}=\dfrac{15}{18},\qquad \dfrac{7}{9}=\dfrac{7\times2}{9\times2}=\dfrac{14}{18}.$$
+Since $15>14$, $\dfrac{5}{6}>\dfrac{7}{9}$.
+
+**Answer.** The red rope is longer.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài rút gọn phân số. Rút gọn $\dfrac{18}{24}$ rồi so sánh với $\dfrac{4}{5}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{18}{24}=\dfrac{18:6}{24:6}=\dfrac{3}{4}$.
+
+Quy đồng mẫu số với mẫu số chung $20$: $\dfrac{3}{4}=\dfrac{15}{20}$ và $\dfrac{4}{5}=\dfrac{16}{20}$. Vì $15<16$ nên $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+**Đáp số.** $\dfrac{18}{24}<\dfrac{4}{5}$.
+
+[ĐỀ – EN]
+Remember the lesson on simplifying fractions. Simplify $\dfrac{18}{24}$ and then compare it with $\dfrac{4}{5}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{18}{24}=\dfrac{18\div6}{24\div6}=\dfrac{3}{4}$.
+
+Write over the common denominator $20$: $\dfrac{3}{4}=\dfrac{15}{20}$ and $\dfrac{4}{5}=\dfrac{16}{20}$. Since $15<16$, $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+**Answer.** $\dfrac{18}{24}<\dfrac{4}{5}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm các số tự nhiên $x$ sao cho $\dfrac{3}{7}<\dfrac{x}{7}<\dfrac{6}{7}$.
+
+[LỜI GIẢI CŨ – VI]
+Các phân số có cùng mẫu số $7$ nên $3<x<6$.
+
+Các số tự nhiên $x$ thoả mãn là $4$ và $5$.
+
+**Đáp số.** $x=4$ hoặc $x=5$.
+
+[ĐỀ – EN]
+Find the natural numbers $x$ such that $\dfrac{3}{7}<\dfrac{x}{7}<\dfrac{6}{7}$.
+
+[LỜI GIẢI CŨ – EN]
+The fractions have the same denominator $7$, so $3<x<6$.
+
+The natural numbers $x$ that work are $4$ and $5$.
+
+**Answer.** $x=4$ or $x=5$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+So sánh $\dfrac{99}{100}$ và $\dfrac{100}{101}$ mà không quy đồng mẫu số.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{99}{100}$ còn thiếu $\dfrac{1}{100}$ để bằng $1$, còn $\dfrac{100}{101}$ còn thiếu $\dfrac{1}{101}$ để bằng $1$.
+
+Vì $\dfrac{1}{100}>\dfrac{1}{101}$ (cùng tử số, mẫu số $100<101$) nên $\dfrac{100}{101}$ thiếu ít hơn, tức là gần $1$ hơn.
+
+**Đáp số.** $\dfrac{99}{100}<\dfrac{100}{101}$.
+
+[ĐỀ – EN]
+Compare $\dfrac{99}{100}$ and $\dfrac{100}{101}$ without using a common denominator.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{99}{100}$ is $\dfrac{1}{100}$ short of $1$, and $\dfrac{100}{101}$ is $\dfrac{1}{101}$ short of $1$.
+
+Since $\dfrac{1}{100}>\dfrac{1}{101}$ (same numerator, and $100<101$), $\dfrac{100}{101}$ is short by less, so it is closer to $1$.
+
+**Answer.** $\dfrac{99}{100}<\dfrac{100}{101}$.
+
+
+######################################################################
+@@@ g4/measuring-angles
+Bài học: Đo góc, đơn vị đo góc. Góc nhọn, góc tù, góc bẹt / Measuring angles. Degrees. Acute, obtuse and straight angles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một góc có số đo $65^\circ$. Đó là góc gì?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $65^\circ<90^\circ$ nên đó là góc nhọn.
+
+**Đáp số.** Góc nhọn.
+
+[ĐỀ – EN]
+An angle measures $65^\circ$. What kind of angle is it?
+
+[LỜI GIẢI CŨ – EN]
+We have $65^\circ<90^\circ$, so it is an acute angle.
+
+**Answer.** An acute angle.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho các góc có số đo $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$. Hãy cho biết mỗi góc là góc gì.
+
+[LỜI GIẢI CŨ – VI]
+$100^\circ$ là góc tù, $90^\circ$ là góc vuông, $30^\circ$ là góc nhọn, $180^\circ$ là góc bẹt.
+
+**Đáp số.** Góc tù, góc vuông, góc nhọn, góc bẹt.
+
+[ĐỀ – EN]
+Some angles measure $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$. Say what kind each angle is.
+
+[LỜI GIẢI CŨ – EN]
+$100^\circ$ is an obtuse angle, $90^\circ$ is a right angle, $30^\circ$ is an acute angle, $180^\circ$ is a straight angle.
+
+**Answer.** Obtuse, right, acute, straight.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Lúc $4$ giờ, hai kim đồng hồ tạo thành góc bao nhiêu độ? Đó là góc gì?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $4\times30^\circ=120^\circ$. Vì $90^\circ<120^\circ<180^\circ$ nên đó là góc tù.
+
+**Đáp số.** $120^\circ$, góc tù.
+
+[ĐỀ – EN]
+At $4$ o'clock, how many degrees is the angle between the two hands of a clock? What kind of angle is it?
+
+[LỜI GIẢI CŨ – EN]
+We have $4\times30^\circ=120^\circ$. Since $90^\circ<120^\circ<180^\circ$, it is an obtuse angle.
+
+**Answer.** $120^\circ$, an obtuse angle.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ chấm: $125^\circ\ \ldots\ 90^\circ+35^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $90^\circ+35^\circ=125^\circ$. Hai số đo bằng nhau.
+
+**Đáp số.** Dấu $=$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: $125^\circ\ \ldots\ 90^\circ+35^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+We have $90^\circ+35^\circ=125^\circ$. The two sizes are equal.
+
+**Answer.** The sign $=$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Sắp xếp các góc có số đo $150^\circ$, $60^\circ$, $100^\circ$, $25^\circ$ theo thứ tự từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $25^\circ<60^\circ<100^\circ<150^\circ$.
+
+**Đáp số.** $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
+
+[ĐỀ – EN]
+Put the angles of size $150^\circ$, $60^\circ$, $100^\circ$, $25^\circ$ in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+We have $25^\circ<60^\circ<100^\circ<150^\circ$.
+
+**Answer.** $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cánh cổng (số liệu giả định) được mở một góc $35^\circ$, rồi mở thêm $50^\circ$ nữa. Hỏi cánh cổng mở một góc bao nhiêu độ? Đó là góc gì?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Góc mở của cánh cổng là:
+$$35^\circ+50^\circ=85^\circ.$$
+Vì $85^\circ<90^\circ$ nên đó là góc nhọn.
+
+**Đáp số.** $85^\circ$, góc nhọn.
+
+[ĐỀ – EN]
+A gate (made-up numbers) is opened through an angle of $35^\circ$, then opened a further $50^\circ$. Through what angle is the gate now open? What kind of angle is it?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The angle through which the gate is open is:
+$$35^\circ+50^\circ=85^\circ.$$
+Since $85^\circ<90^\circ$, it is an acute angle.
+
+**Answer.** $85^\circ$, an acute angle.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một góc bẹt được chia thành hai góc. Một góc có số đo $65^\circ$. Hỏi góc còn lại có số đo bao nhiêu độ? Đó là góc gì?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số đo góc còn lại là:
+$$180^\circ-65^\circ=115^\circ.$$
+Vì $90^\circ<115^\circ<180^\circ$ nên đó là góc tù.
+
+**Đáp số.** $115^\circ$, góc tù.
+
+[ĐỀ – EN]
+A straight angle is split into two angles. One angle measures $65^\circ$. How many degrees is the other angle? What kind of angle is it?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The size of the other angle is:
+$$180^\circ-65^\circ=115^\circ.$$
+Since $90^\circ<115^\circ<180^\circ$, it is an obtuse angle.
+
+**Answer.** $115^\circ$, an obtuse angle.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài biểu thức chứa chữ. Lúc $n$ giờ ($n$ từ $1$ đến $6$), hai kim đồng hồ tạo thành góc có số đo $n\times30^\circ$. Tính giá trị của biểu thức khi $n=3$ và khi $n=5$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $n=3$ thì $n\times30^\circ=3\times30^\circ=90^\circ$. Khi $n=5$ thì $n\times30^\circ=5\times30^\circ=150^\circ$.
+
+**Đáp số.** $90^\circ$ và $150^\circ$.
+
+[ĐỀ – EN]
+Remember the lesson on expressions with letters. At $n$ o'clock ($n$ from $1$ to $6$), the two hands of a clock make an angle of $n\times30^\circ$. Find the value of the expression when $n=3$ and when $n=5$.
+
+[LỜI GIẢI CŨ – EN]
+When $n=3$, $n\times30^\circ=3\times30^\circ=90^\circ$. When $n=5$, $n\times30^\circ=5\times30^\circ=150^\circ$.
+
+**Answer.** $90^\circ$ and $150^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam nói: "Góc $120^\circ$ là góc nhọn vì $120$ là một số lớn." Em hãy kiểm tra câu nói của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $120^\circ>90^\circ$ nên góc $120^\circ$ không phải góc nhọn. Vì $120^\circ<180^\circ$ nên đó là góc tù.
+
+**Đáp số.** Nam sai; góc $120^\circ$ là góc tù.
+
+[ĐỀ – EN]
+Nam says: "An angle of $120^\circ$ is an acute angle because $120$ is a big number." Check Nam's statement. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+We have $120^\circ>90^\circ$, so an angle of $120^\circ$ is not acute. Since $120^\circ<180^\circ$, it is an obtuse angle.
+
+**Answer.** Nam is wrong; an angle of $120^\circ$ is an obtuse angle.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Xét các giờ tròn từ $1$ giờ đến $6$ giờ. Lúc nào hai kim đồng hồ tạo thành góc nhọn? Lúc nào tạo thành góc tù?
+
+[LỜI GIẢI CŨ – VI]
+Số đo góc lúc $1$, $2$, $3$, $4$, $5$, $6$ giờ lần lượt là $30^\circ$, $60^\circ$, $90^\circ$, $120^\circ$, $150^\circ$, $180^\circ$. Các góc $30^\circ$ và $60^\circ$ bé hơn $90^\circ$; các góc $120^\circ$ và $150^\circ$ nằm giữa $90^\circ$ và $180^\circ$.
+
+**Đáp số.** Góc nhọn lúc $1$ giờ và $2$ giờ; góc tù lúc $4$ giờ và $5$ giờ.
+
+[ĐỀ – EN]
+Look at the whole hours from $1$ o'clock to $6$ o'clock. At which times do the two hands of a clock make an acute angle? At which times do they make an obtuse angle?
+
+[LỜI GIẢI CŨ – EN]
+The sizes of the angle at $1$, $2$, $3$, $4$, $5$, $6$ o'clock are $30^\circ$, $60^\circ$, $90^\circ$, $120^\circ$, $150^\circ$, $180^\circ$. The angles $30^\circ$ and $60^\circ$ are less than $90^\circ$; the angles $120^\circ$ and $150^\circ$ lie between $90^\circ$ and $180^\circ$.
+
+**Answer.** An acute angle at $1$ o'clock and $2$ o'clock; an obtuse angle at $4$ o'clock and $5$ o'clock.
+
+
+===== HẾT FILE Lemonmath.com-05-LG =====

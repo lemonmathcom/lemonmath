@@ -1,0 +1,1036 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-08-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-08-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-08-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 41 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-08-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-08-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/numbers-in-the-millions (10 bài tập)
+- g4/odd-and-even-numbers (8 bài tập)
+- g4/parallelograms-and-rhombuses (7 bài tập)
+- g4/perpendicular-lines (8 bài tập)
+- g4/review-calculations-to-100000 (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/numbers-in-the-millions
+Bài học: Các số trong phạm vi lớp triệu. So sánh các số có nhiều chữ số / Numbers in the millions. Comparing large numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số: bốn trăm hai mươi triệu ba trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+"Bốn trăm hai mươi triệu" là $420\,000\,000$ và "ba trăm nghìn" là $300\,000$. Ta có $420\,000\,000+300\,000=420\,300\,000$.
+
+**Đáp số.** $420\,300\,000$.
+
+[ĐỀ – EN]
+Write the number: four hundred and twenty million, three hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+"Four hundred and twenty million" is $420\,000\,000$ and "three hundred thousand" is $300\,000$. We have $420\,000\,000+300\,000=420\,300\,000$.
+
+**Answer.** $420\,300\,000$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đọc số $508\,060\,000$.
+
+[LỜI GIẢI CŨ – VI]
+Số $508\,060\,000$ có lớp triệu là $508$, lớp nghìn là $060$ và lớp đơn vị là $000$.
+
+**Đáp số.** Năm trăm linh tám triệu không trăm sáu mươi nghìn.
+
+[ĐỀ – EN]
+Read the number $508\,060\,000$.
+
+[LỜI GIẢI CŨ – EN]
+The number $508\,060\,000$ has millions period $508$, thousands period $060$ and units period $000$.
+
+**Answer.** Five hundred and eight million, sixty thousand.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết số $26\,804\,109$ thành tổng.
+
+[LỜI GIẢI CŨ – VI]
+Số $26\,804\,109$ có $2$ chục triệu, $6$ triệu, $8$ trăm nghìn, $0$ chục nghìn, $4$ nghìn, $1$ trăm, $0$ chục và $9$ đơn vị. Ta có:
+$$26\,804\,109=20\,000\,000+6\,000\,000+800\,000+4\,000+100+9.$$
+
+**Đáp số.** $20\,000\,000+6\,000\,000+800\,000+4\,000+100+9$.
+
+[ĐỀ – EN]
+Write $26\,804\,109$ as a sum.
+
+[LỜI GIẢI CŨ – EN]
+The number $26\,804\,109$ has $2$ ten-millions, $6$ millions, $8$ hundred-thousands, $0$ ten-thousands, $4$ thousands, $1$ hundred, $0$ tens and $9$ ones. We have:
+$$26\,804\,109=20\,000\,000+6\,000\,000+800\,000+4\,000+100+9.$$
+
+**Answer.** $20\,000\,000+6\,000\,000+800\,000+4\,000+100+9$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong số $372\,915\,048$, chữ số $7$ và chữ số $9$ ở hàng nào, lớp nào và có giá trị bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Số $372\,915\,048$ có $3$ trăm triệu, $7$ chục triệu, $2$ triệu, $9$ trăm nghìn, $1$ chục nghìn, $5$ nghìn, $0$ trăm, $4$ chục và $8$ đơn vị.
+
+Chữ số $7$ ở hàng chục triệu, lớp triệu, giá trị $70\,000\,000$. Chữ số $9$ ở hàng trăm nghìn, lớp nghìn, giá trị $900\,000$.
+
+**Đáp số.** $7$: hàng chục triệu, lớp triệu, $70\,000\,000$; $9$: hàng trăm nghìn, lớp nghìn, $900\,000$.
+
+[ĐỀ – EN]
+In the number $372\,915\,048$, which place and which period are the digits $7$ and $9$ in, and what are their values?
+
+[LỜI GIẢI CŨ – EN]
+The number $372\,915\,048$ has $3$ hundred-millions, $7$ ten-millions, $2$ millions, $9$ hundred-thousands, $1$ ten-thousand, $5$ thousands, $0$ hundreds, $4$ tens and $8$ ones.
+
+The digit $7$ is in the ten-millions place, in the millions period, with value $70\,000\,000$. The digit $9$ is in the hundred-thousands place, in the thousands period, with value $900\,000$.
+
+**Answer.** $7$: ten-millions place, millions period, $70\,000\,000$; $9$: hundred-thousands place, thousands period, $900\,000$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ chấm: $487\,215\,000\ \ldots\ 487\,125\,000$.
+
+[LỜI GIẢI CŨ – VI]
+Hai số đều có chín chữ số. Các hàng trăm triệu, chục triệu, triệu đều bằng nhau. Hàng trăm nghìn: $2>1$. Vậy $487\,215\,000>487\,125\,000$.
+
+**Đáp số.** Dấu $>$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: $487\,215\,000\ \ldots\ 487\,125\,000$.
+
+[LỜI GIẢI CŨ – EN]
+Both numbers have nine digits. The hundred-millions, ten-millions and millions are equal. Hundred-thousands: $2>1$. So $487\,215\,000>487\,125\,000$.
+
+**Answer.** The sign $>$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Sắp xếp các số $508\,000\,000$, $58\,000\,000$, $580\,000\,000$, $85\,000\,000$ theo thứ tự từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Hai số $58\,000\,000$ và $85\,000\,000$ có tám chữ số, hai số còn lại có chín chữ số. Ở hai số tám chữ số: $5<8$ nên $58\,000\,000<85\,000\,000$. Ở hai số chín chữ số: hàng chục triệu $0<8$ nên $508\,000\,000<580\,000\,000$.
+
+Ta có $58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000$.
+
+**Đáp số.** $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
+
+[ĐỀ – EN]
+Put the numbers $508\,000\,000$, $58\,000\,000$, $580\,000\,000$, $85\,000\,000$ in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+The numbers $58\,000\,000$ and $85\,000\,000$ have eight digits, and the other two have nine digits. Among the eight-digit numbers: $5<8$, so $58\,000\,000<85\,000\,000$. Among the nine-digit numbers: the ten-millions digit $0<8$, so $508\,000\,000<580\,000\,000$.
+
+We have $58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000$.
+
+**Answer.** $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giá ba chiếc xe máy (số liệu giả định) lần lượt là $45\,000\,000$ đồng, $52\,500\,000$ đồng và $49\,800\,000$ đồng. Hãy sắp xếp giá theo thứ tự từ thấp đến cao.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Hàng chục triệu của ba số là $4$, $5$ và $4$. Số $52\,500\,000$ có hàng chục triệu lớn nhất. Hai số còn lại cùng hàng chục triệu là $4$; hàng triệu: $5$ và $9$. Số $45\,000\,000$ bé hơn.
+
+Ta có $45\,000\,000<49\,800\,000<52\,500\,000$.
+
+**Đáp số.** $45\,000\,000$ đồng; $49\,800\,000$ đồng; $52\,500\,000$ đồng.
+
+[ĐỀ – EN]
+The prices of three motorbikes (made-up numbers) are $45\,000\,000$ dong, $52\,500\,000$ dong and $49\,800\,000$ dong. Put the prices in order from lowest to highest.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The ten-millions digits of the three numbers are $4$, $5$ and $4$. The number $52\,500\,000$ has the largest ten-millions digit. The other two have the same ten-millions digit, $4$; millions: $5$ and $9$. The number $45\,000\,000$ is smaller.
+
+We have $45\,000\,000<49\,800\,000<52\,500\,000$.
+
+**Answer.** $45\,000\,000$ dong; $49\,800\,000$ dong; $52\,500\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ trong phạm vi $100\,000$. Tính $1\,000\,000-99\,999$. Kết quả là số có mấy chữ số? Chữ số $9$ của kết quả ở hàng nào, lớp nào?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $1\,000\,000-99\,999=900\,001$. Kết quả có sáu chữ số. Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn.
+
+**Đáp số.** $900\,001$; sáu chữ số; hàng trăm nghìn, lớp nghìn.
+
+[ĐỀ – EN]
+Remember the lesson on addition and subtraction within $100\,000$. Work out $1\,000\,000-99\,999$. How many digits does the result have? Which place and which period is the digit $9$ of the result in?
+
+[LỜI GIẢI CŨ – EN]
+We have $1\,000\,000-99\,999=900\,001$. The result has six digits. The digit $9$ is in the hundred-thousands place, in the thousands period.
+
+**Answer.** $900\,001$; six digits; hundred-thousands place, thousands period.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam nói: "$99\,999\,999$ lớn hơn $100\,000\,000$ vì các chữ số $9$ lớn hơn chữ số $1$." Em hãy kiểm tra câu nói của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Số $99\,999\,999$ có tám chữ số, còn $100\,000\,000$ có chín chữ số. Số có nhiều chữ số hơn thì lớn hơn, nên $99\,999\,999<100\,000\,000$. Nam đã chỉ so sánh chữ số đầu tiên.
+
+**Đáp số.** Nam sai; $99\,999\,999<100\,000\,000$.
+
+[ĐỀ – EN]
+Nam says: "$99\,999\,999$ is greater than $100\,000\,000$ because the digits $9$ are greater than the digit $1$." Check Nam's statement. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The number $99\,999\,999$ has eight digits and $100\,000\,000$ has nine digits. The number with more digits is greater, so $99\,999\,999<100\,000\,000$. Nam only compared the first digit.
+
+**Answer.** Nam is wrong; $99\,999\,999<100\,000\,000$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Từ $1\,000\,000$ đến $99\,000\,000$ có bao nhiêu số tròn triệu (kể cả hai số này)?
+
+[LỜI GIẢI CŨ – VI]
+Các số tròn triệu từ $1\,000\,000$ đến $99\,000\,000$ là $1$ triệu, $2$ triệu, ..., $99$ triệu. Số các số đó là $99-1+1=99$.
+
+**Đáp số.** $99$ số.
+
+[ĐỀ – EN]
+How many whole numbers of millions are there from $1\,000\,000$ to $99\,000\,000$ (including both of these)?
+
+[LỜI GIẢI CŨ – EN]
+The whole numbers of millions from $1\,000\,000$ to $99\,000\,000$ are $1$ million, $2$ million, ..., $99$ million. The number of them is $99-1+1=99$.
+
+**Answer.** $99$ numbers.
+
+
+######################################################################
+@@@ g4/odd-and-even-numbers
+Bài học: Số chẵn, số lẻ / Odd and even numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong các số $7\,482$; $6\,135$; $20\,508$; $9\,999$, những số nào là số chẵn?
+
+[LỜI GIẢI CŨ – VI]
+Chữ số tận cùng: $2$, $5$, $8$, $9$. Vậy số chẵn là $7\,482$ và $20\,508$.
+
+**Đáp số.** $7\,482$ và $20\,508$.
+
+[ĐỀ – EN]
+Among the numbers $7\,482$; $6\,135$; $20\,508$; $9\,999$, which are even?
+
+[LỜI GIẢI CŨ – EN]
+The last digits are $2$, $5$, $8$, $9$. So the even numbers are $7\,482$ and $20\,508$.
+
+**Answer.** $7\,482$ and $20\,508$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+a) Viết ba số chẵn liên tiếp bắt đầu từ $96$.
+b) Viết ba số lẻ liên tiếp bắt đầu từ $49$.
+
+[LỜI GIẢI CŨ – VI]
+a) $96$; $96+2=98$; $98+2=100$.
+
+b) $49$; $49+2=51$; $51+2=53$.
+
+**Đáp số.** a) $96$, $98$, $100$. b) $49$, $51$, $53$.
+
+[ĐỀ – EN]
+a) Write three consecutive even numbers starting from $96$.
+b) Write three consecutive odd numbers starting from $49$.
+
+[LỜI GIẢI CŨ – EN]
+a) $96$; $96+2=98$; $98+2=100$.
+
+b) $49$; $49+2=51$; $51+2=53$.
+
+**Answer.** a) $96$, $98$, $100$. b) $49$, $51$, $53$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+a) Tìm số chẵn lớn nhất có bốn chữ số khác nhau.
+b) Tìm số lẻ bé nhất có ba chữ số khác nhau.
+
+[LỜI GIẢI CŨ – VI]
+a) Lấy các chữ số lớn nhất: $9$, $8$, $7$, $6$. Số $9\,876$ tận cùng $6$ nên là số chẵn.
+
+b) Hàng trăm bé nhất là $1$. Hàng chục bé nhất khác $1$ là $0$. Hàng đơn vị là số lẻ bé nhất khác $1$, tức $3$. Được $103$.
+
+**Đáp số.** a) $9\,876$. b) $103$.
+
+[ĐỀ – EN]
+a) Find the greatest four-digit even number whose digits are all different.
+b) Find the least three-digit odd number whose digits are all different.
+
+[LỜI GIẢI CŨ – EN]
+a) Take the biggest digits: $9$, $8$, $7$, $6$. The number $9\,876$ ends in $6$, so it is even.
+
+b) The smallest hundreds digit is $1$. The smallest tens digit other than $1$ is $0$. The ones digit is the smallest odd digit other than $1$, which is $3$. This gives $103$.
+
+**Answer.** a) $9\,876$. b) $103$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tổng của hai số lẻ là số chẵn hay số lẻ? Em hãy thử với ba cặp số: $3+5$; $7+9$; $11+15$.
+
+[LỜI GIẢI CŨ – VI]
+$3+5=8$; $7+9=16$; $11+15=26$. Cả ba tổng đều có chữ số tận cùng chẵn. Vì sao? Mỗi số lẻ gồm một số chẵn cộng thêm $1$, nên hai số lẻ cộng lại có thêm $1+1=2$, và kết quả vẫn chia hết cho $2$.
+
+**Đáp số.** Tổng của hai số lẻ là số chẵn.
+
+[ĐỀ – EN]
+Is the sum of two odd numbers even or odd? Try three pairs: $3+5$; $7+9$; $11+15$.
+
+[LỜI GIẢI CŨ – EN]
+$3+5=8$; $7+9=16$; $11+15=26$. All three sums end in an even digit. Why? Each odd number is an even number plus $1$, so two odd numbers together have an extra $1+1=2$, and the total still divides exactly by $2$.
+
+**Answer.** The sum of two odd numbers is even.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bình nói: "$1\,250$ là số lẻ vì nó có chữ số $5$". Bình sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số tận cùng của $1\,250$ là $0$. Chia thử: $1\,250:2=625$, không dư.
+
+**Đáp số.** Bình sai: $1\,250$ là số chẵn vì tận cùng $0$.
+
+[ĐỀ – EN]
+Binh says: "$1\,250$ is odd because it has the digit $5$". Where did Binh go wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+The last digit of $1\,250$ is $0$. Divide: $1\,250\div2=625$ with no remainder.
+
+**Answer.** Binh is wrong: $1\,250$ is even because it ends in $0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (phép chia). Lớp có $34$ bạn xếp hàng đôi. Sau đó có thêm một bạn nữa, thành $35$ bạn.
+
+a) Tính $34:2$ và $35:2$.
+b) Trường hợp nào có bạn bị thừa?
+
+[LỜI GIẢI CŨ – VI]
+a) $34:2=17$, dư $0$. $35:2=17$, dư $1$.
+
+b) Khi có $35$ bạn thì dư $1$ bạn.
+
+**Đáp số.** a) $17$ dư $0$; $17$ dư $1$. b) Trường hợp $35$ bạn.
+
+[ĐỀ – EN]
+Remember the earlier lesson on division. A class of $34$ pupils lines up in pairs. Then one more pupil joins, making $35$ pupils.
+
+a) Work out $34\div2$ and $35\div2$.
+b) In which case is a pupil left over?
+
+[LỜI GIẢI CŨ – EN]
+a) $34\div2=17$, remainder $0$. $35\div2=17$, remainder $1$.
+
+b) With $35$ pupils, $1$ pupil is left over.
+
+**Answer.** a) $17$ remainder $0$; $17$ remainder $1$. b) The case with $35$ pupils.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một dãy nhà đánh số lẻ liên tiếp: $15$, $17$, $19$, …. Hỏi nhà số $25$ là nhà thứ mấy trong dãy? Vì sao các số của dãy đều là số lẻ?
+
+[LỜI GIẢI CŨ – VI]
+Dãy: $15$, $17$, $19$, $21$, $23$, $25$. Số $25$ là số thứ $6$. Mỗi số cộng thêm $2$ nên chữ số tận cùng vẫn lẻ.
+
+**Đáp số.** Nhà số $25$ là nhà thứ $6$.
+
+[ĐỀ – EN]
+A row of houses has consecutive odd numbers: $15$, $17$, $19$, …. Which house in the row is number $25$? Why are all the numbers in the row odd?
+
+[LỜI GIẢI CŨ – EN]
+The row: $15$, $17$, $19$, $21$, $23$, $25$. The number $25$ is the $6$th. Each number is $2$ more than the one before, so the last digit stays odd.
+
+**Answer.** House number $25$ is the $6$th house.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Có bao nhiêu số chẵn có hai chữ số? Có bao nhiêu số lẻ có hai chữ số?
+
+[LỜI GIẢI CŨ – VI]
+Các chục từ $10$ đến $99$ là $10$–$19$, $20$–$29$, …, $90$–$99$: có $9$ chục. Mỗi chục có $5$ số chẵn và $5$ số lẻ. Số chẵn: $9\times5=45$. Số lẻ: $9\times5=45$.
+
+**Đáp số.** $45$ số chẵn và $45$ số lẻ.
+
+[ĐỀ – EN]
+How many two-digit even numbers are there? How many two-digit odd numbers are there?
+
+[LỜI GIẢI CŨ – EN]
+The groups of ten from $10$ to $99$ are $10$–$19$, $20$–$29$, …, $90$–$99$: $9$ groups. Each group has $5$ even and $5$ odd numbers. Even numbers: $9\times5=45$. Odd numbers: $9\times5=45$.
+
+**Answer.** $45$ even numbers and $45$ odd numbers.
+
+
+######################################################################
+@@@ g4/parallelograms-and-rhombuses
+Bài học: Hình bình hành, hình thoi / Parallelograms and rhombuses
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hình bình hành $EFGH$ có $EF=8$ cm, $FG=3$ cm. Tính $GH$ và $HE$.
+
+[LỜI GIẢI CŨ – VI]
+Trong hình bình hành $EFGH$, hai cạnh đối diện bằng nhau. Do đó $GH=EF=8$ cm và $HE=FG=3$ cm.
+
+**Đáp số.** $GH=8$ cm; $HE=3$ cm.
+
+[ĐỀ – EN]
+In the parallelogram $EFGH$, $EF=8$ cm and $FG=3$ cm. Find $GH$ and $HE$.
+
+[LỜI GIẢI CŨ – EN]
+In the parallelogram $EFGH$, opposite sides are equal. Hence $GH=EF=8$ cm and $HE=FG=3$ cm.
+
+**Answer.** $GH=8$ cm; $HE=3$ cm.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hình thoi $ABCD$ có cạnh $9$ cm. Tính chu vi hình thoi $ABCD$.
+
+[LỜI GIẢI CŨ – VI]
+Chu vi hình thoi $ABCD$ là $9\times4=36$ (cm).
+
+**Đáp số.** $36$ cm.
+
+[ĐỀ – EN]
+The rhombus $ABCD$ has side $9$ cm. Find the perimeter of the rhombus $ABCD$.
+
+[LỜI GIẢI CŨ – EN]
+The perimeter of the rhombus $ABCD$ is $9\times4=36$ (cm).
+
+**Answer.** $36$ cm.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hình chữ nhật có phải là hình bình hành không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật là tứ giác có hai cặp cạnh đối diện song song. Vậy hình chữ nhật là hình bình hành.
+
+**Đáp số.** Có.
+
+[ĐỀ – EN]
+Is a rectangle a parallelogram? Why?
+
+[LỜI GIẢI CŨ – EN]
+A rectangle is a quadrilateral with two pairs of parallel opposite sides. So a rectangle is a parallelogram.
+
+**Answer.** Yes.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một mảnh vườn hình bình hành có hai cạnh kề dài $18$ m và $12$ m. Người ta làm hàng rào quanh mảnh vườn và để chừa một cổng rộng $3$ m. Hàng rào dài bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Chu vi mảnh vườn là $(18+12)\times2=60$ (m).
+
+Độ dài hàng rào là $60-3=57$ (m).
+
+**Đáp số.** $57$ m.
+
+[ĐỀ – EN]
+A garden is a parallelogram with adjacent sides $18$ m and $12$ m. A fence is built all the way round the garden, leaving a gap of $3$ m for a gate. How many metres of fence are needed?
+
+[LỜI GIẢI CŨ – EN]
+The perimeter of the garden is $(18+12)\times2=60$ (m).
+
+The length of the fence is $60-3=57$ (m).
+
+**Answer.** $57$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Người ta viền xung quanh mỗi viên gạch hình thoi cạnh $20$ cm bằng một dải nẹp. Cần bao nhiêu mét nẹp để viền $5$ viên gạch như vậy?
+
+[LỜI GIẢI CŨ – VI]
+Chu vi một viên gạch là $20\times4=80$ (cm).
+
+Độ dài nẹp để viền $5$ viên gạch là $80\times5=400$ (cm), tức là $4$ m.
+
+**Đáp số.** $4$ m.
+
+[ĐỀ – EN]
+A rhombus-shaped tile has side $20$ cm. A strip of trim goes round the edge of each tile. How many metres of trim are needed for $5$ such tiles?
+
+[LỜI GIẢI CŨ – EN]
+The perimeter of one tile is $20\times4=80$ (cm).
+
+The trim for $5$ tiles is $80\times5=400$ (cm), which is $4$ m.
+
+**Answer.** $4$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hình thoi $ABCD$ có $AB=6$ cm. Hình bình hành $MNPQ$ có $MN=8$ cm và chu vi bằng chu vi hình thoi $ABCD$. Tính $NP$.
+
+[LỜI GIẢI CŨ – VI]
+Chu vi hình thoi $ABCD$ là $6\times4=24$ (cm).
+
+Nửa chu vi hình bình hành $MNPQ$ là $24:2=12$ (cm). Do đó $NP=12-8=4$ (cm).
+
+**Đáp số.** $NP=4$ cm.
+
+[ĐỀ – EN]
+The rhombus $ABCD$ has $AB=6$ cm. The parallelogram $MNPQ$ has $MN=8$ cm and the same perimeter as the rhombus $ABCD$. Find $NP$.
+
+[LỜI GIẢI CŨ – EN]
+The perimeter of the rhombus $ABCD$ is $6\times4=24$ (cm).
+
+Half the perimeter of the parallelogram $MNPQ$ is $24\div2=12$ (cm). Hence $NP=12-8=4$ (cm).
+
+**Answer.** $NP=4$ cm.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một hình bình hành có chu vi $36$ cm, hai cạnh kề hơn kém nhau $4$ cm. Tính độ dài hai cạnh kề của hình bình hành đó.
+
+[LỜI GIẢI CŨ – VI]
+Tổng hai cạnh kề là $36:2=18$ (cm).
+
+Cạnh dài là $(18+4):2=11$ (cm). Cạnh ngắn là $11-4=7$ (cm).
+
+**Thử lại.** $(11+7)\times2=36$. Đúng.
+
+**Đáp số.** $11$ cm và $7$ cm.
+
+[ĐỀ – EN]
+A parallelogram has perimeter $36$ cm, and its two adjacent sides differ by $4$ cm. Find the lengths of the two adjacent sides.
+
+[LỜI GIẢI CŨ – EN]
+The sum of the two adjacent sides is $36\div2=18$ (cm).
+
+The longer side is $(18+4)\div2=11$ (cm). The shorter side is $11-4=7$ (cm).
+
+**Check.** $(11+7)\times2=36$. Correct.
+
+**Answer.** $11$ cm and $7$ cm.
+
+
+######################################################################
+@@@ g4/perpendicular-lines
+Bài học: Hai đường thẳng vuông góc. Hai đường thẳng song song / Perpendicular lines. Parallel lines
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hình chữ nhật $MNPQ$. Kể tên các cặp cạnh vuông góc với nhau.
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật $MNPQ$ có bốn góc vuông tại $M$, $N$, $P$, $Q$. Do đó $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$, $QM\perp MN$.
+
+**Đáp số.** Bốn cặp cạnh vuông góc.
+
+[ĐỀ – EN]
+Rectangle $MNPQ$ is given. Name the pairs of perpendicular sides.
+
+[LỜI GIẢI CŨ – EN]
+The rectangle $MNPQ$ has four right angles at $M$, $N$, $P$ and $Q$. Hence $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$ and $QM\perp MN$.
+
+**Answer.** Four pairs of perpendicular sides.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình chữ nhật $EFGH$. Kể tên các cặp cạnh song song với nhau.
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật $EFGH$ có hai cặp cạnh đối diện song song: $EF\parallel GH$ và $FG\parallel HE$.
+
+**Đáp số.** $EF\parallel GH$; $FG\parallel HE$.
+
+[ĐỀ – EN]
+Rectangle $EFGH$ is given. Name the pairs of parallel sides.
+
+[LỜI GIẢI CŨ – EN]
+The rectangle $EFGH$ has two pairs of parallel opposite sides: $EF\parallel GH$ and $FG\parallel HE$.
+
+**Answer.** $EF\parallel GH$; $FG\parallel HE$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Vẽ đường thẳng $d$ và lấy điểm $O$ trên $d$. Dùng ê ke vẽ đường thẳng $m$ đi qua $O$ và vuông góc với $d$.
+
+[LỜI GIẢI CŨ – VI]
+Đặt một cạnh góc vuông của ê ke nằm trên $d$, đỉnh góc vuông trùng với $O$. Kẻ theo cạnh góc vuông còn lại, ta được đường thẳng $m$ đi qua $O$.
+
+**Đáp số.** Đường thẳng $m$ đi qua $O$ và $m\perp d$.
+
+[ĐỀ – EN]
+Draw a line $d$ and mark a point $O$ on $d$. Use a set square to draw the line $m$ through $O$ perpendicular to $d$.
+
+[LỜI GIẢI CŨ – EN]
+Place one short side of the set square along $d$, with the right-angle corner at $O$. Draw along the other short side to get the line $m$ through $O$.
+
+**Answer.** The line $m$ passes through $O$ and $m\perp d$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho đường thẳng $d$ và điểm $E$ không thuộc $d$. Dùng ê ke vẽ đường thẳng đi qua $E$ và song song với $d$.
+
+[LỜI GIẢI CŨ – VI]
+Vẽ qua $E$ đường thẳng $EH\perp d$, với $H$ thuộc $d$. Rồi vẽ qua $E$ đường thẳng $n\perp EH$.
+
+Hai đường thẳng $n$ và $d$ cùng vuông góc với $EH$. Do đó $n\parallel d$.
+
+**Đáp số.** Đường thẳng $n$ đi qua $E$ và $n\parallel d$.
+
+[ĐỀ – EN]
+Given a line $d$ and a point $E$ not on $d$, use a set square to draw the line through $E$ parallel to $d$.
+
+[LỜI GIẢI CŨ – EN]
+Draw through $E$ the line $EH\perp d$, with $H$ on $d$. Then draw through $E$ the line $n\perp EH$.
+
+The lines $n$ and $d$ are both perpendicular to $EH$. Hence $n\parallel d$.
+
+**Answer.** The line $n$ passes through $E$ and $n\parallel d$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mảnh vườn hình chữ nhật $ABCD$ có $AB=12$ m, $AD=8$ m. Điểm $M$ thuộc cạnh $AB$ và điểm $N$ thuộc cạnh $DC$ sao cho $AMND$ là hình chữ nhật và $AM=5$ m. Tính độ dài $MN$ và chu vi hình chữ nhật $AMND$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AMND$ là hình chữ nhật nên $MN=AD=8$ m.
+
+Chu vi hình chữ nhật $AMND$ là:
+$$(5+8)\times2=26\ \text{(m)}.$$
+
+**Đáp số.** $MN=8$ m; chu vi $26$ m.
+
+[ĐỀ – EN]
+A garden is a rectangle $ABCD$ with $AB=12$ m and $AD=8$ m. The point $M$ lies on side $AB$ and the point $N$ lies on side $DC$ so that $AMND$ is a rectangle and $AM=5$ m. Find the length of $MN$ and the perimeter of the rectangle $AMND$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AMND$ is a rectangle, $MN=AD=8$ m.
+
+The perimeter of the rectangle $AMND$ is:
+$$(5+8)\times2=26\ \text{(m)}.$$
+
+**Answer.** $MN=8$ m; perimeter $26$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử trên bản đồ một khu phố, đường Hoa Sen và đường Hoa Mai đều là đường thẳng và cùng vuông góc với đường Trần Phú. Hai đường Hoa Sen và Hoa Mai có song song với nhau không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Đường Hoa Sen và đường Hoa Mai cùng vuông góc với đường Trần Phú. Do đó hai đường này song song với nhau.
+
+**Đáp số.** Có, hai đường song song.
+
+[ĐỀ – EN]
+Suppose that on a map of a neighbourhood, Hoa Sen Street and Hoa Mai Street are both straight and both perpendicular to Tran Phu Street. Are Hoa Sen Street and Hoa Mai Street parallel? Why?
+
+[LỜI GIẢI CŨ – EN]
+Hoa Sen Street and Hoa Mai Street are both perpendicular to Tran Phu Street. Hence the two streets are parallel.
+
+**Answer.** Yes, the streets are parallel.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một khung ảnh hình chữ nhật dài $24$ cm, rộng $18$ cm. Bác thợ đóng thêm một thanh gỗ nối trung điểm hai cạnh dài, song song với cạnh rộng. Thanh gỗ này dài bao nhiêu xăng-ti-mét? Mỗi khung ảnh nhỏ được chia ra có chu vi bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Thanh gỗ song song với cạnh rộng nên dài bằng cạnh rộng, tức là $18$ cm.
+
+Chiều dài mỗi khung nhỏ là $24:2=12$ (cm). Chu vi mỗi khung nhỏ là:
+$$(12+18)\times2=60\ \text{(cm)}.$$
+
+**Đáp số.** Thanh gỗ dài $18$ cm; chu vi mỗi khung nhỏ là $60$ cm.
+
+[ĐỀ – EN]
+A picture frame is a rectangle $24$ cm long and $18$ cm wide. A carpenter adds a wooden bar joining the midpoints of the two long sides, parallel to the short side. How long is the bar in centimetres? What is the perimeter of each of the two smaller frames in centimetres?
+
+[LỜI GIẢI CŨ – EN]
+The bar is parallel to the short side, so it is as long as the short side: $18$ cm.
+
+The length of each smaller frame is $24\div2=12$ (cm). The perimeter of each smaller frame is:
+$$(12+18)\times2=60\ \text{(cm)}.$$
+
+**Answer.** The bar is $18$ cm long; each smaller frame has perimeter $60$ cm.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một tấm bìa hình chữ nhật $ABCD$ có $AB=9$ cm, $BC=5$ cm. Người ta cắt tấm bìa theo đoạn thẳng $MN$ song song với $BC$ ($M$ thuộc $AB$, $N$ thuộc $CD$) để được hai hình chữ nhật $AMND$ và $MBCN$ có chu vi bằng nhau. Tính độ dài $AM$ và chu vi mỗi hình chữ nhật đó.
+
+[LỜI GIẢI CŨ – VI]
+Hai hình chữ nhật $AMND$ và $MBCN$ đều có chiều rộng $5$ cm. Chu vi bằng nhau nên $AM=MB$.
+
+Do đó $AM=9:2=4{,}5$ (cm). Chu vi mỗi hình là:
+$$(4{,}5+5)\times2=19\ \text{(cm)}.$$
+
+**Thử lại.** $19+19=38$ và $(9+5)\times2+2\times5=38$. Đúng.
+
+**Đáp số.** $AM=4{,}5$ cm; chu vi mỗi hình $19$ cm.
+
+[ĐỀ – EN]
+A rectangular piece of card $ABCD$ has $AB=9$ cm and $BC=5$ cm. It is cut along a segment $MN$ parallel to $BC$ ($M$ on $AB$, $N$ on $CD$) into two rectangles $AMND$ and $MBCN$ with equal perimeters. Find the length of $AM$ and the perimeter of each rectangle.
+
+[LỜI GIẢI CŨ – EN]
+The rectangles $AMND$ and $MBCN$ both have width $5$ cm. Their perimeters are equal, so $AM=MB$.
+
+Hence $AM=9\div2=4.5$ (cm). The perimeter of each rectangle is:
+$$(4.5+5)\times2=19\ \text{(cm)}.$$
+
+**Check.** $19+19=38$ and $(9+5)\times2+2\times5=38$. Correct.
+
+**Answer.** $AM=4.5$ cm; each perimeter is $19$ cm.
+
+
+######################################################################
+@@@ g4/review-calculations-to-100000
+Bài học: Ôn tập các phép tính trong phạm vi 100 000 / Review: calculations within 100,000
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $46\,285+27\,639$.
+
+[LỜI GIẢI CŨ – VI]
+$5+9=14$ (viết $4$ nhớ $1$); $8+3+1=12$ (viết $2$ nhớ $1$); $2+6+1=9$; $6+7=13$ (viết $3$ nhớ $1$); $4+2+1=7$. Được $73\,924$.
+
+**Đáp số.** $73\,924$.
+
+[ĐỀ – EN]
+Work out $46\,285+27\,639$.
+
+[LỜI GIẢI CŨ – EN]
+$5+9=14$ (write $4$, regroup $1$); $8+3+1=12$ (write $2$, regroup $1$); $2+6+1=9$; $6+7=13$ (write $3$, regroup $1$); $4+2+1=7$. The result is $73\,924$.
+
+**Answer.** $73\,924$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $80\,000-36\,457$ rồi thử lại.
+
+[LỜI GIẢI CŨ – VI]
+$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. Được $43\,543$.
+
+**Thử lại.** $43\,543+36\,457=80\,000$.
+
+**Đáp số.** $43\,543$.
+
+[ĐỀ – EN]
+Work out $80\,000-36\,457$ and check your answer.
+
+[LỜI GIẢI CŨ – EN]
+$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. The result is $43\,543$.
+
+**Check.** $43\,543+36\,457=80\,000$.
+
+**Answer.** $43\,543$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $14\,308\times5$.
+
+[LỜI GIẢI CŨ – VI]
+$8\times5=40$ (viết $0$ nhớ $4$); $0\times5+4=4$; $3\times5=15$ (viết $5$ nhớ $1$); $4\times5+1=21$ (viết $1$ nhớ $2$); $1\times5+2=7$. Được $71\,540$.
+
+**Đáp số.** $71\,540$.
+
+[ĐỀ – EN]
+Work out $14\,308\times5$.
+
+[LỜI GIẢI CŨ – EN]
+$8\times5=40$ (write $0$, regroup $4$); $0\times5+4=4$; $3\times5=15$ (write $5$, regroup $1$); $4\times5+1=21$ (write $1$, regroup $2$); $1\times5+2=7$. The result is $71\,540$.
+
+**Answer.** $71\,540$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $72\,168:8$ rồi thử lại.
+
+[LỜI GIẢI CŨ – VI]
+$72:8=9$ dư $0$. Hạ $1$: $1:8=0$ dư $1$. Hạ $6$: $16:8=2$ dư $0$. Hạ $8$: $8:8=1$. Thương là $9\,021$.
+
+**Thử lại.** $9\,021\times8=72\,168$.
+
+**Đáp số.** $9\,021$.
+
+[ĐỀ – EN]
+Work out $72\,168\div8$ and check your answer.
+
+[LỜI GIẢI CŨ – EN]
+$72\div8=9$ remainder $0$. Bring down $1$: $1\div8=0$ remainder $1$. Bring down $6$: $16\div8=2$ remainder $0$. Bring down $8$: $8\div8=1$. The quotient is $9\,021$.
+
+**Check.** $9\,021\times8=72\,168$.
+
+**Answer.** $9\,021$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Có $18\,000$ kg ngô, chia đều vào $6$ xe tải. Mỗi xe chở bao nhiêu ki-lô-gam ngô? Vì sao em dùng phép chia?
+
+[LỜI GIẢI CŨ – VI]
+Chia đều thì mỗi xe chở như nhau, nên ta chia tổng số ngô cho số xe:
+$$18\,000:6=3\,000\ \text{(kg)}.$$
+
+**Thử lại.** $3\,000\times6=18\,000$.
+
+**Đáp số.** $3\,000$ kg ngô.
+
+[ĐỀ – EN]
+$18\,000$ kg of maize is shared equally between $6$ lorries. How many kilograms of maize does each lorry carry? Why do you use division?
+
+[LỜI GIẢI CŨ – EN]
+Shared equally means each lorry carries the same amount, so we divide the total maize by the number of lorries:
+$$18\,000\div6=3\,000\ \text{(kg)}.$$
+
+**Check.** $3\,000\times6=18\,000$.
+
+**Answer.** $3\,000$ kg of maize.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam tính $36\,054:6=609$. Nam sai ở đâu? Hãy tính lại.
+
+[LỜI GIẢI CŨ – VI]
+$609\times6=3\,654\ne36\,054$, nên Nam sai. Chia lại: $36:6=6$. Hạ $0$: $0:6=0$. Hạ $5$: $5:6=0$ dư $5$. Hạ $4$: $54:6=9$. Thương là $6\,009$.
+
+**Đáp số.** Nam quên chữ số $0$; đúng là $36\,054:6=6\,009$.
+
+[ĐỀ – EN]
+Nam works out $36\,054\div6=609$. Where did Nam go wrong? Work it out again.
+
+[LỜI GIẢI CŨ – EN]
+$609\times6=3\,654\ne36\,054$, so Nam is wrong. Dividing again: $36\div6=6$. Bring down $0$: $0\div6=0$. Bring down $5$: $5\div6=0$ remainder $5$. Bring down $4$: $54\div6=9$. The quotient is $6\,009$.
+
+**Answer.** Nam forgot a zero; the correct answer is $36\,054\div6=6\,009$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ngày đầu một cửa hàng bán $15\,360$ kg gạo. Ngày thứ hai bán nhiều hơn ngày đầu $2\,840$ kg. Cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Ngày thứ hai bán: $15\,360+2\,840=18\,200$ (kg). Cả hai ngày bán: $15\,360+18\,200=33\,560$ (kg).
+
+**Đáp số.** $33\,560$ kg gạo.
+
+[ĐỀ – EN]
+On the first day a shop sells $15\,360$ kg of rice. On the second day it sells $2\,840$ kg more than on the first day. How many kilograms of rice does the shop sell in the two days?
+
+[LỜI GIẢI CŨ – EN]
+Second day: $15\,360+2\,840=18\,200$ (kg). Both days: $15\,360+18\,200=33\,560$ (kg).
+
+**Answer.** $33\,560$ kg of rice.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một đơn hàng cần $90\,000$ viên gạch. Bốn xe đã chở, mỗi xe $12\,500$ viên. Số gạch còn thiếu được chở đều trong $8$ ngày. Mỗi ngày phải chở bao nhiêu viên gạch?
+
+[LỜI GIẢI CŨ – VI]
+Đã chở: $12\,500\times4=50\,000$ (viên). Còn thiếu: $90\,000-50\,000=40\,000$ (viên). Mỗi ngày chở: $40\,000:8=5\,000$ (viên).
+
+**Kiểm tra.** $5\,000\times8=40\,000$.
+
+**Đáp số.** $5\,000$ viên gạch.
+
+[ĐỀ – EN]
+An order needs $90\,000$ bricks. Four lorries have already carried $12\,500$ bricks each. The bricks still needed are carried equally over $8$ days. How many bricks must be carried each day?
+
+[LỜI GIẢI CŨ – EN]
+Already carried: $12\,500\times4=50\,000$ (bricks). Still needed: $90\,000-50\,000=40\,000$ (bricks). Each day: $40\,000\div8=5\,000$ (bricks).
+
+**Check.** $5\,000\times8=40\,000$.
+
+**Answer.** $5\,000$ bricks.
+
+
+===== HẾT FILE Lemonmath.com-08-LG =====

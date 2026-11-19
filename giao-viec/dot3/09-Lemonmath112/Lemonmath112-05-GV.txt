@@ -1,0 +1,698 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-05-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-05-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-05-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/practice-paper-thpt-2, g12/practice-paper-thpt-3, g12/practice-paper-thpt-4, g12/review-coordinates-space
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath112-05-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath112-05-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-05-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/practice-paper-thpt-2 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện thi tốt nghiệp số 2
+description: Đề luyện thi tốt nghiệp THPT môn Toán thứ hai, khó hơn đề số 1 một chút: 22 câu trong 90 phút, có đáp án, lời giải và bài ôn tập cho từng câu.
+minutes: 90
+type: exam
+---
+
+[[P1·7edd]]
+Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Đề này có nhiều câu vận dụng hơn đề số 1, nên hãy dành khoảng 40 phút cho Phần III.
+
+:::quiz exam
+   (… 311 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-2 – BẢN TIẾNG ANH ########
+---
+title: Graduation practice paper 2
+description: A second maths practice paper in the graduation exam format, a little harder than paper 1: 22 questions in 90 minutes, with answers and solutions.
+minutes: 90
+type: exam
+---
+
+[[P1·b8ab]]
+This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. This paper has more application questions than paper 1, so allow about 40 minutes for Part III.
+
+:::quiz exam
+   (… 311 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-3 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện thi tốt nghiệp số 3
+description: Đề luyện 22 câu theo cấu trúc thi tốt nghiệp THPT từ năm 2025, mức khó hơn đề 1 và 2, có lời giải chi tiết và bài ôn lại cho từng câu.
+minutes: 90
+type: exam
+---
+
+[[P1·badd]]
+Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đề này khó hơn đề số 1 và số 2, nhiều câu cần hai đến ba bước lập luận. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
+
+:::quiz exam
+   (… 348 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-3 – BẢN TIẾNG ANH ########
+---
+title: Graduation practice paper 3
+description: A 22-question paper in the 2025 Vietnamese graduation exam format, harder than papers 1 and 2, with full solutions and a revision lesson for each question.
+minutes: 90
+type: exam
+---
+
+[[P1·c7a6]]
+The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This paper is harder than papers 1 and 2, and many questions need two or three steps of reasoning. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
+
+:::quiz exam
+   (… 348 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-4 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện thi tốt nghiệp số 4
+description: Đề luyện 22 câu khó nhất của bộ đề, theo cấu trúc thi tốt nghiệp THPT từ năm 2025, có lời giải chi tiết và bài ôn lại cho từng câu.
+minutes: 90
+type: exam
+---
+
+[[P1·3ffd]]
+Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đây là đề khó nhất của bộ đề luyện: nhiều ý ở Phần II và Phần III cần kiểm tra cẩn thận điều kiện và làm tròn. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
+
+:::quiz exam
+   (… 327 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-4 – BẢN TIẾNG ANH ########
+---
+title: Graduation practice paper 4
+description: The hardest 22-question paper of the series, in the 2025 Vietnamese graduation exam format, with full solutions and a revision lesson for each question.
+minutes: 90
+type: exam
+---
+
+[[P1·291b]]
+The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This is the hardest paper of the series: many statements in Part II and Part III need a careful check of conditions and rounding. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
+
+:::quiz exam
+   (… 327 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-coordinates-space – BẢN TIẾNG VIỆT ########
+---
+title: "Ôn tập: phương pháp toạ độ trong không gian"
+description: Ôn vectơ trong hệ Oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu, công thức góc và khoảng cách, mô hình toạ độ thực tế theo dạng đề thi.
+minutes: 40
+---
+
+  :::goals
+  - Tính nhanh toạ độ vectơ, độ dài, tích vô hướng và góc giữa hai vectơ.
+  - Viết phương trình mặt phẳng, đường thẳng, mặt cầu và đọc được các yếu tố từ phương trình.
+  - Dùng công thức góc và khoảng cách để giải câu trắc nghiệm, Đúng/Sai và trả lời ngắn.
+  - Đặt hệ trục toạ độ cho một tình huống thực tế (căn phòng, máy bay, trạm phát sóng).
+  :::
+
+[[P1·3345]]
+Phương pháp toạ độ trong không gian là chủ đề "dễ lấy điểm" của lớp 12. Phần I thường có hai đến bốn câu hỏi đọc nhanh từ phương trình: vectơ pháp tuyến, tâm và bán kính mặt cầu, khoảng cách. Phần II hoặc Phần III thường có một câu tổng hợp, nhiều khi gắn với tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+
+[[P2·e831]]
+Bí quyết là thuộc chắc các công thức và tính cẩn thận dấu. Bài ôn đi qua bốn mảng: vectơ, mặt phẳng, đường thẳng, mặt cầu và mô hình thực tế.
+
+:::diagram Hệ trục toạ độ $Oxyz$ và điểm $M(2; 3; 2)$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Vectơ và toạ độ
+
+  :::theorem Công thức với $\vec a=(a_1; a_2; a_3)$, $\vec b=(b_1; b_2; b_3)$
+  - $\overrightarrow{AB}=(x_B-x_A; y_B-y_A; z_B-z_A)$, $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - Trung điểm $I$ của $AB$: trung bình cộng toạ độ của $A$ và $B$; trọng tâm $G$ của tam giác: trung bình cộng toạ độ ba đỉnh.
+  - Tích vô hướng $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
+  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, với $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
+  - Tích có hướng $[\vec a, \vec b]=(a_2b_3-a_3b_2; a_3b_1-a_1b_3; a_1b_2-a_2b_1)$ vuông góc với cả $\vec a$ và $\vec b$.
+  :::
+
+  :::example Trắc nghiệm: côsin của góc giữa hai vectơ
+  Trong không gian $Oxyz$, cho $\vec a=(1; -2; 2)$ và $\vec b=(2; 1; -2)$. Giá trị của $\cos(\vec a, \vec b)$ là
+
+  **A.** $\dfrac49$.
+
+  **B.** $-\dfrac49$.
+
+  **C.** $-\dfrac43$.
+
+  **D.** $0$.
+
+  **Lời giải.** Ta tính tích vô hướng và hai độ dài rồi thay vào công thức:
+
+  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
+
+  Do đó $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. Chọn **B**.
+
+  **Nhìn lại.** Góc giữa hai **vectơ** có thể tù nên côsin được phép âm. Phương án A là côsin của góc giữa hai **đường thẳng** (có dấu giá trị tuyệt đối); phương án D sai dấu ở số hạng thứ hai.
+  :::
+
+## Phương trình mặt phẳng
+
+  :::theorem Mặt phẳng
+  - Mặt phẳng qua $M(x_0; y_0; z_0)$ có vectơ pháp tuyến $\vec n=(A; B; C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+  - Mặt phẳng $Ax+By+Cz+D=0$ có vectơ pháp tuyến $\vec n=(A; B; C)$.
+  - Mặt phẳng qua ba điểm $A$, $B$, $C$: dùng $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. Mặt phẳng theo đoạn chắn qua $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
+  - Khoảng cách: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ khi hai vectơ pháp tuyến cùng phương và hai mặt phẳng không trùng nhau.
+  :::
+
+  :::example Đúng/Sai: mặt phẳng theo đoạn chắn
+  Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$.
+
+  a) Mặt phẳng $(ABC)$ có một vectơ pháp tuyến là $\vec n=(6; 3; 2)$.
+
+  b) Gốc toạ độ $O$ thuộc mặt phẳng $(ABC)$.
+
+  c) Khoảng cách từ $O$ đến mặt phẳng $(ABC)$ bằng $\dfrac67$.
+
+  d) Mặt phẳng $(ABC)$ vuông góc với mặt phẳng $(Oxy)$.
+
+  **Lời giải.** Ba điểm nằm trên ba trục nên ta dùng phương trình đoạn chắn rồi quy đồng với mẫu chung $6$:
+
+  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
+
+  a) **Đúng.** Các hệ số của $x$, $y$, $z$ là $6$, $3$, $2$.
+
+  b) **Sai.** Thay $O$: $0+0+0-6=-6\neq0$.
+
+  c) **Đúng.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
+
+  d) **Sai.** Mặt phẳng $(Oxy)$ có vectơ pháp tuyến $\vec k=(0; 0; 1)$ và $\vec n\cdot\vec k=2\neq0$.
+
+  Vậy đáp án là a) Đúng, b) Sai, c) Đúng, d) Sai.
+  :::
+
+## Phương trình đường thẳng và công thức góc
+
+  :::theorem Đường thẳng và góc
+  - Đường thẳng qua $M(x_0; y_0; z_0)$ có vectơ chỉ phương $\vec u=(a; b; c)$: phương trình tham số $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; nếu $abc\neq0$, phương trình chính tắc $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
+  - Góc giữa hai đường thẳng: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
+  - Góc giữa đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
+  - Góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
+  :::
+
+[[P3·2abf]]
+Đường thẳng vuông góc với một mặt phẳng nhận vectơ pháp tuyến của mặt phẳng làm vectơ chỉ phương. Đây là ý của rất nhiều câu trắc nghiệm.
+
+  :::example Trắc nghiệm: đường thẳng vuông góc với mặt phẳng
+  Đường thẳng đi qua $A(1; 2; -1)$ và vuông góc với mặt phẳng $(P)\colon 2x-y+3z-5=0$ có phương trình tham số là
+
+  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
+
+  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
+
+  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
+
+  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
+
+  **Lời giải.** Đường thẳng vuông góc với $(P)$ nên có vectơ chỉ phương $\vec u=\vec n_P=(2; -1; 3)$; điểm đi qua là $A(1; 2; -1)$:
+
+  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
+
+  Chọn **A**. Phương án B đổi vai trò điểm và vectơ, phương án C sai dấu hệ số của $y$, phương án D sai dấu toạ độ $z$ của $A$.
+  :::
+
+  :::example Trả lời ngắn: góc giữa đường thẳng và mặt phẳng
+  Tính góc giữa đường thẳng $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ và mặt phẳng $(P)\colon 2x-y+2z+3=0$ (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
+
+  **Lời giải.** Góc giữa đường thẳng và mặt phẳng dùng **sin**, với $\vec u=(1; 2; 2)$ và $\vec n=(2; -1; 2)$:
+
+  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26{,}39^\circ.$$
+
+  Vậy góc cần tìm khoảng $26^\circ$ (ghi $26$).
+  :::
+
+:::warning Bẫy thường gặp
+[[P4·6948]]
+- **Dùng $\cos$ thay cho $\sin$** với góc giữa đường thẳng và mặt phẳng. Ở ví dụ trên, dùng $\cos$ sẽ cho khoảng $64^\circ$, là góc phụ với đáp án đúng.
+- **Quên dấu giá trị tuyệt đối** khi tính góc giữa hai đường thẳng hoặc hai mặt phẳng: góc này không vượt quá $90^\circ$.
+- **Đọc sai toạ độ từ phương trình chính tắc.** Từ $\dfrac{z+1}{2}$ ta có $z_0=-1$, không phải $1$.
+:::
+
+## Mặt cầu và mô hình toạ độ thực tế
+
+  :::theorem Mặt cầu
+  - Mặt cầu tâm $I(a; b; c)$, bán kính $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+  - Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu khi $a^2+b^2+c^2-d>0$; khi đó tâm $I(a; b; c)$ và $R=\sqrt{a^2+b^2+c^2-d}$.
+  - Với $h=d(I, (P))$: nếu $h>R$ thì $(P)$ không cắt mặt cầu; $h=R$ thì $(P)$ tiếp xúc; $h<R$ thì $(P)$ cắt theo đường tròn bán kính $r=\sqrt{R^2-h^2}$.
+  :::
+
+[[P5·f56d]]
+Trong bài toán thực tế, ta đặt gốc toạ độ ở một vị trí thuận tiện (góc phòng, chân tháp, trạm radar), chọn đơn vị (m hoặc km), rồi dịch câu hỏi thành câu hỏi về điểm, đường thẳng, mặt phẳng hay mặt cầu.
+
+  :::example Trả lời ngắn: máy bay đi qua vùng phủ sóng radar
+  Chọn hệ trục $Oxyz$ (đơn vị: km) với trạm radar đặt tại gốc $O$. Radar phát hiện được mọi vật cách nó không quá $5$ km. Một máy bay bay thẳng với vị trí $M(1+2t; 2-t; 2)$. Tính độ dài quãng đường máy bay bay trong vùng radar phát hiện được (đơn vị: km).
+
+  **Lời giải.** *Hiểu đề.* Vùng phát hiện là khối cầu tâm $O$, bán kính $5$; quãng đường cần tìm là dây cung của đường bay nằm trong mặt cầu.
+
+  *Tìm cách giải.* Giải điều kiện $OM\le5$ theo $t$, hoặc dùng khoảng cách từ $O$ đến đường bay.
+
+  *Giải.* Bình phương điều kiện $OM\le5$:
+
+  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
+
+  Vậy $t$ chạy từ $-\dfrac{4}{\sqrt5}$ đến $\dfrac{4}{\sqrt5}$. Vectơ chỉ phương $\vec u=(2; -1; 0)$ có độ dài $\sqrt5$, nên quãng đường là
+
+  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
+
+  *Nhìn lại.* Điểm gần $O$ nhất ứng với $t=0$, là $H(1; 2; 2)$ với $OH=3$; theo định lí Pythagore, dây cung dài $2\sqrt{25-9}=8$, khớp với kết quả.
+  :::
+
+## Thuật ngữ
+
+  :::terms
+  - hệ trục toạ độ Oxyz | Oxyz coordinate system
+  - tích vô hướng | scalar product
+  - tích có hướng | vector product (cross product)
+  - vectơ pháp tuyến | normal vector
+  - vectơ chỉ phương | direction vector
+  - phương trình tham số | parametric equations
+  - phương trình chính tắc | Cartesian equations (of a line)
+  - mặt cầu | sphere
+  - tiếp xúc | tangent
+  - khoảng cách từ điểm đến mặt phẳng | distance from a point to a plane
+  :::
+
+## Bài tập
+
+[[P6·1795]]
+Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+
+:::exercise Trắc nghiệm
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đúng/Sai
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lời ngắn (thử thách)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/review-coordinates-space – BẢN TIẾNG ANH ########
+---
+title: "Revision: coordinates in space"
+description: Revise vectors in Oxyz, equations of planes, lines and spheres, angle and distance formulas, and real-life coordinate models, in graduation exam style.
+minutes: 40
+---
+
+  :::goals
+  - Calculate vector components, lengths, scalar products and the angle between two vectors quickly.
+  - Write equations of planes, lines and spheres and read their features from an equation.
+  - Use the angle and distance formulas in multiple-choice, true/false and short-answer questions.
+  - Set up a coordinate system for a real-life situation (a room, an aircraft, a radar station).
+  :::
+
+[[P1·e78a]]
+Coordinates in space is one of the "easy marks" topics of grade 12. Part I usually has two to four questions that are read straight from an equation: a normal vector, the centre and radius of a sphere, a distance. Part II or Part III usually has one mixed question, often set in a real-life context. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+
+[[P2·fd93]]
+The secret is to know the formulas thoroughly and to watch the signs. This revision lesson covers four areas: vectors, planes, lines, and spheres with real-life models.
+
+:::diagram The coordinate system $Oxyz$ and the point $M(2, 3, 2)$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Vectors and coordinates
+
+  :::theorem Formulas for $\vec a=(a_1, a_2, a_3)$, $\vec b=(b_1, b_2, b_3)$
+  - $\overrightarrow{AB}=(x_B-x_A, y_B-y_A, z_B-z_A)$ and $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - The midpoint $I$ of $AB$: the mean of the coordinates of $A$ and $B$; the centroid $G$ of a triangle: the mean of the coordinates of the three vertices.
+  - Scalar product $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
+  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, where $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
+  - The vector product $[\vec a, \vec b]=(a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)$ is perpendicular to both $\vec a$ and $\vec b$.
+  :::
+
+  :::example Multiple choice: the cosine of the angle between two vectors
+  In $Oxyz$, let $\vec a=(1, -2, 2)$ and $\vec b=(2, 1, -2)$. The value of $\cos(\vec a, \vec b)$ is
+
+  **A.** $\dfrac49$.
+
+  **B.** $-\dfrac49$.
+
+  **C.** $-\dfrac43$.
+
+  **D.** $0$.
+
+  **Solution.** We compute the scalar product and the two lengths, then use the formula:
+
+  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
+
+  So $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. The answer is **B**.
+
+  **Look back.** The angle between two **vectors** can be obtuse, so the cosine may be negative. Option A is the cosine of the angle between two **lines** (with an absolute value); option D has a sign error in the second term.
+  :::
+
+## Equations of planes
+
+  :::theorem Planes
+  - The plane through $M(x_0, y_0, z_0)$ with normal vector $\vec n=(A, B, C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+  - The plane $Ax+By+Cz+D=0$ has normal vector $\vec n=(A, B, C)$.
+  - The plane through three points $A$, $B$, $C$: use $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. The plane through the intercepts $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
+  - Distance: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ when the normal vectors are parallel and the planes do not coincide.
+  :::
+
+  :::example True/false: the intercept form of a plane
+  In $Oxyz$, consider the points $A(1, 0, 0)$, $B(0, 2, 0)$, $C(0, 0, 3)$.
+
+  a) The plane $(ABC)$ has normal vector $\vec n=(6, 3, 2)$.
+
+  b) The origin $O$ lies in the plane $(ABC)$.
+
+  c) The distance from $O$ to the plane $(ABC)$ is $\dfrac67$.
+
+  d) The plane $(ABC)$ is perpendicular to the plane $(Oxy)$.
+
+  **Solution.** The three points lie on the three axes, so we use the intercept form and multiply through by the common denominator $6$:
+
+  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
+
+  a) **True.** The coefficients of $x$, $y$, $z$ are $6$, $3$, $2$.
+
+  b) **False.** Substituting $O$: $0+0+0-6=-6\neq0$.
+
+  c) **True.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
+
+  d) **False.** The plane $(Oxy)$ has normal vector $\vec k=(0, 0, 1)$ and $\vec n\cdot\vec k=2\neq0$.
+
+  So the answers are a) True, b) False, c) True, d) False.
+  :::
+
+## Equations of lines and angle formulas
+
+  :::theorem Lines and angles
+  - The line through $M(x_0, y_0, z_0)$ with direction vector $\vec u=(a, b, c)$: parametric equations $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; if $abc\neq0$, Cartesian equations $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
+  - The angle between two lines: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
+  - The angle between a line and a plane: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
+  - The angle between two planes: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
+  :::
+
+[[P3·4caa]]
+A line perpendicular to a plane takes the plane's normal vector as its direction vector. This idea is behind many multiple-choice questions.
+
+  :::example Multiple choice: a line perpendicular to a plane
+  The line through $A(1, 2, -1)$ perpendicular to the plane $(P)\colon 2x-y+3z-5=0$ has parametric equations
+
+  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
+
+  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
+
+  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
+
+  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
+
+  **Solution.** The line is perpendicular to $(P)$, so its direction vector is $\vec u=\vec n_P=(2, -1, 3)$; it passes through $A(1, 2, -1)$:
+
+  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
+
+  The answer is **A**. Option B swaps the point and the vector, option C has the wrong sign for the coefficient of $y$, and option D has the wrong sign for the $z$-coordinate of $A$.
+  :::
+
+  :::example Short answer: the angle between a line and a plane
+  Find the angle between the line $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ and the plane $(P)\colon 2x-y+2z+3=0$ (in degrees, to the nearest whole number).
+
+  **Solution.** The angle between a line and a plane uses **sine**, with $\vec u=(1, 2, 2)$ and $\vec n=(2, -1, 2)$:
+
+  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26.39^\circ.$$
+
+  So the angle is about $26^\circ$ (write $26$).
+  :::
+
+:::warning Common traps
+[[P4·57bc]]
+- **Using $\cos$ instead of $\sin$** for the angle between a line and a plane. In the example above, $\cos$ would give about $64^\circ$, the complement of the correct answer.
+- **Forgetting the absolute value** for the angle between two lines or two planes: this angle is never more than $90^\circ$.
+- **Misreading coordinates from the Cartesian equations.** From $\dfrac{z+1}{2}$ we get $z_0=-1$, not $1$.
+:::
+
+## Spheres and real-life coordinate models
+
+  :::theorem Spheres
+  - The sphere with centre $I(a, b, c)$ and radius $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
+  - The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere when $a^2+b^2+c^2-d>0$; its centre is $I(a, b, c)$ and $R=\sqrt{a^2+b^2+c^2-d}$.
+  - With $h=d(I, (P))$: if $h>R$ the plane $(P)$ misses the sphere; if $h=R$ it is tangent; if $h<R$ it cuts the sphere in a circle of radius $r=\sqrt{R^2-h^2}$.
+  :::
+
+[[P5·5b29]]
+In a real-life problem we put the origin in a convenient place (a corner of a room, the foot of a tower, a radar station), choose a unit (m or km), and then translate the question into one about points, lines, planes or spheres.
+
+  :::example Short answer: an aircraft crossing radar coverage
+  Choose axes $Oxyz$ (unit: km) with a radar station at the origin $O$. The radar detects every object within $5$ km of it. An aircraft flies in a straight line with position $M(1+2t, 2-t, 2)$. Find the length of the part of the flight path inside the radar's range (in km).
+
+  **Solution.** *Understand.* The detection zone is the solid sphere with centre $O$ and radius $5$; the required distance is the chord of the flight path inside the sphere.
+
+  *Plan.* Solve the condition $OM\le5$ for $t$, or use the distance from $O$ to the flight path.
+
+  *Solve.* Squaring the condition $OM\le5$:
+
+  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
+
+  So $t$ runs from $-\dfrac{4}{\sqrt5}$ to $\dfrac{4}{\sqrt5}$. The direction vector $\vec u=(2, -1, 0)$ has length $\sqrt5$, so the distance is
+
+  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
+
+  *Look back.* The point closest to $O$ is at $t=0$, namely $H(1, 2, 2)$ with $OH=3$; by Pythagoras' theorem the chord is $2\sqrt{25-9}=8$ long, which agrees.
+  :::
+
+## Key terms
+
+  :::terms
+  - Oxyz coordinate system | hệ trục toạ độ Oxyz
+  - scalar product | tích vô hướng
+  - vector product (cross product) | tích có hướng
+  - normal vector | vectơ pháp tuyến
+  - direction vector | vectơ chỉ phương
+  - parametric equations | phương trình tham số
+  - Cartesian equations (of a line) | phương trình chính tắc
+  - sphere | mặt cầu
+  - tangent | tiếp xúc
+  - distance from a point to a plane | khoảng cách từ điểm đến mặt phẳng
+  :::
+
+## Exercises
+
+[[P6·96a7]]
+The exercises go from easy to hard, and each one states its exam format.
+
+:::exercise Multiple choice
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise True/false
+   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Written answer
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Short answer (challenge)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

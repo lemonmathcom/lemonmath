@@ -1,0 +1,1041 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-02-MD   |   VIỆC: gắn mức độ nhận thức (MD-19)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-02-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-19 – gắn mức độ nhận thức cho 86 câu hỏi (Lớp 12 → Lớp 12)
+
+Tài khoản thực hiện: Vinax258
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-19 (86 câu)
+
+## Các câu hỏi
+
+### M377 · Lớp 12 · Ôn tập: bài toán tối ưu và thực tế
+
+[M377.1] Nhiều lựa chọn
+Hai số dương có tổng bằng $12$. Tích của chúng lớn nhất bằng
+A. $36$.
+B. $6$.
+C. $144$.
+D. $72$.
+::key A
+Tích $P(x)=x(12-x)$, $P'(x)=12-2x=0\iff x=6$, $P(6)=36$. Phương án B là giá trị của mỗi số, C là $12^2$.
+
+[M377.2] Nhiều lựa chọn
+Một vật chuyển động với $s(t)=t^3-3t^2+4t$ (m). Gia tốc của vật tại $t=2$ giây là
+A. $8$ m/s².
+B. $4$ m/s².
+C. $6$ m/s².
+D. $0$ m/s².
+::key C
+$v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Phương án B là vận tốc $v(2)$; D là gia tốc tại $t=1$.
+
+[M377.3] Nhiều lựa chọn
+Tổng chi phí sản xuất $x$ sản phẩm là $C(x)=2x^2+50x+800$ (nghìn đồng). Để chi phí trung bình mỗi sản phẩm nhỏ nhất, cần sản xuất bao nhiêu sản phẩm?
+A. $10$.
+B. $20$.
+C. $400$.
+D. $40$.
+::key B
+$\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Phương án C là $x^2$.
+
+[M377.4] Nhiều lựa chọn
+$N(t)$ là số người dùng một ứng dụng (nghìn người) sau $t$ tháng, và $N'(5)=12$. Khẳng định nào đúng?
+A. Sau $5$ tháng, số người dùng đã tăng thêm tổng cộng $12$ nghìn người.
+B. Tại thời điểm $5$ tháng, số người dùng đang tăng với tốc độ khoảng $12$ nghìn người mỗi tháng.
+C. Trong $5$ tháng đầu, trung bình mỗi tháng tăng $12$ nghìn người.
+D. Sau $5$ tháng có $12$ nghìn người dùng.
+::key B
+Đạo hàm là tốc độ thay đổi tức thời tại một thời điểm. D nhầm với $N(5)$, C nhầm với tốc độ trung bình, A nhầm với lượng thay đổi.
+
+[M377.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Bác Ba dùng $120$ m lưới rào ba cạnh của một mảnh đất hình chữ nhật, cạnh thứ tư là bờ sông không cần rào. Gọi $x$ (m) là độ dài mỗi cạnh vuông góc với bờ sông.
+a) Điều kiện của $x$ là $0<x<60$.
+b) Diện tích mảnh đất là $S(x)=x(120-2x)$.
+c) Diện tích lớn nhất khi $x=30$.
+d) Diện tích lớn nhất là $3600$ m².
+::key Đ Đ Đ S
+a) Đúng: cạnh song song bờ sông là $120-2x>0$. b) Đúng. c) Đúng: $S'(x)=120-4x=0\iff x=30$, $S'$ đổi dấu từ $+$ sang $-$. d) Sai: $S(30)=30\cdot60=1800$ m².
+
+[M377.6] Trả lời ngắn
+Một quả bóng được ném lên với độ cao $h(t)=2+14{,}7t-4{,}9t^2$ (m) sau $t$ giây. Sau bao nhiêu giây quả bóng đạt độ cao lớn nhất?
+::key 1,5
+$h'(t)=14{,}7-9{,}8t=0\iff t=1{,}5$, $h'$ đổi dấu từ $+$ sang $-$.
+
+[M377.7] Trả lời ngắn
+Từ một tấm bìa hình vuông cạnh $12$ cm, cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp thành hộp không nắp. Thể tích lớn nhất của hộp là bao nhiêu cm³?
+::key 128
+$V(x)=x(12-2x)^2$, $0<x<6$; $V'(x)=(12-2x)(12-6x)=0\iff x=2$. $V(2)=2\cdot8^2=128$.
+
+### M378 · Lớp 12 · Ôn tập: nguyên hàm và tích phân
+
+[M378.1] Nhiều lựa chọn
+Họ nguyên hàm của hàm số $f(x)=2^x$ là
+A. $x\cdot2^{x-1}+C$.
+B. $2^x\ln2+C$.
+C. $\dfrac{2^{x+1}}{x+1}+C$.
+D. $\dfrac{2^x}{\ln2}+C$.
+::key D
+$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Phương án B là đạo hàm của $2^x$; C và A dùng nhầm công thức cho luỹ thừa $x^\alpha$.
+
+[M378.2] Nhiều lựa chọn
+$\displaystyle\int_1^2\frac1x\,dx$ bằng
+A. $\dfrac34$.
+B. $\ln2$.
+C. $\ln3$.
+D. $\dfrac12$.
+::key B
+$\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Phương án A dùng nhầm "nguyên hàm" $-\dfrac{1}{x^2}$ (thực ra là đạo hàm); C cộng hai cận.
+
+[M378.3] Nhiều lựa chọn
+Hàm số $f$, $g$ liên tục trên $[a; b]$. Diện tích hình phẳng giới hạn bởi $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ là
+A. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
+B. $\displaystyle\int_a^b\left[f(x)-g(x)\right]dx$.
+C. $\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$.
+D. $\left\lvert\displaystyle\int_a^b\left[f(x)-g(x)\right]dx\right\rvert$.
+::key C
+Diện tích cần giá trị tuyệt đối bên trong tích phân. B có thể âm; D sai khi $f-g$ đổi dấu trên $[a; b]$; A là dạng công thức thể tích.
+
+[M378.4] Nhiều lựa chọn
+Biết $\displaystyle\int_0^2 f(x)\,dx=3$. Giá trị của $\displaystyle\int_0^2\left[2f(x)+x\right]dx$ là
+A. $8$.
+B. $7$.
+C. $6$.
+D. $10$.
+::key A
+$2\cdot3+\Big[\dfrac{x^2}{2}\Big]_0^2=6+2=8$. Phương án B lấy $\displaystyle\int_0^2x\,dx=1$; C quên số hạng $x$.
+
+[M378.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình phẳng $H$ giới hạn bởi $y=x^2$, trục $Ox$ và các đường thẳng $x=0$, $x=3$.
+a) Diện tích của $H$ là $S=\displaystyle\int_0^3x^2\,dx$.
+b) $S=9$.
+c) Thể tích khối tròn xoay khi quay $H$ quanh $Ox$ là $V=\pi\displaystyle\int_0^3x^2\,dx$.
+d) $V=\dfrac{243\pi}{5}$.
+::key Đ Đ S Đ
+a) Đúng: $x^2\ge0$. b) Đúng: $\dfrac{27}{3}=9$. c) Sai: phải bình phương hàm số, $V=\pi\displaystyle\int_0^3x^4\,dx$. d) Đúng: $\pi\Big[\dfrac{x^5}{5}\Big]_0^3=\dfrac{243\pi}{5}$.
+
+[M378.6] Trả lời ngắn
+Một vật chuyển động với vận tốc $v(t)=3t^2+2t$ (m/s). Tính quãng đường vật đi được từ $t=0$ đến $t=4$ giây (đơn vị: mét).
+::key 80
+$v(t)\ge0$ trên $[0; 4]$, $s=\Big[t^3+t^2\Big]_0^4=64+16=80$.
+
+[M378.7] Trả lời ngắn
+Tính $\displaystyle\int_0^1\left(e^x+1\right)dx$ (làm tròn kết quả đến hàng phần trăm).
+::key 2,72
+$\Big[e^x+x\Big]_0^1=(e+1)-1=e\approx2{,}718$, làm tròn được $2{,}72$.
+
+### M379 · Lớp 12 · Ôn tập: hình học không gian
+
+[M379.1] Nhiều lựa chọn
+Một khối chóp có diện tích đáy bằng $12$ và chiều cao bằng $5$. Thể tích của khối chóp là
+A. $60$.
+B. $20$.
+C. $30$.
+D. $10$.
+::key B
+$V=\dfrac13\cdot12\cdot5=20$. Phương án A là công thức của khối lăng trụ; phương án C lấy nhầm hệ số $\dfrac12$.
+
+[M379.2] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có $SA\perp(ABCD)$. Góc giữa đường thẳng $SB$ và mặt phẳng $(ABCD)$ là
+A. $\widehat{SBA}$.
+B. $\widehat{BSA}$.
+C. $\widehat{SBC}$.
+D. $\widehat{SAB}$.
+::key A
+Hình chiếu của $SB$ trên đáy là $AB$, nên góc là $\widehat{SBA}$. Phương án B là góc giữa $SB$ và $SA$; phương án D là góc vuông.
+
+[M379.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $2$. Khoảng cách giữa hai đường thẳng $AA'$ và $BD$ bằng
+A. $2$.
+B. $2\sqrt2$.
+C. $\sqrt2$.
+D. $\sqrt3$.
+::key C
+Với $O$ là tâm đáy, $AO\perp BD$ và $AO\perp AA'$, nên khoảng cách là $AO=\dfrac{2\sqrt2}{2}=\sqrt2$. Phương án B là cả đường chéo $AC$; phương án A là cạnh $AB$.
+
+[M379.4] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật và $SA\perp(ABCD)$. Mặt phẳng nào sau đây vuông góc với mặt phẳng $(SAB)$?
+A. $(SCD)$.
+B. $(SBD)$.
+C. $(SAC)$.
+D. $(SBC)$.
+::key D
+$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$; mặt phẳng $(SBC)$ chứa $BC$ nên vuông góc với $(SAB)$.
+
+[M379.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp tứ giác đều $S.ABCD$ có tất cả các cạnh bằng $2$, $O$ là tâm của đáy.
+a) $SO\perp(ABCD)$.
+b) $SO=\sqrt2$.
+c) Góc giữa $SA$ và mặt phẳng $(ABCD)$ bằng $60^\circ$.
+d) Thể tích khối chóp bằng $\dfrac{4\sqrt2}{3}$.
+::key Đ Đ S Đ
+a) Đúng: chân đường cao của hình chóp đều là tâm đáy. b) Đúng: $AO=\sqrt2$, $SO=\sqrt{4-2}=\sqrt2$. c) Sai: $\tan\widehat{SAO}=\dfrac{\sqrt2}{\sqrt2}=1$, góc bằng $45^\circ$. d) Đúng: $V=\dfrac13\cdot4\cdot\sqrt2$.
+
+[M379.6] Trả lời ngắn
+Khối lăng trụ đứng có đáy là tam giác đều cạnh $2$ và cạnh bên bằng $3$. Tính thể tích khối lăng trụ (làm tròn kết quả đến hàng phần mười).
+::key 5,2
+$B=\dfrac{2^2\sqrt3}{4}=\sqrt3$, $V=3\sqrt3\approx5{,}196$, làm tròn được $5{,}2$.
+
+[M379.7] Trả lời ngắn
+Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $SA=AB=2$. Tính khoảng cách từ $A$ đến mặt phẳng $(SBC)$ (làm tròn kết quả đến hàng phần trăm).
+::key 1,41
+$BC\perp(SAB)$ nên khoảng cách là đường cao $AH$ của tam giác vuông cân $SAB$: $AH=\dfrac{SB}{2}=\dfrac{2\sqrt2}{2}=\sqrt2\approx1{,}41$.
+
+### M380 · Lớp 12 · Ôn tập: phương pháp toạ độ trong không gian
+
+[M380.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, cho $A(1; 2; 3)$ và $B(3; 0; 4)$. Độ dài đoạn thẳng $AB$ bằng
+A. $9$.
+B. $3$.
+C. $2\sqrt2$.
+D. $5$.
+::key B
+$\overrightarrow{AB}=(2; -2; 1)$, $AB=\sqrt{4+4+1}=3$. Phương án A quên lấy căn, phương án C bỏ toạ độ $z$, phương án D cộng các trị tuyệt đối.
+
+[M380.2] Nhiều lựa chọn
+Mặt phẳng $(P)\colon 2x-3z+1=0$ có một vectơ pháp tuyến là
+A. $(2; -3; 1)$.
+B. $(2; 0; -3)$.
+C. $(2; -3; 0)$.
+D. $(0; 2; -3)$.
+::key B
+Hệ số của $x$, $y$, $z$ lần lượt là $2$, $0$, $-3$. Các phương án khác bỏ qua việc thiếu $y$ hoặc lấy nhầm hệ số tự do.
+
+[M380.3] Nhiều lựa chọn
+Đường thẳng đi qua $A(1; -1; 2)$ và có vectơ chỉ phương $\vec u=(2; 1; -1)$ có phương trình tham số là
+A. $x=1+2t$, $y=-1+t$, $z=2-t$.
+B. $x=2+t$, $y=1-t$, $z=-1+2t$.
+C. $x=1+2t$, $y=1+t$, $z=2-t$.
+D. $x=-1+2t$, $y=1+t$, $z=-2-t$.
+::key A
+Toạ độ điểm đứng riêng, toạ độ vectơ chỉ phương đi cùng $t$. Phương án B đổi vai trò điểm và vectơ; C và D sai dấu toạ độ của $A$.
+
+[M380.4] Nhiều lựa chọn
+Góc giữa hai mặt phẳng $(P)\colon x-z=0$ và $(Q)\colon y-z=0$ bằng
+A. $30^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
+::key C
+$\vec n_P=(1; 0; -1)$, $\vec n_Q=(0; 1; -1)$, $\cos\varphi=\dfrac{|1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=60^\circ$.
+
+[M380.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mặt cầu $(S)\colon(x-1)^2+(y+2)^2+z^2=9$ và mặt phẳng $(P)\colon 2x+y-2z+3=0$.
+a) $(S)$ có tâm $I(1; -2; 0)$.
+b) $(S)$ có bán kính bằng $9$.
+c) Khoảng cách từ tâm $I$ đến $(P)$ bằng $1$.
+d) $(P)$ cắt $(S)$ theo một đường tròn có bán kính $2\sqrt2$.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: $R=\sqrt9=3$. c) Đúng: $\dfrac{|2-2-0+3|}{3}=1$. d) Đúng: $r=\sqrt{9-1}=2\sqrt2$.
+
+[M380.6] Trả lời ngắn
+Tính khoảng cách giữa hai mặt phẳng song song $(P)\colon 2x-y+2z+1=0$ và $(Q)\colon 2x-y+2z-8=0$.
+::key 3
+Lấy $M(0; 1; 0)\in(P)$; $d(M, (Q))=\dfrac{|0-1+0-8|}{3}=3$.
+
+[M380.7] Trả lời ngắn
+Trong một căn phòng, chọn hệ trục $Oxyz$ (đơn vị: m) có gốc $O$ ở một góc sàn. Một bóng đèn treo tại điểm $L(2; 3; 4)$. Tính khoảng cách từ bóng đèn đến góc phòng $O$ (đơn vị: m, làm tròn kết quả đến hàng phần trăm).
+::key 5,39
+$OL=\sqrt{4+9+16}=\sqrt{29}\approx5{,}385$, làm tròn được $5{,}39$.
+
+### M381 · Lớp 12 · Ôn tập: lượng giác, mũ – lôgarit, cấp số
+
+[M381.1] Nhiều lựa chọn
+Chu kì của hàm số $y=\sin2x$ là
+A. $2\pi$.
+B. $\pi$.
+C. $\dfrac{\pi}{2}$.
+D. $4\pi$.
+::key B
+Chu kì là $\dfrac{2\pi}{2}=\pi$. Phương án D nhân thay vì chia cho $2$; phương án A là chu kì của $\sin x$.
+
+[M381.2] Nhiều lựa chọn
+Nghiệm của phương trình $\log_3(2x-1)=2$ là
+A. $x=\dfrac92$.
+B. $x=\dfrac72$.
+C. $x=5$.
+D. $x=\dfrac32$.
+::key C
+$2x-1=3^2=9\iff x=5$ (thoả mãn $2x-1>0$). Phương án A quên số $-1$, phương án B tính nhầm $3^2=6$, phương án D lấy $2x-1=2$.
+
+[M381.3] Nhiều lựa chọn
+Cho cấp số cộng $(u_n)$ có $u_1=2$ và công sai $d=3$. Số hạng $u_{10}$ bằng
+A. $32$.
+B. $26$.
+C. $30$.
+D. $29$.
+::key D
+$u_{10}=2+9\cdot3=29$. Phương án A dùng nhầm $u_1+10d$, phương án B dùng $u_1+8d$.
+
+[M381.4] Nhiều lựa chọn
+Giá trị của $\lim\dfrac{3n-1}{n+2}$ là
+A. $3$.
+B. $-\dfrac12$.
+C. $1$.
+D. $+\infty$.
+::key A
+Chia tử và mẫu cho $n$: $\dfrac{3-\frac1n}{1+\frac2n}\to3$. Phương án B là tỉ số của hai hệ số tự do.
+
+[M381.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=\log_2x$.
+a) Tập xác định của hàm số là $(0; +\infty)$.
+b) Hàm số đồng biến trên tập xác định.
+c) Đồ thị hàm số đi qua điểm $(0; 1)$.
+d) $\log_2x<3\iff x<8$.
+::key Đ Đ S S
+a) Đúng: cần $x>0$. b) Đúng: cơ số $2>1$. c) Sai: đồ thị đi qua $(1; 0)$; điểm $(0; 1)$ thuộc đồ thị $y=2^x$. d) Sai: phải có thêm điều kiện, $\log_2x<3\iff0<x<8$.
+
+[M381.6] Trả lời ngắn
+Tính tổng $S=6+2+\dfrac23+\dfrac29+\cdots$ (cấp số nhân lùi vô hạn).
+::key 9
+$u_1=6$, $q=\dfrac13$, nên $S=\dfrac{6}{1-\frac13}=9$.
+
+[M381.7] Trả lời ngắn
+Phương trình $\sin x=\dfrac12$ có bao nhiêu nghiệm thuộc đoạn $[0; 3\pi]$?
+::key 4
+Các nghiệm là $x=\dfrac{\pi}{6}+k2\pi$ và $x=\dfrac{5\pi}{6}+k2\pi$. Trên $[0; 3\pi]$ có $\dfrac{\pi}{6}$, $\dfrac{5\pi}{6}$, $\dfrac{13\pi}{6}$, $\dfrac{17\pi}{6}$, tức $4$ nghiệm.
+
+### M382 · Lớp 12 · Ôn tập: thống kê và xác suất
+
+[M382.1] Nhiều lựa chọn
+Một mẫu số liệu ghép nhóm có nhóm $[10; 20)$ với tần số $2$, nhóm $[20; 30)$ với tần số $5$, nhóm $[30; 40)$ với tần số $3$. Số trung bình của mẫu là
+A. $25$.
+B. $26$.
+C. $86{,}67$.
+D. $21$.
+::key B
+$\bar x=\dfrac{2\cdot15+5\cdot25+3\cdot35}{10}=26$. Phương án A là giá trị đại diện của nhóm giữa, phương án C chia cho $3$, phương án D dùng đầu mút trái.
+
+[M382.2] Nhiều lựa chọn
+Với mẫu số liệu ở câu trên, nhóm chứa tứ phân vị thứ ba $Q_3$ là
+A. $[10; 20)$.
+B. $[20; 30)$.
+C. $[30; 40)$.
+D. Không xác định được.
+::key C
+Tần số tích luỹ là $2$, $7$, $10$ và $\dfrac{3n}{4}=7{,}5$; nhóm đầu tiên có tần số tích luỹ $\ge7{,}5$ là $[30; 40)$. Phương án B là nhóm có tần số lớn nhất.
+
+[M382.3] Nhiều lựa chọn
+Cho hai biến cố $A$, $B$ với $P(B)>0$. Xác suất của $A$ khi biết $B$ đã xảy ra là
+A. $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$.
+B. $P(A\mid B)=P(A)\cdot P(B)$.
+C. $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$.
+D. $P(A\mid B)=\dfrac{P(A)}{P(B)}$.
+::key C
+Ta thu hẹp không gian mẫu về $B$, nên chia cho $P(B)$. Phương án A là $P(B\mid A)$; phương án B chỉ đúng với $P(A\cap B)$ khi $A$, $B$ độc lập.
+
+[M382.4] Nhiều lựa chọn
+Cho $P(A)=0{,}3$ và $P(B\mid A)=0{,}5$. Khi đó $P(A\cap B)$ bằng
+A. $0{,}15$.
+B. $0{,}8$.
+C. $0{,}6$.
+D. $0{,}2$.
+::key A
+$P(A\cap B)=P(A)\cdot P(B\mid A)=0{,}3\cdot0{,}5=0{,}15$. Phương án B cộng hai số, phương án C chia $0{,}3$ cho $0{,}5$.
+
+[M382.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một túi có $5$ bi đỏ và $3$ bi trắng. Lấy lần lượt hai bi, không hoàn lại.
+a) Xác suất bi thứ nhất màu đỏ là $\dfrac58$.
+b) Xác suất bi thứ hai màu đỏ, biết bi thứ nhất màu đỏ, là $\dfrac47$.
+c) Xác suất cả hai bi đều màu đỏ là $\dfrac{5}{14}$.
+d) Xác suất bi thứ hai màu đỏ là $\dfrac47$.
+::key Đ Đ Đ S
+a) Đúng. b) Đúng: còn $4$ bi đỏ trong $7$ bi. c) Đúng: $\dfrac58\cdot\dfrac47=\dfrac{20}{56}=\dfrac5{14}$. d) Sai: theo công thức xác suất toàn phần, $\dfrac58\cdot\dfrac47+\dfrac38\cdot\dfrac57=\dfrac{35}{56}=\dfrac58$.
+
+[M382.6] Trả lời ngắn
+Mẫu số liệu ghép nhóm có nhóm $[0; 2)$ tần số $3$, nhóm $[2; 4)$ tần số $4$, nhóm $[4; 6)$ tần số $3$. Tính độ lệch chuẩn của mẫu (làm tròn kết quả đến hàng phần trăm).
+::key 1,55
+Giá trị đại diện $1$, $3$, $5$ và $\bar x=3$. $s^2=\dfrac{3\cdot4+4\cdot0+3\cdot4}{10}=2{,}4$, nên $s=\sqrt{2{,}4}\approx1{,}549$, làm tròn được $1{,}55$.
+
+[M382.7] Trả lời ngắn
+Cho $P(B)=0{,}4$, $P(A\mid B)=0{,}5$ và $P(A\mid\overline B)=0{,}25$. Tính $P(B\mid A)$ (làm tròn kết quả đến hàng phần trăm).
+::key 0,57
+$P(A)=0{,}4\cdot0{,}5+0{,}6\cdot0{,}25=0{,}35$, nên $P(B\mid A)=\dfrac{0{,}2}{0{,}35}\approx0{,}571$, làm tròn được $0{,}57$.
+
+### M383 · Lớp 12 · Đề luyện thi tốt nghiệp số 1
+
+[M383.1] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có bảng biến thiên như sau:
+
+| $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $-$ | $0$ | $+$ | $0$ | $-$ | |
+| $f(x)$ | $+\infty$ | $\searrow$ | $-3$ | $\nearrow$ | $1$ | $\searrow$ | $-\infty$ |
+
+Giá trị cực đại của hàm số đã cho bằng
+A. $2$.
+B. $1$.
+C. $-3$.
+D. $0$.
+::key B
+$f'(x)$ đổi dấu từ $+$ sang $-$ khi đi qua $x=2$, nên hàm số đạt cực đại tại $x=2$ và giá trị cực đại là $f(2)=1$. Phương án A là điểm cực đại (giá trị của $x$), phương án C là giá trị cực tiểu, phương án D là điểm cực tiểu.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M383.2] Nhiều lựa chọn
+Tiệm cận ngang của đồ thị hàm số $y=\dfrac{4x+1}{2x-6}$ là đường thẳng
+A. $y=4$.
+B. $x=3$.
+C. $y=2$.
+D. $y=-\dfrac16$.
+::key C
+Ta tính giới hạn khi $x\to\pm\infty$ bằng cách chia tử và mẫu cho $x$:
+
+$$\lim_{x\to\pm\infty}\frac{4x+1}{2x-6}=\lim_{x\to\pm\infty}\frac{4+\frac1x}{2-\frac6x}=\frac42=2.$$
+
+Vậy tiệm cận ngang là $y=2$. Phương án A chỉ lấy hệ số của tử, phương án B là tiệm cận đứng, phương án D lấy tỉ số hai hằng số $\dfrac{1}{-6}$.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M383.3] Nhiều lựa chọn
+Hàm số $y=x^3-3x^2+2$ nghịch biến trên khoảng nào dưới đây?
+A. $(0; 2)$.
+B. $(-\infty; 0)$.
+C. $(2; +\infty)$.
+D. $(-2; 0)$.
+::key A
+Ta xét dấu đạo hàm:
+
+$$y'=3x^2-6x=3x(x-2),\qquad y'<0\iff 0<x<2.$$
+
+Vậy hàm số nghịch biến trên $(0; 2)$. Phương án B và C là các khoảng đồng biến ($y'>0$), phương án D đến từ việc giải nhầm $y'=0$ thành $x=0$, $x=-2$.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M383.4] Nhiều lựa chọn
+Họ nguyên hàm của hàm số $f(x)=2\cos x-3x^2$ là
+A. $-2\sin x-x^3+C$.
+B. $2\sin x-6x+C$.
+C. $2\sin x-x^3+C$.
+D. $2\sin x-3x^3+C$.
+::key C
+Ta dùng $\int\cos x\,dx=\sin x+C$ và $\int x^2\,dx=\dfrac{x^3}{3}+C$:
+
+$$\int\left(2\cos x-3x^2\right)dx=2\sin x-3\cdot\frac{x^3}{3}+C=2\sin x-x^3+C.$$
+
+Phương án A nhầm dấu nguyên hàm của $\cos x$, phương án B lấy đạo hàm của $3x^2$ thay vì nguyên hàm, phương án D quên chia cho $3$.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M383.5] Nhiều lựa chọn
+Cho $\displaystyle\int_1^3 f(x)\,dx=4$ và $\displaystyle\int_1^3 g(x)\,dx=-1$. Giá trị của $\displaystyle\int_1^3\left[2f(x)-3g(x)\right]dx$ bằng
+A. $5$.
+B. $11$.
+C. $7$.
+D. $9$.
+::key B
+Tích phân có tính chất tuyến tính, nên
+
+$$\int_1^3\left[2f(x)-3g(x)\right]dx=2\cdot4-3\cdot(-1)=8+3=11.$$
+
+Phương án A bỏ dấu âm của $-1$ ($8-3$), phương án C quên hệ số $2$, phương án D quên hệ số $3$.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M383.6] Nhiều lựa chọn
+Trong không gian $Oxyz$, cho hai điểm $A(2; -1; 3)$ và $B(4; 3; -1)$. Trung điểm của đoạn thẳng $AB$ có toạ độ là
+A. $(1; 2; -2)$.
+B. $(6; 2; 2)$.
+C. $(2; 4; -4)$.
+D. $(3; 1; 1)$.
+::key D
+Toạ độ trung điểm là trung bình cộng toạ độ hai đầu mút:
+
+$$I\left(\frac{2+4}{2}; \frac{-1+3}{2}; \frac{3+(-1)}{2}\right)=I(3; 1; 1).$$
+
+Phương án A là nửa hiệu toạ độ, phương án B là tổng toạ độ (quên chia $2$), phương án C là toạ độ của $\overrightarrow{AB}$.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M383.7] Nhiều lựa chọn
+Trong không gian $Oxyz$, mặt phẳng đi qua ba điểm $M(2; 0; 0)$, $N(0; -3; 0)$, $P(0; 0; 6)$ có phương trình là
+A. $3x-2y+z-6=0$.
+B. $3x+2y+z-6=0$.
+C. $2x-3y+6z-6=0$.
+D. $3x-2y+z+6=0$.
+::key A
+Ba điểm nằm trên ba trục nên ta dùng phương trình mặt phẳng theo đoạn chắn, rồi nhân hai vế với $6$:
+
+$$\frac x2+\frac{y}{-3}+\frac z6=1\iff 3x-2y+z-6=0.$$
+
+Phương án B bỏ dấu âm của $-3$, phương án C lấy nhầm các giao điểm làm hệ số, phương án D sai dấu hằng số (thay $M$ vào được $6+6\neq0$).
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M383.8] Nhiều lựa chọn
+Trong không gian $Oxyz$, mặt cầu $(S)\colon(x-1)^2+(y+2)^2+(z-3)^2=16$ có tâm $I$ và bán kính $R$ là
+A. $I(-1; 2; -3)$, $R=4$.
+B. $I(1; -2; 3)$, $R=16$.
+C. $I(1; -2; 3)$, $R=4$.
+D. $I(-1; 2; -3)$, $R=16$.
+::key C
+Mặt cầu $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ có tâm $I(a; b; c)$ và bán kính $R$. Ở đây $a=1$, $b=-2$, $c=3$ và $R^2=16$ nên $R=4$. Phương án A đổi dấu toạ độ tâm, phương án B quên lấy căn bậc hai.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M383.9] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a\sqrt6$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng
+A. $30^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
+::key C
+$AC$ là hình chiếu vuông góc của $SC$ trên $(ABCD)$, nên góc cần tìm là $\widehat{SCA}$. Đường chéo hình vuông $AC=a\sqrt2$, do đó
+
+$$\tan\widehat{SCA}=\frac{SA}{AC}=\frac{a\sqrt6}{a\sqrt2}=\sqrt3\ \Rightarrow\ \widehat{SCA}=60^\circ.$$
+
+Phương án A đến từ tỉ số đảo ngược $\dfrac{AC}{SA}$; phương án D nhầm $SC$ vuông góc với đáy.
+
+Ôn lại: [hình học không gian](lesson:review-space-geometry).
+
+[M383.10] Nhiều lựa chọn
+Thời gian tự học ở nhà mỗi ngày (phút) của $40$ học sinh được cho trong bảng sau:
+
+| Thời gian (phút) | $[0; 20)$ | $[20; 40)$ | $[40; 60)$ | $[60; 80)$ | $[80; 100)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $12$ | $15$ | $6$ | $2$ |
+
+Số trung bình của mẫu số liệu ghép nhóm này là
+A. $34$ phút.
+B. $50$ phút.
+C. $44$ phút.
+D. $8$ phút.
+::key C
+Ta dùng giá trị đại diện của mỗi nhóm (trung điểm) là $10$, $30$, $50$, $70$, $90$:
+
+$$\bar x=\frac{5\cdot10+12\cdot30+15\cdot50+6\cdot70+2\cdot90}{40}=\frac{1760}{40}=44.$$
+
+Phương án A dùng đầu mút trái của các nhóm, phương án B là giá trị đại diện của nhóm giữa, phương án D là trung bình của các tần số.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M383.11] Nhiều lựa chọn
+Cho hai biến cố $A$, $B$ với $P(A)=0{,}6$, $P(B)=0{,}5$ và $P(A\cap B)=0{,}3$. Xác suất $P(A\mid B)$ bằng
+A. $0{,}5$.
+B. $0{,}15$.
+C. $0{,}3$.
+D. $0{,}6$.
+::key D
+Theo định nghĩa xác suất có điều kiện:
+
+$$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{0{,}3}{0{,}5}=0{,}6.$$
+
+Phương án A là $P(B\mid A)=\dfrac{0{,}3}{0{,}6}$ (chia nhầm cho $P(A)$), phương án B nhân $P(A\cap B)$ với $P(B)$ thay vì chia, phương án C là $P(A\cap B)$.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M383.12] Nhiều lựa chọn
+Tập nghiệm của bất phương trình $3^{2x-1}\le27$ là
+A. $(-\infty; 2)$.
+B. $(-\infty; 2]$.
+C. $[2; +\infty)$.
+D. $(-\infty; 14]$.
+::key B
+Viết $27=3^3$; cơ số $3>1$ nên giữ nguyên chiều bất đẳng thức:
+
+$$3^{2x-1}\le3^3\iff 2x-1\le3\iff x\le2.$$
+
+Phương án A bỏ mất dấu bằng, phương án C đổi chiều bất đẳng thức (chỉ đổi khi cơ số nhỏ hơn $1$), phương án D so sánh $2x-1$ với $27$ thay vì với số mũ $3$.
+
+Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
+
+[M383.13] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^3-6x^2+9x+1$.
+a) $f'(x)=3x^2-12x+9$.
+b) Hàm số đồng biến trên khoảng $(1; 3)$.
+c) Giá trị cực đại của hàm số bằng $5$.
+d) Trên đoạn $[0; 4]$, giá trị lớn nhất của hàm số bằng $5$ và chỉ đạt được tại đúng một điểm.
+::key Đ S Đ S
+a) Đúng: đạo hàm từng số hạng, $(x^3)'=3x^2$, $(-6x^2)'=-12x$, $(9x)'=9$.
+
+b) Sai: $f'(x)=3(x-1)(x-3)<0$ khi $1<x<3$, nên hàm số nghịch biến trên $(1; 3)$.
+
+c) Đúng: $f'$ đổi dấu từ $+$ sang $-$ tại $x=1$, nên giá trị cực đại là $f(1)=1-6+9+1=5$.
+
+d) Sai: so sánh $f(0)=1$, $f(1)=5$, $f(3)=1$, $f(4)=64-96+36+1=5$. Giá trị lớn nhất bằng $5$ nhưng đạt tại hai điểm $x=1$ và $x=4$.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M383.14] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một tên lửa mô hình được phóng thẳng đứng từ mặt đất. Trong $4$ giây đầu, vận tốc của nó là $v(t)=12t-3t^2$ (m/s), với $t$ là số giây kể từ lúc phóng. Gọi $h(t)$ là độ cao (m) của tên lửa tại thời điểm $t$, $0\le t\le4$.
+a) Vận tốc của tên lửa tại thời điểm $t=1$ giây là $9$ m/s.
+b) Vận tốc của tên lửa tăng liên tục trong suốt $4$ giây đầu.
+c) $h(t)=6t^2-t^3$.
+d) Độ cao lớn nhất mà tên lửa đạt được trong $4$ giây đầu là $32$ m.
+::key Đ S Đ Đ
+a) Đúng: $v(1)=12-3=9$ (m/s).
+
+b) Sai: $v'(t)=12-6t<0$ khi $t>2$, nên vận tốc chỉ tăng trong $2$ giây đầu rồi giảm.
+
+c) Đúng: $h(t)$ là nguyên hàm của $v(t)$ với $h(0)=0$: $h(t)=6t^2-t^3+C$ và $h(0)=0$ cho $C=0$.
+
+d) Đúng: $v(t)=3t(4-t)\ge0$ trên $[0; 4]$ nên độ cao tăng, lớn nhất tại $t=4$: $h(4)=\displaystyle\int_0^4\left(12t-3t^2\right)dt=96-64=32$ (m).
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M383.15] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong không gian $Oxyz$, cho hai điểm $A(1; 0; 2)$, $B(3; 2; 0)$ và mặt phẳng $(P)\colon 2x+y-z-4=0$.
+a) $\overrightarrow{AB}=(2; 2; -2)$.
+b) Trung điểm $I$ của đoạn thẳng $AB$ thuộc mặt phẳng $(P)$.
+c) Mặt phẳng trung trực của đoạn thẳng $AB$ có phương trình $x+y-z=0$.
+d) Góc giữa đường thẳng $AB$ và mặt phẳng $(P)$ lớn hơn $60^\circ$.
+::key Đ Đ S Đ
+a) Đúng: $\overrightarrow{AB}=(3-1; 2-0; 0-2)=(2; 2; -2)$.
+
+b) Đúng: $I(2; 1; 1)$ và $2\cdot2+1-1-4=0$.
+
+c) Sai: mặt phẳng trung trực đi qua $I(2; 1; 1)$, có vectơ pháp tuyến $\vec n=(1; 1; -1)$, nên có phương trình $(x-2)+(y-1)-(z-1)=0$, tức là $x+y-z-2=0$. Mặt phẳng $x+y-z=0$ không đi qua $I$.
+
+d) Đúng: với $\vec u=(1; 1; -1)$ và $\vec n_P=(2; 1; -1)$,
+
+$$\sin\varphi=\frac{|2+1+1|}{\sqrt3\cdot\sqrt6}=\frac{4}{3\sqrt2}\approx0{,}943\ \Rightarrow\ \varphi\approx70{,}5^\circ>60^\circ.$$
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M383.16] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một nhà máy có hai dây chuyền. Dây chuyền I làm ra $60\%$ số sản phẩm, dây chuyền II làm ra $40\%$. Tỉ lệ sản phẩm lỗi của dây chuyền I là $3\%$, của dây chuyền II là $5\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy.
+a) Xác suất sản phẩm bị lỗi, biết nó do dây chuyền I làm ra, bằng $0{,}03$.
+b) Xác suất sản phẩm bị lỗi bằng $0{,}04$.
+c) Xác suất sản phẩm do dây chuyền I làm ra và bị lỗi bằng $0{,}03$.
+d) Biết sản phẩm được chọn bị lỗi, xác suất nó do dây chuyền II làm ra lớn hơn $0{,}5$.
+::key Đ S S Đ
+Gọi $A$ là biến cố "sản phẩm do dây chuyền I làm ra", $L$ là biến cố "sản phẩm bị lỗi".
+
+a) Đúng: đề cho $P(L\mid A)=0{,}03$.
+
+b) Sai: theo công thức xác suất toàn phần, $P(L)=0{,}6\cdot0{,}03+0{,}4\cdot0{,}05=0{,}018+0{,}02=0{,}038$. Số $0{,}04$ là trung bình cộng của hai tỉ lệ, không tính đến tỉ trọng của mỗi dây chuyền.
+
+c) Sai: $P(A\cap L)=P(A)\cdot P(L\mid A)=0{,}6\cdot0{,}03=0{,}018$; số $0{,}03$ là xác suất có điều kiện.
+
+d) Đúng: theo công thức Bayes, $P(\overline A\mid L)=\dfrac{0{,}02}{0{,}038}=\dfrac{10}{19}\approx0{,}526>0{,}5$.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M383.17] Trả lời ngắn
+Một tấm áp phích hình chữ nhật có phần in chữ là một hình chữ nhật diện tích $384$ cm². Lề trên và lề dưới mỗi lề rộng $3$ cm, lề trái và lề phải mỗi lề rộng $2$ cm. Diện tích nhỏ nhất của tấm áp phích là bao nhiêu cm²?
+::key 600
+Gọi chiều rộng phần in là $x$ cm ($x>0$), chiều cao phần in là $\dfrac{384}{x}$ cm. Diện tích tấm áp phích là
+
+$$S(x)=(x+4)\left(\frac{384}{x}+6\right)=408+6x+\frac{1536}{x}.$$
+
+$S'(x)=6-\dfrac{1536}{x^2}=0\iff x^2=256\iff x=16$, và $S'$ đổi dấu từ $-$ sang $+$ tại $x=16$. Khi đó phần in là $16\times24$ cm, tấm áp phích là $20\times30$ cm, nên diện tích nhỏ nhất bằng $600$ cm².
+
+Ôn lại: [bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
+
+[M383.18] Trả lời ngắn
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=12$. Tính khoảng cách từ điểm $A$ đến mặt phẳng $(A'BD)$ (làm tròn kết quả đến hàng phần trăm).
+::key 2,35
+Ta chọn hệ trục toạ độ có gốc tại $A$ và các trục theo $AB$, $AD$, $AA'$: $B(3; 0; 0)$, $D(0; 4; 0)$, $A'(0; 0; 12)$. Vectơ pháp tuyến $\vec n=(a; b; c)$ của $(A'BD)$ vuông góc với $\overrightarrow{BD}=(-3; 4; 0)$ và $\overrightarrow{BA'}=(-3; 0; 12)$:
+
+$$-3a+4b=0,\qquad -3a+12c=0\ \Rightarrow\ \text{chọn } a=4,\ b=3,\ c=1.$$
+
+Vậy $(A'BD)\colon 4(x-3)+3y+z=0$, tức là $4x+3y+z-12=0$, và
+
+$$d(A, (A'BD))=\frac{|4\cdot0+3\cdot0+0-12|}{\sqrt{4^2+3^2+1^2}}=\frac{12}{\sqrt{26}}\approx2{,}353.$$
+
+Làm tròn đến hàng phần trăm, khoảng cách bằng $2{,}35$. Chú ý: vì $AB$, $AD$, $AA'$ đôi một vuông góc nên có thể kiểm tra lại bằng hệ thức $\dfrac1{h^2}=\dfrac1{AB^2}+\dfrac1{AD^2}+\dfrac1{AA'^2}$, nhưng hệ thức này không có trong sách giáo khoa.
+
+Ôn lại: [hình học không gian](lesson:review-space-geometry).
+
+[M383.19] Trả lời ngắn
+Chọn hệ trục $Oxyz$ (đơn vị: mét) với mặt phẳng $(Oxy)$ là mặt đất. Một đường dây trượt (zipline) được căng thẳng từ điểm $A(0; 0; 20)$ trên một đài cao đến điểm $B(30; 40; 5)$. Tính góc giữa đường dây và mặt đất (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
+::key 17
+Đường dây có vectơ chỉ phương $\overrightarrow{AB}=(30; 40; -15)$, mặt đất có vectơ pháp tuyến $\vec k=(0; 0; 1)$. Ta có
+
+$$\sin\varphi=\frac{|-15|}{\sqrt{30^2+40^2+15^2}}=\frac{15}{\sqrt{2725}}\approx0{,}287\ \Rightarrow\ \varphi\approx16{,}7^\circ.$$
+
+Làm tròn đến hàng đơn vị, góc giữa đường dây và mặt đất khoảng $17^\circ$.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M383.20] Trả lời ngắn
+Một hệ thống báo cháy có ba cảm biến hoạt động độc lập. Khi có cháy, xác suất phát hiện của từng cảm biến lần lượt là $0{,}9$; $0{,}8$ và $0{,}5$. Khi có cháy, tính xác suất có đúng hai cảm biến phát hiện được.
+::key 0,49
+"Đúng hai cảm biến phát hiện" là hợp của ba biến cố xung khắc (một cảm biến bỏ sót, hai cảm biến còn lại phát hiện). Các cảm biến độc lập nên ta nhân xác suất trong từng trường hợp rồi cộng lại:
+
+$$P=0{,}9\cdot0{,}8\cdot0{,}5+0{,}9\cdot0{,}2\cdot0{,}5+0{,}1\cdot0{,}8\cdot0{,}5=0{,}36+0{,}09+0{,}04=0{,}49.$$
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M383.21] Trả lời ngắn
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đường thẳng $y=x$.
+::key 4,5
+Hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $[0; 3]$ đường thẳng nằm trên parabol (thử $x=1$: $1>-1$), nên
+
+$$S=\int_0^3\left(x-x^2+2x\right)dx=\int_0^3\left(3x-x^2\right)dx=\left[\frac{3x^2}{2}-\frac{x^3}{3}\right]_0^3=\frac{27}{2}-9=4{,}5.$$
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M383.22] Trả lời ngắn
+Một cốc trà vừa pha có nhiệt độ $95^\circ$C, đặt trong phòng có nhiệt độ $25^\circ$C. Nhiệt độ của trà sau $t$ phút là $T(t)=25+70\cdot e^{-kt}$ ($^\circ$C), với $k$ là hằng số dương. Sau $5$ phút, trà còn $60^\circ$C. Sau bao nhiêu phút kể từ lúc pha, trà còn $30^\circ$C (làm tròn kết quả đến hàng đơn vị)?
+::key 19
+Từ $T(5)=60$ ta có $70e^{-5k}=35$, tức là $e^{-5k}=\dfrac12$, nên $k=\dfrac{\ln2}{5}$. Giải $T(t)=30$:
+
+$$70e^{-kt}=5\iff e^{-kt}=\frac1{14}\iff t=\frac{\ln14}{k}=\frac{5\ln14}{\ln2}\approx19{,}04.$$
+
+Vậy sau khoảng $19$ phút trà còn $30^\circ$C.
+
+Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
+
+### M384 · Lớp 12 · Đề luyện thi tốt nghiệp số 2
+
+[M384.1] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có đạo hàm $f'(x)=(x+1)(x-2)^2(x-4)$ với mọi $x\in\mathbb{R}$. Hàm số đạt cực tiểu tại
+A. $x=2$.
+B. $x=-1$.
+C. $x=0$.
+D. $x=4$.
+::key D
+Ta xét dấu $f'(x)$; thừa số $(x-2)^2$ không âm nên không làm $f'$ đổi dấu:
+
+| $x$ | $-\infty$ | | $-1$ | | $2$ | | $4$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $-$ | $0$ | $+$ | |
+
+$f'$ đổi dấu từ $-$ sang $+$ chỉ tại $x=4$, nên hàm số đạt cực tiểu tại $x=4$. Phương án A coi mọi nghiệm của $f'$ là điểm cực trị, phương án B là điểm cực đại.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M384.2] Nhiều lựa chọn
+Tiệm cận xiên của đồ thị hàm số $y=\dfrac{2x^2+3x-1}{x+2}$ là đường thẳng
+A. $y=2x-1$.
+B. $y=2x+3$.
+C. $y=x-1$.
+D. $x=-2$.
+::key A
+Chia tử cho mẫu:
+
+$$\frac{2x^2+3x-1}{x+2}=2x-1+\frac{1}{x+2}.$$
+
+Vì $\dfrac1{x+2}\to0$ khi $x\to\pm\infty$, tiệm cận xiên là $y=2x-1$. Phương án B chỉ lấy hai hệ số đầu của tử, phương án C quên hệ số $2$ của $x^2$, phương án D là tiệm cận đứng.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M384.3] Nhiều lựa chọn
+Hàm số nào sau đây đồng biến trên $\mathbb{R}$?
+A. $y=x^4+2x^2$.
+B. $y=\dfrac{x+1}{x-3}$.
+C. $y=x^3+x-5$.
+D. $y=x^3-3x$.
+::key C
+$y=x^3+x-5$ có $y'=3x^2+1>0$ với mọi $x$, nên đồng biến trên $\mathbb{R}$. Hàm số A có $y'=4x(x^2+1)<0$ khi $x<0$; hàm số B không xác định tại $x=3$; hàm số D có $y'=3x^2-3<0$ trên $(-1; 1)$.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M384.4] Nhiều lựa chọn
+Trên khoảng $(0; +\infty)$, họ nguyên hàm của hàm số $f(x)=3^x+\dfrac1x$ là
+A. $3^x\ln3+\ln x+C$.
+B. $\dfrac{3^x}{\ln3}+\ln x+C$.
+C. $x\cdot3^{x-1}+\ln x+C$.
+D. $\dfrac{3^x}{\ln3}-\dfrac1{x^2}+C$.
+::key B
+Ta dùng $\int a^x\,dx=\dfrac{a^x}{\ln a}+C$ và $\int\dfrac1x\,dx=\ln|x|+C$ (với $x>0$ thì $|x|=x$). Phương án A là đạo hàm của $3^x$, phương án C dùng nhầm công thức của hàm luỹ thừa, phương án D lấy đạo hàm của $\dfrac1x$.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M384.5] Nhiều lựa chọn
+Giá trị của $\displaystyle\int_0^3|x-2|\,dx$ bằng
+A. $-\dfrac32$.
+B. $\dfrac32$.
+C. $2$.
+D. $\dfrac52$.
+::key D
+Ta tách tại $x=2$, nơi $x-2$ đổi dấu:
+
+$$\int_0^3|x-2|\,dx=\int_0^2(2-x)\,dx+\int_2^3(x-2)\,dx=2+\frac12=\frac52.$$
+
+Phương án A bỏ dấu giá trị tuyệt đối, phương án B lấy hiệu hai phần thay vì tổng, phương án C chỉ tính phần trên $[0; 2]$.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M384.6] Nhiều lựa chọn
+Cho cấp số nhân $(u_n)$ có $u_1=2$ và $u_4=-54$. Công bội của cấp số nhân là
+A. $-3$.
+B. $3$.
+C. $-27$.
+D. $-\dfrac{56}{3}$.
+::key A
+Ta có $u_4=u_1q^3$, nên $q^3=\dfrac{-54}{2}=-27$ và $q=-3$. Phương án B làm mất dấu âm, phương án C quên lấy căn bậc ba, phương án D dùng nhầm công thức cấp số cộng $u_4=u_1+3d$.
+
+Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
+
+[M384.7] Nhiều lựa chọn
+Trong không gian $Oxyz$, mặt phẳng đi qua điểm $A(1; -1; 2)$ và vuông góc với đường thẳng $d\colon\dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{3}$ có phương trình là
+A. $2x-y+3z+9=0$.
+B. $2x+y+3z-7=0$.
+C. $2x-y+3z-9=0$.
+D. $2x-y+3z+7=0$.
+::key C
+Mặt phẳng vuông góc với $d$ nhận vectơ chỉ phương $\vec u=(2; -1; 3)$ của $d$ làm vectơ pháp tuyến:
+
+$$2(x-1)-(y+1)+3(z-2)=0\iff 2x-y+3z-9=0.$$
+
+Phương án A sai dấu hằng số, phương án B sai dấu hệ số của $y$, phương án D là mặt phẳng đi qua điểm $(1; 0; -3)$ của $d$ thay vì đi qua $A$.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M384.8] Nhiều lựa chọn
+Trong không gian $Oxyz$, mặt cầu có tâm $I(2; -1; 1)$ và đi qua điểm $A(0; 1; 2)$ có phương trình là
+A. $(x-2)^2+(y+1)^2+(z-1)^2=3$.
+B. $(x-2)^2+(y+1)^2+(z-1)^2=9$.
+C. $(x+2)^2+(y-1)^2+(z+1)^2=9$.
+D. $(x+2)^2+(y-1)^2+(z+1)^2=3$.
+::key B
+Bán kính bằng $IA$:
+
+$$R^2=IA^2=(0-2)^2+(1+1)^2+(2-1)^2=9.$$
+
+Vậy phương trình mặt cầu là $(x-2)^2+(y+1)^2+(z-1)^2=9$. Phương án A viết $R$ thay cho $R^2$, phương án C và D đổi dấu toạ độ tâm.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M384.9] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB'$ và $BC'$ bằng
+A. $45^\circ$.
+B. $90^\circ$.
+C. $60^\circ$.
+D. $30^\circ$.
+::key C
+Tứ giác $ABC'D'$ là hình chữ nhật nên $BC'\parallel AD'$, do đó góc cần tìm bằng góc giữa $AB'$ và $AD'$. Tam giác $AB'D'$ có ba cạnh là ba đường chéo của ba mặt hình lập phương nên là tam giác đều, vậy góc bằng $60^\circ$. Phương án A nhầm với góc giữa đường chéo mặt và cạnh, phương án B nhầm vì hai mặt $(ABB'A')$ và $(BCC'B')$ vuông góc với nhau.
+
+Ôn lại: [hình học không gian](lesson:review-space-geometry).
+
+[M384.10] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB=3$, $AD=4$, $SA\perp(ABCD)$ và góc giữa đường thẳng $SC$ với mặt phẳng đáy bằng $45^\circ$. Thể tích khối chóp $S.ABCD$ bằng
+A. $20$.
+B. $60$.
+C. $16$.
+D. $10$.
+::key A
+Góc giữa $SC$ và đáy là $\widehat{SCA}=45^\circ$, nên tam giác $SAC$ vuông cân tại $A$ và $SA=AC=\sqrt{3^2+4^2}=5$. Do đó
+
+$$V=\frac13\cdot AB\cdot AD\cdot SA=\frac13\cdot12\cdot5=20.$$
+
+Phương án B quên hệ số $\dfrac13$, phương án C lấy nhầm $SA=AD=4$, phương án D dùng diện tích tam giác $ABC$ làm diện tích đáy.
+
+Ôn lại: [hình học không gian](lesson:review-space-geometry).
+
+[M384.11] Nhiều lựa chọn
+Cân nặng (kg) của $40$ học sinh nam lớp 12 được cho trong bảng sau:
+
+| Cân nặng (kg) | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $9$ | $15$ | $10$ | $2$ |
+
+Mốt của mẫu số liệu ghép nhóm này (làm tròn đến hàng phần trăm) là
+A. $65$.
+B. $64{,}55$.
+C. $15$.
+D. $65{,}45$.
+::key D
+Nhóm có tần số lớn nhất là $[60; 70)$ với $n_m=15$, nhóm trước có $n_{m-1}=9$, nhóm sau có $n_{m+1}=10$:
+
+$$M_o=60+\frac{15-9}{(15-9)+(15-10)}\cdot10=60+\frac{60}{11}\approx65{,}45.$$
+
+Phương án A là trung điểm nhóm mốt, phương án B đổi chỗ hai hiệu ở tử ($15-10$ thay cho $15-9$), phương án C là tần số lớn nhất.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M384.12] Nhiều lựa chọn
+Hai bạn An và Bình độc lập với nhau, mỗi người ném một quả bóng vào rổ. Xác suất ném trúng của An là $0{,}7$, của Bình là $0{,}6$. Xác suất để có đúng một bạn ném trúng là
+A. $0{,}42$.
+B. $0{,}46$.
+C. $0{,}88$.
+D. $0{,}54$.
+::key B
+"Đúng một bạn trúng" gồm hai trường hợp xung khắc: An trúng và Bình trượt, hoặc An trượt và Bình trúng. Do hai bạn ném độc lập:
+
+$$P=0{,}7\cdot0{,}4+0{,}3\cdot0{,}6=0{,}28+0{,}18=0{,}46.$$
+
+Phương án A là xác suất cả hai trúng, phương án C là xác suất có ít nhất một bạn trúng, phương án D là xác suất của biến cố đối.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M384.13] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=\dfrac{x+3}{x-1}$ có đồ thị $(C)$.
+a) Đường thẳng $x=1$ là tiệm cận đứng của $(C)$.
+b) Hàm số đồng biến trên khoảng $(1; +\infty)$.
+c) Giá trị lớn nhất của hàm số trên đoạn $[2; 5]$ bằng $5$.
+d) Trên $(C)$ có đúng $6$ điểm mà cả hoành độ và tung độ đều là số nguyên.
+::key Đ S Đ Đ
+a) Đúng: $\lim\limits_{x\to1^+}\dfrac{x+3}{x-1}=+\infty$.
+
+b) Sai: $y'=\dfrac{1\cdot(-1)-3\cdot1}{(x-1)^2}=\dfrac{-4}{(x-1)^2}<0$, nên hàm số nghịch biến trên từng khoảng xác định.
+
+c) Đúng: hàm số nghịch biến trên $[2; 5]$, nên giá trị lớn nhất là $y(2)=\dfrac51=5$.
+
+d) Đúng: viết $y=1+\dfrac{4}{x-1}$. Với $x$ nguyên, $y$ nguyên khi và chỉ khi $x-1$ là ước của $4$, tức là $x-1\in\{\pm1; \pm2; \pm4\}$: có $6$ giá trị của $x$, nên có $6$ điểm.
+
+Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
+
+[M384.14] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một đoàn tàu bắt đầu rời ga (vận tốc ban đầu bằng $0$). Trong $20$ giây đầu, gia tốc của tàu là $a(t)=2-0{,}1t$ (m/s²), với $t$ là số giây kể từ lúc tàu chuyển bánh. Gọi $v(t)$ là vận tốc (m/s) của tàu.
+a) $v(t)=2t-0{,}05t^2$ với $0\le t\le20$.
+b) Vận tốc của tàu tại thời điểm $t=20$ giây là $40$ m/s.
+c) Quãng đường tàu đi được trong $10$ giây đầu là $100$ m.
+d) Từ giây thứ $20$ trở đi, tàu giữ nguyên vận tốc đã đạt được. Quãng đường tàu đi được trong $1$ phút đầu lớn hơn $1$ km.
+::key Đ S S Đ
+a) Đúng: $v(t)$ là nguyên hàm của $a(t)$, $v(t)=2t-0{,}05t^2+C$, và $v(0)=0$ cho $C=0$.
+
+b) Sai: $v(20)=40-0{,}05\cdot400=20$ (m/s). Số $40$ chỉ lấy $2t$ và quên số hạng $-0{,}05t^2$.
+
+c) Sai: $\displaystyle\int_0^{10}\left(2t-0{,}05t^2\right)dt=\left[t^2-\frac{0{,}05t^3}{3}\right]_0^{10}=100-\frac{50}{3}\approx83{,}3$ (m).
+
+d) Đúng: trong $20$ giây đầu tàu đi $\displaystyle\int_0^{20}\left(2t-0{,}05t^2\right)dt=400-\frac{400}{3}=\frac{800}{3}\approx266{,}7$ (m); trong $40$ giây sau tàu đi $20\cdot40=800$ (m). Tổng cộng khoảng $1066{,}7$ m $>1000$ m.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M384.15] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Chọn hệ trục $Oxyz$ (đơn vị: mét) với mặt phẳng $(Oxy)$ là mặt đất. Một cột ăng-ten thẳng đứng có chân ở gốc $O$ và đỉnh ở $A(0; 0; 12)$. Một sợi dây cáp được căng thẳng từ đỉnh $A$ đến điểm neo $B(4; 6; 0)$ trên mặt đất.
+a) $\overrightarrow{AB}=(4; 6; -12)$.
+b) Sợi dây cáp dài $14$ m.
+c) Góc giữa sợi dây cáp và mặt đất lớn hơn $60^\circ$.
+d) Mặt phẳng chứa cột ăng-ten và sợi dây cáp có phương trình $3x-2y=0$.
+::key Đ Đ S Đ
+a) Đúng: $\overrightarrow{AB}=(4-0; 6-0; 0-12)=(4; 6; -12)$.
+
+b) Đúng: $AB=\sqrt{16+36+144}=\sqrt{196}=14$ (m).
+
+c) Sai: mặt đất có vectơ pháp tuyến $\vec k=(0; 0; 1)$, nên $\sin\varphi=\dfrac{12}{14}\approx0{,}857$ và $\varphi\approx59{,}0^\circ<60^\circ$.
+
+d) Đúng: mặt phẳng $(OAB)$ chứa hai vectơ $\overrightarrow{OA}=(0; 0; 12)$ và $\overrightarrow{OB}=(4; 6; 0)$. Vectơ pháp tuyến $\vec n=(a; b; c)$ vuông góc với cả hai vectơ đó:
+
+$$12c=0,\qquad 4a+6b=0\ \Rightarrow\ \text{chọn } c=0,\ a=3,\ b=-2.$$
+
+Mặt phẳng đi qua $O$, có vectơ pháp tuyến $\vec n=(3; -2; 0)$, nên có phương trình $3x-2y=0$.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M384.16] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hộp I có $4$ viên bi đỏ và $2$ viên bi xanh; hộp II có $3$ viên bi đỏ và $5$ viên bi xanh. Lấy ngẫu nhiên một viên bi từ hộp I bỏ vào hộp II, rồi lấy ngẫu nhiên một viên bi từ hộp II.
+a) Xác suất viên bi chuyển từ hộp I sang là bi đỏ bằng $\dfrac23$.
+b) Biết viên bi chuyển sang là bi đỏ, xác suất lấy được bi đỏ từ hộp II bằng $\dfrac12$.
+c) Xác suất lấy được bi đỏ từ hộp II bằng $\dfrac{11}{27}$.
+d) Biết viên bi lấy từ hộp II là bi đỏ, xác suất viên bi đã chuyển sang là bi đỏ lớn hơn $0{,}75$.
+::key Đ S Đ S
+Gọi $D$ là biến cố "bi chuyển sang là bi đỏ", $E$ là biến cố "bi lấy từ hộp II là bi đỏ".
+
+a) Đúng: $P(D)=\dfrac46=\dfrac23$.
+
+b) Sai: sau khi chuyển, hộp II có $9$ viên, trong đó $4$ viên đỏ, nên $P(E\mid D)=\dfrac49$. Số $\dfrac12=\dfrac48$ quên rằng hộp II đã có thêm một viên.
+
+c) Đúng: theo công thức xác suất toàn phần, $P(E)=\dfrac23\cdot\dfrac49+\dfrac13\cdot\dfrac39=\dfrac{8}{27}+\dfrac{3}{27}=\dfrac{11}{27}$.
+
+d) Sai: theo công thức Bayes, $P(D\mid E)=\dfrac{8/27}{11/27}=\dfrac{8}{11}\approx0{,}727<0{,}75$.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M384.17] Trả lời ngắn
+Một khách sạn có $50$ phòng. Nếu giá thuê là $400$ nghìn đồng một phòng mỗi ngày thì tất cả các phòng đều có khách; cứ tăng giá thêm $20$ nghìn đồng thì có thêm một phòng bị bỏ trống. Mỗi phòng có khách tốn $40$ nghìn đồng chi phí phục vụ mỗi ngày. Để lợi nhuận mỗi ngày lớn nhất, khách sạn nên cho thuê với giá bao nhiêu nghìn đồng một phòng?
+::key 720
+Gọi $x$ là số lần tăng giá ($0\le x\le50$). Khi đó giá thuê là $400+20x$, có $50-x$ phòng có khách, và lợi nhuận mỗi ngày (nghìn đồng) là
+
+$$L(x)=(400+20x-40)(50-x)=(360+20x)(50-x).$$
+
+$L'(x)=20(50-x)-(360+20x)=640-40x=0\iff x=16$. So sánh $L(0)=18\,000$, $L(16)=680\cdot34=23\,120$, $L(50)=0$: lợi nhuận lớn nhất khi $x=16$, tức là giá thuê $400+320=720$ nghìn đồng.
+
+Ôn lại: [bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
+
+[M384.18] Trả lời ngắn
+Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và chiều cao bằng $4$. Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SCD)$.
+::key 4,8
+Gọi $O$ là tâm đáy, $M$ là trung điểm của $CD$. Vì $AC$ cắt $(SCD)$ tại $C$ và $AC=2OC$, nên $d(A, (SCD))=2\,d(O, (SCD))$. Kẻ $OH\perp SM$ tại $H$. Vì $CD\perp OM$ và $CD\perp SO$ nên $CD\perp(SOM)$, suy ra $CD\perp OH$; do đó $OH\perp(SCD)$. Trong tam giác $SOM$ vuông tại $O$ với $OM=3$, $SO=4$:
+
+$$OH=\frac{SO\cdot OM}{\sqrt{SO^2+OM^2}}=\frac{4\cdot3}{5}=2{,}4.$$
+
+Vậy $d(A, (SCD))=2\cdot2{,}4=4{,}8$.
+
+Ôn lại: [hình học không gian](lesson:review-space-geometry).
+
+[M384.19] Trả lời ngắn
+Chọn hệ trục $Oxyz$ (đơn vị: mét). Sau $t$ giây, máy bay không người lái thứ nhất ở vị trí $M(3t; 4t; 20)$, máy bay thứ hai ở vị trí $N(40-2t; 10+t; 30-t)$. Tính khoảng cách nhỏ nhất giữa hai máy bay (làm tròn kết quả đến hàng phần mười).
+::key 12,4
+Ta có $\overrightarrow{MN}=(40-5t; 10-3t; 10-t)$, nên
+
+$$f(t)=MN^2=(40-5t)^2+(10-3t)^2+(10-t)^2=35t^2-480t+1800.$$
+
+$f'(t)=70t-480=0\iff t=\dfrac{48}{7}$, và $f'$ đổi dấu từ $-$ sang $+$ tại đó. Giá trị nhỏ nhất là $f\left(\dfrac{48}{7}\right)=\dfrac{1080}{7}$, nên khoảng cách nhỏ nhất là $\sqrt{\dfrac{1080}{7}}\approx12{,}42$, làm tròn được $12{,}4$ m.
+
+Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
+
+[M384.20] Trả lời ngắn
+Một bài kiểm tra trắc nghiệm, mỗi câu có $4$ phương án và chỉ có một phương án đúng. Với mỗi câu, xác suất bạn Lan biết đáp án là $0{,}6$; nếu không biết, Lan chọn ngẫu nhiên một phương án. Biết Lan trả lời đúng một câu, tính xác suất Lan thật sự biết đáp án của câu đó (làm tròn kết quả đến hàng phần trăm).
+::key 0,86
+Gọi $B$ là biến cố "Lan biết đáp án", $D$ là biến cố "Lan trả lời đúng". Ta có $P(D\mid B)=1$ và $P(D\mid\overline B)=0{,}25$. Theo công thức xác suất toàn phần và công thức Bayes:
+
+$$P(D)=0{,}6\cdot1+0{,}4\cdot0{,}25=0{,}7,\qquad P(B\mid D)=\frac{0{,}6}{0{,}7}=\frac67\approx0{,}857.$$
+
+Làm tròn đến hàng phần trăm được $0{,}86$.
+
+Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
+
+[M384.21] Trả lời ngắn
+Một chiếc chặn giấy bằng thuỷ tinh có dạng khối tròn xoay, tạo thành khi quay hình phẳng giới hạn bởi đường cong $y=4-x^2$, trục $Ox$ và trục $Oy$ (với $0\le x\le2$) quanh trục $Ox$ (đơn vị trên các trục: cm). Tính thể tích chiếc chặn giấy theo cm³ (làm tròn kết quả đến hàng phần mười).
+::key 53,6
+Thể tích khối tròn xoay là
+
+$$V=\pi\int_0^2\left(4-x^2\right)^2dx=\pi\int_0^2\left(16-8x^2+x^4\right)dx=\pi\left(32-\frac{64}{3}+\frac{32}{5}\right)=\frac{256\pi}{15}\approx53{,}62.$$
+
+Làm tròn đến hàng phần mười được $53{,}6$ cm³.
+
+Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
+
+[M384.22] Trả lời ngắn
+Số vi khuẩn trong một mẻ nuôi cấy sau $t$ giờ là $N(t)=N_0\cdot a^t$, với $N_0$ và $a>0$ là hằng số. Sau $2$ giờ có $300$ vi khuẩn, sau $5$ giờ có $2400$ vi khuẩn. Sau bao nhiêu giờ kể từ lúc bắt đầu, mẻ nuôi cấy có $10\,000$ vi khuẩn (làm tròn kết quả đến hàng phần mười)?
+::key 7,1
+Chia hai đẳng thức $N_0a^5=2400$ và $N_0a^2=300$ cho nhau được $a^3=8$, nên $a=2$ và $N_0=\dfrac{300}{4}=75$. Giải $N(t)=10\,000$:
+
+$$75\cdot2^t=10\,000\iff 2^t=\frac{400}{3}\iff t=\log_2\frac{400}{3}\approx7{,}06.$$
+
+Vậy sau khoảng $7{,}1$ giờ mẻ nuôi cấy có $10\,000$ vi khuẩn.
+
+Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).

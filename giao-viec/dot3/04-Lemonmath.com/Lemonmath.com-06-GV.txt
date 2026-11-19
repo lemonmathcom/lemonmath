@@ -1,0 +1,476 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-06-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-06-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/g4-bar-charts
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath.com-06-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath.com-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-06-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG VIỆT ########
+---
+title: Biểu đồ cột
+description: Em học cách đọc biểu đồ cột: đọc số liệu của từng cột, so sánh các cột, tìm cột cao nhất và thấp nhất, rồi tính tổng và hiệu.
+minutes: 15
+---
+
+  :::goals
+  - Biết các phần của biểu đồ cột: cột, trục ngang, trục dọc.
+  - Đọc được số liệu của từng cột, tìm cột cao nhất và thấp nhất.
+  - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
+  :::
+
+[[P1·2995]]
+Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+
+[[P2·50b8]]
+Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+
+## Cùng khám phá
+
+[[P3·af30]]
+Hãy nhìn biểu đồ dưới đây.
+
+:::diagram Số quyển sách mượn mỗi ngày trong tuần
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·95d6]]
+- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
+- Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
+- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+
+[[P5·375b]]
+Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+
+  :::definition Biểu đồ cột
+  **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
+  :::
+
+[[P6·38e5]]
+Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+
+## Ví dụ
+
+[[P7·8176]]
+Ta bắt đầu bằng việc đọc số liệu của từng cột.
+
+  :::example Đọc biểu đồ
+  Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
+
+  **Lời giải.** Ta nhìn số ghi trên đỉnh mỗi cột:
+
+  a) Cột Thứ Ba ghi $10$, nên các bạn mượn $10$ quyển.
+
+  b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhiều nhất, $12$ quyển.
+
+  c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
+  :::
+
+[[P8·cfd2]]
+Bây giờ ta so sánh hai cột bằng phép trừ.
+
+  :::example So sánh hai cột
+  Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+
+  **Lời giải.** Thứ Năm mượn $12$ quyển, Thứ Hai mượn $6$ quyển. Muốn biết nhiều hơn bao nhiêu, ta lấy số lớn trừ số bé:
+  $$12-6=6\ \text{(quyển)}.$$
+  Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
+  :::
+
+[[P9·7da7]]
+Ta cũng có thể cộng các cột và tìm trung bình cộng.
+
+  :::example Cả tuần
+  Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
+
+  **Lời giải.** Cộng số quyển của cả năm ngày:
+  $$6+10+8+12+4=40\ \text{(quyển)}.$$
+  Trung bình mỗi ngày là tổng chia cho số ngày:
+  $$40:5=8\ \text{(quyển)}.$$
+  Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
+  :::
+
+[[P10·0186]]
+Cuối cùng, ta tìm các cột thoả một điều kiện.
+
+  :::example Hơn $7$ quyển
+  Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
+
+  **Lời giải.** Ta so sánh số trên đỉnh từng cột với $7$: Thứ Hai $6<7$; Thứ Ba $10>7$; Thứ Tư $8>7$; Thứ Năm $12>7$; Thứ Sáu $4<7$.
+
+  Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Thứ Năm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·bd00]]
+- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
+- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
+- **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu đồ cột | bar chart
+  - cột | bar
+  - trục ngang | horizontal axis
+  - trục dọc | vertical axis
+  - vạch chia | scale mark
+  - so sánh | compare
+  - số liệu | data value
+  :::
+
+## Tóm tắt
+
+[[P12·fdf3]]
+- Biểu đồ cột dùng các cột để biểu diễn số liệu; cột cao hơn thì số liệu lớn hơn.
+- Trục ngang cho các đối tượng, trục dọc cho số liệu.
+- Đọc số liệu ở đỉnh mỗi cột.
+- Hơn kém bao nhiêu: lấy số lớn trừ số bé.
+- Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+
+## Luyện tập
+
+[[P13·ff66]]
+Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+[[P14·62bb]]
+Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG ANH ########
+---
+title: Bar charts
+description: Learn to read a bar chart: read each bar, compare bars, find the tallest and shortest, then work out totals and differences.
+minutes: 15
+---
+
+  :::goals
+  - Know the parts of a bar chart: bars, the horizontal axis and the vertical axis.
+  - Read the value of each bar and find the tallest and shortest bar.
+  - Compare bars by subtracting, and work out a total and a mean from a chart.
+  :::
+
+[[P1·1b1a]]
+The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+
+[[P2·0e14]]
+You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+
+## Let's explore
+
+[[P3·0385]]
+Look at the chart below.
+
+:::diagram Books borrowed each day of the week
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·8aa2]]
+- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
+- On top of each bar is the number of books. The Monday bar shows $6$.
+- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+
+[[P5·57a7]]
+The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+
+  :::definition Bar chart
+  A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
+  :::
+
+[[P6·2931]]
+To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+
+## Examples
+
+[[P7·ba59]]
+We start by reading the value of each bar.
+
+  :::example Reading the chart
+  Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
+
+  **Solution.** We look at the number on top of each bar:
+
+  a) The Tuesday bar shows $10$, so $10$ books were borrowed.
+
+  b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ books.
+
+  c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
+  :::
+
+[[P8·c15d]]
+Now we compare two bars by subtracting.
+
+  :::example Comparing two bars
+  How many more books were borrowed on Thursday than on Monday?
+
+  **Solution.** Thursday had $12$ books and Monday had $6$ books. To find how many more, subtract the smaller number from the larger:
+  $$12-6=6\ \text{(books)}.$$
+  So $6$ more books were borrowed on Thursday than on Monday.
+  :::
+
+[[P9·13f7]]
+We can also add the bars and find the mean.
+
+  :::example The whole week
+  How many books were borrowed in the whole week? On average, how many books were borrowed each day?
+
+  **Solution.** Add the books for all five days:
+  $$6+10+8+12+4=40\ \text{(books)}.$$
+  The mean per day is the total divided by the number of days:
+  $$40\div5=8\ \text{(books)}.$$
+  So $40$ books were borrowed in the week, and $8$ a day on average.
+  :::
+
+[[P10·b68f]]
+Finally, we find the bars that fit a condition.
+
+  :::example More than $7$ books
+  On which days were more than $7$ books borrowed?
+
+  **Solution.** We compare the number on top of each bar with $7$: Monday $6<7$; Tuesday $10>7$; Wednesday $8>7$; Thursday $12>7$; Friday $4<7$.
+
+  So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2b9c]]
+- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
+- **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
+- **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+:::
+
+## Key terms
+
+  :::terms
+  - bar chart | biểu đồ cột
+  - bar | cột
+  - horizontal axis | trục ngang
+  - vertical axis | trục dọc
+  - scale mark | vạch chia
+  - compare | so sánh
+  - data value | số liệu
+  :::
+
+## Summary
+
+[[P12·7238]]
+- A bar chart uses bars to show data; a taller bar means a bigger value.
+- The horizontal axis shows the things compared; the vertical axis shows the values.
+- Read the value on top of each bar.
+- To find how many more: subtract the smaller from the larger.
+- Total: add all the bars; mean: divide the total by the number of bars.
+
+## Practice
+
+[[P13·377d]]
+The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+[[P14·d156]]
+These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

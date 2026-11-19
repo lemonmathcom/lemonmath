@@ -1,0 +1,474 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-12-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-12-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-12-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/three-digit-numbers
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Alexnguyen122222-12-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Alexnguyen122222-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-12-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g2/three-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Số có ba chữ số
+description: Em đọc, viết số có ba chữ số và biết chữ số nào đứng ở hàng trăm, hàng chục, hàng đơn vị qua các nhóm trăm, chục, đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Đọc và viết các số có ba chữ số, ví dụ $345$, $205$.
+  - Biết chữ số hàng trăm, hàng chục, hàng đơn vị của một số.
+  - Viết đúng số có chữ số $0$, ví dụ $3$ trăm $0$ chục $7$ đơn vị là $307$.
+  :::
+
+[[P1·9eb5]]
+Thư viện có $3$ thùng sách, mỗi thùng $100$ quyển, thêm $4$ bó sách, mỗi bó $10$ quyển, và $5$ quyển sách lẻ. Hỏi thư viện có tất cả bao nhiêu quyển sách?
+
+[[P2·b8db]]
+Em đã biết trăm, chục, đơn vị. Bài này giúp em ghép chúng thành một số có ba chữ số.
+
+## Cùng khám phá
+
+[[P3·7774]]
+Ta xếp các nhóm sách vào ba cột:
+
+| Trăm | Chục | Đơn vị |
+|---|---|---|
+| $3$ | $4$ | $5$ |
+
+![Ba thùng sách ghi 100, bốn chồng sách ghi 10 và năm quyển sách lẻ](/assets/img/g2/g2-three-digit-numbers-01.svg)
+
+[[P4·1895]]
+Có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết ba chữ số liền nhau: chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Số đó là $345$.
+
+[[P5·51d2]]
+Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách.
+
+  :::theorem Số có ba chữ số
+  Số có ba chữ số có:
+  - chữ số hàng trăm (bên trái), cho biết có bao nhiêu trăm;
+  - chữ số hàng chục (ở giữa), cho biết có bao nhiêu chục;
+  - chữ số hàng đơn vị (bên phải), cho biết có bao nhiêu đơn vị.
+
+  Nếu một hàng không có gì thì ta viết chữ số $0$ vào hàng đó.
+  :::
+
+[[P6·9143]]
+Ta phải viết chữ số $0$ để giữ đúng vị trí của các chữ số khác. Ví dụ $3$ trăm và $7$ đơn vị là $307$; nếu bỏ chữ số $0$ thì $37$ chỉ là $3$ chục $7$ đơn vị.
+
+## Ví dụ
+
+[[P7·980b]]
+Ta bắt đầu với việc đọc các chữ số của một số.
+
+  :::example Các chữ số của 345
+  Số $345$ có chữ số hàng trăm, hàng chục, hàng đơn vị là gì?
+
+  **Lời giải.** Viết số vào bảng, từ trái sang phải là trăm, chục, đơn vị:
+
+  | Trăm | Chục | Đơn vị |
+  |---|---|---|
+  | $3$ | $4$ | $5$ |
+
+  Vậy chữ số hàng trăm là $3$, hàng chục là $4$, hàng đơn vị là $5$.
+  :::
+
+[[P8·ef95]]
+Bây giờ em làm ngược lại: viết số từ các nhóm.
+
+  :::example Viết số
+  Viết số gồm $6$ trăm, $2$ chục và $8$ đơn vị.
+
+  **Lời giải.** Viết chữ số trăm, rồi chữ số chục, rồi chữ số đơn vị: $6$, $2$, $8$.
+
+  Vậy số cần viết là $628$, đọc là "sáu trăm hai mươi tám".
+  :::
+
+[[P9·147e]]
+Tiếp theo là số có chữ số $0$.
+
+  :::example Số có chữ số 0
+  Viết số gồm $3$ trăm, $0$ chục và $7$ đơn vị.
+
+  **Lời giải.** Hàng chục không có gì, nên ta viết chữ số $0$ ở hàng chục: $3$, $0$, $7$.
+
+  Vậy số cần viết là $307$, đọc là "ba trăm linh bảy".
+  :::
+
+[[P10·e2ef]]
+Cuối cùng em dùng kiến thức này giải một bài toán.
+
+  :::example Cửa hàng bút
+  Cửa hàng có $5$ hộp bút loại $100$ chiếc, $3$ bó bút loại $10$ chiếc và $6$ chiếc bút lẻ. Hỏi cửa hàng có bao nhiêu chiếc bút?
+
+  **Lời giải.** Có $5$ trăm, $3$ chục và $6$ đơn vị. Viết chữ số: $5$, $3$, $6$.
+
+  Vậy cửa hàng có $536$ chiếc bút.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·66ce]]
+- **Quên chữ số 0.** Sai: "$3$ trăm $7$ đơn vị là $37$". Vì sao sai: $37$ chỉ có $3$ chục. Đúng: $3$ trăm $0$ chục $7$ đơn vị là $307$.
+- **Viết sai thứ tự chữ số.** Sai: "$4$ trăm $3$ chục $5$ đơn vị là $435$ hay $453$ đều được". Vì sao sai: đổi chỗ chữ số thì được số khác. Đúng: chỉ có $435$.
+- **Nhầm hàng của chữ số.** Sai: "chữ số $5$ trong $450$ là $5$ đơn vị". Vì sao sai: $5$ đứng ở hàng chục. Đúng: chữ số $5$ trong $450$ là $5$ chục.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số có ba chữ số | three-digit number
+  - chữ số | digit
+  - hàng trăm | hundreds place
+  - hàng chục | tens place
+  - hàng đơn vị | ones place
+  - đọc số | read a number
+  - viết số | write a number
+  :::
+
+## Tóm tắt
+
+[[P12·ae76]]
+- Số có ba chữ số gồm chữ số hàng trăm, hàng chục, hàng đơn vị (từ trái sang phải).
+- $3$ trăm $4$ chục $5$ đơn vị là $345$, đọc là ba trăm bốn mươi lăm.
+- Hàng nào không có gì thì viết chữ số $0$.
+- Đổi chỗ các chữ số thì được số khác.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/three-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Three-digit numbers
+description: Read and write three-digit numbers and know which digit is in the hundreds, tens and ones places, using groups of hundreds, tens and ones.
+minutes: 15
+---
+
+  :::goals
+  - Read and write three-digit numbers, for example $345$ and $205$.
+  - Know the hundreds digit, tens digit and ones digit of a number.
+  - Write numbers with a $0$ correctly, for example $3$ hundreds $0$ tens $7$ ones is $307$.
+  :::
+
+[[P1·3096]]
+A library has $3$ crates of books with $100$ books in each, $4$ bundles of books with $10$ books in each, and $5$ loose books. How many books does the library have altogether?
+
+[[P2·514d]]
+You already know hundreds, tens and ones. This lesson shows you how to put them together into a three-digit number.
+
+## Let's explore
+
+[[P3·0272]]
+We put the groups of books into three columns:
+
+| Hundreds | Tens | Ones |
+|---|---|---|
+| $3$ | $4$ | $5$ |
+
+![Three book crates marked 100, four stacks marked 10, and five loose books](/assets/img/g2/g2-three-digit-numbers-01.svg)
+
+[[P4·3f52]]
+There are $3$ hundreds, $4$ tens and $5$ ones. We write three digits side by side: the digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. The number is $345$.
+
+[[P5·1f2f]]
+We read $345$ as "three hundred and forty-five". So the library has $345$ books.
+
+  :::theorem Three-digit numbers
+  A three-digit number has:
+  - a hundreds digit (on the left), which tells how many hundreds;
+  - a tens digit (in the middle), which tells how many tens;
+  - a ones digit (on the right), which tells how many ones.
+
+  If a place has nothing in it, we write the digit $0$ in that place.
+  :::
+
+[[P6·089d]]
+We must write the $0$ to keep the other digits in the right places. For example, $3$ hundreds and $7$ ones is $307$; if we leave out the $0$, then $37$ is only $3$ tens and $7$ ones.
+
+## Examples
+
+[[P7·fbfe]]
+We start by reading the digits of a number.
+
+  :::example The digits of 345
+  What are the hundreds digit, tens digit and ones digit of $345$?
+
+  **Solution.** Put the number in the table, from left to right hundreds, tens, ones:
+
+  | Hundreds | Tens | Ones |
+  |---|---|---|
+  | $3$ | $4$ | $5$ |
+
+  So the hundreds digit is $3$, the tens digit is $4$ and the ones digit is $5$.
+  :::
+
+[[P8·9620]]
+Now you go the other way: write a number from groups.
+
+  :::example Writing a number
+  Write the number made of $6$ hundreds, $2$ tens and $8$ ones.
+
+  **Solution.** Write the hundreds digit, then the tens digit, then the ones digit: $6$, $2$, $8$.
+
+  So the number is $628$, read "six hundred and twenty-eight".
+  :::
+
+[[P9·2579]]
+Next comes a number with a $0$.
+
+  :::example A number with a 0
+  Write the number made of $3$ hundreds, $0$ tens and $7$ ones.
+
+  **Solution.** There is nothing in the tens place, so we write a $0$ there: $3$, $0$, $7$.
+
+  So the number is $307$, read "three hundred and seven".
+  :::
+
+[[P10·b5c3]]
+Finally you use this in a problem.
+
+  :::example A pen shop
+  A shop has $5$ boxes of $100$ pens, $3$ bundles of $10$ pens and $6$ loose pens. How many pens does the shop have?
+
+  **Solution.** There are $5$ hundreds, $3$ tens and $6$ ones. Write the digits: $5$, $3$, $6$.
+
+  So the shop has $536$ pens.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·c7e8]]
+- **Leaving out the $0$.** Wrong: "$3$ hundreds $7$ ones is $37$". Why it is wrong: $37$ has only $3$ tens. Right: $3$ hundreds $0$ tens $7$ ones is $307$.
+- **Writing the digits in the wrong order.** Wrong: "$4$ hundreds $3$ tens $5$ ones is $435$ or $453$, either will do". Why it is wrong: swapping digits gives a different number. Right: only $435$.
+- **Mixing up the place of a digit.** Wrong: "the digit $5$ in $450$ is $5$ ones". Why it is wrong: the $5$ is in the tens place. Right: the digit $5$ in $450$ is $5$ tens.
+:::
+
+## Key terms
+
+  :::terms
+  - three-digit number | số có ba chữ số
+  - digit | chữ số
+  - hundreds place | hàng trăm
+  - tens place | hàng chục
+  - ones place | hàng đơn vị
+  - read a number | đọc số
+  - write a number | viết số
+  :::
+
+## Summary
+
+[[P12·ff53]]
+- A three-digit number has a hundreds digit, a tens digit and a ones digit (from left to right).
+- $3$ hundreds $4$ tens $5$ ones is $345$, read three hundred and forty-five.
+- If a place has nothing in it, write the digit $0$.
+- Swapping the digits gives a different number.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

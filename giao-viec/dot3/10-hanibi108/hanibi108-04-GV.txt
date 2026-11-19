@@ -1,0 +1,1172 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-04-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-04-GV
+Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/sat/sat-ratios-percentages-units, exams/sat/sat-statistics-probability, exams/sat/sat-triangles-trig-circles
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-04-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-04-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/sat/sat-ratios-percentages-units – BẢN TIẾNG VIỆT ########
+---
+title: Tỉ số, tỉ lệ, phần trăm và đổi đơn vị
+description: SAT Problem-Solving and Data Analysis: tỉ số và tỉ lệ thức, tốc độ, đổi đơn vị, phần trăm thay đổi, tìm giá trị ban đầu và bài toán pha trộn.
+minutes: 35
+---
+
+  :::goals
+  - Chia một đại lượng theo tỉ số cho trước và giải tỉ lệ thức, kể cả tỉ lệ bản đồ.
+  - Đổi đơn vị bằng các hệ số quy đổi, kể cả tốc độ như dặm mỗi giờ sang feet mỗi giây.
+  - Tìm phần trăm của một số, phần trăm thay đổi và giá trị ban đầu trước khi thay đổi theo phần trăm.
+  - Giải các bài toán nhiều bước về khối lượng riêng, tiêu thụ nhiên liệu và pha trộn.
+  :::
+
+[[P1·0430]]
+Mảng Problem-Solving and Data Analysis có khoảng 5 đến 7 câu trong đề, và khoảng một nửa số đó nói về tỉ số, tốc độ, phần trăm và đơn vị. Đây là những câu "đời thường" nhất của SAT: công thức nấu ăn, bản đồ, giá cả, giảm giá và tốc độ. Kiến thức chỉ ở lớp 6 và lớp 7, nhưng đọc đề cẩu thả làm mất nhiều điểm, nên thói quen cần tập ở đây là viết mọi đại lượng **kèm đơn vị**.
+
+## Tỉ số và tỉ lệ thức
+
+[[P2·694c]]
+Tỉ số (ratio) $a:b$ so sánh hai đại lượng. Nếu một tổng được chia theo tỉ số $a:b$ thì tổng đó gồm $a+b$ phần bằng nhau.
+
+  :::example Chia theo tỉ số
+  Trong một lớp có 36 học sinh, tỉ số giữa số bạn nam và số bạn nữ là $4:5$. Lớp có bao nhiêu bạn nữ?
+  A. $16$
+  B. $20$
+  C. $9$
+  D. $25$
+
+  **Lời giải.** Có $4+5=9$ phần bằng nhau, nên mỗi phần là $36:9=4$ học sinh. Số bạn nữ: $5\cdot4=20$. Đáp án là **B**. Phương án A là số bạn nam; phương án C là số phần.
+  :::
+
+[[P3·1188]]
+**Tỉ lệ thức** (proportion) cho biết hai tỉ số bằng nhau: $\dfrac{a}{b}=\dfrac{c}{d}$, suy ra $ad=bc$ (nhân chéo).
+
+  :::example Tỉ lệ bản đồ
+  Trên một bản đồ, 1 xăng-ti-mét ứng với 2,5 ki-lô-mét. Hai thị trấn cách nhau 7,2 xăng-ti-mét trên bản đồ. Khoảng cách thực giữa hai thị trấn là bao nhiêu ki-lô-mét?
+
+  **Lời giải.** $\dfrac{1}{2{,}5}=\dfrac{7{,}2}{d}$, nên $d=7{,}2\cdot2{,}5=18$. Bạn gõ **18**.
+  :::
+
+## Tốc độ và đổi đơn vị
+
+[[P4·5cec]]
+Tốc độ (rate) là tỉ số có đơn vị, như ki-lô-mét mỗi giờ hay đô la mỗi ki-lô-gam. Để đổi đơn vị, hãy nhân với các phân số bằng $1$, như $\dfrac{5.280\text{ feet}}{1\text{ dặm}}$, sắp xếp sao cho đơn vị không cần thiết bị triệt tiêu. SAT luôn cho sẵn hệ số quy đổi với các đơn vị của Mỹ.
+
+  :::example Đổi đơn vị tốc độ
+  Một ô tô chạy với tốc độ 60 dặm mỗi giờ. Tốc độ đó bằng bao nhiêu feet mỗi giây? (1 dặm = 5.280 feet)
+
+  **Lời giải.** Triệt tiêu dặm và giờ:
+
+  $$\frac{60\text{ dặm}}{1\text{ giờ}}\cdot\frac{5.280\text{ feet}}{1\text{ dặm}}\cdot\frac{1\text{ giờ}}{3.600\text{ giây}}=\frac{316.800}{3.600}=88\text{ feet mỗi giây}.$$
+
+  Bạn gõ **88**.
+  :::
+
+## Phần trăm
+
+  :::theorem Ba công cụ phần trăm
+  - $p\%$ của $N$ là $\dfrac{p}{100}\cdot N$.
+  - Phần trăm thay đổi $=\dfrac{\text{giá trị mới}-\text{giá trị ban đầu}}{\text{giá trị ban đầu}}\cdot100\%$.
+  - Tăng $p\%$ là nhân với $1+\dfrac{p}{100}$; giảm $p\%$ là nhân với $1-\dfrac{p}{100}$.
+  :::
+
+  :::example Phần trăm thay đổi
+  Giá một cuốn sách tăng từ 80 đô la lên 92 đô la. Giá đã tăng bao nhiêu phần trăm?
+  A. $12\%$
+  B. $13\%$
+  C. $15\%$
+  D. $87\%$
+
+  **Lời giải.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0{,}15$, tức tăng $15\%$. Đáp án là **C**. Phương án A lấy số đô la tăng thêm làm phần trăm; phương án B chia cho $92$.
+  :::
+
+[[P5·2e0e]]
+Để tìm giá trị ban đầu sau khi thay đổi theo phần trăm, hãy **chia** cho hệ số nhân. Đừng bao giờ trừ phần trăm vào giá mới.
+
+  :::example Tìm giá trị ban đầu
+  Sau khi giảm giá 20%, một chiếc áo khoác có giá 64 đô la. Giá trước khi giảm là bao nhiêu đô la?
+  A. $76{,}80$
+  B. $80$
+  C. $84$
+  D. $77$
+
+  **Lời giải.** Giá sau giảm bằng $0{,}8$ giá ban đầu: $0{,}8P=64$, nên $P=80$. Đáp án là **B**. Phương án A cộng thêm 20% của giá sau giảm, đúng cái bẫy quen thuộc: $64\cdot1{,}2=76{,}8$.
+  :::
+
+  :::example Phần trăm của phần trăm
+  Ở một trường, 30% học sinh tham gia câu lạc bộ thể thao, và 40% thành viên câu lạc bộ là nữ. Học sinh nữ của câu lạc bộ thể thao chiếm bao nhiêu phần trăm số học sinh toàn trường?
+
+  **Lời giải.** $0{,}4\cdot0{,}3=0{,}12$, tức $12\%$. Bạn gõ **12**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·3560]]
+- **Tỉ số giữa các phần hay tỉ số với cả tổng.** Với tỉ số $4:5$, số bạn nam bằng $\dfrac49$ cả lớp, không phải $\dfrac45$.
+- **Chia nhầm số trong phần trăm thay đổi.** Luôn chia cho giá trị ban đầu.
+- **Hoàn tác phần trăm bằng chính phần trăm đó.** Giảm 20% rồi tăng 20% không trở về ban đầu: $0{,}8\cdot1{,}2=0{,}96$.
+- **Bỏ đơn vị.** Ghi đơn vị ở từng bước; đơn vị cho biết nên nhân hay chia.
+:::
+
+:::tip Kiểm tra phần trăm thật nhanh
+[[P7·57e4]]
+$10\%$ của một số rất dễ tính (dời dấu phẩy), và $5\%$ là một nửa của nó. Vậy $15\%$ của $80$ là $8+4=12$. Hãy ước lượng như vậy trước khi tính.
+:::
+
+  :::terms
+  - tỉ số | ratio
+  - tỉ lệ thức | proportion
+  - tốc độ, tỉ lệ (theo đơn vị) | rate
+  - đổi đơn vị | unit conversion
+  - phần trăm thay đổi | percent change
+  - phần trăm tăng / giảm | percent increase / decrease
+  - giảm giá | discount
+  - khối lượng riêng | density
+  - tỉ lệ bản đồ | scale
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Khối lượng riêng
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Nhiên liệu cho chuyến đi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Lên rồi xuống
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-ratios-percentages-units – BẢN TIẾNG ANH ########
+---
+title: Ratios, rates, percentages and units
+description: SAT Problem-Solving and Data Analysis: ratios and proportions, rates, unit conversion, percent change, reverse percentages and mixtures.
+minutes: 35
+---
+
+  :::goals
+  - Split a quantity in a given ratio and solve proportions, including map scales.
+  - Convert units with conversion factors, including rates such as miles per hour to feet per second.
+  - Find a percent of a number, a percent change and an original value before a percent change.
+  - Solve multi-step problems with density, fuel use and mixtures.
+  :::
+
+[[P1·8cd7]]
+Problem-Solving and Data Analysis has about 5 to 7 questions on the test, and roughly half of them are about ratios, rates, percentages and units. These are the most "everyday" questions on the SAT: recipes, maps, prices, discounts and speeds. The math is from grades 6 and 7, but careless reading costs many points, so the habit to build here is to write every quantity **with its unit**.
+
+## Ratios and proportions
+
+[[P2·509d]]
+A ratio $a:b$ compares two quantities. If a total is split in the ratio $a:b$, the total is made of $a+b$ equal parts.
+
+  :::example Splitting in a ratio
+  In a class of 36 students, the ratio of boys to girls is $4:5$. How many girls are in the class?
+  A. $16$
+  B. $20$
+  C. $9$
+  D. $25$
+
+  **Solution.** There are $4+5=9$ equal parts, so each part is $36\div9=4$ students. Girls: $5\cdot4=20$. The answer is **B**. Option A is the number of boys; option C is the number of parts.
+  :::
+
+[[P3·e5cc]]
+A **proportion** says that two ratios are equal: $\dfrac{a}{b}=\dfrac{c}{d}$, which gives $ad=bc$ (cross-multiplication).
+
+  :::example A map scale
+  On a map, 1 centimeter represents 2.5 kilometers. Two towns are 7.2 centimeters apart on the map. What is the actual distance between the towns, in kilometers?
+
+  **Solution.** $\dfrac{1}{2.5}=\dfrac{7.2}{d}$, so $d=7.2\cdot2.5=18$. You type **18**.
+  :::
+
+## Rates and unit conversion
+
+[[P4·621b]]
+A rate is a ratio with units, such as kilometers per hour or dollars per kilogram. To convert units, multiply by fractions equal to $1$, such as $\dfrac{5{,}280\text{ feet}}{1\text{ mile}}$, arranged so that the unwanted units cancel. The SAT always gives the conversion factors for US units.
+
+  :::example Converting a speed
+  A car travels at 60 miles per hour. What is its speed in feet per second? (1 mile = 5,280 feet)
+
+  **Solution.** Cancel miles and hours:
+
+  $$\frac{60\text{ miles}}{1\text{ hour}}\cdot\frac{5{,}280\text{ feet}}{1\text{ mile}}\cdot\frac{1\text{ hour}}{3{,}600\text{ seconds}}=\frac{316{,}800}{3{,}600}=88\text{ feet per second}.$$
+
+  You type **88**.
+  :::
+
+## Percentages
+
+  :::theorem Three percent tools
+  - $p\%$ of $N$ is $\dfrac{p}{100}\cdot N$.
+  - Percent change $=\dfrac{\text{new}-\text{original}}{\text{original}}\cdot100\%$.
+  - An increase of $p\%$ multiplies by $1+\dfrac{p}{100}$; a decrease of $p\%$ multiplies by $1-\dfrac{p}{100}$.
+  :::
+
+  :::example Percent change
+  The price of a book rose from 80 dollars to 92 dollars. By what percent did the price increase?
+  A. $12\%$
+  B. $13\%$
+  C. $15\%$
+  D. $87\%$
+
+  **Solution.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0.15$, an increase of $15\%$. The answer is **C**. Option A uses the change in dollars as a percent; option B divides by $92$.
+  :::
+
+[[P5·39c0]]
+To find an original value after a percent change, **divide** by the multiplier. Never subtract the percent from the new price.
+
+  :::example Reverse percentage
+  After a 20% discount, a jacket costs 64 dollars. What was the price before the discount, in dollars?
+  A. $76.80$
+  B. $80$
+  C. $84$
+  D. $77$
+
+  **Solution.** The sale price is $0.8$ of the original: $0.8P=64$, so $P=80$. The answer is **B**. Option A adds 20% of the sale price, which is the common trap: $64\cdot1.2=76.8$.
+  :::
+
+  :::example A percent of a percent
+  At a school, 30% of the students are in a sports club, and 40% of the club members are girls. What percent of all the students are girls in the sports club?
+
+  **Solution.** $0.4\cdot0.3=0.12$, so $12\%$. You type **12**.
+  :::
+
+:::warning Common traps
+[[P6·8c15]]
+- **Ratio of parts versus ratio to the whole.** In $4:5$, boys are $\dfrac49$ of the class, not $\dfrac45$.
+- **Dividing by the wrong number in a percent change.** Always divide by the original value.
+- **Undoing a percent by the same percent.** A 20% decrease followed by a 20% increase does not return to the start: $0.8\cdot1.2=0.96$.
+- **Dropping units.** Write units at each step; they show whether to multiply or divide.
+:::
+
+:::tip Fast percent checks
+[[P7·01b5]]
+$10\%$ of a number is easy (move the decimal point), and $5\%$ is half of that. So $15\%$ of $80$ is $8+4=12$. Use this to estimate before you calculate.
+:::
+
+  :::terms
+  - ratio | tỉ số
+  - proportion | tỉ lệ thức
+  - rate | tốc độ, tỉ lệ (theo đơn vị)
+  - unit conversion | đổi đơn vị
+  - percent change | phần trăm thay đổi
+  - percent increase / decrease | phần trăm tăng / giảm
+  - discount | giảm giá
+  - density | khối lượng riêng
+  - scale | tỉ lệ bản đồ
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Density
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Fuel for a trip
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Up and down
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-statistics-probability – BẢN TIẾNG VIỆT ########
+---
+title: Thống kê, đọc biểu đồ và xác suất
+description: SAT Data Analysis: số trung bình, trung vị, giá trị ngoại lai, bảng tần số, biểu đồ phân tán, bảng hai chiều, xác suất có điều kiện và chọn mẫu.
+minutes: 35
+---
+
+  :::goals
+  - Tính và so sánh số trung bình, trung vị, giải thích ảnh hưởng của giá trị ngoại lai lên từng số.
+  - Đọc bảng tần số, biểu đồ phân tán và đường thẳng khớp nhất, giải thích hệ số góc và tung độ gốc.
+  - Tính xác suất, kể cả xác suất có điều kiện, từ bảng hai chiều.
+  - Xác định một cuộc khảo sát hay nghiên cứu cho phép rút ra kết luận nào.
+  :::
+
+[[P1·5509]]
+Câu hỏi thống kê trong SAT hiếm khi đòi tính toán dài. Thay vào đó, đề kiểm tra xem bạn có **hiểu** một số đặc trưng hay không: điều gì làm thay đổi số trung bình nhưng không làm thay đổi trung vị, hệ số góc trong biểu đồ phân tán có nghĩa gì, hay một cuộc khảo sát có đại diện được cho cả tổng thể không. Học sinh Việt Nam học phần lớn các ý này từ lớp 6 đến lớp 10; phần mới là từ vựng, vì vậy bảng thuật ngữ ở cuối bài rất quan trọng.
+
+## Số trung bình, trung vị và giá trị ngoại lai
+
+[[P2·a42f]]
+**Số trung bình** (mean) bằng tổng các giá trị chia cho số giá trị. **Trung vị** (median) là giá trị đứng giữa của dãy đã sắp xếp (là trung bình của hai giá trị đứng giữa khi số giá trị chẵn). **Giá trị ngoại lai** (outlier) là giá trị cách xa các giá trị còn lại: nó kéo số trung bình về phía mình nhưng hầu như không làm trung vị dịch chuyển.
+
+  :::example Tìm giá trị còn thiếu
+  Số trung bình của 6 bài kiểm tra đầu tiên của Nam là 82. Sau bài thứ bảy, số trung bình của cả 7 bài là 84. Nam được bao nhiêu điểm ở bài thứ bảy?
+
+  **Lời giải.** Hãy làm việc với tổng, không phải với số trung bình. Tổng 6 bài đầu là $6\cdot82=492$; tổng cả 7 bài là $7\cdot84=588$. Điểm bài thứ bảy là $588-492=96$. Bạn gõ **96**.
+  :::
+
+  :::example Ảnh hưởng của giá trị ngoại lai
+  Một công ty nhỏ có 9 nhân viên. Mức lương cao nhất lớn hơn rất nhiều so với tất cả các mức lương còn lại. Nếu bỏ mức lương đó ra khỏi dữ liệu thì câu nào đúng?
+  A. Số trung bình và trung vị đều tăng.
+  B. Số trung bình giảm, còn trung vị thay đổi ít.
+  C. Trung vị giảm, còn số trung bình không đổi.
+  D. Số trung bình và trung vị đều không đổi.
+
+  **Lời giải.** Giá trị ngoại lai cao hơn hẳn các giá trị khác, nên bỏ nó đi làm số trung bình giảm nhiều. Trung vị chỉ chuyển từ giá trị thứ 5 thành trung bình của giá trị thứ 4 và thứ 5 trong 8 giá trị còn lại, một thay đổi nhỏ. Đáp án là **B**.
+  :::
+
+[[P3·a541]]
+**Độ lệch chuẩn** (standard deviation) đo mức độ phân tán của các giá trị quanh số trung bình. SAT chỉ yêu cầu so sánh: tập dữ liệu có các giá trị tập trung sát số trung bình có độ lệch chuẩn nhỏ hơn tập có các giá trị trải rộng. **Khoảng biến thiên** (range) là giá trị lớn nhất trừ giá trị nhỏ nhất.
+
+## Bảng tần số và biểu đồ phân tán
+
+  :::example Trung vị từ bảng tần số
+  Bảng cho biết số sách 20 học sinh đã đọc trong tháng trước.
+
+  | Số sách | $1$ | $2$ | $3$ | $4$ |
+  |---|---|---|---|---|
+  | Số học sinh | $3$ | $5$ | $8$ | $4$ |
+
+  Trung vị của số sách là
+  A. $2$
+  B. $2{,}5$
+  C. $3$
+  D. $2{,}65$
+
+  **Lời giải.** Có 20 giá trị, nên trung vị là trung bình của giá trị thứ 10 và thứ 11. Đếm dần: các giá trị thứ 1 đến 3 là "1", thứ 4 đến 8 là "2", thứ 9 đến 16 là "3". Cả giá trị thứ 10 và thứ 11 đều là $3$, nên trung vị là $3$: đáp án **C**. Phương án D là số trung bình, $\dfrac{3+10+24+16}{20}=2{,}65$.
+  :::
+
+[[P4·c50e]]
+**Biểu đồ phân tán** (scatterplot) biểu diễn các cặp dữ liệu. **Đường thẳng khớp nhất** (line of best fit) $y=mx+b$ mô tả xu hướng: hệ số góc $m$ là mức thay đổi dự đoán của $y$ khi $x$ tăng $1$, còn $b$ là giá trị dự đoán của $y$ khi $x=0$.
+
+:::graph Số giờ học và điểm kiểm tra, với đường thẳng khớp nhất $y=2{,}5x+40$
+   (… 13 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Giải thích đường thẳng khớp nhất
+  Với dữ liệu trong biểu đồ phân tán, đường thẳng khớp nhất là $y=2{,}5x+40$, trong đó $x$ là số giờ một học sinh đã học và $y$ là điểm kiểm tra. Câu nào giải thích đúng nhất ý nghĩa của $2{,}5$?
+  A. Mỗi học sinh đã học 2,5 giờ.
+  B. Học sinh không học được dự đoán đạt 2,5 điểm.
+  C. Mỗi giờ học thêm, điểm dự đoán tăng 2,5 điểm.
+  D. Điểm của mọi học sinh tăng 2,5 điểm cho mỗi giờ học.
+
+  **Lời giải.** Hệ số góc là mức thay đổi của điểm **dự đoán** theo mỗi giờ: đáp án là **C**. Phương án D quá mạnh: mô hình dự đoán xu hướng, không dự đoán điểm của từng học sinh. Mô hình dự đoán $2{,}5\cdot6+40=55$ điểm cho 6 giờ học.
+  :::
+
+## Bảng hai chiều và xác suất
+
+[[P5·1b8c]]
+Khi mọi kết quả đồng khả năng, xác suất của một biến cố là $\dfrac{\text{số kết quả thuận lợi}}{\text{tổng số kết quả}}$. Trong bảng hai chiều, **xác suất có điều kiện** "biết rằng…" (given that) thu hẹp tổng về một hàng hoặc một cột.
+
+  :::example Bảng hai chiều
+  Bảng cho biết câu lạc bộ mà 80 học sinh chọn.
+
+  | | CLB Toán | CLB Mĩ thuật | Tổng |
+  |---|---|---|---|
+  | Lớp 10 | $18$ | $12$ | $30$ |
+  | Lớp 11 | $22$ | $28$ | $50$ |
+  | Tổng | $40$ | $40$ | $80$ |
+
+  Chọn ngẫu nhiên một học sinh trong số các bạn thuộc CLB Mĩ thuật. Xác suất để học sinh đó học lớp 11 là
+  A. $\dfrac{7}{20}$
+  B. $\dfrac{14}{25}$
+  C. $\dfrac{7}{10}$
+  D. $\dfrac{5}{8}$
+
+  **Lời giải.** "Trong số các bạn thuộc CLB Mĩ thuật" nghĩa là tổng là cột Mĩ thuật, $40$. Trong đó $28$ bạn học lớp 11: $\dfrac{28}{40}=\dfrac{7}{10}$. Đáp án là **C**. Phương án B là $\dfrac{28}{50}$, xác suất chọn Mĩ thuật **biết** học lớp 11; phương án A là $\dfrac{28}{80}$.
+  :::
+
+## Mẫu và nghiên cứu
+
+:::note Kết luận được điều gì?
+[[P6·a4a6]]
+- **Mẫu ngẫu nhiên** (random sample) cho phép khái quát lên tổng thể mà mẫu được chọn ra, và chỉ tổng thể đó.
+- **Biên sai số** (margin of error) cho một khoảng giá trị hợp lí của tổng thể: ước lượng 64% với biên sai số 5% gợi ý giá trị thật nằm trong khoảng từ 59% đến 69%.
+- Chỉ **thí nghiệm ngẫu nhiên** (đối tượng được phân ngẫu nhiên vào các nhóm) mới cho phép kết luận nhân quả. Nghiên cứu quan sát chỉ cho thấy mối liên hệ.
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P7·f5ee]]
+- **Lấy nhầm tổng trong xác suất có điều kiện.** "Biết học lớp 11" thì chia cho tổng lớp 11, không chia cho tổng chung.
+- **Số trung bình và trung vị khi có ngoại lai.** Giá trị ngoại lai làm số trung bình dịch chuyển nhiều hơn hẳn trung vị.
+- **Khái quát quá mức.** Mẫu lấy ở một trường không nói chắc chắn điều gì về mọi trường trong cả nước.
+- **Kết luận nhân quả từ quan sát.** "Người uống nhiều cà phê ngủ ít hơn" không chứng tỏ cà phê làm ngủ ít.
+:::
+
+:::tip Thống kê trong Desmos
+[[P8·bb49]]
+Gõ một danh sách như `L=[3,9,4,7,12,5]`, rồi `mean(L)`, `median(L)` hoặc `stdev(L)`. Để tìm đường thẳng khớp nhất, nhập dữ liệu vào bảng rồi gõ `y_1~mx_1+b`.
+:::
+
+  :::terms
+  - số trung bình | mean
+  - trung vị | median
+  - giá trị ngoại lai | outlier
+  - độ lệch chuẩn | standard deviation
+  - khoảng biến thiên | range
+  - biểu đồ phân tán | scatterplot
+  - đường thẳng khớp nhất | line of best fit
+  - bảng hai chiều | two-way table
+  - xác suất có điều kiện | conditional probability
+  - mẫu ngẫu nhiên | random sample
+  - biên sai số | margin of error
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Gộp hai lớp
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Viên bi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise So sánh độ phân tán
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-statistics-probability – BẢN TIẾNG ANH ########
+---
+title: Statistics, data displays and probability
+description: SAT Problem-Solving and Data Analysis: mean, median and outliers, frequency tables, scatterplots, two-way tables, conditional probability and sampling.
+minutes: 35
+---
+
+  :::goals
+  - Compute and compare the mean and the median, and explain how an outlier affects each.
+  - Read frequency tables, scatterplots and lines of best fit, and interpret their slope and intercept.
+  - Find probabilities, including conditional probabilities, from a two-way table.
+  - Decide what conclusions a survey or a study can support.
+  :::
+
+[[P1·6438]]
+Statistics questions on the SAT rarely ask for long calculations. Instead, they test whether you **understand** a statistic: what changes the mean but not the median, what a slope means in a scatterplot, or whether a survey can speak for a whole population. Vietnamese students learn most of these ideas between grades 6 and 10; the new part is the vocabulary, so the glossary at the end of this lesson matters.
+
+## Mean, median and outliers
+
+[[P2·509b]]
+The **mean** is the sum of the values divided by their number. The **median** is the middle value of the ordered data (the mean of the two middle values when the number of values is even). An **outlier** is a value far from the others: it pulls the mean toward itself but barely moves the median.
+
+  :::example Finding a missing value
+  The mean of Nam's first 6 test scores is 82. After his seventh test, the mean of all 7 scores is 84. What was his score on the seventh test?
+
+  **Solution.** Work with totals, not means. The first 6 scores add up to $6\cdot82=492$; all 7 add up to $7\cdot84=588$. The seventh score is $588-492=96$. You type **96**.
+  :::
+
+  :::example The effect of an outlier
+  A small company has 9 employees. The highest salary is much greater than all the others. If that salary is removed from the data, which statement is true?
+  A. The mean and the median both increase.
+  B. The mean decreases, and the median changes little.
+  C. The median decreases, and the mean does not change.
+  D. The mean and the median do not change.
+
+  **Solution.** The outlier is far above the other values, so removing it lowers the mean a lot. The median moves only from the 5th value to the average of the 4th and 5th values of the remaining 8, a small change. The answer is **B**.
+  :::
+
+[[P3·159b]]
+The **standard deviation** measures how spread out the values are around the mean. The SAT asks only to compare it: a data set whose values cluster closely around the mean has a smaller standard deviation than one whose values are spread far apart. The **range** is the largest value minus the smallest.
+
+## Frequency tables and scatterplots
+
+  :::example Median from a frequency table
+  The table shows the number of books read last month by 20 students.
+
+  | Books | $1$ | $2$ | $3$ | $4$ |
+  |---|---|---|---|---|
+  | Students | $3$ | $5$ | $8$ | $4$ |
+
+  What is the median number of books?
+  A. $2$
+  B. $2.5$
+  C. $3$
+  D. $2.65$
+
+  **Solution.** With 20 values, the median is the mean of the 10th and 11th values. Counting up: values 1 to 3 are "1", values 4 to 8 are "2", values 9 to 16 are "3". Both the 10th and 11th values are $3$, so the median is $3$: answer **C**. Option D is the mean, $\dfrac{3+10+24+16}{20}=2.65$.
+  :::
+
+[[P4·c9bc]]
+A **scatterplot** shows pairs of data. A **line of best fit** $y=mx+b$ models the trend: the slope $m$ is the predicted change in $y$ for each increase of $1$ in $x$, and $b$ is the predicted value of $y$ when $x=0$.
+
+:::graph Hours of study and test scores, with the line of best fit $y=2.5x+40$
+   (… 13 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Interpreting a line of best fit
+  For the data in the scatterplot, the line of best fit is $y=2.5x+40$, where $x$ is the number of hours a student studied and $y$ is the test score. Which statement is the best interpretation of $2.5$?
+  A. Each student studied 2.5 hours.
+  B. A student who did not study is predicted to score 2.5.
+  C. For each additional hour of study, the predicted score increases by 2.5 points.
+  D. The score of every student increases by 2.5 points per hour.
+
+  **Solution.** The slope is the change in the **predicted** score per hour: the answer is **C**. Option D is too strong: a model predicts a trend, not the score of every student. The model predicts $2.5\cdot6+40=55$ points for 6 hours of study.
+  :::
+
+## Two-way tables and probability
+
+[[P5·aaf8]]
+The probability of an event, when all outcomes are equally likely, is $\dfrac{\text{number of favorable outcomes}}{\text{total number of outcomes}}$. In a two-way table, a **conditional probability** "given that…" restricts the total to one row or one column.
+
+  :::example A two-way table
+  The table shows the club choices of 80 students.
+
+  | | Math club | Art club | Total |
+  |---|---|---|---|
+  | Grade 10 | $18$ | $12$ | $30$ |
+  | Grade 11 | $22$ | $28$ | $50$ |
+  | Total | $40$ | $40$ | $80$ |
+
+  A student is chosen at random from those in the art club. What is the probability that the student is in grade 11?
+  A. $\dfrac{7}{20}$
+  B. $\dfrac{14}{25}$
+  C. $\dfrac{7}{10}$
+  D. $\dfrac{5}{8}$
+
+  **Solution.** "From those in the art club" means the total is the art column, $40$. Of these, $28$ are in grade 11: $\dfrac{28}{40}=\dfrac{7}{10}$. The answer is **C**. Option B is $\dfrac{28}{50}$, the probability of art **given** grade 11; option A is $\dfrac{28}{80}$.
+  :::
+
+## Samples and studies
+
+:::note What can we conclude?
+[[P6·1599]]
+- A **random sample** lets us generalize to the population it was chosen from, and only to that population.
+- A **margin of error** gives a range of plausible values for the population: an estimate of 64% with a margin of error of 5% suggests a true value between 59% and 69%.
+- Only a **randomized experiment** (subjects randomly assigned to treatments) supports a cause-and-effect conclusion. An observational study shows only an association.
+:::
+
+:::warning Common traps
+[[P7·f9b2]]
+- **The wrong total in a conditional probability.** "Given grade 11" divides by the grade 11 total, not by the grand total.
+- **Mean versus median with outliers.** Outliers move the mean much more than the median.
+- **Over-generalizing.** A sample of one school says nothing certain about all the schools in a country.
+- **Causation from observation.** "People who drink more coffee sleep less" does not show that coffee causes less sleep.
+:::
+
+:::tip Statistics in Desmos
+[[P8·dbf1]]
+Type a list such as `L=[3,9,4,7,12,5]`, then `mean(L)`, `median(L)` or `stdev(L)`. For a line of best fit, enter the data in a table and type `y_1~mx_1+b`.
+:::
+
+  :::terms
+  - mean | số trung bình
+  - median | trung vị
+  - outlier | giá trị ngoại lai
+  - standard deviation | độ lệch chuẩn
+  - range | khoảng biến thiên
+  - scatterplot | biểu đồ phân tán
+  - line of best fit | đường thẳng khớp nhất
+  - two-way table | bảng hai chiều
+  - conditional probability | xác suất có điều kiện
+  - random sample | mẫu ngẫu nhiên
+  - margin of error | biên sai số
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Combining two classes
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Marbles
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Comparing spread
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-triangles-trig-circles – BẢN TIẾNG VIỆT ########
+---
+title: Tam giác, lượng giác và đường tròn
+description: SAT Geometry: định lí Pythagore, tam giác vuông đặc biệt, tam giác đồng dạng, sin, côsin, tang, radian, cung, hình quạt và phương trình đường tròn.
+minutes: 40
+---
+
+  :::goals
+  - Dùng định lí Pythagore và các tam giác vuông đặc biệt $30^\circ$–$60^\circ$–$90^\circ$ và $45^\circ$–$45^\circ$–$90^\circ$.
+  - Dùng tam giác đồng dạng để tìm độ dài chưa biết.
+  - Dùng sin, côsin, tang trong tam giác vuông và hệ thức $\sin x^\circ=\cos(90-x)^\circ$.
+  - Làm việc với radian, độ dài cung, diện tích hình quạt và phương trình đường tròn.
+  :::
+
+[[P1·6d5a]]
+Bài này bao quát nửa khó hơn của mảng Geometry and Trigonometry. Học sinh Việt Nam biết các tỉ số lượng giác từ lớp 9, nhưng SAT còn dùng radian và phương trình đường tròn $(x-h)^2+(y-k)^2=r^2$, những nội dung ở Việt Nam học vào lớp 10 và lớp 11. Bảng công thức trong Bluebook có ghi các tam giác vuông đặc biệt; mọi thứ khác trong bài này bạn nên thuộc lòng.
+
+## Tam giác vuông
+
+  :::theorem Định lí Pythagore và các tam giác vuông đặc biệt
+  - Trong tam giác vuông có hai cạnh góc vuông $a$, $b$ và cạnh huyền $c$: $a^2+b^2=c^2$.
+  - $45^\circ$–$45^\circ$–$90^\circ$: các cạnh tỉ lệ với $1:1:\sqrt2$.
+  - $30^\circ$–$60^\circ$–$90^\circ$: các cạnh tỉ lệ với $1:\sqrt3:2$ (cạnh ngắn nhất đối diện góc $30^\circ$).
+  - Các bộ ba Pythagore thường gặp: $3, 4, 5$; $5, 12, 13$; $8, 15, 17$ và các bội của chúng.
+  :::
+
+  :::example Tam giác 30–60–90
+  Trong một tam giác vuông, một góc bằng $30^\circ$ và cạnh huyền dài 10. Cạnh đối diện góc $60^\circ$ dài bao nhiêu?
+  A. $5$
+  B. $5\sqrt2$
+  C. $5\sqrt3$
+  D. $10\sqrt3$
+
+  **Lời giải.** Các cạnh tỉ lệ với $1:\sqrt3:2$, cạnh huyền ứng với $2$ là $10$, nên mỗi "đơn vị" là $5$. Cạnh đối diện $60^\circ$ là $5\sqrt3$: đáp án **C**. Phương án A là cạnh đối diện $30^\circ$.
+  :::
+
+## Tam giác đồng dạng
+
+[[P2·03b7]]
+Hai tam giác **đồng dạng** khi các góc tương ứng bằng nhau; khi đó các cạnh tương ứng tỉ lệ. Một đường thẳng song song với một cạnh của tam giác tạo ra một tam giác nhỏ đồng dạng với tam giác ban đầu.
+
+  :::example Đoạn thẳng song song
+  Trong tam giác $ABC$, điểm $D$ nằm trên $\overline{AB}$ và điểm $E$ nằm trên $\overline{AC}$, với $\overline{DE}$ song song với $\overline{BC}$. Nếu $AD=4$, $DB=6$ và $DE=5$ thì $\overline{BC}$ dài bao nhiêu?
+
+  **Lời giải.** Tam giác $ADE$ đồng dạng với tam giác $ABC$, với $AB=4+6=10$. Vậy $\dfrac{BC}{DE}=\dfrac{AB}{AD}$: $BC=5\cdot\dfrac{10}{4}=12{,}5$. Bạn gõ **12.5**. Cái bẫy là dùng $\dfrac{DB}{AD}$ thay vì $\dfrac{AB}{AD}$.
+  :::
+
+## Tỉ số lượng giác
+
+  :::theorem Sin, côsin và tang
+  Với góc nhọn $\theta$ của một tam giác vuông:
+  $$\sin\theta=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\qquad\cos\theta=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\qquad\tan\theta=\frac{\text{cạnh đối}}{\text{cạnh kề}}.$$
+  Hai góc nhọn của tam giác vuông có tổng $90^\circ$, nên $\sin x^\circ=\cos(90-x)^\circ$.
+  :::
+
+  :::example Hai góc phụ nhau
+  Với góc $0<x<90$, $\sin x^\circ=\cos32^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+  **Lời giải.** $\sin x^\circ=\cos(90-x)^\circ$, nên $90-x=32$ và $x=58$. Bạn gõ **58**.
+  :::
+
+  :::example Tỉ số từ các cạnh
+  Trong tam giác $PQR$ vuông tại $R$, $PR=8$, $QR=15$ và $PQ=17$. Giá trị của $\tan Q$ là
+  A. $\dfrac{8}{15}$
+  B. $\dfrac{15}{8}$
+  C. $\dfrac{8}{17}$
+  D. $\dfrac{15}{17}$
+
+  **Lời giải.** Cạnh đối diện $Q$ là $PR=8$ và cạnh kề $Q$ (không phải cạnh huyền) là $QR=15$: $\tan Q=\dfrac{8}{15}$. Đáp án là **A**. Phương án B là $\tan P$; phương án C là $\sin Q$.
+  :::
+
+## Radian, cung và đường tròn
+
+  :::theorem Radian và cung
+  $180^\circ=\pi$ radian. Trong đường tròn bán kính $r$, góc ở tâm $\theta$ radian chắn một cung dài $s=r\theta$ và tạo một hình quạt có diện tích $\dfrac12r^2\theta$. Theo độ: cung $=\dfrac{\theta}{360}\cdot2\pi r$, hình quạt $=\dfrac{\theta}{360}\cdot\pi r^2$.
+  :::
+
+  :::example Độ dài cung
+  Một đường tròn có bán kính 6. Cung bị chắn bởi góc ở tâm $\dfrac{2\pi}{3}$ radian dài bao nhiêu?
+  A. $2\pi$
+  B. $4\pi$
+  C. $12\pi$
+  D. $\dfrac{\pi}{9}$
+
+  **Lời giải.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. Đáp án là **B**. Phương án C là diện tích hình quạt, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
+  :::
+
+[[P3·8c75]]
+Đường tròn tâm $(h, k)$, bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$. Nếu phương trình đã được khai triển, hãy thêm bớt để tạo bình phương theo $x$ và theo $y$.
+
+  :::example Tìm bán kính
+  Phương trình một đường tròn trong mặt phẳng $xy$ là $x^2+y^2-6x+4y-12=0$. Bán kính của đường tròn bằng bao nhiêu?
+
+  **Lời giải.** Nhóm lại và tạo bình phương:
+
+  $$(x^2-6x+9)+(y^2+4y+4)=12+9+4\iff(x-3)^2+(y+2)^2=25.$$
+
+  Tâm là $(3, -2)$ và bán kính là $5$. Bạn gõ **5**.
+  :::
+
+:::graph Đường tròn $(x-3)^2+(y+2)^2=25$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P4·c95a]]
+- **Nhầm cạnh "đối".** Cạnh đối và cạnh kề phụ thuộc vào góc đang xét; cạnh huyền luôn đối diện góc vuông.
+- **Dấu trong phương trình đường tròn.** $(x+4)^2+(y-1)^2=9$ có tâm $(-4, 1)$, không phải $(4, -1)$.
+- **$r^2$ hay $r$.** Trong $(x-3)^2+(y+2)^2=25$, bán kính là $5$, không phải $25$.
+- **Độ hay radian.** Đọc kĩ đề. Với máy tính cầm tay, kiểm tra chế độ đo góc; với Desmos, kiểm tra phần cài đặt.
+:::
+
+:::tip Lượng giác trong Desmos
+[[P5·d551]]
+Desmos mặc định dùng radian; hãy bấm biểu tượng cờ lê để chuyển sang độ trước khi gõ `sin(30)`. Để kiểm tra một đường tròn, gõ phương trình đúng như đề cho: Desmos vẽ nó, và nếu gõ thêm dạng đã tạo bình phương thì bạn thấy ngay tâm.
+:::
+
+  :::terms
+  - cạnh huyền | hypotenuse
+  - cạnh góc vuông | leg
+  - định lí Pythagore | Pythagorean theorem
+  - tam giác đồng dạng | similar triangles
+  - sin / côsin / tang | sine / cosine / tangent
+  - hai góc phụ nhau | complementary angles
+  - radian | radian
+  - độ dài cung | arc length
+  - hình quạt | sector
+  - tâm / bán kính | center / radius
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Chiếc thang
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Dốc lên xuống
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Miếng bánh pizza
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-triangles-trig-circles – BẢN TIẾNG ANH ########
+---
+title: Triangles, trigonometry and circles
+description: SAT Geometry and Trigonometry: Pythagoras, special right triangles, similar triangles, sine, cosine and tangent, radians, arcs, sectors and circle equations.
+minutes: 40
+---
+
+  :::goals
+  - Use the Pythagorean theorem and the special right triangles $30^\circ$–$60^\circ$–$90^\circ$ and $45^\circ$–$45^\circ$–$90^\circ$.
+  - Use similar triangles to find unknown lengths.
+  - Use sine, cosine and tangent in right triangles, and the identity $\sin x^\circ=\cos(90-x)^\circ$.
+  - Work with radians, arc length, sector area and the equation of a circle.
+  :::
+
+[[P1·581f]]
+This lesson covers the harder half of the Geometry and Trigonometry domain. Vietnamese students know the trigonometric ratios from grade 9, but the SAT also uses radians and the circle equation $(x-h)^2+(y-k)^2=r^2$, which in Vietnam come in grade 10 and 11. The reference sheet in Bluebook gives the special right triangles; everything else in this lesson you should know by heart.
+
+## Right triangles
+
+  :::theorem Pythagoras and the special right triangles
+  - In a right triangle with legs $a$, $b$ and hypotenuse $c$: $a^2+b^2=c^2$.
+  - $45^\circ$–$45^\circ$–$90^\circ$: the sides are in the ratio $1:1:\sqrt2$.
+  - $30^\circ$–$60^\circ$–$90^\circ$: the sides are in the ratio $1:\sqrt3:2$ (the shortest side is opposite $30^\circ$).
+  - Common Pythagorean triples: $3, 4, 5$; $5, 12, 13$; $8, 15, 17$ and their multiples.
+  :::
+
+  :::example A 30–60–90 triangle
+  In a right triangle, one angle measures $30^\circ$ and the hypotenuse has length 10. What is the length of the side opposite the $60^\circ$ angle?
+  A. $5$
+  B. $5\sqrt2$
+  C. $5\sqrt3$
+  D. $10\sqrt3$
+
+  **Solution.** The sides are in the ratio $1:\sqrt3:2$, and the hypotenuse $2$ corresponds to $10$, so each "unit" is $5$. The side opposite $60^\circ$ is $5\sqrt3$: answer **C**. Option A is the side opposite $30^\circ$.
+  :::
+
+## Similar triangles
+
+[[P2·db63]]
+Two triangles are **similar** when their angles are equal; then their corresponding sides are proportional. A line parallel to one side of a triangle cuts off a smaller similar triangle.
+
+  :::example A parallel segment
+  In triangle $ABC$, point $D$ lies on $\overline{AB}$ and point $E$ lies on $\overline{AC}$, with $\overline{DE}$ parallel to $\overline{BC}$. If $AD=4$, $DB=6$ and $DE=5$, what is the length of $\overline{BC}$?
+
+  **Solution.** Triangles $ADE$ and $ABC$ are similar, with $AB=4+6=10$. So $\dfrac{BC}{DE}=\dfrac{AB}{AD}$: $BC=5\cdot\dfrac{10}{4}=12.5$. You type **12.5**. The trap is to use $\dfrac{DB}{AD}$ instead of $\dfrac{AB}{AD}$.
+  :::
+
+## Trigonometric ratios
+
+  :::theorem Sine, cosine and tangent
+  For an acute angle $\theta$ of a right triangle:
+  $$\sin\theta=\frac{\text{opposite}}{\text{hypotenuse}},\qquad\cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}},\qquad\tan\theta=\frac{\text{opposite}}{\text{adjacent}}.$$
+  The two acute angles of a right triangle add up to $90^\circ$, so $\sin x^\circ=\cos(90-x)^\circ$.
+  :::
+
+  :::example Complementary angles
+  For an angle with $0<x<90$, $\sin x^\circ=\cos32^\circ$. What is the value of $x$?
+
+  **Solution.** $\sin x^\circ=\cos(90-x)^\circ$, so $90-x=32$ and $x=58$. You type **58**.
+  :::
+
+  :::example A ratio from the sides
+  In right triangle $PQR$, the right angle is at $R$, $PR=8$, $QR=15$ and $PQ=17$. What is $\tan Q$?
+  A. $\dfrac{8}{15}$
+  B. $\dfrac{15}{8}$
+  C. $\dfrac{8}{17}$
+  D. $\dfrac{15}{17}$
+
+  **Solution.** The side opposite $Q$ is $PR=8$ and the side adjacent to $Q$ (not the hypotenuse) is $QR=15$: $\tan Q=\dfrac{8}{15}$. The answer is **A**. Option B is $\tan P$; option C is $\sin Q$.
+  :::
+
+## Radians, arcs and circles
+
+  :::theorem Radians and arcs
+  $180^\circ=\pi$ radians. In a circle of radius $r$, a central angle of $\theta$ radians cuts off an arc of length $s=r\theta$ and a sector of area $\dfrac12r^2\theta$. In degrees: arc $=\dfrac{\theta}{360}\cdot2\pi r$, sector $=\dfrac{\theta}{360}\cdot\pi r^2$.
+  :::
+
+  :::example An arc length
+  A circle has radius 6. What is the length of the arc cut off by a central angle of $\dfrac{2\pi}{3}$ radians?
+  A. $2\pi$
+  B. $4\pi$
+  C. $12\pi$
+  D. $\dfrac{\pi}{9}$
+
+  **Solution.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. The answer is **B**. Option C is the area of the sector, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
+  :::
+
+[[P3·7613]]
+The circle with center $(h, k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. If the equation is expanded, complete the square in $x$ and in $y$.
+
+  :::example Finding the radius
+  The equation of a circle in the $xy$-plane is $x^2+y^2-6x+4y-12=0$. What is the radius of the circle?
+
+  **Solution.** Group and complete the squares:
+
+  $$(x^2-6x+9)+(y^2+4y+4)=12+9+4\iff(x-3)^2+(y+2)^2=25.$$
+
+  The center is $(3, -2)$ and the radius is $5$. You type **5**.
+  :::
+
+:::graph The circle $(x-3)^2+(y+2)^2=25$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Common traps
+[[P4·6711]]
+- **The wrong side as "opposite".** Opposite and adjacent depend on which angle you look from; the hypotenuse is always opposite the right angle.
+- **Signs in the circle equation.** $(x+4)^2+(y-1)^2=9$ has center $(-4, 1)$, not $(4, -1)$.
+- **$r^2$ versus $r$.** In $(x-3)^2+(y+2)^2=25$ the radius is $5$, not $25$.
+- **Degrees or radians.** Check the question. On a calculator, check the mode; in Desmos, check the settings.
+:::
+
+:::tip Trigonometry in Desmos
+[[P5·de04]]
+Desmos works in radians by default; switch to degrees with the wrench icon before typing `sin(30)`. To check a circle, type the equation exactly as given: Desmos draws it and shows the center if you also type the completed-square form.
+:::
+
+  :::terms
+  - hypotenuse | cạnh huyền
+  - leg | cạnh góc vuông
+  - Pythagorean theorem | định lí Pythagore
+  - similar triangles | tam giác đồng dạng
+  - sine / cosine / tangent | sin / côsin / tang
+  - complementary angles | hai góc phụ nhau
+  - radian | radian
+  - arc length | độ dài cung
+  - sector | hình quạt
+  - center / radius | tâm / bán kính
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A ladder
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A ramp
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A slice of pizza
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

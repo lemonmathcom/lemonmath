@@ -1,0 +1,1150 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-13-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-13-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-13-GV
+Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/statistical-data-lists, g4/unitary-method, g4/what-is-a-fraction
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath.com-13-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath.com-13-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-13-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g4/statistical-data-lists – BẢN TIẾNG VIỆT ########
+---
+title: Dãy số liệu thống kê
+description: Em học cách đọc một dãy số liệu: đếm số liệu, tìm số lớn nhất và nhỏ nhất, sắp xếp từ bé đến lớn và đếm số lần một số xuất hiện.
+minutes: 15
+---
+
+  :::goals
+  - Biết dãy số liệu thống kê là gì và đọc được dãy số liệu từ bảng.
+  - Đếm số số liệu, tìm số lớn nhất, số nhỏ nhất và sắp xếp dãy số liệu từ bé đến lớn.
+  - Đếm số lần một số xuất hiện và so sánh các số liệu bằng phép trừ.
+  :::
+
+[[P1·a381]]
+Cô giáo hỏi sáu bạn trong tổ em đã đọc bao nhiêu quyển truyện trong tháng. Bạn Mai đọc $5$ quyển, Nam đọc $3$ quyển, Hà đọc $7$ quyển, Bình đọc $4$ quyển, Lan đọc $6$ quyển và Tú đọc $3$ quyển. Bạn nào đọc nhiều nhất? Bạn nào đọc ít nhất?
+
+[[P2·dda2]]
+Các số $5, 3, 7, 4, 6, 3$ là những thông tin ta thu thập được. Bài này dạy em cách đọc và so sánh chúng.
+
+## Cùng khám phá
+
+[[P3·2251]]
+Trước hết, ta ghi lại thông tin vào một bảng.
+
+| Bạn | Mai | Nam | Hà | Bình | Lan | Tú |
+|---|---|---|---|---|---|---|
+| Số quyển truyện | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
+
+[[P4·aa0f]]
+Chỉ lấy hàng số, ta được một dãy: $5, 3, 7, 4, 6, 3$. Em trả lời từng câu hỏi nhỏ:
+
+[[P5·4e81]]
+- Có bao nhiêu số? Đếm từng số: có $6$ số, ứng với $6$ bạn.
+- Số nào lớn nhất? So sánh các số: $7$ lớn nhất, đó là bạn Hà.
+- Số nào nhỏ nhất? $3$ nhỏ nhất, đó là Nam và Tú.
+- Sắp xếp từ bé đến lớn: $3, 3, 4, 5, 6, 7$. Em chú ý số $3$ xuất hiện hai lần nên viết hai lần.
+
+  :::definition Dãy số liệu thống kê
+  Những số ta thu thập được về cùng một việc (ví dụ số quyển truyện, số đo chiều cao) gọi là **số liệu**. Các số liệu viết thành một hàng gọi là **dãy số liệu thống kê**. Mỗi bạn hay mỗi lần đo cho một số liệu, nên số số liệu bằng số bạn hay số lần đo.
+  :::
+
+[[P6·ef36]]
+Khi đọc dãy số liệu, em luôn làm theo ba việc: đếm xem có bao nhiêu số, tìm số lớn nhất và nhỏ nhất, rồi trả lời câu hỏi của đề.
+
+## Ví dụ
+
+[[P7·8b1f]]
+Ta bắt đầu với một dãy ngắn.
+
+  :::example Số bàn thắng
+  Đội bóng lớp em ghi được số bàn thắng trong $7$ trận là: $2, 0, 3, 1, 3, 2, 4$. Hỏi: a) Đội đã đá mấy trận? b) Trận nhiều bàn thắng nhất có mấy bàn? c) Có mấy trận ghi đúng $2$ bàn?
+
+  **Lời giải.** Mỗi số cho một trận. Ta đếm số số, tìm số lớn nhất và đếm số $2$:
+
+  a) Có $7$ số, nên đội đã đá $7$ trận.
+
+  b) Số lớn nhất là $4$, nên trận nhiều nhất có $4$ bàn.
+
+  c) Số $2$ xuất hiện ở trận đầu và trận thứ sáu, nên có $2$ trận.
+  :::
+
+[[P8·0e70]]
+Bây giờ ta sắp xếp số liệu và so sánh.
+
+  :::example Chiều cao
+  Chiều cao của $5$ bạn (cm) là: $132, 128, 135, 130, 128$. Hãy sắp xếp từ bé đến lớn, rồi tìm bạn cao nhất hơn bạn thấp nhất bao nhiêu xăng-ti-mét.
+
+  **Lời giải.** Tìm số nhỏ nhất rồi lần lượt viết các số lớn dần, mỗi số viết đủ số lần:
+  $$128,\ 128,\ 130,\ 132,\ 135.$$
+  Số lớn nhất là $135$, số nhỏ nhất là $128$. Muốn biết hơn bao nhiêu, ta lấy hiệu:
+  $$135-128=7\ \text{(cm)}.$$
+  Vậy bạn cao nhất hơn bạn thấp nhất $7$ cm.
+  :::
+
+[[P9·9c5a]]
+Dãy số liệu thường cho trong bảng. Ta đọc bảng rồi làm tiếp.
+
+  :::example Sĩ số các lớp
+  Bảng cho sĩ số các lớp khối Bốn:
+
+  | Lớp | 4A | 4B | 4C | 4D |
+  |---|---|---|---|---|
+  | Số học sinh | $32$ | $30$ | $34$ | $32$ |
+
+  Hỏi lớp nào đông nhất? Cả khối có bao nhiêu học sinh?
+
+  **Lời giải.** Dãy số liệu là $32, 30, 34, 32$. Số lớn nhất là $34$, ứng với lớp $4$C. Tổng số học sinh là:
+  $$32+30+34+32=128\ \text{(học sinh)}.$$
+  Vậy lớp $4$C đông nhất, cả khối có $128$ học sinh.
+  :::
+
+[[P10·8e9e]]
+Cuối cùng, ta đếm xem một số xuất hiện bao nhiêu lần.
+
+  :::example Số lần xuất hiện
+  Cho dãy số liệu $6, 9, 4, 9, 7$. Có mấy số liệu? Số nào xuất hiện nhiều lần nhất?
+
+  **Lời giải.** Đếm các số, kể cả số lặp lại: $6, 9, 4, 9, 7$ có $5$ số. Số $9$ xuất hiện $2$ lần, các số khác chỉ $1$ lần. Vậy có $5$ số liệu và số $9$ xuất hiện nhiều lần nhất.
+
+  **Kiểm tra.** Cộng số lần xuất hiện: $1+2+1+1=5$. Khớp với $5$ số liệu.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·c1b4]]
+- **Bỏ số lặp lại.** Sai: dãy $6, 9, 4, 9, 7$ có $4$ số. Vì sao sai: mỗi bạn hay mỗi lần đo cho một số, số $9$ xuất hiện hai lần thì tính hai lần. Đúng: $5$ số.
+- **Nhầm số lớn nhất với số xuất hiện nhiều nhất.** Sai: dãy $3, 8, 3, 5$ có số xuất hiện nhiều nhất là $8$. Vì sao sai: $8$ chỉ là số lớn nhất, còn $3$ xuất hiện hai lần. Đúng: số $3$.
+- **Khi sắp xếp, làm mất số lặp lại.** Sai: sắp $7, 3, 9, 3$ thành $3, 7, 9$. Vì sao sai: dãy mới thiếu một số $3$. Đúng: $3, 3, 7, 9$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - dãy số liệu | data list
+  - số liệu | data value
+  - thống kê | statistics
+  - lớn nhất | greatest
+  - nhỏ nhất | least
+  - sắp xếp từ bé đến lớn | put in order, smallest first
+  - số lần xuất hiện | number of times it appears
+  :::
+
+## Tóm tắt
+
+[[P12·ebad]]
+- Số liệu là những số thu thập được; viết thành hàng gọi là dãy số liệu thống kê.
+- Mỗi bạn hay mỗi lần đo cho một số liệu; số lặp lại vẫn đếm đủ số lần.
+- Tìm số lớn nhất, số nhỏ nhất bằng cách so sánh từng số.
+- Sắp xếp từ bé đến lớn: viết đủ mọi số, kể cả số lặp lại.
+- So sánh hai số liệu bằng phép trừ: $\text{lớn}-\text{bé}$.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/statistical-data-lists – BẢN TIẾNG ANH ########
+---
+title: Lists of statistical data
+description: Learn to read a list of data: count the values, find the greatest and least, put them in order and count how many times a value appears.
+minutes: 15
+---
+
+  :::goals
+  - Know what a list of statistical data is and read one from a table.
+  - Count the values, find the greatest and the least, and put a list in order from smallest to largest.
+  - Count how many times a value appears and compare values by subtracting.
+  :::
+
+[[P1·d2e8]]
+The teacher asks six children in your group how many story books they read this month. Mai read $5$, Nam read $3$, Ha read $7$, Binh read $4$, Lan read $6$ and Tu read $3$. Who read the most? Who read the fewest?
+
+[[P2·ec9d]]
+The numbers $5, 3, 7, 4, 6, 3$ are information we collected. This lesson shows you how to read and compare them.
+
+## Let's explore
+
+[[P3·4eb7]]
+First we write the information in a table.
+
+| Child | Mai | Nam | Ha | Binh | Lan | Tu |
+|---|---|---|---|---|---|---|
+| Books read | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
+
+[[P4·02c3]]
+Taking only the row of numbers gives a list: $5, 3, 7, 4, 6, 3$. Answer some small questions:
+
+[[P5·f279]]
+- How many numbers are there? Count each one: there are $6$, one for each child.
+- Which is the greatest? Compare them: $7$ is the greatest, and that is Ha.
+- Which is the least? $3$ is the least, and that is Nam and Tu.
+- In order from smallest to largest: $3, 3, 4, 5, 6, 7$. Notice that $3$ appears twice, so we write it twice.
+
+  :::definition A list of statistical data
+  The numbers we collect about the same thing (for example the number of books, or heights) are called **data values**. Data values written in a row make a **list of statistical data**. Each child or each measurement gives one value, so the number of values equals the number of children or measurements.
+  :::
+
+[[P6·5990]]
+When you read a list of data, always do three things: count how many values there are, find the greatest and the least, then answer the question.
+
+## Examples
+
+[[P7·e623]]
+We start with a short list.
+
+  :::example Goals scored
+  Our class football team scored these numbers of goals in $7$ matches: $2, 0, 3, 1, 3, 2, 4$. a) How many matches did the team play? b) What is the most goals in one match? c) In how many matches did the team score exactly $2$ goals?
+
+  **Solution.** Each number is one match. We count the numbers, find the greatest and count the $2$s:
+
+  a) There are $7$ numbers, so the team played $7$ matches.
+
+  b) The greatest number is $4$, so the most goals in a match is $4$.
+
+  c) The number $2$ appears in the first and the sixth match, so there are $2$ matches.
+  :::
+
+[[P8·371c]]
+Now we put the values in order and compare them.
+
+  :::example Heights
+  The heights (cm) of $5$ children are: $132, 128, 135, 130, 128$. Put them in order from smallest to largest, then find how many centimetres taller the tallest child is than the shortest.
+
+  **Solution.** Find the least, then write the numbers getting larger, each one as many times as it appears:
+  $$128,\ 128,\ 130,\ 132,\ 135.$$
+  The greatest is $135$ and the least is $128$. To find how much more, we subtract:
+  $$135-128=7\ \text{(cm)}.$$
+  So the tallest child is $7$ cm taller than the shortest.
+  :::
+
+[[P9·4b25]]
+Data often comes in a table. We read the table and carry on.
+
+  :::example Class sizes
+  The table shows the number of pupils in each Year 4 class:
+
+  | Class | 4A | 4B | 4C | 4D |
+  |---|---|---|---|---|
+  | Pupils | $32$ | $30$ | $34$ | $32$ |
+
+  Which class is the biggest? How many pupils are there in all?
+
+  **Solution.** The list of data is $32, 30, 34, 32$. The greatest is $34$, for class $4$C. The total number of pupils is:
+  $$32+30+34+32=128\ \text{(pupils)}.$$
+  So class $4$C is the biggest, and there are $128$ pupils in all.
+  :::
+
+[[P10·9c25]]
+Finally, we count how many times a value appears.
+
+  :::example How many times a value appears
+  Here is a list of data: $6, 9, 4, 9, 7$. How many values are there? Which value appears most often?
+
+  **Solution.** Count the numbers, including repeats: $6, 9, 4, 9, 7$ has $5$ numbers. The number $9$ appears $2$ times and the others only $1$ time. So there are $5$ values and $9$ appears most often.
+
+  **Check.** Add up the counts: $1+2+1+1=5$. This matches the $5$ values.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·d53c]]
+- **Leaving out repeats.** Wrong: the list $6, 9, 4, 9, 7$ has $4$ numbers. Why it is wrong: each child or measurement gives one number, and $9$ appears twice so we count it twice. Right: $5$ numbers.
+- **Mixing up the greatest with the most common.** Wrong: in $3, 8, 3, 5$ the most common value is $8$. Why it is wrong: $8$ is only the greatest, and $3$ appears twice. Right: the number $3$.
+- **Losing repeats when putting in order.** Wrong: writing $7, 3, 9, 3$ as $3, 7, 9$. Why it is wrong: the new list is missing one $3$. Right: $3, 3, 7, 9$.
+:::
+
+## Key terms
+
+  :::terms
+  - data list | dãy số liệu
+  - data value | số liệu
+  - statistics | thống kê
+  - greatest | lớn nhất
+  - least | nhỏ nhất
+  - put in order, smallest first | sắp xếp từ bé đến lớn
+  - number of times it appears | số lần xuất hiện
+  :::
+
+## Summary
+
+[[P12·7b4c]]
+- Data values are numbers we collect; written in a row they make a list of statistical data.
+- Each child or measurement gives one value; repeated values are still counted every time.
+- Find the greatest and the least by comparing each number.
+- To put in order from smallest to largest, write every number, repeats included.
+- Compare two values by subtracting: $\text{greater}-\text{smaller}$.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/unitary-method – BẢN TIẾNG VIỆT ########
+---
+title: Bài toán liên quan đến rút về đơn vị
+description: Em học cách giải bài toán "biết giá của nhiều, tìm giá của số khác" bằng hai bước: chia để tìm một đơn vị, rồi nhân hoặc chia để tìm yêu cầu.
+minutes: 15
+---
+
+  :::goals
+  - Biết rút về đơn vị: tìm giá trị của một đơn vị trước.
+  - Giải bài toán "biết giá trị của nhiều đơn vị, tìm giá trị của số đơn vị khác".
+  - Giải bài toán tìm số đơn vị khi biết số tiền hoặc số lượng.
+  :::
+
+[[P1·fa2e]]
+Mẹ mua $4$ quyển vở hết $24\,000$ đồng. Nếu mẹ mua $7$ quyển vở cùng loại thì hết bao nhiêu tiền?
+
+[[P2·9a45]]
+Em chưa biết giá tiền của $7$ quyển ngay được. Nhưng nếu biết giá của một quyển thì bài toán dễ hơn nhiều.
+
+## Cùng khám phá
+
+[[P3·3c4d]]
+Ta làm từng bước nhỏ.
+
+[[P4·912e]]
+- Bước 1: $4$ quyển hết $24\,000$ đồng. Chia đều, một quyển có giá bao nhiêu?
+
+| Số quyển | Số tiền |
+|---|---|
+| $4$ | $24\,000$ đồng |
+| $1$ | $24\,000:4=6\,000$ đồng |
+| $7$ | $6\,000\times7=42\,000$ đồng |
+
+[[P5·eb57]]
+- Bước 2: biết một quyển giá $6\,000$ đồng, $7$ quyển giá gấp $7$ lần.
+
+[[P6·436a]]
+Vậy mua $7$ quyển hết $42\,000$ đồng. Cách làm này gọi là **rút về đơn vị**: ta rút về giá của một quyển trước.
+
+  :::theorem Rút về đơn vị
+  Biết giá trị của nhiều đơn vị, muốn tìm giá trị của số đơn vị khác:
+  1. Tìm giá trị của một đơn vị: lấy giá trị đã cho chia cho số đơn vị.
+  2. Tìm giá trị cần hỏi: lấy giá trị của một đơn vị nhân với số đơn vị cần hỏi.
+  :::
+
+[[P7·c246]]
+Cách này đúng vì mỗi quyển vở có giá bằng nhau. Nên $7$ quyển có giá gấp $7$ lần một quyển.
+
+## Ví dụ
+
+[[P8·b4a8]]
+Ta bắt đầu với bài toán số lượng.
+
+  :::example Gói kẹo
+  Có $6$ gói kẹo như nhau chứa $48$ viên kẹo. Hỏi $9$ gói kẹo như thế chứa bao nhiêu viên kẹo?
+
+  **Lời giải.** Trước hết tìm số kẹo trong một gói, rồi nhân với $9$:
+  $$48:6=8\ \text{(viên)},\qquad 8\times9=72\ \text{(viên)}.$$
+  Vậy $9$ gói kẹo chứa $72$ viên kẹo.
+  :::
+
+[[P9·6bec]]
+Bài toán chuyển động cũng giải cùng cách.
+
+  :::example Đi xe đạp
+  Một bạn đi xe đạp đều, $4$ giờ đi được $36$ km. Hỏi $7$ giờ bạn đó đi được bao nhiêu ki-lô-mét?
+
+  **Lời giải.** Tìm quãng đường đi được trong $1$ giờ, rồi nhân với $7$:
+  $$36:4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
+  Vậy $7$ giờ bạn đó đi được $63$ km.
+  :::
+
+[[P10·8967]]
+Bây giờ em làm bài toán với số tiền lớn hơn.
+
+  :::example Mua gạo
+  Mua $5$ kg gạo hết $75\,000$ đồng. Hỏi mua $8$ kg gạo như thế hết bao nhiêu tiền?
+
+  **Lời giải.** Tìm giá tiền $1$ kg gạo, rồi nhân với $8$:
+  $$75\,000:5=15\,000\ \text{(đồng)},\qquad 15\,000\times8=120\,000\ \text{(đồng)}.$$
+  Vậy mua $8$ kg gạo hết $120\,000$ đồng.
+  :::
+
+[[P11·5b35]]
+Có loại bài khác: biết số tiền, hỏi mua được bao nhiêu. Bước 2 lúc này là phép chia.
+
+  :::example Mua cam
+  Mua $12$ quả cam hết $60\,000$ đồng. Với $45\,000$ đồng thì mua được bao nhiêu quả cam như thế?
+
+  **Lời giải.** Tìm giá tiền một quả cam. Sau đó xem $45\,000$ đồng chứa bao nhiêu lần giá một quả:
+  $$60\,000:12=5\,000\ \text{(đồng)},\qquad 45\,000:5\,000=9\ \text{(quả)}.$$
+  Vậy với $45\,000$ đồng mua được $9$ quả cam.
+
+  **Kiểm tra.** $9$ quả giá $5\,000\times9=45\,000$ đồng. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·c474]]
+- **Nhân luôn, bỏ qua bước chia.** Sai: $24\,000\times7$. Vì sao sai: $24\,000$ là giá của $4$ quyển, không phải $1$ quyển. Đúng: chia cho $4$ trước.
+- **Chia nhầm số.** Sai: $24\,000:7$. Vì sao sai: phải chia cho số quyển đã biết giá, tức $4$. Đúng: $24\,000:4=6\,000$.
+- **Quên đơn vị.** Sai: "Đáp số: $42\,000$". Đúng: "Đáp số: $42\,000$ đồng".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - rút về đơn vị | unitary method
+  - một đơn vị | one unit
+  - giá tiền | cost
+  - phép chia | division
+  - phép nhân | multiplication
+  - bài toán có lời văn | word problem
+  - quãng đường | distance
+  :::
+
+## Tóm tắt
+
+[[P13·a79b]]
+- Rút về đơn vị gồm hai bước: tìm giá trị một đơn vị (chia), rồi tìm giá trị cần hỏi.
+- Hỏi giá trị của số đơn vị khác: bước hai là nhân.
+- Hỏi số đơn vị khi biết số tiền: bước hai là chia.
+- Ví dụ: $24\,000:4=6\,000$, rồi $6\,000\times7=42\,000$.
+- Nhớ viết đơn vị trong từng phép tính và đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/unitary-method – BẢN TIẾNG ANH ########
+---
+title: Problems using the unitary method
+description: Learn to solve "we know the cost of several, find the cost of another number" in two steps: divide to find one unit, then multiply or divide.
+minutes: 15
+---
+
+  :::goals
+  - Use the unitary method: find the value of one unit first.
+  - Solve problems where we know the value of several units and need the value of a different number.
+  - Solve problems that ask how many units we can get for a given amount.
+  :::
+
+[[P1·706a]]
+Mum buys $4$ exercise books for $24\,000$ dong. How much do $7$ books of the same kind cost?
+
+[[P2·c30e]]
+You cannot see the price of $7$ books straight away. But if you know the price of one book, the problem becomes much easier.
+
+## Let's explore
+
+[[P3·777d]]
+We go step by step.
+
+[[P4·eadd]]
+- Step 1: $4$ books cost $24\,000$ dong. Shared equally, how much is one book?
+
+| Number of books | Cost |
+|---|---|
+| $4$ | $24\,000$ dong |
+| $1$ | $24\,000\div4=6\,000$ dong |
+| $7$ | $6\,000\times7=42\,000$ dong |
+
+[[P5·0c82]]
+- Step 2: one book costs $6\,000$ dong, so $7$ books cost $7$ times as much.
+
+[[P6·711b]]
+So $7$ books cost $42\,000$ dong. This is called the **unitary method**: we go down to the cost of one book first.
+
+  :::theorem The unitary method
+  We know the value of several units and want the value of a different number of units:
+  1. Find the value of one unit: divide the given value by the number of units.
+  2. Find the value asked for: multiply the value of one unit by the number of units needed.
+  :::
+
+[[P7·e9ad]]
+This works because every book costs the same. So $7$ books cost $7$ times as much as one book.
+
+## Examples
+
+[[P8·9c22]]
+We start with a problem about amounts.
+
+  :::example Packets of sweets
+  $6$ identical packets hold $48$ sweets. How many sweets are in $9$ packets like these?
+
+  **Solution.** First find the sweets in one packet, then multiply by $9$:
+  $$48\div6=8\ \text{(sweets)},\qquad 8\times9=72\ \text{(sweets)}.$$
+  So $9$ packets hold $72$ sweets.
+  :::
+
+[[P9·7d11]]
+Problems about travelling work in the same way.
+
+  :::example Cycling
+  A child cycles at a steady speed and goes $36$ km in $4$ hours. How far does the child go in $7$ hours?
+
+  **Solution.** Find the distance in $1$ hour, then multiply by $7$:
+  $$36\div4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
+  So in $7$ hours the child goes $63$ km.
+  :::
+
+[[P10·42c7]]
+Now a problem with bigger sums of money.
+
+  :::example Buying rice
+  $5$ kg of rice cost $75\,000$ dong. How much do $8$ kg of the same rice cost?
+
+  **Solution.** Find the cost of $1$ kg, then multiply by $8$:
+  $$75\,000\div5=15\,000\ \text{(dong)},\qquad 15\,000\times8=120\,000\ \text{(dong)}.$$
+  So $8$ kg of rice cost $120\,000$ dong.
+  :::
+
+[[P11·6b59]]
+There is another kind: we know the money and ask how many we can buy. Then step 2 is a division.
+
+  :::example Buying oranges
+  $12$ oranges cost $60\,000$ dong. How many oranges of the same kind can we buy with $45\,000$ dong?
+
+  **Solution.** Find the cost of one orange. Then see how many times that fits into $45\,000$:
+  $$60\,000\div12=5\,000\ \text{(dong)},\qquad 45\,000\div5\,000=9\ \text{(oranges)}.$$
+  So $45\,000$ dong buys $9$ oranges.
+
+  **Check.** $9$ oranges cost $5\,000\times9=45\,000$ dong. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·aec5]]
+- **Multiplying straight away.** Wrong: $24\,000\times7$. Why it is wrong: $24\,000$ is the cost of $4$ books, not $1$. Right: divide by $4$ first.
+- **Dividing by the wrong number.** Wrong: $24\,000\div7$. Why it is wrong: divide by the number of books we know the cost of, which is $4$. Right: $24\,000\div4=6\,000$.
+- **Forgetting the unit.** Wrong: "Answer: $42\,000$". Right: "Answer: $42\,000$ dong".
+:::
+
+## Key terms
+
+  :::terms
+  - unitary method | rút về đơn vị
+  - one unit | một đơn vị
+  - cost | giá tiền
+  - division | phép chia
+  - multiplication | phép nhân
+  - word problem | bài toán có lời văn
+  - distance | quãng đường
+  :::
+
+## Summary
+
+[[P13·240d]]
+- The unitary method has two steps: find the value of one unit (divide), then find the value asked for.
+- To find the value of a different number of units, step 2 is a multiplication.
+- To find how many we can get for some money, step 2 is a division.
+- Example: $24\,000\div4=6\,000$, then $6\,000\times7=42\,000$.
+- Write the unit in every calculation and in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/what-is-a-fraction – BẢN TIẾNG VIỆT ########
+---
+title: Khái niệm phân số
+description: Em học phân số là gì, đọc và viết phân số, biết tử số và mẫu số, và biểu diễn phân số bằng hình và trên trục số.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu phân số chỉ một hay nhiều phần trong các phần bằng nhau của một cái nguyên.
+  - Đọc, viết phân số và nhận ra tử số, mẫu số.
+  - Biểu diễn phân số bằng hình và trên trục số.
+  :::
+
+[[P1·8bd7]]
+Một chiếc bánh pizza được cắt thành $4$ phần bằng nhau. Lan ăn $1$ phần, Nam ăn $3$ phần. Mỗi bạn ăn mấy phần của chiếc bánh? Có phải ta viết được bằng một số không?
+
+[[P2·ef1f]]
+Số tự nhiên không viết được "một phần tư" hay "ba phần tư". Bài này dạy em một loại số mới để viết các phần của một cái nguyên.
+
+## Cùng khám phá
+
+[[P3·3c4d]]
+Ta làm từng bước nhỏ.
+
+[[P4·fdcf]]
+- Chiếc bánh được cắt thành $4$ phần **bằng nhau**. Số $4$ cho biết chiếc bánh có bao nhiêu phần bằng nhau.
+- Lan ăn $1$ phần. Ta viết số phần Lan ăn là $\dfrac{1}{4}$, đọc là "một phần tư".
+- Nam ăn $3$ phần. Ta viết $\dfrac{3}{4}$, đọc là "ba phần tư".
+- Lan và Nam ăn cả $4$ phần, tức ăn hết cả chiếc bánh. Ta viết $\dfrac{4}{4}=1$.
+
+[[P5·f55c]]
+Ta cũng đặt các phân số lên trục số. Đoạn từ $0$ đến $1$ được chia thành $4$ phần bằng nhau, mỗi phần là $\dfrac{1}{4}$.
+
+:::graph Trục số: đoạn từ 0 đến 1 chia thành 4 phần bằng nhau
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Phân số
+  Chia một cái nguyên thành $b$ phần bằng nhau, lấy $a$ phần. Số phần đã lấy được viết là $\dfrac{a}{b}$ và gọi là một **phân số**.
+
+  Số $a$ ở trên gọi là **tử số**. Số $b$ ở dưới gọi là **mẫu số**. Mẫu số không bao giờ bằng $0$.
+  :::
+
+[[P6·fc3f]]
+Mẫu số cho biết cái nguyên được chia thành bao nhiêu phần bằng nhau. Tử số cho biết ta lấy bao nhiêu phần.
+
+## Ví dụ
+
+[[P7·12e9]]
+Ta bắt đầu với việc viết phân số cho một hình.
+
+  :::example Viết phân số từ hình
+  Một chiếc bánh được cắt thành $8$ phần bằng nhau. Mai ăn $3$ phần. Viết phân số chỉ phần bánh Mai đã ăn.
+
+  ![Chiếc bánh tròn chia tám phần bằng nhau, ba phần chỉ còn viền nét đứt](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
+  **Lời giải.** Cái nguyên chia thành $8$ phần bằng nhau, nên mẫu số là $8$. Mai lấy $3$ phần, nên tử số là $3$:
+  $$\frac{3}{8}.$$
+  Vậy Mai ăn $\dfrac{3}{8}$ chiếc bánh.
+  :::
+
+[[P8·fa15]]
+Bây giờ em đọc phân số và chỉ ra tử số, mẫu số.
+
+  :::example Đọc phân số
+  Đọc phân số $\dfrac{5}{6}$, rồi cho biết tử số và mẫu số. Viết phân số "bảy phần chín".
+
+  **Lời giải.** Phân số $\dfrac{5}{6}$ đọc là "năm phần sáu". Tử số là $5$ (ở trên) và mẫu số là $6$ (ở dưới). Phân số "bảy phần chín" có tử số $7$ và mẫu số $9$:
+  $$\frac{7}{9}.$$
+  :::
+
+[[P9·7bca]]
+Ta cũng có thể viết phân số cho phần chưa lấy.
+
+  :::example Phần còn lại
+  Một hình vuông được chia thành $6$ phần bằng nhau, tô màu $5$ phần. Viết phân số chỉ phần đã tô và phân số chỉ phần chưa tô.
+
+  ![Hình vuông chia thành sáu phần bằng nhau, năm phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-02.svg)
+
+  **Lời giải.** Mẫu số vẫn là $6$ vì cái nguyên chia thành $6$ phần. Phần đã tô là $5$ phần, phần chưa tô là $6-5=1$ phần:
+  $$\frac{5}{6}\ \text{(đã tô)},\qquad \frac{1}{6}\ \text{(chưa tô)}.$$
+  **Kiểm tra.** $5$ phần và $1$ phần là $6$ phần, tức cả hình: $\dfrac{5}{6}$ và $\dfrac{1}{6}$ ghép lại thành cả hình.
+  :::
+
+[[P10·f275]]
+Cuối cùng, ta đánh dấu một phân số trên trục số.
+
+  :::example Phân số trên trục số
+  Trên trục số, đoạn từ $0$ đến $1$ chia thành $4$ phần bằng nhau. Điểm nào biểu diễn $\dfrac{3}{4}$?
+
+  **Lời giải.** Mẫu số $4$ cho biết chia đoạn thành $4$ phần. Từ $0$, ta đi qua $3$ phần theo thứ tự $\dfrac{1}{4}$, $\dfrac{2}{4}$, $\dfrac{3}{4}$. Điểm thứ ba sau $0$ biểu diễn $\dfrac{3}{4}$, nằm trước điểm $1$ một phần.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·aa46]]
+- **Các phần không bằng nhau.** Sai: cắt chiếc bánh thành $4$ phần to nhỏ khác nhau rồi nói mỗi phần là $\dfrac{1}{4}$. Vì sao sai: phân số chỉ đúng khi các phần bằng nhau. Đúng: chia thành $4$ phần bằng nhau.
+- **Viết ngược tử số và mẫu số.** Sai: ăn $3$ phần trong $4$ phần viết là $\dfrac{4}{3}$. Vì sao sai: mẫu số là số phần cả cái nguyên. Đúng: $\dfrac{3}{4}$.
+- **Mẫu số bằng $0$.** Sai: $\dfrac{5}{0}$. Vì sao sai: không có cách chia thành $0$ phần. Đúng: mẫu số là số khác $0$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phân số | fraction
+  - tử số | numerator
+  - mẫu số | denominator
+  - phần bằng nhau | equal parts
+  - một phần tư | one quarter
+  - trục số | number line
+  - cái nguyên | whole
+  :::
+
+## Tóm tắt
+
+[[P12·4f47]]
+- Phân số $\dfrac{a}{b}$: cái nguyên chia thành $b$ phần bằng nhau, lấy $a$ phần.
+- Tử số $a$ ở trên, mẫu số $b$ ở dưới; mẫu số khác $0$.
+- Các phần phải bằng nhau.
+- Ví dụ: $\dfrac{3}{4}$ đọc là "ba phần tư".
+- Phân số có thể biểu diễn bằng hình hoặc bằng điểm trên trục số.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/what-is-a-fraction – BẢN TIẾNG ANH ########
+---
+title: The idea of a fraction
+description: Learn what a fraction is, how to read and write fractions, the numerator and denominator, and how to show fractions with shapes and on a number line.
+minutes: 15
+---
+
+  :::goals
+  - Understand that a fraction shows one or more of the equal parts of a whole.
+  - Read and write fractions, and name the numerator and denominator.
+  - Show fractions with shapes and on a number line.
+  :::
+
+[[P1·4713]]
+A pizza is cut into $4$ equal slices. Lan eats $1$ slice and Nam eats $3$ slices. What part of the pizza does each child eat? Can we write it as a number?
+
+[[P2·c00e]]
+Whole numbers cannot write "one quarter" or "three quarters". This lesson shows you a new kind of number for writing parts of a whole.
+
+## Let's explore
+
+[[P3·777d]]
+We go step by step.
+
+[[P4·08ca]]
+- The pizza is cut into $4$ **equal** slices. The number $4$ tells us how many equal parts the pizza has.
+- Lan eats $1$ slice. We write the part Lan eats as $\dfrac{1}{4}$, read "one quarter".
+- Nam eats $3$ slices. We write $\dfrac{3}{4}$, read "three quarters".
+- Together they eat all $4$ slices, which is the whole pizza. We write $\dfrac{4}{4}=1$.
+
+[[P5·03fb]]
+We can also put fractions on a number line. The stretch from $0$ to $1$ is cut into $4$ equal parts, and each part is $\dfrac{1}{4}$.
+
+:::graph A number line: the stretch from 0 to 1 cut into 4 equal parts
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Fraction
+  Cut a whole into $b$ equal parts and take $a$ of them. The part taken is written $\dfrac{a}{b}$ and is called a **fraction**.
+
+  The number $a$ on top is the **numerator**. The number $b$ underneath is the **denominator**. The denominator is never $0$.
+  :::
+
+[[P6·a05f]]
+The denominator tells us how many equal parts the whole is cut into. The numerator tells us how many parts we take.
+
+## Examples
+
+[[P7·fefe]]
+We start by writing a fraction for a shape.
+
+  :::example Writing a fraction from a picture
+  A cake is cut into $8$ equal pieces. Mai eats $3$ pieces. Write the fraction that shows the part of the cake Mai ate.
+
+  ![A round cake divided into eight equal slices, with three shown only as dashed outlines](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
+  **Solution.** The whole is cut into $8$ equal parts, so the denominator is $8$. Mai takes $3$ parts, so the numerator is $3$:
+  $$\frac{3}{8}.$$
+  So Mai ate $\dfrac{3}{8}$ of the cake.
+  :::
+
+[[P8·ef55]]
+Now you read a fraction and name its numerator and denominator.
+
+  :::example Reading a fraction
+  Read the fraction $\dfrac{5}{6}$, then name its numerator and denominator. Write the fraction "seven ninths".
+
+  **Solution.** The fraction $\dfrac{5}{6}$ is read "five sixths". The numerator is $5$ (on top) and the denominator is $6$ (underneath). The fraction "seven ninths" has numerator $7$ and denominator $9$:
+  $$\frac{7}{9}.$$
+  :::
+
+[[P9·2031]]
+We can also write a fraction for the part that is left.
+
+  :::example The part left over
+  A square is cut into $6$ equal parts and $5$ parts are coloured in. Write the fraction for the coloured part and the fraction for the part that is not coloured.
+
+  ![A square divided into six equal parts with five shaded](/assets/img/g4/g4-what-is-a-fraction-02.svg)
+
+  **Solution.** The denominator stays $6$ because the whole is cut into $6$ parts. The coloured part is $5$ parts, and the part not coloured is $6-5=1$ part:
+  $$\frac{5}{6}\ \text{(coloured)},\qquad \frac{1}{6}\ \text{(not coloured)}.$$
+  **Check.** $5$ parts and $1$ part make $6$ parts, the whole square: $\dfrac{5}{6}$ and $\dfrac{1}{6}$ together make the whole.
+  :::
+
+[[P10·0f34]]
+Finally, we mark a fraction on a number line.
+
+  :::example A fraction on a number line
+  On a number line, the stretch from $0$ to $1$ is cut into $4$ equal parts. Which point shows $\dfrac{3}{4}$?
+
+  **Solution.** The denominator $4$ tells us to cut the stretch into $4$ parts. From $0$ we move through $3$ parts, passing $\dfrac{1}{4}$, $\dfrac{2}{4}$, $\dfrac{3}{4}$. The third point after $0$ shows $\dfrac{3}{4}$, which is one part before the point $1$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·c789]]
+- **Parts that are not equal.** Wrong: cutting a cake into $4$ pieces of different sizes and calling each piece $\dfrac{1}{4}$. Why it is wrong: a fraction works only when the parts are equal. Right: cut it into $4$ equal pieces.
+- **Writing the numerator and denominator the wrong way round.** Wrong: $3$ parts eaten out of $4$ written as $\dfrac{4}{3}$. Why it is wrong: the denominator is the number of parts in the whole. Right: $\dfrac{3}{4}$.
+- **A denominator of $0$.** Wrong: $\dfrac{5}{0}$. Why it is wrong: we cannot cut a whole into $0$ parts. Right: the denominator is a number that is not $0$.
+:::
+
+## Key terms
+
+  :::terms
+  - fraction | phân số
+  - numerator | tử số
+  - denominator | mẫu số
+  - equal parts | phần bằng nhau
+  - one quarter | một phần tư
+  - number line | trục số
+  - whole | cái nguyên
+  :::
+
+## Summary
+
+[[P12·9205]]
+- The fraction $\dfrac{a}{b}$: a whole cut into $b$ equal parts, with $a$ parts taken.
+- The numerator $a$ is on top and the denominator $b$ underneath; the denominator is not $0$.
+- The parts must be equal.
+- Example: $\dfrac{3}{4}$ is read "three quarters".
+- A fraction can be shown with a shape or as a point on a number line.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

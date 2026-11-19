@@ -1,0 +1,1870 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-04-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-04-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/max-min-values, g12/monotonicity-extrema, g12/plane-equation, g12/practice-paper-thpt-1
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath112-04-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath112-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-04-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/max-min-values – BẢN TIẾNG VIỆT ########
+---
+title: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số
+description: Tìm giá trị lớn nhất, nhỏ nhất của hàm số trên một đoạn bằng cách so sánh các giá trị tới hạn và đầu mút, và trên một khoảng bằng bảng biến thiên.
+minutes: 22
+---
+
+  :::goals
+  - Hiểu giá trị lớn nhất, giá trị nhỏ nhất của hàm số trên một tập và phân biệt với cực đại, cực tiểu.
+  - Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn $[a; b]$ bằng cách so sánh vài giá trị.
+  - Tìm giá trị lớn nhất, nhỏ nhất trên một khoảng bằng bảng biến thiên.
+  - Áp dụng cho hàm đa thức, phân thức, căn thức, lượng giác và bài toán thực tế.
+  :::
+
+[[P1·f5ea]]
+Nhiệt độ trong một phòng thí nghiệm được theo dõi trong $5$ giờ. Sau $t$ giờ, nhiệt độ là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. Lúc bắt đầu phòng có $20$ °C, sau $1$ giờ là $24$ °C, sau $3$ giờ lại về $20$ °C. Trong suốt $5$ giờ đó, nhiệt độ cao nhất và thấp nhất là bao nhiêu?
+
+[[P2·4176]]
+Bạn có thể nghĩ ngay đến cực đại $24$ °C lúc $t=1$. Nhưng câu trả lời không phải là $24$.
+
+[[P3·cf6f]]
+"Lớn nhất, nhỏ nhất" là câu hỏi đứng sau rất nhiều quyết định: chọn kích thước để tốn ít vật liệu nhất, chọn giá bán để lãi nhiều nhất, chọn tốc độ để đỡ tốn nhiên liệu nhất. Ở lớp 10, ta đã tìm giá trị lớn nhất của hàm bậc hai nhờ đỉnh parabol. Đạo hàm cho ta một cách làm chung cho mọi hàm số liên tục trên một đoạn.
+
+## Giá trị lớn nhất và giá trị nhỏ nhất
+
+### Khám phá: cực đại có phải là cao nhất?
+
+[[P4·63e7]]
+Ta tính nhiệt độ tại các giờ tròn:
+
+| $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|---|---|---|---|---|---|---|
+| $T(t)$ | $20$ | $24$ | $22$ | $20$ | $24$ | $40$ |
+
+[[P5·1902]]
+Đạo hàm $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ cho biết $T$ có cực đại $24$ tại $t=1$ và cực tiểu $20$ tại $t=3$. Thế nhưng đến cuối buổi, $T(5)=40$, cao hơn hẳn cực đại. Cực đại chỉ so với các thời điểm **gần** nó; còn "cao nhất" phải so với **mọi** thời điểm.
+
+:::graph Nhiệt độ phòng thí nghiệm $T(t)=t^3-6t^2+9t+20$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Giá trị lớn nhất, giá trị nhỏ nhất
+  Cho hàm số $y=f(x)$ xác định trên tập $D$.
+  - Số $M$ là **giá trị lớn nhất** của $f$ trên $D$ nếu $f(x)\le M$ với mọi $x\in D$ **và** có $x_0\in D$ sao cho $f(x_0)=M$. Kí hiệu $M=\max\limits_{D} f(x)$.
+  - Số $m$ là **giá trị nhỏ nhất** của $f$ trên $D$ nếu $f(x)\ge m$ với mọi $x\in D$ **và** có $x_0\in D$ sao cho $f(x_0)=m$. Kí hiệu $m=\min\limits_{D} f(x)$.
+  :::
+
+[[P6·5966]]
+Điều kiện "có $x_0$" rất quan trọng. Chẳng hạn $f(x)=x^2\le 4$ với mọi $x\in(0; 2)$, nhưng không có $x$ nào trong khoảng đó cho $f(x)=4$; vì vậy $4$ **không** phải giá trị lớn nhất của $f$ trên $(0; 2)$, và thực ra $f$ không có giá trị lớn nhất trên khoảng này.
+
+## Trên một đoạn
+
+  :::theorem Hàm số liên tục trên một đoạn
+  Mọi hàm số liên tục trên đoạn $[a; b]$ đều có giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.
+  :::
+
+[[P7·eb75]]
+Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu mút, hoặc tại một điểm bên trong mà đồ thị "quay đầu", tức là nơi $f'=0$ hoặc $f'$ không xác định. Ở mọi điểm khác bên trong, $f'$ khác $0$, nên hàm số vẫn đang tăng hoặc giảm và còn có giá trị lớn hơn ở gần đó. Vì vậy ta chỉ cần so sánh vài giá trị.
+
+[[P8·233f]]
+**Hiểu sâu hơn.** Vì sao cần cả hai điều kiện "liên tục" và "đoạn"? Nếu bỏ đầu mút, hàm $f(x)=x$ trên khoảng $(0; 1)$ tiến gần $1$ mà không bao giờ bằng $1$, nên không có giá trị lớn nhất. Nếu bỏ tính liên tục, hàm số $f(x)=\dfrac1x$ với $x\neq0$ và $f(0)=0$ xác định trên cả đoạn $[-1; 1]$, nhưng nhận giá trị lớn tuỳ ý khi $x$ dần về $0$ từ bên phải.
+
+[[P9·3e55]]
+**Kết nối.** Bài này dựa trên cực trị ở bài trước, và là bước then chốt của các bài toán tối ưu thực tế ở cuối chương. Các bước làm như sau:
+
+[[P10·cca8]]
+1. Tìm các điểm $x_1, x_2, \dots$ thuộc **khoảng** $(a; b)$ tại đó $f'(x)=0$ hoặc $f'(x)$ không xác định.
+2. Tính $f(a)$, $f(x_1)$, $f(x_2)$, …, $f(b)$.
+3. Số lớn nhất trong các số đó là $\max\limits_{[a; b]} f(x)$, số nhỏ nhất là $\min\limits_{[a; b]} f(x)$.
+
+  :::example Hàm bậc ba trên một đoạn
+  Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^3-3x+1$ trên đoạn $[0; 2]$.
+
+  **Lời giải.** Hàm số liên tục trên đoạn $[0; 2]$. Trên khoảng $(0; 2)$, ta có
+
+  $$f'(x)=3x^2-3=0\iff x=1\ \text{hoặc}\ x=-1\ (\text{loại vì } -1\notin(0; 2)).$$
+
+  Ta có
+
+  $$f(0)=1,\qquad f(1)=-1,\qquad f(2)=8-6+1=3.$$
+
+  Vậy $\max\limits_{[0; 2]} f(x)=3$ (tại $x=2$) và $\min\limits_{[0; 2]} f(x)=-1$ (tại $x=1$).
+  :::
+
+[[P11·6140]]
+Bước loại nghiệm nằm ngoài đoạn rất dễ quên. Ví dụ sau có một nghiệm bị loại và một nghiệm vô tỉ.
+
+  :::example Hàm bậc bốn
+  Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^4-4x^2+5$ trên đoạn $[-1; 3]$.
+
+  **Lời giải.** Hàm số liên tục trên đoạn $[-1; 3]$. Ta có
+
+  $$f'(x)=4x^3-8x=4x(x^2-2)=0\iff x\in\{0; \sqrt2; -\sqrt2\},\quad -\sqrt2\notin(-1; 3).$$
+
+  Với $x=\sqrt2$ ta có $x^2=2$ và $x^4=4$. Do đó
+
+  $$f(-1)=1-4+5=2,\quad f(0)=5,\quad f(\sqrt2)=4-8+5=1,\quad f(3)=81-36+5=50.$$
+
+  Vậy $\max\limits_{[-1; 3]} f(x)=50$ tại $x=3$ và $\min\limits_{[-1; 3]} f(x)=1$ tại $x=\sqrt2$.
+  :::
+
+[[P12·d385]]
+Với hàm chứa căn, ta giải phương trình $f'(x)=0$ cẩn thận, có điều kiện để bình phương.
+
+  :::example Hàm chứa căn
+  Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x+\sqrt{4-x^2}$.
+
+  **Lời giải.** Tập xác định: $[-2; 2]$; hàm số liên tục trên đoạn này. Trên khoảng $(-2; 2)$, ta có
+
+  $$f'(x)=1-\frac{x}{\sqrt{4-x^2}}=0\iff \sqrt{4-x^2}=x.$$
+
+  Điều kiện: $x\ge 0$. Bình phương hai vế, ta được
+
+  $$4-x^2=x^2\iff x^2=2\iff x=\sqrt2\quad(\text{vì } x\ge 0).$$
+
+  Ta có $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
+
+  Vậy giá trị lớn nhất là $2\sqrt2$ (tại $x=\sqrt2$), giá trị nhỏ nhất là $-2$ (tại $x=-2$).
+  :::
+
+[[P13·6d16]]
+Với hàm lượng giác, đặt ẩn phụ thường đưa bài toán về một đa thức trên một đoạn.
+
+  :::example Hàm lượng giác và ẩn phụ
+  Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=2\sin x+\cos 2x$ trên đoạn $[0; \pi]$.
+
+  **Lời giải.** Theo công thức nhân đôi, $\cos 2x=1-2\sin^2x$. Đặt $t=\sin x$, ta có
+
+  $$f(x)=2\sin x+1-2\sin^2 x=g(t)=-2t^2+2t+1.$$
+
+  Vì $x\in[0; \pi]$ nên $t=\sin x\in[0; 1]$ (do $\sin x\ge 0$ trên $[0; \pi]$), chứ không phải $[-1; 1]$. Xét hàm số $g$ trên đoạn $[0; 1]$, ta có
+
+  $$g'(t)=-4t+2=0\iff t=\frac12;\qquad g(0)=1,\quad g\left(\frac12\right)=\frac32,\quad g(1)=1.$$
+
+  Vậy $\max\limits_{[0; \pi]} f(x)=\dfrac32$ (khi $\sin x=\dfrac12$, tức $x=\dfrac{\pi}{6}$ hoặc $x=\dfrac{5\pi}{6}$) và $\min\limits_{[0; \pi]} f(x)=1$ (khi $x\in\left\{0; \dfrac{\pi}{2}; \pi\right\}$).
+
+  **Nhìn lại.** Nếu xét trên đoạn $[0; 2\pi]$ thì kết quả thay đổi thế nào? Khi đó $t=\sin x$ chạy trên cả đoạn $[-1; 1]$: giá trị lớn nhất vẫn là $\dfrac32$, nhưng giá trị nhỏ nhất trở thành $g(-1)=-3$ (tại $x=\dfrac{3\pi}{2}$). Miền giá trị của ẩn phụ quyết định đáp số.
+  :::
+
+## Trên một khoảng
+
+[[P14·daea]]
+Trên một khoảng (không chứa đầu mút), hàm số có thể **không có** giá trị lớn nhất hoặc nhỏ nhất. Khi đó ta lập bảng biến thiên và đọc kết quả từ bảng.
+
+  :::example Giá trị nhỏ nhất trên một khoảng
+  Tìm giá trị nhỏ nhất của $f(x)=x+\dfrac{9}{x}$ trên khoảng $(0; +\infty)$.
+
+  **Lời giải.** Ta có
+
+  $$f'(x)=1-\frac{9}{x^2}=\frac{(x-3)(x+3)}{x^2},\qquad f'(x)=0\iff x=3\ \ (x>0).$$
+
+  Vì $x>0$ nên $f'$ cùng dấu với $x-3$. Ta có $f(x)\to+\infty$ khi $x\to0^+$ và khi $x\to+\infty$. Bảng biến thiên:
+
+  | $x$ | $0$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|
+  | $f'(x)$ | | $-$ | $0$ | $+$ | |
+  | $f(x)$ | $+\infty$ | $\searrow$ | $6$ | $\nearrow$ | $+\infty$ |
+
+  Vậy $\min\limits_{(0; +\infty)} f(x)=f(3)=6$, còn $f$ không có giá trị lớn nhất trên $(0; +\infty)$.
+  :::
+
+:::graph Đồ thị $y=x+\dfrac{9}{x}$ với $x>0$
+   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài toán thực tế
+
+[[P15·7420]]
+Bây giờ ta trả lời câu hỏi về nhiệt độ ở đầu bài. Trong bài toán thực tế, đầu mút của đoạn thường là thời điểm bắt đầu và kết thúc, nên không được bỏ qua.
+
+  :::example Nhiệt độ cao nhất và thấp nhất
+  Nhiệt độ phòng là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$ (giờ). Tìm nhiệt độ cao nhất và thấp nhất trong $5$ giờ.
+
+  **Lời giải.** Hàm số $T$ liên tục trên đoạn $[0; 5]$. Trên khoảng $(0; 5)$, ta có
+
+  $$T'(t)=3(t-1)(t-3)=0\iff t=1\ \text{hoặc}\ t=3;\qquad T(0)=20,\ T(1)=24,\ T(3)=20,\ T(5)=40.$$
+
+  Vậy nhiệt độ cao nhất là $40$ °C (lúc kết thúc, $t=5$), thấp nhất là $20$ °C (lúc bắt đầu và lúc $t=3$ giờ).
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P16·0695]]
+- **Lấy cực đại làm giá trị lớn nhất.** Sai: "$T$ đạt cực đại $24$ nên nhiệt độ cao nhất là $24$ °C". Lí do sai: chưa so sánh với đầu mút, mà $T(5)=40$. Đúng: luôn tính cả $f(a)$ và $f(b)$.
+- **Giữ nghiệm nằm ngoài đoạn.** Sai: tìm giá trị nhỏ nhất của $x^3-3x+1$ trên $[0; 2]$ mà tính cả $f(-1)=3$. Lí do sai: $-1$ không thuộc đoạn đang xét. Đúng: chỉ xét nghiệm thuộc $(a; b)$.
+- **Sai miền của ẩn phụ.** Sai: đặt $t=\sin x$ với $x\in[0; \pi]$ rồi xét $t\in[-1; 1]$, được giá trị nhỏ nhất $g(-1)=-3$. Lí do sai: trên $[0; \pi]$ thì $\sin x\ge 0$. Đúng: $t\in[0; 1]$, giá trị nhỏ nhất là $1$.
+- **Nói có giá trị lớn nhất khi không đạt được.** Sai: "$x+\dfrac9x$ có giá trị lớn nhất là $+\infty$". Lí do sai: $+\infty$ không phải là một số và không có $x$ nào cho giá trị đó. Đúng: hàm số không có giá trị lớn nhất trên $(0; +\infty)$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - giá trị lớn nhất | maximum (greatest) value
+  - giá trị nhỏ nhất | minimum (least) value
+  - đoạn | closed interval
+  - khoảng | open interval
+  - đầu mút | endpoint
+  - điểm tới hạn | critical point
+  - hàm số liên tục | continuous function
+  - ẩn phụ | substitution (new variable)
+  :::
+
+## Tóm tắt
+
+[[P17·3259]]
+- $M=\max\limits_D f$ khi $f(x)\le M$ với mọi $x\in D$ **và** $M$ đạt được tại một điểm của $D$. Tương tự với $\min$.
+- Hàm liên tục trên đoạn $[a; b]$ luôn có giá trị lớn nhất và nhỏ nhất.
+- Trên đoạn: tìm nghiệm của $f'$ (và điểm $f'$ không xác định) **trong** $(a; b)$ → tính $f$ tại đó và tại $a$, $b$ → so sánh.
+- Trên khoảng: lập bảng biến thiên; có thể không có giá trị lớn nhất hoặc nhỏ nhất.
+- Đặt ẩn phụ thì phải tìm đúng miền giá trị của ẩn phụ.
+
+## Luyện tập
+
+[[P18·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/max-min-values – BẢN TIẾNG ANH ########
+---
+title: Maximum and minimum values
+description: Find the maximum and minimum of a function on a closed interval by comparing critical points and endpoints, and on an open interval with a table of variations.
+minutes: 22
+---
+
+  :::goals
+  - Understand the maximum and minimum value of a function on a set, and tell them apart from local maxima and minima.
+  - Find the maximum and minimum on a closed interval $[a, b]$ by comparing a few values.
+  - Find the maximum and minimum on an open interval with a table of variations.
+  - Apply this to polynomial, rational, square-root and trigonometric functions and to real-life problems.
+  :::
+
+[[P1·f094]]
+The temperature in a laboratory is monitored for $5$ hours. After $t$ hours, it is $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$. At the start the room is at $20$ °C, after $1$ hour it is $24$ °C, and after $3$ hours it is back at $20$ °C. Over those $5$ hours, what are the highest and the lowest temperatures?
+
+[[P2·3816]]
+You might think straight away of the local maximum $24$ °C at $t=1$. But the answer is not $24$.
+
+[[P3·0f26]]
+"Greatest or least" is the question behind many decisions: choosing a size that uses the least material, a price that gives the most profit, a speed that uses the least fuel. In grade 10 we found the maximum of a quadratic from the vertex of the parabola. The derivative gives one method for every function that is continuous on a closed interval.
+
+## Maximum and minimum values
+
+### Explore: is a local maximum the highest value?
+
+[[P4·62b9]]
+We compute the temperature at whole hours:
+
+| $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|---|---|---|---|---|---|---|
+| $T(t)$ | $20$ | $24$ | $22$ | $20$ | $24$ | $40$ |
+
+[[P5·2853]]
+The derivative $T'(t)=3t^2-12t+9=3(t-1)(t-3)$ tells us that $T$ has a local maximum of $24$ at $t=1$ and a local minimum of $20$ at $t=3$. Yet by the end of the session, $T(5)=40$, far above the local maximum. A local maximum is compared only with the moments **near** it; "the highest" must be compared with **every** moment.
+
+:::graph Laboratory temperature $T(t)=t^3-6t^2+9t+20$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Maximum value and minimum value
+  Let $y=f(x)$ be defined on a set $D$.
+  - A number $M$ is the **maximum value** (greatest value) of $f$ on $D$ if $f(x)\le M$ for every $x\in D$ **and** there is $x_0\in D$ with $f(x_0)=M$. We write $M=\max\limits_{D} f(x)$.
+  - A number $m$ is the **minimum value** (least value) of $f$ on $D$ if $f(x)\ge m$ for every $x\in D$ **and** there is $x_0\in D$ with $f(x_0)=m$. We write $m=\min\limits_{D} f(x)$.
+  :::
+
+[[P6·9144]]
+The condition "there is $x_0$" matters. For example, $f(x)=x^2\le 4$ for every $x\in(0, 2)$, but no $x$ in that interval gives $f(x)=4$; so $4$ is **not** the maximum value of $f$ on $(0, 2)$, and in fact $f$ has no maximum value on this interval.
+
+## On a closed interval
+
+  :::theorem A continuous function on a closed interval
+  Every function that is continuous on a closed interval $[a, b]$ has a maximum value and a minimum value on that interval.
+  :::
+
+[[P7·c3aa]]
+The maximum can only be reached in two places: at an endpoint, or at an interior point where the graph "turns round", that is, where $f'=0$ or $f'$ is undefined. At any other interior point, $f'$ is not zero, so the function is still increasing or decreasing and there is a larger value nearby. So we only need to compare a few values.
+
+[[P8·915f]]
+**A closer look.** Why do we need both conditions, "continuous" and "closed interval"? Without the endpoints, $f(x)=x$ on the open interval $(0, 1)$ gets close to $1$ but never equals $1$, so it has no maximum value. Without continuity, the function with $f(x)=\dfrac1x$ for $x\neq0$ and $f(0)=0$ is defined on the whole of $[-1, 1]$, but takes arbitrarily large values as $x$ tends to $0$ from the right.
+
+[[P9·f776]]
+**Connections.** This lesson builds on the extrema of the previous lesson, and it is the key step in the real-life optimisation problems at the end of the chapter. The method is:
+
+[[P10·4d5e]]
+1. Find the points $x_1, x_2, \dots$ in the **open interval** $(a, b)$ where $f'(x)=0$ or $f'(x)$ is undefined.
+2. Compute $f(a)$, $f(x_1)$, $f(x_2)$, …, $f(b)$.
+3. The largest of these numbers is $\max\limits_{[a, b]} f(x)$, and the smallest is $\min\limits_{[a, b]} f(x)$.
+
+  :::example A cubic on a closed interval
+  Find the maximum and minimum values of $f(x)=x^3-3x+1$ on $[0, 2]$.
+
+  **Solution.** The function is continuous on $[0, 2]$. On the interval $(0, 2)$, we have
+
+  $$f'(x)=3x^2-3=0\iff x=1\ \text{or}\ x=-1\ (\text{rejected since } -1\notin(0, 2)).$$
+
+  We have
+
+  $$f(0)=1,\qquad f(1)=-1,\qquad f(2)=8-6+1=3.$$
+
+  So $\max\limits_{[0, 2]} f(x)=3$ (at $x=2$) and $\min\limits_{[0, 2]} f(x)=-1$ (at $x=1$).
+  :::
+
+[[P11·bf38]]
+Rejecting a root outside the interval is an easy step to forget. The next example has one rejected root and one irrational root.
+
+  :::example A quartic
+  Find the maximum and minimum values of $f(x)=x^4-4x^2+5$ on $[-1, 3]$.
+
+  **Solution.** The function is continuous on $[-1, 3]$. We have
+
+  $$f'(x)=4x^3-8x=4x(x^2-2)=0\iff x\in\{0, \sqrt2, -\sqrt2\},\quad -\sqrt2\notin(-1, 3).$$
+
+  For $x=\sqrt2$ we have $x^2=2$ and $x^4=4$. Hence
+
+  $$f(-1)=1-4+5=2,\quad f(0)=5,\quad f(\sqrt2)=4-8+5=1,\quad f(3)=81-36+5=50.$$
+
+  So $\max\limits_{[-1, 3]} f(x)=50$ at $x=3$ and $\min\limits_{[-1, 3]} f(x)=1$ at $x=\sqrt2$.
+  :::
+
+[[P12·c953]]
+With a square root, we solve $f'(x)=0$ carefully, with a condition before squaring.
+
+  :::example A function with a square root
+  Find the maximum and minimum values of $f(x)=x+\sqrt{4-x^2}$.
+
+  **Solution.** The domain is $[-2, 2]$, and the function is continuous on it. On the interval $(-2, 2)$, we have
+
+  $$f'(x)=1-\frac{x}{\sqrt{4-x^2}}=0\iff \sqrt{4-x^2}=x.$$
+
+  Condition: $x\ge 0$. Squaring both sides, we get
+
+  $$4-x^2=x^2\iff x^2=2\iff x=\sqrt2\quad(\text{since } x\ge 0).$$
+
+  We have $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
+
+  So the maximum value is $2\sqrt2$ (at $x=\sqrt2$) and the minimum value is $-2$ (at $x=-2$).
+  :::
+
+[[P13·3037]]
+With a trigonometric function, a substitution often turns the problem into a polynomial on a closed interval.
+
+  :::example A trigonometric function and a substitution
+  Find the maximum and minimum values of $f(x)=2\sin x+\cos 2x$ on $[0, \pi]$.
+
+  **Solution.** By the double-angle formula, $\cos 2x=1-2\sin^2x$. Letting $t=\sin x$, we have
+
+  $$f(x)=2\sin x+1-2\sin^2 x=g(t)=-2t^2+2t+1.$$
+
+  Since $x\in[0, \pi]$, $t=\sin x\in[0, 1]$ (because $\sin x\ge 0$ on $[0, \pi]$), not $[-1, 1]$. Considering $g$ on $[0, 1]$, we have
+
+  $$g'(t)=-4t+2=0\iff t=\frac12;\qquad g(0)=1,\quad g\left(\frac12\right)=\frac32,\quad g(1)=1.$$
+
+  So $\max\limits_{[0, \pi]} f(x)=\dfrac32$ (when $\sin x=\dfrac12$, that is $x=\dfrac{\pi}{6}$ or $x=\dfrac{5\pi}{6}$) and $\min\limits_{[0, \pi]} f(x)=1$ (when $x\in\left\{0, \dfrac{\pi}{2}, \pi\right\}$).
+
+  **Look back.** What changes on the interval $[0, 2\pi]$? Then $t=\sin x$ runs over the whole of $[-1, 1]$: the maximum value is still $\dfrac32$, but the minimum value becomes $g(-1)=-3$ (at $x=\dfrac{3\pi}{2}$). The range of the new variable decides the answer.
+  :::
+
+## On an open interval
+
+[[P14·4b55]]
+On an open interval (with no endpoints), a function may have **no** maximum or no minimum value. Then we draw the table of variations and read the result from it.
+
+  :::example A minimum on an open interval
+  Find the minimum value of $f(x)=x+\dfrac{9}{x}$ on $(0, +\infty)$.
+
+  **Solution.** We have
+
+  $$f'(x)=1-\frac{9}{x^2}=\frac{(x-3)(x+3)}{x^2},\qquad f'(x)=0\iff x=3\ \ (x>0).$$
+
+  Since $x>0$, $f'$ has the same sign as $x-3$. We have $f(x)\to+\infty$ as $x\to0^+$ and as $x\to+\infty$. The table of variations:
+
+  | $x$ | $0$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|
+  | $f'(x)$ | | $-$ | $0$ | $+$ | |
+  | $f(x)$ | $+\infty$ | $\searrow$ | $6$ | $\nearrow$ | $+\infty$ |
+
+  So $\min\limits_{(0, +\infty)} f(x)=f(3)=6$, and $f$ has no maximum value on $(0, +\infty)$.
+  :::
+
+:::graph The graph of $y=x+\dfrac{9}{x}$ for $x>0$
+   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Real-life problems
+
+[[P15·8284]]
+Now we answer the temperature question from the start. In real-life problems the endpoints are often the start and the end of a period, so they must not be ignored.
+
+  :::example Highest and lowest temperature
+  The room temperature is $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$ (hours). Find the highest and lowest temperatures over the $5$ hours.
+
+  **Solution.** The function $T$ is continuous on $[0, 5]$. On the interval $(0, 5)$, we have
+
+  $$T'(t)=3(t-1)(t-3)=0\iff t=1\ \text{or}\ t=3;\qquad T(0)=20,\ T(1)=24,\ T(3)=20,\ T(5)=40.$$
+
+  So the highest temperature is $40$ °C (at the end, $t=5$) and the lowest is $20$ °C (at the start and at $t=3$ hours).
+  :::
+
+:::warning Common mistakes
+[[P16·d4f2]]
+- **Taking a local maximum as the maximum.** Wrong: "$T$ has a local maximum of $24$, so the highest temperature is $24$ °C". Why it is wrong: the endpoints were not compared, and $T(5)=40$. Right: always compute $f(a)$ and $f(b)$ as well.
+- **Keeping a root outside the interval.** Wrong: finding the minimum of $x^3-3x+1$ on $[0, 2]$ and including $f(-1)=3$. Why it is wrong: $-1$ is not in the interval. Right: only use roots in $(a, b)$.
+- **The wrong range for a substitution.** Wrong: putting $t=\sin x$ for $x\in[0, \pi]$ and then using $t\in[-1, 1]$, giving the minimum $g(-1)=-3$. Why it is wrong: on $[0, \pi]$, $\sin x\ge 0$. Right: $t\in[0, 1]$ and the minimum is $1$.
+- **Claiming a maximum that is never reached.** Wrong: "$x+\dfrac9x$ has maximum value $+\infty$". Why it is wrong: $+\infty$ is not a number and no $x$ gives it. Right: the function has no maximum value on $(0, +\infty)$.
+:::
+
+## Key terms
+
+  :::terms
+  - maximum (greatest) value | giá trị lớn nhất
+  - minimum (least) value | giá trị nhỏ nhất
+  - closed interval | đoạn
+  - open interval | khoảng
+  - endpoint | đầu mút
+  - critical point | điểm tới hạn
+  - continuous function | hàm số liên tục
+  - substitution (new variable) | ẩn phụ
+  :::
+
+## Summary
+
+[[P17·c55a]]
+- $M=\max\limits_D f$ when $f(x)\le M$ for every $x\in D$ **and** $M$ is reached at some point of $D$. Likewise for $\min$.
+- A function continuous on $[a, b]$ always has a maximum and a minimum value there.
+- On a closed interval: roots of $f'$ (and points where $f'$ is undefined) **inside** $(a, b)$ → compute $f$ there and at $a$, $b$ → compare.
+- On an open interval: draw the table of variations; there may be no maximum or no minimum.
+- After a substitution, find the correct range of the new variable.
+
+## Practice
+
+[[P18·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/monotonicity-extrema – BẢN TIẾNG VIỆT ########
+---
+title: Tính đơn điệu và cực trị của hàm số
+description: Dùng dấu của đạo hàm để tìm khoảng đồng biến, nghịch biến và các điểm cực đại, cực tiểu của hàm đa thức, phân thức và lượng giác.
+minutes: 24
+---
+
+  :::goals
+  - Tìm các khoảng đồng biến, nghịch biến của hàm số bằng dấu của đạo hàm.
+  - Lập bảng biến thiên và tìm cực đại, cực tiểu bằng dấu hiệu đổi dấu của $f'$.
+  - Dùng đạo hàm cấp hai để nhận biết cực trị khi cần.
+  - Áp dụng vào hàm bậc ba, bậc bốn, phân thức và bài toán thực tế.
+  :::
+
+[[P1·1742]]
+Một chiếc flycam bay trong $7$ phút. Độ cao của nó sau $t$ phút là $h(t)=t^3-12t^2+36t+10$ (mét). Lúc cất cánh từ nóc nhà nó ở độ cao $10$ m, sau $2$ phút ở $42$ m, sau $6$ phút lại xuống còn $10$ m, rồi lên $17$ m khi hết giờ. Vậy trong khoảng thời gian nào flycam đang lên cao, trong khoảng nào đang hạ xuống, và nó "đổi chiều" ở những thời điểm nào?
+
+[[P2·aa99]]
+Để trả lời chính xác, ta không cần tính độ cao ở thật nhiều thời điểm. Chỉ cần biết dấu của đạo hàm $h'(t)$.
+
+[[P3·8243]]
+Câu hỏi "đang lên hay đang xuống" gặp ở khắp nơi: mực nước sông đang dâng hay đang rút, nhiệt độ của người bệnh đã bắt đầu hạ chưa, giá một mặt hàng đang tăng hay giảm. Ở lớp 11, ta đã biết $h'(t)$ là vận tốc tức thời, tức là tốc độ thay đổi độ cao ngay tại thời điểm $t$. Bài này biến nhận xét đơn giản "vận tốc dương thì đang đi lên" thành một công cụ chính xác.
+
+## Tính đơn điệu
+
+### Khám phá: khi nào đồ thị đi lên?
+
+[[P4·d3b2]]
+Ta tính độ cao tại các phút tròn và đạo hàm $h'(t)=3t^2-24t+36=3(t-2)(t-6)$:
+
+| $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |
+|---|---|---|---|---|---|---|---|---|
+| $h(t)$ | $10$ | $35$ | $42$ | $37$ | $26$ | $15$ | $10$ | $17$ |
+| $h'(t)$ | $36$ | $15$ | $0$ | $-9$ | $-12$ | $-9$ | $0$ | $15$ |
+
+[[P5·47c3]]
+Từ $t=0$ đến $t=2$ độ cao tăng và $h'>0$. Từ $t=2$ đến $t=6$ độ cao giảm và $h'<0$. Sau $t=6$ độ cao lại tăng và $h'>0$. Điều này hợp lí: $h'(t)$ là hệ số góc của tiếp tuyến, hệ số góc dương thì đồ thị đi lên.
+
+:::graph Độ cao của flycam $h(t)=t^3-12t^2+36t+10$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Hàm số đồng biến, nghịch biến
+  Cho hàm số $y=f(x)$ xác định trên khoảng $K$.
+  - $f$ **đồng biến** (tăng) trên $K$ nếu với mọi $x_1<x_2$ thuộc $K$ ta có $f(x_1)<f(x_2)$.
+  - $f$ **nghịch biến** (giảm) trên $K$ nếu với mọi $x_1<x_2$ thuộc $K$ ta có $f(x_1)>f(x_2)$.
+
+  Hàm số đồng biến hoặc nghịch biến trên $K$ được gọi chung là **đơn điệu** trên $K$.
+  :::
+
+  :::theorem Dấu của đạo hàm và tính đơn điệu
+  Cho $f$ có đạo hàm trên khoảng $K$.
+  - Nếu $f'(x)>0$ với mọi $x\in K$ thì $f$ đồng biến trên $K$.
+  - Nếu $f'(x)<0$ với mọi $x\in K$ thì $f$ nghịch biến trên $K$.
+  - Nếu $f'(x)\ge 0$ (hoặc $f'(x)\le 0$) với mọi $x\in K$ và $f'(x)=0$ chỉ tại hữu hạn điểm, thì $f$ vẫn đồng biến (nghịch biến) trên $K$.
+  :::
+
+[[P6·5c8c]]
+Vì sao định lí đúng? Đạo hàm $f'(x)$ là giới hạn của tỉ số $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$. Nếu đồ thị có tiếp tuyến dốc lên ở **mọi** điểm của $K$ thì nó không thể đi xuống ở đâu trong $K$. Một vài điểm có tiếp tuyến nằm ngang (như $y=x^3$ tại $x=0$) không làm đồ thị quay đầu.
+
+[[P7·ca00]]
+**Hiểu sâu hơn.** Định lí cho phép đi từ thông tin *tại từng điểm* (độ dốc) đến kết luận *trên cả khoảng*. Điều này chỉ đúng trên một khoảng liền. Hàm số $y=-\dfrac1x$ có $y'=\dfrac{1}{x^2}>0$ tại mọi điểm của tập xác định, nhưng $y(-1)=1>y(1)=-1$. Vì tập xác định bị "đứt" tại $x=0$ nên ta chỉ kết luận được hàm số đồng biến trên từng khoảng $(-\infty; 0)$ và $(0; +\infty)$.
+
+[[P8·cb9e]]
+**Kết nối.** Bài này dùng đạo hàm (lớp 11) và dấu của tam thức bậc hai (lớp 10). Khoảng đơn điệu và cực trị là nguyên liệu chính cho các bài tiếp theo: tìm giá trị lớn nhất, nhỏ nhất, khảo sát và vẽ đồ thị, giải các bài toán tối ưu trong thực tế.
+
+[[P9·966f]]
+Để xét tính đơn điệu, ta làm theo thứ tự:
+
+[[P10·8dde]]
+1. Tìm tập xác định.
+2. Tính $f'(x)$, tìm các điểm làm $f'(x)=0$ hoặc $f'(x)$ không xác định.
+3. Lập bảng biến thiên: xét dấu $f'$ trên từng khoảng.
+4. Kết luận các khoảng đồng biến, nghịch biến.
+
+  :::example Hàm bậc ba
+  Tìm các khoảng đơn điệu của hàm số $y=x^3-6x^2+9x+1$.
+
+  **Lời giải.** Tập xác định của hàm số là $\mathbb{R}$. Ta có
+
+  $$y'=3x^2-12x+9=3(x-1)(x-3),\qquad y'=0\iff x=1\ \text{hoặc}\ x=3.$$
+
+  Vì tam thức $y'$ có $a=3>0$ nên $y'$ dương ở ngoài hai nghiệm, âm ở giữa hai nghiệm. Ta có $y(1)=5$, $y(3)=1$. Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $1$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $5$ | $\searrow$ | $1$ | $\nearrow$ | $+\infty$ |
+
+  Vậy hàm số đồng biến trên các khoảng $(-\infty; 1)$ và $(3; +\infty)$, nghịch biến trên khoảng $(1; 3)$.
+  :::
+
+[[P11·7665]]
+Ví dụ tiếp theo cho thấy $f'(x_0)=0$ chưa chắc làm hàm số đổi chiều.
+
+  :::example Đạo hàm bằng $0$ tại một điểm
+  Chứng minh rằng hàm số $y=x^3-3x^2+3x+5$ đồng biến trên $\mathbb{R}$.
+
+  **Lời giải.** Ta có
+
+  $$y'=3x^2-6x+3=3(x-1)^2\ge 0\quad\text{với mọi } x,\ \text{và } y'=0 \iff x=1.$$
+
+  Vì $y'$ không âm và chỉ bằng $0$ tại $x=1$ (tại đó tiếp tuyến nằm ngang) nên theo phần thứ ba của định lí, hàm số đồng biến trên $\mathbb{R}$.
+
+  Vậy hàm số đồng biến trên $\mathbb{R}$.
+  :::
+
+## Cực trị của hàm số
+
+[[P12·d2c4]]
+Trong bài toán flycam, thời điểm $t=2$ cho độ cao lớn hơn mọi thời điểm **lân cận**, dù chưa chắc là cao nhất trong cả chuyến bay. Ta gọi đó là một điểm cực đại.
+
+  :::definition Cực đại, cực tiểu
+  Cho $f$ xác định trên tập $D$ và $x_0\in D$.
+  - $x_0$ là **điểm cực đại** của $f$ nếu có khoảng $(a; b)\subset D$ chứa $x_0$ sao cho $f(x)<f(x_0)$ với mọi $x\in(a; b)$, $x\neq x_0$. Khi đó $f(x_0)$ là **giá trị cực đại** (cực đại), kí hiệu $y_{\text{CĐ}}$.
+  - $x_0$ là **điểm cực tiểu** nếu thay "$<$" bằng "$>$". Khi đó $f(x_0)$ là **giá trị cực tiểu**, kí hiệu $y_{\text{CT}}$.
+  - Điểm $M(x_0; f(x_0))$ là **điểm cực đại (cực tiểu) của đồ thị**. Cực đại và cực tiểu gọi chung là **cực trị**.
+  :::
+
+  :::theorem Dấu hiệu nhận biết cực trị
+  Cho $f$ liên tục trên khoảng $(a; b)$ chứa $x_0$ và có đạo hàm trên $(a; b)$, có thể trừ tại $x_0$.
+  - Nếu $f'$ **đổi dấu từ $+$ sang $-$** khi $x$ đi qua $x_0$ thì $x_0$ là điểm cực đại.
+  - Nếu $f'$ **đổi dấu từ $-$ sang $+$** khi $x$ đi qua $x_0$ thì $x_0$ là điểm cực tiểu.
+  :::
+
+[[P13·8d91]]
+Lí do: đổi dấu từ $+$ sang $-$ nghĩa là đồ thị đi lên ngay trước $x_0$ và đi xuống ngay sau $x_0$, nên $f(x_0)$ lớn hơn các giá trị lân cận. Trong Ví dụ 1, $y'$ đổi dấu từ $+$ sang $-$ tại $x=1$, nên $x=1$ là điểm cực đại, $y_{\text{CĐ}}=5$; tương tự $x=3$ là điểm cực tiểu, $y_{\text{CT}}=1$.
+
+  :::example Hàm bậc bốn có ba cực trị
+  Tìm cực trị của hàm số $y=x^4-2x^2+3$.
+
+  **Lời giải.** Tập xác định của hàm số là $\mathbb{R}$. Ta có
+
+  $$y'=4x^3-4x=4x(x-1)(x+1),\qquad y'=0\iff x\in\{-1; 0; 1\}.$$
+
+  Thay các giá trị này vào hàm số, ta được $y(-1)=2$, $y(0)=3$, $y(1)=2$. Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $-1$ | | $0$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $-$ | $0$ | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $+\infty$ | $\searrow$ | $2$ | $\nearrow$ | $3$ | $\searrow$ | $2$ | $\nearrow$ | $+\infty$ |
+
+  Vậy hàm số đạt cực tiểu tại $x=\pm1$ với $y_{\text{CT}}=2$, và đạt cực đại tại $x=0$ với $y_{\text{CĐ}}=3$.
+  :::
+
+:::graph Đồ thị $y=x^4-2x^2+3$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P14·9fa7]]
+Với phân thức, điểm làm mẫu bằng $0$ không thuộc tập xác định, nhưng vẫn phải ghi vào bảng biến thiên để chia khoảng.
+
+  :::example Hàm phân thức
+  Tìm các khoảng đơn điệu và cực trị của hàm số $y=\dfrac{x^2+3}{x-1}$.
+
+  **Lời giải.** Tập xác định: $D=\mathbb{R}\setminus\{1\}$. Theo công thức đạo hàm của thương, ta có
+
+  $$y'=\frac{2x(x-1)-(x^2+3)}{(x-1)^2}=\frac{x^2-2x-3}{(x-1)^2}=\frac{(x+1)(x-3)}{(x-1)^2}.$$
+
+  Vì mẫu số dương trên $D$ nên $y'$ cùng dấu với $(x+1)(x-3)$. Ta có $y(-1)=-2$, $y(3)=6$. Bảng biến thiên:
+
+  | $x$ | $-\infty$ | | $-1$ | | $1$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $\Vert$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $-2$ | $\searrow$ | $\Vert$ | $\searrow$ | $6$ | $\nearrow$ | $+\infty$ |
+
+  Ta thấy $y_{\text{CĐ}}<y_{\text{CT}}$. Điều này không mâu thuẫn, vì giá trị cực đại chỉ lớn hơn các giá trị **gần** nó.
+
+  Vậy hàm số đồng biến trên các khoảng $(-\infty; -1)$ và $(3; +\infty)$, nghịch biến trên các khoảng $(-1; 1)$ và $(1; 3)$; hàm số có giá trị cực đại $y_{\text{CĐ}}=y(-1)=-2$ và giá trị cực tiểu $y_{\text{CT}}=y(3)=6$.
+  :::
+
+:::graph Đồ thị $y=\dfrac{x^2+3}{x-1}$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Dùng đạo hàm cấp hai
+
+[[P15·212c]]
+Khi xét dấu $f'$ khó (thường gặp với hàm lượng giác), ta có thể dùng đạo hàm cấp hai (lớp 11).
+
+:::note Dấu hiệu dùng đạo hàm cấp hai
+[[P16·686f]]
+Giả sử $f'(x_0)=0$ và $f$ có đạo hàm cấp hai tại $x_0$.
+- Nếu $f''(x_0)<0$ thì $x_0$ là điểm cực đại.
+- Nếu $f''(x_0)>0$ thì $x_0$ là điểm cực tiểu.
+- Nếu $f''(x_0)=0$ thì dấu hiệu này không kết luận được; hãy quay lại xét dấu $f'$.
+:::
+
+  :::example Hàm lượng giác
+  Tìm cực trị của hàm số $f(x)=x-2\sin x$ trên khoảng $(0; 2\pi)$.
+
+  **Lời giải.** Xét trên khoảng $(0; 2\pi)$, ta có
+
+  $$f'(x)=1-2\cos x=0\iff \cos x=\frac12\iff x=\frac{\pi}{3}\ \text{hoặc}\ x=\frac{5\pi}{3}.$$
+
+  Ta có $f''(x)=2\sin x$. Do đó
+
+  $$f''\left(\frac{\pi}{3}\right)=\sqrt3>0,\qquad f''\left(\frac{5\pi}{3}\right)=-\sqrt3<0.$$
+
+  Vậy $f$ đạt cực tiểu tại $x=\dfrac{\pi}{3}$ với $f_{\text{CT}}=\dfrac{\pi}{3}-\sqrt3$, và đạt cực đại tại $x=\dfrac{5\pi}{3}$ với $f_{\text{CĐ}}=\dfrac{5\pi}{3}+\sqrt3$.
+  :::
+
+[[P17·961d]]
+Cuối cùng, ta trả lời câu hỏi về flycam ở đầu bài.
+
+  :::example Flycam lên và xuống
+  Độ cao của flycam là $h(t)=t^3-12t^2+36t+10$ (mét), $0\le t\le 7$ (phút). Tìm các khoảng thời gian flycam lên cao, các khoảng thời gian flycam hạ xuống và tìm các cực trị của độ cao.
+
+  **Lời giải.** Ta có $h'(t)=3(t-2)(t-6)$. Xét trên khoảng $(0; 7)$, vì tam thức có $a=3>0$ nên nó âm giữa hai nghiệm $2$ và $6$, dương ở ngoài hai nghiệm. Do đó
+
+  $$h'(t)>0 \text{ khi } t\in(0; 2)\cup(6; 7),\qquad h'(t)<0 \text{ khi } t\in(2; 6).$$
+
+  Suy ra $h'$ đổi dấu từ $+$ sang $-$ tại $t=2$ và từ $-$ sang $+$ tại $t=6$.
+
+  Vậy flycam lên cao trong $2$ phút đầu và trong phút cuối (từ phút thứ $6$ đến phút thứ $7$), hạ xuống từ phút thứ $2$ đến phút thứ $6$. Nó đạt cực đại $42$ m lúc $t=2$ và cực tiểu $10$ m lúc $t=6$.
+
+  **Nhìn lại.** Cực đại $42$ m có phải là độ cao lớn nhất của cả chuyến bay không? Trên đoạn $[0; 7]$, so với hai đầu mút $h(0)=10$ và $h(7)=17$ thì đúng là cao nhất. Nhưng nếu flycam bay đến phút thứ $9$ thì $h(9)=91>42$. Cực đại chỉ là "cao nhất trong lân cận"; bài sau sẽ trả lời câu hỏi "cao nhất trên cả đoạn" một cách đầy đủ.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P18·75f4]]
+- **Gộp hai khoảng bằng dấu hợp.** Sai: "$y=\dfrac{x+2}{x-1}$ nghịch biến trên $(-\infty; 1)\cup(1; +\infty)$". Lí do sai: $y(0)=-2<y(2)=4$ dù $0<2$. Đúng: hàm số nghịch biến trên **từng** khoảng $(-\infty; 1)$ và $(1; +\infty)$.
+- **Cho rằng $f'(x_0)=0$ là có cực trị.** Sai: "$y=x^3-3x^2+3x+5$ có $y'(1)=0$ nên đạt cực trị tại $x=1$". Lí do sai: $y'=3(x-1)^2$ không đổi dấu qua $x=1$. Đúng: hàm số không có cực trị.
+- **Nhầm điểm cực trị với giá trị cực trị.** Sai: "điểm cực đại của $y=x^4-2x^2+3$ là $3$". Lí do sai: điểm cực đại là giá trị của $x$. Đúng: điểm cực đại $x=0$, giá trị cực đại $y_{\text{CĐ}}=3$, điểm cực đại của đồ thị $(0; 3)$.
+- **Quên tập xác định.** Sai: lập bảng biến thiên của $y=\dfrac{x^2+3}{x-1}$ mà không ghi $x=1$. Lí do sai: dấu của $y'$ có thể đổi qua $x=1$ và hàm số không xác định tại đó. Đúng: luôn ghi các điểm không xác định vào bảng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đồng biến | increasing
+  - nghịch biến | decreasing
+  - tính đơn điệu | monotonicity
+  - bảng biến thiên | table of variations
+  - điểm cực đại | local maximum point
+  - điểm cực tiểu | local minimum point
+  - giá trị cực đại | local maximum value
+  - giá trị cực tiểu | local minimum value
+  - cực trị | extremum (turning point)
+  - đạo hàm cấp hai | second derivative
+  :::
+
+## Tóm tắt
+
+[[P19·a672]]
+- $f'>0$ trên $K$ thì $f$ đồng biến trên $K$; $f'<0$ thì nghịch biến. $f'\ge0$ và chỉ bằng $0$ tại hữu hạn điểm thì vẫn đồng biến.
+- Các bước: tập xác định → $f'$ và nghiệm của $f'$ → bảng biến thiên → kết luận theo **từng khoảng**.
+- $f'$ đổi dấu $+\to-$ tại $x_0$: cực đại; $-\to+$: cực tiểu. Không đổi dấu: không có cực trị.
+- Dấu hiệu cấp hai: $f'(x_0)=0$ và $f''(x_0)<0$ thì cực đại, $f''(x_0)>0$ thì cực tiểu.
+- Phân biệt điểm cực trị $x_0$, giá trị cực trị $f(x_0)$ và điểm cực trị của đồ thị $(x_0; f(x_0))$.
+
+## Luyện tập
+
+[[P20·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/monotonicity-extrema – BẢN TIẾNG ANH ########
+---
+title: Monotonicity and extrema
+description: Use the sign of the derivative to find where a function increases or decreases and its local maxima and minima, for polynomial, rational and trig functions.
+minutes: 24
+---
+
+  :::goals
+  - Find the intervals where a function is increasing or decreasing from the sign of its derivative.
+  - Draw a table of variations and find local maxima and minima from the change of sign of $f'$.
+  - Use the second derivative to recognise an extremum when that is easier.
+  - Apply these to cubics, quartics, rational functions and a real-life problem.
+  :::
+
+[[P1·3eab]]
+A drone flies for $7$ minutes. Its height after $t$ minutes is $h(t)=t^3-12t^2+36t+10$ (metres). It takes off from a rooftop at a height of $10$ m, after $2$ minutes it is at $42$ m, after $6$ minutes it is back down at $10$ m, and it reaches $17$ m when time is up. So during which time intervals is the drone climbing, during which is it descending, and at which moments does it "turn round"?
+
+[[P2·f2db]]
+To answer exactly, we do not need the height at lots of moments. We only need the sign of the derivative $h'(t)$.
+
+[[P3·a79a]]
+The question "going up or going down?" appears everywhere: is the river level rising or falling, has a patient's temperature started to drop, is a price going up or down? In grade 11 we saw that $h'(t)$ is the instantaneous velocity, the rate at which the height changes at the moment $t$. This lesson turns the simple remark "positive velocity means going up" into a precise tool.
+
+## Monotonicity
+
+### Explore: when does the graph go up?
+
+[[P4·73ef]]
+We compute the height at whole minutes, and the derivative $h'(t)=3t^2-24t+36=3(t-2)(t-6)$:
+
+| $t$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ |
+|---|---|---|---|---|---|---|---|---|
+| $h(t)$ | $10$ | $35$ | $42$ | $37$ | $26$ | $15$ | $10$ | $17$ |
+| $h'(t)$ | $36$ | $15$ | $0$ | $-9$ | $-12$ | $-9$ | $0$ | $15$ |
+
+[[P5·d7fc]]
+From $t=0$ to $t=2$ the height increases and $h'>0$. From $t=2$ to $t=6$ the height decreases and $h'<0$. After $t=6$ the height increases again and $h'>0$. This makes sense: $h'(t)$ is the gradient of the tangent, and a positive gradient means the graph is going up.
+
+:::graph Height of the drone $h(t)=t^3-12t^2+36t+10$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Increasing and decreasing functions
+  Let $y=f(x)$ be defined on an interval $K$.
+  - $f$ is **increasing** on $K$ if for all $x_1<x_2$ in $K$ we have $f(x_1)<f(x_2)$.
+  - $f$ is **decreasing** on $K$ if for all $x_1<x_2$ in $K$ we have $f(x_1)>f(x_2)$.
+
+  A function that is increasing or decreasing on $K$ is called **monotonic** on $K$.
+  :::
+
+  :::theorem Sign of the derivative and monotonicity
+  Let $f$ be differentiable on an interval $K$.
+  - If $f'(x)>0$ for every $x\in K$, then $f$ is increasing on $K$.
+  - If $f'(x)<0$ for every $x\in K$, then $f$ is decreasing on $K$.
+  - If $f'(x)\ge 0$ (or $f'(x)\le 0$) for every $x\in K$ and $f'(x)=0$ only at finitely many points, then $f$ is still increasing (decreasing) on $K$.
+  :::
+
+[[P6·998c]]
+Why is it true? The derivative $f'(x)$ is the limit of the ratio $\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$. If the graph has an upward-sloping tangent at **every** point of $K$, it cannot go down anywhere in $K$. A few points with a horizontal tangent (like $y=x^3$ at $x=0$) do not make the graph turn round.
+
+[[P7·8769]]
+**A closer look.** The theorem takes information *at each point* (the gradient) to a conclusion *on a whole interval*. This works only on an unbroken interval. The function $y=-\dfrac1x$ has $y'=\dfrac{1}{x^2}>0$ at every point of its domain, yet $y(-1)=1>y(1)=-1$. Because the domain is "broken" at $x=0$, we can only conclude that the function is increasing on each interval $(-\infty, 0)$ and $(0, +\infty)$.
+
+[[P8·5ca6]]
+**Connections.** This lesson uses the derivative (grade 11) and the sign of a quadratic expression (grade 10). Intervals of monotonicity and extrema are the raw material for the next lessons: maximum and minimum values, curve sketching, and optimisation problems in real life.
+
+[[P9·2d0b]]
+To study monotonicity, we work in this order:
+
+[[P10·166b]]
+1. Find the domain.
+2. Compute $f'(x)$ and find the points where $f'(x)=0$ (the stationary points) or $f'(x)$ is undefined.
+3. Draw the table of variations: find the sign of $f'$ on each interval.
+4. State the intervals where $f$ increases and decreases.
+
+  :::example A cubic function
+  Find the intervals on which $y=x^3-6x^2+9x+1$ is increasing or decreasing.
+
+  **Solution.** The domain of the function is $\mathbb{R}$. We have
+
+  $$y'=3x^2-12x+9=3(x-1)(x-3),\qquad y'=0\iff x=1\ \text{or}\ x=3.$$
+
+  Since the quadratic $y'$ has $a=3>0$, $y'$ is positive outside the roots and negative between them. We have $y(1)=5$, $y(3)=1$. The table of variations:
+
+  | $x$ | $-\infty$ | | $1$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $5$ | $\searrow$ | $1$ | $\nearrow$ | $+\infty$ |
+
+  So the function is increasing on the intervals $(-\infty, 1)$ and $(3, +\infty)$, and decreasing on the interval $(1, 3)$.
+  :::
+
+[[P11·4892]]
+The next example shows that $f'(x_0)=0$ does not always make the function turn round.
+
+  :::example The derivative is zero at one point
+  Prove that $y=x^3-3x^2+3x+5$ is increasing on $\mathbb{R}$.
+
+  **Solution.** We have
+
+  $$y'=3x^2-6x+3=3(x-1)^2\ge 0\quad\text{for every } x,\ \text{and } y'=0 \iff x=1.$$
+
+  Since $y'$ is non-negative and is zero only at $x=1$ (where the tangent is horizontal), by the third part of the theorem the function is increasing on $\mathbb{R}$.
+
+  So the function is increasing on $\mathbb{R}$.
+  :::
+
+## Extrema of a function
+
+[[P12·6c1c]]
+In the drone problem, the moment $t=2$ gives a height greater than at all **nearby** moments, although it is not necessarily the highest of the whole flight. We say that $h$ has a local maximum at $t=2$.
+
+  :::definition Local maximum and local minimum
+  Let $f$ be defined on a set $D$ and $x_0\in D$.
+  - $f$ has a **local maximum** at $x_0$ (and $x_0$ is a **local maximum point** of $f$) if there is an interval $(a, b)\subset D$ containing $x_0$ such that $f(x)<f(x_0)$ for every $x\in(a, b)$, $x\neq x_0$. Then $f(x_0)$ is the **local maximum value**, written $y_{\text{max}}$.
+  - $f$ has a **local minimum** at $x_0$ ($x_0$ is a **local minimum point**) if "$<$" is replaced by "$>$". Then $f(x_0)$ is the **local minimum value**, written $y_{\text{min}}$.
+  - The point $M(x_0, f(x_0))$ on the graph is a **turning point** (a local maximum or local minimum of the graph). Local maxima and minima together are called **extrema**.
+  :::
+
+  :::theorem First-derivative test
+  Let $f$ be continuous on an interval $(a, b)$ containing $x_0$ and differentiable on $(a, b)$, except possibly at $x_0$.
+  - If $f'$ **changes sign from $+$ to $-$** as $x$ passes through $x_0$, then $f$ has a local maximum at $x_0$.
+  - If $f'$ **changes sign from $-$ to $+$** as $x$ passes through $x_0$, then $f$ has a local minimum at $x_0$.
+  :::
+
+[[P13·c822]]
+The reason: a change from $+$ to $-$ means the graph goes up just before $x_0$ and down just after it, so $f(x_0)$ is greater than the nearby values. In Example 1, $y'$ changes sign from $+$ to $-$ at $x=1$, so $f$ has a local maximum at $x=1$ with $y_{\text{max}}=5$; likewise $f$ has a local minimum at $x=3$ with $y_{\text{min}}=1$.
+
+  :::example A quartic with three extrema
+  Find the extrema of $y=x^4-2x^2+3$.
+
+  **Solution.** The domain of the function is $\mathbb{R}$. We have
+
+  $$y'=4x^3-4x=4x(x-1)(x+1),\qquad y'=0\iff x\in\{-1, 0, 1\}.$$
+
+  Substituting these values into the function, we get $y(-1)=2$, $y(0)=3$, $y(1)=2$. The table of variations:
+
+  | $x$ | $-\infty$ | | $-1$ | | $0$ | | $1$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $-$ | $0$ | $+$ | $0$ | $-$ | $0$ | $+$ | |
+  | $y$ | $+\infty$ | $\searrow$ | $2$ | $\nearrow$ | $3$ | $\searrow$ | $2$ | $\nearrow$ | $+\infty$ |
+
+  So the function has a local minimum at $x=\pm1$ with $y_{\text{min}}=2$, and a local maximum at $x=0$ with $y_{\text{max}}=3$.
+  :::
+
+:::graph The graph of $y=x^4-2x^2+3$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P14·e5d4]]
+For a rational function, a value that makes the denominator zero is not in the domain, but it must still be written in the table of variations to split the intervals.
+
+  :::example A rational function
+  Find the intervals on which $y=\dfrac{x^2+3}{x-1}$ is increasing or decreasing, and its extrema.
+
+  **Solution.** The domain is $D=\mathbb{R}\setminus\{1\}$. By the quotient rule, we have
+
+  $$y'=\frac{2x(x-1)-(x^2+3)}{(x-1)^2}=\frac{x^2-2x-3}{(x-1)^2}=\frac{(x+1)(x-3)}{(x-1)^2}.$$
+
+  Since the denominator is positive on $D$, $y'$ has the same sign as $(x+1)(x-3)$. We have $y(-1)=-2$, $y(3)=6$. The table of variations:
+
+  | $x$ | $-\infty$ | | $-1$ | | $1$ | | $3$ | | $+\infty$ |
+  |---|---|---|---|---|---|---|---|---|---|
+  | $y'$ | | $+$ | $0$ | $-$ | $\Vert$ | $-$ | $0$ | $+$ | |
+  | $y$ | $-\infty$ | $\nearrow$ | $-2$ | $\searrow$ | $\Vert$ | $\searrow$ | $6$ | $\nearrow$ | $+\infty$ |
+
+  We see that $y_{\text{max}}<y_{\text{min}}$. There is no contradiction, because a local maximum value is only greater than the values **near** it.
+
+  So the function is increasing on the intervals $(-\infty, -1)$ and $(3, +\infty)$, and decreasing on the intervals $(-1, 1)$ and $(1, 3)$; its local maximum value is $y_{\text{max}}=y(-1)=-2$ and its local minimum value is $y_{\text{min}}=y(3)=6$.
+  :::
+
+:::graph The graph of $y=\dfrac{x^2+3}{x-1}$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Using the second derivative
+
+[[P15·687a]]
+When the sign of $f'$ is hard to find (often with trigonometric functions), we can use the second derivative (grade 11).
+
+:::note Second-derivative test
+[[P16·f54a]]
+Suppose $f'(x_0)=0$ and $f$ has a second derivative at $x_0$.
+- If $f''(x_0)<0$, then $f$ has a local maximum at $x_0$.
+- If $f''(x_0)>0$, then $f$ has a local minimum at $x_0$.
+- If $f''(x_0)=0$, this test gives no conclusion; go back to the sign of $f'$.
+:::
+
+  :::example A trigonometric function
+  Find the extrema of $f(x)=x-2\sin x$ on the interval $(0, 2\pi)$.
+
+  **Solution.** On the interval $(0, 2\pi)$, we have
+
+  $$f'(x)=1-2\cos x=0\iff \cos x=\frac12\iff x=\frac{\pi}{3}\ \text{or}\ x=\frac{5\pi}{3}.$$
+
+  We have $f''(x)=2\sin x$. Hence
+
+  $$f''\left(\frac{\pi}{3}\right)=\sqrt3>0,\qquad f''\left(\frac{5\pi}{3}\right)=-\sqrt3<0.$$
+
+  So $f$ has a local minimum at $x=\dfrac{\pi}{3}$ with $f_{\text{min}}=\dfrac{\pi}{3}-\sqrt3$, and a local maximum at $x=\dfrac{5\pi}{3}$ with $f_{\text{max}}=\dfrac{5\pi}{3}+\sqrt3$.
+  :::
+
+[[P17·b4a0]]
+Finally, we answer the question about the drone from the start of the lesson.
+
+  :::example The drone goes up and down
+  The height of the drone is $h(t)=t^3-12t^2+36t+10$ (metres), $0\le t\le 7$ (minutes). Find the time intervals during which the drone is climbing, the time intervals during which it is descending, and the extrema of its height.
+
+  **Solution.** We have $h'(t)=3(t-2)(t-6)$. On the interval $(0, 7)$, since the quadratic has $a=3>0$, it is negative between the roots $2$ and $6$ and positive outside them. Hence
+
+  $$h'(t)>0 \text{ for } t\in(0, 2)\cup(6, 7),\qquad h'(t)<0 \text{ for } t\in(2, 6).$$
+
+  It follows that $h'$ changes sign from $+$ to $-$ at $t=2$ and from $-$ to $+$ at $t=6$.
+
+  So the drone climbs during the first $2$ minutes and during the last minute (from minute $6$ to minute $7$), and descends from minute $2$ to minute $6$. It has a local maximum of $42$ m at $t=2$ and a local minimum of $10$ m at $t=6$.
+
+  **Look back.** Is the local maximum of $42$ m the greatest height of the whole flight? On $[0, 7]$, compared with the endpoints $h(0)=10$ and $h(7)=17$, it is. But if the drone flew until minute $9$, then $h(9)=91>42$. A local maximum is only "highest nearby"; the next lesson answers the question "highest on the whole interval" in full.
+  :::
+
+:::warning Common mistakes
+[[P18·6205]]
+- **Joining two intervals with a union.** Wrong: "$y=\dfrac{x+2}{x-1}$ is decreasing on $(-\infty, 1)\cup(1, +\infty)$". Why it is wrong: $y(0)=-2<y(2)=4$ although $0<2$. Right: the function is decreasing on **each** interval $(-\infty, 1)$ and $(1, +\infty)$.
+- **Thinking $f'(x_0)=0$ means an extremum.** Wrong: "$y=x^3-3x^2+3x+5$ has $y'(1)=0$, so it has an extremum at $x=1$". Why it is wrong: $y'=3(x-1)^2$ does not change sign at $x=1$. Right: the function has no extremum.
+- **Mixing up the point and the value.** Wrong: "the local maximum point of $y=x^4-2x^2+3$ is $3$". Why it is wrong: the local maximum point is a value of $x$. Right: local maximum point $x=0$, local maximum value $y_{\text{max}}=3$, turning point of the graph $(0, 3)$.
+- **Forgetting the domain.** Wrong: drawing the table of variations of $y=\dfrac{x^2+3}{x-1}$ without $x=1$. Why it is wrong: the sign of $y'$ may change at $x=1$, and the function is undefined there. Right: always write the excluded points in the table.
+:::
+
+## Key terms
+
+  :::terms
+  - increasing | đồng biến
+  - decreasing | nghịch biến
+  - monotonicity | tính đơn điệu
+  - table of variations | bảng biến thiên
+  - local maximum point | điểm cực đại
+  - local minimum point | điểm cực tiểu
+  - local maximum value | giá trị cực đại
+  - local minimum value | giá trị cực tiểu
+  - extremum (turning point) | cực trị
+  - second derivative | đạo hàm cấp hai
+  :::
+
+## Summary
+
+[[P19·e0b0]]
+- $f'>0$ on $K$ means $f$ is increasing on $K$; $f'<0$ means decreasing. If $f'\ge0$ and it is zero at only finitely many points, $f$ is still increasing.
+- Steps: domain → $f'$ and its roots → table of variations → conclusion for **each interval**.
+- $f'$ changes sign $+\to-$ at $x_0$: local maximum; $-\to+$: local minimum. No sign change: no extremum.
+- Second-derivative test: $f'(x_0)=0$ and $f''(x_0)<0$ gives a local maximum, $f''(x_0)>0$ a local minimum.
+- Distinguish the point $x_0$ where the extremum occurs, the extreme value $f(x_0)$, and the turning point of the graph $(x_0, f(x_0))$.
+
+## Practice
+
+[[P20·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/plane-equation – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình mặt phẳng
+description: Vectơ pháp tuyến, phương trình tổng quát của mặt phẳng, mặt phẳng qua ba điểm, hai mặt phẳng song song, vuông góc và khoảng cách từ điểm đến mặt phẳng.
+minutes: 26
+---
+
+  :::goals
+  - Nhận biết vectơ pháp tuyến và cặp vectơ chỉ phương của một mặt phẳng.
+  - Viết phương trình mặt phẳng qua một điểm khi biết vectơ pháp tuyến, qua ba điểm, theo đoạn chắn.
+  - Nhận biết các mặt phẳng đặc biệt; xét hai mặt phẳng song song, vuông góc.
+  - Tính khoảng cách từ một điểm đến một mặt phẳng.
+  :::
+
+[[P1·e5cc]]
+Một tấm bạt che nắng hình tam giác được căng giữa ba điểm: hai cọc trên mặt đất và một móc trên cột ở góc sân. Đặt chân cột ở gốc toạ độ, đơn vị mét: ba góc tấm bạt là $A(3; 0; 0)$, $B(0; 6; 0)$ và $C(0; 0; 3)$. Một chiếc drone quay phim đang đứng yên tại $M(3; 6; 3)$. Drone cách mặt phẳng tấm bạt bao xa?
+
+[[P2·25ec]]
+Để trả lời, ta cần một phương trình mô tả mọi điểm của mặt phẳng $(ABC)$. Bài này cho ta phương trình đó và một công thức khoảng cách chỉ gồm vài phép tính.
+
+:::diagram Tấm bạt che nắng $ABC$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Vectơ pháp tuyến của mặt phẳng
+
+### Khám phá: một vectơ vuông góc với tấm bạt
+
+[[P3·28da]]
+Ta có $\overrightarrow{AB}=(-3; 6; 0)$ và $\overrightarrow{AC}=(-3; 0; 3)$. Thử vectơ $\vec{n}=(2; 1; 2)$:
+  $$\vec{n}\cdot\overrightarrow{AB}=-6+6+0=0,\qquad \vec{n}\cdot\overrightarrow{AC}=-6+0+6=0.$$
+[[P4·dc6b]]
+Vậy $\vec{n}$ vuông góc với hai cạnh không cùng phương của tấm bạt, nên vuông góc với cả tấm bạt. Một điểm $P(x; y; z)$ nằm trên mặt phẳng $(ABC)$ khi và chỉ khi $\overrightarrow{AP}\perp\vec{n}$, tức là
+  $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
+
+  :::definition Vectơ pháp tuyến, cặp vectơ chỉ phương
+  - Vectơ $\vec{n}\neq\vec{0}$ là một **vectơ pháp tuyến** của mặt phẳng $(P)$ nếu giá của $\vec{n}$ vuông góc với $(P)$.
+  - Hai vectơ $\vec{u}$, $\vec{v}$ **không cùng phương** là một **cặp vectơ chỉ phương** của $(P)$ nếu giá của chúng song song hoặc nằm trong $(P)$.
+  - Nếu $\vec{n}$ là vectơ pháp tuyến thì $k\vec{n}$ ($k\neq0$) cũng là vectơ pháp tuyến.
+  :::
+
+[[P5·2e92]]
+Khi chỉ biết một cặp vectơ chỉ phương, ta cần một cách tìm ngay một vectơ vuông góc với cả hai.
+
+  :::theorem Tìm vectơ pháp tuyến từ cặp vectơ chỉ phương
+  Nếu $\vec{u}=(a; b; c)$ và $\vec{v}=(a'; b'; c')$ là một cặp vectơ chỉ phương của $(P)$ thì
+  $$\vec{n}=[\vec{u}, \vec{v}]=(bc'-b'c;\ ca'-c'a;\ ab'-a'b)$$
+  là một vectơ pháp tuyến của $(P)$. Vectơ này gọi là **tích có hướng** của $\vec{u}$ và $\vec{v}$.
+  :::
+
+[[P6·a7cd]]
+**Vì sao đúng?** Nhân vô hướng với $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, vì các số hạng triệt tiêu từng cặp. Tương tự $\vec{n}\cdot\vec{v}=0$. Vì $\vec{u}$, $\vec{v}$ không cùng phương nên $\vec{n}\neq\vec{0}$.
+
+[[P7·b000]]
+**Cách nhớ.** Viết toạ độ $\vec{u}$ trên, $\vec{v}$ dưới. Muốn toạ độ thứ nhất, che cột thứ nhất và tính định thức $2\times2$ còn lại; toạ độ thứ hai che cột thứ hai rồi lấy *cột 3 nhân chéo với cột 1*; toạ độ thứ ba che cột thứ ba.
+
+## Phương trình tổng quát của mặt phẳng
+
+  :::theorem Phương trình mặt phẳng
+  Mặt phẳng đi qua $M_0(x_0; y_0; z_0)$ và có vectơ pháp tuyến $\vec{n}=(A; B; C)$ có phương trình
+  $$A(x-x_0)+B(y-y_0)+C(z-z_0)=0.$$
+  Ngược lại, mỗi phương trình $Ax+By+Cz+D=0$ với $A^2+B^2+C^2>0$ là phương trình của một mặt phẳng nhận $\vec{n}=(A; B; C)$ làm vectơ pháp tuyến. Phương trình này gọi là **phương trình tổng quát** của mặt phẳng.
+  :::
+
+[[P8·6685]]
+**Vì sao đúng?** Điểm $M(x; y; z)$ thuộc mặt phẳng khi và chỉ khi $\overrightarrow{M_0M}=(x-x_0; y-y_0; z-z_0)$ vuông góc với $\vec{n}$, tức tích vô hướng của chúng bằng $0$. Khai triển ta được dạng $Ax+By+Cz+D=0$ với $D=-(Ax_0+By_0+Cz_0)$.
+
+  :::example Biết một điểm và vectơ pháp tuyến
+  Viết phương trình mặt phẳng $(P)$ đi qua $M(1; -2; 3)$ và có vectơ pháp tuyến $\vec{n}=(2; -1; 4)$.
+
+  **Lời giải.** Thay toạ độ điểm và vectơ pháp tuyến vào công thức. Chú ý $y-(-2)=y+2$:
+
+  $$2(x-1)-(y+2)+4(z-3)=0\iff 2x-y+4z-16=0.$$
+
+  Vậy $(P): 2x-y+4z-16=0$.
+
+  **Kiểm tra.** Thay $M$: $2+2+12-16=0$.
+  :::
+
+[[P9·bac3]]
+Khi đề cho ba điểm, ta tự tạo cặp vectơ chỉ phương từ ba điểm đó.
+
+  :::example Mặt phẳng qua ba điểm
+  Viết phương trình mặt phẳng đi qua $A(1; 2; 0)$, $B(2; 0; 1)$, $C(0; 1; 3)$.
+
+  **Lời giải.** Hai vectơ $\overrightarrow{AB}$, $\overrightarrow{AC}$ là cặp vectơ chỉ phương; tích có hướng của chúng là vectơ pháp tuyến:
+
+  $$\overrightarrow{AB}=(1; -2; 1),\qquad \overrightarrow{AC}=(-1; -1; 3),$$
+
+  $$[\overrightarrow{AB}, \overrightarrow{AC}]=\big((-2)\cdot3-(-1)\cdot1;\ 1\cdot(-1)-3\cdot1;\ 1\cdot(-1)-(-1)\cdot(-2)\big)=(-5; -4; -3).$$
+
+  Ta chọn $\vec{n}=(5; 4; 3)$ cho gọn rồi dùng điểm $A$:
+
+  $$5(x-1)+4(y-2)+3z=0\iff 5x+4y+3z-13=0.$$
+
+  Vậy $(ABC): 5x+4y+3z-13=0$.
+
+  **Kiểm tra.** $B$: $10+0+3-13=0$; $C$: $0+4+9-13=0$.
+  :::
+
+### Các mặt phẳng đặc biệt
+
+[[P10·5514]]
+Xét $(P): Ax+By+Cz+D=0$.
+- $D=0$: $(P)$ đi qua gốc $O$.
+- $A=0$: $\vec{n}=(0; B; C)$ vuông góc với $\vec{i}$, nên $(P)$ song song với hoặc chứa trục $Ox$. Tương tự với $B=0$ (trục $Oy$) và $C=0$ (trục $Oz$).
+- $A=B=0$: $(P): z=z_0$ song song với hoặc trùng mặt phẳng $(Oxy)$. Ba mặt phẳng toạ độ là $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
+- Mặt phẳng cắt ba trục tại $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$ với $abc\neq0$ có **phương trình theo đoạn chắn**
+  $$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
+
+[[P11·eae5]]
+Với tấm bạt, $a=3$, $b=6$, $c=3$, nên $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$; nhân hai vế với $6$ ta lại được $2x+y+2z-6=0$.
+
+  :::example Mặt phẳng song song với $(Oxy)$, mặt phẳng chứa $Ox$
+  Cho $M(2; -1; 3)$. Viết phương trình mặt phẳng đi qua $M$ và a) song song với $(Oxy)$; b) chứa trục $Ox$.
+
+  **Lời giải.** a) Mặt phẳng song song với $(Oxy)$ có dạng $z=z_0$. Nó đi qua $M$ nên $z=3$.
+
+  b) Mặt phẳng chứa $Ox$ đi qua $O$ và có $A=0$, nên có dạng $By+Cz=0$. Thay $M$:
+
+  $$B\cdot(-1)+C\cdot3=0\iff B=3C.$$
+
+  Chọn $C=1$, $B=3$. Vậy hai mặt phẳng cần tìm là $z=3$ và $3y+z=0$.
+  :::
+
+## Hai mặt phẳng song song, vuông góc
+
+[[P12·7cbc]]
+Hai mặt phẳng song song có vectơ pháp tuyến cùng phương. Hai mặt phẳng vuông góc thì hai vectơ pháp tuyến của chúng vuông góc.
+
+  :::theorem Vị trí của hai mặt phẳng
+  Cho $(P): Ax+By+Cz+D=0$ và $(P'): A'x+B'y+C'z+D'=0$ với vectơ pháp tuyến $\vec{n}$, $\vec{n'}$.
+  - $(P)\parallel(P')$ khi và chỉ khi $\vec{n'}=k\vec{n}$ và $D'\neq kD$; nếu thêm $D'=kD$ thì hai mặt phẳng trùng nhau.
+  - $(P)\perp(P')$ khi và chỉ khi $\vec{n}\cdot\vec{n'}=AA'+BB'+CC'=0$.
+  :::
+
+  :::example Mặt phẳng song song và mặt phẳng vuông góc
+  a) Viết phương trình mặt phẳng đi qua $M(1; 2; 3)$ và song song với $(Q): 2x-3y+z+5=0$.
+
+  b) Viết phương trình mặt phẳng $(R)$ đi qua $A(1; 0; 1)$, $B(2; 1; 0)$ và vuông góc với $(S): x+y+z-3=0$.
+
+  **Lời giải.** a) Mặt phẳng song song với $(Q)$ có dạng $2x-3y+z+D=0$. Thay $M$:
+
+  $$2-6+3+D=0\iff D=1.$$
+
+  Vì $D=1\neq5$ nên mặt phẳng $2x-3y+z+1=0$ không trùng $(Q)$.
+
+  b) $(R)$ chứa đường $AB$ và chứa phương của $\vec{n}_S$ (vì vuông góc với $(S)$), nên $\overrightarrow{AB}=(1; 1; -1)$ và $\vec{n}_S=(1; 1; 1)$ là cặp vectơ chỉ phương:
+
+  $$[\overrightarrow{AB}, \vec{n}_S]=\big(1\cdot1-1\cdot(-1);\ (-1)\cdot1-1\cdot1;\ 1\cdot1-1\cdot1\big)=(2; -2; 0).$$
+
+  Chọn $\vec{n}=(1; -1; 0)$ và điểm $A$: $(x-1)-y=0$.
+
+  Vậy a) $2x-3y+z+1=0$; b) $(R): x-y-1=0$.
+
+  **Kiểm tra.** $B$: $2-1-1=0$; $\vec{n}\cdot\vec{n}_S=1-1+0=0$.
+  :::
+
+## Khoảng cách từ một điểm đến một mặt phẳng
+
+  :::theorem Công thức khoảng cách
+  Khoảng cách từ $M_0(x_0; y_0; z_0)$ đến $(P): Ax+By+Cz+D=0$ là
+  $$d(M_0, (P))=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}.$$
+  :::
+
+[[P13·092f]]
+**Vì sao đúng?** Gọi $H$ là hình chiếu của $M_0$ trên $(P)$. Khi đó $\overrightarrow{HM_0}=t\vec{n}$ với một số $t$, và $M_0H=|t|\cdot|\vec{n}|$. Vì $H$ thuộc $(P)$, thay $H=M_0-t\vec{n}$ vào phương trình ta được $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Rút $t$ rồi nhân với $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ ta có công thức.
+
+  :::example Drone và tấm bạt
+  Tính khoảng cách từ drone $M(3; 6; 3)$ đến mặt phẳng tấm bạt $(ABC): 2x+y+2z-6=0$ (đơn vị: mét).
+
+  **Lời giải.** Thay toạ độ $M$ vào vế trái rồi chia cho độ dài vectơ pháp tuyến:
+
+  $$d(M, (ABC))=\frac{|2\cdot3+6+2\cdot3-6|}{\sqrt{2^2+1^2+2^2}}=\frac{12}{3}=4.$$
+
+  Vậy drone cách mặt phẳng tấm bạt $4$ m.
+  :::
+
+[[P14·8d54]]
+Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+
+:::diagram Hình lập phương và mặt phẳng $(A'BD)$
+   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Khoảng cách trong hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $2$. Tính khoảng cách từ $A$ đến mặt phẳng $(A'BD)$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần khoảng cách từ một đỉnh đến một mặt phẳng đi qua ba đỉnh khác.
+
+  *Tìm cách giải.* Đặt $A$ ở gốc, $B$ trên $Ox$, $D$ trên $Oy$, $A'$ trên $Oz$. Ba điểm $B$, $D$, $A'$ nằm trên ba trục, nên dùng phương trình theo đoạn chắn.
+
+  *Giải.* $B(2; 0; 0)$, $D(0; 2; 0)$, $A'(0; 0; 2)$, nên
+
+  $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD))=\frac{|0+0+0-2|}{\sqrt{3}}=\frac{2}{\sqrt3}\approx1{,}15.$$
+
+  *Nhìn lại.* Chọn hệ trục khéo làm mặt phẳng cắt ba trục đúng tại ba đỉnh, nên không cần tính tích có hướng.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P15·4353]]
+- **Sai dấu khi thay điểm.** Sai: mặt phẳng qua $M(1; -2; 3)$ với $\vec{n}=(2; -1; 4)$ viết thành $2(x-1)-(y-2)+4(z-3)=0$. Vì sao sai: $y-y_0=y-(-2)=y+2$. Đúng: $2(x-1)-(y+2)+4(z-3)=0$.
+- **Quên $D$ hoặc quên căn trong công thức khoảng cách.** Sai: $d(M, (ABC))=\dfrac{|6+6+6|}{3}=6$ hoặc $\dfrac{12}{9}$. Vì sao sai: tử số là cả vế trái $Ax_0+By_0+Cz_0+D$, mẫu số là $\sqrt{A^2+B^2+C^2}$. Đúng: $\dfrac{12}{3}=4$.
+- **Khoảng cách giữa hai mặt phẳng song song khi hệ số chưa khớp.** Với $(P): 2x-y+2z+1=0$ và $(Q): 4x-2y+4z-10=0$. Sai: $\dfrac{|1-(-10)|}{3}=\dfrac{11}{3}$. Vì sao sai: hai vectơ pháp tuyến $(2; -1; 2)$ và $(4; -2; 4)$ chưa bằng nhau. Đúng: lấy điểm $E(0; 0; 2{,}5)$ thuộc $(Q)$, rồi $d(E, (P))=\dfrac{|5+1|}{3}=2$.
+- **Nhầm mặt phẳng chứa trục với mặt phẳng toạ độ.** Sai: mặt phẳng chứa $Ox$ là $x=0$. Vì sao sai: $x=0$ là mặt phẳng $(Oyz)$, vuông góc với $Ox$. Đúng: mặt phẳng chứa $Ox$ có dạng $By+Cz=0$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - mặt phẳng | plane
+  - vectơ pháp tuyến | normal vector
+  - cặp vectơ chỉ phương | pair of direction vectors
+  - tích có hướng | cross product (vector product)
+  - phương trình tổng quát của mặt phẳng | Cartesian (general) equation of a plane
+  - phương trình mặt phẳng theo đoạn chắn | intercept form of a plane
+  - mặt phẳng toạ độ | coordinate plane
+  - hai mặt phẳng song song | parallel planes
+  - hai mặt phẳng vuông góc | perpendicular planes
+  - khoảng cách từ điểm đến mặt phẳng | distance from a point to a plane
+  :::
+
+## Tóm tắt
+
+[[P16·70d6]]
+- Mặt phẳng qua $M_0(x_0; y_0; z_0)$, vectơ pháp tuyến $\vec{n}=(A; B; C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+- $Ax+By+Cz+D=0$ có vectơ pháp tuyến $(A; B; C)$.
+- Cặp vectơ chỉ phương $\vec{u}=(a; b; c)$, $\vec{v}=(a'; b'; c')$ cho $\vec{n}=[\vec{u}, \vec{v}]=(bc'-b'c;\ ca'-c'a;\ ab'-a'b)$.
+- Theo đoạn chắn: $\dfrac{x}{a}+\dfrac{y}{b}+\dfrac{z}{c}=1$; $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
+- Song song: $\vec{n'}=k\vec{n}$, $D'\neq kD$. Vuông góc: $\vec{n}\cdot\vec{n'}=0$.
+- $d(M_0, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+
+## Luyện tập
+
+[[P17·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/plane-equation – BẢN TIẾNG ANH ########
+---
+title: The equation of a plane
+description: Normal vectors, the Cartesian equation of a plane, the plane through three points, parallel and perpendicular planes, and the distance from a point to a plane.
+minutes: 26
+---
+
+  :::goals
+  - Recognise a normal vector and a pair of direction vectors of a plane.
+  - Write the equation of a plane through a point with a given normal vector, through three points, and in intercept form.
+  - Recognise special planes; decide whether two planes are parallel or perpendicular.
+  - Find the distance from a point to a plane.
+  :::
+
+[[P1·8b84]]
+A triangular shade sail is stretched between three points: two pegs in the ground and a hook on a pole in the corner of a yard. With the foot of the pole at the origin and the metre as unit, the corners of the sail are $A(3, 0, 0)$, $B(0, 6, 0)$ and $C(0, 0, 3)$. A filming drone hovers at $M(3, 6, 3)$. How far is the drone from the plane of the sail?
+
+[[P2·aa2c]]
+To answer, we need an equation that describes every point of the plane $(ABC)$. This lesson gives us that equation and a distance formula that takes only a few calculations.
+
+:::diagram The shade sail $ABC$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Normal vectors of a plane
+
+### Exploring: a vector perpendicular to the sail
+
+[[P3·378f]]
+We have $\overrightarrow{AB}=(-3, 6, 0)$ and $\overrightarrow{AC}=(-3, 0, 3)$. Try the vector $\vec{n}=(2, 1, 2)$:
+  $$\vec{n}\cdot\overrightarrow{AB}=-6+6+0=0,\qquad \vec{n}\cdot\overrightarrow{AC}=-6+0+6=0.$$
+[[P4·0509]]
+So $\vec{n}$ is perpendicular to two non-parallel edges of the sail, hence to the whole sail. A point $P(x, y, z)$ lies in the plane $(ABC)$ exactly when $\overrightarrow{AP}\perp\vec{n}$, that is
+  $$2(x-3)+1\cdot(y-0)+2(z-0)=0\iff 2x+y+2z-6=0.$$
+
+  :::definition Normal vector, pair of direction vectors
+  - A vector $\vec{n}\neq\vec{0}$ is a **normal vector** of the plane $(P)$ if its line is perpendicular to $(P)$.
+  - Two **non-parallel** vectors $\vec{u}$, $\vec{v}$ form a **pair of direction vectors** of $(P)$ if their lines are parallel to $(P)$ or lie in it.
+  - If $\vec{n}$ is a normal vector, then so is $k\vec{n}$ ($k\neq0$).
+  :::
+
+[[P5·298b]]
+When we only know a pair of direction vectors, we need a quick way to find a vector perpendicular to both.
+
+  :::theorem A normal vector from a pair of direction vectors
+  If $\vec{u}=(a, b, c)$ and $\vec{v}=(a', b', c')$ are a pair of direction vectors of $(P)$, then
+  $$\vec{n}=\vec{u}\times\vec{v}=(bc'-b'c,\ ca'-c'a,\ ab'-a'b)$$
+  is a normal vector of $(P)$. This vector is called the **cross product** (vector product) of $\vec{u}$ and $\vec{v}$.
+  :::
+
+[[P6·9484]]
+**Why is it true?** Take the scalar product with $\vec{u}$: $a(bc'-b'c)+b(ca'-c'a)+c(ab'-a'b)=0$, because the terms cancel in pairs. In the same way $\vec{n}\cdot\vec{v}=0$. Since $\vec{u}$, $\vec{v}$ are not parallel, $\vec{n}\neq\vec{0}$.
+
+[[P7·5dde]]
+**How to remember it.** Write the coordinates of $\vec{u}$ on top and $\vec{v}$ below. For the first coordinate, cover the first column and work out the remaining $2\times2$ determinant; for the second, cover the second column and cross-multiply *column 3 with column 1*; for the third, cover the third column.
+
+## The Cartesian equation of a plane
+
+  :::theorem Equation of a plane
+  The plane through $M_0(x_0, y_0, z_0)$ with normal vector $\vec{n}=(A, B, C)$ has equation
+  $$A(x-x_0)+B(y-y_0)+C(z-z_0)=0.$$
+  Conversely, every equation $Ax+By+Cz+D=0$ with $A^2+B^2+C^2>0$ is the equation of a plane with normal vector $\vec{n}=(A, B, C)$. This is called the **Cartesian (general) equation** of the plane.
+  :::
+
+[[P8·cc78]]
+**Why is it true?** A point $M(x, y, z)$ lies in the plane exactly when $\overrightarrow{M_0M}=(x-x_0, y-y_0, z-z_0)$ is perpendicular to $\vec{n}$, that is, when their scalar product is $0$. Expanding gives the form $Ax+By+Cz+D=0$ with $D=-(Ax_0+By_0+Cz_0)$.
+
+  :::example A point and a normal vector
+  Write the equation of the plane $(P)$ through $M(1, -2, 3)$ with normal vector $\vec{n}=(2, -1, 4)$.
+
+  **Solution.** Substitute the point and the normal vector into the formula. Note that $y-(-2)=y+2$:
+
+  $$2(x-1)-(y+2)+4(z-3)=0\iff 2x-y+4z-16=0.$$
+
+  So $(P): 2x-y+4z-16=0$.
+
+  **Check.** Substituting $M$: $2+2+12-16=0$.
+  :::
+
+[[P9·8747]]
+When we are given three points, we build a pair of direction vectors from them.
+
+  :::example The plane through three points
+  Write the equation of the plane through $A(1, 2, 0)$, $B(2, 0, 1)$, $C(0, 1, 3)$.
+
+  **Solution.** The vectors $\overrightarrow{AB}$, $\overrightarrow{AC}$ are a pair of direction vectors; their cross product is a normal vector:
+
+  $$\overrightarrow{AB}=(1, -2, 1),\qquad \overrightarrow{AC}=(-1, -1, 3),$$
+
+  $$\overrightarrow{AB}\times\overrightarrow{AC}=\big((-2)\cdot3-(-1)\cdot1,\ 1\cdot(-1)-3\cdot1,\ 1\cdot(-1)-(-1)\cdot(-2)\big)=(-5, -4, -3).$$
+
+  We choose the neater $\vec{n}=(5, 4, 3)$ and use the point $A$:
+
+  $$5(x-1)+4(y-2)+3z=0\iff 5x+4y+3z-13=0.$$
+
+  So $(ABC): 5x+4y+3z-13=0$.
+
+  **Check.** $B$: $10+0+3-13=0$; $C$: $0+4+9-13=0$.
+  :::
+
+### Special planes
+
+[[P10·a1f8]]
+Consider $(P): Ax+By+Cz+D=0$.
+- $D=0$: $(P)$ passes through the origin $O$.
+- $A=0$: $\vec{n}=(0, B, C)$ is perpendicular to $\vec{i}$, so $(P)$ is parallel to the axis $Ox$ or contains it. Likewise for $B=0$ (axis $Oy$) and $C=0$ (axis $Oz$).
+- $A=B=0$: $(P): z=z_0$ is parallel to the plane $(Oxy)$ or equal to it. The three coordinate planes are $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
+- A plane meeting the three axes at $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$ with $abc\neq0$ has the **intercept form**
+  $$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
+
+[[P11·6597]]
+For the sail, $a=3$, $b=6$, $c=3$, so $\dfrac{x}{3}+\dfrac{y}{6}+\dfrac{z}{3}=1$; multiplying both sides by $6$ gives $2x+y+2z-6=0$ again.
+
+  :::example A plane parallel to $(Oxy)$, a plane containing $Ox$
+  Let $M(2, -1, 3)$. Write the equation of the plane through $M$ that is a) parallel to $(Oxy)$; b) contains the axis $Ox$.
+
+  **Solution.** a) A plane parallel to $(Oxy)$ has the form $z=z_0$. It passes through $M$, so it is $z=3$.
+
+  b) A plane containing $Ox$ passes through $O$ and has $A=0$, so it has the form $By+Cz=0$. Substitute $M$:
+
+  $$B\cdot(-1)+C\cdot3=0\iff B=3C.$$
+
+  Choose $C=1$, $B=3$. So the two planes are $z=3$ and $3y+z=0$.
+  :::
+
+## Parallel and perpendicular planes
+
+[[P12·b99f]]
+Two parallel planes have parallel normal vectors. Two perpendicular planes have perpendicular normal vectors.
+
+  :::theorem Two planes
+  Let $(P): Ax+By+Cz+D=0$ and $(P'): A'x+B'y+C'z+D'=0$ with normal vectors $\vec{n}$, $\vec{n'}$.
+  - $(P)\parallel(P')$ if and only if $\vec{n'}=k\vec{n}$ and $D'\neq kD$; if also $D'=kD$, the two planes coincide.
+  - $(P)\perp(P')$ if and only if $\vec{n}\cdot\vec{n'}=AA'+BB'+CC'=0$.
+  :::
+
+  :::example A parallel plane and a perpendicular plane
+  a) Write the equation of the plane through $M(1, 2, 3)$ parallel to $(Q): 2x-3y+z+5=0$.
+
+  b) Write the equation of the plane $(R)$ through $A(1, 0, 1)$, $B(2, 1, 0)$ perpendicular to $(S): x+y+z-3=0$.
+
+  **Solution.** a) A plane parallel to $(Q)$ has the form $2x-3y+z+D=0$. Substitute $M$:
+
+  $$2-6+3+D=0\iff D=1.$$
+
+  Since $D=1\neq5$, the plane $2x-3y+z+1=0$ does not coincide with $(Q)$.
+
+  b) $(R)$ contains the line $AB$ and the direction of $\vec{n}_S$ (because it is perpendicular to $(S)$), so $\overrightarrow{AB}=(1, 1, -1)$ and $\vec{n}_S=(1, 1, 1)$ are a pair of direction vectors:
+
+  $$\overrightarrow{AB}\times\vec{n}_S=\big(1\cdot1-1\cdot(-1),\ (-1)\cdot1-1\cdot1,\ 1\cdot1-1\cdot1\big)=(2, -2, 0).$$
+
+  Choose $\vec{n}=(1, -1, 0)$ and the point $A$: $(x-1)-y=0$.
+
+  So a) $2x-3y+z+1=0$; b) $(R): x-y-1=0$.
+
+  **Check.** $B$: $2-1-1=0$; $\vec{n}\cdot\vec{n}_S=1-1+0=0$.
+  :::
+
+## The distance from a point to a plane
+
+  :::theorem Distance formula
+  The distance from $M_0(x_0, y_0, z_0)$ to $(P): Ax+By+Cz+D=0$ is
+  $$d(M_0, (P))=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}.$$
+  :::
+
+[[P13·04ff]]
+**Why is it true?** Let $H$ be the orthogonal projection of $M_0$ on $(P)$. Then $\overrightarrow{HM_0}=t\vec{n}$ for some number $t$, and $M_0H=|t|\cdot|\vec{n}|$. Since $H$ lies in $(P)$, substituting $H=M_0-t\vec{n}$ into the equation gives $Ax_0+By_0+Cz_0+D=t(A^2+B^2+C^2)$. Solving for $t$ and multiplying by $|\vec{n}|=\sqrt{A^2+B^2+C^2}$ gives the formula.
+
+  :::example The drone and the sail
+  Find the distance from the drone $M(3, 6, 3)$ to the plane of the sail $(ABC): 2x+y+2z-6=0$ (unit: metre).
+
+  **Solution.** Substitute the coordinates of $M$ into the left-hand side, then divide by the length of the normal vector:
+
+  $$d(M, (ABC))=\frac{|2\cdot3+6+2\cdot3-6|}{\sqrt{2^2+1^2+2^2}}=\frac{12}{3}=4.$$
+
+  So the drone is $4$ m from the plane of the sail.
+  :::
+
+[[P14·bc15]]
+The last example has more steps, so we follow the four stages.
+
+:::diagram The cube and the plane $(A'BD)$
+   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example A distance in a cube
+  Let $ABCD.A'B'C'D'$ be a cube with edge $2$. Find the distance from $A$ to the plane $(A'BD)$ (to 2 decimal places).
+
+  **Solution.**
+
+  *Understand.* We need the distance from one vertex to a plane through three other vertices.
+
+  *Plan.* Put $A$ at the origin, $B$ on $Ox$, $D$ on $Oy$, $A'$ on $Oz$. The points $B$, $D$, $A'$ lie on the three axes, so we use the intercept form.
+
+  *Solve.* $B(2, 0, 0)$, $D(0, 2, 0)$, $A'(0, 0, 2)$, so
+
+  $$(A'BD): \frac{x}{2}+\frac{y}{2}+\frac{z}{2}=1\iff x+y+z-2=0,\qquad d(A, (A'BD))=\frac{|0+0+0-2|}{\sqrt{3}}=\frac{2}{\sqrt3}\approx1.15.$$
+
+  *Look back.* A clever choice of axes makes the plane meet the three axes exactly at three vertices, so no cross product is needed.
+  :::
+
+:::warning Common mistakes
+[[P15·06d0]]
+- **A wrong sign when substituting the point.** Wrong: the plane through $M(1, -2, 3)$ with $\vec{n}=(2, -1, 4)$ written as $2(x-1)-(y-2)+4(z-3)=0$. Why it is wrong: $y-y_0=y-(-2)=y+2$. Right: $2(x-1)-(y+2)+4(z-3)=0$.
+- **Forgetting $D$ or the square root in the distance formula.** Wrong: $d(M, (ABC))=\dfrac{|6+6+6|}{3}=6$ or $\dfrac{12}{9}$. Why it is wrong: the numerator is the whole left-hand side $Ax_0+By_0+Cz_0+D$, and the denominator is $\sqrt{A^2+B^2+C^2}$. Right: $\dfrac{12}{3}=4$.
+- **The distance between parallel planes when the coefficients do not match.** Take $(P): 2x-y+2z+1=0$ and $(Q): 4x-2y+4z-10=0$. Wrong: $\dfrac{|1-(-10)|}{3}=\dfrac{11}{3}$. Why it is wrong: the normal vectors $(2, -1, 2)$ and $(4, -2, 4)$ are not equal. Right: take the point $E(0, 0, 2.5)$ of $(Q)$; then $d(E, (P))=\dfrac{|5+1|}{3}=2$.
+- **Confusing a plane containing an axis with a coordinate plane.** Wrong: the plane containing $Ox$ is $x=0$. Why it is wrong: $x=0$ is the plane $(Oyz)$, which is perpendicular to $Ox$. Right: a plane containing $Ox$ has the form $By+Cz=0$.
+:::
+
+## Key terms
+
+  :::terms
+  - plane | mặt phẳng
+  - normal vector | vectơ pháp tuyến
+  - pair of direction vectors | cặp vectơ chỉ phương
+  - cross product (vector product) | tích có hướng
+  - Cartesian (general) equation of a plane | phương trình tổng quát của mặt phẳng
+  - intercept form of a plane | phương trình mặt phẳng theo đoạn chắn
+  - coordinate plane | mặt phẳng toạ độ
+  - parallel planes | hai mặt phẳng song song
+  - perpendicular planes | hai mặt phẳng vuông góc
+  - distance from a point to a plane | khoảng cách từ điểm đến mặt phẳng
+  :::
+
+## Summary
+
+[[P16·b50c]]
+- The plane through $M_0(x_0, y_0, z_0)$ with normal vector $\vec{n}=(A, B, C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+- $Ax+By+Cz+D=0$ has normal vector $(A, B, C)$.
+- Direction vectors $\vec{u}=(a, b, c)$, $\vec{v}=(a', b', c')$ give $\vec{n}=\vec{u}\times\vec{v}=(bc'-b'c,\ ca'-c'a,\ ab'-a'b)$.
+- Intercept form: $\dfrac{x}{a}+\dfrac{y}{b}+\dfrac{z}{c}=1$; $(Oxy): z=0$, $(Oyz): x=0$, $(Ozx): y=0$.
+- Parallel: $\vec{n'}=k\vec{n}$, $D'\neq kD$. Perpendicular: $\vec{n}\cdot\vec{n'}=0$.
+- $d(M_0, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
+
+## Practice
+
+[[P17·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-1 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện thi tốt nghiệp số 1
+description: Đề luyện thi tốt nghiệp THPT môn Toán theo cấu trúc mới, 22 câu trong 90 phút, có đáp án, lời giải và bài ôn tập cần xem lại cho từng câu.
+minutes: 90
+type: exam
+---
+
+[[P1·2155]]
+Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Mỗi lời giải đều chỉ ra bài ôn tập cần xem lại nếu bạn làm sai.
+
+:::quiz exam
+   (… 322 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/practice-paper-thpt-1 – BẢN TIẾNG ANH ########
+---
+title: Graduation practice paper 1
+description: A full maths practice paper in the new Vietnamese graduation exam format: 22 questions in 90 minutes, with answers, solutions and the lesson to revise.
+minutes: 90
+type: exam
+---
+
+[[P1·5c51]]
+This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. Every solution names the revision lesson to go back to if you got it wrong.
+
+:::quiz exam
+   (… 322 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

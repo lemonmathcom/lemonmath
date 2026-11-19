@@ -1,0 +1,1640 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-03-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-03-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-03-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/right-triangle-side-angle-relations, g9/simplifying-root-expressions, g9/simultaneous-equation-problems, g9/simultaneous-equations-intro
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-03-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-03-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-03-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g9/right-triangle-side-angle-relations – BẢN TIẾNG VIỆT ########
+---
+title: Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng
+description: Tính cạnh của tam giác vuông khi biết một cạnh và một góc nhọn, giải tam giác vuông và đo chiều cao, khoảng cách trong thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Viết và dùng các hệ thức giữa cạnh và góc trong tam giác vuông.
+  - Giải tam giác vuông khi biết hai cạnh, hoặc một cạnh và một góc nhọn.
+  - Tính chiều cao, khoảng cách trong thực tế mà không cần đo trực tiếp.
+  :::
+
+[[P1·bbf6]]
+Bạn Minh đứng cách chân cột cờ của trường $15$ m. Minh nhìn lên đỉnh cột cờ theo một tia hợp với phương nằm ngang góc $35^\circ$, mắt Minh cách mặt đất $1{,}5$ m. Không cần trèo lên, làm sao biết cột cờ cao bao nhiêu mét?
+
+[[P2·9d09]]
+Trong tam giác vuông tạo bởi mắt Minh, đỉnh cột và một điểm trên cột ngang tầm mắt, ta biết một cạnh ($15$ m) và một góc ($35^\circ$). Bài này cho ta cách tính các cạnh còn lại.
+
+## Hệ thức giữa cạnh và góc
+
+[[P3·a2e4]]
+Cho tam giác $ABC$ vuông tại $A$, với $BC=a$, $CA=b$, $AB=c$.
+
+:::diagram Tam giác vuông $ABC$ với các cạnh $a$, $b$, $c$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Khám phá
+
+[[P4·a23e]]
+Từ định nghĩa, $\sin B=\dfrac{b}{a}$. Nhân hai vế với $a$ ta được $b=a\sin B$. Chẳng hạn, nếu $a=10$ và $\widehat{B}=30^\circ$ thì $b=10\cdot\dfrac12=5$. Làm tương tự với các tỉ số khác, ta được bốn hệ thức.
+
+  :::theorem Hệ thức giữa cạnh và góc trong tam giác vuông
+  Trong tam giác $ABC$ vuông tại $A$:
+  - Mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề:
+  $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
+  - Mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối hoặc nhân với côtang góc kề:
+  $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
+  :::
+
+[[P5·f921]]
+Vì sao? Mỗi đẳng thức chỉ là định nghĩa viết lại. Ví dụ $\cos C=\dfrac{b}{a}$ (cạnh kề của góc $C$ là $b$), nên $b=a\cos C$; $\tan B=\dfrac bc$, nên $b=c\tan B$.
+
+  :::example Biết cạnh huyền và một góc nhọn
+  Cho tam giác $ABC$ vuông tại $A$ có $BC=12$ cm, $\widehat{B}=40^\circ$. Tính $AC$ và $AB$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng hệ thức giữa cạnh và góc cho tam giác $ABC$ vuông tại $A$ ($AC$ đối diện góc $B$, $AB$ kề góc $B$), ta được
+
+  $$AC=BC\sin B=12\sin40^\circ\approx7{,}71;\qquad AB=BC\cos B=12\cos40^\circ\approx9{,}19.$$
+
+  Vậy $AC\approx7{,}71$ cm và $AB\approx9{,}19$ cm.
+  :::
+
+[[P6·3f19]]
+Khi biết một cạnh góc vuông, ta dùng tang hoặc côtang.
+
+  :::example Biết một cạnh góc vuông và một góc nhọn
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{B}=55^\circ$. Tính $AC$ (làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng hệ thức giữa cạnh và góc cho tam giác $ABC$ vuông tại $A$ ($AC$ đối diện góc $B$, $AB$ kề góc $B$), ta được
+
+  $$AC=AB\tan B=6\tan55^\circ\approx8{,}57.$$
+
+  Vậy $AC\approx8{,}57$ cm.
+  :::
+
+## Giải tam giác vuông
+
+[[P7·ff8a]]
+**Giải tam giác vuông** là tìm tất cả các cạnh và góc còn lại khi biết hai yếu tố, trong đó có ít nhất một cạnh. Ta dùng ba công cụ: định lí Pythagore, $\widehat{B}+\widehat{C}=90^\circ$, và các hệ thức ở trên.
+
+  :::example Biết hai cạnh góc vuông
+  Giải tam giác $ABC$ vuông tại $A$, biết $AB=5$ cm, $AC=7$ cm (góc làm tròn đến độ, cạnh đến hàng phần trăm).
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore) và $\tan B=\dfrac{AC}{AB}$. Do đó
+
+  $$BC=\sqrt{5^2+7^2}=\sqrt{74}\approx8{,}60;\qquad \tan B=\frac75=1{,}4\Rightarrow \widehat{B}\approx54^\circ;\qquad \widehat{C}\approx90^\circ-54^\circ=36^\circ.$$
+
+  Vậy $BC\approx8{,}60$ cm, $\widehat{B}\approx54^\circ$, $\widehat{C}\approx36^\circ$.
+  :::
+
+  :::example Biết cạnh huyền và một góc nhọn
+  Giải tam giác $ABC$ vuông tại $A$, biết $BC=20$ cm, $\widehat{C}=35^\circ$ (cạnh làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $\widehat B+\widehat C=90^\circ$. Áp dụng hệ thức giữa cạnh và góc ($AB$ đối diện góc $C$, $AC$ kề góc $C$), ta được
+
+  $$\widehat{B}=90^\circ-35^\circ=55^\circ;\qquad AB=20\sin35^\circ\approx11{,}47;\qquad AC=20\cos35^\circ\approx16{,}38.$$
+
+  Vậy $\widehat{B}=55^\circ$, $AB\approx11{,}47$ cm, $AC\approx16{,}38$ cm.
+  :::
+
+## Ứng dụng: đo chiều cao và khoảng cách
+
+[[P8·f36d]]
+Khi nhìn lên một vật, góc giữa tia nhìn và phương nằm ngang gọi là **góc nâng**. Khi nhìn xuống, góc đó gọi là **góc hạ**. Ta dựng một tam giác vuông có một cạnh nằm ngang, rồi dùng hệ thức.
+
+:::diagram Đo chiều cao cột cờ
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Chiều cao cột cờ
+  Trả lời câu hỏi ở đầu bài (làm tròn đến hàng phần mười).
+
+  **Lời giải.** *Hiểu đề:* $M$ là mắt Minh, $K$ là điểm trên cột ngang tầm mắt, $D$ là đỉnh cột; $MK=15$ m, $\widehat{DMK}=35^\circ$, $KF=1{,}5$ m. *Tìm cách giải:* trong tam giác $MKD$ vuông tại $K$, $DK$ đối diện góc $M$, $MK$ kề góc $M$, nên dùng tang. Chiều cao cột cờ bằng $DK$ cộng với chiều cao $KF$ từ mắt Minh xuống đất. *Giải:* Xét tam giác $MKD$ vuông tại $K$, ta có
+
+  $$DK=MK\tan35^\circ=15\tan35^\circ\approx10{,}50;\qquad DF=DK+KF\approx10{,}50+1{,}5=12{,}0.$$
+
+  Vậy cột cờ cao khoảng $12{,}0$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·7f30]]
+- **Chọn sai tỉ số.** Sai: $AC=BC\cos B$. Lí do sai: $AC$ đối diện góc $B$, nên đi với sin. Đúng: $AC=BC\sin B$ (hoặc $BC\cos C$).
+- **Chia thay vì nhân.** Sai: $AC=\dfrac{AB}{\tan B}$. Lí do sai: $\tan B=\dfrac{AC}{AB}$ nên $AC=AB\tan B$. Đúng: chỉ chia khi cần tìm cạnh ở mẫu, ví dụ $BC=\dfrac{AC}{\sin B}$.
+- **Làm tròn quá sớm.** Sai: ở bài thả diều, lấy $\sin38^\circ\approx0{,}6$ rồi tính $50\cdot0{,}6=30$ (m). Lí do sai: $50\sin38^\circ\approx30{,}78$, lệch gần $0{,}8$ m, và sai số còn lớn dần qua nhiều bước. Đúng: giữ nguyên trên máy, chỉ làm tròn kết quả cuối.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - cạnh góc vuông | leg of a right-angled triangle
+  - cạnh huyền | hypotenuse
+  - góc đối | opposite angle
+  - góc kề | adjacent angle
+  - giải tam giác vuông | solving a right-angled triangle
+  - góc nâng | angle of elevation
+  - góc hạ | angle of depression
+  - phương nằm ngang | horizontal
+  :::
+
+## Tóm tắt
+
+[[P10·0aec]]
+- Tam giác $ABC$ vuông tại $A$: $b=a\sin B=a\cos C$, $c=a\sin C=a\cos B$.
+- $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
+- Giải tam giác vuông: Pythagore, $\widehat B+\widehat C=90^\circ$, các hệ thức; cần biết ít nhất một cạnh.
+- Bài thực tế: vẽ hình, tìm tam giác vuông, chọn tỉ số, làm tròn ở bước cuối.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/right-triangle-side-angle-relations – BẢN TIẾNG ANH ########
+---
+title: Relations between sides and angles in a right-angled triangle, with applications
+description: Find sides of a right-angled triangle from one side and an acute angle, solve right-angled triangles and measure real heights and distances.
+minutes: 20
+---
+
+  :::goals
+  - Write and use the relations between the sides and angles of a right-angled triangle.
+  - Solve a right-angled triangle given two sides, or one side and one acute angle.
+  - Find real heights and distances without measuring them directly.
+  :::
+
+[[P1·ac7f]]
+Minh stands $15$ m from the foot of the school flagpole. He looks up at the top of the pole along a line that makes an angle of $35^\circ$ with the horizontal, and his eyes are $1.5$ m above the ground. Without climbing up, how can we find the height of the flagpole in metres?
+
+[[P2·378d]]
+In the right-angled triangle formed by Minh's eye, the top of the pole and the point on the pole level with his eye, we know one side ($15$ m) and one angle ($35^\circ$). This lesson shows how to find the other sides.
+
+## Relations between sides and angles
+
+[[P3·6492]]
+Take triangle $ABC$ with a right angle at $A$, and write $BC=a$, $CA=b$, $AB=c$. The two sides that form the right angle, $b$ and $c$, are called the **legs**.
+
+:::diagram The right-angled triangle $ABC$ with sides $a$, $b$, $c$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Explore
+
+[[P4·0a56]]
+From the definition, $\sin B=\dfrac{b}{a}$. Multiplying both sides by $a$ gives $b=a\sin B$. For example, if $a=10$ and $\angle B=30^\circ$, then $b=10\cdot\dfrac12=5$. Doing the same with the other ratios gives four relations.
+
+  :::theorem Relations between sides and angles in a right-angled triangle
+  In triangle $ABC$ with a right angle at $A$:
+  - Each leg equals the hypotenuse times the sine of the opposite angle, or times the cosine of the adjacent angle:
+  $$b=a\sin B=a\cos C,\qquad c=a\sin C=a\cos B.$$
+  - Each leg equals the other leg times the tangent of the opposite angle, or times the cotangent of the adjacent angle:
+  $$b=c\tan B=c\cot C,\qquad c=b\tan C=b\cot B.$$
+  :::
+
+[[P5·f706]]
+Why? Each equation is just a definition rewritten. For example, $\cos C=\dfrac{b}{a}$ (the side adjacent to $C$ is $b$), so $b=a\cos C$; and $\tan B=\dfrac bc$, so $b=c\tan B$.
+
+  :::example Given the hypotenuse and an acute angle
+  Triangle $ABC$ has a right angle at $A$, $BC=12$ cm and $\angle B=40^\circ$. Find $AC$ and $AB$ (rounded to two decimal places).
+
+  **Solution.** Applying the side–angle relations to triangle $ABC$ with a right angle at $A$ ($AC$ is opposite angle $B$, $AB$ is adjacent to it), we get
+
+  $$AC=BC\sin B=12\sin40^\circ\approx7.71;\qquad AB=BC\cos B=12\cos40^\circ\approx9.19.$$
+
+  So $AC\approx7.71$ cm and $AB\approx9.19$ cm.
+  :::
+
+[[P6·1531]]
+When we know a leg, we use the tangent or the cotangent.
+
+  :::example Given a leg and an acute angle
+  Triangle $ABC$ has a right angle at $A$, $AB=6$ cm and $\angle B=55^\circ$. Find $AC$ (rounded to two decimal places).
+
+  **Solution.** Applying the side–angle relations to triangle $ABC$ with a right angle at $A$ ($AC$ is opposite angle $B$, $AB$ is adjacent to it), we get
+
+  $$AC=AB\tan B=6\tan55^\circ\approx8.57.$$
+
+  So $AC\approx8.57$ cm.
+  :::
+
+## Solving a right-angled triangle
+
+[[P7·27b9]]
+**Solving a right-angled triangle** means finding all the remaining sides and angles from two known facts, at least one of which is a side. We use three tools: Pythagoras' theorem, $\angle B+\angle C=90^\circ$, and the relations above.
+
+  :::example Given the two legs
+  Solve triangle $ABC$ with a right angle at $A$, given $AB=5$ cm and $AC=7$ cm (angles to the nearest degree, sides to two decimal places).
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem) and $\tan B=\dfrac{AC}{AB}$. Hence
+
+  $$BC=\sqrt{5^2+7^2}=\sqrt{74}\approx8.60;\qquad \tan B=\frac75=1.4\Rightarrow \angle B\approx54^\circ;\qquad \angle C\approx90^\circ-54^\circ=36^\circ.$$
+
+  So $BC\approx8.60$ cm, $\angle B\approx54^\circ$ and $\angle C\approx36^\circ$.
+  :::
+
+  :::example Given the hypotenuse and an acute angle
+  Solve triangle $ABC$ with a right angle at $A$, given $BC=20$ cm and $\angle C=35^\circ$ (sides to two decimal places).
+
+  **Solution.** In the right-angled triangle $ABC$, $\angle B+\angle C=90^\circ$. Applying the side–angle relations ($AB$ is opposite angle $C$, $AC$ is adjacent to it), we get
+
+  $$\angle B=90^\circ-35^\circ=55^\circ;\qquad AB=20\sin35^\circ\approx11.47;\qquad AC=20\cos35^\circ\approx16.38.$$
+
+  So $\angle B=55^\circ$, $AB\approx11.47$ cm and $AC\approx16.38$ cm.
+  :::
+
+## Applications: measuring heights and distances
+
+[[P8·5371]]
+When we look up at an object, the angle between the line of sight and the horizontal is called the **angle of elevation**. When we look down, it is called the **angle of depression**. We draw a right-angled triangle with one horizontal side, then use the relations.
+
+:::diagram Measuring the height of the flagpole
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The height of the flagpole
+  Answer the question from the start (rounded to one decimal place).
+
+  **Solution.** *Understand:* $M$ is Minh's eye, $K$ is the point on the pole level with his eye, and $D$ is the top of the pole; $MK=15$ m, $\angle DMK=35^\circ$, $KF=1.5$ m. *Plan:* in triangle $MKD$ with a right angle at $K$, $DK$ is opposite angle $M$ and $MK$ is adjacent to it, so we use the tangent. The height of the pole is $DK$ plus the height $KF$ from Minh's eye to the ground. *Solve:* In triangle $MKD$ with a right angle at $K$, we have
+
+  $$DK=MK\tan35^\circ=15\tan35^\circ\approx10.50;\qquad DF=DK+KF\approx10.50+1.5=12.0.$$
+
+  So the flagpole is about $12.0$ m tall.
+  :::
+
+:::warning Common mistakes
+[[P9·0385]]
+- **Choosing the wrong ratio.** Wrong: $AC=BC\cos B$. Why it is wrong: $AC$ is opposite angle $B$, so it goes with sine. Right: $AC=BC\sin B$ (or $BC\cos C$).
+- **Dividing instead of multiplying.** Wrong: $AC=\dfrac{AB}{\tan B}$. Why it is wrong: $\tan B=\dfrac{AC}{AB}$, so $AC=AB\tan B$. Right: divide only when the side you want is in the denominator, for example $BC=\dfrac{AC}{\sin B}$.
+- **Rounding too early.** Wrong: in the kite problem, taking $\sin38^\circ\approx0.6$ and working out $50\cdot0.6=30$ (m). Why it is wrong: $50\sin38^\circ\approx30.78$, almost $0.8$ m more, and the error grows over several steps. Right: keep the full value on the calculator and round only the final answer.
+:::
+
+## Key terms
+
+  :::terms
+  - leg of a right-angled triangle | cạnh góc vuông
+  - hypotenuse | cạnh huyền
+  - opposite angle | góc đối
+  - adjacent angle | góc kề
+  - solving a right-angled triangle | giải tam giác vuông
+  - angle of elevation | góc nâng
+  - angle of depression | góc hạ
+  - horizontal | phương nằm ngang
+  :::
+
+## Summary
+
+[[P10·f33d]]
+- Triangle $ABC$ with a right angle at $A$: $b=a\sin B=a\cos C$, $c=a\sin C=a\cos B$.
+- $b=c\tan B=c\cot C$, $c=b\tan C=b\cot B$.
+- Solving a right-angled triangle: Pythagoras' theorem, $\angle B+\angle C=90^\circ$ and the relations; at least one side must be known.
+- Real-life problems: draw a picture, find the right-angled triangle, choose the ratio, round at the last step.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simplifying-root-expressions – BẢN TIẾNG VIỆT ########
+---
+title: Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai
+description: Đưa thừa số ra ngoài hoặc vào trong dấu căn, trục căn thức ở mẫu và rút gọn biểu thức chứa căn thức bậc hai.
+minutes: 20
+---
+
+  :::goals
+  - Đưa thừa số ra ngoài dấu căn và vào trong dấu căn, dùng để tính và so sánh.
+  - Khử mẫu của biểu thức lấy căn và trục căn thức ở mẫu.
+  - Rút gọn biểu thức chứa căn thức bậc hai theo các bước của đề thi vào lớp 10.
+  :::
+
+[[P1·27cb]]
+Nhà bác Lan có ba mảnh đất hình vuông nằm liền nhau trên một hàng, diện tích lần lượt là $12$ m², $27$ m² và $48$ m². Bác muốn làm hàng rào dọc theo cạnh phía trước của cả ba mảnh. Hàng rào dài bao nhiêu mét? Có viết được độ dài đúng thật gọn không?
+
+:::diagram Ba mảnh đất hình vuông xếp liền nhau
+   (… 17 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P2·9103]]
+Ba cạnh là $\sqrt{12}$, $\sqrt{27}$ và $\sqrt{48}$ m. Không có quy tắc cộng các căn, nhưng ta có thể biến đổi để chúng có chung một "phần căn".
+
+## Đưa thừa số ra ngoài và vào trong dấu căn
+
+### Khám phá
+
+[[P3·f5c1]]
+Ta tách mỗi số dưới dấu căn thành tích của một số chính phương với một số khác, rồi dùng $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
+
+  $$\sqrt{12}=\sqrt{4\cdot3}=2\sqrt3,\qquad \sqrt{27}=\sqrt{9\cdot3}=3\sqrt3,\qquad \sqrt{48}=\sqrt{16\cdot3}=4\sqrt3.$$
+
+[[P4·2032]]
+Ba căn bây giờ là các bội của cùng một số $\sqrt3$. Ta gọi chúng là các **căn thức đồng dạng**, và cộng được như cộng các đơn thức đồng dạng.
+
+  :::definition Đưa thừa số ra ngoài và vào trong dấu căn
+  Với $B\ge0$:
+  - **Đưa thừa số ra ngoài dấu căn:** $\sqrt{A^2B}=|A|\sqrt B$.
+  - **Đưa thừa số vào trong dấu căn:** $A\sqrt B=\sqrt{A^2B}$ nếu $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ nếu $A<0$.
+  :::
+
+[[P5·ba3c]]
+Công thức thứ nhất đúng vì $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. Công thức thứ hai là đọc ngược công thức thứ nhất; khi $A<0$ thì số $A\sqrt B$ âm, nên phải giữ dấu trừ bên ngoài.
+
+  :::example Cộng các căn thức đồng dạng
+  Tính độ dài hàng rào $\sqrt{12}+\sqrt{27}+\sqrt{48}$ (viết gọn, rồi làm tròn đến hàng phần trăm).
+
+  **Lời giải.** Đưa thừa số ra ngoài dấu căn như ở phần khám phá, ta có
+
+  $$\sqrt{12}+\sqrt{27}+\sqrt{48}=2\sqrt3+3\sqrt3+4\sqrt3=9\sqrt3\approx15{,}59.$$
+
+  Vậy hàng rào dài đúng $9\sqrt3$ m, khoảng $15{,}59$ m.
+  :::
+
+[[P6·5c23]]
+Khi dưới dấu căn có chữ, nhớ rằng $\sqrt{A^2}=|A|$ nên phải xét dấu của $A$.
+
+  :::example Đưa thừa số chứa chữ ra ngoài
+  Rút gọn: a) $\sqrt{50x^2}$ với $x<0$; b) $\sqrt{18a^3}$ với $a\ge0$.
+
+  **Lời giải.** Ở câu a, vì $x<0$ nên $|x|=-x$; ở câu b, vì $a\ge0$ nên $|3a|=3a$. Ta có
+
+  $$\sqrt{50x^2}=\sqrt{(5x)^2\cdot2}=5|x|\sqrt2=-5x\sqrt2;\qquad \sqrt{18a^3}=\sqrt{(3a)^2\cdot2a}=3a\sqrt{2a}.$$
+
+  Vậy a) bằng $-5x\sqrt2$; b) bằng $3a\sqrt{2a}$.
+  :::
+
+[[P7·a7fe]]
+Đưa thừa số vào trong dấu căn giúp so sánh hai số mà không cần máy tính.
+
+  :::example So sánh nhờ đưa vào trong dấu căn
+  So sánh $3\sqrt5$ và $2\sqrt{11}$.
+
+  **Lời giải.** Đưa thừa số vào trong dấu căn, ta có
+
+  $$3\sqrt5=\sqrt{9\cdot5}=\sqrt{45},\qquad 2\sqrt{11}=\sqrt{4\cdot11}=\sqrt{44}.$$
+
+  Vì $45>44$ nên $\sqrt{45}>\sqrt{44}$.
+
+  Vậy $3\sqrt5>2\sqrt{11}$.
+  :::
+
+## Khử mẫu và trục căn thức ở mẫu
+
+[[P8·b630]]
+Những số như $\dfrac{6}{\sqrt3}$ khó ước lượng vì mẫu là số vô tỉ. Ta biến đổi để mẫu không còn căn.
+
+  :::theorem Các phép biến đổi
+  - **Khử mẫu của biểu thức lấy căn:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$ với $AB\ge0$, $B\neq0$.
+  - **Trục căn thức ở mẫu:** $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$ với $B>0$.
+  - Với $A\ge0$, $A\neq B^2$: $\dfrac{C}{\sqrt A+B}=\dfrac{C\left(\sqrt A-B\right)}{A-B^2}$ và $\dfrac{C}{\sqrt A-B}=\dfrac{C\left(\sqrt A+B\right)}{A-B^2}$.
+  - Với $A$, $B\ge0$, $A\neq B$: $\dfrac{C}{\sqrt A+\sqrt B}=\dfrac{C\left(\sqrt A-\sqrt B\right)}{A-B}$ và $\dfrac{C}{\sqrt A-\sqrt B}=\dfrac{C\left(\sqrt A+\sqrt B\right)}{A-B}$.
+  :::
+
+[[P9·4a99]]
+Ý tưởng chung: nhân cả tử và mẫu với một biểu thức để mẫu thành hằng đẳng thức $(m+n)(m-n)=m^2-n^2$, trong đó bình phương làm mất căn. Hai biểu thức $\sqrt A+\sqrt B$ và $\sqrt A-\sqrt B$ gọi là hai **biểu thức liên hợp**.
+
+  :::example Trục căn thức ở mẫu
+  Trục căn thức ở mẫu: a) $\dfrac{6}{\sqrt3}$; b) $\dfrac{4}{\sqrt5-1}$; c) $\dfrac{1}{\sqrt7+\sqrt5}$.
+
+  **Lời giải.** Ở câu a, ta nhân cả tử và mẫu với $\sqrt3$; ở câu b và c, ta nhân cả tử và mẫu với biểu thức liên hợp của mẫu. Ta có
+
+  $$\begin{aligned} \text{a) }& \frac{6}{\sqrt3}=\frac{6\sqrt3}{3}=2\sqrt3;\\ \text{b) }& \frac{4}{\sqrt5-1}=\frac{4\left(\sqrt5+1\right)}{5-1}=\sqrt5+1;\\ \text{c) }& \frac{1}{\sqrt7+\sqrt5}=\frac{\sqrt7-\sqrt5}{7-5}=\frac{\sqrt7-\sqrt5}{2}. \end{aligned}$$
+
+  Vậy a) $2\sqrt3$; b) $\sqrt5+1$; c) $\dfrac{\sqrt7-\sqrt5}{2}$.
+  :::
+
+## Rút gọn biểu thức chứa căn thức bậc hai
+
+[[P10·04c2]]
+Bài rút gọn trong đề thi vào lớp 10 thường đi theo các bước: tìm điều kiện xác định, phân tích tử và mẫu thành nhân tử, quy đồng và thu gọn.
+
+  :::example Rút gọn một biểu thức chứa $\sqrt x$
+  Rút gọn $A=\dfrac{x-\sqrt x}{\sqrt x-1}+\dfrac{x-4}{\sqrt x+2}$ với $x\ge0$, $x\neq1$.
+
+  **Lời giải.** Vì $x\ge0$ nên $x=\left(\sqrt x\right)^2$. Do đó $x-\sqrt x=\sqrt x\left(\sqrt x-1\right)$ và $x-4=\left(\sqrt x-2\right)\left(\sqrt x+2\right)$. Ta có
+
+  $$A=\frac{\sqrt x\left(\sqrt x-1\right)}{\sqrt x-1}+\frac{\left(\sqrt x-2\right)\left(\sqrt x+2\right)}{\sqrt x+2}=\sqrt x+\sqrt x-2=2\sqrt x-2.$$
+
+  Vậy $A=2\sqrt x-2$ với $x\ge0$, $x\neq1$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P11·41af]]
+- **Cộng các căn không đồng dạng.** Sai: $\sqrt2+\sqrt3=\sqrt5$. Lí do sai: căn không cộng qua dấu cộng. Đúng: $\sqrt2+\sqrt3$ đã gọn; chỉ cộng được $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
+- **Đưa số âm vào trong dấu căn.** Sai: $-2\sqrt3=\sqrt{12}$. Lí do sai: vế trái âm, vế phải dương. Đúng: $-2\sqrt3=-\sqrt{12}$.
+- **Nhân liên hợp chỉ ở mẫu.** Sai: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Lí do sai: nhân mẫu với $\sqrt5+1$ thì phải nhân cả tử. Đúng: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
+- **Quên điều kiện khi rút gọn.** Sai: rút gọn $\dfrac{x-\sqrt x}{\sqrt x-1}$ mà không ghi $x\neq1$. Lí do sai: tại $x=1$ mẫu bằng $0$. Đúng: ghi rõ $x\ge0$, $x\neq1$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đưa thừa số ra ngoài dấu căn | take a factor outside the square root
+  - đưa thừa số vào trong dấu căn | move a factor inside the square root
+  - căn thức đồng dạng | like surds
+  - khử mẫu của biểu thức lấy căn | remove the denominator under the root sign
+  - trục căn thức ở mẫu | rationalise the denominator
+  - biểu thức liên hợp | conjugate
+  - rút gọn | simplify
+  - phân tích thành nhân tử | factorise
+  :::
+
+## Tóm tắt
+
+[[P12·7055]]
+- $\sqrt{A^2B}=|A|\sqrt B$ ($B\ge0$): tách ra một bình phương rồi đưa ra ngoài.
+- $A\sqrt B=\sqrt{A^2B}$ khi $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ khi $A<0$. Dùng để so sánh.
+- Căn đồng dạng: $a\sqrt c+b\sqrt c=(a+b)\sqrt c$.
+- $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$; với mẫu $\sqrt A\pm B$ hoặc $\sqrt A\pm\sqrt B$, nhân cả tử và mẫu với biểu thức liên hợp.
+- Rút gọn: điều kiện xác định → phân tích nhân tử → quy đồng → thu gọn → kiểm tra bằng một giá trị.
+
+## Luyện tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 50 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simplifying-root-expressions – BẢN TIẾNG ANH ########
+---
+title: Transforming and simplifying expressions with square roots
+description: Take a factor outside or inside the root sign, rationalise denominators and simplify expressions that contain square roots.
+minutes: 20
+---
+
+  :::goals
+  - Take a factor outside the root sign and move a factor inside it, to calculate and to compare.
+  - Remove the denominator under a root sign and rationalise a denominator.
+  - Simplify expressions with square roots, step by step, as in the grade 10 entrance exam.
+  :::
+
+[[P1·d870]]
+Mrs Lan has three square plots of land side by side in a row, with areas of $12$ m², $27$ m² and $48$ m². She wants a fence along the front edge of all three plots. How long is the fence? Can we write its exact length in a neat form?
+
+:::diagram Three square plots side by side
+   (… 17 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P2·0d88]]
+The three sides are $\sqrt{12}$, $\sqrt{27}$ and $\sqrt{48}$ m. There is no rule for adding square roots, but we can transform them so that they share the same "root part".
+
+## Taking factors outside and inside the root sign
+
+### Explore
+
+[[P3·89f9]]
+We split each number under the root sign into a perfect square times another number, then use $\sqrt{ab}=\sqrt a\cdot\sqrt b$:
+
+  $$\sqrt{12}=\sqrt{4\cdot3}=2\sqrt3,\qquad \sqrt{27}=\sqrt{9\cdot3}=3\sqrt3,\qquad \sqrt{48}=\sqrt{16\cdot3}=4\sqrt3.$$
+
+[[P4·c65b]]
+The three roots are now multiples of the same number $\sqrt3$. A square root such as $\sqrt3$ that cannot be written as a whole number or a fraction is called a **surd**. Surds that are multiples of the same root are **like surds**, and we add them just as we add like terms.
+
+  :::definition Taking a factor outside or inside the root sign
+  For $B\ge0$:
+  - **Taking a factor outside the root sign:** $\sqrt{A^2B}=|A|\sqrt B$.
+  - **Moving a factor inside the root sign:** $A\sqrt B=\sqrt{A^2B}$ if $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ if $A<0$.
+  :::
+
+[[P5·eccc]]
+The first formula holds because $\sqrt{A^2B}=\sqrt{A^2}\cdot\sqrt B=|A|\sqrt B$. The second is the first one read backwards; when $A<0$ the number $A\sqrt B$ is negative, so the minus sign must stay outside.
+
+  :::example Adding like surds
+  Find the length of the fence $\sqrt{12}+\sqrt{27}+\sqrt{48}$ (in a neat form, then rounded to two decimal places).
+
+  **Solution.** Taking the factors outside the root sign as in the exploration, we have
+
+  $$\sqrt{12}+\sqrt{27}+\sqrt{48}=2\sqrt3+3\sqrt3+4\sqrt3=9\sqrt3\approx15.59.$$
+
+  So the fence is exactly $9\sqrt3$ m long, about $15.59$ m.
+  :::
+
+[[P6·ceec]]
+When there are letters under the root sign, remember that $\sqrt{A^2}=|A|$, so we must look at the sign of $A$.
+
+  :::example Taking a factor with letters outside
+  Simplify: a) $\sqrt{50x^2}$ for $x<0$; b) $\sqrt{18a^3}$ for $a\ge0$.
+
+  **Solution.** In a), since $x<0$, $|x|=-x$; in b), since $a\ge0$, $|3a|=3a$. We have
+
+  $$\sqrt{50x^2}=\sqrt{(5x)^2\cdot2}=5|x|\sqrt2=-5x\sqrt2;\qquad \sqrt{18a^3}=\sqrt{(3a)^2\cdot2a}=3a\sqrt{2a}.$$
+
+  So a) equals $-5x\sqrt2$ and b) equals $3a\sqrt{2a}$.
+  :::
+
+[[P7·3479]]
+Moving a factor inside the root sign lets us compare two numbers without a calculator.
+
+  :::example Comparing by moving factors inside
+  Compare $3\sqrt5$ and $2\sqrt{11}$.
+
+  **Solution.** Moving the factors inside the root sign, we have
+
+  $$3\sqrt5=\sqrt{9\cdot5}=\sqrt{45},\qquad 2\sqrt{11}=\sqrt{4\cdot11}=\sqrt{44}.$$
+
+  Since $45>44$, $\sqrt{45}>\sqrt{44}$.
+
+  So $3\sqrt5>2\sqrt{11}$.
+  :::
+
+## Removing denominators and rationalising
+
+[[P8·e2df]]
+Numbers like $\dfrac{6}{\sqrt3}$ are hard to estimate because the denominator is irrational. We transform them so that the denominator has no root.
+
+  :::theorem The transformations
+  - **Removing the denominator under the root sign:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$ for $AB\ge0$, $B\neq0$.
+  - **Rationalising the denominator:** $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$ for $B>0$.
+  - For $A\ge0$, $A\neq B^2$: $\dfrac{C}{\sqrt A+B}=\dfrac{C\left(\sqrt A-B\right)}{A-B^2}$ and $\dfrac{C}{\sqrt A-B}=\dfrac{C\left(\sqrt A+B\right)}{A-B^2}$.
+  - For $A$, $B\ge0$, $A\neq B$: $\dfrac{C}{\sqrt A+\sqrt B}=\dfrac{C\left(\sqrt A-\sqrt B\right)}{A-B}$ and $\dfrac{C}{\sqrt A-\sqrt B}=\dfrac{C\left(\sqrt A+\sqrt B\right)}{A-B}$.
+  :::
+
+[[P9·9e9f]]
+The common idea: multiply the numerator and the denominator by an expression that turns the denominator into the identity $(m+n)(m-n)=m^2-n^2$, where squaring removes the root. The expressions $\sqrt A+\sqrt B$ and $\sqrt A-\sqrt B$ are called **conjugates**.
+
+  :::example Rationalising denominators
+  Rationalise the denominator: a) $\dfrac{6}{\sqrt3}$; b) $\dfrac{4}{\sqrt5-1}$; c) $\dfrac{1}{\sqrt7+\sqrt5}$.
+
+  **Solution.** In a), we multiply the numerator and the denominator by $\sqrt3$; in b) and c), we multiply them by the conjugate of the denominator. We have
+
+  $$\begin{aligned} \text{a) }& \frac{6}{\sqrt3}=\frac{6\sqrt3}{3}=2\sqrt3;\\ \text{b) }& \frac{4}{\sqrt5-1}=\frac{4\left(\sqrt5+1\right)}{5-1}=\sqrt5+1;\\ \text{c) }& \frac{1}{\sqrt7+\sqrt5}=\frac{\sqrt7-\sqrt5}{7-5}=\frac{\sqrt7-\sqrt5}{2}. \end{aligned}$$
+
+  So a) $2\sqrt3$; b) $\sqrt5+1$; c) $\dfrac{\sqrt7-\sqrt5}{2}$.
+  :::
+
+## Simplifying expressions with square roots
+
+[[P10·a7c8]]
+A simplification question in the grade 10 entrance exam usually follows these steps: find the condition for the expression to be defined, factorise the numerators and denominators, write over a common denominator, and collect terms.
+
+  :::example Simplifying an expression with $\sqrt x$
+  Simplify $A=\dfrac{x-\sqrt x}{\sqrt x-1}+\dfrac{x-4}{\sqrt x+2}$ for $x\ge0$, $x\neq1$.
+
+  **Solution.** Since $x\ge0$, $x=\left(\sqrt x\right)^2$. Hence $x-\sqrt x=\sqrt x\left(\sqrt x-1\right)$ and $x-4=\left(\sqrt x-2\right)\left(\sqrt x+2\right)$. We have
+
+  $$A=\frac{\sqrt x\left(\sqrt x-1\right)}{\sqrt x-1}+\frac{\left(\sqrt x-2\right)\left(\sqrt x+2\right)}{\sqrt x+2}=\sqrt x+\sqrt x-2=2\sqrt x-2.$$
+
+  So $A=2\sqrt x-2$ for $x\ge0$, $x\neq1$.
+  :::
+
+:::warning Common mistakes
+[[P11·f412]]
+- **Adding unlike surds.** Wrong: $\sqrt2+\sqrt3=\sqrt5$. Why it is wrong: a root does not split over addition. Right: $\sqrt2+\sqrt3$ is already simplest; we can only add $a\sqrt3+b\sqrt3=(a+b)\sqrt3$.
+- **Moving a negative number inside the root.** Wrong: $-2\sqrt3=\sqrt{12}$. Why it is wrong: the left side is negative and the right side is positive. Right: $-2\sqrt3=-\sqrt{12}$.
+- **Multiplying only the denominator by the conjugate.** Wrong: $\dfrac{4}{\sqrt5-1}=\dfrac{4}{4}=1$. Why it is wrong: if the denominator is multiplied by $\sqrt5+1$, so must the numerator be. Right: $\dfrac{4\left(\sqrt5+1\right)}{4}=\sqrt5+1$.
+- **Forgetting the conditions when simplifying.** Wrong: simplifying $\dfrac{x-\sqrt x}{\sqrt x-1}$ without writing $x\neq1$. Why it is wrong: at $x=1$ the denominator is $0$. Right: state $x\ge0$, $x\neq1$.
+:::
+
+## Key terms
+
+  :::terms
+  - take a factor outside the square root | đưa thừa số ra ngoài dấu căn
+  - move a factor inside the square root | đưa thừa số vào trong dấu căn
+  - like surds | căn thức đồng dạng
+  - remove the denominator under the root sign | khử mẫu của biểu thức lấy căn
+  - rationalise the denominator | trục căn thức ở mẫu
+  - conjugate | biểu thức liên hợp
+  - simplify | rút gọn
+  - factorise | phân tích thành nhân tử
+  :::
+
+## Summary
+
+[[P12·2028]]
+- $\sqrt{A^2B}=|A|\sqrt B$ ($B\ge0$): split off a square and take it outside.
+- $A\sqrt B=\sqrt{A^2B}$ when $A\ge0$; $A\sqrt B=-\sqrt{A^2B}$ when $A<0$. Useful for comparing.
+- Like surds: $a\sqrt c+b\sqrt c=(a+b)\sqrt c$.
+- $\dfrac{A}{\sqrt B}=\dfrac{A\sqrt B}{B}$; with a denominator $\sqrt A\pm B$ or $\sqrt A\pm\sqrt B$, multiply the numerator and the denominator by the conjugate.
+- Simplifying: conditions → factorise → common denominator → collect terms → check with one value.
+
+## Practice
+
+[[P13·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 50 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simultaneous-equation-problems – BẢN TIẾNG VIỆT ########
+---
+title: Giải bài toán bằng cách lập hệ phương trình
+description: Chọn ẩn, đặt điều kiện, lập và giải hệ hai phương trình bậc nhất hai ẩn để giải các bài toán thực tế về số, chuyển động, năng suất và pha trộn.
+minutes: 20
+---
+
+  :::goals
+  - Biết ba bước giải bài toán bằng cách lập hệ phương trình.
+  - Chọn ẩn, đặt điều kiện và biểu diễn các đại lượng chưa biết theo ẩn.
+  - Giải các bài toán về số, chuyển động, phần trăm và pha trộn dung dịch.
+  :::
+
+[[P1·fa7a]]
+Một trang trại nuôi gà và bò, tổng cộng $50$ con. Bạn Nam đếm được tất cả $140$ cái chân. Trang trại có bao nhiêu con gà, bao nhiêu con bò?
+
+[[P2·6dfe]]
+Bài toán có hai số chưa biết và hai điều kiện. Đó là dấu hiệu để lập một hệ hai phương trình.
+
+## Ba bước giải bài toán
+
+### Khám phá: thử giả sử
+
+[[P3·288b]]
+Giả sử cả $50$ con đều là gà, thì có $50\cdot2=100$ chân, thiếu $140-100=40$ chân. Mỗi lần đổi một con gà thành một con bò, số chân tăng $2$. Vậy cần đổi $40:2=20$ con, tức là có $20$ con bò và $30$ con gà.
+
+[[P4·548c]]
+Cách giả sử rất khéo nhưng khó nghĩ ra với bài phức tạp. Lập hệ phương trình là cách làm chung cho mọi bài.
+
+  :::definition Các bước giải bài toán bằng cách lập hệ phương trình
+  1. **Lập hệ phương trình:** chọn hai ẩn và đặt điều kiện cho ẩn; biểu diễn các đại lượng chưa biết theo ẩn; lập hai phương trình từ hai điều kiện của đề.
+  2. **Giải hệ phương trình** vừa lập.
+  3. **Trả lời:** kiểm tra nghiệm có thoả mãn điều kiện của ẩn không, rồi kết luận.
+  :::
+
+  :::example Gà và bò
+  Giải bài toán ở đầu bài bằng cách lập hệ phương trình.
+
+  **Lời giải.** Gọi $x$ là số gà, $y$ là số bò ($x$, $y$ là số tự nhiên). Gà có $2$ chân, bò có $4$ chân, nên:
+
+  $$\begin{cases} x+y=50\\ 2x+4y=140 \end{cases}\iff\begin{cases} x+y=50\\ x+2y=70 \end{cases}\Rightarrow y=20,\ x=30.$$
+
+  Hai số đều là số tự nhiên. Vậy trang trại có $30$ con gà và $20$ con bò.
+  :::
+
+:::graph Nghiệm là giao điểm của hai đường thẳng
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài toán về số và bài toán chuyển động
+
+[[P5·71ad]]
+Trong bài toán về chữ số, số có hai chữ số với chữ số hàng chục $a$ và hàng đơn vị $b$ được viết là $\overline{ab}=10a+b$.
+
+  :::example Đổi chỗ hai chữ số
+  Một số có hai chữ số, tổng hai chữ số bằng $11$. Nếu đổi chỗ hai chữ số thì được số mới lớn hơn số cũ $27$ đơn vị. Tìm số đó.
+
+  **Lời giải.** Gọi chữ số hàng chục là $a$, hàng đơn vị là $b$ ($a$, $b$ là chữ số, $a\neq0$, $b\neq0$). Số cũ là $10a+b$, số mới là $10b+a$:
+
+  $$\begin{cases} a+b=11\\ (10b+a)-(10a+b)=27 \end{cases}\iff\begin{cases} a+b=11\\ b-a=3 \end{cases}\Rightarrow b=7,\ a=4.$$
+
+  Vậy số cần tìm là $47$.
+
+  **Kiểm tra.** $74-47=27$.
+  :::
+
+[[P6·910f]]
+Bài toán chuyển động trên sông nhiều dữ kiện hơn, nên ta làm theo bốn bước.
+
+  :::example Ca nô xuôi dòng, ngược dòng
+  Một ca nô đi xuôi dòng $48$ km mất $2$ giờ, đi ngược dòng $48$ km mất $3$ giờ. Tìm vận tốc của ca nô khi nước yên lặng và vận tốc của dòng nước.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Khi xuôi dòng, nước đẩy ca nô đi nhanh hơn; khi ngược dòng, nước cản lại.
+
+  *Tìm cách giải.* Gọi $x$ là vận tốc ca nô khi nước yên lặng, $y$ là vận tốc dòng nước (km/h, $x>y>0$). Vận tốc xuôi dòng là $x+y$, ngược dòng là $x-y$.
+
+  *Giải.* Vận tốc xuôi dòng là $48:2=24$ km/h, ngược dòng là $48:3=16$ km/h:
+
+  $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
+
+  *Nhìn lại.* $x=20>y=4>0$, thoả mãn điều kiện. Vậy ca nô đi $20$ km/h khi nước yên lặng, dòng nước chảy $4$ km/h.
+  :::
+
+## Bài toán về phần trăm
+
+[[P7·224b]]
+Khi một đại lượng $x$ tăng $15\%$, phần tăng thêm là $0{,}15x$ và giá trị mới là $1{,}15x$ (không phải $x+15$).
+
+  :::example Hai tổ sản xuất
+  Tháng trước, hai tổ sản xuất làm được $800$ sản phẩm. Tháng này, so với tháng trước, tổ I làm vượt mức $15\%$, tổ II làm vượt mức $20\%$, nên cả hai tổ làm được $945$ sản phẩm. Tháng trước mỗi tổ làm được bao nhiêu sản phẩm?
+
+  **Lời giải.** Gọi $x$, $y$ là số sản phẩm tháng trước của tổ I và tổ II ($x$, $y$ nguyên dương). Phần vượt mức của cả hai tổ là $945-800=145$ sản phẩm:
+
+  $$\begin{cases} x+y=800\\ 0{,}15x+0{,}2y=145 \end{cases}\iff\begin{cases} x+y=800\\ 3x+4y=2900 \end{cases}\Rightarrow y=2900-3\cdot800=500,\ x=300.$$
+
+  Vậy tháng trước tổ I làm $300$ sản phẩm, tổ II làm $500$ sản phẩm.
+
+  **Kiểm tra.** $1{,}15\cdot300+1{,}2\cdot500=345+600=945$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P8·8106]]
+- **Không đặt điều kiện cho ẩn.** Số con vật, số người phải là số tự nhiên; vận tốc phải dương. Nếu giải ra $y=-3$ hay $x=12{,}5$ con gà thì phải xem lại cách lập hệ.
+- **Hiểu sai phần trăm.** Sai: "tăng $15\%$" thành $x+15$. Lí do sai: $15\%$ là $15\%$ **của $x$**. Đúng: $x+0{,}15x=1{,}15x$.
+- **Lẫn đơn vị.** Sai: đi $12$ km/h trong $30$ phút được $12\cdot30=360$ km. Lí do sai: vận tốc tính theo giờ. Đúng: $30$ phút $=0{,}5$ giờ, được $6$ km.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - giải bài toán bằng cách lập hệ phương trình | solving word problems with simultaneous equations
+  - chọn ẩn | choose the unknowns
+  - điều kiện của ẩn | condition on the unknowns
+  - vận tốc | speed
+  - xuôi dòng / ngược dòng | downstream / upstream
+  - vượt mức | exceed (a previous level)
+  - nồng độ phần trăm | percentage concentration
+  - dung dịch | solution (mixture)
+  :::
+
+## Tóm tắt
+
+[[P9·c6c5]]
+- Bước 1: chọn hai ẩn, đặt điều kiện, biểu diễn các đại lượng, lập hai phương trình.
+- Bước 2: giải hệ (phương pháp thế hoặc cộng đại số).
+- Bước 3: đối chiếu điều kiện rồi trả lời, có đơn vị.
+- Số $\overline{ab}=10a+b$; xuôi dòng $x+y$, ngược dòng $x-y$; tăng $p\%$ thì nhân với $1+\dfrac{p}{100}$.
+
+## Luyện tập
+
+[[P10·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 42 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simultaneous-equation-problems – BẢN TIẾNG ANH ########
+---
+title: Solving word problems with simultaneous equations
+description: Choose unknowns, state conditions, form and solve simultaneous linear equations for real problems about numbers, speed, percentages and mixtures.
+minutes: 20
+---
+
+  :::goals
+  - Know the three steps for solving a word problem with simultaneous equations.
+  - Choose the unknowns, state their conditions and write the other quantities in terms of them.
+  - Solve problems about numbers, motion, percentages and mixing solutions.
+  :::
+
+[[P1·1701]]
+A farm keeps chickens and cows, $50$ animals in all. Nam counts $140$ legs altogether. How many chickens and how many cows are there on the farm?
+
+[[P2·0c6c]]
+The problem has two unknown numbers and two conditions. That is the sign that we should form a pair of simultaneous equations.
+
+## Three steps to solve a problem
+
+### Explore: suppose that…
+
+[[P3·072a]]
+Suppose all $50$ animals were chickens. Then there would be $50\cdot2=100$ legs, which is $140-100=40$ legs short. Each time we swap a chicken for a cow, the number of legs goes up by $2$. So we need $40\div2=20$ swaps: there are $20$ cows and $30$ chickens.
+
+[[P4·e56d]]
+The "suppose" trick is clever but hard to find for harder problems. Forming simultaneous equations is a general method that works for every problem.
+
+  :::definition Steps for solving a problem with simultaneous equations
+  1. **Form the equations:** choose two unknowns and state their conditions; write the other unknown quantities in terms of them; form two equations from the two conditions in the problem.
+  2. **Solve the simultaneous equations.**
+  3. **Answer:** check that the solution satisfies the conditions on the unknowns, then state the answer.
+  :::
+
+  :::example Chickens and cows
+  Solve the problem at the start by forming simultaneous equations.
+
+  **Solution.** Let $x$ be the number of chickens and $y$ the number of cows ($x$, $y$ whole numbers). A chicken has $2$ legs and a cow has $4$, so:
+
+  $$\begin{cases} x+y=50\\ 2x+4y=140 \end{cases}\iff\begin{cases} x+y=50\\ x+2y=70 \end{cases}\Rightarrow y=20,\ x=30.$$
+
+  Both numbers are whole numbers. So the farm has $30$ chickens and $20$ cows.
+  :::
+
+:::graph The solution is where the two lines meet
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Number problems and motion problems
+
+[[P5·0be9]]
+In digit problems, a two-digit number with tens digit $a$ and units digit $b$ is written $\overline{ab}=10a+b$.
+
+  :::example Swapping the digits
+  A two-digit number has digits that add up to $11$. If the two digits are swapped, the new number is $27$ more than the original number. Find the number.
+
+  **Solution.** Let the tens digit be $a$ and the units digit be $b$ ($a$, $b$ digits, $a\neq0$, $b\neq0$). The original number is $10a+b$ and the new number is $10b+a$:
+
+  $$\begin{cases} a+b=11\\ (10b+a)-(10a+b)=27 \end{cases}\iff\begin{cases} a+b=11\\ b-a=3 \end{cases}\Rightarrow b=7,\ a=4.$$
+
+  So the number is $47$.
+
+  **Check.** $74-47=27$.
+  :::
+
+[[P6·9bbf]]
+A motion problem on a river has more data, so we work through the four steps.
+
+  :::example A boat downstream and upstream
+  A motor boat travels $48$ km downstream in $2$ hours and $48$ km upstream in $3$ hours. Find the speed of the boat in still water and the speed of the current.
+
+  **Solution.**
+
+  *Understand.* Going downstream the current pushes the boat along; going upstream it holds the boat back.
+
+  *Plan.* Let $x$ be the speed of the boat in still water and $y$ the speed of the current (km/h, $x>y>0$). The downstream speed is $x+y$ and the upstream speed is $x-y$.
+
+  *Solve.* The downstream speed is $48\div2=24$ km/h and the upstream speed is $48\div3=16$ km/h:
+
+  $$\begin{cases} x+y=24\\ x-y=16 \end{cases}\Rightarrow 2x=40,\ x=20,\ y=4.$$
+
+  *Look back.* $x=20>y=4>0$, so the conditions hold. The boat travels at $20$ km/h in still water and the current flows at $4$ km/h.
+  :::
+
+## Percentage problems
+
+[[P7·6ce7]]
+When a quantity $x$ increases by $15\%$, the increase is $0.15x$ and the new value is $1.15x$ (not $x+15$).
+
+  :::example Two production teams
+  Last month two production teams made $800$ products. This month team I made $15\%$ more than last month and team II made $20\%$ more, so together they made $945$ products. How many products did each team make last month?
+
+  **Solution.** Let $x$ and $y$ be the numbers of products made last month by team I and team II ($x$, $y$ positive whole numbers). Together the extra products come to $945-800=145$:
+
+  $$\begin{cases} x+y=800\\ 0.15x+0.2y=145 \end{cases}\iff\begin{cases} x+y=800\\ 3x+4y=2900 \end{cases}\Rightarrow y=2900-3\cdot800=500,\ x=300.$$
+
+  So last month team I made $300$ products and team II made $500$.
+
+  **Check.** $1.15\cdot300+1.2\cdot500=345+600=945$.
+  :::
+
+:::warning Common mistakes
+[[P8·b3eb]]
+- **No conditions on the unknowns.** Numbers of animals or people must be whole numbers; speeds must be positive. If you get $y=-3$ or $x=12.5$ chickens, go back and check how you formed the equations.
+- **Misreading percentages.** Wrong: "an increase of $15\%$" becomes $x+15$. Why it is wrong: it is $15\%$ **of $x$**. Right: $x+0.15x=1.15x$.
+- **Mixing units.** Wrong: at $12$ km/h for $30$ minutes you cover $12\cdot30=360$ km. Why it is wrong: the speed is per hour. Right: $30$ minutes $=0.5$ hours, so you cover $6$ km.
+:::
+
+## Key terms
+
+  :::terms
+  - solving word problems with simultaneous equations | giải bài toán bằng cách lập hệ phương trình
+  - choose the unknowns | chọn ẩn
+  - condition on the unknowns | điều kiện của ẩn
+  - speed | vận tốc
+  - downstream / upstream | xuôi dòng / ngược dòng
+  - exceed (a previous level) | vượt mức
+  - percentage concentration | nồng độ phần trăm
+  - solution (mixture) | dung dịch
+  :::
+
+## Summary
+
+[[P9·d3e8]]
+- Step 1: choose two unknowns, state their conditions, write the quantities in terms of them, form two equations.
+- Step 2: solve the equations (substitution or elimination).
+- Step 3: check against the conditions, then answer, with units.
+- $\overline{ab}=10a+b$; downstream $x+y$, upstream $x-y$; an increase of $p\%$ means multiplying by $1+\dfrac{p}{100}$.
+
+## Practice
+
+[[P10·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 42 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simultaneous-equations-intro – BẢN TIẾNG VIỆT ########
+---
+title: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn
+description: Nhận biết phương trình bậc nhất hai ẩn, kiểm tra nghiệm, biểu diễn tập nghiệm bằng đường thẳng và hiểu nghiệm của hệ hai phương trình.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết phương trình bậc nhất hai ẩn $ax+by=c$ và kiểm tra một cặp số có phải là nghiệm không.
+  - Biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn bằng một đường thẳng trong mặt phẳng toạ độ.
+  - Nhận biết hệ hai phương trình bậc nhất hai ẩn và kiểm tra nghiệm của hệ.
+  :::
+
+[[P1·b355]]
+Bạn Lan có $60$ nghìn đồng để mua đồ dùng học tập. Mỗi chiếc bút giá $5$ nghìn đồng, mỗi quyển vở giá $8$ nghìn đồng, và Lan muốn tiêu vừa hết số tiền. Lan có thể mua bao nhiêu bút, bao nhiêu vở? Nếu Lan muốn mua đúng $9$ món đồ thì sao?
+
+[[P2·6ec1]]
+Bài toán có hai số chưa biết: số bút và số vở. Ta cần một loại phương trình mới, có **hai ẩn**.
+
+## Phương trình bậc nhất hai ẩn
+
+### Khám phá: những cách mua vừa hết tiền
+
+[[P3·f9ed]]
+Gọi $x$ là số bút, $y$ là số vở. Tổng số tiền là $5x+8y$ (nghìn đồng), nên điều kiện "vừa hết tiền" là $5x+8y=60$. Ta thử vài giá trị của $x$ và tính $y=\dfrac{60-5x}{8}$:
+
+| $x$ | $0$ | $4$ | $8$ | $12$ |
+|---|---|---|---|---|
+| $y$ | $7{,}5$ | $5$ | $2{,}5$ | $0$ |
+
+[[P4·79f7]]
+Mỗi giá trị của $x$ cho một giá trị của $y$, nên có rất nhiều cặp số thoả mãn. Nhưng số bút, số vở phải là số tự nhiên, nên chỉ có hai cách mua: $4$ bút và $5$ vở, hoặc $12$ bút.
+
+  :::definition Phương trình bậc nhất hai ẩn
+  **Phương trình bậc nhất hai ẩn** $x$ và $y$ là hệ thức dạng
+  $$ax+by=c,$$
+  trong đó $a$, $b$, $c$ là các số đã biết, $a\neq 0$ hoặc $b\neq 0$.
+
+  Nếu $ax_0+by_0=c$ thì cặp số $(x_0; y_0)$ là một **nghiệm** của phương trình.
+  :::
+
+  :::example Kiểm tra nghiệm
+  Trong các cặp số $(1; -1)$, $(3; 2)$, $(-2; -3)$, cặp nào là nghiệm của phương trình $2x-3y=5$?
+
+  **Lời giải.** Thay từng cặp vào vế trái $2x-3y$ rồi so sánh với $5$:
+
+  $$\begin{aligned} (1; -1):&\quad 2\cdot1-3\cdot(-1)=2+3=5;\\ (3; 2):&\quad 2\cdot3-3\cdot2=0\neq5;\\ (-2; -3):&\quad 2\cdot(-2)-3\cdot(-3)=-4+9=5. \end{aligned}$$
+
+  Vậy $(1; -1)$ và $(-2; -3)$ là nghiệm, còn $(3; 2)$ không phải là nghiệm.
+  :::
+
+## Biểu diễn tập nghiệm bằng đường thẳng
+
+[[P5·559f]]
+Phương trình bậc nhất hai ẩn luôn có vô số nghiệm. Mỗi nghiệm $(x_0; y_0)$ là một điểm trong mặt phẳng toạ độ, và tất cả các điểm đó nằm trên một đường thẳng.
+
+[[P6·993b]]
+- Nếu $b\neq 0$: ta viết $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. Đây là đồ thị của hàm số bậc nhất (hoặc hàm hằng khi $a=0$) mà bạn đã học ở lớp 8.
+- Nếu $b=0$ (khi đó $a\neq0$): phương trình trở thành $x=\dfrac{c}{a}$, là một đường thẳng song song với trục tung (hoặc trùng với trục tung khi $c=0$).
+
+  :::example Vẽ đường thẳng biểu diễn tập nghiệm
+  Biểu diễn tập nghiệm của mỗi phương trình trên cùng một mặt phẳng toạ độ: a) $x+2y=4$; b) $0x+y=3$; c) $2x+0y=-2$.
+
+  **Lời giải.** Ta đưa từng phương trình về dạng $y=\dots$ hoặc $x=\dots$:
+
+  $$\begin{aligned} \text{a) }& x+2y=4\iff y=-\tfrac12x+2;\\ \text{b) }& 0x+y=3\iff y=3;\\ \text{c) }& 2x+0y=-2\iff x=-1. \end{aligned}$$
+
+  Vậy a) là đường thẳng đi qua $(0; 2)$ và $(4; 0)$; b) là đường thẳng song song với trục hoành, cắt trục tung tại $(0; 3)$; c) là đường thẳng song song với trục tung, cắt trục hoành tại $(-1; 0)$.
+  :::
+
+:::graph Ba đường thẳng biểu diễn tập nghiệm
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Hệ hai phương trình bậc nhất hai ẩn
+
+[[P7·031a]]
+Quay lại bài toán của Lan. Nếu Lan muốn mua đúng $9$ món đồ thì $x$ và $y$ phải thoả mãn **cùng lúc** hai phương trình: $5x+8y=60$ và $x+y=9$.
+
+  :::definition Hệ hai phương trình bậc nhất hai ẩn
+  **Hệ hai phương trình bậc nhất hai ẩn** có dạng
+  $$\begin{cases} ax+by=c\\ a'x+b'y=c' \end{cases}$$
+  trong đó mỗi phương trình là một phương trình bậc nhất hai ẩn. Cặp số $(x_0; y_0)$ là **nghiệm của hệ** nếu nó là nghiệm của **cả hai** phương trình.
+  :::
+
+[[P8·1b7b]]
+Về hình học, nghiệm của hệ là toạ độ giao điểm của hai đường thẳng biểu diễn hai phương trình.
+
+  :::example Nghiệm của hệ
+  Cặp số nào trong hai cặp $(2; 1)$ và $(3; -1)$ là nghiệm của hệ $\begin{cases} x+y=3\\ 2x-y=3 \end{cases}$?
+
+  **Lời giải.** Một cặp số là nghiệm của hệ khi nó thoả mãn cả hai phương trình, nên ta kiểm tra từng phương trình:
+
+  $$\begin{aligned} (2; 1):&\quad 2+1=3,\quad 2\cdot2-1=3;\\ (3; -1):&\quad 3+(-1)=2\neq 3. \end{aligned}$$
+
+  Vậy $(2; 1)$ là nghiệm của hệ; $(3; -1)$ không phải là nghiệm vì không thoả mãn phương trình thứ nhất.
+  :::
+
+[[P9·1d1f]]
+Bây giờ ta trả lời câu hỏi thứ hai ở đầu bài.
+
+  :::example Lập hệ từ bài toán mua đồ
+  Lan muốn tiêu vừa hết $60$ nghìn đồng và mua đúng $9$ món đồ. Lập hệ phương trình và chứng tỏ $(4; 5)$ là nghiệm của hệ.
+
+  **Lời giải.** Gọi $x$ là số bút, $y$ là số vở ($x$, $y$ là số tự nhiên). Tiền mua là $5x+8y$, số món đồ là $x+y$, nên:
+
+  $$\begin{cases} 5x+8y=60\\ x+y=9 \end{cases}\qquad 5\cdot4+8\cdot5=20+40=60,\quad 4+5=9.$$
+
+  Vậy Lan mua $4$ bút và $5$ vở. Bài sau sẽ chỉ cách tìm nghiệm này mà không cần đoán.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P10·042f]]
+- **Đảo thứ tự trong cặp số.** Sai: "$(5; 4)$ là cách mua $4$ bút, $5$ vở". Lí do sai: số đứng trước là $x$ (số bút). Đúng: cách mua đó là $(4; 5)$.
+- **Chỉ kiểm tra một phương trình của hệ.** Sai: "$(3; -1)$ thoả mãn $2x-y=7$ nên là nghiệm của hệ $x+y=3$, $2x-y=7$". Lí do sai: $3+(-1)=2\neq3$. Đúng: phải thoả mãn **cả hai** phương trình.
+- **Cho rằng $0x+3y=6$ không phải phương trình bậc nhất hai ẩn.** Lí do sai: chỉ cần $a$ hoặc $b$ khác $0$. Đúng: đây là phương trình bậc nhất hai ẩn, tập nghiệm là đường thẳng $y=2$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phương trình bậc nhất hai ẩn | linear equation in two unknowns
+  - ẩn | unknown
+  - hệ số | coefficient
+  - nghiệm | solution
+  - tập nghiệm | solution set
+  - hệ hai phương trình bậc nhất hai ẩn | simultaneous linear equations in two unknowns
+  - nghiệm của hệ | solution of the simultaneous equations
+  - mặt phẳng toạ độ | coordinate plane
+  :::
+
+## Tóm tắt
+
+[[P11·08b9]]
+- Phương trình bậc nhất hai ẩn: $ax+by=c$ với $a\neq0$ hoặc $b\neq0$.
+- $(x_0; y_0)$ là nghiệm khi $ax_0+by_0=c$; phương trình có vô số nghiệm.
+- Tập nghiệm là một đường thẳng: $y=-\dfrac{a}{b}x+\dfrac{c}{b}$ nếu $b\neq0$; $x=\dfrac{c}{a}$ nếu $b=0$.
+- Nghiệm của hệ hai phương trình là cặp số thoả mãn **cả hai** phương trình, tức là giao điểm của hai đường thẳng.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/simultaneous-equations-intro – BẢN TIẾNG ANH ########
+---
+title: Linear equations and simultaneous linear equations in two unknowns
+description: Recognise a linear equation in two unknowns, check solutions, draw the solution set as a line and understand the solution of simultaneous equations.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a linear equation in two unknowns $ax+by=c$ and check whether a pair of numbers is a solution.
+  - Show the solution set of a linear equation in two unknowns as a straight line in the coordinate plane.
+  - Recognise a pair of simultaneous linear equations and check a solution of them.
+  :::
+
+[[P1·b07c]]
+Lan has $60$ thousand đồng to spend on school supplies. Each pen costs $5$ thousand đồng, each exercise book costs $8$ thousand đồng, and Lan wants to spend all of it, with nothing left over. How many pens and how many books can she buy? And what if she wants to buy exactly $9$ items?
+
+[[P2·1ccb]]
+The problem has two numbers we do not know: the number of pens and the number of books. We need a new kind of equation, one with **two unknowns**.
+
+## Linear equations in two unknowns
+
+### Explore: ways to spend all the money
+
+[[P3·48a3]]
+Let $x$ be the number of pens and $y$ the number of books. The total cost is $5x+8y$ (thousand đồng), so "spending all the money" means $5x+8y=60$. We try a few values of $x$ and compute $y=\dfrac{60-5x}{8}$:
+
+| $x$ | $0$ | $4$ | $8$ | $12$ |
+|---|---|---|---|---|
+| $y$ | $7.5$ | $5$ | $2.5$ | $0$ |
+
+[[P4·97b5]]
+Each value of $x$ gives one value of $y$, so a great many pairs fit. But the numbers of pens and books must be whole numbers, so there are only two ways to shop: $4$ pens and $5$ books, or $12$ pens.
+
+  :::definition Linear equation in two unknowns
+  A **linear equation in two unknowns** $x$ and $y$ is an equation of the form
+  $$ax+by=c,$$
+  where $a$, $b$, $c$ are known numbers and $a\neq 0$ or $b\neq 0$.
+
+  If $ax_0+by_0=c$, the pair $(x_0, y_0)$ is a **solution** of the equation.
+  :::
+
+  :::example Checking solutions
+  Which of the pairs $(1, -1)$, $(3, 2)$, $(-2, -3)$ are solutions of the equation $2x-3y=5$?
+
+  **Solution.** Substitute each pair into the left-hand side $2x-3y$ and compare with $5$:
+
+  $$\begin{aligned} (1, -1):&\quad 2\cdot1-3\cdot(-1)=2+3=5;\\ (3, 2):&\quad 2\cdot3-3\cdot2=0\neq5;\\ (-2, -3):&\quad 2\cdot(-2)-3\cdot(-3)=-4+9=5. \end{aligned}$$
+
+  So $(1, -1)$ and $(-2, -3)$ are solutions, and $(3, 2)$ is not.
+  :::
+
+## Showing the solution set as a line
+
+[[P5·617a]]
+A linear equation in two unknowns always has infinitely many solutions. Each solution $(x_0, y_0)$ is a point in the coordinate plane, and all these points lie on one straight line.
+
+[[P6·af34]]
+- If $b\neq 0$: we write $y=-\dfrac{a}{b}x+\dfrac{c}{b}$. This is the graph of a linear function (or a constant function when $a=0$), which you met in Grade 8.
+- If $b=0$ (then $a\neq0$): the equation becomes $x=\dfrac{c}{a}$, a line parallel to the $y$-axis (or the $y$-axis itself when $c=0$).
+
+  :::example Drawing the line of solutions
+  Show the solution set of each equation on the same coordinate plane: a) $x+2y=4$; b) $0x+y=3$; c) $2x+0y=-2$.
+
+  **Solution.** We rewrite each equation in the form $y=\dots$ or $x=\dots$:
+
+  $$\begin{aligned} \text{a) }& x+2y=4\iff y=-\tfrac12x+2;\\ \text{b) }& 0x+y=3\iff y=3;\\ \text{c) }& 2x+0y=-2\iff x=-1. \end{aligned}$$
+
+  So a) is the line through $(0, 2)$ and $(4, 0)$; b) is the line parallel to the $x$-axis that crosses the $y$-axis at $(0, 3)$; c) is the line parallel to the $y$-axis that crosses the $x$-axis at $(-1, 0)$.
+  :::
+
+:::graph Three lines showing solution sets
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Simultaneous linear equations
+
+[[P7·99d9]]
+Back to Lan's problem. If she wants to buy exactly $9$ items, then $x$ and $y$ must satisfy two equations **at the same time**: $5x+8y=60$ and $x+y=9$.
+
+  :::definition Simultaneous linear equations in two unknowns
+  A pair of **simultaneous linear equations in two unknowns** has the form
+  $$\begin{cases} ax+by=c\\ a'x+b'y=c' \end{cases}$$
+  where each equation is a linear equation in two unknowns. The pair $(x_0, y_0)$ is a **solution of the simultaneous equations** if it is a solution of **both** equations.
+  :::
+
+[[P8·c646]]
+Geometrically, the solution gives the coordinates of the point where the two lines meet.
+
+  :::example Solutions of simultaneous equations
+  Which of the pairs $(2, 1)$ and $(3, -1)$ is a solution of the simultaneous equations $\begin{cases} x+y=3\\ 2x-y=3 \end{cases}$?
+
+  **Solution.** A pair is a solution when it satisfies both equations, so we check each equation:
+
+  $$\begin{aligned} (2, 1):&\quad 2+1=3,\quad 2\cdot2-1=3;\\ (3, -1):&\quad 3+(-1)=2\neq 3. \end{aligned}$$
+
+  So $(2, 1)$ is a solution; $(3, -1)$ is not, because it does not satisfy the first equation.
+  :::
+
+[[P9·70c0]]
+Now we answer the second question from the start.
+
+  :::example Forming the equations for the shopping problem
+  Lan wants to spend exactly $60$ thousand đồng and buy exactly $9$ items. Form the simultaneous equations and show that $(4, 5)$ is a solution.
+
+  **Solution.** Let $x$ be the number of pens and $y$ the number of books ($x$ and $y$ are whole numbers). The cost is $5x+8y$ and the number of items is $x+y$, so:
+
+  $$\begin{cases} 5x+8y=60\\ x+y=9 \end{cases}\qquad 5\cdot4+8\cdot5=20+40=60,\quad 4+5=9.$$
+
+  So Lan buys $4$ pens and $5$ books. The next lesson shows how to find this solution without guessing.
+  :::
+
+:::warning Common mistakes
+[[P10·70f1]]
+- **Swapping the order in a pair.** Wrong: "$(5, 4)$ means $4$ pens and $5$ books". Why it is wrong: the first number is $x$ (the pens). Right: that purchase is $(4, 5)$.
+- **Checking only one of the equations.** Wrong: "$(3, -1)$ satisfies $2x-y=7$, so it solves the simultaneous equations $x+y=3$, $2x-y=7$". Why it is wrong: $3+(-1)=2\neq3$. Right: it must satisfy **both** equations.
+- **Thinking $0x+3y=6$ is not a linear equation in two unknowns.** Why it is wrong: we only need $a$ or $b$ to be non-zero. Right: it is a linear equation in two unknowns, and its solution set is the line $y=2$.
+:::
+
+## Key terms
+
+  :::terms
+  - linear equation in two unknowns | phương trình bậc nhất hai ẩn
+  - unknown | ẩn
+  - coefficient | hệ số
+  - solution | nghiệm
+  - solution set | tập nghiệm
+  - simultaneous linear equations in two unknowns | hệ hai phương trình bậc nhất hai ẩn
+  - solution of the simultaneous equations | nghiệm của hệ
+  - coordinate plane | mặt phẳng toạ độ
+  :::
+
+## Summary
+
+[[P11·6d2d]]
+- Linear equation in two unknowns: $ax+by=c$ with $a\neq0$ or $b\neq0$.
+- $(x_0, y_0)$ is a solution when $ax_0+by_0=c$; the equation has infinitely many solutions.
+- The solution set is a straight line: $y=-\dfrac{a}{b}x+\dfrac{c}{b}$ if $b\neq0$; $x=\dfrac{c}{a}$ if $b=0$.
+- A solution of two simultaneous equations is a pair that satisfies **both** equations, that is, the point where the two lines meet.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 35 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

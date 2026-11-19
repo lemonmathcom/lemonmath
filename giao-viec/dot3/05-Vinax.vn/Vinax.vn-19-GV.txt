@@ -1,0 +1,620 @@
+######################################################################
+TÀI KHOẢN: Vinax.vn   |   FILE: Vinax.vn-19-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax.vn-19-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-19-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g7/medians-angle-bisectors
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax.vn-19-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax.vn-19-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax.vn-19-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g7/medians-angle-bisectors – BẢN TIẾNG VIỆT ########
+---
+title: Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác
+description: Tìm hiểu trọng tâm của tam giác với tính chất AG = 2/3 AM, và điểm cắt nhau của ba đường phân giác, điểm cách đều ba cạnh của tam giác.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đường trung tuyến và đường phân giác của một tam giác.
+  - Biết ba đường trung tuyến cắt nhau tại trọng tâm và dùng được tính chất $AG=\dfrac23AM$.
+  - Biết ba đường phân giác cắt nhau tại một điểm cách đều ba cạnh.
+  - Giải bài toán tính độ dài và số đo góc có dùng các tính chất trên.
+  :::
+
+[[P1·ba5e]]
+Hoa cắt một tấm bìa hình tam giác và muốn đặt ngón tay đỡ đúng một điểm để tấm bìa nằm ngang, không bị nghiêng. Điểm đó nằm ở đâu trong tam giác?
+
+[[P2·188a]]
+Một câu hỏi khác: bác Nam muốn đặt một cột đèn trong khu đất hình tam giác sao cho cột đèn cách đều ba cạnh của khu đất. Cột đèn nên đặt ở đâu? Hai câu hỏi này có hai câu trả lời khác nhau, và ta sẽ tìm cả hai trong bài.
+
+## Đường trung tuyến và trọng tâm
+
+### Khám phá: ba đoạn thẳng cắt nhau tại một điểm
+
+[[P3·8d2a]]
+Ở bài trước, bạn đã biết tam giác có ba cạnh và mỗi cạnh có một trung điểm. Nối mỗi đỉnh với trung điểm của cạnh đối diện, ta được một đoạn thẳng gọi là **đường trung tuyến**.
+
+[[P4·f6cf]]
+Trên lưới ô vuông, tam giác $ABC$ có $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$. Ta vẽ ba trung tuyến $AM$, $BN$, $CP$.
+
+:::diagram Ba đường trung tuyến của tam giác $ABC$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·2cd3]]
+Ba trung tuyến cắt nhau tại cùng một điểm $G$. Ta đếm ô để so sánh các đoạn nằm trên cùng một trung tuyến:
+
+| Đoạn | Đi ngang | Đi lên hoặc xuống |
+|---|---|---|
+| $AG$ (từ $A$ đến $G$) | $4$ ô | $2$ ô |
+| $GM$ (từ $G$ đến $M$) | $2$ ô | $1$ ô |
+| $BG$ (từ $B$ đến $G$) | $5$ ô | $2$ ô |
+| $GN$ (từ $G$ đến $N$) | $2{,}5$ ô | $1$ ô |
+
+[[P6·60f7]]
+Đoạn $AG$ có số ô gấp đôi đoạn $GM$, nên $AG=2GM$. Đoạn $BG$ cũng có số ô gấp đôi đoạn $GN$, nên $BG=2GN$.
+
+  :::definition Đường trung tuyến và trọng tâm
+  **Đường trung tuyến** của tam giác là đoạn thẳng nối một đỉnh với trung điểm của cạnh đối diện.
+
+  Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là **trọng tâm** của tam giác.
+  :::
+
+  :::theorem Tính chất ba đường trung tuyến
+  Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM$. Khi đó
+  $$AG=\frac23AM,\qquad GM=\frac13AM,\qquad AG=2GM.$$
+  Tính chất tương tự đúng với hai trung tuyến còn lại.
+  :::
+
+[[P7·25dd]]
+Ta thừa nhận tính chất này. Ví dụ trên lưới cho thấy nó hợp lí: từ đỉnh đến $G$ dài gấp đôi từ $G$ đến trung điểm.
+
+[[P8·1c32]]
+Vậy trọng tâm là điểm mà Hoa cần tìm. Đặt ngón tay đúng chỗ $G$ thì tấm bìa nằm thăng bằng.
+
+## Đường phân giác và điểm cách đều ba cạnh
+
+[[P9·1e00]]
+Bạn đã biết tia phân giác của một góc chia góc đó thành hai góc bằng nhau. Trong tam giác $ABC$, tia phân giác của góc $A$ cắt cạnh $BC$ tại $D$, thì đoạn $AD$ gọi là **đường phân giác** xuất phát từ đỉnh $A$.
+
+[[P10·5a4c]]
+Một điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc. "Cách đều" nghĩa là hai khoảng cách bằng nhau, và khoảng cách từ một điểm đến một đường thẳng là độ dài đoạn vuông góc kẻ từ điểm đó đến đường thẳng.
+
+  :::theorem Tính chất ba đường phân giác
+  Ba đường phân giác của một tam giác cùng đi qua một điểm $I$. Điểm $I$ nằm trong tam giác và cách đều ba cạnh của tam giác.
+  :::
+
+[[P11·7c13]]
+Ta giải thích vì sao $I$ cách đều ba cạnh. Gọi $IP$, $IQ$, $IR$ là các khoảng cách từ $I$ đến $AB$, $AC$, $BC$. Vì $I$ nằm trên phân giác góc $A$ nên $IP=IQ$. Vì $I$ nằm trên phân giác góc $B$ nên $IP=IR$. Do đó $IP=IQ=IR$.
+
+:::diagram Ba đường phân giác của tam giác $ABC$ vuông tại $A$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·3d25]]
+Hình trên cho thấy ba đoạn vuông góc kẻ từ $I$ có cùng độ dài. Vậy cột đèn của bác Nam nên đặt tại $I$, giao điểm của ba đường phân giác.
+
+## Ví dụ
+
+[[P13·ecf6]]
+Ta bắt đầu với một phép tính độ dài đơn giản.
+
+  :::example Tính $AG$ và $GM$
+  Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=12$ cm. Tính $AG$ và $GM$.
+
+  **Lời giải.** Ta dùng $AG=\dfrac23AM$ và $GM=\dfrac13AM$:
+
+  $$AG=\frac23\cdot12=8\ \text{(cm)},\qquad GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Vậy $AG=8$ cm và $GM=4$ cm.
+
+  **Kiểm tra.** $AG+GM=8+4=12$ và $AG=2GM$.
+  :::
+
+[[P14·4e82]]
+Bây giờ đề bài cho đoạn ngắn và hỏi đoạn dài.
+
+  :::example Tính $BG$ và $BN$
+  Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $GN=5$ cm. Tính $BG$ và $BN$.
+
+  **Lời giải.** Ta có $BG=2GN$ vì $G$ là trọng tâm:
+
+  $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
+
+  Vậy $BG=10$ cm và $BN=15$ cm.
+  :::
+
+[[P15·fd88]]
+Ta dùng tính chất này để trả lời câu hỏi của Hoa.
+
+  :::example Chỗ đặt ngón tay
+  Tấm bìa của Hoa là tam giác cân $ABC$ với $AB=AC$ và đáy $BC=10$ cm. Gọi $M$ là trung điểm của $BC$; Hoa đo được trung tuyến $AM=12$ cm. Ngón tay phải đặt ở trọng tâm $G$. Hỏi điểm $G$ cách cạnh $BC$ bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** Ở bài tam giác cân, bạn đã biết trung tuyến $AM$ ứng với đáy cũng vuông góc với đáy, tức là $AM\perp BC$. Trọng tâm $G$ nằm trên $AM$ với $GM=\dfrac13AM$:
+
+  $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Vì $AM\perp BC$ nên $GM$ chính là khoảng cách từ $G$ đến $BC$. Vậy $G$ cách $BC$ là $4$ cm.
+  :::
+
+[[P16·75a9]]
+Chuyển sang đường phân giác, ta xét khoảng cách.
+
+  :::example Khoảng cách đến ba cạnh
+  Cho tam giác $ABC$. Ba đường phân giác cắt nhau tại $I$. Kẻ $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Biết $IH=3$ cm. Tính $IK$ và $IL$.
+
+  **Lời giải.** $I$ là giao điểm của ba đường phân giác nên $I$ cách đều ba cạnh:
+
+  $$IH=IK=IL=3\ \text{(cm)}.$$
+
+  Vậy $IK=3$ cm và $IL=3$ cm.
+  :::
+
+[[P17·1277]]
+Cuối cùng, ta tính một góc có liên quan đến điểm $I$.
+
+  :::example Tính góc $\widehat{BIC}$
+  Cho tam giác $ABC$ có $\widehat{A}=70^\circ$ và $\widehat{B}=50^\circ$. Hai đường phân giác của các góc $B$ và $C$ cắt nhau tại $I$. Tính $\widehat{BIC}$.
+
+  **Lời giải.** Trước hết tìm góc $C$ từ tổng ba góc của tam giác:
+
+  $$\widehat{C}=180^\circ-70^\circ-50^\circ=60^\circ.$$
+
+  $BI$ và $CI$ là phân giác nên mỗi góc ở $B$, $C$ bị chia đôi:
+
+  $$\widehat{IBC}=\frac{50^\circ}{2}=25^\circ,\qquad \widehat{ICB}=\frac{60^\circ}{2}=30^\circ.$$
+
+  Trong tam giác $IBC$, tổng ba góc bằng $180^\circ$:
+
+  $$\widehat{BIC}=180^\circ-25^\circ-30^\circ=125^\circ.$$
+
+  Vậy $\widehat{BIC}=125^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P18·23c8]]
+- **Nhầm tỉ lệ $\dfrac13$ và $\dfrac23$.** Sai: $G$ là trọng tâm, $AM=18$ cm nên $AG=\dfrac13\cdot18=6$ cm. Lí do sai: $AG$ là đoạn dài hơn, từ đỉnh đến $G$. Đúng: $AG=\dfrac23\cdot18=12$ cm và $GM=6$ cm.
+- **Nhầm trọng tâm với điểm cách đều ba cạnh.** Sai: "Trọng tâm cách đều ba cạnh của tam giác". Lí do sai: điểm cách đều ba cạnh là giao của ba đường phân giác. Đúng: trọng tâm là giao của ba đường trung tuyến.
+- **Chia đôi cạnh với chia đôi góc.** Sai: đường trung tuyến chia đôi góc ở đỉnh. Lí do sai: trung tuyến chia đôi cạnh đối diện. Đúng: đường phân giác mới chia đôi góc.
+- **Quên bước lấy $180^\circ$.** Sai: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Lí do sai: đó chỉ là tổng hai góc của tam giác $IBC$. Đúng: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đường trung tuyến | median
+  - trọng tâm | centroid
+  - trung điểm | midpoint
+  - đường phân giác | angle bisector
+  - đồng quy | concurrent (meeting at one point)
+  - cách đều | equidistant
+  - khoảng cách từ điểm đến đường thẳng | perpendicular distance from a point to a line
+  - tia phân giác | bisector (ray)
+  :::
+
+## Tóm tắt
+
+[[P19·9c5c]]
+- Đường trung tuyến nối đỉnh với trung điểm cạnh đối. Ba trung tuyến cắt nhau tại trọng tâm $G$.
+- Với trung tuyến $AM$: $AG=\dfrac23AM$, $GM=\dfrac13AM$, $AG=2GM$.
+- Ba đường phân giác cắt nhau tại $I$, điểm này cách đều ba cạnh của tam giác.
+- Điểm $I$ nằm trong tam giác và $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+- Trọng tâm cho thăng bằng; giao của ba phân giác cho khoảng cách bằng nhau đến ba cạnh.
+
+## Luyện tập
+
+[[P20·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/medians-angle-bisectors – BẢN TIẾNG ANH ########
+---
+title: Concurrency of the three medians and the three angle bisectors of a triangle
+description: Meet the centroid of a triangle with the property AG = 2/3 AM, and the meeting point of the three angle bisectors, the point equidistant from the three sides.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the medians and the angle bisectors of a triangle.
+  - Know that the three medians meet at the centroid and use the property $AG=\dfrac23AM$.
+  - Know that the three angle bisectors meet at a point that is equidistant from the three sides.
+  - Solve problems about lengths and angle sizes using these properties.
+  :::
+
+[[P1·9004]]
+Hoa cuts out a triangle of card and wants to hold it up on one fingertip so that it stays level without tipping. Where in the triangle is that point?
+
+[[P2·f68b]]
+Another question: Mr Nam wants to put a lamp post on a triangular plot of land so that the post is the same distance from all three sides of the plot. Where should the post go? These two questions have two different answers, and we will find both in this lesson.
+
+## Medians and the centroid
+
+### Explore: three segments that meet at one point
+
+[[P3·44aa]]
+You know from earlier lessons that a triangle has three sides and each side has a midpoint. Joining each vertex to the midpoint of the opposite side gives a segment called a **median**.
+
+[[P4·30c1]]
+On a square grid, triangle $ABC$ has $A(0; 0)$, $B(9; 0)$, $C(3; 6)$. Let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$ respectively. We draw the three medians $AM$, $BN$, $CP$.
+
+:::diagram The three medians of triangle $ABC$
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·555f]]
+The three medians meet at the same point $G$. We count squares to compare the parts of the same median:
+
+| Segment | Across | Up or down |
+|---|---|---|
+| $AG$ (from $A$ to $G$) | $4$ squares | $2$ squares |
+| $GM$ (from $G$ to $M$) | $2$ squares | $1$ square |
+| $BG$ (from $B$ to $G$) | $5$ squares | $2$ squares |
+| $GN$ (from $G$ to $N$) | $2.5$ squares | $1$ square |
+
+[[P6·010e]]
+The segment $AG$ covers twice as many squares as $GM$, so $AG=2GM$. The segment $BG$ also covers twice as many squares as $GN$, so $BG=2GN$.
+
+  :::definition Median and centroid
+  A **median** of a triangle is the segment joining a vertex to the midpoint of the opposite side.
+
+  The three medians of a triangle pass through one point. That point is called the **centroid** of the triangle.
+  :::
+
+  :::theorem Property of the three medians
+  Let triangle $ABC$ have centroid $G$ and median $AM$. Then
+  $$AG=\frac23AM,\qquad GM=\frac13AM,\qquad AG=2GM.$$
+  The same holds for the other two medians.
+  :::
+
+[[P7·ca7c]]
+We accept this property without proof. The grid example shows it is reasonable: the part from the vertex to $G$ is twice as long as the part from $G$ to the midpoint.
+
+[[P8·07fd]]
+So the centroid is the point Hoa is looking for. With her fingertip exactly at $G$, the card balances.
+
+## Angle bisectors and the point equidistant from the three sides
+
+[[P9·214f]]
+You know that the bisector of an angle splits the angle into two equal angles. In triangle $ABC$, if the bisector of angle $A$ meets side $BC$ at $D$, the segment $AD$ is called the **angle bisector** from vertex $A$.
+
+[[P10·84c6]]
+A point on the bisector of an angle is equidistant from the two arms of the angle. "Equidistant" means the two distances are equal, and the distance from a point to a line is the length of the perpendicular from the point to the line.
+
+  :::theorem Property of the three angle bisectors
+  The three angle bisectors of a triangle pass through one point $I$. The point $I$ lies inside the triangle and is equidistant from the three sides of the triangle.
+  :::
+
+[[P11·8343]]
+Here is why $I$ is equidistant from the three sides. Let $IP$, $IQ$, $IR$ be the distances from $I$ to $AB$, $AC$, $BC$. Since $I$ lies on the bisector of angle $A$, $IP=IQ$. Since $I$ lies on the bisector of angle $B$, $IP=IR$. Therefore $IP=IQ=IR$.
+
+:::diagram The three angle bisectors of triangle $ABC$ with a right angle at $A$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·96be]]
+The figure shows that the three perpendiculars from $I$ have the same length. So Mr Nam's lamp post should go at $I$, where the three angle bisectors meet.
+
+## Examples
+
+[[P13·2afa]]
+We start with a simple length calculation.
+
+  :::example Find $AG$ and $GM$
+  Triangle $ABC$ has centroid $G$ and median $AM=12$ cm. Find $AG$ and $GM$.
+
+  **Solution.** Use $AG=\dfrac23AM$ and $GM=\dfrac13AM$:
+
+  $$AG=\frac23\cdot12=8\ \text{(cm)},\qquad GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  So $AG=8$ cm and $GM=4$ cm.
+
+  **Check.** $AG+GM=8+4=12$ and $AG=2GM$.
+  :::
+
+[[P14·49c8]]
+Now the question gives the short part and asks for the long part.
+
+  :::example Find $BG$ and $BN$
+  Triangle $ABC$ has centroid $G$ and median $BN$. Given $GN=5$ cm, find $BG$ and $BN$.
+
+  **Solution.** Since $G$ is the centroid, $BG=2GN$:
+
+  $$BG=2\cdot5=10\ \text{(cm)},\qquad BN=BG+GN=10+5=15\ \text{(cm)}.$$
+
+  So $BG=10$ cm and $BN=15$ cm.
+  :::
+
+[[P15·895e]]
+We use this property to answer Hoa's question.
+
+  :::example Where to put the fingertip
+  Hoa's card is an isosceles triangle $ABC$ with $AB=AC$ and base $BC=10$ cm. Let $M$ be the midpoint of $BC$; Hoa measures the median $AM=12$ cm. Her fingertip must go at the centroid $G$. How many centimetres is $G$ from the side $BC$?
+
+  **Solution.** From the lesson on isosceles triangles, you know that the median to the base is also perpendicular to the base, that is $AM\perp BC$. The centroid $G$ lies on $AM$ with $GM=\dfrac13AM$:
+
+  $$GM=\frac13\cdot12=4\ \text{(cm)}.$$
+
+  Since $AM\perp BC$, $GM$ is the distance from $G$ to $BC$. So $G$ is $4$ cm from $BC$.
+  :::
+
+[[P16·94c3]]
+Turning to angle bisectors, we look at distances.
+
+  :::example Distances to the three sides
+  In triangle $ABC$, the three angle bisectors meet at $I$. Draw $IH\perp AB$, $IK\perp BC$, $IL\perp CA$. Given $IH=3$ cm, find $IK$ and $IL$.
+
+  **Solution.** $I$ is where the three angle bisectors meet, so $I$ is equidistant from the three sides:
+
+  $$IH=IK=IL=3\ \text{(cm)}.$$
+
+  So $IK=3$ cm and $IL=3$ cm.
+  :::
+
+[[P17·dd58]]
+Last, we find an angle at the point $I$.
+
+  :::example Find the angle $\widehat{BIC}$
+  Triangle $ABC$ has $\widehat{A}=70^\circ$ and $\widehat{B}=50^\circ$. The bisectors of angles $B$ and $C$ meet at $I$. Find $\widehat{BIC}$.
+
+  **Solution.** First find angle $C$ from the angle sum of the triangle:
+
+  $$\widehat{C}=180^\circ-70^\circ-50^\circ=60^\circ.$$
+
+  $BI$ and $CI$ are bisectors, so the angles at $B$ and $C$ are halved:
+
+  $$\widehat{IBC}=\frac{50^\circ}{2}=25^\circ,\qquad \widehat{ICB}=\frac{60^\circ}{2}=30^\circ.$$
+
+  In triangle $IBC$, the three angles add up to $180^\circ$:
+
+  $$\widehat{BIC}=180^\circ-25^\circ-30^\circ=125^\circ.$$
+
+  So $\widehat{BIC}=125^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P18·d131]]
+- **Mixing up $\dfrac13$ and $\dfrac23$.** Wrong: $G$ is the centroid and $AM=18$ cm, so $AG=\dfrac13\cdot18=6$ cm. Why it is wrong: $AG$ is the longer part, from the vertex to $G$. Right: $AG=\dfrac23\cdot18=12$ cm and $GM=6$ cm.
+- **Confusing the centroid with the point equidistant from the sides.** Wrong: "The centroid is equidistant from the three sides of the triangle". Why it is wrong: the point equidistant from the three sides is where the three angle bisectors meet. Right: the centroid is where the three medians meet.
+- **Halving a side versus halving an angle.** Wrong: a median halves the angle at the vertex. Why it is wrong: a median halves the opposite side. Right: it is the angle bisector that halves the angle.
+- **Forgetting to subtract from $180^\circ$.** Wrong: $\widehat{BIC}=\dfrac{\widehat B}{2}+\dfrac{\widehat C}{2}$. Why it is wrong: that is only the sum of two angles of triangle $IBC$. Right: $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+:::
+
+## Key terms
+
+  :::terms
+  - median | đường trung tuyến
+  - centroid | trọng tâm
+  - midpoint | trung điểm
+  - angle bisector | đường phân giác
+  - concurrent (meeting at one point) | đồng quy
+  - equidistant | cách đều
+  - perpendicular distance from a point to a line | khoảng cách từ điểm đến đường thẳng
+  - bisector (ray) | tia phân giác
+  :::
+
+## Summary
+
+[[P19·9378]]
+- A median joins a vertex to the midpoint of the opposite side. The three medians meet at the centroid $G$.
+- For the median $AM$: $AG=\dfrac23AM$, $GM=\dfrac13AM$, $AG=2GM$.
+- The three angle bisectors meet at $I$, a point equidistant from the three sides of the triangle.
+- The point $I$ lies inside the triangle and $\widehat{BIC}=180^\circ-\dfrac{\widehat B}{2}-\dfrac{\widehat C}{2}$.
+- The centroid gives balance; the meeting point of the three bisectors gives equal distances to the three sides.
+
+## Practice
+
+[[P20·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

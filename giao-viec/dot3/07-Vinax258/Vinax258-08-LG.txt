@@ -1,0 +1,1099 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-08-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-08-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax258-08-LG
+Người làm: tài khoản Vinax258. Gói này có 40 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Vinax258-08-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax258-08-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g10/equation-of-a-line (10 bài tập)
+- g10/equations-reducible-quadratic (10 bài tập)
+- g10/functions (10 bài tập)
+- g10/linear-inequality-two-variables (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g10/equation-of-a-line
+Bài học: Phương trình đường thẳng / Equation of a line
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình tổng quát của đường thẳng đi qua $A(2; 1)$ với vectơ pháp tuyến $\vec{n}=(1; -3)$.
+
+[LỜI GIẢI CŨ – VI]
+$1\cdot(x-2)-3(y-1)=0\iff x-3y+1=0$. Kiểm tra $A$: $2-3+1=0$.
+
+**Đáp số.** $x-3y+1=0$.
+
+[ĐỀ – EN]
+Write the general equation of the line through $A(2, 1)$ with normal vector $\vec{n}=(1, -3)$.
+
+[LỜI GIẢI CŨ – EN]
+$1\cdot(x-2)-3(y-1)=0\iff x-3y+1=0$. Check $A$: $2-3+1=0$.
+
+**Answer.** $x-3y+1=0$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết phương trình tham số và phương trình tổng quát của đường thẳng đi qua $A(1; 1)$ với vectơ chỉ phương $\vec{u}=(2; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+Tham số: $x=1+2t$, $y=1+t$. Với $\vec{n}=(1; -2)$: $(x-1)-2(y-1)=0\iff x-2y+1=0$.
+
+**Đáp số.** $\begin{cases}x=1+2t\\ y=1+t\end{cases}$ và $x-2y+1=0$.
+
+[ĐỀ – EN]
+Write the parametric and the general equations of the line through $A(1, 1)$ with direction vector $\vec{u}=(2, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+Parametric: $x=1+2t$, $y=1+t$. With $\vec{n}=(1, -2)$: $(x-1)-2(y-1)=0\iff x-2y+1=0$.
+
+**Answer.** $\begin{cases}x=1+2t\\ y=1+t\end{cases}$ and $x-2y+1=0$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phương trình tổng quát của đường thẳng đi qua $A(-1; 2)$ và $B(3; -2)$.
+
+[LỜI GIẢI CŨ – VI]
+$\overrightarrow{AB}=(4; -4)=4(1; -1)$, nên $\vec{u}=(1; -1)$ và $\vec{n}=(1; 1)$. Ta có $(x+1)+(y-2)=0\iff x+y-1=0$. Kiểm tra $B$: $3-2-1=0$.
+
+**Đáp số.** $x+y-1=0$.
+
+[ĐỀ – EN]
+Write the general equation of the line through $A(-1, 2)$ and $B(3, -2)$.
+
+[LỜI GIẢI CŨ – EN]
+$\overrightarrow{AB}=(4, -4)=4(1, -1)$, so $\vec{u}=(1, -1)$ and $\vec{n}=(1, 1)$. Then $(x+1)+(y-2)=0\iff x+y-1=0$. Check $B$: $3-2-1=0$.
+
+**Answer.** $x+y-1=0$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm hệ số góc và giao điểm với hai trục toạ độ của đường thẳng $4x-2y+8=0$.
+
+[LỜI GIẢI CŨ – VI]
+$4x-2y+8=0\iff y=2x+4$, nên $k=2$. Với $y=0$: $x=-2$. Với $x=0$: $y=4$.
+
+**Đáp số.** $k=2$; giao điểm $(-2; 0)$ và $(0; 4)$.
+
+[ĐỀ – EN]
+Find the gradient and the intercepts with both axes of the line $4x-2y+8=0$.
+
+[LỜI GIẢI CŨ – EN]
+$4x-2y+8=0\iff y=2x+4$, so $k=2$. For $y=0$: $x=-2$. For $x=0$: $y=4$.
+
+**Answer.** $k=2$; intercepts $(-2, 0)$ and $(0, 4)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chuyển phương trình tham số $\begin{cases}x=2-t\\ y=3+2t\end{cases}$ về phương trình tổng quát.
+
+[LỜI GIẢI CŨ – VI]
+$\vec{u}=(-1; 2)$, $\vec{n}=(2; 1)$, điểm $(2; 3)$: $2(x-2)+(y-3)=0\iff 2x+y-7=0$.
+
+**Đáp số.** $2x+y-7=0$.
+
+[ĐỀ – EN]
+Convert the parametric equations $\begin{cases}x=2-t\\ y=3+2t\end{cases}$ to a general equation.
+
+[LỜI GIẢI CŨ – EN]
+$\vec{u}=(-1, 2)$, $\vec{n}=(2, 1)$, point $(2, 3)$: $2(x-2)+(y-3)=0\iff 2x+y-7=0$.
+
+**Answer.** $2x+y-7=0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho đường thẳng $d: x-2y+4=0$. Mỗi khẳng định sau đúng hay sai?
+
+a) $d$ có một vectơ pháp tuyến là $\vec{n}=(1; -2)$.
+
+b) $d$ có một vectơ chỉ phương là $\vec{u}=(2; 1)$.
+
+c) Điểm $M(2; 1)$ thuộc $d$.
+
+d) Đường thẳng đi qua gốc toạ độ và vuông góc với $d$ có phương trình $2x+y=0$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: các hệ số của $x$, $y$ là $1$ và $-2$.
+
+b) **Đúng**: $\vec{u}\cdot\vec{n}=2\cdot1+1\cdot(-2)=0$, nên $\vec{u}$ song song với $d$.
+
+c) **Sai**: $2-2\cdot1+4=4\neq 0$.
+
+d) **Đúng**: đường vuông góc nhận $(2; 1)$ làm vectơ pháp tuyến và qua $O(0; 0)$: $2x+y=0$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the line $d: x-2y+4=0$. Is each claim true or false?
+
+a) $\vec{n}=(1, -2)$ is a normal vector of $d$.
+
+b) $\vec{u}=(2, 1)$ is a direction vector of $d$.
+
+c) The point $M(2, 1)$ lies on $d$.
+
+d) The line through the origin perpendicular to $d$ has equation $2x+y=0$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: the coefficients of $x$ and $y$ are $1$ and $-2$.
+
+b) **True**: $\vec{u}\cdot\vec{n}=2\cdot1+1\cdot(-2)=0$, so $\vec{u}$ is parallel to $d$.
+
+c) **False**: $2-2\cdot1+4=4\neq 0$.
+
+d) **True**: the perpendicular line has normal vector $(2, 1)$ and passes through $O(0, 0)$: $2x+y=0$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Đường thẳng $\Delta$ đi qua $P(1; -2)$ và song song với đường thẳng $2x-y+3=0$. Tìm tung độ giao điểm của $\Delta$ với trục tung.
+
+[LỜI GIẢI CŨ – VI]
+$2x-y+C'=0$ đi qua $P$: $2+2+C'=0$, nên $C'=-4$ và $\Delta: 2x-y-4=0$. Với $x=0$: $y=-4$.
+
+**Đáp số.** $-4$.
+
+[ĐỀ – EN]
+The line $\Delta$ passes through $P(1, -2)$ and is parallel to the line $2x-y+3=0$. Find the $y$-coordinate of the point where $\Delta$ meets the $y$-axis.
+
+[LỜI GIẢI CŨ – EN]
+$2x-y+C'=0$ through $P$: $2+2+C'=0$, so $C'=-4$ and $\Delta: 2x-y-4=0$. For $x=0$: $y=-4$.
+
+**Answer.** $-4$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Trên một hải đồ (đơn vị: km), một tàu xuất phát từ $A(2; 1)$ và mỗi giờ đi được một đoạn ứng với vectơ $\vec{v}=(3; 4)$.
+
+a) Viết phương trình tham số của đường đi của tàu, với $t$ là số giờ.
+
+b) Sau bao nhiêu giờ tàu đến cảng $B(11; 13)$?
+
+c) Viết phương trình tổng quát của đường đi.
+
+[LỜI GIẢI CŨ – VI]
+a) $x=2+3t$, $y=1+4t$ ($t\ge 0$).
+
+b) $2+3t=11\Rightarrow t=3$, và $1+4\cdot3=13$ cũng đúng, nên tàu đến $B$ sau $3$ giờ.
+
+c) $4(x-2)-3(y-1)=0\iff 4x-3y-5=0$. Kiểm tra $B$: $44-39-5=0$.
+
+**Đáp số.** a) $x=2+3t$, $y=1+4t$; b) $3$ giờ; c) $4x-3y-5=0$.
+
+[ĐỀ – EN]
+On a sea chart (units: km), a ship leaves $A(2, 1)$ and every hour covers a displacement given by the vector $\vec{v}=(3, 4)$.
+
+a) Write parametric equations of the ship's path, with $t$ the number of hours.
+
+b) After how many hours does the ship reach the port $B(11, 13)$?
+
+c) Write the general equation of the path.
+
+[LỜI GIẢI CŨ – EN]
+a) $x=2+3t$, $y=1+4t$ ($t\ge 0$).
+
+b) $2+3t=11\Rightarrow t=3$, and $1+4\cdot3=13$ also holds, so the ship reaches $B$ after $3$ hours.
+
+c) $4(x-2)-3(y-1)=0\iff 4x-3y-5=0$. Check $B$: $44-39-5=0$.
+
+**Answer.** a) $x=2+3t$, $y=1+4t$; b) $3$ hours; c) $4x-3y-5=0$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một đường thẳng đi qua $M(2; 3)$ cắt trục hoành tại $A(a; 0)$ và trục tung tại $B(0; b)$ sao cho $M$ là trung điểm của $AB$. Viết phương trình của đường thẳng đó.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{a+0}{2}=2$ và $\dfrac{0+b}{2}=3$, nên $a=4$, $b=6$. Đường thẳng $\dfrac{x}{4}+\dfrac{y}{6}=1$; nhân hai vế với $12$: $3x+2y-12=0$. Kiểm tra $M$: $6+6-12=0$.
+
+**Đáp số.** $3x+2y-12=0$.
+
+[ĐỀ – EN]
+A line through $M(2, 3)$ meets the $x$-axis at $A(a, 0)$ and the $y$-axis at $B(0, b)$ so that $M$ is the midpoint of $AB$. Write the equation of this line.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{a+0}{2}=2$ and $\dfrac{0+b}{2}=3$, so $a=4$, $b=6$. The line is $\dfrac{x}{4}+\dfrac{y}{6}=1$; multiplying both sides by $12$: $3x+2y-12=0$. Check $M$: $6+6-12=0$.
+
+**Answer.** $3x+2y-12=0$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ với $A(1; 2)$, $B(5; 4)$, $C(-1; 6)$.
+
+a) Dùng [tích vô hướng](lesson:dot-product), chứng minh tam giác $ABC$ vuông tại $A$.
+
+b) Viết phương trình đường cao $AH$ của tam giác.
+
+c) Tìm toạ độ chân đường cao $H$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\overrightarrow{AB}=(4; 2)$, $\overrightarrow{AC}=(-2; 4)$, $\overrightarrow{AB}\cdot\overrightarrow{AC}=-8+8=0$, nên $\widehat{BAC}=90^\circ$.
+
+b) $\overrightarrow{BC}=(-6; 2)=-2(3; -1)$, nên đường cao $AH$: $3(x-1)-(y-2)=0\iff 3x-y-1=0$.
+
+c) $BC$ có vectơ chỉ phương $(3; -1)$, vectơ pháp tuyến $(1; 3)$: $(x-5)+3(y-4)=0\iff x+3y-17=0$. Thay $y=3x-1$: $x+9x-3-17=0$, nên $x=2$, $y=5$.
+
+**Đáp số.** b) $3x-y-1=0$; c) $H(2; 5)$.
+
+[ĐỀ – EN]
+Consider the triangle $ABC$ with $A(1, 2)$, $B(5, 4)$, $C(-1, 6)$.
+
+a) Use [the scalar product](lesson:dot-product) to prove that the triangle is right-angled at $A$.
+
+b) Write the equation of the altitude $AH$ of the triangle.
+
+c) Find the coordinates of the foot $H$ of the altitude.
+
+[LỜI GIẢI CŨ – EN]
+a) $\overrightarrow{AB}=(4, 2)$, $\overrightarrow{AC}=(-2, 4)$, $\overrightarrow{AB}\cdot\overrightarrow{AC}=-8+8=0$, so $\angle BAC=90^\circ$.
+
+b) $\overrightarrow{BC}=(-6, 2)=-2(3, -1)$, so the altitude $AH$ is $3(x-1)-(y-2)=0\iff 3x-y-1=0$.
+
+c) $BC$ has direction vector $(3, -1)$ and normal vector $(1, 3)$: $(x-5)+3(y-4)=0\iff x+3y-17=0$. Substituting $y=3x-1$: $x+9x-3-17=0$, so $x=2$, $y=5$.
+
+**Answer.** b) $3x-y-1=0$; c) $H(2, 5)$.
+
+
+######################################################################
+@@@ g10/equations-reducible-quadratic
+Bài học: Phương trình quy về phương trình bậc hai / Equations reducible to quadratics
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Giải $\sqrt{x+5}=\sqrt{3x-1}$.
+
+[LỜI GIẢI CŨ – VI]
+Bình phương: $x+5=3x-1\iff x=3$. Với $x=3$: $x+5=8\ge 0$, hai vế đều bằng $\sqrt8$.
+
+**Đáp số.** $S=\{3\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{x+5}=\sqrt{3x-1}$.
+
+[LỜI GIẢI CŨ – EN]
+Squaring: $x+5=3x-1\iff x=3$. For $x=3$: $x+5=8\ge 0$, and both sides equal $\sqrt8$.
+
+**Answer.** $S=\{3\}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Giải $\sqrt{x^2-4}=\sqrt{3x}$.
+
+[LỜI GIẢI CŨ – VI]
+Bình phương: $x^2-4=3x\iff x^2-3x-4=0\iff x=4$ hoặc $x=-1$. Với $x=-1$ thì $3x=-3<0$, loại. Với $x=4$ hai vế đều bằng $\sqrt{12}$.
+
+**Đáp số.** $S=\{4\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{x^2-4}=\sqrt{3x}$.
+
+[LỜI GIẢI CŨ – EN]
+Squaring: $x^2-4=3x\iff x^2-3x-4=0\iff x=4$ or $x=-1$. For $x=-1$, $3x=-3<0$, so it is rejected. For $x=4$ both sides equal $\sqrt{12}$.
+
+**Answer.** $S=\{4\}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải $\sqrt{x+2}=x$.
+
+[LỜI GIẢI CŨ – VI]
+Cần $x\ge 0$. Bình phương: $x+2=x^2\iff x^2-x-2=0\iff x=2$ hoặc $x=-1$. Chỉ $x=2$ thoả mãn. Thử lại: $\sqrt4=2$.
+
+**Đáp số.** $S=\{2\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{x+2}=x$.
+
+[LỜI GIẢI CŨ – EN]
+We need $x\ge 0$. Squaring: $x+2=x^2\iff x^2-x-2=0\iff x=2$ or $x=-1$. Only $x=2$ meets the condition. Check: $\sqrt4=2$.
+
+**Answer.** $S=\{2\}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giải $\sqrt{x+3}=x-3$.
+
+[LỜI GIẢI CŨ – VI]
+Cần $x\ge 3$. Bình phương: $x+3=x^2-6x+9\iff x^2-7x+6=0\iff x=1$ hoặc $x=6$. Chỉ $x=6$ thoả mãn. Thử lại: $\sqrt9=3=6-3$.
+
+**Đáp số.** $S=\{6\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{x+3}=x-3$.
+
+[LỜI GIẢI CŨ – EN]
+We need $x\ge 3$. Squaring: $x+3=x^2-6x+9\iff x^2-7x+6=0\iff x=1$ or $x=6$. Only $x=6$ meets the condition. Check: $\sqrt9=3=6-3$.
+
+**Answer.** $S=\{6\}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giải $\sqrt{x^2-2x}=\sqrt{x+4}$.
+
+[LỜI GIẢI CŨ – VI]
+Bình phương: $x^2-2x=x+4\iff x^2-3x-4=0\iff x=4$ hoặc $x=-1$. Với $x=4$: $x+4=8\ge 0$. Với $x=-1$: $x+4=3\ge 0$. Cả hai đều nhận.
+
+**Đáp số.** $S=\{-1; 4\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{x^2-2x}=\sqrt{x+4}$.
+
+[LỜI GIẢI CŨ – EN]
+Squaring: $x^2-2x=x+4\iff x^2-3x-4=0\iff x=4$ or $x=-1$. For $x=4$: $x+4=8\ge 0$. For $x=-1$: $x+4=3\ge 0$. Both are accepted.
+
+**Answer.** $S=\{-1, 4\}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho phương trình $\sqrt{x+7}=x+1$. Mỗi khẳng định sau đúng hay sai?
+
+a) Điều kiện để vế phải không âm là $x\ge -1$.
+
+b) Bình phương hai vế ta được $x^2+x-6=0$.
+
+c) Phương trình đã cho có hai nghiệm $x=2$ và $x=-3$.
+
+d) Tổng các nghiệm của phương trình đã cho bằng $2$.
+
+[LỜI GIẢI CŨ – VI]
+Bình phương: $x+7=x^2+2x+1\iff x^2+x-6=0\iff x=2$ hoặc $x=-3$. Điều kiện $x+1\ge 0\iff x\ge -1$, nên loại $x=-3$.
+
+a) **Đúng**: $x+1\ge 0\iff x\ge -1$.
+
+b) **Đúng**: $x+7=x^2+2x+1\iff x^2+x-6=0$.
+
+c) **Sai**: với $x=-3$, vế trái $\sqrt4=2$, vế phải $-2$.
+
+d) **Đúng**: phương trình chỉ có một nghiệm $x=2$, nên tổng các nghiệm là $2$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the equation $\sqrt{x+7}=x+1$. Is each claim true or false?
+
+a) The condition for the right-hand side to be non-negative is $x\ge -1$.
+
+b) Squaring both sides gives $x^2+x-6=0$.
+
+c) The given equation has two solutions, $x=2$ and $x=-3$.
+
+d) The sum of the solutions of the given equation is $2$.
+
+[LỜI GIẢI CŨ – EN]
+Squaring: $x+7=x^2+2x+1\iff x^2+x-6=0\iff x=2$ or $x=-3$. The condition $x+1\ge 0\iff x\ge -1$ rejects $x=-3$.
+
+a) **True**: $x+1\ge 0\iff x\ge -1$.
+
+b) **True**: $x+7=x^2+2x+1\iff x^2+x-6=0$.
+
+c) **False**: for $x=-3$ the left side is $\sqrt4=2$ and the right side is $-2$.
+
+d) **True**: the equation has only one solution, $x=2$, so the sum of the solutions is $2$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một chiếc thang dài $13$ m dựa vào tường. Đầu thang cao hơn khoảng cách $d$ từ chân thang đến tường là $7$ m. Đầu thang ở độ cao bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Bình phương: $169-d^2=d^2+14d+49\iff d^2+7d-60=0\iff d=5$ hoặc $d=-12$. Khoảng cách dương nên $d=5$, và $h=5+7=12$. Thử lại: $\sqrt{169-25}=\sqrt{144}=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+A $13$ m ladder leans against a wall. The top of the ladder is $7$ m higher than the distance $d$ from its foot to the wall. How high, in metres, is the top of the ladder?
+
+[LỜI GIẢI CŨ – EN]
+Squaring: $169-d^2=d^2+14d+49\iff d^2+7d-60=0\iff d=5$ or $d=-12$. A distance is positive, so $d=5$ and $h=5+7=12$. Check: $\sqrt{169-25}=\sqrt{144}=12$.
+
+**Answer.** $12$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một cột ăng-ten cao $12$ m dựng thẳng đứng. Một sợi dây néo nối đỉnh cột với một điểm trên mặt đất cách chân cột $x$ m, và dây dài hơn $x$ đúng $8$ m. Tìm $x$ và chiều dài sợi dây.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sqrt{x^2+144}=x+8$ với $x>0$. Bình phương: $x^2+144=x^2+16x+64\iff 16x=80\iff x=5$. Dây dài $5+8=13$ m. Thử lại: $\sqrt{25+144}=\sqrt{169}=13$.
+
+**Đáp số.** $x=5$ m, dây dài $13$ m.
+
+[ĐỀ – EN]
+A $12$ m antenna mast stands vertically. A guy wire joins the top of the mast to a point on the ground $x$ m from the foot of the mast, and the wire is exactly $8$ m longer than $x$. Find $x$ and the length of the wire.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sqrt{x^2+144}=x+8$ with $x>0$. Squaring: $x^2+144=x^2+16x+64\iff 16x=80\iff x=5$. The wire is $5+8=13$ m long. Check: $\sqrt{25+144}=\sqrt{169}=13$.
+
+**Answer.** $x=5$ m, and the wire is $13$ m long.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giải $\sqrt{2x^2-3x-5}=x-1$.
+
+[LỜI GIẢI CŨ – VI]
+Cần $x\ge 1$. Bình phương: $2x^2-3x-5=x^2-2x+1\iff x^2-x-6=0\iff x=3$ hoặc $x=-2$. Chỉ $x=3$ thoả mãn. Thử lại: $\sqrt{18-9-5}=\sqrt4=2=3-1$.
+
+**Đáp số.** $S=\{3\}$.
+
+[ĐỀ – EN]
+Solve $\sqrt{2x^2-3x-5}=x-1$.
+
+[LỜI GIẢI CŨ – EN]
+We need $x\ge 1$. Squaring: $2x^2-3x-5=x^2-2x+1\iff x^2-x-6=0\iff x=3$ or $x=-2$. Only $x=3$ meets the condition. Check: $\sqrt{18-9-5}=\sqrt4=2=3-1$.
+
+**Answer.** $S=\{3\}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Xét phương trình $\sqrt{x^2-3x}=\sqrt{2x-4}$.
+
+a) Dùng [dấu của tam thức bậc hai](lesson:sign-of-quadratic), tìm tập các giá trị của $x$ làm cả hai căn xác định.
+
+b) Giải phương trình.
+
+[LỜI GIẢI CŨ – VI]
+a) $x^2-3x\ge 0\iff x\le 0$ hoặc $x\ge 3$ (ngoài hai nghiệm, vì $a=1>0$). $2x-4\ge 0\iff x\ge 2$. Phần chung là $x\ge 3$.
+
+b) Bình phương: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ hoặc $x=4$. Chỉ $x=4$ thoả mãn $x\ge 3$; khi đó hai vế đều bằng $\sqrt4=2$.
+
+**Đáp số.** a) $[3; +\infty)$; b) $S=\{4\}$.
+
+[ĐỀ – EN]
+Consider the equation $\sqrt{x^2-3x}=\sqrt{2x-4}$.
+
+a) Using [the sign of a quadratic expression](lesson:sign-of-quadratic), find the set of $x$ for which both square roots are defined.
+
+b) Solve the equation.
+
+[LỜI GIẢI CŨ – EN]
+a) $x^2-3x\ge 0\iff x\le 0$ or $x\ge 3$ (outside the roots, since $a=1>0$). $2x-4\ge 0\iff x\ge 2$. The common part is $x\ge 3$.
+
+b) Squaring: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ or $x=4$. Only $x=4$ satisfies $x\ge 3$; then both sides equal $\sqrt4=2$.
+
+**Answer.** a) $[3, +\infty)$; b) $S=\{4\}$.
+
+
+######################################################################
+@@@ g10/functions
+Bài học: Hàm số / Functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $f(x)=3x-2$. Tính $f(-1)$ và $f(4)$.
+
+[LỜI GIẢI CŨ – VI]
+$f(-1)=3\cdot(-1)-2=-5$ và $f(4)=3\cdot4-2=10$.
+
+**Đáp số.** $f(-1)=-5$; $f(4)=10$.
+
+[ĐỀ – EN]
+Let $f(x)=3x-2$. Compute $f(-1)$ and $f(4)$.
+
+[LỜI GIẢI CŨ – EN]
+$f(-1)=3\cdot(-1)-2=-5$ and $f(4)=3\cdot4-2=10$.
+
+**Answer.** $f(-1)=-5$; $f(4)=10$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm tập xác định của: (a) $f(x)=\sqrt{5-x}$; (b) $g(x)=\dfrac{1}{x^2-4}$.
+
+[LỜI GIẢI CŨ – VI]
+(a) $5-x\ge0\iff x\le5$. (b) $x^2-4=0\iff x=\pm2$, nên ta bỏ hai giá trị này.
+
+**Đáp số.** (a) $D=(-\infty; 5]$; (b) $D=\mathbb{R}\setminus\{-2; 2\}$.
+
+[ĐỀ – EN]
+Find the domain of: (a) $f(x)=\sqrt{5-x}$; (b) $g(x)=\dfrac{1}{x^2-4}$.
+
+[LỜI GIẢI CŨ – EN]
+(a) $5-x\ge0\iff x\le5$. (b) $x^2-4=0\iff x=\pm2$, so we remove these two values.
+
+**Answer.** (a) $D=(-\infty, 5]$; (b) $D=\mathbb{R}\setminus\{-2, 2\}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một bảng cho các cặp $(x; y)$: $(1; 4)$, $(2; 5)$, $(2; 6)$, $(3; 7)$. Bảng này có xác định $y$ là hàm số của $x$ không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Giá trị $x=2$ ứng với hai giá trị khác nhau của $y$ là $5$ và $6$.
+
+**Đáp số.** Không phải hàm số.
+
+[ĐỀ – EN]
+A table gives the pairs $(x, y)$: $(1, 4)$, $(2, 5)$, $(2, 6)$, $(3, 7)$. Does it define $y$ as a function of $x$? Why?
+
+[LỜI GIẢI CŨ – EN]
+The input $x=2$ has two different outputs, $5$ and $6$.
+
+**Answer.** It is not a function.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Chứng minh $h(x)=-2x+5$ nghịch biến trên $\mathbb{R}$.
+
+[LỜI GIẢI CŨ – VI]
+Với $x_1<x_2$:
+$$h(x_1)-h(x_2)=(-2x_1+5)-(-2x_2+5)=2(x_2-x_1)>0,$$
+nên $h(x_1)>h(x_2)$.
+
+**Đáp số.** $h$ nghịch biến trên $\mathbb{R}$ (đã chứng minh).
+
+[ĐỀ – EN]
+Prove that $h(x)=-2x+5$ is decreasing on $\mathbb{R}$.
+
+[LỜI GIẢI CŨ – EN]
+For $x_1<x_2$:
+$$h(x_1)-h(x_2)=(-2x_1+5)-(-2x_2+5)=2(x_2-x_1)>0,$$
+so $h(x_1)>h(x_2)$.
+
+**Answer.** $h$ is decreasing on $\mathbb{R}$ (proved).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho $f(x)=\begin{cases} x+2 & \text{nếu } x<0,\\ x^2 & \text{nếu } x\ge 0.\end{cases}$ Giải các phương trình $f(x)=9$ và $f(x)=-1$.
+
+[LỜI GIẢI CŨ – VI]
+$f(x)=9$: với $x<0$, $x+2=9$ cho $x=7$ (loại vì $7\ge0$); với $x\ge0$, $x^2=9$ cho $x=3$ (loại $x=-3$). $f(x)=-1$: với $x<0$, $x+2=-1$ cho $x=-3$ (nhận); với $x\ge0$, $x^2=-1$ vô nghiệm.
+
+**Đáp số.** $f(x)=9\iff x=3$; $f(x)=-1\iff x=-3$.
+
+[ĐỀ – EN]
+Let $f(x)=\begin{cases} x+2 & \text{if } x<0,\\ x^2 & \text{if } x\ge 0.\end{cases}$ Solve the equations $f(x)=9$ and $f(x)=-1$.
+
+[LỜI GIẢI CŨ – EN]
+$f(x)=9$: for $x<0$, $x+2=9$ gives $x=7$ (rejected, as $7\ge0$); for $x\ge0$, $x^2=9$ gives $x=3$ (and $x=-3$ is rejected). $f(x)=-1$: for $x<0$, $x+2=-1$ gives $x=-3$ (kept); for $x\ge0$, $x^2=-1$ has no solution.
+
+**Answer.** $f(x)=9\iff x=3$; $f(x)=-1\iff x=-3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một công ty điện tính $2$ nghìn đồng cho mỗi kWh trong $50$ kWh đầu và $2{,}5$ nghìn đồng cho mỗi kWh vượt quá $50$. Một hộ gia đình nhận hoá đơn $300$ nghìn đồng. Hộ đó đã dùng bao nhiêu kWh?
+
+[LỜI GIẢI CŨ – VI]
+$50$ kWh đầu hết $2\cdot50=100$ nghìn đồng $<300$, nên $x>50$ và
+$$100+2{,}5(x-50)=300\iff 2{,}5(x-50)=200\iff x-50=80\iff x=130.$$
+
+**Đáp số.** $130$.
+
+[ĐỀ – EN]
+An electricity company charges $2$ thousand dong per kWh for the first $50$ kWh and $2.5$ thousand dong per kWh for every kWh above $50$. A household receives a bill of $300$ thousand dong. How many kWh did it use?
+
+[LỜI GIẢI CŨ – EN]
+The first $50$ kWh cost $2\cdot50=100$ thousand dong $<300$, so $x>50$ and
+$$100+2.5(x-50)=300\iff 2.5(x-50)=200\iff x-50=80\iff x=130.$$
+
+**Answer.** $130$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Dựa vào đồ thị của $f(x)=x^2-2x-3$ trong bài, mỗi khẳng định sau đúng hay sai?
+
+a) $f(0)=-3$.
+b) Tập giá trị của $f$ là $[-4; +\infty)$.
+c) $f$ đồng biến trên khoảng $(-1; 3)$.
+d) $f(x)<0$ khi và chỉ khi $-1<x<3$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Đồ thị cắt trục tung tại $(0; -3)$.
+
+b) **Đúng.** Điểm thấp nhất là $(1; -4)$ và đồ thị đi lên mãi về hai phía.
+
+c) **Sai.** Trên $(-1; 1)$ đồ thị đi xuống, chẳng hạn $f(0)=-3>f(1)=-4$; $f$ chỉ đồng biến trên $(1; +\infty)$.
+
+d) **Đúng.** Phần đồ thị nằm dưới trục hoành ứng với $x$ nằm giữa hai không điểm $-1$ và $3$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Using the graph of $f(x)=x^2-2x-3$ in the lesson, is each claim true or false?
+
+a) $f(0)=-3$.
+b) The range of $f$ is $[-4, +\infty)$.
+c) $f$ is increasing on the interval $(-1, 3)$.
+d) $f(x)<0$ if and only if $-1<x<3$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** The graph meets the $y$-axis at $(0, -3)$.
+
+b) **True.** The lowest point is $(1, -4)$ and the graph rises without end on both sides.
+
+c) **False.** On $(-1, 1)$ the graph falls, for example $f(0)=-3>f(1)=-4$; $f$ is increasing only on $(1, +\infty)$.
+
+d) **True.** The part of the graph below the $x$-axis corresponds to $x$ between the zeros $-1$ and $3$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn lại tập hợp.) Tìm tập xác định $D$ của $f(x)=\sqrt{x+3}+\dfrac{1}{\sqrt{2-x}}$, rồi tìm $D\cap\mathbb{Z}$.
+
+[LỜI GIẢI CŨ – VI]
+$x+3\ge0\iff x\ge-3$ và $2-x>0\iff x<2$. Vậy $D=[-3; 2)$, và các số nguyên trong $D$ là $-3, -2, -1, 0, 1$ (không lấy $2$).
+
+**Đáp số.** $D=[-3; 2)$; $D\cap\mathbb{Z}=\{-3; -2; -1; 0; 1\}$.
+
+[ĐỀ – EN]
+(Revisiting sets.) Find the domain $D$ of $f(x)=\sqrt{x+3}+\dfrac{1}{\sqrt{2-x}}$, then find $D\cap\mathbb{Z}$.
+
+[LỜI GIẢI CŨ – EN]
+$x+3\ge0\iff x\ge-3$ and $2-x>0\iff x<2$. So $D=[-3, 2)$, and the integers in $D$ are $-3, -2, -1, 0, 1$ (not $2$).
+
+**Answer.** $D=[-3, 2)$; $D\cap\mathbb{Z}=\{-3, -2, -1, 0, 1\}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm tập giá trị của $f(x)=x^2-4x+7$ trên $\mathbb{R}$ và trên đoạn $[0; 3]$.
+
+[LỜI GIẢI CŨ – VI]
+Trên $\mathbb{R}$, $(x-2)^2$ nhận mọi giá trị trong $[0; +\infty)$, nên $f(x)$ nhận mọi giá trị trong $[3; +\infty)$.
+
+Với $0\le x\le3$ thì $-2\le x-2\le1$, nên $(x-2)^2$ nhận mọi giá trị trong $[0; 4]$ (giá trị $4$ tại $x=0$, giá trị $0$ tại $x=2$). Do đó $f(x)$ nhận mọi giá trị trong $[3; 7]$.
+
+**Đáp số.** Trên $\mathbb{R}$: $[3; +\infty)$; trên $[0; 3]$: $[3; 7]$.
+
+[ĐỀ – EN]
+Find the range of $f(x)=x^2-4x+7$ on $\mathbb{R}$ and on the interval $[0, 3]$.
+
+[LỜI GIẢI CŨ – EN]
+On $\mathbb{R}$, $(x-2)^2$ takes every value in $[0, +\infty)$, so $f(x)$ takes every value in $[3, +\infty)$.
+
+For $0\le x\le3$ we have $-2\le x-2\le1$, so $(x-2)^2$ takes every value in $[0, 4]$ (the value $4$ at $x=0$, the value $0$ at $x=2$). Hence $f(x)$ takes every value in $[3, 7]$.
+
+**Answer.** On $\mathbb{R}$: $[3, +\infty)$; on $[0, 3]$: $[3, 7]$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một nhà mạng có hai gói dữ liệu theo tháng. Gói A: $50$ nghìn đồng cộng $10$ nghìn đồng cho mỗi GB dùng. Gói B: $90$ nghìn đồng cho tối đa $6$ GB, mỗi GB vượt quá $6$ tính thêm $15$ nghìn đồng. Với lượng dùng $x$ GB nào thì gói B rẻ hơn gói A?
+
+[LỜI GIẢI CŨ – VI]
+Với $0\le x\le6$: $90<50+10x\iff x>4$, nên $4<x\le6$.
+
+Với $x>6$: $B(x)=90+15(x-6)=15x$, và $15x<50+10x\iff x<10$, nên $6<x<10$.
+
+Gộp lại được $4<x<10$. **Kiểm tra.** Tại $x=4$: $A=B=90$; tại $x=10$: $A=B=150$.
+
+**Đáp số.** Gói B rẻ hơn khi $4<x<10$ (GB).
+
+[ĐỀ – EN]
+A phone network offers two monthly data plans. Plan A: $50$ thousand dong plus $10$ thousand dong for each GB used. Plan B: $90$ thousand dong for up to $6$ GB, plus $15$ thousand dong for each GB above $6$. For which usage $x$ GB is plan B cheaper than plan A?
+
+[LỜI GIẢI CŨ – EN]
+For $0\le x\le6$: $90<50+10x\iff x>4$, so $4<x\le6$.
+
+For $x>6$: $B(x)=90+15(x-6)=15x$, and $15x<50+10x\iff x<10$, so $6<x<10$.
+
+Together: $4<x<10$. **Check.** At $x=4$: $A=B=90$; at $x=10$: $A=B=150$.
+
+**Answer.** Plan B is cheaper when $4<x<10$ (GB).
+
+
+######################################################################
+@@@ g10/linear-inequality-two-variables
+Bài học: Bất phương trình bậc nhất hai ẩn / Linear inequalities in two variables
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong các cặp $(2; -1)$, $(0; 3)$, $(6; 1)$, cặp nào là nghiệm của bất phương trình $x-2y\ge 4$?
+
+[LỜI GIẢI CŨ – VI]
+$$(2; -1):\ 2+2=4\ge 4\ \text{(đúng)};\quad (0; 3):\ 0-6=-6\ge 4\ \text{(sai)};\quad (6; 1):\ 6-2=4\ge 4\ \text{(đúng)}.$$
+
+**Đáp số.** $(2; -1)$ và $(6; 1)$ là nghiệm.
+
+[ĐỀ – EN]
+Which of the pairs $(2, -1)$, $(0, 3)$, $(6, 1)$ are solutions of $x-2y\ge 4$?
+
+[LỜI GIẢI CŨ – EN]
+$$(2, -1):\ 2+2=4\ge 4\ \text{(true)};\quad (0, 3):\ 0-6=-6\ge 4\ \text{(false)};\quad (6, 1):\ 6-2=4\ge 4\ \text{(true)}.$$
+
+**Answer.** $(2, -1)$ and $(6, 1)$ are solutions.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho bất phương trình $2x-3y\le 6$. Mỗi khẳng định sau đúng hay sai?
+
+a) Cặp $(0; 0)$ là một nghiệm của bất phương trình.
+
+b) Đường thẳng biên đi qua hai điểm $(3; 0)$ và $(0; 2)$.
+
+c) Cặp $(1; -2)$ là một nghiệm của bất phương trình.
+
+d) Miền nghiệm là nửa mặt phẳng chứa gốc toạ độ, kể cả đường thẳng biên.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng:** $2\cdot 0-3\cdot 0=0\le 6$.
+
+b) **Sai:** cho $x=0$ ta được $-3y=6$, tức $y=-2$. Đường biên đi qua $(3; 0)$ và $(0; -2)$, không đi qua $(0; 2)$.
+
+c) **Sai:** $2\cdot 1-3\cdot(-2)=8$, mà $8\le 6$ là sai.
+
+d) **Đúng:** $O$ là nghiệm (câu a) và dấu $\le$ nên bờ thuộc miền nghiệm.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the inequality $2x-3y\le 6$. Is each claim true or false?
+
+a) The pair $(0, 0)$ is a solution of the inequality.
+
+b) The boundary line passes through the points $(3, 0)$ and $(0, 2)$.
+
+c) The pair $(1, -2)$ is a solution of the inequality.
+
+d) The solution region is the half-plane containing the origin, including the boundary line.
+
+[LỜI GIẢI CŨ – EN]
+a) **True:** $2\cdot 0-3\cdot 0=0\le 6$.
+
+b) **False:** putting $x=0$ gives $-3y=6$, so $y=-2$. The boundary passes through $(3, 0)$ and $(0, -2)$, not through $(0, 2)$.
+
+c) **False:** $2\cdot 1-3\cdot(-2)=8$, and $8\le 6$ is false.
+
+d) **True:** $O$ is a solution (part a) and the sign is $\le$, so the boundary is included.
+
+**Answer.** a) True; b) False; c) False; d) True.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Biểu diễn miền nghiệm của $2x-y\le 4$: nêu hai điểm của đường biên, loại nét vẽ, điểm kiểm tra và phía cần lấy.
+
+[LỜI GIẢI CŨ – VI]
+$$y=0\Rightarrow x=2,\qquad x=0\Rightarrow y=-4.$$
+Đường biên đi qua $(2; 0)$ và $(0; -4)$, vẽ nét liền vì dấu $\le$. Thay $O$: $0\le 4$ đúng.
+
+**Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $2x-y=4$ chứa gốc toạ độ, kể cả bờ.
+
+[ĐỀ – EN]
+Describe the solution region of $2x-y\le 4$: give two points of the boundary, the type of line, the test point and the side to take.
+
+[LỜI GIẢI CŨ – EN]
+$$y=0\Rightarrow x=2,\qquad x=0\Rightarrow y=-4.$$
+The boundary passes through $(2, 0)$ and $(0, -4)$ and is solid because of $\le$. Substitute $O$: $0\le 4$ is true.
+
+**Answer.** The region is the half-plane with boundary $2x-y=4$ containing the origin, boundary included.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Biểu diễn miền nghiệm của $x-y\ge 0$.
+
+[LỜI GIẢI CŨ – VI]
+Đường biên $y=x$ đi qua $O$ và $(1; 1)$, vẽ nét liền. Thử $(1; 0)$: $1-0=1\ge 0$, đúng.
+
+**Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $y=x$ chứa điểm $(1; 0)$ (phía dưới đường thẳng $y=x$), kể cả bờ.
+
+[ĐỀ – EN]
+Draw the solution region of $x-y\ge 0$.
+
+[LỜI GIẢI CŨ – EN]
+The boundary $y=x$ passes through $O$ and $(1, 1)$ and is solid. Test $(1, 0)$: $1-0=1\ge 0$, true.
+
+**Answer.** The region is the half-plane with boundary $y=x$ containing $(1, 0)$ (below the line $y=x$), boundary included.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điểm nào trong các điểm $A(1; 1)$, $B(-2; 3)$, $C(4; -1)$ thuộc miền nghiệm của $3x+2y>5$?
+
+[LỜI GIẢI CŨ – VI]
+$$A:\ 3+2=5;\qquad B:\ -6+6=0;\qquad C:\ 12-2=10.$$
+Chỉ có $10>5$ đúng; tại $A$ ta có $5>5$ là sai vì $A$ nằm trên bờ nét đứt.
+
+**Đáp số.** Chỉ có điểm $C$.
+
+[ĐỀ – EN]
+Which of the points $A(1, 1)$, $B(-2, 3)$, $C(4, -1)$ lie in the solution region of $3x+2y>5$?
+
+[LỜI GIẢI CŨ – EN]
+$$A:\ 3+2=5;\qquad B:\ -6+6=0;\qquad C:\ 12-2=10.$$
+Only $10>5$ is true; at $A$ we get $5>5$, which is false because $A$ lies on the dashed boundary.
+
+**Answer.** Only the point $C$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một gói cước điện thoại tính $2000$ đồng mỗi phút gọi và $500$ đồng mỗi tin nhắn. Mai có tối đa $40000$ đồng trong tài khoản. Gọi $x$ là số phút gọi, $y$ là số tin nhắn. Viết bất phương trình, rồi cho biết Mai có thể gọi $15$ phút và nhắn $20$ tin không, còn $18$ phút và $10$ tin thì sao?
+
+[LỜI GIẢI CŨ – VI]
+$$2000x+500y\le 40000\iff 4x+y\le 80.$$
+Với $(15; 20)$: $60+20=80\le 80$, đúng. Với $(18; 10)$: $72+10=82\le 80$, sai (cần $41000$ đồng).
+
+**Đáp số.** $4x+y\le 80$; Mai dùng được $15$ phút và $20$ tin, nhưng không đủ tiền cho $18$ phút và $10$ tin.
+
+[ĐỀ – EN]
+A phone plan charges $2000$ dong per minute of calls and $500$ dong per text message. Mai has at most $40000$ dong in her account. Let $x$ be the minutes and $y$ the messages. Write an inequality, then decide whether Mai can make $15$ minutes of calls and send $20$ messages, and whether she can do $18$ minutes and $10$ messages.
+
+[LỜI GIẢI CŨ – EN]
+$$2000x+500y\le 40000\iff 4x+y\le 80.$$
+For $(15, 20)$: $60+20=80\le 80$, true. For $(18, 10)$: $72+10=82\le 80$, false (it would cost $41000$ dong).
+
+**Answer.** $4x+y\le 80$; Mai can do $15$ minutes and $20$ messages, but she cannot afford $18$ minutes and $10$ messages.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Có bao nhiêu cặp số nguyên không âm $(x; y)$ là nghiệm của bất phương trình $2x+y\le 4$?
+
+[LỜI GIẢI CŨ – VI]
+$$x=0:\ 0\le y\le 4\ (5\ \text{cặp});\quad x=1:\ 0\le y\le 2\ (3\ \text{cặp});\quad x=2:\ y=0\ (1\ \text{cặp}).$$
+Tổng cộng $5+3+1=9$ cặp.
+
+**Đáp số.** $9$.
+
+[ĐỀ – EN]
+How many pairs of non-negative whole numbers $(x, y)$ are solutions of $2x+y\le 4$?
+
+[LỜI GIẢI CŨ – EN]
+$$x=0:\ 0\le y\le 4\ (5\ \text{pairs});\quad x=1:\ 0\le y\le 2\ (3\ \text{pairs});\quad x=2:\ y=0\ (1\ \text{pair}).$$
+In total $5+3+1=9$ pairs.
+
+**Answer.** $9$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Vé học sinh giá $20$ nghìn đồng, vé người lớn giá $50$ nghìn đồng. Một nhóm có tối đa $200$ nghìn đồng và phải mua ít nhất $2$ vé người lớn. Viết các bất phương trình và tìm số người nhiều nhất của nhóm (mỗi người một vé).
+
+[LỜI GIẢI CŨ – VI]
+$$20x+50y\le 200\iff 2x+5y\le 20,\qquad y\ge 2,\ x\ge 0.$$
+Với $y=2$: $2x\le 10$, $x\le 5$, tổng $7$. Với $y=3$: $2x\le 5$, $x\le 2$, tổng $5$. Với $y=4$: $x=0$, tổng $4$.
+
+**Đáp số.** Nhiều nhất $7$ người ($5$ học sinh và $2$ người lớn).
+
+[ĐỀ – EN]
+A student ticket costs $20$ thousand dong and an adult ticket $50$ thousand dong. A group has at most $200$ thousand dong and must buy at least $2$ adult tickets. Write the inequalities and find the largest possible number of people in the group (one ticket each).
+
+[LỜI GIẢI CŨ – EN]
+$$20x+50y\le 200\iff 2x+5y\le 20,\qquad y\ge 2,\ x\ge 0.$$
+For $y=2$: $2x\le 10$, $x\le 5$, total $7$. For $y=3$: $2x\le 5$, $x\le 2$, total $5$. For $y=4$: $x=0$, total $4$.
+
+**Answer.** At most $7$ people ($5$ students and $2$ adults).
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm một bất phương trình dạng $ax+by\le c$ có đường biên đi qua $(0; 2)$ và $(3; 0)$ và có miền nghiệm chứa gốc toạ độ.
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{x}{3}+\frac{y}{2}=1\iff 2x+3y=6.$$
+Tại $O$: $2\cdot 0+3\cdot 0=0\le 6$, nên gốc toạ độ nằm về phía "$\le 6$".
+
+**Đáp số.** $2x+3y\le 6$.
+
+[ĐỀ – EN]
+Find an inequality of the form $ax+by\le c$ whose boundary passes through $(0, 2)$ and $(3, 0)$ and whose solution region contains the origin.
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{x}{3}+\frac{y}{2}=1\iff 2x+3y=6.$$
+At $O$: $2\cdot 0+3\cdot 0=0\le 6$, so the origin lies on the "$\le 6$" side.
+
+**Answer.** $2x+3y\le 6$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+(Ôn lại [Mệnh đề](lesson:statements).) Xét mệnh đề $P$: "Với mọi số thực $x$, cặp $(x; 1)$ là nghiệm của bất phương trình $2x+y\le 7$." Mệnh đề $P$ đúng hay sai? Phát biểu mệnh đề phủ định của $P$.
+
+[LỜI GIẢI CŨ – VI]
+Thay $y=1$: $2x+1\le 7\iff x\le 3$. Với $x=4$: $2\cdot 4+1=9>7$, nên $(4; 1)$ không là nghiệm và $P$ sai.
+
+**Đáp số.** $P$ sai (phản ví dụ $x=4$). $\overline{P}$: "Tồn tại số thực $x$ sao cho $2x+1>7$", tức là có cặp $(x; 1)$ không là nghiệm.
+
+[ĐỀ – EN]
+(Revisiting [Statements](lesson:statements).) Consider the statement $P$: "For every real number $x$, the pair $(x, 1)$ is a solution of $2x+y\le 7$." Is $P$ true or false? State the negation of $P$.
+
+[LỜI GIẢI CŨ – EN]
+Put $y=1$: $2x+1\le 7\iff x\le 3$. For $x=4$: $2\cdot 4+1=9>7$, so $(4, 1)$ is not a solution and $P$ is false.
+
+**Answer.** $P$ is false (counterexample $x=4$). $\overline{P}$: "There exists a real number $x$ such that $2x+1>7$", that is, some pair $(x, 1)$ is not a solution.
+
+
+===== HẾT FILE Vinax258-08-LG =====

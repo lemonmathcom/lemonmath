@@ -1,0 +1,1135 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-10-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-10-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-10-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 44 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-10-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-10-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/review-numbers-to-100000 (7 bài tập)
+- g4/rounding-hundred-thousands (10 bài tập)
+- g4/simplifying-fractions (10 bài tập)
+- g4/six-digit-numbers (10 bài tập)
+- g4/square-dm-m-mm (7 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/review-numbers-to-100000
+Bài học: Ôn tập các số đến 100 000 / Review: numbers to 100,000
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đọc số $41\,305$.
+
+[LỜI GIẢI CŨ – VI]
+Các chữ số: chục nghìn $4$, nghìn $1$, trăm $3$, chục $0$, đơn vị $5$.
+
+**Đáp số.** Bốn mươi mốt nghìn ba trăm linh năm.
+
+[ĐỀ – EN]
+Read the number $41\,305$.
+
+[LỜI GIẢI CŨ – EN]
+The digits: ten thousands $4$, thousands $1$, hundreds $3$, tens $0$, ones $5$.
+
+**Answer.** Forty-one thousand, three hundred and five.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết các số sau:
+a) Sáu mươi nghìn hai trăm mười.
+b) Hai mươi ba nghìn không trăm linh tám.
+
+[LỜI GIẢI CŨ – VI]
+a) $60\,000+200+10=60\,210$.
+
+b) $23\,000+8=23\,008$.
+
+**Đáp số.** a) $60\,210$. b) $23\,008$.
+
+[ĐỀ – EN]
+Write these numbers:
+a) Sixty thousand, two hundred and ten.
+b) Twenty-three thousand and eight.
+
+[LỜI GIẢI CŨ – EN]
+a) $60\,000+200+10=60\,210$.
+
+b) $23\,000+8=23\,008$.
+
+**Answer.** a) $60\,210$. b) $23\,008$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết số $70\,605$ thành tổng các hàng.
+
+[LỜI GIẢI CŨ – VI]
+Các chữ số: $7$ chục nghìn, $0$ nghìn, $6$ trăm, $0$ chục, $5$ đơn vị. Vậy $70\,605=70\,000+600+5$.
+
+**Đáp số.** $70\,000+600+5$.
+
+[ĐỀ – EN]
+Write $70\,605$ as a sum of its places.
+
+[LỜI GIẢI CŨ – EN]
+The digits: $7$ ten thousands, $0$ thousands, $6$ hundreds, $0$ tens, $5$ ones. So $70\,605=70\,000+600+5$.
+
+**Answer.** $70\,000+600+5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho số $58\,142$. Hãy nêu giá trị của chữ số $5$, chữ số $8$ và chữ số $4$.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số $5$ ở hàng chục nghìn: giá trị $50\,000$. Chữ số $8$ ở hàng nghìn: giá trị $8\,000$. Chữ số $4$ ở hàng chục: giá trị $40$.
+
+**Đáp số.** $50\,000$; $8\,000$; $40$.
+
+[ĐỀ – EN]
+Look at the number $58\,142$. Give the value of the digit $5$, the digit $8$ and the digit $4$.
+
+[LỜI GIẢI CŨ – EN]
+The digit $5$ is in the ten thousands place: value $50\,000$. The digit $8$ is in the thousands place: value $8\,000$. The digit $4$ is in the tens place: value $40$.
+
+**Answer.** $50\,000$; $8\,000$; $40$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà làm hai bài sau. Hà sai ở đâu? Hãy sửa lại.
+a) Hà đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi".
+b) Hà nói $9\,999>10\,000$ vì $9>1$.
+
+[LỜI GIẢI CŨ – VI]
+a) "Ba mươi nghìn năm trăm hai mươi" là $30\,520$. Số $30\,502$ có chữ số hàng chục là $0$, nên đọc là "ba mươi nghìn năm trăm linh hai".
+
+b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số, nên $9\,999<10\,000$. Hà không được so một chữ số đầu khi số chữ số khác nhau.
+
+**Đáp số.** a) Ba mươi nghìn năm trăm linh hai. b) $9\,999<10\,000$.
+
+[ĐỀ – EN]
+Ha did the two tasks below. Where did Ha go wrong? Correct them.
+a) Ha read $30\,502$ as "thirty thousand, five hundred and twenty".
+b) Ha said $9\,999>10\,000$ because $9>1$.
+
+[LỜI GIẢI CŨ – EN]
+a) "Thirty thousand, five hundred and twenty" is $30\,520$. The number $30\,502$ has tens digit $0$, so it is read "thirty thousand, five hundred and two".
+
+b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits, so $9\,999<10\,000$. Ha must not compare just the first digits when the numbers of digits differ.
+
+**Answer.** a) Thirty thousand, five hundred and two. b) $9\,999<10\,000$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ba thư viện có số quyển sách là $24\,300$; $8\,900$; $24\,030$. Hãy sắp xếp theo thứ tự từ bé đến lớn và cho biết thư viện nào có nhiều sách nhất.
+
+[LỜI GIẢI CŨ – VI]
+$8\,900$ có $4$ chữ số nên bé nhất. Hai số còn lại cùng có $5$ chữ số, chung hàng chục nghìn và hàng nghìn. Hàng trăm: $0<3$ nên $24\,030<24\,300$.
+
+**Đáp số.** $8\,900<24\,030<24\,300$; thư viện có $24\,300$ quyển nhiều sách nhất.
+
+[ĐỀ – EN]
+Three libraries have $24\,300$; $8\,900$; and $24\,030$ books. Put them in order from least to greatest and say which library has the most books.
+
+[LỜI GIẢI CŨ – EN]
+$8\,900$ has $4$ digits, so it is the least. The other two both have $5$ digits and share the ten thousands and thousands digits. In the hundreds place $0<3$, so $24\,030<24\,300$.
+
+**Answer.** $8\,900<24\,030<24\,300$; the library with $24\,300$ books has the most.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Từ các chữ số $0$, $3$, $5$, $7$, $9$ (mỗi chữ số dùng đúng một lần), hãy lập số có $5$ chữ số lớn nhất và số có $5$ chữ số bé nhất.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất: $97\,530$. Số bé nhất: chữ số đầu là chữ số bé nhất khác $0$, tức $3$; các chữ số còn lại xếp từ bé đến lớn: $0$, $5$, $7$, $9$. Được $30\,579$.
+
+**Đáp số.** Số lớn nhất $97\,530$; số bé nhất $30\,579$.
+
+[ĐỀ – EN]
+Using the digits $0$, $3$, $5$, $7$, $9$ (each digit used exactly once), make the greatest $5$-digit number and the least $5$-digit number.
+
+[LỜI GIẢI CŨ – EN]
+Greatest: $97\,530$. Least: the first digit is the smallest digit that is not $0$, which is $3$; the other digits go from least to greatest: $0$, $5$, $7$, $9$. This gives $30\,579$.
+
+**Answer.** Greatest $97\,530$; least $30\,579$.
+
+
+######################################################################
+@@@ g4/rounding-hundred-thousands
+Bài học: Làm tròn số đến hàng trăm nghìn. Làm quen với dãy số tự nhiên / Rounding to the nearest hundred thousand. Introducing the sequence of natural numbers
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Làm tròn $5\,683\,200$ đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng trăm nghìn là $6$, chữ số hàng chục nghìn là $8$. Vì $8\geq5$ nên tăng $6$ lên $7$ và thay các chữ số bên phải bằng $0$.
+
+**Đáp số.** $5\,700\,000$.
+
+[ĐỀ – EN]
+Round $5\,683\,200$ to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+The hundred-thousands digit is $6$ and the ten-thousands digit is $8$. Since $8\geq5$, increase $6$ to $7$ and replace the digits to its right with $0$.
+
+**Answer.** $5\,700\,000$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Làm tròn $417\,305$ đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng trăm nghìn là $4$, chữ số hàng chục nghìn là $1$. Vì $1<5$ nên giữ nguyên $4$ và thay các chữ số bên phải bằng $0$.
+
+**Đáp số.** $400\,000$.
+
+[ĐỀ – EN]
+Round $417\,305$ to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+The hundred-thousands digit is $4$ and the ten-thousands digit is $1$. Since $1<5$, keep $4$ and replace the digits to its right with $0$.
+
+**Answer.** $400\,000$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Làm tròn $850\,000$ đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
+
+**Đáp số.** $900\,000$.
+
+[ĐỀ – EN]
+Round $850\,000$ to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
+
+**Answer.** $900\,000$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Làm tròn $726\,481$ đến hàng nghìn, đến hàng chục nghìn và đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Đến hàng nghìn: chữ số hàng trăm là $4<5$, giữ nguyên $6$, được $726\,000$. Đến hàng chục nghìn: chữ số hàng nghìn là $6\geq5$, tăng $2$ lên $3$, được $730\,000$. Đến hàng trăm nghìn: chữ số hàng chục nghìn là $2<5$, giữ nguyên $7$, được $700\,000$.
+
+**Đáp số.** $726\,000$; $730\,000$; $700\,000$.
+
+[ĐỀ – EN]
+Round $726\,481$ to the nearest thousand, the nearest ten thousand and the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+To the nearest thousand: the hundreds digit is $4<5$, keep $6$, giving $726\,000$. To the nearest ten thousand: the thousands digit is $6\geq5$, increase $2$ to $3$, giving $730\,000$. To the nearest hundred thousand: the ten-thousands digit is $2<5$, keep $7$, giving $700\,000$.
+
+**Answer.** $726\,000$; $730\,000$; $700\,000$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một thành phố (số liệu giả định) có $3\,856\,000$ người. Hỏi thành phố có khoảng bao nhiêu người (làm tròn đến hàng trăm nghìn)?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
+
+Số người khoảng $3\,900\,000$.
+
+**Đáp số.** Khoảng $3\,900\,000$ người.
+
+[ĐỀ – EN]
+A city (made-up numbers) has $3\,856\,000$ people. About how many people does the city have (to the nearest hundred thousand)?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
+
+The number of people is about $3\,900\,000$.
+
+**Answer.** About $3\,900\,000$ people.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hai trận đấu (số liệu giả định) có $41\,280$ khán giả và $57\,340$ khán giả. Hỏi cả hai trận có khoảng bao nhiêu khán giả (làm tròn đến hàng chục nghìn)?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Tổng số khán giả là:
+$$41\,280+57\,340=98\,620\ \text{(người)}.$$
+Chữ số hàng chục nghìn là $9$, chữ số hàng nghìn là $8\geq5$ nên tăng $9$ lên $10$, được $100\,000$.
+
+**Đáp số.** Khoảng $100\,000$ khán giả.
+
+[ĐỀ – EN]
+Two matches (made-up numbers) have $41\,280$ spectators and $57\,340$ spectators. About how many spectators are there at the two matches altogether (to the nearest ten thousand)?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The total number of spectators is:
+$$41\,280+57\,340=98\,620\ \text{(people)}.$$
+The ten-thousands digit is $9$ and the thousands digit is $8\geq5$, so increase $9$ to $10$, giving $100\,000$.
+
+**Answer.** About $100\,000$ spectators.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Viết $6$ số tự nhiên liên tiếp sau số $999\,997$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $999\,997+1=999\,998$, rồi $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
+
+**Đáp số.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
+
+[ĐỀ – EN]
+Write the $6$ consecutive natural numbers after $999\,997$.
+
+[LỜI GIẢI CŨ – EN]
+We have $999\,997+1=999\,998$, then $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
+
+**Answer.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài so sánh các số có nhiều chữ số. So sánh $2\,467\,891$ với số làm tròn của nó đến hàng trăm nghìn. Số làm tròn lớn hơn hay bé hơn số ban đầu?
+
+[LỜI GIẢI CŨ – VI]
+Số làm tròn là $2\,500\,000$. Hai số đều có bảy chữ số. Hàng triệu: $2=2$. Hàng trăm nghìn: $4<5$. Vậy $2\,467\,891<2\,500\,000$.
+
+**Đáp số.** Số làm tròn $2\,500\,000$ lớn hơn số ban đầu.
+
+[ĐỀ – EN]
+Remember the lesson on comparing numbers with many digits. Compare $2\,467\,891$ with its rounded value to the nearest hundred thousand. Is the rounded value greater or smaller than the original number?
+
+[LỜI GIẢI CŨ – EN]
+The rounded value is $2\,500\,000$. Both numbers have seven digits. Millions: $2=2$. Hundred-thousands: $4<5$. So $2\,467\,891<2\,500\,000$.
+
+**Answer.** The rounded value $2\,500\,000$ is greater than the original number.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam làm tròn $3\,548\,200$ đến hàng trăm nghìn được $3\,600\,000$. Em hãy kiểm tra kết quả của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số hàng trăm nghìn là $5$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $5$ và thay các chữ số bên phải bằng $0$, được $3\,500\,000$. Nam đã nhìn chữ số hàng nghìn là $8$ nên làm tròn lên sai.
+
+**Đáp số.** Nam sai; kết quả đúng là $3\,500\,000$.
+
+[ĐỀ – EN]
+Nam rounds $3\,548\,200$ to the nearest hundred thousand and gets $3\,600\,000$. Check Nam's result. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The hundred-thousands digit is $5$ and the ten-thousands digit is $4$. Since $4<5$, keep $5$ and replace the digits to its right with $0$, giving $3\,500\,000$. Nam looked at the thousands digit $8$, so he rounded up wrongly.
+
+**Answer.** Nam is wrong; the correct result is $3\,500\,000$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm số tự nhiên có sáu chữ số bé nhất và lớn nhất mà khi làm tròn đến hàng trăm nghìn thì được $500\,000$.
+
+[LỜI GIẢI CŨ – VI]
+Số bé nhất: bắt đầu bằng $4$ và chữ số hàng chục nghìn phải từ $5$ trở lên nên số bé nhất là $450\,000$. Số lớn nhất: bắt đầu bằng $5$ và chữ số hàng chục nghìn phải bé hơn $5$ nên số lớn nhất là $549\,999$.
+
+**Thử lại.** $449\,999$ làm tròn thành $400\,000$ và $550\,000$ làm tròn thành $600\,000$, đều khác $500\,000$.
+
+**Đáp số.** $450\,000$ và $549\,999$.
+
+[ĐỀ – EN]
+Find the smallest and the largest six-digit natural number that rounds to $500\,000$ when rounded to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+Smallest number: it starts with $4$ and the ten-thousands digit must be $5$ or more, so the smallest number is $450\,000$. Largest number: it starts with $5$ and the ten-thousands digit must be less than $5$, so the largest number is $549\,999$.
+
+**Check.** $449\,999$ rounds to $400\,000$ and $550\,000$ rounds to $600\,000$, and neither is $500\,000$.
+
+**Answer.** $450\,000$ and $549\,999$.
+
+
+######################################################################
+@@@ g4/simplifying-fractions
+Bài học: Rút gọn phân số. Quy đồng mẫu số các phân số / Simplifying fractions. Finding a common denominator
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{10}{25}$.
+
+[LỜI GIẢI CŨ – VI]
+Cả $10$ và $25$ đều chia hết cho $5$:
+$$\dfrac{10}{25}=\dfrac{10:5}{25:5}=\dfrac{2}{5}.$$
+
+**Đáp số.** $\dfrac{2}{5}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{10}{25}$.
+
+[LỜI GIẢI CŨ – EN]
+Both $10$ and $25$ are divisible by $5$:
+$$\dfrac{10}{25}=\dfrac{10\div5}{25\div5}=\dfrac{2}{5}.$$
+
+**Answer.** $\dfrac{2}{5}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{36}{48}$ đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{36}{48}=\dfrac{36:12}{48:12}=\dfrac{3}{4}.$$
+
+**Đáp số.** $\dfrac{3}{4}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{36}{48}$ to its simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{36}{48}=\dfrac{36\div12}{48\div12}=\dfrac{3}{4}.$$
+
+**Answer.** $\dfrac{3}{4}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Trong các phân số $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfrac{18}{27}$, phân số nào là phân số tối giản?
+
+[LỜI GIẢI CŨ – VI]
+- $\dfrac{4}{9}$: $4$ và $9$ không có số chung lớn hơn $1$, nên tối giản.
+- $\dfrac{6}{14}=\dfrac{3}{7}$: rút gọn được.
+- $\dfrac{15}{22}$: $15$ và $22$ không có số chung lớn hơn $1$, nên tối giản.
+- $\dfrac{18}{27}=\dfrac{2}{3}$: rút gọn được.
+
+**Đáp số.** $\dfrac{4}{9}$ và $\dfrac{15}{22}$.
+
+[ĐỀ – EN]
+Which of the fractions $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfrac{18}{27}$ are in their simplest form?
+
+[LỜI GIẢI CŨ – EN]
+- $\dfrac{4}{9}$: $4$ and $9$ have no common divisor greater than $1$, so it is in its simplest form.
+- $\dfrac{6}{14}=\dfrac{3}{7}$: it can be simplified.
+- $\dfrac{15}{22}$: $15$ and $22$ have no common divisor greater than $1$, so it is in its simplest form.
+- $\dfrac{18}{27}=\dfrac{2}{3}$: it can be simplified.
+
+**Answer.** $\dfrac{4}{9}$ and $\dfrac{15}{22}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{120}{180}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{120}{180}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Answer.** $\dfrac{2}{3}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Quy đồng mẫu số hai phân số $\dfrac{3}{4}$ và $\dfrac{2}{7}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+
+**Đáp số.** $\dfrac{21}{28}$ và $\dfrac{8}{28}$.
+
+[ĐỀ – EN]
+Write the fractions $\dfrac{3}{4}$ and $\dfrac{2}{7}$ over a common denominator.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+
+**Answer.** $\dfrac{21}{28}$ and $\dfrac{8}{28}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Quy đồng mẫu số hai phân số $\dfrac{7}{12}$ và $\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $12$ chia hết cho $6$ nên giữ $\dfrac{7}{12}$ và đổi $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+**Đáp số.** $\dfrac{7}{12}$ và $\dfrac{10}{12}$.
+
+[ĐỀ – EN]
+Write the fractions $\dfrac{7}{12}$ and $\dfrac{5}{6}$ over a common denominator.
+
+[LỜI GIẢI CŨ – EN]
+Since $12$ is divisible by $6$, keep $\dfrac{7}{12}$ and change $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+**Answer.** $\dfrac{7}{12}$ and $\dfrac{10}{12}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một lớp có $40$ học sinh, trong đó có $15$ em thích bóng đá. Viết phân số chỉ số em thích bóng đá so với cả lớp, rồi rút gọn phân số đó.
+
+[LỜI GIẢI CŨ – VI]
+Phân số chỉ số em thích bóng đá là $\dfrac{15}{40}$.
+
+Cả $15$ và $40$ chia hết cho $5$: $\dfrac{15}{40}=\dfrac{15:5}{40:5}=\dfrac{3}{8}$.
+
+**Đáp số.** $\dfrac{15}{40}=\dfrac{3}{8}$.
+
+[ĐỀ – EN]
+A class has $40$ students, of whom $15$ like football. Write the fraction of the class who like football, then simplify it.
+
+[LỜI GIẢI CŨ – EN]
+The fraction of the class who like football is $\dfrac{15}{40}$.
+
+Both $15$ and $40$ are divisible by $5$: $\dfrac{15}{40}=\dfrac{15\div5}{40\div5}=\dfrac{3}{8}$.
+
+**Answer.** $\dfrac{15}{40}=\dfrac{3}{8}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một băng giấy được chia thành $8$ phần bằng nhau và tô màu $6$ phần. Một băng giấy khác cùng độ dài được chia thành $12$ phần bằng nhau. Phải tô màu mấy phần thì được phân số bằng với phân số băng giấy thứ nhất?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{6}{8}=\dfrac{6:2}{8:2}=\dfrac{3}{4}$.
+
+Vì $12=4\times3$ nên $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+
+**Đáp số.** Phải tô màu $9$ phần.
+
+[ĐỀ – EN]
+A strip of paper is divided into $8$ equal parts and $6$ parts are coloured. Another strip of the same length is divided into $12$ equal parts. How many parts must be coloured to give a fraction equal to that of the first strip?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{6}{8}=\dfrac{6\div2}{8\div2}=\dfrac{3}{4}$.
+
+Since $12=4\times3$, $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+
+**Answer.** $9$ parts must be coloured.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân, chia với $10$, $100$, $1\,000$. Rút gọn phân số $\dfrac{2\,400}{3\,600}$ đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24:12}{36:12}=\dfrac{2}{3}.$$
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying and dividing by $10$, $100$, $1\,000$. Simplify the fraction $\dfrac{2\,400}{3\,600}$ to its simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24\div12}{36\div12}=\dfrac{2}{3}.$$
+
+**Answer.** $\dfrac{2}{3}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm phân số bằng $\dfrac{3}{7}$ sao cho tổng của tử số và mẫu số bằng $50$.
+
+[LỜI GIẢI CŨ – VI]
+Phân số bằng $\dfrac{3}{7}$ có dạng $\dfrac{3\times k}{7\times k}$ nên tổng tử số và mẫu số là $3\times k+7\times k=10\times k$.
+
+Vì $10\times k=50$ nên $k=5$. Phân số cần tìm là $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+
+**Thử lại.** $15+35=50$ và $\dfrac{15}{35}=\dfrac{15:5}{35:5}=\dfrac{3}{7}$. Đúng.
+
+**Đáp số.** $\dfrac{15}{35}$.
+
+[ĐỀ – EN]
+Find the fraction equal to $\dfrac{3}{7}$ whose numerator and denominator add up to $50$.
+
+[LỜI GIẢI CŨ – EN]
+A fraction equal to $\dfrac{3}{7}$ has the form $\dfrac{3\times k}{7\times k}$, so the sum of numerator and denominator is $3\times k+7\times k=10\times k$.
+
+Since $10\times k=50$, $k=5$. The fraction is $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+
+**Check.** $15+35=50$ and $\dfrac{15}{35}=\dfrac{15\div5}{35\div5}=\dfrac{3}{7}$. Correct.
+
+**Answer.** $\dfrac{15}{35}$.
+
+
+######################################################################
+@@@ g4/six-digit-numbers
+Bài học: Số có sáu chữ số. Số 1 000 000. Hàng và lớp / Six-digit numbers. The number 1,000,000. Place value: places and periods
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số: tám trăm hai mươi nghìn bốn trăm.
+
+[LỜI GIẢI CŨ – VI]
+"Tám trăm hai mươi nghìn" là $820\,000$ và "bốn trăm" là $400$. Ta có $820\,000+400=820\,400$.
+
+**Đáp số.** $820\,400$.
+
+[ĐỀ – EN]
+Write the number: eight hundred and twenty thousand, four hundred.
+
+[LỜI GIẢI CŨ – EN]
+"Eight hundred and twenty thousand" is $820\,000$ and "four hundred" is $400$. We have $820\,000+400=820\,400$.
+
+**Answer.** $820\,400$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đọc số $605\,090$.
+
+[LỜI GIẢI CŨ – VI]
+Số $605\,090$ có lớp nghìn là $605$ và lớp đơn vị là $090$.
+
+**Đáp số.** Sáu trăm linh năm nghìn không trăm chín mươi.
+
+[ĐỀ – EN]
+Read the number $605\,090$.
+
+[LỜI GIẢI CŨ – EN]
+The number $605\,090$ has thousands period $605$ and units period $090$.
+
+**Answer.** Six hundred and five thousand and ninety.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết số $258\,047$ thành tổng.
+
+[LỜI GIẢI CŨ – VI]
+Số $258\,047$ có $2$ trăm nghìn, $5$ chục nghìn, $8$ nghìn, $0$ trăm, $4$ chục và $7$ đơn vị. Ta có:
+$$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+**Đáp số.** $200\,000+50\,000+8\,000+40+7$.
+
+[ĐỀ – EN]
+Write $258\,047$ as a sum.
+
+[LỜI GIẢI CŨ – EN]
+The number $258\,047$ has $2$ hundred-thousands, $5$ ten-thousands, $8$ thousands, $0$ hundreds, $4$ tens and $7$ ones. We have:
+$$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+**Answer.** $200\,000+50\,000+8\,000+40+7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong số $913\,256$, các chữ số $9$, $3$ và $2$ thuộc hàng nào, lớp nào?
+
+[LỜI GIẢI CŨ – VI]
+Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn. Chữ số $3$ ở hàng nghìn, thuộc lớp nghìn. Chữ số $2$ ở hàng trăm, thuộc lớp đơn vị.
+
+**Đáp số.** $9$: hàng trăm nghìn, lớp nghìn; $3$: hàng nghìn, lớp nghìn; $2$: hàng trăm, lớp đơn vị.
+
+[ĐỀ – EN]
+In the number $913\,256$, which place and which period do the digits $9$, $3$ and $2$ belong to?
+
+[LỜI GIẢI CŨ – EN]
+The digit $9$ is in the hundred-thousands place, in the thousands period. The digit $3$ is in the thousands place, in the thousands period. The digit $2$ is in the hundreds place, in the units period.
+
+**Answer.** $9$: hundred-thousands place, thousands period; $3$: thousands place, thousands period; $2$: hundreds place, units period.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm số liền trước và số liền sau của $400\,000$.
+
+[LỜI GIẢI CŨ – VI]
+Số liền trước là $400\,000-1=399\,999$. Số liền sau là $400\,000+1=400\,001$.
+
+**Đáp số.** $399\,999$ và $400\,001$.
+
+[ĐỀ – EN]
+Find the number before and the number after $400\,000$.
+
+[LỜI GIẢI CŨ – EN]
+The number before is $400\,000-1=399\,999$. The number after is $400\,000+1=400\,001$.
+
+**Answer.** $399\,999$ and $400\,001$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai có ba tờ $200\,000$ đồng. Hỏi Mai còn thiếu bao nhiêu đồng để có $1\,000\,000$ đồng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền Mai đã có là:
+$$3\times200\,000=600\,000\ \text{(đồng)}.$$
+Số tiền Mai còn thiếu là:
+$$1\,000\,000-600\,000=400\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $400\,000$ đồng.
+
+[ĐỀ – EN]
+Mai has three $200\,000$ dong notes. How many more dong does Mai need to have $1\,000\,000$ dong?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The money Mai has is:
+$$3\times200\,000=600\,000\ \text{(dong)}.$$
+The money Mai still needs is:
+$$1\,000\,000-600\,000=400\,000\ \text{(dong)}.$$
+
+**Answer.** $400\,000$ dong.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một cửa hàng (số liệu giả định) có bốn tờ $200\,000$ đồng và hai tờ $100\,000$ đồng. Hỏi tổng số tiền có đủ $1\,000\,000$ đồng không?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền ở bốn tờ $200\,000$ đồng là:
+$$4\times200\,000=800\,000\ \text{(đồng)}.$$
+Số tiền ở hai tờ $100\,000$ đồng là:
+$$2\times100\,000=200\,000\ \text{(đồng)}.$$
+Tổng số tiền là $800\,000+200\,000=1\,000\,000$ (đồng).
+
+**Đáp số.** Vừa đủ $1\,000\,000$ đồng.
+
+[ĐỀ – EN]
+A shop (made-up numbers) has four $200\,000$ dong notes and two $100\,000$ dong notes. Is the total money enough for $1\,000\,000$ dong?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The money in the four $200\,000$ dong notes is:
+$$4\times200\,000=800\,000\ \text{(dong)}.$$
+The money in the two $100\,000$ dong notes is:
+$$2\times100\,000=200\,000\ \text{(dong)}.$$
+The total money is $800\,000+200\,000=1\,000\,000$ (dong).
+
+**Answer.** Exactly $1\,000\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân số có năm chữ số với số có một chữ số. Tính $25\,000\times4$. Kết quả có mấy chữ số? Chữ số $1$ của kết quả ở hàng nào, lớp nào?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $25\,000\times4=100\,000$. Kết quả có sáu chữ số. Chữ số $1$ ở hàng trăm nghìn, thuộc lớp nghìn.
+
+**Đáp số.** $100\,000$; sáu chữ số; hàng trăm nghìn, lớp nghìn.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying a five-digit number by a one-digit number. Work out $25\,000\times4$. How many digits does the result have? Which place and which period is the digit $1$ of the result in?
+
+[LỜI GIẢI CŨ – EN]
+We have $25\,000\times4=100\,000$. The result has six digits. The digit $1$ is in the hundred-thousands place, in the thousands period.
+
+**Answer.** $100\,000$; six digits; hundred-thousands place, thousands period.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Lan nghe đọc số "bốn trăm linh ba nghìn không trăm linh năm" và viết $43\,005$. Em hãy kiểm tra cách viết của Lan. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Lớp nghìn là "bốn trăm linh ba", tức là $403$. Lớp đơn vị là "không trăm linh năm", tức là $005$. Số đúng là $403\,005$. Số $43\,005$ chỉ có năm chữ số nên Lan đã bỏ sót một chữ số $0$.
+
+**Đáp số.** Lan sai; số đúng là $403\,005$.
+
+[ĐỀ – EN]
+Lan hears the number "four hundred and three thousand and five" and writes $43\,005$. Check Lan's writing. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The thousands period is "four hundred and three", which is $403$. The units period is "five", which is $005$. The correct number is $403\,005$. The number $43\,005$ has only five digits, so Lan left out a $0$.
+
+**Answer.** Lan is wrong; the correct number is $403\,005$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Có bao nhiêu số có sáu chữ số?
+
+[LỜI GIẢI CŨ – VI]
+Các số có sáu chữ số là các số từ $100\,000$ đến $999\,999$. Số các số đó là:
+$$999\,999-100\,000+1=900\,000.$$
+
+**Đáp số.** $900\,000$ số.
+
+[ĐỀ – EN]
+How many six-digit numbers are there?
+
+[LỜI GIẢI CŨ – EN]
+The six-digit numbers are the numbers from $100\,000$ to $999\,999$. The number of them is:
+$$999\,999-100\,000+1=900\,000.$$
+
+**Answer.** $900\,000$ numbers.
+
+
+######################################################################
+@@@ g4/square-dm-m-mm
+Bài học: Đề-xi-mét vuông, mét vuông, mi-li-mét vuông / Square decimetres, square metres and square millimetres
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền số thích hợp vào chỗ trống:
+
+a) $1\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $1\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+**Đáp số.** Cả ba chỗ trống đều là $100$.
+
+[ĐỀ – EN]
+Write the missing number:
+
+a) $1\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $1\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+**Answer.** All three missing numbers are $100$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đổi các số đo sau:
+
+a) $5\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $9\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+
+**Đáp số.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
+
+[ĐỀ – EN]
+Convert:
+
+a) $5\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $9\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+
+**Answer.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (yến, tạ, tấn). Một xe chở $3$ tạ gạo và $5$ yến ngô. Hỏi xe chở tất cả bao nhiêu ki-lô-gam?
+
+[LỜI GIẢI CŨ – VI]
+$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. Tổng là $300+50=350\ (\text{kg})$.
+
+**Đáp số.** $350\ \text{kg}$.
+
+[ĐỀ – EN]
+Remember the last lesson (yến, tạ and tonnes). A lorry carries $3$ tạ of rice and $5$ yến of maize. How many kilograms does it carry altogether?
+
+[LỜI GIẢI CŨ – EN]
+$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. The total is $300+50=350\ (\text{kg})$.
+
+**Answer.** $350\ \text{kg}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đổi các số đo sau (lần này đổi sang đơn vị lớn hơn):
+
+a) $600\ \text{cm}^2=\ ?\ \text{dm}^2$.
+
+b) $800\ \text{dm}^2=\ ?\ \text{m}^2$.
+
+c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $600:100=6$. b) $800:100=8$. c) $4\,000:100=40$.
+
+**Đáp số.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Convert (this time into a larger unit):
+
+a) $600\ \text{cm}^2=\ ?\ \text{dm}^2$.
+
+b) $800\ \text{dm}^2=\ ?\ \text{m}^2$.
+
+c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $600\div100=6$. b) $800\div100=8$. c) $4\,000\div100=40$.
+
+**Answer.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm và sửa lỗi sai trong lời giải của Mai:
+
+a) $6\ \text{dm}^2\ 4\ \text{cm}^2=64\ \text{cm}^2$.
+
+b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) Mai quên đổi đúng $6\ \text{dm}^2$. Đúng là $6\ \text{dm}^2=600\ \text{cm}^2$, rồi $600+4=604$.
+b) Mai chia sai. Đúng là $2\,000:100=20$.
+
+**Đáp số.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
+
+[ĐỀ – EN]
+Find and correct the mistakes in Mai's working:
+
+a) $6\ \text{dm}^2\ 4\ \text{cm}^2=64\ \text{cm}^2$.
+
+b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) Mai did not change $6\ \text{dm}^2$ correctly. The right way is $6\ \text{dm}^2=600\ \text{cm}^2$, then $600+4=604$.
+b) Mai divided wrongly. The right way is $2\,000\div100=20$.
+
+**Answer.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nền một phòng học hình chữ nhật dài $5\ \text{m}$, rộng $4\ \text{m}$.
+
+a) Tính diện tích nền phòng theo $\text{m}^2$.
+
+b) Đổi diện tích đó ra $\text{dm}^2$.
+
+c) Nếu lát bằng gạch hình vuông cạnh $1\ \text{dm}$ thì cần bao nhiêu viên gạch?
+
+[LỜI GIẢI CŨ – VI]
+a) $5\times4=20\ (\text{m}^2)$.
+b) $20\times100=2\,000\ (\text{dm}^2)$.
+c) Mỗi viên phủ $1\ \text{dm}^2$ nên cần $2\,000$ viên.
+
+**Đáp số.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ viên gạch.
+
+[ĐỀ – EN]
+The floor of a classroom is a rectangle $5\ \text{m}$ long and $4\ \text{m}$ wide.
+
+a) Find the area of the floor in $\text{m}^2$.
+
+b) Change this area into $\text{dm}^2$.
+
+c) If the floor is covered with square tiles with sides of $1\ \text{dm}$, how many tiles are needed?
+
+[LỜI GIẢI CŨ – EN]
+a) $5\times4=20\ (\text{m}^2)$.
+b) $20\times100=2\,000\ (\text{dm}^2)$.
+c) Each tile covers $1\ \text{dm}^2$, so $2\,000$ tiles are needed.
+
+**Answer.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ tiles.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một tấm bìa hình vuông có diện tích $1\ \text{m}^2$. Bạn Hà cắt tấm bìa thành các mảnh hình vuông cạnh $1\ \text{dm}$, rồi xếp các mảnh nối nhau thành một hàng thẳng. Hàng dài bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Số mảnh là $100$, vì $1\ \text{m}^2=100\ \text{dm}^2$. Mỗi mảnh rộng $1\ \text{dm}$, nên hàng dài $100\times1=100\ \text{dm}$. Đổi ra mét: $100:10=10\ \text{m}$.
+
+**Kiểm tra.** $10\ \text{m}=100\ \text{dm}$. Đúng.
+
+**Đáp số.** $10\ \text{m}$.
+
+[ĐỀ – EN]
+A square piece of card has an area of $1\ \text{m}^2$. Ha cuts it into small squares with sides of $1\ \text{dm}$, then puts the small squares end to end in one straight line. How many metres long is the line?
+
+[LỜI GIẢI CŨ – EN]
+There are $100$ small squares, because $1\ \text{m}^2=100\ \text{dm}^2$. Each is $1\ \text{dm}$ wide, so the line is $100\times1=100\ \text{dm}$ long. In metres: $100\div10=10\ \text{m}$.
+
+**Check.** $10\ \text{m}=100\ \text{dm}$. Correct.
+
+**Answer.** $10\ \text{m}$.
+
+
+===== HẾT FILE Lemonmath.com-10-LG =====

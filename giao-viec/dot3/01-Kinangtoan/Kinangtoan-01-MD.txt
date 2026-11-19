@@ -1,0 +1,1713 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-01-MD   |   VIỆC: gắn mức độ nhận thức (MD-01)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-01-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-01 – gắn mức độ nhận thức cho 203 câu hỏi (Lớp 1 → Lớp 2)
+
+Tài khoản thực hiện: Kinangtoan
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-01 (203 câu)
+
+## Các câu hỏi
+
+### M001 · Lớp 1 · Các số 0, 1, 2, 3, 4, 5
+
+[M001.1] Nhiều lựa chọn
+Có bốn quả bóng. Em viết số nào?
+A. $3$.
+B. $4$.
+C. $5$.
+D. $0$.
+::key B
+Bốn viết là $4$. Phương án A là lỗi đếm sót một quả.
+
+[M001.2] Nhiều lựa chọn
+Trong lọ không có bông hoa nào. Số bông hoa là
+A. $0$.
+B. $1$.
+C. $5$.
+D. $4$.
+::key A
+Không có gì thì viết $0$. Phương án B nhầm với một bông hoa.
+
+[M001.3] Nhiều lựa chọn
+Điền số vào dãy $0, 1, 2, \square, 4, 5$.
+A. $1$.
+B. $2$.
+C. $3$.
+D. $5$.
+::key C
+Sau $2$ là $3$, rồi đến $4$. Phương án B lặp lại số $2$.
+
+[M001.4] Nhiều lựa chọn
+Khi đếm, số nào đứng ngay sau số $4$?
+A. $3$.
+B. $4$.
+C. $5$.
+D. $0$.
+::key C
+Đếm thêm một sau bốn là năm, viết $5$. Phương án A là số đứng trước.
+
+[M001.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các số $0, 1, 2, 3, 4, 5$.
+a) Số $3$ đọc là "ba".
+b) Cành không có con chim nào thì số chim là $0$.
+c) Khi đếm, số $5$ đứng trước số $4$.
+d) Dãy $0, 1, 2, 3, 4, 5$ có sáu số.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: không có gì thì viết $0$. c) Sai: khi đếm thì $4$ đứng trước $5$. d) Đúng: không, một, hai, ba, bốn, năm là sáu số.
+
+[M001.6] Trả lời ngắn
+Đếm ngược: $5, 4, 3, \square, 1$. Số cần điền là số nào?
+::key 2
+Sau $3$ là $2$, rồi đến $1$.
+
+[M001.7] Trả lời ngắn
+Số đứng ngay sau số $3$ là số nào?
+::key 4
+Đếm: ba, bốn. Số đứng ngay sau $3$ là $4$.
+
+### M002 · Lớp 1 · Các số 6, 7, 8, 9, 10
+
+[M002.1] Nhiều lựa chọn
+Có tám viên bi. Em viết số nào?
+A. $7$.
+B. $8$.
+C. $9$.
+D. $6$.
+::key B
+Tám viết là $8$. Phương án A là lỗi đếm sót một viên.
+
+[M002.2] Nhiều lựa chọn
+Số liền sau của $9$ là
+A. $8$.
+B. $9$.
+C. $10$.
+D. $0$.
+::key C
+Đếm thêm một sau chín là mười. Phương án A là số liền trước.
+
+[M002.3] Nhiều lựa chọn
+Điền số vào dãy $6, 7, \square, 9, 10$.
+A. $7$.
+B. $8$.
+C. $9$.
+D. $10$.
+::key B
+Sau $7$ là $8$, rồi đến $9$. Phương án A lặp lại số $7$.
+
+[M002.4] Nhiều lựa chọn
+Số mười viết bằng các chữ số nào (theo thứ tự)?
+A. $1$ và $0$.
+B. $0$ và $1$.
+C. $1$ và $1$.
+D. $0$ và $0$.
+::key A
+Số $10$ có chữ số $1$ đứng trước, chữ số $0$ đứng sau. Phương án B là lỗi viết ngược.
+
+[M002.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các số $6, 7, 8, 9, 10$.
+a) Số $6$ đọc là "sáu".
+b) Số liền sau của $7$ là $8$.
+c) Khi đếm, số $9$ đứng sau số $10$.
+d) Dãy $6, 7, 8, 9, 10$ có năm số.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng. c) Sai: khi đếm, $9$ đứng trước $10$. d) Đúng: sáu, bảy, tám, chín, mười là năm số.
+
+[M002.6] Trả lời ngắn
+Đếm ngược: $10, 9, 8, \square, 6$. Số cần điền là số nào?
+::key 7
+Sau $8$ là $7$, rồi đến $6$.
+
+[M002.7] Trả lời ngắn
+Số liền sau của $8$ là số nào?
+::key 9
+Đếm: tám, chín. Số liền sau của $8$ là $9$.
+
+### M003 · Lớp 1 · Nhiều hơn, ít hơn, bằng nhau
+
+[M003.1] Nhiều lựa chọn
+Có $5$ cái cốc và $6$ cái thìa. Nhóm nào nhiều hơn?
+A. Cốc.
+B. Bằng nhau.
+C. Thìa.
+D. Không biết.
+::key C
+Ghép $5$ cốc với $5$ thìa thì thừa $1$ thìa, nên thìa nhiều hơn. Phương án A nhầm nhóm hết trước.
+
+[M003.2] Nhiều lựa chọn
+Có $4$ chiếc mũ và $4$ bạn, mỗi bạn một mũ. Hai nhóm thế nào?
+A. Mũ nhiều hơn.
+B. Bạn nhiều hơn.
+C. Không biết.
+D. Bằng nhau.
+::key D
+Ghép xong không thừa gì, nên hai nhóm bằng nhau.
+
+[M003.3] Nhiều lựa chọn
+Ghép $7$ bông hoa với $5$ cái lọ thì thừa $2$ bông hoa. Nhóm nào ít hơn?
+A. Lọ.
+B. Hoa.
+C. Bằng nhau.
+D. Không biết.
+::key A
+Lọ hết trước nên lọ ít hơn. Phương án B nhầm nhóm thừa.
+
+[M003.4] Nhiều lựa chọn
+Hộp bé có $7$ viên bi, hộp to có $4$ viên bi. Hộp nào nhiều bi hơn?
+A. Hộp to.
+B. Hộp bé.
+C. Bằng nhau.
+D. Không biết.
+::key B
+$7$ viên bi nhiều hơn $4$ viên bi. Phương án A nhầm hộp to với nhiều.
+
+[M003.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Có $3$ con gà và $5$ con vịt. Mỗi con gà ghép với một con vịt.
+a) Vịt nhiều hơn gà.
+b) Gà nhiều hơn vịt.
+c) Còn thừa $2$ con vịt.
+d) Gà và vịt bằng nhau.
+::key Đ S Đ S
+a) Đúng. b) Sai: gà hết trước. c) Đúng: ghép hết $3$ gà thì thừa $2$ vịt. d) Sai.
+
+[M003.6] Trả lời ngắn
+Có $8$ quả cam và $5$ cái đĩa, mỗi đĩa một quả cam. Thừa mấy quả cam?
+::key 3
+Ghép $5$ đĩa với $5$ quả cam thì còn $3$ quả cam.
+
+[M003.7] Trả lời ngắn
+Có $7$ con chim và $6$ cái tổ, mỗi tổ một con chim. Thừa mấy con chim?
+::key 1
+Ghép $6$ tổ với $6$ con chim thì còn $1$ con chim.
+
+### M004 · Lớp 1 · So sánh số
+
+[M004.1] Nhiều lựa chọn
+Dấu thích hợp để điền vào $7 \;\square\; 4$ là
+A. $<$.
+B. $>$.
+C. $=$.
+D. không điền được.
+::key B
+$7$ lớn hơn $4$ nên $7>4$. Phương án A mở miệng dấu sai phía.
+
+[M004.2] Nhiều lựa chọn
+Dấu thích hợp để điền vào $3 \;\square\; 3$ là
+A. $<$.
+B. $>$.
+C. $=$.
+D. không điền được.
+::key C
+Hai số giống nhau thì bằng nhau.
+
+[M004.3] Nhiều lựa chọn
+Số lớn nhất trong các số $5, 9, 2, 7$ là
+A. $5$.
+B. $9$.
+C. $2$.
+D. $7$.
+::key B
+$9$ đếm sau cùng. Phương án C là số bé nhất.
+
+[M004.4] Nhiều lựa chọn
+Sắp xếp $6, 2, 8$ từ bé đến lớn được
+A. $2, 6, 8$.
+B. $8, 6, 2$.
+C. $6, 2, 8$.
+D. $2, 8, 6$.
+::key A
+$2<6<8$. Phương án B là xếp từ lớn đến bé.
+
+[M004.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét hai số $5$ và $8$.
+a) $5<8$.
+b) $8>5$.
+c) $5>8$.
+d) $5=8$.
+::key Đ Đ S S
+a) Đúng. b) Đúng. c) Sai: $5$ bé hơn $8$. d) Sai: hai số khác nhau.
+
+[M004.6] Trả lời ngắn
+Số lớn nhất trong các số $3, 10, 7$ là số nào?
+::key 10
+Đếm: ..., bảy, ..., mười. Số $10$ đếm sau cùng.
+
+[M004.7] Trả lời ngắn
+Số bé nhất trong các số $4, 0, 6$ là số nào?
+::key 0
+$0$ đứng đầu hàng số nên bé nhất.
+
+### M005 · Lớp 1 · Mấy và mấy
+
+[M005.1] Nhiều lựa chọn
+$5$ gồm $2$ và
+A. $2$.
+B. $7$.
+C. $4$.
+D. $3$.
+::key D
+Đếm từ $2$ lên $5$: "ba, bốn, năm", có $3$ số. Phương án B là lấy hai số ghép lại thay cho tìm phần thiếu.
+
+[M005.2] Nhiều lựa chọn
+$6$ gồm $4$ và
+A. $2$.
+B. $1$.
+C. $3$.
+D. $10$.
+::key A
+Từ $4$ lên $6$ có $2$ số. Phương án B thiếu một số.
+
+[M005.3] Nhiều lựa chọn
+Cách tách nào đúng với số $7$?
+A. $5$ và $3$.
+B. $3$ và $4$.
+C. $6$ và $2$.
+D. $4$ và $4$.
+::key B
+Chỉ $3$ và $4$ ghép lại đủ $7$. Các phương án A, C, D đều ghép thành $8$.
+
+[M005.4] Nhiều lựa chọn
+$8$ gồm $5$ và
+A. $2$.
+B. $4$.
+C. $3$.
+D. $13$.
+::key C
+Từ $5$ lên $8$ có $3$ số. Phương án A thiếu một số.
+
+[M005.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $6$.
+a) $6$ gồm $1$ và $5$.
+b) $6$ gồm $2$ và $4$.
+c) $6$ gồm $3$ và $4$.
+d) $6$ gồm $5$ và $1$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng. c) Sai: $3$ và $4$ ghép thành bảy. d) Đúng: đổi chỗ hai phần của $1$ và $5$.
+
+[M005.6] Trả lời ngắn
+$9$ gồm $4$ và mấy?
+::key 5
+Từ $4$ lên $9$: "năm, sáu, bảy, tám, chín", có $5$ số.
+
+[M005.7] Trả lời ngắn
+$10$ gồm $7$ và mấy?
+::key 3
+Từ $7$ lên $10$: "tám, chín, mười", có $3$ số.
+
+### M006 · Lớp 1 · Hình vuông, hình tròn, hình tam giác, hình chữ nhật
+
+[M006.1] Nhiều lựa chọn
+Bánh xe đạp có dạng hình
+A. vuông.
+B. tròn.
+C. tam giác.
+D. chữ nhật.
+::key B
+Viền bánh xe cong đều và không có cạnh. Phương án A nhầm với hình có cạnh.
+
+[M006.2] Nhiều lựa chọn
+Hình có $3$ cạnh là hình
+A. vuông.
+B. tròn.
+C. tam giác.
+D. chữ nhật.
+::key C
+Chỉ hình tam giác có $3$ cạnh.
+
+[M006.3] Nhiều lựa chọn
+Hình có $4$ cạnh, hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau (các cạnh không bằng nhau hết) là hình
+A. vuông.
+B. tròn.
+C. tam giác.
+D. chữ nhật.
+::key D
+Đó là hình chữ nhật. Phương án A nhầm vì hình vuông có cả $4$ cạnh bằng nhau.
+
+[M006.4] Nhiều lựa chọn
+Hình nào không có cạnh?
+A. Hình vuông.
+B. Hình tròn.
+C. Hình tam giác.
+D. Hình chữ nhật.
+::key B
+Viền hình tròn cong, không có cạnh.
+
+[M006.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các hình.
+a) Hình vuông có $4$ cạnh dài bằng nhau.
+b) Hình tam giác có $4$ cạnh.
+c) Hình tròn không có cạnh.
+d) Hình chữ nhật có $3$ cạnh.
+::key Đ S Đ S
+a) Đúng. b) Sai: tam giác có $3$ cạnh. c) Đúng. d) Sai: hình chữ nhật có $4$ cạnh.
+
+[M006.6] Trả lời ngắn
+Hình chữ nhật có mấy cạnh?
+::key 4
+Hình chữ nhật có hai cạnh dài và hai cạnh ngắn, tất cả $4$ cạnh.
+
+[M006.7] Trả lời ngắn
+Hình tam giác có mấy góc?
+::key 3
+Hình tam giác có $3$ cạnh và $3$ góc.
+
+### M007 · Lớp 1 · Phép cộng trong phạm vi 10
+
+[M007.1] Nhiều lựa chọn
+Kết quả của $4+3$ là
+A. $6$.
+B. $7$.
+C. $8$.
+D. $1$.
+::key B
+Từ $4$ đếm thêm $3$ số: năm, sáu, bảy. Phương án D là lấy $4-3$, nhầm sang phép trừ.
+
+[M007.2] Nhiều lựa chọn
+Kết quả của $5+0$ là
+A. $0$.
+B. $6$.
+C. $5$.
+D. $4$.
+::key C
+Cộng với $0$ thì số không đổi. Phương án A là lỗi nghĩ kết quả bằng $0$.
+
+[M007.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $8$?
+A. $5+2$.
+B. $7+2$.
+C. $4+3$.
+D. $6+2$.
+::key D
+$6+2=8$. Các phép tính khác lần lượt bằng $7$, $7$, $9$.
+
+[M007.4] Nhiều lựa chọn
+Có $3$ con mèo và $6$ con chó. Có tất cả bao nhiêu con?
+A. $9$ con.
+B. $3$ con.
+C. $10$ con.
+D. $8$ con.
+::key A
+"Tất cả" là gộp lại: $3+6=9$. Phương án B chỉ lấy một nhóm.
+
+[M007.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $2+6$.
+a) $2+6=8$.
+b) $6+2=8$.
+c) $2+6=7$.
+d) $2+6=9$.
+::key Đ Đ S S
+a) Đúng: đếm từ $6$ thêm hai số được $8$. b) Đúng: đổi chỗ hai số. c) Sai. d) Sai.
+
+[M007.6] Trả lời ngắn
+Tính $5+4$.
+::key 9
+Từ $5$ đếm thêm $4$ số: sáu, bảy, tám, chín.
+
+[M007.7] Trả lời ngắn
+Tính $7+3$.
+::key 10
+Từ $7$ đếm thêm $3$ số: tám, chín, mười.
+
+### M008 · Lớp 1 · Phép trừ trong phạm vi 10
+
+[M008.1] Nhiều lựa chọn
+Kết quả của $8-3$ là
+A. $4$.
+B. $6$.
+C. $5$.
+D. $11$.
+::key C
+Từ $8$ đếm lùi $3$ số: bảy, sáu, năm. Phương án D là lấy $8+3$, nhầm sang phép cộng.
+
+[M008.2] Nhiều lựa chọn
+Kết quả của $9-0$ là
+A. $0$.
+B. $10$.
+C. $8$.
+D. $9$.
+::key D
+Trừ đi $0$ thì số không đổi.
+
+[M008.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $4$?
+A. $6-2$.
+B. $7-2$.
+C. $5-2$.
+D. $8-3$.
+::key A
+$6-2=4$. Các phép tính khác lần lượt bằng $5$, $3$, $5$.
+
+[M008.4] Nhiều lựa chọn
+Có $10$ con chim, bay đi $3$ con. Còn lại mấy con?
+A. $13$ con.
+B. $7$ con.
+C. $6$ con.
+D. $3$ con.
+::key B
+"Bay đi" là bớt: $10-3=7$. Phương án A là lấy $10+3$.
+
+[M008.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép trừ $6-4$.
+a) $6-4=2$.
+b) $4-6=2$.
+c) $6-4=10$.
+d) $2+4=6$.
+::key Đ S S Đ
+a) Đúng. b) Sai: không bớt được $6$ từ $4$. c) Sai: $10$ là $6+4$. d) Đúng: dùng để kiểm tra $6-4=2$.
+
+[M008.6] Trả lời ngắn
+Tính $7-4$.
+::key 3
+Từ $7$ đếm lùi $4$ số: sáu, năm, bốn, ba.
+
+[M008.7] Trả lời ngắn
+Tính $10-10$.
+::key 0
+Bớt hết cả nhóm thì không còn gì.
+
+### M009 · Lớp 1 · Bảng cộng, bảng trừ trong phạm vi 10
+
+[M009.1] Nhiều lựa chọn
+Từ $2+5=7$, phép trừ nào đúng?
+A. $5-7=2$.
+B. $7-2=9$.
+C. $2-5=7$.
+D. $7-2=5$.
+::key D
+Bớt $2$ khỏi $7$ còn $5$. Các phương án C, A bớt số lớn khỏi số bé.
+
+[M009.2] Nhiều lựa chọn
+Kết quả của $7-3$ là
+A. $4$.
+B. $3$.
+C. $5$.
+D. $10$.
+::key A
+$3+4=7$ nên $7-3=4$. Phương án D là lấy $7+3$.
+
+[M009.3] Nhiều lựa chọn
+Từ ba số $4$, $5$, $9$, phép tính nào đúng?
+A. $9-4=4$.
+B. $9-4=5$.
+C. $4-9=5$.
+D. $5-9=4$.
+::key B
+$4+5=9$ nên $9-4=5$.
+
+[M009.4] Nhiều lựa chọn
+Số cần điền vào $6-\square=2$ là
+A. $3$.
+B. $8$.
+C. $4$.
+D. $2$.
+::key C
+$2+4=6$ nên bớt $4$ khỏi $6$ còn $2$. Phương án B là lấy $6+2$.
+
+[M009.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét ba số $3$, $5$, $8$.
+a) $3+5=8$.
+b) $8-3=5$.
+c) $8-5=4$.
+d) $5-8=3$.
+::key Đ Đ S S
+a) Đúng. b) Đúng. c) Sai: $8-5=3$. d) Sai: không bớt $8$ khỏi $5$.
+
+[M009.6] Trả lời ngắn
+Tính $9-6$.
+::key 3
+$6+3=9$ nên $9-6=3$.
+
+[M009.7] Trả lời ngắn
+Số thích hợp để điền vào $\square-4=5$ là số nào?
+::key 9
+$4+5=9$ nên $9-4=5$.
+
+### M010 · Lớp 1 · Khối lập phương, khối hộp chữ nhật
+
+[M010.1] Nhiều lựa chọn
+Viên xúc xắc có dạng khối
+A. hộp chữ nhật.
+B. lập phương.
+C. không phải khối.
+D. không biết.
+::key B
+Các mặt của xúc xắc là hình vuông bằng nhau.
+
+[M010.2] Nhiều lựa chọn
+Hộp bút dài có các mặt là hình chữ nhật. Hộp bút có dạng khối
+A. lập phương.
+B. không phải khối.
+C. hộp chữ nhật.
+D. không biết.
+::key C
+Khối có các mặt là hình chữ nhật là khối hộp chữ nhật. Phương án A là lỗi nhầm với xúc xắc.
+
+[M010.3] Nhiều lựa chọn
+Mỗi mặt của khối lập phương là hình
+A. tròn.
+B. tam giác.
+C. chữ nhật.
+D. vuông.
+::key D
+Các mặt của khối lập phương là hình vuông. Phương án C nhầm với khối hộp chữ nhật.
+
+[M010.4] Nhiều lựa chọn
+Đồ vật nào có dạng khối hộp chữ nhật?
+A. Quả bóng.
+B. Hộp bánh.
+C. Viên xúc xắc.
+D. Mặt đồng hồ.
+::key B
+Hộp bánh có các mặt là hình chữ nhật. Viên xúc xắc là khối lập phương.
+
+[M010.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các hình khối.
+a) Viên xúc xắc là khối lập phương.
+b) Mặt của khối lập phương là hình tròn.
+c) Hộp phấn có dạng khối hộp chữ nhật.
+d) Khối hộp chữ nhật có $4$ mặt.
+::key Đ S Đ S
+a) Đúng. b) Sai: mặt là hình vuông. c) Đúng. d) Sai: khối hộp chữ nhật có $6$ mặt.
+
+[M010.6] Trả lời ngắn
+Khối lập phương có mấy mặt?
+::key 6
+Em đếm: mặt trên, mặt dưới và bốn mặt xung quanh, tất cả $6$ mặt.
+
+[M010.7] Trả lời ngắn
+Em có $3$ khối lập phương và $4$ khối hộp chữ nhật. Em có tất cả bao nhiêu khối?
+::key 7
+Gộp lại: $3+4=7$.
+
+### M011 · Lớp 1 · Vị trí, định hướng trong không gian
+
+[M011.1] Nhiều lựa chọn
+Ba hình xếp hàng ngang từ trái sang phải: hình vuông, hình tròn, hình tam giác. Hình ở giữa là
+A. hình vuông.
+B. hình tròn.
+C. hình tam giác.
+D. không có.
+::key B
+Hình tròn có hình vuông bên trái và hình tam giác bên phải. Phương án A là hình đứng đầu.
+
+[M011.2] Nhiều lựa chọn
+Ba hình xếp hàng dọc từ trên xuống dưới: hình tam giác, hình vuông, hình tròn. Hình ở dưới cùng là
+A. hình tam giác.
+B. hình vuông.
+C. hình tròn.
+D. không có.
+::key C
+Đọc từ trên xuống, hình cuối cùng là hình tròn.
+
+[M011.3] Nhiều lựa chọn
+Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+A. Lan.
+B. Mai.
+C. Nam.
+D. Không ai.
+::key B
+Thứ tự: Lan, Mai, Nam. Mai ở giữa.
+
+[M011.4] Nhiều lựa chọn
+Quyển sách đặt trên bàn. Vật ở dưới quyển sách là
+A. quyển sách.
+B. cái cặp.
+C. cái bàn.
+D. cái bút.
+::key C
+Quyển sách đặt trên bàn, nên bàn ở dưới quyển sách.
+
+[M011.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Ba hình xếp hàng ngang từ trái sang phải: hình vuông, hình tròn, hình tam giác.
+a) Hình vuông ở bên trái hình tròn.
+b) Hình tam giác ở bên trái hình tròn.
+c) Hình tròn ở giữa.
+d) Hình vuông ở bên phải hình tam giác.
+::key Đ S Đ S
+a) Đúng. b) Sai: tam giác ở bên phải. c) Đúng. d) Sai: hình vuông ở bên trái.
+
+[M011.6] Trả lời ngắn
+Hàng có $5$ bạn. Mai đứng thứ ba từ đầu hàng. Có mấy bạn đứng sau Mai?
+::key 2
+Thứ tự các bạn: thứ nhất, thứ hai, thứ ba (Mai), thứ tư, thứ năm. Sau Mai có hai bạn.
+
+[M011.7] Trả lời ngắn
+Hàng có $6$ bạn. Nam đứng thứ tư từ đầu hàng. Có mấy bạn đứng trước Nam?
+::key 3
+Nam là thứ tư, nên trước Nam có ba bạn.
+
+### M012 · Lớp 1 · Số có hai chữ số
+
+[M012.1] Nhiều lựa chọn
+Số $25$ gồm
+A. $5$ chục và $2$ đơn vị.
+B. $2$ chục và $5$ đơn vị.
+C. $25$ chục.
+D. $7$ chục.
+::key B
+Chữ số bên trái $2$ là hàng chục, chữ số bên phải $5$ là hàng đơn vị. Phương án A đảo hai chữ số.
+
+[M012.2] Nhiều lựa chọn
+Số gồm $4$ chục và $7$ đơn vị là
+A. $74$.
+B. $47$.
+C. $11$.
+D. $4$.
+::key B
+Viết $4$ trước rồi $7$. Phương án A viết ngược.
+
+[M012.3] Nhiều lựa chọn
+Số $50$ gồm
+A. $5$ chục và $0$ đơn vị.
+B. $0$ chục và $5$ đơn vị.
+C. $5$ chục và $5$ đơn vị.
+D. $10$ chục.
+::key A
+Hàng chục là $5$, hàng đơn vị là $0$. Phương án B đảo hai chữ số.
+
+[M012.4] Nhiều lựa chọn
+Chữ số hàng chục của số $68$ là
+A. $6$.
+B. $8$.
+C. $68$.
+D. $14$.
+::key A
+Chữ số bên trái $6$ là hàng chục. Phương án B là chữ số hàng đơn vị.
+
+[M012.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $36$.
+a) Chữ số hàng chục là $3$.
+b) Chữ số hàng đơn vị là $6$.
+c) $36$ gồm $6$ chục và $3$ đơn vị.
+d) $36$ và $63$ là cùng một số.
+::key Đ Đ S S
+a) Đúng. b) Đúng. c) Sai: $36$ gồm $3$ chục $6$ đơn vị. d) Sai: hai số khác nhau.
+
+[M012.6] Trả lời ngắn
+Có $2$ bó que tính, mỗi bó $10$ que, và $6$ que lẻ. Có tất cả bao nhiêu que tính?
+::key 26
+$2$ chục và $6$ đơn vị là $26$.
+
+[M012.7] Trả lời ngắn
+Số có $9$ chục và $0$ đơn vị là số nào?
+::key 90
+Viết $9$ rồi $0$.
+
+### M013 · Lớp 1 · So sánh số có hai chữ số
+
+[M013.1] Nhiều lựa chọn
+Dấu thích hợp để điền vào $62 \;\square\; 59$ là
+A. $<$.
+B. $>$.
+C. $=$.
+D. không điền được.
+::key B
+Hàng chục: $6>5$ nên $62>59$. Phương án A là lỗi so hàng đơn vị trước.
+
+[M013.2] Nhiều lựa chọn
+Dấu thích hợp để điền vào $47 \;\square\; 47$ là
+A. $<$.
+B. $>$.
+C. $=$.
+D. không điền được.
+::key C
+Hàng chục và hàng đơn vị đều bằng nhau.
+
+[M013.3] Nhiều lựa chọn
+Số lớn nhất trong các số $38, 83, 29, 80$ là
+A. $38$.
+B. $83$.
+C. $29$.
+D. $80$.
+::key B
+Hàng chục lớn nhất là $8$, ở $83$ và $80$; hàng đơn vị $3>0$ nên $83$ lớn nhất.
+
+[M013.4] Nhiều lựa chọn
+Sắp xếp $25, 52, 22$ từ bé đến lớn được
+A. $22, 25, 52$.
+B. $52, 25, 22$.
+C. $25, 22, 52$.
+D. $22, 52, 25$.
+::key A
+Hàng chục: $2, 5, 2$. Hai số $22$ và $25$ có hàng chục $2$, hàng đơn vị $2<5$. Phương án B xếp từ lớn đến bé.
+
+[M013.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét hai số $73$ và $37$.
+a) $73>37$.
+b) $37>73$.
+c) $37<73$.
+d) $73=37$.
+::key Đ S Đ S
+a) Đúng: hàng chục $7>3$. b) Sai. c) Đúng. d) Sai.
+
+[M013.6] Trả lời ngắn
+Số lớn nhất trong các số $45, 54, 49$ là số nào?
+::key 54
+Hàng chục $5$ lớn nhất, chỉ có $54$.
+
+[M013.7] Trả lời ngắn
+Số bé nhất trong các số $61, 16, 66$ là số nào?
+::key 16
+Hàng chục $1$ bé nhất, chỉ có $16$.
+
+### M014 · Lớp 1 · Bảng các số từ 1 đến 100
+
+[M014.1] Nhiều lựa chọn
+Số liền sau của 59 là
+A. $60$.
+B. $69$.
+C. $58$.
+D. $50$.
+::key A
+Số liền sau hơn 59 một đơn vị: $59+1=60$. Phương án C là số liền trước, phương án B hơn 59 mười đơn vị.
+
+[M014.2] Nhiều lựa chọn
+Số nhiều hơn 37 là 10 đơn vị là
+A. $38$.
+B. $47$.
+C. $27$.
+D. $57$.
+::key B
+$37+10=47$. Phương án A chỉ thêm 1, phương án C là số ít hơn 10 đơn vị.
+
+[M014.3] Nhiều lựa chọn
+Trong bảng các số từ 1 đến 100, số ở ngay dưới số 25 là
+A. $26$.
+B. $15$.
+C. $35$.
+D. $24$.
+::key C
+Đi xuống 1 hàng thì thêm 10: $25+10=35$. Phương án A là ô bên phải, phương án B là ô ngay trên.
+
+[M014.4] Nhiều lựa chọn
+Lan đứng ở ô số 72 trong bảng các số. Mai đứng ở ô ngay phía trên ô của Lan. Mai đứng ở ô số
+A. $82$.
+B. $73$.
+C. $71$.
+D. $62$.
+::key D
+Đi lên 1 hàng thì bớt 10: $72-10=62$. Phương án A là ô ngay dưới, phương án C và B là hai ô bên cạnh.
+
+[M014.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em nhìn bảng các số từ 1 đến 100.
+a) Từ một số, đi xuống ô ngay dưới thì số đó tăng thêm 1.
+b) Các số 6, 16, 26, 36 nằm trong cùng một cột.
+c) Số liền trước của 70 là 69.
+d) Số 100 nằm ở hàng đầu tiên của bảng.
+::key S Đ Đ S
+a) Sai: đi xuống 1 hàng thì thêm 10, không phải thêm 1. b) Đúng: bốn số này đều có chữ số cuối là 6. c) Đúng: $70-1=69$. d) Sai: số 100 nằm ở hàng cuối cùng.
+
+[M014.6] Trả lời ngắn
+Số liền sau của 99 là số nào?
+::key 100
+Số liền sau hơn 99 một đơn vị: $99+1=100$.
+
+[M014.7] Trả lời ngắn
+Nam cầm thẻ số 85. Lan cầm thẻ có số ít hơn số của Nam 10 đơn vị. Hỏi Lan cầm thẻ số mấy?
+::key 75
+$85-10=75$.
+
+### M015 · Lớp 1 · Dài hơn, ngắn hơn. Đơn vị đo độ dài
+
+[M015.1] Nhiều lựa chọn
+Hai cây bút được đặt cùng một đầu bên trái. Đầu bên phải của bút xanh ra xa hơn đầu bên phải của bút đỏ. Câu nào sau đây đúng?
+A. Bút xanh ngắn hơn bút đỏ.
+B. Không so sánh được.
+C. Hai bút dài bằng nhau.
+D. Bút xanh dài hơn bút đỏ.
+::key D
+Hai bút thẳng hàng một đầu, bút nào có đầu kia ra xa hơn thì dài hơn. Phương án A nói ngược lại.
+
+[M015.2] Nhiều lựa chọn
+Một sợi dây có một đầu ở vạch số 0 của thước, đầu kia ở vạch số 8. Sợi dây dài
+A. $8$ cm.
+B. $7$ cm.
+C. $8$ m.
+D. $9$ cm.
+::key A
+Từ vạch 0 đến vạch 8 có 8 khoảng, mỗi khoảng 1 cm. Phương án D, B đếm nhầm số khoảng, phương án C dùng sai đơn vị.
+
+[M015.3] Nhiều lựa chọn
+Kết quả của $7\ \text{cm}+5\ \text{cm}$ là
+A. $2$ cm.
+B. $12$ cm.
+C. $11$ cm.
+D. $75$ cm.
+::key B
+$7+5=12$, đơn vị là cm. Phương án A là phép trừ, phương án D viết hai số liền nhau.
+
+[M015.4] Nhiều lựa chọn
+Dải ruy băng đỏ dài 14 cm, dải ruy băng xanh dài 9 cm. Dải đỏ dài hơn dải xanh
+A. $23$ cm.
+B. $6$ cm.
+C. $5$ cm.
+D. $4$ cm.
+::key C
+Ta lấy $14-9=5$, tức là 5 cm. Phương án A là phép cộng, phương án B và D trừ sai khi trừ qua 10.
+
+[M015.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Dây đỏ dài 11 cm, dây xanh dài 6 cm.
+a) Dây xanh ngắn hơn dây đỏ.
+b) Dây đỏ dài hơn dây xanh 5 cm.
+c) Nối hai dây lại được một dây dài 16 cm.
+d) Dây xanh dài hơn 10 cm.
+::key Đ Đ S S
+a) Đúng: $6<11$. b) Đúng: $11-6=5$. c) Sai: $11+6=17$, không phải 16. d) Sai: dây xanh dài 6 cm, ngắn hơn 10 cm.
+
+[M015.6] Trả lời ngắn
+Đoạn thẳng AB dài 8 cm, đoạn thẳng BC dài 7 cm. Nối hai đoạn lại thì dài bao nhiêu xăng-ti-mét?
+::key 15
+$8+7=15$ (cm).
+
+[M015.7] Trả lời ngắn
+Cây hoa cao 17 cm, cây cỏ cao 9 cm. Cây hoa cao hơn cây cỏ bao nhiêu xăng-ti-mét?
+::key 8
+$17-9=8$ (cm).
+
+### M016 · Lớp 1 · Phép cộng số có hai chữ số với số có một chữ số
+
+[M016.1] Nhiều lựa chọn
+Kết quả của $34+5$ là
+A. $29$.
+B. $84$.
+C. $39$.
+D. $9$.
+::key C
+$4+5=9$ và hàng chục là $3$, nên $34+5=39$. Phương án B là lỗi cộng $5$ vào hàng chục, D là lỗi quên hàng chục.
+
+[M016.2] Nhiều lựa chọn
+Kết quả của $60+7$ là
+A. $7$.
+B. $13$.
+C. $77$.
+D. $67$.
+::key D
+$0+7=7$ và hàng chục là $6$, nên $60+7=67$. Phương án B là lấy $6+7$, nhầm hàng chục với hàng đơn vị.
+
+[M016.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $48$?
+A. $40+8$.
+B. $43+4$.
+C. $44+5$.
+D. $45+2$.
+::key A
+$40+8=48$. Các phép tính khác lần lượt bằng $47$, $49$, $47$.
+
+[M016.4] Nhiều lựa chọn
+Hoa có $25$ cái nhãn dán, mẹ cho thêm $3$ cái. Hỏi Hoa có tất cả bao nhiêu cái nhãn dán?
+A. $22$ cái.
+B. $28$ cái.
+C. $55$ cái.
+D. $8$ cái.
+::key B
+"Cho thêm" là gộp lại: $25+3=28$. Phương án A là lấy $25-3$, nhầm sang phép trừ.
+
+[M016.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $52+6$.
+a) Số $52$ có $5$ chục.
+b) Hàng đơn vị là $2+6=8$.
+c) $52+6=68$.
+d) $52+6$ nhỏ hơn $60$.
+::key Đ Đ S Đ
+a) Đúng: $52$ có $5$ chục và $2$ đơn vị. b) Đúng: $2+6=8$. c) Sai: hàng chục giữ nguyên là $5$, nên $52+6=58$. d) Đúng: $58<60$.
+
+[M016.6] Trả lời ngắn
+Tính $41+7$.
+::key 48
+$1+7=8$ và hàng chục là $4$, nên $41+7=48$.
+
+[M016.7] Trả lời ngắn
+Trong giỏ có $36$ quả cam, thêm $3$ quả nữa. Trong giỏ có tất cả bao nhiêu quả cam?
+::key 39
+$36+3=39$ (quả cam).
+
+### M017 · Lớp 1 · Phép cộng số có hai chữ số với số có hai chữ số
+
+[M017.1] Nhiều lựa chọn
+Kết quả của $23+34$ là
+A. $7$.
+B. $75$.
+C. $27$.
+D. $57$.
+::key D
+$3+4=7$ và $2+3=5$, nên $23+34=57$. Phương án B là lỗi đảo chục và đơn vị, C là lỗi chỉ cộng $4$, A là lỗi quên hàng chục.
+
+[M017.2] Nhiều lựa chọn
+Kết quả của $40+25$ là
+A. $65$.
+B. $45$.
+C. $29$.
+D. $15$.
+::key A
+$0+5=5$ và $4+2=6$, nên $40+25=65$. Phương án B là lỗi quên $2$ chục của $25$.
+
+[M017.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $79$?
+A. $44+34$.
+B. $45+34$.
+C. $46+34$.
+D. $45+43$.
+::key B
+$45+34=79$. Các phép tính khác lần lượt bằng $78$, $80$, $88$.
+
+[M017.4] Nhiều lựa chọn
+Mai có $32$ hạt cườm đỏ và $45$ hạt cườm xanh. Hỏi Mai có tất cả bao nhiêu hạt cườm?
+A. $67$ hạt.
+B. $13$ hạt.
+C. $77$ hạt.
+D. $7$ hạt.
+::key C
+"Tất cả" là gộp lại: $32+45=77$. Phương án B là lấy $45-32$, nhầm sang phép trừ.
+
+[M017.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $51+27$.
+a) Hàng chục: $5+2=7$.
+b) Hàng đơn vị: $1+7=8$.
+c) $51+27=88$.
+d) $51+27$ lớn hơn $80$.
+::key Đ Đ S S
+a) Đúng: $5+2=7$. b) Đúng: $1+7=8$. c) Sai: $7$ chục và $8$ đơn vị là $78$. d) Sai: $78<80$.
+
+[M017.6] Trả lời ngắn
+Tính $34+25$.
+::key 59
+$4+5=9$ và $3+2=5$, nên $34+25=59$.
+
+[M017.7] Trả lời ngắn
+Hộp có $43$ cái bút, bố mua thêm $36$ cái bút. Hộp có tất cả bao nhiêu cái bút?
+::key 79
+$43+36=79$ (cái bút).
+
+### M018 · Lớp 1 · Phép trừ số có hai chữ số cho số có một chữ số
+
+[M018.1] Nhiều lựa chọn
+Kết quả của $47-5$ là
+A. $42$.
+B. $52$.
+C. $2$.
+D. $43$.
+::key A
+$7-5=2$ và hàng chục là $4$, nên $47-5=42$. Phương án B là lỗi cộng thay vì trừ, C là lỗi quên hàng chục.
+
+[M018.2] Nhiều lựa chọn
+Kết quả của $68-8$ là
+A. $6$.
+B. $60$.
+C. $76$.
+D. $70$.
+::key B
+$8-8=0$ và hàng chục là $6$, nên $68-8=60$. Phương án A là lỗi quên hàng chục, C là lỗi cộng thay vì trừ.
+
+[M018.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $52$?
+A. $57-6$.
+B. $59-6$.
+C. $58-6$.
+D. $58-5$.
+::key C
+$58-6=52$. Các phép tính khác lần lượt bằng $53$, $51$, $53$.
+
+[M018.4] Nhiều lựa chọn
+Linh có $29$ con tem, Linh tặng bạn $5$ con. Hỏi Linh còn lại bao nhiêu con tem?
+A. $14$ con.
+B. $34$ con.
+C. $4$ con.
+D. $24$ con.
+::key D
+"Tặng bạn", "còn lại" là bớt đi: $29-5=24$. Phương án B là lấy $29+5$, nhầm sang phép cộng.
+
+[M018.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép trừ $76-4$.
+a) Số $76$ có $7$ chục.
+b) Hàng đơn vị: $6-4=2$.
+c) $76-4=52$.
+d) $76-4$ nhỏ hơn $75$.
+::key Đ Đ S Đ
+a) Đúng: $76$ có $7$ chục và $6$ đơn vị. b) Đúng: $6-4=2$. c) Sai: hàng chục giữ nguyên là $7$, nên $76-4=72$. d) Đúng: $72<75$.
+
+[M018.6] Trả lời ngắn
+Tính $89-7$.
+::key 82
+$9-7=2$ và hàng chục là $8$, nên $89-7=82$.
+
+[M018.7] Trả lời ngắn
+Cây có $58$ quả, hái đi $6$ quả. Trên cây còn lại bao nhiêu quả?
+::key 52
+$58-6=52$ (quả).
+
+### M019 · Lớp 1 · Phép trừ số có hai chữ số cho số có hai chữ số
+
+[M019.1] Nhiều lựa chọn
+Kết quả của $57-23$ là
+A. $80$.
+B. $43$.
+C. $34$.
+D. $4$.
+::key C
+$7-3=4$ và $5-2=3$, nên $57-23=34$. Phương án B là lỗi đảo chục và đơn vị, A là lỗi cộng thay vì trừ, D là lỗi quên hàng chục.
+
+[M019.2] Nhiều lựa chọn
+Kết quả của $86-41$ là
+A. $5$.
+B. $54$.
+C. $127$.
+D. $45$.
+::key D
+$6-1=5$ và $8-4=4$, nên $86-41=45$. Phương án B là lỗi đảo chục và đơn vị, C là lỗi cộng thay vì trừ.
+
+[M019.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $42$?
+A. $68-26$.
+B. $69-26$.
+C. $67-26$.
+D. $68-25$.
+::key A
+$68-26=42$. Các phép tính khác lần lượt bằng $43$, $41$, $43$.
+
+[M019.4] Nhiều lựa chọn
+Cửa hàng có $78$ cái bút, đã bán $35$ cái. Hỏi cửa hàng còn lại bao nhiêu cái bút?
+A. $113$ cái.
+B. $43$ cái.
+C. $53$ cái.
+D. $3$ cái.
+::key B
+"Đã bán", "còn lại" là bớt đi: $78-35=43$. Phương án A là lấy $78+35$, nhầm sang phép cộng.
+
+[M019.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép trừ $95-54$.
+a) Hàng chục: $9-5=4$.
+b) Hàng đơn vị: $5-4=1$.
+c) $95-54=51$.
+d) Thử lại: $41+54=95$.
+::key Đ Đ S Đ
+a) Đúng: $9-5=4$. b) Đúng: $5-4=1$. c) Sai: $4$ chục và $1$ đơn vị là $41$. d) Đúng: $41+54=95$.
+
+[M019.6] Trả lời ngắn
+Tính $78-32$.
+::key 46
+$8-2=6$ và $7-3=4$, nên $78-32=46$.
+
+[M019.7] Trả lời ngắn
+Có $89$ cái bánh, đã bán $45$ cái. Còn lại bao nhiêu cái bánh?
+::key 44
+$89-45=44$ (cái bánh).
+
+### M020 · Lớp 1 · Xem giờ đúng trên đồng hồ. Các ngày trong tuần
+
+[M020.1] Nhiều lựa chọn
+Đồng hồ có kim dài chỉ số 12 và kim ngắn chỉ số 6. Đồng hồ chỉ
+A. 12 giờ.
+B. 5 giờ.
+C. 6 giờ.
+D. 7 giờ.
+::key C
+Kim ngắn chỉ giờ và chỉ số 6, nên đồng hồ chỉ 6 giờ. Phương án A đọc nhầm kim dài.
+
+[M020.2] Nhiều lựa chọn
+Đồng hồ đang chỉ 11 giờ. Sau 1 giờ nữa, kim ngắn chỉ số
+A. 10.
+B. 11.
+C. 1.
+D. 12.
+::key D
+Sau 1 giờ, kim ngắn sang số kế tiếp: $11+1=12$. Phương án A là 1 giờ trước, phương án B là không thay đổi.
+
+[M020.3] Nhiều lựa chọn
+Hôm nay là thứ tư. Ngày mai là
+A. thứ năm.
+B. thứ ba.
+C. thứ sáu.
+D. thứ bảy.
+::key A
+Ngày mai là ngày ngay sau thứ tư, tức là thứ năm. Phương án B là hôm qua.
+
+[M020.4] Nhiều lựa chọn
+Hôm nay là thứ bảy. Hôm qua là
+A. chủ nhật.
+B. thứ sáu.
+C. thứ hai.
+D. thứ năm.
+::key B
+Hôm qua là ngày ngay trước thứ bảy, tức là thứ sáu. Phương án A là ngày mai, phương án D là hai ngày trước.
+
+[M020.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Mai thức dậy lúc 6 giờ và đến trường lúc 7 giờ.
+a) Lúc 7 giờ, kim dài chỉ số 7.
+b) Mai thức dậy sau giờ đến trường.
+c) Lúc 6 giờ, kim dài chỉ số 12 và kim ngắn chỉ số 6.
+d) Từ lúc thức dậy đến lúc đến trường là 1 giờ.
+::key S S Đ Đ
+a) Sai: giờ đúng thì kim dài chỉ số 12. b) Sai: 6 giờ sớm hơn 7 giờ. c) Đúng: giờ đúng nên kim dài chỉ số 12, kim ngắn chỉ số 6. d) Đúng: $7-6=1$.
+
+[M020.6] Trả lời ngắn
+Hôm nay là thứ hai. Còn bao nhiêu ngày nữa đến thứ sáu?
+::key 4
+Các ngày sau thứ hai là thứ ba, thứ tư, thứ năm, thứ sáu, tức là 4 ngày.
+
+[M020.7] Trả lời ngắn
+Lan học bài từ 3 giờ đến 5 giờ. Lan học bài trong bao nhiêu giờ?
+::key 2
+$5-3=2$ (giờ).
+
+### M021 · Lớp 2 · Tia số. Số liền trước, số liền sau. Các thành phần của phép cộng, phép trừ
+
+[M021.1] Nhiều lựa chọn
+Số liền sau của 49 là
+A. $50$.
+B. $40$.
+C. $48$.
+D. $59$.
+::key A
+Số liền sau hơn 49 một đơn vị: $49+1=50$. Phương án C là số liền trước, phương án D hơn 49 mười đơn vị.
+
+[M021.2] Nhiều lựa chọn
+Số liền trước của 100 là
+A. $101$.
+B. $99$.
+C. $90$.
+D. $98$.
+::key B
+$100-1=99$. Phương án A là số liền sau, phương án C bớt 10, phương án D bớt 2.
+
+[M021.3] Nhiều lựa chọn
+Trong phép tính $83-41=42$, số $41$ là
+A. số bị trừ.
+B. hiệu.
+C. số trừ.
+D. tổng.
+::key C
+Số $83$ là số bị trừ, số $41$ là số trừ và số $42$ là hiệu. Phương án B chọn nhầm kết quả của phép trừ.
+
+[M021.4] Nhiều lựa chọn
+Từ vạch 12 trên tia số, nhảy sang trái 5 vạch thì đến vạch
+A. $17$.
+B. $5$.
+C. $8$.
+D. $7$.
+::key D
+Nhảy sang trái là trừ: $12-5=7$. Phương án A nhảy nhầm sang phải.
+
+[M021.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phép tính $56+23=79$.
+a) Số 56 là tổng của hai số hạng.
+b) Số 79 là tổng.
+c) Từ vạch 56 trên tia số, nhảy sang trái 23 vạch thì đến vạch 79.
+d) Số liền sau của 79 là 80.
+::key S Đ S Đ
+a) Sai: 56 là một số hạng. b) Đúng: 79 là kết quả của phép cộng. c) Sai: nhảy sang trái là trừ, phải nhảy sang phải để cộng. d) Đúng: $79+1=80$.
+
+[M021.6] Trả lời ngắn
+Tìm tổng của 46 và 32.
+::key 78
+$46+32=78$.
+
+[M021.7] Trả lời ngắn
+Tìm hiệu của 86 và 54.
+::key 32
+$86-54=32$.
+
+### M022 · Lớp 2 · Hơn, kém nhau bao nhiêu
+
+[M022.1] Nhiều lựa chọn
+Hà có 15 viên bi, Nam có 9 viên bi. Hà nhiều hơn Nam
+A. $24$ viên bi.
+B. $7$ viên bi.
+C. $6$ viên bi.
+D. $5$ viên bi.
+::key C
+$15-9=6$. Phương án A là phép cộng, phương án B và D trừ sai khi trừ qua 10.
+
+[M022.2] Nhiều lựa chọn
+Số 17 hơn số 9 là
+A. $26$ đơn vị.
+B. $7$ đơn vị.
+C. $9$ đơn vị.
+D. $8$ đơn vị.
+::key D
+$17-9=8$. Phương án A là phép cộng, phương án C chép lại số bé.
+
+[M022.3] Nhiều lựa chọn
+Sân trường có 12 cây phượng và 7 cây bàng. Cây bàng ít hơn cây phượng
+A. $5$ cây.
+B. $19$ cây.
+C. $7$ cây.
+D. $6$ cây.
+::key A
+$12-7=5$. Phương án B là phép cộng, phương án C chép lại số cây bàng.
+
+[M022.4] Nhiều lựa chọn
+Trên tia số, hai vạch ghi 6 và 14 cách nhau
+A. $20$ vạch.
+B. $8$ vạch.
+C. $7$ vạch.
+D. $6$ vạch.
+::key B
+$14-6=8$. Phương án A là phép cộng, phương án D chép lại số bé.
+
+[M022.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Lan có 14 bông hoa, Mai có 8 bông hoa.
+a) Mai có nhiều hoa hơn Lan.
+b) Lan nhiều hơn Mai 6 bông hoa.
+c) Mai ít hơn Lan 6 bông hoa.
+d) Nếu Mai có thêm 6 bông hoa thì Mai có số hoa bằng Lan.
+::key S Đ Đ Đ
+a) Sai: $14>8$ nên Lan có nhiều hoa hơn. b) Đúng: $14-8=6$. c) Đúng: Mai ít hơn Lan cũng 6 bông. d) Đúng: $8+6=14$.
+
+[M022.6] Trả lời ngắn
+Ngày thứ nhất cửa hàng bán 48 chiếc bánh, ngày thứ hai bán 35 chiếc bánh. Ngày thứ nhất bán nhiều hơn ngày thứ hai bao nhiêu chiếc bánh?
+::key 13
+$48-35=13$ (chiếc).
+
+[M022.7] Trả lời ngắn
+Trên tia số, hai vạch ghi 8 và 19 cách nhau mấy vạch?
+::key 11
+$19-8=11$.
+
+### M023 · Lớp 2 · Phép cộng (qua 10) trong phạm vi 20
+
+[M023.1] Nhiều lựa chọn
+Kết quả của $9+5$ là
+A. $13$.
+B. $14$.
+C. $15$.
+D. $10$.
+::key B
+$9+5=9+1+4=10+4=14$. Phương án D là lỗi quên phần còn lại $4$.
+
+[M023.2] Nhiều lựa chọn
+Để tính $8+7$ bằng mẹo gộp cho đủ $10$, em tách $7$ thành
+A. $1$ và $6$.
+B. $3$ và $4$.
+C. $2$ và $5$.
+D. $2$ và $4$.
+::key C
+$8$ cần thêm $2$ để được $10$, nên tách $7=2+5$. Phương án D sai vì $2+4=6$, không bằng $7$.
+
+[M023.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $13$?
+A. $6+7$.
+B. $6+8$.
+C. $5+7$.
+D. $9+5$.
+::key A
+$6+7=7+6=7+3+3=13$. Các phép tính khác lần lượt bằng $14$, $12$, $14$.
+
+[M023.4] Nhiều lựa chọn
+Mai có $8$ bông hoa, Hà có $6$ bông hoa. Cả hai bạn có bao nhiêu bông hoa?
+A. $2$ bông.
+B. $13$ bông.
+C. $14$ bông.
+D. $15$ bông.
+::key C
+"Cả hai bạn" là gộp lại: $8+6=14$. Phương án A là lấy $8-6$, nhầm sang phép trừ.
+
+[M023.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $7+8$.
+a) Có thể đổi thành $8+7$ mà kết quả không đổi.
+b) $7+8=7+3+5$.
+c) $7+8=14$.
+d) $7+8$ lớn hơn $14$.
+::key Đ Đ S Đ
+a) Đúng: đổi chỗ các số hạng thì tổng không đổi. b) Đúng: $8=3+5$. c) Sai: $7+3+5=10+5=15$. d) Đúng: $15>14$.
+
+[M023.6] Trả lời ngắn
+Tính $9+9$.
+::key 18
+$9+9=9+1+8=10+8=18$.
+
+[M023.7] Trả lời ngắn
+Trên cành có $7$ con chim, thêm $4$ con nữa bay đến. Trên cành có tất cả bao nhiêu con chim?
+::key 11
+$7+4=7+3+1=10+1=11$ (con chim).
+
+### M024 · Lớp 2 · Bảng cộng (qua 10)
+
+[M024.1] Nhiều lựa chọn
+Kết quả của $9+7$ là
+A. $16$.
+B. $17$.
+C. $18$.
+D. $15$.
+::key A
+$9+7=9+1+6=10+6=16$. Phương án D tách sai (thiếu 1), phương án B và C cộng thừa.
+
+[M024.2] Nhiều lựa chọn
+Kết quả của $8+5$ là
+A. $12$.
+B. $13$.
+C. $14$.
+D. $10$.
+::key B
+$8+5=8+2+3=10+3=13$. Phương án D quên cộng phần còn lại.
+
+[M024.3] Nhiều lựa chọn
+Để tính $7+6$, em tách $6=3+3$. Cách làm đúng là
+A. $7+3+4$.
+B. $7+6+3$.
+C. $7+3+3$.
+D. $7+3+6$.
+::key C
+Sau khi lấy 3 để được 10, em còn lại $6-3=3$, nên viết $7+3+3=10+3=13$. Phương án A, B, D cộng thừa hoặc thiếu.
+
+[M024.4] Nhiều lựa chọn
+Giả sử hộp có 8 chiếc bút đỏ và 9 chiếc bút xanh. Hộp có tất cả
+A. $16$ chiếc bút.
+B. $1$ chiếc bút.
+C. $18$ chiếc bút.
+D. $17$ chiếc bút.
+::key D
+"Tất cả" là gộp lại: $8+9=17$. Phương án B là phép trừ nhầm.
+
+[M024.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phép tính $8+6$.
+a) Có thể tách $6=2+4$ để tính $8+6=8+2+4$.
+b) $8+6=15$.
+c) $8+6=6+8$.
+d) Tổng $8+6$ bé hơn 14.
+::key Đ S Đ S
+a) Đúng: $8+2=10$, rồi cộng 4. b) Sai: $8+6=14$, không phải 15. c) Đúng: đổi chỗ hai số hạng thì tổng không đổi. d) Sai: tổng bằng 14, không bé hơn 14.
+
+[M024.6] Trả lời ngắn
+Tính $9+8$.
+::key 17
+$9+8=9+1+7=10+7=17$.
+
+[M024.7] Trả lời ngắn
+Buổi sáng Lan gấp 7 chiếc thuyền giấy, buổi chiều gấp 6 chiếc. Cả hai buổi Lan gấp được bao nhiêu chiếc thuyền?
+::key 13
+$7+6=7+3+3=13$ (chiếc).
+
+### M025 · Lớp 2 · Bài toán về thêm, bớt một số đơn vị. Bài toán về nhiều hơn, ít hơn một số đơn vị
+
+[M025.1] Nhiều lựa chọn
+Trong giỏ có 9 quả cam, mẹ cho thêm 4 quả. Trong giỏ có tất cả
+A. $13$ quả cam.
+B. $5$ quả cam.
+C. $12$ quả cam.
+D. $14$ quả cam.
+::key A
+"Cho thêm" thì cộng: $9+4=13$. Phương án B là phép trừ nhầm.
+
+[M025.2] Nhiều lựa chọn
+Nam có 17 quyển vở, Nam cho bạn 5 quyển. Nam còn lại
+A. $22$ quyển vở.
+B. $12$ quyển vở.
+C. $11$ quyển vở.
+D. $13$ quyển vở.
+::key B
+"Cho bạn" thì số vở giảm: $17-5=12$. Phương án A là phép cộng nhầm.
+
+[M025.3] Nhiều lựa chọn
+Hà có 7 viên bi. Nam có nhiều hơn Hà 4 viên bi. Nam có
+A. $3$ viên bi.
+B. $10$ viên bi.
+C. $11$ viên bi.
+D. $12$ viên bi.
+::key C
+"Nhiều hơn" thì cộng: $7+4=11$. Phương án A là phép trừ nhầm.
+
+[M025.4] Nhiều lựa chọn
+Lan có 8 bông hoa. Mai có ít hơn Lan 3 bông hoa. Mai có
+A. $11$ bông hoa.
+B. $4$ bông hoa.
+C. $6$ bông hoa.
+D. $5$ bông hoa.
+::key D
+"Ít hơn" thì trừ: $8-3=5$. Phương án A là phép cộng nhầm.
+
+[M025.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hà có 9 viên kẹo. Mai có ít hơn Hà 4 viên kẹo.
+a) Mai có $9-4=5$ viên kẹo.
+b) Mai có 13 viên kẹo.
+c) Mai có nhiều hơn Hà 4 viên kẹo.
+d) Nếu Mai có nhiều hơn Hà 4 viên kẹo thì Mai có 13 viên kẹo.
+::key Đ S S Đ
+a) Đúng: "ít hơn" thì trừ. b) Sai: 13 là kết quả phép cộng $9+4$. c) Sai: Mai ít hơn Hà, không phải nhiều hơn. d) Đúng: $9+4=13$.
+
+[M025.6] Trả lời ngắn
+Trong giỏ có 8 quả táo, mẹ cho thêm 6 quả. Trong giỏ có tất cả bao nhiêu quả táo?
+::key 14
+$8+6=14$ (quả).
+
+[M025.7] Trả lời ngắn
+Mai có 13 bông hoa giấy. Lan có ít hơn Mai 2 bông. Lan có bao nhiêu bông hoa giấy?
+::key 11
+$13-2=11$ (bông).
+
+### M026 · Lớp 2 · Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10)
+
+[M026.1] Nhiều lựa chọn
+Kết quả của $14-6$ là
+A. $7$.
+B. $8$.
+C. $9$.
+D. $10$.
+::key B
+$14-6=14-4-2=10-2=8$. Phương án D mới trừ 4 mà quên trừ nốt 2.
+
+[M026.2] Nhiều lựa chọn
+Kết quả của $13-5$ là
+A. $7$.
+B. $9$.
+C. $8$.
+D. $18$.
+::key C
+$13-5=13-3-2=10-2=8$. Phương án D là phép cộng nhầm.
+
+[M026.3] Nhiều lựa chọn
+Để tính $15-7$, em tách $7=5+2$. Cách làm đúng là
+A. $15-5-3$.
+B. $15-5+2$.
+C. $15-7-2$.
+D. $15-5-2$.
+::key D
+Trừ 7 cũng như trừ 5 rồi trừ 2, nên $15-5-2=10-2=8$. Phương án A trừ thừa 1, phương án B lại cộng thêm.
+
+[M026.4] Nhiều lựa chọn
+Biết $8+6=14$. Phép trừ đúng là
+A. $14-8=6$.
+B. $14-8=22$.
+C. $8-14=6$.
+D. $14-6=6$.
+::key A
+Lấy tổng 14 trừ số hạng 8 được số hạng còn lại là 6. Phương án D sai vì $14-6=8$.
+
+[M026.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phép trừ $16-9$.
+a) $16-9=7$.
+b) $16-7=9$.
+c) Hiệu $16-9$ lớn hơn 8.
+d) Từ $9+7=16$ suy ra hai phép trừ $16-9=7$ và $16-7=9$.
+::key Đ Đ S Đ
+a) Đúng: $16-9=16-6-3=7$. b) Đúng: $7+9=16$. c) Sai: hiệu bằng 7, bé hơn 8. d) Đúng: lấy tổng trừ lần lượt từng số hạng.
+
+[M026.6] Trả lời ngắn
+Tính $17-8$.
+::key 9
+$17-8=17-7-1=10-1=9$.
+
+[M026.7] Trả lời ngắn
+Trong hộp có 15 viên bi, lấy ra 7 viên. Hộp còn lại bao nhiêu viên bi?
+::key 8
+$15-7=15-5-2=8$ (viên).
+
+### M027 · Lớp 2 · Ki-lô-gam. Lít
+
+[M027.1] Nhiều lựa chọn
+Túi gạo đặt trên cân, kim cân chỉ đúng vạch ghi số 4. Túi gạo nặng
+A. $4$ l.
+B. $5$ kg.
+C. $3$ kg.
+D. $4$ kg.
+::key D
+Kim chỉ vạch 4 nên túi gạo nặng 4 kg. Phương án A dùng sai đơn vị, phương án B và C đọc nhầm số.
+
+[M027.2] Nhiều lựa chọn
+Kết quả của $8\ \text{kg}+7\ \text{kg}$ là
+A. $15$ kg.
+B. $1$ kg.
+C. $15$ l.
+D. $14$ kg.
+::key A
+$8+7=15$ và đơn vị là kg. Phương án B là phép trừ, phương án C sai đơn vị.
+
+[M027.3] Nhiều lựa chọn
+Trong thùng có 18 lít nước, mẹ lấy ra 9 lít. Trong thùng còn lại
+A. $27$ l nước.
+B. $9$ l nước.
+C. $9$ kg nước.
+D. $8$ l nước.
+::key B
+"Lấy ra" nghĩa là bớt đi: $18-9=9$ (l). Phương án A là phép cộng nhầm, phương án C sai đơn vị.
+
+[M027.4] Nhiều lựa chọn
+Đơn vị dùng để đong lượng nước trong chai là
+A. ki-lô-gam.
+B. xăng-ti-mét.
+C. lít.
+D. giờ.
+::key C
+Lượng chất lỏng đong bằng lít, viết tắt là l. Ki-lô-gam đo khối lượng, xăng-ti-mét đo độ dài.
+
+[M027.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trên cân đĩa, đĩa bên trái hạ thấp hơn đĩa bên phải.
+a) Vật ở đĩa bên trái nhẹ hơn.
+b) Vật ở đĩa bên phải nhẹ hơn.
+c) Hai vật nặng bằng nhau.
+d) Đĩa nhẹ hơn thì hạ thấp xuống.
+::key S Đ S S
+a) Sai: đĩa hạ thấp hơn chứa vật nặng hơn. b) Đúng: vật ở đĩa bên phải nhẹ hơn. c) Sai: nếu nặng bằng nhau thì hai đĩa ngang bằng nhau. d) Sai: đĩa nặng hơn mới hạ thấp xuống.
+
+[M027.6] Trả lời ngắn
+Tính $6\ \text{kg}+9\ \text{kg}$ (viết số, không viết đơn vị).
+::key 15
+$6+9=15$ (kg).
+
+[M027.7] Trả lời ngắn
+Trong thùng có 16 lít nước, đổ ra 7 lít. Trong thùng còn lại bao nhiêu lít nước?
+::key 9
+$16-7=9$ (l).
+
+### M028 · Lớp 2 · Phép cộng (có nhớ) số có hai chữ số với số có một chữ số
+
+[M028.1] Nhiều lựa chọn
+Kết quả của $47+6$ là
+A. $53$.
+B. $43$.
+C. $52$.
+D. $413$.
+::key A
+$7+6=13$, viết $3$ nhớ $1$; $4+1=5$, nên $47+6=53$. Phương án B quên chục nhớ, D viết cả $13$ vào hàng đơn vị.
+
+[M028.2] Nhiều lựa chọn
+Khi tính $68+5$, em viết $3$ ở hàng đơn vị. Số chục nhớ cần cộng thêm vào hàng chục là
+A. $0$.
+B. $1$.
+C. $2$.
+D. $3$.
+::key B
+$8+5=13$ là $1$ chục và $3$ đơn vị, nên nhớ $1$ chục. Hàng chục: $6+1=7$, kết quả $73$.
+
+[M028.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $52$?
+A. $47+4$.
+B. $45+8$.
+C. $46+6$.
+D. $49+4$.
+::key C
+$46+6=52$. Các phép tính khác lần lượt bằng $53$, $51$, $53$.
+
+[M028.4] Nhiều lựa chọn
+Lan có $36$ cái nhãn vở, bạn cho thêm $8$ cái. Lan có tất cả bao nhiêu cái nhãn vở?
+A. $34$ cái.
+B. $28$ cái.
+C. $314$ cái.
+D. $44$ cái.
+::key D
+"Cho thêm" là gộp lại: $36+8=44$. Phương án A quên chục nhớ, B là $36-8$, nhầm sang phép trừ.
+
+[M028.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $59+7$.
+a) Hàng đơn vị: $9+7=16$.
+b) $16$ đơn vị đổi được $1$ chục và $6$ đơn vị.
+c) $59+7=65$.
+d) $59+7$ lớn hơn $60$.
+::key Đ Đ S Đ
+a) Đúng: $9+7=16$. b) Đúng: $16=10+6$. c) Sai: hàng chục là $5+1=6$ nên kết quả là $66$. d) Đúng: $66>60$.
+
+[M028.6] Trả lời ngắn
+Tính $75+8$.
+::key 83
+$5+8=13$, viết $3$ nhớ $1$; $7+1=8$. Vậy $75+8=83$.
+
+[M028.7] Trả lời ngắn
+Bể có $49$ con cá, người ta thả thêm $5$ con cá. Bể có tất cả bao nhiêu con cá?
+::key 54
+$9+5=14$, viết $4$ nhớ $1$; $4+1=5$. Vậy $49+5=54$ (con cá).
+
+### M029 · Lớp 2 · Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số
+
+[M029.1] Nhiều lựa chọn
+Kết quả của $38+45$ là
+A. $73$.
+B. $82$.
+C. $713$.
+D. $83$.
+::key D
+$8+5=13$, viết $3$ nhớ $1$; $3+4+1=8$, nên $38+45=83$. Phương án A quên chục nhớ, C viết cả $13$ vào hàng đơn vị.
+
+[M029.2] Nhiều lựa chọn
+Phép tính nào đúng?
+A. $29+36=65$.
+B. $29+36=55$.
+C. $29+36=515$.
+D. $29+36=64$.
+::key A
+$9+6=15$, viết $5$ nhớ $1$; $2+3+1=6$, nên $29+36=65$. A quên chục nhớ, C viết cả $15$ vào hàng đơn vị.
+
+[M029.3] Nhiều lựa chọn
+Phép tính nào có kết quả bằng $71$?
+A. $35+35$.
+B. $35+36$.
+C. $34+36$.
+D. $38+34$.
+::key B
+$35+36=71$. Các phép tính khác lần lượt bằng $70$, $70$, $72$.
+
+[M029.4] Nhiều lựa chọn
+Lớp 2A có $29$ bạn, lớp 2B có $34$ bạn. Cả hai lớp có bao nhiêu bạn?
+A. $53$ bạn.
+B. $613$ bạn.
+C. $63$ bạn.
+D. $5$ bạn.
+::key C
+"Cả hai lớp" là gộp lại: $29+34=63$. Phương án A quên chục nhớ, D là $34-29$, nhầm sang phép trừ.
+
+[M029.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $48+27$.
+a) Hàng đơn vị: $8+7=15$.
+b) $15$ đơn vị đổi được $1$ chục và $5$ đơn vị.
+c) Hàng chục của tổng là $6$.
+d) $48+27=75$.
+::key Đ Đ S Đ
+a) Đúng: $8+7=15$. b) Đúng: $15=10+5$. c) Sai: hàng chục là $4+2+1=7$. d) Đúng: $48+27=75$.
+
+[M029.6] Trả lời ngắn
+Tính $56+38$.
+::key 94
+$6+8=14$, viết $4$ nhớ $1$; $5+3+1=9$. Vậy $56+38=94$.
+
+[M029.7] Trả lời ngắn
+Thùng có $45$ quả cam và $37$ quả quýt. Thùng có tất cả bao nhiêu quả?
+::key 82
+$5+7=12$, viết $2$ nhớ $1$; $4+3+1=8$. Vậy $45+37=82$ (quả).

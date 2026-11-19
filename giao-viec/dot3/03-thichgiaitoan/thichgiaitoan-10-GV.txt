@@ -1,0 +1,858 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-10-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-10-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-10-GV
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/rounding-thousands-ten-thousands, g3/seven-times-table
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  thichgiaitoan-10-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/thichgiaitoan-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-10-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/rounding-thousands-ten-thousands – BẢN TIẾNG VIỆT ########
+---
+title: Làm tròn số đến hàng nghìn, hàng chục nghìn
+description: Em học cách làm tròn một số đến hàng nghìn hoặc hàng chục nghìn bằng cách nhìn chữ số ở hàng bên phải, rồi dùng vào bài toán thực tế.
+minutes: 15
+---
+
+  :::goals
+  - Biết làm tròn một số đến hàng nghìn.
+  - Biết làm tròn một số đến hàng chục nghìn.
+  - Nhìn đúng chữ số cần xét: từ $5$ trở lên thì làm tròn lên, dưới $5$ thì làm tròn xuống.
+  - Dùng làm tròn để nói số lượng "khoảng bao nhiêu".
+  :::
+
+[[P1·953b]]
+Sân vận động của thành phố có $4\,732$ khán giả xem trận bóng đá chiều nay. Cô phóng viên muốn viết ngắn gọn: "Có khoảng mấy nghìn khán giả?" Em giúp cô chọn một số tròn nghìn gần với $4\,732$ nhé.
+
+[[P2·d87b]]
+Ở bài trước, em đã biết so sánh các số trong phạm vi $100\,000$. Em cũng đã biết làm tròn số đến hàng chục và hàng trăm. Bài này dùng lại cách nghĩ đó cho hàng nghìn và hàng chục nghìn.
+
+## Cùng khám phá
+
+[[P3·a654]]
+Ta xếp các số tròn nghìn $4\,000$ và $5\,000$ trên tia số. Số $4\,732$ nằm giữa hai số đó. Điểm chính giữa của hai số là $4\,500$.
+
+:::graph Số $4\,732$ nằm giữa $4\,000$ và $5\,000$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·0a58]]
+Em hãy hỏi: số $4\,732$ gần số nào hơn?
+
+[[P5·d9d7]]
+- Từ $4\,000$ đến $4\,732$ là $4\,732-4\,000=732$.
+- Từ $4\,732$ đến $5\,000$ là $5\,000-4\,732=268$.
+- Vì $268<732$ nên $4\,732$ gần $5\,000$ hơn.
+
+[[P6·fbca]]
+Ta nói: làm tròn $4\,732$ đến hàng nghìn được $5\,000$, viết $4\,732\approx5\,000$. Kí hiệu $\approx$ đọc là "gần bằng".
+
+[[P7·cb85]]
+Em để ý: $4\,732$ lớn hơn điểm chính giữa $4\,500$, nên nó gần $5\,000$ hơn. Số nào nhỏ hơn $4\,500$ thì gần $4\,000$ hơn. Chữ số hàng trăm của số $4\,500$ là $5$, nên chữ số hàng trăm cho em biết số đó ở nửa nào.
+
+  :::theorem Cách làm tròn
+  **Làm tròn đến hàng nghìn:** nhìn chữ số ở hàng trăm.
+  - Nếu chữ số đó **bé hơn $5$** (từ $0$ đến $4$): giữ nguyên chữ số hàng nghìn, các chữ số bên phải đổi thành $0$.
+  - Nếu chữ số đó **từ $5$ trở lên** (từ $5$ đến $9$): tăng chữ số hàng nghìn thêm $1$, các chữ số bên phải đổi thành $0$.
+
+  **Làm tròn đến hàng chục nghìn:** làm tương tự, nhưng nhìn chữ số ở hàng nghìn.
+  :::
+
+[[P8·98db]]
+Cách làm này đúng vì em chọn số tròn gần nhất. Chữ số hàng trăm từ $5$ trở lên nghĩa là số đó ở nửa trên, gần số tròn nghìn lớn hơn.
+
+## Ví dụ
+
+[[P9·9016]]
+Ta bắt đầu với một số có chữ số hàng trăm nhỏ.
+
+  :::example Làm tròn $3\,214$ đến hàng nghìn
+  **Lời giải.** Muốn làm tròn đến hàng nghìn, em nhìn chữ số hàng trăm. Chữ số hàng trăm của $3\,214$ là $2$, bé hơn $5$, nên giữ nguyên $3$ nghìn và đổi các chữ số bên phải thành $0$:
+  $$3\,214\approx3\,000.$$
+  Vậy $3\,214$ làm tròn đến hàng nghìn là $3\,000$.
+  :::
+
+[[P10·1efb]]
+Bây giờ chữ số hàng trăm lớn hơn.
+
+  :::example Làm tròn $6\,750$ đến hàng nghìn
+  **Lời giải.** Chữ số hàng trăm của $6\,750$ là $7$, từ $5$ trở lên, nên tăng chữ số hàng nghìn từ $6$ lên $7$ và đổi các chữ số bên phải thành $0$:
+  $$6\,750\approx7\,000.$$
+  Vậy $6\,750$ làm tròn đến hàng nghìn là $7\,000$.
+  :::
+
+[[P11·5bb5]]
+Với số có năm chữ số, em có hai cách làm tròn khác nhau.
+
+  :::example Làm tròn $47\,328$ đến hàng nghìn và đến hàng chục nghìn
+  **Lời giải.** Làm tròn đến hàng nghìn: chữ số hàng trăm là $3$, bé hơn $5$, nên giữ nguyên $47$ nghìn:
+  $$47\,328\approx47\,000.$$
+  Làm tròn đến hàng chục nghìn: em nhìn chữ số hàng nghìn là $7$, từ $5$ trở lên, nên tăng $4$ chục nghìn lên $5$ chục nghìn:
+  $$47\,328\approx50\,000.$$
+  Vậy $47\,328$ làm tròn đến hàng nghìn là $47\,000$, đến hàng chục nghìn là $50\,000$.
+  :::
+
+[[P12·3f10]]
+Có một trường hợp hay làm em lúng túng: chữ số cần tăng là $9$.
+
+  :::example Làm tròn $9\,640$ đến hàng nghìn
+  **Lời giải.** Chữ số hàng trăm của $9\,640$ là $6$, từ $5$ trở lên, nên em cần thêm $1$ nghìn vào $9$ nghìn. $9$ nghìn thêm $1$ nghìn là $10$ nghìn:
+  $$9\,640\approx10\,000.$$
+  Vậy $9\,640$ làm tròn đến hàng nghìn là $10\,000$.
+  :::
+
+[[P13·7c7d]]
+Bây giờ em dùng làm tròn để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Vé buổi hòa nhạc
+  Một buổi hòa nhạc bán được $23\,480$ vé. Báo viết: "Khoảng bao nhiêu nghìn vé đã được bán?" Hãy trả lời.
+
+  **Lời giải.** "Khoảng bao nhiêu nghìn" nghĩa là làm tròn đến hàng nghìn. Chữ số hàng trăm của $23\,480$ là $4$, bé hơn $5$, nên:
+  $$23\,480\approx23\,000.$$
+  Vậy đã bán được khoảng $23$ nghìn vé.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·c937]]
+- **Nhìn nhầm chữ số.** Sai: làm tròn $4\,372$ đến hàng nghìn bằng cách nhìn chữ số $2$ ở hàng đơn vị. Vì sao sai: em phải nhìn chữ số ở hàng ngay bên phải hàng cần làm tròn, tức là hàng trăm, chữ số $3$. Đúng: $4\,372\approx4\,000$.
+- **Quên đổi các chữ số bên phải thành $0$.** Sai: $6\,750\approx7\,750$. Vì sao sai: số làm tròn đến hàng nghìn phải là số tròn nghìn. Đúng: $6\,750\approx7\,000$.
+- **Chữ số $9$ không dám tăng.** Sai: $9\,640\approx9\,000$. Vì sao sai: chữ số hàng trăm là $6$ nên phải làm tròn lên, và $9$ nghìn thêm $1$ nghìn là $10$ nghìn. Đúng: $9\,640\approx10\,000$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - làm tròn số | rounding (to round a number)
+  - hàng nghìn | thousands place
+  - hàng chục nghìn | ten-thousands place
+  - hàng trăm | hundreds place
+  - chữ số | digit
+  - số tròn nghìn | whole thousand
+  - gần bằng | approximately equal to
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P15·8fe2]]
+- Làm tròn đến hàng nghìn: nhìn chữ số hàng trăm. Bé hơn $5$ thì giữ nguyên, từ $5$ trở lên thì tăng hàng nghìn thêm $1$.
+- Làm tròn đến hàng chục nghìn: nhìn chữ số hàng nghìn, làm theo cách tương tự.
+- Sau khi làm tròn, các chữ số bên phải đều thành $0$.
+- Ví dụ: $4\,732\approx5\,000$ (đến hàng nghìn); $47\,328\approx50\,000$ (đến hàng chục nghìn).
+- Em có thể thử lại bằng tia số: số làm tròn phải là số tròn gần nhất.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/rounding-thousands-ten-thousands – BẢN TIẾNG ANH ########
+---
+title: Rounding to the nearest thousand and ten thousand
+description: Learn to round a number to the nearest thousand or ten thousand by looking at the digit in the place to the right, then use it in real-life problems.
+minutes: 15
+---
+
+  :::goals
+  - Round a number to the nearest thousand.
+  - Round a number to the nearest ten thousand.
+  - Look at the right digit: $5$ or more rounds up, less than $5$ rounds down.
+  - Use rounding to say "about how many".
+  :::
+
+[[P1·1aa7]]
+The city stadium had $4\,732$ spectators at this afternoon's football match. A reporter wants to write it briefly: "About how many thousand spectators were there?" Help her choose a whole thousand close to $4\,732$.
+
+[[P2·c4ef]]
+In the last lesson you learned to compare numbers up to $100\,000$. You also know how to round to the nearest ten and hundred. This lesson uses the same thinking for thousands and ten thousands.
+
+## Let's explore
+
+[[P3·a112]]
+We place the whole thousands $4\,000$ and $5\,000$ on a number line. The number $4\,732$ lies between them. The point exactly halfway between them is $4\,500$.
+
+:::graph The number $4\,732$ lies between $4\,000$ and $5\,000$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·25f1]]
+Ask yourself: which number is $4\,732$ closer to?
+
+[[P5·b039]]
+- From $4\,000$ to $4\,732$ is $4\,732-4\,000=732$.
+- From $4\,732$ to $5\,000$ is $5\,000-4\,732=268$.
+- Since $268<732$, $4\,732$ is closer to $5\,000$.
+
+[[P6·089f]]
+We say: $4\,732$ rounded to the nearest thousand is $5\,000$, and we write $4\,732\approx5\,000$. The sign $\approx$ is read "is approximately equal to".
+
+[[P7·50f4]]
+Notice: $4\,732$ is greater than the halfway point $4\,500$, so it is closer to $5\,000$. Any number less than $4\,500$ is closer to $4\,000$. The hundreds digit of $4\,500$ is $5$, so the hundreds digit tells you which half a number is in.
+
+  :::theorem How to round
+  **Rounding to the nearest thousand:** look at the hundreds digit.
+  - If that digit is **less than $5$** ($0$ to $4$): keep the thousands digit the same and change the digits to its right to $0$.
+  - If that digit is **$5$ or more** ($5$ to $9$): add $1$ to the thousands digit and change the digits to its right to $0$.
+
+  **Rounding to the nearest ten thousand:** do the same, but look at the thousands digit.
+  :::
+
+[[P8·b24d]]
+This works because you choose the nearest whole number of that size. A hundreds digit of $5$ or more means the number is in the upper half, closer to the bigger whole thousand.
+
+## Examples
+
+[[P9·95ba]]
+We start with a number whose hundreds digit is small.
+
+  :::example Round $3\,214$ to the nearest thousand
+  **Solution.** To round to the nearest thousand, look at the hundreds digit. The hundreds digit of $3\,214$ is $2$, less than $5$, so keep $3$ thousands and change the digits to the right to $0$:
+  $$3\,214\approx3\,000.$$
+  So $3\,214$ rounded to the nearest thousand is $3\,000$.
+  :::
+
+[[P10·8032]]
+Now the hundreds digit is bigger.
+
+  :::example Round $6\,750$ to the nearest thousand
+  **Solution.** The hundreds digit of $6\,750$ is $7$, which is $5$ or more, so the thousands digit goes up from $6$ to $7$ and the digits to the right become $0$:
+  $$6\,750\approx7\,000.$$
+  So $6\,750$ rounded to the nearest thousand is $7\,000$.
+  :::
+
+[[P11·d5ac]]
+A five-digit number can be rounded in two different ways.
+
+  :::example Round $47\,328$ to the nearest thousand and to the nearest ten thousand
+  **Solution.** To the nearest thousand: the hundreds digit is $3$, less than $5$, so keep $47$ thousands:
+  $$47\,328\approx47\,000.$$
+  To the nearest ten thousand: look at the thousands digit, which is $7$, so $5$ or more. The $4$ ten thousands go up to $5$ ten thousands:
+  $$47\,328\approx50\,000.$$
+  So $47\,328$ rounded to the nearest thousand is $47\,000$, and to the nearest ten thousand is $50\,000$.
+  :::
+
+[[P12·448e]]
+One case often confuses pupils: the digit that goes up is a $9$.
+
+  :::example Round $9\,640$ to the nearest thousand
+  **Solution.** The hundreds digit of $9\,640$ is $6$, which is $5$ or more, so you add $1$ thousand to $9$ thousands. $9$ thousands and $1$ more thousand make $10$ thousands:
+  $$9\,640\approx10\,000.$$
+  So $9\,640$ rounded to the nearest thousand is $10\,000$.
+  :::
+
+[[P13·5f35]]
+Now use rounding to answer a question from everyday life.
+
+  :::example Concert tickets
+  A concert sold $23\,480$ tickets. A newspaper asks: "About how many thousand tickets were sold?" Answer the question.
+
+  **Solution.** "About how many thousand" means rounding to the nearest thousand. The hundreds digit of $23\,480$ is $4$, less than $5$, so:
+  $$23\,480\approx23\,000.$$
+  So about $23$ thousand tickets were sold.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·8d2f]]
+- **Looking at the wrong digit.** Wrong: rounding $4\,372$ to the nearest thousand by looking at the $2$ in the ones place. Why it is wrong: you must look at the place just to the right of the place you are rounding to, which is the hundreds, the digit $3$. Right: $4\,372\approx4\,000$.
+- **Forgetting to change the digits on the right to $0$.** Wrong: $6\,750\approx7\,750$. Why it is wrong: a number rounded to the nearest thousand must be a whole thousand. Right: $6\,750\approx7\,000$.
+- **Not daring to round a $9$ up.** Wrong: $9\,640\approx9\,000$. Why it is wrong: the hundreds digit is $6$, so you round up, and $9$ thousands plus $1$ thousand is $10$ thousands. Right: $9\,640\approx10\,000$.
+:::
+
+## Key terms
+
+  :::terms
+  - rounding (to round a number) | làm tròn số
+  - thousands place | hàng nghìn
+  - ten-thousands place | hàng chục nghìn
+  - hundreds place | hàng trăm
+  - digit | chữ số
+  - whole thousand | số tròn nghìn
+  - approximately equal to | gần bằng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P15·392c]]
+- To round to the nearest thousand, look at the hundreds digit. Less than $5$: keep the thousands; $5$ or more: add $1$ to the thousands.
+- To round to the nearest ten thousand, look at the thousands digit and do the same.
+- After rounding, all the digits to the right become $0$.
+- Examples: $4\,732\approx5\,000$ (nearest thousand); $47\,328\approx50\,000$ (nearest ten thousand).
+- You can check on a number line: the rounded number must be the nearest one of that size.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/seven-times-table – BẢN TIẾNG VIỆT ########
+---
+title: Bảng nhân 7, bảng chia 7
+description: Em học bảng nhân 7 bằng cách cộng thêm 7 hoặc tách 7 = 5 + 2, rồi dùng bảng nhân 7 để chia cho 7 và giải bài toán về tuần lễ.
+minutes: 15
+---
+
+  :::goals
+  - Thuộc và lập được bảng nhân 7.
+  - Dùng bảng nhân 7 để chia cho 7.
+  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
+  :::
+
+[[P1·7d54]]
+Một tuần lễ có $7$ ngày. Hỏi $5$ tuần lễ có bao nhiêu ngày?
+
+[[P2·0543]]
+Em có thể cộng $7+7+7+7+7$, nhưng cộng nhiều lần thì dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $7$.
+
+## Cùng khám phá
+
+[[P3·6047]]
+Mỗi tuần là một nhóm $7$ ngày. Ta cộng dần từng tuần:
+
+[[P4·93d5]]
+- $1$ tuần: $7$ ngày.
+- $2$ tuần: $7+7=14$ ngày.
+- $3$ tuần: $14+7=21$ ngày.
+- $4$ tuần: $21+7=28$ ngày.
+- $5$ tuần: $28+7=35$ ngày.
+
+[[P5·25fd]]
+Vậy $5$ tuần có $35$ ngày, tức là $7\times5=35$. Mỗi lần thêm một tuần, tích tăng thêm $7$.
+
+:::graph Trên tia số: mỗi bước nhảy 7 đơn vị
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·658a]]
+Em còn một mẹo nữa: $7=5+2$, nên $7\times4=5\times4+2\times4=20+8=28$.
+
+  :::theorem Bảng nhân 7
+  Muốn tính $7\times n$, em lấy $7\times(n-1)$ rồi cộng thêm $7$. Em cũng có thể tách $7=5+2$ rồi cộng $5\times n$ với $2\times n$.
+
+  | $7\times1$ | $7\times2$ | $7\times3$ | $7\times4$ | $7\times5$ |
+  |---|---|---|---|---|
+  | $7$ | $14$ | $21$ | $28$ | $35$ |
+
+  | $7\times6$ | $7\times7$ | $7\times8$ | $7\times9$ | $7\times10$ |
+  |---|---|---|---|---|
+  | $42$ | $49$ | $56$ | $63$ | $70$ |
+  :::
+
+[[P7·e559]]
+Bảng chia $7$ suy ra từ bảng nhân $7$. Vì $7\times5=35$ nên $35:7=5$. Em chia $35$ ngày thành các tuần $7$ ngày thì được $5$ tuần.
+
+## Ví dụ
+
+[[P8·1a3b]]
+Ta bắt đầu bằng cách lấy tích liền trước cộng thêm $7$.
+
+  :::example Tính $7\times6$
+  **Lời giải.** Em biết $7\times5=35$. Thêm một nhóm $7$ nữa:
+  $$7\times6=7\times5+7=35+7=42.$$
+  Vậy $7\times6=42$.
+  :::
+
+[[P9·a8b5]]
+Bây giờ em dùng mẹo tách $7=5+2$.
+
+  :::example Tính $7\times8$ bằng cách tách $7=5+2$
+  **Lời giải.** $8$ nhóm $7$ gồm $8$ nhóm $5$ và $8$ nhóm $2$:
+  $$7\times8=5\times8+2\times8=40+16=56.$$
+  Vậy $7\times8=56$.
+  :::
+
+[[P10·a1ed]]
+Có khi em lấy tích liền sau rồi bớt đi $7$ sẽ dễ hơn.
+
+  :::example Tính $7\times9$
+  **Lời giải.** Em biết $7\times10=70$. Bớt đi một nhóm $7$:
+  $$7\times9=7\times10-7=70-7=63.$$
+  Vậy $7\times9=63$.
+  :::
+
+[[P11·5d84]]
+Tiếp theo là phép chia.
+
+  :::example Tính $56:7$
+  **Lời giải.** Em tìm số nào nhân $7$ bằng $56$. Trong bảng nhân $7$ ta có $7\times8=56$, nên
+  $$56:7=8.$$
+  **Thử lại.** $7\times8=56$. Đúng.
+
+  Vậy $56:7=8$.
+  :::
+
+[[P12·6c1c]]
+Cuối cùng, em giải một bài toán có lời văn.
+
+  :::example Đổi ngày ra tuần
+  Một chuyến du lịch dài $49$ ngày. Hỏi chuyến du lịch dài bao nhiêu tuần lễ?
+
+  **Lời giải.** Mỗi tuần có $7$ ngày, em chia $49$ ngày thành các nhóm $7$ ngày nên em làm phép chia. Số tuần là:
+  $$49:7=7\ \text{(tuần)}.$$
+  **Thử lại.** $7\times7=49$. Đúng.
+
+  Vậy chuyến du lịch dài $7$ tuần.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·fc72]]
+- **Lấy thiếu một nhóm.** Sai: $7\times6=36$. Vì sao sai: $36$ là $6\times6$, em chưa đủ $7$ nhóm. Đúng: $7\times6=35+7=42$.
+- **Cộng thay cho nhân.** Sai: $7\times3=10$. Vì sao sai: $7+3$ là phép cộng, còn $7\times3$ là $3$ nhóm $7$. Đúng: $7\times3=21$.
+- **Chia nhầm.** Sai: $56:7=7$. Vì sao sai: $7\times7=49$, không phải $56$. Đúng: $7\times8=56$ nên $56:7=8$.
+- **Quên đơn vị.** Sai: "Đáp số: $7$". Đúng: "Đáp số: $7$ tuần".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bảng nhân 7 | 7 times table
+  - bảng chia 7 | division facts for 7
+  - thừa số | factor
+  - tích | product
+  - số bị chia | dividend
+  - số chia | divisor
+  - thương | quotient
+  - tuần lễ | week
+  :::
+
+## Tóm tắt
+
+[[P14·c377]]
+- Bảng nhân $7$: $7,\ 14,\ 21,\ 28,\ 35,\ 42,\ 49,\ 56,\ 63,\ 70$.
+- Mỗi lần thêm một nhóm, tích tăng thêm $7$: $7\times n=7\times(n-1)+7$.
+- Mẹo: $7=5+2$ nên $7\times n=5\times n+2\times n$.
+- Từ $7\times a=b$ ta có $b:7=a$ và $b:a=7$.
+- Một tuần lễ có $7$ ngày; ghi đơn vị trong đáp số và thử lại phép chia bằng phép nhân.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/seven-times-table – BẢN TIẾNG ANH ########
+---
+title: The 7 times table and dividing by 7
+description: Learn the 7 times table by adding 7 each time or splitting 7 = 5 + 2, then use it to divide by 7 and to solve word problems about weeks.
+minutes: 15
+---
+
+  :::goals
+  - Know and build the 7 times table.
+  - Use the 7 times table to divide by 7.
+  - Solve a word problem with one multiplication or one division.
+  :::
+
+[[P1·b610]]
+A week has $7$ days. How many days are there in $5$ weeks?
+
+[[P2·766d]]
+You could add $7+7+7+7+7$, but adding many times is easy to get wrong. This lesson helps you work it out quickly with the $7$ times table.
+
+## Let's explore
+
+[[P3·00e0]]
+Each week is a group of $7$ days. We add one week at a time:
+
+[[P4·9ed1]]
+- $1$ week: $7$ days.
+- $2$ weeks: $7+7=14$ days.
+- $3$ weeks: $14+7=21$ days.
+- $4$ weeks: $21+7=28$ days.
+- $5$ weeks: $28+7=35$ days.
+
+[[P5·ead7]]
+So $5$ weeks have $35$ days, that is $7\times5=35$. Each new week adds $7$ to the product.
+
+:::graph On the number line: every jump is 7
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·78f9]]
+Here is one more trick: $7=5+2$, so $7\times4=5\times4+2\times4=20+8=28$.
+
+  :::theorem The 7 times table
+  To work out $7\times n$, take $7\times(n-1)$ and add $7$. You can also split $7=5+2$ and add $5\times n$ and $2\times n$.
+
+  | $7\times1$ | $7\times2$ | $7\times3$ | $7\times4$ | $7\times5$ |
+  |---|---|---|---|---|
+  | $7$ | $14$ | $21$ | $28$ | $35$ |
+
+  | $7\times6$ | $7\times7$ | $7\times8$ | $7\times9$ | $7\times10$ |
+  |---|---|---|---|---|
+  | $42$ | $49$ | $56$ | $63$ | $70$ |
+  :::
+
+[[P7·ee2e]]
+The division facts for $7$ come from the $7$ times table. Since $7\times5=35$, we have $35\div7=5$. If you split $35$ days into weeks of $7$ days, you get $5$ weeks.
+
+## Examples
+
+[[P8·5e63]]
+We start by taking the product before and adding $7$.
+
+  :::example Work out $7\times6$
+  **Solution.** You know $7\times5=35$. Add one more group of $7$:
+  $$7\times6=7\times5+7=35+7=42.$$
+  So $7\times6=42$.
+  :::
+
+[[P9·67e6]]
+Now use the trick of splitting $7=5+2$.
+
+  :::example Work out $7\times8$ by splitting $7=5+2$
+  **Solution.** $8$ groups of $7$ are $8$ groups of $5$ and $8$ groups of $2$:
+  $$7\times8=5\times8+2\times8=40+16=56.$$
+  So $7\times8=56$.
+  :::
+
+[[P10·40cd]]
+Sometimes it is easier to take the next product and subtract $7$.
+
+  :::example Work out $7\times9$
+  **Solution.** You know $7\times10=70$. Take away one group of $7$:
+  $$7\times9=7\times10-7=70-7=63.$$
+  So $7\times9=63$.
+  :::
+
+[[P11·87cc]]
+Next, division.
+
+  :::example Work out $56\div7$
+  **Solution.** Ask: which number times $7$ makes $56$? In the $7$ times table, $7\times8=56$, so
+  $$56\div7=8.$$
+  **Check.** $7\times8=56$. Correct.
+
+  So $56\div7=8$.
+  :::
+
+[[P12·4169]]
+Finally, a word problem.
+
+  :::example Days into weeks
+  A trip lasts $49$ days. How many weeks is that?
+
+  **Solution.** A week has $7$ days, and we split $49$ days into groups of $7$, so we divide. The number of weeks is:
+  $$49\div7=7\ \text{(weeks)}.$$
+  **Check.** $7\times7=49$. Correct.
+
+  So the trip lasts $7$ weeks.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·461f]]
+- **Taking one group too few.** Wrong: $7\times6=36$. Why it is wrong: $36$ is $6\times6$, so you have only $6$ groups. Right: $7\times6=35+7=42$.
+- **Adding instead of multiplying.** Wrong: $7\times3=10$. Why it is wrong: $7+3$ is an addition, but $7\times3$ means $3$ groups of $7$. Right: $7\times3=21$.
+- **Dividing wrongly.** Wrong: $56\div7=7$. Why it is wrong: $7\times7=49$, not $56$. Right: $7\times8=56$, so $56\div7=8$.
+- **Forgetting the unit.** Wrong: "Answer: $7$". Right: "Answer: $7$ weeks".
+:::
+
+## Key terms
+
+  :::terms
+  - 7 times table | bảng nhân 7
+  - division facts for 7 | bảng chia 7
+  - factor | thừa số
+  - product | tích
+  - dividend | số bị chia
+  - divisor | số chia
+  - quotient | thương
+  - week | tuần lễ
+  :::
+
+## Summary
+
+[[P14·5e0d]]
+- The $7$ times table: $7,\ 14,\ 21,\ 28,\ 35,\ 42,\ 49,\ 56,\ 63,\ 70$.
+- Each new group adds $7$ to the product: $7\times n=7\times(n-1)+7$.
+- Trick: $7=5+2$, so $7\times n=5\times n+2\times n$.
+- From $7\times a=b$ we get $b\div7=a$ and $b\div a=7$.
+- A week has $7$ days; write the unit in the answer and check a division with a multiplication.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

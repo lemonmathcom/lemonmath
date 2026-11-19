@@ -1,0 +1,1486 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-10-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-10-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Kinangtoan-10-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g1/position-and-direction, g1/squares-circles-triangles-rectangles, g1/subtract-1-digit-from-2-digit, g1/subtract-2-digit-numbers
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Kinangtoan-10-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Kinangtoan-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Kinangtoan-10-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g1/position-and-direction – BẢN TIẾNG VIỆT ########
+---
+title: Vị trí, định hướng trong không gian
+description: Em dùng các từ trên, dưới, trái, phải, trước, sau, ở giữa để nói vị trí của đồ vật và của bạn bè.
+minutes: 15
+---
+
+  :::goals
+  - Dùng các từ trên, dưới, bên trái, bên phải để nói vị trí.
+  - Dùng các từ trước, sau, ở giữa để nói vị trí trong hàng.
+  - Nói và hiểu đúng vị trí của đồ vật và của bạn bè.
+  :::
+
+[[P1·5826]]
+Lan, Mai và Nam xếp hàng vào lớp. Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+
+[[P2·15e5]]
+Em đã biết các hình khối. Bài này em học cách nói đồ vật ở đâu bằng những từ chỉ vị trí.
+
+## Cùng khám phá
+
+[[P3·9024]]
+Em nhìn ba hình xếp thành hàng ngang.
+
+:::diagram Ba hình xếp hàng ngang
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·e45e]]
+- Hình vuông ở bên trái hình tròn.
+- Hình tam giác ở bên phải hình tròn.
+- Hình tròn ở giữa hình vuông và hình tam giác.
+
+[[P5·8dae]]
+Bây giờ em nhìn ba hình xếp thành hàng dọc.
+
+:::diagram Ba hình xếp hàng dọc
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·0612]]
+- Hình tam giác ở trên hình vuông.
+- Hình tròn ở dưới hình vuông.
+- Hình vuông ở giữa hình tam giác và hình tròn.
+
+  :::theorem Các từ chỉ vị trí
+  1. **Trái** và **phải**: em giơ tay phải là tay cầm bút, tay còn lại là tay trái.
+  2. **Trên** và **dưới**: trên là phía cao, dưới là phía thấp.
+  3. **Trước** và **sau**: trong hàng, người đứng gần đầu hàng hơn thì đứng trước.
+  4. **Ở giữa**: nằm giữa hai đồ vật hoặc hai bạn.
+  :::
+
+[[P7·9f12]]
+Cách này đúng vì các từ này cho em biết một vật nằm ở phía nào so với vật khác.
+
+## Ví dụ
+
+[[P8·4ba5]]
+Ta bắt đầu với hàng ngang.
+
+  :::example Hình bên trái hình tròn
+  Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên trái hình tròn?
+
+  **Lời giải.** Em đọc từ trái sang phải: hình vuông, hình tròn, hình tam giác. Hình đứng trước hình tròn là hình vuông.
+
+  Vậy hình vuông ở bên trái hình tròn.
+  :::
+
+[[P9·f5fe]]
+Tiếp theo em tìm hình ở giữa.
+
+  :::example Hình ở giữa
+  Trong hàng ngang trên, hình nào ở giữa?
+
+  **Lời giải.** Hàng có ba hình. Hình ở giữa có một hình bên trái và một hình bên phải: đó là hình tròn.
+
+  Vậy hình tròn ở giữa.
+  :::
+
+[[P10·dc88]]
+Bây giờ em xem hàng dọc.
+
+  :::example Trên và dưới
+  Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình nào ở trên hình vuông? Hình nào ở dưới hình vuông?
+
+  **Lời giải.** Em đọc từ trên xuống dưới: tam giác, vuông, tròn. Hình tam giác đứng trên hình vuông, hình tròn đứng dưới hình vuông.
+
+  Vậy hình tam giác ở trên và hình tròn ở dưới hình vuông.
+  :::
+
+[[P11·5419]]
+Cuối cùng em trả lời câu hỏi ở đầu bài.
+
+  :::example Xếp hàng vào lớp
+  Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
+
+  **Lời giải.** Thứ tự từ đầu hàng là: Lan, Mai, Nam. Mai có Lan ở trước và Nam ở sau.
+
+  Vậy Mai đứng ở giữa.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·57f9]]
+- **Nhầm trái và phải.** Sai: tay cầm bút là tay trái. Vì sao sai: tay cầm bút của đa số bạn là tay phải. Đúng: nhớ tay cầm bút là tay phải, tay kia là tay trái.
+- **Nhầm trước và sau.** Sai: người đứng cuối hàng đứng trước. Vì sao sai: người gần đầu hàng đứng trước. Đúng: đọc thứ tự từ đầu hàng.
+- **Nhầm ở giữa.** Sai: hình ở bên trái cùng là hình ở giữa. Vì sao sai: hình ở giữa phải có hình ở hai bên. Đúng: tìm hình có một hình bên trái và một hình bên phải.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - trên | above
+  - dưới | below
+  - bên trái | on the left
+  - bên phải | on the right
+  - trước | in front of
+  - sau | behind
+  - ở giữa | in the middle
+  - vị trí | position
+  :::
+
+## Tóm tắt
+
+[[P13·8d21]]
+- Trái – phải: tay cầm bút là tay phải.
+- Trên – dưới: trên là phía cao, dưới là phía thấp.
+- Trước – sau: đọc thứ tự từ đầu hàng.
+- Ở giữa: có một vật ở mỗi bên.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/position-and-direction – BẢN TIẾNG ANH ########
+---
+title: Position and direction in space
+description: Learn to use the words above, below, left, right, in front of, behind and in the middle to say where things and friends are.
+minutes: 15
+---
+
+  :::goals
+  - Use the words above, below, on the left and on the right to say position.
+  - Use the words in front of, behind and in the middle to say position in a line.
+  - Say and understand where things and friends are.
+  :::
+
+[[P1·e72f]]
+Lan, Mai and Nam line up to go into class. Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
+
+[[P2·09f6]]
+You already know some solid shapes. In this lesson you learn to say where things are with words for position.
+
+## Let's explore
+
+[[P3·e205]]
+Look at three shapes in a row.
+
+:::diagram Three shapes in a row
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·bb17]]
+- The square is on the left of the circle.
+- The triangle is on the right of the circle.
+- The circle is in the middle, between the square and the triangle.
+
+[[P5·93c0]]
+Now look at three shapes in a column.
+
+:::diagram Three shapes in a column
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·b832]]
+- The triangle is above the square.
+- The circle is below the square.
+- The square is in the middle, between the triangle and the circle.
+
+  :::theorem Words for position
+  1. **Left** and **right**: the hand you write with is your right hand, and the other is your left hand.
+  2. **Above** and **below**: above is the higher side, below is the lower side.
+  3. **In front of** and **behind**: in a line, the one nearer the start of the line is in front.
+  4. **In the middle**: between two things or two friends.
+  :::
+
+[[P7·624c]]
+This works because these words tell you which side one thing is on compared with another.
+
+## Examples
+
+[[P8·a2b4]]
+We start with the row.
+
+  :::example The shape on the left of the circle
+  In the row (square, circle, triangle from left to right), which shape is on the left of the circle?
+
+  **Solution.** Read from left to right: square, circle, triangle. The shape before the circle is the square.
+
+  So the square is on the left of the circle.
+  :::
+
+[[P9·80ce]]
+Next, find the shape in the middle.
+
+  :::example The shape in the middle
+  In the row above, which shape is in the middle?
+
+  **Solution.** The row has three shapes. The middle one has a shape on its left and a shape on its right: that is the circle.
+
+  So the circle is in the middle.
+  :::
+
+[[P10·75b4]]
+Now look at the column.
+
+  :::example Above and below
+  In the column (triangle, square, circle from top to bottom), which shape is above the square? Which shape is below the square?
+
+  **Solution.** Read from top to bottom: triangle, square, circle. The triangle is above the square and the circle is below the square.
+
+  So the triangle is above and the circle is below the square.
+  :::
+
+[[P11·1d99]]
+Last, answer the question from the start.
+
+  :::example Lining up for class
+  Lan stands in front of Mai, and Mai stands in front of Nam. Who stands in the middle?
+
+  **Solution.** The order from the start of the line is: Lan, Mai, Nam. Mai has Lan in front and Nam behind.
+
+  So Mai stands in the middle.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·6db7]]
+- **Mixing up left and right.** Wrong: the hand you write with is the left hand. Why it is wrong: most children write with the right hand. Right: remember the writing hand is the right hand, the other is the left.
+- **Mixing up in front of and behind.** Wrong: the child at the end of the line is in front. Why it is wrong: the child nearer the start is in front. Right: read the order from the start of the line.
+- **Mixing up the middle.** Wrong: the shape furthest to the left is in the middle. Why it is wrong: the middle one needs a shape on each side. Right: find the shape with one on its left and one on its right.
+:::
+
+## Key terms
+
+  :::terms
+  - above | trên
+  - below | dưới
+  - on the left | bên trái
+  - on the right | bên phải
+  - in front of | trước
+  - behind | sau
+  - in the middle | ở giữa
+  - position | vị trí
+  :::
+
+## Summary
+
+[[P13·0752]]
+- Left and right: the writing hand is the right hand.
+- Above and below: above is higher, below is lower.
+- In front of and behind: read the order from the start of the line.
+- In the middle: there is one thing on each side.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/squares-circles-triangles-rectangles – BẢN TIẾNG VIỆT ########
+---
+title: Hình vuông, hình tròn, hình tam giác, hình chữ nhật
+description: Em nhận biết và gọi tên hình vuông, hình tròn, hình tam giác, hình chữ nhật, biết số cạnh của mỗi hình và tìm các hình quanh em.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết và gọi tên hình vuông, hình tròn, hình tam giác, hình chữ nhật.
+  - Nói được mỗi hình có mấy cạnh.
+  - Tìm được các hình đó trong đồ vật quanh em.
+  :::
+
+[[P1·bccc]]
+Em nhìn quanh lớp: mặt đồng hồ, tờ giấy, khăn tay, biển báo giao thông. Mỗi vật có hình dạng khác nhau. Em gọi tên các hình đó như thế nào?
+
+[[P2·4303]]
+Ở bài trước em đã học cách tách số. Bài này em học nhận biết bốn hình quen thuộc.
+
+## Cùng khám phá
+
+[[P3·5b71]]
+Em nhìn bốn hình dưới đây.
+
+:::diagram Bốn hình: hình vuông, hình chữ nhật, hình tam giác, hình tròn
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·9523]]
+Em chạm ngón tay dọc theo viền của từng hình.
+
+[[P5·1549]]
+- Hình vuông có $4$ cạnh, cả $4$ cạnh dài bằng nhau.
+- Hình chữ nhật có $4$ cạnh: hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau.
+- Hình tam giác có $3$ cạnh và $3$ góc.
+- Hình tròn không có cạnh, viền tròn đều và cong.
+
+  :::theorem Bốn hình quen thuộc
+  1. Hình vuông: $4$ cạnh dài bằng nhau.
+  2. Hình chữ nhật: $4$ cạnh, hai cạnh dài bằng nhau, hai cạnh ngắn bằng nhau.
+  3. Hình tam giác: $3$ cạnh, $3$ góc.
+  4. Hình tròn: không có cạnh, không có góc.
+  :::
+
+[[P6·2b7e]]
+Cách này đúng vì em chỉ cần đếm cạnh và nhìn xem các cạnh dài hay ngắn là gọi được tên hình.
+
+## Ví dụ
+
+[[P7·f178]]
+Ta bắt đầu với một đồ vật quen thuộc.
+
+  :::example Bánh xe
+  Bánh xe đạp có dạng hình gì?
+
+  **Lời giải.** Viền bánh xe cong đều, không có cạnh và không có góc.
+
+  Vậy bánh xe có dạng hình tròn.
+  :::
+
+[[P8·fc2c]]
+Bây giờ em gọi tên hình có cạnh.
+
+  :::example Khăn tay
+  Một chiếc khăn tay có $4$ cạnh, cả $4$ cạnh dài bằng nhau. Khăn có dạng hình gì?
+
+  **Lời giải.** Hình có $4$ cạnh dài bằng nhau là hình vuông.
+
+  Vậy chiếc khăn có dạng hình vuông.
+  :::
+
+[[P9·27b7]]
+Tiếp theo em phân biệt hình chữ nhật.
+
+  :::example Cửa sổ
+  Một cửa sổ có $4$ cạnh. Hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau. Cửa sổ có dạng hình gì?
+
+  **Lời giải.** Hình có $4$ cạnh nhưng các cạnh không bằng nhau hết, chỉ có từng đôi bằng nhau, là hình chữ nhật.
+
+  Vậy cửa sổ có dạng hình chữ nhật.
+  :::
+
+[[P10·4d4a]]
+Cuối cùng em đếm các hình trong một hình ghép.
+
+  :::example Ngôi nhà ghép từ hình
+  Em ghép một ngôi nhà từ một hình vuông (thân nhà) và một hình tam giác (mái nhà). Em đã dùng mấy hình?
+
+  ![Ngôi nhà ghép từ một hình vuông và một hình tam giác](/assets/img/g1/g1-squares-circles-triangles-rectangles-01.svg)
+
+  **Lời giải.** Em đếm: một hình vuông, một hình tam giác. Em đếm: "một, hai".
+
+  Vậy em đã dùng $2$ hình.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·19b5]]
+- **Nhầm hình chữ nhật với hình vuông.** Sai: hình có hai cạnh dài, hai cạnh ngắn là hình vuông. Vì sao sai: hình vuông có cả $4$ cạnh bằng nhau. Đúng: đó là hình chữ nhật.
+- **Nói hình tam giác có $4$ cạnh.** Sai: tam giác có $4$ cạnh. Vì sao sai: tam giác chỉ có $3$ cạnh. Đúng: hình tam giác có $3$ cạnh.
+- **Nói hình tròn có cạnh.** Sai: hình tròn có $1$ cạnh. Vì sao sai: viền hình tròn cong, không có cạnh thẳng. Đúng: hình tròn không có cạnh.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hình vuông | square
+  - hình tròn | circle
+  - hình tam giác | triangle
+  - hình chữ nhật | rectangle
+  - cạnh | side
+  - góc | corner
+  - hình | shape
+  :::
+
+## Tóm tắt
+
+[[P12·301d]]
+- Hình vuông có $4$ cạnh dài bằng nhau.
+- Hình chữ nhật có $4$ cạnh, hai cạnh dài và hai cạnh ngắn.
+- Hình tam giác có $3$ cạnh, $3$ góc.
+- Hình tròn không có cạnh, không có góc.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/squares-circles-triangles-rectangles – BẢN TIẾNG ANH ########
+---
+title: Squares, circles, triangles and rectangles
+description: Learn to spot and name squares, circles, triangles and rectangles, know how many sides each has, and find these shapes around you.
+minutes: 15
+---
+
+  :::goals
+  - Spot and name squares, circles, triangles and rectangles.
+  - Say how many sides each shape has.
+  - Find these shapes in things around you.
+  :::
+
+[[P1·0e7f]]
+Look around the classroom: a clock face, a sheet of paper, a handkerchief, a road sign. Each thing has a different shape. How do you name these shapes?
+
+[[P2·6d6e]]
+In the last lesson you learned to split numbers. In this lesson you learn to spot four familiar shapes.
+
+## Let's explore
+
+[[P3·da03]]
+Look at the four shapes below.
+
+:::diagram Four shapes: a square, a rectangle, a triangle and a circle
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·7c9c]]
+Run your finger along the edge of each shape.
+
+[[P5·9032]]
+- A square has $4$ sides, and all $4$ sides are the same length.
+- A rectangle has $4$ sides: two long sides the same length and two short sides the same length.
+- A triangle has $3$ sides and $3$ corners.
+- A circle has no sides. Its edge is round and curved.
+
+  :::theorem Four familiar shapes
+  1. Square: $4$ sides of the same length.
+  2. Rectangle: $4$ sides, two long sides the same and two short sides the same.
+  3. Triangle: $3$ sides and $3$ corners.
+  4. Circle: no sides and no corners.
+  :::
+
+[[P6·b361]]
+This works because you only need to count the sides and see whether they are long or short to name the shape.
+
+## Examples
+
+[[P7·7b6d]]
+We start with a familiar object.
+
+  :::example A bicycle wheel
+  What shape is a bicycle wheel?
+
+  **Solution.** The edge of the wheel is round and curved, with no sides and no corners.
+
+  So the wheel is a circle.
+  :::
+
+[[P8·1057]]
+Now name a shape with sides.
+
+  :::example A handkerchief
+  A handkerchief has $4$ sides, and all $4$ sides are the same length. What shape is it?
+
+  **Solution.** A shape with $4$ sides of the same length is a square.
+
+  So the handkerchief is a square.
+  :::
+
+[[P9·7d55]]
+Next, tell a rectangle apart.
+
+  :::example A window
+  A window has $4$ sides. Two sides are long and the same, and two sides are short and the same. What shape is it?
+
+  **Solution.** A shape with $4$ sides that are not all the same, but equal in pairs, is a rectangle.
+
+  So the window is a rectangle.
+  :::
+
+[[P10·1d8d]]
+Last, count the shapes in a picture made of shapes.
+
+  :::example A house made of shapes
+  You make a house from one square (the walls) and one triangle (the roof). How many shapes did you use?
+
+  ![A house made from one square and one triangle](/assets/img/g1/g1-squares-circles-triangles-rectangles-01.svg)
+
+  **Solution.** Count: one square, one triangle. You count: "one, two".
+
+  So you used $2$ shapes.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·f769]]
+- **Mixing up a rectangle and a square.** Wrong: a shape with two long sides and two short sides is a square. Why it is wrong: a square has all $4$ sides the same. Right: it is a rectangle.
+- **Saying a triangle has $4$ sides.** Wrong: a triangle has $4$ sides. Why it is wrong: a triangle has only $3$ sides. Right: a triangle has $3$ sides.
+- **Saying a circle has a side.** Wrong: a circle has $1$ side. Why it is wrong: its edge is curved, with no straight side. Right: a circle has no sides.
+:::
+
+## Key terms
+
+  :::terms
+  - square | hình vuông
+  - circle | hình tròn
+  - triangle | hình tam giác
+  - rectangle | hình chữ nhật
+  - side | cạnh
+  - corner | góc
+  - shape | hình
+  :::
+
+## Summary
+
+[[P12·ec68]]
+- A square has $4$ sides of the same length.
+- A rectangle has $4$ sides: two long and two short.
+- A triangle has $3$ sides and $3$ corners.
+- A circle has no sides and no corners.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtract-1-digit-from-2-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép trừ số có hai chữ số cho số có một chữ số
+description: Em học cách trừ số có hai chữ số cho số có một chữ số (không nhớ), ví dụ 27 − 4: trừ ở hàng đơn vị và giữ nguyên hàng chục.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hàng chục và hàng đơn vị của số có hai chữ số, ví dụ $27$.
+  - Trừ số có hai chữ số cho số có một chữ số (không nhớ), ví dụ $27-4$.
+  - Giải bài toán có lời văn bằng một phép trừ.
+  :::
+
+[[P1·c158]]
+Nam có $27$ viên bi. Nam cho bạn $4$ viên bi. Hỏi Nam còn lại bao nhiêu viên bi?
+
+[[P2·f45a]]
+Em có thể đếm lùi từng viên: $26, 25, 24, 23$. Nhưng đếm lùi nhiều viên thì rất lâu. Bài này giúp em trừ nhanh bằng hàng chục và hàng đơn vị.
+
+## Cùng khám phá
+
+[[P3·c7c1]]
+Số $27$ có $2$ chục và $7$ đơn vị.
+
+[[P4·647f]]
+- Nam có $2$ chục viên bi và $7$ viên bi lẻ.
+- Nam cho đi $4$ viên bi lẻ. Các viên bi lẻ còn lại là $7-4=3$ viên.
+- Nam không cho đi bó chục nào, nên vẫn còn $2$ chục.
+
+[[P5·e546]]
+Vậy $2$ chục và $3$ đơn vị là $23$. Ta có $27-4=23$.
+
+:::graph Trên tia số: từ 27, lùi 4 bước về 23
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách trừ số có hai chữ số cho số có một chữ số
+  Muốn tính $27-4$:
+  1. Trừ ở hàng đơn vị: $7-4=3$.
+  2. Giữ nguyên hàng chục: $2$ chục.
+  3. Viết kết quả: $2$ chục và $3$ đơn vị là $23$.
+  :::
+
+[[P6·022d]]
+Cách này đúng vì em chỉ bớt các viên bi lẻ. Số chục không đổi, nên em giữ nguyên hàng chục.
+
+## Ví dụ
+
+[[P7·e6de]]
+Ta bắt đầu với một phép trừ đơn giản nhất.
+
+  :::example Tính $27-4$
+  **Lời giải.** $27$ có $2$ chục và $7$ đơn vị. Ta trừ ở hàng đơn vị: $7-4=3$. Hàng chục giữ nguyên là $2$:
+  $$27-4=23.$$
+  Vậy $27-4=23$.
+  :::
+
+[[P8·e609]]
+Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+
+  :::example Tính $58-6$
+  **Lời giải.** $58$ có $5$ chục và $8$ đơn vị. Trừ ở hàng đơn vị: $8-6=2$. Hàng chục giữ nguyên là $5$:
+  $$58-6=52.$$
+  Vậy $58-6=52$.
+  :::
+
+[[P9·a351]]
+Khi số trừ bằng hàng đơn vị của số bị trừ, hàng đơn vị còn lại $0$.
+
+  :::example Tính $45-5$
+  **Lời giải.** $45$ có $4$ chục và $5$ đơn vị. Trừ ở hàng đơn vị: $5-5=0$. Hàng chục giữ nguyên là $4$:
+  $$45-5=40.$$
+  Vậy $45-5=40$.
+  :::
+
+[[P10·dfdb]]
+Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Xe buýt
+  Trên xe buýt có $36$ người. Ở bến, $3$ người xuống xe. Hỏi trên xe còn lại bao nhiêu người?
+
+  **Lời giải.** "Xuống xe", "còn lại" nghĩa là bớt đi, nên em làm phép trừ. Trừ ở hàng đơn vị: $6-3=3$. Hàng chục giữ nguyên là $3$:
+  $$36-3=33\ \text{(người)}.$$
+  Vậy trên xe còn lại $33$ người.
+
+  **Kiểm tra.** Thử lại bằng phép cộng: $33+3=36$. Kết quả đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·a719]]
+- **Quên hàng chục.** Sai: $27-4=3$. Vì sao sai: em mới tính $7-4$ mà quên $2$ chục. Đúng: $27-4=23$.
+- **Nhầm phép trừ với phép cộng.** Sai: $27-4=31$. Vì sao sai: em đã cộng $27+4$. Đúng: "còn lại" là bớt đi, nên $27-4=23$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $33$". Đúng: "Đáp số: $33$ người".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép trừ | subtraction
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P12·024f]]
+- Muốn trừ số có hai chữ số cho số có một chữ số (không nhớ), em trừ ở hàng đơn vị và giữ nguyên hàng chục.
+- Ví dụ: $27-4=23$ vì $7-4=3$ và hàng chục vẫn là $2$.
+- Thử lại bằng phép cộng: $23+4=27$.
+- Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtract-1-digit-from-2-digit – BẢN TIẾNG ANH ########
+---
+title: Subtracting a one-digit number from a two-digit number
+description: Learn to subtract a one-digit number from a two-digit number (no regrouping), for example 27 − 4: subtract the ones and keep the tens the same.
+minutes: 15
+---
+
+  :::goals
+  - Name the tens and the ones of a two-digit number, for example $27$.
+  - Subtract a one-digit number from a two-digit number (no regrouping), for example $27-4$.
+  - Solve a word problem with one subtraction.
+  :::
+
+[[P1·73cd]]
+Nam has $27$ marbles. He gives $4$ marbles to a friend. How many marbles does Nam have left?
+
+[[P2·f3c8]]
+You could count back one at a time: $26, 25, 24, 23$. But counting back many marbles takes a long time. This lesson shows you a quicker way, using tens and ones.
+
+## Let's explore
+
+[[P3·bd47]]
+The number $27$ has $2$ tens and $7$ ones.
+
+[[P4·12f2]]
+- Nam has $2$ tens of marbles and $7$ single marbles.
+- He gives away $4$ single marbles. The single marbles left are $7-4=3$.
+- He gives away no group of ten, so he still has $2$ tens.
+
+[[P5·807f]]
+So $2$ tens and $3$ ones make $23$. We have $27-4=23$.
+
+:::graph On the number line: from 27, jump back 4 to reach 23
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to subtract a one-digit number from a two-digit number
+  To work out $27-4$:
+  1. Subtract the ones: $7-4=3$.
+  2. Keep the tens the same: $2$ tens.
+  3. Write the answer: $2$ tens and $3$ ones make $23$.
+  :::
+
+[[P6·a640]]
+This works because you only take away single marbles. The number of tens does not change, so you keep the tens the same.
+
+## Examples
+
+[[P7·b165]]
+We start with the simplest subtraction.
+
+  :::example Work out $27-4$
+  **Solution.** $27$ has $2$ tens and $7$ ones. Subtract the ones: $7-4=3$. Keep the tens the same: $2$:
+  $$27-4=23.$$
+  So $27-4=23$.
+  :::
+
+[[P8·7840]]
+Now a similar subtraction with different numbers.
+
+  :::example Work out $58-6$
+  **Solution.** $58$ has $5$ tens and $8$ ones. Subtract the ones: $8-6=2$. Keep the tens the same: $5$:
+  $$58-6=52.$$
+  So $58-6=52$.
+  :::
+
+[[P9·d782]]
+When the number you subtract equals the ones digit, no ones are left.
+
+  :::example Work out $45-5$
+  **Solution.** $45$ has $4$ tens and $5$ ones. Subtract the ones: $5-5=0$. Keep the tens the same: $4$:
+  $$45-5=40.$$
+  So $45-5=40$.
+  :::
+
+[[P10·2534]]
+Now use subtraction to answer a question from everyday life.
+
+  :::example On the bus
+  There are $36$ people on a bus. At a stop, $3$ people get off. How many people are left on the bus?
+
+  **Solution.** "Get off" and "left" mean taking away, so we subtract. Subtract the ones: $6-3=3$. Keep the tens the same: $3$:
+  $$36-3=33\ \text{(people)}.$$
+  So $33$ people are left on the bus.
+
+  **Check.** Check with addition: $33+3=36$. The answer is correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·e19a]]
+- **Forgetting the tens.** Wrong: $27-4=3$. Why it is wrong: you only worked out $7-4$ and forgot the $2$ tens. Right: $27-4=23$.
+- **Mixing up subtraction and addition.** Wrong: $27-4=31$. Why it is wrong: you worked out $27+4$. Right: "left" means taking away, so $27-4=23$.
+- **No unit in a word problem.** Wrong: "Answer: $33$". Right: "Answer: $33$ people".
+:::
+
+## Key terms
+
+  :::terms
+  - subtraction | phép trừ
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P12·6ac4]]
+- To subtract a one-digit number from a two-digit number (no regrouping), subtract the ones and keep the tens the same.
+- Example: $27-4=23$ because $7-4=3$ and the tens stay $2$.
+- Check with addition: $23+4=27$.
+- Questions with "left" or "take away" usually need subtraction; remember the unit in the answer.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtract-2-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Phép trừ số có hai chữ số cho số có hai chữ số
+description: Em học cách trừ hai số có hai chữ số (không nhớ), ví dụ 57 − 23: trừ hàng chục cho hàng chục, hàng đơn vị cho hàng đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hàng chục và hàng đơn vị của hai số có hai chữ số.
+  - Trừ số có hai chữ số cho số có hai chữ số (không nhớ), ví dụ $57-23$.
+  - Giải bài toán có lời văn bằng một phép trừ.
+  :::
+
+[[P1·5b43]]
+Lan có $57$ cái nhãn dán. Lan tặng bạn $23$ cái. Hỏi Lan còn lại bao nhiêu cái nhãn dán?
+
+[[P2·2d03]]
+Đếm lùi từng cái thì rất lâu. Bài này giúp em trừ nhanh bằng cách tách mỗi số thành hàng chục và hàng đơn vị.
+
+## Cùng khám phá
+
+[[P3·da15]]
+Em đã học ở bài trước: $27-4$ thì trừ ở hàng đơn vị và giữ nguyên hàng chục. Bây giờ ta trừ cả hàng chục.
+
+[[P4·d45f]]
+Ta tách mỗi số thành chục và đơn vị:
+
+| Số | Chục | Đơn vị |
+|---|---|---|
+| $57$ | $5$ | $7$ |
+| $23$ | $2$ | $3$ |
+
+[[P5·68ee]]
+- Trừ hàng đơn vị cho hàng đơn vị: $7-3=4$.
+- Trừ hàng chục cho hàng chục: $5-2=3$.
+- $3$ chục và $4$ đơn vị là $34$.
+
+[[P6·9e07]]
+Vậy $57-23=34$.
+
+:::graph Trên tia số: từ 57, lùi 2 chục về 37, rồi lùi 3 đơn vị về 34
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách trừ hai số có hai chữ số
+  Muốn tính $57-23$:
+  1. Trừ hàng đơn vị cho hàng đơn vị: $7-3=4$.
+  2. Trừ hàng chục cho hàng chục: $5-2=3$.
+  3. Ghép lại: $3$ chục và $4$ đơn vị là $34$.
+  :::
+
+[[P7·7f55]]
+Cách này đúng vì em bớt chục ở phần chục và bớt lẻ ở phần lẻ, nên không bớt thừa hay thiếu cái nhãn dán nào.
+
+## Ví dụ
+
+[[P8·e6de]]
+Ta bắt đầu với một phép trừ đơn giản nhất.
+
+  :::example Tính $57-23$
+  **Lời giải.** Trừ hàng đơn vị: $7-3=4$. Trừ hàng chục: $5-2=3$:
+  $$57-23=34.$$
+  Vậy $57-23=34$.
+  :::
+
+[[P9·e609]]
+Bây giờ ta làm một phép tính giống như vậy, nhưng đổi số.
+
+  :::example Tính $86-41$
+  **Lời giải.** Trừ hàng đơn vị: $6-1=5$. Trừ hàng chục: $8-4=4$:
+  $$86-41=45.$$
+  Vậy $86-41=45$.
+  :::
+
+[[P10·1e85]]
+Khi số trừ là số tròn chục, hàng đơn vị của số bị trừ giữ nguyên.
+
+  :::example Tính $78-30$
+  **Lời giải.** Trừ hàng đơn vị: $8-0=8$. Trừ hàng chục: $7-3=4$:
+  $$78-30=48.$$
+  Vậy $78-30=48$.
+  :::
+
+[[P11·7b08]]
+Ta có thể thử lại một phép trừ bằng phép cộng.
+
+  :::example Tính $95-54$ và thử lại
+  **Lời giải.** Trừ hàng đơn vị: $5-4=1$. Trừ hàng chục: $9-5=4$:
+  $$95-54=41.$$
+  Thử lại bằng phép cộng: $41+54=95$. Kết quả đúng.
+
+  Vậy $95-54=41$.
+  :::
+
+[[P12·dfdb]]
+Bây giờ em dùng phép trừ để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Học sinh nam
+  Lớp có $68$ học sinh, trong đó có $36$ học sinh nữ. Hỏi lớp có bao nhiêu học sinh nam?
+
+  **Lời giải.** Học sinh nam là phần còn lại sau khi bớt học sinh nữ, nên em làm phép trừ. Hàng đơn vị: $8-6=2$. Hàng chục: $6-3=3$:
+  $$68-36=32\ \text{(học sinh)}.$$
+  Vậy lớp có $32$ học sinh nam.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·c13b]]
+- **Quên hàng chục.** Sai: $57-23=4$. Vì sao sai: em mới trừ hàng đơn vị. Đúng: còn $5-2=3$ chục, nên $57-23=34$.
+- **Đảo chục và đơn vị.** Sai: $57-23=43$. Vì sao sai: em viết hàng đơn vị lên trước hàng chục. Đúng: $3$ chục và $4$ đơn vị là $34$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $32$". Đúng: "Đáp số: $32$ học sinh".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép trừ | subtraction
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - số có hai chữ số | two-digit number
+  :::
+
+## Tóm tắt
+
+[[P14·50d2]]
+- Muốn trừ hai số có hai chữ số (không nhớ), em trừ hàng đơn vị cho hàng đơn vị và hàng chục cho hàng chục.
+- Ví dụ: $57-23=34$ vì $7-3=4$ và $5-2=3$.
+- Viết hàng chục trước, hàng đơn vị sau: $3$ chục và $4$ đơn vị là $34$.
+- Thử lại bằng phép cộng: $34+23=57$.
+- Bài toán hỏi "còn lại", "bớt đi" thường là phép trừ; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g1/subtract-2-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Subtracting a two-digit number from a two-digit number
+description: Learn to subtract one two-digit number from another (no regrouping), such as 57 − 23: take tens from tens and ones from ones.
+minutes: 15
+---
+
+  :::goals
+  - Know the tens and the ones of two two-digit numbers.
+  - Subtract a two-digit number from a two-digit number (no regrouping), such as $57-23$.
+  - Solve a word problem with one subtraction.
+  :::
+
+[[P1·f038]]
+Lan has $57$ stickers. Lan gives $23$ stickers to a friend. How many stickers does Lan have left?
+
+[[P2·5d9b]]
+Counting back one by one takes a long time. This lesson helps you subtract quickly by splitting each number into tens and ones.
+
+## Let's explore
+
+[[P3·21da]]
+You learned in the last lesson: for $27-4$, you subtract in the ones and keep the tens the same. Now we subtract the tens as well.
+
+[[P4·2321]]
+We split each number into tens and ones:
+
+| Number | Tens | Ones |
+|---|---|---|
+| $57$ | $5$ | $7$ |
+| $23$ | $2$ | $3$ |
+
+[[P5·7eb8]]
+- Take ones from ones: $7-3=4$.
+- Take tens from tens: $5-2=3$.
+- $3$ tens and $4$ ones make $34$.
+
+[[P6·6d09]]
+So $57-23=34$.
+
+:::graph On a number line: from 57, go back 2 tens to 37, then back 3 ones to 34
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to subtract two two-digit numbers
+  To work out $57-23$:
+  1. Take ones from ones: $7-3=4$.
+  2. Take tens from tens: $5-2=3$.
+  3. Put them together: $3$ tens and $4$ ones make $34$.
+  :::
+
+[[P7·0c0f]]
+This works because you take tens away from the tens and single ones away from the ones, so you never take away too many or too few stickers.
+
+## Examples
+
+[[P8·54c1]]
+We start with the simplest kind of subtraction.
+
+  :::example Work out $57-23$
+  **Solution.** Ones: $7-3=4$. Tens: $5-2=3$:
+  $$57-23=34.$$
+  So $57-23=34$.
+  :::
+
+[[P9·47f1]]
+Now we do the same kind of subtraction with different numbers.
+
+  :::example Work out $86-41$
+  **Solution.** Ones: $6-1=5$. Tens: $8-4=4$:
+  $$86-41=45.$$
+  So $86-41=45$.
+  :::
+
+[[P10·55dc]]
+When the number you take away is a multiple of ten, the ones of the first number stay the same.
+
+  :::example Work out $78-30$
+  **Solution.** Ones: $8-0=8$. Tens: $7-3=4$:
+  $$78-30=48.$$
+  So $78-30=48$.
+  :::
+
+[[P11·c791]]
+You can check a subtraction with an addition.
+
+  :::example Work out $95-54$ and check
+  **Solution.** Ones: $5-4=1$. Tens: $9-5=4$:
+  $$95-54=41.$$
+  Check with an addition: $41+54=95$. The answer is right.
+
+  So $95-54=41$.
+  :::
+
+[[P12·2534]]
+Now use subtraction to answer a question from everyday life.
+
+  :::example Boys in the class
+  A class has $68$ pupils, and $36$ of them are girls. How many boys are in the class?
+
+  **Solution.** The boys are what is left after taking away the girls, so you subtract. Ones: $8-6=2$. Tens: $6-3=3$:
+  $$68-36=32\ \text{(pupils)}.$$
+  So the class has $32$ boys.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·619a]]
+- **Forgetting the tens.** Wrong: $57-23=4$. Why it is wrong: you only subtracted the ones. Right: there are still $5-2=3$ tens, so $57-23=34$.
+- **Swapping tens and ones.** Wrong: $57-23=43$. Why it is wrong: you wrote the ones before the tens. Right: $3$ tens and $4$ ones make $34$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $32$". Right: "Answer: $32$ pupils".
+:::
+
+## Key terms
+
+  :::terms
+  - subtraction | phép trừ
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - two-digit number | số có hai chữ số
+  :::
+
+## Summary
+
+[[P14·a7f4]]
+- To subtract two two-digit numbers (no regrouping), take ones from ones and tens from tens.
+- Example: $57-23=34$ because $7-3=4$ and $5-2=3$.
+- Write the tens first, then the ones: $3$ tens and $4$ ones make $34$.
+- Check with an addition: $34+23=57$.
+- Word problems that ask "how many are left" or "how many after taking away" usually need a subtraction; remember to write the unit in the answer.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

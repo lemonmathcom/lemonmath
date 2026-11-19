@@ -129,7 +129,7 @@ def remaining():
     rows = []
     for ln in open(TABLE, encoding='utf-8'):
         m = re.match(r'^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|\s*$', ln)
-        if m and (not m.group(3) or m.group(3).startswith('giao ChatGPT')):
+        if m and (not m.group(3) or m.group(3).startswith('giao')):
             rows.append((int(m.group(1)), m.group(2)))
     return rows
 

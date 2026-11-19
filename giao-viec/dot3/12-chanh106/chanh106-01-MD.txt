@@ -1,0 +1,1200 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-01-MD   |   VIỆC: gắn mức độ nhận thức (MD-11)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-01-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-11 – gắn mức độ nhận thức cho 140 câu hỏi (Lớp 8 → Lớp 8)
+
+Tài khoản thực hiện: chanh106
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-11 (140 câu)
+
+## Các câu hỏi
+
+### M233 · Lớp 8 · Đường trung bình của tam giác
+
+[M233.1] Nhiều lựa chọn
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $BC=20$ cm. Độ dài $DE$ bằng
+A. $5$ cm.
+B. $40$ cm.
+C. $10$ cm.
+D. $20$ cm.
+::key C
+$DE$ là đường trung bình nên $DE=\dfrac12BC=10$ cm. A là một phần tư của $BC$, B là $2BC$ và D là chính $BC$.
+
+[M233.2] Nhiều lựa chọn
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=6$ cm. Độ dài $BC$ bằng
+A. $3$ cm.
+B. $18$ cm.
+C. $6$ cm.
+D. $12$ cm.
+::key D
+$BC=2DE=12$ cm. A là một nửa của $DE$, C là chính $DE$ và B là $3DE$.
+
+[M233.3] Nhiều lựa chọn
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$. Khẳng định nào sau đây đúng?
+A. $DE\parallel BC$ và $DE=\dfrac12BC$.
+B. $DE\parallel BC$ và $DE=BC$.
+C. $DE\parallel AC$ và $DE=\dfrac12AC$.
+D. $DE\parallel AB$ và $DE=\dfrac12AB$.
+::key A
+Đường trung bình $DE$ song song với cạnh thứ ba $BC$ và bằng nửa $BC$. A, C nhầm cạnh song song và B thiếu một nửa.
+
+[M233.4] Nhiều lựa chọn
+Tam giác $ABC$ có chu vi $24$ cm. Tam giác tạo bởi ba trung điểm của ba cạnh có chu vi bằng
+A. $6$ cm.
+B. $12$ cm.
+C. $24$ cm.
+D. $48$ cm.
+::key B
+Mỗi cạnh của tam giác trung điểm bằng nửa cạnh tương ứng nên chu vi bằng $24:2=12$ cm. B là $24:4$, C là chu vi ban đầu và D là $2\cdot24$.
+
+[M233.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ có $BC=16$ cm; $M$, $N$ là trung điểm của $AB$, $AC$.
+a) $MN\parallel BC$.
+b) $MN=16$ cm.
+c) $AM=\dfrac12AB$.
+d) $MN\parallel AB$.
+::key Đ S Đ S
+a) Đúng: $MN$ là đường trung bình ứng với $BC$. b) Sai: $MN=\dfrac12BC=8$ cm. c) Đúng: $M$ là trung điểm của $AB$. d) Sai: $MN$ cắt $AB$ tại $M$ nên không song song với $AB$.
+
+[M233.6] Trả lời ngắn
+Tam giác $ABC$ có $AB=10$ cm, $AC=14$ cm và $BC=16$ cm. Gọi $D$, $E$, $F$ là trung điểm của $AB$, $AC$, $BC$. Tính chu vi tam giác $DEF$ (cm).
+::key 20
+Chu vi tam giác $ABC$ là $10+14+16=40$ cm, nên chu vi tam giác $DEF$ là $40:2=20$ cm.
+
+[M233.7] Trả lời ngắn
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=4{,}5$ cm. Tính $BC$ (cm).
+::key 9
+$BC=2DE=2\cdot4{,}5=9$ cm.
+
+### M234 · Lớp 8 · Tính chất đường phân giác của tam giác
+
+[M234.1] Nhiều lựa chọn
+Cho tam giác $ABC$ có $AB=6$, $AC=10$, $BC=12$. Đường phân giác $AD$ ($D\in BC$). Độ dài $DB$ bằng
+A. $7{,}5$.
+B. $7{,}2$.
+C. $6$.
+D. $4{,}5$.
+::key D
+$DB=12\cdot\dfrac{6}{16}=4{,}5$. A là $DC$, C là nửa $BC$ (nhầm $D$ là trung điểm), B là $BC\cdot\dfrac{AB}{AC}$ (quên cộng ở mẫu).
+
+[M234.2] Nhiều lựa chọn
+Cho tam giác $ABC$ có $AB=9$. Đường phân giác $AD$ ($D\in BC$) có $DB=3$, $DC=5$. Độ dài $AC$ bằng
+A. $15$.
+B. $12$.
+C. $14$.
+D. $5{,}4$.
+::key A
+$\dfrac{AB}{AC}=\dfrac{DB}{DC}$ nên $AC=9\cdot\dfrac53=15$. A viết ngược tỉ số, B và C cộng thay vì nhân.
+
+[M234.3] Nhiều lựa chọn
+Cho tam giác $ABC$ có $AB=AC$. Đường phân giác $AD$ ($D\in BC$). Khẳng định nào sau đây đúng?
+A. $DB=AB$.
+B. $D$ là trung điểm của $BC$.
+C. $AD=AB$.
+D. $DB<DC$.
+::key B
+$\dfrac{DB}{DC}=\dfrac{AB}{AC}=1$ nên $DB=DC$. Các phương án A, C, D không suy ra được từ tính chất đường phân giác.
+
+[M234.4] Nhiều lựa chọn
+Tam giác $ABC$ có $AB=4$, $AC=6$. Đường phân giác $AD$ ($D\in BC$). Biết $S_{ABD}=12$. Diện tích $S_{ACD}$ bằng
+A. $8$.
+B. $16$.
+C. $18$.
+D. $24$.
+::key C
+$\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac23$ nên $S_{ACD}=12\cdot\dfrac32=18$. A viết ngược tỉ số, B cộng $12+4$, D nhân đôi.
+
+[M234.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ có $AB=9$, $AC=12$, $BC=14$. Đường phân giác $AD$ ($D\in BC$). Xét tính đúng sai của các mệnh đề sau:
+a) $D$ là trung điểm của $BC$.
+b) $\dfrac{DB}{DC}=\dfrac34$.
+c) $DB=6$.
+d) $DC=6$.
+::key S Đ Đ S
+a) Sai: $AB\neq AC$ nên $DB\neq DC$. b) Đúng: $\dfrac{DB}{DC}=\dfrac{9}{12}=\dfrac34$. c) Đúng: $DB=14\cdot\dfrac{9}{21}=6$. d) Sai: $DC=14-6=8$.
+
+[M234.6] Trả lời ngắn
+Cho tam giác $ABC$ có $AB=14$ cm, $AC=21$ cm, $BC=25$ cm. Đường phân giác $AD$ ($D\in BC$). Tính $DB$ (đơn vị: cm).
+::key 10
+$DB=25\cdot\dfrac{14}{35}=10$.
+
+[M234.7] Trả lời ngắn
+Cho tam giác $ABC$ có $AB=6$ cm, $AC=8$ cm, $BC=9$ cm. Đường phân giác $AD$ ($D\in BC$). Tính $DC$ (đơn vị: cm, làm tròn đến hàng phần mười).
+::key 5,1
+$DC=9\cdot\dfrac{8}{14}=\dfrac{36}{7}\approx5{,}14$, làm tròn là $5{,}1$.
+
+### M235 · Lớp 8 · Thu thập và phân loại dữ liệu. Biểu diễn dữ liệu bằng bảng, biểu đồ
+
+[M235.1] Nhiều lựa chọn
+Dữ liệu nào sau đây là dữ liệu định lượng?
+A. Màu áo yêu thích.
+B. Số anh chị em của mỗi bạn.
+C. Tên môn học yêu thích.
+D. Số điện thoại của mỗi bạn.
+::key B
+Số anh chị em là số đếm được. A và C là tên gọi, D là số chỉ để gọi tên nên là dữ liệu định tính.
+
+[M235.2] Nhiều lựa chọn
+Để theo dõi sự thay đổi nhiệt độ ngoài trời theo từng giờ trong ngày, nên dùng
+A. bảng chỉ có tổng số.
+B. biểu đồ hình quạt tròn.
+C. biểu đồ đoạn thẳng.
+D. biểu đồ tranh.
+::key C
+Biểu đồ đoạn thẳng cho thấy xu hướng theo thời gian. Biểu đồ hình quạt tròn chỉ cho thấy tỉ lệ các phần của một tổng.
+
+[M235.3] Nhiều lựa chọn
+Điểm kiểm tra (thang $10$) của năm bạn là $8$; $7{,}5$; $9$; $11$; $6$. Giá trị không hợp lí là
+A. $7{,}5$.
+B. $9$.
+C. $6$.
+D. $11$.
+::key D
+Điểm tối đa là $10$ nên $11$ không hợp lí; các giá trị còn lại nằm trong khoảng từ $0$ đến $10$.
+
+[M235.4] Nhiều lựa chọn
+Trong biểu đồ hình quạt tròn, một nhóm chiếm $25\%$. Số đo cung ứng với nhóm đó là
+A. $90^\circ$.
+B. $25^\circ$.
+C. $180^\circ$.
+D. $250^\circ$.
+::key A
+$25\%\cdot360^\circ=90^\circ$. A nhầm phần trăm với độ, D nhân với $10$.
+
+[M235.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Khảo sát $40$ bạn về môn thể thao yêu thích: Bóng đá $14$, Cầu lông $10$, Bóng rổ $6$, Bơi $6$, Khác $4$. Xét tính đúng sai của các mệnh đề sau:
+a) Môn thể thao yêu thích là dữ liệu định lượng.
+b) Tần số tương đối của Bóng đá là $35\%$.
+c) Cung của Cầu lông trong biểu đồ hình quạt tròn là $90^\circ$.
+d) Tổng các tần số tương đối bằng $100\%$.
+::key S Đ Đ Đ
+a) Sai: tên môn thể thao là dữ liệu định tính. b) Đúng: $\dfrac{14}{40}=35\%$. c) Đúng: $\dfrac{10}{40}\cdot360^\circ=90^\circ$. d) Đúng: các nhóm đủ và không trùng nhau.
+
+[M235.6] Trả lời ngắn
+Khảo sát $40$ bạn, có $14$ bạn chọn Bóng đá. Trong biểu đồ hình quạt tròn, cung của Bóng đá có số đo bao nhiêu độ?
+::key 126
+$\dfrac{14}{40}\cdot360^\circ=126^\circ$.
+
+[M235.7] Trả lời ngắn
+Một gia đình chi $15\%$ của $15$ triệu đồng cho học tập. Số tiền đó là bao nhiêu triệu đồng?
+::key 2,25
+$15\cdot0{,}15=2{,}25$ (triệu đồng).
+
+### M236 · Lớp 8 · Phân tích số liệu thống kê dựa vào biểu đồ
+
+[M236.1] Nhiều lựa chọn
+Doanh thu tăng từ $40$ lên $46$ triệu đồng. Phần trăm tăng là
+A. $15\%$.
+B. $13\%$.
+C. $115\%$.
+D. $6\%$.
+::key A
+$\dfrac{46-40}{40}\cdot100\%=15\%$. A lấy hiệu $6$ làm phần trăm, B chia cho giá trị mới ($\dfrac{6}{46}\approx13\%$), C là tỉ số $\dfrac{46}{40}$.
+
+[M236.2] Nhiều lựa chọn
+Biểu đồ hình quạt tròn cho thấy $35\%$ trong $200$ học sinh chọn môn bơi. Số học sinh chọn bơi là
+A. $35$.
+B. $70$.
+C. $5{,}7$.
+D. $165$.
+::key B
+$200\cdot0{,}35=70$. A nhầm phần trăm với số bạn, C chia $200$ cho $35$ thay vì nhân, D là số bạn không chọn bơi.
+
+[M236.3] Nhiều lựa chọn
+Biểu đồ cột có trục đứng bắt đầu từ một giá trị lớn hơn $0$ có thể gây hiểu lầm vì
+A. không đọc được giá trị trên cột.
+B. các cột trở nên bằng nhau.
+C. sự chênh lệch giữa các cột trông lớn hơn thực tế.
+D. tổng các giá trị bị thay đổi.
+::key C
+Chiều cao cột tính từ gốc của trục, nên hiệu nhỏ trông như chênh lệch lớn. Giá trị và tổng không đổi.
+
+[M236.4] Nhiều lựa chọn
+Lớp A có $9$ học sinh giỏi trong $30$ bạn, lớp B có $12$ học sinh giỏi trong $48$ bạn. Khẳng định nào đúng?
+A. Không thể so sánh.
+B. Lớp B có tỉ lệ học sinh giỏi cao hơn, vì $12>9$.
+C. Hai lớp có tỉ lệ bằng nhau.
+D. Lớp A có tỉ lệ học sinh giỏi cao hơn, vì $30\%>25\%$.
+::key D
+$\dfrac{9}{30}=30\%$ và $\dfrac{12}{48}=25\%$. B so sánh số bạn khi sĩ số khác nhau.
+
+[M236.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Số ly bán được (nghìn ly) trong $5$ tháng của quán A là $20$; $24$; $28$; $32$; $36$ và của quán B là $30$; $31$; $29$; $32$; $30$. Xét tính đúng sai của các mệnh đề sau:
+a) Ở tháng $3$, quán A bán nhiều hơn quán B.
+b) Ở tháng $4$, hai quán bán bằng nhau.
+c) Số ly bán được của quán B tăng liên tục qua các tháng.
+d) Ở tháng $5$, quán A bán nhiều hơn quán B $6$ nghìn ly.
+::key S Đ S Đ
+a) Sai: $28<29$. b) Đúng: cùng $32$. c) Sai: tháng $3$ giảm từ $31$ xuống $29$. d) Đúng: $36-30=6$.
+
+[M236.6] Trả lời ngắn
+Lượng mưa tăng từ $100$ mm lên $250$ mm. Phần trăm tăng là bao nhiêu?
+::key 150
+$\dfrac{250-100}{100}\cdot100\%=150\%$.
+
+[M236.7] Trả lời ngắn
+Lượng điện giảm từ $290$ kWh xuống $230$ kWh. Phần trăm giảm là bao nhiêu (làm tròn đến hàng phần mười, bỏ dấu âm)?
+::key 20,7
+$\dfrac{290-230}{290}\cdot100\%\approx20{,}7\%$.
+
+### M237 · Lớp 8 · Phân thức đại số. Tính chất cơ bản của phân thức đại số
+
+[M237.1] Nhiều lựa chọn
+Điều kiện xác định của phân thức $\dfrac{x+1}{x^2-9}$ là
+A. $x\neq3$.
+B. $x\neq3$ và $x\neq-3$.
+C. $x\neq9$.
+D. $x\neq-3$.
+::key B
+$x^2-9=(x-3)(x+3)\neq0$ nên $x\neq3$ và $x\neq-3$. A và D chỉ loại một giá trị, C nhầm $x^2=9$ với $x=9$.
+
+[M237.2] Nhiều lựa chọn
+Phân thức nào sau đây bằng phân thức $\dfrac{x+2}{x-1}$?
+A. $\dfrac{x+2+x}{x-1+x}$.
+B. $\dfrac{x^2+2}{x^2-1}$.
+C. $\dfrac{x^2+2x}{x^2-x}$.
+D. $\dfrac{x+2}{1-x}$.
+::key C
+Nhân cả tử và mẫu với $x$ được $\dfrac{x^2+2x}{x^2-x}$. A cộng $x$ vào tử và mẫu, B bình phương từng số hạng, D đổi dấu mẫu mà không đổi dấu tử.
+
+[M237.3] Nhiều lựa chọn
+Rút gọn $\dfrac{6x^2y}{9xy^2}$ ta được
+A. $\dfrac23$.
+B. $\dfrac{2y}{3x}$.
+C. $\dfrac{2x^2}{3y^2}$.
+D. $\dfrac{2x}{3y}$.
+::key D
+Chia tử và mẫu cho $3xy$ được $\dfrac{2x}{3y}$. B nhầm vị trí, C và A chia sai nhân tử.
+
+[M237.4] Nhiều lựa chọn
+Với $x\neq3$, giá trị của $\dfrac{x-3}{3-x}$ bằng
+A. $-1$.
+B. $x$.
+C. $0$.
+D. $1$.
+::key A
+$3-x=-(x-3)$ nên phân thức bằng $-1$. A quên đổi dấu, C nhầm tử bằng $0$.
+
+[M237.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phân thức $P=\dfrac{x^2-4}{x+2}$. Xét tính đúng sai của các mệnh đề sau:
+a) Điều kiện xác định của $P$ là $x\neq-2$.
+b) $P=x-2$ với mọi $x\neq-2$.
+c) Giá trị của $P$ tại $x=3$ bằng $5$.
+d) $P$ và $x-2$ là hai phân thức bằng nhau.
+::key Đ Đ S Đ
+a) Đúng: $x+2\neq0$. b) Đúng: $\dfrac{(x-2)(x+2)}{x+2}=x-2$. c) Sai: $\dfrac{9-4}{3+2}=1$, không phải $5$. d) Đúng: $(x^2-4)\cdot1=(x+2)(x-2)$.
+
+[M237.6] Trả lời ngắn
+Tính giá trị của phân thức $\dfrac{3x-1}{x-2}$ tại $x=4$ (viết dưới dạng số thập phân).
+::key 5,5
+$\dfrac{3\cdot4-1}{4-2}=\dfrac{11}{2}=5{,}5$.
+
+[M237.7] Trả lời ngắn
+Chi phí in $x$ tờ rơi là $200\,000+5\,000x$ đồng. Chi phí trung bình mỗi tờ khi in $400$ tờ là bao nhiêu đồng?
+::key 5500
+$\dfrac{200\,000+5\,000\cdot400}{400}=\dfrac{2\,200\,000}{400}=5\,500$.
+
+### M238 · Lớp 8 · Phép cộng và phép trừ phân thức đại số
+
+[M238.1] Nhiều lựa chọn
+Kết quả của $\dfrac{2x+3}{x-1}+\dfrac{x-4}{x-1}$ là
+A. $\dfrac{3x-1}{2x-2}$.
+B. $\dfrac{3x-1}{x-1}$.
+C. $\dfrac{3x+7}{x-1}$.
+D. $\dfrac{3x-1}{x^2-1}$.
+::key B
+Cùng mẫu thì cộng tử: $2x+3+x-4=3x-1$. A cộng cả mẫu, C sai dấu của $-4$, D đổi mẫu.
+
+[M238.2] Nhiều lựa chọn
+Kết quả của $\dfrac{5x+2}{x}-\dfrac{2x-1}{x}$ là
+A. $\dfrac{3x+1}{x}$.
+B. $\dfrac{7x+1}{x}$.
+C. $\dfrac{3x+3}{x}$.
+D. $3$.
+::key C
+$5x+2-(2x-1)=3x+3$. A quên đổi dấu của $-1$, B cộng thay vì trừ, D rút gọn sai.
+
+[M238.3] Nhiều lựa chọn
+Kết quả của $\dfrac1x+\dfrac1{x+1}$ là
+A. $\dfrac{2}{2x+1}$.
+B. $\dfrac{1}{x(x+1)}$.
+C. $\dfrac{2x}{x(x+1)}$.
+D. $\dfrac{2x+1}{x(x+1)}$.
+::key D
+$\dfrac{x+1}{x(x+1)}+\dfrac{x}{x(x+1)}=\dfrac{2x+1}{x(x+1)}$. A cộng tử với tử, mẫu với mẫu; B quên nhân tử; C nhầm tử.
+
+[M238.4] Nhiều lựa chọn
+Mẫu thức chung của $\dfrac{1}{x-2}$ và $\dfrac{3}{x^2-4}$ là
+A. $x^2-4$.
+B. $(x-2)(x^2-4)$.
+C. $x-2$.
+D. $x+2$.
+::key A
+$x^2-4=(x-2)(x+2)$ đã chứa nhân tử $x-2$, nên MTC là $x^2-4$. B nhân thừa nhân tử $x-2$.
+
+[M238.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $P=\dfrac{1}{x-2}-\dfrac{4}{x^2-4}$ ($x\neq\pm2$). Xét tính đúng sai của các mệnh đề sau:
+a) Mẫu thức chung của hai phân thức là $(x-2)(x+2)$.
+b) $P=\dfrac{x-3}{x^2-4}$.
+c) $P=\dfrac{1}{x+2}$.
+d) Giá trị của $P$ tại $x=3$ bằng $\dfrac15$.
+::key Đ S Đ Đ
+a) Đúng: $x^2-4=(x-2)(x+2)$. b) Sai: tử là $(x+2)-4=x-2$, không phải $x-3$. c) Đúng: $\dfrac{x-2}{(x-2)(x+2)}=\dfrac1{x+2}$. d) Đúng: $\dfrac{1}{3+2}=\dfrac15$.
+
+[M238.6] Trả lời ngắn
+Hai vòi nước chảy đầy bể sau $6$ giờ và $9$ giờ. Mỗi giờ cả hai vòi chảy được bao nhiêu phần bể? (làm tròn đến hàng phần trăm)
+::key 0,28
+$\dfrac16+\dfrac19=\dfrac{5}{18}\approx0{,}28$.
+
+[M238.7] Trả lời ngắn
+Một xe đi $60$ km với vận tốc $40$ km/h rồi về $60$ km với vận tốc $50$ km/h. Tổng thời gian đi và về là bao nhiêu giờ?
+::key 2,7
+$\dfrac{60}{40}+\dfrac{60}{50}=1{,}5+1{,}2=2{,}7$.
+
+### M239 · Lớp 8 · Phép nhân và phép chia phân thức đại số
+
+[M239.1] Nhiều lựa chọn
+Kết quả của $\dfrac{4x^2}{9y}\cdot\dfrac{3y^2}{8x}$ là
+A. $\dfrac{xy}{6}$.
+B. $\dfrac{x}{6y}$.
+C. $\dfrac{6}{xy}$.
+D. $\dfrac{x^2y}{6}$.
+::key A
+$\dfrac{12x^2y^2}{72xy}=\dfrac{xy}{6}$. A không rút gọn hết $x$, B và C nhầm lũy thừa của $y$ và vị trí tử, mẫu.
+
+[M239.2] Nhiều lựa chọn
+Phân thức nghịch đảo của $\dfrac{x+1}{x-3}$ ($x\neq-1$) là
+A. $-\dfrac{x+1}{x-3}$.
+B. $\dfrac{x-3}{x+1}$.
+C. $\dfrac{x+1}{3-x}$.
+D. $\dfrac{x-3}{x-1}$.
+::key B
+Nghịch đảo là đổi chỗ tử và mẫu. B là phân thức đối, C đổi dấu mẫu mà không đảo, D sai tử.
+
+[M239.3] Nhiều lựa chọn
+Kết quả của $\dfrac{x}{x+1}:\dfrac{x^2}{x^2-1}$ là
+A. $\dfrac{x^3}{(x+1)(x^2-1)}$.
+B. $\dfrac{x}{x-1}$.
+C. $\dfrac{x-1}{x}$.
+D. $\dfrac{x+1}{x}$.
+::key C
+$\dfrac{x}{x+1}\cdot\dfrac{(x-1)(x+1)}{x^2}=\dfrac{x-1}{x}$. A nhân mà không lật ngược số chia, B và D nhầm nhân tử.
+
+[M239.4] Nhiều lựa chọn
+Với $x>2$, tích $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ bằng
+A. $x+2$.
+B. $x^2-4$.
+C. $\dfrac{x-2}{x}$.
+D. $x-2$.
+::key D
+$\dfrac{(x-2)(x+2)x}{x(x+2)}=x-2$. A và C rút gọn sai, B không rút gọn.
+
+[M239.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $P=\dfrac{x^2-1}{x}\cdot\dfrac{x}{x+1}$ với $x\neq0$ và $x\neq-1$. Xét tính đúng sai của các mệnh đề sau:
+a) $P=x-1$.
+b) Giá trị của $P$ tại $x=3$ bằng $4$.
+c) $P:(x-1)=1$ với $x\neq1$.
+d) $P$ xác định với mọi $x$.
+::key Đ S Đ S
+a) Đúng: $\dfrac{(x-1)(x+1)x}{x(x+1)}=x-1$. b) Sai: $P=3-1=2$. c) Đúng: $(x-1):(x-1)=1$. d) Sai: $P$ không xác định tại $x=0$ và $x=-1$.
+
+[M239.6] Trả lời ngắn
+Tính giá trị của $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ tại $x=5$.
+::key 3
+Tích bằng $x-2=5-2=3$.
+
+[M239.7] Trả lời ngắn
+Xe A đi $120$ km hết $x$ giờ, xe B đi $120$ km hết $x+2$ giờ. Khi $x=4$, xe A nhanh gấp bao nhiêu lần xe B?
+::key 1,5
+$\dfrac{x+2}{x}=\dfrac64=1{,}5$.
+
+### M240 · Lớp 8 · Phương trình bậc nhất một ẩn
+
+[M240.1] Nhiều lựa chọn
+Phương trình nào sau đây là phương trình bậc nhất một ẩn?
+A. $x^2-4=0$.
+B. $0x+5=0$.
+C. $2x-3=0$.
+D. $\dfrac1x=2$.
+::key C
+$2x-3=0$ có dạng $ax+b=0$ với $a=2\neq0$. A có ẩn bậc hai, B có $a=0$, D có ẩn ở mẫu.
+
+[M240.2] Nhiều lựa chọn
+Nghiệm của phương trình $3x-9=0$ là
+A. $-3$.
+B. $9$.
+C. $\dfrac13$.
+D. $3$.
+::key D
+$3x=9$ nên $x=3$. A sai dấu, B quên chia cho $3$, C lấy $\dfrac{1}{3}$ thay vì $\dfrac{9}{3}$.
+
+[M240.3] Nhiều lựa chọn
+Nghiệm của phương trình $5x-2=3x+6$ là
+A. $4$.
+B. $2$.
+C. $8$.
+D. $-4$.
+::key A
+$5x-3x=6+2$ nên $2x=8$ và $x=4$. B quên chia cho $2$, C quên chia, D sai dấu.
+
+[M240.4] Nhiều lựa chọn
+Nghiệm của phương trình $\dfrac{x+1}{2}=\dfrac{x-1}{3}$ là
+A. $5$.
+B. $-5$.
+C. $\dfrac15$.
+D. $-\dfrac15$.
+::key B
+Nhân hai vế với $6$: $3(x+1)=2(x-1)$, tức $3x+3=2x-2$, suy ra $x=-5$. A sai dấu, C và D chia nhầm.
+
+[M240.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $2(x+1)=2x+5$. Xét tính đúng sai của các mệnh đề sau:
+a) Sau khi bỏ ngoặc ta được $2x+2=2x+5$.
+b) Phương trình có đúng một nghiệm.
+c) Phương trình vô nghiệm.
+d) Phương trình $3(x-1)=3x-3$ có vô số nghiệm.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: thu gọn được $0x=3$ nên không có nghiệm nào. c) Đúng: $0x=3$ không có nghiệm. d) Đúng: thu gọn được $0x=0$, đúng với mọi $x$.
+
+[M240.6] Trả lời ngắn
+Nghiệm của phương trình $4x-1=1$ là bao nhiêu?
+::key 0,5
+$4x=2$ nên $x=0{,}5$.
+
+[M240.7] Trả lời ngắn
+Cước taxi: mở cửa $12\,000$ đồng và $14\,000$ đồng mỗi ki-lô-mét. Hành khách trả $96\,000$ đồng thì đã đi bao nhiêu ki-lô-mét?
+::key 6
+$14\,000x+12\,000=96\,000$ nên $x=6$.
+
+### M241 · Lớp 8 · Giải bài toán bằng cách lập phương trình
+
+[M241.1] Nhiều lựa chọn
+Tổng của hai số bằng $40$, hiệu của chúng bằng $6$. Số lớn là
+A. $23$.
+B. $20$.
+C. $17$.
+D. $34$.
+::key A
+Gọi số bé $x$: $x+(x+6)=40$ nên $x=17$ và số lớn là $23$. A là số bé, B là một nửa tổng, D là $40-6$.
+
+[M241.2] Nhiều lựa chọn
+Hình chữ nhật có chu vi $50$ m, chiều dài hơn chiều rộng $5$ m. Chiều rộng là
+A. $15$ m.
+B. $10$ m.
+C. $20$ m.
+D. $12{,}5$ m.
+::key B
+$2(x+x+5)=50$ nên $x=10$. B là chiều dài, C và D nhầm với chu vi chia $2$ hoặc chia $4$.
+
+[M241.3] Nhiều lựa chọn
+Giá một chiếc áo sau khi giảm $20\%$ là $360\,000$ đồng. Giá ban đầu là
+A. $288\,000$ đồng.
+B. $432\,000$ đồng.
+C. $450\,000$ đồng.
+D. $380\,000$ đồng.
+::key C
+$0{,}8x=360\,000$ nên $x=450\,000$. A lấy $360\,000\cdot0{,}8$, B tính $20\%$ của giá sau giảm rồi cộng vào.
+
+[M241.4] Nhiều lựa chọn
+Xe máy đi trước $1$ giờ với vận tốc $40$ km/h; ô tô đi sau với vận tốc $60$ km/h cùng chiều. Ô tô đuổi kịp xe máy sau bao nhiêu giờ kể từ lúc ô tô khởi hành?
+A. $1$ giờ.
+B. $4$ giờ.
+C. $3$ giờ.
+D. $2$ giờ.
+::key D
+$40(x+1)=60x$ nên $x=2$. C là thời gian xe máy đã đi, A và B không thoả phương trình.
+
+[M241.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình chữ nhật có chu vi $60$ m, chiều dài hơn chiều rộng $6$ m. Xét tính đúng sai của các mệnh đề sau:
+a) Nếu gọi chiều rộng là $x$ thì chiều dài là $x-6$.
+b) Phương trình của bài toán là $2x+6=60$.
+c) Chiều rộng là $12$ m.
+d) Diện tích là $216$ m².
+::key S S Đ Đ
+a) Sai: chiều dài hơn nên là $x+6$. b) Sai: phương trình là $2(x+x+6)=60$. c) Đúng: $4x+12=60$ nên $x=12$. d) Đúng: $12\cdot18=216$.
+
+[M241.6] Trả lời ngắn
+Tổng của hai số bằng $65$, hiệu của chúng bằng $11$. Số lớn bằng bao nhiêu?
+::key 38
+$x+(x+11)=65$ nên $x=27$ và số lớn là $38$.
+
+[M241.7] Trả lời ngắn
+Năm nay mẹ $38$ tuổi, con $8$ tuổi. Sau bao nhiêu năm nữa thì tuổi mẹ gấp $3$ lần tuổi con?
+::key 7
+$38+x=3(8+x)$ nên $x=7$.
+
+### M242 · Lớp 8 · Khái niệm hàm số và đồ thị của hàm số
+
+[M242.1] Nhiều lựa chọn
+Đại lượng $y$ là hàm số của $x$ khi
+A. mỗi giá trị của $y$ cho đúng một giá trị của $x$.
+B. mỗi giá trị của $x$ cho đúng một giá trị của $y$.
+C. hai giá trị khác nhau của $x$ luôn cho hai giá trị khác nhau của $y$.
+D. $y$ luôn lớn hơn $x$.
+::key B
+Đó là định nghĩa hàm số. B và C là điều kiện thừa (hàm số vẫn có thể cho cùng $y$ với hai $x$ khác nhau), D không liên quan.
+
+[M242.2] Nhiều lựa chọn
+Cho $f(x)=2x-3$. Giá trị $f(4)$ bằng
+A. $11$.
+B. $1$.
+C. $5$.
+D. $-5$.
+::key C
+$f(4)=2\cdot4-3=5$. A lấy $2\cdot4+3$, B lấy $4-3$, D sai dấu.
+
+[M242.3] Nhiều lựa chọn
+Tập xác định của hàm số $y=\dfrac{5}{x-1}$ là
+A. $x\neq0$.
+B. $x\neq-1$.
+C. mọi số thực.
+D. $x\neq1$.
+::key D
+Mẫu khác $0$: $x-1\neq0$ nên $x\neq1$. A và B sai giá trị loại, C bỏ qua mẫu.
+
+[M242.4] Nhiều lựa chọn
+Điểm nào sau đây thuộc đồ thị hàm số $y=2x-1$?
+A. $(2; 3)$.
+B. $(1; 2)$.
+C. $(0; 1)$.
+D. $(3; 4)$.
+::key A
+$2\cdot2-1=3$ nên $(2; 3)$ thuộc đồ thị. Với A: $2\cdot1-1=1\neq2$; C: $-1\neq1$; D: $5\neq4$.
+
+[M242.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=-x+4$. Xét tính đúng sai của các mệnh đề sau:
+a) Giá trị của hàm số tại $x=0$ là $4$.
+b) Giá trị của hàm số tại $x=2$ là $2$.
+c) Điểm $(4; 0)$ thuộc đồ thị của hàm số.
+d) Điểm $(1; 5)$ thuộc đồ thị của hàm số.
+::key Đ Đ Đ S
+a) Đúng: $-0+4=4$. b) Đúng: $-2+4=2$. c) Đúng: $-4+4=0$. d) Sai: $-1+4=3\neq5$.
+
+[M242.6] Trả lời ngắn
+Cho $f(x)=3x-4$. Tính $f(5)$.
+::key 11
+$f(5)=3\cdot5-4=11$.
+
+[M242.7] Trả lời ngắn
+Bạn đi xe đạp với vận tốc $12$ km/h. Sau bao nhiêu giờ thì đi được $30$ km?
+::key 2,5
+$12t=30$ nên $t=2{,}5$.
+
+### M243 · Lớp 8 · Hàm số bậc nhất và đồ thị của hàm số bậc nhất
+
+[M243.1] Nhiều lựa chọn
+Hàm số nào sau đây là hàm số bậc nhất?
+A. $y=x^2-2$.
+B. $y=5$.
+C. $y=4x-7$.
+D. $y=\dfrac3x$.
+::key C
+A có dạng $y=ax+b$ với $a=4\ne0$. B có $a=0$, còn C và D không có dạng bậc nhất.
+
+[M243.2] Nhiều lựa chọn
+Điểm nào thuộc đồ thị $y=-2x+4$?
+A. $(0; -4)$.
+B. $(-1; 2)$.
+C. $(2; 4)$.
+D. $(1; 2)$.
+::key D
+Với $x=1$, ta có $y=-2+4=2$. Các phương án khác xuất phát từ sai dấu hoặc không thay hoành độ vào công thức.
+
+[M243.3] Nhiều lựa chọn
+Cặp điểm nào thuận tiện để vẽ đồ thị $y=3x+6$ bằng hai giao điểm với các trục?
+A. $(0; 6)$ và $(-2; 0)$.
+B. $(0; 6)$ và $(2; 0)$.
+C. $(0; -6)$ và $(2; 0)$.
+D. $(6; 0)$ và $(0; -2)$.
+::key A
+Cho $x=0$ được $(0; 6)$; cho $y=0$ được $3x+6=0\Rightarrow x=-2$. A và B mắc lỗi về dấu.
+
+[M243.4] Nhiều lựa chọn
+Đồ thị $y=-x+3$ cắt trục hoành tại điểm nào?
+A. $(0; 3)$.
+B. $(3; 0)$.
+C. $(-3; 0)$.
+D. $(0; -3)$.
+::key B
+Trên trục hoành, $y=0$, nên $-x+3=0\Rightarrow x=3$. A là giao điểm với trục tung.
+
+[M243.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=2x-4$.
+a) Đây là hàm số bậc nhất với $a=2$, $b=-4$.
+b) Đồ thị đi qua gốc toạ độ $O$.
+c) Điểm $A(2; 0)$ thuộc đồ thị.
+d) Đồ thị cắt trục tung tại $(0; 4)$.
+::key Đ S Đ S
+a) Đúng theo định nghĩa. b) Sai vì khi $x=0$ thì $y=-4$. c) Đúng vì $2\cdot2-4=0$. d) Sai: giao điểm với trục tung là $(0; -4)$.
+
+[M243.6] Trả lời ngắn
+Cho $y=-3x+7$. Tính $y$ khi $x=2$.
+::key 1
+Thay $x=2$: $y=-3\cdot2+7=1$.
+
+[M243.7] Trả lời ngắn
+Một chuyến giao hàng có chi phí $C=8x+12$ nghìn đồng, trong đó $x$ là số ki-lô-mét. Chi phí là $60$ nghìn đồng thì quãng đường bằng bao nhiêu ki-lô-mét?
+::key 6
+Giải $8x+12=60$ được $8x=48$, nên $x=6$ km.
+
+### M244 · Lớp 8 · Hệ số góc của đường thẳng
+
+[M244.1] Nhiều lựa chọn
+Hệ số góc của đường thẳng $y=4-2x$ là
+A. $4$.
+B. $2$.
+C. $-4$.
+D. $-2$.
+::key D
+Viết $y=-2x+4$ nên $a=-2$. A lấy hệ số tự do, B bỏ dấu, C nhầm cả dấu và giá trị.
+
+[M244.2] Nhiều lựa chọn
+Đường thẳng đi qua $A(1; 2)$ và $B(3; 8)$ có hệ số góc là
+A. $3$.
+B. $6$.
+C. $\dfrac13$.
+D. $2$.
+::key A
+$a=\dfrac{8-2}{3-1}=3$. B quên chia, C đảo tỉ số, D nhầm với $3-1$.
+
+[M244.3] Nhiều lựa chọn
+Cặp đường thẳng nào song song?
+A. $y=2x+1$ và $y=-2x+1$.
+B. $y=2x+1$ và $y=2x-4$.
+C. $y=x+1$ và $y=2x+1$.
+D. $y=2x+1$ và $y=2x+1$.
+::key B
+Hai đường có cùng $a=2$ và $b$ khác nhau. A và C cắt nhau (khác hệ số góc), D trùng nhau.
+
+[M244.4] Nhiều lựa chọn
+Đường thẳng có hệ số góc $-2$ và đi qua $(0; 3)$ có phương trình
+A. $y=3x-2$.
+B. $y=-2x-3$.
+C. $y=-2x+3$.
+D. $y=2x+3$.
+::key C
+Hệ số góc $a=-2$ và tung độ giao điểm với trục tung $b=3$. A đảo hai hệ số, B sai dấu của $b$, D sai dấu của $a$.
+
+[M244.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $d: y=-3x+6$. Xét tính đúng sai của các mệnh đề sau:
+a) Hệ số góc của $d$ là $-3$.
+b) $d$ đi lên từ trái sang phải.
+c) $d$ cắt trục tung tại điểm $(0; 6)$.
+d) $d$ song song với đường thẳng $y=-3x+2$.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: $a=-3<0$ nên $d$ đi xuống. c) Đúng: $x=0$ cho $y=6$. d) Đúng: cùng $a=-3$ và $6\neq2$.
+
+[M244.6] Trả lời ngắn
+Đường thẳng đi qua $A(2; 1)$ và $B(6; 9)$ có hệ số góc bằng bao nhiêu?
+::key 2
+$a=\dfrac{9-1}{6-2}=2$.
+
+[M244.7] Trả lời ngắn
+Đường dốc lên cao $2$ m khi đi ngang $25$ m. Hệ số góc (độ dốc) bằng bao nhiêu?
+::key 0,08
+$\dfrac{2}{25}=0{,}08$.
+
+### M245 · Lớp 8 · Kết quả có thể và kết quả thuận lợi. Cách tính xác suất của biến cố bằng tỉ số
+
+[M245.1] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất để mặt xuất hiện có số chấm lớn hơn $4$ là
+A. $\dfrac16$.
+B. $\dfrac23$.
+C. $\dfrac12$.
+D. $\dfrac13$.
+::key D
+Các kết quả thuận lợi là $5$ và $6$ nên $P=\dfrac26=\dfrac13$. A chỉ đếm một kết quả, C và B đếm sai số kết quả thuận lợi.
+
+[M245.2] Nhiều lựa chọn
+Một hộp có $3$ bi đỏ, $5$ bi xanh, $2$ bi vàng. Lấy một bi. Xác suất để bi lấy được không phải màu đỏ là
+A. $\dfrac{7}{10}$.
+B. $\dfrac37$.
+C. $\dfrac12$.
+D. $\dfrac{3}{10}$.
+::key A
+Có $5+2=7$ bi không đỏ trong $10$ bi nên $P=\dfrac7{10}$. A là xác suất lấy bi đỏ, B lấy $3$ trên $7$, C là xác suất lấy bi xanh.
+
+[M245.3] Nhiều lựa chọn
+Tung một đồng xu cân đối hai lần. Xác suất để hai mặt giống nhau là
+A. $\dfrac13$.
+B. $\dfrac12$.
+C. $\dfrac14$.
+D. $\dfrac34$.
+::key B
+Các kết quả thuận lợi là $SS$ và $NN$, trong $4$ kết quả nên $P=\dfrac24=\dfrac12$. B coi chỉ có $3$ kết quả, C chỉ đếm một kết quả, D là xác suất có ít nhất một mặt ngửa.
+
+[M245.4] Nhiều lựa chọn
+Rút một thẻ từ $20$ thẻ đánh số từ $1$ đến $20$. Xác suất để số trên thẻ chia hết cho $5$ là
+A. $\dfrac14$.
+B. $\dfrac45$.
+C. $\dfrac15$.
+D. $\dfrac1{20}$.
+::key C
+Có $4$ số ($5$, $10$, $15$, $20$) nên $P=\dfrac{4}{20}=\dfrac15$. A tính $\dfrac{5}{20}$, B lấy $\dfrac{4}{5}$, D chỉ đếm một kết quả.
+
+[M245.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Gieo một con xúc xắc cân đối. Xét tính đúng sai của các mệnh đề sau:
+a) Phép thử có $5$ kết quả có thể.
+b) Xác suất xuất hiện mặt có số chấm chẵn bằng $\dfrac12$.
+c) Xác suất xuất hiện mặt có số chấm lớn hơn $6$ bằng $0$.
+d) Xác suất xuất hiện mặt có số chấm là số nguyên tố bằng $\dfrac13$.
+::key S Đ Đ S
+a) Sai: có $6$ kết quả. b) Đúng: $\dfrac36=\dfrac12$. c) Đúng: đó là biến cố không thể. d) Sai: các số nguyên tố là $2$, $3$, $5$ nên xác suất là $\dfrac36=\dfrac12$.
+
+[M245.6] Trả lời ngắn
+Hộp có $20$ phiếu, trong đó $4$ phiếu trúng quà. Bốc một phiếu. Xác suất trúng quà bằng bao nhiêu phần trăm?
+::key 20
+$\dfrac4{20}=\dfrac15=20\%$.
+
+[M245.7] Trả lời ngắn
+Gieo cùng lúc hai con xúc xắc cân đối. Có bao nhiêu kết quả có thể?
+::key 36
+$6\cdot6=36$.
+
+### M246 · Lớp 8 · Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng
+
+[M246.1] Nhiều lựa chọn
+Tung một đồng xu $40$ lần, được $18$ lần ngửa. Xác suất thực nghiệm của mặt ngửa là
+A. $\dfrac{18}{22}$.
+B. $\dfrac{9}{20}$.
+C. $\dfrac12$.
+D. $\dfrac{22}{40}$.
+::key B
+$\dfrac{18}{40}=\dfrac{9}{20}=0{,}45$. A chia cho số lần sấp, C là xác suất lí thuyết, D là xác suất thực nghiệm của mặt sấp.
+
+[M246.2] Nhiều lựa chọn
+Khi số lần thử tăng lên rất nhiều thì xác suất thực nghiệm
+A. xa xác suất lí thuyết hơn.
+B. luôn bằng đúng xác suất lí thuyết.
+C. gần xác suất lí thuyết hơn.
+D. luôn lớn hơn xác suất lí thuyết.
+::key C
+Số lần thử càng lớn, tỉ lệ càng ổn định quanh xác suất lí thuyết, nhưng không nhất thiết bằng đúng.
+
+[M246.3] Nhiều lựa chọn
+Nhà máy kiểm tra $400$ sản phẩm có $8$ sản phẩm lỗi. Dự đoán lô $15\,000$ sản phẩm có khoảng bao nhiêu sản phẩm lỗi?
+A. $8$.
+B. $150$.
+C. $600$.
+D. $300$.
+::key D
+Xác suất thực nghiệm $\dfrac{8}{400}=0{,}02$ nên $15\,000\cdot0{,}02=300$. B và C tính sai tỉ lệ.
+
+[M246.4] Nhiều lựa chọn
+Hộp có $50$ bi đỏ và trắng. Lấy ngẫu nhiên một bi, trả lại, lặp $100$ lần; có $24$ lần lấy được bi đỏ. Ước lượng số bi đỏ là
+A. $12$.
+B. $24$.
+C. $26$.
+D. $6$.
+::key A
+$50\cdot\dfrac{24}{100}=12$. A lấy luôn số lần xuất hiện bi đỏ (quên nhân với tỉ lệ), C và D không theo cách tính nào hợp lí.
+
+[M246.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tung một đồng xu cân đối $10$ lần được $7$ lần ngửa. Xét tính đúng sai của các mệnh đề sau:
+a) Xác suất thực nghiệm của mặt ngửa là $0{,}7$.
+b) Xác suất lí thuyết của mặt ngửa là $0{,}7$.
+c) Kết quả này chứng tỏ đồng xu không cân đối.
+d) Ở lần tung thứ $11$, xác suất ra mặt ngửa vẫn là $\dfrac12$.
+::key Đ S S Đ
+a) Đúng: $\dfrac7{10}$. b) Sai: xác suất lí thuyết là $\dfrac12$. c) Sai: $10$ lần thử quá ít để kết luận. d) Đúng: các lần tung độc lập.
+
+[M246.6] Trả lời ngắn
+Tung một đồng xu $50$ lần, được $27$ lần ngửa. Xác suất thực nghiệm của mặt ngửa là bao nhiêu phần trăm?
+::key 54
+$\dfrac{27}{50}=54\%$.
+
+[M246.7] Trả lời ngắn
+Xác suất một bóng đèn bị hỏng ước lượng là $2\%$. Dự đoán trong lô $20\,000$ bóng có khoảng bao nhiêu bóng hỏng?
+::key 400
+$20\,000\cdot0{,}02=400$.
+
+### M247 · Lớp 8 · Hai tam giác đồng dạng
+
+[M247.1] Nhiều lựa chọn
+Cho $\triangle ABC\sim\triangle MNP$ với $AB=6$ và $MN=4$. Tỉ số đồng dạng của $\triangle MNP$ so với $\triangle ABC$ là
+A. $\dfrac32$.
+B. $\dfrac23$.
+C. $2$.
+D. $\dfrac12$.
+::key B
+$k=\dfrac{MN}{AB}=\dfrac46=\dfrac23$. A lấy ngược tỉ số, C và D không xuất phát từ các cạnh tương ứng.
+
+[M247.2] Nhiều lựa chọn
+Hai tam giác đồng dạng theo tỉ số $3$ thì tỉ số hai chu vi bằng
+A. $9$.
+B. $\dfrac13$.
+C. $3$.
+D. $6$.
+::key C
+Chu vi cũng theo tỉ số đồng dạng $k=3$. A bình phương $k$ (đó là tỉ số diện tích), B lấy ngược, D cộng $3+3$.
+
+[M247.3] Nhiều lựa chọn
+Cho $\triangle ABC$ có $AB=10$, $BC=20$; $M\in AB$ với $AM=4$ và $MN\parallel BC$ ($N\in AC$). Độ dài $MN$ là
+A. $2$.
+B. $5$.
+C. $10$.
+D. $8$.
+::key D
+$k=\dfrac{4}{10}=\dfrac25$ nên $MN=\dfrac25\cdot20=8$. B, C và A không dùng tỉ số $\dfrac25$ của hai tam giác.
+
+[M247.4] Nhiều lựa chọn
+Cho $\triangle ABC\sim\triangle DEF$. Cặp góc bằng nhau là
+A. $\widehat C=\widehat F$.
+B. $\widehat B=\widehat D$.
+C. $\widehat A=\widehat E$.
+D. $\widehat A=\widehat F$.
+::key A
+Thứ tự đỉnh cho $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$, nên $\widehat C=\widehat F$. Các phương án còn lại ghép nhầm đỉnh.
+
+[M247.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $\triangle ABC$ có $AB=3$, $BC=4$, $CA=5$ và $\triangle A'B'C'\sim\triangle ABC$ với $A'B'=6$, $B'C'=8$. Xét tính đúng sai của các mệnh đề sau:
+a) Tỉ số đồng dạng của $\triangle A'B'C'$ so với $\triangle ABC$ bằng $2$.
+b) $C'A'=12$.
+c) Chu vi $\triangle A'B'C'$ bằng $24$.
+d) $\triangle ABC\sim\triangle A'B'C'$ theo tỉ số $2$.
+::key Đ S Đ S
+a) Đúng: $\dfrac63=2$. b) Sai: $C'A'=2\cdot5=10$. c) Đúng: $6+8+10=24$. d) Sai: theo chiều ngược lại tỉ số là $\dfrac12$.
+
+[M247.6] Trả lời ngắn
+Cho $\triangle ABC\sim\triangle MNP$ với $AB=6$, $BC=9$, $MN=4$. Tính $NP$.
+::key 6
+$k=\dfrac46=\dfrac23$ nên $NP=\dfrac23\cdot9=6$.
+
+[M247.7] Trả lời ngắn
+Bạn cao $1{,}6$ m có bóng dài $2$ m; cây có bóng dài $7{,}5$ m. Cây cao bao nhiêu mét?
+::key 6
+$\dfrac{1{,}6}{h}=\dfrac{2}{7{,}5}$ nên $h=6$.
+
+### M248 · Lớp 8 · Ba trường hợp đồng dạng của hai tam giác
+
+[M248.1] Nhiều lựa chọn
+$\triangle ABC$ có các cạnh $4$, $6$, $8$ và $\triangle DEF$ có các cạnh $6$, $9$, $12$. Tỉ số đồng dạng của $\triangle DEF$ so với $\triangle ABC$ là
+A. $\dfrac23$.
+B. $\dfrac32$.
+C. $2$.
+D. $3$.
+::key B
+$\dfrac64=\dfrac96=\dfrac{12}{8}=\dfrac32$. A lấy ngược tỉ số, C và D không phải tỉ số của các cạnh tương ứng.
+
+[M248.2] Nhiều lựa chọn
+Hai tam giác có hai góc lần lượt bằng nhau thì
+A. không đồng dạng.
+B. bằng nhau.
+C. đồng dạng với nhau.
+D. đều là tam giác cân.
+::key C
+Đó là trường hợp g.g. Chúng chưa chắc bằng nhau (có thể to nhỏ khác nhau) và không nhất thiết cân.
+
+[M248.3] Nhiều lựa chọn
+Trong trường hợp c.g.c của hai tam giác đồng dạng, góc bằng nhau phải là góc
+A. đối diện cạnh lớn nhất.
+B. bất kì.
+C. nhọn.
+D. xen giữa hai cặp cạnh tỉ lệ.
+::key D
+Góc phải nằm giữa hai cặp cạnh tỉ lệ. Các phương án còn lại không đảm bảo hai tam giác đồng dạng.
+
+[M248.4] Nhiều lựa chọn
+Cho $\triangle ABC$, $D\in AC$ sao cho $\widehat{ABD}=\widehat{ACB}$, với $AB=10$ và $AD=5$. Độ dài $AC$ là
+A. $20$.
+B. $2{,}5$.
+C. $15$.
+D. $5$.
+::key A
+$AB^2=AD\cdot AC$ nên $AC=\dfrac{100}{5}=20$. C là $DC$, B và D không thoả hệ thức.
+
+[M248.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $\triangle ABC$ có $AB=6$, $AC=9$, $\widehat A=50^\circ$ và $\triangle MNP$ có $MN=4$, $MP=6$, $\widehat M=50^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $\triangle MNP\sim\triangle ABC$ theo trường hợp c.g.c.
+b) Tỉ số đồng dạng của $\triangle MNP$ so với $\triangle ABC$ bằng $\dfrac32$.
+c) $\widehat N=\widehat C$.
+d) Nếu $BC=12$ thì $NP=8$.
+::key Đ S S Đ
+a) Đúng: $\dfrac46=\dfrac69=\dfrac23$ và góc xen giữa bằng nhau. b) Sai: tỉ số là $\dfrac23$. c) Sai: $\widehat N=\widehat B$. d) Đúng: $NP=\dfrac23\cdot12=8$.
+
+[M248.6] Trả lời ngắn
+Cho $\triangle ABC$ có $AB=6$, $AC=9$, $BC=12$ và $\triangle MNP$ có $MN=4$, $MP=6$, $\widehat M=\widehat A$. Tính $NP$.
+::key 8
+$\triangle MNP\sim\triangle ABC$ (c.g.c) với tỉ số $\dfrac23$ nên $NP=\dfrac23\cdot12=8$.
+
+[M248.7] Trả lời ngắn
+Cho $\triangle ABC$, $D\in AC$ với $\widehat{ABD}=\widehat{ACB}$, $AB=10$, $AD=5$. Tính $AC$.
+::key 20
+$AB^2=AD\cdot AC$ nên $AC=\dfrac{100}{5}=20$.
+
+### M249 · Lớp 8 · Định lí Pythagore và ứng dụng
+
+[M249.1] Nhiều lựa chọn
+Tam giác vuông có cạnh huyền $13$ và một cạnh góc vuông $5$. Cạnh góc vuông còn lại là
+A. $8$.
+B. $12$.
+C. $18$.
+D. $\sqrt{194}$.
+::key B
+$13^2-5^2=169-25=144$ nên cạnh còn lại là $12$. A lấy $13-5$, C lấy $13+5$, D cộng các bình phương thay vì trừ.
+
+[M249.2] Nhiều lựa chọn
+Tam giác có ba cạnh nào sau đây là tam giác vuông?
+A. $4$, $5$, $6$.
+B. $5$, $6$, $7$.
+C. $6$, $8$, $10$.
+D. $6$, $7$, $8$.
+::key C
+$6^2+8^2=100=10^2$. Các bộ A, B, D không thoả $a^2+b^2=c^2$.
+
+[M249.3] Nhiều lựa chọn
+Đường chéo của hình chữ nhật có hai cạnh $12$ và $5$ bằng
+A. $60$.
+B. $17$.
+C. $7$.
+D. $13$.
+::key D
+$\sqrt{12^2+5^2}=\sqrt{169}=13$. B cộng hai cạnh, C lấy hiệu, A nhân hai cạnh.
+
+[M249.4] Nhiều lựa chọn
+Đường chéo của hình vuông cạnh $4$ bằng
+A. $4\sqrt2$.
+B. $4$.
+C. $8$.
+D. $2\sqrt2$.
+::key A
+$\sqrt{4^2+4^2}=\sqrt{32}=4\sqrt2$. A là tổng hai cạnh, B là chính cạnh, D chia đôi.
+
+[M249.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ có $AB=9$, $AC=12$, $BC=15$. Xét tính đúng sai của các mệnh đề sau:
+a) Tam giác $ABC$ không phải tam giác vuông.
+b) Tam giác $ABC$ vuông tại $A$.
+c) Diện tích tam giác $ABC$ bằng $54$.
+d) Đường cao kẻ từ $A$ xuống $BC$ bằng $6$.
+::key S Đ Đ S
+a) Sai: $9^2+12^2=225=15^2$ nên tam giác vuông. b) Đúng: góc vuông đối diện cạnh lớn nhất $BC$. c) Đúng: $\dfrac12\cdot9\cdot12=54$. d) Sai: $AH=\dfrac{2\cdot54}{15}=7{,}2$.
+
+[M249.6] Trả lời ngắn
+Tam giác vuông có hai cạnh góc vuông $7$ và $24$. Cạnh huyền bằng bao nhiêu?
+::key 25
+$\sqrt{49+576}=\sqrt{625}=25$.
+
+[M249.7] Trả lời ngắn
+Thang dài $5$ m dựa vào tường, chân thang cách tường $3$ m. Đầu thang cao bao nhiêu mét?
+::key 4
+$\sqrt{25-9}=4$.
+
+### M250 · Lớp 8 · Các trường hợp đồng dạng của hai tam giác vuông
+
+[M250.1] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B}=40^\circ$ và tam giác $DEF$ vuông tại $D$ có $\widehat{E}=50^\circ$. Khẳng định nào sau đây đúng?
+A. $\triangle ABC\backsim\triangle DEF$.
+B. $\triangle ABC\backsim\triangle EDF$.
+C. $\triangle ABC\backsim\triangle DFE$.
+D. Hai tam giác không đồng dạng.
+::key C
+$\widehat{C}=50^\circ=\widehat{E}$ và $\widehat{B}=40^\circ=\widehat{F}$, nên $A\leftrightarrow D$, $B\leftrightarrow F$, $C\leftrightarrow E$. Phương án A ghép sai $B$ với $E$; phương án D cho rằng phải trùng tên góc.
+
+[M250.2] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $BC=10$ và tam giác $MNP$ vuông tại $M$ có $MN=9$, $NP=15$. Độ dài $MP$ bằng
+A. $8$.
+B. $13$.
+C. $18$.
+D. $12$.
+::key D
+$AC=8$ và tỉ số đồng dạng là $\dfrac{15}{10}=\dfrac32$, nên $MP=\dfrac32\cdot8=12$. Phương án A giữ nguyên $AC$, B cộng thêm hiệu $15-10=5$, C nhân đôi $9$.
+
+[M250.3] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$ có $AB=3$, $BC=5$ và tam giác $DEF$ vuông tại $D$ có $DE=12$, $EF=20$. Độ dài $DF$ bằng
+A. $16$.
+B. $4$.
+C. $8$.
+D. $\sqrt{544}$.
+::key A
+Tỉ số là $\dfrac{20}{5}=\dfrac{12}{3}=4$ và $AC=4$, nên $DF=4\cdot4=16$. Phương án B giữ nguyên $AC$, C lấy $EF-DE$, D cộng bình phương hai cạnh thay vì trừ.
+
+[M250.4] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $AC=8$ và đường cao $AH$. Độ dài $BH$ bằng
+A. $4{,}8$.
+B. $3{,}6$.
+C. $6{,}4$.
+D. $5$.
+::key B
+$BC=10$ và $\triangle HBA\backsim\triangle ABC$ cho $BH=\dfrac{AB^2}{BC}=\dfrac{36}{10}=3{,}6$. Phương án A là $AH$, C là $CH$.
+
+[M250.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ vuông tại $A$ có $AB=9$, $AC=12$ và đường cao $AH$. Xét tính đúng sai của các mệnh đề sau:
+a) $\triangle HBA\backsim\triangle ACB$.
+b) $BH=5{,}4$.
+c) $AH=7{,}2$.
+d) $CH=8{,}4$.
+::key S Đ Đ S
+a) Sai: đúng phải là $\triangle HBA\backsim\triangle ABC$ (ghép $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$). b) Đúng: $BC=15$, $BH=\dfrac{81}{15}=5{,}4$. c) Đúng: $AH=\dfrac{9\cdot12}{15}=7{,}2$. d) Sai: $CH=15-5{,}4=9{,}6$.
+
+[M250.6] Trả lời ngắn
+Cho tam giác $ABC$ vuông tại $A$ có $AB=8$, $BC=17$ và tam giác $DEF$ vuông tại $D$ có $DE=24$, $EF=51$. Tính chu vi tam giác $DEF$.
+::key 120
+$AC=\sqrt{17^2-8^2}=15$, tỉ số đồng dạng là $\dfrac{51}{17}=3$ nên $DF=45$. Chu vi là $24+51+45=120$.
+
+[M250.7] Trả lời ngắn
+Nam đứng cách chân một cột cờ $12$ m, mắt cách mặt đất $1{,}5$ m và nhìn thấy đỉnh cột dưới góc $45^\circ$ so với phương nằm ngang. Tính chiều cao của cột cờ (đơn vị: mét).
+::key 13,5
+Tam giác vuông có góc nhọn $45^\circ$ là tam giác vuông cân nên phần cột phía trên tầm mắt cao $12$ m. Chiều cao cột là $12+1{,}5=13{,}5$.
+
+### M251 · Lớp 8 · Hình đồng dạng
+
+[M251.1] Nhiều lựa chọn
+Hai hình chữ nhật nào sau đây đồng dạng?
+A. $4\times6$ và $10\times15$.
+B. $2\times5$ và $6\times10$.
+C. $3\times5$ và $6\times8$.
+D. $5\times5$ và $5\times7$.
+::key A
+$\dfrac{10}4=\dfrac{15}6=2{,}5$. Ở A, $2$ và $1{,}6$ khác nhau; ở B, $3$ và $2$ khác nhau; ở D, hình vuông và hình chữ nhật không vuông có cạnh không tỉ lệ ($1$ và $\frac75$).
+
+[M251.2] Nhiều lựa chọn
+Hình $\mathcal{H}'$ đồng dạng phối cảnh với hình $\mathcal{H}$ tâm $O$, tỉ số $k=2$. Điểm $A$ của $\mathcal{H}$ có $OA=3$ cm. Độ dài $OA'$ bằng
+A. $1{,}5$ cm.
+B. $6$ cm.
+C. $5$ cm.
+D. $9$ cm.
+::key B
+$OA'=k\cdot OA=2\cdot3=6$ cm. Phương án A chia thay vì nhân, C cộng $2$, D nhân với $3$ hai lần.
+
+[M251.3] Nhiều lựa chọn
+Trên bản đồ tỉ lệ $1:50\,000$, đoạn đường dài $4$ cm. Độ dài thực tế của đoạn đường là
+A. $0{,}2$ km.
+B. $20$ km.
+C. $2$ km.
+D. $200$ km.
+::key C
+$4\cdot50\,000=200\,000$ cm $=2$ km. Các phương án khác sai ở việc đổi đơn vị.
+
+[M251.4] Nhiều lựa chọn
+Tam giác $A'B'C'$ đồng dạng phối cảnh với tam giác $ABC$ tỉ số $\dfrac32$ và chu vi tam giác $ABC$ bằng $20$ cm. Chu vi tam giác $A'B'C'$ là
+A. $\dfrac{40}3$ cm.
+B. $23$ cm.
+C. $60$ cm.
+D. $30$ cm.
+::key D
+Tỉ số chu vi bằng tỉ số đồng dạng nên chu vi là $\dfrac32\cdot20=30$. Phương án A dùng tỉ số ngược, B cộng thêm $3$, C nhân với $3$.
+
+[M251.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một tấm ảnh hình chữ nhật $12\ \text{cm}\times18\ \text{cm}$ được phóng to thành tấm ảnh hình chữ nhật mới có chiều rộng $30$ cm và giữ nguyên hình dạng. Xét tính đúng sai của các mệnh đề sau:
+a) Chiều dài mới là $36$ cm.
+b) Tỉ số đồng dạng là $\dfrac52$.
+c) Chu vi tấm ảnh mới là $150$ cm.
+d) Chiều dài mới là $45$ cm.
+::key S Đ Đ Đ
+a) Sai: $36$ là kết quả khi cộng thêm $18$ cm như chiều rộng ($18+18$); phải nhân với tỉ số. b) Đúng: $\dfrac{30}{12}=\dfrac52$. c) Đúng: chu vi cũ là $60$ cm, nhân $\dfrac52$ được $150$ cm. d) Đúng: $18\cdot\dfrac52=45$.
+
+[M251.6] Trả lời ngắn
+Trên bản đồ tỉ lệ $1:20\,000$, một đoạn đường dài $6{,}5$ cm. Tính độ dài thực tế của đoạn đường đó (đơn vị: ki-lô-mét).
+::key 1,3
+$6{,}5\cdot20\,000=130\,000$ cm $=1{,}3$ km.
+
+[M251.7] Trả lời ngắn
+Một bóng đèn nhỏ chiếu sáng một tấm bìa hình vuông cạnh $10$ cm đặt song song với bức tường. Tấm bìa cách đèn $40$ cm, bức tường cách đèn $160$ cm. Tính cạnh của bóng tấm bìa trên tường (đơn vị: xăng-ti-mét).
+::key 40
+Tỉ số đồng dạng phối cảnh là $k=\dfrac{160}{40}=4$ nên cạnh của bóng là $10\cdot4=40$.
+
+### M252 · Lớp 8 · Hình chóp tam giác đều. Hình chóp tứ giác đều
+
+[M252.1] Nhiều lựa chọn
+Hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $16$ và chiều cao $6$. Trung đoạn của hình chóp bằng
+A. $14$.
+B. $2\sqrt{41}$.
+C. $2\sqrt{73}$.
+D. $10$.
+::key D
+$OM=8$ nên $d=\sqrt{6^2+8^2}=10$. Phương án A cộng $h$ với $OM$, B dùng $OB=8\sqrt2$ thay cho $OM$, C dùng cả cạnh đáy $16$.
+
+[M252.2] Nhiều lựa chọn
+Hình chóp tam giác đều có cạnh đáy $6$ cm và trung đoạn $5$ cm. Diện tích xung quanh bằng
+A. $45$ cm².
+B. $90$ cm².
+C. $15$ cm².
+D. $30$ cm².
+::key A
+$p=9$ nên $S_{xq}=9\cdot5=45$. Phương án B quên $\dfrac12$ (dùng chu vi), C là diện tích một mặt bên, D là $6\cdot5$.
+
+[M252.3] Nhiều lựa chọn
+Hình chóp tứ giác đều có cạnh đáy $6$ cm và chiều cao $5$ cm. Thể tích bằng
+A. $180$ cm³.
+B. $60$ cm³.
+C. $30$ cm³.
+D. $40$ cm³.
+::key B
+$V=\dfrac13\cdot36\cdot5=60$. Phương án A quên $\dfrac13$, C dùng $\dfrac12$, D dùng chu vi đáy $24$ thay cho diện tích đáy.
+
+[M252.4] Nhiều lựa chọn
+Hình chóp tam giác đều có cạnh đáy $6$ và chiều cao $1$. Khoảng cách $OM$ từ tâm đáy đến một cạnh đáy bằng
+A. $3$.
+B. $2\sqrt3$.
+C. $\sqrt3$.
+D. $3\sqrt3$.
+::key C
+$OM=\dfrac{a\sqrt3}6=\sqrt3$. Phương án A là $\dfrac a2$, B là $OA$, D là trung tuyến $AM$.
+
+[M252.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $12$ và chiều cao bằng $8$ ($O$ là tâm đáy, $M$ là trung điểm $BC$). Xét tính đúng sai của các mệnh đề sau:
+a) $SM=10$.
+b) Diện tích xung quanh bằng $480$.
+c) Cạnh bên $SB=8$.
+d) Thể tích bằng $384$.
+::key Đ S S Đ
+a) Đúng: $SM=\sqrt{8^2+6^2}=10$. b) Sai: $S_{xq}=24\cdot10=240$; $480$ là kết quả khi quên $\dfrac12$. c) Sai: $SB=\sqrt{8^2+(6\sqrt2)^2}=\sqrt{136}$, còn $8$ là chiều cao. d) Đúng: $V=\dfrac13\cdot144\cdot8=384$.
+
+[M252.6] Trả lời ngắn
+Hình chóp tam giác đều có cạnh đáy $6$ cm và chiều cao $2$ cm. Tính thể tích của hình chóp (đơn vị: cm³, làm tròn đến hàng phần mười).
+::key 10,4
+$S_{\text{đáy}}=9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2=6\sqrt3\approx10{,}4$.
+
+[M252.7] Trả lời ngắn
+Hình chóp tứ giác đều có cạnh đáy $6$ dm và trung đoạn $7$ dm. Tính diện tích toàn phần (đơn vị: dm²).
+::key 120
+$S_{xq}=12\cdot7=84$ và $S_{\text{đáy}}=36$ nên $S_{tp}=84+36=120$.

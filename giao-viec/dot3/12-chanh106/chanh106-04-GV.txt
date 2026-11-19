@@ -1,0 +1,506 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-04-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – chanh106-04-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-statistics/apstats-two-variable-regression
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  chanh106-04-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/chanh106-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file chanh106-04-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-statistics/apstats-two-variable-regression – BẢN TIẾNG VIỆT ########
+---
+title: Dữ liệu hai biến và hồi quy tuyến tính
+description: AP Statistics hồi quy: biểu đồ phân tán, hệ số tương quan, đường bình phương nhỏ nhất, diễn giải hệ số góc, hệ số chặn, phần dư, r² và giới hạn của hồi quy.
+minutes: 50
+---
+
+  :::goals
+  - Mô tả biểu đồ phân tán theo chiều, dạng, độ mạnh và điểm bất thường, gắn với tình huống.
+  - Diễn giải hệ số tương quan $r$ và hệ số xác định $r^2$.
+  - Tìm đường hồi quy bình phương nhỏ nhất từ dữ liệu hoặc từ các số đặc trưng, và diễn giải hệ số góc, hệ số chặn.
+  - Tính và diễn giải phần dư, dùng biểu đồ phần dư để đánh giá mô hình tuyến tính có phù hợp không.
+  - Nhận ra phép ngoại suy và phân biệt liên hệ với quan hệ nhân quả.
+  :::
+
+[[P1·ae30]]
+Hồi quy là Unit 5 của chương trình mới và có riêng một cụm ba câu trắc nghiệm trong đề, nên đây là phần nên chắc điểm. Phần tính toán nhẹ; điểm đến từ những lời diễn giải **gắn với tình huống** với đúng từ ngữ: "dự đoán", "trung bình", "mỗi khi … tăng thêm". Bài này gồm những gì còn trong chương trình; biến đổi dữ liệu để được dạng tuyến tính và suy luận cho hệ số góc đã bị bỏ.
+
+## Biểu đồ phân tán và hệ số tương quan
+
+[[P2·e071]]
+**Biểu đồ phân tán** (scatterplot) biểu diễn hai biến định lượng đo trên cùng các cá thể: **biến giải thích** $x$ trên trục hoành và **biến phản hồi** $y$ trên trục tung. Mô tả nó bằng bốn đặc điểm, gắn với tình huống:
+
+| Đặc điểm | Cần nói gì |
+|---|---|
+| Chiều | dương hay âm |
+| Dạng | tuyến tính hay cong |
+| Độ mạnh | mạnh, vừa hay yếu |
+| Điểm bất thường | điểm nằm xa xu hướng chung, cụm điểm |
+
+[[P3·82d5]]
+**Hệ số tương quan** $r$ đo chiều và độ mạnh của mối liên hệ **tuyến tính**. Ta có $-1\le r\le1$, $r$ không có đơn vị, và không đổi khi đổi chỗ $x$ với $y$ hay đổi đơn vị đo. Giá trị gần $0$ nghĩa là không có liên hệ tuyến tính, chưa chắc là không có liên hệ nào.
+
+:::graph Số giờ ôn bài và điểm kiểm tra của $11$ học sinh, kèm đường bình phương nhỏ nhất
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Đường hồi quy bình phương nhỏ nhất
+
+[[P4·d356]]
+**Đường hồi quy bình phương nhỏ nhất** (least-squares regression line) $\hat y=a+bx$ là đường làm cho tổng bình phương các phần dư nhỏ nhất. Từ các số đặc trưng,
+  $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
+[[P5·c775]]
+nên đường thẳng luôn đi qua $(\bar x,\bar y)$. Dấu mũ trên $\hat y$ nghĩa là giá trị **dự đoán**.
+
+[[P6·ca73]]
+- **Hệ số góc:** "Mỗi khi [$x$] tăng thêm một [đơn vị], [$y$] dự đoán tăng (giảm) $b$ [đơn vị của $y$]."
+- **Hệ số chặn:** "[$y$] dự đoán khi [$x$] $=0$ là $a$." Chỉ diễn giải khi $x=0$ có ý nghĩa.
+
+  :::example Diễn giải hệ số góc
+  Với các học sinh trong đồ thị, đường bình phương nhỏ nhất là $\widehat{\text{điểm}}=49{,}2+4{,}61\,(\text{giờ})$. Cách diễn giải đúng của $4{,}61$ là
+  A. Điểm của mỗi học sinh tăng đúng $4{,}61$ điểm cho mỗi giờ ôn bài.
+  B. Mỗi khi ôn thêm một giờ, điểm dự đoán tăng khoảng $4{,}61$ điểm.
+  C. Học sinh ôn $0$ giờ sẽ được $4{,}61$ điểm.
+  D. Khoảng $4{,}61\%$ sự biến động của điểm được giải thích bởi số giờ ôn bài.
+
+  **Lời giải.** Hệ số góc mô tả giá trị **dự đoán** của biến phản hồi thay đổi bao nhiêu khi biến giải thích tăng một đơn vị.
+
+  Phương án A quên rằng đường thẳng cho giá trị dự đoán, không phải giá trị chính xác của từng học sinh; phương án C nói về hệ số chặn, và nói sai; phương án D nhầm hệ số góc với $r^2$.
+
+  Vậy hệ số góc nghĩa là mỗi khi ôn thêm một giờ, điểm dự đoán tăng khoảng $4{,}61$ điểm, chọn đáp án **B**.
+  :::
+
+  :::example Đường hồi quy từ các số đặc trưng
+  Một bộ dữ liệu có $\bar x=5$, $s_x=2$, $\bar y=40$, $s_y=6$ và $r=0{,}8$. Đường hồi quy bình phương nhỏ nhất là
+  A. $\hat y=28+2{,}4x$
+  B. $\hat y=40+2{,}4x$
+  C. $\hat y=37{,}3+0{,}27x$
+  D. $\hat y=28+0{,}8x$
+
+  **Lời giải.** Hệ số góc là $b=r\,\dfrac{s_y}{s_x}=0{,}8\cdot\dfrac{6}{2}=2{,}4$.
+
+  Hệ số chặn là $a=\bar y-b\bar x=40-2{,}4(5)=28$, vì đường thẳng đi qua $(\bar x,\bar y)=(5;40)$.
+
+  Vậy đường hồi quy là $\hat y=28+2{,}4x$, chọn đáp án **A**. Phương án C dùng $\dfrac{s_x}{s_y}$ thay vì $\dfrac{s_y}{s_x}$.
+  :::
+
+## Phần dư và $r^2$
+
+[[P7·0ab2]]
+**Phần dư** (residual) là
+  $$\text{phần dư}=y-\hat y=\text{thực tế}-\text{dự đoán}.$$
+[[P8·ca18]]
+Phần dư dương nghĩa là đường thẳng ước lượng thấp hơn điểm đó. **Biểu đồ phần dư** (phần dư theo $x$) không có quy luật thì ủng hộ mô hình tuyến tính; quy luật dạng cong nghĩa là mô hình tuyến tính không phù hợp.
+
+[[P9·ee81]]
+**Hệ số xác định** $r^2$ là tỉ lệ sự biến động của $y$ được giải thích bởi mô hình tuyến tính theo $x$. **Độ lệch chuẩn của phần dư** $s$ là độ lớn điển hình của sai số dự đoán.
+
+  :::example Tính phần dư
+  Một mô hình cho giá ô tô cũ là $\hat y=24-1{,}8x$, với $x$ là tuổi xe (năm) và $y$ là giá (nghìn đô la). Một chiếc xe $5$ năm tuổi được bán với giá $13{,}5$ nghìn đô la. Phần dư của nó là bao nhiêu?
+
+  **Lời giải.** Giá dự đoán là $\hat y=24-1{,}8(5)=15$ nghìn đô la.
+
+  Phần dư là $y-\hat y=13{,}5-15=-1{,}5$ nghìn đô la.
+
+  Vậy phần dư là $-1{,}5$: chiếc xe được bán thấp hơn giá mô hình dự đoán $1500$ đô la.
+  :::
+
+  :::example Đọc $r^2$
+  Với dữ liệu giờ ôn bài và điểm, $r^2=0{,}965$. Khẳng định nào đúng?
+  A. $96{,}5\%$ điểm của học sinh được dự đoán chính xác.
+  B. Hệ số góc của đường thẳng là $0{,}965$.
+  C. $96{,}5\%$ sự biến động của điểm kiểm tra được giải thích bởi mô hình tuyến tính theo số giờ ôn bài.
+  D. Việc ôn bài tạo ra $96{,}5\%$ điểm số của học sinh.
+
+  **Lời giải.** Theo định nghĩa, $r^2$ cho biết bao nhiêu phần **sự biến động** của biến phản hồi được giải thích bởi mối liên hệ tuyến tính với biến giải thích.
+
+  Nó không nói gì về số dự đoán chính xác hay về quan hệ nhân quả, và nó không phải hệ số góc.
+
+  Vậy khẳng định đúng là C, chọn đáp án **C**. Vì liên hệ là dương nên $r=\sqrt{0{,}965}\approx0{,}982$.
+  :::
+
+## Giới hạn của hồi quy
+
+[[P10·d2ea]]
+- **Ngoại suy:** dự đoán ở các giá trị $x$ nằm xa ngoài khoảng dữ liệu dùng để lập đường thẳng là không đáng tin.
+- **Liên hệ không phải nhân quả:** dữ liệu quan sát có thể cho tương quan mạnh vì một **biến ẩn** (lurking variable) ảnh hưởng đến cả $x$ và $y$. Chỉ thí nghiệm được thiết kế tốt mới cho thấy quan hệ nhân quả.
+- **Dạng tuyến tính:** $r$ và đường bình phương nhỏ nhất chỉ mô tả quy luật tuyến tính; luôn xem biểu đồ phân tán và biểu đồ phần dư.
+
+:::warning Những cái bẫy thường gặp
+[[P11·529a]]
+- **"Dự đoán":** câu diễn giải hệ số góc và hệ số chặn phải có từ "dự đoán" hoặc "trung bình".
+- **Dấu của phần dư:** thực tế trừ dự đoán, không làm ngược lại.
+- **$r$ và $r^2$:** dấu của $r$ là dấu của hệ số góc; $r^2$ không bao giờ âm.
+- **Tình huống:** nêu tên cả hai biến và đơn vị trong mọi lời diễn giải.
+- **Nội dung đã bỏ:** suy luận cho hệ số góc và biến đổi dữ liệu không còn được thi.
+:::
+
+  :::terms
+  - explanatory / response variable | biến giải thích / biến phản hồi
+  - scatterplot | biểu đồ phân tán
+  - correlation | hệ số tương quan
+  - least-squares regression line | đường hồi quy bình phương nhỏ nhất
+  - predicted value | giá trị dự đoán
+  - residual / residual plot | phần dư / biểu đồ phần dư
+  - coefficient of determination | hệ số xác định
+  - extrapolation | ngoại suy
+  - lurking variable | biến ẩn
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-statistics/apstats-two-variable-regression – BẢN TIẾNG ANH ########
+---
+title: Two-variable data and linear regression
+description: AP Statistics regression: scatterplots, correlation, the least-squares line, interpreting slope, intercept, residuals and r², and the limits of regression.
+minutes: 50
+---
+
+  :::goals
+  - Describe a scatterplot by direction, form, strength and unusual features, in context.
+  - Interpret the correlation $r$ and the coefficient of determination $r^2$.
+  - Find the least-squares regression line from data or from summary statistics, and interpret its slope and intercept.
+  - Compute and interpret residuals, and use a residual plot to judge whether a linear model is appropriate.
+  - Recognise extrapolation and the difference between association and causation.
+  :::
+
+[[P1·cbad]]
+Regression is Unit 5 of the revised course and has its own set of three multiple-choice questions on the exam, so it is worth secure marks. The arithmetic is light; points come from interpretations written **in context**, with the right words: "predicted", "on average", "for each additional ...". This lesson covers what remains in the course; transformations to achieve linearity and inference for the slope have been removed.
+
+## Scatterplots and correlation
+
+[[P2·c4f0]]
+A **scatterplot** shows two quantitative variables measured on the same individuals: the **explanatory** variable $x$ on the horizontal axis and the **response** variable $y$ on the vertical axis. Describe it with four features, in context:
+
+| Feature | What to say |
+|---|---|
+| Direction | positive or negative |
+| Form | linear or curved |
+| Strength | strong, moderate or weak |
+| Unusual features | points far from the pattern, clusters |
+
+[[P3·c8b5]]
+The **correlation** $r$ measures the direction and strength of a **linear** relationship. It satisfies $-1\le r\le1$, has no units, and is not changed by switching $x$ and $y$ or by changing units. A value near $0$ means no linear relationship, not necessarily no relationship.
+
+:::graph Hours studied and test score for $11$ students, with the least-squares line
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The least-squares regression line
+
+[[P4·7ef5]]
+The **least-squares regression line** $\hat y=a+bx$ is the line that makes the sum of squared residuals as small as possible. From summary statistics,
+  $$b=r\,\frac{s_y}{s_x},\qquad a=\bar y-b\bar x,$$
+[[P5·85cc]]
+so the line always passes through $(\bar x,\bar y)$. The hat on $\hat y$ means **predicted** value.
+
+[[P6·e8ef]]
+- **Slope:** "For each additional [unit of $x$], the predicted [$y$] increases (decreases) by $b$ [units of $y$]."
+- **Intercept:** "The predicted [$y$] when [$x$] $=0$ is $a$." Interpret it only if $x=0$ makes sense.
+
+  :::example Interpreting the slope
+  For the students in the graph, the least-squares line is $\widehat{\text{score}}=49.2+4.61\,(\text{hours})$. Which is the correct interpretation of $4.61$?
+  A. Each student's score increases by exactly $4.61$ points per hour studied.
+  B. For each additional hour studied, the predicted score increases by about $4.61$ points.
+  C. A student who studies $0$ hours will score $4.61$ points.
+  D. About $4.61\%$ of the variation in scores is explained by hours studied.
+
+  **Solution.** The slope describes how the **predicted** response changes when the explanatory variable increases by one unit.
+
+  Option A forgets that the line gives predictions, not exact values for each student; option C describes the intercept, and wrongly; option D confuses the slope with $r^2$.
+
+  So the slope means that for each additional hour studied, the predicted score increases by about $4.61$ points, answer **B**.
+  :::
+
+  :::example A line from summary statistics
+  For a set of data, $\bar x=5$, $s_x=2$, $\bar y=40$, $s_y=6$ and $r=0.8$. The least-squares regression line is
+  A. $\hat y=28+2.4x$
+  B. $\hat y=40+2.4x$
+  C. $\hat y=37.3+0.27x$
+  D. $\hat y=28+0.8x$
+
+  **Solution.** The slope is $b=r\,\dfrac{s_y}{s_x}=0.8\cdot\dfrac{6}{2}=2.4$.
+
+  The intercept is $a=\bar y-b\bar x=40-2.4(5)=28$, because the line passes through $(\bar x,\bar y)=(5,40)$.
+
+  So the line is $\hat y=28+2.4x$, answer **A**. Option C uses $\dfrac{s_x}{s_y}$ instead of $\dfrac{s_y}{s_x}$.
+  :::
+
+## Residuals and $r^2$
+
+[[P7·51d2]]
+A **residual** is
+  $$\text{residual}=y-\hat y=\text{actual}-\text{predicted}.$$
+[[P8·ef33]]
+A positive residual means the line underestimates that point. A **residual plot** (residuals against $x$) with no pattern supports a linear model; a curved pattern means a linear model is not appropriate.
+
+[[P9·982a]]
+The **coefficient of determination** $r^2$ is the proportion of the variation in $y$ that is accounted for by the linear model with $x$. The **standard deviation of the residuals** $s$ is the typical size of a prediction error.
+
+  :::example Computing a residual
+  A model for the price of a used car is $\hat y=24-1.8x$, where $x$ is the age in years and $y$ the price in thousands of dollars. A $5$-year-old car sells for $13.5$ thousand dollars. What is its residual?
+
+  **Solution.** The predicted price is $\hat y=24-1.8(5)=15$ thousand dollars.
+
+  The residual is $y-\hat y=13.5-15=-1.5$ thousand dollars.
+
+  So the residual is $-1.5$: the car sold for $1500$ dollars less than the model predicts.
+  :::
+
+  :::example Reading $r^2$
+  For the hours and scores data, $r^2=0.965$. Which statement is correct?
+  A. $96.5\%$ of the students' scores are predicted correctly.
+  B. The slope of the line is $0.965$.
+  C. $96.5\%$ of the variation in test scores is accounted for by the linear model with hours studied.
+  D. Studying causes $96.5\%$ of a student's score.
+
+  **Solution.** By definition, $r^2$ describes how much of the **variation** in the response is accounted for by the linear relationship with the explanatory variable.
+
+  It says nothing about the number of correct predictions or about causation, and it is not the slope.
+
+  So the correct statement is C, answer **C**. Since the association is positive, $r=\sqrt{0.965}\approx0.982$.
+  :::
+
+## Limits of regression
+
+[[P10·b369]]
+- **Extrapolation:** predicting far outside the range of the $x$-values used to build the line is unreliable.
+- **Association is not causation:** an observational data set can show a strong correlation because of a **lurking variable** that affects both $x$ and $y$. Only a well-designed experiment can show cause and effect.
+- **Linear form:** $r$ and the least-squares line describe only linear patterns; always look at the scatterplot and the residual plot.
+
+:::warning Common traps
+[[P11·e4a1]]
+- **"Predicted":** slope and intercept statements must say "predicted" or "on average".
+- **Residual sign:** actual minus predicted, never the other way round.
+- **$r$ versus $r^2$:** the sign of $r$ is the sign of the slope; $r^2$ is never negative.
+- **Context:** name both variables and their units in every interpretation.
+- **Removed topics:** inference for the slope and transformations are no longer tested.
+:::
+
+  :::terms
+  - explanatory / response variable | biến giải thích / biến phản hồi
+  - scatterplot | biểu đồ phân tán
+  - correlation | hệ số tương quan
+  - least-squares regression line | đường hồi quy bình phương nhỏ nhất
+  - predicted value | giá trị dự đoán
+  - residual / residual plot | phần dư / biểu đồ phần dư
+  - coefficient of determination | hệ số xác định
+  - extrapolation | ngoại suy
+  - lurking variable | biến ẩn
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Applied exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

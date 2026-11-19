@@ -1,0 +1,1194 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-11-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-11-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-11-GV
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/vector-coordinate-operations, g12/vectors-in-space
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath112-11-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath112-11-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-11-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g12/vector-coordinate-operations – BẢN TIẾNG VIỆT ########
+---
+title: Biểu thức toạ độ của các phép toán vectơ
+description: Cộng, trừ, nhân vectơ với một số và tính tích vô hướng bằng toạ độ trong Oxyz; tìm độ dài, góc, xét vuông góc, cùng phương và giải bài toán hình học.
+minutes: 24
+---
+
+  :::goals
+  - Cộng, trừ, nhân vectơ với một số theo toạ độ trong không gian.
+  - Tính tích vô hướng $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ và độ dài $|\vec{a}|$.
+  - Tính góc giữa hai vectơ; nhận biết hai vectơ vuông góc, cùng phương.
+  - Dùng toạ độ để tìm đỉnh hình bình hành, góc của tam giác, chứng minh vuông góc.
+  :::
+
+[[P1·1ef5]]
+Một chiếc lều cắm trại có cột dựng thẳng đứng, đỉnh cột ở độ cao $3$ m. Hai sợi dây néo đi từ đỉnh cột xuống hai cọc trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 3)$, hai cọc là $P(2; -1; 0)$ và $Q(-1; 2; 0)$. Hai sợi dây hợp với nhau một góc bao nhiêu độ?
+
+[[P2·2cb9]]
+Bài trước cho ta toạ độ của điểm và vectơ. Bài này biến mọi phép toán vectơ, kể cả tích vô hướng, thành phép tính trên các con số, nên câu hỏi trên chỉ còn là vài phép nhân và cộng.
+
+## Cộng, trừ và nhân với một số
+
+[[P3·be9f]]
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, ta gom các số hạng cùng vectơ đơn vị:
+  $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
+[[P4·23f0]]
+Hiệu và tích với một số làm tương tự.
+
+  :::theorem Các phép toán theo toạ độ
+  Cho $\vec{a}=(x_1; y_1; z_1)$, $\vec{b}=(x_2; y_2; z_2)$ và số $k$. Khi đó
+  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2;\ z_1+z_2)$, $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2;\ z_1-z_2)$;
+  - $k\vec{a}=(kx_1;\ ky_1;\ kz_1)$;
+  - với $\vec{a}\neq\vec{0}$: $\vec{b}$ cùng phương với $\vec{a}$ khi và chỉ khi có số $k$ sao cho $\vec{b}=k\vec{a}$, tức $x_2=kx_1$, $y_2=ky_1$, $z_2=kz_1$.
+  :::
+
+  :::example Kết hợp các vectơ
+  Cho $\vec{a}=(1; -2; 3)$ và $\vec{b}=(2; 0; -1)$. Tìm $\vec{a}+\vec{b}$ và $2\vec{a}-3\vec{b}$.
+
+  **Lời giải.** Ta làm từng toạ độ. Với biểu thức thứ hai, nhân trước rồi trừ:
+
+  $$\vec{a}+\vec{b}=(3; -2; 2),\qquad 2\vec{a}=(2; -4; 6),\quad 3\vec{b}=(6; 0; -3),\quad 2\vec{a}-3\vec{b}=(-4; -4; 9).$$
+
+  Vậy $\vec{a}+\vec{b}=(3; -2; 2)$ và $2\vec{a}-3\vec{b}=(-4; -4; 9)$.
+  :::
+
+[[P5·8e9f]]
+Điều kiện cùng phương cho ta cách kiểm tra ba điểm thẳng hàng: $A$, $B$, $C$ thẳng hàng khi và chỉ khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+  :::example Ba điểm thẳng hàng và hai vectơ cùng phương
+  a) Chứng minh $A(1; 2; -1)$, $B(3; 1; 1)$, $C(7; -1; 5)$ thẳng hàng.
+
+  b) Tìm $x$, $y$ để $\vec{u}=(2; x; -4)$ và $\vec{v}=(-1; 3; y)$ cùng phương.
+
+  **Lời giải.** a) Ta so sánh $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(2; -1; 2),\qquad \overrightarrow{AC}=(6; -3; 6)=3\overrightarrow{AB}.$$
+
+  Hai vectơ cùng phương và chung điểm $A$, nên $A$, $B$, $C$ thẳng hàng.
+
+  b) Toạ độ thứ nhất của $\vec{v}$ khác $0$ và đã biết, nên tìm $k$ từ đó: $\vec{u}=k\vec{v}$ cần $2=k\cdot(-1)$, tức $k=-2$. Hai toạ độ còn lại phải khớp:
+
+  $$x=-2\cdot3=-6,\qquad -4=-2y\iff y=2.$$
+
+  Vậy $x=-6$, $y=2$, và $\vec{u}=-2\vec{v}$.
+  :::
+
+## Tích vô hướng theo toạ độ
+
+### Khám phá: nhân phân phối với $\vec{i}$, $\vec{j}$, $\vec{k}$
+
+[[P6·a86c]]
+Ta tính thử $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ bằng cách nhân phân phối. Có bốn tích:
+  $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
+[[P7·cd16]]
+Vì $\vec{i}\cdot\vec{i}=1$ còn các tích của hai vectơ đơn vị khác nhau bằng $0$, chỉ còn $3$. Đó đúng bằng $1\cdot3+2\cdot0+0\cdot1$: nhân các toạ độ cùng vị trí rồi cộng lại.
+
+  :::theorem Tích vô hướng, độ dài, góc
+  Cho $\vec{a}=(x_1; y_1; z_1)$ và $\vec{b}=(x_2; y_2; z_2)$. Khi đó
+  $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2,\qquad |\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}.$$
+  Với $\vec{a}$, $\vec{b}$ khác $\vec{0}$:
+  $$\cos(\vec{a}, \vec{b})=\frac{x_1x_2+y_1y_2+z_1z_2}{\sqrt{x_1^2+y_1^2+z_1^2}\cdot\sqrt{x_2^2+y_2^2+z_2^2}},\qquad \vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2+z_1z_2=0.$$
+  :::
+
+[[P8·780b]]
+**Vì sao đúng?** Nhân phân phối $\vec{a}\cdot\vec{b}$ như phần Khám phá cho chín tích; sáu tích của hai vectơ đơn vị khác nhau bằng $0$, ba tích còn lại là $x_1x_2$, $y_1y_2$, $z_1z_2$. Lấy $\vec{b}=\vec{a}$ ta được $|\vec{a}|^2=\vec{a}\cdot\vec{a}=x_1^2+y_1^2+z_1^2$.
+
+  :::example Tích vô hướng, góc và vuông góc
+  Cho $\vec{a}=(1; 2; 2)$, $\vec{b}=(2; -1; 2)$, $\vec{c}=(2; 1; -2)$. Tính góc $(\vec{a}, \vec{b})$ và chứng minh $\vec{a}\perp\vec{c}$.
+
+  **Lời giải.** Tính tích vô hướng và hai độ dài:
+
+  $$\vec{a}\cdot\vec{b}=2-2+4=4,\qquad |\vec{a}|=\sqrt{1+4+4}=3,\qquad |\vec{b}|=\sqrt{4+1+4}=3.$$
+
+  Thay vào công thức góc:
+
+  $$\cos(\vec{a}, \vec{b})=\frac{4}{3\cdot3}=\frac49,\qquad (\vec{a}, \vec{b})\approx63{,}6^\circ.$$
+
+  Còn $\vec{a}\cdot\vec{c}=2+2-4=0$, nên $\vec{a}\perp\vec{c}$.
+
+  Vậy $(\vec{a}, \vec{b})\approx63{,}6^\circ$ và $\vec{a}\perp\vec{c}$.
+  :::
+
+[[P9·7f67]]
+Bây giờ ta trả lời câu hỏi chiếc lều. Góc giữa hai sợi dây là góc giữa hai vectơ cùng xuất phát từ đỉnh cột.
+
+:::diagram Cột lều và hai sợi dây néo
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Góc giữa hai sợi dây néo
+  Với $T(0; 0; 3)$, $P(2; -1; 0)$, $Q(-1; 2; 0)$ (đơn vị: mét), tính góc $\widehat{PTQ}$ (làm tròn đến hàng phần mười của độ) và độ dài mỗi sợi dây.
+
+  **Lời giải.** Góc $\widehat{PTQ}$ là góc giữa $\overrightarrow{TP}$ và $\overrightarrow{TQ}$, hai vectơ chung điểm đầu $T$:
+
+  $$\overrightarrow{TP}=(2; -1; -3),\qquad \overrightarrow{TQ}=(-1; 2; -3),\qquad \overrightarrow{TP}\cdot\overrightarrow{TQ}=-2-2+9=5.$$
+
+  Hai sợi dây dài bằng nhau:
+
+  $$TP=TQ=\sqrt{4+1+9}=\sqrt{14}\approx3{,}74,\qquad \cos\widehat{PTQ}=\frac{5}{\sqrt{14}\cdot\sqrt{14}}=\frac{5}{14}.$$
+
+  Vậy hai sợi dây hợp với nhau góc khoảng $69{,}1^\circ$, mỗi sợi dài khoảng $3{,}74$ m.
+
+  **Kiểm tra.** $\cos\widehat{PTQ}>0$ nên góc nhọn, phù hợp với hình ảnh hai sợi dây cùng chĩa xuống đất.
+  :::
+
+## Giải bài toán hình học bằng toạ độ
+
+[[P10·6eeb]]
+Khi đã có toạ độ, nhiều câu hỏi hình học trở thành tính toán: hình bình hành $ABCD$ cần $\overrightarrow{AD}=\overrightarrow{BC}$, hai đường thẳng vuông góc cần tích vô hướng bằng $0$.
+
+  :::example Đỉnh thứ tư của hình bình hành
+  Cho $A(1; 0; 2)$, $B(2; 3; -1)$, $C(0; 4; 1)$. Chứng minh $A$, $B$, $C$ không thẳng hàng và tìm $D$ để $ABCD$ là hình bình hành.
+
+  **Lời giải.** Trước hết, $\overrightarrow{AB}=(1; 3; -3)$ và $\overrightarrow{AC}=(-1; 4; -1)$. Nếu $\overrightarrow{AC}=k\overrightarrow{AB}$ thì toạ độ đầu cho $k=-1$, nhưng toạ độ thứ hai cần $4=-3$, vô lí. Vậy ba điểm không thẳng hàng.
+
+  Gọi $D(x; y; z)$. $ABCD$ là hình bình hành khi $\overrightarrow{AD}=\overrightarrow{BC}$:
+
+  $$(x-1;\ y;\ z-2)=(-2; 1; 2)\iff x=-1,\ y=1,\ z=4.$$
+
+  Vậy $D(-1; 1; 4)$.
+
+  **Kiểm tra.** Trung điểm của $AC$ là $\left(\frac12; 2; \frac32\right)$, trùng trung điểm của $BD$.
+  :::
+
+[[P11·8d54]]
+Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+
+  :::example Đường chéo của hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Chứng minh $A'C\perp BD$ và tính góc giữa $\overrightarrow{A'C}$ và $\overrightarrow{AB}$.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần một tích vô hướng bằng $0$ và một góc giữa hai vectơ trong hình lập phương.
+
+  *Tìm cách giải.* Đặt hình lập phương vào hệ $Oxyz$ với $A$ ở gốc, $B$ trên $Ox$, $D$ trên $Oy$, $A'$ trên $Oz$, rồi tính bằng toạ độ.
+
+  *Giải.* Ta có $A(0; 0; 0)$, $B(1; 0; 0)$, $C(1; 1; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Khi đó:
+
+  $$\overrightarrow{A'C}=(1; 1; -1),\qquad \overrightarrow{BD}=(-1; 1; 0),\qquad \overrightarrow{A'C}\cdot\overrightarrow{BD}=-1+1+0=0.$$
+
+  Vậy $A'C\perp BD$. Với $\overrightarrow{AB}=(1; 0; 0)$:
+
+  $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1}{\sqrt3}\approx0{,}577,\qquad (\overrightarrow{A'C}, \overrightarrow{AB})\approx54{,}7^\circ.$$
+
+  *Nhìn lại.* Hệ toạ độ biến một chứng minh hình học không gian thành một phép tính ba dòng. Bước quan trọng nhất là đặt hình vào hệ trục sao cho nhiều toạ độ bằng $0$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·afe1]]
+- **Coi tích vô hướng là vectơ.** Sai: $(1; 2; 2)\cdot(2; -1; 2)=(2; -2; 4)$. Vì sao sai: tích vô hướng là một số. Đúng: $2-2+4=4$.
+- **Quên căn khi tính độ dài.** Sai: $|(1; 2; 2)|=1+4+4=9$. Đúng: $|(1; 2; 2)|=\sqrt9=3$.
+- **Xét cùng phương bằng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2; 4)$ và $(0; 1; 2)$, tỉ số $\frac00$ vô nghĩa. Đúng: tìm $k$ từ một toạ độ khác $0$: $(0; 2; 4)=2(0; 1; 2)$, nên hai vectơ cùng phương.
+- **Lấy góc giữa hai vectơ không chung điểm đầu.** Sai: dùng $\overrightarrow{PT}$ và $\overrightarrow{TQ}$ để tính $\widehat{PTQ}$. Vì sao sai: $\overrightarrow{PT}=-\overrightarrow{TP}$ đổi dấu cosin, cho góc $180^\circ-69{,}1^\circ$. Đúng: dùng $\overrightarrow{TP}$ và $\overrightarrow{TQ}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu thức toạ độ | component form
+  - tích vô hướng | scalar product (dot product)
+  - độ dài của vectơ | length of a vector
+  - góc giữa hai vectơ | angle between two vectors
+  - hai vectơ vuông góc | perpendicular vectors
+  - hai vectơ cùng phương | parallel (collinear) vectors
+  - ba điểm thẳng hàng | collinear points
+  - hình bình hành | parallelogram
+  :::
+
+## Tóm tắt
+
+[[P13·c700]]
+- Cộng, trừ, nhân với một số: làm trên từng toạ độ.
+- $\vec{b}$ cùng phương $\vec{a}\neq\vec{0}$ $\iff$ $\vec{b}=k\vec{a}$; $A$, $B$, $C$ thẳng hàng $\iff$ $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
+- $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ (một số); $|\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}$.
+- $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- Góc $\widehat{BAC}$ của tam giác là góc giữa $\overrightarrow{AB}$ và $\overrightarrow{AC}$.
+- Hình bình hành $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/vector-coordinate-operations – BẢN TIẾNG ANH ########
+---
+title: Operations on vectors in coordinates
+description: Add, subtract, scale vectors and take scalar products in Oxyz coordinates; find lengths and angles, test perpendicular and collinear vectors, solve geometry.
+minutes: 24
+---
+
+  :::goals
+  - Add, subtract and multiply vectors by a number using coordinates in space.
+  - Compute the scalar product (dot product) $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ and the length $|\vec{a}|$.
+  - Find the angle between two vectors; recognise perpendicular and collinear vectors.
+  - Use coordinates to find a vertex of a parallelogram, an angle of a triangle, and to prove perpendicularity.
+  :::
+
+[[P1·8cb8]]
+A camping tent has a vertical pole whose top is $3$ m above the ground. Two guy ropes run from the top of the pole down to two pegs in the ground. With the foot of the pole at the origin and the metre as unit, the top of the pole is $T(0, 0, 3)$ and the pegs are $P(2, -1, 0)$ and $Q(-1, 2, 0)$. What angle do the two ropes make with each other?
+
+[[P2·adcd]]
+The previous lesson gave us coordinates of points and vectors. This lesson turns every vector operation, the scalar product included, into arithmetic on numbers, so the question above needs only a few multiplications and additions.
+
+## Addition, subtraction and multiplication by a number
+
+[[P3·f13b]]
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, we collect the terms with the same unit vector:
+  $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
+[[P4·ac6a]]
+The difference and the product with a number work the same way.
+
+  :::theorem Operations in coordinates
+  Let $\vec{a}=(x_1, y_1, z_1)$, $\vec{b}=(x_2, y_2, z_2)$ and let $k$ be a number. Then
+  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2,\ z_1+z_2)$, $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2,\ z_1-z_2)$;
+  - $k\vec{a}=(kx_1,\ ky_1,\ kz_1)$;
+  - for $\vec{a}\neq\vec{0}$: $\vec{b}$ is collinear with $\vec{a}$ if and only if there is a number $k$ with $\vec{b}=k\vec{a}$, that is $x_2=kx_1$, $y_2=ky_1$, $z_2=kz_1$.
+  :::
+
+  :::example Combining vectors
+  Let $\vec{a}=(1, -2, 3)$ and $\vec{b}=(2, 0, -1)$. Find $\vec{a}+\vec{b}$ and $2\vec{a}-3\vec{b}$.
+
+  **Solution.** We work coordinate by coordinate. For the second expression, multiply first, then subtract:
+
+  $$\vec{a}+\vec{b}=(3, -2, 2),\qquad 2\vec{a}=(2, -4, 6),\quad 3\vec{b}=(6, 0, -3),\quad 2\vec{a}-3\vec{b}=(-4, -4, 9).$$
+
+  So $\vec{a}+\vec{b}=(3, -2, 2)$ and $2\vec{a}-3\vec{b}=(-4, -4, 9)$.
+  :::
+
+[[P5·e153]]
+The collinearity condition gives a test for three points on a line: $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+  :::example Three collinear points and two collinear vectors
+  a) Prove that $A(1, 2, -1)$, $B(3, 1, 1)$, $C(7, -1, 5)$ are collinear.
+
+  b) Find $x$, $y$ such that $\vec{u}=(2, x, -4)$ and $\vec{v}=(-1, 3, y)$ are collinear.
+
+  **Solution.** a) We compare $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(2, -1, 2),\qquad \overrightarrow{AC}=(6, -3, 6)=3\overrightarrow{AB}.$$
+
+  The two vectors are collinear and share the point $A$, so $A$, $B$, $C$ are collinear.
+
+  b) The first coordinate of $\vec{v}$ is known and non-zero, so we find $k$ from it: $\vec{u}=k\vec{v}$ needs $2=k\cdot(-1)$, that is $k=-2$. The other two coordinates must match:
+
+  $$x=-2\cdot3=-6,\qquad -4=-2y\iff y=2.$$
+
+  So $x=-6$, $y=2$, and $\vec{u}=-2\vec{v}$.
+  :::
+
+## The scalar product in coordinates
+
+### Exploring: expanding with $\vec{i}$, $\vec{j}$, $\vec{k}$
+
+[[P6·29f5]]
+Let us compute $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ by expanding. There are four products:
+  $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
+[[P7·96f0]]
+Since $\vec{i}\cdot\vec{i}=1$ while products of two different unit vectors are $0$, only $3$ is left. That is exactly $1\cdot3+2\cdot0+0\cdot1$: multiply the coordinates in the same position and add.
+
+  :::theorem Dot product, length, angle
+  Let $\vec{a}=(x_1, y_1, z_1)$ and $\vec{b}=(x_2, y_2, z_2)$. Then
+  $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2,\qquad |\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}.$$
+  For non-zero $\vec{a}$, $\vec{b}$:
+  $$\cos(\vec{a}, \vec{b})=\frac{x_1x_2+y_1y_2+z_1z_2}{\sqrt{x_1^2+y_1^2+z_1^2}\cdot\sqrt{x_2^2+y_2^2+z_2^2}},\qquad \vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2+z_1z_2=0.$$
+  :::
+
+[[P8·816b]]
+**Why is it true?** Expanding $\vec{a}\cdot\vec{b}$ as in the exploration gives nine products; the six products of two different unit vectors are $0$, and the remaining three are $x_1x_2$, $y_1y_2$, $z_1z_2$. Taking $\vec{b}=\vec{a}$ gives $|\vec{a}|^2=\vec{a}\cdot\vec{a}=x_1^2+y_1^2+z_1^2$.
+
+  :::example Dot product, angle and perpendicularity
+  Let $\vec{a}=(1, 2, 2)$, $\vec{b}=(2, -1, 2)$, $\vec{c}=(2, 1, -2)$. Find the angle $(\vec{a}, \vec{b})$ and prove that $\vec{a}\perp\vec{c}$.
+
+  **Solution.** Compute the scalar product and the two lengths:
+
+  $$\vec{a}\cdot\vec{b}=2-2+4=4,\qquad |\vec{a}|=\sqrt{1+4+4}=3,\qquad |\vec{b}|=\sqrt{4+1+4}=3.$$
+
+  Substitute into the angle formula:
+
+  $$\cos(\vec{a}, \vec{b})=\frac{4}{3\cdot3}=\frac49,\qquad (\vec{a}, \vec{b})\approx63.6^\circ.$$
+
+  Also $\vec{a}\cdot\vec{c}=2+2-4=0$, so $\vec{a}\perp\vec{c}$.
+
+  So $(\vec{a}, \vec{b})\approx63.6^\circ$ and $\vec{a}\perp\vec{c}$.
+  :::
+
+[[P9·375f]]
+Now we answer the tent question. The angle between the ropes is the angle between two vectors starting at the top of the pole.
+
+:::diagram The tent pole and the two guy ropes
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The angle between the guy ropes
+  With $T(0, 0, 3)$, $P(2, -1, 0)$, $Q(-1, 2, 0)$ (unit: metre), find the angle $\angle PTQ$ (to one decimal place of a degree) and the length of each rope.
+
+  **Solution.** The angle $\angle PTQ$ is the angle between $\overrightarrow{TP}$ and $\overrightarrow{TQ}$, two vectors with the common initial point $T$:
+
+  $$\overrightarrow{TP}=(2, -1, -3),\qquad \overrightarrow{TQ}=(-1, 2, -3),\qquad \overrightarrow{TP}\cdot\overrightarrow{TQ}=-2-2+9=5.$$
+
+  The two ropes have equal length:
+
+  $$TP=TQ=\sqrt{4+1+9}=\sqrt{14}\approx3.74,\qquad \cos\angle PTQ=\frac{5}{\sqrt{14}\cdot\sqrt{14}}=\frac{5}{14}.$$
+
+  So the ropes make an angle of about $69.1^\circ$, and each is about $3.74$ m long.
+
+  **Check.** $\cos\angle PTQ>0$, so the angle is acute, which fits the picture of two ropes both pointing down to the ground.
+  :::
+
+## Solving geometry problems with coordinates
+
+[[P10·a06c]]
+Once we have coordinates, many geometric questions become calculations: a parallelogram $ABCD$ needs $\overrightarrow{AD}=\overrightarrow{BC}$, and two perpendicular lines need a zero scalar product.
+
+  :::example The fourth vertex of a parallelogram
+  Let $A(1, 0, 2)$, $B(2, 3, -1)$, $C(0, 4, 1)$. Prove that $A$, $B$, $C$ are not collinear and find $D$ such that $ABCD$ is a parallelogram.
+
+  **Solution.** First, $\overrightarrow{AB}=(1, 3, -3)$ and $\overrightarrow{AC}=(-1, 4, -1)$. If $\overrightarrow{AC}=k\overrightarrow{AB}$, the first coordinate gives $k=-1$, but then the second needs $4=-3$, which is impossible. So the three points are not collinear.
+
+  Let $D(x, y, z)$. $ABCD$ is a parallelogram when $\overrightarrow{AD}=\overrightarrow{BC}$:
+
+  $$(x-1,\ y,\ z-2)=(-2, 1, 2)\iff x=-1,\ y=1,\ z=4.$$
+
+  So $D(-1, 1, 4)$.
+
+  **Check.** The midpoint of $AC$ is $\left(\frac12, 2, \frac32\right)$, the same as the midpoint of $BD$.
+  :::
+
+[[P11·bc15]]
+The last example has more steps, so we follow the four stages.
+
+  :::example Diagonals of a cube
+  Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Prove that $A'C\perp BD$ and find the angle between $\overrightarrow{A'C}$ and $\overrightarrow{AB}$.
+
+  **Solution.**
+
+  *Understand.* We need one scalar product equal to $0$ and one angle between two vectors in a cube.
+
+  *Plan.* Place the cube in $Oxyz$ with $A$ at the origin, $B$ on $Ox$, $D$ on $Oy$, $A'$ on $Oz$, and compute with coordinates.
+
+  *Solve.* We have $A(0, 0, 0)$, $B(1, 0, 0)$, $C(1, 1, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Then:
+
+  $$\overrightarrow{A'C}=(1, 1, -1),\qquad \overrightarrow{BD}=(-1, 1, 0),\qquad \overrightarrow{A'C}\cdot\overrightarrow{BD}=-1+1+0=0.$$
+
+  So $A'C\perp BD$. With $\overrightarrow{AB}=(1, 0, 0)$:
+
+  $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1}{\sqrt3}\approx0.577,\qquad (\overrightarrow{A'C}, \overrightarrow{AB})\approx54.7^\circ.$$
+
+  *Look back.* The coordinate system turns a proof in solid geometry into a three-line calculation. The key step is placing the figure so that many coordinates are $0$.
+  :::
+
+:::warning Common mistakes
+[[P12·993c]]
+- **Treating the scalar product as a vector.** Wrong: $(1, 2, 2)\cdot(2, -1, 2)=(2, -2, 4)$. Why it is wrong: the scalar product is a number. Right: $2-2+4=4$.
+- **Forgetting the square root for a length.** Wrong: $|(1, 2, 2)|=1+4+4=9$. Right: $|(1, 2, 2)|=\sqrt9=3$.
+- **Testing collinearity with ratios when a coordinate is $0$.** For $(0, 2, 4)$ and $(0, 1, 2)$ the ratio $\frac00$ is meaningless. Right: find $k$ from a non-zero coordinate: $(0, 2, 4)=2(0, 1, 2)$, so the vectors are collinear.
+- **Taking the angle between vectors that do not share a starting point.** Wrong: using $\overrightarrow{PT}$ and $\overrightarrow{TQ}$ to find $\angle PTQ$. Why it is wrong: $\overrightarrow{PT}=-\overrightarrow{TP}$ changes the sign of the cosine and gives $180^\circ-69.1^\circ$. Right: use $\overrightarrow{TP}$ and $\overrightarrow{TQ}$.
+:::
+
+## Key terms
+
+  :::terms
+  - component form | biểu thức toạ độ
+  - scalar product (dot product) | tích vô hướng
+  - length of a vector | độ dài của vectơ
+  - angle between two vectors | góc giữa hai vectơ
+  - perpendicular vectors | hai vectơ vuông góc
+  - parallel (collinear) vectors | hai vectơ cùng phương
+  - collinear points | ba điểm thẳng hàng
+  - parallelogram | hình bình hành
+  :::
+
+## Summary
+
+[[P13·b6b6]]
+- Add, subtract, multiply by a number: work on each coordinate.
+- $\vec{b}$ is collinear with $\vec{a}\neq\vec{0}$ $\iff$ $\vec{b}=k\vec{a}$; $A$, $B$, $C$ are collinear $\iff$ $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
+- $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2+z_1z_2$ (a number); $|\vec{a}|=\sqrt{x_1^2+y_1^2+z_1^2}$.
+- $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}||\vec{b}|}$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- The angle $\angle BAC$ of a triangle is the angle between $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
+- Parallelogram $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/vectors-in-space – BẢN TIẾNG VIỆT ########
+---
+title: Vectơ và các phép toán trong không gian
+description: Mở rộng vectơ ra không gian: tổng, hiệu, quy tắc hình hộp, tích với một số và tích vô hướng, rồi dùng chúng để tính độ dài và góc trong hình hộp, tứ diện.
+minutes: 25
+---
+
+  :::goals
+  - Nhận biết vectơ trong không gian, hai vectơ bằng nhau, đối nhau.
+  - Cộng, trừ vectơ và dùng quy tắc ba điểm, quy tắc hình bình hành, quy tắc hình hộp.
+  - Nhân vectơ với một số và dùng tính chất trung điểm, trọng tâm.
+  - Tính góc và tích vô hướng của hai vectơ, rồi dùng chúng để tìm độ dài, góc, chứng minh vuông góc.
+  :::
+
+[[P1·f188]]
+Một phòng học có dạng hình hộp chữ nhật dài $5$ m, rộng $4$ m, cao $3$ m. Người ta muốn căng một sợi dây trang trí thẳng từ một góc sàn đến góc trần đối diện xa nhất. Sợi dây đi theo hướng nào, và cần dài bao nhiêu mét?
+
+[[P2·058b]]
+Trong mặt phẳng, ta đã mô tả "đi theo hướng nào, bao xa" bằng vectơ. Bài này mang vectơ lên không gian ba chiều, và cuối bài ta sẽ tính được độ dài sợi dây chỉ bằng phép toán vectơ.
+
+[[P3·ebd0]]
+Thế giới quanh ta vốn có ba chiều: một chiếc flycam bay về phía đông, về phía bắc rồi bay lên; ba sợi cáp cùng kéo một vật nặng theo ba hướng khác nhau; một xà nhà nghiêng trong khung mái. Muốn mô tả và tính toán những chuyển động, những lực như thế, ta cần một ngôn ngữ chung cho "hướng" và "độ lớn" trong không gian. Vectơ chính là ngôn ngữ đó.
+
+## Vectơ trong không gian
+
+### Khám phá: ba đoạn đường thay cho một
+
+[[P4·8c25]]
+Gọi phòng học là hình hộp $ABCD.A'B'C'D'$ với $AB=5$, $AD=4$, $AA'=3$ (mét). Một con kiến đi từ $A$ đến $C'$ theo các cạnh: $5$ m dọc $AB$, rồi $4$ m dọc $BC$, rồi $3$ m lên theo $CC'$. Sợi dây thì đi thẳng từ $A$ đến $C'$.
+
+[[P5·e935]]
+Hai cách đi có cùng điểm đầu và cùng điểm cuối, nên cùng **một sự dịch chuyển**. Nếu ta mô tả mỗi đoạn đường bằng một mũi tên, thì mũi tên $AC'$ phải là "tổng" của ba mũi tên $AB$, $BC$, $CC'$. Để nói điều đó chính xác, ta cần vectơ trong không gian.
+
+:::diagram Hình hộp $ABCD.A'B'C'D'$ và đường chéo $AC'$
+   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Vectơ trong không gian
+  - **Vectơ** trong không gian là một đoạn thẳng có hướng. Vectơ $\overrightarrow{AB}$ có điểm đầu $A$, điểm cuối $B$, và **độ dài** $|\overrightarrow{AB}|=AB$.
+  - Hai vectơ **cùng phương** nếu giá của chúng song song hoặc trùng nhau; khi đó chúng cùng hướng hoặc ngược hướng.
+  - Hai vectơ **bằng nhau** nếu cùng hướng và cùng độ dài. Hai vectơ **đối nhau** nếu ngược hướng và cùng độ dài.
+  - **Vectơ-không** $\vec{0}$ có điểm đầu trùng điểm cuối, chẳng hạn $\overrightarrow{AA}$.
+  :::
+
+[[P6·3305]]
+Mọi khái niệm giống hệt trong mặt phẳng; chỉ khác là giờ các vectơ có thể nằm trên những mặt phẳng khác nhau.
+
+[[P7·a7a4]]
+**Hiểu sâu hơn.** Một vectơ không "dính" vào vị trí của nó: $\overrightarrow{AA'}$ và $\overrightarrow{CC'}$ là cùng một vectơ, vì chúng mô tả cùng một sự dịch chuyển "đi lên $3$ m". Nhờ vậy ta được phép "trượt" một vectơ đến chỗ thuận tiện để nối đuôi các vectơ khác, như cách con kiến ghép ba đoạn đường thành một. Điểm mới so với mặt phẳng: hai vectơ bất kì luôn đặt được vào cùng một mặt phẳng, còn ba vectơ thì có thể không (khi đó ta nói ba vectơ không đồng phẳng).
+
+[[P8·032d]]
+**Kết nối.** Bài này mở rộng vectơ và tích vô hướng ở lớp 10 lên không gian, và dùng hình hộp, tứ diện của lớp 11. Ở bài sau, ta gắn vectơ với hệ trục toạ độ $Oxyz$ để mọi phép toán trở thành phép tính trên các con số.
+
+  :::example Nhận ra vectơ bằng nhau trong hình hộp
+  Cho hình hộp $ABCD.A'B'C'D'$. Kể tên các vectơ khác $\overrightarrow{AA'}$, bằng $\overrightarrow{AA'}$ và có điểm đầu, điểm cuối là đỉnh của hình hộp. Làm tương tự với các vectơ đối của $\overrightarrow{AB}$.
+
+  **Lời giải.** Bốn cạnh bên $AA'$, $BB'$, $CC'$, $DD'$ song song và bằng nhau. Chọn chiều đi từ đáy dưới lên đáy trên để cùng hướng với $\overrightarrow{AA'}$, ta có
+
+  $$\overrightarrow{AA'}=\overrightarrow{BB'}=\overrightarrow{CC'}=\overrightarrow{DD'}.$$
+
+  Các cạnh song song với $AB$ là $DC$, $A'B'$, $D'C'$. Vì vectơ đối của $\overrightarrow{AB}$ phải ngược hướng và cùng độ dài với $\overrightarrow{AB}$ nên các vectơ đối là
+
+  $$\overrightarrow{BA},\quad \overrightarrow{CD},\quad \overrightarrow{B'A'},\quad \overrightarrow{C'D'}.$$
+
+  Vậy có $3$ vectơ khác bằng $\overrightarrow{AA'}$ và $4$ vectơ đối của $\overrightarrow{AB}$.
+  :::
+
+## Tổng và hiệu của hai vectơ
+
+[[P9·ad45]]
+Tổng của hai vectơ được định nghĩa như trong mặt phẳng: đặt nối đuôi rồi nối điểm đầu với điểm cuối. Hai vectơ đặt chung gốc luôn nằm trong một mặt phẳng, nên mọi quy tắc cũ vẫn đúng.
+
+  :::theorem Các quy tắc cộng vectơ
+  - **Quy tắc ba điểm:** với mọi điểm $A$, $B$, $C$: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$ và $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
+  - **Quy tắc hình bình hành:** nếu $ABCD$ là hình bình hành thì $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$.
+  - **Quy tắc hình hộp:** nếu $ABCD.A'B'C'D'$ là hình hộp thì
+  $$\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}.$$
+  :::
+
+[[P10·cddf]]
+**Vì sao quy tắc hình hộp đúng?** Mặt $ABCD$ là hình bình hành nên $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. Mặt $ACC'A'$ cũng là hình bình hành nên $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Ghép hai đẳng thức là xong. Đây đúng là đường đi của con kiến: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, vì $\overrightarrow{BC}=\overrightarrow{AD}$ và $\overrightarrow{CC'}=\overrightarrow{AA'}$.
+
+[[P11·be57]]
+Ví dụ sau cho thấy cách "thay vectơ bằng vectơ bằng nó" để nối đuôi các vectơ.
+
+  :::example Rút gọn tổng vectơ
+  Cho hình hộp $ABCD.A'B'C'D'$. Rút gọn
+
+  a) $\overrightarrow{AB}+\overrightarrow{B'C'}+\overrightarrow{DD'}$; b) $\overrightarrow{AD'}-\overrightarrow{AB}$.
+
+  **Lời giải.** a) Ta có $\overrightarrow{B'C'}=\overrightarrow{BC}$ và $\overrightarrow{DD'}=\overrightarrow{CC'}$ (các cạnh song song, cùng hướng, cùng độ dài). Do đó
+
+  $$\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}=\overrightarrow{AC'}.$$
+
+  b) Vì hai vectơ có chung điểm đầu $A$ nên theo quy tắc hiệu, ta có
+
+  $$\overrightarrow{AD'}-\overrightarrow{AB}=\overrightarrow{BD'}.$$
+
+  Vậy a) bằng $\overrightarrow{AC'}$, b) bằng $\overrightarrow{BD'}$.
+  :::
+
+## Tích của một số với một vectơ
+
+[[P12·88b3]]
+Với số $k\neq0$ và vectơ $\vec{a}\neq\vec{0}$, vectơ $k\vec{a}$ cùng hướng với $\vec{a}$ nếu $k>0$, ngược hướng nếu $k<0$, và có độ dài $|k|\cdot|\vec{a}|$. Các tính chất quen thuộc vẫn giữ nguyên, trong đó hai tính chất hay dùng nhất là:
+
+[[P13·c531]]
+- Nếu $I$ là trung điểm của $AB$ thì với mọi điểm $M$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
+- Nếu $G$ là trọng tâm tam giác $ABC$ thì $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, và với mọi $M$: $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
+
+[[P14·4efb]]
+Trong không gian, các điểm không bắt buộc nằm trong một mặt phẳng, nên ta hay "đi vòng" qua những điểm đã biết.
+
+  :::example Đoạn nối trung điểm hai cạnh đối của tứ diện
+  Cho tứ diện $ABCD$. Gọi $M$, $N$ lần lượt là trung điểm của $AB$ và $CD$. Chứng minh rằng
+  $$\overrightarrow{MN}=\frac12\left(\overrightarrow{AD}+\overrightarrow{BC}\right).$$
+
+  **Lời giải.** Theo quy tắc ba điểm, ta có
+
+  $$\begin{aligned}
+  \overrightarrow{MN}&=\overrightarrow{MA}+\overrightarrow{AD}+\overrightarrow{DN},\\
+  \overrightarrow{MN}&=\overrightarrow{MB}+\overrightarrow{BC}+\overrightarrow{CN}.
+  \end{aligned}$$
+
+  Cộng hai đẳng thức, chú ý $\overrightarrow{MA}+\overrightarrow{MB}=\vec{0}$ (vì $M$ là trung điểm của $AB$) và $\overrightarrow{DN}+\overrightarrow{CN}=\vec{0}$ (vì $N$ là trung điểm của $CD$), ta được
+
+  $$2\overrightarrow{MN}=\overrightarrow{AD}+\overrightarrow{BC}.$$
+
+  Vậy $\overrightarrow{MN}=\dfrac12\left(\overrightarrow{AD}+\overrightarrow{BC}\right)$.
+  :::
+
+:::diagram Tứ diện $ABCD$ và đoạn $MN$
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::note Ba vectơ không đồng phẳng
+[[P15·64e7]]
+Ba vectơ gọi là **đồng phẳng** nếu giá của chúng cùng song song với một mặt phẳng. Ba vectơ $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ của hình hộp thì **không** đồng phẳng. Mọi vectơ trong không gian đều viết được duy nhất dưới dạng $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. Đây là ý tưởng dẫn tới toạ độ trong không gian ở bài sau.
+:::
+
+## Tích vô hướng của hai vectơ
+
+### Góc giữa hai vectơ
+
+[[P16·1fe8]]
+Để đo góc giữa $\vec{a}$ và $\vec{b}$ (khác $\vec{0}$), ta lấy một điểm $O$ bất kì và vẽ $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Khi đó $(\vec{a}, \vec{b})=\widehat{AOB}$, một góc từ $0^\circ$ đến $180^\circ$. Điều quan trọng là **hai vectơ phải chung điểm đầu**. Chẳng hạn trong hình hộp, $\overrightarrow{A'C'}=\overrightarrow{AC}$ nên $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\widehat{BAC}$.
+
+  :::definition Tích vô hướng
+  Tích vô hướng của hai vectơ $\vec{a}$, $\vec{b}$ khác $\vec{0}$ là **số**
+  $$\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b}).$$
+  Nếu một trong hai vectơ là $\vec{0}$ thì $\vec{a}\cdot\vec{b}=0$.
+  :::
+
+[[P17·a2b4]]
+Tích vô hướng có các tính chất như trong mặt phẳng: giao hoán, phân phối với phép cộng, và
+  $$\vec{a}^2=|\vec{a}|^2,\qquad \vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0,\qquad \cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
+
+[[P18·6f9b]]
+Bây giờ ta trả lời câu hỏi ở đầu bài. Các cạnh $AB$, $AD$, $AA'$ của hình hộp chữ nhật đôi một vuông góc, nên mọi tích vô hướng chéo bằng $0$.
+
+  :::example Độ dài sợi dây trang trí
+  Hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=5$, $AD=4$, $AA'=3$ (mét). Tính độ dài $AC'$.
+
+  **Lời giải.** Theo quy tắc hình hộp, ta có $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$. Bình phương vô hướng hai vế, ta được
+
+  $$AC'^2=AB^2+AD^2+AA'^2+2\left(\overrightarrow{AB}\cdot\overrightarrow{AD}+\overrightarrow{AD}\cdot\overrightarrow{AA'}+\overrightarrow{AA'}\cdot\overrightarrow{AB}\right).$$
+
+  Vì ba cạnh đôi một vuông góc nên ba tích vô hướng trong ngoặc đều bằng $0$. Do đó
+
+  $$AC'^2=25+16+9=50,\qquad AC'=\sqrt{50}=5\sqrt2\approx7{,}07.$$
+
+  Vậy sợi dây dài khoảng $7{,}07$ m.
+
+  **Nhìn lại.** Nếu phòng cao gấp đôi ($6$ m) thì sợi dây có dài gấp đôi không? Khi đó $AC'^2=25+16+36=77$, $AC'\approx8{,}77$ m, dài hơn chưa đến $2$ m. Độ dài đường chéo không tỉ lệ với từng kích thước. Lời giải cũng cho thấy công thức $AC'^2=AB^2+AD^2+AA'^2$ chỉ đúng vì ba cạnh vuông góc: với hình hộp xiên, ba tích vô hướng trong ngoặc khác $0$ và phải được tính thêm.
+  :::
+
+[[P19·02de]]
+Cách làm trên dùng được cả khi các cạnh không vuông góc, miễn là ta biết các tích vô hướng. Ví dụ cuối dùng nó để tìm một góc trong hình lập phương.
+
+  :::example Góc giữa hai đường chéo của hai mặt
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc $(\overrightarrow{AC}, \overrightarrow{A'D})$.
+
+  **Lời giải.** Ba vectơ $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ đôi một vuông góc và có cùng độ dài $a$. Ta có
+
+  $$\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{AD},\qquad \overrightarrow{A'D}=\overrightarrow{AD}-\overrightarrow{AA'}.$$
+
+  Vì các tích vô hướng của hai cạnh khác nhau bằng $0$ nên
+
+  $$\overrightarrow{AC}\cdot\overrightarrow{A'D}=\overrightarrow{AB}\cdot\overrightarrow{AD}-\overrightarrow{AB}\cdot\overrightarrow{AA'}+\overrightarrow{AD}^2-\overrightarrow{AD}\cdot\overrightarrow{AA'}=a^2.$$
+
+  Vì $AC$ và $A'D$ là đường chéo của hình vuông cạnh $a$ nên $AC=A'D=a\sqrt2$. Do đó
+
+  $$\cos(\overrightarrow{AC}, \overrightarrow{A'D})=\frac{a^2}{a\sqrt2\cdot a\sqrt2}=\frac12.$$
+
+  Vậy $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
+
+  **Nhìn lại.** Có cách khác để kiểm tra kết quả không? Vì $\overrightarrow{AC}=\overrightarrow{A'C'}$ nên góc cần tìm là $\widehat{C'A'D}$. Tam giác $A'C'D$ có ba cạnh đều là đường chéo của mặt, dài $a\sqrt2$, nên là tam giác đều, và góc đó bằng $60^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P20·4da9]]
+- **Cộng độ dài thay cho cộng vectơ.** Sai: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Vì sao sai: đó là quãng đường con kiến bò, không phải độ dời. Đúng: $|\overrightarrow{AC'}|=\sqrt{50}\approx7{,}07$.
+- **Đo góc khi hai vectơ chưa chung điểm đầu.** Sai: trong hình vuông $ABCD$, viết $(\overrightarrow{AB}, \overrightarrow{BD})=\widehat{ABD}=45^\circ$. Vì sao sai: $\widehat{ABD}$ là góc giữa $\overrightarrow{BA}$ và $\overrightarrow{BD}$, mà $\overrightarrow{BA}=-\overrightarrow{AB}$. Đúng: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
+- **Sai hướng một cạnh trong quy tắc hình hộp.** Sai: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC'}$. Vì sao sai: $\overrightarrow{A'A}=-\overrightarrow{AA'}$, đi xuống chứ không đi lên. Đúng: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$.
+- **Coi tích vô hướng là vectơ.** $\vec{a}\cdot\vec{b}$ là một **số**; viết $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ là sai.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - vectơ trong không gian | vector in space
+  - hai vectơ bằng nhau | equal vectors
+  - hai vectơ đối nhau | opposite vectors
+  - vectơ-không | zero vector
+  - quy tắc hình hộp | parallelepiped rule
+  - tứ diện | tetrahedron
+  - ba vectơ đồng phẳng | coplanar vectors
+  - góc giữa hai vectơ | angle between two vectors
+  - tích vô hướng | scalar product (dot product)
+  :::
+
+## Tóm tắt
+
+[[P21·fec3]]
+- Vectơ, độ dài, vectơ bằng nhau, đối nhau trong không gian định nghĩa như trong mặt phẳng.
+- Quy tắc ba điểm, hình bình hành vẫn đúng; thêm quy tắc hình hộp $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+- Trung điểm $I$ của $AB$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$; trọng tâm $G$: $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$.
+- Góc giữa hai vectơ: đặt chung điểm đầu, góc từ $0^\circ$ đến $180^\circ$.
+- $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos(\vec{a}, \vec{b})$; $\vec{a}^2=|\vec{a}|^2$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- Tính độ dài: biểu diễn vectơ qua các cạnh đã biết rồi bình phương vô hướng.
+
+## Luyện tập
+
+[[P22·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/vectors-in-space – BẢN TIẾNG ANH ########
+---
+title: Vectors and their operations in space
+description: Vectors in space: sum, difference, the parallelepiped rule, scalar multiples and the scalar product, used for lengths and angles in cuboids and tetrahedra.
+minutes: 25
+---
+
+  :::goals
+  - Recognise vectors in space, equal vectors and opposite vectors.
+  - Add and subtract vectors with the triangle rule, the parallelogram rule and the parallelepiped rule.
+  - Multiply a vector by a number and use the midpoint and centroid properties.
+  - Find the angle and the scalar product (dot product) of two vectors, and use them to find lengths and angles and to prove perpendicularity.
+  :::
+
+[[P1·75d2]]
+A classroom is a cuboid $5$ m long, $4$ m wide and $3$ m high. We want to stretch a straight decorative string from one floor corner to the opposite, farthest ceiling corner. In which direction does the string run, and how many metres long must it be?
+
+[[P2·1758]]
+In the plane we described "in which direction, how far" with vectors. This lesson takes vectors into three dimensions, and by the end we will find the length of the string using vector operations alone.
+
+[[P3·2155]]
+The world around us has three dimensions: a drone flies east, then north, then up; three cables pull a heavy load in three different directions; a rafter slopes inside a roof frame. To describe and compute such movements and forces, we need one language for "direction" and "size" in space. Vectors are that language.
+
+## Vectors in space
+
+### Exploring: three journeys instead of one
+
+[[P4·a91e]]
+Call the classroom the cuboid $ABCD.A'B'C'D'$ with $AB=5$, $AD=4$, $AA'=3$ (metres). An ant walks from $A$ to $C'$ along the edges: $5$ m along $AB$, then $4$ m along $BC$, then $3$ m up $CC'$. The string goes straight from $A$ to $C'$.
+
+[[P5·bc59]]
+The two routes have the same start and the same end, so they give **the same displacement**. If we describe each piece of the route by an arrow, the arrow $AC'$ must be the "sum" of the three arrows $AB$, $BC$, $CC'$. To say this precisely, we need vectors in space.
+
+:::diagram The cuboid $ABCD.A'B'C'D'$ and the diagonal $AC'$
+   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Vectors in space
+  - A **vector** in space is a directed line segment. The vector $\overrightarrow{AB}$ has initial point $A$, terminal point $B$ and **length** $|\overrightarrow{AB}|=AB$.
+  - Two vectors are **collinear** (parallel) if their lines are parallel or the same; they then have the same direction or opposite directions.
+  - Two vectors are **equal** if they have the same direction and the same length. Two vectors are **opposite** if they have opposite directions and the same length.
+  - The **zero vector** $\vec{0}$ has its initial point equal to its terminal point, for example $\overrightarrow{AA}$.
+  :::
+
+[[P6·1a79]]
+Every idea is exactly as in the plane; the only difference is that the vectors may now lie in different planes.
+
+[[P7·2680]]
+**A closer look.** A vector is not "stuck" to its position: $\overrightarrow{AA'}$ and $\overrightarrow{CC'}$ are the same vector, because they describe the same movement "up $3$ m". That is why we may "slide" a vector to a convenient place and join it head to tail with others, just as the ant joined three stretches of its route into one. What is new compared with the plane: any two vectors can always be placed in one plane, but three vectors may not be (we then say that the three vectors are not coplanar).
+
+[[P8·5e0d]]
+**Connections.** This lesson extends the vectors and scalar product of grade 10 into space, and uses the cuboids and tetrahedra of grade 11. In the next lesson we attach vectors to the coordinate system $Oxyz$, so that every operation becomes arithmetic on numbers.
+
+  :::example Spotting equal vectors in a parallelepiped
+  Let $ABCD.A'B'C'D'$ be a parallelepiped. Name the vectors other than $\overrightarrow{AA'}$ that are equal to $\overrightarrow{AA'}$ and whose endpoints are vertices of the parallelepiped. Do the same for the vectors opposite to $\overrightarrow{AB}$.
+
+  **Solution.** The four lateral edges $AA'$, $BB'$, $CC'$, $DD'$ are parallel and equal. Taking them from the bottom face to the top face, so that they point the same way as $\overrightarrow{AA'}$, we have
+
+  $$\overrightarrow{AA'}=\overrightarrow{BB'}=\overrightarrow{CC'}=\overrightarrow{DD'}.$$
+
+  The edges parallel to $AB$ are $DC$, $A'B'$, $D'C'$. Since an opposite vector of $\overrightarrow{AB}$ has the opposite direction and the same length, the opposite vectors are
+
+  $$\overrightarrow{BA},\quad \overrightarrow{CD},\quad \overrightarrow{B'A'},\quad \overrightarrow{C'D'}.$$
+
+  So there are $3$ other vectors equal to $\overrightarrow{AA'}$ and $4$ vectors opposite to $\overrightarrow{AB}$.
+  :::
+
+## Sum and difference of two vectors
+
+[[P9·0a6d]]
+The sum of two vectors is defined as in the plane: place them tip to tail and join the first initial point to the last terminal point. Two vectors drawn from a common point always lie in one plane, so all the old rules still hold.
+
+  :::theorem Rules for adding vectors
+  - **Triangle rule:** for any points $A$, $B$, $C$: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$ and $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
+  - **Parallelogram rule:** if $ABCD$ is a parallelogram then $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$.
+  - **Parallelepiped rule:** if $ABCD.A'B'C'D'$ is a parallelepiped then
+  $$\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}.$$
+  :::
+
+[[P10·b7cb]]
+**Why is the parallelepiped rule true?** The face $ABCD$ is a parallelogram, so $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. The section $ACC'A'$ is also a parallelogram, so $\overrightarrow{AC}+\overrightarrow{AA'}=\overrightarrow{AC'}$. Putting the two together finishes the proof. This is exactly the ant's route: $\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}$, because $\overrightarrow{BC}=\overrightarrow{AD}$ and $\overrightarrow{CC'}=\overrightarrow{AA'}$.
+
+[[P11·1e47]]
+The next example shows how to "replace a vector by an equal one" so that vectors join tip to tail.
+
+  :::example Simplifying a vector sum
+  Let $ABCD.A'B'C'D'$ be a parallelepiped. Simplify
+
+  a) $\overrightarrow{AB}+\overrightarrow{B'C'}+\overrightarrow{DD'}$; b) $\overrightarrow{AD'}-\overrightarrow{AB}$.
+
+  **Solution.** a) We have $\overrightarrow{B'C'}=\overrightarrow{BC}$ and $\overrightarrow{DD'}=\overrightarrow{CC'}$ (parallel edges with the same direction and length). Hence
+
+  $$\overrightarrow{AB}+\overrightarrow{BC}+\overrightarrow{CC'}=\overrightarrow{AC'}.$$
+
+  b) Since the two vectors share the initial point $A$, by the subtraction rule we have
+
+  $$\overrightarrow{AD'}-\overrightarrow{AB}=\overrightarrow{BD'}.$$
+
+  So a) equals $\overrightarrow{AC'}$ and b) equals $\overrightarrow{BD'}$.
+  :::
+
+## Multiplying a vector by a number
+
+[[P12·419e]]
+For a number $k\neq0$ and a vector $\vec{a}\neq\vec{0}$, the vector $k\vec{a}$ has the same direction as $\vec{a}$ if $k>0$, the opposite direction if $k<0$, and length $|k|\cdot|\vec{a}|$. The familiar properties still hold; the two used most often are:
+
+[[P13·c13a]]
+- If $I$ is the midpoint of $AB$ then for every point $M$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
+- If $G$ is the centroid of triangle $ABC$ then $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, and for every $M$: $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}=3\overrightarrow{MG}$.
+
+[[P14·a79e]]
+In space the points need not lie in one plane, so we often "take a detour" through points we know.
+
+  :::example The segment joining midpoints of opposite edges
+  Let $ABCD$ be a tetrahedron and let $M$, $N$ be the midpoints of $AB$ and $CD$. Prove that
+  $$\overrightarrow{MN}=\frac12\left(\overrightarrow{AD}+\overrightarrow{BC}\right).$$
+
+  **Solution.** By the triangle rule, we have
+
+  $$\begin{aligned}
+  \overrightarrow{MN}&=\overrightarrow{MA}+\overrightarrow{AD}+\overrightarrow{DN},\\
+  \overrightarrow{MN}&=\overrightarrow{MB}+\overrightarrow{BC}+\overrightarrow{CN}.
+  \end{aligned}$$
+
+  Adding the two equations, and noting that $\overrightarrow{MA}+\overrightarrow{MB}=\vec{0}$ (since $M$ is the midpoint of $AB$) and $\overrightarrow{DN}+\overrightarrow{CN}=\vec{0}$ (since $N$ is the midpoint of $CD$), we get
+
+  $$2\overrightarrow{MN}=\overrightarrow{AD}+\overrightarrow{BC}.$$
+
+  So $\overrightarrow{MN}=\dfrac12\left(\overrightarrow{AD}+\overrightarrow{BC}\right)$.
+  :::
+
+:::diagram The tetrahedron $ABCD$ and the segment $MN$
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::note Three non-coplanar vectors
+[[P15·0b00]]
+Three vectors are **coplanar** if their lines are all parallel to one plane. The three vectors $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ of a parallelepiped are **not** coplanar. Every vector in space can be written in exactly one way as $x\overrightarrow{AB}+y\overrightarrow{AD}+z\overrightarrow{AA'}$. This is the idea that leads to coordinates in space in the next lesson.
+:::
+
+## The scalar product of two vectors
+
+### The angle between two vectors
+
+[[P16·82a5]]
+To measure the angle between $\vec{a}$ and $\vec{b}$ (both non-zero), take any point $O$ and draw $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. Then $(\vec{a}, \vec{b})=\angle AOB$, an angle from $0^\circ$ to $180^\circ$. The key point is that **the two vectors must start at the same point**. For instance in a parallelepiped, $\overrightarrow{A'C'}=\overrightarrow{AC}$, so $(\overrightarrow{AB}, \overrightarrow{A'C'})=(\overrightarrow{AB}, \overrightarrow{AC})=\angle BAC$.
+
+  :::definition The scalar product
+  The scalar product (also called the dot product) of two non-zero vectors $\vec{a}$, $\vec{b}$ is the **number**
+  $$\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b}).$$
+  If one of the vectors is $\vec{0}$ then $\vec{a}\cdot\vec{b}=0$.
+  :::
+
+[[P17·3c31]]
+The scalar product has the same properties as in the plane: it is commutative, distributes over addition, and
+  $$\vec{a}^2=|\vec{a}|^2,\qquad \vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0,\qquad \cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
+
+[[P18·5485]]
+Now we answer the opening question. The edges $AB$, $AD$, $AA'$ of a cuboid are pairwise perpendicular, so the scalar product of any two different edges is $0$.
+
+  :::example The length of the decorative string
+  The cuboid $ABCD.A'B'C'D'$ has $AB=5$, $AD=4$, $AA'=3$ (metres). Find the length $AC'$.
+
+  **Solution.** By the parallelepiped rule, we have $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$. Squaring both sides (scalar square), we get
+
+  $$AC'^2=AB^2+AD^2+AA'^2+2\left(\overrightarrow{AB}\cdot\overrightarrow{AD}+\overrightarrow{AD}\cdot\overrightarrow{AA'}+\overrightarrow{AA'}\cdot\overrightarrow{AB}\right).$$
+
+  Since the three edges are pairwise perpendicular, the three scalar products in the bracket are all $0$. Hence
+
+  $$AC'^2=25+16+9=50,\qquad AC'=\sqrt{50}=5\sqrt2\approx7.07.$$
+
+  So the string is about $7.07$ m long.
+
+  **Look back.** If the room were twice as high ($6$ m), would the string be twice as long? Then $AC'^2=25+16+36=77$ and $AC'\approx8.77$ m, less than $2$ m longer. The length of the diagonal is not proportional to each dimension. The solution also shows that $AC'^2=AB^2+AD^2+AA'^2$ holds only because the three edges are perpendicular: for a slanted parallelepiped the three scalar products in the bracket are not $0$ and must be added.
+  :::
+
+[[P19·1e53]]
+This method works even when the edges are not perpendicular, as long as we know the scalar products. The last example uses it to find an angle in a cube.
+
+  :::example The angle between two face diagonals
+  Let $ABCD.A'B'C'D'$ be a cube with edge $a$. Find the angle $(\overrightarrow{AC}, \overrightarrow{A'D})$.
+
+  **Solution.** The three vectors $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ are pairwise perpendicular and each has length $a$. We have
+
+  $$\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{AD},\qquad \overrightarrow{A'D}=\overrightarrow{AD}-\overrightarrow{AA'}.$$
+
+  Since the scalar product of two different edges is $0$,
+
+  $$\overrightarrow{AC}\cdot\overrightarrow{A'D}=\overrightarrow{AB}\cdot\overrightarrow{AD}-\overrightarrow{AB}\cdot\overrightarrow{AA'}+\overrightarrow{AD}^2-\overrightarrow{AD}\cdot\overrightarrow{AA'}=a^2.$$
+
+  Since $AC$ and $A'D$ are diagonals of squares of side $a$, $AC=A'D=a\sqrt2$. Hence
+
+  $$\cos(\overrightarrow{AC}, \overrightarrow{A'D})=\frac{a^2}{a\sqrt2\cdot a\sqrt2}=\frac12.$$
+
+  So $(\overrightarrow{AC}, \overrightarrow{A'D})=60^\circ$.
+
+  **Look back.** Is there another way to check the result? Since $\overrightarrow{AC}=\overrightarrow{A'C'}$, the angle is $\angle C'A'D$. Triangle $A'C'D$ has three sides that are face diagonals of length $a\sqrt2$, so it is equilateral and that angle is $60^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P20·4c26]]
+- **Adding lengths instead of vectors.** Wrong: $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}|=5+4+3=12$. Why it is wrong: that is the distance the ant walks, not the displacement. Right: $|\overrightarrow{AC'}|=\sqrt{50}\approx7.07$.
+- **Measuring an angle before the vectors share a starting point.** Wrong: in a square $ABCD$, writing $(\overrightarrow{AB}, \overrightarrow{BD})=\angle ABD=45^\circ$. Why it is wrong: $\angle ABD$ is the angle between $\overrightarrow{BA}$ and $\overrightarrow{BD}$, and $\overrightarrow{BA}=-\overrightarrow{AB}$. Right: $(\overrightarrow{AB}, \overrightarrow{BD})=180^\circ-45^\circ=135^\circ$.
+- **One edge in the wrong direction in the parallelepiped rule.** Wrong: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC'}$. Why it is wrong: $\overrightarrow{A'A}=-\overrightarrow{AA'}$ points down, not up. Right: $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{A'A}=\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$.
+- **Treating the scalar product as a vector.** $\vec{a}\cdot\vec{b}$ is a **number**; writing $\overrightarrow{AB}\cdot\overrightarrow{AD}=\overrightarrow{AC}$ is wrong.
+:::
+
+## Key terms
+
+  :::terms
+  - vector in space | vectơ trong không gian
+  - equal vectors | hai vectơ bằng nhau
+  - opposite vectors | hai vectơ đối nhau
+  - zero vector | vectơ-không
+  - parallelepiped rule | quy tắc hình hộp
+  - tetrahedron | tứ diện
+  - coplanar vectors | ba vectơ đồng phẳng
+  - angle between two vectors | góc giữa hai vectơ
+  - scalar product (dot product) | tích vô hướng
+  :::
+
+## Summary
+
+[[P21·7652]]
+- Vectors, length, equal and opposite vectors in space are defined as in the plane.
+- The triangle and parallelogram rules still hold; add the parallelepiped rule $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+- Midpoint $I$ of $AB$: $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$; centroid $G$: $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$.
+- Angle between two vectors: draw them from a common point; the angle is from $0^\circ$ to $180^\circ$.
+- $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos(\vec{a}, \vec{b})$; $\vec{a}^2=|\vec{a}|^2$; $\vec{a}\perp\vec{b}\iff\vec{a}\cdot\vec{b}=0$.
+- To find a length: write the vector in terms of known edges, then square it.
+
+## Practice
+
+[[P22·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

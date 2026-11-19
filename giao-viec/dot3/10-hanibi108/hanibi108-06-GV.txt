@@ -1,0 +1,1704 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-06-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-06-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/act/act-algebra-functions, exams/act/act-geometry, exams/act/act-modelling-integrating, exams/act/act-number-quantity
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-06-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-06-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/act/act-algebra-functions – BẢN TIẾNG VIỆT ########
+---
+title: Đại số và hàm số
+description: ACT Math đại số và hàm số: phương trình và bất phương trình bậc nhất, hệ phương trình, hàm bậc hai, giá trị tuyệt đối, kí hiệu hàm và hàm hợp, mô hình hàm mũ.
+minutes: 45
+---
+
+  :::goals
+  - Lập và giải phương trình, bất phương trình bậc nhất từ bài toán có lời văn.
+  - Giải hệ hai phương trình bậc nhất, nhận ra hệ vô nghiệm hoặc vô số nghiệm.
+  - Phân tích tam thức bậc hai, tìm nghiệm và đỉnh.
+  - Giải phương trình và bất phương trình chứa giá trị tuyệt đối.
+  - Tính giá trị và lập hàm hợp, làm việc với tăng trưởng hàm mũ và logarit.
+  :::
+
+[[P1·f1d7]]
+Đại số và hàm số chiếm phần lớn bài thi ACT Math, và còn xuất hiện bên trong các câu hình học, thống kê và mô hình hoá. Tin vui cho học sinh học chương trình Việt Nam là bản thân phần đại số rất quen thuộc. Kĩ năng cần mài sắc là chuyển nhanh câu tiếng Anh thành phương trình, và đọc đúng điều câu hỏi thật sự yêu cầu: thường không phải $x$, mà là một biểu thức như $x+y$ hay $2x-1$.
+
+## Phương trình và bất phương trình bậc nhất
+
+[[P2·c089]]
+Để chuyển một bài toán có lời văn, hãy đặt tên ẩn, viết một phương trình hoặc bất phương trình, rồi giải. Khi nhân hoặc chia hai vế bất phương trình cho một số âm, phải đổi chiều bất phương trình.
+
+  :::example Bất phương trình về ngân sách
+  Một phòng tập thu phí hội viên $30$ đô la cộng $12$ đô la cho mỗi buổi tập. Lan có $150$ đô la. Lan có thể tham gia nhiều nhất bao nhiêu buổi?
+  A. $12$
+  B. $10$
+  C. $9$
+  D. $15$
+
+  **Lời giải.** Gọi $n$ là số buổi tập. Tổng chi phí là $30+12n$ đô la và không được vượt quá $150$:
+  $$30+12n\le150.$$
+
+  Trừ hai vế cho $30$, ta được $12n\le120$, nên $n\le10$.
+
+  Vậy Lan có thể tham gia nhiều nhất $10$ buổi, chọn đáp án **B**. Phương án A quên phí hội viên.
+  :::
+
+## Hệ phương trình bậc nhất
+
+[[P3·c736]]
+Giải bằng phương pháp thế hoặc cộng đại số. Hệ **vô nghiệm** khi hai đường thẳng song song (cùng hệ số góc, khác tung độ gốc) và **vô số nghiệm** khi hai phương trình biểu diễn cùng một đường thẳng.
+
+  :::example Đề hỏi x + y
+  Nếu $2x+3y=12$ và $x-y=1$ thì giá trị của $x+y$ là
+  A. $5$
+  B. $1$
+  C. $6$
+  D. $4$
+
+  **Lời giải.** Từ phương trình thứ hai, $x=y+1$. Thế vào phương trình thứ nhất, ta được
+  $$2(y+1)+3y=12,$$
+  nên $5y=10$ và $y=2$.
+
+  Khi đó $x=y+1=3$, và $x+y=3+2=5$.
+
+  Vậy $x+y=5$, chọn đáp án **A**. Hãy đọc câu hỏi đến cuối: đề hỏi $x+y$, không phải $x$.
+  :::
+
+## Hàm bậc hai
+
+[[P4·3734]]
+Phân tích thành nhân tử khi các số đơn giản, dùng công thức nghiệm trong trường hợp khác. Với $y=ax^2+bx+c$, đỉnh nằm tại $x=-\dfrac{b}{2a}$; tổng hai nghiệm là $-\dfrac ba$ và tích là $\dfrac ca$.
+
+  :::example Nghiệm của phương trình bậc hai
+  Tổng các nghiệm của $x^2-5x-14=0$ là
+  A. $-5$
+  B. $9$
+  C. $-14$
+  D. $5$
+
+  **Lời giải.** Ta tìm hai số có tích bằng $-14$ và tổng bằng $-5$: đó là $-7$ và $2$. Do đó
+  $$x^2-5x-14=(x-7)(x+2)=0.$$
+
+  Phương trình có hai nghiệm $x=7$ và $x=-2$, tổng của chúng là $7+(-2)=5$.
+
+  Vậy tổng các nghiệm là $5$, chọn đáp án **D**. Kết quả này khớp với $-\dfrac ba=5$.
+  :::
+
+## Giá trị tuyệt đối
+
+[[P5·466b]]
+$|A|<k$ (với $k>0$) nghĩa là $-k<A<k$; $|A|>k$ nghĩa là $A<-k$ hoặc $A>k$; $|A|=k$ nghĩa là $A=k$ hoặc $A=-k$.
+
+  :::example Số nghiệm nguyên của một bất phương trình
+  Có bao nhiêu số nguyên $x$ thoả mãn $|2x-3|<7$?
+  A. $5$
+  B. $7$
+  C. $6$
+  D. $4$
+
+  **Lời giải.** Bất phương trình tương đương với $-7<2x-3<7$.
+
+  Cộng $3$ vào mỗi vế, ta được $-4<2x<10$; chia cho $2$, ta được $-2<x<5$.
+
+  Các số nguyên trong khoảng này là $-1,0,1,2,3,4$, tức là $6$ số.
+
+  Vậy có $6$ số nguyên thoả mãn bất phương trình, chọn đáp án **C**. Hai đầu mút $-2$ và $5$ không thuộc tập nghiệm vì bất phương trình là bất đẳng thức chặt.
+  :::
+
+## Hàm số: kí hiệu, hàm hợp và mô hình hàm mũ
+
+[[P6·c5ee]]
+$f(g(x))$ nghĩa là: thực hiện $g$ trước, rồi đến $f$. Mô hình hàm mũ có dạng $P(t)=P_0\cdot b^{t/k}$; chẳng hạn một đại lượng nhân đôi sau mỗi $k$ đơn vị thời gian là $P_0\cdot2^{t/k}$. Logarit trả lời câu hỏi "luỹ thừa bao nhiêu?": $\log_bx=y$ nghĩa là $b^y=x$.
+
+  :::example Tính giá trị của hàm hợp
+  Cho $f(x)=x^2-1$ và $g(x)=3x+2$. Giá trị của $f\big(g(-1)\big)$ là
+  A. $0$
+  B. $8$
+  C. $-1$
+  D. $2$
+
+  **Lời giải.** Trước hết tính hàm bên trong: $g(-1)=3(-1)+2=-1$.
+
+  Sau đó áp dụng $f$: $f(-1)=(-1)^2-1=0$.
+
+  Vậy $f\big(g(-1)\big)=0$, chọn đáp án **A**.
+  :::
+
+  :::example Vi khuẩn nhân đôi
+  Một mẻ nuôi cấy ban đầu có $500$ vi khuẩn, và số vi khuẩn nhân đôi sau mỗi $3$ giờ. Sau $12$ giờ có bao nhiêu vi khuẩn?
+  A. $4000$
+  B. $2000$
+  C. $8000$
+  D. $6000$
+
+  **Lời giải.** Số vi khuẩn sau $t$ giờ là $P(t)=500\cdot2^{t/3}$.
+
+  Sau $12$ giờ, đã có $\dfrac{12}{3}=4$ lần nhân đôi, nên
+  $$P(12)=500\cdot2^4=500\cdot16=8000.$$
+
+  Vậy sau $12$ giờ có $8000$ vi khuẩn, chọn đáp án **C**. Phương án D cộng thêm $500$ mỗi giờ thay vì nhân đôi.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·43e6]]
+- **Trả lời nhầm đại lượng:** đề hỏi $x+y$, $2x$ hay "nhiều hơn bao nhiêu"; hãy gạch chân điều được hỏi.
+- **Đổi chiều bất phương trình** khi nhân với số âm, hoặc quên đổi.
+- **Bất đẳng thức chặt và không chặt:** dấu $<$ không lấy hai đầu mút.
+- **Thứ tự của hàm hợp:** $f(g(x))$ thực hiện $g$ trước.
+- **Nhầm tăng tuyến tính với tăng theo hàm mũ:** "nhân đôi sau mỗi $3$ giờ" là phép nhân, không phải phép cộng.
+:::
+
+  :::terms
+  - linear equation, inequality | phương trình bậc nhất, bất phương trình
+  - system of equations | hệ phương trình
+  - no solution, infinitely many solutions | vô nghiệm, vô số nghiệm
+  - quadratic, root, vertex | hàm bậc hai, nghiệm, đỉnh
+  - absolute value | giá trị tuyệt đối
+  - function notation, composition | kí hiệu hàm số, hàm hợp
+  - exponential growth | tăng trưởng theo hàm mũ
+  - logarithm | logarit
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-algebra-functions – BẢN TIẾNG ANH ########
+---
+title: Algebra and functions
+description: ACT Math algebra and functions: linear equations and inequalities, systems, quadratics, absolute value, function notation and composition, exponential models.
+minutes: 45
+---
+
+  :::goals
+  - Write and solve linear equations and inequalities from word problems.
+  - Solve systems of two linear equations, and recognize systems with no solution or infinitely many.
+  - Factor quadratics, find their roots and vertex.
+  - Solve absolute value equations and inequalities.
+  - Evaluate and compose functions, and work with exponential growth and logarithms.
+  :::
+
+[[P1·2381]]
+Algebra and functions make up a large part of the ACT Math test, and they also appear inside geometry, statistics and modeling questions. The good news for students from the Vietnamese curriculum is that the algebra itself is familiar. The skills to sharpen are translating English sentences into equations quickly, and reading what a question really asks for: often not $x$, but an expression such as $x+y$ or $2x-1$.
+
+## Linear equations and inequalities
+
+[[P2·6a37]]
+Translate a word problem by naming the unknown, writing one equation or inequality, and solving it. When you multiply or divide an inequality by a negative number, reverse the inequality sign.
+
+  :::example A budget inequality
+  A gym charges a $30$-dollar membership fee plus $12$ dollars per class. Lan has $150$ dollars. What is the greatest number of classes she can take?
+  A. $12$
+  B. $10$
+  C. $9$
+  D. $15$
+
+  **Solution.** Let $n$ be the number of classes. The total cost is $30+12n$ dollars, and it must not exceed $150$:
+  $$30+12n\le150.$$
+
+  Subtracting $30$ gives $12n\le120$, so $n\le10$.
+
+  So Lan can take at most $10$ classes, answer **B**. Option A forgets the membership fee.
+  :::
+
+## Systems of linear equations
+
+[[P3·c270]]
+Solve by substitution or elimination. A system has **no solution** when the lines are parallel (same slope, different intercepts) and **infinitely many** when the equations describe the same line.
+
+  :::example Asking for x + y
+  If $2x+3y=12$ and $x-y=1$, what is the value of $x+y$?
+  A. $5$
+  B. $1$
+  C. $6$
+  D. $4$
+
+  **Solution.** From the second equation, $x=y+1$. Substituting into the first:
+  $$2(y+1)+3y=12,$$
+  so $5y=10$ and $y=2$.
+
+  Then $x=y+1=3$, and $x+y=3+2=5$.
+
+  So $x+y=5$, answer **A**. Read the question to the end: it asks for $x+y$, not for $x$.
+  :::
+
+## Quadratics
+
+[[P4·0923]]
+Factor when the numbers are simple, use the quadratic formula otherwise. For $y=ax^2+bx+c$, the vertex is at $x=-\dfrac{b}{2a}$; the sum of the roots is $-\dfrac ba$ and the product is $\dfrac ca$.
+
+  :::example Roots of a quadratic
+  What is the sum of the solutions of $x^2-5x-14=0$?
+  A. $-5$
+  B. $9$
+  C. $-14$
+  D. $5$
+
+  **Solution.** We look for two numbers with product $-14$ and sum $-5$: they are $-7$ and $2$. So
+  $$x^2-5x-14=(x-7)(x+2)=0.$$
+
+  The solutions are $x=7$ and $x=-2$, and their sum is $7+(-2)=5$.
+
+  So the sum of the solutions is $5$, answer **D**. This agrees with $-\dfrac ba=5$.
+  :::
+
+## Absolute value
+
+[[P5·b908]]
+$|A|<k$ (with $k>0$) means $-k<A<k$; $|A|>k$ means $A<-k$ or $A>k$; $|A|=k$ means $A=k$ or $A=-k$.
+
+  :::example Integers satisfying an inequality
+  How many integers $x$ satisfy $|2x-3|<7$?
+  A. $5$
+  B. $7$
+  C. $6$
+  D. $4$
+
+  **Solution.** The inequality means $-7<2x-3<7$.
+
+  Adding $3$ to every part gives $-4<2x<10$, and dividing by $2$ gives $-2<x<5$.
+
+  The integers in this interval are $-1,0,1,2,3,4$, which is $6$ integers.
+
+  So $6$ integers satisfy the inequality, answer **C**. The endpoints $-2$ and $5$ are not included because the inequality is strict.
+  :::
+
+## Functions: notation, composition and exponential models
+
+[[P6·c523]]
+$f(g(x))$ means: apply $g$ first, then $f$. An exponential model has the form $P(t)=P_0\cdot b^{t/k}$; for example, a quantity that doubles every $k$ units of time is $P_0\cdot2^{t/k}$. A logarithm answers the question "which power?": $\log_bx=y$ means $b^y=x$.
+
+  :::example Evaluating a composition
+  Let $f(x)=x^2-1$ and $g(x)=3x+2$. What is $f\big(g(-1)\big)$?
+  A. $0$
+  B. $8$
+  C. $-1$
+  D. $2$
+
+  **Solution.** First we compute the inner function: $g(-1)=3(-1)+2=-1$.
+
+  Then we apply $f$: $f(-1)=(-1)^2-1=0$.
+
+  So $f\big(g(-1)\big)=0$, answer **A**.
+  :::
+
+  :::example Doubling bacteria
+  A culture starts with $500$ bacteria, and the number doubles every $3$ hours. How many bacteria are there after $12$ hours?
+  A. $4000$
+  B. $2000$
+  C. $8000$
+  D. $6000$
+
+  **Solution.** The number after $t$ hours is $P(t)=500\cdot2^{t/3}$.
+
+  After $12$ hours, $\dfrac{12}{3}=4$ doublings have happened, so
+  $$P(12)=500\cdot2^4=500\cdot16=8000.$$
+
+  So there are $8000$ bacteria after $12$ hours, answer **C**. Option D adds $500$ for each hour instead of doubling.
+  :::
+
+:::warning Common traps
+[[P7·4470]]
+- **Answering the wrong quantity:** the question asks for $x+y$, $2x$ or "how many more"; underline it.
+- **Reversing the inequality** when multiplying by a negative number, or forgetting to.
+- **Strict and non-strict inequalities:** $<$ excludes the endpoints.
+- **Composition order:** $f(g(x))$ applies $g$ first.
+- **Linear instead of exponential:** "doubles every $3$ hours" multiplies; it does not add.
+:::
+
+  :::terms
+  - linear equation, inequality | phương trình bậc nhất, bất phương trình
+  - system of equations | hệ phương trình
+  - no solution, infinitely many solutions | vô nghiệm, vô số nghiệm
+  - quadratic, root, vertex | hàm bậc hai, nghiệm, đỉnh
+  - absolute value | giá trị tuyệt đối
+  - function notation, composition | kí hiệu hàm số, hàm hợp
+  - exponential growth | tăng trưởng theo hàm mũ
+  - logarithm | logarit
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-geometry – BẢN TIẾNG VIỆT ########
+---
+title: Hình học phẳng, toạ độ và lượng giác
+description: ACT Math hình học: tam giác vuông và đồng dạng, đường tròn, diện tích, thể tích, khoảng cách, trung điểm, hệ số góc, phương trình đường tròn, lượng giác.
+minutes: 45
+---
+
+  :::goals
+  - Dùng định lí Pythagoras và tam giác đồng dạng.
+  - Tính diện tích, chu vi, độ dài cung, diện tích hình quạt và thể tích.
+  - Dùng công thức khoảng cách và trung điểm, hệ số góc của hai đường thẳng song song và vuông góc, phương trình đường tròn.
+  - Dùng sin, cos, tan trong tam giác vuông và nhớ các giá trị đặc biệt trên đường tròn đơn vị.
+  :::
+
+[[P1·4027]]
+Câu hỏi hình học trong ACT thường ngắn: một hình vẽ hoặc một mô tả, một hai kiến thức cần áp dụng, và một con số cần tìm. Nhiều học sinh mất điểm không phải vì hình học khó, mà vì không thuộc một công thức hoặc không vẽ nhanh một hình phác. Bài này tập hợp các kiến thức cần có và trình bày một lời giải gọn gàng cho từng dạng câu hỏi.
+
+## Tam giác vuông và tam giác đồng dạng
+
+[[P2·8dca]]
+Trong tam giác vuông có hai cạnh góc vuông $a$, $b$ và cạnh huyền $c$: $a^2+b^2=c^2$. Các bộ ba quen thuộc như $3,4,5$ và $5,12,13$ (cùng các bội của chúng) giúp tiết kiệm thời gian. Trong **tam giác đồng dạng**, các cạnh tương ứng tỉ lệ với nhau.
+
+  :::example Chiếc thang dựa vào tường
+  Một chiếc thang dài $13$ mét dựa vào một bức tường thẳng đứng. Chân thang cách tường $5$ mét. Thang chạm tường ở độ cao bao nhiêu?
+  A. $8$ m
+  B. $12$ m
+  C. $18$ m
+  D. $\sqrt{194}$ m
+
+  **Lời giải.** Chiếc thang, bức tường và mặt đất tạo thành một tam giác vuông có cạnh huyền $13$ m và một cạnh góc vuông $5$ m. Gọi $h$ là độ cao trên tường. Theo định lí Pythagoras,
+  $$h^2+5^2=13^2,$$
+  nên $h^2=169-25=144$ và $h=12$.
+
+  Vậy thang chạm tường ở độ cao $12$ m, chọn đáp án **B**. Phương án D cộng các bình phương thay vì trừ.
+  :::
+
+  :::example Bóng nắng và tam giác đồng dạng
+  Cùng một thời điểm trong ngày, một người cao $1{,}6$ m có bóng dài $2$ m, còn một cái cây có bóng dài $15$ m. Cái cây cao bao nhiêu?
+  A. $18{,}75$ m
+  B. $14{,}6$ m
+  C. $12$ m
+  D. $24$ m
+
+  **Lời giải.** Tia nắng tạo với mặt đất cùng một góc, nên hai tam giác tạo bởi mỗi vật và bóng của nó đồng dạng với nhau. Gọi $h$ là chiều cao của cây. Ta có
+  $$\frac{h}{15}=\frac{1{,}6}{2},$$
+  nên $h=15\times0{,}8=12$.
+
+  Vậy cái cây cao $12$ m, chọn đáp án **C**. Phương án A dùng tỉ số bị đảo ngược.
+  :::
+
+## Đường tròn, diện tích và thể tích
+
+:::note Các công thức cần biết
+[[P3·c85c]]
+Đường tròn: $C=2\pi r$, $A=\pi r^2$; cung hay hình quạt có góc ở tâm $\theta^\circ$ chiếm $\dfrac{\theta}{360}$ cả hình tròn.
+Tam giác: $A=\dfrac12bh$. Hình thang: $A=\dfrac12(a+b)h$. Tổng các góc trong của đa giác $n$ cạnh: $(n-2)\times180^\circ$.
+Hình hộp chữ nhật: $V=lwh$. Hình trụ: $V=\pi r^2h$. Hình nón: $V=\dfrac13\pi r^2h$. Hình cầu: $V=\dfrac43\pi r^3$.
+:::
+
+  :::example Từ chu vi đến hình quạt
+  Một đường tròn có chu vi $10\pi$. Diện tích hình quạt của hình tròn này có góc ở tâm $72^\circ$ là
+  A. $5\pi$
+  B. $2\pi$
+  C. $25\pi$
+  D. $10\pi$
+
+  **Lời giải.** Từ $2\pi r=10\pi$, bán kính là $r=5$, nên diện tích hình tròn là $\pi(5)^2=25\pi$.
+
+  Hình quạt chiếm $\dfrac{72}{360}=\dfrac15$ hình tròn, nên diện tích của nó là
+  $$\frac15\times25\pi=5\pi.$$
+
+  Vậy diện tích hình quạt là $5\pi$, chọn đáp án **A**. Phương án C là diện tích cả hình tròn.
+  :::
+
+## Hình học toạ độ
+
+[[P4·c02b]]
+Với hai điểm $(x_1,y_1)$ và $(x_2,y_2)$: **khoảng cách** là $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, **trung điểm** là $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ và **hệ số góc (slope)** là $\dfrac{y_2-y_1}{x_2-x_1}$. Hai đường thẳng song song có hệ số góc bằng nhau; hai đường thẳng vuông góc có tích hệ số góc bằng $-1$. Đường tròn tâm $(h,k)$ bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$.
+
+  :::example Trung điểm và độ dài
+  Hai đầu mút của một đoạn thẳng là $(-2,5)$ và $(6,-1)$. Trung điểm và độ dài của đoạn thẳng là
+  A. $(4,4)$ và $10$
+  B. $(2,2)$ và $\sqrt{28}$
+  C. $(2,2)$ và $10$
+  D. $(4,-3)$ và $8$
+
+  **Lời giải.** Trung điểm là
+  $$\left(\frac{-2+6}{2},\ \frac{5+(-1)}{2}\right)=(2,2).$$
+
+  Độ dài đoạn thẳng là
+  $$\sqrt{(6-(-2))^2+(-1-5)^2}=\sqrt{64+36}=\sqrt{100}=10.$$
+
+  Vậy trung điểm là $(2,2)$ và độ dài là $10$, chọn đáp án **C**.
+  :::
+
+  :::example Đường thẳng vuông góc
+  Phương trình đường thẳng đi qua $(1,3)$ và vuông góc với $y=2x+1$ là
+  A. $y=2x+1$
+  B. $y=-\dfrac12x+\dfrac72$
+  C. $y=\dfrac12x+\dfrac52$
+  D. $y=-2x+5$
+
+  **Lời giải.** Đường thẳng đã cho có hệ số góc $2$, nên đường thẳng vuông góc với nó có hệ số góc $-\dfrac12$, vì $2\times\left(-\dfrac12\right)=-1$.
+
+  Đường thẳng qua $(1,3)$ có hệ số góc $-\dfrac12$ là $y-3=-\dfrac12(x-1)$, tức là
+  $$y=-\frac12x+\frac72.$$
+
+  Vậy phương trình cần tìm là $y=-\dfrac12x+\dfrac72$, chọn đáp án **B**. Phương án D dùng $-2$ thay vì $-\dfrac12$.
+  :::
+
+## Lượng giác trong tam giác vuông
+
+[[P5·040f]]
+Trong tam giác vuông có góc nhọn $\theta$: $\sin\theta=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\theta=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\theta=\dfrac{\text{đối}}{\text{kề}}$. Hãy nhớ các giá trị tại $30^\circ$, $45^\circ$, $60^\circ$, và hệ thức $\sin^2\theta+\cos^2\theta=1$.
+
+  :::example Từ sin đến tan
+  Trong một tam giác vuông, $\sin\theta=\dfrac35$ với $\theta$ là góc nhọn. Giá trị của $\tan\theta$ là
+  A. $\dfrac45$
+  B. $\dfrac53$
+  C. $\dfrac43$
+  D. $\dfrac34$
+
+  **Lời giải.** Vẽ một tam giác vuông có cạnh đối diện góc $\theta$ bằng $3$ và cạnh huyền bằng $5$. Theo định lí Pythagoras, cạnh kề bằng $\sqrt{25-9}=4$.
+
+  Do đó
+  $$\tan\theta=\frac{\text{đối}}{\text{kề}}=\frac34.$$
+
+  Vậy $\tan\theta=\dfrac34$, chọn đáp án **D**. Phương án A là $\cos\theta$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·3997]]
+- **Cộng thay vì trừ** trong định lí Pythagoras khi đã biết cạnh huyền.
+- **Đường kính hay bán kính:** đề có thể cho một đại lượng mà công thức cần đại lượng kia.
+- **Hệ số góc vuông góc:** lấy số nghịch đảo đổi dấu, không chỉ đổi dấu.
+- **Phần của hình quạt:** dùng $\dfrac{\theta}{360}$ khi góc tính bằng độ.
+- **Chế độ máy tính:** câu lượng giác của ACT dùng độ trừ khi đề ghi radian.
+:::
+
+  :::terms
+  - hypotenuse, leg | cạnh huyền, cạnh góc vuông
+  - Pythagorean theorem | định lí Pythagoras
+  - similar triangles | tam giác đồng dạng
+  - circumference, arc, sector | chu vi đường tròn, cung, hình quạt
+  - midpoint, distance formula | trung điểm, công thức khoảng cách
+  - slope, perpendicular | hệ số góc, vuông góc
+  - sine, cosine, tangent | sin, cos, tan
+  - volume, cylinder, cone, sphere | thể tích, hình trụ, hình nón, hình cầu
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-geometry – BẢN TIẾNG ANH ########
+---
+title: Geometry, coordinates and trigonometry
+description: ACT Math geometry: right and similar triangles, circles, area and volume, distance, midpoint, slopes, circle equations and right-triangle trigonometry.
+minutes: 45
+---
+
+  :::goals
+  - Use the Pythagorean theorem and similar triangles.
+  - Find areas, perimeters, arc lengths, sector areas and volumes.
+  - Use the distance and midpoint formulas, slopes of parallel and perpendicular lines, and the equation of a circle.
+  - Use sine, cosine and tangent in right triangles, and know key values on the unit circle.
+  :::
+
+[[P1·1a44]]
+Geometry questions on the ACT are usually short: a diagram or a description, one or two facts to apply, and a number to find. Many students lose marks not because the geometry is hard but because they do not know a formula by heart or do not draw a quick sketch. This lesson gathers the facts you need and shows a clean solution for each type of question.
+
+## Right triangles and similar triangles
+
+[[P2·3a2d]]
+In a right triangle with legs $a$, $b$ and hypotenuse $c$: $a^2+b^2=c^2$. Common triples such as $3,4,5$ and $5,12,13$ (and their multiples) save time. In **similar triangles**, corresponding sides are in the same ratio.
+
+  :::example A ladder against a wall
+  A $13$-meter ladder leans against a vertical wall. Its foot is $5$ meters from the wall. How high up the wall does the ladder reach?
+  A. $8$ m
+  B. $12$ m
+  C. $18$ m
+  D. $\sqrt{194}$ m
+
+  **Solution.** The ladder, the wall and the ground form a right triangle with hypotenuse $13$ m and one leg $5$ m. Let $h$ be the height on the wall. By the Pythagorean theorem,
+  $$h^2+5^2=13^2,$$
+  so $h^2=169-25=144$ and $h=12$.
+
+  So the ladder reaches $12$ m up the wall, answer **B**. Option D adds the squares instead of subtracting.
+  :::
+
+  :::example Shadows and similar triangles
+  At the same time of day, a person $1.6$ m tall casts a shadow $2$ m long, and a tree casts a shadow $15$ m long. How tall is the tree?
+  A. $18.75$ m
+  B. $14.6$ m
+  C. $12$ m
+  D. $24$ m
+
+  **Solution.** The sun's rays make the same angle with the ground, so the two triangles formed by each object and its shadow are similar. Let $h$ be the height of the tree. Then
+  $$\frac{h}{15}=\frac{1.6}{2},$$
+  so $h=15\times0.8=12$.
+
+  So the tree is $12$ m tall, answer **C**. Option A uses the ratio upside down.
+  :::
+
+## Circles, areas and volumes
+
+:::note Formulas to know
+[[P3·b9e1]]
+Circle: $C=2\pi r$, $A=\pi r^2$; an arc or sector with central angle $\theta^\circ$ is the fraction $\dfrac{\theta}{360}$ of the whole circle.
+Triangle: $A=\dfrac12bh$. Trapezoid: $A=\dfrac12(a+b)h$. Interior angles of an $n$-gon: $(n-2)\times180^\circ$.
+Rectangular box: $V=lwh$. Cylinder: $V=\pi r^2h$. Cone: $V=\dfrac13\pi r^2h$. Sphere: $V=\dfrac43\pi r^3$.
+:::
+
+  :::example From circumference to a sector
+  A circle has circumference $10\pi$. What is the area of a sector of this circle with a central angle of $72^\circ$?
+  A. $5\pi$
+  B. $2\pi$
+  C. $25\pi$
+  D. $10\pi$
+
+  **Solution.** From $2\pi r=10\pi$, the radius is $r=5$, so the area of the circle is $\pi(5)^2=25\pi$.
+
+  The sector is $\dfrac{72}{360}=\dfrac15$ of the circle, so its area is
+  $$\frac15\times25\pi=5\pi.$$
+
+  So the area of the sector is $5\pi$, answer **A**. Option C is the area of the whole circle.
+  :::
+
+## Coordinate geometry
+
+[[P4·8f73]]
+For points $(x_1,y_1)$ and $(x_2,y_2)$: the **distance** is $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$, the **midpoint** is $\left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2}\right)$ and the **slope** is $\dfrac{y_2-y_1}{x_2-x_1}$. Parallel lines have equal slopes; perpendicular lines have slopes whose product is $-1$. A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$.
+
+  :::example Midpoint and distance
+  The endpoints of a segment are $(-2,5)$ and $(6,-1)$. What are the midpoint and the length of the segment?
+  A. $(4,4)$ and $10$
+  B. $(2,2)$ and $\sqrt{28}$
+  C. $(2,2)$ and $10$
+  D. $(4,-3)$ and $8$
+
+  **Solution.** The midpoint is
+  $$\left(\frac{-2+6}{2},\ \frac{5+(-1)}{2}\right)=(2,2).$$
+
+  The length is
+  $$\sqrt{(6-(-2))^2+(-1-5)^2}=\sqrt{64+36}=\sqrt{100}=10.$$
+
+  So the midpoint is $(2,2)$ and the length is $10$, answer **C**.
+  :::
+
+  :::example A perpendicular line
+  Which is the equation of the line through $(1,3)$ that is perpendicular to $y=2x+1$?
+  A. $y=2x+1$
+  B. $y=-\dfrac12x+\dfrac72$
+  C. $y=\dfrac12x+\dfrac52$
+  D. $y=-2x+5$
+
+  **Solution.** The given line has slope $2$, so a perpendicular line has slope $-\dfrac12$, because $2\times\left(-\dfrac12\right)=-1$.
+
+  The line through $(1,3)$ with slope $-\dfrac12$ is $y-3=-\dfrac12(x-1)$, that is
+  $$y=-\frac12x+\frac72.$$
+
+  So the equation is $y=-\dfrac12x+\dfrac72$, answer **B**. Option D uses $-2$ instead of $-\dfrac12$.
+  :::
+
+## Right-triangle trigonometry
+
+[[P5·242f]]
+In a right triangle with acute angle $\theta$: $\sin\theta=\dfrac{\text{opposite}}{\text{hypotenuse}}$, $\cos\theta=\dfrac{\text{adjacent}}{\text{hypotenuse}}$, $\tan\theta=\dfrac{\text{opposite}}{\text{adjacent}}$. Know the values for $30^\circ$, $45^\circ$ and $60^\circ$, and that $\sin^2\theta+\cos^2\theta=1$.
+
+  :::example From sine to tangent
+  In a right triangle, $\sin\theta=\dfrac35$ for an acute angle $\theta$. What is $\tan\theta$?
+  A. $\dfrac45$
+  B. $\dfrac53$
+  C. $\dfrac43$
+  D. $\dfrac34$
+
+  **Solution.** Draw a right triangle with the side opposite $\theta$ equal to $3$ and the hypotenuse equal to $5$. By the Pythagorean theorem, the adjacent side is $\sqrt{25-9}=4$.
+
+  So
+  $$\tan\theta=\frac{\text{opposite}}{\text{adjacent}}=\frac34.$$
+
+  So $\tan\theta=\dfrac34$, answer **D**. Option A is $\cos\theta$.
+  :::
+
+:::warning Common traps
+[[P6·da3f]]
+- **Adding instead of subtracting** in the Pythagorean theorem when the hypotenuse is known.
+- **Diameter or radius:** a question may give one and the formula needs the other.
+- **Perpendicular slope:** take the negative reciprocal, not just the negative.
+- **Sector fractions:** use $\dfrac{\theta}{360}$ for degrees.
+- **Calculator mode:** ACT trigonometry questions use degrees unless radians are stated.
+:::
+
+  :::terms
+  - hypotenuse, leg | cạnh huyền, cạnh góc vuông
+  - Pythagorean theorem | định lí Pythagoras
+  - similar triangles | tam giác đồng dạng
+  - circumference, arc, sector | chu vi đường tròn, cung, hình quạt
+  - midpoint, distance formula | trung điểm, công thức khoảng cách
+  - slope, perpendicular | hệ số góc, vuông góc
+  - sine, cosine, tangent | sin, cos, tan
+  - volume, cylinder, cone, sphere | thể tích, hình trụ, hình nón, hình cầu
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-modelling-integrating – BẢN TIẾNG VIỆT ########
+---
+title: Mô hình hoá và bài tổng hợp
+description: ACT Math mô hình hoá và bài tổng hợp: lập mô hình tuyến tính và hàm mũ, giải thích các tham số, bài toán nhiều bước về tốc độ, thể tích và chi phí.
+minutes: 45
+---
+
+  :::goals
+  - Lập mô hình tuyến tính hoặc hàm mũ từ mô tả hay bảng số liệu, và dùng nó để dự đoán.
+  - Giải thích ý nghĩa các con số trong mô hình theo ngữ cảnh bài toán.
+  - Chọn giữa mô hình tuyến tính và mô hình hàm mũ dựa vào quy luật của dữ liệu.
+  - Giải bài toán nhiều bước kết hợp tốc độ, đơn vị, thể tích, phần trăm và chi phí.
+  :::
+
+[[P1·007f]]
+ACT gắn nhãn **Mô hình hoá (Modeling)** cho một số câu và xếp các câu khác vào **Kĩ năng thiết yếu tổng hợp (Integrating Essential Skills)**. Trên thực tế chúng trông giống nhau: một tình huống thực tế, nhiều mẩu thông tin, và một câu hỏi cần hai ba bước. Phần toán hiếm khi khó hơn các câu khác; cái khó là sắp xếp thông tin. Một quy trình tốt là: gọi tên các đại lượng, viết mô hình hoặc chuỗi phép tính, tính toán, rồi kiểm tra xem đáp số có hợp lí trong ngữ cảnh không.
+
+## Mô hình tuyến tính
+
+[[P2·8efa]]
+Một đại lượng thay đổi **cùng một lượng** sau mỗi bước đơn vị là đại lượng tuyến tính: $y=mx+b$, trong đó $m$ là tốc độ thay đổi và $b$ là giá trị ban đầu (giá trị khi $x=0$).
+
+  :::example Mô hình tuyến tính từ bảng
+  Bảng cho chi phí $C$, tính bằng đô la, để in $n$ chiếc áo phông.
+
+  | $n$ | $0$ | $5$ | $10$ |
+  |---|---|---|---|
+  | $C$ | $40$ | $65$ | $90$ |
+
+  Nếu quy luật tiếp tục, chi phí in $18$ chiếc áo là bao nhiêu?
+  A. $130$ đô la
+  B. $162$ đô la
+  C. $126$ đô la
+  D. $90$ đô la
+
+  **Lời giải.** Mỗi khi in thêm $5$ chiếc áo, chi phí tăng $25$ đô la, nên tốc độ là $\dfrac{25}{5}=5$ đô la mỗi chiếc, và giá trị ban đầu là $C=40$ khi $n=0$. Do đó mô hình là
+  $$C=5n+40.$$
+
+  Với $n=18$: $C=5(18)+40=90+40=130$.
+
+  Vậy chi phí in $18$ chiếc áo là $130$ đô la, chọn đáp án **A**. Phương án C quên chi phí cố định $40$ đô la.
+  :::
+
+## Mô hình hàm mũ
+
+[[P3·c6d5]]
+Một đại lượng thay đổi **cùng một tỉ lệ phần trăm** sau mỗi chu kì là đại lượng hàm mũ: $y=a\cdot b^t$, trong đó $a$ là giá trị ban đầu và $b=1+r$ nếu tăng hoặc $b=1-r$ nếu giảm với tỉ lệ $r$.
+
+  :::example Tăng trưởng lãi kép
+  Linh gửi $2000$ đô la với lãi suất $4\%$ một năm, ghép lãi mỗi năm một lần. Làm tròn đến đô la, khoản tiền sau $10$ năm là bao nhiêu?
+  A. $2800$ đô la
+  B. $2960$ đô la
+  C. $2080$ đô la
+  D. $8000$ đô la
+
+  **Lời giải.** Mỗi năm giá trị được nhân với $1{,}04$, nên sau $10$ năm là
+  $$2000(1{,}04)^{10}\approx2960{,}49.$$
+
+  Vậy khoản tiền có giá trị khoảng $2960$ đô la, chọn đáp án **B**. Phương án A dùng lãi đơn: $2000+10\times80$.
+  :::
+
+  :::example Tuyến tính hay hàm mũ?
+  Một đại lượng nhận các giá trị $3$, $6$, $12$, $24$ tại các thời điểm $0$, $1$, $2$, $3$. Mô hình nào phù hợp với dữ liệu này?
+  A. $y=3x+3$
+  B. $y=6x$
+  C. $y=3\cdot2^x$
+  D. $y=3x^2$
+
+  **Lời giải.** Các hiệu $3$, $6$, $12$ không bằng nhau, nên dữ liệu không tuyến tính. Các tỉ số $\dfrac63=\dfrac{12}{6}=\dfrac{24}{12}=2$ bằng nhau, nên dữ liệu theo hàm mũ với giá trị ban đầu $3$ và tỉ số $2$.
+
+  Kiểm tra: $3\cdot2^3=24$.
+
+  Vậy mô hình là $y=3\cdot2^x$, chọn đáp án **C**.
+  :::
+
+## Giải thích một mô hình
+
+[[P4·2a5d]]
+Trong câu hỏi mô hình hoá, mỗi con số trong công thức đều có ý nghĩa. Số hạng tự do thường là giá trị ban đầu, hệ số của $x$ thường là tốc độ, và cơ số của hàm mũ là hệ số tăng trưởng.
+
+  :::example Số 2 có nghĩa là gì?
+  Độ cao, tính bằng mét, của một quả bóng sau $t$ giây kể từ khi ném là $h(t)=-4{,}9t^2+14{,}7t+2$. Số $2$ biểu thị điều gì?
+  A. Thời điểm quả bóng chạm đất
+  B. Độ cao lớn nhất của quả bóng
+  C. Tốc độ ném quả bóng
+  D. Độ cao từ đó quả bóng được ném
+
+  **Lời giải.** Tại $t=0$, tức lúc ném, $h(0)=2$. Do đó $2$ là độ cao của quả bóng khi rời tay người ném.
+
+  Vậy số $2$ biểu thị độ cao từ đó quả bóng được ném, chọn đáp án **D**.
+  :::
+
+## Bài toán nhiều bước
+
+[[P5·1152]]
+Các câu tổng hợp nối nhiều bước đơn giản. Hãy viết mỗi bước kèm đơn vị để luôn biết mình đang ở đâu.
+
+  :::example Đổ đầy một bể nước
+  Một bể hình hộp chữ nhật kích thước $2$ m, $1{,}5$ m và $1$ m. Nước chảy vào với tốc độ $50$ lít mỗi phút. Bể rỗng cần bao lâu để đầy? ($1$ m³ $=1000$ lít.)
+  A. $6$ phút
+  B. $30$ phút
+  C. $60$ phút
+  D. $150$ phút
+
+  **Lời giải.** Thể tích bể là $2\times1{,}5\times1=3$ m³, tức là $3\times1000=3000$ lít.
+
+  Với tốc độ $50$ lít mỗi phút, thời gian cần là
+  $$\frac{3000}{50}=60\text{ phút}.$$
+
+  Vậy bể đầy sau $60$ phút, chọn đáp án **C**. Phương án A chia $3000$ cho $500$ thay vì $50$. Viết đơn vị ở mỗi bước giúp tránh những lỗi như vậy.
+  :::
+
+  :::example Chi phí xăng cho chuyến đi
+  Một ô tô tiêu thụ $6{,}5$ lít xăng cho mỗi $100$ km. Xăng giá $1{,}20$ đô la mỗi lít. Chi phí xăng cho chuyến đi $340$ km là
+  A. $22{,}10$ đô la
+  B. $26{,}52$ đô la
+  C. $40{,}80$ đô la
+  D. $7{,}80$ đô la
+
+  **Lời giải.** Lượng xăng tiêu thụ là
+  $$\frac{6{,}5}{100}\times340=22{,}1\text{ lít}.$$
+
+  Với giá $1{,}20$ đô la mỗi lít, chi phí là $22{,}1\times1{,}2=26{,}52$ đô la.
+
+  Vậy chi phí xăng cho chuyến đi là $26{,}52$ đô la, chọn đáp án **B**. Phương án A là số lít xăng, không phải chi phí.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·a66e]]
+- **Tuyến tính hay hàm mũ:** xem các hiệu (tuyến tính) và các tỉ số (hàm mũ).
+- **Lãi đơn và lãi kép:** "ghép lãi" (compounded) nghĩa là nhân sau mỗi chu kì.
+- **Đơn vị:** đổi trước khi tính: m³ sang lít, phút sang giờ.
+- **Làm tròn quá sớm** trong một chuỗi bước; chỉ làm tròn đáp số cuối.
+- **Trả lời một đại lượng trung gian:** câu hỏi về chi phí không dừng ở số lít xăng.
+:::
+
+  :::terms
+  - linear model, rate of change | mô hình tuyến tính, tốc độ thay đổi
+  - starting value, intercept | giá trị ban đầu, tung độ gốc
+  - exponential growth, decay | tăng trưởng, suy giảm theo hàm mũ
+  - growth factor | hệ số tăng trưởng
+  - compound interest, simple interest | lãi kép, lãi đơn
+  - break-even point | điểm hoà vốn
+  - unit conversion | đổi đơn vị
+  - interpret | giải thích ý nghĩa
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-modelling-integrating – BẢN TIẾNG ANH ########
+---
+title: Modelling and integrating skills
+description: ACT Math modeling and integrated questions: building linear and exponential models, interpreting parameters, multi-step rate, volume and cost problems.
+minutes: 45
+---
+
+  :::goals
+  - Build a linear or exponential model from a description or a table, and use it to predict.
+  - Interpret the numbers in a model in the context of the problem.
+  - Choose between linear and exponential models from the pattern in data.
+  - Solve multi-step problems that combine rates, units, volume, percentages and cost.
+  :::
+
+[[P1·d38a]]
+ACT labels some questions **Modeling** and groups others as **Integrating Essential Skills**. In practice they look alike: a realistic situation, several pieces of information, and a question that needs two or three steps. The mathematics is rarely harder than in other questions; what makes them hard is organizing the information. A good routine is: name the quantities, write the model or the chain of calculations, compute, and check that the answer makes sense in context.
+
+## Linear models
+
+[[P2·ff3b]]
+A quantity that changes by the **same amount** for each unit step is linear: $y=mx+b$, where $m$ is the rate of change and $b$ is the starting value (the value when $x=0$).
+
+  :::example A linear model from a table
+  The table shows the cost $C$, in dollars, of printing $n$ T-shirts.
+
+  | $n$ | $0$ | $5$ | $10$ |
+  |---|---|---|---|
+  | $C$ | $40$ | $65$ | $90$ |
+
+  If the pattern continues, what is the cost of printing $18$ T-shirts?
+  A. $130$ dollars
+  B. $162$ dollars
+  C. $126$ dollars
+  D. $90$ dollars
+
+  **Solution.** Each increase of $5$ T-shirts adds $25$ dollars, so the rate is $\dfrac{25}{5}=5$ dollars per T-shirt, and the starting value is $C=40$ when $n=0$. So the model is
+  $$C=5n+40.$$
+
+  For $n=18$: $C=5(18)+40=90+40=130$.
+
+  So printing $18$ T-shirts costs $130$ dollars, answer **A**. Option C forgets the fixed cost of $40$ dollars.
+  :::
+
+## Exponential models
+
+[[P3·fc50]]
+A quantity that changes by the **same percentage** each period is exponential: $y=a\cdot b^t$, where $a$ is the starting value and $b=1+r$ for growth or $b=1-r$ for decay at rate $r$.
+
+  :::example Compound growth
+  Linh invests $2000$ dollars at $4\%$ interest compounded once a year. To the nearest dollar, what is the investment worth after $10$ years?
+  A. $2800$ dollars
+  B. $2960$ dollars
+  C. $2080$ dollars
+  D. $8000$ dollars
+
+  **Solution.** Each year the value is multiplied by $1.04$, so after $10$ years it is
+  $$2000(1.04)^{10}\approx2960.49.$$
+
+  So the investment is worth about $2960$ dollars, answer **B**. Option A uses simple interest: $2000+10\times80$.
+  :::
+
+  :::example Linear or exponential?
+  A quantity takes the values $3$, $6$, $12$, $24$ at times $0$, $1$, $2$, $3$. Which model fits these data?
+  A. $y=3x+3$
+  B. $y=6x$
+  C. $y=3\cdot2^x$
+  D. $y=3x^2$
+
+  **Solution.** The differences $3$, $6$, $12$ are not constant, so the data are not linear. The ratios $\dfrac63=\dfrac{12}{6}=\dfrac{24}{12}=2$ are constant, so the data are exponential with starting value $3$ and ratio $2$.
+
+  Check: $3\cdot2^3=24$.
+
+  So the model is $y=3\cdot2^x$, answer **C**.
+  :::
+
+## Interpreting a model
+
+[[P4·ee1f]]
+In a modeling question, every number in the formula has a meaning. The constant term is usually a starting value, a coefficient of $x$ is usually a rate, and the base of an exponential is a growth factor.
+
+  :::example What does the 2 mean?
+  The height, in meters, of a ball $t$ seconds after it is thrown is $h(t)=-4.9t^2+14.7t+2$. What does the number $2$ represent?
+  A. The time when the ball lands
+  B. The maximum height of the ball
+  C. The speed at which the ball is thrown
+  D. The height from which the ball is thrown
+
+  **Solution.** At $t=0$, the moment of the throw, $h(0)=2$. So $2$ is the height of the ball when it leaves the thrower's hand.
+
+  So the number $2$ represents the height from which the ball is thrown, answer **D**.
+  :::
+
+## Multi-step problems
+
+[[P5·dcea]]
+Integrated questions chain several simple steps. Write each step with its units so that you can see where you are.
+
+  :::example Filling a tank
+  A rectangular tank measures $2$ m by $1.5$ m by $1$ m. Water flows in at $50$ liters per minute. How long does it take to fill the empty tank? ($1$ m³ $=1000$ liters.)
+  A. $6$ minutes
+  B. $30$ minutes
+  C. $60$ minutes
+  D. $150$ minutes
+
+  **Solution.** The volume of the tank is $2\times1.5\times1=3$ m³, which is $3\times1000=3000$ liters.
+
+  At $50$ liters per minute, the time is
+  $$\frac{3000}{50}=60\text{ minutes}.$$
+
+  So the tank fills in $60$ minutes, answer **C**. Option A divides $3000$ by $500$ instead of $50$. Writing the units at each step prevents such errors.
+  :::
+
+  :::example The cost of a trip
+  A car uses $6.5$ liters of fuel per $100$ km. Fuel costs $1.20$ dollars per liter. What is the fuel cost of a $340$-km trip?
+  A. $22.10$ dollars
+  B. $26.52$ dollars
+  C. $40.80$ dollars
+  D. $7.80$ dollars
+
+  **Solution.** The fuel used is
+  $$\frac{6.5}{100}\times340=22.1\text{ liters}.$$
+
+  At $1.20$ dollars per liter, the cost is $22.1\times1.2=26.52$ dollars.
+
+  So the fuel for the trip costs $26.52$ dollars, answer **B**. Option A is the number of liters, not the cost.
+  :::
+
+:::warning Common traps
+[[P6·e841]]
+- **Linear or exponential:** look at differences (linear) and ratios (exponential).
+- **Simple and compound interest:** "compounded" means multiply each period.
+- **Units:** convert before you compute: m³ to liters, minutes to hours.
+- **Rounding too early** in a chain of steps; round only the final answer.
+- **Answering an intermediate quantity:** a question about cost does not end at the number of liters.
+:::
+
+  :::terms
+  - linear model, rate of change | mô hình tuyến tính, tốc độ thay đổi
+  - starting value, intercept | giá trị ban đầu, tung độ gốc
+  - exponential growth, decay | tăng trưởng, suy giảm theo hàm mũ
+  - growth factor | hệ số tăng trưởng
+  - compound interest, simple interest | lãi kép, lãi đơn
+  - break-even point | điểm hoà vốn
+  - unit conversion | đổi đơn vị
+  - interpret | giải thích ý nghĩa
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-number-quantity – BẢN TIẾNG VIỆT ########
+---
+title: Số, đại lượng và tỉ lệ
+description: ACT Math phần số và đại lượng: thay đổi phần trăm, tỉ số và tỉ lệ thức, tốc độ và đổi đơn vị, luỹ thừa và căn thức, kí hiệu khoa học, số phức.
+minutes: 45
+---
+
+  :::goals
+  - Tính phần trăm, các lần thay đổi phần trăm liên tiếp và bài toán tìm giá trị ban đầu.
+  - Giải bài toán tỉ số, tỉ lệ thức và tỉ lệ bản đồ.
+  - Đổi đơn vị và làm việc với tốc độ.
+  - Rút gọn biểu thức chứa luỹ thừa và căn thức, dùng kí hiệu khoa học.
+  - Cộng, nhân số phức và rút gọn luỹ thừa của $i$.
+  :::
+
+[[P1·7ea0]]
+Các câu về số và đại lượng là những điểm nhanh nhất của ACT, nhưng cũng là nơi lỗi cẩu thả gây thiệt hại nhiều nhất: tính phần trăm trên nhầm đại lượng, quên đổi đơn vị, mất dấu khi tính luỹ thừa của $i$. Bài này tập hợp những ý cần biết và cho thấy cách trình bày một lời giải nhanh, chắc chắn cho từng dạng.
+
+## Phần trăm
+
+[[P2·9a56]]
+Thay đổi $p\%$ nghĩa là nhân đại lượng với một **hệ số nhân (multiplier)**: tăng $p\%$ thì nhân với $1+\dfrac{p}{100}$, giảm $p\%$ thì nhân với $1-\dfrac{p}{100}$. Các lần thay đổi liên tiếp nhân các hệ số với nhau, nên không thể cộng đơn giản.
+
+  :::example Tăng 20% rồi giảm 20%
+  Một chiếc áo khoác giá $50$ đô la. Giá được tăng $20\%$, sau đó giá mới lại giảm $20\%$. Giá cuối cùng là bao nhiêu?
+  A. $50$ đô la
+  B. $48$ đô la
+  C. $46$ đô la
+  D. $52$ đô la
+
+  **Lời giải.** Lần tăng nhân giá với $1{,}2$ và lần giảm nhân giá với $0{,}8$.
+
+  Do đó giá cuối cùng là
+  $$50\times1{,}2\times0{,}8=50\times0{,}96=48.$$
+
+  Vậy giá cuối cùng là $48$ đô la, chọn đáp án **B**. Phương án A cho rằng $+20\%$ và $-20\%$ triệt tiêu nhau.
+  :::
+
+## Tỉ số, tỉ lệ thức và tỉ lệ bản đồ
+
+[[P3·c0df]]
+Nếu hai đại lượng có tỉ số $a:b$, hãy viết chúng là $ak$ và $bk$ với một số $k$ nào đó. Với tỉ lệ thức $\dfrac ab=\dfrac cd$, nhân chéo: $ad=bc$.
+
+  :::example Tỉ lệ bản đồ
+  Trên một bản đồ, $1$ cm ứng với $2{,}5$ km. Hai thị trấn cách nhau $7{,}2$ cm trên bản đồ. Khoảng cách thực tế giữa chúng là bao nhiêu?
+  A. $18$ km
+  B. $2{,}88$ km
+  C. $9{,}7$ km
+  D. $180$ km
+
+  **Lời giải.** Mỗi xăng-ti-mét trên bản đồ ứng với $2{,}5$ km, nên $7{,}2$ cm ứng với
+  $$7{,}2\times2{,}5=18\text{ km}.$$
+
+  Vậy hai thị trấn cách nhau $18$ km, chọn đáp án **A**. Phương án B chia thay vì nhân.
+  :::
+
+## Tốc độ và đổi đơn vị
+
+[[P4·5481]]
+Hãy viết đơn vị ở mọi bước và rút gọn chúng như các con số. Chẳng hạn $1$ km $=1000$ m và $1$ h $=3600$ s, nên để đổi km/h sang m/s ta nhân với $\dfrac{1000}{3600}=\dfrac{1}{3{,}6}$.
+
+  :::example Từ km/h sang m/s
+  Một đoàn tàu chạy với tốc độ $72$ km/h. Tốc độ của nó tính bằng mét mỗi giây là bao nhiêu?
+  A. $259{,}2$
+  B. $7{,}2$
+  C. $20$
+  D. $1{,}2$
+
+  **Lời giải.** Ta đổi ki-lô-mét sang mét và giờ sang giây:
+  $$72\ \frac{\text{km}}{\text{h}}=\frac{72\times1000\text{ m}}{3600\text{ s}}=20\ \frac{\text{m}}{\text{s}}.$$
+
+  Vậy tốc độ của tàu là $20$ m/s, chọn đáp án **C**. Phương án A nhân với $3{,}6$ thay vì chia.
+  :::
+
+## Luỹ thừa, căn thức và kí hiệu khoa học
+
+:::note Các quy tắc cần nhớ
+[[P5·1793]]
+$$a^ma^n=a^{m+n},\qquad\frac{a^m}{a^n}=a^{m-n},\qquad\left(a^m\right)^n=a^{mn},\qquad a^{-n}=\frac{1}{a^n},$$
+$$\sqrt{ab}=\sqrt a\sqrt b,\qquad a^{1/n}=\sqrt[n]{a}.$$
+Một số viết dưới dạng kí hiệu khoa học có dạng $a\times10^n$ với $1\le a<10$.
+:::
+
+  :::example Luỹ thừa của 2 và tổng căn thức
+  Biểu thức nào sau đây bằng $\dfrac{2^5\cdot4^3}{8^3}$?
+  A. $2$
+  B. $8$
+  C. $16$
+  D. $4$
+
+  **Lời giải.** Ta viết mọi thừa số dưới dạng luỹ thừa của $2$: $4^3=\left(2^2\right)^3=2^6$ và $8^3=\left(2^3\right)^3=2^9$.
+
+  Khi đó
+  $$\frac{2^5\cdot2^6}{2^9}=2^{5+6-9}=2^2=4.$$
+
+  Vậy biểu thức bằng $4$, chọn đáp án **D**.
+
+  Tương tự, căn thức được rút gọn bằng cách đưa thừa số chính phương ra ngoài: $\sqrt{50}+\sqrt{18}=5\sqrt2+3\sqrt2=8\sqrt2$.
+  :::
+
+  :::example Kí hiệu khoa học
+  Kết quả của $\dfrac{6\times10^8}{3\times10^{-2}}$ viết dưới dạng kí hiệu khoa học là
+  A. $2\times10^{6}$
+  B. $2\times10^{10}$
+  C. $3\times10^{10}$
+  D. $2\times10^{-16}$
+
+  **Lời giải.** Ta chia riêng phần số và phần luỹ thừa của $10$:
+  $$\frac{6}{3}\times10^{8-(-2)}=2\times10^{10}.$$
+
+  Vậy kết quả là $2\times10^{10}$, chọn đáp án **B**. Phương án A tính $8-2$ mà bỏ qua dấu âm.
+  :::
+
+## Số phức
+
+[[P6·69da]]
+Số $i$ thoả mãn $i^2=-1$. Cộng hai số phức bằng cách cộng phần thực với nhau và phần ảo với nhau; nhân chúng như nhân hai nhị thức rồi thay $i^2$ bởi $-1$. Các luỹ thừa của $i$ lặp lại với chu kì $4$: $i,-1,-i,1$.
+
+  :::example Nhân hai số phức
+  Biểu thức nào sau đây bằng $(3+2i)(1-i)$?
+  A. $5-i$
+  B. $3-2i$
+  C. $1+i$
+  D. $5+i$
+
+  **Lời giải.** Ta khai triển tích như nhân hai nhị thức:
+  $$(3+2i)(1-i)=3-3i+2i-2i^2.$$
+
+  Vì $i^2=-1$ nên số hạng $-2i^2$ bằng $+2$, do đó tích bằng $3+2-i=5-i$.
+
+  Vậy $(3+2i)(1-i)=5-i$, chọn đáp án **A**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·5159]]
+- **Cộng các phần trăm:** tăng $20\%$ rồi giảm $20\%$ là giảm $4\%$, không phải $0\%$.
+- **Gốc của phần trăm:** "nhiều hơn $x$ là $25\%$" là $1{,}25x$, còn "$x$ nhiều hơn $y$ là $25\%$" nghĩa là $x=1{,}25y$.
+- **Đổi đơn vị ngược chiều:** kiểm tra xem các đơn vị rút gọn có ra đúng đơn vị cần tìm không.
+- **Quy tắc luỹ thừa với cơ số khác nhau:** hãy đưa về cùng cơ số trước.
+- **Luỹ thừa của $i$:** chia số mũ cho $4$ và dùng số dư.
+:::
+
+  :::terms
+  - percent increase / decrease | tăng / giảm phần trăm
+  - multiplier | hệ số nhân
+  - ratio, proportion | tỉ số, tỉ lệ thức
+  - scale | tỉ lệ bản đồ
+  - rate, unit conversion | tốc độ, đổi đơn vị
+  - exponent, radical | số mũ, căn thức
+  - scientific notation | kí hiệu khoa học
+  - complex number, imaginary unit | số phức, đơn vị ảo
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-number-quantity – BẢN TIẾNG ANH ########
+---
+title: Number, quantity and proportion
+description: ACT Math number and quantity: percent change, ratios and proportions, rates and unit conversion, exponents and radicals, scientific notation, complex numbers.
+minutes: 45
+---
+
+  :::goals
+  - Calculate percentages, successive percent changes and reverse percentages.
+  - Solve ratio, proportion and scale problems.
+  - Convert units and work with rates.
+  - Simplify expressions with exponents and radicals, and use scientific notation.
+  - Add and multiply complex numbers and simplify powers of $i$.
+  :::
+
+[[P1·8cf2]]
+Number and quantity questions are some of the fastest marks on the ACT, but they are also where careless errors cost the most: a percent applied to the wrong amount, a unit left unconverted, a sign lost in a power of $i$. This lesson collects the ideas you need and shows how to set out a quick, reliable solution for each type.
+
+## Percentages
+
+[[P2·fd0c]]
+A change of $p\%$ multiplies a quantity by a **multiplier**: an increase of $p\%$ multiplies by $1+\dfrac{p}{100}$, a decrease by $1-\dfrac{p}{100}$. Successive changes multiply their multipliers, so they do not simply add.
+
+  :::example Up 20%, then down 20%
+  A jacket costs $50$ dollars. Its price is increased by $20\%$, and later the new price is decreased by $20\%$. What is the final price?
+  A. $50$ dollars
+  B. $48$ dollars
+  C. $46$ dollars
+  D. $52$ dollars
+
+  **Solution.** The increase multiplies the price by $1.2$ and the decrease multiplies it by $0.8$.
+
+  So the final price is
+  $$50\times1.2\times0.8=50\times0.96=48.$$
+
+  So the final price is $48$ dollars, answer **B**. Option A assumes that $+20\%$ and $-20\%$ cancel out.
+  :::
+
+## Ratios, proportions and scale
+
+[[P3·e1a1]]
+If two quantities are in the ratio $a:b$, write them as $ak$ and $bk$ for some number $k$. For a proportion $\dfrac ab=\dfrac cd$, cross-multiply: $ad=bc$.
+
+  :::example A map scale
+  On a map, $1$ cm represents $2.5$ km. Two towns are $7.2$ cm apart on the map. What is the actual distance between them?
+  A. $18$ km
+  B. $2.88$ km
+  C. $9.7$ km
+  D. $180$ km
+
+  **Solution.** Each centimeter on the map represents $2.5$ km, so $7.2$ cm represents
+  $$7.2\times2.5=18\text{ km}.$$
+
+  So the towns are $18$ km apart, answer **A**. Option B divides instead of multiplying.
+  :::
+
+## Rates and unit conversion
+
+[[P4·2f75]]
+Write units in every step and cancel them like numbers. For example, $1$ km $=1000$ m and $1$ h $=3600$ s, so to convert km/h to m/s, multiply by $\dfrac{1000}{3600}=\dfrac{1}{3.6}$.
+
+  :::example From km/h to m/s
+  A train travels at $72$ km/h. What is its speed in meters per second?
+  A. $259.2$
+  B. $7.2$
+  C. $20$
+  D. $1.2$
+
+  **Solution.** We convert kilometers to meters and hours to seconds:
+  $$72\ \frac{\text{km}}{\text{h}}=\frac{72\times1000\text{ m}}{3600\text{ s}}=20\ \frac{\text{m}}{\text{s}}.$$
+
+  So the speed is $20$ m/s, answer **C**. Option A multiplies by $3.6$ instead of dividing.
+  :::
+
+## Exponents, radicals and scientific notation
+
+:::note Rules to know
+[[P5·18b0]]
+$$a^ma^n=a^{m+n},\qquad\frac{a^m}{a^n}=a^{m-n},\qquad\left(a^m\right)^n=a^{mn},\qquad a^{-n}=\frac{1}{a^n},$$
+$$\sqrt{ab}=\sqrt a\sqrt b,\qquad a^{1/n}=\sqrt[n]{a}.$$
+A number in scientific notation has the form $a\times10^n$ with $1\le a<10$.
+:::
+
+  :::example Powers of 2 and a radical sum
+  Which of the following is equal to $\dfrac{2^5\cdot4^3}{8^3}$?
+  A. $2$
+  B. $8$
+  C. $16$
+  D. $4$
+
+  **Solution.** We write every factor as a power of $2$: $4^3=\left(2^2\right)^3=2^6$ and $8^3=\left(2^3\right)^3=2^9$.
+
+  Then
+  $$\frac{2^5\cdot2^6}{2^9}=2^{5+6-9}=2^2=4.$$
+
+  So the expression equals $4$, answer **D**.
+
+  In the same way, radicals are simplified by taking out square factors: $\sqrt{50}+\sqrt{18}=5\sqrt2+3\sqrt2=8\sqrt2$.
+  :::
+
+  :::example Scientific notation
+  What is $\dfrac{6\times10^8}{3\times10^{-2}}$ in scientific notation?
+  A. $2\times10^{6}$
+  B. $2\times10^{10}$
+  C. $3\times10^{10}$
+  D. $2\times10^{-16}$
+
+  **Solution.** We divide the numbers and the powers of $10$ separately:
+  $$\frac{6}{3}\times10^{8-(-2)}=2\times10^{10}.$$
+
+  So the result is $2\times10^{10}$, answer **B**. Option A subtracts $8-2$ and ignores the negative sign.
+  :::
+
+## Complex numbers
+
+[[P6·8e29]]
+The number $i$ satisfies $i^2=-1$. Add complex numbers by adding real parts and imaginary parts; multiply them like binomials and then replace $i^2$ by $-1$. Powers of $i$ repeat with period $4$: $i,-1,-i,1$.
+
+  :::example Multiplying complex numbers
+  Which of the following is equal to $(3+2i)(1-i)$?
+  A. $5-i$
+  B. $3-2i$
+  C. $1+i$
+  D. $5+i$
+
+  **Solution.** We expand the product like two binomials:
+  $$(3+2i)(1-i)=3-3i+2i-2i^2.$$
+
+  Since $i^2=-1$, the term $-2i^2$ equals $+2$, so the product is $3+2-i=5-i$.
+
+  So $(3+2i)(1-i)=5-i$, answer **A**.
+  :::
+
+:::warning Common traps
+[[P7·3182]]
+- **Adding percentages:** a $20\%$ rise followed by a $20\%$ fall is a $4\%$ fall, not $0\%$.
+- **The base of a percentage:** "$25\%$ more than $x$" is $1.25x$, but "$x$ is $25\%$ more than $y$" means $x=1.25y$.
+- **Unit conversions upside down:** check that the units cancel to what you want.
+- **Exponent rules with different bases:** convert to a common base first.
+- **Powers of $i$:** divide the exponent by $4$ and use the remainder.
+:::
+
+  :::terms
+  - percent increase / decrease | tăng / giảm phần trăm
+  - multiplier | hệ số nhân
+  - ratio, proportion | tỉ số, tỉ lệ thức
+  - scale | tỉ lệ bản đồ
+  - rate, unit conversion | tốc độ, đổi đơn vị
+  - exponent, radical | số mũ, căn thức
+  - scientific notation | kí hiệu khoa học
+  - complex number, imaginary unit | số phức, đơn vị ảo
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,356 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-09-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-09-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-09-LG
+Người làm: tài khoản Nguyenchanh2358. Gói này có 9 bài tập thuộc 1 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Nguyenchanh2358-09-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/1). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-09-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g8/triangle-similarity-conditions (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g8/triangle-similarity-conditions
+Bài học: Ba trường hợp đồng dạng của hai tam giác / The three similarity conditions for triangles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có các cạnh $5$, $12$, $13$ và $\triangle DEF$ có các cạnh $10$, $24$, $26$. Hai tam giác có đồng dạng không? Nêu tỉ số.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. Ba tỉ số bằng nhau nên hai tam giác đồng dạng (c.c.c) với tỉ số $2$.
+
+**Đáp số.** Đồng dạng, tỉ số $2$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has sides $5$, $12$, $13$ and triangle $DEF$ has sides $10$, $24$, $26$. Are the triangles similar? State the scale factor.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. The three ratios are equal, so the triangles are similar (SSS) with scale factor $2$.
+
+**Answer.** Similar, scale factor $2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hai tam giác có các cạnh $3$, $5$, $7$ và $6$, $10$, $15$ có đồng dạng không?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac63=2$, $\dfrac{10}{5}=2$ nhưng $\dfrac{15}{7}\neq2$. Ba tỉ số không bằng nhau nên hai tam giác không đồng dạng.
+
+**Đáp số.** Không đồng dạng.
+
+[ĐỀ – EN]
+Are two triangles with sides $3$, $5$, $7$ and $6$, $10$, $15$ similar?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac63=2$, $\dfrac{10}{5}=2$ but $\dfrac{15}{7}\neq2$. The three ratios are not equal, so the triangles are not similar.
+
+**Answer.** Not similar.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có $AB=4$, $AC=6$, $\widehat A=60^\circ$ và $\triangle A'B'C'$ có $A'B'=6$, $A'C'=9$, $\widehat{A'}=60^\circ$. Chứng minh hai tam giác đồng dạng. Nếu $BC=5$, tính $B'C'$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ và góc xen giữa $\widehat{A'}=\widehat A=60^\circ$. Theo c.g.c, $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Do đó $B'C'=\dfrac32\cdot5=7{,}5$.
+
+**Đáp số.** Đồng dạng; $B'C'=7{,}5$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $AB=4$, $AC=6$, $\angle A=60^\circ$ and triangle $A'B'C'$ has $A'B'=6$, $A'C'=9$, $\angle A'=60^\circ$. Prove that the triangles are similar. If $BC=5$, find $B'C'$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ and the included angle $\angle A'=\angle A=60^\circ$. By SAS, $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. Hence $B'C'=\dfrac32\cdot5=7.5$.
+
+**Answer.** Similar; $B'C'=7.5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có $\widehat A=50^\circ$, $\widehat B=70^\circ$ và $\triangle MNP$ có $\widehat M=50^\circ$, $\widehat P=60^\circ$. Chứng minh hai tam giác đồng dạng và viết đúng thứ tự đỉnh.
+
+[LỜI GIẢI CŨ – VI]
+Trong $\triangle ABC$: $\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. Trong $\triangle MNP$: $\widehat N=180^\circ-50^\circ-60^\circ=70^\circ$. Ta có $\widehat A=\widehat M$, $\widehat B=\widehat N$, $\widehat C=\widehat P$. Theo g.g, $\triangle ABC\sim\triangle MNP$.
+
+**Đáp số.** $\triangle ABC\sim\triangle MNP$ (g.g).
+
+[ĐỀ – EN]
+Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$ and triangle $MNP$ has $\angle M=50^\circ$, $\angle P=60^\circ$. Prove that the triangles are similar and write the vertices in the correct order.
+
+[LỜI GIẢI CŨ – EN]
+In $\triangle ABC$: $\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. In $\triangle MNP$: $\angle N=180^\circ-50^\circ-60^\circ=70^\circ$. We have $\angle A=\angle M$, $\angle B=\angle N$, $\angle C=\angle P$. By AA, $\triangle ABC\sim\triangle MNP$.
+
+**Answer.** $\triangle ABC\sim\triangle MNP$ (AA).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$; tam giác $DEF$ vuông tại $D$ có $DE=6$, $DF=8$. Chứng minh hai tam giác đồng dạng và tính $EF$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac63=\dfrac84=2$ và hai góc vuông xen giữa bằng nhau, nên $\triangle DEF\sim\triangle ABC$ (c.g.c) với tỉ số $2$. Theo định lí Pythagore, $BC=5$. Do đó $EF=2\cdot5=10$.
+
+**Đáp số.** Đồng dạng, $EF=10$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $AB=3$, $AC=4$; triangle $DEF$ is right-angled at $D$ with $DE=6$, $DF=8$. Prove that the triangles are similar and find $EF$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac63=\dfrac84=2$ and the two right angles (included) are equal, so $\triangle DEF\sim\triangle ABC$ (SAS) with scale factor $2$. By Pythagoras' theorem, $BC=5$. Hence $EF=2\cdot5=10$.
+
+**Answer.** Similar, $EF=10$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$, điểm $D$ trên cạnh $AC$ sao cho $\widehat{ABD}=\widehat{ACB}$. Biết $AB=10$, $AD=5$. Tính $AC$ và $DC$.
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác $ABD$ và $ACB$ có góc $A$ chung và $\widehat{ABD}=\widehat{ACB}$ nên đồng dạng (g.g). Suy ra $AB^2=AD\cdot AC$, tức $100=5\cdot AC$ và $AC=20$. Do đó $DC=20-5=15$.
+
+**Đáp số.** $AC=20$; $DC=15$.
+
+[ĐỀ – EN]
+In $\triangle ABC$, the point $D$ lies on side $AC$ with $\angle ABD=\angle ACB$. Given $AB=10$ and $AD=5$, find $AC$ and $DC$.
+
+[LỜI GIẢI CŨ – EN]
+Triangles $ABD$ and $ACB$ share the angle $A$ and have $\angle ABD=\angle ACB$, so they are similar (AA). Hence $AB^2=AD\cdot AC$, that is $100=5\cdot AC$ and $AC=20$. So $DC=20-5=15$.
+
+**Answer.** $AC=20$; $DC=15$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử để đo khoảng cách $AB$ giữa hai điểm hai bên một cái hồ, người ta chọn điểm $O$ rồi đo $OA=90$ m, $OB=120$ m. Lấy $A'\in OA$ với $OA'=30$ m, $B'\in OB$ với $OB'=40$ m và đo $A'B'=25$ m. Tính $AB$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ và $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, và $\widehat O$ chung. Theo c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số $\dfrac13$, nên $AB=3\cdot A'B'=75$ (m).
+
+**Đáp số.** $75$ m.
+
+[ĐỀ – EN]
+Suppose that to measure the distance $AB$ between two points on opposite sides of a lake, people choose a point $O$ and measure $OA=90$ m, $OB=120$ m. They mark $A'\in OA$ with $OA'=30$ m, $B'\in OB$ with $OB'=40$ m and measure $A'B'=25$ m. Find $AB$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ and $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, and $\angle O$ is common. By SAS, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$, so $AB=3\cdot A'B'=75$ (m).
+
+**Answer.** $75$ m.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử để đo chiều cao một toà nhà, người ta đặt một chiếc gương nhỏ trên mặt đất cách chân toà nhà $30$ m. Một người cao $1{,}6$ m đứng cách gương $2$ m, nhìn thấy đỉnh toà nhà qua gương. Tính chiều cao toà nhà. (Tia sáng tới và tia phản xạ tạo với mặt đất hai góc bằng nhau.)
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác vuông (người và khoảng cách đến gương; toà nhà và khoảng cách đến gương) có một cặp góc nhọn bằng nhau (góc tới bằng góc phản xạ), nên đồng dạng (g.g). Gọi $h$ là chiều cao toà nhà. Ta có $\dfrac{h}{30}=\dfrac{1{,}6}{2}$, suy ra $h=24$ (m).
+
+**Đáp số.** $24$ m.
+
+[ĐỀ – EN]
+Suppose that to measure the height of a building, a small mirror is placed on the ground $30$ m from the foot of the building. A person $1.6$ m tall, standing $2$ m from the mirror, sees the top of the building in the mirror. Find the height of the building. (The incoming ray and the reflected ray make equal angles with the ground.)
+
+[LỜI GIẢI CŨ – EN]
+The two right-angled triangles (the person and the distance to the mirror; the building and the distance to the mirror) have one pair of equal acute angles (the angle of incidence equals the angle of reflection), so they are similar (AA). Let $h$ be the height of the building. We have $\dfrac{h}{30}=\dfrac{1.6}{2}$, so $h=24$ (m).
+
+**Answer.** $24$ m.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hình thang $ABCD$ có $AB\parallel CD$; hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Chứng minh $\triangle OAB\sim\triangle OCD$ và tính $CD$ khi $OA=4$, $OC=6$, $AB=8$. (Ôn lại [tam giác đồng dạng](lesson:similar-triangles).)
+
+[LỜI GIẢI CŨ – VI]
+Vì $AB\parallel CD$ nên $\widehat{OAB}=\widehat{OCD}$ và $\widehat{OBA}=\widehat{ODC}$ (so le trong). Theo g.g, $\triangle OAB\sim\triangle OCD$. Do đó $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, suy ra $CD=8\cdot\dfrac32=12$.
+
+**Đáp số.** Đã chứng minh; $CD=12$.
+
+[ĐỀ – EN]
+In trapezium $ABCD$, $AB\parallel CD$; the diagonals $AC$ and $BD$ meet at $O$. Prove that $\triangle OAB\sim\triangle OCD$ and find $CD$ when $OA=4$, $OC=6$, $AB=8$. (Revise [similar triangles](lesson:similar-triangles).)
+
+[LỜI GIẢI CŨ – EN]
+Since $AB\parallel CD$, $\angle OAB=\angle OCD$ and $\angle OBA=\angle ODC$ (alternate angles). By AA, $\triangle OAB\sim\triangle OCD$. Hence $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, so $CD=8\cdot\dfrac32=12$.
+
+**Answer.** Proved; $CD=12$.
+
+
+===== HẾT FILE Nguyenchanh2358-09-LG =====

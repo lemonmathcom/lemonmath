@@ -1,0 +1,1314 @@
+######################################################################
+TÀI KHOẢN: Xedap102   |   FILE: Xedap102-01-MD   |   VIỆC: gắn mức độ nhận thức (MD-10)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Xedap102-01-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-10 – gắn mức độ nhận thức cho 154 câu hỏi (Lớp 7 → Lớp 8)
+
+Tài khoản thực hiện: Xedap102
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-10 (154 câu)
+
+## Các câu hỏi
+
+### M211 · Lớp 7 · Biểu thức đại số. Đa thức một biến
+
+[M211.1] Nhiều lựa chọn
+Bậc của đa thức $5x^3-2x^5+x$ là
+A. $5$.
+B. $3$.
+C. $-2$.
+D. $1$.
+::key A
+Số mũ lớn nhất của biến là $5$. A là số mũ của hạng tử đầu, C là hệ số cao nhất, D là số mũ của hạng tử cuối.
+
+[M211.2] Nhiều lựa chọn
+Giá trị của biểu thức $2x^2-x$ tại $x=-3$ là
+A. $15$.
+B. $21$.
+C. $-21$.
+D. $-15$.
+::key B
+$2\cdot(-3)^2-(-3)=18+3=21$. B tính $(-3)^2$ thành $-9$, A bỏ qua dấu trừ trước $x$, C sai cả hai chỗ.
+
+[M211.3] Nhiều lựa chọn
+Hệ số cao nhất của đa thức $4-3x^2+x$ là
+A. $1$.
+B. $4$.
+C. $-3$.
+D. $3$.
+::key C
+Sắp xếp được $-3x^2+x+4$, hạng tử bậc cao nhất là $-3x^2$. B là hạng tử đứng đầu khi chưa sắp xếp, A là hệ số của $x$, D mất dấu trừ.
+
+[M211.4] Nhiều lựa chọn
+Số nào sau đây là nghiệm của đa thức $x^2-x-6$?
+A. $2$.
+B. $-3$.
+C. $6$.
+D. $3$.
+::key D
+$3^2-3-6=0$. Với $2$ được $-4$, với $-3$ được $6$, với $6$ được $24$.
+
+[M211.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đa thức $P(x)=x^3-4x$. Xét tính đúng sai của các mệnh đề sau:
+a) Hệ số cao nhất của $P(x)$ là $-4$.
+b) $P(2)=0$.
+c) $x=1$ là nghiệm của $P(x)$.
+d) $P(-2)=0$.
+::key S Đ S Đ
+a) Sai: hệ số cao nhất là $1$ (của $x^3$). b) Đúng: $8-8=0$. c) Sai: $P(1)=1-4=-3$. d) Đúng: $-8+8=0$.
+
+[M211.6] Trả lời ngắn
+Tính giá trị của đa thức $3x^2-2x+1$ tại $x=-2$.
+::key 17
+$3\cdot4+4+1=17$.
+
+[M211.7] Trả lời ngắn
+Tìm nghiệm của đa thức $5x+3$ (viết dưới dạng số thập phân).
+::key -0,6
+$5x+3=0$ nên $x=-\dfrac35=-0{,}6$.
+
+### M212 · Lớp 7 · Phép cộng và phép trừ đa thức một biến. Phép nhân đa thức một biến
+
+[M212.1] Nhiều lựa chọn
+Kết quả của phép trừ $(2x^2+3x)-(x^2-5x)$ là
+A. $x^2-2x$.
+B. $3x^2-2x$.
+C. $x^2+8x$.
+D. $3x^2+8x$.
+::key C
+$2x^2+3x-x^2+5x=x^2+8x$. A quên đổi dấu của $-5x$, B và D là kết quả của phép cộng (và sai dấu).
+
+[M212.2] Nhiều lựa chọn
+Tích $(-2x^3)\cdot(4x^2)$ bằng
+A. $8x^5$.
+B. $-8x^6$.
+C. $2x^5$.
+D. $-8x^5$.
+::key D
+Nhân hệ số $-2\cdot4=-8$ và cộng số mũ $3+2=5$. A sai dấu, B nhân số mũ ($3\cdot2$) rồi cộng thành $6$, C cộng hai hệ số.
+
+[M212.3] Nhiều lựa chọn
+Khai triển $(x+2)(x-3)$ ta được
+A. $x^2-x-6$.
+B. $x^2-6$.
+C. $x^2+x-6$.
+D. $x^2-5x-6$.
+::key A
+$x^2-3x+2x-6=x^2-x-6$. A bỏ qua các tích chéo, C nhầm dấu của hạng tử $x$, D cộng nhầm $-3x-2x$.
+
+[M212.4] Nhiều lựa chọn
+Đa thức $M$ thoả mãn $M+(x^2-3x)=2x^2+x-4$ là
+A. $x^2-2x-4$.
+B. $x^2+4x-4$.
+C. $3x^2-2x-4$.
+D. $x^2+4x+4$.
+::key B
+$M=(2x^2+x-4)-(x^2-3x)=x^2+4x-4$. B quên đổi dấu của $-3x$, C cộng thay vì trừ, D sai dấu hạng tử tự do.
+
+[M212.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A=x^2+2x-3$ và $B=x^2-x-2$. Xét tính đúng sai của các mệnh đề sau:
+a) $A-B=3x+1$.
+b) $A+B=2x^2+x-5$.
+c) Đa thức $A-B$ có bậc là $1$.
+d) $x=\dfrac13$ là nghiệm của đa thức $A-B$.
+::key S Đ Đ Đ
+a) Sai: $A-B=x^2+2x-3-x^2+x+2=3x-1$. b) Đúng: $2x^2+x-5$. c) Đúng: $3x-1$ có bậc $1$. d) Đúng: $3\cdot\dfrac13-1=0$.
+
+[M212.6] Trả lời ngắn
+Tính giá trị của biểu thức $(x+3)(x-2)-x^2$ tại $x=4$.
+::key -2
+Biểu thức bằng $x^2+x-6-x^2=x-6$; tại $x=4$ bằng $-2$.
+
+[M212.7] Trả lời ngắn
+Tìm hệ số của $x^2$ trong tích $(x+2)(3x^2-x+1)$.
+::key 5
+$(x+2)(3x^2-x+1)=3x^3+5x^2-x+2$, trong đó $5x^2$ đến từ $-x^2+6x^2$.
+
+### M213 · Lớp 7 · Phép chia đa thức một biến
+
+[M213.1] Nhiều lựa chọn
+Thương của phép chia $12x^6:(4x^2)$ là
+A. $3x^3$.
+B. $3x^4$.
+C. $8x^4$.
+D. $3x^8$.
+::key B
+Chia hệ số $12:4=3$ và trừ số mũ $6-2=4$. A lấy $6:2=3$ cho số mũ, C trừ hai hệ số, D cộng hai số mũ.
+
+[M213.2] Nhiều lựa chọn
+Kết quả của $(9x^3-6x^2):(3x)$ là
+A. $3x^2-2$.
+B. $6x^2-3x$.
+C. $3x^2-2x$.
+D. $3x^2+2x$.
+::key C
+$9x^3:3x=3x^2$ và $-6x^2:3x=-2x$. A bỏ sót $x$ ở hạng tử thứ hai, B trừ các hệ số thay vì chia, D sai dấu.
+
+[M213.3] Nhiều lựa chọn
+Thương của $(x^2+x-6):(x-2)$ là
+A. $x+1$.
+B. $x-3$.
+C. $x+4$.
+D. $x+3$.
+::key D
+$(x-2)(x+3)=x^2+x-6$. B nhầm dấu, C và A lấy sai hạng tử thứ hai khi trừ.
+
+[M213.4] Nhiều lựa chọn
+Số dư trong phép chia $(x^2+3x+5):(x+1)$ là
+A. $3$.
+B. $5$.
+C. $1$.
+D. $2$.
+::key A
+$x^2+3x+5=(x+1)(x+2)+3$. A là hệ số tự do của thương, B là hạng tử tự do của số bị chia, C là hạng tử tự do của số chia.
+
+[M213.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A=x^3+3x^2+3x+1$ và $B=x+1$. Xét tính đúng sai của các mệnh đề sau:
+a) Thương của phép chia $A$ cho $B$ là $x^2+2x+1$.
+b) Số dư của phép chia này là $1$.
+c) $A=(x+1)(x^2+2x+1)$.
+d) $x=-1$ là nghiệm của $A$.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: số dư bằng $0$ vì $(x+1)(x^2+2x+1)=x^3+3x^2+3x+1$. c) Đúng. d) Đúng: $-1+3-3+1=0$.
+
+[M213.6] Trả lời ngắn
+Chia $x^3-8$ cho $x-2$ rồi tính giá trị của thương tại $x=1$.
+::key 7
+Thương là $x^2+2x+4$; tại $x=1$ bằng $1+2+4=7$.
+
+[M213.7] Trả lời ngắn
+Tìm số dư trong phép chia $(x^3-3x^2+3x+5):(x-1)$.
+::key 6
+$x^3-3x^2+3x+5=(x-1)(x^2-2x+1)+6$.
+
+### M214 · Lớp 7 · Làm quen với biến cố
+
+[M214.1] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?
+A. Số chấm là $1$.
+B. Số chấm là số chẵn.
+C. Số chấm nhỏ hơn $7$.
+D. Số chấm là $7$.
+::key D
+Xúc xắc chỉ có $1$ đến $6$ chấm nên $7$ chấm không bao giờ xảy ra. A và B là biến cố ngẫu nhiên, C là biến cố chắc chắn.
+
+[M214.2] Nhiều lựa chọn
+Rút một thẻ từ hộp $10$ thẻ đánh số $1$ đến $10$. Xác suất rút được thẻ số chia hết cho $5$ là
+A. $\dfrac15$.
+B. $2$.
+C. $\dfrac12$.
+D. $\dfrac{1}{10}$.
+::key A
+Các thẻ thuận lợi là $5$ và $10$, nên xác suất là $\dfrac{2}{10}=\dfrac15$. B là số kết quả thuận lợi, C là xác suất thẻ chẵn, D chỉ tính thẻ $5$.
+
+[M214.3] Nhiều lựa chọn
+Vòng quay có $12$ ô bằng nhau: $5$ ô xanh, $4$ ô vàng, $3$ ô đỏ. Biến cố nào có khả năng xảy ra cao nhất?
+A. Mũi tên dừng ở ô đỏ.
+B. Mũi tên dừng ở ô vàng hoặc ô đỏ.
+C. Mũi tên dừng ở ô xanh.
+D. Mũi tên dừng ở ô vàng.
+::key B
+Biến cố D có $4+3=7$ ô thuận lợi, nhiều hơn $5$ ô xanh. Xác suất lần lượt là $\dfrac{3}{12}$, $\dfrac{4}{12}$, $\dfrac{5}{12}$ và $\dfrac{7}{12}$.
+
+[M214.4] Nhiều lựa chọn
+Phát biểu nào sau đây đúng về xác suất $P(A)$ của một biến cố $A$?
+A. $P(A)$ có thể bằng $2$.
+B. Biến cố chắc chắn có xác suất $0$.
+C. $0\le P(A)\le1$.
+D. Biến cố không thể có xác suất $1$.
+::key C
+Xác suất luôn nằm từ $0$ đến $1$. Biến cố chắc chắn có xác suất $1$ và biến cố không thể có xác suất $0$, nên C, D sai; A sai vì $P(A)$ không vượt quá $1$.
+
+[M214.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một túi có $20$ viên bi giống hệt nhau gồm $8$ viên đỏ, $7$ viên xanh, $5$ viên vàng. Lấy ngẫu nhiên một viên. Xét tính đúng sai của các mệnh đề sau:
+a) Có $20$ kết quả đồng khả năng.
+b) Xác suất lấy được bi đỏ là $\dfrac13$ vì có $3$ màu.
+c) Lấy được bi xanh dễ xảy ra hơn lấy được bi vàng.
+d) "Lấy được bi đỏ, xanh hoặc vàng" là biến cố ngẫu nhiên.
+::key Đ S Đ S
+a) Đúng: mỗi viên bi là một kết quả. b) Sai: xác suất là $\dfrac{8}{20}=\dfrac25$; các màu không đồng khả năng. c) Đúng: $7>5$. d) Sai: túi chỉ có ba màu đó nên biến cố luôn xảy ra, là biến cố chắc chắn.
+
+[M214.6] Trả lời ngắn
+Một hộp có $25$ thẻ đánh số từ $1$ đến $25$. Có bao nhiêu kết quả thuận lợi cho biến cố "rút được thẻ số chia hết cho $5$"?
+::key 5
+Các thẻ thuận lợi là $5$, $10$, $15$, $20$, $25$, tức là $5$ kết quả.
+
+[M214.7] Trả lời ngắn
+Một túi có $20$ viên bi, trong đó $5$ viên đỏ, còn lại là bi xanh. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ viết dưới dạng số thập phân là bao nhiêu?
+::key 0,25
+$\dfrac{5}{20}=\dfrac14=0{,}25$.
+
+### M215 · Lớp 7 · Làm quen với xác suất của biến cố
+
+[M215.1] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất để số chấm chia hết cho $3$ là
+A. $\dfrac13$.
+B. $\dfrac16$.
+C. $\dfrac12$.
+D. $2$.
+::key A
+Các số $3, 6$ thuận lợi nên $P=\dfrac26=\dfrac13$. Phương án B quên số $6$, phương án D chỉ đếm số kết quả thuận lợi mà chưa chia cho $6$.
+
+[M215.2] Nhiều lựa chọn
+Một hộp có $8$ bi đỏ và $12$ bi xanh. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ là
+A. $\dfrac23$.
+B. $\dfrac25$.
+C. $\dfrac35$.
+D. $\dfrac12$.
+::key B
+$n=8+12=20$ nên $P=\dfrac{8}{20}=\dfrac25$. Phương án A lấy $\dfrac{8}{12}$ (chia cho số bi xanh), C là xác suất lấy bi xanh, D coi hai màu như nhau.
+
+[M215.3] Nhiều lựa chọn
+Giá trị nào sau đây không thể là xác suất của một biến cố?
+A. $0$.
+B. $\dfrac34$.
+C. $\dfrac54$.
+D. $1$.
+::key C
+Xác suất luôn nằm từ $0$ đến $1$, mà $\dfrac54>1$. Giá trị như vậy xuất hiện khi viết ngược tỉ số $\dfrac{n}{k}$.
+
+[M215.4] Nhiều lựa chọn
+Rút ngẫu nhiên một thẻ trong $30$ thẻ ghi các số từ $1$ đến $30$. Xác suất thẻ ghi số chia hết cho $5$ là
+A. $\dfrac16$.
+B. $\dfrac13$.
+C. $\dfrac{1}{30}$.
+D. $\dfrac15$.
+::key D
+Các số $5, 10, 15, 20, 25, 30$ thuận lợi: $k=6$, nên $P=\dfrac{6}{30}=\dfrac15$. Phương án C chỉ tính một kết quả; D là xác suất số chia hết cho $3$ ($k=10$).
+
+[M215.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hộp có $3$ bi trắng, $5$ bi đen và $2$ bi vàng. Lấy ngẫu nhiên một viên bi.
+a) Xác suất lấy được bi đen bằng $\dfrac12$.
+b) Xác suất lấy được bi trắng bằng $\dfrac37$.
+c) "Lấy được bi xanh" là biến cố không thể.
+d) Xác suất lấy được bi vàng lớn hơn xác suất lấy được bi trắng.
+::key Đ S Đ S
+a) Đúng: $\dfrac{5}{10}=\dfrac12$. b) Sai: tổng số bi là $10$ nên $P=\dfrac{3}{10}$. c) Đúng: hộp không có bi xanh. d) Sai: $\dfrac{2}{10}<\dfrac{3}{10}$.
+
+[M215.6] Trả lời ngắn
+Một hộp có $25$ viên bi, trong đó có $10$ viên bi đỏ. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ bằng bao nhiêu? (Viết dưới dạng số thập phân.)
+::key 0,4
+$P=\dfrac{10}{25}=\dfrac25=0{,}4$.
+
+[M215.7] Trả lời ngắn
+Lớp có $36$ học sinh. Xác suất chọn ngẫu nhiên một bạn nữ là $\dfrac59$. Lớp có bao nhiêu bạn nữ?
+::key 20
+Số bạn nữ là $k=36\times\dfrac59=20$. Kiểm tra: $\dfrac{20}{36}=\dfrac59$.
+
+### M216 · Lớp 7 · Quan hệ giữa góc và cạnh đối diện trong một tam giác. Quan hệ giữa đường vuông góc và đường xiên
+
+[M216.1] Nhiều lựa chọn
+Tam giác $ABC$ có $\widehat{A}=50^\circ$, $\widehat{B}=70^\circ$, $\widehat{C}=60^\circ$. Cạnh lớn nhất của tam giác là
+A. Ba cạnh bằng nhau.
+B. $BC$.
+C. $AB$.
+D. $AC$.
+::key D
+Góc lớn nhất là $\widehat{B}=70^\circ$, cạnh đối diện là $AC$. B là cạnh đối diện với góc nhỏ nhất $\widehat{A}$, C đối diện với $\widehat{C}$.
+
+[M216.2] Nhiều lựa chọn
+Tam giác $DEF$ có $DE=4$ cm, $EF=6$ cm, $DF=5$ cm. Góc nhỏ nhất của tam giác là
+A. $\widehat{F}$.
+B. $\widehat{E}$.
+C. $\widehat{D}$.
+D. Ba góc bằng nhau.
+::key A
+Cạnh nhỏ nhất là $DE=4$ cm, đối diện với $\widehat{F}$. A là góc đối diện với cạnh lớn nhất $EF$, B đối diện với $DF$.
+
+[M216.3] Nhiều lựa chọn
+Từ điểm $A$ ngoài đường thẳng $d$, kẻ $AH\perp d$ và các đường xiên $AB$, $AC$ với $B$, $C$ thuộc $d$, cùng phía với $H$, $HB=3$ cm, $HC=5$ cm. Khẳng định đúng là
+A. $AH>AC$.
+B. $AH<AB<AC$.
+C. $AB=AC$.
+D. $AB>AC$.
+::key B
+$AH$ là đường vuông góc nên nhỏ nhất, và $HB<HC$ nên $AB<AC$. A, D sai vì ngược chiều, C sai vì hình chiếu khác nhau.
+
+[M216.4] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây đúng?
+A. $AB$ là cạnh lớn nhất.
+B. $AC$ là cạnh lớn nhất.
+C. $BC$ là cạnh lớn nhất.
+D. Ba cạnh bằng nhau.
+::key C
+Cạnh huyền $BC$ đối diện với góc vuông, là góc lớn nhất, nên $BC$ là cạnh lớn nhất. A và B là hai cạnh góc vuông, nhỏ hơn cạnh huyền.
+
+[M216.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $MNP$ có $\widehat{M}=100^\circ$, $\widehat{N}=50^\circ$, $\widehat{P}=30^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $NP$ là cạnh lớn nhất.
+b) $MP<MN$.
+c) $\widehat{P}$ là góc lớn nhất.
+d) $MN$ là cạnh nhỏ nhất.
+::key Đ S S Đ
+a) Đúng: $NP$ đối diện với $\widehat{M}=100^\circ$ lớn nhất. b) Sai: $MP$ đối diện $\widehat{N}=50^\circ$ lớn hơn $\widehat{P}=30^\circ$ đối diện $MN$, nên $MP>MN$. c) Sai: $\widehat{P}=30^\circ$ là góc nhỏ nhất. d) Đúng: $MN$ đối diện với góc nhỏ nhất.
+
+[M216.6] Trả lời ngắn
+Tam giác $ABC$ có $\widehat{B}=65^\circ$, $\widehat{C}=40^\circ$. Góc lớn nhất của tam giác có số đo bao nhiêu độ?
+::key 75
+$\widehat{A}=180^\circ-65^\circ-40^\circ=75^\circ$, lớn hơn $65^\circ$ và $40^\circ$.
+
+[M216.7] Trả lời ngắn
+Một ngôi nhà ở $A$ cách bờ kênh thẳng $d$ một khoảng $15$ m (khoảng cách từ $A$ đến $d$). Ống nước ngắn nhất nối $A$ với kênh dài bao nhiêu mét?
+::key 15
+Ống ngắn nhất là đường vuông góc kẻ từ $A$ đến $d$, có độ dài bằng khoảng cách $15$ m.
+
+### M217 · Lớp 7 · Quan hệ giữa ba cạnh của một tam giác
+
+[M217.1] Nhiều lựa chọn
+Bộ ba độ dài nào sau đây là ba cạnh của một tam giác?
+A. $3$ cm; $4$ cm; $8$ cm.
+B. $2$ cm; $7$ cm; $9$ cm.
+C. $5$ cm; $6$ cm; $10$ cm.
+D. $4$ cm; $4$ cm; $8$ cm.
+::key C
+Ở B: $5+6=11>10$. A có $3+4=7<8$, B có $2+7=9$ (bằng, không nhỏ hơn), D có $4+4=8$ (bằng).
+
+[M217.2] Nhiều lựa chọn
+Một tam giác cân có hai cạnh dài $4$ cm và $9$ cm. Chu vi của tam giác là
+A. $17$ cm.
+B. $13$ cm.
+C. $18$ cm.
+D. $22$ cm.
+::key D
+Cạnh thứ ba phải bằng $9$ cm vì $4+4=8<9$, nên chu vi là $9+9+4=22$ cm. A ứng với $4+4+9$ (không có tam giác), B là $4+9$, C là $9+9$.
+
+[M217.3] Nhiều lựa chọn
+Tam giác có hai cạnh dài $6$ cm và $10$ cm. Độ dài cạnh thứ ba có thể là
+A. $9$ cm.
+B. $16$ cm.
+C. $17$ cm.
+D. $4$ cm.
+::key A
+Cạnh thứ ba $x$ thoả mãn $4<x<16$. A và B là hai giá trị biên (bị loại vì dấu bằng), C lớn hơn $16$.
+
+[M217.4] Nhiều lựa chọn
+Một sợi dây dài $30$ cm được uốn thành tam giác có ba cạnh nguyên cm. Cạnh dài nhất có thể dài nhiều nhất là
+A. $15$ cm.
+B. $14$ cm.
+C. $16$ cm.
+D. $13$ cm.
+::key B
+Cạnh lớn nhất $c$ thoả mãn $c<30-c$, tức $c<15$, nên $c\le 14$. B bằng nửa chu vi (dấu bằng), C lớn hơn nửa chu vi, D nhỏ hơn mức tối đa.
+
+[M217.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ có $AB=5$ cm và $AC=9$ cm.
+a) $BC$ có thể bằng $4$ cm.
+b) $BC$ có thể bằng $13$ cm.
+c) Nếu $BC=10$ cm thì chu vi tam giác là $24$ cm.
+d) $BC$ có đúng $9$ giá trị nguyên.
+::key S Đ Đ Đ
+a) Sai: $4<BC<14$, nên $BC=4$ bị loại vì $5+4=9$ (dấu bằng). b) Đúng: $4<13<14$. c) Đúng: $5+9+10=24$. d) Đúng: $BC\in\{5;6;\dots;13\}$ gồm $9$ số.
+
+[M217.6] Trả lời ngắn
+Cho tam giác $ABC$ có $AB=7$ cm và $AC=12$ cm. Có bao nhiêu giá trị nguyên (cm) của $BC$?
+::key 13
+Ta có $5<BC<19$, nên $BC\in\{6;7;\dots;18\}$, gồm $18-6+1=13$ giá trị.
+
+[M217.7] Trả lời ngắn
+Một tam giác cân có hai cạnh dài $8$ cm và $17$ cm. Tính chu vi của tam giác (đơn vị: cm).
+::key 42
+Cạnh thứ ba phải bằng $17$ cm vì $8+8=16<17$. Chu vi là $17+17+8=42$ (cm).
+
+### M218 · Lớp 7 · Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác
+
+[M218.1] Nhiều lựa chọn
+Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM=21$ cm. Độ dài $AG$ là
+A. $7$ cm.
+B. $10{,}5$ cm.
+C. $14$ cm.
+D. $42$ cm.
+::key C
+$AG=\dfrac23\cdot21=14$ cm. Phương án A là $\dfrac13AM$, B là $\dfrac12AM$.
+
+[M218.2] Nhiều lựa chọn
+Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $GN=6$ cm. Độ dài $BN$ là
+A. $12$ cm.
+B. $18$ cm.
+C. $9$ cm.
+D. $24$ cm.
+::key B
+$BG=2GN=12$ cm, nên $BN=12+6=18$ cm. Phương án A mới là $BG$, chưa cộng $GN$.
+
+[M218.3] Nhiều lựa chọn
+Ba đường phân giác của tam giác $ABC$ cắt nhau tại $I$. Khẳng định nào sau đây đúng?
+A. $I$ luôn là trung điểm của mỗi đường phân giác.
+B. $I$ cách đều ba cạnh của tam giác.
+C. $I$ chia mỗi đường phân giác theo tỉ lệ $2:1$ kể từ đỉnh.
+D. $I$ có thể nằm ngoài tam giác.
+::key B
+Điểm $I$ nằm trong tam giác và cách đều ba cạnh. Phương án C là tính chất của trọng tâm, không phải của giao ba phân giác.
+
+[M218.4] Nhiều lựa chọn
+Tam giác $ABC$ có $\widehat A=80^\circ$. Hai đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Số đo $\widehat{BIC}$ là
+A. $50^\circ$.
+B. $100^\circ$.
+C. $130^\circ$.
+D. $140^\circ$.
+::key C
+$\widehat B+\widehat C=100^\circ$, nên $\widehat{IBC}+\widehat{ICB}=50^\circ$ và $\widehat{BIC}=180^\circ-50^\circ=130^\circ$. Phương án A quên lấy $180^\circ$ trừ đi.
+
+[M218.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM=9$ cm.
+a) Điểm $G$ nằm trong tam giác $ABC$.
+b) $AG=6$ cm.
+c) $GM=4{,}5$ cm.
+d) $AG=2GM$.
+::key Đ Đ S Đ
+a) Đúng: ba trung tuyến cắt nhau trong tam giác. b) Đúng: $\dfrac23\cdot9=6$. c) Sai: $GM=\dfrac13\cdot9=3$ cm. d) Đúng: $6=2\cdot3$.
+
+[M218.6] Trả lời ngắn
+Tam giác $ABC$ có trọng tâm $G$ và trung tuyến $CP=24$ cm. Tính $CG$ (đơn vị: cm).
+::key 16
+$CG=\dfrac23\cdot24=16$ cm.
+
+[M218.7] Trả lời ngắn
+Tam giác $ABC$ có $\widehat B=70^\circ$ và $\widehat C=40^\circ$. Hai đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Tính số đo $\widehat{BIC}$ (đơn vị: độ).
+::key 125
+$\widehat{IBC}=35^\circ$, $\widehat{ICB}=20^\circ$, nên $\widehat{BIC}=180^\circ-35^\circ-20^\circ=125^\circ$.
+
+### M219 · Lớp 7 · Sự đồng quy của ba đường trung trực, ba đường cao trong một tam giác
+
+[M219.1] Nhiều lựa chọn
+Cho tam giác $ABC$. Hai đường trung trực của $AB$ và $AC$ cắt nhau tại $O$ và $OA=5$ cm. Khoảng cách $OB$ bằng
+A. $5$ cm.
+B. $2{,}5$ cm.
+C. $3$ cm.
+D. $10$ cm.
+::key A
+$O$ cách đều ba đỉnh nên $OB=OA=5$ cm. A nhân đôi và B chia đôi $OA$ một cách vô căn cứ.
+
+[M219.2] Nhiều lựa chọn
+Trực tâm của tam giác $ABC$ vuông tại $A$ là
+A. trung điểm của $BC$.
+B. điểm $A$.
+C. điểm $B$.
+D. điểm cách đều $B$ và $C$ trên $AB$.
+::key B
+Hai đường cao kẻ từ $B$ và $C$ là $BA$ và $CA$, cắt nhau tại $A$. B nhầm với tâm đường tròn ngoại tiếp tam giác vuông.
+
+[M219.3] Nhiều lựa chọn
+Điểm cách đều ba đỉnh của một tam giác là giao điểm của
+A. ba đường cao.
+B. ba đường trung tuyến.
+C. ba đường trung trực.
+D. hai đường cao và một đường trung trực.
+::key C
+Giao của ba đường trung trực là điểm cách đều ba đỉnh. Giao của ba đường cao là trực tâm, không có tính chất này.
+
+[M219.4] Nhiều lựa chọn
+Tam giác $ABC$ cân tại $A$, $M$ là trung điểm của $BC$. Đường thẳng nào sau đây là đường trung trực của $BC$?
+A. Đường thẳng $BC$.
+B. Đường thẳng qua $A$ song song với $BC$.
+C. Đường thẳng $AB$.
+D. Đường thẳng $AM$.
+::key D
+$A$ và $M$ đều cách đều $B$, $C$ nên $AM$ là đường trung trực của $BC$. D vuông góc với $AM$, không với $BC$.
+
+[M219.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$.
+a) Điểm $H$ cách đều ba đỉnh $A$, $B$, $C$.
+b) $AH\perp BC$.
+c) $\widehat{BHC}=180^\circ-\widehat{A}$.
+d) Nếu $\widehat{A}=50^\circ$ thì $\widehat{BHC}=40^\circ$.
+::key S Đ Đ S
+a) Sai: $H$ là trực tâm, không phải tâm đường tròn ngoại tiếp. b) Đúng: $AH$ là đường cao thứ ba. c) Đúng: theo chứng minh ở bài tập thử thách. d) Sai: $180^\circ-50^\circ=130^\circ$.
+
+[M219.6] Trả lời ngắn
+Tam giác $ABC$ nhọn có $\widehat{A}=64^\circ$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Tính số đo $\widehat{BHC}$ (đơn vị: độ).
+::key 116
+$\widehat{BHC}=180^\circ-\widehat{A}=180^\circ-64^\circ=116^\circ$.
+
+[M219.7] Trả lời ngắn
+Tam giác $ABC$ cân tại $A$ có $AB=AC=5$ cm và $BC=6$ cm. Tâm $O$ của đường tròn ngoại tiếp cách mỗi đỉnh bao nhiêu xăng-ti-mét (làm tròn đến hàng phần mười)?
+::key 3,1
+$AM=\sqrt{25-9}=4$. Đặt $OA=R$, $OM=4-R$, $R^2=(4-R)^2+9$ nên $8R=25$ và $R=3{,}125\approx3{,}1$ (cm).
+
+### M220 · Lớp 7 · Hình hộp chữ nhật và hình lập phương. Hình lăng trụ đứng tam giác và hình lăng trụ đứng tứ giác
+
+[M220.1] Nhiều lựa chọn
+Thể tích của hình hộp chữ nhật có ba kích thước $5$ cm, $4$ cm, $3$ cm là
+A. $12\ \text{cm}^3$.
+B. $60\ \text{cm}^3$.
+C. $47\ \text{cm}^3$.
+D. $94\ \text{cm}^3$.
+::key B
+$V=5\cdot4\cdot3=60\ \text{cm}^3$. A là tổng ba kích thước, C là $ab+bc+ca$, D là diện tích toàn phần $2\cdot47$.
+
+[M220.2] Nhiều lựa chọn
+Hình lập phương có diện tích toàn phần $54\ \text{cm}^2$. Thể tích của nó là
+A. $18\ \text{cm}^3$.
+B. $9\ \text{cm}^3$.
+C. $27\ \text{cm}^3$.
+D. $54\ \text{cm}^3$.
+::key C
+$6a^2=54$ nên $a=3$ và $V=27\ \text{cm}^3$. B là $a^2$, A là $54:3$, D là chính $S_{tp}$.
+
+[M220.3] Nhiều lựa chọn
+Hình lăng trụ đứng có đáy là tam giác vuông với các cạnh $3$ cm, $4$ cm, $5$ cm và chiều cao $8$ cm. Thể tích của nó là
+A. $96\ \text{cm}^3$.
+B. $60\ \text{cm}^3$.
+C. $12\ \text{cm}^3$.
+D. $48\ \text{cm}^3$.
+::key D
+$V=\dfrac12\cdot3\cdot4\cdot8=48\ \text{cm}^3$. A quên $\dfrac12$, B nhân cả ba cạnh đáy $3\cdot4\cdot5$, C là chu vi đáy.
+
+[M220.4] Nhiều lựa chọn
+Một hình lăng trụ đứng tứ giác có chu vi đáy $22$ cm và chiều cao $7$ cm. Diện tích xung quanh là
+A. $154\ \text{cm}^2$.
+B. $22\ \text{cm}^2$.
+C. $29\ \text{cm}^2$.
+D. $308\ \text{cm}^2$.
+::key A
+$S_{xq}=22\cdot7=154\ \text{cm}^2$. A là chu vi đáy, C là $22+7$, D nhân đôi sai.
+
+[M220.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hình hộp chữ nhật có chiều dài $6$ cm, chiều rộng $4$ cm, chiều cao $3$ cm.
+a) Thể tích của hình hộp là $72\ \text{cm}^3$.
+b) Diện tích xung quanh là $60\ \text{cm}^2$.
+c) Diện tích toàn phần là $84\ \text{cm}^2$.
+d) Nếu cả ba kích thước tăng gấp đôi thì thể tích tăng gấp đôi.
+::key Đ Đ S S
+a) Đúng: $6\cdot4\cdot3=72$. b) Đúng: $2(6+4)\cdot3=60$. c) Sai: $60+2\cdot24=108$. d) Sai: thể tích tăng gấp $2^3=8$ lần.
+
+[M220.6] Trả lời ngắn
+Một bể hình hộp chữ nhật có kích thước $120$ cm, $50$ cm và $80$ cm. Bể chứa đầy được bao nhiêu lít nước?
+::key 480
+$V=120\cdot50\cdot80=480\,000\ \text{cm}^3=480$ lít.
+
+[M220.7] Trả lời ngắn
+Một hình lăng trụ đứng có đáy là tam giác vuông với hai cạnh góc vuông $5$ cm, $12$ cm (cạnh huyền $13$ cm) và chiều cao $4$ cm. Tính diện tích toàn phần (đơn vị: $\text{cm}^2$).
+::key 180
+$S_{\text{đ}}=\dfrac12\cdot5\cdot12=30$, $C_{\text{đ}}=5+12+13=30$. $S_{tp}=30\cdot4+2\cdot30=180\ (\text{cm}^2)$.
+
+### M221 · Lớp 8 · Đơn thức
+
+[M221.1] Nhiều lựa chọn
+Biểu thức nào sau đây là đơn thức?
+A. $x+3$.
+B. $\dfrac{2}{x}$.
+C. $-4xy^2$.
+D. $x^2-y$.
+::key C
+$-4xy^2$ là tích của số $-4$ và các biến. A và D có phép cộng, trừ; B có biến ở mẫu.
+
+[M221.2] Nhiều lựa chọn
+Bậc của đơn thức $-3x^2y^4$ là
+A. $8$.
+B. $6$.
+C. $4$.
+D. $-3$.
+::key B
+Bậc là tổng các số mũ: $2+4=6$. Phương án A là nhân các số mũ, C chỉ lấy số mũ lớn nhất, D lấy hệ số.
+
+[M221.3] Nhiều lựa chọn
+Kết quả của $5x^2y+3x^2y-x^2y$ là
+A. $8x^2y$.
+B. $9x^2y$.
+C. $7x^2y$.
+D. $7x^4y^2$.
+::key C
+Cộng các hệ số: $5+3-1=7$, giữ nguyên phần biến. Phương án A bỏ sót dấu trừ, B coi $-x^2y$ là $+x^2y$, D cộng cả số mũ.
+
+[M221.4] Nhiều lựa chọn
+Kết quả của $(-2x^2y)\cdot(4xy^3)$ là
+A. $-8x^3y^4$.
+B. $-8x^2y^3$.
+C. $2x^3y^4$.
+D. $-8x^3y^3$.
+::key A
+Hệ số: $-2\cdot4=-8$. Số mũ: $x$ có $2+1=3$, $y$ có $1+3=4$. Phương án C cộng các hệ số, B và D cộng sai số mũ.
+
+[M221.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đơn thức $A=-\dfrac32x^2y^3$.
+a) Hệ số của $A$ là $-\dfrac32$.
+b) Phần biến của $A$ là $x^2y^3$.
+c) Bậc của $A$ là $6$.
+d) $A$ đồng dạng với đơn thức $4y^3x^2$.
+::key Đ Đ S Đ
+a) Đúng: số đứng đầu là $-\dfrac32$. b) Đúng. c) Sai: bậc là $2+3=5$. d) Đúng: $4y^3x^2=4x^2y^3$ cùng phần biến với $A$.
+
+[M221.6] Trả lời ngắn
+Thu gọn $2x^3y\cdot(-5xy^2)$. Bậc của đơn thức nhận được là bao nhiêu?
+::key 7
+$2x^3y\cdot(-5xy^2)=-10x^4y^3$, bậc là $4+3=7$.
+
+[M221.7] Trả lời ngắn
+Tính giá trị của đơn thức $-2x^2y$ tại $x=3$, $y=-1$.
+::key 18
+$-2\cdot3^2\cdot(-1)=-2\cdot9\cdot(-1)=18$.
+
+### M222 · Lớp 8 · Đa thức. Phép cộng và phép trừ đa thức
+
+[M222.1] Nhiều lựa chọn
+Bậc của đơn thức $-3x^2y^3z$ là
+A. $5$.
+B. $-3$.
+C. $6$.
+D. $3$.
+::key C
+Bậc là tổng số mũ: $2+3+1=6$. A quên biến $z$, B là hệ số, D là số biến.
+
+[M222.2] Nhiều lựa chọn
+Thu gọn đa thức $5x^2y-2xy^2+x^2y+3xy^2$ được
+A. $6x^2y+5xy^2$.
+B. $5x^2y+xy^2$.
+C. $7x^2y^2$.
+D. $6x^2y+xy^2$.
+::key D
+$(5+1)x^2y+(-2+3)xy^2=6x^2y+xy^2$. A bỏ dấu của $-2$, B quên hạng tử $x^2y$, C cộng cả hai nhóm không đồng dạng.
+
+[M222.3] Nhiều lựa chọn
+Tổng $(2x^2-3x+1)+(x^2+5x-4)$ bằng
+A. $3x^2+2x-3$.
+B. $3x^2+8x-3$.
+C. $x^2-8x+5$.
+D. $3x^2+2x+5$.
+::key A
+$(2+1)x^2+(-3+5)x+(1-4)=3x^2+2x-3$. B sai dấu của $-3x$, C là hiệu thay vì tổng, D sai hạng tử tự do.
+
+[M222.4] Nhiều lựa chọn
+Hiệu $(x^2-3xy)-(2x^2-xy+y^2)$ bằng
+A. $3x^2-4xy+y^2$.
+B. $-x^2-2xy-y^2$.
+C. $-x^2-4xy-y^2$.
+D. $x^2-2xy-y^2$.
+::key B
+$x^2-3xy-2x^2+xy-y^2=-x^2-2xy-y^2$. A là phép cộng, C quên đổi dấu của $-xy$, D quên đổi dấu của $2x^2$.
+
+[M222.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đa thức $P=4x^2y-3xy^2+2x^2y+xy^2-5$.
+a) Bậc của $P$ là $5$.
+b) Sau khi thu gọn, $P$ có $4$ hạng tử.
+c) Giá trị của $P$ tại $x=1$, $y=1$ bằng $-1$.
+d) Hệ số của hạng tử chứa $xy^2$ sau khi thu gọn là $-2$.
+::key S S Đ Đ
+Sau khi thu gọn $P=6x^2y-2xy^2-5$. a) Sai: bậc là $3$. b) Sai: có $3$ hạng tử. c) Đúng: $6-2-5=-1$. d) Đúng: $-3+1=-2$.
+
+[M222.6] Trả lời ngắn
+Cho $A=2x^2-3xy+y^2$ và $B=x^2+xy-2y^2$. Tính giá trị của $A-B$ tại $x=2$, $y=1$.
+::key -1
+$A-B=x^2-4xy+3y^2$. Tại $x=2$, $y=1$: $4-8+3=-1$.
+
+[M222.7] Trả lời ngắn
+Tính giá trị của biểu thức $(x^2y+3xy-2)+(2x^2y-xy+5)$ tại $x=1$, $y=2$.
+::key 13
+Biểu thức bằng $3x^2y+2xy+3$. Tại $x=1$, $y=2$: $6+4+3=13$.
+
+### M223 · Lớp 8 · Phép nhân đa thức. Phép chia đa thức cho đơn thức
+
+[M223.1] Nhiều lựa chọn
+Kết quả của phép nhân $(x+3)(x-2)$ là
+A. $x^2+x-6$.
+B. $x^2+5x-6$.
+C. $x^2-6$.
+D. $x^2-x-6$.
+::key A
+$(x+3)(x-2)=x^2-2x+3x-6=x^2+x-6$. A bỏ sót các tích chéo, B cộng sai $-2x+3x$, D sai dấu của hạng tử $x$.
+
+[M223.2] Nhiều lựa chọn
+Kết quả của phép nhân $-2x^2y(3x-y+4)$ là
+A. $-6x^3y-2x^2y^2-8x^2y$.
+B. $-6x^3y+2x^2y^2-8x^2y$.
+C. $-6x^3y+2x^2y^2+4$.
+D. $-6x^3y+2x^2y^2+8x^2y$.
+::key B
+Nhân $-2x^2y$ lần lượt với $3x$, $-y$, $4$ được $-6x^3y$, $+2x^2y^2$, $-8x^2y$. B sai dấu hạng tử thứ hai, C quên nhân hạng tử $4$, D sai dấu hạng tử thứ ba.
+
+[M223.3] Nhiều lựa chọn
+Thương của phép chia $(6x^3y^2-4x^2y):(2xy)$ là
+A. $3x^2y-2xy$.
+B. $3x^2y-2$.
+C. $3x^2y-2x$.
+D. $3x^2y+2x$.
+::key C
+$6x^3y^2:(2xy)=3x^2y$ và $4x^2y:(2xy)=2x$, nên thương là $3x^2y-2x$. A giữ lại $y$ ở hạng tử sau, B chia sai lũy thừa của $x$, D sai dấu.
+
+[M223.4] Nhiều lựa chọn
+Kết quả của phép nhân $(x-1)(x^2+x+1)$ là
+A. $x^3+1$.
+B. $x^3+x^2-1$.
+C. $x^3-x^2-1$.
+D. $x^3-1$.
+::key D
+$(x-1)(x^2+x+1)=x^3+x^2+x-x^2-x-1=x^3-1$. A sai dấu hạng tử tự do, C và B giữ lại hạng tử $\pm x^2$ không triệt tiêu.
+
+[M223.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho biểu thức $E=(x+2)(x-5)-x(x-3)$.
+a) $(x+2)(x-5)=x^2-3x-10$.
+b) $x(x-3)=x^2-3$.
+c) Sau khi thu gọn, $E=-10$.
+d) Giá trị của $E$ tại $x=0$ bằng $0$.
+::key Đ S Đ S
+a) Đúng: $x^2-5x+2x-10$. b) Sai: $x(x-3)=x^2-3x$. c) Đúng: $x^2-3x-10-x^2+3x=-10$. d) Sai: $E=-10$ với mọi $x$, kể cả $x=0$.
+
+[M223.6] Trả lời ngắn
+Tính giá trị của $(x-1)(x+4)$ tại $x=3$.
+::key 14
+$(3-1)(3+4)=2\cdot7=14$.
+
+[M223.7] Trả lời ngắn
+Thực hiện phép chia $(12x^3y^2-6x^2y):(3xy)$ rồi tính giá trị của thương tại $x=2$, $y=1$.
+::key 12
+Thương là $4x^2y-2x$. Tại $x=2$, $y=1$: $16-4=12$.
+
+### M224 · Lớp 8 · Hiệu hai bình phương. Bình phương của một tổng hay một hiệu
+
+[M224.1] Nhiều lựa chọn
+Khai triển $(x+5)^2$ được
+A. $x^2+10x+25$.
+B. $x^2+25$.
+C. $x^2+5x+25$.
+D. $x^2-10x+25$.
+::key A
+$(x+5)^2=x^2+2\cdot x\cdot5+5^2=x^2+10x+25$. A quên hạng tử giữa, C tính $2ab$ sai, D sai dấu hạng tử giữa.
+
+[M224.2] Nhiều lựa chọn
+Khai triển $(3x-2)^2$ được
+A. $9x^2-4$.
+B. $9x^2-12x+4$.
+C. $9x^2+12x+4$.
+D. $9x^2-6x+4$.
+::key B
+$(3x-2)^2=(3x)^2-2\cdot3x\cdot2+2^2=9x^2-12x+4$. A là hiệu hai bình phương, D tính $2ab$ sai, C sai dấu hạng tử giữa.
+
+[M224.3] Nhiều lựa chọn
+Khai triển $(7x-y)(7x+y)$ được
+A. $49x^2-14xy+y^2$.
+B. $7x^2-y^2$.
+C. $49x^2-y^2$.
+D. $49x^2+y^2$.
+::key C
+$(7x-y)(7x+y)=(7x)^2-y^2=49x^2-y^2$. B quên bình phương hệ số $7$, A là bình phương của một hiệu, D sai dấu.
+
+[M224.4] Nhiều lựa chọn
+Biểu thức $x^2-12x+36$ bằng
+A. $(x+6)^2$.
+B. $(x-6)(x+6)$.
+C. $(x-12)^2$.
+D. $(x-6)^2$.
+::key D
+$x^2-12x+36=x^2-2\cdot x\cdot6+6^2=(x-6)^2$. A sai dấu, B là $x^2-36$, C có hạng tử giữa là $-24x$.
+
+[M224.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho biểu thức $(x-3)^2$.
+a) $(x-3)^2=x^2-9$.
+b) $(x-3)^2=x^2-6x+9$.
+c) $(x-3)^2=(3-x)^2$.
+d) $(x-3)^2=(x-3)(x+3)$.
+::key S Đ Đ S
+a) Sai: thiếu hạng tử $-6x$. b) Đúng: $x^2-2\cdot x\cdot3+3^2$. c) Đúng: $(3-x)^2=9-6x+x^2$. d) Sai: $(x-3)(x+3)=x^2-9$.
+
+[M224.6] Trả lời ngắn
+Tính nhẩm $51\cdot49$.
+::key 2499
+$51\cdot49=(50+1)(50-1)=50^2-1=2499$.
+
+[M224.7] Trả lời ngắn
+Cho $a+b=7$ và $ab=12$. Tính $a^2+b^2$.
+::key 25
+$a^2+b^2=(a+b)^2-2ab=49-24=25$.
+
+### M225 · Lớp 8 · Lập phương của một tổng. Lập phương của một hiệu. Tổng và hiệu hai lập phương
+
+[M225.1] Nhiều lựa chọn
+Khai triển $(x+2)^3$ được
+A. $x^3+8$.
+B. $x^3+2x^2+4x+8$.
+C. $x^3+6x^2+12x+8$.
+D. $x^3-6x^2+12x-8$.
+::key C
+$(x+2)^3=x^3+3\cdot x^2\cdot2+3\cdot x\cdot4+8=x^3+6x^2+12x+8$. A bỏ hai hạng tử giữa, B quên các hệ số $3$, D sai dấu.
+
+[M225.2] Nhiều lựa chọn
+Khai triển $(2x-1)^3$ được
+A. $8x^3-12x^2-6x-1$.
+B. $8x^3-1$.
+C. $8x^3-6x^2+6x-1$.
+D. $8x^3-12x^2+6x-1$.
+::key D
+$(2x-1)^3=8x^3-3\cdot4x^2+3\cdot2x-1=8x^3-12x^2+6x-1$. B là hiệu hai lập phương, C quên bình phương hệ số $2$ ở hạng tử thứ hai, A không xen kẽ dấu.
+
+[M225.3] Nhiều lựa chọn
+Biểu thức $x^3+27$ bằng
+A. $(x+3)(x^2-3x+9)$.
+B. $(x+3)^3$.
+C. $(x+3)(x^2-9x+9)$.
+D. $(x+3)(x^2+3x+9)$.
+::key A
+$x^3+27=x^3+3^3=(x+3)(x^2-3x+9)$. A sai dấu hạng tử giữa, B có bốn hạng tử, C tính hạng tử giữa sai.
+
+[M225.4] Nhiều lựa chọn
+Biểu thức $8x^3-y^3$ bằng
+A. $(2x-y)^3$.
+B. $(2x-y)(4x^2+2xy+y^2)$.
+C. $(2x+y)(4x^2-2xy+y^2)$.
+D. $(2x-y)(2x^2+2xy+y^2)$.
+::key B
+$8x^3-y^3=(2x)^3-y^3=(2x-y)(4x^2+2xy+y^2)$. A là lập phương của một hiệu, C là tổng hai lập phương, D quên bình phương hệ số $2$.
+
+[M225.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $(x+1)^3$ và $(x-1)^3$.
+a) $(x+1)^3=x^3+1$.
+b) $(x-1)^3=x^3-3x^2+3x-1$.
+c) $(x+1)^3-(x-1)^3=6x^2$.
+d) Tại $x=1$, $(x+1)^3-(x-1)^3$ bằng $8$.
+::key S Đ S Đ
+a) Sai: thiếu $3x^2+3x$. b) Đúng: dấu xen kẽ. c) Sai: hiệu bằng $6x^2+2$. d) Đúng: $2^3-0^3=8$ và $6+2=8$.
+
+[M225.6] Trả lời ngắn
+Tính nhẩm $11^3$.
+::key 1331
+$11^3=(10+1)^3=1000+300+30+1=1331$.
+
+[M225.7] Trả lời ngắn
+Cho $a-b=1$ và $ab=6$. Tính $a^3-b^3$.
+::key 19
+$a^3-b^3=(a-b)^3+3ab(a-b)=1+18=19$.
+
+### M226 · Lớp 8 · Phân tích đa thức thành nhân tử
+
+[M226.1] Nhiều lựa chọn
+Phân tích $6x^2-9x$ thành nhân tử được
+A. $3(2x^2-3x)$.
+B. $3x(2x-3)$.
+C. $3x(2x-9)$.
+D. $3x(2x+3)$.
+::key B
+Nhân tử chung là $3x$: $6x^2-9x=3x(2x-3)$. A đặt nhân tử chung chưa đầy đủ, D sai dấu, C chia sai hạng tử thứ hai.
+
+[M226.2] Nhiều lựa chọn
+Phân tích $4x^2-9$ thành nhân tử được
+A. $(2x-3)^2$.
+B. $(4x-3)(x+3)$.
+C. $(2x-3)(2x+3)$.
+D. $(2x+3)^2$.
+::key C
+$4x^2-9=(2x)^2-3^2=(2x-3)(2x+3)$. A và D là bình phương của một hiệu hoặc một tổng (có hạng tử $\pm12x$), B không đúng khi nhân lại.
+
+[M226.3] Nhiều lựa chọn
+Phân tích $x^3-8$ thành nhân tử được
+A. $(x-2)(x^2+4)$.
+B. $(x-2)^3$.
+C. $(x-2)(x^2-2x+4)$.
+D. $(x-2)(x^2+2x+4)$.
+::key D
+$x^3-8=x^3-2^3=(x-2)(x^2+2x+4)$. B có bốn hạng tử khi khai triển, C sai dấu hạng tử giữa, A thiếu hạng tử $2x$.
+
+[M226.4] Nhiều lựa chọn
+Phân tích $xy+2x+3y+6$ thành nhân tử được
+A. $(x+3)(y+2)$.
+B. $(x+2)(y+6)$.
+C. $(x+2)(y+3)$.
+D. $x(y+2)+6$.
+::key A
+$xy+2x+3y+6=x(y+2)+3(y+2)=(x+3)(y+2)$. A và C cho hạng tử sai khi nhân lại, D chưa phải là tích.
+
+[M226.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét đa thức $2x^2-8$.
+a) $2x^2-8=2(x^2-4)$.
+b) $2x^2-8=2(x-2)^2$.
+c) $2x^2-8=2(x-2)(x+2)$.
+d) Giá trị của $2x^2-8$ tại $x=3$ bằng $10$.
+::key Đ S Đ Đ
+a) Đúng: đặt nhân tử chung $2$. b) Sai: $2(x-2)^2=2x^2-8x+8$. c) Đúng: $x^2-4=(x-2)(x+2)$. d) Đúng: $18-8=10$ và $2\cdot1\cdot5=10$.
+
+[M226.6] Trả lời ngắn
+Tính nhanh $65^2-35^2$.
+::key 3000
+$65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+
+[M226.7] Trả lời ngắn
+Cho $x+y=5$ và $x-y=3$. Tính $x^2-y^2$.
+::key 15
+$x^2-y^2=(x-y)(x+y)=3\cdot5=15$.
+
+### M227 · Lớp 8 · Tứ giác
+
+[M227.1] Nhiều lựa chọn
+Tổng bốn góc của một tứ giác bằng
+A. $180^\circ$.
+B. $360^\circ$.
+C. $270^\circ$.
+D. $540^\circ$.
+::key B
+Tứ giác chia thành hai tam giác bằng một đường chéo, nên tổng góc là $2\cdot180^\circ=360^\circ$. A là tổng góc của tam giác, D là tổng góc của ngũ giác.
+
+[M227.2] Nhiều lựa chọn
+Tứ giác $ABCD$ có $\widehat{A}=80^\circ$, $\widehat{B}=100^\circ$, $\widehat{C}=120^\circ$. Góc $\widehat{D}$ bằng
+A. $40^\circ$.
+B. $50^\circ$.
+C. $60^\circ$.
+D. $80^\circ$.
+::key C
+$\widehat{D}=360^\circ-(80^\circ+100^\circ+120^\circ)=360^\circ-300^\circ=60^\circ$. A, B, D đều không thỏa mãn tổng $360^\circ$.
+
+[M227.3] Nhiều lựa chọn
+Bốn góc của một tứ giác tỉ lệ với $1:2:4:5$. Góc lớn nhất bằng
+A. $180^\circ$.
+B. $120^\circ$.
+C. $90^\circ$.
+D. $150^\circ$.
+::key D
+Tổng các phần là $12$ nên mỗi phần là $360^\circ:12=30^\circ$ và góc lớn nhất là $5\cdot30^\circ=150^\circ$. B là góc thứ ba, C chia nhầm cho $4$.
+
+[M227.4] Nhiều lựa chọn
+Hai đường chéo của tứ giác $ABCD$ là
+A. $AC$ và $BD$.
+B. $BC$ và $DA$.
+C. $AB$ và $CD$.
+D. $AB$ và $BC$.
+::key A
+Đường chéo nối hai đỉnh đối nhau, là $AC$ và $BD$. A và B là các cặp cạnh đối, D là hai cạnh kề.
+
+[M227.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\widehat{B}=100^\circ$, $\widehat{C}=70^\circ$.
+a) $\widehat{D}=100^\circ$.
+b) $\widehat{B}+\widehat{D}=200^\circ$.
+c) $\widehat{A}+\widehat{C}=180^\circ$.
+d) $AC$ là một cạnh của tứ giác.
+::key Đ Đ S S
+a) Đúng: $360-(90+100+70)=100$. b) Đúng: $100+100=200$. c) Sai: $90+70=160$. d) Sai: $AC$ là đường chéo, vì $A$ và $C$ là hai đỉnh đối nhau.
+
+[M227.6] Trả lời ngắn
+Tứ giác $ABCD$ có $\widehat{A}=85^\circ$, $\widehat{B}=95^\circ$, $\widehat{C}=100^\circ$. Tính $\widehat{D}$ (độ).
+::key 80
+$\widehat{D}=360^\circ-(85^\circ+95^\circ+100^\circ)=360^\circ-280^\circ=80^\circ$.
+
+[M227.7] Trả lời ngắn
+Bốn góc của một tứ giác tỉ lệ với $1:3:4:4$. Tính góc nhỏ nhất (độ).
+::key 30
+Tổng các phần là $12$ nên mỗi phần là $30^\circ$, và góc nhỏ nhất là $1\cdot30^\circ=30^\circ$.
+
+### M228 · Lớp 8 · Hình thang cân
+
+[M228.1] Nhiều lựa chọn
+Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{D}=65^\circ$. Góc $\widehat{A}$ bằng
+A. $65^\circ$.
+B. $25^\circ$.
+C. $115^\circ$.
+D. $130^\circ$.
+::key C
+$\widehat{A}$ và $\widehat{D}$ ở trong cùng phía nên $\widehat{A}=180^\circ-65^\circ=115^\circ$. A nhầm $\widehat{A}=\widehat{D}$, B lấy $90^\circ-65^\circ$, D lấy $2\cdot65^\circ$.
+
+[M228.2] Nhiều lựa chọn
+Khẳng định nào sau đây đúng với mọi hình thang cân?
+A. Hai đáy bằng nhau.
+B. Hai cạnh bên song song.
+C. Bốn góc bằng nhau.
+D. Hai đường chéo bằng nhau.
+::key D
+Trong hình thang cân, hai đường chéo bằng nhau. A sai vì hai đáy không bằng nhau, B sai vì hai cạnh bên không song song với nhau, C chỉ đúng với hình chữ nhật.
+
+[M228.3] Nhiều lựa chọn
+Hình thang cân có hai đáy $4$ cm và $10$ cm, cạnh bên $5$ cm. Chiều cao bằng
+A. $4$ cm.
+B. $3$ cm.
+C. $5$ cm.
+D. $6$ cm.
+::key A
+Mỗi bên nhô ra $\dfrac{10-4}{2}=3$ cm, nên chiều cao là $\sqrt{5^2-3^2}=4$ cm. B là phần nhô ra, C là cạnh bên.
+
+[M228.4] Nhiều lựa chọn
+Hình thang cân có hai đáy $6$ cm và $12$ cm, cạnh bên $5$ cm. Chu vi bằng
+A. $23$ cm.
+B. $28$ cm.
+C. $25$ cm.
+D. $34$ cm.
+::key B
+Chu vi là $6+12+5+5=28$ cm. A quên một cạnh bên, C và D cộng sai.
+
+[M228.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình thang $ABCD$ ($AB\parallel CD$) có $\widehat{A}=110^\circ$ và $\widehat{C}=80^\circ$.
+a) $\widehat{D}=70^\circ$.
+b) $\widehat{B}=80^\circ$.
+c) $ABCD$ là hình thang cân.
+d) $\widehat{A}+\widehat{B}+\widehat{C}+\widehat{D}=360^\circ$.
+::key Đ S S Đ
+a) Đúng: $180-110=70$. b) Sai: $\widehat{B}=180^\circ-80^\circ=100^\circ$. c) Sai: $\widehat{C}=80^\circ\ne\widehat{D}=70^\circ$. d) Đúng: tổng các góc của tứ giác.
+
+[M228.6] Trả lời ngắn
+Hình thang cân có hai đáy $7$ cm và $13$ cm, cạnh bên $5$ cm. Tính chu vi (cm).
+::key 30
+Chu vi là $7+13+5+5=30$ cm.
+
+[M228.7] Trả lời ngắn
+Hình thang cân có hai đáy $6$ cm và $14$ cm, cạnh bên $5$ cm. Tính chiều cao (cm).
+::key 3
+Mỗi bên nhô ra $\dfrac{14-6}{2}=4$ cm, nên chiều cao là $\sqrt{25-16}=3$ cm.
+
+### M229 · Lớp 8 · Hình bình hành
+
+[M229.1] Nhiều lựa chọn
+Hình bình hành $ABCD$ có $AB=7$ cm và $AD=4$ cm. Chu vi bằng
+A. $11$ cm.
+B. $28$ cm.
+C. $22$ cm.
+D. $14$ cm.
+::key C
+Chu vi là $2(7+4)=22$ cm. A chỉ cộng hai cạnh kề, B nhân sai, D là $2\cdot7$.
+
+[M229.2] Nhiều lựa chọn
+Tính chất nào sau đây đúng với mọi hình bình hành?
+A. Hai đường chéo bằng nhau.
+B. Hai đường chéo vuông góc với nhau.
+C. Hai góc kề nhau bằng nhau.
+D. Hai đường chéo cắt nhau tại trung điểm của mỗi đường.
+::key D
+Hai đường chéo của hình bình hành cắt nhau tại trung điểm của mỗi đường. A đúng với hình chữ nhật, B đúng với hình thoi, C sai vì hai góc kề bù nhau.
+
+[M229.3] Nhiều lựa chọn
+Hình bình hành $ABCD$ có $\widehat{A}=70^\circ$. Góc $\widehat{C}$ bằng
+A. $70^\circ$.
+B. $110^\circ$.
+C. $20^\circ$.
+D. $140^\circ$.
+::key A
+Hai góc đối bằng nhau nên $\widehat{C}=\widehat{A}=70^\circ$. B là góc $\widehat{B}$, C lấy $90^\circ-70^\circ$, D lấy $2\cdot70^\circ$.
+
+[M229.4] Nhiều lựa chọn
+Tứ giác nào sau đây chắc chắn là hình bình hành?
+A. Tứ giác có hai cạnh đối bằng nhau.
+B. Tứ giác có hai cạnh đối song song và bằng nhau.
+C. Tứ giác có hai đường chéo cắt nhau.
+D. Tứ giác có hai đường chéo bằng nhau.
+::key B
+Hai cạnh đối vừa song song vừa bằng nhau là một dấu hiệu nhận biết hình bình hành. A đúng với hình thang cân, D đúng với hình thang cân, C đúng với mọi tứ giác lồi.
+
+[M229.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, $AC=10$ cm, $BD=6$ cm.
+a) $OA=5$ cm.
+b) $OB=3$ cm.
+c) $\widehat{A}+\widehat{B}=180^\circ$.
+d) $AB=BC$.
+::key Đ Đ Đ S
+a) Đúng: $OA=AC:2=5$. b) Đúng: $OB=BD:2=3$. c) Đúng: hai góc kề nhau bù nhau. d) Sai: hai cạnh kề của hình bình hành không nhất thiết bằng nhau.
+
+[M229.6] Trả lời ngắn
+Hình bình hành có hai cạnh kề $12$ cm và $9$ cm. Tính chu vi (cm).
+::key 42
+Chu vi là $2(12+9)=42$ cm.
+
+[M229.7] Trả lời ngắn
+Hình bình hành $ABCD$ có $AC=14$ cm và $BD=10$ cm, hai đường chéo cắt nhau tại $O$. Tính $OA+OB$ (cm).
+::key 12
+$OA=7$ cm và $OB=5$ cm nên $OA+OB=12$ cm.
+
+### M230 · Lớp 8 · Hình chữ nhật
+
+[M230.1] Nhiều lựa chọn
+Hình chữ nhật có hai cạnh $6$ cm và $8$ cm. Đường chéo dài
+A. $10$ cm.
+B. $14$ cm.
+C. $12$ cm.
+D. $100$ cm.
+::key A
+$d=\sqrt{6^2+8^2}=\sqrt{100}=10$ cm. A cộng hai cạnh, C lấy sai, D quên lấy căn bậc hai.
+
+[M230.2] Nhiều lựa chọn
+Tứ giác nào sau đây chắc chắn là hình chữ nhật?
+A. Tứ giác có hai góc vuông.
+B. Tứ giác có ba góc vuông.
+C. Tứ giác có hai đường chéo vuông góc.
+D. Tứ giác có hai đường chéo bằng nhau.
+::key B
+Tứ giác có ba góc vuông thì góc thứ tư cũng vuông nên là hình chữ nhật. A đúng với hình thang vuông, D đúng với hình thang cân, C đúng với hình thoi.
+
+[M230.3] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $BC=20$ cm, $M$ là trung điểm của $BC$. Độ dài $AM$ bằng
+A. $40$ cm.
+B. $20$ cm.
+C. $10$ cm.
+D. $5$ cm.
+::key C
+Trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM=20:2=10$ cm. B là cạnh huyền, A gấp đôi cạnh huyền, D chia nhầm cho $4$.
+
+[M230.4] Nhiều lựa chọn
+Khẳng định nào sau đây đúng với mọi hình chữ nhật?
+A. Hai đường chéo vuông góc với nhau.
+B. Hai đường chéo không bằng nhau.
+C. Bốn cạnh bằng nhau.
+D. Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.
+::key D
+Hai đường chéo của hình chữ nhật bằng nhau và cắt nhau tại trung điểm của mỗi đường. A và C chỉ đúng với hình vuông, B trái với tính chất đường chéo.
+
+[M230.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình chữ nhật $ABCD$ có $AB=12$ cm, $BC=5$ cm, hai đường chéo cắt nhau tại $O$.
+a) $AC=BD=13$ cm.
+b) $OA=6$ cm.
+c) $\widehat{AOB}=90^\circ$.
+d) Chu vi bằng $34$ cm.
+::key Đ S S Đ
+a) Đúng: $\sqrt{144+25}=13$. b) Sai: $OA=13:2=6{,}5$ cm. c) Sai: hai đường chéo không vuông góc vì hai cạnh kề khác nhau. d) Đúng: $2(12+5)=34$.
+
+[M230.6] Trả lời ngắn
+Hình chữ nhật có hai cạnh $9$ cm và $12$ cm. Tính độ dài đường chéo (cm).
+::key 15
+$d=\sqrt{81+144}=\sqrt{225}=15$ cm.
+
+[M230.7] Trả lời ngắn
+Tam giác vuông có cạnh huyền $14$ cm. Tính độ dài trung tuyến ứng với cạnh huyền (cm).
+::key 7
+Trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $14:2=7$ cm.
+
+### M231 · Lớp 8 · Hình thoi và hình vuông
+
+[M231.1] Nhiều lựa chọn
+Hình thoi có cạnh $6$ cm. Chu vi bằng
+A. $12$ cm.
+B. $24$ cm.
+C. $36$ cm.
+D. $18$ cm.
+::key B
+Hình thoi có bốn cạnh bằng nhau nên chu vi là $4\cdot6=24$ cm. A là $2\cdot6$, C là $6^2$, D là $3\cdot6$.
+
+[M231.2] Nhiều lựa chọn
+Hình thoi có hai đường chéo $6$ cm và $8$ cm. Cạnh của hình thoi bằng
+A. $10$ cm.
+B. $7$ cm.
+C. $5$ cm.
+D. $14$ cm.
+::key C
+Nửa hai đường chéo là $3$ cm và $4$ cm, nên cạnh là $\sqrt{3^2+4^2}=5$ cm. B cộng hai đường chéo rồi chia, A bằng chiều dài một đường chéo, D cộng hai đường chéo.
+
+[M231.3] Nhiều lựa chọn
+Tứ giác nào sau đây chắc chắn là hình thoi?
+A. Tứ giác có hai đường chéo vuông góc.
+B. Tứ giác có hai cạnh kề bằng nhau.
+C. Hình bình hành có hai đường chéo bằng nhau.
+D. Hình bình hành có hai đường chéo vuông góc.
+::key D
+Hình bình hành có hai đường chéo vuông góc là hình thoi. A và B đúng với hình cánh diều, C là dấu hiệu của hình chữ nhật.
+
+[M231.4] Nhiều lựa chọn
+Mỗi đường chéo của hình vuông tạo với các cạnh một góc bằng
+A. $45^\circ$.
+B. $60^\circ$.
+C. $30^\circ$.
+D. $90^\circ$.
+::key A
+Đường chéo là phân giác của góc vuông nên mỗi góc bằng $90^\circ:2=45^\circ$. D là góc ở mỗi đỉnh của hình vuông.
+
+[M231.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hình thoi $ABCD$ có cạnh $6$ cm và $\widehat{A}=60^\circ$.
+a) $BD=6$ cm.
+b) $\widehat{B}=120^\circ$.
+c) $AC=BD$.
+d) $AC\perp BD$.
+::key Đ Đ S Đ
+a) Đúng: tam giác $ABD$ đều. b) Đúng: $180^\circ-60^\circ=120^\circ$. c) Sai: $AC=6\sqrt3\ne6$. d) Đúng: hai đường chéo của hình thoi vuông góc.
+
+[M231.6] Trả lời ngắn
+Hình thoi có hai đường chéo $24$ cm và $10$ cm. Tính cạnh của hình thoi (cm).
+::key 13
+Nửa hai đường chéo là $12$ cm và $5$ cm, nên cạnh là $\sqrt{144+25}=13$ cm.
+
+[M231.7] Trả lời ngắn
+Hình vuông có chu vi $36$ cm. Tính cạnh của hình vuông (cm).
+::key 9
+Cạnh hình vuông là $36:4=9$ cm.
+
+### M232 · Lớp 8 · Định lí Thalès trong tam giác
+
+[M232.1] Nhiều lựa chọn
+Cho $AB=3$ dm và $CD=15$ cm. Tỉ số $\dfrac{AB}{CD}$ bằng
+A. $\dfrac12$.
+B. $5$.
+C. $2$.
+D. $\dfrac15$.
+::key C
+Đổi $AB=3$ dm $=30$ cm nên $\dfrac{AB}{CD}=\dfrac{30}{15}=2$. A là tỉ số nghịch đảo, B và D là kết quả khi tính sai đơn vị.
+
+[M232.2] Nhiều lựa chọn
+Tam giác $ABC$ có $D\in AB$, $E\in AC$, $DE\parallel BC$, $AD=3$ cm, $DB=6$ cm, $AE=2$ cm. Độ dài $EC$ bằng
+A. $1$ cm.
+B. $3$ cm.
+C. $6$ cm.
+D. $4$ cm.
+::key D
+Theo định lí Thalès, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$ nên $EC=\dfrac{2\cdot6}{3}=4$ cm. A là $AE:2$, B là $AD$ và C là $DB$.
+
+[M232.3] Nhiều lựa chọn
+Tam giác $ABC$ có $D\in AB$, $E\in AC$ và $DE\parallel BC$. Đẳng thức nào sau đây đúng?
+A. $\dfrac{AD}{AB}=\dfrac{AE}{AC}$.
+B. $\dfrac{AD}{DB}=\dfrac{AE}{AC}$.
+C. $\dfrac{AD}{AB}=\dfrac{EC}{AC}$.
+D. $\dfrac{AB}{DB}=\dfrac{AE}{EC}$.
+::key A
+Định lí Thalès cho $\dfrac{AD}{AB}=\dfrac{AE}{AC}$. Ở B, C, D các đoạn thẳng ở hai vế không tương ứng.
+
+[M232.4] Nhiều lựa chọn
+Tam giác $ABC$ có $D\in AB$, $E\in AC$. Trường hợp nào sau đây chắc chắn có $DE\parallel BC$?
+A. $AD=2$, $AB=6$, $AE=2$, $AC=9$.
+B. $AD=2$, $AB=6$, $AE=3$, $AC=9$.
+C. $AD=3$, $DB=6$, $AE=4$, $EC=6$.
+D. $AD=2$, $DB=4$, $AE=2$, $EC=6$.
+::key B
+Ở C: $\dfrac{AD}{AB}=\dfrac26=\dfrac13$ và $\dfrac{AE}{AC}=\dfrac39=\dfrac13$ nên song song theo định lí Thalès đảo. Ở A: $\dfrac13\ne\dfrac29$; ở B: $\dfrac12\ne\dfrac23$; ở D: $\dfrac12\ne\dfrac13$.
+
+[M232.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ có $AB=12$ cm, $AC=15$ cm; $D\in AB$ với $AD=4$ cm và $E\in AC$ với $AE=6$ cm.
+a) $\dfrac{AD}{AB}=\dfrac13$.
+b) $\dfrac{AE}{AC}=\dfrac25$.
+c) $DE\parallel BC$.
+d) $\dfrac{AD}{DB}=\dfrac{AE}{EC}$.
+::key Đ Đ S S
+a) Đúng: $\dfrac4{12}=\dfrac13$. b) Đúng: $\dfrac6{15}=\dfrac25$. c) Sai: $\dfrac13\ne\dfrac25$ nên không song song. d) Sai: $\dfrac{AD}{DB}=\dfrac48=\dfrac12$ còn $\dfrac{AE}{EC}=\dfrac69=\dfrac23$.
+
+[M232.6] Trả lời ngắn
+Tam giác $ABC$ có $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=4$ cm, $AB=10$ cm và $AC=15$ cm. Tính $AE$ (cm).
+::key 6
+$\dfrac{AE}{15}=\dfrac4{10}$ nên $AE=6$ cm.
+
+[M232.7] Trả lời ngắn
+Tam giác $ABC$ có $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=2$ cm, $DB=3$ cm và $AC=10$ cm. Tính $AE$ (cm).
+::key 4
+$\dfrac{AD}{AB}=\dfrac25$ nên $AE=\dfrac25\cdot10=4$ cm.

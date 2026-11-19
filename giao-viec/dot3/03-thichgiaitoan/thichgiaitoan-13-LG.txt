@@ -1,0 +1,928 @@
+######################################################################
+TÀI KHOẢN: thichgiaitoan   |   FILE: thichgiaitoan-13-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thichgiaitoan-13-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – thichgiaitoan-13-LG
+Người làm: tài khoản thichgiaitoan. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/thichgiaitoan-13-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/thichgiaitoan-13-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/adding-large-numbers (10 bài tập)
+- g4/basic-property-of-fractions (8 bài tập)
+- g4/commutative-associative-addition (9 bài tập)
+- g4/commutative-associative-multiplication (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/adding-large-numbers
+Bài học: Phép cộng các số có nhiều chữ số. Phép trừ các số có nhiều chữ số / Adding numbers with many digits. Subtracting numbers with many digits
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $524\,163+365\,214$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
+Không có hàng nào đủ $10$ nên không phải nhớ.
+
+**Đáp số.** $889\,377$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $524\,163+365\,214$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
+No column makes $10$, so nothing is regrouped.
+
+**Answer.** $889\,377$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $387\,659+549\,874$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
+Hàng đơn vị: $9+4=13$, viết $3$ nhớ $1$. Hàng chục: $5+7+1=13$, viết $3$ nhớ $1$. Hàng trăm: $6+8+1=15$, viết $5$ nhớ $1$. Hàng nghìn: $7+9+1=17$, viết $7$ nhớ $1$. Hàng chục nghìn: $8+4+1=13$, viết $3$ nhớ $1$. Hàng trăm nghìn: $3+5+1=9$.
+
+**Đáp số.** $937\,533$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $387\,659+549\,874$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
+Ones: $9+4=13$, write $3$ and regroup $1$. Tens: $5+7+1=13$, write $3$ and regroup $1$. Hundreds: $6+8+1=15$, write $5$ and regroup $1$. Thousands: $7+9+1=17$, write $7$ and regroup $1$. Ten-thousands: $8+4+1=13$, write $3$ and regroup $1$. Hundred-thousands: $3+5+1=9$.
+
+**Answer.** $937\,533$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $976\,842-413\,521$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
+Không có hàng nào phải nhớ.
+
+**Đáp số.** $563\,321$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $976\,842-413\,521$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
+No column needs regrouping.
+
+**Answer.** $563\,321$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $800\,000-345\,678$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
+Hàng đơn vị: $10-8=2$, viết $2$ nhớ $1$. Hàng chục: $7+1=8$; $10-8=2$, viết $2$ nhớ $1$. Hàng trăm: $6+1=7$; $10-7=3$, viết $3$ nhớ $1$. Hàng nghìn: $5+1=6$; $10-6=4$, viết $4$ nhớ $1$. Hàng chục nghìn: $4+1=5$; $10-5=5$, viết $5$ nhớ $1$. Hàng trăm nghìn: $3+1=4$; $8-4=4$.
+
+**Đáp số.** $454\,322$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $800\,000-345\,678$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
+Ones: $10-8=2$, write $2$ and regroup $1$. Tens: $7+1=8$; $10-8=2$, write $2$ and regroup $1$. Hundreds: $6+1=7$; $10-7=3$, write $3$ and regroup $1$. Thousands: $5+1=6$; $10-6=4$, write $4$ and regroup $1$. Ten-thousands: $4+1=5$; $10-5=5$, write $5$ and regroup $1$. Hundred-thousands: $3+1=4$; $8-4=4$.
+
+**Answer.** $454\,322$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $x$: $x+245\,780=1\,000\,000$.
+
+[LỜI GIẢI CŨ – VI]
+$x=1\,000\,000-245\,780=754\,220$.
+
+**Thử lại.** $754\,220+245\,780=1\,000\,000$. Đúng.
+
+**Đáp số.** $x=754\,220$.
+
+[ĐỀ – EN]
+Find $x$: $x+245\,780=1\,000\,000$.
+
+[LỜI GIẢI CŨ – EN]
+$x=1\,000\,000-245\,780=754\,220$.
+
+**Check.** $754\,220+245\,780=1\,000\,000$. Correct.
+
+**Answer.** $x=754\,220$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hai huyện (số liệu giả định) có $156\,480$ người và $238\,765$ người. Hỏi cả hai huyện có bao nhiêu người?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số người của cả hai huyện là:
+$$156\,480+238\,765=395\,245\ \text{(người)}.$$
+
+**Đáp số.** $395\,245$ người.
+
+[ĐỀ – EN]
+Two districts (made-up numbers) have $156\,480$ people and $238\,765$ people. How many people live in the two districts altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of people in the two districts is:
+$$156\,480+238\,765=395\,245\ \text{(people)}.$$
+
+**Answer.** $395\,245$ people.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một kho (số liệu giả định) có $650\,000$ kg gạo. Kho xuất đi $275\,380$ kg gạo. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số ki-lô-gam gạo còn lại là:
+$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
+
+**Đáp số.** $374\,620$ kg gạo.
+
+[ĐỀ – EN]
+A store (made-up numbers) has $650\,000$ kg of rice. The store sends out $275\,380$ kg of rice. How many kilograms of rice are left in the store?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of kilograms of rice left is:
+$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
+
+**Answer.** $374\,620$ kg of rice.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài làm tròn số. Tính $468\,957+376\,849$ rồi làm tròn tổng đến hàng trăm nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $468\,957+376\,849=845\,806$. Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $8$ và thay các chữ số bên phải bằng $0$.
+
+**Đáp số.** $845\,806$, làm tròn là $800\,000$.
+
+[ĐỀ – EN]
+Remember the lesson on rounding numbers. Work out $468\,957+376\,849$, then round the sum to the nearest hundred thousand.
+
+[LỜI GIẢI CŨ – EN]
+We have $468\,957+376\,849=845\,806$. The hundred-thousands digit is $8$ and the ten-thousands digit is $4$. Since $4<5$, keep $8$ and replace the digits to its right with $0$.
+
+**Answer.** $845\,806$, which rounds to $800\,000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam tính $500\,000-237\,469=363\,531$. Em hãy dùng phép cộng để thử lại kết quả của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $363\,531+237\,469=601\,000$, khác $500\,000$, nên kết quả của Nam sai. Tính lại: $500\,000-237\,469=262\,531$. Thử lại: $262\,531+237\,469=500\,000$. Đúng.
+
+**Đáp số.** Nam sai; kết quả đúng là $262\,531$.
+
+[ĐỀ – EN]
+Nam works out $500\,000-237\,469=363\,531$. Use addition to check Nam's answer. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+We have $363\,531+237\,469=601\,000$, which is not $500\,000$, so Nam's answer is wrong. Working it out again: $500\,000-237\,469=262\,531$. Check: $262\,531+237\,469=500\,000$. Correct.
+
+**Answer.** Nam is wrong; the correct answer is $262\,531$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm hiệu của số lớn nhất và số bé nhất có sáu chữ số mà các chữ số đều khác nhau.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất là $987\,654$. Số bé nhất là $102\,345$ (chữ số $1$ ở đầu, rồi $0$, $2$, $3$, $4$, $5$). Ta có:
+$$987\,654-102\,345=885\,309.$$
+
+**Đáp số.** $885\,309$.
+
+[ĐỀ – EN]
+Find the difference between the largest and the smallest six-digit number whose digits are all different.
+
+[LỜI GIẢI CŨ – EN]
+The largest number is $987\,654$. The smallest is $102\,345$ (the digit $1$ first, then $0$, $2$, $3$, $4$, $5$). We have:
+$$987\,654-102\,345=885\,309.$$
+
+**Answer.** $885\,309$.
+
+
+######################################################################
+@@@ g4/basic-property-of-fractions
+Bài học: Tính chất cơ bản của phân số / The basic property of fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm số thích hợp: $\dfrac{1}{3}=\dfrac{?}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+$3\times2=6$ nên $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+Find the missing number: $\dfrac{1}{3}=\dfrac{?}{6}$.
+
+[LỜI GIẢI CŨ – EN]
+$3\times2=6$, so $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+
+**Answer.** $2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{12}{?}$.
+
+[LỜI GIẢI CŨ – VI]
+$12:4=3$ nên $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+
+**Đáp số.** $15$.
+
+[ĐỀ – EN]
+Find the missing number: $\dfrac{4}{5}=\dfrac{12}{?}$.
+
+[LỜI GIẢI CŨ – EN]
+$12\div4=3$, so $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+
+**Answer.** $15$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: $3:4$ viết thành phân số là gì? Rồi viết phân số đó với mẫu số $8$.
+
+[LỜI GIẢI CŨ – VI]
+$3:4=\dfrac{3}{4}$. Vì $4\times2=8$ nên $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+
+**Đáp số.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
+
+[ĐỀ – EN]
+Remember the last lesson: what is $3\div4$ written as a fraction? Then write that fraction with denominator $8$.
+
+[LỜI GIẢI CŨ – EN]
+$3\div4=\dfrac{3}{4}$. Since $4\times2=8$, we get $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+
+**Answer.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số thích hợp: $\dfrac{8}{12}=\dfrac{?}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$12:4=3$ nên $\dfrac{8}{12}=\dfrac{8:4}{12:4}=\dfrac{2}{3}$.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+Find the missing number: $\dfrac{8}{12}=\dfrac{?}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$12\div4=3$, so $\dfrac{8}{12}=\dfrac{8\div4}{12\div4}=\dfrac{2}{3}$.
+
+**Answer.** $2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Có thể viết $\dfrac{1}{2}=\dfrac{2}{3}$ bằng cách cùng cộng thêm $1$ vào tử số và mẫu số không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Không. Tử số $1$ nhân với $2$ được $2$, nhưng mẫu số $2$ không nhân với $2$ để được $3$. Hai phân số này không bằng nhau; phân số bằng $\dfrac{1}{2}$ là $\dfrac{2}{4}$.
+
+**Đáp số.** Không, vì phải nhân cả hai số với cùng một số.
+
+[ĐỀ – EN]
+Can we write $\dfrac{1}{2}=\dfrac{2}{3}$ by adding $1$ to both the numerator and the denominator? Why?
+
+[LỜI GIẢI CŨ – EN]
+No. The numerator $1$ times $2$ gives $2$, but the denominator $2$ times $2$ does not give $3$. The two fractions are not equal; the fraction equal to $\dfrac{1}{2}$ is $\dfrac{2}{4}$.
+
+**Answer.** No, because both numbers must be multiplied by the same number.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai viết: "$\dfrac{2}{5}=\dfrac{6}{10}$ vì nhân tử số với $3$ và nhân mẫu số với $2$." Mai sai ở đâu? Hãy viết lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Mai nhân tử số với $3$ nhưng mẫu số với $2$: hai số nhân khác nhau. Đúng là $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+
+**Đáp số.** $\dfrac{6}{15}$.
+
+[ĐỀ – EN]
+Mai wrote: "$\dfrac{2}{5}=\dfrac{6}{10}$ because I multiplied the numerator by $3$ and the denominator by $2$." Where did Mai go wrong? Write it correctly.
+
+[LỜI GIẢI CŨ – EN]
+Mai multiplied the numerator by $3$ but the denominator by $2$: two different numbers. The correct working is $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+
+**Answer.** $\dfrac{6}{15}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nam ăn $\dfrac{2}{4}$ chiếc bánh, Hà ăn $\dfrac{4}{8}$, Lan ăn $\dfrac{3}{6}$ (các chiếc bánh giống nhau). Hãy chia cả tử số và mẫu số để viết mỗi phân số thành phân số có tử số $1$, rồi cho biết ba bạn có ăn bằng nhau không.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{2}{4}=\dfrac{2:2}{4:2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4:4}{8:4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Cả ba bằng $\dfrac{1}{2}$.
+
+**Đáp số.** Ba bạn ăn bằng nhau, mỗi bạn $\dfrac{1}{2}$ chiếc bánh.
+
+[ĐỀ – EN]
+Nam eats $\dfrac{2}{4}$ of a cake, Ha eats $\dfrac{4}{8}$ and Lan eats $\dfrac{3}{6}$ (the cakes are all the same). Divide the numerator and denominator to write each fraction with numerator $1$, then say whether the three children ate the same amount.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{2}{4}=\dfrac{2\div2}{4\div2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4\div4}{8\div4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3\div3}{6\div3}=\dfrac{1}{2}$. All three equal $\dfrac{1}{2}$.
+
+**Answer.** The three children ate the same amount, $\dfrac{1}{2}$ of a cake each.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm các số tự nhiên $a$ và $b$ sao cho $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$ nên $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$ nên $b=36$.
+
+**Kiểm tra.** $15:5=3$, $20:5=4$; $27:9=3$, $36:9=4$. Đúng.
+
+**Đáp số.** $a=15$, $b=36$.
+
+[ĐỀ – EN]
+Find the whole numbers $a$ and $b$ such that $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$, so $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$, so $b=36$.
+
+**Check.** $15\div5=3$, $20\div5=4$; $27\div9=3$, $36\div9=4$. Correct.
+
+**Answer.** $a=15$, $b=36$.
+
+
+######################################################################
+@@@ g4/commutative-associative-addition
+Bài học: Tính chất giao hoán và kết hợp của phép cộng / Commutative and associative properties of addition
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền số thích hợp vào chỗ chấm: $245+138=138+\ \ldots$
+
+[LỜI GIẢI CŨ – VI]
+Theo tính chất giao hoán, $245+138=138+245$.
+
+**Đáp số.** $245$.
+
+[ĐỀ – EN]
+Write the right number in the gap: $245+138=138+\ \ldots$
+
+[LỜI GIẢI CŨ – EN]
+By the commutative property, $245+138=138+245$.
+
+**Answer.** $245$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $46+38+54$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $46+54=100$ nên $46+38+54=(46+54)+38=100+38=138$.
+
+**Đáp số.** $138$.
+
+[ĐỀ – EN]
+Work out in a convenient way: $46+38+54$.
+
+[LỜI GIẢI CŨ – EN]
+Since $46+54=100$, we have $46+38+54=(46+54)+38=100+38=138$.
+
+**Answer.** $138$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $173+84+27$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $173+27=200$ nên $173+84+27=(173+27)+84=200+84=284$.
+
+**Đáp số.** $284$.
+
+[ĐỀ – EN]
+Work out in a convenient way: $173+84+27$.
+
+[LỜI GIẢI CŨ – EN]
+Since $173+27=200$, we have $173+84+27=(173+27)+84=200+84=284$.
+
+**Answer.** $284$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $36+17+64+83$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $36+64=100$ và $17+83=100$. Vậy $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+
+**Đáp số.** $200$.
+
+[ĐỀ – EN]
+Work out in a convenient way: $36+17+64+83$.
+
+[LỜI GIẢI CŨ – EN]
+We have $36+64=100$ and $17+83=100$. So $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+
+**Answer.** $200$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $x$: $x+245=245+78$.
+
+[LỜI GIẢI CŨ – VI]
+Theo tính chất giao hoán, $245+78=78+245$. Vậy $x+245=78+245$ nên $x=78$.
+
+**Thử lại.** $78+245=245+78$. Đúng.
+
+**Đáp số.** $x=78$.
+
+[ĐỀ – EN]
+Find $x$: $x+245=245+78$.
+
+[LỜI GIẢI CŨ – EN]
+By the commutative property, $245+78=78+245$. So $x+245=78+245$, which gives $x=78$.
+
+**Check.** $78+245=245+78$. Correct.
+
+**Answer.** $x=78$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Ba lớp (số liệu giả định) thu gom được $125$ kg, $247$ kg và $175$ kg giấy vụn. Hỏi cả ba lớp thu gom được bao nhiêu ki-lô-gam giấy vụn?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số ki-lô-gam giấy vụn của cả ba lớp là:
+$$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+
+**Đáp số.** $547$ kg giấy vụn.
+
+[ĐỀ – EN]
+Three classes (made-up numbers) collect $125$ kg, $247$ kg and $175$ kg of waste paper. How many kilograms of waste paper do the three classes collect altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of kilograms of waste paper collected by the three classes is:
+$$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+
+**Answer.** $547$ kg of waste paper.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một cửa hàng (số liệu giả định) ngày thứ nhất bán được $2\,450\,000$ đồng, ngày thứ hai bán được $1\,380\,000$ đồng, ngày thứ ba bán được $550\,000$ đồng. Hỏi cả ba ngày cửa hàng bán được bao nhiêu đồng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền bán được trong ba ngày là:
+$$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $4\,380\,000$ đồng.
+
+[ĐỀ – EN]
+A shop (made-up numbers) sells $2\,450\,000$ dong of goods on the first day, $1\,380\,000$ dong on the second day and $550\,000$ dong on the third day. How many dong of goods does the shop sell in the three days altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The money from sales in the three days is:
+$$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(dong)}.$$
+
+**Answer.** $4\,380\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tính bằng cách thuận tiện: $348\,650+275\,480+651\,350$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $348\,650+651\,350=1\,000\,000$. Vậy $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
+
+**Đáp số.** $1\,275\,480$.
+
+[ĐỀ – EN]
+Remember the lesson on adding numbers with many digits. Work out in a convenient way: $348\,650+275\,480+651\,350$.
+
+[LỜI GIẢI CŨ – EN]
+We have $348\,650+651\,350=1\,000\,000$. So $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
+
+**Answer.** $1\,275\,480$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính nhanh: $1+2+3+4+5+6+7+8+9$.
+
+[LỜI GIẢI CŨ – VI]
+Ta ghép thành bốn cặp, mỗi cặp có tổng $10$, còn lại $5$:
+$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
+
+**Đáp số.** $45$.
+
+[ĐỀ – EN]
+Calculate quickly: $1+2+3+4+5+6+7+8+9$.
+
+[LỜI GIẢI CŨ – EN]
+Make four pairs, each with sum $10$, leaving $5$:
+$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
+
+**Answer.** $45$.
+
+
+######################################################################
+@@@ g4/commutative-associative-multiplication
+Bài học: Tính chất giao hoán và kết hợp của phép nhân. Tính chất phân phối của phép nhân đối với phép cộng / Commutative and associative properties of multiplication. The distributive property of multiplication over addition
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số?
+a) $8\times9=9\times\square$
+b) $(3\times5)\times2=3\times(\square\times2)$
+
+[LỜI GIẢI CŨ – VI]
+a) Theo tính chất giao hoán, $8\times9=9\times8$.
+
+b) Theo tính chất kết hợp, $(3\times5)\times2=3\times(5\times2)$.
+
+**Đáp số.** a) $8$. b) $5$.
+
+[ĐỀ – EN]
+Fill in the missing numbers.
+a) $8\times9=9\times\square$
+b) $(3\times5)\times2=3\times(\square\times2)$
+
+[LỜI GIẢI CŨ – EN]
+a) By the commutative property, $8\times9=9\times8$.
+
+b) By the associative property, $(3\times5)\times2=3\times(5\times2)$.
+
+**Answer.** a) $8$. b) $5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $2\times59\times5$.
+
+[LỜI GIẢI CŨ – VI]
+$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+
+**Đáp số.** $590$.
+
+[ĐỀ – EN]
+Calculate in the easy way: $2\times59\times5$.
+
+[LỜI GIẢI CŨ – EN]
+$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+
+**Answer.** $590$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $125\times9\times8$.
+
+[LỜI GIẢI CŨ – VI]
+$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+
+**Đáp số.** $9\,000$.
+
+[ĐỀ – EN]
+Calculate in the easy way: $125\times9\times8$.
+
+[LỜI GIẢI CŨ – EN]
+$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+
+**Answer.** $9\,000$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính giá trị của $7\times(5+3)$ bằng hai cách.
+
+[LỜI GIẢI CŨ – VI]
+Cách 1: $7\times(5+3)=7\times8=56$.
+
+Cách 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
+
+**Đáp số.** $56$.
+
+[ĐỀ – EN]
+Work out $7\times(5+3)$ in two ways.
+
+[LỜI GIẢI CŨ – EN]
+Method 1: $7\times(5+3)=7\times8=56$.
+
+Method 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
+
+**Answer.** $56$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $48\times7+48\times3$.
+
+[LỜI GIẢI CŨ – VI]
+$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+
+**Đáp số.** $480$.
+
+[ĐỀ – EN]
+Calculate in the easy way: $48\times7+48\times3$.
+
+[LỜI GIẢI CŨ – EN]
+$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+
+**Answer.** $480$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một thùng có $5$ hộp bánh, mỗi hộp có $20$ cái bánh. Kho có $6$ thùng như vậy. Hỏi kho có tất cả bao nhiêu cái bánh?
+
+[LỜI GIẢI CŨ – VI]
+Số cái bánh có trong kho là:
+$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(cái)}.$$
+
+**Đáp số.** $600$ cái bánh.
+
+[ĐỀ – EN]
+A carton holds $5$ boxes of biscuits, and each box has $20$ biscuits. The store room has $6$ such cartons. How many biscuits are in the store room altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of biscuits in the store room is:
+$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(biscuits)}.$$
+
+**Answer.** $600$ biscuits.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lan mua $6$ quyển vở, mỗi quyển giá $9\,000$ đồng, và $6$ chiếc bút, mỗi chiếc giá $6\,000$ đồng. Hỏi Lan phải trả tất cả bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền Lan phải trả là:
+$$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $90\,000$ đồng.
+
+[ĐỀ – EN]
+Lan buys $6$ exercise books at $9\,000$ dong each and $6$ pens at $6\,000$ dong each. How much does Lan pay altogether?
+
+[LỜI GIẢI CŨ – EN]
+The amount Lan pays is:
+$$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(dong)}.$$
+
+**Answer.** $90\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân với số có một chữ số. Tách $2\,315=2\,000+300+15$ rồi tính $2\,315\times4$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+
+**Đáp số.** $9\,260$.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying by a one-digit number. Split $2\,315=2\,000+300+15$ and work out $2\,315\times4$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+
+**Answer.** $9\,260$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một mảnh vườn hình chữ nhật có chiều rộng $7$ m. Phần trồng rau dài $12$ m và phần trồng hoa dài $8$ m, hai phần nằm cạnh nhau. Hỏi diện tích cả mảnh vườn là bao nhiêu mét vuông?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích cả mảnh vườn là:
+$$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
+
+**Kiểm tra.** $7\times20=140$. Đúng.
+
+**Đáp số.** $140\ \text{m}^2$.
+
+[ĐỀ – EN]
+A rectangular garden is $7$ m wide. The vegetable part is $12$ m long and the flower part is $8$ m long, side by side. What is the area of the whole garden in square metres?
+
+[LỜI GIẢI CŨ – EN]
+The area of the whole garden is:
+$$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
+
+**Check.** $7\times20=140$. Correct.
+
+**Answer.** $140\ \text{m}^2$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $25\times36$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $36=4\times9$ nên:
+$$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
+
+**Đáp số.** $900$.
+
+[ĐỀ – EN]
+Calculate in the easy way: $25\times36$.
+
+[LỜI GIẢI CŨ – EN]
+Since $36=4\times9$:
+$$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
+
+**Answer.** $900$.
+
+
+===== HẾT FILE thichgiaitoan-13-LG =====

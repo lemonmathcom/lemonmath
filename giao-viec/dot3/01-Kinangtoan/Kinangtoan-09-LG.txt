@@ -1,0 +1,823 @@
+######################################################################
+TÀI KHOẢN: Kinangtoan   |   FILE: Kinangtoan-09-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Kinangtoan-09-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Kinangtoan-09-LG
+Người làm: tài khoản Kinangtoan. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Kinangtoan-09-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Kinangtoan-09-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g1/position-and-direction (8 bài tập)
+- g1/squares-circles-triangles-rectangles (8 bài tập)
+- g1/subtract-1-digit-from-2-digit (8 bài tập)
+- g1/subtract-2-digit-numbers (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g1/position-and-direction
+Bài học: Vị trí, định hướng trong không gian / Position and direction in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên phải hình tròn?
+
+[LỜI GIẢI CŨ – VI]
+Sau hình tròn là hình tam giác.
+
+**Đáp số.** Hình tam giác.
+
+[ĐỀ – EN]
+In the row (square, circle, triangle from left to right), which shape is on the right of the circle?
+
+[LỜI GIẢI CŨ – EN]
+After the circle comes the triangle.
+
+**Answer.** The triangle.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình nào ở trên cùng?
+
+[LỜI GIẢI CŨ – VI]
+Hình đầu tiên từ trên xuống là hình tam giác.
+
+**Đáp số.** Hình tam giác.
+
+[ĐỀ – EN]
+In the column (triangle, square, circle from top to bottom), which shape is at the top?
+
+[LỜI GIẢI CŨ – EN]
+The first shape from the top is the triangle.
+
+**Answer.** The triangle.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: viên xúc xắc đặt trên bàn. Xúc xắc có dạng khối gì? Vật nào ở dưới viên xúc xắc?
+
+[LỜI GIẢI CŨ – VI]
+Xúc xắc là khối lập phương. Xúc xắc đặt trên bàn nên bàn ở dưới xúc xắc.
+
+**Đáp số.** Khối lập phương; cái bàn.
+
+[ĐỀ – EN]
+Remember the last lesson: a dice sits on a table. What solid shape is a dice? What is below the dice?
+
+[LỜI GIẢI CŨ – EN]
+A dice is a cube. It sits on the table, so the table is below the dice.
+
+**Answer.** A cube; the table.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải):
+a) Hình tròn ở bên phải hình nào?
+b) Hình tam giác ở bên trái hay bên phải hình tròn?
+
+[LỜI GIẢI CŨ – VI]
+a) Hình tròn ở bên phải hình vuông. b) Hình tam giác đứng sau hình tròn nên ở bên phải.
+
+**Đáp số.** a) Hình vuông. b) Bên phải.
+
+[ĐỀ – EN]
+In the row (square, circle, triangle from left to right):
+a) The circle is on the right of which shape?
+b) Is the triangle on the left or on the right of the circle?
+
+[LỜI GIẢI CŨ – EN]
+a) The circle is on the right of the square. b) The triangle comes after the circle, so it is on the right.
+
+**Answer.** a) The square. b) On the right.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bình nói: "Hình vuông ở giữa" (trong hàng ngang vuông, tròn, tam giác). Bình nói đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Hình vuông đứng đầu hàng, không có hình bên trái. Hình ở giữa là hình tròn.
+
+**Đáp số.** Sai. Hình tròn ở giữa.
+
+[ĐỀ – EN]
+Binh says: "The square is in the middle" (in the row square, circle, triangle). Is Binh right? Why?
+
+[LỜI GIẢI CŨ – EN]
+The square is first in the row, with no shape on its left. The shape in the middle is the circle.
+
+**Answer.** No. The circle is in the middle.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan đứng sau Mai, Mai đứng sau Nam. Lan nói: "Em đứng đầu hàng." Lan sai ở đâu? Ai đứng đầu?
+
+[LỜI GIẢI CŨ – VI]
+Lan sau Mai, Mai sau Nam, nên thứ tự là Nam, Mai, Lan. Lan đứng cuối hàng.
+
+**Đáp số.** Sai. Nam đứng đầu hàng, Lan đứng cuối.
+
+[ĐỀ – EN]
+Lan stands behind Mai, and Mai stands behind Nam. Lan says: "I am first in the line." Where did Lan go wrong? Who is first?
+
+[LỜI GIẢI CŨ – EN]
+Lan is behind Mai and Mai is behind Nam, so the order is Nam, Mai, Lan. Lan is last.
+
+**Answer.** No. Nam is first and Lan is last.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ba bạn ngồi cạnh nhau từ trái sang phải: An, Bình, Chi.
+a) Ai ngồi ở giữa?
+b) Ai ngồi bên phải Bình?
+
+[LỜI GIẢI CŨ – VI]
+a) Bình có An bên trái và Chi bên phải. b) Sau Bình là Chi.
+
+**Đáp số.** a) Bình. b) Chi.
+
+[ĐỀ – EN]
+Three friends sit side by side from left to right: An, Binh, Chi.
+a) Who sits in the middle?
+b) Who sits on the right of Binh?
+
+[LỜI GIẢI CŨ – EN]
+a) Binh has An on the left and Chi on the right. b) After Binh comes Chi.
+
+**Answer.** a) Binh. b) Chi.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bốn bạn xếp hàng: Hà đứng trước Lan, Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng thứ hai từ đầu hàng? Ai đứng cuối hàng?
+
+[LỜI GIẢI CŨ – VI]
+Thứ tự từ đầu hàng: Hà, Lan, Mai, Nam.
+
+**Kiểm tra.** Hà trước Lan, Lan trước Mai, Mai trước Nam. Đúng.
+
+**Đáp số.** Lan đứng thứ hai; Nam đứng cuối.
+
+[ĐỀ – EN]
+Four friends line up: Ha is in front of Lan, Lan is in front of Mai, Mai is in front of Nam. Who is second from the start? Who is last?
+
+[LỜI GIẢI CŨ – EN]
+The order from the start: Ha, Lan, Mai, Nam.
+
+**Check.** Ha before Lan, Lan before Mai, Mai before Nam. Correct.
+
+**Answer.** Lan is second; Nam is last.
+
+
+######################################################################
+@@@ g1/squares-circles-triangles-rectangles
+Bài học: Hình vuông, hình tròn, hình tam giác, hình chữ nhật / Squares, circles, triangles and rectangles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mặt đồng hồ treo tường có dạng hình gì?
+
+[LỜI GIẢI CŨ – VI]
+Viền mặt đồng hồ cong đều, không có cạnh.
+
+**Đáp số.** Hình tròn.
+
+[ĐỀ – EN]
+What shape is a wall clock face?
+
+[LỜI GIẢI CŨ – EN]
+The edge of the clock is round, with no sides.
+
+**Answer.** A circle.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hình có $3$ cạnh là hình gì?
+
+[LỜI GIẢI CŨ – VI]
+Hình tam giác có $3$ cạnh.
+
+**Đáp số.** Hình tam giác.
+
+[ĐỀ – EN]
+What shape has $3$ sides?
+
+[LỜI GIẢI CŨ – EN]
+A triangle has $3$ sides.
+
+**Answer.** A triangle.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. a) $8$ cái bánh chia vào hai đĩa. Đĩa thứ nhất có $5$ cái bánh, $8$ gồm $5$ và $\square$. b) Hình có $4$ cạnh dài bằng nhau là hình gì?
+
+[LỜI GIẢI CŨ – VI]
+a) Từ $5$ lên $8$ có $3$ số. b) Hình có $4$ cạnh dài bằng nhau là hình vuông.
+
+**Đáp số.** a) $3$. b) Hình vuông.
+
+[ĐỀ – EN]
+Remember the last lesson. a) $8$ cakes are shared between two plates. The first plate has $5$ cakes, so $8$ is made of $5$ and $\square$. b) What shape has $4$ sides of the same length?
+
+[LỜI GIẢI CŨ – EN]
+a) From $5$ to $8$ is $3$ numbers. b) A shape with $4$ sides of the same length is a square.
+
+**Answer.** a) $3$. b) A square.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+a) Trong ba hình: hình vuông, hình tròn, hình tam giác, hình nào không có cạnh?
+b) Hình chữ nhật có mấy cạnh?
+
+[LỜI GIẢI CŨ – VI]
+a) Hình tròn không có cạnh. b) Hình chữ nhật có $4$ cạnh.
+
+**Đáp số.** a) Hình tròn. b) $4$ cạnh.
+
+[ĐỀ – EN]
+a) Of a square, a circle and a triangle, which has no sides?
+b) How many sides does a rectangle have?
+
+[LỜI GIẢI CŨ – EN]
+a) A circle has no sides. b) A rectangle has $4$ sides.
+
+**Answer.** a) A circle. b) $4$ sides.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+An nói: "Tờ giấy có $4$ cạnh, hai cạnh dài, hai cạnh ngắn là hình vuông." An nói đúng không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Tờ giấy có cạnh dài và cạnh ngắn, nên các cạnh không bằng nhau hết. An nói sai.
+
+**Đáp số.** Sai. Tờ giấy là hình chữ nhật.
+
+[ĐỀ – EN]
+An says: "A sheet of paper has $4$ sides, two long and two short, so it is a square." Is An right? Why?
+
+[LỜI GIẢI CŨ – EN]
+The paper has long sides and short sides, so the sides are not all the same. An is wrong.
+
+**Answer.** No. The paper is a rectangle.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai nói: "Hình tam giác có $4$ cạnh." Mai sai ở đâu? Nói lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Hình tam giác chỉ có $3$ cạnh, không phải $4$.
+
+**Đáp số.** Hình tam giác có $3$ cạnh.
+
+[ĐỀ – EN]
+Mai says: "A triangle has $4$ sides." Where did Mai go wrong? Say it correctly.
+
+[LỜI GIẢI CŨ – EN]
+A triangle has only $3$ sides, not $4$.
+
+**Answer.** A triangle has $3$ sides.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bảng cho biết số hình trong một bức tranh:
+
+| Hình | Vuông | Tròn | Tam giác | Chữ nhật |
+|---|---|---|---|---|
+| Số hình | $3$ | $5$ | $2$ | $4$ |
+
+![Bức tranh đoàn tàu ghép từ ba hình vuông, năm hình tròn, hai hình tam giác và bốn hình chữ nhật](/assets/img/g1/g1-squares-circles-triangles-rectangles-02.svg)
+
+a) Hình nào nhiều nhất?
+b) Hình nào ít nhất?
+
+[LỜI GIẢI CŨ – VI]
+a) Số lớn nhất là $5$, ở hình tròn. b) Số bé nhất là $2$, ở hình tam giác.
+
+**Đáp số.** a) Hình tròn. b) Hình tam giác.
+
+[ĐỀ – EN]
+The table shows how many shapes are in a picture:
+
+| Shape | Squares | Circles | Triangles | Rectangles |
+|---|---|---|---|---|
+| Number | $3$ | $5$ | $2$ | $4$ |
+
+![A train picture made from three squares, five circles, two triangles, and four rectangles](/assets/img/g1/g1-squares-circles-triangles-rectangles-02.svg)
+
+a) Which shape is there most of?
+b) Which shape is there least of?
+
+[LỜI GIẢI CŨ – EN]
+a) The greatest number is $5$, for circles. b) The least number is $2$, for triangles.
+
+**Answer.** a) Circles. b) Triangles.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai góc đối diện. Em được mấy mảnh? Mỗi mảnh là hình gì?
+
+![Tờ giấy hình vuông có đường cắt chéo nét đứt và biểu tượng kéo](/assets/img/g1/g1-squares-circles-triangles-rectangles-03.svg)
+
+[LỜI GIẢI CŨ – VI]
+Đường cắt chia hình vuông thành $2$ phần. Mỗi phần có $3$ cạnh.
+
+**Kiểm tra.** Hai mảnh ghép lại thành hình vuông ban đầu.
+
+**Đáp số.** $2$ mảnh, mỗi mảnh là hình tam giác.
+
+[ĐỀ – EN]
+You cut a square sheet of paper along a straight line joining two opposite corners. How many pieces do you get? What shape is each piece?
+
+![A square sheet with a dashed diagonal cutting line and scissors](/assets/img/g1/g1-squares-circles-triangles-rectangles-03.svg)
+
+[LỜI GIẢI CŨ – EN]
+The cut splits the square into $2$ parts. Each part has $3$ sides.
+
+**Check.** The two pieces fit back together to make the square.
+
+**Answer.** $2$ pieces, each a triangle.
+
+
+######################################################################
+@@@ g1/subtract-1-digit-from-2-digit
+Bài học: Phép trừ số có hai chữ số cho số có một chữ số / Subtracting a one-digit number from a two-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $38-5$.
+
+[LỜI GIẢI CŨ – VI]
+$8-5=3$, hàng chục là $3$, nên $38-5=33$.
+
+**Đáp số.** $33$.
+
+[ĐỀ – EN]
+Work out $38-5$.
+
+[LỜI GIẢI CŨ – EN]
+$8-5=3$ and the tens are $3$, so $38-5=33$.
+
+**Answer.** $33$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $79-6$.
+
+[LỜI GIẢI CŨ – VI]
+$9-6=3$, hàng chục là $7$, nên $79-6=73$.
+
+**Đáp số.** $73$.
+
+[ĐỀ – EN]
+Work out $79-6$.
+
+[LỜI GIẢI CŨ – EN]
+$9-6=3$ and the tens are $7$, so $79-6=73$.
+
+**Answer.** $73$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $64-4$.
+
+[LỜI GIẢI CŨ – VI]
+$4-4=0$, hàng chục là $6$, nên $64-4=60$.
+
+**Đáp số.** $60$.
+
+[ĐỀ – EN]
+Work out $64-4$.
+
+[LỜI GIẢI CŨ – EN]
+$4-4=0$ and the tens are $6$, so $64-4=60$.
+
+**Answer.** $60$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $48-5 \;\square\; 40$.
+
+[LỜI GIẢI CŨ – VI]
+$8-5=3$, nên $48-5=43$. Vì $43>40$ nên $48-5>40$.
+
+**Đáp số.** Dấu $>$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $48-5 \;\square\; 40$.
+
+[LỜI GIẢI CŨ – EN]
+$8-5=3$, so $48-5=43$. Since $43>40$, we have $48-5>40$.
+
+**Answer.** The sign $>$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hộp có $45$ cái kẹo. Em ăn hết $3$ cái. Hỏi trong hộp còn lại bao nhiêu cái kẹo?
+
+[LỜI GIẢI CŨ – VI]
+Số cái kẹo còn lại là:
+$$45-3=42\ \text{(cái)}.$$
+
+**Đáp số.** $42$ cái kẹo.
+
+[ĐỀ – EN]
+A box has $45$ sweets. You eat $3$ of them. How many sweets are left in the box?
+
+[LỜI GIẢI CŨ – EN]
+The number of sweets left is:
+$$45-3=42\ \text{(sweets)}.$$
+
+**Answer.** $42$ sweets.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: cộng hai số có hai chữ số. Tính $32+45$, rồi trừ kết quả cho $6$.
+
+[LỜI GIẢI CŨ – VI]
+$32+45=77$. Rồi $7-6=1$, hàng chục là $7$, nên $77-6=71$.
+
+**Đáp số.** $71$.
+
+[ĐỀ – EN]
+Remember the last lesson: adding two two-digit numbers. Work out $32+45$, then subtract $6$ from the result.
+
+[LỜI GIẢI CŨ – EN]
+$32+45=77$. Then $7-6=1$ and the tens are $7$, so $77-6=71$.
+
+**Answer.** $71$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lan làm bài: $46-3=16$. Lan làm đúng hay sai? Vì sao? Hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Lan sai, vì Lan trừ $3$ ở hàng chục ($4$ chục thành $1$ chục). Cách đúng: $6-3=3$, hàng chục là $4$, nên $46-3=43$.
+
+**Đáp số.** Sai; kết quả đúng là $43$.
+
+[ĐỀ – EN]
+Lan writes: $46-3=16$. Is Lan right or wrong? Why? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+Lan is wrong, because she took $3$ from the tens ($4$ tens became $1$ ten). The right way: $6-3=3$ and the tens are $4$, so $46-3=43$.
+
+**Answer.** Wrong; the correct answer is $43$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống: $\square-5=32$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $7-5=2$. Hàng chục là $3$, nên số cần điền là $37$.
+
+**Kiểm tra.** $37-5=32$. Đúng.
+
+**Đáp số.** $37$.
+
+[ĐỀ – EN]
+Find the missing number: $\square-5=32$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $7-5=2$. The tens are $3$, so the missing number is $37$.
+
+**Check.** $37-5=32$. Correct.
+
+**Answer.** $37$.
+
+
+######################################################################
+@@@ g1/subtract-2-digit-numbers
+Bài học: Phép trừ số có hai chữ số cho số có hai chữ số / Subtracting a two-digit number from a two-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $68-35$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $8-5=3$. Hàng chục: $6-3=3$. Vậy $68-35=33$.
+
+**Đáp số.** $33$.
+
+[ĐỀ – EN]
+Work out $68-35$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $8-5=3$. Tens: $6-3=3$. So $68-35=33$.
+
+**Answer.** $33$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $94-72$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $4-2=2$. Hàng chục: $9-7=2$. Vậy $94-72=22$.
+
+**Đáp số.** $22$.
+
+[ĐỀ – EN]
+Work out $94-72$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $4-2=2$. Tens: $9-7=2$. So $94-72=22$.
+
+**Answer.** $22$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $79-40$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $9-0=9$. Hàng chục: $7-4=3$. Vậy $79-40=39$.
+
+**Đáp số.** $39$.
+
+[ĐỀ – EN]
+Work out $79-40$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $9-0=9$. Tens: $7-4=3$. So $79-40=39$.
+
+**Answer.** $39$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $76-32 \;\square\; 40$.
+
+[LỜI GIẢI CŨ – VI]
+$6-2=4$ và $7-3=4$, nên $76-32=44$. Vì $44>40$ nên $76-32>40$.
+
+**Đáp số.** Dấu $>$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $76-32 \;\square\; 40$.
+
+[LỜI GIẢI CŨ – EN]
+$6-2=4$ and $7-3=4$, so $76-32=44$. Since $44>40$, $76-32>40$.
+
+**Answer.** The sign $>$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Rổ có $76$ quả cam. Cô bán đi $34$ quả. Hỏi trong rổ còn lại bao nhiêu quả cam?
+
+[LỜI GIẢI CŨ – VI]
+Số quả cam còn lại là:
+$$76-34=42\ \text{(quả)}.$$
+
+**Đáp số.** $42$ quả cam.
+
+[ĐỀ – EN]
+A basket has $76$ oranges. The seller sells $34$ of them. How many oranges are left in the basket?
+
+[LỜI GIẢI CŨ – EN]
+The number of oranges left is:
+$$76-34=42\ \text{(oranges)}.$$
+
+**Answer.** $42$ oranges.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: trừ số có hai chữ số cho số có một chữ số. Tính $48-5$, rồi trừ kết quả cho $21$.
+
+[LỜI GIẢI CŨ – VI]
+$8-5=3$, nên $48-5=43$. Rồi $3-1=2$ và $4-2=2$, nên $43-21=22$.
+
+**Đáp số.** $22$.
+
+[ĐỀ – EN]
+Remember the last lesson: subtracting a one-digit number from a two-digit number. Work out $48-5$, then subtract $21$ from the answer.
+
+[LỜI GIẢI CŨ – EN]
+$8-5=3$, so $48-5=43$. Then $3-1=2$ and $4-2=2$, so $43-21=22$.
+
+**Answer.** $22$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hà làm bài: "$86-24$: hàng đơn vị $6-4=2$, hàng chục $8-2=6$, nên $86-24=26$". Hà làm đúng hay sai? Vì sao? Hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Hai phép trừ của Hà đúng, nhưng Hà viết nhầm chỗ. Có $6$ chục và $2$ đơn vị nên $86-24=62$.
+
+**Đáp số.** Sai; kết quả đúng là $62$.
+
+[ĐỀ – EN]
+Ha writes: "$86-24$: ones $6-4=2$, tens $8-2=6$, so $86-24=26$". Is Ha right or wrong? Why? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+Ha's two subtractions are right, but Ha put the digits in the wrong places. There are $6$ tens and $2$ ones, so $86-24=62$.
+
+**Answer.** Wrong; the right answer is $62$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $7\square-24=51$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị: $5-4=1$. Số cần tìm là $75$, và chữ số cần điền là $5$.
+
+**Kiểm tra.** $75-24=51$. Đúng.
+
+**Đáp số.** $5$.
+
+[ĐỀ – EN]
+Find the digit that goes in the box: $7\square-24=51$.
+
+[LỜI GIẢI CŨ – EN]
+Ones: $5-4=1$. The number is $75$, so the missing digit is $5$.
+
+**Check.** $75-24=51$. Correct.
+
+**Answer.** $5$.
+
+
+===== HẾT FILE Kinangtoan-09-LG =====

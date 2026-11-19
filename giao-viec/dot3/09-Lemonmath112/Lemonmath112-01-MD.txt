@@ -1,0 +1,1149 @@
+######################################################################
+TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-01-MD   |   VIỆC: gắn mức độ nhận thức (MD-09)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath112-01-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-09 – gắn mức độ nhận thức cho 133 câu hỏi (Lớp 6 → Lớp 7)
+
+Tài khoản thực hiện: Lemonmath112
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-09 (133 câu)
+
+## Các câu hỏi
+
+### M192 · Lớp 6 · Kết quả có thể và sự kiện trong trò chơi, thí nghiệm. Xác suất thực nghiệm
+
+[M192.1] Nhiều lựa chọn
+Gieo một con xúc xắc sáu mặt. Số kết quả có thể là
+A. $6$.
+B. $1$.
+C. $2$.
+D. $12$.
+::key A
+Có $6$ mặt từ $1$ đến $6$ chấm. C là số kết quả khi tung đồng xu.
+
+[M192.2] Nhiều lựa chọn
+Gieo một con xúc xắc. Sự kiện nào sau đây không thể xảy ra?
+A. "Số chấm là số chẵn".
+B. "Số chấm bằng $7$".
+C. "Số chấm nhỏ hơn $7$".
+D. "Số chấm là số lẻ".
+::key B
+Không có mặt nào $7$ chấm. A và D có thể xảy ra; C chắc chắn xảy ra.
+
+[M192.3] Nhiều lựa chọn
+Tung một đồng xu $20$ lần, có $8$ lần xuất hiện mặt sấp. Xác suất thực nghiệm của sự kiện "xuất hiện mặt sấp" là
+A. $8$.
+B. $\dfrac{12}{20}$.
+C. $\dfrac{2}{5}$.
+D. $\dfrac{1}{2}$.
+::key C
+$\dfrac{8}{20}=\dfrac25$. A lấy số lần làm xác suất; B là của mặt ngửa; D là giá trị "lí tưởng", không phải kết quả thí nghiệm này.
+
+[M192.4] Nhiều lựa chọn
+Rút ngẫu nhiên một thẻ từ hộp có bốn thẻ ghi các số $2$; $4$; $6$; $8$. Sự kiện chắc chắn xảy ra là
+A. "Rút được thẻ ghi số lẻ".
+B. "Rút được thẻ ghi số lớn hơn $8$".
+C. "Rút được thẻ ghi số $5$".
+D. "Rút được thẻ ghi số chẵn".
+::key D
+Cả bốn thẻ đều ghi số chẵn. A và C không thể xảy ra; B cũng không thể xảy ra.
+
+[M192.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Dựa vào biểu đồ "Số lần xuất hiện mỗi mặt trong $50$ lần gieo xúc xắc". Xét tính đúng sai của các mệnh đề sau:
+a) Mặt $4$ xuất hiện $10$ lần.
+b) Xác suất thực nghiệm của sự kiện "xuất hiện mặt $5$" là $6$.
+c) Tổng số lần xuất hiện mặt $1$ và mặt $2$ là $15$.
+d) Xác suất thực nghiệm của sự kiện "xuất hiện mặt có số chấm chẵn" lớn hơn $\dfrac12$.
+::key Đ S S Đ
+a) Đúng. b) Sai: phải là $\dfrac{6}{50}=\dfrac{3}{25}$. c) Sai: $7+9=16$. d) Đúng: $\dfrac{29}{50}>\dfrac{25}{50}$.
+
+[M192.6] Trả lời ngắn
+Tung một đồng xu $40$ lần, có $18$ lần xuất hiện mặt sấp. Tính xác suất thực nghiệm của sự kiện "xuất hiện mặt sấp" (viết dưới dạng số thập phân).
+::key 0,45
+$\dfrac{18}{40}=0{,}45$.
+
+[M192.7] Trả lời ngắn
+Gieo một con xúc xắc. Có bao nhiêu kết quả thuận lợi cho sự kiện "số chấm là số nguyên tố"?
+::key 3
+Các số nguyên tố từ $1$ đến $6$ là $2$; $3$; $5$.
+
+### M193 · Lớp 7 · Tập hợp các số hữu tỉ
+
+[M193.1] Nhiều lựa chọn
+Phát biểu nào sau đây đúng?
+A. Mọi số hữu tỉ đều là số nguyên.
+B. Số $0$ không là số hữu tỉ.
+C. Mọi số nguyên đều là số hữu tỉ.
+D. Phân số có mẫu âm không là số hữu tỉ.
+::key C
+Số nguyên $n=\dfrac n1$ nên là số hữu tỉ. A đảo ngược quan hệ $\mathbb{Z}\subset\mathbb{Q}$, B quên $0=\dfrac01$, D quên rằng $\dfrac{3}{-4}=\dfrac{-3}{4}$.
+
+[M193.2] Nhiều lựa chọn
+Số lớn nhất trong các số $-\dfrac35$; $-\dfrac23$; $-\dfrac58$; $-\dfrac12$ là
+A. $-\dfrac35$.
+B. $-\dfrac23$.
+C. $-\dfrac58$.
+D. $-\dfrac12$.
+::key D
+Mẫu chung $120$: $\dfrac{-72}{120}$, $\dfrac{-80}{120}$, $\dfrac{-75}{120}$, $\dfrac{-60}{120}$. Số lớn nhất là $-\dfrac{60}{120}=-\dfrac12$. B là số nhỏ nhất, người làm nhầm tưởng mẫu nhỏ thì số lớn.
+
+[M193.3] Nhiều lựa chọn
+Số đối của $\dfrac{-4}{-9}$ là
+A. $-\dfrac49$.
+B. $\dfrac49$.
+C. $\dfrac94$.
+D. $-\dfrac94$.
+::key A
+Ta có $\dfrac{-4}{-9}=\dfrac49$ nên số đối là $-\dfrac49$. B là chính số đó, C và D nhầm với việc đảo tử và mẫu.
+
+[M193.4] Nhiều lựa chọn
+Biết $|x|=\dfrac56$. Khi đó $x$ bằng
+A. $\dfrac56$.
+B. $\dfrac56$ hoặc $-\dfrac56$.
+C. $-\dfrac56$.
+D. $\dfrac65$ hoặc $-\dfrac65$.
+::key B
+Điểm $x$ cách $O$ một khoảng $\dfrac56$ nên có hai giá trị $\pm\dfrac56$. A và C bỏ sót một giá trị, D đảo tử và mẫu.
+
+[M193.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai số hữu tỉ $x=-\dfrac34$ và $y=-0{,}8$. Xét tính đúng sai của các mệnh đề sau:
+a) $x<y$.
+b) $|x|<|y|$.
+c) Số đối của $y$ là $\dfrac45$.
+d) Có đúng một số hữu tỉ nằm giữa $x$ và $y$.
+::key S Đ Đ S
+a) Sai: $x=-0{,}75>-0{,}8=y$. b) Đúng: $|x|=0{,}75<0{,}8=|y|$. c) Đúng: $-y=0{,}8=\dfrac45$. d) Sai: giữa hai số hữu tỉ khác nhau có vô số số hữu tỉ.
+
+[M193.6] Trả lời ngắn
+Có bao nhiêu số nguyên $x$ thoả mãn $|x|<\dfrac72$?
+::key 7
+Ta có $|x|<3{,}5$ nên $-3{,}5<x<3{,}5$, tức $x\in\{-3; -2; -1; 0; 1; 2; 3\}$, có $7$ số.
+
+[M193.7] Trả lời ngắn
+Số đối của $-\dfrac7{20}$ viết dưới dạng số thập phân là bao nhiêu?
+::key 0,35
+Số đối của $-\dfrac7{20}$ là $\dfrac7{20}=\dfrac{35}{100}=0{,}35$.
+
+### M194 · Lớp 7 · Cộng, trừ, nhân, chia số hữu tỉ
+
+[M194.1] Nhiều lựa chọn
+Kết quả của phép tính $-\dfrac56+\dfrac34$ là
+A. $-\dfrac1{12}$.
+B. $-\dfrac15$.
+C. $\dfrac1{12}$.
+D. $-\dfrac{19}{12}$.
+::key A
+Mẫu số chung là $12$: $-\dfrac{10}{12}+\dfrac9{12}=-\dfrac1{12}$. A là cộng tử với tử, mẫu với mẫu; C sai dấu; D trừ thay vì cộng.
+
+[M194.2] Nhiều lựa chọn
+Kết quả của phép tính $\left(-\dfrac3{10}\right):\dfrac65$ là
+A. $\dfrac14$.
+B. $-\dfrac14$.
+C. $-\dfrac9{25}$.
+D. $-4$.
+::key B
+$\left(-\dfrac3{10}\right)\cdot\dfrac56=-\dfrac{15}{60}=-\dfrac14$. A sai dấu; B đảo nhầm số bị chia; C quên đảo số chia.
+
+[M194.3] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac23-\left(-\dfrac14\right)$ là
+A. $\dfrac37$.
+B. $\dfrac5{12}$.
+C. $\dfrac{11}{12}$.
+D. $\dfrac{11}{24}$.
+::key C
+Trừ một số âm là cộng số đối: $\dfrac8{12}+\dfrac3{12}=\dfrac{11}{12}$. B bỏ qua dấu âm; C cộng tử với tử, mẫu với mẫu; D cộng cả hai mẫu số sau khi quy đồng.
+
+[M194.4] Nhiều lựa chọn
+Giá trị của $\left(-\dfrac38\right)\cdot\dfrac57+\left(-\dfrac38\right)\cdot\dfrac27$ là
+A. $-\dfrac{15}{56}$.
+B. $\dfrac38$.
+C. $-\dfrac{21}8$.
+D. $-\dfrac38$.
+::key D
+Đặt $-\dfrac38$ ra ngoài: $-\dfrac38\cdot\left(\dfrac57+\dfrac27\right)=-\dfrac38\cdot1$. A chỉ tính số hạng đầu; B sai dấu; D quên mẫu $7$ khi cộng.
+
+[M194.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $x=-\dfrac34$ và $y=\dfrac56$. Xét tính đúng sai của các mệnh đề sau:
+a) $x+y=-\dfrac1{12}$.
+b) $x-y=-\dfrac{19}{12}$.
+c) $x\cdot y=-\dfrac58$.
+d) $x:y=-\dfrac{10}9$.
+::key S Đ Đ S
+a) Sai: $-\dfrac9{12}+\dfrac{10}{12}=\dfrac1{12}$. b) Đúng: $-\dfrac9{12}-\dfrac{10}{12}=-\dfrac{19}{12}$. c) Đúng: $-\dfrac{15}{24}=-\dfrac58$. d) Sai: $x:y=-\dfrac34\cdot\dfrac65=-\dfrac9{10}$; $-\dfrac{10}9$ là $y:x$.
+
+[M194.6] Trả lời ngắn
+Tính $\left(\dfrac34-\dfrac56\right):\left(-\dfrac1{24}\right)$.
+::key 2
+$\dfrac34-\dfrac56=-\dfrac1{12}$, rồi $\left(-\dfrac1{12}\right)\cdot(-24)=2$.
+
+[M194.7] Trả lời ngắn
+Một quầy hàng lỗ $\dfrac34$ triệu đồng mỗi ngày trong $3$ ngày liên tiếp, rồi ngày thứ tư lãi $\dfrac{11}4$ triệu đồng. Hỏi sau bốn ngày quầy lãi bao nhiêu triệu đồng? (viết kết quả dưới dạng số thập phân)
+::key 0,5
+$3\cdot\left(-\dfrac34\right)+\dfrac{11}4=-\dfrac94+\dfrac{11}4=\dfrac24=0{,}5$.
+
+### M195 · Lớp 7 · Lũy thừa với số mũ tự nhiên của một số hữu tỉ
+
+[M195.1] Nhiều lựa chọn
+Giá trị của $\left(-\dfrac23\right)^3$ là
+A. $\dfrac{8}{27}$.
+B. $-\dfrac{8}{27}$.
+C. $-\dfrac{8}{9}$.
+D. $-\dfrac{6}{27}$.
+::key B
+Cơ số âm, số mũ lẻ nên kết quả âm; cả tử và mẫu đều được nâng lên lũy thừa: $\dfrac{(-2)^3}{3^3}=-\dfrac8{27}$. A quên dấu, C chỉ nâng tử, D lấy tích $2\cdot3$.
+
+[M195.2] Nhiều lựa chọn
+Viết $\left(\dfrac12\right)^3\cdot\left(\dfrac12\right)^4$ dưới dạng một lũy thừa, ta được
+A. $\left(\dfrac14\right)^7$.
+B. $\left(\dfrac12\right)^{12}$.
+C. $\left(\dfrac12\right)^7$.
+D. $\left(\dfrac12\right)^1$.
+::key C
+Cùng cơ số nên giữ cơ số và cộng số mũ: $3+4=7$. B nhân số mũ, A nhân cơ số, D trừ số mũ.
+
+[M195.3] Nhiều lựa chọn
+Giá trị của $\left(\dfrac35\right)^2$ là
+A. $\dfrac95$.
+B. $\dfrac65$.
+C. $\dfrac9{10}$.
+D. $\dfrac9{25}$.
+::key D
+Cả tử và mẫu cùng được bình phương: $\dfrac{3^2}{5^2}=\dfrac9{25}$. A chỉ bình phương tử, B nhân tử với $2$, C lấy $3^2$ chia cho $5\cdot2$.
+
+[M195.4] Nhiều lựa chọn
+Số nào sau đây bằng $\left(2^3\right)^4$?
+A. $2^{12}$.
+B. $2^7$.
+C. $2^{81}$.
+D. $8^7$.
+::key A
+Lũy thừa của lũy thừa thì nhân số mũ: $3\cdot4=12$. A cộng số mũ, C lấy $3^4$ làm số mũ, D cộng số mũ khi đã đổi cơ số.
+
+[M195.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $-2^2=4$.
+b) $\left(\dfrac23\right)^3=\dfrac8{27}$.
+c) $5^6:5^2=5^4$.
+d) $\left(3^2\right)^3=3^5$.
+::key S Đ Đ S
+a) Sai: $-2^2=-4$, còn $(-2)^2=4$. b) Đúng: $\dfrac{2^3}{3^3}=\dfrac8{27}$. c) Đúng: trừ số mũ, $6-2=4$. d) Sai: nhân số mũ, $\left(3^2\right)^3=3^6$.
+
+[M195.6] Trả lời ngắn
+Tính $(0{,}5)^3\cdot8^3$.
+::key 64
+Ta có $(0{,}5)^3\cdot8^3=(0{,}5\cdot8)^3=4^3=64$.
+
+[M195.7] Trả lời ngắn
+Một hộp hình lập phương có cạnh $0{,}3$ m. Hộp chứa tối đa bao nhiêu lít nước? ($1$ m³ $=1000$ lít)
+::key 27
+Thể tích là $(0{,}3)^3=0{,}027$ m³, đổi ra lít là $0{,}027\cdot1000=27$ lít.
+
+### M196 · Lớp 7 · Thứ tự thực hiện các phép tính. Quy tắc chuyển vế
+
+[M196.1] Nhiều lựa chọn
+Giá trị của biểu thức $\dfrac12+\dfrac13\cdot\dfrac32$ là
+A. $1$.
+B. $\dfrac54$.
+C. $\dfrac14$.
+D. $\dfrac76$.
+::key A
+Nhân trước: $\dfrac13\cdot\dfrac32=\dfrac12$, rồi $\dfrac12+\dfrac12=1$. B là kết quả khi cộng trước, C và D là các phép tính sai khác.
+
+[M196.2] Nhiều lựa chọn
+Giá trị của $\dfrac34-\left(\dfrac12-\dfrac13\right)$ là
+A. $-\dfrac1{12}$.
+B. $\dfrac7{12}$.
+C. $\dfrac{11}{12}$.
+D. $\dfrac1{12}$.
+::key B
+Ngoặc: $\dfrac12-\dfrac13=\dfrac16$, nên $\dfrac34-\dfrac16=\dfrac7{12}$. A bỏ ngoặc mà không đổi dấu, C cộng thay vì trừ.
+
+[M196.3] Nhiều lựa chọn
+Số $x$ thoả mãn $x+\dfrac34=\dfrac16$ là
+A. $\dfrac{11}{12}$.
+B. $\dfrac7{12}$.
+C. $-\dfrac7{12}$.
+D. $-\dfrac{11}{12}$.
+::key C
+Chuyển vế: $x=\dfrac16-\dfrac34=\dfrac2{12}-\dfrac9{12}=-\dfrac7{12}$. A quên đổi dấu khi chuyển vế.
+
+[M196.4] Nhiều lựa chọn
+Số $x$ thoả mãn $\dfrac56-x=\dfrac13$ là
+A. $-\dfrac12$.
+B. $\dfrac76$.
+C. $-\dfrac76$.
+D. $\dfrac12$.
+::key D
+Chuyển vế: $-x=\dfrac13-\dfrac56=-\dfrac12$ nên $x=\dfrac12$. B cộng $\dfrac56$ với $\dfrac13$, A quên đổi dấu hai vế cuối cùng.
+
+[M196.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét các biến đổi sau. Xét tính đúng sai của các mệnh đề:
+a) $x-\dfrac12=3\Rightarrow x=3+\dfrac12$.
+b) $x+\dfrac34=\dfrac16\Rightarrow x=\dfrac16+\dfrac34$.
+c) $-x=\dfrac35\Rightarrow x=\dfrac35$.
+d) $\dfrac34-\left(\dfrac12-\dfrac14\right)=\dfrac34-\dfrac12+\dfrac14$.
+::key Đ S S Đ
+a) Đúng: chuyển $-\dfrac12$ sang vế phải thành $+\dfrac12$. b) Sai: phải là $\dfrac16-\dfrac34$. c) Sai: đổi dấu hai vế thì $x=-\dfrac35$. d) Đúng: bỏ ngoặc có dấu $-$ đằng trước, đổi dấu mọi số hạng trong ngoặc.
+
+[M196.6] Trả lời ngắn
+Tìm $x$ biết $x:\dfrac34+\dfrac12=\dfrac52$, và viết kết quả dưới dạng số thập phân.
+::key 1,5
+Chuyển vế: $x:\dfrac34=2$, nên $x=2\cdot\dfrac34=\dfrac32=1{,}5$.
+
+[M196.7] Trả lời ngắn
+Tính $\left(\dfrac23-\dfrac12\right)\cdot12-\dfrac32$ và viết kết quả dưới dạng số thập phân.
+::key 0,5
+Ngoặc: $\dfrac23-\dfrac12=\dfrac16$. Nhân: $\dfrac16\cdot12=2$. Trừ: $2-\dfrac32=\dfrac12=0{,}5$.
+
+### M197 · Lớp 7 · Làm quen với số thập phân vô hạn tuần hoàn. Số vô tỉ. Căn bậc hai số học
+
+[M197.1] Nhiều lựa chọn
+Phân số nào sau đây viết được thành số thập phân hữu hạn?
+A. $\dfrac56$.
+B. $\dfrac7{20}$.
+C. $\dfrac49$.
+D. $\dfrac2{15}$.
+::key B
+$\dfrac7{20}$ tối giản và $20=2^2\cdot5$. Các mẫu $6=2\cdot3$, $9=3^2$, $15=3\cdot5$ đều có ước nguyên tố $3$ nên A, C, D là số thập phân vô hạn tuần hoàn.
+
+[M197.2] Nhiều lựa chọn
+Phân số $\dfrac5{12}$ viết thành số thập phân là
+A. $0{,}4(16)$.
+B. $0{,}(41)$.
+C. $0{,}41(6)$.
+D. $0{,}416$.
+::key C
+$5:12=0{,}41666\ldots$; chỉ chữ số $6$ lặp lại. B và A xác định sai chu kì, D bỏ qua các chữ số $6$ còn lại.
+
+[M197.3] Nhiều lựa chọn
+Số nào sau đây là số vô tỉ?
+A. $0{,}(3)$.
+B. $\dfrac7{11}$.
+C. $-2{,}75$.
+D. $0{,}1010010001\ldots$ (sau mỗi chữ số $1$, số chữ số $0$ tăng thêm một).
+::key D
+Chỉ D là số thập phân vô hạn không tuần hoàn. A là số thập phân vô hạn tuần hoàn, B là phân số, C là số thập phân hữu hạn; cả ba đều là số hữu tỉ.
+
+[M197.4] Nhiều lựa chọn
+Căn bậc hai số học của $0{,}36$ là
+A. $0{,}6$.
+B. $0{,}18$.
+C. $\pm0{,}6$.
+D. $0{,}06$.
+::key A
+$0{,}6\geq0$ và $0{,}6^2=0{,}36$. A chia $0{,}36$ cho $2$, C quên rằng căn bậc hai số học không âm, D nhầm vị trí dấu phẩy.
+
+[M197.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $\dfrac9{15}$ viết được thành số thập phân hữu hạn.
+b) $\sqrt{16}=\pm4$.
+c) Mọi số thập phân vô hạn đều là số vô tỉ.
+d) $\sqrt{25}=5$.
+::key Đ S S Đ
+a) Đúng: $\dfrac9{15}=\dfrac35=0{,}6$. b) Sai: $\sqrt{16}=4$. c) Sai: $0{,}(3)$ vô hạn nhưng là số hữu tỉ. d) Đúng vì $5\geq0$ và $5^2=25$.
+
+[M197.6] Trả lời ngắn
+Tìm chữ số thập phân thứ $50$ của $\dfrac37$.
+::key 2
+$\dfrac37=0{,}(428571)$ có chu kì $6$ chữ số; $50=6\cdot8+2$ nên chữ số thứ $50$ là chữ số thứ hai của chu kì, tức là $2$.
+
+[M197.7] Trả lời ngắn
+Tính $\sqrt{0{,}64}+\sqrt{1{,}21}$ và viết kết quả dưới dạng số thập phân.
+::key 1,9
+$\sqrt{0{,}64}=0{,}8$ và $\sqrt{1{,}21}=1{,}1$, nên tổng là $1{,}9$.
+
+### M198 · Lớp 7 · Tập hợp các số thực
+
+[M198.1] Nhiều lựa chọn
+Số nào sau đây là số vô tỉ?
+A. $\sqrt7$.
+B. $0{,}25$.
+C. $\sqrt{16}$.
+D. $0{,}(5)$.
+::key A
+$\sqrt7$ là số thập phân vô hạn không tuần hoàn. A là số thập phân hữu hạn, C bằng $4$, D là số thập phân vô hạn tuần hoàn; cả ba đều là số hữu tỉ.
+
+[M198.2] Nhiều lựa chọn
+Khẳng định nào sau đây **sai**?
+A. $\mathbb{N}\subset\mathbb{Z}$.
+B. $\mathbb{R}\subset\mathbb{Q}$.
+C. $\mathbb{I}\subset\mathbb{R}$.
+D. $\mathbb{Q}\subset\mathbb{R}$.
+::key B
+$\mathbb{R}$ chứa cả số vô tỉ như $\sqrt2$, mà $\sqrt2\notin\mathbb{Q}$, nên $\mathbb{R}$ không là tập con của $\mathbb{Q}$.
+
+[M198.3] Nhiều lựa chọn
+Khi so sánh $\sqrt{10}$ với $3{,}2$, ta có
+A. $\sqrt{10}=3{,}2$.
+B. $\sqrt{10}>3{,}2$.
+C. $\sqrt{10}<3{,}2$.
+D. không so sánh được vì $\sqrt{10}$ là số vô tỉ.
+::key C
+$3{,}2^2=10{,}24>10$ nên $\sqrt{10}<3{,}2$. B so $10$ với $3{,}2$ thay cho so bình phương, A làm tròn $\sqrt{10}\approx3{,}2$ rồi coi là bằng, D sai vì hai số thực nào cũng so sánh được.
+
+[M198.4] Nhiều lựa chọn
+Số nhỏ nhất trong các số $0$; $-\sqrt6$; $-2{,}4$; $-2{,}5$ là
+A. $0$.
+B. $-\sqrt6$.
+C. $-2{,}4$.
+D. $-2{,}5$.
+::key D
+$2{,}4^2=5{,}76<6<6{,}25=2{,}5^2$ nên $2{,}4<\sqrt6<2{,}5$, suy ra $-2{,}5<-\sqrt6<-2{,}4<0$. B, C nhầm chiều khi đổi dấu.
+
+[M198.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số thập phân vô hạn đều là số vô tỉ.
+b) $\sqrt9$ là số hữu tỉ.
+c) Mỗi điểm trên trục số đều biểu diễn một số thực.
+d) Số đối của $\pi$ là một số hữu tỉ.
+::key S Đ Đ S
+a) Sai: số thập phân vô hạn tuần hoàn như $0{,}(3)$ là số hữu tỉ. b) Đúng: $\sqrt9=3$. c) Đúng: mỗi điểm trên trục số biểu diễn một số thực. d) Sai: $-\pi$ là số vô tỉ.
+
+[M198.6] Trả lời ngắn
+Trong các số $\sqrt2$; $0{,}(3)$; $\sqrt{25}$; $\pi$; $-\sqrt7$; $1{,}5$ có bao nhiêu số vô tỉ?
+::key 3
+Các số vô tỉ là $\sqrt2$, $\pi$, $-\sqrt7$. Còn lại $0{,}(3)$, $\sqrt{25}=5$ và $1{,}5$ là số hữu tỉ.
+
+[M198.7] Trả lời ngắn
+Hai số nguyên liên tiếp mà $\sqrt{30}$ nằm giữa có tổng bằng bao nhiêu?
+::key 11
+Vì $25<30<36$ nên $5<\sqrt{30}<6$; tổng $5+6=11$.
+
+### M199 · Lớp 7 · Góc ở vị trí đặc biệt. Tia phân giác của một góc
+
+[M199.1] Nhiều lựa chọn
+Tổng số đo của hai góc kề bù bằng
+A. $180^\circ$.
+B. $100^\circ$.
+C. $90^\circ$.
+D. $360^\circ$.
+::key A
+Hai góc kề bù tạo thành một góc bẹt nên tổng là $180^\circ$. $90^\circ$ là tổng của hai góc phụ nhau, $360^\circ$ là một vòng tròn.
+
+[M199.2] Nhiều lựa chọn
+Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$, $\widehat{AOC}=70^\circ$. Khi đó $\widehat{BOD}$ bằng
+A. $110^\circ$.
+B. $70^\circ$.
+C. $20^\circ$.
+D. $290^\circ$.
+::key B
+$\widehat{BOD}$ và $\widehat{AOC}$ đối đỉnh nên bằng nhau. B là góc kề bù, C là $90^\circ-70^\circ$, D là $360^\circ-70^\circ$.
+
+[M199.3] Nhiều lựa chọn
+Tia $Oz$ là tia phân giác của $\widehat{xOy}=84^\circ$. Khi đó $\widehat{xOz}$ bằng
+A. $168^\circ$.
+B. $84^\circ$.
+C. $42^\circ$.
+D. $96^\circ$.
+::key C
+$\widehat{xOz}=\dfrac{84^\circ}2=42^\circ$. A nhân đôi thay vì chia đôi, B giữ nguyên góc, D là $180^\circ-84^\circ$.
+
+[M199.4] Nhiều lựa chọn
+Hai góc kề bù, một góc bằng $3$ lần góc kia. Góc lớn bằng
+A. $90^\circ$.
+B. $45^\circ$.
+C. $120^\circ$.
+D. $135^\circ$.
+::key D
+Gọi góc nhỏ là $y$, ta có $y+3y=180^\circ$, nên $y=45^\circ$ và góc lớn là $135^\circ$. D là góc nhỏ.
+
+[M199.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$, $\widehat{xOy}=55^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat{x'Oy'}=55^\circ$.
+b) $\widehat{xOy'}=125^\circ$.
+c) $\widehat{xOy}$ và $\widehat{yOx'}$ là hai góc kề bù.
+d) Tia phân giác của $\widehat{xOy}$ chia nó thành hai góc bằng $55^\circ$.
+::key Đ Đ Đ S
+a) Đúng: đối đỉnh. b) Đúng: kề bù với $\widehat{xOy}$, $180^\circ-55^\circ=125^\circ$. c) Đúng: chung cạnh $Oy$, hai cạnh kia là tia đối. d) Sai: hai góc bằng $\dfrac{55^\circ}2=27{,}5^\circ$.
+
+[M199.6] Trả lời ngắn
+Hai góc kề bù, một góc bằng $38^\circ$. Góc còn lại bằng bao nhiêu độ?
+::key 142
+$180-38=142$.
+
+[M199.7] Trả lời ngắn
+Tia $Oz$ là phân giác của $\widehat{xOy}=130^\circ$. Tính $\widehat{xOz}$ (đơn vị: độ).
+::key 65
+$130:2=65$.
+
+### M200 · Lớp 7 · Hai đường thẳng song song và dấu hiệu nhận biết. Tiên đề Euclid. Tính chất của hai đường thẳng song song
+
+[M200.1] Nhiều lựa chọn
+Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Hai góc so le trong
+A. bù nhau.
+B. bằng nhau.
+C. phụ nhau.
+D. không có quan hệ gì.
+::key B
+Theo tính chất của hai đường thẳng song song, hai góc so le trong bằng nhau. A là quan hệ của hai góc trong cùng phía.
+
+[M200.2] Nhiều lựa chọn
+Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Một góc đồng vị bằng $110^\circ$ thì góc đồng vị với nó bằng
+A. $70^\circ$.
+B. $180^\circ$.
+C. $110^\circ$.
+D. $250^\circ$.
+::key C
+Hai góc đồng vị bằng nhau khi hai đường thẳng song song. A là góc kề bù, D là $360^\circ-110^\circ$.
+
+[M200.3] Nhiều lựa chọn
+Qua một điểm nằm ngoài đường thẳng $d$, số đường thẳng song song với $d$ là
+A. vô số.
+B. đúng hai.
+C. không có.
+D. đúng một.
+::key D
+Đó là nội dung của tiên đề Euclid.
+
+[M200.4] Nhiều lựa chọn
+Hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $c$. Khi đó
+A. $a\parallel b$.
+B. $a$ trùng $b$ chắc chắn.
+C. $a\perp b$.
+D. $a$ cắt $b$.
+::key A
+Hai góc đồng vị cùng bằng $90^\circ$ nên $a\parallel b$. C sai vì $a\perp b$ chỉ khi chúng cắt nhau.
+
+[M200.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $a\parallel b$; $c$ cắt $a$ tại $A$, cắt $b$ tại $B$; $M\in a$ và $N\in b$ nằm về hai phía của $c$; $P\in b$ nằm cùng phía với $M$ đối với $c$; $\widehat{MAB}=70^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat{ABN}=70^\circ$.
+b) $\widehat{ABP}=70^\circ$.
+c) $\widehat{MAB}+\widehat{ABP}=180^\circ$.
+d) Qua $B$ có hai đường thẳng khác $b$ cùng song song với $a$.
+::key Đ S Đ S
+a) Đúng: so le trong. b) Sai: $\widehat{ABP}=180^\circ-70^\circ=110^\circ$. c) Đúng: trong cùng phía bù nhau. d) Sai: theo tiên đề Euclid chỉ có một đường qua $B$ song song với $a$, đó là $b$.
+
+[M200.6] Trả lời ngắn
+Cho $a\parallel b$, hai góc so le trong là $(2x+10)^\circ$ và $(x+40)^\circ$. Tìm $x$.
+::key 30
+$2x+10=x+40$ nên $x=30$.
+
+[M200.7] Trả lời ngắn
+Cho $a\parallel b$, một góc trong cùng phía bằng $115^\circ$. Góc trong cùng phía còn lại bằng bao nhiêu độ?
+::key 65
+$180-115=65$.
+
+### M201 · Lớp 7 · Định lí và chứng minh định lí
+
+[M201.1] Nhiều lựa chọn
+Trong định lí "Nếu hai góc đối đỉnh thì chúng bằng nhau", kết luận là
+A. hai góc đối đỉnh.
+B. hai góc kề bù.
+C. chúng bằng nhau.
+D. hai góc bằng $90^\circ$.
+::key C
+Kết luận là phần đứng sau "thì": hai góc ấy bằng nhau. Phần "hai góc đối đỉnh" là giả thiết.
+
+[M201.2] Nhiều lựa chọn
+Để chứng tỏ một mệnh đề là sai, ta cần
+A. chứng minh nó đúng trong mọi trường hợp.
+B. vẽ một hình rồi đo.
+C. thử ba trường hợp đều đúng.
+D. chỉ ra một phản ví dụ.
+::key D
+Một phản ví dụ thoả giả thiết mà không thoả kết luận là đủ để bác bỏ mệnh đề.
+
+[M201.3] Nhiều lựa chọn
+Mệnh đề nào sau đây **sai**?
+A. Hai góc bằng nhau thì đối đỉnh.
+B. Hai góc đối đỉnh thì bằng nhau.
+C. Hai góc kề bù có tổng $180^\circ$.
+D. Hai đường thẳng cùng song song với đường thẳng thứ ba thì song song với nhau.
+::key A
+Hai góc bằng nhau chưa chắc đối đỉnh: hai góc $50^\circ$ ở hai đỉnh khác nhau là phản ví dụ.
+
+[M201.4] Nhiều lựa chọn
+Trong chứng minh, lập luận "vì $\widehat{A}_3=\widehat{B}_5$ (so le trong) nên $a\parallel b$" dựa vào
+A. tính chất của hai đường thẳng song song.
+B. dấu hiệu nhận biết hai đường thẳng song song.
+C. tiên đề Euclid.
+D. định lí hai góc đối đỉnh.
+::key B
+Từ hai góc so le trong bằng nhau suy ra song song là dấu hiệu nhận biết. Tính chất đi theo chiều ngược lại.
+
+[M201.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi mệnh đề đúng trong vài trường hợp thử đều là định lí.
+b) Giả thiết là điều đã cho, kết luận là điều cần chứng minh.
+c) Một phản ví dụ đủ để bác bỏ một mệnh đề.
+d) Trong chứng minh, mỗi bước cần có căn cứ.
+::key S Đ Đ Đ
+a) Sai: đúng vài trường hợp chưa chắc đúng mọi trường hợp. b), c), d) Đúng.
+
+[M201.6] Trả lời ngắn
+Hai góc đối đỉnh có số đo $(3x-5)^\circ$ và $(x+25)^\circ$. Tìm $x$.
+::key 15
+Hai góc đối đỉnh bằng nhau nên $3x-5=x+25$, suy ra $2x=30$, $x=15$.
+
+[M201.7] Trả lời ngắn
+Hai tia phân giác của hai góc kề bù tạo thành một góc bao nhiêu độ?
+::key 90
+Theo định lí đã chứng minh ở Ví dụ 3, góc đó bằng $90^\circ$.
+
+### M202 · Lớp 7 · Tổng các góc trong một tam giác
+
+[M202.1] Nhiều lựa chọn
+Tổng ba góc của một tam giác bằng
+A. $90^\circ$.
+B. $180^\circ$.
+C. $270^\circ$.
+D. $360^\circ$.
+::key B
+Đó là định lí về tổng ba góc của một tam giác. $90^\circ$ là tổng hai góc nhọn của tam giác vuông, $360^\circ$ là một vòng tròn.
+
+[M202.2] Nhiều lựa chọn
+Tam giác $ABC$ có $\widehat A=50^\circ$, $\widehat B=60^\circ$. Khi đó $\widehat C$ bằng
+A. $60^\circ$.
+B. $110^\circ$.
+C. $70^\circ$.
+D. $130^\circ$.
+::key C
+$\widehat C=180^\circ-(50^\circ+60^\circ)=70^\circ$. C là $180^\circ-70^\circ$, D là $180^\circ-50^\circ$.
+
+[M202.3] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$, $\widehat B=28^\circ$. Khi đó $\widehat C$ bằng
+A. $118^\circ$.
+B. $152^\circ$.
+C. $28^\circ$.
+D. $62^\circ$.
+::key D
+Hai góc nhọn phụ nhau: $\widehat C=90^\circ-28^\circ=62^\circ$. B là $180^\circ-28^\circ$.
+
+[M202.4] Nhiều lựa chọn
+Tam giác $ABC$ có $\widehat B=40^\circ$, $\widehat C=65^\circ$. Góc ngoài tại đỉnh $A$ bằng
+A. $105^\circ$.
+B. $115^\circ$.
+C. $75^\circ$.
+D. $140^\circ$.
+::key A
+Góc ngoài tại $A$ bằng $\widehat B+\widehat C=105^\circ$. A là $\widehat A$ (góc trong).
+
+[M202.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Tam giác $ABC$ có $\widehat A=40^\circ$ và $\widehat B=\widehat C$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat B=80^\circ$.
+b) $\widehat B+\widehat C=40^\circ$.
+c) Góc ngoài tại đỉnh $A$ bằng $140^\circ$.
+d) Tam giác $ABC$ có ba góc nhọn.
+::key S S Đ Đ
+Ta có $\widehat B+\widehat C=140^\circ$ nên $\widehat B=\widehat C=70^\circ$. a) Sai. b) Sai: tổng là $140^\circ$. c) Đúng: $180^\circ-40^\circ=140^\circ$. d) Đúng: $40^\circ$, $70^\circ$, $70^\circ$ đều nhọn.
+
+[M202.6] Trả lời ngắn
+Tam giác $ABC$ có $\widehat A=75^\circ$, $\widehat B=45^\circ$. Tính $\widehat C$ (đơn vị: độ).
+::key 60
+$180-(75+45)=60$.
+
+[M202.7] Trả lời ngắn
+Ba góc của một tam giác tỉ lệ $1:2:3$. Góc lớn nhất bằng bao nhiêu độ?
+::key 90
+$k+2k+3k=180$ nên $k=30$, góc lớn nhất là $3k=90$.
+
+### M203 · Lớp 7 · Hai tam giác bằng nhau. Trường hợp bằng nhau thứ nhất của tam giác
+
+[M203.1] Nhiều lựa chọn
+Cho $\triangle ABC=\triangle MNP$. Khẳng định nào sau đây đúng?
+A. $BC=NP$.
+B. $AB=MP$.
+C. $AC=MN$.
+D. $\widehat A=\widehat N$.
+::key A
+$A$, $B$, $C$ lần lượt ứng với $M$, $N$, $P$, nên $BC$ ứng với $NP$. A, C ghép sai cạnh; D ghép sai góc ($\widehat A=\widehat M$).
+
+[M203.2] Nhiều lựa chọn
+Cho $\triangle ABC=\triangle DEF$ có $AB=3$ cm, $BC=5$ cm, $CA=6$ cm. Chu vi tam giác $DEF$ là
+A. $8$ cm.
+B. $14$ cm.
+C. $30$ cm.
+D. $11$ cm.
+::key B
+Chu vi $DEF$ bằng chu vi $ABC$: $3+5+6=14$ (cm). A và D thiếu một cạnh, C là tích ba số.
+
+[M203.3] Nhiều lựa chọn
+Hai tam giác $ABC$ và $DEF$ bằng nhau theo trường hợp c.c.c khi
+A. $\widehat A=\widehat D$, $\widehat B=\widehat E$, $\widehat C=\widehat F$.
+B. $AB=DE$, $BC=EF$ và $\widehat A=\widehat D$.
+C. $AB=DE$, $BC=EF$, $CA=FD$.
+D. $AB=DE$ và hai tam giác có cùng chu vi.
+::key C
+c.c.c cần ba cặp cạnh bằng nhau. B chỉ có hai cạnh và một góc không xen giữa, A chỉ có góc, D thiếu hai cặp cạnh.
+
+[M203.4] Nhiều lựa chọn
+Cho tam giác $OAC$ và $OBC$ có $OA=OB$, $AC=BC$. Để chứng minh $\triangle OAC=\triangle OBC$ theo c.c.c, ta cần thêm
+A. $\widehat{OAC}=\widehat{OBC}$.
+B. $OC=AB$.
+C. $\widehat{AOB}=90^\circ$.
+D. $OC$ là cạnh chung.
+::key D
+Cặp cạnh thứ ba là $OC=OC$. A và C là góc, không dùng được cho c.c.c; B so sánh hai đoạn không tương ứng.
+
+[M203.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $\triangle ABC=\triangle MNP$, trong đó $AB=4$ cm, $\widehat A=50^\circ$ và $\widehat B=70^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat N=50^\circ$.
+b) $MN=4$ cm.
+c) $\widehat P=60^\circ$.
+d) Có thể viết $\triangle ABC=\triangle NMP$.
+::key S Đ Đ S
+a) Sai: $N$ ứng với $B$ nên $\widehat N=70^\circ$. b) Đúng: $MN=AB$. c) Đúng: $\widehat P=\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. d) Sai: $A$ ứng với $M$ chứ không phải $N$.
+
+[M203.6] Trả lời ngắn
+Cho $\triangle ABC=\triangle DEF$ có $\widehat A=48^\circ$ và $\widehat B=67^\circ$. Tính số đo góc $F$ (đơn vị: độ).
+::key 65
+$\widehat F=\widehat C=180^\circ-48^\circ-67^\circ=65^\circ$.
+
+[M203.7] Trả lời ngắn
+Cho tứ giác $ABCD$ có $AB=AD$, $CB=CD$ và $\widehat{BAC}=32^\circ$, tia $AC$ nằm trong góc $BAD$. Tính số đo góc $BAD$ (đơn vị: độ).
+::key 64
+$\triangle ABC=\triangle ADC$ (c.c.c) nên $\widehat{DAC}=\widehat{BAC}=32^\circ$, do đó $\widehat{BAD}=32^\circ+32^\circ=64^\circ$.
+
+### M204 · Lớp 7 · Trường hợp bằng nhau thứ hai và thứ ba của tam giác
+
+[M204.1] Nhiều lựa chọn
+Cho hai tam giác $ABC$ và $DEF$ có $AB=DE$ và $BC=EF$. Để hai tam giác bằng nhau theo trường hợp c.g.c, cần thêm điều kiện
+A. $\widehat B=\widehat E$.
+B. $\widehat A=\widehat D$.
+C. $\widehat C=\widehat F$.
+D. $AC=DF$.
+::key A
+Góc xen giữa $AB$, $BC$ là $\widehat B$, nên cần $\widehat B=\widehat E$. A và C là góc không xen giữa; D dẫn đến c.c.c.
+
+[M204.2] Nhiều lựa chọn
+Cho hai tam giác $ABC$ và $MNP$ có $\widehat A=\widehat M$ và $\widehat B=\widehat N$. Để hai tam giác bằng nhau theo trường hợp g.c.g, cần thêm điều kiện
+A. $AC=MP$.
+B. $AB=MN$.
+C. $BC=NP$.
+D. $\widehat C=\widehat P$.
+::key B
+Cạnh kề cả hai góc $\widehat A$, $\widehat B$ là $AB$, nên cần $AB=MN$. A và C là cạnh không nằm giữa hai góc; D chỉ thêm một góc nữa.
+
+[M204.3] Nhiều lựa chọn
+Hai đoạn thẳng $AB$ và $CD$ cắt nhau tại $O$ với $OA=OB$ và $OC=OD$. Tam giác nào dưới đây bằng tam giác $OAC$?
+A. $\triangle OBC$.
+B. $\triangle ODB$.
+C. $\triangle OBD$.
+D. $\triangle OAD$.
+::key C
+$OA=OB$, $\widehat{AOC}=\widehat{BOD}$ (đối đỉnh), $OC=OD$ nên $\triangle OAC=\triangle OBD$ (c.g.c). B ghép sai thứ tự đỉnh; C và D không có đủ điều kiện.
+
+[M204.4] Nhiều lựa chọn
+Tam giác $ABC$ và $DEF$ có $AB=DE$, $AC=DF$ và $\widehat B=\widehat E$. Khẳng định nào sau đây đúng?
+A. Hai tam giác bằng nhau theo c.g.c.
+B. Hai tam giác bằng nhau theo g.c.g.
+C. Hai tam giác bằng nhau theo c.c.c.
+D. Chưa đủ điều kiện để kết luận hai tam giác bằng nhau.
+::key D
+Góc $B$ không nằm giữa $AB$ và $AC$, nên không dùng được c.g.c. Hai trường hợp còn lại cũng không có đủ dữ kiện.
+
+[M204.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$, $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD=MA$. Xét tính đúng sai của các mệnh đề sau:
+a) Hai tam giác $MAB$ và $MDC$ bằng nhau theo trường hợp c.c.c.
+b) $\widehat{AMB}=\widehat{DMC}$.
+c) $AB=CD$.
+d) $AB\parallel CD$.
+::key S Đ Đ Đ
+a) Sai: lúc đầu chưa biết $AB=CD$; hai tam giác bằng nhau theo c.g.c. b) Đúng: hai góc đối đỉnh. c) Đúng: hai cạnh tương ứng. d) Đúng: $\widehat{MAB}=\widehat{MDC}$ ở vị trí so le trong.
+
+[M204.6] Trả lời ngắn
+Ở bài đo bề rộng sông, đổi số đo: $AB=BC=15$ m và $CD=28$ m. Tính bề rộng $AT$ của sông (đơn vị: mét).
+::key 28
+$\triangle ABT=\triangle CBD$ (g.c.g) nên $AT=CD=28$ m.
+
+[M204.7] Trả lời ngắn
+Cho tứ giác $ABCD$ có $AB\parallel CD$, $AB=CD=5$ cm và $BC=7$ cm, trong đó $B$, $D$ khác phía đối với $AC$. Tính $AD$ (đơn vị: cm).
+::key 7
+$\triangle ABC=\triangle CDA$ (c.g.c) nên $AD=BC=7$ cm.
+
+### M205 · Lớp 7 · Các trường hợp bằng nhau của tam giác vuông
+
+[M205.1] Nhiều lựa chọn
+Hai tam giác vuông bằng nhau nếu chúng có
+A. hai góc nhọn tương ứng bằng nhau.
+B. hai cạnh huyền bằng nhau.
+C. cùng chu vi.
+D. cạnh huyền và một cạnh góc vuông tương ứng bằng nhau.
+::key D
+Đó là trường hợp cạnh huyền – cạnh góc vuông. A chỉ cho hai tam giác cùng hình dạng; B và C thiếu dữ kiện.
+
+[M205.2] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $AB=DE$ và $AC=DF$. Hai tam giác bằng nhau theo trường hợp
+A. hai cạnh góc vuông.
+B. cạnh huyền – góc nhọn.
+C. cạnh huyền – cạnh góc vuông.
+D. chưa đủ để kết luận.
+::key A
+$AB$, $AC$ và $DE$, $DF$ đều là các cạnh góc vuông, và góc vuông xen giữa chúng bằng nhau (c.g.c).
+
+[M205.3] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ và tam giác $MNP$ vuông tại $M$ có $BC=NP$ và $\widehat C=\widehat P$. Khẳng định nào sau đây đúng?
+A. $\triangle ABC=\triangle MPN$.
+B. $\triangle ABC=\triangle MNP$.
+C. Chưa đủ điều kiện để kết luận.
+D. $\triangle ABC=\triangle NMP$.
+::key B
+$\widehat C=\widehat P$ nên $C$ ứng với $P$, suy ra $B$ ứng với $N$ và $A$ ứng với $M$; hai tam giác bằng nhau theo cạnh huyền – góc nhọn.
+
+[M205.4] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $\widehat B=\widehat E$ và $\widehat C=\widehat F$. Khẳng định nào sau đây đúng?
+A. $\triangle ABC=\triangle DEF$ (g.c.g).
+B. $\triangle ABC=\triangle DEF$ (cạnh huyền – góc nhọn).
+C. Chưa đủ để kết luận hai tam giác bằng nhau.
+D. $AB=DE$.
+::key C
+Hai tam giác vuông có hai góc nhọn tương ứng bằng nhau chỉ cho ta biết chúng cùng hình dạng; còn thiếu một cặp cạnh bằng nhau.
+
+[M205.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $BC=10$ cm; tam giác $MNP$ vuông tại $M$ có $MN=6$ cm, $NP=10$ cm; biết $AC=8$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Hai tam giác bằng nhau theo trường hợp cạnh huyền – cạnh góc vuông.
+b) $MP=6$ cm.
+c) $\widehat B=\widehat N$.
+d) $\widehat C=90^\circ$.
+::key Đ S Đ S
+a) Đúng: $BC=NP$ (cạnh huyền) và $AB=MN$ (cạnh góc vuông). b) Sai: $MP=AC=8$ cm. c) Đúng: hai góc tương ứng. d) Sai: góc vuông ở $A$, nên $\widehat C$ nhọn.
+
+[M205.6] Trả lời ngắn
+Trong bài cột ăng-ten, thay số đo: $OA=2{,}4$ m. Tính $OB$ (đơn vị: mét).
+::key 2,4
+$\triangle OAT=\triangle OBT$ (cạnh huyền – cạnh góc vuông) nên $OB=OA=2{,}4$ m.
+
+[M205.7] Trả lời ngắn
+Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $BC=EF=10$ cm và $\widehat B=\widehat E$. Biết $AC=6$ cm. Tính $DF$ (đơn vị: cm).
+::key 6
+$\triangle ABC=\triangle DEF$ (cạnh huyền – góc nhọn) nên $DF=AC=6$ cm.
+
+### M206 · Lớp 7 · Tam giác cân. Đường trung trực của đoạn thẳng
+
+[M206.1] Nhiều lựa chọn
+Tam giác $ABC$ cân tại $A$ có $\widehat A=50^\circ$. Số đo góc $B$ là
+A. $65^\circ$.
+B. $50^\circ$.
+C. $130^\circ$.
+D. $80^\circ$.
+::key A
+$\widehat B=\widehat C=(180^\circ-50^\circ):2=65^\circ$. B là góc ở đỉnh, C là tổng hai góc đáy, D là kết quả của phép tính sai.
+
+[M206.2] Nhiều lựa chọn
+Điểm $M$ cách đều hai điểm $A$ và $B$. Khẳng định nào sau đây đúng?
+A. $M$ là trung điểm của $AB$.
+B. $M$ thuộc đường trung trực của $AB$.
+C. $M$ thuộc đường thẳng $AB$.
+D. $MA\perp MB$.
+::key B
+Đây là định lí đảo: điểm cách đều hai đầu mút thì nằm trên đường trung trực. A và C chỉ là những trường hợp đặc biệt hoặc sai; D không đúng nói chung.
+
+[M206.3] Nhiều lựa chọn
+Tam giác $ABC$ có $\widehat B=\widehat C$. Khi đó
+A. $AB=BC$.
+B. $AC=BC$.
+C. $AB=AC$.
+D. tam giác $ABC$ đều.
+::key C
+Hai cạnh đối diện hai góc bằng nhau là $AC$ (đối diện $\widehat B$) và $AB$ (đối diện $\widehat C$), nên $AB=AC$.
+
+[M206.4] Nhiều lựa chọn
+Đường trung trực của đoạn thẳng $AB$ là đường thẳng
+A. đi qua $A$.
+B. vuông góc với $AB$.
+C. đi qua trung điểm của $AB$.
+D. vuông góc với $AB$ tại trung điểm của $AB$.
+::key D
+Cần cả hai điều kiện: vuông góc với $AB$ và đi qua trung điểm của $AB$. B hoặc C chỉ có một điều kiện.
+
+[M206.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ cân tại $A$ và $M$ là trung điểm của $BC$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat B=\widehat C$.
+b) $AM\perp BC$.
+c) $A$ cách đều $B$ và $C$.
+d) $M$ cách đều $A$ và $B$.
+::key Đ Đ Đ S
+a) Đúng: hai góc ở đáy. b) Đúng: $\triangle ABM=\triangle ACM$ nên $\widehat{AMB}=\widehat{AMC}=90^\circ$. c) Đúng: $AB=AC$. d) Sai: $MB=\dfrac{BC}{2}$ còn $MA$ là đường cao, nói chung hai độ dài này không bằng nhau.
+
+[M206.6] Trả lời ngắn
+Tam giác $ABC$ cân tại $A$ có $\widehat B=72^\circ$. Tính $\widehat A$ (đơn vị: độ).
+::key 36
+$\widehat C=\widehat B=72^\circ$ nên $\widehat A=180^\circ-72^\circ-72^\circ=36^\circ$.
+
+[M206.7] Trả lời ngắn
+Điểm $M$ nằm trên đường trung trực của đoạn $AB$ và $MA=6{,}5$ cm. Tính $MB$ (đơn vị: cm).
+::key 6,5
+Điểm trên đường trung trực cách đều hai đầu mút nên $MB=MA=6{,}5$ cm.
+
+### M207 · Lớp 7 · Thu thập và phân loại dữ liệu. Biểu đồ hình quạt tròn
+
+[M207.1] Nhiều lựa chọn
+Dữ liệu nào sau đây là dữ liệu định tính?
+A. Chiều cao của các bạn trong lớp.
+B. Loại trái cây yêu thích của mỗi bạn.
+C. Số anh, chị, em ruột của mỗi bạn.
+D. Số tiền tiêu vặt mỗi tuần của mỗi bạn.
+::key B
+Loại trái cây là tên gọi nên là dữ liệu định tính; ba dữ liệu còn lại là số đo hoặc số đếm nên là định lượng.
+
+[M207.2] Nhiều lựa chọn
+Trong $40$ học sinh có $14$ bạn đi xe buýt. Tỉ lệ phần trăm số bạn đi xe buýt là
+A. $14\%$.
+B. $28\%$.
+C. $35\%$.
+D. $65\%$.
+::key C
+$\dfrac{14}{40}\cdot100\%=35\%$. A lấy số bạn làm phần trăm; D là tỉ lệ của các bạn không đi xe buýt.
+
+[M207.3] Nhiều lựa chọn
+Một hình quạt của biểu đồ hình quạt tròn chiếm $25\%$. Góc ở tâm của hình quạt đó là
+A. $100^\circ$.
+B. $25^\circ$.
+C. $75^\circ$.
+D. $90^\circ$.
+::key D
+$25\cdot3{,}6^\circ=90^\circ$, bằng một phần tư của $360^\circ$. B nhầm phần trăm với độ.
+
+[M207.4] Nhiều lựa chọn
+Một hình quạt có góc ở tâm $72^\circ$ chiếm bao nhiêu phần trăm cả hình tròn?
+A. $20\%$.
+B. $36\%$.
+C. $5\%$.
+D. $72\%$.
+::key A
+$72^\circ:3{,}6=20$, nên hình quạt chiếm $20\%$ (vì $\dfrac{72}{360}=\dfrac15$). C là kết quả chia ngược $360:72$.
+
+[M207.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Theo biểu đồ "Cách đến trường của $40$ học sinh lớp 7A" (đi bộ $10\%$, xe đạp $30\%$, xe buýt $20\%$, xe máy $40\%$). Xét tính đúng sai của các mệnh đề sau:
+a) Hình quạt xe máy có góc ở tâm là $40^\circ$.
+b) Có $12$ bạn đi xe đạp.
+c) Hai nhóm đi bộ và đi xe buýt chiếm $30\%$.
+d) Số bạn đi xe máy bằng số bạn đi xe đạp và xe buýt cộng lại.
+::key S Đ Đ S
+a) Sai: góc là $40\cdot3{,}6^\circ=144^\circ$. b) Đúng: $40\cdot30\%=12$. c) Đúng: $10\%+20\%=30\%$. d) Sai: xe máy $16$ bạn, còn xe đạp và xe buýt $12+8=20$ bạn.
+
+[M207.6] Trả lời ngắn
+Trong biểu đồ hình quạt tròn biểu diễn $40$ học sinh, hình quạt "Xe buýt" có góc ở tâm $72^\circ$. Có bao nhiêu học sinh đi xe buýt?
+::key 8
+$\dfrac{72}{360}\cdot40=8$ (học sinh).
+
+[M207.7] Trả lời ngắn
+Một lớp có $25$ bạn, trong đó $7$ bạn thích bóng rổ. Hình quạt "Bóng rổ" có góc ở tâm bao nhiêu độ? (làm tròn kết quả đến hàng đơn vị)
+::key 101
+$\dfrac{7}{25}\cdot360^\circ=100{,}8^\circ\approx101^\circ$.
+
+### M208 · Lớp 7 · Biểu đồ đoạn thẳng
+
+[M208.1] Nhiều lựa chọn
+Biểu đồ đoạn thẳng thích hợp nhất để biểu diễn dữ liệu nào sau đây?
+A. Nhiệt độ ngoài trời đo mỗi giờ trong một ngày.
+B. Màu sắc yêu thích của các bạn trong tổ.
+C. Mức độ yêu thích của các môn học.
+D. Số học sinh của từng lớp trong khối 7.
+::key A
+Chỉ nhiệt độ theo từng giờ là dữ liệu có thứ tự thời gian. A, B, C là các đối tượng riêng rẽ nên dùng biểu đồ cột.
+
+[M208.2] Nhiều lựa chọn
+Doanh thu của một cửa hàng trong bốn tháng liên tiếp là $12$; $15$; $15$; $11$ (triệu đồng). Doanh thu giảm trong khoảng nào?
+A. Từ tháng 1 đến tháng 2.
+B. Từ tháng 3 đến tháng 4.
+C. Từ tháng 2 đến tháng 3.
+D. Cả ba khoảng.
+::key B
+$15\to11$ là giảm $4$ triệu đồng. B là tăng $3$ triệu đồng, C không đổi (đoạn nằm ngang).
+
+[M208.3] Nhiều lựa chọn
+Nhiệt độ lúc 6 giờ, 9 giờ, 12 giờ, 15 giờ lần lượt là $22$ °C, $26$ °C, $30$ °C, $28$ °C. Từ 6 giờ đến 12 giờ nhiệt độ tăng bao nhiêu độ?
+A. $4$ °C.
+B. $30$ °C.
+C. $8$ °C.
+D. $2$ °C.
+::key C
+$30-22=8$. A chỉ tính khoảng 6 giờ đến 9 giờ; C nhầm với nhiệt độ lúc 12 giờ; D là mức giảm từ 12 giờ đến 15 giờ.
+
+[M208.4] Nhiều lựa chọn
+Khi vẽ biểu đồ đoạn thẳng, điều nào sau đây đúng?
+A. Có thể nối các điểm theo thứ tự bất kì.
+B. Các vạch trên trục đứng không cần ứng với cùng một lượng.
+C. Phải nối điểm đầu tiên với gốc toạ độ $O$.
+D. Các điểm được nối lần lượt theo thứ tự thời gian bằng các đoạn thẳng.
+::key D
+Đó là định nghĩa của biểu đồ đoạn thẳng. A, C là lỗi nối nhầm điểm; B là lỗi chia trục không đều.
+
+[M208.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Số người vào một công viên lúc 7 giờ, 8 giờ, 9 giờ, 10 giờ lần lượt là $50$; $80$; $120$; $100$ (người). Xét tính đúng sai của các mệnh đề sau:
+a) Lúc 8 giờ có $120$ người vào công viên.
+b) Từ 7 giờ đến 9 giờ, số người tăng thêm $70$ người.
+c) Đoạn thẳng nối 9 giờ và 10 giờ đi xuống.
+d) Số người nhiều nhất vào lúc 10 giờ.
+::key S Đ Đ S
+a) Sai: lúc 8 giờ có $80$ người, $120$ là số người lúc 9 giờ. b) Đúng: $120-50=70$. c) Đúng: từ $120$ xuống $100$. d) Sai: nhiều nhất lúc 9 giờ.
+
+[M208.6] Trả lời ngắn
+Số cuốn sách thư viện cho mượn trong năm ngày liên tiếp là $24$; $30$; $27$; $36$; $33$. Mức tăng lớn nhất giữa hai ngày liên tiếp là bao nhiêu cuốn?
+::key 9
+Mức thay đổi là $+6$; $-3$; $+9$; $-3$. Mức tăng lớn nhất là $9$ cuốn (từ ngày thứ ba sang ngày thứ tư).
+
+[M208.7] Trả lời ngắn
+Chiều cao của một cây vào đầu các tuần 0, 1, 2, 3 là $4$ cm, $7$ cm, $11$ cm, $14$ cm. Trung bình mỗi tuần cây cao thêm bao nhiêu xăng-ti-mét? (Làm tròn đến hàng phần mười.)
+::key 3,3
+Sau $3$ tuần cây cao thêm $14-4=10$ (cm), nên trung bình mỗi tuần cao thêm $10:3\approx3{,}3$ (cm).
+
+### M209 · Lớp 7 · Tỉ lệ thức. Tính chất của dãy tỉ số bằng nhau
+
+[M209.1] Nhiều lựa chọn
+Đẳng thức nào sau đây là một tỉ lệ thức?
+A. $\dfrac25=\dfrac49$.
+B. $\dfrac12=\dfrac35$.
+C. $\dfrac34=\dfrac9{12}$.
+D. $\dfrac56=\dfrac{10}{13}$.
+::key C
+$3\cdot12=36=4\cdot9$ nên B đúng. Ở A, B, D tích chéo không bằng nhau ($18\neq20$; $5\neq6$; $65\neq60$).
+
+[M209.2] Nhiều lựa chọn
+Tìm $x$, biết $\dfrac6x=\dfrac9{15}$.
+A. $3{,}6$.
+B. $22{,}5$.
+C. $9$.
+D. $10$.
+::key D
+$9x=6\cdot15=90$ nên $x=10$. A là kết quả khi nhân chéo nhầm ($6\cdot9:15$), B là $15\cdot9:6$, C là lấy nhầm tử số.
+
+[M209.3] Nhiều lựa chọn
+Cho $\dfrac x3=\dfrac y7$ và $x+y=40$. Giá trị của $x$ là
+A. $12$.
+B. $28$.
+C. $4$.
+D. $10$.
+::key A
+$\dfrac x3=\dfrac y7=\dfrac{40}{10}=4$ nên $x=12$. B là giá trị của $y$, C là hệ số $4$, D là tổng $3+7$.
+
+[M209.4] Nhiều lựa chọn
+Cho $\dfrac a2=\dfrac b3=\dfrac c4$ và $a+b+c=36$. Giá trị của $c$ là
+A. $8$.
+B. $16$.
+C. $12$.
+D. $4$.
+::key B
+$\dfrac a2=\dfrac b3=\dfrac c4=\dfrac{36}9=4$ nên $c=16$. A, C là giá trị của $a$, $b$; D là hệ số $4$.
+
+[M209.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $\dfrac x4=\dfrac y9$ và $y-x=15$. Xét tính đúng sai của các mệnh đề sau:
+a) Ta có $\dfrac x4=\dfrac y9=\dfrac{y-x}{4-9}$.
+b) Ta có $\dfrac x4=\dfrac y9=\dfrac{y-x}{9-4}=3$.
+c) $x=12$.
+d) $y=24$.
+::key S Đ Đ S
+a) Sai: tử là $y-x$ thì mẫu phải là $9-4$. b) Đúng: $\dfrac{15}5=3$. c) Đúng: $x=4\cdot3=12$. d) Sai: $y=9\cdot3=27$.
+
+[M209.6] Trả lời ngắn
+Cho $\dfrac x5=\dfrac y3$ và $x+y=24$. Tính $x$.
+::key 15
+$\dfrac x5=\dfrac y3=\dfrac{24}8=3$, nên $x=5\cdot3=15$.
+
+[M209.7] Trả lời ngắn
+Tìm $x$, biết $\dfrac{0{,}6}x=\dfrac{1{,}2}5$ (viết dưới dạng số thập phân).
+::key 2,5
+$1{,}2x=0{,}6\cdot5=3$, nên $x=3:1{,}2=2{,}5$.
+
+### M210 · Lớp 7 · Đại lượng tỉ lệ thuận. Đại lượng tỉ lệ nghịch
+
+[M210.1] Nhiều lựa chọn
+Biết $y$ tỉ lệ thuận với $x$ theo hệ số $3$. Khi $x=5$ thì $y$ bằng
+A. $8$.
+B. $\dfrac53$.
+C. $15$.
+D. $2$.
+::key C
+$y=3x$ nên khi $x=5$ thì $y=15$. A là $x+3$, B là $\dfrac x3$, D là $x-3$.
+
+[M210.2] Nhiều lựa chọn
+Hai đại lượng $x$, $y$ tỉ lệ nghịch. Khi $x=4$ thì $y=15$. Hệ số tỉ lệ là
+A. $\dfrac4{15}$.
+B. $19$.
+C. $\dfrac{15}4$.
+D. $60$.
+::key D
+$a=xy=4\cdot15=60$. B là tổng $4+15$, C là $\dfrac yx$ (dùng cho tỉ lệ thuận), A là $\dfrac xy$.
+
+[M210.3] Nhiều lựa chọn
+Đại lượng $y$ tỉ lệ nghịch với $x$ theo hệ số $24$. Khi $x=8$ thì $y$ bằng
+A. $3$.
+B. $16$.
+C. $\dfrac13$.
+D. $192$.
+::key A
+$y=\dfrac{24}8=3$. A là $24\cdot8$, B là $24-8$, C là $\dfrac8{24}$.
+
+[M210.4] Nhiều lựa chọn
+Một đội $5$ người làm xong một việc trong $12$ ngày. Nếu đội có $10$ người (năng suất như nhau) thì xong việc trong
+A. $24$ ngày.
+B. $6$ ngày.
+C. $7$ ngày.
+D. $60$ ngày.
+::key B
+Số người và số ngày tỉ lệ nghịch: $5\cdot12=10\cdot x$, nên $x=6$. A là kết quả khi dùng tỉ lệ thuận, C là $12-5$, D là $5\cdot12$.
+
+[M210.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho bảng giá trị của hai đại lượng $x$, $y$:
+
+| $x$ | $2$ | $4$ | $6$ |
+|---|---|---|---|
+| $y$ | $12$ | $6$ | $4$ |
+
+Xét tính đúng sai của các mệnh đề sau:
+a) Tích $xy$ luôn bằng $24$.
+b) $y$ tỉ lệ thuận với $x$.
+c) Khi $x=8$ thì $y=3$.
+d) Khi $y=2$ thì $x=10$.
+::key Đ S Đ S
+a) Đúng: $2\cdot12=4\cdot6=6\cdot4=24$. b) Sai: $y$ giảm khi $x$ tăng và tích không đổi, nên $y$ tỉ lệ nghịch với $x$. c) Đúng: $y=\dfrac{24}8=3$. d) Sai: $x=\dfrac{24}2=12$.
+
+[M210.6] Trả lời ngắn
+Biết $y$ tỉ lệ thuận với $x$ và khi $x=6$ thì $y=15$. Tính $y$ khi $x=10$.
+::key 25
+$k=\dfrac{15}6=2{,}5$ nên $y=2{,}5\cdot10=25$.
+
+[M210.7] Trả lời ngắn
+Giả sử $5$ máy bơm cùng công suất bơm cạn một ao trong $6$ giờ. Hỏi $4$ máy bơm như thế bơm cạn ao đó trong bao nhiêu giờ? (viết dưới dạng số thập phân)
+::key 7,5
+Số máy và số giờ tỉ lệ nghịch: $5\cdot6=4\cdot x$, nên $x=\dfrac{30}4=7{,}5$.

@@ -1,0 +1,1640 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-11-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-11-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-11-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-precalculus/apprecalc-rates-polynomials, exams/ap-precalculus/apprecalc-rational-transformations, exams/ap-precalculus/apprecalc-sequences-exponentials, exams/ap-precalculus/apprecalc-trig-equations-polar
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-11-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-11-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-11-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-precalculus/apprecalc-rates-polynomials – BẢN TIẾNG VIỆT ########
+---
+title: Tốc độ thay đổi và hàm đa thức
+description: AP Precalculus Unit 1, phần 1: tốc độ thay đổi trung bình, tính lồi lõm từ bảng, dáng điệu ở vô cực, nghiệm và bội, lập đa thức, sai phân hữu hạn.
+minutes: 45
+---
+
+  :::goals
+  - Tính tốc độ thay đổi trung bình từ công thức, bảng và đồ thị, và dùng nó để mô tả cách hàm số thay đổi.
+  - Xác định đồ thị lõm lên hay lõm xuống từ các tốc độ thay đổi.
+  - Mô tả dáng điệu ở vô cực của đa thức từ số hạng bậc cao nhất.
+  - Dùng các nghiệm và bội của chúng để phác hoạ đồ thị và lập đa thức từ dữ kiện cho trước.
+  - Nhận ra mô hình đa thức từ sai phân hữu hạn không đổi.
+  :::
+
+[[P1·29be]]
+AP Precalculus mở đầu bằng một câu hỏi xuyên suốt cả môn học: một đại lượng đang thay đổi nhanh đến mức nào, và tốc độ đó đang tăng hay giảm? Đa thức là họ hàm số đầu tiên được nghiên cứu theo cách này. Phần lớn đại số đã quen thuộc từ chương trình Việt Nam; điểm mới là mô tả chính xác dáng điệu bằng lời, điều mà đề thi thưởng điểm ở cả phần trắc nghiệm lẫn tự luận.
+
+## Tốc độ thay đổi trung bình
+
+[[P2·97c9]]
+**Tốc độ thay đổi trung bình (average rate of change)** của $f$ trên $[a,b]$ là
+  $$\frac{f(b)-f(a)}{b-a},$$
+[[P3·051e]]
+tức hệ số góc của cát tuyến đi qua $\big(a,f(a)\big)$ và $\big(b,f(b)\big)$. Đơn vị của nó là đơn vị đầu ra trên mỗi đơn vị đầu vào.
+
+  :::example Tốc độ từ công thức
+  Tốc độ thay đổi trung bình của $f(x)=x^3-2x$ trên $[1,3]$ là
+  A. $8$
+  B. $11$
+  C. $22$
+  D. $\dfrac{21}{2}$
+
+  **Lời giải.** Ta có $f(3)=27-6=21$ và $f(1)=1-2=-1$. Do đó tốc độ thay đổi trung bình là
+  $$\frac{21-(-1)}{3-1}=\frac{22}{2}=11.$$
+
+  Vậy tốc độ thay đổi trung bình là $11$, chọn đáp án **B**. Phương án C quên chia cho $3-1$.
+  :::
+
+## Tốc độ tăng dần và tính lồi lõm
+
+[[P4·d31f]]
+Nếu trên các đoạn liên tiếp có độ dài bằng nhau, tốc độ thay đổi trung bình **tăng dần** thì đồ thị **lõm lên (concave up)**; nếu **giảm dần** thì đồ thị **lõm xuống (concave down)**. Một hàm số có thể vừa đồng biến vừa lõm xuống: nó đang tăng, nhưng tăng ngày càng chậm.
+
+  :::example Đọc bảng giá trị
+  Bảng cho các giá trị của hàm số $f$.
+
+  | $x$ | $0$ | $1$ | $2$ | $3$ |
+  |---|---|---|---|---|
+  | $f(x)$ | $2$ | $5$ | $6$ | $5{,}5$ |
+
+  Khẳng định nào đúng trên $[0,3]$?
+  A. $f$ đồng biến và lõm lên.
+  B. $f$ nghịch biến và lõm xuống.
+  C. Các tốc độ thay đổi trung bình giảm dần, nên đồ thị lõm xuống.
+  D. Các tốc độ thay đổi trung bình tăng dần, nên đồ thị lõm lên.
+
+  **Lời giải.** Tốc độ thay đổi trung bình trên $[0,1]$, $[1,2]$ và $[2,3]$ lần lượt là
+  $$5-2=3,\qquad6-5=1,\qquad5{,}5-6=-0{,}5.$$
+
+  Các tốc độ này giảm dần qua từng đoạn, nên đồ thị lõm xuống. Hàm số lúc đầu tăng rồi sau đó giảm, nên trên cả đoạn nó không đồng biến cũng không nghịch biến.
+
+  Vậy khẳng định C đúng, chọn đáp án **C**.
+  :::
+
+## Dáng điệu ở vô cực của đa thức
+
+[[P5·1d3f]]
+Khi $|x|$ lớn, đa thức có dáng điệu giống **số hạng bậc cao nhất (leading term)** $a_nx^n$ của nó. Nếu $n$ chẵn, hai đầu đồ thị đi cùng hướng: lên khi $a_n>0$, xuống khi $a_n<0$. Nếu $n$ lẻ, hai đầu đi ngược hướng. Viết bằng kí hiệu giới hạn, chẳng hạn $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
+
+  :::example Dáng điệu ở vô cực
+  Đâu là mô tả đúng dáng điệu ở vô cực của $p(x)=-2x^5+3x^2-1$?
+  A. $\displaystyle\lim_{x\to\infty}p(x)=-\infty$ và $\displaystyle\lim_{x\to-\infty}p(x)=\infty$
+  B. $\displaystyle\lim_{x\to\infty}p(x)=\infty$ và $\displaystyle\lim_{x\to-\infty}p(x)=-\infty$
+  C. Cả hai giới hạn đều bằng $-\infty$
+  D. Cả hai giới hạn đều bằng $\infty$
+
+  **Lời giải.** Số hạng bậc cao nhất là $-2x^5$, có bậc lẻ và hệ số âm. Khi $x$ dương rất lớn, $-2x^5$ âm và có trị tuyệt đối rất lớn; khi $x$ âm rất lớn, $x^5$ âm nên $-2x^5$ dương rất lớn.
+
+  Vậy $p(x)\to-\infty$ khi $x\to\infty$ và $p(x)\to\infty$ khi $x\to-\infty$, chọn đáp án **A**.
+  :::
+
+## Nghiệm và bội của nghiệm
+
+[[P6·74c6]]
+Nếu $(x-c)^m$ là một nhân tử của $p$ thì $c$ là nghiệm **bội $m$ (multiplicity)**. Tại nghiệm bội lẻ, đồ thị **cắt** trục $x$; tại nghiệm bội chẵn, đồ thị **tiếp xúc** với trục rồi quay lại. Đa thức bậc $n$ có nhiều nhất $n$ nghiệm thực và nhiều nhất $n-1$ điểm đổi chiều.
+
+:::graph Đồ thị của $p(x)=(x-1)^2(x+3)$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc nghiệm từ các nhân tử
+  Với $p(x)=(x-1)^2(x+3)$ như hình trên, khẳng định nào đúng?
+  A. Đồ thị cắt trục $x$ tại $x=1$.
+  B. $p$ có ba nghiệm thực phân biệt.
+  C. Đồ thị tiếp xúc với trục $x$ tại $x=1$ và cắt trục tại $x=-3$.
+  D. $p(x)<0$ với mọi $x>1$.
+
+  **Lời giải.** Nhân tử $(x-1)^2$ cho nghiệm bội $2$ tại $x=1$, nên đồ thị tiếp xúc với trục tại đó. Nhân tử $(x+3)$ cho nghiệm bội $1$ tại $x=-3$, nên đồ thị cắt trục tại đó. Chỉ có hai nghiệm phân biệt, và khi $x>1$ cả hai nhân tử đều dương nên $p(x)>0$.
+
+  Vậy khẳng định C đúng, chọn đáp án **C**.
+  :::
+
+  :::example Lập một đa thức
+  Đa thức $p$ bậc $3$ có các nghiệm $-2$, $1$, $4$ và $p(0)=16$. Tìm $p(x)$.
+
+  **Lời giải.** Vì các nghiệm là $-2$, $1$ và $4$ nên ta có thể viết
+  $$p(x)=a(x+2)(x-1)(x-4)$$
+  với một hằng số $a$ nào đó.
+
+  Thay $x=0$: $p(0)=a(2)(-1)(-4)=8a$. Vì $p(0)=16$ nên $8a=16$, suy ra $a=2$.
+
+  Vậy $p(x)=2(x+2)(x-1)(x-4)$.
+  :::
+
+## Sai phân hữu hạn và mô hình đa thức
+
+[[P7·e6a2]]
+Với các giá trị đầu vào cách đều: nếu sai phân cấp một của các giá trị đầu ra không đổi thì mô hình **tuyến tính** phù hợp; nếu sai phân cấp hai không đổi thì mô hình **bậc hai** phù hợp; nếu sai phân cấp ba không đổi thì mô hình **bậc ba** phù hợp.
+
+  :::example Mô hình nào?
+  Giá trị của một hàm số tại $x=0,1,2,3,4$ là $1, 4, 11, 22, 37$. Loại đa thức nào khớp hoàn toàn với dữ liệu này?
+  A. Bậc nhất
+  B. Bậc ba
+  C. Bậc bốn
+  D. Bậc hai
+
+  **Lời giải.** Sai phân cấp một là $3, 7, 11, 15$, không bằng nhau. Sai phân cấp hai là $4, 4, 4$, bằng nhau.
+
+  Vậy mô hình bậc hai khớp hoàn toàn với dữ liệu, chọn đáp án **D**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·a345]]
+- **Quên mẫu số** $b-a$ khi tính tốc độ thay đổi trung bình.
+- **Nhầm đồng biến với lõm lên:** hàm số có thể tăng trong khi tốc độ thay đổi của nó giảm.
+- **Xét dáng điệu ở vô cực bằng số hạng khác:** khi $|x|$ lớn chỉ số hạng bậc cao nhất quyết định.
+- **Bội của nghiệm:** chẵn là tiếp xúc, lẻ là cắt; đừng đếm nghiệm kép hai lần khi đề hỏi số nghiệm phân biệt.
+- **Bước đầu vào không đều:** sai phân hữu hạn chỉ dùng được khi các giá trị đầu vào cách đều.
+:::
+
+  :::terms
+  - average rate of change | tốc độ thay đổi trung bình
+  - secant line | cát tuyến
+  - concave up / concave down | lõm lên / lõm xuống
+  - end behavior, leading term | dáng điệu ở vô cực, số hạng bậc cao nhất
+  - zero, multiplicity | nghiệm (không điểm), bội của nghiệm
+  - turning point | điểm đổi chiều
+  - finite differences | sai phân hữu hạn
+  - polynomial model | mô hình đa thức
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-rates-polynomials – BẢN TIẾNG ANH ########
+---
+title: Rates of change and polynomial functions
+description: AP Precalculus Unit 1, part 1: average rates of change, concavity from tables, end behavior, zeros and multiplicity, building polynomials, finite differences.
+minutes: 45
+---
+
+  :::goals
+  - Calculate average rates of change from formulas, tables and graphs, and use them to describe how a function changes.
+  - Decide whether a function is concave up or concave down from its rates of change.
+  - Describe the end behavior of a polynomial from its leading term.
+  - Use zeros and their multiplicities to sketch polynomials and to build a polynomial from given information.
+  - Recognize a polynomial model from constant finite differences.
+  :::
+
+[[P1·542f]]
+AP Precalculus starts with a question that runs through the whole course: how fast is a quantity changing, and is that rate itself increasing or decreasing? Polynomials are the first family of functions studied this way. Much of the algebra will be familiar from the Vietnamese curriculum; the new part is describing behavior precisely in words, which the exam rewards in both the multiple-choice and the free-response sections.
+
+## Average rate of change
+
+[[P2·e84d]]
+The **average rate of change** of $f$ on $[a,b]$ is
+  $$\frac{f(b)-f(a)}{b-a},$$
+[[P3·d36c]]
+the slope of the secant line through $\big(a,f(a)\big)$ and $\big(b,f(b)\big)$. Its units are output units per input unit.
+
+  :::example A rate from a formula
+  What is the average rate of change of $f(x)=x^3-2x$ on $[1,3]$?
+  A. $8$
+  B. $11$
+  C. $22$
+  D. $\dfrac{21}{2}$
+
+  **Solution.** We have $f(3)=27-6=21$ and $f(1)=1-2=-1$. So the average rate of change is
+  $$\frac{21-(-1)}{3-1}=\frac{22}{2}=11.$$
+
+  So the average rate of change is $11$, answer **B**. Option C forgets to divide by $3-1$.
+  :::
+
+## Increasing rates and concavity
+
+[[P4·0f24]]
+If, over consecutive equal intervals, the average rates of change **increase**, the graph is **concave up**; if they **decrease**, it is **concave down**. A function can be increasing and concave down at the same time: it is rising, but more and more slowly.
+
+  :::example Reading a table
+  The table gives values of a function $f$.
+
+  | $x$ | $0$ | $1$ | $2$ | $3$ |
+  |---|---|---|---|---|
+  | $f(x)$ | $2$ | $5$ | $6$ | $5.5$ |
+
+  Which statement is true on $[0,3]$?
+  A. $f$ is increasing and concave up.
+  B. $f$ is decreasing and concave down.
+  C. The average rates of change are decreasing, so the graph is concave down.
+  D. The average rates of change are increasing, so the graph is concave up.
+
+  **Solution.** The average rates of change on $[0,1]$, $[1,2]$ and $[2,3]$ are
+  $$5-2=3,\qquad6-5=1,\qquad5.5-6=-0.5.$$
+
+  These rates decrease from interval to interval, so the graph is concave down. The function increases at first and then decreases, so it is neither increasing nor decreasing on the whole interval.
+
+  So statement C is true, answer **C**.
+  :::
+
+## End behavior of polynomials
+
+[[P5·ccac]]
+For large $|x|$, a polynomial behaves like its **leading term** $a_nx^n$. If $n$ is even, both ends go the same way: up when $a_n>0$, down when $a_n<0$. If $n$ is odd, the ends go opposite ways. In limit notation, for example, $\displaystyle\lim_{x\to\infty}p(x)=-\infty$.
+
+  :::example End behavior
+  Which describes the end behavior of $p(x)=-2x^5+3x^2-1$?
+  A. $\displaystyle\lim_{x\to\infty}p(x)=-\infty$ and $\displaystyle\lim_{x\to-\infty}p(x)=\infty$
+  B. $\displaystyle\lim_{x\to\infty}p(x)=\infty$ and $\displaystyle\lim_{x\to-\infty}p(x)=-\infty$
+  C. Both limits are $-\infty$
+  D. Both limits are $\infty$
+
+  **Solution.** The leading term is $-2x^5$, with odd degree and a negative coefficient. For large positive $x$, $-2x^5$ is large and negative; for large negative $x$, $x^5$ is negative, so $-2x^5$ is large and positive.
+
+  So $p(x)\to-\infty$ as $x\to\infty$ and $p(x)\to\infty$ as $x\to-\infty$, answer **A**.
+  :::
+
+## Zeros and multiplicity
+
+[[P6·e071]]
+If $(x-c)^m$ is a factor of $p$, then $c$ is a zero of **multiplicity** $m$. At a zero of odd multiplicity the graph **crosses** the $x$-axis; at a zero of even multiplicity it **touches** the axis and turns back. A polynomial of degree $n$ has at most $n$ real zeros and at most $n-1$ turning points.
+
+:::graph The graph of $p(x)=(x-1)^2(x+3)$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading zeros from factors
+  For $p(x)=(x-1)^2(x+3)$, shown above, which statement is true?
+  A. The graph crosses the $x$-axis at $x=1$.
+  B. $p$ has three distinct real zeros.
+  C. The graph touches the $x$-axis at $x=1$ and crosses it at $x=-3$.
+  D. $p(x)<0$ for all $x>1$.
+
+  **Solution.** The factor $(x-1)^2$ gives a zero of multiplicity $2$ at $x=1$, so the graph touches the axis there. The factor $(x+3)$ gives a zero of multiplicity $1$ at $x=-3$, so the graph crosses there. There are only two distinct zeros, and for $x>1$ both factors are positive, so $p(x)>0$.
+
+  So statement C is true, answer **C**.
+  :::
+
+  :::example Building a polynomial
+  A polynomial $p$ of degree $3$ has zeros $-2$, $1$ and $4$, and $p(0)=16$. Find $p(x)$.
+
+  **Solution.** Since the zeros are $-2$, $1$ and $4$, we can write
+  $$p(x)=a(x+2)(x-1)(x-4)$$
+  for some constant $a$.
+
+  Substituting $x=0$: $p(0)=a(2)(-1)(-4)=8a$. Since $p(0)=16$, we get $8a=16$, so $a=2$.
+
+  So $p(x)=2(x+2)(x-1)(x-4)$.
+  :::
+
+## Finite differences and polynomial models
+
+[[P7·4dc0]]
+For equally spaced inputs: if the first differences of the outputs are constant, a **linear** model fits; if the second differences are constant, a **quadratic** model fits; if the third differences are constant, a **cubic** model fits.
+
+  :::example Which model?
+  The outputs of a function for $x=0,1,2,3,4$ are $1, 4, 11, 22, 37$. Which type of polynomial fits these data exactly?
+  A. Linear
+  B. Cubic
+  C. Quartic
+  D. Quadratic
+
+  **Solution.** The first differences are $3, 7, 11, 15$, which are not constant. The second differences are $4, 4, 4$, which are constant.
+
+  So a quadratic model fits the data exactly, answer **D**.
+  :::
+
+:::warning Common traps
+[[P8·1718]]
+- **Forgetting the denominator** $b-a$ in an average rate of change.
+- **Increasing versus concave up:** a function can increase while its rate of change decreases.
+- **End behavior from the wrong term:** only the leading term matters for large $|x|$.
+- **Multiplicity:** even means touch, odd means cross; do not count a double zero twice when asked for distinct zeros.
+- **Unequal input steps:** finite differences only work when the inputs are equally spaced.
+:::
+
+  :::terms
+  - average rate of change | tốc độ thay đổi trung bình
+  - secant line | cát tuyến
+  - concave up / concave down | lõm lên / lõm xuống
+  - end behavior, leading term | dáng điệu ở vô cực, số hạng bậc cao nhất
+  - zero, multiplicity | nghiệm (không điểm), bội của nghiệm
+  - turning point | điểm đổi chiều
+  - finite differences | sai phân hữu hạn
+  - polynomial model | mô hình đa thức
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-rational-transformations – BẢN TIẾNG VIỆT ########
+---
+title: Hàm phân thức, phép biến đổi và mô hình hoá
+description: AP Precalculus Unit 1, phần 2: điểm khuyết và tiệm cận đứng, dáng điệu ở vô cực của hàm phân thức, phép biến đổi đồ thị, chọn và dùng mô hình hàm số.
+minutes: 45
+---
+
+  :::goals
+  - Tìm nghiệm, điểm khuyết, tiệm cận đứng và dáng điệu ở vô cực của hàm phân thức.
+  - Mô tả dáng điệu gần tiệm cận đứng bằng kí hiệu giới hạn.
+  - Áp dụng phép biến đổi cho đồ thị, cho điểm và cho công thức.
+  - Lập và dùng các mô hình đơn giản, kể cả tỉ lệ nghịch, và chọn loại hàm phù hợp với tình huống.
+  :::
+
+[[P1·3b9b]]
+Hàm phân thức là thương của hai đa thức, và chúng mô tả các tình huống mà một đại lượng giảm dần khi đại lượng kia tăng: chi phí trung bình, nồng độ, cường độ ánh sáng. Đề AP Precalculus yêu cầu bạn đọc các đặc điểm chính từ công thức, mô tả điều gì xảy ra gần các "chỗ đứt" của đồ thị, và giải thích ý nghĩa của tiệm cận trong ngữ cảnh. Bài này cũng đề cập phép biến đổi đồ thị và việc chọn mô hình, hai ý xuất hiện xuyên suốt Unit 1 đến 3.
+
+## Nghiệm, điểm khuyết và tiệm cận đứng
+
+[[P2·c2c4]]
+Với $r(x)=\dfrac{p(x)}{q(x)}$, trước hết hãy **phân tích** tử và mẫu thành nhân tử.
+
+[[P3·5d11]]
+- Một nhân tử rút gọn được cho một **điểm khuyết (hole)** trên đồ thị.
+- Một nghiệm của mẫu không rút gọn được cho một **tiệm cận đứng (vertical asymptote)**.
+- Một nghiệm của tử không rút gọn được cho một **nghiệm** của $r$.
+
+:::graph Đồ thị của $r(x)=\dfrac{x^2-4}{x^2-x-2}$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc các đặc điểm
+  Cho $r(x)=\dfrac{x^2-4}{x^2-x-2}$. Khẳng định nào đúng?
+  A. Đồ thị có tiệm cận đứng $x=2$ và $x=-1$.
+  B. Đồ thị có điểm khuyết tại $x=2$ và tiệm cận đứng $x=-1$.
+  C. Đồ thị có nghiệm tại $x=2$.
+  D. Đồ thị không có tiệm cận ngang.
+
+  **Lời giải.** Phân tích tử và mẫu thành nhân tử:
+  $$r(x)=\frac{(x-2)(x+2)}{(x-2)(x+1)}.$$
+
+  Nhân tử $x-2$ rút gọn được, nên có điểm khuyết tại $x=2$; tung độ của nó là $\dfrac{2+2}{2+1}=\dfrac43$. Nhân tử $x+1$ vẫn còn ở mẫu, nên $x=-1$ là tiệm cận đứng. Tử và mẫu cùng bậc với hệ số cao nhất đều bằng $1$, nên $y=1$ là tiệm cận ngang.
+
+  Vậy khẳng định B đúng, chọn đáp án **B**.
+  :::
+
+## Dáng điệu ở vô cực của hàm phân thức
+
+[[P4·65b9]]
+So sánh bậc của tử và mẫu:
+
+| Bậc | Dáng điệu ở vô cực |
+|---|---|
+| tử $<$ mẫu | tiệm cận ngang $y=0$ |
+| tử $=$ mẫu | tiệm cận ngang $y=\dfrac{\text{hệ số cao nhất của }p}{\text{hệ số cao nhất của }q}$ |
+| tử $=$ mẫu $+1$ | tiệm cận xiên: một đường thẳng tìm bằng phép chia |
+| tử $>$ mẫu $+1$ | có dáng điệu như đa thức có bậc bằng hiệu hai bậc |
+
+[[P5·d4e4]]
+Gần tiệm cận đứng $x=a$, hàm số tăng (hoặc giảm) không bị chặn; ta viết, chẳng hạn, $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
+
+  :::example Dáng điệu ở vô cực
+  Hàm phân thức nào có tiệm cận ngang $y=\dfrac32$?
+  A. $\dfrac{3x+1}{2x^2-5}$
+  B. $\dfrac{3x^2+1}{2x-5}$
+  C. $\dfrac{3x^2-x}{2x^2+7}$
+  D. $\dfrac{2x^2}{3x^2+1}$
+
+  **Lời giải.** Tiệm cận ngang khác $y=0$ đòi hỏi tử và mẫu cùng bậc, còn lại phương án C và D. Với C, tỉ số các hệ số cao nhất là $\dfrac32$; với D là $\dfrac23$. Phương án A có $y=0$, còn phương án B có tiệm cận xiên.
+
+  Vậy hàm số cần tìm là $\dfrac{3x^2-x}{2x^2+7}$, chọn đáp án **C**.
+  :::
+
+  :::example Gần tiệm cận đứng
+  Với $r(x)=\dfrac{1}{x-3}$, khẳng định nào đúng?
+  A. $\displaystyle\lim_{x\to3^+}r(x)=-\infty$
+  B. $\displaystyle\lim_{x\to3}r(x)=0$
+  C. $\displaystyle\lim_{x\to3^-}r(x)=\infty$
+  D. $\displaystyle\lim_{x\to3^+}r(x)=\infty$
+
+  **Lời giải.** Khi $x$ lớn hơn $3$ một chút, $x-3$ là số dương rất nhỏ, nên $\dfrac{1}{x-3}$ dương rất lớn. Khi $x$ nhỏ hơn $3$ một chút, $x-3$ âm và rất nhỏ, nên $\dfrac{1}{x-3}$ âm và có trị tuyệt đối rất lớn.
+
+  Vậy $\displaystyle\lim_{x\to3^+}r(x)=\infty$, chọn đáp án **D**.
+  :::
+
+## Phép biến đổi đồ thị
+
+[[P6·db2e]]
+$g(x)=a\,f\big(b(x-h)\big)+k$ biến đổi đồ thị của $f$: co giãn theo phương ngang với hệ số $\dfrac1{|b|}$, tịnh tiến ngang $h$, co giãn theo phương đứng với hệ số $|a|$, tịnh tiến đứng $k$, và đối xứng khi $a$ hoặc $b$ âm. Khi $b=1$, điểm $(x_0,y_0)$ trên đồ thị $f$ chuyển thành $(x_0+h,\ ay_0+k)$.
+
+  :::example Theo dấu một điểm
+  Điểm $(2,5)$ nằm trên đồ thị của $f$. Điểm nào chắc chắn nằm trên đồ thị của $g(x)=-2f(x-1)+3$?
+  A. $(1,-7)$
+  B. $(3,13)$
+  C. $(3,-7)$
+  D. $(1,13)$
+
+  **Lời giải.** Đầu vào của $f$ phải bằng $2$, nên $x-1=2$ và $x=3$.
+
+  Khi đó $g(3)=-2f(2)+3=-2(5)+3=-7$.
+
+  Vậy điểm $(3,-7)$ nằm trên đồ thị của $g$, chọn đáp án **C**. Phương án A và D tịnh tiến sang trái thay vì sang phải.
+  :::
+
+## Lập và chọn mô hình
+
+[[P7·764d]]
+Chọn loại hàm theo cách đại lượng thay đổi: tốc độ thay đổi không đổi, chọn tuyến tính; sai phân cấp hai không đổi hoặc có một điểm đổi chiều, chọn bậc hai; một đại lượng tỉ lệ nghịch với đại lượng khác, chọn hàm phân thức. Sau đó dùng dữ liệu đã cho để tìm các tham số.
+
+  :::example Định luật nghịch đảo bình phương
+  Cường độ $I$ của ánh sáng từ một ngọn đèn tỉ lệ nghịch với bình phương khoảng cách $d$: $I=\dfrac{k}{d^2}$. Ở khoảng cách $2$ m, cường độ là $200$ đơn vị. Cường độ ở khoảng cách $4$ m là bao nhiêu?
+  A. $100$ đơn vị
+  B. $25$ đơn vị
+  C. $50$ đơn vị
+  D. $400$ đơn vị
+
+  **Lời giải.** Từ $200=\dfrac{k}{2^2}$, ta được $k=800$, nên $I=\dfrac{800}{d^2}$.
+
+  Tại $d=4$: $I=\dfrac{800}{16}=50$.
+
+  Vậy cường độ ở khoảng cách $4$ m là $50$ đơn vị, chọn đáp án **C**. Khoảng cách tăng gấp đôi thì cường độ giảm $4$ lần, không phải giảm $2$ lần như phương án A.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·de9c]]
+- **Không phân tích nhân tử trước:** nhân tử chung cho điểm khuyết, không phải tiệm cận.
+- **Tìm tiệm cận ngang bằng số hạng khác:** chỉ so sánh các số hạng bậc cao nhất.
+- **Chiều tịnh tiến:** $f(x-1)$ dời đồ thị sang phải.
+- **Thứ tự trong phép biến đổi:** với $f\big(b(x-h)\big)$, hệ số co giãn $\dfrac1b$ đi kèm với phép tịnh tiến $h$; hãy viết $f(2x-6)$ thành $f\big(2(x-3)\big)$.
+- **Dùng mô hình ngoài miền xác định:** mô hình chi phí trung bình chỉ có nghĩa với số lượng dương.
+:::
+
+  :::terms
+  - rational function | hàm phân thức
+  - hole (removable discontinuity) | điểm khuyết (gián đoạn bỏ được)
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  - slant asymptote | tiệm cận xiên
+  - dilation, translation, reflection | phép co giãn, phép tịnh tiến, phép đối xứng
+  - inversely proportional | tỉ lệ nghịch
+  - average cost | chi phí trung bình
+  - model | mô hình
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-rational-transformations – BẢN TIẾNG ANH ########
+---
+title: Rational functions, transformations and modelling
+description: AP Precalculus Unit 1, part 2: holes and vertical asymptotes, end behavior of rational functions, transformations, and choosing function models.
+minutes: 45
+---
+
+  :::goals
+  - Find the zeros, holes, vertical asymptotes and end behavior of a rational function.
+  - Describe behavior near a vertical asymptote with limit notation.
+  - Apply transformations to graphs, points and formulas.
+  - Build and use simple models, including inverse proportion, and choose a suitable function type for a situation.
+  :::
+
+[[P1·def8]]
+Rational functions are quotients of polynomials, and they model situations in which one quantity shrinks as another grows: average cost, concentration, light intensity. The AP Precalculus exam asks you to read their key features from the formula, to describe what happens near the "breaks" in the graph, and to explain in context what an asymptote means. This lesson also covers transformations of graphs and the choice of a model, two ideas that appear throughout Units 1 to 3.
+
+## Zeros, holes and vertical asymptotes
+
+[[P2·ad19]]
+For $r(x)=\dfrac{p(x)}{q(x)}$, first **factor** the numerator and the denominator.
+
+[[P3·b8f4]]
+- A factor that cancels gives a **hole** in the graph.
+- A zero of the denominator that does not cancel gives a **vertical asymptote**.
+- A zero of the numerator that does not cancel gives a **zero** of $r$.
+
+:::graph The graph of $r(x)=\dfrac{x^2-4}{x^2-x-2}$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading the features
+  Let $r(x)=\dfrac{x^2-4}{x^2-x-2}$. Which statement is true?
+  A. The graph has vertical asymptotes at $x=2$ and $x=-1$.
+  B. The graph has a hole at $x=2$ and a vertical asymptote at $x=-1$.
+  C. The graph has a zero at $x=2$.
+  D. The graph has no horizontal asymptote.
+
+  **Solution.** Factor the numerator and the denominator:
+  $$r(x)=\frac{(x-2)(x+2)}{(x-2)(x+1)}.$$
+
+  The factor $x-2$ cancels, so there is a hole at $x=2$; its $y$-value is $\dfrac{2+2}{2+1}=\dfrac43$. The factor $x+1$ remains in the denominator, so $x=-1$ is a vertical asymptote. The numerator and denominator have the same degree with leading coefficients $1$, so $y=1$ is a horizontal asymptote.
+
+  So statement B is true, answer **B**.
+  :::
+
+## End behavior of rational functions
+
+[[P4·8597]]
+Compare the degrees of the numerator and the denominator:
+
+| Degrees | End behavior |
+|---|---|
+| numerator $<$ denominator | horizontal asymptote $y=0$ |
+| numerator $=$ denominator | horizontal asymptote $y=\dfrac{\text{leading coefficient of }p}{\text{leading coefficient of }q}$ |
+| numerator $=$ denominator $+1$ | slant asymptote: a line found by division |
+| numerator $>$ denominator $+1$ | behaves like a polynomial of degree (difference of degrees) |
+
+[[P5·23fa]]
+Near a vertical asymptote $x=a$, the function grows without bound; we write, for example, $\displaystyle\lim_{x\to a^+}r(x)=\infty$.
+
+  :::example End behavior
+  Which rational function has the horizontal asymptote $y=\dfrac32$?
+  A. $\dfrac{3x+1}{2x^2-5}$
+  B. $\dfrac{3x^2+1}{2x-5}$
+  C. $\dfrac{3x^2-x}{2x^2+7}$
+  D. $\dfrac{2x^2}{3x^2+1}$
+
+  **Solution.** A horizontal asymptote other than $y=0$ needs equal degrees, which leaves options C and D. For C the ratio of leading coefficients is $\dfrac32$; for D it is $\dfrac23$. Option A has $y=0$, and option B has a slant asymptote.
+
+  So the function is $\dfrac{3x^2-x}{2x^2+7}$, answer **C**.
+  :::
+
+  :::example Near a vertical asymptote
+  For $r(x)=\dfrac{1}{x-3}$, which statement is true?
+  A. $\displaystyle\lim_{x\to3^+}r(x)=-\infty$
+  B. $\displaystyle\lim_{x\to3}r(x)=0$
+  C. $\displaystyle\lim_{x\to3^-}r(x)=\infty$
+  D. $\displaystyle\lim_{x\to3^+}r(x)=\infty$
+
+  **Solution.** When $x$ is slightly greater than $3$, $x-3$ is a small positive number, so $\dfrac{1}{x-3}$ is large and positive. When $x$ is slightly less than $3$, $x-3$ is small and negative, so $\dfrac{1}{x-3}$ is large and negative.
+
+  So $\displaystyle\lim_{x\to3^+}r(x)=\infty$, answer **D**.
+  :::
+
+## Transformations
+
+[[P6·6530]]
+$g(x)=a\,f\big(b(x-h)\big)+k$ transforms the graph of $f$: a horizontal dilation by factor $\dfrac1{|b|}$, a horizontal translation by $h$, a vertical dilation by factor $|a|$, a vertical translation by $k$, and reflections when $a$ or $b$ is negative. A point $(x_0,y_0)$ on $f$ with $b=1$ moves to $(x_0+h,\ ay_0+k)$.
+
+  :::example Following a point
+  The point $(2,5)$ lies on the graph of $f$. Which point must lie on the graph of $g(x)=-2f(x-1)+3$?
+  A. $(1,-7)$
+  B. $(3,13)$
+  C. $(3,-7)$
+  D. $(1,13)$
+
+  **Solution.** The input of $f$ must be $2$, so $x-1=2$ and $x=3$.
+
+  Then $g(3)=-2f(2)+3=-2(5)+3=-7$.
+
+  So the point $(3,-7)$ lies on the graph of $g$, answer **C**. Options A and D shift left instead of right.
+  :::
+
+## Building and choosing models
+
+[[P7·a61a]]
+Choose the type of function from the way the quantity behaves: constant rate of change, linear; constant second differences or a single turning point, quadratic; one quantity inversely proportional to another, rational. Then use given data to find the parameters.
+
+  :::example Inverse square law
+  The intensity $I$ of light from a lamp is inversely proportional to the square of the distance $d$: $I=\dfrac{k}{d^2}$. The intensity is $200$ units at a distance of $2$ m. What is the intensity at $4$ m?
+  A. $100$ units
+  B. $25$ units
+  C. $50$ units
+  D. $400$ units
+
+  **Solution.** From $200=\dfrac{k}{2^2}$, we get $k=800$, so $I=\dfrac{800}{d^2}$.
+
+  At $d=4$: $I=\dfrac{800}{16}=50$.
+
+  So the intensity at $4$ m is $50$ units, answer **C**. Doubling the distance divides the intensity by $4$, not by $2$ as in option A.
+  :::
+
+:::warning Common traps
+[[P8·97ea]]
+- **Not factoring first:** a common factor gives a hole, not an asymptote.
+- **Horizontal asymptote from the wrong terms:** compare only the leading terms.
+- **Direction of a shift:** $f(x-1)$ moves the graph right.
+- **Order inside a transformation:** for $f\big(b(x-h)\big)$ the dilation by $\dfrac1b$ comes with the shift $h$; rewrite $f(2x-6)$ as $f\big(2(x-3)\big)$.
+- **Models outside their domain:** an average-cost model makes sense only for positive quantities.
+:::
+
+  :::terms
+  - rational function | hàm phân thức
+  - hole (removable discontinuity) | điểm khuyết (gián đoạn bỏ được)
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  - slant asymptote | tiệm cận xiên
+  - dilation, translation, reflection | phép co giãn, phép tịnh tiến, phép đối xứng
+  - inversely proportional | tỉ lệ nghịch
+  - average cost | chi phí trung bình
+  - model | mô hình
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-sequences-exponentials – BẢN TIẾNG VIỆT ########
+---
+title: Dãy số và hàm mũ
+description: AP Precalculus Unit 2, phần 1: cấp số cộng và cấp số nhân, hàm mũ và các dạng viết của nó, lập mô hình từ hai điểm hoặc từ tình huống, và phần dư.
+minutes: 45
+---
+
+  :::goals
+  - Viết công thức của cấp số cộng, cấp số nhân và liên hệ chúng với hàm bậc nhất, hàm mũ.
+  - Mô tả hàm mũ: tăng trưởng hay suy giảm, tính lồi lõm và dáng điệu ở vô cực.
+  - Viết biểu thức mũ dưới các dạng tương đương, chẳng hạn để đổi đơn vị thời gian.
+  - Lập mô hình hàm mũ từ hai điểm hoặc từ một mô tả, và chọn giữa mô hình tuyến tính và mô hình hàm mũ.
+  - Dùng phần dư để đánh giá mô hình khớp với dữ liệu đến đâu.
+  :::
+
+[[P1·7361]]
+Unit 2 xoay quanh một sự đối lập: cộng thêm cùng một lượng sau mỗi bước (cấp số cộng, tuyến tính) và nhân với cùng một hệ số (cấp số nhân, hàm mũ). Khi đã phân biệt được hai loại và chuyển đổi được giữa các dạng viết của chúng, phần lớn câu hỏi Unit 2 trở nên quen thuộc. Bài này nói về dãy số và hàm mũ; bài sau nói về hàm ngược của chúng, tức logarit.
+
+## Cấp số cộng và cấp số nhân
+
+| | Cấp số cộng | Cấp số nhân |
+|---|---|---|
+| Quy luật | cộng $d$ sau mỗi bước | nhân $r$ sau mỗi bước |
+| Số hạng thứ $n$ | $a_n=a_1+(n-1)d$ | $g_n=g_1r^{n-1}$ |
+| Dạng hàm số | bậc nhất: $f(x)=b+mx$ | hàm mũ: $f(x)=ab^x$ |
+
+[[P2·8fc2]]
+Cấp số cộng là một hàm bậc nhất chỉ xét tại các đầu vào nguyên; cấp số nhân là một hàm mũ được hạn chế theo cùng cách.
+
+  :::example Một cấp số nhân
+  Ba số hạng đầu của một cấp số nhân là $5$, $15$, $45$. Số hạng thứ sáu là
+  A. $135$
+  B. $1215$
+  C. $405$
+  D. $3645$
+
+  **Lời giải.** Công bội là $r=\dfrac{15}{5}=3$, nên $g_n=5\cdot3^{n-1}$.
+
+  Số hạng thứ sáu là $g_6=5\cdot3^5=5\cdot243=1215$.
+
+  Vậy số hạng thứ sáu là $1215$, chọn đáp án **B**. Phương án D dùng $3^6$ thay vì $3^5$.
+  :::
+
+  :::example Cấp số cộng từ hai số hạng
+  Trong một cấp số cộng, $a_3=11$ và $a_9=29$. Tìm công thức của $a_n$ và giá trị của $a_{20}$.
+
+  **Lời giải.** Từ số hạng thứ ba đến số hạng thứ chín có $6$ bước, nên $6d=29-11=18$ và $d=3$.
+
+  Khi đó $a_1=a_3-2d=11-6=5$, và
+  $$a_n=5+3(n-1)=3n+2.$$
+
+  Vậy $a_n=3n+2$ và $a_{20}=3(20)+2=62$.
+  :::
+
+## Hàm mũ và các dạng viết của nó
+
+[[P3·ab3d]]
+Với $f(x)=ab^x$, $a>0$: nếu $b>1$ thì hàm số **tăng trưởng**, nếu $0<b<1$ thì hàm số **suy giảm**. Trong cả hai trường hợp, đồ thị lõm lên, có tiệm cận ngang $y=0$, và giá trị đầu ra được nhân với $b$ mỗi khi đầu vào tăng $1$. Các quy tắc luỹ thừa cho phép viết lại mô hình: $b^{x+k}=b^k\cdot b^x$, và $b^{x/k}=\left(b^{1/k}\right)^x$.
+
+  :::example Hai điểm xác định mô hình
+  Hàm mũ $f(x)=ab^x$ đi qua $(1,6)$ và $(3,24)$. $f(x)$ là
+  A. $f(x)=6\cdot2^x$
+  B. $f(x)=3\cdot4^x$
+  C. $f(x)=2\cdot3^x$
+  D. $f(x)=3\cdot2^x$
+
+  **Lời giải.** Chia hai phương trình $ab^3=24$ và $ab=6$ cho nhau, ta được $b^2=4$, nên $b=2$ (vì $b>0$).
+
+  Khi đó $a\cdot2=6$, nên $a=3$, và $f(x)=3\cdot2^x$. Kiểm tra: $f(3)=3\cdot8=24$.
+
+  Vậy $f(x)=3\cdot2^x$, chọn đáp án **D**.
+  :::
+
+  :::example Đổi đơn vị thời gian
+  Một quần thể được mô hình hoá bởi $P(t)=500(1{,}2)^t$, với $t$ tính bằng năm. Biểu thức nào cho cùng giá trị quần thể, $t$ vẫn tính bằng năm, nhưng thể hiện hệ số tăng trưởng hằng tháng?
+  A. $500\left(1{,}2^{1/12}\right)^{12t}$
+  B. $500\left(\dfrac{1{,}2}{12}\right)^{12t}$
+  C. $500(1{,}2)^{12t}$
+  D. $500\left(1{,}2^{12}\right)^{t/12}$
+
+  **Lời giải.** Trong một tháng, $t$ tăng $\dfrac{1}{12}$, nên quần thể được nhân với $1{,}2^{1/12}$. Viết $1{,}2^t=\left(1{,}2^{1/12}\right)^{12t}$ cho thấy hệ số này, xấp xỉ $1{,}0153$, tức tăng khoảng $1{,}53\%$ mỗi tháng.
+
+  Vậy biểu thức tương đương là $500\left(1{,}2^{1/12}\right)^{12t}$, chọn đáp án **A**. Phương án D cũng bằng $P(t)$, nhưng thể hiện hệ số cho $12$ năm.
+  :::
+
+## Tuyến tính hay hàm mũ, và phần dư
+
+[[P4·0f58]]
+Dùng mô hình tuyến tính khi đại lượng thay đổi **một lượng không đổi** trên mỗi đơn vị, và mô hình hàm mũ khi nó thay đổi **một tỉ lệ phần trăm không đổi**. Để kiểm tra mô hình với dữ liệu, hãy tính **phần dư (residual)**: phần dư $=$ giá trị thực tế $-$ giá trị dự đoán. Phần dư nhỏ và không có quy luật cho thấy mô hình khớp tốt.
+
+  :::example Đọc một phần dư
+  Một mô hình dự đoán cây sẽ cao $50{,}4$ cm sau $6$ tuần. Chiều cao thực tế là $52$ cm. Phần dư là bao nhiêu và có ý nghĩa gì?
+  A. $-1{,}6$; mô hình ước lượng cao hơn thực tế
+  B. $1{,}6$; mô hình ước lượng thấp hơn thực tế
+  C. $1{,}6$; mô hình ước lượng cao hơn thực tế
+  D. $102{,}4$; mô hình khớp tốt
+
+  **Lời giải.** Phần dư là
+  $$\text{thực tế}-\text{dự đoán}=52-50{,}4=1{,}6.$$
+
+  Phần dư dương nghĩa là giá trị thực tế lớn hơn giá trị dự đoán.
+
+  Vậy phần dư là $1{,}6$ cm và mô hình ước lượng thấp hơn thực tế, chọn đáp án **B**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·406a]]
+- **Số mũ $n-1$:** số hạng đầu tiên không có thừa số $r$.
+- **Lượng không đổi hay phần trăm không đổi:** "tăng $4\%$" là hàm mũ, "tăng $4$" là tuyến tính.
+- **Dạng tương đương:** kiểm tra bằng cách thay một giá trị của $t$ vào cả hai biểu thức.
+- **Dấu của phần dư:** lấy thực tế trừ dự đoán, không làm ngược lại.
+- **Suy giảm với $a>0$:** đồ thị đi xuống nhưng vẫn lõm lên.
+:::
+
+  :::terms
+  - arithmetic / geometric sequence | cấp số cộng / cấp số nhân
+  - common difference / ratio | công sai / công bội
+  - exponential growth / decay | tăng trưởng / suy giảm theo hàm mũ
+  - growth factor | hệ số tăng trưởng
+  - horizontal asymptote | tiệm cận ngang
+  - equivalent form | dạng tương đương
+  - residual | phần dư
+  - model | mô hình
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-sequences-exponentials – BẢN TIẾNG ANH ########
+---
+title: Sequences and exponential functions
+description: AP Precalculus Unit 2, part 1: arithmetic and geometric sequences, exponential functions and their forms, models from two points or a context, and residuals.
+minutes: 45
+---
+
+  :::goals
+  - Write formulas for arithmetic and geometric sequences and connect them to linear and exponential functions.
+  - Describe exponential functions: growth or decay, concavity and end behavior.
+  - Rewrite exponential expressions in equivalent forms, for example to change the time unit.
+  - Build an exponential model from two points or from a description, and decide between linear and exponential models.
+  - Use residuals to judge how well a model fits.
+  :::
+
+[[P1·1ce8]]
+Unit 2 is about a single contrast: adding the same amount at each step (arithmetic, linear) versus multiplying by the same factor (geometric, exponential). Once you can tell the two apart and switch between their forms, most Unit 2 questions become routine. This lesson covers sequences and exponential functions; the next one covers their inverses, the logarithms.
+
+## Arithmetic and geometric sequences
+
+| | Arithmetic | Geometric |
+|---|---|---|
+| Rule | add $d$ each step | multiply by $r$ each step |
+| $n$th term | $a_n=a_1+(n-1)d$ | $g_n=g_1r^{n-1}$ |
+| Function version | linear: $f(x)=b+mx$ | exponential: $f(x)=ab^x$ |
+
+[[P2·d02e]]
+An arithmetic sequence is a linear function restricted to whole-number inputs; a geometric sequence is an exponential function restricted in the same way.
+
+  :::example A geometric sequence
+  The first three terms of a geometric sequence are $5$, $15$, $45$. What is the sixth term?
+  A. $135$
+  B. $1215$
+  C. $405$
+  D. $3645$
+
+  **Solution.** The common ratio is $r=\dfrac{15}{5}=3$, so $g_n=5\cdot3^{n-1}$.
+
+  The sixth term is $g_6=5\cdot3^5=5\cdot243=1215$.
+
+  So the sixth term is $1215$, answer **B**. Option D uses $3^6$ instead of $3^5$.
+  :::
+
+  :::example An arithmetic sequence from two terms
+  In an arithmetic sequence, $a_3=11$ and $a_9=29$. Find a formula for $a_n$ and the value of $a_{20}$.
+
+  **Solution.** Between the third and the ninth term there are $6$ steps, so $6d=29-11=18$ and $d=3$.
+
+  Then $a_1=a_3-2d=11-6=5$, and
+  $$a_n=5+3(n-1)=3n+2.$$
+
+  So $a_n=3n+2$ and $a_{20}=3(20)+2=62$.
+  :::
+
+## Exponential functions and their forms
+
+[[P3·bde6]]
+For $f(x)=ab^x$ with $a>0$: if $b>1$ the function shows **growth**, if $0<b<1$ it shows **decay**. In both cases the graph is concave up, has the horizontal asymptote $y=0$, and the output is multiplied by $b$ whenever the input increases by $1$. Exponent rules let us rewrite a model: $b^{x+k}=b^k\cdot b^x$, and $b^{x/k}=\left(b^{1/k}\right)^x$.
+
+  :::example Two points determine the model
+  An exponential function $f(x)=ab^x$ passes through $(1,6)$ and $(3,24)$. Which is $f(x)$?
+  A. $f(x)=6\cdot2^x$
+  B. $f(x)=3\cdot4^x$
+  C. $f(x)=2\cdot3^x$
+  D. $f(x)=3\cdot2^x$
+
+  **Solution.** Dividing the two equations $ab^3=24$ and $ab=6$ gives $b^2=4$, so $b=2$ (since $b>0$).
+
+  Then $a\cdot2=6$, so $a=3$, and $f(x)=3\cdot2^x$. Check: $f(3)=3\cdot8=24$.
+
+  So $f(x)=3\cdot2^x$, answer **D**.
+  :::
+
+  :::example Changing the time unit
+  A population is modeled by $P(t)=500(1.2)^t$, where $t$ is in years. Which expression gives the same population with $t$ still in years, but shows the monthly growth factor?
+  A. $500\left(1.2^{1/12}\right)^{12t}$
+  B. $500\left(\dfrac{1.2}{12}\right)^{12t}$
+  C. $500(1.2)^{12t}$
+  D. $500\left(1.2^{12}\right)^{t/12}$
+
+  **Solution.** In one month, $t$ increases by $\dfrac{1}{12}$, so the population is multiplied by $1.2^{1/12}$. Writing $1.2^t=\left(1.2^{1/12}\right)^{12t}$ shows this factor, which is about $1.0153$, a growth of about $1.53\%$ per month.
+
+  So the equivalent expression is $500\left(1.2^{1/12}\right)^{12t}$, answer **A**. Option D is equal to $P(t)$ too, but it shows the factor for $12$ years.
+  :::
+
+## Linear or exponential, and residuals
+
+[[P4·d050]]
+Use a linear model when a quantity changes by a **constant amount** per unit, and an exponential model when it changes by a **constant percentage**. To check a model against data, compute **residuals**: residual $=$ actual value $-$ predicted value. Residuals that are small and show no pattern suggest a good fit.
+
+  :::example Reading a residual
+  A model predicts that a plant will be $50.4$ cm tall after $6$ weeks. The actual height is $52$ cm. What is the residual, and what does it mean?
+  A. $-1.6$; the model overestimates
+  B. $1.6$; the model underestimates
+  C. $1.6$; the model overestimates
+  D. $102.4$; the model fits well
+
+  **Solution.** The residual is
+  $$\text{actual}-\text{predicted}=52-50.4=1.6.$$
+
+  A positive residual means the actual value is greater than the prediction.
+
+  So the residual is $1.6$ cm and the model underestimates the height, answer **B**.
+  :::
+
+:::warning Common traps
+[[P5·831f]]
+- **The exponent $n-1$:** the first term has no factor $r$.
+- **Constant amount or constant percentage:** "increases by $4\%$" is exponential, "increases by $4$" is linear.
+- **Equivalent forms:** check by substituting a value of $t$ into both expressions.
+- **Sign of a residual:** actual minus predicted, not the other way.
+- **Decay with $a>0$:** the graph is decreasing but still concave up.
+:::
+
+  :::terms
+  - arithmetic / geometric sequence | cấp số cộng / cấp số nhân
+  - common difference / ratio | công sai / công bội
+  - exponential growth / decay | tăng trưởng / suy giảm theo hàm mũ
+  - growth factor | hệ số tăng trưởng
+  - horizontal asymptote | tiệm cận ngang
+  - equivalent form | dạng tương đương
+  - residual | phần dư
+  - model | mô hình
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-trig-equations-polar – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình lượng giác và toạ độ cực
+description: AP Precalculus Unit 3, phần 2: hàm lượng giác ngược, giải phương trình và bất phương trình lượng giác, đồng nhất thức, toạ độ cực và đồ thị cực.
+minutes: 50
+---
+
+  :::goals
+  - Tính giá trị hàm lượng giác ngược và nắm tập giá trị bị hạn chế của chúng.
+  - Giải phương trình và bất phương trình lượng giác trên một khoảng cho trước, tìm đủ mọi nghiệm.
+  - Dùng đồng nhất thức Pythagore, công thức cộng và công thức nhân đôi để biến đổi biểu thức và giải phương trình.
+  - Chuyển đổi giữa toạ độ cực và toạ độ vuông góc.
+  - Đọc đồ thị cực $r=f(\theta)$: khi nào $r$ tăng hay giảm, và điều đó cho biết gì về khoảng cách đến gốc toạ độ.
+  :::
+
+[[P1·2be4]]
+Nửa sau của Unit 3 biến các hàm tuần hoàn của bài trước thành công cụ: hàm ngược để "gỡ" chúng, đồng nhất thức để biến đổi, và phương trình để giải. Bài kết thúc với toạ độ cực, nơi một hàm số mô tả khoảng cách đến gốc toạ độ khi góc quay. Câu tự luận FRQ 4 (Symbolic Manipulations) thường dùng các đồng nhất thức và phương trình trong bài này.
+
+## Hàm lượng giác ngược
+
+[[P2·8380]]
+Một hàm tuần hoàn không phải là hàm một-một, nên để định nghĩa hàm ngược ta hạn chế tập xác định:
+
+| Hàm số | Đầu vào | Đầu ra (tập giá trị) |
+|---|---|---|
+| $\arcsin x=\sin^{-1}x$ | $-1\le x\le1$ | $-\dfrac\pi2\le y\le\dfrac\pi2$ |
+| $\arccos x=\cos^{-1}x$ | $-1\le x\le1$ | $0\le y\le\pi$ |
+| $\arctan x=\tan^{-1}x$ | mọi số thực $x$ | $-\dfrac\pi2<y<\dfrac\pi2$ |
+
+[[P3·66b7]]
+Máy tính chỉ trả về đúng một giá trị này; các nghiệm khác của phương trình suy ra từ tính đối xứng và tính tuần hoàn. Các hàm nghịch đảo là $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ và $\cot x=\dfrac{1}{\tan x}$.
+
+  :::example Giá trị hàm ngược
+  Giá trị của $\arccos\left(-\dfrac12\right)$ là
+  A. $-\dfrac\pi3$
+  B. $\dfrac{4\pi}{3}$
+  C. $\dfrac{\pi}{3}$
+  D. $\dfrac{2\pi}{3}$
+
+  **Lời giải.** Ta cần góc thuộc $[0;\pi]$ có cos bằng $-\dfrac12$.
+
+  Vì $\cos\dfrac\pi3=\dfrac12$ và cos âm ở góc phần tư II, góc cần tìm là $\pi-\dfrac\pi3=\dfrac{2\pi}{3}$.
+
+  Vậy $\arccos\left(-\dfrac12\right)=\dfrac{2\pi}{3}$, chọn đáp án **D**. Phương án B cũng có cos bằng $-\dfrac12$ nhưng nằm ngoài tập giá trị $[0;\pi]$.
+  :::
+
+## Giải phương trình lượng giác
+
+[[P4·cfe4]]
+1. Cô lập hàm lượng giác, hoặc phân tích thành nhân tử; một phương trình bậc hai theo $\sin x$ hay $\cos x$ phân tích như mọi phương trình bậc hai.
+2. Tìm góc tham chiếu, rồi mọi góc trong khoảng đang xét có dấu phù hợp.
+3. Nếu biểu thức trong hàm là $bx$, giải theo $bx$ trên khoảng đã giãn trước.
+
+[[P5·7fd4]]
+Với **bất phương trình**, giải phương trình tương ứng rồi xét dấu trên các khoảng giữa các nghiệm, hoặc đọc từ đồ thị hay đường tròn lượng giác.
+
+  :::example Phương trình bậc hai theo cos
+  Phương trình $2\cos^2x-\cos x-1=0$ có bao nhiêu nghiệm trên $[0;2\pi)$?
+  A. $2$
+  B. $3$
+  C. $4$
+  D. $1$
+
+  **Lời giải.** Coi phương trình là phương trình bậc hai theo $\cos x$ và phân tích: $(2\cos x+1)(\cos x-1)=0$.
+
+  Do đó $\cos x=-\dfrac12$, cho $x=\dfrac{2\pi}{3}$ hoặc $x=\dfrac{4\pi}{3}$; hoặc $\cos x=1$, cho $x=0$.
+
+  Vậy phương trình có $3$ nghiệm $0$, $\dfrac{2\pi}{3}$ và $\dfrac{4\pi}{3}$, chọn đáp án **B**.
+  :::
+
+## Đồng nhất thức
+
+| Đồng nhất thức | Công thức |
+|---|---|
+| Pythagore | $\sin^2x+\cos^2x=1$, $\ 1+\tan^2x=\sec^2x$ |
+| Công thức cộng | $\sin(a+b)=\sin a\cos b+\cos a\sin b$ |
+| | $\cos(a+b)=\cos a\cos b-\sin a\sin b$ |
+| Nhân đôi | $\sin2x=2\sin x\cos x$, $\ \cos2x=\cos^2x-\sin^2x=2\cos^2x-1$ |
+
+  :::example Dùng công thức nhân đôi
+  Giải phương trình $\sin2x=\sin x$ trên $[0;2\pi)$.
+
+  **Lời giải.** Dùng $\sin2x=2\sin x\cos x$, phương trình trở thành $2\sin x\cos x-\sin x=0$, tức $\sin x\,(2\cos x-1)=0$.
+
+  Nếu $\sin x=0$ thì $x=0$ hoặc $x=\pi$. Nếu $\cos x=\dfrac12$ thì $x=\dfrac\pi3$ hoặc $x=\dfrac{5\pi}{3}$.
+
+  Không được chia hai vế cho $\sin x$: làm vậy sẽ mất hai nghiệm $0$ và $\pi$.
+
+  Vậy phương trình có các nghiệm $x=0$, $\dfrac\pi3$, $\pi$ và $\dfrac{5\pi}{3}$.
+  :::
+
+## Toạ độ cực và đồ thị cực
+
+[[P6·408f]]
+Điểm có toạ độ cực $(r,\theta)$ có toạ độ vuông góc
+  $$x=r\cos\theta,\qquad y=r\sin\theta,$$
+[[P7·f2da]]
+và ngược lại $r^2=x^2+y^2$, $\tan\theta=\dfrac yx$, với $\theta$ chọn ở đúng góc phần tư.
+
+[[P8·71e3]]
+Đồ thị $r=f(\theta)$ cho biết khoảng cách đến gốc toạ độ thay đổi thế nào khi góc quay. Khi $r>0$ và $r$ tăng, các điểm đi **ra xa** gốc toạ độ; khi $r>0$ và $r$ giảm, chúng đi **lại gần** gốc. Tốc độ biến thiên trung bình của $r$ trên $[\alpha;\beta]$ là $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$.
+
+:::graph Đồ thị cực $r=2+2\cos\theta$
+   (… 67 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Chuyển đổi toạ độ
+  Điểm có toạ độ cực $\left(4,\dfrac{5\pi}{6}\right)$ có toạ độ vuông góc là
+  A. $\left(-2\sqrt3,2\right)$
+  B. $\left(2,-2\sqrt3\right)$
+  C. $\left(2\sqrt3,-2\right)$
+  D. $\left(-2,2\sqrt3\right)$
+
+  **Lời giải.** Theo công thức chuyển đổi, $x=4\cos\dfrac{5\pi}{6}=4\cdot\left(-\dfrac{\sqrt3}{2}\right)=-2\sqrt3$ và $y=4\sin\dfrac{5\pi}{6}=4\cdot\dfrac12=2$.
+
+  Vậy điểm đó là $\left(-2\sqrt3,2\right)$, chọn đáp án **A**. Phương án D ứng với góc $\dfrac{2\pi}3$.
+  :::
+
+  :::example Đọc đồ thị cực
+  Với $r=2+2\cos\theta$, khẳng định nào mô tả đúng các điểm trên đồ thị khi $0<\theta<\dfrac\pi2$?
+  A. $r$ tăng, nên các điểm đi ra xa gốc toạ độ.
+  B. $r$ âm, nên các điểm nằm ở góc phần tư III.
+  C. $r$ dương và giảm, nên các điểm đi lại gần gốc toạ độ.
+  D. $r$ không đổi, nên các điểm nằm trên một đường tròn.
+
+  **Lời giải.** Trên $\left(0;\dfrac\pi2\right)$, $\cos\theta$ giảm từ $1$ xuống $0$, nên $r$ giảm từ $4$ xuống $2$ và luôn dương.
+
+  $r$ dương và giảm nghĩa là khoảng cách đến gốc toạ độ đang nhỏ dần. Tốc độ biến thiên trung bình trên $\left[0;\dfrac\pi2\right]$ là $\dfrac{2-4}{\pi/2}=-\dfrac4\pi$.
+
+  Vậy các điểm đi lại gần gốc toạ độ, chọn đáp án **C**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P9·7528]]
+- **Thiếu nghiệm:** máy tính chỉ cho một góc; tìm đủ mọi nghiệm trong khoảng nhờ tính đối xứng.
+- **Chia cho một hàm lượng giác:** hãy phân tích thành nhân tử, nếu không sẽ mất nghiệm.
+- **Biểu thức đã giãn:** với $\sin3x=\dfrac12$ trên $[0;2\pi)$, giải theo $3x$ trên $[0;6\pi)$ trước: có sáu nghiệm, không phải hai.
+- **Tập giá trị hàm ngược:** $\arccos$ cho giá trị trong $[0;\pi]$, $\arcsin$ trong $\left[-\dfrac\pi2;\dfrac\pi2\right]$.
+- **Góc phần tư trong toạ độ cực:** chỉ dùng $\tan\theta=\dfrac yx$ thì không phân biệt được $(1,1)$ với $(-1,-1)$.
+:::
+
+  :::terms
+  - inverse trigonometric function | hàm lượng giác ngược
+  - restricted domain | tập xác định bị hạn chế
+  - identity | đồng nhất thức
+  - double-angle formula | công thức nhân đôi
+  - secant / cosecant / cotangent | sec / cosec / cot
+  - polar coordinates | toạ độ cực
+  - polar graph | đồ thị trong toạ độ cực
+  - distance from the origin | khoảng cách đến gốc toạ độ
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-precalculus/apprecalc-trig-equations-polar – BẢN TIẾNG ANH ########
+---
+title: Trigonometric equations and polar functions
+description: AP Precalculus Unit 3, part 2: inverse trig functions, solving trig equations and inequalities, identities, and polar coordinates and graphs.
+minutes: 50
+---
+
+  :::goals
+  - Evaluate inverse trigonometric functions and know their restricted ranges.
+  - Solve trigonometric equations and inequalities on a given interval, finding every solution.
+  - Use the Pythagorean, sum and double-angle identities to rewrite expressions and solve equations.
+  - Convert between polar and rectangular coordinates.
+  - Read a polar graph $r=f(\theta)$: where $r$ increases or decreases, and what that means for the distance from the origin.
+  :::
+
+[[P1·4d4d]]
+The second half of Unit 3 turns the periodic functions of the previous lesson into tools: inverse functions to undo them, identities to rewrite them, and equations to solve with them. It ends with polar coordinates, where a function describes distance from the origin as the angle turns. FRQ 4 (Symbolic Manipulations) often draws on the identities and equations here.
+
+## Inverse trigonometric functions
+
+[[P2·e3cc]]
+A periodic function is not one-to-one, so to define an inverse we restrict the domain:
+
+| Function | Input | Output (range) |
+|---|---|---|
+| $\arcsin x=\sin^{-1}x$ | $-1\le x\le1$ | $-\dfrac\pi2\le y\le\dfrac\pi2$ |
+| $\arccos x=\cos^{-1}x$ | $-1\le x\le1$ | $0\le y\le\pi$ |
+| $\arctan x=\tan^{-1}x$ | all real $x$ | $-\dfrac\pi2<y<\dfrac\pi2$ |
+
+[[P3·62ca]]
+The calculator returns only this one value; the other solutions of an equation come from symmetry and periodicity. The reciprocal functions are $\sec x=\dfrac{1}{\cos x}$, $\csc x=\dfrac{1}{\sin x}$ and $\cot x=\dfrac{1}{\tan x}$.
+
+  :::example Inverse values
+  The value of $\arccos\left(-\dfrac12\right)$ is
+  A. $-\dfrac\pi3$
+  B. $\dfrac{4\pi}{3}$
+  C. $\dfrac{\pi}{3}$
+  D. $\dfrac{2\pi}{3}$
+
+  **Solution.** We need the angle in $[0,\pi]$ whose cosine is $-\dfrac12$.
+
+  Since $\cos\dfrac\pi3=\dfrac12$ and cosine is negative in quadrant II, the angle is $\pi-\dfrac\pi3=\dfrac{2\pi}{3}$.
+
+  So $\arccos\left(-\dfrac12\right)=\dfrac{2\pi}{3}$, answer **D**. Option B also has cosine $-\dfrac12$, but it is outside the range $[0,\pi]$.
+  :::
+
+## Solving trigonometric equations
+
+[[P4·813a]]
+1. Isolate the trigonometric function, or factor; a quadratic in $\sin x$ or $\cos x$ factors like any quadratic.
+2. Find the reference angle, then every angle in the interval with the right sign.
+3. If the argument is $bx$, solve for $bx$ over the stretched interval first.
+
+[[P5·b3ff]]
+For an **inequality**, solve the matching equation and test the intervals between solutions, or read them from the graph or unit circle.
+
+  :::example A quadratic in cosine
+  How many solutions does $2\cos^2x-\cos x-1=0$ have on $[0,2\pi)$?
+  A. $2$
+  B. $3$
+  C. $4$
+  D. $1$
+
+  **Solution.** Treat the equation as a quadratic in $\cos x$ and factor: $(2\cos x+1)(\cos x-1)=0$.
+
+  Hence $\cos x=-\dfrac12$, giving $x=\dfrac{2\pi}{3}$ or $x=\dfrac{4\pi}{3}$, or $\cos x=1$, giving $x=0$.
+
+  So there are $3$ solutions, $0$, $\dfrac{2\pi}{3}$ and $\dfrac{4\pi}{3}$, answer **B**.
+  :::
+
+## Identities
+
+| Identity | Formula |
+|---|---|
+| Pythagorean | $\sin^2x+\cos^2x=1$, $\ 1+\tan^2x=\sec^2x$ |
+| Sum | $\sin(a+b)=\sin a\cos b+\cos a\sin b$ |
+| | $\cos(a+b)=\cos a\cos b-\sin a\sin b$ |
+| Double angle | $\sin2x=2\sin x\cos x$, $\ \cos2x=\cos^2x-\sin^2x=2\cos^2x-1$ |
+
+  :::example Using a double-angle identity
+  Solve $\sin2x=\sin x$ on $[0,2\pi)$.
+
+  **Solution.** Using $\sin2x=2\sin x\cos x$, the equation becomes $2\sin x\cos x-\sin x=0$, that is $\sin x\,(2\cos x-1)=0$.
+
+  If $\sin x=0$, then $x=0$ or $x=\pi$. If $\cos x=\dfrac12$, then $x=\dfrac\pi3$ or $x=\dfrac{5\pi}{3}$.
+
+  Do not divide both sides by $\sin x$: that would lose the solutions $0$ and $\pi$.
+
+  So the solutions are $x=0$, $\dfrac\pi3$, $\pi$ and $\dfrac{5\pi}{3}$.
+  :::
+
+## Polar coordinates and polar graphs
+
+[[P6·b8ff]]
+A point with polar coordinates $(r,\theta)$ has rectangular coordinates
+  $$x=r\cos\theta,\qquad y=r\sin\theta,$$
+[[P7·6d97]]
+and conversely $r^2=x^2+y^2$ and $\tan\theta=\dfrac yx$, with $\theta$ chosen in the correct quadrant.
+
+[[P8·78d5]]
+The graph of $r=f(\theta)$ shows how the distance from the origin changes as the angle turns. When $r>0$ and $r$ is increasing, the points move **away** from the origin; when $r>0$ and $r$ is decreasing, they move **toward** it. The average rate of change of $r$ on $[\alpha,\beta]$ is $\dfrac{f(\beta)-f(\alpha)}{\beta-\alpha}$.
+
+:::graph The polar graph $r=2+2\cos\theta$
+   (… 67 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Converting coordinates
+  The point with polar coordinates $\left(4,\dfrac{5\pi}{6}\right)$ has rectangular coordinates
+  A. $\left(-2\sqrt3,2\right)$
+  B. $\left(2,-2\sqrt3\right)$
+  C. $\left(2\sqrt3,-2\right)$
+  D. $\left(-2,2\sqrt3\right)$
+
+  **Solution.** By the conversion formulas, $x=4\cos\dfrac{5\pi}{6}=4\cdot\left(-\dfrac{\sqrt3}{2}\right)=-2\sqrt3$ and $y=4\sin\dfrac{5\pi}{6}=4\cdot\dfrac12=2$.
+
+  So the point is $\left(-2\sqrt3,2\right)$, answer **A**. Option D uses the angle $\dfrac{2\pi}3$ instead.
+  :::
+
+  :::example Reading a polar graph
+  For $r=2+2\cos\theta$, which statement describes the points on the graph for $0<\theta<\dfrac\pi2$?
+  A. $r$ is increasing, so the points move away from the origin.
+  B. $r$ is negative, so the points are in quadrant III.
+  C. $r$ is decreasing and positive, so the points move toward the origin.
+  D. $r$ is constant, so the points lie on a circle.
+
+  **Solution.** On $\left(0,\dfrac\pi2\right)$, $\cos\theta$ decreases from $1$ to $0$, so $r$ decreases from $4$ to $2$ and stays positive.
+
+  A positive, decreasing $r$ means the distance from the origin is shrinking. The average rate of change on $\left[0,\dfrac\pi2\right]$ is $\dfrac{2-4}{\pi/2}=-\dfrac4\pi$.
+
+  So the points move toward the origin, answer **C**.
+  :::
+
+:::warning Common traps
+[[P9·813a]]
+- **Missing solutions:** the calculator gives one angle; find every solution in the interval by symmetry.
+- **Dividing by a trigonometric function:** factor instead, or solutions disappear.
+- **Stretched arguments:** for $\sin3x=\dfrac12$ on $[0,2\pi)$, solve for $3x$ on $[0,6\pi)$ first: six solutions, not two.
+- **Inverse ranges:** $\arccos$ gives values in $[0,\pi]$, $\arcsin$ in $\left[-\dfrac\pi2,\dfrac\pi2\right]$.
+- **Polar quadrant:** $\tan\theta=\dfrac yx$ alone cannot tell $(1,1)$ from $(-1,-1)$.
+:::
+
+  :::terms
+  - inverse trigonometric function | hàm lượng giác ngược
+  - restricted domain | tập xác định bị hạn chế
+  - identity | đồng nhất thức
+  - double-angle formula | công thức nhân đôi
+  - secant / cosecant / cotangent | sec / cosec / cot
+  - polar coordinates | toạ độ cực
+  - polar graph | đồ thị trong toạ độ cực
+  - distance from the origin | khoảng cách đến gốc toạ độ
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Applied exercises
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,972 @@
+######################################################################
+TÀI KHOẢN: Vinax.vn   |   FILE: Vinax.vn-02-MD   |   VIỆC: gắn mức độ nhận thức (MD-17)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax.vn-02-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-17 – gắn mức độ nhận thức cho 112 câu hỏi (Lớp 11 → Lớp 12)
+
+Tài khoản thực hiện: Vinax.vn
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-17 (112 câu)
+
+## Các câu hỏi
+
+### M346 · Lớp 11 · Đạo hàm cấp hai
+
+[M346.1] Nhiều lựa chọn
+Cho $y=x^4-2x^2$. Giá trị $y''(1)$ bằng
+A. $10$.
+B. $12$.
+C. $4$.
+D. $8$.
+::key D
+$y'=4x^3-4x$ và $y''=12x^2-4$ nên $y''(1)=8$. Phương án B bỏ số hạng $-4$, còn C và A tính sai hệ số.
+
+[M346.2] Nhiều lựa chọn
+Đạo hàm cấp hai của hàm số $y=e^{3x}$ là
+A. $9e^{3x}$.
+B. $3e^{3x}$.
+C. $6e^{3x}$.
+D. $e^{3x}$.
+::key A
+$y'=3e^{3x}$ và $y''=9e^{3x}$. Phương án B là $y'$, C cộng $3+3$ thay vì nhân, D quên hệ số.
+
+[M346.3] Nhiều lựa chọn
+Một chất điểm có $s(t)=t^3-6t^2+2t$ mét sau $t$ giây. Gia tốc tại $t=3$ bằng
+A. $-7$ m/s$^2$.
+B. $6$ m/s$^2$.
+C. $12$ m/s$^2$.
+D. $18$ m/s$^2$.
+::key B
+$v=3t^2-12t+2$ và $a=6t-12$ nên $a(3)=6$. Phương án A là $v(3)=-7$, D là $6t$ ở $t=3$ quên $-12$, C tính sai.
+
+[M346.4] Nhiều lựa chọn
+Cho $y=x^3-3x^2$. Tập các $x$ để $y''>0$ là
+A. $x<1$.
+B. $x>0$.
+C. $x>1$.
+D. $x>2$.
+::key C
+$y''=6x-6>0\Leftrightarrow x>1$. Phương án A đảo chiều, B và D dùng nghiệm của $y'$ hoặc $y$.
+
+[M346.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một quả bóng ném thẳng đứng có độ cao $s(t)=20t-5t^2$ mét sau $t$ giây. Xét tính đúng sai của các mệnh đề sau:
+a) Vận tốc là $v(t)=20-10t$.
+b) Gia tốc của bóng bằng $-10$ m/s$^2$ tại mọi thời điểm.
+c) Bóng lên cao nhất tại $t=1$.
+d) Độ cao lớn nhất của bóng là $20$ mét.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $a=v'=-10$. c) Sai: $v=0$ khi $t=2$. d) Đúng: $s(2)=40-20=20$.
+
+[M346.6] Trả lời ngắn
+Giả sử $s(t)=2t^3-9t^2+12t$ mét sau $t$ giây. Tính vận tốc (m/s) tại thời điểm gia tốc bằng $0$.
+::key -1,5
+$v=6t^2-18t+12$, $a=12t-18=0$ khi $t=1{,}5$. Khi đó $v=13{,}5-27+12=-1{,}5$.
+
+[M346.7] Trả lời ngắn
+Tính $y''(2)$ với $y=\dfrac1x$.
+::key 0,25
+$y'=-\dfrac1{x^2}$ và $y''=\dfrac{2}{x^3}$ nên $y''(2)=\dfrac28=0{,}25$.
+
+### M347 · Lớp 11 · Hai đường thẳng vuông góc
+
+[M347.1] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AC$ và $A'D'$ bằng
+A. $90^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $30^\circ$.
+::key B
+$A'D'\parallel AD$ nên góc cần tìm là $\widehat{CAD}=45^\circ$ (đường chéo hình vuông). Phương án A lấy góc giữa $AB$ và $AD$, C nhầm với tam giác đều.
+
+[M347.2] Nhiều lựa chọn
+Mệnh đề nào sau đây đúng?
+A. Hai đường thẳng vuông góc thì phải cắt nhau.
+B. Hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song.
+C. Nếu $a\parallel b$ và $c\perp a$ thì $c\perp b$.
+D. Góc giữa hai đường thẳng có thể bằng $120^\circ$.
+::key C
+Đây là tính chất vuông góc và song song. B và A sai trong không gian (ví dụ $AB$, $AD$ và $AB$, $B'C'$); D sai vì góc giữa hai đường thẳng không vượt quá $90^\circ$.
+
+[M347.3] Nhiều lựa chọn
+Cho tứ diện đều $ABCD$ cạnh $a$. Góc giữa hai đường thẳng $AB$ và $CD$ bằng
+A. $30^\circ$.
+B. $45^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
+::key D
+Hai cạnh đối của tứ diện đều vuông góc với nhau (như ví dụ trên). Phương án C nhầm với góc của tam giác đều.
+
+[M347.4] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\perp AB$, $SA\perp AD$ và $SA=a$. Góc giữa $SB$ và $CD$ bằng
+A. $45^\circ$.
+B. $60^\circ$.
+C. $90^\circ$.
+D. $30^\circ$.
+::key A
+$CD\parallel AB$ nên góc cần tìm là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=1$, suy ra $45^\circ$. Phương án C là góc giữa $SA$ và $CD$.
+
+[M347.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Xét tính đúng sai của các mệnh đề sau:
+a) Góc giữa $AB$ và $A'D'$ bằng $0^\circ$.
+b) $AA'\perp BC$.
+c) $AC\perp B'D'$.
+d) Góc giữa $AC$ và $A'C'$ bằng $90^\circ$.
+::key S Đ S S
+a) Sai: $A'D'\parallel AD$ nên góc giữa $AB$ và $A'D'$ là $90^\circ$. b) Đúng: $BC\parallel AD$ và $AA'\perp AD$. c) Sai: $\cos\widehat{(AC, BD)}=\dfrac{7}{25}$ nên hai đường không vuông góc (hình chữ nhật không phải hình vuông). d) Sai: $A'C'\parallel AC$ nên góc bằng $0^\circ$.
+
+[M347.6] Trả lời ngắn
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Tính góc giữa $AC$ và $B'D'$ (đơn vị độ, làm tròn đến hàng phần mười).
+::key 73,7
+$B'D'\parallel BD$ và $OA=OB=2{,}5$ nên $\cos\widehat{AOB}=\dfrac{2\cdot6{,}25-9}{2\cdot6{,}25}=0{,}28$, suy ra $\widehat{AOB}\approx73{,}7^\circ$ (góc nhọn).
+
+[M347.7] Trả lời ngắn
+Cho tứ diện đều $ABCD$ cạnh $a$, $M$ là trung điểm $BC$. Tính côsin của góc giữa $AB$ và $DM$ (làm tròn kết quả đến hàng phần trăm).
+::key 0,29
+Gọi $N$ là trung điểm $AC$ thì $MN\parallel AB$ và $MN=\dfrac a2$, còn $DM=DN=\dfrac{a\sqrt3}{2}$. Trong tam giác $DMN$ cân tại $D$: $\cos\widehat{DMN}=\dfrac{MN}{2DM}=\dfrac{\sqrt3}{6}\approx0{,}29$.
+
+### M348 · Lớp 11 · Đường thẳng vuông góc với mặt phẳng
+
+[M348.1] Nhiều lựa chọn
+Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi
+A. $d$ vuông góc với một đường thẳng nằm trong $(P)$.
+B. $d$ vuông góc với hai đường thẳng cắt nhau nằm trong $(P)$.
+C. $d$ vuông góc với hai đường thẳng song song nằm trong $(P)$.
+D. $d$ cắt $(P)$ tại một điểm.
+::key B
+Đó là điều kiện vuông góc với mặt phẳng. Phương án A và C thiếu một phương, D chỉ nói về việc cắt.
+
+[M348.2] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Đường thẳng $BD$ vuông góc với mặt phẳng nào sau đây?
+A. $(A'B'C'D')$.
+B. $(ABB'A')$.
+C. $(ACC'A')$.
+D. $(BCC'B')$.
+::key C
+$BD\perp AC$ và $BD\perp AA'$. Phương án B và D chứa $BD$ không vuông góc, A song song với $(ABCD)$ nên $BD$ không vuông góc.
+
+[M348.3] Nhiều lựa chọn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và $OA=OB=OC=a$. Gọi $M$ là trung điểm $BC$. Độ dài $AM$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $\dfrac{a\sqrt3}{2}$.
+C. $a$.
+D. $\dfrac{a\sqrt6}{2}$.
+::key D
+$OA\perp(OBC)$ nên $AM^2=OA^2+OM^2=a^2+\dfrac{a^2}{2}=\dfrac{3a^2}{2}$. Phương án A là $OM$, B nhầm với tam giác đều, C bỏ $OM$.
+
+[M348.4] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(ABCD)$. Đường thẳng nào sau đây vuông góc với $(SAB)$?
+A. $BC$.
+B. $CD$.
+C. $BD$.
+D. $AC$.
+::key A
+$BC\perp AB$ và $BC\perp SA$. Phương án B song song với $AB$, C và D không vuông góc với $AB$ hoặc $SA$.
+
+[M348.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\perp(ABCD)$. Xét tính đúng sai của các mệnh đề sau:
+a) $AC\perp(SBD)$.
+b) $BD\perp(SAC)$.
+c) $AD\perp(SCD)$.
+d) $BC\perp(SAB)$.
+::key S Đ S Đ
+a) Sai: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$. b) Đúng: $BD\perp AC$ và $BD\perp SA$. c) Sai: $AD$ không vuông góc với $SD$. d) Đúng: $BC\perp AB$ và $BC\perp SA$.
+
+[M348.6] Trả lời ngắn
+Giả sử một mái chóp là hình chóp $S.ABCD$ có đáy là hình vuông cạnh $8$ m và các cạnh bên đều bằng $7$ m. Tính chiều cao của mái (làm tròn đến hàng phần mười của mét).
+::key 4,1
+Chân đường cao là tâm $O$ của đáy nên $OA^2=32$, $SO^2=49-32=17$ và $SO\approx4{,}1$.
+
+[M348.7] Trả lời ngắn
+Giả sử một căn phòng hình hộp chữ nhật có sàn $5$ m $\times4$ m và cao $2{,}5$ m. Tính khoảng cách từ góc trần đến góc sàn đối diện qua đường chéo (làm tròn đến hàng phần mười của mét).
+::key 6,9
+Đường chéo là $\sqrt{25+16+6{,}25}=\sqrt{47{,}25}\approx6{,}9$.
+
+### M349 · Lớp 11 · Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng
+
+[M349.1] Nhiều lựa chọn
+Hình chiếu vuông góc của điểm $M$ lên mặt phẳng $(P)$ là
+A. điểm bất kì của $(P)$.
+B. giao điểm của $(P)$ với đường thẳng qua $M$ song song với $(P)$.
+C. giao điểm của $(P)$ với đường thẳng qua $M$ vuông góc với $(P)$.
+D. trung điểm của một đoạn thẳng trong $(P)$.
+::key C
+Đó là định nghĩa hình chiếu vuông góc. Các phương án còn lại không xác định một điểm duy nhất theo định nghĩa.
+
+[M349.2] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có $SA\perp(ABCD)$. Góc giữa $SD$ và $(ABCD)$ là
+A. $\widehat{ASD}$.
+B. $\widehat{SAD}$.
+C. $\widehat{SDC}$.
+D. $\widehat{SDA}$.
+::key D
+Hình chiếu của $SD$ lên đáy là $AD$ nên góc cần tìm là $\widehat{SDA}$. Phương án B là góc vuông, C và A không là góc với hình chiếu.
+
+[M349.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa $BD'$ và $(ABCD)$ có $\tan$ bằng
+A. $\dfrac1{\sqrt2}$.
+B. $\sqrt2$.
+C. $1$.
+D. $\dfrac{1}{\sqrt3}$.
+::key A
+Hình chiếu của $BD'$ là $BD=a\sqrt2$ và $DD'=a$, nên $\tan=\dfrac{a}{a\sqrt2}=\dfrac1{\sqrt2}$. Phương án C tương ứng góc $45^\circ$, B là nghịch đảo, D là giá trị khác.
+
+[M349.4] Nhiều lựa chọn
+Một dây neo dài $10$ m nối đỉnh cột thẳng đứng cao $6$ m với điểm trên mặt đất phẳng. Góc giữa dây và mặt đất có $\sin$ bằng
+A. $0{,}8$.
+B. $0{,}6$.
+C. $0{,}75$.
+D. $1{,}67$.
+::key B
+$\sin=\dfrac{\text{chiều cao}}{\text{dây}}=\dfrac6{10}=0{,}6$. Phương án A là $\cos$, C là $\tan$, D là tỉ số lớn hơn $1$ nên không phải $\sin$.
+
+[M349.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $d$ và mặt phẳng $(P)$. Xét tính đúng sai của các mệnh đề sau:
+a) Nếu $d\perp(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
+b) Nếu $d\parallel(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
+c) Góc giữa $d$ và $(P)$ luôn không vượt quá $90^\circ$.
+d) Góc giữa $d$ và $(P)$ là góc giữa $d$ và một đường thẳng bất kì của $(P)$.
+::key Đ S Đ S
+a) Đúng theo định nghĩa. b) Sai: góc bằng $0^\circ$. c) Đúng: góc thuộc đoạn từ $0^\circ$ đến $90^\circ$. d) Sai: phải dùng hình chiếu của $d$ lên $(P)$.
+
+[M349.6] Trả lời ngắn
+Giả sử một chiếc thang dài $6$ m dựa vào tường thẳng đứng, chân thang cách tường $3$ m. Tính góc giữa thang và mặt đất theo đơn vị độ.
+::key 60
+$\cos\varphi=\dfrac36=0{,}5$ nên $\varphi=60^\circ$.
+
+[M349.7] Trả lời ngắn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4$. Tính $\tan$ của góc giữa $SC$ và $(ABCD)$, làm tròn đến hàng phần trăm.
+::key 0,71
+$AC=4\sqrt2$ nên $\tan=\dfrac4{4\sqrt2}=\dfrac1{\sqrt2}\approx0{,}71$.
+
+### M350 · Lớp 11 · Hai mặt phẳng vuông góc
+
+[M350.1] Nhiều lựa chọn
+Hai mặt phẳng cắt nhau có một góc nhị diện với góc phẳng $120^\circ$. Góc giữa hai mặt phẳng đó bằng
+A. $120^\circ$.
+B. $30^\circ$.
+C. $60^\circ$.
+D. $90^\circ$.
+::key C
+Góc giữa hai mặt phẳng không vượt quá $90^\circ$ nên lấy $180^\circ-120^\circ=60^\circ$. Phương án A quên đổi góc tù.
+
+[M350.2] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Mặt phẳng nào sau đây **không** vuông góc với $(ABCD)$?
+A. $(ABB'A')$.
+B. $(BCC'B')$.
+C. $(BDD'B')$.
+D. $(A'BCD')$.
+::key D
+Các mặt phẳng ở A, B, C đều chứa một cạnh bên vuông góc với $(ABCD)$. Mặt phẳng $(A'BCD')$ tạo với $(ABCD)$ góc $45^\circ$.
+
+[M350.3] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông và $SA\perp(ABCD)$. Mặt phẳng nào sau đây vuông góc với $(SAC)$?
+A. $(SBD)$.
+B. $(SAD)$.
+C. $(SAB)$.
+D. $(SBC)$.
+::key A
+$BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$, suy ra $(SBD)\perp(SAC)$. Các mặt phẳng còn lại đều đi qua $SA$ và không vuông góc với $(SAC)$.
+
+[M350.4] Nhiều lựa chọn
+Hình chóp tứ giác đều có cạnh đáy $6$ và chiều cao $4$. Tang của góc giữa mặt bên và mặt đáy bằng
+A. $\dfrac34$.
+B. $\dfrac43$.
+C. $\dfrac{2\sqrt2}{3}$.
+D. $\dfrac23$.
+::key B
+Góc phẳng là $\widehat{SMO}$ với $OM=3$, $SO=4$ nên $\tan=\dfrac{SO}{OM}=\dfrac43$. Phương án A đảo tỉ số, C dùng $OB=3\sqrt2$ thay cho $OM$, D dùng cả cạnh đáy $6$.
+
+[M350.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $4$ và chiều cao $SO=2\sqrt3$ ($O$ là tâm đáy, $M$ là trung điểm $BC$).
+a) $(SAC)\perp(ABCD)$.
+b) $(SAC)\perp(SBD)$.
+c) Góc giữa $(SBC)$ và $(ABCD)$ bằng $30^\circ$.
+d) $SM=4$.
+::key Đ Đ S Đ
+a) Đúng: $(SAC)$ chứa $SO\perp(ABCD)$. b) Đúng: $BD\perp AC$ và $BD\perp SO$ nên $BD\perp(SAC)$. c) Sai: $\tan\widehat{SMO}=\dfrac{2\sqrt3}{2}=\sqrt3$ nên góc là $60^\circ$. d) Đúng: $SM=\sqrt{12+4}=4$.
+
+[M350.6] Trả lời ngắn
+Cho hình lập phương $ABCD.A'B'C'D'$. Tính số đo (độ) của góc giữa $(A'BD)$ và $(ABCD)$, làm tròn đến hàng phần mười.
+::key 54,7
+Gọi $O$ là tâm $ABCD$, góc phẳng là $\widehat{A'OA}$ với $\tan=\dfrac{AA'}{AO}=\dfrac{a}{a\sqrt2/2}=\sqrt2$, nên góc xấp xỉ $54{,}7^\circ$.
+
+[M350.7] Trả lời ngắn
+Hình chóp $S.ABCD$ có đáy là hình chữ nhật $AB=4$, $BC=3$, tam giác $SAB$ đều và $(SAB)\perp(ABCD)$. Tính độ dài $SC$.
+::key 5
+Gọi $H$ là trung điểm $AB$ thì $SH\perp(ABCD)$ và $SH=2\sqrt3$, $HC=\sqrt{4+9}=\sqrt{13}$. Vậy $SC=\sqrt{12+13}=5$.
+
+### M351 · Lớp 11 · Khoảng cách trong không gian
+
+[M351.1] Nhiều lựa chọn
+Khoảng cách từ điểm $M$ đến mặt phẳng $(P)$ bằng
+A. độ dài $MN$ với $N$ là điểm bất kì của $(P)$.
+B. độ dài lớn nhất của đoạn nối $M$ với một điểm của $(P)$.
+C. độ dài $MH$ với $H$ là hình chiếu vuông góc của $M$ lên $(P)$.
+D. độ dài đoạn nối $M$ với một điểm của $(P)$ trong cùng một mặt phẳng.
+::key C
+Đó là định nghĩa, và $MH$ là độ dài ngắn nhất. Phương án A và D phụ thuộc vào điểm chọn, B sai vì không có độ dài lớn nhất.
+
+[M351.2] Nhiều lựa chọn
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a$. Khoảng cách từ $A$ đến $(SBC)$ bằng
+A. $a$.
+B. $\dfrac{a\sqrt3}{3}$.
+C. $a\sqrt2$.
+D. $\dfrac{a\sqrt2}{2}$.
+::key D
+$AH=\dfrac{SA\cdot AB}{SB}=\dfrac{a^2}{a\sqrt2}=\dfrac{a\sqrt2}{2}$. Phương án A là $SA$, B là khoảng cách của một tứ diện vuông khác, C là đường chéo đáy.
+
+[M351.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Khoảng cách giữa $AA'$ và mặt phẳng $(BDD'B')$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $a$.
+C. $\dfrac{a}{2}$.
+D. $a\sqrt2$.
+::key A
+$d(AA',(BDD'B'))=d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$. Phương án B là cạnh, C là nửa cạnh, D là đường chéo mặt.
+
+[M351.4] Nhiều lựa chọn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và bằng $a$. Khoảng cách từ $O$ đến $(ABC)$ bằng
+A. $\dfrac{a\sqrt2}{2}$.
+B. $\dfrac{a\sqrt3}{3}$.
+C. $\dfrac{a}{2}$.
+D. $a$.
+::key B
+$\dfrac1{OH^2}=\dfrac3{a^2}$ nên $OH=\dfrac{a}{\sqrt3}=\dfrac{a\sqrt3}{3}$. Phương án A là $OM$, C và D không thoả hệ thức.
+
+[M351.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Khoảng cách từ điểm $M$ đến đường thẳng $\Delta$ là độ dài đoạn vuông góc hạ từ $M$ xuống $\Delta$.
+b) Nếu $(P)\parallel(Q)$ thì mọi điểm của $(P)$ cách $(Q)$ một khoảng như nhau.
+c) Nếu $\Delta\parallel(P)$ thì $d(\Delta,(P))=0$.
+d) Khoảng cách giữa hai đường chéo nhau $a$, $b$ là khoảng cách giữa $a$ và mặt phẳng chứa $b$ song song với $a$.
+::key Đ Đ S Đ
+a) Đúng theo định nghĩa. b) Đúng theo định lí. c) Sai: $\Delta$ không có điểm chung với $(P)$ nên khoảng cách lớn hơn $0$. d) Đúng theo định nghĩa.
+
+[M351.6] Trả lời ngắn
+Giả sử một căn phòng hình hộp chữ nhật có sàn $8$ m $\times6$ m và cao $3$ m. Một ống chạy thẳng đứng dọc một góc phòng và một sợi cáp căng theo đường chéo của sàn không đi qua góc đó. Tính khoảng cách ngắn nhất giữa ống và cáp theo mét.
+::key 4,8
+Khoảng cách bằng đường cao ứng với cạnh huyền của tam giác vuông có hai cạnh góc vuông $8$ và $6$: $\dfrac{8\cdot6}{10}=4{,}8$.
+
+[M351.7] Trả lời ngắn
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và đều bằng $6$. Tính khoảng cách từ $O$ đến $(ABC)$, làm tròn đến hàng phần mười.
+::key 3,5
+$d=\dfrac{6}{\sqrt3}=2\sqrt3\approx3{,}5$.
+
+### M352 · Lớp 11 · Thể tích
+
+[M352.1] Nhiều lựa chọn
+Thể tích của khối lăng trụ có diện tích đáy $B$ và chiều cao $h$ là
+A. $\dfrac13Bh$.
+B. $Bh$.
+C. $\dfrac12Bh$.
+D. $B+h$.
+::key B
+Đó là công thức khối lăng trụ. Phương án A là khối chóp, C và D không phải công thức thể tích.
+
+[M352.2] Nhiều lựa chọn
+Một khối hộp chữ nhật có ba kích thước $7$, $3$, $2$. Thể tích của nó là
+A. $12$.
+B. $21$.
+C. $42$.
+D. $84$.
+::key C
+$V=7\cdot3\cdot2=42$. Phương án A là tổng, B bỏ một kích thước, D nhân thừa.
+
+[M352.3] Nhiều lựa chọn
+Một khối chóp có diện tích đáy bằng $12$ và chiều cao bằng $5$. Thể tích của nó là
+A. $60$.
+B. $30$.
+C. $17$.
+D. $20$.
+::key D
+$V=\dfrac13\cdot12\cdot5=20$. Phương án A thiếu hệ số $\dfrac13$, B là một nửa, C là tổng.
+
+[M352.4] Nhiều lựa chọn
+Một khối lăng trụ đứng có đáy là tam giác đều cạnh $4$ và chiều cao $5$. Thể tích của nó là
+A. $20\sqrt3$.
+B. $10\sqrt3$.
+C. $20$.
+D. $40\sqrt3$.
+::key A
+$B=\dfrac{\sqrt3}{4}\cdot16=4\sqrt3$ và $V=4\sqrt3\cdot5=20\sqrt3$. Phương án C bỏ qua diện tích đáy, B và D sai hệ số.
+
+[M352.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Thể tích khối lập phương cạnh $a$ là $a^3$.
+b) Thể tích khối chóp là $Bh$.
+c) Thể tích khối chóp bằng một phần ba thể tích khối lăng trụ có cùng đáy và cùng chiều cao.
+d) $1$ m$^3$ bằng $100$ lít.
+::key Đ S Đ S
+a) Đúng. b) Sai: phải có hệ số $\dfrac13$. c) Đúng. d) Sai: $1$ m$^3=1000$ lít.
+
+[M352.6] Trả lời ngắn
+Một khối lập phương có cạnh $2{,}5$. Tính thể tích, làm tròn đến hàng phần mười.
+::key 15,6
+$V=2{,}5^3=15{,}625\approx15{,}6$.
+
+[M352.7] Trả lời ngắn
+Giả sử một thùng chứa có dạng khối chóp cụt đều, đáy dưới là hình vuông cạnh $2$ m, đáy trên là hình vuông cạnh $1$ m và cao $0{,}9$ m. Tính thể tích theo mét khối.
+::key 2,1
+$V=\dfrac13\cdot0{,}9\cdot(4+2+1)=0{,}3\cdot7=2{,}1$.
+
+### M353 · Lớp 11 · Biến cố hợp, biến cố giao, biến cố độc lập
+
+[M353.1] Nhiều lựa chọn
+Biến cố $A\cup B$ xảy ra khi
+A. ít nhất một trong hai biến cố $A$, $B$ xảy ra.
+B. $A$ xảy ra mà $B$ không xảy ra.
+C. cả $A$ và $B$ cùng xảy ra.
+D. không biến cố nào xảy ra.
+::key A
+Đó là định nghĩa biến cố hợp. Phương án C là biến cố giao, B và D là các biến cố khác.
+
+[M353.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chẵn" và $B$: "số chấm không nhỏ hơn $4$". Xác suất $P(A\cap B)$ bằng
+A. $\dfrac12$.
+B. $\dfrac13$.
+C. $\dfrac16$.
+D. $\dfrac23$.
+::key B
+$A\cap B=\{4,6\}$ nên $P=\dfrac26=\dfrac13$. Phương án D là $P(A\cup B)$, A là $P(A)$, C chỉ đếm một kết quả.
+
+[M353.3] Nhiều lựa chọn
+Rút một lá từ bộ bài tây $52$ lá. Gọi $A$: "lá cơ" và $B$: "lá K". Xác suất $P(A\cup B)$ bằng
+A. $\dfrac1{52}$.
+B. $\dfrac{17}{52}$.
+C. $\dfrac4{13}$.
+D. $\dfrac1{13}$.
+::key C
+$n(A\cup B)=13+4-1=16$ nên $P=\dfrac{16}{52}=\dfrac4{13}$. Phương án B quên trừ phần chung, A là $P(AB)$, D là $P(B)$.
+
+[M353.4] Nhiều lựa chọn
+Hai biến cố $A$, $B$ độc lập khi và chỉ khi
+A. $A\cap B=\varnothing$.
+B. $P(AB)=0$.
+C. $P(A\cup B)=P(A)+P(B)$.
+D. $P(AB)=P(A)\,P(B)$.
+::key D
+Đó là điều kiện độc lập. Phương án A và B nói về biến cố xung khắc, C chỉ đúng khi xung khắc.
+
+[M353.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Biến cố giao $A\cap B$ xảy ra khi cả $A$ và $B$ cùng xảy ra.
+b) $A$ và biến cố đối $\overline A$ luôn xung khắc.
+c) Hai biến cố xung khắc có xác suất dương thì luôn độc lập.
+d) Nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ cũng độc lập.
+::key Đ Đ S Đ
+a) Đúng theo định nghĩa. b) Đúng vì $A$ và $\overline A$ không thể cùng xảy ra. c) Sai: khi đó $P(AB)=0\neq P(A)P(B)$. d) Đúng theo tính chất.
+
+[M353.6] Trả lời ngắn
+Hai biến cố độc lập $A$, $B$ có $P(A)=0{,}6$ và $P(B)=0{,}5$. Tính $P(AB)$.
+::key 0,3
+$P(AB)=0{,}6\cdot0{,}5=0{,}3$.
+
+[M353.7] Trả lời ngắn
+Giả sử trong một khảo sát $50$ người, có $30$ người dùng ứng dụng X, $24$ người dùng ứng dụng Y và $14$ người dùng cả hai. Chọn ngẫu nhiên một người. Tính xác suất người đó dùng ít nhất một ứng dụng.
+::key 0,8
+$30+24-14=40$ người, xác suất $\dfrac{40}{50}=0{,}8$.
+
+### M354 · Lớp 11 · Công thức cộng xác suất
+
+[M354.1] Nhiều lựa chọn
+Với hai biến cố $A$, $B$ bất kì, $P(A\cup B)$ bằng
+A. $P(A)+P(B)-P(AB)$.
+B. $P(A)+P(B)$.
+C. $P(A)\,P(B)$.
+D. $P(A)-P(B)$.
+::key A
+Đó là công thức cộng xác suất. Phương án B chỉ đúng khi xung khắc, C chỉ liên quan đến độc lập.
+
+[M354.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Xác suất số chấm là số nguyên tố hoặc là số chẵn bằng
+A. $\dfrac12$.
+B. $\dfrac56$.
+C. $\dfrac23$.
+D. $1$.
+::key B
+Hợp là $\{2,3,4,5,6\}$ nên $P=\dfrac56$. Phương án A là xác suất số chẵn, C và D không khớp với phép đếm.
+
+[M354.3] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối hai lần. Xác suất ít nhất một lần ra $6$ chấm bằng
+A. $\dfrac13$.
+B. $\dfrac{25}{36}$.
+C. $\dfrac{11}{36}$.
+D. $\dfrac16$.
+::key C
+$1-\left(\dfrac56\right)^2=\dfrac{11}{36}$. Phương án A là tổng sai, B là xác suất không ra $6$ lần nào, D là một lần.
+
+[M354.4] Nhiều lựa chọn
+Giả sử hai xạ thủ bắn độc lập với xác suất trúng lần lượt là $0{,}6$ và $0{,}5$. Xác suất có ít nhất một người bắn trúng bằng
+A. $1{,}1$.
+B. $0{,}3$.
+C. $0{,}2$.
+D. $0{,}8$.
+::key D
+$1-0{,}4\cdot0{,}5=0{,}8$. Phương án A là tổng vượt $1$, B là xác suất cả hai trúng, C là xác suất cả hai trượt.
+
+[M354.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $P(A\cup B)=P(A)+P(B)$ với mọi biến cố $A$, $B$.
+b) Nếu $A$, $B$ độc lập thì $P(A\cup B)=P(A)\,P(B)$.
+c) $P(\overline A)=1-P(A)$.
+d) $P(A\cup B)\ge P(B)$.
+::key S S Đ Đ
+a) Sai: phải trừ $P(AB)$. b) Sai: khi độc lập $P(AB)=P(A)P(B)$ nhưng $P(A\cup B)=P(A)+P(B)-P(A)P(B)$. c) Đúng. d) Đúng vì $B\subset A\cup B$.
+
+[M354.6] Trả lời ngắn
+Cho $P(A)=0{,}3$, $P(B)=0{,}45$ và $P(AB)=0{,}1$. Tính $P(A\cup B)$.
+::key 0,65
+$0{,}3+0{,}45-0{,}1=0{,}65$.
+
+[M354.7] Trả lời ngắn
+Tung một đồng xu cân đối bốn lần. Tính xác suất có ít nhất một lần ngửa, làm tròn đến hàng phần trăm.
+::key 0,94
+$1-\left(\dfrac12\right)^4=\dfrac{15}{16}=0{,}9375\approx0{,}94$.
+
+### M355 · Lớp 11 · Công thức nhân xác suất cho hai biến cố độc lập
+
+[M355.1] Nhiều lựa chọn
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}7$ và $P(B)=0{,}4$. Giá trị $P(A\cap B)$ là
+A. $0{,}28$.
+B. $0{,}42$.
+C. $0{,}7$.
+D. $1{,}1$.
+::key A
+Do $A$, $B$ độc lập, $P(A\cap B)=0{,}7\cdot0{,}4=0{,}28$. Phương án B dùng xác suất của $\overline B$, còn D cộng hai xác suất.
+
+[M355.2] Nhiều lựa chọn
+Hai cảm biến hoạt động độc lập với xác suất hoạt động tốt lần lượt là $0{,}98$ và $0{,}95$. Xác suất cả hai cùng hoạt động tốt là
+A. $0{,}069$.
+B. $0{,}931$.
+C. $0{,}001$.
+D. $0{,}965$.
+::key B
+Xác suất cả hai cùng tốt là $0{,}98\cdot0{,}95=0{,}931$. Phương án A là xác suất có ít nhất một cảm biến lỗi, còn C là xác suất cả hai cùng lỗi.
+
+[M355.3] Nhiều lựa chọn
+Biết $P(A)=0{,}5$ và $P(B)=0{,}6$. Nếu $A$, $B$ độc lập thì $P(A\cap B)$ bằng
+A. $0{,}1$.
+B. $0{,}5$.
+C. $0{,}3$.
+D. $0{,}6$.
+::key C
+Tiêu chí độc lập cho $P(A\cap B)=P(A)P(C)=0{,}5\cdot0{,}6=0{,}3$.
+
+[M355.4] Nhiều lựa chọn
+Hai lần thử độc lập có xác suất thành công lần lượt là $0{,}8$ và $0{,}6$. Xác suất có ít nhất một lần thành công là
+A. $0{,}48$.
+B. $0{,}44$.
+C. $0{,}08$.
+D. $0{,}92$.
+::key D
+Xác suất cả hai lần đều thất bại là $0{,}2\cdot0{,}4=0{,}08$, nên xác suất cần tìm là $1-0{,}08=0{,}92$. Phương án A là xác suất cả hai cùng thành công, B là xác suất đúng một lần thành công.
+
+[M355.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}6$ và $P(B)=0{,}25$.
+a) $P(A\cap B)=0{,}15$.
+b) $P(\overline A\cap B)=0{,}4$.
+c) $P(A\cup B)=0{,}7$.
+d) $A$ và $B$ xung khắc.
+::key Đ S Đ S
+a) Đúng vì $0{,}6\cdot0{,}25=0{,}15$. b) Sai vì $P(\overline A\cap B)=0{,}4\cdot0{,}25=0{,}1$. c) Đúng vì $0{,}6+0{,}25-0{,}15=0{,}7$. d) Sai vì $P(A\cap B)>0$.
+
+[M355.6] Trả lời ngắn
+Hai máy hoạt động độc lập. Xác suất máy thứ nhất không hỏng là $0{,}98$, máy thứ hai không hỏng là $0{,}97$. Xác suất cả hai máy không hỏng là bao nhiêu phần trăm? Làm tròn đến hàng phần mười.
+::key 95,1
+Xác suất cả hai máy không hỏng là $0{,}98\cdot0{,}97=0{,}9506=95{,}06\%$, làm tròn được $95{,}1\%$.
+
+[M355.7] Trả lời ngắn
+Hai lần thử độc lập có cùng xác suất thành công là $p$. Biết xác suất cả hai lần đều thất bại là $0{,}09$. Tìm $p$.
+::key 0,7
+Ta có $(1-p)^2=0{,}09$ và $1-p\ge0$, nên $1-p=0{,}3$ và $p=0{,}7$.
+
+### M356 · Lớp 12 · Tính đơn điệu và cực trị của hàm số
+
+[M356.1] Nhiều lựa chọn
+Hàm số $y=x^3-3x^2+2$ nghịch biến trên khoảng nào dưới đây?
+A. $(-\infty; 0)$.
+B. $(2; +\infty)$.
+C. $(0; 2)$.
+D. $(-2; 0)$.
+::key C
+Ta có $y'=3x^2-6x=3x(x-2)$. Vì $a=3>0$ nên $y'<0$ giữa hai nghiệm $0$ và $2$. Phương án D sai do giải nhầm $y'=0$ thành $x=0$, $x=-2$.
+
+[M356.2] Nhiều lựa chọn
+Điểm cực đại của hàm số $y=-x^3+3x+1$ là
+A. $x=-1$.
+B. $x=1$.
+C. $x=3$.
+D. $x=0$.
+::key B
+Ta có $y'=-3(x-1)(x+1)$ đổi dấu từ $+$ sang $-$ khi $x$ đi qua $x=1$ nên $x=1$ là điểm cực đại. Phương án C là giá trị cực đại $y(1)=3$, không phải điểm cực đại; $x=0$ là nghiệm của $y''$.
+
+[M356.3] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có đạo hàm cấp hai trên $\mathbb{R}$, thoả mãn $f'(2)=0$ và $f''(2)=-3$. Khẳng định nào dưới đây đúng?
+A. Hàm số đạt cực tiểu tại $x=2$.
+B. Hàm số đạt cực đại tại $x=-3$.
+C. Hàm số không có cực trị tại $x=2$.
+D. Hàm số đạt cực đại tại $x=2$.
+::key D
+Vì $f'(2)=0$ và $f''(2)<0$ nên $x=2$ là điểm cực đại (dấu hiệu dùng đạo hàm cấp hai). Số $-3$ là giá trị của $f''(2)$, không phải một điểm.
+
+[M356.4] Nhiều lựa chọn
+Hàm số nào dưới đây đồng biến trên $\mathbb{R}$?
+A. $y=x^3+3x-1$.
+B. $y=x^3-3x$.
+C. $y=\dfrac{2x+1}{x+3}$.
+D. $y=x^4+2x^2$.
+::key A
+Hàm số A có $y'=3x^2+3>0$ với mọi $x$ nên đồng biến trên $\mathbb{R}$. Hàm số C không xác định tại $x=-3$ nên chỉ đồng biến trên từng khoảng $(-\infty; -3)$ và $(-3; +\infty)$; hàm số D có $y'=4x(x^2+1)$ âm khi $x<0$.
+
+[M356.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=2x^3-3x^2-12x+1$. Xét tính đúng sai của các mệnh đề sau:
+a) $f'(x)=6x^2-6x-12$.
+b) Hàm số đồng biến trên khoảng $(-1; 2)$.
+c) Giá trị cực đại của hàm số bằng $8$.
+d) Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số có hệ số góc bằng $9$.
+::key Đ S Đ S
+a) Đúng: đạo hàm từng hạng tử, ta được kết quả trên. b) Sai: ta có $f'(x)=6(x+1)(x-2)<0$ trên $(-1; 2)$ nên hàm số nghịch biến trên khoảng này. c) Đúng: vì $f'$ đổi dấu từ $+$ sang $-$ tại $x=-1$ nên giá trị cực đại là $f(-1)=8$. d) Sai: hai điểm cực trị là $(-1; 8)$ và $(2; -19)$, do đó hệ số góc là $\dfrac{-19-8}{2-(-1)}=-9$.
+
+[M356.6] Trả lời ngắn
+Tính tổng giá trị cực đại và giá trị cực tiểu của hàm số $y=-x^4+8x^2-3$.
+::key 10
+Ta có $y'=-4x(x-2)(x+2)$. Hàm số đạt cực đại tại $x=\pm2$ với $y_{\text{CĐ}}=13$ và đạt cực tiểu tại $x=0$ với $y_{\text{CT}}=-3$. Vậy tổng cần tìm là $13+(-3)=10$ (giá trị cực đại chỉ tính một lần).
+
+[M356.7] Trả lời ngắn
+Mực nước trong một hồ chứa sau $t$ giờ được mô hình bởi $h(t)=t^3-15t^2+60t+100$ (cm), $0\le t\le 12$. Hỏi mực nước giảm trong khoảng thời gian dài bao nhiêu giờ (làm tròn kết quả đến hàng phần mười)?
+::key 4,5
+Ta có $h'(t)=3(t^2-10t+20)<0$ khi $5-\sqrt5<t<5+\sqrt5$, và khoảng này nằm trong $[0; 12]$. Do đó mực nước giảm trong khoảng thời gian dài $2\sqrt5\approx 4{,}47$ giờ. Vậy kết quả làm tròn là $4{,}5$ giờ.
+
+### M357 · Lớp 12 · Giá trị lớn nhất và giá trị nhỏ nhất của hàm số
+
+[M357.1] Nhiều lựa chọn
+Giá trị lớn nhất của hàm số $f(x)=x^3-12x+1$ trên đoạn $[-1; 3]$ bằng
+A. $17$.
+B. $-15$.
+C. $-8$.
+D. $12$.
+::key D
+Ta có $f'(x)=3x^2-12=0\iff x=\pm2$, trong đó chỉ có $x=2\in(-1; 3)$. Ta có $f(-1)=12$, $f(2)=-15$, $f(3)=-8$ nên giá trị lớn nhất là $12$. Phương án A là $f(-2)=17$, giá trị tại nghiệm nằm ngoài đoạn.
+
+[M357.2] Nhiều lựa chọn
+Giá trị nhỏ nhất của hàm số $y=\dfrac{2x-1}{x+1}$ trên đoạn $[0; 2]$ bằng
+A. $-1$.
+B. $1$.
+C. $2$.
+D. $0$.
+::key A
+Ta có $y'=\dfrac{3}{(x+1)^2}>0$ nên hàm số đồng biến trên $[0; 2]$. Do đó giá trị nhỏ nhất là $y(0)=-1$. Phương án B là giá trị lớn nhất $y(2)$; số $2$ chỉ là giới hạn khi $x\to+\infty$.
+
+[M357.3] Nhiều lựa chọn
+Giá trị nhỏ nhất của hàm số $y=x+\dfrac{4}{x-1}$ trên khoảng $(1; +\infty)$ bằng
+A. $4$.
+B. $3$.
+C. $5$.
+D. $-3$.
+::key C
+Ta có $y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (loại $x=-1$). Vì $y'$ đổi dấu từ $-$ sang $+$ tại $x=3$ nên giá trị nhỏ nhất là $y(3)=5$. Phương án B là điểm $x=3$, phương án A quên số hạng $+1$ khi viết $y=(x-1)+\dfrac{4}{x-1}+1$, phương án D là $y(-1)$.
+
+[M357.4] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2; 4]$ và có $f'(x)>0$ với mọi $x\in(-2; 4)$. Khẳng định nào dưới đây đúng?
+A. $\max\limits_{[-2; 4]} f(x)=f(-2)$.
+B. $\max\limits_{[-2; 4]} f(x)=f(4)$.
+C. $\min\limits_{[-2; 4]} f(x)=f(4)$.
+D. Hàm số không có giá trị lớn nhất trên $[-2; 4]$.
+::key B
+Vì hàm số đồng biến trên $[-2; 4]$ nên giá trị lớn nhất đạt tại đầu mút phải $x=4$. Phương án D sai vì hàm số liên tục trên một đoạn luôn có giá trị lớn nhất.
+
+[M357.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^4-8x^2+3$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
+a) Phương trình $f'(x)=0$ có ba nghiệm thuộc đoạn $[-1; 3]$.
+b) $f(2)=-13$.
+c) Giá trị lớn nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $3$.
+d) Tổng giá trị lớn nhất và giá trị nhỏ nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $-1$.
+::key S Đ S Đ
+a) Sai: ta có $f'(x)=4x(x^2-4)$ có các nghiệm $0$, $2$, $-2$ nhưng $-2\notin[-1; 3]$. b) Đúng: thay vào, ta được $16-32+3=-13$. c) Sai: ta có $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$ nên giá trị lớn nhất là $12$ (tại đầu mút). d) Đúng: tổng cần tìm là $12+(-13)=-1$.
+
+[M357.6] Trả lời ngắn
+Một xưởng sản xuất $x$ tấn hàng mỗi tháng ($0\le x\le 20$) với lợi nhuận $P(x)=-x^3+18x^2+135x$ (triệu đồng). Hỏi lợi nhuận lớn nhất mỗi tháng của xưởng bằng bao nhiêu triệu đồng?
+::key 2700
+Ta có $P'(x)=-3(x-15)(x+3)=0\iff x=15$ (loại $x=-3$). Ta có $P(0)=0$, $P(15)=2700$, $P(20)=1900$. Vậy lợi nhuận lớn nhất là $2700$ triệu đồng.
+
+[M357.7] Trả lời ngắn
+Tìm giá trị lớn nhất của hàm số $y=\sqrt{x}\,(6-x)$ trên đoạn $[0; 6]$ (làm tròn kết quả đến hàng phần mười).
+::key 5,7
+Ta có $y=6\sqrt x-x\sqrt x$, suy ra $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. Ta có $y(0)=y(6)=0$ và $y(2)=4\sqrt2\approx5{,}66$. Vậy giá trị lớn nhất làm tròn đến hàng phần mười là $5{,}7$.
+
+### M358 · Lớp 12 · Đường tiệm cận của đồ thị hàm số
+
+[M358.1] Nhiều lựa chọn
+Tiệm cận đứng của đồ thị hàm số $y=\dfrac{3x-1}{x-2}$ là đường thẳng
+A. $x=-2$.
+B. $x=2$.
+C. $y=3$.
+D. $x=\dfrac13$.
+::key B
+Mẫu bằng $0$ tại $x=2$, tử tại đó bằng $5\neq0$ nên $\lim\limits_{x\to2^+}y=+\infty$. Do đó tiệm cận đứng là $x=2$. Phương án C là tiệm cận ngang, phương án D là nghiệm của tử.
+
+[M358.2] Nhiều lựa chọn
+Tiệm cận ngang của đồ thị hàm số $y=\dfrac{1+6x}{3-2x}$ là đường thẳng
+A. $x=\dfrac32$.
+B. $y=3$.
+C. $y=\dfrac13$.
+D. $y=-3$.
+::key D
+Ta có $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Phương án B quên dấu của hệ số $-2$, phương án C lấy tỉ số hai hệ số tự do.
+
+[M358.3] Nhiều lựa chọn
+Tiệm cận xiên của đồ thị hàm số $y=\dfrac{x^2+3x-2}{x+1}$ là đường thẳng
+A. $y=x+2$.
+B. $y=x+3$.
+C. $y=x-2$.
+D. $y=x$.
+::key A
+Ta có $x^2+3x-2=(x+1)(x+2)-4$ nên $y=x+2-\dfrac{4}{x+1}$ và $y-(x+2)\to0$ khi $x\to\pm\infty$.
+
+[M358.4] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ có $\lim\limits_{x\to+\infty}f(x)=2$ và $\lim\limits_{x\to-\infty}f(x)=-2$. Khẳng định nào dưới đây đúng?
+A. Đồ thị hàm số có đúng một tiệm cận ngang.
+B. Đồ thị hàm số có hai tiệm cận đứng là $x=2$ và $x=-2$.
+C. Đồ thị hàm số có hai tiệm cận ngang là $y=2$ và $y=-2$.
+D. Đồ thị hàm số không có tiệm cận ngang.
+::key C
+Mỗi giới hạn hữu hạn tại $+\infty$ hoặc $-\infty$ cho một tiệm cận ngang. Vì hai giới hạn khác nhau nên đồ thị có hai tiệm cận ngang. Tiệm cận đứng có dạng $x=x_0$ và cần giới hạn vô cực, nên B sai.
+
+[M358.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=\dfrac{2x^2-3x+1}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
+a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị hàm số.
+b) Đường thẳng $y=2$ là tiệm cận ngang của đồ thị hàm số.
+c) Đường thẳng $y=2x+1$ là tiệm cận xiên của đồ thị hàm số.
+d) Tiệm cận xiên của đồ thị cắt hai trục toạ độ tạo thành một tam giác có diện tích bằng $\dfrac14$.
+::key Đ S Đ Đ
+a) Đúng: mẫu bằng $0$ và tử bằng $3\neq0$ tại $x=2$. b) Sai: vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang. c) Đúng: ta có $2x^2-3x+1=(x-2)(2x+1)+3$. d) Đúng: đường thẳng $y=2x+1$ cắt hai trục tại $\left(-\dfrac12; 0\right)$ và $(0; 1)$, do đó diện tích tam giác là $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
+
+[M358.6] Trả lời ngắn
+Đồ thị hàm số $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
+::key 2
+Tại $x=1$ tử cũng bằng $0$ và $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (hữu hạn) nên $x=1$ không phải tiệm cận. Đồ thị có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=0$ (vì $\lim\limits_{x\to+\infty}y=0$). Vậy có $2$ đường.
+
+[M358.7] Trả lời ngắn
+Nồng độ một chất trong bể nước sau $t$ phút là $C(t)=\dfrac{25t}{3t+8}$ (mg/l). Đồ thị của $C(t)$ có tiệm cận ngang $C=c$. Tìm $c$ (làm tròn kết quả đến hàng phần mười).
+::key 8,3
+Ta có $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8{,}33$. Vậy $c\approx8{,}3$: theo thời gian, nồng độ tiến gần $8{,}3$ mg/l.
+
+### M359 · Lớp 12 · Khảo sát và vẽ đồ thị hàm số
+
+[M359.1] Nhiều lựa chọn
+Tâm đối xứng của đồ thị hàm số $y=x^3-3x^2+2$ là điểm
+A. $I(2; -2)$.
+B. $I(0; 2)$.
+C. $I(1; 0)$.
+D. $I(-1; -2)$.
+::key C
+Ta có $y''=6x-6=0\iff x=1$ và $y(1)=0$. Phương án B là giao điểm với trục tung, phương án A là điểm cực tiểu của đồ thị.
+
+[M359.2] Nhiều lựa chọn
+Đồ thị của hàm số nào dưới đây có tiệm cận đứng $x=2$ và tiệm cận ngang $y=-1$?
+A. $y=\dfrac{-x+1}{x-2}$.
+B. $y=\dfrac{x+1}{x-2}$.
+C. $y=\dfrac{-x+1}{x+2}$.
+D. $y=\dfrac{2x+1}{-x+1}$.
+::key A
+Đồ thị hàm số $y=\dfrac{ax+b}{cx+d}$ có tiệm cận đứng $x=-\dfrac dc$ và tiệm cận ngang $y=\dfrac ac$; với hàm số A, ta được $x=2$ và $y=-1$. Phương án C nhầm dấu của $-\dfrac dc$, phương án D đổi vai trò hai hệ số.
+
+[M359.3] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$, đồng biến trên các khoảng $(-\infty; -1)$ và $(3; +\infty)$, nghịch biến trên khoảng $(-1; 3)$, có $f(-1)=4$, $f(3)=-2$, $\lim\limits_{x\to-\infty}f(x)=-\infty$ và $\lim\limits_{x\to+\infty}f(x)=+\infty$. Phương trình $f(x)+2=0$ có bao nhiêu nghiệm?
+A. $1$.
+B. $2$.
+C. $3$.
+D. $0$.
+::key B
+Ta có $f(x)+2=0\iff f(x)=-2$. Đường thẳng $y=-2$ cắt nhánh bên trái một lần và chỉ chạm đồ thị tại điểm cực tiểu $(3; -2)$ nên phương trình có $2$ nghiệm. Phương án C đếm như khi $-2$ nằm giữa hai giá trị cực trị.
+
+[M359.4] Nhiều lựa chọn
+Hệ số góc của tiếp tuyến của đồ thị hàm số $y=\dfrac{2x-1}{x+1}$ tại điểm có hoành độ $x_0=0$ bằng
+A. $1$.
+B. $-1$.
+C. $-3$.
+D. $3$.
+::key D
+Ta có $y'=\dfrac{2\cdot1-(-1)\cdot1}{(x+1)^2}=\dfrac{3}{(x+1)^2}$ nên $y'(0)=3$. Phương án B là tung độ $y(0)$, phương án C tính nhầm $bc-ad$.
+
+[M359.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Giả sử mực nước (so với vạch mốc) của một kênh tưới sau $x$ giờ kể từ lúc mở cống được mô hình hoá bởi $f(x)=-x^3+6x^2-9x+3$ (dm), $0\le x\le 4$. Xét tính đúng sai của các mệnh đề sau:
+a) Mực nước đạt cực tiểu tại thời điểm $x=1$.
+b) Trong khoảng thời gian từ $x=1$ đến $x=3$, mực nước dâng nhanh nhất tại thời điểm $x=2$.
+c) Có ba thời điểm khác nhau mà mực nước bằng $3$ dm.
+d) Tại thời điểm $x=2$, mực nước dâng với tốc độ $3$ dm/giờ.
+::key Đ Đ S Đ
+a) Đúng: ta có $f'(x)=-3(x-1)(x-3)$ đổi dấu từ $-$ sang $+$ tại $x=1$. b) Đúng: tốc độ dâng là $f'(x)$, với $f'(x)>0$ trên $(1; 3)$ và $f''(x)=-6x+12$ đổi dấu từ $+$ sang $-$ tại $x=2$ nên $f'$ lớn nhất tại $x=2$. c) Sai: $f(3)=3$ là giá trị cực đại và $f(x)=3\iff -x(x-3)^2=0$, phương trình chỉ có $2$ nghiệm $x=0$, $x=3$ trên đoạn $[0; 4]$. d) Đúng: ta có $f'(2)=-3\cdot1\cdot(-1)=3$.
+
+[M359.6] Trả lời ngắn
+Gọi $A$, $B$ là hai điểm cực trị của đồ thị hàm số $y=x^3-3x^2-9x+1$ và $O$ là gốc toạ độ. Tính diện tích tam giác $OAB$.
+::key 4
+Ta có $y'=3(x+1)(x-3)$ nên $A(-1; 6)$, $B(3; -26)$. Vậy diện tích tam giác $OAB$ là $\dfrac12\left|(-1)\cdot(-26)-3\cdot6\right|=\dfrac12\cdot8=4$.
+
+[M359.7] Trả lời ngắn
+Tiếp tuyến của đồ thị hàm số $y=\dfrac{x+2}{x-1}$ tại điểm có hoành độ $x_0=3$ cắt trục hoành tại điểm có hoành độ bằng bao nhiêu (làm tròn kết quả đến hàng phần mười)?
+::key 6,3
+Ta có $y(3)=\dfrac52$ và $y'=\dfrac{-3}{(x-1)^2}$ nên $y'(3)=-\dfrac34$. Tiếp tuyến là $y=-\dfrac34(x-3)+\dfrac52$. Cho $y=0$, ta được $x=\dfrac{19}{3}\approx6{,}33$. Vậy hoành độ cần tìm làm tròn là $6{,}3$.
+
+### M360 · Lớp 12 · Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn
+
+[M360.1] Nhiều lựa chọn
+Một vật chuyển động thẳng có quãng đường $s(t)=2t^3-3t^2+t$ (mét) sau $t$ giây. Vận tốc của vật tại thời điểm $t=2$ giây là
+A. $6$ m/s.
+B. $13$ m/s.
+C. $18$ m/s.
+D. $37$ m/s.
+::key B
+Ta có $v(t)=s'(t)=6t^2-6t+1$ nên $v(2)=24-12+1=13$. Phương án A là quãng đường $s(2)$, phương án C là gia tốc $a(2)=s''(2)$, phương án D sai dấu ở hạng tử $-6t$.
+
+[M360.2] Nhiều lựa chọn
+Một chất điểm chuyển động thẳng với quãng đường $s(t)=-t^3+6t^2$ (mét), $0\le t\le 5$ (giây). Vận tốc của chất điểm đạt giá trị lớn nhất tại thời điểm
+A. $t=5$.
+B. $t=4$.
+C. $t=0$.
+D. $t=2$.
+::key D
+Ta có $v(t)=-3t^2+12t$ và $v'(t)=a(t)=-6t+12=0\iff t=2$. Ta có $v(0)=0$, $v(2)=12$, $v(5)=-15$. Phương án B là lúc $v(t)=0$, tức lúc vật dừng.
+
+[M360.3] Nhiều lựa chọn
+Chi phí sản xuất $x$ sản phẩm là $C(x)=0{,}01x^2+20x+500$ (nghìn đồng). Tốc độ thay đổi tức thời của chi phí theo số sản phẩm tại $x=100$ là
+A. $21$ nghìn đồng/sản phẩm.
+B. $2600$ nghìn đồng/sản phẩm.
+C. $22$ nghìn đồng/sản phẩm.
+D. $26$ nghìn đồng/sản phẩm.
+::key C
+Ta có $C'(x)=0{,}02x+20$ nên $C'(100)=22$. Phương án B là $C(100)$, phương án A quên hệ số $2$ khi đạo hàm $x^2$, phương án D là chi phí trung bình $\dfrac{C(100)}{100}$.
+
+[M360.4] Nhiều lựa chọn
+Người ta dùng $40$ m lưới rào kín cả bốn cạnh một mảnh vườn hình chữ nhật có chiều rộng $x$ (m). Diện tích của mảnh vườn theo $x$ là
+A. $S(x)=x(20-x)$.
+B. $S(x)=x(40-x)$.
+C. $S(x)=x(40-2x)$.
+D. $S(x)=2x+2(20-x)$.
+::key A
+Vì chu vi $2x+2y=40$ nên chiều dài $y=20-x$ và $S=x(20-x)$ với $0<x<20$. Phương án C là trường hợp chỉ rào ba cạnh, phương án D là chu vi chứ không phải diện tích.
+
+[M360.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một quả bóng được ném thẳng đứng lên trên; độ cao của nó sau $t$ giây là $h(t)=2+20t-5t^2$ (mét). Xét tính đúng sai của các mệnh đề sau:
+a) Vận tốc của quả bóng là $v(t)=20-10t$ (m/s).
+b) Quả bóng đạt độ cao lớn nhất tại thời điểm $t=2$ giây.
+c) Độ cao lớn nhất của quả bóng là $20$ m.
+d) Tốc độ của quả bóng lúc chạm đất lớn hơn $20$ m/s.
+::key Đ Đ S Đ
+a) Đúng: ta có $v=h'(t)$. b) Đúng: ta có $v(t)=0\iff t=2$ và $v$ đổi dấu từ $+$ sang $-$ tại đó. c) Sai: độ cao lớn nhất là $h(2)=2+40-20=22$ m. d) Đúng: $h(t)=0$ khi $t=2+\dfrac{\sqrt{110}}{5}$, khi đó $v=-2\sqrt{110}\approx-20{,}98$, do đó tốc độ khoảng $20{,}98$ m/s.
+
+[M360.6] Trả lời ngắn
+Một sợi dây dài $2$ m được cắt thành hai đoạn: đoạn thứ nhất uốn thành một hình vuông, đoạn thứ hai uốn thành một tam giác đều. Để tổng diện tích hai hình nhỏ nhất, đoạn uốn thành hình vuông dài bao nhiêu mét (làm tròn kết quả đến hàng phần trăm)?
+::key 0,87
+Gọi $x$ (m) là độ dài đoạn uốn thành hình vuông. Tổng diện tích là $S(x)=\dfrac{x^2}{16}+\dfrac{\sqrt3}{36}(2-x)^2$, $0\le x\le2$. Ta có $S'(x)=0\iff x=\dfrac{8\sqrt3}{4\sqrt3+9}\approx0{,}87$; giá trị tại đó ($\approx0{,}109$) nhỏ hơn $S(0)\approx0{,}192$ và $S(2)=0{,}25$. Vậy đoạn uốn thành hình vuông dài khoảng $0{,}87$ m.
+
+[M360.7] Trả lời ngắn
+Từ một khúc gỗ hình trụ có đường kính $40$ cm, người ta xẻ một cây dầm có tiết diện là hình chữ nhật nội tiếp đường tròn, chiều rộng $b$ và chiều cao $h$ (cm). Độ bền của dầm tỉ lệ với $bh^2$. Để dầm bền nhất thì chiều rộng $b$ bằng bao nhiêu xentimét (làm tròn kết quả đến hàng phần mười)?
+::key 23,1
+Vì đường chéo của tiết diện là đường kính nên $h^2=1600-b^2$. Ta cần tìm giá trị lớn nhất của $f(b)=b(1600-b^2)$ trên $(0; 40)$. Ta có $f'(b)=1600-3b^2=0\iff b=\dfrac{40}{\sqrt3}\approx23{,}09$ và $f'$ đổi dấu từ $+$ sang $-$ tại đó. Vậy $b\approx23{,}1$ cm.
+
+### M361 · Lớp 12 · Vectơ và các phép toán trong không gian
+
+[M361.1] Nhiều lựa chọn
+Cho hình hộp $ABCD.A'B'C'D'$. Vectơ $\overrightarrow{AB}+\overrightarrow{AD}-\overrightarrow{CC'}$ bằng
+A. $\overrightarrow{AC}$.
+B. $\overrightarrow{AC'}$.
+C. $\overrightarrow{CA'}$.
+D. $\overrightarrow{A'C}$.
+::key D
+Ta có $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$ và $\overrightarrow{CC'}=\overrightarrow{AA'}$ nên biểu thức bằng $\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$. Phương án B coi dấu trừ là dấu cộng, phương án C viết ngược chiều hiệu.
+
+[M361.2] Nhiều lựa chọn
+Cho tứ diện $ABCD$; $M$, $N$ lần lượt là trung điểm của $AB$ và $CD$. Khi đó $\overrightarrow{AC}+\overrightarrow{BD}$ bằng
+A. $2\overrightarrow{MN}$.
+B. $\dfrac12\overrightarrow{MN}$.
+C. $\overrightarrow{MN}$.
+D. $-2\overrightarrow{MN}$.
+::key A
+Ta có $\overrightarrow{MN}=\overrightarrow{MA}+\overrightarrow{AC}+\overrightarrow{CN}$ và $\overrightarrow{MN}=\overrightarrow{MB}+\overrightarrow{BD}+\overrightarrow{DN}$. Cộng lại, các vectơ đối nhau triệt tiêu nên $2\overrightarrow{MN}=\overrightarrow{AC}+\overrightarrow{BD}$. Phương án B nhầm chiều của hệ thức $\overrightarrow{MN}=\dfrac12\left(\overrightarrow{AC}+\overrightarrow{BD}\right)$.
+
+[M361.3] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{C'A'}$ bằng
+A. $45^\circ$.
+B. $135^\circ$.
+C. $90^\circ$.
+D. $60^\circ$.
+::key B
+Ta có $\overrightarrow{C'A'}=\overrightarrow{CA}=-\overrightarrow{AC}$, mà $(\overrightarrow{AB}, \overrightarrow{AC})=45^\circ$, nên góc cần tìm là $180^\circ-45^\circ=135^\circ$. Phương án A quên rằng hai vectơ phải chung điểm đầu.
+
+[M361.4] Nhiều lựa chọn
+Cho tứ diện đều $ABCD$ cạnh $a$. Tích vô hướng $\overrightarrow{AB}\cdot\overrightarrow{BC}$ bằng
+A. $\dfrac{a^2\sqrt3}{2}$.
+B. $\dfrac{a^2}{2}$.
+C. $-\dfrac{a^2}{2}$.
+D. $0$.
+::key C
+Đưa hai vectơ về chung điểm đầu $B$, ta có $\overrightarrow{AB}\cdot\overrightarrow{BC}=-\overrightarrow{BA}\cdot\overrightarrow{BC}=-a\cdot a\cos60^\circ=-\dfrac{a^2}{2}$. Phương án B lấy góc $60^\circ$ mà không đổi chiều $\overrightarrow{AB}$, phương án A dùng $\sin$ thay cho $\cos$.
+
+[M361.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=2$, $AD=3$, $AA'=6$. Xét tính đúng sai của các mệnh đề sau:
+a) $\overrightarrow{AB}\cdot\overrightarrow{AA'}=0$.
+b) $AC'=7$.
+c) $\overrightarrow{AC'}\cdot\overrightarrow{AB}=2$.
+d) Góc giữa hai vectơ $\overrightarrow{AC'}$ và $\overrightarrow{AA'}$ lớn hơn $35^\circ$.
+::key Đ Đ S S
+a) Đúng: vì $AB\perp AA'$. b) Đúng: ta có $AC'^2=4+9+36=49$. c) Sai: ta có $\overrightarrow{AC'}\cdot\overrightarrow{AB}=\left(\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}\right)\cdot\overrightarrow{AB}=AB^2=4$. d) Sai: ta có $\overrightarrow{AC'}\cdot\overrightarrow{AA'}=AA'^2=36$ nên $\cos=\dfrac{36}{7\cdot6}=\dfrac67$, do đó góc khoảng $31^\circ$.
+
+[M361.6] Trả lời ngắn
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $2$. Tính $\overrightarrow{AC'}\cdot\overrightarrow{BD'}$.
+::key 4
+Đặt $\vec{b}=\overrightarrow{AB}$, $\vec{d}=\overrightarrow{AD}$, $\vec{c}=\overrightarrow{AA'}$. Ta có $\overrightarrow{AC'}=\vec{b}+\vec{d}+\vec{c}$, $\overrightarrow{BD'}=-\vec{b}+\vec{d}+\vec{c}$. Vì tích vô hướng của hai cạnh khác nhau bằng $0$ nên $\overrightarrow{AC'}\cdot\overrightarrow{BD'}=-4+4+4=4$.
+
+[M361.7] Trả lời ngắn
+Một flycam cất cánh từ điểm $A$, bay $30$ m về phía đông, rồi $40$ m về phía bắc, rồi bay thẳng lên $20$ m. Hỏi khoảng cách từ vị trí cuối cùng của flycam đến $A$ là bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
+::key 53,9
+Vì ba vectơ dịch chuyển đôi một vuông góc nên bình phương độ dài của vectơ tổng là $30^2+40^2+20^2=2900$. Vậy khoảng cách là $\sqrt{2900}\approx53{,}85$, làm tròn được $53{,}9$ m.

@@ -1,0 +1,945 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-17-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-17-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Alexnguyen122222-17-LG
+Người làm: tài khoản Alexnguyen122222. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Alexnguyen122222-17-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Alexnguyen122222-17-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g3/five-digit-numbers (8 bài tập)
+- g3/four-digit-numbers (8 bài tập)
+- g3/four-times-table (8 bài tập)
+- g3/g3-cubes-and-cuboids (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g3/five-digit-numbers
+Bài học: Các số có năm chữ số. Số 100 000. So sánh các số trong phạm vi 100 000 / Five-digit numbers. The number 100,000. Comparing numbers within 100,000
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số: sáu mươi nghìn bảy trăm ba mươi hai.
+
+[LỜI GIẢI CŨ – VI]
+"Sáu mươi nghìn" là $60\,000$ và "bảy trăm ba mươi hai" là $732$. Ta có $60\,000+732=60\,732$.
+
+**Đáp số.** $60\,732$.
+
+[ĐỀ – EN]
+Write the number: sixty thousand, seven hundred and thirty-two.
+
+[LỜI GIẢI CŨ – EN]
+"Sixty thousand" is $60\,000$ and "seven hundred and thirty-two" is $732$. We have $60\,000+732=60\,732$.
+
+**Answer.** $60\,732$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đọc số $80\,019$.
+
+[LỜI GIẢI CŨ – VI]
+Số $80\,019$ có $80$ nghìn, $0$ trăm, $1$ chục và $9$ đơn vị.
+
+**Đáp số.** Tám mươi nghìn không trăm mười chín.
+
+[ĐỀ – EN]
+Read the number $80\,019$.
+
+[LỜI GIẢI CŨ – EN]
+The number $80\,019$ has $80$ thousands, $0$ hundreds, $1$ ten and $9$ ones.
+
+**Answer.** Eighty thousand and nineteen.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết số $53\,092$ thành tổng các chục nghìn, nghìn, trăm, chục, đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+Số $53\,092$ có $5$ chục nghìn, $3$ nghìn, $0$ trăm, $9$ chục và $2$ đơn vị. Ta có:
+$$53\,092=50\,000+3\,000+90+2.$$
+
+**Đáp số.** $50\,000+3\,000+90+2$.
+
+[ĐỀ – EN]
+Write $53\,092$ as a sum of ten-thousands, thousands, hundreds, tens and ones.
+
+[LỜI GIẢI CŨ – EN]
+The number $53\,092$ has $5$ ten-thousands, $3$ thousands, $0$ hundreds, $9$ tens and $2$ ones. We have:
+$$53\,092=50\,000+3\,000+90+2.$$
+
+**Answer.** $50\,000+3\,000+90+2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm số liền trước và số liền sau của $20\,000$.
+
+[LỜI GIẢI CŨ – VI]
+Số liền trước là $20\,000-1=19\,999$. Số liền sau là $20\,000+1=20\,001$.
+
+**Đáp số.** $19\,999$ và $20\,001$.
+
+[ĐỀ – EN]
+Find the number before and the number after $20\,000$.
+
+[LỜI GIẢI CŨ – EN]
+The number before is $20\,000-1=19\,999$. The number after is $20\,000+1=20\,001$.
+
+**Answer.** $19\,999$ and $20\,001$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ chấm: $74\,215\ \ldots\ 74\,251$.
+
+[LỜI GIẢI CŨ – VI]
+Hai số đều có năm chữ số. Các hàng chục nghìn, nghìn, trăm đều bằng nhau. Hàng chục: $1<5$. Vậy $74\,215<74\,251$.
+
+**Đáp số.** Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: $74\,215\ \ldots\ 74\,251$.
+
+[LỜI GIẢI CŨ – EN]
+Both numbers have five digits. The ten-thousands, thousands and hundreds are equal. Tens: $1<5$. So $74\,215<74\,251$.
+
+**Answer.** The sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bốn huyện (số liệu giả định) có số dân lần lượt là $38\,540$, $38\,450$, $40\,125$ và $38\,504$ người. Hỏi huyện nào đông dân nhất, huyện nào ít dân nhất?
+
+[LỜI GIẢI CŨ – VI]
+Số $40\,125$ có chữ số hàng chục nghìn là $4$, lớn hơn $3$ của ba số còn lại. Ba số còn lại bắt đầu bằng $38$; so sánh hàng trăm: $5$, $4$ và $5$. Số $38\,450$ có hàng trăm bé nhất. Hai số $38\,540$ và $38\,504$ có hàng trăm bằng nhau, hàng chục là $4>0$. Ta có $38\,450<38\,504<38\,540<40\,125$.
+
+**Đáp số.** Huyện có $40\,125$ người đông nhất, huyện có $38\,450$ người ít nhất.
+
+[ĐỀ – EN]
+Four districts (made-up numbers) have populations of $38\,540$, $38\,450$, $40\,125$ and $38\,504$ people. Which district has the most people, and which has the fewest?
+
+[LỜI GIẢI CŨ – EN]
+The number $40\,125$ has $4$ in the ten-thousands place, more than the $3$ of the other three. The other three start with $38$; comparing the hundreds: $5$, $4$ and $5$. The number $38\,450$ has the smallest hundreds digit. The numbers $38\,540$ and $38\,504$ have equal hundreds digits, and their tens are $4>0$. We have $38\,450<38\,504<38\,540<40\,125$.
+
+**Answer.** The district with $40\,125$ people has the most, and the district with $38\,450$ people has the fewest.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mai tiết kiệm được năm tờ $10\,000$ đồng và hai tờ $20\,000$ đồng. Hỏi Mai còn thiếu bao nhiêu đồng để đủ $100\,000$ đồng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền Mai đã có là:
+$$5\times10\,000+2\times20\,000=50\,000+40\,000=90\,000\ \text{(đồng)}.$$
+Số tiền Mai còn thiếu là:
+$$100\,000-90\,000=10\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $10\,000$ đồng.
+
+[ĐỀ – EN]
+Mai has saved five $10\,000$ dong notes and two $20\,000$ dong notes. How many more dong does Mai need to have $100\,000$ dong?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The money Mai has is:
+$$5\times10\,000+2\times20\,000=50\,000+40\,000=90\,000\ \text{(dong)}.$$
+The money Mai still needs is:
+$$100\,000-90\,000=10\,000\ \text{(dong)}.$$
+
+**Answer.** $10\,000$ dong.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm số lớn nhất và số bé nhất có năm chữ số mà tổng các chữ số bằng $5$.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất: chữ số hàng chục nghìn là $5$, các chữ số còn lại đều là $0$, được $50\,000$. Số bé nhất: chữ số hàng chục nghìn là $1$, các hàng còn lại cần có tổng $4$. Để số bé nhất, các hàng cao đều là $0$ và đặt $4$ ở hàng đơn vị, được $10\,004$.
+
+**Đáp số.** $50\,000$ và $10\,004$.
+
+[ĐỀ – EN]
+Find the largest and the smallest five-digit number whose digits add up to $5$.
+
+[LỜI GIẢI CŨ – EN]
+Largest number: the ten-thousands digit is $5$ and all the other digits are $0$, giving $50\,000$. Smallest number: the ten-thousands digit is $1$, and the other places need a total of $4$. To make the number smallest, the higher places are all $0$ and $4$ goes in the ones place, giving $10\,004$.
+
+**Answer.** $50\,000$ and $10\,004$.
+
+
+######################################################################
+@@@ g3/four-digit-numbers
+Bài học: Các số có bốn chữ số. Số 10 000. So sánh các số trong phạm vi 10 000 / Four-digit numbers. The number 10,000. Comparing numbers within 10,000
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+a) Viết số: bảy nghìn hai trăm ba mươi tư. b) Đọc số $6805$.
+
+[LỜI GIẢI CŨ – VI]
+a) $7$ nghìn, $2$ trăm, $3$ chục, $4$ đơn vị: $7234$.
+
+b) $6805$ có $6$ nghìn, $8$ trăm, $0$ chục, $5$ đơn vị, đọc là "sáu nghìn tám trăm linh năm".
+
+**Đáp số.** a) $7234$; b) sáu nghìn tám trăm linh năm.
+
+[ĐỀ – EN]
+a) Write the number: seven thousand two hundred and thirty-four. b) Read the number $6805$.
+
+[LỜI GIẢI CŨ – EN]
+a) $7$ thousands, $2$ hundreds, $3$ tens, $4$ ones: $7234$.
+
+b) $6805$ has $6$ thousands, $8$ hundreds, $0$ tens and $5$ ones, and is read "six thousand eight hundred and five".
+
+**Answer.** a) $7234$; b) six thousand eight hundred and five.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Phân tích số $4096$ thành tổng các nghìn, trăm, chục, đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+$4096$ có $4$ nghìn, $0$ trăm, $9$ chục, $6$ đơn vị:
+$$4096=4000+90+6.$$
+**Đáp số.** $4000+90+6$.
+
+[ĐỀ – EN]
+Partition the number $4096$ into thousands, hundreds, tens and ones.
+
+[LỜI GIẢI CŨ – EN]
+$4096$ has $4$ thousands, $0$ hundreds, $9$ tens and $6$ ones:
+$$4096=4000+90+6.$$
+**Answer.** $4000+90+6$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đếm thêm $500$ từ $8000$ cho đến $10\,000$.
+
+[LỜI GIẢI CŨ – VI]
+$$8000,\ 8500,\ 9000,\ 9500,\ 10\,000.$$
+**Đáp số.** $8000$, $8500$, $9000$, $9500$, $10\,000$.
+
+[ĐỀ – EN]
+Count on in $500$s from $8000$ to $10\,000$.
+
+[LỜI GIẢI CŨ – EN]
+$$8000,\ 8500,\ 9000,\ 9500,\ 10\,000.$$
+**Answer.** $8000$, $8500$, $9000$, $9500$, $10\,000$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $6548\ \ldots\ 6584$; b) $9999\ \ldots\ 10\,000$; c) $3000+500\ \ldots\ 3050$.
+
+[LỜI GIẢI CŨ – VI]
+a) Hàng nghìn, hàng trăm bằng nhau; hàng chục $4<8$, nên $6548<6584$.
+
+b) $9999$ có bốn chữ số, $10\,000$ có năm chữ số, nên $9999<10\,000$.
+
+c) $3000+500=3500$ và $3500>3050$ (hàng trăm $5>0$).
+
+**Đáp số.** a) $<$; b) $<$; c) $>$.
+
+[ĐỀ – EN]
+Fill in $>$, $<$ or $=$: a) $6548\ \ldots\ 6584$; b) $9999\ \ldots\ 10\,000$; c) $3000+500\ \ldots\ 3050$.
+
+[LỜI GIẢI CŨ – EN]
+a) Thousands and hundreds are equal; in the tens $4<8$, so $6548<6584$.
+
+b) $9999$ has four digits and $10\,000$ has five digits, so $9999<10\,000$.
+
+c) $3000+500=3500$ and $3500>3050$ (hundreds $5>0$).
+
+**Answer.** a) $<$; b) $<$; c) $>$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Trường $A$ có $1245$ học sinh, trường $B$ có $1254$ học sinh. Hỏi trường nào có nhiều học sinh hơn?
+
+[LỜI GIẢI CŨ – VI]
+Hàng nghìn: $1=1$. Hàng trăm: $2=2$. Hàng chục: $4<5$. Vậy $1245<1254$.
+
+**Đáp số.** Trường $B$ có nhiều học sinh hơn.
+
+[ĐỀ – EN]
+School $A$ has $1245$ pupils and school $B$ has $1254$ pupils. Which school has more pupils?
+
+[LỜI GIẢI CŨ – EN]
+Thousands: $1=1$. Hundreds: $2=2$. Tens: $4<5$. So $1245<1254$.
+
+**Answer.** School $B$ has more pupils.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Sắp xếp các số $7108$, $7180$, $7018$, $7801$ theo thứ tự từ lớn đến bé.
+
+[LỜI GIẢI CŨ – VI]
+Hàng trăm: $8$ ở $7801$ lớn nhất. Ba số còn lại có hàng trăm là $1$, $1$, $0$: $7018$ bé nhất. Giữa $7180$ và $7108$, hàng chục $8>0$.
+
+Thứ tự từ lớn đến bé: $7801>7180>7108>7018$.
+
+**Đáp số.** $7801$, $7180$, $7108$, $7018$.
+
+[ĐỀ – EN]
+Put the numbers $7108$, $7180$, $7018$, $7801$ in order from largest to smallest.
+
+[LỜI GIẢI CŨ – EN]
+Hundreds: the $8$ in $7801$ is the greatest. The other three have hundreds $1$, $1$, $0$: $7018$ is the smallest. Between $7180$ and $7108$, the tens $8>0$.
+
+In order from largest to smallest: $7801>7180>7108>7018$.
+
+**Answer.** $7801$, $7180$, $7108$, $7018$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em nhớ lại các số có ba chữ số. a) Số lớn nhất có ba chữ số là số nào? Số liền sau của nó là số nào? b) Số lớn nhất có bốn chữ số là số nào? Số liền sau của nó là số nào?
+
+[LỜI GIẢI CŨ – VI]
+a) Số lớn nhất có ba chữ số là $999$; số liền sau là $999+1=1000$.
+
+b) Số lớn nhất có bốn chữ số là $9999$; số liền sau là $9999+1=10\,000$.
+
+**Đáp số.** a) $999$ và $1000$; b) $9999$ và $10\,000$.
+
+[ĐỀ – EN]
+Remember three-digit numbers. a) What is the largest three-digit number? What number comes after it? b) What is the largest four-digit number? What number comes after it?
+
+[LỜI GIẢI CŨ – EN]
+a) The largest three-digit number is $999$; the number after it is $999+1=1000$.
+
+b) The largest four-digit number is $9999$; the number after it is $9999+1=10\,000$.
+
+**Answer.** a) $999$ and $1000$; b) $9999$ and $10\,000$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Từ bốn chữ số $3$, $0$, $8$, $5$, mỗi chữ số dùng đúng một lần, hãy lập số có bốn chữ số lớn nhất và số có bốn chữ số bé nhất.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất: xếp $8$, $5$, $3$, $0$ từ lớn đến bé được $8530$.
+
+Số bé nhất: hàng nghìn không thể là $0$, nên chọn $3$; rồi xếp $0$, $5$, $8$ từ bé đến lớn được $3058$.
+
+**Đáp số.** Số lớn nhất là $8530$; số bé nhất là $3058$.
+
+[ĐỀ – EN]
+Using the four digits $3$, $0$, $8$, $5$, each exactly once, make the largest four-digit number and the smallest four-digit number.
+
+[LỜI GIẢI CŨ – EN]
+Largest number: putting $8$, $5$, $3$, $0$ from greatest to smallest gives $8530$.
+
+Smallest number: the thousands digit cannot be $0$, so pick $3$; then put $0$, $5$, $8$ from smallest to greatest to get $3058$.
+
+**Answer.** The largest number is $8530$; the smallest number is $3058$.
+
+
+######################################################################
+@@@ g3/four-times-table
+Bài học: Bảng nhân 4, bảng chia 4 / The 4 times table and dividing by 4
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính:
+
+a) $4\times3$.
+
+b) $4\times5$.
+
+c) $4\times9$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times3=12$.
+
+b) $4\times5=20$.
+
+c) $4\times9=36$.
+
+**Đáp số.** a) $12$; b) $20$; c) $36$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $4\times3$.
+
+b) $4\times5$.
+
+c) $4\times9$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times3=12$.
+
+b) $4\times5=20$.
+
+c) $4\times9=36$.
+
+**Answer.** a) $12$; b) $20$; c) $36$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính:
+
+a) $4\times7$.
+
+b) $4\times10$.
+
+c) $4\times4$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times7=24+4=28$.
+
+b) $4\times10=36+4=40$.
+
+c) $4\times4=12+4=16$.
+
+**Đáp số.** a) $28$; b) $40$; c) $16$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $4\times7$.
+
+b) $4\times10$.
+
+c) $4\times4$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times7=24+4=28$.
+
+b) $4\times10=36+4=40$.
+
+c) $4\times4=12+4=16$.
+
+**Answer.** a) $28$; b) $40$; c) $16$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bảng nhân $3$. Tính rồi so sánh:
+
+a) $3\times4$.
+
+b) $4\times3$.
+
+c) $3\times8$ và $4\times6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3\times4=12$.
+
+b) $4\times3=12$, bằng $3\times4$.
+
+c) $3\times8=24$ và $4\times6=24$, hai tích bằng nhau.
+
+**Đáp số.** a) $12$; b) $12$; c) $24$ và $24$.
+
+[ĐỀ – EN]
+Remember the $3$ times table. Work out and compare:
+
+a) $3\times4$.
+
+b) $4\times3$.
+
+c) $3\times8$ and $4\times6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3\times4=12$.
+
+b) $4\times3=12$, the same as $3\times4$.
+
+c) $3\times8=24$ and $4\times6=24$, so the two products are equal.
+
+**Answer.** a) $12$; b) $12$; c) $24$ and $24$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính:
+
+a) $12:4$.
+
+b) $28:4$.
+
+c) $40:4$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times3=12$ nên $12:4=3$.
+
+b) $4\times7=28$ nên $28:4=7$.
+
+c) $4\times10=40$ nên $40:4=10$.
+
+**Đáp số.** a) $3$; b) $7$; c) $10$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $12\div4$.
+
+b) $28\div4$.
+
+c) $40\div4$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times3=12$, so $12\div4=3$.
+
+b) $4\times7=28$, so $28\div4=7$.
+
+c) $4\times10=40$, so $40\div4=10$.
+
+**Answer.** a) $3$; b) $7$; c) $10$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Vì sao?
+
+a) $4\times7 \;\square\; 30$.
+
+b) $24:4 \;\square\; 4\times2$.
+
+c) $4\times9 \;\square\; 3\times12$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\times7=28$ và $28<30$ nên $4\times7<30$.
+
+b) $24:4=6$ và $4\times2=8$, $6<8$ nên $24:4<4\times2$.
+
+c) $4\times9=36$ và $3\times12=36$ nên hai vế bằng nhau.
+
+**Đáp số.** a) $<$; b) $<$; c) $=$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Why?
+
+a) $4\times7 \;\square\; 30$.
+
+b) $24\div4 \;\square\; 4\times2$.
+
+c) $4\times9 \;\square\; 3\times12$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\times7=28$ and $28<30$, so $4\times7<30$.
+
+b) $24\div4=6$ and $4\times2=8$; $6<8$, so $24\div4<4\times2$.
+
+c) $4\times9=36$ and $3\times12=36$, so the two sides are equal.
+
+**Answer.** a) $<$; b) $<$; c) $=$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bình làm: "$36:4=8$ vì $4\times8=36$". Bình sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+$4\times8=32$, không phải $36$. Ta có $4\times9=36$ nên $36:4=9$.
+
+**Thử lại.** $4\times9=36$. Đúng.
+
+**Đáp số.** Bình nhớ sai tích; $36:4=9$.
+
+[ĐỀ – EN]
+Binh wrote: "$36\div4=8$ because $4\times8=36$". Where did Binh go wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+$4\times8=32$, not $36$. We have $4\times9=36$, so $36\div4=9$.
+
+**Check.** $4\times9=36$. Correct.
+
+**Answer.** Binh remembered the wrong product; $36\div4=9$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+a) Mỗi xe có $4$ bánh. Hỏi $8$ xe như vậy có bao nhiêu bánh?
+
+b) Có $36$ chiếc bánh xếp vào các hộp, mỗi hộp $4$ chiếc. Hỏi xếp được bao nhiêu hộp?
+
+[LỜI GIẢI CŨ – VI]
+a) Số bánh xe là $4\times8=32$ (bánh).
+
+b) Số hộp là $36:4=9$ (hộp).
+
+**Đáp số.** a) $32$ bánh; b) $9$ hộp.
+
+[ĐỀ – EN]
+a) Each car has $4$ wheels. How many wheels do $8$ such cars have?
+
+b) $36$ cakes are put into boxes, $4$ cakes in each box. How many boxes are filled?
+
+[LỜI GIẢI CŨ – EN]
+a) The number of wheels is $4\times8=32$ (wheels).
+
+b) The number of boxes is $36\div4=9$ (boxes).
+
+**Answer.** a) $32$ wheels; b) $9$ boxes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Lan xếp $40$ quả bóng vào các hộp, mỗi hộp $4$ quả. Lan đã xếp được $6$ hộp. Hỏi:
+
+a) Cần tất cả bao nhiêu hộp?
+
+b) Còn bao nhiêu hộp chưa xếp, và còn bao nhiêu quả bóng chưa xếp?
+
+[LỜI GIẢI CŨ – VI]
+a) Số hộp cần dùng là $40:4=10$ (hộp).
+
+b) Số hộp chưa xếp là $10-6=4$ (hộp). Số bóng đã xếp là $4\times6=24$ (quả), nên số bóng chưa xếp là $40-24=16$ (quả). Kiểm tra: $4\times4=16$.
+
+**Đáp số.** a) $10$ hộp; b) $4$ hộp và $16$ quả bóng.
+
+[ĐỀ – EN]
+Lan puts $40$ balls into boxes, $4$ balls in each box. She has already filled $6$ boxes. Find:
+
+a) How many boxes are needed altogether?
+
+b) How many boxes are still to fill, and how many balls are still to be packed?
+
+[LỜI GIẢI CŨ – EN]
+a) The number of boxes needed is $40\div4=10$ (boxes).
+
+b) The boxes still to fill: $10-6=4$ (boxes). The balls already packed: $4\times6=24$, so the balls left are $40-24=16$. Check: $4\times4=16$.
+
+**Answer.** a) $10$ boxes; b) $4$ boxes and $16$ balls.
+
+
+######################################################################
+@@@ g3/g3-cubes-and-cuboids
+Bài học: Khối lập phương, khối hộp hình chữ nhật / Cubes and cuboids
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền số vào chỗ trống: khối lập phương có $\ldots$ mặt, $\ldots$ đỉnh và $\ldots$ cạnh.
+
+[LỜI GIẢI CŨ – VI]
+Khối lập phương có $6$ mặt, $8$ đỉnh và $12$ cạnh.
+
+**Đáp số.** $6$; $8$; $12$.
+
+[ĐỀ – EN]
+Fill in the blanks: a cube has $\ldots$ faces, $\ldots$ vertices and $\ldots$ edges.
+
+[LỜI GIẢI CŨ – EN]
+A cube has $6$ faces, $8$ vertices and $12$ edges.
+
+**Answer.** $6$; $8$; $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Mỗi vật sau có dạng khối gì: a) con xúc xắc; b) hộp phấn; c) khối rubik?
+
+[LỜI GIẢI CŨ – VI]
+a) Khối lập phương. b) Khối hộp chữ nhật. c) Khối lập phương.
+
+**Đáp số.** a) Khối lập phương; b) Khối hộp chữ nhật; c) Khối lập phương.
+
+[ĐỀ – EN]
+What solid is each object: a) a dice; b) a box of chalk; c) a Rubik's cube?
+
+[LỜI GIẢI CŨ – EN]
+a) A cube. b) A cuboid. c) A cube.
+
+**Answer.** a) Cube; b) Cuboid; c) Cube.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Khối lập phương có cạnh $7$ cm. Mỗi mặt là hình vuông có cạnh dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Mỗi cạnh của mặt cũng là cạnh của khối lập phương, nên dài $7$ cm.
+
+**Đáp số.** $7$ cm.
+
+[ĐỀ – EN]
+A cube has an edge of $7$ cm. How long is the side of each square face, in centimetres?
+
+[LỜI GIẢI CŨ – EN]
+The side of a face is also an edge of the cube, so it is $7$ cm long.
+
+**Answer.** $7$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $8$ cm, rộng $5$ cm. Mặt nắp đối diện dài và rộng bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+Mặt nắp bằng mặt đáy nên dài $8$ cm, rộng $5$ cm.
+
+**Đáp số.** Dài $8$ cm, rộng $5$ cm.
+
+[ĐỀ – EN]
+A cuboid has a base that is a rectangle $8$ cm long and $5$ cm wide. How long and how wide is the opposite face, in centimetres?
+
+[LỜI GIẢI CŨ – EN]
+The top is equal to the base, so it is $8$ cm long and $5$ cm wide.
+
+**Answer.** $8$ cm long, $5$ cm wide.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+An xếp các khối lập phương nhỏ thành $4$ lớp, mỗi lớp có $6$ khối. An đã dùng tất cả bao nhiêu khối?
+
+![Các khối lập phương nhỏ xếp thành bốn lớp, mỗi lớp sáu khối](/assets/img/g3/g3-cubes-and-cuboids-02.svg)
+
+[LỜI GIẢI CŨ – VI]
+Số khối An đã dùng là:
+$$6\times4=24\ \text{(khối)}.$$
+
+**Đáp số.** $24$ khối.
+
+[ĐỀ – EN]
+An stacks small cubes in $4$ layers, with $6$ cubes in each layer. How many cubes does An use altogether?
+
+![Small cubes stacked in four layers of six](/assets/img/g3/g3-cubes-and-cuboids-02.svg)
+
+[LỜI GIẢI CŨ – EN]
+The number of cubes An uses is:
+$$6\times4=24\ \text{(cubes)}.$$
+
+**Answer.** $24$ cubes.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bình có $20$ khối lập phương nhỏ và xếp đều thành $4$ lớp. Mỗi lớp có bao nhiêu khối?
+
+[LỜI GIẢI CŨ – VI]
+Số khối ở mỗi lớp là:
+$$20:4=5\ \text{(khối)}.$$
+
+**Thử lại.** $5\times4=20$. Đúng.
+
+**Đáp số.** $5$ khối.
+
+[ĐỀ – EN]
+Binh has $20$ small cubes and stacks them equally in $4$ layers. How many cubes are in each layer?
+
+[LỜI GIẢI CŨ – EN]
+The number of cubes in each layer is:
+$$20\div4=5\ \text{(cubes)}.$$
+
+**Check.** $5\times4=20$. Correct.
+
+**Answer.** $5$ cubes.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: mỗi mặt của một khối lập phương là hình vuông có cạnh $3$ cm. Tổng độ dài bốn cạnh của một mặt là bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$3\times4=12$ (cm).
+
+**Đáp số.** $12$ cm.
+
+[ĐỀ – EN]
+Remember the last lesson: each face of a cube is a square with a side of $3$ cm. What is the total length of the four sides of one face, in centimetres?
+
+[LỜI GIẢI CŨ – EN]
+$3\times4=12$ (cm).
+
+**Answer.** $12$ cm.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một con xúc xắc có $6$ mặt, tổng số chấm của hai mặt đối diện luôn bằng $7$. Tổng số chấm của cả $6$ mặt là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$6$ mặt chia thành $3$ cặp mặt đối diện. Mỗi cặp có $7$ chấm nên tổng là $7\times3=21$.
+
+**Kiểm tra.** $1+2+3+4+5+6=21$. Đúng.
+
+**Đáp số.** $21$ chấm.
+
+[ĐỀ – EN]
+A dice has $6$ faces, and the dots on two opposite faces always add up to $7$. How many dots are there on all $6$ faces together?
+
+[LỜI GIẢI CŨ – EN]
+The $6$ faces split into $3$ pairs of opposite faces. Each pair has $7$ dots, so the total is $7\times3=21$.
+
+**Check.** $1+2+3+4+5+6=21$. Correct.
+
+**Answer.** $21$ dots.
+
+
+===== HẾT FILE Alexnguyen122222-17-LG =====

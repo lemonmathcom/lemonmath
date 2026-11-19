@@ -1,0 +1,1121 @@
+######################################################################
+TÀI KHOẢN: Vinax.vn   |   FILE: Vinax.vn-06-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax.vn-06-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax.vn-06-LG
+Người làm: tài khoản Vinax.vn. Gói này có 44 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Vinax.vn-06-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax.vn-06-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g5/one-number-as-percentage (8 bài tập)
+- g5/organising-data (8 bài tập)
+- g5/percentage-of-an-amount (8 bài tập)
+- g5/ratios-and-percentages (10 bài tập)
+- g5/review-fraction-operations (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g5/one-number-as-percentage
+Bài học: Tìm tỉ số phần trăm của hai số / Expressing one number as a percentage of another
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm tỉ số phần trăm của $3$ và $5$.
+
+[LỜI GIẢI CŨ – VI]
+$$3:5=0{,}6;\qquad 0{,}6\times100=60.$$
+
+**Đáp số.** $60\%$.
+
+[ĐỀ – EN]
+Express $3$ as a percentage of $5$.
+
+[LỜI GIẢI CŨ – EN]
+$$3\div5=0.6;\qquad 0.6\times100=60.$$
+
+**Answer.** $60\%$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm tỉ số phần trăm của $18$ và $24$.
+
+[LỜI GIẢI CŨ – VI]
+$$18:24=0{,}75;\qquad 0{,}75\times100=75.$$
+
+**Đáp số.** $75\%$.
+
+[ĐỀ – EN]
+Express $18$ as a percentage of $24$.
+
+[LỜI GIẢI CŨ – EN]
+$$18\div24=0.75;\qquad 0.75\times100=75.$$
+
+**Answer.** $75\%$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm tỉ số phần trăm của $5$ và $8$.
+
+[LỜI GIẢI CŨ – VI]
+$$5:8=0{,}625;\qquad 0{,}625\times100=62{,}5.$$
+
+**Đáp số.** $62{,}5\%$.
+
+[ĐỀ – EN]
+Express $5$ as a percentage of $8$.
+
+[LỜI GIẢI CŨ – EN]
+$$5\div8=0.625;\qquad 0.625\times100=62.5.$$
+
+**Answer.** $62.5\%$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết phân số $\dfrac{13}{20}$ thành tỉ số phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+$$13:20=0{,}65;\qquad 0{,}65\times100=65.$$
+
+**Cách khác.** Nhân cả tử số và mẫu số với $5$: $\dfrac{13}{20}=\dfrac{65}{100}=65\%$.
+
+**Đáp số.** $65\%$.
+
+[ĐỀ – EN]
+Write the fraction $\dfrac{13}{20}$ as a percentage.
+
+[LỜI GIẢI CŨ – EN]
+$$13\div20=0.65;\qquad 0.65\times100=65.$$
+
+**Another way.** Multiply the numerator and the denominator by $5$: $\dfrac{13}{20}=\dfrac{65}{100}=65\%$.
+
+**Answer.** $65\%$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Trong vườn có $40$ cây, trong đó $14$ cây là cây cam. Hỏi cây cam chiếm bao nhiêu phần trăm số cây trong vườn?
+
+[LỜI GIẢI CŨ – VI]
+$$14:40=0{,}35;\qquad 0{,}35\times100=35.$$
+Vậy cây cam chiếm $35\%$ số cây trong vườn.
+
+**Đáp số.** $35\%$.
+
+[ĐỀ – EN]
+A garden has $40$ trees, and $14$ of them are orange trees. What percentage of the trees in the garden are orange trees?
+
+[LỜI GIẢI CŨ – EN]
+$$14\div40=0.35;\qquad 0.35\times100=35.$$
+So $35\%$ of the trees in the garden are orange trees.
+
+**Answer.** $35\%$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Quãng đường từ nhà Bình đến trường dài $1{,}5$ km. Sáng nay Bình đã đi được $600$ m. Hỏi Bình đã đi được bao nhiêu phần trăm quãng đường?
+
+[LỜI GIẢI CŨ – VI]
+Đổi $1{,}5\ \text{km}=1500\ \text{m}$. Ta có:
+$$600:1500=0{,}4;\qquad 0{,}4\times100=40.$$
+Vậy Bình đã đi được $40\%$ quãng đường.
+
+**Đáp số.** $40\%$.
+
+[ĐỀ – EN]
+Binh's home is $1.5$ km from school. This morning he has gone $600$ m. What percentage of the way has he gone?
+
+[LỜI GIẢI CŨ – EN]
+Convert $1.5\ \text{km}=1500\ \text{m}$. Then:
+$$600\div1500=0.4;\qquad 0.4\times100=40.$$
+So Binh has gone $40\%$ of the way.
+
+**Answer.** $40\%$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Hiệu của hai số là $24$, tỉ số của số bé và số lớn là $\dfrac{3}{5}$.
+
+a) Tìm hai số đó.
+
+b) Số bé bằng bao nhiêu phần trăm số lớn?
+
+[LỜI GIẢI CŨ – VI]
+a) Hiệu số phần là $5-3=2$. Giá trị một phần là $24:2=12$. Số bé là $12\times3=36$, số lớn là $12\times5=60$.
+
+**Kiểm tra.** $60-36=24$. Đúng.
+
+b) Ta lấy số bé chia cho số lớn:
+$$36:60=0{,}6;\qquad 0{,}6\times100=60.$$
+
+**Đáp số.** a) Hai số là $36$ và $60$. b) Số bé bằng $60\%$ số lớn.
+
+[ĐỀ – EN]
+Remember the last lesson. The difference between two numbers is $24$, and the ratio of the smaller number to the larger number is $\dfrac{3}{5}$.
+
+a) Find the two numbers.
+
+b) What percentage of the larger number is the smaller number?
+
+[LỜI GIẢI CŨ – EN]
+a) The difference is $5-3=2$ parts. One part is $24\div2=12$. The smaller number is $12\times3=36$ and the larger number is $12\times5=60$.
+
+**Check.** $60-36=24$. Correct.
+
+b) We divide the smaller number by the larger one:
+$$36\div60=0.6;\qquad 0.6\times100=60.$$
+
+**Answer.** a) The numbers are $36$ and $60$. b) The smaller number is $60\%$ of the larger number.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hôm qua một cửa hàng bán được $80$ quyển vở. Hôm nay cửa hàng bán được $100$ quyển vở. Số vở bán hôm nay bằng bao nhiêu phần trăm số vở bán hôm qua?
+
+[LỜI GIẢI CŨ – VI]
+Ta so sánh hôm nay với hôm qua, nên lấy $100$ chia cho $80$:
+$$100:80=1{,}25;\qquad 1{,}25\times100=125.$$
+
+**Kiểm tra.** $100>80$ nên kết quả phải lớn hơn $100\%$. Đúng.
+
+**Đáp số.** $125\%$.
+
+[ĐỀ – EN]
+Yesterday a shop sold $80$ exercise books. Today it sold $100$ exercise books. The number sold today is what percentage of the number sold yesterday?
+
+[LỜI GIẢI CŨ – EN]
+We compare today with yesterday, so we divide $100$ by $80$:
+$$100\div80=1.25;\qquad 1.25\times100=125.$$
+
+**Check.** $100>80$, so the result must be more than $100\%$. Correct.
+
+**Answer.** $125\%$.
+
+
+######################################################################
+@@@ g5/organising-data
+Bài học: Thu thập, phân loại, sắp xếp các số liệu / Collecting, sorting and organising data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Xếp các số sau theo thứ tự tăng dần: $47, 39, 52, 40, 45$.
+
+[LỜI GIẢI CŨ – VI]
+Số bé nhất là $39$, rồi $40$, $45$, $47$ và số lớn nhất là $52$.
+
+**Đáp số.** $39, 40, 45, 47, 52$.
+
+[ĐỀ – EN]
+Put these numbers in ascending order: $47, 39, 52, 40, 45$.
+
+[LỜI GIẢI CŨ – EN]
+The smallest is $39$, then $40$, $45$, $47$, and the largest is $52$.
+
+**Answer.** $39, 40, 45, 47, 52$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Xếp các số sau theo thứ tự giảm dần: $205, 250, 25, 502, 52$.
+
+[LỜI GIẢI CŨ – VI]
+Các số có ba chữ số: $502>250>205$. Các số có hai chữ số: $52>25$. Số có ba chữ số lớn hơn số có hai chữ số.
+
+**Đáp số.** $502, 250, 205, 52, 25$.
+
+[ĐỀ – EN]
+Put these numbers in descending order: $205, 250, 25, 502, 52$.
+
+[LỜI GIẢI CŨ – EN]
+The three-digit numbers: $502>250>205$. The two-digit numbers: $52>25$. A three-digit number is larger than a two-digit number.
+
+**Answer.** $502, 250, 205, 52, 25$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cô hỏi $12$ bạn nuôi con vật nào: chó, mèo, chó, cá, mèo, chó, chó, mèo, cá, chó, thỏ, mèo. Hãy lập bảng số liệu. Con vật nào được nuôi nhiều nhất?
+
+[LỜI GIẢI CŨ – VI]
+Chó: $5$ bạn; mèo: $4$ bạn; cá: $2$ bạn; thỏ: $1$ bạn. Kiểm tra: $5+4+2+1=12$. Số lớn nhất là $5$.
+
+**Đáp số.** Chó $5$, mèo $4$, cá $2$, thỏ $1$. Nhiều nhất là chó.
+
+[ĐỀ – EN]
+The teacher asks $12$ children which pet they have: dog, cat, dog, fish, cat, dog, dog, cat, fish, dog, rabbit, cat. Make a table of the data. Which pet is the most common?
+
+[LỜI GIẢI CŨ – EN]
+Dog: $5$ children; cat: $4$; fish: $2$; rabbit: $1$. Check: $5+4+2+1=12$. The largest number is $5$.
+
+**Answer.** Dog $5$, cat $4$, fish $2$, rabbit $1$. The most common pet is the dog.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số ngày mưa trong bốn tháng là: tháng $6$: $14$ ngày; tháng $7$: $17$ ngày; tháng $8$: $20$ ngày; tháng $9$: $16$ ngày. Tháng nào mưa nhiều nhất? Cả bốn tháng có bao nhiêu ngày mưa?
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất là $20$, ứng với tháng $8$. Tổng: $14+17+20+16=67$ (ngày).
+
+**Đáp số.** Tháng $8$; $67$ ngày.
+
+[ĐỀ – EN]
+The number of rainy days in four months: June $14$ days; July $17$ days; August $20$ days; September $16$ days. Which month had the most rainy days? How many rainy days were there in the four months?
+
+[LỜI GIẢI CŨ – EN]
+The largest number is $20$, for August. Total: $14+17+20+16=67$ (days).
+
+**Answer.** August; $67$ days.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bốn lớp $5$A, $5$B, $5$C, $5$D trồng tất cả $120$ cây. Lớp $5$A trồng $24$ cây, lớp $5$B trồng $31$ cây, lớp $5$D trồng $28$ cây. Hỏi lớp $5$C trồng bao nhiêu cây? Xếp các lớp theo số cây, từ nhiều đến ít.
+
+[LỜI GIẢI CŨ – VI]
+Ba lớp trồng: $24+31+28=83$ (cây). Lớp $5$C trồng: $120-83=37$ (cây). Kiểm tra: $83+37=120$. Xếp giảm dần: $37, 31, 28, 24$.
+
+**Đáp số.** Lớp $5$C trồng $37$ cây. Thứ tự: $5$C, $5$B, $5$D, $5$A.
+
+[ĐỀ – EN]
+Classes $5$A, $5$B, $5$C and $5$D planted $120$ trees altogether. Class $5$A planted $24$ trees, $5$B planted $31$ and $5$D planted $28$. How many trees did $5$C plant? Put the classes in order of trees planted, from most to least.
+
+[LỜI GIẢI CŨ – EN]
+The three classes planted $24+31+28=83$ (trees). Class $5$C planted $120-83=37$ (trees). Check: $83+37=120$. In descending order: $37, 31, 28, 24$.
+
+**Answer.** Class $5$C planted $37$ trees. Order: $5$C, $5$B, $5$D, $5$A.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Thời gian chạy $60$ m của năm bạn (giây): An $11{,}2$; Bình $10{,}8$; Chi $12{,}5$; Dũng $9{,}9$; Hà $10{,}6$. Ai chạy nhanh nhất? Xếp các bạn từ nhanh đến chậm.
+
+[LỜI GIẢI CŨ – VI]
+Xếp tăng dần: $9{,}9 < 10{,}6 < 10{,}8 < 11{,}2 < 12{,}5$. Số bé nhất là của Dũng.
+
+**Đáp số.** Dũng chạy nhanh nhất. Thứ tự: Dũng, Hà, Bình, An, Chi.
+
+[ĐỀ – EN]
+The times for a $60$ m run (in seconds) are: An $11.2$; Binh $10.8$; Chi $12.5$; Dung $9.9$; Ha $10.6$. Who ran fastest? Put the children in order from fastest to slowest.
+
+[LỜI GIẢI CŨ – EN]
+In ascending order: $9.9 < 10.6 < 10.8 < 11.2 < 12.5$. The smallest time is Dung's.
+
+**Answer.** Dung ran fastest. Order: Dung, Ha, Binh, An, Chi.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Ba bạn đi xe đạp đều trong $2$ giờ. Nam đi $24$ km, Sơn đi $30$ km, Tú đi $26$ km. Tính vận tốc của mỗi bạn rồi xếp từ nhanh đến chậm.
+
+[LỜI GIẢI CŨ – VI]
+Nam: $24:2=12$ (km/giờ). Sơn: $30:2=15$ (km/giờ). Tú: $26:2=13$ (km/giờ). Xếp giảm dần: $15, 13, 12$.
+
+**Đáp số.** Sơn $15$ km/giờ, Tú $13$ km/giờ, Nam $12$ km/giờ.
+
+[ĐỀ – EN]
+Remember the last lesson. Three children cycled at a steady speed for $2$ hours. Nam went $24$ km, Son went $30$ km and Tu went $26$ km. Work out each child's speed, then put them in order from fastest to slowest.
+
+[LỜI GIẢI CŨ – EN]
+Nam: $24\div2=12$ (km/h). Son: $30\div2=15$ (km/h). Tu: $26\div2=13$ (km/h). In descending order: $15, 13, 12$.
+
+**Answer.** Son $15$ km/h, Tu $13$ km/h, Nam $12$ km/h.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cô hỏi $30$ bạn chọn một môn thể thao. Bóng đá có $11$ bạn, cờ vua có $4$ bạn. Số bạn chọn cầu lông nhiều hơn số bạn chọn bơi là $3$ bạn. Hỏi mỗi môn cầu lông và bơi có bao nhiêu bạn?
+
+[LỜI GIẢI CŨ – VI]
+Cầu lông và bơi cộng lại: $30-11-4=15$ (bạn). Số bạn chọn bơi: $(15-3):2=6$. Số bạn chọn cầu lông: $6+3=9$.
+
+**Kiểm tra.** $11+9+6+4=30$ và $9-6=3$. Đúng.
+
+**Đáp số.** Cầu lông $9$ bạn, bơi $6$ bạn.
+
+[ĐỀ – EN]
+The teacher asks $30$ children to choose a sport. Football has $11$ children and chess has $4$. Badminton has $3$ more children than swimming. How many children chose badminton and how many chose swimming?
+
+[LỜI GIẢI CŨ – EN]
+Badminton and swimming together: $30-11-4=15$ (children). Swimming: $(15-3)\div2=6$. Badminton: $6+3=9$.
+
+**Check.** $11+9+6+4=30$ and $9-6=3$. Correct.
+
+**Answer.** Badminton $9$ children, swimming $6$ children.
+
+
+######################################################################
+@@@ g5/percentage-of-an-amount
+Bài học: Tìm giá trị phần trăm của một số / Finding a percentage of an amount
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $20\%$ của $350$.
+
+[LỜI GIẢI CŨ – VI]
+$350:100\times20=3{,}5\times20=70$.
+
+**Đáp số.** $70$.
+
+[ĐỀ – EN]
+Work out $20\%$ of $350$.
+
+[LỜI GIẢI CŨ – EN]
+$350\div100\times20=3.5\times20=70$.
+
+**Answer.** $70$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $5\%$ của $420$.
+
+[LỜI GIẢI CŨ – VI]
+$420\times5:100=2\,100:100=21$.
+
+**Đáp số.** $21$.
+
+[ĐỀ – EN]
+Work out $5\%$ of $420$.
+
+[LỜI GIẢI CŨ – EN]
+$420\times5\div100=2\,100\div100=21$.
+
+**Answer.** $21$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính nhẩm $50\%$ và $25\%$ của $64$.
+
+[LỜI GIẢI CŨ – VI]
+$64:2=32$ và $64:4=16$.
+
+**Đáp số.** $50\%$ của $64$ là $32$; $25\%$ của $64$ là $16$.
+
+[ĐỀ – EN]
+Work out $50\%$ and $25\%$ of $64$ in your head.
+
+[LỜI GIẢI CŨ – EN]
+$64\div2=32$ and $64\div4=16$.
+
+**Answer.** $50\%$ of $64$ is $32$; $25\%$ of $64$ is $16$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $30\%$ của $200\;\square\;40\%$ của $160$.
+
+[LỜI GIẢI CŨ – VI]
+$200\times30:100=60$ và $160\times40:100=6\,400:100=64$. Vì $60<64$ nên $30\%$ của $200$ nhỏ hơn $40\%$ của $160$.
+
+**Đáp số.** Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $30\%$ of $200\;\square\;40\%$ of $160$.
+
+[LỜI GIẢI CŨ – EN]
+$200\times30\div100=60$ and $160\times40\div100=6\,400\div100=64$. Since $60<64$, $30\%$ of $200$ is less than $40\%$ of $160$.
+
+**Answer.** The sign $<$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Lan đọc một quyển truyện dày $180$ trang. Ngày đầu Lan đọc được $40\%$ số trang. Hỏi ngày đầu Lan đọc bao nhiêu trang, và còn bao nhiêu trang chưa đọc?
+
+[LỜI GIẢI CŨ – VI]
+Số trang Lan đọc ngày đầu là:
+$$180\times40:100=7\,200:100=72\ \text{(trang)}.$$
+Số trang chưa đọc là $180-72=108$ (trang).
+
+**Kiểm tra.** $72+108=180$. Đúng.
+
+**Đáp số.** $72$ trang; còn $108$ trang.
+
+[ĐỀ – EN]
+Lan reads a book with $180$ pages. On the first day she reads $40\%$ of the pages. How many pages does she read on the first day, and how many pages are left?
+
+[LỜI GIẢI CŨ – EN]
+The number of pages Lan reads on the first day is:
+$$180\times40\div100=7\,200\div100=72\ \text{(pages)}.$$
+The number of pages left is $180-72=108$ (pages).
+
+**Check.** $72+108=180$. Correct.
+
+**Answer.** $72$ pages; $108$ pages are left.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một đôi giày có giá $400\,000$ đồng. Cửa hàng giảm giá $15\%$. Hỏi em phải trả bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền được giảm là:
+$$400\,000\times15:100=6\,000\,000:100=60\,000\ \text{(đồng)}.$$
+Số tiền phải trả là $400\,000-60\,000=340\,000$ (đồng).
+
+**Đáp số.** $340\,000$ đồng.
+
+[ĐỀ – EN]
+A pair of shoes costs $400\,000$ dong. The shop gives a $15\%$ discount. How much do you pay?
+
+[LỜI GIẢI CŨ – EN]
+The discount is:
+$$400\,000\times15\div100=6\,000\,000\div100=60\,000\ \text{(dong)}.$$
+The amount to pay is $400\,000-60\,000=340\,000$ (dong).
+
+**Answer.** $340\,000$ dong.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Lớp 5C có $40$ học sinh, trong đó có $14$ bạn nam. Tìm tỉ số phần trăm của số bạn nam so với cả lớp. Rồi dùng bài hôm nay để kiểm tra: tìm giá trị phần trăm đó của $40$.
+
+[LỜI GIẢI CŨ – VI]
+$14:40=0{,}35=35\%$.
+
+**Kiểm tra.** $40\times35:100=1\,400:100=14$, đúng bằng số bạn nam.
+
+**Đáp số.** $35\%$.
+
+[ĐỀ – EN]
+Remember the last lesson. Class 5C has $40$ pupils, and $14$ of them are boys. Find the boys as a percentage of the whole class. Then use today's lesson to check: find that percentage of $40$.
+
+[LỜI GIẢI CŨ – EN]
+$14\div40=0.35=35\%$.
+
+**Check.** $40\times35\div100=1\,400\div100=14$, which is exactly the number of boys.
+
+**Answer.** $35\%$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một mảnh vườn hình chữ nhật có chiều dài $40$ m, chiều rộng bằng $60\%$ chiều dài. Người ta dành $25\%$ diện tích mảnh vườn để trồng rau. Tính diện tích trồng rau.
+
+[LỜI GIẢI CŨ – VI]
+Chiều rộng là $40\times60:100=24$ (m). Diện tích mảnh vườn là $40\times24=960$ ($\text{m}^2$). Diện tích trồng rau là $25\%$ của $960$, tức là một phần tư của $960$:
+$$960:4=240\ (\text{m}^2).$$
+
+**Kiểm tra.** $960\times25:100=24\,000:100=240$. Đúng.
+
+**Đáp số.** $240\ \text{m}^2$.
+
+[ĐỀ – EN]
+A rectangular garden is $40$ m long, and its width is $60\%$ of its length. Then $25\%$ of the area of the garden is used to grow vegetables. Find the area used for vegetables.
+
+[LỜI GIẢI CŨ – EN]
+The width is $40\times60\div100=24$ (m). The area of the garden is $40\times24=960$ ($\text{m}^2$). The area for vegetables is $25\%$ of $960$, which is a quarter of $960$:
+$$960\div4=240\ (\text{m}^2).$$
+
+**Check.** $960\times25\div100=24\,000\div100=240$. Correct.
+
+**Answer.** $240\ \text{m}^2$.
+
+
+######################################################################
+@@@ g5/ratios-and-percentages
+Bài học: Tỉ số. Tỉ số phần trăm. Tỉ lệ bản đồ và ứng dụng / Ratios. Percentages. Map scales and their uses
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết tỉ số của: a) $15$ và $20$; b) $18$ và $12$; c) $30$ cm và $1{,}5$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) $15:20=3:4$.
+
+b) $18:12=3:2$.
+
+c) $1{,}5$ m $=150$ cm, nên $30:150=1:5$.
+
+**Đáp số.** a) $3:4$; b) $3:2$; c) $1:5$.
+
+[ĐỀ – EN]
+Write the ratio of: a) $15$ to $20$; b) $18$ to $12$; c) $30$ cm to $1.5$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) $15:20=3:4$.
+
+b) $18:12=3:2$.
+
+c) $1.5$ m $=150$ cm, so $30:150=1:5$.
+
+**Answer.** a) $3:4$; b) $3:2$; c) $1:5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong một sân có $12$ con gà và $28$ con vịt. Tìm tỉ số của số gà và số vịt, và tỉ số của số gà và tổng số gà và vịt.
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số của số gà và số vịt là $12:28=3:7$.
+
+Tổng số gà và vịt là $12+28=40$ con. Tỉ số của số gà và tổng số con là $12:40=3:10$.
+
+**Đáp số.** $3:7$ và $3:10$.
+
+[ĐỀ – EN]
+A yard has $12$ chickens and $28$ ducks. Find the ratio of the number of chickens to the number of ducks, and the ratio of the number of chickens to the total number of chickens and ducks.
+
+[LỜI GIẢI CŨ – EN]
+The ratio of the number of chickens to the number of ducks is $12:28=3:7$.
+
+The total number of chickens and ducks is $12+28=40$. The ratio of the number of chickens to the total is $12:40=3:10$.
+
+**Answer.** $3:7$ and $3:10$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm tỉ số phần trăm của: a) $7$ và $20$; b) $9$ và $12$; c) $3$ và $8$.
+
+[LỜI GIẢI CŨ – VI]
+a) $7:20=0{,}35=35\%$.
+
+b) $9:12=0{,}75=75\%$.
+
+c) $3:8=0{,}375=37{,}5\%$.
+
+**Đáp số.** a) $35\%$; b) $75\%$; c) $37{,}5\%$.
+
+[ĐỀ – EN]
+Find the percentage: a) $7$ out of $20$; b) $9$ out of $12$; c) $3$ out of $8$.
+
+[LỜI GIẢI CŨ – EN]
+a) $7\div20=0.35=35\%$.
+
+b) $9\div12=0.75=75\%$.
+
+c) $3\div8=0.375=37.5\%$.
+
+**Answer.** a) $35\%$; b) $75\%$; c) $37.5\%$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm: a) $25\%$ của $120$; b) $8\%$ của $350$; c) $150\%$ của $60$.
+
+[LỜI GIẢI CŨ – VI]
+a) $120\times25:100=30$.
+
+b) $350\times8:100=28$.
+
+c) $60\times150:100=90$.
+
+**Đáp số.** a) $30$; b) $28$; c) $90$.
+
+[ĐỀ – EN]
+Find: a) $25\%$ of $120$; b) $8\%$ of $350$; c) $150\%$ of $60$.
+
+[LỜI GIẢI CŨ – EN]
+a) $120\times25\div100=30$.
+
+b) $350\times8\div100=28$.
+
+c) $60\times150\div100=90$.
+
+**Answer.** a) $30$; b) $28$; c) $90$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm số, biết: a) $40\%$ của nó là $18$; b) $15\%$ của nó là $12$.
+
+[LỜI GIẢI CŨ – VI]
+a) $18:40\times100=45$. Thử lại: $45\times40:100=18$.
+
+b) $12:15\times100=80$. Thử lại: $80\times15:100=12$.
+
+**Đáp số.** a) $45$; b) $80$.
+
+[ĐỀ – EN]
+Find the number, given that: a) $40\%$ of it is $18$; b) $15\%$ of it is $12$.
+
+[LỜI GIẢI CŨ – EN]
+a) $18\div40\times100=45$. Check: $45\times40\div100=18$.
+
+b) $12\div15\times100=80$. Check: $80\times15\div100=12$.
+
+**Answer.** a) $45$; b) $80$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một trường có $600$ học sinh, trong đó $45\%$ là học sinh nữ. Tính số học sinh nữ và số học sinh nam của trường.
+
+[LỜI GIẢI CŨ – VI]
+Số học sinh nữ là $600\times45:100=270$ (học sinh).
+
+Số học sinh nam là $600-270=330$ (học sinh).
+
+**Đáp số.** $270$ học sinh nữ; $330$ học sinh nam.
+
+[ĐỀ – EN]
+Suppose a school has $600$ pupils, of whom $45\%$ are girls. Find the number of girls and the number of boys in the school.
+
+[LỜI GIẢI CŨ – EN]
+The number of girls is $600\times45\div100=270$ (pupils).
+
+The number of boys is $600-270=330$ (pupils).
+
+**Answer.** $270$ girls; $330$ boys.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một chiếc áo có giá niêm yết $180\,000$ đồng và được giảm giá $15\%$. Hỏi giá chiếc áo sau khi giảm là bao nhiêu đồng?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền được giảm là $180\,000\times15:100=27\,000$ đồng.
+
+Giá chiếc áo sau khi giảm là $180\,000-27\,000=153\,000$ (đồng).
+
+**Đáp số.** $153\,000$ đồng.
+
+[ĐỀ – EN]
+Suppose a shirt has a marked price of $180\,000$ dong and a discount of $15\%$. What is the price of the shirt after the discount, in dong?
+
+[LỜI GIẢI CŨ – EN]
+The amount of the discount is $180\,000\times15\div100=27\,000$ dong.
+
+The price of the shirt after the discount is $180\,000-27\,000=153\,000$ (dong).
+
+**Answer.** $153\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân, chia số thập phân với $10$; $100$; $1000$. Trên bản đồ tỉ lệ $1:100\,000$, khoảng cách giữa hai làng là $6{,}5$ cm. Hỏi khoảng cách thật giữa hai làng là bao nhiêu ki-lô-mét?
+
+[LỜI GIẢI CŨ – VI]
+Khoảng cách thật là $6{,}5\times100\,000=650\,000$ cm.
+
+Đổi ra ki-lô-mét: $650\,000:100\,000=6{,}5$ km.
+
+**Đáp số.** $6{,}5$ km.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying and dividing decimals by $10$; $100$; $1000$. On a map with scale $1:100\,000$, the distance between two villages is $6.5$ cm. How many kilometres apart are the villages in real life?
+
+[LỜI GIẢI CŨ – EN]
+The real distance is $6.5\times100\,000=650\,000$ cm.
+
+Change to kilometres: $650\,000\div100\,000=6.5$ km.
+
+**Answer.** $6.5$ km.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Trên bản đồ tỉ lệ $1:2\,000\,000$, hai thành phố cách nhau $60$ km thật. Hỏi trên bản đồ hai thành phố cách nhau bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$60$ km $=6\,000\,000$ cm. Khoảng cách trên bản đồ là $6\,000\,000:2\,000\,000=3$ cm.
+
+**Đáp số.** $3$ cm.
+
+[ĐỀ – EN]
+On a map with scale $1:2\,000\,000$, two cities are $60$ km apart in real life. How many centimetres apart are they on the map?
+
+[LỜI GIẢI CŨ – EN]
+$60$ km $=6\,000\,000$ cm. The distance on the map is $6\,000\,000\div2\,000\,000=3$ cm.
+
+**Answer.** $3$ cm.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Giá một món hàng được tăng $20\%$, sau đó lại giảm $20\%$ (tính theo giá đã tăng). Giá cuối cùng bằng bao nhiêu phần trăm giá ban đầu?
+
+[LỜI GIẢI CŨ – VI]
+Chọn giá ban đầu là $100\,000$ đồng. Sau khi tăng $20\%$, giá là $100\,000+100\,000\times20:100=120\,000$ đồng.
+
+Giảm $20\%$ của $120\,000$ đồng: $120\,000\times20:100=24\,000$ đồng, nên giá cuối cùng là $120\,000-24\,000=96\,000$ đồng.
+
+Tỉ số phần trăm của $96\,000$ và $100\,000$ là $96\,000:100\,000=0{,}96=96\%$.
+
+**Đáp số.** $96\%$ giá ban đầu (giảm $4\%$).
+
+[ĐỀ – EN]
+The price of an item is increased by $20\%$, and then decreased by $20\%$ (of the increased price). What percentage of the original price is the final price?
+
+[LỜI GIẢI CŨ – EN]
+Take the original price as $100\,000$ dong. After the $20\%$ increase, the price is $100\,000+100\,000\times20\div100=120\,000$ dong.
+
+A $20\%$ decrease of $120\,000$ dong is $120\,000\times20\div100=24\,000$ dong, so the final price is $120\,000-24\,000=96\,000$ dong.
+
+$96\,000$ out of $100\,000$ as a percentage is $96\,000\div100\,000=0.96=96\%$.
+
+**Answer.** $96\%$ of the original price (a decrease of $4\%$).
+
+
+######################################################################
+@@@ g5/review-fraction-operations
+Bài học: Ôn tập các phép tính với phân số / Review: calculations with fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $\dfrac{3}{10}+\dfrac{4}{15}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{9}{30}+\dfrac{8}{30}=\dfrac{17}{30}.$$
+
+**Đáp số.** $\dfrac{17}{30}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{3}{10}+\dfrac{4}{15}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{9}{30}+\dfrac{8}{30}=\dfrac{17}{30}.$$
+
+**Answer.** $\dfrac{17}{30}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $\dfrac{7}{8}-\dfrac{1}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{21}{24}-\dfrac{4}{24}=\dfrac{17}{24}.$$
+
+**Đáp số.** $\dfrac{17}{24}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{7}{8}-\dfrac{1}{6}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{21}{24}-\dfrac{4}{24}=\dfrac{17}{24}.$$
+
+**Answer.** $\dfrac{17}{24}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\dfrac{5}{6}\times\dfrac{9}{10}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{45}{60}=\dfrac{3}{4}.$$
+
+**Đáp số.** $\dfrac{3}{4}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{5}{6}\times\dfrac{9}{10}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{45}{60}=\dfrac{3}{4}.$$
+
+**Answer.** $\dfrac{3}{4}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $\dfrac{4}{9}:\dfrac{2}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{4}{9}:\dfrac{2}{3}=\dfrac{4}{9}\times\dfrac{3}{2}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Work out $\dfrac{4}{9}\div\dfrac{2}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{4}{9}\div\dfrac{2}{3}=\dfrac{4}{9}\times\dfrac{3}{2}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Answer.** $\dfrac{2}{3}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}=\dfrac{7}{12}.$$
+
+**Đáp số.** $\dfrac{7}{12}$.
+
+[ĐỀ – EN]
+Work out the value of the expression $\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}=\dfrac{7}{12}.$$
+
+**Answer.** $\dfrac{7}{12}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $\left(\dfrac{2}{3}+\dfrac{1}{6}\right):\dfrac{5}{12}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\left(\dfrac{2}{3}+\dfrac{1}{6}\right):\dfrac{5}{12}=\dfrac{5}{6}:\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2.$$
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+Work out the value of the expression $\left(\dfrac{2}{3}+\dfrac{1}{6}\right)\div\dfrac{5}{12}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\left(\dfrac{2}{3}+\dfrac{1}{6}\right)\div\dfrac{5}{12}=\dfrac{5}{6}\div\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2.$$
+
+**Answer.** $2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một bể nước có $\dfrac{3}{5}$ bể. Người ta dùng $\dfrac{1}{4}$ bể nước, sau đó đổ thêm vào $\dfrac{1}{10}$ bể nước. Hỏi lúc này nước trong bể chiếm bao nhiêu phần bể?
+
+[LỜI GIẢI CŨ – VI]
+Sau khi dùng, nước còn lại là $\dfrac{3}{5}-\dfrac{1}{4}=\dfrac{12}{20}-\dfrac{5}{20}=\dfrac{7}{20}$ (bể).
+
+Sau khi đổ thêm, nước trong bể là $\dfrac{7}{20}+\dfrac{1}{10}=\dfrac{7}{20}+\dfrac{2}{20}=\dfrac{9}{20}$ (bể).
+
+**Đáp số.** $\dfrac{9}{20}$ bể.
+
+[ĐỀ – EN]
+A water tank is $\dfrac{3}{5}$ full. $\dfrac{1}{4}$ of a tank of water is used, and then $\dfrac{1}{10}$ of a tank of water is poured in. What fraction of the tank is now full?
+
+[LỜI GIẢI CŨ – EN]
+After the water is used, the water left is $\dfrac{3}{5}-\dfrac{1}{4}=\dfrac{12}{20}-\dfrac{5}{20}=\dfrac{7}{20}$ (of the tank).
+
+After more water is poured in, the water in the tank is $\dfrac{7}{20}+\dfrac{1}{10}=\dfrac{7}{20}+\dfrac{2}{20}=\dfrac{9}{20}$ (of the tank).
+
+**Answer.** $\dfrac{9}{20}$ of the tank.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một mảnh vải dài $\dfrac{5}{6}$ m. Mỗi chiếc khăn cần $\dfrac{1}{12}$ m vải. Hỏi may được nhiều nhất bao nhiêu chiếc khăn?
+
+[LỜI GIẢI CŨ – VI]
+Số chiếc khăn may được là:
+$$\dfrac{5}{6}:\dfrac{1}{12}=\dfrac{5}{6}\times12=\dfrac{60}{6}=10\ \text{(chiếc)}.$$
+
+**Thử lại.** $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$. Đúng.
+
+**Đáp số.** $10$ chiếc khăn.
+
+[ĐỀ – EN]
+A length of cloth is $\dfrac{5}{6}$ m long. Each scarf needs $\dfrac{1}{12}$ m of cloth. What is the greatest number of scarves that can be made?
+
+[LỜI GIẢI CŨ – EN]
+The number of scarves that can be made is:
+$$\dfrac{5}{6}\div\dfrac{1}{12}=\dfrac{5}{6}\times12=\dfrac{60}{6}=10\ \text{(scarves)}.$$
+
+**Check.** $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$. Correct.
+
+**Answer.** $10$ scarves.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài tìm phân số của một số. Một lớp có $32$ học sinh, trong đó $\dfrac{3}{8}$ số học sinh thích bơi và $\dfrac{1}{4}$ số học sinh thích cầu lông. Hỏi số em thích bơi nhiều hơn số em thích cầu lông bao nhiêu em?
+
+[LỜI GIẢI CŨ – VI]
+Số em thích bơi là $32:8\times3=12$ (em).
+
+Số em thích cầu lông là $32:4=8$ (em).
+
+Số em thích bơi nhiều hơn số em thích cầu lông là $12-8=4$ (em).
+
+**Đáp số.** $4$ em.
+
+[ĐỀ – EN]
+Remember the lesson on finding a fraction of an amount. A class has $32$ students, of whom $\dfrac{3}{8}$ like swimming and $\dfrac{1}{4}$ like badminton. How many more students like swimming than like badminton?
+
+[LỜI GIẢI CŨ – EN]
+The number who like swimming is $32\div8\times3=12$ (students).
+
+The number who like badminton is $32\div4=8$ (students).
+
+The number who like swimming exceeds the number who like badminton by $12-8=4$ (students).
+
+**Answer.** $4$ students.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính nhanh: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{1}{2}=1-\dfrac{1}{2}$, $\dfrac{1}{6}=\dfrac{1}{2}-\dfrac{1}{3}$, $\dfrac{1}{12}=\dfrac{1}{3}-\dfrac{1}{4}$, $\dfrac{1}{20}=\dfrac{1}{4}-\dfrac{1}{5}$.
+
+Cộng lại: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4}+\dfrac{1}{4}-\dfrac{1}{5}=1-\dfrac{1}{5}=\dfrac{4}{5}$.
+
+**Thử lại.** $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$. Đúng.
+
+**Đáp số.** $\dfrac{4}{5}$.
+
+[ĐỀ – EN]
+Calculate quickly: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{1}{2}=1-\dfrac{1}{2}$, $\dfrac{1}{6}=\dfrac{1}{2}-\dfrac{1}{3}$, $\dfrac{1}{12}=\dfrac{1}{3}-\dfrac{1}{4}$, $\dfrac{1}{20}=\dfrac{1}{4}-\dfrac{1}{5}$.
+
+Adding: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4}+\dfrac{1}{4}-\dfrac{1}{5}=1-\dfrac{1}{5}=\dfrac{4}{5}$.
+
+**Check.** $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$. Correct.
+
+**Answer.** $\dfrac{4}{5}$.
+
+
+===== HẾT FILE Vinax.vn-06-LG =====

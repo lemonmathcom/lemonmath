@@ -1,0 +1,520 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-14-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-14-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-14-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/circle-centre-radius-diameter
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Alexnguyen122222-14-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Alexnguyen122222-14-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-14-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/circle-centre-radius-diameter – BẢN TIẾNG VIỆT ########
+---
+title: Hình tròn. Tâm, bán kính, đường kính của hình tròn
+description: Em học nhận biết hình tròn, tâm, bán kính, đường kính; biết đường kính gấp đôi bán kính và dùng com-pa để vẽ hình tròn.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết hình tròn, tâm, bán kính và đường kính.
+  - Biết mọi bán kính của một hình tròn bằng nhau và đường kính gấp đôi bán kính.
+  - Tính bán kính từ đường kính (và ngược lại), vẽ hình tròn bằng com-pa.
+  :::
+
+[[P1·752e]]
+Nam dùng com-pa vẽ một hình tròn. Bạn đặt đầu nhọn của com-pa tại điểm $O$ và mở com-pa ra $3$ cm. Hỏi hình tròn Nam vẽ có đường kính bao nhiêu xăng-ti-mét?
+
+[[P2·a724]]
+Bài này giúp em gọi tên các phần của hình tròn và trả lời câu hỏi trên.
+
+## Cùng khám phá
+
+[[P3·bf2b]]
+Khi vẽ bằng com-pa, đầu nhọn đứng yên tại điểm $O$, đầu bút xoay một vòng. Mọi điểm trên đường vẽ đều cách $O$ một khoảng như nhau, bằng độ mở com-pa.
+
+:::diagram Hình tròn tâm O: bán kính OA, OC và đường kính AB
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·202c]]
+Em quan sát hình:
+
+[[P5·506a]]
+- Điểm $O$ là **tâm** của hình tròn.
+- Đoạn thẳng nối tâm $O$ với một điểm trên đường tròn (như $OA$, $OB$, $OC$) là **bán kính**.
+- Đoạn thẳng $AB$ đi qua tâm $O$ và có hai đầu trên đường tròn là **đường kính**.
+
+[[P6·dd2e]]
+Đường kính $AB$ gồm hai bán kính $OA$ và $OB$, nên đường kính dài gấp đôi bán kính. Tâm $O$ là trung điểm của đường kính $AB$.
+
+  :::theorem Bán kính và đường kính
+  Trong một hình tròn:
+
+  - Mọi bán kính đều bằng nhau.
+  - Đường kính gấp đôi bán kính: đường kính $=$ bán kính $\times2$.
+  - Bán kính bằng một nửa đường kính: bán kính $=$ đường kính $:2$.
+  :::
+
+[[P7·0747]]
+Điều này đúng vì mọi điểm trên đường tròn cách tâm một khoảng bằng độ mở com-pa, và đường kính gồm hai bán kính nối đuôi nhau.
+
+[[P8·8a61]]
+Với com-pa mở $3$ cm, bán kính là $3$ cm, nên đường kính là $3\times2=6$ cm.
+
+## Ví dụ
+
+[[P9·d358]]
+Ta bắt đầu bằng việc gọi tên các đoạn thẳng.
+
+  :::example Gọi tên
+  Cho hình tròn tâm $O$. Các điểm $A$, $B$, $C$ nằm trên đường tròn, điểm $O$ nằm trên đoạn thẳng $AB$. Gọi tên các đoạn $OA$, $AB$, $OC$.
+
+  **Lời giải.** $OA$ nối tâm với một điểm trên đường tròn, nên $OA$ là bán kính. $AB$ đi qua tâm và có hai đầu trên đường tròn, nên $AB$ là đường kính. $OC$ nối tâm với điểm $C$ trên đường tròn, nên $OC$ là bán kính.
+
+  Vậy $OA$, $OC$ là bán kính; $AB$ là đường kính.
+  :::
+
+[[P10·5f48]]
+Bây giờ em tính đường kính từ bán kính.
+
+  :::example Từ bán kính đến đường kính
+  Hình tròn có bán kính $5$ cm. Tính đường kính.
+
+  **Lời giải.** Đường kính gấp đôi bán kính, nên ta nhân bán kính với $2$:
+  $$5\times2=10\ \text{(cm)}.$$
+  **Thử lại.** $10:2=5$. Đúng.
+
+  Vậy đường kính là $10$ cm.
+  :::
+
+[[P11·3ce9]]
+Làm ngược lại, em tính bán kính từ đường kính.
+
+  :::example Từ đường kính đến bán kính
+  Hình tròn có đường kính $14$ cm. Tính bán kính.
+
+  **Lời giải.** Bán kính bằng một nửa đường kính, nên ta chia đường kính cho $2$:
+  $$14:2=7\ \text{(cm)}.$$
+  **Thử lại.** $7\times2=14$. Đúng.
+
+  Vậy bán kính là $7$ cm.
+  :::
+
+[[P12·3c0a]]
+Tiếp theo, em giải một bài toán trong cuộc sống.
+
+  :::example Chiếc đĩa
+  Một chiếc đĩa tròn có bán kính $9$ cm. Hỏi đường kính của chiếc đĩa là bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** Đường kính gấp đôi bán kính, nên đường kính là:
+  $$9\times2=18\ \text{(cm)}.$$
+  **Thử lại.** $18:2=9$. Đúng.
+
+  Vậy đường kính của chiếc đĩa là $18$ cm.
+  :::
+
+[[P13·ed82]]
+Cuối cùng, em dùng com-pa để vẽ.
+
+  :::example Vẽ hình tròn
+  Muốn vẽ hình tròn có đường kính $8$ cm, em cần mở com-pa bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** Độ mở com-pa chính là bán kính. Bán kính bằng một nửa đường kính:
+  $$8:2=4\ \text{(cm)}.$$
+  **Thử lại.** $4\times2=8$. Đúng.
+
+  Vậy em cần mở com-pa $4$ cm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·b3b7]]
+- **Nhầm bán kính với đường kính.** Sai: hình tròn có bán kính $5$ cm thì đường kính cũng $5$ cm. Vì sao sai: đường kính gồm hai bán kính. Đúng: đường kính là $5\times2=10$ cm.
+- **Cho rằng đoạn nào nối hai điểm trên đường tròn cũng là đường kính.** Sai: đoạn $AC$ nối hai điểm trên đường tròn nên là đường kính. Vì sao sai: đường kính phải đi qua tâm $O$. Đúng: chỉ đoạn nối hai điểm trên đường tròn và đi qua tâm mới là đường kính.
+- **Quên chia đôi hoặc nhân đôi.** Sai: đường kính $14$ cm thì bán kính $14$ cm. Vì sao sai: bán kính chỉ bằng một nửa. Đúng: $14:2=7$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $10$". Đúng: "Đáp số: $10$ cm".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hình tròn | circle
+  - tâm | centre
+  - bán kính | radius
+  - đường kính | diameter
+  - đường tròn | circumference (the curve of the circle)
+  - com-pa | compasses
+  - độ mở com-pa | opening of the compasses
+  - gấp đôi | double
+  :::
+
+## Tóm tắt
+
+[[P15·cc1d]]
+- Điểm $O$ là tâm; mọi điểm trên đường tròn cách $O$ một khoảng bằng nhau.
+- Bán kính nối tâm với một điểm trên đường tròn; mọi bán kính bằng nhau.
+- Đường kính đi qua tâm và có hai đầu trên đường tròn; tâm là trung điểm của đường kính.
+- Đường kính $=$ bán kính $\times2$; bán kính $=$ đường kính $:2$.
+- Độ mở com-pa bằng bán kính; ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/circle-centre-radius-diameter – BẢN TIẾNG ANH ########
+---
+title: Circles: centre, radius and diameter
+description: Learn to recognise a circle, its centre, radius and diameter; know the diameter is double the radius and use compasses to draw a circle.
+minutes: 15
+---
+
+  :::goals
+  - Recognise a circle, its centre, radius and diameter.
+  - Know that all radii of a circle are equal and the diameter is double the radius.
+  - Work out the radius from the diameter (and the other way round) and draw a circle with compasses.
+  :::
+
+[[P1·20fb]]
+Nam draws a circle with compasses. He puts the sharp point at a point $O$ and opens the compasses to $3$ cm. How many centimetres is the diameter of the circle he draws?
+
+[[P2·533e]]
+This lesson helps you name the parts of a circle and answer that question.
+
+## Let's explore
+
+[[P3·d9e4]]
+When we draw with compasses, the sharp point stays still at $O$ and the pencil turns all the way round. Every point on the line we draw is the same distance from $O$, equal to the opening of the compasses.
+
+:::diagram A circle with centre O: radii OA, OC and diameter AB
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·4271]]
+Look at the picture:
+
+[[P5·1c74]]
+- Point $O$ is the **centre** of the circle.
+- A line segment from the centre $O$ to a point on the circle (such as $OA$, $OB$, $OC$) is a **radius**.
+- The line segment $AB$ passes through the centre $O$ and has both ends on the circle. It is a **diameter**.
+
+[[P6·a346]]
+The diameter $AB$ is made of two radii, $OA$ and $OB$, so the diameter is double the radius. The centre $O$ is the midpoint of the diameter $AB$.
+
+  :::theorem Radius and diameter
+  In a circle:
+
+  - All radii are equal.
+  - The diameter is double the radius: diameter $=$ radius $\times2$.
+  - The radius is half the diameter: radius $=$ diameter $\div2$.
+  :::
+
+[[P7·6893]]
+This is true because every point on the circle is the same distance from the centre, equal to the opening of the compasses, and the diameter is two radii end to end.
+
+[[P8·3cac]]
+With the compasses open to $3$ cm, the radius is $3$ cm, so the diameter is $3\times2=6$ cm.
+
+## Examples
+
+[[P9·fed0]]
+We start by naming line segments.
+
+  :::example Naming
+  In a circle with centre $O$, the points $A$, $B$, $C$ are on the circle and $O$ is on the line segment $AB$. Name the segments $OA$, $AB$ and $OC$.
+
+  **Solution.** $OA$ joins the centre to a point on the circle, so $OA$ is a radius. $AB$ passes through the centre and has both ends on the circle, so $AB$ is a diameter. $OC$ joins the centre to the point $C$ on the circle, so $OC$ is a radius.
+
+  So $OA$ and $OC$ are radii; $AB$ is a diameter.
+  :::
+
+[[P10·42df]]
+Now work out the diameter from the radius.
+
+  :::example From radius to diameter
+  A circle has radius $5$ cm. Find the diameter.
+
+  **Solution.** The diameter is double the radius, so we multiply the radius by $2$:
+  $$5\times2=10\ \text{(cm)}.$$
+  **Check.** $10\div2=5$. Correct.
+
+  So the diameter is $10$ cm.
+  :::
+
+[[P11·07f6]]
+Going the other way, find the radius from the diameter.
+
+  :::example From diameter to radius
+  A circle has diameter $14$ cm. Find the radius.
+
+  **Solution.** The radius is half the diameter, so we divide the diameter by $2$:
+  $$14\div2=7\ \text{(cm)}.$$
+  **Check.** $7\times2=14$. Correct.
+
+  So the radius is $7$ cm.
+  :::
+
+[[P12·b5b9]]
+Next, a problem from everyday life.
+
+  :::example A plate
+  A round plate has radius $9$ cm. How many centimetres is the diameter of the plate?
+
+  **Solution.** The diameter is double the radius, so the diameter is:
+  $$9\times2=18\ \text{(cm)}.$$
+  **Check.** $18\div2=9$. Correct.
+
+  So the diameter of the plate is $18$ cm.
+  :::
+
+[[P13·cd31]]
+Finally, use compasses to draw.
+
+  :::example Drawing a circle
+  To draw a circle with diameter $8$ cm, how many centimetres should you open the compasses?
+
+  **Solution.** The opening of the compasses is the radius. The radius is half the diameter:
+  $$8\div2=4\ \text{(cm)}.$$
+  **Check.** $4\times2=8$. Correct.
+
+  So you open the compasses to $4$ cm.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·a209]]
+- **Mixing up radius and diameter.** Wrong: a circle with radius $5$ cm has diameter $5$ cm too. Why it is wrong: the diameter is made of two radii. Right: the diameter is $5\times2=10$ cm.
+- **Thinking any segment joining two points on the circle is a diameter.** Wrong: the segment $AC$ joins two points on the circle, so it is a diameter. Why it is wrong: a diameter must pass through the centre $O$. Right: only a segment joining two points on the circle and passing through the centre is a diameter.
+- **Forgetting to halve or double.** Wrong: diameter $14$ cm means radius $14$ cm. Why it is wrong: the radius is only half. Right: $14\div2=7$ cm.
+- **Forgetting the unit.** Wrong: "Answer: $10$". Right: "Answer: $10$ cm".
+:::
+
+## Key terms
+
+  :::terms
+  - circle | hình tròn
+  - centre | tâm
+  - radius | bán kính
+  - diameter | đường kính
+  - circumference (the curve of the circle) | đường tròn
+  - compasses | com-pa
+  - opening of the compasses | độ mở com-pa
+  - double | gấp đôi
+  :::
+
+## Summary
+
+[[P15·6abe]]
+- Point $O$ is the centre; every point on the circle is the same distance from $O$.
+- A radius joins the centre to a point on the circle; all radii are equal.
+- A diameter passes through the centre with both ends on the circle; the centre is its midpoint.
+- Diameter $=$ radius $\times2$; radius $=$ diameter $\div2$.
+- The opening of the compasses is the radius; write the unit in the answer.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

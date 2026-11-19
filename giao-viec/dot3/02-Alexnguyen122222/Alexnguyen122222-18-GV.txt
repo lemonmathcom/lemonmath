@@ -1,0 +1,830 @@
+######################################################################
+TÀI KHOẢN: Alexnguyen122222   |   FILE: Alexnguyen122222-18-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Alexnguyen122222-18-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-18-GV
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/four-times-table, g3/g3-cubes-and-cuboids
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Alexnguyen122222-18-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Alexnguyen122222-18-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-18-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g3/four-times-table – BẢN TIẾNG VIỆT ########
+---
+title: Bảng nhân 4, bảng chia 4
+description: Em học bảng nhân 4 bằng cách gấp đôi bảng nhân 2 và cộng thêm 4, rồi dùng bảng nhân 4 để chia cho 4 và giải bài toán.
+minutes: 15
+---
+
+  :::goals
+  - Thuộc và lập được bảng nhân 4.
+  - Dùng bảng nhân 4 để chia cho 4.
+  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
+  :::
+
+[[P1·0770]]
+Trong chuồng có $5$ con chó, mỗi con có $4$ cái chân. Hỏi $5$ con chó có tất cả bao nhiêu cái chân?
+
+[[P2·7b1b]]
+Em có thể đếm từng cái chân, nhưng sẽ chậm và dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $4$.
+
+## Cùng khám phá
+
+[[P3·43e5]]
+Mỗi con chó có $4$ chân, tức là $4$ chân một nhóm. Ta cộng dần từng nhóm:
+
+[[P4·bb0c]]
+- $1$ con: $4$ chân.
+- $2$ con: $4+4=8$ chân.
+- $3$ con: $8+4=12$ chân.
+- $4$ con: $12+4=16$ chân.
+- $5$ con: $16+4=20$ chân.
+
+[[P5·78e8]]
+Vậy $5$ con chó có $20$ chân, tức là $4\times5=20$. Mỗi lần thêm một nhóm, tích tăng thêm $4$.
+
+:::graph Trên tia số: mỗi bước nhảy 4 đơn vị
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·469a]]
+Em còn một mẹo nữa: $4$ gấp đôi $2$, nên $4\times5$ gấp đôi $2\times5=10$, và $10+10=20$.
+
+  :::theorem Bảng nhân 4
+  Muốn tính $4\times n$, em lấy $4\times(n-1)$ rồi cộng thêm $4$. Em cũng có thể lấy $2\times n$ rồi gấp đôi.
+
+  | $4\times1$ | $4\times2$ | $4\times3$ | $4\times4$ | $4\times5$ |
+  |---|---|---|---|---|
+  | $4$ | $8$ | $12$ | $16$ | $20$ |
+
+  | $4\times6$ | $4\times7$ | $4\times8$ | $4\times9$ | $4\times10$ |
+  |---|---|---|---|---|
+  | $24$ | $28$ | $32$ | $36$ | $40$ |
+  :::
+
+[[P7·b542]]
+Bảng chia $4$ suy ra từ bảng nhân $4$. Vì $4\times5=20$ nên $20:4=5$. Em chia $20$ vật thành các nhóm $4$ vật thì được $5$ nhóm.
+
+## Ví dụ
+
+[[P8·33f8]]
+Ta bắt đầu bằng cách lấy tích liền trước cộng thêm $4$.
+
+  :::example Tính $4\times7$
+  **Lời giải.** Em biết $4\times6=24$. Thêm một nhóm $4$ nữa:
+  $$4\times7=4\times6+4=24+4=28.$$
+  Vậy $4\times7=28$.
+  :::
+
+[[P9·c58f]]
+Bây giờ em dùng mẹo gấp đôi.
+
+  :::example Tính $4\times8$ bằng cách gấp đôi
+  **Lời giải.** Ta có $4\times4=16$. Mà $8$ gấp đôi $4$ nên $4\times8$ gấp đôi $4\times4$:
+  $$4\times8=16+16=32.$$
+  Vậy $4\times8=32$.
+  :::
+
+[[P10·a50f]]
+Tiếp theo là phép chia. Em tìm trong bảng nhân $4$ một tích bằng số bị chia.
+
+  :::example Tính $36:4$
+  **Lời giải.** Em tìm số nào nhân $4$ bằng $36$. Trong bảng nhân $4$ ta có $4\times9=36$, nên
+  $$36:4=9.$$
+  **Thử lại.** $4\times9=36$. Đúng.
+
+  Vậy $36:4=9$.
+  :::
+
+[[P11·1b96]]
+Bây giờ em giải bài toán có lời văn bằng phép nhân.
+
+  :::example Chỗ ngồi
+  Mỗi bàn có $4$ bạn ngồi. Hỏi $6$ bàn như vậy có bao nhiêu bạn ngồi?
+
+  **Lời giải.** Mỗi bàn là một nhóm $4$ bạn, $6$ bàn là $6$ nhóm, nên em làm phép nhân. Số bạn ngồi là:
+  $$4\times6=24\ \text{(bạn)}.$$
+  Vậy $6$ bàn có $24$ bạn ngồi.
+  :::
+
+[[P12·f594]]
+Cuối cùng, em giải một bài toán bằng phép chia.
+
+  :::example Xếp cam vào đĩa
+  Có $28$ quả cam, xếp vào các đĩa, mỗi đĩa $4$ quả. Hỏi xếp được bao nhiêu đĩa?
+
+  **Lời giải.** Em chia $28$ quả thành các nhóm $4$ quả, nên em làm phép chia. Số đĩa là:
+  $$28:4=7\ \text{(đĩa)}.$$
+  **Thử lại.** $4\times7=28$. Đúng.
+
+  Vậy xếp được $7$ đĩa.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·eb99]]
+- **Lấy sai hàng liền kề.** Sai: $4\times7=24$. Vì sao sai: $24$ là $4\times6$, em quên thêm một nhóm $4$. Đúng: $4\times7=24+4=28$.
+- **Cộng thay cho nhân.** Sai: $4\times6=10$. Vì sao sai: $4+6$ là phép cộng, còn $4\times6$ là $6$ nhóm, mỗi nhóm $4$. Đúng: $4\times6=24$.
+- **Chia nhầm với tích gần đúng.** Sai: $36:4=8$. Vì sao sai: $4\times8=32$, không phải $36$. Đúng: $4\times9=36$ nên $36:4=9$.
+- **Quên đơn vị.** Sai: "Đáp số: $24$". Đúng: "Đáp số: $24$ bạn".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - bảng nhân 4 | 4 times table
+  - bảng chia 4 | division facts for 4
+  - thừa số | factor
+  - tích | product
+  - số bị chia | dividend
+  - số chia | divisor
+  - thương | quotient
+  - gấp đôi | double
+  :::
+
+## Tóm tắt
+
+[[P14·06af]]
+- Bảng nhân $4$: $4,\ 8,\ 12,\ 16,\ 20,\ 24,\ 28,\ 32,\ 36,\ 40$.
+- Mỗi lần thêm một nhóm, tích tăng thêm $4$: $4\times n=4\times(n-1)+4$.
+- $4$ gấp đôi $2$, nên $4\times n$ gấp đôi $2\times n$.
+- Từ $4\times a=b$ ta có $b:4=a$ và $b:a=4$.
+- Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/four-times-table – BẢN TIẾNG ANH ########
+---
+title: The 4 times table and dividing by 4
+description: Learn the 4 times table by doubling the 2 times table and adding 4, then use it to divide by 4 and to solve word problems.
+minutes: 15
+---
+
+  :::goals
+  - Know and build the 4 times table.
+  - Use the 4 times table to divide by 4.
+  - Solve a word problem with one multiplication or one division.
+  :::
+
+[[P1·9cd0]]
+In a kennel there are $5$ dogs, and each dog has $4$ legs. How many legs do the $5$ dogs have altogether?
+
+[[P2·7d93]]
+You could count every leg, but that is slow and easy to get wrong. This lesson helps you work it out quickly with the $4$ times table.
+
+## Let's explore
+
+[[P3·ff4f]]
+Each dog has $4$ legs, so we have groups of $4$ legs. We add one group at a time:
+
+[[P4·aa7e]]
+- $1$ dog: $4$ legs.
+- $2$ dogs: $4+4=8$ legs.
+- $3$ dogs: $8+4=12$ legs.
+- $4$ dogs: $12+4=16$ legs.
+- $5$ dogs: $16+4=20$ legs.
+
+[[P5·9d37]]
+So $5$ dogs have $20$ legs, that is $4\times5=20$. Each time we add a group, the product goes up by $4$.
+
+:::graph On the number line: every jump is 4
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·31f5]]
+Here is one more trick: $4$ is double $2$, so $4\times5$ is double $2\times5=10$, and $10+10=20$.
+
+  :::theorem The 4 times table
+  To work out $4\times n$, take $4\times(n-1)$ and add $4$. You can also take $2\times n$ and double it.
+
+  | $4\times1$ | $4\times2$ | $4\times3$ | $4\times4$ | $4\times5$ |
+  |---|---|---|---|---|
+  | $4$ | $8$ | $12$ | $16$ | $20$ |
+
+  | $4\times6$ | $4\times7$ | $4\times8$ | $4\times9$ | $4\times10$ |
+  |---|---|---|---|---|
+  | $24$ | $28$ | $32$ | $36$ | $40$ |
+  :::
+
+[[P7·418c]]
+The division facts for $4$ come from the $4$ times table. Since $4\times5=20$, we have $20\div4=5$. If you share $20$ things into groups of $4$, you get $5$ groups.
+
+## Examples
+
+[[P8·c9f2]]
+We start by taking the product before and adding $4$.
+
+  :::example Work out $4\times7$
+  **Solution.** You know $4\times6=24$. Add one more group of $4$:
+  $$4\times7=4\times6+4=24+4=28.$$
+  So $4\times7=28$.
+  :::
+
+[[P9·fbb2]]
+Now use the doubling trick.
+
+  :::example Work out $4\times8$ by doubling
+  **Solution.** We have $4\times4=16$. Since $8$ is double $4$, $4\times8$ is double $4\times4$:
+  $$4\times8=16+16=32.$$
+  So $4\times8=32$.
+  :::
+
+[[P10·f0a5]]
+Next, division. Look in the $4$ times table for a product equal to the dividend.
+
+  :::example Work out $36\div4$
+  **Solution.** Ask: which number times $4$ makes $36$? In the $4$ times table, $4\times9=36$, so
+  $$36\div4=9.$$
+  **Check.** $4\times9=36$. Correct.
+
+  So $36\div4=9$.
+  :::
+
+[[P11·240e]]
+Now solve a word problem with multiplication.
+
+  :::example Seats
+  Each table seats $4$ children. How many children can sit at $6$ such tables?
+
+  **Solution.** Each table is a group of $4$ children and there are $6$ groups, so we multiply. The number of children is:
+  $$4\times6=24\ \text{(children)}.$$
+  So $24$ children can sit at $6$ tables.
+  :::
+
+[[P12·fb1c]]
+Finally, a word problem with division.
+
+  :::example Oranges on plates
+  There are $28$ oranges to put on plates, $4$ oranges on each plate. How many plates can we fill?
+
+  **Solution.** We split $28$ oranges into groups of $4$, so we divide. The number of plates is:
+  $$28\div4=7\ \text{(plates)}.$$
+  **Check.** $4\times7=28$. Correct.
+
+  So we can fill $7$ plates.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·f05b]]
+- **Taking the wrong neighbour.** Wrong: $4\times7=24$. Why it is wrong: $24$ is $4\times6$; you forgot to add one more group of $4$. Right: $4\times7=24+4=28$.
+- **Adding instead of multiplying.** Wrong: $4\times6=10$. Why it is wrong: $4+6$ is an addition, but $4\times6$ means $6$ groups of $4$. Right: $4\times6=24$.
+- **Mixing up a nearby product.** Wrong: $36\div4=8$. Why it is wrong: $4\times8=32$, not $36$. Right: $4\times9=36$, so $36\div4=9$.
+- **Forgetting the unit.** Wrong: "Answer: $24$". Right: "Answer: $24$ children".
+:::
+
+## Key terms
+
+  :::terms
+  - 4 times table | bảng nhân 4
+  - division facts for 4 | bảng chia 4
+  - factor | thừa số
+  - product | tích
+  - dividend | số bị chia
+  - divisor | số chia
+  - quotient | thương
+  - double | gấp đôi
+  :::
+
+## Summary
+
+[[P14·d7ce]]
+- The $4$ times table: $4,\ 8,\ 12,\ 16,\ 20,\ 24,\ 28,\ 32,\ 36,\ 40$.
+- Each new group adds $4$ to the product: $4\times n=4\times(n-1)+4$.
+- $4$ is double $2$, so $4\times n$ is double $2\times n$.
+- From $4\times a=b$ we get $b\div4=a$ and $b\div a=4$.
+- Write the unit in the answer; check a division with a multiplication.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/g3-cubes-and-cuboids – BẢN TIẾNG VIỆT ########
+---
+title: Khối lập phương, khối hộp hình chữ nhật
+description: Em nhận biết khối lập phương và khối hộp chữ nhật qua số mặt, đỉnh, cạnh và hình dạng các mặt, rồi giải bài toán xếp khối.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết khối lập phương và khối hộp chữ nhật.
+  - Nêu số mặt, số đỉnh, số cạnh và hình dạng các mặt của mỗi khối.
+  - Giải bài toán đơn giản về các mặt và về xếp khối.
+  :::
+
+[[P1·c1d4]]
+Nam có một con xúc xắc và một hộp phấn. Hai vật này đều có các mặt phẳng, nhưng hình dạng không giống nhau. Hỏi chúng khác nhau ở chỗ nào?
+
+[[P2·6da2]]
+Để trả lời, em hãy cầm từng vật lên, đếm mặt và nhìn xem mặt có hình gì.
+
+## Cùng khám phá
+
+[[P3·8f2e]]
+Em nhìn con xúc xắc: có $6$ mặt, mỗi mặt là một hình vuông và các mặt to bằng nhau. Nó có dạng **khối lập phương**.
+
+[[P4·e0ba]]
+Em nhìn hộp phấn: cũng có $6$ mặt, nhưng mỗi mặt là một hình chữ nhật. Nó có dạng **khối hộp chữ nhật**.
+
+:::diagram Khối lập phương
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·8555]]
+Trên hình, em đếm được $8$ đỉnh. Mỗi đoạn thẳng là một cạnh, và có $12$ cạnh.
+
+  :::theorem Hai loại khối
+  - **Khối lập phương:** $6$ mặt đều là hình vuông bằng nhau; $8$ đỉnh; $12$ cạnh bằng nhau.
+  - **Khối hộp chữ nhật:** $6$ mặt là hình chữ nhật; $8$ đỉnh; $12$ cạnh. Hai mặt đối diện thì bằng nhau.
+  :::
+
+[[P6·b006]]
+Hai khối này giống nhau ở số mặt, số đỉnh, số cạnh. Chúng khác nhau ở hình dạng các mặt.
+
+## Ví dụ
+
+[[P7·070d]]
+Ta bắt đầu với việc đếm các phần của khối lập phương.
+
+  :::example Đếm mặt, đỉnh, cạnh
+  Khối lập phương có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?
+
+  **Lời giải.** Em đếm trên hình hoặc trên con xúc xắc: có $6$ mặt, $8$ đỉnh và $12$ cạnh.
+
+  Vậy khối lập phương có $6$ mặt, $8$ đỉnh, $12$ cạnh.
+  :::
+
+[[P8·1fe7]]
+Bây giờ em gọi tên khối cho các đồ vật quen thuộc.
+
+  :::example Gọi tên đồ vật
+  Mỗi vật sau có dạng khối gì: con xúc xắc, viên gạch, khối rubik?
+
+  **Lời giải.** Em xem các mặt của mỗi vật. Con xúc xắc và khối rubik có các mặt là hình vuông bằng nhau. Viên gạch có các mặt là hình chữ nhật.
+
+  Vậy con xúc xắc và khối rubik là khối lập phương; viên gạch là khối hộp chữ nhật.
+  :::
+
+[[P9·0d4a]]
+Hai mặt đối diện của khối hộp chữ nhật bằng nhau. Ta dùng điều này để tìm kích thước.
+
+  :::example Hai mặt đối diện
+  Một khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $6$ cm, rộng $3$ cm. Mặt nắp đối diện với mặt đáy là hình gì và có kích thước bao nhiêu?
+
+  **Lời giải.** Mặt nắp đối diện với mặt đáy nên bằng mặt đáy.
+
+  Vậy mặt nắp là hình chữ nhật dài $6$ cm, rộng $3$ cm.
+  :::
+
+[[P10·2117]]
+Cuối cùng là một bài toán xếp khối.
+
+  :::example Xếp khối
+  Nam xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp có $4$ khối. Nam đã dùng tất cả bao nhiêu khối?
+
+  ![Các khối lập phương nhỏ xếp thành ba lớp, mỗi lớp bốn khối](/assets/img/g3/g3-cubes-and-cuboids-01.svg)
+
+  **Lời giải.** Có $3$ lớp, mỗi lớp $4$ khối, nên ta làm phép nhân:
+  $$4\times3=12\ \text{(khối)}.$$
+
+  Vậy Nam đã dùng $12$ khối.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·950b]]
+- **Nhầm hình phẳng với khối.** Sai: "khối lập phương là hình vuông". Vì sao sai: hình vuông là hình phẳng, còn khối lập phương có $6$ mặt là hình vuông. Đúng: mỗi mặt của khối lập phương là hình vuông.
+- **Nhầm số đỉnh và số cạnh.** Sai: khối lập phương có $12$ đỉnh. Vì sao sai: $12$ là số cạnh. Đúng: có $8$ đỉnh và $12$ cạnh.
+- **Quên đơn vị.** Sai: "Đáp số: $12$". Đúng: "Đáp số: $12$ khối".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - khối lập phương | cube
+  - khối hộp chữ nhật | cuboid
+  - mặt | face
+  - đỉnh | vertex (corner)
+  - cạnh | edge
+  - mặt đối diện | opposite faces
+  - xúc xắc | dice
+  :::
+
+## Tóm tắt
+
+[[P12·c3df]]
+- Khối lập phương và khối hộp chữ nhật đều có $6$ mặt, $8$ đỉnh, $12$ cạnh.
+- Các mặt của khối lập phương là hình vuông bằng nhau.
+- Các mặt của khối hộp chữ nhật là hình chữ nhật; hai mặt đối diện bằng nhau.
+- Xếp $n$ lớp, mỗi lớp $m$ khối thì có $m\times n$ khối.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/g3-cubes-and-cuboids – BẢN TIẾNG ANH ########
+---
+title: Cubes and cuboids
+description: Recognise cubes and cuboids by their faces, vertices and edges and the shapes of their faces, then solve simple problems about faces and stacking.
+minutes: 15
+---
+
+  :::goals
+  - Recognise a cube and a cuboid.
+  - Say the number of faces, vertices and edges of each solid and the shape of its faces.
+  - Solve simple problems about faces and about stacking blocks.
+  :::
+
+[[P1·2687]]
+Nam has a dice and a box of chalk. Both have flat faces, but they are not the same shape. How are they different?
+
+[[P2·06a6]]
+To find out, pick up each object, count its faces and see what shape the faces are.
+
+## Let's explore
+
+[[P3·e6f9]]
+Look at the dice: it has $6$ faces, each face is a square, and all the faces are the same size. It is a **cube**.
+
+[[P4·ad5b]]
+Look at the box of chalk: it also has $6$ faces, but each face is a rectangle. It is a **cuboid**.
+
+:::diagram A cube
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·9355]]
+In the picture you can count $8$ vertices. Each line segment is an edge, and there are $12$ edges.
+
+  :::theorem Two kinds of solid
+  - **Cube:** $6$ faces, all equal squares; $8$ vertices; $12$ equal edges.
+  - **Cuboid:** $6$ faces that are rectangles; $8$ vertices; $12$ edges. Opposite faces are equal.
+  :::
+
+[[P6·d494]]
+The two solids are alike in the number of faces, vertices and edges. They differ in the shape of their faces.
+
+## Examples
+
+[[P7·170b]]
+We start by counting the parts of a cube.
+
+  :::example Counting faces, vertices and edges
+  How many faces, vertices and edges does a cube have?
+
+  **Solution.** Count on the picture or on a dice: there are $6$ faces, $8$ vertices and $12$ edges.
+
+  So a cube has $6$ faces, $8$ vertices and $12$ edges.
+  :::
+
+[[P8·2556]]
+Now name the solids for some everyday objects.
+
+  :::example Naming everyday objects
+  What solid is each object: a dice, a brick, a Rubik's cube?
+
+  **Solution.** Look at the faces of each object. The dice and the Rubik's cube have faces that are equal squares. The brick has faces that are rectangles.
+
+  So the dice and the Rubik's cube are cubes; the brick is a cuboid.
+  :::
+
+[[P9·96b0]]
+Opposite faces of a cuboid are equal. We use this to find sizes.
+
+  :::example Opposite faces
+  A cuboid has a base that is a rectangle $6$ cm long and $3$ cm wide. What shape and size is the top, which is opposite the base?
+
+  **Solution.** The top is opposite the base, so it is equal to the base.
+
+  So the top is a rectangle $6$ cm long and $3$ cm wide.
+  :::
+
+[[P10·5bec]]
+Finally, a problem about stacking blocks.
+
+  :::example Stacking blocks
+  Nam stacks small cubes in $3$ layers, with $4$ cubes in each layer. How many cubes does Nam use altogether?
+
+  ![Small cubes stacked in three layers of four](/assets/img/g3/g3-cubes-and-cuboids-01.svg)
+
+  **Solution.** There are $3$ layers of $4$ cubes, so we multiply:
+  $$4\times3=12\ \text{(cubes)}.$$
+
+  So Nam uses $12$ cubes.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·77c3]]
+- **Mixing up a flat shape and a solid.** Wrong: "a cube is a square". Why it is wrong: a square is a flat shape, while a cube has $6$ faces that are squares. Right: every face of a cube is a square.
+- **Mixing up vertices and edges.** Wrong: a cube has $12$ vertices. Why it is wrong: $12$ is the number of edges. Right: it has $8$ vertices and $12$ edges.
+- **No unit.** Wrong: "Answer: $12$". Right: "Answer: $12$ cubes".
+:::
+
+## Key terms
+
+  :::terms
+  - cube | khối lập phương
+  - cuboid | khối hộp chữ nhật
+  - face | mặt
+  - vertex (corner) | đỉnh
+  - edge | cạnh
+  - opposite faces | mặt đối diện
+  - dice | xúc xắc
+  :::
+
+## Summary
+
+[[P12·22b8]]
+- A cube and a cuboid both have $6$ faces, $8$ vertices and $12$ edges.
+- The faces of a cube are equal squares.
+- The faces of a cuboid are rectangles; opposite faces are equal.
+- $n$ layers with $m$ blocks in each layer make $m\times n$ blocks.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

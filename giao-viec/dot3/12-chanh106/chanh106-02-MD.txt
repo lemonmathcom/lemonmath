@@ -1,0 +1,1713 @@
+######################################################################
+TÀI KHOẢN: chanh106   |   FILE: chanh106-02-MD   |   VIỆC: gắn mức độ nhận thức (MD-23)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file chanh106-02-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-23 – gắn mức độ nhận thức cho 189 câu hỏi (Ôn thi AP CALCULUS → Ôn thi AP STATISTICS)
+
+Tài khoản thực hiện: chanh106
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-23 (189 câu)
+
+## Các câu hỏi
+
+### M420 · Ôn thi AP CALCULUS · Hàm tham số, hàm véc-tơ và toạ độ cực
+
+[M420.1] Nhiều lựa chọn
+Với $x=t^3$, $y=t^2+1$, giá trị của $\dfrac{dy}{dx}$ tại $t=1$ bằng
+A. $\dfrac32$
+B. $\dfrac23$
+C. $2$
+D. $3$
+::key B
+$\dfrac{2t}{3t^2}=\dfrac23$ tại $t=1$.
+
+[M420.2] Nhiều lựa chọn
+Một hạt có vị trí $\left\langle t^2,3t\right\rangle$. Tốc độ của hạt tại $t=2$ bằng
+A. $7$
+B. $\sqrt7$
+C. $5$
+D. $25$
+::key C
+$v(2)=\langle4,3\rangle$, tốc độ $5$.
+
+[M420.3] Nhiều lựa chọn
+Với $x=\cos t$, $y=\sin t$, giá trị của $\dfrac{dy}{dx}$ tại $t=\dfrac\pi4$ bằng
+A. $-1$
+B. $1$
+C. $0$
+D. $\sqrt2$
+::key A
+$\dfrac{\cos t}{-\sin t}=-1$ tại $t=\dfrac\pi4$.
+
+[M420.4] Nhiều lựa chọn
+Tích phân nào cho diện tích miền giới hạn bởi $r=f(\theta)$ với $\alpha\le\theta\le\beta$?
+A. $\displaystyle\int_\alpha^\beta f(\theta)\,d\theta$
+B. $\pi\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
+C. $\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
+D. $\dfrac12\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
+::key D
+Công thức diện tích cực có hệ số $\dfrac12$ và $r^2$.
+
+[M420.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hạt có vận tốc $v(t)=\left\langle2t,3t^2\right\rangle$ và ở gốc toạ độ lúc $t=0$.
+a) Tốc độ của hạt tại $t=1$ bằng $\sqrt{13}$.
+b) Gia tốc của hạt tại $t=1$ là $\langle2,6\rangle$.
+c) Vị trí của hạt tại $t=2$ là $\langle4,6\rangle$.
+d) Quãng đường hạt đi được từ $t=0$ đến $t=1$ là $\displaystyle\int_0^1\sqrt{4t^2+9t^4}\,dt$.
+::key T T F T
+a) Đúng: $\sqrt{4+9}$. b) Đúng: $a(t)=\langle2,6t\rangle$. c) Sai: vị trí là $\left\langle t^2,t^3\right\rangle$, nên bằng $\langle4,8\rangle$. d) Đúng: tích phân của tốc độ.
+
+[M420.6] Trả lời ngắn
+Tính độ dài quỹ đạo $x=3t$, $y=4t$ với $0\le t\le2$.
+::key 10
+Tốc độ $\sqrt{9+16}=5$, nên độ dài bằng $5\cdot2=10$.
+
+[M420.7] Trả lời ngắn
+Với $x=t^2$, $y=t^3$, tính $\dfrac{dy}{dx}$ tại $t=4$.
+::key 6
+$\dfrac{3t^2}{2t}=\dfrac{3t}{2}=6$.
+
+### M421 · Ôn thi AP CALCULUS · Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa
+
+[M421.1] Nhiều lựa chọn
+Tổng $\displaystyle\sum_{n=0}^\infty\left(\frac34\right)^n$ bằng
+A. $\dfrac34$
+B. $3$
+C. $\dfrac74$
+D. $4$
+::key D
+$\dfrac{1}{1-3/4}=4$.
+
+[M421.2] Nhiều lựa chọn
+Chuỗi nào hội tụ có điều kiện?
+A. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
+B. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$
+C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n}$
+D. $\displaystyle\sum_{n=1}^\infty(-1)^n$
+::key A
+A hội tụ theo tiêu chuẩn chuỗi đan dấu, nhưng các giá trị tuyệt đối tạo thành chuỗi điều hoà. B hội tụ tuyệt đối; C và D phân kì.
+
+[M421.3] Nhiều lựa chọn
+Hệ số của $x^3$ trong chuỗi Maclaurin của $\sin(2x)$ bằng
+A. $-\dfrac16$
+B. $-\dfrac43$
+C. $\dfrac43$
+D. $-8$
+::key B
+$-\dfrac{(2x)^3}{3!}=-\dfrac{8}{6}x^3=-\dfrac43x^3$.
+
+[M421.4] Nhiều lựa chọn
+Bán kính hội tụ của $\displaystyle\sum_{n=0}^\infty\frac{x^n}{2^n}$ bằng
+A. $\dfrac12$
+B. $1$
+C. $2$
+D. $\infty$
+::key C
+Chuỗi hình học có công bội $\dfrac x2$: hội tụ khi $|x|<2$.
+
+[M421.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét chuỗi $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{\sqrt n}$.
+a) Chuỗi hội tụ.
+b) Chuỗi hội tụ tuyệt đối.
+c) Các số hạng của chuỗi tiến tới $0$.
+d) Tổng riêng $S_1=1$ sai khác tổng của chuỗi không quá $\dfrac{1}{\sqrt2}$.
+::key T F T T
+a) Đúng: tiêu chuẩn chuỗi đan dấu. b) Sai: $\displaystyle\sum\frac{1}{\sqrt n}$ là chuỗi $p$ với $p=\dfrac12$. c) Đúng. d) Đúng: cận sai số của chuỗi đan dấu, số hạng đầu tiên bị bỏ là $\dfrac{1}{\sqrt2}$.
+
+[M421.6] Trả lời ngắn
+Tính $\displaystyle\sum_{n=1}^\infty\frac{3}{2^n}$.
+::key 3
+Chuỗi hình học có số hạng đầu $\dfrac32$ và công bội $\dfrac12$: $\dfrac{3/2}{1/2}=3$.
+
+[M421.7] Trả lời ngắn
+Tính giá trị của đa thức Maclaurin bậc hai của $e^x$ tại $x=1$.
+::key 2,5
+$1+1+\dfrac12=2{,}5$.
+
+### M422 · Ôn thi AP CALCULUS · Đề luyện AP Calculus AB: phần trắc nghiệm
+
+[M422.1] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng
+A. $0$
+B. $3$
+C. $6$
+D. không tồn tại
+::key C
+$\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. Phương án D coi $\dfrac00$ là không tồn tại thay vì rút gọn.
+
+[M422.2] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to\infty}\frac{3x^2-x}{5-2x^2}$ bằng
+A. $\dfrac35$
+B. $-\dfrac32$
+C. $0$
+D. $\dfrac32$
+::key B
+Bậc tử và mẫu bằng nhau: tỉ số các hệ số cao nhất là $\dfrac{3}{-2}$.
+
+[M422.3] Nhiều lựa chọn
+Cho $f(x)=x^2+1$ khi $x<2$ và $f(x)=kx-1$ khi $x\ge2$. Với giá trị nào của $k$ thì $f$ liên tục tại $x=2$?
+A. $2$
+B. $\dfrac52$
+C. $4$
+D. $3$
+::key D
+Giới hạn trái bằng $5$, nên $2k-1=5$ và $k=3$. Phương án B giải $2k=5$.
+
+[M422.4] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{h\to0}\frac{\sin\left(\frac\pi3+h\right)-\sin\frac\pi3}{h}$ bằng
+A. $\dfrac12$
+B. $\dfrac{\sqrt3}{2}$
+C. $0$
+D. $-\dfrac12$
+::key A
+Đây là đạo hàm của $\sin x$ tại $\dfrac\pi3$: $\cos\dfrac\pi3=\dfrac12$.
+
+[M422.5] Nhiều lựa chọn
+Nếu $f(x)=x^3e^{2x}$ thì $f'(x)$ bằng
+A. $6x^2e^{2x}$
+B. $3x^2e^{2x}$
+C. $x^2e^{2x}(3+2x)$
+D. $x^2e^{2x}(3+x)$
+::key C
+Quy tắc tích: $3x^2e^{2x}+x^3\cdot2e^{2x}=x^2e^{2x}(3+2x)$. Phương án A nhân hai đạo hàm với nhau.
+
+[M422.6] Nhiều lựa chọn
+Nếu $f(x)=\ln\left(x^2+1\right)$ thì $f'(1)$ bằng
+A. $\dfrac12$
+B. $1$
+C. $2$
+D. $\ln2$
+::key B
+$f'(x)=\dfrac{2x}{x^2+1}$, nên $f'(1)=1$.
+
+[M422.7] Nhiều lựa chọn
+Nếu $y=\tan(3x)$ thì $\dfrac{dy}{dx}$ tại $x=0$ bằng
+A. $0$
+B. $1$
+C. $9$
+D. $3$
+::key D
+$\dfrac{dy}{dx}=3\sec^2(3x)$, bằng $3$ tại $x=0$.
+
+[M422.8] Nhiều lựa chọn
+Các hàm $f$ và $g$ thoả mãn $g(2)=5$, $g'(2)=4$, $f'(2)=-1$ và $f'(5)=2$. Nếu $h(x)=f(g(x))$ thì $h'(2)$ bằng
+A. $8$
+B. $-4$
+C. $6$
+D. $2$
+::key A
+$h'(2)=f'(g(2))\cdot g'(2)=f'(5)\cdot4=8$. Phương án B dùng $f'(2)$ thay cho $f'(5)$.
+
+[M422.9] Nhiều lựa chọn
+Hệ số góc của đường cong $x^2+xy+y^2=7$ tại điểm $(1,2)$ bằng
+A. $-\dfrac54$
+B. $-\dfrac45$
+C. $\dfrac45$
+D. $-4$
+::key B
+$2x+y+xy'+2yy'=0$. Tại $(1,2)$: $4+5y'=0$, nên $y'=-\dfrac45$.
+
+[M422.10] Nhiều lựa chọn
+Cho $f(x)=x^3+x$ và gọi $g$ là hàm ngược của $f$. Giá trị $g'(2)$ bằng
+A. $\dfrac{1}{13}$
+B. $4$
+C. $\dfrac14$
+D. $\dfrac12$
+::key C
+$f(1)=2$ và $f'(1)=4$, nên $g'(2)=\dfrac{1}{f'(1)}=\dfrac14$. Phương án A dùng $f'(2)=13$.
+
+[M422.11] Nhiều lựa chọn
+$\dfrac{d}{dx}\arctan(2x)$ bằng
+A. $\dfrac{1}{1+4x^2}$
+B. $\dfrac{2}{1+2x^2}$
+C. $\dfrac{2}{\sqrt{1-4x^2}}$
+D. $\dfrac{2}{1+4x^2}$
+::key D
+$\dfrac{1}{1+(2x)^2}\cdot2$. Phương án A quên quy tắc chuỗi; phương án C là đạo hàm của $\arcsin(2x)$.
+
+[M422.12] Nhiều lựa chọn
+Một hạt chuyển động trên trục $x$ với vị trí $x(t)=t^3-6t^2+9t$. Hạt đứng yên tại những thời điểm nào?
+A. chỉ $t=1$
+B. chỉ $t=2$
+C. $t=1$ và $t=3$
+D. $t=0$ và $t=3$
+::key C
+$v(t)=3t^2-12t+9=3(t-1)(t-3)=0$. Phương án B là lúc gia tốc bằng $0$; phương án D là lúc vị trí bằng $0$.
+
+[M422.13] Nhiều lựa chọn
+Bán kính một hình tròn tăng với tốc độ $2$ xăng-ti-mét mỗi giây. Khi bán kính bằng $5$ xăng-ti-mét, diện tích tăng với tốc độ bao nhiêu xăng-ti-mét vuông mỗi giây?
+A. $20\pi$
+B. $10\pi$
+C. $25\pi$
+D. $4\pi$
+::key A
+$\dfrac{dA}{dt}=2\pi r\dfrac{dr}{dt}=2\pi(5)(2)=20\pi$.
+
+[M422.14] Nhiều lựa chọn
+Dùng tiếp tuyến của $y=\sqrt x$ tại $x=9$, giá trị gần đúng của $\sqrt{9{,}3}$ là
+A. $3{,}1$
+B. $3{,}03$
+C. $3{,}5$
+D. $3{,}05$
+::key D
+$3+\dfrac{1}{6}(0{,}3)=3{,}05$.
+
+[M422.15] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to0}\frac{e^{3x}-1}{x}$ bằng
+A. $1$
+B. $3$
+C. $0$
+D. $e^3$
+::key B
+Dạng $\dfrac00$; quy tắc L'Hôpital cho $\displaystyle\lim_{x\to0}3e^{3x}=3$.
+
+[M422.16] Nhiều lựa chọn
+Với $f(x)=x^2$ trên $[1,3]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
+A. $2$
+B. $\sqrt5$
+C. $4$
+D. $\sqrt3$
+::key A
+$\dfrac{9-1}{3-1}=4=2c$, nên $c=2$. Phương án C là hệ số góc, không phải $c$.
+
+[M422.17] Nhiều lựa chọn
+Đạo hàm của $f$ là $f'(x)=(x-2)^2(x+1)$. Hàm $f$ đạt cực tiểu tại những giá trị nào của $x$?
+A. chỉ $x=2$
+B. $x=-1$ và $x=2$
+C. không có
+D. chỉ $x=-1$
+::key D
+$f'$ đổi dấu từ âm sang dương tại $x=-1$; tại $x=2$ nó không đổi dấu.
+
+[M422.18] Nhiều lựa chọn
+Đồ thị $f(x)=x^3-6x^2+5$ có điểm uốn tại $x$ bằng
+A. $0$
+B. $4$
+C. $2$
+D. $-2$
+::key C
+$f''(x)=6x-12$ đổi dấu tại $x=2$. Phương án B là một điểm tới hạn.
+
+[M422.19] Nhiều lựa chọn
+Giá trị lớn nhất của $f(x)=x^3-3x$ trên $[0,2]$ là
+A. $0$
+B. $2$
+C. $-2$
+D. $1$
+::key B
+Các ứng viên: $f(0)=0$, $f(1)=-2$, $f(2)=2$.
+
+[M422.20] Nhiều lựa chọn
+Hàm $f$ có đạo hàm cấp hai, $f'(3)=0$ và $f''(3)=-2$. Khẳng định nào chắc chắn đúng?
+A. $f$ đạt cực đại tại $x=3$.
+B. $f$ đạt cực tiểu tại $x=3$.
+C. Đồ thị $f$ có điểm uốn tại $x=3$.
+D. $f$ nghịch biến tại $x=3$.
+::key A
+Dấu hiệu đạo hàm cấp hai: $f'(3)=0$ và $f''(3)<0$.
+
+[M422.21] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^2\left(3x^2-4x\right)dx$ bằng
+A. $4$
+B. $-4$
+C. $8$
+D. $0$
+::key D
+$\left[x^3-2x^2\right]_0^2=8-8=0$.
+
+[M422.22] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^{\sqrt5}x\sqrt{x^2+4}\,dx$ bằng
+A. $\dfrac{38}{3}$
+B. $\dfrac{19}{3}$
+C. $\dfrac{19}{6}$
+D. $\dfrac{26}{3}$
+::key B
+$u=x^2+4$ từ $4$ đến $9$: $\dfrac12\cdot\dfrac23\left(27-8\right)=\dfrac{19}{3}$. Phương án A quên $\dfrac12$.
+
+[M422.23] Nhiều lựa chọn
+$\dfrac{d}{dx}\displaystyle\int_1^{x^3}\cos t\,dt$ bằng
+A. $\cos\left(x^3\right)$
+B. $3x^2\cos\left(x^3\right)-\cos1$
+C. $3x^2\cos\left(x^3\right)$
+D. $\sin\left(x^3\right)-\sin1$
+::key C
+Định lí cơ bản kết hợp quy tắc chuỗi: $\cos\left(x^3\right)\cdot3x^2$. Cận dưới là hằng số nên không đóng góp gì.
+
+[M422.24] Nhiều lựa chọn
+Hàm $f$ có $f(0)=4$, $f(2)=1$, $f(5)=3$ và $f(6)=2$. Tổng Riemann trái của $\displaystyle\int_0^6f(x)\,dx$ với ba khoảng $[0,2]$, $[2,5]$, $[5,6]$ bằng
+A. $13$
+B. $13{,}5$
+C. $11$
+D. $14$
+::key D
+$2\cdot4+3\cdot1+1\cdot3=14$. Phương án A là tổng phải, phương án B là tổng hình thang, phương án C coi các khoảng bằng nhau.
+
+[M422.25] Nhiều lựa chọn
+Tích phân $\displaystyle\int_1^e\frac{\ln x}{x}\,dx$ bằng
+A. $\dfrac12$
+B. $1$
+C. $e$
+D. $\dfrac{e^2}{2}$
+::key A
+$u=\ln x$ từ $0$ đến $1$: $\left[\dfrac{u^2}{2}\right]_0^1=\dfrac12$.
+
+[M422.26] Nhiều lựa chọn
+Nếu $\dfrac{dy}{dx}=3y$ và $y(0)=2$ thì $y(1)$ bằng
+A. $2e^3$
+B. $e^6$
+C. $6e$
+D. $2+e^3$
+::key A
+$y=2e^{3x}$, nên $y(1)=2e^3$.
+
+[M422.27] Nhiều lựa chọn
+Hàm nào là nghiệm của $\dfrac{dy}{dx}=\dfrac xy$ thoả mãn $y(0)=3$?
+A. $y=\sqrt{x^2+3}$
+B. $y=x+3$
+C. $y=\sqrt{x^2+9}$
+D. $y=3e^{x^2/2}$
+::key C
+$y\,dy=x\,dx$ cho $y^2=x^2+C$; $C=9$ và $y>0$. Phương án A quên bình phương số $3$.
+
+[M422.28] Nhiều lựa chọn
+Diện tích miền giới hạn bởi $y=x^2$ và $y=4$ bằng
+A. $\dfrac{16}{3}$
+B. $\dfrac{32}{3}$
+C. $16$
+D. $\dfrac83$
+::key B
+$\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$. Phương án A chỉ lấy $0\le x\le2$.
+
+[M422.29] Nhiều lựa chọn
+Giá trị trung bình của $\cos x$ trên $\left[0,\dfrac\pi2\right]$ bằng
+A. $1$
+B. $\dfrac1\pi$
+C. $\dfrac\pi2$
+D. $\dfrac2\pi$
+::key D
+$\dfrac{1}{\pi/2}\displaystyle\int_0^{\pi/2}\cos x\,dx=\dfrac2\pi\cdot1$. Phương án A quên chia cho độ dài khoảng.
+
+[M422.30] Nhiều lựa chọn
+Nước chảy vào một bể với tốc độ $R(t)=10+5\sin\left(\dfrac t2\right)$ lít mỗi phút. Từ $t=0$ đến $t=10$ có bao nhiêu lít nước chảy vào?
+A. $97{,}603$
+B. $107{,}163$
+C. $110{,}000$
+D. $5{,}205$
+::key B
+$\displaystyle\int_0^{10}R(t)\,dt\approx107{,}163$. Phương án D là $R(10)$, một tốc độ chứ không phải lượng nước.
+
+[M422.31] Nhiều lựa chọn
+Đồ thị $f(x)=x^3-2x-5$ cắt trục hoành tại $x$ bằng
+A. $2{,}095$
+B. $1{,}710$
+C. $-5{,}000$
+D. $2{,}000$
+::key A
+Giải $f(x)=0$ bằng máy tính: $x\approx2{,}095$, nghiệm thực duy nhất.
+
+[M422.32] Nhiều lựa chọn
+Một hạt chuyển động thẳng với vận tốc $v(t)=\cos\left(t^2\right)$, $0\le t\le2$. Tổng quãng đường hạt đi được là
+A. $0{,}461$
+B. $1{,}253$
+C. $1{,}493$
+D. $0{,}977$
+::key C
+$\displaystyle\int_0^2\left|\cos\left(t^2\right)\right|dt\approx1{,}493$. Phương án A là độ dời $\displaystyle\int_0^2v(t)\,dt$.
+
+[M422.33] Nhiều lựa chọn
+Hàm $f$ có $f(0)=1$ và $f'(x)=\sqrt{1+x^3}$. Giá trị $f(2)$ là
+A. $3{,}000$
+B. $3{,}241$
+C. $5{,}241$
+D. $4{,}241$
+::key D
+$f(2)=1+\displaystyle\int_0^2\sqrt{1+x^3}\,dx\approx1+3{,}241$. Phương án B quên $f(0)$.
+
+[M422.34] Nhiều lựa chọn
+Cho $g(x)=\ln\left(1+x^2\right)\cos x$. Giá trị $g'(2)$ là
+A. $-1{,}796$
+B. $-0{,}670$
+C. $1{,}461$
+D. $-0{,}333$
+::key A
+Đạo hàm số tại $x=2$: $g'(2)\approx-1{,}796$. Phương án B là $g(2)$.
+
+[M422.35] Nhiều lựa chọn
+Miền dưới $y=e^{-x}$ với $0\le x\le2$ quay quanh trục $x$. Thể tích khối tạo thành là
+A. $0{,}865$
+B. $2{,}716$
+C. $1{,}542$
+D. $0{,}491$
+::key C
+$\pi\displaystyle\int_0^2e^{-2x}\,dx\approx1{,}542$. Phương án B dùng $\pi\displaystyle\int_0^2e^{-x}\,dx$ (không bình phương bán kính).
+
+[M422.36] Nhiều lựa chọn
+Diện tích miền giới hạn bởi $y=\cos x$ và $y=x^2$ là
+A. $0{,}824$
+B. $1{,}095$
+C. $0{,}547$
+D. $1{,}648$
+::key B
+Hai đường cắt nhau tại $x=\pm0{,}824$; $\displaystyle\int_{-0{,}824}^{0{,}824}\left(\cos x-x^2\right)dx\approx1{,}095$. Phương án C là một nửa miền.
+
+[M422.37] Nhiều lựa chọn
+Giá trị trung bình của $f(x)=\ln(x+1)$ trên $[0,3]$ là
+A. $2{,}545$
+B. $1{,}386$
+C. $0{,}462$
+D. $0{,}848$
+::key D
+$\dfrac13\displaystyle\int_0^3\ln(x+1)\,dx\approx0{,}848$. Phương án A là tích phân; phương án C là tốc độ thay đổi trung bình.
+
+[M422.38] Nhiều lựa chọn
+Cho $f(x)=\arctan x+x^2$. Dùng tiếp tuyến của đồ thị $f$ tại $x=1$, giá trị gần đúng của $f(1{,}1)$ là
+A. $2{,}035$
+B. $2{,}043$
+C. $1{,}785$
+D. $2{,}500$
+::key A
+$f(1)\approx1{,}785$ và $f'(1)=\dfrac12+2=2{,}5$, nên $f(1{,}1)\approx1{,}785+0{,}25=2{,}035$. Phương án B là giá trị đúng.
+
+[M422.39] Nhiều lựa chọn
+Với $f(x)=\sqrt x$ trên $[1,4]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
+A. $2{,}5$
+B. $2{,}25$
+C. $2$
+D. $1{,}5$
+::key B
+$\dfrac{2-1}{4-1}=\dfrac13=\dfrac{1}{2\sqrt c}$, nên $\sqrt c=1{,}5$ và $c=2{,}25$. Phương án D là $\sqrt c$.
+
+[M422.40] Nhiều lựa chọn
+Dân số một thị trấn thay đổi với tốc độ $P'(t)=50-4te^{0{,}1t}$ người mỗi năm, $0\le t\le10$. Dân số lớn nhất vào thời điểm nào?
+A. $t=0$
+B. $t=10$
+C. $t=3{,}162$
+D. $t=6{,}515$
+::key D
+$P'$ chỉ đổi dấu từ dương sang âm tại $t\approx6{,}515$, nên dân số lớn nhất tại đó.
+
+[M422.41] Nhiều lựa chọn
+Một hạt chuyển động thẳng với vận tốc $v(t)=2\sin t+\cos(2t)$. Tổng quãng đường hạt đi được từ $t=0$ đến $t=4$ là
+A. $3{,}802$
+B. $1{,}659$
+C. $4{,}602$
+D. $3{,}516$
+::key C
+$v$ đổi dấu tại $t\approx3{,}516$; $\displaystyle\int_0^4|v(t)|\,dt\approx4{,}602$. Phương án A là độ dời.
+
+[M422.42] Nhiều lựa chọn
+Một hạt có vận tốc $v(t)=\ln\left(t^2+1\right)-1$. Tại $t=1{,}5$, khẳng định nào đúng?
+A. Hạt đi sang trái và chậm dần.
+B. Hạt đi sang phải và chậm dần.
+C. Hạt đi sang trái và nhanh dần.
+D. Hạt đi sang phải và nhanh dần.
+::key D
+$v(1{,}5)\approx0{,}179>0$ và $a(1{,}5)=\dfrac{3}{3{,}25}\approx0{,}923>0$: cùng dấu, nên hạt đi sang phải và nhanh dần.
+
+### M423 · Ôn thi AP CALCULUS · Đề luyện AP Calculus BC: phần trắc nghiệm
+
+[M423.1] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^2}$ bằng
+A. $0$
+B. $\dfrac12$
+C. $1$
+D. không tồn tại
+::key B
+Dùng L'Hôpital hai lần: $\dfrac{\sin x}{2x}\to\dfrac12$. Hoặc dùng $\cos x=1-\dfrac{x^2}{2}+\dots$
+
+[M423.2] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to\infty}xe^{-x}$ bằng
+A. $0$
+B. $1$
+C. $e$
+D. $\infty$
+::key A
+$\dfrac{x}{e^x}$ có dạng $\dfrac\infty\infty$; L'Hôpital cho $\dfrac{1}{e^x}\to0$.
+
+[M423.3] Nhiều lựa chọn
+$\dfrac{d}{dx}\sin^2(3x)$ bằng
+A. $2\sin(3x)$
+B. $3\sin(6x)$
+C. $6\cos(3x)$
+D. $2\sin(3x)\cos(3x)$
+::key B
+$2\sin(3x)\cdot\cos(3x)\cdot3=3\sin(6x)$. Phương án D quên hệ số $3$ của hàm bên trong.
+
+[M423.4] Nhiều lựa chọn
+Nếu $e^y+xy=e$ thì $\dfrac{dy}{dx}$ tại điểm $(0,1)$ bằng
+A. $-e$
+B. $\dfrac1e$
+C. $0$
+D. $-\dfrac1e$
+::key D
+$e^yy'+y+xy'=0$. Tại $(0,1)$: $ey'+1=0$.
+
+[M423.5] Nhiều lựa chọn
+Nếu $f(x)=x^x$ với $x>0$ thì $f'(1)$ bằng
+A. $0$
+B. $e$
+C. $1$
+D. $\ln2$
+::key C
+$\ln f=x\ln x$, nên $f'=x^x(\ln x+1)$ và $f'(1)=1$.
+
+[M423.6] Nhiều lựa chọn
+Với $\dfrac{dy}{dx}=x-y$ và $y(0)=1$, phương pháp Euler với hai bước độ dài $0{,}5$ cho giá trị gần đúng nào của $y(1)$?
+A. $0{,}5$
+B. $0$
+C. $0{,}75$
+D. $1$
+::key A
+$y(0{,}5)\approx1+0{,}5(0-1)=0{,}5$; $y(1)\approx0{,}5+0{,}5(0{,}5-0{,}5)=0{,}5$.
+
+[M423.7] Nhiều lựa chọn
+Một quần thể thoả mãn $\dfrac{dP}{dt}=0{,}4P\left(1-\dfrac{P}{800}\right)$. Quần thể tăng nhanh nhất khi $P$ bằng
+A. $800$
+B. $320$
+C. $200$
+D. $400$
+::key D
+Tăng trưởng logistic nhanh nhất tại một nửa sức chứa.
+
+[M423.8] Nhiều lựa chọn
+$\displaystyle\int xe^{2x}\,dx$ bằng
+A. $\dfrac{x^2}{2}e^{2x}+C$
+B. $\left(\dfrac x2-\dfrac14\right)e^{2x}+C$
+C. $\left(\dfrac x2+\dfrac14\right)e^{2x}+C$
+D. $(2x-1)e^{2x}+C$
+::key B
+Từng phần với $u=x$, $dv=e^{2x}dx$: $\dfrac x2e^{2x}-\displaystyle\int\frac12e^{2x}\,dx$.
+
+[M423.9] Nhiều lựa chọn
+Tích phân $\displaystyle\int_2^3\frac{dx}{x^2-1}$ bằng
+A. $\dfrac12\ln\dfrac32$
+B. $\ln\dfrac32$
+C. $\dfrac12\ln\dfrac43$
+D. $\ln2$
+::key A
+$\dfrac{1}{x^2-1}=\dfrac12\left(\dfrac{1}{x-1}-\dfrac{1}{x+1}\right)$, nên tích phân bằng $\dfrac12\left[\ln\dfrac{x-1}{x+1}\right]_2^3=\dfrac12\left(\ln\dfrac12-\ln\dfrac13\right)$.
+
+[M423.10] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^\infty e^{-2x}\,dx$ bằng
+A. $\dfrac12$
+B. $2$
+C. $1$
+D. phân kì
+::key A
+$\displaystyle\lim_{b\to\infty}\left[-\frac12e^{-2x}\right]_0^b=\frac12$.
+
+[M423.11] Nhiều lựa chọn
+Tích phân suy rộng nào hội tụ?
+A. $\displaystyle\int_1^\infty\frac{dx}{\sqrt x}$
+B. $\displaystyle\int_1^\infty\frac{dx}{x}$
+C. $\displaystyle\int_0^1\frac{dx}{x^2}$
+D. $\displaystyle\int_0^1\frac{dx}{\sqrt x}$
+::key D
+$\displaystyle\int_0^1x^{-1/2}\,dx=\lim_{a\to0^+}\left[2\sqrt x\right]_a^1=2$. Các tích phân còn lại phân kì.
+
+[M423.12] Nhiều lựa chọn
+Với $x=t^2+1$, $y=2t^3$, giá trị $\dfrac{dy}{dx}$ tại $t=1$ bằng
+A. $6$
+B. $2$
+C. $3$
+D. $\dfrac13$
+::key C
+$\dfrac{6t^2}{2t}=3t=3$.
+
+[M423.13] Nhiều lựa chọn
+Với $x=e^t$, $y=t^2$, giá trị $\dfrac{d^2y}{dx^2}$ tại $t=0$ bằng
+A. $0$
+B. $1$
+C. $-2$
+D. $2$
+::key D
+$\dfrac{dy}{dx}=2te^{-t}$; $\dfrac{d}{dt}\left(2te^{-t}\right)=(2-2t)e^{-t}$; chia cho $e^t$: $(2-2t)e^{-2t}=2$ tại $t=0$.
+
+[M423.14] Nhiều lựa chọn
+Diện tích miền giới hạn bởi một cánh của $r=\sin(2\theta)$, $0\le\theta\le\dfrac\pi2$, bằng
+A. $\dfrac\pi4$
+B. $\dfrac\pi8$
+C. $\dfrac12$
+D. $\dfrac\pi2$
+::key B
+$\dfrac12\displaystyle\int_0^{\pi/2}\sin^2(2\theta)\,d\theta=\dfrac12\cdot\dfrac\pi4$. Phương án A quên hệ số $\dfrac12$.
+
+[M423.15] Nhiều lựa chọn
+Một hạt có vị trí $\left\langle t^3,t^2\right\rangle$. Tốc độ của hạt tại $t=1$ bằng
+A. $5$
+B. $\sqrt{13}$
+C. $\sqrt2$
+D. $\sqrt5$
+::key B
+$v(1)=\langle3,2\rangle$, tốc độ $\sqrt{9+4}$. Phương án C dùng vị trí.
+
+[M423.16] Nhiều lựa chọn
+Tổng $\displaystyle\sum_{n=1}^\infty\left(\frac23\right)^n$ bằng
+A. $3$
+B. $\dfrac23$
+C. $2$
+D. $\dfrac32$
+::key C
+Số hạng đầu $\dfrac23$, công bội $\dfrac23$: $\dfrac{2/3}{1/3}=2$. Phương án A bắt đầu từ $n=0$.
+
+[M423.17] Nhiều lựa chọn
+Chuỗi nào hội tụ có điều kiện?
+A. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{\sqrt n}$
+B. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^nn}{n+1}$
+C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$
+D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^3}$
+::key A
+A hội tụ theo tiêu chuẩn chuỗi đan dấu, nhưng $\displaystyle\sum\frac{1}{\sqrt n}$ phân kì. B phân kì (số hạng không tiến về $0$); C và D hội tụ tuyệt đối.
+
+[M423.18] Nhiều lựa chọn
+Bán kính hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{nx^n}{3^n}$ bằng
+A. $1$
+B. $\dfrac13$
+C. $\infty$
+D. $3$
+::key D
+Tiêu chuẩn tỉ số: $\dfrac{n+1}{n}\cdot\dfrac{|x|}{3}\to\dfrac{|x|}{3}<1$.
+
+[M423.19] Nhiều lựa chọn
+Khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x-1)^n}{n}$ là
+A. $(0,2)$
+B. $[0,2]$
+C. $[0,2)$
+D. $(0,2]$
+::key C
+Bán kính $1$. Tại $x=0$: chuỗi điều hoà đan dấu, hội tụ. Tại $x=2$: chuỗi điều hoà, phân kì.
+
+[M423.20] Nhiều lựa chọn
+Hệ số của $x^3$ trong chuỗi Maclaurin của $e^{2x}$ bằng
+A. $\dfrac43$
+B. $\dfrac16$
+C. $8$
+D. $\dfrac23$
+::key A
+$\dfrac{(2x)^3}{3!}=\dfrac86x^3$. Phương án C quên giai thừa.
+
+[M423.21] Nhiều lựa chọn
+Hàm $f$ có $f(2)=1$, $f'(2)=-3$ và $f''(2)=4$. Đa thức Taylor bậc hai của $f$ tại $x=2$ là
+A. $1-3x+2x^2$
+B. $1-3(x-2)+4(x-2)^2$
+C. $1-3(x-2)+2(x-2)^2$
+D. $1+3(x-2)+2(x-2)^2$
+::key C
+Hệ số của $(x-2)^2$ là $\dfrac{f''(2)}{2!}=2$. Phương án B quên giai thừa; phương án A lấy tâm tại $0$.
+
+[M423.22] Nhiều lựa chọn
+Hệ số của $x^6$ trong chuỗi Maclaurin của $x^2\cos x$ bằng
+A. $-\dfrac12$
+B. $\dfrac{1}{24}$
+C. $-\dfrac{1}{720}$
+D. $\dfrac{1}{720}$
+::key B
+$x^2\left(1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dots\right)$: số hạng chứa $x^6$ đến từ $\dfrac{x^4}{24}$.
+
+[M423.23] Nhiều lựa chọn
+Tổng của $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n^2}$ được xấp xỉ bằng ba số hạng đầu. Cận sai số tốt nhất theo cận sai số của chuỗi đan dấu là
+A. $\dfrac19$
+B. $\dfrac14$
+C. $\dfrac{1}{25}$
+D. $\dfrac{1}{16}$
+::key D
+Số hạng đầu tiên bị bỏ là số hạng thứ tư: $\dfrac{1}{4^2}$. Phương án A là số hạng cuối cùng được dùng.
+
+[M423.24] Nhiều lựa chọn
+Giới hạn $\displaystyle\lim_{x\to0}\frac{\sin x-x}{x^3}$ bằng
+A. $0$
+B. $-\dfrac16$
+C. $\dfrac16$
+D. $-\infty$
+::key B
+$\sin x-x=-\dfrac{x^3}{6}+\dfrac{x^5}{120}-\dots$, nên thương tiến tới $-\dfrac16$.
+
+[M423.25] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^{\pi/4}\sec^2x\,dx$ bằng
+A. $2$
+B. $\dfrac\pi4$
+C. $\sqrt2$
+D. $1$
+::key D
+$\left[\tan x\right]_0^{\pi/4}=1$.
+
+[M423.26] Nhiều lựa chọn
+Cho $F(x)=\displaystyle\int_0^x\left(t^2-4\right)dt$. Hàm $F$ đạt cực đại tại $x$ bằng
+A. $2$
+B. $0$
+C. $-2$
+D. $4$
+::key C
+$F'(x)=x^2-4$ đổi dấu từ dương sang âm tại $x=-2$. Tại $x=2$ nó đổi dấu từ âm sang dương: cực tiểu.
+
+[M423.27] Nhiều lựa chọn
+Diện tích miền trong góc phần tư thứ nhất giới hạn bởi $y=x$ và $y=x^3$ bằng
+A. $\dfrac14$
+B. $\dfrac12$
+C. $\dfrac34$
+D. $\dfrac{1}{12}$
+::key A
+$\displaystyle\int_0^1\left(x-x^3\right)dx=\frac12-\frac14$.
+
+[M423.28] Nhiều lựa chọn
+Hàm $f$ có $f(0)=2$, $f(1)=4$ và $f(3)=8$. Tổng hình thang của $\displaystyle\int_0^3f(x)\,dx$ với hai khoảng $[0,1]$ và $[1,3]$ bằng
+A. $14$
+B. $18$
+C. $15$
+D. $9$
+::key C
+$1\cdot\dfrac{2+4}{2}+2\cdot\dfrac{4+8}{2}=3+12=15$. Phương án D coi cả hai khoảng có độ rộng $1$.
+
+[M423.29] Nhiều lựa chọn
+Giá trị trung bình của $e^x$ trên $[0,\ln3]$ bằng
+A. $2$
+B. $\dfrac{3}{\ln3}$
+C. $\dfrac{2}{\ln3}$
+D. $\dfrac{1}{\ln3}$
+::key C
+$\dfrac{1}{\ln3}\displaystyle\int_0^{\ln3}e^x\,dx=\dfrac{3-1}{\ln3}$. Phương án A quên chia cho $\ln3$.
+
+[M423.30] Nhiều lựa chọn
+Diện tích miền giới hạn bởi đường cong cực $r=2+\sin(3\theta)$ là
+A. $12{,}566$
+B. $28{,}274$
+C. $14{,}137$
+D. $7{,}069$
+::key C
+$\dfrac12\displaystyle\int_0^{2\pi}\left(2+\sin3\theta\right)^2d\theta\approx14{,}137$. Phương án B quên hệ số $\dfrac12$.
+
+[M423.31] Nhiều lựa chọn
+Độ dài quỹ đạo $x=t+\cos t$, $y=\sin t$ với $0\le t\le\pi$ là
+A. $2{,}343$
+B. $5{,}657$
+C. $3{,}142$
+D. $4{,}000$
+::key A
+Tốc độ $\sqrt{(1-\sin t)^2+\cos^2t}=\sqrt{2-2\sin t}$; $\displaystyle\int_0^\pi\sqrt{2-2\sin t}\,dt\approx2{,}343$. Phương án B dùng $1+\sin t$.
+
+[M423.32] Nhiều lựa chọn
+Một hạt có vận tốc $v(t)=\left\langle e^{0{,}2t},\cos t\right\rangle$ và ở điểm $(1,0)$ lúc $t=0$. Hoành độ của hạt lúc $t=3$ là
+A. $4{,}111$
+B. $5{,}111$
+C. $1{,}822$
+D. $2{,}822$
+::key B
+$x(3)=1+\displaystyle\int_0^3e^{0{,}2t}\,dt\approx1+4{,}111$. Phương án A quên vị trí ban đầu; phương án C là $e^{0{,}6}$.
+
+[M423.33] Nhiều lựa chọn
+Với $\dfrac{dy}{dx}=\sin(xy)$ và $y(0)=1$, phương pháp Euler với hai bước độ dài $0{,}5$ cho giá trị gần đúng nào của $y(1)$?
+A. $1{,}000$
+B. $1{,}479$
+C. $1{,}421$
+D. $1{,}240$
+::key D
+Bước một: hệ số góc $\sin0=0$, nên $y(0{,}5)\approx1$. Bước hai: hệ số góc $\sin0{,}5\approx0{,}479$, nên $y(1)\approx1+0{,}5(0{,}479)\approx1{,}240$.
+
+[M423.34] Nhiều lựa chọn
+Miền dưới $y=\sqrt x\,e^{-x}$ với $0\le x\le2$ quay quanh trục $x$. Thể tích khối tạo thành là
+A. $0{,}713$
+B. $0{,}227$
+C. $2{,}056$
+D. $1{,}427$
+::key A
+$\pi\displaystyle\int_0^2xe^{-2x}\,dx\approx0{,}713$. Phương án B quên $\pi$; phương án C không bình phương bán kính.
+
+[M423.35] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^1e^{-x^2}\,dx$ bằng
+A. $0{,}632$
+B. $0{,}368$
+C. $0{,}747$
+D. $0{,}843$
+::key C
+Tính tích phân bằng máy được $0{,}747$. Phương án A là $\displaystyle\int_0^1e^{-x}\,dx$.
+
+[M423.36] Nhiều lựa chọn
+Hệ số góc của đường cong cực $r=1+2\sin\theta$ tại $\theta=\dfrac\pi6$ là
+A. $1{,}732$
+B. $0{,}577$
+C. $-5{,}196$
+D. $5{,}196$
+::key D
+$r=2$, $r'=2\cos\dfrac\pi6\approx1{,}732$; $\dfrac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}\approx5{,}196$. Phương án A là $\dfrac{dr}{d\theta}$.
+
+[M423.37] Nhiều lựa chọn
+Một hạt chuyển động với $\dfrac{dx}{dt}=\cos\left(t^2\right)$ và $\dfrac{dy}{dt}=t$, $0<t<2$. Tại thời điểm nào hạt chuyển động theo phương thẳng đứng?
+A. $1{,}571$
+B. $1{,}253$
+C. $0{,}785$
+D. $1{,}000$
+::key B
+$\cos\left(t^2\right)=0$ khi $t^2=\dfrac\pi2$, nên $t\approx1{,}253$, tại đó $\dfrac{dy}{dt}\ne0$. Phương án A là $t^2$.
+
+[M423.38] Nhiều lựa chọn
+Một đại lượng thoả mãn $\dfrac{dy}{dt}=0{,}3y$ với $y(0)=50$. Đến thời điểm nào $y$ đạt $200$?
+A. $4{,}621$
+B. $2{,}310$
+C. $10{,}000$
+D. $13{,}333$
+::key A
+$50e^{0{,}3t}=200$, nên $t=\dfrac{\ln4}{0{,}3}\approx4{,}621$. Phương án B dùng $\ln2$.
+
+[M423.39] Nhiều lựa chọn
+Giá trị trung bình của $f(x)=x\sin x$ trên $[0,\pi]$ là
+A. $3{,}142$
+B. $0{,}500$
+C. $1{,}820$
+D. $1{,}000$
+::key D
+$\dfrac1\pi\displaystyle\int_0^\pi x\sin x\,dx=\dfrac\pi\pi=1$. Phương án A là tích phân.
+
+[M423.40] Nhiều lựa chọn
+Diện tích miền nằm trong $r=3\sin\theta$ và nằm ngoài $r=1+\sin\theta$ là
+A. $6{,}283$
+B. $3{,}142$
+C. $1{,}571$
+D. $4{,}712$
+::key B
+Hai đường cắt nhau khi $\sin\theta=\dfrac12$: $\dfrac12\displaystyle\int_{\pi/6}^{5\pi/6}\left(9\sin^2\theta-(1+\sin\theta)^2\right)d\theta\approx3{,}142$.
+
+[M423.41] Nhiều lựa chọn
+Hàm $f$ có $f(0)=2$ và $f'(x)=\dfrac{e^x}{1+x^2}$. Giá trị $f(1)$ là
+A. $1{,}271$
+B. $3{,}359$
+C. $3{,}271$
+D. $2{,}000$
+::key C
+$f(1)=2+\displaystyle\int_0^1\frac{e^x}{1+x^2}\,dx\approx2+1{,}271$. Phương án A quên $f(0)$.
+
+[M423.42] Nhiều lựa chọn
+Tổng riêng $S_{10}=\displaystyle\sum_{n=1}^{10}\frac{1}{n^2}$ được dùng để xấp xỉ $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$. Giá trị $S_{10}$ là
+A. $1{,}645$
+B. $2{,}929$
+C. $1{,}540$
+D. $1{,}550$
+::key D
+Cộng mười số hạng được $1{,}550$. Phương án A là tổng của cả chuỗi $\dfrac{\pi^2}{6}$; phương án B là $\displaystyle\sum_{n=1}^{10}\frac1n$.
+
+### M424 · Ôn thi AP STATISTICS · Mô tả dữ liệu một biến
+
+[M424.1] Nhiều lựa chọn
+Biến nào là biến định tính?
+A. Chiều cao tính bằng xăng-ti-mét
+B. Môn thể thao yêu thích
+C. Số anh chị em
+D. Thời gian chạy $100$ m
+::key B
+Môn thể thao yêu thích xếp mỗi người vào một nhóm.
+
+[M424.2] Nhiều lựa chọn
+Cặp số đo nào bền vững trước giá trị ngoại lai?
+A. Trung bình và độ lệch chuẩn
+B. Trung bình và IQR
+C. Trung vị và độ lệch chuẩn
+D. Trung vị và IQR
+::key D
+Cả hai đều dựa vào phần giữa của dữ liệu đã sắp xếp.
+
+[M424.3] Nhiều lựa chọn
+Với một phân phối lệch trái mạnh, thông thường
+A. trung bình nhỏ hơn trung vị
+B. trung bình bằng trung vị
+C. trung bình lớn hơn trung vị
+D. trung vị bằng $0$
+::key A
+Đuôi dài bên trái kéo trung bình xuống.
+
+[M424.4] Nhiều lựa chọn
+Một giá trị có điểm z bằng $-1$. Điều này nghĩa là giá trị đó
+A. nhỏ hơn trung bình $1$ đơn vị
+B. ở bách phân vị thứ $1$
+C. nhỏ hơn trung bình một độ lệch chuẩn
+D. nhỏ hơn giá trị nhỏ nhất
+::key C
+Điểm z đếm số độ lệch chuẩn so với trung bình.
+
+[M424.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho dữ liệu $2,\ 4,\ 6,\ 8,\ 10$. Xét tính đúng sai của các mệnh đề sau:
+a) Trung bình là $6$.
+b) Trung vị là $6$.
+c) Khoảng biến thiên là $8$.
+d) IQR bằng $4$.
+::key T T T F
+$Q_1=3$ và $Q_3=9$, nên IQR bằng $6$.
+
+[M424.6] Trả lời ngắn
+Tìm trung vị của $3,\ 9,\ 4,\ 7,\ 10$.
+::key 7
+Sắp xếp: $3,4,7,9,10$.
+
+[M424.7] Trả lời ngắn
+Một bài kiểm tra có trung bình $50$ và độ lệch chuẩn $6$. Tìm điểm z của điểm số $65$.
+::key 2,5
+$\dfrac{65-50}{6}=2{,}5$.
+
+### M425 · Ôn thi AP STATISTICS · Dữ liệu hai biến và hồi quy tuyến tính
+
+[M425.1] Nhiều lựa chọn
+Một đường bình phương nhỏ nhất có hệ số góc $-2{,}3$. Hệ số tương quan $r$
+A. dương
+B. bằng $-2{,}3$
+C. âm
+D. bằng $0$
+::key C
+Hệ số tương quan cùng dấu với hệ số góc.
+
+[M425.2] Nhiều lựa chọn
+Phần dư được tính bằng
+A. $y$ thực tế trừ $y$ dự đoán
+B. $y$ dự đoán trừ $y$ thực tế
+C. $x$ trừ $\bar x$
+D. $y$ trừ $\bar y$
+::key A
+Phần dư $=y-\hat y$.
+
+[M425.3] Nhiều lựa chọn
+Giá trị $r$ nào cho thấy liên hệ tuyến tính mạnh nhất?
+A. $0{,}75$
+B. $0{,}10$
+C. $-0{,}5$
+D. $-0{,}92$
+::key D
+Độ mạnh phụ thuộc vào độ lớn của $|r|$.
+
+[M425.4] Nhiều lựa chọn
+Dự đoán $y$ tại một giá trị $x$ nằm xa ngoài dữ liệu được gọi là
+A. nội suy
+B. ngoại suy
+C. tương quan
+D. phần dư
+::key B
+Ngoại suy không đáng tin.
+
+[M425.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một đường bình phương nhỏ nhất là $\hat y=5+2x$ và $r=0{,}9$. Xét tính đúng sai của các mệnh đề sau:
+a) Đường thẳng đi qua $(\bar x,\bar y)$.
+b) $y$ dự đoán khi $x=3$ là $11$.
+c) $r^2=0{,}81$.
+d) Mối liên hệ chắc chắn là nhân quả.
+::key T T T F
+Tương quan không cho thấy quan hệ nhân quả.
+
+[M425.6] Trả lời ngắn
+Với $\hat y=5+2x$, tìm giá trị dự đoán khi $x=7$.
+::key 19
+$5+2(7)=19$.
+
+[M425.7] Trả lời ngắn
+Nếu $r=0{,}9$, tính $r^2$.
+::key 0,81
+$0{,}9^2=0{,}81$.
+
+### M426 · Ôn thi AP STATISTICS · Chọn mẫu, nghiên cứu quan sát và thí nghiệm
+
+[M426.1] Nhiều lựa chọn
+Phương pháp nào bảo vệ tốt nhất trước độ chệch do chọn mẫu?
+A. Chọn một mẫu ngẫu nhiên
+B. Chọn một mẫu thuận tiện rất lớn
+C. Mời người tình nguyện
+D. Khảo sát bạn bè của nhà nghiên cứu
+::key A
+Chọn ngẫu nhiên cho mỗi cá thể một khả năng được chọn xác định.
+
+[M426.2] Nhiều lựa chọn
+Mục đích chính của giả dược là gì?
+A. Tăng cỡ mẫu
+B. Làm nghiệm thức mạnh hơn
+C. Cho phép chọn mẫu ngẫu nhiên
+D. Làm trải nghiệm của nhóm đối chứng giống nhất có thể, trừ nghiệm thức thật
+::key D
+Khi đó hiệu ứng giả dược tác động lên cả hai nhóm.
+
+[M426.3] Nhiều lựa chọn
+Hai biến gây nhiễu nhau khi
+A. hệ số tương quan của chúng bằng $0$
+B. không tách được ảnh hưởng của chúng lên biến phản hồi
+C. cả hai đều là biến định tính
+D. một biến là biến phản hồi
+::key B
+Gây nhiễu là lí do nghiên cứu quan sát không chứng minh được nhân quả.
+
+[M426.4] Nhiều lựa chọn
+Trường hợp nào là thí nghiệm?
+A. Ghi lại thời gian dùng màn hình của $200$ thiếu niên
+B. So sánh chiều cao của nam và nữ trong một lớp
+C. Phân ngẫu nhiên bệnh nhân dùng thuốc mới hoặc giả dược
+D. Khảo sát cử tri về một ứng cử viên
+::key C
+Chỉ C áp đặt một nghiệm thức.
+
+[M426.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong một thí nghiệm, $50$ tình nguyện viên được phân ngẫu nhiên theo chế độ ăn mới hoặc chế độ ăn thường ngày. Xét tính đúng sai của các mệnh đề sau:
+a) Đây là một thí nghiệm.
+b) Phân nhóm ngẫu nhiên cho phép kết luận nhân quả.
+c) Kết quả mở rộng được cho mọi người trưởng thành.
+d) Nhóm ăn như thường ngày đóng vai trò nhóm đối chứng.
+::key T T F T
+Đối tượng là tình nguyện viên, không phải mẫu ngẫu nhiên.
+
+[M426.6] Trả lời ngắn
+Một trường $1200$ học sinh có $300$ học sinh khối 12. Trong một mẫu phân tầng theo tỉ lệ gồm $80$ học sinh, có bao nhiêu học sinh khối 12?
+::key 20
+$\dfrac{300}{1200}\times80=20$.
+
+[M426.7] Trả lời ngắn
+Một thí nghiệm có yếu tố A với $3$ mức và yếu tố B với $2$ mức. Có bao nhiêu nghiệm thức?
+::key 6
+$3\times2=6$ tổ hợp.
+
+### M427 · Ôn thi AP STATISTICS · Xác suất và biến ngẫu nhiên
+
+[M427.1] Nhiều lựa chọn
+Nếu $P(A)=0{,}35$ thì $P(A^C)$ bằng
+A. $0{,}35$
+B. $0{,}65$
+C. $1{,}35$
+D. $0{,}1225$
+::key B
+$1-0{,}35=0{,}65$.
+
+[M427.2] Nhiều lựa chọn
+$A$ và $B$ độc lập với $P(A)=0{,}3$ và $P(B)=0{,}4$. Khi đó $P(A\text{ và }B)$ bằng
+A. $0{,}7$
+B. $0{,}1$
+C. $0{,}12$
+D. $0{,}58$
+::key C
+$0{,}3\times0{,}4=0{,}12$.
+
+[M427.3] Nhiều lựa chọn
+Kì vọng của phân phối nhị thức với $n=20$ và $p=0{,}3$ là
+A. $6$
+B. $4{,}2$
+C. $2{,}05$
+D. $0{,}3$
+::key A
+$np=20\times0{,}3=6$.
+
+[M427.4] Nhiều lựa chọn
+Tình huống nào KHÔNG phải tình huống nhị thức?
+A. Đếm số lần ra mặt ngửa trong $12$ lần tung đồng xu
+B. Đếm số câu đoán đúng trong $8$ câu đúng sai
+C. Đếm số sản phẩm lỗi trong mẫu ngẫu nhiên $15$ sản phẩm từ một lô lớn
+D. Đếm số lần gieo xúc xắc cần thiết để ra mặt sáu lần đầu
+::key D
+Số lần thử không cố định.
+
+[M427.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Biến ngẫu nhiên $X$ nhận các giá trị $0$, $1$, $2$ với xác suất $0{,}5$; $0{,}3$ và $0{,}2$. Xét tính đúng sai của các mệnh đề sau:
+a) Tổng các xác suất bằng $1$.
+b) $P(X\ge1)=0{,}5$.
+c) $\mu_X=0{,}7$.
+d) $\mu_X$ phải là một giá trị của $X$.
+::key T T T F
+Kì vọng $0{,}7$ không phải giá trị có thể có.
+
+[M427.6] Trả lời ngắn
+Với biến ngẫu nhiên ở câu trên, tính $P(X=2\mid X\ge1)$.
+::key 0,4
+$\dfrac{0{,}2}{0{,}5}=0{,}4$.
+
+[M427.7] Trả lời ngắn
+Nếu $P(A\text{ và }B)=0{,}12$ và $P(B)=0{,}4$, tính $P(A\mid B)$.
+::key 0,3
+$\dfrac{0{,}12}{0{,}4}=0{,}3$.
+
+### M428 · Ôn thi AP STATISTICS · Phân phối chuẩn và phân phối mẫu
+
+[M428.1] Nhiều lựa chọn
+Trong phân phối chuẩn, khoảng $99{,}7\%$ giá trị nằm trong phạm vi bao nhiêu độ lệch chuẩn quanh trung bình?
+A. $1$
+B. $2$
+C. $2{,}5$
+D. $3$
+::key D
+Quy tắc 68-95-99,7.
+
+[M428.2] Nhiều lựa chọn
+Một tổng thể có $\sigma=10$. Với các mẫu ngẫu nhiên cỡ $25$, độ lệch chuẩn của $\bar x$ là
+A. $2$
+B. $10$
+C. $0{,}4$
+D. $50$
+::key A
+$\dfrac{10}{\sqrt{25}}=2$.
+
+[M428.3] Nhiều lựa chọn
+Để phân phối mẫu của $\hat p$ xấp xỉ chuẩn, ta kiểm tra
+A. $n\ge30$
+B. $np\ge10$ và $n(1-p)\ge10$
+C. tổng thể có phân phối chuẩn
+D. $p=0{,}5$
+::key B
+Điều kiện số đếm đủ lớn.
+
+[M428.4] Nhiều lựa chọn
+Tăng cỡ mẫu sẽ
+A. giảm độ chệch của thống kê
+B. làm tổng thể có phân phối chuẩn
+C. giảm độ biến động của thống kê
+D. thay đổi tham số
+::key C
+Độ phân tán giảm khi $n$ tăng.
+
+[M428.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một tổng thể có trung bình $40$ và độ lệch chuẩn $9$. Lấy các mẫu ngẫu nhiên cỡ $81$. Xét tính đúng sai của các mệnh đề sau:
+a) Trung bình của $\bar x$ là $40$.
+b) Độ lệch chuẩn của $\bar x$ là $1$.
+c) Phân phối của $\bar x$ xấp xỉ chuẩn.
+d) Các giá trị riêng lẻ phải có phân phối chuẩn.
+::key T T T F
+Định lí giới hạn trung tâm áp dụng cho $\bar x$, không cho từng cá thể.
+
+[M428.6] Trả lời ngắn
+Một bài kiểm tra có trung bình $100$ và độ lệch chuẩn $15$. Tìm điểm z của $130$.
+::key 2
+$\dfrac{130-100}{15}=2$.
+
+[M428.7] Trả lời ngắn
+Khoảng bao nhiêu phần trăm giá trị của phân phối chuẩn nằm trong phạm vi một độ lệch chuẩn quanh trung bình?
+::key 68
+Quy tắc 68-95-99,7.
+
+### M429 · Ôn thi AP STATISTICS · Suy luận cho tỉ lệ
+
+[M429.1] Nhiều lựa chọn
+Giá trị tới hạn nào dùng cho khoảng tin cậy $95\%$ của một tỉ lệ?
+A. $1{,}645$
+B. $2{,}576$
+C. $1{,}96$
+D. $0{,}95$
+::key C
+$95\%$ diện tích của phân phối chuẩn tắc nằm giữa $-1{,}96$ và $1{,}96$.
+
+[M429.2] Nhiều lựa chọn
+Giả thuyết không nào viết đúng?
+A. $H_0:p=0{,}4$
+B. $H_0:\hat p=0{,}4$
+C. $H_0:p>0{,}4$
+D. $H_0:\hat p>0{,}4$
+::key A
+Giả thuyết nói về tham số, và $H_0$ là đẳng thức.
+
+[M429.3] Nhiều lựa chọn
+Sai lầm loại I xảy ra khi ta
+A. không bác bỏ một $H_0$ sai
+B. bác bỏ một $H_0$ đúng
+C. tính sai giá trị P
+D. dùng sai cỡ mẫu
+::key B
+Xác suất của nó là $\alpha$.
+
+[M429.4] Nhiều lựa chọn
+Giá trị P bằng $0{,}002$ nghĩa là
+A. có $0{,}2\%$ khả năng $H_0$ đúng
+B. $H_a$ đúng với xác suất $0{,}998$
+C. mẫu quá nhỏ
+D. nếu $H_0$ đúng, kết quả cực đoan như vậy chỉ xảy ra khoảng $0{,}2\%$ số lần
+::key D
+Giá trị P được tính khi giả sử $H_0$ đúng.
+
+[M429.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một khoảng tin cậy $95\%$ cho $p$ là $(0{,}42;\ 0{,}50)$. Xét tính đúng sai của các mệnh đề sau:
+a) Tỉ lệ mẫu là $0{,}46$.
+b) Sai số biên là $0{,}04$.
+c) $p=0{,}55$ là một giá trị hợp lí.
+d) Khoảng tin cậy $99\%$ từ cùng dữ liệu sẽ rộng hơn.
+::key T T F T
+$0{,}55$ nằm ngoài khoảng.
+
+[M429.6] Trả lời ngắn
+Một khoảng tin cậy $95\%$ cho $p$ là $(0{,}31;\ 0{,}39)$. Tìm sai số biên.
+::key 0,04
+Một nửa độ rộng: $\dfrac{0{,}39-0{,}31}{2}$.
+
+[M429.7] Trả lời ngắn
+Phải tăng $n$ lên bao nhiêu lần để sai số biên giảm một nửa?
+::key 4
+Sai số biên tỉ lệ với $\dfrac{1}{\sqrt n}$.
+
+### M430 · Ôn thi AP STATISTICS · Suy luận cho trung bình
+
+[M430.1] Nhiều lựa chọn
+Với phương pháp $t$ một mẫu và $n=20$, số bậc tự do là
+A. $20$
+B. $19$
+C. $18$
+D. $21$
+::key B
+df $=n-1$.
+
+[M430.2] Nhiều lựa chọn
+So với phân phối chuẩn tắc, phân phối $t$ có
+A. đuôi dày hơn
+B. kì vọng lớn hơn
+C. đuôi mỏng hơn
+D. hình dạng lệch
+::key A
+Ước lượng $\sigma$ làm tăng độ bất định.
+
+[M430.3] Nhiều lựa chọn
+Một nghiên cứu đo huyết áp của mỗi bệnh nhân trước và sau khi dùng thuốc. Phương pháp đúng là
+A. kiểm định $t$ hai mẫu
+B. kiểm định $z$ cho một tỉ lệ
+C. kiểm định $z$ cho hai tỉ lệ
+D. kiểm định $t$ ghép cặp trên các hiệu
+::key D
+Cùng bệnh nhân được đo hai lần.
+
+[M430.4] Nhiều lựa chọn
+Với mẫu nhỏ, điều kiện chuẩn / mẫu lớn được kiểm tra bằng cách
+A. tính $np$
+B. đảm bảo $n\ge10$
+C. vẽ đồ thị dữ liệu và xem có lệch mạnh hay ngoại lai không
+D. kiểm tra $\bar x$ có gần $\mu_0$ không
+::key C
+Hình dạng của mẫu cho bằng chứng về hình dạng của tổng thể.
+
+[M430.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một mẫu ngẫu nhiên $36$ giá trị có $\bar x=50$ và $s=12$. Xét tính đúng sai của các mệnh đề sau:
+a) Sai số chuẩn của trung bình là $2$.
+b) Số bậc tự do là $35$.
+c) Khoảng tin cậy $t$ $95\%$ dùng đúng $t^*=1{,}96$.
+d) Điều kiện chuẩn / mẫu lớn thoả mãn vì $n\ge30$.
+::key T T F T
+Với df $=35$, $t^*\approx2{,}03$.
+
+[M430.6] Trả lời ngắn
+Tìm sai số chuẩn của trung bình khi $s=8$ và $n=16$.
+::key 2
+$\dfrac{8}{\sqrt{16}}=2$.
+
+[M430.7] Trả lời ngắn
+Trong một kiểm định, $\bar x=52$, $\mu_0=50$ và sai số chuẩn là $0{,}8$. Tìm $t$.
+::key 2,5
+$\dfrac{52-50}{0{,}8}=2{,}5$.
+
+### M431 · Ôn thi AP STATISTICS · Đề luyện AP Statistics số 1
+
+[M431.1] Nhiều lựa chọn
+Thu nhập năm ở một thị trấn lệch phải mạnh. Số đo nào mô tả tốt nhất thu nhập điển hình?
+A. Trung bình
+B. Trung vị
+C. Khoảng biến thiên
+D. Độ lệch chuẩn
+::key B
+Trung vị bền vững trước vài thu nhập rất lớn vốn kéo trung bình lên.
+
+[M431.2] Nhiều lựa chọn
+Khoảng tứ phân vị của dữ liệu $4,\ 7,\ 8,\ 10,\ 11,\ 13,\ 30$ là
+A. $26$
+B. $9$
+C. $5$
+D. $6$
+::key D
+Trung vị là $10$; $Q_1=7$ (trung vị của $4,7,8$) và $Q_3=13$ (trung vị của $11,13,30$), nên $\text{IQR}=6$.
+
+[M431.3] Nhiều lựa chọn
+Một bộ dữ liệu có $Q_1=20$ và $Q_3=32$. Theo quy tắc $1{,}5\times\text{IQR}$, giá trị nào là ngoại lai?
+A. $52$
+B. $45$
+C. $49$
+D. $14$
+::key A
+$\text{IQR}=12$, nên hai ngưỡng là $20-18=2$ và $32+18=50$; chỉ có $52$ vượt ngưỡng.
+
+[M431.4] Nhiều lựa chọn
+Một bài kiểm tra có trung bình $80$ và độ lệch chuẩn $4$. Điểm z của điểm số $74$ là
+A. $1{,}5$
+B. $-6$
+C. $-1{,}5$
+D. $-0{,}67$
+::key C
+$z=\dfrac{74-80}{4}=-1{,}5$.
+
+[M431.5] Nhiều lựa chọn
+Hai lớp có cùng điểm trung bình $70$, nhưng lớp A có độ lệch chuẩn $5$ còn lớp B có độ lệch chuẩn $12$. Khẳng định nào đúng?
+A. Điểm lớp B phân tán hơn lớp A.
+B. Điểm lớp A cao hơn lớp B.
+C. Lớp B có nhiều học sinh hơn.
+D. Điểm lớp A phân tán hơn lớp B.
+::key A
+Độ lệch chuẩn đo độ phân tán; trung tâm của hai lớp như nhau.
+
+[M431.6] Nhiều lựa chọn
+Giá trị lớn nhất của một bộ dữ liệu là ngoại lai rất xa và bị loại bỏ. Trung bình và trung vị thay đổi thế nào?
+A. Cả hai giảm cùng một lượng.
+B. Trung vị giảm rõ rệt; trung bình thay đổi ít.
+C. Không số nào thay đổi.
+D. Trung bình giảm rõ rệt; trung vị thay đổi ít.
+::key D
+Trung bình bị kéo bởi giá trị cực đoan; trung vị thì bền vững.
+
+[M431.7] Nhiều lựa chọn
+Một trường chọn ngẫu nhiên $10$ trong $50$ lớp chủ nhiệm và khảo sát mọi học sinh trong các lớp đó. Đây là
+A. mẫu ngẫu nhiên phân tầng
+B. mẫu cụm
+C. mẫu ngẫu nhiên đơn giản học sinh
+D. mẫu hệ thống
+::key B
+Chọn ngẫu nhiên trọn một số nhóm và đo mọi cá thể trong đó.
+
+[M431.8] Nhiều lựa chọn
+Một chương trình phát thanh mời thính giả gọi điện cho biết họ có ủng hộ một loại thuế mới không. Độ chệch nào có khả năng nhất?
+A. Chệch do không trả lời
+B. Chệch do cách hỏi
+C. Chệch do tự nguyện trả lời
+D. Không chệch vì mẫu lớn
+::key C
+Thính giả tự chọn mình; người có ý kiến mạnh dễ gọi hơn.
+
+[M431.9] Nhiều lựa chọn
+Thiết kế nghiên cứu nào cho phép kết luận về quan hệ nhân quả?
+A. Thí nghiệm so sánh có phân nhóm ngẫu nhiên
+B. Nghiên cứu quan sát quy mô lớn
+C. Khảo sát chọn mẫu
+D. Tổng điều tra
+::key A
+Phân nhóm ngẫu nhiên các nghiệm thức làm các nhóm tương đương.
+
+[M431.10] Nhiều lựa chọn
+Trong thí nghiệm về phân bón, các thửa ruộng được gom theo loại đất rồi phân bón được phân ngẫu nhiên trong từng nhóm. Mục đích chính của việc gom nhóm là
+A. tăng số nghiệm thức
+B. mở rộng kết quả cho mọi nông trại
+C. không cần phân nhóm ngẫu nhiên nữa
+D. giảm biến động của biến phản hồi do loại đất
+::key D
+Lập khối theo loại đất loại bỏ ảnh hưởng của nó khỏi phép so sánh các nghiệm thức.
+
+[M431.11] Nhiều lựa chọn
+Câu nào là một câu hỏi khảo sát thống kê?
+A. Hôm nay Minh mất bao nhiêu phút để đến trường?
+B. Học sinh trường ta thường mất bao nhiêu phút để đến trường?
+C. Đi học có mệt không?
+D. Tiết học đầu tiên bắt đầu lúc mấy giờ?
+::key B
+Câu hỏi nói về một nhóm và được trả lời bằng dữ liệu có biến động.
+
+[M431.12] Nhiều lựa chọn
+Hai biến cố $A$ và $B$ độc lập với $P(A)=0{,}5$ và $P(B)=0{,}3$. Giá trị $P(A\text{ hoặc }B)$ là
+A. $0{,}80$
+B. $0{,}15$
+C. $0{,}65$
+D. $0{,}50$
+::key C
+$P(A\text{ và }B)=0{,}15$, nên $0{,}5+0{,}3-0{,}15=0{,}65$.
+
+[M431.13] Nhiều lựa chọn
+Trong $100$ người dưới $30$ tuổi có $40$ người thích trà; trong $200$ người từ $30$ tuổi trở lên có $80$ người thích trà. Chọn ngẫu nhiên một người trong $300$ người này thì người đó thích trà. Xác suất để người đó dưới $30$ tuổi là
+A. $0{,}333$
+B. $0{,}400$
+C. $0{,}133$
+D. $0{,}500$
+::key A
+Trong $120$ người thích trà có $40$ người dưới $30$ tuổi: $\dfrac{40}{120}\approx0{,}333$.
+
+[M431.14] Nhiều lựa chọn
+Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Giá trị $P(X=0)$ là
+A. $0{,}900$
+B. $0{,}570$
+C. $0{,}430$
+D. $0{,}100$
+::key C
+$P(X=0)=(0{,}9)^8\approx0{,}430$.
+
+[M431.15] Nhiều lựa chọn
+Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Kì vọng của $X$ là
+A. $0{,}1$
+B. $0{,}8$
+C. $8$
+D. $0{,}72$
+::key B
+$\mu_X=np=8(0{,}1)=0{,}8$. Giá trị $0{,}72$ là phương sai $np(1-p)$.
+
+[M431.16] Nhiều lựa chọn
+Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Xác suất để có ít nhất một linh kiện lỗi là
+A. $0{,}430$
+B. $0{,}800$
+C. $0{,}100$
+D. $0{,}570$
+::key D
+$P(X\ge1)=1-P(X=0)\approx1-0{,}430=0{,}570$.
+
+[M431.17] Nhiều lựa chọn
+Một biến ngẫu nhiên nhận các giá trị $0,1,2,3$ với xác suất $0{,}1;\ 0{,}3;\ 0{,}4;\ 0{,}2$. Kì vọng của nó là
+A. $1{,}7$
+B. $1{,}5$
+C. $2$
+D. $0{,}25$
+::key A
+$0(0{,}1)+1(0{,}3)+2(0{,}4)+3(0{,}2)=1{,}7$.
+
+[M431.18] Nhiều lựa chọn
+Một biến có phân phối chuẩn với trung bình $50$ và độ lệch chuẩn $8$. Tỉ lệ giá trị nhỏ hơn $62$ là
+A. $0{,}0668$
+B. $0{,}9332$
+C. $0{,}8413$
+D. $0{,}9772$
+::key B
+$z=\dfrac{62-50}{8}=1{,}5$ và $P(Z<1{,}5)\approx0{,}9332$.
+
+[M431.19] Nhiều lựa chọn
+Một tổng thể có độ lệch chuẩn $20$. Độ lệch chuẩn của $\bar x$ với các mẫu ngẫu nhiên cỡ $100$ là
+A. $20$
+B. $0{,}2$
+C. $2$
+D. $5$
+::key C
+$\dfrac{20}{\sqrt{100}}=2$.
+
+[M431.20] Nhiều lựa chọn
+Trong một tổng thể, $p=0{,}04$. Cỡ mẫu nhỏ nhất trong các cỡ sau mà điều kiện số đếm đủ lớn cho $\hat p$ được thoả mãn là
+A. $100$
+B. $150$
+C. $200$
+D. $250$
+::key D
+Cần $np\ge10$: $250(0{,}04)=10$, còn $200(0{,}04)=8$.
+
+[M431.21] Nhiều lựa chọn
+Trong một mẫu ngẫu nhiên $400$ cử tri, $45\%$ ủng hộ một đề xuất. Khoảng nào là khoảng tin cậy $95\%$ cho tỉ lệ toàn bộ cử tri ủng hộ?
+A. $0{,}45\pm0{,}025$
+B. $0{,}45\pm0{,}098$
+C. $0{,}45\pm0{,}049$
+D. $0{,}45\pm0{,}041$
+::key C
+$1{,}96\sqrt{\dfrac{0{,}45(0{,}55)}{400}}\approx1{,}96(0{,}0249)\approx0{,}049$. Giá trị $0{,}025$ thiếu $z^*$, còn $0{,}041$ dùng $z^*=1{,}645$.
+
+[M431.22] Nhiều lựa chọn
+"Độ tin cậy $95\%$" của một khoảng tin cậy nghĩa là gì?
+A. Khoảng $95\%$ số khoảng lập theo cách này từ nhiều mẫu chứa tham số thật.
+B. Xác suất để thống kê mẫu nằm trong khoảng là $95\%$.
+C. $95\%$ dữ liệu nằm trong khoảng.
+D. Tham số thay đổi $5\%$ số lần.
+::key A
+Độ tin cậy mô tả tỉ lệ thành công trong dài hạn của phương pháp.
+
+[M431.23] Nhiều lựa chọn
+Một công ty khẳng định hơn $30\%$ khách hàng của họ dưới $25$ tuổi. Cặp giả thuyết nào kiểm định lời khẳng định đó?
+A. $H_0:p>0{,}3$, $H_a:p=0{,}3$
+B. $H_0:p=0{,}3$, $H_a:p>0{,}3$
+C. $H_0:\hat p=0{,}3$, $H_a:\hat p>0{,}3$
+D. $H_0:p=0{,}3$, $H_a:p\ne0{,}3$
+::key B
+Lời khẳng định cần bằng chứng đặt ở $H_a$, và giả thuyết nói về $p$.
+
+[M431.24] Nhiều lựa chọn
+Trong kiểm định $H_0:p=0{,}5$ với $n=100$, tỉ lệ mẫu là $0{,}55$. Thống kê kiểm định là
+A. $z=0{,}10$
+B. $z=2{,}00$
+C. $z=0{,}05$
+D. $z=1{,}00$
+::key D
+$z=\dfrac{0{,}55-0{,}5}{\sqrt{0{,}5(0{,}5)/100}}=\dfrac{0{,}05}{0{,}05}=1{,}00$.
+
+[M431.25] Nhiều lựa chọn
+Một kiểm định cho giá trị P bằng $0{,}08$ với $\alpha=0{,}05$. Kết luận đúng là
+A. không bác bỏ $H_0$; không có bằng chứng thuyết phục cho $H_a$
+B. bác bỏ $H_0$; có bằng chứng thuyết phục cho $H_a$
+C. chấp nhận $H_0$; nó được chứng minh là đúng
+D. bác bỏ $H_a$; $H_0$ đúng
+::key A
+$0{,}08>0{,}05$ nên ta không bác bỏ $H_0$; điều này không chứng minh $H_0$ đúng.
+
+[M431.26] Nhiều lựa chọn
+Một nhà máy kiểm định $H_0$: tỉ lệ lỗi là $2\%$, với $H_a$: tỉ lệ lỗi cao hơn $2\%$. Đâu là sai lầm loại II?
+A. Kết luận tỉ lệ cao hơn trong khi thực tế là $2\%$
+B. Kết luận tỉ lệ là $2\%$ trong khi thực tế là $2\%$
+C. Kết luận không có bằng chứng thuyết phục về tỉ lệ cao hơn trong khi tỉ lệ thật sự cao hơn
+D. Kết luận tỉ lệ cao hơn trong khi thực tế cao hơn
+::key C
+Sai lầm loại II là không bác bỏ một $H_0$ sai.
+
+[M431.27] Nhiều lựa chọn
+Cỡ mẫu nhỏ nhất để khoảng tin cậy $95\%$ cho $p$ có sai số biên không quá $0{,}05$, khi chưa có ước lượng trước, là
+A. $384$
+B. $385$
+C. $20$
+D. $196$
+::key B
+$n\ge\left(\dfrac{1{,}96}{0{,}05}\right)^2(0{,}25)=384{,}16$; làm tròn lên thành $385$.
+
+[M431.28] Nhiều lựa chọn
+Một khoảng tin cậy $95\%$ cho $p_1-p_2$ là $(-0{,}03;\ 0{,}08)$. Kết luận nào đúng?
+A. $p_1$ lớn hơn $p_2$.
+B. $p_1$ nhỏ hơn $p_2$.
+C. Hai tỉ lệ bằng nhau.
+D. Không có bằng chứng thuyết phục rằng hai tỉ lệ khác nhau.
+::key D
+Khoảng chứa $0$ nên "không khác biệt" là hợp lí; điều này không chứng minh hai tỉ lệ bằng nhau.
+
+[M431.29] Nhiều lựa chọn
+Dùng phương pháp $t$ ghép cặp với $12$ cặp. Số bậc tự do là
+A. $11$
+B. $12$
+C. $22$
+D. $24$
+::key A
+Dữ liệu ghép cặp được phân tích như một mẫu $12$ hiệu: df $=11$.
+
+[M431.30] Nhiều lựa chọn
+Vì sao khoảng tin cậy $t$ cho trung bình rộng hơn khoảng $z$ có cùng sai số chuẩn?
+A. Trung bình mẫu bị chệch.
+B. Phân phối $t$ bị lệch.
+C. Ước lượng $\sigma$ bằng $s$ làm tăng độ bất định, nên $t^*>z^*$.
+D. Cỡ mẫu luôn nhỏ hơn.
+::key C
+Phân phối $t$ có đuôi dày hơn phân phối chuẩn.
+
+[M431.31] Nhiều lựa chọn
+Nghiên cứu nào nên phân tích bằng phương pháp $t$ ghép cặp?
+A. So sánh thời gian của $20$ vận động viên đi giày cũ với $20$ người khác đi giày mới.
+B. Mỗi người trong $20$ vận động viên được bấm giờ khi đi giày cũ và khi đi giày mới.
+C. So sánh tỉ lệ vận động viên về đích ở hai câu lạc bộ.
+D. Ghi lại chiều cao của $50$ vận động viên.
+::key B
+Cùng các vận động viên được đo hai lần.
+
+[M431.32] Nhiều lựa chọn
+Một mẫu ngẫu nhiên $36$ giá trị có $\bar x=40$ và $s=9$. Với $t^*\approx2{,}030$, khoảng tin cậy $95\%$ cho $\mu$ là
+A. $(39{,}49;\ 40{,}51)$
+B. $(21{,}73;\ 58{,}27)$
+C. $(38{,}50;\ 41{,}50)$
+D. $(36{,}95;\ 43{,}05)$
+::key D
+Sai số chuẩn là $\dfrac{9}{6}=1{,}5$, nên $40\pm2{,}030(1{,}5)=40\pm3{,}045$.
+
+[M431.33] Nhiều lựa chọn
+Trong kiểm định $H_0:\mu=100$, một mẫu $25$ giá trị có $\bar x=103$ và $s=10$. Thống kê kiểm định là
+A. $t=1{,}5$
+B. $t=0{,}3$
+C. $t=7{,}5$
+D. $t=3{,}0$
+::key A
+$t=\dfrac{103-100}{10/\sqrt{25}}=\dfrac{3}{2}=1{,}5$.
+
+[M431.34] Nhiều lựa chọn
+Một mẫu ngẫu nhiên $15$ thời gian đi làm lệch phải mạnh với hai giá trị ngoại lai. Khoảng tin cậy $t$ một mẫu có phù hợp không?
+A. Có, vì mẫu ngẫu nhiên.
+B. Có, vì $15<30$.
+C. Không, vì mẫu nhỏ và lệch mạnh, có ngoại lai.
+D. Không, vì khoảng $t$ cần $n\ge100$.
+::key C
+Với $n<30$, điều kiện chuẩn / mẫu lớn đòi hỏi không lệch mạnh, không có ngoại lai.
+
+[M431.35] Nhiều lựa chọn
+Các nhà nghiên cứu so sánh thời gian ngủ trung bình của một mẫu ngẫu nhiên $40$ bạn nam và một mẫu ngẫu nhiên độc lập $40$ bạn nữ. Phương pháp phù hợp là
+A. phương pháp $t$ hai mẫu
+B. phương pháp $t$ ghép cặp
+C. kiểm định $z$ một tỉ lệ
+D. kiểm định $z$ hai tỉ lệ
+::key A
+Hai mẫu độc lập và một biến định lượng.
+
+[M431.36] Nhiều lựa chọn
+Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Cách diễn giải đúng của $0{,}85$ là
+A. Điểm của mỗi học sinh tăng đúng $0{,}85$ điểm mỗi giờ.
+B. $85\%$ sự biến động của điểm được giải thích bởi việc luyện tập.
+C. Học sinh không luyện tập được dự đoán đạt $0{,}85$ điểm.
+D. Mỗi giờ luyện tập thêm, điểm dự đoán tăng $0{,}85$ điểm.
+::key D
+Hệ số góc cho mức thay đổi của giá trị dự đoán khi $x$ tăng một đơn vị.
+
+[M431.37] Nhiều lựa chọn
+Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Một học sinh luyện tập $20$ giờ đạt $22$ điểm. Phần dư là
+A. $-1{,}8$
+B. $1{,}8$
+C. $20{,}2$
+D. $2{,}2$
+::key B
+$\hat y=3{,}2+0{,}85(20)=20{,}2$, nên phần dư là $22-20{,}2=1{,}8$.
+
+[M431.38] Nhiều lựa chọn
+Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Khoảng bao nhiêu phần trăm sự biến động của điểm được giải thích bởi mô hình tuyến tính theo thời gian luyện tập?
+A. $78\%$
+B. $85\%$
+C. $61\%$
+D. $39\%$
+::key C
+$r^2=0{,}78^2\approx0{,}608$.
+
+[M431.39] Nhiều lựa chọn
+Một bộ dữ liệu có $\bar x=10$, $s_x=2$, $\bar y=50$, $s_y=8$ và $r=0{,}5$. Đường bình phương nhỏ nhất là
+A. $\hat y=50+2x$
+B. $\hat y=30+2x$
+C. $\hat y=45+0{,}5x$
+D. $\hat y=10+4x$
+::key B
+$b=0{,}5\cdot\dfrac82=2$ và $a=50-2(10)=30$.
+
+[M431.40] Nhiều lựa chọn
+Chiều cao được đổi từ xăng-ti-mét sang inch. Hệ số tương quan giữa chiều cao và cân nặng thay đổi thế nào?
+A. Bị chia cho $2{,}54$.
+B. Bị nhân với $2{,}54$.
+C. Trở thành số âm.
+D. Không thay đổi.
+::key D
+Hệ số tương quan không có đơn vị và không bị ảnh hưởng khi đổi đơn vị.
+
+[M431.41] Nhiều lựa chọn
+Một đường thẳng liên hệ tuổi với chiều cao được lập từ trẻ $3$ đến $12$ tuổi. Dùng nó để dự đoán chiều cao của người $30$ tuổi là một ví dụ về
+A. phần dư
+B. biến ẩn
+C. ngoại suy
+D. cặp ghép
+::key C
+$x=30$ nằm xa ngoài khoảng dữ liệu.
+
+[M431.42] Nhiều lựa chọn
+Biểu đồ phần dư của một đường bình phương nhỏ nhất cho thấy một quy luật cong rõ rệt. Điều này gợi ý gì?
+A. Mô hình tuyến tính không phù hợp với dữ liệu này.
+B. Hệ số tương quan bằng $0$.
+C. Mô hình tuyến tính rất khớp.
+D. Không có giá trị ngoại lai.
+::key A
+Phần dư phân tán ngẫu nhiên ủng hộ mô hình tuyến tính; có quy luật nghĩa là dạng không tuyến tính.

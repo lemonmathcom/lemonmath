@@ -1,0 +1,1247 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-07-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-07-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-07-LG
+Người làm: tài khoản Nguyenchanh2358. Gói này có 44 bài tập thuộc 7 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Nguyenchanh2358-07-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/7). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-07-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g8/polynomials-several-variables (5 bài tập)
+- g8/possible-favourable-outcomes (9 bài tập)
+- g8/pythagoras-theorem (10 bài tập)
+- g8/quadrilaterals (5 bài tập)
+- g8/rectangles (3 bài tập)
+- g8/regular-triangular-pyramids (9 bài tập)
+- g8/rhombuses-and-squares (3 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g8/polynomials-several-variables
+Bài học: Đa thức. Phép cộng và phép trừ đa thức / Polynomials. Adding and subtracting polynomials
+Cần viết lại lời giải các bài: 2, 4, 5, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thu gọn đa thức $Q=4x^2y-3xy+2x^2y+5xy-7$ và tìm bậc của nó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. Hạng tử $6x^2y$ có bậc $3$.
+
+Vậy $Q=6x^2y+2xy-7$ và bậc của $Q$ là $3$.
+
+**Đáp số.** $Q=6x^2y+2xy-7$; bậc $3$.
+
+[ĐỀ – EN]
+Simplify the polynomial $Q=4x^2y-3xy+2x^2y+5xy-7$ and find its degree.
+
+[LỜI GIẢI CŨ – EN]
+We have $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. The term $6x^2y$ has degree $3$.
+
+So $Q=6x^2y+2xy-7$ and the degree of $Q$ is $3$.
+
+**Answer.** $Q=6x^2y+2xy-7$; degree $3$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $A=2x^2-3x+5$ và $B=-x^2+4x-1$. Tính $A+B$ và $A-B$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
+
+Ta có $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
+
+Vậy $A+B=x^2+x+4$ và $A-B=3x^2-7x+6$.
+
+**Đáp số.** $x^2+x+4$; $3x^2-7x+6$.
+
+[ĐỀ – EN]
+Let $A=2x^2-3x+5$ and $B=-x^2+4x-1$. Find $A+B$ and $A-B$.
+
+[LỜI GIẢI CŨ – EN]
+We have $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
+
+We have $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
+
+So $A+B=x^2+x+4$ and $A-B=3x^2-7x+6$.
+
+**Answer.** $x^2+x+4$; $3x^2-7x+6$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho $M=x^2+2xy-y^2$ và $N=3x^2-xy+2y^2$. Tính $M+N$ và $M-N$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
+
+Ta có $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
+
+Vậy $M+N=4x^2+xy+y^2$ và $M-N=-2x^2+3xy-3y^2$.
+
+**Đáp số.** $4x^2+xy+y^2$; $-2x^2+3xy-3y^2$.
+
+[ĐỀ – EN]
+Let $M=x^2+2xy-y^2$ and $N=3x^2-xy+2y^2$. Find $M+N$ and $M-N$.
+
+[LỜI GIẢI CŨ – EN]
+We have $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
+
+We have $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
+
+So $M+N=4x^2+xy+y^2$ and $M-N=-2x^2+3xy-3y^2$.
+
+**Answer.** $4x^2+xy+y^2$; $-2x^2+3xy-3y^2$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật có đáy dài $(x+3)$ cm, rộng $x$ cm và cao $5$ cm. Viết đa thức biểu thị diện tích xung quanh, rồi tính khi $x=4$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $a+b=(x+3)+x=2x+3$. Do đó $S_{xq}=2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
+
+Khi $x=4$, $S_{xq}=20\cdot4+30=110\ (\text{cm}^2)$. (Kiểm tra: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
+
+Vậy $S_{xq}=20x+30\ (\text{cm}^2)$ và bằng $110\ \text{cm}^2$ khi $x=4$.
+
+**Đáp số.** $20x+30$; $110\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Recall the lesson on cuboids. A cuboid has a base of length $(x+3)$ cm and width $x$ cm, and height $5$ cm. Write a polynomial for the lateral surface area, then find it when $x=4$.
+
+[LỜI GIẢI CŨ – EN]
+We have $a+b=(x+3)+x=2x+3$. Hence the lateral surface area is $2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
+
+When $x=4$, it is $20\cdot4+30=110\ (\text{cm}^2)$. (Check: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
+
+So the lateral surface area is $20x+30\ (\text{cm}^2)$, which equals $110\ \text{cm}^2$ when $x=4$.
+
+**Answer.** $20x+30$; $110\ \text{cm}^2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm đa thức $C$ sao cho $C+(x^2-2xy)=3x^2+xy-y^2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
+
+Vậy $C=2x^2+3xy-y^2$.
+
+**Đáp số.** $C=2x^2+3xy-y^2$.
+
+[ĐỀ – EN]
+Find the polynomial $C$ such that $C+(x^2-2xy)=3x^2+xy-y^2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
+
+So $C=2x^2+3xy-y^2$.
+
+**Answer.** $C=2x^2+3xy-y^2$.
+
+
+######################################################################
+@@@ g8/possible-favourable-outcomes
+Bài học: Kết quả có thể và kết quả thuận lợi. Cách tính xác suất của biến cố bằng tỉ số / Possible outcomes and favourable outcomes. Calculating probability as a ratio
+Cần viết lại lời giải các bài: 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút ngẫu nhiên một thẻ từ $12$ thẻ đánh số từ $1$ đến $12$. Tính xác suất để số trên thẻ:
+
+a) chia hết cho $4$;
+
+b) có hai chữ số;
+
+c) là số nguyên tố.
+
+[LỜI GIẢI CŨ – VI]
+Có $n=12$ kết quả có thể.
+
+a) Các số chia hết cho $4$ là $4$, $8$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
+
+b) Các số có hai chữ số là $10$, $11$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
+
+c) Các số nguyên tố là $2$, $3$, $5$, $7$, $11$: $k=5$, xác suất $\dfrac{5}{12}$.
+
+**Đáp số.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
+
+[ĐỀ – EN]
+A card is drawn at random from $12$ cards numbered $1$ to $12$. Find the probability that the number on the card:
+
+a) is divisible by $4$;
+
+b) has two digits;
+
+c) is a prime number.
+
+[LỜI GIẢI CŨ – EN]
+There are $n=12$ possible outcomes.
+
+a) The numbers divisible by $4$ are $4$, $8$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
+
+b) The numbers with two digits are $10$, $11$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
+
+c) The prime numbers are $2$, $3$, $5$, $7$, $11$: $k=5$, probability $\dfrac{5}{12}$.
+
+**Answer.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hộp có $4$ bi trắng và $6$ bi đen, cùng kích thước. Lấy ngẫu nhiên một bi. Tính xác suất lấy được bi trắng, bi đen và tổng hai xác suất đó.
+
+[LỜI GIẢI CŨ – VI]
+Có $n=10$ kết quả có thể. Xác suất lấy bi trắng là $\dfrac{4}{10}=\dfrac25$; xác suất lấy bi đen là $\dfrac{6}{10}=\dfrac35$. Tổng hai xác suất là $\dfrac25+\dfrac35=1$, vì hai biến cố là đối nhau.
+
+**Đáp số.** $\dfrac25$; $\dfrac35$; tổng bằng $1$.
+
+[ĐỀ – EN]
+A box holds $4$ white and $6$ black marbles of the same size. One marble is taken at random. Find the probability of taking a white marble, a black marble, and the sum of these two probabilities.
+
+[LỜI GIẢI CŨ – EN]
+There are $n=10$ possible outcomes. The probability of a white marble is $\dfrac{4}{10}=\dfrac25$; the probability of a black marble is $\dfrac{6}{10}=\dfrac35$. The sum is $\dfrac25+\dfrac35=1$, because the two events are complementary.
+
+**Answer.** $\dfrac25$; $\dfrac35$; the sum is $1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một vòng quay chia thành $8$ phần bằng nhau, đánh số từ $1$ đến $8$. Tính xác suất của các biến cố:
+
+a) $A$: "số chẵn lớn hơn $4$".
+
+b) $B$: "số nhỏ hơn $9$".
+
+c) $C$: "số $10$".
+
+[LỜI GIẢI CŨ – VI]
+Có $n=8$ kết quả có thể.
+
+a) Các số chẵn lớn hơn $4$ là $6$ và $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
+
+b) Mọi số từ $1$ đến $8$ đều nhỏ hơn $9$: $k=8$, $P(B)=1$.
+
+c) Không có số $10$ trên vòng quay: $k=0$, $P(C)=0$.
+
+**Đáp số.** a) $\dfrac14$. b) $1$. c) $0$.
+
+[ĐỀ – EN]
+A wheel is divided into $8$ equal parts numbered $1$ to $8$. Find the probability of each event:
+
+a) $A$: "an even number greater than $4$".
+
+b) $B$: "a number less than $9$".
+
+c) $C$: "the number $10$".
+
+[LỜI GIẢI CŨ – EN]
+There are $n=8$ possible outcomes.
+
+a) The even numbers greater than $4$ are $6$ and $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
+
+b) Every number from $1$ to $8$ is less than $9$: $k=8$, $P(B)=1$.
+
+c) There is no number $10$ on the wheel: $k=0$, $P(C)=0$.
+
+**Answer.** a) $\dfrac14$. b) $1$. c) $0$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tung một đồng xu cân đối hai lần. Tính xác suất của biến cố "hai mặt khác nhau" và biến cố "cả hai mặt đều ngửa".
+
+[LỜI GIẢI CŨ – VI]
+Hai mặt khác nhau: $SN$ và $NS$, nên xác suất là $\dfrac24=\dfrac12$. Cả hai mặt ngửa: $NN$, nên xác suất là $\dfrac14$.
+
+**Đáp số.** $\dfrac12$; $\dfrac14$.
+
+[ĐỀ – EN]
+A fair coin is tossed twice. Find the probability of the event "the two faces are different" and the event "both faces are heads".
+
+[LỜI GIẢI CŨ – EN]
+Two different faces: $TH$ and $HT$, so the probability is $\dfrac24=\dfrac12$. Both heads: $HH$, so the probability is $\dfrac14$.
+
+**Answer.** $\dfrac12$; $\dfrac14$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lớp 8A có $40$ học sinh, trong đó $18$ bạn nam. Chọn ngẫu nhiên một bạn để làm trực nhật. Tính xác suất bạn được chọn là nam và là nữ.
+
+[LỜI GIẢI CŨ – VI]
+Số bạn nữ là $40-18=22$. Có $n=40$ kết quả có thể. Xác suất chọn nam là $\dfrac{18}{40}=\dfrac{9}{20}$; xác suất chọn nữ là $\dfrac{22}{40}=\dfrac{11}{20}$.
+
+Kiểm tra: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
+
+**Đáp số.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
+
+[ĐỀ – EN]
+Class 8A has $40$ students, of whom $18$ are boys. One student is chosen at random for cleaning duty. Find the probability that the student chosen is a boy and the probability that it is a girl.
+
+[LỜI GIẢI CŨ – EN]
+The number of girls is $40-18=22$. There are $n=40$ possible outcomes. The probability of a boy is $\dfrac{18}{40}=\dfrac{9}{20}$; the probability of a girl is $\dfrac{22}{40}=\dfrac{11}{20}$.
+
+Check: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
+
+**Answer.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một hộp có $50$ phiếu bốc thăm giống hệt nhau, trong đó có $2$ phiếu giải nhất, $5$ phiếu giải nhì, $8$ phiếu giải ba và còn lại không trúng (giả sử). Bốc một phiếu. Tính xác suất trúng giải bất kì và xác suất không trúng.
+
+[LỜI GIẢI CŨ – VI]
+Số phiếu trúng là $2+5+8=15$ và $n=50$. Xác suất trúng giải là $\dfrac{15}{50}=\dfrac{3}{10}$. Xác suất không trúng là $1-\dfrac{3}{10}=\dfrac{7}{10}$ (có $35$ phiếu không trúng, $\dfrac{35}{50}=\dfrac7{10}$).
+
+**Đáp số.** $\dfrac3{10}$; $\dfrac7{10}$.
+
+[ĐỀ – EN]
+A box holds $50$ identical draw slips, of which $2$ are first prizes, $5$ are second prizes, $8$ are third prizes and the rest win nothing (an imagined draw). One slip is drawn. Find the probability of winning any prize and the probability of winning nothing.
+
+[LỜI GIẢI CŨ – EN]
+The number of winning slips is $2+5+8=15$ and $n=50$. The probability of winning a prize is $\dfrac{15}{50}=\dfrac{3}{10}$. The probability of winning nothing is $1-\dfrac{3}{10}=\dfrac{7}{10}$ (there are $35$ losing slips, $\dfrac{35}{50}=\dfrac7{10}$).
+
+**Answer.** $\dfrac3{10}$; $\dfrac7{10}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Gieo cùng lúc hai con xúc xắc cân đối. Có bao nhiêu kết quả có thể? Tính xác suất để tổng số chấm bằng $7$.
+
+[LỜI GIẢI CŨ – VI]
+Mỗi con có $6$ khả năng nên có $6\cdot6=36$ kết quả có thể, đồng khả năng. Các cặp có tổng bằng $7$ là $(1;6)$, $(2;5)$, $(3;4)$, $(4;3)$, $(5;2)$, $(6;1)$: $k=6$. Xác suất là $\dfrac{6}{36}=\dfrac16$.
+
+**Đáp số.** $36$ kết quả; $\dfrac16$.
+
+[ĐỀ – EN]
+Two fair dice are rolled at the same time. How many possible outcomes are there? Find the probability that the total number of dots is $7$.
+
+[LỜI GIẢI CŨ – EN]
+Each die has $6$ possibilities, so there are $6\cdot6=36$ possible outcomes, equally likely. The pairs with total $7$ are $(1,6)$, $(2,5)$, $(3,4)$, $(4,3)$, $(5,2)$, $(6,1)$: $k=6$. The probability is $\dfrac{6}{36}=\dfrac16$.
+
+**Answer.** $36$ outcomes; $\dfrac16$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Lập các số có hai chữ số khác nhau từ các chữ số $1$, $2$, $3$. Chọn ngẫu nhiên một số trong các số đó. Tính xác suất số được chọn là số chẵn. (Ôn lại cách viết xác suất bằng phân số tối giản.)
+
+[LỜI GIẢI CŨ – VI]
+Các số lập được là $12$, $13$, $21$, $23$, $31$, $32$, nên $n=6$. Các số chẵn là $12$ và $32$: $k=2$. Xác suất là $\dfrac26=\dfrac13$.
+
+**Đáp số.** $\dfrac13$.
+
+[ĐỀ – EN]
+Make all the two-digit numbers with different digits from the digits $1$, $2$, $3$. One of these numbers is chosen at random. Find the probability that it is even. (Revise writing a probability as a fraction in its simplest form.)
+
+[LỜI GIẢI CŨ – EN]
+The numbers are $12$, $13$, $21$, $23$, $31$, $32$, so $n=6$. The even numbers are $12$ and $32$: $k=2$. The probability is $\dfrac26=\dfrac13$.
+
+**Answer.** $\dfrac13$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ $10$ đến $99$). Tính xác suất để số đó:
+
+a) chia hết cho $7$;
+
+b) có tổng các chữ số bằng $9$.
+
+[LỜI GIẢI CŨ – VI]
+Có $n=90$ kết quả có thể.
+
+a) Các bội của $7$ có hai chữ số là $14$, $21$, $28$, $\dots$, $98$, tức $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: có $13$ số. Xác suất là $\dfrac{13}{90}$.
+
+b) Các số có tổng chữ số bằng $9$ là $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: có $9$ số. Xác suất là $\dfrac{9}{90}=\dfrac1{10}$.
+
+**Đáp số.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
+
+[ĐỀ – EN]
+A two-digit natural number (from $10$ to $99$) is chosen at random. Find the probability that it:
+
+a) is divisible by $7$;
+
+b) has digits that add up to $9$.
+
+[LỜI GIẢI CŨ – EN]
+There are $n=90$ possible outcomes.
+
+a) The two-digit multiples of $7$ are $14$, $21$, $28$, $\dots$, $98$, that is $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: there are $13$ of them. The probability is $\dfrac{13}{90}$.
+
+b) The numbers whose digits add up to $9$ are $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: there are $9$ of them. The probability is $\dfrac{9}{90}=\dfrac1{10}$.
+
+**Answer.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
+
+
+######################################################################
+@@@ g8/pythagoras-theorem
+Bài học: Định lí Pythagore và ứng dụng / Pythagoras' theorem and its applications
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính cạnh huyền của tam giác vuông có hai cạnh góc vuông:
+
+a) $9$ và $12$.
+
+b) $7$ và $24$.
+
+[LỜI GIẢI CŨ – VI]
+a) $c^2=81+144=225$ nên $c=15$.
+
+b) $c^2=49+576=625$ nên $c=25$.
+
+**Đáp số.** a) $15$. b) $25$.
+
+[ĐỀ – EN]
+Find the hypotenuse of a right-angled triangle whose legs are:
+
+a) $9$ and $12$.
+
+b) $7$ and $24$.
+
+[LỜI GIẢI CŨ – EN]
+a) $c^2=81+144=225$, so $c=15$.
+
+b) $c^2=49+576=625$, so $c=25$.
+
+**Answer.** a) $15$. b) $25$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính cạnh góc vuông còn lại của tam giác vuông biết:
+
+a) cạnh huyền $17$, một cạnh góc vuông $8$.
+
+b) cạnh huyền $10$, một cạnh góc vuông $6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a^2=289-64=225$ nên $a=15$.
+
+b) $a^2=100-36=64$ nên $a=8$.
+
+**Đáp số.** a) $15$. b) $8$.
+
+[ĐỀ – EN]
+Find the remaining leg of a right-angled triangle given:
+
+a) hypotenuse $17$, one leg $8$.
+
+b) hypotenuse $10$, one leg $6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a^2=289-64=225$, so $a=15$.
+
+b) $a^2=100-36=64$, so $a=8$.
+
+**Answer.** a) $15$. b) $8$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tam giác vuông có hai cạnh góc vuông là $4$ và $7$. Tính cạnh huyền (làm tròn đến hai chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+$c^2=16+49=65$ nên $c=\sqrt{65}\approx8{,}06$.
+
+**Đáp số.** $\sqrt{65}\approx8{,}06$.
+
+[ĐỀ – EN]
+A right-angled triangle has legs $4$ and $7$. Find the hypotenuse (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$c^2=16+49=65$, so $c=\sqrt{65}\approx8.06$.
+
+**Answer.** $\sqrt{65}\approx8.06$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tam giác nào là tam giác vuông?
+
+a) Các cạnh $7$, $24$, $25$.
+
+b) Các cạnh $8$, $10$, $12$.
+
+c) Các cạnh $9$, $40$, $41$.
+
+[LỜI GIẢI CŨ – VI]
+a) $25^2=625$ và $7^2+24^2=49+576=625$: vuông.
+
+b) $12^2=144$ và $8^2+10^2=164$: không vuông.
+
+c) $41^2=1681$ và $9^2+40^2=81+1600=1681$: vuông.
+
+**Đáp số.** a) và c) là tam giác vuông.
+
+[ĐỀ – EN]
+Which triangle is right-angled?
+
+a) Sides $7$, $24$, $25$.
+
+b) Sides $8$, $10$, $12$.
+
+c) Sides $9$, $40$, $41$.
+
+[LỜI GIẢI CŨ – EN]
+a) $25^2=625$ and $7^2+24^2=49+576=625$: right-angled.
+
+b) $12^2=144$ and $8^2+10^2=164$: not right-angled.
+
+c) $41^2=1681$ and $9^2+40^2=81+1600=1681$: right-angled.
+
+**Answer.** a) and c) are right-angled.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính đường chéo của hình chữ nhật có hai cạnh $15$ và $8$, và của hình vuông cạnh $5$ (làm tròn đến hai chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Hình vuông: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7{,}07$.
+
+**Đáp số.** $17$; $5\sqrt2\approx7{,}07$.
+
+[ĐỀ – EN]
+Find the diagonal of a rectangle with sides $15$ and $8$, and of a square with side $5$ (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+Rectangle: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Square: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7.07$.
+
+**Answer.** $17$; $5\sqrt2\approx7.07$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một chiếc thang dài $6{,}5$ m dựa vào tường thẳng đứng, chân thang cách tường $2{,}5$ m. Đầu thang chạm tường ở độ cao bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$h^2=42{,}25-6{,}25=36$ nên $h=6$.
+
+Kiểm tra: $2{,}5^2+6^2=6{,}25+36=42{,}25=6{,}5^2$.
+
+Vậy đầu thang cao $6$ m.
+
+**Đáp số.** $6$ m.
+
+[ĐỀ – EN]
+Suppose a ladder $6.5$ m long leans against a vertical wall, with its foot $2.5$ m from the wall. How high up the wall does the top of the ladder reach?
+
+[LỜI GIẢI CŨ – EN]
+$h^2=42.25-6.25=36$, so $h=6$.
+
+Check: $2.5^2+6^2=6.25+36=42.25=6.5^2$.
+
+So the top of the ladder is $6$ m high.
+
+**Answer.** $6$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một chiếc tivi có chiều rộng $96$ cm và chiều cao $54$ cm. Tính đường chéo màn hình theo cm (làm tròn đến hàng đơn vị) và theo inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến hàng đơn vị).
+
+[LỜI GIẢI CŨ – VI]
+$d^2=9\,216+2\,916=12\,132$, nên $d=\sqrt{12\,132}\approx110$ (cm). Đổi sang inch: $\dfrac{110{,}14}{2{,}54}\approx43{,}4\approx43$ (inch).
+
+**Đáp số.** Khoảng $110$ cm, tức khoảng $43$ inch.
+
+[ĐỀ – EN]
+Suppose a television screen is $96$ cm wide and $54$ cm high. Find the diagonal of the screen in cm (to the nearest whole number) and in inches (given $1$ inch $=2.54$ cm, to the nearest whole number).
+
+[LỜI GIẢI CŨ – EN]
+$d^2=9\,216+2\,916=12\,132$, so $d=\sqrt{12\,132}\approx110$ (cm). In inches: $\dfrac{110.14}{2.54}\approx43.4\approx43$ (inches).
+
+**Answer.** About $110$ cm, that is about $43$ inches.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử hai tàu cùng rời cảng một lúc, một tàu đi về hướng bắc, tàu kia đi về hướng đông. Sau một thời gian, tàu thứ nhất cách cảng $12$ km, tàu thứ hai cách cảng $16$ km. Hai tàu cách nhau bao xa?
+
+[LỜI GIẢI CŨ – VI]
+Khoảng cách là $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
+
+**Đáp số.** $20$ km.
+
+[ĐỀ – EN]
+Suppose two ships leave a port at the same time, one sailing north and the other east. After a while the first ship is $12$ km from the port and the second is $16$ km from the port. How far apart are the ships?
+
+[LỜI GIẢI CŨ – EN]
+The distance is $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
+
+**Answer.** $20$ km.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hình thoi $ABCD$ có hai đường chéo $AC=16$ và $BD=12$ cắt nhau tại $O$. Tính cạnh của hình thoi. (Ôn lại: hai đường chéo của hình thoi vuông góc và cắt nhau tại trung điểm của mỗi đường.)
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OA=\dfrac{16}{2}=8$ và $OB=\dfrac{12}{2}=6$. Tam giác $AOB$ vuông tại $O$ nên $AB^2=8^2+6^2=100$, suy ra $AB=10$.
+
+Vậy cạnh hình thoi bằng $10$.
+
+**Đáp số.** $10$.
+
+[ĐỀ – EN]
+A rhombus $ABCD$ has diagonals $AC=16$ and $BD=12$ meeting at $O$. Find the side of the rhombus. (Recall: the diagonals of a rhombus are perpendicular and bisect each other.)
+
+[LỜI GIẢI CŨ – EN]
+We have $OA=\dfrac{16}{2}=8$ and $OB=\dfrac{12}{2}=6$. Triangle $AOB$ is right-angled at $O$, so $AB^2=8^2+6^2=100$, giving $AB=10$.
+
+So the side of the rhombus is $10$.
+
+**Answer.** $10$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Với hai số nguyên dương $m>n$, đặt $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Chứng minh $a^2+b^2=c^2$ (tức $a$, $b$, $c$ là các cạnh của một tam giác vuông). Áp dụng với $m=3$, $n=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. Với $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, và $5^2+12^2=13^2$.
+
+Vậy công thức luôn cho một bộ ba Pythagore.
+
+**Đáp số.** Đã chứng minh; $(5,12,13)$.
+
+[ĐỀ – EN]
+For positive whole numbers $m>n$, let $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Prove that $a^2+b^2=c^2$ (so $a$, $b$, $c$ are the sides of a right-angled triangle). Apply it with $m=3$, $n=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. With $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, and $5^2+12^2=13^2$.
+
+So the formula always gives a Pythagorean triple.
+
+**Answer.** Proved; $(5,12,13)$.
+
+
+######################################################################
+@@@ g8/quadrilaterals
+Bài học: Tứ giác / Quadrilaterals
+Cần viết lại lời giải các bài: 2, 3, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính góc còn lại của mỗi tứ giác:
+
+a) Tứ giác $ABCD$ có $\widehat{A}=70^\circ$, $\widehat{B}=110^\circ$, $\widehat{C}=95^\circ$. Tính $\widehat{D}$.
+
+b) Tứ giác $MNPQ$ có $\widehat{M}=\widehat{N}=120^\circ$, $\widehat{P}=50^\circ$. Tính $\widehat{Q}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\widehat{D}=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
+
+b) $\widehat{Q}=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+
+Vậy a) $\widehat{D}=85^\circ$; b) $\widehat{Q}=70^\circ$.
+
+**Đáp số.** a) $85^\circ$. b) $70^\circ$.
+
+[ĐỀ – EN]
+Find the remaining angle of each quadrilateral:
+
+a) The quadrilateral $ABCD$ has $\angle A=70^\circ$, $\angle B=110^\circ$, $\angle C=95^\circ$. Find $\angle D$.
+
+b) The quadrilateral $MNPQ$ has $\angle M=\angle N=120^\circ$, $\angle P=50^\circ$. Find $\angle Q$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\angle D=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
+
+b) $\angle Q=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+
+So a) $\angle D=85^\circ$; b) $\angle Q=70^\circ$.
+
+**Answer.** a) $85^\circ$. b) $70^\circ$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Bốn góc của một tứ giác tỉ lệ với $2$, $3$, $3$, $4$. Tính số đo mỗi góc.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2k+3k+3k+4k=12k=360^\circ$, nên $k=30^\circ$. Các góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+
+Vậy bốn góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+
+**Đáp số.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
+
+[ĐỀ – EN]
+The four angles of a quadrilateral are in the ratio $2:3:3:4$. Find each angle.
+
+[LỜI GIẢI CŨ – EN]
+We have $2k+3k+3k+4k=12k=360^\circ$, so $k=30^\circ$. The angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+
+So the four angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+
+**Answer.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tứ giác $ABCD$ có $\widehat{C}=60^\circ$, $\widehat{D}=90^\circ$ và $\widehat{A}=\widehat{B}$. Tính $\widehat{A}$ và $\widehat{B}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\widehat{A}+\widehat{B}=360^\circ-60^\circ-90^\circ=210^\circ$. Vì $\widehat{A}=\widehat{B}$ nên mỗi góc bằng $210^\circ:2=105^\circ$.
+
+Vậy $\widehat{A}=\widehat{B}=105^\circ$.
+
+**Đáp số.** $\widehat{A}=\widehat{B}=105^\circ$.
+
+[ĐỀ – EN]
+The quadrilateral $ABCD$ has $\angle C=60^\circ$, $\angle D=90^\circ$ and $\angle A=\angle B$. Find $\angle A$ and $\angle B$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\angle A+\angle B=360^\circ-60^\circ-90^\circ=210^\circ$. Since $\angle A=\angle B$, each angle equals $210^\circ\div2=105^\circ$.
+
+So $\angle A=\angle B=105^\circ$.
+
+**Answer.** $\angle A=\angle B=105^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một sân hình tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\widehat{B}=90^\circ$ và $\widehat{C}=105^\circ$ (theo bản vẽ). Tính góc $\widehat{D}$ của sân.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\widehat{D}=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
+
+Vậy $\widehat{D}=75^\circ$.
+
+**Đáp số.** $75^\circ$.
+
+[ĐỀ – EN]
+Suppose a yard is a quadrilateral $ABCD$ with $\angle A=90^\circ$, $\angle B=90^\circ$ and $\angle C=105^\circ$ (from the plan). Find the angle $\angle D$ of the yard.
+
+[LỜI GIẢI CŨ – EN]
+We have $\angle D=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
+
+So $\angle D=75^\circ$.
+
+**Answer.** $75^\circ$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một chiếc diều có hình tứ giác với hai góc ở hai bên đều bằng $105^\circ$ và góc ở đỉnh phía trên bằng $60^\circ$. Tính góc ở đỉnh phía dưới.
+
+[LỜI GIẢI CŨ – VI]
+Tổng ba góc đã biết là $105^\circ+105^\circ+60^\circ=270^\circ$. Góc ở đỉnh phía dưới là $360^\circ-270^\circ=90^\circ$.
+
+Vậy góc ở đỉnh phía dưới là $90^\circ$.
+
+**Đáp số.** $90^\circ$.
+
+[ĐỀ – EN]
+Suppose a kite is a quadrilateral whose two side angles are both $105^\circ$ and whose top angle is $60^\circ$. Find the angle at the bottom.
+
+[LỜI GIẢI CŨ – EN]
+The three known angles add up to $105^\circ+105^\circ+60^\circ=270^\circ$. The angle at the bottom is $360^\circ-270^\circ=90^\circ$.
+
+So the angle at the bottom is $90^\circ$.
+
+**Answer.** $90^\circ$.
+
+
+######################################################################
+@@@ g8/rectangles
+Bài học: Hình chữ nhật / Rectangles
+Cần viết lại lời giải các bài: 2, 5, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$ và $\widehat{OAB}=40^\circ$. Tính $\widehat{AOB}$ và $\widehat{BOC}$.
+
+[LỜI GIẢI CŨ – VI]
+Tam giác $OAB$ cân tại $O$ nên $\widehat{OBA}=\widehat{OAB}=40^\circ$. Do đó $\widehat{AOB}=180^\circ-2\cdot40^\circ=100^\circ$. Hai góc $\widehat{AOB}$ và $\widehat{BOC}$ kề bù nên $\widehat{BOC}=80^\circ$.
+
+Vậy $\widehat{AOB}=100^\circ$ và $\widehat{BOC}=80^\circ$.
+
+**Đáp số.** $\widehat{AOB}=100^\circ$; $\widehat{BOC}=80^\circ$.
+
+[ĐỀ – EN]
+The rectangle $ABCD$ has diagonals meeting at $O$ and $\angle OAB=40^\circ$. Find $\angle AOB$ and $\angle BOC$.
+
+[LỜI GIẢI CŨ – EN]
+Triangle $OAB$ is isosceles at $O$, so $\angle OBA=\angle OAB=40^\circ$. Hence $\angle AOB=180^\circ-2\cdot40^\circ=100^\circ$. The angles $\angle AOB$ and $\angle BOC$ are supplementary, so $\angle BOC=80^\circ$.
+
+So $\angle AOB=100^\circ$ and $\angle BOC=80^\circ$.
+
+**Answer.** $\angle AOB=100^\circ$; $\angle BOC=80^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hình bình hành $ABCD$ có hai đường chéo bằng nhau, $AC=BD$. Chứng minh rằng $ABCD$ là hình chữ nhật.
+
+[LỜI GIẢI CŨ – VI]
+Xét hai tam giác $ABC$ và $DCB$. Ta có $AB=DC$ (cạnh đối của hình bình hành), $BC$ chung và $AC=DB$ (giả thiết). Do đó $\triangle ABC=\triangle DCB$ (cạnh - cạnh - cạnh), suy ra $\widehat{ABC}=\widehat{DCB}$.
+
+Vì $AB\parallel CD$ nên $\widehat{ABC}+\widehat{DCB}=180^\circ$. Kết hợp với $\widehat{ABC}=\widehat{DCB}$ ta được $\widehat{ABC}=90^\circ$.
+
+Hình bình hành $ABCD$ có một góc vuông nên là hình chữ nhật.
+
+**Đáp số.** $ABCD$ là hình chữ nhật.
+
+[ĐỀ – EN]
+The parallelogram $ABCD$ has equal diagonals, $AC=BD$. Prove that $ABCD$ is a rectangle.
+
+[LỜI GIẢI CŨ – EN]
+Consider the triangles $ABC$ and $DCB$. We have $AB=DC$ (opposite sides of a parallelogram), $BC$ is common and $AC=DB$ (given). Hence $\triangle ABC=\triangle DCB$ (side - side - side), so $\angle ABC=\angle DCB$.
+
+Since $AB\parallel CD$, we have $\angle ABC+\angle DCB=180^\circ$. Together with $\angle ABC=\angle DCB$ this gives $\angle ABC=90^\circ$.
+
+The parallelogram $ABCD$ has a right angle, so it is a rectangle.
+
+**Answer.** $ABCD$ is a rectangle.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một màn hình hình chữ nhật rộng $80$ cm và cao $60$ cm. Tính độ dài đường chéo của màn hình, rồi đổi ra inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến một chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Đường chéo là $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). Đổi ra inch: $100:2{,}54\approx39{,}4$ (inch).
+
+Vậy đường chéo màn hình dài $100$ cm, khoảng $39{,}4$ inch.
+
+**Đáp số.** $100$ cm; khoảng $39{,}4$ inch.
+
+[ĐỀ – EN]
+Suppose a screen is a rectangle $80$ cm wide and $60$ cm high. Find the length of its diagonal, then convert it to inches (given $1$ inch $=2.54$ cm, rounded to one decimal place).
+
+[LỜI GIẢI CŨ – EN]
+The diagonal is $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). In inches: $100\div2.54\approx39.4$ (inches).
+
+So the diagonal of the screen is $100$ cm, about $39.4$ inches.
+
+**Answer.** $100$ cm; about $39.4$ inches.
+
+
+######################################################################
+@@@ g8/regular-triangular-pyramids
+Bài học: Hình chóp tam giác đều. Hình chóp tứ giác đều / Regular triangular pyramids. Regular square-based pyramids
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mỗi khẳng định sau đúng hay sai?
+
+a) Hình chóp tam giác đều có ba mặt bên là ba tam giác đều.
+
+b) Chân đường cao của hình chóp tam giác đều là trọng tâm của tam giác đáy.
+
+c) Các cạnh bên của hình chóp tứ giác đều bằng nhau.
+
+d) Tứ diện đều là một hình chóp tam giác đều.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: các mặt bên là tam giác cân, không nhất thiết là tam giác đều.
+
+b) **Đúng**: chân đường cao là tâm của đáy, tức trọng tâm của tam giác đều.
+
+c) **Đúng**: mặt bên là những tam giác cân bằng nhau nên các cạnh bên bằng nhau.
+
+d) **Đúng**: tứ diện đều có đáy là tam giác đều và các cạnh bên bằng nhau (bằng cạnh đáy), nên chân đường cao là tâm của đáy.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Is each statement true or false?
+
+a) A regular triangular pyramid has three equilateral lateral faces.
+
+b) The foot of the height of a regular triangular pyramid is the centroid of the base triangle.
+
+c) The lateral edges of a regular square-based pyramid are all equal.
+
+d) A regular tetrahedron is a regular triangular pyramid.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: the lateral faces are isosceles triangles, not necessarily equilateral.
+
+b) **True**: the foot of the height is the centre of the base, which is the centroid of the equilateral triangle.
+
+c) **True**: the lateral faces are equal isosceles triangles, so the lateral edges are equal.
+
+d) **True**: a regular tetrahedron has an equilateral base and equal lateral edges (equal to the base edge), so the foot of its height is the centre of the base.
+
+**Answer.** a) False; b) True; c) True; d) True.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình chóp tam giác đều có cạnh đáy $8$ cm và trung đoạn $3$ cm. Tính diện tích xung quanh.
+
+[LỜI GIẢI CŨ – VI]
+Nửa chu vi đáy là $p=\dfrac{3\cdot8}2=12$ cm. Diện tích xung quanh là $S_{xq}=12\cdot3=36$ cm².
+
+**Đáp số.** $36$ cm².
+
+[ĐỀ – EN]
+A regular triangular pyramid has base side $8$ cm and slant height $3$ cm. Find the lateral surface area.
+
+[LỜI GIẢI CŨ – EN]
+Half the perimeter of the base is $p=\dfrac{3\cdot8}2=12$ cm. The lateral surface area is $S_{\text{lat}}=12\cdot3=36$ cm².
+
+**Answer.** $36$ cm².
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình chóp tứ giác đều có cạnh đáy $8$ cm và trung đoạn $5$ cm. Tính diện tích xung quanh, diện tích toàn phần, chiều cao và thể tích.
+
+[LỜI GIẢI CŨ – VI]
+Nửa chu vi đáy là $p=\dfrac{4\cdot8}2=16$ cm nên $S_{xq}=16\cdot5=80$ cm² và $S_{tp}=80+8^2=144$ cm². Xét tam giác $SOM$ vuông tại $O$ có $OM=4$, $SM=5$, ta có $h=\sqrt{5^2-4^2}=3$ cm. Thể tích là $V=\dfrac13\cdot64\cdot3=64$ cm³.
+
+**Đáp số.** $S_{xq}=80$ cm²; $S_{tp}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+
+[ĐỀ – EN]
+A regular square-based pyramid has base side $8$ cm and slant height $5$ cm. Find the lateral surface area, the total surface area, the height and the volume.
+
+[LỜI GIẢI CŨ – EN]
+Half the perimeter of the base is $p=\dfrac{4\cdot8}2=16$ cm, so $S_{\text{lat}}=16\cdot5=80$ cm² and $S_{\text{total}}=80+8^2=144$ cm². In triangle $SOM$, right-angled at $O$, with $OM=4$ and $SM=5$, we have $h=\sqrt{5^2-4^2}=3$ cm. The volume is $V=\dfrac13\cdot64\cdot3=64$ cm³.
+
+**Answer.** $S_{\text{lat}}=80$ cm²; $S_{\text{total}}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy $6$ cm và chiều cao $1$ cm. Tính độ dài cạnh bên $SA$ (làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $SOA$ vuông tại $O$, ta có $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3{,}6$ (cm).
+
+**Đáp số.** $SA\approx3{,}6$ cm.
+
+[ĐỀ – EN]
+The regular triangular pyramid $S.ABC$ has base side $6$ cm and height $1$ cm. Find the length of the lateral edge $SA$ (round to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $SOA$, right-angled at $O$, we have $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3.6$ (cm).
+
+**Answer.** $SA\approx3.6$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Nhớ lại định lí Pythagore. Cho hình chóp tứ giác đều có cạnh đáy $10$ cm và chiều cao $12$ cm. Tính trung đoạn, diện tích xung quanh và thể tích.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $SOM$ vuông tại $O$ có $OM=5$, $SO=12$, ta có $d=\sqrt{12^2+5^2}=13$ cm. Nửa chu vi đáy là $20$ cm nên $S_{xq}=20\cdot13=260$ cm². Thể tích là $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+
+**Đáp số.** $d=13$ cm; $S_{xq}=260$ cm²; $V=400$ cm³.
+
+[ĐỀ – EN]
+Remember Pythagoras' theorem. A regular square-based pyramid has base side $10$ cm and height $12$ cm. Find the slant height, the lateral surface area and the volume.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $SOM$, right-angled at $O$, with $OM=5$ and $SO=12$, we have $d=\sqrt{12^2+5^2}=13$ cm. Half the perimeter of the base is $20$ cm, so $S_{\text{lat}}=20\cdot13=260$ cm². The volume is $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+
+**Answer.** $d=13$ cm; $S_{\text{lat}}=260$ cm²; $V=400$ cm³.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một khối thuỷ tinh có dạng hình chóp tam giác đều với cạnh đáy $12$ cm và chiều cao $5{,}5$ cm. Người ta dán giấy màu lên ba mặt bên. Tính diện tích giấy cần dùng và thể tích khối thuỷ tinh (làm tròn thể tích đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OM=\dfrac{12\sqrt3}6=2\sqrt3$ nên $d=\sqrt{5{,}5^2+12}=6{,}5$ cm. Nửa chu vi đáy là $18$ cm nên $S_{xq}=18\cdot6{,}5=117$ cm². Diện tích đáy là $36\sqrt3$ cm² nên $V=\dfrac13\cdot36\sqrt3\cdot5{,}5=66\sqrt3\approx114{,}3$ cm³.
+
+**Đáp số.** $117$ cm²; $\approx114{,}3$ cm³.
+
+[ĐỀ – EN]
+A glass block is a regular triangular pyramid with base side $12$ cm and height $5.5$ cm. Coloured paper is stuck on the three sloping faces. Find the area of paper needed and the volume of the block (round the volume to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+We have $OM=\dfrac{12\sqrt3}6=2\sqrt3$, so $d=\sqrt{5.5^2+12}=6.5$ cm. Half the perimeter of the base is $18$ cm, so $S_{\text{lat}}=18\cdot6.5=117$ cm². The base area is $36\sqrt3$ cm², so $V=\dfrac13\cdot36\sqrt3\cdot5.5=66\sqrt3\approx114.3$ cm³.
+
+**Answer.** $117$ cm²; $\approx114.3$ cm³.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mái của một ngôi đình có dạng hình chóp tứ giác đều với cạnh đáy $6$ m và chiều cao $4$ m. Giả sử mỗi mét vuông mái lợp ngói hết $180\,000$ đồng. Tính chi phí lợp ngói cho bốn mặt của mái.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $SOM$ vuông tại $O$ có $OM=3$, $SO=4$, ta có $d=\sqrt{4^2+3^2}=5$ m. Nửa chu vi đáy là $12$ m nên $S_{xq}=12\cdot5=60$ m². Chi phí là $60\cdot180\,000=10\,800\,000$ (đồng).
+
+**Đáp số.** $10\,800\,000$ đồng.
+
+[ĐỀ – EN]
+The roof of a pavilion is a regular square-based pyramid with base side $6$ m and height $4$ m. Suppose tiling costs $180\,000$ dong for each square metre of roof. Find the cost of tiling the four sloping faces.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $SOM$, right-angled at $O$, with $OM=3$ and $SO=4$, we have $d=\sqrt{4^2+3^2}=5$ m. Half the perimeter of the base is $12$ m, so $S_{\text{lat}}=12\cdot5=60$ m². The cost is $60\cdot180\,000=10\,800\,000$ (dong).
+
+**Answer.** $10\,800\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một cái phễu có dạng hình chóp tứ giác đều đặt đỉnh xuống dưới, miệng phễu là hình vuông cạnh $30$ cm và chiều sâu của phễu là $40$ cm. Phễu chứa được tối đa bao nhiêu lít nước? ($1$ lít $=1000$ cm³.)
+
+[LỜI GIẢI CŨ – VI]
+Diện tích miệng phễu là $30^2=900$ cm². Thể tích là $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ lít.
+
+**Đáp số.** $12$ lít.
+
+[ĐỀ – EN]
+A funnel is a regular square-based pyramid with its apex pointing down. The top of the funnel is a square of side $30$ cm and the funnel is $40$ cm deep. How many litres of water can the funnel hold? ($1$ litre $=1000$ cm³.)
+
+[LỜI GIẢI CŨ – EN]
+The area of the top is $30^2=900$ cm². The volume is $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ litres.
+
+**Answer.** $12$ litres.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tứ diện đều $ABCD$ có cạnh bằng $6$. Tính chiều cao hạ từ đỉnh $D$ xuống mặt phẳng $(ABC)$ và thể tích của tứ diện (làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Gọi $O$ là tâm của tam giác đều $ABC$. Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $DOA$ vuông tại $O$, ta có $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4{,}9$. Diện tích đáy là $9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25{,}5$.
+
+**Đáp số.** $h=2\sqrt6\approx4{,}9$; $V=18\sqrt2\approx25{,}5$.
+
+[ĐỀ – EN]
+The regular tetrahedron $ABCD$ has edge $6$. Find the height from the vertex $D$ to the plane $(ABC)$ and the volume of the tetrahedron (round to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+Let $O$ be the centre of the equilateral triangle $ABC$. We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $DOA$, right-angled at $O$, we have $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4.9$. The base area is $9\sqrt3$, so $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25.5$.
+
+**Answer.** $h=2\sqrt6\approx4.9$; $V=18\sqrt2\approx25.5$.
+
+
+######################################################################
+@@@ g8/rhombuses-and-squares
+Bài học: Hình thoi và hình vuông / Rhombuses and squares
+Cần viết lại lời giải các bài: 3, 5, 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hình thoi $ABCD$ có cạnh $13$ cm và đường chéo $BD=10$ cm. Tính đường chéo $AC$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OB=5$ cm. Trong tam giác vuông $OAB$: $OA^2=AB^2-OB^2=169-25=144$, nên $OA=12$ cm. Do đó $AC=2\cdot12=24$ cm.
+
+Vậy $AC=24$ cm.
+
+**Đáp số.** $24$ cm.
+
+[ĐỀ – EN]
+Rhombus $ABCD$ has side $13$ cm and diagonal $BD=10$ cm. Find the diagonal $AC$.
+
+[LỜI GIẢI CŨ – EN]
+We have $OB=5$ cm. In the right-angled triangle $OAB$: $OA^2=AB^2-OB^2=169-25=144$, so $OA=12$ cm. Hence $AC=2\cdot12=24$ cm.
+
+So $AC=24$ cm.
+
+**Answer.** $24$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hình bình hành $ABCD$ có đường chéo $AC$ là phân giác của góc $\widehat{A}$. Chứng minh rằng $ABCD$ là hình thoi.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AC$ là phân giác của $\widehat{A}$ nên $\widehat{BAC}=\widehat{CAD}$. Vì $AD\parallel BC$ nên $\widehat{CAD}=\widehat{ACB}$ (so le trong). Do đó $\widehat{BAC}=\widehat{ACB}$, nên tam giác $ABC$ cân tại $B$, tức là $BA=BC$.
+
+Hình bình hành $ABCD$ có hai cạnh kề $BA$ và $BC$ bằng nhau nên là hình thoi.
+
+**Đáp số.** $ABCD$ là hình thoi.
+
+[ĐỀ – EN]
+In parallelogram $ABCD$ the diagonal $AC$ bisects $\angle A$. Prove that $ABCD$ is a rhombus.
+
+[LỜI GIẢI CŨ – EN]
+Since $AC$ bisects $\angle A$, we have $\angle BAC=\angle CAD$. Since $AD\parallel BC$, we have $\angle CAD=\angle ACB$ (alternate angles). Hence $\angle BAC=\angle ACB$, so triangle $ABC$ is isosceles at $B$; that is, $BA=BC$.
+
+Parallelogram $ABCD$ has equal adjacent sides $BA$ and $BC$, so it is a rhombus.
+
+**Answer.** $ABCD$ is a rhombus.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hình vuông $ABCD$ có cạnh $8$ cm. Tính độ dài đường chéo $AC$ (làm tròn đến hai chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $AC^2=8^2+8^2=128$, nên $AC=\sqrt{128}=8\sqrt2\approx11{,}31$ (cm).
+
+Vậy $AC\approx11{,}31$ cm.
+
+**Đáp số.** $8\sqrt2\approx11{,}31$ cm.
+
+[ĐỀ – EN]
+Square $ABCD$ has side $8$ cm. Find the diagonal $AC$ (round to two decimal places).
+
+[LỜI GIẢI CŨ – EN]
+We have $AC^2=8^2+8^2=128$, so $AC=\sqrt{128}=8\sqrt2\approx11.31$ (cm).
+
+So $AC\approx11.31$ cm.
+
+**Answer.** $8\sqrt2\approx11.31$ cm.
+
+
+===== HẾT FILE Nguyenchanh2358-07-LG =====

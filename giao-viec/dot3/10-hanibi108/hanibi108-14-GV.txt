@@ -1,0 +1,492 @@
+######################################################################
+TÀI KHOẢN: hanibi108   |   FILE: hanibi108-14-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file hanibi108-14-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – hanibi108-14-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-calculus/apcalc-accumulation-ftc
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  hanibi108-14-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/hanibi108-14-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file hanibi108-14-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-calculus/apcalc-accumulation-ftc – BẢN TIẾNG VIỆT ########
+---
+title: Tổng Riemann, tích luỹ và định lí cơ bản của giải tích
+description: AP Calculus Unit 6, phần 1: tổng Riemann và tổng hình thang từ bảng số, tích phân là lượng tích luỹ, hai phần của định lí cơ bản.
+minutes: 50
+---
+
+  :::goals
+  - Xấp xỉ tích phân xác định bằng tổng trái, tổng phải, tổng điểm giữa và tổng hình thang, kể cả từ bảng số có khoảng không đều.
+  - Xác định một giá trị xấp xỉ là lớn hơn hay nhỏ hơn giá trị thật.
+  - Hiểu $\displaystyle\int_a^b r(t)\,dt$ là lượng thay đổi ròng của một đại lượng, kèm đơn vị.
+  - Dùng định lí cơ bản của giải tích để tính tích phân và lấy đạo hàm của hàm tích luỹ.
+  - Khảo sát $g(x)=\displaystyle\int_a^x f(t)\,dt$ từ đồ thị của $f$.
+  :::
+
+[[P1·81c4]]
+Unit 6 đặt câu hỏi ngược với đạo hàm: thay vì "đại lượng thay đổi nhanh đến mức nào?", ta hỏi "đã tích luỹ được bao nhiêu?". Ý tưởng này có mặt khắp đề AP. Gần như phần tự luận nào cũng mở đầu bằng một tốc độ cho dưới dạng bảng hoặc công thức, rồi hỏi một tổng Riemann, một lượng thay đổi toàn phần hay giá trị của đại lượng ở thời điểm sau. Bài này trình bày phần cốt lõi của unit; bài tiếp theo về kĩ thuật tính tích phân sẽ nói về phép đổi biến và các cách tìm nguyên hàm khác.
+
+## Tổng Riemann từ bảng số
+
+[[P2·2c27]]
+Để xấp xỉ $\displaystyle\int_a^b f(x)\,dx$, chia $[a,b]$ thành các khoảng nhỏ rồi cộng các tích (độ rộng) × (chiều cao). Chiều cao lấy ở đầu mút trái, đầu mút phải hoặc điểm giữa; **tổng hình thang** lấy trung bình chiều cao bên trái và bên phải. Các khoảng nhỏ không cần bằng nhau: bảng số trong đề AP thường có các mốc thời gian không đều.
+
+  :::example Nước chảy vào bể
+  Nước chảy vào một bể với tốc độ $R(t)$ lít mỗi phút. Bảng dưới cho một số giá trị.
+
+  | $t$ (phút) | $0$ | $2$ | $5$ | $7$ | $10$ |
+  |---|---|---|---|---|---|
+  | $R(t)$ (lít mỗi phút) | $4$ | $7$ | $9$ | $6$ | $5$ |
+
+  Dùng tổng hình thang với bốn khoảng trong bảng để xấp xỉ $\displaystyle\int_0^{10}R(t)\,dt$, rồi giải thích ý nghĩa của nó.
+
+  **Lời giải.** Độ rộng các khoảng là $2$, $3$, $2$, $3$.
+  $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16{,}5=66{,}5.$$
+  Khoảng $66{,}5$ lít nước chảy vào bể trong $10$ phút đầu. Để so sánh, tổng trái bằng $65$ và tổng phải bằng $68$.
+  :::
+
+  :::example Lớn hơn hay nhỏ hơn?
+  Hàm số $f$ đồng biến trên $[0,4]$. Gọi $L$ và $R$ là tổng Riemann trái và phải với bốn khoảng bằng nhau. Khẳng định nào chắc chắn đúng?
+  A. $L<\displaystyle\int_0^4 f(x)\,dx<R$
+  B. $R<\displaystyle\int_0^4 f(x)\,dx<L$
+  C. Cả hai tổng đều lớn hơn tích phân.
+  D. Cả hai tổng đều nhỏ hơn tích phân.
+
+  **Lời giải.** Trên mỗi khoảng nhỏ của một hàm đồng biến, chiều cao bên trái là giá trị nhỏ nhất và chiều cao bên phải là giá trị lớn nhất: đáp án **A**. Với hình thang, tính lồi lõm quyết định: nếu $f$ lõm lên (concave up) thì mỗi dây cung nằm trên đồ thị và tổng hình thang lớn hơn giá trị thật; nếu $f$ lõm xuống thì tổng hình thang nhỏ hơn.
+  :::
+
+## Định lí cơ bản của giải tích
+
+  :::theorem Định lí cơ bản của giải tích
+  **Phần 1.** Nếu $f$ liên tục thì $\dfrac{d}{dx}\displaystyle\int_a^x f(t)\,dt=f(x)$. Kết hợp quy tắc chuỗi: $\dfrac{d}{dx}\displaystyle\int_a^{u(x)}f(t)\,dt=f\big(u(x)\big)\cdot u'(x)$.
+
+  **Phần 2.** Nếu $F'=f$ và $f$ liên tục trên $[a,b]$ thì $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$.
+  :::
+
+:::note Các nguyên hàm cần thuộc lòng
+[[P3·7ac1]]
+$$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,$$
+$$\int e^x\,dx=e^x+C,\quad\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C,$$
+$$\int\sec^2x\,dx=\tan x+C,\quad\int\frac{dx}{1+x^2}=\arctan x+C.$$
+:::
+
+  :::example Tính tích phân bằng Phần 2
+  Tích phân $\displaystyle\int_1^3\left(3x^2-2x\right)dx$ bằng
+  A. $16$
+  B. $20$
+  C. $18$
+  D. $26$
+
+  **Lời giải.** Một nguyên hàm là $x^3-x^2$. Tích phân bằng $(27-9)-(1-1)=18$: đáp án **C**.
+  :::
+
+  :::example Lấy đạo hàm bằng Phần 1
+  Cho $g(x)=\displaystyle\int_0^{x^2}\sin t\,dt$. Tìm $g'(x)$.
+
+  **Lời giải.** Cận trên là $u=x^2$, nên $g'(x)=\sin\left(x^2\right)\cdot2x=2x\sin\left(x^2\right)$. Không cần tính tích phân trước.
+  :::
+
+## Hàm tích luỹ đọc từ đồ thị
+
+:::graph Đồ thị của $f$ trên $[0,6]$, gồm ba đoạn thẳng
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc diện tích thành giá trị của g
+  Đồ thị của $f$ cho ở trên. Đặt $g(x)=\displaystyle\int_0^x f(t)\,dt$.
+
+  a) Tính $g(2)$, $g(3)$, $g(4)$ và $g(6)$.
+  b) Trên $[0,6]$, $g$ đạt giá trị lớn nhất tại $x$ nào? Giải thích.
+
+  **Lời giải.** a) Phần diện tích phía trên trục hoành mang dấu dương, phía dưới mang dấu âm. $g(2)=4$ (hình chữ nhật). $g(3)=4+1=5$ (tam giác diện tích $1$). $g(4)=5-1=4$. $g(6)=4-2=2$.
+
+  b) $g'(x)=f(x)$, chỉ đổi dấu từ dương sang âm tại $x=3$. Các ứng viên: $g(0)=0$, $g(3)=5$, $g(6)=2$. Giá trị lớn nhất là $5$, đạt tại $x=3$.
+  :::
+
+## Lượng thay đổi ròng và tổng quãng đường
+
+[[P4·812b]]
+Nếu $r$ là tốc độ thay đổi của đại lượng $Q$ thì $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$ là **lượng thay đổi ròng**, và $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. Với một hạt có vận tốc $v$: $\displaystyle\int_a^b v(t)\,dt$ là độ dời, còn $\displaystyle\int_a^b|v(t)|\,dt$ là tổng quãng đường.
+
+  :::example Độ dời và quãng đường
+  Một hạt có vận tốc $v(t)=t-2$ mét mỗi giây, $0\le t\le5$. Tìm độ dời và tổng quãng đường hạt đi được.
+
+  **Lời giải.** Độ dời: $\displaystyle\int_0^5(t-2)\,dt=\left[\frac{t^2}{2}-2t\right]_0^5=12{,}5-10=2{,}5$ mét.
+
+  Quãng đường: $v<0$ trên $(0,2)$ và $v>0$ trên $(2,5)$, nên quãng đường bằng $\left|\displaystyle\int_0^2(t-2)\,dt\right|+\displaystyle\int_2^5(t-2)\,dt=2+4{,}5=6{,}5$ mét.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·64fb]]
+- **Coi các khoảng bằng nhau.** Bảng có $t=0, 2, 5, 7, 10$ thì độ rộng là $2, 3, 2, 3$.
+- **Quên lượng ban đầu.** "Lúc $t=10$ trong bể có bao nhiêu nước?" nghĩa là lượng ban đầu cộng với tích phân.
+- **Diện tích dưới trục hoành.** Mang dấu âm trong $\displaystyle\int f$, nhưng mang dấu dương khi tính tổng quãng đường.
+- **Dùng Phần 1 mà quên quy tắc chuỗi.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, không phải $f\left(x^2\right)$.
+- **Đơn vị.** Nếu $R$ tính bằng lít mỗi phút và $t$ tính bằng phút thì $\displaystyle\int R\,dt$ tính bằng lít.
+:::
+
+:::tip Ở phần được dùng máy tính
+[[P6·4ba0]]
+Khi tốc độ cho bằng công thức trong phần được dùng máy tính, hãy viết tích phân kèm cận trước, ví dụ $\displaystyle\int_0^{10}R(t)\,dt$, rồi mới ghi giá trị chính xác đến ba chữ số thập phân. Riêng việc viết đúng tích phân đã được một điểm.
+:::
+
+  :::terms
+  - Riemann sum | tổng Riemann
+  - left / right / midpoint sum | tổng trái / phải / điểm giữa
+  - trapezoidal sum | tổng hình thang
+  - definite integral | tích phân xác định
+  - accumulation function | hàm tích luỹ
+  - fundamental theorem of calculus | định lí cơ bản của giải tích
+  - net change | biến thiên toàn phần (lượng thay đổi ròng)
+  - antiderivative | nguyên hàm
+  :::
+
+## Bài tập tương tự
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Bể vừa chảy vào vừa chảy ra
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Vị trí từ vận tốc
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hai cận đều thay đổi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-accumulation-ftc – BẢN TIẾNG ANH ########
+---
+title: Riemann sums, accumulation and the fundamental theorem
+description: AP Calculus Unit 6, part 1: Riemann and trapezoidal sums from tables, the definite integral as accumulation, and both parts of the fundamental theorem.
+minutes: 50
+---
+
+  :::goals
+  - Approximate a definite integral with left, right, midpoint and trapezoidal sums, including from tables with unequal intervals.
+  - Decide whether an approximation is an overestimate or an underestimate.
+  - Interpret $\displaystyle\int_a^b r(t)\,dt$ as the net change of a quantity, with units.
+  - Use the fundamental theorem of calculus to evaluate integrals and to differentiate accumulation functions.
+  - Analyze $g(x)=\displaystyle\int_a^x f(t)\,dt$ from the graph of $f$.
+  :::
+
+[[P1·d9a6]]
+Unit 6 turns the questions of the derivative around: instead of "how fast is it changing?", it asks "how much has accumulated?". On the AP exam this idea is everywhere. Almost every free-response section opens with a rate given in a table or by a formula, and asks for a Riemann sum, a total change or an amount at a later time. This lesson covers the core of the unit; the next one, on integration techniques, covers substitution and the other antidifferentiation methods.
+
+## Riemann sums from a table
+
+[[P2·1a0d]]
+To approximate $\displaystyle\int_a^b f(x)\,dx$, split $[a,b]$ into subintervals and add up (width) × (height). The height comes from the left endpoint, the right endpoint or the midpoint; the **trapezoidal sum** averages the left and right heights. The subintervals do not need to be equal: AP tables often use uneven times.
+
+  :::example Water flowing into a tank
+  Water flows into a tank at a rate of $R(t)$ liters per minute. Selected values are shown.
+
+  | $t$ (minutes) | $0$ | $2$ | $5$ | $7$ | $10$ |
+  |---|---|---|---|---|---|
+  | $R(t)$ (liters per minute) | $4$ | $7$ | $9$ | $6$ | $5$ |
+
+  Use a trapezoidal sum with the four subintervals in the table to approximate $\displaystyle\int_0^{10}R(t)\,dt$, and explain its meaning.
+
+  **Solution.** The widths are $2$, $3$, $2$, $3$.
+  $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16.5=66.5.$$
+  About $66.5$ liters of water flow into the tank during the first $10$ minutes. For comparison, the left sum is $65$ and the right sum is $68$.
+  :::
+
+  :::example Over or under?
+  A function $f$ is increasing on $[0,4]$. Let $L$ and $R$ be the left and right Riemann sums with four equal subintervals. Which statement must be true?
+  A. $L<\displaystyle\int_0^4 f(x)\,dx<R$
+  B. $R<\displaystyle\int_0^4 f(x)\,dx<L$
+  C. Both sums overestimate the integral.
+  D. Both sums underestimate the integral.
+
+  **Solution.** On each subinterval of an increasing function, the left height is the smallest value and the right height is the largest: answer **A**. For trapezoids, concavity decides: if $f$ is concave up, each chord lies above the graph and the trapezoidal sum overestimates; concave down, it underestimates.
+  :::
+
+## The fundamental theorem of calculus
+
+  :::theorem Fundamental theorem of calculus
+  **Part 1.** If $f$ is continuous, then $\dfrac{d}{dx}\displaystyle\int_a^x f(t)\,dt=f(x)$. With the chain rule: $\dfrac{d}{dx}\displaystyle\int_a^{u(x)}f(t)\,dt=f\big(u(x)\big)\cdot u'(x)$.
+
+  **Part 2.** If $F'=f$ and $f$ is continuous on $[a,b]$, then $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$.
+  :::
+
+:::note Antiderivatives to know by heart
+[[P3·7ac1]]
+$$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,$$
+$$\int e^x\,dx=e^x+C,\quad\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C,$$
+$$\int\sec^2x\,dx=\tan x+C,\quad\int\frac{dx}{1+x^2}=\arctan x+C.$$
+:::
+
+  :::example Evaluating with Part 2
+  What is $\displaystyle\int_1^3\left(3x^2-2x\right)dx$?
+  A. $16$
+  B. $20$
+  C. $18$
+  D. $26$
+
+  **Solution.** An antiderivative is $x^3-x^2$. So the integral is $(27-9)-(1-1)=18$: answer **C**.
+  :::
+
+  :::example Differentiating with Part 1
+  Let $g(x)=\displaystyle\int_0^{x^2}\sin t\,dt$. Find $g'(x)$.
+
+  **Solution.** The upper limit is $u=x^2$, so $g'(x)=\sin\left(x^2\right)\cdot2x=2x\sin\left(x^2\right)$. There is no need to evaluate the integral first.
+  :::
+
+## Accumulation functions from a graph
+
+:::graph The graph of $f$ on $[0,6]$, made of three line segments
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading areas as values of g
+  The graph of $f$ is shown above. Let $g(x)=\displaystyle\int_0^x f(t)\,dt$.
+
+  a) Find $g(2)$, $g(3)$, $g(4)$ and $g(6)$.
+  b) At which $x$ in $[0,6]$ does $g$ have its absolute maximum? Justify.
+
+  **Solution.** a) Areas above the axis count positive, below negative. $g(2)=4$ (rectangle). $g(3)=4+1=5$ (triangle of area $1$). $g(4)=5-1=4$. $g(6)=4-2=2$.
+
+  b) $g'(x)=f(x)$, which changes from positive to negative only at $x=3$. Candidates: $g(0)=0$, $g(3)=5$, $g(6)=2$. The absolute maximum is $5$, at $x=3$.
+  :::
+
+## Net change and total distance
+
+[[P4·252a]]
+If $r$ is the rate of change of a quantity $Q$, then $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$, the **net change**, and $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. For a particle with velocity $v$: $\displaystyle\int_a^b v(t)\,dt$ is the displacement and $\displaystyle\int_a^b|v(t)|\,dt$ is the total distance.
+
+  :::example Displacement versus distance
+  A particle has velocity $v(t)=t-2$ meters per second for $0\le t\le5$. Find its displacement and the total distance traveled.
+
+  **Solution.** Displacement: $\displaystyle\int_0^5(t-2)\,dt=\left[\frac{t^2}{2}-2t\right]_0^5=12.5-10=2.5$ meters.
+
+  Distance: $v<0$ on $(0,2)$ and $v>0$ on $(2,5)$, so the distance is $\left|\displaystyle\int_0^2(t-2)\,dt\right|+\displaystyle\int_2^5(t-2)\,dt=2+4.5=6.5$ meters.
+  :::
+
+:::warning Common traps
+[[P5·4e57]]
+- **Equal widths assumed.** In a table with $t=0, 2, 5, 7, 10$, the widths are $2, 3, 2, 3$.
+- **Forgetting the starting amount.** "How much water is in the tank at $t=10$?" means initial amount plus the integral.
+- **Areas below the axis.** They count negative in $\displaystyle\int f$, but positive in total distance.
+- **FTC Part 1 without the chain rule.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, not $f\left(x^2\right)$.
+- **Units.** If $R$ is in liters per minute and $t$ in minutes, $\displaystyle\int R\,dt$ is in liters.
+:::
+
+:::tip On the calculator section
+[[P6·3cbb]]
+When a rate is given by a formula on a calculator part, write the integral with its limits first, for example $\displaystyle\int_0^{10}R(t)\,dt$, then the value correct to three decimal places. The written setup earns a point on its own.
+:::
+
+  :::terms
+  - Riemann sum | tổng Riemann
+  - left / right / midpoint sum | tổng trái / phải / điểm giữa
+  - trapezoidal sum | tổng hình thang
+  - definite integral | tích phân xác định
+  - accumulation function | hàm tích luỹ
+  - fundamental theorem of calculus | định lí cơ bản của giải tích
+  - net change | biến thiên toàn phần (lượng thay đổi ròng)
+  - antiderivative | nguyên hàm
+  :::
+
+## Similar exercises
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A tank that fills and drains
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Position from velocity
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Two variable limits
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

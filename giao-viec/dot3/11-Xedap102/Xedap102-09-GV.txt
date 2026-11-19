@@ -1,0 +1,500 @@
+######################################################################
+TÀI KHOẢN: Xedap102   |   FILE: Xedap102-09-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Xedap102-09-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-09-GV
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-calculus/apcalc-practice-exam-ab, exams/ap-calculus/apcalc-practice-exam-bc
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Xedap102-09-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Xedap102-09-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Xedap102-09-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ap-calculus/apcalc-practice-exam-ab – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện AP Calculus AB: phần trắc nghiệm
+description: Trọn phần trắc nghiệm AP Calculus AB theo cấu trúc 2027: 42 câu, 29 câu không và 13 câu có máy tính, chấm điểm ngay, có lời giải từng câu.
+minutes: 100
+type: test
+---
+
+[[P1·d198]]
+Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus AB từ tháng 5/2027. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP; với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
+
+## Cách làm đề
+
+| | Part A | Part B |
+|---|---|---|
+| Số câu | 29 | 13 |
+| Thời gian | 62 phút | 38 phút |
+| Máy tính | không được dùng | máy tính vẽ đồ thị (Desmos hoặc máy của bạn) |
+
+[[P2·a8a2]]
+1. Bấm giờ 62 phút và làm Part A không dùng máy tính. Nộp bài để xem điểm.
+2. Sau đó làm Part B trong 38 phút với máy tính vẽ đồ thị, để ở chế độ radian.
+3. Đáp số ở Part B cho đến ba chữ số thập phân, như trong đề thật.
+4. Làm xong, đọc lời giải của mọi câu sai và chép vào sổ lỗi sai.
+
+## Part A: không dùng máy tính
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: dùng máy tính vẽ đồ thị
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·aa93]]
+Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 2 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 3 | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
+| 4 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 5 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 6 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 7 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 8 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 9 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 10 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 11 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 12 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 13 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 14 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 15 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 16 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 17 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 18 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 19 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 20 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 21 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 22 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 23 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 24 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 25 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 26 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 27 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 28 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 29 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 30 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 31 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 32 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 33 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 34 | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
+| 35 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 36 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 37 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 38 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 39 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 40 | [Định lí giá trị trung bình, cực trị và khảo sát](lesson:apcalc-analytical-applications) |
+| 41 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 42 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+
+[[P4·b8ea]]
+Ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision) trước khi làm đề đầy đủ tiếp theo.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-ab – BẢN TIẾNG ANH ########
+---
+title: AP Calculus AB practice exam: multiple choice
+description: A full AP Calculus AB multiple-choice section in the 2027 format: 42 questions, 29 without and 13 with a calculator, marked instantly with solutions.
+minutes: 100
+type: test
+---
+
+[[P1·122a]]
+This is a full multiple-choice section in the format of the AP Calculus AB exam from May 2027. All questions are written by Lemonmath; they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score; for the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
+
+## How to take this exam
+
+| | Part A | Part B |
+|---|---|---|
+| Questions | 29 | 13 |
+| Time | 62 minutes | 38 minutes |
+| Calculator | not allowed | graphing calculator (Desmos or your own) |
+
+[[P2·a75e]]
+1. Set a timer for 62 minutes and do Part A without a calculator. Submit it to see your score.
+2. Then do Part B in 38 minutes with a graphing calculator, in radian mode.
+3. Answers in Part B are given to three decimal places, as on the real exam.
+4. Afterwards, read the solution of every question you missed and add it to your error log.
+
+## Part A: no calculator
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: graphing calculator
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the exam
+
+[[P3·e915]]
+Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 2 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 3 | [Limits and continuity](lesson:apcalc-limits-continuity) |
+| 4 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 5 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 6 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 7 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 8 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 9 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 10 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 11 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 12 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 13 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 14 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 15 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 16 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 17 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 18 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 19 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 20 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 21 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 22 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 23 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 24 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 25 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 26 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 27 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 28 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 29 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 30 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 31 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 32 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 33 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 34 | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
+| 35 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 36 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 37 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 38 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 39 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 40 | [Mean value theorem, extrema and curve analysis](lesson:apcalc-analytical-applications) |
+| 41 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 42 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+
+[[P4·917d]]
+Review with the methods in [Revision that works](lesson:evidence-based-revision) before your next full exam.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-bc – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện AP Calculus BC: phần trắc nghiệm
+description: Trọn phần trắc nghiệm AP Calculus BC theo cấu trúc 2027: 42 câu, 29 câu không và 13 câu có máy tính, chấm điểm ngay, có lời giải từng câu.
+minutes: 100
+type: test
+---
+
+[[P1·f11d]]
+Đây là trọn phần trắc nghiệm theo cấu trúc đề AP Calculus BC từ tháng 5/2027. Trong đề thật, khoảng 60% điểm đến từ nội dung AB; đề luyện này tập trung vào các unit chỉ có ở BC (27 trên 42 câu: phương pháp Euler và mô hình logistic, kĩ thuật tích phân nâng cao, hàm tham số, hàm véc-tơ, toạ độ cực, chuỗi), vì nội dung AB đã có trong [đề luyện AB](lesson:apcalc-practice-exam-ab). Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi AP thật, nhưng bám theo các unit và kiểu câu chính thức. Phần trắc nghiệm chiếm một nửa điểm AP; với nửa còn lại, hãy luyện các câu tự luận đã công bố cùng bài [Các dạng câu tự luận AP Calculus và cách trình bày](lesson:apcalc-frq-strategies).
+
+## Cách làm đề
+
+| | Part A | Part B |
+|---|---|---|
+| Số câu | 29 | 13 |
+| Thời gian | 62 phút | 38 phút |
+| Máy tính | không được dùng | máy tính vẽ đồ thị (Desmos hoặc máy của bạn) |
+
+[[P2·a8a2]]
+1. Bấm giờ 62 phút và làm Part A không dùng máy tính. Nộp bài để xem điểm.
+2. Sau đó làm Part B trong 38 phút với máy tính vẽ đồ thị, để ở chế độ radian.
+3. Đáp số ở Part B cho đến ba chữ số thập phân, như trong đề thật.
+4. Làm xong, đọc lời giải của mọi câu sai và chép vào sổ lỗi sai.
+
+## Part A: không dùng máy tính
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: dùng máy tính vẽ đồ thị
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·aa93]]
+Part A tính trên 29 câu và Part B trên 13 câu. Bảng dưới cho biết mỗi câu sai cần ôn lại bài nào. Tạm tính, đúng từ 30 câu trở lên trên 42 câu cho thấy phần trắc nghiệm của bạn đã vững; dưới 20 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 2 | [Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan](lesson:apcalc-contextual-applications) |
+| 3 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 4 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 5 | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
+| 6 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 7 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 8 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 9 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 10 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 11 | [Kĩ thuật tính tích phân](lesson:apcalc-integration-techniques) |
+| 12 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 13 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 14 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 15 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 16 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 17 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 18 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 19 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 20 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 21 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 22 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 23 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 24 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+| 25 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 26 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 27 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 28 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 29 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 30 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 31 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 32 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 33 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 34 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 35 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 36 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 37 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 38 | [Phương trình vi phân và trường hướng](lesson:apcalc-differential-equations) |
+| 39 | [Diện tích, thể tích và giá trị trung bình](lesson:apcalc-area-volume) |
+| 40 | [Hàm tham số, hàm véc-tơ và toạ độ cực](lesson:apcalc-bc-parametric-polar) |
+| 41 | [Tổng Riemann, tích luỹ và định lí cơ bản](lesson:apcalc-accumulation-ftc) |
+| 42 | [Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa](lesson:apcalc-bc-series) |
+
+[[P4·b8ea]]
+Ôn lại bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision) trước khi làm đề đầy đủ tiếp theo.
+
+
+######## BÀI exams/ap-calculus/apcalc-practice-exam-bc – BẢN TIẾNG ANH ########
+---
+title: AP Calculus BC practice exam: multiple choice
+description: A full AP Calculus BC multiple-choice section in the 2027 format: 42 questions, 29 without and 13 with a calculator, marked instantly with solutions.
+minutes: 100
+type: test
+---
+
+[[P1·d3d3]]
+This is a full multiple-choice section in the format of the AP Calculus BC exam from May 2027. On the real exam about 60% of the score comes from AB topics; this practice exam leans on the BC-only units (27 of the 42 questions: Euler and logistic models, further integration, parametric, vector and polar functions, series), because the AB topics are already covered in the [AB practice exam](lesson:apcalc-practice-exam-ab). All questions are written by Lemonmath; they are not real AP questions, but they follow the official units and question styles. The multiple-choice section is half of the AP score; for the other half, practise with released free-response questions and the guide [AP Calculus free-response types and how to write them](lesson:apcalc-frq-strategies).
+
+## How to take this exam
+
+| | Part A | Part B |
+|---|---|---|
+| Questions | 29 | 13 |
+| Time | 62 minutes | 38 minutes |
+| Calculator | not allowed | graphing calculator (Desmos or your own) |
+
+[[P2·a75e]]
+1. Set a timer for 62 minutes and do Part A without a calculator. Submit it to see your score.
+2. Then do Part B in 38 minutes with a graphing calculator, in radian mode.
+3. Answers in Part B are given to three decimal places, as on the real exam.
+4. Afterwards, read the solution of every question you missed and add it to your error log.
+
+## Part A: no calculator
+
+:::quiz test
+   (… 260 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part B: graphing calculator
+
+:::quiz test
+   (… 116 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the exam
+
+[[P3·e915]]
+Part A is marked out of 29 and Part B out of 13. The table shows which lesson to revise for each question you missed. As a rough guide, 30 or more correct out of 42 means your multiple-choice section is in good shape; below 20, go back to the lessons before taking another full exam.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 2 | [Related rates, motion and linear approximation](lesson:apcalc-contextual-applications) |
+| 3 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 4 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 5 | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
+| 6 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 7 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 8 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 9 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 10 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 11 | [Integration techniques](lesson:apcalc-integration-techniques) |
+| 12 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 13 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 14 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 15 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 16 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 17 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 18 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 19 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 20 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 21 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 22 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 23 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 24 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+| 25 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 26 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 27 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 28 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 29 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 30 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 31 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 32 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 33 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 34 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 35 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 36 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 37 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 38 | [Differential equations and slope fields](lesson:apcalc-differential-equations) |
+| 39 | [Area, volume and average value](lesson:apcalc-area-volume) |
+| 40 | [Parametric, vector-valued and polar functions](lesson:apcalc-bc-parametric-polar) |
+| 41 | [Riemann sums, accumulation and the fundamental theorem](lesson:apcalc-accumulation-ftc) |
+| 42 | [Infinite series, Taylor and power series](lesson:apcalc-bc-series) |
+
+[[P4·917d]]
+Review with the methods in [Revision that works](lesson:evidence-based-revision) before your next full exam.
+

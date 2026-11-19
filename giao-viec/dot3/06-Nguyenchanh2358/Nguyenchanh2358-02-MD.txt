@@ -1,0 +1,957 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-02-MD   |   VIỆC: gắn mức độ nhận thức (MD-18)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-02-MD-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+# Gói MD-18 – gắn mức độ nhận thức cho 105 câu hỏi (Lớp 12 → Lớp 12)
+
+Tài khoản thực hiện: Nguyenchanh2358
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-18 (105 câu)
+
+## Các câu hỏi
+
+### M362 · Lớp 12 · Hệ trục toạ độ trong không gian
+
+[M362.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, cho điểm $M$ thoả mãn $\overrightarrow{OM}=3\vec{i}-\vec{k}$. Toạ độ của điểm $M$ là
+A. $(0; 3; -1)$.
+B. $(3; -1; 0)$.
+C. $(3; 0; -1)$.
+D. $(3; 0; 1)$.
+::key C
+Vì hệ số của $\vec{i}$, $\vec{j}$, $\vec{k}$ lần lượt là $3$, $0$, $-1$ nên $M(3; 0; -1)$. Phương án B quên rằng $\vec{j}$ vắng mặt nghĩa là tung độ bằng $0$.
+
+[M362.2] Nhiều lựa chọn
+Hình chiếu vuông góc của điểm $A(2; -5; 4)$ lên mặt phẳng $(Oyz)$ là điểm
+A. $(2; 0; 0)$.
+B. $(0; -5; 4)$.
+C. $(2; -5; 0)$.
+D. $(2; 0; 4)$.
+::key B
+Vì mặt phẳng $(Oyz)$ có phương trình $x=0$ nên hình chiếu giữ nguyên $y$, $z$ và có $x=0$. Phương án A là hình chiếu lên trục $Ox$, phương án C là hình chiếu lên $(Oxy)$.
+
+[M362.3] Nhiều lựa chọn
+Cho hai điểm $A(1; -2; 3)$ và $B(3; 0; -1)$. Trung điểm $I$ của đoạn thẳng $AB$ là
+A. $I(2; 2; -4)$.
+B. $I(1; 1; -2)$.
+C. $I(4; -2; 2)$.
+D. $I(2; -1; 1)$.
+::key D
+Theo công thức toạ độ trung điểm, ta có $I\left(\dfrac{1+3}{2}; \dfrac{-2+0}{2}; \dfrac{3-1}{2}\right)$. Phương án B là $\dfrac12\overrightarrow{AB}$, phương án C quên chia cho $2$, phương án A là $\overrightarrow{AB}$.
+
+[M362.4] Nhiều lựa chọn
+Khoảng cách từ điểm $M(3; -4; 6)$ đến trục $Oz$ bằng
+A. $5$.
+B. $6$.
+C. $\sqrt{61}$.
+D. $\sqrt{52}$.
+::key A
+Hình chiếu của $M$ lên $Oz$ là $H(0; 0; 6)$ nên $MH=\sqrt{3^2+4^2}=5$. Phương án B là khoảng cách đến $(Oxy)$, phương án C là $OM$, phương án D là khoảng cách đến trục $Ox$.
+
+[M362.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong không gian $Oxyz$, cho $A(1; 2; -1)$, $B(3; -2; 3)$, $C(-1; 3; 1)$. Xét tính đúng sai của các mệnh đề sau:
+a) $\overrightarrow{AB}=(2; -4; 4)$.
+b) $AB=6$.
+c) Trọng tâm của tam giác $ABC$ là $G(3; 3; 3)$.
+d) Điểm $D$ để $ABCD$ là hình bình hành là $D(-3; 7; -3)$.
+::key Đ Đ S Đ
+a) Đúng: lấy toạ độ điểm cuối trừ toạ độ điểm đầu, ta được kết quả trên. b) Đúng: ta có $AB=\sqrt{4+16+16}=6$. c) Sai: trọng tâm là $G(1; 1; 1)$; $(3; 3; 3)$ là tổng các toạ độ, chưa chia cho $3$. d) Đúng: vì $ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$ nên $D=(-1-2; 3+4; 1-4)=(-3; 7; -3)$.
+
+[M362.6] Trả lời ngắn
+Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 2)$. Tính chu vi tam giác $ABC$ (làm tròn kết quả đến hàng phần mười).
+::key 7,3
+Ta có $AB=\sqrt{1+4}=\sqrt5$, $AC=\sqrt{1+4}=\sqrt5$, $BC=\sqrt{4+4}=2\sqrt2$. Vậy chu vi là $2\sqrt5+2\sqrt2\approx7{,}30$, làm tròn được $7{,}3$.
+
+[M362.7] Trả lời ngắn
+Trong hệ trục $Oxyz$ gắn với một sân tập (đơn vị: mét), hai flycam đang ở các điểm $P(10; 20; 15)$ và $Q(40; -20; 45)$. Hỏi hai flycam cách nhau bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
+::key 58,3
+Ta có $\overrightarrow{PQ}=(30; -40; 30)$ nên $PQ=\sqrt{900+1600+900}=\sqrt{3400}\approx58{,}31$, làm tròn được $58{,}3$ m.
+
+### M363 · Lớp 12 · Biểu thức toạ độ của các phép toán vectơ
+
+[M363.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, cho $\vec{a}=(2; -1; 3)$ và $\vec{b}=(1; 0; -2)$. Toạ độ của vectơ $\vec{a}-2\vec{b}$ là
+A. $(0; -1; -1)$.
+B. $(0; -1; 7)$.
+C. $(4; -1; -1)$.
+D. $(1; -1; 5)$.
+::key B
+$2\vec{b}=(2; 0; -4)$ nên $\vec{a}-2\vec{b}=(0; -1; 3+4)=(0; -1; 7)$. Phương án A sai dấu khi trừ $-4$, phương án C là $\vec{a}+2\vec{b}$, phương án D quên nhân $\vec{b}$ với $2$.
+
+[M363.2] Nhiều lựa chọn
+Cho $\vec{u}=(3; -2; 1)$ và $\vec{v}=(1; 4; -2)$. Tích vô hướng $\vec{u}\cdot\vec{v}$ bằng
+A. $7$.
+B. $(3; -8; -2)$.
+C. $-7$.
+D. $-3$.
+::key C
+$\vec{u}\cdot\vec{v}=3\cdot1+(-2)\cdot4+1\cdot(-2)=3-8-2=-7$. Phương án B viết tích vô hướng thành một vectơ, phương án D sai dấu ở tích $1\cdot(-2)$.
+
+[M363.3] Nhiều lựa chọn
+Vectơ nào sau đây vuông góc với vectơ $\vec{a}=(1; 2; -2)$?
+A. $(1; 2; 2)$.
+B. $(2; -1; 2)$.
+C. $(-2; -4; 4)$.
+D. $(2; 1; 2)$.
+::key D
+$(1; 2; -2)\cdot(2; 1; 2)=2+2-4=0$. Phương án C bằng $-2\vec{a}$, cùng phương với $\vec{a}$ chứ không vuông góc; A và B cho tích vô hướng $1$ và $-4$.
+
+[M363.4] Nhiều lựa chọn
+Góc giữa hai vectơ $\vec{a}=(1; 0; 1)$ và $\vec{b}=(-1; 1; 0)$ bằng
+A. $120^\circ$.
+B. $60^\circ$.
+C. $45^\circ$.
+D. $150^\circ$.
+::key A
+$\cos(\vec{a}, \vec{b})=\dfrac{-1+0+0}{\sqrt2\cdot\sqrt2}=-\dfrac12$, nên góc bằng $120^\circ$. Phương án B bỏ qua dấu trừ của tích vô hướng.
+
+[M363.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong không gian $Oxyz$, cho $A(1; 0; 2)$, $B(3; 1; 0)$, $C(0; 2; 2)$.
+a) $\overrightarrow{AB}=(2; 1; -2)$.
+b) Tam giác $ABC$ vuông tại $A$.
+c) Diện tích tam giác $ABC$ bằng $3\sqrt5$.
+d) Góc $\widehat{ABC}$ lớn hơn $30^\circ$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $\overrightarrow{AC}=(-1; 2; 0)$ và $\overrightarrow{AB}\cdot\overrightarrow{AC}=-2+2+0=0$. c) Sai: $AB=3$, $AC=\sqrt5$, diện tích là $\dfrac12\cdot3\sqrt5=\dfrac{3\sqrt5}{2}$. d) Đúng: $\overrightarrow{BA}=(-2; -1; 2)$, $\overrightarrow{BC}=(-3; 1; 2)$, $\cos\widehat{ABC}=\dfrac{9}{3\sqrt{14}}\approx0{,}80$, góc khoảng $36{,}7^\circ$.
+
+[M363.6] Trả lời ngắn
+Cho ba điểm $A(1; 2; -1)$, $B(3; 0; 1)$ và $C(x; y; 5)$. Biết $A$, $B$, $C$ thẳng hàng, tính $x+y$.
+::key 3
+$\overrightarrow{AB}=(2; -2; 2)$, $\overrightarrow{AC}=(x-1; y-2; 6)=k\overrightarrow{AB}$. Cao độ cho $6=2k$, $k=3$, nên $x=7$, $y=-4$ và $x+y=3$.
+
+[M363.7] Trả lời ngắn
+Một lực $\vec{F}=(4; -2; 3)$ (đơn vị: N) kéo một vật dịch chuyển từ $M(1; 0; 0)$ đến $N(5; 3; 2)$ (đơn vị: m). Tính góc giữa lực $\vec{F}$ và hướng dịch chuyển $\overrightarrow{MN}$, theo độ (làm tròn kết quả đến hàng phần mười).
+::key 56,5
+$\overrightarrow{MN}=(4; 3; 2)$, $\vec{F}\cdot\overrightarrow{MN}=16-6+6=16$ và $|\vec{F}|=|\overrightarrow{MN}|=\sqrt{29}$. Vậy $\cos=\dfrac{16}{29}$, góc khoảng $56{,}51^\circ$, làm tròn được $56{,}5$.
+
+### M364 · Lớp 12 · Khoảng biến thiên và khoảng tứ phân vị
+
+[M364.1] Nhiều lựa chọn
+Thời gian chờ xe buýt (phút) của $40$ hành khách được cho trong bảng sau. Khoảng biến thiên của mẫu số liệu ghép nhóm này là
+
+| Thời gian (phút) | $[0; 5)$ | $[5; 10)$ | $[10; 15)$ | $[15; 20)$ | $[20; 25)$ |
+|---|---|---|---|---|---|
+| Số hành khách | $6$ | $14$ | $12$ | $4$ | $4$ |
+
+A. $5$ phút.
+B. $20$ phút.
+C. $25$ phút.
+D. $10$ phút.
+::key C
+$R=u_{k+1}-u_1=25-0=25$. Phương án B lấy đầu trái của nhóm cuối, phương án A là độ rộng một nhóm, phương án D là hiệu hai tần số $14-4$.
+
+[M364.2] Nhiều lựa chọn
+Với mẫu số liệu ở Câu 1, nhóm chứa tứ phân vị thứ ba $Q_3$ là
+A. $[5; 10)$.
+B. $[10; 15)$.
+C. $[15; 20)$.
+D. $[20; 25)$.
+::key B
+Các tần số tích luỹ là $6$, $20$, $32$, $36$, $40$ và $\frac{3n}{4}=30$ nằm giữa $20$ và $32$, nên $Q_3$ thuộc nhóm $[10; 15)$ (cụ thể $Q_3=10+\dfrac{30-20}{12}\cdot5\approx14{,}17$). Phương án A là nhóm có tần số lớn nhất; phương án C và D là các nhóm nằm sau giá trị thứ $30$.
+
+[M364.3] Nhiều lựa chọn
+Với mẫu số liệu ở Câu 1, giá trị gần đúng nhất của tứ phân vị thứ nhất $Q_1$ là
+A. $8{,}33$.
+B. $5{,}29$.
+C. $1{,}43$.
+D. $6{,}43$.
+::key D
+$\frac n4=10$ nằm trong nhóm $[5; 10)$ với $C=6$, $n_m=14$: $Q_1=5+\dfrac{10-6}{14}\cdot5\approx6{,}43$. Phương án B quên nhân với độ rộng $5$, phương án C tính $C$ gồm cả nhóm chứa $Q_1$, phương án A dùng nhầm nhóm $[0; 5)$.
+
+[M364.4] Nhiều lựa chọn
+Theo quy tắc dùng khoảng tứ phân vị, một giá trị $x$ của mẫu số liệu được coi là giá trị bất thường nếu
+A. $x<Q_1-1{,}5\,\Delta_Q$ hoặc $x>Q_3+1{,}5\,\Delta_Q$.
+B. $x<Q_1$ hoặc $x>Q_3$.
+C. $x<Q_1-1{,}5\,R$ hoặc $x>Q_3+1{,}5\,R$.
+D. $Q_1-1{,}5\,\Delta_Q<x<Q_3+1{,}5\,\Delta_Q$.
+::key A
+Giá trị bất thường nằm xa phần giữa của mẫu số liệu hơn $1{,}5$ lần khoảng tứ phân vị. Phương án B coi cả một nửa số liệu là bất thường; phương án D mô tả các giá trị bình thường.
+
+[M364.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Thời gian chạy $100$ m (giây) của $32$ học sinh được cho trong bảng sau.
+
+| Thời gian (giây) | $[12; 14)$ | $[14; 16)$ | $[16; 18)$ | $[18; 20)$ | $[20; 22)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $8$ | $10$ | $8$ | $2$ |
+
+a) Khoảng biến thiên của mẫu số liệu là $10$ giây.
+b) $Q_1=15$.
+c) Tứ phân vị thứ ba $Q_3$ thuộc nhóm $[16; 18)$.
+d) Theo quy tắc $1{,}5\,\Delta_Q$, thời gian $24$ giây là giá trị bất thường.
+::key Đ Đ S Đ
+a) Đúng: $22-12=10$. b) Đúng: tần số tích luỹ $4$, $12$, $22$, $30$, $32$; $Q_1=14+\dfrac{8-4}{8}\cdot2=15$. c) Sai: $\frac{3n}{4}=24$ nằm giữa $22$ và $30$, nên $Q_3$ thuộc nhóm $[18; 20)$: $Q_3=18+\dfrac{24-22}{8}\cdot2=18{,}5$. d) Đúng: $\Delta_Q=18{,}5-15=3{,}5$ và $Q_3+1{,}5\cdot3{,}5=23{,}75<24$.
+
+[M364.6] Trả lời ngắn
+Lượng điện tiêu thụ trong một tháng (kWh) của $80$ hộ gia đình được cho trong bảng sau. Tính khoảng tứ phân vị của mẫu số liệu (làm tròn kết quả đến hàng phần mười).
+
+| Điện tiêu thụ (kWh) | $[50; 100)$ | $[100; 150)$ | $[150; 200)$ | $[200; 250)$ | $[250; 300)$ |
+|---|---|---|---|---|---|
+| Số hộ | $8$ | $20$ | $28$ | $16$ | $8$ |
+
+::key 82,5
+Tần số tích luỹ $8$, $28$, $56$, $72$, $80$. $Q_1=100+\dfrac{20-8}{20}\cdot50=130$, $Q_3=200+\dfrac{60-56}{16}\cdot50=212{,}5$, nên $\Delta_Q=82{,}5$ kWh.
+
+[M364.7] Trả lời ngắn
+Với mẫu số liệu ở câu trước, theo quy tắc $1{,}5\,\Delta_Q$, một hộ dùng nhiều hơn bao nhiêu kWh điện trong tháng thì được coi là bất thường (làm tròn kết quả đến hàng đơn vị)?
+::key 336
+Ngưỡng trên là $Q_3+1{,}5\,\Delta_Q=212{,}5+1{,}5\cdot82{,}5=336{,}25$, làm tròn được $336$ kWh.
+
+### M365 · Lớp 12 · Phương sai và độ lệch chuẩn
+
+[M365.1] Nhiều lựa chọn
+Trong mẫu số liệu ghép nhóm, giá trị đại diện của nhóm $[20; 30)$ là
+A. $20$.
+B. $25$.
+C. $30$.
+D. $10$.
+::key B
+Giá trị đại diện là trung điểm của nhóm: $\dfrac{20+30}{2}=25$. Phương án A và C là hai đầu mút, phương án D là độ rộng nhóm.
+
+[M365.2] Nhiều lựa chọn
+Một mẫu số liệu ghép nhóm có phương sai $s^2=2{,}25$. Độ lệch chuẩn của mẫu số liệu là
+A. $1{,}125$.
+B. $5{,}0625$.
+C. $2{,}25$.
+D. $1{,}5$.
+::key D
+$s=\sqrt{s^2}=\sqrt{2{,}25}=1{,}5$. Phương án B bình phương thay vì khai căn, phương án A chia đôi thay vì khai căn.
+
+[M365.3] Nhiều lựa chọn
+Cho mẫu số liệu ghép nhóm sau. Phương sai của mẫu số liệu là
+
+| Nhóm | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
+|---|---|---|---|---|
+| Tần số | $2$ | $3$ | $3$ | $2$ |
+
+A. $4{,}2$.
+B. $5$.
+C. $2{,}05$.
+D. $0$.
+::key A
+Giá trị đại diện $1$, $3$, $5$, $7$ và $\bar{x}=4$; độ lệch $-3$, $-1$, $1$, $3$. $s^2=\dfrac{2\cdot9+3\cdot1+3\cdot1+2\cdot9}{10}=4{,}2$. Phương án B quên nhân với tần số, phương án C là độ lệch chuẩn, phương án D cộng các độ lệch mà không bình phương.
+
+[M365.4] Nhiều lựa chọn
+Hai mẫu số liệu ghép nhóm $A$ và $B$ có cùng số trung bình, với độ lệch chuẩn $s_A=2{,}1$ và $s_B=3{,}4$. Khẳng định nào sau đây đúng?
+A. Mẫu $A$ chắc chắn có khoảng biến thiên nhỏ hơn mẫu $B$.
+B. Số liệu của mẫu $B$ đồng đều hơn số liệu của mẫu $A$.
+C. Số liệu của mẫu $A$ đồng đều hơn số liệu của mẫu $B$.
+D. Hai mẫu có độ phân tán như nhau.
+::key C
+Cùng số trung bình, độ lệch chuẩn nhỏ hơn nghĩa là số liệu ít phân tán hơn. Độ lệch chuẩn không cho biết chắc chắn về khoảng biến thiên, nên A sai.
+
+[M365.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Quãng đường chạy mỗi tuần (km) của $20$ người được cho trong bảng sau.
+
+| Quãng đường (km) | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
+|---|---|---|---|---|
+| Số người | $4$ | $6$ | $8$ | $2$ |
+
+a) Giá trị đại diện của nhóm $[30; 40)$ là $35$.
+b) Số trung bình của mẫu số liệu là $29$ km.
+c) Phương sai của mẫu số liệu là $84$.
+d) Nếu đổi mọi số liệu sang đơn vị khác bằng cách nhân với $2$ thì phương sai mới bằng $168$.
+::key Đ Đ Đ S
+a) Đúng: $\dfrac{30+40}{2}=35$. b) Đúng: $\bar{x}=\dfrac{60+150+280+90}{20}=29$. c) Đúng: $\dfrac{\sum n_ix_i^2}{n}=\dfrac{18500}{20}=925$, $s^2=925-29^2=84$. d) Sai: mọi độ lệch nhân với $2$ nên phương sai nhân với $4$, bằng $336$.
+
+[M365.6] Trả lời ngắn
+Thời gian tự học mỗi tuần (giờ) của $30$ học sinh được cho trong bảng sau. Tính độ lệch chuẩn của mẫu số liệu (làm tròn kết quả đến hàng phần trăm).
+
+| Thời gian (giờ) | $[0; 3)$ | $[3; 6)$ | $[6; 9)$ | $[9; 12)$ |
+|---|---|---|---|---|
+| Số học sinh | $4$ | $10$ | $12$ | $4$ |
+
+::key 2,65
+Giá trị đại diện $1{,}5$; $4{,}5$; $7{,}5$; $10{,}5$. $\bar{x}=\dfrac{183}{30}=6{,}1$, $\dfrac{\sum n_ix_i^2}{n}=\dfrac{1327{,}5}{30}=44{,}25$, nên $s^2=44{,}25-6{,}1^2=7{,}04$ và $s\approx2{,}653$, làm tròn được $2{,}65$.
+
+[M365.7] Trả lời ngắn
+Chiều dài (mm) của $40$ chi tiết máy được cho trong bảng sau. Tính phương sai của mẫu số liệu (làm tròn kết quả đến hàng phần trăm).
+
+| Chiều dài (mm) | $[48; 49)$ | $[49; 50)$ | $[50; 51)$ | $[51; 52)$ |
+|---|---|---|---|---|
+| Số chi tiết | $4$ | $16$ | $16$ | $4$ |
+
+::key 0,65
+Bảng đối xứng nên $\bar{x}=50$; độ lệch $-1{,}5$; $-0{,}5$; $0{,}5$; $1{,}5$. $s^2=\dfrac{2\left(4\cdot2{,}25+16\cdot0{,}25\right)}{40}=\dfrac{26}{40}=0{,}65$.
+
+### M366 · Lớp 12 · Nguyên hàm
+
+[M366.1] Nhiều lựa chọn
+Họ nguyên hàm của hàm số $f(x)=3x^2-\sin x$ là
+A. $x^3+\cos x+C$.
+B. $x^3-\cos x+C$.
+C. $6x-\cos x+C$.
+D. $3x^3+\cos x+C$.
+::key A
+Ta có $\displaystyle\int 3x^2dx=x^3$ và $\displaystyle\int(-\sin x)\,dx=\cos x$ (cộng thêm hằng số). Phương án B sai dấu, C lấy đạo hàm của $3x^2$ thay vì nguyên hàm, D quên chia cho $3$.
+
+[M366.2] Nhiều lựa chọn
+Họ nguyên hàm của hàm số $f(x)=2^x$ là
+A. $2^x\ln 2+C$.
+B. $\dfrac{2^x}{\ln 2}+C$.
+C. $\dfrac{2^{x+1}}{x+1}+C$.
+D. $x\cdot 2^{x-1}+C$.
+::key B
+Vì $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$ nên chọn B. Phương án A là đạo hàm của $2^x$; C và D dùng nhầm công thức của $x^\alpha$ cho hàm mũ.
+
+[M366.3] Nhiều lựa chọn
+Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=2x+1$ thoả mãn $F(1)=5$. Giá trị của $F(2)$ bằng
+A. $6$.
+B. $11$.
+C. $9$.
+D. $5$.
+::key C
+Ta có $F(x)=x^2+x+C$. Vì $F(1)=2+C=5$ nên $C=3$, suy ra $F(2)=4+2+3=9$. Phương án A quên tìm $C$, B lấy $C=5$, D là $f(2)$.
+
+[M366.4] Nhiều lựa chọn
+Một ô tô phanh với vận tốc $v(t)=15-3t$ (m/s) cho đến khi dừng. Quãng đường xe đi được từ lúc phanh đến lúc dừng là
+A. $75$ m.
+B. $37{,}5$ m.
+C. $112{,}5$ m.
+D. $0$ m.
+::key B
+Xe dừng khi $v(t)=0\iff t=5$. Ta có $s(t)=15t-\dfrac{3t^2}{2}$ nên $s(5)=75-37{,}5=37{,}5$. Phương án A coi vận tốc không đổi, C sai dấu số hạng thứ hai, D quên chia $t^2$ cho $2$.
+
+[M366.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=e^x-2x$. Xét tính đúng sai của các mệnh đề sau:
+a) $F(x)=e^x-x^2$ là một nguyên hàm của $f(x)$.
+b) $\displaystyle\int f(x)\,dx=e^x-2+C$.
+c) Nguyên hàm $F(x)$ của $f(x)$ thoả mãn $F(0)=3$ là $F(x)=e^x-x^2+2$.
+d) Với $F(x)$ ở ý c), $F(1)=e+1$.
+::key Đ S Đ Đ
+a) Đúng: ta có $(e^x-x^2)'=e^x-2x$. b) Sai: $e^x-2$ là đạo hàm của $f$, không phải nguyên hàm. c) Đúng: vì $F(0)=1+C=3$ nên $C=2$. d) Đúng: thay $x=1$, ta được $F(1)=e-1+2=e+1$.
+
+[M366.6] Trả lời ngắn
+Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=6x^2-4x+3$ thoả mãn $F(0)=-2$. Tính $F(2)$.
+::key 12
+Ta có $F(x)=2x^3-2x^2+3x+C$ và $F(0)=C=-2$. Vậy $F(2)=16-8+6-2=12$.
+
+[M366.7] Trả lời ngắn
+Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=e^x+\dfrac1x$ trên $(0; +\infty)$ thoả mãn $F(1)=e$. Tính $F(2)$ (làm tròn kết quả đến hàng phần mười).
+::key 8,1
+Ta có $F(x)=e^x+\ln x+C$. Vì $F(1)=e+C=e$ nên $C=0$. Vậy $F(2)=e^2+\ln2\approx7{,}389+0{,}693\approx8{,}1$.
+
+### M367 · Lớp 12 · Tích phân
+
+[M367.1] Nhiều lựa chọn
+Tích phân $\displaystyle\int_1^2(2x+1)\,dx$ bằng
+A. $6$.
+B. $-4$.
+C. $4$.
+D. $2$.
+::key C
+Ta có $\displaystyle\int_1^2(2x+1)\,dx=\Big[x^2+x\Big]_1^2=6-2=4$. Phương án A quên trừ giá trị tại cận dưới, B trừ ngược, D tính $f(2)-f(1)$ thay vì dùng nguyên hàm.
+
+[M367.2] Nhiều lựa chọn
+Nếu $\displaystyle\int_0^5 f(x)\,dx=7$ và $\displaystyle\int_0^2 f(x)\,dx=3$ thì $\displaystyle\int_2^5 f(x)\,dx$ bằng
+A. $10$.
+B. $4$.
+C. $-4$.
+D. $-10$.
+::key B
+Vì $\displaystyle\int_0^5=\int_0^2+\int_2^5$ nên $\displaystyle\int_2^5 f(x)\,dx=7-3=4$. Phương án A cộng thay vì trừ, C và D sai dấu.
+
+[M367.3] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^{\pi}\sin x\,dx$ bằng
+A. $-2$.
+B. $1$.
+C. $2$.
+D. $0$.
+::key C
+Ta có $\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-(-1)-(-1)=2$. Phương án A dùng nhầm nguyên hàm $\cos x$, B coi giá trị tại cận dưới bằng $0$, D là kết quả của $\cos x$ trên $[0; \pi]$.
+
+[M367.4] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^1 e^{2x}\,dx$ bằng
+A. $e^2-1$.
+B. $\dfrac{e^2-1}{2}$.
+C. $2(e^2-1)$.
+D. $\dfrac{e^2}{2}$.
+::key B
+Một nguyên hàm của $e^{2x}$ là $\dfrac{e^{2x}}{2}$ nên tích phân bằng $\dfrac{e^2-e^0}{2}=\dfrac{e^2-1}{2}$. Phương án A quên thừa số $\dfrac12$, C nhân thay vì chia, D coi $e^0=0$.
+
+[M367.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
+a) $\displaystyle\int_0^3 f(x)\,dx=0$.
+b) $f(x)\le0$ với mọi $x\in[1; 3]$.
+c) $\displaystyle\int_0^3\lvert f(x)\rvert\,dx=0$.
+d) $\displaystyle\int_0^3\lvert f(x)\rvert\,dx=\dfrac83$.
+::key Đ Đ S Đ
+a) Đúng: ta có $\Big[\dfrac{x^3}{3}-2x^2+3x\Big]_0^3=9-18+9=0$. b) Đúng: vì $f$ có hai nghiệm $1$, $3$ và hệ số $a>0$ nên $f(x)\le0$ giữa hai nghiệm. c) Sai: tích phân của hàm không âm, không đồng nhất bằng $0$, thì dương. d) Đúng: ta có $\displaystyle\int_0^1 f=\frac43$ và $\displaystyle\int_1^3(-f)=\frac43$, do đó tổng bằng $\dfrac83$.
+
+[M367.6] Trả lời ngắn
+Một máy bơm khởi động dần; sau $t$ giờ, lưu lượng nước nó bơm được là $q(t)=t^3+3t^2$ (m³/giờ), $0\le t\le2$. Tính lượng nước (m³) máy bơm được trong $2$ giờ đầu.
+::key 12
+Lượng nước bằng $\displaystyle\int_0^2(t^3+3t^2)\,dt=\Big[\dfrac{t^4}{4}+t^3\Big]_0^2=4+8=12$. Vậy máy bơm được $12$ m³ nước.
+
+[M367.7] Trả lời ngắn
+Tính $\displaystyle\int_1^e\left(2x+\frac1x\right)dx$ (làm tròn kết quả đến hàng phần mười).
+::key 7,4
+Ta có $\displaystyle\int_1^e\left(2x+\frac1x\right)dx=\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7{,}389$. Vậy kết quả làm tròn là $7{,}4$.
+
+### M368 · Lớp 12 · Ứng dụng hình học của tích phân
+
+[M368.1] Nhiều lựa chọn
+Cho hàm số $y=f(x)$ liên tục trên $[a; b]$. Diện tích hình phẳng giới hạn bởi đồ thị $y=f(x)$, trục hoành và hai đường thẳng $x=a$, $x=b$ là
+A. $\displaystyle\int_a^b f(x)\,dx$.
+B. $\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
+C. $\pi\displaystyle\int_a^b f^2(x)\,dx$.
+D. $\pi\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
+::key B
+Vì phần đồ thị nằm dưới trục hoành cho tích phân âm nên phải lấy $\lvert f(x)\rvert$. Phương án A chỉ đúng khi $f\ge0$; C là thể tích khối tròn xoay; D trộn hai công thức.
+
+[M368.2] Nhiều lựa chọn
+Diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^2$ và $y=x$ bằng
+A. $\dfrac56$.
+B. $\dfrac12$.
+C. $\dfrac16$.
+D. $-\dfrac16$.
+::key C
+Hai đồ thị cắt nhau tại $x=0$, $x=1$ và trên $(0; 1)$ thì $x>x^2$. Do đó $S=\displaystyle\int_0^1(x-x^2)\,dx=\frac12-\frac13=\frac16$. A cộng thay vì trừ, B chỉ tính $\displaystyle\int_0^1x\,dx$, D trừ ngược.
+
+[M368.3] Nhiều lựa chọn
+Quay hình phẳng giới hạn bởi $y=\sqrt x$, trục hoành, $x=0$, $x=1$ quanh trục $Ox$. Thể tích khối tròn xoay là
+A. $\dfrac{\pi}{2}$.
+B. $\dfrac{2\pi}{3}$.
+C. $\dfrac12$.
+D. $\dfrac{\pi^2}{4}$.
+::key A
+Ta có $V=\pi\displaystyle\int_0^1(\sqrt x)^2\,dx=\pi\displaystyle\int_0^1x\,dx=\frac{\pi}{2}$. Phương án B quên bình phương ($\pi\displaystyle\int\sqrt x\,dx$), C quên $\pi$, D bình phương cả tích phân $\left(\pi\displaystyle\int_0^1 x\,dx\right)^2$.
+
+[M368.4] Nhiều lựa chọn
+Cho vật thể nằm giữa hai mặt phẳng $x=0$ và $x=2$; thiết diện vuông góc với $Ox$ tại $x$ là hình vuông cạnh $x$. Thể tích vật thể là
+A. $8$.
+B. $\dfrac83$.
+C. $\dfrac{8\pi}{3}$.
+D. $2$.
+::key B
+Diện tích thiết diện là $S(x)=x^2$ nên $V=\displaystyle\int_0^2x^2dx=\frac83$. Phương án A lấy diện tích thiết diện lớn nhất nhân chiều dài, C thêm $\pi$ như khối tròn xoay, D dùng cạnh thay cho diện tích.
+
+[M368.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình phẳng $H$ giới hạn bởi parabol $y=4x-x^2$ và trục hoành. Xét tính đúng sai của các mệnh đề sau:
+a) Parabol cắt trục hoành tại $x=0$ và $x=4$.
+b) Diện tích của $H$ bằng $\dfrac{32}{3}$.
+c) Quay $H$ quanh $Ox$ được khối tròn xoay có thể tích $\pi\displaystyle\int_0^4(4x-x^2)\,dx$.
+d) Đường thẳng $x=2$ chia $H$ thành hai phần có diện tích bằng nhau.
+::key Đ Đ S Đ
+a) Đúng: ta có $4x-x^2=x(4-x)=0\iff x=0$ hoặc $x=4$. b) Đúng: ta có $\displaystyle\int_0^4(4x-x^2)\,dx=32-\frac{64}{3}=\frac{32}{3}$. c) Sai: thiếu bình phương; đúng là $\pi\displaystyle\int_0^4(4x-x^2)^2dx=\frac{512\pi}{15}$. d) Đúng: ta có $\displaystyle\int_0^2(4x-x^2)\,dx=\frac{16}{3}$, bằng nửa diện tích (parabol đối xứng qua $x=2$).
+
+[M368.6] Trả lời ngắn
+Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3$ và $y=x$.
+::key 0,5
+Ta có $x^3=x\iff x\in\{-1; 0; 1\}$. Do tính đối xứng, mỗi phần có diện tích $\displaystyle\int_0^1(x-x^3)\,dx=\frac12-\frac14=\frac14$. Vậy diện tích bằng $\dfrac12=0{,}5$.
+
+[M368.7] Trả lời ngắn
+Lòng một chiếc phễu (không kể phần ống nhỏ) có dạng khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi $y=\dfrac1x$, trục hoành và hai đường thẳng $x=1$, $x=3$ quanh trục $Ox$ (đơn vị dm). Tính dung tích của phần phễu đó theo lít (làm tròn kết quả đến hàng phần trăm).
+::key 2,09
+$V=\pi\displaystyle\int_1^3\frac{1}{x^2}\,dx=\pi\Big[-\frac1x\Big]_1^3=\pi\left(1-\frac13\right)=\frac{2\pi}{3}\approx2{,}094$ (dm³). Vì $1$ dm³ $=1$ lít nên dung tích làm tròn là $2{,}09$ lít.
+
+### M369 · Lớp 12 · Phương trình mặt phẳng
+
+[M369.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, một vectơ pháp tuyến của mặt phẳng $(P): 3x-z+2=0$ là
+A. $(3; -1; 2)$.
+B. $(3; 0; -1)$.
+C. $(3; -1; 0)$.
+D. $(0; 3; -1)$.
+::key B
+Hệ số của $x$, $y$, $z$ là $3$, $0$, $-1$. Phương án A lấy cả hệ số tự do, phương án C và D đặt sai vị trí của toạ độ bằng $0$.
+
+[M369.2] Nhiều lựa chọn
+Mặt phẳng đi qua $M(1; 2; -1)$ và có vectơ pháp tuyến $\vec{n}=(2; -1; 3)$ có phương trình là
+A. $2x-y+3z-3=0$.
+B. $2x-y+3z=0$.
+C. $2x-y+3z+3=0$.
+D. $x+2y-z+3=0$.
+::key C
+$2(x-1)-(y-2)+3(z+1)=0\iff 2x-y+3z+3=0$. Phương án A sai dấu khi thay toạ độ $M$, phương án B quên hệ số tự do, phương án D đổi vai trò điểm và vectơ.
+
+[M369.3] Nhiều lựa chọn
+Khoảng cách từ $A(1; -2; 3)$ đến mặt phẳng $(P): 2x-y+2z+1=0$ bằng
+A. $\dfrac{10}{3}$.
+B. $\dfrac{11}{3}$.
+C. $\dfrac{11}{9}$.
+D. $11$.
+::key B
+$\dfrac{|2+2+6+1|}{\sqrt{9}}=\dfrac{11}{3}$. Phương án A quên hệ số tự do, C chia cho $A^2+B^2+C^2$ mà không lấy căn, D quên chia.
+
+[M369.4] Nhiều lựa chọn
+Mặt phẳng nào sau đây song song với $(P): x-2y+2z-1=0$?
+A. $2x-4y+4z-2=0$.
+B. $2x+y=0$.
+C. $-x+2y-2z+3=0$.
+D. $x+2y+2z-1=0$.
+::key C
+$(-1; 2; -2)=-1\cdot(1; -2; 2)$ và $3\neq(-1)\cdot(-1)$. Phương án A trùng $(P)$, phương án B vuông góc với $(P)$ vì $2-2+0=0$, phương án D sai dấu một hệ số.
+
+[M369.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong không gian $Oxyz$, cho $A(2; 0; 0)$, $B(0; 1; 0)$, $C(0; 0; 2)$.
+a) Mặt phẳng $(ABC)$ có phương trình $x+2y+z-2=0$.
+b) Điểm $M(1; 0; 1)$ thuộc mặt phẳng $(ABC)$.
+c) Khoảng cách từ $O$ đến $(ABC)$ bằng $\dfrac13$.
+d) Mặt phẳng $(ABC)$ vuông góc với mặt phẳng $(Q): x-y+z+5=0$.
+::key Đ Đ S Đ
+a) Đúng: $\dfrac{x}{2}+\dfrac{y}{1}+\dfrac{z}{2}=1\iff x+2y+z-2=0$. b) Đúng: $1+0+1-2=0$. c) Sai: $d=\dfrac{2}{\sqrt6}\approx0{,}82$; $\dfrac13$ là kết quả khi quên căn. d) Đúng: $1-2+1=0$.
+
+[M369.6] Trả lời ngắn
+Mặt phẳng đi qua $A(1; 2; -1)$ và song song với $(Q): 2x+y-2z+7=0$ có phương trình $2x+y-2z+d=0$. Tìm $d$.
+::key -6
+Thay $A$: $2+2+2+d=0$, nên $d=-6$ (khác $7$, nên hai mặt phẳng không trùng nhau).
+
+[M369.7] Trả lời ngắn
+Tính khoảng cách giữa hai mặt phẳng song song $(P): x+2y-2z+1=0$ và $(Q): 2x+4y-4z-7=0$ (làm tròn đến hàng phần mười).
+::key 1,5
+Chia phương trình $(Q)$ cho $2$: $x+2y-2z-3{,}5=0$. Khoảng cách là $\dfrac{|1-(-3{,}5)|}{3}=1{,}5$.
+
+### M370 · Lớp 12 · Phương trình đường thẳng trong không gian
+
+[M370.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, một vectơ chỉ phương của đường thẳng $d: \begin{cases}x=1-2t\\ y=3\\ z=-1+t\end{cases}$ là
+A. $(1; 3; -1)$.
+B. $(-2; 3; 1)$.
+C. $(-2; 0; 1)$.
+D. $(2; 0; 1)$.
+::key C
+Vectơ chỉ phương gồm các hệ số của $t$: $-2$, $0$, $1$. Phương án A là toạ độ một điểm, B lấy số $3$ không có $t$, D sai dấu.
+
+[M370.2] Nhiều lựa chọn
+Điểm nào sau đây thuộc đường thẳng $\dfrac{x-1}{2}=\dfrac{y+2}{-1}=\dfrac{z-3}{3}$?
+A. $(-1; 2; -3)$.
+B. $(2; -1; 3)$.
+C. $(3; -1; 6)$.
+D. $(1; -2; 3)$.
+::key D
+Thay $(1; -2; 3)$ cả ba phân số bằng $0$. Phương án A đổi dấu toạ độ điểm, B lấy nhầm vectơ chỉ phương, C sai ở phân số thứ hai: $\dfrac{-1+2}{-1}=-1\neq1$.
+
+[M370.3] Nhiều lựa chọn
+Đường thẳng đi qua $A(1; 0; 2)$ và vuông góc với $(P): 2x-y+z-3=0$ có phương trình là
+A. $x=1+2t$, $y=-t$, $z=2+t$.
+B. $x=2+t$, $y=-1$, $z=1+2t$.
+C. $x=1+2t$, $y=t$, $z=2+t$.
+D. $x=1+2t$, $y=-t$, $z=2-3t$.
+::key A
+Vectơ chỉ phương là $\vec{n}_P=(2; -1; 1)$. Phương án B đổi vai trò điểm và vectơ, C sai dấu toạ độ thứ hai, D lấy nhầm hệ số tự do $-3$.
+
+[M370.4] Nhiều lựa chọn
+Cho $d_1: x=1+t$, $y=2t$, $z=3-t$ và $d_2: x=s$, $y=1+s$, $z=2s$. Vị trí của $d_1$ và $d_2$ là
+A. song song.
+B. cắt nhau.
+C. chéo nhau.
+D. trùng nhau.
+::key C
+$(1; 2; -1)$ và $(1; 1; 2)$ không cùng phương, nên loại A và D. Hai phương trình đầu cho $s=1+t$ và $2t=1+s=2+t$, tức $t=2$, $s=3$; phương trình thứ ba cần $3-2=2\cdot3$, vô lí. Vậy hai đường thẳng chéo nhau; chọn "song song" là quên trường hợp chéo nhau.
+
+[M370.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $d: x=1+t$, $y=2-t$, $z=-1+2t$ và mặt phẳng $(P): x+y+z-4=0$.
+a) $\vec{u}=(1; -1; 2)$ là một vectơ chỉ phương của $d$.
+b) $d$ song song với $(P)$.
+c) $d$ cắt $(P)$ tại điểm $(2; 1; 1)$.
+d) $d$ vuông góc với mặt phẳng $(Q): x-y+2z+7=0$.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: $\vec{u}\cdot\vec{n}_P=1-1+2=2\neq0$. c) Đúng: thay vào được $2t-2=0$, $t=1$, điểm $(2; 1; 1)$. d) Đúng: $\vec{n}_Q=(1; -1; 2)=\vec{u}$.
+
+[M370.6] Trả lời ngắn
+Đường thẳng $d: x=2+t$, $y=-1+2t$, $z=3-t$ cắt mặt phẳng $(P): x+y+z-10=0$ tại điểm $M(a; b; c)$. Tính $a+b+c$.
+::key 10
+Thay vào: $2t-6=0$, $t=3$, nên $M(5; 5; 0)$ và $a+b+c=10$. Một cách khác: $M$ thuộc $(P)$ nên $a+b+c-10=0$.
+
+[M370.7] Trả lời ngắn
+Tính khoảng cách từ $M(2; 3; 1)$ đến đường thẳng $d: x=1+2t$, $y=-1+t$, $z=1+2t$ (làm tròn đến hàng phần trăm).
+::key 3,61
+$\overrightarrow{MH}=(2t-1; t-4; 2t)$ với $H\in d$; $\overrightarrow{MH}\cdot(2; 1; 2)=9t-6=0$, $t=\dfrac23$. Khi đó $\overrightarrow{MH}=\left(\dfrac13; -\dfrac{10}{3}; \dfrac43\right)$, $MH=\sqrt{13}\approx3{,}61$.
+
+### M371 · Lớp 12 · Công thức tính góc trong không gian
+
+[M371.1] Nhiều lựa chọn
+Góc giữa hai đường thẳng có vectơ chỉ phương $\vec{u}_1=(1; 0; 1)$ và $\vec{u}_2=(0; -1; -1)$ bằng
+A. $60^\circ$.
+B. $120^\circ$.
+C. $30^\circ$.
+D. $45^\circ$.
+::key A
+$\cos\varphi=\dfrac{|-1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=60^\circ$. Phương án B quên dấu giá trị tuyệt đối, phương án C dùng nhầm sin.
+
+[M371.2] Nhiều lựa chọn
+Góc giữa đường thẳng có vectơ chỉ phương $\vec{u}=(1; 1; 0)$ và mặt phẳng có vectơ pháp tuyến $\vec{n}=(0; 1; 1)$ bằng
+A. $60^\circ$.
+B. $45^\circ$.
+C. $30^\circ$.
+D. $90^\circ$.
+::key C
+$\sin\varphi=\dfrac{1}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=30^\circ$. Phương án A dùng côsin thay cho sin.
+
+[M371.3] Nhiều lựa chọn
+Gọi $\varphi$ là góc giữa mặt phẳng $(P): x-2y+2z=0$ và mặt phẳng $(Oxy)$. Khi đó
+A. $\sin\varphi=\dfrac23$.
+B. $\cos\varphi=\dfrac23$.
+C. $\cos\varphi=\dfrac29$.
+D. $\cos\varphi=-\dfrac23$.
+::key B
+$\cos\varphi=\dfrac{|2|}{3\cdot1}=\dfrac23$. Phương án A dùng công thức của đường thẳng với mặt phẳng, C quên căn ở mẫu, D quên giá trị tuyệt đối.
+
+[M371.4] Nhiều lựa chọn
+Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $A'C'$ và $B'C$ bằng
+A. $45^\circ$.
+B. $90^\circ$.
+C. $60^\circ$.
+D. $120^\circ$.
+::key C
+Với cạnh $1$ và hệ trục như trong bài: $\overrightarrow{A'C'}=(1; 1; 0)$, $\overrightarrow{B'C}=(0; 1; -1)$, $\cos\varphi=\dfrac{1}{2}$. (Hình học: $B'C\parallel A'D$, và tam giác $A'C'D$ đều vì ba cạnh đều là đường chéo của các mặt.) Phương án D là góc giữa hai vectơ ngược hướng.
+
+[M371.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mặt phẳng $(P): 2x+y-2z+1=0$ và đường thẳng $d: x=1+t$, $y=-2t$, $z=3$.
+a) Góc giữa $d$ và $(P)$ bằng $0^\circ$.
+b) $(P)$ vuông góc với mặt phẳng $(Q): x+z-4=0$.
+c) Góc giữa $(P)$ và $(Oxy)$ khoảng $41{,}8^\circ$.
+d) $d$ vuông góc với mặt phẳng $(Oxy)$.
+::key Đ Đ S S
+a) Đúng: $\vec{u}\cdot\vec{n}=2-2+0=0$, nên $\sin\varphi=0$. b) Đúng: $2+0-2=0$. c) Sai: $\cos\varphi=\dfrac23$, góc khoảng $48{,}2^\circ$; $41{,}8^\circ$ là kết quả khi dùng nhầm sin. d) Sai: $\vec{u}=(1; -2; 0)$ không cùng phương với $(0; 0; 1)$; thực ra $d$ song song với $(Oxy)$.
+
+[M371.6] Trả lời ngắn
+Tính góc giữa hai mặt phẳng $(P): x+2y+2z-1=0$ và $(Q): 2x+y-z+5=0$, theo độ (làm tròn đến hàng phần mười).
+::key 74,2
+$\cos\varphi=\dfrac{|2+2-2|}{3\sqrt6}=\dfrac{2}{3\sqrt6}\approx0{,}272$, nên $\varphi\approx74{,}2^\circ$.
+
+[M371.7] Trả lời ngắn
+Một drone quay phim ở $D(0; 0; 40)$ hướng camera về mục tiêu $T(30; 40; 0)$ trên mặt đất (đơn vị: mét). Tính góc giữa đường ngắm $DT$ và mặt đất, theo độ (làm tròn đến hàng phần mười).
+::key 38,7
+$\overrightarrow{DT}=(30; 40; -40)$, $|\overrightarrow{DT}|=\sqrt{4100}$. $\sin\varphi=\dfrac{40}{\sqrt{4100}}\approx0{,}625$, nên $\varphi\approx38{,}7^\circ$.
+
+### M372 · Lớp 12 · Phương trình mặt cầu
+
+[M372.1] Nhiều lựa chọn
+Trong không gian $Oxyz$, mặt cầu $(x+1)^2+(y-2)^2+z^2=4$ có tâm và bán kính là
+A. $I(1; -2; 0)$, $R=2$.
+B. $I(-1; 2; 0)$, $R=2$.
+C. $I(-1; 2; 0)$, $R=4$.
+D. $I(1; -2; 0)$, $R=4$.
+::key B
+$x+1=x-(-1)$ nên $a=-1$; $R^2=4$ nên $R=2$. Phương án A sai dấu toạ độ tâm, C và D lấy $R$ bằng $R^2$.
+
+[M372.2] Nhiều lựa chọn
+Bán kính của mặt cầu $x^2+y^2+z^2-2x+4y-6z+5=0$ bằng
+A. $9$.
+B. $\sqrt{19}$.
+C. $3$.
+D. $\sqrt{14}$.
+::key C
+$a=1$, $b=-2$, $c=3$, $d=5$: $R^2=1+4+9-5=9$, $R=3$. Phương án A quên lấy căn, B cộng $d$ thay vì trừ, D quên $d$.
+
+[M372.3] Nhiều lựa chọn
+Phương trình nào sau đây là phương trình của một mặt cầu?
+A. $x^2+y^2+z^2-2x+4y+6=0$.
+B. $x^2+y^2+z^2-4x+2z+1=0$.
+C. $x^2+2y^2+z^2-2=0$.
+D. $x^2+y^2-z^2+2x=0$.
+::key B
+B có $a^2+b^2+c^2-d=4+0+1-1=4>0$. A có $1+4-6<0$; C và D có hệ số của $x^2$, $y^2$, $z^2$ không bằng nhau.
+
+[M372.4] Nhiều lựa chọn
+Mặt cầu tâm $I(1; 0; -2)$ tiếp xúc với mặt phẳng $(P): 2x-y+2z+8=0$ có phương trình là
+A. $(x-1)^2+y^2+(z+2)^2=4$.
+B. $(x-1)^2+y^2+(z+2)^2=2$.
+C. $(x+1)^2+y^2+(z-2)^2=4$.
+D. $(x-1)^2+y^2+(z+2)^2=36$.
+::key A
+$R=d(I, (P))=\dfrac{|2-0-4+8|}{3}=2$, nên $R^2=4$. Phương án B quên bình phương, C sai dấu tâm, D quên chia cho $3$.
+
+[M372.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho mặt cầu $(S): x^2+y^2+z^2-2x-4y+4z=0$.
+a) $(S)$ có tâm $I(1; 2; -2)$.
+b) $(S)$ có bán kính bằng $9$.
+c) Gốc toạ độ $O$ thuộc $(S)$.
+d) Mặt phẳng $(P): x+2y-2z-18=0$ tiếp xúc với $(S)$.
+::key Đ S Đ Đ
+a) Đúng: $a=1$, $b=2$, $c=-2$. b) Sai: $R^2=1+4+4-0=9$, $R=3$. c) Đúng: $d=0$ nên $O$ thoả mãn phương trình. d) Đúng: $d(I, (P))=\dfrac{|1+4+4-18|}{3}=3=R$.
+
+[M372.6] Trả lời ngắn
+Mặt cầu có đường kính $AB$ với $A(1; 2; 3)$, $B(3; -2; -1)$ có bán kính bằng bao nhiêu?
+::key 3
+$AB=\sqrt{4+16+16}=6$, nên $R=3$. Nhầm lẫn thường gặp là lấy $R=AB=6$.
+
+[M372.7] Trả lời ngắn
+Mặt phẳng $z=1$ cắt mặt cầu $(x-1)^2+(y+2)^2+(z-4)^2=25$ theo một đường tròn. Tính diện tích hình tròn đó (làm tròn đến hàng phần mười).
+::key 50,3
+$h=|1-4|=3$, $r=\sqrt{25-9}=4$, diện tích $16\pi\approx50{,}27$, làm tròn được $50{,}3$.
+
+### M373 · Lớp 12 · Xác suất có điều kiện
+
+[M373.1] Nhiều lựa chọn
+Cho $P(A)=0{,}6$, $P(B)=0{,}5$ và $P(A\cap B)=0{,}2$. Giá trị $P(A\mid B)$ bằng
+A. $0{,}3$.
+B. $0{,}4$.
+C. $\dfrac13$.
+D. $0{,}1$.
+::key B
+$P(A\mid B)=\dfrac{0{,}2}{0{,}5}=0{,}4$. A là $P(A)P(B)$, C chia cho $P(A)$ (đó là $P(B\mid A)$), D nhân $P(A\cap B)$ với $P(B)$.
+
+[M373.2] Nhiều lựa chọn
+Gieo một con xúc xắc cân đối. Biết xuất hiện mặt chẵn, xác suất xuất hiện mặt $6$ chấm là
+A. $\dfrac16$.
+B. $\dfrac12$.
+C. $\dfrac13$.
+D. $\dfrac1{12}$.
+::key C
+Không gian mẫu thu hẹp còn $\{2; 4; 6\}$, nên xác suất là $\dfrac13$. A bỏ qua điều kiện, B là xác suất của mặt chẵn, D nhân $\dfrac16\cdot\dfrac12$.
+
+[M373.3] Nhiều lựa chọn
+Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy lần lượt hai viên không hoàn lại. Xác suất cả hai viên đều đỏ là
+A. $\dfrac{9}{25}$.
+B. $\dfrac{3}{10}$.
+C. $\dfrac35$.
+D. $\dfrac12$.
+::key B
+$\dfrac35\cdot\dfrac24=\dfrac3{10}$. A tính như có hoàn lại, C chỉ là xác suất viên đầu đỏ, D chỉ là $P(\text{đỏ lần 2}\mid\text{đỏ lần 1})$.
+
+[M373.4] Nhiều lựa chọn
+Trong $100$ người được hỏi, $40$ người dùng ứng dụng X và $30$ người trong số đó hài lòng; $60$ người không dùng X và $30$ người trong số đó hài lòng. Chọn ngẫu nhiên một người hài lòng, xác suất người đó dùng ứng dụng X là
+A. $\dfrac34$.
+B. $\dfrac{3}{10}$.
+C. $\dfrac12$.
+D. $\dfrac35$.
+::key C
+Có $60$ người hài lòng, trong đó $30$ người dùng X: $\dfrac{30}{60}=\dfrac12$. A là $P(\text{hài lòng}\mid\text{dùng X})$, B chia cho cả $100$ người, D là xác suất hài lòng.
+
+[M373.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}4$ và $P(B)=0{,}5$.
+a) $P(A\cap B)=0{,}2$.
+b) $P(A\mid B)=0{,}4$.
+c) $P(\overline{A}\mid B)=0{,}4$.
+d) $P(A\cup B)=0{,}7$.
+::key Đ Đ S Đ
+a) Đúng: $0{,}4\cdot0{,}5$. b) Đúng: độc lập nên $P(A\mid B)=P(A)$. c) Sai: $P(\overline{A}\mid B)=1-0{,}4=0{,}6$. d) Đúng: $0{,}4+0{,}5-0{,}2=0{,}7$.
+
+[M373.6] Trả lời ngắn
+Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $7$, tính xác suất có một con xuất hiện mặt $1$ chấm (làm tròn đến hàng phần trăm).
+::key 0,33
+Tổng bằng $7$ có $6$ kết quả, trong đó $(1; 6)$ và $(6; 1)$ có mặt $1$: $\dfrac26=\dfrac13\approx0{,}33$.
+
+[M373.7] Trả lời ngắn
+Xét nghiệm $500$ người: $20$ người mắc bệnh, trong đó $18$ người dương tính; $480$ người không mắc bệnh, trong đó $24$ người dương tính. Chọn ngẫu nhiên một người dương tính, tính xác suất người đó mắc bệnh (làm tròn đến hàng phần trăm).
+::key 0,43
+Có $18+24=42$ người dương tính, $18$ người mắc bệnh: $\dfrac{18}{42}=\dfrac37\approx0{,}43$.
+
+### M374 · Lớp 12 · Công thức xác suất toàn phần và công thức Bayes
+
+[M374.1] Nhiều lựa chọn
+Cho $P(B)=0{,}4$, $P(A\mid B)=0{,}5$ và $P(A\mid\overline B)=0{,}25$. Giá trị $P(A)$ bằng
+A. $0{,}2$.
+B. $0{,}75$.
+C. $0{,}3$.
+D. $0{,}35$.
+::key D
+$P(A)=0{,}4\cdot0{,}5+0{,}6\cdot0{,}25=0{,}2+0{,}15=0{,}35$. A thiếu nhánh $\overline B$, B cộng hai xác suất có điều kiện, C dùng nhầm $P(\overline B)=0{,}4$.
+
+[M374.2] Nhiều lựa chọn
+Máy I làm $70\%$ sản phẩm với tỉ lệ lỗi $1\%$, máy II làm $30\%$ với tỉ lệ lỗi $4\%$. Một sản phẩm bị lỗi; xác suất nó do máy II làm gần nhất với
+A. $0{,}04$.
+B. $0{,}3$.
+C. $0{,}63$.
+D. $0{,}012$.
+::key C
+$P(\text{lỗi})=0{,}007+0{,}012=0{,}019$, nên $P(\text{II}\mid\text{lỗi})=\dfrac{0{,}012}{0{,}019}=\dfrac{12}{19}\approx0{,}63$. A là $P(\text{lỗi}\mid\text{II})$, B là xác suất ban đầu, D là tử số chưa chia.
+
+[M374.3] Nhiều lựa chọn
+Hộp I có $2$ bi đỏ, $3$ bi trắng; hộp II có $4$ bi đỏ, $1$ bi trắng. Chọn ngẫu nhiên một hộp rồi lấy một viên bi. Xác suất lấy được bi đỏ là
+A. $\dfrac{8}{25}$.
+B. $\dfrac35$.
+C. $\dfrac15$.
+D. $\dfrac65$.
+::key B
+$\dfrac12\cdot\dfrac25+\dfrac12\cdot\dfrac45=\dfrac35$. A nhân hai xác suất có điều kiện, C chỉ tính nhánh hộp I, D quên nhân với $\dfrac12$ (một xác suất không thể lớn hơn $1$).
+
+[M374.4] Nhiều lựa chọn
+Một bệnh có ở $0{,}5\%$ dân số; xét nghiệm dương tính với $99\%$ người bệnh và dương tính nhầm với $2\%$ người không bệnh. Một người dương tính; xác suất người đó mắc bệnh gần nhất với
+A. $99\%$.
+B. $98\%$.
+C. $20\%$.
+D. $0{,}5\%$.
+::key C
+$\dfrac{0{,}005\cdot0{,}99}{0{,}005\cdot0{,}99+0{,}995\cdot0{,}02}=\dfrac{0{,}00495}{0{,}02485}\approx0{,}199$. A nhầm $P(\text{dương}\mid\text{bệnh})$ với $P(\text{bệnh}\mid\text{dương})$, B là $1-0{,}02$, D là xác suất ban đầu.
+
+[M374.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Phân xưởng I làm $60\%$ sản phẩm, tỉ lệ phế phẩm $3\%$; phân xưởng II làm $40\%$, tỉ lệ phế phẩm $6\%$. Chọn ngẫu nhiên một sản phẩm.
+a) Xác suất sản phẩm là phế phẩm bằng $0{,}042$.
+b) Xác suất sản phẩm là phế phẩm, biết nó của phân xưởng II, bằng $0{,}024$.
+c) Biết sản phẩm là phế phẩm, xác suất nó của phân xưởng II bằng $0{,}4$.
+d) Biết sản phẩm không phải phế phẩm, xác suất nó của phân xưởng I lớn hơn $0{,}6$.
+::key Đ S S Đ
+a) Đúng: $0{,}018+0{,}024$. b) Sai: đề cho xác suất đó là $0{,}06$; $0{,}024$ là xác suất "của II và là phế phẩm". c) Sai: $\dfrac{0{,}024}{0{,}042}=\dfrac47\approx0{,}571$. d) Đúng: $\dfrac{0{,}6\cdot0{,}97}{0{,}958}\approx0{,}608$.
+
+[M374.6] Trả lời ngắn
+Có $40\%$ người dùng điện thoại hệ điều hành iOS và $60\%$ dùng Android. Tỉ lệ dùng ứng dụng X ở hai nhóm lần lượt là $30\%$ và $25\%$. Chọn ngẫu nhiên một người dùng điện thoại; tính xác suất người đó dùng ứng dụng X.
+::key 0,27
+$0{,}4\cdot0{,}3+0{,}6\cdot0{,}25=0{,}12+0{,}15=0{,}27$.
+
+[M374.7] Trả lời ngắn
+Hộp I có $3$ bi đỏ, $7$ bi xanh; hộp II có $6$ bi đỏ, $4$ bi xanh. Gieo một con xúc xắc: được mặt $6$ chấm thì chọn hộp I, ngược lại chọn hộp II; rồi lấy một viên bi và được bi đỏ. Tính xác suất bi đó lấy từ hộp I (làm tròn đến hàng phần trăm).
+::key 0,09
+$P(\text{đỏ})=\dfrac16\cdot0{,}3+\dfrac56\cdot0{,}6=0{,}05+0{,}5=0{,}55$, nên $P(\text{I}\mid\text{đỏ})=\dfrac{0{,}05}{0{,}55}=\dfrac1{11}\approx0{,}09$.
+
+### M375 · Lớp 12 · Cấu trúc đề thi và cách làm bài
+
+[M375.1] Nhiều lựa chọn
+Điểm tối đa của Phần II trong đề thi là
+A. $3$.
+B. $1$.
+C. $4$.
+D. $2$.
+::key C
+Phần II có $4$ câu, mỗi câu tối đa $1$ điểm. Phương án B là điểm tối đa của một câu; phương án A là điểm của Phần I hoặc Phần III.
+
+[M375.2] Nhiều lựa chọn
+Giá trị nhỏ nhất của hàm số $y=x^2-4x+5$ trên đoạn $[0; 3]$ bằng
+A. $1$.
+B. $2$.
+C. $5$.
+D. $0$.
+::key A
+$y'=2x-4=0\iff x=2\in(0; 3)$. So sánh $y(0)=5$, $y(2)=1$, $y(3)=2$. Phương án B là $y(3)$, chỉ so sánh hai đầu mút.
+
+[M375.3] Nhiều lựa chọn
+Kết quả một câu trả lời ngắn là $\dfrac73$, đề yêu cầu làm tròn đến hàng phần mười. Bạn ghi
+A. $2{,}33$.
+B. $2{,}4$.
+C. $2$.
+D. $2{,}3$.
+::key D
+$\dfrac73\approx2{,}333$, chữ số hàng phần trăm là $3<5$ nên làm tròn xuống được $2{,}3$. A làm tròn sai hàng, C làm tròn đến hàng đơn vị.
+
+[M375.4] Nhiều lựa chọn
+Tích phân $\displaystyle\int_0^1 3x^2\,dx$ bằng
+A. $-1$.
+B. $1$.
+C. $6$.
+D. $3$.
+::key B
+$\Big[x^3\Big]_0^1=1$. Phương án C lấy đạo hàm $6x$ tại $x=1$; phương án A lấy $F(0)-F(1)$.
+
+[M375.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trong Phần II, một bạn chọn đúng lần lượt $4$, $3$, $1$, $0$ ý ở bốn câu.
+a) Câu thứ nhất bạn được $1$ điểm.
+b) Câu thứ hai bạn được $0{,}75$ điểm.
+c) Câu thứ ba bạn được $0{,}1$ điểm.
+d) Tổng điểm Phần II của bạn là $1{,}6$.
+::key Đ S Đ Đ
+a) Đúng: $4$ ý đúng được $1$ điểm. b) Sai: $3$ ý đúng được $0{,}5$ điểm. c) Đúng. d) Đúng: $1+0{,}5+0{,}1+0=1{,}6$.
+
+[M375.6] Trả lời ngắn
+Một bạn làm đúng $11$ câu Phần I, mỗi câu Phần II đều đúng $3$ ý, và đúng $3$ câu Phần III. Bạn được bao nhiêu điểm?
+::key 6,25
+Phần I: $11\cdot0{,}25=2{,}75$; Phần II: $4\cdot0{,}5=2$; Phần III: $3\cdot0{,}5=1{,}5$. Tổng $6{,}25$.
+
+[M375.7] Trả lời ngắn
+Tính $\displaystyle\int_0^1 e^x\,dx$ (làm tròn kết quả đến hàng phần trăm).
+::key 1,72
+$\Big[e^x\Big]_0^1=e-1\approx1{,}718$, làm tròn được $1{,}72$.
+
+### M376 · Lớp 12 · Ôn tập: đạo hàm và khảo sát hàm số
+
+[M376.1] Nhiều lựa chọn
+Hàm số $y=f(x)$ có đạo hàm $f'(x)=(x-1)(x+3)$. Hàm số đồng biến trên khoảng nào dưới đây?
+A. $(-3; 1)$.
+B. $(1; +\infty)$.
+C. $(-\infty; 1)$.
+D. $(-3; +\infty)$.
+::key B
+$f'(x)>0\iff x<-3$ hoặc $x>1$. Phương án A là khoảng hàm số nghịch biến; C và D chứa một phần của $(-3; 1)$, nơi $f'<0$.
+
+[M376.2] Nhiều lựa chọn
+Đồ thị hàm số $y=\dfrac{x+2}{x^2-4}$ có bao nhiêu tiệm cận đứng?
+A. $2$.
+B. $3$.
+C. $0$.
+D. $1$.
+::key D
+Với $x\ne-2$, $y=\dfrac{1}{x-2}$; khi $x\to-2$, $y\to-\dfrac14$ nên $x=-2$ không phải tiệm cận đứng. Chỉ còn $x=2$. Phương án A quên rút gọn.
+
+[M376.3] Nhiều lựa chọn
+Giá trị lớn nhất của hàm số $y=-x^3+3x+1$ trên đoạn $[0; 2]$ bằng
+A. $3$.
+B. $1$.
+C. $-1$.
+D. $2$.
+::key A
+$y'=-3x^2+3=0\iff x=1$ (loại $-1$). $y(0)=1$, $y(1)=3$, $y(2)=-1$. Phương án B là $y(0)$, phương án C là giá trị nhỏ nhất.
+
+[M376.4] Nhiều lựa chọn
+Hàm số $y=f(x)$ có bảng biến thiên:
+
+| $x$ | $-\infty$ | | $-1$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
+| $f(x)$ | $-\infty$ | $\nearrow$ | $4$ | $\searrow$ | $0$ | $\nearrow$ | $+\infty$ |
+
+Giá trị cực tiểu của hàm số bằng
+A. $-1$.
+B. $1$.
+C. $0$.
+D. $4$.
+::key C
+$f'$ đổi dấu từ $-$ sang $+$ tại $x=1$, giá trị cực tiểu là $f(1)=0$. Phương án B là điểm cực tiểu, D là giá trị cực đại, A là điểm cực đại.
+
+[M376.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $f(x)=x^4-2x^2+3$.
+a) $f'(x)=4x^3-4x$.
+b) Hàm số có ba điểm cực trị.
+c) Giá trị cực đại của hàm số bằng $2$.
+d) Giá trị nhỏ nhất của hàm số trên $\mathbb{R}$ bằng $2$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $f'=4x(x-1)(x+1)$ đổi dấu qua ba nghiệm. c) Sai: cực đại tại $x=0$, giá trị $3$; số $2$ là giá trị cực tiểu. d) Đúng: $f(\pm1)=2$ và $f(x)-2=(x^2-1)^2\ge0$.
+
+[M376.6] Trả lời ngắn
+Hai đường tiệm cận của đồ thị hàm số $y=\dfrac{2x+1}{x-3}$ cắt nhau tại điểm $I(a; b)$. Tính $a+b$.
+::key 5
+Tiệm cận đứng $x=3$, tiệm cận ngang $y=2$, nên $I(3; 2)$ và $a+b=5$.
+
+[M376.7] Trả lời ngắn
+Gọi $M$, $m$ là giá trị lớn nhất và nhỏ nhất của $y=x+\dfrac1x$ trên đoạn $\left[\dfrac12; 3\right]$. Tính $M+m$ (làm tròn kết quả đến hàng phần mười).
+::key 5,3
+$y'=1-\dfrac{1}{x^2}=0\iff x=1$. $y\left(\dfrac12\right)=2{,}5$, $y(1)=2$, $y(3)=\dfrac{10}{3}$. Vậy $M+m=\dfrac{10}{3}+2=\dfrac{16}{3}\approx5{,}3$.

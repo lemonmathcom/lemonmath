@@ -1,0 +1,1169 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-12-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-12-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-12-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 42 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-12-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-12-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/statistical-data-lists (7 bài tập)
+- g4/sum-and-difference-problems (9 bài tập)
+- g4/three-step-problems (10 bài tập)
+- g4/unitary-method (8 bài tập)
+- g4/what-is-a-fraction (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/statistical-data-lists
+Bài học: Dãy số liệu thống kê / Lists of statistical data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho dãy số liệu $4, 8, 6, 9, 5$. Dãy có mấy số? Số lớn nhất và số nhỏ nhất là số nào?
+
+[LỜI GIẢI CŨ – VI]
+Dãy có $5$ số. Số lớn nhất là $9$, số nhỏ nhất là $4$.
+
+**Đáp số.** $5$ số; lớn nhất $9$; nhỏ nhất $4$.
+
+[ĐỀ – EN]
+Here is a list of data: $4, 8, 6, 9, 5$. How many numbers are there? Which is the greatest and which is the least?
+
+[LỜI GIẢI CŨ – EN]
+There are $5$ numbers. The greatest is $9$ and the least is $4$.
+
+**Answer.** $5$ numbers; greatest $9$; least $4$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Sắp xếp dãy số liệu $15, 9, 12, 20, 9$ từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Số nhỏ nhất là $9$, xuất hiện hai lần. Dãy sắp xếp là $9, 9, 12, 15, 20$.
+
+**Đáp số.** $9, 9, 12, 15, 20$.
+
+[ĐỀ – EN]
+Put the data $15, 9, 12, 20, 9$ in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+The least is $9$, which appears twice. The ordered list is $9, 9, 12, 15, 20$.
+
+**Answer.** $9, 9, 12, 15, 20$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (rút về đơn vị): $5$ hộp bút có $30$ cái bút. Mỗi hộp có bao nhiêu bút? Hãy viết dãy số bút trong $1$, $2$, $3$ và $4$ hộp.
+
+[LỜI GIẢI CŨ – VI]
+Một hộp có $30:5=6$ (cái bút). Số bút trong $1$, $2$, $3$, $4$ hộp là $6, 12, 18, 24$.
+
+**Đáp số.** Mỗi hộp $6$ cái; dãy $6, 12, 18, 24$.
+
+[ĐỀ – EN]
+Remember the last lesson (the unitary method): $5$ boxes of pens hold $30$ pens. How many pens are in each box? Write the list of pens in $1$, $2$, $3$ and $4$ boxes.
+
+[LỜI GIẢI CŨ – EN]
+One box holds $30\div5=6$ (pens). The pens in $1$, $2$, $3$, $4$ boxes are $6, 12, 18, 24$.
+
+**Answer.** $6$ pens in each box; the list is $6, 12, 18, 24$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điểm kiểm tra của $6$ bạn là: $8, 9, 7, 10, 9, 8$.
+a) Có mấy bạn được $9$ điểm?
+b) Điểm cao nhất hơn điểm thấp nhất mấy điểm?
+c) Có mấy bạn được từ $9$ điểm trở lên?
+
+[LỜI GIẢI CŨ – VI]
+a) Số $9$ xuất hiện $2$ lần. b) $10-7=3$ (điểm). c) Có hai điểm $9$ và một điểm $10$, tức $3$ bạn.
+
+**Đáp số.** a) $2$ bạn; b) $3$ điểm; c) $3$ bạn.
+
+[ĐỀ – EN]
+The test scores of $6$ children are: $8, 9, 7, 10, 9, 8$.
+a) How many children scored $9$?
+b) How many points higher is the top score than the lowest score?
+c) How many children scored $9$ or more?
+
+[LỜI GIẢI CŨ – EN]
+a) The number $9$ appears $2$ times. b) $10-7=3$ (points). c) There are two $9$s and one $10$, so $3$ children.
+
+**Answer.** a) $2$ children; b) $3$ points; c) $3$ children.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho dãy số liệu $3, 8, 3, 5, 3, 8$. Số lớn nhất và số xuất hiện nhiều nhất có phải cùng là một số không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất là $8$ (xuất hiện $2$ lần). Số $3$ xuất hiện $3$ lần, nhiều hơn $8$. Vậy hai số này khác nhau.
+
+**Đáp số.** Không: số lớn nhất là $8$, số xuất hiện nhiều nhất là $3$.
+
+[ĐỀ – EN]
+Here is a list of data: $3, 8, 3, 5, 3, 8$. Are the greatest value and the most common value the same number? Why?
+
+[LỜI GIẢI CŨ – EN]
+The greatest value is $8$ (it appears $2$ times). The number $3$ appears $3$ times, more than $8$. So they are different numbers.
+
+**Answer.** No: the greatest is $8$ and the most common is $3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà làm: "Dãy $5, 9, 3, 7, 9$ có $4$ số vì số $9$ chỉ tính một lần; số nhỏ nhất là $5$." Hà sai ở những chỗ nào? Hãy làm lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Dãy có $5$ số vì số $9$ xuất hiện hai lần, phải đếm hai lần. Số nhỏ nhất là $3$, không phải $5$.
+
+**Đáp số.** $5$ số; số nhỏ nhất là $3$.
+
+[ĐỀ – EN]
+Ha wrote: "The list $5, 9, 3, 7, 9$ has $4$ numbers because we count $9$ only once; the least is $5$." Where did Ha go wrong? Do it correctly.
+
+[LỜI GIẢI CŨ – EN]
+The list has $5$ numbers because $9$ appears twice and must be counted twice. The least is $3$, not $5$.
+
+**Answer.** $5$ numbers; the least is $3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Sáu bạn thi nhảy dây. Số lần nhảy: An $24$, Bình $31$, Chi $28$, Dũng $31$, Em $25$, Giang $30$.
+a) Viết dãy số liệu và cho biết số lớn nhất.
+b) Sắp xếp từ bé đến lớn.
+c) Bạn nhảy nhiều nhất hơn bạn nhảy ít nhất bao nhiêu lần?
+
+[LỜI GIẢI CŨ – VI]
+a) Dãy là $24, 31, 28, 31, 25, 30$; số lớn nhất là $31$ (Bình và Dũng). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (lần).
+
+**Đáp số.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ lần.
+
+[ĐỀ – EN]
+Six children enter a skipping contest. Number of skips: An $24$, Binh $31$, Chi $28$, Dung $31$, Em $25$, Giang $30$.
+a) Write the list of data and say which value is the greatest.
+b) Put them in order from smallest to largest.
+c) How many more skips did the best child make than the lowest?
+
+[LỜI GIẢI CŨ – EN]
+a) The list is $24, 31, 28, 31, 25, 30$; the greatest is $31$ (Binh and Dung). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (skips).
+
+**Answer.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ skips.
+
+
+######################################################################
+@@@ g4/sum-and-difference-problems
+Bài học: Tìm hai số biết tổng và hiệu của hai số đó / Finding two numbers from their sum and difference
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tổng của hai số là $84$, hiệu của hai số là $12$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số bé là $(84-12):2=36$. Số lớn là $36+12=48$.
+
+**Thử lại.** $36+48=84$ và $48-36=12$. Đúng.
+
+**Đáp số.** $36$ và $48$.
+
+[ĐỀ – EN]
+The sum of two numbers is $84$ and the difference of the two numbers is $12$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The smaller number is $(84-12)\div2=36$. The larger number is $36+12=48$.
+
+**Check.** $36+48=84$ and $48-36=12$. Correct.
+
+**Answer.** $36$ and $48$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tổng của hai số là $125$, hiệu của hai số là $35$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn là $(125+35):2=160:2=80$. Số bé là $80-35=45$.
+
+**Thử lại.** $80+45=125$ và $80-45=35$. Đúng.
+
+**Đáp số.** $80$ và $45$.
+
+[ĐỀ – EN]
+The sum of two numbers is $125$ and the difference of the two numbers is $35$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The larger number is $(125+35)\div2=160\div2=80$. The smaller number is $80-35=45$.
+
+**Check.** $80+45=125$ and $80-45=35$. Correct.
+
+**Answer.** $80$ and $45$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tổng của hai số là $1\,000$, hiệu của hai số là $250$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn là $(1\,000+250):2=1\,250:2=625$. Số bé là $625-250=375$.
+
+**Thử lại.** $625+375=1\,000$ và $625-375=250$. Đúng.
+
+**Đáp số.** $625$ và $375$.
+
+[ĐỀ – EN]
+The sum of two numbers is $1\,000$ and the difference of the two numbers is $250$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The larger number is $(1\,000+250)\div2=1\,250\div2=625$. The smaller number is $625-250=375$.
+
+**Check.** $625+375=1\,000$ and $625-375=250$. Correct.
+
+**Answer.** $625$ and $375$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Nam và Việt (số liệu giả định) có tất cả $45$ viên bi. Nam có nhiều hơn Việt $9$ viên bi. Hỏi mỗi bạn có bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số bi của Việt là:
+$$(45-9):2=18\ \text{(viên)}.$$
+Số bi của Nam là:
+$$18+9=27\ \text{(viên)}.$$
+
+**Đáp số.** Nam: $27$ viên; Việt: $18$ viên.
+
+[ĐỀ – EN]
+Nam and Viet (made-up numbers) have $45$ marbles altogether. Nam has $9$ more marbles than Viet. How many marbles does each boy have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+Viet's number of marbles is:
+$$(45-9)\div2=18\ \text{(marbles)}.$$
+Nam's number of marbles is:
+$$18+9=27\ \text{(marbles)}.$$
+
+**Answer.** Nam: $27$ marbles; Viet: $18$ marbles.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một trại (số liệu giả định) nuôi tất cả $360$ con gà và vịt. Số gà nhiều hơn số vịt $40$ con. Hỏi trại nuôi bao nhiêu con gà, bao nhiêu con vịt?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số vịt là:
+$$(360-40):2=160\ \text{(con)}.$$
+Số gà là:
+$$160+40=200\ \text{(con)}.$$
+
+**Đáp số.** Gà: $200$ con; vịt: $160$ con.
+
+[ĐỀ – EN]
+A farm (made-up numbers) keeps $360$ chickens and ducks altogether. There are $40$ more chickens than ducks. How many chickens and how many ducks does the farm keep?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of ducks is:
+$$(360-40)\div2=160\ \text{(ducks)}.$$
+The number of chickens is:
+$$160+40=200\ \text{(chickens)}.$$
+
+**Answer.** Chickens: $200$; ducks: $160$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một mảnh đất hình chữ nhật (số liệu giả định) có chu vi $80$ m, chiều dài hơn chiều rộng $10$ m. Tính chiều dài và chiều rộng.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Nửa chu vi là:
+$$80:2=40\ \text{(m)}.$$
+Chiều rộng là:
+$$(40-10):2=15\ \text{(m)}.$$
+Chiều dài là:
+$$15+10=25\ \text{(m)}.$$
+
+**Đáp số.** Chiều dài $25$ m; chiều rộng $15$ m.
+
+[ĐỀ – EN]
+A plot of land (made-up numbers) is a rectangle with perimeter $80$ m, and its length is $10$ m more than its width. Find the length and the width.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+Half the perimeter is:
+$$80\div2=40\ \text{(m)}.$$
+The width is:
+$$(40-10)\div2=15\ \text{(m)}.$$
+The length is:
+$$15+10=25\ \text{(m)}.$$
+
+**Answer.** Length $25$ m; width $15$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hai chị em (số liệu giả định) có tất cả $100\,000$ đồng. Chị có nhiều hơn em $24\,000$ đồng. Hỏi mỗi người có bao nhiêu đồng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền của em là:
+$$(100\,000-24\,000):2=38\,000\ \text{(đồng)}.$$
+Số tiền của chị là:
+$$38\,000+24\,000=62\,000\ \text{(đồng)}.$$
+
+**Đáp số.** Chị: $62\,000$ đồng; em: $38\,000$ đồng.
+
+[ĐỀ – EN]
+Two sisters (made-up numbers) have $100\,000$ dong altogether. The older sister has $24\,000$ dong more than the younger one. How many dong does each have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The younger sister's money is:
+$$(100\,000-24\,000)\div2=38\,000\ \text{(dong)}.$$
+The older sister's money is:
+$$38\,000+24\,000=62\,000\ \text{(dong)}.$$
+
+**Answer.** Older sister: $62\,000$ dong; younger sister: $38\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tổng của hai số là $1\,000\,000$ và hiệu của hai số là $246\,000$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số bé là $(1\,000\,000-246\,000):2=754\,000:2=377\,000$. Số lớn là $377\,000+246\,000=623\,000$.
+
+**Thử lại.** $377\,000+623\,000=1\,000\,000$ và $623\,000-377\,000=246\,000$. Đúng.
+
+**Đáp số.** $377\,000$ và $623\,000$.
+
+[ĐỀ – EN]
+Remember the lesson on adding numbers with many digits. The sum of two numbers is $1\,000\,000$ and the difference of the two numbers is $246\,000$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The smaller number is $(1\,000\,000-246\,000)\div2=754\,000\div2=377\,000$. The larger number is $377\,000+246\,000=623\,000$.
+
+**Check.** $377\,000+623\,000=1\,000\,000$ and $623\,000-377\,000=246\,000$. Correct.
+
+**Answer.** $377\,000$ and $623\,000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam giải bài toán: "Tổng hai số là $70$, hiệu hai số là $14$." Nam làm: số lớn là $(70+14):2=42$; số bé là $42+14=56$. Em hãy kiểm tra cách làm của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn $(70+14):2=42$ là đúng. Nhưng số bé phải bé hơn số lớn, nên số bé là $42-14=28$, không phải $42+14=56$.
+
+**Thử lại.** $42+28=70$ và $42-28=14$. Đúng.
+
+**Đáp số.** Nam sai ở bước cuối; hai số là $42$ và $28$.
+
+[ĐỀ – EN]
+Nam solves the problem: "The sum of two numbers is $70$ and the difference of the two numbers is $14$." Nam writes: the larger number is $(70+14)\div2=42$; the smaller number is $42+14=56$. Check Nam's working. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The larger number $(70+14)\div2=42$ is correct. But the smaller number must be less than the larger number, so the smaller number is $42-14=28$, not $42+14=56$.
+
+**Check.** $42+28=70$ and $42-28=14$. Correct.
+
+**Answer.** Nam is wrong in the last step; the two numbers are $42$ and $28$.
+
+
+######################################################################
+@@@ g4/three-step-problems
+Bài học: Giải bài toán có ba bước tính / Solving three-step word problems
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một xưởng (số liệu giả định) ngày thứ nhất làm được $1\,250$ chiếc áo, ngày thứ hai làm gấp đôi ngày thứ nhất, ngày thứ ba làm ít hơn ngày thứ hai $300$ chiếc. Hỏi cả ba ngày xưởng làm được bao nhiêu chiếc áo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số áo ngày thứ hai làm được là:
+$$1\,250\times2=2\,500\ \text{(chiếc)}.$$
+Số áo ngày thứ ba làm được là:
+$$2\,500-300=2\,200\ \text{(chiếc)}.$$
+Số áo cả ba ngày làm được là:
+$$1\,250+2\,500+2\,200=5\,950\ \text{(chiếc)}.$$
+
+**Đáp số.** $5\,950$ chiếc áo.
+
+[ĐỀ – EN]
+A workshop (made-up numbers) makes $1\,250$ shirts on the first day, twice as many on the second day as on the first day, and $300$ fewer on the third day than on the second day. How many shirts does the workshop make in the three days altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of shirts made on the second day is:
+$$1\,250\times2=2\,500\ \text{(shirts)}.$$
+The number of shirts made on the third day is:
+$$2\,500-300=2\,200\ \text{(shirts)}.$$
+The number of shirts made in the three days is:
+$$1\,250+2\,500+2\,200=5\,950\ \text{(shirts)}.$$
+
+**Answer.** $5\,950$ shirts.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Mai có $200\,000$ đồng. Mai mua $3$ cuốn truyện, mỗi cuốn giá $35\,000$ đồng, và $1$ hộp bút giá $48\,000$ đồng. Hỏi Mai còn lại bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền mua $3$ cuốn truyện là:
+$$3\times35\,000=105\,000\ \text{(đồng)}.$$
+Số tiền Mai đã tiêu là:
+$$105\,000+48\,000=153\,000\ \text{(đồng)}.$$
+Số tiền Mai còn lại là:
+$$200\,000-153\,000=47\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $47\,000$ đồng.
+
+[ĐỀ – EN]
+Mai has $200\,000$ dong. She buys $3$ story books at $35\,000$ dong each and $1$ box of pens for $48\,000$ dong. How much money does Mai have left?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The cost of $3$ story books is:
+$$3\times35\,000=105\,000\ \text{(dong)}.$$
+The money Mai spent is:
+$$105\,000+48\,000=153\,000\ \text{(dong)}.$$
+The money Mai has left is:
+$$200\,000-153\,000=47\,000\ \text{(dong)}.$$
+
+**Answer.** $47\,000$ dong.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Mua $6$ hộp bút chì hết $90\,000$ đồng. Hỏi mua $9$ hộp bút chì như vậy và $1$ chiếc cặp giá $120\,000$ đồng thì hết bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Giá một hộp bút chì là:
+$$90\,000:6=15\,000\ \text{(đồng)}.$$
+Số tiền mua $9$ hộp bút chì là:
+$$15\,000\times9=135\,000\ \text{(đồng)}.$$
+Tổng số tiền phải trả là:
+$$135\,000+120\,000=255\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $255\,000$ đồng.
+
+[ĐỀ – EN]
+$6$ boxes of pencils cost $90\,000$ dong. How much do $9$ of these boxes of pencils and $1$ school bag at $120\,000$ dong cost?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The price of one box of pencils is:
+$$90\,000\div6=15\,000\ \text{(dong)}.$$
+The cost of $9$ boxes of pencils is:
+$$15\,000\times9=135\,000\ \text{(dong)}.$$
+The total money to pay is:
+$$135\,000+120\,000=255\,000\ \text{(dong)}.$$
+
+**Answer.** $255\,000$ dong.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một mảnh vườn (số liệu giả định) hình chữ nhật có chiều rộng $25$ m, chiều dài gấp $3$ lần chiều rộng. Người ta rào xung quanh mảnh vườn, mỗi mét hàng rào giá $12\,000$ đồng. Hỏi tiền rào là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Chiều dài mảnh vườn là:
+$$25\times3=75\ \text{(m)}.$$
+Chu vi mảnh vườn là:
+$$(75+25)\times2=200\ \text{(m)}.$$
+Số tiền rào mảnh vườn là:
+$$200\times12\,000=2\,400\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $2\,400\,000$ đồng.
+
+[ĐỀ – EN]
+A garden (made-up numbers) is a rectangle with width $25$ m, and its length is $3$ times its width. A fence is built all the way round the garden, and each metre of fence costs $12\,000$ dong. How much does the fence cost?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The length of the garden is:
+$$25\times3=75\ \text{(m)}.$$
+The perimeter of the garden is:
+$$(75+25)\times2=200\ \text{(m)}.$$
+The cost of the fence is:
+$$200\times12\,000=2\,400\,000\ \text{(dong)}.$$
+
+**Answer.** $2\,400\,000$ dong.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một kho có $1\,500$ kg gạo, được chia đều vào $6$ bao. Xe chở đi $4$ bao. Hỏi trong kho còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số gạo ở mỗi bao là:
+$$1\,500:6=250\ \text{(kg)}.$$
+Số gạo xe chở đi là:
+$$250\times4=1\,000\ \text{(kg)}.$$
+Số gạo còn lại trong kho là:
+$$1\,500-1\,000=500\ \text{(kg)}.$$
+
+**Đáp số.** $500$ kg gạo.
+
+[ĐỀ – EN]
+A store has $1\,500$ kg of rice, shared equally into $6$ sacks. A lorry takes away $4$ sacks. How many kilograms of rice are left in the store?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The rice in each sack is:
+$$1\,500\div6=250\ \text{(kg)}.$$
+The rice the lorry takes away is:
+$$250\times4=1\,000\ \text{(kg)}.$$
+The rice left in the store is:
+$$1\,500-1\,000=500\ \text{(kg)}.$$
+
+**Answer.** $500$ kg of rice.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một tấm vải dài $48$ m. Người ta cắt $5$ bộ quần áo, mỗi bộ $3$ m vải. Số vải còn lại được cắt thành các chiếc khăn, mỗi chiếc khăn $2$ m. Hỏi cắt được nhiều nhất bao nhiêu chiếc khăn?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số mét vải dùng để may quần áo là:
+$$3\times5=15\ \text{(m)}.$$
+Số mét vải còn lại là:
+$$48-15=33\ \text{(m)}.$$
+Ta có $33:2=16$ (dư $1$), nên cắt được $16$ chiếc khăn và thừa $1$ m vải.
+
+**Đáp số.** $16$ chiếc khăn.
+
+[ĐỀ – EN]
+A piece of cloth is $48$ m long. $5$ outfits are cut from it, using $3$ m of cloth for each outfit. The cloth left is cut into scarves, with $2$ m for each scarf. What is the greatest number of scarves that can be cut?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of metres of cloth used for outfits is:
+$$3\times5=15\ \text{(m)}.$$
+The number of metres of cloth left is:
+$$48-15=33\ \text{(m)}.$$
+We have $33\div2=16$ (remainder $1$), so $16$ scarves can be cut with $1$ m of cloth left over.
+
+**Answer.** $16$ scarves.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một gia đình mua $2$ vé người lớn, mỗi vé $45\,000$ đồng, và $3$ vé trẻ em, mỗi vé $20\,000$ đồng. Hỏi gia đình phải trả tất cả bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Tiền mua $2$ vé người lớn là:
+$$2\times45\,000=90\,000\ \text{(đồng)}.$$
+Tiền mua $3$ vé trẻ em là:
+$$3\times20\,000=60\,000\ \text{(đồng)}.$$
+Số tiền gia đình phải trả là:
+$$90\,000+60\,000=150\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $150\,000$ đồng.
+
+[ĐỀ – EN]
+A family buys $2$ adult tickets at $45\,000$ dong each and $3$ children's tickets at $20\,000$ dong each. How much does the family pay altogether?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The cost of $2$ adult tickets is:
+$$2\times45\,000=90\,000\ \text{(dong)}.$$
+The cost of $3$ children's tickets is:
+$$3\times20\,000=60\,000\ \text{(dong)}.$$
+The money the family pays is:
+$$90\,000+60\,000=150\,000\ \text{(dong)}.$$
+
+**Answer.** $150\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài biểu thức chứa chữ. Mỗi quyển vở giá $7\,000$ đồng và mỗi chiếc bút giá $5\,000$ đồng. Mua $m$ quyển vở và $2$ chiếc bút thì phải trả bao nhiêu tiền? Viết biểu thức rồi tính khi $m=6$.
+
+[LỜI GIẢI CŨ – VI]
+Số tiền phải trả là $7\,000\times m+5\,000\times2$ (đồng). Khi $m=6$, số tiền là:
+$$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $52\,000$ đồng.
+
+[ĐỀ – EN]
+Remember the lesson on expressions with letters. An exercise book costs $7\,000$ dong and a pen costs $5\,000$ dong. How much do $m$ exercise books and $2$ pens cost? Write an expression, then work it out when $m=6$.
+
+[LỜI GIẢI CŨ – EN]
+The money to pay is $7\,000\times m+5\,000\times2$ (dong). When $m=6$, the money is:
+$$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(dong)}.$$
+
+**Answer.** $52\,000$ dong.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một cửa hàng có $125$ kg đường, buổi sáng bán $40$ kg, buổi chiều bán $35$ kg. Nam giải: "$125-40=85$ (kg); $85+35=120$ (kg). Đáp số: $120$ kg." Em hãy kiểm tra bài giải của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Nam sai ở bước thứ hai: buổi chiều cửa hàng bán thêm $35$ kg, số đường phải giảm, nên cần trừ chứ không cộng.
+
+Bài giải đúng: $125-40=85$ (kg); $85-35=50$ (kg).
+
+**Thử lại.** $50+35+40=125$. Đúng.
+
+**Đáp số.** Nam sai; còn lại $50$ kg đường.
+
+[ĐỀ – EN]
+A shop has $125$ kg of sugar. It sells $40$ kg in the morning and $35$ kg in the afternoon. Nam solves it like this: "$125-40=85$ (kg); $85+35=120$ (kg). Answer: $120$ kg." Check Nam's solution. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+Nam is wrong in the second step: in the afternoon the shop sells another $35$ kg, so the amount of sugar must go down, and we need to subtract, not add.
+
+The correct solution: $125-40=85$ (kg); $85-35=50$ (kg).
+
+**Check.** $50+35+40=125$. Correct.
+
+**Answer.** Nam is wrong; $50$ kg of sugar is left.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một cửa hàng nhập $4$ thùng bút, mỗi thùng có $12$ hộp, mỗi hộp có $10$ chiếc bút. Cửa hàng bán được $275$ chiếc bút. Hỏi cửa hàng còn lại bao nhiêu chiếc bút?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số hộp bút trong $4$ thùng là:
+$$4\times12=48\ \text{(hộp)}.$$
+Số chiếc bút nhập về là:
+$$48\times10=480\ \text{(chiếc)}.$$
+Số chiếc bút còn lại là:
+$$480-275=205\ \text{(chiếc)}.$$
+
+**Đáp số.** $205$ chiếc bút.
+
+[ĐỀ – EN]
+A shop receives $4$ cartons of pens, with $12$ boxes in each carton and $10$ pens in each box. The shop sells $275$ pens. How many pens does the shop have left?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of boxes of pens in $4$ cartons is:
+$$4\times12=48\ \text{(boxes)}.$$
+The number of pens received is:
+$$48\times10=480\ \text{(pens)}.$$
+The number of pens left is:
+$$480-275=205\ \text{(pens)}.$$
+
+**Answer.** $205$ pens.
+
+
+######################################################################
+@@@ g4/unitary-method
+Bài học: Bài toán liên quan đến rút về đơn vị / Problems using the unitary method
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mua $3$ quyển vở hết $18\,000$ đồng. Hỏi một quyển vở giá bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+$18\,000:3=6\,000$ (đồng).
+
+**Đáp số.** $6\,000$ đồng.
+
+[ĐỀ – EN]
+$3$ exercise books cost $18\,000$ dong. How much does one book cost?
+
+[LỜI GIẢI CŨ – EN]
+$18\,000\div3=6\,000$ (dong).
+
+**Answer.** $6\,000$ dong.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$4$ can dầu như nhau chứa $28$ lít. Hỏi $6$ can dầu như thế chứa bao nhiêu lít?
+
+[LỜI GIẢI CŨ – VI]
+$28:4=7$ (lít), $7\times6=42$ (lít).
+
+**Đáp số.** $42$ lít.
+
+[ĐỀ – EN]
+$4$ identical cans of oil hold $28$ litres. How many litres do $6$ such cans hold?
+
+[LỜI GIẢI CŨ – EN]
+$28\div4=7$ (litres), $7\times6=42$ (litres).
+
+**Answer.** $42$ litres.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: tìm số trung bình cộng của $12$, $18$ và $15$. Một bạn đọc mỗi ngày số trang bằng số đó. Hỏi $4$ ngày bạn đó đọc được bao nhiêu trang?
+
+[LỜI GIẢI CŨ – VI]
+$(12+18+15):3=45:3=15$ (trang mỗi ngày). $15\times4=60$ (trang).
+
+**Đáp số.** $60$ trang.
+
+[ĐỀ – EN]
+Remember the last lesson: find the mean of $12$, $18$ and $15$. A child reads that many pages each day. How many pages does the child read in $4$ days?
+
+[LỜI GIẢI CŨ – EN]
+$(12+18+15)\div3=45\div3=15$ (pages a day). $15\times4=60$ (pages).
+
+**Answer.** $60$ pages.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một công nhân làm $5$ ngày được $40$ sản phẩm. Hỏi làm $9$ ngày như thế thì được bao nhiêu sản phẩm?
+
+[LỜI GIẢI CŨ – VI]
+$40:5=8$ (sản phẩm), $8\times9=72$ (sản phẩm).
+
+**Đáp số.** $72$ sản phẩm.
+
+[ĐỀ – EN]
+A worker makes $40$ items in $5$ days. How many items does the worker make in $9$ days at the same rate?
+
+[LỜI GIẢI CŨ – EN]
+$40\div5=8$ (items), $8\times9=72$ (items).
+
+**Answer.** $72$ items.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mua $6$ kg đường hết $90\,000$ đồng. Hỏi mua $4$ kg đường hết bao nhiêu tiền? Vì sao phải tìm giá $1$ kg đường trước?
+
+[LỜI GIẢI CŨ – VI]
+$90\,000:6=15\,000$ (đồng), $15\,000\times4=60\,000$ (đồng). Phải tìm giá $1$ kg vì mỗi ki-lô-gam giá bằng nhau, nên từ đó tính được số kg bất kì.
+
+**Đáp số.** $60\,000$ đồng.
+
+[ĐỀ – EN]
+$6$ kg of sugar cost $90\,000$ dong. How much do $4$ kg of sugar cost? Why do we find the cost of $1$ kg first?
+
+[LỜI GIẢI CŨ – EN]
+$90\,000\div6=15\,000$ (dong), $15\,000\times4=60\,000$ (dong). We find the cost of $1$ kg first because every kilogram costs the same, so from it we can find the cost of any number of kilograms.
+
+**Answer.** $60\,000$ dong.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan giải: "$8$ cái bút giá $32\,000$ đồng. $5$ cái bút giá $32\,000\times5=160\,000$ đồng." Lan sai ở đâu? Hãy làm lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Lan nhân ngay mà chưa tìm giá một cái bút. Đúng là $32\,000:8=4\,000$ (đồng), $4\,000\times5=20\,000$ (đồng).
+
+**Đáp số.** $20\,000$ đồng.
+
+[ĐỀ – EN]
+Lan worked: "$8$ pens cost $32\,000$ dong. So $5$ pens cost $32\,000\times5=160\,000$ dong." Where did Lan go wrong? Do it correctly.
+
+[LỜI GIẢI CŨ – EN]
+Lan multiplied without finding the cost of one pen. The correct working is $32\,000\div8=4\,000$ (dong), $4\,000\times5=20\,000$ (dong).
+
+**Answer.** $20\,000$ dong.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Vòi nước chảy đều, $3$ phút được $45$ lít.
+a) Mỗi phút vòi chảy được bao nhiêu lít?
+b) $8$ phút vòi chảy được bao nhiêu lít?
+c) Cần bao nhiêu phút để chảy đầy bể $150$ lít?
+
+[LỜI GIẢI CŨ – VI]
+a) $45:3=15$ (lít). b) $15\times8=120$ (lít). c) $150:15=10$ (phút).
+
+**Đáp số.** a) $15$ lít; b) $120$ lít; c) $10$ phút.
+
+[ĐỀ – EN]
+A tap runs at a steady rate and fills $45$ litres in $3$ minutes.
+a) How many litres does the tap fill in one minute?
+b) How many litres does it fill in $8$ minutes?
+c) How many minutes does it take to fill a $150$-litre tank?
+
+[LỜI GIẢI CŨ – EN]
+a) $45\div3=15$ (litres). b) $15\times8=120$ (litres). c) $150\div15=10$ (minutes).
+
+**Answer.** a) $15$ litres; b) $120$ litres; c) $10$ minutes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Mua $6$ hộp bánh như nhau hết $90\,000$ đồng. Mai có $130\,000$ đồng. Hỏi Mai mua được nhiều nhất bao nhiêu hộp bánh như thế và còn thừa bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Giá một hộp: $90\,000:6=15\,000$ (đồng). $15\,000\times8=120\,000$ (đồng) nhỏ hơn $130\,000$; $15\,000\times9=135\,000$ (đồng) lớn hơn $130\,000$. Vậy mua được $8$ hộp, còn thừa $130\,000-120\,000=10\,000$ (đồng).
+
+**Đáp số.** $8$ hộp, còn thừa $10\,000$ đồng.
+
+[ĐỀ – EN]
+$6$ identical boxes of biscuits cost $90\,000$ dong. Mai has $130\,000$ dong. What is the greatest number of such boxes Mai can buy, and how much money is left over?
+
+[LỜI GIẢI CŨ – EN]
+One box costs $90\,000\div6=15\,000$ (dong). $15\,000\times8=120\,000$ (dong) is less than $130\,000$; $15\,000\times9=135\,000$ (dong) is more than $130\,000$. So Mai can buy $8$ boxes, with $130\,000-120\,000=10\,000$ (dong) left over.
+
+**Answer.** $8$ boxes, with $10\,000$ dong left over.
+
+
+######################################################################
+@@@ g4/what-is-a-fraction
+Bài học: Khái niệm phân số / The idea of a fraction
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.
+
+![Hình chữ nhật chia năm phần bằng nhau, hai phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-03.svg)
+
+[LỜI GIẢI CŨ – VI]
+Chia thành $5$ phần, tô $2$ phần, nên phân số là $\dfrac{2}{5}$.
+
+**Đáp số.** $\dfrac{2}{5}$.
+
+[ĐỀ – EN]
+A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the fraction for the coloured part.
+
+![A rectangle divided into five equal parts with two shaded](/assets/img/g4/g4-what-is-a-fraction-03.svg)
+
+[LỜI GIẢI CŨ – EN]
+Cut into $5$ parts with $2$ coloured, so the fraction is $\dfrac{2}{5}$.
+
+**Answer.** $\dfrac{2}{5}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết các phân số: a) bốn phần bảy; b) hai phần năm; c) mười một phần mười hai.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
+
+**Đáp số.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
+
+[ĐỀ – EN]
+Write these fractions: a) four sevenths; b) two fifths; c) eleven twelfths.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
+
+**Answer.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (số lần xuất hiện): tung đồng xu $10$ lần, mặt ngửa xuất hiện $6$ lần. Viết phân số chỉ số lần ngửa so với số lần tung.
+
+[LỜI GIẢI CŨ – VI]
+Số lần ngửa là $6$ trong $10$ lần tung, nên phân số là $\dfrac{6}{10}$.
+
+**Đáp số.** $\dfrac{6}{10}$.
+
+[ĐỀ – EN]
+Remember the last lesson (how many times an event happens): a coin is tossed $10$ times and heads comes up $6$ times. Write the fraction showing the heads out of all the tosses.
+
+[LỜI GIẢI CŨ – EN]
+There were $6$ heads in $10$ tosses, so the fraction is $\dfrac{6}{10}$.
+
+**Answer.** $\dfrac{6}{10}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đọc các phân số $\dfrac{7}{10}$ và $\dfrac{3}{8}$, rồi chỉ ra tử số và mẫu số của mỗi phân số.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{7}{10}$ đọc là "bảy phần mười": tử số $7$, mẫu số $10$. $\dfrac{3}{8}$ đọc là "ba phần tám": tử số $3$, mẫu số $8$.
+
+**Đáp số.** Xem lời giải.
+
+[ĐỀ – EN]
+Read the fractions $\dfrac{7}{10}$ and $\dfrac{3}{8}$, then name the numerator and the denominator of each.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{7}{10}$ is "seven tenths": numerator $7$, denominator $10$. $\dfrac{3}{8}$ is "three eighths": numerator $3$, denominator $8$.
+
+**Answer.** See the solution.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một chiếc bánh được cắt thành $4$ phần to nhỏ khác nhau, Lan ăn $1$ phần. Có thể nói Lan ăn $\dfrac{1}{4}$ chiếc bánh không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Không. Các phần không bằng nhau nên phần Lan ăn không nhất định là một phần tư chiếc bánh.
+
+**Đáp số.** Không, vì các phần không bằng nhau.
+
+[ĐỀ – EN]
+A cake is cut into $4$ pieces of different sizes and Lan eats $1$ piece. Can we say Lan ate $\dfrac{1}{4}$ of the cake? Why?
+
+[LỜI GIẢI CŨ – EN]
+No. The parts are not equal, so the piece Lan ate is not necessarily a quarter of the cake.
+
+**Answer.** No, because the parts are not equal.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam viết: "Chiếc bánh chia $4$ phần, ăn $3$ phần nên phân số là $\dfrac{4}{3}$." Nam sai ở đâu? Hãy viết lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Nam viết ngược tử số và mẫu số. Cả chiếc bánh có $4$ phần nên mẫu số là $4$, ăn $3$ phần nên tử số là $3$: $\dfrac{3}{4}$.
+
+**Đáp số.** $\dfrac{3}{4}$.
+
+[ĐỀ – EN]
+Nam wrote: "The cake is cut into $4$ parts and $3$ are eaten, so the fraction is $\dfrac{4}{3}$." Where did Nam go wrong? Write it correctly.
+
+[LỜI GIẢI CŨ – EN]
+Nam wrote the numerator and denominator the wrong way round. The whole cake has $4$ parts so the denominator is $4$, and $3$ parts were eaten so the numerator is $3$: $\dfrac{3}{4}$.
+
+**Answer.** $\dfrac{3}{4}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một thanh sô-cô-la có $12$ ô bằng nhau. Mai ăn $5$ ô, Nam ăn $4$ ô.
+a) Viết phân số chỉ phần Mai ăn.
+b) Viết phân số chỉ phần Nam ăn.
+c) Viết phân số chỉ phần còn lại.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) Còn lại $12-5-4=3$ ô, nên $\dfrac{3}{12}$.
+
+**Đáp số.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
+
+[ĐỀ – EN]
+A bar of chocolate has $12$ equal squares. Mai eats $5$ squares and Nam eats $4$ squares.
+a) Write the fraction for the part Mai ate.
+b) Write the fraction for the part Nam ate.
+c) Write the fraction for the part left.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) The squares left are $12-5-4=3$, so $\dfrac{3}{12}$.
+
+**Answer.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phần màu xanh, $2$ phần màu đỏ, phần còn lại để trắng. Viết phân số chỉ phần mỗi màu và phân số chỉ phần đã tô màu (cả hai màu).
+
+![Băng giấy tám phần gồm ba phần xanh, hai phần đỏ và ba phần trắng](/assets/img/g4/g4-what-is-a-fraction-04.svg)
+
+[LỜI GIẢI CŨ – VI]
+Xanh: $\dfrac{3}{8}$; đỏ: $\dfrac{2}{8}$; trắng: $8-3-2=3$ phần nên $\dfrac{3}{8}$. Phần đã tô là $3+2=5$ phần, tức $\dfrac{5}{8}$.
+
+**Kiểm tra.** $3+2+3=8$ phần. Đúng.
+
+**Đáp số.** Xanh $\dfrac{3}{8}$, đỏ $\dfrac{2}{8}$, trắng $\dfrac{3}{8}$; đã tô $\dfrac{5}{8}$.
+
+[ĐỀ – EN]
+A paper strip is cut into $8$ equal parts. You colour $3$ parts blue and $2$ parts red, and leave the rest white. Write the fraction for each colour and the fraction for the part that is coloured (both colours together).
+
+![An eight-part strip with three blue, two red, and three white parts](/assets/img/g4/g4-what-is-a-fraction-04.svg)
+
+[LỜI GIẢI CŨ – EN]
+Blue: $\dfrac{3}{8}$; red: $\dfrac{2}{8}$; white: $8-3-2=3$ parts, so $\dfrac{3}{8}$. The coloured part is $3+2=5$ parts, which is $\dfrac{5}{8}$.
+
+**Check.** $3+2+3=8$ parts. Correct.
+
+**Answer.** Blue $\dfrac{3}{8}$, red $\dfrac{2}{8}$, white $\dfrac{3}{8}$; coloured $\dfrac{5}{8}$.
+
+
+===== HẾT FILE Lemonmath.com-12-LG =====
