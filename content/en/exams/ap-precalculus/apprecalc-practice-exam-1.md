@@ -22,7 +22,7 @@ This practice exam follows the AP Precalculus format from May 2027. All question
 ## Section I, Part A: no calculator
 
 :::quiz test
-::mc
+::mc TH
 What is the average rate of change of $f(x)=x^3-2x$ on the interval $[-1,2]$?
 A. $3$
 B. $-1$
@@ -31,7 +31,7 @@ D. $2$
 ::key C
 $f(2)=4$ and $f(-1)=1$, so the average rate of change is $\dfrac{4-1}{2-(-1)}=1$. Option A forgets to divide by the length $3$.
 
-::mc
+::mc TH
 Which statement describes the end behavior of $p(x)=-2x^4+x^3+5$?
 A. $\lim\limits_{x\to\infty}p(x)=-\infty$ and $\lim\limits_{x\to-\infty}p(x)=-\infty$
 B. $\lim\limits_{x\to\infty}p(x)=\infty$ and $\lim\limits_{x\to-\infty}p(x)=\infty$
@@ -40,7 +40,7 @@ D. $\lim\limits_{x\to\infty}p(x)=\infty$ and $\lim\limits_{x\to-\infty}p(x)=-\in
 ::key A
 The leading term $-2x^4$ has even degree and a negative coefficient, so $p(x)\to-\infty$ at both ends.
 
-::mc
+::mc TH
 The polynomial $p(x)=(x-2)^2(x+1)(x+3)$ is graphed in the $xy$-plane. What happens at $x=2$?
 A. The graph crosses the $x$-axis.
 B. The graph has a vertical asymptote.
@@ -49,7 +49,7 @@ D. The graph touches the $x$-axis but does not cross it.
 ::key D
 The zero $x=2$ has even multiplicity $2$, so $p(x)$ does not change sign there: the graph touches the axis and turns back.
 
-::mc
+::mc VD
 The table gives values of a polynomial $p$: $p(0)=1$, $p(1)=2$, $p(2)=9$, $p(3)=28$, $p(4)=65$. What is the least possible degree of $p$?
 A. $2$
 B. $3$
@@ -58,7 +58,7 @@ D. $1$
 ::key B
 First differences $1,7,19,37$; second differences $6,12,18$; third differences $6,6$ are constant, so the degree is $3$.
 
-::mc
+::mc TH
 A function $f$ has $f(0)=2$, $f(1)=7$, $f(2)=10$ and $f(3)=11$. Based on these values, on $[0,3]$ the function $f$ is
 A. increasing and concave up
 B. decreasing and concave down
@@ -67,7 +67,7 @@ D. increasing and concave down
 ::key D
 The values rise, and the rates over successive intervals $5,3,1$ decrease: $f$ increases at a decreasing rate, so it is concave down.
 
-::mc
+::mc TH
 A polynomial with real coefficients has zeros $3$ and $2+i$. What is the least possible degree of the polynomial?
 A. $3$
 B. $2$
@@ -76,7 +76,7 @@ D. $1$
 ::key A
 Non-real zeros of a real polynomial come in conjugate pairs, so $2-i$ is also a zero: at least $3$ zeros.
 
-::mc
+::mc VD
 What is the equation of the vertical asymptote of $r(x)=\dfrac{x^2-9}{x^2+x-6}$?
 A. $x=-3$
 B. $x=3$
@@ -85,7 +85,7 @@ D. $x=-2$
 ::key C
 $r(x)=\dfrac{(x-3)(x+3)}{(x+3)(x-2)}$. The factor $x+3$ cancels, giving a hole at $x=-3$; the asymptote is $x=2$.
 
-::mc
+::mc TH
 What is the horizontal asymptote of $r(x)=\dfrac{6x^2+1}{3x^2-x}$?
 A. $y=6$
 B. $y=2$
@@ -94,7 +94,7 @@ D. There is no horizontal asymptote.
 ::key B
 The degrees are equal, so the asymptote is the ratio of leading coefficients, $\dfrac63=2$.
 
-::mc
+::mc TH
 How is the graph of $g(x)=-f(x)+3$ obtained from the graph of $f$?
 A. Reflect over the $x$-axis, then shift up $3$ units
 B. Reflect over the $y$-axis, then shift up $3$ units
@@ -103,7 +103,7 @@ D. Reflect over the $x$-axis, then shift right $3$ units
 ::key A
 $-f(x)$ reflects the graph over the $x$-axis, and adding $3$ afterwards moves it up. Option C would give $-f(x)-3$.
 
-::mc
+::mc VD
 What is the solution set of $\dfrac{x-1}{x+3}\le0$?
 A. $-3\le x\le1$
 B. $x<-3$ or $x\ge1$
@@ -112,7 +112,7 @@ D. $-3<x\le1$
 ::key D
 The sign changes at $x=-3$ and $x=1$; the quotient is negative between them, zero at $x=1$, and undefined at $x=-3$.
 
-::mc
+::mc NB
 An arithmetic sequence has $a_1=7$ and common difference $-3$. What is $a_{10}$?
 A. $-23$
 B. $-20$
@@ -121,7 +121,7 @@ D. $37$
 ::key B
 $a_{10}=7+9(-3)=-20$. Option A uses $10$ steps instead of $9$.
 
-::mc
+::mc VD
 A geometric sequence has $g_2=6$ and $g_5=162$. What is $g_1$?
 A. $3$
 B. $18$
@@ -130,7 +130,7 @@ D. $1$
 ::key C
 $r^3=\dfrac{162}{6}=27$, so $r=3$ and $g_1=\dfrac{6}{3}=2$.
 
-::mc
+::mc VD
 An exponential function $f(x)=ab^x$ passes through $(0,4)$ and $(2,36)$. What is $f(3)$?
 A. $108$
 B. $72$
@@ -139,7 +139,7 @@ D. $144$
 ::key A
 $a=4$ and $4b^2=36$, so $b=3$ and $f(3)=4\cdot27=108$.
 
-::mc
+::mc TH
 Which expression is equivalent to $5\cdot4^{x/2}$?
 A. $5\cdot8^x$
 B. $10\cdot4^x$
@@ -148,7 +148,7 @@ D. $5\cdot2^x$
 ::key D
 $4^{x/2}=\left(4^{1/2}\right)^x=2^x$.
 
-::mc
+::mc TH
 A quantity is modelled by $Q(t)=300(0.92)^t$. Which statement is true?
 A. $Q$ decreases by $92\%$ per unit of $t$.
 B. $Q$ decreases by $0.92$ per unit of $t$.
@@ -157,7 +157,7 @@ D. $Q$ increases by $8\%$ per unit of $t$.
 ::key C
 The factor $0.92=1-0.08$ keeps $92\%$ each period, a decrease of $8\%$.
 
-::mc
+::mc NB
 What is the value of $\log_2 48-\log_2 3$?
 A. $4$
 B. $16$
@@ -166,7 +166,7 @@ D. $8$
 ::key A
 $\log_2\dfrac{48}{3}=\log_2 16=4$. Option A is the argument, not the logarithm.
 
-::mc
+::mc NB
 What is the solution of $3^{2x}=81$?
 A. $x=4$
 B. $x=2$
@@ -175,7 +175,7 @@ D. $x=1$
 ::key B
 $81=3^4$, so $2x=4$ and $x=2$.
 
-::mc
+::mc TH
 If $f(x)=e^x+2$, what is $f^{-1}(x)$?
 A. $\ln x-2$
 B. $\ln(x+2)$
@@ -184,7 +184,7 @@ D. $\ln(x-2)$
 ::key D
 Swap: $x=e^y+2$, so $e^y=x-2$ and $y=\ln(x-2)$.
 
-::mc
+::mc VD
 On a semi-log plot, data lie on the line $\log y=2-0.5x$. The exponential model $y=ab^x$ for the data has $a$ equal to
 A. $100$
 B. $2$
@@ -193,7 +193,7 @@ D. $-0.5$
 ::key A
 $y=10^{2-0.5x}=10^2\cdot\left(10^{-0.5}\right)^x$, so $a=100$.
 
-::mc
+::mc NB
 What is the period of $y=4\sin\dfrac{\pi x}{5}+1$?
 A. $5$
 B. $\dfrac{2\pi}{5}$
@@ -202,7 +202,7 @@ D. $\dfrac{\pi}{5}$
 ::key C
 The period is $\dfrac{2\pi}{\pi/5}=10$.
 
-::mc
+::mc NB
 What is the value of $\cos\dfrac{4\pi}{3}$?
 A. $\dfrac12$
 B. $-\dfrac12$
@@ -211,7 +211,7 @@ D. $\dfrac{\sqrt3}{2}$
 ::key B
 $\dfrac{4\pi}{3}$ is in quadrant III with reference angle $\dfrac\pi3$, where cosine is negative: $-\dfrac12$.
 
-::mc
+::mc VD
 A sinusoidal function has maximum value $9$, minimum value $3$ and period $4$. Which could be the function?
 A. $y=6\sin\dfrac{\pi x}{2}+3$
 B. $y=3\sin4x+6$
@@ -220,7 +220,7 @@ D. $y=3\sin\dfrac{\pi x}{2}+6$
 ::key D
 Midline $\dfrac{9+3}{2}=6$, amplitude $\dfrac{9-3}{2}=3$, and $b=\dfrac{2\pi}{4}=\dfrac\pi2$.
 
-::mc
+::mc TH
 Which of the following is a vertical asymptote of $y=\tan\dfrac{x}{2}$?
 A. $x=\dfrac\pi2$
 B. $x=\pi$
@@ -229,7 +229,7 @@ D. $x=\dfrac\pi4$
 ::key B
 Asymptotes occur where $\dfrac x2=\dfrac\pi2+k\pi$, that is $x=\pi+2k\pi$. At $x=2\pi$ the function is $0$.
 
-::mc
+::mc TH
 An angle $\theta$ is in quadrant II and $\sin\theta=\dfrac35$. What is $\cos\theta$?
 A. $-\dfrac45$
 B. $\dfrac45$
@@ -238,7 +238,7 @@ D. $\dfrac34$
 ::key A
 $\cos^2\theta=1-\dfrac{9}{25}=\dfrac{16}{25}$, and cosine is negative in quadrant II.
 
-::mc
+::mc TH
 If $\sin\theta=\dfrac35$ and $\cos\theta=-\dfrac45$, what is $\sin2\theta$?
 A. $\dfrac{24}{25}$
 B. $\dfrac{7}{25}$
@@ -247,7 +247,7 @@ D. $-\dfrac65$
 ::key C
 $\sin2\theta=2\sin\theta\cos\theta=2\cdot\dfrac35\cdot\left(-\dfrac45\right)=-\dfrac{24}{25}$. Option C is $\cos2\theta$.
 
-::mc
+::mc NB
 What is the value of $\arctan(-1)$?
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{7\pi}{4}$
@@ -256,7 +256,7 @@ D. $-\dfrac\pi4$
 ::key D
 The range of $\arctan$ is $\left(-\dfrac\pi2,\dfrac\pi2\right)$, and $\tan\left(-\dfrac\pi4\right)=-1$.
 
-::mc
+::mc VD
 What are all solutions of $\sin x=-\dfrac{\sqrt3}{2}$ on $[0,2\pi)$?
 A. $\dfrac{\pi}{3}$ and $\dfrac{2\pi}{3}$
 B. $\dfrac{7\pi}{6}$ and $\dfrac{11\pi}{6}$
@@ -265,7 +265,7 @@ D. $\dfrac{2\pi}{3}$ and $\dfrac{4\pi}{3}$
 ::key C
 The reference angle is $\dfrac\pi3$ and sine is negative in quadrants III and IV: $\pi+\dfrac\pi3$ and $2\pi-\dfrac\pi3$.
 
-::mc
+::mc TH
 For $\sin x\ne0$, the expression $\dfrac{1-\cos^2x}{\sin x}$ is equal to
 A. $\cos x$
 B. $\sin x$
@@ -274,7 +274,7 @@ D. $\tan x$
 ::key B
 $1-\cos^2x=\sin^2x$, and $\dfrac{\sin^2x}{\sin x}=\sin x$.
 
-::mc
+::mc VD
 Which polar coordinates describe the rectangular point $(-3,-3)$?
 A. $\left(3\sqrt2,\dfrac{\pi}{4}\right)$
 B. $\left(3\sqrt2,\dfrac{3\pi}{4}\right)$
@@ -287,7 +287,7 @@ $r=\sqrt{9+9}=3\sqrt2$, and the point is in quadrant III, so $\theta=\dfrac{5\pi
 ## Section I, Part B: graphing calculator
 
 :::quiz test
-::mc
+::mc TH
 What is the greatest real zero of $f(x)=x^3-4x+1$?
 A. $1.861$
 B. $0.254$
@@ -296,7 +296,7 @@ D. $1.732$
 ::key A
 Graphing gives three zeros, about $-2.115$, $0.254$ and $1.861$.
 
-::mc
+::mc TH
 What is the average rate of change of $f(x)=2^x+x$ on $[1,4]$?
 A. $17$
 B. $6.667$
@@ -305,7 +305,7 @@ D. $4.250$
 ::key C
 $f(4)=20$ and $f(1)=3$, so $\dfrac{20-3}{3}\approx5.667$.
 
-::mc
+::mc VD
 What is the positive solution of $\dfrac{2x+1}{x-3}=x$?
 A. $-0.193$
 B. $5.193$
@@ -314,7 +314,7 @@ D. $6.193$
 ::key B
 Multiplying gives $x^2-5x-1=0$, so $x=\dfrac{5\pm\sqrt{29}}{2}$; the positive value is about $5.193$.
 
-::mc
+::mc VD
 What is the minimum value of $r(x)=\dfrac{x^2+4}{x}$ for $x>0$?
 A. $2$
 B. $5$
@@ -323,7 +323,7 @@ D. $4$
 ::key D
 The graph has a minimum at $x=2$, where $r(2)=\dfrac{8}{2}=4$. Option A is the $x$-value, not the minimum value.
 
-::mc
+::mc VD
 A town's population is $1200$ at $t=0$ and $2000$ at $t=6$ years. For the model $P(t)=ab^t$, what is $b$?
 A. $1.089$
 B. $1.667$
@@ -332,7 +332,7 @@ D. $0.918$
 ::key A
 $b^6=\dfrac{2000}{1200}=\dfrac53$, so $b=\left(\dfrac53\right)^{1/6}\approx1.089$.
 
-::mc
+::mc VD
 An account starts at $5000$ dollars and grows by $3.5\%$ per year. What value of $t$ satisfies $5000(1.035)^t=8000$?
 A. $17.143$
 B. $13.662$
@@ -341,7 +341,7 @@ D. $1.600$
 ::key B
 $t=\dfrac{\ln1.6}{\ln1.035}\approx13.662$. Option A adds $3.5\%$ of $5000$ each year, a linear model.
 
-::mc
+::mc TH
 What is the solution of $\ln(x+1)=2.5$?
 A. $12.182$
 B. $1.500$
@@ -350,7 +350,7 @@ D. $0.916$
 ::key C
 $x+1=e^{2.5}\approx12.182$, so $x\approx11.182$.
 
-::mc
+::mc TH
 What is the solution of $\log_3x=1.7$?
 A. $6.473$
 B. $5.100$
@@ -359,7 +359,7 @@ D. $0.483$
 ::key A
 $x=3^{1.7}\approx6.473$. Option A multiplies instead of raising to a power.
 
-::mc
+::mc VD
 On a semi-log plot (base $10$), data lie on a line with slope $0.12$. By what factor does $y$ change when $x$ increases by $1$?
 A. $0.120$
 B. $1.127$
@@ -368,7 +368,7 @@ D. $1.318$
 ::key D
 The slope is $\log b$, so $b=10^{0.12}\approx1.318$. Option C uses base $e$.
 
-::mc
+::mc VDC
 The height of a point on a wheel is $h(t)=10+8\sin\dfrac{\pi t}{6}$. What is the first time $t>0$ when $h(t)=15$?
 A. $0.675$
 B. $4.711$
@@ -377,7 +377,7 @@ D. $1.194$
 ::key C
 $\sin\dfrac{\pi t}{6}=0.625$, so $\dfrac{\pi t}{6}=\arcsin0.625\approx0.6751$ and $t\approx1.289$. Option A is the angle, not the time.
 
-::mc
+::mc TH
 A temperature model is $T(t)=18+7\cos\dfrac{\pi(t-15)}{12}$, with $t$ in hours after midnight. What is $T(10)$?
 A. $24.761$
 B. $19.812$
@@ -386,7 +386,7 @@ D. $25.000$
 ::key B
 $T(10)=18+7\cos\left(-\dfrac{5\pi}{12}\right)\approx18+7(0.2588)\approx19.812$, in radian mode.
 
-::mc
+::mc TH
 What is the solution of $3\cos x=1$ on $[0,\pi]$?
 A. $0.340$
 B. $1.911$
@@ -395,7 +395,7 @@ D. $1.231$
 ::key D
 $x=\arccos\dfrac13\approx1.231$, which lies in $[0,\pi]$.
 
-::mc
+::mc VD
 For the polar function $r=2+3\cos\theta$, what is the average rate of change of $r$ on $\left[0,\dfrac\pi3\right]$?
 A. $-1.432$
 B. $-1.500$

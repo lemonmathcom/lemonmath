@@ -10,7 +10,7 @@ Nguyenchanh2358   [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ 
 Vinax258          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
 Vimus2358         [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
 Lemonmath112      [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-hanibi108         [x] MD-1  [ ] MD-2 (dở)  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+hanibi108         [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
 Xedap102          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
 chanh106          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
 thaodebao1        [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1

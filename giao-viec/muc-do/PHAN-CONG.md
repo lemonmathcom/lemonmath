@@ -30,7 +30,7 @@ Tạo bằng `python3 tools/qa/mucdo.py pack`. Tổng 3490 câu chưa gắn mứ
 | MD-24 | Lemonmath112 | 44 | M383–M384 | Lớp 12 → Lớp 12 | xong 19/11 |
 | MD-25 | Xedap102 | 44 | M385–M386 | Lớp 12 → Lớp 12 | xong 19/11 |
 | MD-26 | chanh106 | 151 | M387–M397 | Ôn thi SAT → Ôn thi SAT | xong 19/11 |
-| MD-27 | hanibi108 | 164 | M398–M410 | Ôn thi ACT → Ôn thi AP PRECALCULUS | dở 122/164 (19/11) |
+| MD-27 | hanibi108 | 164 | M398–M410 | Ôn thi ACT → Ôn thi AP PRECALCULUS | xong 19/11 (42 câu cuối do Pro gắn) |
 | MD-28 | thaodebao1 | 119 | M411–M422 | Ôn thi AP CALCULUS → Ôn thi AP CALCULUS | xong 19/11 |
 | MD-29 | nguoibuonthinh | 133 | M423–M431 | Ôn thi AP CALCULUS → Ôn thi AP STATISTICS | xong 19/11 |
 | MD-30 | huongamuong1 | 161 | M432–M454 | Ôn thi IB AA → Ôn thi IGCSE | xong 19/11 |

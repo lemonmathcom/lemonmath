@@ -49,7 +49,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | Lemonmath112 | Lemonmath112-MD-1.txt | Lemonmath112-MD-1-ketqua.txt | MD-09: 133 câu, Lớp 5 → Lớp 6 | 44 KB | ☑ |
 | Lemonmath112 | Lemonmath112-MD-2.txt | Lemonmath112-MD-2-ketqua.txt | MD-24: 44 câu, Lớp 12 → Lớp 12 | 40 KB | ☑ |
 | hanibi108 | hanibi108-MD-1.txt | hanibi108-MD-1-ketqua.txt | MD-12: 119 câu, Lớp 7 → Lớp 8 | 45 KB | ☑ |
-| hanibi108 | hanibi108-MD-2.txt | hanibi108-MD-2-ketqua.txt | MD-27: 164 câu, Ôn thi ACT → Ôn thi AP PRECALCULUS | 45 KB | dở |
+| hanibi108 | hanibi108-MD-2.txt | hanibi108-MD-2-ketqua.txt | MD-27: 164 câu, Ôn thi ACT → Ôn thi AP PRECALCULUS | 45 KB | ☑ |
 | Xedap102 | Xedap102-MD-1.txt | Xedap102-MD-1-ketqua.txt | MD-10: 119 câu, Lớp 6 → Lớp 6 | 43 KB | ☑ |
 | Xedap102 | Xedap102-MD-2.txt | Xedap102-MD-2-ketqua.txt | MD-25: 44 câu, Lớp 12 → Lớp 12 | 44 KB | ☑ |
 | chanh106 | chanh106-MD-1.txt | chanh106-MD-1-ketqua.txt | MD-11: 105 câu, Lớp 6 → Lớp 7 | 42 KB | ☑ |

@@ -22,7 +22,7 @@ type: test
 ## Section I, Part A: không dùng máy tính
 
 :::quiz test
-::mc
+::mc TH
 Tốc độ biến thiên trung bình của $f(x)=x^3-2x$ trên đoạn $[-1,2]$ là
 A. $3$
 B. $-1$
@@ -31,7 +31,7 @@ D. $2$
 ::key C
 $f(2)=4$ và $f(-1)=1$, nên tốc độ biến thiên trung bình là $\dfrac{4-1}{2-(-1)}=1$. Phương án A quên chia cho độ dài $3$.
 
-::mc
+::mc TH
 Khẳng định nào mô tả đúng dáng điệu ở vô cực của $p(x)=-2x^4+x^3+5$?
 A. $\lim\limits_{x\to\infty}p(x)=-\infty$ và $\lim\limits_{x\to-\infty}p(x)=-\infty$
 B. $\lim\limits_{x\to\infty}p(x)=\infty$ và $\lim\limits_{x\to-\infty}p(x)=\infty$
@@ -40,7 +40,7 @@ D. $\lim\limits_{x\to\infty}p(x)=\infty$ và $\lim\limits_{x\to-\infty}p(x)=-\in
 ::key A
 Số hạng bậc cao nhất $-2x^4$ có bậc chẵn và hệ số âm, nên $p(x)\to-\infty$ ở cả hai phía.
 
-::mc
+::mc TH
 Đồ thị của đa thức $p(x)=(x-2)^2(x+1)(x+3)$ có đặc điểm gì tại $x=2$?
 A. Đồ thị cắt qua trục hoành.
 B. Đồ thị có tiệm cận đứng.
@@ -49,7 +49,7 @@ D. Đồ thị tiếp xúc với trục hoành nhưng không cắt qua.
 ::key D
 Nghiệm $x=2$ có bội chẵn ($2$), nên $p(x)$ không đổi dấu tại đó: đồ thị tiếp xúc với trục hoành rồi quay lại.
 
-::mc
+::mc VD
 Đa thức $p$ có $p(0)=1$, $p(1)=2$, $p(2)=9$, $p(3)=28$, $p(4)=65$. Bậc nhỏ nhất có thể của $p$ là
 A. $2$
 B. $3$
@@ -58,7 +58,7 @@ D. $1$
 ::key B
 Hiệu bậc một $1,7,19,37$; hiệu bậc hai $6,12,18$; hiệu bậc ba $6,6$ không đổi, nên bậc là $3$.
 
-::mc
+::mc TH
 Hàm số $f$ có $f(0)=2$, $f(1)=7$, $f(2)=10$ và $f(3)=11$. Dựa vào các giá trị này, trên $[0,3]$ hàm số $f$
 A. đồng biến và lõm lên
 B. nghịch biến và lõm xuống
@@ -67,7 +67,7 @@ D. đồng biến và lõm xuống
 ::key D
 Các giá trị tăng, và tốc độ trên các đoạn liên tiếp $5,3,1$ giảm dần: $f$ tăng với tốc độ giảm dần, nên đồ thị lõm xuống.
 
-::mc
+::mc TH
 Một đa thức hệ số thực có các nghiệm $3$ và $2+i$. Bậc nhỏ nhất có thể của đa thức là
 A. $3$
 B. $2$
@@ -76,7 +76,7 @@ D. $1$
 ::key A
 Nghiệm không thực của đa thức hệ số thực đi theo cặp liên hợp, nên $2-i$ cũng là nghiệm: có ít nhất $3$ nghiệm.
 
-::mc
+::mc VD
 Tiệm cận đứng của $r(x)=\dfrac{x^2-9}{x^2+x-6}$ có phương trình là
 A. $x=-3$
 B. $x=3$
@@ -85,7 +85,7 @@ D. $x=-2$
 ::key C
 $r(x)=\dfrac{(x-3)(x+3)}{(x+3)(x-2)}$. Nhân tử $x+3$ rút gọn được, cho điểm khuyết tại $x=-3$; tiệm cận là $x=2$.
 
-::mc
+::mc TH
 Tiệm cận ngang của $r(x)=\dfrac{6x^2+1}{3x^2-x}$ là
 A. $y=6$
 B. $y=2$
@@ -94,7 +94,7 @@ D. Không có tiệm cận ngang.
 ::key B
 Bậc tử bằng bậc mẫu, nên tiệm cận là tỉ số các hệ số bậc cao nhất, $\dfrac63=2$.
 
-::mc
+::mc TH
 Đồ thị của $g(x)=-f(x)+3$ nhận được từ đồ thị của $f$ như thế nào?
 A. Lấy đối xứng qua trục hoành, rồi tịnh tiến lên $3$ đơn vị
 B. Lấy đối xứng qua trục tung, rồi tịnh tiến lên $3$ đơn vị
@@ -103,7 +103,7 @@ D. Lấy đối xứng qua trục hoành, rồi tịnh tiến sang phải $3$ đ
 ::key A
 $-f(x)$ lấy đối xứng đồ thị qua trục hoành, rồi cộng $3$ thì tịnh tiến lên trên. Phương án C cho $-f(x)-3$.
 
-::mc
+::mc VD
 Tập nghiệm của $\dfrac{x-1}{x+3}\le0$ là
 A. $-3\le x\le1$
 B. $x<-3$ hoặc $x\ge1$
@@ -112,7 +112,7 @@ D. $-3<x\le1$
 ::key D
 Dấu đổi tại $x=-3$ và $x=1$; thương âm ở giữa hai giá trị này, bằng $0$ tại $x=1$ và không xác định tại $x=-3$.
 
-::mc
+::mc NB
 Một cấp số cộng có $a_1=7$ và công sai $-3$. Số hạng $a_{10}$ bằng
 A. $-23$
 B. $-20$
@@ -121,7 +121,7 @@ D. $37$
 ::key B
 $a_{10}=7+9(-3)=-20$. Phương án A dùng $10$ bước thay vì $9$.
 
-::mc
+::mc VD
 Một cấp số nhân có $g_2=6$ và $g_5=162$. Số hạng $g_1$ bằng
 A. $3$
 B. $18$
@@ -130,7 +130,7 @@ D. $1$
 ::key C
 $r^3=\dfrac{162}{6}=27$, nên $r=3$ và $g_1=\dfrac{6}{3}=2$.
 
-::mc
+::mc VD
 Hàm mũ $f(x)=ab^x$ đi qua $(0,4)$ và $(2,36)$. Giá trị $f(3)$ là
 A. $108$
 B. $72$
@@ -139,7 +139,7 @@ D. $144$
 ::key A
 $a=4$ và $4b^2=36$, nên $b=3$ và $f(3)=4\cdot27=108$.
 
-::mc
+::mc TH
 Biểu thức nào tương đương với $5\cdot4^{x/2}$?
 A. $5\cdot8^x$
 B. $10\cdot4^x$
@@ -148,7 +148,7 @@ D. $5\cdot2^x$
 ::key D
 $4^{x/2}=\left(4^{1/2}\right)^x=2^x$.
 
-::mc
+::mc TH
 Một đại lượng được mô hình hoá bởi $Q(t)=300(0{,}92)^t$. Khẳng định nào đúng?
 A. $Q$ giảm $92\%$ sau mỗi đơn vị của $t$.
 B. $Q$ giảm $0{,}92$ sau mỗi đơn vị của $t$.
@@ -157,7 +157,7 @@ D. $Q$ tăng $8\%$ sau mỗi đơn vị của $t$.
 ::key C
 Hệ số $0{,}92=1-0{,}08$ giữ lại $92\%$ mỗi chu kì, tức giảm $8\%$.
 
-::mc
+::mc NB
 Giá trị của $\log_2 48-\log_2 3$ là
 A. $4$
 B. $16$
@@ -166,7 +166,7 @@ D. $8$
 ::key A
 $\log_2\dfrac{48}{3}=\log_2 16=4$. Phương án A là biểu thức dưới dấu logarit, không phải logarit.
 
-::mc
+::mc NB
 Nghiệm của phương trình $3^{2x}=81$ là
 A. $x=4$
 B. $x=2$
@@ -175,7 +175,7 @@ D. $x=1$
 ::key B
 $81=3^4$, nên $2x=4$ và $x=2$.
 
-::mc
+::mc TH
 Nếu $f(x)=e^x+2$ thì $f^{-1}(x)$ là
 A. $\ln x-2$
 B. $\ln(x+2)$
@@ -184,7 +184,7 @@ D. $\ln(x-2)$
 ::key D
 Đổi chỗ: $x=e^y+2$, nên $e^y=x-2$ và $y=\ln(x-2)$.
 
-::mc
+::mc VD
 Trên một đồ thị bán logarit, dữ liệu nằm trên đường thẳng $\log y=2-0{,}5x$. Mô hình hàm mũ $y=ab^x$ của dữ liệu có $a$ bằng
 A. $100$
 B. $2$
@@ -193,7 +193,7 @@ D. $-0{,}5$
 ::key A
 $y=10^{2-0{,}5x}=10^2\cdot\left(10^{-0{,}5}\right)^x$, nên $a=100$.
 
-::mc
+::mc NB
 Chu kì của $y=4\sin\dfrac{\pi x}{5}+1$ là
 A. $5$
 B. $\dfrac{2\pi}{5}$
@@ -202,7 +202,7 @@ D. $\dfrac{\pi}{5}$
 ::key C
 Chu kì là $\dfrac{2\pi}{\pi/5}=10$.
 
-::mc
+::mc NB
 Giá trị của $\cos\dfrac{4\pi}{3}$ là
 A. $\dfrac12$
 B. $-\dfrac12$
@@ -211,7 +211,7 @@ D. $\dfrac{\sqrt3}{2}$
 ::key B
 $\dfrac{4\pi}{3}$ ở góc phần tư III với góc tham chiếu $\dfrac\pi3$, nơi cos âm: $-\dfrac12$.
 
-::mc
+::mc VD
 Một hàm dạng sin có giá trị lớn nhất $9$, nhỏ nhất $3$ và chu kì $4$. Hàm số đó có thể là
 A. $y=6\sin\dfrac{\pi x}{2}+3$
 B. $y=3\sin4x+6$
@@ -220,7 +220,7 @@ D. $y=3\sin\dfrac{\pi x}{2}+6$
 ::key D
 Đường trung bình $\dfrac{9+3}{2}=6$, biên độ $\dfrac{9-3}{2}=3$, và $b=\dfrac{2\pi}{4}=\dfrac\pi2$.
 
-::mc
+::mc TH
 Đường nào sau đây là tiệm cận đứng của $y=\tan\dfrac{x}{2}$?
 A. $x=\dfrac\pi2$
 B. $x=\pi$
@@ -229,7 +229,7 @@ D. $x=\dfrac\pi4$
 ::key B
 Tiệm cận xảy ra khi $\dfrac x2=\dfrac\pi2+k\pi$, tức $x=\pi+2k\pi$. Tại $x=2\pi$ hàm số bằng $0$.
 
-::mc
+::mc TH
 Góc $\theta$ ở góc phần tư II và $\sin\theta=\dfrac35$. Giá trị $\cos\theta$ là
 A. $-\dfrac45$
 B. $\dfrac45$
@@ -238,7 +238,7 @@ D. $\dfrac34$
 ::key A
 $\cos^2\theta=1-\dfrac{9}{25}=\dfrac{16}{25}$, và cos âm ở góc phần tư II.
 
-::mc
+::mc TH
 Nếu $\sin\theta=\dfrac35$ và $\cos\theta=-\dfrac45$ thì $\sin2\theta$ bằng
 A. $\dfrac{24}{25}$
 B. $\dfrac{7}{25}$
@@ -247,7 +247,7 @@ D. $-\dfrac65$
 ::key C
 $\sin2\theta=2\sin\theta\cos\theta=2\cdot\dfrac35\cdot\left(-\dfrac45\right)=-\dfrac{24}{25}$. Phương án C là $\cos2\theta$.
 
-::mc
+::mc NB
 Giá trị của $\arctan(-1)$ là
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{7\pi}{4}$
@@ -256,7 +256,7 @@ D. $-\dfrac\pi4$
 ::key D
 Tập giá trị của $\arctan$ là $\left(-\dfrac\pi2,\dfrac\pi2\right)$, và $\tan\left(-\dfrac\pi4\right)=-1$.
 
-::mc
+::mc VD
 Tất cả các nghiệm của $\sin x=-\dfrac{\sqrt3}{2}$ trên $[0,2\pi)$ là
 A. $\dfrac{\pi}{3}$ và $\dfrac{2\pi}{3}$
 B. $\dfrac{7\pi}{6}$ và $\dfrac{11\pi}{6}$
@@ -265,7 +265,7 @@ D. $\dfrac{2\pi}{3}$ và $\dfrac{4\pi}{3}$
 ::key C
 Góc tham chiếu là $\dfrac\pi3$ và sin âm ở góc phần tư III, IV: $\pi+\dfrac\pi3$ và $2\pi-\dfrac\pi3$.
 
-::mc
+::mc TH
 Với $\sin x\ne0$, biểu thức $\dfrac{1-\cos^2x}{\sin x}$ bằng
 A. $\cos x$
 B. $\sin x$
@@ -274,7 +274,7 @@ D. $\tan x$
 ::key B
 $1-\cos^2x=\sin^2x$, và $\dfrac{\sin^2x}{\sin x}=\sin x$.
 
-::mc
+::mc VD
 Toạ độ cực nào biểu diễn điểm có toạ độ vuông góc $(-3,-3)$?
 A. $\left(3\sqrt2,\dfrac{\pi}{4}\right)$
 B. $\left(3\sqrt2,\dfrac{3\pi}{4}\right)$
@@ -287,7 +287,7 @@ $r=\sqrt{9+9}=3\sqrt2$, và điểm ở góc phần tư III, nên $\theta=\dfrac
 ## Section I, Part B: dùng máy tính đồ thị
 
 :::quiz test
-::mc
+::mc TH
 Nghiệm thực lớn nhất của $f(x)=x^3-4x+1$ là
 A. $1{,}861$
 B. $0{,}254$
@@ -296,7 +296,7 @@ D. $1{,}732$
 ::key A
 Vẽ đồ thị cho ba nghiệm, khoảng $-2{,}115$, $0{,}254$ và $1{,}861$.
 
-::mc
+::mc TH
 Tốc độ biến thiên trung bình của $f(x)=2^x+x$ trên $[1,4]$ là
 A. $17$
 B. $6{,}667$
@@ -305,7 +305,7 @@ D. $4{,}250$
 ::key C
 $f(4)=20$ và $f(1)=3$, nên $\dfrac{20-3}{3}\approx5{,}667$.
 
-::mc
+::mc VD
 Nghiệm dương của phương trình $\dfrac{2x+1}{x-3}=x$ là
 A. $-0{,}193$
 B. $5{,}193$
@@ -314,7 +314,7 @@ D. $6{,}193$
 ::key B
 Nhân chéo được $x^2-5x-1=0$, nên $x=\dfrac{5\pm\sqrt{29}}{2}$; giá trị dương xấp xỉ $5{,}193$.
 
-::mc
+::mc VD
 Giá trị nhỏ nhất của $r(x)=\dfrac{x^2+4}{x}$ với $x>0$ là
 A. $2$
 B. $5$
@@ -323,7 +323,7 @@ D. $4$
 ::key D
 Đồ thị đạt cực tiểu tại $x=2$, với $r(2)=\dfrac{8}{2}=4$. Phương án A là hoành độ, không phải giá trị nhỏ nhất.
 
-::mc
+::mc VD
 Dân số một thị trấn là $1200$ tại $t=0$ và $2000$ tại $t=6$ năm. Với mô hình $P(t)=ab^t$, giá trị $b$ là
 A. $1{,}089$
 B. $1{,}667$
@@ -332,7 +332,7 @@ D. $0{,}918$
 ::key A
 $b^6=\dfrac{2000}{1200}=\dfrac53$, nên $b=\left(\dfrac53\right)^{1/6}\approx1{,}089$.
 
-::mc
+::mc VD
 Một tài khoản bắt đầu với $5000$ đô la và tăng $3{,}5\%$ mỗi năm. Giá trị $t$ thoả mãn $5000(1{,}035)^t=8000$ là
 A. $17{,}143$
 B. $13{,}662$
@@ -341,7 +341,7 @@ D. $1{,}600$
 ::key B
 $t=\dfrac{\ln1{,}6}{\ln1{,}035}\approx13{,}662$. Phương án A cộng $3{,}5\%$ của $5000$ mỗi năm, tức mô hình tuyến tính.
 
-::mc
+::mc TH
 Nghiệm của phương trình $\ln(x+1)=2{,}5$ là
 A. $12{,}182$
 B. $1{,}500$
@@ -350,7 +350,7 @@ D. $0{,}916$
 ::key C
 $x+1=e^{2{,}5}\approx12{,}182$, nên $x\approx11{,}182$.
 
-::mc
+::mc TH
 Nghiệm của phương trình $\log_3x=1{,}7$ là
 A. $6{,}473$
 B. $5{,}100$
@@ -359,7 +359,7 @@ D. $0{,}483$
 ::key A
 $x=3^{1{,}7}\approx6{,}473$. Phương án A nhân thay vì nâng lên luỹ thừa.
 
-::mc
+::mc VD
 Trên đồ thị bán logarit (cơ số $10$), dữ liệu nằm trên một đường thẳng có hệ số góc $0{,}12$. Khi $x$ tăng $1$ thì $y$ được nhân với
 A. $0{,}120$
 B. $1{,}127$
@@ -368,7 +368,7 @@ D. $1{,}318$
 ::key D
 Hệ số góc là $\log b$, nên $b=10^{0{,}12}\approx1{,}318$. Phương án C dùng cơ số $e$.
 
-::mc
+::mc VDC
 Độ cao của một điểm trên bánh xe là $h(t)=10+8\sin\dfrac{\pi t}{6}$. Thời điểm $t>0$ đầu tiên mà $h(t)=15$ là
 A. $0{,}675$
 B. $4{,}711$
@@ -377,7 +377,7 @@ D. $1{,}194$
 ::key C
 $\sin\dfrac{\pi t}{6}=0{,}625$, nên $\dfrac{\pi t}{6}=\arcsin0{,}625\approx0{,}6751$ và $t\approx1{,}289$. Phương án A là góc, không phải thời gian.
 
-::mc
+::mc TH
 Mô hình nhiệt độ là $T(t)=18+7\cos\dfrac{\pi(t-15)}{12}$, với $t$ là số giờ sau nửa đêm. Giá trị $T(10)$ là
 A. $24{,}761$
 B. $19{,}812$
@@ -386,7 +386,7 @@ D. $25{,}000$
 ::key B
 $T(10)=18+7\cos\left(-\dfrac{5\pi}{12}\right)\approx18+7(0{,}2588)\approx19{,}812$, ở chế độ radian.
 
-::mc
+::mc TH
 Nghiệm của $3\cos x=1$ trên $[0,\pi]$ là
 A. $0{,}340$
 B. $1{,}911$
@@ -395,7 +395,7 @@ D. $1{,}231$
 ::key D
 $x=\arccos\dfrac13\approx1{,}231$, thuộc $[0,\pi]$.
 
-::mc
+::mc VD
 Với hàm cực $r=2+3\cos\theta$, tốc độ biến thiên trung bình của $r$ trên $\left[0,\dfrac\pi3\right]$ là
 A. $-1{,}432$
 B. $-1{,}500$
