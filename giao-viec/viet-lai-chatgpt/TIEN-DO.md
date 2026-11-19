@@ -32,9 +32,9 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B116 | 6 | data-collection | Thu thập, phân loại và biểu diễn dữ liệu | xong 13/11 |
 | B117 | 6 | g6-bar-charts | Biểu đồ cột | xong 13/11 |
 | B118 | 6 | outcomes-and-events | Kết quả có thể xảy ra và sự kiện trong trò chơi, thí nghiệm | xong 13/11 |
-| B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
+| B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | xong 19/11 (đã đăng) |
 | B120 | 7 | rational-number-operations | Các phép tính với số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
-| B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
+| B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | xong 19/11 (đã đăng) |
 | B122 | 7 | operations-and-transposition | Thứ tự thực hiện phép tính và quy tắc chuyển vế | xong 17/11 (đã đăng) |
 | B123 | 7 | recurring-decimals | Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn | xong 17/11 (đã đăng) |
 | B124 | 7 | set-of-real-numbers | Tập hợp các số thực | xong 17/11 (đã đăng) |
@@ -44,8 +44,8 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B128 | 7 | triangle-angle-sum | Tổng ba góc trong một tam giác | xong 17/11 (đã đăng) |
 | B129 | 7 | congruent-triangles-sss | Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh | xong 17/11 (đã đăng) |
 | B130 | 7 | congruence-sas-asa | Trường hợp cạnh–góc–cạnh và góc–cạnh–góc | xong 17/11 (đã đăng) |
-| B131 | 7 | right-triangle-congruence | Các trường hợp bằng nhau của tam giác vuông | giao Vinax.vn (đợt 2, 13/11) |
-| B132 | 7 | isosceles-perpendicular-bisector | Tam giác cân và đường trung trực của đoạn thẳng | giao Vinax.vn (đợt 2, 13/11) |
+| B131 | 7 | right-triangle-congruence | Các trường hợp bằng nhau của tam giác vuông | xong 19/11 (đã đăng) |
+| B132 | 7 | isosceles-perpendicular-bisector | Tam giác cân và đường trung trực của đoạn thẳng | xong 19/11 (đã đăng) |
 | B133 | 7 | g7-collecting-classifying-data | Thu thập và phân loại dữ liệu | giao Nguyenchanh2358 (đợt 2, 13/11) |
 | B134 | 7 | line-graphs | Biểu đồ đoạn thẳng | giao Nguyenchanh2358 (đợt 2, 13/11) |
 | B135 | 7 | proportions | Tỉ lệ thức | xong 17/11 (đã đăng) |
