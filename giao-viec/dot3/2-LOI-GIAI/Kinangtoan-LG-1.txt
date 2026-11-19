@@ -187,6 +187,22 @@ Quy tắc:
 [ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
 [ ] Mọi phép tính đã được Python tính lại và khớp.
 
+==================================================================
+LƯU Ý RIÊNG CHO CÁC BÀI LỚP 1–5 (TIỂU HỌC) TRONG FILE NÀY
+==================================================================
+Bài tiểu học không cần "gọi ẩn", "điều kiện". Thay vào đó:
+- Bài toán có lời văn: trình bày như SGK tiểu học, mỗi ý một đoạn:
+      Bài giải
+      Số quả cam còn lại là:
+      $$12-5=7\ \text{(quả)}$$
+      **Đáp số.** $7$ quả cam.
+  Bản Anh: "Solution" → "The number of oranges left is:" → phép tính → **Answer.** $7$ oranges.
+  Bài hai bước thì hai câu lời giải, hai phép tính.
+- Bài tính, đặt tính, so sánh: viết phép tính, nói ngắn vì sao (ví dụ "Cộng hàng đơn vị trước: $7+5=12$,
+  viết $2$ nhớ $1$."), có bước thử lại khi hợp lí, rồi một câu kết bằng "Vậy …" (EN "So …").
+- Câu ngắn, từ ngữ quen thuộc với học sinh nhỏ; xưng "em" nếu cần nói với học sinh; không dùng thuật ngữ trên lớp.
+- Dòng cuối VẪN LÀ **Đáp số.** … (EN **Answer.** …) để máy ghép được; giữ đúng đáp số cũ.
+
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
 - g1/add-1-digit-to-2-digit (8 bài tập)

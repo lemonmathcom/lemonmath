@@ -22,7 +22,8 @@ Mã đề (id): chữ thường, không dấu, nối bằng gạch ngang:
   kd-thpt-2025-chinh-thuc          kd-thpt-2026-thi-thu-so-ha-noi
   kd-vao10-2025-ha-noi             kd-vao10-2025-tp-hcm
   kd-hk1-l8-2025-thcs-xyz-ha-noi   kd-ghk1-l10-2025-thpt-abc-nghe-an
-Hai file kết quả: <mã đề>.vi.md và <mã đề>.en.md (ghi vào /mnt/user-data/outputs rồi đưa đường dẫn tải).
+Hai file kết quả: {OUT}.vi.md (bản Việt) và {OUT}.en.md (bản Anh), ghi vào /mnt/user-data/outputs rồi đưa đường dẫn tải.
+Ghi mã đề vào dòng đầu tiên của mỗi file, dạng: <!-- id: kd-vao10-2025-ha-noi --> (ngay trên dòng ---).
 
 Đầu file (bản Việt):
 ---
@@ -110,3 +111,4 @@ right A H C
 - Làm lần lượt: phần trắc nghiệm (nếu có) rồi từng bài tự luận; mỗi lượt trả lời làm một phần để không bị
   cắt ngang, ghi NỐI TIẾP vào file kết quả, báo một dòng "Đã xong … Gõ 'tiếp' để làm phần sau."
 - Xong bản Việt mới làm bản Anh. Cuối cùng đưa đường dẫn tải HAI file và liệt kê mọi dòng GHI CHÚ.
+- Bị gián đoạn: khi được nhắc "tiếp", đọc lại file kết quả trong /mnt/user-data/outputs để biết đã làm tới đâu.

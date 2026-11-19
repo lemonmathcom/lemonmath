@@ -63,46 +63,46 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 
 | Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |
 |---|---|---|---|---|---|
-| Kinangtoan | Kinangtoan-LG-1.txt | Kinangtoan-LG-1-ketqua.md | Lớp 1: 32 bài tập, 4 bài học | 29 KB | ☐ |
-| Kinangtoan | Kinangtoan-LG-2.txt | Kinangtoan-LG-2-ketqua.md | Lớp 1: 40 bài tập, 5 bài học | 38 KB | ☐ |
-| Kinangtoan | Kinangtoan-LG-3.txt | Kinangtoan-LG-3-ketqua.md | Lớp 1: 32 bài tập, 4 bài học | 31 KB | ☐ |
-| Kinangtoan | Kinangtoan-LG-4.txt | Kinangtoan-LG-4-ketqua.md | Lớp 1: 40 bài tập, 5 bài học | 35 KB | ☐ |
-| Kinangtoan | Kinangtoan-LG-5.txt | Kinangtoan-LG-5-ketqua.md | Lớp 1 → Lớp 2: 32 bài tập, 4 bài học | 33 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-LG-1.txt | Alexnguyen122222-LG-1-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 35 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-LG-2.txt | Alexnguyen122222-LG-2-ketqua.md | Lớp 2: 40 bài tập, 5 bài học | 43 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-LG-3.txt | Alexnguyen122222-LG-3-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 32 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-LG-4.txt | Alexnguyen122222-LG-4-ketqua.md | Lớp 2: 38 bài tập, 5 bài học | 38 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-LG-5.txt | Alexnguyen122222-LG-5-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 33 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-LG-1.txt | thichgiaitoan-LG-1-ketqua.md | Lớp 2: 31 bài tập, 4 bài học | 32 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-LG-2.txt | thichgiaitoan-LG-2-ketqua.md | Lớp 2 → Lớp 3: 35 bài tập, 4 bài học | 36 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-LG-3.txt | thichgiaitoan-LG-3-ketqua.md | Lớp 3: 36 bài tập, 4 bài học | 39 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-LG-4.txt | thichgiaitoan-LG-4-ketqua.md | Lớp 3: 38 bài tập, 5 bài học | 42 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-LG-5.txt | thichgiaitoan-LG-5-ketqua.md | Lớp 3: 32 bài tập, 4 bài học | 36 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-LG-1.txt | Lemonmath.com-LG-1-ketqua.md | Lớp 3: 40 bài tập, 5 bài học | 46 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-LG-2.txt | Lemonmath.com-LG-2-ketqua.md | Lớp 3: 31 bài tập, 4 bài học | 33 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-LG-3.txt | Lemonmath.com-LG-3-ketqua.md | Lớp 3: 39 bài tập, 5 bài học | 44 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-LG-4.txt | Lemonmath.com-LG-4-ketqua.md | Lớp 3: 38 bài tập, 5 bài học | 43 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-LG-5.txt | Lemonmath.com-LG-5-ketqua.md | Lớp 3: 32 bài tập, 4 bài học | 34 KB | ☐ |
-| Vinax.vn | Vinax.vn-LG-1.txt | Vinax.vn-LG-1-ketqua.md | Lớp 3 → Lớp 4: 34 bài tập, 4 bài học | 39 KB | ☐ |
-| Vinax.vn | Vinax.vn-LG-2.txt | Vinax.vn-LG-2-ketqua.md | Lớp 4: 37 bài tập, 4 bài học | 37 KB | ☐ |
-| Vinax.vn | Vinax.vn-LG-3.txt | Vinax.vn-LG-3-ketqua.md | Lớp 4: 36 bài tập, 4 bài học | 35 KB | ☐ |
-| Vinax.vn | Vinax.vn-LG-4.txt | Vinax.vn-LG-4-ketqua.md | Lớp 4: 38 bài tập, 4 bài học | 41 KB | ☐ |
-| Vinax.vn | Vinax.vn-LG-5.txt | Vinax.vn-LG-5-ketqua.md | Lớp 4: 30 bài tập, 3 bài học | 32 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-LG-1.txt | Nguyenchanh2358-LG-1-ketqua.md | Lớp 4: 35 bài tập, 4 bài học | 39 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-LG-2.txt | Nguyenchanh2358-LG-2-ketqua.md | Lớp 4: 33 bài tập, 4 bài học | 40 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-LG-3.txt | Nguyenchanh2358-LG-3-ketqua.md | Lớp 4: 34 bài tập, 4 bài học | 39 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-LG-4.txt | Nguyenchanh2358-LG-4-ketqua.md | Lớp 4: 35 bài tập, 4 bài học | 43 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-LG-5.txt | Nguyenchanh2358-LG-5-ketqua.md | Lớp 4 → Lớp 5: 36 bài tập, 4 bài học | 39 KB | ☐ |
-| Vinax258 | Vinax258-LG-1.txt | Vinax258-LG-1-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 40 KB | ☐ |
-| Vinax258 | Vinax258-LG-2.txt | Vinax258-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 37 KB | ☐ |
-| Vinax258 | Vinax258-LG-3.txt | Vinax258-LG-3-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 40 KB | ☐ |
-| Vinax258 | Vinax258-LG-4.txt | Vinax258-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 41 KB | ☐ |
-| Vinax258 | Vinax258-LG-5.txt | Vinax258-LG-5-ketqua.md | Lớp 5: 33 bài tập, 4 bài học | 39 KB | ☐ |
-| Vimus2358 | Vimus2358-LG-1.txt | Vimus2358-LG-1-ketqua.md | Lớp 5: 39 bài tập, 4 bài học | 41 KB | ☐ |
-| Vimus2358 | Vimus2358-LG-2.txt | Vimus2358-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 31 KB | ☐ |
-| Vimus2358 | Vimus2358-LG-3.txt | Vimus2358-LG-3-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 42 KB | ☐ |
-| Vimus2358 | Vimus2358-LG-4.txt | Vimus2358-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 41 KB | ☐ |
-| Vimus2358 | Vimus2358-LG-5.txt | Vimus2358-LG-5-ketqua.md | Lớp 5 → Lớp 7: 36 bài tập, 8 bài học | 46 KB | ☐ |
+| Kinangtoan | Kinangtoan-LG-1.txt | Kinangtoan-LG-1-ketqua.md | Lớp 1: 32 bài tập, 4 bài học | 30 KB | ☐ |
+| Kinangtoan | Kinangtoan-LG-2.txt | Kinangtoan-LG-2-ketqua.md | Lớp 1: 40 bài tập, 5 bài học | 40 KB | ☐ |
+| Kinangtoan | Kinangtoan-LG-3.txt | Kinangtoan-LG-3-ketqua.md | Lớp 1: 32 bài tập, 4 bài học | 32 KB | ☐ |
+| Kinangtoan | Kinangtoan-LG-4.txt | Kinangtoan-LG-4-ketqua.md | Lớp 1: 40 bài tập, 5 bài học | 36 KB | ☐ |
+| Kinangtoan | Kinangtoan-LG-5.txt | Kinangtoan-LG-5-ketqua.md | Lớp 1 → Lớp 2: 32 bài tập, 4 bài học | 34 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-LG-1.txt | Alexnguyen122222-LG-1-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 36 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-LG-2.txt | Alexnguyen122222-LG-2-ketqua.md | Lớp 2: 40 bài tập, 5 bài học | 44 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-LG-3.txt | Alexnguyen122222-LG-3-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 33 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-LG-4.txt | Alexnguyen122222-LG-4-ketqua.md | Lớp 2: 38 bài tập, 5 bài học | 39 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-LG-5.txt | Alexnguyen122222-LG-5-ketqua.md | Lớp 2: 32 bài tập, 4 bài học | 34 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-LG-1.txt | thichgiaitoan-LG-1-ketqua.md | Lớp 2: 31 bài tập, 4 bài học | 33 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-LG-2.txt | thichgiaitoan-LG-2-ketqua.md | Lớp 2 → Lớp 3: 35 bài tập, 4 bài học | 37 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-LG-3.txt | thichgiaitoan-LG-3-ketqua.md | Lớp 3: 36 bài tập, 4 bài học | 40 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-LG-4.txt | thichgiaitoan-LG-4-ketqua.md | Lớp 3: 38 bài tập, 5 bài học | 43 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-LG-5.txt | thichgiaitoan-LG-5-ketqua.md | Lớp 3: 32 bài tập, 4 bài học | 38 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-LG-1.txt | Lemonmath.com-LG-1-ketqua.md | Lớp 3: 40 bài tập, 5 bài học | 47 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-LG-2.txt | Lemonmath.com-LG-2-ketqua.md | Lớp 3: 31 bài tập, 4 bài học | 34 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-LG-3.txt | Lemonmath.com-LG-3-ketqua.md | Lớp 3: 39 bài tập, 5 bài học | 46 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-LG-4.txt | Lemonmath.com-LG-4-ketqua.md | Lớp 3: 38 bài tập, 5 bài học | 44 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-LG-5.txt | Lemonmath.com-LG-5-ketqua.md | Lớp 3: 32 bài tập, 4 bài học | 35 KB | ☐ |
+| Vinax.vn | Vinax.vn-LG-1.txt | Vinax.vn-LG-1-ketqua.md | Lớp 3 → Lớp 4: 34 bài tập, 4 bài học | 40 KB | ☐ |
+| Vinax.vn | Vinax.vn-LG-2.txt | Vinax.vn-LG-2-ketqua.md | Lớp 4: 37 bài tập, 4 bài học | 38 KB | ☐ |
+| Vinax.vn | Vinax.vn-LG-3.txt | Vinax.vn-LG-3-ketqua.md | Lớp 4: 36 bài tập, 4 bài học | 37 KB | ☐ |
+| Vinax.vn | Vinax.vn-LG-4.txt | Vinax.vn-LG-4-ketqua.md | Lớp 4: 38 bài tập, 4 bài học | 42 KB | ☐ |
+| Vinax.vn | Vinax.vn-LG-5.txt | Vinax.vn-LG-5-ketqua.md | Lớp 4: 30 bài tập, 3 bài học | 33 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-LG-1.txt | Nguyenchanh2358-LG-1-ketqua.md | Lớp 4: 35 bài tập, 4 bài học | 40 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-LG-2.txt | Nguyenchanh2358-LG-2-ketqua.md | Lớp 4: 33 bài tập, 4 bài học | 41 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-LG-3.txt | Nguyenchanh2358-LG-3-ketqua.md | Lớp 4: 34 bài tập, 4 bài học | 40 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-LG-4.txt | Nguyenchanh2358-LG-4-ketqua.md | Lớp 4: 35 bài tập, 4 bài học | 44 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-LG-5.txt | Nguyenchanh2358-LG-5-ketqua.md | Lớp 4 → Lớp 5: 36 bài tập, 4 bài học | 41 KB | ☐ |
+| Vinax258 | Vinax258-LG-1.txt | Vinax258-LG-1-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 41 KB | ☐ |
+| Vinax258 | Vinax258-LG-2.txt | Vinax258-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 39 KB | ☐ |
+| Vinax258 | Vinax258-LG-3.txt | Vinax258-LG-3-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 41 KB | ☐ |
+| Vinax258 | Vinax258-LG-4.txt | Vinax258-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 43 KB | ☐ |
+| Vinax258 | Vinax258-LG-5.txt | Vinax258-LG-5-ketqua.md | Lớp 5: 33 bài tập, 4 bài học | 40 KB | ☐ |
+| Vimus2358 | Vimus2358-LG-1.txt | Vimus2358-LG-1-ketqua.md | Lớp 5: 39 bài tập, 4 bài học | 43 KB | ☐ |
+| Vimus2358 | Vimus2358-LG-2.txt | Vimus2358-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 33 KB | ☐ |
+| Vimus2358 | Vimus2358-LG-3.txt | Vimus2358-LG-3-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 44 KB | ☐ |
+| Vimus2358 | Vimus2358-LG-4.txt | Vimus2358-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 42 KB | ☐ |
+| Vimus2358 | Vimus2358-LG-5.txt | Vimus2358-LG-5-ketqua.md | Lớp 5 → Lớp 7: 36 bài tập, 8 bài học | 47 KB | ☐ |
 | Lemonmath112 | Lemonmath112-LG-1.txt | Lemonmath112-LG-1-ketqua.md | Lớp 7: 35 bài tập, 9 bài học | 59 KB | ☐ |
 | Lemonmath112 | Lemonmath112-LG-2.txt | Lemonmath112-LG-2-ketqua.md | Lớp 7 → Lớp 8: 33 bài tập, 9 bài học | 51 KB | ☐ |
 | Lemonmath112 | Lemonmath112-LG-3.txt | Lemonmath112-LG-3-ketqua.md | Lớp 8: 36 bài tập, 7 bài học | 48 KB | ☐ |
@@ -208,18 +208,18 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 
 | Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |
 |---|---|---|---|---|---|
-| Kinangtoan | Kinangtoan-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề thi tốt nghiệp THPT 2025 môn Toán chính thức (một mã đề) | 6 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề minh họa thi tốt nghiệp THPT 2025 môn Toán của Bộ GD&ĐT | 6 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (Sở GD&ĐT Hà Nội hoặc một Sở khác) | 6 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (một trường THPT chuyên) | 6 KB | ☐ |
-| Vinax.vn | Vinax.vn-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (một Sở GD&ĐT phía Nam) | 6 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Hà Nội | 6 KB | ☐ |
-| Vinax258 | Vinax258-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 TP Hồ Chí Minh | 6 KB | ☐ |
-| Vimus2358 | Vimus2358-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Đà Nẵng | 6 KB | ☐ |
-| Lemonmath112 | Lemonmath112-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Nghệ An | 6 KB | ☐ |
-| hanibi108 | hanibi108-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Hải Phòng | 6 KB | ☐ |
-| Xedap102 | Xedap102-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề cuối học kì 1 Toán 6 | 6 KB | ☐ |
-| chanh106 | chanh106-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề cuối học kì 1 Toán 7 | 6 KB | ☐ |
-| thaodebao1 | thaodebao1-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề cuối học kì 1 Toán 8 | 6 KB | ☐ |
-| nguoibuonthinh | nguoibuonthinh-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề cuối học kì 1 Toán 9 | 6 KB | ☐ |
-| huongamuong1 | huongamuong1-KD-1.txt | <mã đề>.vi.md và <mã đề>.en.md | Đề giữa học kì 1 Toán 10 | 6 KB | ☐ |
+| Kinangtoan | Kinangtoan-KD-1.txt | Kinangtoan-KD-1-ketqua.vi.md + .en.md | Đề thi tốt nghiệp THPT 2025 môn Toán chính thức (một mã đề) | 6 KB | ☐ |
+| Alexnguyen122222 | Alexnguyen122222-KD-1.txt | Alexnguyen122222-KD-1-ketqua.vi.md + .en.md | Đề minh họa thi tốt nghiệp THPT 2025 môn Toán của Bộ GD&ĐT | 6 KB | ☐ |
+| thichgiaitoan | thichgiaitoan-KD-1.txt | thichgiaitoan-KD-1-ketqua.vi.md + .en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (Sở GD&ĐT Hà Nội hoặc một Sở khác) | 6 KB | ☐ |
+| Lemonmath.com | Lemonmath.com-KD-1.txt | Lemonmath.com-KD-1-ketqua.vi.md + .en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (một trường THPT chuyên) | 6 KB | ☐ |
+| Vinax.vn | Vinax.vn-KD-1.txt | Vinax.vn-KD-1-ketqua.vi.md + .en.md | Đề thi thử tốt nghiệp THPT 2026 môn Toán (một Sở GD&ĐT phía Nam) | 6 KB | ☐ |
+| Nguyenchanh2358 | Nguyenchanh2358-KD-1.txt | Nguyenchanh2358-KD-1-ketqua.vi.md + .en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Hà Nội | 6 KB | ☐ |
+| Vinax258 | Vinax258-KD-1.txt | Vinax258-KD-1-ketqua.vi.md + .en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 TP Hồ Chí Minh | 6 KB | ☐ |
+| Vimus2358 | Vimus2358-KD-1.txt | Vimus2358-KD-1-ketqua.vi.md + .en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Đà Nẵng | 6 KB | ☐ |
+| Lemonmath112 | Lemonmath112-KD-1.txt | Lemonmath112-KD-1-ketqua.vi.md + .en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Nghệ An | 6 KB | ☐ |
+| hanibi108 | hanibi108-KD-1.txt | hanibi108-KD-1-ketqua.vi.md + .en.md | Đề tuyển sinh lớp 10 môn Toán năm 2025 Hải Phòng | 6 KB | ☐ |
+| Xedap102 | Xedap102-KD-1.txt | Xedap102-KD-1-ketqua.vi.md + .en.md | Đề cuối học kì 1 Toán 6 | 6 KB | ☐ |
+| chanh106 | chanh106-KD-1.txt | chanh106-KD-1-ketqua.vi.md + .en.md | Đề cuối học kì 1 Toán 7 | 6 KB | ☐ |
+| thaodebao1 | thaodebao1-KD-1.txt | thaodebao1-KD-1-ketqua.vi.md + .en.md | Đề cuối học kì 1 Toán 8 | 6 KB | ☐ |
+| nguoibuonthinh | nguoibuonthinh-KD-1.txt | nguoibuonthinh-KD-1-ketqua.vi.md + .en.md | Đề cuối học kì 1 Toán 9 | 6 KB | ☐ |
+| huongamuong1 | huongamuong1-KD-1.txt | huongamuong1-KD-1-ketqua.vi.md + .en.md | Đề giữa học kì 1 Toán 10 | 6 KB | ☐ |

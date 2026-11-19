@@ -60,6 +60,25 @@ LG_BRIEF = U.PACK_BRIEF
 GV_HEAD = G.HEADER
 
 
+PRIMARY = '''
+==================================================================
+LƯU Ý RIÊNG CHO CÁC BÀI LỚP 1–5 (TIỂU HỌC) TRONG FILE NÀY
+==================================================================
+Bài tiểu học không cần "gọi ẩn", "điều kiện". Thay vào đó:
+- Bài toán có lời văn: trình bày như SGK tiểu học, mỗi ý một đoạn:
+      Bài giải
+      Số quả cam còn lại là:
+      $$12-5=7\\ \\text{(quả)}$$
+      **Đáp số.** $7$ quả cam.
+  Bản Anh: "Solution" → "The number of oranges left is:" → phép tính → **Answer.** $7$ oranges.
+  Bài hai bước thì hai câu lời giải, hai phép tính.
+- Bài tính, đặt tính, so sánh: viết phép tính, nói ngắn vì sao (ví dụ "Cộng hàng đơn vị trước: $7+5=12$,
+  viết $2$ nhớ $1$."), có bước thử lại khi hợp lí, rồi một câu kết bằng "Vậy …" (EN "So …").
+- Câu ngắn, từ ngữ quen thuộc với học sinh nhỏ; xưng "em" nếu cần nói với học sinh; không dùng thuật ngữ trên lớp.
+- Dòng cuối VẪN LÀ **Đáp số.** … (EN **Answer.** …) để máy ghép được; giữ đúng đáp số cũ.
+'''
+
+
 def lg_file(acc, tag, items):
     out = tag + '-ketqua.md'
     body = (LG_BRIEF.replace('{GOI}', tag).replace('{SO_BAI}', str(sum(n for _, _, n in items)))
@@ -67,6 +86,7 @@ def lg_file(acc, tag, items):
     body = body.replace('Người làm: ChatGPT.', 'Người làm: tài khoản %s.' % acc)
     body = body.replace('/mnt/data/NC-ChatGPT-%s.md' % tag, '/mnt/user-data/outputs/' + out)
     body = body.replace('NC-ChatGPT-%s.md' % tag, out).replace('ChatGPT', 'Claude')
+    if any(re.match(r'g[1-5]/', r) for r, _, _ in items): body += PRIMARY
     body += '\n\n===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====\n' + '\n'.join('- %s (%d bài tập)' % (r, n) for r, _, n in items)
     body += '\n\n===== NỘI DUNG CẦN LÀM =====' + ''.join(b for _, b, _ in items) + '\n\n===== HẾT FILE %s =====\n' % tag
     return intro(acc, tag, out, 'viết lại lời giải bài tập (chuẩn 2e)') + body, out
@@ -112,9 +132,9 @@ def kd_file(acc, tag, kind, paper):
     head = ('#' * 70 + '\nTÀI KHOẢN: %s   |   FILE: %s   |   VIỆC: chuyển đề thi thật thành trang Kho đề thi (%s)\n' % (acc, tag, title) +
             'Chủ dự án: tải đề (PDF) từ toanmath.com, mở MỘT cuộc trò chuyện MỚI, đính kèm file này + file PDF đề,\n'
             'gõ: "Làm đúng theo hướng dẫn trong file, với đề đính kèm."\n'
-            'Kết quả: hai file <mã đề>.vi.md và <mã đề>.en.md, lưu vào Dropbox Lemonmath.com/viec da lam\n'
+            'Kết quả: hai file %s-ketqua.vi.md và %s-ketqua.en.md, lưu vào Dropbox Lemonmath.com/viec da lam\n' % (tag, tag) +
             'Đề cần làm:\n%s\n' % lst + '#' * 70 + '\n\n')
-    return head + KD_BRIEF.replace('{ACC}', acc).replace('{CHUONG}', title)
+    return head + KD_BRIEF.replace('{ACC}', acc).replace('{CHUONG}', title).replace('{OUT}', tag + '-ketqua')
 
 
 PHASES = [('1-MUC-DO', 'MD', 'Gắn mức độ nhận thức cho câu trắc nghiệm'),
@@ -201,7 +221,7 @@ def main():
     for a, (kind, paper) in zip(ACCS, KD_LIST):
         tag = '%s-KD-1' % a
         txt = kd_file(a, tag, kind, paper)
-        board['4-KHO-DE'].append((a, tag + '.txt', '<mã đề>.vi.md và <mã đề>.en.md', paper, save('4-KHO-DE', tag + '.txt', txt)))
+        board['4-KHO-DE'].append((a, tag + '.txt', tag + '-ketqua.vi.md + .en.md', paper, save('4-KHO-DE', tag + '.txt', txt)))
 
     write_board(board)
     mark_tables(gv_owner)
