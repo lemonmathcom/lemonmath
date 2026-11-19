@@ -1,0 +1,1249 @@
+# Gói MD-12 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 9 → Lớp 9)
+
+Tài khoản thực hiện: Tai-khoan-12
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-12 (147 câu)
+
+## Các câu hỏi
+
+### M253 · Lớp 9 · Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn
+
+[M253.1] Nhiều lựa chọn
+Phương trình nào sau đây là phương trình bậc nhất hai ẩn?
+A. $x^2-y=1$.
+B. $0x+0y=2$.
+C. $2x+0y=6$.
+D. $xy=3$.
+::key C
+Hệ số của $x$ khác $0$. B có cả hai hệ số bằng $0$; A, D có số hạng bậc hai.
+
+[M253.2] Nhiều lựa chọn
+Cặp số nào là nghiệm của phương trình $x-3y=2$?
+A. $(5; 1)$.
+B. $(1; 5)$.
+C. $(2; 1)$.
+D. $(-1; 1)$.
+::key A
+$5-3\cdot1=2$. Phương án B đảo thứ tự $x$, $y$; D cho $-1-3=-4$ (nếu tính sai dấu sẽ ra $-1+3=2$).
+
+[M253.3] Nhiều lựa chọn
+Đường thẳng biểu diễn tập nghiệm của phương trình $0x+2y=-4$ là
+A. đường thẳng $x=-2$.
+B. đường thẳng $y=-2$.
+C. đường thẳng $y=2x-4$.
+D. đường thẳng $y=-4$.
+::key B
+$2y=-4\iff y=-2$. Phương án A nhầm $x$ với $y$; D quên chia cho $2$.
+
+[M253.4] Nhiều lựa chọn
+Cặp số nào là nghiệm của hệ $\begin{cases} x+y=5\\ 2x-y=1 \end{cases}$?
+A. $(1; 1)$.
+B. $(3; 2)$.
+C. $(1; 4)$.
+D. $(2; 3)$.
+::key D
+$2+3=5$ và $4-3=1$. Các phương án B, C chỉ thoả mãn phương trình thứ nhất, A chỉ thoả mãn phương trình thứ hai.
+
+[M253.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $2x+y=7$.
+a) $(3; 1)$ là một nghiệm của phương trình.
+b) Phương trình có đúng một nghiệm.
+c) Đường thẳng biểu diễn tập nghiệm đi qua điểm $(0; 7)$.
+d) $(3; 1)$ cũng là nghiệm của hệ $\begin{cases} 2x+y=7\\ x-y=1 \end{cases}$.
+::key Đ S Đ S
+a) Đúng: $6+1=7$. b) Sai: phương trình bậc nhất hai ẩn có vô số nghiệm. c) Đúng: $0+7=7$. d) Sai: $3-1=2\neq1$.
+
+[M253.6] Trả lời ngắn
+Cho phương trình $3x-2y=12$. Tìm $y$ để $(2; y)$ là nghiệm của phương trình.
+::key -3
+$6-2y=12\iff -2y=6\iff y=-3$.
+
+[M253.7] Trả lời ngắn
+Phương trình $x+2y=9$ có bao nhiêu nghiệm $(x; y)$ mà $x$ và $y$ đều là số nguyên dương?
+::key 4
+$x=9-2y>0$ nên $y\in\{1; 2; 3; 4\}$, cho các nghiệm $(7; 1)$, $(5; 2)$, $(3; 3)$, $(1; 4)$.
+
+### M254 · Lớp 9 · Giải hệ hai phương trình bậc nhất hai ẩn
+
+[M254.1] Nhiều lựa chọn
+Nghiệm của hệ $\begin{cases} x+y=5\\ x-y=3 \end{cases}$ là
+A. $(4; 1)$.
+B. $(1; 4)$.
+C. $(3; 2)$.
+D. $(8; -3)$.
+::key A
+Cộng hai phương trình: $2x=8$, $x=4$, $y=1$. B đảo thứ tự; C chỉ thoả mãn phương trình đầu; D quên chia $2x=8$ cho $2$ (được $x=8$, rồi $y=5-8=-3$).
+
+[M254.2] Nhiều lựa chọn
+Để khử ẩn $y$ trong hệ $\begin{cases} 2x+3y=7\\ 5x-2y=8 \end{cases}$, ta nên
+A. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi trừ.
+B. nhân phương trình thứ nhất với $3$, thứ hai với $2$, rồi cộng.
+C. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi cộng.
+D. nhân phương trình thứ nhất với $5$, thứ hai với $2$, rồi trừ.
+::key C
+Được $6y$ và $-6y$, đối nhau nên cộng: $19x=38$. A trừ nên $y$ không mất; D khử $x$ chứ không khử $y$.
+
+[M254.3] Nhiều lựa chọn
+Hệ $\begin{cases} x-2y=3\\ -2x+4y=1 \end{cases}$
+A. có đúng một nghiệm.
+B. vô nghiệm.
+C. có vô số nghiệm.
+D. có nghiệm $(3; 0)$.
+::key B
+Thế $x=3+2y$: $-6-4y+4y=1\iff 0y=7$, vô nghiệm. $(3; 0)$ chỉ thoả mãn phương trình thứ nhất.
+
+[M254.4] Nhiều lựa chọn
+Mua $2$ ổ bánh mì và $1$ hộp sữa hết $31$ nghìn đồng; mua $1$ ổ bánh mì và $2$ hộp sữa hết $26$ nghìn đồng. Giá một ổ bánh mì là
+A. $5$ nghìn đồng.
+B. $7$ nghìn đồng.
+C. $19$ nghìn đồng.
+D. $12$ nghìn đồng.
+::key D
+Cộng: $3(x+y)=57$, $x+y=19$; trừ: $x-y=5$; nên $x=12$, $y=7$. B là giá sữa, C là tổng, A là hiệu.
+
+[M254.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hệ $\begin{cases} 3x+y=7\\ x-y=1 \end{cases}$
+a) Cộng từng vế hai phương trình ta được $4x=8$.
+b) Hệ có nghiệm $(2; 1)$.
+c) Từ phương trình thứ hai, $y=x+1$.
+d) Nghiệm của hệ thoả mãn $x+y=3$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $6+1=7$, $2-1=1$. c) Sai: $y=x-1$. d) Đúng: $2+1=3$.
+
+[M254.6] Trả lời ngắn
+Giải hệ $\begin{cases} 2x+y=1\\ 3x-y=9 \end{cases}$ rồi tính $x+y$.
+::key -1
+Cộng: $5x=10$, $x=2$, $y=1-4=-3$, nên $x+y=-1$.
+
+[M254.7] Trả lời ngắn
+Đồ thị hàm số $y=ax+b$ đi qua $(1; 4)$ và $(3; 0)$. Tìm $b$.
+::key 6
+$a+b=4$, $3a+b=0$; trừ: $2a=-4$, $a=-2$, $b=6$.
+
+### M255 · Lớp 9 · Giải bài toán bằng cách lập hệ phương trình
+
+[M255.1] Nhiều lựa chọn
+Hai số có tổng bằng $50$ và hiệu bằng $14$. Số nhỏ hơn là
+A. $36$.
+B. $32$.
+C. $18$.
+D. $25$.
+::key C
+$x+y=50$, $x-y=14$ cho $x=32$, $y=18$. B là số lớn; A lấy $50-14$ mà quên chia đôi.
+
+[M255.2] Nhiều lựa chọn
+Một mảnh vườn hình chữ nhật có chu vi $40$ m, chiều dài hơn chiều rộng $4$ m. Gọi chiều dài là $x$, chiều rộng là $y$ (m). Hệ phương trình đúng là
+A. $\begin{cases} x+y=40\\ x-y=4 \end{cases}$
+B. $\begin{cases} x+y=20\\ x-y=4 \end{cases}$
+C. $\begin{cases} 2x+y=40\\ x-y=4 \end{cases}$
+D. $\begin{cases} x+y=20\\ y-x=4 \end{cases}$
+::key B
+Chu vi $2(x+y)=40$ nên $x+y=20$. A quên chia $2$; D viết ngược hiệu.
+
+[M255.3] Nhiều lựa chọn
+Một ca nô có vận tốc xuôi dòng $30$ km/h và ngược dòng $22$ km/h. Vận tốc của dòng nước là
+A. $26$ km/h.
+B. $8$ km/h.
+C. $2$ km/h.
+D. $4$ km/h.
+::key D
+$x+y=30$, $x-y=22$ nên $2y=8$, $y=4$. B quên chia $2$; A là vận tốc ca nô khi nước yên lặng.
+
+[M255.4] Nhiều lựa chọn
+Hai món hàng có giá niêm yết $x$ và $y$ nghìn đồng. Món thứ nhất giảm giá $10\%$, món thứ hai giảm giá $20\%$, tổng số tiền phải trả là $170$ nghìn đồng. Phương trình đúng là
+A. $0{,}9x+0{,}8y=170$.
+B. $0{,}1x+0{,}2y=170$.
+C. $(x-10)+(y-20)=170$.
+D. $0{,}9x+0{,}2y=170$.
+::key A
+Giảm $10\%$ còn $90\%$ giá, giảm $20\%$ còn $80\%$ giá. B là số tiền được giảm; C hiểu phần trăm thành số nghìn đồng.
+
+[M255.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Có $30$ con gà và thỏ, tổng cộng $84$ chân. Gọi $x$ là số gà, $y$ là số thỏ.
+a) $x+y=30$.
+b) $4x+2y=84$.
+c) Có $12$ con thỏ.
+d) Số gà nhiều hơn số thỏ $6$ con.
+::key Đ S Đ Đ
+a) Đúng. b) Sai: gà $2$ chân, thỏ $4$ chân nên $2x+4y=84$. c) Đúng: trừ $x+2y=42$ cho $x+y=30$ được $y=12$. d) Đúng: $x=18$, $18-12=6$.
+
+[M255.6] Trả lời ngắn
+Một số có hai chữ số, tổng hai chữ số bằng $9$. Đổi chỗ hai chữ số thì được số mới lớn hơn số cũ $45$ đơn vị. Tìm số đó.
+::key 27
+$a+b=9$, $9(b-a)=45$ nên $b-a=5$, $b=7$, $a=2$. Kiểm tra: $72-27=45$.
+
+[M255.7] Trả lời ngắn
+Trộn dung dịch muối $10\%$ với dung dịch muối $25\%$ để được $300$ g dung dịch $20\%$. Cần bao nhiêu gam dung dịch $10\%$?
+::key 100
+$x+y=300$, $0{,}1x+0{,}25y=60$, tức $2x+5y=1200$. Thế $x=300-y$: $600+3y=1200$, $y=200$, $x=100$.
+
+### M256 · Lớp 9 · Phương trình quy về phương trình bậc nhất một ẩn
+
+[M256.1] Nhiều lựa chọn
+Tập nghiệm của phương trình $(x-2)(3x+9)=0$ là
+A. $S=\{2; -3\}$.
+B. $S=\{-2; 3\}$.
+C. $S=\{2; 3\}$.
+D. $S=\{2; -9\}$.
+::key A
+$x-2=0\iff x=2$; $3x+9=0\iff x=-3$. B sai dấu cả hai; D quên chia cho $3$.
+
+[M256.2] Nhiều lựa chọn
+Điều kiện xác định của phương trình $\dfrac{x}{x+1}+\dfrac{3}{x-4}=2$ là
+A. $x\neq-1$ và $x\neq4$.
+B. $x\neq1$ và $x\neq-4$.
+C. $x\neq-1$.
+D. $x\neq4$.
+::key A
+Cả hai mẫu $x+1$ và $x-4$ phải khác $0$. B sai dấu; C, D chỉ xét một mẫu.
+
+[M256.3] Nhiều lựa chọn
+Phương trình $x^2=5x$ có tập nghiệm là
+A. $S=\{5\}$.
+B. $S=\{0; 5\}$.
+C. $S=\{0\}$.
+D. $S=\{0; -5\}$.
+::key B
+$x(x-5)=0$. Phương án A là kết quả khi chia hai vế cho $x$ và mất nghiệm $0$.
+
+[M256.4] Nhiều lựa chọn
+Phương trình $\dfrac{x+1}{x-2}=\dfrac{3}{x-2}$
+A. có nghiệm $x=2$.
+B. có nghiệm $x=-2$.
+C. vô nghiệm.
+D. có nghiệm $x=4$.
+::key C
+Khử mẫu được $x+1=3$, $x=2$, nhưng $x=2$ làm mẫu bằng $0$ nên bị loại. Phương án A quên đối chiếu điều kiện; D chuyển $1$ sang vế phải mà không đổi dấu ($x=3+1$).
+
+[M256.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $\dfrac{4}{x+1}=\dfrac{3}{x-2}$.
+a) Điều kiện xác định là $x\neq-1$ và $x\neq2$.
+b) Khử mẫu được $4(x-2)=3(x+1)$.
+c) Phương trình có nghiệm $x=-11$.
+d) Phương trình có hai nghiệm.
+::key Đ Đ S S
+a) Đúng. b) Đúng. c) Sai: $4x-8=3x+3\iff x=11$. d) Sai: chỉ có một nghiệm $x=11$.
+
+[M256.6] Trả lời ngắn
+Tính tổng các nghiệm của phương trình $(2x-8)(x+7)=0$.
+::key -3
+Hai nghiệm là $4$ và $-7$, tổng bằng $-3$.
+
+[M256.7] Trả lời ngắn
+Giải phương trình $\dfrac{5}{x+2}=\dfrac{3}{x-2}$.
+::key 8
+Điều kiện $x\neq\pm2$. $5(x-2)=3(x+2)\iff 2x=16\iff x=8$ (thoả mãn).
+
+### M257 · Lớp 9 · Bất đẳng thức và tính chất
+
+[M257.1] Nhiều lựa chọn
+"$x$ không vượt quá $5$" được viết là
+A. $x<5$.
+B. $x\le5$.
+C. $x\ge5$.
+D. $x>5$.
+::key B
+"Không vượt quá" cho phép bằng $5$. A bỏ mất trường hợp bằng; C, D sai chiều.
+
+[M257.2] Nhiều lựa chọn
+Cho $a<b$. Khẳng định nào đúng?
+A. $-2a<-2b$.
+B. $a-3>b-3$.
+C. $3a<3b$.
+D. $-a<-b$.
+::key C
+Nhân với $3>0$ giữ chiều. A, D quên đổi chiều khi nhân với số âm; B đổi chiều sai khi trừ.
+
+[M257.3] Nhiều lựa chọn
+Cho $a>b$. So sánh $1-4a$ và $1-4b$.
+A. $1-4a<1-4b$.
+B. $1-4a>1-4b$.
+C. $1-4a=1-4b$.
+D. Không so sánh được.
+::key A
+$-4a<-4b$ (đổi chiều), cộng $1$ được $1-4a<1-4b$. B quên đổi chiều.
+
+[M257.4] Nhiều lựa chọn
+Khẳng định nào đúng với **mọi** số $a$, $b$?
+A. Nếu $a<b$ thì $a^2<b^2$.
+B. Nếu $a<b$ thì $-a<-b$.
+C. $2a>a$.
+D. $a^2+1>0$.
+::key D
+$a^2\ge0$ nên $a^2+1\ge1>0$. A sai với $a=-3$, $b=1$; C sai với $a=-1$; B quên đổi chiều.
+
+[M257.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $a>b$.
+a) $a+2>b+2$.
+b) $-5a>-5b$.
+c) $a-b>0$.
+d) $a^2>b^2$.
+::key Đ S Đ S
+a) Đúng: cộng giữ chiều. b) Sai: nhân với $-5$ phải đổi chiều. c) Đúng: cộng $-b$ vào hai vế. d) Sai: chẳng hạn $1>-3$ nhưng $1<9$.
+
+[M257.6] Trả lời ngắn
+Có bao nhiêu số nguyên $x$ thoả mãn $-3<x\le2$?
+::key 5
+Đó là $-2$, $-1$, $0$, $1$, $2$ (không lấy $-3$, có lấy $2$).
+
+[M257.7] Trả lời ngắn
+Tìm giá trị nhỏ nhất của biểu thức $(x-3)^2+4$.
+::key 4
+$(x-3)^2\ge0$ nên biểu thức $\ge4$, và bằng $4$ khi $x=3$.
+
+### M258 · Lớp 9 · Bất phương trình bậc nhất một ẩn
+
+[M258.1] Nhiều lựa chọn
+Bất phương trình nào là bất phương trình bậc nhất một ẩn?
+A. $0x+3>0$.
+B. $x^2-1<0$.
+C. $2x-5\le0$.
+D. $\dfrac1x+2>0$.
+::key C
+C có dạng $ax+b\le0$ với $a=2\neq0$. A có $a=0$; B có $x^2$; D có ẩn ở mẫu.
+
+[M258.2] Nhiều lựa chọn
+Nghiệm của bất phương trình $-2x+6>0$ là
+A. $x>3$.
+B. $x<3$.
+C. $x>-3$.
+D. $x<-3$.
+::key B
+$-2x>-6\iff x<3$ (chia cho $-2$ nên đổi chiều). A quên đổi chiều; C, D sai dấu khi chuyển vế.
+
+[M258.3] Nhiều lựa chọn
+Nghiệm của bất phương trình $3(x-2)\le x+4$ là
+A. $x\le5$.
+B. $x\ge5$.
+C. $x\le3$.
+D. $x\le-1$.
+::key A
+$3x-6\le x+4\iff 2x\le10\iff x\le5$. C phá ngoặc thành $3x-2$; D chuyển $-6$ sang vế phải mà không đổi dấu.
+
+[M258.4] Nhiều lựa chọn
+Số nguyên lớn nhất thoả mãn $5x-12<0$ là
+A. $2$.
+B. $3$.
+C. $1$.
+D. $-2$.
+::key A
+$x<2{,}4$, nên số nguyên lớn nhất là $2$. B là kết quả khi làm tròn lên.
+
+[M258.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho bất phương trình $4-2x\ge x-5$.
+a) $x=3$ là một nghiệm.
+b) Chuyển vế ta được $-3x\ge-9$.
+c) Nghiệm của bất phương trình là $x\ge3$.
+d) Có đúng $4$ số tự nhiên thoả mãn bất phương trình.
+::key Đ Đ S Đ
+a) Đúng: $-2\ge-2$. b) Đúng. c) Sai: chia cho $-3$ phải đổi chiều, $x\le3$. d) Đúng: $0$, $1$, $2$, $3$.
+
+[M258.6] Trả lời ngắn
+Tìm số nguyên nhỏ nhất thoả mãn $2(x+1)>9-x$.
+::key 3
+$2x+2>9-x\iff 3x>7\iff x>\dfrac73\approx2{,}33$, nên số nguyên nhỏ nhất là $3$.
+
+[M258.7] Trả lời ngắn
+Một hãng taxi tính phí mở cửa $12$ nghìn đồng và $15$ nghìn đồng cho mỗi ki-lô-mét. Với $200$ nghìn đồng, bạn đi được tối đa bao nhiêu ki-lô-mét (số nguyên)?
+::key 12
+$12+15x\le200\iff x\le\dfrac{188}{15}\approx12{,}5$, nên tối đa $12$ km.
+
+### M259 · Lớp 9 · Căn bậc hai và căn thức bậc hai
+
+[M259.1] Nhiều lựa chọn
+Căn bậc hai số học của $49$ là
+A. $24{,}5$.
+B. $-7$.
+C. $7$ và $-7$.
+D. $7$.
+::key D
+Ta có $7\ge0$ và $7^2=49$ nên căn bậc hai số học của $49$ là $7$. Phương án C là các căn bậc hai của $49$, còn A lấy $49$ chia $2$.
+
+[M259.2] Nhiều lựa chọn
+$\sqrt{(-8)^2}$ bằng
+A. $-8$.
+B. $8$.
+C. $64$.
+D. $\pm8$.
+::key B
+Ta có $\sqrt{(-8)^2}=|-8|=8$. Phương án A quên giá trị tuyệt đối, C quên khai căn.
+
+[M259.3] Nhiều lựa chọn
+Căn thức $\sqrt{6-3x}$ xác định khi
+A. $x\le2$.
+B. $x\ge-2$.
+C. $x\ge2$.
+D. $x\le-2$.
+::key A
+Căn thức xác định khi $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (chia hai vế cho $-3$ thì đổi chiều). Phương án C quên đổi chiều.
+
+[M259.4] Nhiều lựa chọn
+$\sqrt{\left(\sqrt5-3\right)^2}$ bằng
+A. $\sqrt5-3$.
+B. $14-6\sqrt5$.
+C. $3-\sqrt5$.
+D. $3+\sqrt5$.
+::key C
+Vì $\sqrt5<\sqrt9=3$ nên $\sqrt5-3<0$. Do đó $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Phương án A quên xét dấu, B bình phương thay vì khai căn.
+
+[M259.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho biểu thức $A=\sqrt{2x+10}$. Xét tính đúng sai của các mệnh đề sau:
+a) $A$ xác định khi $x\ge-5$.
+b) Khi $x=3$ thì $A=4$.
+c) Khi $x=-3$ thì $A=-2$.
+d) $A=0$ khi $x=5$.
+::key Đ Đ S S
+a) Đúng. $A$ xác định khi $2x+10\ge0\iff x\ge-5$. b) Đúng. Khi $x=3$ ta có $A=\sqrt{16}=4$. c) Sai. Khi $x=-3$ ta có $A=\sqrt4=2$ (căn bậc hai số học không âm). d) Sai. Ta có $A=0\iff 2x+10=0\iff x=-5$.
+
+[M259.6] Trả lời ngắn
+Tính $\sqrt{0{,}81}+\sqrt{(-1{,}2)^2}$.
+::key 2,1
+Ta có $\sqrt{0{,}81}=0{,}9$ và $\sqrt{(-1{,}2)^2}=|-1{,}2|=1{,}2$. Do đó tổng bằng $0{,}9+1{,}2=2{,}1$.
+
+[M259.7] Trả lời ngắn
+Thời gian $t$ (giây) để một vật rơi tự do từ độ cao $h$ mét chạm đất được tính bởi công thức $t=\sqrt{\dfrac{h}{5}}$. Một vật rơi tự do từ độ cao $61{,}25$ m. Hỏi sau bao nhiêu giây vật chạm đất?
+::key 3,5
+Thay $h=61{,}25$ vào công thức, ta được $t=\sqrt{\dfrac{61{,}25}{5}}=\sqrt{12{,}25}=3{,}5$ (giây).
+
+### M260 · Lớp 9 · Khai căn bậc hai với phép nhân và phép chia
+
+[M260.1] Nhiều lựa chọn
+$\sqrt{0{,}4\cdot90}$ bằng
+A. $6$.
+B. $36$.
+C. $0{,}6$.
+D. $60$.
+::key A
+Ta có $\sqrt{0{,}4\cdot90}=\sqrt{36}=6$. Phương án B quên khai căn; C và D đặt sai dấu phẩy.
+
+[M260.2] Nhiều lựa chọn
+$\sqrt{12}\cdot\sqrt3$ bằng
+A. $6$.
+B. $\sqrt{15}$.
+C. $36$.
+D. $4$.
+::key A
+Ta có $\sqrt{12}\cdot\sqrt3=\sqrt{12\cdot3}=\sqrt{36}=6$. Phương án B cộng các số dưới dấu căn, C quên khai căn, D chia thay vì nhân.
+
+[M260.3] Nhiều lựa chọn
+Đẳng thức $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ đúng khi
+A. $a\ge0$, $b\ge0$.
+B. $a\ge0$, $b>0$.
+C. $a>0$, $b\ge0$.
+D. với mọi $a$, $b$.
+::key B
+Cần $a\ge0$ để $\sqrt a$ xác định và $b>0$ vì $\sqrt b$ nằm ở mẫu. Phương án A cho phép $b=0$, khi đó phép chia vô nghĩa.
+
+[M260.4] Nhiều lựa chọn
+Với $x<0$, $\sqrt{16x^2}$ bằng
+A. $4x$.
+B. $-4x$.
+C. $16x$.
+D. $-16x$.
+::key B
+Ta có $\sqrt{16x^2}=4|x|=-4x$ (vì $x<0$). Phương án A quên giá trị tuyệt đối, C và D quên khai căn $16$.
+
+[M260.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A=\sqrt{50}\cdot\sqrt2$ và $B=\dfrac{\sqrt{98}}{\sqrt2}$. Xét tính đúng sai của các mệnh đề sau:
+a) $A=10$.
+b) $B=49$.
+c) $A\cdot B=70$.
+d) $A-B=\sqrt{51}$.
+::key Đ S Đ S
+a) Đúng. Ta có $A=\sqrt{100}=10$. b) Sai. Ta có $B=\sqrt{49}=7$. c) Đúng. $A\cdot B=10\cdot7=70$. d) Sai. $A-B=3$, còn $\sqrt{51}\approx7{,}1$ (không trừ được dưới dấu căn).
+
+[M260.6] Trả lời ngắn
+Tính $\sqrt{1{,}21\cdot0{,}25}$.
+::key 0,55
+Ta có $\sqrt{1{,}21\cdot0{,}25}=\sqrt{1{,}21}\cdot\sqrt{0{,}25}=1{,}1\cdot0{,}5=0{,}55$.
+
+[M260.7] Trả lời ngắn
+Ở vùng nước nông, tốc độ $v$ (m/s) của sóng biển xấp xỉ $v=\sqrt{10d}$, với $d$ (m) là độ sâu của nước. Tính tốc độ của sóng (theo m/s) ở nơi nước sâu $8{,}1$ m.
+::key 9
+Thay $d=8{,}1$ vào công thức, ta được $v=\sqrt{10\cdot8{,}1}=\sqrt{81}=9$ (m/s).
+
+### M261 · Lớp 9 · Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai
+
+[M261.1] Nhiều lựa chọn
+$\sqrt{72}$ bằng
+A. $6\sqrt2$.
+B. $36\sqrt2$.
+C. $2\sqrt6$.
+D. $3\sqrt2$.
+::key A
+Ta có $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án B quên khai căn $36$, C đảo vị trí hai số, D chỉ tách $9$ rồi bỏ quên thừa số $4$.
+
+[M261.2] Nhiều lựa chọn
+Trục căn thức ở mẫu của $\dfrac{6}{\sqrt2}$ ta được
+A. $\sqrt3$.
+B. $6\sqrt2$.
+C. $3\sqrt2$.
+D. $3$.
+::key C
+Ta có $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Phương án B quên chia cho $2$, A lấy $6$ chia $2$ dưới dấu căn, D làm mất căn ở tử.
+
+[M261.3] Nhiều lựa chọn
+$\dfrac{1}{\sqrt5-2}$ bằng
+A. $-\sqrt5-2$.
+B. $\sqrt5-2$.
+C. $\dfrac{\sqrt5+2}{3}$.
+D. $\sqrt5+2$.
+::key D
+Ta có $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Phương án C tính mẫu là $5-2$ (quên bình phương $2$), A tính mẫu là $4-5$.
+
+[M261.4] Nhiều lựa chọn
+Với $a<0$, $a\sqrt3$ bằng
+A. $\sqrt{3a^2}$.
+B. $-\sqrt{3a^2}$.
+C. $\sqrt{3a}$.
+D. $-\sqrt{3a}$.
+::key B
+Vì $a<0$ nên $a\sqrt3<0$, do đó $a\sqrt3=-\sqrt{3a^2}$. Phương án A quên dấu; C, D không bình phương $a$ (và $\sqrt{3a}$ không xác định khi $a<0$).
+
+[M261.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $A=\sqrt{50}-\sqrt{18}+\sqrt8$. Xét tính đúng sai của các mệnh đề sau:
+a) $\sqrt{50}=5\sqrt2$.
+b) $A=\sqrt{40}$.
+c) $A\cdot\sqrt2=8$.
+d) $\dfrac1A=\dfrac{\sqrt2}{8}$.
+::key Đ S Đ Đ
+a) Đúng. Ta có $\sqrt{50}=\sqrt{25\cdot2}=5\sqrt2$. b) Sai. Ta có $A=5\sqrt2-3\sqrt2+2\sqrt2=4\sqrt2=\sqrt{32}$ (không được cộng, trừ dưới dấu căn). c) Đúng. $A\cdot\sqrt2=4\sqrt2\cdot\sqrt2=8$. d) Đúng. $\dfrac1A=\dfrac{1}{4\sqrt2}=\dfrac{\sqrt2}{8}$.
+
+[M261.6] Trả lời ngắn
+Tính $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}$.
+::key 3
+Ta có $\sqrt{75}-\sqrt{12}=5\sqrt3-2\sqrt3=3\sqrt3$. Do đó $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}=\dfrac{3\sqrt3}{\sqrt3}=3$.
+
+[M261.7] Trả lời ngắn
+Một mảnh đất hình chữ nhật có chiều dài $\sqrt{98}$ m và chiều rộng $\sqrt{32}$ m. Tính chu vi của mảnh đất theo mét (làm tròn kết quả đến hàng phần mười).
+::key 31,1
+Chu vi mảnh đất là $2\left(\sqrt{98}+\sqrt{32}\right)=2\left(7\sqrt2+4\sqrt2\right)=22\sqrt2\approx31{,}1$ (m).
+
+### M262 · Lớp 9 · Căn bậc ba và căn thức bậc ba
+
+[M262.1] Nhiều lựa chọn
+$\sqrt[3]{-27}$ bằng
+A. $-3$.
+B. $3$.
+C. $-9$.
+D. không xác định.
+::key A
+Vì $(-3)^3=-27$ nên $\sqrt[3]{-27}=-3$. Phương án D nhầm với căn bậc hai, C lấy $-27$ chia $3$.
+
+[M262.2] Nhiều lựa chọn
+Căn thức nào sau đây xác định với mọi số thực $x$?
+A. $\sqrt{x-1}$.
+B. $\sqrt[3]{x-1}$.
+C. $\sqrt{1-x}$.
+D. $\sqrt{x}$.
+::key B
+Căn bậc ba xác định với mọi biểu thức lấy căn. Các căn bậc hai ở A, C, D cần biểu thức lấy căn không âm.
+
+[M262.3] Nhiều lựa chọn
+$\sqrt[3]{(-5)^3}$ bằng
+A. $5$.
+B. $-5$.
+C. $125$.
+D. $\pm5$.
+::key B
+Ta có $\sqrt[3]{(-5)^3}=-5$ (vì $\sqrt[3]{a^3}=a$). Phương án A dùng nhầm giá trị tuyệt đối như với căn bậc hai.
+
+[M262.4] Nhiều lựa chọn
+Một thùng hình lập phương có thể tích $0{,}216$ m³. Cạnh thùng dài
+A. $0{,}6$ m.
+B. $0{,}072$ m.
+C. $0{,}06$ m.
+D. $6$ m.
+::key A
+Cạnh thùng dài $\sqrt[3]{0{,}216}=0{,}6$ (m) (vì $0{,}6^3=0{,}216$). Phương án B chia thể tích cho $3$; C và D đặt sai dấu phẩy.
+
+[M262.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho biểu thức $A=\sqrt[3]{x-7}$. Xét tính đúng sai của các mệnh đề sau:
+a) $A$ xác định khi và chỉ khi $x\ge7$.
+b) Khi $x=-1$ thì $A=-2$.
+c) $A=3$ khi $x=34$.
+d) $A<0$ khi $x<7$.
+::key S Đ Đ Đ
+a) Sai. Căn bậc ba xác định với mọi $x$. b) Đúng. Khi $x=-1$ ta có $A=\sqrt[3]{-8}=-2$. c) Đúng. Khi $x=34$ ta có $A=\sqrt[3]{27}=3$. d) Đúng. Khi $x<7$ thì $x-7<0$, do đó $A=\sqrt[3]{x-7}<0$.
+
+[M262.6] Trả lời ngắn
+Tính $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0{,}001}$.
+::key 7,1
+Ta có $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0{,}001}=5-(-2)+0{,}1=7{,}1$.
+
+[M262.7] Trả lời ngắn
+Một hộp quà hình lập phương có thể tích $3$ lít. Tính độ dài cạnh hộp theo xăng-ti-mét (làm tròn kết quả đến hàng phần mười).
+::key 14,4
+Ta có $3$ lít $=3000$ cm³. Do đó cạnh hộp dài $\sqrt[3]{3000}\approx14{,}4$ (cm).
+
+### M263 · Lớp 9 · Tỉ số lượng giác của góc nhọn
+
+[M263.1] Nhiều lựa chọn
+Cho tam giác $ABC$ vuông tại $A$. Khi đó $\sin B$ bằng
+A. $\dfrac{AC}{AB}$.
+B. $\dfrac{AB}{BC}$.
+C. $\dfrac{AC}{BC}$.
+D. $\dfrac{AB}{AC}$.
+::key C
+Cạnh đối của góc $B$ là $AC$, cạnh huyền là $BC$, nên $\sin B=\dfrac{AC}{BC}$. Phương án B là $\cos B$, A là $\tan B$, D là $\cot B$.
+
+[M263.2] Nhiều lựa chọn
+$\tan60^\circ$ bằng
+A. $\dfrac{\sqrt3}3$.
+B. $\dfrac12$.
+C. $\dfrac{\sqrt3}2$.
+D. $\sqrt3$.
+::key D
+Ta có $\tan60^\circ=\sqrt3$ (trong nửa tam giác đều cạnh $2$, cạnh đối của góc $60^\circ$ là $\sqrt3$, cạnh kề là $1$). Phương án A là $\tan30^\circ$, C là $\sin60^\circ$.
+
+[M263.3] Nhiều lựa chọn
+$\cos52^\circ$ bằng
+A. $\sin52^\circ$.
+B. $\cos38^\circ$.
+C. $\tan38^\circ$.
+D. $\sin38^\circ$.
+::key D
+Vì $52^\circ+38^\circ=90^\circ$ (hai góc phụ nhau) nên $\cos52^\circ=\sin38^\circ$. Phương án B giữ nguyên cos khi đổi sang góc phụ.
+
+[M263.4] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $AB=12$, $BC=13$. Khi đó $\cos B$ bằng
+A. $\dfrac{12}{13}$.
+B. $\dfrac{5}{13}$.
+C. $\dfrac{5}{12}$.
+D. $\dfrac{13}{12}$.
+::key A
+Ta có $\cos B=\dfrac{AB}{BC}=\dfrac{12}{13}$. Phương án B là $\sin B$ (vì $AC=5$), D đặt cạnh huyền ở tử nên lớn hơn $1$.
+
+[M263.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ vuông tại $A$ có $AB=\sqrt3$, $AC=1$. Xét tính đúng sai của các mệnh đề sau:
+a) $BC=2$.
+b) $\sin B=\dfrac12$.
+c) $\tan B=\sqrt3$.
+d) $\widehat{C}=60^\circ$.
+::key Đ Đ S Đ
+a) Đúng. $BC=\sqrt{AB^2+AC^2}=\sqrt{3+1}=2$ (định lí Pythagore). b) Đúng. $\sin B=\dfrac{AC}{BC}=\dfrac12$. c) Sai. $\tan B=\dfrac{AC}{AB}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}3$. d) Đúng. Vì $\sin B=\dfrac12$ nên $\widehat B=30^\circ$, do đó $\widehat C=90^\circ-30^\circ=60^\circ$.
+
+[M263.6] Trả lời ngắn
+Tính $2\sin30^\circ+3\tan45^\circ-\cot45^\circ$.
+::key 3
+Ta có $2\sin30^\circ+3\tan45^\circ-\cot45^\circ=2\cdot\dfrac12+3\cdot1-1=3$.
+
+[M263.7] Trả lời ngắn
+Một con đường có biển báo dốc $8\%$. Tính góc nghiêng của con đường so với phương nằm ngang theo độ (làm tròn kết quả đến hàng phần mười).
+::key 4,6
+Gọi $\alpha$ là góc nghiêng. Ta có $\tan\alpha=\dfrac{8}{100}=0{,}08$, suy ra $\alpha\approx4{,}6^\circ$.
+
+### M264 · Lớp 9 · Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng
+
+[M264.1] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $BC=a$, $CA=b$. Khi đó
+A. $b=a\sin C$.
+B. $b=a\cos B$.
+C. $b=a\tan B$.
+D. $b=a\sin B$.
+::key D
+Vì $b$ là cạnh góc vuông đối diện góc $B$ nên $b=a\sin B$ (hoặc $b=a\cos C$). Phương án B và A nhầm góc đối với góc kề, C dùng tang với cạnh huyền.
+
+[M264.2] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $AB=c$. Khi đó $AC$ bằng
+A. $c\cot B$.
+B. $c\sin B$.
+C. $c\tan B$.
+D. $c\cos B$.
+::key C
+Ta có $\tan B=\dfrac{AC}{AB}$, suy ra $AC=c\tan B$. Phương án A dùng côtang của góc đối, B và D dùng sin, cos với cạnh góc vuông thay cho cạnh huyền.
+
+[M264.3] Nhiều lựa chọn
+Tam giác $ABC$ vuông tại $A$ có $BC=10$, $\widehat{B}=30^\circ$. Khi đó $AC$ bằng
+A. $5$.
+B. $5\sqrt3$.
+C. $10\sqrt3$.
+D. $20$.
+::key A
+Ta có $AC=BC\sin B=10\sin30^\circ=5$. Phương án B là $10\cos30^\circ$ (cạnh $AB$), D chia cho $\sin30^\circ$ thay vì nhân.
+
+[M264.4] Nhiều lựa chọn
+Một cột điện cao $8$ m có bóng trên mặt đất dài $8\sqrt3$ m. Góc giữa tia nắng và mặt đất là
+A. khoảng $0{,}58^\circ$.
+B. $30^\circ$.
+C. $45^\circ$.
+D. $60^\circ$.
+::key B
+Gọi $\alpha$ là góc cần tìm. Ta có $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, suy ra $\alpha=30^\circ$. Phương án D đảo tỉ số (bóng chia cột), A viết luôn tỉ số $0{,}58$ thành số đo góc.
+
+[M264.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{C}=30^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $BC=12$ cm.
+b) $AC=6\sqrt3$ cm.
+c) $\widehat{B}=30^\circ$.
+d) $AC=BC\sin C$.
+::key Đ Đ S S
+a) Đúng. Vì $AB=BC\sin C$ nên $BC=\dfrac{AB}{\sin C}=\dfrac{6}{1/2}=12$ (cm). b) Đúng. $AC=AB\cot C=6\sqrt3$ (cm). c) Sai. $\widehat{B}=90^\circ-30^\circ=60^\circ$. d) Sai. $BC\sin C=6=AB$; hệ thức đúng là $AC=BC\cos C$.
+
+[M264.6] Trả lời ngắn
+Một chiếc thang dài $4$ m dựa vào tường, tạo với mặt đất góc $60^\circ$. Hỏi đỉnh thang cách mặt đất bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
+::key 3,5
+Độ cao của đỉnh thang là $4\sin60^\circ=2\sqrt3\approx3{,}5$ (m).
+
+[M264.7] Trả lời ngắn
+Bóng của một toà nhà trên mặt đất dài $25$ m khi tia nắng tạo với mặt đất góc $40^\circ$. Hỏi toà nhà cao bao nhiêu mét (làm tròn kết quả đến hàng đơn vị)?
+::key 21
+Chiều cao của toà nhà là $25\tan40^\circ\approx21$ (m).
+
+### M265 · Lớp 9 · Mở đầu về đường tròn
+
+[M265.1] Nhiều lựa chọn
+Cho đường tròn $(O; 6\text{ cm})$ và điểm $M$ với $OM=5$ cm. Khẳng định nào sau đây đúng?
+A. $M$ nằm ngoài đường tròn.
+B. $M$ nằm trên đường tròn.
+C. $M$ nằm trong đường tròn.
+D. $M$ là tâm của đường tròn.
+::key C
+$OM=5<6=R$. Phương án A so sánh ngược chiều.
+
+[M265.2] Nhiều lựa chọn
+Đường kính của đường tròn bán kính $3{,}5$ cm là
+A. $3{,}5$ cm.
+B. $7$ cm.
+C. $1{,}75$ cm.
+D. $12{,}25$ cm.
+::key B
+$d=2R=7$ cm. C chia đôi thay vì nhân đôi, D lấy bình phương.
+
+[M265.3] Nhiều lựa chọn
+Đường tròn có bao nhiêu trục đối xứng?
+A. $1$.
+B. $2$.
+C. $4$.
+D. Vô số.
+::key D
+Mỗi đường thẳng đi qua tâm là một trục đối xứng.
+
+[M265.4] Nhiều lựa chọn
+Bán kính của đường tròn đi qua bốn đỉnh của hình chữ nhật có hai cạnh $5$ cm và $12$ cm là
+A. $13$ cm.
+B. $6$ cm.
+C. $8{,}5$ cm.
+D. $6{,}5$ cm.
+::key D
+Bán kính bằng nửa đường chéo $\sqrt{5^2+12^2}=13$. A quên chia đôi, C lấy nửa tổng hai cạnh.
+
+[M265.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường tròn $(O; 5\text{ cm})$, điểm $A$ với $OA=5$ cm, điểm $B$ với $OB=4$ cm và điểm $C$ đối xứng với $A$ qua $O$. Xét tính đúng sai của các mệnh đề sau:
+a) Điểm $A$ nằm trên đường tròn.
+b) Điểm $B$ nằm ngoài đường tròn.
+c) $AC=10$ cm.
+d) Điểm $C$ nằm trên đường tròn.
+::key Đ S Đ Đ
+a) Đúng: $OA=R$. b) Sai: $OB<5$. c) Đúng: $AC=2R$. d) Đúng: $OC=OA$.
+
+[M265.6] Trả lời ngắn
+Tính bán kính (đơn vị: cm) của đường tròn đi qua bốn đỉnh của hình vuông cạnh $6$ cm (làm tròn kết quả đến hàng phần mười).
+::key 4,2
+Bán kính bằng nửa đường chéo: $\dfrac{6\sqrt2}{2}=3\sqrt2\approx4{,}2$ cm.
+
+[M265.7] Trả lời ngắn
+Cho đường tròn $(O; 10\text{ cm})$ và điểm $M$ với $OM=6$ cm. Đường thẳng qua $M$ vuông góc với $OM$ cắt đường tròn tại $A$ và $B$. Tính $AB$ (đơn vị: cm).
+::key 16
+$MA=\sqrt{10^2-6^2}=8$ cm và $MB=MA$ (đối xứng qua $OM$), nên $AB=16$ cm.
+
+### M266 · Lớp 9 · Cung và dây của một đường tròn
+
+[M266.1] Nhiều lựa chọn
+Góc ở tâm $\widehat{AOB}=50^\circ$. Số đo cung lớn $AB$ là
+A. $310^\circ$.
+B. $130^\circ$.
+C. $50^\circ$.
+D. $260^\circ$.
+::key A
+Cung lớn có số đo $360^\circ-50^\circ=310^\circ$. B lấy $180^\circ-50^\circ$, C là số đo cung nhỏ, D lấy $360^\circ-2\cdot50^\circ$.
+
+[M266.2] Nhiều lựa chọn
+Dây dài nhất của đường tròn $(O; 6\text{ cm})$ dài
+A. $6$ cm.
+B. $3$ cm.
+C. $36$ cm.
+D. $12$ cm.
+::key D
+Dây lớn nhất là đường kính, dài $2R=12$ cm. A nhầm với bán kính, C lấy $R^2$.
+
+[M266.3] Nhiều lựa chọn
+Dây $AB$ của đường tròn $(O; 10\text{ cm})$ cách tâm $8$ cm. Độ dài $AB$ là
+A. $4$ cm.
+B. $6$ cm.
+C. $12$ cm.
+D. $4\sqrt{41}$ cm.
+::key C
+$AB=2\sqrt{10^2-8^2}=12$ cm. B quên nhân đôi, A lấy $2(10-8)$, D cộng thay vì trừ dưới dấu căn.
+
+[M266.4] Nhiều lựa chọn
+Trong $25$ phút, kim phút của đồng hồ quay được một góc
+A. $125^\circ$.
+B. $150^\circ$.
+C. $25^\circ$.
+D. $300^\circ$.
+::key B
+Mỗi phút kim phút quay $6^\circ$, nên $25\cdot6^\circ=150^\circ$. A nhầm mỗi phút $5^\circ$.
+
+[M266.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường tròn $(O; 5\text{ cm})$ và dây $AB=8$ cm, $H$ là trung điểm của $AB$. Xét tính đúng sai của các mệnh đề sau:
+a) $OH\perp AB$.
+b) $OH=3$ cm.
+c) Cung nhỏ $AB$ có số đo $90^\circ$.
+d) Đường tròn có một dây dài $11$ cm.
+::key Đ Đ S S
+a) Đúng: tam giác $OAB$ cân tại $O$. b) Đúng: $OH=\sqrt{25-16}=3$. c) Sai: $AB^2=64\neq OA^2+OB^2=50$, nên $\widehat{AOB}\neq90^\circ$. d) Sai: mọi dây dài không quá $2R=10$ cm.
+
+[M266.6] Trả lời ngắn
+Dây $AB=30$ cm của đường tròn $(O; 17\text{ cm})$ cách tâm $O$ bao nhiêu xăng-ti-mét?
+::key 8
+$OH=\sqrt{17^2-15^2}=\sqrt{64}=8$ (cm).
+
+[M266.7] Trả lời ngắn
+Ba điểm chia một đường tròn thành ba cung có số đo tỉ lệ với $2$, $3$, $4$. Tính số đo (đơn vị: độ) của cung nhỏ nhất.
+::key 80
+Tổng ba cung là $360^\circ$, mỗi phần bằng $\dfrac{360^\circ}{9}=40^\circ$, nên cung nhỏ nhất là $2\cdot40^\circ=80^\circ$.
+
+### M267 · Lớp 9 · Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên
+
+[M267.1] Nhiều lựa chọn
+Độ dài cung $40^\circ$ của đường tròn bán kính $9$ cm là
+A. $4\pi$ cm.
+B. $2\pi$ cm.
+C. $9\pi$ cm.
+D. $\pi$ cm.
+::key B
+$l=\dfrac{\pi\cdot9\cdot40}{180}=2\pi$. A dùng $2\pi R$ thay cho $\pi R$, C dùng công thức diện tích hình quạt, D chia cho $360$ thay vì $180$.
+
+[M267.2] Nhiều lựa chọn
+Diện tích hình quạt tròn bán kính $4$ cm, cung $90^\circ$ là
+A. $2\pi$ cm².
+B. $16\pi$ cm².
+C. $8\pi$ cm².
+D. $4\pi$ cm².
+::key D
+$S=\dfrac{\pi\cdot16\cdot90}{360}=4\pi$. A là độ dài cung, B là diện tích cả hình tròn, C chia cho $180$ thay vì $360$.
+
+[M267.3] Nhiều lựa chọn
+Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính $7$ cm và $4$ cm là
+A. $33\pi$ cm².
+B. $9\pi$ cm².
+C. $65\pi$ cm².
+D. $6\pi$ cm².
+::key A
+$S=\pi\left(49-16\right)=33\pi$. B tính $\pi(R-r)^2$, C cộng hai bình phương.
+
+[M267.4] Nhiều lựa chọn
+Một bánh xe có đường kính $60$ cm. Độ dài đường tròn của bánh xe là
+A. $30\pi$ cm.
+B. $60\pi$ cm.
+C. $120\pi$ cm.
+D. $900\pi$ cm.
+::key B
+$C=\pi d=60\pi$ cm. C lấy $60$ làm bán kính, D tính diện tích.
+
+[M267.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hình quạt tròn bán kính $6$ cm, cung $120^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) Cung của hình quạt dài $4\pi$ cm.
+b) Diện tích hình quạt bằng $12\pi$ cm².
+c) Diện tích hình quạt bằng tích độ dài cung và bán kính.
+d) Chu vi hình quạt bằng $(4\pi+12)$ cm.
+::key Đ Đ S Đ
+a) Đúng: $l=\dfrac{\pi\cdot6\cdot120}{180}=4\pi$. b) Đúng: $S=\dfrac{\pi\cdot36\cdot120}{360}=12\pi$. c) Sai: $S=\dfrac{lR}{2}$. d) Đúng: chu vi gồm cung và hai bán kính.
+
+[M267.6] Trả lời ngắn
+Tính độ dài (đơn vị: cm) của cung $36^\circ$ trên đường tròn bán kính $10$ cm (làm tròn kết quả đến hàng phần trăm).
+::key 6,28
+$l=\dfrac{\pi\cdot10\cdot36}{180}=2\pi\approx6{,}28$ cm.
+
+[M267.7] Trả lời ngắn
+Tính diện tích (đơn vị: cm²) của hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính $6$ cm và $4$ cm (làm tròn kết quả đến hàng đơn vị).
+::key 63
+$S=\pi\left(36-16\right)=20\pi\approx62{,}83\approx63$ cm².
+
+### M268 · Lớp 9 · Vị trí tương đối của đường thẳng và đường tròn
+
+[M268.1] Nhiều lựa chọn
+Cho đường tròn $(O; 7\text{ cm})$ và đường thẳng $a$ cách $O$ một khoảng $7$ cm. Khẳng định nào sau đây đúng?
+A. $a$ cắt $(O)$ tại hai điểm.
+B. $a$ tiếp xúc với $(O)$.
+C. $a$ không giao với $(O)$.
+D. $a$ đi qua $O$.
+::key B
+$d=R=7$ cm nên $a$ tiếp xúc với $(O)$.
+
+[M268.2] Nhiều lựa chọn
+Đường thẳng cách tâm của đường tròn $(O; 5\text{ cm})$ một khoảng $3$ cm cắt đường tròn theo một dây dài
+A. $8$ cm.
+B. $4$ cm.
+C. $2\sqrt{34}$ cm.
+D. $2$ cm.
+::key A
+$2\sqrt{25-9}=8$ cm. B quên nhân đôi, C cộng dưới dấu căn.
+
+[M268.3] Nhiều lựa chọn
+Từ điểm $M$ với $OM=13$ cm, kẻ tiếp tuyến $MA$ của đường tròn $(O; 5\text{ cm})$. Độ dài $MA$ là
+A. $\sqrt{194}$ cm.
+B. $18$ cm.
+C. $8$ cm.
+D. $12$ cm.
+::key D
+$MA=\sqrt{169-25}=12$ cm. A coi $OM$ là cạnh góc vuông, C lấy hiệu $13-5$, B lấy tổng $13+5$.
+
+[M268.4] Nhiều lựa chọn
+Hai tiếp tuyến tại $A$, $B$ của đường tròn $(O)$ cắt nhau tại $M$ và $\widehat{AMB}=50^\circ$. Số đo góc $\widehat{AOB}$ là
+A. $50^\circ$.
+B. $40^\circ$.
+C. $130^\circ$.
+D. $25^\circ$.
+::key C
+Tứ giác $OAMB$ có hai góc vuông nên $\widehat{AOB}=360^\circ-180^\circ-50^\circ=130^\circ$. D là $\widehat{AMO}$.
+
+[M268.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Từ điểm $M$ với $OM=12$ cm, kẻ hai tiếp tuyến $MA$, $MB$ của đường tròn $(O; 6\text{ cm})$. Xét tính đúng sai của các mệnh đề sau:
+a) $MA=6\sqrt3$ cm.
+b) $\widehat{AMO}=30^\circ$.
+c) $\widehat{AMB}=30^\circ$.
+d) $MA=MB$.
+::key Đ Đ S Đ
+a) Đúng: $MA=\sqrt{108}=6\sqrt3$. b) Đúng: $\sin\widehat{AMO}=\dfrac12$. c) Sai: $\widehat{AMB}=60^\circ$. d) Đúng: tính chất hai tiếp tuyến cắt nhau.
+
+[M268.6] Trả lời ngắn
+Một đường thẳng cách tâm $O$ một khoảng $4$ cm và cắt đường tròn $(O)$ theo một dây dài $6$ cm. Tính bán kính (đơn vị: cm) của đường tròn.
+::key 5
+Nửa dây dài $3$ cm, nên $R=\sqrt{4^2+3^2}=5$ cm.
+
+[M268.7] Trả lời ngắn
+Hai tiếp tuyến $MA$, $MB$ của đường tròn $(O)$ có $MA=7{,}5$ cm. Tiếp tuyến tại một điểm $C$ trên cung nhỏ $AB$ cắt $MA$, $MB$ tại $D$, $E$. Tính chu vi (đơn vị: cm) của tam giác $MDE$.
+::key 15
+$DC=DA$ và $EC=EB$, nên chu vi bằng $MA+MB=15$ cm.
+
+### M269 · Lớp 9 · Vị trí tương đối của hai đường tròn
+
+[M269.1] Nhiều lựa chọn
+Cho hai đường tròn $(O; 8\text{ cm})$ và $(O'; 3\text{ cm})$ với $OO'=5$ cm. Vị trí tương đối của hai đường tròn là
+A. cắt nhau.
+B. tiếp xúc ngoài.
+C. tiếp xúc trong.
+D. đựng nhau.
+::key C
+$OO'=8-3=R-r$ nên hai đường tròn tiếp xúc trong. B nhầm với $R+r=11$.
+
+[M269.2] Nhiều lựa chọn
+Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 2\text{ cm})$ với $OO'=3$ cm. Vị trí tương đối của hai đường tròn là
+A. cắt nhau.
+B. tiếp xúc trong.
+C. ở ngoài nhau.
+D. đựng nhau.
+::key D
+$OO'=3<R-r=4$ nên $(O)$ đựng $(O')$. A chỉ so sánh với $R+r$.
+
+[M269.3] Nhiều lựa chọn
+Hai đường tròn $(O; 5\text{ cm})$ và $(O'; 5\text{ cm})$ cắt nhau tại $A$, $B$, với $OO'=6$ cm. Độ dài dây chung $AB$ là
+A. $4$ cm.
+B. $8$ cm.
+C. $6$ cm.
+D. $2\sqrt{34}$ cm.
+::key B
+$OH=3$ cm nên $AH=\sqrt{25-9}=4$ cm và $AB=8$ cm. A quên nhân đôi, D cộng dưới dấu căn.
+
+[M269.4] Nhiều lựa chọn
+Hai đường tròn $(O; 7\text{ cm})$ và $(O'; 2\text{ cm})$ tiếp xúc ngoài. Khoảng cách $OO'$ là
+A. $5$ cm.
+B. $9$ cm.
+C. $14$ cm.
+D. $4{,}5$ cm.
+::key B
+Tiếp xúc ngoài nên $OO'=R+r=9$ cm. A là trường hợp tiếp xúc trong.
+
+[M269.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai đường tròn $(O; 5\text{ cm})$ và $(O'; 3\text{ cm})$ với $OO'=4$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Hai đường tròn cắt nhau.
+b) Đường nối tâm $OO'$ vuông góc với dây chung.
+c) Hai đường tròn tiếp xúc trong.
+d) Dây chung dài $6$ cm.
+::key Đ Đ S Đ
+a) Đúng: $2<4<8$. b) Đúng: $OO'$ là trung trực của dây chung. c) Sai: $4\neq R-r$. d) Đúng: $25-x^2=9-(4-x)^2$ cho $x=4$, nên $H$ trùng $O'$, $AH=3$.
+
+[M269.6] Trả lời ngắn
+Đường tròn $(O; 10\text{ cm})$ tiếp xúc trong với đường tròn $(O'; r)$, $r<10$ cm, và $OO'=3{,}5$ cm. Tính $r$ (đơn vị: cm).
+::key 6,5
+Tiếp xúc trong nên $10-r=3{,}5$, suy ra $r=6{,}5$ cm.
+
+[M269.7] Trả lời ngắn
+Hai đường tròn $(O; 8\text{ cm})$ và $(O'; 2\text{ cm})$ tiếp xúc ngoài. Một tiếp tuyến chung tiếp xúc với hai đường tròn tại $B$ và $C$, không đi qua tiếp điểm của hai đường tròn. Tính $BC$ (đơn vị: cm).
+::key 8
+$OO'=10$ cm, $OK=8-2=6$ cm, nên $BC=\sqrt{10^2-6^2}=8$ cm.
+
+### M270 · Lớp 9 · Hàm số y = ax² (a ≠ 0)
+
+[M270.1] Nhiều lựa chọn
+Hàm số nào sau đây có dạng $y=ax^2$ với $a\neq0$?
+A. $y=3x$.
+B. $y=-\dfrac12x^2$.
+C. $y=x^2+2$.
+D. $y=0x^2$.
+::key B
+$a=-\dfrac12\neq0$. A là hàm số bậc nhất, C có thêm số hạng $2$, D có $a=0$.
+
+[M270.2] Nhiều lựa chọn
+Cho hàm số $y=-2x^2$. Giá trị của $y$ khi $x=-3$ là
+A. $18$.
+B. $-18$.
+C. $36$.
+D. $6$.
+::key B
+$y=-2\cdot9=-18$. A sai dấu, C bình phương cả $-2$, D quên bình phương.
+
+[M270.3] Nhiều lựa chọn
+Đồ thị của hàm số $y=ax^2$ đi qua điểm $(-2; 8)$. Giá trị của $a$ là
+A. $2$.
+B. $-2$.
+C. $4$.
+D. $-4$.
+::key A
+$4a=8$ nên $a=2$. B coi $(-2)^2=-4$, C lấy $8:2$, D lấy $8:(-2)$.
+
+[M270.4] Nhiều lựa chọn
+Điểm nào sau đây không thuộc đồ thị của hàm số $y=-x^2$?
+A. $(1; -1)$.
+B. $(-2; -4)$.
+C. $(3; 9)$.
+D. $(0; 0)$.
+::key C
+Tại $x=3$, $y=-9\neq9$.
+
+[M270.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hàm số $y=\dfrac13x^2$ có đồ thị $(P)$. Xét tính đúng sai của các mệnh đề sau:
+a) $O(0; 0)$ là điểm thấp nhất của $(P)$.
+b) $(P)$ đi qua điểm $(3; 3)$.
+c) $(P)$ đi qua điểm $(-3; -3)$.
+d) Các điểm thuộc $(P)$ có tung độ bằng $12$ có hoành độ là $6$ và $-6$.
+::key Đ Đ S Đ
+a) Đúng: $a>0$. b) Đúng: $\dfrac13\cdot9=3$. c) Sai: tại $x=-3$, $y=3$. d) Đúng: $x^2=36$.
+
+[M270.6] Trả lời ngắn
+Một vật rơi từ độ cao $80$ m, quãng đường rơi sau $t$ giây là $s=5t^2$ (m). Sau bao nhiêu giây thì vật chạm đất?
+::key 4
+$5t^2=80\Leftrightarrow t^2=16$, mà $t>0$ nên $t=4$.
+
+[M270.7] Trả lời ngắn
+Đồ thị của hàm số $y=ax^2$ đi qua điểm $A(4; 4)$. Tính $a$ (viết kết quả dưới dạng số thập phân).
+::key 0,25
+$16a=4$ nên $a=0{,}25$.
+
+### M271 · Lớp 9 · Phương trình bậc hai một ẩn
+
+[M271.1] Nhiều lựa chọn
+Phương trình nào sau đây là phương trình bậc hai một ẩn?
+A. $2x+3=0$.
+B. $x^3-x=0$.
+C. $-x^2+5=0$.
+D. $0x^2+3x-1=0$.
+::key C
+$a=-1\neq0$, $b=0$, $c=5$. A và D (có $a=0$) là phương trình bậc nhất, B là phương trình bậc ba.
+
+[M271.2] Nhiều lựa chọn
+Biệt thức $\Delta$ của phương trình $2x^2-3x-2=0$ là
+A. $25$.
+B. $-7$.
+C. $17$.
+D. $7$.
+::key A
+$\Delta=9-4\cdot2\cdot(-2)=9+16=25$. B sai dấu của $c$, C dùng $2ac$ thay cho $4ac$, D viết $b^2=-9$.
+
+[M271.3] Nhiều lựa chọn
+Phương trình $x^2-6x+9=0$
+A. có hai nghiệm phân biệt $3$ và $-3$.
+B. có nghiệm kép $x=3$.
+C. có nghiệm kép $x=-3$.
+D. vô nghiệm.
+::key B
+$\Delta'=9-9=0$, nghiệm kép $x=-\dfrac{b'}{a}=3$. A nhầm với phương trình $x^2=9$, C sai dấu của $b'$, D tính nhầm $\Delta'=-9-9<0$.
+
+[M271.4] Nhiều lựa chọn
+Phương trình $3x^2-4x-1=0$ có biệt thức thu gọn $\Delta'$ bằng
+A. $7$.
+B. $1$.
+C. $28$.
+D. $19$.
+::key A
+$b'=-2$, $\Delta'=4-3\cdot(-1)=7$. B sai dấu của $c$, C là $\Delta$, D dùng $b^2$ thay cho $b'^2$.
+
+[M271.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $x^2-2x-8=0$. Xét tính đúng sai của các mệnh đề sau:
+a) Các hệ số là $a=1$, $b=-2$, $c=-8$.
+b) $\Delta'=9$.
+c) Phương trình có hai nghiệm $x=-4$ và $x=2$.
+d) Phương trình có nghiệm kép.
+::key Đ Đ S S
+a) Đúng. b) Đúng: $\Delta'=1+8=9$. c) Sai: $x=1\pm3$, tức $x=4$, $x=-2$. d) Sai: $\Delta'>0$.
+
+[M271.6] Trả lời ngắn
+Tìm nghiệm dương của phương trình $x^2+x-12=0$.
+::key 3
+$\Delta=1+48=49$, $x=\dfrac{-1\pm7}{2}$, tức $x=3$ hoặc $x=-4$.
+
+[M271.7] Trả lời ngắn
+Tìm nghiệm nhỏ hơn của phương trình $2x^2-5x-3=0$ (viết dưới dạng số thập phân).
+::key -0,5
+$\Delta=25+24=49$, $x=\dfrac{5\pm7}{4}$, tức $x=3$ hoặc $x=-0{,}5$.
+
+### M272 · Lớp 9 · Định lí Viète và ứng dụng
+
+[M272.1] Nhiều lựa chọn
+Tổng hai nghiệm của phương trình $2x^2-6x-5=0$ là
+A. $-3$.
+B. $3$.
+C. $-\dfrac52$.
+D. $6$.
+::key B
+$a$, $c$ trái dấu nên có hai nghiệm; $S=-\dfrac{-6}{2}=3$. A sai dấu, C là tích, D quên chia cho $a$.
+
+[M272.2] Nhiều lựa chọn
+Tích hai nghiệm của phương trình $3x^2+7x-6=0$ là
+A. $2$.
+B. $-6$.
+C. $-\dfrac73$.
+D. $-2$.
+::key D
+$P=\dfrac ca=\dfrac{-6}{3}=-2$. A sai dấu, C là tổng, B quên chia cho $a$.
+
+[M272.3] Nhiều lựa chọn
+Phương trình $4x^2-9x+5=0$ có hai nghiệm là
+A. $1$ và $-\dfrac54$.
+B. $-1$ và $-\dfrac54$.
+C. $1$ và $\dfrac54$.
+D. $1$ và $5$.
+::key C
+$a+b+c=4-9+5=0$ nên $x_1=1$, $x_2=\dfrac ca=\dfrac54$. B dùng nhầm trường hợp $a-b+c=0$, A sai dấu của $\dfrac ca$, D quên chia cho $a$.
+
+[M272.4] Nhiều lựa chọn
+Hai số có tổng bằng $9$ và tích bằng $20$ là hai nghiệm của phương trình
+A. $x^2-9x+20=0$.
+B. $x^2+9x+20=0$.
+C. $x^2-20x+9=0$.
+D. $x^2+9x-20=0$.
+::key A
+Phương trình $x^2-Sx+P=0$ với $S=9$, $P=20$. B sai dấu của $S$, C đổi chỗ $S$ và $P$, D sai dấu cả $S$ lẫn $P$.
+
+[M272.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho phương trình $x^2-3x-10=0$ có hai nghiệm $x_1$, $x_2$. Xét tính đúng sai của các mệnh đề sau:
+a) Phương trình có hai nghiệm trái dấu.
+b) $x_1+x_2=-3$.
+c) $x_1x_2=-10$.
+d) $x_1^2+x_2^2=29$.
+::key Đ S Đ Đ
+a) Đúng: $P=-10<0$. b) Sai: $S=3$. c) Đúng. d) Đúng: $9+20=29$.
+
+[M272.6] Trả lời ngắn
+Gọi $x_1$, $x_2$ là hai nghiệm của phương trình $x^2-7x+2=0$. Tính $x_1^2+x_2^2$.
+::key 45
+$\Delta=41>0$, $S=7$, $P=2$, nên $x_1^2+x_2^2=49-4=45$.
+
+[M272.7] Trả lời ngắn
+Tính nhẩm nghiệm lớn hơn của phương trình $2x^2-11x+9=0$ (viết dưới dạng số thập phân).
+::key 4,5
+$a+b+c=2-11+9=0$ nên hai nghiệm là $1$ và $\dfrac92=4{,}5$.
+
+### M273 · Lớp 9 · Giải bài toán bằng cách lập phương trình
+
+[M273.1] Nhiều lựa chọn
+Hai số tự nhiên liên tiếp có tích bằng $110$. Gọi số nhỏ là $x$, phương trình nào sau đây đúng?
+A. $x+(x+1)=110$.
+B. $x(x+1)=110$.
+C. $x^2+1=110$.
+D. $2x+1=110$.
+::key B
+Số liền sau là $x+1$ và tích của chúng là $x(x+1)$. A và D là tổng, C nhầm $x(x+1)$ với $x^2+1$.
+
+[M273.2] Nhiều lựa chọn
+Một ô tô đi quãng đường $90$ km với vận tốc $x$ (km/h). Nếu tăng vận tốc thêm $15$ km/h thì đến sớm hơn $1$ giờ. Phương trình nào sau đây đúng?
+A. $\dfrac{90}{x}-\dfrac{90}{x+15}=1$.
+B. $\dfrac{90}{x+15}-\dfrac{90}{x}=1$.
+C. $\dfrac{90}{x}+\dfrac{90}{x+15}=1$.
+D. $90x-90(x+15)=1$.
+::key A
+Thời gian lúc đầu lớn hơn nên lấy $\dfrac{90}{x}-\dfrac{90}{x+15}=1$. B lấy hiệu ngược, C cộng thay cho trừ, D nhân thay cho chia.
+
+[M273.3] Nhiều lựa chọn
+Khi giải một bài toán với ẩn $x$ là chiều rộng (m), ta được phương trình $x^2+3x-70=0$ có hai nghiệm $7$ và $-10$. Chiều rộng là
+A. $7$ m hoặc $10$ m.
+B. $-10$ m.
+C. $10$ m.
+D. $7$ m.
+::key D
+Điều kiện $x>0$ nên loại $-10$; C và A bỏ dấu trừ một cách sai lầm.
+
+[M273.4] Nhiều lựa chọn
+Giá một sản phẩm sau hai lần tăng, mỗi lần tăng $r\%$ so với giá trước đó, đã tăng từ $200$ nghìn đồng lên $242$ nghìn đồng. Giá trị của $r$ là
+A. $11$.
+B. $21$.
+C. $10{,}5$.
+D. $10$.
+::key D
+$\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1{,}21$ nên $1+\dfrac{r}{100}=1{,}1$, tức $r=10$. B là mức tăng tổng cộng, C chia $21\%$ cho $2$, A lấy nhầm $\sqrt{121}=11$.
+
+[M273.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng $4$ m và diện tích bằng $96$ m². Gọi chiều rộng là $x$ (m), $x>0$. Xét tính đúng sai của các mệnh đề sau:
+a) Chiều dài của mảnh vườn là $x+4$ (m).
+b) Ta có phương trình $x^2+4x-96=0$.
+c) Chiều rộng của mảnh vườn là $12$ m.
+d) Chu vi của mảnh vườn là $40$ m.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $x(x+4)=96$. c) Sai: $\Delta'=100$, $x=-2+10=8$. d) Đúng: $2(8+12)=40$.
+
+[M273.6] Trả lời ngắn
+Tích của hai số tự nhiên chẵn liên tiếp bằng $288$. Tìm số lớn hơn.
+::key 18
+$x(x+2)=288\Leftrightarrow x^2+2x-288=0$, $\Delta'=289$, $x=16$; số lớn hơn là $18$.
+
+[M273.7] Trả lời ngắn
+Giả sử dân số của một phường tăng từ $20\,000$ người lên $20\,808$ người sau $2$ năm, tỉ lệ tăng hằng năm như nhau là $r\%$. Tìm $r$.
+::key 2
+$\left(1+\dfrac{r}{100}\right)^2=1{,}0404$ nên $1+\dfrac{r}{100}=1{,}02$, tức $r=2$.

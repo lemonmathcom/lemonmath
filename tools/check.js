@@ -41,6 +41,11 @@ function stats(file) {
   let r;
   try { r = render(body, { marked, katex, lang, paper: meta.type === 'paper', warn: (w) => warns.push(w) }); } catch (e) { problem(file + ': ' + e.message); return null; }
   warns.forEach((w) => problem(file + ': ' + w));
+  // cognitive levels (GDPT 2018): "::mc VD", "::tf NB TH VD VDC" (one per statement); untagged is allowed
+  [...body.matchAll(/^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/gm)].forEach((b) => require('./render.js').parseQuiz(b[1]).forEach((i, k) => {
+    if (i.lv.length && i.lv.length !== (i.type === 'tf' ? 4 : 1)) problem(file + ': câu quiz thứ ' + (k + 1) + ' (::' + i.type + ') ghi ' + i.lv.length + ' mức độ, cần ' + (i.type === 'tf' ? '4 (mỗi ý một mức)' : '1'));
+  }));
+  { const bad = body.match(/^::(mc|tf|sa)[ \t]+(?!(?:(?:NB|TH|VD|VDC)[ \t]*)+$)\S.*$/gm); if (bad) bad.forEach((l) => problem(file + ': dòng "' + l.trim() + '": mức độ chỉ được là NB, TH, VD, VDC')); }
   const count = (re) => (body.match(re) || []).length;
   const practice = /^:::practice[^\n]*\n([\s\S]*?)^:::/m.exec(body);
   const solution = /^:::solution[^\n]*\n([\s\S]*?)^:::/m.exec(body.slice(practice ? body.indexOf(practice[0]) : 0));

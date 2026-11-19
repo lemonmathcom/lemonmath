@@ -8,7 +8,7 @@ def process(text, targets=None):
         l=lines[i]
         if l.startswith(':::quiz'): in_quiz=True
         elif in_quiz and l.strip()==':::': in_quiz=False
-        if in_quiz and l.strip()=='::mc':
+        if in_quiz and re.match(r'^::mc(\s+(NB|TH|VD|VDC))?\s*$', l.strip()):
             blk=[l]; i+=1
             while i<len(lines) and not (lines[i].startswith('::') and lines[i].strip()!='' and not lines[i].startswith('::key')) and lines[i].strip()!=':::':
                 blk.append(lines[i]); i+=1
@@ -32,7 +32,7 @@ def process(text, targets=None):
             out+=blk; continue
         out.append(l); i+=1
     return '\n'.join(out), used
-def nmc(t): return len(re.findall(r'^::mc\s*$',t,re.M))
+def nmc(t): return len(re.findall(r'^::mc(?:[ \t]+(?:NB|TH|VD|VDC))?[ \t]*$',t,re.M))
 for en,vi in zip(sys.argv[1::2],sys.argv[2::2]):
     te=open(en).read(); tv=open(vi).read()
     n=nmc(te); assert n==nmc(tv),(en,'số câu khác')

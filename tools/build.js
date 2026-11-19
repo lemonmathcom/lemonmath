@@ -664,6 +664,7 @@ function writeBank(lang) {
               const row = { l: li, y: it.type, q: md(it.q, C.rel), k: it.key, e: it.expl ? md(it.expl, C.rel) : '' };
               if (it.type !== 'sa') row.o = it.opts.map((o) => one(it.type === 'mc' ? o.replace(/\.\s*$/, '') : o, C.rel));
               if (it.type === 'mc') { row.c = optCols(it.opts); if (it.opts.some((o) => BANK_FIXED.test(o))) row.x = 1; }
+              if (it.lv.length) row.v = it.type === 'tf' ? it.lv : it.lv[0]; // cognitive level(s): NB, TH, VD, VDC
               out.items.push(row); n[it.type]++;
             } catch (e) { warn(C.rel + ': bỏ qua một câu khi lập ngân hàng câu hỏi (' + e.message + ').'); }
           });

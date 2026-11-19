@@ -57,22 +57,29 @@ function paperNote(L, items) {
   return (vi ? 'Cách chấm phần trắc nghiệm: ' : 'How the objective part is marked: ') + bits.join('; ') + '.';
 }
 
-/* :::quiz body -> [{type: 'mc'|'tf'|'sa', q, opts: [], key, expl}] */
+/*
+ * :::quiz body -> [{type: 'mc'|'tf'|'sa', q, opts: [], key, expl, lv}]
+ * Optional cognitive level (Chương trình GDPT 2018) after the type: "::mc VD", "::sa TH",
+ * and one level per statement for true/false: "::tf NB TH VD VDC". lv = [] when untagged.
+ */
+const LEVELS = ['NB', 'TH', 'VD', 'VDC'];
 function parseQuiz(body) {
   const items = [];
-  const parts = body.split(/^::(mc|tf|sa)[ \t]*$/m);
-  for (let k = 1; k < parts.length; k += 2) {
+  const parts = body.split(/^::(mc|tf|sa)((?:[ \t]+(?:NB|TH|VD|VDC))*)[ \t]*$/m);
+  for (let k = 1; k < parts.length; k += 3) {
     const type = parts[k];
-    const km = /^::key[ \t]+(.+)$/m.exec(parts[k + 1]);
-    const main = km ? parts[k + 1].slice(0, km.index) : parts[k + 1];
-    const expl = km ? parts[k + 1].slice(km.index + km[0].length).trim() : '';
+    const lv = parts[k + 1].trim() ? parts[k + 1].trim().split(/\s+/) : [];
+    const blk = parts[k + 2];
+    const km = /^::key[ \t]+(.+)$/m.exec(blk);
+    const main = km ? blk.slice(0, km.index) : blk;
+    const expl = km ? blk.slice(km.index + km[0].length).trim() : '';
     const optRe = type === 'mc' ? /^([A-D])\.[ \t]+(.*)$/ : type === 'tf' ? /^([a-d])\)[ \t]+(.*)$/ : null;
     const q = [], opts = [];
     main.split('\n').forEach((line) => { const m = optRe && optRe.exec(line.trim()); if (m) opts.push(m[2]); else if (!opts.length) q.push(line); else opts[opts.length - 1] += ' ' + line.trim(); });
     let key = km ? km[1].trim() : '';
     if (type === 'tf') key = key.toUpperCase().replace(/Đ/g, 'T').replace(/S/g, 'F').replace(/[^TF]/g, '');
     if (type === 'mc') key = key.toUpperCase().replace(/[^A-D]/g, '');
-    items.push({ type, q: q.join('\n').trim(), opts, key, expl });
+    items.push({ type, q: q.join('\n').trim(), opts, key, expl, lv });
   }
   return items;
 }
@@ -304,4 +311,4 @@ function render(md, opts) {
   return { html, headings, math: store.length };
 }
 
-module.exports = { parseQuiz, render, esc, slugify, optCols };
+module.exports = { parseQuiz, render, esc, slugify, optCols, LEVELS };

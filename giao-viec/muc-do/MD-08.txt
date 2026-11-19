@@ -1,0 +1,1249 @@
+# Gói MD-08 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 6 → Lớp 6)
+
+Tài khoản thực hiện: Vimus2358
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-08 (147 câu)
+
+## Các câu hỏi
+
+### M171 · Lớp 6 · Ước chung. Ước chung lớn nhất
+
+[M171.1] Nhiều lựa chọn
+$\text{ƯCLN}(24,36)$ bằng
+A. $6$.
+B. $12$.
+C. $72$.
+D. $4$.
+::key B
+$24=2^3\cdot3$, $36=2^2\cdot3^2$, nên $\text{ƯCLN}=2^2\cdot3=12$. A là một ước chung nhưng chưa lớn nhất; C là bội chung nhỏ nhất; D thiếu thừa số $3$.
+
+[M171.2] Nhiều lựa chọn
+Biết $\text{ƯCLN}(a,b)=10$. Tập hợp $\text{ƯC}(a,b)$ là
+A. $\{1;2;5;10\}$.
+B. $\{10;20;30;\dots\}$.
+C. $\{2;5\}$.
+D. $\{1;10\}$.
+::key A
+Các ước chung là các ước của $10$. B là các bội của $10$; C và D thiếu ước.
+
+[M171.3] Nhiều lựa chọn
+Phân số nào sau đây là phân số tối giản?
+A. $\dfrac{14}{21}$.
+B. $\dfrac{15}{25}$.
+C. $\dfrac{9}{16}$.
+D. $\dfrac{12}{18}$.
+::key C
+$\text{ƯCLN}(9,16)=1$. Các phân số còn lại rút gọn được: $\dfrac{14}{21}=\dfrac{2}{3}$, $\dfrac{15}{25}=\dfrac{3}{5}$, $\dfrac{12}{18}=\dfrac{2}{3}$.
+
+[M171.4] Nhiều lựa chọn
+Có $30$ quả cam và $45$ quả quýt chia đều vào các đĩa, mỗi đĩa có số cam như nhau và số quýt như nhau. Số đĩa nhiều nhất là
+A. $5$.
+B. $3$.
+C. $90$.
+D. $15$.
+::key D
+Số đĩa nhiều nhất là $\text{ƯCLN}(30,45)=15$. A và B là ước chung nhưng chưa lớn nhất; C là BCNN.
+
+[M171.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $\text{ƯCLN}(18,30)=6$.
+b) Hai hợp số không bao giờ nguyên tố cùng nhau.
+c) Nếu $a$ chia hết cho $b$ thì $\text{ƯCLN}(a,b)=b$.
+d) $\text{ƯCLN}(15,1)=15$.
+::key Đ S Đ S
+a) Đúng: $18=2\cdot3^2$, $30=2\cdot3\cdot5$, ƯCLN là $2\cdot3=6$. b) Sai: $8$ và $9$ đều là hợp số nhưng $\text{ƯCLN}(8,9)=1$. c) Đúng: $b$ là ước của cả $a$ và $b$, và không có ước nào của $b$ lớn hơn $b$. d) Sai: $\text{ƯCLN}(15,1)=1$.
+
+[M171.6] Trả lời ngắn
+Tìm $\text{ƯCLN}(42,70)$.
+::key 14
+$42=2\cdot3\cdot7$, $70=2\cdot5\cdot7$, nên $\text{ƯCLN}=2\cdot7=14$.
+
+[M171.7] Trả lời ngắn
+Hai số $54$ và $90$ có bao nhiêu ước chung?
+::key 6
+$\text{ƯCLN}(54,90)=2\cdot3^2=18$, và $18$ có $6$ ước: $1$; $2$; $3$; $6$; $9$; $18$.
+
+### M172 · Lớp 6 · Bội chung. Bội chung nhỏ nhất
+
+[M172.1] Nhiều lựa chọn
+$\text{BCNN}(12,20)$ bằng
+A. $4$.
+B. $240$.
+C. $60$.
+D. $120$.
+::key C
+$12=2^2\cdot3$, $20=2^2\cdot5$, nên BCNN là $2^2\cdot3\cdot5=60$. A là ƯCLN; B là tích $12\cdot20$; D là một bội chung nhưng chưa nhỏ nhất.
+
+[M172.2] Nhiều lựa chọn
+Biết $\text{BCNN}(a,b)=15$. Các bội chung của $a$ và $b$ nhỏ hơn $50$ là
+A. $1$; $3$; $5$; $15$.
+B. $0$; $15$; $30$; $45$.
+C. $15$; $30$; $45$; $60$.
+D. $0$; $15$.
+::key B
+Các bội chung là các bội của $15$. A là các ước của $15$; C có $60>50$ và thiếu $0$; D thiếu $30$, $45$.
+
+[M172.3] Nhiều lựa chọn
+Mẫu chung nhỏ nhất khi quy đồng $\dfrac{1}{6}$ và $\dfrac{3}{10}$ là
+A. $60$.
+B. $16$.
+C. $2$.
+D. $30$.
+::key D
+Mẫu chung nhỏ nhất là $\text{BCNN}(6,10)=30$. A là tích $6\cdot10$; B là tổng; C là ƯCLN.
+
+[M172.4] Nhiều lựa chọn
+Hai bánh răng ăn khớp nhau, bánh nhỏ có $12$ răng, bánh lớn có $18$ răng. Hai răng đánh dấu đang chạm nhau. Bánh nhỏ phải quay ít nhất bao nhiêu vòng để hai răng ấy lại chạm nhau?
+A. $3$ vòng.
+B. $2$ vòng.
+C. $36$ vòng.
+D. $6$ vòng.
+::key A
+Số răng đi qua chỗ tiếp xúc ít nhất là $\text{BCNN}(12,18)=36$, nên bánh nhỏ quay $36:12=3$ vòng. B là số vòng của bánh lớn; C nhầm số răng với số vòng; D là ƯCLN.
+
+[M172.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) $\text{BCNN}(5,7)=35$.
+b) $\text{BCNN}(16,4)=64$.
+c) Số $0$ là bội chung của mọi cặp số khác $0$.
+d) Nếu $\text{ƯCLN}(a,b)=1$ thì $\text{BCNN}(a,b)=a\cdot b$.
+::key Đ S Đ Đ
+a) Đúng: $5$ và $7$ nguyên tố cùng nhau. b) Sai: $16$ chia hết cho $4$ nên $\text{BCNN}=16$. c) Đúng: $0$ chia hết cho mọi số khác $0$. d) Đúng: hai số không có thừa số chung nên BCNN là tích.
+
+[M172.6] Trả lời ngắn
+Tìm $\text{BCNN}(18,24)$.
+::key 72
+$18=2\cdot3^2$, $24=2^3\cdot3$, nên BCNN là $2^3\cdot3^2=72$.
+
+[M172.7] Trả lời ngắn
+Một số chia hết cho $4$, $5$ và $6$. Số nhỏ nhất khác $0$ như vậy là bao nhiêu?
+::key 60
+Đó là $\text{BCNN}(4,5,6)=2^2\cdot3\cdot5=60$.
+
+### M173 · Lớp 6 · Tập hợp các số nguyên
+
+[M173.1] Nhiều lựa chọn
+Số nào sau đây là số nguyên âm?
+A. $0$.
+B. $-(-5)$.
+C. $-9$.
+D. $7$.
+::key C
+$-9$ là số nguyên âm. A: $0$ không âm; B: $-(-5)=5$ là số dương; D là số dương.
+
+[M173.2] Nhiều lựa chọn
+Số đối của $-15$ là
+A. $15$.
+B. $-15$.
+C. $0$.
+D. $\dfrac{1}{15}$.
+::key A
+Số đối của $-15$ là $15$. B là chính số đó; C không liên quan; D là nghịch đảo (học sau), không phải số đối.
+
+[M173.3] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. $-6>-2$.
+B. $-1<-10$.
+C. $0<-3$.
+D. $-7<-4$.
+::key D
+Vì $7>4$ nên $-7<-4$. A và B so sánh số âm như số tự nhiên; C sai vì số âm nhỏ hơn $0$.
+
+[M173.4] Nhiều lựa chọn
+Có bao nhiêu số nguyên $x$ thoả mãn $-3\le x\le2$?
+A. $4$.
+B. $5$.
+C. $6$.
+D. $7$.
+::key C
+Đó là $-3$; $-2$; $-1$; $0$; $1$; $2$, gồm $6$ số. A bỏ cả hai đầu; B quên số $0$; D đếm thừa.
+
+[M173.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số tự nhiên đều là số nguyên.
+b) Số $0$ là số nguyên dương nhỏ nhất.
+c) Số đối của số nguyên âm là số nguyên dương.
+d) Trong hai số nguyên âm, số nào có phần số tự nhiên nhỏ hơn thì số đó nhỏ hơn.
+::key Đ S Đ S
+a) Đúng: $\mathbb{N}\subset\mathbb{Z}$. b) Sai: $0$ không là số dương; số nguyên dương nhỏ nhất là $1$. c) Đúng: ví dụ số đối của $-4$ là $4$. d) Sai: ví dụ $3<8$ nhưng $-3>-8$.
+
+[M173.6] Trả lời ngắn
+Số nguyên âm lớn nhất là số nào?
+::key -1
+Các số nguyên âm là $-1$; $-2$; $-3$; …, trong đó $-1$ nằm gần $0$ nhất nên lớn nhất.
+
+[M173.7] Trả lời ngắn
+Lúc $6$ giờ nhiệt độ là $-3^\circ\text{C}$, đến trưa nhiệt độ tăng thêm $8^\circ\text{C}$. Nhiệt độ buổi trưa là bao nhiêu độ C?
+::key 5
+Trên nhiệt kế, từ $-3$ đi lên $8$ vạch: $3$ vạch đầu đến $0$, còn $5$ vạch nữa đến $5$. Nhiệt độ buổi trưa là $5^\circ\text{C}$.
+
+### M174 · Lớp 6 · Phép cộng và phép trừ số nguyên. Quy tắc dấu ngoặc
+
+[M174.1] Nhiều lựa chọn
+Kết quả của phép tính $(-25)+(-15)$ là
+A. $-10$.
+B. $40$.
+C. $-40$.
+D. $10$.
+::key C
+$(-25)+(-15)=-(25+15)=-40$. A lấy hiệu thay vì tổng; B quên dấu "$-$"; D vừa lấy hiệu vừa sai dấu.
+
+[M174.2] Nhiều lựa chọn
+Kết quả của phép tính $(-18)+11$ là
+A. $-7$.
+B. $7$.
+C. $-29$.
+D. $29$.
+::key A
+Hai số khác dấu, $18>11$ nên tổng là $-(18-11)=-7$. B sai dấu; C cộng hai phần số như cùng dấu; D cộng hai phần số và quên dấu.
+
+[M174.3] Nhiều lựa chọn
+Kết quả của phép tính $5-(-8)$ là
+A. $-3$.
+B. $3$.
+C. $-13$.
+D. $13$.
+::key D
+$5-(-8)=5+8=13$. A tính $5-8$, quên đổi dấu; B tính $8-5$; C đổi sai dấu cả hai số.
+
+[M174.4] Nhiều lựa chọn
+Với $a$, $b$, $c$ là các số nguyên, biểu thức $a-(b-c)$ bằng
+A. $a-b-c$.
+B. $a-b+c$.
+C. $a+b-c$.
+D. $a+b+c$.
+::key B
+Trước ngoặc có dấu "$-$" nên đổi dấu cả hai số hạng: $a-(b-c)=a-b+c$. A chỉ đổi dấu số hạng đầu; C đổi dấu ngược; D sai cả hai.
+
+[M174.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Tổng của một số nguyên dương và một số nguyên âm luôn là một số nguyên dương.
+b) Tổng của hai số nguyên âm là một số nguyên âm.
+c) Hiệu của hai số nguyên âm luôn là một số nguyên âm.
+d) Hai số nguyên đối nhau có tổng bằng $0$.
+::key S Đ S Đ
+a) Sai: ví dụ $3+(-5)=-2$ là số âm. b) Đúng: $(-a)+(-b)=-(a+b)$. c) Sai: ví dụ $(-2)-(-5)=3$ là số dương. d) Đúng: $a+(-a)=0$.
+
+[M174.6] Trả lời ngắn
+Tính giá trị của biểu thức $(-120)+75-(-45)$.
+::key 0
+$(-120)+75-(-45)=(-120)+75+45=(-120)+120=0$.
+
+[M174.7] Trả lời ngắn
+Lúc $5$ giờ sáng nhiệt độ là $-6^\circ\text{C}$, đến trưa nhiệt độ là $4^\circ\text{C}$. Từ $5$ giờ sáng đến trưa, nhiệt độ đã tăng bao nhiêu độ C?
+::key 10
+Mức tăng bằng nhiệt độ lúc sau trừ nhiệt độ lúc đầu: $4-(-6)=4+6=10$ (độ C).
+
+### M175 · Lớp 6 · Phép nhân số nguyên. Phép chia hết. Ước và bội của một số nguyên
+
+[M175.1] Nhiều lựa chọn
+Kết quả của phép tính $(-9)\cdot6$ là
+A. $54$.
+B. $-54$.
+C. $-15$.
+D. $-3$.
+::key B
+Hai thừa số khác dấu nên tích âm: $-(9\cdot6)=-54$. A sai dấu; C lấy $-9-6$; D lấy $-9+6$.
+
+[M175.2] Nhiều lựa chọn
+Kết quả của phép tính $(-12)\cdot(-5)$ là
+A. $-60$.
+B. $-17$.
+C. $17$.
+D. $60$.
+::key D
+Hai thừa số cùng dấu nên tích dương: $12\cdot5=60$. A sai dấu; B cộng hai số; C cộng hai phần số.
+
+[M175.3] Nhiều lựa chọn
+Kết quả của phép tính $(-84):7$ là
+A. $-12$.
+B. $12$.
+C. $-77$.
+D. $-91$.
+::key A
+Hai số khác dấu nên thương âm: $84:7=12$, vậy thương là $-12$. B sai dấu; C lấy $-84+7$; D lấy $-84-7$.
+
+[M175.4] Nhiều lựa chọn
+Số nào sau đây là một ước của $-15$?
+A. $0$.
+B. $30$.
+C. $-5$.
+D. $-45$.
+::key C
+$-15=(-5)\cdot3$ nên $-5$ là ước của $-15$. A: $0$ không là ước của số nào; B và D là bội của $-15$ chứ không phải ước.
+
+[M175.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Tích của hai số nguyên âm là một số nguyên âm.
+b) Tích của một số nguyên với $0$ bằng $0$.
+c) Nếu $a$ là bội của $b$ thì $-a$ cũng là bội của $b$.
+d) Số $0$ là ước của mọi số nguyên.
+::key S Đ Đ S
+a) Sai: hai số cùng dấu có tích dương, ví dụ $(-2)\cdot(-3)=6$. b) Đúng: $a\cdot0=0$. c) Đúng: nếu $a=b\cdot q$ thì $-a=b\cdot(-q)$. d) Sai: không có phép chia cho $0$ nên $0$ không là ước của số nào.
+
+[M175.6] Trả lời ngắn
+Tính giá trị của biểu thức $(-3)\cdot(-4)\cdot(-5)+70$.
+::key 10
+$(-3)\cdot(-4)=12$; $12\cdot(-5)=-60$; $-60+70=10$.
+
+[M175.7] Trả lời ngắn
+Số $-18$ có tất cả bao nhiêu ước nguyên?
+::key 12
+Các ước dương của $18$ là $1$; $2$; $3$; $6$; $9$; $18$ ($6$ ước). Thêm $6$ số đối, được $12$ ước.
+
+### M176 · Lớp 6 · Hình tam giác đều. Hình vuông. Hình lục giác đều. Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân
+
+[M176.1] Nhiều lựa chọn
+Mỗi góc của một tam giác đều có số đo bằng
+A. $45^\circ$.
+B. $60^\circ$.
+C. $90^\circ$.
+D. $120^\circ$.
+::key B
+Tam giác đều có ba góc bằng nhau, mỗi góc $60^\circ$. C là góc của hình vuông; D là góc của lục giác đều.
+
+[M176.2] Nhiều lựa chọn
+Một lục giác đều có bao nhiêu đường chéo chính?
+A. $3$.
+B. $6$.
+C. $2$.
+D. $9$.
+::key A
+Mỗi đường chéo chính nối hai đỉnh đối diện, sáu đỉnh tạo thành $3$ cặp. B là số cạnh; C là số đường chéo của tứ giác; D là tổng số đường chéo của lục giác.
+
+[M176.3] Nhiều lựa chọn
+Trong các hình sau, hình nào luôn có hai đường chéo vuông góc với nhau?
+A. Hình chữ nhật.
+B. Hình bình hành.
+C. Hình thang cân.
+D. Hình thoi.
+::key D
+Hình thoi có hai đường chéo vuông góc. Hình chữ nhật và hình thang cân có hai đường chéo bằng nhau chứ không nhất thiết vuông góc; hình bình hành không có cả hai tính chất đó.
+
+[M176.4] Nhiều lựa chọn
+Hình bình hành $ABCD$ có $AB=7$ cm, $BC=4$ cm. Độ dài cạnh $CD$ là
+A. $4$ cm.
+B. $11$ cm.
+C. $7$ cm.
+D. $3$ cm.
+::key C
+$CD$ là cạnh đối của $AB$ nên $CD=AB=7$ cm. A nhầm với cạnh kề $BC$; B cộng hai cạnh; D trừ hai cạnh.
+
+[M176.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Hình thoi luôn có bốn góc vuông.
+b) Hình chữ nhật có hai đường chéo bằng nhau.
+c) Hình thang cân có hai cạnh bên bằng nhau.
+d) Mỗi góc của lục giác đều bằng $120^\circ$.
+::key S Đ Đ Đ
+a) Sai: hình thoi có bốn cạnh bằng nhau nhưng các góc không nhất thiết vuông. b) Đúng. c) Đúng. d) Đúng: mỗi góc gồm hai góc $60^\circ$ của hai tam giác đều ghép lại.
+
+[M176.6] Trả lời ngắn
+Một lục giác đều có cạnh dài $7$ cm. Đường chéo chính của nó dài bao nhiêu xăng-ti-mét?
+::key 14
+Đường chéo chính dài gấp đôi cạnh: $7\cdot2=14$ (cm).
+
+[M176.7] Trả lời ngắn
+Một đoạn dây dài $60$ cm được uốn vừa đủ thành một hình thoi. Mỗi cạnh của hình thoi dài bao nhiêu xăng-ti-mét?
+::key 15
+Hình thoi có bốn cạnh bằng nhau nên mỗi cạnh dài $60:4=15$ (cm).
+
+### M177 · Lớp 6 · Chu vi và diện tích của một số tứ giác đã học
+
+[M177.1] Nhiều lựa chọn
+Diện tích của hình vuông có cạnh $6$ cm là
+A. $24\ \text{cm}^2$.
+B. $36\ \text{cm}^2$.
+C. $12\ \text{cm}^2$.
+D. $18\ \text{cm}^2$.
+::key B
+$S=6\cdot6=36\ \text{cm}^2$. A là số đo chu vi ($4\cdot6$); C lấy $6\cdot2$; D chia đôi không cần thiết.
+
+[M177.2] Nhiều lựa chọn
+Một hình bình hành có cạnh dài $9$ cm, chiều cao ứng với cạnh đó là $4$ cm. Diện tích của hình bình hành là
+A. $36\ \text{cm}^2$.
+B. $26\ \text{cm}^2$.
+C. $18\ \text{cm}^2$.
+D. $13\ \text{cm}^2$.
+::key A
+$S=9\cdot4=36\ \text{cm}^2$. B lấy $2\cdot(9+4)$ như chu vi; C chia $2$ như hình thoi; D cộng hai số.
+
+[M177.3] Nhiều lựa chọn
+Một hình thoi có hai đường chéo dài $10$ cm và $6$ cm. Diện tích của hình thoi là
+A. $60\ \text{cm}^2$.
+B. $16\ \text{cm}^2$.
+C. $32\ \text{cm}^2$.
+D. $30\ \text{cm}^2$.
+::key D
+$S=\dfrac{10\cdot6}{2}=30\ \text{cm}^2$. A quên chia $2$; B cộng hai đường chéo; C lấy $2\cdot(10+6)$.
+
+[M177.4] Nhiều lựa chọn
+Một hình thang có hai đáy dài $4$ m và $8$ m, chiều cao $5$ m. Diện tích của hình thang là
+A. $60\ \text{m}^2$.
+B. $160\ \text{m}^2$.
+C. $30\ \text{m}^2$.
+D. $17\ \text{m}^2$.
+::key C
+$S=\dfrac{(4+8)\cdot5}{2}=30\ \text{m}^2$. A quên chia $2$; B nhân cả ba số; D cộng cả ba số.
+
+[M177.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hình chữ nhật có chiều dài $10$ m, chiều rộng $6$ m. Xét tính đúng sai của các mệnh đề sau:
+a) Chu vi của hình chữ nhật là $32$ m.
+b) Diện tích của hình chữ nhật là $60\ \text{m}^2$.
+c) Nếu tăng cả chiều dài và chiều rộng lên gấp đôi thì diện tích tăng gấp đôi.
+d) Nếu tăng cả chiều dài và chiều rộng lên gấp đôi thì chu vi tăng gấp đôi.
+::key Đ Đ S Đ
+a) Đúng: $2\cdot(10+6)=32$. b) Đúng: $10\cdot6=60$. c) Sai: diện tích mới là $20\cdot12=240$, gấp $4$ lần. d) Đúng: chu vi mới là $2\cdot(20+12)=64$, gấp $2$ lần.
+
+[M177.6] Trả lời ngắn
+Một hình chữ nhật có diện tích $72\ \text{cm}^2$ và chiều dài $9$ cm. Chiều rộng của hình chữ nhật là bao nhiêu xăng-ti-mét?
+::key 8
+Chiều rộng bằng diện tích chia chiều dài: $72:9=8$ (cm).
+
+[M177.7] Trả lời ngắn
+Một mảnh vườn hình vuông có chu vi $48$ m. Diện tích của mảnh vườn là bao nhiêu mét vuông?
+::key 144
+Cạnh của mảnh vườn là $48:4=12$ (m), nên diện tích là $12\cdot12=144\ (\text{m}^2)$.
+
+### M178 · Lớp 6 · Hình có trục đối xứng. Hình có tâm đối xứng
+
+[M178.1] Nhiều lựa chọn
+Hình nào sau đây không có trục đối xứng?
+A. Hình thang cân.
+B. Hình bình hành.
+C. Hình thoi.
+D. Tam giác đều.
+::key B
+Hình bình hành chỉ có tâm đối xứng, không có trục đối xứng. Hình thang cân có $1$ trục, hình thoi có $2$ trục, tam giác đều có $3$ trục.
+
+[M178.2] Nhiều lựa chọn
+Hình vuông có bao nhiêu trục đối xứng?
+A. $1$.
+B. $2$.
+C. $4$.
+D. $8$.
+::key C
+Hai đường chéo và hai đường nối trung điểm các cặp cạnh đối, tất cả $4$ trục. B chỉ đếm một loại; D đếm mỗi trục hai lần.
+
+[M178.3] Nhiều lựa chọn
+Hình nào sau đây có tâm đối xứng?
+A. Tam giác đều.
+B. Hình thang cân.
+C. Nửa hình tròn.
+D. Hình bình hành.
+::key D
+Hình bình hành có tâm đối xứng là giao điểm hai đường chéo. Ba hình còn lại quay nửa vòng thì bị lộn ngược.
+
+[M178.4] Nhiều lựa chọn
+Tâm đối xứng của hình chữ nhật là
+A. giao điểm của hai đường chéo.
+B. một đỉnh của hình chữ nhật.
+C. trung điểm của một cạnh.
+D. một điểm bất kì nằm trên đường chéo.
+::key A
+Quay nửa vòng quanh giao điểm hai đường chéo, hình chữ nhật trùng với chính nó. Quay quanh các điểm ở B, C, D thì hình bị lệch khỏi vị trí cũ.
+
+[M178.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Hình tròn có vô số trục đối xứng.
+b) Hình nào có trục đối xứng thì cũng có tâm đối xứng.
+c) Hình thoi có bốn trục đối xứng.
+d) Lục giác đều vừa có trục đối xứng, vừa có tâm đối xứng.
+::key Đ S S Đ
+a) Đúng: mọi đường thẳng đi qua tâm đều là trục đối xứng. b) Sai: tam giác đều có $3$ trục nhưng không có tâm đối xứng. c) Sai: hình thoi chỉ có $2$ trục là hai đường chéo. d) Đúng: nó có $6$ trục và tâm đối xứng là giao điểm ba đường chéo chính.
+
+[M178.6] Trả lời ngắn
+Lục giác đều có bao nhiêu trục đối xứng?
+::key 6
+Ba đường chéo chính và ba đường nối trung điểm các cặp cạnh đối: $3+3=6$.
+
+[M178.7] Trả lời ngắn
+Hình bình hành $ABCD$ có tâm đối xứng $O$ và $AC=18$ cm. Độ dài đoạn $OA$ là bao nhiêu xăng-ti-mét?
+::key 9
+$O$ là trung điểm của $AC$ nên $OA=18:2=9$ (cm).
+
+### M179 · Lớp 6 · Mở rộng phân số. Phân số bằng nhau
+
+[M179.1] Nhiều lựa chọn
+Cách viết nào sau đây không cho ta một phân số?
+A. $\dfrac{-3}{5}$.
+B. $\dfrac{0}{7}$.
+C. $\dfrac{4}{0}$.
+D. $\dfrac{6}{-1}$.
+::key C
+Mẫu của phân số phải khác $0$. Tử bằng $0$ (B) hay mẫu âm (D) đều được.
+
+[M179.2] Nhiều lựa chọn
+Phân số nào sau đây bằng phân số $\dfrac{-2}{3}$?
+A. $\dfrac{2}{3}$.
+B. $\dfrac{-4}{9}$.
+C. $\dfrac{6}{9}$.
+D. $\dfrac{4}{-6}$.
+::key D
+$(-2)\cdot(-6)=12=3\cdot4$. A và C là số dương; B chỉ nhân tử với $2$ còn mẫu nhân với $3$.
+
+[M179.3] Nhiều lựa chọn
+Rút gọn phân số $\dfrac{-36}{48}$ về dạng tối giản, ta được
+A. $\dfrac{-3}{4}$.
+B. $\dfrac{-6}{8}$.
+C. $\dfrac{3}{4}$.
+D. $\dfrac{-9}{12}$.
+::key A
+ƯCLN$(36, 48)=12$ nên $\dfrac{-36}{48}=\dfrac{-3}{4}$. B và D rút gọn chưa hết; C làm mất dấu.
+
+[M179.4] Nhiều lựa chọn
+Biết $\dfrac{x}{8}=\dfrac{-3}{4}$. Giá trị của $x$ là
+A. $6$.
+B. $-6$.
+C. $-12$.
+D. $-24$.
+::key B
+$4x=8\cdot(-3)=-24$ nên $x=-6$. A sai dấu; D quên chia cho $4$; C chia nhầm cho $2$.
+
+[M179.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số nguyên đều viết được dưới dạng phân số.
+b) $\dfrac{-5}{-9}=\dfrac{5}{9}$.
+c) Nhân cả tử và mẫu của một phân số với $0$, ta được một phân số bằng phân số đã cho.
+d) $\dfrac{-7}{21}$ là phân số tối giản.
+::key Đ Đ S S
+a) Đúng: $a=\dfrac{a}{1}$. b) Đúng: nhân cả tử và mẫu với $-1$. c) Sai: khi đó mẫu bằng $0$, không còn là phân số. d) Sai: $7$ và $21$ có ước chung là $7$; $\dfrac{-7}{21}=\dfrac{-1}{3}$.
+
+[M179.6] Trả lời ngắn
+Tìm số nguyên $x$, biết $\dfrac{-4}{5}=\dfrac{x}{-35}$.
+::key 28
+$5x=(-4)\cdot(-35)=140$ nên $x=28$.
+
+[M179.7] Trả lời ngắn
+Biết $36$ phút bằng $\dfrac{a}{5}$ giờ. Tìm số tự nhiên $a$.
+::key 3
+$36$ phút $=\dfrac{36}{60}$ giờ $=\dfrac{3}{5}$ giờ (chia cả tử và mẫu cho $12$), nên $a=3$.
+
+### M180 · Lớp 6 · So sánh phân số. Hỗn số dương
+
+[M180.1] Nhiều lựa chọn
+Mẫu chung nhỏ nhất khi quy đồng mẫu hai phân số $\dfrac{5}{6}$ và $\dfrac{3}{8}$ là
+A. $48$.
+B. $24$.
+C. $14$.
+D. $2$.
+::key B
+$\text{BCNN}(6, 8)=24$. A là tích hai mẫu (là mẫu chung nhưng chưa nhỏ nhất); C là tổng hai mẫu; D là ƯCLN.
+
+[M180.2] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. $\dfrac{-3}{5}>\dfrac{-2}{5}$.
+B. $\dfrac{-1}{2}>\dfrac{1}{3}$.
+C. $\dfrac{-5}{7}<\dfrac{-3}{7}$.
+D. $0<\dfrac{-1}{9}$.
+::key C
+Cùng mẫu dương $7$ và $-5<-3$. A so sánh tử âm như số tự nhiên; B và D cho phân số âm lớn hơn số không âm.
+
+[M180.3] Nhiều lựa chọn
+Phân số $\dfrac{19}{4}$ viết dưới dạng hỗn số là
+A. $4\dfrac{3}{4}$.
+B. $4\dfrac{1}{4}$.
+C. $3\dfrac{3}{4}$.
+D. $5\dfrac{1}{4}$.
+::key A
+$19:4=4$ dư $3$ nên $\dfrac{19}{4}=4\dfrac34$. B sai số dư; C sai phần nguyên; D lấy thừa phần nguyên.
+
+[M180.4] Nhiều lựa chọn
+Trong các phân số $\dfrac{2}{3}$; $\dfrac{5}{8}$; $\dfrac{7}{12}$; $\dfrac{3}{4}$, phân số lớn nhất là
+A. $\dfrac{2}{3}$.
+B. $\dfrac{5}{8}$.
+C. $\dfrac{7}{12}$.
+D. $\dfrac{3}{4}$.
+::key D
+Quy đồng mẫu $24$: $\dfrac{16}{24}$; $\dfrac{15}{24}$; $\dfrac{14}{24}$; $\dfrac{18}{24}$. Tử lớn nhất là $18$, ứng với $\dfrac34$.
+
+[M180.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Trong hai phân số dương có cùng tử, phân số nào có mẫu lớn hơn thì lớn hơn.
+b) $\dfrac{-7}{8}>\dfrac{-5}{6}$.
+c) Mọi phân số âm đều nhỏ hơn mọi phân số dương.
+d) $2\dfrac{1}{5}=\dfrac{11}{5}$.
+::key S S Đ Đ
+a) Sai: ví dụ $\dfrac13<\dfrac12$ dù $3>2$; chia làm nhiều phần hơn thì mỗi phần nhỏ hơn. b) Sai: $\dfrac{-21}{24}<\dfrac{-20}{24}$. c) Đúng: số âm nhỏ hơn $0$, số dương lớn hơn $0$. d) Đúng: $\dfrac{2\cdot5+1}{5}=\dfrac{11}{5}$.
+
+[M180.6] Trả lời ngắn
+Biết $5\dfrac{2}{3}=\dfrac{x}{3}$. Tìm số tự nhiên $x$.
+::key 17
+$5\dfrac23=\dfrac{5\cdot3+2}{3}=\dfrac{17}{3}$ nên $x=17$.
+
+[M180.7] Trả lời ngắn
+Có bao nhiêu số nguyên $x$ thoả mãn $\dfrac{1}{3}<\dfrac{x}{6}<\dfrac{3}{2}$?
+::key 6
+Quy đồng mẫu $6$: $\dfrac26<\dfrac{x}{6}<\dfrac96$ nên $2<x<9$. Các số đó là $3$; $4$; $5$; $6$; $7$; $8$, gồm $6$ số.
+
+### M181 · Lớp 6 · Phép cộng và phép trừ phân số
+
+[M181.1] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac{-3}{8}+\dfrac{5}{8}$ là
+A. $\dfrac{2}{16}$.
+B. $\dfrac{-1}{4}$.
+C. $\dfrac{1}{4}$.
+D. $-1$.
+::key C
+$\dfrac{-3+5}{8}=\dfrac{2}{8}=\dfrac14$. A cộng cả hai mẫu; B sai dấu; D lấy $-3-5$.
+
+[M181.2] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac{1}{2}+\dfrac{1}{3}$ là
+A. $\dfrac{2}{5}$.
+B. $\dfrac{5}{6}$.
+C. $\dfrac{1}{6}$.
+D. $\dfrac{2}{6}$.
+::key B
+$\dfrac36+\dfrac26=\dfrac56$. A cộng tử với tử, mẫu với mẫu; C là hiệu; D chỉ quy đồng một phân số.
+
+[M181.3] Nhiều lựa chọn
+Số đối của $\dfrac{-4}{9}$ là
+A. $\dfrac{4}{9}$.
+B. $\dfrac{-4}{9}$.
+C. $\dfrac{9}{4}$.
+D. $\dfrac{-9}{4}$.
+::key A
+$\dfrac{-4}{9}+\dfrac49=0$. B là chính số đó; C và D đảo tử với mẫu (đó là phép nghịch đảo, sẽ học ở bài sau).
+
+[M181.4] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac{2}{3}-\dfrac{3}{4}$ là
+A. $\dfrac{1}{12}$.
+B. $\dfrac{17}{12}$.
+C. $-1$.
+D. $\dfrac{-1}{12}$.
+::key D
+$\dfrac{8}{12}-\dfrac{9}{12}=\dfrac{-1}{12}$. A sai dấu; B cộng thay vì trừ; C trừ tử với tử, mẫu với mẫu.
+
+[M181.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Hiệu của hai phân số dương luôn là một phân số dương.
+b) Tổng của hai phân số âm là một phân số âm.
+c) $\dfrac{-2}{3}+\dfrac{2}{3}=0$.
+d) $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{2}{5}$.
+::key S Đ Đ S
+a) Sai: ví dụ $\dfrac12-\dfrac34=\dfrac{-1}{4}$. b) Đúng: cộng hai tử âm (cùng mẫu dương) được tử âm. c) Đúng: hai số đối nhau. d) Sai: $\dfrac12+\dfrac13=\dfrac56$.
+
+[M181.6] Trả lời ngắn
+Tính giá trị của biểu thức $\dfrac{3}{4}+\dfrac{1}{4}-\left(\dfrac{-1}{2}\right)$ (viết kết quả dưới dạng số thập phân).
+::key 1,5
+$\dfrac34+\dfrac14=1$; $1+\dfrac12=\dfrac32=1{,}5$.
+
+[M181.7] Trả lời ngắn
+Tìm $x$, biết $x-\dfrac{1}{3}=\dfrac{1}{6}$ (viết kết quả dưới dạng số thập phân).
+::key 0,5
+$x=\dfrac16+\dfrac13=\dfrac16+\dfrac26=\dfrac36=\dfrac12=0{,}5$.
+
+### M182 · Lớp 6 · Phép nhân và phép chia phân số
+
+[M182.1] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac{-2}{3}\cdot\dfrac{3}{4}$ là
+A. $\dfrac{-1}{2}$.
+B. $\dfrac{1}{2}$.
+C. $\dfrac{-8}{9}$.
+D. $\dfrac{1}{12}$.
+::key A
+$\dfrac{(-2)\cdot3}{3\cdot4}=\dfrac{-6}{12}=\dfrac{-1}{2}$. B sai dấu; C nhân chéo tử với mẫu; D là tổng $\dfrac{-2}{3}+\dfrac34$.
+
+[M182.2] Nhiều lựa chọn
+Số nghịch đảo của $\dfrac{-5}{8}$ là
+A. $\dfrac{5}{8}$.
+B. $\dfrac{8}{5}$.
+C. $\dfrac{-8}{5}$.
+D. $\dfrac{-5}{8}$.
+::key C
+$\dfrac{-5}{8}\cdot\dfrac{-8}{5}=1$. A là số đối; B sai dấu; D là chính số đó.
+
+[M182.3] Nhiều lựa chọn
+Kết quả của phép tính $\dfrac{4}{5}:\dfrac{2}{15}$ là
+A. $\dfrac{8}{75}$.
+B. $6$.
+C. $\dfrac{1}{6}$.
+D. $\dfrac{8}{15}$.
+::key B
+$\dfrac45\cdot\dfrac{15}{2}=\dfrac{60}{10}=6$. A nhân luôn không đảo; C đảo nhầm số bị chia; D chỉ nhân hai tử, giữ mẫu $15$.
+
+[M182.4] Nhiều lựa chọn
+Một xe đi với vận tốc $40$ km/h trong $\dfrac34$ giờ. Quãng đường xe đi được là
+A. $\dfrac{160}{3}$ km.
+B. $10$ km.
+C. $43$ km.
+D. $30$ km.
+::key D
+$40\cdot\dfrac34=30$ km. A chia thay vì nhân; B chỉ nhân với $\dfrac14$; C cộng $40+3$.
+
+[M182.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho hai phân số $\dfrac{-2}{3}$ và $\dfrac{3}{2}$. Xét tính đúng sai của các mệnh đề sau:
+a) Hai phân số này là nghịch đảo của nhau.
+b) Tích của hai phân số này bằng $-1$.
+c) $\dfrac{-2}{3}:\dfrac{3}{2}=\dfrac{-4}{9}$.
+d) $\dfrac{3}{2}\cdot\dfrac{-2}{3}\cdot(-1)=1$.
+::key S Đ Đ Đ
+a) Sai: tích của chúng bằng $-1$, không bằng $1$. b) Đúng: $\dfrac{-6}{6}=-1$. c) Đúng: $\dfrac{-2}{3}\cdot\dfrac23=\dfrac{-4}{9}$. d) Đúng: $(-1)\cdot(-1)=1$.
+
+[M182.6] Trả lời ngắn
+Tính $\dfrac{5}{6}:\dfrac{5}{12}$.
+::key 2
+$\dfrac56\cdot\dfrac{12}{5}=\dfrac{12}{6}=2$.
+
+[M182.7] Trả lời ngắn
+Một thanh gỗ dài $\dfrac{9}{2}$ m được cắt thành các đoạn dài $\dfrac{3}{4}$ m. Cắt được bao nhiêu đoạn?
+::key 6
+$\dfrac92:\dfrac34=\dfrac92\cdot\dfrac43=\dfrac{36}{6}=6$ (đoạn).
+
+### M183 · Lớp 6 · Hai bài toán về phân số
+
+[M183.1] Nhiều lựa chọn
+$\dfrac{3}{5}$ của $40$ là
+A. $24$.
+B. $\dfrac{200}{3}$.
+C. $120$.
+D. $8$.
+::key A
+$40\cdot\dfrac35=24$. B chia thay vì nhân; C chỉ nhân với $3$; D chỉ chia cho $5$.
+
+[M183.2] Nhiều lựa chọn
+Biết $\dfrac{2}{3}$ của một số bằng $12$. Số đó là
+A. $8$.
+B. $18$.
+C. $36$.
+D. $24$.
+::key B
+$12:\dfrac23=12\cdot\dfrac32=18$. A nhân thay vì chia; C chỉ nhân với $3$; D chỉ nhân với $2$.
+
+[M183.3] Nhiều lựa chọn
+Một lớp có $32$ học sinh, trong đó số học sinh nữ chiếm $\dfrac38$. Số học sinh nam của lớp là
+A. $12$.
+B. $8$.
+C. $20$.
+D. $24$.
+::key C
+Số nữ là $32\cdot\dfrac38=12$, số nam là $32-12=20$. A là số nữ; B chỉ là $\dfrac14$ của $32$; D lấy $\dfrac34$ của $32$.
+
+[M183.4] Nhiều lựa chọn
+Sau khi giảm $\dfrac15$ giá niêm yết, một món hàng có giá $400$ nghìn đồng. Giá niêm yết của món hàng là
+A. $480$ nghìn đồng.
+B. $320$ nghìn đồng.
+C. $2000$ nghìn đồng.
+D. $500$ nghìn đồng.
+::key D
+$400$ là $\dfrac45$ giá niêm yết, nên giá niêm yết là $400:\dfrac45=500$. A lấy $400+80$; B nhân với $\dfrac45$; C chia cho $\dfrac15$.
+
+[M183.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một cuốn sách có $150$ trang. Ngày thứ nhất, An đọc $\dfrac25$ cuốn sách. Ngày thứ hai, An đọc $\dfrac13$ số trang còn lại. Xét tính đúng sai của các mệnh đề sau:
+a) Ngày thứ nhất An đọc $60$ trang.
+b) Ngày thứ hai An đọc $50$ trang.
+c) Sau hai ngày, An còn $40$ trang chưa đọc.
+d) Số trang An đọc ngày thứ hai bằng $\dfrac13$ số trang của cả cuốn sách.
+::key Đ S S S
+a) Đúng: $150\cdot\dfrac25=60$. b) Sai: còn lại $90$ trang, ngày thứ hai đọc $90\cdot\dfrac13=30$ trang. c) Sai: còn $150-60-30=60$ trang. d) Sai: $30$ trang chỉ bằng $\dfrac15$ cuốn sách.
+
+[M183.6] Trả lời ngắn
+Tính $\dfrac{5}{6}$ của $48$.
+::key 40
+$48\cdot\dfrac56=8\cdot5=40$.
+
+[M183.7] Trả lời ngắn
+Biết $\dfrac{3}{4}$ một quãng đường dài $60$ km. Cả quãng đường dài bao nhiêu ki-lô-mét?
+::key 80
+$60:\dfrac34=60\cdot\dfrac43=80$ (km).
+
+### M184 · Lớp 6 · Số thập phân. Tính toán với số thập phân
+
+[M184.1] Nhiều lựa chọn
+Số đối của $-3{,}07$ là
+A. $3{,}07$.
+B. $-3{,}07$.
+C. $3{,}7$.
+D. $-0{,}307$.
+::key A
+Số đối của $-3{,}07$ là $3{,}07$. B là chính số đó; C bỏ mất chữ số $0$; D dời sai dấu phẩy.
+
+[M184.2] Nhiều lựa chọn
+Kết quả của phép tính $(-1{,}8)+(-2{,}4)$ là
+A. $0{,}6$.
+B. $-0{,}6$.
+C. $-4{,}2$.
+D. $4{,}2$.
+::key C
+Hai số cùng âm: $-(1{,}8+2{,}4)=-4{,}2$. A và B lấy hiệu thay vì tổng; D quên dấu "$-$".
+
+[M184.3] Nhiều lựa chọn
+Khẳng định nào sau đây đúng?
+A. $-2{,}5>-2{,}45$.
+B. $-0{,}1<-0{,}01$.
+C. $-3{,}2>0$.
+D. $-1{,}5<-1{,}55$.
+::key B
+$0{,}1>0{,}01$ nên $-0{,}1<-0{,}01$. A và D so sánh số âm như số dương; C cho số âm lớn hơn $0$.
+
+[M184.4] Nhiều lựa chọn
+Kết quả của phép tính $(-0{,}6)\cdot(-0{,}5)$ là
+A. $-0{,}3$.
+B. $3$.
+C. $0{,}03$.
+D. $0{,}3$.
+::key D
+Hai số cùng dấu nên tích dương: $0{,}6\cdot0{,}5=0{,}3$. A sai dấu; B và C đặt sai dấu phẩy.
+
+[M184.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét tính đúng sai của các mệnh đề sau:
+a) Mọi số thập phân âm đều nhỏ hơn mọi số thập phân dương.
+b) $-7{,}25>-7{,}2$.
+c) $(-2{,}5)\cdot(-4)=10$.
+d) $-0{,}5=\dfrac{-1}{2}$.
+::key Đ S Đ Đ
+a) Đúng: số âm nhỏ hơn $0$, số dương lớn hơn $0$. b) Sai: $7{,}25>7{,}2$ nên $-7{,}25<-7{,}2$. c) Đúng: cùng dấu, $2{,}5\cdot4=10$. d) Đúng: $-0{,}5=\dfrac{-5}{10}=\dfrac{-1}{2}$.
+
+[M184.6] Trả lời ngắn
+Tính giá trị của biểu thức $(-2{,}5)\cdot4+12{,}5$.
+::key 2,5
+$(-2{,}5)\cdot4=-10$; $-10+12{,}5=2{,}5$.
+
+[M184.7] Trả lời ngắn
+Lúc $6$ giờ sáng nhiệt độ là $-1{,}8^\circ\text{C}$, lúc $12$ giờ trưa nhiệt độ là $4{,}5^\circ\text{C}$. Nhiệt độ đã tăng bao nhiêu độ C?
+::key 6,3
+Mức tăng là $4{,}5-(-1{,}8)=4{,}5+1{,}8=6{,}3$ (độ C).
+
+### M185 · Lớp 6 · Làm tròn và ước lượng
+
+[M185.1] Nhiều lựa chọn
+Làm tròn số $5{,}276$ đến hàng phần trăm, ta được
+A. $5{,}27$.
+B. $5{,}28$.
+C. $5{,}3$.
+D. $5{,}2$.
+::key B
+Chữ số ngay bên phải hàng phần trăm là $6\ge5$, nên $5{,}276\approx5{,}28$. A bỏ đi mà không tăng; C làm tròn đến hàng phần mười; D chỉ cắt bớt.
+
+[M185.2] Nhiều lựa chọn
+Làm tròn số $-3{,}46$ đến hàng phần mười, ta được
+A. $-3{,}4$.
+B. $-3$.
+C. $-3{,}5$.
+D. $-4$.
+::key C
+Làm tròn $3{,}46\approx3{,}5$ rồi đặt dấu "$-$". A làm tròn sai hướng; B và D làm tròn đến hàng đơn vị.
+
+[M185.3] Nhiều lựa chọn
+Làm tròn số $8\,652$ đến hàng trăm, ta được
+A. $8\,600$.
+B. $8\,650$.
+C. $9\,000$.
+D. $8\,700$.
+::key D
+Chữ số ngay bên phải hàng trăm là $5\ge5$, nên $8\,652\approx8\,700$. A giữ nguyên sai; B làm tròn đến hàng chục; C làm tròn đến hàng nghìn.
+
+[M185.4] Nhiều lựa chọn
+Giá trị gần nhất với kết quả của phép tính $49{,}7\cdot2{,}03$ là
+A. $100$.
+B. $10$.
+C. $1000$.
+D. $50$.
+::key A
+$49{,}7\cdot2{,}03\approx50\cdot2=100$. B và C lệch đi $10$ lần (sai dấu phẩy); D quên nhân với $2$.
+
+[M185.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho số $a=17{,}0451$. Xét tính đúng sai của các mệnh đề sau:
+a) Làm tròn $a$ đến hàng đơn vị, ta được $17$.
+b) Làm tròn $a$ đến hàng phần mười, ta được $17{,}1$.
+c) Làm tròn $a$ đến hàng phần trăm, ta được $17{,}05$.
+d) Làm tròn $a$ đến hàng chục, ta được $10$.
+::key Đ S Đ S
+a) Đúng: chữ số sau hàng đơn vị là $0$. b) Sai: chữ số sau hàng phần mười là $4<5$, nên $a\approx17{,}0$. c) Đúng: chữ số sau hàng phần trăm là $5$, nên tăng $4$ thành $5$. d) Sai: chữ số sau hàng chục là $7\ge5$, nên $a\approx20$.
+
+[M185.6] Trả lời ngắn
+Làm tròn số $2{,}718$ đến hàng phần trăm.
+::key 2,72
+Chữ số ngay bên phải hàng phần trăm là $8\ge5$, nên $2{,}718\approx2{,}72$.
+
+[M185.7] Trả lời ngắn
+Làm tròn $198{,}6$ đến hàng chục và $4{,}97$ đến hàng đơn vị, rồi ước lượng thương $198{,}6:4{,}97$.
+::key 40
+$198{,}6\approx200$ và $4{,}97\approx5$, nên $198{,}6:4{,}97\approx200:5=40$.
+
+### M186 · Lớp 6 · Một số bài toán về tỉ số và tỉ số phần trăm
+
+[M186.1] Nhiều lựa chọn
+Tỉ số của $60$ cm và $2$ m là
+A. $30$.
+B. $\dfrac{3}{10}$.
+C. $\dfrac{10}{3}$.
+D. $\dfrac{3}{100}$.
+::key B
+Đổi $2$ m $=200$ cm, tỉ số là $\dfrac{60}{200}=\dfrac{3}{10}$. A không đổi đơn vị; C đảo thứ tự; D đổi sai $2$ m thành $2000$ cm.
+
+[M186.2] Nhiều lựa chọn
+Tỉ số phần trăm của $9$ và $12$ là
+A. $75\%$.
+B. $0{,}75\%$.
+C. $133\%$.
+D. $25\%$.
+::key A
+$\dfrac{9}{12}\cdot100\%=75\%$. B quên nhân với $100\%$; C đảo thứ tự hai số; D là phần còn thiếu.
+
+[M186.3] Nhiều lựa chọn
+$20\%$ của $150$ là
+A. $75$.
+B. $750$.
+C. $3$.
+D. $30$.
+::key D
+$150\cdot\dfrac{20}{100}=30$. A lấy một nửa của $150$; B chia cho $\dfrac{20}{100}$ thay vì nhân; C chia cho $1000$ thay vì $100$.
+
+[M186.4] Nhiều lựa chọn
+Biết $25\%$ của một số bằng $40$. Số đó là
+A. $10$.
+B. $160$.
+C. $65$.
+D. $1000$.
+::key B
+$40:\dfrac{25}{100}=160$. A nhân thay vì chia; C cộng $40+25$; D nhân $40\cdot25$.
+
+[M186.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một chiếc áo giá $300$ nghìn đồng được giảm giá $20\%$. Xét tính đúng sai của các mệnh đề sau:
+a) Số tiền được giảm là $60$ nghìn đồng.
+b) Giá sau khi giảm là $240$ nghìn đồng.
+c) Giá sau khi giảm bằng $80\%$ giá ban đầu.
+d) Nếu sau đó cửa hàng tăng giá $20\%$ thì giá trở lại $300$ nghìn đồng.
+::key Đ Đ Đ S
+a) Đúng: $300\cdot\dfrac{20}{100}=60$. b) Đúng: $300-60=240$. c) Đúng: $\dfrac{240}{300}\cdot100\%=80\%$. d) Sai: $240\cdot1{,}2=288$ nghìn đồng.
+
+[M186.6] Trả lời ngắn
+Tính $1{,}5\%$ của $600$.
+::key 9
+$600\cdot\dfrac{1{,}5}{100}=6\cdot1{,}5=9$.
+
+[M186.7] Trả lời ngắn
+Lớp có $24$ học sinh, trong đó $18$ học sinh đi xe đạp đến trường. Số học sinh đi xe đạp chiếm bao nhiêu phần trăm số học sinh cả lớp? (Chỉ ghi số, không ghi dấu $\%$.)
+::key 75
+$\dfrac{18}{24}\cdot100\%=75\%$.
+
+### M187 · Lớp 6 · Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia
+
+[M187.1] Nhiều lựa chọn
+Qua hai điểm phân biệt có bao nhiêu đường thẳng?
+A. $0$.
+B. $1$.
+C. $2$.
+D. Vô số.
+::key B
+Có một và chỉ một đường thẳng đi qua hai điểm phân biệt. D là số đường thẳng đi qua một điểm.
+
+[M187.2] Nhiều lựa chọn
+Cho ba điểm $A$, $B$, $C$ thẳng hàng, $B$ nằm giữa $A$ và $C$. Hai tia đối nhau là
+A. $BA$ và $BC$.
+B. $AB$ và $AC$.
+C. $CA$ và $CB$.
+D. $AB$ và $BA$.
+::key A
+$BA$, $BC$ chung gốc $B$ và tạo thành một đường thẳng. B và C là hai tia trùng nhau; D không chung gốc.
+
+[M187.3] Nhiều lựa chọn
+Cho năm điểm, không có ba điểm nào thẳng hàng. Số đường thẳng đi qua hai trong năm điểm đó là
+A. $5$.
+B. $20$.
+C. $25$.
+D. $10$.
+::key D
+$\dfrac{5\cdot4}{2}=10$. B quên chia $2$; C lấy $5\cdot5$; A chỉ đếm số điểm.
+
+[M187.4] Nhiều lựa chọn
+Hai đường thẳng song song có bao nhiêu điểm chung?
+A. $1$.
+B. $2$.
+C. $0$.
+D. Vô số.
+::key C
+Hai đường thẳng song song không có điểm chung nào. A là trường hợp cắt nhau; D là trường hợp trùng nhau.
+
+[M187.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho đường thẳng $xy$ và điểm $O$ thuộc $xy$. Xét tính đúng sai của các mệnh đề sau:
+a) $Ox$ và $Oy$ là hai tia đối nhau.
+b) Tia $Ox$ có gốc là $x$.
+c) Điểm $O$ thuộc cả hai tia $Ox$ và $Oy$.
+d) Hai tia $Ox$ và $Oy$ tạo thành đường thẳng $xy$.
+::key Đ S Đ Đ
+a) Đúng: chung gốc $O$ và tạo thành đường thẳng $xy$. b) Sai: gốc của tia $Ox$ là $O$. c) Đúng: gốc thuộc tia. d) Đúng: theo định nghĩa hai tia đối nhau.
+
+[M187.6] Trả lời ngắn
+Cho bảy điểm, không có ba điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong bảy điểm đó?
+::key 21
+$\dfrac{7\cdot6}{2}=21$.
+
+[M187.7] Trả lời ngắn
+Trên một đường thẳng lấy bốn điểm phân biệt. Có bao nhiêu tia có gốc là một trong bốn điểm đó?
+::key 8
+Mỗi điểm là gốc của hai tia đối nhau: $4\cdot2=8$ tia.
+
+### M188 · Lớp 6 · Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm của đoạn thẳng
+
+[M188.1] Nhiều lựa chọn
+Cho bốn điểm thẳng hàng. Số đoạn thẳng có hai mút là hai trong bốn điểm đó là
+A. $4$.
+B. $3$.
+C. $6$.
+D. $12$.
+::key C
+Có $3+2+1=6$ cặp điểm. A đếm số điểm; B chỉ đếm các đoạn liền kề; D đếm mỗi đoạn hai lần.
+
+[M188.2] Nhiều lựa chọn
+Điểm $M$ nằm giữa hai điểm $A$ và $B$, biết $AM=2$ cm và $AB=7$ cm. Độ dài $MB$ là
+A. $9$ cm.
+B. $5$ cm.
+C. $3{,}5$ cm.
+D. $2$ cm.
+::key B
+$MB=AB-AM=7-2=5$ cm. A cộng thay vì trừ; C coi $M$ là trung điểm; D nhầm với $AM$.
+
+[M188.3] Nhiều lựa chọn
+Cho $M$ là trung điểm của đoạn thẳng $AB$ với $AB=9$ cm. Độ dài $MA$ là
+A. $4{,}5$ cm.
+B. $18$ cm.
+C. $9$ cm.
+D. $3$ cm.
+::key A
+$MA=\dfrac{AB}{2}=4{,}5$ cm. B nhân đôi; C nhầm với $AB$; D chia cho $3$.
+
+[M188.4] Nhiều lựa chọn
+Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi
+A. $MA=MB$.
+B. $M$ nằm giữa $A$ và $B$.
+C. $M$ nằm giữa $A$ và $B$ và $MA=MB$.
+D. $MA+MB=AB$.
+::key C
+Trung điểm phải thoả mãn cả hai điều kiện. A thiếu điều kiện nằm giữa; B và D thiếu điều kiện $MA=MB$.
+
+[M188.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Trên tia $Ox$, lấy hai điểm $A$ và $B$ sao cho $OA=2$ cm, $OB=4$ cm. Xét tính đúng sai của các mệnh đề sau:
+a) Điểm $A$ nằm giữa hai điểm $O$ và $B$.
+b) $AB=6$ cm.
+c) $A$ là trung điểm của đoạn thẳng $OB$.
+d) $B$ là trung điểm của đoạn thẳng $OA$.
+::key Đ S Đ S
+a) Đúng: $OA<OB$. b) Sai: $AB=OB-OA=2$ cm. c) Đúng: $A$ nằm giữa $O$, $B$ và $OA=AB=2$ cm. d) Sai: $B$ không nằm giữa $O$ và $A$.
+
+[M188.6] Trả lời ngắn
+Cho đoạn thẳng $AB=10$ cm, $M$ là trung điểm của $AB$, $N$ là trung điểm của $MB$. Tính độ dài $AN$ (đơn vị cm).
+::key 7,5
+$AM=MB=5$ cm, $MN=2{,}5$ cm, $AN=AM+MN=7{,}5$ cm.
+
+[M188.7] Trả lời ngắn
+Trên tia $Ox$, lấy hai điểm $A$, $B$ sao cho $OA=2{,}5$ cm và $OB=6$ cm. Tính độ dài $AB$ (đơn vị cm).
+::key 3,5
+$OA<OB$ nên $A$ nằm giữa $O$ và $B$; $AB=6-2{,}5=3{,}5$ cm.
+
+### M189 · Lớp 6 · Góc. Số đo góc
+
+[M189.1] Nhiều lựa chọn
+Góc có số đo $120^\circ$ là
+A. góc nhọn.
+B. góc vuông.
+C. góc tù.
+D. góc bẹt.
+::key C
+$90^\circ<120^\circ<180^\circ$ nên đó là góc tù.
+
+[M189.2] Nhiều lựa chọn
+Góc bẹt có số đo bằng
+A. $90^\circ$.
+B. $180^\circ$.
+C. $360^\circ$.
+D. $0^\circ$.
+::key B
+Góc bẹt có hai cạnh là hai tia đối nhau, số đo $180^\circ$. A là góc vuông; C là một vòng tròn.
+
+[M189.3] Nhiều lựa chọn
+Vẽ ba tia phân biệt chung gốc $O$. Số góc có đỉnh $O$ và hai cạnh là hai trong ba tia đó là
+A. $3$.
+B. $2$.
+C. $6$.
+D. $1$.
+::key A
+Có ba cặp tia nên có $3$ góc. C đếm mỗi góc hai lần.
+
+[M189.4] Nhiều lựa chọn
+Lúc $2$ giờ đúng, góc tạo bởi kim giờ và kim phút bằng
+A. $30^\circ$.
+B. $120^\circ$.
+C. $90^\circ$.
+D. $60^\circ$.
+::key D
+Giữa hai kim có $2$ khoảng: $2\cdot30^\circ=60^\circ$. A chỉ tính một khoảng; B là lúc $4$ giờ; C là lúc $3$ giờ.
+
+[M189.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho $\widehat{xOy}=90^\circ$. Xét tính đúng sai của các mệnh đề sau:
+a) $\widehat{xOy}$ là góc vuông.
+b) Đỉnh của góc là $x$.
+c) $Ox$ và $Oy$ là hai cạnh của góc.
+d) $\widehat{xOy}$ lớn hơn mọi góc nhọn.
+::key Đ S Đ Đ
+a) Đúng: số đo bằng $90^\circ$. b) Sai: chữ ở giữa là đỉnh, đỉnh là $O$. c) Đúng. d) Đúng: mọi góc nhọn đều nhỏ hơn $90^\circ$.
+
+[M189.6] Trả lời ngắn
+Vẽ bốn tia phân biệt chung gốc $O$. Có bao nhiêu góc có đỉnh $O$ và hai cạnh là hai trong bốn tia đó?
+::key 6
+Có $3+2+1=6$ cặp tia, nên có $6$ góc.
+
+[M189.7] Trả lời ngắn
+Kim phút quay được một góc bao nhiêu độ trong $25$ phút?
+::key 150
+Mỗi phút kim phút quay $6^\circ$, nên trong $25$ phút quay $25\cdot6^\circ=150^\circ$.
+
+### M190 · Lớp 6 · Dữ liệu và thu thập dữ liệu. Bảng thống kê và biểu đồ tranh
+
+[M190.1] Nhiều lựa chọn
+Dữ liệu nào sau đây không phải là số?
+A. Màu sắc yêu thích.
+B. Chiều cao.
+C. Số anh chị em.
+D. Nhiệt độ.
+::key A
+Màu sắc được ghi bằng chữ. B, C, D đều được ghi bằng số.
+
+[M190.2] Nhiều lựa chọn
+Để biết nhiệt độ ngoài trời lúc $7$ giờ sáng mỗi ngày trong một tuần, cách thu thập dữ liệu phù hợp nhất là
+A. lập phiếu hỏi các bạn trong lớp.
+B. đo trực tiếp bằng nhiệt kế mỗi ngày.
+C. phỏng vấn người bán hàng.
+D. ước lượng bằng cảm giác.
+::key B
+Nhiệt độ cần đo chính xác bằng dụng cụ. A và C cho câu trả lời theo cảm nhận; D không chính xác.
+
+[M190.3] Nhiều lựa chọn
+Trong một biểu đồ tranh, mỗi ● ứng với $5$ bạn. Một hàng có $4$ biểu tượng ●. Số bạn của hàng đó là
+A. $4$.
+B. $9$.
+C. $20$.
+D. $45$.
+::key C
+$4\cdot5=20$. A quên chú thích; B cộng $4+5$; D đọc ghép thành $45$.
+
+[M190.4] Nhiều lựa chọn
+Bảng thống kê cỡ giày của một nhóm: cỡ $35$: $4$ bạn; cỡ $36$: $7$ bạn; cỡ $37$: $3$ bạn; cỡ $38$: $1$ bạn. Nhóm có bao nhiêu bạn?
+A. $4$.
+B. $7$.
+C. $146$.
+D. $15$.
+::key D
+$4+7+3+1=15$. B là số bạn nhiều nhất; C cộng nhầm các cỡ giày; A là số giá trị.
+
+[M190.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Dựa vào biểu đồ tranh "Môn thể thao yêu thích của học sinh lớp 6A" (mỗi hình tròn ứng với $5$ bạn). Xét tính đúng sai của các mệnh đề sau:
+a) Có $15$ bạn thích bóng đá.
+b) Số bạn thích cầu lông bằng số bạn thích bóng rổ.
+c) Lớp 6A có $8$ học sinh.
+d) Số bạn thích bóng đá gấp $3$ lần số bạn thích bơi.
+::key Đ Đ S Đ
+a) Đúng: $3\cdot5=15$. b) Đúng: cùng $2$ hình tròn, tức $10$ bạn. c) Sai: $8$ hình tròn ứng với $40$ học sinh. d) Đúng: $15=3\cdot5$.
+
+[M190.6] Trả lời ngắn
+Trong một biểu đồ tranh, mỗi ● ứng với $4$ bạn. Một hàng có $6$ biểu tượng ●. Hàng đó biểu diễn bao nhiêu bạn?
+::key 24
+$6\cdot4=24$ (bạn).
+
+[M190.7] Trả lời ngắn
+Với bảng thống kê cỡ giày ở câu trên, có bao nhiêu bạn đi giày cỡ từ $36$ trở lên?
+::key 11
+$7+3+1=11$ (bạn).
+
+### M191 · Lớp 6 · Biểu đồ cột. Biểu đồ cột kép
+
+[M191.1] Nhiều lựa chọn
+Theo biểu đồ "Số học sinh tham gia các câu lạc bộ của trường", câu lạc bộ có nhiều học sinh nhất là
+A. Tiếng Anh.
+B. Toán.
+C. Bóng đá.
+D. Âm nhạc.
+::key C
+Cột Bóng đá cao nhất, $24$ học sinh.
+
+[M191.2] Nhiều lựa chọn
+Theo biểu đồ trên, câu lạc bộ Mĩ thuật có bao nhiêu học sinh?
+A. $9$.
+B. $3$.
+C. $12$.
+D. $15$.
+::key A
+Số liệu trên đầu cột Mĩ thuật là $9$. B đọc chiều cao cột theo ô vẽ mà quên khoảng chia; C và D là số liệu của cột bên cạnh.
+
+[M191.3] Nhiều lựa chọn
+Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B", môn mà lớp 6B có nhiều bạn yêu thích hơn lớp 6A là
+A. Bóng đá.
+B. Cầu lông.
+C. Bóng rổ.
+D. Không có môn nào.
+::key B
+Cầu lông: 6B có $14$, 6A có $10$. Ở bóng đá và bóng rổ, 6A nhiều hơn.
+
+[M191.4] Nhiều lựa chọn
+Biểu đồ cột kép thường được dùng để
+A. biểu diễn một bộ dữ liệu duy nhất.
+B. thay cho biểu đồ tranh khi số liệu nhỏ.
+C. tính tổng các số liệu.
+D. so sánh hai bộ dữ liệu về cùng các đối tượng.
+::key D
+Mỗi đối tượng có hai cột cạnh nhau để so sánh hai bộ dữ liệu.
+
+[M191.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B". Xét tính đúng sai của các mệnh đề sau:
+a) Lớp 6B có $15$ bạn thích bóng đá.
+b) Lớp 6B có nhiều bạn thích bơi hơn lớp 6A.
+c) Tổng số bạn thích cầu lông của hai lớp là $22$.
+d) Ở môn bóng rổ, lớp 6A nhiều hơn lớp 6B $4$ bạn.
+::key S Đ S Đ
+a) Sai: 6B có $12$ bạn, $15$ là của 6A. b) Đúng: $8>5$. c) Sai: $10+14=24$. d) Đúng: $10-6=4$.
+
+[M191.6] Trả lời ngắn
+Theo biểu đồ "Số học sinh tham gia các câu lạc bộ của trường", có tất cả bao nhiêu lượt học sinh tham gia năm câu lạc bộ?
+::key 78
+$12+18+24+9+15=78$.
+
+[M191.7] Trả lời ngắn
+Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B", có tất cả bao nhiêu bạn của hai lớp thích bóng đá?
+::key 27
+$15+12=27$.

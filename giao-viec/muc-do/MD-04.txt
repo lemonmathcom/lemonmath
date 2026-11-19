@@ -1,0 +1,1249 @@
+# Gói MD-04 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 3 → Lớp 4)
+
+Tài khoản thực hiện: Lemonmath.com
+
+Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
+
+## Bốn mức
+
+| Mã | Mức | Câu hỏi yêu cầu gì | Dấu hiệu |
+|---|---|---|---|
+| NB | Nhận biết | Nhắc lại, nhận ra định nghĩa, công thức, kí hiệu, tính chất, hình; đọc trực tiếp một số liệu | Đáp án có sẵn trong bài học; 0–1 bước; không biến đổi |
+| TH | Thông hiểu | Hiểu ý nghĩa: giải thích, so sánh, phân loại, chuyển cách biểu diễn (lời ↔ kí hiệu ↔ hình ↔ bảng), áp công thức một bước có hiểu điều kiện | 1–2 bước; nhận ra cái đúng/sai vì hiểu khái niệm, không chỉ vì nhớ |
+| VD | Vận dụng | Dùng kiến thức, quy trình đã học để giải bài toán hoặc tình huống thực tế QUEN THUỘC | 2–4 bước; dạng bài đã có ví dụ mẫu trong bài học |
+| VDC | Vận dụng cao | Tình huống MỚI hoặc phức tạp: tự chọn hướng giải, phối hợp nhiều kiến thức, mô hình hoá thực tế, biện luận, lập luận, đánh giá | ≥ 4–5 bước, hoặc có bước "nghĩ ra" không theo mẫu |
+
+## Quy tắc quyết định
+
+1. Xét theo học sinh ĐÚNG lớp của bài (ghi ở đầu mỗi bài), đã học xong bài đó. Cùng một phép tính có thể là VD ở lớp 3 nhưng NB ở lớp 8.
+2. Xét những gì câu hỏi BẮT BUỘC học sinh phải làm. Dùng lời giải sau `::key` để đếm số bước và xem cần kiến thức gì.
+3. Động từ chỉ là gợi ý: "tính" có thể là NB (tính trực tiếp) hoặc VDC (tính sau khi tự lập mô hình).
+4. Bối cảnh thực tế chưa chắc đã khó: nếu chỉ là vỏ bọc cho một công thức trực tiếp thì vẫn là TH hoặc VD.
+5. Phân vân giữa hai mức: chọn mức THẤP hơn, trừ khi có bước tự nghĩ ra rõ ràng.
+6. Câu Đúng/Sai: xếp RIÊNG từng ý a, b, c, d (thường tăng dần, nhưng không bắt buộc).
+7. Câu Trả lời ngắn thường là VD hoặc VDC (phải tự tính ra số), hiếm khi là NB.
+
+## Ví dụ mẫu (Toán 10)
+
+- "Một vectơ pháp tuyến của đường thẳng 2x − 5y + 3 = 0 là …" → NB (đọc hệ số).
+- "Vì sao phương trình bậc hai có Δ < 0 thì vô nghiệm?" → TH (giải thích ý nghĩa).
+- "Viết phương trình đường thẳng qua M(1; 2) và vuông góc với x − 3y + 5 = 0" → VD (quy trình quen, 2 bước).
+- "Hai làng ở A, B; đặt trạm bơm trên bờ sông sao cho tổng đường ống ngắn nhất" → VDC (tự mô hình hoá, phối hợp đối xứng và thẳng hàng).
+
+## Tỉ lệ tham khảo
+
+Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thường ít (0–2 câu mỗi bài). Đừng ép theo tỉ lệ: xếp đúng từng câu là quan trọng nhất.
+
+## Định dạng trả lời (BẮT BUỘC)
+
+Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+
+```
+M012.1 | NB | nhắc lại định nghĩa
+M012.2 | VD | 2 bước, tình huống quen thuộc
+M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mới
+```
+
+- Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
+- Lý do: tối đa 12 chữ.
+- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
+- Khi xong, ghi dòng cuối: HẾT GÓI MD-04 (147 câu)
+
+## Các câu hỏi
+
+### M083 · Lớp 3 · Các số có năm chữ số. Số 100 000. So sánh các số trong phạm vi 100 000
+
+[M083.1] Nhiều lựa chọn
+Số "ba mươi nghìn hai trăm" viết là
+A. $3\,200$.
+B. $30\,020$.
+C. $32\,000$.
+D. $30\,200$.
+::key D
+"Ba mươi nghìn" là $30\,000$, "hai trăm" là $200$, nên số cần viết là $30\,200$. Phương án A thiếu một chữ số $0$, phương án B để $2$ ở hàng chục, phương án C để $2$ ở hàng nghìn.
+
+[M083.2] Nhiều lựa chọn
+Số liền sau của $79\,999$ là
+A. $80\,000$.
+B. $79\,998$.
+C. $70\,000$.
+D. $100\,000$.
+::key A
+$79\,999+1=80\,000$. Phương án B là số liền trước, phương án C quên đổi hàng nghìn, phương án D là số liền sau của $99\,999$.
+
+[M083.3] Nhiều lựa chọn
+Trong các số sau, số lớn nhất là
+A. $56\,209$.
+B. $56\,290$.
+C. $56\,029$.
+D. $56\,092$.
+::key B
+Bốn số đều bắt đầu bằng $56$. Hàng trăm: $2$, $2$, $0$, $0$, nên số lớn nhất là $56\,290$ hoặc $56\,209$. Hàng chục: $9>0$ nên $56\,290>56\,209$.
+
+[M083.4] Nhiều lựa chọn
+Năm tờ $20\,000$ đồng có tất cả
+A. $10\,000$ đồng.
+B. $25\,000$ đồng.
+C. $100\,000$ đồng.
+D. $50\,000$ đồng.
+::key C
+$5\times20\,000=100\,000$ (đồng). Phương án A lấy $5\times2$ và viết thiếu số $0$, phương án B cộng $5+20$ thay vì nhân, phương án D nhân với $10\,000$ thay vì $20\,000$.
+
+[M083.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $70\,508$.
+a) Chữ số $5$ ở hàng nghìn.
+b) Chữ số $7$ có giá trị là $70\,000$.
+c) $70\,508=70\,000+5\,000+8$.
+d) $70\,508$ lớn hơn $70\,058$.
+::key S Đ S Đ
+a) Sai: chữ số $5$ ở hàng trăm. b) Đúng: chữ số $7$ ở hàng chục nghìn. c) Sai: $70\,000+5\,000+8=75\,008$; đúng là $70\,000+500+8$. d) Đúng: hai số cùng bốn chữ số đầu $70$ và hàng trăm $5>0$.
+
+[M083.6] Trả lời ngắn
+Số $100\,000$ có bao nhiêu chữ số $0$?
+::key 5
+$100\,000$ gồm chữ số $1$ và năm chữ số $0$.
+
+[M083.7] Trả lời ngắn
+Tính tổng các chữ số của số liền trước của $40\,000$.
+::key 39
+Số liền trước của $40\,000$ là $39\,999$. Tổng các chữ số là $3+9+9+9+9=39$.
+
+### M084 · Lớp 3 · Làm tròn số đến hàng nghìn, hàng chục nghìn
+
+[M084.1] Nhiều lựa chọn
+Làm tròn số $6\,284$ đến hàng nghìn được
+A. $6\,000$.
+B. $7\,000$.
+C. $6\,300$.
+D. $6\,280$.
+::key A
+Chữ số hàng trăm là $2$, bé hơn $5$, nên giữ nguyên $6$ nghìn: $6\,000$. Phương án B là lỗi luôn làm tròn lên; phương án C, D là làm tròn đến hàng trăm và hàng chục.
+
+[M084.2] Nhiều lựa chọn
+Làm tròn số $38\,700$ đến hàng chục nghìn được
+A. $30\,000$.
+B. $39\,000$.
+C. $40\,000$.
+D. $38\,000$.
+::key C
+Chữ số hàng nghìn là $8$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn: $40\,000$. Phương án A là lỗi luôn làm tròn xuống; phương án B là làm tròn đến hàng nghìn, phương án D là bỏ phần lẻ mà không làm tròn.
+
+[M084.3] Nhiều lựa chọn
+Số nào làm tròn đến hàng nghìn được $9\,000$?
+A. $8\,490$.
+B. $9\,500$.
+C. $9\,600$.
+D. $9\,400$.
+::key D
+$9\,400$ có hàng trăm là $4$, nên làm tròn xuống $9\,000$. $8\,490\approx8\,000$, còn $9\,500$ và $9\,600$ làm tròn lên $10\,000$.
+
+[M084.4] Nhiều lựa chọn
+Một thị trấn có $7\,960$ người. Làm tròn đến hàng nghìn, thị trấn có khoảng
+A. $7\,000$ người.
+B. $8\,000$ người.
+C. $7\,960$ người.
+D. $10\,000$ người.
+::key B
+Chữ số hàng trăm là $9$, từ $5$ trở lên, nên $7\,960\approx8\,000$. Phương án D là làm tròn đến hàng chục nghìn, không phải hàng nghìn.
+
+[M084.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $24\,673$.
+a) Làm tròn đến hàng nghìn được $25\,000$.
+b) Làm tròn đến hàng chục nghìn được $20\,000$.
+c) Làm tròn đến hàng chục nghìn được $30\,000$.
+d) Khi làm tròn đến hàng nghìn, em nhìn chữ số hàng trăm.
+::key Đ Đ S Đ
+a) Đúng: hàng trăm là $6$, làm tròn lên. b) Đúng: hàng nghìn là $4$, bé hơn $5$, nên $24\,673\approx20\,000$. c) Sai: vì hàng nghìn là $4$, không làm tròn lên. d) Đúng: nhìn hàng ngay bên phải hàng nghìn.
+
+[M084.6] Trả lời ngắn
+Làm tròn số $5\,600$ đến hàng nghìn. Viết kết quả (không có dấu cách).
+::key 6000
+Chữ số hàng trăm là $6$, từ $5$ trở lên, nên $5\,600\approx6\,000$.
+
+[M084.7] Trả lời ngắn
+Sân vận động có $15\,280$ chỗ ngồi. Làm tròn đến hàng nghìn, sân có khoảng bao nhiêu nghìn chỗ?
+::key 15
+Chữ số hàng trăm là $2$, bé hơn $5$, nên $15\,280\approx15\,000$, tức khoảng $15$ nghìn chỗ.
+
+### M085 · Lớp 3 · Phép cộng trong phạm vi 100 000. Phép trừ trong phạm vi 100 000
+
+[M085.1] Nhiều lựa chọn
+Kết quả của $34\,567+28\,785$ là
+A. $63\,352$.
+B. $52\,242$.
+C. $63\,252$.
+D. $5\,782$.
+::key A
+$7+5=12$, viết $2$ nhớ $1$; $6+8+1=15$, viết $5$ nhớ $1$; $5+7+1=13$, viết $3$ nhớ $1$; $4+8+1=13$, viết $3$ nhớ $1$; $3+2+1=6$. Phương án B quên nhớ ở mọi hàng, phương án C quên một lần nhớ, phương án D là phép trừ.
+
+[M085.2] Nhiều lựa chọn
+Kết quả của $90\,000-36\,275$ là
+A. $66\,275$.
+B. $53\,725$.
+C. $63\,725$.
+D. $126\,275$.
+::key B
+$10-5=5$ nhớ $1$; $10-8=2$ nhớ $1$; $10-3=7$ nhớ $1$; $10-7=3$ nhớ $1$; $9-4=5$. Phương án A lấy số lớn trừ số bé ở mỗi hàng, phương án C quên một lần nhớ, phương án D là phép cộng.
+
+[M085.3] Nhiều lựa chọn
+Một cửa hàng có $82\,500$ chiếc bút, đã bán $47\,800$ chiếc. Cửa hàng còn lại
+A. $130\,300$ chiếc.
+B. $35\,700$ chiếc.
+C. $34\,700$ chiếc.
+D. $45\,300$ chiếc.
+::key C
+"Còn lại" là phép trừ: $82\,500-47\,800=34\,700$. Phương án A là phép cộng, phương án B quên một lần nhớ, phương án D lấy số lớn trừ số bé ở mỗi hàng.
+
+[M085.4] Nhiều lựa chọn
+Tổng của $45\,906$ và $38\,094$ là
+A. $74\,000$.
+B. $73\,990$.
+C. $7\,812$.
+D. $84\,000$.
+::key D
+$6+4=10$, viết $0$ nhớ $1$; $0+9+1=10$, viết $0$ nhớ $1$; $9+0+1=10$, viết $0$ nhớ $1$; $5+8+1=14$, viết $4$ nhớ $1$; $4+3+1=8$. Phương án A quên nhớ ở hàng chục nghìn, phương án B quên nhớ ở mọi hàng, phương án C là phép trừ.
+
+[M085.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép trừ $52\,304-18\,765$.
+a) Ở hàng đơn vị, ta lấy $14-5=9$, viết $9$ nhớ $1$.
+b) $52\,304-18\,765=33\,539$.
+c) $33\,539+18\,765=52\,204$.
+d) Hiệu nhỏ hơn $30\,000$.
+::key Đ Đ S S
+a) Đúng: $4$ không trừ được $5$ nên lấy $14-5=9$. b) Đúng: kết quả tính ở ví dụ. c) Sai: $33\,539+18\,765=52\,304$. d) Sai: $33\,539>30\,000$.
+
+[M085.6] Trả lời ngắn
+Tính tổng các chữ số của kết quả phép cộng $25\,000+37\,500$.
+::key 13
+$25\,000+37\,500=62\,500$. Tổng các chữ số là $6+2+5+0+0=13$.
+
+[M085.7] Trả lời ngắn
+Tính $80\,000-76\,500$.
+::key 3500
+$80\,000-76\,500=3\,500$.
+
+### M086 · Lớp 3 · Xem đồng hồ. Tháng - năm
+
+[M086.1] Nhiều lựa chọn
+Kim ngắn của một đồng hồ ở giữa số $2$ và số $3$, kim dài chỉ số $8$. Đồng hồ chỉ
+A. $2$ giờ $8$ phút.
+B. $3$ giờ $40$ phút.
+C. $8$ giờ $10$ phút.
+D. $2$ giờ $40$ phút.
+::key D
+Kim ngắn đã qua số $2$ nên là $2$ giờ. Kim dài chỉ số $8$, ta có $8\times5=40$ phút. Phương án A đọc số $8$ thành $8$ phút, phương án B nhầm giờ, phương án C đổi vai hai kim.
+
+[M086.2] Nhiều lựa chọn
+$8$ giờ kém $10$ phút là
+A. $7$ giờ $50$ phút.
+B. $7$ giờ $10$ phút.
+C. $8$ giờ $50$ phút.
+D. $8$ giờ $10$ phút.
+::key A
+Còn $10$ phút nữa mới tới $8$ giờ nên là $7$ giờ $50$ phút. Phương án D và C nhầm sang giờ sau $8$ giờ, phương án B lấy $10$ phút thay vì $60-10=50$ phút.
+
+[M086.3] Nhiều lựa chọn
+Tháng nào sau đây có đúng $30$ ngày?
+A. Tháng $8$.
+B. Tháng $9$.
+C. Tháng $10$.
+D. Tháng $12$.
+::key B
+Tháng $9$ có $30$ ngày. Các tháng $8$, $10$ và $12$ đều có $31$ ngày.
+
+[M086.4] Nhiều lựa chọn
+Một bộ phim chiếu từ $7$ giờ $40$ phút đến $9$ giờ $15$ phút. Bộ phim dài
+A. $2$ giờ $25$ phút.
+B. $1$ giờ $25$ phút.
+C. $1$ giờ $35$ phút.
+D. $2$ giờ $55$ phút.
+::key C
+Từ $7$ giờ $40$ phút đến $8$ giờ $40$ phút là $1$ giờ, đến $9$ giờ $15$ phút thêm $35$ phút. Phương án A trừ $40-15$ rồi lấy $9-7$, phương án B trừ sai số phút, phương án D cộng $40+15$.
+
+[M086.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các câu sau.
+a) $1$ giờ $=60$ phút.
+b) Tháng $2$ luôn có $29$ ngày.
+c) $7$ giờ $45$ phút là $8$ giờ kém $15$ phút.
+d) Tháng $4$ có $31$ ngày.
+::key Đ S Đ S
+a) Đúng: $1$ giờ $=60$ phút. b) Sai: tháng $2$ có $28$ ngày, chỉ năm nhuận mới có $29$ ngày. c) Đúng: còn $60-45=15$ phút nữa tới $8$ giờ. d) Sai: tháng $4$ có $30$ ngày.
+
+[M086.6] Trả lời ngắn
+Một năm không nhuận có bao nhiêu ngày trong ba tháng đầu (tháng $1$, tháng $2$, tháng $3$)?
+::key 90
+Tháng $1$ có $31$ ngày, tháng $2$ có $28$ ngày, tháng $3$ có $31$ ngày. Ta có $31+28+31=90$ (ngày).
+
+[M086.7] Trả lời ngắn
+$1$ giờ $20$ phút bằng bao nhiêu phút?
+::key 80
+$1$ giờ $=60$ phút nên $1$ giờ $20$ phút $=60+20=80$ phút.
+
+### M087 · Lớp 3 · Tiền Việt Nam
+
+[M087.1] Nhiều lựa chọn
+Số tiền của một tờ $10\,000$ đồng và hai tờ $5\,000$ đồng là
+A. $15\,000$ đồng.
+B. $20\,000$ đồng.
+C. $17\,000$ đồng.
+D. $25\,000$ đồng.
+::key B
+$10\,000+5\,000+5\,000=20\,000$ đồng. Phương án A bỏ sót một tờ $5\,000$; phương án D cộng thừa một tờ $5\,000$.
+
+[M087.2] Nhiều lựa chọn
+Mẹ đưa $50\,000$ đồng để mua đồ hết $32\,000$ đồng. Người bán trả lại mẹ
+A. $82\,000$ đồng.
+B. $22\,000$ đồng.
+C. $18\,000$ đồng.
+D. $28\,000$ đồng.
+::key C
+$50\,000-32\,000=18\,000$. Phương án A là cộng thay vì trừ; phương án B là trừ nhầm ($50-32$ không phải $22$).
+
+[M087.3] Nhiều lựa chọn
+An mua ba món có giá $9\,000$ đồng, $6\,000$ đồng và $4\,000$ đồng. Tiền hàng là
+A. $10\,000$ đồng.
+B. $13\,000$ đồng.
+C. $15\,000$ đồng.
+D. $19\,000$ đồng.
+::key D
+$9\,000+6\,000+4\,000=19\,000$. Các phương án B, C, A chỉ cộng hai món ($9+4$, $9+6$, $6+4$).
+
+[M087.4] Nhiều lựa chọn
+Lan có $40\,000$ đồng và muốn mua hai món giá $25\,000$ đồng và $18\,000$ đồng. Câu nào đúng?
+A. Lan không đủ tiền, thiếu $3\,000$ đồng.
+B. Lan đủ tiền và còn thừa $15\,000$ đồng.
+C. Lan đủ tiền và còn thừa $3\,000$ đồng.
+D. Lan không đủ tiền, thiếu $43\,000$ đồng.
+::key A
+Tiền hàng là $25\,000+18\,000=43\,000$. Vì $43\,000>40\,000$ nên Lan thiếu $43\,000-40\,000=3\,000$ đồng. Phương án B chỉ tính một món; phương án D lấy tổng tiền hàng làm số tiền thiếu.
+
+[M087.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Nam có một tờ $20\,000$ đồng, một tờ $10\,000$ đồng và một tờ $5\,000$ đồng.
+a) Nam có $35\,000$ đồng.
+b) Nam mua được món giá $40\,000$ đồng.
+c) Nam mua món giá $28\,000$ đồng thì được trả lại $7\,000$ đồng.
+d) Nam đưa cả ba tờ mua món giá $30\,000$ đồng thì được trả lại $15\,000$ đồng.
+::key Đ S Đ S
+a) Đúng: $20+10+5=35$ nghìn. b) Sai: $35\,000<40\,000$ nên không đủ tiền. c) Đúng: $35\,000-28\,000=7\,000$. d) Sai: $35\,000-30\,000=5\,000$, không phải $15\,000$.
+
+[M087.6] Trả lời ngắn
+Mai có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Mai có tất cả bao nhiêu nghìn đồng?
+::key 12
+$5+5+2=12$ (nghìn đồng).
+
+[M087.7] Trả lời ngắn
+Bố đưa $50\,000$ đồng để mua đồ hết $36\,000$ đồng. Bố được trả lại bao nhiêu nghìn đồng?
+::key 14
+$50-36=14$ (nghìn đồng).
+
+### M088 · Lớp 3 · Nhân số có năm chữ số với số có một chữ số. Chia số có năm chữ số cho số có một chữ số
+
+[M088.1] Nhiều lựa chọn
+Kết quả của $46\,275\times2$ là
+A. $82\,550$.
+B. $92\,540$.
+C. $92\,550$.
+D. $23\,137$.
+::key C
+$5\times2=10$, viết $0$ nhớ $1$; $7\times2=14$, thêm $1$ được $15$, viết $5$ nhớ $1$; $2\times2=4$, thêm $1$ được $5$; $6\times2=12$, viết $2$ nhớ $1$; $4\times2=8$, thêm $1$ được $9$. Phương án A quên nhớ ở hàng chục nghìn, phương án B quên nhớ ở hàng đơn vị, phương án D là phép chia.
+
+[M088.2] Nhiều lựa chọn
+Kết quả của $84\,000:7$ là
+A. $12$.
+B. $1\,200$.
+C. $120\,000$.
+D. $12\,000$.
+::key D
+$84:7=12$, rồi hạ ba chữ số $0$: $0:7=0$ ba lần. Vậy thương là $12\,000$. Phương án B thiếu một chữ số $0$, phương án C thừa một chữ số $0$, phương án A thiếu ba chữ số $0$.
+
+[M088.3] Nhiều lựa chọn
+Mỗi ngày một cửa hàng bán $13\,250$ quyển vở. Trong $7$ ngày cửa hàng bán
+A. $92\,750$ quyển.
+B. $72\,750$ quyển.
+C. $1\,892$ quyển.
+D. $13\,257$ quyển.
+::key A
+"Trong $7$ ngày" là phép nhân: $13\,250\times7=92\,750$. Phương án B quên nhớ ở hàng chục nghìn, phương án C là phép chia, phương án D là phép cộng.
+
+[M088.4] Nhiều lựa chọn
+Kết quả của $36\,054:6$ là
+A. $609$.
+B. $6\,009$.
+C. $6\,090$.
+D. $60\,009$.
+::key B
+$36:6=6$; $0:6=0$, viết $0$; $5:6=0$ (dư $5$), viết $0$; $54:6=9$. Vậy thương là $6\,009$. Phương án A bỏ sót một chữ số $0$, phương án C viết $0$ sai chỗ, phương án D thừa một chữ số.
+
+[M088.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép chia $71\,250:7=10\,178$ (dư $4$).
+a) Thương có năm chữ số.
+b) Số dư $4$ bé hơn số chia $7$.
+c) $10\,178\times7+4=71\,250$.
+d) Đây là phép chia hết.
+::key Đ Đ Đ S
+a) Đúng: $10\,178$ có năm chữ số. b) Đúng: $4<7$. c) Đúng: $10\,178\times7=71\,246$ và $71\,246+4=71\,250$. d) Sai: số dư là $4$, khác $0$.
+
+[M088.6] Trả lời ngắn
+Tìm số dư của phép chia $25\,000:6$.
+::key 4
+$25\,000:6=4\,166$ (dư $4$), vì $4\,166\times6=24\,996$ và $25\,000-24\,996=4$.
+
+[M088.7] Trả lời ngắn
+Tìm chữ số hàng nghìn của tích $21\,304\times3$.
+::key 3
+$21\,304\times3=63\,912$. Chữ số hàng nghìn của $63\,912$ là $3$.
+
+### M089 · Lớp 3 · Thu thập, phân loại, ghi chép số liệu. Bảng số liệu
+
+[M089.1] Nhiều lựa chọn
+Dãy: cam, táo, cam, cam, táo, chuối. Có mấy quả cam?
+A. $2$.
+B. $6$.
+C. $4$.
+D. $3$.
+::key D
+Cam xuất hiện ở vị trí $1$, $3$, $4$ nên có $3$ quả. Phương án B là đếm cả dãy.
+
+[M089.2] Nhiều lựa chọn
+Bảng: bóng đá $8$ bạn, cờ vua $5$ bạn, bơi $7$ bạn. Môn nào có ít bạn chọn nhất?
+A. Cờ vua.
+B. Bóng đá.
+C. Bơi.
+D. Cả ba môn bằng nhau.
+::key A
+Số nhỏ nhất trong $8$, $5$, $7$ là $5$, ứng với cờ vua. Phương án B là chọn số lớn nhất.
+
+[M089.3] Nhiều lựa chọn
+Với bảng ở câu trên, có tất cả bao nhiêu bạn?
+A. $13$.
+B. $20$.
+C. $15$.
+D. $21$.
+::key B
+$8+5+7=20$. Phương án A chỉ cộng hai số đầu, phương án C chỉ cộng bóng đá và bơi.
+
+[M089.4] Nhiều lựa chọn
+Tổ Một trồng $16$ cây, tổ Hai trồng $13$ cây. Tổ Một trồng nhiều hơn tổ Hai bao nhiêu cây?
+A. $29$ cây.
+B. $2$ cây.
+C. $3$ cây.
+D. $4$ cây.
+::key C
+"Nhiều hơn bao nhiêu" là phép trừ: $16-13=3$. Phương án A là phép cộng.
+
+[M089.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Lớp có $25$ bạn chọn hoa: hồng $10$ bạn, cúc $7$ bạn, lan $8$ bạn.
+a) Hoa hồng được nhiều bạn chọn nhất.
+b) Tổng số bạn trong bảng là $25$.
+c) Hoa cúc được nhiều bạn chọn hơn hoa lan.
+d) Hoa hồng được nhiều hơn hoa cúc $3$ bạn.
+::key Đ Đ S Đ
+a) Đúng: $10$ là số lớn nhất. b) Đúng: $10+7+8=25$. c) Sai: $7<8$. d) Đúng: $10-7=3$.
+
+[M089.6] Trả lời ngắn
+Ba tổ gấp được số con hạc: tổ Một $14$ con, tổ Hai $11$ con, tổ Ba $12$ con. Cả ba tổ gấp được bao nhiêu con hạc?
+::key 37
+$14+11+12=37$ (con hạc).
+
+[M089.7] Trả lời ngắn
+Lớp có $32$ bạn, mỗi bạn chọn một trò chơi: kéo co $14$ bạn, nhảy dây $10$ bạn, còn lại chơi cờ. Có bao nhiêu bạn chơi cờ?
+::key 8
+$32-14-10=8$ (bạn).
+
+### M090 · Lớp 3 · Khả năng xảy ra của một sự kiện
+
+[M090.1] Nhiều lựa chọn
+Một hộp có $6$ viên bi vàng. Nhắm mắt lấy ra một viên. Lấy được bi vàng là
+A. không thể.
+B. có thể.
+C. chắc chắn.
+D. không biết.
+::key C
+Trong hộp chỉ có bi vàng nên viên nào lấy ra cũng là bi vàng. Phương án B quên rằng hộp không có màu nào khác.
+
+[M090.2] Nhiều lựa chọn
+Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy ra một viên. Lấy được bi xanh là
+A. chắc chắn.
+B. không thể.
+C. luôn xảy ra.
+D. có thể.
+::key D
+Hộp có cả bi đỏ và bi xanh nên có thể lấy được bi xanh. Phương án A nhầm "có thể" với "chắc chắn".
+
+[M090.3] Nhiều lựa chọn
+Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Lấy ra một tấm. Lấy được thẻ ghi số $7$ là
+A. có thể.
+B. không thể.
+C. chắc chắn.
+D. không biết.
+::key B
+Trong hộp không có thẻ số $7$. Phương án A là không nhìn vào hộp.
+
+[M090.4] Nhiều lựa chọn
+Sự kiện nào sau đây là chắc chắn?
+A. Ngày mai trời mưa.
+B. Sau thứ Hai là thứ Ba.
+C. Con mèo biết bay.
+D. Em thắng ván cờ chiều nay.
+::key B
+Sau thứ Hai luôn là thứ Ba. A và D là có thể, C là không thể.
+
+[M090.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Một hộp có $4$ bi xanh và $1$ bi đỏ. Lấy ra một viên.
+a) Có thể lấy được bi đỏ.
+b) Chắc chắn lấy được bi xanh.
+c) Không thể lấy được bi vàng.
+d) Chắc chắn lấy được bi đỏ hoặc bi xanh.
+::key Đ S Đ Đ
+a) Đúng: bi đỏ có trong hộp. b) Sai: bi đỏ vẫn có thể được lấy ra. c) Đúng: không có bi vàng. d) Đúng: mọi viên trong hộp đều là đỏ hoặc xanh.
+
+[M090.6] Trả lời ngắn
+Một hộp có $5$ bi đỏ và $3$ bi xanh. Lấy ra một viên. Có thể lấy được mấy màu bi khác nhau?
+::key 2
+Hộp có bi đỏ và bi xanh nên có thể lấy được $2$ màu.
+
+[M090.7] Trả lời ngắn
+Một hộp có $5$ bi đỏ và $3$ bi xanh. Phải lấy ra bao nhiêu viên bi xanh để chắc chắn lấy được bi đỏ?
+::key 3
+Phải lấy hết $3$ viên bi xanh để trong hộp chỉ còn bi đỏ.
+
+### M091 · Lớp 4 · Ôn tập các số đến 100 000
+
+[M091.1] Nhiều lựa chọn
+Số "ba mươi nghìn hai trăm linh năm" viết là
+A. $30\,250$.
+B. $30\,205$.
+C. $3\,205$.
+D. $30\,025$.
+::key B
+$30\,000+200+5=30\,205$. Phương án A là $30\,250$ (hàng chục là $5$), phương án D là $30\,025$.
+
+[M091.2] Nhiều lựa chọn
+Chữ số $6$ trong số $46\,280$ có giá trị là
+A. $6$.
+B. $60$.
+C. $6\,000$.
+D. $60\,000$.
+::key C
+Chữ số $6$ ở hàng nghìn nên có giá trị $6\,000$.
+
+[M091.3] Nhiều lựa chọn
+Số nào lớn nhất trong các số sau?
+A. $39\,999$.
+B. $40\,001$.
+C. $9\,999$.
+D. $40\,000$.
+::key B
+Số $9\,999$ có $4$ chữ số nên bé nhất. Ba số còn lại có $5$ chữ số; hàng chục nghìn của $39\,999$ là $3$ nên bé hơn. Với $40\,001$ và $40\,000$, hàng đơn vị $1>0$.
+
+[M091.4] Nhiều lựa chọn
+Số liền sau của $79\,999$ là
+A. $80\,000$.
+B. $79\,998$.
+C. $70\,000$.
+D. $89\,999$.
+::key A
+$79\,999+1=80\,000$. Phương án B là số liền trước.
+
+[M091.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho số $52\,019$.
+a) Đọc là "năm mươi hai nghìn không trăm mười chín".
+b) Chữ số $0$ ở hàng trăm.
+c) $52\,019=50\,000+2\,000+100+9$.
+d) $52\,019<52\,109$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: hàng trăm là $0$. c) Sai: tổng đúng là $50\,000+2\,000+10+9$. d) Đúng: hàng trăm $0<1$.
+
+[M091.6] Trả lời ngắn
+Chữ số hàng nghìn của số $73\,456$ là chữ số nào?
+::key 3
+Các hàng: chục nghìn $7$, nghìn $3$, trăm $4$, chục $5$, đơn vị $6$.
+
+[M091.7] Trả lời ngắn
+Số lớn nhất có $4$ chữ số khác nhau là số nào?
+::key 9876
+Xếp các chữ số khác nhau từ lớn đến bé: $9$, $8$, $7$, $6$.
+
+### M092 · Lớp 4 · Ôn tập các phép tính trong phạm vi 100 000
+
+[M092.1] Nhiều lựa chọn
+Kết quả của $34\,205+28\,798$ là
+A. $62\,993$.
+B. $63\,003$.
+C. $63\,013$.
+D. $62\,003$.
+::key B
+$5+8=13$ viết $3$ nhớ $1$; $0+9+1=10$; $2+7+1=10$; $4+8+1=13$; $3+2+1=6$. Được $63\,003$. Phương án D là quên nhớ ở một hàng.
+
+[M092.2] Nhiều lựa chọn
+Kết quả của $90\,000-45\,678$ là
+A. $44\,322$.
+B. $45\,322$.
+C. $44\,432$.
+D. $55\,678$.
+::key A
+Thử lại: $44\,322+45\,678=90\,000$. Phương án D là làm tròn sai khi mượn.
+
+[M092.3] Nhiều lựa chọn
+Kết quả của $16\,207\times4$ là
+A. $64\,288$.
+B. $64\,828$.
+C. $54\,828$.
+D. $64\,818$.
+::key B
+$7\times4=28$ viết $8$ nhớ $2$; $0\times4+2=2$; $2\times4=8$; $6\times4=24$ viết $4$ nhớ $2$; $1\times4+2=6$. Được $64\,828$.
+
+[M092.4] Nhiều lựa chọn
+Kết quả của $56\,840:7$ là
+A. $812$.
+B. $8\,102$.
+C. $8\,120$.
+D. $8\,210$.
+::key C
+$56:7=8$; hạ $8$: $8:7=1$ dư $1$; hạ $4$: $14:7=2$; hạ $0$: $0:7=0$. Được $8\,120$. Phương án A thiếu chữ số $0$.
+
+[M092.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Xét phép chia $24\,050:5=4\,810$.
+a) $4\,810\times5=24\,050$.
+b) Thương bằng $481$.
+c) Thương có $4$ chữ số.
+d) Phép chia này có dư.
+::key Đ S Đ S
+a) Đúng: $4\,810\times5=24\,050$. b) Sai: thương là $4\,810$. c) Đúng. d) Sai: phép nhân thử lại khớp nên không có dư.
+
+[M092.6] Trả lời ngắn
+Một xe chở $1\,250$ kg gạo. Ba xe như vậy chở tất cả bao nhiêu ki-lô-gam gạo?
+::key 3750
+$1\,250\times3=3\,750$ (kg).
+
+[M092.7] Trả lời ngắn
+Chia đều $8\,000$ quyển vở cho $5$ trường. Mỗi trường được bao nhiêu quyển vở?
+::key 1600
+$8\,000:5=1\,600$ (quyển).
+
+### M093 · Lớp 4 · Số chẵn, số lẻ
+
+[M093.1] Nhiều lựa chọn
+Số nào sau đây là số chẵn?
+A. $8\,260$.
+B. $5\,713$.
+C. $9\,075$.
+D. $3\,001$.
+::key A
+$8\,260$ tận cùng $0$. Các số còn lại tận cùng $3$, $5$, $1$ nên là số lẻ.
+
+[M093.2] Nhiều lựa chọn
+Số lẻ nhỏ nhất có bốn chữ số là
+A. $1\,000$.
+B. $1\,001$.
+C. $1\,003$.
+D. $1\,111$.
+::key B
+$1\,000$ là số chẵn nên số lẻ liền sau là $1\,001$. Phương án D lớn hơn.
+
+[M093.3] Nhiều lựa chọn
+Ba số chẵn liên tiếp là
+A. $10$, $11$, $12$.
+B. $10$, $13$, $16$.
+C. $10$, $12$, $14$.
+D. $11$, $13$, $15$.
+::key C
+Hai số chẵn liên tiếp hơn kém $2$. Phương án A là ba số liên tiếp (cả chẵn lẻ), phương án D là ba số lẻ.
+
+[M093.4] Nhiều lựa chọn
+Số $47$ chia cho $2$ dư
+A. $0$.
+B. $23$.
+C. $2$.
+D. $1$.
+::key D
+$47:2=23$ dư $1$ nên $47$ là số lẻ. Phương án B là thương, không phải số dư.
+
+[M093.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Cho số $6\,508$.
+a) $6\,508$ là số chẵn.
+b) $6\,508$ chia cho $2$ dư $0$.
+c) Số liền sau của $6\,508$ là số lẻ.
+d) Số liền trước của $6\,508$ là số chẵn.
+::key Đ Đ Đ S
+a) Đúng: tận cùng $8$. b) Đúng. c) Đúng: $6\,509$ là số lẻ. d) Sai: $6\,507$ là số lẻ.
+
+[M093.6] Trả lời ngắn
+Số chẵn lớn nhất có ba chữ số là số nào?
+::key 998
+$999$ là số lẻ nên số chẵn lớn nhất là $998$.
+
+[M093.7] Trả lời ngắn
+Có bao nhiêu số lẻ có một chữ số?
+::key 5
+Các số lẻ có một chữ số: $1$, $3$, $5$, $7$, $9$.
+
+### M094 · Lớp 4 · Biểu thức chứa chữ
+
+[M094.1] Nhiều lựa chọn
+Giá trị của biểu thức $7\times m+5$ khi $m=6$ là
+A. $77$.
+B. $13$.
+C. $47$.
+D. $42$.
+::key C
+$7\times6+5=42+5=47$. Phương án A cộng trước nhân sau, phương án B cộng $7+6$, phương án D quên cộng $5$.
+
+[M094.2] Nhiều lựa chọn
+Chu vi hình vuông có cạnh $12$ m là
+A. $24$ m.
+B. $144$ m.
+C. $16$ m.
+D. $48$ m.
+::key D
+$P=a\times4=12\times4=48$ (m). Phương án A nhân với $2$, phương án B nhân $12\times12$, phương án C cộng $12+4$.
+
+[M094.3] Nhiều lựa chọn
+Giá trị của biểu thức $(a+b)\times2$ khi $a=9$ và $b=6$ là
+A. $30$.
+B. $21$.
+C. $15$.
+D. $108$.
+::key A
+$(9+6)\times2=15\times2=30$. Phương án B nhân trước cộng sau, phương án C quên nhân với $2$, phương án D nhân cả ba số.
+
+[M094.4] Nhiều lựa chọn
+Mua $m$ chiếc bánh, mỗi chiếc giá $4\,500$ đồng, và một chai nước giá $6\,000$ đồng. Số tiền phải trả là
+A. $4\,500+m\times6\,000$ đồng.
+B. $4\,500\times m+6\,000$ đồng.
+C. $m\times4\,500-6\,000$ đồng.
+D. $(4\,500+6\,000)\times m$ đồng.
+::key B
+Tiền bánh là $4\,500\times m$, cộng với tiền chai nước $6\,000$ đồng. Phương án A nhân $m$ với giá chai nước, phương án D nhân cả hai giá với $m$, phương án C lấy trừ thay vì cộng.
+
+[M094.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét biểu thức $a\times5-b$.
+a) Biểu thức chỉ chứa một chữ.
+b) Khi $a=8$ và $b=15$, giá trị của biểu thức là $55$.
+c) Khi $a=10$ và $b=20$, giá trị của biểu thức là $30$.
+d) Khi $a=8$ và $b=40$, giá trị của biểu thức là $0$.
+::key S S Đ Đ
+a) Sai: biểu thức chứa hai chữ $a$ và $b$. b) Sai: $8\times5-15=40-15=25$. c) Đúng: $10\times5-20=50-20=30$. d) Đúng: $8\times5-40=40-40=0$.
+
+[M094.6] Trả lời ngắn
+Tính giá trị của biểu thức $9\times m-20$ khi $m=5$.
+::key 25
+$9\times5-20=45-20=25$.
+
+[M094.7] Trả lời ngắn
+Tính chu vi (cm) của hình chữ nhật có chiều dài $17$ cm và chiều rộng $13$ cm.
+::key 60
+$P=(17+13)\times2=30\times2=60$ (cm).
+
+### M095 · Lớp 4 · Giải bài toán có ba bước tính
+
+[M095.1] Nhiều lựa chọn
+Mẹ mua $3$ hộp sữa, mỗi hộp $25\,000$ đồng, và $1$ hộp bánh giá $18\,000$ đồng. Mẹ đưa $200\,000$ đồng. Mẹ được trả lại
+A. $125\,000$ đồng.
+B. $107\,000$ đồng.
+C. $93\,000$ đồng.
+D. $293\,000$ đồng.
+::key B
+Tiền sữa là $3\times25\,000=75\,000$ đồng; tiền phải trả là $75\,000+18\,000=93\,000$ đồng; tiền trả lại là $200\,000-93\,000=107\,000$ đồng. Phương án A quên tiền bánh, phương án C là số tiền phải trả, phương án D là phép cộng.
+
+[M095.2] Nhiều lựa chọn
+Một cửa hàng nhập $3$ thùng bút, mỗi thùng $12$ hộp, mỗi hộp $10$ chiếc. Cửa hàng bán $250$ chiếc. Cửa hàng còn lại
+A. $360$ chiếc.
+B. $610$ chiếc.
+C. $110$ chiếc.
+D. $11$ chiếc.
+::key C
+Số hộp là $3\times12=36$; số bút là $36\times10=360$; số bút còn lại là $360-250=110$. Phương án A chưa trừ số bút đã bán, phương án B cộng thay vì trừ, phương án D lấy $36-25$ nên nhầm hộp với chiếc.
+
+[M095.3] Nhiều lựa chọn
+Mua $5$ gói kẹo hết $30\,000$ đồng. Mua $8$ gói kẹo như vậy và $1$ hộp bánh giá $25\,000$ đồng thì hết
+A. $48\,000$ đồng.
+B. $55\,000$ đồng.
+C. $265\,000$ đồng.
+D. $73\,000$ đồng.
+::key D
+Giá một gói là $30\,000:5=6\,000$ đồng; tiền $8$ gói là $6\,000\times8=48\,000$ đồng; tổng là $48\,000+25\,000=73\,000$ đồng. Phương án A quên tiền bánh, phương án C nhân $30\,000$ với $8$, phương án B cộng $30\,000+25\,000$.
+
+[M095.4] Nhiều lựa chọn
+Một mảnh đất hình chữ nhật có chiều rộng $20$ m, chiều dài gấp đôi chiều rộng. Rào xung quanh, mỗi mét giá $10\,000$ đồng. Tiền rào là
+A. $1\,200\,000$ đồng.
+B. $600\,000$ đồng.
+C. $800\,000$ đồng.
+D. $400\,000$ đồng.
+::key A
+Chiều dài là $20\times2=40$ m; chu vi là $(40+20)\times2=120$ m; tiền rào là $120\times10\,000=1\,200\,000$ đồng. Phương án B quên nhân với $2$ khi tính chu vi, phương án C chỉ tính hai cạnh dài, phương án D chỉ tính một cạnh dài.
+
+[M095.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét bài toán: "Cửa hàng có $600$ kg gạo, buổi sáng bán $125$ kg, buổi chiều bán gấp đôi buổi sáng."
+a) Buổi chiều bán $250$ kg gạo.
+b) Cả ngày bán $375$ kg gạo.
+c) Cửa hàng còn lại $275$ kg gạo.
+d) Bài toán cần ba bước tính.
+::key Đ Đ S Đ
+a) Đúng: $125\times2=250$. b) Đúng: $125+250=375$. c) Sai: $600-375=225$ kg; $275$ là kết quả sai. d) Đúng: tìm số gạo buổi chiều, số gạo cả ngày, rồi số gạo còn lại.
+
+[M095.6] Trả lời ngắn
+Một tấm vải dài $48$ m, cắt $5$ bộ quần áo, mỗi bộ $3$ m, phần còn lại cắt khăn mỗi chiếc $2$ m. Cắt được nhiều nhất bao nhiêu chiếc khăn?
+::key 16
+$3\times5=15$ m; $48-15=33$ m; $33:2=16$ (dư $1$). Vậy cắt được $16$ chiếc khăn.
+
+[M095.7] Trả lời ngắn
+Một cửa hàng nhập $3$ thùng bút, mỗi thùng $15$ hộp, mỗi hộp $10$ chiếc, và bán $300$ chiếc. Cửa hàng còn lại bao nhiêu chiếc bút?
+::key 150
+$3\times15=45$ hộp; $45\times10=450$ chiếc; $450-300=150$ chiếc.
+
+### M096 · Lớp 4 · Đo góc, đơn vị đo góc. Góc nhọn, góc tù, góc bẹt
+
+[M096.1] Nhiều lựa chọn
+Số đo nào sau đây là số đo của một góc tù?
+A. $45^\circ$.
+B. $90^\circ$.
+C. $135^\circ$.
+D. $180^\circ$.
+::key C
+Góc tù lớn hơn $90^\circ$ và bé hơn $180^\circ$, nên chỉ có $135^\circ$ thỏa mãn. $90^\circ$ là góc vuông, $45^\circ$ là góc nhọn, $180^\circ$ là góc bẹt.
+
+[M096.2] Nhiều lựa chọn
+Lúc $5$ giờ, hai kim đồng hồ tạo thành góc
+A. $120^\circ$.
+B. $90^\circ$.
+C. $60^\circ$.
+D. $150^\circ$.
+::key D
+Mỗi giờ ứng với $30^\circ$ nên lúc $5$ giờ góc là $5\times30^\circ=150^\circ$. Phương án A là lúc $4$ giờ, phương án C là lúc $2$ giờ, phương án B là lúc $3$ giờ.
+
+[M096.3] Nhiều lựa chọn
+Cánh cửa được mở một góc $45^\circ$, rồi mở thêm $50^\circ$ nữa. Góc mở của cánh cửa bây giờ là
+A. $95^\circ$, góc tù.
+B. $90^\circ$.
+C. $95^\circ$, góc nhọn.
+D. $5^\circ$.
+::key A
+$45^\circ+50^\circ=95^\circ$. Vì $95^\circ>90^\circ$ nên đó là góc tù. Phương án D là phép trừ, phương án B tính sai, phương án C gọi sai loại góc.
+
+[M096.4] Nhiều lựa chọn
+Một góc bẹt được chia thành hai góc, một góc có số đo $75^\circ$. Góc còn lại có số đo
+A. $15^\circ$.
+B. $105^\circ$.
+C. $255^\circ$.
+D. $115^\circ$.
+::key B
+$180^\circ-75^\circ=105^\circ$. Phương án A lấy $90^\circ-75^\circ$, phương án C lấy $180^\circ+75^\circ$, phương án D trừ sai.
+
+[M096.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các câu sau.
+a) Góc $90^\circ$ là góc tù.
+b) Góc $120^\circ$ lớn hơn góc vuông.
+c) Góc bẹt có số đo $180^\circ$.
+d) Góc $50^\circ$ là góc nhọn.
+::key S Đ Đ Đ
+a) Sai: $90^\circ$ là góc vuông. b) Đúng: $120^\circ>90^\circ$. c) Đúng: góc bẹt bằng $180^\circ$. d) Đúng: $50^\circ<90^\circ$.
+
+[M096.6] Trả lời ngắn
+Một góc bẹt được chia thành hai góc, một góc có số đo $72^\circ$. Góc còn lại có số đo bao nhiêu độ?
+::key 108
+$180^\circ-72^\circ=108^\circ$.
+
+[M096.7] Trả lời ngắn
+Cánh cửa được mở một góc $40^\circ$, rồi mở thêm $55^\circ$ và thêm $30^\circ$ nữa. Hỏi cánh cửa mở một góc bao nhiêu độ?
+::key 125
+$40^\circ+55^\circ+30^\circ=125^\circ$.
+
+### M097 · Lớp 4 · Số có sáu chữ số. Số 1 000 000. Hàng và lớp
+
+[M097.1] Nhiều lựa chọn
+Số "bốn trăm linh sáu nghìn hai trăm" viết là
+A. $46\,200$.
+B. $406\,200$.
+C. $460\,200$.
+D. $406\,020$.
+::key B
+"Bốn trăm linh sáu nghìn" là $406\,000$ và "hai trăm" là $200$, nên số cần viết là $406\,200$. Phương án A thiếu một chữ số $0$, phương án D để chữ số $2$ ở hàng chục, phương án C đọc "linh sáu" thành "sáu mươi".
+
+[M097.2] Nhiều lựa chọn
+Chữ số $7$ trong số $827\,405$ thuộc
+A. hàng trăm, lớp đơn vị.
+B. hàng chục nghìn, lớp nghìn.
+C. hàng nghìn, lớp nghìn.
+D. hàng đơn vị, lớp đơn vị.
+::key C
+Từ trái sang phải, các chữ số $8$, $2$, $7$ ở hàng trăm nghìn, chục nghìn, nghìn. Vậy chữ số $7$ ở hàng nghìn, thuộc lớp nghìn.
+
+[M097.3] Nhiều lựa chọn
+Số liền sau của $999\,999$ là
+A. $9\,999\,999$.
+B. $999\,998$.
+C. $100\,000$.
+D. $1\,000\,000$.
+::key D
+$999\,999+1=1\,000\,000$. Phương án B là số liền trước, phương án C thiếu một chữ số $0$, phương án A thừa một chữ số $9$.
+
+[M097.4] Nhiều lựa chọn
+Số $702\,836$ được phân tích là
+A. $700\,000+2\,000+800+30+6$.
+B. $700\,000+20\,000+800+36$.
+C. $70\,000+2\,000+800+30+6$.
+D. $700\,000+200+80+36$.
+::key A
+Số $702\,836$ có $7$ trăm nghìn, $0$ chục nghìn, $2$ nghìn, $8$ trăm, $3$ chục, $6$ đơn vị. Phương án B, C và D đều viết sai giá trị của một hoặc nhiều chữ số.
+
+[M097.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $1\,000\,000$.
+a) Số này có bảy chữ số.
+b) Số này là số liền sau của $99\,999$.
+c) Số này đọc là một triệu.
+d) Số này bằng $10$ trăm nghìn.
+::key Đ S Đ Đ
+a) Đúng: một chữ số $1$ và sáu chữ số $0$. b) Sai: số liền sau của $99\,999$ là $100\,000$. c) Đúng: $1\,000\,000$ đọc là một triệu. d) Đúng: $10$ trăm nghìn là $1$ triệu.
+
+[M097.6] Trả lời ngắn
+Số $999\,999+1$ có bao nhiêu chữ số?
+::key 7
+$999\,999+1=1\,000\,000$ có bảy chữ số.
+
+[M097.7] Trả lời ngắn
+Chữ số hàng trăm nghìn của số $483\,047$ là chữ số nào?
+::key 4
+Số $483\,047$ có chữ số $4$ ở hàng trăm nghìn.
+
+### M098 · Lớp 4 · Các số trong phạm vi lớp triệu. So sánh các số có nhiều chữ số
+
+[M098.1] Nhiều lựa chọn
+Số "năm trăm linh ba triệu bốn trăm nghìn" viết là
+A. $53\,400\,000$.
+B. $503\,004\,000$.
+C. $503\,400\,000$.
+D. $530\,400\,000$.
+::key C
+"Năm trăm linh ba triệu" là $503\,000\,000$ và "bốn trăm nghìn" là $400\,000$, nên số cần viết là $503\,400\,000$. Phương án A thiếu chữ số $0$, phương án B đặt $4$ ở hàng nghìn, phương án D bỏ qua chữ "linh".
+
+[M098.2] Nhiều lựa chọn
+Chữ số $8$ trong số $38\,645\,012$ thuộc
+A. hàng nghìn, lớp nghìn.
+B. hàng chục triệu, lớp triệu.
+C. hàng trăm nghìn, lớp nghìn.
+D. hàng triệu, lớp triệu.
+::key D
+Số $38\,645\,012$ có chữ số $3$ ở hàng chục triệu và chữ số $8$ ở hàng triệu, thuộc lớp triệu. Phương án B nhầm với chữ số $3$, phương án C nhầm với chữ số $6$, phương án A nhầm với chữ số $5$.
+
+[M098.3] Nhiều lựa chọn
+Trong các số sau, số lớn nhất là
+A. $100\,000\,000$.
+B. $98\,765\,432$.
+C. $99\,999\,999$.
+D. $99\,000\,000$.
+::key A
+Số $100\,000\,000$ có chín chữ số, các số còn lại có tám chữ số. Số có nhiều chữ số hơn thì lớn hơn.
+
+[M098.4] Nhiều lựa chọn
+Thứ tự từ bé đến lớn của $60\,500\,000$, $6\,500\,000$ và $65\,000\,000$ là
+A. $60\,500\,000$; $6\,500\,000$; $65\,000\,000$.
+B. $6\,500\,000$; $60\,500\,000$; $65\,000\,000$.
+C. $6\,500\,000$; $65\,000\,000$; $60\,500\,000$.
+D. $65\,000\,000$; $60\,500\,000$; $6\,500\,000$.
+::key B
+Số $6\,500\,000$ có bảy chữ số nên bé nhất. Hai số còn lại có tám chữ số: hàng triệu $0<5$ nên $60\,500\,000<65\,000\,000$. Phương án D xếp từ lớn đến bé, phương án A và C đặt sai thứ tự.
+
+[M098.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $305\,000\,042$.
+a) Số này có tám chữ số.
+b) Chữ số $5$ ở hàng nghìn.
+c) Lớp nghìn của số này gồm ba chữ số $0$.
+d) Số này bé hơn $305\,000\,000$.
+::key S S Đ S
+a) Sai: số này có chín chữ số. b) Sai: chữ số $5$ ở hàng triệu. c) Đúng: lớp nghìn là $000$. d) Sai: $305\,000\,042>305\,000\,000$.
+
+[M098.6] Trả lời ngắn
+Số "một trăm triệu" có bao nhiêu chữ số?
+::key 9
+Số $100\,000\,000$ gồm chữ số $1$ và tám chữ số $0$, tất cả là chín chữ số.
+
+[M098.7] Trả lời ngắn
+Từ $96\,000\,000$ đến $99\,000\,000$ (kể cả hai số này) có bao nhiêu số tròn triệu?
+::key 4
+Đó là $96\,000\,000$; $97\,000\,000$; $98\,000\,000$; $99\,000\,000$, tất cả $4$ số.
+
+### M099 · Lớp 4 · Làm tròn số đến hàng trăm nghìn. Làm quen với dãy số tự nhiên
+
+[M099.1] Nhiều lựa chọn
+Làm tròn $2\,467\,891$ đến hàng trăm nghìn được
+A. $2\,400\,000$.
+B. $2\,470\,000$.
+C. $2\,000\,000$.
+D. $2\,500\,000$.
+::key D
+Chữ số hàng chục nghìn là $6\geq5$ nên tăng chữ số hàng trăm nghìn $4$ lên $5$: $2\,500\,000$. Phương án A nhìn sai chữ số, phương án B làm tròn đến hàng chục nghìn, phương án C làm tròn đến hàng triệu.
+
+[M099.2] Nhiều lựa chọn
+Làm tròn $468\,395$ đến hàng chục nghìn được
+A. $470\,000$.
+B. $468\,000$.
+C. $460\,000$.
+D. $500\,000$.
+::key A
+Chữ số hàng nghìn là $8\geq5$ nên tăng chữ số hàng chục nghìn $6$ lên $7$: $470\,000$. Phương án B làm tròn đến hàng nghìn, phương án C làm tròn xuống sai, phương án D làm tròn đến hàng trăm nghìn.
+
+[M099.3] Nhiều lựa chọn
+Số liền trước của $100\,000$ là
+A. $100\,001$.
+B. $99\,999$.
+C. $99\,000$.
+D. $90\,000$.
+::key B
+Số liền trước kém số đó $1$ đơn vị: $100\,000-1=99\,999$. Phương án A là số liền sau, phương án C và D sai giá trị.
+
+[M099.4] Nhiều lựa chọn
+Phát biểu nào sau đây đúng?
+A. Số tự nhiên lớn nhất là $999\,999$.
+B. Số $0$ không phải là số tự nhiên.
+C. Không có số tự nhiên lớn nhất.
+D. Số tự nhiên bé nhất là $1$.
+::key C
+Thêm $1$ vào bất kì số tự nhiên nào cũng được số tự nhiên lớn hơn, nên không có số tự nhiên lớn nhất. Số $0$ là số tự nhiên bé nhất.
+
+[M099.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét số $3\,548\,200$.
+a) Làm tròn đến hàng trăm nghìn được $3\,500\,000$.
+b) Làm tròn đến hàng chục nghìn được $3\,540\,000$.
+c) Làm tròn đến hàng triệu được $3\,000\,000$.
+d) Làm tròn đến hàng nghìn được $3\,549\,000$.
+::key Đ S S S
+a) Đúng: chữ số hàng chục nghìn là $4<5$. b) Sai: chữ số hàng nghìn là $8\geq5$ nên được $3\,550\,000$. c) Sai: chữ số hàng trăm nghìn là $5\geq5$ nên được $4\,000\,000$. d) Sai: chữ số hàng trăm là $2<5$ nên được $3\,548\,000$.
+
+[M099.6] Trả lời ngắn
+Làm tròn $749\,999$ đến hàng trăm nghìn được số có chữ số hàng trăm nghìn là mấy?
+::key 7
+Chữ số hàng chục nghìn là $4<5$ nên giữ nguyên chữ số $7$, được $700\,000$.
+
+[M099.7] Trả lời ngắn
+Số liền sau của $4\,999\,999$ có bao nhiêu chữ số $0$?
+::key 6
+Số liền sau là $5\,000\,000$, có sáu chữ số $0$.
+
+### M100 · Lớp 4 · Yến, tạ, tấn. Giây, thế kỉ
+
+[M100.1] Nhiều lựa chọn
+$3$ tạ $5$ yến bằng bao nhiêu ki-lô-gam?
+A. $3\,050$ kg.
+B. $305$ kg.
+C. $350$ kg.
+D. $35$ kg.
+::key C
+$3$ tạ $=300$ kg và $5$ yến $=50$ kg, nên $3$ tạ $5$ yến $=350$ kg. Phương án B coi $5$ yến là $5$ kg, phương án A thừa một chữ số $0$, phương án D thiếu một chữ số $0$.
+
+[M100.2] Nhiều lựa chọn
+$2$ tấn $4$ tạ $+1$ tấn $9$ tạ bằng
+A. $3$ tấn $3$ tạ.
+B. $4$ tấn $13$ tạ.
+C. $4$ tấn $5$ tạ.
+D. $4$ tấn $3$ tạ.
+::key D
+$24+19=43$ tạ $=4$ tấn $3$ tạ. Phương án A quên đổi $13$ tạ ra $1$ tấn $3$ tạ, phương án B không đổi mà viết sai, phương án C tính sai số tạ.
+
+[M100.3] Nhiều lựa chọn
+$195$ giây bằng
+A. $3$ phút $15$ giây.
+B. $1$ phút $35$ giây.
+C. $19$ phút $5$ giây.
+D. $1$ phút $95$ giây.
+::key A
+$195:60=3$ (dư $15$), nên $195$ giây $=3$ phút $15$ giây. Phương án D chưa đổi hết số giây, phương án B và C tính sai.
+
+[M100.4] Nhiều lựa chọn
+Năm $2000$ thuộc thế kỉ nào?
+A. Thế kỉ XXI.
+B. Thế kỉ XX.
+C. Thế kỉ XIX.
+D. Thế kỉ XXII.
+::key B
+$2000:100=20$ (dư $0$), nên năm $2000$ thuộc thế kỉ $20$, tức thế kỉ XX. Phương án A là thế kỉ của năm $2001$.
+
+[M100.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét các câu sau.
+a) $1$ tạ $=100$ yến.
+b) $1$ tấn $=100$ kg.
+c) $1$ phút $=100$ giây.
+d) Năm $1945$ thuộc thế kỉ XX.
+::key S S S Đ
+a) Sai: $1$ tạ $=10$ yến. b) Sai: $1$ tấn $=1\,000$ kg. c) Sai: $1$ phút $=60$ giây. d) Đúng: $1945:100=19$ (dư $45$) nên thế kỉ $20$.
+
+[M100.6] Trả lời ngắn
+Một xe chở $2$ tấn hàng, đã dỡ $7$ tạ. Trên xe còn lại bao nhiêu tạ hàng?
+::key 13
+$2$ tấn $=20$ tạ nên còn lại $20-7=13$ tạ.
+
+[M100.7] Trả lời ngắn
+$4$ phút $5$ giây bằng bao nhiêu giây?
+::key 245
+$4$ phút $=240$ giây nên $4$ phút $5$ giây $=240+5=245$ giây.
+
+### M101 · Lớp 4 · Đề-xi-mét vuông, mét vuông, mi-li-mét vuông
+
+[M101.1] Nhiều lựa chọn
+$1\ \text{dm}^2$ bằng
+A. $10\ \text{cm}^2$.
+B. $1\,000\ \text{cm}^2$.
+C. $100\ \text{cm}^2$.
+D. $100\ \text{mm}^2$.
+::key C
+Cạnh $1\ \text{dm}=10\ \text{cm}$ nên diện tích là $10\times10=100\ \text{cm}^2$. Phương án A là nhầm $10$ với $100$.
+
+[M101.2] Nhiều lựa chọn
+$7\ \text{m}^2$ bằng bao nhiêu $\text{dm}^2$?
+A. $70\ \text{dm}^2$.
+B. $7\ \text{dm}^2$.
+C. $7\,000\ \text{dm}^2$.
+D. $700\ \text{dm}^2$.
+::key D
+Đổi sang đơn vị bé hơn thì nhân với $100$: $7\times100=700$. Phương án A là nhân với $10$.
+
+[M101.3] Nhiều lựa chọn
+$3\ \text{dm}^2\ 8\ \text{cm}^2$ bằng bao nhiêu $\text{cm}^2$?
+A. $308\ \text{cm}^2$.
+B. $38\ \text{cm}^2$.
+C. $380\ \text{cm}^2$.
+D. $3\,008\ \text{cm}^2$.
+::key A
+$3\ \text{dm}^2=300\ \text{cm}^2$, rồi $300+8=308$. Phương án B là quên số $0$ ở giữa.
+
+[M101.4] Nhiều lựa chọn
+Mặt bảng hình chữ nhật dài $4\ \text{m}$, rộng $3\ \text{m}$. Diện tích mặt bảng bằng bao nhiêu $\text{dm}^2$?
+A. $12\ \text{dm}^2$.
+B. $1\,200\ \text{dm}^2$.
+C. $120\ \text{dm}^2$.
+D. $14\ \text{dm}^2$.
+::key B
+$4\times3=12\ \text{m}^2$, rồi $12\times100=1\,200\ \text{dm}^2$. Phương án A quên đổi đơn vị, phương án C nhân với $10$.
+
+[M101.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét $1\ \text{m}^2$.
+a) $1\ \text{m}^2=100\ \text{dm}^2$.
+b) $1\ \text{m}^2=10\,000\ \text{cm}^2$.
+c) $1\ \text{m}^2=1\,000\ \text{dm}^2$.
+d) $1\ \text{m}^2$ lớn hơn $9\,000\ \text{cm}^2$.
+::key Đ Đ S Đ
+a) Đúng. b) Đúng: $100\times100=10\,000$. c) Sai: đúng là $100\ \text{dm}^2$. d) Đúng vì $10\,000>9\,000$.
+
+[M101.6] Trả lời ngắn
+Đổi $9\ \text{dm}^2$ ra $\text{cm}^2$.
+::key 900
+$9\times100=900$.
+
+[M101.7] Trả lời ngắn
+Đổi $2\,400\ \text{cm}^2$ ra $\text{dm}^2$.
+::key 24
+$2\,400:100=24$.
+
+### M102 · Lớp 4 · Phép cộng các số có nhiều chữ số. Phép trừ các số có nhiều chữ số
+
+[M102.1] Nhiều lựa chọn
+Kết quả của $468\,957+376\,849$ là
+A. $734\,796$.
+B. $845\,806$.
+C. $845\,706$.
+D. $92\,108$.
+::key B
+$7+9=16$, viết $6$ nhớ $1$; $5+4+1=10$, viết $0$ nhớ $1$; $9+8+1=18$, viết $8$ nhớ $1$; $8+6+1=15$, viết $5$ nhớ $1$; $6+7+1=14$, viết $4$ nhớ $1$; $4+3+1=8$. Phương án A quên nhớ ở mọi hàng, phương án C quên một lần nhớ, phương án D là phép trừ.
+
+[M102.2] Nhiều lựa chọn
+Kết quả của $500\,000-237\,469$ là
+A. $337\,469$.
+B. $362\,531$.
+C. $262\,531$.
+D. $737\,469$.
+::key C
+$10-9=1$ nhớ $1$; $10-7=3$ nhớ $1$; $10-5=5$ nhớ $1$; $10-8=2$ nhớ $1$; $10-4=6$ nhớ $1$; $5-3=2$. Phương án A lấy số lớn trừ số bé ở mỗi hàng, phương án B quên một lần nhớ, phương án D là phép cộng.
+
+[M102.3] Nhiều lựa chọn
+Hai thành phố (số liệu giả định) có $645\,280$ người và $498\,760$ người. Cả hai thành phố có
+A. $1\,143\,040$ người.
+B. $144\,040$ người.
+C. $146\,520$ người.
+D. $1\,144\,040$ người.
+::key D
+"Cả hai" là phép cộng: $645\,280+498\,760=1\,144\,040$. Phương án B quên nhớ ở hàng cuối cùng, phương án C là phép trừ, phương án A quên một lần nhớ.
+
+[M102.4] Nhiều lựa chọn
+Số $x$ thỏa mãn $x+245\,780=1\,000\,000$ là
+A. $754\,220$.
+B. $754\,320$.
+C. $1\,245\,780$.
+D. $245\,780$.
+::key A
+$x=1\,000\,000-245\,780=754\,220$. Phương án C là phép cộng, phương án B quên một lần nhớ, phương án D là số đã cho.
+
+[M102.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét phép cộng $468\,957+376\,849$.
+a) Kết quả có bảy chữ số.
+b) $468\,957+376\,849=845\,806$.
+c) $468\,957+376\,849=734\,796$.
+d) Tổng này lớn hơn $900\,000$.
+::key S Đ S S
+a) Sai: kết quả $845\,806$ có sáu chữ số. b) Đúng: kết quả tính ở ví dụ. c) Sai: $734\,796$ là kết quả khi quên nhớ. d) Sai: $845\,806<900\,000$.
+
+[M102.6] Trả lời ngắn
+Chữ số hàng nghìn của hiệu $500\,000-237\,469$ là chữ số nào?
+::key 2
+$500\,000-237\,469=262\,531$. Chữ số hàng nghìn của $262\,531$ là $2$.
+
+[M102.7] Trả lời ngắn
+Chữ số hàng trăm nghìn của tổng $468\,957+376\,849$ là chữ số nào?
+::key 8
+$468\,957+376\,849=845\,806$. Chữ số hàng trăm nghìn của $845\,806$ là $8$.
+
+### M103 · Lớp 4 · Tính chất giao hoán và kết hợp của phép cộng
+
+[M103.1] Nhiều lựa chọn
+Số thích hợp để điền vào $245+138=138+\ \ldots$ là
+A. $138$.
+B. $383$.
+C. $107$.
+D. $245$.
+::key D
+Theo tính chất giao hoán, $245+138=138+245$. Phương án A lặp lại số hạng đã có, phương án B là tổng $245+138$, phương án C là hiệu $245-138$.
+
+[M103.2] Nhiều lựa chọn
+Giá trị của $38+47+62$ là
+A. $147$.
+B. $100$.
+C. $137$.
+D. $157$.
+::key A
+$38+62=100$ rồi $100+47=147$. Phương án B quên số hạng $47$, phương án C và D tính sai ở bước cuối.
+
+[M103.3] Nhiều lựa chọn
+Tính bằng cách thuận tiện: $25+38+75+62$.
+A. $100$.
+B. $200$.
+C. $190$.
+D. $300$.
+::key B
+$25+75=100$ và $38+62=100$, nên tổng là $100+100=200$. Phương án A chỉ cộng một cặp, phương án C và D tính sai.
+
+[M103.4] Nhiều lựa chọn
+Phát biểu nào sau đây sai?
+A. $a+b=b+a$.
+B. $(a+b)+c=a+(b+c)$.
+C. $a-b=b-a$.
+D. $a+0=a$.
+::key C
+Phép trừ không có tính chất giao hoán, ví dụ $8-3=5$ còn $3-8$ không thực hiện được. Các phát biểu A, B, D đều đúng.
+
+[M103.5] Đúng/Sai (4 ý: cho MỖI ý một mức)
+Em xét tổng $125+267+75$.
+a) $125+267+75=(125+75)+267$.
+b) $125+267+75=457$.
+c) $125+267=267+125$.
+d) $(125+267)+75=125+(267+75)$.
+::key Đ S Đ Đ
+a) Đúng: đổi chỗ và nhóm các số hạng. b) Sai: $125+267+75=467$. c) Đúng: tính chất giao hoán. d) Đúng: tính chất kết hợp.
+
+[M103.6] Trả lời ngắn
+Tính nhanh: $125+267+75$.
+::key 467
+$(125+75)+267=200+267=467$.
+
+[M103.7] Trả lời ngắn
+Tính nhanh: $19+48+81+52$.
+::key 200
+$19+81=100$ và $48+52=100$, nên tổng là $100+100=200$.
