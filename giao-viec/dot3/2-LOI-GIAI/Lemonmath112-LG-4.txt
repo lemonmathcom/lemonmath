@@ -2,8 +2,22 @@
 TÀI KHOẢN: Lemonmath112   |   FILE: Lemonmath112-LG-4   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
 Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
 Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
-Kết quả: file Lemonmath112-LG-4-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+Kết quả: file Lemonmath112-LG-4-ketqua.md (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam
 ######################################################################
+
+==================================================================
+QUY TẮC LÀM VIỆC (ưu tiên hơn mọi chỗ khác trong file này)
+==================================================================
+1. Làm LIÊN TỤC từ đầu đến hết file trong một lượt trả lời: không dừng lại để hỏi, không chờ người dùng gõ
+   "tiếp" giữa các bài. Chỉ dừng khi đã xong hết, hoặc khi sắp chạm giới hạn độ dài/hạn mức.
+2. Mọi kết quả ghi vào MỘT file duy nhất:  /mnt/user-data/outputs/Lemonmath112-LG-4-ketqua.md
+   Dùng công cụ tạo file / chạy code để ghi; xong mỗi bài học (hoặc mỗi nhóm câu) thì GHI NỐI TIẾP vào file
+   này ngay, để không mất phần đã làm. KHÔNG in kết quả ra khung chat.
+3. CUỐI MỖI LƯỢT TRẢ LỜI (kể cả khi phải dừng giữa chừng): luôn đưa file Lemonmath112-LG-4-ketqua.md ra để người dùng tải về,
+   kèm đúng một dòng báo tiến độ, ví dụ: "Đã xong 5/9 bài học. File: Lemonmath112-LG-4-ketqua.md" hoặc "ĐÃ XONG TOÀN BỘ. File: Lemonmath112-LG-4-ketqua.md".
+4. Nếu người dùng nhắn "tiếp": đọc lại file Lemonmath112-LG-4-ketqua.md để biết đã làm tới đâu, làm tiếp và ghi nối tiếp vào CHÍNH
+   file đó (không tạo file mới, không đổi tên file).
+==================================================================
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-LG-4
 Người làm: tài khoản Lemonmath112. Gói này có 35 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
@@ -142,11 +156,11 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 ==================================================================
 5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
 ==================================================================
-- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@), liên tục hết file (xem QUY TẮC LÀM VIỆC ở đầu file).
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Lemonmath112-LG-4-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi làm ngay bài học kế, không dừng hỏi.
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-LG-4-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 

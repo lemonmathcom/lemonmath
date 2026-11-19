@@ -108,7 +108,7 @@ right A H C
   bản Anh dùng dấu chấm 0.5. Không viết kí hiệu "$" làm đơn vị tiền: viết "đồng", "dollars".
 - Không thêm, bớt, đổi câu nào của đề. Đề có lỗi in thì giữ nguyên và ghi GHI CHÚ.
 - Xưng hô trong lời giải: "ta"; không xưng "em", "các em".
-- Làm lần lượt: phần trắc nghiệm (nếu có) rồi từng bài tự luận; mỗi lượt trả lời làm một phần để không bị
-  cắt ngang, ghi NỐI TIẾP vào file kết quả, báo một dòng "Đã xong … Gõ 'tiếp' để làm phần sau."
+- Làm lần lượt: phần trắc nghiệm (nếu có) rồi từng bài tự luận, liên tục đến hết (xem QUY TẮC LÀM VIỆC ở đầu
+  file); xong phần nào ghi NỐI TIẾP ngay vào file kết quả.
 - Xong bản Việt mới làm bản Anh. Cuối cùng đưa đường dẫn tải HAI file và liệt kê mọi dòng GHI CHÚ.
 - Bị gián đoạn: khi được nhắc "tiếp", đọc lại file kết quả trong /mnt/user-data/outputs để biết đã làm tới đâu.

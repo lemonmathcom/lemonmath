@@ -81,7 +81,11 @@ Bài tiểu học không cần "gọi ẩn", "điều kiện". Thay vào đó:
 
 def lg_file(acc, tag, items):
     out = tag + '-ketqua.md'
-    body = (LG_BRIEF.replace('{GOI}', tag).replace('{SO_BAI}', str(sum(n for _, _, n in items)))
+    brief = LG_BRIEF.replace("- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.",
+                             "- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@), liên tục hết file (xem QUY TẮC LÀM VIỆC ở đầu file).")
+    brief = brief.replace('  rồi trả lời ngắn: "Đã xong bài học … (k/{SO_BAI_HOC}). Gõ \'tiếp\' để làm bài học tiếp theo."',
+                          '  rồi làm ngay bài học kế, không dừng hỏi.')
+    body = (brief.replace('{GOI}', tag).replace('{SO_BAI}', str(sum(n for _, _, n in items)))
             .replace('{SO_BAI_HOC}', str(len(items))))
     body = body.replace('Người làm: ChatGPT.', 'Người làm: tài khoản %s.' % acc)
     body = body.replace('/mnt/data/NC-ChatGPT-%s.md' % tag, '/mnt/user-data/outputs/' + out)
@@ -100,17 +104,38 @@ def gv_file(acc, tag, rels, spec):
             p = os.path.join(ROOT, 'content', lang, r + '.md')
             parts.append('######## BÀI %s – BẢN %s ########\n%s\n' % (r, 'TIẾNG VIỆT' if lang == 'vi' else 'TIẾNG ANH',
                          G.render_for_pack(open(p, encoding='utf-8').read())))
-    body = GV_HEAD.format(name=tag, cnt=len(rels), lst=', '.join(rels), spec=spec) + '\n'.join(parts)
+    head = GV_HEAD.replace('- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file', '- Làm lần lượt từng bài học (cả hai bản), liên tục hết file; xong bài nào ghi NỐI TIẾP ngay vào file')
+    head = head.replace('rồi báo một dòng: "Đã xong bài <tên bài> (k/{cnt}). Gõ\n  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.',
+                        'rồi làm ngay bài kế, không dừng hỏi.\n  Không in lại các đoạn văn trong khung chat.')
+    body = head.format(name=tag, cnt=len(rels), lst=', '.join(rels), spec=spec) + '\n'.join(parts)
     body = body.replace('GV-ChatGPT-%s.md  (trong /mnt/data)' % tag, out + '  (trong /mnt/user-data/outputs)')
     body = body.replace('/mnt/data/GV-ChatGPT-%s.md' % tag, '/mnt/user-data/outputs/' + out).replace('GV-ChatGPT-%s.md' % tag, out).replace('ChatGPT', 'Claude')
     return intro(acc, tag, out, 'viết lại phần lời theo giọng người thầy (chuẩn 2f)') + body, out
+
+
+RULES = '''==================================================================
+QUY TẮC LÀM VIỆC (ưu tiên hơn mọi chỗ khác trong file này)
+==================================================================
+1. Làm LIÊN TỤC từ đầu đến hết file trong một lượt trả lời: không dừng lại để hỏi, không chờ người dùng gõ
+   "tiếp" giữa các bài. Chỉ dừng khi đã xong hết, hoặc khi sắp chạm giới hạn độ dài/hạn mức.
+2. Mọi kết quả ghi vào MỘT file duy nhất:  /mnt/user-data/outputs/{OUT}
+   Dùng công cụ tạo file / chạy code để ghi; xong mỗi bài học (hoặc mỗi nhóm câu) thì GHI NỐI TIẾP vào file
+   này ngay, để không mất phần đã làm. KHÔNG in kết quả ra khung chat.
+3. CUỐI MỖI LƯỢT TRẢ LỜI (kể cả khi phải dừng giữa chừng): luôn đưa file {OUT} ra để người dùng tải về,
+   kèm đúng một dòng báo tiến độ, ví dụ: "Đã xong 5/9 bài học. File: {OUT}" hoặc "ĐÃ XONG TOÀN BỘ. File: {OUT}".
+4. Nếu người dùng nhắn "tiếp": đọc lại file {OUT} để biết đã làm tới đâu, làm tiếp và ghi nối tiếp vào CHÍNH
+   file đó (không tạo file mới, không đổi tên file).
+==================================================================
+
+'''
 
 
 def intro(acc, tag, out, what):
     return ('#' * 70 + '\nTÀI KHOẢN: %s   |   FILE: %s   |   VIỆC: %s\n' % (acc, tag, what) +
             'Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."\n'
             'Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.\n'
-            'Kết quả: file %s, lưu vào Dropbox Lemonmath.com/viec da lam\n' % out + '#' * 70 + '\n\n')
+            'Kết quả: file %s (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam\n' % out + '#' * 70 + '\n\n'
+            + RULES.replace('{OUT}', out))
 
 
 KD_BRIEF = open(os.path.join(ROOT, '_templates', 'BRIEF-kho-de.md'), encoding='utf-8').read()
@@ -132,8 +157,9 @@ def kd_file(acc, tag, kind, paper):
     head = ('#' * 70 + '\nTÀI KHOẢN: %s   |   FILE: %s   |   VIỆC: chuyển đề thi thật thành trang Kho đề thi (%s)\n' % (acc, tag, title) +
             'Chủ dự án: tải đề (PDF) từ toanmath.com, mở MỘT cuộc trò chuyện MỚI, đính kèm file này + file PDF đề,\n'
             'gõ: "Làm đúng theo hướng dẫn trong file, với đề đính kèm."\n'
-            'Kết quả: hai file %s-ketqua.vi.md và %s-ketqua.en.md, lưu vào Dropbox Lemonmath.com/viec da lam\n' % (tag, tag) +
-            'Đề cần làm:\n%s\n' % lst + '#' * 70 + '\n\n')
+            'Kết quả: hai file %s-ketqua.vi.md và %s-ketqua.en.md (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam\n' % (tag, tag) +
+            'Đề cần làm:\n%s\n' % lst + '#' * 70 + '\n\n'
+            + RULES.replace('MỘT file duy nhất:  /mnt/user-data/outputs/{OUT}', 'HAI file: /mnt/user-data/outputs/{OUT}.vi.md và {OUT}.en.md').replace('{OUT}', tag + '-ketqua'))
     return head + KD_BRIEF.replace('{ACC}', acc).replace('{CHUONG}', title).replace('{OUT}', tag + '-ketqua')
 
 
@@ -191,8 +217,11 @@ def main():
         for j, (code, n, scope) in enumerate(md[a], 1):
             tag = '%s-MD-%d' % (a, j)
             src = open(os.path.join(ROOT, 'giao-viec', 'muc-do', code + '.txt'), encoding='utf-8').read()
-            txt = intro(a, tag, tag + '-ketqua.txt', 'gắn mức độ nhận thức (%s)' % code).replace(
-                'Bị dừng giữa chừng', 'Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.\nBị dừng giữa chừng') + src
+            src = src.replace('Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:',
+                              'Ghi vào file %s-ketqua.txt (xem QUY TẮC LÀM VIỆC ở đầu file), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác. Mẫu các dòng trong file:' % tag)
+            src = src.replace('- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.', '- Không bỏ câu nào. Làm liên tục hết gói; xong mỗi bài học thì ghi nối tiếp vào file.')
+            src = src.replace('- Khi xong, ghi dòng cuối: HẾT GÓI', '- Khi xong, ghi dòng cuối cùng của file: HẾT GÓI')
+            txt = intro(a, tag, tag + '-ketqua.txt', 'gắn mức độ nhận thức (%s)' % code) + src
             kb = save('1-MUC-DO', tag + '.txt', txt)
             board['1-MUC-DO'].append((a, tag + '.txt', tag + '-ketqua.txt', '%s: %d câu, %s' % (code, n, scope), kb))
 
@@ -241,7 +270,9 @@ def write_board(board):
           '"Làm đúng theo hướng dẫn trong file." Bị dừng giữa chừng: lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.',
           'Một tài khoản có nhiều file trong cùng giai đoạn (…-1, …-2, …): làm lần lượt, mỗi file một cuộc trò chuyện mới.', '',
           '**Cách nộp:** tải file kết quả về, giữ ĐÚNG tên ở cột "File nộp về", bỏ vào Dropbox `Lemonmath.com/viec da lam`,',
-          'rồi đánh dấu ô Xong. Riêng giai đoạn 1 (mức độ): kết quả nằm trong khung chat, chép hết vào một file .txt đặt đúng tên.',
+          'rồi đánh dấu ô Xong. Mọi việc (kể cả mức độ) đều tự tạo file kết quả: cuối mỗi lượt trả lời tài khoản luôn đưa file',
+          'để tải (file ghi dồn, cùng một tên). Dòng "ĐÃ XONG TOÀN BỘ" nghĩa là file đã đủ; nếu tài khoản dừng giữa chừng vì hết hạn mức,',
+          'lượt sau chỉ cần gõ "tiếp" rồi tải lại file (cùng tên, ghi đè file cũ).',
           'Giai đoạn 4 (Kho đề): bạn tải đề PDF từ toanmath.com theo cột "Nội dung" và đính kèm cùng file giao.', '',
           '**Đặt tên cuộc trò chuyện** đúng bằng tên file (ví dụ `Kinangtoan-LG-2`): nhìn danh sách chat là biết đang làm tới đâu.', '',
           '**Nhắn tài khoản Pro:** "nhận bài đợt 3" bất cứ lúc nào có file mới trong "viec da lam".', '',

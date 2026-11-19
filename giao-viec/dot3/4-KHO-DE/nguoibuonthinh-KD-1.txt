@@ -2,10 +2,24 @@
 TÀI KHOẢN: nguoibuonthinh   |   FILE: nguoibuonthinh-KD-1   |   VIỆC: chuyển đề thi thật thành trang Kho đề thi (Đề giữa kì, cuối kì)
 Chủ dự án: tải đề (PDF) từ toanmath.com, mở MỘT cuộc trò chuyện MỚI, đính kèm file này + file PDF đề,
 gõ: "Làm đúng theo hướng dẫn trong file, với đề đính kèm."
-Kết quả: hai file nguoibuonthinh-KD-1-ketqua.vi.md và nguoibuonthinh-KD-1-ketqua.en.md, lưu vào Dropbox Lemonmath.com/viec da lam
+Kết quả: hai file nguoibuonthinh-KD-1-ketqua.vi.md và nguoibuonthinh-KD-1-ketqua.en.md (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam
 Đề cần làm:
   Đề cuối học kì 1 Toán 9
 ######################################################################
+
+==================================================================
+QUY TẮC LÀM VIỆC (ưu tiên hơn mọi chỗ khác trong file này)
+==================================================================
+1. Làm LIÊN TỤC từ đầu đến hết file trong một lượt trả lời: không dừng lại để hỏi, không chờ người dùng gõ
+   "tiếp" giữa các bài. Chỉ dừng khi đã xong hết, hoặc khi sắp chạm giới hạn độ dài/hạn mức.
+2. Mọi kết quả ghi vào HAI file: /mnt/user-data/outputs/nguoibuonthinh-KD-1-ketqua.vi.md và nguoibuonthinh-KD-1-ketqua.en.md
+   Dùng công cụ tạo file / chạy code để ghi; xong mỗi bài học (hoặc mỗi nhóm câu) thì GHI NỐI TIẾP vào file
+   này ngay, để không mất phần đã làm. KHÔNG in kết quả ra khung chat.
+3. CUỐI MỖI LƯỢT TRẢ LỜI (kể cả khi phải dừng giữa chừng): luôn đưa file nguoibuonthinh-KD-1-ketqua ra để người dùng tải về,
+   kèm đúng một dòng báo tiến độ, ví dụ: "Đã xong 5/9 bài học. File: nguoibuonthinh-KD-1-ketqua" hoặc "ĐÃ XONG TOÀN BỘ. File: nguoibuonthinh-KD-1-ketqua".
+4. Nếu người dùng nhắn "tiếp": đọc lại file nguoibuonthinh-KD-1-ketqua để biết đã làm tới đâu, làm tiếp và ghi nối tiếp vào CHÍNH
+   file đó (không tạo file mới, không đổi tên file).
+==================================================================
 
 KHO ĐỀ THI LEMONMATH – chuyển một đề thi thật thành trang web song ngữ
 Người làm: tài khoản nguoibuonthinh. Chương: Đề giữa kì, cuối kì.
@@ -117,7 +131,7 @@ right A H C
   bản Anh dùng dấu chấm 0.5. Không viết kí hiệu "$" làm đơn vị tiền: viết "đồng", "dollars".
 - Không thêm, bớt, đổi câu nào của đề. Đề có lỗi in thì giữ nguyên và ghi GHI CHÚ.
 - Xưng hô trong lời giải: "ta"; không xưng "em", "các em".
-- Làm lần lượt: phần trắc nghiệm (nếu có) rồi từng bài tự luận; mỗi lượt trả lời làm một phần để không bị
-  cắt ngang, ghi NỐI TIẾP vào file kết quả, báo một dòng "Đã xong … Gõ 'tiếp' để làm phần sau."
+- Làm lần lượt: phần trắc nghiệm (nếu có) rồi từng bài tự luận, liên tục đến hết (xem QUY TẮC LÀM VIỆC ở đầu
+  file); xong phần nào ghi NỐI TIẾP ngay vào file kết quả.
 - Xong bản Việt mới làm bản Anh. Cuối cùng đưa đường dẫn tải HAI file và liệt kê mọi dòng GHI CHÚ.
 - Bị gián đoạn: khi được nhắc "tiếp", đọc lại file kết quả trong /mnt/user-data/outputs để biết đã làm tới đâu.

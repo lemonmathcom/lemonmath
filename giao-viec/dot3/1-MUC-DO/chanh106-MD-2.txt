@@ -1,10 +1,23 @@
 ######################################################################
 TÀI KHOẢN: chanh106   |   FILE: chanh106-MD-2   |   VIỆC: gắn mức độ nhận thức (MD-26)
 Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
-Khi thấy dòng HẾT GÓI: chép mọi khối kết quả (kể cả các phần "tiếp") vào MỘT file văn bản.
 Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
-Kết quả: file chanh106-MD-2-ketqua.txt, lưu vào Dropbox Lemonmath.com/viec da lam
+Kết quả: file chanh106-MD-2-ketqua.txt (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam
 ######################################################################
+
+==================================================================
+QUY TẮC LÀM VIỆC (ưu tiên hơn mọi chỗ khác trong file này)
+==================================================================
+1. Làm LIÊN TỤC từ đầu đến hết file trong một lượt trả lời: không dừng lại để hỏi, không chờ người dùng gõ
+   "tiếp" giữa các bài. Chỉ dừng khi đã xong hết, hoặc khi sắp chạm giới hạn độ dài/hạn mức.
+2. Mọi kết quả ghi vào MỘT file duy nhất:  /mnt/user-data/outputs/chanh106-MD-2-ketqua.txt
+   Dùng công cụ tạo file / chạy code để ghi; xong mỗi bài học (hoặc mỗi nhóm câu) thì GHI NỐI TIẾP vào file
+   này ngay, để không mất phần đã làm. KHÔNG in kết quả ra khung chat.
+3. CUỐI MỖI LƯỢT TRẢ LỜI (kể cả khi phải dừng giữa chừng): luôn đưa file chanh106-MD-2-ketqua.txt ra để người dùng tải về,
+   kèm đúng một dòng báo tiến độ, ví dụ: "Đã xong 5/9 bài học. File: chanh106-MD-2-ketqua.txt" hoặc "ĐÃ XONG TOÀN BỘ. File: chanh106-MD-2-ketqua.txt".
+4. Nếu người dùng nhắn "tiếp": đọc lại file chanh106-MD-2-ketqua.txt để biết đã làm tới đâu, làm tiếp và ghi nối tiếp vào CHÍNH
+   file đó (không tạo file mới, không đổi tên file).
+==================================================================
 
 # Gói MD-26 – gắn mức độ nhận thức cho 151 câu hỏi (Ôn thi SAT → Ôn thi SAT)
 
@@ -44,7 +57,7 @@ Trong một bài học, phần lớn câu thường là NB, TH, VD; VDC thườn
 
 ## Định dạng trả lời (BẮT BUỘC)
 
-Trả lời trong MỘT khối mã (```), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác:
+Ghi vào file chanh106-MD-2-ketqua.txt (xem QUY TẮC LÀM VIỆC ở đầu file), mỗi câu MỘT dòng, đúng thứ tự, không thêm gì khác. Mẫu các dòng trong file:
 
 ```
 M012.1 | NB | nhắc lại định nghĩa
@@ -54,8 +67,8 @@ M012.5 | NB TH VD VDC | a nhớ; b giải thích; c tính; d mô hình hoá mớ
 
 - Câu Đúng/Sai: ghi ĐÚNG 4 mức, cách nhau dấu cách, theo thứ tự ý a, b, c, d.
 - Lý do: tối đa 12 chữ.
-- Không bỏ câu nào. Nếu hết lượt giữa chừng, lần sau tôi nhắn "tiếp" thì làm tiếp từ câu kế.
-- Khi xong, ghi dòng cuối: HẾT GÓI MD-26 (151 câu)
+- Không bỏ câu nào. Làm liên tục hết gói; xong mỗi bài học thì ghi nối tiếp vào file.
+- Khi xong, ghi dòng cuối cùng của file: HẾT GÓI MD-26 (151 câu)
 
 ## Các câu hỏi
 

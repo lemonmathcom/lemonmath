@@ -2,8 +2,22 @@
 TÀI KHOẢN: Vinax.vn   |   FILE: Vinax.vn-GV-3   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
 Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
 Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
-Kết quả: file Vinax.vn-GV-3-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+Kết quả: file Vinax.vn-GV-3-ketqua.md (tải về, giữ nguyên tên), lưu vào Dropbox Lemonmath.com/viec da lam
 ######################################################################
+
+==================================================================
+QUY TẮC LÀM VIỆC (ưu tiên hơn mọi chỗ khác trong file này)
+==================================================================
+1. Làm LIÊN TỤC từ đầu đến hết file trong một lượt trả lời: không dừng lại để hỏi, không chờ người dùng gõ
+   "tiếp" giữa các bài. Chỉ dừng khi đã xong hết, hoặc khi sắp chạm giới hạn độ dài/hạn mức.
+2. Mọi kết quả ghi vào MỘT file duy nhất:  /mnt/user-data/outputs/Vinax.vn-GV-3-ketqua.md
+   Dùng công cụ tạo file / chạy code để ghi; xong mỗi bài học (hoặc mỗi nhóm câu) thì GHI NỐI TIẾP vào file
+   này ngay, để không mất phần đã làm. KHÔNG in kết quả ra khung chat.
+3. CUỐI MỖI LƯỢT TRẢ LỜI (kể cả khi phải dừng giữa chừng): luôn đưa file Vinax.vn-GV-3-ketqua.md ra để người dùng tải về,
+   kèm đúng một dòng báo tiến độ, ví dụ: "Đã xong 5/9 bài học. File: Vinax.vn-GV-3-ketqua.md" hoặc "ĐÃ XONG TOÀN BỘ. File: Vinax.vn-GV-3-ketqua.md".
+4. Nếu người dùng nhắn "tiếp": đọc lại file Vinax.vn-GV-3-ketqua.md để biết đã làm tới đâu, làm tiếp và ghi nối tiếp vào CHÍNH
+   file đó (không tạo file mới, không đổi tên file).
+==================================================================
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-GV-3
 Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/adding-decimals, g5/g5-practice-paper-1, g5/g5-review-decimals-percent, g5/one-number-as-percentage
@@ -125,9 +139,9 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 5. CÁCH LÀM VIỆC
 =====================================================================
-- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vinax.vn-GV-3-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
-  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Làm lần lượt từng bài học (cả hai bản), liên tục hết file; xong bài nào ghi NỐI TIẾP ngay vào file
+  /mnt/user-data/outputs/Vinax.vn-GV-3-ketqua.md, rồi làm ngay bài kế, không dừng hỏi.
+  Không in lại các đoạn văn trong khung chat.
 - Khi xong cả gói: đưa đường dẫn tải file Vinax.vn-GV-3-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
   thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
