@@ -816,6 +816,19 @@ a.off-miss { opacity: .45; }
 .cr-bar2 { display: flex; flex-wrap: wrap; gap: 8px; margin: .6em 0; }
 .cr-more { margin: .2em 0 .8em; } .cr-more summary { cursor: pointer; font-weight: 700; width: max-content; } .cr-more[open] { padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; } .cr-ext-l { font-weight: 700; align-self: center; }
 .cr-qrd summary { cursor: pointer; font-weight: 700; } .cr-share .cr-code { margin: .2em 0 0; } .cr-share .cr-linkline { margin: .2em 0 .8em; word-break: break-all; }
+/* show / hide password */
+.cr-pwbox { position: relative; display: block; } .cr-pwbox input { width: 100%; padding-right: 52px !important; }
+.cr-eye { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 44px; height: 40px; border: 0; border-radius: 10px; background: none; font-size: 1.15rem; cursor: pointer; opacity: .55; }
+.cr-eye:hover, .cr-eye.on { opacity: 1; } .cr-eye.on { background: var(--surface2); }
+/* class list: typed by the teacher, or by the students themselves */
+.cr-sj { display: flex; align-items: flex-start; gap: 10px; margin: .6em 0 1em; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; font-weight: 700; }
+.cr-sj input { width: 18px; height: 18px; margin-top: .15em; flex: none; } .cr-sj span { display: flex; flex-direction: column; gap: 2px; } .cr-sj small { font-weight: 500; color: var(--muted); line-height: 1.45; }
+.cr-selfb { display: inline-block; padding: 0 7px; border-radius: 999px; background: #FEF3C7; color: #92400E; font-size: .75rem; font-weight: 800; vertical-align: middle; }
+.cr-empty { padding: 12px 14px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); font-weight: 600; }
+.hw-alt { margin: .4em 0 0; font-weight: 600; } .hw-hint { display: block; font-weight: 500; font-size: .85rem; color: var(--muted); }
+.hw-pincard { max-width: 460px; padding: 16px 18px; border: 2px solid var(--lemon); border-radius: 16px; background: var(--surface); text-align: center; }
+.hw-pincard .tool-actions { justify-content: center; }
+.hw-bigpin { margin: .1em 0; font: 800 2.6rem/1.1 var(--head); letter-spacing: .25em; }
 /* sign-in */
 .cr-tabs2 { display: grid; grid-template-columns: 1fr 1fr; max-width: 420px; } .cr-tabs2 .cr-tab { text-align: center; }
 .cr-hint { font-weight: 500; font-size: .85rem; color: var(--muted); }

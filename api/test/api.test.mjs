@@ -124,6 +124,23 @@ r = await call('POST', '/v1/auth/reset-request', { email }, 'none'); assert.equa
 r = await call('POST', '/v1/me/recovery', {}); assert.match(r.recovery, /^[0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}$/); assert.equal(r.mailed, true);
 const r2 = await call('POST', '/v1/auth/recover', { email, recovery: r.recovery, pw: pw('matkhau5') }, 'none'); assert.equal(r2.status, 200); token = r2.token; ok('new recovery code works (and is e-mailed)');
 
+console.log('Students type their own names');
+assert.equal((await call('GET', '/v1/classes/' + cls)).class.self_join, false); ok('a class with a list: students choose from it');
+r = await call('POST', '/v1/classes', { name: '10A9', grade: 'g10', students: [] }); assert.equal(r.status, 200); assert.equal(r.class.self_join, true); assert.equal(r.students.length, 0);
+const open9 = r.class.id; ok('a class without a list: students type their names');
+r = await call('POST', '/v1/assignments', { class_id: open9, title: 'Tự nhập tên', mode: 'home', open_at: Date.now() - 1000, close_at: Date.now() + 3600e3, items, require_pin: true });
+const c9 = r.assignment.code;
+r = await call('GET', '/v1/hw/' + c9, null, 'none'); assert.equal(r.self_join, true); assert.equal(r.roster.length, 0); ok('the page knows names can be typed');
+r = await call('POST', '/v1/hw/' + c9 + '/join', { name: '  Đỗ   Hải Yến ' }, 'none'); assert.equal(r.status, 200); assert.equal(r.name, 'Đỗ Hải Yến'); assert.match(r.pin, /^\d{4}$/); assert.equal(r.no, 1);
+const me9 = r; ok('a student types her name and gets a personal code');
+r = await call('POST', '/v1/hw/' + c9 + '/join', { name: 'đỗ hải yến' }, 'none'); assert.equal(r.error, 'name_taken'); ok('the same name again is refused (choose it from the list instead)');
+r = await call('POST', '/v1/hw/' + c9 + '/join', { name: '12' }, 'none'); assert.equal(r.error, 'bad_name'); ok('a name needs letters');
+r = await call('POST', '/v1/hw/' + c9 + '/start', { sid: me9.sid, pin: me9.pin }, 'none'); assert.equal(r.status, 200); assert.equal(r.name, 'Đỗ Hải Yến'); ok('she starts with the code she was given');
+r = await call('GET', '/v1/hw/' + c9, null, 'none'); assert.equal(r.roster.length, 1); assert.equal(r.roster[0].nick, 'Yến'); ok('next time she is on the list');
+r = await call('GET', '/v1/classes/' + open9); assert.equal(r.students[0].self, 1); ok('the teacher sees she added herself');
+r = await call('PATCH', '/v1/classes/' + open9, { confirm: [me9.sid], self_join: false }); assert.equal(r.students[0].self, 0); assert.equal(r.class.self_join, false); ok('the teacher confirms the name and closes self-joining');
+r = await call('POST', '/v1/hw/' + c9 + '/join', { name: 'Người Lạ' }, 'none'); assert.equal(r.error, 'no_self_join'); ok('then typing a new name is refused');
+
 console.log('Teacher controls');
 r = await call('PATCH', '/v1/assignments/' + code, { close_now: true }); assert.ok(r.assignment.close_at <= Date.now()); ok('close now');
 r = await call('POST', '/v1/assignments/' + code + '/reset', { student_id: binh.id }); r = await call('GET', '/v1/assignments/' + code); assert.equal(r.attempts.length, 1); ok('let a student start again');

@@ -55,6 +55,8 @@ Người gửi: `Lemonmath <khong-tra-loi@lemonmath.com>` (biến MAIL_FROM tron
   | Tin nhắn Zalo | Hạn nộp, nhắc bố mẹ khen con cố gắng | Giờ bắt đầu, giờ vào muộn nhất, nhờ bố mẹ cho con chỗ yên tĩnh |
 
   Lớp 1–5 chỉ có "Luyện tập tự nguyện cùng bố mẹ" (`free`). Máy chủ vẫn nhận `class2` cho bài cũ nhưng giao diện không còn.
+- **Danh sách lớp: nhập ngay hoặc để học sinh tự nhập tên** (chủ dự án yêu cầu 20/11/2026). Khi tạo lớp có hai lựa chọn rõ ràng: "Nhập danh sách ngay" (dán tên, mỗi em có mã cá nhân để in phát) hoặc "Để học sinh tự nhập tên" (không nhập gì). Lớp có cột `self_join` (migration 0004): bật thì trang làm bài có ô "Nhập họ tên của bạn" (danh sách rỗng thì hiện ô này ngay), em gõ họ tên đầy đủ, máy chủ (`POST /v1/hw/:code/join`) tạo học sinh mới, cấp mã cá nhân 4 số và hiện cho em ghi lại; lần sau em chọn tên trong danh sách và nhập mã. Trùng tên đã có thì bị từ chối (`name_taken`) và trang quay về danh sách. Học sinh tự thêm có dấu "tự thêm" (cột `students.self`) và nút "Tên đúng" ở thẻ Học sinh; sửa tên cũng bỏ dấu này. Ô "Cho em chưa có tên trong danh sách tự nhập tên" ở thẻ Học sinh bật/tắt bất cứ lúc nào. Tin nhắn Zalo tự thêm một dòng hướng dẫn khi lớp đang bật.
+- **Mật khẩu**: mọi ô mật khẩu ở Lớp học của tôi có nút 👁 hiện/ẩn (hàm `eyes()` trong classroom.js, tự gắn vào ô mới nhờ MutationObserver).
 - **Giao bài** (4 bước đánh số, 20/11/2026): 1. Loại bài (chọn trước vì quyết định mọi thứ sau) → 2. Câu hỏi (tên bài, ngân hàng, bài học, số câu, ước tính số phút) → 3. Thời gian (bài về nhà: nút nhanh + giờ mở, hạn nộp, giới hạn phút tùy chọn; bài kiểm tra: giờ bắt đầu, thời gian làm, vào muộn tối đa, dòng thời gian "Mở bài → Hết giờ vào → Bài đóng") → 4. Tùy chọn (bài về nhà: mã cá nhân, trộn câu, cho xem lời giải; bài kiểm tra: danh sách các điều luôn bật). Nút giao đổi chữ theo loại bài.
 - **Nguyên tắc giao diện** (chủ dự án nhắc 20/11/2026: gọn gàng, dễ hiểu, dễ dùng, không gây hiểu lầm): mỗi màn hình chỉ một việc chính; bảng kết quả tối đa 4 ô số; nút nguy hiểm (Xóa lớp, Xóa bài, Đóng bài ngay) nằm trong mục gập riêng; lời khuyên của Lemon theo loại bài (không nhắc nút "Làm lại" ở bài kiểm tra, không nói "lời giải đã hiện" khi chưa tới giờ); "3 câu nên chữa" chỉ hiện khi có từ 3 em nộp; dưới bảng có chú thích kí hiệu ✓ ½ ✗ ·. Kiểm tra lại bằng ảnh chụp ở bề rộng 390px và 1280px trước khi đăng. Câu hỏi được chụp lại (cả đáp án) vào cơ sở dữ liệu lúc giao, nên ngân hàng đổi về sau cũng không ảnh hưởng bài đã giao. Có ước tính số phút (NB 1, TH 2, VD 4, VDC 6 phút mỗi câu; câu đúng sai theo từng ý).
 - **Chống chép**: mỗi em một thứ tự câu và thứ tự phương án riêng (giữ nguyên ba phần; câu có phương án nhắc tới chữ cái như "Cả A và B" thì không trộn phương án). Đáp án không gửi xuống máy học sinh trước khi nộp (hoặc trước giờ đóng, tùy cài đặt).
@@ -73,11 +75,11 @@ cd api && npm ci
 printf 'PEPPER="local-dev-pepper-0123456789abcdef"\nALLOW_LOCALHOST="1"\nRESEND_API_KEY="re_local_test_key"\nMAIL_DEBUG="1"\n' > .dev.vars   # MAIL_DEBUG chỉ dùng ở máy: trả mã 6 số trong phản hồi
 npx wrangler d1 migrations apply lemonmath --local
 npx wrangler dev --local --port 8787          # cửa sổ 1
-node test/api.test.mjs                         # cửa sổ 2: 53 phép thử
+node test/api.test.mjs                         # cửa sổ 2: 64 phép thử
 cd .. && API_URL=http://127.0.0.1:8787 npm run build && node tools/serve.js   # rồi mở http://localhost:8000/vi/lop-hoc/
 ```
 
-Thêm bảng hoặc cột: tạo file mới api/migrations/000N_<tên>.sql (đã có 0001 khởi tạo, 0002 email, 0003 số lần rời trang; không sửa file cũ); workflow tự áp dụng.
+Thêm bảng hoặc cột: tạo file mới api/migrations/000N_<tên>.sql (đã có 0001 khởi tạo, 0002 email, 0003 số lần rời trang, 0004 học sinh tự nhập tên; không sửa file cũ); workflow tự áp dụng.
 
 ## Việc tiếp theo (theo tài liệu nghiên cứu, chưa làm)
 

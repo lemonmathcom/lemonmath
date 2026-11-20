@@ -49,6 +49,11 @@
     viaMail: 'Nhận mã qua email', viaRc: 'Dùng mã khôi phục', sendCode: 'Gửi mã vào email', code6: 'Mã 6 số trong email', sentCode: function (m) { return 'Nếu email này có tài khoản, Lemonmath vừa gửi một mã 6 số (dùng được trong ' + m + ' phút). Xem cả mục Thư rác.'; }, setPw: 'Đặt mật khẩu mới',
     rcNew: 'Tạo mã khôi phục mới', rcNewLead: 'Làm mất mã khôi phục? Tạo mã mới: mã cũ sẽ không dùng được nữa.', sureRc: 'Tạo mã khôi phục mới? Mã cũ sẽ không dùng được nữa.', rcCopy: 'Sao chép mã', rcSave: 'Tải về máy', rcDone: 'Tôi đã lưu mã', copied: 'Đã sao chép',
     hello: 'Xin chào', classes: 'Lớp của tôi', noClass: 'Thầy cô chưa có lớp nào. Tạo lớp đầu tiên ở dưới.', newClass: 'Tạo lớp mới', className: 'Tên lớp (ví dụ: 10A1)', grade: 'Khối lớp', namesL: 'Danh sách học sinh, mỗi dòng một em, theo thứ tự trong sổ', namesPh: 'Nguyễn Văn An\nTrần Thị Bình\nLê Minh Châu', create: 'Tạo lớp',
+    rosterH: 'Danh sách học sinh', ways2: { list: ['Nhập danh sách ngay', 'Dán tên từ sổ điểm hoặc Excel, mỗi dòng một em. Mỗi em có sẵn mã cá nhân để in phát trên lớp.'], self: ['Để học sinh tự nhập tên', 'Không cần nhập gì bây giờ. Lần đầu vào làm bài, mỗi em tự gõ họ tên và nhận mã cá nhân. Thầy cô xem lại và sửa tên sau.'] },
+    selfJoinL: 'Cho em chưa có tên trong danh sách tự nhập tên khi vào làm bài', selfJoinHint: 'Tên em tự nhập có dấu “tự thêm” để thầy cô kiểm tra. Khi danh sách đã đủ, bỏ chọn ô này.',
+    selfBadge: 'tự thêm', okName: 'Tên đúng', stuSelf: 'các em tự nhập tên',
+    emptyRoster: 'Lớp chưa có em nào. Khi thầy cô giao bài, các em mở đường dẫn, tự gõ họ tên và nhận mã cá nhân; tên các em sẽ hiện dần ở đây.', emptyRosterOff: 'Lớp chưa có em nào. Thêm danh sách ở dưới, hoặc bật ô cho các em tự nhập tên.',
+    showPw: 'Hiện mật khẩu', hidePw: 'Ẩn mật khẩu', msgSelf: 'Bạn nào chưa có tên trong danh sách: bấm “Nhập họ tên của bạn”, gõ họ tên đầy đủ có dấu, rồi ghi lại mã cá nhân trang cho để dùng cho các bài sau.',
     stu: 'học sinh', hws: 'bài đã giao', back: '← Lớp của tôi', backClass: '← Về lớp', tabHw: 'Bài đã giao', tabStu: 'Học sinh và mã cá nhân',
     newHw: '+ Giao bài mới', noHw: 'Lớp này chưa có bài nào.', code: 'Mã bài', st: { soon: 'Sắp mở', open: 'Đang mở', closed: 'Đã đóng' }, doneOf: function (a, b) { return a + '/' + b + ' em đã nộp'; },
     no: 'STT', sname: 'Họ và tên', pin: 'Mã cá nhân', act: '', newPin: 'Đổi mã', remove: 'Xóa khỏi lớp', rename: 'Sửa tên', addStu: 'Thêm học sinh (mỗi dòng một em)', add: 'Thêm vào lớp', printSlips: '🖨 In phiếu mã cá nhân', delClass: 'Xóa lớp này',
@@ -78,7 +83,7 @@
     shareH: 'Gửi bài cho học sinh', shareLead: 'Học sinh mở đường dẫn, chọn tên và nhập mã cá nhân. Hoặc vào trang làm bài rồi gõ mã bài.', link: 'Đường dẫn', copyLink: 'Sao chép đường dẫn', zalo: 'Tin nhắn mẫu để dán vào nhóm Zalo lớp', copyMsg: 'Sao chép tin nhắn', scan: 'Quét mã để mở trang làm bài, rồi gõ mã bài',
     msg: function (a, link, cls, t1, t2, tl) {
       if (a.mode === 'test') return '📝 Bài kiểm tra: ' + a.title + ' (lớp ' + cls + ')\nBắt đầu lúc ' + t1 + ', làm trong ' + a.duration_min + ' phút. Vào muộn nhất lúc ' + tl + ', sau đó trang không cho vào nữa.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình, nhập mã cá nhân 4 số cô đã phát, rồi bấm Bắt đầu. Đồng hồ chạy từ lúc bấm và không dừng lại khi thoát ra.\nMã bài: ' + a.code + '\nNhờ bố mẹ giúp con có chỗ ngồi yên tĩnh đúng giờ này. Cảm ơn các bố mẹ!';
-      return '📚 ' + a.title + ' (lớp ' + cls + ')\nThời gian: từ ' + t1 + ' đến ' + t2 + (a.duration_min ? ', mỗi em làm tối đa ' + a.duration_min + ' phút' : '') + '.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình' + (a.require_pin ? ', nhập mã cá nhân 4 số cô đã phát' : '') + ', rồi làm bài. Nhớ ghi lời giải vào vở nhé!\nMã bài: ' + a.code + '\nNhờ bố mẹ nhắc con làm đúng giờ và khen con khi con cố gắng. Cảm ơn các bố mẹ!'; },
+      return '📚 ' + a.title + ' (lớp ' + cls + ')\nThời gian: từ ' + t1 + ' đến ' + t2 + (a.duration_min ? ', mỗi em làm tối đa ' + a.duration_min + ' phút' : '') + '.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình' + (a.require_pin ? ', nhập mã cá nhân 4 số' : '') + ', rồi làm bài. Nhớ ghi lời giải vào vở nhé!\nMã bài: ' + a.code + '\nNhờ bố mẹ nhắc con làm đúng giờ và khen con khi con cố gắng. Cảm ơn các bố mẹ!'; },
     board: 'Kết quả', refresh: 'Làm mới', closeNow: 'Đóng bài ngay', sureClose: 'Đóng bài ngay bây giờ? Em nào đang làm sẽ được tự nộp với các câu đã làm.', extend: 'Gia hạn', ext: ['+15 phút', '+1 giờ', '+1 ngày'], extT: ['+5 phút', '+15 phút'], extH: ['+1 giờ', '+1 ngày'], adjust: 'Gia hạn hoặc đóng sớm', perStu: function (m) { return 'mỗi em ' + m + ' phút'; }, perMax: function (m) { return 'mỗi em tối đa ' + m + ' phút'; }, due: 'Hạn nộp', opens: 'Mở', qrH: 'Mã QR để chiếu lên bảng', delHwH: 'Xóa bài này', reshare: 'Gửi cho học sinh', delHw: 'Xóa bài', sureDelHw: 'Xóa bài này cùng bài làm của học sinh? Không thể hoàn tác.',
     copyScores: 'Chép bảng điểm', csv: 'Tải CSV', toSc: 'Viết nhận xét gửi phụ huynh →', status: 'Trạng thái', score: 'Điểm', time: 'Thời gian', q: 'Câu',
     s: { none: 'Chưa vào', work: 'Đang làm', done: 'Đã nộp', auto: 'Tự nộp khi hết giờ', late: 'Nộp muộn (mất mạng)', locked: 'Khóa (sai mã nhiều lần)' },
@@ -105,7 +110,11 @@
     rcTitle: 'Your recovery code', rcLead: 'Write this code down and keep it somewhere safe (a notebook, a note on your phone). If you forget your password, it lets you set a new one. It is shown on screen only once.', rcMailed: 'It has also been sent to your sign-up email (check the spam folder if you cannot see it).',
     viaMail: 'Get a code by email', viaRc: 'Use my recovery code', sendCode: 'Email me a code', code6: '6-digit code from the email', sentCode: function (m) { return 'If this email has an account, Lemonmath has just sent a 6-digit code (it works for ' + m + ' minutes). Check the spam folder too.'; }, setPw: 'Set the new password',
     rcNew: 'Make a new recovery code', rcNewLead: 'Lost your recovery code? Make a new one; the old one will stop working.', sureRc: 'Make a new recovery code? The old one will stop working.', rcCopy: 'Copy the code', rcSave: 'Save to this device', rcDone: 'I have saved the code', copied: 'Copied',
-    hello: 'Hello', classes: 'My classes', noClass: 'You have no classes yet. Create the first one below.', newClass: 'Create a class', className: 'Class name (e.g. 10A1)', grade: 'Grade', namesL: 'Students, one per line, in register order', namesPh: 'Anna Nguyen\nBinh Tran\nChau Le', create: 'Create the class',
+    hello: 'Hello', classes: 'My classes', noClass: 'You have no classes yet. Create the first one below.', newClass: 'Create a class', className: 'Class name (e.g. 10A1)', grade: 'Grade', namesL: 'Students, one per line, in register order', rosterH: 'Student list', ways2: { list: ['Enter the list now', 'Paste names from your register or a spreadsheet, one per line. Each student gets a personal code you can print and hand out.'], self: ['Let students type their names', 'Nothing to enter now. The first time they open an assignment, each student types their full name and gets a personal code. You can check and fix names later.'] },
+    selfJoinL: 'Let students who are not on the list type their name when they open an assignment', selfJoinHint: 'Names typed by students are marked “added” so you can check them. Untick this once the list is complete.',
+    selfBadge: 'added', okName: 'Name is right', stuSelf: 'students type their names',
+    emptyRoster: 'No students yet. When you set an assignment, students open the link, type their full name and get a personal code; their names will appear here.', emptyRosterOff: 'No students yet. Add a list below, or tick the box to let students type their names.',
+    showPw: 'Show password', hidePw: 'Hide password', msgSelf: 'If your name is not on the list: press “Type your name”, enter your full name, and write down the personal code you are given for next time.', namesPh: 'Anna Nguyen\nBinh Tran\nChau Le', create: 'Create the class',
     stu: 'students', hws: 'assignments', back: '← My classes', backClass: '← Back to the class', tabHw: 'Assignments', tabStu: 'Students and personal codes',
     newHw: '+ New assignment', noHw: 'No assignments for this class yet.', code: 'Code', st: { soon: 'Opens soon', open: 'Open', closed: 'Closed' }, doneOf: function (a, b) { return a + '/' + b + ' handed in'; },
     no: 'No.', sname: 'Name', pin: 'Personal code', act: '', newPin: 'New code', remove: 'Remove', rename: 'Rename', addStu: 'Add students (one per line)', add: 'Add to the class', printSlips: '🖨 Print personal code slips', delClass: 'Delete this class',
@@ -180,6 +189,21 @@
   var fmtDT = function (t, day) {
     try { return new Intl.DateTimeFormat(vi ? 'vi-VN' : 'en-GB', day ? { hour: '2-digit', minute: '2-digit', weekday: 'short', day: 'numeric', month: 'numeric' } : { hour: '2-digit', minute: '2-digit' }).format(new Date(t)); } catch (e) { return new Date(t).toLocaleString(); }
   };
+  /* every password box gets a small "show" button, so a typo is easy to spot */
+  function eyes(root) {
+    $$('input[type="password"]:not([data-eye])', root).forEach(function (inp) {
+      inp.setAttribute('data-eye', '1');
+      var wrap = el('span', 'cr-pwbox'); inp.parentNode.insertBefore(wrap, inp); wrap.appendChild(inp);
+      var b = el('button', 'cr-eye'); b.type = 'button'; b.setAttribute('aria-pressed', 'false'); b.setAttribute('aria-label', T.showPw); b.title = T.showPw; b.textContent = '👁';
+      b.addEventListener('click', function () {
+        var show = inp.type === 'password'; inp.type = show ? 'text' : 'password';
+        b.setAttribute('aria-pressed', String(show)); b.setAttribute('aria-label', show ? T.hidePw : T.showPw); b.title = show ? T.hidePw : T.showPw; b.classList.toggle('on', show);
+        inp.focus();
+      });
+      wrap.appendChild(b);
+    });
+  }
+  if (window.MutationObserver) new MutationObserver(function () { eyes(app); }).observe(app, { childList: true, subtree: true });
   var fmtDay = function (t) {
     try { return new Intl.DateTimeFormat(vi ? 'vi-VN' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'numeric' }).format(new Date(t)); } catch (e) { return new Date(t).toDateString(); }
   };
@@ -319,19 +343,24 @@
   function homeView() {
     app.innerHTML = top() + '<h2>' + T.classes + '</h2><div id="cr-list" class="cr-cards"><p>' + T.loading + '</p></div>' +
       '<section class="tool"><h3>' + T.newClass + '</h3><div class="tool-row"><label class="grow">' + T.className + ' <input type="text" id="cr-cn" maxlength="60"></label><label>' + T.grade + ' ' + gradeSelect('cr-cg', 10) + '</label></div>' +
-      '<label class="cr-lbl" for="cr-names">' + T.namesL + '</label><textarea id="cr-names" rows="8" placeholder="' + esc(T.namesPh) + '"></textarea>' +
+      '<p class="cr-sub">' + T.rosterH + '</p><div class="cr-kinds">' + ['list', 'self'].map(function (w, i) {
+        return '<label class="cr-kind"><input type="radio" name="cr-way" value="' + w + '"' + (i === 0 ? ' checked' : '') + '><span><b>' + T.ways2[w][0] + '</b><small>' + T.ways2[w][1] + '</small></span></label>';
+      }).join('') + '</div>' +
+      '<div id="cr-namesbox"><label class="cr-lbl" for="cr-names">' + T.namesL + '</label><textarea id="cr-names" rows="8" placeholder="' + esc(T.namesPh) + '"></textarea></div>' +
       '<p class="tool-actions"><button type="button" class="btn" id="cr-mk">' + T.create + '</button></p>' + msgBox('cr-msg') + '</section>';
+    $$('input[name="cr-way"]').forEach(function (r) { r.addEventListener('change', function () { $('#cr-namesbox').hidden = r.value === 'self' && r.checked; }); });
     api('GET', '/v1/classes').then(function (r) {
       var box = $('#cr-list'); if (!box) return;
       box.innerHTML = r.classes.length ? r.classes.map(function (c) {
-        return '<a class="cr-card" href="#/lop/' + esc(c.id) + '"><b>' + esc(c.name) + '</b><span>' + (c.grade ? T.gName(c.grade) + ' · ' : '') + c.n + ' ' + T.stu + ' · ' + c.hw + ' ' + T.hws + '</span></a>';
+        return '<a class="cr-card" href="#/lop/' + esc(c.id) + '"><b>' + esc(c.name) + '</b><span>' + (c.grade ? T.gName(c.grade) + ' · ' : '') + c.n + ' ' + T.stu + (c.self_join ? ' (' + T.stuSelf + ')' : '') + ' · ' + c.hw + ' ' + T.hws + '</span></a>';
       }).join('') : '<p>' + T.noClass + '</p>';
     }).catch(function (e) { var box = $('#cr-list'); if (box) box.innerHTML = '<p class="tool-msg">' + errText(e) + '</p>'; });
     $('#cr-mk').addEventListener('click', function () {
-      var btn = this, msg = $('#cr-msg'), names = $('#cr-names').value.split('\n').map(function (s) { return s.trim(); }).filter(Boolean);
-      if (!$('#cr-cn').value.trim() || !names.length) { msg.textContent = T.fill; return; }
+      var btn = this, msg = $('#cr-msg'), self = ($('input[name="cr-way"]:checked') || {}).value === 'self';
+      var names = self ? [] : $('#cr-names').value.split('\n').map(function (s) { return s.trim(); }).filter(Boolean);
+      if (!$('#cr-cn').value.trim() || (!self && !names.length)) { msg.textContent = T.fill; return; }
       busy(btn, true);
-      api('POST', '/v1/classes', { name: $('#cr-cn').value, grade: $('#cr-cg').value, students: names }).then(function (r) { go('#/lop/' + r.class.id + '/hoc-sinh'); })
+      api('POST', '/v1/classes', { name: $('#cr-cn').value, grade: $('#cr-cg').value, students: names, self_join: self }).then(function (r) { go('#/lop/' + r.class.id + '/hoc-sinh'); })
         .catch(function (e) { busy(btn, false); msg.textContent = errText(e); });
     });
   }
@@ -363,14 +392,16 @@
     var body = $('#cr-body');
     var draw = function (list) {
       students = list;
-      body.innerHTML = '<p class="tool-mini">' + T.pinNote + '</p><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-print">' + T.printSlips + '</button></p>' +
+      body.innerHTML = '<label class="tool-check cr-sj"><input type="checkbox" id="cr-sj"' + (c.self_join ? ' checked' : '') + '> <span>' + T.selfJoinL + '<small>' + T.selfJoinHint + '</small></span></label>' +
+        (list.length ? '<p class="tool-mini">' + T.pinNote + '</p><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-print">' + T.printSlips + '</button></p>' +
         '<div class="cr-scroll"><table class="cr-table cr-stu"><thead><tr><th>' + T.no + '</th><th class="l">' + T.sname + '</th><th>' + T.pin + '</th><th></th></tr></thead><tbody>' +
         list.map(function (s) {
-          return '<tr data-id="' + esc(s.id) + '"><td>' + s.no + '</td><td class="l">' + esc(s.name) + '</td><td class="cr-pin">' + esc(s.pin) + '</td><td class="cr-act"><button type="button" class="tool-link" data-do="rename">' + T.rename + '</button> <button type="button" class="tool-link" data-do="repin">' + T.newPin + '</button> <button type="button" class="tool-link" data-do="remove">' + T.remove + '</button></td></tr>';
-        }).join('') + '</tbody></table></div>' +
+          return '<tr data-id="' + esc(s.id) + '"><td>' + s.no + '</td><td class="l">' + esc(s.name) + (s.self ? ' <span class="cr-selfb">' + T.selfBadge + '</span> <button type="button" class="tool-link" data-do="ok">' + T.okName + '</button>' : '') + '</td><td class="cr-pin">' + esc(s.pin) + '</td><td class="cr-act"><button type="button" class="tool-link" data-do="rename">' + T.rename + '</button> <button type="button" class="tool-link" data-do="repin">' + T.newPin + '</button> <button type="button" class="tool-link" data-do="remove">' + T.remove + '</button></td></tr>';
+        }).join('') + '</tbody></table></div>' : '<p class="cr-empty">' + (c.self_join ? T.emptyRoster : T.emptyRosterOff) + '</p>') +
         '<label class="cr-lbl" for="cr-add">' + T.addStu + '</label><textarea id="cr-add" rows="3"></textarea><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-addgo">' + T.add + '</button></p>' +
         '<details class="cr-dz"><summary>' + T.delClass + '</summary><p class="tool-mini">' + esc(T.sureDelClass(c.name)) + '</p><p><button type="button" class="btn btn-outline cr-danger" id="cr-del">' + T.delClass + '</button></p></details>' + msgBox('cr-msg');
-      $('#cr-print').addEventListener('click', function () { printSlips(c, students); });
+      if ($('#cr-print')) $('#cr-print').addEventListener('click', function () { printSlips(c, students); });
+      $('#cr-sj').addEventListener('change', function () { patch({ self_join: this.checked }, this); });
       $('#cr-addgo').addEventListener('click', function () {
         var add = $('#cr-add').value.split('\n').map(function (s) { return s.trim(); }).filter(Boolean);
         if (add.length) patch({ add: add }, this);
@@ -382,12 +413,13 @@
     };
     var patch = function (b, btn) {
       busy(btn, true);
-      api('PATCH', '/v1/classes/' + c.id, b).then(function (r) { draw(r.students); }).catch(function (e) { busy(btn, false); $('#cr-msg').textContent = errText(e); });
+      api('PATCH', '/v1/classes/' + c.id, b).then(function (r) { c.self_join = r.class.self_join; draw(r.students); }).catch(function (e) { busy(btn, false); $('#cr-msg').textContent = errText(e); });
     };
     body.onclick = function (e) {
       var b = e.target.closest ? e.target.closest('[data-do]') : null; if (!b) return;
       var id = b.closest('tr').getAttribute('data-id'), s = students.filter(function (x) { return x.id === id; })[0]; if (!s) return;
       var k = b.getAttribute('data-do');
+      if (k === 'ok') patch({ confirm: [id] }, b);
       if (k === 'remove' && window.confirm(T.sureRemove(s.name))) patch({ remove: [id] }, b);
       if (k === 'repin' && window.confirm(T.sureNewPin(s.name))) patch({ repin: [id] }, b);
       if (k === 'rename') { var n = window.prompt(T.askName, s.name); if (n && n.trim() && n.trim() !== s.name) patch({ rename: [{ id: id, name: n }] }, b); }
@@ -564,11 +596,11 @@
   }
 
   /* ------------------------------------------------------------ 5. one assignment: send it, follow it */
-  function shareHtml(a, cls) {
+  function shareHtml(a, cls, selfJoin) {
     var link = HW + '?m=' + a.code, qr = $('#cr-qr');
     return '<section class="tool cr-share" id="cr-share"><h3>' + T.shareH + '</h3><p class="tool-mini">' + T.shareLead + '</p><p class="cr-code">' + a.code + '</p>' +
       '<p class="cr-linkline"><a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(link.replace(/^https?:\/\//, '')) + '</a></p>' +
-      '<label class="cr-lbl" for="cr-zalo">' + T.zalo + '</label><textarea id="cr-zalo" rows="5">' + esc(T.msg(a, link, cls, fmtDT(a.open_at, true), fmtDT(a.close_at, true), fmtDT(a.close_at - a.duration_min * 60e3))) + '</textarea>' +
+      '<label class="cr-lbl" for="cr-zalo">' + T.zalo + '</label><textarea id="cr-zalo" rows="5">' + esc(T.msg(a, link, cls, fmtDT(a.open_at, true), fmtDT(a.close_at, true), fmtDT(a.close_at - a.duration_min * 60e3)) + (selfJoin ? '\n' + T.msgSelf : '')) + '</textarea>' +
       '<p class="tool-actions"><button type="button" class="btn" id="cr-cm">' + T.copyMsg + '</button><button type="button" class="btn btn-outline" id="cr-cl">' + T.copyLink + '</button></p>' +
       (qr ? '<details class="cr-qrd"><summary>' + T.qrH + '</summary><figure class="cr-qr">' + qr.innerHTML + '<figcaption>' + T.scan + '</figcaption></figure></details>' : '') + '</section>';
   }
@@ -637,7 +669,7 @@
         '<div class="cr-bar2">' + (s !== 'closed' && !share ? '<button type="button" class="btn" id="cr-sh">' + T.reshare + '</button>' : '') + '<button type="button" class="btn btn-outline" id="cr-rf">↻ ' + T.refresh + '</button></div>' +
         (s !== 'closed' ? '<details class="cr-more"><summary>' + T.adjust + '</summary><p class="cr-chips"><span class="cr-ext-l">' + T.extend + ':</span> ' + (test ? T.extT : T.extH).map(function (t, i) { return '<button type="button" class="cr-chip" data-ext="' + (test ? ['5', '15'][i] : ['60', '1440'][i]) + '">' + t + '</button>'; }).join('') + '</p>' +
           '<p><button type="button" class="btn btn-outline" id="cr-close">' + T.closeNow + '</button></p></details>' : '') +
-        (share ? shareHtml(a, r.class.name) : '<div id="cr-sharebox"></div>') +
+        (share ? shareHtml(a, r.class.name, r.class.self_join) : '<div id="cr-sharebox"></div>') +
         '<h3>' + T.board + '</h3><p class="tool-mini cr-focus">' + (T.focus[a.mode] || T.focus.home) + '</p>' + (s === 'soon' && !r.attempts.length ? '<p>' + T.waitOpen + '</p>' : '') +
         // four numbers at most; who is still working or has not started is one short line under them
         '<div class="sc-stats cr-stats">' + stat(T.sum.n, n + '/' + active) + (test

@@ -15,6 +15,7 @@
  *   GET  /v1/classes/:id/assignments              POST /v1/assignments
  *   GET|PATCH|DELETE /v1/assignments/:code        POST /v1/assignments/:code/reset
  *   GET  /v1/hw/:code      POST /v1/hw/:code/start   PUT /v1/hw/:code/save   POST /v1/hw/:code/submit   POST /v1/hw/:code/result
+ *   POST /v1/hw/:code/join (a student types their own name, when the class allows it)
  *   GET  /v1/info (is e-mail switched on?)   POST /v1/auth/reset-request | /v1/auth/reset (6-digit code by e-mail)   POST /v1/me/recovery (new recovery code)
  * Two kinds of assignment: homework (mode "home", any window, time limit optional) and tests (mode "test": a start time,
  * a time limit, a few minutes to come in late, personal code and shuffling always on, answers shown after closing).
@@ -111,6 +112,7 @@ async function route(req, env, ctx) {
     const code = b.toUpperCase();
     if (!c && m === 'GET') return hwInfo(env, code);
     if (c === 'start' && m === 'POST') return hwStart(req, env, code);
+    if (c === 'join' && m === 'POST') return hwJoin(req, env, code);
     if (c === 'save' && (m === 'PUT' || m === 'POST')) return hwSave(req, env, code, false);   // POST: navigator.sendBeacon when the page is closed
     if (c === 'submit' && m === 'POST') return hwSave(req, env, code, true);
     if (c === 'result' && m === 'POST') return hwResult(req, env, code);
@@ -241,6 +243,8 @@ function cleanNames(list) {
   if (!Array.isArray(list)) return [];
   return list.map((s) => clean(String(s).replace(/^\s*\d+[.)\-:\s]+/, ''), 60)).filter(Boolean).slice(0, 80);
 }
+const MAX_STUDENTS = 80;
+const normName = (s) => clean(s, 60).normalize('NFC').toLowerCase();
 function insertStudents(env, classId, startNo, names, used) {
   const stmts = [];
   for (let i = 0; i < names.length; i += 20) {
@@ -251,13 +255,13 @@ function insertStudents(env, classId, startNo, names, used) {
   return stmts;
 }
 async function studentsOf(env, classId, all) {
-  const r = await env.DB.prepare('SELECT id, no, name, pin, active FROM students WHERE class_id = ?' + (all ? '' : ' AND active = 1') + ' ORDER BY no').bind(classId).all();
+  const r = await env.DB.prepare('SELECT id, no, name, pin, active, self FROM students WHERE class_id = ?' + (all ? '' : ' AND active = 1') + ' ORDER BY no').bind(classId).all();
   return r.results;
 }
 
 async function listClasses(req, env) {
   const t = await auth(req, env);
-  const r = await env.DB.prepare('SELECT c.id, c.name, c.grade, c.created_at, (SELECT count(*) FROM students s WHERE s.class_id = c.id AND s.active = 1) AS n, (SELECT count(*) FROM assignments a WHERE a.class_id = c.id) AS hw FROM classes c WHERE c.teacher_id = ? ORDER BY c.created_at DESC').bind(t.id).all();
+  const r = await env.DB.prepare('SELECT c.id, c.name, c.grade, c.self_join, c.created_at, (SELECT count(*) FROM students s WHERE s.class_id = c.id AND s.active = 1) AS n, (SELECT count(*) FROM assignments a WHERE a.class_id = c.id) AS hw FROM classes c WHERE c.teacher_id = ? ORDER BY c.created_at DESC').bind(t.id).all();
   return json({ classes: r.results, now: Date.now() });
 }
 
@@ -265,36 +269,39 @@ async function createClass(req, env) {
   const t = await auth(req, env), b = await readBody(req, 32e3);
   const name = clean(b.name, 60), grade = clean(b.grade, 12), names = cleanNames(b.students);
   if (!name) fail(400, 'bad_name');
-  if (!names.length) fail(400, 'no_students');
+  // no list: the students type their own names the first time (and the teacher can still add a list later)
+  const selfJoin = !names.length || b.self_join === true ? 1 : 0;
   const n = await env.DB.prepare('SELECT count(*) AS n FROM classes WHERE teacher_id = ?').bind(t.id).first();
   if (n.n >= 40) fail(400, 'too_many_classes');
   const id = randId(12);
-  await env.DB.batch([env.DB.prepare('INSERT INTO classes (id, teacher_id, name, grade, created_at) VALUES (?, ?, ?, ?, ?)').bind(id, t.id, name, grade, Date.now())].concat(insertStudents(env, id, 1, names, new Set())));
-  return json({ class: { id, name, grade }, students: await studentsOf(env, id, false) });
+  await env.DB.batch([env.DB.prepare('INSERT INTO classes (id, teacher_id, name, grade, created_at, self_join) VALUES (?, ?, ?, ?, ?, ?)').bind(id, t.id, name, grade, Date.now(), selfJoin)].concat(insertStudents(env, id, 1, names, new Set())));
+  return json({ class: { id, name, grade, self_join: !!selfJoin }, students: await studentsOf(env, id, false) });
 }
 
 async function getClass(req, env, id) {
   const t = await auth(req, env), c = await ownClass(env, t, id);
-  return json({ class: { id: c.id, name: c.name, grade: c.grade }, students: await studentsOf(env, id, false), now: Date.now() });
+  return json({ class: { id: c.id, name: c.name, grade: c.grade, self_join: !!c.self_join }, students: await studentsOf(env, id, false), now: Date.now() });
 }
 
 async function patchClass(req, env, id) {
   const t = await auth(req, env), c = await ownClass(env, t, id), b = await readBody(req, 32e3), stmts = [];
   if (b.name != null) { const n = clean(b.name, 60); if (!n) fail(400, 'bad_name'); stmts.push(env.DB.prepare('UPDATE classes SET name = ? WHERE id = ?').bind(n, id)); }
   if (b.grade != null) stmts.push(env.DB.prepare('UPDATE classes SET grade = ? WHERE id = ?').bind(clean(b.grade, 12), id));
+  if (typeof b.self_join === 'boolean') stmts.push(env.DB.prepare('UPDATE classes SET self_join = ? WHERE id = ?').bind(b.self_join ? 1 : 0, id));
   const all = await studentsOf(env, id, true), mine = new Set(all.map((s) => s.id)), used = new Set(all.map((s) => s.pin));
-  (Array.isArray(b.rename) ? b.rename : []).slice(0, 80).forEach((r) => { const n = clean(r && r.name, 60); if (r && mine.has(r.id) && n) stmts.push(env.DB.prepare('UPDATE students SET name = ? WHERE id = ?').bind(n, r.id)); });
+  (Array.isArray(b.rename) ? b.rename : []).slice(0, 80).forEach((r) => { const n = clean(r && r.name, 60); if (r && mine.has(r.id) && n) stmts.push(env.DB.prepare('UPDATE students SET name = ?, self = 0 WHERE id = ?').bind(n, r.id)); });
+  (Array.isArray(b.confirm) ? b.confirm : []).slice(0, 80).forEach((sid) => { if (mine.has(sid)) stmts.push(env.DB.prepare('UPDATE students SET self = 0 WHERE id = ?').bind(sid)); });
   (Array.isArray(b.remove) ? b.remove : []).slice(0, 80).forEach((sid) => { if (mine.has(sid)) stmts.push(env.DB.prepare('UPDATE students SET active = 0 WHERE id = ?').bind(sid)); });
   (Array.isArray(b.repin) ? b.repin : []).slice(0, 80).forEach((sid) => { if (mine.has(sid)) stmts.push(env.DB.prepare('UPDATE students SET pin = ? WHERE id = ?').bind(newPin(used), sid)); });
   const add = cleanNames(b.add);
   if (add.length) {
-    if (all.filter((s) => s.active).length + add.length > 80) fail(400, 'too_many_students');
+    if (all.filter((s) => s.active).length + add.length > MAX_STUDENTS) fail(400, 'too_many_students');
     const next = all.reduce((x, s) => Math.max(x, s.no), 0) + 1;
     stmts.push(...insertStudents(env, id, next, add, used));
   }
   if (stmts.length) await env.DB.batch(stmts);
   const cc = await env.DB.prepare('SELECT * FROM classes WHERE id = ?').bind(id).first();
-  return json({ class: { id: c.id, name: cc.name, grade: cc.grade }, students: await studentsOf(env, id, false) });
+  return json({ class: { id: c.id, name: cc.name, grade: cc.grade, self_join: !!cc.self_join }, students: await studentsOf(env, id, false) });
 }
 
 async function deleteClass(req, env, id) {
@@ -375,7 +382,7 @@ async function getAssignment(req, env, code) {
   await finalizeDue(env, a, items);
   const students = await studentsOf(env, a.class_id, true);
   const r = await env.DB.prepare('SELECT student_id, answers, pin_fails, started_at, saved_at, submitted_at, auto, late, score, max, away FROM attempts WHERE assignment_id = ?').bind(code).all();
-  const cls = await env.DB.prepare('SELECT name, grade FROM classes WHERE id = ?').bind(a.class_id).first();
+  const cls = await env.DB.prepare('SELECT name, grade, self_join FROM classes WHERE id = ?').bind(a.class_id).first();
   return json({
     assignment: pubAssignment(a), class: cls, items, now: Date.now(),
     students: students.map((s) => ({ id: s.id, no: s.no, name: s.name, active: s.active })),
@@ -489,7 +496,7 @@ async function finalizeDue(env, a, items) {
 /* ------------------------------------------------------------------ student side */
 async function assignmentByCode(env, code, withItems) {
   if (!/^[0-9A-Z]{6}$/.test(code)) fail(404, 'no_assignment');
-  const a = await env.DB.prepare('SELECT ' + (withItems ? 'a.*' : 'a.id, a.class_id, a.teacher_id, a.title, a.lang, a.mode, a.open_at, a.close_at, a.duration_min, a.require_pin, a.show_key, a.shuffle, a.n') + ', c.name AS class_name, t.name AS teacher_name FROM assignments a JOIN classes c ON c.id = a.class_id JOIN teachers t ON t.id = a.teacher_id WHERE a.id = ?').bind(code).first();
+  const a = await env.DB.prepare('SELECT ' + (withItems ? 'a.*' : 'a.id, a.class_id, a.teacher_id, a.title, a.lang, a.mode, a.open_at, a.close_at, a.duration_min, a.require_pin, a.show_key, a.shuffle, a.n') + ', c.name AS class_name, c.self_join AS self_join, t.name AS teacher_name FROM assignments a JOIN classes c ON c.id = a.class_id JOIN teachers t ON t.id = a.teacher_id WHERE a.id = ?').bind(code).first();
   if (!a) fail(404, 'no_assignment');
   return a;
 }
@@ -501,8 +508,26 @@ async function hwInfo(env, code) {
   return json({
     code: a.id, title: a.title, class_name: a.class_name, teacher: a.teacher_name, lang: a.lang, mode: a.mode,
     open_at: a.open_at, close_at: a.close_at, duration_min: a.duration_min, require_pin: !!a.require_pin, show_key: a.show_key,
-    n: a.n, parts, roster, now: Date.now()
+    n: a.n, parts, roster, self_join: !!a.self_join, now: Date.now()
   });
+}
+
+/* A student who is not on the list types their name (only when the class allows it). They get a personal code at once,
+   shown on their screen to write down; the teacher sees the name marked "added by the student". */
+async function hwJoin(req, env, code) {
+  const b = await readBody(req), now = Date.now(), a = await assignmentByCode(env, code, false);
+  if (!a.self_join) fail(403, 'no_self_join');
+  if (now < a.open_at) fail(425, 'not_open', { open_at: a.open_at });
+  if (now >= a.close_at) fail(410, 'closed', { close_at: a.close_at });
+  if (a.mode === 'test' && a.duration_min && now > a.close_at - a.duration_min * MIN + SLACK) fail(410, 'late_start', { last_start: a.close_at - a.duration_min * MIN });
+  const name = clean(b.name, 60);
+  if (name.length < 3 || !/\p{L}/u.test(name)) fail(400, 'bad_name');
+  const all = await studentsOf(env, a.class_id, true), act = all.filter((s) => s.active);
+  if (act.some((s) => normName(s.name) === normName(name))) fail(409, 'name_taken');
+  if (act.length >= MAX_STUDENTS) fail(400, 'class_full');
+  const id = randId(12), pin = newPin(new Set(all.map((s) => s.pin))), no = all.reduce((x, s) => Math.max(x, s.no), 0) + 1;
+  await env.DB.prepare('INSERT INTO students (id, class_id, no, name, pin, self) VALUES (?, ?, ?, ?, ?, 1)').bind(id, a.class_id, no, name, pin).run();
+  return json({ sid: id, pin, no, name, now });
 }
 
 async function attemptByToken(env, code, token) {

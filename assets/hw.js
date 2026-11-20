@@ -42,6 +42,10 @@
     code: 'Mã bài (6 kí tự thầy cô gửi)', open: 'Mở bài', needCode: 'Bạn nhập đủ 6 kí tự của mã bài nhé.', noHw: 'Chưa tìm thấy bài này. Bạn xem lại mã thầy cô gửi nhé.',
     err: 'Chưa kết nối được. Bạn kiểm tra mạng rồi thử lại nhé.', retry: 'Thử lại',
     by: function (t, c) { return 'Lớp ' + c + ' · ' + t; },
+    typeName: 'Nhập họ tên của bạn', notListed: 'Chưa có tên trong danh sách?', fullName: 'Họ và tên đầy đủ', fullHint: 'Viết có dấu, đúng như trong sổ điểm. Ví dụ: Nguyễn Văn An', joinGo: 'Tiếp tục', backList: '← Chọn tên trong danh sách',
+    yourPin: 'Mã cá nhân của bạn', pinKeep: 'Ghi mã này vào vở. Lần sau, bạn chọn tên mình trong danh sách và nhập mã này. Quên mã thì hỏi thầy cô.', hiName: function (n) { return 'Chào ' + n + '!'; },
+    nameTaken: 'Tên này đã có trong danh sách lớp. Bạn chọn tên mình trong danh sách và nhập mã cá nhân; nếu chưa có mã, hãy hỏi thầy cô.', badName: 'Bạn gõ họ tên đầy đủ, ví dụ: Nguyễn Văn An.', classFull: 'Lớp đã đủ số học sinh. Bạn báo thầy cô nhé.',
+    noSelf: 'Lớp này không cho tự nhập tên. Bạn báo thầy cô để được thêm vào danh sách.', emptyNoSelf: 'Lớp chưa có danh sách học sinh. Bạn báo thầy cô nhé.',
     fStart: function (a, b) { return 'Bắt đầu ' + a + ' · vào muộn nhất ' + b; }, fDur: function (m) { return m + ' phút, tính từ lúc bấm Bắt đầu, không dừng khi thoát ra'; },
     fAway: 'Rời khỏi trang khi đang làm sẽ được ghi lại cho thầy cô', fDue: function (t) { return 'Hạn nộp ' + t; }, fMax: function (m) { return 'Mỗi bạn làm tối đa ' + m + ' phút'; }, opens: 'Mở lúc', closes: 'Đóng lúc', dur: function (m) { return 'Thời gian làm: ' + m + ' phút kể từ lúc bấm bắt đầu'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' câu nhiều lựa chọn'); if (p.tf) a.push(p.tf + ' câu đúng sai'); if (p.sa) a.push(p.sa + ' câu trả lời ngắn'); return n + ' câu: ' + a.join(', '); },
@@ -77,6 +81,10 @@
     code: 'Assignment code (6 characters from your teacher)', open: 'Open', needCode: 'Please enter all 6 characters of the code.', noHw: 'This assignment was not found. Check the code your teacher sent.',
     err: 'Could not connect. Check your connection and try again.', retry: 'Try again',
     by: function (t, c) { return 'Class ' + c + ' · ' + t; },
+    typeName: 'Type your name', notListed: 'Not on the list?', fullName: 'Your full name', fullHint: 'Spelled as in the class register. For example: Nguyen Van An', joinGo: 'Continue', backList: '← Choose from the list',
+    yourPin: 'Your personal code', pinKeep: 'Write this code in your book. Next time, choose your name from the list and type this code. If you forget it, ask your teacher.', hiName: function (n) { return 'Hello, ' + n + '!'; },
+    nameTaken: 'This name is already on the class list. Choose your name from the list and type your personal code; if you have no code, ask your teacher.', badName: 'Type your full name, for example: Nguyen Van An.', classFull: 'The class is full. Please tell your teacher.',
+    noSelf: 'This class does not let you type a name. Please ask your teacher to add you to the list.', emptyNoSelf: 'The class has no student list yet. Please tell your teacher.',
     fStart: function (a, b) { return 'Starts ' + a + ' · start by ' + b; }, fDur: function (m) { return m + ' minutes from when you press Start; the clock does not stop if you leave'; },
     fAway: 'Leaving the page while you work is recorded for your teacher', fDue: function (t) { return 'Due ' + t; }, fMax: function (m) { return 'Up to ' + m + ' minutes each'; }, opens: 'Opens', closes: 'Closes', dur: function (m) { return 'Time allowed: ' + m + ' minutes from when you press start'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' multiple choice'); if (p.tf) a.push(p.tf + ' true/false'); if (p.sa) a.push(p.sa + ' short answer'); return n + ' questions: ' + a.join(', '); },
@@ -180,13 +188,18 @@
   }
   function isTest() { return info && info.mode === 'test' && info.duration_min > 0; }
   function lastStart() { return info.close_at - info.duration_min * 60e3; }
-  function who(msg) {
+  function who(msg, mode) {
     view = 'who'; stopAll();
-    var closed = now() >= info.close_at;
+    var closed = now() >= info.close_at, empty = !info.roster.length;
+    mode = mode || (empty && info.self_join ? 'name' : 'list');
+    if (mode === 'name') return nameForm(msg);
+    if (empty) { app.innerHTML = headHtml() + '<p class="tool-msg">' + T.emptyNoSelf + '</p>'; return; }
     app.innerHTML = headHtml() + '<form class="jn-form hw-who" id="hw-who"><h3>' + T.who + '</h3><label class="sr" for="hw-sid">' + T.pick + '</label><select id="hw-sid"><option value="">' + T.pick + '</option>' +
       info.roster.map(function (s) { return '<option value="' + esc(s.id) + '"' + (st.sid === s.id ? ' selected' : '') + '>' + s.no + '. ' + esc(s.nick) + '</option>'; }).join('') + '</select>' +
       (info.require_pin ? '<label>' + T.pin + '<input id="hw-pin" inputmode="numeric" autocomplete="off" maxlength="4" pattern="[0-9]*"></label>' : '') +
-      '<button class="btn" type="submit" id="hw-go">' + (isTest() ? T.tStart : T.start) + '</button><p class="tool-msg" id="hw-msg" aria-live="polite">' + esc(msg) + '</p><p class="hw-wait" id="hw-wait"></p></form>';
+      '<button class="btn" type="submit" id="hw-go">' + (isTest() ? T.tStart : T.start) + '</button><p class="tool-msg" id="hw-msg" aria-live="polite">' + esc(msg) + '</p><p class="hw-wait" id="hw-wait"></p>' +
+      (info.self_join ? '<p class="hw-alt">' + T.notListed + ' <button type="button" class="tool-link" id="hw-toname">' + T.typeName + '</button></p>' : '') + '</form>';
+    if ($('#hw-toname')) $('#hw-toname').addEventListener('click', function () { who('', 'name'); });
     var go = $('#hw-go'), wait = $('#hw-wait');
     var gate = function () {
       var t = now();
@@ -202,6 +215,47 @@
       if (isTest() && !st.started && !window.confirm(T.tSure(info.duration_min))) return;
       st.sid = sid; keep(); go.disabled = true; $('#hw-msg').textContent = '…';
       start({ sid: sid, pin: pin });
+    });
+  }
+
+  /* not on the list (the class allows it): type a full name, get a personal code, then start */
+  function nameForm(msg) {
+    app.innerHTML = headHtml() + '<form class="jn-form hw-who" id="hw-who"><h3>' + T.typeName + '</h3>' +
+      '<label>' + T.fullName + '<small class="hw-hint">' + T.fullHint + '</small><input id="hw-name" type="text" maxlength="60" autocomplete="name"></label>' +
+      '<button class="btn" type="submit" id="hw-go">' + T.joinGo + '</button><p class="tool-msg" id="hw-msg" aria-live="polite">' + esc(msg) + '</p><p class="hw-wait" id="hw-wait"></p>' +
+      (info.roster.length ? '<p class="hw-alt"><button type="button" class="tool-link" id="hw-tolist">' + T.backList + '</button></p>' : '') + '</form>';
+    if ($('#hw-tolist')) $('#hw-tolist').addEventListener('click', function () { who('', 'list'); });
+    var go = $('#hw-go'), wait = $('#hw-wait');
+    var gate = function () {
+      var t = now();
+      if (t < info.open_at) { go.disabled = true; wait.textContent = T.opensIn + ' ' + span(info.open_at - t); }
+      else { go.disabled = false; wait.textContent = ''; clearInterval(tickT); }
+    };
+    gate(); if (now() < info.open_at) tickT = setInterval(gate, 1000);
+    $('#hw-who').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = $('#hw-name').value.replace(/\s+/g, ' ').trim();
+      if (name.length < 3) { $('#hw-msg').textContent = T.badName; return; }
+      go.disabled = true; $('#hw-msg').textContent = '…';
+      api('POST', '/v1/hw/' + code + '/join', { name: name }).then(function (r) {
+        if (r.status === 200) { st.sid = r.sid; keep(); pinCard(r); return; }
+        var m = { name_taken: T.nameTaken, bad_name: T.badName, class_full: T.classFull, no_self_join: T.noSelf, closed: T.closedNo, not_open: T.notOpen }[r.error];
+        if (r.error === 'late_start') m = T.lateStart(fmtDT(r.last_start || lastStart()));
+        if (r.error === 'name_taken') {     // someone with this name is on the list now: show the fresh list
+          api('GET', '/v1/hw/' + code).then(function (x) { if (x.status === 200) { x.roster = x.roster || []; info.roster = x.roster; } who(m, info.roster.length ? 'list' : 'name'); });
+          return;
+        }
+        go.disabled = false; $('#hw-msg').textContent = m || T.err;
+      });
+    });
+  }
+  function pinCard(r) {
+    app.innerHTML = headHtml() + '<section class="hw-pincard"><h3>' + esc(T.hiName(r.name)) + '</h3><p>' + T.yourPin + '</p><p class="hw-bigpin">' + esc(r.pin) + '</p><p>' + T.pinKeep + '</p>' +
+      '<p class="tool-actions"><button type="button" class="btn" id="hw-go">' + (isTest() ? T.tStart : T.start) + '</button></p><p class="tool-msg" id="hw-msg" aria-live="polite"></p></section>';
+    $('#hw-go').addEventListener('click', function () {
+      if (isTest() && !st.started && !window.confirm(T.tSure(info.duration_min))) return;
+      this.disabled = true; $('#hw-msg').textContent = '…';
+      start({ sid: r.sid, pin: r.pin });
     });
   }
 
