@@ -6,6 +6,7 @@ Tính năng cho giáo viên (chủ dự án chốt ngày 20/11/2026): tài kho�
 - Trang học sinh: /vi/lam-bai/?m=MÃBÀI và /homework/?m=CODE (assets/hw.js)
 - Máy chủ: thư mục api/ (Cloudflare Worker + cơ sở dữ liệu D1), tự đăng bằng .github/workflows/api.yml
 - Hai trang trên chỉ được sinh ra khi data/curriculum.json có "site" → "api" (workflow tự ghi sau lần đăng đầu).
+- **Đã bật ngày 20/11/2026**: máy chủ https://lemonmath-api.chanh101.workers.dev (tài khoản Cloudflare chanh101, D1 "lemonmath" ở APAC, token GitHub tên lemonmath-github-api chỉ có quyền Workers + D1 của tài khoản này).
 
 ## Chủ dự án làm một lần (khoảng 10 phút)
 
