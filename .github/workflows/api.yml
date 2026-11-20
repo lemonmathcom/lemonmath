@@ -100,8 +100,12 @@ jobs:
       - name: Check the API answers
         if: steps.ready.outputs.ok == 'true'
         run: |
-          sleep 5
-          curl -fsS "${{ steps.deploy.outputs.url }}/" | grep -q lemonmath-api
+          # a new workers.dev address can take a minute to answer
+          for i in $(seq 1 18); do
+            if curl -fsS "${{ steps.deploy.outputs.url }}/" | grep -q lemonmath-api; then echo "API answers."; exit 0; fi
+            sleep 10
+          done
+          echo "::error::Máy chủ chưa trả lời sau 3 phút."; exit 1
 
       - name: Tell the website where the API is
         if: steps.ready.outputs.ok == 'true'
