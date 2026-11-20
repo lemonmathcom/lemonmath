@@ -39,6 +39,9 @@ const UI = {
       ['Look back', 'Read the feedback: your level, likely causes of lost marks and what to do next. Then tick the lesson off.']
     ],
     loopTeach: 'Are you a teacher? Build a test from our question bank and analyse class scores in the',
+    crTitle: 'My classes', crDesc: 'A free teacher account: keep your class lists, set homework from the Lemonmath question bank with a time window (say 20:00 to 21:00), and see each student’s answers as they hand in.',
+    crCtaH: 'Set homework with a time window', crCtaP: 'Create a free teacher account, add your class list, and set homework that opens and closes at the times you choose. Each student signs in with a personal code, the work is marked as they hand in, and you see which questions to go over in class.', crCtaBtn: 'Open My classes →',
+    hwTitle: 'Homework from your teacher', hwDesc: 'Open the homework your teacher set, choose your name and type your personal code.',
     joinTitle: 'Join your class', joinDesc: 'Enter the class code your teacher shows on the screen to take the test together with your class.',
     teachTitle: 'Tools for maths teachers', noJs: 'These tools need JavaScript. Please turn it on in your browser.',
     home: 'Home',
@@ -147,6 +150,9 @@ const UI = {
       ['Nhìn lại', 'Đọc nhận xét: mức điểm, nguyên nhân mất điểm và việc cần làm tiếp. Rồi đánh dấu bài đã học xong.']
     ],
     loopTeach: 'Thầy cô dạy Toán? Tạo đề từ ngân hàng câu hỏi và phân tích điểm của lớp tại',
+    crTitle: 'Lớp học của tôi', crDesc: 'Tài khoản giáo viên miễn phí: lưu danh sách lớp, giao bài từ ngân hàng câu hỏi của Lemonmath theo khung giờ (ví dụ 20:00 đến 21:00), xem bài làm của từng em ngay khi các em nộp.',
+    crCtaH: 'Giao bài về nhà có hẹn giờ', crCtaP: 'Tạo tài khoản giáo viên miễn phí, nhập danh sách lớp, rồi giao bài tự mở và tự đóng đúng giờ thầy cô chọn. Mỗi em vào bằng mã cá nhân, nộp xong được chấm ngay, thầy cô thấy ngay câu nào cả lớp hay sai để chữa đầu giờ.', crCtaBtn: 'Mở Lớp học của tôi →',
+    hwTitle: 'Làm bài thầy cô giao', hwDesc: 'Mở bài thầy cô giao, chọn tên của bạn và nhập mã cá nhân.',
     joinTitle: 'Vào lớp làm bài', joinDesc: 'Nhập mã lớp thầy cô chiếu trên màn hình để làm bài kiểm tra cùng cả lớp.',
     teachTitle: 'Công cụ cho giáo viên Toán', noJs: 'Các công cụ này cần JavaScript. Bạn hãy bật JavaScript trong trình duyệt.',
     home: 'Trang chủ',

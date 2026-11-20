@@ -750,3 +750,58 @@ a.off-miss { opacity: .45; }
 @media (max-width: 420px) { .jn-st { flex-direction: column; align-items: stretch; } .jn-stb { justify-content: flex-end; } }
 .jn-stx .katex-display, .jn-opts .katex-display, .lv-opts .katex-display { display: inline-block; margin: 0 .2em; }
 .lv-qtext table, .jn-stem table { display: table; width: auto; border-collapse: collapse; margin: .5em 0; } .lv-qtext th, .lv-qtext td, .jn-stem th, .jn-stem td { border: 2px solid var(--line); padding: 4px 12px; text-align: center; }
+/* My classes (assets/classroom.js) and homework (assets/hw.js) */
+.cr-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 14px; margin: 0 0 1em; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); font-size: .95rem; }
+.cr-links a { font-weight: 700; }
+.cr-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: .4em 0 1em; }
+.cr-tab { padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); font-weight: 700; text-decoration: none; }
+.cr-tab.on { background: var(--lemon); color: var(--lemon-ink); }
+.cr-auth { max-width: 460px; } .cr-auth input[type="email"], .cr-auth input[type="password"] { font: 700 1.1rem var(--font); padding: 11px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); width: 100%; }
+.cr-agree { font-weight: 500; font-size: .92rem; line-height: 1.45; }
+.cr-code { margin: .3em 0; font: 800 2.1rem/1.2 var(--head); letter-spacing: .12em; font-variant-numeric: tabular-nums; }
+.cr-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; margin: .6em 0 1.2em; }
+.cr-card { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; border: 1px solid var(--line); border-left: 6px solid var(--lemon); border-radius: 14px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.cr-card b { font-size: 1.12rem; } .cr-card span { color: var(--muted); font-size: .9rem; font-weight: 600; }
+.cr-card.cr-open { border-left-color: #16A34A; } .cr-card.cr-soon { border-left-color: #2563EB; } .cr-card.cr-closed { border-left-color: var(--line); }
+.cr-h small { font-size: .62em; color: var(--muted); font-weight: 600; }
+.cr-lbl { display: block; margin: .8em 0 .3em; font-weight: 700; }
+.cr-scroll { overflow-x: auto; margin: .6em 0 1em; -webkit-overflow-scrolling: touch; }
+.cr-table { border-collapse: collapse; width: 100%; display: table; } .cr-table th, .cr-table td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: center; } .cr-table .l { text-align: left; }
+.cr-pin { font: 800 1.15rem var(--head); letter-spacing: .1em; font-variant-numeric: tabular-nums; }
+.cr-act { white-space: nowrap; text-align: right; }
+.cr-danger { color: #BE123C; border-color: #FECDD3; }
+.cr-presets { display: flex; flex-wrap: wrap; gap: 8px; } .cr-presets .btn { padding: 7px 14px; font-size: .92rem; }
+.cr-radio { display: flex; margin: .25em 0; }
+.tool input[type="datetime-local"] { font: 600 1rem var(--font); padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink); }
+#nw-tree { max-height: 340px; overflow: auto; }
+.cr-when { font-weight: 600; } .cr-badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: .88rem; font-weight: 800; background: var(--surface2); }
+.cr-badge.cr-open { background: #DCFCE7; color: #14532D; } .cr-badge.cr-soon { background: #DBEAFE; color: #1E3A8A; }
+.cr-ext { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; font-weight: 700; }
+.cr-share-grid { display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: center; }
+.cr-qr { margin: 0; text-align: center; } .cr-qr svg { width: 150px; height: 150px; } .cr-qr figcaption { max-width: 190px; font-size: .85rem; color: var(--muted); }
+.cr-linkline { word-break: break-all; }
+.cr-board { font-size: .95rem; } .cr-board th, .cr-board td { min-width: 28px; height: 30px; } .cr-board td.l, .cr-board th.l { max-width: 13em; }
+.cr-board th span.k-tf { border-bottom: 2px dashed currentColor; } .cr-board th span.k-sa { text-decoration: underline dotted; }
+.cr-board .cr-t { white-space: nowrap; color: var(--muted); background: none; font-weight: 600; }
+.cr-board td.cr-act { background: none; }
+.cr-s-done, .cr-s-auto { color: #15803D; } .cr-s-late { color: #B45309; } .cr-s-locked { color: #BE123C; } .cr-s-none { color: var(--muted); }
+.cr-fixq .jn-o i { margin-left: auto; }
+.cr-foot { margin-top: 2em; }
+.hw-head { margin: 0 0 1em; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); }
+.hw-head h2 { margin: .1em 0 .3em; } .hw-mode { margin: 0; font-size: .92rem; color: var(--muted); font-weight: 700; } .hw-meta { margin: .2em 0; font-size: .95rem; }
+.hw-who select { font: 700 1.15rem var(--font); padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); width: 100%; }
+#hw-c { font: 800 1.8rem var(--head); letter-spacing: .14em; text-transform: uppercase; }
+#hw-pin { font: 800 1.6rem var(--head); letter-spacing: .3em; }
+.hw-wait { font-weight: 800; font-size: 1.1rem; }
+.hw-note { margin: 0 0 12px; padding: 8px 12px; border-radius: 10px; background: var(--surface2); font-size: .93rem; }
+.hw-sv { font-size: .82rem; color: var(--muted); white-space: nowrap; }
+.hw-flag { padding: 8px 12px; border-radius: 10px; background: #FEF3C7; color: #78350F; font-weight: 700; }
+.hw-small { font-size: .9rem; color: var(--muted); }
+.hw-keyat { margin: 1em 0; padding: 12px 14px; border: 2px dashed var(--line); border-radius: 14px; }
+.cr-slips { display: none; }
+@media print {
+  html.cr-printing body > *:not(#cr-print-area) { display: none !important; }
+  html.cr-printing #cr-print-area { display: grid !important; grid-template-columns: 1fr 1fr; gap: 0; }
+  .cr-slip { padding: 5mm 6mm; border: 1px dashed #777; break-inside: avoid; font-size: 11pt; color: #000; }
+  .cr-slip p { margin: 1mm 0; } .cr-slip-h { font-size: 9pt; color: #444; } .cr-slip-pin { font-size: 18pt; letter-spacing: .15em; } .cr-slip-n { font-size: 8.5pt; color: #444; }
+}

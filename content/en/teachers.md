@@ -31,6 +31,8 @@ Lemonmath exists to help students study better on their own. It does not replace
 
 The tests you build and the scores you type into the analyser are processed on your own device only. A live class test is the exception: the names students enter and their answers are held on a server while the class is open, and deleted when you press Close class. You may ask students to enter a nickname or a number.
 
+For My classes (homework with a time window), the class list, each student’s personal code and their answers are kept on Lemonmath’s server to mark the work and report to you; only your account can see them. Answers are deleted 30 days after an assignment closes. When you delete a class or your whole account, everything that belongs to it is deleted too. The homework page shows students only their number and given name, never full names.
+
 ## Feedback
 
 Need another tool, or spotted a question in the bank that is not right? [Tell us here](https://github.com/lemonmathcom/lemonmath/issues).

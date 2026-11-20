@@ -31,6 +31,8 @@ Lemonmath được làm ra để giúp học sinh tự học tốt hơn, không 
 
 Đề thầy cô tạo và điểm thầy cô nhập vào công cụ phân tích chỉ được xử lí ngay trên máy của thầy cô. Riêng khi cho cả lớp làm trực tiếp, tên học sinh nhập và câu trả lời được giữ tạm trên máy chủ trong lúc lớp đang mở, và bị xoá khi thầy cô bấm Đóng lớp. Thầy cô có thể dặn học sinh chỉ nhập tên gọi hoặc số thứ tự.
 
+Với Lớp học của tôi (giao bài về nhà có hẹn giờ), danh sách lớp, mã cá nhân của từng em và bài làm được lưu trên máy chủ của Lemonmath để chấm bài và báo kết quả cho thầy cô; chỉ tài khoản của thầy cô xem được. Bài làm tự xoá 30 ngày sau khi bài đóng. Thầy cô xoá lớp hay xoá cả tài khoản bất cứ lúc nào thì mọi dữ liệu đi kèm cũng bị xoá theo. Trang làm bài chỉ hiện số thứ tự và tên gọi của các em, không hiện họ tên đầy đủ.
+
 ## Góp ý
 
 Thầy cô cần thêm công cụ nào, hoặc thấy một câu hỏi trong ngân hàng chưa ổn? Hãy [nhắn cho chúng tôi tại đây](https://github.com/lemonmathcom/lemonmath/issues).

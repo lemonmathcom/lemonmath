@@ -491,7 +491,7 @@
       }
       var lines = rows.map(function (r, i) {
         var who = r.name || (T.student + ' ' + (i + 1));
-        return who + ' (' + fmt(r.raw) + (max !== 10 ? '/' + fmt(max) : '') + ' ' + T.pts + ', ' + names[r.k] + '): ' + C[r.k].replace(/\{N\}/g, who.split(' ')[0]);
+        return who + ' (' + fmt(r.raw) + (max !== 10 ? '/' + fmt(max) : '') + ' ' + T.pts + ', ' + names[r.k] + '): ' + C[r.k].replace(/\{N\}/g, vi ? who.split(' ').pop() : who.split(' ')[0]);   // Vietnamese names end with the given name
       });
       var top = Math.max.apply(null, cnt);
       res.innerHTML = '<div class="sc-stats">' + stat(T.n, n) + stat(T.mean, fmt(mean)) + stat(T.med, fmt(med)) + stat(T.hi, fmt(xs[n - 1])) + stat(T.lo, fmt(xs[0])) + stat(T.pass, pct(pass) + '%') + stat(T.good, pct(good) + '%') + '</div>' +
@@ -503,5 +503,10 @@
       if (!navigator.clipboard) cp.hidden = true;
       else cp.addEventListener('click', function () { navigator.clipboard.writeText(lines.join('\n')).then(function () { cp.textContent = '✓ ' + T.copied; }, function () {}); });
     });
+    /* scores sent here from "My classes" (assets/classroom.js): fill them in and run */
+    try {
+      var pre = JSON.parse(sessionStorage.getItem('lm-sc-prefill') || 'null');
+      if (pre && pre.rows && pre.rows.length) { sessionStorage.removeItem('lm-sc-prefill'); $('#sc-in').value = pre.rows.join('\n'); $('#sc-max').value = 10; $('#sc-run').click(); setTimeout(function () { sc.scrollIntoView({ block: 'start' }); }, 80); }
+    } catch (e) {}
   })();
 })();

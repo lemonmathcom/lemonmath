@@ -1,0 +1,12 @@
+{
+  "name": "lemonmath-api",
+  "private": true,
+  "description": "Lemonmath classroom API: teacher accounts, classes, homework with a time window (Cloudflare Worker + D1)",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "test": "node test/api.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.165.0"
+  }
+}

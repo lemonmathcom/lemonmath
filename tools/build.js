@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -160,6 +160,11 @@ function offBox(lang, d, g, ch) {
 const joinDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].join);
 /* Live class test: address of the realtime database (Firebase Realtime Database, used through its REST API). Empty = the tool stays hidden. */
 const LIVE_DB = String(process.env.LIVE_DB || (cfg.site.live && cfg.site.live.firebase) || '').replace(/\/+$/, '');
+/* My classes and homework with a time window: address of the classroom API (api/, a Cloudflare Worker). Empty = both pages stay out of the site.
+ * The two pages sit at the same depth as the teachers' corner, so the question bank's relative links work the same there. */
+const API_URL = String(process.env.API_URL || cfg.site.api || '').replace(/\/+$/, '');
+const classroomDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].classroom);
+const homeworkDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].homework);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -689,6 +694,7 @@ function teachersPage(lang, page) {
   const total = writeBank(lang);
   const body = '<article class="lesson about teach"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' +
     '<p class="lead">' + esc(page.meta.description) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    (API_URL ? '<section class="tool cr-cta"><h2>' + esc(T.crCtaH) + '</h2><p>' + esc(T.crCtaP) + '</p><p><a class="btn" href="' + relDir(d, classroomDir(lang)) + '">' + esc(T.crCtaBtn) + '</a></p></section>\n' : '') +
     '<section id="tq-app" class="tool" data-bank="bank/" data-total="' + total + '" data-site="' + esc(site.name) + '"' +
     (LIVE_DB ? ' data-live="' + esc(LIVE_DB) + '" data-join="' + esc(abs(joinDir(lang)).replace(/^https?:\/\//, '').replace(/\/$/, '')) + '"' : '') + ' hidden></section>\n' +
     (LIVE_DB ? '<template id="lv-qr">' + qrSvg(abs(joinDir(lang))) + '</template>\n' : '') +
@@ -706,11 +712,31 @@ function joinPage(lang) {
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.joinTitle + ' | ' + site.name, description: T.joinDesc, body, math: true, noindex: true, scripts: ['assets/katex/katex.min.js', 'assets/live.js'] }), null, true);
 }
 
+/* My classes: teacher accounts, classes, homework with a time window, results (assets/classroom.js). */
+function classroomPage(lang) {
+  const T = UI[lang], d = classroomDir(lang), alt = classroomDir(other(lang));
+  const body = '<article class="lesson about teach"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a> › <a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a></nav>\n<h1>' + esc(T.crTitle) + '</h1>\n' +
+    '<p class="lead">' + esc(T.crDesc) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="cr-app" data-api="' + esc(API_URL) + '" data-bank="' + relDir(d, teachersDir(lang)) + 'bank/" data-hw="' + esc(abs(homeworkDir(lang))) + '" data-sc="' + relDir(d, teachersDir(lang)) + '" hidden></div>\n' +
+    '<template id="cr-qr">' + qrSvg(abs(homeworkDir(lang))) + '</template></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.crTitle + ' | ' + site.name, description: T.crDesc, body, math: true, scripts: ['assets/katex/katex.min.js', 'assets/classroom.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.teachers, url: abs(teachersDir(lang)) }, { name: T.crTitle, url: abs(d) }])] }), null);
+}
+
+/* Homework set in My classes, done on the students' phones (assets/hw.js). */
+function homeworkPage(lang) {
+  const T = UI[lang], d = homeworkDir(lang), alt = homeworkDir(other(lang));
+  const body = '<article class="lesson about join"><h1>' + esc(T.hwTitle) + '</h1>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="hw-app" data-api="' + esc(API_URL) + '" data-home="' + relDir(d, homeDir(lang)) + '" hidden></div></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.hwTitle + ' | ' + site.name, description: T.hwDesc, body, math: true, noindex: true, scripts: ['assets/katex/katex.min.js', 'assets/hw.js'] }), null, true);
+}
+
 function searchIndex(lang) {
   const T = UI[lang];
   const rows = [];
   rows.push({ t: T.examsNav, s: T.examsHome, u: examsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   rows.push({ t: T.teachTitle, s: T.teachers, u: teachersDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  if (API_URL) rows.push({ t: T.crTitle, s: T.teachers, u: classroomDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
     rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
@@ -934,6 +960,7 @@ function main() {
     if (week[lang]) aboutPage(lang, week[lang], weekDir);
     if (teach[lang]) teachersPage(lang, teach[lang]);
     if (teach[lang] && LIVE_DB) joinPage(lang);
+    if (teach[lang] && API_URL) { classroomPage(lang); homeworkPage(lang); }
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });

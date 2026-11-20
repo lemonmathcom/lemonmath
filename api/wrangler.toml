@@ -1,0 +1,21 @@
+# Lemonmath classroom API. Deployed by .github/workflows/api.yml (see giao-viec/LOP-HOC.md).
+name = "lemonmath-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "https://lemonmath.com,https://www.lemonmath.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "lemonmath"
+database_id = "__D1_ID__"
+migrations_dir = "migrations"
+
+# 19:17 UTC = 02:17 in Vietnam: remove assignments 30 days after they close, and expired sessions
+[triggers]
+crons = ["17 19 * * *"]
+
+[observability]
+enabled = true
