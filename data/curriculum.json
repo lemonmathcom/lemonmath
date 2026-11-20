@@ -4,7 +4,8 @@
     "url": "https://lemonmath.com",
     "analytics": { "cloudflare": "6a74655cf2b249db96db252439a4f446" },
     "verify": { "google": "uasMEvj5Mx2JKhXh_ibckxpB1MWIHRTAvvNPT0LKwj0" },
-    "live": { "firebase": "https://lemonmathlive-default-rtdb.asia-southeast1.firebasedatabase.app" }
+    "live": { "firebase": "https://lemonmathlive-default-rtdb.asia-southeast1.firebasedatabase.app" },
+    "api": "https://lemonmath-api.chanh101.workers.dev"
   },
   "grades": [
     {
