@@ -15,6 +15,11 @@
  *   GET  /v1/classes/:id/assignments              POST /v1/assignments
  *   GET|PATCH|DELETE /v1/assignments/:code        POST /v1/assignments/:code/reset
  *   GET  /v1/hw/:code      POST /v1/hw/:code/start   PUT /v1/hw/:code/save   POST /v1/hw/:code/submit   POST /v1/hw/:code/result
+ *   GET  /v1/info (is e-mail switched on?)   POST /v1/auth/reset-request | /v1/auth/reset (6-digit code by e-mail)   POST /v1/me/recovery (new recovery code)
+ * Two kinds of assignment: homework (mode "home", any window, time limit optional) and tests (mode "test": a start time,
+ * a time limit, a few minutes to come in late, personal code and shuffling always on, answers shown after closing).
+ * E-mail (welcome mail with the recovery code, password reset codes) goes through Resend when the secret RESEND_API_KEY
+ * is set; without it everything else works and the recovery code is the only way back in.
  * A daily cron removes assignments 30 days after they close, with their answers, and expired sessions.
  */
 
@@ -24,6 +29,8 @@ const SLACK = 5000;                // clock and network slack at the deadline
 const SESSION_DAYS = 30, KEEP_DAYS = 30, MAX_PIN_FAILS = 8, MAX_LOGIN_FAILS = 8;
 const MAXP = { mc: 0.25, tf: 1, sa: 0.5 }, TFP = [0, 0.1, 0.25, 0.5, 1];
 const CODE_ABC = '23456789ABCDEFGHJKMNPQRSTUVWXYZ';
+const MAIL_PER_DAY = 90;           // Resend's free plan allows 100 e-mails a day
+const RESET_MIN = 15, RESET_TRIES = 5, RESET_PER_HOUR = 3;
 
 class HttpError extends Error {
   constructor(status, code, extra) { super(code); this.status = status; this.code = code; this.extra = extra || {}; }
@@ -31,12 +38,12 @@ class HttpError extends Error {
 const fail = (status, code, extra) => { throw new HttpError(status, code, extra); };
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const cors = corsHeaders(env, req.headers.get('origin') || '');
     if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors });
     let res;
     try {
-      res = await route(req, env);
+      res = await route(req, env, ctx);
     } catch (e) {
       if (e instanceof HttpError) res = json(Object.assign({ error: e.code, now: Date.now() }, e.extra), e.status);
       else { console.error(e && e.stack ? e.stack : String(e)); res = json({ error: 'server' }, 500); }
@@ -67,16 +74,20 @@ async function readBody(req, limit) {
   fail(400, 'bad_json');
 }
 
-async function route(req, env) {
+async function route(req, env, ctx) {
   const url = new URL(req.url), p = url.pathname.replace(/\/+$/, '').split('/').slice(1), m = req.method;
   if (p[0] !== 'v1') return !p.length ? json({ ok: true, service: 'lemonmath-api' }) : fail(404, 'not_found');
   const [, a, b, c] = p;
   if (a === 'auth') {
-    if (m === 'POST' && b === 'signup') return signup(req, env);
+    if (m === 'POST' && b === 'signup') return signup(req, env, ctx);
+    if (m === 'POST' && b === 'reset-request') return resetRequest(req, env, ctx);
+    if (m === 'POST' && b === 'reset') return resetWithCode(req, env);
     if (m === 'POST' && b === 'login') return login(req, env);
     if (m === 'POST' && b === 'recover') return recover(req, env);
     if (m === 'POST' && b === 'logout') return logout(req, env);
   }
+  if (a === 'info' && !b && m === 'GET') return json({ email: !!env.RESEND_API_KEY, now: Date.now() });
+  if (a === 'me' && b === 'recovery' && m === 'POST') return newRecovery(req, env, ctx);
   if (a === 'me' && !b) {
     if (m === 'GET') { const t = await auth(req, env); return json({ teacher: pubTeacher(t), now: Date.now() }); }
     if (m === 'DELETE') return deleteMe(req, env);
@@ -154,7 +165,7 @@ async function auth(req, env) {
   return row;
 }
 
-async function signup(req, env) {
+async function signup(req, env, ctx) {
   const b = await readBody(req), email = normEmail(b.email), name = clean(b.name, 80), school = clean(b.school, 120);
   if (!isEmail(email)) fail(400, 'bad_email');
   if (!name) fail(400, 'bad_name');
@@ -163,8 +174,9 @@ async function signup(req, env) {
   const id = randId(16), rc = randCode(12), now = Date.now();
   await env.DB.prepare('INSERT INTO teachers (id, email, name, school, pw, rc, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
     .bind(id, email, name, school, await hmac(env, 'pw:' + email + ':' + b.pw), await hmac(env, 'rc:' + email + ':' + rc), now).run();
-  const token = await newSession(env, id);
-  return json({ token, teacher: { id, email, name, school }, recovery: rc.match(/.{4}/g).join('-'), now });
+  const token = await newSession(env, id), shown = rc.match(/.{4}/g).join('-');
+  const mailed = await mailLater(env, ctx, 'welcome', email, mailWelcome(name, shown, b.lang === 'en'));
+  return json({ token, teacher: { id, email, name, school }, recovery: shown, mailed, now });
 }
 
 async function checkLock(t) { if (t && t.locked_until > Date.now()) fail(429, 'locked', { until: t.locked_until }); }
@@ -336,14 +348,17 @@ function window_(b, a) {
 async function createAssignment(req, env) {
   const t = await auth(req, env), b = await readBody(req, 1.8e6), c = await ownClass(env, t, String(b.class_id || ''));
   const items = cleanItems(b.items), w = window_(b, null), title = clean(b.title, 120) || 'Bài tập';
-  const mode = ['home', 'class2', 'free'].includes(b.mode) ? b.mode : 'home';
-  const showKey = b.show_key === 'submit' ? 'submit' : 'close';
+  const mode = ['home', 'test', 'class2', 'free'].includes(b.mode) ? b.mode : 'home';
+  const test = mode === 'test';
+  if (test && !(num(b.duration_min, 0, 300, 0) >= 1)) fail(400, 'need_duration');
+  if (test && w.close - w.open < num(b.duration_min, 0, 300, 0) * MIN) fail(400, 'bad_time');
+  const showKey = test ? 'close' : b.show_key === 'submit' ? 'submit' : 'close';
   const recent = await env.DB.prepare('SELECT count(*) AS n FROM assignments WHERE teacher_id = ? AND created_at > ?').bind(t.id, Date.now() - DAY).first();
   if (recent.n >= 60) fail(429, 'too_many_today');
   let code = '';
   for (let k = 0; k < 6 && !code; k++) { const x = randCode(6); if (!(await env.DB.prepare('SELECT 1 FROM assignments WHERE id = ?').bind(x).first())) code = x; }
   if (!code) fail(500, 'no_code');
-  const a = { id: code, class_id: c.id, title, lang: b.lang === 'en' ? 'en' : 'vi', bank: clean(b.bank, 20), mode, open_at: w.open, close_at: w.close, duration_min: num(b.duration_min, 0, 300, 0), require_pin: b.require_pin === false ? 0 : 1, show_key: showKey, shuffle: b.shuffle === false ? 0 : 1, n: items.length, created_at: Date.now() };
+  const a = { id: code, class_id: c.id, title, lang: b.lang === 'en' ? 'en' : 'vi', bank: clean(b.bank, 20), mode, open_at: w.open, close_at: w.close, duration_min: num(b.duration_min, 0, 300, 0), require_pin: test || b.require_pin !== false ? 1 : 0, show_key: showKey, shuffle: test || b.shuffle !== false ? 1 : 0, n: items.length, created_at: Date.now() };
   await env.DB.prepare('INSERT INTO assignments (id, teacher_id, class_id, title, lang, bank, mode, open_at, close_at, duration_min, require_pin, show_key, shuffle, n, items, created_at, purge_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(a.id, t.id, a.class_id, a.title, a.lang, a.bank, a.mode, a.open_at, a.close_at, a.duration_min, a.require_pin, a.show_key, a.shuffle, a.n, JSON.stringify(items), a.created_at, a.close_at + KEEP_DAYS * DAY).run();
   return json({ assignment: pubAssignment(a), now: Date.now() });
@@ -359,12 +374,12 @@ async function getAssignment(req, env, code) {
   const t = await auth(req, env), a = await ownAssignment(env, t, code, true), items = JSON.parse(a.items);
   await finalizeDue(env, a, items);
   const students = await studentsOf(env, a.class_id, true);
-  const r = await env.DB.prepare('SELECT student_id, answers, pin_fails, started_at, saved_at, submitted_at, auto, late, score, max FROM attempts WHERE assignment_id = ?').bind(code).all();
+  const r = await env.DB.prepare('SELECT student_id, answers, pin_fails, started_at, saved_at, submitted_at, auto, late, score, max, away FROM attempts WHERE assignment_id = ?').bind(code).all();
   const cls = await env.DB.prepare('SELECT name, grade FROM classes WHERE id = ?').bind(a.class_id).first();
   return json({
     assignment: pubAssignment(a), class: cls, items, now: Date.now(),
     students: students.map((s) => ({ id: s.id, no: s.no, name: s.name, active: s.active })),
-    attempts: r.results.map((x) => ({ student_id: x.student_id, answers: JSON.parse(x.answers || '{}'), pin_locked: x.pin_fails >= MAX_PIN_FAILS, started_at: x.started_at, saved_at: x.saved_at, submitted_at: x.submitted_at, auto: !!x.auto, late: !!x.late, score: x.score, max: x.max }))
+    attempts: r.results.map((x) => ({ student_id: x.student_id, answers: JSON.parse(x.answers || '{}'), pin_locked: x.pin_fails >= MAX_PIN_FAILS, started_at: x.started_at, saved_at: x.saved_at, submitted_at: x.submitted_at, auto: !!x.auto, late: !!x.late, score: x.score, max: x.max, away: x.away || 0 }))
   });
 }
 
@@ -541,6 +556,8 @@ async function hwStart(req, env, code) {
     } else if (att && att.token) fail(409, 'taken');
     if (now < a.open_at) fail(425, 'not_open', { open_at: a.open_at });
     if (now >= a.close_at && !(att && att.started_at)) fail(410, 'closed', { close_at: a.close_at });
+    // a test: everyone gets the full time, so nobody may start after the last start time (close - duration)
+    if (a.mode === 'test' && a.duration_min && !(att && att.started_at) && now > a.close_at - a.duration_min * MIN + SLACK) fail(410, 'late_start', { last_start: a.close_at - a.duration_min * MIN });
     token = hex(randBytes(32));
     const th = await sha256(token);
     if (att) {
@@ -581,12 +598,13 @@ async function hwSave(req, env, code, submit) {
   const frame = JSON.parse(att.frame);
   const items = submit ? JSON.parse(a.items || (await assignmentByCode(env, code, true)).items) : null;
   const canon = toCanon(frame, items, b.answers);
+  const away = a.mode === 'test' ? Math.max(att.away || 0, num(b.away, 0, 999, 0)) : 0;   // times the page was left during a test
   if (!submit) {
-    await env.DB.prepare('UPDATE attempts SET answers = ?, saved_at = ? WHERE id = ? AND submitted_at IS NULL').bind(JSON.stringify(canon), now, att.id).run();
+    await env.DB.prepare('UPDATE attempts SET answers = ?, saved_at = ?, away = ? WHERE id = ? AND submitted_at IS NULL').bind(JSON.stringify(canon), now, away, att.id).run();
     return json({ ok: true, now, deadline });
   }
   const sc = mark(items, canon);
-  await env.DB.prepare('UPDATE attempts SET answers = ?, saved_at = ?, submitted_at = ?, late = ?, score = ?, max = ? WHERE id = ? AND submitted_at IS NULL').bind(JSON.stringify(canon), now, now, late, sc.score, sc.max, att.id).run();
+  await env.DB.prepare('UPDATE attempts SET answers = ?, saved_at = ?, submitted_at = ?, late = ?, score = ?, max = ?, away = ? WHERE id = ? AND submitted_at IS NULL').bind(JSON.stringify(canon), now, now, late, sc.score, sc.max, away, att.id).run();
   const done = Object.assign({}, att, { answers: JSON.stringify(canon), submitted_at: now, late, score: sc.score, max: sc.max });
   return json({ ok: true, now, deadline, result: resultOf(a, items, frame, done, now) });
 }
@@ -603,13 +621,105 @@ async function hwResult(req, env, code) {
   return json({ result: resultOf(a, items, frame, att, now), now, deadline });
 }
 
+/* ------------------------------------------------------------------ e-mail (Resend) */
+const escH = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function mailWelcome(name, rc, en) {
+  return en ? {
+    subject: 'Welcome to Lemonmath: your recovery code',
+    text: 'Hello ' + name + ',\n\nYour Lemonmath teacher account is ready.\n\nRecovery code: ' + rc + '\n\nKeep this e-mail. If you forget your password, open https://lemonmath.com/classroom/#/recover and use this code (or ask for a reset code by e-mail).\n\nLemonmath'
+  } : {
+    subject: 'Chào mừng thầy cô đến với Lemonmath: mã khôi phục tài khoản',
+    text: 'Kính chào ' + name + ',\n\nTài khoản giáo viên Lemonmath của thầy cô đã sẵn sàng.\n\nMã khôi phục: ' + rc + '\n\nThầy cô giữ lại email này. Khi quên mật khẩu, mở https://lemonmath.com/vi/lop-hoc/#/khoi-phuc và dùng mã này (hoặc nhận mã đặt lại qua email).\n\nLemonmath'
+  };
+}
+function mailCode(code, en) {
+  return en ? {
+    subject: 'Lemonmath password reset code: ' + code,
+    text: 'Your code to set a new Lemonmath password: ' + code + '\n\nIt works for ' + RESET_MIN + ' minutes. If you did not ask for it, ignore this e-mail; your password has not changed.\n\nLemonmath'
+  } : {
+    subject: 'Mã đặt lại mật khẩu Lemonmath: ' + code,
+    text: 'Mã để đặt mật khẩu mới cho tài khoản Lemonmath của thầy cô: ' + code + '\n\nMã dùng được trong ' + RESET_MIN + ' phút. Nếu thầy cô không yêu cầu, hãy bỏ qua email này; mật khẩu vẫn giữ nguyên.\n\nLemonmath'
+  };
+}
+function mailRecovery(name, rc, en) {
+  return en ? {
+    subject: 'Your new Lemonmath recovery code',
+    text: 'Hello ' + name + ',\n\nYou made a new recovery code. The old one no longer works.\n\nRecovery code: ' + rc + '\n\nLemonmath'
+  } : {
+    subject: 'Mã khôi phục mới của tài khoản Lemonmath',
+    text: 'Kính chào ' + name + ',\n\nThầy cô vừa tạo mã khôi phục mới; mã cũ không dùng được nữa.\n\nMã khôi phục: ' + rc + '\n\nLemonmath'
+  };
+}
+/* Counts against the daily cap first; returns true when the mail was handed to Resend (sent in the background). */
+async function mailLater(env, ctx, kind, to, msg) {
+  if (!env.RESEND_API_KEY) return false;
+  const now = Date.now(), day = await env.DB.prepare('SELECT count(*) AS n FROM mail_log WHERE at > ?').bind(now - DAY).first();
+  if (day.n >= MAIL_PER_DAY) return false;
+  await env.DB.prepare('INSERT INTO mail_log (kind, at) VALUES (?, ?)').bind(kind, now).run();
+  const send = fetch('https://api.resend.com/emails', {
+    method: 'POST', headers: { Authorization: 'Bearer ' + env.RESEND_API_KEY, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ from: env.MAIL_FROM || 'Lemonmath <khong-tra-loi@lemonmath.com>', to: [to], subject: msg.subject, text: msg.text, html: '<div style="font:16px/1.6 sans-serif">' + escH(msg.text).replace(/\n/g, '<br>') + '</div>' })
+  }).then((r) => { if (!r.ok) return r.text().then((t) => console.error('resend ' + r.status + ' ' + t.slice(0, 300))); }).catch((e) => console.error('resend ' + e));
+  if (ctx && ctx.waitUntil) ctx.waitUntil(send); else await send;
+  return true;
+}
+
+/* Forgot password, by e-mail: always answers the same, whether or not the address has an account. */
+async function resetRequest(req, env, ctx) {
+  const b = await readBody(req), email = normEmail(b.email), now = Date.now();
+  if (!env.RESEND_API_KEY) fail(503, 'email_off');
+  if (!isEmail(email)) fail(400, 'bad_email');
+  const t = await env.DB.prepare('SELECT id FROM teachers WHERE email = ?').bind(email).first();
+  if (t) {
+    const r = await env.DB.prepare('SELECT * FROM resets WHERE email = ?').bind(email).first();
+    const inHour = r && r.window_start > now - 3600e3 ? r.sent : 0;
+    if (inHour < RESET_PER_HOUR) {
+      const code = String(randInt(1000000)).padStart(6, '0');
+      await env.DB.prepare('INSERT INTO resets (email, code, expires_at, tries, sent, window_start) VALUES (?, ?, ?, 0, 1, ?) ON CONFLICT (email) DO UPDATE SET code = excluded.code, expires_at = excluded.expires_at, tries = 0, sent = CASE WHEN resets.window_start > ? THEN resets.sent + 1 ELSE 1 END, window_start = CASE WHEN resets.window_start > ? THEN resets.window_start ELSE excluded.window_start END')
+        .bind(email, await hmac(env, 'reset:' + email + ':' + code), now + RESET_MIN * MIN, now, now - 3600e3, now - 3600e3).run();
+      await mailLater(env, ctx, 'reset', email, mailCode(code, b.lang === 'en'));
+      if (env.MAIL_DEBUG === '1') return json({ ok: true, minutes: RESET_MIN, now, debug_code: code });   // local tests only (.dev.vars)
+    }
+  }
+  return json({ ok: true, minutes: RESET_MIN, now });
+}
+
+async function resetWithCode(req, env) {
+  const b = await readBody(req), email = normEmail(b.email), code = String(b.code || '').replace(/\D/g, ''), now = Date.now();
+  if (!isEmail(email) || code.length !== 6 || !isPwHash(b.pw)) fail(400, 'bad_code');
+  const r = await env.DB.prepare('SELECT * FROM resets WHERE email = ?').bind(email).first();
+  if (!r || r.expires_at < now || r.tries >= RESET_TRIES) fail(400, 'bad_code');
+  if (!same(await hmac(env, 'reset:' + email + ':' + code), r.code)) {
+    await env.DB.prepare('UPDATE resets SET tries = tries + 1 WHERE email = ?').bind(email).run();
+    fail(400, 'bad_code', { left: Math.max(0, RESET_TRIES - r.tries - 1) });
+  }
+  const t = await env.DB.prepare('SELECT * FROM teachers WHERE email = ?').bind(email).first();
+  if (!t) fail(400, 'bad_code');
+  await env.DB.batch([
+    env.DB.prepare('UPDATE teachers SET pw = ?, fails = 0, locked_until = 0 WHERE id = ?').bind(await hmac(env, 'pw:' + email + ':' + b.pw), t.id),
+    env.DB.prepare('DELETE FROM sessions WHERE teacher_id = ?').bind(t.id),
+    env.DB.prepare('DELETE FROM resets WHERE email = ?').bind(email)
+  ]);
+  return json({ token: await newSession(env, t.id), teacher: pubTeacher(t), now: Date.now() });
+}
+
+/* A new recovery code for a teacher who is logged in (shown once, and e-mailed when e-mail is on). */
+async function newRecovery(req, env, ctx) {
+  const t = await auth(req, env), b = await readBody(req), rc = randCode(12), shown = rc.match(/.{4}/g).join('-');
+  await env.DB.prepare('UPDATE teachers SET rc = ? WHERE id = ?').bind(await hmac(env, 'rc:' + t.email + ':' + rc), t.id).run();
+  const mailed = await mailLater(env, ctx, 'recovery', t.email, mailRecovery(t.name, shown, b.lang === 'en'));
+  return json({ recovery: shown, mailed, now: Date.now() });
+}
+
 /* ------------------------------------------------------------------ daily cleanup */
 async function cleanup(env) {
   const now = Date.now();
   await env.DB.batch([
     env.DB.prepare('DELETE FROM attempts WHERE assignment_id IN (SELECT id FROM assignments WHERE purge_at < ?)').bind(now),
     env.DB.prepare('DELETE FROM assignments WHERE purge_at < ?').bind(now),
-    env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now)
+    env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now),
+    env.DB.prepare('DELETE FROM resets WHERE expires_at < ?').bind(now - DAY),
+    env.DB.prepare('DELETE FROM mail_log WHERE at < ?').bind(now - 2 * DAY)
   ]);
 }
 

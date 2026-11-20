@@ -43,7 +43,10 @@
     err: 'Chưa kết nối được. Bạn kiểm tra mạng rồi thử lại nhé.', retry: 'Thử lại',
     by: function (t, c) { return 'Lớp ' + c + ' · ' + t; }, opens: 'Mở lúc', closes: 'Đóng lúc', dur: function (m) { return 'Thời gian làm: ' + m + ' phút kể từ lúc bấm bắt đầu'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' câu nhiều lựa chọn'); if (p.tf) a.push(p.tf + ' câu đúng sai'); if (p.sa) a.push(p.sa + ' câu trả lời ngắn'); return n + ' câu: ' + a.join(', '); },
-    modes: { home: 'Bài tập về nhà', class2: 'Bài luyện tập buổi 2', free: 'Luyện tập tự nguyện cùng bố mẹ' },
+    modes: { home: 'Bài tập về nhà', test: 'Bài kiểm tra', class2: 'Bài luyện tập buổi 2', free: 'Luyện tập tự nguyện cùng bố mẹ' },
+    tStarts: 'Bắt đầu lúc', tLast: 'Vào muộn nhất lúc', tDur: function (m) { return 'Thời gian làm bài: ' + m + ' phút. Đồng hồ chạy từ lúc bấm bắt đầu và không dừng lại khi thoát ra.'; },
+    tStart: 'Bắt đầu làm bài kiểm tra', tSure: function (m) { return 'Bắt đầu bài kiểm tra? Bạn có ' + m + ' phút, đồng hồ chạy liên tục kể từ bây giờ.'; },
+    lateStart: function (t) { return 'Đã quá giờ vào làm bài kiểm tra (muộn nhất lúc ' + t + '). Bạn báo thầy cô nhé.'; },
     who: 'Bạn là ai?', pick: 'Chọn số thứ tự và tên của bạn…', pin: 'Mã cá nhân (4 chữ số thầy cô phát)', start: 'Bắt đầu làm bài', cont: 'Làm tiếp',
     needWho: 'Bạn chọn tên của mình trong danh sách nhé.', needPin: 'Bạn nhập đủ 4 chữ số của mã cá nhân nhé.',
     badPin: function (n) { return 'Mã cá nhân chưa đúng. Bạn còn ' + n + ' lần thử.'; }, pinLocked: 'Bạn đã nhập sai mã nhiều lần nên tên này tạm khóa. Bạn nhờ thầy cô mở lại nhé.',
@@ -59,6 +62,13 @@
     tooLate: 'Bài đã đóng trước khi máy gửi được những câu cuối. Những câu đã lưu trước giờ đóng vẫn được chấm; kết quả sẽ hiện ở đây sau ít phút. Nếu cần, bạn báo thầy cô nhé.',
     result: 'Kết quả của bạn', auto: 'Hết giờ nên bài được tự nộp với những câu bạn đã làm.', late: 'Bài đến muộn vì mất mạng, đã được đánh dấu để thầy cô xem xét.',
     keyAt: function (t) { return 'Đáp án và lời giải sẽ hiện sau khi bài đóng (' + t + '), để các bạn làm sau không thấy trước.'; }, showKey: 'Xem đáp án và lời giải', notYet: 'Chưa tới giờ xem đáp án.',
+    tNote: 'Bài kiểm tra: làm nháp ra giấy, bài chỉ nộp một lần. Đáp án và lời giải hiện sau khi bài đóng. Câu trả lời được lưu ngay trên máy, mất mạng vẫn làm tiếp được.',
+    tAway: 'Trong lúc làm, mỗi lần bạn rời khỏi trang (mở ứng dụng khác, chuyển thẻ, tải lại trang) đều được ghi lại để thầy cô biết.',
+    awayNow: function (n) { return 'Bạn vừa rời trang (lần ' + n + '). Thầy cô sẽ thấy số lần này.'; },
+    hwNext: 'Bài tập về nhà để luyện tập: điểm lần nộp đầu được ghi cho thầy cô. Đọc kĩ lời giải những câu sai, rồi luyện lại cho chắc.',
+    tNext: 'Đây là bài kiểm tra: điểm được ghi lại, không làm lại được.',
+    again: 'Luyện lại (không tính điểm)', pNote: 'Luyện lại: làm lại các câu, bấm Kiểm tra để xem đúng sai. Lần này không gửi đi và không tính điểm.', pCheck: 'Kiểm tra', pBack: 'Về kết quả',
+    pScore: function (g, n) { return 'Lần luyện này đúng ' + g + '/' + n + ' câu.'; },
     review: 'Xem lại từng câu', yours: 'Bạn chọn', none: 'chưa trả lời', key: 'Đáp án đúng', switchMe: 'Không phải bạn? Đổi tên khác', home: 'Về trang chủ Lemonmath',
     now: 'đang mở', soon: 'sắp mở', over: 'đã đóng'
   } : {
@@ -66,7 +76,10 @@
     err: 'Could not connect. Check your connection and try again.', retry: 'Try again',
     by: function (t, c) { return 'Class ' + c + ' · ' + t; }, opens: 'Opens', closes: 'Closes', dur: function (m) { return 'Time allowed: ' + m + ' minutes from when you press start'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' multiple choice'); if (p.tf) a.push(p.tf + ' true/false'); if (p.sa) a.push(p.sa + ' short answer'); return n + ' questions: ' + a.join(', '); },
-    modes: { home: 'Homework', class2: 'Practice in class', free: 'Optional practice with your parents' },
+    modes: { home: 'Homework', test: 'Test', class2: 'Practice in class', free: 'Optional practice with your parents' },
+    tStarts: 'Starts at', tLast: 'Start by', tDur: function (m) { return 'Time allowed: ' + m + ' minutes. The clock runs from when you press Start and does not stop if you leave the page.'; },
+    tStart: 'Start the test', tSure: function (m) { return 'Start the test? You have ' + m + ' minutes, and the clock runs from now.'; },
+    lateStart: function (t) { return 'It is too late to start this test (the last start was ' + t + '). Please tell your teacher.'; },
     who: 'Who are you?', pick: 'Choose your number and name…', pin: 'Personal code (the 4 digits your teacher gave you)', start: 'Start', cont: 'Carry on',
     needWho: 'Please choose your name from the list.', needPin: 'Please enter all 4 digits of your personal code.',
     badPin: function (n) { return 'That personal code is not right. ' + n + (n === 1 ? ' try' : ' tries') + ' left.'; }, pinLocked: 'Too many wrong codes, so this name is locked for now. Ask your teacher to unlock it.',
@@ -82,6 +95,13 @@
     tooLate: 'The assignment closed before this device could send your last answers. Everything saved before the closing time is still marked; your result will appear here in a few minutes. Tell your teacher if you need to.',
     result: 'Your result', auto: 'Time ran out, so your work was handed in with the questions you had answered.', late: 'Your work arrived late because of the connection and is marked for your teacher.',
     keyAt: function (t) { return 'The answers and explanations appear after the assignment closes (' + t + '), so classmates who work later cannot see them first.'; }, showKey: 'See answers and explanations', notYet: 'Not time for the answers yet.',
+    tNote: 'This is a test: work on scrap paper, you can hand in only once. Answers and explanations appear after it closes. Your answers are saved on this device, so you can carry on without a connection.',
+    tAway: 'While you work, each time you leave the page (another app, another tab, reloading) is recorded for your teacher.',
+    awayNow: function (n) { return 'You left the page (time ' + n + '). Your teacher will see this count.'; },
+    hwNext: 'Homework is for practice: the score of your first hand-in goes to your teacher. Read the explanations for the ones you missed, then practise again.',
+    tNext: 'This is a test: the score is recorded and it cannot be taken again.',
+    again: 'Practise again (not scored)', pNote: 'Practice: answer again, press Check to see what is right. Nothing is sent and nothing is scored.', pCheck: 'Check', pBack: 'Back to the result',
+    pScore: function (g, n) { return 'This time: ' + g + '/' + n + ' right.'; },
     review: 'Go through each question', yours: 'You chose', none: 'no answer', key: 'Correct answer', switchMe: 'Not you? Choose another name', home: 'Lemonmath home page',
     now: 'open', soon: 'opens soon', over: 'closed'
   };
@@ -140,19 +160,22 @@
 
   /* ------------------------------------------------------------ 2. who are you */
   function headHtml() {
-    var p = info.parts || {}, state = now() < info.open_at ? T.soon : now() < info.close_at ? T.now : T.over;
+    var p = info.parts || {}, state = now() < info.open_at ? T.soon : now() < info.close_at ? T.now : T.over, test = isTest();
     return '<div class="hw-head"><p class="hw-mode">' + esc(T.modes[info.mode] || '') + ' · <b>' + esc(state) + '</b></p><h2>' + esc(info.title) + '</h2>' +
       '<p class="hw-meta">' + esc(T.by(info.teacher, info.class_name)) + '</p>' +
-      '<p class="hw-meta">' + T.opens + ' <b>' + esc(fmtDT(info.open_at, true)) + '</b> · ' + T.closes + ' <b>' + esc(fmtDT(info.close_at, true)) + '</b></p>' +
-      (info.duration_min ? '<p class="hw-meta">' + esc(T.dur(info.duration_min)) + '</p>' : '') + '<p class="hw-meta">' + esc(T.nq(info.n, p)) + '</p></div>';
+      (test ? '<p class="hw-meta">' + T.tStarts + ' <b>' + esc(fmtDT(info.open_at, true)) + '</b> · ' + T.tLast + ' <b>' + esc(fmtDT(lastStart())) + '</b></p><p class="hw-meta hw-tdur">' + esc(T.tDur(info.duration_min)) + '</p><p class="hw-meta hw-tdur">' + esc(T.tAway) + '</p>'
+        : '<p class="hw-meta">' + T.opens + ' <b>' + esc(fmtDT(info.open_at, true)) + '</b> · ' + T.closes + ' <b>' + esc(fmtDT(info.close_at, true)) + '</b></p>' +
+      (info.duration_min ? '<p class="hw-meta">' + esc(T.dur(info.duration_min)) + '</p>' : '')) + '<p class="hw-meta">' + esc(T.nq(info.n, p)) + '</p></div>';
   }
+  function isTest() { return info && info.mode === 'test' && info.duration_min > 0; }
+  function lastStart() { return info.close_at - info.duration_min * 60e3; }
   function who(msg) {
     view = 'who'; stopAll();
     var closed = now() >= info.close_at;
     app.innerHTML = headHtml() + '<form class="jn-form hw-who" id="hw-who"><h3>' + T.who + '</h3><label class="sr" for="hw-sid">' + T.pick + '</label><select id="hw-sid"><option value="">' + T.pick + '</option>' +
       info.roster.map(function (s) { return '<option value="' + esc(s.id) + '"' + (st.sid === s.id ? ' selected' : '') + '>' + s.no + '. ' + esc(s.nick) + '</option>'; }).join('') + '</select>' +
       (info.require_pin ? '<label>' + T.pin + '<input id="hw-pin" inputmode="numeric" autocomplete="off" maxlength="4" pattern="[0-9]*"></label>' : '') +
-      '<button class="btn" type="submit" id="hw-go">' + T.start + '</button><p class="tool-msg" id="hw-msg" aria-live="polite">' + esc(msg) + '</p><p class="hw-wait" id="hw-wait"></p></form>';
+      '<button class="btn" type="submit" id="hw-go">' + (isTest() ? T.tStart : T.start) + '</button><p class="tool-msg" id="hw-msg" aria-live="polite">' + esc(msg) + '</p><p class="hw-wait" id="hw-wait"></p></form>';
     var go = $('#hw-go'), wait = $('#hw-wait');
     var gate = function () {
       var t = now();
@@ -165,6 +188,7 @@
       var sid = $('#hw-sid').value, pin = info.require_pin ? $('#hw-pin').value.replace(/\D/g, '') : '';
       if (!sid) { $('#hw-msg').textContent = T.needWho; return; }
       if (info.require_pin && pin.length !== 4) { $('#hw-msg').textContent = T.needPin; return; }
+      if (isTest() && !st.started && !window.confirm(T.tSure(info.duration_min))) return;
       st.sid = sid; keep(); go.disabled = true; $('#hw-msg').textContent = '…';
       start({ sid: sid, pin: pin });
     });
@@ -173,7 +197,7 @@
   function start(body) {
     api('POST', '/v1/hw/' + code + '/start', body).then(function (r) {
       if (r.status === 200) {
-        st.token = r.token || st.token; st.name = r.name; st.items = r.items; st.deadline = r.deadline; st.close_at = r.close_at; st.started_at = r.started_at; st.duration_min = r.duration_min;
+        st.token = r.token || st.token; st.name = r.name; st.items = r.items; st.deadline = r.deadline; st.started = true; st.close_at = r.close_at; st.started_at = r.started_at; st.duration_min = r.duration_min;
         // answers typed on this phone but not yet sent win over the copy on the server
         if (!st.dirty || !st.answers) st.answers = r.answers || {};
         if (r.submitted) { st.submitted = true; st.result = r.result; st.dirty = false; st.pending = false; }
@@ -188,6 +212,7 @@
       if (e === 'no_student') { st.sid = null; keep(); who(T.noStudent); return; }
       if (e === 'not_open') { info.open_at = r.open_at || info.open_at; who(T.notOpen); return; }
       if (e === 'closed') { who(T.closedNo); return; }
+      if (e === 'late_start') { who(T.lateStart(fmtDT(r.last_start || lastStart()))); return; }
       who(T.err);
     });
   }
@@ -215,22 +240,34 @@
   function work() {
     view = 'work'; stopAll();
     app.innerHTML = bar('<span id="jn-clock" class="jn-clock"></span><span id="jn-n" class="jn-n"></span><span id="hw-sv" class="hw-sv"></span>') +
-      '<p class="hw-note">' + T.note + '</p>' + items.map(function (it, i) {
-        var a = A[i] == null ? '' : String(A[i]), inner;
+      '<p class="hw-note">' + (isTest() ? T.tNote : T.note) + '</p>' + items.map(function (it, i) { return qHtml(it, i, A); }).join('') + '<p class="jn-end"><button type="button" class="btn" id="hw-submit">' + T.submit + '</button></p>';
+    drawMath(app);
+    var upd = function () { $('#jn-n').textContent = count() + '/' + items.length + ' ' + T.answered; };
+    upd();
+    bindAnswers(function () { upd(); st.answers = A; st.dirty = true; keep(); sv(''); clearTimeout(syncT); syncT = setTimeout(sync, 4000); });
+    $('#hw-submit').addEventListener('click', function () {
+      var left = items.length - count();
+      if (!window.confirm(left ? T.sure(left) : T.sure0)) return;
+      lockAndSend();
+    });
+    clock(); if (view === 'work') tickT = setInterval(clock, 1000);
+    if (st.dirty) sync();
+    beat();
+  }
+  function qHtml(it, i, ans) {
+        var a = ans[i] == null ? '' : String(ans[i]), inner;
         if (it.y === 'mc') inner = '<div class="jn-opts c' + (it.c || 1) + '">' + it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<button type="button" data-a="' + L + '" aria-pressed="' + (a === L) + '"><b>' + L + '.</b> <span>' + safe(o) + '</span></button>'; }).join('') + '</div>';
         else if (it.y === 'tf') inner = '<div class="jn-tf">' + it.o.map(function (o, k) {
           return '<div class="jn-st" data-k="' + k + '"><div class="jn-stx"><b>' + 'abcd'[k] + ')</b> ' + safe(o) + '</div><div class="jn-stb"><button type="button" data-t="T" aria-pressed="' + (a.charAt(k) === 'T') + '">' + T.stT + '</button><button type="button" data-t="F" aria-pressed="' + (a.charAt(k) === 'F') + '">' + T.stF + '</button></div></div>';
         }).join('') + '</div>';
         else inner = '<p class="jn-sa"><input type="text" inputmode="decimal" maxlength="20" autocomplete="off" placeholder="' + T.ph + '" value="' + esc(a) + '"></p>';
         return partHead(i) + '<section class="jn-q" data-i="' + i + '"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + safe(it.q) + '</div>' + inner + '</section>';
-      }).join('') + '<p class="jn-end"><button type="button" class="btn" id="hw-submit">' + T.submit + '</button></p>';
-    drawMath(app);
-    var upd = function () { $('#jn-n').textContent = count() + '/' + items.length + ' ' + T.answered; };
-    upd();
-    var changed = function () { upd(); st.answers = A; st.dirty = true; keep(); sv(''); clearTimeout(syncT); syncT = setTimeout(sync, 4000); };
+  }
+  /* taps and typing on the questions; A is the answers object of the view (work, or practice after a homework) */
+  function bindAnswers(changed) {
     app.onclick = function (e) {
       var b = e.target.closest ? e.target.closest('.jn-opts button, .jn-st button') : null;
-      if (!b || view !== 'work') return;
+      if (!b || (view !== 'work' && view !== 'practice')) return;
       var q = b.closest('.jn-q'), i = +q.getAttribute('data-i');
       if (b.hasAttribute('data-a')) {
         var L = b.getAttribute('data-a');
@@ -245,19 +282,11 @@
       changed();
     };
     app.oninput = function (e) {
-      var inp = e.target; if (!inp.closest || !inp.closest('.jn-sa') || view !== 'work') return;
+      var inp = e.target; if (!inp.closest || !inp.closest('.jn-sa') || (view !== 'work' && view !== 'practice')) return;
       var i = +inp.closest('.jn-q').getAttribute('data-i'), v = inp.value.trim().slice(0, 20);
       if (v) A[i] = v; else delete A[i];
       changed();
     };
-    $('#hw-submit').addEventListener('click', function () {
-      var left = items.length - count();
-      if (!window.confirm(left ? T.sure(left) : T.sure0)) return;
-      lockAndSend();
-    });
-    clock(); if (view === 'work') tickT = setInterval(clock, 1000);
-    if (st.dirty) sync();
-    beat();
   }
   /* every minute while working: the teacher may have extended or closed the assignment */
   var beatT = 0;
@@ -285,7 +314,7 @@
     if (!st.dirty || syncing || view !== 'work') return;
     syncing = true; sv(T.saving);
     var sent = JSON.stringify(A);
-    api('PUT', '/v1/hw/' + code + '/save', { token: st.token, answers: A }).then(function (r) {
+    api('PUT', '/v1/hw/' + code + '/save', { token: st.token, answers: A, away: st.away || 0 }).then(function (r) {
       syncing = false;
       if (r.status === 200) { lost(false); if (JSON.stringify(A) === sent) { st.dirty = false; keep(); sv('✓ ' + T.saved); } else syncT = setTimeout(sync, 2000); if (r.deadline) { deadline = st.deadline = r.deadline; keep(); } return; }
       if (r.error === 'token') { st.token = null; keep(); who(T.other); return; }
@@ -297,9 +326,14 @@
   /* closing the tab or switching apps: send what is there (no answer needed) */
   function beacon() {
     if (view !== 'work' || !st || !st.dirty || !navigator.sendBeacon) return;
-    try { navigator.sendBeacon(API + '/v1/hw/' + code + '/save', new Blob([JSON.stringify({ token: st.token, answers: A })], { type: 'text/plain' })); } catch (e) {}
+    try { navigator.sendBeacon(API + '/v1/hw/' + code + '/save', new Blob([JSON.stringify({ token: st.token, answers: A, away: st.away || 0 })], { type: 'text/plain' })); } catch (e) {}
   }
-  d.addEventListener('visibilitychange', function () { if (d.visibilityState === 'hidden') beacon(); else if (view === 'work') { clock(); sync(); } });
+  d.addEventListener('visibilitychange', function () {
+    if (d.visibilityState === 'hidden') {
+      if (view === 'work' && isTest() && st.token) { st.away = (st.away || 0) + 1; st.dirty = true; keep(); }
+      beacon();
+    } else if (view === 'work') { clock(); sync(); if (isTest() && st.away) sv(T.awayNow(st.away)); }
+  });
   window.addEventListener('pagehide', beacon);
   window.addEventListener('online', function () { if (view === 'work') sync(); else if (view === 'pending') lockAndSend(); });
 
@@ -309,7 +343,7 @@
     if (!st.pending) { st.pending = true; st.locked_at = Math.min(now(), deadline || now()); st.answers = A; keep(); }
     view = 'pending';
     app.innerHTML = bar('<span class="jn-clock">' + (now() >= deadline ? T.timeUp : '') + '</span>') + '<div class="jn-wait"><p><b>' + esc(T.locked(fmtDT(st.locked_at, false))) + '</b></p><p class="hw-small">' + T.keepOpen + '</p></div>';
-    api('POST', '/v1/hw/' + code + '/submit', { token: st.token, answers: st.answers || {}, locked_at: st.locked_at }).then(function (r) {
+    api('POST', '/v1/hw/' + code + '/submit', { token: st.token, answers: st.answers || {}, locked_at: st.locked_at, away: st.away || 0 }).then(function (r) {
       if (view !== 'pending') return;
       if (r.status === 200 && r.result) { done(r.result); return; }
       if (r.error === 'submitted') { fetchResult(); return; }
@@ -335,7 +369,9 @@
   function result() {
     view = 'result'; stopAll();
     var r = st.result, tfw = function (c) { return c === 'T' ? T.stT : c === 'F' ? T.stF : T.none; };
+    var test = isTest(), canPractise = !test && r.review && r.review.length;
     app.innerHTML = bar() + (r.auto ? '<p class="hw-flag">' + T.auto + '</p>' : '') + (r.late ? '<p class="hw-flag">' + T.late + '</p>' : '') + '<h2 id="hw-res">' + T.result + '</h2>' +
+      '<p class="hw-next">' + (test ? T.tNext : T.hwNext) + '</p>' + (canPractise ? '<p class="tool-actions"><button type="button" class="btn" id="hw-again">' + T.again + '</button></p>' : '') +
       (r.review ? '<h2 class="jn-rev">' + T.review + '</h2>' + r.review.map(function (it, i) {
         var a = it.mine == null ? '' : String(it.mine), inner, mine, key;
         if (it.y === 'mc') { inner = it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<div class="jn-o' + (L === it.k ? ' ok' : a === L ? ' no' : '') + '"><b>' + L + '.</b> <span>' + safe(o) + '</span></div>'; }).join(''); mine = a || T.none; key = it.k; }
@@ -347,6 +383,7 @@
       '<p class="hw-small"><button type="button" class="tool-link" id="hw-switch">' + T.switchMe + '</button> · <a href="' + esc(app.getAttribute('data-home') || '/') + '">' + T.home + '</a></p>';
     drawMath(app);
     if (window.lmFeedback) window.lmFeedback.show($('#hw-res'), r.got, r.max, r.stats, '');
+    var ag = $('#hw-again'); if (ag) ag.addEventListener('click', practice);
     var k = $('#hw-key');
     if (k) k.addEventListener('click', function () {
       api('POST', '/v1/hw/' + code + '/result', { token: st.token }).then(function (x) {
@@ -355,6 +392,40 @@
       });
     });
     window.scrollTo(0, 0);
+  }
+
+  /* Homework only: answer the same questions again on this device, checked here, never sent or scored. */
+  function practice() {
+    view = 'practice'; stopAll();
+    var rv = st.result.review; items = rv; A = {};
+    app.innerHTML = bar('<span id="jn-n" class="jn-n"></span>') + '<p class="hw-note">' + T.pNote + '</p>' + rv.map(function (it, i) { return qHtml(it, i, A); }).join('') +
+      '<p class="jn-end"><button type="button" class="btn" id="hw-pcheck">' + T.pCheck + '</button> <button type="button" class="btn btn-outline" id="hw-pback">' + T.pBack + '</button></p><p class="hw-pscore" id="hw-pscore" aria-live="polite"></p>';
+    drawMath(app);
+    var upd = function () { $('#jn-n').textContent = count() + '/' + rv.length + ' ' + T.answered; };
+    upd(); bindAnswers(upd);
+    $('#hw-pcheck').addEventListener('click', function () {
+      var right = 0;
+      $$('.jn-q', app).forEach(function (q) {
+        var i = +q.getAttribute('data-i'), it = rv[i], p = full(it, A[i]);
+        if (p) right++;
+        q.classList.remove('pr-ok', 'pr-no'); q.classList.add(p ? 'pr-ok' : 'pr-no');
+        var ex = q.querySelector('.jn-expl');
+        if (!p && !ex && it.e) { ex = d.createElement('div'); ex.className = 'jn-expl'; ex.innerHTML = safe(it.e); q.appendChild(ex); drawMath(ex); }
+      });
+      $('#hw-pscore').textContent = T.pScore(right, rv.length);
+      $('#hw-pscore').scrollIntoView({ block: 'center' });
+    });
+    $('#hw-pback').addEventListener('click', function () { items = st.items; A = st.answers || {}; result(); });
+    window.scrollTo(0, 0);
+  }
+  function numVal(x) { x = String(x).replace(/\s/g, '').replace(',', '.'); return x === '' || !/^[-+]?(\d+\.?\d*|\.\d+)(e[-+]?\d+)?$/i.test(x) ? NaN : Number(x); }
+  function full(it, a) {          // the whole question right (same rules as the server's marking)
+    if (!has(it, a)) return false; a = String(a);
+    if (it.y === 'mc') return a === it.k;
+    if (it.y === 'tf') return a === it.k;
+    var v = numVal(a), w = numVal(it.k);
+    if (!isNaN(v) && !isNaN(w)) return Math.abs(v - w) < 1e-9;
+    return a.toLowerCase().replace(/\s/g, '').replace(/,/g, '.') === String(it.k).toLowerCase().replace(/\s/g, '').replace(/,/g, '.');
   }
 
   /* "Not you?" on a shared phone */

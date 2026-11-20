@@ -22,11 +22,37 @@ Lemonmath đã dùng Cloudflare Web Analytics nên đã có tài khoản Cloudfl
 
 Không bao giờ xóa secret `PEPPER` của Worker trong Cloudflare: đó là khóa dùng để kiểm tra mật khẩu, mất là mọi giáo viên phải dùng mã khôi phục để đặt lại mật khẩu.
 
+## Bật gửi email (mã khôi phục, mã đặt lại mật khẩu)
+
+Không bật thì mọi thứ vẫn chạy, giáo viên chỉ dùng mã khôi phục. Bật bằng Resend (gói miễn phí: 3.000 email/tháng, 100 email/ngày, 1 tên miền; máy chủ tự giới hạn 90 email/ngày):
+
+1. Tạo tài khoản ở https://resend.com → Domains → Add Domain → `lemonmath.com` (vùng Tokyo hoặc Singapore).
+2. Resend hiện 3–4 bản ghi DNS (MX và TXT cho `send.lemonmath.com`, TXT DKIM `resend._domainkey`). Thêm đúng các bản ghi đó ở nơi quản lý DNS của lemonmath.com (trang quản trị tên miền ở Nhân Hòa, hoặc Cloudflare nếu DNS đã chuyển sang đó). Không xóa bản ghi cũ của GitHub Pages. Chờ Resend báo Verified.
+3. Resend → API Keys → Create API Key (quyền Sending access, chỉ tên miền lemonmath.com) → sao chép khóa (bắt đầu bằng `re_`).
+4. GitHub → Settings → Secrets → Actions → New repository secret: tên `RESEND_API_KEY`, giá trị là khóa ở bước 3.
+5. Chạy lại workflow api.yml. Bước "E-mail key" đưa khóa vào Worker; `GET /v1/info` trả `{"email": true}` là đã bật.
+
+Người gửi: `Lemonmath <khong-tra-loi@lemonmath.com>` (biến MAIL_FROM trong api/wrangler.toml).
+
 ## Hoạt động thế nào
 
-- **Giáo viên** tạo tài khoản bằng email và mật khẩu. Mật khẩu được băm (PBKDF2, 150.000 vòng) ngay trên trình duyệt; máy chủ chỉ lưu HMAC của bản băm với khóa bí mật PEPPER. Khi tạo tài khoản, giáo viên nhận một **mã khôi phục 12 kí tự** (chỉ hiện một lần) để tự đặt lại mật khẩu, nên không cần dịch vụ gửi email. Sai 8 lần liền thì tài khoản khóa 15 phút.
+- **Giáo viên** tạo tài khoản bằng email và mật khẩu. Mật khẩu được băm (PBKDF2, 150.000 vòng) ngay trên trình duyệt; máy chủ chỉ lưu HMAC của bản băm với khóa bí mật PEPPER. Khi tạo tài khoản, giáo viên nhận một **mã khôi phục 12 kí tự** (hiện một lần trên màn hình; khi đã bật email thì gửi kèm vào email đăng kí). Quên mật khẩu: dùng mã khôi phục, hoặc (khi đã bật email) nhận **mã 6 số qua email**, dùng được 15 phút, sai 5 lần thì hủy, tối đa 3 mã mỗi giờ; trang luôn trả lời giống nhau dù email có tài khoản hay không. Trang Tài khoản có nút "Tạo mã khôi phục mới" (mã cũ hết hiệu lực). Sai mật khẩu 8 lần liền thì tài khoản khóa 15 phút.
 - **Lớp**: dán danh sách học sinh (mỗi dòng một em). Mỗi em được một **mã cá nhân 4 chữ số**; giáo viên in phiếu phát cho từng em. Trang làm bài chỉ hiện "số thứ tự. tên gọi" (ví dụ "12. An"), họ tên đầy đủ chỉ hiện sau khi em nhập đúng mã. Sai mã 8 lần thì tên đó khóa trong bài đó, giáo viên bấm "Mở khóa".
-- **Giao bài**: chọn bài học trong ngân hàng câu hỏi, số câu mỗi phần, hình thức (bài về nhà / luyện tập buổi 2 / tự nguyện cùng bố mẹ; lớp 1–5 chỉ có tự nguyện), giờ mở và giờ đóng (có nút nhanh "Tối nay 20:00 đến 21:00"), thời gian tối đa cho mỗi em, có bắt mã cá nhân không, khi nào cho xem đáp án. Câu hỏi được chụp lại (cả đáp án) vào cơ sở dữ liệu lúc giao, nên ngân hàng đổi về sau cũng không ảnh hưởng bài đã giao. Có ước tính số phút (NB 1, TH 2, VD 4, VDC 6 phút mỗi câu; câu đúng sai theo từng ý).
+- **Hai loại bài, hai mục đích** (chủ dự án yêu cầu 20/11/2026: tách rõ đặc trưng và ý nghĩa):
+
+  | | Bài tập về nhà (`mode: home`) | Bài kiểm tra (`mode: test`) |
+  |---|---|---|
+  | Ý nghĩa | Luyện tập, củng cố, học từ lỗi sai | Đánh giá mức đạt được, công bằng |
+  | Thời gian | Khung rộng: đến 21:00 tối nay / tối mai / hết Chủ nhật / một tuần; giới hạn phút mỗi em không bắt buộc | Giờ bắt đầu chung + thời gian làm (15/45/90 phút) + cho vào muộn tối đa (mặc định 5 phút); giờ đóng = bắt đầu + vào muộn + thời gian làm; sau giờ vào muộn máy chủ từ chối (`late_start`) để ai vào cũng đủ giờ |
+  | Mã cá nhân, trộn câu | Tùy chọn | Luôn bật (máy chủ ép) |
+  | Đáp án, lời giải | Mặc định hiện ngay khi nộp | Chỉ sau khi bài đóng (máy chủ ép) |
+  | Sau khi nộp | Xem lời giải, "Luyện lại (không tính điểm)" chấm ngay trên máy | Điểm được ghi, không làm lại |
+  | Trong lúc làm | Nhắc ghi lời giải vào vở | Hỏi xác nhận trước khi bấm giờ; đồng hồ chạy liên tục; đếm số lần rời trang (học sinh được báo trước) |
+  | Bảng của giáo viên | Tỉ lệ đã làm, "Nhắc các em chưa làm" (danh sách + lời nhắc chung không nêu tên), 3 câu nên chữa đặt trên cùng | Điểm trung bình, trung vị, cao nhất, thấp nhất, phổ điểm 4 mức, cột "Rời trang" (từ 3 lần tô đỏ) |
+  | Tin nhắn Zalo | Hạn nộp, nhắc bố mẹ khen con cố gắng | Giờ bắt đầu, giờ vào muộn nhất, nhờ bố mẹ cho con chỗ yên tĩnh |
+
+  Lớp 1–5 chỉ có "Luyện tập tự nguyện cùng bố mẹ" (`free`). Máy chủ vẫn nhận `class2` cho bài cũ nhưng giao diện không còn.
+- **Giao bài**: chọn bài học trong ngân hàng câu hỏi, số câu mỗi phần, loại bài, thời gian như bảng trên, khi nào cho xem đáp án (bài về nhà). Câu hỏi được chụp lại (cả đáp án) vào cơ sở dữ liệu lúc giao, nên ngân hàng đổi về sau cũng không ảnh hưởng bài đã giao. Có ước tính số phút (NB 1, TH 2, VD 4, VDC 6 phút mỗi câu; câu đúng sai theo từng ý).
 - **Chống chép**: mỗi em một thứ tự câu và thứ tự phương án riêng (giữ nguyên ba phần; câu có phương án nhắc tới chữ cái như "Cả A và B" thì không trộn phương án). Đáp án không gửi xuống máy học sinh trước khi nộp (hoặc trước giờ đóng, tùy cài đặt).
 - **Giờ do máy chủ quyết định**: trước giờ mở không vào được; sau giờ đóng máy chủ từ chối câu trả lời mới. Câu trả lời lưu ngay trên máy em và gửi lên vài giây một lần. Mất mạng lúc đóng bài: máy khóa bài đúng giờ và gửi khi có mạng, máy chủ nhận trong 15 phút sau giờ đóng và đánh dấu "nộp muộn". Em không bấm nộp thì hết giờ (cộng 15 phút) bài được tự nộp với các câu đã lưu.
 - **Bảng kết quả**: ai đã nộp, đang làm, chưa vào; điểm thang 10 (chấm như đề tốt nghiệp: nhiều lựa chọn 0,25; đúng sai 0,1/0,25/0,5/1; trả lời ngắn 0,5); ô đúng/sai từng câu; % đúng từng câu; "3 câu nên chữa đầu giờ" kèm phương án sai chọn nhiều nhất; chép bảng điểm, tải CSV, chuyển sang công cụ viết nhận xét gửi phụ huynh. Giáo viên đóng bài ngay, gia hạn, cho một em làm lại, xóa bài. Hình thức tự nguyện không hiện điểm từng em.
@@ -40,14 +66,14 @@ Workers Free: 100.000 lượt gọi mỗi ngày, 10 ms CPU mỗi lượt. D1 Fre
 
 ```
 cd api && npm ci
-printf 'PEPPER="local-dev-pepper-0123456789abcdef"\nALLOW_LOCALHOST="1"\n' > .dev.vars
+printf 'PEPPER="local-dev-pepper-0123456789abcdef"\nALLOW_LOCALHOST="1"\nRESEND_API_KEY="re_local_test_key"\nMAIL_DEBUG="1"\n' > .dev.vars   # MAIL_DEBUG chỉ dùng ở máy: trả mã 6 số trong phản hồi
 npx wrangler d1 migrations apply lemonmath --local
 npx wrangler dev --local --port 8787          # cửa sổ 1
-node test/api.test.mjs                         # cửa sổ 2: 39 phép thử
+node test/api.test.mjs                         # cửa sổ 2: 53 phép thử
 cd .. && API_URL=http://127.0.0.1:8787 npm run build && node tools/serve.js   # rồi mở http://localhost:8000/vi/lop-hoc/
 ```
 
-Thêm bảng hoặc cột: tạo file mới api/migrations/0002_<tên>.sql (không sửa file cũ); workflow tự áp dụng.
+Thêm bảng hoặc cột: tạo file mới api/migrations/000N_<tên>.sql (đã có 0001 khởi tạo, 0002 email, 0003 số lần rời trang; không sửa file cũ); workflow tự áp dụng.
 
 ## Việc tiếp theo (theo tài liệu nghiên cứu, chưa làm)
 

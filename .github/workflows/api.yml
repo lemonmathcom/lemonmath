@@ -97,6 +97,18 @@ jobs:
             head -c 48 /dev/urandom | base64 | tr -d '\n=+/' | npx wrangler secret put PEPPER
           fi
 
+      - name: E-mail key (only when the RESEND_API_KEY secret exists)
+        if: steps.ready.outputs.ok == 'true'
+        working-directory: api
+        env:
+          RESEND_RAW: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          K=$(printf %s "$RESEND_RAW" | tr -d "[:space:]\"'")
+          if [ -z "$K" ]; then echo "No RESEND_API_KEY: e-mail stays off."; exit 0; fi
+          echo "::add-mask::$K"
+          if ! printf %s "$K" | grep -Eq '^re_[A-Za-z0-9_]{10,}$'; then echo "::error::RESEND_API_KEY phải bắt đầu bằng re_ (có thể đã dán thừa chữ)."; exit 1; fi
+          printf %s "$K" | npx wrangler secret put RESEND_API_KEY
+
       - name: Check the API answers
         if: steps.ready.outputs.ok == 'true'
         run: |

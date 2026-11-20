@@ -95,6 +95,35 @@ r = await call('POST', '/v1/hw/' + soon + '/submit', { token: sTok, answers: { 0
 r = await call('POST', '/v1/hw/' + soon + '/result', { token: sTok }, 'none'); assert.equal(r.result, null); ok('within the grace period the draft waits');
 r = await call('POST', '/v1/hw/' + soon + '/start', { sid: st[2].id, pin: '0000' }, 'none'); assert.ok(['no_student', 'closed', 'bad_pin'].includes(r.error)); ok('removed student cannot start');
 
+console.log('Tests (bài kiểm tra)');
+r = await call('POST', '/v1/assignments', { class_id: cls, title: 'Kiểm tra 15 phút', mode: 'test', open_at: Date.now() - 1000, close_at: Date.now() + 20 * 60e3, items, require_pin: false, shuffle: false, show_key: 'submit' });
+assert.equal(r.error, 'need_duration'); ok('a test needs a time limit');
+r = await call('POST', '/v1/assignments', { class_id: cls, title: 'Kiểm tra 15 phút', mode: 'test', duration_min: 15, open_at: Date.now() - 1000, close_at: Date.now() + 20 * 60e3, items, require_pin: false, shuffle: false, show_key: 'submit' });
+assert.equal(r.assignment.mode, 'test'); assert.equal(r.assignment.require_pin, true); assert.equal(r.assignment.shuffle, true); assert.equal(r.assignment.show_key, 'close'); const tcode = r.assignment.code;
+ok('a test always asks for the personal code, shuffles, and shows answers after closing');
+r = await call('POST', '/v1/hw/' + tcode + '/start', { sid: an.id, pin: an.pin }, 'none'); assert.ok(r.deadline - Date.now() <= 15 * 60e3 + 2000 && r.deadline - Date.now() > 14 * 60e3); ok('the clock gives 15 minutes from the start');
+const ttok = r.token;
+r = await call('PUT', '/v1/hw/' + tcode + '/save', { token: ttok, answers: {}, away: 2 }, 'none'); assert.equal(r.ok, true);
+r = await call('PUT', '/v1/hw/' + tcode + '/save', { token: ttok, answers: {}, away: 1 }, 'none');
+r = await call('GET', '/v1/assignments/' + tcode); assert.equal(r.attempts.find((x) => x.student_id === an.id).away, 2); ok('page-leaving count kept (never goes down)');
+r = await call('POST', '/v1/hw/' + tcode + '/submit', { token: ttok, answers: {}, away: 3 }, 'none'); assert.equal(r.result.review, null);
+const brd = await call('GET', '/v1/assignments/' + tcode); assert.equal(brd.attempts.find((x) => x.student_id === an.id).away, 3); assert.ok(r.result.key_at > Date.now()); ok('no answers shown before the test closes');
+r = await call('POST', '/v1/assignments', { class_id: cls, title: 'Vào muộn', mode: 'test', duration_min: 5, open_at: Date.now() - 10 * 60e3, close_at: Date.now() + 2 * 60e3, items });
+r = await call('POST', '/v1/hw/' + r.assignment.code + '/start', { sid: an.id, pin: an.pin }, 'none'); assert.equal(r.error, 'late_start'); ok('too late to start a test: refused');
+
+console.log('E-mail');
+r = await call('GET', '/v1/info', null, 'none'); assert.equal(r.email, true); ok('e-mail is on (local key)');
+r = await call('POST', '/v1/auth/reset-request', { email: 'nobody@example.com' }, 'none'); assert.equal(r.ok, true); assert.equal(r.debug_code, undefined); ok('unknown address: same answer, no code');
+r = await call('POST', '/v1/auth/reset-request', { email }, 'none'); const code6 = r.debug_code; assert.match(code6, /^\d{6}$/); ok('reset code made');
+r = await call('POST', '/v1/auth/reset', { email, code: code6 === '000000' ? '111111' : '000000', pw: pw('x') }, 'none'); assert.equal(r.error, 'bad_code'); assert.equal(r.left, 4); ok('wrong code refused, 4 tries left');
+r = await call('POST', '/v1/auth/reset', { email, code: code6, pw: pw('matkhau3') }, 'none'); assert.equal(r.status, 200); token = r.token; ok('right code sets a new password');
+r = await call('POST', '/v1/auth/reset', { email, code: code6, pw: pw('matkhau4') }, 'none'); assert.equal(r.error, 'bad_code'); ok('a code works only once');
+r = await call('POST', '/v1/auth/login', { email, pw: pw('matkhau3') }, 'none'); assert.equal(r.status, 200); token = r.token;
+for (let i = 0; i < 3; i++) await call('POST', '/v1/auth/reset-request', { email }, 'none');
+r = await call('POST', '/v1/auth/reset-request', { email }, 'none'); assert.equal(r.debug_code, undefined); ok('at most 3 codes an hour');
+r = await call('POST', '/v1/me/recovery', {}); assert.match(r.recovery, /^[0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}$/); assert.equal(r.mailed, true);
+const r2 = await call('POST', '/v1/auth/recover', { email, recovery: r.recovery, pw: pw('matkhau5') }, 'none'); assert.equal(r2.status, 200); token = r2.token; ok('new recovery code works (and is e-mailed)');
+
 console.log('Teacher controls');
 r = await call('PATCH', '/v1/assignments/' + code, { close_now: true }); assert.ok(r.assignment.close_at <= Date.now()); ok('close now');
 r = await call('POST', '/v1/assignments/' + code + '/reset', { student_id: binh.id }); r = await call('GET', '/v1/assignments/' + code); assert.equal(r.attempts.length, 1); ok('let a student start again');

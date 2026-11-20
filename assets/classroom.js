@@ -1,8 +1,8 @@
 /*
  * Lemonmath, "My classes" (teachers): /vi/lop-hoc/ and /classroom/.
- * A teacher account (email + password; a recovery code replaces password-reset e-mails), classes with a list of
- * students and a 4-digit personal code for each, homework built from the site's question bank with a time window
- * (for example 20:00 to 21:00), and a results board. Data lives in the classroom API (api/, Cloudflare Worker + D1).
+ * A teacher account (email + password; a recovery code, and when e-mail is switched on a 6-digit code by e-mail),
+ * classes with a list of students and a 4-digit personal code for each, two kinds of assignment built from the site's
+ * question bank (homework with a wide window; a test with a start time and a short time limit), and a results board. Data lives in the classroom API (api/, Cloudflare Worker + D1).
  * The password never leaves the browser: it is turned into a PBKDF2 hash here, and the server stores only a keyed
  * hash of that. Students do the work on /vi/lam-bai/ (assets/hw.js).
  */
@@ -44,8 +44,10 @@
     email: 'Email', pw: 'Mật khẩu', pw2: 'Nhập lại mật khẩu', pwNew: 'Mật khẩu mới', name: 'Họ tên (học sinh và phụ huynh sẽ thấy, ví dụ: Cô Nguyễn Thị Lan)', school: 'Trường (không bắt buộc)', rc: 'Mã khôi phục (12 kí tự)',
     agree: 'Tôi là giáo viên. Tôi đồng ý để Lemonmath lưu danh sách học sinh, mã cá nhân và bài làm của lớp tôi để chấm bài và báo kết quả cho tôi. Bài làm tự xóa 30 ngày sau khi bài đóng; tôi có thể xóa lớp hoặc cả tài khoản bất cứ lúc nào.',
     needAgree: 'Thầy cô vui lòng đánh dấu ô đồng ý ở trên.', short: 'Mật khẩu cần ít nhất 8 kí tự.', mismatch: 'Hai mật khẩu chưa giống nhau.', fill: 'Thầy cô điền đủ các ô nhé.',
-    errs: { bad_login: 'Email hoặc mật khẩu chưa đúng.', bad_recovery: 'Email hoặc mã khôi phục chưa đúng.', email_taken: 'Email này đã có tài khoản. Thầy cô bấm Đăng nhập, hoặc Quên mật khẩu.', bad_email: 'Email chưa đúng dạng.', locked: 'Thử sai nhiều lần nên tài khoản tạm khóa 15 phút. Thầy cô thử lại sau nhé.', offline: 'Chưa kết nối được máy chủ. Thầy cô kiểm tra mạng rồi thử lại.', too_many_today: 'Hôm nay thầy cô đã giao nhiều bài, mai thử lại nhé.', bad_time: 'Giờ đóng phải sau giờ mở.', past: 'Giờ đóng đã qua rồi.', too_long: 'Mỗi bài mở tối đa 60 ngày.', no_students: 'Danh sách học sinh đang trống.', too_many_students: 'Mỗi lớp tối đa 80 học sinh.', too_many_classes: 'Mỗi tài khoản tối đa 40 lớp.', server: 'Máy chủ gặp lỗi. Thầy cô thử lại sau ít phút.' },
-    rcTitle: 'Mã khôi phục của thầy cô', rcLead: 'Thầy cô chép lại mã này và cất ở chỗ an toàn (sổ tay, ghi chú trên điện thoại). Khi quên mật khẩu, mã này giúp đặt mật khẩu mới. Mã chỉ hiện một lần.', rcCopy: 'Sao chép mã', rcSave: 'Tải về máy', rcDone: 'Tôi đã lưu mã', copied: 'Đã sao chép',
+    errs: { bad_login: 'Email hoặc mật khẩu chưa đúng.', bad_recovery: 'Email hoặc mã khôi phục chưa đúng.', email_taken: 'Email này đã có tài khoản. Thầy cô bấm Đăng nhập, hoặc Quên mật khẩu.', bad_email: 'Email chưa đúng dạng.', locked: 'Thử sai nhiều lần nên tài khoản tạm khóa 15 phút. Thầy cô thử lại sau nhé.', offline: 'Chưa kết nối được máy chủ. Thầy cô kiểm tra mạng rồi thử lại.', too_many_today: 'Hôm nay thầy cô đã giao nhiều bài, mai thử lại nhé.', bad_time: 'Giờ đóng phải sau giờ mở.', need_duration: 'Bài kiểm tra cần thời gian làm bài (phút).', bad_code: 'Mã chưa đúng hoặc đã hết hạn.', email_off: 'Chưa bật gửi email. Thầy cô dùng mã khôi phục nhé.', past: 'Giờ đóng đã qua rồi.', too_long: 'Mỗi bài mở tối đa 60 ngày.', no_students: 'Danh sách học sinh đang trống.', too_many_students: 'Mỗi lớp tối đa 80 học sinh.', too_many_classes: 'Mỗi tài khoản tối đa 40 lớp.', server: 'Máy chủ gặp lỗi. Thầy cô thử lại sau ít phút.' },
+    rcTitle: 'Mã khôi phục của thầy cô', rcLead: 'Thầy cô chép lại mã này và cất ở chỗ an toàn (sổ tay, ghi chú trên điện thoại). Khi quên mật khẩu, mã này giúp đặt mật khẩu mới. Mã chỉ hiện một lần trên màn hình.', rcMailed: 'Mã cũng đã được gửi vào email đăng kí của thầy cô (xem cả mục Thư rác nếu chưa thấy).',
+    viaMail: 'Nhận mã qua email', viaRc: 'Dùng mã khôi phục', sendCode: 'Gửi mã vào email', code6: 'Mã 6 số trong email', sentCode: function (m) { return 'Nếu email này có tài khoản, Lemonmath vừa gửi một mã 6 số (dùng được trong ' + m + ' phút). Xem cả mục Thư rác.'; }, setPw: 'Đặt mật khẩu mới',
+    rcNew: 'Tạo mã khôi phục mới', rcNewLead: 'Làm mất mã khôi phục? Tạo mã mới: mã cũ sẽ không dùng được nữa.', sureRc: 'Tạo mã khôi phục mới? Mã cũ sẽ không dùng được nữa.', rcCopy: 'Sao chép mã', rcSave: 'Tải về máy', rcDone: 'Tôi đã lưu mã', copied: 'Đã sao chép',
     hello: 'Xin chào', classes: 'Lớp của tôi', noClass: 'Thầy cô chưa có lớp nào. Tạo lớp đầu tiên ở dưới.', newClass: 'Tạo lớp mới', className: 'Tên lớp (ví dụ: 10A1)', grade: 'Khối lớp', namesL: 'Danh sách học sinh, mỗi dòng một em, theo thứ tự trong sổ', namesPh: 'Nguyễn Văn An\nTrần Thị Bình\nLê Minh Châu', create: 'Tạo lớp',
     stu: 'học sinh', hws: 'bài đã giao', back: '← Lớp của tôi', backClass: '← Về lớp', tabHw: 'Bài đã giao', tabStu: 'Học sinh và mã cá nhân',
     newHw: '+ Giao bài mới', noHw: 'Lớp này chưa có bài nào.', code: 'Mã bài', st: { soon: 'Sắp mở', open: 'Đang mở', closed: 'Đã đóng' }, doneOf: function (a, b) { return a + '/' + b + ' em đã nộp'; },
@@ -54,20 +56,31 @@
     sureDelClass: function (n) { return 'Xóa lớp ' + n + ' cùng toàn bộ bài đã giao và bài làm của học sinh? Không thể hoàn tác.'; },
     slipHead: 'Lemonmath · Bài tập Toán', slipGo: 'Vào trang', slipPin: 'Mã cá nhân', slipNote: 'Giữ kín mã này, không đưa cho bạn khác.',
     pinNote: 'Mỗi em có một mã cá nhân 4 chữ số. Khi làm bài, em chọn tên mình rồi nhập mã, nên bạn khác không làm thay được. Thầy cô in phiếu và phát cho từng em (hoặc nhắn riêng cho phụ huynh).',
-    hwTitle: 'Giao bài mới', hwName: 'Tên bài', hwNameV: function (d) { return 'Bài tập ngày ' + d; }, bank: 'Lấy câu hỏi từ', pickBank: 'Chọn…', lessons: 'Chọn bài học', all: 'Chọn tất cả', none: 'Bỏ chọn', count: 'Số câu', mc: 'Nhiều lựa chọn', tf: 'Đúng sai', sa: 'Trả lời ngắn', have: 'có',
-    shuffleL: 'Trộn thứ tự câu và phương án cho từng em (giảm chép bài của nhau)', mode: 'Hình thức', modes: { home: 'Bài tập về nhà', class2: 'Luyện tập buổi 2 tại lớp', free: 'Luyện tập tự nguyện cùng bố mẹ' },
+    hwTitle: 'Giao bài mới', hwName: 'Tên bài', hwNameV: function (d) { return 'Bài tập ngày ' + d; }, testNameV: function (d) { return 'Kiểm tra ngày ' + d; }, bank: 'Lấy câu hỏi từ', pickBank: 'Chọn…', lessons: 'Chọn bài học', all: 'Chọn tất cả', none: 'Bỏ chọn', count: 'Số câu', mc: 'Nhiều lựa chọn', tf: 'Đúng sai', sa: 'Trả lời ngắn', have: 'có',
+    shuffleL: 'Trộn thứ tự câu và phương án cho từng em (giảm chép bài của nhau)', mode: 'Loại bài', modes: { home: 'Bài tập về nhà', test: 'Bài kiểm tra', class2: 'Luyện tập buổi 2 tại lớp', free: 'Luyện tập tự nguyện cùng bố mẹ' },
+    kindDesc: { home: 'Để luyện tập, củng cố. Khung giờ rộng, các em làm lúc nào tiện; nộp xong xem ngay lời giải và được luyện lại (không tính điểm). Bảng theo dõi chú ý ai chưa làm và câu cả lớp hay sai.', test: 'Để đánh giá. Cả lớp làm cùng giờ, thời gian ngắn và chặt; luôn có mã cá nhân, trộn câu; chỉ làm một lần, đáp án hiện sau khi bài đóng; ghi lại số lần rời trang. Bảng theo dõi chú ý điểm và phổ điểm.', free: 'Không hạn nộp gấp, không hiện điểm từng em.' },
     freeNote: 'Lớp 1 đến lớp 5 học 2 buổi/ngày không giao bài tập về nhà, nên Lemonmath chỉ có hình thức tự nguyện: không hạn nộp gấp, bảng theo dõi không hiện điểm từng em.',
-    when: 'Thời gian làm bài', from: 'Mở lúc', to: 'Đóng lúc', presets: ['Tối nay 20:00 đến 21:00', 'Đến 21:00 tối mai', 'Trong tiết này (45 phút)', 'Mở một tuần'],
-    dur: 'Mỗi em được làm tối đa (phút, để 0 nếu được làm suốt khung giờ)', needPin: 'Yêu cầu mã cá nhân (nên bật với bài kiểm tra)', keyWhen: 'Học sinh xem đáp án và lời giải', keyOpts: { close: 'sau khi bài đóng (nên chọn với bài kiểm tra)', submit: 'ngay khi em nộp bài (hợp với bài luyện tập)' },
+    when: 'Thời gian', from: 'Mở lúc', to: 'Hạn nộp', presets: ['Đến 21:00 tối nay', 'Đến 21:00 tối mai', 'Đến hết Chủ nhật', 'Mở một tuần'],
+    tPresets: ['20:00 tối (gần nhất)', 'Ngay bây giờ (trên lớp)'], tStart: 'Bắt đầu lúc', tDur: 'Thời gian làm bài (phút)', tLate: 'Cho vào muộn tối đa (phút)',
+    tCloses: function (c, l, d) { return 'Bài tự đóng lúc ' + c + '. Em nào bắt đầu trước ' + l + ' đều có đủ ' + d + ' phút; sau ' + l + ' không vào được nữa.'; },
+    estShort: ' Thời gian làm bài ngắn hơn số phút ước tính.', lastStart: function (t) { return 'vào muộn nhất ' + t; }, durOpt: 'Giới hạn thời gian cho mỗi em (không bắt buộc)',
+    dur: 'Mỗi em được làm tối đa (phút, để 0 nếu không giới hạn)', needPin: 'Yêu cầu mã cá nhân (nên bật với bài kiểm tra)', keyWhen: 'Học sinh xem đáp án và lời giải', keyOpts: { close: 'sau khi bài đóng (nên chọn với bài kiểm tra)', submit: 'ngay khi em nộp bài (hợp với bài luyện tập)' },
     est: function (m) { return 'Ước tính khoảng ' + m + ' phút làm bài.'; }, estLong: ' Hơi dài cho một buổi tối: nghiên cứu cho thấy bài về nhà ngắn, đều đặn hiệu quả hơn bài dài.', estWin: ' Khung giờ ngắn hơn thời gian ước tính.',
     give: 'Giao bài', needLesson: 'Thầy cô chọn ít nhất một bài học.', needCount: 'Thầy cô nhập số câu cho ít nhất một phần.', loadErr: 'Chưa tải được ngân hàng câu hỏi. Thầy cô kiểm tra mạng rồi thử lại.',
     shareH: 'Gửi bài cho học sinh', shareLead: 'Học sinh mở đường dẫn, chọn tên và nhập mã cá nhân. Hoặc vào trang làm bài rồi gõ mã bài.', link: 'Đường dẫn', copyLink: 'Sao chép đường dẫn', zalo: 'Tin nhắn mẫu để dán vào nhóm Zalo lớp', copyMsg: 'Sao chép tin nhắn', scan: 'Quét mã để mở trang làm bài, rồi gõ mã bài',
-    msg: function (a, link, cls, t1, t2) { return '📚 ' + a.title + ' (lớp ' + cls + ')\nThời gian: từ ' + t1 + ' đến ' + t2 + (a.duration_min ? ', mỗi em làm tối đa ' + a.duration_min + ' phút' : '') + '.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình' + (a.require_pin ? ', nhập mã cá nhân 4 số cô đã phát' : '') + ', rồi làm bài. Nhớ ghi lời giải vào vở nhé!\nMã bài: ' + a.code + '\nNhờ bố mẹ nhắc con làm đúng giờ và khen con khi con cố gắng. Cảm ơn các bố mẹ!'; },
+    msg: function (a, link, cls, t1, t2, tl) {
+      if (a.mode === 'test') return '📝 Bài kiểm tra: ' + a.title + ' (lớp ' + cls + ')\nBắt đầu lúc ' + t1 + ', làm trong ' + a.duration_min + ' phút. Vào muộn nhất lúc ' + tl + ', sau đó trang không cho vào nữa.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình, nhập mã cá nhân 4 số cô đã phát, rồi bấm Bắt đầu. Đồng hồ chạy từ lúc bấm và không dừng lại khi thoát ra.\nMã bài: ' + a.code + '\nNhờ bố mẹ giúp con có chỗ ngồi yên tĩnh đúng giờ này. Cảm ơn các bố mẹ!';
+      return '📚 ' + a.title + ' (lớp ' + cls + ')\nThời gian: từ ' + t1 + ' đến ' + t2 + (a.duration_min ? ', mỗi em làm tối đa ' + a.duration_min + ' phút' : '') + '.\nCác con mở đường dẫn: ' + link + '\nChọn đúng tên mình' + (a.require_pin ? ', nhập mã cá nhân 4 số cô đã phát' : '') + ', rồi làm bài. Nhớ ghi lời giải vào vở nhé!\nMã bài: ' + a.code + '\nNhờ bố mẹ nhắc con làm đúng giờ và khen con khi con cố gắng. Cảm ơn các bố mẹ!'; },
     board: 'Kết quả', refresh: 'Làm mới', closeNow: 'Đóng bài ngay', sureClose: 'Đóng bài ngay bây giờ? Em nào đang làm sẽ được tự nộp với các câu đã làm.', extend: 'Gia hạn', ext: ['+15 phút', '+1 giờ', '+1 ngày'], reshare: 'Gửi lại cho học sinh', delHw: 'Xóa bài', sureDelHw: 'Xóa bài này cùng bài làm của học sinh? Không thể hoàn tác.',
     copyScores: 'Chép bảng điểm', csv: 'Tải CSV', toSc: 'Viết nhận xét gửi phụ huynh →', status: 'Trạng thái', score: 'Điểm', time: 'Thời gian', q: 'Câu',
     s: { none: 'Chưa vào', work: 'Đang làm', done: 'Đã nộp', auto: 'Tự nộp khi hết giờ', late: 'Nộp muộn (mất mạng)', locked: 'Khóa (sai mã nhiều lần)' },
     reset: 'Cho làm lại', unlock: 'Mở khóa', sureReset: function (n) { return 'Xóa bài làm của ' + n + ' để em làm lại từ đầu?'; },
-    sum: { n: 'Đã nộp', mean: 'Điểm trung bình', med: 'Trung vị', pass: 'Từ 5 trở lên', good: 'Từ 8 trở lên', work: 'Đang làm', none: 'Chưa vào' },
+    sum: { n: 'Đã nộp', mean: 'Điểm trung bình', med: 'Trung vị', pass: 'Từ 5 trở lên', good: 'Từ 8 trở lên', work: 'Đang làm', none: 'Chưa vào', hi: 'Cao nhất', lo: 'Thấp nhất', rate: 'Tỉ lệ đã làm' },
+    focus: { home: 'Bài tập về nhà để luyện tập: bảng chú ý ai đã làm, ai chưa, và những câu cả lớp hay sai để chữa ở tiết sau.', test: 'Bài kiểm tra để đánh giá: bảng chú ý điểm từng em, phổ điểm, và số lần rời trang trong lúc làm.', free: 'Luyện tập tự nguyện: bảng chỉ cho biết em nào đã luyện.' },
+    away: 'Rời trang', awayTip: 'Số lần em rời khỏi trang (mở ứng dụng khác, chuyển thẻ, tải lại) trong lúc làm. Học sinh được báo trước điều này. Một hai lần có thể do điện thoại; nhiều lần thì thầy cô nên hỏi lại em.',
+    dist: 'Phổ điểm', bands: ['Dưới 5', 'Từ 5 đến dưới 6,5', 'Từ 6,5 đến dưới 8', 'Từ 8 trở lên'],
+    remindH: 'Nhắc các em chưa làm', remindLead: 'Các em dưới đây chưa nộp. Thầy cô có thể nhắn riêng phụ huynh, hoặc gửi lời nhắc chung (không nêu tên) vào nhóm lớp.', remindCopy: 'Chép lời nhắc chung',
+    remindMsg: function (a, n, t2, link) { return '⏰ Còn ' + n + ' bạn chưa làm bài "' + a.title + '". Hạn nộp: ' + t2 + '.\nCác con mở ' + link + ' và làm bài nhé. Nhờ bố mẹ nhắc con. Cảm ơn các bố mẹ!'; },
     fix: '3 câu nên chữa đầu giờ', fixLead: 'Những câu cả lớp làm đúng ít nhất, kèm phương án sai được chọn nhiều nhất (thường là chỗ hiểu nhầm cần gỡ).', right: '% đúng', chose: 'Các em chọn', perQ: 'Tỉ lệ đúng từng câu', topic: 'Chủ đề',
     freeHide: 'Hình thức tự nguyện: bảng chỉ hiện em nào đã luyện tập, không hiện điểm từng em.', waitOpen: 'Bài chưa mở. Bảng sẽ có số liệu khi học sinh bắt đầu làm.', mins: 'phút',
     delAcc: 'Xóa tài khoản', delAccLead: 'Xóa tài khoản sẽ xóa luôn mọi lớp, danh sách học sinh, bài đã giao và bài làm. Gõ email của thầy cô để xác nhận.', delAccGo: 'Xóa vĩnh viễn', sureDelAcc: 'Thầy cô chắc chắn muốn xóa tài khoản?',
@@ -77,8 +90,10 @@
     email: 'Email', pw: 'Password', pw2: 'Password again', pwNew: 'New password', name: 'Your name (students and parents will see it, e.g. Ms Lan Nguyen)', school: 'School (optional)', rc: 'Recovery code (12 characters)',
     agree: 'I am a teacher. I agree that Lemonmath keeps my class list, the personal codes and my students’ answers to mark the work and report to me. Answers are deleted 30 days after an assignment closes; I can delete a class or the whole account at any time.',
     needAgree: 'Please tick the agreement box above.', short: 'The password needs at least 8 characters.', mismatch: 'The two passwords are not the same.', fill: 'Please fill in every box.',
-    errs: { bad_login: 'Email or password is not right.', bad_recovery: 'Email or recovery code is not right.', email_taken: 'This email already has an account. Log in, or use Forgot password.', bad_email: 'That email does not look right.', locked: 'Too many wrong tries, so the account is locked for 15 minutes. Please try later.', offline: 'Could not reach the server. Check your connection and try again.', too_many_today: 'You have set many assignments today. Please try tomorrow.', bad_time: 'The closing time must be after the opening time.', past: 'The closing time has already passed.', too_long: 'An assignment can stay open for at most 60 days.', no_students: 'The class list is empty.', too_many_students: 'A class can have at most 80 students.', too_many_classes: 'An account can have at most 40 classes.', server: 'The server hit an error. Please try again in a few minutes.' },
-    rcTitle: 'Your recovery code', rcLead: 'Write this code down and keep it somewhere safe (a notebook, a note on your phone). If you forget your password, it lets you set a new one. It is shown only once.', rcCopy: 'Copy the code', rcSave: 'Save to this device', rcDone: 'I have saved the code', copied: 'Copied',
+    errs: { bad_login: 'Email or password is not right.', bad_recovery: 'Email or recovery code is not right.', email_taken: 'This email already has an account. Log in, or use Forgot password.', bad_email: 'That email does not look right.', locked: 'Too many wrong tries, so the account is locked for 15 minutes. Please try later.', offline: 'Could not reach the server. Check your connection and try again.', too_many_today: 'You have set many assignments today. Please try tomorrow.', bad_time: 'The closing time must be after the opening time.', need_duration: 'A test needs a time limit (minutes).', bad_code: 'The code is not right or has expired.', email_off: 'Email is not switched on yet. Please use your recovery code.', past: 'The closing time has already passed.', too_long: 'An assignment can stay open for at most 60 days.', no_students: 'The class list is empty.', too_many_students: 'A class can have at most 80 students.', too_many_classes: 'An account can have at most 40 classes.', server: 'The server hit an error. Please try again in a few minutes.' },
+    rcTitle: 'Your recovery code', rcLead: 'Write this code down and keep it somewhere safe (a notebook, a note on your phone). If you forget your password, it lets you set a new one. It is shown on screen only once.', rcMailed: 'It has also been sent to your sign-up email (check the spam folder if you cannot see it).',
+    viaMail: 'Get a code by email', viaRc: 'Use my recovery code', sendCode: 'Email me a code', code6: '6-digit code from the email', sentCode: function (m) { return 'If this email has an account, Lemonmath has just sent a 6-digit code (it works for ' + m + ' minutes). Check the spam folder too.'; }, setPw: 'Set the new password',
+    rcNew: 'Make a new recovery code', rcNewLead: 'Lost your recovery code? Make a new one; the old one will stop working.', sureRc: 'Make a new recovery code? The old one will stop working.', rcCopy: 'Copy the code', rcSave: 'Save to this device', rcDone: 'I have saved the code', copied: 'Copied',
     hello: 'Hello', classes: 'My classes', noClass: 'You have no classes yet. Create the first one below.', newClass: 'Create a class', className: 'Class name (e.g. 10A1)', grade: 'Grade', namesL: 'Students, one per line, in register order', namesPh: 'Anna Nguyen\nBinh Tran\nChau Le', create: 'Create the class',
     stu: 'students', hws: 'assignments', back: '← My classes', backClass: '← Back to the class', tabHw: 'Assignments', tabStu: 'Students and personal codes',
     newHw: '+ New assignment', noHw: 'No assignments for this class yet.', code: 'Code', st: { soon: 'Opens soon', open: 'Open', closed: 'Closed' }, doneOf: function (a, b) { return a + '/' + b + ' handed in'; },
@@ -87,20 +102,31 @@
     sureDelClass: function (n) { return 'Delete class ' + n + ' with all its assignments and the students’ work? This cannot be undone.'; },
     slipHead: 'Lemonmath · Maths assignments', slipGo: 'Go to', slipPin: 'Personal code', slipNote: 'Keep this code to yourself.',
     pinNote: 'Each student has a 4-digit personal code. To start an assignment they choose their name and type the code, so nobody else can do it for them. Print the slips and hand them out (or message them to parents).',
-    hwTitle: 'New assignment', hwName: 'Title', hwNameV: function (d) { return 'Homework for ' + d; }, bank: 'Questions from', pickBank: 'Choose…', lessons: 'Choose lessons', all: 'Select all', none: 'Clear', count: 'Number of questions', mc: 'Multiple choice', tf: 'True or false', sa: 'Short answer', have: 'available',
-    shuffleL: 'Shuffle the questions and options for each student (makes copying harder)', mode: 'Type', modes: { home: 'Homework', class2: 'Practice in class', free: 'Optional practice with parents' },
+    hwTitle: 'New assignment', hwName: 'Title', hwNameV: function (d) { return 'Homework for ' + d; }, testNameV: function (d) { return 'Test for ' + d; }, bank: 'Questions from', pickBank: 'Choose…', lessons: 'Choose lessons', all: 'Select all', none: 'Clear', count: 'Number of questions', mc: 'Multiple choice', tf: 'True or false', sa: 'Short answer', have: 'available',
+    shuffleL: 'Shuffle the questions and options for each student (makes copying harder)', mode: 'Kind', modes: { home: 'Homework', test: 'Test', class2: 'Practice in class', free: 'Optional practice with parents' },
+    kindDesc: { home: 'For practice. A wide window, students work when it suits them; after handing in they see the explanations at once and can practise again (not scored). The board shows who has not done it and what the class missed most.', test: 'For assessment. The whole class at the same time, with a short, strict time limit; personal code and shuffling always on; one attempt, answers only after it closes; page-leaving is counted. The board shows scores and their spread.', free: 'No tight deadline, no individual scores shown.' },
     freeNote: 'For grades 1 to 5 Lemonmath offers optional practice only: no tight deadline, and the board does not show each child’s score.',
-    when: 'When', from: 'Opens', to: 'Closes', presets: ['Tonight 20:00 to 21:00', 'Until 21:00 tomorrow', 'This lesson (45 minutes)', 'Open for a week'],
-    dur: 'Time allowed per student (minutes, 0 = the whole window)', needPin: 'Require the personal code (recommended for tests)', keyWhen: 'Students see answers and explanations', keyOpts: { close: 'after the assignment closes (best for tests)', submit: 'as soon as they hand in (good for practice)' },
+    when: 'When', from: 'Opens', to: 'Due', presets: ['Until 21:00 tonight', 'Until 21:00 tomorrow', 'Until the end of Sunday', 'Open for a week'],
+    tPresets: ['20:00 (the next one)', 'Right now (in class)'], tStart: 'Starts', tDur: 'Time allowed (minutes)', tLate: 'Late start allowed (minutes)',
+    tCloses: function (c, l, d) { return 'Closes by itself at ' + c + '. Anyone who starts before ' + l + ' gets the full ' + d + ' minutes; after ' + l + ' nobody can start.'; },
+    estShort: ' The time allowed is shorter than the estimate.', lastStart: function (t) { return 'last start ' + t; }, durOpt: 'Time limit per student (optional)',
+    dur: 'Minutes per student (0 = no limit)', needPin: 'Require the personal code (recommended for tests)', keyWhen: 'Students see answers and explanations', keyOpts: { close: 'after the assignment closes (best for tests)', submit: 'as soon as they hand in (good for practice)' },
     est: function (m) { return 'About ' + m + ' minutes of work.'; }, estLong: ' Rather long for one evening: short, regular homework works better than long homework.', estWin: ' The window is shorter than the estimated time.',
     give: 'Set the assignment', needLesson: 'Please choose at least one lesson.', needCount: 'Enter a number of questions for at least one part.', loadErr: 'The question bank could not be loaded. Check your connection and try again.',
     shareH: 'Send it to your students', shareLead: 'Students open the link, choose their name and type their personal code. Or they open the homework page and type the code.', link: 'Link', copyLink: 'Copy the link', zalo: 'A message to paste into the class group', copyMsg: 'Copy the message', scan: 'Scan to open the homework page, then type the code',
-    msg: function (a, link, cls, t1, t2) { return '📚 ' + a.title + ' (class ' + cls + ')\nWhen: ' + t1 + ' to ' + t2 + (a.duration_min ? ', up to ' + a.duration_min + ' minutes each' : '') + '.\nOpen: ' + link + '\nChoose your name' + (a.require_pin ? ', type your 4-digit personal code' : '') + ', then start. Remember to write your working in your book!\nCode: ' + a.code + '\nParents, please remind your child of the time and praise the effort. Thank you!'; },
+    msg: function (a, link, cls, t1, t2, tl) {
+      if (a.mode === 'test') return '📝 Test: ' + a.title + ' (class ' + cls + ')\nStarts at ' + t1 + ', ' + a.duration_min + ' minutes. Start by ' + tl + ' at the latest; after that the page will not let you in.\nOpen: ' + link + '\nChoose your name, type your 4-digit personal code, then press Start. The clock runs from then and does not stop if you leave the page.\nCode: ' + a.code + '\nParents, please help your child find a quiet place at this time. Thank you!';
+      return '📚 ' + a.title + ' (class ' + cls + ')\nWhen: ' + t1 + ' to ' + t2 + (a.duration_min ? ', up to ' + a.duration_min + ' minutes each' : '') + '.\nOpen: ' + link + '\nChoose your name' + (a.require_pin ? ', type your 4-digit personal code' : '') + ', then start. Remember to write your working in your book!\nCode: ' + a.code + '\nParents, please remind your child of the time and praise the effort. Thank you!'; },
     board: 'Results', refresh: 'Refresh', closeNow: 'Close now', sureClose: 'Close the assignment now? Students still working are handed in with what they have.', extend: 'Extend', ext: ['+15 min', '+1 hour', '+1 day'], reshare: 'Send to students again', delHw: 'Delete', sureDelHw: 'Delete this assignment and the students’ work? This cannot be undone.',
     copyScores: 'Copy scores', csv: 'Download CSV', toSc: 'Write notes for parents →', status: 'Status', score: 'Score', time: 'Time', q: 'Q',
     s: { none: 'Not started', work: 'Working', done: 'Handed in', auto: 'Handed in when time ran out', late: 'Late (no connection)', locked: 'Locked (wrong code too often)' },
     reset: 'Let them start again', unlock: 'Unlock', sureReset: function (n) { return 'Delete ' + n + '’s work so they can start again?'; },
-    sum: { n: 'Handed in', mean: 'Mean', med: 'Median', pass: '5 or above', good: '8 or above', work: 'Working', none: 'Not started' },
+    sum: { n: 'Handed in', mean: 'Mean', med: 'Median', pass: '5 or above', good: '8 or above', work: 'Working', none: 'Not started', hi: 'Highest', lo: 'Lowest', rate: 'Done' },
+    focus: { home: 'Homework is for practice: the board shows who has done it, who has not, and the questions the class missed most, to go over next lesson.', test: 'A test is for assessment: the board shows each score, the spread of scores, and how often each student left the page while working.', free: 'Optional practice: the board shows only who has practised.' },
+    away: 'Left page', awayTip: 'How many times the student left the page (another app, another tab, reloading) while working. Students are told about this beforehand. Once or twice can be the phone; many times is worth a quiet word.',
+    dist: 'Spread of scores', bands: ['Below 5', '5 to under 6.5', '6.5 to under 8', '8 and above'],
+    remindH: 'Remind those who have not done it', remindLead: 'These students have not handed in. You can message their parents, or post a general reminder (no names) in the class group.', remindCopy: 'Copy the general reminder',
+    remindMsg: function (a, n, t2, link) { return '⏰ ' + n + ' students still have to do "' + a.title + '". Due: ' + t2 + '.\nOpen ' + link + ' and do it, please. Parents, a reminder would help. Thank you!'; },
     fix: '3 questions to go over in class', fixLead: 'The questions the class got right least often, with the wrong option chosen most (usually the misconception to clear up).', right: '% right', chose: 'Chosen', perQ: 'Right answers per question', topic: 'Topic',
     freeHide: 'Optional practice: the board shows who has practised, not each child’s score.', waitOpen: 'Not open yet. The board fills in when students start.', mins: 'min',
     delAcc: 'Delete account', delAccLead: 'Deleting the account deletes every class, class list, assignment and all students’ work. Type your email to confirm.', delAccGo: 'Delete for good', sureDelAcc: 'Are you sure you want to delete the account?',
@@ -163,10 +189,24 @@
   }
 
   /* ------------------------------------------------------------ 1. log in, sign up, recover */
-  function authView(mode) {
+  var info = null;
+  function getInfo() {
+    if (info) return Promise.resolve(info);
+    return fetch(API + '/v1/info', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (j) { info = j; return j; }, function () { return { email: false }; });
+  }
+  var LANG = vi ? 'vi' : 'en';
+  function authView(mode, way) {
     var tab = function (m, label, href) { return '<a href="' + href + '" class="cr-tab' + (mode === m ? ' on' : '') + '">' + label + '</a>'; };
     var f = function (id, label, type, extra) { return '<label>' + label + '<input id="' + id + '" type="' + type + '" ' + (extra || '') + '></label>'; };
-    app.innerHTML = '<div class="cr-tabs">' + tab('login', T.login, '#/') + tab('signup', T.signup, '#/dang-ki') + tab('forgot', T.forgot, '#/khoi-phuc') + '</div>' +
+    var tabs = '<div class="cr-tabs">' + tab('login', T.login, '#/') + tab('signup', T.signup, '#/dang-ki') + tab('forgot', T.forgot, '#/khoi-phuc') + '</div>';
+    if (mode === 'forgot' && !way) {
+      app.innerHTML = tabs + '<p>' + T.loading + '</p>';
+      getInfo().then(function (i) { if (/khoi-phuc|recover/.test(location.hash) && !(me && me.token)) authView('forgot', i.email ? 'mail' : 'rc'); });
+      return;
+    }
+    var ways = mode === 'forgot' && info && info.email ? '<p class="cr-ways">' + ['mail', 'rc'].map(function (w) { return '<button type="button" class="cr-way' + (w === way ? ' on' : '') + '" data-w="' + w + '" aria-pressed="' + (w === way) + '">' + (w === 'mail' ? T.viaMail : T.viaRc) + '</button>'; }).join('') + '</p>' : '';
+    if (mode === 'forgot' && way === 'mail') return mailResetView(tabs + ways, f);
+    app.innerHTML = tabs + ways +
       '<form class="jn-form cr-auth" id="cr-f">' +
       (mode === 'signup' ? f('cr-name', T.name, 'text', 'maxlength="80" autocomplete="name"') + f('cr-school', T.school, 'text', 'maxlength="120" autocomplete="organization"') : '') +
       f('cr-email', T.email, 'email', 'autocomplete="email" maxlength="254"') +
@@ -175,6 +215,7 @@
       (mode !== 'login' ? f('cr-pw2', T.pw2, 'password', 'autocomplete="new-password" maxlength="200"') : '') +
       (mode === 'signup' ? '<label class="tool-check cr-agree"><input type="checkbox" id="cr-agree"> <span>' + T.agree + '</span></label>' : '') +
       '<button class="btn" type="submit" id="cr-go">' + (mode === 'login' ? T.login : mode === 'signup' ? T.signup : T.forgot) + '</button>' + msgBox('cr-msg') + '</form>';
+    bindWays();
     $('#cr-f').addEventListener('submit', function (e) {
       e.preventDefault();
       var msg = $('#cr-msg'), btn = $('#cr-go'), email = $('#cr-email').value.trim(), pw = $('#cr-pw').value;
@@ -187,16 +228,48 @@
       busy(btn, true); msg.textContent = T.loading;
       pwHash(email, pw).then(function (h) {
         if (mode === 'login') return api('POST', '/v1/auth/login', { email: email, pw: h });
-        if (mode === 'signup') return api('POST', '/v1/auth/signup', { email: email, pw: h, name: $('#cr-name').value, school: $('#cr-school').value });
+        if (mode === 'signup') return api('POST', '/v1/auth/signup', { email: email, pw: h, name: $('#cr-name').value, school: $('#cr-school').value, lang: LANG });
         return api('POST', '/v1/auth/recover', { email: email, pw: h, recovery: $('#cr-rc').value });
       }).then(function (r) {
         setMe({ token: r.token, teacher: r.teacher });
-        if (r.recovery) recoveryView(r.recovery); else go('#/');
+        if (r.recovery) recoveryView(r.recovery, r.mailed); else go('#/');
       }).catch(function (er) { busy(btn, false); msg.textContent = errText(er); });
     });
   }
-  function recoveryView(rc) {
-    app.innerHTML = '<section class="tool cr-rc"><h2>' + T.rcTitle + '</h2><p class="cr-code">' + esc(rc) + '</p><p>' + T.rcLead + '</p><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-c">' + T.rcCopy + '</button><button type="button" class="btn btn-outline" id="cr-s">' + T.rcSave + '</button><button type="button" class="btn" id="cr-ok">' + T.rcDone + '</button></p></section>';
+  function bindWays() {
+    $$('.cr-way').forEach(function (b) { b.addEventListener('click', function () { authView('forgot', b.getAttribute('data-w')); }); });
+  }
+  /* Forgot password, by e-mail: step 1 sends a 6-digit code, step 2 sets the new password with it. */
+  function mailResetView(head, f) {
+    app.innerHTML = head + '<form class="jn-form cr-auth" id="cr-f">' + f('cr-email', T.email, 'email', 'autocomplete="email" maxlength="254"') +
+      '<button class="btn btn-outline" type="button" id="cr-send">' + T.sendCode + '</button>' + msgBox('cr-sent') +
+      '<div id="cr-step2" hidden>' + f('cr-code', T.code6, 'text', 'inputmode="numeric" autocomplete="one-time-code" maxlength="7" pattern="[0-9 ]*"') +
+      f('cr-pw', T.pwNew, 'password', 'autocomplete="new-password" maxlength="200"') + f('cr-pw2', T.pw2, 'password', 'autocomplete="new-password" maxlength="200"') +
+      '<button class="btn" type="submit" id="cr-go">' + T.setPw + '</button></div>' + msgBox('cr-msg') + '</form>';
+    bindWays();
+    $('#cr-send').addEventListener('click', function () {
+      var btn = this, email = $('#cr-email').value.trim(), out = $('#cr-sent');
+      if (!email) { out.textContent = T.fill; return; }
+      busy(btn, true); out.textContent = T.loading;
+      api('POST', '/v1/auth/reset-request', { email: email, lang: LANG }).then(function (r) {
+        out.textContent = T.sentCode(r.minutes); $('#cr-step2').hidden = false; $('#cr-code').focus();
+        setTimeout(function () { busy(btn, false); }, 30000);
+      }).catch(function (e) { busy(btn, false); out.textContent = errText(e); });
+    });
+    $('#cr-f').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var msg = $('#cr-msg'), btn = $('#cr-go'), email = $('#cr-email').value.trim(), pw = $('#cr-pw').value, code = $('#cr-code').value.replace(/\D/g, '');
+      if (!email || !pw || code.length !== 6) { msg.textContent = T.fill; return; }
+      if (pw.length < 8) { msg.textContent = T.short; return; }
+      if (pw !== $('#cr-pw2').value) { msg.textContent = T.mismatch; return; }
+      busy(btn, true); msg.textContent = T.loading;
+      pwHash(email, pw).then(function (h) { return api('POST', '/v1/auth/reset', { email: email, code: code, pw: h }); })
+        .then(function (r) { setMe({ token: r.token, teacher: r.teacher }); go('#/'); })
+        .catch(function (er) { busy(btn, false); msg.textContent = errText(er); });
+    });
+  }
+  function recoveryView(rc, mailed) {
+    app.innerHTML = '<section class="tool cr-rc"><h2>' + T.rcTitle + '</h2><p class="cr-code">' + esc(rc) + '</p><p>' + T.rcLead + '</p>' + (mailed ? '<p class="cr-ok">✉️ ' + T.rcMailed + '</p>' : '') + '<p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-c">' + T.rcCopy + '</button><button type="button" class="btn btn-outline" id="cr-s">' + T.rcSave + '</button><button type="button" class="btn" id="cr-ok">' + T.rcDone + '</button></p></section>';
     $('#cr-c').addEventListener('click', function () { copyText(rc, $('#cr-c'), T.rcCopy); });
     $('#cr-s').addEventListener('click', function () {
       var b = new Blob(['Lemonmath\n' + T.rcTitle + ': ' + rc + '\n' + T.email + ': ' + me.teacher.email + '\n'], { type: 'text/plain' }), a = el('a');
@@ -234,6 +307,7 @@
   function classView(id, tab) {
     app.innerHTML = top('<a href="#/">' + T.back + '</a> · ') + '<p>' + T.loading + '</p>';
     api('GET', '/v1/classes/' + id).then(function (r) {
+      if (location.hash.indexOf('#/lop/' + id) !== 0) return;      // the teacher has already moved on
       var c = r.class, students = r.students;
       app.innerHTML = top('<a href="#/">' + T.back + '</a> · ') + '<h2 class="cr-h">' + esc(c.name) + ' <small>' + (c.grade ? T.gName(c.grade) + ' · ' : '') + students.length + ' ' + T.stu + '</small></h2>' +
         '<div class="cr-tabs"><a class="cr-tab' + (tab === 'hw' ? ' on' : '') + '" href="#/lop/' + id + '">' + T.tabHw + '</a><a class="cr-tab' + (tab === 'stu' ? ' on' : '') + '" href="#/lop/' + id + '/hoc-sinh">' + T.tabStu + '</a></div><div id="cr-body"></div>';
@@ -244,12 +318,12 @@
     var body = $('#cr-body');
     body.innerHTML = '<p class="tool-actions"><a class="btn" href="#/lop/' + c.id + '/giao">' + T.newHw + '</a></p><div id="cr-hws">' + T.loading + '</div>';
     api('GET', '/v1/classes/' + c.id + '/assignments').then(function (r) {
-      var now = r.now;
-      $('#cr-hws').innerHTML = r.assignments.length ? '<div class="cr-cards">' + r.assignments.map(function (a) {
+      var now = r.now, box = $('#cr-hws'); if (!box) return;     // the teacher has already moved on
+      box.innerHTML = r.assignments.length ? '<div class="cr-cards">' + r.assignments.map(function (a) {
         var s = stateOf(a, now);
-        return '<a class="cr-card cr-' + s + '" href="#/bai/' + a.code + '"><b>' + esc(a.title) + '</b><span>' + T.st[s] + ' · ' + esc(fmtDT(a.open_at, true)) + ' → ' + esc(fmtDT(a.close_at, true)) + '</span><span>' + T.code + ' ' + a.code + ' · ' + T.doneOf(a.done, students.length) + '</span></a>';
+        return '<a class="cr-card cr-' + s + '" href="#/bai/' + a.code + '"><b>' + (a.mode === 'test' ? '<span class="cr-kb">' + T.modes.test + '</span> ' : '') + esc(a.title) + '</b><span>' + T.st[s] + ' · ' + esc(fmtDT(a.open_at, true)) + ' → ' + esc(fmtDT(a.close_at, true)) + '</span><span>' + T.code + ' ' + a.code + ' · ' + T.doneOf(a.done, students.length) + '</span></a>';
       }).join('') + '</div>' : '<p>' + T.noHw + '</p>';
-    }).catch(function (e) { $('#cr-hws').innerHTML = '<p class="tool-msg">' + errText(e) + '</p>'; });
+    }).catch(function (e) { var box = $('#cr-hws'); if (box) box.innerHTML = '<p class="tool-msg">' + errText(e) + '</p>'; });
   }
   function studentsTab(c, students) {
     var body = $('#cr-body');
@@ -314,24 +388,59 @@
         '<fieldset class="tool-set" id="nw-ls" hidden><legend>' + T.lessons + '</legend><p class="tool-mini"><button type="button" class="tool-link" id="nw-all">' + T.all + '</button> · <button type="button" class="tool-link" id="nw-none">' + T.none + '</button></p><div id="nw-tree"></div></fieldset>' +
         '<fieldset class="tool-set"><legend>' + T.count + '</legend><div class="tool-row">' + ['mc', 'tf', 'sa'].map(function (k, i) { return '<label>' + T[k] + ' <input type="number" id="nw-' + k + '" min="0" max="40" value="' + [10, 0, 0][i] + '" inputmode="numeric"> <small id="nw-h-' + k + '"></small></label>'; }).join('') + '</div>' +
         '<label class="tool-check"><input type="checkbox" id="nw-shuf" checked> ' + T.shuffleL + '</label></fieldset>' +
-        '<fieldset class="tool-set"><legend>' + T.mode + '</legend>' + ['home', 'class2', 'free'].map(function (m) { var off = primary && m !== 'free'; return '<label class="tool-check cr-radio"><input type="radio" name="nw-mode" value="' + m + '"' + ((primary ? m === 'free' : m === 'home') ? ' checked' : '') + (off ? ' disabled' : '') + '> ' + T.modes[m] + '</label>'; }).join('') +
+        '<fieldset class="tool-set"><legend>' + T.mode + '</legend>' + (primary ? ['free'] : ['home', 'test']).map(function (m, i) { return '<label class="tool-check cr-radio cr-kind"><input type="radio" name="nw-mode" value="' + m + '"' + (i === 0 ? ' checked' : '') + '> <span><b>' + T.modes[m] + '</b><small>' + T.kindDesc[m] + '</small></span></label>'; }).join('') +
         (primary ? '<p class="tool-mini">' + T.freeNote + '</p>' : '') + '</fieldset>' +
-        '<fieldset class="tool-set"><legend>' + T.when + '</legend><p class="cr-presets">' + T.presets.map(function (p, i) { return '<button type="button" class="btn btn-outline cr-pre" data-p="' + i + '">' + p + '</button>'; }).join('') + '</p>' +
-        '<div class="tool-row"><label>' + T.from + ' <input type="datetime-local" id="nw-open"></label><label>' + T.to + ' <input type="datetime-local" id="nw-close"></label><label>' + T.dur + ' <input type="number" id="nw-dur" min="0" max="300" value="0" inputmode="numeric"></label></div>' +
+        '<fieldset class="tool-set" id="nw-home"><legend>' + T.when + '</legend><p class="cr-presets">' + T.presets.map(function (p, i) { return '<button type="button" class="btn btn-outline cr-pre" data-p="' + i + '">' + p + '</button>'; }).join('') + '</p>' +
+        '<div class="tool-row"><label>' + T.from + ' <input type="datetime-local" id="nw-open"></label><label>' + T.to + ' <input type="datetime-local" id="nw-close"></label></div>' +
+        '<div class="tool-row"><label class="grow">' + T.dur + ' <input type="number" id="nw-dur" min="0" max="300" value="0" inputmode="numeric"></label></div>' +
         '<label class="tool-check"><input type="checkbox" id="nw-pin"' + (primary ? '' : ' checked') + '> ' + T.needPin + '</label>' +
-        '<div class="tool-row"><label class="grow">' + T.keyWhen + ' <select id="nw-key"><option value="close">' + T.keyOpts.close + '</option><option value="submit"' + (primary ? ' selected' : '') + '>' + T.keyOpts.submit + '</option></select></label></div></fieldset>' +
+        '<div class="tool-row"><label class="grow">' + T.keyWhen + ' <select id="nw-key"><option value="close">' + T.keyOpts.close + '</option><option value="submit" selected>' + T.keyOpts.submit + '</option></select></label></div></fieldset>' +
+        '<fieldset class="tool-set" id="nw-test" hidden><legend>' + T.when + '</legend><p class="cr-presets">' + T.tPresets.map(function (p, i) { return '<button type="button" class="btn btn-outline cr-tpre" data-p="' + i + '">' + p + '</button>'; }).join('') + '</p>' +
+        '<div class="tool-row"><label>' + T.tStart + ' <input type="datetime-local" id="nw-tstart"></label>' +
+        '<label>' + T.tDur + ' <input type="number" id="nw-tdur" min="1" max="300" value="15" inputmode="numeric"></label>' +
+        '<label>' + T.tLate + ' <input type="number" id="nw-tlate" min="0" max="60" value="5" inputmode="numeric"></label></div>' +
+        '<p class="cr-presets">' + [15, 45, 90].map(function (m) { return '<button type="button" class="btn btn-outline cr-tdur" data-d="' + m + '">' + m + ' ' + T.mins + '</button>'; }).join('') + '</p>' +
+        '<p class="cr-ok" id="nw-tclose"></p></fieldset>' +
         '<p class="tool-msg" id="nw-est"></p><p class="tool-actions"><button type="button" class="btn" id="nw-go">' + T.give + '</button></p>' + msgBox('nw-msg') + '</section>';
       var bank = null, cache = {}, tree = $('#nw-tree');
       var setWin = function (a, b) { $('#nw-open').value = toInput(a); $('#nw-close').value = toInput(b); est(); };
+      var late = Date.now() > at(20, 0, 0), sunday = (7 - new Date().getDay()) % 7 || (late ? 7 : 0);
       var presets = [
-        function () { var a = at(20, 0, 0); if (Date.now() > at(20, 45, 0)) a = at(20, 0, 1); setWin(a, a + 3600e3); },
+        function () { setWin(Date.now(), at(21, 0, 0)); },
         function () { setWin(Date.now(), at(21, 0, 1)); },
-        function () { setWin(Date.now(), Date.now() + 45 * 60e3); },
+        function () { setWin(Date.now(), at(23, 59, sunday)); },
         function () { setWin(Date.now(), at(21, 0, 7)); }
       ];
-      if (primary) presets[3](); else presets[0]();
+      if (late) $('.cr-pre[data-p="0"]').hidden = true;      // "until 21:00 tonight" makes no sense after 20:00
+      if (primary) presets[3](); else presets[1]();
       $$('.cr-pre').forEach(function (b) { b.addEventListener('click', function () { presets[+b.getAttribute('data-p')](); }); });
-      $$('input[name="nw-mode"]').forEach(function (r) { r.addEventListener('change', function () { var m = r.value; $('#nw-pin').checked = m !== 'free'; $('#nw-key').value = m === 'home' ? 'close' : 'submit'; if (m === 'class2') presets[2](); }); });
+      /* a test: start time + time allowed + a few minutes to come in late = closing time */
+      var tPresets = [
+        function () { $('#nw-tstart').value = toInput(at(20, 0, Date.now() > at(19, 55, 0) ? 1 : 0)); testTimes(); },
+        function () { $('#nw-tstart').value = toInput(Date.now() + 60e3); testTimes(); }
+      ];
+      $$('.cr-tpre').forEach(function (b) { b.addEventListener('click', function () { tPresets[+b.getAttribute('data-p')](); }); });
+      $$('.cr-tdur').forEach(function (b) { b.addEventListener('click', function () { $('#nw-tdur').value = b.getAttribute('data-d'); testTimes(); }); });
+      function testWin() {
+        var st = fromInput($('#nw-tstart').value), dm = parseInt($('#nw-tdur').value, 10) || 0, lm = Math.max(0, Math.min(60, parseInt($('#nw-tlate').value, 10) || 0));
+        return { open: st, dur: dm, close: st + (lm + dm) * 60e3, last: st + lm * 60e3 };
+      }
+      function testTimes() {
+        var w = testWin(), box = $('#nw-tclose');
+        box.textContent = isNaN(w.open) || w.dur < 1 ? '' : T.tCloses(fmtDT(w.close, true), fmtDT(w.last), w.dur);
+        est();
+      }
+      tPresets[0]();
+      ['nw-tstart', 'nw-tdur', 'nw-tlate'].forEach(function (id) { $('#' + id).addEventListener('input', testTimes); });
+      function kind() { return ($('input[name="nw-mode"]:checked') || {}).value || 'home'; }
+      function showKind() {
+        var t = kind() === 'test', ti = $('#nw-title');
+        $('#nw-home').hidden = t; $('#nw-test').hidden = !t;
+        if (ti.value === T.hwNameV(today) || ti.value === T.testNameV(today)) ti.value = t ? T.testNameV(today) : T.hwNameV(today);   // only if the teacher has not typed a title
+        $('#nw-shuf').disabled = t; if (t) $('#nw-shuf').checked = true;
+        est();
+      }
+      $$('input[name="nw-mode"]').forEach(function (r) { r.addEventListener('change', showKind); });
       function chosen() { return $$('input[data-l]:checked', tree).map(function (i) { return +i.getAttribute('data-l'); }); }
       function avail() {
         var ids = chosen(), n = { mc: 0, tf: 0, sa: 0 };
@@ -348,8 +457,8 @@
           if (n) mins += n * pool.reduce(function (s, it) { return s + minutesOf(it); }, 0) / pool.length;
         });
         mins = Math.round(mins);
-        var win = (fromInput($('#nw-close').value) - fromInput($('#nw-open').value)) / 60e3;
-        box.textContent = mins ? T.est(mins) + (mins > 60 ? T.estLong : '') + (win > 0 && win < mins ? T.estWin : '') : '';
+        var t = kind() === 'test', win = (fromInput($('#nw-close').value) - fromInput($('#nw-open').value)) / 60e3, lim = t ? testWin().dur : parseInt($('#nw-dur').value, 10) || 0;
+        box.textContent = mins ? T.est(mins) + (mins > 60 && !t ? T.estLong : '') + (lim > 0 && lim < mins ? T.estShort : !t && win > 0 && win < mins ? T.estWin : '') : '';
       }
       function drawTree() {
         tree.innerHTML = '';
@@ -368,7 +477,7 @@
       });
       $('#nw-all').addEventListener('click', function () { $$('input[type=checkbox]', tree).forEach(function (i) { i.checked = true; }); avail(); });
       $('#nw-none').addEventListener('click', function () { $$('input[type=checkbox]', tree).forEach(function (i) { i.checked = false; }); avail(); });
-      ['nw-mc', 'nw-tf', 'nw-sa', 'nw-open', 'nw-close'].forEach(function (id) { $('#' + id).addEventListener('input', est); });
+      ['nw-mc', 'nw-tf', 'nw-sa', 'nw-open', 'nw-close', 'nw-dur'].forEach(function (id) { $('#' + id).addEventListener('input', est); });
       var loadBank = function () {
         var id = $('#nw-bank').value; bank = null; $('#nw-ls').hidden = true; est();
         if (!id) return;
@@ -394,13 +503,15 @@
         if (!bank || !ids.length) { msg.textContent = T.needLesson; return; }
         ['mc', 'tf', 'sa'].forEach(function (k) { var n = Math.max(0, Math.min(40, parseInt($('#nw-' + k).value, 10) || 0)); if (n) list = list.concat(take(k, n, ids)); });
         if (!list.length) { msg.textContent = T.needCount; return; }
-        var open = fromInput($('#nw-open').value), close = fromInput($('#nw-close').value);
+        var mode = kind(), test = mode === 'test', tw = testWin();
+        var open = test ? tw.open : fromInput($('#nw-open').value), close = test ? tw.close : fromInput($('#nw-close').value);
+        if (test && !(tw.dur >= 1)) { msg.textContent = T.errs.need_duration; return; }
         if (!(close > open)) { msg.textContent = T.errs.bad_time; return; }
-        var mode = ($('input[name="nw-mode"]:checked') || {}).value || 'home';
         busy(btn, true); msg.textContent = T.loading;
         api('POST', '/v1/assignments', {
           class_id: classId, title: $('#nw-title').value, lang: vi ? 'vi' : 'en', bank: $('#nw-bank').value, mode: mode,
-          open_at: open, close_at: close, duration_min: parseInt($('#nw-dur').value, 10) || 0, require_pin: $('#nw-pin').checked, show_key: $('#nw-key').value, shuffle: $('#nw-shuf').checked,
+          open_at: open, close_at: close, duration_min: test ? tw.dur : parseInt($('#nw-dur').value, 10) || 0,
+          require_pin: test || $('#nw-pin').checked, show_key: test ? 'close' : $('#nw-key').value, shuffle: test || $('#nw-shuf').checked,
           items: list.map(function (it) { var o = { y: it.y, q: it.q, k: it.k, e: it.e || '', lt: lessonTitle(it.l) }; if (it.o) o.o = it.o; if (it.c) o.c = it.c; if (it.x) o.x = 1; if (it.v) o.v = it.v; return o; })
         }).then(function (r) { location.hash = '#/bai/' + r.assignment.code + '/gui'; })
           .catch(function (e) { busy(btn, false); msg.textContent = errText(e); });
@@ -415,7 +526,7 @@
     return '<section class="tool cr-share" id="cr-share"><h3>' + T.shareH + '</h3><p>' + T.shareLead + '</p><div class="cr-share-grid"><div><p class="cr-code">' + a.code + '</p>' +
       '<p class="cr-linkline"><span>' + T.link + ':</span> <a href="' + esc(link) + '" target="_blank" rel="noopener">' + esc(link.replace(/^https?:\/\//, '')) + '</a></p>' +
       '<p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-cl">' + T.copyLink + '</button></p></div>' + (qr ? '<figure class="cr-qr">' + qr.innerHTML + '<figcaption>' + T.scan + '</figcaption></figure>' : '') + '</div>' +
-      '<label class="cr-lbl" for="cr-zalo">' + T.zalo + '</label><textarea id="cr-zalo" rows="7">' + esc(T.msg(a, link, cls, fmtDT(a.open_at, true), fmtDT(a.close_at, true))) + '</textarea>' +
+      '<label class="cr-lbl" for="cr-zalo">' + T.zalo + '</label><textarea id="cr-zalo" rows="7">' + esc(T.msg(a, link, cls, fmtDT(a.open_at, true), fmtDT(a.close_at, true), fmtDT(a.close_at - a.duration_min * 60e3))) + '</textarea>' +
       '<p class="tool-actions"><button type="button" class="btn" id="cr-cm">' + T.copyMsg + '</button></p></section>';
   }
   function bindShare(a) {
@@ -438,10 +549,10 @@
     var share = /\/gui$/.test(location.hash);
     app.innerHTML = top() + '<p>' + T.loading + '</p>';
     var load = function () {
-      return api('GET', '/v1/assignments/' + code).then(function (r) { draw(r); return r; }).catch(function (e) { app.innerHTML = top() + '<p class="tool-msg">' + errText(e) + '</p>'; });
+      return api('GET', '/v1/assignments/' + code).then(function (r) { if (location.hash.indexOf('#/bai/' + code) === 0) draw(r); return r; }).catch(function (e) { app.innerHTML = top() + '<p class="tool-msg">' + errText(e) + '</p>'; });
     };
     var draw = function (r) {
-      var a = r.assignment, items = r.items, now = r.now, s = stateOf(a, now), free = a.mode === 'free';
+      var a = r.assignment, items = r.items, now = r.now, s = stateOf(a, now), free = a.mode === 'free', test = a.mode === 'test';
       var by = {}; r.attempts.forEach(function (x) { by[x.student_id] = x; });
       var rows = r.students.filter(function (st) { return st.active || by[st.id]; }).map(function (st) {
         var x = by[st.id], k = !x || !x.started_at ? (x && x.pin_locked ? 'locked' : 'none') : !x.submitted_at ? 'work' : x.late ? 'late' : x.auto ? 'auto' : 'done';
@@ -463,38 +574,47 @@
         if (!sub) return '<td class="on"></td>';
         var p = pts(it, ans) / MAXP[it.y]; return '<td class="' + (p >= 1 ? 'ok' : p > 0 ? 'half' : 'no') + '">' + (p >= 1 ? '✓' : p > 0 ? '½' : '✗') + '</td>';
       };
-      var dur = function (x) { return x && x.submitted_at && x.started_at ? Math.max(1, Math.round((x.submitted_at - x.started_at) / 60e3)) + ' ' + T.mins : ''; };
-      app.innerHTML = top('<a href="#/lop/' + esc(a.class_id) + '">' + T.backClass + '</a> · ') +
-        '<h2 class="cr-h">' + esc(a.title) + ' <small>' + esc(r.class.name) + ' · ' + T.code + ' <b>' + a.code + '</b></small></h2>' +
-        '<p class="cr-when"><span class="cr-badge cr-' + s + '">' + T.st[s] + '</span> ' + esc(fmtDT(a.open_at, true)) + ' → ' + esc(fmtDT(a.close_at, true)) + (a.duration_min ? ' · ' + a.duration_min + ' ' + T.mins : '') + ' · ' + esc(T.modes[a.mode]) + '</p>' +
-        '<p class="tool-actions">' + (s !== 'closed' ? '<button type="button" class="btn btn-outline" id="cr-sh">' + T.reshare + '</button><button type="button" class="btn btn-outline" id="cr-close">' + T.closeNow + '</button>' : '') +
-        '<span class="cr-ext">' + T.extend + ': ' + T.ext.map(function (t, i) { return '<button type="button" class="tool-link" data-ext="' + i + '">' + t + '</button>'; }).join(' ') + '</span>' +
-        '<button type="button" class="btn btn-outline" id="cr-rf">' + T.refresh + '</button></p>' +
-        (share ? shareHtml(a, r.class.name) : '<div id="cr-sharebox"></div>') +
-        '<h3>' + T.board + '</h3>' + (s === 'soon' && !r.attempts.length ? '<p>' + T.waitOpen + '</p>' : '') +
-        '<div class="sc-stats">' + stat(T.sum.n, n + '/' + rows.filter(function (w) { return w.st.active; }).length) + stat(T.sum.work, cnt('work')) + stat(T.sum.none, cnt('none') + cnt('locked')) +
-        (!free && n ? stat(T.sum.mean, fmt(mean)) + stat(T.sum.med, fmt(med)) + stat(T.sum.pass, Math.round(100 * xs.filter(function (v) { return v >= 5; }).length / n) + '%') + stat(T.sum.good, Math.round(100 * xs.filter(function (v) { return v >= 8; }).length / n) + '%') : '') + '</div>' +
-        (free ? '<p class="tool-mini">' + T.freeHide + '</p>' : '') +
-        '<div class="cr-scroll"><table class="lv-board cr-board"><thead><tr><th>' + T.no + '</th><th class="l">' + T.sname + '</th><th class="l">' + T.status + '</th>' + (free ? '' : '<th>' + T.score + '</th>') + '<th>' + T.time + '</th>' +
-        items.map(function (it, i) { return '<th><span class="k-' + it.y + '">' + (i + 1) + '</span></th>'; }).join('') + '<th></th></tr></thead><tbody>' +
-        rows.map(function (w) {
-          var x = w.x, sub = !!(x && x.submitted_at);
-          return '<tr data-id="' + esc(w.st.id) + '" data-n="' + esc(w.st.name) + '"><td>' + w.st.no + '</td><td class="l">' + esc(w.st.name) + '</td><td class="l cr-s-' + w.k + '">' + T.s[w.k] + '</td>' + (free ? '' : '<td class="s">' + (w.s10 != null ? fmt(w.s10) : '') + '</td>') + '<td class="cr-t">' + dur(x) + '</td>' +
-            items.map(function (it, i) { return x && x.started_at ? (free && sub ? '<td class="on"></td>' : cell(it, x.answers[i], sub)) : '<td></td>'; }).join('') +
-            '<td class="cr-act">' + (x ? '<button type="button" class="tool-link" data-reset="1">' + (w.k === 'locked' ? T.unlock : T.reset) + '</button>' : '') + '</td></tr>';
-        }).join('') + '</tbody>' + (n ? '<tfoot><tr><td></td><td class="l">' + T.right + '</td><td></td>' + (free ? '' : '<td></td>') + '<td></td>' + qs.map(function (q) { return '<td class="' + (q.pc < 50 ? 'lo' : '') + '">' + q.pc + '</td>'; }).join('') + '<td></td></tr></tfoot>' : '') + '</table></div>' +
-        (worst.length ? '<h3>' + T.fix + '</h3><p class="tool-mini">' + T.fixLead + '</p>' + worst.map(function (q) {
+      var active = rows.filter(function (w) { return w.st.active; }).length, notDone = rows.filter(function (w) { return w.st.active && w.s10 == null; });
+      var bandOf = function (v) { return v < 5 ? 0 : v < 6.5 ? 1 : v < 8 ? 2 : 3; }, bandN = [0, 0, 0, 0]; xs.forEach(function (v) { bandN[bandOf(v)]++; });
+      var distHtml = test && n ? '<h3>' + T.dist + '</h3><div class="cr-dist">' + T.bands.map(function (l, i) { return '<div class="cr-bar b' + i + '"><span>' + l + '</span><i style="width:' + Math.round(100 * bandN[i] / n) + '%"></i><b>' + bandN[i] + '</b></div>'; }).join('') + '</div>' : '';
+      var fixHtml = worst.length ? '<h3>' + T.fix + '</h3><p class="tool-mini">' + T.fixLead + '</p>' + worst.map(function (q) {
           var it = q.it, wrong = it.y === 'mc' ? Object.keys(q.opt).filter(function (L) { return L !== it.k; }).sort(function (p, z) { return q.opt[z] - q.opt[p]; }) : [];
           return '<section class="jn-q cr-fixq"><div class="jn-stem"><b>' + T.q + ' ' + (q.i + 1) + '</b> · ' + q.pc + T.right + (it.lt ? ' · ' + T.topic + ': ' + esc(it.lt) : '') + '<div>' + safe(it.q) + '</div></div>' +
             (it.y === 'mc' ? '<div class="jn-opts c' + (it.c || 1) + '">' + it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<div class="jn-o' + (L === it.k ? ' ok' : L === wrong[0] ? ' no' : '') + '"><b>' + L + '.</b> <span>' + safe(o) + '</span> <i>(' + (q.opt[L] || 0) + ')</i></div>'; }).join('') + '</div>' : '') +
             (it.e ? '<div class="jn-expl">' + safe(it.e) + '</div>' : '') + '</section>';
-        }).join('') : '') +
+        }).join('') : '';
+      var remindHtml = !test && s === 'open' && notDone.length && r.attempts.length ? '<section class="tool cr-remind"><h3>' + T.remindH + ' (' + notDone.length + ')</h3><p class="tool-mini">' + T.remindLead + '</p><p>' + notDone.map(function (w) { return esc(w.st.name); }).join(', ') + '</p>' +
+        '<textarea id="cr-rmsg" rows="3">' + esc(T.remindMsg(a, notDone.length, fmtDT(a.close_at, true), HW + '?m=' + a.code)) + '</textarea><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-rcp">' + T.remindCopy + '</button></p></section>' : '';
+      var dur = function (x) { return x && x.submitted_at && x.started_at ? Math.max(1, Math.round((x.submitted_at - x.started_at) / 60e3)) + ' ' + T.mins : ''; };
+      app.innerHTML = top('<a href="#/lop/' + esc(a.class_id) + '">' + T.backClass + '</a> · ') +
+        '<h2 class="cr-h">' + esc(a.title) + ' <small>' + esc(r.class.name) + ' · ' + T.code + ' <b>' + a.code + '</b></small></h2>' +
+        '<p class="cr-when"><span class="cr-badge cr-' + s + '">' + T.st[s] + '</span> ' + esc(fmtDT(a.open_at, true)) + ' → ' + esc(fmtDT(a.close_at, true)) + (a.duration_min ? ' · ' + a.duration_min + ' ' + T.mins : '') + ' · ' + (a.mode === 'test' ? '<span class="cr-kb">' + T.modes.test + '</span> · ' + esc(T.lastStart(fmtDT(a.close_at - a.duration_min * 60e3))) : esc(T.modes[a.mode] || '')) + '</p>' +
+        '<p class="tool-actions">' + (s !== 'closed' ? '<button type="button" class="btn btn-outline" id="cr-sh">' + T.reshare + '</button><button type="button" class="btn btn-outline" id="cr-close">' + T.closeNow + '</button>' : '') +
+        '<span class="cr-ext">' + T.extend + ': ' + T.ext.map(function (t, i) { return '<button type="button" class="tool-link" data-ext="' + i + '">' + t + '</button>'; }).join(' ') + '</span>' +
+        '<button type="button" class="btn btn-outline" id="cr-rf">' + T.refresh + '</button></p>' +
+        (share ? shareHtml(a, r.class.name) : '<div id="cr-sharebox"></div>') +
+        '<h3>' + T.board + '</h3><p class="tool-mini cr-focus">' + (T.focus[a.mode] || T.focus.home) + '</p>' + (s === 'soon' && !r.attempts.length ? '<p>' + T.waitOpen + '</p>' : '') +
+        (test ? '<div class="sc-stats">' + stat(T.sum.n, n + '/' + active) + stat(T.sum.work, cnt('work')) + stat(T.sum.none, cnt('none') + cnt('locked')) +
+            (n ? stat(T.sum.mean, fmt(mean)) + stat(T.sum.med, fmt(med)) + stat(T.sum.hi, fmt(xs[n - 1])) + stat(T.sum.lo, fmt(xs[0])) + stat(T.sum.pass, Math.round(100 * xs.filter(function (v) { return v >= 5; }).length / n) + '%') : '') + '</div>' + distHtml
+          : '<div class="sc-stats">' + stat(T.sum.rate, (active ? Math.round(100 * Math.min(n, active) / active) : 0) + '%') + stat(T.sum.n, n + '/' + active) + stat(T.sum.work, cnt('work')) + stat(T.sum.none, cnt('none') + cnt('locked')) +
+            (!free && n ? stat(T.sum.mean, fmt(mean)) : '') + '</div>' + remindHtml + fixHtml) +
+        (free ? '<p class="tool-mini">' + T.freeHide + '</p>' : '') +
+        '<div class="cr-scroll"><table class="lv-board cr-board"><thead><tr><th>' + T.no + '</th><th class="l">' + T.sname + '</th><th class="l">' + T.status + '</th>' + (free ? '' : '<th>' + T.score + '</th>') + '<th>' + T.time + '</th>' + (test ? '<th title="' + esc(T.awayTip) + '">' + T.away + '</th>' : '') +
+        items.map(function (it, i) { return '<th><span class="k-' + it.y + '">' + (i + 1) + '</span></th>'; }).join('') + '<th></th></tr></thead><tbody>' +
+        rows.map(function (w) {
+          var x = w.x, sub = !!(x && x.submitted_at);
+          return '<tr data-id="' + esc(w.st.id) + '" data-n="' + esc(w.st.name) + '"><td>' + w.st.no + '</td><td class="l">' + esc(w.st.name) + '</td><td class="l cr-s-' + w.k + '">' + T.s[w.k] + '</td>' + (free ? '' : '<td class="s">' + (w.s10 != null ? fmt(w.s10) : '') + '</td>') + '<td class="cr-t">' + dur(x) + '</td>' + (test ? '<td class="cr-away' + (x && x.away >= 3 ? ' hi' : '') + '">' + (x && x.away ? x.away : '') + '</td>' : '') +
+            items.map(function (it, i) { return x && x.started_at ? (free && sub ? '<td class="on"></td>' : cell(it, x.answers[i], sub)) : '<td></td>'; }).join('') +
+            '<td class="cr-act">' + (x ? '<button type="button" class="tool-link" data-reset="1">' + (w.k === 'locked' ? T.unlock : T.reset) + '</button>' : '') + '</td></tr>';
+        }).join('') + '</tbody>' + (n ? '<tfoot><tr><td></td><td class="l">' + T.right + '</td><td></td>' + (free ? '' : '<td></td>') + '<td></td>' + (test ? '<td></td>' : '') + qs.map(function (q) { return '<td class="' + (q.pc < 50 ? 'lo' : '') + '">' + q.pc + '</td>'; }).join('') + '<td></td></tr></tfoot>' : '') + '</table></div>' +
+        (test ? fixHtml : '') +
         (!free && n ? '<p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-copy">' + T.copyScores + '</button><button type="button" class="btn btn-outline" id="cr-csv">' + T.csv + '</button>' + (SC ? '<button type="button" class="btn" id="cr-tosc">' + T.toSc + '</button>' : '') + '</p>' : '') +
         '<p class="tool-actions cr-foot"><button type="button" class="btn btn-outline cr-danger" id="cr-delhw">' + T.delHw + '</button></p>' + msgBox('cr-msg');
       drawMath(app);
       if (share) bindShare(a);
       var on = function (id, fn) { var b = $('#' + id); if (b) b.addEventListener('click', fn); };
       on('cr-rf', load);
+      on('cr-rcp', function () { copyText($('#cr-rmsg').value, $('#cr-rcp'), T.remindCopy); });
       on('cr-sh', function () { share = true; draw(r); $('#cr-share').scrollIntoView({ block: 'start' }); });
       on('cr-close', function () { if (window.confirm(T.sureClose)) api('PATCH', '/v1/assignments/' + code, { close_now: true }).then(load).catch(function (e) { $('#cr-msg').textContent = errText(e); }); });
       $$('[data-ext]').forEach(function (b) {
@@ -508,8 +628,8 @@
       on('cr-copy', function () { copyText(lines('\t').join('\n'), $('#cr-copy'), T.copyScores); });
       on('cr-csv', function () {
         var q = function (v) { v = String(v == null ? '' : v); return /[",;\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
-        var csv = [[T.no, T.sname, T.status, T.score].concat(items.map(function (it, i) { return T.q + (i + 1); })).map(q).join(',')].concat(rows.map(function (w) {
-          return [w.st.no, w.st.name, T.s[w.k], w.s10 != null ? fmt(w.s10) : ''].concat(items.map(function (it, i) { return w.x && w.x.answers[i] != null ? w.x.answers[i] : ''; })).map(q).join(',');
+        var csv = [[T.no, T.sname, T.status, T.score].concat(test ? [T.away] : [], items.map(function (it, i) { return T.q + (i + 1); })).map(q).join(',')].concat(rows.map(function (w) {
+          return [w.st.no, w.st.name, T.s[w.k], w.s10 != null ? fmt(w.s10) : ''].concat(test ? [w.x ? w.x.away || 0 : ''] : [], items.map(function (it, i) { return w.x && w.x.answers[i] != null ? w.x.answers[i] : ''; })).map(q).join(',');
         })).join('\r\n');
         var b = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }), lk = el('a');
         lk.href = URL.createObjectURL(b); lk.download = 'lemonmath-' + a.code + '.csv'; d.body.appendChild(lk); lk.click(); lk.remove();
@@ -531,7 +651,13 @@
   function accountView() {
     app.innerHTML = top('<a href="#/">' + T.back + '</a> · ') + '<section class="tool"><h2>' + T.account + '</h2><p><b>' + esc(me.teacher.name) + '</b><br>' + esc(me.teacher.email) + (me.teacher.school ? '<br>' + esc(me.teacher.school) : '') + '</p>' +
       '<p class="tool-actions"><button type="button" class="btn" id="cr-out">' + T.logout + '</button></p></section>' +
+      '<section class="tool"><h3>' + T.rcNew + '</h3><p>' + T.rcNewLead + '</p><p class="tool-actions"><button type="button" class="btn btn-outline" id="cr-rcn">' + T.rcNew + '</button></p>' + msgBox('cr-rcmsg') + '</section>' +
       '<section class="tool"><h3>' + T.delAcc + '</h3><p>' + T.delAccLead + '</p><div class="tool-row"><label class="grow">' + T.email + ' <input type="text" id="cr-de" autocomplete="off"></label></div><p class="tool-actions"><button type="button" class="btn btn-outline cr-danger" id="cr-dg">' + T.delAccGo + '</button></p>' + msgBox('cr-msg') + '</section>';
+    $('#cr-rcn').addEventListener('click', function () {
+      var btn = this; if (!window.confirm(T.sureRc)) return;
+      busy(btn, true);
+      api('POST', '/v1/me/recovery', { lang: LANG }).then(function (r) { recoveryView(r.recovery, r.mailed); }).catch(function (e) { busy(btn, false); $('#cr-rcmsg').textContent = errText(e); });
+    });
     $('#cr-out').addEventListener('click', function () { api('POST', '/v1/auth/logout').catch(function () {}).then(function () { setMe(null); go('#/'); }); });
     $('#cr-dg').addEventListener('click', function () {
       if (!window.confirm(T.sureDelAcc)) return;
