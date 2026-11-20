@@ -3,6 +3,7 @@
 Tính năng cho giáo viên (chủ dự án chốt ngày 20/11/2026): tài khoản giáo viên, lớp có danh sách học sinh và mã cá nhân, giao bài từ ngân hàng câu hỏi theo khung giờ (ví dụ 20:00 đến 21:00), bài tự đóng, chấm ngay, bảng kết quả cho giáo viên.
 
 - Trang giáo viên: /vi/lop-hoc/ và /classroom/ (assets/classroom.js)
+- Không thay thế công cụ cũ: Góc giáo viên (/vi/giao-vien/) vẫn tạo đề nhiều mã đề và "Cho cả lớp làm trực tiếp" KHÔNG cần tài khoản. Đầu trang Góc giáo viên có hai thẻ "Tạo đề ngay, không cần tài khoản" và "Lớp học của tôi"; trang đăng nhập Lớp học có dòng dẫn sang /vi/giao-vien/#tq-app (chủ dự án nhắc ngày 20/11/2026).
 - Trang học sinh: /vi/lam-bai/?m=MÃBÀI và /homework/?m=CODE (assets/hw.js)
 - Máy chủ: thư mục api/ (Cloudflare Worker + cơ sở dữ liệu D1), tự đăng bằng .github/workflows/api.yml
 - Hai trang trên chỉ được sinh ra khi data/curriculum.json có "site" → "api" (workflow tự ghi sau lần đăng đầu).

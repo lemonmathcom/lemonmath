@@ -52,6 +52,7 @@
   if (app && out) (function () {
     var bankUrl = app.getAttribute('data-bank'), siteName = app.getAttribute('data-site') || 'Lemonmath', bank = null, cache = {};
     app.hidden = false;
+    if (location.hash === '#tq-app') setTimeout(function () { app.scrollIntoView({ block: 'start' }); }, 0);   // "create a test now" links
     app.innerHTML = '<h2>' + T.tqH + '</h2><p>' + T.tqLead(app.getAttribute('data-total')) + '</p>' +
       '<div class="tool-row"><label>' + T.grade + ' <select id="tq-grade"><option value="">' + T.pick + '</option></select></label></div>' +
       '<fieldset id="tq-lessons" class="tool-set" hidden><legend>' + T.lessons + '</legend><p class="tool-mini"><button type="button" class="tool-link" id="tq-all">' + T.all + '</button> · <button type="button" class="tool-link" id="tq-none">' + T.none + '</button></p><div id="tq-tree"></div></fieldset>' +

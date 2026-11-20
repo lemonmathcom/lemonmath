@@ -84,7 +84,8 @@
     fix: '3 câu nên chữa đầu giờ', fixLead: 'Những câu cả lớp làm đúng ít nhất, kèm phương án sai được chọn nhiều nhất (thường là chỗ hiểu nhầm cần gỡ).', right: '% đúng', chose: 'Các em chọn', perQ: 'Tỉ lệ đúng từng câu', topic: 'Chủ đề',
     freeHide: 'Hình thức tự nguyện: bảng chỉ hiện em nào đã luyện tập, không hiện điểm từng em.', waitOpen: 'Bài chưa mở. Bảng sẽ có số liệu khi học sinh bắt đầu làm.', mins: 'phút',
     delAcc: 'Xóa tài khoản', delAccLead: 'Xóa tài khoản sẽ xóa luôn mọi lớp, danh sách học sinh, bài đã giao và bài làm. Gõ email của thầy cô để xác nhận.', delAccGo: 'Xóa vĩnh viễn', sureDelAcc: 'Thầy cô chắc chắn muốn xóa tài khoản?',
-    gName: function (n) { return 'Lớp ' + n; }, loading: 'Đang tải…'
+    gName: function (n) { return 'Lớp ' + n; }, loading: 'Đang tải…',
+    noAcc: 'Chỉ cần ra đề in giấy, hoặc cho cả lớp làm bài trực tiếp trên lớp? Không cần tài khoản:', noAccLink: 'tạo đề ngay ở Góc giáo viên →'
   } : {
     login: 'Log in', signup: 'Create a teacher account', forgot: 'Forgot password', logout: 'Log out', account: 'Account',
     email: 'Email', pw: 'Password', pw2: 'Password again', pwNew: 'New password', name: 'Your name (students and parents will see it, e.g. Ms Lan Nguyen)', school: 'School (optional)', rc: 'Recovery code (12 characters)',
@@ -130,7 +131,8 @@
     fix: '3 questions to go over in class', fixLead: 'The questions the class got right least often, with the wrong option chosen most (usually the misconception to clear up).', right: '% right', chose: 'Chosen', perQ: 'Right answers per question', topic: 'Topic',
     freeHide: 'Optional practice: the board shows who has practised, not each child’s score.', waitOpen: 'Not open yet. The board fills in when students start.', mins: 'min',
     delAcc: 'Delete account', delAccLead: 'Deleting the account deletes every class, class list, assignment and all students’ work. Type your email to confirm.', delAccGo: 'Delete for good', sureDelAcc: 'Are you sure you want to delete the account?',
-    gName: function (n) { return 'Grade ' + n; }, loading: 'Loading…'
+    gName: function (n) { return 'Grade ' + n; }, loading: 'Loading…',
+    noAcc: 'Just need a printed test, or a live test in class? No account needed:', noAccLink: 'make a test now in the Teachers’ corner →'
   };
 
   /* ------------------------------------------------------------ session and API */
@@ -214,7 +216,8 @@
       f('cr-pw', mode === 'forgot' ? T.pwNew : T.pw, 'password', 'autocomplete="' + (mode === 'login' ? 'current-password' : 'new-password') + '" maxlength="200"') +
       (mode !== 'login' ? f('cr-pw2', T.pw2, 'password', 'autocomplete="new-password" maxlength="200"') : '') +
       (mode === 'signup' ? '<label class="tool-check cr-agree"><input type="checkbox" id="cr-agree"> <span>' + T.agree + '</span></label>' : '') +
-      '<button class="btn" type="submit" id="cr-go">' + (mode === 'login' ? T.login : mode === 'signup' ? T.signup : T.forgot) + '</button>' + msgBox('cr-msg') + '</form>';
+      '<button class="btn" type="submit" id="cr-go">' + (mode === 'login' ? T.login : mode === 'signup' ? T.signup : T.forgot) + '</button>' + msgBox('cr-msg') + '</form>' +
+      (mode !== 'forgot' && SC ? '<p class="cr-noacc">' + T.noAcc + ' <a href="' + esc(SC) + '#tq-app">' + T.noAccLink + '</a></p>' : '');
     bindWays();
     $('#cr-f').addEventListener('submit', function (e) {
       e.preventDefault();

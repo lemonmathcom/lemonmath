@@ -694,7 +694,9 @@ function teachersPage(lang, page) {
   const total = writeBank(lang);
   const body = '<article class="lesson about teach"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' +
     '<p class="lead">' + esc(page.meta.description) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
-    (API_URL ? '<section class="tool cr-cta"><h2>' + esc(T.crCtaH) + '</h2><p>' + esc(T.crCtaP) + '</p><p><a class="btn" href="' + relDir(d, classroomDir(lang)) + '">' + esc(T.crCtaBtn) + '</a></p></section>\n' : '') +
+    // two ways: the test builder below needs no account; "My classes" does
+    (API_URL ? '<section class="cr-ways2" aria-label="' + esc(T.waysH) + '"><div class="tool cr-way1"><h2>' + esc(T.way1H) + '</h2><p>' + esc(T.way1P) + '</p><p><a class="btn" href="#tq-app">' + esc(T.way1Btn) + '</a></p></div>' +
+      '<div class="tool cr-cta"><h2>' + esc(T.crCtaH) + '</h2><p>' + esc(T.crCtaP) + '</p><p><a class="btn btn-outline" href="' + relDir(d, classroomDir(lang)) + '">' + esc(T.crCtaBtn) + '</a></p></div></section>\n' : '') +
     '<section id="tq-app" class="tool" data-bank="bank/" data-total="' + total + '" data-site="' + esc(site.name) + '"' +
     (LIVE_DB ? ' data-live="' + esc(LIVE_DB) + '" data-join="' + esc(abs(joinDir(lang)).replace(/^https?:\/\//, '').replace(/\/$/, '')) + '"' : '') + ' hidden></section>\n' +
     (LIVE_DB ? '<template id="lv-qr">' + qrSvg(abs(joinDir(lang))) + '</template>\n' : '') +
