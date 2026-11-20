@@ -35,6 +35,8 @@ Không bật thì mọi thứ vẫn chạy, giáo viên chỉ dùng mã khôi ph
 
 Người gửi: `Lemonmath <khong-tra-loi@lemonmath.com>` (biến MAIL_FROM trong api/wrangler.toml).
 
+**Đã bật 20/11/2026.** Tài khoản Resend của chủ dự án, tên miền lemonmath.com vùng Tokyo (ap-northeast-1), trạng thái Verified. DNS của lemonmath.com do Nhân Hòa quản lý (máy chủ tên miền `*.zonedns.vn`, trang customer.nhanhoa.com → Tên miền → DNS Record). Đã thêm 4 bản ghi: TXT `resend._domainkey` (khóa DKIM), CNAME `send` → `send.forge.rmta.net`, CNAME `rsend` → `rsend-apne1.forge.rmta.net`, TXT `_dmarc` = `v=DMARC1; p=none;`. Không thêm MX (Lemonmath chỉ gửi, không nhận thư). Không xóa 4 bản ghi A và CNAME `www` của GitHub Pages. Khóa API tên `lemonmath-api` (Sending access, chỉ lemonmath.com) nằm trong GitHub secret RESEND_API_KEY và secret cùng tên của Worker.
+
 ## Hoạt động thế nào
 
 - **Giáo viên** tạo tài khoản bằng email và mật khẩu. Mật khẩu được băm (PBKDF2, 150.000 vòng) ngay trên trình duyệt; máy chủ chỉ lưu HMAC của bản băm với khóa bí mật PEPPER. Khi tạo tài khoản, giáo viên nhận một **mã khôi phục 12 kí tự** (hiện một lần trên màn hình; khi đã bật email thì gửi kèm vào email đăng kí). Quên mật khẩu: dùng mã khôi phục, hoặc (khi đã bật email) nhận **mã 6 số qua email**, dùng được 15 phút, sai 5 lần thì hủy, tối đa 3 mã mỗi giờ; trang luôn trả lời giống nhau dù email có tài khoản hay không. Trang Tài khoản có nút "Tạo mã khôi phục mới" (mã cũ hết hiệu lực). Sai mật khẩu 8 lần liền thì tài khoản khóa 15 phút.
