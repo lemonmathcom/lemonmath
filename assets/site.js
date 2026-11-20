@@ -286,8 +286,12 @@
     var examsUrl = (base === '.' ? '' : base + '/') + (isVi ? 'on-thi/' : 'exams/');
 
     /* st: { n, blank, wrong: [labels], tf: {pts, max}, sa: {n, ok}, written: [labels of weak written problems] } */
-    function advice(s, k, st) {
+    /* ctx (from My classes and live tests, optional): { mode: 'home' | 'test' | 'free' | 'live', later: 'time the explanations appear' or '' }
+       so the advice never mentions a "Try again" button or explanations that are not on the page. */
+    function advice(s, k, st, ctx) {
       var causes = [], steps = [], aim = '';
+      ctx = ctx || {};
+      var once = ctx.mode === 'test' || ctx.mode === 'live', practise = ctx.mode === 'home' || ctx.mode === 'free';
       var answered = st.n - st.blank, wrongAnswered = st.wrong.length - st.blank;
       var list = st.wrong.slice(0, 12).join(', ') + (st.wrong.length > 12 ? ', …' : '');
       var hasTheory = !!$('.box-example, .box-definition, .box-theorem');
@@ -299,17 +303,25 @@
         if (st.sa.n && st.sa.ok < 0.4 * st.sa.n) causes.push(isVi ? 'Phần trả lời ngắn sai nhiều. Thường là do tính nhầm ở bước cuối hoặc làm tròn chưa đúng yêu cầu của đề.' : 'Many short answers are wrong. The usual reasons are a slip in the last step or rounding differently from what the question asks.');
         if (st.written.length) causes.push(isVi ? 'Bài tự luận số ' + st.written.join(', ') + ' được dưới nửa số điểm: {b} xem lại cách trình bày và các bước lập luận.' : 'Written problems ' + st.written.join(', ') + ' scored under half: look again at the reasoning and how you set it out.');
         causes = causes.slice(0, 3);
-        if (st.wrong.length) steps.push(isVi ? 'Xem lại ngay các câu: ' + list + '. Lời giải thích đã hiện dưới từng câu. Đọc xong, che lại rồi tự làm lần nữa vào vở.' : 'Look again at questions ' + list + ' now. The explanation is shown under each one. Read it, cover it, then redo the question in your notebook.');
+        if (st.wrong.length && ctx.later) steps.push(isVi ? 'Khi bài đóng (' + ctx.later + '), mở lại trang này để xem lời giải các câu: ' + list + '. Đọc xong, che lại rồi tự làm lần nữa vào vở.' : 'When it closes (' + ctx.later + '), open this page again to see the explanations for questions ' + list + '. Read them, cover them, then redo the questions in your book.');
+        else if (st.wrong.length) steps.push(isVi ? 'Xem lại ngay các câu: ' + list + '. Lời giải thích đã hiện dưới từng câu. Đọc xong, che lại rồi tự làm lần nữa vào vở.' : 'Look again at questions ' + list + ' now. The explanation is shown under each one. Read it, cover it, then redo the question in your notebook.');
         steps.push(hasTheory ? (isVi ? 'Đọc lại phần lí thuyết và các ví dụ ở đầu bài này, đi chậm từng bước, tay cầm bút viết theo.' : 'Reread the theory and the worked examples at the top of this lesson, slowly, pen in hand.')
           : (isVi ? 'Chủ đề nào sai nhiều nhất thì tìm bài học của chủ đề đó (ô tìm kiếm ở đầu trang) và học lại từ ví dụ.' : 'Find the lesson for the topic you missed most (the search box at the top) and study it again from the examples.'));
-        steps.push(isVi ? 'Ngày mai bấm “Làm lại”. Mục tiêu vừa sức: ' + (k === 0 ? '3,5' : '5') + ' điểm. Mỗi lần nhích lên một chút là đủ.' : 'Tomorrow press “Try again”. A fair target: ' + (k === 0 ? '3.5' : '5') + ' points. A little higher each time is enough.');
+        var target = isVi ? (k === 0 ? '3,5' : '5') : (k === 0 ? '3.5' : '5');
+        steps.push(once ? (isVi ? 'Bài kiểm tra sau, mục tiêu vừa sức: ' + target + ' điểm. Mỗi lần nhích lên một chút là đủ.' : 'Next test, a fair target: ' + target + ' points. A little higher each time is enough.')
+          : practise ? (isVi ? 'Bấm “Luyện lại” bên dưới để làm lại các câu (không tính điểm), đến khi tự làm đúng được.' : 'Press “Practise again” below to redo the questions (not scored) until you can get them right on your own.')
+          : (isVi ? 'Ngày mai bấm “Làm lại”. Mục tiêu vừa sức: ' + target + ' điểm. Mỗi lần nhích lên một chút là đủ.' : 'Tomorrow press “Try again”. A fair target: ' + target + ' points. A little higher each time is enough.'));
       } else {
         var next = BANDS[k + 1];
         aim = k === 6 ? (isVi ? '{B} đã làm chủ bài này. Việc tiếp theo là giữ phong độ và thử sức ở nội dung khó hơn.' : 'You have mastered this. Next: keep it steady and try something harder.')
           : (isVi ? 'Chặng tiếp theo: lên mức ' + next[1] + ' (từ ' + fmt(next[0]) + ' điểm), tức là cần thêm khoảng ' + fmt(next[0] - s) + ' điểm nữa.' : 'Next stop: “' + next[1] + '” (from ' + fmt(next[0]) + ' points), about ' + fmt(next[0] - s) + ' more.');
-        if (st.wrong.length) steps.push(isVi ? 'Sửa các câu còn sai: ' + list + '. Với mỗi câu, tự hỏi: mình sai vì chưa hiểu, vì tính nhầm, hay vì đọc sót đề?' : 'Fix the questions you missed: ' + list + '. For each one ask: did I not understand, miscalculate, or misread the question?');
+        if (st.wrong.length) steps.push(ctx.later
+          ? (isVi ? 'Khi bài đóng (' + ctx.later + ') và có lời giải, xem lại các câu còn sai: ' + list + '. Với mỗi câu, tự hỏi: mình sai vì chưa hiểu, vì tính nhầm, hay vì đọc sót đề?' : 'When it closes (' + ctx.later + ') and the explanations appear, look again at the questions you missed: ' + list + '. For each one ask: did I not understand, miscalculate, or misread the question?')
+          : (isVi ? 'Sửa các câu còn sai: ' + list + '. Với mỗi câu, tự hỏi: mình sai vì chưa hiểu, vì tính nhầm, hay vì đọc sót đề?' : 'Fix the questions you missed: ' + list + '. For each one ask: did I not understand, miscalculate, or misread the question?'));
         if (st.written.length) steps.push(isVi ? 'Viết lại lời giải bài tự luận số ' + st.written.join(', ') + ' cho đầy đủ các bước, rồi so với lời giải mẫu.' : 'Rewrite the solution to ' + st.written.join(', ') + ' with every step, then compare with the model solution.');
         if (k <= 3) steps.push(hasTheory ? (isVi ? 'Làm thêm các bài tập của bài này: tự làm trước, rồi mới mở lời giải để đối chiếu.' : 'Do the exercises of this lesson: try first, then open the solution to compare.')
+          : once ? (isVi ? 'Ôn lại bài học của những chủ đề còn sai (ô tìm kiếm ở đầu trang giúp tìm nhanh).' : 'Review the lessons for the topics you missed (the search box at the top finds them fast).')
+          : practise ? (isVi ? 'Bấm “Luyện lại” để làm lại các câu, rồi ôn bài học của những chủ đề còn sai.' : 'Press “Practise again” to redo the questions, then review the lessons for the topics you missed.')
           : (isVi ? 'Ôn lại bài học của những chủ đề còn sai, rồi làm lại đề này sau vài ngày.' : 'Review the lessons for the topics you missed, then redo this paper in a few days.'));
         else steps.push(isVi ? 'Thử sức có bấm giờ với một đề trong <a href="' + examsUrl + '">mục Ôn thi và Kho đề thi</a>.' : 'Try a timed paper from the <a href="' + examsUrl + '">exam prep section and past papers bank</a>.');
         if (k >= 5) steps.push(isVi ? 'Giảng lại một câu khó cho bạn bè. Giảng được cho người khác là lúc mình hiểu sâu nhất.' : 'Explain one hard question to a friend. Teaching it is when you understand it most deeply.');
@@ -321,10 +333,10 @@
 
     function ul(items) { return '<ul>' + items.map(function (t) { return '<li>' + fill(t) + '</li>'; }).join('') + '</ul>'; }
     /* host: element the panel is placed after; key: where the last score is remembered ('' = do not remember) */
-    function show(host, got, max, st, key) {
+    function show(host, got, max, st, key, ctx) {
       clear(host);
       if (!max) return;
-      var s = Math.round(got / max * 1000) / 100, k = bandOf(s), B = BANDS[k], a = advice(s, k, st);
+      var s = Math.round(got / max * 1000) / 100, k = bandOf(s), B = BANDS[k], a = advice(s, k, st, ctx);
       var box = d.createElement('section');
       box.className = 'fb fb-' + (s < 5 ? 'low' : k >= 4 ? 'top' : 'mid');
       box.setAttribute('aria-live', 'polite');

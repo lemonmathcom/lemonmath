@@ -178,7 +178,7 @@
         '<p class="jn-mine">' + T.yours + ': <b>' + mine + '</b> · ' + T.key + ': <b>' + key + '</b></p>' + (it.e ? '<div class="jn-expl">' + it.e + '</div>' : '') + '</section>';
     }).join('');
     drawMath(box);
-    if (window.lmFeedback) window.lmFeedback.show($('#jn-res'), got, max, st, '');
+    if (window.lmFeedback) window.lmFeedback.show($('#jn-res'), got, max, st, '', { mode: 'live' });
     window.scrollTo(0, 0);
   }
 })();

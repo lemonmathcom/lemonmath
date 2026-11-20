@@ -41,7 +41,9 @@
   var T = vi ? {
     code: 'Mã bài (6 kí tự thầy cô gửi)', open: 'Mở bài', needCode: 'Bạn nhập đủ 6 kí tự của mã bài nhé.', noHw: 'Chưa tìm thấy bài này. Bạn xem lại mã thầy cô gửi nhé.',
     err: 'Chưa kết nối được. Bạn kiểm tra mạng rồi thử lại nhé.', retry: 'Thử lại',
-    by: function (t, c) { return 'Lớp ' + c + ' · ' + t; }, opens: 'Mở lúc', closes: 'Đóng lúc', dur: function (m) { return 'Thời gian làm: ' + m + ' phút kể từ lúc bấm bắt đầu'; },
+    by: function (t, c) { return 'Lớp ' + c + ' · ' + t; },
+    fStart: function (a, b) { return 'Bắt đầu ' + a + ' · vào muộn nhất ' + b; }, fDur: function (m) { return m + ' phút, tính từ lúc bấm Bắt đầu, không dừng khi thoát ra'; },
+    fAway: 'Rời khỏi trang khi đang làm sẽ được ghi lại cho thầy cô', fDue: function (t) { return 'Hạn nộp ' + t; }, fMax: function (m) { return 'Mỗi bạn làm tối đa ' + m + ' phút'; }, opens: 'Mở lúc', closes: 'Đóng lúc', dur: function (m) { return 'Thời gian làm: ' + m + ' phút kể từ lúc bấm bắt đầu'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' câu nhiều lựa chọn'); if (p.tf) a.push(p.tf + ' câu đúng sai'); if (p.sa) a.push(p.sa + ' câu trả lời ngắn'); return n + ' câu: ' + a.join(', '); },
     modes: { home: 'Bài tập về nhà', test: 'Bài kiểm tra', class2: 'Bài luyện tập buổi 2', free: 'Luyện tập tự nguyện cùng bố mẹ' },
     tStarts: 'Bắt đầu lúc', tLast: 'Vào muộn nhất lúc', tDur: function (m) { return 'Thời gian làm bài: ' + m + ' phút. Đồng hồ chạy từ lúc bấm bắt đầu và không dừng lại khi thoát ra.'; },
@@ -61,7 +63,7 @@
     keepOpen: 'Bạn đừng xóa dữ liệu trình duyệt. Khi có mạng, mở lại trang này là bài tự gửi (trong vòng 15 phút sau giờ đóng). Bài gửi muộn vì mạng sẽ được đánh dấu để thầy cô xem xét.',
     tooLate: 'Bài đã đóng trước khi máy gửi được những câu cuối. Những câu đã lưu trước giờ đóng vẫn được chấm; kết quả sẽ hiện ở đây sau ít phút. Nếu cần, bạn báo thầy cô nhé.',
     result: 'Kết quả của bạn', auto: 'Hết giờ nên bài được tự nộp với những câu bạn đã làm.', late: 'Bài đến muộn vì mất mạng, đã được đánh dấu để thầy cô xem xét.',
-    keyAt: function (t) { return 'Đáp án và lời giải sẽ hiện sau khi bài đóng (' + t + '), để các bạn làm sau không thấy trước.'; }, showKey: 'Xem đáp án và lời giải', notYet: 'Chưa tới giờ xem đáp án.',
+    keyAt: function (t) { return 'Đáp án và lời giải sẽ hiện ở đây sau khi bài đóng (' + t + '), để các bạn làm sau không thấy trước. Giữ trang này mở, hoặc quay lại sau giờ đó.'; }, showKey: 'Xem đáp án và lời giải', keyReady: 'Bài đã đóng: đáp án và lời giải đã có.', notYet: 'Chưa tới giờ xem đáp án.',
     tNote: 'Bài kiểm tra: làm nháp ra giấy, bài chỉ nộp một lần. Đáp án và lời giải hiện sau khi bài đóng. Câu trả lời được lưu ngay trên máy, mất mạng vẫn làm tiếp được.',
     tAway: 'Trong lúc làm, mỗi lần bạn rời khỏi trang (mở ứng dụng khác, chuyển thẻ, tải lại trang) đều được ghi lại để thầy cô biết.',
     awayNow: function (n) { return 'Bạn vừa rời trang (lần ' + n + '). Thầy cô sẽ thấy số lần này.'; },
@@ -74,7 +76,9 @@
   } : {
     code: 'Assignment code (6 characters from your teacher)', open: 'Open', needCode: 'Please enter all 6 characters of the code.', noHw: 'This assignment was not found. Check the code your teacher sent.',
     err: 'Could not connect. Check your connection and try again.', retry: 'Try again',
-    by: function (t, c) { return 'Class ' + c + ' · ' + t; }, opens: 'Opens', closes: 'Closes', dur: function (m) { return 'Time allowed: ' + m + ' minutes from when you press start'; },
+    by: function (t, c) { return 'Class ' + c + ' · ' + t; },
+    fStart: function (a, b) { return 'Starts ' + a + ' · start by ' + b; }, fDur: function (m) { return m + ' minutes from when you press Start; the clock does not stop if you leave'; },
+    fAway: 'Leaving the page while you work is recorded for your teacher', fDue: function (t) { return 'Due ' + t; }, fMax: function (m) { return 'Up to ' + m + ' minutes each'; }, opens: 'Opens', closes: 'Closes', dur: function (m) { return 'Time allowed: ' + m + ' minutes from when you press start'; },
     nq: function (n, p) { var a = []; if (p.mc) a.push(p.mc + ' multiple choice'); if (p.tf) a.push(p.tf + ' true/false'); if (p.sa) a.push(p.sa + ' short answer'); return n + ' questions: ' + a.join(', '); },
     modes: { home: 'Homework', test: 'Test', class2: 'Practice in class', free: 'Optional practice with your parents' },
     tStarts: 'Starts at', tLast: 'Start by', tDur: function (m) { return 'Time allowed: ' + m + ' minutes. The clock runs from when you press Start and does not stop if you leave the page.'; },
@@ -94,7 +98,7 @@
     keepOpen: 'Do not clear your browser data. When you are back online, open this page again and it sends itself (within 15 minutes of the closing time). Work sent late because of the connection is marked for your teacher.',
     tooLate: 'The assignment closed before this device could send your last answers. Everything saved before the closing time is still marked; your result will appear here in a few minutes. Tell your teacher if you need to.',
     result: 'Your result', auto: 'Time ran out, so your work was handed in with the questions you had answered.', late: 'Your work arrived late because of the connection and is marked for your teacher.',
-    keyAt: function (t) { return 'The answers and explanations appear after the assignment closes (' + t + '), so classmates who work later cannot see them first.'; }, showKey: 'See answers and explanations', notYet: 'Not time for the answers yet.',
+    keyAt: function (t) { return 'The answers and explanations appear here after it closes (' + t + '), so classmates who work later cannot see them first. Keep this page open, or come back after that time.'; }, showKey: 'See answers and explanations', keyReady: 'It has closed: the answers and explanations are ready.', notYet: 'Not time for the answers yet.',
     tNote: 'This is a test: work on scrap paper, you can hand in only once. Answers and explanations appear after it closes. Your answers are saved on this device, so you can carry on without a connection.',
     tAway: 'While you work, each time you leave the page (another app, another tab, reloading) is recorded for your teacher.',
     awayNow: function (n) { return 'You left the page (time ' + n + '). Your teacher will see this count.'; },
@@ -160,12 +164,19 @@
 
   /* ------------------------------------------------------------ 2. who are you */
   function headHtml() {
-    var p = info.parts || {}, state = now() < info.open_at ? T.soon : now() < info.close_at ? T.now : T.over, test = isTest();
-    return '<div class="hw-head"><p class="hw-mode">' + esc(T.modes[info.mode] || '') + ' · <b>' + esc(state) + '</b></p><h2>' + esc(info.title) + '</h2>' +
-      '<p class="hw-meta">' + esc(T.by(info.teacher, info.class_name)) + '</p>' +
-      (test ? '<p class="hw-meta">' + T.tStarts + ' <b>' + esc(fmtDT(info.open_at, true)) + '</b> · ' + T.tLast + ' <b>' + esc(fmtDT(lastStart())) + '</b></p><p class="hw-meta hw-tdur">' + esc(T.tDur(info.duration_min)) + '</p><p class="hw-meta hw-tdur">' + esc(T.tAway) + '</p>'
-        : '<p class="hw-meta">' + T.opens + ' <b>' + esc(fmtDT(info.open_at, true)) + '</b> · ' + T.closes + ' <b>' + esc(fmtDT(info.close_at, true)) + '</b></p>' +
-      (info.duration_min ? '<p class="hw-meta">' + esc(T.dur(info.duration_min)) + '</p>' : '')) + '<p class="hw-meta">' + esc(T.nq(info.n, p)) + '</p></div>';
+    var p = info.parts || {}, t = now(), state = t < info.open_at ? T.soon : t < info.close_at ? T.now : T.over, test = isTest(), f = [];
+    if (test) {
+      f.push(['🕗', T.fStart(fmtDT(info.open_at, true), fmtDT(lastStart()))]);
+      f.push(['⏱', T.fDur(info.duration_min)]);
+      f.push(['👀', T.fAway]);
+    } else {
+      if (t < info.open_at) f.push(['🔓', T.opens + ' ' + fmtDT(info.open_at, true)]);
+      f.push(['📅', T.fDue(fmtDT(info.close_at, true))]);
+      if (info.duration_min) f.push(['⏱', T.fMax(info.duration_min)]);
+    }
+    f.push(['📝', T.nq(info.n, p)]);
+    return '<div class="hw-head"><p class="hw-mode"><span class="hw-kind k-' + esc(info.mode) + '">' + esc(T.modes[info.mode] || '') + '</span> <b>' + esc(state) + '</b></p><h2>' + esc(info.title) + '</h2>' +
+      '<p class="hw-meta">' + esc(T.by(info.teacher, info.class_name)) + '</p><ul class="hw-facts">' + f.map(function (x) { return '<li><span aria-hidden="true">' + x[0] + '</span> ' + esc(x[1]) + '</li>'; }).join('') + '</ul></div>';
   }
   function isTest() { return info && info.mode === 'test' && info.duration_min > 0; }
   function lastStart() { return info.close_at - info.duration_min * 60e3; }
@@ -224,7 +235,7 @@
     if (st.pending || now() >= deadline) { lockAndSend(); return; }
     work();
   }
-  function stopAll() { clearInterval(tickT); clearTimeout(syncT); clearTimeout(retryT); clearTimeout(beatT); app.onclick = null; app.oninput = null; }
+  function stopAll() { clearInterval(tickT); clearTimeout(tickT); clearTimeout(syncT); clearTimeout(retryT); clearTimeout(beatT); app.onclick = null; app.oninput = null; }
   function has(it, a) { a = a == null ? '' : String(a); return it.y === 'tf' ? /[TF]/.test(a) : a.trim() !== ''; }
   function count() { return items.filter(function (it, i) { return has(it, A[i]); }).length; }
   function partHead(i) { var j = ['mc', 'tf', 'sa'].indexOf(items[i].y), mixed = items.some(function (it) { return it.y !== items[0].y; }); return mixed && (i === 0 || items[i - 1].y !== items[i].y) ? '<h2 class="jn-part">' + T.parts[j] + '</h2>' : ''; }
@@ -369,9 +380,9 @@
   function result() {
     view = 'result'; stopAll();
     var r = st.result, tfw = function (c) { return c === 'T' ? T.stT : c === 'F' ? T.stF : T.none; };
-    var test = isTest(), canPractise = !test && r.review && r.review.length;
+    var test = isTest(), canPractise = !test && r.review && r.review.length, keyLater = !r.review && r.key_at, keyReady = keyLater && now() >= r.key_at;
     app.innerHTML = bar() + (r.auto ? '<p class="hw-flag">' + T.auto + '</p>' : '') + (r.late ? '<p class="hw-flag">' + T.late + '</p>' : '') + '<h2 id="hw-res">' + T.result + '</h2>' +
-      '<p class="hw-next">' + (test ? T.tNext : T.hwNext) + '</p>' + (canPractise ? '<p class="tool-actions"><button type="button" class="btn" id="hw-again">' + T.again + '</button></p>' : '') +
+      '<p class="hw-next" id="hw-next">' + (test ? T.tNext : T.hwNext) + '</p>' + (canPractise ? '<p class="tool-actions"><button type="button" class="btn" id="hw-again">' + T.again + '</button></p>' : '') +
       (r.review ? '<h2 class="jn-rev">' + T.review + '</h2>' + r.review.map(function (it, i) {
         var a = it.mine == null ? '' : String(it.mine), inner, mine, key;
         if (it.y === 'mc') { inner = it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<div class="jn-o' + (L === it.k ? ' ok' : a === L ? ' no' : '') + '"><b>' + L + '.</b> <span>' + safe(o) + '</span></div>'; }).join(''); mine = a || T.none; key = it.k; }
@@ -379,18 +390,20 @@
         else { inner = ''; mine = a ? esc(a) : T.none; key = esc(it.k); }
         return partHead(i) + '<section class="jn-q"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + safe(it.q) + '</div><div class="jn-opts c1">' + inner + '</div>' +
           '<p class="jn-mine">' + T.yours + ': <b>' + mine + '</b> · ' + T.key + ': <b>' + key + '</b></p>' + (it.e ? '<div class="jn-expl">' + safe(it.e) + '</div>' : '') + '</section>';
-      }).join('') : '<div class="hw-keyat"><p>' + esc(T.keyAt(fmtDT(r.key_at, true))) + '</p><p><button type="button" class="btn btn-outline" id="hw-key">' + T.showKey + '</button></p><p class="tool-msg" id="hw-msg"></p></div>') +
+      }).join('') : '<div class="hw-keyat"><p>' + esc(keyReady ? T.keyReady : T.keyAt(fmtDT(r.key_at, true))) + '</p>' + (keyReady ? '<p><button type="button" class="btn" id="hw-key">' + T.showKey + '</button></p>' : '') + '<p class="tool-msg" id="hw-msg"></p></div>') +
       '<p class="hw-small"><button type="button" class="tool-link" id="hw-switch">' + T.switchMe + '</button> · <a href="' + esc(app.getAttribute('data-home') || '/') + '">' + T.home + '</a></p>';
     drawMath(app);
-    if (window.lmFeedback) window.lmFeedback.show($('#hw-res'), r.got, r.max, r.stats, '');
+    if (window.lmFeedback) window.lmFeedback.show($('#hw-next'), r.got, r.max, r.stats, '', { mode: info.mode, later: keyLater && !keyReady ? fmtDT(r.key_at, true) : '' });
     var ag = $('#hw-again'); if (ag) ag.addEventListener('click', practice);
-    var k = $('#hw-key');
-    if (k) k.addEventListener('click', function () {
+    var getKey = function () {
       api('POST', '/v1/hw/' + code + '/result', { token: st.token }).then(function (x) {
         if (x.status === 200 && x.result && x.result.review) { st.result = x.result; keep(); result(); }
-        else $('#hw-msg').textContent = x.status === 0 ? T.err : T.notYet;
+        else if ($('#hw-msg')) $('#hw-msg').textContent = x.status === 0 ? T.err : T.notYet;
       });
-    });
+    };
+    var k = $('#hw-key'); if (k) k.addEventListener('click', getKey);
+    // still on this page when the assignment closes: the explanations appear by themselves
+    if (keyLater && !keyReady && r.key_at - now() < 6 * 3600e3) tickT = setTimeout(getKey, Math.max(1000, r.key_at - now() + 3000));
     window.scrollTo(0, 0);
   }
 
