@@ -172,7 +172,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
           const t = it.type;
           n++;
           const name = 'qz' + qzNo + '-' + n;
-          html += '<div class="qz-item" data-type="' + t + '" data-key="' + esc(t === 'sa' ? it.key.replace(',', '.') : it.key) + '"><div class="qz-q"><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
+          html += '<div class="qz-item" data-type="' + t + '" data-key="' + esc(t === 'sa' ? it.key.replace(',', '.') : it.key) + '"' + (it.lv && it.lv.length ? ' data-lv="' + esc(it.lv.join(' ')) + '"' : '') + '><div class="qz-q"><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
           if (t === 'mc') html += '<ul class="qz-opts cols-' + optCols(it.opts) + '">' + it.opts.map((o, i) => { const c = 'ABCD'[i]; return '<li><label><input type="radio" name="' + name + '" value="' + c + '"> <b>' + c + '.</b> ' + inl(o.replace(/\.\s*$/, '')) + '</label></li>'; }).join('') + '</ul>';
           if (t === 'tf') html += '<table class="qz-tf"><tbody>' + it.opts.map((o, i) => { const c = 'abcd'[i]; return '<tr><td><b>' + c + ')</b> ' + inl(o) + '</td><td><label><input type="radio" name="' + name + c + '" value="T"> ' + L.T + '</label></td><td><label><input type="radio" name="' + name + c + '" value="F"> ' + L.F + '</label></td></tr>'; }).join('') + '</tbody></table>';
           if (t === 'sa') html += '<p class="qz-sa"><input type="text" inputmode="decimal" autocomplete="off" maxlength="8" placeholder="' + L.saPh + '" aria-label="' + L.answer + '"><span class="qz-boxes" aria-hidden="true"><i></i><i></i><i></i><i></i></span></p>';

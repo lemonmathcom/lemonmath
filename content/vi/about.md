@@ -34,7 +34,9 @@ Toàn bộ chữ trong bài là do Lemonmath tự viết, không chép từ sác
 
 ## Tiến độ học của bạn
 
-Khi bạn bấm "Đánh dấu đã học xong", bài học chỉ được ghi nhớ trên chính thiết bị của bạn. Chúng tôi không nhận dữ liệu nào, và bạn cũng không cần tạo tài khoản.
+Khi bạn bấm "Đánh dấu đã học xong" hay nộp một bài test, kết quả được ghi nhớ trên chính thiết bị của bạn, và trang Hành trình học dựa vào đó để gợi ý nên học gì tiếp, ôn gì. Bạn không cần tạo tài khoản.
+
+Nếu muốn dùng trên máy khác hoặc cho bố mẹ cùng xem, bạn có thể lưu hành trình bằng một mã học tập. Khi đó Lemonmath chỉ lưu những gì cần cho việc này: bài đã học, điểm, ngày làm và tên gọi bạn tự đặt; không cần họ tên, email hay số điện thoại. Mã là chìa khoá duy nhất. Bạn xoá được toàn bộ bất cứ lúc nào, và hành trình không dùng trong 12 tháng sẽ tự xoá.
 
 ## Thấy chỗ chưa đúng?
 

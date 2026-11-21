@@ -75,11 +75,11 @@ cd api && npm ci
 printf 'PEPPER="local-dev-pepper-0123456789abcdef"\nALLOW_LOCALHOST="1"\nRESEND_API_KEY="re_local_test_key"\nMAIL_DEBUG="1"\n' > .dev.vars   # MAIL_DEBUG chỉ dùng ở máy: trả mã 6 số trong phản hồi
 npx wrangler d1 migrations apply lemonmath --local
 npx wrangler dev --local --port 8787          # cửa sổ 1
-node test/api.test.mjs                         # cửa sổ 2: 64 phép thử
+node test/api.test.mjs                         # cửa sổ 2: 71 phép thử (gồm cả mã học tập của học sinh)
 cd .. && API_URL=http://127.0.0.1:8787 npm run build && node tools/serve.js   # rồi mở http://localhost:8000/vi/lop-hoc/
 ```
 
-Thêm bảng hoặc cột: tạo file mới api/migrations/000N_<tên>.sql (đã có 0001 khởi tạo, 0002 email, 0003 số lần rời trang, 0004 học sinh tự nhập tên; không sửa file cũ); workflow tự áp dụng.
+Thêm bảng hoặc cột: tạo file mới api/migrations/000N_<tên>.sql (đã có 0001 khởi tạo, 0002 email, 0003 số lần rời trang, 0004 học sinh tự nhập tên, 0005 mã học tập (journeys) và bảng đếm rate; không sửa file cũ); workflow tự áp dụng.
 
 ## Việc tiếp theo (theo tài liệu nghiên cứu, chưa làm)
 

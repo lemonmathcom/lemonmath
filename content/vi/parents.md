@@ -20,6 +20,12 @@ Cuối mỗi bài có một bài kiểm tra mini. Con nộp bài là trang chấ
 
 Bố mẹ không cần chấm lại. Chỉ cần ngồi cùng con năm phút, nhờ con giảng lại một câu con làm sai, và khen đúng chỗ con đã cố gắng. Lần sau con làm lại, trang sẽ cho biết con tiến bộ bao nhiêu điểm so với lần trước.
 
+## Theo dõi hành trình học của con
+
+Trang [Hành trình học](../hanh-trinh/) cho biết con nên học gì tiếp, bài nào đến lúc ôn lại, điểm qua từng lần làm và con đang vững hay còn yếu ở mức câu hỏi nào. Trên máy con học, bố mẹ mở trang này là xem được ngay.
+
+Nếu muốn xem trên điện thoại của mình, bố mẹ cùng con bấm "Lưu bằng mã học tập" trên máy con. Sau đó, trên điện thoại của bố mẹ, mở trang Hành trình học, chọn "Bố mẹ xem tiến độ của con" và nhập mã. Trang chỉ cho xem, không làm thay đổi gì của con.
+
 ## Chọn lớp của con
 
 - **Tiểu học:** [lớp 1](grade:1) · [lớp 2](grade:2) · [lớp 3](grade:3) · [lớp 4](grade:4) · [lớp 5](grade:5)

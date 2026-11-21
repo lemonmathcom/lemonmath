@@ -16,6 +16,7 @@
  *   GET|PATCH|DELETE /v1/assignments/:code        POST /v1/assignments/:code/reset
  *   GET  /v1/hw/:code      POST /v1/hw/:code/start   PUT /v1/hw/:code/save   POST /v1/hw/:code/submit   POST /v1/hw/:code/result
  *   POST /v1/hw/:code/join (a student types their own name, when the class allows it)
+ *   POST /v1/journey/new | /sync | /view | /delete (a student's "learning code": progress kept without an account)
  *   GET  /v1/info (is e-mail switched on?)   POST /v1/auth/reset-request | /v1/auth/reset (6-digit code by e-mail)   POST /v1/me/recovery (new recovery code)
  * Two kinds of assignment: homework (mode "home", any window, time limit optional) and tests (mode "test": a start time,
  * a time limit, a few minutes to come in late, personal code and shuffling always on, answers shown after closing).
@@ -86,6 +87,12 @@ async function route(req, env, ctx) {
     if (m === 'POST' && b === 'login') return login(req, env);
     if (m === 'POST' && b === 'recover') return recover(req, env);
     if (m === 'POST' && b === 'logout') return logout(req, env);
+  }
+  if (a === 'journey' && m === 'POST') {
+    if (b === 'new') return journeyNew(req, env);
+    if (b === 'sync') return journeySync(req, env);
+    if (b === 'view') return journeyView(req, env);
+    if (b === 'delete') return journeyDelete(req, env);
   }
   if (a === 'info' && !b && m === 'GET') return json({ email: !!env.RESEND_API_KEY, now: Date.now() });
   if (a === 'me' && b === 'recovery' && m === 'POST') return newRecovery(req, env, ctx);
@@ -736,6 +743,81 @@ async function newRecovery(req, env, ctx) {
   return json({ recovery: shown, mailed, now: Date.now() });
 }
 
+/* ------------------------------------------------------------------ learning code (student progress, no account) */
+const J_LOG = 2000, J_DONE = 3000, J_IDLE = 365 * DAY, J_NEW_PER_DAY = 200;
+const LV = ['NB', 'TH', 'VD', 'VDC'], KINDS = ['quiz', 'test', 'paper'];
+const okId = (x) => typeof x === 'string' && /^[a-z0-9-]{1,80}$/.test(x);
+const okT = (t) => Number.isFinite(t) && Math.abs(t) > 1e12 && Math.abs(t) < 4e12;
+const fnum = (x, lo, hi) => { const n = Number(x); return Number.isFinite(n) ? Math.min(hi, Math.max(lo, Math.round(n * 1000) / 1000)) : null; };
+/* Keep only what the page writes, with sane sizes: a forged or broken document can never grow the row. */
+function cleanDoc(d) {
+  d = d && typeof d === 'object' ? d : {};
+  const out = { v: 1, nick: clean(d.nick, 30), nt: okT(+d.nt) ? +d.nt : 0, goal: num(d.goal, 1, 14, 3), gt: okT(+d.gt) ? +d.gt : 0, done: {}, log: [] };
+  const done = d.done && typeof d.done === 'object' ? d.done : {};
+  Object.keys(done).slice(0, J_DONE).forEach((k) => { const t = +done[k]; if (okId(k) && (okT(t) || t === 1 || t === -1)) out.done[k] = Math.round(t); });
+  (Array.isArray(d.log) ? d.log : []).slice(-J_LOG * 2).forEach((e) => {
+    if (!e || typeof e !== 'object' || !okT(+e.t)) return;
+    const m = fnum(e.m, 0, 200), g = fnum(e.g, 0, 200);
+    if (!m || g == null) return;
+    const r = { t: Math.round(+e.t), l: okId(e.l) ? e.l : '', q: num(e.q, 0, 99, 0), k: KINDS.includes(e.k) ? e.k : 'quiz', g: Math.min(g, m), m };
+    if (typeof e.id === 'string' && /^[a-z0-9]{4,16}$/.test(e.id)) r.id = e.id;
+    if (!r.l && typeof e.p === 'string') r.p = e.p.slice(0, 160);
+    if (e.v && typeof e.v === 'object') {
+      const v = {};
+      LV.forEach((L) => { const x = e.v[L]; if (Array.isArray(x)) { const n = num(x[1], 0, 999, 0), k = Math.min(num(x[0], 0, 999, 0), n); if (n) v[L] = [k, n]; } });
+      if (Object.keys(v).length) r.v = v;
+    }
+    out.log.push(r);
+  });
+  return out;
+}
+/* Two copies of one journey (two phones, or a phone and the server): nothing is ever lost.
+   Ticks: the later action wins. Results: the union (an attempt re-marked keeps its id and the later version). */
+function mergeDocs(a, b) {
+  const out = { v: 1, nick: b.nt >= a.nt ? b.nick : a.nick, nt: Math.max(a.nt, b.nt), goal: b.gt >= a.gt ? b.goal : a.goal, gt: Math.max(a.gt, b.gt), done: Object.assign({}, a.done), log: [] };
+  Object.keys(b.done).forEach((k) => { if (!(k in out.done) || Math.abs(b.done[k]) >= Math.abs(out.done[k])) out.done[k] = b.done[k]; });
+  const seen = new Map(), key = (e) => e.id || e.t + '|' + e.l + '|' + e.q;
+  a.log.concat(b.log).forEach((e) => { const k = key(e), o = seen.get(k); if (!o || e.t >= o.t) seen.set(k, e); });
+  out.log = Array.from(seen.values()).sort((x, y) => x.t - y.t).slice(-J_LOG);
+  return out;
+}
+const codeOf = (c) => String(c || '').toUpperCase().replace(/[^0-9A-Z]/g, '');
+async function journeyRow(env, code) {
+  const c = codeOf(code);
+  if (c.length !== 12) fail(400, 'bad_code');
+  const id = await hmac(env, 'jr:' + c);
+  return { id, row: await env.DB.prepare('SELECT * FROM journeys WHERE id = ?').bind(id).first() };
+}
+async function journeyNew(req, env) {
+  const b = await readBody(req, 400e3), now = Date.now();
+  // at most J_NEW_PER_DAY new codes a day from one network (a school's wifi included)
+  const ip = await hmac(env, 'ip:' + (req.headers.get('CF-Connecting-IP') || '')), rk = 'jnew:' + ip.slice(0, 20) + ':' + Math.floor(now / DAY);
+  const r = await env.DB.prepare('SELECT n FROM rate WHERE k = ?').bind(rk).first();
+  if (r && r.n >= J_NEW_PER_DAY) fail(429, 'too_many');
+  await env.DB.prepare('INSERT INTO rate (k, n, until) VALUES (?, 1, ?) ON CONFLICT (k) DO UPDATE SET n = n + 1').bind(rk, now + 2 * DAY).run();
+  const doc = cleanDoc(b.data), code = randCode(12), id = await hmac(env, 'jr:' + code);
+  await env.DB.prepare('INSERT INTO journeys (id, data, created_at, updated_at) VALUES (?, ?, ?, ?)').bind(id, JSON.stringify(doc), now, now).run();
+  return json({ code: code.match(/.{4}/g).join('-'), data: doc, at: now });
+}
+async function journeySync(req, env) {
+  const b = await readBody(req, 400e3), now = Date.now(), { id, row } = await journeyRow(env, b.code);
+  if (!row) fail(404, 'no_journey');
+  const doc = mergeDocs(cleanDoc(JSON.parse(row.data)), cleanDoc(b.data));
+  await env.DB.prepare('UPDATE journeys SET data = ?, updated_at = ? WHERE id = ?').bind(JSON.stringify(doc), now, id).run();
+  return json({ data: doc, at: now });
+}
+async function journeyView(req, env) {
+  const b = await readBody(req), { row } = await journeyRow(env, b.code);
+  if (!row) fail(404, 'no_journey');
+  return json({ data: cleanDoc(JSON.parse(row.data)), at: row.updated_at });
+}
+async function journeyDelete(req, env) {
+  const b = await readBody(req), { id, row } = await journeyRow(env, b.code);
+  if (!row) fail(404, 'no_journey');
+  await env.DB.prepare('DELETE FROM journeys WHERE id = ?').bind(id).run();
+  return json({ ok: true });
+}
+
 /* ------------------------------------------------------------------ daily cleanup */
 async function cleanup(env) {
   const now = Date.now();
@@ -744,8 +826,10 @@ async function cleanup(env) {
     env.DB.prepare('DELETE FROM assignments WHERE purge_at < ?').bind(now),
     env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now),
     env.DB.prepare('DELETE FROM resets WHERE expires_at < ?').bind(now - DAY),
-    env.DB.prepare('DELETE FROM mail_log WHERE at < ?').bind(now - 2 * DAY)
+    env.DB.prepare('DELETE FROM mail_log WHERE at < ?').bind(now - 2 * DAY),
+    env.DB.prepare('DELETE FROM journeys WHERE updated_at < ?').bind(now - J_IDLE),
+    env.DB.prepare('DELETE FROM rate WHERE until < ?').bind(now)
   ]);
 }
 
-export const _test = { mark, makeFrame, toCanon, toDisp, studentItems, pts, nickOf, cleanNames };
+export const _test = { cleanDoc, mergeDocs, mark, makeFrame, toCanon, toDisp, studentItems, pts, nickOf, cleanNames };

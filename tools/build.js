@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -165,6 +165,7 @@ const LIVE_DB = String(process.env.LIVE_DB || (cfg.site.live && cfg.site.live.fi
 const API_URL = String(process.env.API_URL || cfg.site.api || '').replace(/\/+$/, '');
 const classroomDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].classroom);
 const homeworkDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].homework);
+const journeyDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].journey);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -338,6 +339,7 @@ function shell(o) {
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     '<title>' + esc(o.title) + '</title>',
     '<meta name="description" content="' + esc(o.description) + '">',
+    API_URL ? '<meta name="lm-api" content="' + esc(API_URL) + '">' : '',
     o.noindex ? '<meta name="robots" content="noindex,follow">' : '',
     '<link rel="canonical" href="' + esc(canonical) + '">',
     alternates,
@@ -366,7 +368,7 @@ function shell(o) {
 
   const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span><b class="lang-short" aria-hidden="true">' + altLang.toUpperCase() + '</b></a>';
 
-  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offlineNav) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
+  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offlineNav) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, journeyDir(lang)) + '">' + esc(T.jrNav) + '</a>';   // "About" stays in the footer
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -598,7 +600,7 @@ function lessonPage(lang, ls) {
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' + (meta.type === 'paper' ? paperHead(lang, meta) : '') +
     pageActions(lang, d, { lesson: true, why: true, before: ls.ws && ls.ws[lang] ? '<a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(isPaper ? WS_LABEL.paper[lang] : WS_LABEL[lang]) + '</a> ' : '' }) + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
-    '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' + offBox(lang, d, g, ch) +
+    '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button> <a class="jr-link" href="' + relDir(d, journeyDir(lang)) + '">📈 ' + esc(T.jrNav) + '</a></div>\n' + offBox(lang, d, g, ch) +
     '</article>\n' + pager;
   const learning = {
     '@context': 'https://schema.org', '@type': 'LearningResource', name: meta.title, description: meta.description, url: abs(d),
@@ -733,12 +735,29 @@ function homeworkPage(lang) {
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.hwTitle + ' | ' + site.name, description: T.hwDesc, body, math: true, noindex: true, scripts: ['assets/katex/katex.min.js', 'assets/hw.js'] }), null, true);
 }
 
+/* "My progress": the student's journey, worked out in the browser from what this browser kept (assets/journey.js).
+   lessons.json lists every track in order, so the page can say what comes next and how far each chapter is done. */
+function journeyPage(lang) {
+  const T = UI[lang], d = journeyDir(lang), alt = journeyDir(other(lang));
+  const data = { tracks: tracks.filter((g) => g.chapters.some((c) => c.lessons.length)).map((g) => ({
+    id: g.exam ? g.id : 'g' + g.n, name: gName(lang, g), exam: !!g.exam, url: relDir(d, gradeDir(lang, g)),
+    ch: g.chapters.filter((c) => c.lessons.length).map((c) => ({ id: c.id, n: c.number, t: c[lang], url: relDir(d, chapterDir(lang, c)),
+      ls: c.lessons.map((ls) => [ls.id, ls.content[lang].meta.title, relDir(d, lessonDir(lang, ls))]) }))
+  })) };
+  fs.mkdirSync(path.join(OUT, d), { recursive: true });
+  fs.writeFileSync(path.join(OUT, d, 'lessons.json'), JSON.stringify(data));
+  const body = '<article class="lesson about journey"><h1>' + esc(T.jrTitle) + '</h1>\n<p class="lead">' + esc(T.jrLead) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="jr-app" data-api="' + esc(API_URL) + '" data-home="' + relDir(d, homeDir(lang)) + '" data-parents="' + relDir(d, parentsDir(lang)) + '" hidden></div></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.jrTitle + ' | ' + site.name, description: T.jrDesc, body, noindex: true, scripts: ['assets/journey.js'] }), null, true);
+}
+
 function searchIndex(lang) {
   const T = UI[lang];
   const rows = [];
   rows.push({ t: T.examsNav, s: T.examsHome, u: examsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   rows.push({ t: T.teachTitle, s: T.teachers, u: teachersDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   if (API_URL) rows.push({ t: T.crTitle, s: T.teachers, u: classroomDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  rows.push({ t: T.jrTitle, s: T.jrNav, u: journeyDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
     rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
@@ -892,7 +911,7 @@ function writePwa() {
   fs.writeFileSync(path.join(OUT, 'offline-data', 'packs.json'), JSON.stringify(index));
 
   // Files saved on the device at install time, so the app opens with no network.
-  const core = ['/', '/vi/', '/offline.html', '/' + offlineDir('en') + '/', '/' + offlineDir('vi') + '/', '/offline-data/packs.json', '/assets/style.css', '/assets/print.css', '/assets/site.js', '/assets/fonts.css', '/assets/katex/katex.min.css',
+  const core = ['/', '/vi/', '/offline.html', '/' + offlineDir('en') + '/', '/' + offlineDir('vi') + '/', '/' + journeyDir('en') + '/', '/' + journeyDir('vi') + '/', '/' + journeyDir('en') + '/lessons.json', '/' + journeyDir('vi') + '/lessons.json', '/assets/journey.js', '/offline-data/packs.json', '/assets/style.css', '/assets/print.css', '/assets/site.js', '/assets/fonts.css', '/assets/katex/katex.min.css',
     '/assets/fonts/nunito-latin-wght-normal.woff2', '/assets/fonts/nunito-vietnamese-wght-normal.woff2',
     '/assets/fonts/baloo-2-latin-800-normal.woff2', '/assets/fonts/baloo-2-vietnamese-800-normal.woff2',
     '/assets/icons/icon-192.png', '/search-index.json', '/vi/search-index.json'];
@@ -963,6 +982,7 @@ function main() {
     if (teach[lang]) teachersPage(lang, teach[lang]);
     if (teach[lang] && LIVE_DB) joinPage(lang);
     if (teach[lang] && API_URL) { classroomPage(lang); homeworkPage(lang); }
+    journeyPage(lang);
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });

@@ -141,6 +141,24 @@ r = await call('GET', '/v1/classes/' + open9); assert.equal(r.students[0].self, 
 r = await call('PATCH', '/v1/classes/' + open9, { confirm: [me9.sid], self_join: false }); assert.equal(r.students[0].self, 0); assert.equal(r.class.self_join, false); ok('the teacher confirms the name and closes self-joining');
 r = await call('POST', '/v1/hw/' + c9 + '/join', { name: 'Người Lạ' }, 'none'); assert.equal(r.error, 'no_self_join'); ok('then typing a new name is refused');
 
+console.log('Learning code (no account)');
+const T0 = Date.now(), entry = (t, l, g, m, extra) => Object.assign({ t, l, q: 0, k: 'quiz', g, m }, extra || {});
+const local1 = { nick: 'An lớp 6', nt: T0, goal: 4, gt: T0, done: { 'phan-so': T0 }, log: [entry(T0 - 5e3, 'phan-so', 1, 2.5, { id: 'aaaa1111', v: { NB: [2, 3], VD: [0, 2] } })] };
+r = await call('POST', '/v1/journey/new', { data: local1 }, 'none'); assert.equal(r.status, 200); assert.match(r.code, /^[0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}$/);
+assert.equal(r.data.nick, 'An lớp 6'); assert.equal(r.data.log.length, 1); const jcode = r.code; ok('a journey is saved and gets a 12-character code');
+const local2 = { done: { 'so-nguyen': T0 + 10, 'phan-so': -(T0 + 20) }, log: [entry(T0 + 30, 'so-nguyen', 2, 2.5)] };
+r = await call('POST', '/v1/journey/sync', { code: jcode.toLowerCase().replace(/-/g, ' '), data: local2 }, 'none'); assert.equal(r.status, 200);
+assert.equal(r.data.log.length, 2); assert.equal(r.data.done['phan-so'] < 0, true); assert.equal(r.data.done['so-nguyen'] > 0, true); assert.equal(r.data.goal, 4);
+ok('a second device merges: both results kept, the later untick wins, code typed loosely still works');
+r = await call('POST', '/v1/journey/sync', { code: jcode, data: { log: [entry(T0 - 5e3, 'phan-so', 2, 2.5, { id: 'aaaa1111' })] } }, 'none'); assert.equal(r.data.log.length, 2); ok('the same attempt is not counted twice');
+r = await call('POST', '/v1/journey/view', { code: jcode }, 'none'); assert.equal(r.status, 200); assert.equal(r.data.nick, 'An lớp 6'); ok('a parent can view it');
+r = await call('POST', '/v1/journey/view', { code: 'ABCD-EFGH-JKMN' }, 'none'); assert.equal(r.error, 'no_journey'); r = await call('POST', '/v1/journey/view', { code: '123' }, 'none'); assert.equal(r.error, 'bad_code'); ok('a wrong code finds nothing');
+r = await call('POST', '/v1/journey/new', { data: { nick: '<b>x</b>'.repeat(20), goal: 99, done: { 'BAD ID': T0, ok: 'x' }, log: [{ t: 5, g: 1, m: 1 }, entry(T0, 'x', 9, 2), { t: T0, g: 1, m: 0 }] } }, 'none');
+assert.equal(r.data.nick.length <= 30, true); assert.equal(r.data.goal, 14); assert.deepEqual(r.data.done, {}); assert.equal(r.data.log.length, 1); assert.equal(r.data.log[0].g, 2);
+ok('rubbish is cleaned away (sizes, ids, impossible scores)');
+r = await call('POST', '/v1/journey/delete', { code: jcode }, 'none'); assert.equal(r.ok, true);
+r = await call('POST', '/v1/journey/sync', { code: jcode, data: {} }, 'none'); assert.equal(r.error, 'no_journey'); ok('deleted means gone');
+
 console.log('Teacher controls');
 r = await call('PATCH', '/v1/assignments/' + code, { close_now: true }); assert.ok(r.assignment.close_at <= Date.now()); ok('close now');
 r = await call('POST', '/v1/assignments/' + code + '/reset', { student_id: binh.id }); r = await call('GET', '/v1/assignments/' + code); assert.equal(r.attempts.length, 1); ok('let a student start again');

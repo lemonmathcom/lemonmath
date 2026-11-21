@@ -34,7 +34,9 @@ Every word in the lessons is written by Lemonmath; nothing is copied from a text
 
 ## Your progress
 
-When you press "Mark as complete", the lesson is remembered on your own device only. Nothing is sent to us, and you do not need an account.
+When you press "Mark as complete" or hand in a test, the result is remembered on your own device, and the My progress page uses it to suggest what to learn next and what to review. You do not need an account.
+
+If you want to use it on another device or let your parents follow along, you can save your journey with a learning code. Lemonmath then keeps only what that needs: the lessons done, the scores, the dates and a nickname you choose; no full name, email or phone number. The code is the only key. You can delete everything at any time, and a journey not used for 12 months deletes itself.
 
 ## Spotted a mistake?
 

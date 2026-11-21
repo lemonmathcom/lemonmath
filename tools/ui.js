@@ -39,6 +39,8 @@ const UI = {
       ['Look back', 'Read the feedback: your level, likely causes of lost marks and what to do next. Then tick the lesson off.']
     ],
     loopTeach: 'Are you a teacher? Build a test from our question bank and analyse class scores in the',
+    jrNav: 'My progress', jrTitle: 'My learning journey', jrDesc: 'Your progress in one place: what to learn next, what to review and when, your scores over time and where you are getting stronger. Kept on your device; save it with a learning code to use on other devices or share with your parents.',
+    jrLead: 'What to learn next, what to review and when, and how far you have come. It is worked out on this device from the lessons you tick and the tests you hand in.',
     crTitle: 'My classes', crDesc: 'A free teacher account: keep your class lists, set homework or a test from the Lemonmath question bank that opens and closes on time, and see each student’s answers as they hand in.',
     waysH: 'Two ways to use the Teachers’ corner',
     way1H: 'Make a test now, no account needed', way1P: 'Choose lessons and how many questions, then print several versions with answer keys, or press "Run it live for the class" so everyone answers on their phones while the results appear on the projector. No sign-up, no log-in.', way1Btn: 'Make a test now ↓',
@@ -103,7 +105,7 @@ const UI = {
       ['star', 'Reason first, rule second', 'We start from a picture or a small example, let you see the pattern, and only then write the rule down.'],
       ['globe', 'Two languages, one lesson', 'Read in Vietnamese to understand, switch to English to learn the words. Same lesson, same numbers.'],
       ['equation', 'Practice, then check', 'Try each exercise on your own first. The solution is written out in full, step by step, for when you want to check.'],
-      ['chart', 'Your progress, your device', 'Tick off a lesson when you have finished it. Nothing is sent anywhere and you do not need an account.']
+      ['chart', 'Your progress, your device', 'Tick off lessons and hand in tests; My progress shows what to learn next and what to review. No account needed: it stays on your device unless you choose to save it with a learning code.']
     ],
     featuredG10: 'Try it: Grade 10, one of 12 full grades',
     gradeTitle: (n) => 'Grade ' + n + ' maths: Vietnam curriculum lessons',
@@ -152,6 +154,8 @@ const UI = {
       ['Nhìn lại', 'Đọc nhận xét: mức điểm, nguyên nhân mất điểm và việc cần làm tiếp. Rồi đánh dấu bài đã học xong.']
     ],
     loopTeach: 'Thầy cô dạy Toán? Tạo đề từ ngân hàng câu hỏi và phân tích điểm của lớp tại',
+    jrNav: 'Hành trình học', jrTitle: 'Hành trình học của tôi', jrDesc: 'Tiến độ học của bạn ở một chỗ: học gì tiếp, ôn gì và khi nào, điểm qua từng lần làm, chỗ đã vững và chỗ cần luyện. Lưu trên máy; muốn dùng ở máy khác hay cho bố mẹ cùng xem thì lưu bằng mã học tập.',
+    jrLead: 'Học gì tiếp, ôn gì và khi nào, và bạn đã đi được bao xa. Trang tự tính trên máy này từ những bài bạn đánh dấu đã học và những bài test bạn đã nộp.',
     crTitle: 'Lớp học của tôi', crDesc: 'Tài khoản giáo viên miễn phí: lưu danh sách lớp, giao bài tập về nhà hoặc bài kiểm tra từ ngân hàng câu hỏi của Lemonmath, bài tự mở và tự đóng đúng giờ, xem bài làm của từng em ngay khi các em nộp.',
     waysH: 'Hai cách dùng Góc giáo viên',
     way1H: 'Tạo đề ngay, không cần tài khoản', way1P: 'Chọn bài học và số câu, rồi in đề nhiều mã đề kèm đáp án, hoặc bấm "Cho cả lớp làm trực tiếp" để cả lớp làm trên điện thoại, kết quả hiện trên màn chiếu. Không cần đăng kí, không cần đăng nhập.', way1Btn: 'Tạo đề ngay ↓',
@@ -216,7 +220,7 @@ const UI = {
       ['star', 'Hiểu vì sao trước, nhớ quy tắc sau', 'Ta bắt đầu từ một hình vẽ hay một ví dụ nhỏ, để bạn tự nhìn ra quy luật, rồi mới viết thành quy tắc.'],
       ['globe', 'Hai ngôn ngữ, một bài học', 'Đọc tiếng Việt để hiểu, chuyển sang tiếng Anh để quen thuật ngữ. Cùng một bài, cùng một số liệu.'],
       ['equation', 'Tự làm trước, rồi mới xem', 'Cứ thử sức với từng bài tập trước. Lời giải được viết đầy đủ từng bước, như trong vở, để bạn đối chiếu khi cần.'],
-      ['chart', 'Tiến độ nằm trên máy của bạn', 'Học xong bài nào thì đánh dấu bài đó. Không gửi đi đâu cả, cũng không cần tạo tài khoản.']
+      ['chart', 'Tiến độ nằm trên máy của bạn', 'Đánh dấu bài đã học, nộp bài test; trang Hành trình học cho biết nên học gì tiếp, ôn gì. Không cần tài khoản: mọi thứ ở trên máy, trừ khi bạn chọn lưu bằng mã học tập.']
     ],
     featuredG10: 'Học thử: Toán lớp 10, một trong 12 lớp',
     gradeTitle: (n) => 'Toán lớp ' + n + ': bài học theo chương trình mới',

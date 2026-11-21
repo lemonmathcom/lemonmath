@@ -20,6 +20,12 @@ Every lesson ends with a mini test. It is marked the moment your child submits, 
 
 You do not need to mark anything. Sit with your child for five minutes, ask them to explain one question they got wrong, and praise the effort you can actually see. When they retake the test, the page shows how many points they have gained since last time.
 
+## Follow your child's learning journey
+
+The [My progress](../my-progress/) page shows what your child should learn next, which lessons are due for review, their scores over time, and which kinds of questions they handle well or still find hard. On the device your child uses, just open the page.
+
+To follow along on your own phone, press "Save with a learning code" together on your child's device. Then, on your phone, open My progress, choose "Parents: follow my child" and type the code. You can only look; nothing of your child's changes.
+
 ## Choose your child's grade
 
 - **Primary:** [grade 1](grade:1) · [grade 2](grade:2) · [grade 3](grade:3) · [grade 4](grade:4) · [grade 5](grade:5)

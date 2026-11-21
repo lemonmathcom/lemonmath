@@ -105,6 +105,67 @@
   } catch (e) { done = []; }
   function isDone(id) { return done.indexOf(id) !== -1; }
 
+  /* ---------- learning journal: every marked test, kept in this browser (the "My progress" page reads it) ----------
+     lm-log     [{ id, t: time, l: lesson id, q: test no. on the page, k: 'quiz' | 'test' | 'paper', g: points, m: out of,
+                   v: { NB: [right, of], TH, VD, VDC } }]
+     lm-done-at { lesson id: time ticked, negative when unticked }  (lets two devices be merged)
+     lm-code    the learning code, when the student saved the journey (then changes are sent in the background) */
+  var journal = (function () {
+    var LESSON = (($('#done-btn') || { getAttribute: function () { return ''; } }).getAttribute('data-lesson')) || '';
+    var API = ($('meta[name="lm-api"]') || { getAttribute: function () { return ''; } }).getAttribute('content') || '';
+    var syncT = null;
+    function read(k, def) { try { var x = JSON.parse(lsGet(k) || 'null'); return x == null ? def : x; } catch (e) { return def; } }
+    function rid() { return Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4); }
+    function doc() {
+      var at = read('lm-done-at', {}), dn = {};
+      done.forEach(function (id) { dn[id] = at[id] > 0 ? at[id] : 1; });        // ticks from before the journal: time unknown
+      Object.keys(at).forEach(function (id) { if (at[id] < 0 && !(id in dn)) dn[id] = at[id]; });
+      return { v: 1, nick: lsGet('lm-nick') || '', nt: +(lsGet('lm-nick-t') || 0), goal: +(lsGet('lm-goal') || 3), gt: +(lsGet('lm-goal-t') || 0), done: dn, log: read('lm-log', []) };
+    }
+    function apply(x) {             // a merged copy came back from the server: it becomes this browser's journal
+      if (!x || typeof x !== 'object') return;
+      var at = {}, ids = [];
+      Object.keys(x.done || {}).forEach(function (id) { var t = x.done[id]; if (t !== 1) at[id] = t; if (t > 0) ids.push(id); });
+      done = ids; lsSet('lm-done', JSON.stringify(ids)); lsSet('lm-done-at', JSON.stringify(at));
+      lsSet('lm-log', JSON.stringify(x.log || []));
+      if (x.nick != null) { lsSet('lm-nick', x.nick); lsSet('lm-nick-t', String(x.nt || 0)); }
+      if (x.goal) { lsSet('lm-goal', String(x.goal)); lsSet('lm-goal-t', String(x.gt || 0)); }
+      paint();
+    }
+    function sync(now) {
+      clearTimeout(syncT);
+      var code = lsGet('lm-code');
+      if (!code || !API || !window.fetch) return Promise.resolve(null);
+      var go = function () {
+        return fetch(API + '/v1/journey/sync', { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify({ code: code, data: doc() }) })
+          .then(function (r) { return r.json().then(function (j) { return { s: r.status, j: j }; }); })
+          .then(function (x) {
+            if (x.s === 200 && x.j.data) { apply(x.j.data); lsSet('lm-synced', String(Date.now())); return x.j; }
+            if (x.s === 404) { lsSet('lm-code', ''); }                 // the journey was deleted (here or on another device)
+            return null;
+          }, function () { return null; });
+      };
+      if (now) return go();
+      syncT = setTimeout(go, 4000);
+      return Promise.resolve(null);
+    }
+    function add(e) {
+      var log = read('lm-log', []); if (!Array.isArray(log)) log = [];
+      e.id = e.id || rid(); e.t = e.t || Date.now(); e.l = e.l != null ? e.l : LESSON;
+      if (!e.l) e.p = location.pathname;
+      var i = -1; log.forEach(function (x, n) { if (x.id === e.id) i = n; });
+      if (i >= 0) log[i] = e; else log.push(e);
+      if (log.length > 2000) log = log.slice(-2000);
+      lsSet('lm-log', JSON.stringify(log));
+      sync();
+    }
+    function tick(id, on) { var at = read('lm-done-at', {}); at[id] = on ? Date.now() : -Date.now(); lsSet('lm-done-at', JSON.stringify(at)); sync(); }
+    // a device linked to a code picks up what was done on the others, at most every 15 minutes
+    if (lsGet('lm-code') && Date.now() - +(lsGet('lm-synced') || 0) > 15 * 60e3) setTimeout(function () { sync(true); }, 1500);
+    return { add: add, tick: tick, doc: doc, apply: apply, sync: sync, api: API, lesson: LESSON, read: read };
+  })();
+  window.lmJournal = journal;
+
   function paint() {
     $$('a[data-lesson]').forEach(function (a) {
       var on = isDone(a.getAttribute('data-lesson'));
@@ -149,6 +210,7 @@
       var i = done.indexOf(lessonId);
       if (i === -1) done.push(lessonId); else done.splice(i, 1);
       lsSet('lm-done', JSON.stringify(done));
+      journal.tick(lessonId, i === -1);
       syncBtn();
       paint();
     });
@@ -284,6 +346,7 @@
     var parentsUrl = (parentsUrl0 === '.' ? '' : parentsUrl0 + '/') + (isVi ? 'phu-huynh/' : 'parents/');
     var base = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
     var examsUrl = (base === '.' ? '' : base + '/') + (isVi ? 'on-thi/' : 'exams/');
+    var journeyUrl = (base === '.' ? '' : base + '/') + (isVi ? 'hanh-trinh/' : 'my-progress/');
 
     /* st: { n, blank, wrong: [labels], tf: {pts, max}, sa: {n, ok}, written: [labels of weak written problems] } */
     /* ctx (from My classes and live tests, optional): { mode: 'home' | 'test' | 'free' | 'live', later: 'time the explanations appear' or '' }
@@ -347,6 +410,8 @@
         (s < 5 ? (a.causes.length ? '<h4>' + W.causes + '</h4>' + ul(a.causes) : '') + '<h4>' + W.fix + '</h4>' + ul(a.steps)
           : '<h4>' + W.aim + '</h4><p>' + fill(a.aim) + '</p><h4>' + W.how + '</h4>' + ul(a.steps)) +
         (withParent ? '<p class="fb-parent"><b>' + (isVi ? 'Dành cho bố mẹ' : 'For parents') + ':</b> ' + PARENT[s < 5 ? 0 : k >= 4 ? 2 : 1] + ' <a href="' + parentsUrl + '">' + (isVi ? 'Cách đồng hành cùng con' : 'How to support your child') + ' →</a></p>' : '');
+      // on the site's own tests (not homework or a live class): where the journey continues
+      if (!ctx) { var jr = d.createElement('p'); jr.className = 'fb-jr'; jr.innerHTML = '<a href="' + journeyUrl + '">' + (isVi ? '📈 Xem hành trình học: học gì tiếp, ôn gì, tiến bộ ra sao' : '📈 My progress: what to learn next, what to review, how you are doing') + ' →</a>'; box.appendChild(jr); }
       var art = $('.foot-mark');
       if (art) { var c = art.cloneNode(true); c.setAttribute('class', 'fb-mascot'); c.setAttribute('aria-hidden', 'true'); $('.fb-art', box).appendChild(c); }
       host.parentNode.insertBefore(box, host.nextSibling);
@@ -367,10 +432,12 @@
     var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
     submit.addEventListener('click', function () {
       var got = 0, max = 0, plain = qz.hasAttribute('data-count');
-      var st = { n: 0, blank: 0, wrong: [], tf: { pts: 0, max: 0 }, sa: { n: 0, ok: 0 }, written: [] };
+      var st = { n: 0, blank: 0, wrong: [], tf: { pts: 0, max: 0 }, sa: { n: 0, ok: 0 }, written: [] }, lv = {};
+      var tally = function (L, right) { if (!L) return; lv[L] = lv[L] || [0, 0]; lv[L][1]++; if (right) lv[L][0]++; };
       var parts = $$('.qz-part', qz).filter(function (p) { return $('h3', p); });
       $$('.qz-item', qz).forEach(function (it) {
         var t = it.getAttribute('data-type'), key = it.getAttribute('data-key'), ok = false, pts = 0, empty = false;
+        var lvs = (it.getAttribute('data-lv') || '').split(' ').filter(Boolean);
         if (t === 'mc') {
           max += 0.25;
           var c = $('input:checked', it); ok = !!c && c.value === key; pts = ok ? 0.25 : 0; empty = !c;
@@ -381,6 +448,7 @@
           $$('tr', it).forEach(function (tr, i) {
             var c = $('input:checked', tr), r = !!c && c.value === key.charAt(i);
             if (r) k++;
+            tally(lvs[i] || lvs[0], r);
             tr.classList.toggle('qz-right', r); tr.classList.toggle('qz-wrong', !r);
           });
           pts = [0, 0.1, 0.25, 0.5, 1][k]; ok = k === 4; empty = !$('input:checked', it);
@@ -391,6 +459,7 @@
           ok = !isNaN(v) && Math.abs(v - w) < 1e-9; pts = ok ? 0.5 : 0; empty = $('input', it).value.trim() === '';
           st.sa.n++; if (ok) st.sa.ok++;
         }
+        if (t !== 'tf') tally(lvs[0], ok);
         st.n++; if (empty) st.blank++;
         if (!ok) {
           var lab = (($('.qz-q b', it) || {}).textContent || '').replace(/[^0-9]/g, ''), pi = parts.indexOf(it.parentNode);
@@ -405,8 +474,9 @@
       out.textContent = plain ? (isVi ? 'Số câu đúng: ' : 'Correct answers: ') + got + ' / ' + max
         : qz.hasAttribute('data-paper') ? (isVi ? 'Điểm phần trắc nghiệm: ' : 'Objective part: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' điểm' : ' points')
         : (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
-      qz.lmStats = st;
+      qz.lmStats = st; qz.lmLv = lv;
       submit.hidden = true; retry.hidden = false;
+      if (!qz.hasAttribute('data-paper') && max) journal.add({ q: $$('[data-quiz]').indexOf(qz), k: plain ? 'test' : 'quiz', g: Math.round(got * 1000) / 1000, m: max, v: lv });
       if (!qz.hasAttribute('data-paper')) feedback.show(submit.parentNode, got, max, st, 'lm-score:' + location.pathname + '#' + $$('[data-quiz]').indexOf(qz));
       d.dispatchEvent(new CustomEvent('lm-quiz-marked'));
     });
@@ -426,7 +496,7 @@
     var startBtn = $('.paper-start', ph), timer = $('.paper-timer', ph), clock = $('.pt-clock', ph), stopBtn = $('.paper-stop', ph);
     var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
     var num = function (s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); };
-    var tick = null, handed = false;
+    var tick = null, handed = false, attempt = '';
     // self-marking box under each written problem that states its points
     var qs = $$('.paper-q[data-pts]');
     qs.forEach(function (q) {
@@ -455,6 +525,12 @@
         st.n += q.n; st.blank += q.blank; st.wrong = st.wrong.concat(q.wrong); st.tf.pts += q.tf.pts; st.tf.max += q.tf.max; st.sa.n += q.sa.n; st.sa.ok += q.sa.ok;
       });
       $$('.paper-self input').forEach(function (i, n) { var v = num(i.value); if (isNaN(v)) ready = false; else if (v < 0.5 * +i.getAttribute('data-max')) st.written.push(String(n + 1)); });
+      if (ready && max) {
+        var lv = {};
+        $$('[data-quiz][data-paper]').forEach(function (qz) { var x = qz.lmLv || {}; Object.keys(x).forEach(function (L) { lv[L] = lv[L] || [0, 0]; lv[L][0] += x[L][0]; lv[L][1] += x[L][1]; }); });
+        attempt = attempt || Math.random().toString(36).slice(2, 12);
+        journal.add({ id: attempt, k: 'paper', g: Math.round(got * 1000) / 1000, m: max, v: lv });
+      }
       if (ready && max) feedback.show(sum, got, max, st, 'lm-score:' + location.pathname); else { feedback.clear(sum); if (hint) hint.hidden = !$('.paper-self input') || sum.hidden; }
       if (ready && hint) hint.hidden = true;
     }
