@@ -378,7 +378,7 @@ function shell(o) {
   const bodyCls = ['lvl-' + (o.level || 'home'), o.side ? 'has-side' : ''].filter(Boolean).join(' ');
   return '<!doctype html>\n<html lang="' + L.htmlLang + '" data-root="' + esc(rel0(d, L.prefix)) + '">\n<head>\n' + head + '\n</head>\n<body class="' + bodyCls + '">\n' +
     '<a class="skip" href="#main">' + esc(T.skip) + '</a>\n' +
-    '<div class="slogan-bar"><p>' + esc(T.slogan) + '</p></div>\n' +
+    '<div class="slogan-bar"><p>' + T.slogan.split(/(?<=[.,]) /).map((x) => '<span class="sl-part">' + esc(x) + '</span>').join(' ') + '</p></div>\n' +
     '<header class="topbar">\n' +
     '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(o.side ? T.menu : T.openMenu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +

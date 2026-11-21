@@ -60,11 +60,11 @@ img { max-width: 100%; height: auto; }
 .ico { flex: none; }
 
 /* ---------- top bar ---------- */
-.slogan-bar { background: var(--lemon); color: var(--lemon-ink); text-align: center; padding: 6px 14px; font: 800 .95rem/1.35 var(--head); letter-spacing: .01em; }
-.slogan-bar p { margin: 0; }
+.slogan-bar { background: var(--lemon); color: var(--lemon-ink); text-align: center; padding: 3px 12px; font: 700 .8rem/1.3 var(--head); }
+.slogan-bar p { margin: 0; text-wrap: balance; } .sl-part { white-space: nowrap; }
 :root[data-theme="dark"] .slogan-bar { background: var(--surface2); color: var(--lemon); border-bottom: 1px solid var(--line); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .slogan-bar { background: var(--surface2); color: var(--lemon); border-bottom: 1px solid var(--line); } }
-@media (max-width: 520px) { .slogan-bar { padding: 5px 10px; font-size: .8rem; } }
+@media (max-width: 520px) { .slogan-bar { padding: 2px 8px; font-size: .68rem; letter-spacing: -.01em; } }
 .topbar { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 10px; min-height: var(--topbar); padding: 8px 16px; background: color-mix(in srgb, var(--bg) 82%, transparent); -webkit-backdrop-filter: saturate(180%) blur(16px); backdrop-filter: saturate(180%) blur(16px); color: var(--ink); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 8px; font: 700 1.5rem/1 var(--head); color: inherit; text-decoration: none; }
 .brand b { font-weight: 800; color: #166534; }
