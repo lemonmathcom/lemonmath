@@ -46,4 +46,4 @@ Nếu muốn dùng trên máy khác hoặc cho bố mẹ cùng xem, bạn có th
 
 ## Thấy chỗ chưa đúng?
 
-Người viết nào cũng có lúc nhầm, và chúng tôi rất cảm ơn khi được chỉ ra. Bạn hãy gửi email tới **[support@lemonmath.com](mailto:support@lemonmath.com)** hoặc [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), ghi tên bài học và chỗ bạn thấy chưa ổn. Các cách liên hệ khác và thông tin chủ quản website nằm ở [trang Liên hệ](/vi/lien-he/).
+Người viết nào cũng có lúc nhầm, và chúng tôi rất cảm ơn khi được chỉ ra. Bạn hãy gửi email tới **[support@lemonmath.com](mailto:support@lemonmath.com)** hoặc [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), ghi tên bài học và chỗ bạn thấy chưa ổn. Số điện thoại và các cách liên hệ khác nằm ở [trang Liên hệ](/vi/lien-he/).

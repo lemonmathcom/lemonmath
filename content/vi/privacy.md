@@ -14,7 +14,7 @@ Trang này viết theo Luật Bảo vệ dữ liệu cá nhân năm 2025 và Ngh
 Lemonmath (lemonmath.com) do cá nhân **Nguyễn Văn Chanh** thiết lập và quản lý. Người này chịu trách nhiệm về việc xử lý dữ liệu cá nhân trên website.
 
 - Email: **[support@lemonmath.com](mailto:support@lemonmath.com)**
-- Zalo: [0919 814 268](https://zalo.me/0919814268)
+- Điện thoại: [+84 396 281 258](tel:+84396281258)
 - Các cách liên hệ khác: xem [trang Liên hệ](../lien-he/).
 
 ## Lemonmath lưu gì, ở đâu, để làm gì?

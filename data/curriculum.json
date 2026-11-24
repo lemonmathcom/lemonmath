@@ -2,6 +2,7 @@
   "site": {
     "name": "Lemonmath",
     "url": "https://lemonmath.com",
+    "contact": { "email": "support@lemonmath.com", "phone": "+84396281258", "phoneShow": "+84 396 281 258", "social": { "x": "", "whatsapp": "https://wa.me/84396281258", "telegram": "https://t.me/+84396281258", "facebook": "", "messenger": "", "zalo": "https://zalo.me/0396281258" } },
     "analytics": { "cloudflare": "6a74655cf2b249db96db252439a4f446" },
     "verify": { "google": "uasMEvj5Mx2JKhXh_ibckxpB1MWIHRTAvvNPT0LKwj0" },
     "live": { "firebase": "https://lemonmathlive-default-rtdb.asia-southeast1.firebasedatabase.app" },

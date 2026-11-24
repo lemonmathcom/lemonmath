@@ -663,10 +663,31 @@ function worksheetPage(lang, ls) {
   return true;
 }
 
+/*
+ * Contact block for the Contact page: email, phone and messaging icons, from site.contact in data/curriculum.json.
+ * Write [[contact]] on its own line in a page. Icons (Simple Icons, CC0) live in data/social-icons.json;
+ * a service with an empty link is not shown.
+ */
+const SOCIAL = fs.existsSync(path.join(ROOT, 'data', 'social-icons.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'social-icons.json'), 'utf8')).icons : {};
+function contactBlock(lang) {
+  const T = UI[lang], c = site.contact || {};
+  let h = '<div class="ct-box">';
+  if (c.email) h += '<p class="ct-line"><span class="ct-k">' + esc(T.ctEmail) + '</span><a href="mailto:' + esc(c.email) + '">' + esc(c.email) + '</a></p>';
+  if (c.phone) h += '<p class="ct-line"><span class="ct-k">' + esc(T.ctPhone) + '</span><a href="tel:' + esc(c.phone) + '">' + esc(c.phoneShow || c.phone) + '</a></p>';
+  const links = Object.keys(c.social || {}).filter((k) => c.social[k] && SOCIAL[k]);
+  if (links.length) {
+    h += '<p class="ct-k ct-k2">' + esc(T.ctChat) + '</p><ul class="ct-social">' + links.map((k) => {
+      const i = SOCIAL[k];
+      return '<li><a href="' + esc(c.social[k]) + '" target="_blank" rel="noopener" aria-label="' + esc(i.title) + '"><span class="ct-ic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="#' + i.hex + '" d="' + i.path + '"/></svg></span><span class="ct-n">' + esc(i.title) + '</span></a></li>';
+    }).join('') + '</ul>';
+  }
+  return h + '</div>';
+}
+
 function aboutPage(lang, page, dirFn) {
   dirFn = dirFn || aboutDir;
   const T = UI[lang], d = dirFn(lang), alt = dirFn(other(lang));
-  const body = '<article class="lesson about"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' + pageActions(lang, d) + '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'about') + '\n</div></article>';
+  const body = '<article class="lesson about"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' + pageActions(lang, d) + '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'about').replace('<p>[[contact]]</p>', () => contactBlock(lang)) + '\n</div></article>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: false,
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
 }

@@ -1,14 +1,13 @@
 ---
 title: Contact
-description: How to reach Lemonmath to report a mistake in a lesson, ask about My classes, share an idea, work together, or ask to see or delete your data. With the site owner's details.
+description: Lemonmath's email, phone, WhatsApp, Telegram and Zalo, for reporting a mistake in a lesson, asking about My classes, sharing an idea, working together, or asking to see or delete your data.
 ---
 
 Lemonmath always wants to hear from students, parents and teachers. One small suggestion can make a lesson clearer for thousands of other learners.
 
-## Email or Telegram
+## Contact
 
-- **Email:** [support@lemonmath.com](mailto:support@lemonmath.com)
-- **Telegram:** +84 919 814 268
+[[contact]]
 
 We usually reply within a few days. Requests about personal data are answered within 7 working days.
 
@@ -21,10 +20,3 @@ We usually reply within a few days. Requests about personal data are answered wi
 - **Working together.** Schools, learning centres and parent groups who want to use Lemonmath with their students.
 
 Lemonmath will **never** ask for your password, recovery code or learning code by email, message or phone. If someone does, it is not Lemonmath.
-
-## Site owner
-
-- **Website:** Lemonmath, https://lemonmath.com
-- **Run by:** Nguyen Van Chanh (private individual)
-- **Email:** [support@lemonmath.com](mailto:support@lemonmath.com)
-- **Telegram:** +84 919 814 268

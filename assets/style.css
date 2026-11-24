@@ -216,6 +216,17 @@ a.card:hover { transform: translateY(-3px); }
 .prose th, .prose td { padding: 8px 14px; border: 2px solid var(--line); }
 .prose th { background: var(--lvl-soft); color: var(--lvl-ink); }
 .prose code { padding: 2px 6px; border-radius: 6px; background: var(--surface2); font-size: .9em; }
+.ct-box { margin: 1em 0 1.2em; padding: 16px 18px; border: 2px solid var(--line); border-radius: 16px; background: var(--surface); }
+.ct-line { margin: .3em 0; font-size: 1.08em; } .ct-line a { font-weight: 700; }
+.ct-k { display: inline-block; min-width: 6.5em; color: var(--muted, inherit); font-weight: 600; }
+.ct-k2 { display: block; margin: .9em 0 .4em; }
+@media (max-width: 480px) { .ct-line .ct-k { display: block; min-width: 0; font-size: .92em; } }
+.prose ul.ct-social { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.prose ul.ct-social li { margin: 0; }
+.ct-social a { display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 76px; padding: 8px 6px; border-radius: 14px; text-decoration: none; color: inherit; font-size: .85em; }
+.ct-social a:hover, .ct-social a:focus-visible { background: var(--surface2); }
+.ct-ic { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: #fff; border: 2px solid var(--line); }
+.ct-ic svg { width: 26px; height: 26px; }
 .prose blockquote { margin: 1em 0; padding: 4px 18px; border-left: 5px solid var(--lemon); background: var(--surface); border-radius: 0 12px 12px 0; }
 .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
 .katex { font-size: 1.1em; }

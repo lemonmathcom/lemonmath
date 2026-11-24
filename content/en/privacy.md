@@ -14,7 +14,7 @@ This page follows Vietnam's Personal Data Protection Law 2025 and Decree 356/202
 Lemonmath (lemonmath.com) is set up and run by **Nguyen Van Chanh**, a private individual, who is responsible for how personal data is handled on the site.
 
 - Email: **[support@lemonmath.com](mailto:support@lemonmath.com)**
-- Telegram: +84 919 814 268
+- Phone: [+84 396 281 258](tel:+84396281258)
 - Other ways to reach us: see the [Contact page](../contact/).
 
 ## What does Lemonmath keep, where, and why?

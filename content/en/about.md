@@ -46,4 +46,4 @@ If you want to use it on another device or let your parents follow along, you ca
 
 ## Spotted a mistake?
 
-Everyone who writes gets something wrong now and then, and we are always grateful to be told. Please email **[support@lemonmath.com](mailto:support@lemonmath.com)** or [report it here](https://github.com/lemonmathcom/lemonmath/issues) with the name of the lesson and what looks wrong. Other ways to reach us, and the site owner's details, are on the [Contact page](/contact/).
+Everyone who writes gets something wrong now and then, and we are always grateful to be told. Please email **[support@lemonmath.com](mailto:support@lemonmath.com)** or [report it here](https://github.com/lemonmathcom/lemonmath/issues) with the name of the lesson and what looks wrong. Our phone number and other ways to reach us are on the [Contact page](/contact/).
