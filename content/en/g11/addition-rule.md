@@ -154,7 +154,14 @@ Roll a fair die. Find the probability that the number is even or divisible by $3
 2. Find the intersection, then apply the rule.
 
 ::solution
-$A\cap B=\{6\}$, so $P(A\cup B)=\dfrac36+\dfrac26-\dfrac16=\dfrac46=\dfrac23$.
+Let $A$ be the event "the number is even" and $B$ the event "the number is divisible by $3$". The die is fair, so the $6$ outcomes $1, 2, 3, 4, 5, 6$ are equally likely.
+
+We have $A=\{2, 4, 6\}$, so $P(A)=\dfrac36$; and $B=\{3, 6\}$, so $P(B)=\dfrac26$. The intersection is $A\cap B=\{6\}$, so $P(A\cap B)=\dfrac16$.
+
+Applying the addition rule $P(A\cup B)=P(A)+P(B)-P(A\cap B)$, we get
+$$P(A\cup B)=\frac36+\frac26-\frac16=\frac46=\frac23.$$
+
+So the probability that the number is even or divisible by $3$ is $\dfrac23$.
 
 **Answer.** $\dfrac23$.
 :::
@@ -170,7 +177,14 @@ A card is drawn at random from a standard deck of $52$ cards. Find the probabili
 2. Apply the addition rule.
 
 ::solution
-$P(\text{red})=\dfrac{26}{52}$, $P(\text{ace})=\dfrac4{52}$, $P(\text{red ace})=\dfrac2{52}$. So $P(A\cup B)=\dfrac{26+4-2}{52}=\dfrac{28}{52}=\dfrac7{13}$.
+Let $A$ be the event "the card drawn is red" and $B$ the event "the card drawn is an ace". The deck has $52$ cards and each card is equally likely to be drawn.
+
+There are $26$ red cards, so $P(A)=\dfrac{26}{52}$; there are $4$ aces, so $P(B)=\dfrac4{52}$. The event $A\cap B$ is "the card drawn is a red ace". There are $2$ red aces (the ace of hearts and the ace of diamonds), so $P(A\cap B)=\dfrac2{52}$.
+
+Applying the addition rule $P(A\cup B)=P(A)+P(B)-P(A\cap B)$, we get
+$$P(A\cup B)=\frac{26}{52}+\frac4{52}-\frac2{52}=\frac{28}{52}=\frac7{13}.$$
+
+So the probability of drawing a red card or an ace is $\dfrac7{13}$.
 
 **Answer.** $\dfrac7{13}$.
 :::
@@ -194,13 +208,17 @@ d) $P(A\cup B)\ge P(A)$.
 2. Remember that the union contains $A$.
 
 ::solution
-a) **False**: $P(AB)$ must be subtracted.
+The addition rule: for any two events $A$, $B$, $P(A\cup B)=P(A)+P(B)-P(AB)$.
 
-b) **True**: for mutually exclusive events $P(AB)=0$.
+a) **False.** By the addition rule, $P(A\cup B)=P(A)+P(B)-P(AB)$, so the equality $P(A\cup B)=P(A)+P(B)$ holds only when $P(AB)=0$. For instance, take $B=A$ with $P(A)>0$; then $P(A\cup B)=P(A)\ne2P(A)=P(A)+P(B)$. So the equality is not true for all events $A$, $B$.
 
-c) **True** by the property.
+b) **True.** If $A$, $B$ are mutually exclusive then $A\cap B=\varnothing$, so $P(AB)=0$. Substituting into the addition rule gives $P(A\cup B)=P(A)+P(B)$.
 
-d) **True**: $A\subset A\cup B$.
+c) **True.** The events $A$ and $\overline A$ are mutually exclusive and $A\cup\overline A=\Omega$. Hence $P(A)+P(\overline A)=P(\Omega)=1$, so $P(\overline A)=1-P(A)$.
+
+d) **True.** Since $A\subset A\cup B$, every outcome favourable to $A$ is also favourable to $A\cup B$. Hence $P(A\cup B)\ge P(A)$.
+
+So statements b), c), d) are true; statement a) is false.
 
 **Answer.** a) False; b) True; c) True; d) True.
 :::
@@ -216,7 +234,13 @@ Given $P(A)=0.5$, $P(B)=0.4$ and $P(AB)=0.2$, find $P(A\cup B)$ and the probabil
 2. Subtract the result from $1$.
 
 ::solution
-$P(A\cup B)=0.5+0.4-0.2=0.7$. The probability that neither event occurs is $1-0.7=0.3$.
+Applying the addition rule $P(A\cup B)=P(A)+P(B)-P(AB)$, we have
+$$P(A\cup B)=0.5+0.4-0.2=0.7.$$
+
+The event "neither $A$ nor $B$ occurs" is the complement of $A\cup B$, that is $\overline{A\cup B}$. Hence
+$$P\left(\overline{A\cup B}\right)=1-P(A\cup B)=1-0.7=0.3.$$
+
+So $P(A\cup B)=0.7$ and the probability that neither event occurs is $0.3$.
 
 **Answer.** $0.7$ and $0.3$.
 :::
@@ -232,7 +256,14 @@ A fair coin is tossed three times. Find the probability of at least one head.
 2. Subtract from $1$.
 
 ::solution
-The probability that all three are tails is $\left(\dfrac12\right)^3=\dfrac18$. So the probability of at least one head is $1-\dfrac18=\dfrac78$.
+Let $A$ be the event "at least one head". The complement $\overline A$ is the event "all three tosses are tails".
+
+The coin is fair, so on each toss the probability of tails is $\dfrac12$, and the tosses are independent. Hence
+$$P(\overline A)=\frac12\cdot\frac12\cdot\frac12=\left(\frac12\right)^3=\frac18.$$
+
+It follows that $P(A)=1-P(\overline A)=1-\dfrac18=\dfrac78$.
+
+So the probability of at least one head is $\dfrac78$.
 
 **Answer.** $\dfrac78$.
 :::
@@ -248,7 +279,18 @@ Suppose a warehouse has two fire alarms that work independently; the probabiliti
 2. Multiply, then subtract from $1$.
 
 ::solution
-The probability that both fail is $0.1\cdot0.2=0.02$. So the probability that at least one sounds is $1-0.02=0.98$.
+Let $A$ be the event "the first alarm sounds" and $B$ the event "the second alarm sounds" when there is a fire. We have $P(A)=0.9$, $P(B)=0.8$, and $A$, $B$ are independent.
+
+The event "at least one alarm sounds" is $A\cup B$. Its complement is "both alarms fail", that is $\overline A\cap\overline B$.
+
+We have $P(\overline A)=1-0.9=0.1$ and $P(\overline B)=1-0.8=0.2$. Since $A$, $B$ are independent, $\overline A$ and $\overline B$ are also independent, so
+$$P(\overline A\cap\overline B)=P(\overline A)\cdot P(\overline B)=0.1\cdot0.2=0.02.$$
+
+It follows that $P(A\cup B)=1-0.02=0.98$.
+
+Check with the addition rule: $P(A\cup B)=0.9+0.8-0.9\cdot0.8=1.7-0.72=0.98$.
+
+So the probability that at least one alarm sounds when there is a fire is $0.98$.
 
 **Answer.** $0.98$.
 :::
@@ -280,7 +322,15 @@ Revisit rearranging equations. Given $P(A\cup B)=0.85$, $P(A)=0.6$ and $P(B)=0.5
 2. Compare with $P(A)\,P(B)$.
 
 ::solution
-$P(AB)=0.6+0.5-0.85=0.25$. Meanwhile $P(A)\,P(B)=0.6\cdot0.5=0.3\ne0.25$, so $A$, $B$ are not independent.
+Applying the addition rule $P(A\cup B)=P(A)+P(B)-P(AB)$ and rearranging, we get $P(AB)=P(A)+P(B)-P(A\cup B)$. Substituting the values:
+$$P(AB)=0.6+0.5-0.85=0.25.$$
+
+The events $A$, $B$ are independent if and only if $P(AB)=P(A)\,P(B)$. We have
+$$P(A)\,P(B)=0.6\cdot0.5=0.3.$$
+
+Since $0.25\ne0.3$, we have $P(AB)\ne P(A)\,P(B)$, so $A$, $B$ are not independent.
+
+So $P(AB)=0.25$ and the events $A$, $B$ are not independent.
 
 **Answer.** $P(AB)=0.25$; not independent.
 :::

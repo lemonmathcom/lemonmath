@@ -304,13 +304,31 @@ d) $\log_{1/2}(x+1)>-1$.
 2. Xét cơ số rồi giải; với lôgarit viết cả điều kiện đối số dương.
 
 ::solution
-a) $9=\left(\dfrac13\right)^{-2}$, cơ số $\dfrac13<1$ nên $x>-2$.
+a) Ta có $9=\left(\dfrac13\right)^{-2}$, nên bất phương trình trở thành $\left(\dfrac13\right)^x<\left(\dfrac13\right)^{-2}$.
 
-b) $8=2^3$, cơ số $2>1$ nên $x^2-2x<3$, tức $x^2-2x-3<0$, suy ra $-1<x<3$.
+Vì cơ số $\dfrac13<1$ nên hàm số mũ nghịch biến; do đó bất phương trình tương đương với $x>-2$ (đổi chiều).
 
-c) Cơ số $3>1$: $0<x-2<3^2=9$, suy ra $2<x<11$.
+Vậy tập nghiệm là $(-2; +\infty)$.
 
-d) $-1=\log_{1/2}2$, cơ số $\dfrac12<1$ nên $0<x+1<2$, suy ra $-1<x<1$.
+b) Ta có $8=2^3$, nên bất phương trình trở thành $2^{x^2-2x}<2^3$.
+
+Vì cơ số $2>1$ nên hàm số mũ đồng biến; do đó bất phương trình tương đương với $x^2-2x<3$, tức là $x^2-2x-3<0$. Tam thức $x^2-2x-3=(x+1)(x-3)$ có hai nghiệm $-1$ và $3$ và hệ số $a=1>0$, nên $x^2-2x-3<0$ khi $-1<x<3$.
+
+Vậy tập nghiệm là $(-1; 3)$.
+
+c) Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $2=\log_39$, nên bất phương trình trở thành $\log_3(x-2)<\log_39$. Vì cơ số $3>1$ nên bất phương trình tương đương với $x-2<9$, tức là $x<11$.
+
+Kết hợp với điều kiện $x>2$, ta được $2<x<11$. Vậy tập nghiệm là $(2; 11)$.
+
+d) Điều kiện xác định: $x+1>0$, tức là $x>-1$.
+
+Ta có $-1=\log_{1/2}2$, nên bất phương trình trở thành $\log_{1/2}(x+1)>\log_{1/2}2$. Vì cơ số $\dfrac12\in(0; 1)$ nên hàm lôgarit nghịch biến; do đó bất phương trình tương đương với $x+1<2$, tức là $x<1$.
+
+Kết hợp với điều kiện $x>-1$, ta được $-1<x<1$. Vậy tập nghiệm là $(-1; 1)$.
+
+Vậy các tập nghiệm lần lượt là $(-2; +\infty)$, $(-1; 3)$, $(2; 11)$ và $(-1; 1)$.
 
 **Đáp số.** a) $(-2; +\infty)$; b) $(-1; 3)$; c) $(2; 11)$; d) $(-1; 1)$.
 :::
@@ -334,13 +352,15 @@ d) Phương trình $\log_3(x^2)=4$ có hai nghiệm.
 2. Câu c, đảo chiều khi cơ số nhỏ hơn $1$; câu d, giải $x^2=81$.
 
 ::solution
-a) **Đúng**: $5^x>0$ với mọi $x$.
+a) **Đúng.** Hàm số mũ $y=5^x$ luôn nhận giá trị dương: $5^x>0$ với mọi $x$. Do đó $5^x=0$ không thể xảy ra, phương trình vô nghiệm.
 
-b) **Sai**: $2^2+3^2=13\neq5$.
+b) **Sai.** Thay $x=2$ vào vế trái: $2^2+3^2=4+9=13\neq5$. Vậy $x=2$ không là nghiệm.
 
-c) **Sai**: $\log_{1/2}x>1\Leftrightarrow0<x<\dfrac12$.
+c) **Sai.** Điều kiện: $x>0$. Ta có $1=\log_{1/2}\dfrac12$, nên $\log_{1/2}x>\log_{1/2}\dfrac12$. Vì cơ số $\dfrac12<1$ nên bất phương trình tương đương với $0<x<\dfrac12$. Tập nghiệm là $\left(0; \dfrac12\right)$, không phải $\left(\dfrac12; +\infty\right)$.
 
-d) **Đúng**: $x^2=81$ cho $x=\pm9$, và cả hai đều thoả $x^2>0$.
+d) **Đúng.** Điều kiện: $x^2>0$, tức là $x\neq0$. Ta có $\log_3\left(x^2\right)=4\Leftrightarrow x^2=3^4=81\Leftrightarrow x=\pm9$. Cả hai giá trị đều thoả $x\neq0$, nên phương trình có hai nghiệm.
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -356,9 +376,19 @@ Giả sử một chiếc xe giá $600$ triệu đồng và mỗi năm giá trị
 2. Tính $\log_{0{,}88}0{,}5$, đảo chiều, rồi lấy số nguyên phù hợp.
 
 ::solution
-Cần $0{,}88^t<0{,}5$. Vì cơ số $0{,}88<1$ nên $t>\log_{0{,}88}0{,}5=\dfrac{\ln0{,}5}{\ln0{,}88}\approx5{,}42$. Số năm nguyên nhỏ nhất là $6$.
+Gọi $t$ (năm) là thời gian sử dụng, $t>0$. Giá trị xe là $V(t)=600\cdot0{,}88^t$ (triệu đồng). Cần $V(t)<300$.
 
-Thử lại: $600\cdot0{,}88^5\approx316{,}6>300$ và $600\cdot0{,}88^6\approx278{,}6<300$.
+Ta có
+$$600\cdot0{,}88^t<300\Leftrightarrow0{,}88^t<0{,}5.$$
+
+Vì cơ số $0{,}88<1$ nên hàm số $y=0{,}88^t$ nghịch biến; lấy lôgarit cơ số $0{,}88$ hai vế thì đổi chiều bất đẳng thức:
+$$t>\log_{0{,}88}0{,}5=\frac{\ln0{,}5}{\ln0{,}88}\approx5{,}42.$$
+
+Số năm nguyên nhỏ nhất thoả $t>5{,}42$ là $t=6$.
+
+Kiểm tra: $V(5)=600\cdot0{,}88^5\approx316{,}6>300$ và $V(6)=600\cdot0{,}88^6\approx278{,}6<300$.
+
+Vậy sau ít nhất $6$ năm thì giá trị xe dưới $300$ triệu đồng.
 
 **Đáp số.** $6$ năm.
 :::
@@ -374,9 +404,15 @@ Mức cường độ âm là $L=10\lg\dfrac{I}{I_0}$ (dB), với $I_0=10^{-12}$ 
 2. Giải rồi nhân với $I_0$.
 
 ::solution
-Cần $10\lg\dfrac{I}{I_0}\le80$, tức $\lg\dfrac{I}{I_0}\le8$, suy ra $\dfrac{I}{I_0}\le10^8$ và $I\le10^8\cdot10^{-12}=10^{-4}$.
+Mức cường độ âm là $L=10\lg\dfrac{I}{I_0}$ (dB) với $I_0=10^{-12}$ W/m² và $I>0$. Quy định yêu cầu $L\le80$.
 
-Vậy cường độ âm lớn nhất là $10^{-4}$ W/m².
+Ta có
+$$10\lg\frac{I}{I_0}\le80\Leftrightarrow\lg\frac{I}{I_0}\le8.$$
+
+Vì cơ số $10>1$ nên hàm $y=10^t$ đồng biến; do đó
+$$\frac{I}{I_0}\le10^8\Leftrightarrow I\le10^8\cdot10^{-12}=10^{-4}.$$
+
+Vậy cường độ âm lớn nhất được phép là $10^{-4}$ W/m².
 
 **Đáp số.** $10^{-4}$ W/m².
 :::
@@ -396,9 +432,15 @@ b) Dung dịch có $\mathrm{pH}<3{,}5$ thì $[\mathrm{H}^+]$ lớn hơn giá tr�
 2. Đảo chiều bất đẳng thức vì hàm nghịch biến.
 
 ::solution
-a) Từ $4\le\mathrm{pH}\le6$ và $[\mathrm{H}^+]=10^{-\mathrm{pH}}$ (nghịch biến) ta có $10^{-6}\le[\mathrm{H}^+]\le10^{-4}$.
+Ta có $\mathrm{pH}=-\lg[\mathrm{H}^+]$, suy ra $[\mathrm{H}^+]=10^{-\mathrm{pH}}$. Hàm số $y=10^{-p}$ nghịch biến theo $p$ (vì $10^{-p}=\left(\dfrac1{10}\right)^p$ có cơ số nhỏ hơn $1$).
 
-b) Từ $\mathrm{pH}<3{,}5$ ta có $[\mathrm{H}^+]>10^{-3{,}5}\approx3{,}2\cdot10^{-4}$.
+a) Từ $4\le\mathrm{pH}\le6$ suy ra $-6\le-\mathrm{pH}\le-4$. Do hàm mũ cơ số $10$ đồng biến nên
+$$10^{-6}\le10^{-\mathrm{pH}}\le10^{-4},\ \text{tức là}\ 10^{-6}\le[\mathrm{H}^+]\le10^{-4}.$$
+Vậy $[\mathrm{H}^+]$ nằm trong đoạn $\left[10^{-6}; 10^{-4}\right]$ mol/lít.
+
+b) Từ $\mathrm{pH}<3{,}5$ suy ra $-\mathrm{pH}>-3{,}5$, nên
+$$[\mathrm{H}^+]=10^{-\mathrm{pH}}>10^{-3{,}5}\approx3{,}2\cdot10^{-4}.$$
+Vậy dung dịch có $\mathrm{pH}<3{,}5$ thì $[\mathrm{H}^+]>3{,}2\cdot10^{-4}$ mol/lít.
 
 **Đáp số.** a) $10^{-6}\le[\mathrm{H}^+]\le10^{-4}$; b) $[\mathrm{H}^+]>3{,}2\cdot10^{-4}$ mol/lít.
 :::
@@ -414,7 +456,16 @@ b) Từ $\mathrm{pH}<3{,}5$ ta có $[\mathrm{H}^+]>10^{-3{,}5}\approx3{,}2\cdot1
 2. Áp dụng định lí giá trị trung gian.
 
 ::solution
-Hàm $g(x)=\ln x+x-2$ liên tục trên $(0; +\infty)$. Ta có $g(1)=0+1-2=-1<0$ và $g(2)=\ln2+2-2=\ln2>0$. Theo định lí giá trị trung gian, tồn tại $c\in(1; 2)$ để $g(c)=0$, tức $\ln c=2-c$.
+Điều kiện xác định của phương trình $\ln x=2-x$ là $x>0$. Phương trình tương đương với $\ln x+x-2=0$.
+
+Xét hàm số $g(x)=\ln x+x-2$. Hàm $g$ là tổng của các hàm số liên tục trên $(0; +\infty)$ nên liên tục trên $(0; +\infty)$, do đó liên tục trên đoạn $[1; 2]$.
+
+Ta có
+$$g(1)=\ln1+1-2=0+1-2=-1<0,\qquad g(2)=\ln2+2-2=\ln2>0.$$
+
+Suy ra $g(1)\cdot g(2)<0$. Theo định lí giá trị trung gian, tồn tại $c\in(1; 2)$ sao cho $g(c)=0$, tức là $\ln c+c-2=0$, hay $\ln c=2-c$.
+
+Vậy phương trình $\ln x=2-x$ có ít nhất một nghiệm trong khoảng $(1; 2)$.
 
 **Đáp số.** Phương trình có nghiệm trong $(1; 2)$.
 :::

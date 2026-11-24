@@ -183,11 +183,15 @@ c) $2\times10$
 2. Tích sau hơn tích trước 2.
 
 ::solution
-a) $2\times3=6$.
+Ta dùng bảng nhân $2$ để tính nhẩm.
 
-b) $2\times8=16$.
+a) $2\times3$ là $3$ lần $2$, nên $2\times3=2+2+2=6$.
 
-c) $2\times10=20$.
+b) Theo bảng nhân $2$, ta có $2\times7=14$. Thêm một lần $2$ nữa, ta được $2\times8=14+2=16$.
+
+c) $2\times10$ là $10$ lần $2$. Đếm cách $2$: $2$, $4$, $6$, $8$, $10$, $12$, $14$, $16$, $18$, $20$, ta được $2\times10=20$.
+
+Vậy $2\times3=6$; $2\times8=16$; $2\times10=20$.
 
 **Đáp số.** a) 6; b) 16; c) 20.
 :::
@@ -209,11 +213,15 @@ c) $5\times10$
 2. Tích sau hơn tích trước 5.
 
 ::solution
-a) $5\times2=10$.
+Ta dùng bảng nhân $5$ để tính nhẩm.
 
-b) $5\times7=35$.
+a) $5\times2$ là $2$ lần $5$, nên $5\times2=5+5=10$.
 
-c) $5\times10=50$.
+b) Theo bảng nhân $5$, ta có $5\times6=30$. Thêm một lần $5$ nữa, ta được $5\times7=30+5=35$.
+
+c) Theo bảng nhân $5$, ta có $5\times9=45$. Thêm một lần $5$ nữa, ta được $5\times10=45+5=50$.
+
+Vậy $5\times2=10$; $5\times7=35$; $5\times10=50$.
 
 **Đáp số.** a) 10; b) 35; c) 50.
 :::
@@ -233,9 +241,15 @@ b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
 2. Điền lần lượt từng chỗ trống.
 
 ::solution
-a) $6+2=8$ và $10+2=12$.
+a) Trong dãy $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$, mỗi số lớn hơn số đứng trước nó $2$ đơn vị. Số đứng sau $6$ là $6+2=8$. Số đứng sau $10$ là $10+2=12$.
 
-b) $10+5=15$ và $20+5=25$.
+Kiểm tra: $8+2=10$ và $12+2=14$. Đúng.
+
+b) Trong dãy $5,\ 10,\ \square,\ 20,\ \square,\ 30$, mỗi số lớn hơn số đứng trước nó $5$ đơn vị. Số đứng sau $10$ là $10+5=15$. Số đứng sau $20$ là $20+5=25$.
+
+Kiểm tra: $15+5=20$ và $25+5=30$. Đúng.
+
+Vậy a) các số cần điền là $8$ và $12$; b) các số cần điền là $15$ và $25$.
 
 **Đáp số.** a) 8 và 12; b) 15 và 25.
 :::
@@ -255,9 +269,11 @@ b) $5\times\square=25$
 2. Số lần đếm là số cần tìm.
 
 ::solution
-a) $2\times7=14$ nên số cần tìm là 7.
+a) Ta tìm trong bảng nhân $2$ phép nhân có kết quả là $14$. Ta có $2\times7=14$ nên số cần tìm là $7$.
 
-b) $5\times5=25$ nên số cần tìm là 5.
+b) Ta tìm trong bảng nhân $5$ phép nhân có kết quả là $25$. Ta có $5\times5=25$ nên số cần tìm là $5$.
+
+Vậy a) số cần điền là $7$; b) số cần điền là $5$.
 
 **Đáp số.** a) 7; b) 5.
 :::
@@ -276,9 +292,14 @@ Giả sử mỗi bạn có 2 quyển vở. Có 9 bạn như vậy. Hỏi có t�
 ::solution
 Bài giải
 
+Mỗi bạn có $2$ quyển vở, có $9$ bạn như vậy nên ta lấy $2$ nhân với $9$.
+
 Có tất cả số quyển vở là:
 $$2\times9=18\ \text{(quyển)}.$$
-Đáp số: 18 quyển vở.
+
+Vậy có tất cả $18$ quyển vở.
+
+**Đáp số.** 18 quyển vở.
 :::
 
 :::exercise
@@ -295,9 +316,14 @@ Giả sử mỗi rổ có 5 quả táo. Có 7 rổ như vậy. Hỏi có tất c
 ::solution
 Bài giải
 
+Mỗi rổ có $5$ quả táo, có $7$ rổ như vậy nên ta lấy $5$ nhân với $7$.
+
 Có tất cả số quả táo là:
 $$5\times7=35\ \text{(quả)}.$$
-Đáp số: 35 quả táo.
+
+Vậy có tất cả $35$ quả táo.
+
+**Đáp số.** 35 quả táo.
 :::
 
 :::exercise
@@ -311,8 +337,15 @@ Nhớ lại bài giờ - phút. Kim dài của đồng hồ chỉ số 8 thì đ
 2. Dùng bảng nhân 5.
 
 ::solution
-Kim dài chỉ số 8: $5\times8=40$ (phút).
-Kim dài chỉ số 10: $5\times10=50$ (phút).
+Trên mặt đồng hồ, mỗi lần kim dài đi từ một số sang số liền sau thì đã qua $5$ phút. Vì vậy khi kim dài chỉ số nào thì số phút đã qua là $5$ nhân với số đó.
+
+Khi kim dài chỉ số $8$, số phút đã qua là:
+$$5\times8=40\ \text{(phút)}.$$
+
+Khi kim dài chỉ số $10$, số phút đã qua là:
+$$5\times10=50\ \text{(phút)}.$$
+
+Vậy kim dài chỉ số $8$ thì đã qua $40$ phút; kim dài chỉ số $10$ thì đã qua $50$ phút.
 
 **Đáp số.** 40 phút và 50 phút.
 :::
@@ -328,8 +361,14 @@ Tích của 2 và một số bằng 18. Hỏi tích của 5 và số ấy bằng
 2. Nhân 5 với số lần đó.
 
 ::solution
-Ta có $2\times9=18$ nên số ấy là 9. Tích của 5 và 9 là:
+Tích của $2$ và một số bằng $18$, tức là $2\times\square=18$. Theo bảng nhân $2$, ta có $2\times9=18$ nên số ấy là $9$.
+
+Tích của $5$ và số ấy là:
 $$5\times9=45.$$
+
+Kiểm tra: theo bảng nhân $5$, $5\times9=45$. Đúng.
+
+Vậy tích của $5$ và số ấy bằng $45$.
 
 **Đáp số.** 45.
 :::

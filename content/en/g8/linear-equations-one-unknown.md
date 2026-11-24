@@ -205,9 +205,17 @@ d) $7-2t=0$.
 2. Check that the coefficient $a$ is not $0$.
 
 ::solution
-a) $a=5\neq0$: yes. b) $a=0$: no. c) The unknown has exponent $2$: no. d) Written as $-2t+7=0$ with $a=-2\neq0$: yes.
+A linear equation in one unknown has the form $ax+b=0$ with $a\neq0$. We bring each equation to this form.
 
-So a) and d) are linear equations in one unknown.
+a) The equation $5x-3=0$ has $a=5\neq0$, $b=-3$. It is a linear equation in one unknown.
+
+b) The equation $0x-4=0$ has $a=0$. It is not a linear equation in one unknown.
+
+c) The equation $x^2+2=0$ contains the unknown with exponent $2$. It is not a linear equation in one unknown.
+
+d) The equation $7-2t=0$ can be written as $-2t+7=0$ with unknown $t$, $a=-2\neq0$, $b=7$. It is a linear equation in one unknown.
+
+So equations a) and d) are linear equations in one unknown.
 
 **Answer.** a), d).
 :::
@@ -229,11 +237,11 @@ c) $7-4x=0$.
 2. Divide both sides by the coefficient of $x$.
 
 ::solution
-a) $2x=10$, so $x=5$.
+a) We have $2x-10=0$. Moving $-10$ to the right-hand side (changing its sign), we get $2x=10$. Dividing both sides by $2$, we get $x=5$.
 
-b) $3x=-8$, so $x=-\dfrac83$.
+b) We have $3x+8=0$. Moving $8$ to the right-hand side (changing its sign), we get $3x=-8$. Dividing both sides by $3$, we get $x=-\dfrac83$.
 
-c) $-4x=-7$, so $x=\dfrac74$.
+c) We have $7-4x=0$. Moving $7$ to the right-hand side (changing its sign), we get $-4x=-7$. Dividing both sides by $-4$, we get $x=\dfrac74$.
 
 So a) $x=5$; b) $x=-\dfrac83$; c) $x=\dfrac74$.
 
@@ -251,9 +259,12 @@ Solve the equation $5x-3=2x+9$.
 2. Collect terms, then divide both sides.
 
 ::solution
-We have $5x-2x=9+3$, that is $3x=12$, so $x=4$.
+We move the terms containing $x$ to the left-hand side and the constant terms to the right-hand side (changing their signs):
+$$5x-2x=9+3.$$
 
-Check: left-hand side $5\cdot4-3=17$, right-hand side $2\cdot4+9=17$.
+Simplifying, we get $3x=12$. Dividing both sides by $3$, we get $x=4$.
+
+Check: left-hand side $5\cdot4-3=17$; right-hand side $2\cdot4+9=17$. The two sides are equal.
 
 So the equation has the solution $x=4$.
 
@@ -315,9 +326,15 @@ b) $2x+5=2(x-1)$.
 2. Decide whether $c$ is $0$ or not.
 
 ::solution
-a) Removing brackets: $3x+6=3x+6$, that is $0x=0$, true for every $x$: the equation has infinitely many solutions.
+a) Removing the brackets on the left-hand side, we get
+$$3x+6=3x+6.$$
+Collecting the terms on one side, we get $0x=0$. This is true for every value of $x$. Hence the equation has infinitely many solutions.
 
-b) Removing brackets: $2x+5=2x-2$, so $0x=-7$; no $x$ satisfies this: the equation has no solution.
+b) Removing the brackets on the right-hand side, we get
+$$2x+5=2x-2.$$
+Moving the terms containing $x$ to the left and the numbers to the right, we get $0x=-7$. No value of $x$ satisfies this. Hence the equation has no solution.
+
+So equation a) has infinitely many solutions; equation b) has no solution.
 
 **Answer.** a) infinitely many solutions. b) no solution.
 :::
@@ -333,9 +350,14 @@ Suppose a taxi company charges a starting fee of $12\,000$ dong plus $14\,000$ d
 2. Solve the equation.
 
 ::solution
-The equation is $14\,000x+12\,000=96\,000$. Moving terms: $14\,000x=84\,000$, so $x=6$.
+Let $x$ (km) be the distance the passenger travelled ($x>0$).
 
-Check: $14\,000\cdot6+12\,000=96\,000$.
+The fare consists of the starting fee $12\,000$ dong plus $14\,000x$ dong for $x$ km. The passenger pays $96\,000$ dong, so we have the equation
+$$14\,000x+12\,000=96\,000.$$
+
+Moving $12\,000$ to the right-hand side, we get $14\,000x=84\,000$. Dividing both sides by $14\,000$, we get $x=6$ (which satisfies $x>0$).
+
+Check: $14\,000\cdot6+12\,000=84\,000+12\,000=96\,000$ (dong).
 
 So the passenger travelled $6$ km.
 
@@ -373,9 +395,15 @@ Which of the numbers $-2$, $0$, $2$ is a solution of the equation $3x+7=x+3$?
 2. Compare the two sides.
 
 ::solution
-For $x=-2$: left-hand side $3\cdot(-2)+7=1$, right-hand side $-2+3=1$, equal. For $x=0$: $7\neq3$. For $x=2$: $13\neq5$.
+A number is a solution of the equation when substituting it into both sides gives equal values. We test each number.
 
-So only $x=-2$ is a solution.
+For $x=-2$: left-hand side $3\cdot(-2)+7=1$, right-hand side $-2+3=1$. The two sides are equal, so $-2$ is a solution.
+
+For $x=0$: left-hand side $3\cdot0+7=7$, right-hand side $0+3=3$. Since $7\neq3$, $0$ is not a solution.
+
+For $x=2$: left-hand side $3\cdot2+7=13$, right-hand side $2+3=5$. Since $13\neq5$, $2$ is not a solution.
+
+So among the given numbers, only $x=-2$ is a solution of the equation.
 
 **Answer.** $-2$.
 :::

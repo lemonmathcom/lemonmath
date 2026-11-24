@@ -101,7 +101,17 @@ Each question has a reminder and a hint. Try it yourself first, then open the so
 2. Calculate $5\times4$ and $6\div2$, then subtract.
 
 ::solution
+The expression has brackets, multiplication and division. We work out the brackets first, then multiplication and division from left to right, and subtraction last.
+
+Brackets: $3.2+1.8=5$.
+
+Multiplication and division: $5\times4=20$ and $6\div2=3$.
+
+We have
 $$(3.2+1.8)\times4-6\div2=5\times4-3=20-3=17.$$
+
+So the value of the expression is $17$.
+
 **Answer.** $17$.
 :::
 
@@ -116,7 +126,16 @@ $$(3.2+1.8)\times4-6\div2=5\times4-3=20-3=17.$$
 2. Work from left to right.
 
 ::solution
-$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
+We rewrite the fractions with the common denominator $12$ (since $12$ is divisible by $6$, $4$ and $3$):
+$$\frac56=\frac{10}{12},\qquad \frac14=\frac3{12},\qquad \frac13=\frac4{12}.$$
+
+We have
+$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{10-3+4}{12}=\frac{11}{12}.$$
+
+The fraction $\dfrac{11}{12}$ is already in its simplest form.
+
+So $\dfrac56-\dfrac14+\dfrac13=\dfrac{11}{12}$.
+
 **Answer.** $\dfrac{11}{12}$.
 :::
 
@@ -131,9 +150,15 @@ $$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
 2. Part b: multiply $36\times25$, then place the decimal point.
 
 ::solution
-a) $25.40-8.75=16.65$.
+a) Write $25.4=25.40$ so that both numbers have two decimal places, line up the decimal points and subtract as with whole numbers:
+$$25.40-8.75=16.65.$$
 
-b) $36\times25=900$ and the product has two decimal places, so $3.6\times2.5=9.00=9$.
+Check: $16.65+8.75=25.40$. Correct.
+
+b) Multiply as with whole numbers: $36\times25=900$. The two factors have $1+1=2$ decimal places altogether, so the product has two decimal places:
+$$3.6\times2.5=9.00=9.$$
+
+So $25.4-8.75=16.65$ and $3.6\times2.5=9$.
 
 **Answer.** a) $16.65$; b) $9$.
 :::
@@ -150,7 +175,15 @@ b) $36\times25=900$ and the product has two decimal places, so $3.6\times2.5=9.0
 3. Take $\dfrac45$ of the volume.
 
 ::solution
-The volume of the tank is $5\times5\times5=125\ (\text{dm}^3)$. The water is $125\times\dfrac45=100\ (\text{dm}^3)=100$ litres.
+The volume of the cube-shaped tank with edges of $5$ dm is:
+$$5\times5\times5=125\ (\text{dm}^3)$$
+
+The water fills $\dfrac45$ of the tank, so the volume of water is:
+$$125\times\frac45=100\ (\text{dm}^3)$$
+
+Since $1\ \text{dm}^3=1$ litre, we have $100\ \text{dm}^3=100$ litres.
+
+So there are $100$ litres of water in the tank.
 
 **Answer.** $100$ litres.
 :::
@@ -167,8 +200,20 @@ The volume of the tank is $5\times5\times5=125\ (\text{dm}^3)$. The water is $12
 3. Add it to the start time.
 
 ::solution
-Lesson time is $40\times3=120$ (min). Break time is $10\times2=20$ (min). The whole class lasts $120+20=140$ (min) $=2$ h $20$ min. The class finishes at:
-$$14\text{ h }40\text{ min}+2\text{ h }20\text{ min}=16\text{ h }60\text{ min}=17\text{ h}.$$
+The lesson time of $3$ lessons is:
+$$40\times3=120\ \text{(min)}$$
+
+The break time of $2$ breaks is:
+$$10\times2=20\ \text{(min)}$$
+
+The whole class lasts:
+$$120+20=140\ \text{(min)}=2\text{ h }20\text{ min}$$
+
+The class finishes at:
+$$14\text{ h }40\text{ min}+2\text{ h }20\text{ min}=16\text{ h }60\text{ min}=17\text{ h}$$
+
+So the class finishes at $17{:}00$.
+
 **Answer.** $17{:}00$.
 :::
 
@@ -184,9 +229,18 @@ $$14\text{ h }40\text{ min}+2\text{ h }20\text{ min}=16\text{ h }60\text{ min}=1
 3. Add the travel time to the start time.
 
 ::solution
-a) $2$ h $20$ min $=\dfrac73$ h. The distance is $54\times\dfrac73=126$ (km).
+a) Convert $2$ h $20$ min to hours: $20$ min $=\dfrac{20}{60}=\dfrac13$ h, so
+$$2\text{ h }20\text{ min}=2\dfrac13\text{ h}=\dfrac73\text{ h}.$$
 
-b) It arrives at $6$ h $45$ min $+$ $2$ h $20$ min $=8$ h $65$ min $=9$ h $5$ min.
+The distance the motorbike travels is:
+$$54\times\frac73=126\ \text{(km)}$$
+
+So the motorbike travels $126$ km.
+
+b) The motorbike sets off at $6$ h $45$ min and travels for $2$ h $20$ min, so it arrives at:
+$$6\text{ h }45\text{ min}+2\text{ h }20\text{ min}=8\text{ h }65\text{ min}=9\text{ h }5\text{ min}$$
+
+So it arrives at $9{:}05$.
 
 **Answer.** a) $126$ km; b) $9{:}05$.
 :::
@@ -202,9 +256,18 @@ b) It arrives at $6$ h $45$ min $+$ $2$ h $20$ min $=8$ h $65$ min $=9$ h $5$ mi
 2. Find the number in Table tennis, then subtract.
 
 ::solution
-Art has $80\div100\times35=28$ students. Table tennis has $80\div100\times15=12$ students. The difference is $28-12=16$ students.
+The number of students in the Art club is:
+$$80\div100\times35=28\ \text{(students)}$$
 
-**Check.** Chess has $20$ students; Singing is $100-(25+35+15)=25\ (\%)$, so $20$ students; $20+28+12+20=80$.
+The number of students in the Table tennis club is:
+$$80\div100\times15=12\ \text{(students)}$$
+
+The number of extra students in the Art club is:
+$$28-12=16\ \text{(students)}$$
+
+Check: Chess has $80\div100\times25=20$ students. Singing is $100-(25+35+15)=25\ (\%)$, so it has $20$ students. The total is $20+28+12+20=80$, which matches the number of students.
+
+So there are $16$ more students in the Art club than in the Table tennis club.
 
 **Answer.** $16$ students.
 :::
@@ -220,7 +283,13 @@ Art has $80\div100\times35=28$ students. Table tennis has $80\div100\times15=12$
 2. Use the formula.
 
 ::solution
-The height is $16\div2=8$ (m). The area is $(24+16)\times8\div2=160\ (\text{m}^2)$.
+The height is half of the shorter parallel side ($16$ m), so the height is:
+$$16\div2=8\ \text{(m)}$$
+
+Using the area formula for a trapezium, $S=\dfrac{(a+b)\times h}{2}$, with parallel sides $24$ m and $16$ m and height $8$ m, the area of the field is:
+$$(24+16)\times8\div2=40\times8\div2=160\ (\text{m}^2)$$
+
+So the area of the field is $160\ \text{m}^2$.
 
 **Answer.** $160\ \text{m}^2$.
 :::
@@ -236,7 +305,18 @@ The height is $16\div2=8$ (m). The area is $(24+16)\times8\div2=160\ (\text{m}^2
 2. Work out both ratios, then add them as a check.
 
 ::solution
-Tails: $36\div80=0.45=45\%$. Heads came up $80-36=44$ times: $44\div80=0.55=55\%$.
+The percentage of tosses that were tails, out of all tosses, is:
+$$36\div80=0.45=45\%$$
+
+The number of tosses that were heads is:
+$$80-36=44\ \text{(times)}$$
+
+The percentage of tosses that were heads is:
+$$44\div80=0.55=55\%$$
+
+Check: $45+55=100$.
+
+So $45\%$ of the tosses were tails and $55\%$ were heads.
 
 **Answer.** Tails $45\%$; heads $55\%$.
 :::
@@ -253,11 +333,23 @@ Tails: $36\div80=0.45=45\%$. Heads came up $80-36=44$ times: $44\div80=0.55=55\%
 3. Find $\dfrac25$ of that total, then the money left.
 
 ::solution
-a) The interest is $50\div100\times6=3$ (million dong).
+a) The interest after one year is:
+$$50\div100\times6=3\ \text{(million dong)}$$
 
-b) The total is $50+3=53$ (million dong). The bicycle costs $53\times\dfrac25=21.2$ (million dong).
+So the interest is $3$ million dong.
 
-c) The money left is $53-21.2=31.8$ (million dong).
+b) The total Mr Nam withdraws, including the interest, is:
+$$50+3=53\ \text{(million dong)}$$
+
+The cost of the bicycle is $\dfrac25$ of this total, that is:
+$$53\times\frac25=21.2\ \text{(million dong)}$$
+
+So the bicycle costs $21.2$ million dong.
+
+c) The money left is:
+$$53-21.2=31.8\ \text{(million dong)}$$
+
+So the money left is $31.8$ million dong.
 
 **Answer.** a) $3$ million dong; b) $21.2$ million dong; c) $31.8$ million dong.
 :::

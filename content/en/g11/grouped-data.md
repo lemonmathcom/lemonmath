@@ -243,7 +243,27 @@ The heights (in cm) of $20$ students are $152, 158, 161, 165, 149, 170, 155, 162
 2. Count the frequencies and add them up as a check.
 
 ::solution
-Counting class by class gives the frequencies $1, 3, 5, 5, 4, 2$; for example the class $[150, 155)$ contains $152, 154, 151$. The total is $1+3+5+5+4+2=20$.
+To build a grouped frequency table, we place each value into the class that contains it. Each class has the form $[a, b)$, so it includes $a$ but not $b$ (for example $165$ belongs to the class $[165, 170)$, not to $[160, 165)$).
+
+Arrange the $20$ values in increasing order:
+$$149, 151, 152, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 168, 169, 170, 173.$$
+
+Count the values in each class:
+
+- Class $[145, 150)$: $149$, which is $1$ value.
+- Class $[150, 155)$: $151, 152, 154$, which is $3$ values.
+- Class $[155, 160)$: $155, 156, 157, 158, 159$, which is $5$ values.
+- Class $[160, 165)$: $160, 161, 162, 163, 164$, which is $5$ values.
+- Class $[165, 170)$: $165, 166, 168, 169$, which is $4$ values.
+- Class $[170, 175)$: $170, 173$, which is $2$ values.
+
+Check: $1+3+5+5+4+2=20$, which equals the number of students.
+
+So the grouped frequency table is
+
+| Height (cm) | $[145, 150)$ | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ | $[170, 175)$ |
+|---|---|---|---|---|---|---|
+| Frequency | $1$ | $3$ | $5$ | $5$ | $4$ | $2$ |
 
 **Answer.** The frequencies are $1, 3, 5, 5, 4, 2$.
 :::
@@ -259,13 +279,34 @@ Grouped heights (in cm) of a sample of size $50$: $[140, 150)$ has $5$, $[150, 1
 2. Add up the frequencies as a running total.
 
 ::solution
-Relative frequencies: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (total $100\%$). Cumulative frequencies: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
+The sample size is $n=50$. The relative frequency of a class with frequency $m$ is $\dfrac{m}{n}\cdot100\%$; the cumulative frequency of a class is the sum of the frequency of that class and of all classes before it.
+
+Relative frequency of each class:
+$$\frac{5}{50}=10\%,\quad\frac{12}{50}=24\%,\quad\frac{18}{50}=36\%,\quad\frac{10}{50}=20\%,\quad\frac{5}{50}=10\%.$$
+
+Check: $10\%+24\%+36\%+20\%+10\%=100\%$.
+
+Cumulative frequency of each class:
+$$5,\quad5+12=17,\quad17+18=35,\quad35+10=45,\quad45+5=50.$$
+
+Check: the cumulative frequency of the last class equals the sample size $50$.
+
+So we get the table
+
+| Class | $[140, 150)$ | $[150, 160)$ | $[160, 170)$ | $[170, 180)$ | $[180, 190)$ |
+|---|---|---|---|---|---|
+| Relative frequency | $10\%$ | $24\%$ | $36\%$ | $20\%$ | $10\%$ |
+| Cumulative frequency | $5$ | $17$ | $35$ | $45$ | $50$ |
 
 **Answer.** Relative frequencies: $10\%, 24\%, 36\%, 20\%, 10\%$; cumulative frequencies: $5, 17, 35, 45, 50$.
 :::
 
 :::exercise
-Each of the following grouped tables of weights (in kg) has an error. Point out the error and correct it. a) $[40, 45)$, $[45, 50]$, $[50, 55)$, $[55, 60)$. b) $[40, 45)$, $[45, 50)$, $[55, 60)$, $[60, 65)$.
+Each of the following grouped tables of weights (in kg) has an error. Point out the error and correct it.
+
+a) $[40, 45)$, $[45, 50]$, $[50, 55)$, $[55, 60)$.
+
+b) $[40, 45)$, $[45, 50)$, $[55, 60)$, $[60, 65)$.
 
 ::hint
 **What you need:** the classes must be consecutive, non-overlapping and without gaps.
@@ -275,7 +316,13 @@ Each of the following grouped tables of weights (in kg) has an error. Point out 
 2. Look for any interval that is not covered.
 
 ::solution
-a) The class $[45, 50]$ contains $50$, and $50$ also belongs to $[50, 55)$, so it is counted twice: the classes overlap. Correct it to $[45, 50)$. b) The class $[50, 55)$ is missing: values from $50$ up to but not including $55$ belong to no class. Correct it by adding the class $[50, 55)$.
+A correct grouped table has consecutive classes: every class has the form $[a, b)$ and the right endpoint of one class is the left endpoint of the next, so each value belongs to exactly one class.
+
+a) The class $[45, 50]$ contains the value $50$. The value $50$ also belongs to $[50, 55)$, so it is counted twice, that is, the two classes overlap at $50$. We correct this class to $[45, 50)$, so that $50$ belongs only to $[50, 55)$.
+
+b) After the class $[45, 50)$ comes the class $[55, 60)$, so values from $50$ up to but not including $55$ belong to no class. We correct this by adding the class $[50, 55)$, which gives the classes $[40, 45)$, $[45, 50)$, $[50, 55)$, $[55, 60)$, $[60, 65)$.
+
+So in table a) the error is an overlap at $50$, corrected to $[45, 50)$; in table b) the error is the missing class $[50, 55)$, corrected by adding this class.
 
 **Answer.** a) Overlap at $50$; correct to $[45, 50)$. b) $[50, 55)$ is missing; add this class.
 :::
@@ -291,13 +338,25 @@ Suppose the monthly household water use (in $\text{m}^3$) of $50$ households is 
 2. Divide by $50$ and multiply by $100\%$.
 
 ::solution
-The number of households using less than $15\ \text{m}^3$ is $4+16+18=38$, which is $\dfrac{38}{50}\cdot100\%=76\%$.
+The classes $[0, 5)$, $[5, 10)$, $[10, 15)$ consist of the households using less than $15\ \text{m}^3$ a month; the other two classes use $15\ \text{m}^3$ or more.
+
+The number of households using less than $15\ \text{m}^3$ is
+$$4+16+18=38\ (\text{households}).$$
+
+The sample size is $50$ households, so the required percentage is
+$$\frac{38}{50}\cdot100\%=76\%.$$
+
+So $76\%$ of the households use less than $15\ \text{m}^3$ a month.
 
 **Answer.** $76\%$.
 :::
 
 :::exercise
-The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has $10$, $[160, 165)$ has $14$, $[165, 170)$ has $9$, $[170, 175)$ has $3$ students. a) Write the representative value of each class. b) Assuming that the heights in each class are spread evenly, estimate the number of students shorter than $162.5$ cm.
+The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has $10$, $[160, 165)$ has $14$, $[165, 170)$ has $9$, $[170, 175)$ has $3$ students.
+
+a) Write the representative value of each class.
+
+b) Assuming that the heights in each class are spread evenly, estimate the number of students shorter than $162.5$ cm.
 
 ::hint
 **What you need:** the representative value is the midpoint of the class; $162.5$ is the midpoint of the class $[160, 165)$.
@@ -307,7 +366,18 @@ The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has
 2. Add the classes that lie entirely below $162.5$ and half of the class $[160, 165)$.
 
 ::solution
-a) The representative values are $152.5$, $157.5$, $162.5$, $167.5$, $172.5$. b) The classes $[150, 155)$ and $[155, 160)$ lie entirely below $162.5$ cm and contain $4+10=14$ students. The lower half of the class $[160, 165)$ contains about $\dfrac{14}{2}=7$ students. So the estimate is $14+7=21$ students.
+a) The representative value of a class $[a, b)$ is its midpoint $\dfrac{a+b}{2}$. We have
+$$\frac{150+155}{2}=152.5,\quad\frac{155+160}{2}=157.5,\quad\frac{160+165}{2}=162.5,\quad\frac{165+170}{2}=167.5,\quad\frac{170+175}{2}=172.5.$$
+
+b) The classes $[150, 155)$ and $[155, 160)$ lie entirely below $162.5$ cm and contain
+$$4+10=14\ (\text{students}).$$
+
+The point $162.5$ is the midpoint of the class $[160, 165)$. Since the heights in this class are spread evenly, the lower half of the class, that is the part $[160, 162.5)$, contains about
+$$\frac{14}{2}=7\ (\text{students}).$$
+
+Hence the number of students shorter than $162.5$ cm is about $14+7=21$.
+
+So the representative values are $152.5; 157.5; 162.5; 167.5; 172.5$ and about $21$ students are shorter than $162.5$ cm.
 
 **Answer.** a) $152.5; 157.5; 162.5; 167.5; 172.5$; b) about $21$ students.
 :::
@@ -332,13 +402,17 @@ d) The cumulative frequency of the class $[30, 40)$ is $38$.
 3. c), d) Add up the frequencies as a running total.
 
 ::solution
-a) **True**: the greatest frequency is $14$.
+The sample size is $6+14+12+6+2=40$.
 
-b) **False**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ is the frequency, not the relative frequency.
+a) **True.** The frequencies are $6, 14, 12, 6, 2$; the greatest is $14$, which belongs to the class $[10, 20)$.
 
-c) **True**: $6+14=20$.
+b) **False.** The relative frequency of the class $[20, 30)$ is $\dfrac{12}{40}\cdot100\%=30\%$. The number $12$ is the frequency, not the relative frequency.
 
-d) **True**: $6+14+12+6=38$.
+c) **True.** The students who take less than $20$ minutes belong to the two classes $[0, 10)$ and $[10, 20)$, which contain $6+14=20$ students.
+
+d) **True.** The cumulative frequency of the class $[30, 40)$ is $6+14+12+6=38$.
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -353,7 +427,12 @@ A grouped data set of size $50$ has cumulative frequencies $5, 17, 38, 46, 50$ f
 1. The frequency of the third class is the third cumulative frequency minus the second.
 
 ::solution
-The frequency of the third class is $38-17=21$.
+The cumulative frequency of a class is the sum of the frequency of that class and of the classes before it. Let $m_3$ be the frequency of the third class; then the cumulative frequency of the third class equals the cumulative frequency of the second class plus $m_3$.
+
+By the data, the cumulative frequency of the second class is $17$ and that of the third class is $38$, so
+$$m_3=38-17=21.$$
+
+So the frequency of the third class is $21$.
 
 **Answer.** $21$.
 :::
@@ -369,7 +448,18 @@ Prove that if the classes of a grouped data set all have the same width $h$, the
 2. Find $c_{i+1}-c_i$.
 
 ::solution
-The representative value of class $i$ is $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. The next class starts at $a_i+h$, so $c_{i+1}=a_i+h+\dfrac h2$. Hence $c_{i+1}-c_i=h$ is constant, so $(c_i)$ is an arithmetic progression with common difference $h$.
+Suppose all classes have width $h$ and the $i$-th class is $[a_i, a_i+h)$. The representative value of this class is its midpoint:
+$$c_i=\frac{a_i+(a_i+h)}{2}=a_i+\frac h2.$$
+
+The classes are consecutive, so the next class starts at $a_i+h$, that is $a_{i+1}=a_i+h$. Therefore
+$$c_{i+1}=a_{i+1}+\frac h2=a_i+h+\frac h2.$$
+
+It follows that
+$$c_{i+1}-c_i=\left(a_i+h+\frac h2\right)-\left(a_i+\frac h2\right)=h.$$
+
+The difference $c_{i+1}-c_i=h$ is the same for every $i$.
+
+So the sequence of representative values $(c_i)$ is an arithmetic progression with common difference $h$.
 
 **Answer.** The representative values form an arithmetic progression with common difference $h$.
 :::
@@ -386,7 +476,18 @@ A grouped frequency table has five classes $[0, 10)$, $[10, 20)$, $[20, 30)$, $[
 3. Find the frequency of $[30, 40)$ from the total $n$.
 
 ::solution
-From $\dfrac{18}{n}=0.36$ we get $n=50$. The cumulative frequency of $[10, 20)$ is $4+m_2=14$, so $m_2=10$. The frequencies add up to $50$, so $m_4=50-(4+10+18+3)=15$.
+Let $n$ be the sample size and $m_1, m_2, m_3, m_4, m_5$ the frequencies of the five classes in order. By the data, $m_1=4$, $m_3=18$, $m_5=3$.
+
+The class $[20, 30)$ has frequency $18$ and relative frequency $36\%$, so
+$$\frac{18}{n}=0.36\iff n=\frac{18}{0.36}=50.$$
+
+The cumulative frequency of the class $[10, 20)$ is the sum of the frequencies of the first two classes, so
+$$m_1+m_2=14\iff4+m_2=14\iff m_2=10.$$
+
+The frequencies add up to the sample size, so $m_1+m_2+m_3+m_4+m_5=50$. Therefore
+$$m_4=50-(4+10+18+3)=50-35=15.$$
+
+So the sample size is $50$, the class $[10, 20)$ has frequency $10$ and the class $[30, 40)$ has frequency $15$.
 
 **Answer.** $n=50$; the class $[10, 20)$ has $10$; the class $[30, 40)$ has $15$.
 :::

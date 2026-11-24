@@ -165,7 +165,13 @@ $$21,\ 22,\ \square,\ 24,\ \square,\ 26.$$
 2. Which number comes after 22? Which comes after 24?
 
 ::solution
-The number after 22 is 23, and the number after 24 is 25.
+In this sequence, each number is $1$ more than the number before it.
+
+The number after $22$ is $22+1=23$. The number after $24$ is $24+1=25$.
+
+*Check.* The sequence is $21$, $22$, $23$, $24$, $25$, $26$, going up one at a time. Correct.
+
+So the two missing numbers are $23$ and $25$.
 
 **Answer.** 23 and 25.
 :::
@@ -181,7 +187,13 @@ Find the number before and the number after 80.
 2. Which number is just to the left of 80?
 
 ::solution
-$$79,\ \mathbf{80},\ 81.$$
+The number before $80$ is $1$ less than $80$: $80-1=79$.
+
+The number after $80$ is $1$ more than $80$: $80+1=81$.
+
+We get the sequence $79$, $80$, $81$.
+
+So the number before $80$ is $79$ and the number after $80$ is $81$.
 
 **Answer.** The number before is 79 and the number after is 81.
 :::
@@ -201,9 +213,15 @@ b) The number 10 less than 52 is $\square$.
 2. Part b: only the tens change, and the last digit stays the same.
 
 ::solution
-a) $52+10=62$.
+The number $52$ is made of $5$ tens and $2$ ones. In the hundred square, going down one row adds $10$ and going up one row takes away $10$.
 
-b) $52-10=42$.
+a) The number $10$ more than $52$ is
+$$52+10=62.$$
+
+b) The number $10$ less than $52$ is
+$$52-10=42.$$
+
+So a) the missing number is $62$; b) the missing number is $42$.
 
 **Answer.** a) 62; b) 42.
 :::
@@ -220,10 +238,16 @@ $$\begin{array}{|c|c|c|} \hline 27 & \square & 29 \\ \hline \square & 38 & 39 \\
 2. The first box in the bottom row is to the left of 38.
 
 ::solution
-The middle box in the top row: the number between 27 and 29 is 28.
-The first box in the bottom row: $38-1=37$.
+The two empty boxes are in the top row and in the bottom row.
 
-**Check.** $27+10=37$, which is correct.
+The middle box in the top row: the number between $27$ and $29$ is $28$.
+
+The first box in the bottom row: this number comes just before $38$, so it is $1$ less than $38$:
+$$38-1=37.$$
+
+*Check.* The number $37$ is just below $27$, and $27+10=37$. Correct.
+
+So the missing numbers are $28$ and $37$.
 
 **Answer.** 28 and 37.
 :::
@@ -242,9 +266,14 @@ Suppose a school has a row of shoe lockers, numbered from 1 to 100 and arranged 
 ::solution
 Solution
 
+The lockers are arranged like the hundred square. Ha's locker is just below Mai's, so the number of Ha's locker is $10$ more than the number of Mai's locker.
+
 The number of Ha's locker is:
 $$62+10=72.$$
-Answer: locker 72.
+
+So Ha's locker is number $72$.
+
+**Answer.** Locker 72.
 :::
 
 :::exercise
@@ -259,9 +288,15 @@ $$45\ \square\ 54,\qquad 60\ \square\ 59,\qquad 71\ \square\ 17.$$
 2. The number that comes later in the square is the greater one.
 
 ::solution
-The number 45 has 4 tens and 54 has 5 tens, so $45<54$.
-The number 60 has 6 tens and 59 has 5 tens, so $60>59$.
-The number 71 has 7 tens and 17 has 1 ten, so $71>17$.
+To compare two two-digit numbers, we compare the tens first.
+
+The number $45$ has $4$ tens and $54$ has $5$ tens. Since $4<5$, we have $45<54$.
+
+The number $60$ has $6$ tens and $59$ has $5$ tens. Since $6>5$, we have $60>59$.
+
+The number $71$ has $7$ tens and $17$ has $1$ ten. Since $7>1$, we have $71>17$.
+
+So the signs to write are $<$, $>$, $>$ in that order.
 
 **Answer.** $45<54$; $60>59$; $71>17$.
 :::
@@ -281,9 +316,13 @@ b) Which floor is room 100 on?
 2. Look for 47 and 100 among them.
 
 ::solution
-a) Floor 5 has rooms 41 to 50. The number 47 is among them, so room 47 is on floor 5.
+Each floor has $10$ rooms, numbered in order starting from floor $1$: floor $1$ has rooms $1$ to $10$, floor $2$ has rooms $11$ to $20$, floor $3$ has rooms $21$ to $30$, floor $4$ has rooms $31$ to $40$, floor $5$ has rooms $41$ to $50$.
 
-b) Floor 10 has rooms 91 to 100, so room 100 is on floor 10.
+a) The number $47$ is among the numbers from $41$ to $50$, so room $47$ is on floor $5$.
+
+b) Floor $10$ has rooms $91$ to $100$. The number $100$ is among them, so room $100$ is on floor $10$.
+
+So a) room $47$ is on floor $5$; b) room $100$ is on floor $10$.
 
 **Answer.** a) Floor 5; b) floor 10.
 :::
@@ -299,9 +338,14 @@ The two-digit numbers with two equal digits are 11, 22, 33, …, 99. By how much
 2. To get from 11 to 22, how many rows down and how many squares to the right do you move?
 
 ::solution
-To get from 11 to 22, move 1 row down (add 10) and 1 square to the right (add 1):
+In the hundred square, to get from $11$ to $22$, we move $1$ row down (add $10$) and $1$ square to the right (add $1$):
 $$11+10+1=22.$$
-It is the same every time: each step adds 11.
+
+We do the same from $22$ to $33$, from $33$ to $44$, and so on, so each step adds $10+1=11$.
+
+*Check.* $33-22=11$ and $44-33=11$. Correct.
+
+So two neighbouring numbers in the list $11$, $22$, $33$, …, $99$ differ by $11$, because each step moves one row down and one square to the right.
 
 **Answer.** 11.
 :::

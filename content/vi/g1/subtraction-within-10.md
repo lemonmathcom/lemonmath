@@ -133,7 +133,15 @@ Tính $5-2$.
 2. Đếm lùi hai số.
 
 ::solution
-Từ $5$ đếm lùi hai số: "bốn, ba".
+Muốn tính $5-2$, ta đếm lùi hai số, bắt đầu từ $5$.
+
+Từ $5$ đếm lùi: "bốn, ba".
+
+Số cuối cùng đếm được là $3$, nên $5-2=3$.
+
+Thử lại: $3+2=5$. Đúng.
+
+Vậy $5-2=3$.
 
 **Đáp số.** $5-2=3$.
 :::
@@ -149,7 +157,15 @@ Tính $9-4$.
 2. Đếm lùi bốn số.
 
 ::solution
-Từ $9$ đếm lùi bốn số: "tám, bảy, sáu, năm".
+Muốn tính $9-4$, ta đếm lùi bốn số, bắt đầu từ $9$.
+
+Từ $9$ đếm lùi: "tám, bảy, sáu, năm".
+
+Số cuối cùng đếm được là $5$, nên $9-4=5$.
+
+Thử lại: $5+4=9$. Đúng.
+
+Vậy $9-4=5$.
 
 **Đáp số.** $9-4=5$.
 :::
@@ -165,7 +181,15 @@ Em hãy nhớ lại bài trước: $3+4=7$. Từ đó tính $7-4$ và $7-3$.
 2. Đếm lùi ba số từ $7$.
 
 ::solution
-$7-4$: "sáu, năm, bốn, ba", được $3$. $7-3$: "sáu, năm, bốn", được $4$.
+Ta có $3+4=7$, nghĩa là $7$ gồm $3$ và $4$.
+
+$7-4$: từ $7$ đếm lùi bốn số: "sáu, năm, bốn, ba", được $3$. Do đó $7-4=3$.
+
+$7-3$: từ $7$ đếm lùi ba số: "sáu, năm, bốn", được $4$. Do đó $7-3=4$.
+
+Hai kết quả khớp với $3+4=7$: $7$ gồm $3$ và $4$, bớt đi phần này thì còn lại phần kia.
+
+Vậy $7-4=3$ và $7-3=4$.
 
 **Đáp số.** $7-4=3$; $7-3=4$.
 :::
@@ -183,7 +207,11 @@ b) $4-\square=4$.
 2. Từ $4$ vẫn còn $4$ thì đã bớt bao nhiêu?
 
 ::solution
-a) Từ $7$ lùi về $5$: "sáu, năm", lùi $2$ số. b) Còn nguyên $4$ nên bớt đi $0$.
+a) Ta tìm số phải bớt đi để từ $7$ còn $5$. Từ $7$ đếm lùi về $5$: "sáu, năm", tức là lùi $2$ số. Do đó số cần điền là $2$. Kiểm tra: $7-2=5$. Đúng.
+
+b) Từ $4$ bớt đi một số mà vẫn còn nguyên $4$, nghĩa là không bớt đi gì cả. Do đó số cần điền là $0$. Kiểm tra: $4-0=4$. Đúng.
+
+Vậy a) số cần điền là $2$; b) số cần điền là $0$.
 
 **Đáp số.** a) $2$. b) $0$.
 :::
@@ -199,7 +227,15 @@ Nam nói: "$8-3=6$ vì em đếm lùi tám, bảy, sáu." Nam đúng không? Vì
 2. Đếm lại cho đúng.
 
 ::solution
-Từ $8$ cần đếm lùi $3$ số: "bảy, sáu, năm". Nam chỉ lùi $2$ số.
+Muốn tính $8-3$, ta đếm lùi $3$ số, bắt đầu từ $8$ nhưng không đọc số $8$.
+
+Từ $8$ đếm lùi $3$ số: "bảy, sáu, năm". Số cuối cùng là $5$ nên $8-3=5$.
+
+Nam đọc "tám, bảy, sáu", tức là đã đọc luôn số $8$, nên Nam chỉ lùi được $2$ số và dừng lại ở $6$.
+
+Thử lại: $5+3=8$. Đúng. Còn $6+3=9$, khác $8$, nên $6$ là sai.
+
+Vậy Nam nói sai; $8-3=5$.
 
 **Đáp số.** Sai. $8-3=5$.
 :::
@@ -215,7 +251,15 @@ Mai viết $2-5=3$. Mai sai ở đâu? Viết lại cho đúng.
 2. Thử viết $5-2$.
 
 ::solution
-Từ $2$ cái không thể bớt $5$ cái. Mai đã đảo hai số. Phép tính đúng là $5-2$: từ $5$ lùi hai số "bốn, ba".
+Phép tính $2-5$ không làm được, vì từ $2$ cái không thể bớt đi $5$ cái ($2<5$).
+
+Mai đã viết ngược hai số. Phép tính đúng là $5-2$.
+
+Từ $5$ đếm lùi hai số: "bốn, ba", được $3$. Do đó $5-2=3$.
+
+Thử lại: $3+2=5$. Đúng.
+
+Vậy Mai sai ở chỗ viết $2-5$; phải viết $5-2=3$.
 
 **Đáp số.** $5-2=3$.
 :::
@@ -231,10 +275,14 @@ Hà có $10$ cái bánh. Hà cho bạn $6$ cái bánh. Hỏi Hà còn lại bao 
 2. Tính $10-6$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số bánh còn lại là:
+Bài giải
+
+Số cái bánh Hà còn lại là:
 $$10-6=4\ \text{(cái)}.$$
 
-**Kiểm tra.** $4+6=10$. Đúng.
+Kiểm tra: $4+6=10$. Đúng.
+
+Vậy Hà còn lại $4$ cái bánh.
 
 **Đáp số.** $4$ cái bánh.
 :::
@@ -252,9 +300,13 @@ b) $6 \;\square\; 2 = 8$.
 2. So $8$ với $6$.
 
 ::solution
-a) $4$ bé hơn $6$ nên bớt: $6-2=4$. b) $8$ lớn hơn $6$ nên cộng: $6+2=8$.
+a) Kết quả $4$ bé hơn $6$, nên ta bớt đi: điền dấu $-$, ta có $6-2=4$.
 
-**Kiểm tra.** Từ $6$ lùi hai số "năm, bốn"; từ $6$ tiến hai số "bảy, tám". Đúng.
+b) Kết quả $8$ lớn hơn $6$, nên ta thêm vào: điền dấu $+$, ta có $6+2=8$.
+
+Kiểm tra: từ $6$ lùi hai số "năm, bốn" được $4$; từ $6$ tiến hai số "bảy, tám" được $8$. Đúng.
+
+Vậy a) điền dấu $-$; b) điền dấu $+$.
 
 **Đáp số.** a) dấu $-$. b) dấu $+$.
 :::

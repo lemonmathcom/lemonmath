@@ -157,7 +157,13 @@ Make $6$ become $3$ times larger.
 1. Write the multiplication $6\times 3$.
 
 ::solution
-$$6\times 3=18.$$
+Making a number several times larger means multiplying that number by the number of times.
+
+To make $6$ become $3$ times larger, we multiply $6$ by $3$:
+$$6\times3=18.$$
+
+So $6$ made $3$ times larger is $18$.
+
 **Answer.** $18$.
 :::
 
@@ -171,7 +177,13 @@ Make $15$ become $5$ times larger.
 1. Write the multiplication $15\times 5$, multiplying the ones first.
 
 ::solution
-$$15\times 5=75.$$
+Making a number several times larger means multiplying that number by the number of times.
+
+To make $15$ become $5$ times larger, we multiply $15$ by $5$:
+$$15\times5=75.$$
+
+So $15$ made $5$ times larger is $75$.
+
 **Answer.** $75$.
 :::
 
@@ -185,8 +197,14 @@ Make $32$ become $4$ times smaller.
 1. Write the division $32\div4$.
 
 ::solution
+Making a number several times smaller means dividing that number by the number of times.
+
+To make $32$ become $4$ times smaller, we divide $32$ by $4$:
 $$32\div4=8.$$
-Check: $8\times 4=32$.
+
+Check: $8\times4=32$. The result is correct.
+
+So $32$ made $4$ times smaller is $8$.
 
 **Answer.** $8$.
 :::
@@ -201,8 +219,14 @@ Make $54$ become $6$ times smaller.
 1. Which number multiplied by $6$ gives $54$?
 
 ::solution
+Making a number several times smaller means dividing that number by the number of times.
+
+To make $54$ become $6$ times smaller, we divide $54$ by $6$:
 $$54\div6=9.$$
-Check: $9\times 6=54$.
+
+Check: $9\times6=54$. The result is correct.
+
+So $54$ made $6$ times smaller is $9$.
 
 **Answer.** $9$.
 :::
@@ -218,8 +242,13 @@ Lan's family keeps $9$ hens. They keep $4$ times as many ducks as hens. How many
 2. Write the calculation, then answer.
 
 ::solution
-The number of ducks Lan's family keeps is:
-$$9\times 4=36\ \text{(ducks)}.$$
+Solution
+
+There are $4$ times as many ducks as hens, so the number of ducks Lan's family keeps is:
+$$9\times4=36\ \text{(ducks)}.$$
+
+So Lan's family keeps $36$ ducks.
+
 **Answer.** $36$ ducks.
 :::
 
@@ -234,10 +263,16 @@ In the morning a shop sold $72$ pens. In the afternoon it sold the morning's num
 2. Add the pens from the two parts of the day.
 
 ::solution
-The number of pens sold in the afternoon is:
+Solution
+
+The number of pens sold in the afternoon is the morning's number made $8$ times smaller, so it is:
 $$72\div8=9\ \text{(pens)}.$$
+
 The number of pens sold in the whole day is:
 $$72+9=81\ \text{(pens)}.$$
+
+So the shop sold $9$ pens in the afternoon and $81$ pens in the whole day.
+
 **Answer.** $9$ pens in the afternoon; $81$ pens in the whole day.
 :::
 
@@ -251,7 +286,15 @@ Remember the $6$ times table: you know that $6\times 7=42$. Make $42$ become $6$
 1. Write the two divisions $42\div6$ and $42\div7$.
 
 ::solution
-Since $6\times 7=42$, we have $42\div6=7$ and $42\div7=6$.
+We have $6\times7=42$. From this multiplication we get two divisions: $42\div6=7$ and $42\div7=6$.
+
+To make $42$ become $6$ times smaller, we divide $42$ by $6$:
+$$42\div6=7.$$
+
+To make $42$ become $7$ times smaller, we divide $42$ by $7$:
+$$42\div7=6.$$
+
+So $42$ made $6$ times smaller is $7$ and $42$ made $7$ times smaller is $6$.
 
 **Answer.** $42$ made $6$ times smaller is $7$; $42$ made $7$ times smaller is $6$.
 :::
@@ -266,11 +309,17 @@ A number is made $4$ times larger and then $2$ times smaller, and the result is 
 1. What was the number before it was made $2$ times smaller?
 
 ::solution
-Before being made $2$ times smaller, the number was $18\times 2=36$.
+We work backwards through the steps applied to the unknown number.
 
-Before being made $4$ times larger, the number was $36\div4=9$.
+The number is made $4$ times larger and then $2$ times smaller, and the result is $18$. Before being made $2$ times smaller, the number was:
+$$18\times2=36.$$
 
-Check: $9\times 4=36$, then $36\div2=18$. Correct.
+Before being made $4$ times larger, the number was:
+$$36\div4=9.$$
+
+Check: $9\times4=36$, then $36\div2=18$. The result is correct.
+
+So the number is $9$.
 
 **Answer.** $9$.
 :::

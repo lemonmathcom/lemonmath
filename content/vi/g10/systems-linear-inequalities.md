@@ -237,7 +237,15 @@ Cặp nào trong $(2; 1)$, $(0; 0)$, $(5; 1)$ là nghiệm của hệ $\begin{ca
 2. Loại cặp nào làm sai ít nhất một bất phương trình.
 
 ::solution
-$$(2; 1):\ 3\ge 2,\ 1\le 3\ \text{(đúng)};\quad (0; 0):\ 0\ge 2\ \text{(sai)};\quad (5; 1):\ 6\ge 2,\ \text{nhưng } 4\le 3\ \text{(sai)}.$$
+Một cặp số $(x; y)$ là nghiệm của hệ bất phương trình khi nó thoả mãn đồng thời cả hai bất phương trình của hệ. Ta thay toạ độ từng cặp số vào hai bất phương trình $x+y\ge2$ và $x-y\le3$.
+
+Với $(2; 1)$: $x+y=3\ge2$ (đúng) và $x-y=1\le3$ (đúng). Cả hai bất phương trình đều đúng.
+
+Với $(0; 0)$: $x+y=0\ge2$ là sai. Cặp này không thoả mãn bất phương trình thứ nhất.
+
+Với $(5; 1)$: $x+y=6\ge2$ (đúng) nhưng $x-y=4\le3$ là sai. Cặp này không thoả mãn bất phương trình thứ hai.
+
+Vậy trong ba cặp đã cho, chỉ có $(2; 1)$ là nghiệm của hệ.
 
 **Đáp số.** Chỉ có $(2; 1)$.
 :::
@@ -253,7 +261,14 @@ Hệ $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ có nghiệm không? Giải
 2. Xem điều kiện đó có thể xảy ra không.
 
 ::solution
-Nếu $(x; y)$ là nghiệm thì $3\le x+y\le 1$, vô lí vì $3>1$. Hai đường biên $x+y=1$ và $x+y=3$ song song, hai nửa mặt phẳng nằm về hai phía không chồng lên nhau.
+Giả sử hệ có nghiệm $(x; y)$. Khi đó $(x; y)$ thoả mãn đồng thời $x+y\le1$ và $x+y\ge3$, tức là
+$$3\le x+y\le1.$$
+
+Điều này vô lí vì $3>1$. Do đó không tồn tại cặp $(x; y)$ nào thoả mãn cả hai bất phương trình.
+
+Về mặt hình học: hai đường biên $x+y=1$ và $x+y=3$ song song với nhau; nửa mặt phẳng $x+y\le1$ và nửa mặt phẳng $x+y\ge3$ nằm về hai phía khác nhau của hai đường thẳng đó nên không có điểm chung.
+
+Vậy hệ bất phương trình vô nghiệm (miền nghiệm là tập rỗng).
 
 **Đáp số.** Hệ vô nghiệm (miền nghiệm rỗng).
 :::
@@ -269,8 +284,14 @@ Miền nghiệm của hệ $1\le x\le 4$, $0\le y\le 3$ là một hình chữ nh
 2. Tính $F$ tại bốn đỉnh.
 
 ::solution
-Các đỉnh $(1; 0)$, $(4; 0)$, $(4; 3)$, $(1; 3)$ cho
-$$F=2,\quad 8,\quad 11,\quad 5.$$
+Miền nghiệm của hệ $1\le x\le4$, $0\le y\le3$ là hình chữ nhật được giới hạn bởi các đường thẳng $x=1$, $x=4$, $y=0$, $y=3$. Bốn đỉnh của nó là $(1; 0)$, $(4; 0)$, $(4; 3)$, $(1; 3)$.
+
+Hàm số bậc nhất $F=2x+y$ đạt giá trị lớn nhất và giá trị nhỏ nhất trên miền đa giác này tại các đỉnh của nó. Ta tính $F$ tại từng đỉnh:
+$$\begin{aligned} F(1; 0)&=2\cdot1+0=2,\\ F(4; 0)&=2\cdot4+0=8,\\ F(4; 3)&=2\cdot4+3=11,\\ F(1; 3)&=2\cdot1+3=5. \end{aligned}$$
+
+So sánh bốn giá trị $2$, $8$, $11$, $5$, ta thấy giá trị lớn nhất là $11$ và giá trị nhỏ nhất là $2$.
+
+Vậy $F$ đạt giá trị lớn nhất bằng $11$ tại $(4; 3)$ và giá trị nhỏ nhất bằng $2$ tại $(1; 0)$.
 
 **Đáp số.** Lớn nhất $11$ tại $(4; 3)$; nhỏ nhất $2$ tại $(1; 0)$.
 :::
@@ -287,8 +308,22 @@ Tìm các đỉnh của miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6
 3. Tính $F$ tại các đỉnh.
 
 ::solution
-Trên trục: $(0; 0)$, $(6; 0)$, $(0; 4)$. Trừ vế theo vế $x+3y=12$ và $x+y=6$: $2y=6$, $y=3$, $x=3$. Giá trị của $F$:
-$$F(0; 0)=0,\quad F(6; 0)=30,\quad F(0; 4)=16,\quad F(3; 3)=27.$$
+Miền nghiệm của hệ $x\ge0$, $y\ge0$, $x+y\le6$, $x+3y\le12$ là một đa giác; ta tìm các đỉnh của nó.
+
+Trên trục $Ox$ ($y=0$): các bất phương trình cho $x\le6$ và $x\le12$, nên $x\le6$. Ta có các đỉnh $(0; 0)$ và $(6; 0)$.
+
+Trên trục $Oy$ ($x=0$): các bất phương trình cho $y\le6$ và $3y\le12$, tức là $y\le4$, nên $y\le4$. Ta có đỉnh $(0; 4)$.
+
+Giao điểm của hai đường $x+y=6$ và $x+3y=12$: trừ vế theo vế hai phương trình, ta được $2y=6$, suy ra $y=3$, rồi $x=6-3=3$. Điểm $(3; 3)$ có $x\ge0$, $y\ge0$ nên là đỉnh của miền nghiệm.
+
+Vậy miền nghiệm là tứ giác có các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$.
+
+Hàm số $F=5x+4y$ đạt giá trị lớn nhất tại một đỉnh. Ta tính:
+$$F(0; 0)=0,\quad F(6; 0)=30,\quad F(0; 4)=16,\quad F(3; 3)=15+12=27.$$
+
+Giá trị lớn nhất trong các số $0$, $30$, $16$, $27$ là $30$.
+
+Vậy các đỉnh của miền nghiệm là $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$ và giá trị lớn nhất của $F$ là $30$, đạt tại $(6; 0)$.
 
 **Đáp số.** Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$; giá trị lớn nhất của $F$ là $30$, tại $(6; 0)$.
 :::
@@ -313,13 +348,19 @@ d) Giá trị nhỏ nhất của $x-y$ trên $D$ bằng $-2$.
 3. Tính $x+y$ và $x-y$ tại mọi đỉnh.
 
 ::solution
-a) **Sai:** $y=5\le 4$ là sai.
+Trước hết ta tìm các đỉnh của miền nghiệm $D$ của hệ $x\ge0$, $y\ge0$, $2x+y\le8$, $y\le4$.
 
-b) **Đúng:** các đỉnh là $(0; 0)$, $(4; 0)$, $(2; 4)$, $(0; 4)$; đỉnh $(2; 4)$ có được khi thay $y=4$ vào $2x+y=8$.
+Trên trục $Ox$ ($y=0$): $2x\le8$ nên $x\le4$; ta có các đỉnh $(0; 0)$ và $(4; 0)$. Đường $y=4$ cắt đường $2x+y=8$ tại $2x+4=8$, tức là $x=2$; ta có đỉnh $(2; 4)$. Đường $y=4$ cắt trục $Oy$ tại $(0; 4)$ (điểm này thoả mãn $2\cdot0+4=4\le8$), đó là đỉnh còn lại. Vậy $D$ có bốn đỉnh $(0; 0)$, $(4; 0)$, $(2; 4)$, $(0; 4)$.
 
-c) **Đúng:** $x+y$ tại bốn đỉnh bằng $0$, $4$, $6$, $4$; lớn nhất là $6$.
+a) **Sai.** Với cặp $(1; 5)$, bất phương trình $y\le4$ trở thành $5\le4$, sai. Vậy $(1; 5)$ không phải là nghiệm của hệ.
 
-d) **Sai:** $x-y$ tại bốn đỉnh bằng $0$, $4$, $-2$, $-4$; nhỏ nhất là $-4$ (tại $(0; 4)$), không phải $-2$.
+b) **Đúng.** Theo trên, $D$ có bốn đỉnh $(0; 0)$, $(4; 0)$, $(2; 4)$, $(0; 4)$ nên là một tứ giác; đỉnh $(2; 4)$ có được khi thay $y=4$ vào $2x+y=8$.
+
+c) **Đúng.** Giá trị lớn nhất của $x+y$ đạt tại một đỉnh. Tại bốn đỉnh, $x+y$ lần lượt bằng $0$, $4$, $6$, $4$; số lớn nhất là $6$.
+
+d) **Sai.** Giá trị nhỏ nhất của $x-y$ cũng đạt tại một đỉnh. Tại bốn đỉnh, $x-y$ lần lượt bằng $0$, $4$, $-2$, $-4$; số nhỏ nhất là $-4$ (tại $(0; 4)$), không phải $-2$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -336,9 +377,19 @@ Một quầy ăn của câu lạc bộ mỗi ngày bán $x$ bánh mì kẹp và 
 3. Tính $F=4x+3y$ tại từng đỉnh.
 
 ::solution
-Các đỉnh $(0; 0)$, $(20; 0)$, $(20; 10)$, $(10; 20)$, $(0; 20)$ cho
-$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
-Lãi lớn nhất khi bán $20$ bánh và $10$ cốc nước.
+Gọi $x$ là số bánh mì kẹp và $y$ là số cốc nước bán trong một ngày. Các điều kiện là
+$$x\ge0,\quad y\ge0,\quad x\le20,\quad y\le20,\quad x+y\le30.$$
+
+Tiền lãi trong một ngày (đơn vị: nghìn đồng) là $F=4x+3y$. Ta cần tìm giá trị lớn nhất của $F$ trên miền nghiệm của hệ trên.
+
+Miền nghiệm là ngũ giác có các đỉnh $(0; 0)$, $(20; 0)$, $(20; 10)$, $(10; 20)$, $(0; 20)$. Trong đó $(20; 10)$ là giao điểm của $x=20$ với $x+y=30$, còn $(10; 20)$ là giao điểm của $y=20$ với $x+y=30$.
+
+Giá trị của $F$ tại các đỉnh:
+$$\begin{aligned} F(0; 0)&=0,\\ F(20; 0)&=4\cdot20=80,\\ F(20; 10)&=4\cdot20+3\cdot10=110,\\ F(10; 20)&=4\cdot10+3\cdot20=100,\\ F(0; 20)&=3\cdot20=60. \end{aligned}$$
+
+Giá trị lớn nhất là $110$, đạt tại $(20; 10)$. Toạ độ này là các số nguyên nên có thể thực hiện được.
+
+Vậy tiền lãi lớn nhất trong một ngày là $110$ nghìn đồng, khi bán $20$ bánh mì kẹp và $10$ cốc nước.
 
 **Đáp số.** $110$.
 :::
@@ -355,8 +406,19 @@ Bác Hùng có $8$ ha đất để trồng ngô và đậu, và có $30$ triệu
 3. Tính lãi $F=4x+3y$ tại từng đỉnh.
 
 ::solution
-Trên trục: $(0; 0)$, $(6; 0)$, $(0; 8)$. Thế $y=8-x$ vào $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. Giá trị của $F$:
+Gọi $x$ (ha) là diện tích trồng ngô và $y$ (ha) là diện tích trồng đậu. Các điều kiện là
+$$x\ge0,\quad y\ge0,\quad x+y\le8\ \text{(diện tích đất)},\quad 5x+3y\le30\ \text{(vốn, triệu đồng)}.$$
+
+Tiền lãi (đơn vị: triệu đồng) là $F=4x+3y$. Ta cần tìm giá trị lớn nhất của $F$ trên miền nghiệm của hệ.
+
+Tìm các đỉnh của miền nghiệm. Trên trục $Ox$ ($y=0$): $x\le8$ và $5x\le30$ nên $x\le6$; ta có các đỉnh $(0; 0)$ và $(6; 0)$. Trên trục $Oy$ ($x=0$): $y\le8$ và $3y\le30$ nên $y\le8$; ta có đỉnh $(0; 8)$. Giao điểm của $x+y=8$ và $5x+3y=30$: thế $y=8-x$ vào phương trình thứ hai, ta được $5x+3(8-x)=30$, tức là $2x+24=30$, suy ra $x=3$ và $y=5$. Vậy miền nghiệm là tứ giác có các đỉnh $(0; 0)$, $(6; 0)$, $(3; 5)$, $(0; 8)$.
+
+Giá trị của $F$ tại các đỉnh:
 $$F(0; 0)=0,\quad F(6; 0)=24,\quad F(0; 8)=24,\quad F(3; 5)=12+15=27.$$
+
+Giá trị lớn nhất là $27$, đạt tại $(3; 5)$.
+
+Vậy bác Hùng nên trồng $3$ ha ngô và $5$ ha đậu, khi đó tiền lãi lớn nhất là $27$ triệu đồng.
 
 **Đáp số.** Trồng $3$ ha ngô và $5$ ha đậu, lãi lớn nhất $27$ triệu đồng.
 :::
@@ -373,9 +435,17 @@ Viết một hệ bất phương trình bậc nhất hai ẩn có miền nghiệ
 3. Thử gốc toạ độ để chọn dấu.
 
 ::solution
-Hai cạnh trên trục cho $x\ge 0$, $y\ge 0$. Đường qua $(4; 0)$ và $(0; 2)$ là $\dfrac{x}{4}+\dfrac{y}{2}=1$, tức $x+2y=4$; gốc toạ độ cho $0\le 4$.
+Miền nghiệm cần tìm là tam giác $OAB$ với $O(0; 0)$, $A(4; 0)$, $B(0; 2)$, kể cả các cạnh. Ta viết bất phương trình ứng với từng cạnh.
 
-**Đáp số.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+Cạnh $OA$ nằm trên trục $Ox$ ($y=0$) và cạnh $OB$ nằm trên trục $Oy$ ($x=0$). Tam giác nằm về phía $x$ dương và $y$ dương, nên ta có $x\ge0$ và $y\ge0$.
+
+Cạnh $AB$ nằm trên đường thẳng đi qua $A(4; 0)$ và $B(0; 2)$. Phương trình đường thẳng theo đoạn chắn là $\dfrac{x}{4}+\dfrac{y}{2}=1$, tức là $x+2y=4$.
+
+Gốc toạ độ $O(0; 0)$ nằm trong tam giác và thoả mãn $0+2\cdot0=0\le4$, nên nửa mặt phẳng chứa tam giác là $x+2y\le4$.
+
+Vậy hệ bất phương trình cần tìm là $\begin{cases} x\ge0\\ y\ge0\\ x+2y\le4. \end{cases}$
+
+**Đáp số.** $\begin{cases} x\ge0\\ y\ge0\\ x+2y\le4 \end{cases}$
 :::
 
 :::exercise Thử thách
@@ -389,8 +459,14 @@ Trên miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, t
 2. Tính $x-y$ tại từng đỉnh.
 
 ::solution
-Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$ cho
-$$F=0,\quad 6,\quad 0,\quad -4.$$
+Miền nghiệm của hệ $x\ge0$, $y\ge0$, $x+y\le6$, $x+3y\le12$ là tứ giác có các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$. (Đỉnh $(6; 0)$ và $(0; 4)$ nằm trên các trục toạ độ; đỉnh $(3; 3)$ là giao điểm của $x+y=6$ và $x+3y=12$.)
+
+Hàm số bậc nhất $F=x-y$ đạt giá trị lớn nhất và nhỏ nhất trên miền này tại các đỉnh. Ta tính:
+$$F(0; 0)=0,\quad F(6; 0)=6,\quad F(3; 3)=0,\quad F(0; 4)=-4.$$
+
+So sánh các số $0$, $6$, $0$, $-4$, giá trị lớn nhất là $6$ và giá trị nhỏ nhất là $-4$.
+
+Vậy $F$ đạt giá trị lớn nhất bằng $6$ tại $(6; 0)$ và giá trị nhỏ nhất bằng $-4$ tại $(0; 4)$.
 
 **Đáp số.** Lớn nhất $6$ tại $(6; 0)$; nhỏ nhất $-4$ tại $(0; 4)$.
 :::
@@ -406,7 +482,17 @@ $$F=0,\quad 6,\quad 0,\quad -4.$$
 2. Ghép hai kết quả để chọn tập.
 
 ::solution
-$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{sai} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{sai},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{sai},\ -5\ge 0\ \text{sai} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+Điểm thuộc $D_1$ khi toạ độ thoả mãn $x+y\le4$; thuộc $D_2$ khi thoả mãn $x-y\ge0$. Ta thay toạ độ từng điểm vào hai bất phương trình.
+
+Với $A(1; 1)$: $x+y=2\le4$ (đúng) và $x-y=0\ge0$ (đúng). Vậy $A\in D_1$ và $A\in D_2$, tức là $A\in D_1\cap D_2$.
+
+Với $B(1; 2)$: $x+y=3\le4$ (đúng) và $x-y=-1\ge0$ (sai). Vậy $B\in D_1$ nhưng $B\notin D_2$, tức là $B\in D_1\setminus D_2$.
+
+Với $C(3; 2)$: $x+y=5\le4$ (sai) và $x-y=1\ge0$ (đúng). Vậy $C\in D_2$ nhưng $C\notin D_1$, tức là $C\in D_2\setminus D_1$.
+
+Với $E(0; 5)$: $x+y=5\le4$ (sai) và $x-y=-5\ge0$ (sai). Vậy $E$ không thuộc $D_1$ và không thuộc $D_2$, tức là $E\notin D_1\cup D_2$.
+
+Vậy $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
 
 **Đáp số.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
 :::

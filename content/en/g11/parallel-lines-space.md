@@ -191,7 +191,15 @@ In the cube $ABCD.A'B'C'D'$, how many other edges is the line $AA'$ parallel to,
 3. The remaining edges are skew.
 
 ::solution
-The edges parallel to $AA'$ are $BB'$, $CC'$, $DD'$: $3$ edges. The edges meeting $AA'$ are $AB$, $AD$ (at $A$) and $A'B'$, $A'D'$ (at $A'$): $4$ edges. The remaining edges are $BC$, $CD$, $B'C'$, $C'D'$: skew to $AA'$, $4$ edges.
+The cube $ABCD.A'B'C'D'$ has $12$ edges; besides $AA'$ there are $11$ other edges. We examine the position of $AA'$ relative to each of them.
+
+Edges parallel to $AA'$. These are the edges in the same direction as $AA'$: $BB'$, $CC'$, $DD'$. There are $3$ edges.
+
+Edges meeting $AA'$. These are the edges sharing an endpoint with $AA'$: $AB$, $AD$ (meeting at $A$) and $A'B'$, $A'D'$ (meeting at $A'$). There are $4$ edges.
+
+Edges skew to $AA'$. These are the remaining $11-3-4=4$ edges: $BC$, $CD$, $B'C'$, $C'D'$. They have no common point with $AA'$ and are not parallel to $AA'$, so they are skew to $AA'$.
+
+So $AA'$ is parallel to $3$ edges, meets $4$ edges and is skew to $4$ edges.
 
 **Answer.** Parallel to $3$ edges, meets $4$ edges, skew to $4$ edges.
 :::
@@ -222,7 +230,19 @@ Take a tetrahedron $ABCD$. Let $M$, $N$, $P$, $Q$ be the midpoints of $AB$, $BC$
 2. Compare the lengths $MN$ and $QP$.
 
 ::solution
-In triangle $ABC$, $MN$ is a midsegment, so $MN\parallel AC$ and $MN=\dfrac{AC}{2}$. In triangle $ADC$, $QP$ is a midsegment, so $QP\parallel AC$ and $QP=\dfrac{AC}{2}$. Hence $MN\parallel QP$ and $MN=QP$, so $M$, $N$, $P$, $Q$ are coplanar and $MNPQ$ is a parallelogram.
+To prove that $MNPQ$ is a parallelogram, we show that the opposite sides $MN$ and $QP$ are parallel and equal.
+
+In triangle $ABC$, $M$ and $N$ are the midpoints of $AB$ and $BC$, so $MN$ is a midsegment. Hence
+$$MN\parallel AC\quad\text{and}\quad MN=\frac{AC}{2}.$$
+
+In triangle $ADC$, $Q$ and $P$ are the midpoints of $AD$ and $CD$, so $QP$ is a midsegment. Hence
+$$QP\parallel AC\quad\text{and}\quad QP=\frac{AC}{2}.$$
+
+Since $MN\parallel AC$ and $QP\parallel AC$, we get $MN\parallel QP$. Two parallel lines are coplanar, so $M$, $N$, $P$, $Q$ lie in one plane. Moreover $MN=QP=\dfrac{AC}{2}$.
+
+The plane quadrilateral $MNPQ$ has two opposite sides $MN$ and $QP$ that are parallel and equal.
+
+So $MNPQ$ is a parallelogram.
 
 **Answer.** $MNPQ$ is a parallelogram.
 :::
@@ -238,7 +258,15 @@ Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Find the line of i
 2. $S$ is a common point; the line of intersection passes through $S$.
 
 ::solution
-Since $ABCD$ is a parallelogram, $AD\parallel BC$. The plane $(SAD)$ contains $AD$ and $(SBC)$ contains $BC$, and the two planes have the common point $S$. By property 4, the line of intersection is the line through $S$ parallel to $AD$ (and $BC$).
+We use property 4: if two distinct planes contain two parallel lines respectively and have a common point, then their line of intersection is the line through that common point parallel to the two given lines.
+
+Since $ABCD$ is a parallelogram, $AD\parallel BC$.
+
+The plane $(SAD)$ contains $AD$ and the plane $(SBC)$ contains $BC$. These two planes are distinct and have the common point $S$.
+
+By property 4, the line of intersection of $(SAD)$ and $(SBC)$ is the line $d$ through $S$ parallel to $AD$ (and parallel to $BC$).
+
+So the line of intersection of $(SAD)$ and $(SBC)$ is the line through $S$ parallel to $AD$ and $BC$.
 
 **Answer.** The line through $S$ parallel to $AD$ and $BC$.
 :::
@@ -254,7 +282,11 @@ Take a pyramid $S.ABCD$ whose base is a trapezium $ABCD$ with $AD\parallel BC$ a
 2. For $(SAD)\cap(SBC)$: use $AD\parallel BC$.
 
 ::solution
-$(SAB)\cap(SCD)$: $S$ is a common point; $E=AB\cap CD$ lies in $AB\subset(SAB)$ and $CD\subset(SCD)$, so $E$ is also a common point. The line of intersection is $SE$. $(SAD)\cap(SBC)$: $(SAD)\supset AD$, $(SBC)\supset BC$ and $AD\parallel BC$, so the line of intersection is the line through $S$ parallel to $AD$.
+The intersection of $(SAB)$ and $(SCD)$. The point $S$ is a first common point. Since $E=AB\cap CD$, we have $E\in AB\subset(SAB)$ and $E\in CD\subset(SCD)$, so $E$ is a second common point. Two distinct planes with two distinct common points $S$ and $E$ ($E$ lies in the base, so $E\neq S$) meet along the line $SE$.
+
+The intersection of $(SAD)$ and $(SBC)$. The plane $(SAD)$ contains $AD$, the plane $(SBC)$ contains $BC$, with $AD\parallel BC$, and the two planes have the common point $S$. By property 4 (the line of intersection of two planes containing two parallel lines is parallel to those lines), the line of intersection is the line through $S$ parallel to $AD$ (and $BC$).
+
+So $(SAB)\cap(SCD)=SE$; and $(SAD)\cap(SBC)$ is the line through $S$ parallel to $AD$.
 
 **Answer.** $(SAB)\cap(SCD)=SE$; $(SAD)\cap(SBC)$ is the line through $S$ parallel to $AD$.
 :::
@@ -270,7 +302,13 @@ A flyover crosses above a road: the route on the flyover and the route on the ro
 2. Think about when they would be coplanar.
 
 ::solution
-The two routes have no common point and are not parallel, so they are skew, and therefore do not lie in one plane. The two routes would be parallel if the flyover ran in the same direction as the road below, that is the two lines are coplanar and do not meet.
+Let $a$ be the line representing the route on the flyover and $b$ the line representing the route on the road below.
+
+By the statement, $a$ and $b$ have no common point (they do not meet) and are not parallel. Two lines in space that have no common point and are not parallel are skew. Two skew lines do not lie in one plane, because if they lay in one plane they would either meet or be parallel.
+
+Two parallel lines are coplanar and have no common point. Therefore, for the two routes to be parallel, the flyover must run in the same direction as the road below (and the two routes must not coincide).
+
+So the two routes are skew and do not lie in one plane; they are parallel when the flyover runs in the same direction as the road below.
 
 **Answer.** Skew, not in one plane; they are parallel when the flyover runs in the same direction as the road below.
 :::
@@ -295,13 +333,15 @@ d) $BD$ and $A'C'$ meet.
 3. d) $BD\parallel B'D'$.
 
 ::solution
-a) **True**: $AB\parallel CD$ and $CD\parallel C'D'$, so $AB\parallel C'D'$.
+a) **True.** In the square $ABCD$ we have $AB\parallel CD$. In the square $CDD'C'$ we have $CD\parallel C'D'$. Two lines parallel to a third line are parallel to each other, so $AB\parallel C'D'$.
 
-b) **True**: $AB$ and $CC'$ have no common point and are not coplanar.
+b) **True.** The line $AB$ lies in the base $(ABCD)$ while $CC'$ meets the base at $C$, and $C\notin AB$. Hence $AB$ and $CC'$ have no common point. They are also not parallel (since $CC'\parallel AA'$ and $AA'$ meets $AB$ at $A$). So $AB$ and $CC'$ are skew, that is, not coplanar.
 
-c) **False**: $AA'\parallel BB'$ and $CC'\parallel BB'$, so $AA'\parallel CC'$.
+c) **False.** We have $AA'\parallel BB'$ and $CC'\parallel BB'$. Two lines parallel to a third line are parallel to each other, so $AA'\parallel CC'$. Thus $AA'$ and $CC'$ are parallel, not skew.
 
-d) **False**: $BD$ lies in the base and $A'C'$ lies in the top face; they have no common point and are not parallel, so they are skew.
+d) **False.** $BD$ lies in the base and $A'C'$ lies in the top face; these faces are parallel, so $BD$ and $A'C'$ have no common point. They are also not parallel, since $BD\parallel B'D'$ and $B'D'$ meets $A'C'$ at the centre of the top face. So $BD$ and $A'C'$ are skew; they do not meet.
+
+So statements a), b) are true; statements c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -317,7 +357,12 @@ How many pairs of skew edges does a cuboid have?
 2. Divide by $2$.
 
 ::solution
-A cuboid has $12$ edges, each skew to $4$ edges. That gives $12\cdot4=48$ counts, and each pair is counted twice, so there are $\dfrac{48}{2}=24$ pairs.
+A cuboid has $12$ edges. Take any edge, for instance $AA'$. Counting as in a similar box (such as the cube $ABCD.A'B'C'D'$): there are $3$ edges parallel to $AA'$, $4$ edges meeting $AA'$, and $11-3-4=4$ edges skew to $AA'$ (namely $BC$, $CD$, $B'C'$, $C'D'$). These relative positions depend only on how the edges are arranged, so the same holds for every edge of a cuboid: each edge is skew to exactly $4$ other edges.
+
+Counting edge by edge gives $12\cdot4=48$ counts. Each pair of skew edges $\{e, f\}$ is counted twice (once from $e$ and once from $f$). Therefore the number of pairs of skew edges is
+$$\frac{12\cdot4}{2}=\frac{48}{2}=24.$$
+
+So a cuboid has $24$ pairs of skew edges.
 
 **Answer.** $24$ pairs.
 :::
@@ -333,7 +378,13 @@ Prove that two distinct parallel lines $a$, $b$ determine exactly one plane.
 2. Take $A\in b$ and use $(A, a)$.
 
 ::solution
-Since $a\parallel b$, the lines $a$ and $b$ lie in one plane. Take a point $A\in b$; $A\notin a$ because $a$ and $b$ have no common point. Every plane containing $a$ and $b$ contains $a$ and $A$, and the plane $(A, a)$ is unique, so the plane containing both $a$ and $b$ is unique.
+Let $a$ and $b$ be two distinct parallel lines. We must show that exactly one plane contains both $a$ and $b$, that is, we prove existence and uniqueness.
+
+Existence. By definition, two parallel lines lie in one plane and have no common point. Since $a\parallel b$, there is a plane containing both $a$ and $b$.
+
+Uniqueness. Take a point $A\in b$. Since $a$ and $b$ have no common point, $A\notin a$. Every plane containing $a$ and $b$ contains the line $a$ and the point $A$. By the axiom, through a line and a point not on it there passes exactly one plane, denoted $(A, a)$. Therefore every plane containing $a$ and $b$ coincides with $(A, a)$, so such a plane is unique.
+
+So two distinct parallel lines $a$, $b$ determine exactly one plane.
 
 **Answer.** Exactly one plane contains $a$ and $b$.
 :::

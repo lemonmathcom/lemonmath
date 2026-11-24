@@ -308,15 +308,20 @@ d) $\dfrac7{12}$.
 2. d) Chú ý chữ số $5$ và $8$ không lặp, chỉ chữ số $3$ lặp.
 
 ::solution
-a) $3:8=0{,}375$ (hữu hạn).
+Để viết một phân số dưới dạng số thập phân, ta chia tử số cho mẫu số.
 
-b) $4:9=0{,}444\ldots=0{,}(4)$.
+a) Ta có $3:8=0{,}375$. Phép chia kết thúc với số dư bằng $0$, nên đây là số thập phân hữu hạn. (Mẫu $8=2^3$ chỉ có ước nguyên tố $2$.)
 
-c) $5:11=0{,}4545\ldots=0{,}(45)$.
+b) Ta có $4:9=0{,}444\ldots$ Ở mỗi bước chia, số dư luôn là $4$ nên chữ số $4$ lặp lại mãi. Do đó
+$$\frac49=0{,}(4).$$
 
-d) $7:12=0{,}58333\ldots=0{,}58(3)$.
+c) Ta có $5:11=0{,}4545\ldots$ Sau hai bước chia, số dư quay lại $5$ nên cặp chữ số $45$ lặp lại mãi. Do đó
+$$\frac5{11}=0{,}(45).$$
 
-Vậy kết quả là $0{,}375$; $0{,}(4)$; $0{,}(45)$; $0{,}58(3)$.
+d) Ta có $7:12=0{,}58333\ldots$ Sau hai chữ số $58$, số dư lặp lại nên chữ số $3$ lặp lại mãi. Do đó
+$$\frac7{12}=0{,}58(3).$$
+
+Vậy $\dfrac38=0{,}375$; $\dfrac49=0{,}(4)$; $\dfrac5{11}=0{,}(45)$; $\dfrac7{12}=0{,}58(3)$.
 
 **Đáp số.** a) $0{,}375$; b) $0{,}(4)$; c) $0{,}(45)$; d) $0{,}58(3)$.
 :::
@@ -552,9 +557,11 @@ b) $3\cdot\sqrt{0{,}16}-0{,}2$.
 2. b) $\sqrt{0{,}16}=0{,}4$.
 
 ::solution
-a) Ta có $\sqrt{\dfrac{49}{100}}=\dfrac7{10}$ và $\left(\dfrac12\right)^2=\dfrac14$. Cộng: $\dfrac7{10}+\dfrac14=\dfrac{14}{20}+\dfrac5{20}=\dfrac{19}{20}$.
+a) Vì $\left(\dfrac7{10}\right)^2=\dfrac{49}{100}$ và $\dfrac7{10}>0$ nên $\sqrt{\dfrac{49}{100}}=\dfrac7{10}$. Ngoài ra $\left(\dfrac12\right)^2=\dfrac14$. Quy đồng mẫu số chung $20$ rồi cộng:
+$$\frac7{10}+\frac14=\frac{14}{20}+\frac5{20}=\frac{19}{20}.$$
 
-b) Ta có $\sqrt{0{,}16}=0{,}4$. Nhân: $3\cdot0{,}4=1{,}2$. Trừ: $1{,}2-0{,}2=1$.
+b) Vì $0{,}4^2=0{,}16$ và $0{,}4>0$ nên $\sqrt{0{,}16}=0{,}4$. Thực hiện phép nhân trước rồi đến phép trừ:
+$$3\cdot0{,}4-0{,}2=1{,}2-0{,}2=1.$$
 
 Vậy kết quả là $\dfrac{19}{20}$ và $1$.
 

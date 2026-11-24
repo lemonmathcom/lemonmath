@@ -184,11 +184,18 @@ a) A radius of $7$ cm means a diameter of $?$ cm; b) a diameter of $1.6$ m means
 2. Divide the diameter by $2$ to get the radius.
 
 ::solution
-a) $7\times2=14$ cm.
+The diameter is twice the radius. So to find the diameter we multiply the radius by $2$, and to find the radius we divide the diameter by $2$.
 
-b) $1.6\div2=0.8$ m.
+a) A radius of $7$ cm gives a diameter of:
+$$7\times2=14\ \text{(cm)}$$
 
-c) $2.5\times2=5$ dm.
+b) A diameter of $1.6$ m gives a radius of:
+$$1.6\div2=0.8\ \text{(m)}$$
+
+c) A radius of $2.5$ dm gives a diameter of:
+$$2.5\times2=5\ \text{(dm)}$$
+
+So the missing numbers are: a) $14$ cm; b) $0.8$ m; c) $5$ dm.
 
 **Answer.** a) $14$; b) $0.8$; c) $5$.
 :::
@@ -204,11 +211,18 @@ Find the circumference of the circle with: a) diameter $5$ cm; b) radius $3$ cm;
 2. Multiply by $3.14$ (and by $2$ first if it is the radius).
 
 ::solution
-a) $5\times3.14=15.7$ cm.
+To find the circumference of a circle, we multiply the diameter by $3.14$. If we know the radius, we multiply it by $2$ to get the diameter, then multiply by $3.14$.
 
-b) $3\times2\times3.14=18.84$ cm.
+a) The circumference of the circle with diameter $5$ cm is:
+$$5\times3.14=15.7\ \text{(cm)}$$
 
-c) $0.4\times3.14=1.256$ m.
+b) A circle with radius $3$ cm has diameter $3\times2=6$ cm. Its circumference is:
+$$3\times2\times3.14=18.84\ \text{(cm)}$$
+
+c) The circumference of the circle with diameter $0.4$ m is:
+$$0.4\times3.14=1.256\ \text{(m)}$$
+
+So the circumferences are $15.7$ cm, $18.84$ cm and $1.256$ m.
 
 **Answer.** a) $15.7$ cm; b) $18.84$ cm; c) $1.256$ m.
 :::
@@ -224,11 +238,18 @@ Find the area of the circle with: a) radius $3$ cm; b) diameter $10$ dm; c) radi
 2. Multiply the radius by itself, then by $3.14$.
 
 ::solution
-a) $3\times3\times3.14=28.26\ \text{cm}^2$.
+To find the area of a circle, we multiply the radius by the radius, then by $3.14$. If we know the diameter, we first divide it by $2$ to find the radius.
 
-b) The radius is $10\div2=5$ dm, so $S=5\times5\times3.14=78.5\ \text{dm}^2$.
+a) The area of the circle with radius $3$ cm is:
+$$3\times3\times3.14=28.26\ \left(\text{cm}^2\right)$$
 
-c) $1.5\times1.5\times3.14=2.25\times3.14=7.065\ \text{m}^2$.
+b) The radius of the circle is $10\div2=5$ dm. The area of the circle is:
+$$5\times5\times3.14=78.5\ \left(\text{dm}^2\right)$$
+
+c) We have $1.5\times1.5=2.25$. The area of the circle with radius $1.5$ m is:
+$$2.25\times3.14=7.065\ \left(\text{m}^2\right)$$
+
+So the areas are $28.26\ \text{cm}^2$, $78.5\ \text{dm}^2$ and $7.065\ \text{m}^2$.
 
 **Answer.** a) $28.26\ \text{cm}^2$; b) $78.5\ \text{dm}^2$; c) $7.065\ \text{m}^2$.
 :::
@@ -244,9 +265,19 @@ Find the diameter and the radius of the circle with circumference: a) $31.4$ cm;
 2. Divide the diameter by $2$.
 
 ::solution
-a) $d=31.4\div3.14=10$ cm and $r=10\div2=5$ cm.
+Since the circumference equals the diameter times $3.14$, to find the diameter we divide the circumference by $3.14$. Then the radius is the diameter divided by $2$.
 
-b) $d=25.12\div3.14=8$ m and $r=8\div2=4$ m.
+a) The diameter of the circle with circumference $31.4$ cm is:
+$$31.4\div3.14=10\ \text{(cm)}$$
+The radius of the circle is:
+$$10\div2=5\ \text{(cm)}$$
+
+b) The diameter of the circle with circumference $25.12$ m is:
+$$25.12\div3.14=8\ \text{(m)}$$
+The radius of the circle is:
+$$8\div2=4\ \text{(m)}$$
+
+So the circle in a) has diameter $10$ cm and radius $5$ cm, and the circle in b) has diameter $8$ m and radius $4$ m.
 
 **Answer.** a) $d=10$ cm, $r=5$ cm; b) $d=8$ m, $r=4$ m.
 :::
@@ -262,9 +293,15 @@ Suppose Lan's bicycle wheel has diameter $0.65$ m. How far does the bicycle trav
 2. Multiply it by $10$ by moving the decimal point.
 
 ::solution
-The circumference of the wheel is $0.65\times3.14=2.041$ m.
+Solution
 
-The distance travelled after $10$ rolls is $2.041\times10=20.41$ (m).
+In each roll, the bicycle travels a distance equal to the circumference of the wheel. The circumference of the wheel is:
+$$0.65\times3.14=2.041\ \text{(m)}$$
+
+The distance travelled when the wheel rolls $10$ times is:
+$$2.041\times10=20.41\ \text{(m)}$$
+
+So the bicycle travels $20.41$ m when the wheel rolls $10$ times.
 
 **Answer.** $20.41$ m.
 :::
@@ -280,9 +317,15 @@ Suppose a round pond has radius $20$ m. Find the circumference and the area of t
 2. Find the area with $r\times r\times3.14$.
 
 ::solution
-The circumference of the pond is $20\times2\times3.14=125.6$ m.
+Solution
 
-The area of the pond is $20\times20\times3.14=1256\ \text{m}^2$.
+The pond is a circle with radius $20$ m. The circumference of the pond is:
+$$20\times2\times3.14=125.6\ \text{(m)}$$
+
+The area of the pond is:
+$$20\times20\times3.14=1256\ \left(\text{m}^2\right)$$
+
+So the circumference of the pond is $125.6$ m and its area is $1256\ \text{m}^2$.
 
 **Answer.** Circumference $125.6$ m; area $1256\ \text{m}^2$.
 :::
@@ -298,10 +341,14 @@ A piece of string $94.2$ cm long goes exactly once round a round box. Find the d
 2. Divide the circumference by $3.14$. Check by multiplying.
 
 ::solution
-The diameter of the box is:
-$$94.2\div3.14=30\ \text{(cm)}.$$
+Solution
 
-**Check.** $30\times3.14=94.2$. Correct.
+The string goes exactly once round the box, so its length equals the circumference of the box. Since the circumference is the diameter times $3.14$, the diameter of the box is:
+$$94.2\div3.14=30\ \text{(cm)}$$
+
+*Check.* $30\times3.14=94.2$. Correct.
+
+So the diameter of the box is $30$ cm.
 
 **Answer.** $30$ cm.
 :::
@@ -317,9 +364,20 @@ Remember the review lesson on the area of a square. A square has side $10$ cm, a
 2. Subtract the area of the circle from the area of the square.
 
 ::solution
-The area of the square is $10\times10=100\ \text{cm}^2$. The area of the circle is $5\times5\times3.14=78.5\ \text{cm}^2$.
+Solution
 
-The area of the part outside the circle is $100-78.5=21.5\ \text{cm}^2$.
+The circle has diameter $10$ cm, so its radius is $10\div2=5$ cm.
+
+The area of the square is:
+$$10\times10=100\ \left(\text{cm}^2\right)$$
+
+The area of the circle is:
+$$5\times5\times3.14=78.5\ \left(\text{cm}^2\right)$$
+
+The area of the part of the square outside the circle is:
+$$100-78.5=21.5\ \left(\text{cm}^2\right)$$
+
+So the area of the part of the square outside the circle is $21.5\ \text{cm}^2$.
 
 **Answer.** $21.5\ \text{cm}^2$.
 :::
@@ -335,11 +393,23 @@ Circle $A$ has radius $3$ cm and circle $B$ has radius $6$ cm (twice as big). Ho
 2. Divide the results for $B$ by the results for $A$.
 
 ::solution
-Circle $A$: $C=3\times2\times3.14=18.84$ cm and $S=3\times3\times3.14=28.26\ \text{cm}^2$.
+Solution
 
-Circle $B$: $C=6\times2\times3.14=37.68$ cm and $S=6\times6\times3.14=113.04\ \text{cm}^2$.
+Find the circumference and the area of circle $A$ (radius $3$ cm):
+$$C_A=3\times2\times3.14=18.84\ \text{(cm)}$$
+$$S_A=3\times3\times3.14=28.26\ \left(\text{cm}^2\right)$$
 
-Since $37.68\div18.84=2$ and $113.04\div28.26=4$, the circumference is $2$ times as great and the area is $4$ times as great.
+Find the circumference and the area of circle $B$ (radius $6$ cm):
+$$C_B=6\times2\times3.14=37.68\ \text{(cm)}$$
+$$S_B=6\times6\times3.14=113.04\ \left(\text{cm}^2\right)$$
+
+The number of times the circumference of $B$ is as great as that of $A$ is:
+$$37.68\div18.84=2$$
+
+The number of times the area of $B$ is as great as that of $A$ is:
+$$113.04\div28.26=4$$
+
+So the circumference of $B$ is $2$ times as great as that of $A$, and the area of $B$ is $4$ times as great as that of $A$.
 
 **Answer.** The circumference is $2$ times as great; the area is $4$ times as great.
 :::

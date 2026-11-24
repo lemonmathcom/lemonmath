@@ -223,11 +223,16 @@ c) $5x(y-2)-3(y-2)$.
 2. Chia từng hạng tử cho nhân tử chung rồi viết vào ngoặc.
 
 ::solution
-a) $4x^2-6x=2x(2x-3)$.
+Ta đặt nhân tử chung ra ngoài dấu ngoặc: tìm ước chung lớn nhất của các hệ số và các luỹ thừa chung của biến.
 
-b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+a) Hai hạng tử $4x^2$ và $6x$ có nhân tử chung là $2x$. Ta có
+$$4x^2-6x=2x\cdot2x-2x\cdot3=2x(2x-3).$$
 
-c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+b) Ước chung lớn nhất của $12$ và $18$ là $6$; các biến chung là $x^2y$. Nhân tử chung là $6x^2y$, nên
+$$12x^3y-18x^2y^2=6x^2y\cdot2x-6x^2y\cdot3y=6x^2y(2x-3y).$$
+
+c) Hai hạng tử có nhân tử chung là $(y-2)$. Ta có
+$$5x(y-2)-3(y-2)=(y-2)(5x-3).$$
 
 Vậy a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
 
@@ -251,11 +256,14 @@ c) $3a(b-1)-6(1-b)$.
 2. Đặt nhân tử chung.
 
 ::solution
-a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
+a) Hai hạng tử có nhân tử chung là $(x-3)$. Ta có
+$$2x(x-3)+5(x-3)=(x-3)(2x+5).$$
 
-b) Ta có $y(y-x)=-y(x-y)$, nên $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+b) Ta có $y-x=-(x-y)$, nên $y(y-x)=-y(x-y)$. Do đó
+$$x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2.$$
 
-c) Ta có $-6(1-b)=6(b-1)$, nên $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+c) Ta có $1-b=-(b-1)$, nên $-6(1-b)=6(b-1)$. Do đó
+$$3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2).$$
 
 Vậy a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
 
@@ -279,11 +287,14 @@ c) $4x^2+12x+9$.
 2. Xác định $A$ và $B$ rồi viết kết quả.
 
 ::solution
-a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
+a) Ta có $9x^2=(3x)^2$ và $16y^2=(4y)^2$. Áp dụng hiệu hai bình phương $A^2-B^2=(A-B)(A+B)$:
+$$9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y).$$
 
-b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+b) Ta có $x^2$, $25=5^2$ và $10x=2\cdot x\cdot5$. Áp dụng bình phương của một hiệu $A^2-2AB+B^2=(A-B)^2$:
+$$x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2.$$
 
-c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+c) Ta có $4x^2=(2x)^2$, $9=3^2$ và $12x=2\cdot2x\cdot3$. Áp dụng bình phương của một tổng $A^2+2AB+B^2=(A+B)^2$:
+$$4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2.$$
 
 Vậy a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
 
@@ -307,11 +318,14 @@ c) $x^3+6x^2+12x+8$.
 2. Chú ý dấu ở nhân tử thứ hai.
 
 ::solution
-a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
+a) Ta có $8=2^3$. Áp dụng tổng hai lập phương $A^3+B^3=(A+B)(A^2-AB+B^2)$:
+$$x^3+8=x^3+2^3=(x+2)\left(x^2-2x+4\right).$$
 
-b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
+b) Ta có $27x^3=(3x)^3$ và $1=1^3$. Áp dụng hiệu hai lập phương $A^3-B^3=(A-B)(A^2+AB+B^2)$:
+$$27x^3-1=(3x)^3-1^3=(3x-1)\left(9x^2+3x+1\right).$$
 
-c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
+c) Ta có $8=2^3$, $6x^2=3\cdot x^2\cdot2$ và $12x=3\cdot x\cdot2^2$. Áp dụng lập phương của một tổng:
+$$x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3.$$
 
 Vậy a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
 
@@ -335,11 +349,16 @@ c) $a^2-ab-4a+4b$.
 2. Đặt nhân tử chung trong mỗi nhóm rồi đặt nhân tử chung mới.
 
 ::solution
-a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
+Ta nhóm các hạng tử sao cho mỗi nhóm có nhân tử chung, rồi đặt nhân tử chung của cả biểu thức.
 
-b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+a) Nhóm hai hạng tử đầu và hai hạng tử sau:
+$$xy+2x+3y+6=(xy+2x)+(3y+6)=x(y+2)+3(y+2)=(y+2)(x+3).$$
 
-c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+b) Nhóm hai hạng tử đầu và hai hạng tử sau:
+$$x^2-2xy+x-2y=(x^2-2xy)+(x-2y)=x(x-2y)+(x-2y)=(x-2y)(x+1).$$
+
+c) Nhóm hai hạng tử đầu và hai hạng tử sau:
+$$a^2-ab-4a+4b=(a^2-ab)-(4a-4b)=a(a-b)-4(a-b)=(a-b)(a-4).$$
 
 Vậy a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
 
@@ -363,11 +382,18 @@ c) $x^4-16$.
 2. Phân tích phần còn lại bằng hằng đẳng thức.
 
 ::solution
-a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
+Phân tích hoàn toàn nghĩa là tiếp tục phân tích cho đến khi mỗi nhân tử không phân tích được nữa.
 
-b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+a) Đặt nhân tử chung $3x$, rồi áp dụng hiệu hai bình phương:
+$$3x^3-12x=3x\left(x^2-4\right)=3x(x-2)(x+2).$$
 
-c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+b) Đặt nhân tử chung $2$, rồi áp dụng bình phương của một hiệu:
+$$2x^2-12x+18=2\left(x^2-6x+9\right)=2(x-3)^2.$$
+
+c) Áp dụng hiệu hai bình phương hai lần, vì $x^4=(x^2)^2$ và $16=4^2$:
+$$x^4-16=\left(x^2\right)^2-4^2=\left(x^2-4\right)\left(x^2+4\right)=(x-2)(x+2)\left(x^2+4\right).$$
+
+Nhân tử $x^2+4$ không phân tích được nữa (với hệ số thực).
 
 Vậy a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
 
@@ -391,11 +417,14 @@ c) $76^2+2\cdot76\cdot24+24^2$.
 2. Phân tích thành nhân tử rồi tính.
 
 ::solution
-a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
+a) Đặt nhân tử chung $45$:
+$$45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500.$$
 
-b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+b) Áp dụng hiệu hai bình phương $A^2-B^2=(A-B)(A+B)$:
+$$65^2-35^2=(65-35)(65+35)=30\cdot100=3000.$$
 
-c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
+c) Biểu thức có dạng $A^2+2AB+B^2$ với $A=76$, $B=24$. Áp dụng bình phương của một tổng:
+$$76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000.$$
 
 Vậy a) $4500$; b) $3000$; c) $10\,000$.
 
@@ -433,7 +462,13 @@ Nhớ lại bài về hiệu hai bình phương. Giả sử một tấm bìa hì
 2. Phân tích thành tích rồi tính.
 
 ::solution
-Diện tích phần còn lại là $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Kiểm tra: $144-64=80$.)
+Diện tích phần còn lại bằng diện tích tấm bìa hình vuông trừ diện tích hình vuông bị cắt bỏ:
+$$S=12^2-8^2.$$
+
+Áp dụng hiệu hai bình phương $A^2-B^2=(A-B)(A+B)$, ta có
+$$S=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2).$$
+
+Kiểm tra: $12^2-8^2=144-64=80$.
 
 Vậy diện tích phần còn lại là $80\ \text{cm}^2$.
 

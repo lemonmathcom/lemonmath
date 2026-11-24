@@ -166,9 +166,13 @@ Tính và cho biết phép chia hết hay có dư: a) $24:6$; b) $26:6$.
 1. $6\times 4$ bằng bao nhiêu?
 
 ::solution
-a) $6\times 4=24$, nên $24:6=4$. Đây là phép chia hết.
+a) Ta tìm số $?$ sao cho $6\times?=24$. Vì $6\times4=24$ nên $24:6=4$.
 
-b) $6\times 4=24$ và $26-24=2$, nên $26:6=4$ (dư $2$). Đây là phép chia có dư.
+Số dư là $24-24=0$. Vậy $24:6=4$ và đây là phép chia hết.
+
+b) Ta tìm số lớn nhất mà $6$ nhân với số đó không vượt quá $26$. Vì $6\times4=24<26$ còn $6\times5=30>26$ nên thương là $4$.
+
+Số dư là $26-24=2$, và $2<6$. Vậy $26:6=4$ (dư $2$) và đây là phép chia có dư.
 
 **Đáp số.** a) $4$, chia hết; b) $4$ dư $2$, chia có dư.
 :::
@@ -183,9 +187,13 @@ Tính $31:7$ và thử lại.
 1. $7\times 4$ bằng bao nhiêu? $7\times 5$ bằng bao nhiêu?
 
 ::solution
-$7\times 4=28$ và $31-28=3$, nên $31:7=4$ (dư $3$).
+Ta có $7\times4=28<31$ còn $7\times5=35>31$ nên thương là $4$.
 
-Thử lại: $7\times 4+3=31$. Đúng.
+Số dư là $31-28=3$, và $3<7$. Do đó $31:7=4$ (dư $3$).
+
+Thử lại: $7\times4+3=28+3=31$. Đúng.
+
+Vậy $31:7=4$ (dư $3$).
 
 **Đáp số.** $4$ dư $3$.
 :::
@@ -200,7 +208,13 @@ Khi chia một số cho $8$, số dư lớn nhất có thể là mấy? Vì sao?
 1. Số dư phải bé hơn mấy?
 
 ::solution
-Số dư phải bé hơn $8$, nên số dư có thể là $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$. Số dư lớn nhất là $7$.
+Trong phép chia có dư, số dư luôn bé hơn số chia. Nếu số dư bằng hoặc lớn hơn $8$ thì ta còn chia được thêm ít nhất một lần nữa.
+
+Khi chia cho $8$, số dư bé hơn $8$ nên có thể là $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$. Số lớn nhất trong các số này là $7$.
+
+Ví dụ: $15:8=1$ (dư $7$), vì $8\times1=8$ và $15-8=7$.
+
+Vậy khi chia một số cho $8$, số dư lớn nhất có thể là $7$.
 
 **Đáp số.** $7$.
 :::
@@ -267,11 +281,18 @@ Có $50$ quả cam xếp vào các túi, mỗi túi $6$ quả. a) Xếp được
 2. Chia $50$ cho $6$, rồi nghĩ xem số dư cần thêm mấy túi.
 
 ::solution
-a) Ta có $6\times 8=48$ và $50-48=2$, nên
+Bài giải
+
+a) Số túi đầy xếp được là thương của phép chia $50:6$. Ta có $6\times8=48<50$ và $6\times9=54>50$, còn $50-48=2$, nên
 $$50:6=8\ (\text{dư }2).$$
 Xếp được $8$ túi đầy, còn thừa $2$ quả cam.
 
-b) $2$ quả cam còn thừa cần thêm $1$ túi nữa, nên cần ít nhất $8+1=9$ túi.
+Vậy xếp được $8$ túi đầy và còn thừa $2$ quả cam.
+
+b) Còn thừa $2$ quả cam vẫn phải đựng vào túi nên cần thêm $1$ túi nữa. Số túi ít nhất là:
+$$8+1=9\ \text{(túi)}.$$
+
+Vậy cần ít nhất $9$ túi để đựng hết số cam.
 
 **Đáp số.** a) $8$ túi đầy, thừa $2$ quả; b) $9$ túi.
 :::
@@ -286,9 +307,14 @@ Một phép chia có số chia là $7$, thương là $9$ và số dư là $5$. T
 1. Tính $9\times 7$, rồi cộng số dư.
 
 ::solution
+Trong phép chia có dư, số bị chia bằng thương nhân với số chia rồi cộng với số dư. Số dư $5$ bé hơn số chia $7$ nên phép chia này hợp lí.
+
 Số bị chia là:
-$$9\times 7+5=63+5=68.$$
-Thử lại: $68:7=9$ (dư $5$), vì $7\times 9=63$ và $68-63=5$. Đúng.
+$$9\times7+5=63+5=68.$$
+
+Thử lại: $68:7=9$ (dư $5$), vì $7\times9=63$ và $68-63=5$. Đúng.
+
+Vậy số bị chia là $68$.
 
 **Đáp số.** $68$.
 :::

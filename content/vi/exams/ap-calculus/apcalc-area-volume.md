@@ -124,7 +124,14 @@ D. $2$
 **Cần nhớ:** $\displaystyle\int_0^\pi\sin x\,dx=2$.
 
 ::solution
-$\dfrac{1}{\pi}\cdot2=\dfrac2\pi$: đáp án **B**. Phương án D quên chia cho độ dài khoảng.
+Giá trị trung bình của hàm số $f$ trên $[a; b]$ là $\dfrac{1}{b-a}\displaystyle\int_a^bf(x)\,dx$. Với $f(x)=\sin x$ trên $[0; \pi]$, ta có
+$$\frac{1}{\pi-0}\int_0^{\pi}\sin x\,dx=\frac1\pi\Big[-\cos x\Big]_0^{\pi}=\frac1\pi\left(1+1\right)=\frac2\pi.$$
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án D quên chia cho độ dài khoảng: giá trị $2$ chỉ là $\displaystyle\int_0^\pi\sin x\,dx$.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -134,7 +141,14 @@ Tính diện tích miền giới hạn bởi $y=4-x^2$ và trục hoành.
 **Cần nhớ:** parabol cắt trục hoành tại $x=\pm2$.
 
 ::solution
-$\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$.
+Giao điểm của $y=4-x^2$ với trục hoành thoả mãn $4-x^2=0$, suy ra $x=-2$ hoặc $x=2$. Trên $[-2; 2]$ ta có $4-x^2\ge0$, nên đồ thị nằm phía trên trục hoành.
+
+Diện tích miền cần tìm là
+$$S=\int_{-2}^{2}\left(4-x^2\right)dx=\left.\left(4x-\frac{x^3}{3}\right)\right|_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=16-\frac{16}{3}=\frac{32}{3}.$$
+
+Vậy diện tích miền giới hạn bởi $y=4-x^2$ và trục hoành bằng $\dfrac{32}{3}$.
+
+**Đáp số.** $\dfrac{32}{3}$.
 :::
 
 :::exercise Tự luận
@@ -144,7 +158,16 @@ Tính diện tích miền giữa $y=x^2$ và $y=2x$.
 **Cần nhớ:** giao điểm tại $x=0$ và $x=2$; đường thẳng nằm trên.
 
 ::solution
-$\displaystyle\int_0^2\left(2x-x^2\right)dx=4-\frac83=\frac43$.
+Giao điểm của $y=x^2$ và $y=2x$ thoả mãn $x^2=2x$, tức là $x(x-2)=0$, suy ra $x=0$ hoặc $x=2$.
+
+Trên $[0; 2]$ ta có $2x\ge x^2$ (chẳng hạn tại $x=1$: $2>1$), nên đường thẳng $y=2x$ nằm phía trên parabol $y=x^2$.
+
+Diện tích miền giữa hai đồ thị là
+$$S=\int_0^2\left(2x-x^2\right)dx=\left.\left(x^2-\frac{x^3}{3}\right)\right|_0^2=4-\frac83=\frac43.$$
+
+Vậy diện tích miền giữa $y=x^2$ và $y=2x$ bằng $\dfrac43$.
+
+**Đáp số.** $\dfrac43$.
 :::
 
 :::exercise Trắc nghiệm
@@ -158,7 +181,14 @@ D. $9\pi$
 **Cần nhớ:** các đĩa có bán kính $x$.
 
 ::solution
-$\pi\displaystyle\int_0^3x^2\,dx=9\pi$: đáp án **D**. Đây là hình nón có bán kính $3$ và chiều cao $3$: $\dfrac13\pi\cdot9\cdot3=9\pi$.
+Khi quay miền dưới $y=x$ với $0\le x\le3$ quanh trục $x$, mỗi thiết diện vuông góc với trục $x$ là một hình tròn bán kính $x$. Áp dụng công thức thể tích tròn xoay (phương pháp đĩa), ta có
+$$V=\pi\int_0^3x^2\,dx=\pi\left.\frac{x^3}{3}\right|_0^3=\pi\cdot\frac{27}{3}=9\pi.$$
+
+Vậy chọn **D**.
+
+*Nhận xét.* Khối tạo thành là hình nón có bán kính đáy $3$ và chiều cao $3$, nên thể tích là $\dfrac13\pi\cdot3^2\cdot3=9\pi$, khớp với kết quả trên.
+
+**Đáp số.** D.
 :::
 
 :::exercise Tự luận
@@ -168,7 +198,17 @@ $\pi\displaystyle\int_0^3x^2\,dx=9\pi$: đáp án **D**. Đây là hình nón c�
 **Cần nhớ:** $A(x)=\left(e^x\right)^2=e^{2x}$.
 
 ::solution
-$\displaystyle\int_0^1e^{2x}\,dx=\frac{e^2-1}{2}\approx3{,}195$.
+Tại điểm có hoành độ $x$ ($0\le x\le1$), thiết diện vuông góc với trục $x$ là hình vuông có cạnh bằng chiều cao của miền, tức là $y=e^x$. Diện tích thiết diện là
+$$A(x)=\left(e^x\right)^2=e^{2x}.$$
+
+Thể tích khối là
+$$V=\int_0^1A(x)\,dx=\int_0^1e^{2x}\,dx=\left.\frac{e^{2x}}{2}\right|_0^1=\frac{e^2-1}{2}.$$
+
+Dùng $e^2\approx7{,}3891$, ta được $V\approx\dfrac{6{,}3891}{2}\approx3{,}195$.
+
+Vậy thể tích khối bằng $\dfrac{e^2-1}{2}\approx3{,}195$.
+
+**Đáp số.** $\dfrac{e^2-1}{2}\approx3{,}195$.
 :::
 
 ## Bài tập vận dụng
@@ -188,11 +228,21 @@ c) Đường thẳng đứng $x=k$ chia $R$ thành hai miền có diện tích b
 3. $\dfrac23k^{3/2}=\dfrac83$.
 
 ::solution
-a) $\dfrac23\cdot8=\dfrac{16}{3}$.
+Miền $R$ nằm giữa trục hoành và đường cong $y=\sqrt x$ với $0\le x\le4$.
 
-b) $\pi\displaystyle\int_0^4\left(x+2\sqrt x\right)dx=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}$.
+a) Diện tích của $R$ là
+$$S=\int_0^4\sqrt x\,dx=\left.\frac23x^{3/2}\right|_0^4=\frac23\cdot8=\frac{16}{3}.$$
 
-c) $k^{3/2}=4$, nên $k=4^{2/3}\approx2{,}520$.
+b) Khi quay $R$ quanh đường thẳng $y=-1$, mỗi thiết diện vuông góc với trục $x$ là một hình vành khuyên có bán kính ngoài $\sqrt x-(-1)=\sqrt x+1$ và bán kính trong $0-(-1)=1$. Thể tích là
+$$V=\pi\int_0^4\left[\left(\sqrt x+1\right)^2-1^2\right]dx=\pi\int_0^4\left(x+2\sqrt x\right)dx=\pi\left.\left(\frac{x^2}{2}+\frac43x^{3/2}\right)\right|_0^4=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}.$$
+
+c) Diện tích phần của $R$ nằm bên trái đường thẳng $x=k$ ($0<k<4$) là $\displaystyle\int_0^k\sqrt x\,dx=\dfrac23k^{3/2}$. Hai miền có diện tích bằng nhau khi diện tích này bằng một nửa diện tích của $R$:
+$$\frac23k^{3/2}=\frac12\cdot\frac{16}{3}=\frac83\iff k^{3/2}=4\iff k=4^{2/3}\approx2{,}520.$$
+Giá trị này thoả mãn $0<k<4$.
+
+Vậy diện tích của $R$ bằng $\dfrac{16}{3}$; thể tích khối tròn xoay bằng $\dfrac{56\pi}{3}$; và $k=4^{2/3}\approx2{,}520$.
+
+**Đáp số.** a) $\dfrac{16}{3}$; b) $\dfrac{56\pi}{3}$; c) $k=4^{2/3}\approx2{,}520$.
 :::
 
 :::exercise Nhiệt độ trung bình
@@ -202,7 +252,20 @@ Nhiệt độ ở một thành phố được mô hình hoá bởi $T(t)=20+6\si
 **Cần nhớ:** $\displaystyle\int_0^{12}\sin\left(\frac{\pi t}{12}\right)dt=\frac{24}{\pi}$; trên trọn một chu kì, trung bình của hàm sin bằng $0$.
 
 ::solution
-Trong $24$ giờ, nhiệt độ trung bình là $20$ độ C. Trong $12$ giờ đầu, nó bằng $20+\dfrac{6}{12}\cdot\dfrac{24}{\pi}=20+\dfrac{12}{\pi}\approx23{,}820$ độ C.
+Nhiệt độ trung bình trên $[0; b]$ là $\dfrac1b\displaystyle\int_0^bT(t)\,dt$. Một nguyên hàm của $T(t)=20+6\sin\left(\dfrac{\pi t}{12}\right)$ là
+$$\int T(t)\,dt=20t-\frac{72}{\pi}\cos\frac{\pi t}{12}.$$
+
+Cả ngày ($b=24$):
+$$\int_0^{24}T\,dt=\left[20t-\frac{72}{\pi}\cos\frac{\pi t}{12}\right]_0^{24}=\left(480-\frac{72}{\pi}\right)-\left(0-\frac{72}{\pi}\right)=480.$$
+Nhiệt độ trung bình là $\dfrac{480}{24}=20$ độ C.
+
+$12$ giờ đầu ($b=12$):
+$$\int_0^{12}T\,dt=\left[20t-\frac{72}{\pi}\cos\frac{\pi t}{12}\right]_0^{12}=\left(240+\frac{72}{\pi}\right)-\left(0-\frac{72}{\pi}\right)=240+\frac{144}{\pi}.$$
+Nhiệt độ trung bình là $\dfrac{1}{12}\left(240+\dfrac{144}{\pi}\right)=20+\dfrac{12}{\pi}\approx23{,}820$ độ C.
+
+Vậy nhiệt độ trung bình trong cả ngày là $20$ độ C, và trong $12$ giờ đầu là $20+\dfrac{12}{\pi}\approx23{,}820$ độ C.
+
+**Đáp số.** Cả ngày: $20$ độ C; $12$ giờ đầu: $20+\dfrac{12}{\pi}\approx23{,}820$ độ C.
 :::
 
 :::exercise Chọn biến lấy tích phân
@@ -212,7 +275,16 @@ Tính diện tích miền giới hạn bởi $x=y^2$ và đường thẳng $x=4$
 **Cần nhớ:** $y$ chạy từ $-2$ đến $2$; đường bên phải là $x=4$, bên trái là $x=y^2$.
 
 ::solution
-$\displaystyle\int_{-2}^2\left(4-y^2\right)dy=16-\frac{16}{3}=\frac{32}{3}$. Cùng đáp số với bài parabol ở trên: đó chính là cùng một hình, chỉ xoay nằm ngang.
+Giao điểm của $x=y^2$ và $x=4$ thoả mãn $y^2=4$, suy ra $y=-2$ hoặc $y=2$. Trên $[-2; 2]$ ta có $y^2\le4$, nên đường thẳng $x=4$ nằm bên phải parabol $x=y^2$.
+
+Lấy tích phân theo $y$, diện tích miền là
+$$S=\int_{-2}^{2}\left(4-y^2\right)dy=\left.\left(4y-\frac{y^3}{3}\right)\right|_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=16-\frac{16}{3}=\frac{32}{3}.$$
+
+Vậy diện tích miền giới hạn bởi $x=y^2$ và đường thẳng $x=4$ bằng $\dfrac{32}{3}$.
+
+*Nhận xét.* Đáp số trùng với bài về parabol $y=4-x^2$ ở trên: đó chính là cùng một hình, chỉ xoay nằm ngang.
+
+**Đáp số.** $\dfrac{32}{3}$.
 :::
 
 :::exercise BC: độ dài cung bằng máy tính
@@ -222,7 +294,23 @@ Thiết lập và tính độ dài của $y=\ln(\cos x)$ với $0\le x\le\dfrac{
 **Cần nhớ:** $f'(x)=-\tan x$, và $1+\tan^2x=\sec^2x$.
 
 ::solution
-$L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\left(\sqrt2+1\right)\approx0{,}881$. Ở phần được dùng máy tính, chỉ cần tích phân kèm cận và giá trị $0{,}881$.
+Công thức độ dài đường cong $y=f(x)$ với $a\le x\le b$ là $L=\displaystyle\int_a^b\sqrt{1+\left(y'\right)^2}\,dx$.
+
+Với $y=\ln(\cos x)$, ta có $\cos x>0$ trên $\left[0; \dfrac\pi4\right]$ nên hàm số xác định, và
+$$y'=\frac{-\sin x}{\cos x}=-\tan x.$$
+
+Do đó
+$$L=\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sqrt{\sec^2x}\,dx=\int_0^{\pi/4}\sec x\,dx,$$
+vì $1+\tan^2x=\sec^2x$ và $\sec x>0$ trên $\left[0; \dfrac\pi4\right]$.
+
+Một nguyên hàm của $\sec x$ là $\ln|\sec x+\tan x|$, nên
+$$L=\Big[\ln|\sec x+\tan x|\Big]_0^{\pi/4}=\ln\left(\sqrt2+1\right)-\ln1=\ln\left(\sqrt2+1\right)\approx0{,}881.$$
+
+Vậy độ dài của đường cong là $L=\ln\left(\sqrt2+1\right)\approx0{,}881$.
+
+*Mẹo thi.* Ở phần được dùng máy tính, chỉ cần viết tích phân $\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx$ kèm cận và giá trị $0{,}881$.
+
+**Đáp số.** $\ln\left(\sqrt2+1\right)\approx0{,}881$.
 :::
 
 :::quiz

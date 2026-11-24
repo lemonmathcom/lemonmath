@@ -145,11 +145,19 @@ c) $\square\times9=81$.
 2. Lấy tích chia cho thừa số đã biết rồi thử lại.
 
 ::solution
-a) $\square=18:3=6$. Thử lại: $6\times3=18$.
+a) Trong phép nhân $\square\times3=18$, $\square$ là thừa số chưa biết. Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:
+$$\square=18:3=6.$$
+Thử lại: $6\times3=18$. Đúng.
 
-b) $\square=32:4=8$. Thử lại: $4\times8=32$.
+b) Trong phép nhân $4\times\square=32$, $\square$ là thừa số chưa biết. Ta lấy tích chia cho thừa số đã biết:
+$$\square=32:4=8.$$
+Thử lại: $4\times8=32$. Đúng.
 
-c) $\square=81:9=9$. Thử lại: $9\times9=81$.
+c) Trong phép nhân $\square\times9=81$, $\square$ là thừa số chưa biết. Ta lấy tích chia cho thừa số đã biết:
+$$\square=81:9=9.$$
+Thử lại: $9\times9=81$. Đúng.
+
+Vậy các số cần tìm lần lượt là $6$; $8$; $9$.
 
 **Đáp số.** a) $6$; b) $8$; c) $9$.
 :::
@@ -171,11 +179,21 @@ c) $\square:9=7$.
 2. Nhân chúng với nhau rồi thử lại.
 
 ::solution
-a) $\square=6\times5=30$. Thử lại: $30:5=6$.
+Trong mỗi phép chia, $\square$ là số bị chia. Muốn tìm số bị chia, ta lấy thương nhân với số chia.
 
-b) $\square=4\times8=32$. Thử lại: $32:8=4$.
+a) Ta có $\square:5=6$ nên
+$$\square=6\times5=30.$$
+Thử lại: $30:5=6$. Đúng.
 
-c) $\square=7\times9=63$. Thử lại: $63:9=7$.
+b) Ta có $\square:8=4$ nên
+$$\square=4\times8=32.$$
+Thử lại: $32:8=4$. Đúng.
+
+c) Ta có $\square:9=7$ nên
+$$\square=7\times9=63.$$
+Thử lại: $63:9=7$. Đúng.
+
+Vậy các số bị chia cần tìm lần lượt là $30$; $32$; $63$.
 
 **Đáp số.** a) $30$; b) $32$; c) $63$.
 :::
@@ -191,7 +209,16 @@ Em hãy nhớ lại bảng nhân $9$. Tính $9\times6$. Rồi tìm $\square$, bi
 2. So sánh với $\square\times9=54$.
 
 ::solution
-$9\times6=60-6=54$. Từ $\square\times9=54$ ta có $\square=54:9=6$.
+Tính $9\times6$: ta có $9\times6=10\times6-6=60-6=54$.
+
+Trong phép nhân $\square\times9=54$, $\square$ là thừa số chưa biết. Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:
+$$\square=54:9=6.$$
+
+Thử lại: $6\times9=54$. Đúng.
+
+Từ $9\times6=54$ ta cũng có $54:9=6$.
+
+Vậy $9\times6=54$; $\square=6$ và $54:9=6$.
 
 **Đáp số.** $9\times6=54$; $\square=6$ và $54:9=6$.
 :::
@@ -213,11 +240,21 @@ c) $90:\square=9$.
 2. Lấy số bị chia chia cho thương rồi thử lại.
 
 ::solution
-a) $\square=24:3=8$. Thử lại: $24:8=3$.
+Trong mỗi phép chia, $\square$ là số chia. Muốn tìm số chia, ta lấy số bị chia chia cho thương.
 
-b) $\square=56:7=8$. Thử lại: $56:8=7$.
+a) Ta có $24:\square=3$ nên
+$$\square=24:3=8.$$
+Thử lại: $24:8=3$. Đúng.
 
-c) $\square=90:9=10$. Thử lại: $90:10=9$.
+b) Ta có $56:\square=7$ nên
+$$\square=56:7=8.$$
+Thử lại: $56:8=7$. Đúng.
+
+c) Ta có $90:\square=9$ nên
+$$\square=90:9=10.$$
+Thử lại: $90:10=9$. Đúng.
+
+Vậy các số chia cần tìm lần lượt là $8$; $8$; $10$.
 
 **Đáp số.** a) $8$; b) $8$; c) $10$.
 :::
@@ -239,11 +276,19 @@ c) $48:\square=6$.
 2. Áp dụng quy tắc tương ứng.
 
 ::solution
-a) $\square$ là thừa số: lấy tích chia thừa số, $\square=48:6=8$.
+a) Trong phép nhân $\square\times6=48$, $\square$ là thừa số chưa biết. Em chọn phép chia, vì muốn tìm thừa số chưa biết ta lấy tích chia cho thừa số đã biết:
+$$\square=48:6=8.$$
+Thử lại: $8\times6=48$. Đúng.
 
-b) $\square$ là số bị chia: lấy thương nhân số chia, $\square=8\times6=48$.
+b) Trong phép chia $\square:6=8$, $\square$ là số bị chia. Em chọn phép nhân, vì muốn tìm số bị chia ta lấy thương nhân với số chia:
+$$\square=8\times6=48.$$
+Thử lại: $48:6=8$. Đúng.
 
-c) $\square$ là số chia: lấy số bị chia chia thương, $\square=48:6=8$.
+c) Trong phép chia $48:\square=6$, $\square$ là số chia. Em chọn phép chia, vì muốn tìm số chia ta lấy số bị chia chia cho thương:
+$$\square=48:6=8.$$
+Thử lại: $48:8=6$. Đúng.
+
+Vậy ở câu a) và c) em chọn phép chia, ở câu b) em chọn phép nhân; ta tìm được $\square=8$; $\square=48$; $\square=8$.
 
 **Đáp số.** a) $8$; b) $48$; c) $8$.
 :::
@@ -259,9 +304,16 @@ Lan giải bài $36:\square=4$ như sau: "$\square=36\times4=144$". Bạn Lan l�
 2. Thử lại kết quả của Lan: $36:144$ có bằng $4$ không?
 
 ::solution
-Lan đã nhân, nhưng $\square$ là số chia nên phải lấy số bị chia chia cho thương: $\square=36:4=9$.
+Trong phép chia $36:\square=4$, $\square$ là số chia. Muốn tìm số chia, ta lấy số bị chia chia cho thương.
 
-**Thử lại.** $36:9=4$. Đúng.
+Lan đã làm sai ở chỗ lấy $36\times4$, tức là Lan đã dùng phép nhân thay vì phép chia.
+
+Cách làm đúng là
+$$\square=36:4=9.$$
+
+Thử lại: $36:9=4$. Đúng.
+
+Vậy Lan sai ở chỗ dùng phép nhân thay cho phép chia, và $\square=9$.
 
 **Đáp số.** Lan dùng sai phép tính; $\square=9$.
 :::
@@ -279,9 +331,21 @@ b) Một số cây bút chia đều cho $7$ bạn, mỗi bạn $6$ cây. Hỏi c
 2. Viết phép tính có ô trống, tìm ô trống rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Gọi số hộp là $\square$: $8\times\square=72$, nên $\square=72:8=9$ (hộp).
+Bài giải
 
-b) Gọi số bút là $\square$: $\square:7=6$, nên $\square=6\times7=42$ (cây).
+a) Gọi số hộp xếp được là $\square$. Mỗi hộp có $8$ cái bánh và có tất cả $72$ cái bánh, nên
+$$8\times\square=72.$$
+Số hộp xếp được là:
+$$72:8=9\ \text{(hộp)}$$
+Thử lại: $8\times9=72$. Đúng.
+
+b) Gọi số cây bút là $\square$. Số bút đó chia đều cho $7$ bạn, mỗi bạn $6$ cây, nên
+$$\square:7=6.$$
+Số cây bút có tất cả là:
+$$6\times7=42\ \text{(cây)}$$
+Thử lại: $42:7=6$. Đúng.
+
+Vậy xếp được $9$ hộp; có tất cả $42$ cây bút.
 
 **Đáp số.** a) $9$ hộp; b) $42$ cây bút.
 :::
@@ -301,9 +365,19 @@ b) $63:\square=3\times3$.
 2. Tìm $\square$ bằng quy tắc tương ứng và thử lại.
 
 ::solution
-a) $4\times9=36$, nên $\square\times6=36$ và $\square=36:6=6$. Thử lại: $6\times6=36$.
+a) Tính vế phải trước:
+$$4\times9=36.$$
+Nên $\square\times6=36$. Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:
+$$\square=36:6=6.$$
+Thử lại: $6\times6=36$. Đúng.
 
-b) $3\times3=9$, nên $63:\square=9$ và $\square=63:9=7$. Thử lại: $63:7=9$.
+b) Tính vế phải trước:
+$$3\times3=9.$$
+Nên $63:\square=9$. Muốn tìm số chia, ta lấy số bị chia chia cho thương:
+$$\square=63:9=7.$$
+Thử lại: $63:7=9$. Đúng.
+
+Vậy ở câu a) $\square=6$; ở câu b) $\square=7$.
 
 **Đáp số.** a) $6$; b) $7$.
 :::

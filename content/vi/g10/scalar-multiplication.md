@@ -258,7 +258,16 @@ Cho $|\vec{a}| = 6$. Tìm $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ và 
 2. Xét dấu của từng số để kết luận về hướng.
 
 ::solution
-$|2\vec{a}| = 2\cdot6 = 12$, $\left|-\dfrac{1}{2}\vec{a}\right| = \dfrac{1}{2}\cdot6 = 3$, $|0\vec{a}| = |\vec{0}| = 0$. Vì $2>0$ nên $2\vec{a}$ cùng hướng $\vec{a}$; vì $-\dfrac12<0$ nên $-\dfrac{1}{2}\vec{a}$ ngược hướng.
+Áp dụng tính chất của tích một số với một vectơ: $|k\vec{a}|=|k|\cdot|\vec{a}|$; với $\vec{a}\neq\vec{0}$, vectơ $k\vec{a}$ cùng hướng với $\vec{a}$ nếu $k>0$ và ngược hướng với $\vec{a}$ nếu $k<0$.
+
+Với $|\vec{a}|=6$, ta có
+$$|2\vec{a}|=|2|\cdot6=12,\qquad \left|-\frac12\vec{a}\right|=\left|-\frac12\right|\cdot6=\frac12\cdot6=3.$$
+
+Vì $0\vec{a}=\vec{0}$ nên $|0\vec{a}|=|\vec{0}|=0$.
+
+Vì $|\vec{a}|=6\neq0$ nên $\vec{a}\neq\vec{0}$. Do $2>0$ nên $2\vec{a}$ cùng hướng với $\vec{a}$; do $-\dfrac12<0$ nên $-\dfrac12\vec{a}$ ngược hướng với $\vec{a}$.
+
+Vậy $|2\vec{a}|=12$, $\left|-\dfrac12\vec{a}\right|=3$, $|0\vec{a}|=0$, và trong hai vectơ đã cho chỉ có $2\vec{a}$ cùng hướng với $\vec{a}$.
 
 **Đáp số.** $12$; $3$; $0$; chỉ $2\vec{a}$ cùng hướng với $\vec{a}$.
 :::
@@ -274,9 +283,15 @@ Rút gọn $3(\vec{a} - 2\vec{b}) - 2(\vec{a} - \vec{b})$.
 2. Gộp các hạng tử chứa $\vec{a}$, rồi các hạng tử chứa $\vec{b}$.
 
 ::solution
-$$3\vec{a} - 6\vec{b} - 2\vec{a} + 2\vec{b} = (3-2)\vec{a} + (-6+2)\vec{b} = \vec{a} - 4\vec{b}.$$
+Áp dụng tính chất phân phối $k(\vec{u}-\vec{v})=k\vec{u}-k\vec{v}$, ta phá dấu ngoặc:
+$$3(\vec{a}-2\vec{b})-2(\vec{a}-\vec{b})=3\vec{a}-6\vec{b}-2\vec{a}+2\vec{b}.$$
 
-**Đáp số.** $\vec{a} - 4\vec{b}$.
+Nhóm các số hạng chứa $\vec{a}$ và các số hạng chứa $\vec{b}$:
+$$\begin{aligned}3\vec{a}-6\vec{b}-2\vec{a}+2\vec{b}&=(3-2)\vec{a}+(-6+2)\vec{b}\\&=\vec{a}-4\vec{b}.\end{aligned}$$
+
+Vậy $3(\vec{a}-2\vec{b})-2(\vec{a}-\vec{b})=\vec{a}-4\vec{b}$.
+
+**Đáp số.** $\vec{a}-4\vec{b}$.
 :::
 
 :::exercise
@@ -290,9 +305,17 @@ Trong tam giác $ABC$, gọi $M$, $N$ lần lượt là trung điểm của $AB$
 2. Thay $\overrightarrow{AM}$, $\overrightarrow{AN}$ rồi đặt thừa số chung $\dfrac12$.
 
 ::solution
-$$\overrightarrow{MN} = \overrightarrow{AN} - \overrightarrow{AM} = \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} = \frac{1}{2}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{1}{2}\overrightarrow{BC}.$$
+Vì $M$ là trung điểm của $AB$ nên $\overrightarrow{AM}=\dfrac12\overrightarrow{AB}$. Vì $N$ là trung điểm của $AC$ nên $\overrightarrow{AN}=\dfrac12\overrightarrow{AC}$.
 
-**Đáp số.** $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$ (đã chứng minh): đường trung bình song song và bằng nửa cạnh đáy.
+Theo quy tắc hiệu (với ba điểm $A$, $M$, $N$), ta có $\overrightarrow{MN}=\overrightarrow{AN}-\overrightarrow{AM}$. Thay các đẳng thức trên vào, ta được
+$$\begin{aligned}\overrightarrow{MN}&=\frac12\overrightarrow{AC}-\frac12\overrightarrow{AB}\\&=\frac12\left(\overrightarrow{AC}-\overrightarrow{AB}\right).\end{aligned}$$
+
+Theo quy tắc hiệu, $\overrightarrow{AC}-\overrightarrow{AB}=\overrightarrow{BC}$. Do đó
+$$\overrightarrow{MN}=\frac12\overrightarrow{BC}.$$
+
+Vậy $\overrightarrow{MN}=\dfrac12\overrightarrow{BC}$; suy ra $MN\parallel BC$ và $MN=\dfrac12BC$, tức là đường trung bình song song với cạnh đáy và bằng nửa cạnh đáy.
+
+**Đáp số.** $\overrightarrow{MN}=\dfrac12\overrightarrow{BC}$ (đã chứng minh): đường trung bình song song và bằng nửa cạnh đáy.
 :::
 
 :::exercise
@@ -323,7 +346,15 @@ Trên một đoạn đường thẳng chạy theo hướng đông – tây, mộ
 2. Gắn dấu trừ nếu xe chạy ngược hướng với ô tô.
 
 ::solution
-Xe tải: $\dfrac{60}{40}=\dfrac32$ và ngược hướng, nên vận tốc là $-\dfrac32\vec{v}$. Xe đạp: $\dfrac{15}{40}=\dfrac38$ và cùng hướng, nên vận tốc là $\dfrac38\vec{v}$.
+Gọi $\vec{v}_1$ là vận tốc của xe tải và $\vec{v}_2$ là vận tốc của xe đạp. Vận tốc ô tô là $\vec{v}$ có độ lớn $|\vec{v}|=40$ km/h, hướng về phía đông.
+
+Xe tải: độ lớn vận tốc là $60$ km/h và chạy về phía tây, ngược hướng với $\vec{v}$. Tỉ số độ lớn là $\dfrac{60}{40}=\dfrac32$. Vì hai vectơ ngược hướng nên
+$$\vec{v}_1=-\frac32\vec{v}.$$
+
+Xe đạp: độ lớn vận tốc là $15$ km/h và chạy về phía đông, cùng hướng với $\vec{v}$. Tỉ số độ lớn là $\dfrac{15}{40}=\dfrac38$. Vì hai vectơ cùng hướng nên
+$$\vec{v}_2=\frac38\vec{v}.$$
+
+Vậy vận tốc của xe tải là $-\dfrac32\vec{v}$ và vận tốc của xe đạp là $\dfrac38\vec{v}$.
 
 **Đáp số.** Xe tải $-\dfrac{3}{2}\vec{v}$; xe đạp $\dfrac{3}{8}\vec{v}$.
 :::
@@ -344,13 +375,18 @@ d) $\overrightarrow{AB} + \overrightarrow{AC} = 3\overrightarrow{AG}$.
 2. Với c, d: dùng công thức trung điểm với điểm $O$ thích hợp.
 
 ::solution
-a) **Đúng.** $\overrightarrow{AG}$ và $\overrightarrow{AM}$ cùng hướng và $AG=\dfrac23AM$.
+Vì $G$ là trọng tâm tam giác $ABC$ và $M$ là trung điểm của $BC$ nên $A$, $G$, $M$ thẳng hàng, $G$ nằm giữa $A$ và $M$, và $AG=\dfrac23AM$, $GM=\dfrac13AM$; do đó $GA=2GM$.
 
-b) **Sai.** $GA=2GM$ nhưng $\overrightarrow{GA}$ và $\overrightarrow{GM}$ ngược hướng ($G$ nằm giữa $A$ và $M$), nên $\overrightarrow{GA} = -2\overrightarrow{GM}$.
+a) **Đúng.** Vì $G$ nằm giữa $A$ và $M$ nên $\overrightarrow{AG}$ và $\overrightarrow{AM}$ cùng hướng. Kết hợp với $AG=\dfrac23AM$, ta được $\overrightarrow{AG}=\dfrac23\overrightarrow{AM}$.
 
-c) **Đúng.** Công thức trung điểm với $O=G$.
+b) **Sai.** Về độ dài thì $GA=2GM$, nhưng vì $G$ nằm giữa $A$ và $M$ nên $\overrightarrow{GA}$ và $\overrightarrow{GM}$ ngược hướng. Do đó $\overrightarrow{GA}=-2\overrightarrow{GM}$, không phải $2\overrightarrow{GM}$.
 
-d) **Đúng.** Với $O=A$: $\overrightarrow{AB} + \overrightarrow{AC} = 2\overrightarrow{AM} = 2\cdot\dfrac{3}{2}\overrightarrow{AG} = 3\overrightarrow{AG}$.
+c) **Đúng.** Vì $M$ là trung điểm của $BC$ nên với mọi điểm $O$ ta có $\overrightarrow{OB}+\overrightarrow{OC}=2\overrightarrow{OM}$. Lấy $O=G$, ta được $\overrightarrow{GB}+\overrightarrow{GC}=2\overrightarrow{GM}$.
+
+d) **Đúng.** Áp dụng công thức trung điểm với $O=A$: $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}$. Từ a) suy ra $\overrightarrow{AM}=\dfrac32\overrightarrow{AG}$, nên
+$$\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}=2\cdot\frac32\overrightarrow{AG}=3\overrightarrow{AG}.$$
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -366,9 +402,15 @@ Trong tam giác $ABC$, điểm $D$ nằm trên cạnh $BC$ với $BD = \dfrac{1}
 2. Thay $\overrightarrow{BC}$ rồi gộp hệ số.
 
 ::solution
-$$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{3}{4}\overrightarrow{AB} + \frac{1}{4}\overrightarrow{AC}.$$
+Vì $D$ nằm trên cạnh $BC$ và $BD=\dfrac14BC$ nên $\overrightarrow{BD}$ cùng hướng với $\overrightarrow{BC}$ và
+$$\overrightarrow{BD}=\frac14\overrightarrow{BC}.$$
 
-**Đáp số.** $\overrightarrow{AD} = \dfrac{3}{4}\overrightarrow{AB} + \dfrac{1}{4}\overrightarrow{AC}$.
+Theo quy tắc ba điểm, $\overrightarrow{AD}=\overrightarrow{AB}+\overrightarrow{BD}$. Thay $\overrightarrow{BD}=\dfrac14\overrightarrow{BC}$ và $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$, ta được
+$$\begin{aligned}\overrightarrow{AD}&=\overrightarrow{AB}+\frac14\left(\overrightarrow{AC}-\overrightarrow{AB}\right)\\&=\frac34\overrightarrow{AB}+\frac14\overrightarrow{AC}.\end{aligned}$$
+
+Vậy $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
+
+**Đáp số.** $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
 :::
 
 :::exercise
@@ -382,9 +424,19 @@ $$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - 
 2. Trong tam giác $ABD$: $AB=3$, $BD=AC=5$, $\widehat{ABD}=120^\circ$. Tính $AD$.
 
 ::solution
-Dựng hình bình hành $ABDC$. Khi đó $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}=2\overrightarrow{AM}$, và trong tam giác $ABD$ có $AB=3$, $BD=5$, $\widehat{ABD}=120^\circ$:
-$$AD^2=3^2+5^2-2\cdot3\cdot5\cos120^\circ=9+25+15=49,$$
-nên $AD=7$ và $AM=\dfrac72=3{,}5$.
+Dựng hình bình hành $ABDC$ có $AB$, $AC$ là hai cạnh kề, $D$ là đỉnh đối diện với $A$. Theo quy tắc hình bình hành, $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}$.
+
+Hai đường chéo $AD$ và $BC$ của hình bình hành cắt nhau tại trung điểm của mỗi đường. Vì $M$ là trung điểm của $BC$ nên $M$ cũng là trung điểm của $AD$. Do đó $\overrightarrow{AD}=2\overrightarrow{AM}$ và $AD=2AM$.
+
+Trong hình bình hành $ABDC$, ta có $BD=AC=5$ (hai cạnh đối) và $AC\parallel BD$. Hai góc $\widehat{BAC}$ và $\widehat{ABD}$ là hai góc trong cùng phía nên
+$$\widehat{ABD}=180^\circ-\widehat{BAC}=180^\circ-60^\circ=120^\circ.$$
+
+Áp dụng định lí côsin trong tam giác $ABD$ có $AB=3$, $BD=5$, $\widehat{ABD}=120^\circ$:
+$$\begin{aligned}AD^2&=AB^2+BD^2-2\cdot AB\cdot BD\cdot\cos120^\circ\\&=3^2+5^2-2\cdot3\cdot5\cdot\left(-\frac12\right)\\&=9+25+15=49.\end{aligned}$$
+
+Suy ra $AD=7$ (vì $AD>0$), và $AM=\dfrac{AD}{2}=\dfrac72=3{,}5$.
+
+Vậy độ dài trung tuyến $AM$ bằng $3{,}5$.
 
 **Đáp số.** $3{,}5$.
 :::
@@ -400,10 +452,23 @@ Trong tam giác $ABC$, $D$ là điểm trên $BC$ sao cho $\overrightarrow{BD} =
 2. Viết $\overrightarrow{BE}$ và $\overrightarrow{BF}$ theo $\vec{b}$, $\vec{c}$, rồi tìm $k$.
 
 ::solution
-$\overrightarrow{AD} = \vec{b} + \dfrac{2}{3}(\vec{c} - \vec{b}) = \dfrac{1}{3}\vec{b} + \dfrac{2}{3}\vec{c}$, nên $\overrightarrow{AE} = \dfrac{1}{6}\vec{b} + \dfrac{1}{3}\vec{c}$. Khi đó:
-$$\overrightarrow{BE} = \overrightarrow{AE} - \vec{b} = -\frac{5}{6}\vec{b} + \frac{1}{3}\vec{c},\qquad \overrightarrow{BF} = \overrightarrow{AF} - \vec{b} = -\vec{b} + \frac{2}{5}\vec{c} = \frac{6}{5}\overrightarrow{BE}.$$
+Đặt $\vec{b}=\overrightarrow{AB}$ và $\vec{c}=\overrightarrow{AC}$. Vì $A$, $B$, $C$ là ba đỉnh của một tam giác nên $\vec{b}$ và $\vec{c}$ không cùng phương.
 
-**Đáp số.** $\overrightarrow{BF} = \dfrac{6}{5}\overrightarrow{BE}$, nên $B$, $E$, $F$ thẳng hàng.
+Từ $\overrightarrow{BD}=2\overrightarrow{DC}$ suy ra $\overrightarrow{BC}=\overrightarrow{BD}+\overrightarrow{DC}=\overrightarrow{BD}+\dfrac12\overrightarrow{BD}=\dfrac32\overrightarrow{BD}$, tức là $\overrightarrow{BD}=\dfrac23\overrightarrow{BC}$. Do đó
+$$\overrightarrow{AD}=\overrightarrow{AB}+\overrightarrow{BD}=\vec{b}+\frac23(\vec{c}-\vec{b})=\frac13\vec{b}+\frac23\vec{c}.$$
+
+Vì $E$ là trung điểm của $AD$ nên
+$$\overrightarrow{AE}=\frac12\overrightarrow{AD}=\frac16\vec{b}+\frac13\vec{c}.$$
+
+Ta tính hai vectơ $\overrightarrow{BE}$ và $\overrightarrow{BF}$ theo $\vec{b}$, $\vec{c}$:
+$$\overrightarrow{BE}=\overrightarrow{AE}-\vec{b}=-\frac56\vec{b}+\frac13\vec{c},\qquad \overrightarrow{BF}=\overrightarrow{AF}-\vec{b}=\frac25\vec{c}-\vec{b}=-\vec{b}+\frac25\vec{c}.$$
+
+Mặt khác
+$$\frac65\overrightarrow{BE}=\frac65\cdot\left(-\frac56\right)\vec{b}+\frac65\cdot\frac13\vec{c}=-\vec{b}+\frac25\vec{c}=\overrightarrow{BF}.$$
+
+Vậy $\overrightarrow{BF}=\dfrac65\overrightarrow{BE}$. Vì $\overrightarrow{BE}\neq\vec{0}$ (do $\vec{b}$, $\vec{c}$ không cùng phương nên hệ số $-\dfrac56$ và $\dfrac13$ không thể đồng thời triệt tiêu), hai vectơ $\overrightarrow{BE}$ và $\overrightarrow{BF}$ cùng phương, nên ba điểm $B$, $E$, $F$ thẳng hàng.
+
+**Đáp số.** $\overrightarrow{BF}=\dfrac{6}{5}\overrightarrow{BE}$, nên $B$, $E$, $F$ thẳng hàng.
 :::
 
 :::exercise Thử thách
@@ -417,9 +482,19 @@ Cho $\vec{a}$, $\vec{b}$ không cùng phương, $\vec{u} = \vec{a} + 2\vec{b}$, 
 2. So sánh hệ số với $5\vec{a} + \vec{b}$ và giải hệ hai phương trình.
 
 ::solution
-$x\vec{u} + y\vec{v} = (x + y)\vec{a} + (2x - y)\vec{b}$. So sánh hệ số:
-$$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3.\end{cases}$$
-**Kiểm tra.** $2(\vec{a} + 2\vec{b}) + 3(\vec{a} - \vec{b}) = 5\vec{a} + \vec{b}$.
+Vì $\vec{a}$, $\vec{b}$ không cùng phương nên nếu $m\vec{a}+n\vec{b}=m'\vec{a}+n'\vec{b}$ thì $m=m'$ và $n=n'$.
+
+Ta có
+$$x\vec{u}+y\vec{v}=x(\vec{a}+2\vec{b})+y(\vec{a}-\vec{b})=(x+y)\vec{a}+(2x-y)\vec{b}.$$
+
+Điều kiện $\vec{w}=x\vec{u}+y\vec{v}$ trở thành $5\vec{a}+\vec{b}=(x+y)\vec{a}+(2x-y)\vec{b}$. So sánh hệ số của $\vec{a}$ và $\vec{b}$, ta được hệ
+$$\begin{cases} x + y = 5\\ 2x - y = 1.\end{cases}$$
+
+Cộng vế theo vế hai phương trình, ta được $3x=6$, suy ra $x=2$. Thay vào $x+y=5$, ta được $y=3$.
+
+Kiểm tra: $2(\vec{a}+2\vec{b})+3(\vec{a}-\vec{b})=2\vec{a}+4\vec{b}+3\vec{a}-3\vec{b}=5\vec{a}+\vec{b}=\vec{w}$.
+
+Vậy $x=2$ và $y=3$.
 
 **Đáp số.** $x=2$, $y=3$.
 :::

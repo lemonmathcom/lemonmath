@@ -101,7 +101,17 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Tính $5\times4$ và $6:2$ rồi trừ.
 
 ::solution
+Biểu thức có dấu ngoặc, phép nhân và phép chia. Ta tính trong ngoặc trước, sau đó thực hiện nhân, chia từ trái sang phải, cuối cùng làm phép trừ.
+
+Tính trong ngoặc: $3{,}2+1{,}8=5$.
+
+Thực hiện phép nhân và phép chia: $5\times4=20$ và $6:2=3$.
+
+Ta có
 $$(3{,}2+1{,}8)\times4-6:2=5\times4-3=20-3=17.$$
+
+Vậy giá trị của biểu thức là $17$.
+
 **Đáp số.** $17$.
 :::
 
@@ -116,7 +126,16 @@ $$(3{,}2+1{,}8)\times4-6:2=5\times4-3=20-3=17.$$
 2. Tính từ trái sang phải.
 
 ::solution
-$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
+Quy đồng mẫu số các phân số về mẫu số chung là $12$ (vì $12$ chia hết cho $6$, $4$ và $3$):
+$$\frac56=\frac{10}{12},\qquad \frac14=\frac3{12},\qquad \frac13=\frac4{12}.$$
+
+Ta có
+$$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{10-3+4}{12}=\frac{11}{12}.$$
+
+Phân số $\dfrac{11}{12}$ đã tối giản.
+
+Vậy $\dfrac56-\dfrac14+\dfrac13=\dfrac{11}{12}$.
+
 **Đáp số.** $\dfrac{11}{12}$.
 :::
 
@@ -131,9 +150,15 @@ $$\frac56-\frac14+\frac13=\frac{10}{12}-\frac3{12}+\frac4{12}=\frac{11}{12}.$$
 2. Câu b: nhân $36\times25$ rồi đặt dấu phẩy.
 
 ::solution
-a) $25{,}40-8{,}75=16{,}65$.
+a) Viết $25{,}4=25{,}40$ để hai số có cùng hai chữ số ở phần thập phân, rồi đặt dấu phẩy thẳng cột và trừ như với số tự nhiên:
+$$25{,}40-8{,}75=16{,}65.$$
 
-b) $36\times25=900$ và tích có hai chữ số ở phần thập phân, nên $3{,}6\times2{,}5=9{,}00=9$.
+Thử lại: $16{,}65+8{,}75=25{,}40$. Đúng.
+
+b) Nhân như với số tự nhiên: $36\times25=900$. Hai thừa số có tất cả $1+1=2$ chữ số ở phần thập phân, nên ở tích ta tách ra hai chữ số ở phần thập phân:
+$$3{,}6\times2{,}5=9{,}00=9.$$
+
+Vậy $25{,}4-8{,}75=16{,}65$ và $3{,}6\times2{,}5=9$.
 
 **Đáp số.** a) $16{,}65$; b) $9$.
 :::
@@ -150,7 +175,15 @@ b) $36\times25=900$ và tích có hai chữ số ở phần thập phân, nên $
 3. Lấy $\dfrac45$ của thể tích.
 
 ::solution
-Thể tích bể là $5\times5\times5=125\ (\text{dm}^3)$. Lượng nước trong bể là $125\times\dfrac45=100\ (\text{dm}^3)=100$ lít.
+Thể tích của bể cá hình lập phương cạnh $5$ dm là:
+$$5\times5\times5=125\ (\text{dm}^3)$$
+
+Lượng nước trong bể bằng $\dfrac45$ thể tích bể, nên thể tích nước là:
+$$125\times\frac45=100\ (\text{dm}^3)$$
+
+Vì $1\ \text{dm}^3=1$ lít nên $100\ \text{dm}^3=100$ lít.
+
+Vậy trong bể có $100$ lít nước.
 
 **Đáp số.** $100$ lít.
 :::
@@ -167,8 +200,20 @@ Thể tích bể là $5\times5\times5=125\ (\text{dm}^3)$. Lượng nước tron
 3. Cộng với giờ bắt đầu.
 
 ::solution
-Thời gian học là $40\times3=120$ (phút). Thời gian nghỉ là $10\times2=20$ (phút). Cả buổi kéo dài $120+20=140$ (phút) $=2$ giờ $20$ phút. Buổi học kết thúc lúc:
-$$14\text{ giờ }40\text{ phút}+2\text{ giờ }20\text{ phút}=16\text{ giờ }60\text{ phút}=17\text{ giờ}.$$
+Thời gian học của $3$ tiết là:
+$$40\times3=120\ \text{(phút)}$$
+
+Thời gian nghỉ của $2$ lần là:
+$$10\times2=20\ \text{(phút)}$$
+
+Cả buổi học kéo dài:
+$$120+20=140\ \text{(phút)}=2\text{ giờ }20\text{ phút}$$
+
+Buổi học kết thúc lúc:
+$$14\text{ giờ }40\text{ phút}+2\text{ giờ }20\text{ phút}=16\text{ giờ }60\text{ phút}=17\text{ giờ}$$
+
+Vậy buổi học kết thúc lúc $17$ giờ.
+
 **Đáp số.** $17$ giờ.
 :::
 
@@ -184,9 +229,18 @@ $$14\text{ giờ }40\text{ phút}+2\text{ giờ }20\text{ phút}=16\text{ giờ 
 3. Cộng thời gian đi với giờ khởi hành.
 
 ::solution
-a) Ta có $2$ giờ $20$ phút $=\dfrac73$ giờ. Quãng đường là $54\times\dfrac73=126$ (km).
+a) Đổi $2$ giờ $20$ phút ra giờ: $20$ phút $=\dfrac{20}{60}=\dfrac13$ giờ, nên
+$$2\text{ giờ }20\text{ phút}=2\dfrac13\text{ giờ}=\dfrac73\text{ giờ}.$$
 
-b) Xe đến nơi lúc $6$ giờ $45$ phút $+$ $2$ giờ $20$ phút $=8$ giờ $65$ phút $=9$ giờ $5$ phút.
+Quãng đường xe máy đi được là:
+$$54\times\frac73=126\ \text{(km)}$$
+
+Vậy xe máy đi được $126$ km.
+
+b) Xe khởi hành lúc $6$ giờ $45$ phút và đi trong $2$ giờ $20$ phút, nên đến nơi lúc:
+$$6\text{ giờ }45\text{ phút}+2\text{ giờ }20\text{ phút}=8\text{ giờ }65\text{ phút}=9\text{ giờ }5\text{ phút}$$
+
+Vậy xe đến nơi lúc $9$ giờ $5$ phút.
 
 **Đáp số.** a) $126$ km; b) $9$ giờ $5$ phút.
 :::
@@ -202,9 +256,18 @@ b) Xe đến nơi lúc $6$ giờ $45$ phút $+$ $2$ giờ $20$ phút $=8$ giờ 
 2. Tính số học sinh câu lạc bộ Bóng bàn rồi trừ.
 
 ::solution
-Câu lạc bộ Vẽ có $80:100\times35=28$ (bạn). Câu lạc bộ Bóng bàn có $80:100\times15=12$ (bạn). Số bạn nhiều hơn là $28-12=16$ (bạn).
+Số học sinh câu lạc bộ Vẽ là:
+$$80:100\times35=28\ \text{(bạn)}$$
 
-**Kiểm tra.** Cờ vua $20$ bạn; Hát chiếm $100-(25+35+15)=25\ (\%)$ nên có $20$ bạn; $20+28+12+20=80$.
+Số học sinh câu lạc bộ Bóng bàn là:
+$$80:100\times15=12\ \text{(bạn)}$$
+
+Số học sinh câu lạc bộ Vẽ nhiều hơn câu lạc bộ Bóng bàn là:
+$$28-12=16\ \text{(bạn)}$$
+
+Kiểm tra: Cờ vua có $80:100\times25=20$ bạn. Câu lạc bộ Hát chiếm $100-(25+35+15)=25\ (\%)$ nên có $20$ bạn. Tổng số bạn là $20+28+12+20=80$, đúng bằng số học sinh đã cho.
+
+Vậy câu lạc bộ Vẽ có nhiều hơn câu lạc bộ Bóng bàn $16$ bạn.
 
 **Đáp số.** $16$ bạn.
 :::
@@ -220,7 +283,13 @@ Câu lạc bộ Vẽ có $80:100\times35=28$ (bạn). Câu lạc bộ Bóng bàn
 2. Áp dụng công thức.
 
 ::solution
-Chiều cao là $16:2=8$ (m). Diện tích thửa ruộng là $(24+16)\times8:2=160\ (\text{m}^2)$.
+Chiều cao thửa ruộng bằng một nửa đáy bé ($16$ m), nên chiều cao là:
+$$16:2=8\ \text{(m)}$$
+
+Áp dụng công thức diện tích hình thang $S=\dfrac{(a+b)\times h}{2}$ với hai đáy $24$ m, $16$ m và chiều cao $8$ m, diện tích thửa ruộng là:
+$$(24+16)\times8:2=40\times8:2=160\ (\text{m}^2)$$
+
+Vậy diện tích thửa ruộng là $160\ \text{m}^2$.
 
 **Đáp số.** $160\ \text{m}^2$.
 :::
@@ -236,7 +305,18 @@ Chiều cao là $16:2=8$ (m). Diện tích thửa ruộng là $(24+16)\times8:2=
 2. Tính hai tỉ số rồi cộng lại để thử.
 
 ::solution
-Mặt sấp: $36:80=0{,}45=45\%$. Mặt ngửa xuất hiện $80-36=44$ (lần): $44:80=0{,}55=55\%$.
+Tỉ số phần trăm số lần xuất hiện mặt sấp so với tổng số lần tung là:
+$$36:80=0{,}45=45\%$$
+
+Số lần xuất hiện mặt ngửa là:
+$$80-36=44\ \text{(lần)}$$
+
+Tỉ số phần trăm số lần xuất hiện mặt ngửa là:
+$$44:80=0{,}55=55\%$$
+
+Kiểm tra: $45+55=100$.
+
+Vậy mặt sấp xuất hiện $45\%$ số lần tung, mặt ngửa xuất hiện $55\%$ số lần tung.
 
 **Đáp số.** Mặt sấp $45\%$; mặt ngửa $55\%$.
 :::
@@ -253,11 +333,23 @@ Mặt sấp: $36:80=0{,}45=45\%$. Mặt ngửa xuất hiện $80-36=44$ (lần):
 3. Tính $\dfrac25$ của số tiền đó, rồi số tiền còn lại.
 
 ::solution
-a) Tiền lãi là $50:100\times6=3$ (triệu đồng).
+a) Tiền lãi sau một năm là:
+$$50:100\times6=3\ \text{(triệu đồng)}$$
 
-b) Cả gốc lẫn lãi là $50+3=53$ (triệu đồng). Tiền mua xe đạp là $53\times\dfrac25=21{,}2$ (triệu đồng).
+Vậy tiền lãi là $3$ triệu đồng.
 
-c) Số tiền còn lại là $53-21{,}2=31{,}8$ (triệu đồng).
+b) Cả gốc lẫn lãi bác Nam rút ra là:
+$$50+3=53\ \text{(triệu đồng)}$$
+
+Số tiền mua xe đạp bằng $\dfrac25$ số tiền đó, tức là:
+$$53\times\frac25=21{,}2\ \text{(triệu đồng)}$$
+
+Vậy số tiền mua xe đạp là $21{,}2$ triệu đồng.
+
+c) Số tiền còn lại là:
+$$53-21{,}2=31{,}8\ \text{(triệu đồng)}$$
+
+Vậy số tiền còn lại là $31{,}8$ triệu đồng.
 
 **Đáp số.** a) $3$ triệu đồng; b) $21{,}2$ triệu đồng; c) $31{,}8$ triệu đồng.
 :::

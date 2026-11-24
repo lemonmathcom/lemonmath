@@ -524,11 +524,17 @@ c) $-\dfrac7{10}$ and $\dfrac1{1000}$.
 3. Part c): the numbers have different signs, so no common denominator is needed.
 
 ::solution
-a) The common denominator is $40$: $-\dfrac58=\dfrac{-25}{40}$ and $-\dfrac35=\dfrac{-24}{40}$. Since $-25<-24$, we get $-\dfrac58<-\dfrac35$.
+a) Use the common denominator $40$ (since $\text{LCM}(8, 5)=40$):
+$$-\frac58=\frac{-25}{40},\qquad -\frac35=\frac{-24}{40}.$$
+Since $-25<-24$, we get $-\dfrac58<-\dfrac35$.
 
-b) We have $-0.4=-\dfrac25=\dfrac{-14}{35}$ and $-\dfrac37=\dfrac{-15}{35}$. Since $-15<-14$, we get $-\dfrac37<-0.4$.
+b) We have $-0.4=-\dfrac25$. Use the common denominator $35$:
+$$-0.4=-\frac25=\frac{-14}{35},\qquad -\frac37=\frac{-15}{35}.$$
+Since $-15<-14$, we get $-\dfrac37<-0.4$.
 
-c) Since $-\dfrac7{10}<0$ and $0<\dfrac1{1000}$, we get $-\dfrac7{10}<\dfrac1{1000}$.
+c) Since $-\dfrac7{10}<0$ and $0<\dfrac1{1000}$, we get $-\dfrac7{10}<\dfrac1{1000}$ (a negative number is less than a positive number).
+
+So $-\dfrac58<-\dfrac35$; $-\dfrac37<-0.4$; $-\dfrac7{10}<\dfrac1{1000}$.
 
 **Answer.** a) $-\dfrac58<-\dfrac35$. b) $-\dfrac37<-0.4$. c) $-\dfrac7{10}<\dfrac1{1000}$.
 :::
@@ -572,17 +578,21 @@ b) Calculate: $\left|-\dfrac94\right|$; $|0.6|$; $-\left|\dfrac{-3}{-8}\right|$.
 2. Decide the sign of the number inside the absolute value, then remove the bars.
 
 ::solution
+The opposite of a number $a$ is $-a$. The absolute value $|a|$ equals $a$ if $a\ge0$ and equals $-a$ if $a<0$.
+
 a) The opposite of $-\dfrac94$ is $\dfrac94$.
 
-Since $\dfrac{-3}{-8}=\dfrac38$, its opposite is $-\dfrac38$.
+Since $\dfrac{-3}{-8}=\dfrac38$, the opposite of $\dfrac{-3}{-8}$ is $-\dfrac38$.
 
 The opposite of $0.6$ is $-0.6$.
 
-b) Since $-\dfrac94<0$, $\left|-\dfrac94\right|=\dfrac94$.
+b) Since $-\dfrac94<0$, we have $\left|-\dfrac94\right|=-\left(-\dfrac94\right)=\dfrac94$.
 
-Since $0.6>0$, $|0.6|=0.6$.
+Since $0.6>0$, we have $|0.6|=0.6$.
 
-Since $\dfrac{-3}{-8}=\dfrac38>0$, $\left|\dfrac{-3}{-8}\right|=\dfrac38$, so $-\left|\dfrac{-3}{-8}\right|=-\dfrac38$.
+Since $\dfrac{-3}{-8}=\dfrac38>0$, we have $\left|\dfrac{-3}{-8}\right|=\dfrac38$, so $-\left|\dfrac{-3}{-8}\right|=-\dfrac38$.
+
+So the opposites are $\dfrac94$; $-\dfrac38$; $-0.6$ and the values are $\dfrac94$; $0.6$; $-\dfrac38$.
 
 **Answer.** a) $\dfrac94$; $-\dfrac38$; $-0.6$. b) $\dfrac94$; $0.6$; $-\dfrac38$.
 :::

@@ -245,7 +245,15 @@ Hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$ và $\wid
 2. Tìm $\widehat{BOC}$.
 
 ::solution
-Tam giác $OAB$ cân tại $O$ nên $\widehat{OBA}=\widehat{OAB}=40^\circ$. Do đó $\widehat{AOB}=180^\circ-2\cdot40^\circ=100^\circ$. Hai góc $\widehat{AOB}$ và $\widehat{BOC}$ kề bù nên $\widehat{BOC}=80^\circ$.
+Vì $ABCD$ là hình chữ nhật nên hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường, do đó $OA=OB$.
+
+Tam giác $OAB$ có $OA=OB$ nên cân tại $O$. Suy ra $\widehat{OBA}=\widehat{OAB}=40^\circ$.
+
+Trong tam giác $OAB$, tổng ba góc bằng $180^\circ$ nên
+$$\widehat{AOB}=180^\circ-\widehat{OAB}-\widehat{OBA}=180^\circ-2\cdot40^\circ=100^\circ.$$
+
+Vì $A$, $O$, $C$ thẳng hàng nên hai góc $\widehat{AOB}$ và $\widehat{BOC}$ kề bù, do đó
+$$\widehat{BOC}=180^\circ-\widehat{AOB}=180^\circ-100^\circ=80^\circ.$$
 
 Vậy $\widehat{AOB}=100^\circ$ và $\widehat{BOC}=80^\circ$.
 
@@ -299,11 +307,24 @@ Hình bình hành $ABCD$ có hai đường chéo bằng nhau, $AC=BD$. Chứng m
 2. Suy ra $\widehat{ABC}=\widehat{DCB}$ rồi tính.
 
 ::solution
-Xét hai tam giác $ABC$ và $DCB$. Ta có $AB=DC$ (cạnh đối của hình bình hành), $BC$ chung và $AC=DB$ (giả thiết). Do đó $\triangle ABC=\triangle DCB$ (cạnh - cạnh - cạnh), suy ra $\widehat{ABC}=\widehat{DCB}$.
+Ta dùng dấu hiệu nhận biết: hình bình hành có một góc vuông là hình chữ nhật. Vậy ta cần chứng minh $\widehat{ABC}=90^\circ$.
 
-Vì $AB\parallel CD$ nên $\widehat{ABC}+\widehat{DCB}=180^\circ$. Kết hợp với $\widehat{ABC}=\widehat{DCB}$ ta được $\widehat{ABC}=90^\circ$.
+Xét hai tam giác $ABC$ và $DCB$. Ta có:
+
+- $AB=DC$ (hai cạnh đối của hình bình hành $ABCD$);
+- $BC$ là cạnh chung;
+- $AC=DB$ (giả thiết).
+
+Do đó $\triangle ABC=\triangle DCB$ (cạnh - cạnh - cạnh). Suy ra $\widehat{ABC}=\widehat{DCB}$ (hai góc tương ứng).
+
+Vì $ABCD$ là hình bình hành nên $AB\parallel CD$. Hai góc $\widehat{ABC}$ và $\widehat{DCB}$ là hai góc trong cùng phía của $AB\parallel CD$ với cát tuyến $BC$, nên
+$$\widehat{ABC}+\widehat{DCB}=180^\circ.$$
+
+Kết hợp với $\widehat{ABC}=\widehat{DCB}$, ta được $2\widehat{ABC}=180^\circ$, suy ra $\widehat{ABC}=90^\circ$.
 
 Hình bình hành $ABCD$ có một góc vuông nên là hình chữ nhật.
+
+Vậy $ABCD$ là hình chữ nhật.
 
 **Đáp số.** $ABCD$ là hình chữ nhật.
 :::
@@ -355,7 +376,15 @@ Giả sử một màn hình hình chữ nhật rộng $80$ cm và cao $60$ cm. T
 2. Chia cho $2{,}54$.
 
 ::solution
-Đường chéo là $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). Đổi ra inch: $100:2{,}54\approx39{,}4$ (inch).
+Đường chéo của màn hình là cạnh huyền của tam giác vuông có hai cạnh góc vuông là chiều rộng $80$ cm và chiều cao $60$ cm.
+
+Gọi $d$ (cm) là độ dài đường chéo ($d>0$). Theo định lí Pythagore,
+$$d^2=80^2+60^2=6\,400+3\,600=10\,000,$$
+suy ra $d=\sqrt{10\,000}=100$ (cm).
+
+Đổi ra inch, với $1$ inch $=2{,}54$ cm:
+$$100:2{,}54\approx39{,}4\ (\text{inch}),$$
+làm tròn đến một chữ số thập phân.
 
 Vậy đường chéo màn hình dài $100$ cm, khoảng $39{,}4$ inch.
 

@@ -236,7 +236,19 @@ Tìm đỉnh, trục đối xứng và các giao điểm với trục hoành c�
 2. Giải $x^2-6x+5=0$.
 
 ::solution
-$x_I=\dfrac{6}{2}=3$, $y_I=9-18+5=-4$. Phương trình $x^2-6x+5=(x-1)(x-5)=0$ cho $x=1$ hoặc $x=5$.
+Parabol $y=x^2-6x+5$ có $a=1$, $b=-6$, $c=5$.
+
+Hoành độ đỉnh là $x_I=-\dfrac{b}{2a}=-\dfrac{-6}{2\cdot1}=3$. Thay $x=3$ vào hàm số, ta được
+$$y_I=3^2-6\cdot3+5=9-18+5=-4.$$
+
+Suy ra đỉnh là $I(3; -4)$ và trục đối xứng là đường thẳng $x=3$.
+
+Giao điểm với trục hoành: cho $y=0$, ta có phương trình $x^2-6x+5=0$. Phân tích thành nhân tử:
+$$x^2-6x+5=(x-1)(x-5)=0.$$
+
+Suy ra $x=1$ hoặc $x=5$.
+
+Vậy parabol có đỉnh $I(3; -4)$, trục đối xứng $x=3$ và cắt trục hoành tại hai điểm $(1; 0)$, $(5; 0)$.
 
 **Đáp số.** Đỉnh $(3; -4)$; trục $x=3$; giao với trục hoành tại $(1; 0)$ và $(5; 0)$.
 :::
@@ -252,7 +264,14 @@ Tìm giá trị nhỏ nhất của $y=3x^2-12x+7$ và giá trị của $x$ tại
 2. Tính hoành độ đỉnh rồi giá trị tại đó.
 
 ::solution
-$a=3>0$, $x_I=\dfrac{12}{6}=2$ và $y(2)=12-24+7=-5$.
+Hàm số $y=3x^2-12x+7$ có $a=3$, $b=-12$, $c=7$. Vì $a=3>0$ nên parabol có bề lõm hướng lên, do đó hàm số đạt giá trị nhỏ nhất tại đỉnh.
+
+Hoành độ đỉnh là $x_I=-\dfrac{b}{2a}=-\dfrac{-12}{2\cdot3}=2$.
+
+Thay $x=2$ vào hàm số, ta được
+$$y(2)=3\cdot2^2-12\cdot2+7=12-24+7=-5.$$
+
+Vậy giá trị nhỏ nhất của hàm số là $-5$, đạt được tại $x=2$.
 
 **Đáp số.** Giá trị nhỏ nhất là $-5$, tại $x=2$.
 :::
@@ -268,11 +287,18 @@ Lập bảng biến thiên của $y=-x^2+4x$ và cho biết giá trị lớn nh�
 2. Điền bảng: $-\infty$ ở hai đầu, giá trị đỉnh ở giữa.
 
 ::solution
-$a=-1<0$, $x_I=2$, $y_I=-4+8=4$.
+Hàm số $y=-x^2+4x$ có $a=-1$, $b=4$, $c=0$. Vì $a=-1<0$ nên parabol có bề lõm hướng xuống: hàm số đồng biến ở bên trái đỉnh, nghịch biến ở bên phải đỉnh và đạt giá trị lớn nhất tại đỉnh.
+
+Tìm toạ độ đỉnh: $x_I=-\dfrac{b}{2a}=-\dfrac{4}{2\cdot(-1)}=2$ và
+$$y_I=-2^2+4\cdot2=-4+8=4.$$
+
+Vì $a<0$ nên $y\to-\infty$ khi $x\to-\infty$ và khi $x\to+\infty$. Ta có bảng biến thiên:
 
 | $x$ | $-\infty$ | | $2$ | | $+\infty$ |
 |---|---|---|---|---|---|
 | $y$ | $-\infty$ | đồng biến | $4$ | nghịch biến | $-\infty$ |
+
+Vậy hàm số đồng biến trên $(-\infty; 2)$, nghịch biến trên $(2; +\infty)$ và có giá trị lớn nhất là $4$ tại $x=2$.
 
 **Đáp số.** Đồng biến trên $(-\infty; 2)$, nghịch biến trên $(2; +\infty)$; giá trị lớn nhất là $4$ tại $x=2$.
 :::
@@ -288,7 +314,22 @@ Tìm hàm số bậc hai có đồ thị đi qua $A(0; 1)$, $B(1; 0)$ và $C(2; 
 2. Thay $B$, $C$ để được hệ hai phương trình ẩn $a$, $b$.
 
 ::solution
-$A$ cho $c=1$. $B$ cho $a+b+1=0$, $C$ cho $4a+2b+1=3$, tức $2a+b=1$. Trừ vế theo vế: $a=2$, nên $b=-3$. Kiểm tra $C$: $8-6+1=3$.
+Gọi hàm số bậc hai cần tìm là $y=ax^2+bx+c$ với $a\neq0$.
+
+Đồ thị đi qua $A(0; 1)$ nên $a\cdot0^2+b\cdot0+c=1$, suy ra $c=1$.
+
+Đồ thị đi qua $B(1; 0)$ nên $a+b+c=0$. Thay $c=1$, ta được $a+b=-1$.
+
+Đồ thị đi qua $C(2; 3)$ nên $4a+2b+c=3$. Thay $c=1$, ta được $4a+2b=2$, tức là $2a+b=1$.
+
+Ta có hệ phương trình
+$$\begin{cases}a+b=-1\\2a+b=1.\end{cases}$$
+
+Trừ vế theo vế phương trình thứ hai cho phương trình thứ nhất, ta được $a=2$. Thay vào $a+b=-1$, ta được $b=-3$. Giá trị $a=2\neq0$ thoả mãn.
+
+Kiểm tra: $A$: $y(0)=1$; $B$: $y(1)=2-3+1=0$; $C$: $y(2)=8-6+1=3$.
+
+Vậy hàm số cần tìm là $y=2x^2-3x+1$.
 
 **Đáp số.** $y=2x^2-3x+1$.
 :::
@@ -309,13 +350,19 @@ d) Đồ thị cắt trục tung tại $(0; 1)$.
 2. Thay $x=0$ để tìm giao điểm với trục tung.
 
 ::solution
-a) **Đúng.** $a=-2<0$.
+Hàm số $y=-2x^2+4x+1$ có $a=-2$, $b=4$, $c=1$.
 
-b) **Đúng.** $x_I=-\dfrac{4}{2\cdot(-2)}=1$ và $y_I=-2+4+1=3$.
+a) **Đúng.** Vì $a=-2<0$ nên parabol có bề lõm hướng xuống.
 
-c) **Sai.** Vì $a<0$, hàm số **nghịch biến** trên $(1; +\infty)$.
+b) **Đúng.** Hoành độ đỉnh là $x_I=-\dfrac{4}{2\cdot(-2)}=1$, tung độ đỉnh là
+$$y_I=-2\cdot1^2+4\cdot1+1=3.$$
+Vậy đỉnh của parabol là $(1; 3)$.
 
-d) **Đúng.** $x=0$ cho $y=1$.
+c) **Sai.** Vì $a<0$ nên hàm số đồng biến trên $(-\infty; 1)$ và nghịch biến trên $(1; +\infty)$. Chẳng hạn $y(1)=3$ lớn hơn $y(2)=-2\cdot4+8+1=1$, tức là hàm số giảm khi $x$ tăng từ $1$ đến $2$.
+
+d) **Đúng.** Đồ thị cắt trục tung khi $x=0$, khi đó $y=-2\cdot0^2+4\cdot0+1=1$. Giao điểm là $(0; 1)$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -331,7 +378,17 @@ Một quả bóng được đá lên từ mặt đất, độ cao của nó là 
 2. Phân tích $h(t)$ thành nhân tử để giải $h(t)=0$.
 
 ::solution
-$t_I=-\dfrac{10}{2\cdot(-5)}=1$ và $h(1)=-5+10=5$. Phương trình $-5t(t-2)=0$ cho $t=0$ (lúc đá) hoặc $t=2$.
+Độ cao của quả bóng sau $t$ giây ($t\ge0$) là $h(t)=-5t^2+10t$ (mét).
+
+Độ cao lớn nhất: vì $a=-5<0$ nên $h(t)$ đạt giá trị lớn nhất tại đỉnh. Ta có
+$$t_I=-\frac{10}{2\cdot(-5)}=1,\qquad h(1)=-5\cdot1^2+10\cdot1=5.$$
+
+Thời điểm quả bóng trở lại mặt đất: ta giải $h(t)=0$, tức là
+$$-5t^2+10t=-5t(t-2)=0.$$
+
+Suy ra $t=0$ hoặc $t=2$. Giá trị $t=0$ là lúc quả bóng được đá lên nên không phải lúc trở lại mặt đất; do đó $t=2$.
+
+Vậy độ cao lớn nhất của quả bóng là $5$ m, đạt được lúc $t=1$ giây; quả bóng trở lại mặt đất lúc $t=2$ giây.
 
 **Đáp số.** Cao nhất $5$ m (lúc $t=1$ giây); chạm đất lúc $t=2$ giây.
 :::
@@ -347,8 +404,19 @@ Một cửa hàng nhập áo với giá $50$ nghìn đồng một chiếc. Nếu
 2. Tìm hoành độ đỉnh và kiểm tra nó thuộc $[50; 150]$.
 
 ::solution
-$$P(x)=(x-50)(300-2x)=-2x^2+400x-15\,000,\qquad x_I=-\frac{400}{2\cdot(-2)}=100.$$
-Giá trị $100$ thuộc $[50; 150]$. Khi đó cửa hàng bán $100$ chiếc, lãi $50$ nghìn mỗi chiếc, tức $P(100)=5000$ nghìn đồng.
+Gọi $x$ (nghìn đồng) là giá bán một chiếc áo, $50\le x\le150$, và $P(x)$ (nghìn đồng) là lợi nhuận mỗi tháng.
+
+Mỗi chiếc áo lãi $x-50$ nghìn đồng và mỗi tháng bán được $300-2x$ chiếc (với $x\le150$ thì $300-2x\ge0$). Do đó
+$$\begin{aligned}P(x)&=(x-50)(300-2x)\\&=300x-2x^2-15\,000+100x\\&=-2x^2+400x-15\,000.\end{aligned}$$
+
+Đây là hàm số bậc hai có $a=-2<0$ nên $P(x)$ đạt giá trị lớn nhất tại đỉnh, với
+$$x_I=-\frac{400}{2\cdot(-2)}=100.$$
+
+Giá trị $x=100$ thuộc đoạn $[50; 150]$ nên thoả mãn điều kiện.
+
+Kiểm tra: với $x=100$, cửa hàng bán $300-2\cdot100=100$ chiếc, lãi $100-50=50$ nghìn đồng mỗi chiếc, nên $P(100)=100\cdot50=5000$ nghìn đồng.
+
+Vậy cửa hàng nên bán với giá $100$ nghìn đồng một chiếc để lợi nhuận mỗi tháng lớn nhất, khi đó lợi nhuận là $5000$ nghìn đồng.
 
 **Đáp số.** $100$.
 :::
@@ -364,7 +432,22 @@ Giá trị $100$ thuộc $[50; 150]$. Khi đó cửa hàng bán $100$ chiếc, l
 2. Tính $\overrightarrow{IA}\cdot\overrightarrow{IB}$, $IA$ và $IB$.
 
 ::solution
-$I(2; -1)$, $\overrightarrow{IA}=(-1; 1)$, $\overrightarrow{IB}=(1; 1)$. Ta có $\overrightarrow{IA}\cdot\overrightarrow{IB}=-1+1=0$ và $IA=IB=\sqrt2$.
+Parabol $y=x^2-4x+3$ có $a=1$, $b=-4$, $c=3$. Hoành độ đỉnh là $x_I=-\dfrac{-4}{2\cdot1}=2$, tung độ đỉnh là $y_I=2^2-4\cdot2+3=-1$. Suy ra $I(2; -1)$.
+
+Với $A(1; 0)$, $B(3; 0)$, ta có
+$$\overrightarrow{IA}=(1-2; 0-(-1))=(-1; 1),\qquad \overrightarrow{IB}=(3-2; 0-(-1))=(1; 1).$$
+
+Tích vô hướng của hai vectơ là
+$$\overrightarrow{IA}\cdot\overrightarrow{IB}=(-1)\cdot1+1\cdot1=0.$$
+
+Suy ra $\overrightarrow{IA}\perp\overrightarrow{IB}$, tức là tam giác $IAB$ vuông tại $I$.
+
+Độ dài hai cạnh góc vuông là
+$$IA=\sqrt{(-1)^2+1^2}=\sqrt2,\qquad IB=\sqrt{1^2+1^2}=\sqrt2.$$
+
+Do đó $IA=IB$.
+
+Vậy tam giác $IAB$ vuông tại $I$ và có $IA=IB$, nên tam giác $IAB$ vuông cân tại $I$.
 
 **Đáp số.** Tam giác $IAB$ vuông tại $I$ và $IA=IB=\sqrt2$, nên vuông cân tại $I$.
 :::
@@ -380,9 +463,21 @@ Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cổng ca
 2. Xe đi giữa nên hai mép thùng ở $x=\pm1{,}5$; tính $y$ tại đó.
 
 ::solution
-Từ $0=16a+6$ được $a=-\dfrac38$. Tại $x=1{,}5$:
-$$y=-\frac38\cdot2{,}25+6=6-0{,}84375=5{,}15625.$$
-Thùng xe phải thấp hơn độ cao cổng tại hai mép, tức là thấp hơn $5{,}15625$ m. Vì đây là giới hạn trên, ta làm tròn **xuống**: tối đa khoảng $5{,}15$ m.
+Chọn hệ trục toạ độ $Oxy$ với gốc $O$ là trung điểm của đoạn chân cổng trên mặt đất, trục $Ox$ nằm trên mặt đất và trục $Oy$ đi qua đỉnh cổng (đơn vị: mét).
+
+Chân cổng rộng $8$ m nên hai chân cổng có hoành độ $\pm4$; đỉnh cổng cao $6$ m nên đỉnh parabol là $(0; 6)$. Do đó parabol có dạng $y=ax^2+6$ và đi qua điểm $(4; 0)$.
+
+Thay toạ độ $(4; 0)$ vào, ta được $0=16a+6$, suy ra $a=-\dfrac38$. Vậy cổng có phương trình
+$$y=-\frac38x^2+6,\qquad -4\le x\le4.$$
+
+Xe tải rộng $3$ m đi chính giữa cổng nên hai mép của thùng xe có hoành độ $x=\pm1{,}5$. Độ cao của cổng tại hai mép đó là
+$$y(1{,}5)=-\frac38\cdot1{,}5^2+6=-\frac38\cdot2{,}25+6=6-0{,}84375=5{,}15625.$$
+
+Vì parabol có bề lõm hướng xuống nên cổng thấp dần khi ra xa trục $Oy$; do đó trong phạm vi bề rộng của xe, chỗ cổng thấp nhất là hai mép. Thùng xe phải thấp hơn độ cao cổng tại hai mép, tức là thấp hơn $5{,}15625$ m.
+
+Đây là giới hạn trên của chiều cao thùng xe nên ta làm tròn xuống đến $0{,}01$ m, được $5{,}15$ m (nếu làm tròn lên thành $5{,}16$ m thì thùng xe sẽ vượt quá giới hạn).
+
+Vậy thùng xe phải cao thấp hơn $5{,}15625$ m, tức là tối đa khoảng $5{,}15$ m thì xe đi qua được cổng.
 
 **Đáp số.** Thấp hơn $5{,}15625$ m, tức tối đa khoảng $5{,}15$ m.
 :::
@@ -398,9 +493,18 @@ Tìm $a$, $b$ biết parabol $y=ax^2+bx+2$ có đỉnh $I(2; -2)$.
 2. Thay $x=2$, $y=-2$ vào hàm số và giải.
 
 ::solution
-$b=-4a$. Đỉnh thuộc đồ thị: $4a+2b+2=-2$, tức $4a-8a=-4$, nên $a=1$ và $b=-4$.
+Parabol $y=ax^2+bx+2$ với $a\neq0$ có đỉnh $I(2; -2)$.
 
-**Kiểm tra.** $y=x^2-4x+2=(x-2)^2-2$ có đỉnh $(2; -2)$.
+Hoành độ đỉnh bằng $2$ nên $-\dfrac{b}{2a}=2$, suy ra $b=-4a$.
+
+Đỉnh $I(2; -2)$ thuộc đồ thị nên $a\cdot2^2+b\cdot2+2=-2$, tức là $4a+2b=-4$. Thay $b=-4a$, ta được
+$$4a-8a=-4,\ \text{tức là}\ -4a=-4.$$
+
+Suy ra $a=1$ (thoả mãn $a\neq0$) và $b=-4a=-4$.
+
+Kiểm tra: với $a=1$, $b=-4$ thì $y=x^2-4x+2=(x-2)^2-2$ có đỉnh $(2; -2)$.
+
+Vậy $a=1$ và $b=-4$.
 
 **Đáp số.** $a=1$, $b=-4$.
 :::

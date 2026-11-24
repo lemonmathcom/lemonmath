@@ -234,9 +234,15 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=\dfrac{x-1}{x+
 2. Tính $y(0)$ và $y(3)$.
 
 ::solution
-Ta có $y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$ nên hàm số đồng biến trên $[0; 3]$.
+Hàm số $y=\dfrac{x-1}{x+2}$ xác định và liên tục trên đoạn $[0; 3]$ vì $x+2\ge2>0$ với mọi $x\in[0; 3]$.
 
-Vậy giá trị lớn nhất là $y(3)=\dfrac25$, giá trị nhỏ nhất là $y(0)=-\dfrac12$.
+Đạo hàm của hàm số là
+$$y'=\frac{1\cdot(x+2)-(x-1)\cdot1}{(x+2)^2}=\frac{3}{(x+2)^2}>0\quad\text{với mọi}\ x\in[0; 3].$$
+
+Do $y'>0$ nên hàm số đồng biến trên $[0; 3]$. Suy ra giá trị nhỏ nhất đạt tại đầu mút trái $x=0$ và giá trị lớn nhất đạt tại đầu mút phải $x=3$:
+$$y(0)=\frac{0-1}{0+2}=-\frac12,\qquad y(3)=\frac{3-1}{3+2}=\frac25.$$
+
+Vậy giá trị lớn nhất của hàm số trên $[0; 3]$ là $y(3)=\dfrac25$ và giá trị nhỏ nhất là $y(0)=-\dfrac12$.
 
 **Đáp số.** Giá trị lớn nhất $\dfrac25$; giá trị nhỏ nhất $-\dfrac12$.
 :::
@@ -296,15 +302,21 @@ d) Giá trị nhỏ nhất của $f$ trên $[-1; 3]$ bằng $2$.
 2. Tính $f(-1)$, $f(0)$, $f(2)$, $f(3)$.
 
 ::solution
-Ta có $f'(x)=-3x(x-2)=0\iff x=0$ hoặc $x=2$. Ta có $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
+Hàm số $f(x)=-x^3+3x^2+2$ là hàm đa thức nên liên tục trên $[-1; 3]$. Đạo hàm là
+$$f'(x)=-3x^2+6x=-3x(x-2).$$
 
-a) **Đúng**. Hai nghiệm $0$ và $2$ đều thuộc $[-1; 3]$.
+Do đó $f'(x)=0\iff x=0$ hoặc $x=2$; cả hai giá trị đều thuộc $[-1; 3]$. Tính giá trị của $f$ tại các điểm này và tại hai đầu mút:
+$$f(-1)=1+3+2=6,\quad f(0)=2,\quad f(2)=-8+12+2=6,\quad f(3)=-27+27+2=2.$$
 
-b) **Đúng**. Số lớn nhất trong các giá trị trên là $6$.
+a) **Đúng.** Phương trình $f'(x)=0$ có hai nghiệm phân biệt $x=0$ và $x=2$, cả hai đều thuộc đoạn $[-1; 3]$.
 
-c) **Sai**. Vì $f(-1)=6$ nên giá trị lớn nhất đạt tại cả $x=-1$ và $x=2$.
+b) **Đúng.** Số lớn nhất trong các giá trị $6$, $2$, $6$, $2$ là $6$, nên giá trị lớn nhất của $f$ trên $[-1; 3]$ bằng $6$.
 
-d) **Đúng**. Số nhỏ nhất trong các giá trị trên là $2$, đạt tại $x=0$ và $x=3$.
+c) **Sai.** Vì $f(-1)=6=f(2)$ nên giá trị lớn nhất $6$ đạt tại cả $x=-1$ và $x=2$, không chỉ tại $x=2$.
+
+d) **Đúng.** Số nhỏ nhất trong các giá trị trên là $2$, nên giá trị nhỏ nhất của $f$ trên $[-1; 3]$ bằng $2$ (đạt tại $x=0$ và $x=3$).
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -320,9 +332,19 @@ Tìm giá trị lớn nhất của hàm số $y=x\sqrt{9-x^2}$ trên đoạn $[0
 2. Tìm nghiệm trong $(0; 3)$ và so sánh với $y(0)$, $y(3)$.
 
 ::solution
-Trên khoảng $(0; 3)$, ta có $y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, tức là $x=\dfrac{3}{\sqrt2}$. Khi đó $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Mà $y(0)=y(3)=0$.
+Hàm số $y=x\sqrt{9-x^2}$ xác định và liên tục trên $[0; 3]$ vì $9-x^2\ge0$ khi $x\in[0; 3]$.
 
-Vậy giá trị lớn nhất của hàm số là $\dfrac92$.
+Trên khoảng $(0; 3)$, đạo hàm của hàm số là
+$$y'=\sqrt{9-x^2}+x\cdot\frac{-2x}{2\sqrt{9-x^2}}=\sqrt{9-x^2}-\frac{x^2}{\sqrt{9-x^2}}=\frac{9-2x^2}{\sqrt{9-x^2}}.$$
+
+Giải $y'=0\iff9-2x^2=0\iff x^2=\dfrac92$. Vì $x\in(0; 3)$ nên $x=\dfrac{3}{\sqrt2}\approx2{,}12$ (thoả mãn điều kiện).
+
+Tính giá trị của hàm số tại điểm này và tại hai đầu mút:
+$$y\left(\frac{3}{\sqrt2}\right)=\frac{3}{\sqrt2}\cdot\sqrt{9-\frac92}=\frac{3}{\sqrt2}\cdot\frac{3}{\sqrt2}=\frac92,\qquad y(0)=y(3)=0.$$
+
+So sánh các giá trị $\dfrac92$, $0$, $0$, giá trị lớn nhất là $\dfrac92$.
+
+Vậy giá trị lớn nhất của hàm số trên $[0; 3]$ là $\dfrac92=4{,}5$.
 
 **Đáp số.** $4{,}5$.
 :::
@@ -392,9 +414,19 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x+\sqrt2\cos x
 2. Tính $y$ tại nghiệm và tại hai đầu mút, rồi so sánh bằng giá trị gần đúng.
 
 ::solution
-Trên khoảng $\left(0; \dfrac{\pi}{2}\right)$, ta có $y'=0\iff\sin x=\dfrac{1}{\sqrt2}\iff x=\dfrac{\pi}{4}$. Ta có $y(0)=\sqrt2\approx1{,}414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1{,}785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1{,}571$.
+Hàm số $y=x+\sqrt2\cos x$ xác định và liên tục trên $\left[0; \dfrac{\pi}{2}\right]$. Đạo hàm là $y'=1-\sqrt2\sin x$.
 
-Vậy giá trị lớn nhất là $\dfrac{\pi}{4}+1$, giá trị nhỏ nhất là $\sqrt2$.
+Trên khoảng $\left(0; \dfrac{\pi}{2}\right)$, ta có
+$$y'=0\iff\sin x=\frac{1}{\sqrt2}\iff x=\frac{\pi}{4}\quad\left(\text{thuộc khoảng}\ \left(0; \tfrac{\pi}{2}\right)\right).$$
+
+Tính giá trị của hàm số tại điểm này và tại hai đầu mút:
+$$y(0)=0+\sqrt2\cos0=\sqrt2\approx1{,}414,$$
+$$y\left(\frac{\pi}{4}\right)=\frac{\pi}{4}+\sqrt2\cdot\frac{\sqrt2}{2}=\frac{\pi}{4}+1\approx1{,}785,$$
+$$y\left(\frac{\pi}{2}\right)=\frac{\pi}{2}+\sqrt2\cos\frac{\pi}{2}=\frac{\pi}{2}\approx1{,}571.$$
+
+So sánh ba giá trị trên, ta có $1{,}414<1{,}571<1{,}785$.
+
+Vậy giá trị lớn nhất của hàm số trên $\left[0; \dfrac{\pi}{2}\right]$ là $\dfrac{\pi}{4}+1$ (đạt tại $x=\dfrac{\pi}{4}$) và giá trị nhỏ nhất là $\sqrt2$ (đạt tại $x=0$).
 
 **Đáp số.** Giá trị lớn nhất $\dfrac{\pi}{4}+1$ (tại $x=\dfrac{\pi}{4}$); giá trị nhỏ nhất $\sqrt2$ (tại $x=0$).
 :::

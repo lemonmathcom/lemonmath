@@ -160,7 +160,17 @@ Work out $\dfrac{3}{10}+\dfrac{4}{15}$.
 2. Rewrite, then add the numerators.
 
 ::solution
-$$\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{9}{30}+\dfrac{8}{30}=\dfrac{17}{30}.$$
+The fractions have different denominators, so we write them over a common denominator before adding. The common denominator is $30$ because $30\div10=3$ and $30\div15=2$.
+
+We have
+$$\frac{3}{10}=\frac{3\times3}{10\times3}=\frac{9}{30},\qquad \frac{4}{15}=\frac{4\times2}{15\times2}=\frac{8}{30}.$$
+
+Adding fractions with the same denominator:
+$$\frac{3}{10}+\frac{4}{15}=\frac{9}{30}+\frac{8}{30}=\frac{17}{30}.$$
+
+The fraction $\dfrac{17}{30}$ is in simplest form because $17$ and $30$ have no common factor greater than $1$.
+
+So $\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{17}{30}$.
 
 **Answer.** $\dfrac{17}{30}$.
 :::
@@ -176,7 +186,17 @@ Work out $\dfrac{7}{8}-\dfrac{1}{6}$.
 2. Rewrite, then subtract the numerators.
 
 ::solution
-$$\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{21}{24}-\dfrac{4}{24}=\dfrac{17}{24}.$$
+The fractions have different denominators, so we write them over a common denominator before subtracting. The common denominator is $24$ because $24\div8=3$ and $24\div6=4$.
+
+We have
+$$\frac{7}{8}=\frac{7\times3}{8\times3}=\frac{21}{24},\qquad \frac{1}{6}=\frac{1\times4}{6\times4}=\frac{4}{24}.$$
+
+Subtracting fractions with the same denominator:
+$$\frac{7}{8}-\frac{1}{6}=\frac{21}{24}-\frac{4}{24}=\frac{17}{24}.$$
+
+The fraction $\dfrac{17}{24}$ is in simplest form because $17$ and $24$ have no common factor greater than $1$.
+
+So $\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{17}{24}$.
 
 **Answer.** $\dfrac{17}{24}$.
 :::
@@ -192,7 +212,15 @@ Work out $\dfrac{5}{6}\times\dfrac{9}{10}$.
 2. Simplify the answer.
 
 ::solution
-$$\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{45}{60}=\dfrac{3}{4}.$$
+To multiply two fractions, we multiply the numerators together and the denominators together:
+$$\frac{5}{6}\times\frac{9}{10}=\frac{5\times9}{6\times10}=\frac{45}{60}.$$
+
+Both $45$ and $60$ are divisible by $15$, so we simplify:
+$$\frac{45}{60}=\frac{45\div15}{60\div15}=\frac{3}{4}.$$
+
+The fraction $\dfrac{3}{4}$ is in simplest form.
+
+So $\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{3}{4}$.
 
 **Answer.** $\dfrac{3}{4}$.
 :::
@@ -208,7 +236,13 @@ Work out $\dfrac{4}{9}\div\dfrac{2}{3}$.
 2. Multiply, then simplify.
 
 ::solution
-$$\dfrac{4}{9}\div\dfrac{2}{3}=\dfrac{4}{9}\times\dfrac{3}{2}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+To divide one fraction by another, we multiply the first fraction by the reciprocal of the second (swap its numerator and denominator):
+$$\frac{4}{9}\div\frac{2}{3}=\frac{4}{9}\times\frac{3}{2}=\frac{4\times3}{9\times2}=\frac{12}{18}.$$
+
+Both $12$ and $18$ are divisible by $6$, so we simplify:
+$$\frac{12}{18}=\frac{12\div6}{18\div6}=\frac{2}{3}.$$
+
+So $\dfrac{4}{9}\div\dfrac{2}{3}=\dfrac{2}{3}$.
 
 **Answer.** $\dfrac{2}{3}$.
 :::
@@ -224,7 +258,16 @@ Work out the value of the expression $\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3
 2. Then subtract.
 
 ::solution
-$$\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}=\dfrac{7}{12}.$$
+In an expression with multiplication and subtraction, we do the multiplication first:
+$$\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}.$$
+
+Hence
+$$\frac{3}{4}-\frac{1}{2}\times\frac{1}{3}=\frac{3}{4}-\frac{1}{6}.$$
+
+Write the fractions over the common denominator $12$:
+$$\frac{3}{4}-\frac{1}{6}=\frac{9}{12}-\frac{2}{12}=\frac{7}{12}.$$
+
+So the value of the expression is $\dfrac{7}{12}$.
 
 **Answer.** $\dfrac{7}{12}$.
 :::
@@ -240,7 +283,16 @@ Work out the value of the expression $\left(\dfrac{2}{3}+\dfrac{1}{6}\right)\div
 2. Divide the result by $\dfrac{5}{12}$.
 
 ::solution
-$$\left(\dfrac{2}{3}+\dfrac{1}{6}\right)\div\dfrac{5}{12}=\dfrac{5}{6}\div\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2.$$
+In an expression with brackets, we work out the part inside the brackets first. Write the fractions over the common denominator $6$:
+$$\frac{2}{3}+\frac{1}{6}=\frac{4}{6}+\frac{1}{6}=\frac{5}{6}.$$
+
+Hence
+$$\left(\frac{2}{3}+\frac{1}{6}\right)\div\frac{5}{12}=\frac{5}{6}\div\frac{5}{12}.$$
+
+Dividing by a fraction is the same as multiplying by its reciprocal:
+$$\frac{5}{6}\div\frac{5}{12}=\frac{5}{6}\times\frac{12}{5}=\frac{5\times12}{6\times5}=\frac{60}{30}=2.$$
+
+So the value of the expression is $2$.
 
 **Answer.** $2$.
 :::
@@ -256,9 +308,15 @@ A water tank is $\dfrac{3}{5}$ full. $\dfrac{1}{4}$ of a tank of water is used, 
 2. Subtract $\dfrac{1}{4}$, then add $\dfrac{1}{10}$.
 
 ::solution
-After the water is used, the water left is $\dfrac{3}{5}-\dfrac{1}{4}=\dfrac{12}{20}-\dfrac{5}{20}=\dfrac{7}{20}$ (of the tank).
+Solution
 
-After more water is poured in, the water in the tank is $\dfrac{7}{20}+\dfrac{1}{10}=\dfrac{7}{20}+\dfrac{2}{20}=\dfrac{9}{20}$ (of the tank).
+After $\dfrac{1}{4}$ of a tank is used, the water left in the tank is:
+$$\frac{3}{5}-\frac{1}{4}=\frac{12}{20}-\frac{5}{20}=\frac{7}{20}\ \text{(of the tank)}$$
+
+After $\dfrac{1}{10}$ of a tank is poured in, the water in the tank is:
+$$\frac{7}{20}+\frac{1}{10}=\frac{7}{20}+\frac{2}{20}=\frac{9}{20}\ \text{(of the tank)}$$
+
+So the tank is now $\dfrac{9}{20}$ full.
 
 **Answer.** $\dfrac{9}{20}$ of the tank.
 :::
@@ -274,10 +332,14 @@ A length of cloth is $\dfrac{5}{6}$ m long. Each scarf needs $\dfrac{1}{12}$ m o
 2. Work out $\dfrac{5}{6}\div\dfrac{1}{12}$.
 
 ::solution
-The number of scarves that can be made is:
-$$\dfrac{5}{6}\div\dfrac{1}{12}=\dfrac{5}{6}\times12=\dfrac{60}{6}=10\ \text{(scarves)}.$$
+Solution
 
-**Check.** $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$. Correct.
+The number of scarves equals the length of the cloth divided by the length needed for each scarf:
+$$\frac{5}{6}\div\frac{1}{12}=\frac{5}{6}\times12=\frac{60}{6}=10\ \text{(scarves)}$$
+
+Check: $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$ (m), which is exactly the length of the cloth.
+
+So the greatest number of scarves that can be made is $10$.
 
 **Answer.** $10$ scarves.
 :::
@@ -293,11 +355,18 @@ Remember the lesson on finding a fraction of an amount. A class has $32$ student
 2. Subtract the smaller number from the larger.
 
 ::solution
-The number who like swimming is $32\div8\times3=12$ (students).
+Solution
 
-The number who like badminton is $32\div4=8$ (students).
+To find $\dfrac{3}{8}$ of $32$, we divide $32$ by $8$ and then multiply by $3$. The number who like swimming is:
+$$32\div8\times3=12\ \text{(students)}$$
 
-The number who like swimming exceeds the number who like badminton by $12-8=4$ (students).
+The number who like badminton ($\dfrac{1}{4}$ of the students) is:
+$$32\div4=8\ \text{(students)}$$
+
+The number who like swimming exceeds the number who like badminton by:
+$$12-8=4\ \text{(students)}$$
+
+So $4$ more students like swimming than like badminton.
 
 **Answer.** $4$ students.
 :::
@@ -313,11 +382,15 @@ Calculate quickly: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}$.
 2. Add them up; the middle terms will cancel.
 
 ::solution
-We have $\dfrac{1}{2}=1-\dfrac{1}{2}$, $\dfrac{1}{6}=\dfrac{1}{2}-\dfrac{1}{3}$, $\dfrac{1}{12}=\dfrac{1}{3}-\dfrac{1}{4}$, $\dfrac{1}{20}=\dfrac{1}{4}-\dfrac{1}{5}$.
+We notice that the denominators are $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$, and each fraction can be written as a difference of two fractions:
+$$\frac{1}{2}=1-\frac{1}{2},\quad \frac{1}{6}=\frac{1}{2}-\frac{1}{3},\quad \frac{1}{12}=\frac{1}{3}-\frac{1}{4},\quad \frac{1}{20}=\frac{1}{4}-\frac{1}{5}.$$
 
-Adding: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4}+\dfrac{1}{4}-\dfrac{1}{5}=1-\dfrac{1}{5}=\dfrac{4}{5}$.
+Adding the four equalities above, we get
+$$\begin{aligned}\frac{1}{2}+\frac{1}{6}+\frac{1}{12}+\frac{1}{20}&=1-\frac{1}{2}+\frac{1}{2}-\frac{1}{3}+\frac{1}{3}-\frac{1}{4}+\frac{1}{4}-\frac{1}{5}\\&=1-\frac{1}{5}=\frac{4}{5}.\end{aligned}$$
 
-**Check.** $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$. Correct.
+Check: $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$ (correct).
+
+So $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}=\dfrac{4}{5}$.
 
 **Answer.** $\dfrac{4}{5}$.
 :::

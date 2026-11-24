@@ -143,7 +143,14 @@ A cuboid is $11$ cm long, $4$ cm wide and $6$ cm high. Find its lateral area.
 2. Multiply by $6$; use a square unit.
 
 ::solution
-$$(11+4)\times2\times6=180\ \text{cm}^2.$$
+Solution
+
+The lateral area of a cuboid equals the perimeter of the base multiplied by the height.
+
+The base is $11$ cm long and $4$ cm wide; the height is $6$ cm. The lateral area of the cuboid is:
+$$(11+4)\times2\times6=15\times2\times6=180\ \text{cm}^2.$$
+
+So the lateral area of the cuboid is $180\ \text{cm}^2$.
 
 **Answer.** $180\ \text{cm}^2$.
 :::
@@ -159,8 +166,20 @@ A cuboid is $7$ dm long, $5$ dm wide and $3$ dm high. Find its total area.
 2. Add both bases; check all six faces.
 
 ::solution
-The total surface area is
-$$ (7+5)\times2\times3+2\times7\times5=142\ \text{dm}^2.$$
+Solution
+
+The total surface area equals the lateral area plus the area of the two bases.
+
+The lateral area is:
+$$(7+5)\times2\times3=12\times2\times3=72\ \text{dm}^2.$$
+
+The area of one base is $7\times5=35\ \text{dm}^2$, so the area of the two bases is:
+$$2\times35=70\ \text{dm}^2.$$
+
+The total surface area of the cuboid is:
+$$72+70=142\ \text{dm}^2.$$
+
+So the total surface area of the cuboid is $142\ \text{dm}^2$.
 
 **Answer.** $142\ \text{dm}^2$.
 :::
@@ -176,7 +195,19 @@ A cuboid is $8$ cm long and $4$ cm wide. Its lateral area is $216\ \text{cm}^2$.
 2. Divide $216$ by it.
 
 ::solution
-The base perimeter is $(8+4)\times2=24$ cm, so the height is $216\div24=9$ cm.
+Solution
+
+The lateral area equals the base perimeter multiplied by the height, so the height equals the lateral area divided by the base perimeter.
+
+The base perimeter is:
+$$(8+4)\times2=24\ \text{(cm)}.$$
+
+The height of the cuboid is:
+$$216\div24=9\ \text{(cm)}.$$
+
+Check: $24\times9=216$, which matches the problem.
+
+So the height of the cuboid is $9$ cm.
 
 **Answer.** $9$ cm.
 :::
@@ -192,8 +223,18 @@ Box A measures $10$ cm by $6$ cm by $4$ cm; B measures $8$ cm by $7$ cm by $4$ c
 2. Subtract the smaller from the larger.
 
 ::solution
-The two areas are $128\ \text{cm}^2$ and $120\ \text{cm}^2$, because
-$$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
+Solution
+
+The lateral area of box A is:
+$$(10+6)\times2\times4=16\times2\times4=128\ \text{cm}^2.$$
+
+The lateral area of box B is:
+$$(8+7)\times2\times4=15\times2\times4=120\ \text{cm}^2.$$
+
+Since $128>120$, box A has the greater lateral area. The difference is:
+$$128-120=8\ \text{cm}^2.$$
+
+So box A has the greater lateral area, by $8\ \text{cm}^2$.
 
 **Answer.** Box A, by $8\ \text{cm}^2$.
 :::
@@ -211,8 +252,20 @@ Think back: a net has two $9$ cm by $5$ cm faces, two $9$ cm by $3$ cm faces and
 2. Add the three results.
 
 ::solution
-The total surface area is
-$$2\times9\times5+2\times9\times3+2\times5\times3=174\ \text{cm}^2.$$
+Solution
+
+A cuboid has $6$ faces, which form three pairs of equal faces, so the total surface area is the sum of the areas of these three pairs.
+
+The two $9$ cm by $5$ cm faces have area $2\times9\times5=90\ \text{cm}^2$.
+
+The two $9$ cm by $3$ cm faces have area $2\times9\times3=54\ \text{cm}^2$.
+
+The two $5$ cm by $3$ cm faces have area $2\times5\times3=30\ \text{cm}^2$.
+
+The total surface area is:
+$$90+54+30=174\ \text{cm}^2.$$
+
+So the total surface area of the cuboid is $174\ \text{cm}^2$.
 
 **Answer.** $174\ \text{cm}^2$.
 :::
@@ -228,8 +281,14 @@ A tea box is $14$ cm long, $8$ cm wide and $20$ cm high. A label covers its side
 2. Multiply by the height; omit the bases.
 
 ::solution
-The area of the label is
-$$ (14+8)\times2\times20=880\ \text{cm}^2.$$
+Solution
+
+The label covers the four side faces with no overlap, so its area equals the lateral area of the box.
+
+The area of the label is:
+$$(14+8)\times2\times20=22\times2\times20=880\ \text{cm}^2.$$
+
+So the area of the label is $880\ \text{cm}^2$.
 
 **Answer.** $880\ \text{cm}^2$.
 :::
@@ -245,8 +304,19 @@ A box is $50$ cm long, $30$ cm wide and $20$ cm high. Its sides and top are pain
 2. Add $50\times30$ for the top.
 
 ::solution
-The painted area is
-$$ (50+30)\times2\times20+50\times30=4\,700\ \text{cm}^2.$$
+Solution
+
+The painted area consists of the four side faces (the lateral area) and the top face (equal to the area of one base).
+
+The area of the four side faces is:
+$$(50+30)\times2\times20=80\times2\times20=3\,200\ \text{cm}^2.$$
+
+The area of the top face is $50\times30=1\,500\ \text{cm}^2$.
+
+The painted area is:
+$$3\,200+1\,500=4\,700\ \text{cm}^2.$$
+
+So the painted area is $4\,700\ \text{cm}^2$.
 
 **Answer.** $4\,700\ \text{cm}^2$.
 :::
@@ -262,7 +332,25 @@ A cuboid is $10$ cm long and $4$ cm wide. Its total area is $248\ \text{cm}^2$. 
 2. Divide by the base perimeter.
 
 ::solution
-The two bases have area $80\ \text{cm}^2$, so the lateral area is $248-80=168\ \text{cm}^2$. The base perimeter is $28$ cm, giving height $168\div28=6$ cm.
+Solution
+
+The total area equals the lateral area plus the area of the two bases, so the lateral area equals the total area minus the area of the two bases.
+
+The area of the two bases is:
+$$2\times10\times4=80\ \text{cm}^2.$$
+
+The lateral area is:
+$$248-80=168\ \text{cm}^2.$$
+
+The base perimeter is:
+$$(10+4)\times2=28\ \text{(cm)}.$$
+
+The height of the cuboid is:
+$$168\div28=6\ \text{(cm)}.$$
+
+Check: $28\times6+80=168+80=248$, which matches the problem.
+
+So the height of the cuboid is $6$ cm.
 
 **Answer.** $6$ cm.
 :::

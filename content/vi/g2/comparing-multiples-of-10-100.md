@@ -135,7 +135,13 @@ c) $50\;\square\;50$.
 2. So sánh số chục rồi chọn dấu.
 
 ::solution
-a) $2$ chục bé hơn $4$ chục. b) $7$ chục lớn hơn $3$ chục. c) Hai số bằng nhau.
+a) $20$ là $2$ chục, $40$ là $4$ chục. Vì $2<4$ nên $20<40$.
+
+b) $70$ là $7$ chục, $30$ là $3$ chục. Vì $7>3$ nên $70>30$.
+
+c) $50$ và $50$ đều là $5$ chục nên hai số bằng nhau, $50=50$.
+
+Vậy ta điền: $20<40$; $70>30$; $50=50$.
 
 **Đáp số.** a) $<$; b) $>$; c) $=$.
 :::
@@ -157,7 +163,13 @@ c) $400\;\square\;400$.
 2. So sánh số trăm rồi chọn dấu.
 
 ::solution
-a) $3$ trăm bé hơn $8$ trăm. b) $9$ trăm lớn hơn $6$ trăm. c) Hai số bằng nhau.
+a) $300$ là $3$ trăm, $800$ là $8$ trăm. Vì $3<8$ nên $300<800$.
+
+b) $900$ là $9$ trăm, $600$ là $6$ trăm. Vì $9>6$ nên $900>600$.
+
+c) $400$ và $400$ đều là $4$ trăm nên hai số bằng nhau, $400=400$.
+
+Vậy ta điền: $300<800$; $900>600$; $400=400$.
 
 **Đáp số.** a) $<$; b) $>$; c) $=$.
 :::
@@ -173,7 +185,12 @@ Em nhớ lại bài trước. Viết $6$ chục và $4$ trăm thành số, rồi
 2. Nhớ $10$ chục là $1$ trăm, rồi so sánh.
 
 ::solution
-$6$ chục là $60$, $4$ trăm là $400$. $60$ chưa đủ $1$ trăm nên bé hơn $400$.
+Viết thành số:
+$$6\ \text{chục}=60,\qquad 4\ \text{trăm}=400.$$
+
+Số $60$ chưa đủ $1$ trăm, còn $400$ là $4$ trăm, nên $60$ bé hơn $400$.
+
+Vậy $6$ chục $<$ $4$ trăm, tức là $60<400$.
 
 **Đáp số.** $60<400$.
 :::
@@ -193,7 +210,17 @@ b) Từ lớn đến bé: $200, 700, 100, 500$.
 2. Chọn lần lượt từng số.
 
 ::solution
-a) Chục: $6, 1, 9, 3$. Từ bé đến lớn: $1, 3, 6, 9$ chục. b) Trăm: $2, 7, 1, 5$. Từ lớn đến bé: $7, 5, 2, 1$ trăm.
+a) Đổi các số sang chục: $60$ là $6$ chục, $10$ là $1$ chục, $90$ là $9$ chục, $30$ là $3$ chục.
+
+So sánh số chục: $1<3<6<9$.
+
+Vậy sắp xếp từ bé đến lớn là $10, 30, 60, 90$.
+
+b) Đổi các số sang trăm: $200$ là $2$ trăm, $700$ là $7$ trăm, $100$ là $1$ trăm, $500$ là $5$ trăm.
+
+So sánh số trăm: $7>5>2>1$.
+
+Vậy sắp xếp từ lớn đến bé là $700, 500, 200, 100$.
 
 **Đáp số.** a) $10, 30, 60, 90$; b) $700, 500, 200, 100$.
 :::
@@ -209,7 +236,15 @@ a) Chục: $6, 1, 9, 3$. Từ bé đến lớn: $1, 3, 6, 9$ chục. b) Trăm: $
 2. $5$ trăm có bao nhiêu chục?
 
 ::solution
-$500$ là $5$ trăm, tức $50$ chục. $50$ chục lớn hơn $5$ chục.
+Ta đổi hai số về cùng đơn vị là chục.
+
+Số $50$ là $5$ chục.
+
+Số $500$ là $5$ trăm, mà $1$ trăm bằng $10$ chục nên $500$ là $50$ chục.
+
+Vì $5$ chục bé hơn $50$ chục nên $50<500$.
+
+Vậy ta điền dấu $<$: $50<500$. Vì $500$ là $50$ chục còn $50$ chỉ là $5$ chục.
 
 **Đáp số.** $50<500$.
 :::
@@ -225,7 +260,15 @@ Nam nói: "$90>100$ vì $9>1$." Nam sai ở đâu? Sửa lại cho đúng.
 2. So sánh $9$ chục và $10$ chục.
 
 ::solution
-$100$ là $10$ chục, còn $90$ chỉ có $9$ chục. Nam không được so sánh chữ số đầu.
+Số $100$ là $1$ trăm, tức là $10$ chục.
+
+Số $90$ chỉ có $9$ chục.
+
+Vì $9<10$ nên $90<100$.
+
+Nam sai vì chỉ so sánh chữ số đầu tiên ($9$ và $1$) mà không để ý rằng $100$ có ba chữ số, còn $90$ chỉ có hai chữ số. Muốn so sánh, ta phải so sánh theo hàng hoặc đổi về cùng đơn vị.
+
+Vậy Nam nói sai; câu đúng là $90<100$.
 
 **Đáp số.** $90<100$.
 :::
@@ -241,7 +284,15 @@ Siêu thị có $60$ lon sữa và $40$ lon nước ngọt. Loại nào có nhi�
 2. So sánh $60$ và $40$.
 
 ::solution
-$6$ chục lớn hơn $4$ chục, nên $60>40$.
+Bài giải
+
+Siêu thị có $60$ lon sữa, tức là $6$ chục lon.
+
+Siêu thị có $40$ lon nước ngọt, tức là $4$ chục lon.
+
+Vì $6$ chục lớn hơn $4$ chục nên $60>40$.
+
+Vậy lon sữa nhiều hơn lon nước ngọt.
 
 **Đáp số.** Lon sữa nhiều hơn.
 :::
@@ -257,9 +308,17 @@ Tìm tất cả các số tròn chục lớn hơn $30$ và bé hơn $70$.
 2. Dừng trước $70$.
 
 ::solution
-Sau $30$ là $40, 50, 60$, rồi đến $70$ (không được lấy $70$).
+Các số tròn chục liên tiếp là $30, 40, 50, 60, 70, \dots$
 
-**Kiểm tra.** $30<40<50<60<70$. Đúng.
+Số cần tìm lớn hơn $30$ nên bắt đầu từ $40$.
+
+Số cần tìm bé hơn $70$ nên dừng lại trước $70$ (không lấy $70$).
+
+Các số tròn chục thoả mãn là $40$, $50$, $60$.
+
+Kiểm tra: $30<40<50<60<70$. Đúng.
+
+Vậy các số tròn chục lớn hơn $30$ và bé hơn $70$ là $40$, $50$, $60$.
 
 **Đáp số.** $40$, $50$, $60$.
 :::

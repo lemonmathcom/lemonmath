@@ -197,7 +197,12 @@ Solve $\sin x=-\dfrac12$.
 2. Write the two families $x=\alpha+k2\pi$ and $x=\pi-\alpha+k2\pi$.
 
 ::solution
-We have $\sin x=\sin\left(-\dfrac{\pi}{6}\right)$, so $x=-\dfrac{\pi}{6}+k2\pi$ or $x=\pi+\dfrac{\pi}{6}+k2\pi=\dfrac{7\pi}{6}+k2\pi$.
+Using the solution formula: $\sin x=\sin\alpha$ if and only if $x=\alpha+k2\pi$ or $x=\pi-\alpha+k2\pi$ $(k\in\mathbb{Z})$.
+
+We have $-\dfrac12=\sin\left(-\dfrac\pi6\right)$, so the equation becomes $\sin x=\sin\left(-\dfrac\pi6\right)$. Hence
+$$x=-\frac\pi6+k2\pi\quad\text{or}\quad x=\pi-\left(-\frac\pi6\right)+k2\pi=\frac{7\pi}6+k2\pi\quad(k\in\mathbb{Z}).$$
+
+So the solutions are $x=-\dfrac\pi6+k2\pi$ or $x=\dfrac{7\pi}6+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x=-\dfrac{\pi}{6}+k2\pi$ or $x=\dfrac{7\pi}{6}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -213,7 +218,14 @@ Solve $2\cos x+1=0$.
 2. Write $-\dfrac12=\cos\dfrac{2\pi}{3}$.
 
 ::solution
-We have $\cos x=-\dfrac12=\cos\dfrac{2\pi}{3}$, so $x=\pm\dfrac{2\pi}{3}+k2\pi$.
+We rewrite $2\cos x+1=0\iff\cos x=-\dfrac12$.
+
+Since $\cos\dfrac{2\pi}3=-\dfrac12$, the equation becomes $\cos x=\cos\dfrac{2\pi}3$.
+
+Using the solution formula: $\cos x=\cos\alpha$ if and only if $x=\pm\alpha+k2\pi$ $(k\in\mathbb{Z})$. Hence
+$$x=\pm\frac{2\pi}3+k2\pi\quad(k\in\mathbb{Z}).$$
+
+So the solutions are $x=\pm\dfrac{2\pi}3+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x=\pm\dfrac{2\pi}{3}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -229,7 +241,16 @@ Solve $\tan\left(x-\dfrac{\pi}{4}\right)=\sqrt3$.
 2. Solve $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$.
 
 ::solution
-We have $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$, so $x=\dfrac{7\pi}{12}+k\pi$.
+Condition: $x-\dfrac\pi4\ne\dfrac\pi2+k\pi$, that is $x\ne\dfrac{3\pi}4+k\pi$ $(k\in\mathbb{Z})$.
+
+Since $\tan\dfrac\pi3=\sqrt3$, the equation becomes $\tan\left(x-\dfrac\pi4\right)=\tan\dfrac\pi3$.
+
+Using the solution formula: $\tan u=\tan\alpha$ if and only if $u=\alpha+k\pi$ $(k\in\mathbb{Z})$. Hence
+$$x-\frac\pi4=\frac\pi3+k\pi,\ \text{so}\ x=\frac\pi4+\frac\pi3+k\pi=\frac{7\pi}{12}+k\pi\quad(k\in\mathbb{Z}).$$
+
+These solutions satisfy the condition because $\dfrac{7\pi}{12}+k\pi\ne\dfrac{3\pi}4+m\pi$ for all integers $k$, $m$ (their difference is $-\dfrac{\pi}6+(k-m)\pi$, which is not a multiple of $\pi$).
+
+So the solutions are $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -245,7 +266,15 @@ Solve $\cos x=0.25$ with a scientific calculator. Give the solutions in radians,
 2. Write the solutions $x=\pm\alpha+k2\pi$.
 
 ::solution
-The calculator gives $\alpha=\arccos0.25\approx1.3181$. Hence $x\approx\pm1.32+k2\pi$.
+Set the calculator to radian mode and evaluate $\arccos0.25$ to get
+$$\alpha=\arccos0.25\approx1.3181.$$
+Then $\cos x=0.25=\cos\alpha$.
+
+Using the solution formula $\cos x=\cos\alpha\iff x=\pm\alpha+k2\pi$ $(k\in\mathbb{Z})$, we obtain
+$$x\approx\pm1.3181+k2\pi.$$
+Rounding $\alpha$ to 2 decimal places, we have $x\approx\pm1.32+k2\pi$ $(k\in\mathbb{Z})$.
+
+So the solutions are $x\approx1.32+k2\pi$ or $x\approx-1.32+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x\approx1.32+k2\pi$ or $x\approx-1.32+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -261,7 +290,18 @@ Solve $\sin2x=\dfrac{\sqrt3}{2}$ and find the solutions in the interval $[0, \pi
 2. Try values of $k$ to pick the solutions in $[0, \pi]$.
 
 ::solution
-We have $2x=\dfrac{\pi}{3}+k2\pi$ or $2x=\dfrac{2\pi}{3}+k2\pi$, so $x=\dfrac{\pi}{6}+k\pi$ or $x=\dfrac{\pi}{3}+k\pi$. In $[0, \pi]$ only $k=0$ gives solutions ($k=1$ gives $x>\pi$ and $k=-1$ gives $x<0$): $x=\dfrac{\pi}{6}$ and $x=\dfrac{\pi}{3}$.
+Since $\sin\dfrac\pi3=\dfrac{\sqrt3}2$, the equation becomes $\sin2x=\sin\dfrac\pi3$. Hence
+$$2x=\frac\pi3+k2\pi\quad\text{or}\quad2x=\pi-\frac\pi3+k2\pi=\frac{2\pi}3+k2\pi\quad(k\in\mathbb{Z}).$$
+Dividing both sides by $2$, we get
+$$x=\frac\pi6+k\pi\quad\text{or}\quad x=\frac\pi3+k\pi\quad(k\in\mathbb{Z}).$$
+
+Now we find the solutions in the interval $[0, \pi]$.
+
+For the family $x=\dfrac\pi6+k\pi$: $0\le\dfrac\pi6+k\pi\le\pi\iff-\dfrac16\le k\le\dfrac56$. Since $k$ is an integer, $k=0$, which gives $x=\dfrac\pi6$.
+
+For the family $x=\dfrac\pi3+k\pi$: $0\le\dfrac\pi3+k\pi\le\pi\iff-\dfrac13\le k\le\dfrac23$. Since $k$ is an integer, $k=0$, which gives $x=\dfrac\pi3$.
+
+So the solutions are $x=\dfrac\pi6+k\pi$ or $x=\dfrac\pi3+k\pi$ $(k\in\mathbb{Z})$; the solutions in the interval $[0, \pi]$ are $x=\dfrac\pi6$ and $x=\dfrac\pi3$.
 
 **Answer.** $x=\dfrac{\pi}{6}+k\pi$, $x=\dfrac{\pi}{3}+k\pi$; in $[0, \pi]$: $\dfrac{\pi}{6}$ and $\dfrac{\pi}{3}$.
 :::
@@ -277,7 +317,20 @@ Suppose the outdoor temperature (in degrees Celsius) in a city is modelled by $T
 2. Solve the two families and pick $t$ in $[0, 24)$.
 
 ::solution
-We have $28+5\sin\dfrac{\pi(t-9)}{12}=30.5\Leftrightarrow\sin\dfrac{\pi(t-9)}{12}=\dfrac12$. Hence $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{6}+k2\pi$, which gives $t=11+24k$; or $\dfrac{\pi(t-9)}{12}=\dfrac{5\pi}{6}+k2\pi$, which gives $t=19+24k$. For $0\le t<24$ we take $k=0$.
+The temperature is $30.5^\circ$C when $T(t)=30.5$, with $0\le t<24$. We have
+$$28+5\sin\frac{\pi(t-9)}{12}=30.5\iff\sin\frac{\pi(t-9)}{12}=\frac12=\sin\frac\pi6.$$
+
+Hence
+$$\frac{\pi(t-9)}{12}=\frac\pi6+k2\pi\quad\text{or}\quad\frac{\pi(t-9)}{12}=\frac{5\pi}6+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Multiplying both sides by $\dfrac{12}\pi$ and then adding $9$:
+$$t=9+2+24k=11+24k\quad\text{or}\quad t=9+10+24k=19+24k.$$
+
+Checking the condition $0\le t<24$: for $t=11+24k$ we need $-\dfrac{11}{24}\le k<\dfrac{13}{24}$, so $k=0$ and $t=11$; for $t=19+24k$ we need $-\dfrac{19}{24}\le k<\dfrac5{24}$, so $k=0$ and $t=19$.
+
+Check: $T(11)=28+5\sin\dfrac\pi6=30.5$ and $T(19)=28+5\sin\dfrac{5\pi}6=30.5$.
+
+So the temperature is $30.5^\circ$C at $11$ o'clock and $19$ o'clock.
 
 **Answer.** At $11$ o'clock and $19$ o'clock.
 :::
@@ -301,13 +354,17 @@ d) The sum of the solutions in the interval $[0, 2\pi]$ is $\pi$.
 2. c), d) List the solutions in $[0, 2\pi]$.
 
 ::solution
-a) **True**: $\cos\dfrac{\pi}{3}=\dfrac12$.
+Since $\cos\dfrac\pi3=\dfrac12$, the equation $\cos x=\dfrac12$ is equivalent to $\cos x=\cos\dfrac\pi3$, that is $x=\pm\dfrac\pi3+k2\pi$ $(k\in\mathbb{Z})$.
 
-b) **False**: for $k=1$, $x=\dfrac{4\pi}{3}$ has $\cos\dfrac{4\pi}{3}=-\dfrac12\ne\dfrac12$.
+a) **True.** We have $\cos\dfrac\pi3=\dfrac12$, so $x=\dfrac\pi3$ is a solution.
 
-c) **True**: the solutions in $[0, 2\pi]$ are $\dfrac{\pi}{3}$ and $\dfrac{5\pi}{3}$.
+b) **False.** For $k=1$ we have $x=\dfrac\pi3+\pi=\dfrac{4\pi}3$ and $\cos\dfrac{4\pi}3=-\dfrac12\ne\dfrac12$. So not every number $x=\dfrac\pi3+k\pi$ is a solution.
 
-d) **False**: $\dfrac{\pi}{3}+\dfrac{5\pi}{3}=2\pi\ne\pi$.
+c) **True.** For the family $x=\dfrac\pi3+k2\pi$, the condition $0\le x\le2\pi$ gives $k=0$ and $x=\dfrac\pi3$. For the family $x=-\dfrac\pi3+k2\pi$, the condition $0\le x\le2\pi$ gives $k=1$ and $x=\dfrac{5\pi}3$. So in $[0, 2\pi]$ the equation has exactly two solutions, $\dfrac\pi3$ and $\dfrac{5\pi}3$.
+
+d) **False.** The sum of the solutions in $[0, 2\pi]$ is $\dfrac\pi3+\dfrac{5\pi}3=2\pi\ne\pi$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -323,7 +380,21 @@ The height (in m) of a Ferris wheel cabin above the ground after $t$ minutes is 
 2. Choose the smallest positive solution.
 
 ::solution
-We have $\cos\dfrac{\pi t}{4}=\dfrac12$, so $\dfrac{\pi t}{4}=\pm\dfrac{\pi}{3}+k2\pi$, that is $t=\pm\dfrac43+8k$. The smallest positive solution is $t=\dfrac43\approx1.3$.
+Let $t$ (minutes) be the time at which the cabin is $12$ m high, with $t>0$. We have $h(t)=12$, so
+$$22-20\cos\frac{\pi t}4=12\iff\cos\frac{\pi t}4=\frac12=\cos\frac\pi3.$$
+
+Hence
+$$\frac{\pi t}4=\pm\frac\pi3+k2\pi\ \Rightarrow\ t=\pm\frac43+8k\quad(k\in\mathbb{Z}).$$
+
+Checking the condition $t>0$:
+- For $t=\dfrac43+8k$: we need $k\ge0$, and the smallest value is $t=\dfrac43$ (when $k=0$).
+- For $t=-\dfrac43+8k$: we need $k\ge1$, and the smallest value is $t=\dfrac{20}3$ (when $k=1$).
+
+The smallest positive solution is $t=\dfrac43\approx1.3$.
+
+Check: $h\left(\dfrac43\right)=22-20\cos\dfrac\pi3=22-10=12$ (m).
+
+So the first time the cabin is $12$ m high is after about $1.3$ minutes.
 
 **Answer.** $1.3$ minutes.
 :::
@@ -339,7 +410,19 @@ Solve $\sin x+\cos x=1$.
 2. Solve the two families for $x+\dfrac{\pi}{4}$.
 
 ::solution
-We have $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=1$, that is $\sin\left(x+\dfrac{\pi}{4}\right)=\dfrac{\sqrt2}{2}=\sin\dfrac{\pi}{4}$. Hence $x+\dfrac{\pi}{4}=\dfrac{\pi}{4}+k2\pi$, so $x=k2\pi$; or $x+\dfrac{\pi}{4}=\dfrac{3\pi}{4}+k2\pi$, so $x=\dfrac{\pi}{2}+k2\pi$.
+We transform the left-hand side:
+$$\sqrt2\sin\left(x+\frac\pi4\right)=\sqrt2\left(\sin x\cos\frac\pi4+\cos x\sin\frac\pi4\right)=\sqrt2\cdot\frac{\sqrt2}2(\sin x+\cos x)=\sin x+\cos x.$$
+
+Hence the equation $\sin x+\cos x=1$ is equivalent to $\sqrt2\sin\left(x+\dfrac\pi4\right)=1$, that is
+$$\sin\left(x+\frac\pi4\right)=\frac1{\sqrt2}=\frac{\sqrt2}2=\sin\frac\pi4.$$
+
+Using the solution formula for $\sin u=\sin\alpha$, we have
+$$x+\frac\pi4=\frac\pi4+k2\pi\quad\text{or}\quad x+\frac\pi4=\pi-\frac\pi4+k2\pi=\frac{3\pi}4+k2\pi\quad(k\in\mathbb{Z}).$$
+
+It follows that
+$$x=k2\pi\quad\text{or}\quad x=\frac{3\pi}4-\frac\pi4+k2\pi=\frac\pi2+k2\pi\quad(k\in\mathbb{Z}).$$
+
+So the solutions are $x=k2\pi$ or $x=\dfrac\pi2+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x=k2\pi$ or $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -355,7 +438,18 @@ Solve $\sin3x=\cos2x$.
 2. Write the two families and simplify.
 
 ::solution
-We have $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Hence $3x=\dfrac{\pi}{2}-2x+k2\pi$, so $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$; or $3x=\pi-\left(\dfrac{\pi}{2}-2x\right)+k2\pi=\dfrac{\pi}{2}+2x+k2\pi$, so $x=\dfrac{\pi}{2}+k2\pi$.
+We bring the equation to a single function. Since $\cos2x=\sin\left(\dfrac\pi2-2x\right)$, the equation becomes
+$$\sin3x=\sin\left(\frac\pi2-2x\right).$$
+
+Using the solution formula for $\sin u=\sin v$, we have two cases $(k\in\mathbb{Z})$.
+
+Case 1: $3x=\dfrac\pi2-2x+k2\pi$. Then $5x=\dfrac\pi2+k2\pi$, so
+$$x=\frac\pi{10}+\frac{k2\pi}5.$$
+
+Case 2: $3x=\pi-\left(\dfrac\pi2-2x\right)+k2\pi=\dfrac\pi2+2x+k2\pi$. Then
+$$x=\frac\pi2+k2\pi.$$
+
+So the solutions are $x=\dfrac\pi{10}+\dfrac{k2\pi}5$ or $x=\dfrac\pi2+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$ or $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
 :::

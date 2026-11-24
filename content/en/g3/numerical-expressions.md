@@ -133,7 +133,16 @@ Find the value of the expression: $90-25+17$.
 1. Work out $90-25$ first.
 
 ::solution
-$$90-25+17=65+17=82.$$
+The expression $90-25+17$ has only subtraction and addition, so we work from left to right.
+
+We have
+$$\begin{aligned}
+90-25+17&=65+17\\
+&=82.
+\end{aligned}$$
+
+So the value of the expression $90-25+17$ is $82$.
+
 **Answer.** $82$.
 :::
 
@@ -147,7 +156,16 @@ Find the value of the expression: $63\div7\times 4$.
 1. Work out $63\div7$ first.
 
 ::solution
-$$63\div7\times 4=9\times 4=36.$$
+The expression $63\div7\times 4$ has only division and multiplication, so we work from left to right.
+
+We have
+$$\begin{aligned}
+63\div7\times 4&=9\times 4\\
+&=36.
+\end{aligned}$$
+
+So the value of the expression $63\div7\times 4$ is $36$.
+
 **Answer.** $36$.
 :::
 
@@ -161,7 +179,16 @@ Find the value of the expression: $15+4\times 6$.
 1. Which operation comes first?
 
 ::solution
-$$15+4\times 6=15+24=39.$$
+The expression $15+4\times 6$ has both addition and multiplication and no brackets, so we do the multiplication first and then the addition.
+
+We have
+$$\begin{aligned}
+15+4\times 6&=15+24\\
+&=39.
+\end{aligned}$$
+
+So the value of the expression $15+4\times 6$ is $39$.
+
 **Answer.** $39$.
 :::
 
@@ -175,7 +202,16 @@ Find the value of the expression: $56-28\div4$.
 1. Work out $28\div4$ first.
 
 ::solution
-$$56-28\div4=56-7=49.$$
+The expression $56-28\div4$ has both subtraction and division and no brackets, so we do the division first and then the subtraction.
+
+We have
+$$\begin{aligned}
+56-28\div4&=56-7\\
+&=49.
+\end{aligned}$$
+
+So the value of the expression $56-28\div4$ is $49$.
+
 **Answer.** $49$.
 :::
 
@@ -190,9 +226,21 @@ Find the values of the two expressions $(24+36)\div6$ and $24+36\div6$. Are the 
 2. Second expression: do the division first.
 
 ::solution
-$$(24+36)\div6=60\div6=10.$$
-$$24+36\div6=24+6=30.$$
-The two values are $10$ and $30$, so they are not equal.
+For the expression $(24+36)\div6$, we work out the part in brackets first and then divide:
+$$\begin{aligned}
+(24+36)\div6&=60\div6\\
+&=10.
+\end{aligned}$$
+
+For the expression $24+36\div6$, there are no brackets, so we do the division first and then the addition:
+$$\begin{aligned}
+24+36\div6&=24+6\\
+&=30.
+\end{aligned}$$
+
+The two values are $10$ and $30$. Since $10\neq30$, the two values are not equal.
+
+So $(24+36)\div6=10$ and $24+36\div6=30$; the two values are not equal.
 
 **Answer.** $10$ and $30$; not equal.
 :::
@@ -208,8 +256,19 @@ A shop has $5$ crates of water with $12$ bottles in each crate, and $25$ more lo
 2. Add the loose bottles, then subtract the bottles sold.
 
 ::solution
+Solution
+
+The number of bottles in $5$ crates is $5\times12$. The shop also has $25$ loose bottles, so the total number of bottles is $5\times12+25$. The shop has sold $40$ bottles, so the number of bottles left is written as the expression $5\times 12+25-40$.
+
 The number of bottles of water left is:
-$$5\times 12+25-40=60+25-40=85-40=45\ \text{(bottles)}.$$
+$$\begin{aligned}
+5\times 12+25-40&=60+25-40\\
+&=85-40\\
+&=45\ \text{(bottles)}.
+\end{aligned}$$
+
+So the shop has $45$ bottles of water left.
+
 **Answer.** $45$ bottles of water.
 :::
 
@@ -223,8 +282,18 @@ Remember two-step problems. Ha's family keeps $8$ hens, and they keep $3$ times 
 1. Write an expression with the hens added to the ducks.
 
 ::solution
+Solution
+
+Ha's family keeps $8$ hens. The number of ducks is $3$ times the number of hens, so there are $8\times3$ ducks. The number of hens and ducks is $8+8\times3$.
+
 The number of hens and ducks is:
-$$8+8\times 3=8+24=32\ \text{(birds)}.$$
+$$\begin{aligned}
+8+8\times 3&=8+24\\
+&=32\ \text{(birds)}.
+\end{aligned}$$
+
+So Ha's family keeps $32$ birds altogether.
+
 **Answer.** $32$ birds.
 :::
 
@@ -238,10 +307,19 @@ Put one pair of brackets into the expression $30-10+5$ so that its value is $15$
 1. Try putting the brackets around $10+5$.
 
 ::solution
-Without brackets: $30-10+5=20+5=25$.
+Without brackets, we work from left to right:
+$$30-10+5=20+5=25.$$
+This value is $25$, not $15$.
 
-With brackets around $10+5$:
-$$30-(10+5)=30-15=15.$$
+We try putting brackets around $10+5$, so that $10+5$ is worked out first:
+$$\begin{aligned}
+30-(10+5)&=30-15\\
+&=15.
+\end{aligned}$$
+This value is exactly $15$.
+
+So we put brackets around $10+5$ and get $30-(10+5)=15$.
+
 **Answer.** $30-(10+5)=15$.
 :::
 

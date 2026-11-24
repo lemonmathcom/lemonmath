@@ -262,11 +262,15 @@ Classify these triangles by their angles: a) $50^\circ$, $60^\circ$, $70^\circ$;
 2. Decide the kind of triangle.
 
 ::solution
-a) All three angles are less than $90^\circ$: acute triangle.
+We classify a triangle by its largest angle: if all three angles are less than $90^\circ$ it is an acute triangle; if one angle is $90^\circ$ it is a right-angled triangle; if one angle is greater than $90^\circ$ it is an obtuse triangle.
 
-b) There is an angle of $90^\circ$: right-angled triangle.
+a) The angles $50^\circ$, $60^\circ$, $70^\circ$ are all less than $90^\circ$. It is an acute triangle.
 
-c) There is an angle $120^\circ>90^\circ$: obtuse triangle.
+b) There is an angle of $90^\circ$. It is a right-angled triangle.
+
+c) There is an angle $120^\circ>90^\circ$. It is an obtuse triangle.
+
+So the triangle in a) is acute, the triangle in b) is right-angled, and the triangle in c) is obtuse.
 
 **Answer.** a) acute; b) right-angled; c) obtuse.
 :::
@@ -282,11 +286,18 @@ Find the area of the triangle with: a) base $15$ cm and height $8$ cm; b) base $
 2. Multiply, divide by $2$, and write the unit of area.
 
 ::solution
-a) $15\times8\div2=60\ \text{cm}^2$.
+We use the formula for the area of a triangle: $S=\dfrac{a\times h}{2}$, that is, $S=a\times h\div2$ (where $a$ is the base and $h$ is the height to that base).
 
-b) $7\times4\div2=14\ \text{dm}^2$.
+a) The area of the triangle is:
+$$15\times8\div2=120\div2=60\ \text{(cm}^2\text{)}.$$
 
-c) $9\times12\div2=54\ \text{cm}^2$.
+b) The area of the triangle is:
+$$7\times4\div2=28\div2=14\ \text{(dm}^2\text{)}.$$
+
+c) In a right-angled triangle the two shorter sides are perpendicular, so if one is the base then the other is the height. The area of the triangle is:
+$$9\times12\div2=108\div2=54\ \text{(cm}^2\text{)}.$$
+
+So the areas of the triangles are $60\ \text{cm}^2$, $14\ \text{dm}^2$ and $54\ \text{cm}^2$ respectively.
 
 **Answer.** a) $60\ \text{cm}^2$; b) $14\ \text{dm}^2$; c) $54\ \text{cm}^2$.
 :::
@@ -302,9 +313,19 @@ Find: a) the height of a triangle with area $40\ \text{cm}^2$ and base $10$ cm; 
 2. Divide by the base (or the height) that you know.
 
 ::solution
-a) $40\times2=80$ and $80\div10=8$, so the height is $8$ cm.
+From the formula $S=a\times h\div2$ we get $h=S\times2\div a$ and $a=S\times2\div h$.
 
-b) $63\times2=126$ and $126\div9=14$, so the base is $14$ m.
+a) The height of the triangle is:
+$$40\times2\div10=80\div10=8\ \text{(cm)}.$$
+
+Check: $10\times8\div2=40$. Correct.
+
+b) The base of the triangle is:
+$$63\times2\div9=126\div9=14\ \text{(m)}.$$
+
+Check: $14\times9\div2=63$. Correct.
+
+So the height in a) is $8$ cm and the base in b) is $14$ m.
 
 **Answer.** a) $8$ cm; b) $14$ m.
 :::
@@ -320,8 +341,12 @@ Suppose a triangular sail has base $3.2$ m and height $2.5$ m. Find the area of 
 2. Work out $3.2\times2.5$ then divide by $2$. Remember the unit.
 
 ::solution
-The area of the sail is:
+Solution
+
+We use the formula for the area of a triangle $S=a\times h\div2$ with base $a=3.2$ m and height $h=2.5$ m. The area of the sail is:
 $$3.2\times2.5\div2=8\div2=4\ \text{(m}^2\text{)}.$$
+
+So the area of the sail is $4\ \text{m}^2$.
 
 **Answer.** $4\ \text{m}^2$.
 :::
@@ -337,9 +362,15 @@ Find the area of: a) a trapezium with bases $9$ cm and $15$ cm and height $6$ cm
 2. Add the bases, multiply by the height, then divide by $2$.
 
 ::solution
-a) $(9+15)\times6\div2=72\ \text{cm}^2$.
+We use the formula for the area of a trapezium: $S=\dfrac{(a+b)\times h}{2}$, that is, $S=(a+b)\times h\div2$ (where $a$ and $b$ are the lengths of the two bases and $h$ is the height).
 
-b) The height is $AD=7$ cm, so $S=(4+10)\times7\div2=49\ \text{cm}^2$.
+a) The area of the trapezium is:
+$$(9+15)\times6\div2=24\times6\div2=144\div2=72\ \text{(cm}^2\text{)}.$$
+
+b) In the right-angled trapezium $ABCD$ we have $AD\perp AB$, so $AD$ is perpendicular to the base $AB$ and is also the height. The bases are $AB=4$ cm and $CD=10$ cm, and the height is $AD=7$ cm. The area of the trapezium is:
+$$S=(4+10)\times7\div2=14\times7\div2=98\div2=49\ \text{(cm}^2\text{)}.$$
+
+So the area of the trapezium in a) is $72\ \text{cm}^2$ and in b) is $49\ \text{cm}^2$.
 
 **Answer.** a) $72\ \text{cm}^2$; b) $49\ \text{cm}^2$.
 :::
@@ -355,10 +386,14 @@ Suppose a trapezium-shaped field has bases $25$ m and $35$ m and height $20$ m. 
 2. Use the formula for the area of a trapezium. Check: the result lies between the rectangles $25\times20$ and $35\times20$.
 
 ::solution
-The area of the field is:
-$$(25+35)\times20\div2=600\ \text{(m}^2\text{)}.$$
+Solution
 
-**Check.** $25\times20=500$ and $35\times20=700$, and $500<600<700$.
+We use the formula for the area of a trapezium $S=(a+b)\times h\div2$. The area of the field is:
+$$(25+35)\times20\div2=60\times20\div2=1\,200\div2=600\ \text{(m}^2\text{)}.$$
+
+Check: a rectangle with width $20$ m and length $25$ m has area $25\times20=500\ \text{m}^2$; with length $35$ m it has area $35\times20=700\ \text{m}^2$. The area of the trapezium lies between these two values: $500<600<700$. This is reasonable.
+
+So the area of the field is $600\ \text{m}^2$.
 
 **Answer.** $600\ \text{m}^2$.
 :::
@@ -374,9 +409,15 @@ Remember the lesson on hectares. A plot of land is a trapezium with bases $150$ 
 2. Change the result into hectares.
 
 ::solution
-The area of the plot is $(150+250)\times100\div2=20\,000\ \text{m}^2$.
+Solution
 
-Change to hectares: $20\,000\div10\,000=2$ ha.
+Using the formula for the area of a trapezium, the area of the plot is:
+$$(150+250)\times100\div2=400\times100\div2=20\,000\ \text{(m}^2\text{)}.$$
+
+Since $1$ ha $=10\,000\ \text{m}^2$, to change to hectares we divide by $10\,000$:
+$$20\,000\ \text{m}^2=20\,000\div10\,000=2\ \text{(ha)}.$$
+
+So the area of the plot is $2$ ha.
 
 **Answer.** $2$ ha.
 :::
@@ -392,9 +433,15 @@ Suppose a triangular garden has base $18$ m and height $12$ m. $\dfrac{1}{3}$ of
 2. Divide that area by $3$.
 
 ::solution
-The area of the garden is $18\times12\div2=108\ \text{m}^2$.
+Solution
 
-The area for vegetables is $108\div3=36\ \text{m}^2$.
+The area of the triangular garden is:
+$$18\times12\div2=216\div2=108\ \text{(m}^2\text{)}.$$
+
+The area for vegetables is $\dfrac{1}{3}$ of the area of the garden, so it is:
+$$108\div3=36\ \text{(m}^2\text{)}.$$
+
+So $36\ \text{m}^2$ are used for vegetables.
 
 **Answer.** $36\ \text{m}^2$.
 :::
@@ -410,7 +457,20 @@ A trapezium has area $120\ \text{cm}^2$ and its bases are $14$ cm and $16$ cm lo
 2. Divide to find the height.
 
 ::solution
-$S\times2=120\times2=240$ and the sum of the bases is $14+16=30$ cm, so the height is $240\div30=8$ cm.
+From the formula $S=(a+b)\times h\div2$ we get $h=S\times2\div(a+b)$.
+
+Twice the area of the trapezium is:
+$$120\times2=240\ \text{(cm}^2\text{)}.$$
+
+The sum of the lengths of the two bases is:
+$$14+16=30\ \text{(cm)}.$$
+
+The height of the trapezium is:
+$$240\div30=8\ \text{(cm)}.$$
+
+Check: $(14+16)\times8\div2=120$. Correct.
+
+So the height of the trapezium is $8$ cm.
 
 **Answer.** $8$ cm.
 :::
@@ -426,9 +486,20 @@ A trapezium has its longer base twice its shorter base, height $6$ cm and area $
 2. Share that sum into $3$ equal parts to find the shorter base.
 
 ::solution
-The sum of the bases is $54\times2\div6=18$ cm. Take the shorter base as $1$ part, so the longer base is $2$ parts and the sum is $3$ parts. The shorter base is $18\div3=6$ cm and the longer base is $6\times2=12$ cm.
+From the formula $S=(a+b)\times h\div2$, the sum of the lengths of the two bases is $(a+b)=S\times2\div h$:
+$$54\times2\div6=108\div6=18\ \text{(cm)}.$$
 
-**Check.** $(6+12)\times6\div2=54$. Correct.
+The longer base is twice the shorter base. Take the shorter base as $1$ part, so the longer base is $2$ parts and the sum of the bases is $1+2=3$ (parts).
+
+The length of the shorter base is:
+$$18\div3=6\ \text{(cm)}.$$
+
+The length of the longer base is:
+$$6\times2=12\ \text{(cm)}.$$
+
+Check: $(6+12)\times6\div2=54$. Correct.
+
+So the shorter base is $6$ cm long and the longer base is $12$ cm long.
 
 **Answer.** Shorter base $6$ cm; longer base $12$ cm.
 :::

@@ -138,13 +138,23 @@ Fill in the blanks: a cube has $\ldots$ faces, $\ldots$ vertices and $\ldots$ ed
 2. Fill in the numbers in the order faces, vertices, edges.
 
 ::solution
-A cube has $6$ faces, $8$ vertices and $12$ edges.
+Solution
+
+Look at a cube (like a dice): it has $6$ faces that are equal squares, $8$ vertices and $12$ edges.
+
+So a cube has $6$ faces, $8$ vertices and $12$ edges.
 
 **Answer.** $6$; $8$; $12$.
 :::
 
 :::exercise
-What solid is each object: a) a dice; b) a box of chalk; c) a Rubik's cube?
+What solid is each object:
+
+a) a dice;
+
+b) a box of chalk;
+
+c) a Rubik's cube?
 
 ::hint
 **What you need:** equal square faces make a cube; rectangular faces make a cuboid.
@@ -154,7 +164,15 @@ What solid is each object: a) a dice; b) a box of chalk; c) a Rubik's cube?
 2. Are they equal squares?
 
 ::solution
-a) A cube. b) A cuboid. c) A cube.
+Solution
+
+a) A dice has $6$ faces that are all equal squares, so it is a cube.
+
+b) A box of chalk has faces that are rectangles, so it is a cuboid.
+
+c) A Rubik's cube has faces that are all equal squares, so it is a cube.
+
+So the dice and the Rubik's cube are cubes; the box of chalk is a cuboid.
 
 **Answer.** a) Cube; b) Cuboid; c) Cube.
 :::
@@ -170,7 +188,13 @@ A cube has an edge of $7$ cm. How long is the side of each square face, in centi
 2. Write the answer with its unit.
 
 ::solution
-The side of a face is also an edge of the cube, so it is $7$ cm long.
+Solution
+
+Each face of a cube is a square, and a side of that square is also an edge of the cube. All the edges of a cube are equal, and this cube has an edge of $7$ cm.
+
+Hence each side of a square face is $7$ cm long.
+
+So each face is a square with a side of $7$ cm.
 
 **Answer.** $7$ cm.
 :::
@@ -186,7 +210,13 @@ A cuboid has a base that is a rectangle $8$ cm long and $5$ cm wide. How long an
 2. If two faces are equal, what about their sizes?
 
 ::solution
-The top is equal to the base, so it is $8$ cm long and $5$ cm wide.
+Solution
+
+In a cuboid, two opposite faces are equal rectangles. The top is opposite the base, so the top is equal to the base.
+
+The base is a rectangle $8$ cm long and $5$ cm wide, so the top is also $8$ cm long and $5$ cm wide.
+
+So the opposite face is $8$ cm long and $5$ cm wide.
 
 **Answer.** $8$ cm long, $5$ cm wide.
 :::
@@ -204,8 +234,12 @@ An stacks small cubes in $4$ layers, with $6$ cubes in each layer. How many cube
 2. Work out $6\times4$ and write the unit.
 
 ::solution
-The number of cubes An uses is:
-$$6\times4=24\ \text{(cubes)}.$$
+Solution
+
+An stacks $4$ layers with $6$ cubes in each layer. The number of cubes An uses is:
+$$6\times4=24\ \text{(cubes)}$$
+
+So An uses $24$ small cubes altogether.
 
 **Answer.** $24$ cubes.
 :::
@@ -221,10 +255,14 @@ Binh has $20$ small cubes and stacks them equally in $4$ layers. How many cubes 
 2. Work out $20\div4$.
 
 ::solution
-The number of cubes in each layer is:
-$$20\div4=5\ \text{(cubes)}.$$
+Solution
 
-**Check.** $5\times4=20$. Correct.
+Binh has $20$ cubes stacked equally in $4$ layers, so the number of cubes in each layer is:
+$$20\div4=5\ \text{(cubes)}$$
+
+Check: $5\times4=20$. Correct.
+
+So each layer has $5$ cubes.
 
 **Answer.** $5$ cubes.
 :::
@@ -240,7 +278,12 @@ Remember the last lesson: each face of a cube is a square with a side of $3$ cm.
 2. Work out $3\times4$.
 
 ::solution
-$3\times4=12$ (cm).
+Solution
+
+A face of a cube is a square. A square has $4$ equal sides, each $3$ cm long. The total length of the four sides of one face is:
+$$3\times4=12\ \text{(cm)}$$
+
+So the total length of the four sides of one face is $12$ cm.
 
 **Answer.** $12$ cm.
 :::
@@ -256,9 +299,16 @@ A dice has $6$ faces, and the dots on two opposite faces always add up to $7$. H
 2. Each pair has $7$ dots.
 
 ::solution
-The $6$ faces split into $3$ pairs of opposite faces. Each pair has $7$ dots, so the total is $7\times3=21$.
+Solution
 
-**Check.** $1+2+3+4+5+6=21$. Correct.
+The dice has $6$ faces. Two opposite faces form a pair, so the $6$ faces split into $3$ pairs of opposite faces.
+
+Each pair of opposite faces has $7$ dots in total. The total number of dots on all $6$ faces is:
+$$7\times3=21\ \text{(dots)}$$
+
+Check: the faces have $1$, $2$, $3$, $4$, $5$, $6$ dots, and $1+2+3+4+5+6=21$. This matches the result above.
+
+So there are $21$ dots on all $6$ faces together.
 
 **Answer.** $21$ dots.
 :::

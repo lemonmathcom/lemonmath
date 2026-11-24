@@ -135,7 +135,14 @@ Write the number made of $5$ million, $3$ hundred thousand and $8$ tens.
 2. Add them.
 
 ::solution
-$5\,000\,000+300\,000+80=5\,300\,080$.
+Solution
+
+We have $5$ million $=5\,000\,000$; $3$ hundred thousand $=300\,000$; $8$ tens $=80$.
+
+The number is:
+$$5\,000\,000+300\,000+80=5\,300\,080.$$
+
+So the number is $5\,300\,080$.
 
 **Answer.** $5\,300\,080$.
 :::
@@ -170,12 +177,20 @@ Work out the value of $3\times(45-27)+56\div8$.
 3. Add the two results.
 
 ::solution
-$$3\times(45-27)+56\div8=3\times18+7=54+7=61.$$
+The expression has brackets, multiplication and division. We work out the brackets first, then multiplication and division, and finally the addition.
+
+We have
+$$\begin{aligned}3\times(45-27)+56\div8&=3\times18+7\\&=54+7\\&=61.\end{aligned}$$
+
+So the value of the expression is $61$.
+
 **Answer.** $61$.
 :::
 
 :::exercise
-a) Simplify $\dfrac{42}{56}$. b) Compare $\dfrac7{12}$ and $\dfrac58$.
+a) Simplify $\dfrac{42}{56}$.
+
+b) Compare $\dfrac7{12}$ and $\dfrac58$.
 
 ::hint
 **What you need:** simplify by dividing by the same number; compare by writing over a common denominator.
@@ -185,15 +200,27 @@ a) Simplify $\dfrac{42}{56}$. b) Compare $\dfrac7{12}$ and $\dfrac58$.
 2. Part b: the lowest common denominator of $12$ and $8$ is $24$.
 
 ::solution
-a) $\dfrac{42}{56}=\dfrac34$.
+a) Both the numerator and the denominator are divisible by $14$. Dividing both by $14$, we get
+$$\frac{42}{56}=\frac{42\div14}{56\div14}=\frac34.$$
 
-b) $\dfrac7{12}=\dfrac{14}{24}$ and $\dfrac58=\dfrac{15}{24}$. Since $14<15$, $\dfrac7{12}<\dfrac58$.
+So $\dfrac{42}{56}=\dfrac34$.
+
+b) Write the two fractions with a common denominator. A common denominator is $24$ (since $24$ is divisible by both $12$ and $8$):
+$$\frac7{12}=\frac{7\times2}{12\times2}=\frac{14}{24},\qquad\frac58=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+Since $14<15$, we have $\dfrac{14}{24}<\dfrac{15}{24}$.
+
+So $\dfrac7{12}<\dfrac58$.
 
 **Answer.** a) $\dfrac34$; b) $\dfrac7{12}<\dfrac58$.
 :::
 
 :::exercise
-Work out a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
+Work out:
+
+a) $\dfrac23+\dfrac5{12}$;
+
+b) $\dfrac9{10}-\dfrac34$.
 
 ::hint
 **What you need:** write over a common denominator, then add (subtract) the numerators.
@@ -203,15 +230,25 @@ Work out a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
 2. Part b: the common denominator is $20$.
 
 ::solution
-a) $\dfrac23+\dfrac5{12}=\dfrac8{12}+\dfrac5{12}=\dfrac{13}{12}$.
+a) Write the fractions with a common denominator of $12$, then add the numerators:
+$$\frac23+\frac5{12}=\frac8{12}+\frac5{12}=\frac{13}{12}.$$
 
-b) $\dfrac9{10}-\dfrac34=\dfrac{18}{20}-\dfrac{15}{20}=\dfrac3{20}$.
+So $\dfrac23+\dfrac5{12}=\dfrac{13}{12}$.
+
+b) Write the fractions with a common denominator of $20$, then subtract the numerators:
+$$\frac9{10}-\frac34=\frac{18}{20}-\frac{15}{20}=\frac3{20}.$$
+
+So $\dfrac9{10}-\dfrac34=\dfrac3{20}$.
 
 **Answer.** a) $\dfrac{13}{12}$; b) $\dfrac3{20}$.
 :::
 
 :::exercise
-Work out a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79\div\dfrac{14}3$.
+Work out:
+
+a) $\dfrac45\times\dfrac{15}8$;
+
+b) $\dfrac79\div\dfrac{14}3$.
 
 ::hint
 **What you need:** multiply numerators and denominators; to divide, multiply by the reciprocal.
@@ -221,9 +258,15 @@ Work out a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79\div\dfrac{14}3$.
 2. Part b: turn $\dfrac{14}3$ upside down to get $\dfrac3{14}$.
 
 ::solution
-a) $\dfrac45\times\dfrac{15}8=\dfrac{60}{40}=\dfrac32$.
+a) Multiply the numerators and multiply the denominators, then simplify by dividing both numerator and denominator by $20$:
+$$\frac45\times\frac{15}8=\frac{4\times15}{5\times8}=\frac{60}{40}=\frac32.$$
 
-b) $\dfrac79\div\dfrac{14}3=\dfrac79\times\dfrac3{14}=\dfrac{21}{126}=\dfrac16$.
+So $\dfrac45\times\dfrac{15}8=\dfrac32$.
+
+b) To divide by a fraction, we multiply by its reciprocal, then simplify by dividing both numerator and denominator by $21$:
+$$\frac79\div\frac{14}3=\frac79\times\frac3{14}=\frac{21}{126}=\frac16.$$
+
+So $\dfrac79\div\dfrac{14}3=\dfrac16$.
 
 **Answer.** a) $\dfrac32$; b) $\dfrac16$.
 :::
@@ -240,9 +283,22 @@ A tank holds $600$ litres of water. In the morning $\dfrac25$ of the water is us
 3. Check by working out the amount used.
 
 ::solution
-The fraction used is $\dfrac25+\dfrac14=\dfrac{13}{20}$. The fraction left is $1-\dfrac{13}{20}=\dfrac7{20}$. The number of litres left is $600\times\dfrac7{20}=210$ (litres).
+Solution
 
-**Check.** The amount used is $600\times\dfrac{13}{20}=390$ litres, and $390+210=600$.
+Take the water in the tank at the start as $1$ (the whole amount).
+
+The fraction of water used is:
+$$\frac25+\frac14=\frac8{20}+\frac5{20}=\frac{13}{20}\ \text{(of the water)}$$
+
+The fraction of water left is:
+$$1-\frac{13}{20}=\frac7{20}\ \text{(of the water)}$$
+
+The number of litres left in the tank is:
+$$600\times\frac7{20}=210\ \text{(litres)}$$
+
+Check: the amount used is $600\times\dfrac{13}{20}=390$ litres, and $390+210=600$ (litres), which is the original amount.
+
+So $210$ litres of water are left in the tank.
 
 **Answer.** $210$ litres.
 :::
@@ -258,7 +314,20 @@ Mum receives $6\,000\,000$ dong. She spends $\dfrac12$ of it on school fees, $\d
 2. Multiply by $6\,000\,000$, then change it to a percentage.
 
 ::solution
-The money spent is $\dfrac12+\dfrac15=\dfrac7{10}$ of the total. The savings are $1-\dfrac7{10}=\dfrac3{10}$, which is $30\%$. The amount saved is $6\,000\,000\times\dfrac3{10}=1\,800\,000$ (dong).
+Solution
+
+The fraction of the money spent is:
+$$\frac12+\frac15=\frac5{10}+\frac2{10}=\frac7{10}\ \text{(of the total)}$$
+
+The fraction saved is:
+$$1-\frac7{10}=\frac3{10}\ \text{(of the total)}$$
+
+We have $\dfrac3{10}=\dfrac{30}{100}=30\%$.
+
+The amount saved is:
+$$6\,000\,000\times\frac3{10}=1\,800\,000\ \text{(dong)}$$
+
+So she saves $1\,800\,000$ dong, which is $30\%$ of the money she receives.
 
 **Answer.** $1\,800\,000$ dong; $30\%$.
 :::
@@ -274,7 +343,15 @@ Remember the lesson on decimals. Write $\dfrac38$ as a decimal and as a percenta
 2. Change the result to a percentage.
 
 ::solution
-$3\div8=0.375=37.5\%$.
+Solution
+
+To write a fraction as a decimal, we divide the numerator by the denominator:
+$$3\div8=0.375.$$
+
+To write a decimal as a percentage, we multiply by $100$ and write the symbol $\%$:
+$$0.375=0.375\times100\%=37.5\%.$$
+
+So $\dfrac38=0.375=37.5\%$.
 
 **Answer.** $0.375$; $37.5\%$.
 :::
@@ -290,9 +367,21 @@ The difference between the denominator and the numerator of a fraction is $20$, 
 2. Find $k$, then the fraction, and check.
 
 ::solution
-The fraction has the form $\dfrac{3\times k}{8\times k}$, so the difference of the denominator and the numerator is $8\times k-3\times k=5\times k$. Since $5\times k=20$, $k=4$ and the fraction is $\dfrac{12}{32}$.
+Solution
 
-**Check.** $32-12=20$ and $\dfrac{12}{32}=\dfrac38$. Correct.
+Since the fraction equals $\dfrac38$, it has the form $\dfrac{3\times k}{8\times k}$ (where $k$ is a non-zero whole number).
+
+The difference of the denominator and the numerator is:
+$$8\times k-3\times k=5\times k.$$
+
+By the problem, this difference is $20$, so $5\times k=20$, which gives
+$$k=20\div5=4.$$
+
+Hence the fraction is $\dfrac{3\times4}{8\times4}=\dfrac{12}{32}$.
+
+Check: $32-12=20$ and $\dfrac{12}{32}=\dfrac38$. Correct.
+
+So the fraction is $\dfrac{12}{32}$.
 
 **Answer.** $\dfrac{12}{32}$.
 :::

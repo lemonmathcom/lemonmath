@@ -169,9 +169,20 @@ Biểu đồ hình quạt tròn cho biết cách đến trường của $200$ h�
 2. Nhân với tỉ số phần trăm từng nhóm.
 
 ::solution
-Số học sinh đi xe đạp: $200:100\times40=80$ (bạn). Số học sinh đi bộ: $200:100\times35=70$ (bạn). Số học sinh đi xe máy: $200:100\times25=50$ (bạn).
+Khối $5$ có $200$ học sinh. Để tìm số bạn ứng với mỗi cách đến trường, ta lấy $200$ chia $100$ rồi nhân với số phần trăm tương ứng.
 
-**Kiểm tra.** $80+70+50=200$.
+Số học sinh đi xe đạp là:
+$$200:100\times40=80\ \text{(bạn)}$$
+
+Số học sinh đi bộ là:
+$$200:100\times35=70\ \text{(bạn)}$$
+
+Số học sinh được đưa đón bằng xe máy là:
+$$200:100\times25=50\ \text{(bạn)}$$
+
+Kiểm tra: $80+70+50=200$ (bạn), đúng bằng tổng số học sinh.
+
+Vậy có $80$ bạn đi xe đạp, $70$ bạn đi bộ và $50$ bạn được đưa đón bằng xe máy.
 
 **Đáp số.** $80$ bạn; $70$ bạn; $50$ bạn.
 :::
@@ -187,7 +198,13 @@ Trong biểu đồ về loại sách ưa thích: truyện tranh $45\%$, sách v�
 2. Lấy $100\%$ trừ đi tổng.
 
 ::solution
-Ba loại đã biết chiếm $45+30+15=90\ (\%)$. Các loại khác chiếm $100-90=10\ (\%)$.
+Cả hình quạt tròn biểu diễn $100\%$ số học sinh được hỏi. Tổng phần trăm của ba loại sách đã biết là:
+$$45+30+15=90\ (\%)$$
+
+Phần trăm của các loại sách khác là:
+$$100-90=10\ (\%)$$
+
+Vậy các loại sách khác chiếm $10\%$.
 
 **Đáp số.** $10\%$.
 :::
@@ -203,7 +220,12 @@ Trong $25$ bạn, có $7$ bạn thích vẽ. Tìm tỉ số phần trăm số b�
 2. Đổi sang phần trăm.
 
 ::solution
-$7:25=0{,}28=28\%$.
+Để tìm tỉ số phần trăm của số bạn thích vẽ so với cả nhóm, ta chia số bạn thích vẽ cho số bạn của cả nhóm rồi nhân với $100$.
+
+Ta có
+$$7:25=0{,}28=28\%.$$
+
+Vậy số bạn thích vẽ chiếm $28\%$ cả nhóm.
 
 **Đáp số.** $28\%$.
 :::
@@ -220,9 +242,20 @@ Một trường thu gom $50$ kg rác tái chế gồm $30$ kg giấy, $15$ kg nh
 3. Thử lại: tổng ba tỉ số có bằng $100\%$ không?
 
 ::solution
-Giấy: $30:50=0{,}6=60\%$. Nhựa: $15:50=0{,}3=30\%$. Kim loại: $5:50=0{,}1=10\%$.
+Tổng khối lượng rác tái chế là $50$ kg. Tỉ số phần trăm của mỗi loại so với tổng khối lượng là khối lượng loại đó chia cho $50$.
 
-**Kiểm tra.** $60+30+10=100$.
+Tỉ số phần trăm của giấy là:
+$$30:50=0{,}6=60\%$$
+
+Tỉ số phần trăm của nhựa là:
+$$15:50=0{,}3=30\%$$
+
+Tỉ số phần trăm của kim loại là:
+$$5:50=0{,}1=10\%$$
+
+Kiểm tra: $60+30+10=100$, đúng bằng $100\%$.
+
+Vậy giấy chiếm $60\%$, nhựa chiếm $30\%$, kim loại chiếm $10\%$ tổng khối lượng rác.
 
 **Đáp số.** Giấy $60\%$; nhựa $30\%$; kim loại $10\%$.
 :::
@@ -238,8 +271,16 @@ Gia đình An chi tiêu $10$ triệu đồng mỗi tháng. Biểu đồ cho bi�
 2. Tính số tiền từng khoản.
 
 ::solution
-Tiết kiệm chiếm $100-(40+20+10)=30\ (\%)$. Số tiền từng khoản (triệu đồng):
+Cả biểu đồ là $100\%$ số tiền chi tiêu. Phần trăm của khoản tiết kiệm là:
+$$100-(40+20+10)=30\ (\%)$$
+
+Mỗi tháng gia đình An chi tiêu $10$ triệu đồng. Số tiền của từng khoản (đơn vị: triệu đồng) là:
 $$\begin{aligned} \text{Ăn uống: }&10:100\times40=4,\\ \text{Học tập: }&10:100\times20=2,\\ \text{Điện nước: }&10:100\times10=1,\\ \text{Tiết kiệm: }&10:100\times30=3. \end{aligned}$$
+
+Kiểm tra: $4+2+1+3=10$ (triệu đồng), đúng bằng số tiền chi tiêu mỗi tháng.
+
+Vậy ăn uống hết $4$ triệu đồng, học tập hết $2$ triệu đồng, điện nước hết $1$ triệu đồng và tiết kiệm được $3$ triệu đồng.
+
 **Đáp số.** Ăn uống $4$ triệu đồng; học tập $2$ triệu đồng; điện nước $1$ triệu đồng; tiết kiệm $3$ triệu đồng.
 :::
 
@@ -254,7 +295,18 @@ Hà tung một đồng xu $40$ lần, được $18$ lần mặt sấp. Tính t�
 2. Tính hai tỉ số rồi cộng lại để thử.
 
 ::solution
-Mặt sấp: $18:40=0{,}45=45\%$. Mặt ngửa xuất hiện $40-18=22$ (lần): $22:40=0{,}55=55\%$.
+Tỉ số phần trăm số lần xuất hiện mặt sấp so với tổng số lần tung là:
+$$18:40=0{,}45=45\%$$
+
+Số lần xuất hiện mặt ngửa là:
+$$40-18=22\ \text{(lần)}$$
+
+Tỉ số phần trăm số lần xuất hiện mặt ngửa là:
+$$22:40=0{,}55=55\%$$
+
+Kiểm tra: $45+55=100$.
+
+Vậy mặt sấp xuất hiện $45\%$ số lần tung, mặt ngửa xuất hiện $55\%$ số lần tung.
 
 **Đáp số.** Mặt sấp $45\%$; mặt ngửa $55\%$.
 :::
@@ -270,9 +322,20 @@ Em hãy nhớ lại bài tỉ số phần trăm. a) Tìm $35\%$ của $240$. b) 
 2. Câu b: tìm $1\%$ rồi nhân với $100$.
 
 ::solution
-a) $240:100\times35=84$.
+a) Để tìm $35\%$ của $240$, ta lấy $240$ chia $100$ rồi nhân với $35$:
+$$240:100\times35=84$$
 
-b) $1\%$ của số đó là $36:15=2{,}4$. Số đó là $2{,}4\times100=240$.
+Vậy $35\%$ của $240$ là $84$.
+
+b) Biết $15\%$ của số cần tìm là $36$. Ta tìm $1\%$ của số đó:
+$$36:15=2{,}4$$
+
+Số cần tìm ứng với $100\%$ nên là:
+$$2{,}4\times100=240$$
+
+Kiểm tra: $240:100\times15=36$, đúng với đề bài.
+
+Vậy số cần tìm là $240$.
 
 **Đáp số.** a) $84$; b) $240$.
 :::
@@ -288,7 +351,13 @@ Trong một thùng có bi đỏ và bi xanh. Hùng lấy ngẫu nhiên một vi�
 2. Đổi sang phần trăm.
 
 ::solution
-$12:30=\dfrac{12}{30}=\dfrac25=0{,}4=40\%$.
+Hùng lấy bi $30$ lần, trong đó có $12$ lần lấy được bi đỏ. Tỉ số của số lần lấy được bi đỏ so với tổng số lần lấy là:
+$$\frac{12}{30}=\frac{12:6}{30:6}=\frac25$$
+
+Viết dưới dạng phần trăm:
+$$\frac25=2:5=0{,}4=40\%$$
+
+Vậy tỉ số của số lần lấy được bi đỏ so với tổng số lần lấy là $\dfrac25$, tức là $40\%$.
 
 **Đáp số.** $\dfrac25$; $40\%$.
 :::
@@ -304,9 +373,20 @@ Khảo sát $80$ học sinh về môn học yêu thích: toán $35\%$, tiếng V
 2. Tính số bạn từng môn rồi so sánh.
 
 ::solution
-Tiếng Anh chiếm $100-(35+25+20)=20\ (\%)$. Số bạn: toán $80:100\times35=28$; tiếng Việt $80:100\times25=20$; mĩ thuật $80:100\times20=16$; tiếng Anh $80:100\times20=16$.
+Phần trăm số bạn chọn tiếng Anh là:
+$$100-(35+25+20)=20\ (\%)$$
 
-Toán được chọn nhiều nhất. Môn ít nhất có $16$ bạn, và $28-16=12$.
+Số bạn chọn mỗi môn là:
+$$\begin{aligned} \text{Toán: }&80:100\times35=28,\\ \text{Tiếng Việt: }&80:100\times25=20,\\ \text{Mĩ thuật: }&80:100\times20=16,\\ \text{Tiếng Anh: }&80:100\times20=16. \end{aligned}$$
+
+Kiểm tra: $28+20+16+16=80$ (bạn).
+
+So sánh các số $28$, $20$, $16$, $16$, ta thấy toán được chọn nhiều nhất, còn mĩ thuật và tiếng Anh được chọn ít nhất, mỗi môn có $16$ bạn.
+
+Số bạn chọn toán nhiều hơn số bạn chọn môn ít nhất là:
+$$28-16=12\ \text{(bạn)}$$
+
+Vậy toán được chọn nhiều nhất và nhiều hơn môn được chọn ít nhất $12$ bạn.
 
 **Đáp số.** Toán; nhiều hơn $12$ bạn.
 :::
@@ -322,9 +402,15 @@ Một thùng chứa bi đỏ và bi xanh. Hùng lấy ngẫu nhiên một viên,
 2. Lấy tỉ số đó của $200$.
 
 ::solution
-Tỉ số lần lấy được bi đỏ là $10:40=0{,}25=25\%$. Ta ước lượng số bi đỏ là $200:100\times25=50$ (viên).
+Trong $40$ lần lấy có $10$ lần lấy được bi đỏ. Tỉ số của số lần lấy được bi đỏ so với tổng số lần lấy là:
+$$10:40=0{,}25=25\%$$
 
-Đây chỉ là ước lượng, số bi đỏ thật có thể hơi khác.
+Ta ước lượng rằng bi đỏ chiếm $25\%$ số bi trong thùng. Với thùng có $200$ viên bi, số bi đỏ ước lượng là:
+$$200:100\times25=50\ \text{(viên)}$$
+
+Đây chỉ là ước lượng dựa trên $40$ lần lấy, nên số bi đỏ thật có thể hơi khác.
+
+Vậy trong thùng có khoảng $50$ viên bi đỏ.
 
 **Đáp số.** Khoảng $50$ viên bi đỏ.
 :::

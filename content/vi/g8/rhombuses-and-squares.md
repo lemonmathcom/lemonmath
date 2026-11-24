@@ -274,7 +274,16 @@ Hình thoi $ABCD$ có cạnh $13$ cm và đường chéo $BD=10$ cm. Tính đư�
 2. Tính $OA$ bằng định lí Pythagore rồi $AC=2OA$.
 
 ::solution
-Ta có $OB=5$ cm. Trong tam giác vuông $OAB$: $OA^2=AB^2-OB^2=169-25=144$, nên $OA=12$ cm. Do đó $AC=2\cdot12=24$ cm.
+Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$ của hình thoi $ABCD$. Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường. Do đó tam giác $OAB$ vuông tại $O$ và $OB=\dfrac{BD}{2}$.
+
+Ta có $OB=\dfrac{10}{2}=5$ cm.
+
+Áp dụng định lí Pythagore vào tam giác vuông $OAB$, ta có
+$$OA^2=AB^2-OB^2=13^2-5^2=169-25=144.$$
+
+Suy ra $OA=12$ cm (vì $OA>0$).
+
+Vì $O$ là trung điểm của $AC$ nên $AC=2\cdot OA=2\cdot12=24$ cm.
 
 Vậy $AC=24$ cm.
 
@@ -310,9 +319,17 @@ Hình bình hành $ABCD$ có đường chéo $AC$ là phân giác của góc $\w
 2. Suy ra $BA=BC$.
 
 ::solution
-Vì $AC$ là phân giác của $\widehat{A}$ nên $\widehat{BAC}=\widehat{CAD}$. Vì $AD\parallel BC$ nên $\widehat{CAD}=\widehat{ACB}$ (so le trong). Do đó $\widehat{BAC}=\widehat{ACB}$, nên tam giác $ABC$ cân tại $B$, tức là $BA=BC$.
+Vì $AC$ là tia phân giác của góc $\widehat{A}$ nên
+$$\widehat{BAC}=\widehat{CAD}.$$
 
-Hình bình hành $ABCD$ có hai cạnh kề $BA$ và $BC$ bằng nhau nên là hình thoi.
+Vì $ABCD$ là hình bình hành nên $AD\parallel BC$. Hai góc $\widehat{CAD}$ và $\widehat{ACB}$ ở vị trí so le trong của hai đường thẳng song song $AD$, $BC$ với cát tuyến $AC$, nên
+$$\widehat{CAD}=\widehat{ACB}.$$
+
+Từ hai đẳng thức trên suy ra $\widehat{BAC}=\widehat{ACB}$. Tam giác $ABC$ có hai góc $\widehat{BAC}$ và $\widehat{ACB}$ bằng nhau nên cân tại $B$, tức là $BA=BC$.
+
+Hình bình hành $ABCD$ có hai cạnh kề $BA$ và $BC$ bằng nhau, nên theo dấu hiệu nhận biết, $ABCD$ là hình thoi.
+
+Vậy hình bình hành $ABCD$ có đường chéo $AC$ là phân giác của góc $\widehat{A}$ là hình thoi.
 
 **Đáp số.** $ABCD$ là hình thoi.
 :::
@@ -328,7 +345,12 @@ Hình vuông $ABCD$ có cạnh $8$ cm. Tính độ dài đường chéo $AC$ (l�
 2. Lấy căn bậc hai rồi làm tròn.
 
 ::solution
-Ta có $AC^2=8^2+8^2=128$, nên $AC=\sqrt{128}=8\sqrt2\approx11{,}31$ (cm).
+Hình vuông $ABCD$ có $\widehat{B}=90^\circ$ và $AB=BC=8$ cm. Xét tam giác $ABC$ vuông tại $B$, đường chéo $AC$ là cạnh huyền.
+
+Áp dụng định lí Pythagore, ta có
+$$AC^2=AB^2+BC^2=8^2+8^2=128.$$
+
+Suy ra $AC=\sqrt{128}=8\sqrt2\approx11{,}31$ (cm), làm tròn đến hai chữ số thập phân.
 
 Vậy $AC\approx11{,}31$ cm.
 

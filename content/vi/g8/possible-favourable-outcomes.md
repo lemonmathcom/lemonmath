@@ -214,13 +214,15 @@ c) là số nguyên tố.
 2. Tính $\dfrac{k}{12}$ và rút gọn.
 
 ::solution
-Có $n=12$ kết quả có thể.
+Rút ngẫu nhiên một thẻ từ $12$ thẻ nên có $n=12$ kết quả có thể, đồng khả năng. Nếu có $k$ kết quả thuận lợi cho một biến cố thì xác suất của biến cố đó là $\dfrac kn$.
 
-a) Các số chia hết cho $4$ là $4$, $8$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
+a) Các số trên thẻ chia hết cho $4$ là $4$, $8$, $12$. Có $k=3$ kết quả thuận lợi, nên xác suất là $\dfrac3{12}=\dfrac14$.
 
-b) Các số có hai chữ số là $10$, $11$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
+b) Các số trên thẻ có hai chữ số là $10$, $11$, $12$. Có $k=3$ kết quả thuận lợi, nên xác suất là $\dfrac3{12}=\dfrac14$.
 
-c) Các số nguyên tố là $2$, $3$, $5$, $7$, $11$: $k=5$, xác suất $\dfrac{5}{12}$.
+c) Các số nguyên tố trong các số từ $1$ đến $12$ là $2$, $3$, $5$, $7$, $11$ (số $1$ không phải số nguyên tố). Có $k=5$ kết quả thuận lợi, nên xác suất là $\dfrac5{12}$.
+
+Vậy xác suất để số trên thẻ chia hết cho $4$ là $\dfrac14$, có hai chữ số là $\dfrac14$, là số nguyên tố là $\dfrac5{12}$.
 
 **Đáp số.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
 :::
@@ -236,7 +238,17 @@ Một hộp có $4$ bi trắng và $6$ bi đen, cùng kích thước. Lấy ng�
 2. Tính hai xác suất và cộng lại.
 
 ::solution
-Có $n=10$ kết quả có thể. Xác suất lấy bi trắng là $\dfrac{4}{10}=\dfrac25$; xác suất lấy bi đen là $\dfrac{6}{10}=\dfrac35$. Tổng hai xác suất là $\dfrac25+\dfrac35=1$, vì hai biến cố là đối nhau.
+Hộp có $4+6=10$ bi, các bi cùng kích thước nên có $n=10$ kết quả có thể, đồng khả năng.
+
+Gọi $T$ là biến cố "lấy được bi trắng" và $D$ là biến cố "lấy được bi đen". Có $4$ kết quả thuận lợi cho $T$ và $6$ kết quả thuận lợi cho $D$. Do đó
+$$P(T)=\frac{4}{10}=\frac25,\qquad P(D)=\frac{6}{10}=\frac35.$$
+
+Tổng hai xác suất là
+$$P(T)+P(D)=\frac25+\frac35=1.$$
+
+Kết quả này bằng $1$ vì $T$ và $D$ là hai biến cố đối nhau: mỗi lần lấy chắc chắn được một bi trắng hoặc một bi đen, không thể được cả hai.
+
+Vậy xác suất lấy được bi trắng là $\dfrac25$, bi đen là $\dfrac35$ và tổng hai xác suất bằng $1$.
 
 **Đáp số.** $\dfrac25$; $\dfrac35$; tổng bằng $1$.
 :::
@@ -258,13 +270,15 @@ c) $C$: "số $10$".
 2. Chú ý các trường hợp đặc biệt.
 
 ::solution
-Có $n=8$ kết quả có thể.
+Vòng quay chia thành $8$ phần bằng nhau, đánh số từ $1$ đến $8$, nên có $n=8$ kết quả có thể, đồng khả năng.
 
-a) Các số chẵn lớn hơn $4$ là $6$ và $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
+a) Các số chẵn lớn hơn $4$ là $6$ và $8$. Có $k=2$ kết quả thuận lợi, nên $P(A)=\dfrac28=\dfrac14$.
 
-b) Mọi số từ $1$ đến $8$ đều nhỏ hơn $9$: $k=8$, $P(B)=1$.
+b) Mọi số từ $1$ đến $8$ đều nhỏ hơn $9$. Có $k=8$ kết quả thuận lợi, nên $P(B)=\dfrac88=1$. Đây là biến cố chắc chắn.
 
-c) Không có số $10$ trên vòng quay: $k=0$, $P(C)=0$.
+c) Trên vòng quay không có số $10$. Có $k=0$ kết quả thuận lợi, nên $P(C)=\dfrac08=0$. Đây là biến cố không thể.
+
+Vậy $P(A)=\dfrac14$, $P(B)=1$, $P(C)=0$.
 
 **Đáp số.** a) $\dfrac14$. b) $1$. c) $0$.
 :::
@@ -280,7 +294,13 @@ Tung một đồng xu cân đối hai lần. Tính xác suất của biến cố
 2. Tính tỉ số với $n=4$.
 
 ::solution
-Hai mặt khác nhau: $SN$ và $NS$, nên xác suất là $\dfrac24=\dfrac12$. Cả hai mặt ngửa: $NN$, nên xác suất là $\dfrac14$.
+Kí hiệu $S$ là mặt sấp và $N$ là mặt ngửa. Tung đồng xu cân đối hai lần, các kết quả có thể là $SS$, $SN$, $NS$, $NN$. Có $n=4$ kết quả có thể, đồng khả năng.
+
+Biến cố "hai mặt khác nhau" có các kết quả thuận lợi là $SN$ và $NS$, tức là $k=2$. Xác suất là $\dfrac24=\dfrac12$.
+
+Biến cố "cả hai mặt đều ngửa" có một kết quả thuận lợi là $NN$, tức là $k=1$. Xác suất là $\dfrac14$.
+
+Vậy xác suất của biến cố "hai mặt khác nhau" là $\dfrac12$ và của biến cố "cả hai mặt đều ngửa" là $\dfrac14$.
 
 **Đáp số.** $\dfrac12$; $\dfrac14$.
 :::
@@ -296,9 +316,17 @@ Lớp 8A có $40$ học sinh, trong đó $18$ bạn nam. Chọn ngẫu nhiên m�
 2. Tính hai xác suất.
 
 ::solution
-Số bạn nữ là $40-18=22$. Có $n=40$ kết quả có thể. Xác suất chọn nam là $\dfrac{18}{40}=\dfrac{9}{20}$; xác suất chọn nữ là $\dfrac{22}{40}=\dfrac{11}{20}$.
+Số bạn nữ là $40-18=22$ (bạn).
 
-Kiểm tra: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
+Chọn ngẫu nhiên một bạn trong $40$ bạn nên có $n=40$ kết quả có thể, đồng khả năng.
+
+Có $18$ kết quả thuận lợi cho biến cố "bạn được chọn là nam", nên xác suất là $\dfrac{18}{40}=\dfrac{9}{20}$.
+
+Có $22$ kết quả thuận lợi cho biến cố "bạn được chọn là nữ", nên xác suất là $\dfrac{22}{40}=\dfrac{11}{20}$.
+
+Kiểm tra: $\dfrac{9}{20}+\dfrac{11}{20}=1$, đúng vì hai biến cố đối nhau.
+
+Vậy xác suất bạn được chọn là nam là $\dfrac9{20}$ và là nữ là $\dfrac{11}{20}$.
 
 **Đáp số.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
 :::
@@ -314,7 +342,17 @@ Một hộp có $50$ phiếu bốc thăm giống hệt nhau, trong đó có $2$ 
 2. Dùng biến cố đối cho "không trúng".
 
 ::solution
-Số phiếu trúng là $2+5+8=15$ và $n=50$. Xác suất trúng giải là $\dfrac{15}{50}=\dfrac{3}{10}$. Xác suất không trúng là $1-\dfrac{3}{10}=\dfrac{7}{10}$ (có $35$ phiếu không trúng, $\dfrac{35}{50}=\dfrac7{10}$).
+Hộp có $50$ phiếu giống hệt nhau nên có $n=50$ kết quả có thể, đồng khả năng.
+
+Số phiếu trúng giải là $2+5+8=15$ (phiếu). Do đó xác suất trúng giải bất kì là
+$$\frac{15}{50}=\frac{3}{10}.$$
+
+Biến cố "không trúng" là biến cố đối của biến cố "trúng giải bất kì", nên xác suất là
+$$1-\frac{3}{10}=\frac{7}{10}.$$
+
+Kiểm tra: số phiếu không trúng là $50-15=35$ (phiếu), và $\dfrac{35}{50}=\dfrac{7}{10}$ (khớp).
+
+Vậy xác suất trúng giải bất kì là $\dfrac3{10}$ và xác suất không trúng là $\dfrac7{10}$.
 
 **Đáp số.** $\dfrac3{10}$; $\dfrac7{10}$.
 :::
@@ -330,7 +368,14 @@ Gieo cùng lúc hai con xúc xắc cân đối. Có bao nhiêu kết quả có t
 2. Liệt kê các cặp có tổng $7$.
 
 ::solution
-Mỗi con có $6$ khả năng nên có $6\cdot6=36$ kết quả có thể, đồng khả năng. Các cặp có tổng bằng $7$ là $(1;6)$, $(2;5)$, $(3;4)$, $(4;3)$, $(5;2)$, $(6;1)$: $k=6$. Xác suất là $\dfrac{6}{36}=\dfrac16$.
+Mỗi con xúc xắc có $6$ khả năng xuất hiện. Theo quy tắc nhân, số kết quả có thể khi gieo hai con xúc xắc là $6\cdot6=36$. Các kết quả này đồng khả năng vì hai con xúc xắc cân đối.
+
+Gọi $A$ là biến cố "tổng số chấm bằng $7$". Các cặp (số chấm con thứ nhất; số chấm con thứ hai) có tổng bằng $7$ là
+$$(1; 6),\ (2; 5),\ (3; 4),\ (4; 3),\ (5; 2),\ (6; 1).$$
+Có $k=6$ kết quả thuận lợi. Do đó
+$$P(A)=\frac{6}{36}=\frac16.$$
+
+Vậy có $36$ kết quả có thể và xác suất để tổng số chấm bằng $7$ là $\dfrac16$.
 
 **Đáp số.** $36$ kết quả; $\dfrac16$.
 :::
@@ -346,7 +391,14 @@ Lập các số có hai chữ số khác nhau từ các chữ số $1$, $2$, $3$
 2. Đếm các số chẵn.
 
 ::solution
-Các số lập được là $12$, $13$, $21$, $23$, $31$, $32$, nên $n=6$. Các số chẵn là $12$ và $32$: $k=2$. Xác suất là $\dfrac26=\dfrac13$.
+Các số có hai chữ số khác nhau lập từ các chữ số $1$, $2$, $3$ là $12$, $13$, $21$, $23$, $31$, $32$. Có $n=6$ kết quả có thể, đồng khả năng.
+
+Gọi $A$ là biến cố "số được chọn là số chẵn". Số chẵn là số có chữ số tận cùng chẵn, nên các số chẵn trong các số trên là $12$ và $32$. Có $k=2$ kết quả thuận lợi.
+
+Xác suất của biến cố $A$ là $\dfrac26$. Chia cả tử và mẫu cho ước chung lớn nhất là $2$, ta được phân số tối giản
+$$P(A)=\frac26=\frac13.$$
+
+Vậy xác suất để số được chọn là số chẵn bằng $\dfrac13$.
 
 **Đáp số.** $\dfrac13$.
 :::
@@ -366,11 +418,17 @@ b) có tổng các chữ số bằng $9$.
 2. b) Liệt kê các số có tổng chữ số bằng $9$.
 
 ::solution
-Có $n=90$ kết quả có thể.
+Các số tự nhiên có hai chữ số từ $10$ đến $99$ có $99-10+1=90$ số. Do đó có $n=90$ kết quả có thể, đồng khả năng.
 
-a) Các bội của $7$ có hai chữ số là $14$, $21$, $28$, $\dots$, $98$, tức $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: có $13$ số. Xác suất là $\dfrac{13}{90}$.
+a) Bội của $7$ có hai chữ số có dạng $7m$ với $10\le7m\le99$, tức $2\le m\le14$ (vì $7\cdot1=7<10$ và $7\cdot14=98\le99$, còn $7\cdot15=105>99$). Các số đó là $14$, $21$, $28$, $\dots$, $98$, tức $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$. Số các số là $14-2+1=13$, nên $k=13$.
 
-b) Các số có tổng chữ số bằng $9$ là $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: có $9$ số. Xác suất là $\dfrac{9}{90}=\dfrac1{10}$.
+Xác suất là $\dfrac{13}{90}$.
+
+b) Các số có hai chữ số và tổng các chữ số bằng $9$ là $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$. Có $k=9$ kết quả thuận lợi.
+
+Xác suất là $\dfrac{9}{90}=\dfrac1{10}$.
+
+Vậy xác suất để số được chọn chia hết cho $7$ là $\dfrac{13}{90}$ và để có tổng các chữ số bằng $9$ là $\dfrac1{10}$.
 
 **Đáp số.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
 :::

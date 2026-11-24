@@ -186,7 +186,15 @@ Prove that the sequence $(u_n)$ with $u_n=5\cdot(-2)^n$ is a geometric progressi
 2. Find $u_1$.
 
 ::solution
-We have $\dfrac{u_{n+1}}{u_n}=\dfrac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2$, which is constant, so $(u_n)$ is a geometric progression with common ratio $q=-2$ and $u_1=5\cdot(-2)=-10$.
+To prove that $(u_n)$ is a geometric progression, we show that the ratio $\dfrac{u_{n+1}}{u_n}$ is a constant for every $n\in\mathbb{N}^*$ (all terms are nonzero because $5\cdot(-2)^n\ne0$).
+
+We have
+$$\frac{u_{n+1}}{u_n}=\frac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2,$$
+which does not depend on $n$. Hence $(u_n)$ is a geometric progression with common ratio $q=-2$.
+
+The first term is $u_1=5\cdot(-2)^1=-10$.
+
+So $(u_n)$ is a geometric progression with $u_1=-10$ and common ratio $q=-2$.
 
 **Answer.** A geometric progression with $u_1=-10$, $q=-2$.
 :::
@@ -202,7 +210,15 @@ A geometric progression has $u_1=2$ and $q=3$. Find $u_6$. Which term is $1458$?
 2. Solve $2\cdot3^{n-1}=1458$.
 
 ::solution
-We have $u_6=2\cdot3^5=486$. Solving $2\cdot3^{n-1}=1458$ gives $3^{n-1}=729=3^6$, so $n-1=6$ and $n=7$.
+Using the general term $u_n=u_1q^{n-1}$ with $u_1=2$, $q=3$, we have
+$$u_6=2\cdot3^{6-1}=2\cdot3^5=2\cdot243=486.$$
+
+Suppose $1458$ is the $n$th term, that is $u_n=1458$. Then
+$$2\cdot3^{n-1}=1458\iff3^{n-1}=729=3^6.$$
+
+Hence $n-1=6$, that is $n=7$ (which satisfies $n\in\mathbb{N}^*$).
+
+So $u_6=486$ and $1458$ is the $7$th term.
 
 **Answer.** $u_6=486$; $1458$ is the $7$th term.
 :::
@@ -218,7 +234,19 @@ A geometric progression has $u_2=-6$ and $u_5=48$. Find $u_1$, the common ratio 
 2. Find $u_1=\dfrac{u_2}{q}$, then $u_8$.
 
 ::solution
-We have $q^3=\dfrac{48}{-6}=-8$, so $q=-2$. Then $u_1=\dfrac{-6}{-2}=3$ and $u_8=3\cdot(-2)^7=-384$.
+Let $q$ be the common ratio. By the formula $u_n=u_1q^{n-1}$ we have $u_2=u_1q$ and $u_5=u_1q^4$.
+
+Dividing the two equalities (since $u_2=-6\ne0$, we have $u_1\ne0$ and $q\ne0$):
+$$\frac{u_5}{u_2}=q^3=\frac{48}{-6}=-8.$$
+
+Hence $q=-2$.
+
+From $u_2=u_1q$ we get $u_1=\dfrac{u_2}{q}=\dfrac{-6}{-2}=3$.
+
+Then
+$$u_8=u_1q^7=3\cdot(-2)^7=3\cdot(-128)=-384.$$
+
+So $u_1=3$, the common ratio is $q=-2$ and $u_8=-384$.
 
 **Answer.** $u_1=3$, $q=-2$, $u_8=-384$.
 :::
@@ -234,9 +262,15 @@ Find a) $5+10+20+\dots$ ($8$ terms); b) the sum of the first $5$ terms of the ge
 2. Substitute into the formula.
 
 ::solution
-a) $u_1=5$, $q=2$, $n=8$: $S_8=\dfrac{5\left(1-2^8\right)}{1-2}=5\cdot255=1275$.
+The sum of the first $n$ terms of a geometric progression with common ratio $q\ne1$ is $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$.
 
-b) $S_5=\dfrac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\dfrac{27}{2}\cdot\dfrac{242}{243}=\dfrac{121}{9}$.
+a) The sequence $5, 10, 20,\dots$ is a geometric progression with $u_1=5$ and $q=\dfrac{10}{5}=2$. With $n=8$:
+$$S_8=\frac{5\left(1-2^8\right)}{1-2}=\frac{5\cdot(-255)}{-1}=5\cdot255=1275.$$
+So the sum of the first $8$ terms is $1275$.
+
+b) With $u_1=9$, $q=\dfrac13$ and $n=5$:
+$$S_5=\frac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\frac{9\cdot\frac{242}{243}}{\frac23}=\frac{27}{2}\cdot\frac{242}{243}=\frac{121}{9}.$$
+So the sum of the first $5$ terms is $\dfrac{121}{9}$.
 
 **Answer.** a) $1275$; b) $\dfrac{121}{9}$.
 :::
@@ -252,7 +286,17 @@ Find $x$ so that the numbers $1$, $x+2$, $3x+4$, in that order, form a geometric
 2. Solve the quadratic equation, then check.
 
 ::solution
-We have $x^2+4x+4=3x+4$, that is $x^2+x=0$, so $x=0$ or $x=-1$. For $x=0$ the numbers are $1, 2, 4$ (common ratio $2$); for $x=-1$ the numbers are $1, 1, 1$ (common ratio $1$).
+Three numbers $a$, $b$, $c$, in that order, form a geometric progression when $b^2=ac$. For the numbers $1$, $x+2$, $3x+4$, the condition is
+$$(x+2)^2=1\cdot(3x+4).$$
+
+Expanding and simplifying:
+$$x^2+4x+4=3x+4\iff x^2+x=0\iff x(x+1)=0.$$
+
+Hence $x=0$ or $x=-1$.
+
+Check: for $x=0$ the numbers are $1, 2, 4$, a geometric progression with common ratio $2$; for $x=-1$ the numbers are $1, 1, 1$, a geometric progression with common ratio $1$. Both values work.
+
+So $x=0$ or $x=-1$.
 
 **Answer.** $x=0$ or $x=-1$.
 :::
@@ -268,7 +312,16 @@ Suppose $200$ million dong is deposited at $7\%$ a year, compounded annually. Fi
 2. Find the amount with simple interest, then subtract.
 
 ::solution
-Compound interest: $200\cdot1.07^5\approx280.51$ (million dong). Simple interest: $200+5\cdot14=270$ (million dong). The difference is $280.51-270=10.51$ (million dong).
+Let $A$ (million dong) be the amount after $5$ years with compound interest. Since the interest is compounded, each year's amount is $1.07$ times the previous year's; the yearly amounts form a geometric progression with common ratio $1.07$. Hence
+$$A=200\cdot1.07^5\approx280.51\ \text{(million dong)}.$$
+
+With simple interest, each year earns interest only on the original deposit: $200\cdot7\%=14$ (million dong). The amount after $5$ years is
+$$200+5\cdot14=270\ \text{(million dong)}.$$
+
+The difference between the two is
+$$280.51-270=10.51\ \text{(million dong)}.$$
+
+So after $5$ years the amount is about $280.51$ million dong, which is about $10.51$ million dong more than with simple interest.
 
 **Answer.** About $280.51$ million dong; about $10.51$ million dong more than with simple interest.
 :::
@@ -293,13 +346,19 @@ d) $u_7=-\dfrac19$.
 3. d) Find $u_7$.
 
 ::solution
-a) **True**: $\dfrac{-27}{81}=-\dfrac13$.
+The sequence $81, -27, 9, -3,\dots$ is a geometric progression with $u_1=81$.
 
-b) **True**: $u_n=u_1q^{n-1}$ with $u_1=81$ and $q=-\dfrac13$.
+a) **True.** The common ratio is $q=\dfrac{u_2}{u_1}=\dfrac{-27}{81}=-\dfrac13$.
 
-c) **False**: $u_1=81>u_2=-27$ but $u_2=-27<u_3=9$, so the sequence goes down and up.
+b) **True.** The general term is $u_n=u_1q^{n-1}$ with $u_1=81$ and $q=-\dfrac13$, that is $u_n=81\cdot\left(-\dfrac13\right)^{n-1}$.
 
-d) **False**: $u_7=81\cdot\left(-\dfrac13\right)^6=\dfrac{81}{729}=\dfrac19$, not $-\dfrac19$.
+c) **False.** We have $u_1=81>u_2=-27$ but $u_2=-27<u_3=9$. The sequence goes down and up, so it is not decreasing.
+
+d) **False.** We have
+$$u_7=81\cdot\left(-\frac13\right)^6=\frac{81}{729}=\frac19,$$
+not $-\dfrac19$.
+
+So statements a), b) are true; statements c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -315,7 +374,12 @@ Suppose a sheet of paper $0.1$ mm thick could be folded in half $8$ times in a r
 2. Substitute $n=8$.
 
 ::solution
-The thickness after $8$ folds is $0.1\cdot2^8=0.1\cdot256=25.6$ (mm).
+Each fold doubles the thickness of the paper. Let $u_k$ (mm) be the thickness after $k$ folds, with $u_0=0.1$. Then $(u_k)$ is a geometric progression with common ratio $q=2$, so $u_k=0.1\cdot2^k$.
+
+With $k=8$:
+$$u_8=0.1\cdot2^8=0.1\cdot256=25.6\ \text{(mm)}.$$
+
+So the thickness of the folded paper after $8$ folds is $25.6$ mm.
 
 **Answer.** $25.6$ mm.
 :::
@@ -331,7 +395,14 @@ Prove that if $(u_n)$ is an arithmetic progression with common difference $d$, t
 2. Use $u_{n+1}-u_n=d$.
 
 ::solution
-We have $\dfrac{v_{n+1}}{v_n}=\dfrac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d$, which is constant for every $n$. So $(v_n)$ is a geometric progression with common ratio $2^d$.
+Since $(u_n)$ is an arithmetic progression with common difference $d$, we have $u_{n+1}-u_n=d$ for every $n\in\mathbb{N}^*$.
+
+All terms of $v_n=2^{u_n}$ are positive (hence nonzero). Consider the ratio of two consecutive terms:
+$$\frac{v_{n+1}}{v_n}=\frac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d.$$
+
+This ratio equals $2^d$, which is constant for every $n$.
+
+So $(v_n)$ is a geometric progression with common ratio $2^d$.
 
 **Answer.** $(v_n)$ is a geometric progression with common ratio $2^d$.
 :::
@@ -347,7 +418,22 @@ Find three numbers that form a geometric progression with sum $14$ and product $
 2. Use the sum $14$ to find $q$.
 
 ::solution
-The product $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$, so $a=4$. The sum $\dfrac4q+4+4q=14$ gives $\dfrac4q+4q=10$, that is $4q^2-10q+4=0$, or $2q^2-5q+2=0$. So $q=2$ or $q=\dfrac12$. The three numbers are $2, 4, 8$ (or $8, 4, 2$ in the reverse order).
+Let the three numbers be $\dfrac aq$, $a$, $aq$ (with $a\ne0$, $q\ne0$), forming a geometric progression with common ratio $q$.
+
+Their product is $64$, so
+$$\frac aq\cdot a\cdot aq=a^3=64\iff a=4.$$
+
+Their sum is $14$, so
+$$\frac4q+4+4q=14\iff\frac4q+4q=10.$$
+
+Multiplying both sides by $q\ne0$ gives $4+4q^2=10q$, that is
+$$4q^2-10q+4=0\iff2q^2-5q+2=0.$$
+
+The equation has $\Delta=25-16=9$, so $q=\dfrac{5+3}{4}=2$ or $q=\dfrac{5-3}{4}=\dfrac12$ (both nonzero).
+
+For $q=2$ the numbers are $2, 4, 8$. For $q=\dfrac12$ the numbers are $8, 4, 2$. Check: $2+4+8=14$ and $2\cdot4\cdot8=64$.
+
+So the three numbers are $2$, $4$, $8$ (or $8$, $4$, $2$ in the reverse order).
 
 **Answer.** The three numbers are $2$, $4$, $8$ (or $8$, $4$, $2$).
 :::

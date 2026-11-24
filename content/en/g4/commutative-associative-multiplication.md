@@ -191,9 +191,11 @@ b) $(3\times5)\times2=3\times(\square\times2)$
 2. Part b: which number is in the middle on the right-hand side?
 
 ::solution
-a) By the commutative property, $8\times9=9\times8$.
+a) By the commutative property of multiplication, swapping the two factors does not change the product: $a\times b=b\times a$. So $8\times9=9\times8$, and the number for the square is $8$.
 
-b) By the associative property, $(3\times5)\times2=3\times(5\times2)$.
+b) By the associative property of multiplication, when we multiply a product of two numbers by a third number, we can multiply the first number by the product of the other two: $(a\times b)\times c=a\times(b\times c)$. So $(3\times5)\times2=3\times(5\times2)$, and the number for the square is $5$.
+
+So the square in part a) is $8$ and the square in part b) is $5$.
 
 **Answer.** a) $8$. b) $5$.
 :::
@@ -209,7 +211,12 @@ Calculate in the easy way: $2\times59\times5$.
 2. Swap and group those two factors.
 
 ::solution
-$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+We notice that $2\times5=10$, so we group these two factors together to multiply by $10$, which is easy.
+
+Using the commutative and associative properties of multiplication, we have
+$$\begin{aligned} 2\times59\times5 &= (2\times5)\times59 \\ &= 10\times59 \\ &= 590. \end{aligned}$$
+
+So $2\times59\times5=590$.
 
 **Answer.** $590$.
 :::
@@ -225,7 +232,12 @@ Calculate in the easy way: $125\times9\times8$.
 2. Multiply the result by $9$.
 
 ::solution
-$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+We notice that $125\times8=1\,000$, so we group these two factors together.
+
+Using the commutative and associative properties of multiplication, we have
+$$\begin{aligned} 125\times9\times8 &= (125\times8)\times9 \\ &= 1\,000\times9 \\ &= 9\,000. \end{aligned}$$
+
+So $125\times9\times8=9\,000$.
 
 **Answer.** $9\,000$.
 :::
@@ -241,9 +253,15 @@ Work out $7\times(5+3)$ in two ways.
 2. Method 2: multiply $7$ by each addend, then add.
 
 ::solution
-Method 1: $7\times(5+3)=7\times8=56$.
+Method 1: Work out the brackets first, then multiply.
+$$7\times(5+3)=7\times8=56.$$
 
-Method 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
+Method 2: Use the distributive property of multiplication over addition: $a\times(b+c)=a\times b+a\times c$. We have
+$$\begin{aligned} 7\times(5+3) &= 7\times5+7\times3 \\ &= 35+21 \\ &= 56. \end{aligned}$$
+
+Both methods give the same result.
+
+So $7\times(5+3)=56$.
 
 **Answer.** $56$.
 :::
@@ -259,7 +277,10 @@ Calculate in the easy way: $48\times7+48\times3$.
 2. Add the other two factors, then multiply.
 
 ::solution
-$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+The two products $48\times7$ and $48\times3$ share the common factor $48$. Using the distributive property of multiplication over addition, we take the common factor $48$ out:
+$$\begin{aligned} 48\times7+48\times3 &= 48\times(7+3) \\ &= 48\times10 \\ &= 480. \end{aligned}$$
+
+So $48\times7+48\times3=480$.
 
 **Answer.** $480$.
 :::
@@ -275,8 +296,17 @@ A carton holds $5$ boxes of biscuits, and each box has $20$ biscuits. The store 
 2. The calculation is $20\times5\times6$; which two numbers do we group?
 
 ::solution
+Solution
+
+The number of biscuits in one carton is:
+$$20\times5=100\ \text{(biscuits)}.$$
+
 The number of biscuits in the store room is:
-$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(biscuits)}.$$
+$$100\times6=600\ \text{(biscuits)}.$$
+
+We can also write this in one line: $20\times5\times6=(20\times5)\times6=100\times6=600$ (using the associative property of multiplication).
+
+So there are $600$ biscuits in the store room altogether.
 
 **Answer.** $600$ biscuits.
 :::
@@ -292,8 +322,16 @@ Lan buys $6$ exercise books at $9\,000$ dong each and $6$ pens at $6\,000$ dong 
 2. Group in a convenient way: how much does "one book and one pen" cost?
 
 ::solution
+Solution
+
+Lan buys $6$ exercise books and $6$ pens, so both amounts are multiplied by $6$. Using the distributive property of multiplication over addition, we take the common factor $6$ out.
+
 The amount Lan pays is:
 $$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(dong)}.$$
+
+*Check.* The exercise books cost $6\times9\,000=54\,000$ dong, the pens cost $6\times6\,000=36\,000$ dong, and $54\,000+36\,000=90\,000$ dong. Correct.
+
+So Lan pays $90\,000$ dong altogether.
 
 **Answer.** $90\,000$ dong.
 :::
@@ -309,7 +347,10 @@ Remember the lesson on multiplying by a one-digit number. Split $2\,315=2\,000+3
 2. Add the three products.
 
 ::solution
-$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+Split $2\,315=2\,000+300+15$, then use the distributive property of multiplication over addition: multiply each part by $4$ and add the results.
+$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 2\,000\times4+300\times4+15\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+
+So $2\,315\times4=9\,260$.
 
 **Answer.** $9\,260$.
 :::
@@ -325,10 +366,16 @@ A rectangular garden is $7$ m wide. The vegetable part is $12$ m long and the fl
 2. Add them, or find the length of the whole garden and multiply by the width.
 
 ::solution
+Solution
+
+The two parts of the garden are side by side and both are $7$ m wide, so the area of the whole garden equals the sum of the areas of the two parts. We use the distributive property of multiplication over addition.
+
 The area of the whole garden is:
 $$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
 
-**Check.** $7\times20=140$. Correct.
+*Check.* The whole garden is $12+8=20$ m long, and $7\times20=140$ ($\text{m}^2$). Correct.
+
+So the area of the whole garden is $140\ \text{m}^2$.
 
 **Answer.** $140\ \text{m}^2$.
 :::
@@ -344,8 +391,12 @@ Calculate in the easy way: $25\times36$.
 2. Use the associative property to group $25$ with $4$.
 
 ::solution
-Since $36=4\times9$:
+We notice that $36=4\times9$ and $25\times4=100$, so we write $36$ as the product $4\times9$ and group $25$ with $4$.
+
+Using the associative property of multiplication, we have
 $$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
+
+So $25\times36=900$.
 
 **Answer.** $900$.
 :::

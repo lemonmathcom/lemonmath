@@ -157,8 +157,15 @@ Một xe máy đi $135$ km hết $3$ giờ. Tính vận tốc của xe máy.
 2. Lấy quãng đường chia cho thời gian.
 
 ::solution
+Bài giải
+
+Muốn tính vận tốc, ta lấy quãng đường chia cho thời gian: $v=s:t$.
+
 Vận tốc của xe máy là:
-$$135:3=45\ (\text{km/giờ}).$$
+$$135:3=45\ \text{(km/giờ)}$$
+
+Vậy vận tốc của xe máy là $45$ km/giờ.
+
 **Đáp số.** $45$ km/giờ.
 :::
 
@@ -173,7 +180,15 @@ Một con ốc sên bò được $3$ m trong $5$ phút. Tính vận tốc của 
 2. Ghi đơn vị m/phút.
 
 ::solution
-$$v=3:5=0{,}6\ (\text{m/phút}).$$
+Bài giải
+
+Vận tốc bằng quãng đường chia cho thời gian, với quãng đường tính bằng mét và thời gian tính bằng phút nên đơn vị vận tốc là m/phút.
+
+Vận tốc của ốc sên là:
+$$3:5=0{,}6\ \text{(m/phút)}$$
+
+Vậy vận tốc của ốc sên là $0{,}6$ m/phút.
+
 **Đáp số.** $0{,}6$ m/phút.
 :::
 
@@ -189,8 +204,17 @@ Một ô tô đi với vận tốc $54$ km/giờ trong $2{,}5$ giờ. Tính quã
 3. Thử lại: $54\times2=108$, thêm nửa giờ là $27$ km.
 
 ::solution
+Bài giải
+
+Muốn tính quãng đường, ta lấy vận tốc nhân với thời gian: $s=v\times t$.
+
 Quãng đường ô tô đi được là:
-$$54\times2{,}5=135\ (\text{km}).$$
+$$54\times2{,}5=135\ \text{(km)}$$
+
+Kiểm tra: $54\times2=108$ và $54\times0{,}5=27$, mà $108+27=135$, đúng.
+
+Vậy ô tô đi được quãng đường $135$ km.
+
 **Đáp số.** $135$ km.
 :::
 
@@ -205,7 +229,16 @@ Một người đi bộ với vận tốc $5$ km/giờ. Hỏi người đó đi 
 2. Đổi phần thập phân của giờ ra phút.
 
 ::solution
-Thời gian đi là $12:5=2{,}4$ (giờ). Vì $0{,}4\times60=24$ nên $2{,}4$ giờ $=2$ giờ $24$ phút.
+Bài giải
+
+Muốn tính thời gian, ta lấy quãng đường chia cho vận tốc: $t=s:v$.
+
+Thời gian người đó đi bộ là:
+$$12:5=2{,}4\ \text{(giờ)}$$
+
+Ta đổi phần thập phân ra phút: $0{,}4$ giờ $=0{,}4\times60=24$ phút. Do đó $2{,}4$ giờ $=2$ giờ $24$ phút.
+
+Vậy người đó đi quãng đường $12$ km hết $2$ giờ $24$ phút.
 
 **Đáp số.** $2$ giờ $24$ phút.
 :::
@@ -221,8 +254,18 @@ Một tàu cá chạy với vận tốc $18$ km/giờ từ $6$ giờ đến $8$ 
 2. Nhân với vận tốc.
 
 ::solution
-Thời gian chạy là $8$ giờ $30$ phút $-$ $6$ giờ $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là:
-$$18\times2{,}5=45\ (\text{km}).$$
+Bài giải
+
+Thời gian tàu cá chạy là:
+$$8\ \text{giờ}\ 30\ \text{phút}-6\ \text{giờ}=2\ \text{giờ}\ 30\ \text{phút}$$
+
+Đổi $2$ giờ $30$ phút $=2{,}5$ giờ.
+
+Quãng đường tàu cá chạy được là:
+$$18\times2{,}5=45\ \text{(km)}$$
+
+Vậy tàu cá chạy được $45$ km.
+
 **Đáp số.** $45$ km.
 :::
 
@@ -238,8 +281,17 @@ Một người đi xe máy đi quãng đường $100$ km hết $2$ giờ $30$ ph
 3. Thử lại: $40\times2{,}5$ có bằng $100$ không?
 
 ::solution
-Ta có $2$ giờ $30$ phút $=2{,}5$ giờ. Vận tốc là:
-$$100:2{,}5=40\ (\text{km/giờ}).$$
+Bài giải
+
+Đổi $2$ giờ $30$ phút $=2{,}5$ giờ.
+
+Vận tốc của người đi xe máy là:
+$$100:2{,}5=40\ \text{(km/giờ)}$$
+
+Kiểm tra: $40\times2{,}5=100$ km, đúng với quãng đường đề bài cho.
+
+Vậy vận tốc của người đó là $40$ km/giờ.
+
 **Đáp số.** $40$ km/giờ.
 :::
 
@@ -254,8 +306,20 @@ Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hà
 2. Tính quãng đường, rồi tính giờ đến.
 
 ::solution
-Quãng đường AB là $48\times2{,}5=120$ (km). Xe đến B lúc:
-$$7\text{ giờ }45\text{ phút}+2\text{ giờ }30\text{ phút}=9\text{ giờ }75\text{ phút}=10\text{ giờ }15\text{ phút}.$$
+Bài giải
+
+Đổi $2$ giờ $30$ phút $=2{,}5$ giờ.
+
+Quãng đường AB dài là:
+$$48\times2{,}5=120\ \text{(km)}$$
+
+Xe đến B lúc:
+$$7\ \text{giờ}\ 45\ \text{phút}+2\ \text{giờ}\ 30\ \text{phút}=9\ \text{giờ}\ 75\ \text{phút}$$
+
+Vì $75$ phút $=1$ giờ $15$ phút nên $9$ giờ $75$ phút $=10$ giờ $15$ phút.
+
+Vậy quãng đường AB dài $120$ km và xe đến B lúc $10$ giờ $15$ phút.
+
 **Đáp số.** $120$ km; $10$ giờ $15$ phút.
 :::
 
@@ -270,7 +334,20 @@ Xe A đi $120$ km hết $3$ giờ. Xe B đi $150$ km hết $4$ giờ. Xe nào ch
 2. So sánh rồi tìm hiệu.
 
 ::solution
-Vận tốc xe A là $120:3=40$ (km/giờ). Vận tốc xe B là $150:4=37{,}5$ (km/giờ). Vì $40>37{,}5$ nên xe A nhanh hơn, và hơn $40-37{,}5=2{,}5$ (km/giờ).
+Bài giải
+
+Vận tốc của xe A là:
+$$120:3=40\ \text{(km/giờ)}$$
+
+Vận tốc của xe B là:
+$$150:4=37{,}5\ \text{(km/giờ)}$$
+
+Vì $40>37{,}5$ nên xe A chạy nhanh hơn xe B.
+
+Xe A nhanh hơn xe B số ki-lô-mét mỗi giờ là:
+$$40-37{,}5=2{,}5\ \text{(km/giờ)}$$
+
+Vậy xe A chạy nhanh hơn xe B và nhanh hơn $2{,}5$ km/giờ.
 
 **Đáp số.** Xe A nhanh hơn, hơn $2{,}5$ km/giờ.
 :::
@@ -286,9 +363,17 @@ An đi xe đạp từ nhà đến trường với vận tốc $12$ km/giờ và 
 2. Tính thời gian của Bình bằng $t=s:v$.
 
 ::solution
-Vì $20$ phút $=\dfrac13$ giờ nên quãng đường từ nhà đến trường là:
-$$12\times\frac13=4\ (\text{km}).$$
-Thời gian Bình đi là $4:4=1$ (giờ).
+Bài giải
+
+Đổi $20$ phút $=\dfrac13$ giờ.
+
+Quãng đường từ nhà đến trường là:
+$$12\times\frac13=4\ \text{(km)}$$
+
+Bình đi bộ cùng quãng đường $4$ km với vận tốc $4$ km/giờ, nên thời gian Bình đi là:
+$$4:4=1\ \text{(giờ)}$$
+
+Vậy Bình đi từ nhà đến trường mất $1$ giờ.
 
 **Đáp số.** $1$ giờ.
 :::
@@ -304,7 +389,14 @@ Một bạn chạy với vận tốc $5$ m/giây. Nếu giữ nguyên vận tố
 2. Đổi mét ra ki-lô-mét.
 
 ::solution
-Trong $1$ giờ $=3600$ giây, bạn chạy được $5\times3600=18\,000$ (m) $=18$ (km). Vậy $5$ m/giây $=18$ km/giờ.
+Bài giải
+
+Một giờ có $3\,600$ giây. Với vận tốc $5$ m/giây, trong $1$ giờ bạn chạy được:
+$$5\times3\,600=18\,000\ \text{(m)}$$
+
+Đổi $18\,000$ m $=18$ km.
+
+Vậy một giờ bạn chạy được $18$ km, tức là $5$ m/giây $=18$ km/giờ.
 
 **Đáp số.** $18$ km; $5$ m/giây $=18$ km/giờ.
 :::

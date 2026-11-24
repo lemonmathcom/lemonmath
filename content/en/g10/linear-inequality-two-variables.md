@@ -237,7 +237,15 @@ Which of the pairs $(2, -1)$, $(0, 3)$, $(6, 1)$ are solutions of $x-2y\ge 4$?
 2. Compare with $4$, remembering that $\ge$ allows equality.
 
 ::solution
-$$(2, -1):\ 2+2=4\ge 4\ \text{(true)};\quad (0, 3):\ 0-6=-6\ge 4\ \text{(false)};\quad (6, 1):\ 6-2=4\ge 4\ \text{(true)}.$$
+A pair $(x_0, y_0)$ is a solution of $x-2y\ge 4$ if substituting $x=x_0$, $y=y_0$ into the left-hand side gives a true inequality.
+
+For the pair $(2, -1)$: substituting $x=2$, $y=-1$ gives $2-2\cdot(-1)=2+2=4$. Since $4\ge 4$ is true, $(2, -1)$ is a solution.
+
+For the pair $(0, 3)$: substituting $x=0$, $y=3$ gives $0-2\cdot 3=-6$. Since $-6\ge 4$ is false, $(0, 3)$ is not a solution.
+
+For the pair $(6, 1)$: substituting $x=6$, $y=1$ gives $6-2\cdot 1=4$. Since $4\ge 4$ is true, $(6, 1)$ is a solution.
+
+So the pairs $(2, -1)$ and $(6, 1)$ are solutions of the inequality, while the pair $(0, 3)$ is not.
 
 **Answer.** $(2, -1)$ and $(6, 1)$ are solutions.
 :::
@@ -262,13 +270,17 @@ d) The solution region is the half-plane containing the origin, including the bo
 3. Use the result of a) and the type of line for d).
 
 ::solution
-a) **True:** $2\cdot 0-3\cdot 0=0\le 6$.
+Consider the inequality $2x-3y\le 6$ with boundary line $d: 2x-3y=6$.
 
-b) **False:** putting $x=0$ gives $-3y=6$, so $y=-2$. The boundary passes through $(3, 0)$ and $(0, -2)$, not through $(0, 2)$.
+a) **True.** Substituting $x=0$, $y=0$ gives $2\cdot 0-3\cdot 0=0$. Since $0\le 6$ is true, $(0, 0)$ is a solution.
 
-c) **False:** $2\cdot 1-3\cdot(-2)=8$, and $8\le 6$ is false.
+b) **False.** Putting $x=0$ gives $-3y=6$, so $y=-2$. Putting $y=0$ gives $2x=6$, so $x=3$. Hence the boundary passes through $(3, 0)$ and $(0, -2)$. The point $(0, 2)$ is not on the boundary because $2\cdot 0-3\cdot 2=-6\ne 6$.
 
-d) **True:** $O$ is a solution (part a) and the sign is $\le$, so the boundary is included.
+c) **False.** Substituting $x=1$, $y=-2$ gives $2\cdot 1-3\cdot(-2)=2+6=8$. Since $8\le 6$ is false, $(1, -2)$ is not a solution.
+
+d) **True.** The origin $O(0, 0)$ is a solution (part a) and does not lie on $d$, so the solution region is the half-plane with boundary $d$ that contains $O$. Since the sign is $\le$, the points on the boundary are also solutions, so the boundary is included.
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -285,8 +297,20 @@ Describe the solution region of $2x-y\le 4$: give two points of the boundary, th
 3. Substitute $O(0, 0)$.
 
 ::solution
+Consider the inequality $2x-y\le 4$ with boundary line $d: 2x-y=4$.
+
+To find two points of the boundary: putting $y=0$ gives $2x=4$, so $x=2$; putting $x=0$ gives $-y=4$, so $y=-4$.
 $$y=0\Rightarrow x=2,\qquad x=0\Rightarrow y=-4.$$
-The boundary passes through $(2, 0)$ and $(0, -4)$ and is solid because of $\le$. Substitute $O$: $0\le 4$ is true.
+
+So the boundary $d$ passes through the two points $(2, 0)$ and $(0, -4)$.
+
+The inequality has the sign $\le$ (equality is allowed), so the points on $d$ are also solutions; therefore we draw $d$ as a solid line.
+
+The line $d$ does not pass through the origin $O(0, 0)$ because $2\cdot 0-0=0\ne 4$, so we take $O$ as the test point. Substituting $x=0$, $y=0$ gives $0\le 4$, which is true.
+
+Hence $O$ lies in the solution region, so we take the side of $d$ that contains $O$.
+
+So the solution region is the half-plane with boundary $d$ that contains the origin, boundary included.
 
 **Answer.** The region is the half-plane with boundary $2x-y=4$ containing the origin, boundary included.
 :::
@@ -302,7 +326,15 @@ Draw the solution region of $x-y\ge 0$.
 2. Test the point $(1, 0)$.
 
 ::solution
-The boundary $y=x$ passes through $O$ and $(1, 1)$ and is solid. Test $(1, 0)$: $1-0=1\ge 0$, true.
+Consider the inequality $x-y\ge 0$ with boundary line $d: x-y=0$, that is $y=x$.
+
+The line $y=x$ passes through the origin $O(0, 0)$ and the point $(1, 1)$. The inequality has the sign $\ge$ (equality is allowed), so the points on $d$ are also solutions; therefore we draw $d$ as a solid line.
+
+Since $d$ passes through $O$, we cannot use $O$ as the test point. We choose the point $(1, 0)$, which is not on $d$, and substitute: $1-0=1\ge 0$ is true.
+
+Hence $(1, 0)$ lies in the solution region, so we take the half-plane with boundary $d$ that contains $(1, 0)$. For each $x$, the points of the region have $y\le x$, that is, they lie below the line $y=x$.
+
+So the solution region is the half-plane with boundary $y=x$ that contains the point $(1, 0)$, boundary included.
 
 **Answer.** The region is the half-plane with boundary $y=x$ containing $(1, 0)$ (below the line $y=x$), boundary included.
 :::
@@ -318,8 +350,16 @@ Which of the points $A(1, 1)$, $B(-2, 3)$, $C(4, -1)$ lie in the solution region
 2. Compare strictly with $5$.
 
 ::solution
+A point lies in the solution region of $3x+2y>5$ if and only if its coordinates satisfy the strict inequality $3x+2y>5$.
+
+For $A(1, 1)$: $3\cdot 1+2\cdot 1=5$. Since $5>5$ is false, $A$ is not in the region ($A$ lies on the boundary, which is dashed because the sign $>$ does not include equality).
+
+For $B(-2, 3)$: $3\cdot(-2)+2\cdot 3=-6+6=0$. Since $0>5$ is false, $B$ is not in the region.
+
+For $C(4, -1)$: $3\cdot 4+2\cdot(-1)=12-2=10$. Since $10>5$ is true, $C$ lies in the region.
 $$A:\ 3+2=5;\qquad B:\ -6+6=0;\qquad C:\ 12-2=10.$$
-Only $10>5$ is true; at $A$ we get $5>5$, which is false because $A$ lies on the dashed boundary.
+
+So among the three given points, only $C$ lies in the solution region of the inequality.
 
 **Answer.** Only the point $C$.
 :::
@@ -336,8 +376,19 @@ A phone plan charges $2000$ dong per minute of calls and $500$ dong per text mes
 3. Substitute both pairs.
 
 ::solution
+Let $x$ be the number of minutes of calls and $y$ the number of text messages Mai sends ($x\ge 0$, $y\ge 0$).
+
+The cost is $2000x+500y$ (dong). Mai has at most $40000$ dong in her account, so
+$$2000x+500y\le 40000.$$
+
+Dividing both sides by $500>0$ (the direction of the inequality is kept), we get
 $$2000x+500y\le 40000\iff 4x+y\le 80.$$
-For $(15, 20)$: $60+20=80\le 80$, true. For $(18, 10)$: $72+10=82\le 80$, false (it would cost $41000$ dong).
+
+For $(15, 20)$: $4\cdot 15+20=60+20=80$. Since $80\le 80$ is true, Mai can make $15$ minutes of calls and send $20$ messages. Check: the cost is $2000\cdot 15+500\cdot 20=30000+10000=40000$ dong, exactly the amount Mai has.
+
+For $(18, 10)$: $4\cdot 18+10=72+10=82$. Since $82\le 80$ is false, Mai cannot do this. Check: the cost is $2000\cdot 18+500\cdot 10=36000+5000=41000$ dong, which exceeds $40000$ dong.
+
+So the required inequality is $4x+y\le 80$; Mai can do $15$ minutes of calls and $20$ messages, but she cannot afford $18$ minutes and $10$ messages.
 
 **Answer.** $4x+y\le 80$; Mai can do $15$ minutes and $20$ messages, but she cannot afford $18$ minutes and $10$ messages.
 :::
@@ -354,8 +405,20 @@ How many pairs of non-negative whole numbers $(x, y)$ are solutions of $2x+y\le 
 3. Add up.
 
 ::solution
+We need to count the pairs of integers $(x, y)$ with $x\ge 0$, $y\ge 0$ satisfying $2x+y\le 4$.
+
+Since $y\ge 0$, we have $2x\le 4-y\le 4$, so $x\le 2$. Hence $x\in\{0, 1, 2\}$. For each value of $x$, we have $0\le y\le 4-2x$.
+
+For $x=0$: $0\le y\le 4$, so $y$ has $5$ values, that is $5$ pairs.
+
+For $x=1$: $0\le y\le 2$, so $y$ has $3$ values, that is $3$ pairs.
+
+For $x=2$: $0\le y\le 0$, that is $y=0$, so there is $1$ pair.
 $$x=0:\ 0\le y\le 4\ (5\ \text{pairs});\quad x=1:\ 0\le y\le 2\ (3\ \text{pairs});\quad x=2:\ y=0\ (1\ \text{pair}).$$
-In total $5+3+1=9$ pairs.
+
+The total number of pairs is $5+3+1=9$.
+
+So there are $9$ pairs of non-negative whole numbers $(x, y)$ that are solutions of the inequality.
 
 **Answer.** $9$.
 :::
@@ -372,8 +435,22 @@ A student ticket costs $20$ thousand dong and an adult ticket $50$ thousand dong
 3. For each $y=2, 3, 4$, find the largest $x$ and compare the totals $x+y$.
 
 ::solution
+Let $x$ be the number of student tickets and $y$ the number of adult tickets the group buys ($x$ and $y$ are integers). Each person has one ticket, so the number of people in the group is $x+y$.
+
+The total cost is at most $200$ thousand dong, so $20x+50y\le 200$. Dividing both sides by $10>0$ gives $2x+5y\le 20$. The group must buy at least $2$ adult tickets, so $y\ge 2$; also $x\ge 0$. We obtain the system
 $$20x+50y\le 200\iff 2x+5y\le 20,\qquad y\ge 2,\ x\ge 0.$$
-For $y=2$: $2x\le 10$, $x\le 5$, total $7$. For $y=3$: $2x\le 5$, $x\le 2$, total $5$. For $y=4$: $x=0$, total $4$.
+
+From $2x\ge 0$ we get $5y\le 20$, that is $y\le 4$. Hence $y\in\{2, 3, 4\}$. We consider each case to find the largest $x$.
+
+For $y=2$: $2x\le 20-10=10$, so $x\le 5$. The largest number of people is $5+2=7$.
+
+For $y=3$: $2x\le 20-15=5$, so $x\le 2$ (since $x$ is an integer). The largest number of people is $2+3=5$.
+
+For $y=4$: $2x\le 20-20=0$, so $x=0$. The number of people is $0+4=4$.
+
+Comparing the three cases, the largest number of people is $7$, reached when $x=5$, $y=2$. Check: the cost is $20\cdot 5+50\cdot 2=100+100=200$ thousand dong, which is allowed.
+
+So the inequalities are $2x+5y\le 20$, $y\ge 2$, $x\ge 0$, and the group has at most $7$ people ($5$ students and $2$ adults).
 
 **Answer.** At most $7$ people ($5$ students and $2$ adults).
 :::
@@ -389,8 +466,14 @@ Find an inequality of the form $ax+by\le c$ whose boundary passes through $(0, 2
 2. Substitute $O(0, 0)$ to choose the right direction.
 
 ::solution
+The boundary of the inequality is the line through the two points $(0, 2)$ and $(3, 0)$. This line meets the $x$-axis at $(3, 0)$ and the $y$-axis at $(0, 2)$, so it has the intercept form
 $$\frac{x}{3}+\frac{y}{2}=1\iff 2x+3y=6.$$
-At $O$: $2\cdot 0+3\cdot 0=0\le 6$, so the origin lies on the "$\le 6$" side.
+
+Check: for $(0, 2)$ we have $2\cdot 0+3\cdot 2=6$; for $(3, 0)$ we have $2\cdot 3+3\cdot 0=6$. Both points satisfy the equation.
+
+The required inequality is either $2x+3y\le 6$ or $2x+3y\ge 6$. For the solution region to contain the origin, we substitute $O(0, 0)$: $2\cdot 0+3\cdot 0=0$. Since $0\le 6$, the origin lies on the "$\le 6$" side.
+
+So the required inequality is $2x+3y\le 6$.
 
 **Answer.** $2x+3y\le 6$.
 :::
@@ -407,7 +490,16 @@ At $O$: $2\cdot 0+3\cdot 0=0\le 6$, so the origin lies on the "$\le 6$" side.
 3. Write the negation with "there exists".
 
 ::solution
-Put $y=1$: $2x+1\le 7\iff x\le 3$. For $x=4$: $2\cdot 4+1=9>7$, so $(4, 1)$ is not a solution and $P$ is false.
+Substituting $y=1$ into the inequality $2x+y\le 7$ gives $2x+1\le 7$. Moving terms and dividing both sides by $2>0$, we get $x\le 3$.
+$$2x+1\le 7\iff x\le 3.$$
+
+So the pair $(x, 1)$ is a solution if and only if $x\le 3$. The statement $P$ claims this holds for every real number $x$, so to show that $P$ is false it is enough to give one counterexample.
+
+Take $x=4$: $2\cdot 4+1=9$. Since $9\le 7$ is false, $(4, 1)$ is not a solution of the inequality.
+
+So the statement $P$ is false.
+
+The negation of "For every $x$, $A(x)$" is "There exists $x$ such that $A(x)$ is not true". Here $A(x)$ is "$(x, 1)$ is a solution of $2x+y\le 7$", that is $2x+1\le 7$; the negation of $2x+1\le 7$ is $2x+1>7$. Hence $\overline{P}$: "There exists a real number $x$ such that $2x+1>7$", that is, some pair $(x, 1)$ is not a solution. The statement $\overline{P}$ is true, for example with $x=4$.
 
 **Answer.** $P$ is false (counterexample $x=4$). $\overline{P}$: "There exists a real number $x$ such that $2x+1>7$", that is, some pair $(x, 1)$ is not a solution.
 :::

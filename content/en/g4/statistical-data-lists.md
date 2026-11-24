@@ -130,7 +130,11 @@ Here is a list of data: $4, 8, 6, 9, 5$. How many numbers are there? Which is th
 2. Compare the numbers with each other.
 
 ::solution
-There are $5$ numbers. The greatest is $9$ and the least is $4$.
+We count the numbers in the list $4, 8, 6, 9, 5$: there are $5$ numbers.
+
+Comparing the numbers, we see that $9$ is greater than every other number and $4$ is less than every other number.
+
+So the list has $5$ numbers; the greatest is $9$ and the least is $4$.
 
 **Answer.** $5$ numbers; greatest $9$; least $4$.
 :::
@@ -146,7 +150,11 @@ Put the data $15, 9, 12, 20, 9$ in order from smallest to largest.
 2. Write the numbers getting larger.
 
 ::solution
-The least is $9$, which appears twice. The ordered list is $9, 9, 12, 15, 20$.
+We find the least number in the list $15, 9, 12, 20, 9$. The least number is $9$, and since it appears twice we must write it twice.
+
+The remaining numbers, from smallest to largest, are $12$, $15$, $20$.
+
+So the list in order from smallest to largest is $9, 9, 12, 15, 20$.
 
 **Answer.** $9, 9, 12, 15, 20$.
 :::
@@ -162,7 +170,14 @@ Remember the last lesson (the unitary method): $5$ boxes of pens hold $30$ pens.
 2. Multiply the result by $1$, $2$, $3$ and $4$.
 
 ::solution
-One box holds $30\div5=6$ (pens). The pens in $1$, $2$, $3$, $4$ boxes are $6, 12, 18, 24$.
+Solution
+
+The number of pens in each box is:
+$$30\div5=6\ \text{(pens)}.$$
+
+The number of pens in $1$ box is $6$. The number of pens in $2$ boxes is $6\times2=12$ (pens). The number of pens in $3$ boxes is $6\times3=18$ (pens). The number of pens in $4$ boxes is $6\times4=24$ (pens).
+
+So each box holds $6$ pens, and the list of pens in $1$, $2$, $3$, $4$ boxes is $6, 12, 18, 24$.
 
 **Answer.** $6$ pens in each box; the list is $6, 12, 18, 24$.
 :::
@@ -182,7 +197,16 @@ c) How many children scored $9$ or more?
 3. Count the $9$s and the $10$s.
 
 ::solution
-a) The number $9$ appears $2$ times. b) $10-7=3$ (points). c) There are two $9$s and one $10$, so $3$ children.
+The list of scores of the $6$ children is $8, 9, 7, 10, 9, 8$.
+
+a) In the list, the number $9$ appears $2$ times. So $2$ children scored $9$.
+
+b) The top score is $10$ and the lowest score is $7$. The top score is higher than the lowest score by:
+$$10-7=3\ \text{(points)}.$$
+
+c) The children who scored $9$ or more are those who scored $9$ or $10$. There are two $9$s and one $10$, that is $2+1=3$ children.
+
+So $2$ children scored $9$; the top score is $3$ points higher than the lowest score; $3$ children scored $9$ or more.
 
 **Answer.** a) $2$ children; b) $3$ points; c) $3$ children.
 :::
@@ -198,7 +222,13 @@ Here is a list of data: $3, 8, 3, 5, 3, 8$. Are the greatest value and the most 
 2. Count how many times each number appears.
 
 ::solution
-The greatest value is $8$ (it appears $2$ times). The number $3$ appears $3$ times, more than $8$. So they are different numbers.
+In the list $3, 8, 3, 5, 3, 8$, the greatest number is $8$, and $8$ appears $2$ times.
+
+The number $3$ appears $3$ times and the number $5$ appears $1$ time. The most common number is $3$, because $3$ times is more than $2$ times.
+
+The greatest number is $8$ while the most common number is $3$, and $8\neq3$.
+
+So the greatest value and the most common value are not the same number.
 
 **Answer.** No: the greatest is $8$ and the most common is $3$.
 :::
@@ -214,7 +244,13 @@ Ha wrote: "The list $5, 9, 3, 7, 9$ has $4$ numbers because we count $9$ only on
 2. Compare all the numbers to find the least.
 
 ::solution
-The list has $5$ numbers because $9$ appears twice and must be counted twice. The least is $3$, not $5$.
+Ha went wrong in two places.
+
+First, Ha said the list has $4$ numbers because $9$ is counted only once. In fact $9$ appears twice, so it must be counted twice. The numbers in the list $5, 9, 3, 7, 9$ are $5$, $9$, $3$, $7$, $9$, which makes $5$ numbers.
+
+Second, Ha said the least number is $5$. In fact $3$ is less than $5$ and less than every other number, so the least number is $3$.
+
+So the list has $5$ numbers and the least is $3$.
 
 **Answer.** $5$ numbers; the least is $3$.
 :::
@@ -234,7 +270,14 @@ c) How many more skips did the best child make than the lowest?
 3. Subtract the least from the greatest.
 
 ::solution
-a) The list is $24, 31, 28, 31, 25, 30$; the greatest is $31$ (Binh and Dung). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (skips).
+a) The list of the numbers of skips of the six children, in the order An, Binh, Chi, Dung, Em, Giang, is $24, 31, 28, 31, 25, 30$. Comparing the numbers, the greatest is $31$ (Binh and Dung).
+
+b) We put the numbers in order from smallest to largest: the least is $24$, then $25$, $28$, $30$, and finally the two $31$s. The ordered list is $24, 25, 28, 30, 31, 31$.
+
+c) The best child made $31$ skips and the lowest child made $24$ skips. The best child made more skips than the lowest child by:
+$$31-24=7\ \text{(skips)}.$$
+
+So the greatest value is $31$; the ordered list is $24, 25, 28, 30, 31, 31$; the best child made $7$ more skips than the lowest.
 
 **Answer.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ skips.
 :::

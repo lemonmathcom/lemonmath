@@ -296,9 +296,16 @@ Determine where $y=\dfrac{x+2}{x-1}$ is increasing or decreasing.
 2. Compute $y'$ and look at the sign of the numerator.
 
 ::solution
-The domain is $D=\mathbb{R}\setminus\{1\}$. We have $y'=\dfrac{1\cdot(-1)-2\cdot1}{(x-1)^2}=\dfrac{-3}{(x-1)^2}<0$ for every $x\in D$.
+The domain is $D=\mathbb{R}\setminus\{1\}$ (because the denominator $x-1\neq0$).
 
-So the function is decreasing on each interval of its domain.
+The function is differentiable on $D$. Using the quotient rule with $u=x+2$, $v=x-1$, we have
+$$y'=\frac{u'v-uv'}{v^2}=\frac{1\cdot(x-1)-(x+2)\cdot1}{(x-1)^2}=\frac{-3}{(x-1)^2}.$$
+
+Since $(x-1)^2>0$ for every $x\in D$, we get $y'<0$ for every $x\in D$. Hence $y'$ is never $0$ and does not change sign on $D$.
+
+Therefore the function is decreasing on each of the intervals $(-\infty, 1)$ and $(1, +\infty)$, and it has no extremum.
+
+So the function is decreasing on each interval of its domain and has no extremum.
 
 **Answer.** The function is decreasing on each interval $(-\infty, 1)$ and $(1, +\infty)$, and has no extremum.
 :::
@@ -340,15 +347,23 @@ d) The function $f$ is decreasing on the interval $(-2, 1)$.
 2. Read off where $f$ increases or decreases and where $f'$ changes sign.
 
 ::solution
-Since $(x-1)^2\ge0$, $f'$ has the same sign as $x(x+2)$ (except at $x=1$, where $f'=0$). Hence $f'$ is positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and $(1, +\infty)$.
+We have $f'(x)=x(x-1)^2(x+2)$. Since $(x-1)^2\ge0$ for every $x$ and $(x-1)^2=0$ only when $x=1$, for $x\neq1$ the sign of $f'(x)$ is the same as the sign of $x(x+2)$.
 
-a) **True**. Since $f'\ge 0$ on $(0, +\infty)$ and it is zero only at $x=1$, the function is increasing on this interval.
+The product $x(x+2)$ is positive when $x<-2$ or $x>0$, and negative when $-2<x<0$. The sign table of $f'$ is:
 
-b) **False**. Since $f'$ changes sign only at $x=-2$ and $x=0$, the function has two turning points.
+| $x$ | $-\infty$ | | $-2$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | $0$ | $+$ | |
 
-c) **True**. Since $f'$ changes sign from $+$ to $-$ at $x=-2$, the function has a local maximum there.
+a) **True.** On $(0, +\infty)$ we have $f'(x)\ge0$ and $f'(x)=0$ only at $x=1$, so the function is increasing on $(0, +\infty)$.
 
-d) **False**. On $(0, 1)$ we have $f'>0$, so the function is increasing on this interval.
+b) **False.** $f'$ changes sign only at $x=-2$ (from $+$ to $-$) and at $x=0$ (from $-$ to $+$). At $x=1$ we have $f'=0$ but no sign change. Hence the function has two turning points, not three.
+
+c) **True.** As $x$ passes through $-2$, $f'$ changes sign from $+$ to $-$, so the function has a local maximum at $x=-2$.
+
+d) **False.** On $(-2, 0)$ we have $f'<0$ but on $(0, 1)$ we have $f'>0$, so the function is increasing on $(0, 1)$. Hence $f$ is not decreasing on the whole interval $(-2, 1)$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -364,7 +379,15 @@ The function $y=x^3-3x^2-9x+4$ has a local maximum value $y_{\text{max}}$ and a 
 2. Compute $y$ at the two roots.
 
 ::solution
-We have $y'=3(x+1)(x-3)$. Since $a=3>0$, $y'$ changes sign $+\to-$ at $x=-1$ and $-\to+$ at $x=3$. Hence $y_{\text{max}}=y(-1)=-1-3+9+4=9$ and $y_{\text{min}}=y(3)=27-27-27+4=-23$.
+The function is defined and differentiable on $\mathbb{R}$. We have
+$$y'=3x^2-6x-9=3\left(x^2-2x-3\right)=3(x+1)(x-3).$$
+
+Hence $y'=0\iff x=-1$ or $x=3$.
+
+Since the coefficient $a=3>0$, we have $y'>0$ when $x<-1$ or $x>3$, and $y'<0$ when $-1<x<3$. So $y'$ changes sign from $+$ to $-$ at $x=-1$ and from $-$ to $+$ at $x=3$.
+
+Therefore the function has a local maximum at $x=-1$ and a local minimum at $x=3$. We have
+$$\begin{aligned}y_{\text{max}}&=y(-1)=(-1)^3-3\cdot(-1)^2-9\cdot(-1)+4=-1-3+9+4=9,\\ y_{\text{min}}&=y(3)=3^3-3\cdot3^2-9\cdot3+4=27-27-27+4=-23.\end{aligned}$$
 
 So $y_{\text{max}}-y_{\text{min}}=9-(-23)=32$.
 
@@ -382,9 +405,22 @@ Suppose the concentration of a medicine in the blood $t$ hours after an injectio
 2. Find the sign of $C'(t)$ for $t>0$.
 
 ::solution
-We have $C'(t)=\dfrac{30(t^2+9)-30t\cdot 2t}{(t^2+9)^2}=\dfrac{30(9-t^2)}{(t^2+9)^2}$. For $t>0$, we have $C'>0$ when $0<t<3$ and $C'<0$ when $t>3$.
+Let $C(t)$ (mg/l) be the concentration of the medicine in the blood $t$ hours after the injection, with $t>0$. The function is differentiable on $(0, +\infty)$.
 
-So the concentration has a local maximum at $t=3$, and $C(3)=\dfrac{90}{18}=5$.
+Using the quotient rule with $u=30t$, $v=t^2+9$, we have
+$$C'(t)=\frac{30\left(t^2+9\right)-30t\cdot2t}{\left(t^2+9\right)^2}=\frac{30\left(9-t^2\right)}{\left(t^2+9\right)^2}.$$
+
+Since $30>0$ and $\left(t^2+9\right)^2>0$, the sign of $C'(t)$ is the sign of $9-t^2$. For $t>0$: $C'(t)>0$ when $0<t<3$ and $C'(t)<0$ when $t>3$; $C'(t)=0\iff t=3$ (because $t>0$). The table of variations is:
+
+| $t$ | $0$ | | $3$ | | $+\infty$ |
+|---|---|---|---|---|---|
+| $C'(t)$ | | $+$ | $0$ | $-$ | |
+| $C(t)$ | | $\nearrow$ | $5$ | $\searrow$ | |
+
+Hence the concentration increases on $(0, 3)$ and decreases on $(3, +\infty)$. The function has a local maximum at $t=3$, with local maximum value
+$$C(3)=\frac{30\cdot3}{3^2+9}=\frac{90}{18}=5.$$
+
+So the concentration increases during the first $3$ hours and decreases afterwards; the local maximum is $5$ mg/l at $t=3$ hours.
 
 **Answer.** It increases during the first $3$ hours and decreases afterwards; the local maximum is $5$ mg/l at $t=3$ hours.
 :::
@@ -418,9 +454,15 @@ Prove that $y=x^3+x^2+x+1$ is increasing on $\mathbb{R}$.
 2. Compute the discriminant of $y'$ and look at the sign of $a$.
 
 ::solution
-We have $y'=3x^2+2x+1$. Since $\Delta=4-12=-8<0$ and $a=3>0$, $y'>0$ for every $x$.
+The function $y=x^3+x^2+x+1$ is differentiable on $\mathbb{R}$. We have
+$$y'=3x^2+2x+1.$$
 
-So the function is increasing on $\mathbb{R}$.
+The quadratic $3x^2+2x+1$ has leading coefficient $a=3>0$ and discriminant
+$$\Delta=2^2-4\cdot3\cdot1=4-12=-8<0.$$
+
+Since $a>0$ and $\Delta<0$, we have $3x^2+2x+1>0$ for every $x\in\mathbb{R}$, that is, $y'>0$ for every $x\in\mathbb{R}$.
+
+So the function $y=x^3+x^2+x+1$ is increasing on $\mathbb{R}$.
 
 **Answer.** $y'>0$ for every $x\in\mathbb{R}$, so the function is increasing on $\mathbb{R}$.
 :::

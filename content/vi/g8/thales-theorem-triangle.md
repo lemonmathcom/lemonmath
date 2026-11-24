@@ -190,7 +190,12 @@ Cho $AB=15$ cm và $CD=1{,}2$ dm. Tính tỉ số $\dfrac{AB}{CD}$.
 2. Lập tỉ số và rút gọn.
 
 ::solution
-Ta có $CD=1{,}2$ dm $=12$ cm. Do đó $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+Tỉ số của hai đoạn thẳng là tỉ số độ dài của chúng khi cùng đơn vị đo, nên trước hết ta đổi về cùng đơn vị.
+
+Ta có $1$ dm $=10$ cm, nên $CD=1{,}2$ dm $=12$ cm.
+
+Do đó
+$$\frac{AB}{CD}=\frac{15}{12}=\frac54.$$
 
 Vậy $\dfrac{AB}{CD}=\dfrac54$.
 
@@ -208,7 +213,15 @@ Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=6$ cm
 2. Thay số và tính $EC$.
 
 ::solution
-Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{6}{9}=\dfrac{4}{EC}$. Suy ra $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+Xét tam giác $ABC$ có $D\in AB$, $E\in AC$ và $DE\parallel BC$.
+
+Theo định lí Thalès trong tam giác, ta có
+$$\frac{AD}{DB}=\frac{AE}{EC}.$$
+
+Thay $AD=6$ cm, $DB=9$ cm và $AE=4$ cm vào, ta được
+$$\frac69=\frac4{EC}.$$
+
+Suy ra $EC=\dfrac{4\cdot9}{6}=6$ (cm).
 
 Vậy $EC=6$ cm.
 
@@ -226,7 +239,17 @@ Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AB=12$ c
 2. Tính $EC=AC-AE$.
 
 ::solution
-Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{5}{12}=\dfrac{AE}{18}$. Suy ra $AE=\dfrac{5\cdot18}{12}=7{,}5$ (cm). Do đó $EC=18-7{,}5=10{,}5$ (cm).
+Xét tam giác $ABC$ có $D\in AB$, $E\in AC$ và $DE\parallel BC$.
+
+Theo định lí Thalès trong tam giác, ta có
+$$\frac{AD}{AB}=\frac{AE}{AC}.$$
+
+Thay $AD=5$ cm, $AB=12$ cm và $AC=18$ cm vào, ta được
+$$\frac5{12}=\frac{AE}{18}.$$
+
+Suy ra $AE=\dfrac{5\cdot18}{12}=7{,}5$ (cm).
+
+Vì $E$ nằm trên cạnh $AC$ nên $EC=AC-AE=18-7{,}5=10{,}5$ (cm).
 
 Vậy $AE=7{,}5$ cm và $EC=10{,}5$ cm.
 
@@ -244,7 +267,15 @@ Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=x$ cm
 2. Giải để tìm $x$.
 
 ::solution
-Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{x}{3}=\dfrac{4}{6}$. Suy ra $x=\dfrac{3\cdot4}{6}=2$.
+Xét tam giác $ABC$ có $D\in AB$, $E\in AC$ và $DE\parallel BC$.
+
+Theo định lí Thalès trong tam giác, ta có
+$$\frac{AD}{DB}=\frac{AE}{EC}.$$
+
+Thay $AD=x$, $DB=3$, $AE=4$ và $EC=6$ vào, ta được
+$$\frac x3=\frac46.$$
+
+Suy ra $x=\dfrac{3\cdot4}{6}=2$ (thoả mãn $x>0$).
 
 Vậy $x=2$ (cm).
 
@@ -262,7 +293,16 @@ Cho tam giác $ABC$ có $AB=15$ cm, $AC=20$ cm. Trên $AB$ lấy $D$ với $AD=6
 2. So sánh hai tỉ số rồi kết luận.
 
 ::solution
-Ta có $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ và $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. Hai tỉ số bằng nhau nên theo định lí Thalès đảo, $DE\parallel BC$.
+Xét tam giác $ABC$ có $D\in AB$ và $E\in AC$ (vì $AD=6<AB=15$ và $AE=8<AC=20$).
+
+Ta tính các tỉ số
+$$\frac{AD}{AB}=\frac6{15}=\frac25,\qquad\frac{AE}{AC}=\frac8{20}=\frac25.$$
+
+Suy ra $\dfrac{AD}{AB}=\dfrac{AE}{AC}$.
+
+Theo định lí Thalès đảo, ta có $DE\parallel BC$.
+
+Vậy $DE\parallel BC$.
 
 **Đáp số.** $DE\parallel BC$.
 :::
@@ -296,7 +336,17 @@ Giả sử một khung mái nhà hình tam giác $ABC$ có $AB=6$ m và $AC=5$ m
 2. Tính $EC=AC-AE$.
 
 ::solution
-Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{2{,}4}{6}=\dfrac{AE}{5}$. Suy ra $AE=\dfrac{2{,}4\cdot5}{6}=2$ (m). Do đó $EC=5-2=3$ (m).
+Xét tam giác $ABC$ có $D\in AB$, $E\in AC$ và thanh ngang $DE\parallel BC$.
+
+Theo định lí Thalès trong tam giác, ta có
+$$\frac{AD}{AB}=\frac{AE}{AC}.$$
+
+Thay $AD=2{,}4$ m, $AB=6$ m và $AC=5$ m vào, ta được
+$$\frac{2{,}4}{6}=\frac{AE}{5}.$$
+
+Suy ra $AE=\dfrac{2{,}4\cdot5}{6}=2$ (m).
+
+Vì $E$ nằm trên cạnh $AC$ nên $EC=AC-AE=5-2=3$ (m).
 
 Vậy $AE=2$ m và $EC=3$ m.
 

@@ -195,9 +195,13 @@ b) Find the median of $3, 9, 4, 7, 1, 6$.
 2. b) Sort the six numbers and take the mean of the two middle ones.
 
 ::solution
-a) $\bar{x}=\dfrac{45}{5}=9$.
+a) The mean of $n$ numbers is their sum divided by $n$. For the $5$ given numbers,
+$$\bar{x}=\frac{6+8+9+10+12}{5}=\frac{45}{5}=9.$$
 
-b) Sorted: $1, 3, 4, 6, 7, 9$; $M=\dfrac{4+6}{2}=5$.
+b) Sort the numbers in non-decreasing order: $1, 3, 4, 6, 7, 9$. The data set has $n=6$ values (an even number), so the median is the mean of the two middle values, the $3$rd and the $4$th:
+$$M=\frac{4+6}{2}=5.$$
+
+So the mean of $6, 8, 9, 10, 12$ is $9$, and the median of $3, 9, 4, 7, 1, 6$ is $5$.
 
 **Answer.** a) $9$; b) $5$.
 :::
@@ -215,9 +219,13 @@ b) A shop records the shirt sizes sold in one day: M, L, S, M, XL, M, L, M, S, L
 2. Choose the value that occurs most often.
 
 ::solution
-a) $5$ occurs three times, more than any other value.
+a) The mode is the value that occurs most often. In $2, 3, 3, 5, 5, 5, 7$: $2$ occurs once, $3$ twice, $5$ three times, $7$ once. Since $5$ occurs most often, the mode is $5$.
 
-b) Frequencies: S: $2$, M: $4$, L: $3$, XL: $1$. Shirt sizes are not numbers, so they cannot be added and divided.
+b) Make a frequency table of the $10$ recorded sizes: S occurs $2$ times, M occurs $4$ times, L occurs $3$ times, XL occurs $1$ time (check: $2+4+3+1=10$). The largest frequency is $4$, for size M, so the mode is M.
+
+Shirt sizes are not numbers, so they cannot be added and then divided by the number of values; hence the mean of these data cannot be computed.
+
+So the mode of the numbers in part a) is $5$; the mode of the shirt sizes is M, and the mean of the shirt sizes cannot be computed.
 
 **Answer.** a) mode $5$; b) mode M; the mean cannot be computed.
 :::
@@ -237,9 +245,21 @@ b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
 2. Split into two halves and find the median of each.
 
 ::solution
-a) $n=9$, $M=8$. Lower half $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4.5$. Upper half $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+We use the convention: $M$ is the median of the whole data set; $Q_1$ is the median of the lower half and $Q_3$ is the median of the upper half. When $n$ is odd, the lower and upper halves do not contain the median $M$. Both data sets are already sorted in increasing order.
 
-b) $n=12$, $M=\dfrac{10+12}{2}=11$. Lower half $3, 4, 6, 7, 9, 10$: $Q_1=6.5$. Upper half $12, 13, 15, 16, 18, 20$: $Q_3=15.5$.
+a) The data set has $n=9$ values (odd), so $M$ is the $5$th value: $M=8$.
+
+The lower half is $2, 4, 5, 7$ ($4$ values), so $Q_1=\dfrac{4+5}{2}=4.5$.
+
+The upper half is $10, 11, 13, 15$ ($4$ values), so $Q_3=\dfrac{11+13}{2}=12$.
+
+b) The data set has $n=12$ values (even), so $M$ is the mean of the $6$th and $7$th values: $M=\dfrac{10+12}{2}=11$.
+
+The lower half is $3, 4, 6, 7, 9, 10$ ($6$ values), so $Q_1=\dfrac{6+7}{2}=6.5$.
+
+The upper half is $12, 13, 15, 16, 18, 20$ ($6$ values), so $Q_3=\dfrac{15+16}{2}=15.5$.
+
+So in part a) $M=8$, $Q_1=4.5$, $Q_3=12$; in part b) $M=11$, $Q_1=6.5$, $Q_3=15.5$.
 
 **Answer.** a) $M=8$, $Q_1=4.5$, $Q_3=12$; b) $M=11$, $Q_1=6.5$, $Q_3=15.5$.
 :::
@@ -259,8 +279,17 @@ The table gives the number of books read in one month by $22$ students. Find $\b
 2. Build the cumulative frequencies and find the $11$th and $12$th values.
 
 ::solution
-$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2.86.$$
-Cumulative frequencies $3, 8, 16, 20, 22$: the $11$th and $12$th values are both $3$, so $M=3$. The largest frequency is $8$, for $3$ books.
+The total number of students is $3+5+8+4+2=22$.
+
+The mean is the sum of (value times frequency) divided by $22$:
+$$\bar{x}=\frac{1\cdot3+2\cdot5+3\cdot8+4\cdot4+5\cdot2}{22}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2.86.$$
+
+The data set has $n=22$ values (even), so the median is the mean of the $11$th and $12$th values. The cumulative frequencies for $1, 2, 3, 4, 5$ books are $3, 8, 16, 20, 22$. The values from the $9$th to the $16$th are all $3$ (since $8<9$ and $16\ge16$), so the $11$th and $12$th values are both $3$. Hence
+$$M=\frac{3+3}{2}=3.$$
+
+The largest frequency is $8$, for $3$ books, so the mode is $3$.
+
+So $\bar{x}\approx2.86$ books, $M=3$ books and the mode is $3$ books.
 
 **Answer.** $\bar{x}\approx2.86$; $M=3$; mode $3$.
 :::
@@ -285,13 +314,17 @@ d) If the value $30$ is added to the data set, the median changes more than the 
 3. With $n=10$ after adding $30$, recompute $\bar{x}$ and $M$.
 
 ::solution
-a) **False:** $\bar{x}=\dfrac{78}{9}\approx8.67$.
+The data set $5, 7, 7, 8, 9, 10, 10, 10, 12$ is already sorted in increasing order and has $n=9$ values.
 
-b) **True:** the $5$th value is $9$.
+a) **False.** The sum of the values is $5+7+7+8+9+10+10+10+12=78$, so $\bar{x}=\dfrac{78}{9}\approx8.67$, which is not $8$.
 
-c) **True:** the lower half $5, 7, 7, 8$ gives $Q_1=\dfrac{7+7}{2}=7$.
+b) **True.** Since $n=9$ is odd, the median is the $5$th value, which is $9$.
 
-d) **False:** after adding $30$, $M=\dfrac{9+10}{2}=9.5$ (up by $0.5$), while $\bar{x}=\dfrac{108}{10}=10.8$ (up by about $2.13$).
+c) **True.** The lower half (not containing the median) is $5, 7, 7, 8$, so $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **False.** After adding $30$, the data set is $5, 7, 7, 8, 9, 10, 10, 10, 12, 30$ with $10$ values. The new median is $M=\dfrac{9+10}{2}=9.5$, up by $9.5-9=0.5$. The new mean is $\bar{x}=\dfrac{78+30}{10}=\dfrac{108}{10}=10.8$, up by about $10.8-8.67\approx2.13$. The median rises by less than the mean, so the claim that the median changes more is false.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -307,8 +340,14 @@ A class has $20$ girls with a mean mark of $7.0$ and $10$ boys with a mean mark 
 2. Divide the sum by $30$.
 
 ::solution
+The mean mark of the whole class equals the total of all marks divided by the total number of students.
+
+The $20$ girls have a total of $20\cdot7=140$. The $10$ boys have a total of $10\cdot8.5=85$. The class has $20+10=30$ students. Hence
 $$\bar{x}=\frac{20\cdot7+10\cdot8.5}{30}=\frac{140+85}{30}=\frac{225}{30}=7.5.$$
-We cannot take $\dfrac{7+8.5}{2}=7.75$, because the two groups have different sizes.
+
+So the mean mark of the whole class is $7.5$.
+
+*Remark.* We cannot take $\dfrac{7+8.5}{2}=7.75$, because the two groups have different sizes, so we must use the total marks and the total number of students.
 
 **Answer.** $7.5$.
 :::
@@ -324,8 +363,16 @@ The monthly salaries (million dong) of the seven people working in a small shop 
 2. Compare each number with most of the values.
 
 ::solution
-$$\bar{x}=\frac{177}{7}\approx25.29,\qquad M=15.$$
-Six of the seven people earn less than $18$ million dong, so $25.29$ represents nobody.
+Let $\bar{x}$ (million dong) be the mean and $M$ (million dong) the median of the seven salaries.
+
+The total salary is $12+13+14+15+16+17+90=177$ (million dong), so
+$$\bar{x}=\frac{177}{7}\approx25.29.$$
+
+The seven values are already sorted in increasing order; $n=7$ is odd, so the median is the $4$th value, that is $M=15$.
+
+Six of the seven people earn less than $18$ million dong (from $12$ to $17$ million dong), but the mean $25.29$ is larger than all six of these salaries, because it is pulled up by the very large value $90$ of the owner. So $25.29$ represents nobody among the seven people. The median $15$ is not distorted by this unusual value, so it reflects what a person here is usually paid.
+
+So the mean is about $25.29$ million dong and the median is $15$ million dong; to know how much a person working here is usually paid, the median should be used.
 
 **Answer.** $\bar{x}\approx25.29$ million dong, $M=15$ million dong; the median should be used.
 :::
@@ -341,7 +388,17 @@ Seven numbers have mean $10$. When one number is removed, the remaining six have
 2. Take the difference.
 
 ::solution
-The seven numbers add up to $7\cdot10=70$ and the six to $6\cdot9=54$, so the removed number is $70-54=16$.
+Let $a$ be the number that was removed.
+
+The seven numbers have mean $10$, so they add up to $7\cdot10=70$.
+
+The remaining six numbers have mean $9$, so they add up to $6\cdot9=54$.
+
+The total of the seven numbers equals the total of the remaining six plus the removed number, so $70=54+a$. Hence $a=70-54=16$.
+
+Check: removing $16$ from the seven numbers leaves a total of $70-16=54$, and the mean of the remaining six is $\dfrac{54}{6}=9$ (correct).
+
+So the removed number is $16$.
 
 **Answer.** $16$.
 :::
@@ -358,9 +415,18 @@ A data set of $5$ positive whole numbers has mean $6$, median $5$, a single mode
 3. Find $d$ from the total.
 
 ::solution
-The total is $5\cdot6=30$. Since $3<5=c$, the value $3$ can only be $a$ and $b$, so $a=b=3$. Then
+Let the data set, sorted in increasing order, be $a\le b\le c\le d\le e$ (positive whole numbers).
+
+The median is $5$, so $c=5$. The largest value is $11$, so $e=11$. The mean is $6$, so the total of the five numbers is $5\cdot6=30$.
+
+The single mode is $3$, so $3$ must occur at least twice (if every value occurred only once, there would not be a single mode). Since $3<5=c$ and every number after $c$ is at least $5$, the values equal to $3$ can only be $a$ and $b$. Hence $a=b=3$.
+
+Then
 $$d=30-3-3-5-11=8.$$
-In $3, 3, 5, 8, 11$ every value other than $3$ occurs once, so $3$ is the only mode.
+
+Check: $5\le d=8\le11$ (the order is correct). The data set $3, 3, 5, 8, 11$ has mean $\dfrac{30}{5}=6$, median $5$ and largest value $11$; the value $3$ occurs twice while every other value occurs once, so $3$ is the only mode.
+
+So the required data set is $3, 3, 5, 8, 11$.
 
 **Answer.** $3, 3, 5, 8, 11$.
 :::
@@ -377,8 +443,20 @@ In $3, 3, 5, 8, 11$ every value other than $3$ occurs once, so $3$ is the only m
 3. Substitute both pairs.
 
 ::solution
-$$\frac{6+7+8+7+x+y}{6}\ge7.5\iff 28+x+y\ge45\iff x+y\ge17.$$
-For $(8, 9)$: $17\ge17$, true. For $(10, 6)$: $16\ge17$, false.
+Let $x$ and $y$ be the marks of the two remaining tests (marked out of $10$, so $0\le x, y\le10$).
+
+The four tests so far are $6, 7, 8, 7$ with total $6+7+8+7=28$. The mean of the six tests is at least $7.5$ when
+$$\frac{6+7+8+7+x+y}{6}\ge7.5.$$
+
+Multiplying both sides by $6>0$ (the inequality keeps its direction), we get $28+x+y\ge45$, hence
+$$x+y\ge17.$$
+
+Check each pair of marks:
+
+- For $(8, 9)$: $8+9=17$ and $17\ge17$ is true, so this pair satisfies the condition.
+- For $(10, 6)$: $10+6=16$ and $16\ge17$ is false, so this pair does not satisfy the condition.
+
+So the condition is $x+y\ge17$ (with $0\le x, y\le10$); the pair $(8, 9)$ satisfies it and $(10, 6)$ does not.
 
 **Answer.** $x+y\ge17$ (with $0\le x, y\le10$); $(8, 9)$ satisfies it, $(10, 6)$ does not.
 :::

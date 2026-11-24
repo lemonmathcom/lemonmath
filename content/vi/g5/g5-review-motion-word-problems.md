@@ -126,7 +126,12 @@ Một ô tô đi $175$ km hết $3{,}5$ giờ. Tính vận tốc của ô tô.
 2. Lấy quãng đường chia cho thời gian.
 
 ::solution
-$v=175:3{,}5=50$ (km/giờ).
+Bài giải
+
+Vận tốc bằng quãng đường chia cho thời gian. Vận tốc của ô tô là:
+$$v=175:3{,}5=50\ \text{(km/giờ)}$$
+
+Vậy vận tốc của ô tô là $50$ km/giờ.
 
 **Đáp số.** $50$ km/giờ.
 :::
@@ -142,7 +147,14 @@ Một người đi xe đạp với vận tốc $12$ km/giờ. Hỏi đi quãng �
 2. Đổi phần thập phân của giờ ra phút.
 
 ::solution
-$t=27:12=2{,}25$ (giờ) $=2$ giờ $15$ phút.
+Bài giải
+
+Thời gian bằng quãng đường chia cho vận tốc. Thời gian người đó đi hết quãng đường là:
+$$t=27:12=2{,}25\ \text{(giờ)}$$
+
+Ta có $0{,}25$ giờ $=0{,}25\times60=15$ phút, nên $2{,}25$ giờ $=2$ giờ $15$ phút.
+
+Vậy người đó đi hết $2$ giờ $15$ phút.
 
 **Đáp số.** $2$ giờ $15$ phút.
 :::
@@ -158,7 +170,14 @@ Một xe máy đi với vận tốc $36$ km/giờ. Hỏi trong $20$ phút xe đi
 2. Nhân với vận tốc.
 
 ::solution
-$s=36\times\dfrac13=12$ (km).
+Bài giải
+
+Đổi $20$ phút $=\dfrac{20}{60}$ giờ $=\dfrac13$ giờ.
+
+Quãng đường bằng vận tốc nhân với thời gian. Quãng đường xe máy đi được trong $20$ phút là:
+$$s=36\times\frac13=12\ \text{(km)}$$
+
+Vậy trong $20$ phút xe máy đi được $12$ km.
 
 **Đáp số.** $12$ km.
 :::
@@ -174,7 +193,15 @@ Một xe buýt khởi hành lúc $7$ giờ $20$ phút, đi quãng đường dài
 2. Cộng với giờ khởi hành.
 
 ::solution
-Thời gian đi là $90:45=2$ (giờ). Xe đến lúc $7$ giờ $20$ phút $+$ $2$ giờ $=9$ giờ $20$ phút.
+Bài giải
+
+Thời gian xe buýt đi là:
+$$90:45=2\ \text{(giờ)}$$
+
+Xe buýt đến nơi lúc:
+$$7\ \text{giờ}\ 20\ \text{phút}+2\ \text{giờ}=9\ \text{giờ}\ 20\ \text{phút}$$
+
+Vậy xe buýt đến nơi lúc $9$ giờ $20$ phút.
 
 **Đáp số.** $9$ giờ $20$ phút.
 :::
@@ -191,7 +218,20 @@ Một xe đi $60$ km trong $1$ giờ, rồi đi tiếp $90$ km trong $2$ giờ. 
 3. Thử lại: $50\times3$ có bằng tổng quãng đường không?
 
 ::solution
-Tổng quãng đường là $60+90=150$ (km). Tổng thời gian là $1+2=3$ (giờ). Vận tốc trung bình là $150:3=50$ (km/giờ).
+Bài giải
+
+Vận tốc trung bình bằng tổng quãng đường chia cho tổng thời gian.
+
+Tổng quãng đường xe đi là:
+$$60+90=150\ \text{(km)}$$
+
+Tổng thời gian xe đi là:
+$$1+2=3\ \text{(giờ)}$$
+
+Vận tốc trung bình của xe là:
+$$150:3=50\ \text{(km/giờ)}$$
+
+Vậy vận tốc trung bình của xe trên cả quãng đường là $50$ km/giờ.
 
 **Đáp số.** $50$ km/giờ.
 :::
@@ -207,7 +247,15 @@ Mua $6$ quyển vở giống nhau hết $72\,000$ đồng. Hỏi mua $15$ quyể
 2. Tìm giá một quyển, rồi nhân với $15$.
 
 ::solution
-Giá một quyển vở là $72\,000:6=12\,000$ (đồng). Mua $15$ quyển hết $12\,000\times15=180\,000$ (đồng).
+Bài giải
+
+Giá tiền một quyển vở là:
+$$72\,000:6=12\,000\ \text{(đồng)}$$
+
+Số tiền mua $15$ quyển vở là:
+$$12\,000\times15=180\,000\ \text{(đồng)}$$
+
+Vậy mua $15$ quyển vở như vậy hết $180\,000$ đồng.
 
 **Đáp số.** $180\,000$ đồng.
 :::
@@ -223,7 +271,15 @@ Một cửa hàng giảm giá $15\%$ cho một chiếc áo giá $200\,000$ đồ
 2. Lấy giá cũ trừ tiền giảm.
 
 ::solution
-Số tiền được giảm là $200\,000:100\times15=30\,000$ (đồng). Giá sau giảm là $200\,000-30\,000=170\,000$ (đồng).
+Bài giải
+
+Số tiền được giảm là:
+$$200\,000:100\times15=30\,000\ \text{(đồng)}$$
+
+Giá chiếc áo sau khi giảm là:
+$$200\,000-30\,000=170\,000\ \text{(đồng)}$$
+
+Vậy giá chiếc áo sau khi giảm là $170\,000$ đồng.
 
 **Đáp số.** $170\,000$ đồng.
 :::
@@ -239,7 +295,15 @@ Một đội $6$ công nhân sửa xong một con đường trong $8$ ngày. Mu�
 2. Chia cho số ngày mới.
 
 ::solution
-Công việc cần $6\times8=48$ (ngày công). Muốn xong trong $6$ ngày cần $48:6=8$ (công nhân).
+Bài giải
+
+Vì mỗi người làm việc như nhau, nên khối lượng công việc không đổi. Công việc cần số ngày công là:
+$$6\times8=48\ \text{(ngày công)}$$
+
+Muốn sửa xong trong $6$ ngày thì cần số công nhân là:
+$$48:6=8\ \text{(công nhân)}$$
+
+Vậy cần $8$ công nhân.
 
 **Đáp số.** $8$ công nhân.
 :::
@@ -255,7 +319,20 @@ Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hà
 2. Đổi sang giờ rồi nhân với vận tốc.
 
 ::solution
-Thời gian đi là $11$ giờ $15$ phút $-$ $8$ giờ $45$ phút $=10$ giờ $75$ phút $-$ $8$ giờ $45$ phút $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là $52\times2{,}5=130$ (km).
+Bài giải
+
+Thời gian xe đi là:
+$$11\ \text{giờ}\ 15\ \text{phút}-8\ \text{giờ}\ 45\ \text{phút}$$
+
+Vì $15$ phút không trừ được $45$ phút nên đổi $11$ giờ $15$ phút $=10$ giờ $75$ phút. Ta có
+$$10\ \text{giờ}\ 75\ \text{phút}-8\ \text{giờ}\ 45\ \text{phút}=2\ \text{giờ}\ 30\ \text{phút}.$$
+
+Đổi $2$ giờ $30$ phút $=2{,}5$ giờ.
+
+Quãng đường xe đã đi là:
+$$52\times2{,}5=130\ \text{(km)}$$
+
+Vậy xe đã đi quãng đường $130$ km.
 
 **Đáp số.** $130$ km.
 :::
@@ -271,9 +348,28 @@ Một người đi từ A đến B với vận tốc $30$ km/giờ rồi quay t�
 2. Chia tổng quãng đường cho tổng thời gian.
 
 ::solution
-Thời gian đi là $60:30=2$ (giờ), thời gian về là $60:20=3$ (giờ). Tổng quãng đường là $60\times2=120$ (km), tổng thời gian là $5$ giờ. Vận tốc trung bình là $120:5=24$ (km/giờ).
+Bài giải
 
-**Nhận xét.** Nếu AB $=120$ km thì đi $4$ giờ, về $6$ giờ, $240:10=24$: kết quả không đổi.
+Ta thử với $AB=60$ km.
+
+Thời gian đi từ A đến B là:
+$$60:30=2\ \text{(giờ)}$$
+
+Thời gian về từ B đến A là:
+$$60:20=3\ \text{(giờ)}$$
+
+Tổng quãng đường cả đi lẫn về là:
+$$60\times2=120\ \text{(km)}$$
+
+Tổng thời gian cả đi lẫn về là:
+$$2+3=5\ \text{(giờ)}$$
+
+Vận tốc trung bình cả đi lẫn về là:
+$$120:5=24\ \text{(km/giờ)}$$
+
+Vậy vận tốc trung bình cả đi lẫn về là $24$ km/giờ.
+
+*Nhận xét.* Nếu $AB=120$ km thì đi $4$ giờ, về $6$ giờ, và $240:10=24$: kết quả không đổi.
 
 **Đáp số.** $24$ km/giờ.
 :::

@@ -219,7 +219,14 @@ Determine the relative position of the lines $x-3y+2=0$ and $-2x+6y-4=0$.
 2. Compare them and conclude.
 
 ::solution
-$\dfrac{1}{-2}=\dfrac{-3}{6}=\dfrac{2}{-4}=-\dfrac12$. All three ratios are equal, so the equations are proportional.
+Consider the lines $d_1: x-3y+2=0$ and $d_2: -2x+6y-4=0$. We compare the corresponding coefficients $(a_1, b_1, c_1)=(1, -3, 2)$ and $(a_2, b_2, c_2)=(-2, 6, -4)$.
+
+We have
+$$\frac{a_1}{a_2}=\frac{1}{-2}=-\frac12,\qquad \frac{b_1}{b_2}=\frac{-3}{6}=-\frac12,\qquad \frac{c_1}{c_2}=\frac{2}{-4}=-\frac12.$$
+
+All three ratios are equal, so the equations are proportional. Indeed, $-2(x-3y+2)=-2x+6y-4$, that is, the equation of $d_2$ is obtained by multiplying both sides of the equation of $d_1$ by $-2$. Hence the two equations have the same solution set.
+
+So the two given lines coincide.
 
 **Answer.** The lines coincide.
 :::
@@ -235,7 +242,19 @@ Find the intersection point of the lines $3x+2y-6=0$ and $x-y+2=0$.
 2. Substitute into the first equation.
 
 ::solution
-Substituting $x=y-2$: $3(y-2)+2y-6=0\iff 5y=12\iff y=\dfrac{12}{5}$, so $x=\dfrac{12}{5}-2=\dfrac25$.
+The coordinates of the intersection point are the solution of the system
+$$\begin{cases}3x+2y-6=0\\ x-y+2=0.\end{cases}$$
+
+From the second equation, $x=y-2$.
+
+Substituting $x=y-2$ into the first equation, we get
+$$\begin{aligned}3(y-2)+2y-6&=0\\ 3y-6+2y-6&=0\\ 5y&=12\\ y&=\frac{12}{5}.\end{aligned}$$
+
+Hence $x=y-2=\dfrac{12}{5}-2=\dfrac25$.
+
+Check: $3\cdot\dfrac25+2\cdot\dfrac{12}{5}-6=\dfrac{6+24}{5}-6=0$ and $\dfrac25-\dfrac{12}{5}+2=-2+2=0$.
+
+So the intersection point of the two lines is $\left(\dfrac25, \dfrac{12}{5}\right)$.
 
 **Answer.** $\left(\dfrac25, \dfrac{12}{5}\right)$.
 :::
@@ -251,7 +270,18 @@ Find the angle between the lines $x+y=0$ and $x+3y-2=0$ (in degrees, rounded to 
 2. Compute $\cos\varphi$, then use a calculator to find $\varphi$.
 
 ::solution
-$\cos\varphi=\dfrac{|1+3|}{\sqrt2\cdot\sqrt{10}}=\dfrac{4}{\sqrt{20}}=\dfrac{2}{\sqrt5}$, so $\varphi\approx 26.57^\circ$.
+Let $\varphi$ be the angle between the lines $x+y=0$ and $x+3y-2=0$. The two lines have normal vectors $\vec{n}_1=(1, 1)$ and $\vec{n}_2=(1, 3)$ respectively.
+
+Using the formula for the angle between two lines
+$$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|},$$
+we have $\vec{n}_1\cdot\vec{n}_2=1\cdot1+1\cdot3=4$, $|\vec{n}_1|=\sqrt{1+1}=\sqrt2$ and $|\vec{n}_2|=\sqrt{1+9}=\sqrt{10}$.
+
+Therefore
+$$\cos\varphi=\frac{|1+3|}{\sqrt2\cdot\sqrt{10}}=\frac{4}{\sqrt{20}}=\frac{2}{\sqrt5}.$$
+
+Hence $\varphi\approx 26.57^\circ$ (rounded to two decimal places).
+
+So the angle between the two lines is approximately $26.57^\circ$.
 
 **Answer.** $26.57$.
 :::
@@ -267,7 +297,13 @@ Find the distance from the origin to the line $5x+12y-26=0$.
 2. Compute $\sqrt{5^2+12^2}$.
 
 ::solution
-$d=\dfrac{|0+0-26|}{\sqrt{25+144}}=\dfrac{26}{13}=2$.
+The distance from a point $M(x_0, y_0)$ to the line $ax+by+c=0$ is
+$$d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$$
+
+Applying this with $M=O(0, 0)$ and the line $5x+12y-26=0$ (so $a=5$, $b=12$, $c=-26$), we get
+$$d=\frac{|5\cdot0+12\cdot0-26|}{\sqrt{5^2+12^2}}=\frac{26}{\sqrt{25+144}}=\frac{26}{\sqrt{169}}=\frac{26}{13}=2.$$
+
+So the distance from the origin to the given line is $2$.
 
 **Answer.** $2$.
 :::
@@ -283,7 +319,17 @@ Find the distance between the parallel lines $2x-y+1=0$ and $2x-y-4=0$.
 2. Substitute into the formula.
 
 ::solution
-Both equations have $a=2$, $b=-1$. $d=\dfrac{|1-(-4)|}{\sqrt{4+1}}=\dfrac{5}{\sqrt5}=\sqrt5$.
+The lines $2x-y+1=0$ and $2x-y-4=0$ have the same $a=2$, $b=-1$, so they are parallel (the constants $1\ne-4$ are different).
+
+The distance between the parallel lines $ax+by+c_1=0$ and $ax+by+c_2=0$ is
+$$d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$$
+
+Here $c_1=1$, $c_2=-4$, so
+$$d=\frac{|1-(-4)|}{\sqrt{4+1}}=\frac{5}{\sqrt5}=\sqrt5.$$
+
+Check with a point: the point $M(0, 1)$ lies on the first line (since $2\cdot0-1+1=0$), and its distance to the second line is $\dfrac{|2\cdot0-1-4|}{\sqrt5}=\dfrac{5}{\sqrt5}=\sqrt5$.
+
+So the distance between the two parallel lines is $\sqrt5$.
 
 **Answer.** $\sqrt5$.
 :::
@@ -308,13 +354,20 @@ d) The distance from $A$ to $d_2$ is $1$.
 3. Compute the two distances from $A$.
 
 ::solution
-a) **True**: $3\cdot4+(-4)\cdot3=0$.
+The lines $d_1: 3x-4y+5=0$ and $d_2: 4x+3y-10=0$ have normal vectors $\vec{n}_1=(3, -4)$ and $\vec{n}_2=(4, 3)$ respectively.
 
-b) **True**: $3-8+5=0$ and $4+6-10=0$.
+a) **True.** We have $\vec{n}_1\cdot\vec{n}_2=3\cdot4+(-4)\cdot3=12-12=0$, so $\vec{n}_1\perp\vec{n}_2$. Hence $d_1\perp d_2$.
 
-c) **False**: $d(A, d_1)=\dfrac{|6+4+5|}{5}=3$.
+b) **True.** Substituting $(1, 2)$ into $d_1$: $3\cdot1-4\cdot2+5=3-8+5=0$. Substituting $(1, 2)$ into $d_2$: $4\cdot1+3\cdot2-10=4+6-10=0$. The point $(1, 2)$ lies on both lines, and the lines intersect (they are perpendicular), so their intersection point is $(1, 2)$.
 
-d) **True**: $d(A, d_2)=\dfrac{|8-3-10|}{5}=1$.
+c) **False.** We have
+$$d(A, d_1)=\frac{|3\cdot2-4\cdot(-1)+5|}{\sqrt{3^2+(-4)^2}}=\frac{|6+4+5|}{5}=\frac{15}{5}=3.$$
+The distance is $3$, not $2$.
+
+d) **True.** We have
+$$d(A, d_2)=\frac{|4\cdot2+3\cdot(-1)-10|}{\sqrt{4^2+3^2}}=\frac{|8-3-10|}{5}=\frac{5}{5}=1.$$
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -331,7 +384,23 @@ On a plan (units: tens of metres), a triangular plot of land has vertices $A(1, 
 3. Compute the area on the plan, then multiply by $100$.
 
 ::solution
-$\vec{n}=(3, -4)$: $AB: 3(x-1)-4(y-1)=0\iff 3x-4y+1=0$. $d(C, AB)=\dfrac{|6-20+1|}{5}=2.6$, $AB=\sqrt{16+9}=5$. The area on the plan is $\dfrac12\cdot5\cdot2.6=6.5$, so the real area is $6.5\cdot100=650$ m².
+We have $\overrightarrow{AB}=(5-1, 4-1)=(4, 3)$. The line $AB$ has the normal vector $\vec{n}=(3, -4)$ (because $\vec{n}\cdot\overrightarrow{AB}=3\cdot4-4\cdot3=0$) and passes through $A(1, 1)$, so its equation is
+$$3(x-1)-4(y-1)=0\iff 3x-4y+1=0.$$
+
+Check: the point $B(5, 4)$ satisfies it since $3\cdot5-4\cdot4+1=0$.
+
+The distance from $C(2, 5)$ to the line $AB$ is
+$$d(C, AB)=\frac{|3\cdot2-4\cdot5+1|}{\sqrt{3^2+(-4)^2}}=\frac{|6-20+1|}{5}=\frac{13}{5}=2.6$$
+(in tens of metres).
+
+The length of side $AB$ is $\sqrt{4^2+3^2}=\sqrt{25}=5$ (tens of metres).
+
+The area of triangle $ABC$ on the plan is
+$$S=\frac12\cdot AB\cdot d(C, AB)=\frac12\cdot5\cdot2.6=6.5\ (\text{tens of metres})^2.$$
+
+Since $1$ unit on the plan represents $10$ m, $1$ square unit represents $10\cdot10=100$ m². So the real area of the plot is $6.5\cdot100=650$ m².
+
+So the line $AB$ has equation $3x-4y+1=0$, the distance from $C$ to $AB$ is $2.6$ (tens of metres), and the real area of the plot is $650$ m².
 
 **Answer.** $3x-4y+1=0$; $2.6$; $650$ m².
 :::
@@ -347,7 +416,14 @@ A lighthouse stands at the point $M(3, 4)$ on a sea chart (units: km), and its l
 2. Compare it with $6$ km.
 
 ::solution
-$d(M, \Delta)=\dfrac{|12+12-49|}{\sqrt{16+9}}=\dfrac{25}{5}=5$ km. Since $5<6$, the ship enters the zone where the light is visible.
+The zone where the light is visible is the disc with centre $M(3, 4)$ and radius $6$ km. The ship sails along the line $\Delta: 4x+3y-49=0$. The ship enters this zone if and only if the distance from the centre $M$ to $\Delta$ is less than the radius $6$ km.
+
+The distance from $M$ to $\Delta$ is
+$$d(M, \Delta)=\frac{|4\cdot3+3\cdot4-49|}{\sqrt{4^2+3^2}}=\frac{|12+12-49|}{\sqrt{16+9}}=\frac{25}{5}=5\ \text{km}.$$
+
+Since $5<6$, the line $\Delta$ meets the disc with centre $M$ and radius $6$ km, that is, the ship enters the zone where the light is visible.
+
+So the ship does enter the zone; the closest distance from the ship to the lighthouse is $5$ km.
 
 **Answer.** Yes; the closest distance is $5$ km.
 :::
@@ -363,7 +439,15 @@ Find the distance from $A(1, 1)$ to the line through $B(2, -1)$ with direction v
 2. Use the distance formula.
 
 ::solution
-$\vec{n}=(4, -3)$: $4(x-2)-3(y+1)=0\iff 4x-3y-11=0$. The distance from $A$ is $\dfrac{|4-3-11|}{5}=\dfrac{10}{5}=2$.
+The required line has direction vector $\vec{u}=(3, 4)$, so it has the normal vector $\vec{n}=(4, -3)$ (because $\vec{n}\cdot\vec{u}=4\cdot3-3\cdot4=0$). It passes through $B(2, -1)$, so its equation is
+$$4(x-2)-3(y+1)=0\iff 4x-3y-11=0.$$
+
+Check: $B(2, -1)$ satisfies it since $4\cdot2-3\cdot(-1)-11=8+3-11=0$.
+
+The distance from $A(1, 1)$ to this line is
+$$d=\frac{|4\cdot1-3\cdot1-11|}{\sqrt{4^2+(-3)^2}}=\frac{|4-3-11|}{5}=\frac{10}{5}=2.$$
+
+So the distance from $A$ to the given line is $2$.
 
 **Answer.** $2$.
 :::
@@ -383,9 +467,21 @@ b) Find the angle between the lines $AB$ and $AC$. Why is the result different f
 2. The angle between the lines equals $\angle BAC$ if that angle is not obtuse, and $180^\circ-\angle BAC$ if it is obtuse.
 
 ::solution
-a) $\overrightarrow{AB}=(4, 0)$, $\overrightarrow{AC}=(-2, 3)$, $\cos\angle BAC=\dfrac{-8}{4\sqrt{13}}=-\dfrac{2}{\sqrt{13}}$, so $\angle BAC\approx 123.69^\circ$.
+a) We have $\overrightarrow{AB}=(4-0, 0-0)=(4, 0)$ and $\overrightarrow{AC}=(-2-0, 3-0)=(-2, 3)$.
 
-b) The angle $\angle BAC$ is obtuse, so the angle between the lines is $180^\circ-123.69^\circ=56.31^\circ$ (also the angle with $\cos\varphi=\dfrac{2}{\sqrt{13}}$).
+Using the scalar product formula $\cos\angle BAC=\dfrac{\overrightarrow{AB}\cdot\overrightarrow{AC}}{|\overrightarrow{AB}|\cdot|\overrightarrow{AC}|}$, with $\overrightarrow{AB}\cdot\overrightarrow{AC}=4\cdot(-2)+0\cdot3=-8$, $|\overrightarrow{AB}|=4$ and $|\overrightarrow{AC}|=\sqrt{4+9}=\sqrt{13}$, we get
+$$\cos\angle BAC=\frac{-8}{4\sqrt{13}}=-\frac{2}{\sqrt{13}}.$$
+
+Hence $\angle BAC\approx 123.69^\circ$ (rounded to two decimal places).
+
+b) The angle between the lines $AB$ and $AC$ is computed with the absolute value of the scalar product:
+$$\cos\varphi=\frac{|\overrightarrow{AB}\cdot\overrightarrow{AC}|}{|\overrightarrow{AB}|\cdot|\overrightarrow{AC}|}=\frac{|-8|}{4\sqrt{13}}=\frac{2}{\sqrt{13}}.$$
+
+Hence $\varphi\approx 56.31^\circ$.
+
+The result differs from part a) because the angle between two lines always lies in $[0^\circ, 90^\circ]$, whereas the angle $\angle BAC$ of the triangle can be greater than $90^\circ$. Here $\cos\angle BAC<0$, so $\angle BAC$ is obtuse, and the angle between the lines is its supplement: $180^\circ-123.69^\circ=56.31^\circ$ (also the angle with $\cos\varphi=\dfrac{2}{\sqrt{13}}$).
+
+So $\angle BAC\approx 123.69^\circ$ and the angle between the lines $AB$ and $AC$ is approximately $56.31^\circ$.
 
 **Answer.** a) $\approx 123.69^\circ$; b) $\approx 56.31^\circ$.
 :::

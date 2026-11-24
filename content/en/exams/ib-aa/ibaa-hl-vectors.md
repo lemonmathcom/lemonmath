@@ -92,7 +92,16 @@ Find $k$ such that $\begin{pmatrix}k\\2\\-1\end{pmatrix}$ and $\begin{pmatrix}3\
 **What you need:** the scalar product is $0$.
 
 ::solution
-$3k+2k-4=0$, so $k=\dfrac45$.
+Two vectors are perpendicular if and only if their scalar product is $0$. We have
+$$\begin{pmatrix}k\\2\\-1\end{pmatrix}\cdot\begin{pmatrix}3\\k\\4\end{pmatrix}=3k+2k-4=5k-4.$$
+
+Setting the scalar product equal to $0$: $5k-4=0$, so $5k=4$, that is $k=\dfrac45$.
+
+Check: for $k=\dfrac45$, the scalar product is $\dfrac{12}{5}+\dfrac{8}{5}-4=0$.
+
+So $k=\dfrac45$.
+
+**Answer.** $k=\dfrac45$.
 :::
 
 :::exercise A line through two points
@@ -102,7 +111,17 @@ Write a vector equation of the line through $A(2,-1,3)$ and $B(4,1,0)$. [2 marks
 **What you need:** direction $\overrightarrow{AB}$.
 
 ::solution
-$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+The line through $A$ and $B$ has direction vector $\overrightarrow{AB}$. We have
+$$\overrightarrow{AB}=\begin{pmatrix}4-2\\1-(-1)\\0-3\end{pmatrix}=\begin{pmatrix}2\\2\\-3\end{pmatrix}.$$
+
+The line passes through $A(2, -1, 3)$, so its vector equation has the form $\boldsymbol r=\overrightarrow{OA}+\lambda\overrightarrow{AB}$, that is
+$$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix},\quad\lambda\in\mathbb R.$$
+
+Check: for $\lambda=1$ we get $\begin{pmatrix}4\\1\\0\end{pmatrix}$, which is the point $B$.
+
+So a vector equation of the line $AB$ is $\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+
+**Answer.** $\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
 :::
 
 :::exercise Two intersecting lines
@@ -112,7 +131,21 @@ Find the point of intersection of $L_1:\boldsymbol r=\begin{pmatrix}0\\1\\1\end{
 **What you need:** solve two components, then check the third.
 
 ::solution
-$x$: $\lambda=1$. $y$: $1=2+\mu$, so $\mu=-1$. Check $z$: $1+\lambda=2$ and $3+\mu=2$, which agree. The lines meet at $(1,1,2)$.
+Write the general point of each line:
+$$L_1:\ (\lambda;\ 1;\ 1+\lambda),\qquad L_2:\ (1;\ 2+\mu;\ 3+\mu).$$
+
+The lines meet when there exist $\lambda$, $\mu$ making the two points coincide, that is, when the following system has a solution:
+$$\begin{cases}\lambda=1&(x)\\1=2+\mu&(y)\\1+\lambda=3+\mu&(z)\end{cases}$$
+
+From the $x$ equation: $\lambda=1$. From the $y$ equation: $\mu=1-2=-1$.
+
+Check the $z$ equation: the left-hand side is $1+\lambda=2$ and the right-hand side is $3+\mu=2$; they agree, so the system has the solution $\lambda=1$, $\mu=-1$.
+
+Substituting $\lambda=1$ into $L_1$ gives the point $(1, 1, 2)$. Substituting $\mu=-1$ into $L_2$ gives $(1, 1, 2)$ as well.
+
+So the lines meet at the point $(1, 1, 2)$.
+
+**Answer.** $(1, 1, 2)$.
 :::
 
 :::exercise A vector product
@@ -122,7 +155,18 @@ Find $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatri
 **What you need:** the component formula.
 
 ::solution
-$\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+We apply the formula for the vector product
+$$\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}\times\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$$
+with $(a_1, a_2, a_3)=(1, 2, 3)$ and $(b_1, b_2, b_3)=(0, 1, 4)$.
+
+Substituting, we get
+$$\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}=\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}.$$
+
+Check: the scalar product of the result with $\begin{pmatrix}1\\2\\3\end{pmatrix}$ is $5-8+3=0$, and with $\begin{pmatrix}0\\1\\4\end{pmatrix}$ it is $0-4+4=0$.
+
+So $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+
+**Answer.** $\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
 :::
 
 :::exercise A plane from a point and a normal
@@ -132,7 +176,17 @@ Find the Cartesian equation of the plane through $(1,2,3)$ with normal $\begin{p
 **What you need:** $2x-y+z=d$, and substitute the point.
 
 ::solution
-$d=2-2+3=3$, so $2x-y+z=3$.
+The plane has normal vector $\begin{pmatrix}2\\-1\\1\end{pmatrix}$, so its equation has the form
+$$2x-y+z=d.$$
+
+The plane passes through the point $(1, 2, 3)$, so substituting $x=1$, $y=2$, $z=3$:
+$$d=2\cdot1-2+3=3.$$
+
+Hence the equation of the plane is $2x-y+z=3$.
+
+So the Cartesian equation of the plane is $2x-y+z=3$.
+
+**Answer.** $2x-y+z=3$.
 :::
 
 ## Application exercises
@@ -146,9 +200,22 @@ A drone moves so that its position, in km, $t$ hours after take-off is $\boldsym
 **What you need:** speed is the length of the direction vector per hour.
 
 ::solution
-(a) $\sqrt{9+16+144}=13$ km per hour.
+a) The velocity of the drone is the derivative of its position with respect to $t$:
+$$\boldsymbol v=\frac{d\boldsymbol r}{dt}=\begin{pmatrix}3\\4\\12\end{pmatrix}\ \text{(km/h)}.$$
 
-(b) $12t=6$, so $t=0.5$ and the position is $(3.5,3,6)$.
+The speed is the magnitude of the velocity vector:
+$$|\boldsymbol v|=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+So the speed of the drone is $13$ km per hour.
+
+b) The height is the third component of $\boldsymbol r$, which is $0+12t=12t$ (km). The drone reaches a height of $6$ km when $12t=6$, so $t=0.5$ (hours).
+
+Substituting $t=0.5$ into $\boldsymbol r$:
+$$\boldsymbol r=\begin{pmatrix}2+0.5\cdot3\\1+0.5\cdot4\\0+0.5\cdot12\end{pmatrix}=\begin{pmatrix}3.5\\3\\6\end{pmatrix}.$$
+
+So when it reaches a height of $6$ km, the drone is at the position $(3.5, 3, 6)$.
+
+**Answer.** a) $13$ km/h; b) $(3.5, 3, 6)$.
 :::
 
 :::exercise Distance from a point to a plane
@@ -158,7 +225,17 @@ Find the distance from $P(3,1,2)$ to the plane $2x-y+2z=1$. [4 marks]
 **What you need:** the distance is $\dfrac{|2x_0-y_0+2z_0-1|}{|\boldsymbol n|}$, or find where the normal line through $P$ meets the plane.
 
 ::solution
-$\dfrac{|6-1+4-1|}{\sqrt{4+1+4}}=\dfrac83$.
+The distance from the point $P\left(x_0, y_0, z_0\right)$ to the plane $ax+by+cz=d$ is
+$$\frac{\left|ax_0+by_0+cz_0-d\right|}{\sqrt{a^2+b^2+c^2}}.$$
+
+Here the plane is $2x-y+2z=1$, so $a=2$, $b=-1$, $c=2$, $d=1$; the point is $P(3, 1, 2)$.
+
+Substituting:
+$$\text{Distance}=\frac{|2\cdot3-1\cdot1+2\cdot2-1|}{\sqrt{4+1+4}}=\frac{|6-1+4-1|}{\sqrt9}=\frac{8}{3}.$$
+
+So the distance from $P$ to the plane is $\dfrac83$.
+
+**Answer.** $\dfrac83$.
 :::
 
 :::exercise The angle between two planes
@@ -168,7 +245,18 @@ Find the angle between the planes $x+y+z=1$ and $x-y=0$. [3 marks]
 **What you need:** the angle between the planes equals the angle between their normals.
 
 ::solution
-$\begin{pmatrix}1\\1\\1\end{pmatrix}\cdot\begin{pmatrix}1\\-1\\0\end{pmatrix}=0$, so the planes are perpendicular: $90^\circ$.
+The angle between two planes equals the angle between their normal vectors. The plane $x+y+z=1$ has normal $\boldsymbol n_1=\begin{pmatrix}1\\1\\1\end{pmatrix}$; the plane $x-y=0$ has normal $\boldsymbol n_2=\begin{pmatrix}1\\-1\\0\end{pmatrix}$.
+
+We have
+$$\boldsymbol n_1\cdot\boldsymbol n_2=1\cdot1+1\cdot(-1)+1\cdot0=0.$$
+
+Let $\theta$ be the angle between the planes. Then
+$$\cos\theta=\frac{\left|\boldsymbol n_1\cdot\boldsymbol n_2\right|}{|\boldsymbol n_1|\,|\boldsymbol n_2|}=\frac{0}{\sqrt3\cdot\sqrt2}=0,$$
+so $\theta=90^\circ$.
+
+So the planes are perpendicular, and the angle between them is $90^\circ$.
+
+**Answer.** $90^\circ$.
 :::
 
 :::exercise Challenge: the foot of a perpendicular
@@ -178,7 +266,20 @@ Find the point on the line $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ 
 **What you need:** the vector from the point $(t,t,t)$ to $P$ is perpendicular to the direction.
 
 ::solution
-$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=6-3t=0$, so $t=2$ and the closest point is $(2,2,2)$. The distance is $\sqrt{1+0+1}=\sqrt2$.
+Let $Q$ be a point on the line, with coordinates $Q(t, t, t)$. Then
+$$\overrightarrow{QP}=\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}.$$
+
+The point $Q$ is closest to $P$ when $\overrightarrow{QP}$ is perpendicular to the direction vector $\begin{pmatrix}1\\1\\1\end{pmatrix}$ of the line, that is, when the scalar product is $0$:
+$$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=(1-t)+(2-t)+(3-t)=6-3t=0.$$
+
+It follows that $t=2$, and the closest point is $Q(2, 2, 2)$.
+
+Then $\overrightarrow{QP}=\begin{pmatrix}-1\\0\\1\end{pmatrix}$, so the shortest distance from $P$ to the line is
+$$PQ=\sqrt{(-1)^2+0^2+1^2}=\sqrt{1+0+1}=\sqrt2.$$
+
+So the point on the line closest to $P$ is $(2, 2, 2)$, and the shortest distance from $P$ to the line is $\sqrt2$.
+
+**Answer.** The closest point is $(2, 2, 2)$; the shortest distance is $\sqrt2$.
 :::
 
 :::quiz

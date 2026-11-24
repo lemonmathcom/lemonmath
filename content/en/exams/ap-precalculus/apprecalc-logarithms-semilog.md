@@ -186,9 +186,16 @@ Solve $e^{2x}=10$, giving $x$ to three decimal places.
 **What you need:** take the natural log of both sides.
 
 ::solution
-The unknown is in the exponent of $e$, so take natural logs of both sides: $2x=\ln10$, so $x=\dfrac{\ln10}{2}$.
+The unknown $x$ is in the exponent of $e$, so we take natural logs of both sides of the equation.
 
-Since $\ln10\approx2.3026$, $x\approx1.151$.
+We have
+$$\begin{aligned}e^{2x}&=10\\\ln e^{2x}&=\ln10\\2x&=\ln10.\end{aligned}$$
+
+Dividing both sides by $2$, we get $x=\dfrac{\ln10}{2}$.
+
+Substituting $\ln10\approx2.3026$, we have $x\approx\dfrac{2.3026}{2}=1.1513$. To three decimal places, $x\approx1.151$.
+
+Check: $e^{2\cdot1.151}=e^{2.302}\approx9.99\approx10$.
 
 So $x\approx1.151$.
 

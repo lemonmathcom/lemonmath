@@ -205,13 +205,21 @@ a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$;
 2. Chú ý số nhân hoặc chia là $1\,000\,000$ hay $100$.
 
 ::solution
-a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+Ta dùng các quan hệ giữa các đơn vị đo diện tích: $1\ \text{km}^2=1\,000\,000\ \text{m}^2$ và $1\ \text{km}^2=100$ ha.
 
-b) $12\,000\,000:1\,000\,000=12\ \text{km}^2$.
+a) Đổi từ $\text{km}^2$ sang $\text{m}^2$ thì nhân với $1\,000\,000$:
+$$7\ \text{km}^2=7\times1\,000\,000=7\,000\,000\ \text{m}^2.$$
 
-c) $4\times100=400$ ha.
+b) Đổi từ $\text{m}^2$ sang $\text{km}^2$ thì chia cho $1\,000\,000$:
+$$12\,000\,000\ \text{m}^2=12\,000\,000:1\,000\,000=12\ \text{km}^2.$$
 
-d) $900:100=9\ \text{km}^2$.
+c) Đổi từ $\text{km}^2$ sang ha thì nhân với $100$:
+$$4\ \text{km}^2=4\times100=400\ \text{ha}.$$
+
+d) Đổi từ ha sang $\text{km}^2$ thì chia cho $100$:
+$$900\ \text{ha}=900:100=9\ \text{km}^2.$$
+
+Vậy các số cần điền lần lượt là $7\,000\,000$; $12$; $400$; $9$.
 
 **Đáp số.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
 :::
@@ -228,13 +236,21 @@ a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3{,}5$ ha $=?\ \t
 2. Đổi phần thập phân bằng phân số, chẳng hạn $0{,}5$ ha $=\dfrac{5}{10}$ ha.
 
 ::solution
-a) $6\times10\,000=60\,000\ \text{m}^2$.
+Ta dùng quan hệ $1$ ha $=10\,000\ \text{m}^2$.
 
-b) $80\,000:10\,000=8$ ha.
+a) Đổi từ ha sang $\text{m}^2$ thì nhân với $10\,000$:
+$$6\ \text{ha}=6\times10\,000=60\,000\ \text{m}^2.$$
 
-c) $3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+b) Đổi từ $\text{m}^2$ sang ha thì chia cho $10\,000$:
+$$80\,000\ \text{m}^2=80\,000:10\,000=8\ \text{ha}.$$
 
-d) $0{,}25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+c) Ta có $3{,}5$ ha $=3$ ha $+0{,}5$ ha. Vì $3$ ha $=30\,000\ \text{m}^2$ và $0{,}5$ ha $=0{,}5\times10\,000=5000\ \text{m}^2$ nên
+$$3{,}5\ \text{ha}=30\,000+5000=35\,000\ \text{m}^2.$$
+
+d) Ta có $0{,}25$ ha $=\dfrac{25}{100}$ ha, nên
+$$0{,}25\ \text{ha}=\frac{25}{100}\times10\,000=2500\ \text{m}^2.$$
+
+Vậy các số cần điền lần lượt là $60\,000$; $8$; $35\,000$; $2500$.
 
 **Đáp số.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
 :::
@@ -251,13 +267,21 @@ a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\
 2. Mỗi bậc nhân hoặc chia $100$.
 
 ::solution
-a) $3\times100=300\ \text{m}^2$.
+Hai đơn vị đo diện tích liền kề hơn kém nhau $100$ lần: đổi sang đơn vị bé hơn liền sau thì nhân với $100$, đổi sang đơn vị lớn hơn liền trước thì chia cho $100$.
 
-b) $5\times100=500\ \text{dam}^2$.
+a) Từ $\text{dam}^2$ xuống $\text{m}^2$ có một bậc, nên nhân với $100$:
+$$3\ \text{dam}^2=3\times100=300\ \text{m}^2.$$
 
-c) $40\,000:100=400\ \text{m}^2$.
+b) Từ $\text{hm}^2$ xuống $\text{dam}^2$ có một bậc, nên nhân với $100$:
+$$5\ \text{hm}^2=5\times100=500\ \text{dam}^2.$$
 
-d) Từ $\text{mm}^2$ lên $\text{dm}^2$ có hai bậc, mỗi bậc chia $100$, nên chia $10\,000$: $70\,000:10\,000=7\ \text{dm}^2$.
+c) Từ $\text{dm}^2$ lên $\text{m}^2$ có một bậc, nên chia cho $100$:
+$$40\,000\ \text{dm}^2=40\,000:100=400\ \text{m}^2.$$
+
+d) Từ $\text{mm}^2$ lên $\text{dm}^2$ có hai bậc ($\text{mm}^2\to\text{cm}^2\to\text{dm}^2$), mỗi bậc chia $100$, nên chia cho $100\times100=10\,000$:
+$$70\,000\ \text{mm}^2=70\,000:10\,000=7\ \text{dm}^2.$$
+
+Vậy các số cần điền lần lượt là $300$; $500$; $400$; $7$.
 
 **Đáp số.** a) $300$; b) $500$; c) $400$; d) $7$.
 :::
@@ -273,9 +297,15 @@ Giả sử một khu bảo tồn hình chữ nhật dài $8$ km và rộng $5$ k
 2. Đổi kết quả ra héc-ta.
 
 ::solution
-Diện tích khu bảo tồn là $8\times5=40\ \text{km}^2$.
+Bài giải
 
-Đổi ra héc-ta: $40\times100=4000$ ha.
+Diện tích khu bảo tồn theo ki-lô-mét vuông là:
+$$8\times5=40\ (\text{km}^2)$$
+
+Vì $1\ \text{km}^2=100$ ha nên diện tích khu bảo tồn theo héc-ta là:
+$$40\times100=4000\ \text{(ha)}$$
+
+Vậy khu bảo tồn có diện tích $40\ \text{km}^2$, tức là $4000$ ha.
 
 **Đáp số.** $40\ \text{km}^2$, tức là $4000$ ha.
 :::
@@ -291,9 +321,18 @@ Giả sử một thửa ruộng hình chữ nhật dài $400$ m, rộng $150$ m.
 2. Nhân số héc-ta với $7$. Thử lại: kết quả có hợp lí không?
 
 ::solution
-Diện tích thửa ruộng là $400\times150=60\,000\ \text{m}^2=6$ ha.
+Bài giải
 
-Số tấn thóc thu được là $6\times7=42$ (tấn).
+Diện tích thửa ruộng theo mét vuông là:
+$$400\times150=60\,000\ (\text{m}^2)$$
+
+Vì $1$ ha $=10\,000\ \text{m}^2$ nên diện tích thửa ruộng theo héc-ta là:
+$$60\,000:10\,000=6\ \text{(ha)}$$
+
+Số tấn thóc cả thửa ruộng thu được là:
+$$6\times7=42\ \text{(tấn)}$$
+
+Vậy cả thửa ruộng thu được $42$ tấn thóc.
 
 **Đáp số.** $42$ tấn thóc.
 :::
@@ -309,11 +348,15 @@ Số tấn thóc thu được là $6\times7=42$ (tấn).
 2. So sánh hai số.
 
 ::solution
-a) $3$ ha $=30\,000\ \text{m}^2$, nên điền dấu $=$.
+Ta đổi các số đo về cùng một đơn vị rồi so sánh.
 
-b) $5\ \text{km}^2=500$ ha. Vì $500>450$ nên điền dấu $>$.
+a) Vì $1$ ha $=10\,000\ \text{m}^2$ nên $3$ ha $=3\times10\,000=30\,000\ \text{m}^2$. Hai số bằng nhau, nên điền dấu $=$.
 
-c) $0{,}3$ ha $=3000\ \text{m}^2$. Vì $2500<3000$ nên điền dấu $<$.
+b) Vì $1\ \text{km}^2=100$ ha nên $5\ \text{km}^2=5\times100=500$ ha. Vì $500>450$ nên $5\ \text{km}^2>450$ ha, điền dấu $>$.
+
+c) Ta có $0{,}3$ ha $=0{,}3\times10\,000=3000\ \text{m}^2$. Vì $2500<3000$ nên $2500\ \text{m}^2<0{,}3$ ha, điền dấu $<$.
+
+Vậy các dấu cần điền lần lượt là $=$; $>$; $<$.
 
 **Đáp số.** a) $=$; b) $>$; c) $<$.
 :::
@@ -329,9 +372,17 @@ Giả sử một xã có ba khu đất rộng $2{,}5$ ha, $15\,000\ \text{m}^2$ 
 2. So sánh ba số vừa tìm.
 
 ::solution
-$2{,}5$ ha $=25\,000\ \text{m}^2$ và $0{,}4$ ha $=4000\ \text{m}^2$. Ba diện tích là $25\,000$; $15\,000$; $4000$ (mét vuông).
+Bài giải
 
-Vì $4000<15\,000<25\,000$ nên thứ tự từ bé đến lớn là $0{,}4$ ha; $15\,000\ \text{m}^2$; $2{,}5$ ha.
+Ta đổi diện tích ba khu đất về cùng đơn vị mét vuông (vì $1$ ha $=10\,000\ \text{m}^2$):
+
+- $2{,}5$ ha $=2{,}5\times10\,000=25\,000\ \text{m}^2$;
+- khu thứ hai có diện tích $15\,000\ \text{m}^2$;
+- $0{,}4$ ha $=0{,}4\times10\,000=4000\ \text{m}^2$.
+
+So sánh ba số $25\,000$; $15\,000$; $4000$, ta có $4000<15\,000<25\,000$.
+
+Vậy thứ tự diện tích từ bé đến lớn là $0{,}4$ ha; $15\,000\ \text{m}^2$; $2{,}5$ ha.
 
 **Đáp số.** $0{,}4$ ha $<15\,000\ \text{m}^2<2{,}5$ ha.
 :::
@@ -347,9 +398,15 @@ Em hãy nhớ lại bài ôn tập về diện tích hình chữ nhật và hìn
 2. Đổi kết quả ra héc-ta.
 
 ::solution
-Diện tích mảnh đất là $200\times200=40\,000\ \text{m}^2$.
+Bài giải
 
-Đổi ra héc-ta: $40\,000:10\,000=4$ ha.
+Diện tích hình vuông bằng cạnh nhân với cạnh. Diện tích mảnh đất theo mét vuông là:
+$$200\times200=40\,000\ (\text{m}^2)$$
+
+Vì $1$ ha $=10\,000\ \text{m}^2$ nên diện tích mảnh đất theo héc-ta là:
+$$40\,000:10\,000=4\ \text{(ha)}$$
+
+Vậy mảnh đất có diện tích $40\,000\ \text{m}^2$, tức là $4$ ha.
 
 **Đáp số.** $40\,000\ \text{m}^2$, tức là $4$ ha.
 :::
@@ -365,9 +422,15 @@ Giả sử một huyện có $1200$ ha đất trồng lúa và $8\ \text{km}^2$ 
 2. Cộng hai diện tích.
 
 ::solution
-Đất rừng có diện tích $8\ \text{km}^2=8\times100=800$ ha.
+Bài giải
 
-Tổng diện tích là $1200+800=2000$ (ha).
+Vì $1\ \text{km}^2=100$ ha nên diện tích đất rừng theo héc-ta là:
+$$8\ \text{km}^2=8\times100=800\ \text{(ha)}$$
+
+Tổng diện tích đất trồng lúa và đất rừng của huyện là:
+$$1200+800=2000\ \text{(ha)}$$
+
+Vậy tổng diện tích đất trồng lúa và đất rừng của huyện là $2000$ ha.
 
 **Đáp số.** $2000$ ha.
 :::
@@ -383,9 +446,24 @@ Một hình chữ nhật có diện tích $1$ ha, chiều dài gấp $4$ lần c
 2. Tìm cạnh hình vuông (số nào nhân với chính nó bằng số đó?), rồi tính chu vi.
 
 ::solution
-Hình chữ nhật chia được thành $4$ hình vuông bằng nhau, mỗi hình vuông có diện tích $10\,000:4=2500\ \text{m}^2$. Vì $50\times50=2500$ nên cạnh hình vuông là $50$ m.
+Bài giải
 
-Chiều rộng là $50$ m, chiều dài là $50\times4=200$ m. Chu vi là $(50+200)\times2=500$ (m).
+Đổi $1$ ha $=10\,000\ \text{m}^2$.
+
+Chiều dài gấp $4$ lần chiều rộng, nên hình chữ nhật chia được thành $4$ hình vuông bằng nhau, mỗi hình vuông có cạnh bằng chiều rộng. Diện tích mỗi hình vuông là:
+$$10\,000:4=2500\ (\text{m}^2)$$
+
+Vì $50\times50=2500$ nên cạnh mỗi hình vuông là $50$ m. Do đó chiều rộng hình chữ nhật là $50$ m.
+
+Chiều dài hình chữ nhật là:
+$$50\times4=200\ \text{(m)}$$
+
+Chu vi hình chữ nhật là:
+$$(50+200)\times2=500\ \text{(m)}$$
+
+Thử lại: $200\times50=10\,000\ \text{m}^2=1$ ha. Đúng.
+
+Vậy chu vi hình chữ nhật là $500$ m.
 
 **Đáp số.** $500$ m.
 :::

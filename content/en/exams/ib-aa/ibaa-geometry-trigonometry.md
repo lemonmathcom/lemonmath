@@ -124,7 +124,17 @@ A sphere has volume $36\pi$ cm³. Find its radius and its surface area. [4 marks
 **What you need:** $V=\dfrac43\pi r^3$ and $S=4\pi r^2$.
 
 ::solution
-$\dfrac43r^3=36$, so $r^3=27$ and $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+Let $r$ (cm) be the radius of the sphere, $r>0$. Using the volume formula $V=\dfrac43\pi r^3$, we have
+$$\frac43\pi r^3=36\pi.$$
+
+Dividing both sides by $\pi$ and multiplying by $\dfrac34$, we get $r^3=36\cdot\dfrac34=27$, so $r=3$ (cm).
+
+Using the surface area formula $S=4\pi r^2$, we have
+$$S=4\pi\cdot3^2=36\pi\ \text{cm}^2.$$
+
+So the sphere has radius $3$ cm and surface area $36\pi$ cm².
+
+**Answer.** $r=3$ cm; $S=36\pi$ cm².
 :::
 
 :::exercise An angle from three sides
@@ -134,7 +144,16 @@ A triangle has sides $5$, $7$ and $8$. Find the angle opposite the side of lengt
 **What you need:** the cosine rule rearranged: $\cos C=\dfrac{a^2+b^2-c^2}{2ab}$.
 
 ::solution
-$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, so the angle is $60^\circ$.
+Consider triangle $ABC$ with $a=BC=5$, $b=CA=8$ and $c=AB=7$. The angle opposite the side of length $7$ is angle $C$.
+
+Using the cosine rule $c^2=a^2+b^2-2ab\cos C$, we have
+$$\cos C=\frac{a^2+b^2-c^2}{2ab}=\frac{25+64-49}{2\cdot5\cdot8}=\frac{40}{80}=\frac12.$$
+
+Since $0^\circ<C<180^\circ$ and $\cos C=\dfrac12$, we get $C=60^\circ$.
+
+So the angle opposite the side of length $7$ is $60^\circ$.
+
+**Answer.** $60^\circ$.
 :::
 
 :::exercise Perimeter of a sector
@@ -144,7 +163,17 @@ A sector has radius $6$ cm and angle $\dfrac\pi3$. Find its exact perimeter. [3 
 **What you need:** perimeter $=2r+r\theta$.
 
 ::solution
-$l=6\cdot\dfrac\pi3=2\pi$, so the perimeter is $12+2\pi$ cm.
+The perimeter of a sector consists of two radii and the arc length.
+
+With angle $\theta=\dfrac\pi3$ (radians) and radius $r=6$ cm, the arc length is
+$$l=r\theta=6\cdot\frac\pi3=2\pi\ \text{cm}.$$
+
+The perimeter of the sector is
+$$P=2r+l=2\cdot6+2\pi=12+2\pi\ \text{cm}.$$
+
+So the exact perimeter of the sector is $12+2\pi$ cm.
+
+**Answer.** $12+2\pi$ cm.
 :::
 
 :::exercise Third quadrant
@@ -154,7 +183,22 @@ Given $\cos\theta=-\dfrac{5}{13}$ and $\pi<\theta<\dfrac{3\pi}{2}$, find the exa
 **What you need:** in the third quadrant sine is negative and tangent is positive.
 
 ::solution
-$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, and $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
+Using the identity $\sin^2\theta+\cos^2\theta=1$, we have
+$$\sin^2\theta=1-\cos^2\theta=1-\frac{25}{169}=\frac{144}{169}.$$
+
+Hence $\sin\theta=\pm\dfrac{12}{13}$.
+
+Since $\pi<\theta<\dfrac{3\pi}{2}$, the angle $\theta$ lies in the third quadrant, where $\sin\theta<0$. Therefore
+$$\sin\theta=-\sqrt{1-\frac{25}{169}}=-\frac{12}{13}.$$
+
+We have
+$$\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{-12/13}{-5/13}=\frac{12}{5}.$$
+
+The value $\tan\theta>0$ is consistent with the third quadrant.
+
+So $\sin\theta=-\dfrac{12}{13}$ and $\tan\theta=\dfrac{12}{5}$.
+
+**Answer.** $\sin\theta=-\dfrac{12}{13}$; $\tan\theta=\dfrac{12}{5}$.
 :::
 
 :::exercise Factor, do not divide
@@ -164,7 +208,21 @@ Solve $\sin2x=\sin x$ for $0\le x\le\pi$. [5 marks]
 **What you need:** $2\sin x\cos x-\sin x=\sin x(2\cos x-1)$.
 
 ::solution
-$\sin x=0$ gives $x=0$ or $x=\pi$; $\cos x=\dfrac12$ gives $x=\dfrac\pi3$. The solutions are $0$, $\dfrac\pi3$, $\pi$.
+Using the double-angle formula $\sin2x=2\sin x\cos x$, the equation becomes
+$$2\sin x\cos x=\sin x.$$
+
+Rearranging and factorising (we do not divide both sides by $\sin x$, so that no solution is lost):
+$$\sin x(2\cos x-1)=0.$$
+
+Hence $\sin x=0$ or $\cos x=\dfrac12$.
+
+Case $\sin x=0$ with $0\le x\le\pi$: $x=0$ or $x=\pi$.
+
+Case $\cos x=\dfrac12$ with $0\le x\le\pi$: $x=\dfrac\pi3$ (on $[0, \pi]$ the function $\cos x$ decreases from $1$ to $-1$, so there is only one solution).
+
+So the equation has three solutions $x=0$, $x=\dfrac\pi3$, $x=\pi$ in the interval $[0, \pi]$.
+
+**Answer.** $0$, $\dfrac\pi3$, $\pi$.
 :::
 
 ## Application exercises
@@ -176,7 +234,19 @@ For the Ferris wheel above, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. Find
 **What you need:** $\cos\left(\dfrac{\pi t}{15}\right)=-\dfrac12$, and the smallest positive solution.
 
 ::solution
-$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, so $t=10$ seconds.
+The seat is $17$ meters above the ground when $h(t)=17$, that is
+$$12-10\cos\left(\frac{\pi t}{15}\right)=17.$$
+
+Hence $-10\cos\left(\dfrac{\pi t}{15}\right)=5$, that is $\cos\left(\dfrac{\pi t}{15}\right)=-\dfrac12$.
+
+Let $u=\dfrac{\pi t}{15}$. Since $t\ge0$, we have $u\ge0$. On $[0, \pi]$ the function $\cos u$ decreases from $1$ to $-1$, so exactly one value of $u$ satisfies $\cos u=-\dfrac12$, namely $u=\dfrac{2\pi}{3}$. This is the smallest $u\ge0$ that works, which corresponds to the first time.
+
+From $\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$ we get
+$$t=\frac{2\pi}{3}\cdot\frac{15}{\pi}=10.$$
+
+So the seat is first $17$ meters above the ground after $10$ seconds.
+
+**Answer.** $t=10$ seconds.
 :::
 
 :::exercise Bearings
@@ -186,7 +256,19 @@ A ship sails $12$ km on a bearing of $060^\circ$, then $8$ km on a bearing of $1
 **What you need:** a sketch shows that the two legs meet at a right angle ($150^\circ-60^\circ=90^\circ$).
 
 ::solution
-$\sqrt{12^2+8^2}=\sqrt{208}\approx14.4$ km.
+Let $O$ be the starting point, $A$ the position after sailing $12$ km on a bearing of $060^\circ$, and $B$ the position after sailing a further $8$ km on a bearing of $150^\circ$. We have $OA=12$ km and $AB=8$ km.
+
+Bearings are measured clockwise from north. The direction from $A$ back to $O$ has bearing $060^\circ+180^\circ=240^\circ$, while the direction from $A$ to $B$ has bearing $150^\circ$. Hence
+$$\widehat{OAB}=240^\circ-150^\circ=90^\circ.$$
+
+Triangle $OAB$ is right-angled at $A$. By Pythagoras' theorem:
+$$OB^2=OA^2+AB^2=12^2+8^2=144+64=208.$$
+
+So $OB=\sqrt{208}\approx14.4$ km.
+
+So the distance of the ship from the starting point is about $14.4$ km.
+
+**Answer.** $\sqrt{208}\approx14.4$ km.
 :::
 
 :::exercise Height of a tower
@@ -196,7 +278,16 @@ From a point $50$ m from the foot of a tower, on level ground, the angle of elev
 **What you need:** $\tan32^\circ=\dfrac{h}{50}$.
 
 ::solution
-$h=50\tan32^\circ\approx31.2$ m.
+Let $h$ (m) be the height of the tower. The ground is level, so the tower is perpendicular to the ground; the triangle formed by the top of the tower, its foot and the observation point is right-angled, with the side adjacent to the angle of elevation equal to $50$ m and the opposite side equal to $h$.
+
+Using the trigonometric ratio in a right-angled triangle:
+$$\tan32^\circ=\frac{h}{50}.$$
+
+Hence $h=50\tan32^\circ\approx31.2$ (m).
+
+So the height of the tower is about $31.2$ m.
+
+**Answer.** $h\approx31.2$ m.
 :::
 
 :::exercise Challenge: an identity
@@ -206,7 +297,17 @@ Show that $\dfrac{1-\cos2x}{\sin2x}=\tan x$ for $\sin2x\ne0$. [4 marks]
 **What you need:** $\cos2x=1-2\sin^2x$ and $\sin2x=2\sin x\cos x$.
 
 ::solution
-LHS $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ RHS.
+Condition: $\sin2x\ne0$. Since $\sin2x=2\sin x\cos x$, this condition is equivalent to $\sin x\ne0$ and $\cos x\ne0$; then $\tan x$ is also defined.
+
+Consider the left-hand side (LHS). Using the double-angle formula $\cos2x=1-2\sin^2x$, we have $1-\cos2x=1-\left(1-2\sin^2x\right)=2\sin^2x$. Using $\sin2x=2\sin x\cos x$, we get
+$$\text{LHS}=\frac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\frac{2\sin^2x}{2\sin x\cos x}.$$
+
+Since $2\sin x\ne0$, we can cancel:
+$$\text{LHS}=\frac{\sin x}{\cos x}=\tan x=\text{RHS}.$$
+
+So $\dfrac{1-\cos2x}{\sin2x}=\tan x$ for $\sin2x\ne0$.
+
+**Answer.** $\dfrac{1-\cos2x}{\sin2x}=\tan x$.
 :::
 
 :::quiz

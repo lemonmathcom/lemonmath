@@ -223,11 +223,17 @@ c) $(2x+1)^2$.
 2. Write the three terms $a^2$, $\pm2ab$, $b^2$.
 
 ::solution
-a) $(x+7)^2=x^2+14x+49$.
+Apply the identities for the square of a sum and the square of a difference:
+$$(A+B)^2=A^2+2AB+B^2,\qquad(A-B)^2=A^2-2AB+B^2.$$
 
-b) $(x-6)^2=x^2-12x+36$.
+a) With $A=x$ and $B=7$, we have
+$$(x+7)^2=x^2+2\cdot x\cdot7+7^2=x^2+14x+49.$$
 
-c) $(2x+1)^2=4x^2+4x+1$.
+b) With $A=x$ and $B=6$, we have
+$$(x-6)^2=x^2-2\cdot x\cdot6+6^2=x^2-12x+36.$$
+
+c) With $A=2x$ and $B=1$, we have
+$$(2x+1)^2=(2x)^2+2\cdot2x\cdot1+1^2=4x^2+4x+1.$$
 
 So a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
 
@@ -251,11 +257,16 @@ c) $(5x^2-y)^2$.
 2. Work out $a^2$, $2ab$, $b^2$.
 
 ::solution
-a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+Apply the identities $(A+B)^2=A^2+2AB+B^2$ and $(A-B)^2=A^2-2AB+B^2$.
 
-b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+a) With $A=3x$ and $B=2y$, we have
+$$(3x-2y)^2=(3x)^2-2\cdot3x\cdot2y+(2y)^2=9x^2-12xy+4y^2.$$
 
-c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+b) With $A=\dfrac12x$ and $B=3$, we have
+$$\left(\frac12x+3\right)^2=\left(\frac12x\right)^2+2\cdot\frac12x\cdot3+3^2=\frac14x^2+3x+9.$$
+
+c) With $A=5x^2$ and $B=y$, we have
+$$(5x^2-y)^2=(5x^2)^2-2\cdot5x^2\cdot y+y^2=25x^4-10x^2y+y^2.$$
 
 So a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
 
@@ -279,11 +290,16 @@ c) $(x^2+1)(x^2-1)$.
 2. Square the first number and subtract the square of the second.
 
 ::solution
-a) $(x-8)(x+8)=x^2-64$.
+Apply the difference of two squares identity $(A-B)(A+B)=A^2-B^2$.
 
-b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+a) With $A=x$ and $B=8$, we have
+$$(x-8)(x+8)=x^2-8^2=x^2-64.$$
 
-c) $(x^2+1)(x^2-1)=x^4-1$.
+b) With $A=4x$ and $B=3y$, we have
+$$(4x+3y)(4x-3y)=(4x)^2-(3y)^2=16x^2-9y^2.$$
+
+c) With $A=x^2$ and $B=1$, we have
+$$(x^2+1)(x^2-1)=(x^2)^2-1^2=x^4-1.$$
 
 So a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
 
@@ -307,11 +323,16 @@ c) $61\cdot59$.
 2. Apply the matching identity.
 
 ::solution
-a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+We write each given number as a sum or a difference of a round number and a small number, then apply an identity.
 
-b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+a) We have $103=100+3$, so by the identity for the square of a sum,
+$$103^2=(100+3)^2=100^2+2\cdot100\cdot3+3^2=10\,000+600+9=10\,609.$$
 
-c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+b) We have $98=100-2$, so by the identity for the square of a difference,
+$$98^2=(100-2)^2=100^2-2\cdot100\cdot2+2^2=10\,000-400+4=9604.$$
+
+c) We have $61=60+1$ and $59=60-1$, so by the difference of two squares identity,
+$$61\cdot59=(60+1)(60-1)=60^2-1^2=3600-1=3599.$$
 
 So a) $10\,609$; b) $9604$; c) $3599$.
 
@@ -437,9 +458,14 @@ Prove that the difference of the squares of two consecutive odd numbers is alway
 2. Use an identity, then take out $8$ as a factor.
 
 ::solution
-Let the two consecutive odd numbers be $2k-1$ and $2k+1$. We have
-$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
-Since $8k$ is a multiple of $8$, the difference of the squares of two consecutive odd numbers is divisible by $8$.
+Let the two consecutive odd numbers be $2k-1$ and $2k+1$, where $k$ is an integer.
+
+The difference of their squares (larger minus smaller) is
+$$\begin{aligned}(2k+1)^2-(2k-1)^2&=(4k^2+4k+1)-(4k^2-4k+1)\\&=4k^2+4k+1-4k^2+4k-1\\&=8k.\end{aligned}$$
+
+Since $k$ is an integer, $8k$ is a multiple of $8$, that is, $8k$ is divisible by $8$. If we take the smaller square minus the larger one, the difference is $-8k$, which is also divisible by $8$.
+
+So the difference of the squares of two consecutive odd numbers is always divisible by $8$.
 
 **Answer.** The difference equals $8k$, which is divisible by $8$.
 :::

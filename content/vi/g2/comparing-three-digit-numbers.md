@@ -130,7 +130,13 @@ c) $505\;\square\;505$.
 2. Nếu khác nhau thì chọn dấu ngay.
 
 ::solution
-a) $2<3$ nên $243<351$. b) $7>6$ nên $780>620$. c) Hai số giống nhau.
+a) So sánh $243$ và $351$: hàng trăm $2<3$ nên $243<351$.
+
+b) So sánh $780$ và $620$: hàng trăm $7>6$ nên $780>620$.
+
+c) Hai số $505$ và $505$ có các hàng trăm, chục, đơn vị đều giống nhau nên $505=505$.
+
+Vậy ta điền: $243<351$; $780>620$; $505=505$.
 
 **Đáp số.** a) $<$; b) $>$; c) $=$.
 :::
@@ -152,7 +158,13 @@ c) $467\;\square\;427$.
 2. Nếu bằng nhau thì so sánh hàng chục, rồi hàng đơn vị.
 
 ::solution
-a) Hàng đơn vị $2<8$. b) Hàng trăm $9>1$. c) Hàng chục $6>2$.
+a) So sánh $352$ và $358$: hàng trăm $3=3$, hàng chục $5=5$, hàng đơn vị $2<8$ nên $352<358$.
+
+b) So sánh $910$ và $190$: hàng trăm $9>1$ nên $910>190$.
+
+c) So sánh $467$ và $427$: hàng trăm $4=4$, hàng chục $6>2$ nên $467>427$.
+
+Vậy ta điền: $352<358$; $910>190$; $467>427$.
 
 **Đáp số.** a) $<$; b) $>$; c) $>$.
 :::
@@ -168,7 +180,14 @@ Em nhớ lại bài trước. Viết $428$ và $482$ thành tổng các trăm, c
 2. So sánh hàng trăm, rồi hàng chục.
 
 ::solution
-$428=400+20+8$ và $482=400+80+2$. Hàng trăm bằng nhau, hàng chục $2<8$.
+Viết hai số thành tổng các trăm, chục, đơn vị:
+$$428=400+20+8,\qquad 482=400+80+2.$$
+
+Hai số có hàng trăm bằng nhau ($4$ trăm).
+
+Ta so sánh tiếp hàng chục: $2$ chục $<$ $8$ chục.
+
+Vậy $428<482$.
 
 **Đáp số.** $428<482$.
 :::
@@ -188,7 +207,19 @@ b) Từ lớn đến bé: $899, 989, 998$.
 2. Chọn tiếp từng số.
 
 ::solution
-a) $405<450<504<540$. b) Hàng trăm: $8, 9, 9$; hai số có hàng trăm $9$ so tiếp hàng chục: $8<9$, nên $989<998$. Vậy $998>989>899$.
+a) Cả bốn số đều có hàng trăm là $4$ hoặc $5$.
+
+Các số có hàng trăm $4$ là $450$ và $405$. Hàng chục $0<5$ nên $405<450$.
+
+Các số có hàng trăm $5$ là $540$ và $504$. Hàng chục $0<4$ nên $504<540$.
+
+Vì $4<5$ nên $405<450<504<540$.
+
+b) Hàng trăm của ba số $899$, $989$, $998$ lần lượt là $8$, $9$, $9$. Số $899$ có hàng trăm bé nhất nên $899$ bé nhất.
+
+Hai số $989$ và $998$ có hàng trăm bằng nhau ($9$), so tiếp hàng chục: $8<9$ nên $989<998$.
+
+Vậy từ lớn đến bé là $998>989>899$.
 
 **Đáp số.** a) $405, 450, 504, 540$; b) $998, 989, 899$.
 :::
@@ -204,7 +235,13 @@ Số nào lớn nhất trong ba số $376, 367, 673$? Vì sao?
 2. Chọn số có hàng trăm lớn nhất.
 
 ::solution
-Hàng trăm lần lượt là $3, 3, 6$. Số $673$ có hàng trăm lớn nhất.
+Ta so sánh hàng trăm của ba số.
+
+Hàng trăm của $376$, $367$, $673$ lần lượt là $3$, $3$, $6$.
+
+Vì $6>3$ nên $673$ lớn hơn cả hai số còn lại.
+
+Vậy số lớn nhất là $673$, vì số này có hàng trăm lớn nhất.
 
 **Đáp số.** $673$.
 :::
@@ -220,7 +257,17 @@ Nam nói: "$349>351$ vì $9>1$." Nam sai ở đâu? Sửa lại cho đúng.
 2. Nếu bằng nhau, so sánh hàng chục.
 
 ::solution
-Hàng trăm $3$ và $3$ bằng nhau, hàng chục $4<5$. Nam đã so sánh hàng đơn vị trước nên sai.
+Ta so sánh $349$ và $351$ từ hàng cao nhất, tức là từ hàng trăm.
+
+Hàng trăm: $3=3$.
+
+Hàng chục: $4<5$.
+
+Do đó $349<351$.
+
+Nam sai vì đã so sánh hàng đơn vị ($9>1$) trước. Khi so sánh các số có ba chữ số, ta phải so sánh từ hàng trăm, rồi đến hàng chục, cuối cùng mới đến hàng đơn vị.
+
+Vậy Nam nói sai; câu đúng là $349<351$.
 
 **Đáp số.** $349<351$.
 :::
@@ -236,7 +283,13 @@ Trường A có $428$ học sinh, trường B có $482$ học sinh. Trường n�
 2. So sánh $428$ và $482$.
 
 ::solution
-Hàng trăm bằng nhau, hàng chục $2<8$ nên $428<482$.
+Bài giải
+
+Để biết trường nào đông học sinh hơn, ta so sánh $428$ và $482$.
+
+Hai số có hàng trăm bằng nhau ($4$ trăm), hàng chục $2<8$ nên $428<482$.
+
+Vậy trường B ($482$ học sinh) đông học sinh hơn.
 
 **Đáp số.** Trường B đông học sinh hơn.
 :::
@@ -252,9 +305,19 @@ Tìm chữ số thích hợp thay cho $\square$ để $475<4\square5<495$.
 2. Thử các chữ số $7, 8, 9$.
 
 ::solution
-Thử $\square=7$: $475$ không lớn hơn $475$. Thử $\square=8$: $485$ lớn hơn $475$ và bé hơn $495$. Thử $\square=9$: $495$ không bé hơn $495$.
+Số $4\square5$ phải lớn hơn $475$ và bé hơn $495$. Hai số này đều có hàng trăm là $4$ và hàng đơn vị là $5$, nên ta thử các chữ số ở hàng chục.
 
-**Kiểm tra.** $475<485<495$. Đúng.
+Thử $\square=7$: $475$ không lớn hơn $475$, không thoả mãn.
+
+Thử $\square=8$: $485$ lớn hơn $475$ và bé hơn $495$, thoả mãn.
+
+Thử $\square=9$: $495$ không bé hơn $495$, không thoả mãn.
+
+Các chữ số bé hơn $7$ cho số bé hơn $475$ nên cũng không thoả mãn.
+
+Kiểm tra: $475<485<495$. Đúng.
+
+Vậy chữ số thích hợp là $8$.
 
 **Đáp số.** $\square=8$.
 :::

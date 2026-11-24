@@ -135,7 +135,14 @@ Trong các số $7\,482$; $6\,135$; $20\,508$; $9\,999$, những số nào là s
 2. Chọn những số có chữ số tận cùng chẵn.
 
 ::solution
-Chữ số tận cùng: $2$, $5$, $8$, $9$. Vậy số chẵn là $7\,482$ và $20\,508$.
+Số chẵn là số có chữ số tận cùng là $0$, $2$, $4$, $6$ hoặc $8$. Ta xét chữ số tận cùng của từng số:
+
+- $7\,482$ tận cùng là $2$, nên là số chẵn.
+- $6\,135$ tận cùng là $5$, nên là số lẻ.
+- $20\,508$ tận cùng là $8$, nên là số chẵn.
+- $9\,999$ tận cùng là $9$, nên là số lẻ.
+
+Vậy các số chẵn là $7\,482$ và $20\,508$.
 
 **Đáp số.** $7\,482$ và $20\,508$.
 :::
@@ -152,9 +159,13 @@ b) Viết ba số lẻ liên tiếp bắt đầu từ $49$.
 2. Cộng thêm $2$ nữa để được số thứ ba.
 
 ::solution
-a) $96$; $96+2=98$; $98+2=100$.
+Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị, hai số lẻ liên tiếp cũng hơn kém nhau $2$ đơn vị.
 
-b) $49$; $49+2=51$; $51+2=53$.
+a) Bắt đầu từ $96$, ta có $96$; $96+2=98$; $98+2=100$.
+
+b) Bắt đầu từ $49$, ta có $49$; $49+2=51$; $51+2=53$.
+
+Vậy ba số chẵn liên tiếp là $96$, $98$, $100$ và ba số lẻ liên tiếp là $49$, $51$, $53$.
 
 **Đáp số.** a) $96$, $98$, $100$. b) $49$, $51$, $53$.
 :::
@@ -171,9 +182,13 @@ b) Tìm số lẻ bé nhất có ba chữ số khác nhau.
 2. Ý b): bắt đầu từ chữ số đầu bé nhất khác $0$.
 
 ::solution
-a) Lấy các chữ số lớn nhất: $9$, $8$, $7$, $6$. Số $9\,876$ tận cùng $6$ nên là số chẵn.
+a) Để số có bốn chữ số khác nhau là lớn nhất, ta chọn các chữ số lớn nhất, xếp từ lớn đến bé: $9$, $8$, $7$, $6$. Số $9\,876$ có chữ số tận cùng là $6$ nên là số chẵn.
 
-b) Hàng trăm bé nhất là $1$. Hàng chục bé nhất khác $1$ là $0$. Hàng đơn vị là số lẻ bé nhất khác $1$, tức $3$. Được $103$.
+Vậy số chẵn lớn nhất có bốn chữ số khác nhau là $9\,876$.
+
+b) Để số có ba chữ số khác nhau là bé nhất, hàng trăm phải bé nhất, tức là $1$. Hàng chục bé nhất khác $1$ là $0$. Hàng đơn vị phải là chữ số lẻ, khác $1$ và khác $0$, bé nhất là $3$. Ta được số $103$.
+
+Vậy số lẻ bé nhất có ba chữ số khác nhau là $103$.
 
 **Đáp số.** a) $9\,876$. b) $103$.
 :::
@@ -189,7 +204,14 @@ Tổng của hai số lẻ là số chẵn hay số lẻ? Em hãy thử với ba
 2. Nhìn chữ số tận cùng của mỗi tổng.
 
 ::solution
-$3+5=8$; $7+9=16$; $11+15=26$. Cả ba tổng đều có chữ số tận cùng chẵn. Vì sao? Mỗi số lẻ gồm một số chẵn cộng thêm $1$, nên hai số lẻ cộng lại có thêm $1+1=2$, và kết quả vẫn chia hết cho $2$.
+Ta tính tổng của từng cặp số:
+$$3+5=8;\qquad 7+9=16;\qquad 11+15=26.$$
+
+Cả ba tổng $8$, $16$, $26$ đều có chữ số tận cùng chẵn nên đều là số chẵn.
+
+Vì sao như vậy? Mỗi số lẻ gồm một số chẵn cộng thêm $1$, nên khi cộng hai số lẻ, ta được một số chẵn cộng thêm $1+1=2$. Kết quả vẫn chia hết cho $2$.
+
+Vậy tổng của hai số lẻ là số chẵn.
 
 **Đáp số.** Tổng của hai số lẻ là số chẵn.
 :::
@@ -205,7 +227,13 @@ Bình nói: "$1\,250$ là số lẻ vì nó có chữ số $5$". Bình sai ở �
 2. Chia thử $1\,250:2$.
 
 ::solution
-Chữ số tận cùng của $1\,250$ là $0$. Chia thử: $1\,250:2=625$, không dư.
+Một số là số chẵn hay số lẻ phụ thuộc vào chữ số tận cùng, không phụ thuộc vào việc số đó có chứa chữ số $5$ hay không.
+
+Chữ số tận cùng của $1\,250$ là $0$, nên $1\,250$ là số chẵn.
+
+Thử lại bằng phép chia: $1\,250:2=625$, không dư.
+
+Vậy Bình sai ở chỗ dựa vào chữ số $5$ ở hàng chục; câu đúng là: $1\,250$ là số chẵn vì tận cùng là $0$.
 
 **Đáp số.** Bình sai: $1\,250$ là số chẵn vì tận cùng $0$.
 :::
@@ -224,9 +252,12 @@ b) Trường hợp nào có bạn bị thừa?
 2. Xem số dư.
 
 ::solution
-a) $34:2=17$, dư $0$. $35:2=17$, dư $1$.
+a) Ta thực hiện hai phép chia:
+$$34:2=17\ \text{(dư }0\text{)};\qquad 35:2=17\ \text{(dư }1\text{)}.$$
 
-b) Khi có $35$ bạn thì dư $1$ bạn.
+b) Xếp hàng đôi nghĩa là cứ $2$ bạn đứng thành một hàng. Với $34$ bạn thì chia hết, không dư bạn nào. Với $35$ bạn thì dư $1$ bạn, bạn đó không có cặp.
+
+Vậy trường hợp có $35$ bạn thì có bạn bị thừa.
 
 **Đáp số.** a) $17$ dư $0$; $17$ dư $1$. b) Trường hợp $35$ bạn.
 :::
@@ -242,7 +273,14 @@ Một dãy nhà đánh số lẻ liên tiếp: $15$, $17$, $19$, …. Hỏi nhà
 2. Đếm.
 
 ::solution
-Dãy: $15$, $17$, $19$, $21$, $23$, $25$. Số $25$ là số thứ $6$. Mỗi số cộng thêm $2$ nên chữ số tận cùng vẫn lẻ.
+Dãy các số lẻ liên tiếp, mỗi số hơn số liền trước $2$ đơn vị:
+$$15,\ 17,\ 19,\ 21,\ 23,\ 25.$$
+
+Số $15$ là số thứ nhất, $17$ là số thứ hai, $19$ là số thứ ba, $21$ là số thứ tư, $23$ là số thứ năm và $25$ là số thứ sáu.
+
+Các số của dãy đều là số lẻ vì mỗi số bằng số liền trước cộng thêm $2$; cộng $2$ vào một số lẻ thì chữ số tận cùng vẫn là chữ số lẻ.
+
+Vậy nhà số $25$ là nhà thứ $6$ trong dãy.
 
 **Đáp số.** Nhà số $25$ là nhà thứ $6$.
 :::
@@ -258,7 +296,15 @@ Có bao nhiêu số chẵn có hai chữ số? Có bao nhiêu số lẻ có hai 
 2. Nhân số chục với $5$.
 
 ::solution
-Các chục từ $10$ đến $99$ là $10$–$19$, $20$–$29$, …, $90$–$99$: có $9$ chục. Mỗi chục có $5$ số chẵn và $5$ số lẻ. Số chẵn: $9\times5=45$. Số lẻ: $9\times5=45$.
+Các số có hai chữ số là các số từ $10$ đến $99$. Ta chia chúng thành các chục: $10$–$19$, $20$–$29$, ..., $90$–$99$. Có $9$ chục như vậy.
+
+Mỗi chục có $10$ số, gồm $5$ số chẵn (tận cùng $0$, $2$, $4$, $6$, $8$) và $5$ số lẻ (tận cùng $1$, $3$, $5$, $7$, $9$).
+
+Số các số chẵn có hai chữ số là $9\times5=45$ (số).
+
+Số các số lẻ có hai chữ số là $9\times5=45$ (số).
+
+Vậy có $45$ số chẵn có hai chữ số và $45$ số lẻ có hai chữ số.
 
 **Đáp số.** $45$ số chẵn và $45$ số lẻ.
 :::

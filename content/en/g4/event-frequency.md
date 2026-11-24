@@ -132,7 +132,14 @@ A coin is tossed $8$ times: H, H, T, H, T, T, H, H. How many times does each sid
 3. Add them to see if you get $8$.
 
 ::solution
-H came up $5$ times and T came up $3$ times. Check $5+3=8$.
+We count each side in the list of results H, H, T, H, T, T, H, H.
+
+- Heads (H) came up on tosses $1$, $2$, $4$, $7$, $8$, which is $5$ times.
+- Tails (T) came up on tosses $3$, $5$, $6$, which is $3$ times.
+
+Check: $5+3=8$, which is exactly the number of tosses.
+
+So heads came up $5$ times and tails came up $3$ times.
 
 **Answer.** Heads $5$ times, tails $3$ times.
 :::
@@ -148,7 +155,15 @@ A card is picked from three kinds of card A, B and C and put back, $10$ times: A
 2. Check the total is $10$.
 
 ::solution
-A: $5$ times, B: $3$ times, C: $2$ times. Check: $5+3+2=10$.
+We count each kind of card in the list A, B, A, C, A, B, A, A, C, B.
+
+- Card A was picked on draws $1$, $3$, $5$, $7$, $8$, which is $5$ times.
+- Card B was picked on draws $2$, $6$, $10$, which is $3$ times.
+- Card C was picked on draws $4$, $9$, which is $2$ times.
+
+Check: $5+3+2=10$, which is exactly the number of draws.
+
+So card A was picked $5$ times, card B $3$ times and card C $2$ times.
 
 **Answer.** A $5$ times, B $3$ times, C $2$ times.
 :::
@@ -164,7 +179,14 @@ Remember the lesson on bar charts: a chart shows how many times three faces of a
 2. Add the three numbers; find the greatest.
 
 ::solution
-$3+5+4=12$ (rolls). The tallest bar is face $2$ ($5$ times).
+The height of each bar shows how many times that face came up: face $1$ came up $3$ times, face $2$ came up $5$ times and face $3$ came up $4$ times.
+
+The total number of rolls is the sum of the times the three faces came up:
+$$3+5+4=12\ \text{(rolls)}.$$
+
+We compare the numbers $3$, $5$, $4$: the greatest is $5$, which belongs to the tallest bar, the bar for face $2$.
+
+So there were $12$ rolls in all, and face $2$ came up most often ($5$ times).
 
 **Answer.** $12$ rolls; face $2$.
 :::
@@ -180,7 +202,14 @@ A coin is tossed $20$ times and heads comes up $11$ times. How many times does t
 2. Check with an addition.
 
 ::solution
-$20-11=9$ (times). Check: $11+9=20$.
+Each toss of a coin gives exactly one side: heads or tails. So the number of tails equals the number of tosses minus the number of heads.
+
+The number of times tails comes up is:
+$$20-11=9\ \text{(times)}.$$
+
+*Check.* $11+9=20$, which is exactly the number of tosses.
+
+So tails comes up $9$ times.
 
 **Answer.** $9$ times.
 :::
@@ -196,7 +225,13 @@ Why do the times for the two sides of a coin always add up to the number of toss
 2. Add $6$ and $4$.
 
 ::solution
-Each toss gives only one side, so each toss is counted exactly once, and when all are counted we get exactly the number of tosses. With $6+4=10$, this equals the $10$ tosses.
+Each toss of a coin gives only one side: heads or tails, never both. So each toss is counted exactly once, either under heads or under tails.
+
+Therefore, when we add the times for the two sides, every toss has been counted, and the sum equals the number of tosses.
+
+Check with heads $6$ times and tails $4$ times: $6+4=10$, which is exactly the $10$ tosses.
+
+So the times for the two sides always add up to the number of tosses, because each toss has exactly one result.
 
 **Answer.** Because each toss has exactly one result; $6+4=10$.
 :::
@@ -212,7 +247,17 @@ Lan counted the list R, B, R, R, B and said: "R came up $4$ times and B came up 
 2. Count each letter again.
 
 ::solution
-There are $5$ trials but Lan's counts add up to $4+2=6$, so one was counted twice. The correct counts: R came up $3$ times and B came up $2$ times ($3+2=5$).
+The list R, B, R, R, B has $5$ trials.
+
+Lan said R came up $4$ times and B came up $2$ times, so the total is $4+2=6$. This is more than $5$, so Lan counted one trial twice.
+
+We count again:
+- R is in positions $1$, $3$, $4$, which is $3$ times.
+- B is in positions $2$, $5$, which is $2$ times.
+
+Check: $3+2=5$, which is exactly the number of trials.
+
+So Lan counted R one time too many; the correct counts are R $3$ times and B $2$ times.
 
 **Answer.** R $3$ times, B $2$ times.
 :::
@@ -231,7 +276,23 @@ c) How many more bicycles than cars were there?
 2. Subtract from $30$ to find the people on foot.
 
 ::solution
-a) Bicycles, motorbikes and cars: $12+9+5=26$. On foot: $30-26=4$. b) $9+5=14$. c) $12-5=7$.
+The number of people on foot equals the total number passing minus the number of vehicles of all kinds.
+
+a) The number of bicycles, motorbikes and cars is:
+$$12+9+5=26.$$
+The number of people on foot is:
+$$30-26=4\ \text{(people)}.$$
+So $4$ people were on foot.
+
+b) The number of motorbikes and cars altogether is:
+$$9+5=14.$$
+So $14$ motorbikes and cars went past altogether.
+
+c) The number of bicycles more than cars is:
+$$12-5=7.$$
+So there were $7$ more bicycles than cars.
+
+So $4$ people were on foot; $14$ motorbikes and cars went past altogether; there were $7$ more bicycles than cars.
 
 **Answer.** a) $4$ people; b) $14$; c) $7$ more.
 :::
@@ -247,9 +308,17 @@ A dice is rolled $20$ times and the even faces come up $12$ times altogether. Fa
 2. The odd faces are $20$ minus the even faces.
 
 ::solution
-Face $4$: $12-5-3=4$ (times). Odd faces: $20-12=8$ (times).
+The even faces of a dice are face $2$, face $4$ and face $6$. These three faces came up $12$ times altogether.
 
-**Check.** $5+4+3=12$ and $12+8=20$. Correct.
+The number of times face $4$ came up is:
+$$12-5-3=4\ \text{(times)}.$$
+
+Each roll gives one face, either even or odd, so the number of times the odd faces came up equals the number of rolls minus the number of times the even faces came up:
+$$20-12=8\ \text{(times)}.$$
+
+*Check.* $5+4+3=12$ and $12+8=20$. Correct.
+
+So face $4$ came up $4$ times, and the odd faces came up $8$ times altogether.
 
 **Answer.** Face $4$ came up $4$ times; the odd faces $8$ times.
 :::

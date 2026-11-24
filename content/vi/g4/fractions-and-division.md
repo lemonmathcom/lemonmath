@@ -127,7 +127,12 @@ Viết thương của phép chia $3:5$ dưới dạng phân số.
 2. Số chia là mẫu số.
 
 ::solution
-$3:5=\dfrac{3}{5}$.
+Thương của phép chia số tự nhiên cho số tự nhiên khác $0$ có thể viết thành một phân số, trong đó tử số là số bị chia và mẫu số là số chia.
+
+Phép chia $3:5$ có số bị chia là $3$ và số chia là $5$, nên
+$$3:5=\frac{3}{5}.$$
+
+Vậy thương của phép chia $3:5$ viết dưới dạng phân số là $\dfrac{3}{5}$.
 
 **Đáp số.** $\dfrac{3}{5}$.
 :::
@@ -143,7 +148,12 @@ Chia đều $4$ chiếc bánh cho $6$ bạn. Mỗi bạn được bao nhiêu ph�
 2. Viết phép chia rồi viết phân số.
 
 ::solution
-$4:6=\dfrac{4}{6}$ (chiếc bánh).
+Bài giải
+
+Chia đều $4$ chiếc bánh cho $6$ bạn thì mỗi bạn được số phần chiếc bánh là:
+$$4:6=\frac{4}{6}\ \text{(chiếc bánh)}$$
+
+Vậy mỗi bạn được $\dfrac{4}{6}$ chiếc bánh.
 
 **Đáp số.** $\dfrac{4}{6}$ chiếc bánh.
 :::
@@ -161,7 +171,12 @@ Em hãy nhớ lại bài trước: một hình chia thành $9$ phần bằng nha
 2. Viết phép chia có số bị chia là tử số.
 
 ::solution
-Phân số chỉ phần đã tô là $\dfrac{7}{9}$, và $\dfrac{7}{9}=7:9$.
+Hình được chia thành $9$ phần bằng nhau nên mẫu số là $9$. Có $7$ phần được tô màu nên tử số là $7$. Phân số chỉ phần đã tô là $\dfrac{7}{9}$.
+
+Phân số có thể viết thành phép chia: tử số là số bị chia, mẫu số là số chia. Do đó
+$$\frac{7}{9}=7:9.$$
+
+Vậy phân số chỉ phần đã tô là $\dfrac{7}{9}$ và $\dfrac{7}{9}=7:9$.
 
 **Đáp số.** $\dfrac{7}{9}=7:9$.
 :::
@@ -177,7 +192,18 @@ Viết mỗi số tự nhiên sau dưới dạng phân số có mẫu số $1$: 
 2. Với số $1$, cho tử số bằng mẫu số.
 
 ::solution
-a) $5=\dfrac{5}{1}$. b) $12=\dfrac{12}{1}$. Số $1$ với mẫu số $6$ là $\dfrac{6}{6}$.
+Mỗi số tự nhiên có thể viết thành phân số có mẫu số là $1$: tử số là chính số đó, vì chia một số cho $1$ vẫn được số đó.
+
+a) Ta có $5=5:1$, nên
+$$5=\frac{5}{1}.$$
+
+b) Ta có $12=12:1$, nên
+$$12=\frac{12}{1}.$$
+
+Số $1$ viết thành phân số có mẫu số là $6$ thì tử số cũng là $6$, vì $6:6=1$. Do đó
+$$1=\frac{6}{6}.$$
+
+Vậy $5=\dfrac{5}{1}$; $12=\dfrac{12}{1}$; $1=\dfrac{6}{6}$.
 
 **Đáp số.** $\dfrac{5}{1}$; $\dfrac{12}{1}$; $\dfrac{6}{6}$.
 :::
@@ -193,7 +219,11 @@ Vì sao không thể viết $5:0$ thành một phân số?
 2. Mẫu số có thể là số đó không?
 
 ::solution
-Số chia là $0$ sẽ thành mẫu số $0$. Không thể chia $5$ thành $0$ phần bằng nhau, nên không có phân số $\dfrac{5}{0}$.
+Thương của phép chia $5:0$ muốn viết thành phân số thì số chia $0$ phải làm mẫu số, tức là phân số $\dfrac{5}{0}$.
+
+Mẫu số của phân số cho biết cái được chia thành bao nhiêu phần bằng nhau. Ta không thể chia $5$ thành $0$ phần bằng nhau, nên không có phân số $\dfrac{5}{0}$.
+
+Vậy không thể viết $5:0$ thành một phân số vì mẫu số không được bằng $0$.
 
 **Đáp số.** Vì mẫu số không được bằng $0$.
 :::
@@ -209,7 +239,14 @@ Hà viết: "$2:3=\dfrac{3}{2}$." Hà sai ở đâu? Hãy viết lại cho đún
 2. Số bị chia nằm ở tử số hay mẫu số?
 
 ::solution
-Hà viết ngược. Số bị chia là $2$ nên là tử số: $2:3=\dfrac{2}{3}$.
+Khi viết phép chia thành phân số, số bị chia là tử số và số chia là mẫu số.
+
+Trong phép chia $2:3$, số bị chia là $2$ nên $2$ là tử số, số chia là $3$ nên $3$ là mẫu số. Hà đã viết ngược tử số và mẫu số, nên $2:3=\dfrac{3}{2}$ là sai.
+
+Viết lại cho đúng:
+$$2:3=\frac{2}{3}.$$
+
+Vậy Hà viết ngược tử số và mẫu số; viết đúng là $2:3=\dfrac{2}{3}$.
 
 **Đáp số.** $\dfrac{2}{3}$.
 :::
@@ -228,7 +265,18 @@ c) Chia đều $6$ lít nước vào $6$ chai. Mỗi chai có bao nhiêu lít?
 2. Viết thương thành phân số.
 
 ::solution
-a) $2:3=\dfrac{2}{3}$ (lít). b) $3:2=\dfrac{3}{2}$ (lít). c) $6:6=\dfrac{6}{6}=1$ (lít).
+Bài giải
+
+a) Chia đều $2$ lít nước vào $3$ chai thì mỗi chai có số lít nước là:
+$$2:3=\frac{2}{3}\ \text{(lít)}$$
+
+b) Chia đều $3$ lít nước vào $2$ chai thì mỗi chai có số lít nước là:
+$$3:2=\frac{3}{2}\ \text{(lít)}$$
+
+c) Chia đều $6$ lít nước vào $6$ chai thì mỗi chai có số lít nước là:
+$$6:6=\frac{6}{6}=1\ \text{(lít)}$$
+
+Vậy mỗi chai ở câu a) có $\dfrac{2}{3}$ lít, ở câu b) có $\dfrac{3}{2}$ lít, ở câu c) có $1$ lít.
 
 **Đáp số.** a) $\dfrac{2}{3}$ lít; b) $\dfrac{3}{2}$ lít; c) $1$ lít.
 :::
@@ -247,9 +295,17 @@ c) $7:4=\dfrac{?}{4}$.
 2. Số chia là mẫu số.
 
 ::solution
-a) Số bị chia là $4$ nên $?=4$. b) Mẫu số là $5$ nên số chia $?=5$. c) Số bị chia là $7$ nên $?=7$.
+Ta nhớ rằng $a:b=\dfrac{a}{b}$: số bị chia là tử số, số chia là mẫu số.
 
-**Kiểm tra.** $4:9=\dfrac{4}{9}$; $12:5=\dfrac{12}{5}$; $7:4=\dfrac{7}{4}$. Đúng.
+a) Ở $4:9=\dfrac{?}{9}$, số bị chia là $4$ nên tử số là $4$. Vậy $?=4$.
+
+b) Ở $12:?=\dfrac{12}{5}$, mẫu số là $5$ nên số chia là $5$. Vậy $?=5$.
+
+c) Ở $7:4=\dfrac{?}{4}$, số bị chia là $7$ nên tử số là $7$. Vậy $?=7$.
+
+*Kiểm tra.* $4:9=\dfrac{4}{9}$; $12:5=\dfrac{12}{5}$; $7:4=\dfrac{7}{4}$. Đúng.
+
+Vậy các số cần điền theo thứ tự là $4$, $5$ và $7$.
 
 **Đáp số.** a) $4$; b) $5$; c) $7$.
 :::

@@ -124,7 +124,14 @@ D. $2$
 **What you need:** $\displaystyle\int_0^\pi\sin x\,dx=2$.
 
 ::solution
-$\dfrac{1}{\pi}\cdot2=\dfrac2\pi$: answer **B**. Option D forgets to divide by the length of the interval.
+The average value of a function $f$ on $[a, b]$ is $\dfrac{1}{b-a}\displaystyle\int_a^bf(x)\,dx$. For $f(x)=\sin x$ on $[0, \pi]$, we have
+$$\frac{1}{\pi-0}\int_0^{\pi}\sin x\,dx=\frac1\pi\Big[-\cos x\Big]_0^{\pi}=\frac1\pi\left(1+1\right)=\frac2\pi.$$
+
+So the answer is **B**.
+
+*Remark.* Option D forgets to divide by the length of the interval: the value $2$ is only $\displaystyle\int_0^\pi\sin x\,dx$.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -134,7 +141,14 @@ Find the area of the region bounded by $y=4-x^2$ and the $x$-axis.
 **What you need:** the parabola crosses the axis at $x=\pm2$.
 
 ::solution
-$\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$.
+The intersections of $y=4-x^2$ with the $x$-axis satisfy $4-x^2=0$, so $x=-2$ or $x=2$. On $[-2, 2]$ we have $4-x^2\ge0$, so the graph lies above the $x$-axis.
+
+The required area is
+$$S=\int_{-2}^{2}\left(4-x^2\right)dx=\left.\left(4x-\frac{x^3}{3}\right)\right|_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=16-\frac{16}{3}=\frac{32}{3}.$$
+
+So the area of the region bounded by $y=4-x^2$ and the $x$-axis is $\dfrac{32}{3}$.
+
+**Answer.** $\dfrac{32}{3}$.
 :::
 
 :::exercise Free response
@@ -144,7 +158,16 @@ Find the area of the region between $y=x^2$ and $y=2x$.
 **What you need:** intersections at $x=0$ and $x=2$; the line is on top.
 
 ::solution
-$\displaystyle\int_0^2\left(2x-x^2\right)dx=4-\frac83=\frac43$.
+The intersections of $y=x^2$ and $y=2x$ satisfy $x^2=2x$, that is $x(x-2)=0$, so $x=0$ or $x=2$.
+
+On $[0, 2]$ we have $2x\ge x^2$ (for example at $x=1$: $2>1$), so the line $y=2x$ lies above the parabola $y=x^2$.
+
+The area of the region between the two graphs is
+$$S=\int_0^2\left(2x-x^2\right)dx=\left.\left(x^2-\frac{x^3}{3}\right)\right|_0^2=4-\frac83=\frac43.$$
+
+So the area of the region between $y=x^2$ and $y=2x$ is $\dfrac43$.
+
+**Answer.** $\dfrac43$.
 :::
 
 :::exercise Multiple choice
@@ -158,7 +181,14 @@ D. $9\pi$
 **What you need:** disks with radius $x$.
 
 ::solution
-$\pi\displaystyle\int_0^3x^2\,dx=9\pi$: answer **D**. This is a cone with radius $3$ and height $3$: $\dfrac13\pi\cdot9\cdot3=9\pi$.
+When the region under $y=x$ for $0\le x\le3$ is revolved around the $x$-axis, each cross section perpendicular to the $x$-axis is a disc of radius $x$. Applying the volume formula for solids of revolution (the disc method), we have
+$$V=\pi\int_0^3x^2\,dx=\pi\left.\frac{x^3}{3}\right|_0^3=\pi\cdot\frac{27}{3}=9\pi.$$
+
+So the answer is **D**.
+
+*Remark.* The solid is a cone with radius $3$ and height $3$, so its volume is $\dfrac13\pi\cdot3^2\cdot3=9\pi$, which agrees with the result above.
+
+**Answer.** D.
 :::
 
 :::exercise Free response
@@ -168,7 +198,17 @@ The base of a solid is the region under $y=e^x$ for $0\le x\le1$. Cross sections
 **What you need:** $A(x)=\left(e^x\right)^2=e^{2x}$.
 
 ::solution
-$\displaystyle\int_0^1e^{2x}\,dx=\frac{e^2-1}{2}\approx3.195$.
+At the point with abscissa $x$ ($0\le x\le1$), the cross section perpendicular to the $x$-axis is a square whose side equals the height of the region, that is $y=e^x$. The area of the cross section is
+$$A(x)=\left(e^x\right)^2=e^{2x}.$$
+
+The volume of the solid is
+$$V=\int_0^1A(x)\,dx=\int_0^1e^{2x}\,dx=\left.\frac{e^{2x}}{2}\right|_0^1=\frac{e^2-1}{2}.$$
+
+Using $e^2\approx7.3891$, we get $V\approx\dfrac{6.3891}{2}\approx3.195$.
+
+So the volume of the solid is $\dfrac{e^2-1}{2}\approx3.195$.
+
+**Answer.** $\dfrac{e^2-1}{2}\approx3.195$.
 :::
 
 ## Application exercises
@@ -188,11 +228,21 @@ c) The vertical line $x=k$ divides $R$ into two regions of equal area. Find $k$.
 3. $\dfrac23k^{3/2}=\dfrac83$.
 
 ::solution
-a) $\dfrac23\cdot8=\dfrac{16}{3}$.
+The region $R$ lies between the $x$-axis and the curve $y=\sqrt x$ for $0\le x\le4$.
 
-b) $\pi\displaystyle\int_0^4\left(x+2\sqrt x\right)dx=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}$.
+a) The area of $R$ is
+$$S=\int_0^4\sqrt x\,dx=\left.\frac23x^{3/2}\right|_0^4=\frac23\cdot8=\frac{16}{3}.$$
 
-c) $k^{3/2}=4$, so $k=4^{2/3}\approx2.520$.
+b) When $R$ is revolved around the line $y=-1$, each cross section perpendicular to the $x$-axis is a washer with outer radius $\sqrt x-(-1)=\sqrt x+1$ and inner radius $0-(-1)=1$. The volume is
+$$V=\pi\int_0^4\left[\left(\sqrt x+1\right)^2-1^2\right]dx=\pi\int_0^4\left(x+2\sqrt x\right)dx=\pi\left.\left(\frac{x^2}{2}+\frac43x^{3/2}\right)\right|_0^4=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}.$$
+
+c) The area of the part of $R$ to the left of the line $x=k$ ($0<k<4$) is $\displaystyle\int_0^k\sqrt x\,dx=\dfrac23k^{3/2}$. The two regions have equal area when this equals half the area of $R$:
+$$\frac23k^{3/2}=\frac12\cdot\frac{16}{3}=\frac83\iff k^{3/2}=4\iff k=4^{2/3}\approx2.520.$$
+This value satisfies $0<k<4$.
+
+So the area of $R$ is $\dfrac{16}{3}$; the volume of the solid is $\dfrac{56\pi}{3}$; and $k=4^{2/3}\approx2.520$.
+
+**Answer.** a) $\dfrac{16}{3}$; b) $\dfrac{56\pi}{3}$; c) $k=4^{2/3}\approx2.520$.
 :::
 
 :::exercise Average temperature
@@ -202,7 +252,20 @@ The temperature in a city is modeled by $T(t)=20+6\sin\left(\dfrac{\pi t}{12}\ri
 **What you need:** $\displaystyle\int_0^{12}\sin\left(\frac{\pi t}{12}\right)dt=\frac{24}{\pi}$; over a full period the sine averages to $0$.
 
 ::solution
-Over $24$ hours the average is $20$ degrees Celsius. Over the first $12$ hours it is $20+\dfrac{6}{12}\cdot\dfrac{24}{\pi}=20+\dfrac{12}{\pi}\approx23.820$ degrees Celsius.
+The average temperature on $[0, b]$ is $\dfrac1b\displaystyle\int_0^bT(t)\,dt$. An antiderivative of $T(t)=20+6\sin\left(\dfrac{\pi t}{12}\right)$ is
+$$\int T(t)\,dt=20t-\frac{72}{\pi}\cos\frac{\pi t}{12}.$$
+
+Over the full day ($b=24$):
+$$\int_0^{24}T\,dt=\left[20t-\frac{72}{\pi}\cos\frac{\pi t}{12}\right]_0^{24}=\left(480-\frac{72}{\pi}\right)-\left(0-\frac{72}{\pi}\right)=480.$$
+The average temperature is $\dfrac{480}{24}=20$ degrees Celsius.
+
+Over the first $12$ hours ($b=12$):
+$$\int_0^{12}T\,dt=\left[20t-\frac{72}{\pi}\cos\frac{\pi t}{12}\right]_0^{12}=\left(240+\frac{72}{\pi}\right)-\left(0-\frac{72}{\pi}\right)=240+\frac{144}{\pi}.$$
+The average temperature is $\dfrac{1}{12}\left(240+\dfrac{144}{\pi}\right)=20+\dfrac{12}{\pi}\approx23.820$ degrees Celsius.
+
+So the average temperature over the full day is $20$ degrees Celsius, and over the first $12$ hours it is $20+\dfrac{12}{\pi}\approx23.820$ degrees Celsius.
+
+**Answer.** Full day: $20$ degrees Celsius; first $12$ hours: $20+\dfrac{12}{\pi}\approx23.820$ degrees Celsius.
 :::
 
 :::exercise Choosing the variable
@@ -212,7 +275,16 @@ Find the area of the region bounded by $x=y^2$ and the line $x=4$ by integrating
 **What you need:** $y$ runs from $-2$ to $2$; right curve $x=4$, left curve $x=y^2$.
 
 ::solution
-$\displaystyle\int_{-2}^2\left(4-y^2\right)dy=16-\frac{16}{3}=\frac{32}{3}$. The same answer as the parabola exercise above: it is the same shape, turned on its side.
+The intersections of $x=y^2$ and $x=4$ satisfy $y^2=4$, so $y=-2$ or $y=2$. On $[-2, 2]$ we have $y^2\le4$, so the line $x=4$ lies to the right of the parabola $x=y^2$.
+
+Integrating in $y$, the area of the region is
+$$S=\int_{-2}^{2}\left(4-y^2\right)dy=\left.\left(4y-\frac{y^3}{3}\right)\right|_{-2}^{2}=\left(8-\frac83\right)-\left(-8+\frac83\right)=16-\frac{16}{3}=\frac{32}{3}.$$
+
+So the area of the region bounded by $x=y^2$ and the line $x=4$ is $\dfrac{32}{3}$.
+
+*Remark.* The answer is the same as in the exercise on the parabola $y=4-x^2$ above: it is the same shape, turned on its side.
+
+**Answer.** $\dfrac{32}{3}$.
 :::
 
 :::exercise BC: arc length with a calculator
@@ -222,7 +294,23 @@ Set up and evaluate the length of $y=\ln(\cos x)$ for $0\le x\le\dfrac{\pi}{4}$.
 **What you need:** $f'(x)=-\tan x$, and $1+\tan^2x=\sec^2x$.
 
 ::solution
-$L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\left(\sqrt2+1\right)\approx0.881$. On the calculator part, the integral with its limits and the value $0.881$ are enough.
+The arc length of the curve $y=f(x)$ for $a\le x\le b$ is $L=\displaystyle\int_a^b\sqrt{1+\left(y'\right)^2}\,dx$.
+
+For $y=\ln(\cos x)$, we have $\cos x>0$ on $\left[0, \dfrac\pi4\right]$, so the function is defined, and
+$$y'=\frac{-\sin x}{\cos x}=-\tan x.$$
+
+Therefore
+$$L=\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sqrt{\sec^2x}\,dx=\int_0^{\pi/4}\sec x\,dx,$$
+because $1+\tan^2x=\sec^2x$ and $\sec x>0$ on $\left[0, \dfrac\pi4\right]$.
+
+An antiderivative of $\sec x$ is $\ln|\sec x+\tan x|$, so
+$$L=\Big[\ln|\sec x+\tan x|\Big]_0^{\pi/4}=\ln\left(\sqrt2+1\right)-\ln1=\ln\left(\sqrt2+1\right)\approx0.881.$$
+
+So the length of the curve is $L=\ln\left(\sqrt2+1\right)\approx0.881$.
+
+*Exam tip.* On the calculator part, the integral $\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx$ with its limits and the value $0.881$ are enough.
+
+**Answer.** $\ln\left(\sqrt2+1\right)\approx0.881$.
 :::
 
 :::quiz

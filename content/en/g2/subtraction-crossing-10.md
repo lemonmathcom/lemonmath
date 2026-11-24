@@ -161,11 +161,15 @@ c) $11-9$
 2. Take the remaining part away from 10.
 
 ::solution
-a) $12-5=12-2-3=10-3=7$.
+We split the number taken away into two parts, so that taking away the first part gives $10$, and then we take away the other part.
 
-b) $14-8=14-4-4=10-4=6$.
+a) Split $5=2+3$. We have $12-5=12-2-3=10-3=7$.
 
-c) $11-9=11-1-8=10-8=2$.
+b) Split $8=4+4$. We have $14-8=14-4-4=10-4=6$.
+
+c) Split $9=1+8$. We have $11-9=11-1-8=10-8=2$.
+
+So $12-5=7$, $14-8=6$ and $11-9=2$.
 
 **Answer.** a) 7; b) 6; c) 2.
 :::
@@ -187,11 +191,15 @@ c) $17-8$
 2. Check with addition.
 
 ::solution
+We work in our heads by first taking away to reach $10$, and then taking away the rest.
+
 a) $13-7=13-3-4=10-4=6$.
 
 b) $16-9=16-6-3=10-3=7$.
 
 c) $17-8=17-7-1=10-1=9$.
+
+So $13-7=6$, $16-9=7$ and $17-8=9$.
 
 **Answer.** a) 6; b) 7; c) 9.
 :::
@@ -207,8 +215,12 @@ You know that $9+8=17$. Write the two matching subtractions.
 2. Take each addend away from the sum in turn.
 
 ::solution
-The sum is 17. We have:
+The given addition is $9+8=17$, where $9$ and $8$ are the two addends and $17$ is the sum.
+
+Taking one addend away from the sum leaves the other addend. We have:
 $$17-9=8,\qquad 17-8=9.$$
+
+So the two matching subtractions are $17-9=8$ and $17-8=9$.
 
 **Answer.** $17-9=8$ and $17-8=9$.
 :::
@@ -225,9 +237,15 @@ $$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
 2. Compare each result with the number on the right.
 
 ::solution
-We have $15-7=8$ and $8<9$.
-We have $13-6=7$ and $7=7$.
-We have $12-4=8$ and $8>7$.
+We work out the difference on the left and compare it with the number on the right.
+
+We have $15-7=15-5-2=10-2=8$ and $8<9$, so $15-7<9$.
+
+We have $13-6=13-3-3=10-3=7$ and $7=7$, so $13-6=7$.
+
+We have $12-4=12-2-2=10-2=8$ and $8>7$, so $12-4>7$.
+
+So $15-7<9$; $13-6=7$; $12-4>7$.
 
 **Answer.** $15-7<9$; $13-6=7$; $12-4>7$.
 :::
@@ -248,7 +266,10 @@ Solution
 
 The number of marbles left in the box is:
 $$15-6=15-5-1=10-1=9\ \text{(marbles)}.$$
-Answer: 9 marbles.
+
+So $9$ marbles are left in the box.
+
+**Answer.** 9 marbles.
 :::
 
 :::exercise
@@ -267,7 +288,10 @@ Solution
 
 The number of children still playing in the playground is:
 $$17-9=17-7-2=10-2=8\ \text{(children)}.$$
-Answer: 8 children.
+
+So $8$ children are still playing in the playground.
+
+**Answer.** 8 children.
 :::
 
 :::exercise
@@ -284,9 +308,12 @@ Remember the word problems about fewer than. Lan has 14 flowers. Mai has 6 fewer
 ::solution
 Solution
 
-The number of flowers Mai has is:
+Mai has $6$ fewer flowers than Lan, so the number of flowers Mai has is the number Lan has minus $6$. The number of flowers Mai has is:
 $$14-6=14-4-2=10-2=8\ \text{(flowers)}.$$
-Answer: 8 flowers.
+
+So Mai has $8$ flowers.
+
+**Answer.** 8 flowers.
 :::
 
 :::exercise Challenge
@@ -300,9 +327,14 @@ In the subtraction facts that bridge through 10, which subtractions have a diffe
 2. Compare the minuend and the number taken away in two neighbouring subtractions.
 
 ::solution
-The subtractions with a difference of 9 are:
-$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
-From one of these subtractions to the next, the minuend goes up by 1 and the number taken away also goes up by 1, so the difference stays the same.
+In the subtraction facts that bridge through $10$, the subtractions with a difference of $9$ have the number taken away equal to the minuend minus $9$. We check each one, for example $13-4=13-3-1=10-1=9$:
+$$11-2=9,\ 12-3=9,\ 13-4=9,\ 14-5=9,\ 15-6=9,\ 16-7=9,\ 17-8=9,\ 18-9=9.$$
+
+There are $8$ such subtractions.
+
+Observation: from one of these subtractions to the next, the minuend goes up by $1$ and the number taken away also goes up by $1$, so the difference stays the same, $9$.
+
+So there are $8$ subtractions with a difference of $9$, and when the minuend and the number taken away both go up by $1$, the difference is still $9$.
 
 **Answer.** There are 8 subtractions; when the minuend and the number taken away both go up by 1, the difference is still 9.
 :::

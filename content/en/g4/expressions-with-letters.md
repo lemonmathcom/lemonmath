@@ -165,7 +165,10 @@ Find the value of the expression $m\times6$ when $m=9$.
 2. Do the multiplication.
 
 ::solution
-When $m=9$, $m\times6=9\times6=54$.
+Substitute $m=9$ into the expression $m\times6$:
+$$m\times6=9\times6=54.$$
+
+So when $m=9$, the value of the expression $m\times6$ is $54$.
 
 **Answer.** $54$.
 :::
@@ -181,7 +184,14 @@ Find the value of the expression $125-x$ when $x=48$.
 2. Set out the subtraction and subtract.
 
 ::solution
-When $x=48$, $125-x=125-48=77$.
+Substitute $x=48$ into the expression $125-x$:
+$$125-x=125-48.$$
+
+Set out the subtraction and work from right to left: $15-8=7$, write $7$ and carry $1$; $4+1=5$, $12-5=7$, write $7$ and carry $1$; $1-1=0$. So $125-48=77$.
+
+*Check.* $77+48=125$. Correct.
+
+So when $x=48$, the value of the expression $125-x$ is $77$.
 
 **Answer.** $77$.
 :::
@@ -197,7 +207,12 @@ Find the value of the expression $a\times4+b$ when $a=15$ and $b=30$.
 2. Work out $15\times4$ first, then add $30$.
 
 ::solution
-When $a=15$ and $b=30$, $a\times4+b=15\times4+30=60+30=90$.
+The expression $a\times4+b$ has no brackets and contains both a multiplication and an addition, so we multiply first and then add.
+
+Substitute $a=15$ and $b=30$ into the expression:
+$$a\times4+b=15\times4+30=60+30=90.$$
+
+So when $a=15$ and $b=30$, the value of the expression $a\times4+b$ is $90$.
 
 **Answer.** $90$.
 :::
@@ -213,7 +228,12 @@ Find the value of the expression $(a+b)\times c$ when $a=12$, $b=8$ and $c=5$.
 2. Work out $12+8$ first, then multiply by $5$.
 
 ::solution
-When $a=12$, $b=8$, $c=5$, $(a+b)\times c=(12+8)\times5=20\times5=100$.
+The expression $(a+b)\times c$ has brackets, so we work out the addition inside the brackets first and then multiply.
+
+Substitute $a=12$, $b=8$ and $c=5$ into the expression:
+$$(a+b)\times c=(12+8)\times5=20\times5=100.$$
+
+So when $a=12$, $b=8$ and $c=5$, the value of the expression $(a+b)\times c$ is $100$.
 
 **Answer.** $100$.
 :::
@@ -232,8 +252,12 @@ A garden (made-up numbers) is a square with side $25$ m. Find the perimeter of t
 ::solution
 Solution
 
+A square has four equal sides, so its perimeter is the length of one side multiplied by $4$.
+
 The perimeter of the garden is:
-$$25\times4=100\ \text{(m)}.$$
+$$25\times4=100\ \text{(m)}$$
+
+So the perimeter of the garden is $100$ m.
 
 **Answer.** $100$ m.
 :::
@@ -251,8 +275,12 @@ A piece of card is a rectangle with length $38$ cm and width $22$ cm. Find the p
 ::solution
 Solution
 
+The perimeter of a rectangle is the sum of its length and width, multiplied by $2$.
+
 The perimeter of the card is:
-$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
+$$(38+22)\times2=60\times2=120\ \text{(cm)}$$
+
+So the perimeter of the card is $120$ cm.
 
 **Answer.** $120$ cm.
 :::
@@ -271,8 +299,14 @@ Mai buys $m$ exercise books at $6\,500$ dong each and a ruler for $3\,000$ dong.
 ::solution
 Solution
 
-The money Mai pays is $6\,500\times m+3\,000$ (dong). When $m=5$, the money is:
-$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(dong)}.$$
+The money for $m$ exercise books is $6\,500\times m$ (dong).
+
+Mai also buys a ruler for $3\,000$ dong, so the money Mai pays is $6\,500\times m+3\,000$ (dong).
+
+When $m=5$, the money Mai pays is:
+$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(dong)}$$
+
+So the expression for the money Mai pays is $6\,500\times m+3\,000$ (dong); when $m=5$, Mai pays $35\,500$ dong.
 
 **Answer.** $35\,500$ dong.
 :::
@@ -288,9 +322,14 @@ Remember the lesson on dividing a five-digit number by a one-digit number. Find 
 2. Divide $90\,000$ by $8$, then check by multiplying.
 
 ::solution
-When $n=8$, $90\,000\div n=90\,000\div8=11\,250$.
+Substitute $n=8$ into the expression $90\,000\div n$:
+$$90\,000\div n=90\,000\div8.$$
 
-**Check.** $11\,250\times8=90\,000$. Correct.
+Set out the long division and work from left to right: $9\div8=1$ remainder $1$; bring down $0$ to make $10$, $10\div8=1$ remainder $2$; bring down $0$ to make $20$, $20\div8=2$ remainder $4$; bring down $0$ to make $40$, $40\div8=5$ remainder $0$; bring down $0$ to make $0$, $0\div8=0$. So $90\,000\div8=11\,250$.
+
+*Check.* $11\,250\times8=90\,000$. Correct.
+
+So when $n=8$, the value of the expression $90\,000\div n$ is $11\,250$.
 
 **Answer.** $11\,250$.
 :::
@@ -306,9 +345,14 @@ Nam finds the value of the expression $3\times a+b$ when $a=10$ and $b=5$ and ge
 2. Substitute $a=10$ and $b=5$ and work it out in the right order.
 
 ::solution
-The expression $3\times a+b$ has no brackets, so we must multiply first and then add. Nam added $10+5$ first, so he is wrong.
+When $a=10$ and $b=5$, the expression $3\times a+b$ becomes $3\times10+5$.
 
-Working it out again: $3\times10+5=30+5=35$.
+This expression has no brackets, so we must multiply first and then add. Nam added $10+5$ first and then multiplied by $3$; that is, Nam worked out $3\times(10+5)$ instead of $3\times10+5$. So Nam's result of $45$ is wrong.
+
+Working it out again:
+$$3\times a+b=3\times10+5=30+5=35.$$
+
+So Nam is wrong; the correct answer is $35$.
 
 **Answer.** Nam is wrong; the correct answer is $35$.
 :::
@@ -324,9 +368,19 @@ A rectangle has perimeter $56$ cm and length $18$ cm. Find the width of the rect
 2. Subtract the length $18$ from $a+b$.
 
 ::solution
-We have $(a+b)\times2=56$, so $a+b=56\div2=28$ (cm). The width is $b=28-18=10$ (cm).
+Solution
 
-**Check.** $(18+10)\times2=28\times2=56$. Correct.
+The perimeter of a rectangle is $(a+b)\times2$, where $a$ is the length and $b$ is the width. Since the perimeter is $56$ cm, we have $(a+b)\times2=56$.
+
+Half the perimeter, that is the sum of the length and the width, is:
+$$a+b=56\div2=28\ \text{(cm)}$$
+
+The width of the rectangle is:
+$$b=28-18=10\ \text{(cm)}$$
+
+*Check.* $(18+10)\times2=28\times2=56$. Correct.
+
+So the width of the rectangle is $10$ cm.
 
 **Answer.** $10$ cm.
 :::

@@ -132,7 +132,17 @@ Năm số có trung bình $12$. Thêm số thứ sáu thì trung bình thành $1
 **Cần nhớ:** tổng $=$ trung bình $\times$ số lượng.
 
 ::solution
-Các tổng là $5(12)=60$ và $6(13)=78$, nên số thứ sáu là $18$.
+Trung bình cộng bằng tổng các số chia cho số lượng số. Với năm số có trung bình $12$, tổng của chúng là
+$$5\cdot12=60.$$
+
+Sau khi thêm số thứ sáu, có sáu số với trung bình $13$, nên tổng của sáu số là
+$$6\cdot13=78.$$
+
+Số thứ sáu bằng hiệu của hai tổng: $78-60=18$.
+
+Vậy số thứ sáu là $18$.
+
+**Đáp số.** $18$.
 :::
 
 :::exercise Biến cố độc lập
@@ -142,7 +152,15 @@ $A$ và $B$ độc lập, với $P(A)=0{,}3$ và $P(B)=0{,}6$. Tính $P(A\cup B)
 **Cần nhớ:** $P(A\cap B)=P(A)P(B)$.
 
 ::solution
-$0{,}3+0{,}6-0{,}18=0{,}72$.
+Vì $A$ và $B$ độc lập nên
+$$P(A\cap B)=P(A)\cdot P(B)=0{,}3\cdot0{,}6=0{,}18.$$
+
+Áp dụng công thức cộng xác suất:
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0{,}3+0{,}6-0{,}18=0{,}72.$$
+
+Vậy $P(A\cup B)=0{,}72$.
+
+**Đáp số.** $0{,}72$.
 :::
 
 :::exercise Kì vọng từ bảng
@@ -156,7 +174,14 @@ Tính $E(X)$. [2 marks]
 **Cần nhớ:** $\sum xP(X=x)$.
 
 ::solution
-$0(0{,}2)+1(0{,}5)+2(0{,}3)=1{,}1$.
+Kiểm tra bảng phân phối: $0{,}2+0{,}5+0{,}3=1$, nên bảng hợp lệ.
+
+Kì vọng của biến ngẫu nhiên rời rạc là $E(X)=\sum x\cdot P(X=x)$. Do đó
+$$E(X)=0\cdot0{,}2+1\cdot0{,}5+2\cdot0{,}3=0+0{,}5+0{,}6=1{,}1.$$
+
+Vậy $E(X)=1{,}1$.
+
+**Đáp số.** $1{,}1$.
 :::
 
 :::exercise Xác suất nhị thức
@@ -166,7 +191,16 @@ Tung một đồng xu cân đối $8$ lần. Tính xác suất được đúng $
 **Cần nhớ:** $X\sim B(8;0{,}5)$.
 
 ::solution
-$\dbinom84(0{,}5)^8=\dfrac{70}{256}\approx0{,}273$.
+Gọi $X$ là số lần xuất hiện mặt ngửa trong $8$ lần tung. Mỗi lần tung độc lập và mặt ngửa xuất hiện với xác suất $0{,}5$, nên $X\sim B(8; 0{,}5)$.
+
+Áp dụng công thức xác suất nhị thức $P(X=k)=C_n^k\,p^k(1-p)^{n-k}$ với $n=8$, $k=4$, $p=0{,}5$:
+$$P(X=4)=C_8^4\cdot(0{,}5)^4(0{,}5)^4=70\cdot(0{,}5)^8=\frac{70}{256}.$$
+
+Ở đây $C_8^4=\dfrac{8!}{4!\,4!}=70$. Do đó $P(X=4)=\dfrac{70}{256}\approx0{,}273$.
+
+Vậy xác suất được đúng $4$ lần mặt ngửa là khoảng $0{,}273$.
+
+**Đáp số.** $\dfrac{70}{256}\approx0{,}273$.
 :::
 
 :::exercise Xác suất phân phối chuẩn
@@ -176,7 +210,19 @@ $X\sim N\left(50;4^2\right)$. Tính $P(46<X<58)$. [2 marks]
 **Cần nhớ:** normal cdf với cận dưới $46$, cận trên $58$, $\mu=50$, $\sigma=4$.
 
 ::solution
-$P(46<X<58)\approx0{,}819$.
+Với $X\sim N\left(50; 4^2\right)$, trung bình là $\mu=50$ và độ lệch chuẩn là $\sigma=4$.
+
+Chuẩn hoá $Z=\dfrac{X-\mu}{\sigma}$, trong đó $Z\sim N(0; 1)$:
+$$z_1=\frac{46-50}{4}=-1,\qquad z_2=\frac{58-50}{4}=2.$$
+
+Do đó
+$$P(46<X<58)=P(-1<Z<2)=P(Z<2)-P(Z<-1)\approx0{,}97725-0{,}15866\approx0{,}819.$$
+
+Dùng GDC (hàm phân phối chuẩn) với cận $46$ và $58$, $\mu=50$, $\sigma=4$ cũng cho kết quả $0{,}819$.
+
+Vậy $P(46<X<58)\approx0{,}819$.
+
+**Đáp số.** $\approx0{,}819$.
 :::
 
 ## Bài tập vận dụng
@@ -188,7 +234,20 @@ $2\%$ bóng đèn của một nhà máy bị lỗi. Kiểm tra ngẫu nhiên $20
 **Cần nhớ:** $X\sim B(20;0{,}02)$ và $P(X\le1)$.
 
 ::solution
-$P(X\le1)\approx0{,}940$.
+Gọi $X$ là số bóng đèn lỗi trong $20$ bóng được kiểm tra. Mỗi bóng lỗi với xác suất $0{,}02$ và các bóng được xem là độc lập, nên $X\sim B(20; 0{,}02)$.
+
+Biến cố "nhiều nhất một bóng lỗi" là $X\le1$, nên
+$$P(X\le1)=P(X=0)+P(X=1).$$
+
+Áp dụng công thức nhị thức:
+$$P(X=0)=(0{,}98)^{20}\approx0{,}6676,$$
+$$P(X=1)=C_{20}^1\cdot0{,}02\cdot(0{,}98)^{19}=20\cdot0{,}02\cdot(0{,}98)^{19}\approx0{,}2725.$$
+
+Cộng lại: $P(X\le1)\approx0{,}6676+0{,}2725\approx0{,}940$. (GDC với hàm phân phối nhị thức tích luỹ cũng cho $0{,}940$.)
+
+Vậy xác suất có nhiều nhất một bóng lỗi là khoảng $0{,}940$.
+
+**Đáp số.** $\approx0{,}940$.
 :::
 
 :::exercise Ngưỡng điểm
@@ -198,7 +257,18 @@ $P(X\le1)\approx0{,}940$.
 **Cần nhớ:** $P(S>k)=0{,}1$ nghĩa là $P(S<k)=0{,}9$.
 
 ::solution
-Tra ngược: $k\approx80{,}4$.
+Gọi $X$ là điểm của một học sinh, $X\sim N\left(65; 12^2\right)$. Gọi $k$ là điểm thấp nhất được xếp loại cao nhất. Vì $10\%$ học sinh cao điểm nhất được xếp loại này nên
+$$P(X\ge k)=0{,}1,\ \text{tức là}\ P(X<k)=0{,}9.$$
+
+Dùng phân phối chuẩn tắc $Z=\dfrac{X-65}{12}$. Tra ngược (hàm chuẩn nghịch đảo trên GDC) với xác suất $0{,}9$, ta được $z\approx1{,}2816$, tức là
+$$\frac{k-65}{12}\approx1{,}2816.$$
+
+Suy ra
+$$k\approx65+12\cdot1{,}2816\approx80{,}4.$$
+
+Vậy điểm thấp nhất được xếp loại cao nhất là khoảng $80{,}4$ điểm.
+
+**Đáp số.** $k\approx80{,}4$.
 :::
 
 :::exercise Bảng hai chiều
@@ -216,9 +286,21 @@ Khảo sát $200$ học sinh, ghi lại việc có học hơn $5$ giờ hay khô
 **Cần nhớ:** điều kiện quyết định mẫu số: tổng hàng ở câu (a), tổng cột ở câu (b).
 
 ::solution
-(a) $\dfrac{90}{120}=0{,}75$.
+Gọi $A$ là biến cố "học sinh đạt" và $B$ là biến cố "học sinh học hơn $5$ giờ". Từ bảng: có $90+30=120$ học sinh học hơn $5$ giờ và $90+50=140$ học sinh đạt; có $90$ học sinh vừa học hơn $5$ giờ vừa đạt.
 
-(b) $\dfrac{90}{140}\approx0{,}643$. Hai đáp số khác nhau: nói chung $P(A\mid B)\ne P(B\mid A)$.
+a) Cần tính $P(A\mid B)$. Trong $120$ học sinh học hơn $5$ giờ có $90$ học sinh đạt, nên
+$$P(A\mid B)=\frac{90}{120}=0{,}75.$$
+
+Vậy xác suất một học sinh đạt, biết học sinh đó học hơn $5$ giờ, là $0{,}75$.
+
+b) Cần tính $P(B\mid A)$. Trong $140$ học sinh đạt có $90$ học sinh học hơn $5$ giờ, nên
+$$P(B\mid A)=\frac{90}{140}=\frac{9}{14}\approx0{,}643.$$
+
+Vậy xác suất một học sinh học hơn $5$ giờ, biết học sinh đó đạt, là khoảng $0{,}643$.
+
+Hai đáp số khác nhau vì điều kiện (tập hợp cơ sở) khác nhau: nói chung $P(A\mid B)\neq P(B\mid A)$.
+
+**Đáp số.** a) $0{,}75$; b) $\dfrac{90}{140}\approx0{,}643$.
 :::
 
 :::exercise Thử thách: trò chơi công bằng
@@ -228,7 +310,15 @@ Người chơi trả $k$ đô la để gieo một con xúc xắc cân đối sá
 **Cần nhớ:** tiền thưởng kì vọng bằng tiền phải trả.
 
 ::solution
-$E(\text{tiền thưởng})=\dfrac{1+2+3+4+5+6}{6}=3{,}5$, nên $k=3{,}5$.
+Gọi $W$ là số đô la người chơi nhận được. Con xúc xắc cân đối nên mỗi mặt $1,2,3,4,5,6$ xuất hiện với xác suất $\dfrac16$. Kì vọng tiền thưởng là
+$$E(W)=\frac{1+2+3+4+5+6}{6}=\frac{21}{6}=3{,}5\ \text{(đô la)}.$$
+
+Trò chơi công bằng khi kì vọng lợi nhuận của người chơi bằng $0$, tức là tiền thưởng trung bình bằng số tiền phải trả:
+$$E(W)-k=0\iff k=E(W)=3{,}5.$$
+
+Vậy để trò chơi công bằng thì $k=3{,}5$ đô la.
+
+**Đáp số.** $k=3{,}5$ đô la.
 :::
 
 :::quiz

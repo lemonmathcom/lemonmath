@@ -225,11 +225,14 @@ Simplify $i^{2027}$.
 **What you need:** the powers of $i$ repeat every $4$; find the remainder when $2027$ is divided by $4$.
 
 ::solution
-Dividing $2027$ by $4$ gives $2027=4\times506+3$.
+The powers of $i$ repeat with period $4$ because $i^4=1$, so we divide the exponent by $4$.
 
-Since $i^4=1$, we have $i^{2027}=\left(i^4\right)^{506}\cdot i^3=i^3$.
+We have $2027=4\times506+3$.
 
-Also $i^3=i^2\cdot i=-i$.
+Since $i^4=1$, we get
+$$i^{2027}=i^{4\cdot506+3}=\left(i^4\right)^{506}\cdot i^3=1^{506}\cdot i^3=i^3.$$
+
+Also, $i^2=-1$, so $i^3=i^2\cdot i=-i$.
 
 So $i^{2027}=-i$.
 

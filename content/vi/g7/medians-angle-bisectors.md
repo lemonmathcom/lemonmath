@@ -226,9 +226,19 @@ b) Tính $AG$ và $GM$.
 2. Nhân $15$ với $\dfrac23$, rồi với $\dfrac13$.
 
 ::solution
-a) $\dfrac{AG}{AM}=\dfrac23$.
+Trọng tâm $G$ của tam giác $ABC$ là giao điểm của ba đường trung tuyến, và $G$ nằm trên trung tuyến $AM$ sao cho $AG=\dfrac23AM$.
 
-b) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+a) Theo tính chất của trọng tâm, ta có
+$$\frac{AG}{AM}=\frac23.$$
+
+b) Thay $AM=15$ cm vào $AG=\dfrac23AM$, ta được
+$$AG=\frac23\cdot15=10\ (\text{cm}).$$
+
+Vì $G$ nằm giữa $A$ và $M$ nên
+$$GM=AM-AG=15-10=5\ (\text{cm}),$$
+cũng bằng $\dfrac13\cdot15=5$ (cm).
+
+Vậy $\dfrac{AG}{AM}=\dfrac23$, $AG=10$ cm và $GM=5$ cm.
 
 **Đáp số.** a) $\dfrac23$; b) $AG=10$ cm, $GM=5$ cm.
 :::
@@ -244,9 +254,17 @@ Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $BG=14$ 
 2. Cộng $BG$ với $GN$.
 
 ::solution
-$GN=BG:2=14:2=7$ (cm). $BN=14+7=21$ (cm).
+Vì $G$ là trọng tâm và $BN$ là trung tuyến nên $BG=\dfrac23BN$, hay $BG=2GN$.
 
-**Kiểm tra.** $BG=\dfrac23\cdot21=14$.
+Thay $BG=14$ cm, ta có
+$$GN=BG:2=14:2=7\ (\text{cm}).$$
+
+Vì $G$ nằm giữa $B$ và $N$ nên
+$$BN=BG+GN=14+7=21\ (\text{cm}).$$
+
+Kiểm tra: $\dfrac23\cdot21=14$ (cm), đúng bằng $BG$.
+
+Vậy $GN=7$ cm và $BN=21$ cm.
 
 **Đáp số.** $GN=7$ cm, $BN=21$ cm.
 :::
@@ -266,7 +284,15 @@ b) Khoảng cách từ $I$ đến cạnh $CA$ là bao nhiêu?
 2. So sánh ba khoảng cách đó.
 
 ::solution
-Vì $I$ là giao điểm của ba đường phân giác nên $I$ cách đều ba cạnh. Do đó khoảng cách từ $I$ đến $BC$ và đến $CA$ đều bằng $4$ cm.
+Giao điểm $I$ của ba đường phân giác trong tam giác $ABC$ cách đều ba cạnh của tam giác. Nghĩa là các khoảng cách từ $I$ đến $AB$, $BC$, $CA$ bằng nhau.
+
+Theo đề bài, khoảng cách từ $I$ đến cạnh $AB$ bằng $4$ cm.
+
+a) Khoảng cách từ $I$ đến cạnh $BC$ bằng khoảng cách từ $I$ đến $AB$, tức là $4$ cm.
+
+b) Khoảng cách từ $I$ đến cạnh $CA$ cũng bằng $4$ cm.
+
+Vậy khoảng cách từ $I$ đến $BC$ và đến $CA$ đều bằng $4$ cm.
 
 **Đáp số.** a) $4$ cm; b) $4$ cm.
 :::
@@ -289,11 +315,19 @@ c) Tính $\widehat{BIC}$.
 3. Dùng tổng ba góc của tam giác $IBC$.
 
 ::solution
-a) $\widehat A=180^\circ-64^\circ-56^\circ=60^\circ$.
+a) Trong tam giác $ABC$, tổng ba góc bằng $180^\circ$ nên
+$$\widehat A=180^\circ-\widehat B-\widehat C=180^\circ-64^\circ-56^\circ=60^\circ.$$
 
-b) $\widehat{IBC}=64^\circ:2=32^\circ$, $\widehat{ICB}=56^\circ:2=28^\circ$.
+b) Vì $BI$ là tia phân giác của góc $B$ nên
+$$\widehat{IBC}=\frac{\widehat B}{2}=64^\circ:2=32^\circ.$$
 
-c) $\widehat{BIC}=180^\circ-32^\circ-28^\circ=120^\circ$.
+Vì $CI$ là tia phân giác của góc $C$ nên
+$$\widehat{ICB}=\frac{\widehat C}{2}=56^\circ:2=28^\circ.$$
+
+c) Xét tam giác $BIC$, tổng ba góc bằng $180^\circ$ nên
+$$\widehat{BIC}=180^\circ-\widehat{IBC}-\widehat{ICB}=180^\circ-32^\circ-28^\circ=120^\circ.$$
+
+Vậy $\widehat A=60^\circ$; $\widehat{IBC}=32^\circ$, $\widehat{ICB}=28^\circ$; $\widehat{BIC}=120^\circ$.
 
 **Đáp số.** a) $60^\circ$; b) $32^\circ$ và $28^\circ$; c) $120^\circ$.
 :::
@@ -313,9 +347,15 @@ b) Tìm điểm để đặt một ngón tay đỡ tấm bìa tam giác cho nằ
 2. Việc nào cần trọng tâm?
 
 ::solution
-a) Chọn ba đường phân giác. Giao điểm $I$ của chúng cách đều ba cạnh của khu đất.
+Ta nhớ lại: ba đường phân giác của tam giác cắt nhau tại một điểm cách đều ba cạnh; ba đường trung tuyến cắt nhau tại trọng tâm, là điểm cân bằng của tam giác.
 
-b) Chọn ba đường trung tuyến. Giao điểm của chúng là trọng tâm, tại đó tấm bìa thăng bằng.
+a) Giếng cần cách đều ba cạnh của khu đất hình tam giác. Giao điểm $I$ của ba đường phân giác có tính chất này.
+
+Vậy ta chọn ba đường phân giác; giếng đặt tại giao điểm $I$ của chúng.
+
+b) Để tấm bìa tam giác nằm thăng bằng trên một ngón tay, ta cần đỡ đúng tại trọng tâm. Trọng tâm là giao điểm của ba đường trung tuyến.
+
+Vậy ta chọn ba đường trung tuyến; ngón tay đặt tại giao điểm của chúng.
 
 **Đáp số.** a) đường phân giác; b) đường trung tuyến.
 :::
@@ -335,9 +375,16 @@ Lời giải của Bình: "$AG=\dfrac13AM=\dfrac13\cdot18=6$ cm."
 2. Làm lại với tỉ lệ đúng.
 
 ::solution
-Bình dùng nhầm $\dfrac13$. Con số $6$ cm thực ra là $GM$, đoạn từ $G$ đến trung điểm $M$. Làm đúng: $AG=\dfrac23\cdot18=12$ (cm).
+Lỗi sai của Bình: bạn dùng nhầm tỉ số $\dfrac13$. Theo tính chất của trọng tâm, $AG=\dfrac23AM$ chứ không phải $\dfrac13AM$.
 
-**Kiểm tra.** $AG=2GM=2\cdot6=12$.
+Con số $6$ cm mà Bình tìm được thực ra là $GM=\dfrac13AM$, đoạn từ $G$ đến trung điểm $M$.
+
+Làm đúng: vì $G$ là trọng tâm và $AM$ là trung tuyến nên
+$$AG=\frac23AM=\frac23\cdot18=12\ (\text{cm}).$$
+
+Kiểm tra: $GM=\dfrac13\cdot18=6$ (cm) và $AG=2GM=2\cdot6=12$ (cm).
+
+Vậy $AG=12$ cm.
 
 **Đáp số.** $AG=12$ cm.
 :::
@@ -357,9 +404,18 @@ b) Tính khoảng cách từ $G$ đến $BC$.
 2. Giải thích vì sao $GM$ là khoảng cách từ $G$ đến $BC$.
 
 ::solution
-a) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+Tam giác $ABC$ cân tại $A$, $M$ là trung điểm của $BC$, nên $AM$ là đường trung tuyến; $G$ là trọng tâm nằm trên $AM$.
 
-b) Tam giác $ABC$ cân tại $A$ nên trung tuyến $AM$ vuông góc với $BC$. Do đó khoảng cách từ $G$ đến $BC$ là $GM=5$ cm.
+a) Theo tính chất của trọng tâm, với $AM=15$ cm,
+$$AG=\frac23\cdot15=10\ (\text{cm}).$$
+
+Do $G$ nằm giữa $A$ và $M$ nên $GM=AM-AG=15-10=5$ (cm), cũng bằng $\dfrac13\cdot15=5$ (cm).
+
+b) Tam giác $ABC$ cân tại $A$ nên trung tuyến $AM$ cũng là đường cao, tức là $AM\perp BC$ tại $M$.
+
+Vì $G$ nằm trên $AM$ nên $GM\perp BC$ tại $M$. Do đó khoảng cách từ $G$ đến $BC$ là độ dài đoạn $GM$, bằng $5$ cm.
+
+Vậy $AG=10$ cm, $GM=5$ cm và khoảng cách từ $G$ đến $BC$ là $5$ cm.
 
 **Đáp số.** a) $AG=10$ cm, $GM=5$ cm; b) $5$ cm.
 :::
@@ -381,11 +437,21 @@ c) $8$ cm, $8$ cm, $15$ cm.
 2. So sánh với cạnh lớn nhất.
 
 ::solution
-a) $5+7=12>11$: có.
+Ba độ dài là ba cạnh của một tam giác khi và chỉ khi tổng hai độ dài nhỏ hơn luôn lớn hơn độ dài lớn nhất (bất đẳng thức tam giác).
 
-b) $4+9=13$, không lớn hơn $13$: không.
+a) Hai độ dài nhỏ là $5$ cm và $7$ cm, độ dài lớn nhất là $11$ cm. Ta có $5+7=12>11$.
 
-c) $8+8=16>15$: có.
+Vậy bộ ba này là ba cạnh của một tam giác: có.
+
+b) Hai độ dài nhỏ là $4$ cm và $9$ cm, độ dài lớn nhất là $13$ cm. Ta có $4+9=13$, không lớn hơn $13$.
+
+Vậy bộ ba này không là ba cạnh của một tam giác: không.
+
+c) Hai độ dài nhỏ là $8$ cm và $8$ cm, độ dài lớn nhất là $15$ cm. Ta có $8+8=16>15$.
+
+Vậy bộ ba này là ba cạnh của một tam giác: có.
+
+Vậy bộ ba ở a) và c) là ba cạnh của một tam giác, bộ ba ở b) thì không.
 
 **Đáp số.** a) có; b) không; c) có.
 :::
@@ -408,11 +474,21 @@ c) $BC$ có thể bằng $3$ cm không?
 3. So sánh $3$ với khoảng tìm được.
 
 ::solution
-a) $BG=\dfrac23\cdot18=12$ (cm), $CG=\dfrac23\cdot12=8$ (cm).
+Hai trung tuyến $BN$ và $CP$ cắt nhau tại $G$ nên $G$ là trọng tâm của tam giác $ABC$.
 
-b) $BG+CG=20$ và $BG-CG=4$, nên $4<BC<20$.
+a) Theo tính chất của trọng tâm, $BG=\dfrac23BN$ và $CG=\dfrac23CP$. Do đó
+$$BG=\frac23\cdot18=12\ (\text{cm}),\qquad CG=\frac23\cdot12=8\ (\text{cm}).$$
 
-c) Không, vì $3<4$.
+b) Xét tam giác $GBC$ có $BG=12$ cm và $CG=8$ cm. Theo bất đẳng thức tam giác,
+$$BG-CG<BC<BG+CG.$$
+
+Thay số, ta được $12-8<BC<12+8$, tức là $4<BC<20$.
+
+Vậy $4$ cm $<BC<20$ cm.
+
+c) Nếu $BC=3$ cm thì $BC<4$ cm, không thoả mãn $4<BC<20$.
+
+Vậy $BC$ không thể bằng $3$ cm.
 
 **Đáp số.** a) $BG=12$ cm, $CG=8$ cm; b) $4$ cm $<BC<20$ cm; c) không.
 :::

@@ -308,15 +308,20 @@ d) $\dfrac7{12}$.
 2. d) Notice that the digits $5$ and $8$ do not repeat; only the digit $3$ does.
 
 ::solution
-a) $3\div8=0.375$ (terminating).
+To write a fraction as a decimal, we divide the numerator by the denominator.
 
-b) $4\div9=0.444\ldots=0.\overline{4}$.
+a) We have $3\div8=0.375$. The division ends with remainder $0$, so this is a terminating decimal. (The denominator $8=2^3$ has only the prime factor $2$.)
 
-c) $5\div11=0.4545\ldots=0.\overline{45}$.
+b) We have $4\div9=0.444\ldots$ At every step the remainder is $4$, so the digit $4$ repeats forever. Hence
+$$\frac49=0.\overline{4}.$$
 
-d) $7\div12=0.58333\ldots=0.58\overline{3}$.
+c) We have $5\div11=0.4545\ldots$ After two steps the remainder returns to $5$, so the block $45$ repeats forever. Hence
+$$\frac5{11}=0.\overline{45}.$$
 
-So the results are $0.375$; $0.\overline{4}$; $0.\overline{45}$; $0.58\overline{3}$.
+d) We have $7\div12=0.58333\ldots$ After the digits $58$ the remainder repeats, so the digit $3$ repeats forever. Hence
+$$\frac7{12}=0.58\overline{3}.$$
+
+So $\dfrac38=0.375$; $\dfrac49=0.\overline{4}$; $\dfrac5{11}=0.\overline{45}$; $\dfrac7{12}=0.58\overline{3}$.
 
 **Answer.** a) $0.375$; b) $0.\overline{4}$; c) $0.\overline{45}$; d) $0.58\overline{3}$.
 :::
@@ -552,9 +557,11 @@ b) $3\cdot\sqrt{0.16}-0.2$.
 2. b) $\sqrt{0.16}=0.4$.
 
 ::solution
-a) We have $\sqrt{\dfrac{49}{100}}=\dfrac7{10}$ and $\left(\dfrac12\right)^2=\dfrac14$. Add: $\dfrac7{10}+\dfrac14=\dfrac{14}{20}+\dfrac5{20}=\dfrac{19}{20}$.
+a) Since $\left(\dfrac7{10}\right)^2=\dfrac{49}{100}$ and $\dfrac7{10}>0$, we have $\sqrt{\dfrac{49}{100}}=\dfrac7{10}$. Also $\left(\dfrac12\right)^2=\dfrac14$. Using the common denominator $20$ and adding:
+$$\frac7{10}+\frac14=\frac{14}{20}+\frac5{20}=\frac{19}{20}.$$
 
-b) We have $\sqrt{0.16}=0.4$. Multiply: $3\cdot0.4=1.2$. Subtract: $1.2-0.2=1$.
+b) Since $0.4^2=0.16$ and $0.4>0$, we have $\sqrt{0.16}=0.4$. Doing the multiplication first and then the subtraction:
+$$3\cdot0.4-0.2=1.2-0.2=1.$$
 
 So the results are $\dfrac{19}{20}$ and $1$.
 

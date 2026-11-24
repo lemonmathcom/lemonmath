@@ -165,8 +165,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Nhân $43$ với $2$ (chục), viết lùi một cột rồi cộng.
 
 ::solution
+Đặt tính rồi nhân $43$ lần lượt với chữ số hàng đơn vị và chữ số hàng chục của $21$.
+
 $$\begin{array}{r} 43 \\ \times\ 21 \\ \hline 43 \\ 86\phantom{0} \\ \hline 903 \end{array}$$
-$43\times1=43$ và $43\times20=860$. Cộng: $43+860=903$.
+
+Tích riêng thứ nhất: $43\times1=43$.
+
+Tích riêng thứ hai: $43\times2=86$ chục, tức là $43\times20=860$; viết thẳng hàng với hàng chục, lùi sang trái một cột.
+
+Cộng hai tích riêng: $43+860=903$.
+
+*Thử lại.* $903:21=43$. Đúng.
+
+Vậy $43\times21=903$.
 
 **Đáp số.** $903$.
 :::
@@ -182,8 +193,19 @@ $43\times1=43$ và $43\times20=860$. Cộng: $43+860=903$.
 2. $78\times3=?$, viết lùi một cột rồi cộng.
 
 ::solution
+Đặt tính rồi nhân $78$ lần lượt với chữ số hàng đơn vị và chữ số hàng chục của $34$.
+
 $$\begin{array}{r} 78 \\ \times\ 34 \\ \hline 312 \\ 234\phantom{0} \\ \hline 2652 \end{array}$$
-$78\times4=312$ và $78\times30=2\,340$. Cộng: $312+2\,340=2\,652$.
+
+Tích riêng thứ nhất: $78\times4=312$ ($4\times8=32$, viết $2$ nhớ $3$; $4\times7=28$, thêm $3$ là $31$).
+
+Tích riêng thứ hai: $78\times3=234$ chục, tức là $78\times30=2\,340$; viết lùi sang trái một cột.
+
+Cộng hai tích riêng: $312+2\,340=2\,652$.
+
+*Thử lại.* $2\,652:34=78$. Đúng.
+
+Vậy $78\times34=2\,652$.
 
 **Đáp số.** $2\,652$.
 :::
@@ -199,8 +221,19 @@ $78\times4=312$ và $78\times30=2\,340$. Cộng: $312+2\,340=2\,652$.
 2. $256\times1=?$, viết lùi một cột rồi cộng.
 
 ::solution
+Đặt tính rồi nhân $256$ lần lượt với chữ số hàng đơn vị và chữ số hàng chục của $18$.
+
 $$\begin{array}{r} 256 \\ \times\ 18 \\ \hline 2048 \\ 256\phantom{0} \\ \hline 4608 \end{array}$$
-$256\times8=2\,048$ và $256\times10=2\,560$. Cộng: $2\,048+2\,560=4\,608$.
+
+Tích riêng thứ nhất: $256\times8=2\,048$ ($8\times6=48$, viết $8$ nhớ $4$; $8\times5=40$, thêm $4$ là $44$, viết $4$ nhớ $4$; $8\times2=16$, thêm $4$ là $20$).
+
+Tích riêng thứ hai: $256\times1=256$ chục, tức là $256\times10=2\,560$; viết lùi sang trái một cột.
+
+Cộng hai tích riêng: $2\,048+2\,560=4\,608$.
+
+*Thử lại.* $4\,608:18=256$. Đúng.
+
+Vậy $256\times18=4\,608$.
 
 **Đáp số.** $4\,608$.
 :::
@@ -216,8 +249,19 @@ $256\times8=2\,048$ và $256\times10=2\,560$. Cộng: $2\,048+2\,560=4\,608$.
 2. $1\,305\times2=?$, viết lùi một cột rồi cộng.
 
 ::solution
+Đặt tính rồi nhân $1\,305$ lần lượt với chữ số hàng đơn vị và chữ số hàng chục của $23$.
+
 $$\begin{array}{r} 1305 \\ \times\ \ 23 \\ \hline 3915 \\ 2610\phantom{0} \\ \hline 30015 \end{array}$$
-$1\,305\times3=3\,915$ và $1\,305\times20=26\,100$. Cộng: $3\,915+26\,100=30\,015$.
+
+Tích riêng thứ nhất: $1\,305\times3=3\,915$.
+
+Tích riêng thứ hai: $1\,305\times2=2\,610$ chục, tức là $1\,305\times20=26\,100$; viết lùi sang trái một cột.
+
+Cộng hai tích riêng: $3\,915+26\,100=30\,015$.
+
+*Thử lại.* $30\,015:23=1\,305$. Đúng.
+
+Vậy $1\,305\times23=30\,015$.
 
 **Đáp số.** $30\,015$.
 :::
@@ -233,8 +277,14 @@ Mỗi ngày một cửa hàng bán được $125$ ổ bánh mì. Hỏi trong $30
 2. Tính $125\times3$, rồi viết thêm một chữ số 0.
 
 ::solution
+Bài giải
+
+Mỗi ngày cửa hàng bán được $125$ ổ bánh mì, nên số ổ bánh mì bán trong $30$ ngày là $125$ nhân với $30$.
+
 Số ổ bánh mì bán được trong $30$ ngày là:
 $$125\times30=(125\times3)\times10=375\times10=3\,750\ \text{(ổ)}.$$
+
+Vậy trong $30$ ngày cửa hàng bán được $3\,750$ ổ bánh mì.
 
 **Đáp số.** $3\,750$ ổ bánh mì.
 :::
@@ -250,9 +300,16 @@ Giả sử một chiếc áo giá $85\,000$ đồng. Hỏi mua $12$ chiếc áo 
 2. Nhân kết quả với $1\,000$.
 
 ::solution
-Ta có $85\times12=1\,020$.
+Bài giải
 
-Số tiền phải trả là $1\,020\times1\,000=1\,020\,000$ (đồng).
+Giá một chiếc áo là $85\,000$ đồng, tức là $85\times1\,000$ đồng. Ta nhân $85$ với $12$ rồi nhân kết quả với $1\,000$.
+
+Tính $85\times12=85\times10+85\times2=850+170=1\,020$.
+
+Số tiền phải trả để mua $12$ chiếc áo là:
+$$1\,020\times1\,000=1\,020\,000\ \text{(đồng)}.$$
+
+Vậy mua $12$ chiếc áo phải trả $1\,020\,000$ đồng.
 
 **Đáp số.** $1\,020\,000$ đồng.
 :::
@@ -268,7 +325,12 @@ Em hãy nhớ lại bài tính chất phân phối. Tính bằng cách thuận t
 2. $25+75=?$
 
 ::solution
-$$36\times25+36\times75=36\times(25+75)=36\times100=3\,600.$$
+Biểu thức có cùng thừa số $36$ ở hai tích, nên ta áp dụng tính chất phân phối của phép nhân đối với phép cộng: $a\times b+a\times c=a\times(b+c)$.
+
+Ta có
+$$\begin{aligned}36\times25+36\times75&=36\times(25+75)\\&=36\times100\\&=3\,600.\end{aligned}$$
+
+Vậy $36\times25+36\times75=3\,600$.
 
 **Đáp số.** $3\,600$.
 :::
@@ -284,10 +346,18 @@ Một mảnh đất hình chữ nhật có chiều dài $124$ m và chiều rộ
 2. Tính $124\times35$, nhớ ghi đơn vị mét vuông.
 
 ::solution
+Bài giải
+
+Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng.
+
 Diện tích mảnh đất là:
 $$124\times35=4\,340\ (\text{m}^2).$$
 
-**Kiểm tra.** Ước lượng $120\times35=4\,200$, gần $4\,340$. Hợp lí.
+Cách tính: $124\times5=620$ và $124\times30=3\,720$; cộng lại $620+3\,720=4\,340$.
+
+*Kiểm tra.* Ước lượng $120\times35=4\,200$, gần $4\,340$. Hợp lí.
+
+Vậy diện tích mảnh đất là $4\,340\ \text{m}^2$.
 
 **Đáp số.** $4\,340\ \text{m}^2$.
 :::
@@ -303,11 +373,18 @@ $$124\times35=4\,340\ (\text{m}^2).$$
 2. Đặt tính $198\times52$ rồi so sánh.
 
 ::solution
-Ước lượng: $200\times50=10\,000$.
+Ước lượng: làm tròn $198$ thành $200$ và $52$ thành $50$, ta được
+$$200\times50=10\,000.$$
 
-Tính chính xác:
+Tính chính xác: $198\times2=396$ và $198\times50=9\,900$ (tích riêng thứ hai viết lùi sang trái một cột).
+
 $$\begin{array}{r} 198 \\ \times\ 52 \\ \hline 396 \\ 990\phantom{0} \\ \hline 10296 \end{array}$$
-Kết quả chính xác $10\,296$ gần với ước lượng $10\,000$.
+
+Cộng hai tích riêng: $396+9\,900=10\,296$.
+
+So sánh: kết quả chính xác $10\,296$ lớn hơn ước lượng $10\,000$ là $10\,296-10\,000=296$, rất nhỏ so với $10\,000$, nên kết quả chính xác gần với ước lượng.
+
+Vậy $198\times52=10\,296$.
 
 **Đáp số.** $198\times52=10\,296$.
 :::
@@ -323,9 +400,21 @@ Khi đặt tính nhân một số với $23$, bạn Hoa viết tích riêng th�
 2. Tìm $a$, rồi tính lại $a\times23$.
 
 ::solution
-Kết quả sai là $a\times3+a\times2=a\times5=2\,060$, nên $a=2\,060:5=412$.
+Gọi số cần tìm là $a$.
 
-Kết quả đúng là $412\times23=412\times3+412\times20=1\,236+8\,240=9\,476$.
+Khi đặt tính nhân $a$ với $23$, tích riêng thứ nhất là $a\times3$ và tích riêng thứ hai đúng phải là $a\times20$ (lùi sang trái một cột). Hoa không lùi sang trái nên đã cộng $a\times2$ thay vì $a\times20$.
+
+Do đó kết quả sai là
+$$a\times3+a\times2=a\times5=2\,060.$$
+
+Suy ra $a=2\,060:5=412$.
+
+*Thử lại.* $412\times5=2\,060$. Đúng.
+
+Kết quả đúng của phép nhân là
+$$412\times23=412\times3+412\times20=1\,236+8\,240=9\,476.$$
+
+Vậy số đó là $412$ và kết quả đúng của phép nhân là $9\,476$.
 
 **Đáp số.** Số đó là $412$; kết quả đúng là $9\,476$.
 :::

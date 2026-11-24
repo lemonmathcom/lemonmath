@@ -205,9 +205,22 @@ Our class asks $12$ pupils for their favourite colour and gets: blue, red, blue,
 2. Add the three numbers and compare with $12$.
 
 ::solution
-Blue: $6$ pupils, drawn as $\cancel{\mid\mid\mid\mid}\ \mid$. Red: $4$ pupils. Yellow: $2$ pupils.
+Solution
 
-Check: $6+4+2=12$, which equals the number of pupils asked.
+We read the colours one by one and draw one tally mark for each pupil. Every $4$ upright marks are crossed by a fifth mark to make a group of $5$.
+
+Blue appears at the $1$st, $3$rd, $6$th, $7$th, $10$th and $12$th answers, so $6$ pupils like blue, drawn as $\cancel{\mid\mid\mid\mid}\ \mid$.
+
+Red appears at the $2$nd, $5$th, $8$th and $11$th answers, so $4$ pupils like red.
+
+Yellow appears at the $4$th and $9$th answers, so $2$ pupils like yellow.
+
+Check with addition:
+$$6+4+2=12\ \text{(pupils)}.$$
+
+This total equals the number of pupils asked.
+
+So $6$ pupils like blue, $4$ pupils like red and $2$ pupils like yellow.
 
 **Answer.** Blue $6$ pupils, red $4$ pupils, yellow $2$ pupils.
 :::
@@ -223,10 +236,15 @@ The table of data shows how many trees three groups planted: Group $1$ planted $
 2. Add the three numbers, setting out in columns if needed.
 
 ::solution
-We have $14>11>9$, so Group $1$ planted the most trees.
+Solution
+
+We compare the numbers of trees: $14>11>9$. The number $14$ is the greatest, so Group $1$ planted the most trees.
 
 The number of trees the three groups planted is:
 $$14+9+11=34\ \text{(trees)}.$$
+
+So Group $1$ planted the most trees, and the three groups planted $34$ trees altogether.
+
 **Answer.** Group $1$ planted the most; $34$ trees altogether.
 :::
 
@@ -241,10 +259,19 @@ The pictogram shows how pupils come to school (each ● is $1$ pupil): bicycle �
 2. "How many more" is a subtraction.
 
 ::solution
-The "on foot" row has $8$ symbols ●, so $8$ pupils walk. The "bus" row has $3$ symbols ●, so $3$ pupils come by bus.
+Solution
+
+Each ● is $1$ pupil, so the number of symbols in a row is the number of pupils.
+
+The "on foot" row has $8$ symbols ●, so $8$ pupils walk.
+
+The "bus" row has $3$ symbols ●, so $3$ pupils come by bus.
 
 The number of pupils who walk more than those who come by bus is:
 $$8-3=5\ \text{(pupils)}.$$
+
+So $8$ pupils walk, which is $5$ more than the number who come by bus.
+
 **Answer.** $8$ pupils walk; $5$ more than by bus.
 :::
 
@@ -259,10 +286,24 @@ The pictogram shows the flowers in the school garden (each ● is $2$ plants): r
 2. Find the number of rose and orchid plants, then add the three numbers.
 
 ::solution
-Chrysanthemums: $5\times 2=10$ (plants). Roses: $4\times 2=8$ (plants). Orchids: $3\times 2=6$ (plants).
+Solution
+
+Each ● is $2$ plants, so to find the number of plants we multiply the number of symbols by $2$.
+
+The number of chrysanthemum plants is:
+$$5\times 2=10\ \text{(plants)}.$$
+
+The number of rose plants is:
+$$4\times 2=8\ \text{(plants)}.$$
+
+The number of orchid plants is:
+$$3\times 2=6\ \text{(plants)}.$$
 
 The number of flower plants in the whole garden is:
 $$8+10+6=24\ \text{(plants)}.$$
+
+So there are $10$ chrysanthemum plants and $24$ flower plants in the whole garden.
+
 **Answer.** $10$ chrysanthemum plants; $24$ flower plants in the garden.
 :::
 
@@ -277,13 +318,23 @@ The table of data shows how many balls three classes borrowed: Class $2$A borrow
 2. Do the same for the other two classes, then draw.
 
 ::solution
-Class $2$A: $6$ balls, draw $3$ symbols. Class $2$B: $10$ balls, draw $5$ symbols. Class $2$C: $4$ balls, draw $2$ symbols.
+Each ● stands for $2$ balls, so to find the number of symbols to draw we divide the number of balls by $2$.
+
+Class $2$A borrowed $6$ balls: $6\div 2=3$, so we draw $3$ symbols ●.
+
+Class $2$B borrowed $10$ balls: $10\div 2=5$, so we draw $5$ symbols ●.
+
+Class $2$C borrowed $4$ balls: $4\div 2=2$, so we draw $2$ symbols ●.
+
+The pictogram is:
 
 | Class | Balls borrowed (each ● is $2$ balls) |
 |---|---|
 | Class $2$A | ●●● |
 | Class $2$B | ●●●●● |
 | Class $2$C | ●● |
+
+So we draw $3$ symbols ● for Class $2$A, $5$ symbols ● for Class $2$B and $2$ symbols ● for Class $2$C.
 
 **Answer.** $3$ symbols, $5$ symbols and $2$ symbols.
 :::
@@ -299,10 +350,16 @@ For three days in a row, our group collected plastic bottles for recycling: Mond
 2. Write the two calculations, set them out in columns, then check.
 
 ::solution
+Solution
+
 The number of bottles collected in the three days is:
 $$25+18+30=73\ \text{(bottles)}.$$
+
 The number of bottles collected on Wednesday more than on Tuesday is:
 $$30-18=12\ \text{(bottles)}.$$
+
+So $73$ bottles were collected in the three days, and $12$ more bottles were collected on Wednesday than on Tuesday.
+
 **Answer.** $73$ bottles; $12$ more bottles.
 :::
 
@@ -317,12 +374,24 @@ Remember adding and subtracting within 1,000. The pictogram shows the books in a
 2. Add, then subtract the round hundreds.
 
 ::solution
-Storybooks: $400$ books. Science books: $300$ books. Picture books: $200$ books.
+Solution
+
+Each ● is $100$ books, so the number of books of each kind is:
+
+Storybooks: $4\times 100=400$ (books).
+
+Science books: $3\times 100=300$ (books).
+
+Picture books: $2\times 100=200$ (books).
 
 The number of books altogether is:
 $$400+300+200=900\ \text{(books)}.$$
+
 The number of storybooks more than science books is:
 $$400-300=100\ \text{(books)}.$$
+
+So there are $900$ books altogether, and there are $100$ more storybooks than science books.
+
 **Answer.** $900$ books; $100$ more storybooks.
 :::
 
@@ -337,13 +406,23 @@ All $20$ pupils in a class choose one of three games. The pictogram, where each 
 2. The number who chose Shuttlecock is what is left of $20$; then divide by $2$.
 
 ::solution
-Tug of war: $4\times 2=8$ pupils. Skipping: $3\times 2=6$ pupils.
+Solution
+
+Each ● is $2$ pupils, so the number of pupils who chose each game already drawn is:
+
+Tug of war: $4\times 2=8$ (pupils).
+
+Skipping: $3\times 2=6$ (pupils).
 
 The number of pupils who chose Shuttlecock is:
 $$20-8-6=6\ \text{(pupils)}.$$
-Each ● is $2$ pupils, so draw $3$ symbols ●.
+
+Each ● is $2$ pupils, so the number of symbols to draw is:
+$$6\div 2=3\ \text{(symbols)}.$$
 
 Check: $8+6+6=20$. Correct.
+
+So you need to draw $3$ symbols ● for Shuttlecock.
 
 **Answer.** $3$ symbols ●.
 :::

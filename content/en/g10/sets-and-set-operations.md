@@ -264,7 +264,13 @@ List the elements of each set.
 2. In (c), take out a common factor.
 
 ::solution
-(a) $\{1, 2, 3, 4\}$. (b) Integers greater than $-3$ and at most $1$: $\{-2, -1, 0, 1\}$. (c) $x^2-4x=x(x-4)=0$ gives $x=0$ or $x=4$.
+(a) The set $\{x\in\mathbb{N}^*\mid x\le4\}$ consists of the positive integers not exceeding $4$, namely $1$, $2$, $3$, $4$. So this set is $\{1, 2, 3, 4\}$.
+
+(b) The set $\{x\in\mathbb{Z}\mid -3<x\le1\}$ consists of the integers greater than $-3$ and at most $1$, namely $-2$, $-1$, $0$, $1$. So this set is $\{-2, -1, 0, 1\}$.
+
+(c) We have $x^2-4x=x(x-4)=0$, hence $x=0$ or $x=4$. Both values are real numbers, so they belong to the given set. So this set is $\{0, 4\}$.
+
+So the sets are $\{1, 2, 3, 4\}$, $\{-2, -1, 0, 1\}$ and $\{0, 4\}$ respectively.
 
 **Answer.** (a) $\{1, 2, 3, 4\}$; (b) $\{-2, -1, 0, 1\}$; (c) $\{0, 4\}$.
 :::
@@ -282,7 +288,11 @@ Describe each set by stating a property.
 2. Add an upper bound so that the set does not go on for ever.
 
 ::solution
-(a) These are the positive multiples of $4$ up to $20$. (b) These are the squares of $1, 2, 3, 4, 5$.
+(a) The elements $4$, $8$, $12$, $16$, $20$ equal $4\cdot1$, $4\cdot2$, $4\cdot3$, $4\cdot4$, $4\cdot5$ respectively; they are all positive multiples of $4$ not exceeding $20$. Conversely, every positive multiple of $4$ not exceeding $20$ appears in this list (the next multiple is $24>20$). Hence the defining property is: $x$ is a positive integer divisible by $4$ and $x\le20$.
+
+(b) We have $1=1^2$, $4=2^2$, $9=3^2$, $16=4^2$, $25=5^2$. The elements are the squares of the positive integers from $1$ to $5$. Hence the defining property is: the element has the form $n^2$ where $n$ is a positive integer and $n\le5$.
+
+So the two sets are $\{x\in\mathbb{N}^*\mid x \text{ is divisible by } 4,\ x\le20\}$ and $\{n^2\mid n\in\mathbb{N}^*,\ n\le5\}$ respectively.
 
 **Answer.** (a) $\{x\in\mathbb{N}^*\mid x \text{ is divisible by } 4,\ x\le 20\}$; (b) $\{n^2\mid n\in\mathbb{N}^*,\ n\le 5\}$.
 :::
@@ -298,7 +308,16 @@ Let $A=\{2, 3, 5, 7\}$. How many subsets does $A$ have? How many subsets of $A$ 
 2. If $2$ must be in, only three elements are free.
 
 ::solution
-Each of the four elements has $2$ choices, so the number of subsets is $2\cdot2\cdot2\cdot2=16$ (including $\varnothing$ and $A$). If $2$ must be in, the other three elements $3, 5, 7$ give $2\cdot2\cdot2=8$ choices.
+The set $A=\{2, 3, 5, 7\}$ has $4$ elements. When forming a subset of $A$, each element gives $2$ choices: take it or leave it out. Therefore the number of subsets of $A$ is
+$$2\cdot2\cdot2\cdot2=2^4=16$$
+(including the empty set $\varnothing$ and $A$ itself).
+
+For the subsets containing the element $2$, the element $2$ must be taken; each of the other three elements $3$, $5$, $7$ gives $2$ choices. Therefore the number of subsets containing $2$ is
+$$2\cdot2\cdot2=2^3=8.$$
+
+Check: the number of subsets not containing $2$ is also $2^3=8$, and $8+8=16$.
+
+So $A$ has $16$ subsets, of which $8$ contain the element $2$.
 
 **Answer.** $16$ subsets; $8$ subsets contain $2$.
 :::
@@ -314,7 +333,17 @@ Let $A=[-4, 1]$ and $B=(-1, 3)$. Find $A\cap B$, $A\cup B$, $A\setminus B$ and $
 2. At each endpoint $-4$, $-1$, $1$, $3$, ask which sets contain it.
 
 ::solution
-The common part is $-1<x\le 1$; together they cover $-4\le x<3$. Removing the part $x>-1$ from $A$ leaves $[-4, -1]$, since $-1\notin B$. Removing the part $x\le 1$ from $B$ leaves $(1, 3)$, since $1\in A$.
+The set $A=[-4, 1]$ consists of the numbers $x$ with $-4\le x\le1$, and $B=(-1, 3)$ consists of the numbers $x$ with $-1<x<3$.
+
+The intersection $A\cap B$ consists of the numbers satisfying both $-4\le x\le1$ and $-1<x<3$, that is $-1<x\le1$. So $A\cap B=(-1, 1]$.
+
+The union $A\cup B$ consists of the numbers in $A$ or in $B$. The two sets overlap, so their union covers everything from $-4$ to $3$ without a gap; the point $-4\in A$ is included and the point $3\notin B$ is not. So $A\cup B=[-4, 3)$.
+
+The difference $A\setminus B$ consists of the numbers in $A$ but not in $B$. A number $x\notin B$ when $x\le-1$ or $x\ge3$; combining with $-4\le x\le1$ we get $-4\le x\le-1$. The point $-1\in A$ and $-1\notin B$, so it is included. So $A\setminus B=[-4, -1]$.
+
+The difference $B\setminus A$ consists of the numbers in $B$ but not in $A$. A number $x\notin A$ when $x<-4$ or $x>1$; combining with $-1<x<3$ we get $1<x<3$. The point $1\in A$, so it is left out. So $B\setminus A=(1, 3)$.
+
+So $A\cap B=(-1, 1]$, $A\cup B=[-4, 3)$, $A\setminus B=[-4, -1]$ and $B\setminus A=(1, 3)$.
 
 **Answer.** $A\cap B=(-1, 1]$, $A\cup B=[-4, 3)$, $A\setminus B=[-4, -1]$, $B\setminus A=(1, 3)$.
 :::
@@ -330,7 +359,13 @@ Find the complement in $\mathbb{R}$ of $A=(-\infty, -2]\cup(3, +\infty)$.
 2. Check the two points $-2$ and $3$ separately.
 
 ::solution
-The empty part lies between $-2$ and $3$. The point $-2\in A$, so it is left out; the point $3\notin A$, so it is included.
+The complement of $A$ in $\mathbb{R}$ is $C_{\mathbb{R}}A=\mathbb{R}\setminus A$, which consists of the real numbers not in $A$.
+
+We have $A=(-\infty, -2]\cup(3, +\infty)$, that is, $x\in A$ when $x\le-2$ or $x>3$. Hence $x\notin A$ when both $x>-2$ and $x\le3$ hold, that is, $-2<x\le3$.
+
+Checking the endpoints: the point $-2\in A$, so it is left out; the point $3\notin A$, so it is included.
+
+So $C_{\mathbb{R}}A=(-2, 3]$.
 
 **Answer.** $C_{\mathbb{R}}A=(-2, 3]$.
 :::
@@ -352,15 +387,17 @@ d) $A$ contains exactly $4$ integers.
 3. For b), ask whether $-1.5$ belongs to $A\cup B$.
 
 ::solution
-$B=\{-2, -1, 0, 1, 2\}$.
+We have $B=\{x\in\mathbb{Z}\mid -2\le x\le2\}=\{-2, -1, 0, 1, 2\}$, and $A=[-1, 4)$ consists of the real numbers $x$ with $-1\le x<4$.
 
-a) **True.** In $B$, only $-2$ is not in $A$.
+a) **True.** Among the elements of $B$, the numbers $-1$, $0$, $1$, $2$ all satisfy $-1\le x<4$, so they belong to $A$; and $-2<-1$, so $-2\notin A$. Hence $A\cap B=\{-1, 0, 1, 2\}$.
 
-b) **False.** $-1.5\in[-2, 4)$ but $-1.5\notin A$ and $-1.5\notin B$. In fact $A\cup B=\{-2\}\cup[-1, 4)$.
+b) **False.** The number $-1.5$ lies in $[-2, 4)$ but $-1.5\notin A$ (since $-1.5<-1$) and $-1.5\notin B$ (it is not an integer), so $-1.5\notin A\cup B$. In fact $A\cup B=\{-2\}\cup[-1, 4)$, which differs from $[-2, 4)$.
 
-c) **True.** $-2$ is the only element of $B$ outside $A$.
+c) **True.** By a), the only element of $B$ not in $A$ is $-2$. Hence $B\setminus A=\{-2\}$.
 
-d) **False.** $A$ contains $5$ integers: $-1, 0, 1, 2, 3$ ($4\notin A$).
+d) **False.** The integers in $A$ are $-1$, $0$, $1$, $2$, $3$ (the number $4\notin A$). So $A$ contains $5$ integers, not $4$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -376,7 +413,19 @@ In a survey of $50$ students, $32$ like football, $25$ like swimming and $9$ lik
 2. Substitute into the formula and solve for $n(A\cap B)$.
 
 ::solution
-At least one: $50-9=41$. Then $41=32+25-n(A\cap B)$, so $n(A\cap B)=57-41=16$.
+Let $A$ be the set of students who like football and $B$ the set of students who like swimming. We have $n(A)=32$ and $n(B)=25$.
+
+Since $9$ students like neither sport, the number of students who like at least one sport is
+$$n(A\cup B)=50-9=41.$$
+
+Using the formula $n(A\cup B)=n(A)+n(B)-n(A\cap B)$, we have
+$$41=32+25-n(A\cap B).$$
+
+Hence $n(A\cap B)=57-41=16$.
+
+Check: $32-16=16$ students like only football, $25-16=9$ like only swimming, and $16+9+16=41$ like at least one sport.
+
+So $16$ students like both.
 
 **Answer.** $16$.
 :::
@@ -393,7 +442,16 @@ A travel company asks $120$ customers: $70$ have been to Ha Long, $55$ have been
 3. Subtract "at least one" from the total.
 
 ::solution
-At least one place: $70+55-30=95$. Exactly one: $95-30=65$ ($40$ only Ha Long and $25$ only Sa Pa). Neither: $120-95=25$.
+Let $A$ be the set of customers who have been to Ha Long and $B$ the set of customers who have been to Sa Pa. We have $n(A)=70$, $n(B)=55$ and $n(A\cap B)=30$; the total number of customers asked is $120$.
+
+The number of customers who have been to at least one of the two places is
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=70+55-30=95.$$
+
+The number who have been only to Ha Long is $70-30=40$, and the number who have been only to Sa Pa is $55-30=25$. So the number who have been to exactly one of the two places is $40+25=65$ (also equal to $95-30=65$).
+
+The number who have been to neither place is $120-95=25$.
+
+So $65$ customers have been to exactly one of the two places, and $25$ customers have been to neither.
 
 **Answer.** $65$ customers have been to exactly one place; $25$ to neither.
 :::
@@ -412,11 +470,13 @@ At least one place: $70+55-30=95$. Exactly one: $95-30=65$ ($40$ only Ha Long an
 3. In (c), look for a counter-example.
 
 ::solution
-(a) $x^2\le 4\iff -2\le x\le 2$, so $A=[-2, 2]$.
+(a) We have $x^2\le4\iff-2\le x\le2$. Hence $A=[-2, 2]$.
 
-(b) Every $x\in[-2, 2]$ satisfies $-3<x<3$, so the statement is true ($A\subset B$). Negation: "$\exists x\in A,\ x\notin B$".
+(b) For every $x\in A$ we have $-2\le x\le2$, and all these values satisfy $-3<x<3$, that is $x\in B$. Hence the statement "$\forall x\in A,\ x\in B$" is true (because $A\subset B$). Its negation is "$\exists x\in A,\ x\notin B$".
 
-(c) False: $x=2.5\in B$ but $2.5^2=6.25>4$, so $2.5\notin A$.
+(c) The statement "$\forall x\in B,\ x\in A$" is false. Indeed, take $x=2.5$: since $-3<2.5<3$ we have $2.5\in B$, but $2.5^2=6.25>4$, so $2.5\notin A$. This is a counterexample.
+
+So $A=[-2, 2]$; the statement in (b) is true; the statement in (c) is false.
 
 **Answer.** (a) $A=[-2, 2]$; (b) true; (c) false.
 :::
@@ -432,7 +492,15 @@ How many sets $X$ satisfy $\{1, 2\}\subset X\subset\{1, 2, 3, 4, 5\}$?
 2. Each free element has two choices: in or out.
 
 ::solution
-$X$ always contains $1$ and $2$; each of $3$, $4$, $5$ may be in or out. That gives $2\cdot2\cdot2=8$ choices, from $X=\{1, 2\}$ to $X=\{1, 2, 3, 4, 5\}$.
+A set $X$ satisfies $\{1, 2\}\subset X\subset\{1, 2, 3, 4, 5\}$ (here the symbol $\subset$ also allows the two sets to be equal) if and only if $X$ contains the two elements $1$, $2$ and every element of $X$ belongs to $\{1, 2, 3, 4, 5\}$.
+
+So $1$ and $2$ are always in $X$, while each of the three elements $3$, $4$, $5$ gives $2$ choices: in $X$ or not in $X$.
+
+Therefore the number of sets $X$ is
+$$2\cdot2\cdot2=2^3=8,$$
+ranging from $X=\{1, 2\}$ (none of $3$, $4$, $5$ taken) to $X=\{1, 2, 3, 4, 5\}$ (all three taken).
+
+So there are $8$ sets $X$ satisfying the condition.
 
 **Answer.** $8$.
 :::

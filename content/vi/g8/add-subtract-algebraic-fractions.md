@@ -179,11 +179,16 @@ b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}$.
 2. b) Đặt tử thứ hai trong ngoặc khi trừ.
 
 ::solution
-a) $\dfrac{2x+1}{x+3}+\dfrac{x+8}{x+3}=\dfrac{3x+9}{x+3}=\dfrac{3(x+3)}{x+3}=3$.
+Hai phân thức trong mỗi câu có cùng mẫu thức nên ta cộng (hoặc trừ) các tử thức và giữ nguyên mẫu thức.
 
-b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}=\dfrac{4x-5-(x-2)}{x^2+1}=\dfrac{3x-3}{x^2+1}$.
+a) Điều kiện xác định: $x+3\neq0$, tức là $x\neq-3$. Ta có
+$$\frac{2x+1}{x+3}+\frac{x+8}{x+3}=\frac{(2x+1)+(x+8)}{x+3}=\frac{3x+9}{x+3}=\frac{3(x+3)}{x+3}.$$
+Vì $x+3\neq0$ nên ta rút gọn được thừa số $x+3$ và thu được kết quả $3$.
 
-Vậy a) $3$; b) $\dfrac{3x-3}{x^2+1}$.
+b) Điều kiện xác định: $x^2+1\neq0$, luôn thoả mãn vì $x^2+1\ge1>0$ với mọi $x$. Ta có
+$$\frac{4x-5}{x^2+1}-\frac{x-2}{x^2+1}=\frac{4x-5-(x-2)}{x^2+1}=\frac{4x-5-x+2}{x^2+1}=\frac{3x-3}{x^2+1}.$$
+
+Vậy kết quả là $3$ (với $x\neq-3$) và $\dfrac{3x-3}{x^2+1}$.
 
 **Đáp số.** a) $3$. b) $\dfrac{3x-3}{x^2+1}$.
 :::

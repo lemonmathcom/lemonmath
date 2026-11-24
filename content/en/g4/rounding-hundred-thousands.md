@@ -195,7 +195,13 @@ Round $5\,683\,200$ to the nearest hundred thousand.
 2. Compare the ten-thousands digit with $5$.
 
 ::solution
-The hundred-thousands digit is $6$ and the ten-thousands digit is $8$. Since $8\geq5$, increase $6$ to $7$ and replace the digits to its right with $0$.
+To round $5\,683\,200$ to the nearest hundred thousand, we look at the hundred-thousands digit and the digit to its right.
+
+The hundred-thousands digit is $6$ and the ten-thousands digit is $8$.
+
+Since $8\geq5$, we round up: increase $6$ to $7$ and replace the digits to its right with $0$.
+
+So $5\,683\,200$ rounded to the nearest hundred thousand is $5\,700\,000$.
 
 **Answer.** $5\,700\,000$.
 :::
@@ -211,7 +217,13 @@ Round $417\,305$ to the nearest hundred thousand.
 2. Round using the rule.
 
 ::solution
-The hundred-thousands digit is $4$ and the ten-thousands digit is $1$. Since $1<5$, keep $4$ and replace the digits to its right with $0$.
+To round $417\,305$ to the nearest hundred thousand, we look at the hundred-thousands digit and the ten-thousands digit.
+
+The hundred-thousands digit is $4$ and the ten-thousands digit is $1$.
+
+Since $1<5$, we round down: keep $4$ and replace the digits to its right with $0$.
+
+So $417\,305$ rounded to the nearest hundred thousand is $400\,000$.
 
 **Answer.** $400\,000$.
 :::
@@ -227,7 +239,13 @@ Round $850\,000$ to the nearest hundred thousand.
 2. Round using the rule.
 
 ::solution
-The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
+To round $850\,000$ to the nearest hundred thousand, we look at the hundred-thousands digit and the ten-thousands digit.
+
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$.
+
+Since $5\geq5$, we round up: increase $8$ to $9$ and replace the digits to its right with $0$.
+
+So $850\,000$ rounded to the nearest hundred thousand is $900\,000$.
 
 **Answer.** $900\,000$.
 :::
@@ -243,7 +261,15 @@ Round $726\,481$ to the nearest thousand, the nearest ten thousand and the neare
 2. Round to the nearest ten thousand, then to the nearest hundred thousand.
 
 ::solution
-To the nearest thousand: the hundreds digit is $4<5$, keep $6$, giving $726\,000$. To the nearest ten thousand: the thousands digit is $6\geq5$, increase $2$ to $3$, giving $730\,000$. To the nearest hundred thousand: the ten-thousands digit is $2<5$, keep $7$, giving $700\,000$.
+We round $726\,481$ to each place in turn. Each time, we look at the digit to the right of the place we are rounding to.
+
+To the nearest thousand: the thousands digit is $6$ and the hundreds digit is $4$. Since $4<5$, keep $6$, giving $726\,000$.
+
+To the nearest ten thousand: the ten-thousands digit is $2$ and the thousands digit is $6$. Since $6\geq5$, increase $2$ to $3$, giving $730\,000$.
+
+To the nearest hundred thousand: the hundred-thousands digit is $7$ and the ten-thousands digit is $2$. Since $2<5$, keep $7$, giving $700\,000$.
+
+So $726\,481$ rounded to the nearest thousand, ten thousand and hundred thousand is $726\,000$, $730\,000$ and $700\,000$ respectively.
 
 **Answer.** $726\,000$; $730\,000$; $700\,000$.
 :::
@@ -262,9 +288,14 @@ A city (made-up numbers) has $3\,856\,000$ people. About how many people does th
 ::solution
 Solution
 
-The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
+To round $3\,856\,000$ to the nearest hundred thousand, we look at the hundred-thousands digit and the ten-thousands digit.
 
-The number of people is about $3\,900\,000$.
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, we round up: increase $8$ to $9$ and replace the digits to its right with $0$.
+
+The number of people in the city is about:
+$$3\,900\,000\ \text{(people)}.$$
+
+So the city has about $3\,900\,000$ people.
 
 **Answer.** About $3\,900\,000$ people.
 :::
@@ -282,9 +313,17 @@ Two matches (made-up numbers) have $41\,280$ spectators and $57\,340$ spectators
 ::solution
 Solution
 
-The total number of spectators is:
+The total number of spectators at the two matches is:
 $$41\,280+57\,340=98\,620\ \text{(people)}.$$
-The ten-thousands digit is $9$ and the thousands digit is $8\geq5$, so increase $9$ to $10$, giving $100\,000$.
+
+To round $98\,620$ to the nearest ten thousand, we look at the ten-thousands digit and the thousands digit.
+
+The ten-thousands digit is $9$ and the thousands digit is $8$. Since $8\geq5$, we round up: increase $9$ to $10$ (that is, $10$ ten thousands) and replace the digits to its right with $0$. This gives $100\,000$.
+
+The number of spectators is about:
+$$100\,000\ \text{(people)}.$$
+
+So there are about $100\,000$ spectators at the two matches altogether.
 
 **Answer.** About $100\,000$ spectators.
 :::
@@ -300,7 +339,15 @@ Write the $6$ consecutive natural numbers after $999\,997$.
 2. Keep adding $1$ to get the next number.
 
 ::solution
-We have $999\,997+1=999\,998$, then $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
+The next natural number after a number is that number plus $1$. We add $1$ again and again, starting from $999\,997$.
+
+We have $999\,997+1=999\,998$.
+
+Next, $999\,998+1=999\,999$, then $999\,999+1=1\,000\,000$.
+
+Continuing: $1\,000\,000+1=1\,000\,001$, then $1\,000\,001+1=1\,000\,002$, then $1\,000\,002+1=1\,000\,003$.
+
+So the $6$ consecutive natural numbers after $999\,997$ are $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 
 **Answer.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 :::
@@ -316,7 +363,17 @@ Remember the lesson on comparing numbers with many digits. Compare $2\,467\,891$
 2. Compare the two numbers.
 
 ::solution
-The rounded value is $2\,500\,000$. Both numbers have seven digits. Millions: $2=2$. Hundred-thousands: $4<5$. So $2\,467\,891<2\,500\,000$.
+First we round $2\,467\,891$ to the nearest hundred thousand. The hundred-thousands digit is $4$ and the ten-thousands digit is $6\geq5$, so increase $4$ to $5$. The rounded value is $2\,500\,000$.
+
+Now we compare $2\,467\,891$ and $2\,500\,000$. Both numbers have seven digits.
+
+Millions: $2=2$.
+
+Hundred-thousands: $4<5$.
+
+Hence $2\,467\,891<2\,500\,000$.
+
+So the rounded value $2\,500\,000$ is greater than the original number $2\,467\,891$.
 
 **Answer.** The rounded value $2\,500\,000$ is greater than the original number.
 :::
@@ -332,7 +389,15 @@ Nam rounds $3\,548\,200$ to the nearest hundred thousand and gets $3\,600\,000$.
 2. Round again correctly.
 
 ::solution
-The hundred-thousands digit is $5$ and the ten-thousands digit is $4$. Since $4<5$, keep $5$ and replace the digits to its right with $0$, giving $3\,500\,000$. Nam looked at the thousands digit $8$, so he rounded up wrongly.
+We round $3\,548\,200$ to the nearest hundred thousand again.
+
+The hundred-thousands digit is $5$ and the ten-thousands digit is $4$.
+
+Since $4<5$, we round down: keep $5$ and replace the digits to its right with $0$. This gives $3\,500\,000$.
+
+Nam's result is $3\,600\,000\ne3\,500\,000$, so Nam is wrong. Nam looked at the thousands digit $8$ (instead of the ten-thousands digit $4$), so he rounded up wrongly.
+
+So Nam is wrong; the correct result is $3\,500\,000$.
 
 **Answer.** Nam is wrong; the correct result is $3\,500\,000$.
 :::
@@ -348,9 +413,15 @@ Find the smallest and the largest six-digit natural number that rounds to $500\,
 2. Largest number: the hundred-thousands digit is $5$ and it must round down.
 
 ::solution
-Smallest number: it starts with $4$ and the ten-thousands digit must be $5$ or more, so the smallest number is $450\,000$. Largest number: it starts with $5$ and the ten-thousands digit must be less than $5$, so the largest number is $549\,999$.
+We look for the six-digit natural numbers that round to $500\,000$ when rounded to the nearest hundred thousand.
 
-**Check.** $449\,999$ rounds to $400\,000$ and $550\,000$ rounds to $600\,000$, and neither is $500\,000$.
+Smallest number: it starts with the hundred-thousands digit $4$ and must round up to $5$, so its ten-thousands digit must be $5$ or more. The smallest number is $450\,000$.
+
+Largest number: it starts with the hundred-thousands digit $5$ and must round down, so its ten-thousands digit must be less than $5$. The largest number is $549\,999$.
+
+*Check.* The number $449\,999$ rounds to $400\,000$ and $550\,000$ rounds to $600\,000$, and neither is $500\,000$. So no number below $450\,000$ or above $549\,999$ works.
+
+So the smallest number is $450\,000$ and the largest number is $549\,999$.
 
 **Answer.** $450\,000$ and $549\,999$.
 :::

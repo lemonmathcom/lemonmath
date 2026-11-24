@@ -125,7 +125,17 @@ Work out $74-36$.
 2. Tens: $7$ take away $1$, then take away $3$.
 
 ::solution
-Ones: $4$ is too small to take away $6$, so borrow $1$ ten, $14-6=8$. Tens: $7-1-3=3$. So $74-36=38$.
+Set out the column and subtract from the ones to the tens.
+
+$$\begin{array}{r} 74 \\ -\ 36 \\ \hline 38 \end{array}$$
+
+Ones: $4$ is too small to take away $6$, so borrow $1$ ten. We have $14-6=8$; write $8$.
+
+Tens: $1$ ten was borrowed, and then we take away $3$ tens. We have $7-1-3=3$; write $3$.
+
+Check: $38+36=74$.
+
+So $74-36=38$.
 
 **Answer.** $38$.
 :::
@@ -141,7 +151,17 @@ Set out the column and work out $85-29$.
 2. Subtract the ones (borrow a ten), then the tens.
 
 ::solution
-$15-9=6$. Tens: $8-1-2=5$. So $85-29=56$.
+Set out the column and subtract from the ones to the tens.
+
+$$\begin{array}{r} 85 \\ -\ 29 \\ \hline 56 \end{array}$$
+
+Ones: $5$ is too small to take away $9$, so borrow $1$ ten. We have $15-9=6$; write $6$.
+
+Tens: $1$ ten was borrowed, and then we take away $2$ tens. We have $8-1-2=5$; write $5$.
+
+Check: $56+29=85$.
+
+So $85-29=56$.
 
 **Answer.** $56$.
 :::
@@ -157,7 +177,13 @@ Remember the last lesson. Work out $61-8$.
 2. Tens: $6$ take away $1$.
 
 ::solution
-$11-8=3$. Tens: $6-1=5$. So $61-8=53$.
+Ones: $1$ is too small to take away $8$, so borrow $1$ ten. We have $11-8=3$; write $3$.
+
+Tens: after borrowing $1$ ten, $6$ tens become $5$ tens, since $6-1=5$; write $5$.
+
+Check: $53+8=61$.
+
+So $61-8=53$.
 
 **Answer.** $53$.
 :::
@@ -177,9 +203,15 @@ b) $60-25$.
 2. Tens: take away the borrowed ten, then take away the tens of the other number.
 
 ::solution
-a) $13-7=6$; $9-1-4=4$. So $93-47=46$.
+a) We work out $93-47$. Ones: $3$ is too small to take away $7$, so borrow $1$ ten, $13-7=6$. Tens: $9-1-4=4$. Hence $93-47=46$.
 
-b) $10-5=5$; $6-1-2=3$. So $60-25=35$.
+Check: $46+47=93$.
+
+b) We work out $60-25$. Ones: $0$ is too small to take away $5$, so borrow $1$ ten, $10-5=5$. Tens: $6-1-2=3$. Hence $60-25=35$.
+
+Check: $35+25=60$.
+
+So $93-47=46$ and $60-25=35$.
 
 **Answer.** a) $46$; b) $35$.
 :::
@@ -199,9 +231,11 @@ b) $56-19 \;\square\; 38$.
 2. Compare the tens, then the ones.
 
 ::solution
-a) $71-34=37$. Since $37>36$, we have $71-34>36$.
+a) We work out $71-34$. Ones: $1$ is too small to take away $4$, so borrow $1$ ten, $11-4=7$. Tens: $7-1-3=3$. Hence $71-34=37$. Since $37>36$, we have $71-34>36$.
 
-b) $56-19=37$. Since $37<38$, we have $56-19<38$.
+b) We work out $56-19$. Ones: $6$ is too small to take away $9$, so borrow $1$ ten, $16-9=7$. Tens: $5-1-1=3$. Hence $56-19=37$. Since $37<38$, we have $56-19<38$.
+
+So $71-34>36$ and $56-19<38$.
 
 **Answer.** a) The sign $>$; b) the sign $<$.
 :::
@@ -217,7 +251,13 @@ Phuong wrote: $63-27=44$. Where did Phuong go wrong? Correct the answer.
 2. Try again with $13-7$.
 
 ::solution
-Phuong worked out $7-3=4$, which is wrong because you must take $7$ away from $3$. Borrow $1$ ten: $13-7=6$, tens $6-1-2=3$. So $63-27=36$.
+In the ones, $3$ is too small to take away $7$. Phuong worked out $7-3=4$, which is wrong because you must take $7$ away from $3$, and since $3<7$ you have to borrow. In the tens, Phuong also forgot to reduce by the $1$ ten that was borrowed, and worked out $6-2=4$.
+
+The correct way: borrow $1$ ten, so $13-7=6$. Tens: $6-1-2=3$. Hence $63-27=36$.
+
+Check: $36+27=63$.
+
+So Phuong went wrong by taking the smaller digit from the bigger one, and the correct result is $63-27=36$.
 
 **Answer.** Phuong took the smaller digit from the bigger one; the right answer is $36$.
 :::
@@ -233,8 +273,16 @@ There are $82$ children playing in the school yard. Then $37$ children go back t
 2. Work out $82-37$ and write the answer with its unit.
 
 ::solution
-Ones: borrow $1$ ten, $12-7=5$. Tens: $8-1-3=4$. The number of children left is:
+Solution
+
+The number of children left in the yard is:
 $$82-37=45\ \text{(children)}.$$
+
+Working: in the ones, $2$ is too small to take away $7$, so borrow $1$ ten, $12-7=5$. Tens: $8-1-3=4$.
+
+Check: $45+37=82$.
+
+So $45$ children are left in the yard.
 
 **Answer.** $45$ children.
 :::
@@ -250,7 +298,15 @@ Find the missing digit: $7\square-28=45$.
 2. Check with the subtraction.
 
 ::solution
-$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-28=45$ (because $13-8=5$ and $7-1-2=4$).
+The minuend is $7\square$, the number taken away is $28$ and the difference is $45$.
+
+Tens: the minuend has $7$ tens, the number taken away has $2$ tens, but the difference has $4$ tens. Since $7-2=5$ and the difference has only $4$ tens, which is $1$ less, $1$ ten was borrowed in the ones column. We have $7-1-2=4$ and $(10+\square)-8=5$.
+
+It follows that $10+\square=5+8=13$, hence $\square=3$.
+
+Check: $73-28=45$ (because $13-8=5$ and $7-1-2=4$). We can also check with addition: $45+28=73$.
+
+So the missing digit is $3$.
 
 **Answer.** The missing digit is $3$.
 :::

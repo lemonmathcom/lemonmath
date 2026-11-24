@@ -233,7 +233,14 @@ Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B}=50^\circ$ và tam giác $D
 2. So sánh $\widehat{C}$ với $\widehat{F}$.
 
 ::solution
-Vì tam giác $ABC$ vuông tại $A$ nên $\widehat{C}=90^\circ-50^\circ=40^\circ$. Ta có $\widehat{C}=\widehat{F}=40^\circ$ nên $\triangle ABC\backsim\triangle DEF$ (hai tam giác vuông có một góc nhọn bằng nhau).
+Xét tam giác $ABC$ vuông tại $A$. Tổng hai góc nhọn bằng $90^\circ$ nên $\widehat{B}+\widehat{C}=90^\circ$, suy ra
+$$\widehat{C}=90^\circ-\widehat{B}=90^\circ-50^\circ=40^\circ.$$
+
+Tam giác $DEF$ vuông tại $D$ có $\widehat{F}=40^\circ$. Do đó $\widehat{C}=\widehat{F}=40^\circ$.
+
+Hai tam giác vuông $ABC$ và $DEF$ có một góc nhọn bằng nhau ($\widehat{C}=\widehat{F}$) nên $\triangle ABC\backsim\triangle DEF$ (trường hợp đồng dạng của hai tam giác vuông). Các đỉnh tương ứng là $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$; ngoài ra $\widehat{E}=90^\circ-40^\circ=50^\circ=\widehat{B}$.
+
+Vậy $\triangle ABC\backsim\triangle DEF$.
 
 **Đáp số.** $\triangle ABC\backsim\triangle DEF$ với $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$.
 :::
@@ -249,7 +256,20 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $AC=8$ và tam giác $MNP$ vuô
 2. Tính $BC$ rồi dùng tỉ số đồng dạng để tính $NP$.
 
 ::solution
-Ta có $\dfrac{MN}{AB}=\dfrac96=\dfrac32$ và $\dfrac{MP}{AC}=\dfrac{12}8=\dfrac32$ nên $\triangle ABC\backsim\triangle MNP$ (hai cạnh góc vuông tỉ lệ). Theo định lí Pythagore, $BC=\sqrt{6^2+8^2}=10$. Suy ra $NP=\dfrac32\cdot10=15$.
+Xét hai tam giác vuông $ABC$ (vuông tại $A$) và $MNP$ (vuông tại $M$). Ta có
+$$\frac{MN}{AB}=\frac96=\frac32,\qquad \frac{MP}{AC}=\frac{12}{8}=\frac32.$$
+
+Hai cạnh góc vuông của tam giác này tỉ lệ với hai cạnh góc vuông của tam giác kia nên $\triangle ABC\backsim\triangle MNP$ theo tỉ số $\dfrac32$ (với $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$).
+
+Tính $NP$. Theo định lí Pythagore trong tam giác $ABC$ vuông tại $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Vì hai tam giác đồng dạng theo tỉ số $\dfrac32$ nên $\dfrac{NP}{BC}=\dfrac32$, suy ra
+$$NP=\frac32\cdot10=15.$$
+
+Kiểm tra: trong tam giác $MNP$ vuông tại $M$, $NP=\sqrt{9^2+12^2}=\sqrt{225}=15$.
+
+Vậy $\triangle ABC\backsim\triangle MNP$ và $NP=15$.
 
 **Đáp số.** $NP=15$.
 :::
@@ -265,7 +285,20 @@ Cho tam giác $ABC$ vuông tại $A$ có $BC=13$, $AB=5$ và tam giác $DEF$ vu�
 2. Tính $AC$ rồi suy ra $DF$.
 
 ::solution
-Ta có $\dfrac{EF}{BC}=\dfrac{39}{13}=3$ và $\dfrac{DE}{AB}=\dfrac{15}5=3$ nên $\triangle DEF\backsim\triangle ABC$ (cạnh huyền và cạnh góc vuông tỉ lệ). Theo định lí Pythagore, $AC=\sqrt{13^2-5^2}=12$. Suy ra $DF=3\cdot12=36$.
+Xét hai tam giác vuông $DEF$ (vuông tại $D$, cạnh huyền $EF$) và $ABC$ (vuông tại $A$, cạnh huyền $BC$). Ta có
+$$\frac{EF}{BC}=\frac{39}{13}=3,\qquad \frac{DE}{AB}=\frac{15}{5}=3.$$
+
+Cạnh huyền và một cạnh góc vuông của tam giác này tỉ lệ với cạnh huyền và một cạnh góc vuông của tam giác kia nên $\triangle DEF\backsim\triangle ABC$ theo tỉ số $3$ (với $D\leftrightarrow A$, $E\leftrightarrow B$, $F\leftrightarrow C$).
+
+Tính $DF$. Theo định lí Pythagore trong tam giác $ABC$ vuông tại $A$,
+$$AC=\sqrt{BC^2-AB^2}=\sqrt{13^2-5^2}=\sqrt{144}=12.$$
+
+Vì $\dfrac{DF}{AC}=3$ nên
+$$DF=3\cdot12=36.$$
+
+Kiểm tra: $DF=\sqrt{EF^2-DE^2}=\sqrt{39^2-15^2}=\sqrt{1296}=36$.
+
+Vậy hai tam giác đồng dạng và $DF=36$.
 
 **Đáp số.** $DF=36$.
 :::
@@ -281,7 +314,17 @@ Nhớ lại bài hai tam giác đồng dạng. Tam giác $ABC$ đồng dạng v�
 2. Tính chu vi $A'B'C'$.
 
 ::solution
-Gọi $p$ là chu vi tam giác $A'B'C'$ (cm). Ta có $\dfrac{24}{p}=\dfrac25$ nên $p=\dfrac{24\cdot5}{2}=60$.
+Gọi $p$ (cm) là chu vi tam giác $A'B'C'$, $p>0$.
+
+Hai tam giác đồng dạng thì tỉ số hai chu vi bằng tỉ số đồng dạng. Tam giác $ABC$ đồng dạng với tam giác $A'B'C'$ theo tỉ số $\dfrac25$ và chu vi tam giác $ABC$ bằng $24$ cm, nên
+$$\frac{24}{p}=\frac25.$$
+
+Suy ra
+$$p=\frac{24\cdot5}{2}=60.$$
+
+Giá trị $p=60>0$ thoả mãn điều kiện. Kiểm tra: $\dfrac{24}{60}=\dfrac25$.
+
+Vậy chu vi tam giác $A'B'C'$ là $60$ cm.
 
 **Đáp số.** $60$ cm.
 :::
@@ -297,7 +340,19 @@ Cùng một thời điểm, một chiếc cọc thẳng đứng cao $1{,}5$ m c�
 2. Lập tỉ lệ thức rồi tính $h$.
 
 ::solution
-Hai tam giác vuông (cọc với bóng của cọc, cột cờ với bóng của cột cờ) có một góc nhọn bằng nhau nên đồng dạng. Ta có $\dfrac{1{,}5}{h}=\dfrac{1{,}2}{9{,}6}$, suy ra $h=\dfrac{1{,}5\cdot9{,}6}{1{,}2}=12$.
+Gọi $h$ (m) là chiều cao của cột cờ, $h>0$.
+
+Cùng một thời điểm các tia nắng song song với nhau nên chúng tạo với mặt đất cùng một góc nhọn. Cọc và cột cờ đều vuông góc với mặt đất. Do đó hai tam giác vuông (cọc với bóng của cọc, cột cờ với bóng của cột cờ) có một góc nhọn bằng nhau nên đồng dạng.
+
+Các cạnh góc vuông tương ứng tỉ lệ: chiều cao cọc so với chiều cao cột cờ bằng bóng cọc so với bóng cột cờ, tức là
+$$\frac{1{,}5}{h}=\frac{1{,}2}{9{,}6}.$$
+
+Suy ra
+$$h=\frac{1{,}5\cdot9{,}6}{1{,}2}=\frac{14{,}4}{1{,}2}=12.$$
+
+Kiểm tra: $\dfrac{1{,}5}{12}=0{,}125=\dfrac{1{,}2}{9{,}6}$.
+
+Vậy cột cờ cao $12$ m.
 
 **Đáp số.** $12$ m.
 :::
@@ -313,7 +368,19 @@ Một đoạn dốc thứ nhất có phương nằm ngang dài $2{,}4$ m, độ 
 2. Dùng tỉ số đồng dạng để tính phần nằm ngang.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$ có $AC=2{,}4$, $AB=1$, $BC=2{,}6$ và tam giác $A'B'C'$ vuông tại $A'$ có $A'B'=2{,}5$, $B'C'=6{,}5$. Ta có $\dfrac{B'C'}{BC}=\dfrac{6{,}5}{2{,}6}=2{,}5$ và $\dfrac{A'B'}{AB}=\dfrac{2{,}5}1=2{,}5$ nên $\triangle A'B'C'\backsim\triangle ABC$. Suy ra $\widehat{C'}=\widehat{C}$, tức hai đoạn dốc nghiêng cùng một góc, và $A'C'=2{,}5\cdot2{,}4=6$.
+Xét tam giác $ABC$ vuông tại $A$ biểu diễn đoạn dốc thứ nhất, với $AC=2{,}4$ (phần nằm ngang), $AB=1$ (độ cao), $BC=2{,}6$ (mặt dốc). Xét tam giác $A'B'C'$ vuông tại $A'$ biểu diễn đoạn dốc thứ hai, với $A'B'=2{,}5$ (độ cao), $B'C'=6{,}5$ (mặt dốc). Góc nghiêng của mỗi đoạn dốc so với mặt phẳng ngang là góc ở đỉnh $C$ (và $C'$).
+
+Hai tam giác vuông có
+$$\frac{B'C'}{BC}=\frac{6{,}5}{2{,}6}=2{,}5,\qquad \frac{A'B'}{AB}=\frac{2{,}5}{1}=2{,}5.$$
+
+Cạnh huyền và một cạnh góc vuông tỉ lệ nên $\triangle A'B'C'\backsim\triangle ABC$ theo tỉ số $2{,}5$. Suy ra $\widehat{C'}=\widehat{C}$, tức là hai đoạn dốc nghiêng cùng một góc so với mặt phẳng ngang.
+
+Tính phần nằm ngang của đoạn dốc thứ hai. Từ $\dfrac{A'C'}{AC}=2{,}5$ ta có
+$$A'C'=2{,}5\cdot2{,}4=6.$$
+
+Kiểm tra: $A'C'=\sqrt{B'C'^2-A'B'^2}=\sqrt{6{,}5^2-2{,}5^2}=\sqrt{36}=6$.
+
+Vậy hai đoạn dốc nghiêng cùng một góc và phần nằm ngang của đoạn dốc thứ hai dài $6$ m.
 
 **Đáp số.** Cùng một góc nghiêng; phần nằm ngang dài $6$ m.
 :::
@@ -329,7 +396,20 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=15$, $AC=20$. Kẻ đường cao $A
 2. Từ $\dfrac{HB}{AB}=\dfrac{HA}{AC}=\dfrac{BA}{BC}$ tính $BH$ và $AH$.
 
 ::solution
-Hai tam giác vuông $HBA$ và $ABC$ có chung góc $\widehat{B}$ nên $\triangle HBA\backsim\triangle ABC$. Theo định lí Pythagore, $BC=\sqrt{15^2+20^2}=25$. Ta có $\dfrac{HB}{15}=\dfrac{HA}{20}=\dfrac{15}{25}$, suy ra $BH=\dfrac{15\cdot15}{25}=9$ và $AH=\dfrac{20\cdot15}{25}=12$.
+Chứng minh $\triangle HBA\backsim\triangle ABC$. Xét hai tam giác vuông $HBA$ (vuông tại $H$) và $ABC$ (vuông tại $A$). Hai tam giác có chung góc $\widehat{B}$ nên $\triangle HBA\backsim\triangle ABC$ (với $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$).
+
+Tính $BC$. Theo định lí Pythagore trong tam giác $ABC$ vuông tại $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{15^2+20^2}=\sqrt{625}=25.$$
+
+Tính $BH$ và $AH$. Từ $\triangle HBA\backsim\triangle ABC$, các cạnh tương ứng tỉ lệ:
+$$\frac{HB}{AB}=\frac{HA}{AC}=\frac{BA}{BC},\ \text{tức là}\ \frac{HB}{15}=\frac{HA}{20}=\frac{15}{25}.$$
+
+Suy ra
+$$BH=\frac{15\cdot15}{25}=9,\qquad AH=\frac{20\cdot15}{25}=12.$$
+
+Kiểm tra: $AH\cdot BC=12\cdot25=300=15\cdot20=AB\cdot AC$.
+
+Vậy $BC=25$, $BH=9$, $AH=12$.
 
 **Đáp số.** $BC=25$, $BH=9$, $AH=12$.
 :::
@@ -345,7 +425,18 @@ Nam đứng cách chân một cột đèn $10$ m. Mắt Nam cách mặt đất $
 2. Tính $HM$ rồi cộng với độ cao của mắt.
 
 ::solution
-Xét tam giác $EHM$ vuông tại $H$ có $\widehat{E}=45^\circ$ nên $\widehat{M}=45^\circ$, suy ra tam giác $EHM$ vuông cân tại $H$. Do đó $HM=EH=10$. Chiều cao cột đèn là $10+1{,}6=11{,}6$.
+Gọi $E$ là vị trí mắt Nam, $M$ là đỉnh cột đèn và $H$ là điểm trên cột đèn ngang tầm mắt. Khi đó $EH=10$ m nằm ngang, $HM$ thẳng đứng nên tam giác $EHM$ vuông tại $H$, và tia ngắm $EM$ tạo với phương nằm ngang góc $\widehat{E}=45^\circ$. Gọi $h$ (m) là chiều cao của cột đèn; điểm $H$ cách mặt đất $1{,}6$ m (bằng độ cao của mắt).
+
+Trong tam giác $EHM$ vuông tại $H$ có $\widehat{E}=45^\circ$ nên
+$$\widehat{M}=90^\circ-45^\circ=45^\circ.$$
+
+Tam giác $EHM$ có $\widehat{E}=\widehat{M}$ nên vuông cân tại $H$. Do đó
+$$HM=EH=10\ \text{(m)}.$$
+
+Chiều cao cột đèn bằng $HM$ cộng độ cao của $H$ so với mặt đất:
+$$h=HM+1{,}6=10+1{,}6=11{,}6\ \text{(m)}.$$
+
+Vậy cột đèn cao $11{,}6$ m.
 
 **Đáp số.** $11{,}6$ m.
 :::
@@ -361,7 +452,23 @@ Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh $AB\cdot 
 2. Nhân chéo, rồi thay số.
 
 ::solution
-Ta có $\triangle HBA\backsim\triangle ABC$ nên $\dfrac{HA}{AC}=\dfrac{BA}{BC}$, suy ra $AH\cdot BC=AB\cdot AC$. Với $AB=9$, $AC=12$ ta có $BC=\sqrt{9^2+12^2}=15$, do đó $AH=\dfrac{9\cdot12}{15}=7{,}2$.
+Chứng minh $AB\cdot AC=AH\cdot BC$. Xét hai tam giác vuông $HBA$ (vuông tại $H$) và $ABC$ (vuông tại $A$). Hai tam giác có chung góc $\widehat{B}$ nên $\triangle HBA\backsim\triangle ABC$ (với $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$).
+
+Các cạnh tương ứng tỉ lệ nên
+$$\frac{HA}{AC}=\frac{BA}{BC}.$$
+
+Nhân chéo, ta được
+$$AH\cdot BC=AB\cdot AC.$$
+
+Áp dụng với $AB=9$, $AC=12$. Theo định lí Pythagore trong tam giác $ABC$ vuông tại $A$,
+$$BC=\sqrt{9^2+12^2}=\sqrt{225}=15.$$
+
+Từ hệ thức vừa chứng minh,
+$$AH=\frac{AB\cdot AC}{BC}=\frac{9\cdot12}{15}=7{,}2.$$
+
+Kiểm tra bằng diện tích: $\dfrac12\cdot9\cdot12=54=\dfrac12\cdot15\cdot7{,}2$.
+
+Vậy $AB\cdot AC=AH\cdot BC$ và khi $AB=9$, $AC=12$ thì $AH=7{,}2$.
 
 **Đáp số.** $AH=7{,}2$.
 :::

@@ -152,7 +152,14 @@ D. $4$
 2. $2c=4$.
 
 ::solution
-$c=2$: đáp án **B**.
+Hàm số $f(x)=x^2$ liên tục trên $[1; 3]$ và có đạo hàm trên $(1; 3)$, nên theo định lí giá trị trung bình tồn tại $c\in(1; 3)$ sao cho
+$$f'(c)=\frac{f(3)-f(1)}{3-1}=\frac{9-1}{2}=4.$$
+
+Ta có $f'(x)=2x$, nên $f'(c)=2c$. Do đó $2c=4$, suy ra $c=2$ (thuộc khoảng $(1; 3)$).
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -166,7 +173,18 @@ Tìm các khoảng đồng biến, nghịch biến và cực trị của $f(x)=x
 2. $e^{-x}>0$ với mọi $x$, nên dấu của $f'$ là dấu của $1-x$.
 
 ::solution
-$f$ đồng biến trên $(-\infty,1)$ và nghịch biến trên $(1,\infty)$. Cực đại tại $x=1$, giá trị $f(1)=\dfrac1e$, vì $f'$ đổi dấu từ dương sang âm tại đó.
+Hàm số $f(x)=xe^{-x}$ xác định và có đạo hàm trên $\mathbb{R}$. Ta có
+$$f'(x)=e^{-x}-xe^{-x}=(1-x)e^{-x}.$$
+
+Vì $e^{-x}>0$ với mọi $x$ nên $f'(x)$ cùng dấu với $1-x$. Do đó $f'(x)=0$ chỉ khi $x=1$; $f'(x)>0$ khi $x<1$; $f'(x)<0$ khi $x>1$.
+
+Suy ra $f$ đồng biến trên $(-\infty; 1)$ và nghịch biến trên $(1; +\infty)$.
+
+Tại $x=1$, đạo hàm $f'$ đổi dấu từ dương sang âm, nên $f$ đạt cực đại tại $x=1$ với giá trị $f(1)=1\cdot e^{-1}=\dfrac1e$. Vì $f'$ chỉ triệt tiêu tại $x=1$ nên $f$ không có cực trị nào khác.
+
+Vậy $f$ đồng biến trên $(-\infty; 1)$, nghịch biến trên $(1; +\infty)$ và đạt cực đại tại $x=1$ với $f(1)=\dfrac1e$.
+
+**Đáp số.** Đồng biến trên $(-\infty; 1)$, nghịch biến trên $(1; +\infty)$; cực đại tại $x=1$, giá trị $f(1)=\dfrac1e$.
 :::
 
 :::exercise Trắc nghiệm
@@ -183,7 +201,18 @@ D. $x=-2$
 1. $f''(x)=6x-12$.
 
 ::solution
-$f''$ đổi dấu tại $x=2$: đáp án **C**. Phương án B là điểm tới hạn ($f'(4)=0$), không phải điểm uốn.
+Điểm uốn của đồ thị là điểm tại đó $f''$ đổi dấu. Ta có
+$$f'(x)=3x^2-12x,\qquad f''(x)=6x-12.$$
+
+Giải $f''(x)=0$: $6x-12=0$, suy ra $x=2$.
+
+Ta có $f''(x)<0$ khi $x<2$ và $f''(x)>0$ khi $x>2$, nên $f''$ đổi dấu tại $x=2$. Do đó đồ thị có điểm uốn tại $x=2$.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án B là điểm tới hạn ($f'(4)=3\cdot16-12\cdot4=0$), không phải điểm uốn vì $f''(4)=12\neq0$.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -197,7 +226,19 @@ Tìm giá trị lớn nhất và nhỏ nhất của $f(x)=2x^3-3x^2-12x+1$ trên
 2. Tính $f$ tại $-2$, $-1$, $2$, $3$.
 
 ::solution
-$f(-2)=-3$, $f(-1)=8$, $f(2)=-19$, $f(3)=-8$. Giá trị lớn nhất $8$ tại $x=-1$; giá trị nhỏ nhất $-19$ tại $x=2$.
+Hàm số $f(x)=2x^3-3x^2-12x+1$ liên tục trên đoạn $[-2; 3]$, nên đạt giá trị lớn nhất và nhỏ nhất trên đoạn này tại các điểm tới hạn hoặc tại hai đầu mút.
+
+Ta có $f'(x)=6x^2-6x-12=6(x-2)(x+1)$. Giải $f'(x)=0$ ta được $x=-1$ hoặc $x=2$; cả hai đều thuộc $[-2; 3]$.
+
+Tính giá trị của $f$ tại các điểm tới hạn và hai đầu mút:
+$$f(-2)=-16-12+24+1=-3,\qquad f(-1)=-2-3+12+1=8,$$
+$$f(2)=16-12-24+1=-19,\qquad f(3)=54-27-36+1=-8.$$
+
+So sánh bốn giá trị $-3$, $8$, $-19$, $-8$, ta thấy giá trị lớn nhất là $8$ và giá trị nhỏ nhất là $-19$.
+
+Vậy giá trị lớn nhất của $f$ trên $[-2; 3]$ bằng $8$ tại $x=-1$; giá trị nhỏ nhất bằng $-19$ tại $x=2$.
+
+**Đáp số.** Giá trị lớn nhất $8$ tại $x=-1$; giá trị nhỏ nhất $-19$ tại $x=2$.
 :::
 
 :::exercise Tự luận
@@ -227,7 +268,22 @@ Từ một tấm bìa hình vuông $30$ nhân $30$ xăng-ti-mét, người ta c�
 2. Điểm tới hạn trong miền: $x=5$.
 
 ::solution
-$V'>0$ khi $0<x<5$ và $V'<0$ khi $5<x<15$, nên $x=5$ cho giá trị lớn nhất: $V(5)=5\cdot20^2=2000$ xăng-ti-mét khối.
+Khi cắt bốn hình vuông cạnh $x$ (xăng-ti-mét) ở bốn góc rồi gấp lên, hộp có đáy là hình vuông cạnh $30-2x$ và chiều cao $x$. Điều kiện: $0<x<15$.
+
+Thể tích hộp là
+$$V(x)=x(30-2x)^2\ \text{(xăng-ti-mét khối)}.$$
+
+Lấy đạo hàm:
+$$V'(x)=(30-2x)^2+x\cdot2(30-2x)\cdot(-2)=(30-2x)(30-6x)=12(15-x)(5-x).$$
+
+Trên khoảng $(0; 15)$ ta có $15-x>0$, nên $V'(x)$ cùng dấu với $5-x$. Do đó $V'(x)=0$ khi $x=5$; $V'(x)>0$ khi $0<x<5$; $V'(x)<0$ khi $5<x<15$.
+
+Vì $V'$ đổi dấu từ dương sang âm tại $x=5$ nên $V$ đạt giá trị lớn nhất tại $x=5$:
+$$V(5)=5\cdot(30-10)^2=5\cdot20^2=2000.$$
+
+Vậy với $x=5$ xăng-ti-mét thì thể tích hộp lớn nhất, và thể tích đó là $2000$ xăng-ti-mét khối.
+
+**Đáp số.** $x=5$ xăng-ti-mét; thể tích lớn nhất là $2000$ xăng-ti-mét khối.
 :::
 
 :::exercise Viết lời lập luận
@@ -243,9 +299,15 @@ b) Tại $x=1$, đồ thị của $f$ lõm lên hay lõm xuống? Giải thích.
 2. $f''(x)=2x$.
 
 ::solution
-a) Có: $f'$ đổi dấu từ dương (khi $x<-2$) sang âm (khi $-2<x<2$) tại $x=-2$, nên $f$ đạt cực đại tại đó.
+Ta có $f'(x)=x^2-4=(x-2)(x+2)$.
 
-b) $f''(1)=2>0$, nên đồ thị của $f$ lõm lên tại $x=1$.
+a) Có. Ta xét dấu của $f'$ quanh $x=-2$: khi $x<-2$ thì $f'(x)>0$ (chẳng hạn $f'(-3)=5>0$); khi $-2<x<2$ thì $f'(x)<0$ (chẳng hạn $f'(0)=-4<0$). Vì $f'$ đổi dấu từ dương sang âm tại $x=-2$ nên $f$ đạt cực đại tại $x=-2$.
+
+b) Ta có $f''(x)=2x$, nên $f''(1)=2>0$. Vậy đồ thị của $f$ lõm lên tại $x=1$.
+
+Vậy $f$ có cực đại tại $x=-2$ và đồ thị của $f$ lõm lên tại $x=1$.
+
+**Đáp số.** a) Có; b) lõm lên.
 :::
 
 :::exercise Điểm gần nhất
@@ -259,7 +321,20 @@ Tìm điểm trên đường cong $y=\sqrt x$ gần điểm $(3, 0)$ nhất.
 2. $D'(x)=2x-5$.
 
 ::solution
-$D'(x)=0$ tại $x=2{,}5$, và $D''=2>0$, nên đây là cực tiểu. Điểm cần tìm là $\left(2{,}5; \sqrt{2{,}5}\right)\approx(2{,}5; 1{,}58)$, cách điểm đã cho một khoảng $\sqrt{2{,}75}\approx1{,}66$.
+Gọi $M\left(x; \sqrt x\right)$ với $x\ge0$ là điểm bất kì trên đường cong $y=\sqrt x$ và $A(3; 0)$ là điểm đã cho. Bình phương khoảng cách $AM$ là
+$$D(x)=(x-3)^2+\left(\sqrt x\right)^2=x^2-6x+9+x=x^2-5x+9.$$
+
+Khoảng cách $AM=\sqrt{D(x)}$ nhỏ nhất khi $D(x)$ nhỏ nhất.
+
+Ta có $D'(x)=2x-5$. Giải $D'(x)=0$ ta được $x=2{,}5$ (thoả mãn $x\ge0$).
+
+Vì $D''(x)=2>0$ nên $x=2{,}5$ là điểm cực tiểu của $D$. Ngoài ra $D'(x)<0$ khi $0\le x<2{,}5$ và $D'(x)>0$ khi $x>2{,}5$, nên đây cũng là giá trị nhỏ nhất của $D$ trên $[0; +\infty)$.
+
+Khi đó $D(2{,}5)=6{,}25-12{,}5+9=2{,}75$, nên khoảng cách nhỏ nhất là $\sqrt{2{,}75}\approx1{,}66$.
+
+Vậy điểm trên đường cong gần $(3; 0)$ nhất là $\left(2{,}5; \sqrt{2{,}5}\right)\approx(2{,}5; 1{,}58)$, cách điểm đã cho một khoảng $\sqrt{2{,}75}\approx1{,}66$.
+
+**Đáp số.** $\left(2{,}5; \sqrt{2{,}5}\right)\approx(2{,}5; 1{,}58)$.
 :::
 
 :::exercise Thử thách
@@ -273,7 +348,27 @@ Một lon hình trụ kín phải chứa được $500$ xăng-ti-mét khối. T�
 2. $S'(r)=4\pi r-\dfrac{1000}{r^2}$.
 
 ::solution
-$S'(r)=0$ cho $r^3=\dfrac{250}{\pi}$, nên $r\approx4{,}30$ xăng-ti-mét. $S''(r)=4\pi+\dfrac{2000}{r^3}>0$, nên đây là cực tiểu. Khi đó $h=\dfrac{500}{\pi r^2}=\dfrac{2\cdot250}{\pi r^2}=\dfrac{2\pi r^3}{\pi r^2}=2r$, nên $h\approx8{,}60$ xăng-ti-mét, bằng đường kính.
+Gọi $r$ (xăng-ti-mét) là bán kính đáy và $h$ (xăng-ti-mét) là chiều cao của lon, với $r>0$, $h>0$.
+
+Thể tích là $\pi r^2h=500$, suy ra $h=\dfrac{500}{\pi r^2}$.
+
+Lượng vật liệu tỉ lệ với diện tích toàn phần của lon kín:
+$$S=2\pi r^2+2\pi rh=2\pi r^2+2\pi r\cdot\frac{500}{\pi r^2}=2\pi r^2+\frac{1000}{r}.$$
+
+Lấy đạo hàm: $S'(r)=4\pi r-\dfrac{1000}{r^2}$. Giải $S'(r)=0$:
+$$4\pi r^3=1000\iff r^3=\frac{250}{\pi}.$$
+
+Suy ra $r=\sqrt[3]{\dfrac{250}{\pi}}\approx4{,}30$ xăng-ti-mét.
+
+Ta có $S''(r)=4\pi+\dfrac{2000}{r^3}>0$ với mọi $r>0$, nên đây là điểm cực tiểu, tức là tốn ít vật liệu nhất.
+
+Chiều cao tương ứng: vì $\pi r^3=250$ nên
+$$h=\frac{500}{\pi r^2}=\frac{2\cdot250}{\pi r^2}=\frac{2\pi r^3}{\pi r^2}=2r.$$
+Do đó $h\approx8{,}60$ xăng-ti-mét, bằng đường kính $2r$ của đáy.
+
+Vậy lon tốn ít vật liệu nhất khi bán kính $r\approx4{,}30$ xăng-ti-mét, và khi đó chiều cao bằng đường kính.
+
+**Đáp số.** $r\approx4{,}30$ xăng-ti-mét; $h=2r\approx8{,}60$ xăng-ti-mét.
 :::
 
 :::quiz

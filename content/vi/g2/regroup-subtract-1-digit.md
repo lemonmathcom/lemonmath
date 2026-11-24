@@ -126,7 +126,17 @@ Tính $53-7$.
 2. Hàng chục: $5$ bớt $1$.
 
 ::solution
-Hàng đơn vị: $3$ không trừ được $7$, mượn $1$ chục, $13-7=6$. Hàng chục: $5-1=4$. Vậy $53-7=46$.
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị sang hàng chục.
+
+$$\begin{array}{r} 53 \\ -\ 7 \\ \hline 46 \end{array}$$
+
+Hàng đơn vị: $3$ không trừ được $7$, nên mượn $1$ chục. Ta có $13-7=6$, viết $6$.
+
+Hàng chục: $5$ chục mượn đi $1$ chục còn $4$ chục, ta có $5-1=4$, viết $4$.
+
+Thử lại: $46+7=53$.
+
+Vậy $53-7=46$.
 
 **Đáp số.** $46$.
 :::
@@ -142,7 +152,17 @@ Hàng đơn vị: $3$ không trừ được $7$, mượn $1$ chục, $13-7=6$. H
 2. Trừ hàng đơn vị (có mượn), rồi hàng chục.
 
 ::solution
-$12-5=7$, hàng chục $7-1=6$. Vậy $72-5=67$.
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị sang hàng chục.
+
+$$\begin{array}{r} 72 \\ -\ 5 \\ \hline 67 \end{array}$$
+
+Hàng đơn vị: $2$ không trừ được $5$, nên mượn $1$ chục. Ta có $12-5=7$, viết $7$.
+
+Hàng chục: $7$ chục mượn đi $1$ chục còn $6$ chục, ta có $7-1=6$, viết $6$.
+
+Thử lại: $67+5=72$.
+
+Vậy $72-5=67$.
 
 **Đáp số.** $67$.
 :::
@@ -162,9 +182,13 @@ b) Dùng kết quả câu a) để tính $36-7$.
 2. Thử trừ $36-7$ bằng cách mượn chục.
 
 ::solution
-a) $9+7=16$, viết $6$ nhớ $1$; $2+1=3$. Vậy $29+7=36$.
+a) Phép cộng có nhớ: hàng đơn vị $9+7=16$, viết $6$ nhớ $1$. Hàng chục: $2+1=3$, viết $3$. Vậy $29+7=36$.
 
-b) $16-7=9$, hàng chục $3-1=2$. Vậy $36-7=29$, đúng với phép cộng ở câu a).
+b) Ta cần tính $36-7$. Hàng đơn vị: $6$ không trừ được $7$, nên mượn $1$ chục, ta có $16-7=9$. Hàng chục: $3-1=2$. Do đó $36-7=29$.
+
+Đối chiếu với câu a): vì $29+7=36$ nên lấy tổng $36$ trừ đi một số hạng $7$ thì được số hạng còn lại là $29$. Hai kết quả giống nhau.
+
+Vậy $29+7=36$ và $36-7=29$.
 
 **Đáp số.** a) $36$; b) $29$.
 :::
@@ -184,9 +208,15 @@ b) $71-\square=64$.
 2. Thử lại bằng phép trừ.
 
 ::solution
-a) Từ $39$ lên $45$ cần $6$. Thử lại: $45-6=39$.
+a) Số cần tìm là số trừ, bằng số bị trừ trừ đi hiệu. Ta có $\square=45-39$. Hàng đơn vị: $5$ không trừ được $9$, nên mượn $1$ chục, $15-9=6$. Hàng chục: $4-1-3=0$. Suy ra $\square=6$ (từ $39$ lên $45$ cần thêm $6$).
 
-b) Từ $64$ lên $71$ cần $7$. Thử lại: $71-7=64$.
+Thử lại: $45-6=39$.
+
+b) Tương tự, $\square=71-64$. Hàng đơn vị: $1$ không trừ được $4$, nên mượn $1$ chục, $11-4=7$. Hàng chục: $7-1-6=0$. Suy ra $\square=7$ (từ $64$ lên $71$ cần thêm $7$).
+
+Thử lại: $71-7=64$.
+
+Vậy số cần điền ở câu a) là $6$ và ở câu b) là $7$.
 
 **Đáp số.** a) $6$; b) $7$.
 :::
@@ -206,9 +236,11 @@ b) $40-3 \;\square\; 37$.
 2. So sánh hàng chục, rồi hàng đơn vị.
 
 ::solution
-a) $62-8=54$. Vì $54<55$ nên $62-8<55$.
+a) Ta tính $62-8$. Hàng đơn vị: $2$ không trừ được $8$, nên mượn $1$ chục, $12-8=4$. Hàng chục: $6-1=5$. Do đó $62-8=54$. Vì $54<55$ nên $62-8<55$.
 
-b) $40-3=37$. Hai số bằng nhau nên $40-3=37$.
+b) Ta tính $40-3$. Hàng đơn vị: $0$ không trừ được $3$, nên mượn $1$ chục, $10-3=7$. Hàng chục: $4-1=3$. Do đó $40-3=37$. Hai số $37$ và $37$ bằng nhau nên $40-3=37$.
+
+Vậy $62-8<55$ và $40-3=37$.
 
 **Đáp số.** a) Dấu $<$; b) Dấu $=$.
 :::
@@ -224,7 +256,13 @@ Bạn Bình làm bài: $52-7=55$. Bạn Bình làm sai ở đâu? Em hãy sửa 
 2. Làm lại với $12-7$.
 
 ::solution
-Bạn Bình lấy $7-2=5$, đó là sai vì phải lấy $2$ trừ $7$. Mượn $1$ chục: $12-7=5$, hàng chục $5-1=4$. Vậy $52-7=45$.
+Ở hàng đơn vị, $2$ không trừ được $7$. Bạn Bình lấy $7-2=5$, đó là sai vì phải lấy $2$ trừ $7$, mà $2<7$ nên phải mượn. Ở hàng chục, bạn Bình cũng quên bớt $1$ chục đã mượn nên giữ nguyên $5$.
+
+Cách làm đúng: mượn $1$ chục, ta có $12-7=5$. Hàng chục: $5-1=4$. Do đó $52-7=45$.
+
+Thử lại: $45+7=52$.
+
+Vậy bạn Bình làm sai ở chỗ lấy số lớn trừ số nhỏ, và kết quả đúng là $52-7=45$.
 
 **Đáp số.** Bạn Bình lấy số lớn trừ số nhỏ; đúng là $45$.
 :::
@@ -240,8 +278,16 @@ Trong rổ có $64$ quả cam. Mẹ bán đi $9$ quả cam. Hỏi trong rổ cò
 2. Tính $64-9$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Hàng đơn vị: mượn $1$ chục, $14-9=5$. Hàng chục: $6-1=5$. Số quả cam còn lại là:
+Bài giải
+
+Số quả cam còn lại trong rổ là:
 $$64-9=55\ \text{(quả)}.$$
+
+Cách tính: hàng đơn vị $4$ không trừ được $9$, mượn $1$ chục, $14-9=5$. Hàng chục: $6-1=5$.
+
+Thử lại: $55+9=64$.
+
+Vậy trong rổ còn lại $55$ quả cam.
 
 **Đáp số.** $55$ quả cam.
 :::
@@ -257,7 +303,15 @@ Tìm chữ số thích hợp điền vào ô trống: $7\square-8=65$.
 2. Thử lại bằng phép trừ.
 
 ::solution
-$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-8=65$ (vì $13-8=5$ và $7-1=6$).
+Số bị trừ là $7\square$, hiệu là $65$, số trừ là $8$.
+
+Hàng chục của số bị trừ là $7$ còn hàng chục của hiệu là $6$, kém $1$. Vậy ở hàng đơn vị đã mượn $1$ chục, nên $(10+\square)-8=5$.
+
+Suy ra $10+\square=5+8=13$, do đó $\square=3$.
+
+Thử lại: $73-8=65$ (vì $13-8=5$ và $7-1=6$). Cũng có thể kiểm tra bằng phép cộng: $65+8=73$.
+
+Vậy chữ số cần điền là $3$.
 
 **Đáp số.** Chữ số cần điền là $3$.
 :::

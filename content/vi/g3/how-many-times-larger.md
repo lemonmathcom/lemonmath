@@ -130,8 +130,12 @@ $18$ gấp mấy lần $6$?
 1. Viết phép chia $18:6$.
 
 ::solution
-$$18:6=3.$$
-Thử lại: $6\times 3=18$.
+Muốn biết $18$ gấp mấy lần $6$, ta lấy $18$ chia cho $6$:
+$$18:6=3$$
+
+Thử lại: $6\times 3=18$. Kết quả đúng.
+
+Vậy $18$ gấp $6$ là $3$ lần.
 
 **Đáp số.** $3$ lần.
 :::
@@ -146,8 +150,12 @@ $56$ gấp mấy lần $8$?
 1. Số nào nhân $8$ bằng $56$?
 
 ::solution
-$$56:8=7.$$
-Thử lại: $8\times 7=56$.
+Muốn biết $56$ gấp mấy lần $8$, ta lấy $56$ chia cho $8$:
+$$56:8=7$$
+
+Thử lại: $8\times 7=56$. Kết quả đúng.
+
+Vậy $56$ gấp $8$ là $7$ lần.
 
 **Đáp số.** $7$ lần.
 :::
@@ -162,8 +170,12 @@ $40$ gấp mấy lần $5$?
 1. Viết phép chia $40:5$ rồi thử lại.
 
 ::solution
-$$40:5=8.$$
-Thử lại: $5\times 8=40$.
+Muốn biết $40$ gấp mấy lần $5$, ta lấy $40$ chia cho $5$:
+$$40:5=8$$
+
+Thử lại: $5\times 8=40$. Kết quả đúng.
+
+Vậy $40$ gấp $5$ là $8$ lần.
 
 **Đáp số.** $8$ lần.
 :::
@@ -179,8 +191,13 @@ Mẹ $36$ tuổi, Lan $9$ tuổi. Hỏi tuổi của mẹ gấp mấy lần tu�
 2. Lấy số lớn chia cho số bé.
 
 ::solution
-Tuổi của mẹ gấp tuổi của Lan số lần là:
-$$36:9=4\ \text{(lần)}.$$
+Bài giải
+
+Muốn biết tuổi của mẹ gấp mấy lần tuổi của Lan, ta lấy tuổi mẹ chia cho tuổi Lan. Tuổi của mẹ gấp tuổi của Lan số lần là:
+$$36:9=4\ \text{(lần)}$$
+
+Vậy tuổi của mẹ gấp $4$ lần tuổi của Lan.
+
 **Đáp số.** $4$ lần.
 :::
 
@@ -195,10 +212,16 @@ Bể nhỏ chứa $7$ l nước, bể to chứa $28$ l nước. Hỏi bể to ch
 2. Làm phép chia $28:7$.
 
 ::solution
-Bể to chứa nhiều hơn bể nhỏ số lít là:
-$$28-7=21\ \text{(l)}.$$
-Bể to chứa gấp bể nhỏ số lần là:
-$$28:7=4\ \text{(lần)}.$$
+Bài giải
+
+Bể to chứa nhiều hơn bể nhỏ số lít nước là:
+$$28-7=21\ \text{(l)}$$
+
+Muốn biết bể to chứa gấp mấy lần bể nhỏ, ta lấy $28$ chia cho $7$. Bể to chứa gấp bể nhỏ số lần là:
+$$28:7=4\ \text{(lần)}$$
+
+Vậy bể to chứa nhiều hơn bể nhỏ $21$ l nước và chứa gấp $4$ lần bể nhỏ.
+
 **Đáp số.** Nhiều hơn $21$ l; gấp $4$ lần.
 :::
 
@@ -213,10 +236,16 @@ Hà có $5$ quyển truyện. Lan có nhiều hơn Hà $15$ quyển truyện. H�
 2. Chia số truyện của Lan cho số truyện của Hà.
 
 ::solution
-Số quyển truyện của Lan là:
-$$5+15=20\ \text{(quyển)}.$$
+Bài giải
+
+Lan có nhiều hơn Hà $15$ quyển truyện nên số quyển truyện của Lan là:
+$$5+15=20\ \text{(quyển)}$$
+
 Số truyện của Lan gấp số truyện của Hà số lần là:
-$$20:5=4\ \text{(lần)}.$$
+$$20:5=4\ \text{(lần)}$$
+
+Vậy số truyện của Lan gấp $4$ lần số truyện của Hà.
+
 **Đáp số.** $4$ lần.
 :::
 
@@ -230,9 +259,14 @@ Em nhớ lại bài gấp một số lên một số lần. Một số gấp lê
 1. Chia $54$ cho $6$.
 
 ::solution
-Số cần tìm là:
-$$54:6=9.$$
-Thử lại: $9\times 6=54$. Đúng.
+Bài giải
+
+Một số gấp lên $6$ lần thì được $54$, tức là số đó nhân với $6$ bằng $54$. Vậy muốn tìm số đó ta lấy $54$ chia cho $6$. Số cần tìm là:
+$$54:6=9$$
+
+Thử lại: $9\times 6=54$. Kết quả đúng.
+
+Vậy số cần tìm là $9$.
 
 **Đáp số.** $9$.
 :::
@@ -248,10 +282,19 @@ Năm nay mẹ $28$ tuổi, con $4$ tuổi. Hỏi $4$ năm nữa tuổi của m�
 2. Chia tuổi mẹ cho tuổi con.
 
 ::solution
-Sau $4$ năm, tuổi của mẹ là $28+4=32$ (tuổi), tuổi của con là $4+4=8$ (tuổi).
+Bài giải
+
+Sau $4$ năm, tuổi của mẹ là:
+$$28+4=32\ \text{(tuổi)}$$
+
+Sau $4$ năm, tuổi của con là:
+$$4+4=8\ \text{(tuổi)}$$
 
 Tuổi của mẹ gấp tuổi của con số lần là:
-$$32:8=4\ \text{(lần)}.$$
+$$32:8=4\ \text{(lần)}$$
+
+Vậy $4$ năm nữa tuổi của mẹ gấp $4$ lần tuổi của con.
+
 **Đáp số.** $4$ lần.
 :::
 

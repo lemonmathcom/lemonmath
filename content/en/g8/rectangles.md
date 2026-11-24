@@ -245,7 +245,15 @@ The rectangle $ABCD$ has diagonals meeting at $O$ and $\angle OAB=40^\circ$. Fin
 2. Find $\angle BOC$.
 
 ::solution
-Triangle $OAB$ is isosceles at $O$, so $\angle OBA=\angle OAB=40^\circ$. Hence $\angle AOB=180^\circ-2\cdot40^\circ=100^\circ$. The angles $\angle AOB$ and $\angle BOC$ are supplementary, so $\angle BOC=80^\circ$.
+Since $ABCD$ is a rectangle, its diagonals are equal and bisect each other, so $OA=OB$.
+
+Triangle $OAB$ has $OA=OB$, so it is isosceles at $O$. Hence $\angle OBA=\angle OAB=40^\circ$.
+
+The angles of triangle $OAB$ add up to $180^\circ$, so
+$$\angle AOB=180^\circ-\angle OAB-\angle OBA=180^\circ-2\cdot40^\circ=100^\circ.$$
+
+Since $A$, $O$, $C$ are collinear, the angles $\angle AOB$ and $\angle BOC$ are supplementary, so
+$$\angle BOC=180^\circ-\angle AOB=180^\circ-100^\circ=80^\circ.$$
 
 So $\angle AOB=100^\circ$ and $\angle BOC=80^\circ$.
 
@@ -299,11 +307,24 @@ The parallelogram $ABCD$ has equal diagonals, $AC=BD$. Prove that $ABCD$ is a re
 2. Deduce that $\angle ABC=\angle DCB$, then calculate.
 
 ::solution
-Consider the triangles $ABC$ and $DCB$. We have $AB=DC$ (opposite sides of a parallelogram), $BC$ is common and $AC=DB$ (given). Hence $\triangle ABC=\triangle DCB$ (side - side - side), so $\angle ABC=\angle DCB$.
+We use the criterion: a parallelogram with a right angle is a rectangle. So we need to prove $\angle ABC=90^\circ$.
 
-Since $AB\parallel CD$, we have $\angle ABC+\angle DCB=180^\circ$. Together with $\angle ABC=\angle DCB$ this gives $\angle ABC=90^\circ$.
+Consider the triangles $ABC$ and $DCB$. We have:
+
+- $AB=DC$ (opposite sides of the parallelogram $ABCD$);
+- $BC$ is common;
+- $AC=DB$ (given).
+
+Hence $\triangle ABC=\triangle DCB$ (side - side - side). So $\angle ABC=\angle DCB$ (corresponding angles).
+
+Since $ABCD$ is a parallelogram, $AB\parallel CD$. The angles $\angle ABC$ and $\angle DCB$ are co-interior angles of $AB\parallel CD$ with transversal $BC$, so
+$$\angle ABC+\angle DCB=180^\circ.$$
+
+Together with $\angle ABC=\angle DCB$ this gives $2\angle ABC=180^\circ$, so $\angle ABC=90^\circ$.
 
 The parallelogram $ABCD$ has a right angle, so it is a rectangle.
+
+So $ABCD$ is a rectangle.
 
 **Answer.** $ABCD$ is a rectangle.
 :::
@@ -355,7 +376,15 @@ Suppose a screen is a rectangle $80$ cm wide and $60$ cm high. Find the length o
 2. Divide by $2.54$.
 
 ::solution
-The diagonal is $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). In inches: $100\div2.54\approx39.4$ (inches).
+The diagonal of the screen is the hypotenuse of a right-angled triangle whose legs are the width $80$ cm and the height $60$ cm.
+
+Let $d$ (cm) be the length of the diagonal ($d>0$). By Pythagoras' theorem,
+$$d^2=80^2+60^2=6\,400+3\,600=10\,000,$$
+so $d=\sqrt{10\,000}=100$ (cm).
+
+Converting to inches, with $1$ inch $=2.54$ cm:
+$$100\div2.54\approx39.4\ (\text{inches}),$$
+rounded to one decimal place.
 
 So the diagonal of the screen is $100$ cm, about $39.4$ inches.
 

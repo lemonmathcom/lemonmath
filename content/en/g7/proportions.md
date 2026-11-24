@@ -355,13 +355,19 @@ Given $\dfrac ab=\dfrac cd$ ($b\neq0$, $d\neq0$), prove that $\dfrac{a+b}b=\dfra
 2. Split the right-hand side into $\dfrac cd+1$, then use the given equation.
 
 ::solution
-We have $\dfrac{a+b}b=\dfrac ab+\dfrac bb=\dfrac ab+1$ and $\dfrac{c+d}d=\dfrac cd+\dfrac dd=\dfrac cd+1$.
+We transform each side of the equality to be proved.
 
-Since $\dfrac ab=\dfrac cd$ (given), we have $\dfrac ab+1=\dfrac cd+1$.
+Since $b\neq0$,
+$$\frac{a+b}{b}=\frac ab+\frac bb=\frac ab+1.$$
 
-Hence $\dfrac{a+b}b=\dfrac{c+d}d$.
+Since $d\neq0$,
+$$\frac{c+d}{d}=\frac cd+\frac dd=\frac cd+1.$$
 
-So the statement is proved.
+By the hypothesis, $\dfrac ab=\dfrac cd$. Adding $1$ to both sides, we get $\dfrac ab+1=\dfrac cd+1$.
+
+Hence $\dfrac{a+b}{b}=\dfrac{c+d}{d}$.
+
+So $\dfrac{a+b}{b}=\dfrac{c+d}{d}$.
 
 **Answer.** $\dfrac{a+b}b=\dfrac{c+d}d$.
 :::

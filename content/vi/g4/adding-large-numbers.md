@@ -176,8 +176,16 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Đặt tính sao cho các chữ số cùng hàng thẳng cột với nhau, rồi cộng lần lượt từ phải sang trái:
 $$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
+
+Hàng đơn vị: $3+4=7$, viết $7$. Hàng chục: $6+1=7$, viết $7$. Hàng trăm: $1+2=3$, viết $3$. Hàng nghìn: $4+5=9$, viết $9$. Hàng chục nghìn: $2+6=8$, viết $8$. Hàng trăm nghìn: $5+3=8$, viết $8$.
+
 Không có hàng nào đủ $10$ nên không phải nhớ.
+
+Thử lại: $889\,377-365\,214=524\,163$. Đúng.
+
+Vậy $524\,163+365\,214=889\,377$.
 
 **Đáp số.** $889\,377$.
 :::
@@ -193,8 +201,24 @@ Không có hàng nào đủ $10$ nên không phải nhớ.
 2. Cộng từng hàng, nhớ khi cần.
 
 ::solution
+Đặt tính sao cho các chữ số cùng hàng thẳng cột với nhau, rồi cộng lần lượt từ phải sang trái:
 $$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
-Hàng đơn vị: $9+4=13$, viết $3$ nhớ $1$. Hàng chục: $5+7+1=13$, viết $3$ nhớ $1$. Hàng trăm: $6+8+1=15$, viết $5$ nhớ $1$. Hàng nghìn: $7+9+1=17$, viết $7$ nhớ $1$. Hàng chục nghìn: $8+4+1=13$, viết $3$ nhớ $1$. Hàng trăm nghìn: $3+5+1=9$.
+
+Hàng đơn vị: $9+4=13$, viết $3$ nhớ $1$.
+
+Hàng chục: $5+7+1=13$, viết $3$ nhớ $1$.
+
+Hàng trăm: $6+8+1=15$, viết $5$ nhớ $1$.
+
+Hàng nghìn: $7+9+1=17$, viết $7$ nhớ $1$.
+
+Hàng chục nghìn: $8+4+1=13$, viết $3$ nhớ $1$.
+
+Hàng trăm nghìn: $3+5+1=9$, viết $9$.
+
+Thử lại: $937\,533-549\,874=387\,659$. Đúng.
+
+Vậy $387\,659+549\,874=937\,533$.
 
 **Đáp số.** $937\,533$.
 :::
@@ -210,8 +234,16 @@ Hàng đơn vị: $9+4=13$, viết $3$ nhớ $1$. Hàng chục: $5+7+1=13$, vi�
 2. Trừ từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Đặt tính sao cho các chữ số cùng hàng thẳng cột với nhau, rồi trừ lần lượt từ phải sang trái:
 $$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
+
+Hàng đơn vị: $2-1=1$, viết $1$. Hàng chục: $4-2=2$, viết $2$. Hàng trăm: $8-5=3$, viết $3$. Hàng nghìn: $6-3=3$, viết $3$. Hàng chục nghìn: $7-1=6$, viết $6$. Hàng trăm nghìn: $9-4=5$, viết $5$.
+
 Không có hàng nào phải nhớ.
+
+Thử lại: $563\,321+413\,521=976\,842$. Đúng.
+
+Vậy $976\,842-413\,521=563\,321$.
 
 **Đáp số.** $563\,321$.
 :::
@@ -227,8 +259,24 @@ Không có hàng nào phải nhớ.
 2. Ở mỗi hàng, thêm $1$ vào chữ số ở số trừ rồi mới trừ.
 
 ::solution
+Đặt tính sao cho các chữ số cùng hàng thẳng cột với nhau, rồi trừ lần lượt từ phải sang trái:
 $$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
-Hàng đơn vị: $10-8=2$, viết $2$ nhớ $1$. Hàng chục: $7+1=8$; $10-8=2$, viết $2$ nhớ $1$. Hàng trăm: $6+1=7$; $10-7=3$, viết $3$ nhớ $1$. Hàng nghìn: $5+1=6$; $10-6=4$, viết $4$ nhớ $1$. Hàng chục nghìn: $4+1=5$; $10-5=5$, viết $5$ nhớ $1$. Hàng trăm nghìn: $3+1=4$; $8-4=4$.
+
+Hàng đơn vị: $0$ không trừ được $8$, lấy $10-8=2$, viết $2$ nhớ $1$.
+
+Hàng chục: $7+1=8$; $0$ không trừ được $8$, lấy $10-8=2$, viết $2$ nhớ $1$.
+
+Hàng trăm: $6+1=7$; $10-7=3$, viết $3$ nhớ $1$.
+
+Hàng nghìn: $5+1=6$; $10-6=4$, viết $4$ nhớ $1$.
+
+Hàng chục nghìn: $4+1=5$; $10-5=5$, viết $5$ nhớ $1$.
+
+Hàng trăm nghìn: $3+1=4$; $8-4=4$, viết $4$.
+
+Thử lại: $454\,322+345\,678=800\,000$. Đúng.
+
+Vậy $800\,000-345\,678=454\,322$.
 
 **Đáp số.** $454\,322$.
 :::
@@ -244,9 +292,12 @@ Tìm $x$: $x+245\,780=1\,000\,000$.
 2. Đặt tính rồi trừ, sau đó thử lại.
 
 ::solution
-$x=1\,000\,000-245\,780=754\,220$.
+Trong phép cộng $x+245\,780=1\,000\,000$, $x$ là số hạng chưa biết. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:
+$$x=1\,000\,000-245\,780=754\,220$$
 
-**Thử lại.** $754\,220+245\,780=1\,000\,000$. Đúng.
+Thử lại: $754\,220+245\,780=1\,000\,000$. Đúng.
+
+Vậy $x=754\,220$.
 
 **Đáp số.** $x=754\,220$.
 :::
@@ -265,8 +316,10 @@ Hai huyện (số liệu giả định) có $156\,480$ người và $238\,765$ n
 ::solution
 Bài giải
 
-Số người của cả hai huyện là:
-$$156\,480+238\,765=395\,245\ \text{(người)}.$$
+Muốn biết cả hai huyện có bao nhiêu người, ta cộng số người của hai huyện. Số người của cả hai huyện là:
+$$156\,480+238\,765=395\,245\ \text{(người)}$$
+
+Vậy cả hai huyện có $395\,245$ người.
 
 **Đáp số.** $395\,245$ người.
 :::
@@ -285,8 +338,10 @@ Một kho (số liệu giả định) có $650\,000$ kg gạo. Kho xuất đi $2
 ::solution
 Bài giải
 
-Số ki-lô-gam gạo còn lại là:
-$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
+Muốn biết kho còn lại bao nhiêu ki-lô-gam gạo, ta lấy số gạo ban đầu trừ đi số gạo đã xuất. Số ki-lô-gam gạo còn lại là:
+$$650\,000-275\,380=374\,620\ \text{(kg)}$$
+
+Vậy kho còn lại $374\,620$ ki-lô-gam gạo.
 
 **Đáp số.** $374\,620$ kg gạo.
 :::
@@ -302,7 +357,14 @@ Em hãy nhớ lại bài làm tròn số. Tính $468\,957+376\,849$ rồi làm t
 2. Nhìn chữ số hàng chục nghìn rồi làm tròn.
 
 ::solution
-Ta có $468\,957+376\,849=845\,806$. Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $8$ và thay các chữ số bên phải bằng $0$.
+Trước hết ta tính tổng:
+$$468\,957+376\,849=845\,806$$
+
+Hàng đơn vị: $7+9=16$, viết $6$ nhớ $1$. Hàng chục: $5+4+1=10$, viết $0$ nhớ $1$. Hàng trăm: $9+8+1=18$, viết $8$ nhớ $1$. Hàng nghìn: $8+6+1=15$, viết $5$ nhớ $1$. Hàng chục nghìn: $6+7+1=14$, viết $4$ nhớ $1$. Hàng trăm nghìn: $4+3+1=8$, viết $8$.
+
+Làm tròn $845\,806$ đến hàng trăm nghìn: chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn (bên phải nó) là $4$. Vì $4<5$ nên ta giữ nguyên $8$ và thay các chữ số bên phải bằng $0$.
+
+Vậy $468\,957+376\,849=845\,806$, làm tròn đến hàng trăm nghìn là $800\,000$.
 
 **Đáp số.** $845\,806$, làm tròn là $800\,000$.
 :::
@@ -318,7 +380,17 @@ Nam tính $500\,000-237\,469=363\,531$. Em hãy dùng phép cộng để thử l
 2. Nếu tổng khác $500\,000$ thì tính lại $500\,000-237\,469$.
 
 ::solution
-Ta có $363\,531+237\,469=601\,000$, khác $500\,000$, nên kết quả của Nam sai. Tính lại: $500\,000-237\,469=262\,531$. Thử lại: $262\,531+237\,469=500\,000$. Đúng.
+Để thử lại phép trừ, ta lấy hiệu cộng với số trừ; kết quả phải bằng số bị trừ. Với kết quả của Nam:
+$$363\,531+237\,469=601\,000$$
+
+Số $601\,000$ khác số bị trừ $500\,000$, nên kết quả của Nam sai.
+
+Tính lại:
+$$500\,000-237\,469=262\,531$$
+
+Thử lại: $262\,531+237\,469=500\,000$. Đúng.
+
+Vậy Nam tính sai; kết quả đúng là $262\,531$.
 
 **Đáp số.** Nam sai; kết quả đúng là $262\,531$.
 :::
@@ -334,8 +406,14 @@ Tìm hiệu của số lớn nhất và số bé nhất có sáu chữ số mà 
 2. Đặt tính rồi trừ.
 
 ::solution
-Số lớn nhất là $987\,654$. Số bé nhất là $102\,345$ (chữ số $1$ ở đầu, rồi $0$, $2$, $3$, $4$, $5$). Ta có:
-$$987\,654-102\,345=885\,309.$$
+Số lớn nhất có sáu chữ số mà các chữ số đều khác nhau ta lấy các chữ số lớn nhất, xếp từ lớn đến bé: $987\,654$.
+
+Số bé nhất: chữ số hàng trăm nghìn phải khác $0$ nên bé nhất là $1$; các hàng còn lại lần lượt lấy các chữ số bé nhất chưa dùng là $0$, $2$, $3$, $4$, $5$. Số bé nhất là $102\,345$.
+
+Hiệu của hai số là:
+$$987\,654-102\,345=885\,309$$
+
+Vậy hiệu của số lớn nhất và số bé nhất có sáu chữ số mà các chữ số đều khác nhau là $885\,309$.
 
 **Đáp số.** $885\,309$.
 :::

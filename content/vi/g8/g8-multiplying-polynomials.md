@@ -188,11 +188,16 @@ c) $\dfrac12x(4x^2-6x+2)$.
 2. Chú ý dấu của từng tích.
 
 ::solution
-a) $3x^2(2x-5)=6x^3-15x^2$.
+Áp dụng quy tắc nhân đơn thức với đa thức: $A(B+C)=AB+AC$.
 
-b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+a) Nhân $3x^2$ với từng hạng tử trong ngoặc:
+$$3x^2(2x-5)=3x^2\cdot2x-3x^2\cdot5=6x^3-15x^2.$$
 
-c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+b) Nhân $-2xy$ với từng hạng tử trong ngoặc:
+$$\begin{aligned}-2xy(x^2-3y+1)&=-2xy\cdot x^2+(-2xy)(-3y)+(-2xy)\cdot1\\&=-2x^3y+6xy^2-2xy.\end{aligned}$$
+
+c) Nhân $\dfrac12x$ với từng hạng tử trong ngoặc:
+$$\frac12x(4x^2-6x+2)=\frac12x\cdot4x^2-\frac12x\cdot6x+\frac12x\cdot2=2x^3-3x^2+x.$$
 
 Vậy a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
 
@@ -214,9 +219,13 @@ b) $(2x-1)(x^2+x-2)$.
 2. Cộng các hạng tử đồng dạng.
 
 ::solution
-a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+Áp dụng quy tắc nhân đa thức với đa thức: nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích lại.
 
-b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+a) Ta có
+$$(x+4)(x-3)=x\cdot x+x\cdot(-3)+4\cdot x+4\cdot(-3)=x^2-3x+4x-12=x^2+x-12.$$
+
+b) Ta có
+$$\begin{aligned}(2x-1)(x^2+x-2)&=2x\cdot x^2+2x\cdot x+2x\cdot(-2)-x^2-x+2\\&=2x^3+2x^2-4x-x^2-x+2\\&=2x^3+x^2-5x+2.\end{aligned}$$
 
 Vậy a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
 
@@ -278,11 +287,16 @@ c) $(8x^3-4x^2+6x):(2x)$.
 2. Chia các lũy thừa cùng biến rồi cộng các thương.
 
 ::solution
-a) $12x^3y^2:(-4xy)=-3x^2y$.
+Áp dụng quy tắc chia đơn thức cho đơn thức (chia các hệ số, rồi chia các luỹ thừa cùng cơ số) và chia đa thức cho đơn thức (chia từng hạng tử cho đơn thức đó).
 
-b) $(15x^4y^3-10x^2y^2+5xy):(5xy)=3x^3y^2-2xy+1$.
+a) Ta có
+$$12x^3y^2:(-4xy)=\left(12:(-4)\right)\cdot\left(x^3:x\right)\cdot\left(y^2:y\right)=-3x^2y.$$
 
-c) $(8x^3-4x^2+6x):(2x)=4x^2-2x+3$.
+b) Chia từng hạng tử cho $5xy$:
+$$\begin{aligned}(15x^4y^3-10x^2y^2+5xy):(5xy)&=15x^4y^3:(5xy)-10x^2y^2:(5xy)+5xy:(5xy)\\&=3x^3y^2-2xy+1.\end{aligned}$$
+
+c) Chia từng hạng tử cho $2x$:
+$$(8x^3-4x^2+6x):(2x)=8x^3:(2x)-4x^2:(2x)+6x:(2x)=4x^2-2x+3.$$
 
 Vậy a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
 
@@ -340,9 +354,16 @@ Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật c
 2. Thay $x=2$.
 
 ::solution
-Ta có $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+Thể tích hình hộp chữ nhật bằng tích ba kích thước: $V=\text{rộng}\cdot\text{dài}\cdot\text{cao}$. Với chiều rộng $x$ cm, chiều dài $(x+2)$ cm, chiều cao $(x+3)$ cm, ta có
+$$V=x(x+2)(x+3).$$
 
-Khi $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Kiểm tra: $2\cdot4\cdot5=40$.)
+Nhân hai nhân tử sau trước: $(x+2)(x+3)=x^2+3x+2x+6=x^2+5x+6$. Do đó
+$$V=x\left(x^2+5x+6\right)=x^3+5x^2+6x\ (\text{cm}^3).$$
+
+Thay $x=2$ vào đa thức, ta được
+$$V=2^3+5\cdot2^2+6\cdot2=8+20+12=40\ (\text{cm}^3).$$
+
+Kiểm tra: khi $x=2$ các kích thước là $2$ cm, $4$ cm, $5$ cm và $2\cdot4\cdot5=40$.
 
 Vậy $V=x^3+5x^2+6x\ (\text{cm}^3)$, và bằng $40\ \text{cm}^3$ khi $x=2$.
 

@@ -226,9 +226,19 @@ b) Find $AG$ and $GM$.
 2. Multiply $15$ by $\dfrac23$, then by $\dfrac13$.
 
 ::solution
-a) $\dfrac{AG}{AM}=\dfrac23$.
+The centroid $G$ of triangle $ABC$ is the point where the three medians meet, and $G$ lies on the median $AM$ so that $AG=\dfrac23AM$.
 
-b) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+a) By the property of the centroid,
+$$\frac{AG}{AM}=\frac23.$$
+
+b) Substituting $AM=15$ cm into $AG=\dfrac23AM$, we get
+$$AG=\frac23\cdot15=10\ (\text{cm}).$$
+
+Since $G$ lies between $A$ and $M$,
+$$GM=AM-AG=15-10=5\ (\text{cm}),$$
+which also equals $\dfrac13\cdot15=5$ (cm).
+
+So $\dfrac{AG}{AM}=\dfrac23$, $AG=10$ cm and $GM=5$ cm.
 
 **Answer.** a) $\dfrac23$; b) $AG=10$ cm, $GM=5$ cm.
 :::
@@ -244,9 +254,17 @@ Triangle $ABC$ has centroid $G$ and median $BN$. Given $BG=14$ cm, find $GN$ and
 2. Add $BG$ and $GN$.
 
 ::solution
-$GN=BG\div2=14\div2=7$ (cm). $BN=14+7=21$ (cm).
+Since $G$ is the centroid and $BN$ is a median, $BG=\dfrac23BN$, that is $BG=2GN$.
 
-**Check.** $BG=\dfrac23\cdot21=14$.
+Substituting $BG=14$ cm, we have
+$$GN=BG\div2=14\div2=7\ (\text{cm}).$$
+
+Since $G$ lies between $B$ and $N$,
+$$BN=BG+GN=14+7=21\ (\text{cm}).$$
+
+Check: $\dfrac23\cdot21=14$ (cm), which equals $BG$.
+
+So $GN=7$ cm and $BN=21$ cm.
 
 **Answer.** $GN=7$ cm, $BN=21$ cm.
 :::
@@ -266,7 +284,15 @@ b) What is the distance from $I$ to side $CA$?
 2. Compare the three distances.
 
 ::solution
-Since $I$ is where the three angle bisectors meet, $I$ is equidistant from the three sides. So the distances from $I$ to $BC$ and to $CA$ are both $4$ cm.
+The point $I$ where the three angle bisectors of triangle $ABC$ meet is equidistant from the three sides of the triangle. That is, the distances from $I$ to $AB$, $BC$, $CA$ are equal.
+
+By the hypothesis, the distance from $I$ to side $AB$ is $4$ cm.
+
+a) The distance from $I$ to side $BC$ equals the distance from $I$ to $AB$, that is $4$ cm.
+
+b) The distance from $I$ to side $CA$ is also $4$ cm.
+
+So the distances from $I$ to $BC$ and to $CA$ are both $4$ cm.
 
 **Answer.** a) $4$ cm; b) $4$ cm.
 :::
@@ -289,11 +315,19 @@ c) Find $\widehat{BIC}$.
 3. Use the angle sum of triangle $IBC$.
 
 ::solution
-a) $\widehat A=180^\circ-64^\circ-56^\circ=60^\circ$.
+a) In triangle $ABC$ the three angles add up to $180^\circ$, so
+$$\widehat A=180^\circ-\widehat B-\widehat C=180^\circ-64^\circ-56^\circ=60^\circ.$$
 
-b) $\widehat{IBC}=64^\circ\div2=32^\circ$, $\widehat{ICB}=56^\circ\div2=28^\circ$.
+b) Since $BI$ bisects angle $B$,
+$$\widehat{IBC}=\frac{\widehat B}{2}=64^\circ\div2=32^\circ.$$
 
-c) $\widehat{BIC}=180^\circ-32^\circ-28^\circ=120^\circ$.
+Since $CI$ bisects angle $C$,
+$$\widehat{ICB}=\frac{\widehat C}{2}=56^\circ\div2=28^\circ.$$
+
+c) In triangle $BIC$ the three angles add up to $180^\circ$, so
+$$\widehat{BIC}=180^\circ-\widehat{IBC}-\widehat{ICB}=180^\circ-32^\circ-28^\circ=120^\circ.$$
+
+So $\widehat A=60^\circ$; $\widehat{IBC}=32^\circ$, $\widehat{ICB}=28^\circ$; $\widehat{BIC}=120^\circ$.
 
 **Answer.** a) $60^\circ$; b) $32^\circ$ and $28^\circ$; c) $120^\circ$.
 :::
@@ -313,9 +347,15 @@ b) Finding the point where one fingertip can hold a triangle of card level.
 2. Which task needs the centroid?
 
 ::solution
-a) Use the three angle bisectors. Their meeting point $I$ is equidistant from the three sides of the plot.
+Recall that the three angle bisectors of a triangle meet at a point equidistant from the three sides, and the three medians meet at the centroid, the balancing point of the triangle.
 
-b) Use the three medians. They meet at the centroid, where the card balances.
+a) The well must be equidistant from the three sides of the triangular plot. The meeting point $I$ of the three angle bisectors has this property.
+
+So we use the three angle bisectors; the well is placed at their meeting point $I$.
+
+b) For the triangle of card to balance on one finger, it must be held exactly at the centroid. The centroid is the meeting point of the three medians.
+
+So we use the three medians; the fingertip is placed at their meeting point.
 
 **Answer.** a) the angle bisectors; b) the medians.
 :::
@@ -335,9 +375,16 @@ Binh's solution: "$AG=\dfrac13AM=\dfrac13\cdot18=6$ cm."
 2. Redo it with the correct fraction.
 
 ::solution
-Binh used $\dfrac13$ by mistake. The $6$ cm he found is really $GM$, the part from $G$ to the midpoint $M$. Done correctly: $AG=\dfrac23\cdot18=12$ (cm).
+Binh's mistake: he used the ratio $\dfrac13$ by mistake. By the property of the centroid, $AG=\dfrac23AM$, not $\dfrac13AM$.
 
-**Check.** $AG=2GM=2\cdot6=12$.
+The $6$ cm he found is really $GM=\dfrac13AM$, the part from $G$ to the midpoint $M$.
+
+Done correctly: since $G$ is the centroid and $AM$ is a median,
+$$AG=\frac23AM=\frac23\cdot18=12\ (\text{cm}).$$
+
+Check: $GM=\dfrac13\cdot18=6$ (cm) and $AG=2GM=2\cdot6=12$ (cm).
+
+So $AG=12$ cm.
 
 **Answer.** $AG=12$ cm.
 :::
@@ -357,9 +404,18 @@ b) Find the distance from $G$ to $BC$.
 2. Explain why $GM$ is the distance from $G$ to $BC$.
 
 ::solution
-a) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+Triangle $ABC$ is isosceles with apex $A$, and $M$ is the midpoint of $BC$, so $AM$ is a median; the centroid $G$ lies on $AM$.
 
-b) Triangle $ABC$ is isosceles with apex $A$, so the median $AM$ is perpendicular to $BC$. Therefore the distance from $G$ to $BC$ is $GM=5$ cm.
+a) By the property of the centroid, with $AM=15$ cm,
+$$AG=\frac23\cdot15=10\ (\text{cm}).$$
+
+Since $G$ lies between $A$ and $M$, $GM=AM-AG=15-10=5$ (cm), which also equals $\dfrac13\cdot15=5$ (cm).
+
+b) Triangle $ABC$ is isosceles with apex $A$, so the median $AM$ is also an altitude, that is $AM\perp BC$ at $M$.
+
+Since $G$ lies on $AM$, $GM\perp BC$ at $M$. Therefore the distance from $G$ to $BC$ is the length $GM$, which is $5$ cm.
+
+So $AG=10$ cm, $GM=5$ cm and the distance from $G$ to $BC$ is $5$ cm.
 
 **Answer.** a) $AG=10$ cm, $GM=5$ cm; b) $5$ cm.
 :::
@@ -381,11 +437,21 @@ c) $8$ cm, $8$ cm, $15$ cm.
 2. Compare with the longest side.
 
 ::solution
-a) $5+7=12>11$: yes.
+Three lengths are the sides of a triangle if and only if the sum of the two smaller lengths is greater than the largest length (the triangle inequality).
 
-b) $4+9=13$, which is not greater than $13$: no.
+a) The two smaller lengths are $5$ cm and $7$ cm, and the largest is $11$ cm. We have $5+7=12>11$.
 
-c) $8+8=16>15$: yes.
+So these lengths can be the sides of a triangle: yes.
+
+b) The two smaller lengths are $4$ cm and $9$ cm, and the largest is $13$ cm. We have $4+9=13$, which is not greater than $13$.
+
+So these lengths cannot be the sides of a triangle: no.
+
+c) The two smaller lengths are $8$ cm and $8$ cm, and the largest is $15$ cm. We have $8+8=16>15$.
+
+So these lengths can be the sides of a triangle: yes.
+
+So the sets in a) and c) can be the sides of a triangle, and the set in b) cannot.
 
 **Answer.** a) yes; b) no; c) yes.
 :::
@@ -408,11 +474,21 @@ c) Can $BC$ be $3$ cm?
 3. Compare $3$ with the range you found.
 
 ::solution
-a) $BG=\dfrac23\cdot18=12$ (cm), $CG=\dfrac23\cdot12=8$ (cm).
+The two medians $BN$ and $CP$ meet at $G$, so $G$ is the centroid of triangle $ABC$.
 
-b) $BG+CG=20$ and $BG-CG=4$, so $4<BC<20$.
+a) By the property of the centroid, $BG=\dfrac23BN$ and $CG=\dfrac23CP$. Hence
+$$BG=\frac23\cdot18=12\ (\text{cm}),\qquad CG=\frac23\cdot12=8\ (\text{cm}).$$
 
-c) No, because $3<4$.
+b) Consider triangle $GBC$ with $BG=12$ cm and $CG=8$ cm. By the triangle inequality,
+$$BG-CG<BC<BG+CG.$$
+
+Substituting, we get $12-8<BC<12+8$, that is $4<BC<20$.
+
+So $4$ cm $<BC<20$ cm.
+
+c) If $BC=3$ cm then $BC<4$ cm, which does not satisfy $4<BC<20$.
+
+So $BC$ cannot be $3$ cm.
 
 **Answer.** a) $BG=12$ cm, $CG=8$ cm; b) $4$ cm $<BC<20$ cm; c) no.
 :::

@@ -130,8 +130,12 @@ $18$ is how many times as large as $6$?
 1. Write the division $18\div6$.
 
 ::solution
-$$18\div6=3.$$
-Check: $6\times 3=18$.
+To find how many times as large as $6$ the number $18$ is, we divide $18$ by $6$:
+$$18\div6=3$$
+
+Check: $6\times 3=18$. The result is correct.
+
+So $18$ is $3$ times as large as $6$.
 
 **Answer.** $3$ times.
 :::
@@ -146,8 +150,12 @@ $56$ is how many times as large as $8$?
 1. Which number multiplied by $8$ gives $56$?
 
 ::solution
-$$56\div8=7.$$
-Check: $8\times 7=56$.
+To find how many times as large as $8$ the number $56$ is, we divide $56$ by $8$:
+$$56\div8=7$$
+
+Check: $8\times 7=56$. The result is correct.
+
+So $56$ is $7$ times as large as $8$.
 
 **Answer.** $7$ times.
 :::
@@ -162,8 +170,12 @@ $40$ is how many times as large as $5$?
 1. Write the division $40\div5$, then check.
 
 ::solution
-$$40\div5=8.$$
-Check: $5\times 8=40$.
+To find how many times as large as $5$ the number $40$ is, we divide $40$ by $5$:
+$$40\div5=8$$
+
+Check: $5\times 8=40$. The result is correct.
+
+So $40$ is $8$ times as large as $5$.
 
 **Answer.** $8$ times.
 :::
@@ -179,8 +191,13 @@ Mum is $36$ years old and Lan is $9$. How many times as old as Lan is Mum?
 2. Divide the larger number by the smaller number.
 
 ::solution
-The number of times Mum's age is as large as Lan's is:
-$$36\div9=4\ \text{(times)}.$$
+Solution
+
+To find how many times as old as Lan Mum is, we divide Mum's age by Lan's age. The number of times Mum's age is as large as Lan's is:
+$$36\div9=4\ \text{(times)}$$
+
+So Mum is $4$ times as old as Lan.
+
 **Answer.** $4$ times.
 :::
 
@@ -195,10 +212,16 @@ A small tank holds $7$ l of water and a large tank holds $28$ l of water. How ma
 2. Work out the division $28\div7$.
 
 ::solution
-The number of litres more the large tank holds is:
-$$28-7=21\ \text{(l)}.$$
-The number of times as much the large tank holds is:
-$$28\div7=4\ \text{(times)}.$$
+Solution
+
+The number of litres more water the large tank holds is:
+$$28-7=21\ \text{(l)}$$
+
+To find how many times as much the large tank holds, we divide $28$ by $7$. The number of times as much the large tank holds is:
+$$28\div7=4\ \text{(times)}$$
+
+So the large tank holds $21$ l more water than the small tank and $4$ times as much.
+
 **Answer.** $21$ l more; $4$ times as much.
 :::
 
@@ -213,10 +236,16 @@ Ha has $5$ storybooks. Lan has $15$ more storybooks than Ha. How many times as m
 2. Divide Lan's number of books by Ha's.
 
 ::solution
-The number of storybooks Lan has is:
-$$5+15=20\ \text{(books)}.$$
+Solution
+
+Lan has $15$ more storybooks than Ha, so the number of storybooks Lan has is:
+$$5+15=20\ \text{(books)}$$
+
 The number of times Lan's books are as many as Ha's is:
-$$20\div5=4\ \text{(times)}.$$
+$$20\div5=4\ \text{(times)}$$
+
+So Lan has $4$ times as many storybooks as Ha.
+
 **Answer.** $4$ times.
 :::
 
@@ -230,9 +259,14 @@ Remember the lesson on making a number several times larger. A number made $6$ t
 1. Divide $54$ by $6$.
 
 ::solution
-The number is:
-$$54\div6=9.$$
-Check: $9\times 6=54$. Correct.
+Solution
+
+A number made $6$ times larger gives $54$, which means the number times $6$ equals $54$. So to find the number we divide $54$ by $6$. The number is:
+$$54\div6=9$$
+
+Check: $9\times 6=54$. The result is correct.
+
+So the number is $9$.
 
 **Answer.** $9$.
 :::
@@ -248,10 +282,19 @@ This year Mum is $28$ years old and her child is $4$. In $4$ years' time, how ma
 2. Divide Mum's age by her child's age.
 
 ::solution
-After $4$ years, Mum's age is $28+4=32$ (years) and her child's age is $4+4=8$ (years).
+Solution
+
+In $4$ years' time, Mum's age will be:
+$$28+4=32\ \text{(years)}$$
+
+In $4$ years' time, her child's age will be:
+$$4+4=8\ \text{(years)}$$
 
 The number of times Mum's age is as large as her child's is:
-$$32\div8=4\ \text{(times)}.$$
+$$32\div8=4\ \text{(times)}$$
+
+So in $4$ years' time Mum will be $4$ times as old as her child.
+
 **Answer.** $4$ times.
 :::
 

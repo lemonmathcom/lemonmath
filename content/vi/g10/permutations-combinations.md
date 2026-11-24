@@ -183,7 +183,15 @@ Tính $7!$, $A_8^3$ và $C_9^2$.
 2. Với $C_9^2$, tính $A_9^2$ rồi chia cho $2!$.
 
 ::solution
-$7!=5040$; $A_8^3=8\cdot7\cdot6=336$; $C_9^2=\dfrac{9\cdot8}{2}=36$.
+Áp dụng các công thức $n!=n(n-1)\cdots2\cdot1$, $A_n^k=\dfrac{n!}{(n-k)!}$ và $C_n^k=\dfrac{n!}{k!\,(n-k)!}$.
+
+Ta có $7!=7\cdot6\cdot5\cdot4\cdot3\cdot2\cdot1=5040$.
+
+Ta có $A_8^3=\dfrac{8!}{5!}=8\cdot7\cdot6=336$.
+
+Ta có $C_9^2=\dfrac{9!}{2!\,7!}=\dfrac{9\cdot8}{2\cdot1}=36$.
+
+Vậy $7!=5040$, $A_8^3=336$ và $C_9^2=36$.
 
 **Đáp số.** $5040$; $336$; $36$.
 :::
@@ -199,7 +207,16 @@ Tìm số tự nhiên $n\ge2$ thoả mãn $A_n^2=56$.
 2. Giải phương trình bậc hai và chọn nghiệm là số tự nhiên.
 
 ::solution
-$n(n-1)=56\iff n^2-n-56=0\iff(n-8)(n+7)=0$. Vì $n\ge2$ nên $n=8$.
+Với $n\ge2$, ta có $A_n^2=\dfrac{n!}{(n-2)!}=n(n-1)$. Phương trình $A_n^2=56$ trở thành
+$$\begin{aligned}n(n-1)&=56\\ n^2-n-56&=0\\ (n-8)(n+7)&=0.\end{aligned}$$
+
+Suy ra $n=8$ hoặc $n=-7$.
+
+Vì $n\ge2$ nên loại $n=-7$ và nhận $n=8$ (thoả mãn điều kiện).
+
+Kiểm tra: $A_8^2=8\cdot7=56$.
+
+Vậy $n=8$.
 
 **Đáp số.** $n=8$.
 :::
@@ -215,7 +232,14 @@ Từ các chữ số $1, 2, 3, 4, 5, 6$ lập được bao nhiêu số có bốn
 2. Tính $A_n^k$.
 
 ::solution
-Mỗi số là một chỉnh hợp chập $4$ của $6$ chữ số (không có chữ số $0$ nên không lo chữ số đầu): $A_6^4=6\cdot5\cdot4\cdot3=360$.
+Mỗi số có bốn chữ số khác nhau lập từ $6$ chữ số $1, 2, 3, 4, 5, 6$ tương ứng với một cách chọn $4$ chữ số trong $6$ chữ số rồi xếp chúng theo thứ tự (hai số khác nhau nếu các chữ số hoặc thứ tự của chúng khác nhau). Vì vậy mỗi số là một chỉnh hợp chập $4$ của $6$ chữ số.
+
+Trong các chữ số đã cho không có chữ số $0$ nên chữ số đầu tiên luôn khác $0$; mọi chỉnh hợp đều cho một số có bốn chữ số.
+
+Số các số cần tìm là
+$$A_6^4=\frac{6!}{2!}=6\cdot5\cdot4\cdot3=360.$$
+
+Vậy lập được $360$ số có bốn chữ số khác nhau.
 
 **Đáp số.** $360$.
 :::
@@ -232,7 +256,15 @@ Một nhóm có $5$ bạn nam và $4$ bạn nữ. Có bao nhiêu cách chọn $3
 3. Lấy hiệu.
 
 ::solution
-Tất cả: $C_9^3=84$. Toàn nam: $C_5^3=10$. Vậy có $84-10=74$ cách.
+Việc chọn $3$ bạn đi dự hội nghị không phân biệt thứ tự nên ta dùng tổ hợp. Ta đếm gián tiếp: lấy tổng số cách chọn trừ đi số cách chọn không thoả mãn (không có bạn nữ nào, tức là toàn nam).
+
+Số cách chọn $3$ bạn bất kì trong $9$ bạn là $C_9^3=\dfrac{9\cdot8\cdot7}{3\cdot2\cdot1}=84$.
+
+Số cách chọn $3$ bạn toàn nam (từ $5$ bạn nam) là $C_5^3=\dfrac{5\cdot4\cdot3}{3\cdot2\cdot1}=10$.
+
+Số cách chọn có ít nhất một bạn nữ là $84-10=74$.
+
+Vậy có $74$ cách chọn.
 
 **Đáp số.** $74$.
 :::
@@ -248,7 +280,12 @@ Một giải bóng đá có $8$ đội, đá vòng tròn một lượt (hai đ�
 2. Tính $C_8^2$.
 
 ::solution
-Mỗi trận là một tổ hợp chập $2$ của $8$ đội: $C_8^2=\dfrac{8\cdot7}{2}=28$.
+Mỗi trận đấu là một cặp gồm hai đội trong $8$ đội, và hai đội bất kì gặp nhau đúng một lần. Cặp $\{\text{đội } X, \text{đội } Y\}$ không phân biệt thứ tự nên mỗi trận là một tổ hợp chập $2$ của $8$ đội.
+
+Số trận đấu là
+$$C_8^2=\frac{8\cdot7}{2}=28.$$
+
+Vậy giải đấu có $28$ trận.
 
 **Đáp số.** $28$.
 :::
@@ -269,13 +306,15 @@ d) Có $45$ cách chọn $3$ bạn đi trực nhật, trong đó có bạn An.
 2. Với d), An đã được chọn, chỉ cần chọn thêm $2$ bạn.
 
 ::solution
-a) **Đúng.** Ba chức vụ khác nhau: $A_{10}^3=10\cdot9\cdot8=720$.
+a) **Đúng.** Ba chức vụ tổ trưởng, tổ phó, thư kí là khác nhau nên thứ tự quan trọng; ta dùng chỉnh hợp: $A_{10}^3=10\cdot9\cdot8=720$.
 
-b) **Sai.** Trực nhật không có thứ tự: $C_{10}^3=120$.
+b) **Sai.** Trực nhật không phân biệt thứ tự nên ta dùng tổ hợp: $C_{10}^3=\dfrac{10\cdot9\cdot8}{3\cdot2\cdot1}=120$. Vì $120\ne720$ nên mệnh đề sai.
 
-c) **Đúng.** Theo tính đối xứng, cả hai bằng $120$.
+c) **Đúng.** Theo tính chất $C_n^k=C_n^{n-k}$, ta có $C_{10}^3=C_{10}^7$. Cũng có thể kiểm tra: $C_{10}^3=120$ và $C_{10}^7=\dfrac{10!}{7!\,3!}=120$.
 
-d) **Sai.** Chọn thêm $2$ bạn trong $9$ bạn còn lại: $C_9^2=36$.
+d) **Sai.** Bạn An đã được chọn, ta chọn thêm $2$ bạn trong $9$ bạn còn lại: $C_9^2=\dfrac{9\cdot8}{2}=36$. Vì $36\ne45$ nên mệnh đề sai.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -291,7 +330,14 @@ Xếp $3$ bạn nam và $3$ bạn nữ ngồi vào một hàng $6$ ghế sao cho
 2. Với mỗi kiểu, xếp $3$ nam vào $3$ ghế của nam và $3$ nữ vào $3$ ghế của nữ.
 
 ::solution
-Chọn kiểu xen kẽ: $2$ cách. Xếp nam: $3!=6$ cách, xếp nữ: $3!=6$ cách. Tổng: $2\cdot6\cdot6=72$.
+Vì nam và nữ ngồi xen kẽ trên hàng $6$ ghế nên có hai kiểu xếp: nam ngồi ở các ghế số $1, 3, 5$ và nữ ngồi ở các ghế số $2, 4, 6$; hoặc ngược lại. Vậy có $2$ cách chọn kiểu xen kẽ.
+
+Với mỗi kiểu, xếp $3$ bạn nam vào $3$ ghế của nam có $3!=6$ cách, và xếp $3$ bạn nữ vào $3$ ghế của nữ có $3!=6$ cách.
+
+Theo quy tắc nhân, số cách xếp là
+$$2\cdot3!\cdot3!=2\cdot6\cdot6=72.$$
+
+Vậy có $72$ cách xếp.
 
 **Đáp số.** $72$.
 :::
@@ -307,7 +353,13 @@ Trên một đường tròn có $9$ điểm phân biệt. Có bao nhiêu tam gi�
 2. Đếm số tập $4$ điểm.
 
 ::solution
-Tam giác: $C_9^3=84$. Tứ giác: $C_9^4=126$ (bốn điểm trên đường tròn, nối theo thứ tự trên đường tròn, cho đúng một tứ giác lồi).
+Ba điểm phân biệt bất kì trong $9$ điểm trên đường tròn không thẳng hàng (một đường thẳng cắt đường tròn tại nhiều nhất hai điểm), nên mỗi cách chọn $3$ điểm cho đúng một tam giác. Số tam giác là
+$$C_9^3=\frac{9\cdot8\cdot7}{3\cdot2\cdot1}=84.$$
+
+Với mỗi cách chọn $4$ điểm trên đường tròn, nối các điểm theo thứ tự trên đường tròn ta được đúng một tứ giác lồi. Số tứ giác là
+$$C_9^4=\frac{9\cdot8\cdot7\cdot6}{4\cdot3\cdot2\cdot1}=126.$$
+
+Vậy có $84$ tam giác và $126$ tứ giác có các đỉnh là các điểm đã cho.
 
 **Đáp số.** $84$ tam giác; $126$ tứ giác.
 :::
@@ -324,7 +376,16 @@ Tam giác: $C_9^3=84$. Tứ giác: $C_9^4=126$ (bốn điểm trên đường tr
 3. Nhân hai kết quả.
 
 ::solution
-Phần chữ cái: $A_5^2=20$. Phần chữ số: $A_{10}^3=720$. Theo quy tắc nhân: $20\cdot720=14\,400$.
+Mỗi mã gồm hai phần: phần chữ cái rồi đến phần chữ số. Ta đếm từng phần rồi dùng quy tắc nhân.
+
+Phần chữ cái gồm $2$ chữ cái khác nhau chọn trong $A, B, C, D, E$ và có thứ tự, nên có $A_5^2=5\cdot4=20$ cách.
+
+Phần chữ số gồm $3$ chữ số khác nhau chọn trong $10$ chữ số $0, 1, \ldots, 9$ và có thứ tự, nên có $A_{10}^3=10\cdot9\cdot8=720$ cách.
+
+Theo quy tắc nhân, số mã là
+$$20\cdot720=14\,400.$$
+
+Vậy có $14\,400$ mã như vậy.
 
 **Đáp số.** $14\,400$ mã.
 :::
@@ -341,7 +402,15 @@ Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số có bốn
 3. Cộng hai trường hợp.
 
 ::solution
-Tận cùng $0$: $A_5^3=60$. Tận cùng $5$: chữ số đầu $4$ cách, hai chữ số giữa $A_4^2=12$ cách, được $48$. Tổng: $60+48=108$.
+Số có bốn chữ số khác nhau chia hết cho $5$ có chữ số tận cùng là $0$ hoặc $5$. Ta chia thành hai trường hợp (không có số nào thuộc cả hai trường hợp).
+
+Trường hợp 1: chữ số tận cùng là $0$. Ba chữ số còn lại được chọn và xếp có thứ tự từ $5$ chữ số $1, 2, 3, 4, 5$ nên có $A_5^3=5\cdot4\cdot3=60$ số.
+
+Trường hợp 2: chữ số tận cùng là $5$. Chữ số đầu tiên phải khác $0$ và khác $5$ nên có $4$ cách chọn (từ $1, 2, 3, 4$). Hai chữ số ở giữa được chọn và xếp có thứ tự từ $4$ chữ số còn lại (kể cả chữ số $0$) nên có $A_4^2=4\cdot3=12$ cách. Số các số là $4\cdot12=48$.
+
+Theo quy tắc cộng, tổng số các số là $60+48=108$.
+
+Vậy lập được $108$ số thoả mãn yêu cầu.
 
 **Đáp số.** $108$.
 :::

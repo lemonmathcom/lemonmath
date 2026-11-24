@@ -181,7 +181,17 @@ Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AB=3$, $
 2. Tính $\tan\widehat{SCA}=\dfrac{SA}{AC}$.
 
 ::solution
-$AC=\sqrt{9+16}=5$. Vì $SA\perp(ABCD)$ nên $\widehat{(SC,(ABCD))}=\widehat{SCA}$ và $\tan\widehat{SCA}=\dfrac55=1$, suy ra $\widehat{SCA}=45^\circ$.
+Đáy $ABCD$ là hình chữ nhật nên tam giác $ABC$ vuông tại $B$. Theo định lí Pythagore,
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{3^2+4^2}=\sqrt{25}=5.$$
+
+Vì $SA\perp(ABCD)$ nên $A$ là hình chiếu của $S$ lên $(ABCD)$, và $C$ nằm trong $(ABCD)$. Do đó $AC$ là hình chiếu của $SC$ lên $(ABCD)$, và
+$$\widehat{(SC,(ABCD))}=\widehat{SCA}.$$
+
+Tam giác $SAC$ vuông tại $A$ (vì $SA\perp AC$) nên
+$$\tan\widehat{SCA}=\frac{SA}{AC}=\frac55=1.$$
+Suy ra $\widehat{SCA}=45^\circ$.
+
+Vậy góc giữa $SC$ và $(ABCD)$ bằng $45^\circ$ (tức $45{,}0^\circ$ khi làm tròn đến hàng phần mười).
 
 **Đáp số.** $45^\circ$.
 :::
@@ -197,7 +207,15 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc giữa $A'C$ và
 2. Tính $\tan\widehat{A'CA}$.
 
 ::solution
-Vì $AA'\perp(ABCD)$ nên $AC$ là hình chiếu của $A'C$, góc cần tìm là $\widehat{A'CA}$. Ta có $AC=a\sqrt2$, $AA'=a$ nên $\tan\widehat{A'CA}=\dfrac1{\sqrt2}$, suy ra $\widehat{A'CA}\approx35{,}3^\circ$.
+Vì $AA'\perp(ABCD)$ nên $A$ là hình chiếu của $A'$ lên $(ABCD)$, còn $C$ nằm trong $(ABCD)$. Do đó $AC$ là hình chiếu của $A'C$ lên $(ABCD)$, và góc cần tìm là $\widehat{A'CA}$.
+
+$ABCD$ là hình vuông cạnh $a$ nên $AC=a\sqrt2$. Ngoài ra $AA'=a$.
+
+Tam giác $A'AC$ vuông tại $A$ nên
+$$\tan\widehat{A'CA}=\frac{AA'}{AC}=\frac{a}{a\sqrt2}=\frac1{\sqrt2}.$$
+Dùng máy tính, $\widehat{A'CA}\approx35{,}26^\circ\approx35{,}3^\circ$ (làm tròn đến hàng phần mười).
+
+Vậy góc giữa $A'C$ và $(ABCD)$ khoảng $35{,}3^\circ$.
 
 **Đáp số.** Khoảng $35{,}3^\circ$.
 :::
@@ -213,7 +231,20 @@ Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $A
 2. Tính $AC$ rồi $\tan\widehat{SCA}$.
 
 ::solution
-$\tan\widehat{SBA}=\dfrac{SA}{AB}=\sqrt2$, nên $\widehat{SBA}\approx54{,}7^\circ$. Có $AC=a\sqrt2$ nên $\tan\widehat{SCA}=\dfrac{a\sqrt2}{a\sqrt2}=1$, suy ra $\widehat{SCA}=45^\circ$.
+Vì $SA\perp(ABC)$ nên $A$ là hình chiếu của $S$ lên $(ABC)$. Do đó $AB$ là hình chiếu của $SB$ và $AC$ là hình chiếu của $SC$ lên $(ABC)$. Suy ra
+$$\widehat{(SB,(ABC))}=\widehat{SBA},\qquad \widehat{(SC,(ABC))}=\widehat{SCA}.$$
+
+Góc giữa $SB$ và $(ABC)$. Tam giác $SAB$ vuông tại $A$ nên
+$$\tan\widehat{SBA}=\frac{SA}{AB}=\frac{a\sqrt2}{a}=\sqrt2.$$
+Dùng máy tính, $\widehat{SBA}\approx54{,}7^\circ$.
+
+Góc giữa $SC$ và $(ABC)$. Tam giác $ABC$ vuông tại $B$ nên
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{a^2+a^2}=a\sqrt2.$$
+Tam giác $SAC$ vuông tại $A$ nên
+$$\tan\widehat{SCA}=\frac{SA}{AC}=\frac{a\sqrt2}{a\sqrt2}=1,$$
+suy ra $\widehat{SCA}=45^\circ$.
+
+Vậy góc giữa $SB$ và $(ABC)$ khoảng $54{,}7^\circ$, góc giữa $SC$ và $(ABC)$ bằng $45^\circ$.
 
 **Đáp số.** $\approx54{,}7^\circ$ và $45^\circ$.
 :::
@@ -237,13 +268,17 @@ d) Nếu $d$ cắt $(P)$ mà không vuông góc thì góc giữa $d$ và $(P)$ l
 2. Nhớ giới hạn của góc.
 
 ::solution
-a) **Đúng** theo định nghĩa.
+Góc giữa đường thẳng $d$ và mặt phẳng $(P)$ được quy ước như sau: nếu $d\perp(P)$ thì góc bằng $90^\circ$; nếu $d\parallel(P)$ hoặc $d\subset(P)$ thì góc bằng $0^\circ$; nếu $d$ cắt $(P)$ và không vuông góc với $(P)$ thì góc bằng góc giữa $d$ và hình chiếu của $d$ lên $(P)$.
 
-b) **Sai**: khi $d\parallel(P)$ góc bằng $0^\circ$.
+a) **Đúng.** Theo định nghĩa, khi $d\perp(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
 
-c) **Sai**: góc luôn không vượt quá $90^\circ$.
+b) **Sai.** Khi $d\parallel(P)$, góc giữa $d$ và $(P)$ bằng $0^\circ$, không phải $90^\circ$.
 
-d) **Đúng** theo định nghĩa.
+c) **Sai.** Góc giữa đường thẳng và mặt phẳng luôn thuộc đoạn $[0^\circ; 90^\circ]$, nên không thể bằng $120^\circ$.
+
+d) **Đúng.** Theo định nghĩa, nếu $d$ cắt $(P)$ mà không vuông góc với $(P)$ thì góc giữa $d$ và $(P)$ là góc giữa $d$ và hình chiếu của nó lên $(P)$.
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -259,7 +294,15 @@ Giả sử một chiếc thang dài $5$ m dựa vào bức tường thẳng đ�
 2. Dùng $\cos$ của góc cần tìm.
 
 ::solution
-$\cos\varphi=\dfrac25=0{,}4\Rightarrow\varphi\approx66{,}4^\circ$.
+Gọi $A$ là điểm trên tường mà đầu thang chạm vào, $B$ là chân thang trên nền ngang và $H$ là chân tường ngay dưới $A$. Khi đó $AH\perp$ mặt đất, $AB=5$ m và $BH=2$ m.
+
+Vì $AH$ vuông góc với mặt đất nên $BH$ là hình chiếu của thang $AB$ lên mặt đất. Do đó góc giữa thang và mặt đất là $\varphi=\widehat{ABH}$.
+
+Tam giác $ABH$ vuông tại $H$ nên
+$$\cos\varphi=\frac{BH}{AB}=\frac25=0{,}4.$$
+Dùng máy tính, $\varphi\approx66{,}42^\circ\approx66{,}4^\circ$ (làm tròn đến hàng phần mười).
+
+Vậy góc giữa thang và mặt đất khoảng $66{,}4^\circ$.
 
 **Đáp số.** Khoảng $66{,}4^\circ$.
 :::
@@ -275,7 +318,16 @@ Giả sử một cột $SO$ cao $6$ m dựng vuông góc với mặt đất ph�
 2. Tính $\sin\widehat{SBO}=\dfrac{SO}{SB}$.
 
 ::solution
-$SB=\sqrt{36+64}=10$ m. $\sin\widehat{SBO}=\dfrac6{10}=0{,}6\Rightarrow\widehat{SBO}\approx36{,}9^\circ$.
+Cột $SO$ vuông góc với mặt đất nên tam giác $SOB$ vuông tại $O$, với $SO=6$ m và $OB=8$ m.
+
+Theo định lí Pythagore, độ dài dây neo là
+$$SB=\sqrt{SO^2+OB^2}=\sqrt{36+64}=\sqrt{100}=10\ \text{m}.$$
+
+Vì $SO\perp$ mặt đất nên $OB$ là hình chiếu của $SB$ lên mặt đất. Do đó góc giữa dây neo và mặt đất là $\widehat{SBO}$. Trong tam giác $SOB$ vuông tại $O$,
+$$\sin\widehat{SBO}=\frac{SO}{SB}=\frac6{10}=0{,}6.$$
+Dùng máy tính, $\widehat{SBO}\approx36{,}87^\circ\approx36{,}9^\circ$ (làm tròn đến hàng phần mười).
+
+Vậy dây neo dài $10$ m và tạo với mặt đất một góc khoảng $36{,}9^\circ$.
 
 **Đáp số.** Dây dài $10$ m, góc khoảng $36{,}9^\circ$.
 :::
@@ -291,7 +343,16 @@ Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $a$ và cạn
 2. Tính $\cos\widehat{SAO}=\dfrac{OA}{SA}$.
 
 ::solution
-$SO\perp(ABCD)$ nên hình chiếu của $SA$ là $OA$ và $OA=\dfrac{a\sqrt2}{2}$. Khi đó $\cos\widehat{SAO}=\dfrac{OA}{SA}=\dfrac{\sqrt2}{2}$, suy ra $\widehat{SAO}=45^\circ$.
+$S.ABCD$ là hình chóp tứ giác đều với $O$ là tâm của đáy nên $SO\perp(ABCD)$. Do đó $O$ là hình chiếu của $S$ lên $(ABCD)$, và $OA$ là hình chiếu của $SA$ lên $(ABCD)$. Suy ra
+$$\widehat{(SA,(ABCD))}=\widehat{SAO}.$$
+
+Đáy $ABCD$ là hình vuông cạnh $a$ nên $AC=a\sqrt2$. Vì $O$ là trung điểm của $AC$ nên $OA=\dfrac{a\sqrt2}{2}$.
+
+Tam giác $SOA$ vuông tại $O$ và $SA=a$ nên
+$$\cos\widehat{SAO}=\frac{OA}{SA}=\frac{a\sqrt2}{2}\cdot\frac1a=\frac{\sqrt2}{2}.$$
+Suy ra $\widehat{SAO}=45^\circ$.
+
+Vậy góc giữa $SA$ và $(ABCD)$ bằng $45^\circ$.
 
 **Đáp số.** $45^\circ$.
 :::
@@ -307,7 +368,14 @@ $SO\perp(ABCD)$ nên hình chiếu của $SA$ là $OA$ và $OA=\dfrac{a\sqrt2}{2
 2. Dùng $\sin30^\circ=\dfrac12$.
 
 ::solution
-Chiều cao $=12\cdot\sin30^\circ=12\cdot\dfrac12=6$ m.
+Gọi $A$ là điểm xuất phát (ở chân dốc), $B$ là vị trí người đó đến sau khi đi $12$ m dọc đường dốc nhất, và $H$ là hình chiếu của $B$ lên mặt phẳng ngang đi qua $A$. Khi đó $AB=12$ m và độ cao người đó đã lên là $BH$.
+
+Vì $B$ đi theo đường dốc nhất nên góc giữa $AB$ và mặt phẳng ngang là $\widehat{BAH}=30^\circ$, và $AH$ là hình chiếu của $AB$ lên mặt phẳng ngang.
+
+Tam giác $ABH$ vuông tại $H$ nên
+$$BH=AB\cdot\sin\widehat{BAH}=12\cdot\sin30^\circ=12\cdot\frac12=6\ \text{m}.$$
+
+Vậy người đó đã lên cao $6$ m.
 
 **Đáp số.** $6$ m.
 :::
@@ -323,7 +391,20 @@ Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\perp(
 2. Tính $\sin\widehat{CSB}=\dfrac{CB}{SC}$.
 
 ::solution
-$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$; hình chiếu của $SC$ lên $(SAB)$ là $SB$ và góc cần tìm là $\widehat{CSB}$. Có $SB=\sqrt{2a^2+a^2}=a\sqrt3$, $SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a$. Tam giác $CBS$ vuông tại $B$ nên $\sin\widehat{CSB}=\dfrac{a}{2a}=\dfrac12$, suy ra $\widehat{CSB}=30^\circ$.
+Đáy $ABCD$ là hình vuông nên $BC\perp AB$. Vì $SA\perp(ABCD)$ và $BC\subset(ABCD)$ nên $BC\perp SA$. Mặt phẳng $(SAB)$ chứa hai đường thẳng cắt nhau $AB$ và $SA$ cùng vuông góc với $BC$, nên $BC\perp(SAB)$.
+
+Do đó $B$ là hình chiếu của $C$ lên $(SAB)$, còn $S$ nằm trong $(SAB)$. Suy ra $SB$ là hình chiếu của $SC$ lên $(SAB)$, và góc cần tìm là $\widehat{CSB}$.
+
+Ta tính các cạnh. Tam giác $SAB$ vuông tại $A$ nên
+$$SB=\sqrt{SA^2+AB^2}=\sqrt{2a^2+a^2}=a\sqrt3.$$
+Ta có $AC=a\sqrt2$ nên tam giác $SAC$ vuông tại $A$ cho
+$$SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a.$$
+
+Tam giác $CBS$ vuông tại $B$ (vì $BC\perp(SAB)$ nên $BC\perp SB$) nên
+$$\sin\widehat{CSB}=\frac{BC}{SC}=\frac{a}{2a}=\frac12.$$
+Suy ra $\widehat{CSB}=30^\circ$.
+
+Vậy góc giữa $SC$ và $(SAB)$ bằng $30^\circ$.
 
 **Đáp số.** $30^\circ$.
 :::

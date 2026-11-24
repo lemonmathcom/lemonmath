@@ -131,7 +131,11 @@ A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the
 2. Write the numerator and the denominator.
 
 ::solution
-Cut into $5$ parts with $2$ coloured, so the fraction is $\dfrac{2}{5}$.
+The rectangle is cut into $5$ equal parts, so the denominator is $5$ (the whole shape has $5$ parts).
+
+$2$ parts are coloured in, so the numerator is $2$.
+
+So the fraction for the coloured part is $\dfrac{2}{5}$.
 
 **Answer.** $\dfrac{2}{5}$.
 :::
@@ -147,7 +151,15 @@ Write these fractions: a) four sevenths; b) two fifths; c) eleven twelfths.
 2. The number in the name of the part is the denominator.
 
 ::solution
-a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
+In a fraction, the numerator is on top and the denominator is at the bottom; we say the numerator first, then the denominator.
+
+a) "Four sevenths": the numerator is $4$ and the denominator is $7$, so we write $\dfrac{4}{7}$.
+
+b) "Two fifths": the numerator is $2$ and the denominator is $5$, so we write $\dfrac{2}{5}$.
+
+c) "Eleven twelfths": the numerator is $11$ and the denominator is $12$, so we write $\dfrac{11}{12}$.
+
+So the fractions are $\dfrac{4}{7}$, $\dfrac{2}{5}$ and $\dfrac{11}{12}$.
 
 **Answer.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
 :::
@@ -163,7 +175,11 @@ Remember the last lesson (how many times an event happens): a coin is tossed $10
 2. How many heads were there?
 
 ::solution
-There were $6$ heads in $10$ tosses, so the fraction is $\dfrac{6}{10}$.
+The coin is tossed $10$ times in all, so the denominator is $10$.
+
+Heads comes up $6$ times, so the numerator is $6$.
+
+So the fraction showing the heads out of all the tosses is $\dfrac{6}{10}$.
 
 **Answer.** $\dfrac{6}{10}$.
 :::
@@ -179,7 +195,13 @@ Read the fractions $\dfrac{7}{10}$ and $\dfrac{3}{8}$, then name the numerator a
 2. Point to each number.
 
 ::solution
-$\dfrac{7}{10}$ is "seven tenths": numerator $7$, denominator $10$. $\dfrac{3}{8}$ is "three eighths": numerator $3$, denominator $8$.
+In a fraction, the number above the line is the numerator and the number below the line is the denominator.
+
+The fraction $\dfrac{7}{10}$ is read "seven tenths": the numerator is $7$ and the denominator is $10$.
+
+The fraction $\dfrac{3}{8}$ is read "three eighths": the numerator is $3$ and the denominator is $8$.
+
+So $\dfrac{7}{10}$ has numerator $7$ and denominator $10$; $\dfrac{3}{8}$ has numerator $3$ and denominator $8$.
 
 **Answer.** See the solution.
 :::
@@ -195,7 +217,11 @@ A cake is cut into $4$ pieces of different sizes and Lan eats $1$ piece. Can we 
 2. Compare with the meaning of a fraction.
 
 ::solution
-No. The parts are not equal, so the piece Lan ate is not necessarily a quarter of the cake.
+To say that a piece of the cake is $\dfrac{1}{4}$, the cake must be cut into $4$ equal parts.
+
+Here the cake is cut into $4$ pieces of different sizes, so the parts are not equal. The piece Lan ate may be bigger or smaller than a quarter of the cake, so it is not necessarily $\dfrac{1}{4}$.
+
+So we cannot say that Lan ate $\dfrac{1}{4}$ of the cake, because the parts are not equal.
 
 **Answer.** No, because the parts are not equal.
 :::
@@ -211,7 +237,11 @@ Nam wrote: "The cake is cut into $4$ parts and $3$ are eaten, so the fraction is
 2. How many parts were eaten?
 
 ::solution
-Nam wrote the numerator and denominator the wrong way round. The whole cake has $4$ parts so the denominator is $4$, and $3$ parts were eaten so the numerator is $3$: $\dfrac{3}{4}$.
+Nam wrote the numerator and the denominator the wrong way round. The denominator tells us how many equal parts the whole cake is cut into, and the numerator tells us how many parts were eaten. Also, $\dfrac{4}{3}$ has a numerator greater than its denominator, so it is greater than $1$, while the part eaten is less than the whole cake.
+
+Written correctly: the whole cake has $4$ parts, so the denominator is $4$; $3$ parts were eaten, so the numerator is $3$. The correct fraction is $\dfrac{3}{4}$.
+
+So Nam went wrong by writing the numerator and denominator the wrong way round; the correct fraction for the part eaten is $\dfrac{3}{4}$.
 
 **Answer.** $\dfrac{3}{4}$.
 :::
@@ -230,7 +260,19 @@ c) Write the fraction for the part left.
 2. Find how many squares are left, then write the fraction.
 
 ::solution
-a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) The squares left are $12-5-4=3$, so $\dfrac{3}{12}$.
+The bar of chocolate has $12$ equal squares, so the denominator of every fraction below is $12$.
+
+a) Mai eats $5$ squares, so the part Mai ate is $\dfrac{5}{12}$ of the bar.
+
+b) Nam eats $4$ squares, so the part Nam ate is $\dfrac{4}{12}$ of the bar.
+
+c) The number of squares left is:
+$$12-5-4=3\ \text{(squares)}.$$
+So the part left is $\dfrac{3}{12}$ of the bar.
+
+Check: $5+4+3=12$ squares, which is the number of squares in the whole bar.
+
+So the part Mai ate is $\dfrac{5}{12}$, the part Nam ate is $\dfrac{4}{12}$ and the part left is $\dfrac{3}{12}$.
 
 **Answer.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
 :::
@@ -249,9 +291,23 @@ A paper strip is cut into $8$ equal parts. You colour $3$ parts blue and $2$ par
 3. Find the coloured parts: $3+2$.
 
 ::solution
-Blue: $\dfrac{3}{8}$; red: $\dfrac{2}{8}$; white: $8-3-2=3$ parts, so $\dfrac{3}{8}$. The coloured part is $3+2=5$ parts, which is $\dfrac{5}{8}$.
+The strip is cut into $8$ equal parts, so the denominator of every fraction below is $8$.
 
-**Check.** $3+2+3=8$ parts. Correct.
+The blue part has $3$ parts, so it is $\dfrac{3}{8}$ of the strip.
+
+The red part has $2$ parts, so it is $\dfrac{2}{8}$ of the strip.
+
+The number of white parts is:
+$$8-3-2=3\ \text{(parts)},$$
+so the white part is $\dfrac{3}{8}$ of the strip.
+
+The number of coloured parts (both colours together) is:
+$$3+2=5\ \text{(parts)},$$
+so the coloured part is $\dfrac{5}{8}$ of the strip.
+
+Check: $3+2+3=8$ parts, which is the number of parts in the whole strip.
+
+So blue is $\dfrac{3}{8}$, red is $\dfrac{2}{8}$, white is $\dfrac{3}{8}$ and the coloured part is $\dfrac{5}{8}$.
 
 **Answer.** Blue $\dfrac{3}{8}$, red $\dfrac{2}{8}$, white $\dfrac{3}{8}$; coloured $\dfrac{5}{8}$.
 :::

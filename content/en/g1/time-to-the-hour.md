@@ -162,7 +162,11 @@ On a clock the long hand points to 12 and the short hand points to 8. What time 
 2. Which number does the short hand point to?
 
 ::solution
-The short hand points to 8, so the clock shows 8 o'clock.
+When a clock shows an exact hour, the long hand points to 12 and the short hand tells us which hour it is.
+
+Here the long hand points to 12 and the short hand points to 8.
+
+So the clock shows 8 o'clock.
 
 **Answer.** 8 o'clock.
 :::
@@ -178,7 +182,11 @@ Where do the long hand and the short hand point when a clock shows 11 o'clock?
 2. Which number does the short hand point to?
 
 ::solution
-On the hour, the long hand points to 12. The short hand points to 11.
+A clock shows an exact hour when the long hand points to 12.
+
+The clock shows 11 o'clock, so the short hand points to 11.
+
+So the long hand points to 12 and the short hand points to 11.
 
 **Answer.** The long hand points to 12 and the short hand points to 11.
 :::
@@ -198,9 +206,13 @@ b) 1 hour before 7 o'clock is $\square$ o'clock.
 2. Part b: do you add or subtract?
 
 ::solution
-a) $7+1=8$.
+a) 1 hour after 7 o'clock means adding 1 hour to 7 o'clock. We have
+$$7+1=8.$$
+So 1 hour after 7 o'clock is 8 o'clock.
 
-b) $7-1=6$.
+b) 1 hour before 7 o'clock means taking away 1 hour from 7 o'clock. We have
+$$7-1=6.$$
+So 1 hour before 7 o'clock is 6 o'clock.
 
 **Answer.** a) 8 o'clock; b) 6 o'clock.
 :::
@@ -216,7 +228,14 @@ Today is Thursday. What day was yesterday? What day is tomorrow?
 2. Find the day before and the day after.
 
 ::solution
+The days of the week in order are: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.
+
+Today is Thursday. Yesterday is the day just before Thursday, which is Wednesday. Tomorrow is the day just after Thursday, which is Friday.
+
+Three days in a row are
 $$\text{Wednesday},\ \text{Thursday},\ \text{Friday}.$$
+
+So yesterday was Wednesday and tomorrow is Friday.
 
 **Answer.** Yesterday was Wednesday and tomorrow is Friday.
 :::
@@ -235,9 +254,14 @@ Suppose the clock in the school playground shows 9 o'clock. What time will it sh
 ::solution
 Solution
 
+The clock shows 9 o'clock now. To find the time 3 hours later, we add 3 hours to 9 o'clock.
+
 3 hours later, the clock will show:
 $$9+3=12\ \text{(o'clock)}.$$
-Answer: 12 o'clock.
+
+So 3 hours later, the clock will show 12 o'clock.
+
+**Answer.** 12 o'clock.
 :::
 
 :::exercise
@@ -253,9 +277,13 @@ Suppose the school library is open from Monday to Friday. On how many days a wee
 ::solution
 Solution
 
-The library is open on Monday, Tuesday, Wednesday, Thursday and Friday. That is 5 days.
+The library is open from Monday to Friday, so it is open on Monday, Tuesday, Wednesday, Thursday and Friday.
 
-Answer: 5 days.
+We count those days: Monday (1), Tuesday (2), Wednesday (3), Thursday (4), Friday (5).
+
+So the library is open on 5 days a week.
+
+**Answer.** 5 days.
 :::
 
 :::exercise
@@ -272,9 +300,16 @@ Remember subtraction within 10. A week has 7 days and you go to school on 5 of t
 ::solution
 Solution
 
+A week has 7 days and you go to school on 5 of them. The number of days you do not go to school is 7 take away 5.
+
 The number of days a week you do not go to school is:
 $$7-5=2\ \text{(days)}.$$
-Answer: 2 days.
+
+Check: $5+2=7$ (days), which is correct.
+
+So you do not go to school on 2 days a week.
+
+**Answer.** 2 days.
 :::
 
 :::exercise Challenge
@@ -288,7 +323,13 @@ Today is Tuesday. Your class plans a field trip in 5 days' time. What day of the
 2. Which day is the 5th one you count?
 
 ::solution
+Today is Tuesday. "In 5 days' time" means we count on 5 days after Tuesday.
+
 Count the days after Tuesday: Wednesday (1), Thursday (2), Friday (3), Saturday (4), Sunday (5).
+
+The 5th day we count is Sunday.
+
+So the field trip is on Sunday.
 
 **Answer.** Sunday.
 :::

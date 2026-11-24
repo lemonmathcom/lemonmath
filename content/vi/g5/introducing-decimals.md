@@ -184,7 +184,15 @@ Vậy thứ tự từ bé đến lớn là $5{,}99$; $6{,}09$; $6{,}1$; $6{,}9$.
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Viết thành số thập phân: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5\dfrac{7}{100}$; d) $\dfrac{123}{1000}$.
+Viết thành số thập phân:
+
+a) $\dfrac{9}{10}$;
+
+b) $\dfrac{47}{100}$;
+
+c) $5\dfrac{7}{100}$;
+
+d) $\dfrac{123}{1000}$.
 
 ::hint
 **Kiến thức:** $\dfrac{1}{10}=0{,}1$, $\dfrac{1}{100}=0{,}01$, $\dfrac{1}{1000}=0{,}001$.
@@ -194,13 +202,27 @@ Viết thành số thập phân: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5
 2. Chú ý viết chữ số $0$ ở hàng không có gì.
 
 ::solution
-a) $\dfrac{9}{10}=0{,}9$. b) $\dfrac{47}{100}=0{,}47$. c) $5\dfrac{7}{100}=5{,}07$. d) $\dfrac{123}{1000}=0{,}123$.
+a) Phân số thập phân có mẫu số $10$ thì có một chữ số ở phần thập phân. Ta có $\dfrac{9}{10}=0{,}9$.
+
+b) Mẫu số $100$ thì có hai chữ số ở phần thập phân. Ta có $\dfrac{47}{100}=0{,}47$.
+
+c) Phần nguyên là $5$, phần phân số $\dfrac{7}{100}=0{,}07$ (hai chữ số ở phần thập phân, hàng phần mười là $0$). Ta có $5\dfrac{7}{100}=5{,}07$.
+
+d) Mẫu số $1000$ thì có ba chữ số ở phần thập phân. Ta có $\dfrac{123}{1000}=0{,}123$.
+
+Vậy a) $0{,}9$; b) $0{,}47$; c) $5{,}07$; d) $0{,}123$.
 
 **Đáp số.** a) $0{,}9$; b) $0{,}47$; c) $5{,}07$; d) $0{,}123$.
 :::
 
 :::exercise
-Viết thành phân số thập phân hoặc hỗn số: a) $0{,}6$; b) $0{,}08$; c) $4{,}25$.
+Viết thành phân số thập phân hoặc hỗn số:
+
+a) $0{,}6$;
+
+b) $0{,}08$;
+
+c) $4{,}25$.
 
 ::hint
 **Kiến thức:** phần thập phân có một chữ số thì mẫu số là $10$, hai chữ số thì mẫu số là $100$.
@@ -210,13 +232,25 @@ Viết thành phân số thập phân hoặc hỗn số: a) $0{,}6$; b) $0{,}08$
 2. Viết phần thập phân thành phân số, giữ nguyên phần nguyên.
 
 ::solution
-a) $0{,}6=\dfrac{6}{10}$. b) $0{,}08=\dfrac{8}{100}$. c) $4{,}25=4\dfrac{25}{100}$.
+a) Số $0{,}6$ có một chữ số ở phần thập phân nên mẫu số là $10$. Ta có $0{,}6=\dfrac{6}{10}$.
+
+b) Số $0{,}08$ có hai chữ số ở phần thập phân nên mẫu số là $100$. Ta có $0{,}08=\dfrac{8}{100}$.
+
+c) Số $4{,}25$ có phần nguyên là $4$ và phần thập phân $0{,}25$ có hai chữ số nên mẫu số là $100$. Ta có $4{,}25=4\dfrac{25}{100}$.
+
+Vậy a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
 
 **Đáp số.** a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
 :::
 
 :::exercise
-Chữ số $7$ trong mỗi số sau thuộc hàng nào và có giá trị bằng bao nhiêu? a) $24{,}7$; b) $5{,}07$; c) $70{,}3$.
+Chữ số $7$ trong mỗi số sau thuộc hàng nào và có giá trị bằng bao nhiêu?
+
+a) $24{,}7$;
+
+b) $5{,}07$;
+
+c) $70{,}3$.
 
 ::hint
 **Kiến thức:** các hàng từ trái sang phải: chục, đơn vị, dấu phẩy, phần mười, phần trăm.
@@ -226,11 +260,13 @@ Chữ số $7$ trong mỗi số sau thuộc hàng nào và có giá trị bằng
 2. Viết giá trị của chữ số đó.
 
 ::solution
-a) Chữ số $7$ ở hàng phần mười, giá trị $0{,}7$.
+a) Trong số $24{,}7$, chữ số $7$ đứng ngay sau dấu phẩy nên ở hàng phần mười, giá trị là $0{,}7$.
 
-b) Chữ số $7$ ở hàng phần trăm, giá trị $0{,}07$.
+b) Trong số $5{,}07$, chữ số $7$ đứng ở vị trí thứ hai sau dấu phẩy nên ở hàng phần trăm, giá trị là $0{,}07$.
 
-c) Chữ số $7$ ở hàng chục, giá trị $70$.
+c) Trong số $70{,}3$, chữ số $7$ đứng ở vị trí thứ hai bên trái dấu phẩy nên ở hàng chục, giá trị là $70$.
+
+Vậy a) hàng phần mười, giá trị $0{,}7$; b) hàng phần trăm, giá trị $0{,}07$; c) hàng chục, giá trị $70$.
 
 **Đáp số.** a) phần mười, $0{,}7$; b) phần trăm, $0{,}07$; c) chục, $70$.
 :::
@@ -246,13 +282,26 @@ Viết gọn các số: $8{,}500$; $0{,}70$; $12{,}0$.
 2. Nếu phần thập phân hết, bỏ luôn dấu phẩy.
 
 ::solution
-$8{,}500=8{,}5$; $0{,}70=0{,}7$; $12{,}0=12$.
+Nếu viết thêm chữ số $0$ vào bên phải phần thập phân, hoặc bỏ đi các chữ số $0$ ở tận cùng bên phải phần thập phân, thì giá trị của số thập phân không thay đổi.
+
+Bỏ các chữ số $0$ ở tận cùng bên phải phần thập phân, ta có:
+$$8{,}500=8{,}5;\qquad0{,}70=0{,}7;\qquad12{,}0=12.$$
+
+Vậy các số viết gọn là $8{,}5$; $0{,}7$; $12$.
 
 **Đáp số.** $8{,}5$; $0{,}7$; $12$.
 :::
 
 :::exercise
-Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $7{,}35\ \ldots\ 7{,}53$; b) $0{,}8\ \ldots\ 0{,}80$; c) $15{,}09\ \ldots\ 15{,}1$; d) $2{,}45\ \ldots\ 2{,}4$.
+Điền dấu $>$, $<$, $=$ vào chỗ chấm:
+
+a) $7{,}35\ \ldots\ 7{,}53$;
+
+b) $0{,}8\ \ldots\ 0{,}80$;
+
+c) $15{,}09\ \ldots\ 15{,}1$;
+
+d) $2{,}45\ \ldots\ 2{,}4$.
 
 ::hint
 **Kiến thức:** so sánh phần nguyên trước, rồi các hàng thập phân từ trái sang phải.
@@ -262,13 +311,17 @@ $8{,}500=8{,}5$; $0{,}70=0{,}7$; $12{,}0=12$.
 2. So sánh hàng phần mười, rồi hàng phần trăm.
 
 ::solution
-a) Hàng phần mười: $3<5$ nên $7{,}35<7{,}53$.
+Để so sánh hai số thập phân, ta so sánh phần nguyên trước; nếu phần nguyên bằng nhau thì so sánh lần lượt các hàng phần mười, phần trăm, … từ trái sang phải.
 
-b) $0{,}80=0{,}8$ nên $0{,}8=0{,}80$.
+a) Hai số có cùng phần nguyên $7$. Hàng phần mười: $3<5$ nên $7{,}35<7{,}53$.
 
-c) $15{,}1=15{,}10$. Hàng phần mười: $0<1$ nên $15{,}09<15{,}1$.
+b) Bỏ chữ số $0$ ở tận cùng bên phải phần thập phân, ta có $0{,}80=0{,}8$ nên $0{,}8=0{,}80$.
 
-d) $2{,}4=2{,}40$. Hàng phần mười bằng nhau, hàng phần trăm: $5>0$ nên $2{,}45>2{,}4$.
+c) Viết $15{,}1=15{,}10$. Hai số có cùng phần nguyên $15$. Hàng phần mười: $0<1$ nên $15{,}09<15{,}1$.
+
+d) Viết $2{,}4=2{,}40$. Hai số có cùng phần nguyên $2$ và hàng phần mười bằng nhau ($4=4$). Hàng phần trăm: $5>0$ nên $2{,}45>2{,}4$.
+
+Vậy a) $<$; b) $=$; c) $<$; d) $>$.
 
 **Đáp số.** a) $<$; b) $=$; c) $<$; d) $>$.
 :::
@@ -284,7 +337,15 @@ Sắp xếp theo thứ tự từ lớn đến bé: $3{,}4$; $3{,}04$; $3{,}44$; 
 2. So sánh ba số còn lại, viết $3{,}4=3{,}40$.
 
 ::solution
-Số $2{,}99$ có phần nguyên bé nhất nên là số bé nhất. Ba số còn lại có phần nguyên $3$. Viết $3{,}4=3{,}40$. Hàng phần mười: $3{,}04$ có $0$, còn $3{,}40$ và $3{,}44$ có $4$. Hàng phần trăm: $4>0$ nên $3{,}44>3{,}40$.
+Ta so sánh phần nguyên trước. Số $2{,}99$ có phần nguyên $2$, bé hơn phần nguyên $3$ của ba số còn lại, nên $2{,}99$ là số bé nhất.
+
+Ba số còn lại có cùng phần nguyên $3$. Viết $3{,}4=3{,}40$. Hàng phần mười: $3{,}04$ có chữ số $0$, còn $3{,}40$ và $3{,}44$ có chữ số $4$ và $0<4$, nên $3{,}04$ bé hơn hai số kia.
+
+Hai số $3{,}40$ và $3{,}44$ có hàng phần mười bằng nhau. Hàng phần trăm: $4>0$ nên $3{,}44>3{,}40$.
+
+Do đó $3{,}44>3{,}4>3{,}04>2{,}99$.
+
+Vậy các số xếp theo thứ tự từ lớn đến bé là $3{,}44$; $3{,}4$; $3{,}04$; $2{,}99$.
 
 **Đáp số.** $3{,}44>3{,}4>3{,}04>2{,}99$.
 :::
@@ -300,9 +361,16 @@ Giả sử ba bạn chạy $60$ m với thời gian: An $10{,}5$ giây, Bình $1
 2. Viết ba số có cùng hai chữ số ở phần thập phân rồi so sánh.
 
 ::solution
-Viết $10{,}5=10{,}50$ và $10{,}3=10{,}30$. Ta có $10{,}25<10{,}30<10{,}50$.
+Bài giải
+
+Cùng chạy quãng đường $60$ m, bạn nào mất ít thời gian hơn thì chạy nhanh hơn. Vì vậy ta so sánh ba số đo thời gian.
+
+Viết $10{,}5=10{,}50$ và $10{,}3=10{,}30$. Ba số đều có phần nguyên $10$ và có hai chữ số ở phần thập phân. Hàng phần mười: $2<3<5$, nên
+$$10{,}25<10{,}30<10{,}50.$$
 
 Bình mất ít thời gian nhất, rồi đến Chi, rồi đến An.
+
+Vậy Bình chạy nhanh nhất; thứ tự từ nhanh đến chậm là Bình, Chi, An.
 
 **Đáp số.** Bình chạy nhanh nhất; thứ tự từ nhanh đến chậm: Bình, Chi, An.
 :::
@@ -318,9 +386,13 @@ Em hãy nhớ lại bài hỗn số. So sánh $2\dfrac{3}{10}$ và $2\dfrac{3}{4
 2. Viết hai hỗn số thành số thập phân rồi so sánh.
 
 ::solution
-Ta có $2\dfrac{3}{10}=2{,}3$. Vì $\dfrac{3}{4}=\dfrac{75}{100}$ nên $2\dfrac{3}{4}=2{,}75$.
+Đổi hỗn số thứ nhất: $2\dfrac{3}{10}=2+0{,}3=2{,}3$.
 
-Viết $2{,}3=2{,}30$. Vì $30<75$ nên $2{,}3<2{,}75$.
+Đổi hỗn số thứ hai: $\dfrac{3}{4}=\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$ nên $2\dfrac{3}{4}=2+0{,}75=2{,}75$.
+
+Hai số có cùng phần nguyên $2$. Viết $2{,}3=2{,}30$. Phần thập phân: $30<75$ nên $2{,}30<2{,}75$, tức là $2{,}3<2{,}75$.
+
+Vậy $2\dfrac{3}{10}<2\dfrac{3}{4}$.
 
 **Đáp số.** $2\dfrac{3}{10}<2\dfrac{3}{4}$.
 :::
@@ -354,7 +426,13 @@ Có bao nhiêu số thập phân có hai chữ số ở phần thập phân, l�
 2. Hàng phần trăm có thể là những chữ số nào? Có loại bỏ số nào không?
 
 ::solution
-Các số cần tìm có dạng $0{,}3a$ với hàng phần mười là $3$. Vì số đó lớn hơn $0{,}30$ nên chữ số $a$ khác $0$, nên $a\in\{1;2;3;4;5;6;7;8;9\}$. Đó là các số $0{,}31$; $0{,}32$; ...; $0{,}39$.
+Số thập phân có hai chữ số ở phần thập phân, lớn hơn $0{,}3$ và bé hơn $0{,}4$ có phần nguyên là $0$ và hàng phần mười là $3$. Vậy số đó có dạng $0{,}3a$, trong đó $a$ là chữ số hàng phần trăm.
+
+Vì số đó lớn hơn $0{,}3=0{,}30$ nên $a\ne0$. Vì số đó bé hơn $0{,}4$ nên mọi chữ số $a$ từ $1$ đến $9$ đều thoả mãn. Do đó $a\in\{1;2;3;4;5;6;7;8;9\}$.
+
+Các số đó là $0{,}31$; $0{,}32$; $\ldots$; $0{,}39$.
+
+Vậy có $9$ số thập phân thoả mãn đề bài.
 
 **Đáp số.** $9$ số.
 :::

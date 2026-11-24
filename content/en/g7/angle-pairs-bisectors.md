@@ -303,13 +303,14 @@ c) $\angle aOb=90^\circ$.
 2. Substitute and work out $\angle bOc$.
 
 ::solution
-Since $\angle aOb$ and $\angle bOc$ are adjacent supplementary, $\angle bOc=180^\circ-\angle aOb$.
+Two adjacent supplementary angles add up to $180^\circ$. Since $\angle aOb$ and $\angle bOc$ are adjacent supplementary angles,
+$$\angle bOc=180^\circ-\angle aOb.$$
 
-a) $\angle bOc=180^\circ-120^\circ=60^\circ$.
+a) For $\angle aOb=120^\circ$, we have $\angle bOc=180^\circ-120^\circ=60^\circ$.
 
-b) $\angle bOc=180^\circ-35^\circ=145^\circ$.
+b) For $\angle aOb=35^\circ$, we have $\angle bOc=180^\circ-35^\circ=145^\circ$.
 
-c) $\angle bOc=180^\circ-90^\circ=90^\circ$.
+c) For $\angle aOb=90^\circ$, we have $\angle bOc=180^\circ-90^\circ=90^\circ$.
 
 So $\angle bOc$ equals $60^\circ$, $145^\circ$, $90^\circ$ respectively.
 

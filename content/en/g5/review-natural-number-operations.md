@@ -155,9 +155,23 @@ Set out in columns and work out: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
 2. Check with the inverse operation.
 
 ::solution
-a) $5\,274+3\,968=9\,242$.
+Solution
 
-b) $6\,005-2\,847=3\,158$ (check: $3\,158+2\,847=6\,005$).
+a) Set out the sum in columns and add from right to left:
+$$\begin{array}{r} 5\,274 \\ +\ 3\,968 \\ \hline 9\,242 \end{array}$$
+
+Units: $4+8=12$, write $2$ and carry $1$. Tens: $7+6+1=14$, write $4$ and carry $1$. Hundreds: $2+9+1=12$, write $2$ and carry $1$. Thousands: $5+3+1=9$, write $9$.
+
+So $5\,274+3\,968=9\,242$.
+
+b) Set out the subtraction in columns and subtract from right to left:
+$$\begin{array}{r} 6\,005 \\ -\ 2\,847 \\ \hline 3\,158 \end{array}$$
+
+Units: $5$ is less than $7$, so take $15-7=8$, write $8$ and carry $1$. Tens: $4+1=5$; $0$ is less than $5$, so take $10-5=5$, write $5$ and carry $1$. Hundreds: $8+1=9$; $0$ is less than $9$, so take $10-9=1$, write $1$ and carry $1$. Thousands: $2+1=3$; $6-3=3$, write $3$.
+
+Check: $3\,158+2\,847=6\,005$, which equals the starting number.
+
+So $6\,005-2\,847=3\,158$.
 
 **Answer.** a) $9\,242$; b) $3\,158$.
 :::
@@ -173,9 +187,20 @@ Work out: a) $406\times25$; b) $3\,150\div15$.
 2. Part b: divide one digit at a time and watch the $0$.
 
 ::solution
-a) $406\times25=8\,120+2\,030=10\,150$.
+Solution
 
-b) $3\,150\div15=210$, because $15\times210=3\,150$.
+a) Multiply $406$ by the units digit and by the tens digit of $25$ in turn.
+
+We have $406\times5=2\,030$ and $406\times20=8\,120$. Add the two partial products:
+$$406\times25=8\,120+2\,030=10\,150.$$
+
+So $406\times25=10\,150$.
+
+b) Divide step by step from left to right. $31\div15=2$ remainder $1$. Bring down $5$ to make $15$; $15\div15=1$ remainder $0$. Bring down $0$ to make $0$; $0\div15=0$. The quotient is $210$.
+
+Check: $15\times210=3\,150$, which equals the number we divided.
+
+So $3\,150\div15=210$.
 
 **Answer.** a) $10\,150$; b) $210$.
 :::
@@ -191,9 +216,17 @@ Work out the value of: a) $56+24\div6\times5$; b) $90-(18+12)\times2$.
 2. Part b: work out the brackets first.
 
 ::solution
-a) $56+24\div6\times5=56+4\times5=56+20=76$.
+Solution
 
-b) $90-(18+12)\times2=90-30\times2=90-60=30$.
+a) The expression has only addition, division and multiplication, so we do the division and multiplication from left to right first, and the addition last:
+$$\begin{aligned} 56+24\div6\times5 &= 56+4\times5 \\ &= 56+20 \\ &= 76. \end{aligned}$$
+
+Here $24\div6=4$, then $4\times5=20$.
+
+b) The expression has brackets, so we work inside the brackets first, then multiply, and subtract last:
+$$\begin{aligned} 90-(18+12)\times2 &= 90-30\times2 \\ &= 90-60 \\ &= 30. \end{aligned}$$
+
+So the values of the two expressions are $76$ and $30$.
 
 **Answer.** a) $76$; b) $30$.
 :::
@@ -209,9 +242,17 @@ Calculate quickly: a) $4\times18\times25$; b) $75\times34+75\times66$.
 2. Part b: write $75\times(34+66)$.
 
 ::solution
-a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+Solution
 
-b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+a) Using the commutative and associative properties of multiplication, we group $4$ with $25$ because $4\times25=100$:
+$$\begin{aligned} 4\times18\times25 &= (4\times25)\times18 \\ &= 100\times18 \\ &= 1\,800. \end{aligned}$$
+
+So $4\times18\times25=1\,800$.
+
+b) The two products share the factor $75$. Using the property of multiplying a number by a sum, we have
+$$\begin{aligned} 75\times34+75\times66 &= 75\times(34+66) \\ &= 75\times100 \\ &= 7\,500. \end{aligned}$$
+
+So $75\times34+75\times66=7\,500$.
 
 **Answer.** a) $1\,800$; b) $7\,500$.
 :::
@@ -227,11 +268,21 @@ Mum buys $3$ cartons of milk at $38\,000$ dong each and $2$ bags of biscuits at 
 2. Subtract the total from $200\,000$.
 
 ::solution
-Cost of the milk: $3\times38\,000=114\,000$ dong.
+Solution
 
-Cost of the biscuits: $2\times25\,000=50\,000$ dong.
+The cost of the $3$ cartons of milk is:
+$$3\times38\,000=114\,000\ \text{(dong)}$$
 
-Change: $200\,000-(114\,000+50\,000)=36\,000$ dong.
+The cost of the $2$ bags of biscuits is:
+$$2\times25\,000=50\,000\ \text{(dong)}$$
+
+The total amount Mum has to pay is:
+$$114\,000+50\,000=164\,000\ \text{(dong)}$$
+
+The change the cashier gives back is:
+$$200\,000-164\,000=36\,000\ \text{(dong)}$$
+
+So Mum gets $36\,000$ dong in change.
 
 **Answer.** $36\,000$ dong.
 :::
@@ -247,7 +298,17 @@ $250$ students go on a trip. Each coach carries at most $45$ students. What is t
 2. A remainder that is not $0$ means some students have no seat yet.
 
 ::solution
-$250\div45=5$ remainder $25$. Five coaches carry $225$ students, so $25$ are left and $1$ more coach is needed: $5+1=6$.
+Solution
+
+To find the number of coaches, we divide the number of students by the number each coach carries:
+$$250\div45=5\ \text{remainder }25$$
+
+Since $45\times5=225$, $5$ coaches carry $225$ students, and $250-225=25$ students are left without a coach.
+
+These $25$ students still have to travel, so $1$ more coach is needed:
+$$5+1=6\ \text{(coaches)}$$
+
+So at least $6$ coaches are needed.
 
 **Answer.** $6$ coaches.
 :::
@@ -263,7 +324,16 @@ Remember the previous lesson. Use the four digits $3,\ 0,\ 8,\ 5$, each exactly 
 2. Subtract the smaller from the larger.
 
 ::solution
-The largest number is $8\,530$ and the smallest is $3\,058$. The difference is $8\,530-3\,058=5\,472$.
+Solution
+
+To make the largest number, we arrange the digits from greatest to least: $8,\ 5,\ 3,\ 0$. The largest number is $8\,530$.
+
+To make the smallest number, the thousands digit must not be $0$ and must be as small as possible, so it is $3$. The remaining digits $0,\ 5,\ 8$ are arranged from least to greatest. The smallest number is $3\,058$ (we do not write $0\,358$, because a four-digit number does not begin with the digit $0$).
+
+The difference between the two numbers is:
+$$8\,530-3\,058=5\,472$$
+
+So the difference between the largest and the smallest number is $5\,472$.
 
 **Answer.** $5\,472$.
 :::
@@ -279,9 +349,22 @@ Find the natural number $x$ such that $5\times(x+12)-30=120$.
 2. Find $x+12$, then find $x$.
 
 ::solution
-$5\times(x+12)=120+30=150$, so $x+12=150\div5=30$ and $x=30-12=18$.
+Solution
 
-**Check.** $5\times(18+12)-30=150-30=120$. Correct.
+We have $5\times(x+12)-30=120$.
+
+The minuend equals the difference plus the subtrahend, so
+$$5\times(x+12)=120+30=150.$$
+
+A factor equals the product divided by the other factor, so
+$$x+12=150\div5=30.$$
+
+An unknown addend equals the sum minus the known addend, so
+$$x=30-12=18.$$
+
+Check: $5\times(18+12)-30=5\times30-30=150-30=120$, which is correct.
+
+So $x=18$.
 
 **Answer.** $18$.
 :::

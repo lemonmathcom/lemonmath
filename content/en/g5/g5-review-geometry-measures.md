@@ -144,7 +144,15 @@ A rectangle is $15$ m long and $8$ m wide. Find its perimeter and area.
 2. Find the area.
 
 ::solution
-The perimeter is $(15+8)\times2=46\ (\text{m})$. The area is $15\times8=120\ (\text{m}^2)$.
+Solution
+
+The perimeter of the rectangle is:
+$$(15+8)\times2=46\ (\text{m})$$
+
+The area of the rectangle is:
+$$15\times8=120\ (\text{m}^2)$$
+
+So the rectangle has a perimeter of $46$ m and an area of $120\ \text{m}^2$.
 
 **Answer.** $46$ m; $120\ \text{m}^2$.
 :::
@@ -160,7 +168,12 @@ A right-angled triangle has two shorter sides of $9$ cm and $12$ cm. Find the ar
 2. Use $S=a\times h\div2$.
 
 ::solution
-$S=9\times12\div2=54\ (\text{cm}^2)$.
+Solution
+
+In a right-angled triangle, the two shorter sides serve as the base and the height, so the area of the triangle is:
+$$S=9\times12\div2=54\ (\text{cm}^2)$$
+
+So the area of the triangle is $54\ \text{cm}^2$.
 
 **Answer.** $54\ \text{cm}^2$.
 :::
@@ -176,7 +189,12 @@ A trapezium has parallel sides of $14$ m and $8$ m and a height of $6$ m. Find i
 2. Multiply by the height and divide by $2$.
 
 ::solution
-$S=(14+8)\times6\div2=22\times6\div2=66\ (\text{m}^2)$.
+Solution
+
+The area of a trapezium is the sum of the parallel sides times the height, divided by $2$. The area of the trapezium is:
+$$S=(14+8)\times6\div2=22\times6\div2=66\ (\text{m}^2)$$
+
+So the area of the trapezium is $66\ \text{m}^2$.
 
 **Answer.** $66\ \text{m}^2$.
 :::
@@ -192,7 +210,18 @@ A circle has a diameter of $20$ cm. Find its circumference and area.
 2. Find the radius, then the area.
 
 ::solution
-The circumference is $20\times3.14=62.8\ (\text{cm})$. The radius is $20\div2=10\ (\text{cm})$, so the area is $10\times10\times3.14=314\ (\text{cm}^2)$.
+Solution
+
+The circumference of a circle is the diameter times $3.14$. The circumference of the circle is:
+$$20\times3.14=62.8\ (\text{cm})$$
+
+The radius of the circle is:
+$$20\div2=10\ (\text{cm})$$
+
+The area of a circle is the radius times the radius times $3.14$. The area of the circle is:
+$$10\times10\times3.14=314\ (\text{cm}^2)$$
+
+So the circle has a circumference of $62.8$ cm and an area of $314\ \text{cm}^2$.
 
 **Answer.** $62.8$ cm; $314\ \text{cm}^2$.
 :::
@@ -209,7 +238,15 @@ A cuboid water tank is $1.5$ m long, $0.8$ m wide and $1$ m high. How many litre
 3. Check: $0.8\ \text{m}=8$ dm, $1.5\ \text{m}=15$ dm, $1\ \text{m}=10$ dm; does $15\times8\times10$ give the same result?
 
 ::solution
-The volume of the tank is $1.5\times0.8\times1=1.2\ (\text{m}^3)$. Since $1\ \text{m}^3=1000\ \text{dm}^3=1000$ litres, the tank holds $1.2\times1000=1200$ (litres).
+Solution
+
+The volume of the tank is:
+$$1.5\times0.8\times1=1.2\ (\text{m}^3)$$
+
+We have $1\ \text{m}^3=1000\ \text{dm}^3=1000$ litres. The number of litres the full tank holds is:
+$$1.2\times1000=1200\ \text{(litres)}$$
+
+So the tank holds $1200$ litres of water when full.
 
 **Answer.** $1200$ litres.
 :::
@@ -226,7 +263,15 @@ Suppose a field is a trapezium with parallel sides of $80$ m and $60$ m and a he
 3. Multiply by $0.5$.
 
 ::solution
-The area of the field is $(80+60)\times50\div2=3500\ (\text{m}^2)$. The mass of rice is $3500\times0.5=1750$ (kg).
+Solution
+
+The area of the trapezium-shaped field is:
+$$(80+60)\times50\div2=3500\ (\text{m}^2)$$
+
+The mass of rice the whole field yields is:
+$$3500\times0.5=1750\ \text{(kg)}$$
+
+So the whole field yields $1750$ kg of rice.
 
 **Answer.** $1750$ kg.
 :::
@@ -242,7 +287,17 @@ Remember the lesson on the volume of a cube. A cube-shaped tank with an edge of 
 2. Take $\dfrac23$ of the volume.
 
 ::solution
-The volume of the tank is $6\times6\times6=216\ (\text{dm}^3)$. The amount of water is $216\times\dfrac23=144\ (\text{dm}^3)=144$ litres.
+Solution
+
+The volume of a cube is the edge times the edge times the edge. The volume of the tank is:
+$$6\times6\times6=216\ (\text{dm}^3)$$
+
+The water is $\dfrac23$ of the volume of the tank, so the amount of water is:
+$$216\times\frac23=144\ (\text{dm}^3)$$
+
+Since $1\ \text{dm}^3=1$ litre, we have $144\ \text{dm}^3=144$ litres.
+
+So the tank holds $144$ litres of water.
 
 **Answer.** $144$ litres.
 :::
@@ -264,11 +319,20 @@ c) $4.2\ \text{m}^3=\ ?\ \text{dm}^3$.
 2. Changing from a smaller unit to a larger one: divide.
 
 ::solution
-a) $3.5\times10\,000=35\,000$.
+a) We have $1$ ha $=10\,000\ \text{m}^2$. To change hectares into $\text{m}^2$ we multiply by $10\,000$:
+$$3.5\times10\,000=35\,000.$$
 
-b) $7200\div10\,000=0.72$.
+So $3.5$ ha $=35\,000\ \text{m}^2$.
 
-c) $4.2\times1000=4200$.
+b) We have $1\ \text{m}^2=10\,000\ \text{cm}^2$. To change $\text{cm}^2$ into $\text{m}^2$ we divide by $10\,000$:
+$$7200\div10\,000=0.72.$$
+
+So $7200\ \text{cm}^2=0.72\ \text{m}^2$.
+
+c) We have $1\ \text{m}^3=1000\ \text{dm}^3$. To change $\text{m}^3$ into $\text{dm}^3$ we multiply by $1000$:
+$$4.2\times1000=4200.$$
+
+So $4.2\ \text{m}^3=4200\ \text{dm}^3$.
 
 **Answer.** a) $35\,000\ \text{m}^2$; b) $0.72\ \text{m}^2$; c) $4200\ \text{dm}^3$.
 :::
@@ -284,7 +348,23 @@ A plot of land is made of a rectangle $20$ m long and $12$ m wide, with a semici
 2. Find the area of each part, then add.
 
 ::solution
-The radius of the semicircle is $12\div2=6$ (m). The area of the rectangle is $20\times12=240\ (\text{m}^2)$. The area of the semicircle is $6\times6\times3.14\div2=56.52\ (\text{m}^2)$. The area of the plot is $240+56.52=296.52\ (\text{m}^2)$.
+Solution
+
+The plot is made of a rectangle and a semicircle attached to one $12$ m side of the rectangle.
+
+The radius of the semicircle is:
+$$12\div2=6\ \text{(m)}$$
+
+The area of the rectangle is:
+$$20\times12=240\ (\text{m}^2)$$
+
+The area of the semicircle is:
+$$6\times6\times3.14\div2=56.52\ (\text{m}^2)$$
+
+The area of the plot is:
+$$240+56.52=296.52\ (\text{m}^2)$$
+
+So the area of the plot is $296.52\ \text{m}^2$.
 
 **Answer.** $296.52\ \text{m}^2$.
 :::

@@ -199,9 +199,13 @@ Cho $A=4x^2-3x+7$ và $B=x^2+5x-2$. Tính $A+B$ và $A-B$.
 2. Với $A-B$, viết $-x^2-5x+2$ sau khi bỏ ngoặc.
 
 ::solution
-Ta có $A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5$.
+Để cộng hay trừ hai đa thức, ta bỏ dấu ngoặc rồi nhóm các hạng tử đồng dạng (cùng bậc) với nhau.
 
-Ta có $A-B=4x^2-3x+7-x^2-5x+2=(4x^2-x^2)+(-3x-5x)+(7+2)=3x^2-8x+9$.
+Ta có
+$$A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5.$$
+
+Ta có
+$$\begin{aligned}A-B&=4x^2-3x+7-x^2-5x+2\\&=(4x^2-x^2)+(-3x-5x)+(7+2)\\&=3x^2-8x+9.\end{aligned}$$
 
 Vậy $A+B=5x^2+2x+5$ và $A-B=3x^2-8x+9$.
 
@@ -219,9 +223,13 @@ Cho $A=2x^3-x+5$ và $B=-3x^3+x^2+4x-1$. Tính $A+B$ và $A-B$.
 2. Khi trừ, đổi dấu cả bốn hạng tử của $B$.
 
 ::solution
-Ta có $A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4$.
+Ta bỏ dấu ngoặc rồi nhóm các hạng tử đồng dạng.
 
-Ta có $A-B=2x^3-x+5+3x^3-x^2-4x+1=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)=5x^3-x^2-5x+6$.
+Ta có
+$$A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4.$$
+
+Khi trừ $B$, ta đổi dấu mọi hạng tử của $B$ (vì có dấu trừ đứng trước dấu ngoặc), nên
+$$\begin{aligned}A-B&=2x^3-x+5+3x^3-x^2-4x+1\\&=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)\\&=5x^3-x^2-5x+6.\end{aligned}$$
 
 Vậy $A+B=-x^3+x^2+3x+4$ và $A-B=5x^3-x^2-5x+6$.
 
@@ -263,9 +271,11 @@ Tìm đa thức $M$, biết $M+(x^2-3x)=2x^2+x-4$.
 2. Bỏ ngoặc, đổi dấu hai hạng tử trong ngoặc thứ hai rồi gộp.
 
 ::solution
-Từ $M+(x^2-3x)=2x^2+x-4$ suy ra $M=(2x^2+x-4)-(x^2-3x)$.
+Muốn tìm số hạng chưa biết trong một tổng, ta lấy tổng trừ đi số hạng đã biết. Từ $M+(x^2-3x)=2x^2+x-4$ suy ra
+$$M=(2x^2+x-4)-(x^2-3x).$$
 
-Bỏ ngoặc, ta được $M=2x^2+x-4-x^2+3x=(2x^2-x^2)+(x+3x)-4=x^2+4x-4$.
+Bỏ dấu ngoặc (đổi dấu các hạng tử trong ngoặc có dấu trừ đứng trước), ta được
+$$\begin{aligned}M&=2x^2+x-4-x^2+3x\\&=(2x^2-x^2)+(x+3x)-4\\&=x^2+4x-4.\end{aligned}$$
 
 Kiểm tra: $(x^2+4x-4)+(x^2-3x)=2x^2+x-4$, đúng với đề bài.
 
@@ -289,11 +299,13 @@ b) $3x\cdot(2x^2-x+4)$.
 2. b) Nhân $3x$ với từng hạng tử trong ngoặc, đừng bỏ sót hạng tử cuối.
 
 ::solution
-a) Ta có $(-2)\cdot3=-6$ và $x^2\cdot x^4=x^6$, nên $(-2x^2)\cdot(3x^4)=-6x^6$.
+a) Nhân các hệ số với nhau và nhân các luỹ thừa của $x$ với nhau. Ta có $(-2)\cdot3=-6$ và $x^2\cdot x^4=x^{2+4}=x^6$. Do đó
+$$(-2x^2)\cdot(3x^4)=-6x^6.$$
 
-b) Theo tính chất phân phối, ta có $3x\cdot(2x^2-x+4)=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4=6x^3-3x^2+12x$.
+b) Theo tính chất phân phối của phép nhân đối với phép cộng, ta có
+$$\begin{aligned}3x\cdot(2x^2-x+4)&=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4\\&=6x^3-3x^2+12x.\end{aligned}$$
 
-Vậy a) $-6x^6$; b) $6x^3-3x^2+12x$.
+Vậy a) tích là $-6x^6$; b) tích là $6x^3-3x^2+12x$.
 
 **Đáp số.** a) $-6x^6$; b) $6x^3-3x^2+12x$.
 :::
@@ -313,11 +325,18 @@ b) $(2x+3)(x-1)$.
 2. b) Có $4$ tích; gộp $-2x$ và $3x$.
 
 ::solution
-a) Ta có $(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8$. Gộp các hạng tử đồng dạng: $x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8$.
+Để nhân hai đa thức, ta nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích lại.
 
-b) Ta có $(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3$.
+a) Ta có
+$$(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8.$$
 
-Vậy a) $x^3-8$; b) $2x^2+x-3$.
+Gộp các hạng tử đồng dạng:
+$$x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8.$$
+
+b) Ta có
+$$(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3.$$
+
+Vậy a) kết quả là $x^3-8$; b) kết quả là $2x^2+x-3$.
 
 **Đáp số.** a) $x^3-8$; b) $2x^2+x-3$.
 :::
@@ -333,11 +352,17 @@ Chứng tỏ rằng giá trị của biểu thức $(x+4)(x-1)-(x^2+3x)$ không 
 2. Trừ $x^2+3x$ bằng cách đổi dấu cả hai hạng tử.
 
 ::solution
-Ta có $(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4$.
+Ta rút gọn biểu thức; nếu kết quả là một hằng số thì giá trị của biểu thức không phụ thuộc vào $x$.
 
-Do đó $(x+4)(x-1)-(x^2+3x)=x^2+3x-4-x^2-3x=-4$.
+Trước hết, ta có
+$$(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4.$$
 
-Biểu thức luôn bằng $-4$ với mọi $x$, nên giá trị của nó không phụ thuộc vào $x$.
+Do đó
+$$\begin{aligned}(x+4)(x-1)-(x^2+3x)&=x^2+3x-4-x^2-3x\\&=(x^2-x^2)+(3x-3x)-4\\&=-4.\end{aligned}$$
+
+Biểu thức luôn bằng $-4$ với mọi giá trị của $x$.
+
+Vậy giá trị của biểu thức $(x+4)(x-1)-(x^2+3x)$ không phụ thuộc vào giá trị của $x$.
 
 **Đáp số.** Biểu thức luôn bằng $-4$.
 :::
@@ -401,11 +426,16 @@ Chứng minh rằng $(x+1)(x^2-x+1)=x^3+1$. Từ đó, bằng cách thay $x=10$,
 2. Thay $x=10$ vào cả hai vế: $x+1=11$ và $x^2-x+1=91$.
 
 ::solution
-Ta có $(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1$. Gộp các hạng tử đồng dạng: $x^3+(-x^2+x^2)+(x-x)+1=x^3+1$.
+Trước hết, ta biến đổi vế trái. Ta có
+$$(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1.$$
+
+Gộp các hạng tử đồng dạng:
+$$x^3+(-x^2+x^2)+(x-x)+1=x^3+1.$$
 
 Vậy $(x+1)(x^2-x+1)=x^3+1$.
 
-Thay $x=10$, ta có $x+1=11$ và $x^2-x+1=100-10+1=91$. Do đó $11\cdot91=10^3+1=1001$.
+Bây giờ thay $x=10$ vào đẳng thức vừa chứng minh. Khi đó $x+1=11$ và $x^2-x+1=100-10+1=91$, còn vế phải bằng $10^3+1=1001$. Do đó
+$$11\cdot91=10^3+1=1001.$$
 
 Vậy $11\cdot91=1001$.
 

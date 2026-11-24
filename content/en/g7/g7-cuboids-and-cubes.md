@@ -242,7 +242,13 @@ Find the volume and total surface area of a cuboid with length $9$ cm, width $6$
 2. Work out the three areas $ab$, $bc$, $ca$ and double their sum.
 
 ::solution
-We have $V=9\cdot6\cdot4=216\ (\text{cm}^3)$ and $S_{tot}=2(54+24+36)=228\ (\text{cm}^2)$.
+The cuboid has length $a=9$ cm, width $b=6$ cm and height $c=4$ cm. We use the formulas $V=abc$ and $S_{tot}=2(ab+bc+ca)$.
+
+The volume of the cuboid is
+$$V=9\cdot6\cdot4=216\ (\text{cm}^3).$$
+
+The areas of the three kinds of faces are $ab=9\cdot6=54$, $bc=6\cdot4=24$, $ca=4\cdot9=36$ (cm²). The total surface area is
+$$S_{tot}=2(54+24+36)=2\cdot114=228\ (\text{cm}^2).$$
 
 So $V=216\ \text{cm}^3$ and $S_{tot}=228\ \text{cm}^2$.
 
@@ -260,7 +266,13 @@ Find the volume and total surface area of a cube of edge $7$ cm.
 2. Work out $6\cdot7^2$.
 
 ::solution
-We have $V=7^3=343\ (\text{cm}^3)$ and $S_{tot}=6\cdot49=294\ (\text{cm}^2)$.
+The cube has edge $a=7$ cm. We use the formulas $V=a^3$ and $S_{tot}=6a^2$.
+
+The volume of the cube is
+$$V=7^3=343\ (\text{cm}^3).$$
+
+The area of one face is $7^2=49$ (cm²), and a cube has $6$ faces, so
+$$S_{tot}=6\cdot49=294\ (\text{cm}^2).$$
 
 So $V=343\ \text{cm}^3$ and $S_{tot}=294\ \text{cm}^2$.
 
@@ -278,9 +290,15 @@ A cuboid has volume $210\ \text{cm}^3$ and a rectangular base $7$ cm long and $5
 2. Divide the volume by the base area.
 
 ::solution
-The base area is $7\cdot5=35\ (\text{cm}^2)$. The height is $h=\dfrac{210}{35}=6$ (cm).
+The volume of a cuboid equals the base area times the height: $V=S_{base}\cdot h$. Hence $h=\dfrac{V}{S_{base}}$.
 
-So the height is $6$ cm.
+The base area is
+$$S_{base}=7\cdot5=35\ (\text{cm}^2).$$
+
+Substituting $V=210\ \text{cm}^3$ into the formula, we get
+$$h=\frac{210}{35}=6\ (\text{cm}).$$
+
+So the height of the cuboid is $6$ cm.
 
 **Answer.** $6$ cm.
 :::
@@ -332,7 +350,19 @@ A right prism has a right-angled triangle as base, with legs $6$ cm and $8$ cm a
 2. Apply the formulas.
 
 ::solution
-The base area is $\dfrac12\cdot6\cdot8=24\ (\text{cm}^2)$ and the base perimeter is $6+8+10=24$ (cm). We have $V=24\cdot9=216\ (\text{cm}^3)$ and $S_{tot}=24\cdot9+2\cdot24=264\ (\text{cm}^2)$.
+The base of the prism is a right-angled triangle with legs $6$ cm, $8$ cm and hypotenuse $10$ cm. We use the formulas $V=S_{base}\cdot h$ and $S_{tot}=S_{lat}+2S_{base}$, where $S_{lat}=C_{base}\cdot h$.
+
+The base area is
+$$S_{base}=\frac12\cdot6\cdot8=24\ (\text{cm}^2).$$
+
+The base perimeter is
+$$C_{base}=6+8+10=24\ (\text{cm}).$$
+
+The volume of the prism is
+$$V=24\cdot9=216\ (\text{cm}^3).$$
+
+The lateral surface area is $S_{lat}=24\cdot9=216$ (cm²). The total surface area is
+$$S_{tot}=24\cdot9+2\cdot24=216+48=264\ (\text{cm}^2).$$
 
 So $V=216\ \text{cm}^3$ and $S_{tot}=264\ \text{cm}^2$.
 
@@ -350,7 +380,19 @@ A right quadrilateral prism has a parallelogram as base, with sides $8$ cm and $
 2. Apply $V=B\cdot h$ and $S_{lat}=P\cdot h$.
 
 ::solution
-The base area is $8\cdot5=40\ (\text{cm}^2)$ and the base perimeter is $2(8+6)=28$ (cm). We have $V=40\cdot10=400\ (\text{cm}^3)$ and $S_{lat}=28\cdot10=280\ (\text{cm}^2)$.
+The base of the prism is a parallelogram. We use the formulas $V=S_{base}\cdot h$ and $S_{lat}=C_{base}\cdot h$.
+
+The base area equals a side times the height on that side:
+$$S_{base}=8\cdot5=40\ (\text{cm}^2).$$
+
+The base perimeter is
+$$C_{base}=2(8+6)=28\ (\text{cm}).$$
+
+The volume of the prism is
+$$V=40\cdot10=400\ (\text{cm}^3).$$
+
+The lateral surface area is
+$$S_{lat}=28\cdot10=280\ (\text{cm}^2).$$
 
 So $V=400\ \text{cm}^3$ and $S_{lat}=280\ \text{cm}^2$.
 

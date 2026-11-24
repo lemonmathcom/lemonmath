@@ -187,9 +187,16 @@ Gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Tí
 2. Nhân với xác suất xuất hiện mặt sấp.
 
 ::solution
-Xác suất số chấm là bội của $3$ bằng $\dfrac26=\dfrac13$; xác suất mặt sấp bằng $\dfrac12$.
+Gọi $A$ là biến cố "số chấm xuất hiện trên con xúc xắc là bội của $3$" và $B$ là biến cố "đồng xu xuất hiện mặt sấp". Việc gieo xúc xắc và tung đồng xu không ảnh hưởng đến nhau nên $A$ và $B$ độc lập, do đó $P(A\cap B)=P(A)P(B)$.
 
-$$P=\frac13\cdot\frac12=\frac16.$$
+Xúc xắc có $6$ mặt đồng khả năng; các số chấm là bội của $3$ là $3$ và $6$, tức là có $2$ kết quả thuận lợi. Suy ra $P(A)=\dfrac26=\dfrac13$.
+
+Đồng xu cân đối nên $P(B)=\dfrac12$.
+
+Áp dụng công thức nhân xác suất:
+$$P(A\cap B)=P(A)\cdot P(B)=\frac13\cdot\frac12=\frac16.$$
+
+Vậy xác suất để số chấm là bội của $3$ và đồng xu xuất hiện mặt sấp bằng $\dfrac16$.
 
 **Đáp số.** $\dfrac16$.
 :::
@@ -205,9 +212,15 @@ Hai vòng quay hoạt động độc lập. Xác suất vòng thứ nhất dừn
 2. Với câu b), nhân hai xác suất không dừng ở ô đỏ.
 
 ::solution
-a) $P(\text{cả hai đỏ})=0{,}4\cdot0{,}7=0{,}28$.
+Gọi $A$ là biến cố "vòng thứ nhất dừng ở ô đỏ" và $B$ là biến cố "vòng thứ hai dừng ở ô đỏ". Hai vòng quay hoạt động độc lập nên $A$ và $B$ độc lập. Ta có $P(A)=0{,}4$ và $P(B)=0{,}7$.
 
-b) $P(\text{không vòng nào đỏ})=(1-0{,}4)(1-0{,}7)=0{,}6\cdot0{,}3=0{,}18$.
+a) Cả hai cùng dừng ở ô đỏ là biến cố $A\cap B$. Theo công thức nhân xác suất,
+$$P(A\cap B)=P(A)P(B)=0{,}4\cdot0{,}7=0{,}28.$$
+
+b) Vì $A$, $B$ độc lập nên $\overline A$, $\overline B$ cũng độc lập. Ta có $P(\overline A)=1-0{,}4=0{,}6$ và $P(\overline B)=1-0{,}7=0{,}3$. Không vòng nào dừng ở ô đỏ là biến cố $\overline A\cap\overline B$, nên
+$$P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0{,}6\cdot0{,}3=0{,}18.$$
+
+Vậy xác suất cả hai cùng dừng ở ô đỏ là $0{,}28$; xác suất không vòng nào dừng ở ô đỏ là $0{,}18$.
 
 **Đáp số.** a) $0{,}28$; b) $0{,}18$.
 :::
@@ -227,11 +240,15 @@ b) $P(A)=0{,}4$, $P(B)=0{,}5$, $P(A\cap B)=0{,}18$.
 2. So sánh với xác suất của giao.
 
 ::solution
+Hai biến cố $A$, $B$ độc lập khi và chỉ khi $P(A\cap B)=P(A)P(B)$.
+
 Trong cả hai trường hợp, $P(A)P(B)=0{,}4\cdot0{,}5=0{,}2$.
 
-a) $P(A\cap B)=0{,}2$, nên $A$, $B$ độc lập.
+a) Ta có $P(A\cap B)=0{,}2=P(A)P(B)$, nên $A$ và $B$ độc lập.
 
-b) $P(A\cap B)=0{,}18\ne0{,}2$, nên $A$, $B$ không độc lập.
+b) Ta có $P(A\cap B)=0{,}18\neq0{,}2=P(A)P(B)$, nên $A$ và $B$ không độc lập.
+
+Vậy ở trường hợp a) $A$, $B$ độc lập; ở trường hợp b) $A$, $B$ không độc lập.
 
 **Đáp số.** a) Độc lập; b) không độc lập.
 :::
@@ -247,9 +264,15 @@ Hai bộ phận của một thiết bị hoạt động độc lập. Xác suấ
 2. Lấy $1$ trừ kết quả.
 
 ::solution
-Xác suất cả hai bộ phận đều tốt là $0{,}97\cdot0{,}94=0{,}9118$.
+Gọi $A$ là biến cố "bộ phận thứ nhất hoạt động tốt" và $B$ là biến cố "bộ phận thứ hai hoạt động tốt". Hai bộ phận hoạt động độc lập nên $A$, $B$ độc lập, với $P(A)=0{,}97$ và $P(B)=0{,}94$.
 
-Do đó $P(\text{ít nhất một bộ phận không tốt})=1-0{,}9118=0{,}0882$.
+Cả hai bộ phận đều hoạt động tốt là biến cố $A\cap B$, nên
+$$P(A\cap B)=P(A)P(B)=0{,}97\cdot0{,}94=0{,}9118.$$
+
+Biến cố "có ít nhất một bộ phận không hoạt động tốt" là biến cố đối của $A\cap B$. Do đó
+$$P=1-P(A\cap B)=1-0{,}9118=0{,}0882.$$
+
+Vậy xác suất có ít nhất một bộ phận không hoạt động tốt là $0{,}0882$.
 
 **Đáp số.** $0{,}0882$.
 :::
@@ -265,9 +288,17 @@ Một cầu thủ thực hiện hai cú sút độc lập. Xác suất ghi bàn 
 2. Cộng hai kết quả.
 
 ::solution
-Hai trường hợp có xác suất lần lượt là $0{,}75\cdot0{,}4=0{,}3$ và $0{,}25\cdot0{,}6=0{,}15$.
+Gọi $A$ là biến cố "cú sút thứ nhất ghi bàn" và $B$ là biến cố "cú sút thứ hai ghi bàn". Hai cú sút độc lập, với $P(A)=0{,}75$ và $P(B)=0{,}6$. Suy ra $P(\overline A)=0{,}25$ và $P(\overline B)=0{,}4$.
 
+Cầu thủ ghi đúng một bàn trong hai trường hợp xung khắc nhau:
+
+- ghi bàn ở cú thứ nhất, không ghi bàn ở cú thứ hai: $P\left(A\cap\overline B\right)=0{,}75\cdot0{,}4=0{,}3$;
+- không ghi bàn ở cú thứ nhất, ghi bàn ở cú thứ hai: $P\left(\overline A\cap B\right)=0{,}25\cdot0{,}6=0{,}15$.
+
+Áp dụng công thức cộng cho hai biến cố xung khắc:
 $$P(\text{đúng một bàn})=0{,}3+0{,}15=0{,}45.$$
+
+Vậy xác suất cầu thủ ghi đúng một bàn là $0{,}45$.
 
 **Đáp số.** $0{,}45$.
 :::
@@ -292,13 +323,17 @@ d) $A$ và $B$ là hai biến cố xung khắc.
 3. So sánh $P(A\cap B)$ với $0$ để xét xung khắc.
 
 ::solution
-a) **Đúng:** $P(A\cap B)=0{,}3\cdot0{,}8=0{,}24$.
+Vì $A$, $B$ độc lập nên $P(A\cap B)=P(A)P(B)$; đồng thời $\overline A$ và $B$ cũng độc lập.
 
-b) **Đúng:** $P(\overline A\cap B)=0{,}7\cdot0{,}8=0{,}56$.
+a) **Đúng.** Ta có $P(A\cap B)=0{,}3\cdot0{,}8=0{,}24$.
 
-c) **Đúng:** $P(A\cup B)=0{,}3+0{,}8-0{,}24=0{,}86$.
+b) **Đúng.** Ta có $P(\overline A)=1-0{,}3=0{,}7$. Vì $\overline A$, $B$ độc lập nên $P(\overline A\cap B)=0{,}7\cdot0{,}8=0{,}56$.
 
-d) **Sai:** $P(A\cap B)=0{,}24>0$, nên hai biến cố không xung khắc.
+c) **Đúng.** Theo công thức cộng, $P(A\cup B)=P(A)+P(B)-P(A\cap B)=0{,}3+0{,}8-0{,}24=0{,}86$.
+
+d) **Sai.** Hai biến cố xung khắc khi $P(A\cap B)=0$. Ở đây $P(A\cap B)=0{,}24>0$, nên $A$ và $B$ không xung khắc.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -315,11 +350,19 @@ Hai chuyến giao hàng độc lập có xác suất đến đúng giờ lần l
 3. Đổi sang phần trăm và làm tròn.
 
 ::solution
-Xác suất đúng một chuyến đến muộn là
+Gọi $A$ là biến cố "chuyến thứ nhất đến muộn" và $B$ là biến cố "chuyến thứ hai đến muộn". Hai chuyến độc lập, với xác suất đến đúng giờ lần lượt là $0{,}92$ và $0{,}85$. Suy ra $P(A)=1-0{,}92=0{,}08$ và $P(B)=1-0{,}85=0{,}15$.
 
-$$0{,}92\cdot0{,}15+0{,}08\cdot0{,}85=0{,}138+0{,}068=0{,}206.$$
+Có đúng một chuyến đến muộn trong hai trường hợp xung khắc:
 
-Đổi sang phần trăm: $0{,}206=20{,}6\%$.
+- chuyến thứ nhất đúng giờ, chuyến thứ hai muộn: $0{,}92\cdot0{,}15=0{,}138$;
+- chuyến thứ nhất muộn, chuyến thứ hai đúng giờ: $0{,}08\cdot0{,}85=0{,}068$.
+
+Do đó
+$$P=0{,}138+0{,}068=0{,}206.$$
+
+Đổi sang phần trăm: $0{,}206=20{,}6\%$ (đã ở hàng phần mười).
+
+Vậy xác suất có đúng một chuyến đến muộn là $20{,}6\%$.
 
 **Đáp số.** $20{,}6\%$.
 :::
@@ -339,11 +382,14 @@ b) Hai biến cố $A$, $B$ có độc lập không?
 2. So sánh $P(A\cap B)$ với $P(A)P(B)$.
 
 ::solution
-a) Theo công thức cộng:
+a) Theo công thức cộng xác suất,
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0{,}45+0{,}35-0{,}15=0{,}65.$$
 
-$$P(A\cup B)=0{,}45+0{,}35-0{,}15=0{,}65.$$
+b) Hai biến cố $A$, $B$ độc lập khi và chỉ khi $P(A\cap B)=P(A)P(B)$. Ta có
+$$P(A)P(B)=0{,}45\cdot0{,}35=0{,}1575.$$
+Vì $P(A\cap B)=0{,}15\neq0{,}1575$ nên $A$ và $B$ không độc lập.
 
-b) $P(A)P(B)=0{,}45\cdot0{,}35=0{,}1575\ne0{,}15$, nên $A$, $B$ không độc lập.
+Vậy $P(A\cup B)=0{,}65$ và hai biến cố $A$, $B$ không độc lập.
 
 **Đáp số.** a) $0{,}65$; b) không độc lập.
 :::
@@ -360,11 +406,16 @@ Một học sinh trả lời hai câu hỏi độc lập. Xác suất trả lờ
 3. Dùng $0\le p\le1$ để chọn nghiệm.
 
 ::solution
-Ta có
+Gọi $A$ là biến cố "trả lời đúng câu thứ nhất" và $B$ là biến cố "trả lời đúng câu thứ hai". Hai câu hỏi độc lập nên $P(A)=P(B)=p$ với $0\le p\le1$, và $\overline A$, $\overline B$ độc lập.
 
+Biến cố "trả lời đúng ít nhất một câu" là biến cố đối của "trả lời sai cả hai câu", tức là của $\overline A\cap\overline B$. Ta có $P\left(\overline A\cap\overline B\right)=(1-p)(1-p)=(1-p)^2$, nên xác suất cần tính là $1-(1-p)^2$. Theo đề,
 $$1-(1-p)^2=0{,}84\iff(1-p)^2=0{,}16.$$
 
-Vì $0\le p\le1$ nên $1-p\ge0$. Do đó $1-p=0{,}4$, suy ra $p=0{,}6$.
+Vì $0\le p\le1$ nên $1-p\ge0$. Do đó $1-p=\sqrt{0{,}16}=0{,}4$, suy ra $p=0{,}6$ (thoả mãn điều kiện $0\le p\le1$).
+
+Kiểm tra: $1-(1-0{,}6)^2=1-0{,}16=0{,}84$.
+
+Vậy $p=0{,}6$.
 
 **Đáp số.** $0{,}6$.
 :::

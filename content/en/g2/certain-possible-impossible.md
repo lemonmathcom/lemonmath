@@ -139,11 +139,13 @@ A box holds $6$ blue marbles. You take out $1$ marble. Say whether each event is
 1. What colour are the marbles in the box?
 
 ::solution
-The box holds only blue marbles.
+The box holds only blue marbles, with no marble of any other colour.
 
-a) You pick a blue marble every time, so this event is certain.
+a) Every time we take out $1$ marble it is blue, so this event is certain.
 
-b) There is no red marble in the box, so this event is impossible.
+b) There is no red marble in the box, so we can never pick a red one. This event is impossible.
+
+So picking a blue marble is certain; picking a red marble is impossible.
 
 **Answer.** a) certain; b) impossible.
 :::
@@ -160,7 +162,13 @@ A box holds $4$ red marbles and $4$ blue marbles. You take out $1$ marble. Say w
 ::solution
 The box holds both red and blue marbles, but no yellow marbles.
 
-a) Picking a red marble is possible. b) Picking a blue marble is possible. c) Picking a yellow marble is impossible.
+a) The box has red marbles but also blue ones, so picking a red marble may or may not happen. This event is possible.
+
+b) In the same way, the box has both blue and red marbles, so picking a blue marble is possible.
+
+c) The box has no yellow marble, so this event is impossible.
+
+So picking a red marble is possible; picking a blue marble is possible; picking a yellow marble is impossible.
 
 **Answer.** a) possible; b) possible; c) impossible.
 :::
@@ -175,11 +183,15 @@ A box holds $5$ cards with the numbers $1$, $2$, $3$, $4$, $5$. You pick $1$ car
 1. Is there a card with $6$?
 
 ::solution
-a) There is no card with $6$, so this event is impossible.
+The box holds $5$ cards with the numbers $1$, $2$, $3$, $4$, $5$.
 
-b) All five cards are less than $6$, so this event is certain.
+a) No card has the number $6$, so this event is impossible.
 
-c) The cards $1$, $3$, $5$ are odd, but $2$ and $4$ are not, so this event is possible.
+b) All five numbers $1$, $2$, $3$, $4$, $5$ are less than $6$, so whichever card we pick, its number is less than $6$. This event is certain.
+
+c) The cards $1$, $3$, $5$ have odd numbers, but the cards $2$ and $4$ do not. Since we may pick an odd card and we may not, this event is possible.
+
+So picking the card with the number $6$ is impossible; picking a card with a number less than $6$ is certain; picking a card with an odd number is possible.
 
 **Answer.** a) impossible; b) certain; c) possible.
 :::
@@ -194,11 +206,13 @@ Today is Friday. Say whether each event is certain, possible or impossible: a) t
 1. Which day comes after Friday?
 
 ::solution
-a) Saturday always comes after Friday, so this event is certain.
+a) Saturday always comes after Friday, so it is sure that tomorrow is Saturday. This event is certain.
 
-b) Some days it rains and some days it does not, so this event is possible.
+b) Some days it rains and some days it does not, so rain this afternoon may or may not happen. This event is possible.
 
-c) There is no number $11$ from $1$ to $10$, so this event is impossible.
+c) When we count from $1$ to $10$, we do not meet the number $11$. This event is impossible.
+
+So tomorrow being Saturday is certain; rain this afternoon is possible; saying the number $11$ when counting from $1$ to $10$ is impossible.
 
 **Answer.** a) certain; b) possible; c) impossible.
 :::
@@ -213,11 +227,15 @@ A spinner is divided into $8$ equal sections: $5$ red and $3$ blue. You spin it 
 1. What colour is every section of the spinner?
 
 ::solution
-a) Every section is red or blue, so this event is certain.
+The spinner has $8$ equal sections: $5$ red and $3$ blue. Since $5+3=8$, every section is red or blue.
 
-b) The spinner has no yellow section, so this event is impossible.
+a) Whichever section the pointer stops on, it is red or blue, so this event is certain.
 
-c) Since $5>3$, the pointer is more likely to stop on red.
+b) The spinner has no yellow section, so the pointer can never stop on yellow. This event is impossible.
+
+c) There are $5$ red sections and $3$ blue sections, and $5>3$. The sections are equal, so the colour with more sections is the one the pointer is more likely to stop on. So the pointer is more likely to stop on red.
+
+So the pointer stopping on red or blue is certain; stopping on yellow is impossible; the pointer is more likely to stop on red.
 
 **Answer.** a) certain; b) impossible; c) red.
 :::
@@ -232,11 +250,20 @@ Remember the lesson on tallying. Mai tallies the marbles in a box: red $\cancel{
 1. Count the red marbles and the blue marbles.
 
 ::solution
-Red marbles: $5+2=7$. Blue marbles: $5$.
+Solution
+
+In the tally chart, each group of four strokes with a slash through them stands for $5$ marbles, and each single stroke stands for $1$ marble.
+
+The number of red marbles is $5+2=7$. The number of blue marbles is $5$.
 
 The number of marbles in the box is:
 $$7+5=12\ \text{(marbles)}.$$
-There is no yellow marble, so picking a yellow marble is impossible. Since $7>5$, red is easier to pick.
+
+The box holds only red and blue marbles and no yellow marble, so picking a yellow marble is impossible.
+
+Compare the numbers: $7>5$, so there are more red marbles than blue ones, and red is easier to pick.
+
+So the box holds $12$ marbles altogether; picking a yellow marble is impossible; red is easier to pick.
 
 **Answer.** $12$ marbles; impossible; red.
 :::
@@ -251,7 +278,13 @@ A box holds $3$ red marbles and $2$ blue marbles. What must you do so that picki
 1. To be certain of picking red, which marbles can the box hold?
 
 ::solution
-To make picking a red marble certain, the box must hold only red marbles. So take the $2$ blue marbles out of the box.
+The box holds $3$ red marbles and $2$ blue marbles. At the moment, taking out $1$ marble may give a red one or a blue one.
+
+To make picking a red marble certain, the box must hold only red marbles, with no marble of any other colour.
+
+So we must take the two blue marbles out of the box. Then only the $3$ red marbles are left, so whichever marble we take out is red.
+
+So we need to take the $2$ blue marbles out of the box.
 
 **Answer.** Take the $2$ blue marbles out of the box.
 :::
@@ -266,10 +299,17 @@ Lan wants to put marbles into a box so that, when $1$ marble is taken out: picki
 1. Which kinds of marble must the box hold? Which kind must it not hold?
 
 ::solution
-The box must hold red and blue marbles but no yellow marbles. Each kind needs at least $1$ marble.
+Solution
 
-The least number of marbles is:
+For picking a red marble to be possible, the box must hold at least $1$ red marble. For picking a blue marble to be possible, the box must hold at least $1$ blue marble.
+
+For picking a yellow marble to be impossible, the box must hold no yellow marble at all.
+
+Each of the two kinds needs at least $1$ marble, so the least number of marbles is:
 $$1+1=2\ \text{(marbles)}.$$
+
+So Lan's box holds at least $2$ marbles: $1$ red and $1$ blue.
+
 **Answer.** At least $2$ marbles: $1$ red and $1$ blue.
 :::
 

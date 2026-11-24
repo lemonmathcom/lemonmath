@@ -192,7 +192,13 @@ A shape is made of two rows of $1\ \text{cm}^2$ squares with $5$ squares in each
 1. How many squares are there altogether?
 
 ::solution
-The number of squares is $5+5=10$, and each square has an area of $1\ \text{cm}^2$.
+The shape is made of two rows of squares with $5$ squares in each row, so the number of squares is
+$$5+5=10\ \text{(squares)}.$$
+
+Each square has an area of $1\ \text{cm}^2$, so the area of the shape is
+$$10\times1=10\ (\text{cm}^2).$$
+
+So the area of the shape is $10\ \text{cm}^2$.
 
 **Answer.** $10\ \text{cm}^2$.
 :::
@@ -207,8 +213,13 @@ Find the area of a rectangle $8$ cm long and $3$ cm wide.
 1. Write the multiplication $8\times 3$.
 
 ::solution
+To find the area of a rectangle, we multiply its length by its width (in the same unit).
+
 The area of the rectangle is:
-$$8\times 3=24\ (\text{cm}^2).$$
+$$8\times3=24\ (\text{cm}^2).$$
+
+So the rectangle has an area of $24\ \text{cm}^2$.
+
 **Answer.** $24\ \text{cm}^2$.
 :::
 
@@ -222,8 +233,13 @@ Find the area of a square with sides of $7$ cm.
 1. Write the multiplication $7\times 7$.
 
 ::solution
+To find the area of a square, we multiply the length of a side by itself.
+
 The area of the square is:
-$$7\times 7=49\ (\text{cm}^2).$$
+$$7\times7=49\ (\text{cm}^2).$$
+
+So the square has an area of $49\ \text{cm}^2$.
+
 **Answer.** $49\ \text{cm}^2$.
 :::
 
@@ -238,8 +254,13 @@ The lid of a biscuit tin is a rectangle $15$ cm long and $9$ cm wide. What is th
 2. Write the multiplication $15\times 9$.
 
 ::solution
-The area of the lid is:
-$$15\times 9=135\ (\text{cm}^2).$$
+Solution
+
+The lid is a rectangle, so its area is its length times its width:
+$$15\times9=135\ (\text{cm}^2).$$
+
+So the area of the lid is $135\ \text{cm}^2$.
+
 **Answer.** $135\ \text{cm}^2$.
 :::
 
@@ -253,9 +274,15 @@ Shape $A$ is a rectangle $9$ cm long and $4$ cm wide. Shape $B$ is a square with
 1. Work out $9\times 4$ and $6\times 6$.
 
 ::solution
-The area of shape $A$ is $9\times 4=36\ (\text{cm}^2)$. The area of shape $B$ is $6\times 6=36\ (\text{cm}^2)$.
+Shape $A$ is a rectangle, so its area is
+$$9\times4=36\ (\text{cm}^2).$$
 
-The two areas are equal: $36=36$.
+Shape $B$ is a square, so its area is
+$$6\times6=36\ (\text{cm}^2).$$
+
+Comparing the two areas: $36=36$.
+
+So the two shapes have equal areas; neither shape has the greater area.
 
 **Answer.** The two shapes have equal areas.
 :::
@@ -271,10 +298,19 @@ A rectangular sheet of paper is $10$ cm long and $6$ cm wide. A square with side
 2. Subtract the area of the square from the area of the sheet.
 
 ::solution
-The area of the sheet is $10\times 6=60\ (\text{cm}^2)$. The area of the square cut out is $2\times 2=4\ (\text{cm}^2)$.
+Solution
+
+The area of the sheet is:
+$$10\times6=60\ (\text{cm}^2).$$
+
+The area of the square cut out is:
+$$2\times2=4\ (\text{cm}^2).$$
 
 The area of the paper left is:
 $$60-4=56\ (\text{cm}^2).$$
+
+So the paper that is left has an area of $56\ \text{cm}^2$.
+
 **Answer.** $56\ \text{cm}^2$.
 :::
 
@@ -288,8 +324,17 @@ Remember numerical expressions. A piece of card is made of two rectangles joined
 1. Write the area of each rectangle, then add.
 
 ::solution
-The total area of the card is:
-$$5\times 3+4\times 3=15+12=27\ (\text{cm}^2).$$
+Solution
+
+The area of the first rectangle is $5\times3=15\ (\text{cm}^2)$.
+
+The area of the second rectangle is $4\times3=12\ (\text{cm}^2)$.
+
+The total area of the card is the sum of the areas of the two rectangles. The expression is $5\times3+4\times3$. We work it out:
+$$5\times3+4\times3=15+12=27\ (\text{cm}^2).$$
+
+So the total area of the card is $27\ \text{cm}^2$.
+
 **Answer.** $27\ \text{cm}^2$.
 :::
 
@@ -304,10 +349,18 @@ A square has a perimeter of $24$ cm. Find the area of the square.
 2. Find the area.
 
 ::solution
-The length of one side of the square is:
+Solution
+
+A square has four equal sides, so the length of one side is the perimeter divided by $4$:
 $$24\div4=6\ (\text{cm}).$$
+
 The area of the square is:
-$$6\times 6=36\ (\text{cm}^2).$$
+$$6\times6=36\ (\text{cm}^2).$$
+
+Check: the perimeter of a square with sides of $6$ cm is $6\times4=24$ (cm). Correct.
+
+So the square has an area of $36\ \text{cm}^2$.
+
 **Answer.** $36\ \text{cm}^2$.
 :::
 

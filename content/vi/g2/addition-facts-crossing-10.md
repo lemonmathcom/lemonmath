@@ -158,9 +158,15 @@ b) $8+6$
 2. Cộng 10 với phần còn lại.
 
 ::solution
-a) $9+4=9+1+3=10+3=13$.
+Để cộng qua $10$, ta tách số hạng thứ hai để số thứ nhất cộng với một phần của nó được $10$.
 
-b) $8+6=8+2+4=10+4=14$.
+a) Tách $4$ thành $1+3$ để $9+1=10$:
+$$9+4=9+1+3=10+3=13.$$
+
+b) Tách $6$ thành $2+4$ để $8+2=10$:
+$$8+6=8+2+4=10+4=14.$$
+
+Vậy $9+4=13$ và $8+6=14$.
 
 **Đáp số.** a) 13; b) 14.
 :::
@@ -182,11 +188,16 @@ c) $9+9$
 2. Câu b: đổi chỗ thành $8+6$ rồi tách.
 
 ::solution
-a) $7+5=7+3+2=10+2=12$.
+a) Tách $5$ thành $3+2$ để $7+3=10$:
+$$7+5=7+3+2=10+2=12.$$
 
-b) $6+8=8+6=8+2+4=14$.
+b) Đổi chỗ hai số hạng: $6+8=8+6$. Tách $6$ thành $2+4$ để $8+2=10$:
+$$6+8=8+6=8+2+4=10+4=14.$$
 
-c) $9+9=9+1+8=10+8=18$.
+c) Tách $9$ thành $1+8$ để $9+1=10$:
+$$9+9=9+1+8=10+8=18.$$
+
+Vậy $7+5=12$; $6+8=14$; $9+9=18$.
 
 **Đáp số.** a) 12; b) 14; c) 18.
 :::
@@ -206,9 +217,15 @@ b) $6+7$
 2. Tách số để làm tròn 10.
 
 ::solution
-a) $4+9=9+4=9+1+3=13$.
+Khi đổi chỗ hai số hạng, tổng không thay đổi. Ta đưa số lớn hơn lên trước rồi tách số còn lại để làm tròn $10$.
 
-b) $6+7=7+6=7+3+3=13$.
+a) Ta có $4+9=9+4$. Tách $4$ thành $1+3$:
+$$4+9=9+4=9+1+3=10+3=13.$$
+
+b) Ta có $6+7=7+6$. Tách $6$ thành $3+3$ để $7+3=10$:
+$$6+7=7+6=7+3+3=10+3=13.$$
+
+Vậy $4+9=13$ và $6+7=13$.
 
 **Đáp số.** a) 13; b) 13.
 :::
@@ -225,9 +242,15 @@ $$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
 2. So sánh kết quả với số bên phải.
 
 ::solution
-Ta có $8+5=13$ và $13<14$.
-Ta có $7+6=13$ và $13=13$.
-Ta có $9+4=13$ và $13>12$.
+Ta tính tổng ở vế trái rồi so sánh với số ở bên phải.
+
+Ta có $8+5=8+2+3=10+3=13$. Vì $13<14$ nên $8+5<14$.
+
+Ta có $7+6=7+3+3=10+3=13$. Vì $13=13$ nên $7+6=13$.
+
+Ta có $9+4=9+1+3=10+3=13$. Vì $13>12$ nên $9+4>12$.
+
+Vậy ta điền: $8+5<14$; $7+6=13$; $9+4>12$.
 
 **Đáp số.** $8+5<14$; $7+6=13$; $9+4>12$.
 :::
@@ -246,9 +269,14 @@ Giả sử buổi sáng Lan gấp được 6 chiếc thuyền giấy, buổi chi
 ::solution
 Bài giải
 
+Muốn biết cả hai buổi Lan gấp được bao nhiêu chiếc thuyền, ta lấy số thuyền buổi sáng cộng với số thuyền buổi chiều.
+
 Cả hai buổi Lan gấp được số chiếc thuyền là:
-$$6+7=7+6=13\ \text{(chiếc)}.$$
-Đáp số: 13 chiếc thuyền.
+$$6+7=7+6=7+3+3=10+3=13\ \text{(chiếc)}.$$
+
+Vậy cả hai buổi Lan gấp được $13$ chiếc thuyền.
+
+**Đáp số.** 13 chiếc thuyền.
 :::
 
 :::exercise
@@ -265,9 +293,14 @@ Giả sử trong thư viện lớp có 8 bạn đang đọc truyện và 9 bạn
 ::solution
 Bài giải
 
+Muốn biết thư viện có tất cả bao nhiêu bạn đang đọc, ta lấy số bạn đọc truyện cộng với số bạn đọc sách khoa học.
+
 Thư viện có tất cả số bạn đang đọc là:
 $$8+9=8+2+7=10+7=17\ \text{(bạn)}.$$
-Đáp số: 17 bạn.
+
+Vậy thư viện có tất cả $17$ bạn đang đọc.
+
+**Đáp số.** 17 bạn.
 :::
 
 :::exercise
@@ -281,8 +314,12 @@ Nhớ lại bài tia số. Trên tia số, từ vạch 8 nhảy sang phải 7 v�
 2. Tách số để làm tròn 10.
 
 ::solution
-Nhảy sang phải 7 vạch là cộng 7:
+Trên tia số, nhảy sang phải $7$ vạch nghĩa là cộng thêm $7$. Vì vậy ta tính $8+7$.
+
+Tách $7$ thành $2+5$ để $8$ cộng $2$ được $10$:
 $$8+7=8+2+5=10+5=15.$$
+
+Vậy từ vạch $8$ nhảy sang phải $7$ vạch thì đến vạch $15$.
 
 **Đáp số.** Vạch 15.
 :::
@@ -298,7 +335,24 @@ Trong các phép cộng $9+2$, $9+3$, $9+4$, …, $9+9$, những phép cộng n�
 2. Số hạng thứ hai tăng lên thì tổng tăng lên thế nào?
 
 ::solution
-Ta có $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. Các tổng lớn hơn 14 và nhỏ hơn 18 là 15, 16, 17.
+Ta tính tổng của từng phép cộng. Mỗi phép cộng $9+n$ bằng $10$ cộng với $n-1$ (vì $9+1=10$).
+
+| Phép cộng | Tổng |
+|---|---|
+| $9+2$ | $11$ |
+| $9+3$ | $12$ |
+| $9+4$ | $13$ |
+| $9+5$ | $14$ |
+| $9+6$ | $15$ |
+| $9+7$ | $16$ |
+| $9+8$ | $17$ |
+| $9+9$ | $18$ |
+
+Ta cần các tổng lớn hơn $14$ và nhỏ hơn $18$, tức là các tổng $15$, $16$, $17$. Tổng $14$ không lớn hơn $14$ và tổng $18$ không nhỏ hơn $18$ nên hai tổng này bị loại.
+
+Các tổng $15$, $16$, $17$ ứng với các phép cộng $9+6$, $9+7$, $9+8$.
+
+Vậy có ba phép cộng thoả mãn là $9+6$, $9+7$, $9+8$.
 
 **Đáp số.** Ba phép cộng: $9+6$, $9+7$, $9+8$.
 :::

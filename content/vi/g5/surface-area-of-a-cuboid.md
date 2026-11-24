@@ -143,7 +143,14 @@ Hình hộp dài $11$ cm, rộng $4$ cm, cao $6$ cm. Tính diện tích xung qua
 2. Nhân $6$; ghi đơn vị vuông.
 
 ::solution
-$$(11+4)\times2\times6=180\ \text{cm}^2.$$
+Bài giải
+
+Diện tích xung quanh của hình hộp chữ nhật bằng chu vi đáy nhân với chiều cao.
+
+Đáy có chiều dài $11$ cm, chiều rộng $4$ cm; chiều cao là $6$ cm. Diện tích xung quanh của hình hộp là:
+$$(11+4)\times2\times6=15\times2\times6=180\ \text{cm}^2.$$
+
+Vậy diện tích xung quanh của hình hộp là $180\ \text{cm}^2$.
 
 **Đáp số.** $180\ \text{cm}^2$.
 :::
@@ -159,8 +166,20 @@ Hình hộp dài $7$ dm, rộng $5$ dm, cao $3$ dm. Tính diện tích toàn ph�
 2. Cộng hai đáy; kiểm tra đủ sáu mặt.
 
 ::solution
-Diện tích toàn phần là
-$$ (7+5)\times2\times3+2\times7\times5=142\ \text{dm}^2.$$
+Bài giải
+
+Diện tích toàn phần bằng diện tích xung quanh cộng với diện tích hai đáy.
+
+Diện tích xung quanh là:
+$$(7+5)\times2\times3=12\times2\times3=72\ \text{dm}^2.$$
+
+Diện tích một đáy là $7\times5=35\ \text{dm}^2$, nên diện tích hai đáy là:
+$$2\times35=70\ \text{dm}^2.$$
+
+Diện tích toàn phần của hình hộp là:
+$$72+70=142\ \text{dm}^2.$$
+
+Vậy diện tích toàn phần của hình hộp là $142\ \text{dm}^2$.
 
 **Đáp số.** $142\ \text{dm}^2$.
 :::
@@ -176,7 +195,19 @@ Hình hộp dài $8$ cm, rộng $4$ cm, có diện tích xung quanh $216\ \text{
 2. Lấy $216$ chia cho kết quả.
 
 ::solution
-Chu vi đáy là $(8+4)\times2=24$ cm, nên chiều cao là $216:24=9$ cm.
+Bài giải
+
+Diện tích xung quanh bằng chu vi đáy nhân với chiều cao, nên chiều cao bằng diện tích xung quanh chia cho chu vi đáy.
+
+Chu vi đáy là:
+$$(8+4)\times2=24\ \text{(cm)}.$$
+
+Chiều cao của hình hộp là:
+$$216:24=9\ \text{(cm)}.$$
+
+Kiểm tra: $24\times9=216$, đúng với đề bài.
+
+Vậy chiều cao của hình hộp là $9$ cm.
 
 **Đáp số.** $9$ cm.
 :::
@@ -192,8 +223,18 @@ Kích thước dài, rộng, cao của hộp A là $10$ cm, $6$ cm, $4$ cm; củ
 2. Lấy số lớn trừ số bé.
 
 ::solution
-Hai diện tích lần lượt là $128\ \text{cm}^2$ và $120\ \text{cm}^2$, vì
-$$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
+Bài giải
+
+Diện tích xung quanh của hộp A là:
+$$(10+6)\times2\times4=16\times2\times4=128\ \text{cm}^2.$$
+
+Diện tích xung quanh của hộp B là:
+$$(8+7)\times2\times4=15\times2\times4=120\ \text{cm}^2.$$
+
+Vì $128>120$ nên diện tích xung quanh của hộp A lớn hơn. Hộp A lớn hơn hộp B:
+$$128-120=8\ \text{cm}^2.$$
+
+Vậy hộp A có diện tích xung quanh lớn hơn và hơn hộp B $8\ \text{cm}^2$.
 
 **Đáp số.** Hộp A lớn hơn $8\ \text{cm}^2$.
 :::
@@ -211,8 +252,20 @@ Nhớ lại bài trước: một hình khai triển có hai mặt $9\ \text{cm}\
 2. Cộng ba kết quả.
 
 ::solution
-Diện tích toàn phần là
-$$2\times9\times5+2\times9\times3+2\times5\times3=174\ \text{cm}^2.$$
+Bài giải
+
+Hình hộp chữ nhật có $6$ mặt, chia thành ba cặp mặt bằng nhau, nên diện tích toàn phần bằng tổng diện tích của ba cặp mặt đó.
+
+Diện tích hai mặt $9\ \text{cm}\times5\ \text{cm}$ là $2\times9\times5=90\ \text{cm}^2$.
+
+Diện tích hai mặt $9\ \text{cm}\times3\ \text{cm}$ là $2\times9\times3=54\ \text{cm}^2$.
+
+Diện tích hai mặt $5\ \text{cm}\times3\ \text{cm}$ là $2\times5\times3=30\ \text{cm}^2$.
+
+Diện tích toàn phần là:
+$$90+54+30=174\ \text{cm}^2.$$
+
+Vậy diện tích toàn phần của hình hộp là $174\ \text{cm}^2$.
 
 **Đáp số.** $174\ \text{cm}^2$.
 :::
@@ -228,8 +281,14 @@ Hộp trà dài $14$ cm, rộng $8$ cm, cao $20$ cm. Nhãn phủ bốn mặt bê
 2. Nhân chiều cao; không cộng hai đáy.
 
 ::solution
-Diện tích nhãn là
-$$ (14+8)\times2\times20=880\ \text{cm}^2.$$
+Bài giải
+
+Nhãn phủ bốn mặt bên, không chồng mép, nên diện tích nhãn bằng diện tích xung quanh của hộp.
+
+Diện tích nhãn là:
+$$(14+8)\times2\times20=22\times2\times20=880\ \text{cm}^2.$$
+
+Vậy diện tích nhãn là $880\ \text{cm}^2$.
 
 **Đáp số.** $880\ \text{cm}^2$.
 :::
@@ -245,8 +304,19 @@ Hộp gỗ dài $50$ cm, rộng $30$ cm, cao $20$ cm. Sơn bốn mặt bên và 
 2. Cộng $50\times30$ cho mặt trên.
 
 ::solution
-Diện tích được sơn là
-$$ (50+30)\times2\times20+50\times30=4\,700\ \text{cm}^2.$$
+Bài giải
+
+Diện tích được sơn gồm diện tích bốn mặt bên (diện tích xung quanh) và diện tích mặt trên (bằng diện tích một đáy).
+
+Diện tích bốn mặt bên là:
+$$(50+30)\times2\times20=80\times2\times20=3\,200\ \text{cm}^2.$$
+
+Diện tích mặt trên là $50\times30=1\,500\ \text{cm}^2$.
+
+Diện tích được sơn là:
+$$3\,200+1\,500=4\,700\ \text{cm}^2.$$
+
+Vậy diện tích sơn là $4\,700\ \text{cm}^2$.
 
 **Đáp số.** $4\,700\ \text{cm}^2$.
 :::
@@ -262,7 +332,25 @@ Hình hộp dài $10$ cm, rộng $4$ cm, có diện tích toàn phần $248\ \te
 2. Chia cho chu vi đáy.
 
 ::solution
-Hai đáy có diện tích $80\ \text{cm}^2$, nên diện tích xung quanh là $248-80=168\ \text{cm}^2$. Chu vi đáy là $28$ cm, do đó chiều cao là $168:28=6$ cm.
+Bài giải
+
+Diện tích toàn phần bằng diện tích xung quanh cộng với diện tích hai đáy, nên diện tích xung quanh bằng diện tích toàn phần trừ đi diện tích hai đáy.
+
+Diện tích hai đáy là:
+$$2\times10\times4=80\ \text{cm}^2.$$
+
+Diện tích xung quanh là:
+$$248-80=168\ \text{cm}^2.$$
+
+Chu vi đáy là:
+$$(10+4)\times2=28\ \text{(cm)}.$$
+
+Chiều cao của hình hộp là:
+$$168:28=6\ \text{(cm)}.$$
+
+Kiểm tra: $28\times6+80=168+80=248$, đúng với đề bài.
+
+Vậy chiều cao của hình hộp là $6$ cm.
 
 **Đáp số.** $6$ cm.
 :::

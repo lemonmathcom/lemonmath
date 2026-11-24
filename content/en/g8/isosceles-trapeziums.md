@@ -221,7 +221,13 @@ The trapezium $ABCD$ ($AB\parallel CD$) has $\angle A=120^\circ$ and $\angle B=1
 2. Find $\angle C$ from $\angle B$.
 
 ::solution
-We have $\angle D=180^\circ-120^\circ=60^\circ$ and $\angle C=180^\circ-100^\circ=80^\circ$. (Check: $120+100+80+60=360$.)
+In the trapezium $ABCD$ we have $AB\parallel CD$. The angles $\angle A$ and $\angle D$ are co-interior angles formed by the parallel lines $AB$, $CD$ and the leg $AD$, so
+$$\angle A+\angle D=180^\circ.$$
+Hence $\angle D=180^\circ-120^\circ=60^\circ$.
+
+Similarly, $\angle B$ and $\angle C$ are co-interior angles with the leg $BC$, so $\angle B+\angle C=180^\circ$. Hence $\angle C=180^\circ-100^\circ=80^\circ$.
+
+Check: $120^\circ+100^\circ+80^\circ+60^\circ=360^\circ$, which is the sum of the angles of a quadrilateral.
 
 So $\angle D=60^\circ$ and $\angle C=80^\circ$.
 
@@ -239,7 +245,14 @@ The isosceles trapezium $MNPQ$ ($MN\parallel PQ$) has $\angle Q=65^\circ$. Find 
 2. Find $\angle M$ and $\angle N$.
 
 ::solution
-The two base angles at the base $PQ$ are equal, so $\angle P=\angle Q=65^\circ$. Since $MN\parallel PQ$, we have $\angle M=180^\circ-\angle Q=115^\circ$ and $\angle N=180^\circ-\angle P=115^\circ$.
+Since $MNPQ$ is an isosceles trapezium with bases $MN$ and $PQ$, the two base angles at the base $PQ$ are equal, that is
+$$\angle P=\angle Q=65^\circ.$$
+
+Since $MN\parallel PQ$, the angles $\angle M$ and $\angle Q$ are co-interior angles with the leg $MQ$. Hence
+$$\angle M=180^\circ-\angle Q=180^\circ-65^\circ=115^\circ.$$
+
+Similarly, $\angle N$ and $\angle P$ are co-interior angles with the leg $NP$, so
+$$\angle N=180^\circ-\angle P=180^\circ-65^\circ=115^\circ.$$
 
 So $\angle P=65^\circ$ and $\angle M=\angle N=115^\circ$.
 
@@ -257,9 +270,14 @@ The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $AB=8$ cm, $CD=14$ cm and 
 2. Add the four sides.
 
 ::solution
-Since $ABCD$ is an isosceles trapezium, $BC=AD=5$ cm. The perimeter is $8+5+14+5=32$ (cm).
+The perimeter of the trapezium $ABCD$ is the sum of its four sides: $AB+BC+CD+DA$.
 
-So the perimeter is $32$ cm.
+Since $ABCD$ is an isosceles trapezium, its two legs are equal, so $BC=AD=5$ cm.
+
+Hence the perimeter is
+$$AB+BC+CD+DA=8+5+14+5=32\ (\text{cm}).$$
+
+So the perimeter of the isosceles trapezium $ABCD$ is $32$ cm.
 
 **Answer.** $32$ cm.
 :::
@@ -275,9 +293,16 @@ The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $AB=6$ cm, $CD=14$ cm and 
 2. Find $AH$ in the right triangle $AHD$.
 
 ::solution
-We have $DH=\dfrac{14-6}{2}=4$ (cm). In the right triangle $AHD$: $AH^2=AD^2-DH^2=25-16=9$, so $AH=3$ cm.
+Draw the altitudes $AH$ and $BK$ to the base $CD$ ($H$, $K$ on $CD$). Since $ABCD$ is an isosceles trapezium, $DH=KC$ and $HK=AB=6$ cm.
 
-So the height is $3$ cm.
+We have
+$$DH=\frac{CD-AB}{2}=\frac{14-6}{2}=4\ (\text{cm}).$$
+
+Consider the right triangle $AHD$, right-angled at $H$. By Pythagoras' theorem, we have
+$$AH^2=AD^2-DH^2=5^2-4^2=25-16=9.$$
+Hence $AH=3$ cm (since $AH>0$).
+
+So the height of the isosceles trapezium is $3$ cm.
 
 **Answer.** $3$ cm.
 :::
@@ -311,7 +336,18 @@ The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle A=3\angle C$. Find
 2. Find $\angle C$, then the other angles.
 
 ::solution
-Since $\angle D=\angle C$, we have $\angle A+\angle C=\angle A+\angle D=180^\circ$. Substituting $\angle A=3\angle C$: $4\angle C=180^\circ$, so $\angle C=45^\circ$. Hence $\angle D=45^\circ$ and $\angle A=\angle B=135^\circ$.
+Since $ABCD$ is an isosceles trapezium with $AB\parallel CD$, the two base angles at the base $CD$ are equal: $\angle D=\angle C$. The two base angles at the base $AB$ are also equal: $\angle A=\angle B$.
+
+Since $AB\parallel CD$, the angles $\angle A$ and $\angle D$ are co-interior angles, so
+$$\angle A+\angle D=180^\circ.$$
+As $\angle D=\angle C$, we get $\angle A+\angle C=180^\circ$.
+
+Substituting $\angle A=3\angle C$, we obtain
+$$3\angle C+\angle C=180^\circ\iff4\angle C=180^\circ\iff\angle C=45^\circ.$$
+
+Hence $\angle D=\angle C=45^\circ$ and $\angle A=3\cdot45^\circ=135^\circ$, $\angle B=\angle A=135^\circ$.
+
+Check: $135^\circ+135^\circ+45^\circ+45^\circ=360^\circ$.
 
 So $\angle C=\angle D=45^\circ$ and $\angle A=\angle B=135^\circ$.
 

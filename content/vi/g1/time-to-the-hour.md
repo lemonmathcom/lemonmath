@@ -162,7 +162,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Kim ngắn chỉ số mấy?
 
 ::solution
-Kim ngắn chỉ số 8 nên đồng hồ chỉ 8 giờ.
+Khi đồng hồ chỉ giờ đúng thì kim dài chỉ số 12, còn kim ngắn chỉ số cho biết là mấy giờ.
+
+Ở đây kim dài chỉ số 12 và kim ngắn chỉ số 8.
+
+Vậy đồng hồ chỉ 8 giờ.
 
 **Đáp số.** 8 giờ.
 :::
@@ -178,7 +182,11 @@ Muốn đồng hồ chỉ 11 giờ thì kim dài chỉ số mấy và kim ngắn
 2. Kim ngắn chỉ số nào?
 
 ::solution
-Giờ đúng nên kim dài chỉ số 12. Kim ngắn chỉ số 11.
+Muốn đồng hồ chỉ giờ đúng thì kim dài phải chỉ số 12.
+
+Đồng hồ chỉ 11 giờ nên kim ngắn chỉ số 11.
+
+Vậy kim dài chỉ số 12 và kim ngắn chỉ số 11.
 
 **Đáp số.** Kim dài chỉ số 12, kim ngắn chỉ số 11.
 :::
@@ -198,9 +206,13 @@ b) 1 giờ trước 7 giờ là $\square$ giờ.
 2. Câu b: em thêm hay bớt?
 
 ::solution
-a) $7+1=8$.
+a) 1 giờ sau 7 giờ nghĩa là thêm 1 giờ vào 7 giờ. Ta có
+$$7+1=8.$$
+Vậy 1 giờ sau 7 giờ là 8 giờ.
 
-b) $7-1=6$.
+b) 1 giờ trước 7 giờ nghĩa là bớt đi 1 giờ so với 7 giờ. Ta có
+$$7-1=6.$$
+Vậy 1 giờ trước 7 giờ là 6 giờ.
 
 **Đáp số.** a) 8 giờ; b) 6 giờ.
 :::
@@ -216,7 +228,14 @@ Hôm nay là thứ năm. Hôm qua là thứ mấy? Ngày mai là thứ mấy?
 2. Tìm ngày đứng trước và ngày đứng sau.
 
 ::solution
+Các ngày trong tuần theo thứ tự là: thứ hai, thứ ba, thứ tư, thứ năm, thứ sáu, thứ bảy, chủ nhật.
+
+Hôm nay là thứ năm. Hôm qua là ngày đứng ngay trước thứ năm, đó là thứ tư. Ngày mai là ngày đứng ngay sau thứ năm, đó là thứ sáu.
+
+Ba ngày liên tiếp là
 $$\text{thứ tư},\ \text{thứ năm},\ \text{thứ sáu}.$$
+
+Vậy hôm qua là thứ tư và ngày mai là thứ sáu.
 
 **Đáp số.** Hôm qua là thứ tư, ngày mai là thứ sáu.
 :::
@@ -235,9 +254,14 @@ Giả sử đồng hồ ở sân trường chỉ 9 giờ. Sau 3 giờ nữa, đ�
 ::solution
 Bài giải
 
+Đồng hồ đang chỉ 9 giờ. Muốn biết sau 3 giờ nữa đồng hồ chỉ mấy giờ, ta thêm 3 giờ vào 9 giờ.
+
 Sau 3 giờ nữa, đồng hồ chỉ:
 $$9+3=12\ \text{(giờ)}.$$
-Đáp số: 12 giờ.
+
+Vậy sau 3 giờ nữa, đồng hồ chỉ 12 giờ.
+
+**Đáp số.** 12 giờ.
 :::
 
 :::exercise
@@ -253,9 +277,13 @@ Giả sử thư viện trường mở cửa từ thứ hai đến thứ sáu. M�
 ::solution
 Bài giải
 
-Các ngày thư viện mở cửa là thứ hai, thứ ba, thứ tư, thứ năm, thứ sáu. Có 5 ngày.
+Thư viện mở cửa từ thứ hai đến thứ sáu, nên các ngày thư viện mở cửa là thứ hai, thứ ba, thứ tư, thứ năm, thứ sáu.
 
-Đáp số: 5 ngày.
+Ta đếm các ngày đó: thứ hai (1), thứ ba (2), thứ tư (3), thứ năm (4), thứ sáu (5).
+
+Vậy mỗi tuần thư viện mở cửa 5 ngày.
+
+**Đáp số.** 5 ngày.
 :::
 
 :::exercise
@@ -272,9 +300,16 @@ Nhớ lại phép trừ trong phạm vi 10. Một tuần có 7 ngày, em đi h�
 ::solution
 Bài giải
 
+Một tuần có 7 ngày, em đi học 5 ngày. Số ngày em nghỉ bằng 7 bớt đi 5.
+
 Mỗi tuần em nghỉ số ngày là:
 $$7-5=2\ \text{(ngày)}.$$
-Đáp số: 2 ngày.
+
+Thử lại: $5+2=7$ (ngày), đúng.
+
+Vậy mỗi tuần em nghỉ 2 ngày.
+
+**Đáp số.** 2 ngày.
 :::
 
 :::exercise Thử thách
@@ -288,7 +323,13 @@ Hôm nay là thứ ba. Lớp em hẹn đi dã ngoại sau 5 ngày nữa. Ngày d
 2. Ngày đếm thứ 5 là thứ mấy?
 
 ::solution
+Hôm nay là thứ ba. Sau 5 ngày nữa nghĩa là ta đếm tiếp 5 ngày kể từ sau thứ ba.
+
 Đếm các ngày sau thứ ba: thứ tư (1), thứ năm (2), thứ sáu (3), thứ bảy (4), chủ nhật (5).
+
+Ngày đếm thứ 5 là chủ nhật.
+
+Vậy ngày dã ngoại là chủ nhật.
 
 **Đáp số.** Chủ nhật.
 :::

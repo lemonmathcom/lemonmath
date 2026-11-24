@@ -184,7 +184,16 @@ A box holds $6$ white balls and $4$ black balls. Two balls are drawn at random a
 2. Count the ways to take $2$ of the $6$ white balls.
 
 ::solution
-$P=\dfrac{\binom{6}{2}}{\binom{10}{2}}=\dfrac{15}{45}=\dfrac13$.
+Let $A$ be the event "both balls drawn are white". Two balls are drawn at random at the same time from $10$ balls ($6$ white and $4$ black), so each outcome is a combination of $2$ of the $10$ balls.
+
+The number of possible outcomes is $n(\Omega)=\binom{10}{2}=\dfrac{10\cdot9}{2}=45$.
+
+The number of outcomes favourable to $A$ is the number of ways to choose $2$ of the $6$ white balls: $n(A)=\binom{6}{2}=\dfrac{6\cdot5}{2}=15$.
+
+By the classical definition of probability, we have
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{\binom{6}{2}}{\binom{10}{2}}=\frac{15}{45}=\frac13.$$
+
+So the probability that both balls are white is $\dfrac13$.
 
 **Answer.** $\dfrac13$.
 :::
@@ -200,7 +209,16 @@ With the box from the previous exercise, find the probability that the two balls
 2. Divide by $\binom{10}{2}=45$.
 
 ::solution
-$n(A)=6\cdot4=24$, so $P=\dfrac{24}{45}=\dfrac{8}{15}$.
+Consider the box from the previous exercise ($6$ white balls, $4$ black balls), with two balls drawn at random at the same time. Let $A$ be the event "the two balls have different colours". The number of possible outcomes is still $n(\Omega)=\binom{10}{2}=45$.
+
+Two balls of different colours means one white ball and one black ball. There are $6$ ways to choose $1$ white ball and $4$ ways to choose $1$ black ball; by the multiplication rule, $n(A)=6\cdot4=24$.
+
+Therefore
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{24}{45}=\frac{8}{15}.$$
+
+Check with the complementary event: there are $\binom{6}{2}+\binom{4}{2}=15+6=21$ ways to get two balls of the same colour, so $P(A)=1-\dfrac{21}{45}=\dfrac{24}{45}=\dfrac{8}{15}$.
+
+So the probability that the two balls have different colours is $\dfrac{8}{15}$.
 
 **Answer.** $\dfrac{8}{15}$.
 :::
@@ -216,7 +234,15 @@ A class has $12$ boys and $8$ girls. Three students are chosen at random. Find t
 2. Use $P(A)=1-P(\overline{A})$ for part b).
 
 ::solution
-a) $P=\dfrac{\binom{12}{3}}{\binom{20}{3}}=\dfrac{220}{1140}=\dfrac{11}{57}$. b) $P=1-\dfrac{11}{57}=\dfrac{46}{57}$.
+Three students are chosen at random from $20$ students ($12$ boys and $8$ girls), so $n(\Omega)=\binom{20}{3}=\dfrac{20\cdot19\cdot18}{3\cdot2\cdot1}=1140$.
+
+a) Let $A$ be the event "all three students are boys". The number of favourable outcomes is $n(A)=\binom{12}{3}=\dfrac{12\cdot11\cdot10}{3\cdot2\cdot1}=220$. Hence
+$$P(A)=\frac{\binom{12}{3}}{\binom{20}{3}}=\frac{220}{1140}=\frac{11}{57}.$$
+
+b) Let $B$ be the event "at least one girl is chosen". The complement of $B$ is exactly the event $A$ (all three are boys). By the formula for the probability of the complementary event, we have
+$$P(B)=1-P(A)=1-\frac{11}{57}=\frac{46}{57}.$$
+
+So the probability that all three students are boys is $\dfrac{11}{57}$, and the probability that at least one girl is chosen is $\dfrac{46}{57}$.
 
 **Answer.** a) $\dfrac{11}{57}$; b) $\dfrac{46}{57}$.
 :::
@@ -232,7 +258,16 @@ A shop receives a carton of $15$ light bulbs, $2$ of which are broken. An assist
 2. Divide and simplify.
 
 ::solution
-$P=\dfrac{\binom{13}{3}}{\binom{15}{3}}=\dfrac{286}{455}=\dfrac{22}{35}$.
+Let $A$ be the event "all $3$ bulbs picked work". The carton has $15$ bulbs, of which $15-2=13$ work.
+
+Picking $3$ bulbs at random from $15$ gives $n(\Omega)=\binom{15}{3}=\dfrac{15\cdot14\cdot13}{3\cdot2\cdot1}=455$.
+
+The number of outcomes favourable to $A$ is the number of ways to choose $3$ of the $13$ working bulbs: $n(A)=\binom{13}{3}=\dfrac{13\cdot12\cdot11}{3\cdot2\cdot1}=286$.
+
+Therefore
+$$P(A)=\frac{\binom{13}{3}}{\binom{15}{3}}=\frac{286}{455}=\frac{22}{35}.$$
+
+So the probability that all $3$ bulbs work is $\dfrac{22}{35}$.
 
 **Answer.** $\dfrac{22}{35}$.
 :::
@@ -248,7 +283,16 @@ Two fair dice are rolled. Find the probability that the product of the two numbe
 2. Use the complement.
 
 ::solution
-There are $3\cdot3=9$ pairs of two odd numbers among the $36$ pairs. $P(\text{even})=1-\dfrac{9}{36}=\dfrac34$.
+Two fair dice are rolled. Each die has $6$ faces, so the sample space has $n(\Omega)=6\cdot6=36$ equally likely outcomes (the pairs of numbers).
+
+Let $A$ be the event "the product of the two numbers is even". The complementary event $\overline{A}$ is "the product of the two numbers is odd". A product of two numbers is odd if and only if both numbers are odd.
+
+Each die has $3$ odd faces ($1, 3, 5$), so the number of pairs of two odd numbers is $n(\overline{A})=3\cdot3=9$ among the $36$ pairs.
+
+Therefore
+$$P(\overline{A})=\frac{9}{36}=\frac14,\qquad P(A)=1-P(\overline{A})=1-\frac{9}{36}=\frac34.$$
+
+So the probability that the product of the two numbers is even is $\dfrac34$.
 
 **Answer.** $\dfrac34$.
 :::
@@ -273,13 +317,21 @@ d) The probability of at least one green ball is $\dfrac{7}{12}$.
 3. Count $\binom{7}{3}$ for part d).
 
 ::solution
-a) **True**: $\binom{9}{3}=84$.
+The box holds $4+3+2=9$ balls. Three balls are drawn at random at the same time, so $n(\Omega)=\binom{9}{3}=84$.
 
-b) **True**: $\dfrac{\binom{4}{3}}{84}=\dfrac{4}{84}=\dfrac{1}{21}$.
+a) **True.** The number of possible outcomes is $\binom{9}{3}=\dfrac{9\cdot8\cdot7}{3\cdot2\cdot1}=84$.
 
-c) **False**: $\dfrac{4\cdot3\cdot2}{84}=\dfrac{24}{84}=\dfrac27$.
+b) **True.** The number of ways to draw $3$ red balls from the $4$ red balls is $\binom{4}{3}=4$. Hence the probability is
+$$\frac{\binom{4}{3}}{84}=\frac{4}{84}=\frac{1}{21}.$$
 
-d) **True**: there are $\binom{7}{3}=35$ draws with no green ball, so $P=1-\dfrac{35}{84}=\dfrac{49}{84}=\dfrac{7}{12}$.
+c) **False.** Having all three colours means exactly one red, one yellow and one green ball. The number of ways is $4\cdot3\cdot2=24$ (multiplication rule). The probability is
+$$\frac{4\cdot3\cdot2}{84}=\frac{24}{84}=\frac27.$$
+Since $\dfrac27\ne\dfrac13$, the statement is false.
+
+d) **True.** The complement of "at least one green ball" is "no green ball", that is, the $3$ balls come from the $7$ red and yellow balls, which can be done in $\binom{7}{3}=35$ ways. Hence
+$$P=1-\frac{35}{84}=\frac{49}{84}=\frac{7}{12}.$$
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -295,7 +347,16 @@ Three cards are drawn at random from a $52$-card deck. Find the probability that
 2. Divide and round.
 
 ::solution
-$P=\dfrac{\binom{13}{3}}{\binom{52}{3}}=\dfrac{286}{22\,100}=\dfrac{11}{850}\approx 0.013$.
+Let $A$ be the event "all three cards drawn are hearts". The deck has $52$ cards, of which $13$ are hearts.
+
+Drawing three cards at random from $52$ gives $n(\Omega)=\binom{52}{3}=\dfrac{52\cdot51\cdot50}{3\cdot2\cdot1}=22\,100$.
+
+The number of outcomes favourable to $A$ is the number of ways to choose $3$ of the $13$ hearts: $n(A)=\binom{13}{3}=\dfrac{13\cdot12\cdot11}{3\cdot2\cdot1}=286$.
+
+Therefore
+$$P(A)=\frac{\binom{13}{3}}{\binom{52}{3}}=\frac{286}{22\,100}=\frac{11}{850}\approx 0.013.$$
+
+So the probability that all three cards are hearts is approximately $0.013$ (rounded to three decimal places).
 
 **Answer.** $0.013$.
 :::
@@ -311,7 +372,14 @@ A group has $5$ boys and $4$ girls. Four people are chosen at random. Find the p
 2. Compute $n(A)$ and divide.
 
 ::solution
-$n(\Omega)=\binom{9}{4}=126$, $n(A)=\binom{5}{2}\cdot\binom{4}{2}=10\cdot6=60$, so $P=\dfrac{60}{126}=\dfrac{10}{21}$.
+Let $A$ be the event "exactly $2$ boys and $2$ girls are chosen". The group has $5+4=9$ people and $4$ are chosen at random, so $n(\Omega)=\binom{9}{4}=\dfrac{9\cdot8\cdot7\cdot6}{4\cdot3\cdot2\cdot1}=126$.
+
+To get exactly $2$ boys and $2$ girls, we choose $2$ of the $5$ boys ($\binom{5}{2}=10$ ways) and $2$ of the $4$ girls ($\binom{4}{2}=6$ ways). By the multiplication rule, $n(A)=\binom{5}{2}\cdot\binom{4}{2}=10\cdot6=60$.
+
+Therefore
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{60}{126}=\frac{10}{21}.$$
+
+So the probability that exactly $2$ boys and $2$ girls are chosen is $\dfrac{10}{21}$.
 
 **Answer.** $\dfrac{10}{21}$.
 :::
@@ -327,9 +395,20 @@ Three fair dice are rolled. Find the probability that a) the sum is $9$, b) at l
 2. Part b): the complement is "no die shows a six", with $5^3$ outcomes.
 
 ::solution
-a) The triples with sum $9$: $\{1, 2, 6\}$, $\{1, 3, 5\}$, $\{2, 3, 4\}$ ($6$ orderings each), $\{1, 4, 4\}$, $\{2, 2, 5\}$ ($3$ orderings each), $\{3, 3, 3\}$ ($1$ ordering): in total $18+6+1=25$, so $P=\dfrac{25}{216}$.
+Three fair dice are rolled. Each die has $6$ faces, so $n(\Omega)=6^3=216$ equally likely outcomes (ordered triples of numbers).
 
-b) $P=1-\dfrac{125}{216}=\dfrac{91}{216}$.
+a) Let $A$ be the event "the sum is $9$". The triples (ignoring order) of numbers from $1$ to $6$ with sum $9$ are $\{1, 2, 6\}$, $\{1, 3, 5\}$, $\{2, 3, 4\}$, $\{1, 4, 4\}$, $\{2, 2, 5\}$ and $\{3, 3, 3\}$. We count the orderings of each triple:
+
+- The three triples with three different numbers $\{1, 2, 6\}$, $\{1, 3, 5\}$, $\{2, 3, 4\}$: each has $3!=6$ orderings, in total $3\cdot6=18$.
+- The two triples with two equal numbers $\{1, 4, 4\}$, $\{2, 2, 5\}$: each has $3$ orderings, in total $2\cdot3=6$.
+- The triple of equal numbers $\{3, 3, 3\}$: it has $1$ ordering.
+
+The number of favourable outcomes is $n(A)=18+6+1=25$. Hence $P(A)=\dfrac{25}{216}$.
+
+b) Let $B$ be the event "at least one die shows a six". The complementary event $\overline{B}$ is "no die shows a six", that is, each die shows one of the $5$ faces $1, 2, 3, 4, 5$, so $n(\overline{B})=5^3=125$. Hence
+$$P(B)=1-P(\overline{B})=1-\frac{125}{216}=\frac{91}{216}.$$
+
+So the probability that the sum is $9$ is $\dfrac{25}{216}$, and the probability that at least one die shows a six is $\dfrac{91}{216}$.
 
 **Answer.** a) $\dfrac{25}{216}$; b) $\dfrac{91}{216}$.
 :::
@@ -345,7 +424,16 @@ Five friends, including An and Binh, sit at random on a row of $5$ seats. Use [p
 2. Arrange the An–Binh block with the other $3$ friends: $4!$ ways, times $2$ because An and Binh can swap.
 
 ::solution
-$n(\Omega)=5!=120$, $n(A)=2\cdot4!=48$, so $P=\dfrac{48}{120}=\dfrac25$.
+Let $A$ be the event "An and Binh sit next to each other". Seating $5$ friends in a row of $5$ seats is a permutation of $5$ elements, so $n(\Omega)=5!=120$.
+
+To count $n(A)$, we treat An and Binh as one "block" sitting together. Then there are $4$ objects to arrange (this block and the other $3$ friends), which can be done in $4!=24$ ways. Inside the block, An and Binh can swap places, which gives $2!=2$ ways.
+
+By the multiplication rule, $n(A)=2\cdot4!=2\cdot24=48$.
+
+Therefore
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{48}{120}=\frac25.$$
+
+So the probability that An and Binh sit next to each other is $\dfrac25$.
 
 **Answer.** $\dfrac25$.
 :::

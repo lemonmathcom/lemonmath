@@ -229,7 +229,17 @@ A pie chart shows how $150$ students chose a club: Football $40\%$, Music $30\%$
 2. Multiply by $150$.
 
 ::solution
-We have $150\cdot0.4=60$; $150\cdot0.3=45$; $150\cdot0.2=30$; $150\cdot0.1=15$.
+The number of students in each club equals the total number of students times the corresponding percentage in the chart.
+
+Football is $40\%$: $150\cdot0.4=60$ (students).
+
+Music is $30\%$: $150\cdot0.3=45$ (students).
+
+Art is $20\%$: $150\cdot0.2=30$ (students).
+
+Chess is $10\%$: $150\cdot0.1=15$ (students).
+
+Check: $60+45+30+15=150$ (equal to the total number of students).
 
 So Football has $60$ students, Music $45$, Art $30$ and Chess $15$.
 
@@ -265,9 +275,12 @@ The number of members of a club rose from $40$ to $52$. Find the percentage incr
 2. Divide by the old value $40$.
 
 ::solution
-We have $\dfrac{52-40}{40}\cdot100\%=\dfrac{12}{40}\cdot100\%=30\%$.
+The percentage increase equals the difference between the new and old values, divided by the old value, times $100\%$.
 
-So the membership rose by $30\%$.
+The membership rose by $52-40=12$ (people). Hence
+$$\frac{52-40}{40}\cdot100\%=\frac{12}{40}\cdot100\%=30\%.$$
+
+So the membership of the club rose by $30\%$.
 
 **Answer.** $30\%$.
 :::
@@ -319,9 +332,16 @@ Suppose the rainfall (mm) in a region in months $6$, $7$, $8$, $9$ is $100$; $18
 2. From month $8$ to month $9$: old is $250$, new is $200$.
 
 ::solution
-From month $6$ to month $8$: $\dfrac{250-100}{100}\cdot100\%=150\%$. From month $8$ to month $9$: $\dfrac{200-250}{250}\cdot100\%=-20\%$.
+The percentage change equals the difference between the new and old values, divided by the old value, times $100\%$.
 
-So the rainfall rose by $150\%$, then fell by $20\%$.
+From month $6$ to month $8$ the rainfall rose from $100$ mm to $250$ mm:
+$$\frac{250-100}{100}\cdot100\%=150\%.$$
+
+From month $8$ to month $9$ the rainfall changed from $250$ mm to $200$ mm:
+$$\frac{200-250}{250}\cdot100\%=-20\%.$$
+A negative result means the rainfall fell by $20\%$.
+
+So the rainfall rose by $150\%$ from month $6$ to month $8$, then fell by $20\%$ from month $8$ to month $9$.
 
 **Answer.** Increase $150\%$; decrease $20\%$.
 :::
@@ -337,9 +357,15 @@ A survey of $25$ students about their favourite subject gives: Maths $10$, Liter
 2. Multiply by $360^\circ$.
 
 ::solution
-Maths: $\dfrac{10}{25}=40\%$, angle $144^\circ$. Each other subject: $\dfrac{5}{25}=20\%$, angle $72^\circ$.
+A total of $25$ students were surveyed. The relative frequency of a subject equals the number of students choosing it divided by $25$. In a pie chart, the sector angle of that subject equals its relative frequency times $360^\circ$.
 
-Check: $144+3\cdot72=360$.
+Maths: the relative frequency is $\dfrac{10}{25}=40\%$ and the angle is $0.4\cdot360^\circ=144^\circ$.
+
+Each other subject (Literature, English, other) has $5$ students: the relative frequency is $\dfrac{5}{25}=20\%$ and the angle is $0.2\cdot360^\circ=72^\circ$.
+
+Check: $144+3\cdot72=360$ and $40\%+3\cdot20\%=100\%$ (correct).
+
+So the relative frequencies of Maths, Literature, English, other are $40\%$, $20\%$, $20\%$, $20\%$ and the sector angles are $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
 
 **Answer.** $40\%$, $20\%$, $20\%$, $20\%$; angles $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
 :::

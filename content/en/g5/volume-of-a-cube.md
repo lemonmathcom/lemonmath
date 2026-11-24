@@ -171,7 +171,12 @@ Find the volume of a cube with edge $7\ \text{cm}$.
 2. Multiply step by step and write the unit.
 
 ::solution
+The volume of a cube equals edge times edge times edge: $V=a\times a\times a$.
+
+With edge $a=7\ \text{cm}$, we have
 $$V=7\times7\times7=49\times7=343\ (\text{cm}^3).$$
+
+So the volume of the cube is $343\ \text{cm}^3$.
 
 **Answer.** $343\ \text{cm}^3$.
 :::
@@ -187,8 +192,15 @@ A cube has an edge of $10\ \text{dm}$. Find its volume in $\text{dm}^3$, then ch
 2. Change the result to $\text{m}^3$.
 
 ::solution
-$$10\times10\times10=1000\ (\text{dm}^3)=1\ (\text{m}^3).$$
-This is also a cube with edge $1\ \text{m}$, because $10\ \text{dm}=1\ \text{m}$.
+The volume of the cube with edge $10\ \text{dm}$ is:
+$$10\times10\times10=1000\ (\text{dm}^3).$$
+
+Since $10\ \text{dm}=1\ \text{m}$, this is also a cube with edge $1\ \text{m}$. Its volume is
+$$1\times1\times1=1\ (\text{m}^3).$$
+
+Hence $1000\ \text{dm}^3=1\ \text{m}^3$.
+
+So the volume of the cube is $1000\ \text{dm}^3$, that is $1\ \text{m}^3$.
 
 **Answer.** $1000\ \text{dm}^3$; $1\ \text{m}^3$.
 :::
@@ -204,7 +216,13 @@ Find the volume of a cube with edge $1.2\ \text{dm}$.
 2. Multiply the result by $1.2$.
 
 ::solution
-$$1.2\times1.2\times1.2=1.44\times1.2=1.728\ (\text{dm}^3).$$
+With edge $a=1.2\ \text{dm}$, we have
+$$V=1.2\times1.2\times1.2.$$
+
+Step by step: $1.2\times1.2=1.44$, then $1.44\times1.2=1.728$. Hence
+$$V=1.44\times1.2=1.728\ (\text{dm}^3).$$
+
+So the volume of the cube is $1.728\ \text{dm}^3$.
 
 **Answer.** $1.728\ \text{dm}^3$.
 :::
@@ -220,8 +238,12 @@ Find the volume of a cube with edge $30\ \text{cm}$, giving the answer in $\text
 2. Work out the volume.
 
 ::solution
-We have $30\ \text{cm}=3\ \text{dm}$. The volume is:
+The answer is required in $\text{dm}^3$, so we first change the edge to decimetres. Since $10\ \text{cm}=1\ \text{dm}$, we have $30\ \text{cm}=3\ \text{dm}$.
+
+The volume of the cube is:
 $$3\times3\times3=27\ (\text{dm}^3).$$
+
+So the volume of the cube is $27\ \text{dm}^3$.
 
 **Answer.** $27\ \text{dm}^3$.
 :::
@@ -238,8 +260,14 @@ A cube-shaped water tank has an edge of $6\ \text{dm}$. How many litres of water
 3. Check: is $6\times6=36$ the area of the base?
 
 ::solution
-The volume of the tank is:
-$$6\times6\times6=216\ (\text{dm}^3)=216\ \text{litres}.$$
+Solution
+
+The amount of water the full tank holds equals its volume. The volume of the tank is:
+$$6\times6\times6=216\ (\text{dm}^3).$$
+
+Since $1\ \text{dm}^3=1$ litre, we have $216\ \text{dm}^3=216$ litres.
+
+So the tank holds $216$ litres of water when full.
 
 **Answer.** $216$ litres.
 :::
@@ -256,9 +284,17 @@ A cube-shaped cardboard carton has an edge of $4\ \text{dm}$. Small cube-shaped 
 3. Check by dividing the volumes.
 
 ::solution
-Each edge holds $4\div2=2$ (boxes). The number of boxes is $2\times2\times2=8$ (boxes).
+Solution
 
-**Check.** $4\times4\times4=64\ (\text{dm}^3)$, $2\times2\times2=8\ (\text{dm}^3)$ and $64\div8=8$. Correct.
+Along each edge of the carton, the number of boxes that fit is:
+$$4\div2=2\ \text{(boxes)}.$$
+
+The carton has three dimensions (length, width, height), so the number of boxes that fill the carton is:
+$$2\times2\times2=8\ \text{(boxes)}.$$
+
+Check: the volume of the carton is $4\times4\times4=64\ (\text{dm}^3)$, the volume of each box is $2\times2\times2=8\ (\text{dm}^3)$ and $64\div8=8$. The result is correct.
+
+So the greatest number of boxes that fill the carton is $8$.
 
 **Answer.** $8$ boxes.
 :::
@@ -274,11 +310,15 @@ Remember the lesson on the volume of a cuboid. A wooden cuboid is $8\ \text{cm}$
 2. Compare the two numbers.
 
 ::solution
-Volume of the cuboid: $8\times4\times2=64\ (\text{cm}^3)$.
+The volume of a cuboid equals length times width times height. The volume of the wooden cuboid is:
+$$8\times4\times2=64\ (\text{cm}^3).$$
 
-Volume of the cube: $4\times4\times4=64\ (\text{cm}^3)$.
+The volume of the wooden cube is:
+$$4\times4\times4=64\ (\text{cm}^3).$$
 
 Since $64=64$, the two blocks have the same volume.
+
+So the two blocks have the same volume, $64\ \text{cm}^3$ each.
 
 **Answer.** The two blocks have the same volume ($64\ \text{cm}^3$).
 :::
@@ -294,7 +334,13 @@ A cube has a volume of $216\ \text{cm}^3$. Find the length of its edge.
 2. Try the number in between.
 
 ::solution
-We have $5\times5\times5=125$ (less than $216$) and $7\times7\times7=343$ (more than $216$). Try $6$: $6\times6\times6=216$.
+Let $a$ (cm) be the length of the edge of the cube. We need a number $a$ such that $a\times a\times a=216$.
+
+Try some numbers: $5\times5\times5=125$, which is less than $216$; $7\times7\times7=343$, which is more than $216$. So $a$ lies between $5$ and $7$.
+
+Try $a=6$: $6\times6\times6=36\times6=216$, which is correct.
+
+So the edge of the cube is $6\ \text{cm}$ long.
 
 **Answer.** $6\ \text{cm}$.
 :::
@@ -310,9 +356,18 @@ If the edge of a cube is doubled, how many times greater does the volume become?
 2. Work out the volume when the edge is $6\ \text{cm}$ and compare.
 
 ::solution
-Edge $3\ \text{cm}$: $3\times3\times3=27\ (\text{cm}^3)$. Edge $6\ \text{cm}$: $6\times6\times6=216\ (\text{cm}^3)$. We have $216\div27=8$.
+With edge $3\ \text{cm}$, the volume is:
+$$3\times3\times3=27\ (\text{cm}^3).$$
 
-The edge is doubled in all three dimensions, so the volume is multiplied by $2\times2\times2=8$.
+When the edge is doubled, the new edge is $3\times2=6\ \text{cm}$. The new volume is:
+$$6\times6\times6=216\ (\text{cm}^3).$$
+
+The number of times the volume increases is:
+$$216\div27=8\ \text{(times)}.$$
+
+We see that the edge is multiplied by $2$ in all three dimensions (length, width, height), so the volume is multiplied by $2\times2\times2=8$.
+
+So when the edge of a cube is doubled, the volume becomes $8$ times greater.
 
 **Answer.** The volume becomes $8$ times greater.
 :::

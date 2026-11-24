@@ -206,8 +206,21 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Nhân từng chữ số với $3$, xem có tích nào từ $10$ trở lên không.
 
 ::solution
+Đặt tính rồi nhân lần lượt từ phải sang trái, mỗi lần nhân $3$ với một chữ số của $2\,413$.
+
 $$\begin{array}{r} 2413 \\ \times\ \ \ \ 3 \\ \hline 7239 \end{array}$$
-Hàng đơn vị: $3\times3=9$. Hàng chục: $3\times1=3$. Hàng trăm: $3\times4=12$, viết $2$ nhớ $1$. Hàng nghìn: $3\times2=6$, thêm $1$ là $7$.
+
+Hàng đơn vị: $3\times3=9$, viết $9$.
+
+Hàng chục: $3\times1=3$, viết $3$.
+
+Hàng trăm: $3\times4=12$, viết $2$ nhớ $1$.
+
+Hàng nghìn: $3\times2=6$, thêm $1$ là $7$, viết $7$.
+
+*Thử lại.* $7\,239:3=2\,413$. Đúng.
+
+Vậy $2\,413\times3=7\,239$.
 
 **Đáp số.** $7\,239$.
 :::
@@ -223,8 +236,21 @@ Hàng đơn vị: $3\times3=9$. Hàng chục: $3\times1=3$. Hàng trăm: $3\time
 2. Làm tiếp với các hàng chục, trăm, nghìn, nhớ cộng vào tích mới.
 
 ::solution
+Đặt tính rồi nhân lần lượt từ phải sang trái, mỗi lần nhân $5$ với một chữ số của $3\,658$.
+
 $$\begin{array}{r} 3658 \\ \times\ \ \ \ 5 \\ \hline 18290 \end{array}$$
-Hàng đơn vị: $40$, viết $0$ nhớ $4$. Hàng chục: $25+4=29$, viết $9$ nhớ $2$. Hàng trăm: $30+2=32$, viết $2$ nhớ $3$. Hàng nghìn: $15+3=18$.
+
+Hàng đơn vị: $5\times8=40$, viết $0$ nhớ $4$.
+
+Hàng chục: $5\times5=25$, thêm $4$ là $29$, viết $9$ nhớ $2$.
+
+Hàng trăm: $5\times6=30$, thêm $2$ là $32$, viết $2$ nhớ $3$.
+
+Hàng nghìn: $5\times3=15$, thêm $3$ là $18$, viết $18$.
+
+*Thử lại.* $18\,290:5=3\,658$. Đúng.
+
+Vậy $3\,658\times5=18\,290$.
 
 **Đáp số.** $18\,290$.
 :::
@@ -240,9 +266,19 @@ Hàng đơn vị: $40$, viết $0$ nhớ $4$. Hàng chục: $25+4=29$, viết $9
 2. Hạ lần lượt $8$ và $0$.
 
 ::solution
-- $64:8=8$, viết $8$; $64-64=0$.
-- Hạ $8$: $8:8=1$, viết $1$; $8-8=0$.
-- Hạ $0$: $0:8=0$, viết $0$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
+
+Vì $6<8$ nên lấy $64$ chia cho $8$: $64:8=8$, viết $8$; $64-64=0$.
+
+Hạ $8$: $8:8=1$, viết $1$; $8-8=0$.
+
+Hạ $0$: $0:8=0$, viết $0$.
+
+Các chữ số của thương theo thứ tự là $8$, $1$, $0$.
+
+*Thử lại.* $810\times8=6\,480$. Đúng.
+
+Vậy $6\,480:8=810$.
 
 **Đáp số.** $6\,480:8=810$.
 :::
@@ -258,12 +294,21 @@ Hàng đơn vị: $40$, viết $0$ nhớ $4$. Hàng chục: $25+4=29$, viết $9
 2. Làm tiếp, rồi thử lại.
 
 ::solution
-- $9:6=1$ (dư $3$).
-- Hạ $2$: $32:6=5$ (dư $2$).
-- Hạ $4$: $24:6=4$ (dư $0$).
-- Hạ $7$: $7:6=1$ (dư $1$).
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $1\,541\times6+1=9\,247$. Đúng.
+Vì $9>6$ nên lấy $9$ chia cho $6$: $9:6=1$ (dư $3$), viết $1$.
+
+Hạ $2$ được $32$: $32:6=5$ (dư $2$), viết $5$.
+
+Hạ $4$ được $24$: $24:6=4$ (dư $0$), viết $4$.
+
+Hạ $7$ được $7$: $7:6=1$ (dư $1$), viết $1$.
+
+Thương là $1\,541$ và số dư là $1$; số dư $1$ nhỏ hơn số chia $6$.
+
+*Thử lại.* $1\,541\times6+1=9\,246+1=9\,247$. Đúng.
+
+Vậy $9\,247:6=1\,541$ (dư $1$).
 
 **Đáp số.** $9\,247:6=1\,541$ (dư $1$).
 :::
@@ -279,8 +324,16 @@ Mỗi ngày Lan bỏ vào ống heo $2\,500$ đồng. Hỏi sau $7$ ngày, Lan b
 2. Làm phép tính gì? Nhớ ghi đơn vị.
 
 ::solution
+Bài giải
+
+Mỗi ngày Lan bỏ vào ống heo $2\,500$ đồng, nên số tiền sau $7$ ngày là $2\,500$ đồng nhân với $7$.
+
 Số tiền Lan bỏ vào ống heo sau $7$ ngày là:
 $$2\,500\times7=17\,500\ \text{(đồng)}.$$
+
+Vì $25\times7=175$, thêm hai chữ số $0$ ta được $17\,500$.
+
+Vậy sau $7$ ngày, Lan bỏ vào ống heo $17\,500$ đồng.
 
 **Đáp số.** $17\,500$ đồng.
 :::
@@ -296,10 +349,18 @@ Một vườn cam thu hoạch được $4\,860$ kg cam. Người ta đóng đề
 2. Đặt tính chia $4\,860:9$ rồi thử lại bằng phép nhân.
 
 ::solution
+Bài giải
+
+Số cam được chia đều vào $9$ thùng nên số ki-lô-gam cam trong mỗi thùng bằng $4\,860$ chia cho $9$.
+
 Số ki-lô-gam cam trong mỗi thùng là:
 $$4\,860:9=540\ \text{(kg)}.$$
 
-**Thử lại.** $540\times9=4\,860$. Đúng.
+Cách chia: $48:9=5$ (dư $3$); hạ $6$ được $36$, $36:9=4$ (dư $0$); hạ $0$ được $0$, $0:9=0$. Thương là $540$.
+
+*Thử lại.* $540\times9=4\,860$. Đúng.
+
+Vậy mỗi thùng có $540$ kg cam.
 
 **Đáp số.** $540$ kg.
 :::
@@ -315,9 +376,19 @@ Em hãy nhớ lại bài hình thoi. Một khu đất hình thoi có cạnh $125
 2. Chia chu vi cho khoảng cách giữa hai cột.
 
 ::solution
-Chu vi khu đất là $125\times4=500$ (m).
+Bài giải
 
-Số cột cần dùng là $500:5=100$ (cột).
+Hình thoi có bốn cạnh bằng nhau, nên chu vi khu đất bằng độ dài một cạnh nhân với $4$.
+
+Chu vi khu đất là:
+$$125\times4=500\ \text{(m)}.$$
+
+Cứ $5$ m rào thì dùng $1$ cột, nên số cột cần dùng bằng chu vi chia cho $5$.
+
+Số cột cần dùng là:
+$$500:5=100\ \text{(cột)}.$$
+
+Vậy cần $100$ cột.
 
 **Đáp số.** $100$ cột.
 :::
@@ -333,13 +404,19 @@ Tìm thương và số dư của phép chia $2\,009:5$, rồi thử lại.
 2. Thử lại: $\text{thương}\times5+\text{số dư}$.
 
 ::solution
-- $20:5=4$ (dư $0$).
-- Hạ $0$: $0:5=0$.
-- Hạ $9$: $9:5=1$ (dư $4$).
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-Thương là $401$, số dư là $4$.
+Vì $2<5$ nên lấy $20$ chia cho $5$: $20:5=4$ (dư $0$), viết $4$.
 
-**Thử lại.** $401\times5+4=2\,009$. Đúng.
+Hạ $0$: $0:5=0$, viết $0$.
+
+Hạ $9$: $9:5=1$ (dư $4$), viết $1$.
+
+Thương là $401$, số dư là $4$; số dư $4$ nhỏ hơn số chia $5$.
+
+*Thử lại.* $401\times5+4=2\,005+4=2\,009$. Đúng.
+
+Vậy $2\,009:5$ có thương là $401$ và số dư là $4$.
 
 **Đáp số.** Thương $401$, số dư $4$.
 :::
@@ -355,9 +432,16 @@ Một phép chia có số chia là $6$, thương là $125$ và số dư là $5$.
 2. Cộng thêm số dư.
 
 ::solution
-Số bị chia là $125\times6+5=750+5=755$.
+Trong phép chia có dư, ta có: số bị chia $=$ thương $\times$ số chia $+$ số dư.
 
-**Thử lại.** $755:6=125$ (dư $5$). Đúng.
+Số dư là $5$, nhỏ hơn số chia $6$ nên các dữ kiện phù hợp.
+
+Thay thương $=125$, số chia $=6$, số dư $=5$, ta được số bị chia là
+$$125\times6+5=750+5=755.$$
+
+*Thử lại.* $755:6=125$ (dư $5$), vì $125\times6=750$ và $755-750=5$. Đúng.
+
+Vậy số bị chia là $755$.
 
 **Đáp số.** $755$.
 :::
@@ -373,9 +457,16 @@ Tìm số nhỏ nhất có bốn chữ số chia hết cho $7$.
 2. Cần thêm bao nhiêu vào $1\,000$ để số dư thành $0$?
 
 ::solution
+Số nhỏ nhất có bốn chữ số là $1\,000$. Ta tìm số nhỏ nhất không nhỏ hơn $1\,000$ mà chia hết cho $7$.
+
 Ta có $1\,000:7=142$ (dư $6$), nên $1\,000=7\times142+6$.
 
-Cần thêm $7-6=1$ vào $1\,000$ để được số chia hết cho $7$: $1\,001=7\times143$.
+Vì $1\,000$ chưa chia hết cho $7$ (dư $6$), cần thêm $7-6=1$ vào $1\,000$ để được số chia hết cho $7$:
+$$1\,001=7\times143.$$
+
+Số $1\,001$ có bốn chữ số và chia hết cho $7$. Bội số của $7$ liền trước $1\,001$ là $7\times142=994$, chỉ có ba chữ số, nên không thoả mãn.
+
+Vậy số nhỏ nhất có bốn chữ số chia hết cho $7$ là $1\,001$.
 
 **Đáp số.** $1\,001$.
 :::

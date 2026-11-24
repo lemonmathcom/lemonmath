@@ -183,9 +183,17 @@ b) Hình tứ giác có các cạnh $2$ cm, $3$ cm, $4$ cm, $5$ cm.
 2. Cộng từng bước và ghi đơn vị cm.
 
 ::solution
-a) $3+4+6=13$ (cm).
+Bài giải
 
-b) $2+3+4+5=14$ (cm).
+Chu vi của một hình là tổng độ dài các cạnh của hình đó.
+
+a) Chu vi hình tam giác là:
+$$3+4+6=13\ \text{(cm)}.$$
+
+b) Chu vi hình tứ giác là:
+$$2+3+4+5=14\ \text{(cm)}.$$
+
+Vậy chu vi hình tam giác là $13$ cm và chu vi hình tứ giác là $14$ cm.
 
 **Đáp số.** a) $13$ cm; b) $14$ cm.
 :::
@@ -205,9 +213,15 @@ b) Hình vuông có cạnh $9$ cm.
 2. Câu b): lấy cạnh nhân $4$.
 
 ::solution
-a) $(12+5)\times2=17\times2=34$ (cm).
+Bài giải
 
-b) $9\times4=36$ (cm).
+a) Muốn tính chu vi hình chữ nhật, ta lấy chiều dài cộng chiều rộng (cùng một đơn vị đo) rồi nhân với $2$. Chu vi hình chữ nhật là:
+$$(12+5)\times2=17\times2=34\ \text{(cm)}.$$
+
+b) Hình vuông có $4$ cạnh bằng nhau, nên muốn tính chu vi hình vuông, ta lấy độ dài một cạnh nhân với $4$. Chu vi hình vuông là:
+$$9\times4=36\ \text{(cm)}.$$
+
+Vậy chu vi hình chữ nhật là $34$ cm và chu vi hình vuông là $36$ cm.
 
 **Đáp số.** a) $34$ cm; b) $36$ cm.
 :::
@@ -227,11 +241,17 @@ b) Một hình vuông có cạnh khoảng $38$ m. Em ước lượng chu vi bằ
 2. Lấy số tròn chục vừa tìm được nhân $4$.
 
 ::solution
-a) Chữ số hàng đơn vị của $38$ là $8$, lớn hơn $5$, nên làm tròn lên: $38\approx40$.
+Bài giải
 
-b) $40\times4=160$ (m).
+a) Số $38$ có chữ số hàng đơn vị là $8$. Vì $8$ lớn hơn $5$ nên ta làm tròn lên đến hàng chục:
+$$38\approx40.$$
 
-**Kiểm tra.** $38\times4=152$, gần $160$. Ước lượng hợp lí.
+b) Hình vuông có $4$ cạnh bằng nhau. Ta lấy số đã làm tròn ở câu a) nhân với $4$ để ước lượng chu vi:
+$$40\times4=160\ \text{(m)}.$$
+
+*Kiểm tra.* $38\times4=152$, gần với $160$. Ước lượng hợp lí.
+
+Vậy $38$ làm tròn đến hàng chục là $40$, và chu vi hình vuông khoảng $160$ m.
 
 **Đáp số.** a) $40$; b) khoảng $160$ m.
 :::
@@ -250,9 +270,15 @@ b) Bình uốn một sợi dây thép thành hình tam giác có ba cạnh $8$ c
 3. Thử lại bằng cách cộng đủ các cạnh.
 
 ::solution
-a) Chu vi hình vuông: $6\times4=24$ (cm).
+Bài giải
 
-b) Sợi dây thép dài bằng chu vi tam giác: $8+9+10=27$ (cm).
+a) Chú kiến bò một vòng sát mép mặt bàn, nên quãng đường chú kiến bò được bằng chu vi hình vuông. Hình vuông có $4$ cạnh bằng nhau, nên quãng đường đó là:
+$$6\times4=24\ \text{(cm)}.$$
+
+b) Sợi dây thép được uốn thành hình tam giác, nên độ dài sợi dây thép bằng chu vi hình tam giác. Sợi dây thép dài:
+$$8+9+10=27\ \text{(cm)}.$$
+
+Vậy chú kiến bò được $24$ cm và sợi dây thép dài $27$ cm.
 
 **Đáp số.** a) $24$ cm; b) $27$ cm.
 :::
@@ -276,11 +302,20 @@ c) Hình tứ giác có các cạnh $5$ cm, $6$ cm, $7$ cm, $8$ cm.
 2. Chọn cách tính tương ứng.
 
 ::solution
-a) Hình vuông có bốn cạnh bằng nhau: $9\times4=36$ (cm).
+Bài giải
 
-b) Hình chữ nhật có hai cặp cạnh bằng nhau: $(11+4)\times2=15\times2=30$ (cm).
+Ta chọn cách tính nhanh nhất dựa vào đặc điểm các cạnh của hình.
 
-c) Bốn cạnh khác nhau nên phải cộng cả bốn: $5+6+7+8=26$ (cm).
+a) Hình vuông có bốn cạnh bằng nhau nên ta lấy một cạnh nhân với $4$:
+$$9\times4=36\ \text{(cm)}.$$
+
+b) Hình chữ nhật có hai cặp cạnh bằng nhau (hai cạnh dài và hai cạnh rộng) nên ta lấy chiều dài cộng chiều rộng rồi nhân với $2$:
+$$(11+4)\times2=15\times2=30\ \text{(cm)}.$$
+
+c) Bốn cạnh của hình tứ giác đều khác nhau nên ta phải cộng cả bốn cạnh:
+$$5+6+7+8=26\ \text{(cm)}.$$
+
+Vậy chu vi hình vuông là $36$ cm, chu vi hình chữ nhật là $30$ cm và chu vi hình tứ giác là $26$ cm.
 
 **Đáp số.** a) $36$ cm; b) $30$ cm; c) $26$ cm.
 :::
@@ -300,9 +335,13 @@ b) Cúc: "Hình vuông cạnh $5$ cm. Chu vi là $5\times2=10$ (cm)."
 2. Làm lại cho đủ cả vòng.
 
 ::solution
-a) Bình mới cộng một cặp cạnh, tức là mới đi nửa vòng. Làm đúng: $(10+3)\times2=13\times2=26$ (cm).
+a) Bình mới cộng chiều dài với chiều rộng, tức là mới tính độ dài của hai cạnh kề nhau, chỉ đi được nửa vòng quanh hình. Hình chữ nhật còn hai cạnh nữa. Làm đúng:
+$$(10+3)\times2=13\times2=26\ \text{(cm)}.$$
 
-b) Cúc nhân với $2$ nhưng hình vuông có $4$ cạnh. Làm đúng: $5\times4=20$ (cm).
+b) Cúc nhân với $2$, nhưng hình vuông có $4$ cạnh bằng nhau nên phải nhân với $4$. Làm đúng:
+$$5\times4=20\ \text{(cm)}.$$
+
+Vậy Bình quên nhân với $2$, chu vi đúng là $26$ cm; Cúc nhân nhầm với $2$, chu vi đúng là $20$ cm.
 
 **Đáp số.** a) $26$ cm; b) $20$ cm.
 :::
@@ -323,9 +362,15 @@ b) Bác chừa một cái cổng rộng $2$ m không rào. Khi đó hàng rào d
 3. Câu b): bớt đi phần cổng.
 
 ::solution
-a) $(20+9)\times2=29\times2=58$ (m).
+Bài giải
 
-b) $58-2=56$ (m).
+a) Hàng rào kín cả vòng có độ dài bằng chu vi vườn rau hình chữ nhật. Hàng rào dài:
+$$(20+9)\times2=29\times2=58\ \text{(m)}.$$
+
+b) Bác An chừa một cái cổng rộng $2$ m không rào, nên hàng rào ngắn đi $2$ m so với khi rào kín. Hàng rào dài:
+$$58-2=56\ \text{(m)}.$$
+
+Vậy nếu rào kín thì hàng rào dài $58$ m, còn khi chừa cổng thì hàng rào dài $56$ m.
 
 **Đáp số.** a) $58$ m; b) $56$ m.
 :::
@@ -347,9 +392,19 @@ b) Tính tổng chu vi của hai hình vuông riêng lẻ. Vì sao tổng này l
 2. Tính chu vi từng hình vuông rồi cộng lại, rồi so sánh.
 
 ::solution
-a) Chiều dài là $3+3=6$ cm, chiều rộng là $3$ cm. Chu vi: $(6+3)\times2=9\times2=18$ (cm).
+Bài giải
 
-b) Mỗi hình vuông có chu vi $3\times4=12$ cm, hai hình là $12+12=24$ cm. Tổng này lớn hơn vì cạnh chung dài $3$ cm bị che đi khi ghép, nên mỗi hình mất $3$ cm: $24-3-3=18$ cm.
+a) Hai hình vuông cạnh $3$ cm ghép sát nhau thành hình chữ nhật có chiều dài là $3+3=6$ (cm) và chiều rộng là $3$ cm. Chu vi hình chữ nhật là:
+$$(6+3)\times2=9\times2=18\ \text{(cm)}.$$
+
+b) Mỗi hình vuông có chu vi là $3\times4=12$ (cm). Tổng chu vi của hai hình vuông riêng lẻ là:
+$$12+12=24\ \text{(cm)}.$$
+
+Tổng này lớn hơn chu vi hình chữ nhật vì khi ghép, cạnh chung dài $3$ cm của hai hình vuông bị che đi, không còn nằm trên chu vi hình chữ nhật. Mỗi hình vuông mất đi $3$ cm, nên
+$$24-3-3=18\ \text{(cm)},$$
+đúng bằng chu vi hình chữ nhật ở câu a).
+
+Vậy chu vi hình chữ nhật là $18$ cm, tổng chu vi hai hình vuông riêng lẻ là $24$ cm, và tổng này lớn hơn vì cạnh chung bị che đi.
 
 **Đáp số.** a) $18$ cm; b) $24$ cm.
 :::

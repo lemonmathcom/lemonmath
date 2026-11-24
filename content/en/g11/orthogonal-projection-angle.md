@@ -181,7 +181,17 @@ The pyramid $S.ABCD$ has a rectangular base $ABCD$ with $AB=3$, $AD=4$, $SA\perp
 2. Find $\tan\angle SCA=\dfrac{SA}{AC}$.
 
 ::solution
-$AC=\sqrt{9+16}=5$. Since $SA\perp(ABCD)$, $\angle(SC,(ABCD))=\angle SCA$ and $\tan\angle SCA=\dfrac55=1$, so $\angle SCA=45^\circ$.
+The base $ABCD$ is a rectangle, so triangle $ABC$ is right-angled at $B$. By Pythagoras' theorem,
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{3^2+4^2}=\sqrt{25}=5.$$
+
+Since $SA\perp(ABCD)$, the point $A$ is the projection of $S$ onto $(ABCD)$, and $C$ lies in $(ABCD)$. Hence $AC$ is the projection of $SC$ onto $(ABCD)$, and
+$$\angle(SC,(ABCD))=\angle SCA.$$
+
+Triangle $SAC$ is right-angled at $A$ (since $SA\perp AC$), so
+$$\tan\angle SCA=\frac{SA}{AC}=\frac55=1.$$
+Hence $\angle SCA=45^\circ$.
+
+So the angle between $SC$ and $(ABCD)$ is $45^\circ$ (that is, $45.0^\circ$ to the nearest tenth of a degree).
 
 **Answer.** $45^\circ$.
 :::
@@ -197,7 +207,15 @@ In the cube $ABCD.A'B'C'D'$ of edge $a$, find the angle between $A'C$ and the pl
 2. Find $\tan\angle A'CA$.
 
 ::solution
-Since $AA'\perp(ABCD)$, $AC$ is the projection of $A'C$, and the required angle is $\angle A'CA$. We have $AC=a\sqrt2$, $AA'=a$, so $\tan\angle A'CA=\dfrac1{\sqrt2}$ and $\angle A'CA\approx35.3^\circ$.
+Since $AA'\perp(ABCD)$, the point $A$ is the projection of $A'$ onto $(ABCD)$, and $C$ lies in $(ABCD)$. Hence $AC$ is the projection of $A'C$ onto $(ABCD)$, and the required angle is $\angle A'CA$.
+
+$ABCD$ is a square of side $a$, so $AC=a\sqrt2$. Also $AA'=a$.
+
+Triangle $A'AC$ is right-angled at $A$, so
+$$\tan\angle A'CA=\frac{AA'}{AC}=\frac{a}{a\sqrt2}=\frac1{\sqrt2}.$$
+Using a calculator, $\angle A'CA\approx35.26^\circ\approx35.3^\circ$ (to the nearest tenth of a degree).
+
+So the angle between $A'C$ and $(ABCD)$ is about $35.3^\circ$.
 
 **Answer.** About $35.3^\circ$.
 :::
@@ -213,7 +231,20 @@ The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ right-angled at $B$, $AB=
 2. Find $AC$, then $\tan\angle SCA$.
 
 ::solution
-$\tan\angle SBA=\dfrac{SA}{AB}=\sqrt2$, so $\angle SBA\approx54.7^\circ$. We have $AC=a\sqrt2$, so $\tan\angle SCA=\dfrac{a\sqrt2}{a\sqrt2}=1$, hence $\angle SCA=45^\circ$.
+Since $SA\perp(ABC)$, the point $A$ is the projection of $S$ onto $(ABC)$. Hence $AB$ is the projection of $SB$ and $AC$ is the projection of $SC$ onto $(ABC)$. Therefore
+$$\angle(SB,(ABC))=\angle SBA,\qquad \angle(SC,(ABC))=\angle SCA.$$
+
+The angle between $SB$ and $(ABC)$. Triangle $SAB$ is right-angled at $A$, so
+$$\tan\angle SBA=\frac{SA}{AB}=\frac{a\sqrt2}{a}=\sqrt2.$$
+Using a calculator, $\angle SBA\approx54.7^\circ$.
+
+The angle between $SC$ and $(ABC)$. Triangle $ABC$ is right-angled at $B$, so
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{a^2+a^2}=a\sqrt2.$$
+Triangle $SAC$ is right-angled at $A$, so
+$$\tan\angle SCA=\frac{SA}{AC}=\frac{a\sqrt2}{a\sqrt2}=1,$$
+hence $\angle SCA=45^\circ$.
+
+So the angle between $SB$ and $(ABC)$ is about $54.7^\circ$, and the angle between $SC$ and $(ABC)$ is $45^\circ$.
 
 **Answer.** $\approx54.7^\circ$ and $45^\circ$.
 :::
@@ -237,13 +268,17 @@ d) If $d$ meets $(P)$ without being perpendicular to it, the angle between $d$ a
 2. Remember the range of the angle.
 
 ::solution
-a) **True** by definition.
+The angle between a line $d$ and a plane $(P)$ is defined as follows: if $d\perp(P)$ the angle is $90^\circ$; if $d\parallel(P)$ or $d\subset(P)$ the angle is $0^\circ$; if $d$ meets $(P)$ without being perpendicular to it, the angle is the angle between $d$ and the projection of $d$ onto $(P)$.
 
-b) **False**: when $d\parallel(P)$ the angle is $0^\circ$.
+a) **True.** By definition, when $d\perp(P)$ the angle between $d$ and $(P)$ is $90^\circ$.
 
-c) **False**: the angle never exceeds $90^\circ$.
+b) **False.** When $d\parallel(P)$ the angle between $d$ and $(P)$ is $0^\circ$, not $90^\circ$.
 
-d) **True** by definition.
+c) **False.** The angle between a line and a plane always lies in $[0^\circ, 90^\circ]$, so it cannot equal $120^\circ$.
+
+d) **True.** By definition, if $d$ meets $(P)$ without being perpendicular to it, the angle between $d$ and $(P)$ is the angle between $d$ and its projection onto $(P)$.
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -259,7 +294,15 @@ Suppose a $5$ m ladder leans against a vertical wall with its foot $2$ m from th
 2. Use the cosine of the required angle.
 
 ::solution
-$\cos\varphi=\dfrac25=0.4\Rightarrow\varphi\approx66.4^\circ$.
+Let $A$ be the point on the wall where the top of the ladder rests, $B$ the foot of the ladder on level ground, and $H$ the foot of the wall directly below $A$. Then $AH$ is perpendicular to the ground, $AB=5$ m and $BH=2$ m.
+
+Since $AH$ is perpendicular to the ground, $BH$ is the projection of the ladder $AB$ onto the ground. Hence the angle between the ladder and the ground is $\varphi=\angle ABH$.
+
+Triangle $ABH$ is right-angled at $H$, so
+$$\cos\varphi=\frac{BH}{AB}=\frac25=0.4.$$
+Using a calculator, $\varphi\approx66.42^\circ\approx66.4^\circ$ (to the nearest tenth of a degree).
+
+So the angle between the ladder and the ground is about $66.4^\circ$.
 
 **Answer.** About $66.4^\circ$.
 :::
@@ -275,7 +318,16 @@ Suppose a $6$ m pole $SO$ stands perpendicular to flat ground. An anchor cable $
 2. Find $\sin\angle SBO=\dfrac{SO}{SB}$.
 
 ::solution
-$SB=\sqrt{36+64}=10$ m. $\sin\angle SBO=\dfrac6{10}=0.6\Rightarrow\angle SBO\approx36.9^\circ$.
+The pole $SO$ is perpendicular to the ground, so triangle $SOB$ is right-angled at $O$, with $SO=6$ m and $OB=8$ m.
+
+By Pythagoras' theorem, the length of the cable is
+$$SB=\sqrt{SO^2+OB^2}=\sqrt{36+64}=\sqrt{100}=10\ \text{m}.$$
+
+Since $SO\perp$ the ground, $OB$ is the projection of $SB$ onto the ground. Hence the angle between the cable and the ground is $\angle SBO$. In triangle $SOB$, right-angled at $O$,
+$$\sin\angle SBO=\frac{SO}{SB}=\frac6{10}=0.6.$$
+Using a calculator, $\angle SBO\approx36.87^\circ\approx36.9^\circ$ (to the nearest tenth of a degree).
+
+So the cable is $10$ m long and makes an angle of about $36.9^\circ$ with the ground.
 
 **Answer.** The cable is $10$ m long, at about $36.9^\circ$.
 :::
@@ -291,7 +343,16 @@ The regular square pyramid $S.ABCD$ has base edge $a$ and lateral edge $a$. Let 
 2. Find $\cos\angle SAO=\dfrac{OA}{SA}$.
 
 ::solution
-$SO\perp(ABCD)$, so the projection of $SA$ is $OA$, and $OA=\dfrac{a\sqrt2}{2}$. Then $\cos\angle SAO=\dfrac{OA}{SA}=\dfrac{\sqrt2}{2}$, so $\angle SAO=45^\circ$.
+$S.ABCD$ is a regular square pyramid and $O$ is the centre of the base, so $SO\perp(ABCD)$. Hence $O$ is the projection of $S$ onto $(ABCD)$, and $OA$ is the projection of $SA$ onto $(ABCD)$. Therefore
+$$\angle(SA,(ABCD))=\angle SAO.$$
+
+The base $ABCD$ is a square of side $a$, so $AC=a\sqrt2$. Since $O$ is the midpoint of $AC$, $OA=\dfrac{a\sqrt2}{2}$.
+
+Triangle $SOA$ is right-angled at $O$ and $SA=a$, so
+$$\cos\angle SAO=\frac{OA}{SA}=\frac{a\sqrt2}{2}\cdot\frac1a=\frac{\sqrt2}{2}.$$
+Hence $\angle SAO=45^\circ$.
+
+So the angle between $SA$ and $(ABCD)$ is $45^\circ$.
 
 **Answer.** $45^\circ$.
 :::
@@ -307,7 +368,14 @@ Revisit Pythagoras' theorem. Suppose a flat slope makes an angle of $30^\circ$ w
 2. Use $\sin30^\circ=\dfrac12$.
 
 ::solution
-Height $=12\cdot\sin30^\circ=12\cdot\dfrac12=6$ m.
+Let $A$ be the starting point (at the foot of the slope), $B$ the person's position after walking $12$ m along the line of steepest ascent, and $H$ the projection of $B$ onto the horizontal plane through $A$. Then $AB=12$ m and the height gained is $BH$.
+
+Since $B$ lies on the line of steepest ascent, the angle between $AB$ and the horizontal plane is $\angle BAH=30^\circ$, and $AH$ is the projection of $AB$ onto the horizontal plane.
+
+Triangle $ABH$ is right-angled at $H$, so
+$$BH=AB\cdot\sin\angle BAH=12\cdot\sin30^\circ=12\cdot\frac12=6\ \text{m}.$$
+
+So the person has risen $6$ m.
 
 **Answer.** $6$ m.
 :::
@@ -323,7 +391,20 @@ The pyramid $S.ABCD$ has a square base $ABCD$ of side $a$, $SA\perp(ABCD)$ and $
 2. Find $\sin\angle CSB=\dfrac{CB}{SC}$.
 
 ::solution
-$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$; the projection of $SC$ onto $(SAB)$ is $SB$ and the required angle is $\angle CSB$. We have $SB=\sqrt{2a^2+a^2}=a\sqrt3$ and $SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a$. Triangle $CBS$ is right-angled at $B$, so $\sin\angle CSB=\dfrac{a}{2a}=\dfrac12$, hence $\angle CSB=30^\circ$.
+The base $ABCD$ is a square, so $BC\perp AB$. Since $SA\perp(ABCD)$ and $BC\subset(ABCD)$, we have $BC\perp SA$. The plane $(SAB)$ contains the two intersecting lines $AB$ and $SA$, both perpendicular to $BC$, so $BC\perp(SAB)$.
+
+Hence $B$ is the projection of $C$ onto $(SAB)$, and $S$ lies in $(SAB)$. Therefore $SB$ is the projection of $SC$ onto $(SAB)$, and the required angle is $\angle CSB$.
+
+We compute the lengths. Triangle $SAB$ is right-angled at $A$, so
+$$SB=\sqrt{SA^2+AB^2}=\sqrt{2a^2+a^2}=a\sqrt3.$$
+We have $AC=a\sqrt2$, so triangle $SAC$, right-angled at $A$, gives
+$$SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a.$$
+
+Triangle $CBS$ is right-angled at $B$ (since $BC\perp(SAB)$ gives $BC\perp SB$), so
+$$\sin\angle CSB=\frac{BC}{SC}=\frac{a}{2a}=\frac12.$$
+Hence $\angle CSB=30^\circ$.
+
+So the angle between $SC$ and $(SAB)$ is $30^\circ$.
 
 **Answer.** $30^\circ$.
 :::

@@ -184,11 +184,18 @@ a) Bán kính $7$ cm thì đường kính là $?$ cm; b) đường kính $1{,}6$
 2. Chia đường kính cho $2$ để được bán kính.
 
 ::solution
-a) $7\times2=14$ cm.
+Đường kính gấp hai lần bán kính. Vì vậy, muốn tìm đường kính ta lấy bán kính nhân với $2$; muốn tìm bán kính ta lấy đường kính chia cho $2$.
 
-b) $1{,}6:2=0{,}8$ m.
+a) Bán kính $7$ cm thì đường kính là:
+$$7\times2=14\ \text{(cm)}$$
 
-c) $2{,}5\times2=5$ dm.
+b) Đường kính $1{,}6$ m thì bán kính là:
+$$1{,}6:2=0{,}8\ \text{(m)}$$
+
+c) Bán kính $2{,}5$ dm thì đường kính là:
+$$2{,}5\times2=5\ \text{(dm)}$$
+
+Vậy các số cần điền là: a) $14$ cm; b) $0{,}8$ m; c) $5$ dm.
 
 **Đáp số.** a) $14$; b) $0{,}8$; c) $5$.
 :::
@@ -204,11 +211,18 @@ Tính chu vi hình tròn: a) đường kính $5$ cm; b) bán kính $3$ cm; c) đ
 2. Nhân với $3{,}14$ (nhớ nhân $2$ nếu là bán kính).
 
 ::solution
-a) $5\times3{,}14=15{,}7$ cm.
+Muốn tính chu vi hình tròn, ta lấy đường kính nhân với $3{,}14$. Nếu biết bán kính, ta lấy bán kính nhân với $2$ để được đường kính, rồi nhân với $3{,}14$.
 
-b) $3\times2\times3{,}14=18{,}84$ cm.
+a) Chu vi hình tròn có đường kính $5$ cm là:
+$$5\times3{,}14=15{,}7\ \text{(cm)}$$
 
-c) $0{,}4\times3{,}14=1{,}256$ m.
+b) Hình tròn có bán kính $3$ cm thì đường kính là $3\times2=6$ cm. Chu vi hình tròn là:
+$$3\times2\times3{,}14=18{,}84\ \text{(cm)}$$
+
+c) Chu vi hình tròn có đường kính $0{,}4$ m là:
+$$0{,}4\times3{,}14=1{,}256\ \text{(m)}$$
+
+Vậy chu vi các hình tròn lần lượt là $15{,}7$ cm, $18{,}84$ cm và $1{,}256$ m.
 
 **Đáp số.** a) $15{,}7$ cm; b) $18{,}84$ cm; c) $1{,}256$ m.
 :::
@@ -224,11 +238,18 @@ Tính diện tích hình tròn: a) bán kính $3$ cm; b) đường kính $10$ dm
 2. Nhân bán kính với chính nó, rồi nhân với $3{,}14$.
 
 ::solution
-a) $3\times3\times3{,}14=28{,}26\ \text{cm}^2$.
+Muốn tính diện tích hình tròn, ta lấy bán kính nhân với bán kính rồi nhân với $3{,}14$. Nếu biết đường kính thì trước hết ta chia đường kính cho $2$ để tìm bán kính.
 
-b) Bán kính là $10:2=5$ dm, nên $S=5\times5\times3{,}14=78{,}5\ \text{dm}^2$.
+a) Diện tích hình tròn có bán kính $3$ cm là:
+$$3\times3\times3{,}14=28{,}26\ \left(\text{cm}^2\right)$$
 
-c) $1{,}5\times1{,}5\times3{,}14=2{,}25\times3{,}14=7{,}065\ \text{m}^2$.
+b) Bán kính hình tròn là $10:2=5$ dm. Diện tích hình tròn là:
+$$5\times5\times3{,}14=78{,}5\ \left(\text{dm}^2\right)$$
+
+c) Ta có $1{,}5\times1{,}5=2{,}25$. Diện tích hình tròn có bán kính $1{,}5$ m là:
+$$2{,}25\times3{,}14=7{,}065\ \left(\text{m}^2\right)$$
+
+Vậy diện tích các hình tròn lần lượt là $28{,}26\ \text{cm}^2$, $78{,}5\ \text{dm}^2$ và $7{,}065\ \text{m}^2$.
 
 **Đáp số.** a) $28{,}26\ \text{cm}^2$; b) $78{,}5\ \text{dm}^2$; c) $7{,}065\ \text{m}^2$.
 :::
@@ -244,9 +265,19 @@ Tìm đường kính và bán kính của hình tròn có chu vi: a) $31{,}4$ cm
 2. Chia đường kính cho $2$.
 
 ::solution
-a) $d=31{,}4:3{,}14=10$ cm và $r=10:2=5$ cm.
+Vì chu vi bằng đường kính nhân với $3{,}14$ nên muốn tìm đường kính ta lấy chu vi chia cho $3{,}14$. Sau đó bán kính bằng đường kính chia cho $2$.
 
-b) $d=25{,}12:3{,}14=8$ m và $r=8:2=4$ m.
+a) Đường kính hình tròn có chu vi $31{,}4$ cm là:
+$$31{,}4:3{,}14=10\ \text{(cm)}$$
+Bán kính hình tròn là:
+$$10:2=5\ \text{(cm)}$$
+
+b) Đường kính hình tròn có chu vi $25{,}12$ m là:
+$$25{,}12:3{,}14=8\ \text{(m)}$$
+Bán kính hình tròn là:
+$$8:2=4\ \text{(m)}$$
+
+Vậy: a) đường kính $10$ cm, bán kính $5$ cm; b) đường kính $8$ m, bán kính $4$ m.
 
 **Đáp số.** a) $d=10$ cm, $r=5$ cm; b) $d=8$ m, $r=4$ m.
 :::
@@ -262,9 +293,15 @@ Giả sử bánh xe đạp của bạn Lan có đường kính $0{,}65$ m. Hỏi
 2. Nhân chu vi với $10$ bằng cách chuyển dấu phẩy.
 
 ::solution
-Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ m.
+Bài giải
 
-Quãng đường đi được sau $10$ vòng là $2{,}041\times10=20{,}41$ (m).
+Mỗi vòng lăn, bánh xe đi được quãng đường bằng chu vi của bánh xe. Chu vi bánh xe là:
+$$0{,}65\times3{,}14=2{,}041\ \text{(m)}$$
+
+Quãng đường xe đi được khi bánh xe lăn $10$ vòng là:
+$$2{,}041\times10=20{,}41\ \text{(m)}$$
+
+Vậy bánh xe lăn $10$ vòng thì xe đi được $20{,}41$ m.
 
 **Đáp số.** $20{,}41$ m.
 :::
@@ -280,9 +317,15 @@ Giả sử một cái ao hình tròn có bán kính $20$ m. Tính chu vi và di�
 2. Tính diện tích bằng $r\times r\times3{,}14$.
 
 ::solution
-Chu vi của ao là $20\times2\times3{,}14=125{,}6$ m.
+Bài giải
 
-Diện tích của ao là $20\times20\times3{,}14=1256\ \text{m}^2$.
+Ao hình tròn có bán kính $20$ m. Chu vi của ao là:
+$$20\times2\times3{,}14=125{,}6\ \text{(m)}$$
+
+Diện tích của ao là:
+$$20\times20\times3{,}14=1256\ \left(\text{m}^2\right)$$
+
+Vậy chu vi của ao là $125{,}6$ m và diện tích của ao là $1256\ \text{m}^2$.
 
 **Đáp số.** Chu vi $125{,}6$ m; diện tích $1256\ \text{m}^2$.
 :::
@@ -298,10 +341,14 @@ Một sợi dây dài $94{,}2$ cm quấn đúng một vòng quanh một chiếc 
 2. Chia chu vi cho $3{,}14$. Thử lại bằng phép nhân.
 
 ::solution
-Đường kính của hộp là:
-$$94{,}2:3{,}14=30\ \text{(cm)}.$$
+Bài giải
 
-**Thử lại.** $30\times3{,}14=94{,}2$. Đúng.
+Sợi dây quấn đúng một vòng quanh hộp nên chiều dài sợi dây bằng chu vi của hộp. Vì chu vi bằng đường kính nhân với $3{,}14$, nên đường kính của hộp là:
+$$94{,}2:3{,}14=30\ \text{(cm)}$$
+
+*Thử lại.* $30\times3{,}14=94{,}2$. Đúng.
+
+Vậy đường kính của hộp là $30$ cm.
 
 **Đáp số.** $30$ cm.
 :::
@@ -317,9 +364,20 @@ Em hãy nhớ lại bài ôn tập về diện tích hình vuông. Một hình v
 2. Lấy diện tích hình vuông trừ diện tích hình tròn.
 
 ::solution
-Diện tích hình vuông là $10\times10=100\ \text{cm}^2$. Diện tích hình tròn là $5\times5\times3{,}14=78{,}5\ \text{cm}^2$.
+Bài giải
 
-Diện tích phần nằm ngoài hình tròn là $100-78{,}5=21{,}5\ \text{cm}^2$.
+Hình tròn có đường kính $10$ cm nên bán kính là $10:2=5$ cm.
+
+Diện tích hình vuông là:
+$$10\times10=100\ \left(\text{cm}^2\right)$$
+
+Diện tích hình tròn là:
+$$5\times5\times3{,}14=78{,}5\ \left(\text{cm}^2\right)$$
+
+Diện tích phần hình vuông nằm ngoài hình tròn là:
+$$100-78{,}5=21{,}5\ \left(\text{cm}^2\right)$$
+
+Vậy diện tích phần hình vuông nằm ngoài hình tròn là $21{,}5\ \text{cm}^2$.
 
 **Đáp số.** $21{,}5\ \text{cm}^2$.
 :::
@@ -335,11 +393,23 @@ Hình tròn $A$ có bán kính $3$ cm, hình tròn $B$ có bán kính $6$ cm (g�
 2. Chia kết quả của $B$ cho kết quả của $A$.
 
 ::solution
-Hình tròn $A$: $C=3\times2\times3{,}14=18{,}84$ cm và $S=3\times3\times3{,}14=28{,}26\ \text{cm}^2$.
+Bài giải
 
-Hình tròn $B$: $C=6\times2\times3{,}14=37{,}68$ cm và $S=6\times6\times3{,}14=113{,}04\ \text{cm}^2$.
+Tính chu vi và diện tích của hình tròn $A$ (bán kính $3$ cm):
+$$C_A=3\times2\times3{,}14=18{,}84\ \text{(cm)}$$
+$$S_A=3\times3\times3{,}14=28{,}26\ \left(\text{cm}^2\right)$$
 
-Vì $37{,}68:18{,}84=2$ và $113{,}04:28{,}26=4$ nên chu vi gấp $2$ lần, diện tích gấp $4$ lần.
+Tính chu vi và diện tích của hình tròn $B$ (bán kính $6$ cm):
+$$C_B=6\times2\times3{,}14=37{,}68\ \text{(cm)}$$
+$$S_B=6\times6\times3{,}14=113{,}04\ \left(\text{cm}^2\right)$$
+
+Chu vi hình tròn $B$ gấp chu vi hình tròn $A$ số lần là:
+$$37{,}68:18{,}84=2\ \text{(lần)}$$
+
+Diện tích hình tròn $B$ gấp diện tích hình tròn $A$ số lần là:
+$$113{,}04:28{,}26=4\ \text{(lần)}$$
+
+Vậy chu vi hình tròn $B$ gấp $2$ lần chu vi hình tròn $A$; diện tích hình tròn $B$ gấp $4$ lần diện tích hình tròn $A$.
 
 **Đáp số.** Chu vi gấp $2$ lần; diện tích gấp $4$ lần.
 :::

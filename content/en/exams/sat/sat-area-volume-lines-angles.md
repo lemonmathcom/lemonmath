@@ -116,7 +116,17 @@ Two angles form a linear pair. Their measures are $(2x+15)^\circ$ and $(4x-3)^\c
 2. Solve for $x$.
 
 ::solution
-$6x+12=180\iff x=28$. The angles are $71^\circ$ and $109^\circ$.
+Two angles that form a linear pair have measures that add up to $180^\circ$. We have the equation
+$$(2x+15)+(4x-3)=180.$$
+
+Simplifying the left-hand side, we get
+$$\begin{aligned}6x+12&=180\\ 6x&=168\\ x&=28.\end{aligned}$$
+
+Check: the two angles are $2\cdot28+15=71^\circ$ and $4\cdot28-3=109^\circ$, and $71^\circ+109^\circ=180^\circ$.
+
+So $x=28$.
+
+**Answer.** $28$.
 :::
 
 :::exercise Student-produced response
@@ -130,7 +140,17 @@ The angles of a triangle are in the ratio $2:3:4$. What is the measure, in degre
 2. Multiply by $4$.
 
 ::solution
-One part is $20^\circ$, so the largest angle is $80^\circ$.
+Let one part measure $k^\circ$ ($k>0$). Then the three angles of the triangle measure $2k^\circ$, $3k^\circ$, $4k^\circ$.
+
+The angles of a triangle add up to $180^\circ$, so
+$$\begin{aligned}2k+3k+4k&=180\\ 9k&=180\\ k&=20.\end{aligned}$$
+So one part is $20^\circ$.
+
+The largest angle corresponds to the largest part, $4$, so its measure is $4\cdot20^\circ=80^\circ$.
+
+So the largest angle measures $80^\circ$.
+
+**Answer.** $80^\circ$.
 :::
 
 :::exercise Multiple choice
@@ -148,7 +168,17 @@ D. $1{,}080^\circ$
 2. Divide by $8$.
 
 ::solution
-$6\cdot180^\circ=1{,}080^\circ$, and $1{,}080^\circ\div8=135^\circ$: answer **B**.
+A polygon with $n$ sides has interior angles that add up to $(n-2)\cdot180^\circ$. For an octagon, $n=8$.
+
+The sum of the interior angles of an octagon is
+$$(8-2)\cdot180^\circ=6\cdot180^\circ=1{,}080^\circ.$$
+
+A regular octagon has $8$ equal interior angles, so each interior angle measures
+$$1{,}080^\circ\div8=135^\circ.$$
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Multiple choice
@@ -166,7 +196,16 @@ D. $48\pi$
 2. $\dfrac13\cdot16\cdot6$.
 
 ::solution
-$\dfrac13\pi\cdot16\cdot6=32\pi$: answer **A**. Option B forgets the $\dfrac13$.
+The volume of a cone with base radius $r$ and height $h$ is $V=\dfrac13\pi r^2h$.
+
+With $r=4$ cm and $h=6$ cm, we have
+$$V=\frac13\pi\cdot4^2\cdot6=\frac13\pi\cdot16\cdot6=32\pi\ (\text{cm}^3).$$
+
+So the answer is **A**.
+
+*Remark.* Option B forgets the factor $\dfrac13$ and so gets $\pi r^2h=96\pi$.
+
+**Answer.** A.
 :::
 
 :::exercise Multiple choice
@@ -183,7 +222,18 @@ D. It is multiplied by 27.
 1. $k=3$.
 
 ::solution
-The area is multiplied by $3^2=9$: answer **C**. Option D is the factor for volume.
+Let the original length and width of the rectangle be $a$ and $b$ ($a>0$, $b>0$). The original area is $S=ab$.
+
+After both are tripled, the length is $3a$ and the width is $3b$, so the new area is
+$$S'=3a\cdot3b=9ab=9S.$$
+
+So the area is multiplied by $3^2=9$.
+
+So the answer is **C**.
+
+*Remark.* Option D (multiplied by $27$) is the factor for volume, since volume is multiplied by $3^3=27$.
+
+**Answer.** C.
 :::
 
 ## Application exercises
@@ -199,7 +249,17 @@ A box is a rectangular prism 30 centimeters long, 20 centimeters wide and 10 cen
 2. Add them and double.
 
 ::solution
-$2(600+300+200)=2{,}200$ square centimeters.
+The total surface area of a rectangular prism with dimensions $a$, $b$, $c$ is $S=2(ab+bc+ca)$.
+
+With length $30$ cm, width $20$ cm and height $10$ cm, we have the products
+$$30\cdot20=600,\qquad 30\cdot10=300,\qquad 20\cdot10=200.$$
+
+Therefore
+$$S=2(600+300+200)=2\cdot1{,}100=2{,}200\ (\text{cm}^2).$$
+
+So the total surface area of the box is $2{,}200$ square centimeters.
+
+**Answer.** $2{,}200$ square centimeters.
 :::
 
 :::exercise An aquarium
@@ -213,7 +273,17 @@ An aquarium is 60 centimeters long, 40 centimeters wide and 30 centimeters high.
 2. Divide by $1{,}000$.
 
 ::solution
-$60\cdot40\cdot25=60{,}000$ cubic centimeters, which is 60 liters.
+The water in the tank forms a rectangular prism with a base of $60$ cm $\times$ $40$ cm and a height equal to the depth of the water, $25$ cm (not the $30$ cm height of the tank).
+
+The volume of the water is
+$$V=60\cdot40\cdot25=60{,}000\ (\text{cm}^3).$$
+
+Since $1$ liter $=1{,}000$ cubic centimeters, the number of liters is
+$$60{,}000\div1{,}000=60.$$
+
+So the aquarium contains $60$ liters of water.
+
+**Answer.** $60$ liters.
 :::
 
 :::exercise A running track
@@ -227,7 +297,16 @@ A circular track has an inner radius of 30 meters and an outer radius of 35 mete
 2. Round.
 
 ::solution
-$\pi(1{,}225-900)=325\pi\approx1{,}021$ square meters.
+The circular track is the region between two concentric circles, so its area is the difference between the areas of the outer disc and the inner disc: $A=\pi R^2-\pi r^2$, with $R=35$ m and $r=30$ m.
+
+We have
+$$A=\pi\left(35^2-30^2\right)=\pi(1{,}225-900)=325\pi.$$
+
+With a calculator, $325\pi\approx1{,}021$ to the nearest whole number.
+
+So the area of the track is approximately $1{,}021$ square meters.
+
+**Answer.** $1{,}021$ square meters.
 :::
 
 :::exercise Challenge
@@ -241,7 +320,21 @@ A sphere fits exactly inside a cube with volume 64 cubic centimeters, touching a
 2. Divide the volume of the sphere by $64$.
 
 ::solution
-The sphere has volume $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. The fraction is $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0.52$. A sphere always fills $\dfrac{\pi}{6}$ of the cube around it, whatever its size.
+Let $a$ (cm) be the edge of the cube ($a>0$). The volume of the cube is $a^3=64$, so $a=\sqrt[3]{64}=4$.
+
+The sphere fits exactly inside the cube and touches all six faces, so the diameter of the sphere equals the edge of the cube, that is $2R=4$ and $R=2$ cm.
+
+The volume of the sphere is
+$$V_{\text{sphere}}=\frac43\pi R^3=\frac43\pi\cdot8=\frac{32\pi}{3}\ (\text{cm}^3).$$
+
+The ratio of the volume of the sphere to the volume of the cube is
+$$\frac{V_{\text{sphere}}}{V_{\text{cube}}}=\frac{32\pi}{3\cdot64}=\frac{\pi}{6}\approx0.52.$$
+
+For any edge $a$ we have $R=\dfrac a2$ and $V_{\text{sphere}}=\dfrac43\pi\cdot\dfrac{a^3}{8}=\dfrac{\pi a^3}{6}$, so a sphere always fills $\dfrac{\pi}{6}$ of the cube around it, whatever its size.
+
+So the sphere fills $\dfrac{\pi}{6}$ of the volume of the cube, approximately $0.52$.
+
+**Answer.** $\dfrac{\pi}{6}\approx0.52$.
 :::
 
 :::quiz

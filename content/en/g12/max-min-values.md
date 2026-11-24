@@ -234,9 +234,15 @@ Find the maximum and minimum values of $y=\dfrac{x-1}{x+2}$ on $[0, 3]$.
 2. Compute $y(0)$ and $y(3)$.
 
 ::solution
-We have $y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$, so the function is increasing on $[0, 3]$.
+The function $y=\dfrac{x-1}{x+2}$ is defined and continuous on $[0, 3]$ because $x+2\ge2>0$ for every $x\in[0, 3]$.
 
-So the maximum value is $y(3)=\dfrac25$ and the minimum value is $y(0)=-\dfrac12$.
+Its derivative is
+$$y'=\frac{1\cdot(x+2)-(x-1)\cdot1}{(x+2)^2}=\frac{3}{(x+2)^2}>0\quad\text{for every}\ x\in[0, 3].$$
+
+Since $y'>0$, the function is increasing on $[0, 3]$. Hence the minimum value is attained at the left endpoint $x=0$ and the maximum value at the right endpoint $x=3$:
+$$y(0)=\frac{0-1}{0+2}=-\frac12,\qquad y(3)=\frac{3-1}{3+2}=\frac25.$$
+
+So the maximum value of the function on $[0, 3]$ is $y(3)=\dfrac25$ and the minimum value is $y(0)=-\dfrac12$.
 
 **Answer.** Maximum value $\dfrac25$; minimum value $-\dfrac12$.
 :::
@@ -296,15 +302,21 @@ d) The minimum value of $f$ on $[-1, 3]$ is $2$.
 2. Compute $f(-1)$, $f(0)$, $f(2)$, $f(3)$.
 
 ::solution
-We have $f'(x)=-3x(x-2)=0\iff x=0$ or $x=2$. We have $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
+The function $f(x)=-x^3+3x^2+2$ is a polynomial, so it is continuous on $[-1, 3]$. Its derivative is
+$$f'(x)=-3x^2+6x=-3x(x-2).$$
 
-a) **True**. The two roots $0$ and $2$ are both in $[-1, 3]$.
+Hence $f'(x)=0\iff x=0$ or $x=2$; both values lie in $[-1, 3]$. We evaluate $f$ at these points and at the two endpoints:
+$$f(-1)=1+3+2=6,\quad f(0)=2,\quad f(2)=-8+12+2=6,\quad f(3)=-27+27+2=2.$$
 
-b) **True**. The largest of the values above is $6$.
+a) **True.** The equation $f'(x)=0$ has two distinct roots $x=0$ and $x=2$, and both lie in $[-1, 3]$.
 
-c) **False**. Since $f(-1)=6$, the maximum is reached at both $x=-1$ and $x=2$.
+b) **True.** The largest of the values $6$, $2$, $6$, $2$ is $6$, so the maximum value of $f$ on $[-1, 3]$ is $6$.
 
-d) **True**. The smallest of the values above is $2$, reached at $x=0$ and $x=3$.
+c) **False.** Since $f(-1)=6=f(2)$, the maximum value $6$ is reached at both $x=-1$ and $x=2$, not only at $x=2$.
+
+d) **True.** The smallest of the values above is $2$, so the minimum value of $f$ on $[-1, 3]$ is $2$ (reached at $x=0$ and $x=3$).
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -320,9 +332,19 @@ Find the maximum value of $y=x\sqrt{9-x^2}$ on $[0, 3]$ (give the result as a de
 2. Find the root in $(0, 3)$ and compare with $y(0)$, $y(3)$.
 
 ::solution
-On the interval $(0, 3)$, we have $y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, that is $x=\dfrac{3}{\sqrt2}$. Then $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Also $y(0)=y(3)=0$.
+The function $y=x\sqrt{9-x^2}$ is defined and continuous on $[0, 3]$ because $9-x^2\ge0$ for $x\in[0, 3]$.
 
-So the maximum value of the function is $\dfrac92$.
+On the interval $(0, 3)$, the derivative is
+$$y'=\sqrt{9-x^2}+x\cdot\frac{-2x}{2\sqrt{9-x^2}}=\sqrt{9-x^2}-\frac{x^2}{\sqrt{9-x^2}}=\frac{9-2x^2}{\sqrt{9-x^2}}.$$
+
+Solving $y'=0\iff9-2x^2=0\iff x^2=\dfrac92$. Since $x\in(0, 3)$, we get $x=\dfrac{3}{\sqrt2}\approx2.12$, which satisfies the condition.
+
+We evaluate the function at this point and at the two endpoints:
+$$y\left(\frac{3}{\sqrt2}\right)=\frac{3}{\sqrt2}\cdot\sqrt{9-\frac92}=\frac{3}{\sqrt2}\cdot\frac{3}{\sqrt2}=\frac92,\qquad y(0)=y(3)=0.$$
+
+Comparing $\dfrac92$, $0$, $0$, the largest value is $\dfrac92$.
+
+So the maximum value of the function on $[0, 3]$ is $\dfrac92=4.5$.
 
 **Answer.** $4.5$.
 :::
@@ -392,9 +414,19 @@ Find the maximum and minimum values of $y=x+\sqrt2\cos x$ on $\left[0, \dfrac{\p
 2. Compute $y$ at the root and at both endpoints, then compare using approximations.
 
 ::solution
-On the interval $\left(0, \dfrac{\pi}{2}\right)$, we have $y'=0\iff\sin x=\dfrac{1}{\sqrt2}\iff x=\dfrac{\pi}{4}$. We have $y(0)=\sqrt2\approx1.414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1.785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1.571$.
+The function $y=x+\sqrt2\cos x$ is defined and continuous on $\left[0, \dfrac{\pi}{2}\right]$. Its derivative is $y'=1-\sqrt2\sin x$.
 
-So the maximum value is $\dfrac{\pi}{4}+1$ and the minimum value is $\sqrt2$.
+On the interval $\left(0, \dfrac{\pi}{2}\right)$, we have
+$$y'=0\iff\sin x=\frac{1}{\sqrt2}\iff x=\frac{\pi}{4}\quad\left(\text{which lies in}\ \left(0, \tfrac{\pi}{2}\right)\right).$$
+
+We evaluate the function at this point and at the two endpoints:
+$$y(0)=0+\sqrt2\cos0=\sqrt2\approx1.414,$$
+$$y\left(\frac{\pi}{4}\right)=\frac{\pi}{4}+\sqrt2\cdot\frac{\sqrt2}{2}=\frac{\pi}{4}+1\approx1.785,$$
+$$y\left(\frac{\pi}{2}\right)=\frac{\pi}{2}+\sqrt2\cos\frac{\pi}{2}=\frac{\pi}{2}\approx1.571.$$
+
+Comparing the three values, we have $1.414<1.571<1.785$.
+
+So the maximum value of the function on $\left[0, \dfrac{\pi}{2}\right]$ is $\dfrac{\pi}{4}+1$ (at $x=\dfrac{\pi}{4}$) and the minimum value is $\sqrt2$ (at $x=0$).
 
 **Answer.** Maximum value $\dfrac{\pi}{4}+1$ (at $x=\dfrac{\pi}{4}$); minimum value $\sqrt2$ (at $x=0$).
 :::

@@ -122,7 +122,11 @@ $3$ is made of $1$ and $\square$. Find the missing number.
 2. Count up to $3$ and see how many numbers you say.
 
 ::solution
-Count from $1$ to $3$: "two, three". That is $2$ numbers.
+We count on from $1$ up to $3$: "two, three". We count $2$ more numbers.
+
+Check: $1+2=3$. Correct.
+
+So $3$ is made of $1$ and $2$.
 
 **Answer.** $2$.
 :::
@@ -138,7 +142,11 @@ $5$ is made of $4$ and $\square$. Find the missing number.
 2. Count up to $5$.
 
 ::solution
-Count from $4$ to $5$: "five". That is $1$ number.
+We count on from $4$ up to $5$: "five". We count $1$ more number.
+
+Check: $4+1=5$. Correct.
+
+So $5$ is made of $4$ and $1$.
 
 **Answer.** $1$.
 :::
@@ -154,7 +162,14 @@ Remember the last lesson. a) Write $>$, $<$ or $=$: $6 \;\square\; 8$. b) $6$ is
 2. Count from $2$ to $6$.
 
 ::solution
-a) $6$ is counted before $8$, so $6<8$. b) Count from $2$ to $6$: "three, four, five, six", which is $4$ numbers.
+a) When we count, the number $6$ is counted before $8$, so $6$ is less than $8$. We write the sign $<$:
+$$6<8.$$
+
+b) We count on from $2$ up to $6$: "three, four, five, six". We count $4$ more numbers.
+
+Check: $2+4=6$. Correct.
+
+So a) $6<8$; b) $6$ is made of $2$ and $4$.
 
 **Answer.** a) $6<8$. b) $4$.
 :::
@@ -171,7 +186,11 @@ b) $7$ is made of $3$ and $\square$.
 2. Part b) starts from $3$.
 
 ::solution
-a) Count from $5$ to $7$: "six, seven", which is $2$ numbers. b) Count from $3$ to $7$: "four, five, six, seven", which is $4$ numbers.
+a) We count on from $5$ up to $7$: "six, seven". We count $2$ more numbers. Check: $5+2=7$. Correct.
+
+b) We count on from $3$ up to $7$: "four, five, six, seven". We count $4$ more numbers. Check: $3+4=7$. Correct.
+
+So a) $7$ is made of $5$ and $2$; b) $7$ is made of $3$ and $4$.
 
 **Answer.** a) $2$. b) $4$.
 :::
@@ -187,7 +206,11 @@ Ha says: "$6$ is made of $4$ and $3$." Is Ha right? Why?
 2. Which number do you reach?
 
 ::solution
-From $4$, counting on $3$ numbers reaches seven, not six. Ha is wrong. From $4$ to $6$ you count only $2$ numbers.
+Ha says $6$ is made of $4$ and $3$. We check by counting on $3$ numbers from $4$: "five, six, seven". We reach $7$, not $6$.
+
+To count from $4$ up to $6$: "five, six", we only need to count $2$ more numbers. Check: $4+2=6$. Correct.
+
+So Ha is wrong; $6$ is made of $4$ and $2$.
 
 **Answer.** No. $6$ is made of $4$ and $2$.
 :::
@@ -203,7 +226,11 @@ Nam splits the number $8$ into $5$ and $2$. Where did Nam go wrong? What is the 
 2. Compare with Nam's $2$.
 
 ::solution
-From $5$ to $8$: "six, seven, eight", so $3$ numbers are needed. Nam's $2$ is wrong.
+Nam splits $8$ into $5$ and $2$. We check: counting on $2$ numbers from $5$ gives "six, seven", which reaches $7$, not $8$.
+
+To count from $5$ up to $8$: "six, seven, eight", we need to count $3$ more numbers. Check: $5+3=8$. Correct.
+
+So Nam went wrong by choosing the number $2$; the right split is that $8$ is made of $5$ and $3$.
 
 **Answer.** $8$ is made of $5$ and $3$.
 :::
@@ -219,7 +246,13 @@ $9$ balloons are shared between two bags. The red bag has $6$ balloons. How many
 2. Count from $6$ to $9$.
 
 ::solution
-Count from $6$ to $9$: "seven, eight, nine", which is $3$ numbers.
+Solution
+
+The number of balloons in the blue bag is the number we must count on from $6$ to reach $9$. We count on from $6$ up to $9$: "seven, eight, nine". We count $3$ more numbers.
+
+Check: $6+3=9$. Correct.
+
+So the blue bag has $3$ balloons.
 
 **Answer.** The blue bag has $3$ balloons.
 :::
@@ -235,9 +268,19 @@ Write all the ways to split the number $4$ into two numbers, both greater than $
 2. Carry on with first parts $2$ and $3$.
 
 ::solution
-First part $1$: counting from $1$ to $4$ gives $3$. First part $2$: gives $2$. First part $3$: gives $1$.
+Solution
 
-**Check.** Each pair makes $4$.
+We split the number $4$ into two numbers that are both greater than $0$, taking the first part to be $1$, $2$, $3$ in turn.
+
+First part $1$: counting on from $1$ up to $4$: "two, three, four", gives $3$. So $4$ is made of $1$ and $3$.
+
+First part $2$: counting on from $2$ up to $4$: "three, four", gives $2$. So $4$ is made of $2$ and $2$.
+
+First part $3$: counting on from $3$ up to $4$: "four", gives $1$. So $4$ is made of $3$ and $1$.
+
+Check: $1+3=4$, $2+2=4$, $3+1=4$. Each pair makes $4$.
+
+So there are $3$ ways to split: $4$ is made of $1$ and $3$; $2$ and $2$; $3$ and $1$.
 
 **Answer.** $4$ is made of $1$ and $3$; $2$ and $2$; $3$ and $1$.
 :::

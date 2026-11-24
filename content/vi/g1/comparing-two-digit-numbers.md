@@ -114,7 +114,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Số nào có hàng chục lớn hơn?
 
 ::solution
-Hàng chục: $4>3$ nên $45>38$.
+Khi so sánh hai số có hai chữ số, ta so sánh hàng chục trước.
+
+Số $45$ có $4$ chục, số $38$ có $3$ chục. Vì $4>3$ nên $45>38$.
+
+Vậy dấu cần điền là $>$, ta có $45>38$.
 
 **Đáp số.** $45>38$.
 :::
@@ -130,7 +134,13 @@ Hàng chục: $4>3$ nên $45>38$.
 2. So hàng đơn vị.
 
 ::solution
-Hàng chục đều là $5$. Hàng đơn vị: $2<7$ nên $52<57$.
+Khi so sánh hai số có hai chữ số, ta so sánh hàng chục trước.
+
+Hàng chục của $52$ và $57$ đều là $5$, nên ta so sánh tiếp hàng đơn vị.
+
+Hàng đơn vị: $2<7$ nên $52<57$.
+
+Vậy dấu cần điền là $<$, ta có $52<57$.
 
 **Đáp số.** $52<57$.
 :::
@@ -146,7 +156,11 @@ Em hãy nhớ lại bài trước: viết số gồm $6$ chục và $2$ đơn v�
 2. So $62$ và $26$ ở hàng chục.
 
 ::solution
-Số đó là $62$. Hàng chục: $6>2$ nên $62>26$.
+Số gồm $6$ chục và $2$ đơn vị là $62$.
+
+Ta so sánh $62$ với $26$. Hàng chục của $62$ là $6$, hàng chục của $26$ là $2$. Vì $6>2$ nên $62>26$.
+
+Vậy số cần viết là $62$ và $62>26$.
 
 **Đáp số.** $62>26$.
 :::
@@ -163,7 +177,11 @@ b) Số nào bé hơn: $91$ hay $90$?
 2. Phần b: hàng chục đều là $9$, so hàng đơn vị.
 
 ::solution
-a) $7>3$ nên $73$ lớn hơn. b) Hàng chục bằng nhau; $0<1$ nên $90$ bé hơn.
+a) Hàng chục của $73$ là $7$, hàng chục của $37$ là $3$. Vì $7>3$ nên $73>37$, do đó số lớn hơn là $73$.
+
+b) Hàng chục của $91$ và $90$ đều là $9$, nên ta so sánh hàng đơn vị: $1$ và $0$. Vì $0<1$ nên $90<91$, do đó số bé hơn là $90$.
+
+Vậy a) số lớn hơn là $73$; b) số bé hơn là $90$.
 
 **Đáp số.** a) $73$. b) $90$.
 :::
@@ -179,7 +197,11 @@ Nam nói: "$19>21$ vì $9>1$." Nam đúng không? Vì sao?
 2. Số nào có hàng chục lớn hơn?
 
 ::solution
-Hàng chục: $1<2$ nên $19<21$. Nam so hàng đơn vị trước nên sai.
+Nam so sánh hàng đơn vị ($9$ và $1$) trước. Nhưng khi so sánh hai số có hai chữ số, ta phải so sánh hàng chục trước.
+
+Hàng chục của $19$ là $1$, hàng chục của $21$ là $2$. Vì $1<2$ nên $19<21$.
+
+Vậy Nam nói sai; đúng là $19<21$.
 
 **Đáp số.** Sai. $19<21$.
 :::
@@ -195,7 +217,13 @@ Lan sắp xếp $34, 28, 41$ "từ bé đến lớn" thành $41, 34, 28$. Lan sa
 2. Tìm số bé nhất, rồi số tiếp theo.
 
 ::solution
-Lan xếp từ lớn đến bé. Số bé nhất là $28$, rồi $34$, rồi $41$.
+Lan xếp các số theo thứ tự $41, 34, 28$, tức là từ lớn đến bé. Đề bài yêu cầu xếp từ bé đến lớn nên Lan sai ở chỗ này.
+
+Hàng chục của $34$, $28$, $41$ lần lượt là $3$, $2$, $4$. Vì $2<3<4$ nên $28<34<41$.
+
+Số bé nhất là $28$, rồi đến $34$, số lớn nhất là $41$.
+
+Vậy sắp xếp đúng từ bé đến lớn là $28, 34, 41$.
 
 **Đáp số.** $28, 34, 41$.
 :::
@@ -219,7 +247,15 @@ c) Hai bạn nào đọc số trang bằng nhau?
 2. So từng số.
 
 ::solution
-a) $54$ có hàng chục lớn nhất, của Bình. b) $38$ có hàng chục bé nhất, của Dũng. c) An và Chi đều đọc $45$ trang.
+Số trang của An, Bình, Chi, Dũng là $45$, $54$, $45$, $38$. Hàng chục của các số này lần lượt là $4$, $5$, $4$, $3$.
+
+a) Hàng chục lớn nhất là $5$, của số $54$. Do đó số $54$ lớn nhất, nên Bình đọc nhiều trang nhất.
+
+b) Hàng chục bé nhất là $3$, của số $38$. Do đó số $38$ bé nhất, nên Dũng đọc ít trang nhất.
+
+c) An và Chi đều đọc $45$ trang, hai số này bằng nhau.
+
+Vậy Bình đọc nhiều trang nhất, Dũng đọc ít trang nhất, An và Chi đọc số trang bằng nhau.
 
 **Đáp số.** a) Bình. b) Dũng. c) An và Chi.
 :::
@@ -235,9 +271,15 @@ Tìm chữ số thích hợp ở ô trống để $47<4\square<50$.
 2. Chọn số bé hơn $50$.
 
 ::solution
-Các số lớn hơn $47$ có hàng chục $4$ là $48$ và $49$. Cả hai đều bé hơn $50$.
+Số $4\square$ có hàng chục là $4$ và hàng đơn vị là chữ số cần tìm.
 
-**Kiểm tra.** $47<48<50$ và $47<49<50$. Đúng.
+Vì $4\square>47$ và hai số đều có hàng chục là $4$ nên hàng đơn vị của $4\square$ phải lớn hơn $7$. Chữ số đó là $8$ hoặc $9$, ứng với các số $48$ và $49$.
+
+Hai số $48$ và $49$ đều có hàng chục là $4$, bé hơn $5$ nên đều bé hơn $50$.
+
+*Kiểm tra.* $47<48<50$ và $47<49<50$. Đúng.
+
+Vậy chữ số thích hợp ở ô trống là $8$ hoặc $9$.
 
 **Đáp số.** Chữ số $8$ hoặc $9$.
 :::

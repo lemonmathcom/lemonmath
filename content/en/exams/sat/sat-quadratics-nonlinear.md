@@ -146,7 +146,18 @@ The function $g$ is defined by $g(x)=-(x+2)^2+9$. What is the sum of the $x$-int
 2. Add the two zeros.
 
 ::solution
-$x=1$ or $x=-5$, so the sum is $-4$. Shortcut: the zeros are symmetric about the vertex $x=-2$, so their sum is $2\cdot(-2)=-4$.
+The $x$-intercepts of the graph of $y=g(x)$ have $x$-coordinates that are the solutions of $g(x)=0$:
+$$-(x+2)^2+9=0\iff(x+2)^2=9.$$
+
+Hence $x+2=3$ or $x+2=-3$, that is $x=1$ or $x=-5$.
+
+The sum of the $x$-coordinates is $1+(-5)=-4$.
+
+So the sum of the $x$-intercepts of the graph is $-4$.
+
+*Exam tip.* The graph is a parabola with vertex at $x=-2$, so its two $x$-intercepts are symmetric about the line $x=-2$; hence their sum is $2\cdot(-2)=-4$.
+
+**Answer.** $-4$.
 :::
 
 :::exercise Multiple choice
@@ -164,7 +175,20 @@ D. $20$
 2. Solve $64-4k<0$.
 
 ::solution
-$64-4k<0\iff k>16$. Only $20$ works: the answer is **D**. With $k=16$ there is exactly one solution.
+The equation $x^2+8x+k=0$ has no real solutions exactly when the discriminant $\Delta<0$. We have
+$$\Delta=8^2-4\cdot1\cdot k=64-4k.$$
+
+Then
+$$64-4k<0\iff-4k<-64\iff k>16$$
+(dividing both sides by $-4<0$ reverses the inequality).
+
+Among the options, only $20>16$. Check: for $k=20$, $\Delta=64-80=-16<0$.
+
+So the answer is **D**.
+
+*Remark.* For $k=16$ we have $\Delta=0$, so the equation has exactly one solution and option B is ruled out. For $k=12$ and $k=4$, $\Delta=16>0$ and $\Delta=48>0$, so the equation has two distinct solutions and options A and C are ruled out.
+
+**Answer.** D.
 :::
 
 :::exercise Student-produced response
@@ -178,7 +202,20 @@ What is the positive solution of $3x^2+2x-1=0$?
 2. Group and solve.
 
 ::solution
-$3x(x+1)-(x+1)=(3x-1)(x+1)=0$, so $x=\dfrac13$ or $x=-1$. The positive solution is $\dfrac13$; type `1/3`.
+Factorise the left-hand side:
+$$3x^2+2x-1=3x^2+3x-x-1=3x(x+1)-(x+1)=(3x-1)(x+1).$$
+
+The equation becomes $(3x-1)(x+1)=0$, so $3x-1=0$ or $x+1=0$, that is $x=\dfrac13$ or $x=-1$.
+
+Check $x=\dfrac13$: $3\cdot\dfrac19+\dfrac23-1=\dfrac13+\dfrac23-1=0$.
+
+Of the two solutions, only $\dfrac13$ is positive.
+
+So the positive solution of the equation is $\dfrac13$.
+
+*Exam tip.* When entering the answer, type `1/3`.
+
+**Answer.** $\dfrac13$.
 :::
 
 :::exercise Multiple choice
@@ -198,7 +235,18 @@ D. $14$
 2. Find $y$ for each $x$ and add.
 
 ::solution
-$x^2-2x-3=0\iff(x-3)(x+1)=0$. For $x=3$, $y=10$; for $x=-1$, $y=2$. The sum is $12$: answer **C**.
+The $x$-coordinates of the intersection points of the two graphs are the solutions of
+$$x^2+1=2x+4\iff x^2-2x-3=0\iff(x-3)(x+1)=0.$$
+
+Hence $x=3$ or $x=-1$.
+
+Substituting into $y=2x+4$: for $x=3$, $y=10$; for $x=-1$, $y=2$. Check with $y=x^2+1$: $3^2+1=10$ and $(-1)^2+1=2$. The two intersection points are $(3, 10)$ and $(-1, 2)$.
+
+The sum of the $y$-coordinates is $10+2=12$.
+
+So the answer is **C**.
+
+**Answer.** C.
 :::
 
 :::exercise Student-produced response
@@ -212,7 +260,20 @@ What is the solution of $\sqrt{2x+3}=x$?
 2. Check each solution in the original equation.
 
 ::solution
-$x^2-2x-3=0$ gives $x=3$ or $x=-1$. For $x=-1$: $\sqrt1=1\ne-1$, so it is extraneous. The solution is $3$.
+Condition: $2x+3\ge0$. Also, since a square root is non-negative, the right-hand side must satisfy $x\ge0$ (this condition implies $2x+3\ge3>0$).
+
+Squaring both sides, we get
+$$2x+3=x^2\iff x^2-2x-3=0\iff(x-3)(x+1)=0.$$
+
+Hence $x=3$ or $x=-1$.
+
+Checking the condition $x\ge0$: $x=3$ is acceptable; $x=-1$ is rejected. Indeed, for $x=-1$ we have $\sqrt{2\cdot(-1)+3}=\sqrt1=1\ne-1$, so it is an extraneous solution created by squaring.
+
+Check $x=3$: $\sqrt{2\cdot3+3}=\sqrt9=3$.
+
+So the solution of the equation is $x=3$.
+
+**Answer.** $3$.
 :::
 
 ## Application exercises
@@ -228,7 +289,21 @@ The length of a rectangle is $4$ centimeters more than its width, and its area i
 2. Keep only the positive solution.
 
 ::solution
-$w^2+4w-96=0\iff(w+12)(w-8)=0$, so $w=8$ and the length is $12$. The perimeter is $2(8+12)=40$ centimeters.
+Let $w$ (cm) be the width of the rectangle ($w>0$). The length is $4$ cm more than the width, so the length is $w+4$ (cm).
+
+The area is $96$ cm$^2$, so
+$$w(w+4)=96\iff w^2+4w-96=0\iff(w+12)(w-8)=0.$$
+
+Hence $w=-12$ or $w=8$. Checking the condition $w>0$: reject $w=-12$, accept $w=8$.
+
+Then the width is $8$ cm and the length is $8+4=12$ cm. Check: $8\cdot12=96$ cm$^2$.
+
+The perimeter of the rectangle is
+$$2(8+12)=40\ \text{(cm)}.$$
+
+So the perimeter of the rectangle is $40$ centimeters.
+
+**Answer.** $40$ centimeters.
 :::
 
 :::exercise A ball from a balcony
@@ -246,9 +321,27 @@ b) After how many seconds does the ball hit the ground? Round to the nearest hun
 2. Solve $-16t^2+48t+4=0$ with the quadratic formula (or Desmos).
 
 ::solution
-a) $t=1.5$ seconds, and $h(1.5)=-36+72+4=40$ feet.
+The function $h(t)=-16t^2+48t+4$ ($h$ in feet, $t\ge0$ in seconds) has a parabola as its graph.
 
-b) Divide by $-4$: $4t^2-12t-1=0$, so $t=\dfrac{12\pm\sqrt{160}}{8}$. The positive solution is $t\approx3.08$ seconds; the negative one has no meaning here.
+a) Since the coefficient $a=-16<0$, the parabola opens downward, and $h(t)$ attains its maximum at the vertex, whose $t$-coordinate is
+$$t=-\frac{b}{2a}=-\frac{48}{2\cdot(-16)}=1.5.$$
+
+The value $t=1.5\ge0$ is acceptable. The maximum height is
+$$h(1.5)=-16\cdot2.25+48\cdot1.5+4=-36+72+4=40.$$
+
+So the maximum height is $40$ feet, reached at $t=1.5$ seconds.
+
+b) The ball hits the ground when $h(t)=0$ with $t\ge0$:
+$$-16t^2+48t+4=0.$$
+
+Dividing both sides by $-4$ gives $4t^2-12t-1=0$. The discriminant is $\Delta=(-12)^2-4\cdot4\cdot(-1)=144+16=160>0$, so
+$$t=\frac{12\pm\sqrt{160}}{8}.$$
+
+We have $t_1=\dfrac{12+\sqrt{160}}{8}\approx3.08$ and $t_2=\dfrac{12-\sqrt{160}}{8}\approx-0.08$. The negative solution does not satisfy $t\ge0$ (it has no meaning here), so we accept only $t_1\approx3.08$.
+
+So the ball hits the ground after about $3.08$ seconds (rounded to the nearest hundredth).
+
+**Answer.** a) $40$ feet, at $t=1.5$ seconds; b) $3.08$ seconds.
 :::
 
 :::exercise Zeros and coefficients
@@ -262,7 +355,17 @@ The function $f(x)=x^2+bx+c$ has zeros $2$ and $-6$. What is the value of $f(1)$
 2. Substitute $x=1$.
 
 ::solution
-$f(1)=(1-2)(1+6)=-7$. (Equivalently $f(x)=x^2+4x-12$, so $b=4$, $c=-12$.)
+The function $f(x)=x^2+bx+c$ has zeros $2$ and $-6$ and the coefficient of $x^2$ is $1$, so
+$$f(x)=(x-2)(x+6).$$
+
+Substituting $x=1$, we get
+$$f(1)=(1-2)(1+6)=(-1)\cdot7=-7.$$
+
+Check: expanding gives $f(x)=x^2+4x-12$, so $b=4$, $c=-12$ and $f(1)=1+4-12=-7$.
+
+So $f(1)=-7$.
+
+**Answer.** $-7$.
 :::
 
 :::exercise A rational equation
@@ -276,7 +379,24 @@ What is the sum of the solutions of $\dfrac1x+\dfrac{1}{x+2}=\dfrac43$?
 2. Simplify to a quadratic and solve.
 
 ::solution
-$6x+6=4x^2+8x\iff 2x^2+x-3=0\iff(2x+3)(x-1)=0$, so $x=1$ or $x=-\dfrac32$. Neither is $0$ or $-2$, so both are valid. Their sum is $-\dfrac12$.
+Condition: $x\ne0$ and $x\ne-2$.
+
+Multiply both sides by $3x(x+2)\ne0$ to clear the denominators:
+$$3(x+2)+3x=4x(x+2)\iff6x+6=4x^2+8x.$$
+
+Moving terms to one side and dividing by $2$:
+$$4x^2+2x-6=0\iff2x^2+x-3=0\iff(2x+3)(x-1)=0.$$
+
+Hence $x=-\dfrac32$ or $x=1$. Both values are different from $0$ and from $-2$, so they satisfy the condition.
+
+Check: for $x=1$, $1+\dfrac13=\dfrac43$; for $x=-\dfrac32$, $-\dfrac23+2=\dfrac43$.
+
+The sum of the solutions is
+$$1+\left(-\frac32\right)=-\frac12.$$
+
+So the sum of the solutions of the equation is $-\dfrac12$.
+
+**Answer.** $-\dfrac12$.
 :::
 
 :::exercise Challenge
@@ -290,7 +410,19 @@ The line $y=mx-1$, where $m>0$, intersects the parabola $y=x^2$ at exactly one p
 2. Set $m^2-4=0$.
 
 ::solution
-$D=m^2-4=0$ gives $m=\pm2$, and since $m>0$, $m=2$. The line $y=2x-1$ touches the parabola at $(1, 1)$.
+The $x$-coordinates of the intersection points of the line $y=mx-1$ and the parabola $y=x^2$ are the solutions of
+$$x^2=mx-1\iff x^2-mx+1=0.$$
+
+The line meets the parabola at exactly one point exactly when this equation has exactly one solution, that is $\Delta=0$:
+$$\Delta=(-m)^2-4\cdot1\cdot1=m^2-4=0\iff m=\pm2.$$
+
+Since $m>0$, we get $m=2$.
+
+Check: for $m=2$ the equation is $x^2-2x+1=(x-1)^2=0$, which has the double solution $x=1$, and then $y=1$. The line $y=2x-1$ touches the parabola at $(1, 1)$.
+
+So $m=2$.
+
+**Answer.** $2$.
 :::
 
 :::quiz

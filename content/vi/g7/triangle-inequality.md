@@ -357,13 +357,21 @@ Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng $MB+MC<AB+AC$.
 2. Dùng tam giác $MDC$ rồi tam giác $ABD$.
 
 ::solution
-Kéo dài $BM$ cắt $AC$ tại $D$, khi đó $D$ nằm giữa $A$ và $C$ và $BD=BM+MD$.
+GT: Điểm $M$ nằm trong tam giác $ABC$.
 
-Xét tam giác $MDC$, ta có $MC<MD+DC$. Suy ra $MB+MC<MB+MD+DC=BD+DC$.
+KL: $MB+MC<AB+AC$.
 
-Xét tam giác $ABD$, ta có $BD<BA+AD$. Suy ra $BD+DC<BA+AD+DC=BA+AC$.
+Chứng minh. Kéo dài $BM$ cắt $AC$ tại $D$. Vì $M$ nằm trong tam giác nên $D$ nằm giữa $A$ và $C$, và $M$ nằm giữa $B$ và $D$, do đó $BD=BM+MD$.
 
-Từ hai bất đẳng thức trên suy ra $MB+MC<AB+AC$.
+Xét tam giác $MDC$, theo bất đẳng thức tam giác, ta có $MC<MD+DC$. Cộng $MB$ vào hai vế:
+$$MB+MC<MB+MD+DC=BD+DC.\qquad(1)$$
+
+Xét tam giác $ABD$, theo bất đẳng thức tam giác, ta có $BD<BA+AD$. Cộng $DC$ vào hai vế:
+$$BD+DC<BA+AD+DC=BA+AC.\qquad(2)$$
+
+Từ $(1)$ và $(2)$ suy ra $MB+MC<AB+AC$.
+
+Vậy $MB+MC<AB+AC$ (điều phải chứng minh).
 
 **Đáp số.** Đã chứng minh.
 :::

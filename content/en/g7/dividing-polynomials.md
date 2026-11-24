@@ -245,11 +245,21 @@ b) $(4x^4-8x^2)\div(-2x^2)$.
 2. b) Divide $4x^4$ and $-8x^2$ by $-2x^2$.
 
 ::solution
-a) We have $15x^3\div(-5x)=-3x^2$, $(-5x^2)\div(-5x)=x$ and $10x\div(-5x)=-2$. Hence $(15x^3-5x^2+10x)\div(-5x)=-3x^2+x-2$.
+To divide a polynomial by a monomial, we divide each term of the polynomial by the monomial and add the results.
 
-b) We have $4x^4\div(-2x^2)=-2x^2$ and $(-8x^2)\div(-2x^2)=4$. Hence $(4x^4-8x^2)\div(-2x^2)=-2x^2+4$.
+a) We have
+$$15x^3\div(-5x)=-3x^2,\qquad (-5x^2)\div(-5x)=x,\qquad 10x\div(-5x)=-2.$$
 
-So a) $-3x^2+x-2$; b) $-2x^2+4$.
+Hence
+$$(15x^3-5x^2+10x)\div(-5x)=-3x^2+x-2.$$
+
+b) We have
+$$4x^4\div(-2x^2)=-2x^2,\qquad (-8x^2)\div(-2x^2)=4.$$
+
+Hence
+$$(4x^4-8x^2)\div(-2x^2)=-2x^2+4.$$
+
+So a) the result is $-3x^2+x-2$; b) the result is $-2x^2+4$.
 
 **Answer.** a) $-3x^2+x-2$; b) $-2x^2+4$.
 :::
@@ -291,11 +301,17 @@ Work out $(2x^2-7x+3)\div(2x-1)$.
 2. Multiply the result by $2x-1$ and subtract to get $-6x+3$.
 
 ::solution
-Step 1: $2x^2\div2x=x$; $x(2x-1)=2x^2-x$; $(2x^2-7x+3)-(2x^2-x)=-6x+3$.
+Both polynomials are already arranged in descending powers of the variable. We carry out the division of polynomials in one variable step by step.
 
-Step 2: $-6x\div2x=-3$; $-3(2x-1)=-6x+3$; $(-6x+3)-(-6x+3)=0$.
+Step 1. Divide the leading term of the dividend by the leading term of the divisor: $2x^2\div2x=x$. Multiply $x$ by the divisor: $x(2x-1)=2x^2-x$. Subtract this product from the dividend:
+$$(2x^2-7x+3)-(2x^2-x)=-6x+3.$$
 
-The remainder is $0$, so the division is exact. So $(2x^2-7x+3)\div(2x-1)=x-3$.
+Step 2. Divide the leading term of the remainder $-6x+3$ by $2x$: $-6x\div2x=-3$. Multiply $-3$ by the divisor: $-3(2x-1)=-6x+3$. Subtract this product from the remainder:
+$$(-6x+3)-(-6x+3)=0.$$
+
+The remainder is $0$, so the division is exact and the quotient is $x-3$.
+
+So $(2x^2-7x+3)\div(2x-1)=x-3$.
 
 **Answer.** $x-3$.
 :::

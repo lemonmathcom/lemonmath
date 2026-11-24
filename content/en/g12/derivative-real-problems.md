@@ -196,9 +196,15 @@ An object moves along a straight line and has travelled $s(t)=t^3-6t^2+9t$ (metr
 2. Compute $a(t)=6t-12$ at each root.
 
 ::solution
-We have $v(t)=3t^2-12t+9=3(t-1)(t-3)=0\iff t=1$ or $t=3$. We have $a(t)=6t-12$, so $a(1)=-6$, $a(3)=6$.
+For a distance function $s(t)$, the velocity is $v(t)=s'(t)$ and the acceleration is $a(t)=v'(t)=s''(t)$, with $t\ge0$.
 
-So the velocity is $0$ at $t=1$ s and $t=3$ s.
+We have $v(t)=s'(t)=3t^2-12t+9=3(t^2-4t+3)=3(t-1)(t-3)$.
+
+The velocity is $0$ when $3(t-1)(t-3)=0$, that is $t=1$ or $t=3$ (both satisfy $t\ge0$).
+
+We have $a(t)=v'(t)=6t-12$. Hence $a(1)=6\cdot1-12=-6$ and $a(3)=6\cdot3-12=6$.
+
+So the velocity is $0$ at $t=1$ s and $t=3$ s; the accelerations at those times are $-6$ m/s² and $6$ m/s² respectively.
 
 **Answer.** $t=1$ s (acceleration $-6$ m/s²) and $t=3$ s (acceleration $6$ m/s²).
 :::
@@ -277,13 +283,20 @@ d) The largest revenue per night is $24\,000\,000$ đồng.
 3. Compute the room price and the revenue at that point.
 
 ::solution
-a) **True**. The room price is $400+20x$ and the number of rooms let is $50-x$.
+After $x$ price increases, the room price is $400+20x$ (thousand đồng) and the number of rooms let is $50-x$, with $0\le x\le50$. The revenue per night is
+$$R(x)=(400+20x)(50-x)=20\,000-400x+1000x-20x^2=-20x^2+600x+20\,000.$$
 
-b) **True**. We have $R(x)=-20x^2+600x+20\,000$ and $R'(x)=600-40x>0$ when $x<15$.
+a) **True.** Revenue equals the room price times the number of rooms let, that is $R(x)=(400+20x)(50-x)$, as shown above.
 
-c) **True**. Since $R'$ changes sign from $+$ to $-$ at $x=15$, $R$ is largest at $x=15$; the room price is then $400+300=700$ thousand đồng.
+b) **True.** We have $R'(x)=-40x+600=600-40x$. For $x\in(0, 15)$ we have $x<15$, so $R'(x)=600-40x>0$. Hence the function $R$ is increasing on the interval $(0, 15)$.
 
-d) **False**. We have $R(15)=700\cdot35=24\,500$ thousand đồng, that is $24\,500\,000$ đồng.
+c) **True.** We have $R'(x)=0\iff x=15$. Since $R'(x)>0$ for $x<15$ and $R'(x)<0$ for $x>15$, the derivative $R'$ changes sign from $+$ to $-$ at $x=15$, and $R$ attains its largest value on $[0, 50]$ at $x=15$ (an integer, so it is allowed). The room price is then $400+20\cdot15=400+300=700$ thousand đồng.
+
+d) **False.** The largest revenue is
+$$R(15)=(400+20\cdot15)(50-15)=700\cdot35=24\,500\ \text{(thousand đồng)},$$
+that is $24\,500\,000$ đồng, which is not $24\,000\,000$ đồng.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -317,7 +330,15 @@ During a flu outbreak, the number of people who have caught the illness by day $
 2. Solve $g'(t)=0$ and compare with both endpoints.
 
 ::solution
-We have $g'(t)=60-6t=0\iff t=10$, and $g(0)=0$, $g(10)=600-300=300$, $g(20)=1200-1200=0$.
+The rate of spread is $g(t)=f'(t)$ (people per day) for $0\le t\le20$. Since $f(t)=30t^2-t^3$, we have
+$$g(t)=f'(t)=60t-3t^2.$$
+
+We need the greatest value of $g(t)$ on $[0, 20]$. We have $g'(t)=60-6t$, and $g'(t)=0\iff t=10$ (which lies in $[0, 20]$).
+
+Comparing the values of $g$ at the critical point and at the endpoints:
+$$g(0)=0,\qquad g(10)=600-300=300,\qquad g(20)=1200-1200=0.$$
+
+The greatest value is $g(10)=300$.
 
 So the rate of spread is greatest on day $10$, at $300$ people per day.
 
@@ -335,9 +356,21 @@ A lorry travels $300$ km at a constant speed $v$ (km/h), $40\le v\le 90$. Each h
 2. Find its minimum on $[40, 90]$.
 
 ::solution
-We have $C'(v)=-\dfrac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50$ (since $v>0$). We have $C(40)=3750+2400=6150$, $C(50)=3000+3000=6000$, $C(90)=\dfrac{5000}{3}+5400\approx7066.67$.
+Let $C(v)$ (thousand đồng) be the total cost of the trip, with $40\le v\le90$.
 
-So the lorry should travel at $50$ km/h.
+The driving time is $\dfrac{300}{v}$ hours, and each hour costs $500+\dfrac{v^2}{5}$ thousand đồng. Hence
+$$C(v)=\frac{300}{v}\left(500+\frac{v^2}{5}\right)=\frac{150\,000}{v}+60v.$$
+
+We have $C'(v)=-\dfrac{150\,000}{v^2}+60$. Solving $C'(v)=0$:
+$$-\frac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50\quad(\text{since }v>0).$$
+The value $v=50$ lies in $[40, 90]$ (the condition is satisfied).
+
+Comparing the values of $C$ at the critical point and at the endpoints:
+$$C(40)=3750+2400=6150,\qquad C(50)=3000+3000=6000,\qquad C(90)=\frac{5000}{3}+5400\approx7066.67.$$
+
+The least value is $C(50)=6000$ thousand đồng.
+
+So the lorry should travel at $50$ km/h to make the total cost of the trip as small as possible, and that cost is $6000$ thousand đồng ($6$ million đồng).
 
 **Answer.** $v=50$ km/h; the least cost is $6000$ thousand đồng ($6$ million đồng).
 :::

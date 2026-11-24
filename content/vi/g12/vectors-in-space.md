@@ -361,13 +361,21 @@ d) Góc giữa hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{B'D'}$ bằ
 3. d) $\overrightarrow{B'D'}=\overrightarrow{BD}$; hai đường chéo của hình vuông vuông góc.
 
 ::solution
-a) **Đúng.** Đây là quy tắc hình hộp.
+Trong hình lập phương $ABCD.A'B'C'D'$ cạnh $1$, ba vectơ $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ đôi một vuông góc và đều có độ dài bằng $1$. Ta xét từng mệnh đề.
 
-b) **Đúng.** Ta có $AC'^2=1+1+1=3$.
+a) **Đúng.** Theo quy tắc hình hộp, với hình hộp $ABCD.A'B'C'D'$ ta có $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
 
-c) **Sai.** Vì $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$ nên $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
+b) **Đúng.** Theo câu a), $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$. Vì ba vectơ này đôi một vuông góc nên các tích vô hướng chéo đều bằng $0$, và
+$$AC'^2=AB^2+AD^2+AA'^2=1+1+1=3.$$
+Suy ra $AC'=\sqrt3$.
 
-d) **Đúng.** Ta có $\overrightarrow{B'D'}=\overrightarrow{BD}$ và $AC\perp BD$ (hai đường chéo của hình vuông $ABCD$).
+c) **Sai.** Vì $ABCD$ là hình vuông nên $\overrightarrow{CD}=-\overrightarrow{AB}$; vì $DD'\parallel AA'$ và $DD'=AA'$ nên $\overrightarrow{DD'}=\overrightarrow{AA'}$. Do đó $\overrightarrow{CD'}=\overrightarrow{CD}+\overrightarrow{DD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$. Ta có
+$$\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-AB^2+\overrightarrow{AB}\cdot\overrightarrow{AA'}=-1+0=-1,$$
+khác $1$.
+
+d) **Đúng.** Vì $BB'D'D$ là hình chữ nhật nên $\overrightarrow{B'D'}=\overrightarrow{BD}$. Trong hình vuông $ABCD$, hai đường chéo vuông góc nên $AC\perp BD$. Do đó góc giữa hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{B'D'}$ bằng $90^\circ$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -402,8 +410,16 @@ Vậy góc cần tìm khoảng $39^\circ$.
 2. Cộng ba đẳng thức.
 
 ::solution
-Theo quy tắc ba điểm, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Vì $G$ là trọng tâm tam giác $BCD$ nên $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Cộng ba đẳng thức, ta được
-$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+Vì $G$ là trọng tâm tam giác $BCD$ nên ta có hệ thức
+$$\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}.$$
+
+Theo quy tắc ba điểm, ta có
+$$\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB},\qquad \overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC},\qquad \overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}.$$
+
+Cộng vế với vế ba đẳng thức trên, ta được
+$$\begin{aligned}\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}&=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)\\ &=3\overrightarrow{AG}+\vec{0}\\ &=3\overrightarrow{AG}.\end{aligned}$$
+
+Vậy $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
 
 **Đáp số.** Đẳng thức được chứng minh.
 :::

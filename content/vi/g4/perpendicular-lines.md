@@ -224,7 +224,15 @@ Cho hình chữ nhật $MNPQ$. Kể tên các cặp cạnh vuông góc với nha
 2. Mỗi góc vuông cho một cặp cạnh vuông góc.
 
 ::solution
-Hình chữ nhật $MNPQ$ có bốn góc vuông tại $M$, $N$, $P$, $Q$. Do đó $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$, $QM\perp MN$.
+Hình chữ nhật $MNPQ$ có bốn góc vuông tại các đỉnh $M$, $N$, $P$, $Q$.
+
+Hai cạnh kề nhau của hình chữ nhật tạo thành một góc vuông nên hai cạnh đó vuông góc với nhau. Ta có:
+- Góc vuông tại $N$ nên $MN\perp NP$.
+- Góc vuông tại $P$ nên $NP\perp PQ$.
+- Góc vuông tại $Q$ nên $PQ\perp QM$.
+- Góc vuông tại $M$ nên $QM\perp MN$.
+
+Vậy hình chữ nhật $MNPQ$ có bốn cặp cạnh vuông góc: $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$, $QM\perp MN$.
 
 **Đáp số.** Bốn cặp cạnh vuông góc.
 :::
@@ -240,7 +248,13 @@ Cho hình chữ nhật $EFGH$. Kể tên các cặp cạnh song song với nhau.
 2. Ghép mỗi cạnh với cạnh đối diện của nó.
 
 ::solution
-Hình chữ nhật $EFGH$ có hai cặp cạnh đối diện song song: $EF\parallel GH$ và $FG\parallel HE$.
+Hình chữ nhật $EFGH$ có các cạnh đối diện song song với nhau.
+
+Cặp cạnh đối diện thứ nhất là $EF$ và $GH$, nên $EF\parallel GH$.
+
+Cặp cạnh đối diện thứ hai là $FG$ và $HE$, nên $FG\parallel HE$.
+
+Vậy hình chữ nhật $EFGH$ có hai cặp cạnh song song: $EF\parallel GH$ và $FG\parallel HE$.
 
 **Đáp số.** $EF\parallel GH$; $FG\parallel HE$.
 :::
@@ -256,7 +270,14 @@ Vẽ đường thẳng $d$ và lấy điểm $O$ trên $d$. Dùng ê ke vẽ đ�
 2. Kẻ theo cạnh góc vuông còn lại.
 
 ::solution
-Đặt một cạnh góc vuông của ê ke nằm trên $d$, đỉnh góc vuông trùng với $O$. Kẻ theo cạnh góc vuông còn lại, ta được đường thẳng $m$ đi qua $O$.
+Ta vẽ đường thẳng $m$ đi qua $O$ và vuông góc với $d$ theo các bước sau.
+
+- Bước 1: Đặt một cạnh góc vuông của ê ke nằm trên đường thẳng $d$, sao cho đỉnh góc vuông của ê ke trùng với điểm $O$.
+- Bước 2: Kẻ một đường thẳng theo cạnh góc vuông còn lại của ê ke. Đường thẳng vừa kẻ đi qua $O$; đặt tên là $m$.
+
+Vì hai cạnh góc vuông của ê ke tạo thành một góc vuông nên $m$ và $d$ tạo với nhau một góc vuông.
+
+Vậy đường thẳng $m$ đi qua $O$ và vuông góc với $d$.
 
 **Đáp số.** Đường thẳng $m$ đi qua $O$ và $m\perp d$.
 :::
@@ -272,9 +293,16 @@ Cho đường thẳng $d$ và điểm $E$ không thuộc $d$. Dùng ê ke vẽ �
 2. Vẽ qua $E$ đường thẳng $n$ vuông góc với $EH$.
 
 ::solution
-Vẽ qua $E$ đường thẳng $EH\perp d$, với $H$ thuộc $d$. Rồi vẽ qua $E$ đường thẳng $n\perp EH$.
+Ta vẽ đường thẳng đi qua $E$ và song song với $d$ theo hai bước.
 
-Hai đường thẳng $n$ và $d$ cùng vuông góc với $EH$. Do đó $n\parallel d$.
+- Bước 1: Dùng ê ke vẽ qua $E$ đường thẳng $EH$ vuông góc với $d$, với $H$ thuộc $d$.
+- Bước 2: Dùng ê ke vẽ qua $E$ đường thẳng $n$ vuông góc với $EH$.
+
+Hai đường thẳng $n$ và $d$ cùng vuông góc với đường thẳng $EH$.
+
+Do đó $n\parallel d$.
+
+Vậy đường thẳng $n$ đi qua $E$ và song song với $d$.
 
 **Đáp số.** Đường thẳng $n$ đi qua $E$ và $n\parallel d$.
 :::
@@ -291,10 +319,15 @@ Mảnh vườn hình chữ nhật $ABCD$ có $AB=12$ m, $AD=8$ m. Điểm $M$ th
 3. Tính chu vi rồi ghi đơn vị.
 
 ::solution
-Vì $AMND$ là hình chữ nhật nên $MN=AD=8$ m.
+Bài giải
 
-Chu vi hình chữ nhật $AMND$ là:
+Vì $AMND$ là hình chữ nhật nên hai cạnh đối diện $MN$ và $AD$ bằng nhau. Độ dài $MN$ là:
+$$MN=AD=8\ \text{(m)}.$$
+
+Hình chữ nhật $AMND$ có chiều dài $AM=5$ m và chiều rộng $AD=8$ m. Chu vi hình chữ nhật $AMND$ là:
 $$(5+8)\times2=26\ \text{(m)}.$$
+
+Vậy $MN=8$ m và chu vi hình chữ nhật $AMND$ là $26$ m.
 
 **Đáp số.** $MN=8$ m; chu vi $26$ m.
 :::
@@ -310,7 +343,13 @@ Giả sử trên bản đồ một khu phố, đường Hoa Sen và đường Ho
 2. Áp dụng cách nhận biết hai đường thẳng song song.
 
 ::solution
-Đường Hoa Sen và đường Hoa Mai cùng vuông góc với đường Trần Phú. Do đó hai đường này song song với nhau.
+Đường Hoa Sen và đường Hoa Mai đều là đường thẳng và cùng vuông góc với đường Trần Phú.
+
+Hai đường thẳng cùng vuông góc với một đường thẳng thứ ba thì song song với nhau.
+
+Do đó đường Hoa Sen và đường Hoa Mai song song với nhau.
+
+Vậy hai đường Hoa Sen và Hoa Mai song song với nhau, vì cùng vuông góc với đường Trần Phú.
 
 **Đáp số.** Có, hai đường song song.
 :::
@@ -345,10 +384,18 @@ Một khung ảnh hình chữ nhật dài $24$ cm, rộng $18$ cm. Bác thợ đ
 3. Tính chu vi, nhớ ghi đơn vị.
 
 ::solution
-Thanh gỗ song song với cạnh rộng nên dài bằng cạnh rộng, tức là $18$ cm.
+Bài giải
 
-Chiều dài mỗi khung nhỏ là $24:2=12$ (cm). Chu vi mỗi khung nhỏ là:
+Thanh gỗ song song với cạnh rộng nên có độ dài bằng cạnh rộng. Thanh gỗ dài:
+$$18\ \text{cm}.$$
+
+Thanh gỗ nối trung điểm hai cạnh dài nên chia khung ảnh thành hai khung nhỏ bằng nhau. Chiều dài mỗi khung nhỏ là:
+$$24:2=12\ \text{(cm)}.$$
+
+Mỗi khung nhỏ là hình chữ nhật có chiều dài $12$ cm và chiều rộng $18$ cm. Chu vi mỗi khung nhỏ là:
 $$(12+18)\times2=60\ \text{(cm)}.$$
+
+Vậy thanh gỗ dài $18$ cm và chu vi mỗi khung nhỏ là $60$ cm.
 
 **Đáp số.** Thanh gỗ dài $18$ cm; chu vi mỗi khung nhỏ là $60$ cm.
 :::
@@ -365,12 +412,21 @@ Một tấm bìa hình chữ nhật $ABCD$ có $AB=9$ cm, $BC=5$ cm. Người ta
 3. Thử lại: tổng hai chu vi bằng chu vi tấm bìa cộng hai lần $MN$.
 
 ::solution
-Hai hình chữ nhật $AMND$ và $MBCN$ đều có chiều rộng $5$ cm. Chu vi bằng nhau nên $AM=MB$.
+Bài giải
 
-Do đó $AM=9:2=4{,}5$ (cm). Chu vi mỗi hình là:
+Vì $MN$ song song với $BC$ nên hai hình chữ nhật $AMND$ và $MBCN$ đều có chiều rộng $5$ cm.
+
+Hai hình chữ nhật có cùng chiều rộng và chu vi bằng nhau nên chiều dài của chúng bằng nhau, tức là $AM=MB$.
+
+Độ dài $AM$ là:
+$$AM=9:2=4{,}5\ \text{(cm)}.$$
+
+Chu vi mỗi hình chữ nhật là:
 $$(4{,}5+5)\times2=19\ \text{(cm)}.$$
 
-**Thử lại.** $19+19=38$ và $(9+5)\times2+2\times5=38$. Đúng.
+*Thử lại.* Tổng chu vi hai hình là $19+19=38$ (cm). Mặt khác, $(9+5)\times2+2\times5=38$ (cm). Hai kết quả bằng nhau nên đúng.
+
+Vậy $AM=4{,}5$ cm và chu vi mỗi hình chữ nhật là $19$ cm.
 
 **Đáp số.** $AM=4{,}5$ cm; chu vi mỗi hình $19$ cm.
 :::

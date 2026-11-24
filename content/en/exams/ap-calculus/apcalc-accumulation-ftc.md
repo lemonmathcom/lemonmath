@@ -146,7 +146,22 @@ For $f(x)=x^2$ on $[0,3]$, compute the left and right Riemann sums with three eq
 2. Exact: $\left[\dfrac{x^3}{3}\right]_0^3$.
 
 ::solution
-Left sum $5$, right sum $14$, exact value $9$. As expected for an increasing function, $5<9<14$.
+Divide $[0, 3]$ into three equal subintervals, each of width $\Delta x=\dfrac{3-0}{3}=1$, namely $[0, 1]$, $[1, 2]$, $[2, 3]$.
+
+The left Riemann sum uses the values of $f$ at the left endpoints $x=0$, $1$, $2$ of the subintervals:
+$$L_3=1\cdot\left[f(0)+f(1)+f(2)\right]=0+1+4=5.$$
+
+The right Riemann sum uses the values of $f$ at the right endpoints $x=1$, $2$, $3$:
+$$R_3=1\cdot\left[f(1)+f(2)+f(3)\right]=1+4+9=14.$$
+
+The exact value of the integral is
+$$\int_0^3x^2\,dx=\left.\frac{x^3}{3}\right|_0^3=\frac{27}{3}-0=9.$$
+
+The function $f(x)=x^2$ is increasing on $[0, 3]$, so on each subinterval the value at the left endpoint is the smallest and the value at the right endpoint is the largest. Hence the left sum is smaller than the exact value and the right sum is larger, and indeed $5<9<14$.
+
+So the left Riemann sum is $5$, the right Riemann sum is $14$ and the exact value is $9$; the result $5<9<14$ is what we expect for an increasing function.
+
+**Answer.** Left sum $5$; right sum $14$; exact value $9$.
 :::
 
 :::exercise Multiple choice
@@ -163,7 +178,12 @@ D. $2$
 1. $-\cos\pi-(-\cos0)$.
 
 ::solution
-$-(-1)+1=2$: answer **D**.
+An antiderivative of $\sin x$ is $-\cos x$. By the Fundamental Theorem of Calculus, we have
+$$\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-\cos\pi-(-\cos0)=-(-1)+1=2.$$
+
+So the answer is **D**.
+
+**Answer.** D.
 :::
 
 :::exercise Free response
@@ -173,7 +193,17 @@ Let $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$. Find $F'(2)$ and $F(1)$.
 **What you need:** FTC Part 1, and an integral from $1$ to $1$.
 
 ::solution
-$F'(x)=x^3+1$, so $F'(2)=9$. $F(1)=0$ because the interval has zero width.
+The function $t^3+1$ is continuous on $\mathbb{R}$, so by the Fundamental Theorem of Calculus, $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$ has derivative
+$$F'(x)=x^3+1.$$
+
+Substituting $x=2$, we get $F'(2)=2^3+1=9$.
+
+For $x=1$, the two limits of the integral coincide, so the interval of integration has zero width:
+$$F(1)=\int_1^1\left(t^3+1\right)dt=0.$$
+
+So $F'(2)=9$ and $F(1)=0$.
+
+**Answer.** $F'(2)=9$; $F(1)=0$.
 :::
 
 :::exercise Multiple choice
@@ -191,7 +221,17 @@ D. $14$
 2. $\displaystyle\int_2^51\,dx=3$.
 
 ::solution
-$2(4)+3=11$: answer **B**. Option A forgets the $+1$ term.
+By the additivity of the integral, $\displaystyle\int_0^5f(x)\,dx=\int_0^2f(x)\,dx+\int_2^5f(x)\,dx$. Hence
+$$\int_2^5f(x)\,dx=7-3=4.$$
+
+By the linearity of the integral, we have
+$$\int_2^5\big(2f(x)+1\big)\,dx=2\int_2^5f(x)\,dx+\int_2^5 1\,dx=2\cdot4+(5-2)=8+3=11.$$
+
+So the answer is **B**.
+
+*Remark.* Option A forgets the $+1$ term (this term contributes $\displaystyle\int_2^51\,dx=3$ to the result).
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -205,7 +245,21 @@ Approximate $\displaystyle\int_0^4x^2\,dx$ with a midpoint sum using two equal s
 2. Exact value: $\dfrac{64}{3}$.
 
 ::solution
-The midpoint sum is $2(1+9)=20$, and the exact value is $\dfrac{64}{3}\approx21.33$, so it is too small. For a concave-up function, the midpoint sum always underestimates.
+Divide $[0, 4]$ into two equal subintervals $[0, 2]$ and $[2, 4]$, each of width $\Delta x=2$. The midpoints of the two subintervals are $x=1$ and $x=3$.
+
+The midpoint sum is
+$$M=2\left[f(1)+f(3)\right]=2\left(1^2+3^2\right)=2(1+9)=20.$$
+
+The exact value of the integral is
+$$\int_0^4x^2\,dx=\left.\frac{x^3}{3}\right|_0^4=\frac{64}{3}\approx21.33.$$
+
+Since $20<\dfrac{64}{3}$, the estimate is too small.
+
+Explanation: the function $f(x)=x^2$ is concave up (because $f''(x)=2>0$). On each subinterval, the tangent line at the midpoint lies below the graph, and the area of the trapezoid under that tangent line equals the area of the midpoint rectangle. So for a concave-up function, the midpoint sum always underestimates.
+
+So the estimate is $20$, and it is smaller than the exact value $\dfrac{64}{3}$.
+
+**Answer.** $20$; too small.
 :::
 
 ## Application exercises
@@ -223,9 +277,25 @@ b) At what time is the amount of water smallest, and what is that amount? Justif
 2. $4t-10=0$ at $t=2.5$.
 
 ::solution
-a) $50+(128-80)=98$ liters.
+Let $A(t)$ (liters) be the amount of water in the tank at time $t$ (minutes), $0\le t\le8$. The net rate of change of the amount of water is
+$$A'(t)=E(t)-10=4t-10\ \text{(liters per minute)},\quad A(0)=50.$$
 
-b) The net rate $4t-10$ changes from negative to positive at $t=2.5$. Candidates: $50$ at $t=0$, $50+(12.5-25)=37.5$ at $t=2.5$, and $98$ at $t=8$. The smallest amount is $37.5$ liters, at $t=2.5$ minutes.
+a) We have
+$$A(8)=A(0)+\int_0^8(4t-10)\,dt=50+\Big[2t^2-10t\Big]_0^8=50+(128-80)=98.$$
+So at $t=8$ the tank holds $98$ liters.
+
+b) Solving $A'(t)=0$: $4t-10=0$, so $t=2.5$ (which lies in $[0, 8]$). We have $A'(t)<0$ for $0\le t<2.5$ and $A'(t)>0$ for $2.5<t\le8$, so $A'$ changes from negative to positive at $t=2.5$.
+
+The smallest value of $A$ on $[0, 8]$ occurs at a critical point or at an endpoint. We compare:
+- $A(0)=50$;
+- $A(2.5)=50+\Big[2t^2-10t\Big]_0^{2.5}=50+(12.5-25)=37.5$;
+- $A(8)=98$.
+
+Since $37.5<50<98$, the smallest amount of water is $37.5$ liters, reached at $t=2.5$ minutes.
+
+So at $t=8$ the tank holds $98$ liters; the smallest amount of water is $37.5$ liters, at $t=2.5$ minutes.
+
+**Answer.** a) $98$ liters; b) $37.5$ liters at $t=2.5$ minutes.
 :::
 
 :::exercise Position from velocity
@@ -241,9 +311,23 @@ b) Find the total distance traveled.
 2. Split the distance at $t=4$.
 
 ::solution
-a) $\displaystyle\int_0^5v\,dt=125-150=-25$, so $x(5)=4-25=-21$.
+The position of the particle satisfies $x'(t)=v(t)$ and $x(0)=4$.
 
-b) $\displaystyle\int_0^4v\,dt=64-96=-32$ and $\displaystyle\int_4^5v\,dt=-25-(-32)=7$. Distance $=32+7=39$ meters.
+a) We have
+$$x(5)=x(0)+\int_0^5v(t)\,dt=4+\int_0^5\left(3t^2-12t\right)dt=4+\Big[t^3-6t^2\Big]_0^5=4+(125-150)=4-25=-21.$$
+So $x(5)=-21$ (meters).
+
+b) The total distance traveled is $\displaystyle\int_0^5|v(t)|\,dt$. We examine the sign of $v(t)=3t(t-4)$: $v(t)=0$ when $t=0$ or $t=4$; $v(t)<0$ for $0<t<4$ and $v(t)>0$ for $4<t\le5$. Hence the particle moves in the negative direction during the first $4$ seconds and then turns around.
+
+We compute
+$$\int_0^4v\,dt=\Big[t^3-6t^2\Big]_0^4=64-96=-32,\qquad\int_4^5v\,dt=\int_0^5v\,dt-\int_0^4v\,dt=-25-(-32)=7.$$
+
+The distance is
+$$\int_0^5|v|\,dt=-\int_0^4v\,dt+\int_4^5v\,dt=32+7=39\ \text{(meters)}.$$
+
+So $x(5)=-21$ meters and the total distance traveled by the particle is $39$ meters.
+
+**Answer.** a) $-21$ meters; b) $39$ meters.
 :::
 
 :::exercise Two variable limits
@@ -257,7 +341,20 @@ Let $F(x)=\displaystyle\int_x^{2x}t^2\,dt$. Find $F'(x)$ in two ways: with the f
 2. Directly: $F(x)=\dfrac{(2x)^3-x^3}{3}$.
 
 ::solution
-FTC: $F'(x)=8x^2-x^2=7x^2$. Directly: $F(x)=\dfrac{7x^3}{3}$, so $F'(x)=7x^2$. Both agree.
+Method 1: use the Fundamental Theorem of Calculus. Let $G(u)=\displaystyle\int_0^ut^2\,dt$. Since $t^2$ is continuous, $G'(u)=u^2$. We have
+$$F(x)=\int_x^{2x}t^2\,dt=G(2x)-G(x).$$
+
+Differentiating, and applying the chain rule to $G(2x)$, we get
+$$F'(x)=2G'(2x)-G'(x)=2(2x)^2-x^2=8x^2-x^2=7x^2.$$
+
+Method 2: evaluate the integral first. We have
+$$F(x)=\left.\frac{t^3}{3}\right|_x^{2x}=\frac{(2x)^3}{3}-\frac{x^3}{3}=\frac{8x^3-x^3}{3}=\frac{7x^3}{3}.$$
+
+Hence $F'(x)=\dfrac{7\cdot3x^2}{3}=7x^2$.
+
+So both methods give the same result $F'(x)=7x^2$.
+
+**Answer.** $F'(x)=7x^2$.
 :::
 
 :::exercise Challenge
@@ -273,7 +370,16 @@ Use a trapezoidal sum to estimate the distance traveled in $40$ seconds. If the 
 **What you need:** four trapezoids of width $10$; how chords sit relative to a concave-down graph.
 
 ::solution
-$10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\dfrac{18+20}{2}=40+110+160+190=500$ meters. For a concave-down graph, each chord lies below the graph, so $500$ meters is an underestimate.
+The values of $v(t)$ are recorded every $10$ seconds, so each trapezoid has width $\Delta t=10$. The distance traveled is $\displaystyle\int_0^{40}v(t)\,dt$. The trapezoidal sum estimates it by the sum of the areas of four trapezoids:
+$$\begin{aligned}T&=10\cdot\frac{0+8}{2}+10\cdot\frac{8+14}{2}+10\cdot\frac{14+18}{2}+10\cdot\frac{18+20}{2}\\&=40+110+160+190=500.\end{aligned}$$
+
+So the estimated distance is $500$ meters.
+
+If the graph of $v$ is concave down, then on each subinterval the chord joining the two recorded points lies below the graph. Hence each trapezoid has area smaller than the corresponding area under the graph.
+
+So the estimate of $500$ meters is too small.
+
+**Answer.** $500$ meters; too small.
 :::
 
 :::quiz

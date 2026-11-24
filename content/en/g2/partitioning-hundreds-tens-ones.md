@@ -124,7 +124,13 @@ b) $910$.
 2. Leave out any place that is $0$.
 
 ::solution
-a) $236$ has $2$ hundreds, $3$ tens, $6$ ones. b) $910$ has $9$ hundreds, $1$ ten, $0$ ones.
+a) The number $236$ has $2$ hundreds, $3$ tens and $6$ ones. $2$ hundreds is $200$, $3$ tens is $30$ and $6$ ones is $6$. So
+$$236=200+30+6.$$
+
+b) The number $910$ has $9$ hundreds, $1$ ten and $0$ ones. $9$ hundreds is $900$, $1$ ten is $10$, and $0$ ones is $0$, so we do not need to write it. So
+$$910=900+10.$$
+
+So $236=200+30+6$ and $910=900+10$.
 
 **Answer.** a) $236=200+30+6$; b) $910=900+10$.
 :::
@@ -144,7 +150,11 @@ b) $800+20$.
 2. Write a $0$ in any place that is missing.
 
 ::solution
-a) $4$ hundreds, $5$ tens, $7$ ones. b) $8$ hundreds, $2$ tens, $0$ ones.
+a) The sum $400+50+7$ has $4$ hundreds, $5$ tens and $7$ ones. Writing the digits in the order hundreds, tens, ones, we get the number $457$.
+
+b) The sum $800+20$ has $8$ hundreds, $2$ tens and no ones at all, so the ones digit is $0$. Writing the digits in order, we get the number $820$.
+
+So a) the number is $457$; b) the number is $820$.
 
 **Answer.** a) $457$; b) $820$.
 :::
@@ -160,7 +170,12 @@ Remember the last lesson. A number has the hundreds digit $6$, the tens digit $0
 2. Write it as a sum, leaving out the tens because they are $0$.
 
 ::solution
-The number is $604$. We have $604=600+4$.
+The number has hundreds digit $6$, tens digit $0$ and ones digit $4$. So it has $6$ hundreds, $0$ tens and $4$ ones, and we write it as $604$.
+
+To write it as a sum: $6$ hundreds is $600$, $0$ tens is $0$ and $4$ ones is $4$. We have
+$$604=600+0+4=600+4.$$
+
+So the number is $604$ and $604=600+4$.
 
 **Answer.** $604=600+4$.
 :::
@@ -180,7 +195,11 @@ b) $\square+40+2=942$.
 2. Write the value of that digit.
 
 ::solution
-a) $573$ has $7$ in the tens place, value $70$. b) $942$ has $9$ in the hundreds place, value $900$.
+a) The number $573$ has $5$ hundreds, $7$ tens and $3$ ones, so $573=500+70+3$. Comparing with $500+\square+3$, the box is $70$. Check: $500+70+3=573$.
+
+b) The number $942$ has $9$ hundreds, $4$ tens and $2$ ones, so $942=900+40+2$. Comparing with $\square+40+2$, the box is $900$. Check: $900+40+2=942$.
+
+So the number in box a) is $70$ and in box b) is $900$.
 
 **Answer.** a) $70$; b) $900$.
 :::
@@ -196,7 +215,18 @@ Which is right for $372$: $3+7+2$, $30+70+2$ or $300+70+2$? Why?
 2. Add the values.
 
 ::solution
-$3$ in the hundreds place is $300$, $7$ in the tens place is $70$ and $2$ in the ones place is $2$. Adding gives $372$.
+The number $372$ has the digit $3$ in the hundreds place, the digit $7$ in the tens place and the digit $2$ in the ones place. The value of each digit is:
+
+- the digit $3$ in the hundreds place has value $300$;
+- the digit $7$ in the tens place has value $70$;
+- the digit $2$ in the ones place has value $2$.
+
+We check each way of writing:
+$$3+7+2=12,\qquad 30+70+2=102,\qquad 300+70+2=372.$$
+
+Only $300+70+2$ gives $372$. The other two are wrong because they do not give each digit its value for its place.
+
+So the right way is $372=300+70+2$.
 
 **Answer.** $372=300+70+2$.
 :::
@@ -212,7 +242,14 @@ Lan writes "$305=300+50$". What is wrong with what Lan writes? Correct it.
 2. How many tens and ones does $305$ have?
 
 ::solution
-$300+50=350$, not $305$. The number $305$ has $3$ hundreds, $0$ tens and $5$ ones.
+We work out $300+50=350$, and $350\neq305$. So Lan is wrong.
+
+The number $305$ has $3$ hundreds, $0$ tens and $5$ ones. The digit $5$ is in the ones place, so its value is $5$, not $50$. Since there are $0$ tens, we do not need to write a tens part. The correct version is
+$$305=300+5.$$
+
+Check: $300+5=305$.
+
+So Lan went wrong by writing $5$ ones as $50$; the correct way is $305=300+5$.
 
 **Answer.** $305=300+5$.
 :::
@@ -228,7 +265,16 @@ A library has $4$ crates of $100$ books, $6$ bundles of $10$ books and $8$ loose
 2. Write the sum and give the answer with its unit.
 
 ::solution
-The sum is $400+60+8=468$.
+Solution
+
+$4$ crates, each with $100$ books, make $4$ hundreds of books, that is $400$ books.
+
+$6$ bundles, each with $10$ books, make $6$ tens of books, that is $60$ books.
+
+There are also $8$ loose books. The number of books in the library is:
+$$400+60+8=468\ \text{(books)}$$
+
+So the library has $468$ books and $468=400+60+8$.
 
 **Answer.** $468$ books; $468=400+60+8$.
 :::
@@ -244,9 +290,16 @@ Find the three-digit number of the form $400+\square0+\square$, where the tens d
 2. Write the number and then the sum.
 
 ::solution
-The tens digit is $8$, so the tens part is $80$. We have $400+80+8=488$.
+The number has the form $400+\square0+\square$, so its hundreds digit is $4$.
 
-**Check.** $488$ has the tens digit and the ones digit both equal to $8$. Correct.
+The ones digit is $8$. The tens digit equals the ones digit, so the tens digit is also $8$, and the tens part is $80$.
+
+We have
+$$400+80+8=488.$$
+
+Check: the number $488$ has the tens digit and the ones digit both equal to $8$. Correct.
+
+So the number is $488$.
 
 **Answer.** $488$.
 :::

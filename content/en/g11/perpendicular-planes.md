@@ -279,7 +279,11 @@ The planes $(\alpha)$ and $(\beta)$ intersect along a line $d$. One of their dih
 2. Take the supplement.
 
 ::solution
-Since $135^\circ>90^\circ$, the angle between the planes is $180^\circ-135^\circ=45^\circ$.
+The angle between two intersecting planes is the smallest of the plane angles of their dihedral angles, so it does not exceed $90^\circ$. The two dihedral angles formed by $(\alpha)$ and $(\beta)$ are supplementary.
+
+Since $135^\circ>90^\circ$, the other dihedral angle has plane angle $180^\circ-135^\circ=45^\circ$.
+
+So the angle between $(\alpha)$ and $(\beta)$ is $45^\circ$.
 
 **Answer.** $45^\circ$.
 :::
@@ -295,7 +299,14 @@ A sheet of card is folded along a crease $d$. Take a point $H$ on the crease, a 
 2. Compare it with $AB^2$.
 
 ::solution
-$HA^2+HB^2=144+256=400=20^2=AB^2$, so $\angle AHB=90^\circ$.
+The two halves of the card lie in two planes meeting along the crease $d$. Since $H\in d$, $HA\perp d$ and $HB\perp d$, the angle $\angle AHB$ is the plane angle of the dihedral angle between the two halves. The halves are perpendicular if and only if $\angle AHB=90^\circ$.
+
+We have
+$$HA^2+HB^2=12^2+16^2=144+256=400=20^2=AB^2.$$
+
+By the converse of Pythagoras' theorem, triangle $AHB$ is right-angled at $H$, that is $\angle AHB=90^\circ$.
+
+So the two halves of the card are perpendicular.
 
 **Answer.** Yes, the two halves are perpendicular.
 :::
@@ -311,7 +322,15 @@ In the cuboid $ABCD.A'B'C'D'$, prove that $(ABB'A')\perp(ADD'A')$.
 2. Show that $AB$ is perpendicular to two intersecting lines of $(ADD'A')$.
 
 ::solution
-$AB\perp AD$ (the base is a rectangle) and $AB\perp AA'$ (a lateral face is a rectangle). The lines $AD$ and $AA'$ intersect in $(ADD'A')$, so $AB\perp(ADD'A')$. The plane $(ABB'A')$ contains $AB$.
+We use the criterion: if a plane contains a line perpendicular to another plane, then the two planes are perpendicular.
+
+Since $ABCD$ is a rectangle, $AB\perp AD$. Since $ABB'A'$ is a rectangle, $AB\perp AA'$.
+
+The lines $AD$ and $AA'$ meet at $A$ and both lie in $(ADD'A')$. Hence $AB\perp(ADD'A')$.
+
+The plane $(ABB'A')$ contains the line $AB$, and $AB\perp(ADD'A')$.
+
+So $(ABB'A')\perp(ADD'A')$.
 
 **Answer.** $(ABB'A')\perp(ADD'A')$.
 :::
@@ -327,7 +346,18 @@ The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ is right-angled at $B$, a
 2. Show that the plane angle is $\angle SBA$ and find its tangent.
 
 ::solution
-$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$, which gives $BC\perp SB$. The plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=\dfrac22=1$.
+The intersection of $(SBC)$ and $(ABC)$ is the line $BC$.
+
+Since $SA\perp(ABC)$, we have $SA\perp BC$. Triangle $ABC$ is right-angled at $B$, so $AB\perp BC$. The lines $SA$ and $AB$ meet and lie in $(SAB)$, hence $BC\perp(SAB)$. Therefore $BC\perp SB$.
+
+We have $BC\perp AB$ with $AB\subset(ABC)$ and $BC\perp SB$ with $SB\subset(SBC)$. So the plane angle of the dihedral angle is $\angle SBA$.
+
+Triangle $SAB$ is right-angled at $A$ (because $SA\perp(ABC)$), so
+$$\tan\angle SBA=\frac{SA}{AB}=\frac22=1.$$
+
+Hence $\angle SBA=45^\circ$.
+
+So the angle between $(SBC)$ and $(ABC)$ is $45^\circ$.
 
 **Answer.** $45^\circ$.
 :::
@@ -352,13 +382,19 @@ d) The angle between $(SCD)$ and $(ABCD)$ is $45^\circ$.
 3. c), d) Find the angles $\angle SBA$ and $\angle SDA$.
 
 ::solution
-a) **True**: $(SAB)$ contains $SA\perp(ABCD)$.
+a) **True.** The plane $(SAB)$ contains the line $SA$ and $SA\perp(ABCD)$. Hence $(SAB)\perp(ABCD)$.
 
-b) **True**: $CD\perp AD$ and $CD\perp SA$, so $CD\perp(SAD)$; and $(SCD)$ contains $CD$.
+b) **True.** Since $ABCD$ is a rectangle, $CD\perp AD$. Since $SA\perp(ABCD)$, $SA\perp CD$. The lines $AD$ and $SA$ meet and lie in $(SAD)$, so $CD\perp(SAD)$. The plane $(SCD)$ contains $CD$, so $(SCD)\perp(SAD)$.
 
-c) **False**: the plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=\dfrac43\ne1$.
+c) **False.** The intersection of $(SBC)$ and $(ABCD)$ is $BC$. As in part b), $BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$ and hence $BC\perp SB$. The plane angle of the dihedral angle is $\angle SBA$ with
+$$\tan\angle SBA=\frac{SA}{AB}=\frac43\ne1.$$
+So the angle between $(SBC)$ and $(ABCD)$ is not $45^\circ$.
 
-d) **True**: $CD\perp(SAD)$ gives $CD\perp SD$; the plane angle is $\angle SDA$ with $\tan\angle SDA=\dfrac{SA}{AD}=1$, that is $45^\circ$.
+d) **True.** The intersection of $(SCD)$ and $(ABCD)$ is $CD$. By part b), $CD\perp(SAD)$, so $CD\perp SD$; also $CD\perp AD$. So the plane angle of the dihedral angle is $\angle SDA$ with
+$$\tan\angle SDA=\frac{SA}{AD}=\frac44=1,$$
+hence $\angle SDA=45^\circ$. So the angle between $(SCD)$ and $(ABCD)$ is $45^\circ$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -374,7 +410,14 @@ A house has two flat roof panels. A vertical cross-section perpendicular to the 
 2. Find the tangent of the base angle.
 
 ::solution
-Half of the base is $4$ m and the height is $3$ m, so $\tan\alpha=\dfrac34$, which gives $\alpha\approx36.87^\circ$.
+Call the isosceles triangle $ABC$ with horizontal base $BC=8$ m and height $AH=3$ m, where $H$ is the midpoint of $BC$. Since the cross-section is perpendicular to the ridge, the angle between each roof panel and the horizontal plane equals the angle between $AB$ (or $AC$) and $BC$ in the cross-section.
+
+Let $\alpha$ be the angle between a roof panel and the horizontal plane. Since triangle $ABC$ is isosceles at $A$, $H$ is the midpoint of $BC$ and $BH=\dfrac82=4$ m. In triangle $ABH$, right-angled at $H$, we have
+$$\tan\alpha=\tan\angle ABH=\frac{AH}{BH}=\frac34.$$
+
+Hence $\alpha\approx36.87^\circ$, which is $37^\circ$ to the nearest degree.
+
+So each roof panel makes an angle of about $37^\circ$ with the horizontal plane.
 
 **Answer.** About $37^\circ$.
 :::
@@ -390,7 +433,21 @@ The regular triangular prism $ABC.A'B'C'$ has base side $6$ and lateral edge $9$
 2. Find $AM$, then $\tan\angle A'MA$.
 
 ::solution
-Triangle $ABC$ is equilateral, so $AM\perp BC$ and $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. Since $AA'\perp(ABC)$, we have $BC\perp(A'AM)$, so $BC\perp A'M$. The plane angle is $\angle A'MA$ with $\tan\angle A'MA=\dfrac{9}{3\sqrt3}=\sqrt3$.
+Let $M$ be the midpoint of $BC$. The intersection of $(A'BC)$ and $(ABC)$ is $BC$.
+
+Triangle $ABC$ is equilateral, so the median $AM$ is also an altitude, that is $AM\perp BC$, and
+$$AM=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+Since the prism is regular, $AA'\perp(ABC)$, so $AA'\perp BC$. The lines $AM$ and $AA'$ meet and lie in $(A'AM)$ and are both perpendicular to $BC$, hence $BC\perp(A'AM)$. Therefore $BC\perp A'M$.
+
+We have $AM\perp BC$ with $AM\subset(ABC)$ and $A'M\perp BC$ with $A'M\subset(A'BC)$. So the plane angle of the dihedral angle is $\angle A'MA$.
+
+Triangle $A'AM$ is right-angled at $A$ with $AA'=9$, so
+$$\tan\angle A'MA=\frac{AA'}{AM}=\frac{9}{3\sqrt3}=\sqrt3.$$
+
+Hence $\angle A'MA=60^\circ$.
+
+So the angle between $(A'BC)$ and $(ABC)$ is $60^\circ$.
 
 **Answer.** $60^\circ$.
 :::
@@ -409,9 +466,21 @@ b) the angle between $(SBC)$ and $(ABCD)$.
 3. Part b: the plane angle is $\angle SBA$.
 
 ::solution
-a) $AC=a\sqrt2$ and $SA=\sqrt{3a^2-2a^2}=a$. The required angle is $\angle SCA$ with $\cos\angle SCA=\dfrac{AC}{SC}=\sqrt{\dfrac23}$, so $\angle SCA\approx35.3^\circ$.
+a) Since $SA\perp(ABCD)$, the line $AC$ is the orthogonal projection of $SC$ onto $(ABCD)$. Hence the angle between the line $SC$ and the plane $(ABCD)$ is $\angle SCA$.
 
-b) $BC\perp(SAB)$, so the plane angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=1$, that is $45^\circ$.
+The base is a square of side $a$, so $AC=a\sqrt2$. Triangle $SAC$ is right-angled at $A$, so
+$$SA=\sqrt{SC^2-AC^2}=\sqrt{3a^2-2a^2}=a.$$
+
+In triangle $SAC$, right-angled at $A$, we have
+$$\cos\angle SCA=\frac{AC}{SC}=\frac{a\sqrt2}{a\sqrt3}=\sqrt{\frac23}.$$
+
+Hence $\angle SCA\approx35.3^\circ$ (to the nearest tenth of a degree).
+
+b) The intersection of $(SBC)$ and $(ABCD)$ is $BC$. Since $BC\perp AB$ and $BC\perp SA$, we have $BC\perp(SAB)$, so $BC\perp SB$. Thus the plane angle of the dihedral angle is $\angle SBA$, with
+$$\tan\angle SBA=\frac{SA}{AB}=\frac aa=1,$$
+that is $\angle SBA=45^\circ$.
+
+So the angle between $SC$ and $(ABCD)$ is about $35.3^\circ$, and the angle between $(SBC)$ and $(ABCD)$ is $45^\circ$.
 
 **Answer.** a) $35.3^\circ$; b) $45^\circ$.
 :::
@@ -428,11 +497,20 @@ The cube $ABCD.A'B'C'D'$ has edge $a$. Find the angle between $(A'BD)$ and $(C'B
 3. Use the cosine rule in triangle $A'OC'$.
 
 ::solution
-Triangle $A'BD$ is isosceles at $A'$, so $A'O\perp BD$; similarly $C'O\perp BD$. The plane angle is $\angle A'OC'$. We have $A'O=C'O=\sqrt{a^2+\dfrac{a^2}{2}}=\dfrac{a\sqrt6}{2}$ and $A'C'=a\sqrt2$:
+Let $O$ be the intersection of $AC$ and $BD$. The intersection of $(A'BD)$ and $(C'BD)$ is $BD$.
 
-$$\cos\angle A'OC'=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac13.$$
+Triangle $A'BD$ has $A'B=A'D=a\sqrt2$ (diagonals of lateral faces), so it is isosceles at $A'$. Since $O$ is the midpoint of $BD$, $A'O\perp BD$. Similarly triangle $C'BD$ is isosceles at $C'$, so $C'O\perp BD$. Thus the plane angle of the dihedral angle is $\angle A'OC'$.
 
-This angle is acute, so $\angle A'OC'\approx70.5^\circ$.
+We have $AO=\dfrac{a\sqrt2}{2}$ and $AA'\perp AO$, so in triangle $A'AO$, right-angled at $A$,
+$$A'O=\sqrt{a^2+\frac{a^2}{2}}=\frac{a\sqrt6}{2}.$$
+Similarly $C'O=\dfrac{a\sqrt6}{2}$, and $A'C'=a\sqrt2$.
+
+By the cosine rule in triangle $A'OC'$,
+$$\cos\angle A'OC'=\frac{A'O^2+C'O^2-A'C'^2}{2\cdot A'O\cdot C'O}=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac{a^2}{3a^2}=\frac13.$$
+
+Since $\cos\angle A'OC'>0$, this angle is acute and $\angle A'OC'\approx70.5^\circ$. This is also the angle between the two planes.
+
+So the angle between $(A'BD)$ and $(C'BD)$ is about $70.5^\circ$.
 
 **Answer.** $70.5^\circ$.
 :::
@@ -448,7 +526,16 @@ The pyramid $S.ABC$ has $(SAB)\perp(ABC)$ and $(SAC)\perp(ABC)$. Prove that $SA\
 2. Use $SA\perp AB$ in triangle $SAB$.
 
 ::solution
-The planes $(SAB)$ and $(SAC)$ meet along $SA$ and are both perpendicular to $(ABC)$, so $SA\perp(ABC)$. Then $SA\perp AB$ and $SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4$.
+Proof that $SA\perp(ABC)$.
+
+The planes $(SAB)$ and $(SAC)$ meet along the line $SA$ and are both perpendicular to the plane $(ABC)$. By the theorem on the intersection of two planes that are both perpendicular to a third plane, the line of intersection $SA$ is perpendicular to $(ABC)$.
+
+Computation of $SA$.
+
+Since $SA\perp(ABC)$ and $AB\subset(ABC)$, we have $SA\perp AB$. Triangle $SAB$ is right-angled at $A$ with $AB=3$ and $SB=5$. By Pythagoras' theorem,
+$$SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4.$$
+
+So $SA\perp(ABC)$ and $SA=4$.
 
 **Answer.** $SA=4$.
 :::

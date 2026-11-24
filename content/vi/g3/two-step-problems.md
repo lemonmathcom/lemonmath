@@ -152,10 +152,16 @@ Một thùng có $36$ lít dầu. Người ta đổ thêm $25$ lít, rồi dùng
 2. Làm phép cộng trước, rồi phép trừ.
 
 ::solution
-Số lít dầu sau khi đổ thêm là:
-$$36+25=61\ \text{(lít)}.$$
-Số lít dầu còn lại là:
-$$61-40=21\ \text{(lít)}.$$
+Bài giải
+
+Số lít dầu trong thùng sau khi đổ thêm là:
+$$36+25=61\ \text{(lít)}$$
+
+Số lít dầu còn lại trong thùng sau khi dùng đi $40$ lít là:
+$$61-40=21\ \text{(lít)}$$
+
+Vậy trong thùng còn lại $21$ lít dầu.
+
 **Đáp số.** $21$ lít dầu.
 :::
 
@@ -170,10 +176,16 @@ Cô giáo mua $4$ hộp bút, mỗi hộp $6$ chiếc, và mua thêm $5$ chiếc
 2. Cộng thêm số bút lẻ.
 
 ::solution
+Bài giải
+
 Số chiếc bút trong $4$ hộp là:
-$$6\times 4=24\ \text{(chiếc)}.$$
-Số chiếc bút cô mua tất cả là:
-$$24+5=29\ \text{(chiếc)}.$$
+$$6\times 4=24\ \text{(chiếc)}$$
+
+Số chiếc bút cô giáo mua tất cả (cả bút trong hộp và bút lẻ) là:
+$$24+5=29\ \text{(chiếc)}$$
+
+Vậy cô giáo mua tất cả $29$ chiếc bút.
+
 **Đáp số.** $29$ chiếc bút.
 :::
 
@@ -188,10 +200,16 @@ Có $36$ quả cam chia đều vào $4$ đĩa, rồi mỗi đĩa được thêm 
 2. Cộng thêm $2$.
 
 ::solution
+Bài giải
+
 Số quả cam mỗi đĩa lúc đầu là:
-$$36:4=9\ \text{(quả)}.$$
-Số quả cam mỗi đĩa lúc này là:
-$$9+2=11\ \text{(quả)}.$$
+$$36:4=9\ \text{(quả)}$$
+
+Số quả cam mỗi đĩa lúc này, sau khi thêm $2$ quả, là:
+$$9+2=11\ \text{(quả)}$$
+
+Vậy lúc này mỗi đĩa có $11$ quả cam.
+
 **Đáp số.** $11$ quả cam.
 :::
 
@@ -206,10 +224,16 @@ Vườn có $7$ hàng cây, mỗi hàng $8$ cây. Bác nông dân đã tưới $
 2. Trừ đi số cây đã tưới.
 
 ::solution
-Số cây trong vườn là:
-$$8\times 7=56\ \text{(cây)}.$$
+Bài giải
+
+Số cây trong vườn (có $7$ hàng, mỗi hàng $8$ cây) là:
+$$8\times 7=56\ \text{(cây)}$$
+
 Số cây chưa được tưới là:
-$$56-20=36\ \text{(cây)}.$$
+$$56-20=36\ \text{(cây)}$$
+
+Vậy còn $36$ cây chưa được tưới.
+
 **Đáp số.** $36$ cây.
 :::
 
@@ -224,10 +248,16 @@ Em nhớ lại bài giảm một số đi một số lần. Nam có $56$ viên b
 2. "Ít hơn bao nhiêu" là phép trừ.
 
 ::solution
-Số viên bi của Hoa là:
-$$56:7=8\ \text{(viên)}.$$
+Bài giải
+
+Giảm một số đi $7$ lần nghĩa là lấy số đó chia cho $7$. Số viên bi của Hoa là:
+$$56:7=8\ \text{(viên)}$$
+
 Hoa có ít hơn Nam số viên bi là:
-$$56-8=48\ \text{(viên)}.$$
+$$56-8=48\ \text{(viên)}$$
+
+Vậy Hoa có ít hơn Nam $48$ viên bi.
+
 **Đáp số.** $48$ viên bi.
 :::
 
@@ -242,10 +272,18 @@ Có $38$ bạn đi tham quan bằng ô tô, mỗi xe chở nhiều nhất $7$ b�
 2. Số bạn còn dư cần thêm mấy xe?
 
 ::solution
-Ta có $38:7=5$ (dư $3$). Có $5$ xe đầy và còn $3$ bạn chưa có chỗ, nên cần thêm $1$ xe.
+Bài giải
+
+Ta chia $38$ bạn cho $7$ bạn mỗi xe:
+$$38:7=5\ \text{(dư }3\text{)}$$
+
+Có $5$ xe chở đầy $7$ bạn và còn dư $3$ bạn chưa có chỗ. Vì mỗi xe chở nhiều nhất $7$ bạn nên $3$ bạn này cần thêm $1$ xe nữa.
 
 Số xe cần ít nhất là:
-$$5+1=6\ \text{(xe)}.$$
+$$5+1=6\ \text{(xe)}$$
+
+Vậy cần ít nhất $6$ xe để chở hết các bạn.
+
 **Đáp số.** $6$ xe.
 :::
 
@@ -260,10 +298,16 @@ Một bao gạo có $50$ kg. Người bán đã bán $3$ túi, mỗi túi $8$ kg
 2. Lấy số gạo ban đầu trừ đi số gạo đã bán.
 
 ::solution
-Số ki-lô-gam gạo đã bán là:
-$$8\times 3=24\ \text{(kg)}.$$
-Số ki-lô-gam gạo còn lại là:
-$$50-24=26\ \text{(kg)}.$$
+Bài giải
+
+Số ki-lô-gam gạo đã bán ($3$ túi, mỗi túi $8$ kg) là:
+$$8\times 3=24\ \text{(kg)}$$
+
+Số ki-lô-gam gạo còn lại trong bao là:
+$$50-24=26\ \text{(kg)}$$
+
+Vậy trong bao còn lại $26$ ki-lô-gam gạo.
+
 **Đáp số.** $26$ kg gạo.
 :::
 
@@ -278,12 +322,19 @@ Lan có $5$ túi kẹo, mỗi túi $6$ cái. Lan cho Mai $12$ cái, rồi chia �
 2. Bớt số kẹo cho Mai, rồi chia cho $3$ bạn.
 
 ::solution
-Số cái kẹo Lan có là:
-$$6\times 5=30\ \text{(cái)}.$$
-Số cái kẹo còn lại sau khi cho Mai là:
-$$30-12=18\ \text{(cái)}.$$
-Số cái kẹo mỗi bạn được là:
-$$18:3=6\ \text{(cái)}.$$
+Bài giải
+
+Số cái kẹo Lan có ($5$ túi, mỗi túi $6$ cái) là:
+$$6\times 5=30\ \text{(cái)}$$
+
+Số cái kẹo còn lại sau khi Lan cho Mai $12$ cái là:
+$$30-12=18\ \text{(cái)}$$
+
+Số cái kẹo mỗi bạn được khi chia đều cho $3$ bạn là:
+$$18:3=6\ \text{(cái)}$$
+
+Vậy mỗi bạn được $6$ cái kẹo.
+
 **Đáp số.** $6$ cái kẹo.
 :::
 

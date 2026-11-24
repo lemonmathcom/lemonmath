@@ -175,11 +175,15 @@ c) $20:2$
 2. Viết thương.
 
 ::solution
-a) $2\times3=6$ nên $6:2=3$.
+Em dùng bảng nhân $2$ để tìm thương.
 
-b) $2\times6=12$ nên $12:2=6$.
+a) Ta có $2\times3=6$ nên $6:2=3$.
 
-c) $2\times10=20$ nên $20:2=10$.
+b) Ta có $2\times6=12$ nên $12:2=6$.
+
+c) Ta có $2\times10=20$ nên $20:2=10$.
+
+Vậy $6:2=3$; $12:2=6$; $20:2=10$.
 
 **Đáp số.** a) 3; b) 6; c) 10.
 :::
@@ -201,11 +205,15 @@ c) $50:5$
 2. Viết thương.
 
 ::solution
-a) $5\times2=10$ nên $10:5=2$.
+Em dùng bảng nhân $5$ để tìm thương.
 
-b) $5\times5=25$ nên $25:5=5$.
+a) Ta có $5\times2=10$ nên $10:5=2$.
 
-c) $5\times10=50$ nên $50:5=10$.
+b) Ta có $5\times5=25$ nên $25:5=5$.
+
+c) Ta có $5\times10=50$ nên $50:5=10$.
+
+Vậy $10:5=2$; $25:5=5$; $50:5=10$.
 
 **Đáp số.** a) 2; b) 5; c) 10.
 :::
@@ -225,9 +233,13 @@ b) $\square:5=4$
 2. Câu b: lấy $5\times4$.
 
 ::solution
-a) $2\times6=12$ nên $12:2=6$.
+Số bị chia bằng thương nhân với số chia, nên em lấy thương nhân số chia.
 
-b) $5\times4=20$ nên $20:5=4$.
+a) Ta có $2\times6=12$ nên $12:2=6$. Số cần điền là $12$.
+
+b) Ta có $5\times4=20$ nên $20:5=4$. Số cần điền là $20$.
+
+Vậy hai số cần điền là $12$ và $20$.
 
 **Đáp số.** a) 12; b) 20.
 :::
@@ -243,8 +255,15 @@ Biết $2\times9=18$. Viết hai phép chia tương ứng.
 2. Chia tích cho từng thừa số.
 
 ::solution
-Lấy tích 18 chia cho từng thừa số:
-$$18:2=9,\qquad 18:9=2.$$
+Từ một phép nhân, em lập được hai phép chia bằng cách lấy tích chia cho từng thừa số.
+
+Lấy tích $18$ chia cho thừa số $2$:
+$$18:2=9.$$
+
+Lấy tích $18$ chia cho thừa số $9$:
+$$18:9=2.$$
+
+Vậy hai phép chia tương ứng là $18:2=9$ và $18:9=2$.
 
 **Đáp số.** $18:2=9$ và $18:9=2$.
 :::
@@ -264,8 +283,13 @@ Giả sử có 40 quả cam xếp đều vào 5 rổ. Hỏi mỗi rổ có bao n
 Bài giải
 
 Mỗi rổ có số quả cam là:
-$$40:5=8\ \text{(quả)}.$$
-Đáp số: 8 quả cam.
+$$40:5=8\ \text{(quả)}$$
+
+Kiểm tra: $5\times8=40$ (quả), đúng.
+
+Vậy mỗi rổ có $8$ quả cam.
+
+**Đáp số.** 8 quả cam.
 :::
 
 :::exercise
@@ -282,9 +306,14 @@ Giả sử có 18 bạn chia thành các đội, mỗi đội 2 bạn. Hỏi chi
 ::solution
 Bài giải
 
-Chia được số đội là:
-$$18:2=9\ \text{(đội)}.$$
-Đáp số: 9 đội.
+Số đội chia được là:
+$$18:2=9\ \text{(đội)}$$
+
+Kiểm tra: $2\times9=18$ (bạn), đúng.
+
+Vậy chia được $9$ đội.
+
+**Đáp số.** 9 đội.
 :::
 
 :::exercise
@@ -298,8 +327,13 @@ Nhớ lại bài giờ - phút. Kim dài của đồng hồ đã qua 45 phút th
 2. Dùng bảng chia 5.
 
 ::solution
-Đã qua 45 phút: $45:5=9$, kim dài chỉ số 9.
-Đã qua 20 phút: $20:5=4$, kim dài chỉ số 4.
+Trên mặt đồng hồ, kim dài chỉ số $1$ ứng với $5$ phút, chỉ số $2$ ứng với $10$ phút, ... Muốn biết kim dài chỉ số mấy, em lấy số phút chia cho $5$.
+
+Đã qua $45$ phút: ta có $5\times9=45$ nên $45:5=9$. Kim dài chỉ số $9$.
+
+Đã qua $20$ phút: ta có $5\times4=20$ nên $20:5=4$. Kim dài chỉ số $4$.
+
+Vậy kim dài chỉ số $9$ khi đã qua $45$ phút và chỉ số $4$ khi đã qua $20$ phút.
 
 **Đáp số.** Số 9 và số 4.
 :::
@@ -315,8 +349,13 @@ Một số chia cho 5 được thương là 4. Nếu chia số đó cho 2 thì �
 2. Chia số đó cho 2.
 
 ::solution
-Số đó là $5\times4=20$. Chia cho 2:
+Số đó chia cho $5$ được thương là $4$ nên số đó bằng thương nhân với số chia. Ta có
+$$5\times4=20.$$
+
+Chia số đó cho $2$, ta được
 $$20:2=10.$$
+
+Vậy nếu chia số đó cho $2$ thì được thương bằng $10$.
 
 **Đáp số.** 10.
 :::

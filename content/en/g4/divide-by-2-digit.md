@@ -178,10 +178,14 @@ Set out and work out: $884\div13$.
 2. Bring down $4$ and continue.
 
 ::solution
-- $88\div13=6$, because $13\times6=78$; $88-78=10$.
-- Bring down $4$ to make $104$. $104\div13=8$, because $13\times8=104$; remainder $0$.
+Set out the division and divide step by step from left to right.
 
-**Check.** $13\times68=884$. Correct.
+- Step 1: Since $8<13$, we take the first two digits $88$. We have $88\div13=6$, because $13\times6=78$. Write $6$ in the quotient. The remainder is $88-78=10$.
+- Step 2: Bring down $4$ to make $104$. We have $104\div13=8$, because $13\times8=104$. Write $8$ in the quotient. The remainder is $104-104=0$.
+
+*Check.* $13\times68=884$. Correct.
+
+So $884\div13=68$.
 
 **Answer.** $884\div13=68$.
 :::
@@ -197,10 +201,14 @@ Set out and work out: $1\,728\div24$.
 2. Bring down $8$ and continue.
 
 ::solution
-- $172\div24=7$, because $24\times7=168$; $172-168=4$.
-- Bring down $8$ to make $48$. $48\div24=2$; remainder $0$.
+Set out the division and divide step by step from left to right.
 
-**Check.** $24\times72=1\,728$. Correct.
+- Step 1: Since $17<24$, we take the first three digits $172$. We have $172\div24=7$, because $24\times7=168$. Write $7$ in the quotient. The remainder is $172-168=4$.
+- Step 2: Bring down $8$ to make $48$. We have $48\div24=2$, because $24\times2=48$. Write $2$ in the quotient. The remainder is $48-48=0$.
+
+*Check.* $24\times72=1\,728$. Correct.
+
+So $1\,728\div24=72$.
 
 **Answer.** $1\,728\div24=72$.
 :::
@@ -216,10 +224,14 @@ Set out and work out: $3\,570\div42$.
 2. Bring down $0$ and continue.
 
 ::solution
-- $357\div42=8$, because $42\times8=336$; $357-336=21$.
-- Bring down $0$ to make $210$. $210\div42=5$, because $42\times5=210$; remainder $0$.
+Set out the division and divide step by step from left to right.
 
-**Check.** $42\times85=3\,570$. Correct.
+- Step 1: Since $35<42$, we take the first three digits $357$. We have $357\div42=8$, because $42\times8=336$. Write $8$ in the quotient. The remainder is $357-336=21$.
+- Step 2: Bring down $0$ to make $210$. We have $210\div42=5$, because $42\times5=210$. Write $5$ in the quotient. The remainder is $210-210=0$.
+
+*Check.* $42\times85=3\,570$. Correct.
+
+So $3\,570\div42=85$.
 
 **Answer.** $3\,570\div42=85$.
 :::
@@ -235,10 +247,16 @@ Set out and work out: $2\,345\div52$.
 2. Bring down $5$, continue, then check.
 
 ::solution
-- $234\div52=4$, because $52\times4=208$; $234-208=26$.
-- Bring down $5$ to make $265$. $265\div52=5$, because $52\times5=260$; remainder $5$.
+Set out the division and divide step by step from left to right.
 
-**Check.** $45\times52+5=2\,340+5=2\,345$. Correct.
+- Step 1: Since $23<52$, we take the first three digits $234$. We have $234\div52=4$, because $52\times4=208$. Write $4$ in the quotient. The remainder is $234-208=26$.
+- Step 2: Bring down $5$ to make $265$. We have $265\div52=5$, because $52\times5=260$. Write $5$ in the quotient. The remainder is $265-260=5$.
+
+The remainder $5$ is less than the divisor $52$, so the division stops here.
+
+*Check.* $45\times52+5=2\,340+5=2\,345$. Correct.
+
+So $2\,345\div52=45$ (remainder $5$).
 
 **Answer.** $2\,345\div52=45$ (remainder $5$).
 :::
@@ -254,10 +272,16 @@ A shop has $1\,080$ pens to pack into boxes, each box holding $12$ pens. How man
 2. Set out $1\,080\div12$ and check by multiplying.
 
 ::solution
+Solution
+
+To find the number of boxes, we divide the number of pens by the number of pens in each box.
+
 The number of boxes filled is:
 $$1\,080\div12=90\ \text{(boxes)}.$$
 
-**Check.** $90\times12=1\,080$. Correct.
+*Check.* $90\times12=1\,080$. Correct.
+
+So $90$ boxes can be filled.
 
 **Answer.** $90$ boxes.
 :::
@@ -273,9 +297,18 @@ Suppose a group of $250$ visitors hires coaches, each coach carrying at most $45
 2. Work out $250\div45$, then look at the remainder.
 
 ::solution
+Solution
+
+Each coach carries at most $45$ people, so we divide $250$ by $45$ to find how many coaches can be filled.
+
 We have $250\div45=5$ (remainder $25$), because $45\times5=225$ and $250-225=25$.
 
-$5$ coaches carry $225$ people, and the other $25$ people need $1$ more coach. The number of coaches to hire is $5+1=6$ (coaches).
+$5$ coaches carry $225$ people, and the other $25$ people still have no coach. Since $25<45$, only $1$ more coach is needed.
+
+The number of coaches to hire is:
+$$5+1=6\ \text{(coaches)}.$$
+
+So at least $6$ coaches are needed to carry the whole group.
 
 **Answer.** At least $6$ coaches.
 :::
@@ -291,9 +324,14 @@ Remember the lesson on multiplying by a two-digit number. A division has divisor
 2. Add the remainder.
 
 ::solution
-The dividend is $48\times25+13=1\,200+13=1\,213$.
+In a division with a remainder, we have: dividend $=$ quotient $\times$ divisor $+$ remainder.
 
-**Check.** $1\,213\div25=48$ (remainder $13$). Correct.
+Substituting quotient $48$, divisor $25$ and remainder $13$, we get
+$$48\times25+13=1\,200+13=1\,213.$$
+
+*Check.* $1\,213\div25=48$ (remainder $13$), because $25\times48=1\,200$ and $1\,213-1\,200=13$. Correct.
+
+So the dividend is $1\,213$.
 
 **Answer.** $1\,213$.
 :::
@@ -309,11 +347,17 @@ Set out and work out: $7\,805\div41$.
 2. Bring down $0$, then bring down $5$.
 
 ::solution
-- $78\div41=1$; $78-41=37$.
-- Bring down $0$ to make $370$. $370\div41=9$, because $41\times9=369$; remainder $1$.
-- Bring down $5$ to make $15$. $15\div41=0$; remainder $15$.
+Set out the division and divide step by step from left to right.
 
-**Check.** $190\times41+15=7\,790+15=7\,805$. Correct.
+- Step 1: Since $7<41$, we take the first two digits $78$. We have $78\div41=1$. Write $1$ in the quotient. The remainder is $78-41=37$.
+- Step 2: Bring down $0$ to make $370$. We have $370\div41=9$, because $41\times9=369$. Write $9$ in the quotient. The remainder is $370-369=1$.
+- Step 3: Bring down $5$ to make $15$. Since $15<41$, we have $15\div41=0$. Write $0$ in the quotient. The remainder is $15$.
+
+The remainder $15$ is less than the divisor $41$, so the division stops here.
+
+*Check.* $190\times41+15=7\,790+15=7\,805$. Correct.
+
+So $7\,805\div41=190$ (remainder $15$).
 
 **Answer.** $7\,805\div41=190$ (remainder $15$).
 :::
@@ -329,11 +373,18 @@ Suppose Mum pays $1\,260\,000$ dong for $18$ identical chairs. How much does eac
 2. Multiply the result by $1\,000$.
 
 ::solution
-We have $1\,260\div18=70$.
+Solution
 
-The price of each chair is $70\times1\,000=70\,000$ (dong).
+To find the price of one chair, we divide the money paid by the number of chairs. Since $1\,260\,000$ dong is $1\,260$ thousand dong, we divide $1\,260$ by $18$ and then convert back to dong.
 
-**Check.** $70\,000\times18=1\,260\,000$. Correct.
+We have $1\,260\div18=70$ (thousand dong).
+
+The price of each chair is:
+$$70\times1\,000=70\,000\ \text{(dong)}.$$
+
+*Check.* $70\,000\times18=1\,260\,000$ (dong). Correct.
+
+So each chair costs $70\,000$ dong.
 
 **Answer.** $70\,000$ dong.
 :::
@@ -349,11 +400,16 @@ Find the smallest three-digit natural number that leaves remainder $23$ when div
 2. Which is the first three-digit number?
 
 ::solution
-The numbers that leave remainder $23$ when divided by $24$ have the form $24\times k+23$:
-- $k=3$: $24\times3+23=95$ (two digits).
-- $k=4$: $24\times4+23=119$ (three digits).
+The numbers that leave remainder $23$ when divided by $24$ have the form $24\times k+23$, where $k$ is a natural number. We try the values of $k$ in turn to find the smallest three-digit number.
 
-**Check.** $119\div24=4$ (remainder $23$). Correct.
+- For $k=3$: $24\times3+23=72+23=95$, which has only two digits.
+- For $k=4$: $24\times4+23=96+23=119$, which has three digits.
+
+The numbers for larger $k$ are all greater than $119$, so $119$ is the smallest three-digit number that works.
+
+*Check.* $119\div24=4$ (remainder $23$), because $24\times4=96$ and $119-96=23$. Correct.
+
+So the smallest three-digit natural number that leaves remainder $23$ when divided by $24$ is $119$.
 
 **Answer.** $119$.
 :::

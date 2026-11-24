@@ -191,9 +191,11 @@ b) $(3\times5)\times2=3\times(\square\times2)$
 2. Câu b: số nào đứng giữa ở vế phải?
 
 ::solution
-a) Theo tính chất giao hoán, $8\times9=9\times8$.
+a) Theo tính chất giao hoán của phép nhân, khi đổi chỗ hai thừa số thì tích không thay đổi: $a\times b=b\times a$. Do đó $8\times9=9\times8$, số cần điền vào ô vuông là $8$.
 
-b) Theo tính chất kết hợp, $(3\times5)\times2=3\times(5\times2)$.
+b) Theo tính chất kết hợp của phép nhân, khi nhân một tích hai số với số thứ ba thì có thể nhân số thứ nhất với tích của hai số còn lại: $(a\times b)\times c=a\times(b\times c)$. Do đó $(3\times5)\times2=3\times(5\times2)$, số cần điền vào ô vuông là $5$.
+
+Vậy ô vuông ở câu a) là $8$ và ô vuông ở câu b) là $5$.
 
 **Đáp số.** a) $8$. b) $5$.
 :::
@@ -209,7 +211,12 @@ Tính bằng cách thuận tiện: $2\times59\times5$.
 2. Đổi chỗ, nhóm hai thừa số đó lại.
 
 ::solution
-$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+Ta thấy $2\times5=10$, nên ta nhóm hai thừa số này lại với nhau để nhân với $10$ cho dễ.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép nhân, ta có
+$$\begin{aligned} 2\times59\times5 &= (2\times5)\times59 \\ &= 10\times59 \\ &= 590. \end{aligned}$$
+
+Vậy $2\times59\times5=590$.
 
 **Đáp số.** $590$.
 :::
@@ -225,7 +232,12 @@ Tính bằng cách thuận tiện: $125\times9\times8$.
 2. Nhân kết quả với $9$.
 
 ::solution
-$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+Ta thấy $125\times8=1\,000$, nên ta nhóm hai thừa số này lại với nhau.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép nhân, ta có
+$$\begin{aligned} 125\times9\times8 &= (125\times8)\times9 \\ &= 1\,000\times9 \\ &= 9\,000. \end{aligned}$$
+
+Vậy $125\times9\times8=9\,000$.
 
 **Đáp số.** $9\,000$.
 :::
@@ -241,9 +253,15 @@ Tính giá trị của $7\times(5+3)$ bằng hai cách.
 2. Cách 2: nhân $7$ với từng số hạng rồi cộng.
 
 ::solution
-Cách 1: $7\times(5+3)=7\times8=56$.
+Cách 1: Tính trong ngoặc trước, rồi nhân.
+$$7\times(5+3)=7\times8=56.$$
 
-Cách 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
+Cách 2: Áp dụng tính chất phân phối của phép nhân đối với phép cộng: $a\times(b+c)=a\times b+a\times c$. Ta có
+$$\begin{aligned} 7\times(5+3) &= 7\times5+7\times3 \\ &= 35+21 \\ &= 56. \end{aligned}$$
+
+Hai cách cho cùng một kết quả.
+
+Vậy $7\times(5+3)=56$.
 
 **Đáp số.** $56$.
 :::
@@ -259,7 +277,10 @@ Tính bằng cách thuận tiện: $48\times7+48\times3$.
 2. Cộng hai thừa số còn lại, rồi nhân.
 
 ::solution
-$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+Hai tích $48\times7$ và $48\times3$ có chung thừa số $48$. Áp dụng tính chất phân phối của phép nhân đối với phép cộng, ta đặt thừa số chung $48$ ra ngoài:
+$$\begin{aligned} 48\times7+48\times3 &= 48\times(7+3) \\ &= 48\times10 \\ &= 480. \end{aligned}$$
+
+Vậy $48\times7+48\times3=480$.
 
 **Đáp số.** $480$.
 :::
@@ -275,8 +296,17 @@ Một thùng có $5$ hộp bánh, mỗi hộp có $20$ cái bánh. Kho có $6$ t
 2. Phép tính là $20\times5\times6$; nhóm hai số nào lại?
 
 ::solution
+Bài giải
+
+Số cái bánh có trong một thùng là:
+$$20\times5=100\ \text{(cái)}.$$
+
 Số cái bánh có trong kho là:
-$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(cái)}.$$
+$$100\times6=600\ \text{(cái)}.$$
+
+Ta cũng có thể viết gọn $20\times5\times6=(20\times5)\times6=100\times6=600$ (áp dụng tính chất kết hợp của phép nhân).
+
+Vậy kho có tất cả $600$ cái bánh.
 
 **Đáp số.** $600$ cái bánh.
 :::
@@ -292,8 +322,16 @@ Lan mua $6$ quyển vở, mỗi quyển giá $9\,000$ đồng, và $6$ chiếc b
 2. Nhóm theo cách thuận tiện: giá một "quyển vở và một chiếc bút" là bao nhiêu?
 
 ::solution
+Bài giải
+
+Lan mua $6$ quyển vở và $6$ chiếc bút, cùng nhân với $6$. Áp dụng tính chất phân phối của phép nhân đối với phép cộng, ta đặt thừa số chung $6$ ra ngoài.
+
 Số tiền Lan phải trả là:
 $$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(đồng)}.$$
+
+*Thử lại.* Tiền mua vở là $6\times9\,000=54\,000$ đồng, tiền mua bút là $6\times6\,000=36\,000$ đồng, và $54\,000+36\,000=90\,000$ đồng. Đúng.
+
+Vậy Lan phải trả tất cả $90\,000$ đồng.
 
 **Đáp số.** $90\,000$ đồng.
 :::
@@ -309,7 +347,10 @@ Em hãy nhớ lại bài nhân với số có một chữ số. Tách $2\,315=2\
 2. Cộng ba tích lại.
 
 ::solution
-$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+Tách số $2\,315=2\,000+300+15$, rồi áp dụng tính chất phân phối của phép nhân đối với phép cộng: nhân từng số hạng với $4$, rồi cộng các kết quả lại.
+$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 2\,000\times4+300\times4+15\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+
+Vậy $2\,315\times4=9\,260$.
 
 **Đáp số.** $9\,260$.
 :::
@@ -325,10 +366,16 @@ Một mảnh vườn hình chữ nhật có chiều rộng $7$ m. Phần trồng
 2. Cộng lại, hoặc tính chiều dài cả vườn rồi nhân với chiều rộng.
 
 ::solution
+Bài giải
+
+Hai phần của mảnh vườn nằm cạnh nhau và cùng có chiều rộng $7$ m, nên diện tích cả mảnh vườn bằng tổng diện tích hai phần. Áp dụng tính chất phân phối của phép nhân đối với phép cộng.
+
 Diện tích cả mảnh vườn là:
 $$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
 
-**Kiểm tra.** $7\times20=140$. Đúng.
+*Thử lại.* Chiều dài cả mảnh vườn là $12+8=20$ m, và $7\times20=140$ ($\text{m}^2$). Đúng.
+
+Vậy diện tích cả mảnh vườn là $140\ \text{m}^2$.
 
 **Đáp số.** $140\ \text{m}^2$.
 :::
@@ -344,8 +391,12 @@ Tính bằng cách thuận tiện: $25\times36$.
 2. Dùng tính chất kết hợp để ghép $25$ với $4$.
 
 ::solution
-Vì $36=4\times9$ nên:
+Ta thấy $36=4\times9$ và $25\times4=100$, nên ta viết $36$ thành tích $4\times9$ rồi nhóm $25$ với $4$.
+
+Áp dụng tính chất kết hợp của phép nhân, ta có
 $$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
+
+Vậy $25\times36=900$.
 
 **Đáp số.** $900$.
 :::

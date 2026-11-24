@@ -232,7 +232,15 @@ Cho $\vec{a}=(3; -2)$ và $\vec{b}=(-1; 5)$. Tìm toạ độ của $2\vec{a}+\v
 2. Cộng hoặc trừ từng toạ độ.
 
 ::solution
-$2\vec{a}=(6; -4)$ nên $2\vec{a}+\vec{b}=(6-1;\ -4+5)=(5; 1)$. $3\vec{b}=(-3; 15)$ nên $\vec{a}-3\vec{b}=(3+3;\ -2-15)=(6; -17)$.
+Với $\vec{u}=(x_1; y_1)$, $\vec{w}=(x_2; y_2)$ và số $k$, ta có $k\vec{u}=(kx_1; ky_1)$ và $\vec{u}\pm\vec{w}=(x_1\pm x_2; y_1\pm y_2)$.
+
+Ta có $2\vec{a}=(6; -4)$. Do đó
+$$2\vec{a}+\vec{b}=(6+(-1);\ -4+5)=(5; 1).$$
+
+Ta có $3\vec{b}=(-3; 15)$. Do đó
+$$\vec{a}-3\vec{b}=(3-(-3);\ -2-15)=(6; -17).$$
+
+Vậy $2\vec{a}+\vec{b}=(5; 1)$ và $\vec{a}-3\vec{b}=(6; -17)$.
 
 **Đáp số.** $2\vec{a}+\vec{b}=(5; 1)$; $\vec{a}-3\vec{b}=(6; -17)$.
 :::
@@ -248,7 +256,15 @@ Tìm toạ độ của $\overrightarrow{AB}$ và khoảng cách $AB$ với $A(-2
 2. Tính độ dài và rút gọn căn.
 
 ::solution
-$\overrightarrow{AB}=(4+2;\ -1-3)=(6; -4)$ và $AB=\sqrt{36+16}=\sqrt{52}=2\sqrt{13}$.
+Với $A(x_A; y_A)$ và $B(x_B; y_B)$, ta có $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A)$ và $AB=|\overrightarrow{AB}|=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+
+Với $A(-2; 3)$ và $B(4; -1)$:
+$$\overrightarrow{AB}=(4-(-2);\ -1-3)=(6; -4).$$
+
+Khoảng cách $AB$ là độ dài của $\overrightarrow{AB}$:
+$$AB=\sqrt{6^2+(-4)^2}=\sqrt{36+16}=\sqrt{52}=2\sqrt{13}.$$
+
+Vậy $\overrightarrow{AB}=(6; -4)$ và $AB=2\sqrt{13}$.
 
 **Đáp số.** $\overrightarrow{AB}=(6; -4)$; $AB=2\sqrt{13}$.
 :::
@@ -265,8 +281,13 @@ b) Tìm trọng tâm của tam giác có các đỉnh $A(1; 2)$, $B(4; -1)$, $C(
 2. Làm tương tự với các tung độ.
 
 ::solution
-a) $M\left(\dfrac{-3+7}{2};\ \dfrac{5+1}{2}\right)=M(2; 3)$.
-b) $G\left(\dfrac{1+4-2}{3};\ \dfrac{2-1+8}{3}\right)=G(1; 3)$.
+a) Trung điểm $M$ của đoạn thẳng $AB$ có toạ độ là trung bình cộng các toạ độ tương ứng của $A$ và $B$:
+$$M\left(\frac{-3+7}{2};\ \frac{5+1}{2}\right)=M(2; 3).$$
+Vậy trung điểm của đoạn thẳng $AB$ là $M(2; 3)$.
+
+b) Trọng tâm $G$ của tam giác $ABC$ có toạ độ là trung bình cộng các toạ độ tương ứng của ba đỉnh:
+$$G\left(\frac{1+4+(-2)}{3};\ \frac{2+(-1)+8}{3}\right)=G\left(\frac33;\ \frac93\right)=G(1; 3).$$
+Vậy trọng tâm của tam giác $ABC$ là $G(1; 3)$.
 
 **Đáp số.** a) $M(2; 3)$; b) $G(1; 3)$.
 :::
@@ -282,7 +303,16 @@ Chứng minh rằng ba điểm $A(1; 1)$, $B(2; 3)$, $C(4; 7)$ thẳng hàng.
 2. Tính $x_1y_2-x_2y_1$.
 
 ::solution
-$\overrightarrow{AB}=(1; 2)$, $\overrightarrow{AC}=(3; 6)$ và $1\cdot6-3\cdot2=0$. Hai vectơ cùng phương (thật vậy $\overrightarrow{AC}=3\overrightarrow{AB}$), nên ba điểm thẳng hàng.
+Ba điểm phân biệt $A$, $B$, $C$ thẳng hàng khi và chỉ khi hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+Ta có
+$$\overrightarrow{AB}=(2-1;\ 3-1)=(1; 2),\qquad\overrightarrow{AC}=(4-1;\ 7-1)=(3; 6).$$
+
+Hai vectơ $(x_1; y_1)$ và $(x_2; y_2)$ cùng phương khi $x_1y_2-x_2y_1=0$. Ở đây
+$$1\cdot6-3\cdot2=6-6=0,$$
+nên $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương. Cụ thể hơn, $(3; 6)=3\cdot(1; 2)$, tức là $\overrightarrow{AC}=3\overrightarrow{AB}$.
+
+Vậy ba điểm $A$, $B$, $C$ thẳng hàng.
 
 **Đáp số.** $A$, $B$, $C$ thẳng hàng, $\overrightarrow{AC}=3\overrightarrow{AB}$.
 :::
@@ -298,7 +328,17 @@ $ABCD$ là hình bình hành với $A(-1; 0)$, $B(2; 1)$, $C(3; 4)$. Tìm toạ 
 2. Cho các toạ độ tương ứng bằng nhau.
 
 ::solution
-$\overrightarrow{AB}=(3; 1)$ và $\overrightarrow{DC}=(3-x;\ 4-y)$. Từ $3-x=3$ và $4-y=1$ ta được $x=0$, $y=3$. Kiểm tra: trung điểm của $AC$ và của $BD$ đều là $(1; 2)$.
+Gọi $D(x; y)$. Tứ giác $ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+Ta có
+$$\overrightarrow{AB}=(2-(-1);\ 1-0)=(3; 1),\qquad\overrightarrow{DC}=(3-x;\ 4-y).$$
+
+Hai vectơ bằng nhau khi các toạ độ tương ứng bằng nhau, nên
+$$\begin{cases}3-x=3\\4-y=1\end{cases}\iff\begin{cases}x=0\\y=3.\end{cases}$$
+
+Kiểm tra: trung điểm của $AC$ là $\left(\dfrac{-1+3}{2};\ \dfrac{0+4}{2}\right)=(1; 2)$ và trung điểm của $BD$ là $\left(\dfrac{2+0}{2};\ \dfrac{1+3}{2}\right)=(1; 2)$. Hai trung điểm trùng nhau, nên hai đường chéo cắt nhau tại trung điểm mỗi đường, phù hợp với hình bình hành.
+
+Vậy đỉnh $D$ có toạ độ $(0; 3)$.
 
 **Đáp số.** $D(0; 3)$.
 :::
@@ -314,8 +354,16 @@ Trên một bản đồ biển (đơn vị: km), cảng ở gốc toạ độ $O
 2. Tính $OP$ rồi làm tròn.
 
 ::solution
-$2\vec{v}=(6; 8)$, nên lúc $10$ giờ tàu ở $P(2+6;\ 3+8)=P(8; 11)$. Khi đó
-$$OP=\sqrt{8^2+11^2}=\sqrt{185}\approx13{,}6.$$
+Chọn hệ trục toạ độ $Oxy$ trên bản đồ (đơn vị: km) với cảng ở gốc $O$. Từ $8$ giờ đến $10$ giờ là $2$ giờ, tàu chạy thẳng với vận tốc không đổi $\vec{v}=(3; 4)$ (km/h), nên độ dời của tàu trong $2$ giờ là
+$$2\vec{v}=(6; 8)\ \text{(km)}.$$
+
+Gọi $P$ là vị trí của tàu lúc $10$ giờ. Khi đó $\overrightarrow{AP}=2\vec{v}$, suy ra
+$$P(2+6;\ 3+8)=P(8; 11).$$
+
+Khoảng cách từ tàu đến cảng lúc $10$ giờ là
+$$OP=\sqrt{8^2+11^2}=\sqrt{64+121}=\sqrt{185}\approx13{,}6\ \text{(km)}.$$
+
+Vậy lúc $10$ giờ, tàu cách cảng khoảng $13{,}6$ km.
 
 **Đáp số.** $13{,}6$.
 :::
@@ -336,13 +384,19 @@ d) Chu vi tam giác $ABC$ bằng $15$.
 2. Lấy trung bình cộng các toạ độ để tìm $G$.
 
 ::solution
-a) **Đúng.** $\overrightarrow{AB}=(4-1;\ 5-1)=(3; 4)$.
+Ta tính các vectơ và độ dài cần dùng.
+$$\overrightarrow{AB}=(4-1;\ 5-1)=(3; 4),\quad\overrightarrow{BC}=(7-4;\ 1-5)=(3; -4),\quad\overrightarrow{AC}=(7-1;\ 1-1)=(6; 0).$$
 
-b) **Đúng.** $AB=\sqrt{9+16}=5$, $BC=\sqrt{3^2+(-4)^2}=5$, nên $BA=BC$.
+a) **Đúng.** Ta có $\overrightarrow{AB}=(4-1;\ 5-1)=(3; 4)$.
 
-c) **Đúng.** $G\left(\dfrac{1+4+7}{3};\ \dfrac{1+5+1}{3}\right)=G\left(4; \dfrac73\right)$.
+b) **Đúng.** Ta có $AB=\sqrt{3^2+4^2}=5$ và $BC=\sqrt{3^2+(-4)^2}=5$, nên $BA=BC$. Vậy tam giác $ABC$ cân tại $B$.
 
-d) **Sai.** $AC=6$, nên chu vi là $5+5+6=16$.
+c) **Đúng.** Trọng tâm của tam giác là
+$$G\left(\frac{1+4+7}{3};\ \frac{1+5+1}{3}\right)=G\left(4; \frac73\right).$$
+
+d) **Sai.** Ta có $AC=\sqrt{6^2+0^2}=6$, nên chu vi tam giác $ABC$ là $AB+BC+CA=5+5+6=16$, khác $15$.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -358,8 +412,19 @@ d) **Sai.** $AC=6$, nên chu vi là $5+5+6=16$.
 2. Cho bằng $(5; 1)$ và giải hệ.
 
 ::solution
-$$\begin{cases}x+y=5\\x-y=1\end{cases}\iff\begin{cases}x=3\\y=2.\end{cases}$$
-**Kiểm tra.** $3(1; 1)+2(1; -1)=(5; 1)$.
+Ta cần tìm $x$, $y$ sao cho $\vec{c}=x\vec{a}+y\vec{b}$. Ta có
+$$x\vec{a}+y\vec{b}=x(1; 1)+y(1; -1)=(x+y;\ x-y).$$
+
+Hai vectơ bằng nhau khi các toạ độ tương ứng bằng nhau. Do $\vec{c}=(5; 1)$ nên
+$$\begin{cases}x+y=5\\x-y=1.\end{cases}$$
+
+Cộng hai phương trình: $2x=6$, suy ra $x=3$. Thay vào $x+y=5$ ta được $y=5-3=2$.
+
+Vậy $\begin{cases}x=3\\y=2.\end{cases}$
+
+Kiểm tra: $3(1; 1)+2(1; -1)=(3+2;\ 3-2)=(5; 1)=\vec{c}$.
+
+Vậy $\vec{c}=3\vec{a}+2\vec{b}$.
 
 **Đáp số.** $\vec{c}=3\vec{a}+2\vec{b}$.
 :::
@@ -375,9 +440,17 @@ Tìm điểm $M$ trên trục hoành cách đều hai điểm $A(1; 3)$ và $B(5
 2. Cho bằng nhau; các số hạng $t^2$ triệt tiêu.
 
 ::solution
-$$MA^2=(t-1)^2+9,\qquad MB^2=(t-5)^2+1.$$
-$$t^2-2t+10=t^2-10t+26\iff 8t=16\iff t=2.$$
-**Kiểm tra.** $MA=\sqrt{1+9}=\sqrt{10}$ và $MB=\sqrt{9+1}=\sqrt{10}$.
+Vì $M$ nằm trên trục hoành nên $M(t; 0)$ với $t$ là số thực.
+
+Ta có
+$$MA^2=(t-1)^2+(0-3)^2=(t-1)^2+9,\qquad MB^2=(t-5)^2+(0-1)^2=(t-5)^2+1.$$
+
+Điểm $M$ cách đều $A$ và $B$ khi và chỉ khi $MA=MB$, tức là $MA^2=MB^2$ (hai vế đều không âm). Khai triển:
+$$\begin{aligned}(t-1)^2+9&=(t-5)^2+1\\t^2-2t+10&=t^2-10t+26\\8t&=16\\t&=2.\end{aligned}$$
+
+Kiểm tra: với $M(2; 0)$ ta có $MA=\sqrt{(2-1)^2+9}=\sqrt{10}$ và $MB=\sqrt{(2-5)^2+1}=\sqrt{10}$, nên $MA=MB$.
+
+Vậy điểm cần tìm là $M(2; 0)$.
 
 **Đáp số.** $M(2; 0)$.
 :::
@@ -393,7 +466,22 @@ Cho $A(1; 3)$ và $B(5; 1)$. Tìm điểm $M$ trên trục hoành sao cho $|\ove
 2. Điểm gần nhất là hình chiếu của $I$ lên trục hoành.
 
 ::solution
-$I(3; 2)$ và $|\overrightarrow{MA}+\overrightarrow{MB}|=2MI$. Với $M(t; 0)$: $MI^2=(t-3)^2+4\ge4$, dấu bằng khi $t=3$. Vậy giá trị nhỏ nhất là $2\cdot2=4$.
+Gọi $I$ là trung điểm của $AB$. Khi đó
+$$I\left(\frac{1+5}{2};\ \frac{3+1}{2}\right)=I(3; 2).$$
+
+Với mọi điểm $M$, ta có
+$$\overrightarrow{MA}+\overrightarrow{MB}=\left(\overrightarrow{MI}+\overrightarrow{IA}\right)+\left(\overrightarrow{MI}+\overrightarrow{IB}\right)=2\overrightarrow{MI}+\left(\overrightarrow{IA}+\overrightarrow{IB}\right)=2\overrightarrow{MI},$$
+vì $I$ là trung điểm của $AB$ nên $\overrightarrow{IA}+\overrightarrow{IB}=\vec{0}$. Do đó $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|=2MI$.
+
+Vậy $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ nhỏ nhất khi và chỉ khi $MI$ nhỏ nhất.
+
+Vì $M$ nằm trên trục hoành nên $M(t; 0)$. Ta có
+$$MI^2=(t-3)^2+(0-2)^2=(t-3)^2+4\ge4,$$
+dấu bằng xảy ra khi và chỉ khi $t=3$. Suy ra $MI\ge2$, và giá trị nhỏ nhất của $MI$ là $2$, đạt được khi $t=3$.
+
+Do đó giá trị nhỏ nhất của $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ là $2\cdot2=4$, đạt được khi $M(3; 0)$.
+
+Vậy $M(3; 0)$ và giá trị nhỏ nhất của $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ bằng $4$.
 
 **Đáp số.** $M(3; 0)$; giá trị nhỏ nhất bằng $4$.
 :::

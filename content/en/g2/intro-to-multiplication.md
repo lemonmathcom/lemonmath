@@ -162,11 +162,18 @@ c) $5+5$
 2. Write the addend times the number of times.
 
 ::solution
-a) The number 2 appears 5 times: $2+2+2+2+2=2\times5$.
+To write a sum of equal addends as a multiplication, count how many times the number appears. The repeated number is the first factor and the number of times it appears is the second factor.
 
-b) The number 4 appears 3 times: $4+4+4=4\times3$.
+a) In the sum $2+2+2+2+2$, the number $2$ appears $5$ times, so
+$$2+2+2+2+2=2\times5.$$
 
-c) The number 5 appears 2 times: $5+5=5\times2$.
+b) In the sum $4+4+4$, the number $4$ appears $3$ times, so
+$$4+4+4=4\times3.$$
+
+c) In the sum $5+5$, the number $5$ appears $2$ times, so
+$$5+5=5\times2.$$
+
+So the sums written as multiplications are $2\times5$, $4\times3$ and $5\times2$.
 
 **Answer.** a) $2\times5$; b) $4\times3$; c) $5\times2$.
 :::
@@ -188,13 +195,22 @@ c) $5\times4$
 2. Add the addends.
 
 ::solution
-a) $3\times2=3+3=6$.
+The multiplication $a\times b$ means that the number $a$ is taken $b$ times. So we write $a$ as a sum of $b$ equal addends and then add them up.
 
-b) $2\times6=2+2+2+2+2+2=12$.
+a) The number $3$ is taken $2$ times, so
+$$3\times2=3+3=6.$$
 
-c) $5\times4=5+5+5+5=20$.
+b) The number $2$ is taken $6$ times, so
+$$2\times6=2+2+2+2+2+2=12.$$
+Adding step by step: $2+2=4$, $4+2=6$, $6+2=8$, $8+2=10$, $10+2=12$.
 
-**Answer.** a) 6; b) 12; c) 20.
+c) The number $5$ is taken $4$ times, so
+$$5\times4=5+5+5+5=20.$$
+Adding step by step: $5+5=10$, $10+5=15$, $15+5=20$.
+
+So $3\times2=6$, $2\times6=12$ and $5\times4=20$.
+
+**Answer.** a) $6$; b) $12$; c) $20$.
 :::
 
 :::exercise
@@ -208,9 +224,13 @@ In the multiplication $4\times3=12$, which numbers are the factors and which is 
 2. What are the other two numbers called?
 
 ::solution
-The numbers $4$ and $3$ are the factors. The number $12$ is the product.
+In a multiplication, the numbers that are multiplied together are called factors, and the result of the multiplication is called the product.
 
-**Answer.** Factors: 4 and 3; product: 12.
+In the multiplication $4\times3=12$, the numbers $4$ and $3$ are multiplied together, so they are the factors. The number $12$ is the result, so $12$ is the product.
+
+So $4$ and $3$ are the factors, and $12$ is the product.
+
+**Answer.** Factors: $4$ and $3$; product: $12$.
 :::
 
 :::exercise
@@ -228,11 +248,17 @@ b) The product of 5 and 3.
 2. Write it as a sum of equal addends and add.
 
 ::solution
-a) $2\times8=2+2+2+2+2+2+2+2=16$.
+The product of two numbers is the result of multiplying them.
 
-b) $5\times3=5+5+5=15$.
+a) The product of $2$ and $8$ is $2\times8$. The number $2$ is taken $8$ times, so
+$$2\times8=2+2+2+2+2+2+2+2=16.$$
 
-**Answer.** a) 16; b) 15.
+b) The product of $5$ and $3$ is $5\times3$. The number $5$ is taken $3$ times, so
+$$5\times3=5+5+5=15.$$
+
+So the product of $2$ and $8$ is $16$, and the product of $5$ and $3$ is $15$.
+
+**Answer.** a) $16$; b) $15$.
 :::
 
 :::exercise
@@ -249,9 +275,14 @@ Suppose each bicycle has 2 wheels. There are 6 bicycles like this. How many whee
 ::solution
 Solution
 
-The number of wheels altogether is:
-$$2\times6=12\ \text{(wheels)}.$$
-Answer: 12 wheels.
+Each bicycle has $2$ wheels and there are $6$ such bicycles, so the number $2$ is taken $6$ times. The number of wheels altogether is:
+$$2\times6=12\ \text{(wheels)}$$
+
+Check: $2+2+2+2+2+2=12$.
+
+So there are $12$ wheels altogether.
+
+**Answer.** $12$ wheels.
 :::
 
 :::exercise
@@ -268,9 +299,14 @@ Suppose each child has 3 sweets. There are 5 children like this. How many sweets
 ::solution
 Solution
 
-The number of sweets altogether is:
-$$3\times5=15\ \text{(sweets)}.$$
-Answer: 15 sweets.
+Each child has $3$ sweets and there are $5$ such children, so the number $3$ is taken $5$ times. The number of sweets altogether is:
+$$3\times5=15\ \text{(sweets)}$$
+
+Check: $3+3+3+3+3=15$.
+
+So there are $15$ sweets altogether.
+
+**Answer.** $15$ sweets.
 :::
 
 :::exercise
@@ -288,9 +324,14 @@ b) Name the addends, the sum, the factors and the product.
 2. Which number is the result of both ways of writing it?
 
 ::solution
-a) The number 4 is taken 4 times, so $4+4+4+4=4\times4=16$.
+a) In the sum $4+4+4+4$, the number $4$ is taken $4$ times, so
+$$4+4+4+4=4\times4=16.$$
 
-b) In the addition: the addends are $4$, $4$, $4$ and $4$, and the sum is $16$. In the multiplication $4\times4=16$: the factors are $4$ and $4$, and the product is $16$.
+b) In the addition $4+4+4+4=16$: the addends are $4$, $4$, $4$ and $4$, and the sum is $16$.
+
+In the multiplication $4\times4=16$: the factors are $4$ and $4$, and the product is $16$.
+
+So $4+4+4+4=4\times4=16$; the addends are $4$, $4$, $4$, $4$, the sum is $16$, the factors are $4$ and $4$, and the product is $16$.
 
 **Answer.** $4\times4=16$; see the naming above.
 :::
@@ -306,12 +347,18 @@ Write the number 12 as a sum of equal addends in at least three different ways, 
 2. For each addend, how many times must it be taken to make 12?
 
 ::solution
-The ways are:
-$$6+6=6\times2,\qquad 4+4+4=4\times3,\qquad 3+3+3+3=3\times4,$$
-$$2+2+2+2+2+2=2\times6.$$
-Each sum is equal to 12.
+We look for ways to split $12$ into equal addends. Each way gives a sum; then we count how many times the number repeats to write it as a multiplication.
 
-**Answer.** For example $6\times2$, $4\times3$, $3\times4$ and $2\times6$ all equal 12.
+- Way 1: $12=6+6$. The number $6$ appears $2$ times, so $6+6=6\times2$.
+- Way 2: $12=4+4+4$. The number $4$ appears $3$ times, so $4+4+4=4\times3$.
+- Way 3: $12=3+3+3+3$. The number $3$ appears $4$ times, so $3+3+3+3=3\times4$.
+- Way 4: $12=2+2+2+2+2+2$. The number $2$ appears $6$ times, so $2+2+2+2+2+2=2\times6$.
+
+Check: $6+6=12$; $4+4+4=12$; $3+3+3+3=12$; $2+2+2+2+2+2=12$. All four sums equal $12$.
+
+So there are at least three ways, for example $6\times2$, $4\times3$, $3\times4$ and $2\times6$.
+
+**Answer.** For example $6\times2$, $4\times3$, $3\times4$ and $2\times6$ all equal $12$.
 :::
 
 ## Mini test

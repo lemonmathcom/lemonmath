@@ -126,7 +126,17 @@ Work out $53-7$.
 2. Tens: $5$ take away $1$.
 
 ::solution
-Ones: $3$ is too small to take away $7$, so borrow $1$ ten, $13-7=6$. Tens: $5-1=4$. So $53-7=46$.
+Set out the column and subtract from the ones to the tens.
+
+$$\begin{array}{r} 53 \\ -\ 7 \\ \hline 46 \end{array}$$
+
+Ones: $3$ is too small to take away $7$, so borrow $1$ ten. We have $13-7=6$; write $6$.
+
+Tens: after borrowing $1$ ten, $5$ tens become $4$ tens, since $5-1=4$; write $4$.
+
+Check: $46+7=53$.
+
+So $53-7=46$.
 
 **Answer.** $46$.
 :::
@@ -142,7 +152,17 @@ Set out the column and work out $72-5$.
 2. Subtract the ones (borrow a ten), then the tens.
 
 ::solution
-$12-5=7$, tens $7-1=6$. So $72-5=67$.
+Set out the column and subtract from the ones to the tens.
+
+$$\begin{array}{r} 72 \\ -\ 5 \\ \hline 67 \end{array}$$
+
+Ones: $2$ is too small to take away $5$, so borrow $1$ ten. We have $12-5=7$; write $7$.
+
+Tens: after borrowing $1$ ten, $7$ tens become $6$ tens, since $7-1=6$; write $6$.
+
+Check: $67+5=72$.
+
+So $72-5=67$.
 
 **Answer.** $67$.
 :::
@@ -162,9 +182,13 @@ b) Use part a) to work out $36-7$.
 2. Try $36-7$ by borrowing a ten.
 
 ::solution
-a) $9+7=16$, write $6$ carry $1$; $2+1=3$. So $29+7=36$.
+a) Addition with regrouping: in the ones, $9+7=16$, write $6$ and carry $1$. In the tens, $2+1=3$, write $3$. So $29+7=36$.
 
-b) $16-7=9$, tens $3-1=2$. So $36-7=29$, which matches the addition in part a).
+b) We need $36-7$. Ones: $6$ is too small to take away $7$, so borrow $1$ ten, and $16-7=9$. Tens: $3-1=2$. Hence $36-7=29$.
+
+Comparing with part a): since $29+7=36$, taking the number $7$ away from the sum $36$ leaves the other number, $29$. The two results agree.
+
+So $29+7=36$ and $36-7=29$.
 
 **Answer.** a) $36$; b) $29$.
 :::
@@ -184,9 +208,15 @@ b) $71-\square=64$.
 2. Check with subtraction.
 
 ::solution
-a) From $39$ up to $45$ is $6$. Check: $45-6=39$.
+a) The missing number is the number taken away, which equals the minuend minus the difference. We have $\square=45-39$. Ones: $5$ is too small to take away $9$, so borrow $1$ ten, $15-9=6$. Tens: $4-1-3=0$. So $\square=6$ (from $39$ up to $45$ is $6$).
 
-b) From $64$ up to $71$ is $7$. Check: $71-7=64$.
+Check: $45-6=39$.
+
+b) In the same way, $\square=71-64$. Ones: $1$ is too small to take away $4$, so borrow $1$ ten, $11-4=7$. Tens: $7-1-6=0$. So $\square=7$ (from $64$ up to $71$ is $7$).
+
+Check: $71-7=64$.
+
+So the missing number in part a) is $6$ and in part b) is $7$.
 
 **Answer.** a) $6$; b) $7$.
 :::
@@ -206,9 +236,11 @@ b) $40-3 \;\square\; 37$.
 2. Compare the tens, then the ones.
 
 ::solution
-a) $62-8=54$. Since $54<55$, we have $62-8<55$.
+a) We work out $62-8$. Ones: $2$ is too small to take away $8$, so borrow $1$ ten, $12-8=4$. Tens: $6-1=5$. Hence $62-8=54$. Since $54<55$, we have $62-8<55$.
 
-b) $40-3=37$. The two numbers are equal, so $40-3=37$.
+b) We work out $40-3$. Ones: $0$ is too small to take away $3$, so borrow $1$ ten, $10-3=7$. Tens: $4-1=3$. Hence $40-3=37$. The two numbers are equal, so $40-3=37$.
+
+So $62-8<55$ and $40-3=37$.
 
 **Answer.** a) The sign $<$; b) the sign $=$.
 :::
@@ -224,7 +256,13 @@ Binh wrote: $52-7=55$. Where did Binh go wrong? Correct the answer.
 2. Try again with $12-7$.
 
 ::solution
-Binh worked out $7-2=5$, which is wrong because you must take $7$ away from $2$. Borrow $1$ ten: $12-7=5$, tens $5-1=4$. So $52-7=45$.
+In the ones, $2$ is too small to take away $7$. Binh worked out $7-2=5$, which is wrong because you must take $7$ away from $2$, and since $2<7$ you have to borrow. In the tens, Binh also forgot to reduce by the $1$ ten that was borrowed, and kept $5$.
+
+The correct way: borrow $1$ ten, so $12-7=5$. Tens: $5-1=4$. Hence $52-7=45$.
+
+Check: $45+7=52$.
+
+So Binh went wrong by taking the smaller digit from the bigger one, and the correct result is $52-7=45$.
 
 **Answer.** Binh took the smaller digit from the bigger one; the right answer is $45$.
 :::
@@ -240,8 +278,16 @@ A basket has $64$ oranges. Mum sells $9$ oranges. How many oranges are left in t
 2. Work out $64-9$ and write the answer with its unit.
 
 ::solution
-Ones: borrow $1$ ten, $14-9=5$. Tens: $6-1=5$. The number of oranges left is:
+Solution
+
+The number of oranges left in the basket is:
 $$64-9=55\ \text{(oranges)}.$$
+
+Working: in the ones, $4$ is too small to take away $9$, so borrow $1$ ten, $14-9=5$. Tens: $6-1=5$.
+
+Check: $55+9=64$.
+
+So $55$ oranges are left in the basket.
 
 **Answer.** $55$ oranges.
 :::
@@ -257,7 +303,15 @@ Find the missing digit: $7\square-8=65$.
 2. Check with the subtraction.
 
 ::solution
-$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-8=65$ (because $13-8=5$ and $7-1=6$).
+The minuend is $7\square$, the difference is $65$ and the number taken away is $8$.
+
+The tens digit of the minuend is $7$ while the tens digit of the difference is $6$, which is $1$ less. So $1$ ten was borrowed in the ones column, and $(10+\square)-8=5$.
+
+It follows that $10+\square=5+8=13$, hence $\square=3$.
+
+Check: $73-8=65$ (because $13-8=5$ and $7-1=6$). We can also check with addition: $65+8=73$.
+
+So the missing digit is $3$.
 
 **Answer.** The missing digit is $3$.
 :::

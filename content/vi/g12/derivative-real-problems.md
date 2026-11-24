@@ -196,9 +196,15 @@ Một vật chuyển động trên đường thẳng với quãng đường $s(t
 2. Tính $a(t)=6t-12$ tại từng nghiệm.
 
 ::solution
-Ta có $v(t)=3t^2-12t+9=3(t-1)(t-3)=0\iff t=1$ hoặc $t=3$. Ta có $a(t)=6t-12$ nên $a(1)=-6$, $a(3)=6$.
+Với quãng đường $s(t)$, vận tốc là $v(t)=s'(t)$ và gia tốc là $a(t)=v'(t)=s''(t)$, với $t\ge0$.
 
-Vậy vận tốc bằng $0$ tại $t=1$ s và $t=3$ s.
+Ta có $v(t)=s'(t)=3t^2-12t+9=3(t^2-4t+3)=3(t-1)(t-3)$.
+
+Vận tốc bằng $0$ khi $3(t-1)(t-3)=0$, tức là $t=1$ hoặc $t=3$ (cả hai đều thoả mãn $t\ge0$).
+
+Ta có $a(t)=v'(t)=6t-12$. Suy ra $a(1)=6\cdot1-12=-6$ và $a(3)=6\cdot3-12=6$.
+
+Vậy vận tốc bằng $0$ tại $t=1$ s và $t=3$ s; gia tốc tại các thời điểm đó lần lượt là $-6$ m/s² và $6$ m/s².
 
 **Đáp số.** $t=1$ s (gia tốc $-6$ m/s²) và $t=3$ s (gia tốc $6$ m/s²).
 :::
@@ -277,13 +283,20 @@ d) Doanh thu lớn nhất mỗi đêm là $24\,000\,000$ đồng.
 3. Tính giá phòng và doanh thu tại điểm đó.
 
 ::solution
-a) **Đúng**. Giá phòng là $400+20x$ và số phòng được thuê là $50-x$.
+Sau $x$ lần tăng giá, giá phòng là $400+20x$ (nghìn đồng) và số phòng được thuê là $50-x$, với $0\le x\le50$. Doanh thu mỗi đêm là
+$$R(x)=(400+20x)(50-x)=20\,000-400x+1000x-20x^2=-20x^2+600x+20\,000.$$
 
-b) **Đúng**. Ta có $R(x)=-20x^2+600x+20\,000$ và $R'(x)=600-40x>0$ khi $x<15$.
+a) **Đúng.** Doanh thu bằng giá phòng nhân với số phòng được thuê, tức là $R(x)=(400+20x)(50-x)$, đúng như ở trên.
 
-c) **Đúng**. Vì $R'$ đổi dấu từ $+$ sang $-$ tại $x=15$ nên $R$ lớn nhất tại $x=15$; khi đó giá phòng là $400+300=700$ nghìn đồng.
+b) **Đúng.** Ta có $R'(x)=-40x+600=600-40x$. Với $x\in(0; 15)$ thì $x<15$ nên $R'(x)=600-40x>0$. Do đó hàm số $R$ đồng biến trên khoảng $(0; 15)$.
 
-d) **Sai**. Ta có $R(15)=700\cdot35=24\,500$ nghìn đồng, tức là $24\,500\,000$ đồng.
+c) **Đúng.** Ta có $R'(x)=0\iff x=15$. Vì $R'(x)>0$ khi $x<15$ và $R'(x)<0$ khi $x>15$, nên $R'$ đổi dấu từ $+$ sang $-$ tại $x=15$ và $R$ đạt giá trị lớn nhất trên $[0; 50]$ tại $x=15$ (là số nguyên, hợp lệ). Khi đó giá phòng là $400+20\cdot15=400+300=700$ nghìn đồng.
+
+d) **Sai.** Doanh thu lớn nhất là
+$$R(15)=(400+20\cdot15)(50-15)=700\cdot35=24\,500\ \text{(nghìn đồng)},$$
+tức là $24\,500\,000$ đồng, khác $24\,000\,000$ đồng.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -317,7 +330,15 @@ Trong một đợt cúm, số người mắc bệnh tính đến ngày thứ $t$
 2. Giải $g'(t)=0$ và so sánh với hai đầu mút.
 
 ::solution
-Ta có $g'(t)=60-6t=0\iff t=10$ và $g(0)=0$, $g(10)=600-300=300$, $g(20)=1200-1200=0$.
+Tốc độ lây lan là $g(t)=f'(t)$ (người/ngày) với $0\le t\le20$. Ta có $f(t)=30t^2-t^3$ nên
+$$g(t)=f'(t)=60t-3t^2.$$
+
+Cần tìm giá trị lớn nhất của $g(t)$ trên đoạn $[0; 20]$. Ta có $g'(t)=60-6t$, và $g'(t)=0\iff t=10$ (thuộc đoạn $[0; 20]$).
+
+So sánh giá trị của $g$ tại điểm tới hạn và hai đầu mút:
+$$g(0)=0,\qquad g(10)=600-300=300,\qquad g(20)=1200-1200=0.$$
+
+Giá trị lớn nhất là $g(10)=300$.
 
 Vậy tốc độ lây lan lớn nhất vào ngày thứ $10$ và bằng $300$ người/ngày.
 
@@ -335,9 +356,21 @@ Một xe tải chạy quãng đường $300$ km với vận tốc không đổi 
 2. Tìm giá trị nhỏ nhất trên đoạn $[40; 90]$.
 
 ::solution
-Ta có $C'(v)=-\dfrac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50$ (vì $v>0$). Ta có $C(40)=3750+2400=6150$, $C(50)=3000+3000=6000$, $C(90)=\dfrac{5000}{3}+5400\approx7066{,}67$.
+Gọi $C(v)$ (nghìn đồng) là tổng chi phí của chuyến đi, với $40\le v\le90$.
 
-Vậy xe nên chạy với vận tốc $50$ km/h.
+Thời gian chạy là $\dfrac{300}{v}$ giờ, và mỗi giờ tốn $500+\dfrac{v^2}{5}$ nghìn đồng. Do đó
+$$C(v)=\frac{300}{v}\left(500+\frac{v^2}{5}\right)=\frac{150\,000}{v}+60v.$$
+
+Ta có $C'(v)=-\dfrac{150\,000}{v^2}+60$. Giải $C'(v)=0$:
+$$-\frac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50\quad(\text{vì }v>0).$$
+Giá trị $v=50$ thuộc đoạn $[40; 90]$ (thoả mãn điều kiện).
+
+So sánh giá trị của $C$ tại điểm tới hạn và hai đầu mút:
+$$C(40)=3750+2400=6150,\qquad C(50)=3000+3000=6000,\qquad C(90)=\frac{5000}{3}+5400\approx7066{,}67.$$
+
+Giá trị nhỏ nhất là $C(50)=6000$ nghìn đồng.
+
+Vậy xe nên chạy với vận tốc $50$ km/h để tổng chi phí chuyến đi nhỏ nhất, và chi phí đó là $6000$ nghìn đồng ($6$ triệu đồng).
 
 **Đáp số.** $v=50$ km/h; chi phí nhỏ nhất $6000$ nghìn đồng ($6$ triệu đồng).
 :::

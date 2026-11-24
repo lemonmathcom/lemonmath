@@ -134,7 +134,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Mở miệng dấu về số lớn hơn.
 
 ::solution
-$7$ đếm sau $5$ nên $7$ lớn hơn $5$.
+Khi đếm, số nào đếm sau thì lớn hơn. Ta đếm: $5$, $6$, $7$, nên $7$ đếm sau $5$.
+
+Do đó $7$ lớn hơn $5$.
+
+Vậy dấu cần điền là $>$, ta có $7>5$.
 
 **Đáp số.** $7>5$.
 :::
@@ -150,7 +154,11 @@ $7$ đếm sau $5$ nên $7$ lớn hơn $5$.
 2. Mở miệng dấu về số lớn hơn.
 
 ::solution
-$2$ đếm trước $6$ nên $2$ bé hơn $6$.
+Khi đếm, số nào đếm trước thì bé hơn. Ta đếm: $2$, $3$, $4$, $5$, $6$, nên $2$ đếm trước $6$.
+
+Do đó $2$ bé hơn $6$.
+
+Vậy dấu cần điền là $<$, ta có $2<6$.
 
 **Đáp số.** $2<6$.
 :::
@@ -166,7 +174,11 @@ Em hãy nhớ lại bài trước: có $4$ cái cốc và $6$ cái thìa. Ghép 
 2. Viết số cốc, dấu, số thìa.
 
 ::solution
-Hết $4$ cốc thì còn thừa $2$ thìa, nên cốc ít hơn thìa.
+Ta ghép mỗi cái cốc với một cái thìa. Có $4$ cốc nên ghép được $4$ cặp.
+
+Khi hết $4$ cốc thì còn thừa $2$ cái thìa, nên số cốc ít hơn số thìa.
+
+Vậy số cốc bé hơn số thìa, ta viết $4<6$.
 
 **Đáp số.** $4<6$.
 :::
@@ -183,7 +195,11 @@ b) Số nào bé hơn: $0$ hay $3$?
 2. Đếm: không, một, hai, ba.
 
 ::solution
-a) Mười đếm sau chín nên $10$ lớn hơn. b) Không đếm trước ba nên $0$ bé hơn.
+a) Ta đếm: $9$, $10$. Số $10$ đếm sau số $9$ nên $10$ lớn hơn $9$. Số lớn hơn là $10$.
+
+b) Ta đếm: $0$, $1$, $2$, $3$. Số $0$ đếm trước số $3$ nên $0$ bé hơn $3$. Số bé hơn là $0$.
+
+Vậy a) số lớn hơn là $10$; b) số bé hơn là $0$.
 
 **Đáp số.** a) $10$. b) $0$.
 :::
@@ -199,7 +215,11 @@ Bình nói: "$5>8$ vì $5$ đứng trước." Bình nói đúng không? Vì sao?
 2. Số nào lớn hơn?
 
 ::solution
-$5$ đứng bên trái $8$ nên $5$ bé hơn $8$. Bình nói sai.
+Số đứng trước, tức là đứng bên trái, thì bé hơn. Số $5$ đứng bên trái số $8$ nên $5$ bé hơn $8$, tức là $5<8$.
+
+Bình nói $5>8$ chỉ vì $5$ đứng trước, nhưng đứng trước thì phải bé hơn, không phải lớn hơn.
+
+Vậy Bình nói sai; đúng là $5<8$.
 
 **Đáp số.** Sai. Đúng là $5<8$.
 :::
@@ -215,7 +235,11 @@ Lan viết $4<2$ vì Lan nhớ "miệng dấu mở về số bé". Lan sai ở �
 2. Miệng dấu phải mở về số đó.
 
 ::solution
-$4$ lớn hơn $2$, nên miệng dấu phải mở về $4$.
+Lan nhớ nhầm. Miệng dấu so sánh phải mở về số lớn, không phải số bé.
+
+Ta có $4$ lớn hơn $2$, nên miệng dấu phải mở về $4$.
+
+Vậy Lan sai ở chỗ mở miệng dấu về số bé; viết lại cho đúng là $4>2$.
 
 **Đáp số.** $4>2$.
 :::
@@ -239,7 +263,15 @@ c) Hai bạn nào có số bi bằng nhau?
 2. So sánh từng số.
 
 ::solution
-a) Số lớn nhất là $9$, của Bình. b) Số bé nhất là $3$, của Dũng. c) An và Chi đều có $6$ viên.
+Số bi của An, Bình, Chi, Dũng lần lượt là $6$, $9$, $6$, $3$. Ta có $3<6<9$.
+
+a) Số lớn nhất là $9$, của Bình. Vậy Bình có nhiều bi nhất.
+
+b) Số bé nhất là $3$, của Dũng. Vậy Dũng có ít bi nhất.
+
+c) An và Chi đều có $6$ viên bi, hai số này bằng nhau.
+
+Vậy Bình có nhiều bi nhất, Dũng có ít bi nhất, An và Chi có số bi bằng nhau.
 
 **Đáp số.** a) Bình. b) Dũng. c) An và Chi.
 :::
@@ -256,9 +288,13 @@ b) Tìm các số thích hợp: $2<\square<5$.
 2. Chọn số nằm giữa.
 
 ::solution
-a) Giữa $6$ và $8$ là $7$. b) Giữa $2$ và $5$ là $3$ và $4$.
+a) Ta đếm: $6$, $7$, $8$. Số nằm giữa $6$ và $8$ là $7$.
 
-**Kiểm tra.** $6<7<8$; $2<3<5$; $2<4<5$. Đúng.
+b) Ta đếm: $2$, $3$, $4$, $5$. Các số nằm giữa $2$ và $5$ là $3$ và $4$.
+
+*Kiểm tra.* $6<7<8$; $2<3<5$; $2<4<5$. Đúng.
+
+Vậy a) số cần tìm là $7$; b) các số cần tìm là $3$ và $4$.
 
 **Đáp số.** a) $7$. b) $3$ hoặc $4$.
 :::

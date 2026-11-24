@@ -130,7 +130,11 @@ Cho dãy số liệu $4, 8, 6, 9, 5$. Dãy có mấy số? Số lớn nhất và
 2. So sánh các số với nhau.
 
 ::solution
-Dãy có $5$ số. Số lớn nhất là $9$, số nhỏ nhất là $4$.
+Ta đếm các số trong dãy $4, 8, 6, 9, 5$: có $5$ số.
+
+So sánh các số với nhau, ta thấy $9$ lớn hơn mọi số còn lại và $4$ bé hơn mọi số còn lại.
+
+Vậy dãy có $5$ số; số lớn nhất là $9$ và số nhỏ nhất là $4$.
 
 **Đáp số.** $5$ số; lớn nhất $9$; nhỏ nhất $4$.
 :::
@@ -146,7 +150,11 @@ Sắp xếp dãy số liệu $15, 9, 12, 20, 9$ từ bé đến lớn.
 2. Viết các số lớn dần.
 
 ::solution
-Số nhỏ nhất là $9$, xuất hiện hai lần. Dãy sắp xếp là $9, 9, 12, 15, 20$.
+Ta tìm số nhỏ nhất trong dãy $15, 9, 12, 20, 9$. Số nhỏ nhất là $9$ và số $9$ xuất hiện hai lần nên phải viết hai lần.
+
+Các số còn lại, từ bé đến lớn, là $12$, $15$, $20$.
+
+Vậy dãy sắp xếp từ bé đến lớn là $9, 9, 12, 15, 20$.
 
 **Đáp số.** $9, 9, 12, 15, 20$.
 :::
@@ -162,7 +170,14 @@ Em hãy nhớ lại bài trước (rút về đơn vị): $5$ hộp bút có $30
 2. Nhân kết quả lần lượt với $1$, $2$, $3$, $4$.
 
 ::solution
-Một hộp có $30:5=6$ (cái bút). Số bút trong $1$, $2$, $3$, $4$ hộp là $6, 12, 18, 24$.
+Bài giải
+
+Số bút trong mỗi hộp là:
+$$30:5=6\ \text{(cái bút)}.$$
+
+Số bút trong $1$ hộp là $6$ cái. Số bút trong $2$ hộp là $6\times2=12$ (cái). Số bút trong $3$ hộp là $6\times3=18$ (cái). Số bút trong $4$ hộp là $6\times4=24$ (cái).
+
+Vậy mỗi hộp có $6$ cái bút, và dãy số bút trong $1$, $2$, $3$, $4$ hộp là $6, 12, 18, 24$.
 
 **Đáp số.** Mỗi hộp $6$ cái; dãy $6, 12, 18, 24$.
 :::
@@ -182,7 +197,16 @@ c) Có mấy bạn được từ $9$ điểm trở lên?
 3. Đếm các số $9$ và $10$.
 
 ::solution
-a) Số $9$ xuất hiện $2$ lần. b) $10-7=3$ (điểm). c) Có hai điểm $9$ và một điểm $10$, tức $3$ bạn.
+Dãy điểm của $6$ bạn là $8, 9, 7, 10, 9, 8$.
+
+a) Trong dãy, số $9$ xuất hiện $2$ lần. Vậy có $2$ bạn được $9$ điểm.
+
+b) Điểm cao nhất là $10$ và điểm thấp nhất là $7$. Điểm cao nhất hơn điểm thấp nhất là:
+$$10-7=3\ \text{(điểm)}.$$
+
+c) Các bạn được từ $9$ điểm trở lên là các bạn được $9$ điểm hoặc $10$ điểm. Có hai điểm $9$ và một điểm $10$, tức là $2+1=3$ bạn.
+
+Vậy có $2$ bạn được $9$ điểm; điểm cao nhất hơn điểm thấp nhất $3$ điểm; có $3$ bạn được từ $9$ điểm trở lên.
 
 **Đáp số.** a) $2$ bạn; b) $3$ điểm; c) $3$ bạn.
 :::
@@ -198,7 +222,13 @@ Cho dãy số liệu $3, 8, 3, 5, 3, 8$. Số lớn nhất và số xuất hiệ
 2. Đếm số lần xuất hiện của từng số.
 
 ::solution
-Số lớn nhất là $8$ (xuất hiện $2$ lần). Số $3$ xuất hiện $3$ lần, nhiều hơn $8$. Vậy hai số này khác nhau.
+Trong dãy $3, 8, 3, 5, 3, 8$, số lớn nhất là $8$ và số $8$ xuất hiện $2$ lần.
+
+Số $3$ xuất hiện $3$ lần, số $5$ xuất hiện $1$ lần. Số xuất hiện nhiều nhất là $3$ vì $3$ lần nhiều hơn $2$ lần.
+
+Số lớn nhất là $8$, còn số xuất hiện nhiều nhất là $3$, mà $8\neq3$.
+
+Vậy số lớn nhất và số xuất hiện nhiều nhất không phải là cùng một số.
 
 **Đáp số.** Không: số lớn nhất là $8$, số xuất hiện nhiều nhất là $3$.
 :::
@@ -214,7 +244,13 @@ Hà làm: "Dãy $5, 9, 3, 7, 9$ có $4$ số vì số $9$ chỉ tính một lầ
 2. So sánh tất cả các số để tìm số nhỏ nhất.
 
 ::solution
-Dãy có $5$ số vì số $9$ xuất hiện hai lần, phải đếm hai lần. Số nhỏ nhất là $3$, không phải $5$.
+Hà sai ở hai chỗ.
+
+Chỗ thứ nhất: Hà nói dãy có $4$ số vì chỉ tính số $9$ một lần. Thực ra số $9$ xuất hiện hai lần, nên phải đếm hai lần. Các số trong dãy $5, 9, 3, 7, 9$ là $5$, $9$, $3$, $7$, $9$, tức là có $5$ số.
+
+Chỗ thứ hai: Hà nói số nhỏ nhất là $5$. Thực ra $3$ bé hơn $5$ và bé hơn mọi số còn lại, nên số nhỏ nhất là $3$.
+
+Vậy dãy có $5$ số và số nhỏ nhất là $3$.
 
 **Đáp số.** $5$ số; số nhỏ nhất là $3$.
 :::
@@ -234,7 +270,14 @@ c) Bạn nhảy nhiều nhất hơn bạn nhảy ít nhất bao nhiêu lần?
 3. Lấy số lớn nhất trừ số nhỏ nhất.
 
 ::solution
-a) Dãy là $24, 31, 28, 31, 25, 30$; số lớn nhất là $31$ (Bình và Dũng). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (lần).
+a) Dãy số liệu số lần nhảy của sáu bạn, theo thứ tự An, Bình, Chi, Dũng, Em, Giang, là $24, 31, 28, 31, 25, 30$. So sánh các số, số lớn nhất là $31$ (của Bình và Dũng).
+
+b) Ta xếp các số từ bé đến lớn: số nhỏ nhất là $24$, rồi $25$, $28$, $30$, và cuối cùng là hai số $31$. Dãy sắp xếp là $24, 25, 28, 30, 31, 31$.
+
+c) Bạn nhảy nhiều nhất nhảy $31$ lần, bạn nhảy ít nhất nhảy $24$ lần. Bạn nhảy nhiều nhất hơn bạn nhảy ít nhất là:
+$$31-24=7\ \text{(lần)}.$$
+
+Vậy số lớn nhất là $31$; dãy sắp xếp là $24, 25, 28, 30, 31, 31$; bạn nhảy nhiều nhất hơn bạn nhảy ít nhất $7$ lần.
 
 **Đáp số.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ lần.
 :::

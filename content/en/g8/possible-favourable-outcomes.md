@@ -214,13 +214,15 @@ c) is a prime number.
 2. Work out $\dfrac{k}{12}$ and simplify.
 
 ::solution
-There are $n=12$ possible outcomes.
+A card is drawn from $12$ cards, so there are $n=12$ possible outcomes, all equally likely. If an event has $k$ favourable outcomes, its probability is $\dfrac kn$.
 
-a) The numbers divisible by $4$ are $4$, $8$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
+a) The numbers on the cards that are divisible by $4$ are $4$, $8$, $12$. There are $k=3$ favourable outcomes, so the probability is $\dfrac3{12}=\dfrac14$.
 
-b) The numbers with two digits are $10$, $11$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
+b) The numbers with two digits are $10$, $11$, $12$. There are $k=3$ favourable outcomes, so the probability is $\dfrac3{12}=\dfrac14$.
 
-c) The prime numbers are $2$, $3$, $5$, $7$, $11$: $k=5$, probability $\dfrac{5}{12}$.
+c) The prime numbers from $1$ to $12$ are $2$, $3$, $5$, $7$, $11$ (the number $1$ is not prime). There are $k=5$ favourable outcomes, so the probability is $\dfrac5{12}$.
+
+So the probability that the number is divisible by $4$ is $\dfrac14$, that it has two digits is $\dfrac14$, and that it is prime is $\dfrac5{12}$.
 
 **Answer.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
 :::
@@ -236,7 +238,17 @@ A box holds $4$ white and $6$ black marbles of the same size. One marble is take
 2. Find the two probabilities and add them.
 
 ::solution
-There are $n=10$ possible outcomes. The probability of a white marble is $\dfrac{4}{10}=\dfrac25$; the probability of a black marble is $\dfrac{6}{10}=\dfrac35$. The sum is $\dfrac25+\dfrac35=1$, because the two events are complementary.
+The box holds $4+6=10$ marbles of the same size, so there are $n=10$ possible outcomes, all equally likely.
+
+Let $W$ be the event "a white marble is taken" and $B$ the event "a black marble is taken". There are $4$ favourable outcomes for $W$ and $6$ for $B$. Hence
+$$P(W)=\frac{4}{10}=\frac25,\qquad P(B)=\frac{6}{10}=\frac35.$$
+
+The sum of the two probabilities is
+$$P(W)+P(B)=\frac25+\frac35=1.$$
+
+The sum is $1$ because $W$ and $B$ are complementary events: every draw gives exactly one of a white marble or a black marble.
+
+So the probability of a white marble is $\dfrac25$, of a black marble is $\dfrac35$, and the sum of the two probabilities is $1$.
 
 **Answer.** $\dfrac25$; $\dfrac35$; the sum is $1$.
 :::
@@ -258,13 +270,15 @@ c) $C$: "the number $10$".
 2. Watch for the special cases.
 
 ::solution
-There are $n=8$ possible outcomes.
+The wheel is divided into $8$ equal parts numbered $1$ to $8$, so there are $n=8$ possible outcomes, all equally likely.
 
-a) The even numbers greater than $4$ are $6$ and $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
+a) The even numbers greater than $4$ are $6$ and $8$. There are $k=2$ favourable outcomes, so $P(A)=\dfrac28=\dfrac14$.
 
-b) Every number from $1$ to $8$ is less than $9$: $k=8$, $P(B)=1$.
+b) Every number from $1$ to $8$ is less than $9$. There are $k=8$ favourable outcomes, so $P(B)=\dfrac88=1$. This is a certain event.
 
-c) There is no number $10$ on the wheel: $k=0$, $P(C)=0$.
+c) There is no number $10$ on the wheel. There are $k=0$ favourable outcomes, so $P(C)=\dfrac08=0$. This is an impossible event.
+
+So $P(A)=\dfrac14$, $P(B)=1$, $P(C)=0$.
 
 **Answer.** a) $\dfrac14$. b) $1$. c) $0$.
 :::
@@ -280,7 +294,13 @@ A fair coin is tossed twice. Find the probability of the event "the two faces ar
 2. Work out the ratio with $n=4$.
 
 ::solution
-Two different faces: $TH$ and $HT$, so the probability is $\dfrac24=\dfrac12$. Both heads: $HH$, so the probability is $\dfrac14$.
+Let $H$ denote heads and $T$ denote tails. When a fair coin is tossed twice, the possible outcomes are $HH$, $HT$, $TH$, $TT$. There are $n=4$ possible outcomes, all equally likely.
+
+The event "the two faces are different" has favourable outcomes $TH$ and $HT$, so $k=2$. The probability is $\dfrac24=\dfrac12$.
+
+The event "both faces are heads" has one favourable outcome, $HH$, so $k=1$. The probability is $\dfrac14$.
+
+So the probability that the two faces are different is $\dfrac12$ and the probability that both faces are heads is $\dfrac14$.
 
 **Answer.** $\dfrac12$; $\dfrac14$.
 :::
@@ -296,9 +316,17 @@ Class 8A has $40$ students, of whom $18$ are boys. One student is chosen at rand
 2. Find the two probabilities.
 
 ::solution
-The number of girls is $40-18=22$. There are $n=40$ possible outcomes. The probability of a boy is $\dfrac{18}{40}=\dfrac{9}{20}$; the probability of a girl is $\dfrac{22}{40}=\dfrac{11}{20}$.
+The number of girls is $40-18=22$.
 
-Check: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
+Choosing one student from $40$ gives $n=40$ possible outcomes, all equally likely.
+
+There are $18$ favourable outcomes for the event "the student chosen is a boy", so the probability is $\dfrac{18}{40}=\dfrac{9}{20}$.
+
+There are $22$ favourable outcomes for the event "the student chosen is a girl", so the probability is $\dfrac{22}{40}=\dfrac{11}{20}$.
+
+Check: $\dfrac{9}{20}+\dfrac{11}{20}=1$, as expected because the two events are complementary.
+
+So the probability that the student is a boy is $\dfrac9{20}$ and that it is a girl is $\dfrac{11}{20}$.
 
 **Answer.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
 :::
@@ -314,7 +342,17 @@ A box holds $50$ identical draw slips, of which $2$ are first prizes, $5$ are se
 2. Use the complementary event for "winning nothing".
 
 ::solution
-The number of winning slips is $2+5+8=15$ and $n=50$. The probability of winning a prize is $\dfrac{15}{50}=\dfrac{3}{10}$. The probability of winning nothing is $1-\dfrac{3}{10}=\dfrac{7}{10}$ (there are $35$ losing slips, $\dfrac{35}{50}=\dfrac7{10}$).
+The box holds $50$ identical slips, so there are $n=50$ possible outcomes, all equally likely.
+
+The number of winning slips is $2+5+8=15$. Hence the probability of winning any prize is
+$$\frac{15}{50}=\frac{3}{10}.$$
+
+The event "winning nothing" is the complement of "winning any prize", so its probability is
+$$1-\frac{3}{10}=\frac{7}{10}.$$
+
+Check: the number of losing slips is $50-15=35$, and $\dfrac{35}{50}=\dfrac{7}{10}$ (they agree).
+
+So the probability of winning any prize is $\dfrac3{10}$ and the probability of winning nothing is $\dfrac7{10}$.
 
 **Answer.** $\dfrac3{10}$; $\dfrac7{10}$.
 :::
@@ -330,7 +368,14 @@ Two fair dice are rolled at the same time. How many possible outcomes are there?
 2. List the pairs with total $7$.
 
 ::solution
-Each die has $6$ possibilities, so there are $6\cdot6=36$ possible outcomes, equally likely. The pairs with total $7$ are $(1,6)$, $(2,5)$, $(3,4)$, $(4,3)$, $(5,2)$, $(6,1)$: $k=6$. The probability is $\dfrac{6}{36}=\dfrac16$.
+Each die has $6$ possible faces. By the multiplication rule, the number of possible outcomes when two dice are rolled is $6\cdot6=36$. They are equally likely because the dice are fair.
+
+Let $A$ be the event "the total number of dots is $7$". The pairs (dots on the first die, dots on the second die) with total $7$ are
+$$(1, 6),\ (2, 5),\ (3, 4),\ (4, 3),\ (5, 2),\ (6, 1).$$
+There are $k=6$ favourable outcomes. Hence
+$$P(A)=\frac{6}{36}=\frac16.$$
+
+So there are $36$ possible outcomes and the probability that the total is $7$ is $\dfrac16$.
 
 **Answer.** $36$ outcomes; $\dfrac16$.
 :::
@@ -346,7 +391,14 @@ Make all the two-digit numbers with different digits from the digits $1$, $2$, $
 2. Count the even ones.
 
 ::solution
-The numbers are $12$, $13$, $21$, $23$, $31$, $32$, so $n=6$. The even numbers are $12$ and $32$: $k=2$. The probability is $\dfrac26=\dfrac13$.
+The two-digit numbers with different digits made from the digits $1$, $2$, $3$ are $12$, $13$, $21$, $23$, $31$, $32$. There are $n=6$ possible outcomes, all equally likely.
+
+Let $A$ be the event "the number chosen is even". An even number has an even last digit, so the even numbers among these are $12$ and $32$. There are $k=2$ favourable outcomes.
+
+The probability of $A$ is $\dfrac26$. Dividing numerator and denominator by their greatest common divisor, $2$, gives the fraction in its simplest form:
+$$P(A)=\frac26=\frac13.$$
+
+So the probability that the number chosen is even is $\dfrac13$.
 
 **Answer.** $\dfrac13$.
 :::
@@ -366,11 +418,17 @@ b) has digits that add up to $9$.
 2. b) List the numbers whose digits add up to $9$.
 
 ::solution
-There are $n=90$ possible outcomes.
+The natural numbers with two digits, from $10$ to $99$, number $99-10+1=90$. So there are $n=90$ possible outcomes, all equally likely.
 
-a) The two-digit multiples of $7$ are $14$, $21$, $28$, $\dots$, $98$, that is $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: there are $13$ of them. The probability is $\dfrac{13}{90}$.
+a) A two-digit multiple of $7$ has the form $7m$ with $10\le7m\le99$, that is $2\le m\le14$ (since $7\cdot1=7<10$, $7\cdot14=98\le99$ and $7\cdot15=105>99$). These numbers are $14$, $21$, $28$, $\dots$, $98$, that is $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$. Their count is $14-2+1=13$, so $k=13$.
 
-b) The numbers whose digits add up to $9$ are $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: there are $9$ of them. The probability is $\dfrac{9}{90}=\dfrac1{10}$.
+The probability is $\dfrac{13}{90}$.
+
+b) The two-digit numbers whose digits add up to $9$ are $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$. There are $k=9$ favourable outcomes.
+
+The probability is $\dfrac{9}{90}=\dfrac1{10}$.
+
+So the probability that the number is divisible by $7$ is $\dfrac{13}{90}$ and that its digits add up to $9$ is $\dfrac1{10}$.
 
 **Answer.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
 :::

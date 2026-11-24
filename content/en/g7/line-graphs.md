@@ -347,11 +347,24 @@ c) Which segment is the steepest?
 3. c) Work out the change for each interval.
 
 ::solution
-a) Draw a horizontal axis with the months $1$ to $6$ equally spaced. Draw a vertical axis from $0$ to $8$, each mark standing for $1$ kg, and write the unit "kg". Mark the points $(1, 2)$, $(2, 3)$, $(3, 6)$, $(4, 6)$, $(5, 7)$, $(6, 8)$, join consecutive points with line segments and give the graph a title.
+a) To draw the line graph, proceed as follows.
 
-b) The weight in months 3 and 4 is $6$ kg in both, so the weight stays the same from month 3 to month 4 (a horizontal segment).
+Draw a horizontal axis with the months $1$ to $6$ equally spaced. Draw a vertical axis from $0$ to $8$, each mark standing for $1$ kg, and write the unit "kg".
 
-c) The rises in the intervals are $1$; $3$; $0$; $1$; $1$ (kg). The greatest rise is $3$ kg, so the segment from month 2 to month 3 is the steepest.
+Mark the points $(1, 2)$, $(2, 3)$, $(3, 6)$, $(4, 6)$, $(5, 7)$, $(6, 8)$ as pairs (month, weight).
+
+Join consecutive points with line segments and give the graph a title.
+
+b) The weight in months $3$ and $4$ is $6$ kg in both, so the segment joining $(3, 6)$ and $(4, 6)$ is horizontal.
+
+So the puppy's weight stays the same from month $3$ to month $4$.
+
+c) The rise in weight in each interval is:
+$$3-2=1;\quad 6-3=3;\quad 6-6=0;\quad 7-6=1;\quad 8-7=1\ (\text{kg}).$$
+
+The greatest rise is $3$ kg, in the interval from month $2$ to month $3$. The months are equally spaced on the horizontal axis, so the segment with the greatest rise is the steepest.
+
+So the segment from month $2$ to month $3$ is the steepest.
 
 **Answer.** b) From month 3 to month 4; c) the segment from month 2 to month 3.
 :::

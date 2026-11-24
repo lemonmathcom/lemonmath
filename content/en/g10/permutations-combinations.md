@@ -183,7 +183,15 @@ Compute $7!$, $P(8, 3)$ and $\binom{9}{2}$.
 2. For $\binom{9}{2}$, compute $P(9, 2)$ and divide by $2!$.
 
 ::solution
-$7!=5040$; $P(8, 3)=8\cdot7\cdot6=336$; $\binom{9}{2}=\dfrac{9\cdot8}{2}=36$.
+We use the formulas $n!=n(n-1)\cdots2\cdot1$, $P(n, k)=\dfrac{n!}{(n-k)!}$ and $\binom{n}{k}=\dfrac{n!}{k!\,(n-k)!}$.
+
+We have $7!=7\cdot6\cdot5\cdot4\cdot3\cdot2\cdot1=5040$.
+
+We have $P(8, 3)=\dfrac{8!}{5!}=8\cdot7\cdot6=336$.
+
+We have $\binom{9}{2}=\dfrac{9!}{2!\,7!}=\dfrac{9\cdot8}{2\cdot1}=36$.
+
+So $7!=5040$, $P(8, 3)=336$ and $\binom{9}{2}=36$.
 
 **Answer.** $5040$; $336$; $36$.
 :::
@@ -199,7 +207,16 @@ Find the natural number $n\ge2$ such that $P(n, 2)=56$.
 2. Solve the quadratic equation and keep the natural-number root.
 
 ::solution
-$n(n-1)=56\iff n^2-n-56=0\iff(n-8)(n+7)=0$. Since $n\ge2$, $n=8$.
+For $n\ge2$, we have $P(n, 2)=\dfrac{n!}{(n-2)!}=n(n-1)$. The equation $P(n, 2)=56$ becomes
+$$\begin{aligned}n(n-1)&=56\\ n^2-n-56&=0\\ (n-8)(n+7)&=0.\end{aligned}$$
+
+Hence $n=8$ or $n=-7$.
+
+Since $n\ge2$, we reject $n=-7$ and accept $n=8$ (the condition is satisfied).
+
+Check: $P(8, 2)=8\cdot7=56$.
+
+So $n=8$.
 
 **Answer.** $n=8$.
 :::
@@ -215,7 +232,14 @@ How many four-digit numbers with distinct digits can be made from the digits $1,
 2. Compute $P(n, k)$.
 
 ::solution
-Each number is an arrangement of $4$ out of the $6$ digits (there is no $0$, so the first digit is never a problem): $P(6, 4)=6\cdot5\cdot4\cdot3=360$.
+Each four-digit number with distinct digits made from the $6$ digits $1, 2, 3, 4, 5, 6$ corresponds to choosing $4$ of the $6$ digits and putting them in order (two numbers differ if their digits or the order of their digits differ). So each number is an arrangement of $4$ out of the $6$ digits.
+
+There is no $0$ among the given digits, so the first digit is never a problem; every arrangement gives a four-digit number.
+
+The number of such numbers is
+$$P(6, 4)=\frac{6!}{2!}=6\cdot5\cdot4\cdot3=360.$$
+
+So $360$ four-digit numbers with distinct digits can be made.
 
 **Answer.** $360$.
 :::
@@ -232,7 +256,15 @@ A group has $5$ boys and $4$ girls. In how many ways can $3$ of them be chosen t
 3. Subtract.
 
 ::solution
-All: $\binom{9}{3}=84$. All boys: $\binom{5}{3}=10$. So there are $84-10=74$ ways.
+Choosing $3$ people to attend the conference does not depend on order, so we use combinations. We count indirectly: take the total number of choices and subtract the choices that do not satisfy the condition (no girl at all, that is, all boys).
+
+The number of ways to choose any $3$ of the $9$ people is $\binom{9}{3}=\dfrac{9\cdot8\cdot7}{3\cdot2\cdot1}=84$.
+
+The number of ways to choose $3$ boys (from the $5$ boys) is $\binom{5}{3}=\dfrac{5\cdot4\cdot3}{3\cdot2\cdot1}=10$.
+
+The number of choices with at least one girl is $84-10=74$.
+
+So there are $74$ ways.
 
 **Answer.** $74$.
 :::
@@ -248,7 +280,12 @@ A football tournament has $8$ teams in a round-robin format (every two teams mee
 2. Compute $\binom{8}{2}$.
 
 ::solution
-Each match is a combination of $2$ of the $8$ teams: $\binom{8}{2}=\dfrac{8\cdot7}{2}=28$.
+Each match is a pair of two teams out of the $8$ teams, and every two teams meet exactly once. The pair $\{\text{team } X, \text{team } Y\}$ has no order, so each match is a combination of $2$ of the $8$ teams.
+
+The number of matches is
+$$\binom{8}{2}=\frac{8\cdot7}{2}=28.$$
+
+So $28$ matches are played.
 
 **Answer.** $28$.
 :::
@@ -269,13 +306,15 @@ d) There are $45$ ways to choose $3$ students for cleaning duty that include An.
 2. For d), An is already chosen, so only $2$ more are needed.
 
 ::solution
-a) **True.** Three different positions: $P(10, 3)=10\cdot9\cdot8=720$.
+a) **True.** The positions of leader, deputy and secretary are different, so order matters; we use arrangements: $P(10, 3)=10\cdot9\cdot8=720$.
 
-b) **False.** Cleaning duty has no order: $\binom{10}{3}=120$.
+b) **False.** Cleaning duty has no order, so we use combinations: $\binom{10}{3}=\dfrac{10\cdot9\cdot8}{3\cdot2\cdot1}=120$. Since $120\ne720$, the statement is false.
 
-c) **True.** By symmetry both equal $120$.
+c) **True.** By the property $\binom{n}{k}=\binom{n}{n-k}$, we have $\binom{10}{3}=\binom{10}{7}$. We can also check: $\binom{10}{3}=120$ and $\binom{10}{7}=\dfrac{10!}{7!\,3!}=120$.
 
-d) **False.** Choose $2$ more from the other $9$: $\binom{9}{2}=36$.
+d) **False.** An is already chosen, so we choose $2$ more from the other $9$: $\binom{9}{2}=\dfrac{9\cdot8}{2}=36$. Since $36\ne45$, the statement is false.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -291,7 +330,14 @@ $3$ boys and $3$ girls sit in a row of $6$ chairs so that boys and girls alterna
 2. For each pattern, arrange the $3$ boys in the boys' chairs and the $3$ girls in the girls' chairs.
 
 ::solution
-Choose the pattern: $2$ ways. Arrange the boys: $3!=6$ ways, the girls: $3!=6$ ways. Total: $2\cdot6\cdot6=72$.
+Since boys and girls alternate in a row of $6$ chairs, there are two patterns: the boys sit in chairs $1, 3, 5$ and the girls in chairs $2, 4, 6$, or the other way round. So there are $2$ ways to choose the pattern.
+
+For each pattern, the $3$ boys can be arranged in their $3$ chairs in $3!=6$ ways, and the $3$ girls can be arranged in their $3$ chairs in $3!=6$ ways.
+
+By the multiplication rule, the number of arrangements is
+$$2\cdot3!\cdot3!=2\cdot6\cdot6=72.$$
+
+So there are $72$ ways to sit.
 
 **Answer.** $72$.
 :::
@@ -307,7 +353,13 @@ There are $9$ distinct points on a circle. How many triangles and how many quadr
 2. Count the sets of $4$ points.
 
 ::solution
-Triangles: $\binom{9}{3}=84$. Quadrilaterals: $\binom{9}{4}=126$ (four points on a circle, joined in their order around the circle, give exactly one convex quadrilateral).
+Any three distinct points among the $9$ points on the circle are not collinear (a line meets a circle in at most two points), so each choice of $3$ points gives exactly one triangle. The number of triangles is
+$$\binom{9}{3}=\frac{9\cdot8\cdot7}{3\cdot2\cdot1}=84.$$
+
+For each choice of $4$ points on the circle, joining them in their order around the circle gives exactly one convex quadrilateral. The number of quadrilaterals is
+$$\binom{9}{4}=\frac{9\cdot8\cdot7\cdot6}{4\cdot3\cdot2\cdot1}=126.$$
+
+So there are $84$ triangles and $126$ quadrilaterals with their vertices among the given points.
 
 **Answer.** $84$ triangles; $126$ quadrilaterals.
 :::
@@ -324,7 +376,16 @@ Triangles: $\binom{9}{3}=84$. Quadrilaterals: $\binom{9}{4}=126$ (four points on
 3. Multiply.
 
 ::solution
-Letter part: $P(5, 2)=20$. Digit part: $P(10, 3)=720$. By the multiplication rule: $20\cdot720=14\,400$.
+Each code has two parts: the letter part followed by the digit part. We count each part and then use the multiplication rule.
+
+The letter part consists of $2$ different letters chosen from $A, B, C, D, E$ in order, so there are $P(5, 2)=5\cdot4=20$ ways.
+
+The digit part consists of $3$ different digits chosen from the $10$ digits $0, 1, \ldots, 9$ in order, so there are $P(10, 3)=10\cdot9\cdot8=720$ ways.
+
+By the multiplication rule, the number of codes is
+$$20\cdot720=14\,400.$$
+
+So there are $14\,400$ such codes.
 
 **Answer.** $14\,400$ codes.
 :::
@@ -341,7 +402,15 @@ Using the digits $0, 1, 2, 3, 4, 5$, how many four-digit numbers with distinct d
 3. Add the two cases.
 
 ::solution
-Ending in $0$: $P(5, 3)=60$. Ending in $5$: first digit $4$ ways, the two middle digits $P(4, 2)=12$ ways, giving $48$. Total: $60+48=108$.
+A four-digit number with distinct digits is divisible by $5$ exactly when its last digit is $0$ or $5$. We split into two cases (no number belongs to both).
+
+Case 1: the last digit is $0$. The other three digits are chosen and ordered from the $5$ digits $1, 2, 3, 4, 5$, so there are $P(5, 3)=5\cdot4\cdot3=60$ numbers.
+
+Case 2: the last digit is $5$. The first digit must be neither $0$ nor $5$, so there are $4$ choices (from $1, 2, 3, 4$). The two middle digits are chosen and ordered from the remaining $4$ digits (including $0$), so there are $P(4, 2)=4\cdot3=12$ ways. The number of such numbers is $4\cdot12=48$.
+
+By the addition rule, the total number of such numbers is $60+48=108$.
+
+So $108$ numbers satisfy the requirement.
 
 **Answer.** $108$.
 :::

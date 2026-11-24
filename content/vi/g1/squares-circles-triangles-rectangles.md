@@ -142,7 +142,13 @@ Mặt đồng hồ treo tường có dạng hình gì?
 2. Có cạnh và góc không?
 
 ::solution
-Viền mặt đồng hồ cong đều, không có cạnh.
+Ta quan sát mặt đồng hồ treo tường.
+
+Viền mặt đồng hồ cong đều, không có cạnh nào.
+
+Hình có viền cong đều và không có cạnh là hình tròn.
+
+Vậy mặt đồng hồ treo tường có dạng hình tròn.
 
 **Đáp số.** Hình tròn.
 :::
@@ -158,7 +164,11 @@ Hình có $3$ cạnh là hình gì?
 2. Hình nào có $3$ cạnh?
 
 ::solution
-Hình tam giác có $3$ cạnh.
+Ta so sánh số cạnh của các hình đã học: hình tròn không có cạnh; hình vuông và hình chữ nhật có $4$ cạnh; hình tam giác có $3$ cạnh.
+
+Hình có $3$ cạnh là hình tam giác.
+
+Vậy hình có $3$ cạnh là hình tam giác.
 
 **Đáp số.** Hình tam giác.
 :::
@@ -174,7 +184,13 @@ Em hãy nhớ lại bài trước. a) $8$ cái bánh chia vào hai đĩa. Đĩa 
 2. Nhớ đặc điểm của hình vuông.
 
 ::solution
-a) Từ $5$ lên $8$ có $3$ số. b) Hình có $4$ cạnh dài bằng nhau là hình vuông.
+a) Đĩa thứ nhất có $5$ cái bánh, nên số bánh ở đĩa thứ hai là số bánh còn lại sau khi bớt đi $5$ cái trong $8$ cái:
+$$8-5=3\ \text{(cái)}.$$
+Thử lại: từ $5$ đếm thêm "sáu, bảy, tám" được $3$ số, và $5+3=8$. Do đó $8$ gồm $5$ và $3$.
+
+b) Hình chữ nhật cũng có $4$ cạnh nhưng có hai cạnh dài và hai cạnh ngắn. Hình có cả $4$ cạnh dài bằng nhau là hình vuông.
+
+Vậy $8$ gồm $5$ và $3$; hình có $4$ cạnh dài bằng nhau là hình vuông.
 
 **Đáp số.** a) $3$. b) Hình vuông.
 :::
@@ -191,7 +207,12 @@ b) Hình chữ nhật có mấy cạnh?
 2. Đếm cạnh hình chữ nhật.
 
 ::solution
-a) Hình tròn không có cạnh. b) Hình chữ nhật có $4$ cạnh.
+a) Hình vuông có $4$ cạnh, hình tam giác có $3$ cạnh, còn hình tròn có viền cong nên không có cạnh. Do đó hình tròn là hình không có cạnh.
+
+b) Hình chữ nhật có hai cạnh dài và hai cạnh ngắn, tất cả là
+$$2+2=4\ \text{(cạnh)}.$$
+
+Vậy a) hình tròn không có cạnh; b) hình chữ nhật có $4$ cạnh.
 
 **Đáp số.** a) Hình tròn. b) $4$ cạnh.
 :::
@@ -207,7 +228,13 @@ An nói: "Tờ giấy có $4$ cạnh, hai cạnh dài, hai cạnh ngắn là hì
 2. Chọn tên hình đúng.
 
 ::solution
-Tờ giấy có cạnh dài và cạnh ngắn, nên các cạnh không bằng nhau hết. An nói sai.
+Muốn biết tờ giấy có phải hình vuông không, ta nhớ lại: hình vuông có $4$ cạnh dài bằng nhau.
+
+Tờ giấy của An có hai cạnh dài và hai cạnh ngắn, nên các cạnh không bằng nhau hết.
+
+Hình có $4$ cạnh, gồm hai cạnh dài và hai cạnh ngắn, là hình chữ nhật.
+
+Vậy An nói sai; tờ giấy là hình chữ nhật.
 
 **Đáp số.** Sai. Tờ giấy là hình chữ nhật.
 :::
@@ -223,7 +250,13 @@ Mai nói: "Hình tam giác có $4$ cạnh." Mai sai ở đâu? Nói lại cho đ
 2. So với số Mai nói.
 
 ::solution
-Hình tam giác chỉ có $3$ cạnh, không phải $4$.
+Ta đếm số cạnh của hình tam giác: hình tam giác có $3$ cạnh.
+
+Mai nói hình tam giác có $4$ cạnh là chưa đúng, vì hình tam giác chỉ có $3$ cạnh. Hình có $4$ cạnh là hình vuông hoặc hình chữ nhật.
+
+Mai cần nói lại: hình tam giác có $3$ cạnh.
+
+Vậy Mai sai ở chỗ nói số cạnh là $4$; câu nói đúng là: hình tam giác có $3$ cạnh.
 
 **Đáp số.** Hình tam giác có $3$ cạnh.
 :::
@@ -248,7 +281,13 @@ b) Hình nào ít nhất?
 2. Tìm số lớn nhất và số bé nhất.
 
 ::solution
-a) Số lớn nhất là $5$, ở hình tròn. b) Số bé nhất là $2$, ở hình tam giác.
+Theo bảng, số hình mỗi loại là: hình vuông $3$, hình tròn $5$, hình tam giác $2$, hình chữ nhật $4$.
+
+a) So sánh các số $3$, $5$, $2$, $4$, ta có $5>4>3>2$ nên số lớn nhất là $5$. Số $5$ là số hình tròn, nên hình tròn nhiều nhất.
+
+b) Trong các số trên, số bé nhất là $2$. Số $2$ là số hình tam giác, nên hình tam giác ít nhất.
+
+Vậy hình tròn nhiều nhất và hình tam giác ít nhất.
 
 **Đáp số.** a) Hình tròn. b) Hình tam giác.
 :::
@@ -266,9 +305,15 @@ Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai g
 2. Mỗi phần có mấy cạnh?
 
 ::solution
-Đường cắt chia hình vuông thành $2$ phần. Mỗi phần có $3$ cạnh.
+Em cắt tờ giấy hình vuông theo đường thẳng nối hai góc đối diện.
 
-**Kiểm tra.** Hai mảnh ghép lại thành hình vuông ban đầu.
+Đường cắt chia hình vuông thành $2$ phần, nên em được $2$ mảnh.
+
+Mỗi mảnh có $3$ cạnh: hai cạnh là cạnh của hình vuông và một cạnh là đường cắt. Hình có $3$ cạnh là hình tam giác.
+
+Kiểm tra: hai mảnh ghép lại thành hình vuông ban đầu.
+
+Vậy em được $2$ mảnh, mỗi mảnh là hình tam giác.
 
 **Đáp số.** $2$ mảnh, mỗi mảnh là hình tam giác.
 :::

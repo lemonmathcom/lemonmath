@@ -184,7 +184,14 @@ Chứng minh dãy số $(u_n)$ với $u_n=3n-5$ là cấp số cộng. Tìm $u_1
 2. Tính $u_1$.
 
 ::solution
-Ta có $u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3$ không đổi, nên $(u_n)$ là cấp số cộng với công sai $d=3$ và $u_1=3-5=-2$.
+Xét hiệu hai số hạng liên tiếp bất kì: với mọi $n\in\mathbb{N}^*$, ta có
+$$u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3n+3-5-3n+5=3.$$
+
+Hiệu này không phụ thuộc vào $n$ nên $(u_n)$ là cấp số cộng với công sai $d=3$.
+
+Số hạng đầu là $u_1=3\cdot1-5=-2$.
+
+Vậy $(u_n)$ là cấp số cộng với $u_1=-2$ và công sai $d=3$.
 
 **Đáp số.** Cấp số cộng với $u_1=-2$, $d=3$.
 :::
@@ -200,7 +207,16 @@ Cho cấp số cộng có $u_1=5$ và $d=-3$. Tính $u_{10}$. Số $-49$ là s�
 2. Giải $5-3(n-1)=-49$.
 
 ::solution
-Ta có $u_{10}=5+9\cdot(-3)=-22$. Giải $5-3(n-1)=-49$ ta được $n-1=18$, nên $n=19$.
+Số hạng tổng quát của cấp số cộng là $u_n=u_1+(n-1)d$.
+
+Với $u_1=5$, $d=-3$ và $n=10$, ta có
+$$u_{10}=5+9\cdot(-3)=5-27=-22.$$
+
+Giả sử $-49$ là số hạng thứ $n$ $(n\in\mathbb{N}^*)$. Khi đó
+$$\begin{aligned}5-3(n-1)&=-49\\-3(n-1)&=-54\\n-1&=18\\n&=19.\end{aligned}$$
+Giá trị $n=19$ là số nguyên dương (thoả mãn điều kiện).
+
+Vậy $u_{10}=-22$ và $-49$ là số hạng thứ $19$.
 
 **Đáp số.** $u_{10}=-22$; $-49$ là số hạng thứ $19$.
 :::
@@ -216,7 +232,17 @@ Cho cấp số cộng có $u_4=10$ và $u_9=-5$. Tìm $u_1$, công sai $d$ và $
 2. Tính $u_1=u_4-3d$, rồi $u_{20}$.
 
 ::solution
-Ta có $5d=-5-10=-15$ nên $d=-3$. Khi đó $u_1=10-3\cdot(-3)=19$ và $u_{20}=19+19\cdot(-3)=-38$.
+Gọi $d$ là công sai. Ta có $u_4=u_1+3d=10$ và $u_9=u_1+8d=-5$.
+
+Lấy $u_9$ trừ $u_4$ (hai vế theo vế), ta được
+$$5d=-5-10=-15,\ \text{suy ra}\ d=-3.$$
+
+Từ $u_4=u_1+3d=10$, ta có $u_1=10-3\cdot(-3)=10+9=19$.
+
+Do đó
+$$u_{20}=u_1+19d=19+19\cdot(-3)=19-57=-38.$$
+
+Vậy $u_1=19$, công sai $d=-3$ và $u_{20}=-38$.
 
 **Đáp số.** $u_1=19$, $d=-3$, $u_{20}=-38$.
 :::
@@ -232,7 +258,16 @@ Tính tổng $2+5+8+\dots+98$.
 2. Dùng $S_n=\dfrac{n(u_1+u_n)}{2}$.
 
 ::solution
-Ta có $2+3(n-1)=98$ nên $n=33$. Do đó $S_{33}=\dfrac{33\cdot(2+98)}{2}=1650$.
+Các số $2, 5, 8, \dots, 98$ lập thành một cấp số cộng với $u_1=2$ và công sai $d=5-2=3$.
+
+Giả sử $98$ là số hạng thứ $n$ $(n\in\mathbb{N}^*)$. Khi đó
+$$2+3(n-1)=98\iff3(n-1)=96\iff n=33.$$
+Vậy tổng có $33$ số hạng, $u_{33}=98$.
+
+Áp dụng công thức tổng $n$ số hạng đầu $S_n=\dfrac{n(u_1+u_n)}2$, ta có
+$$S_{33}=\frac{33\cdot(2+98)}2=\frac{33\cdot100}2=1650.$$
+
+Vậy $2+5+8+\dots+98=1650$.
 
 **Đáp số.** $1650$.
 :::
@@ -248,7 +283,14 @@ Tìm $x$ để ba số $x-2$, $2x+1$, $5x-4$ theo thứ tự lập thành một 
 2. Giải phương trình rồi thử lại.
 
 ::solution
-Ta có $6x-6=4x+2$, suy ra $x=4$. Ba số là $2$, $9$, $16$ có công sai $7$.
+Ba số $a$, $b$, $c$ theo thứ tự lập thành một cấp số cộng khi và chỉ khi $a+c=2b$.
+
+Áp dụng với $a=x-2$, $b=2x+1$, $c=5x-4$, ta có
+$$\begin{aligned}(x-2)+(5x-4)&=2(2x+1)\\6x-6&=4x+2\\2x&=8\\x&=4.\end{aligned}$$
+
+Kiểm tra: với $x=4$, ba số là $2$, $9$, $16$; ta có $9-2=7$ và $16-9=7$, nên chúng lập thành cấp số cộng với công sai $7$.
+
+Vậy $x=4$.
 
 **Đáp số.** $x=4$.
 :::
@@ -264,7 +306,15 @@ Giả sử một công ty trả lương năm đầu $120$ triệu đồng và m�
 2. Dùng công thức tổng.
 
 ::solution
-Lương năm thứ $10$ là $u_{10}=120+9\cdot6=174$ (triệu đồng). Tổng $S_{10}=\dfrac{10\cdot(120+174)}{2}=1470$ (triệu đồng).
+Gọi $u_n$ (triệu đồng) là tiền lương năm thứ $n$, với $n=1, 2, \dots, 10$. Mỗi năm sau lương tăng thêm $6$ triệu đồng so với năm trước, nên $(u_n)$ là cấp số cộng với $u_1=120$ và công sai $d=6$.
+
+Lương năm thứ $10$ là
+$$u_{10}=u_1+9d=120+9\cdot6=174\ (\text{triệu đồng}).$$
+
+Tổng số tiền lương nhận được trong $10$ năm đầu là
+$$S_{10}=\frac{10\cdot(u_1+u_{10})}2=\frac{10\cdot(120+174)}2=5\cdot294=1470\ (\text{triệu đồng}).$$
+
+Vậy tổng số tiền lương nhận được trong $10$ năm đầu là $1470$ triệu đồng.
 
 **Đáp số.** $1470$ triệu đồng.
 :::
@@ -289,13 +339,18 @@ d) Tổng $10$ số hạng đầu bằng $-130$.
 3. d) Tính $S_{10}$.
 
 ::solution
-a) **Đúng**: $3-7=-4$.
+Dãy $7, 3, -1, -5, \dots$ là cấp số cộng có $u_1=7$ và công sai $d=3-7=-4$ (kiểm tra: $-1-3=-4$ và $-5-(-1)=-4$).
 
-b) **Đúng**: $u_n=7+(n-1)(-4)=11-4n$.
+a) **Đúng.** Công sai là $d=3-7=-4$.
 
-c) **Đúng**: $11-4n=-45$ cho $n=14$.
+b) **Đúng.** Số hạng tổng quát là $u_n=u_1+(n-1)d=7+(n-1)\cdot(-4)=11-4n$.
 
-d) **Sai**: $S_{10}=\dfrac{10\left[14+9\cdot(-4)\right]}{2}=5\cdot(-22)=-110$.
+c) **Đúng.** Giả sử $-45$ là số hạng thứ $n$ $(n\in\mathbb{N}^*)$. Khi đó $11-4n=-45$, suy ra $4n=56$ và $n=14$. Đây là số nguyên dương nên $-45$ là số hạng thứ $14$ của cấp số cộng.
+
+d) **Sai.** Áp dụng công thức $S_n=\dfrac{n\left[2u_1+(n-1)d\right]}2$, ta có
+$$S_{10}=\frac{10\left[14+9\cdot(-4)\right]}2=5\cdot(-22)=-110\ne-130.$$
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -311,7 +366,14 @@ Tính tổng tất cả các số lẻ có hai chữ số.
 2. Dùng $S_n=\dfrac{n(u_1+u_n)}{2}$.
 
 ::solution
-Có $\dfrac{99-11}{2}+1=45$ số hạng. Tổng là $\dfrac{45\cdot(11+99)}{2}=45\cdot55=2475$.
+Các số lẻ có hai chữ số là $11, 13, 15, \dots, 99$. Chúng lập thành một cấp số cộng với $u_1=11$ và công sai $d=2$.
+
+Giả sử $99$ là số hạng thứ $n$ $(n\in\mathbb{N}^*)$. Khi đó $11+2(n-1)=99$, suy ra $n-1=44$ và $n=45$. Số các số hạng là $\dfrac{99-11}2+1=45$.
+
+Áp dụng công thức $S_n=\dfrac{n(u_1+u_n)}2$, tổng cần tìm là
+$$S_{45}=\frac{45\cdot(11+99)}2=45\cdot55=2475.$$
+
+Vậy tổng của tất cả các số lẻ có hai chữ số là $2475$.
 
 **Đáp số.** $2475$.
 :::
@@ -327,7 +389,17 @@ Chứng minh mọi cấp số cộng có công sai $d>0$ là dãy số tăng, b�
 2. Dùng $u_n=u_1+(n-1)d$ để so sánh với $u_1$ và với một số $M$ bất kì.
 
 ::solution
-Vì $u_{n+1}-u_n=d>0$ nên dãy tăng, do đó $u_n\ge u_1$ với mọi $n$: dãy bị chặn dưới bởi $u_1$. Với số $M$ bất kì, lấy số nguyên dương $n>1+\dfrac{M-u_1}{d}$ thì $u_n=u_1+(n-1)d>M$, nên không có số $M$ nào chặn trên dãy.
+Cho cấp số cộng $(u_n)$ có công sai $d>0$.
+
+Dãy tăng: với mọi $n\in\mathbb{N}^*$, ta có $u_{n+1}-u_n=d>0$, tức là $u_{n+1}>u_n$. Vậy $(u_n)$ là dãy số tăng.
+
+Bị chặn dưới: vì dãy tăng nên $u_n\ge u_1$ với mọi $n\in\mathbb{N}^*$. Vậy dãy bị chặn dưới bởi $u_1$.
+
+Không bị chặn trên: lấy một số $M$ bất kì. Chọn số nguyên dương $n$ sao cho $n>1+\dfrac{M-u_1}d$. Vì $d>0$ nên ta nhân hai vế với $d$ mà không đổi chiều: $(n-1)d>M-u_1$. Do đó
+$$u_n=u_1+(n-1)d>M.$$
+Như vậy với mọi số $M$ đều có số hạng của dãy lớn hơn $M$, nên không có số $M$ nào chặn trên dãy.
+
+Vậy mọi cấp số cộng có công sai $d>0$ là dãy số tăng, bị chặn dưới (bởi $u_1$) nhưng không bị chặn trên.
 
 **Đáp số.** Dãy tăng, bị chặn dưới bởi $u_1$, không bị chặn trên.
 :::
@@ -343,7 +415,20 @@ Cho ba số $a$, $b$, $c$ sao cho $a^2$, $b^2$, $c^2$ lập cấp số cộng v�
 2. So sánh hai hiệu, dùng $(b-a)(a+b)=(c-b)(b+c)$.
 
 ::solution
-Ta có $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ và $\dfrac{1}{a+b}-\dfrac{1}{c+a}=\dfrac{c-b}{(a+b)(c+a)}$. Hai hiệu bằng nhau khi $\dfrac{b-a}{b+c}=\dfrac{c-b}{a+b}$, tức $(b-a)(a+b)=(c-b)(b+c)$, hay $b^2-a^2=c^2-b^2$. Đây là giả thiết, nên hai hiệu bằng nhau.
+Vì $a+b$, $b+c$, $c+a$ đều khác $0$ nên các phân số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ đều xác định.
+
+Ba số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ lập cấp số cộng khi và chỉ khi hai hiệu liên tiếp bằng nhau. Ta tính
+$$\frac{1}{c+a}-\frac{1}{b+c}=\frac{(b+c)-(c+a)}{(c+a)(b+c)}=\frac{b-a}{(c+a)(b+c)},$$
+$$\frac{1}{a+b}-\frac{1}{c+a}=\frac{(c+a)-(a+b)}{(a+b)(c+a)}=\frac{c-b}{(a+b)(c+a)}.$$
+
+Hai hiệu này có chung thừa số $\dfrac1{c+a}\ne0$, nên chúng bằng nhau khi và chỉ khi
+$$\frac{b-a}{b+c}=\frac{c-b}{a+b}.$$
+Nhân chéo (do $b+c\ne0$ và $a+b\ne0$), điều này tương đương với
+$$(b-a)(a+b)=(c-b)(b+c)\iff b^2-a^2=c^2-b^2.$$
+
+Đẳng thức cuối cùng đúng vì $a^2$, $b^2$, $c^2$ lập cấp số cộng (giả thiết). Mọi bước biến đổi trên đều là biến đổi tương đương, nên hai hiệu bằng nhau.
+
+Vậy ba số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ cũng lập cấp số cộng.
 
 **Đáp số.** Ba số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ lập cấp số cộng.
 :::

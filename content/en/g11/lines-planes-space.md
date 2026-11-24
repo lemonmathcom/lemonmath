@@ -239,7 +239,12 @@ How many faces, edges and vertices does a pyramid whose base has $7$ sides have?
 1. Substitute $n=7$.
 
 ::solution
-For $n=7$: $n+1=8$ faces, $2n=14$ edges, $n+1=8$ vertices.
+A pyramid whose base is an $n$-sided polygon has $n$ lateral faces (each a triangle) and $1$ base; it has $n$ base edges and $n$ lateral edges; and it has $n$ base vertices and $1$ apex.
+
+For $n=7$:
+$$\text{faces}=n+1=8,\quad\text{edges}=n+n=2n=14,\quad\text{vertices}=n+1=8.$$
+
+So a pyramid whose base has $7$ sides has $8$ faces, $14$ edges and $8$ vertices.
 
 **Answer.** $8$ faces, $14$ edges, $8$ vertices.
 :::
@@ -255,7 +260,14 @@ Take five points in space, with no three collinear and no four coplanar. How man
 2. Explain why the planes are all different.
 
 ::solution
-The number of ways to choose three points from five is $\dbinom{5}{3}=10$. Each non-collinear set of three points determines exactly one plane. Two different sets of three give different planes, because if they coincided, at least four points would be coplanar.
+Three non-collinear points determine exactly one plane. Since no three of the five given points are collinear, each set of three points determines exactly one plane.
+
+The number of ways to choose three points from five is
+$$\dbinom{5}{3}=\frac{5\cdot4\cdot3}{3\cdot2\cdot1}=10.$$
+
+Two different sets of three give different planes. Indeed, if two different sets of three gave the same plane, their union would contain at least four points lying in that plane, contradicting the assumption that no four points are coplanar.
+
+So $10$ planes pass through three of the five given points.
 
 **Answer.** $10$ planes.
 :::
@@ -271,7 +283,13 @@ Take a tetrahedron $ABCD$. Take $M$ on the edge $AB$ and $N$ on the edge $AC$ su
 2. Show that $E$ lies in both planes.
 
 ::solution
-The point $D$ lies in both planes. Since $E\in MN\subset(DMN)$ and $E\in BC\subset(BCD)$, $E$ is also a common point. The two common points $D$ and $E$ are distinct (because $E$ lies in the plane $(ABC)$ and $D$ does not), so the line of intersection is $DE$.
+The planes $(DMN)$ and $(BCD)$ share the point $D$.
+
+Since $E\in MN$ and $MN\subset(DMN)$, $E\in(DMN)$. Since $E\in BC$ and $BC\subset(BCD)$, $E\in(BCD)$. So $E$ is also a common point of the two planes.
+
+The points $D$ and $E$ are distinct, because $E$ lies on $BC\subset(ABC)$ while $D$ does not lie in $(ABC)$ ($ABCD$ is a tetrahedron). Two planes with two distinct common points $D$, $E$ meet along the line $DE$.
+
+So the line of intersection of $(DMN)$ and $(BCD)$ is the line $DE$.
 
 **Answer.** The line of intersection is the line $DE$.
 :::
@@ -287,7 +305,13 @@ Take a pyramid $S.ABCD$ whose base is a quadrilateral $ABCD$ such that $AB$ meet
 2. Find where the line $ME$ meets $SC$ in $(SCD)$.
 
 ::solution
-The auxiliary plane containing $SC$ is $(SCD)$. The point $M\in SD\subset(SCD)$ and $M\in(MAB)$; the point $E\in CD\subset(SCD)$ and $E\in AB\subset(MAB)$. So the line of intersection of $(SCD)$ and $(MAB)$ is $ME$. In the plane $(SCD)$, $ME$ meets $SC$ at $N$, and $N\in(MAB)$.
+To find the point where $SC$ meets $(MAB)$, we choose the auxiliary plane containing $SC$, namely $(SCD)$, and find the line of intersection of $(SCD)$ and $(MAB)$.
+
+The point $M\in SD$ and $SD\subset(SCD)$, so $M\in(SCD)$; also $M\in(MAB)$. The point $E\in CD$ and $CD\subset(SCD)$, so $E\in(SCD)$; also $E\in AB$ and $AB\subset(MAB)$, so $E\in(MAB)$. The points $M$, $E$ are two distinct common points, so the line of intersection of $(SCD)$ and $(MAB)$ is the line $ME$.
+
+In the plane $(SCD)$, the lines $ME$ and $SC$ meet at a point $N$. Since $N\in ME\subset(MAB)$ and $N\in SC$, $N$ is the point where $SC$ meets $(MAB)$.
+
+So the point where $SC$ meets $(MAB)$ is $N=SC\cap ME$.
 
 **Answer.** The point is $N=SC\cap ME$.
 :::
@@ -303,7 +327,11 @@ A door is attached to its frame by two hinges (treated as two fixed points) and 
 2. Is the plane containing two fixed points determined uniquely?
 
 ::solution
-Two fixed hinges give only one fixed line. Infinitely many planes contain this line, so the door can swing about it and take different positions. When a third bolt not on the axis is added, the three fixed non-collinear points determine exactly one plane. The door must lie in that one plane, so it cannot swing.
+The two hinges are two distinct fixed points, so they fix exactly one line (the axis). Infinitely many planes contain this line, so the door can swing about the axis and take different positions, each position corresponding to a plane containing the axis.
+
+When the bolt, a third fixed point not on the axis, is added, the three fixed points are not collinear. By the properties of planes, three non-collinear points determine exactly one plane. The door is part of a plane containing all three fixed points, so it can only lie in that one plane, and therefore it cannot swing.
+
+So two points fix only a line, and the door can still swing; three non-collinear points fix a plane, and the door cannot swing.
 
 **Answer.** Two points fix only a line; three non-collinear points fix a plane.
 :::
@@ -328,13 +356,15 @@ d) Exactly $3$ planes pass through three of the four given points.
 3. d) Count the sets of three.
 
 ::solution
-a) **True**: if they were collinear, they would be coplanar with $D$.
+a) **True.** If $A$, $B$, $C$ were collinear, they would be coplanar with $D$ (a line and a point always lie in a plane), contradicting the assumption that the four points are non-coplanar.
 
-b) **False**: if $AB$ and $CD$ meet, they lie in one plane, and the four points are coplanar.
+b) **False.** If $AB$ and $CD$ met, they would lie in one plane, and then the four points $A$, $B$, $C$, $D$ would be coplanar, contradicting the assumption. So $AB$ and $CD$ cannot meet.
 
-c) **True**: $A$ and $B$ lie in both planes, so the line of intersection is $AB$.
+c) **True.** The points $A$ and $B$ lie in both $(ABC)$ and $(ABD)$. These planes are distinct (because $D\notin(ABC)$), so their line of intersection is $AB$.
 
-d) **False**: there are $4$ planes $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
+d) **False.** The four points are non-coplanar and no three of them are collinear, so each set of three points determines a plane. There are $\dbinom{4}{3}=4$ such sets, so there are $4$ planes $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$, not $3$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -350,7 +380,20 @@ The numbers of edges of pyramids whose bases are a triangle, a quadrilateral, a 
 2. Find $u_{k+1}-u_k$ and then $u_k$.
 
 ::solution
-A pyramid with a triangular base has $6$ edges, so $u_1=6$; a base with $k+2$ sides gives $2(k+2)=2k+4$ edges, that is $u_k=2k+4$. Since $u_{k+1}-u_k=2$ is constant, this is an arithmetic progression with $u_1=6$, $d=2$. A base with $20$ sides corresponds to $k=18$, and $u_{18}=2\cdot18+4=40$.
+A pyramid whose base is an $n$-sided polygon has $n$ base edges and $n$ lateral edges, that is, $2n$ edges.
+
+A triangular base ($n=3$) corresponds to $k=1$, a quadrilateral base ($n=4$) corresponds to $k=2$, and in general a base with $n=k+2$ sides corresponds to the $k$-th term. Therefore
+$$u_k=2(k+2)=2k+4.$$
+For $k=1$: $u_1=6$, which agrees with the triangular pyramid having $6$ edges.
+
+Prove it is an arithmetic progression. For every $k\ge1$,
+$$u_{k+1}-u_k=\left[2(k+1)+4\right]-(2k+4)=2.$$
+This difference is constant, so $(u_k)$ is an arithmetic progression with first term $u_1=6$ and common difference $d=2$.
+
+A base with $20$ sides corresponds to $k+2=20$, that is $k=18$. Its number of edges is
+$$u_{18}=2\cdot18+4=40.$$
+
+So $(u_k)$ is an arithmetic progression with common difference $2$ and general term $u_k=2k+4$; a pyramid whose base has $20$ sides has $40$ edges.
 
 **Answer.** The arithmetic progression $u_k=2k+4$ (common difference $2$); a pyramid with a $20$-sided base has $40$ edges.
 :::
@@ -366,7 +409,13 @@ Take three distinct planes $(P)$, $(Q)$, $(R)$ that meet in pairs along the thre
 2. Conclude that $I\in c$.
 
 ::solution
-Since $I\in a=(P)\cap(Q)$, we have $I\in(P)$ and $I\in(Q)$. Since $I\in b=(Q)\cap(R)$, we have $I\in(Q)$ and $I\in(R)$. So $I$ lies in both $(P)$ and $(R)$, hence on their line of intersection $c=(R)\cap(P)$.
+Since $I$ lies on the line $a=(P)\cap(Q)$, $I\in(P)$ and $I\in(Q)$.
+
+Since $I$ lies on the line $b=(Q)\cap(R)$, $I\in(Q)$ and $I\in(R)$.
+
+Hence $I$ lies in both $(P)$ and $(R)$. These two planes have line of intersection $c=(R)\cap(P)$, and every common point of them lies on $c$. So $I\in c$.
+
+So $I$ lies on all three lines $a$, $b$, $c$, that is, the three lines of intersection $a$, $b$, $c$ are concurrent at $I$.
 
 **Answer.** $I\in c$; the three lines $a$, $b$, $c$ are concurrent at $I$.
 :::

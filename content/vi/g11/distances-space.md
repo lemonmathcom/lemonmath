@@ -208,7 +208,17 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính khoảng cách từ $
 2. Chỉ ra $BO\perp(ACC'A')$.
 
 ::solution
-$BD\perp AC$ và $BD\perp AA'$ nên $BD\perp(ACC'A')$, suy ra $BO\perp(ACC'A')$ với $O=AC\cap BD$. Do đó $d(B,(ACC'A'))=BO=\dfrac{a\sqrt2}{2}$.
+Gọi $O=AC\cap BD$. Vì $ABCD$ là hình vuông nên $BD\perp AC$.
+
+Vì $ABCD.A'B'C'D'$ là hình lập phương nên $AA'\perp(ABCD)$, suy ra $AA'\perp BD$.
+
+Đường thẳng $BD$ vuông góc với hai đường thẳng cắt nhau $AC$ và $AA'$ cùng nằm trong $(ACC'A')$, nên $BD\perp(ACC'A')$. Do $O\in BD$ nên $BO\perp(ACC'A')$, và $O\in AC\subset(ACC'A')$.
+
+Do đó $d\left(B,(ACC'A')\right)=BO$.
+
+Hình vuông $ABCD$ cạnh $a$ có đường chéo $BD=a\sqrt2$, và $O$ là trung điểm $BD$ nên $BO=\dfrac{BD}{2}=\dfrac{a\sqrt2}{2}$.
+
+Vậy khoảng cách từ $B$ đến mặt phẳng $(ACC'A')$ bằng $\dfrac{a\sqrt2}{2}$.
 
 **Đáp số.** $\dfrac{a\sqrt2}{2}$.
 :::
@@ -224,7 +234,13 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính khoảng cách giữa
 2. Dùng kết quả của bài trước.
 
 ::solution
-$BB'\parallel CC'\subset(ACC'A')$ nên $BB'\parallel(ACC'A')$. Do đó $d(BB',(ACC'A'))=d(B,(ACC'A'))=\dfrac{a\sqrt2}{2}$.
+Ta có $BB'\parallel CC'$ (các cạnh bên của hình lập phương) và $CC'\subset(ACC'A')$. Mặt khác $BB'\not\subset(ACC'A')$ (vì $B\notin(ACC'A')$). Do đó $BB'\parallel(ACC'A')$.
+
+Khoảng cách giữa đường thẳng $BB'$ và mặt phẳng song song $(ACC'A')$ bằng khoảng cách từ một điểm bất kì của $BB'$ đến mặt phẳng đó. Chọn điểm $B$:
+$$d\left(BB',(ACC'A')\right)=d\left(B,(ACC'A')\right)=\frac{a\sqrt2}{2}$$
+(kết quả của Bài 2).
+
+Vậy khoảng cách giữa $BB'$ và $(ACC'A')$ bằng $\dfrac{a\sqrt2}{2}$.
 
 **Đáp số.** $\dfrac{a\sqrt2}{2}$.
 :::
@@ -248,13 +264,15 @@ d) Khoảng cách giữa hai đường thẳng chéo nhau $a$, $b$ bằng khoả
 2. Với câu d, chú ý mặt phẳng phải song song với $a$.
 
 ::solution
-a) **Đúng** theo định nghĩa.
+a) **Đúng.** Theo định nghĩa, khoảng cách từ điểm $M$ đến mặt phẳng $(P)$ là khoảng cách $MH$ từ $M$ đến hình chiếu vuông góc $H$ của $M$ trên $(P)$, tức là độ dài đoạn vuông góc hạ từ $M$ xuống $(P)$.
 
-b) **Sai**: $\Delta$ song song với $(P)$ nên không có điểm chung, khoảng cách lớn hơn $0$.
+b) **Sai.** Nếu $\Delta\parallel(P)$ thì $\Delta$ và $(P)$ không có điểm chung, nên khoảng cách $d(\Delta,(P))$ (bằng khoảng cách từ một điểm bất kì của $\Delta$ đến $(P)$) lớn hơn $0$.
 
-c) **Đúng** theo định lí.
+c) **Đúng.** Theo định lí, nếu hai mặt phẳng song song thì khoảng cách từ mọi điểm của mặt phẳng này đến mặt phẳng kia đều bằng nhau; khoảng cách đó chính là khoảng cách giữa hai mặt phẳng.
 
-d) **Sai**: mặt phẳng phải chứa $b$ và song song với $a$.
+d) **Sai.** Khoảng cách giữa hai đường thẳng chéo nhau $a$, $b$ bằng khoảng cách giữa $a$ và mặt phẳng chứa $b$ và song song với $a$. Nếu lấy một mặt phẳng chứa $b$ bất kì mà không song song với $a$ thì mặt phẳng đó cắt $a$ và khoảng cách bằng $0$, không bằng khoảng cách giữa $a$ và $b$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -270,7 +288,18 @@ Giả sử một căn phòng hình hộp chữ nhật $ABCD.A'B'C'D'$ có sàn $
 2. Tính đường cao ứng với cạnh huyền trong tam giác $ABD$.
 
 ::solution
-$BD=\sqrt{64+36}=10$. $d(AA',BD)=d(A,BD)=\dfrac{8\cdot6}{10}=4{,}8$.
+Vì $ABCD$ là hình chữ nhật nên tam giác $ABD$ vuông tại $A$, với $AB=8$ m và $AD=6$ m.
+
+Theo định lí Pythagore:
+$$BD=\sqrt{AB^2+AD^2}=\sqrt{64+36}=10\ \text{(m)}.$$
+
+Kẻ $AH\perp BD$ tại $H$. Vì $AA'\perp(ABCD)$ và $AH\subset(ABCD)$ nên $AA'\perp AH$. Như vậy $AH$ vuông góc với cả $AA'$ và $BD$, nên $AH$ là đoạn vuông góc chung của hai đường thẳng chéo nhau $AA'$ và $BD$. Do đó
+$$d(AA',BD)=AH=d(A,BD).$$
+
+Trong tam giác $ABD$ vuông tại $A$, ta có $AH\cdot BD=AB\cdot AD$ (cùng bằng hai lần diện tích tam giác), nên
+$$AH=\frac{AB\cdot AD}{BD}=\frac{8\cdot6}{10}=4{,}8\ \text{(m)}.$$
+
+Vậy khoảng cách ngắn nhất giữa ống và cáp là $4{,}8$ m.
 
 **Đáp số.** $4{,}8$ m.
 :::
@@ -286,9 +315,19 @@ Giả sử một mái chóp có dạng hình chóp $S.ABCD$ với đáy $ABCD$ l
 2. Tính $SM$ trong tam giác $SOM$ vuông tại $O$ với $OM=3$.
 
 ::solution
-$OA=3\sqrt2$ nên $SO=\sqrt{25-18}=\sqrt7\approx2{,}6$. Vậy $d(S,(ABCD))\approx2{,}6$ m.
+Đáy $ABCD$ là hình vuông cạnh $6$ m, $O$ là tâm nên $OA=OB=OC=OD$. Các cạnh bên $SA=SB=SC=SD=5$ m, nên $SO\perp(ABCD)$ và $d\left(S,(ABCD)\right)=SO$.
 
-Tam giác $SBC$ cân tại $S$ nên $SM\perp BC$, tức $d(S,BC)=SM$. Có $OM=3$ và $SM=\sqrt{SO^2+OM^2}=\sqrt{7+9}=4$.
+Đường chéo của đáy là $AC=6\sqrt2$, suy ra $OA=\dfrac{AC}{2}=3\sqrt2$.
+
+Trong tam giác $SOA$ vuông tại $O$:
+$$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7\approx2{,}6\ \text{(m)}.$$
+
+Gọi $M$ là trung điểm của $BC$. Tam giác $SBC$ cân tại $S$ nên trung tuyến $SM$ cũng là đường cao: $SM\perp BC$, tức là $d(S,BC)=SM$.
+
+Ta có $OM\perp BC$ và $OM=\dfrac{AB}{2}=3$ m. Vì $SO\perp(ABCD)$ nên $SO\perp OM$, và trong tam giác $SOM$ vuông tại $O$:
+$$SM=\sqrt{SO^2+OM^2}=\sqrt{7+9}=4\ \text{(m)}.$$
+
+Vậy khoảng cách từ $S$ đến mặt phẳng $(ABCD)$ khoảng $2{,}6$ m và khoảng cách từ $S$ đến đường thẳng $BC$ bằng $4$ m.
 
 **Đáp số.** $d(S,(ABCD))\approx2{,}6$ m; $d(S,BC)=4$ m.
 :::
@@ -304,7 +343,17 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính khoảng cách từ $
 2. Áp dụng kết quả.
 
 ::solution
-Tứ diện $A'.AB'D'$ có $A'A$, $A'B'$, $A'D'$ đôi một vuông góc và bằng $a$, giống tứ diện $OABC$ ở ví dụ. Do đó $d(A',(AB'D'))=\dfrac{a\sqrt3}{3}$.
+Tứ diện $A'.AB'D'$ có ba cạnh $A'A$, $A'B'$, $A'D'$ đôi một vuông góc và cùng bằng $a$ (các cạnh của hình lập phương xuất phát từ $A'$).
+
+Thể tích: $V=\dfrac13\cdot S_{A'B'D'}\cdot A'A=\dfrac13\cdot\dfrac{a^2}{2}\cdot a=\dfrac{a^3}{6}$.
+
+Tam giác $AB'D'$ có ba cạnh $AB'=B'D'=D'A=a\sqrt2$ (đường chéo của các mặt hình vuông) nên là tam giác đều cạnh $a\sqrt2$, diện tích
+$$S_{AB'D'}=\frac{\sqrt3}{4}\left(a\sqrt2\right)^2=\frac{a^2\sqrt3}{2}.$$
+
+Khoảng cách từ $A'$ đến $(AB'D')$ là chiều cao của tứ diện ứng với đáy $AB'D'$, nên
+$$d\left(A',(AB'D')\right)=\frac{3V}{S_{AB'D'}}=\frac{a^3/2}{a^2\sqrt3/2}=\frac{a}{\sqrt3}=\frac{a\sqrt3}{3}.$$
+
+Vậy khoảng cách từ $A'$ đến mặt phẳng $(AB'D')$ bằng $\dfrac{a\sqrt3}{3}$.
 
 **Đáp số.** $\dfrac{a\sqrt3}{3}$.
 :::
@@ -320,9 +369,15 @@ Tứ diện $A'.AB'D'$ có $A'A$, $A'B'$, $A'D'$ đôi một vuông góc và b�
 2. Tính độ dài bằng Pythagore.
 
 ::solution
-$CC'\perp(ABCD)$ nên $CC'\perp AC$, do đó $d(A,CC')=AC=a\sqrt2$.
+Áp dụng định lí Pythagore và quan hệ vuông góc trong hình lập phương cạnh $a$.
 
-$AB\perp(BCC'B')$ nên $AB\perp BC'$, do đó $d(A,BC')=AB=a$.
+Khoảng cách từ $A$ đến $CC'$: vì $CC'\perp(ABCD)$ và $AC\subset(ABCD)$ nên $CC'\perp AC$. Do đó $AC$ là đoạn vuông góc hạ từ $A$ xuống $CC'$ và
+$$d(A,CC')=AC=\sqrt{AB^2+BC^2}=\sqrt{a^2+a^2}=a\sqrt2.$$
+
+Khoảng cách từ $A$ đến $BC'$: vì $AB\perp BC$ và $AB\perp BB'$ nên $AB\perp(BCC'B')$. Mà $BC'\subset(BCC'B')$ nên $AB\perp BC'$. Do đó $AB$ là đoạn vuông góc hạ từ $A$ xuống $BC'$ và
+$$d(A,BC')=AB=a.$$
+
+Vậy $d(A,CC')=a\sqrt2$ và $d(A,BC')=a$.
 
 **Đáp số.** $a\sqrt2$ và $a$.
 :::
@@ -338,9 +393,18 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính khoảng cách giữa
 2. Dùng trung điểm $O$ của $AC$ để chuyển sang $d(C,(BDC'))$.
 
 ::solution
-$AB'\parallel DC'$ và $DC'\subset(BDC')$ nên $AB'\parallel(BDC')$, mà $BC'\subset(BDC')$. Do đó $d(AB',BC')=d(AB',(BDC'))=d(A,(BDC'))$.
+Ta có $AB'\parallel DC'$ (vì $AB'C'D$ là hình chữ nhật) và $DC'\subset(BDC')$, còn $AB'\not\subset(BDC')$. Do đó $AB'\parallel(BDC')$, và $BC'\subset(BDC')$.
 
-Gọi $O$ là trung điểm $AC$, $O$ nằm trên $BD$ nên thuộc $(BDC')$. Vì $O$ là trung điểm của $AC$ nên $d(A,(BDC'))=d(C,(BDC'))$. Tứ diện $C.BDC'$ có $CB$, $CD$, $CC'$ đôi một vuông góc và bằng $a$, nên $d(C,(BDC'))=\dfrac{a\sqrt3}{3}$.
+Khoảng cách giữa hai đường thẳng chéo nhau $AB'$ và $BC'$ bằng khoảng cách giữa $AB'$ và mặt phẳng $(BDC')$ chứa $BC'$ và song song với $AB'$. Do đó
+$$d(AB',BC')=d\left(AB',(BDC')\right)=d\left(A,(BDC')\right).$$
+
+Gọi $O$ là trung điểm của $AC$. Vì $O$ cũng là trung điểm của $BD$ nên $O\in BD\subset(BDC')$. Vì $O$ là trung điểm của $AC$ và $O$ thuộc mặt phẳng $(BDC')$ nên $A$ và $C$ có cùng khoảng cách đến $(BDC')$:
+$$d\left(A,(BDC')\right)=d\left(C,(BDC')\right).$$
+
+Tứ diện $C.BDC'$ có ba cạnh $CB$, $CD$, $CC'$ đôi một vuông góc và cùng bằng $a$. Thể tích $V=\dfrac13\cdot\dfrac{a^2}{2}\cdot a=\dfrac{a^3}{6}$. Tam giác $BDC'$ có ba cạnh $BD=DC'=C'B=a\sqrt2$ nên là tam giác đều, diện tích $\dfrac{\sqrt3}{4}\left(a\sqrt2\right)^2=\dfrac{a^2\sqrt3}{2}$. Do đó
+$$d\left(C,(BDC')\right)=\frac{3V}{S_{BDC'}}=\frac{a^3/2}{a^2\sqrt3/2}=\frac{a\sqrt3}{3}.$$
+
+Vậy khoảng cách giữa hai đường thẳng chéo nhau $AB'$ và $BC'$ bằng $\dfrac{a\sqrt3}{3}$.
 
 **Đáp số.** $\dfrac{a\sqrt3}{3}$.
 :::

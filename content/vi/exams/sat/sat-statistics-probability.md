@@ -149,7 +149,17 @@ Số trung bình của năm số là 12. Bốn trong năm số đó là 10, 14, 
 2. Trừ đi bốn số đã biết.
 
 ::solution
-$5\cdot12=60$ và $10+14+9+15=48$, nên số thứ năm là $12$.
+Gọi $x$ là số thứ năm.
+
+Số trung bình của năm số là $12$ nên tổng năm số bằng
+$$5\cdot12=60.$$
+
+Tổng bốn số đã cho là $10+14+9+15=48$. Do đó
+$$48+x=60\iff x=60-48=12.$$
+
+Vậy số thứ năm là $12$.
+
+**Đáp số.** $12$.
 :::
 
 :::exercise Trắc nghiệm
@@ -167,7 +177,20 @@ D. Trung vị là 4.
 2. Tính số trung bình.
 
 ::solution
-Trung vị là $5$ và số trung bình là $\dfrac{61}{7}\approx8{,}7$. Giá trị ngoại lai kéo số trung bình lên: đáp án **C**.
+Tập dữ liệu có $7$ giá trị đã sắp xếp tăng dần: $2, 4, 4, 5, 7, 9, 30$.
+
+Vì có $7$ giá trị (số lẻ) nên trung vị là giá trị ở giữa, tức là giá trị thứ $4$: trung vị bằng $5$.
+
+Tổng các giá trị là $2+4+4+5+7+9+30=61$, nên số trung bình là
+$$\frac{61}{7}\approx8{,}7.$$
+
+Vì $8{,}7>5$ nên số trung bình lớn hơn trung vị. Nguyên nhân là giá trị ngoại lai $30$ kéo số trung bình lên, trong khi trung vị hầu như không bị ảnh hưởng.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án A và B sai vì số trung bình $\approx8{,}7$ lớn hơn trung vị $5$; phương án D sai vì trung vị là $5$, còn $4$ chỉ là mốt của tập dữ liệu.
+
+**Đáp số.** C.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -181,7 +204,16 @@ Dùng bảng hai chiều về câu lạc bộ ở trên. Chọn ngẫu nhiên m�
 2. Chia số bạn CLB Toán ở hàng đó cho $30$.
 
 ::solution
-$\dfrac{18}{30}=0{,}6$. Khi nhập vào Bluebook, gõ `0.6`.
+Gọi $A$ là biến cố "học sinh được chọn thuộc CLB Toán". Mỗi học sinh lớp $10$ có cùng khả năng được chọn, nên xác suất của $A$ bằng số học sinh lớp $10$ thuộc CLB Toán chia cho tổng số học sinh lớp $10$.
+
+Theo bảng hai chiều, có $18$ học sinh lớp $10$ thuộc CLB Toán trong tổng số $30$ học sinh lớp $10$. Do đó
+$$P(A)=\frac{18}{30}=0{,}6.$$
+
+Vậy xác suất để học sinh đó thuộc CLB Toán là $0{,}6$.
+
+*Mẹo thi.* Khi nhập vào Bluebook, gõ `0.6`.
+
+**Đáp số.** $0{,}6$.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -194,7 +226,14 @@ $\dfrac{18}{30}=0{,}6$. Khi nhập vào Bluebook, gõ `0.6`.
 1. $1{,}8\cdot10+12$.
 
 ::solution
-$18+12=30$.
+Đường thẳng khớp nhất có phương trình $y=1{,}8x+12$.
+
+Thay $x=10$ vào phương trình, ta được
+$$y=1{,}8\cdot10+12=18+12=30.$$
+
+Vậy khi $x=10$, đường thẳng dự đoán $y=30$.
+
+**Đáp số.** $30$.
 :::
 
 :::exercise Trắc nghiệm
@@ -212,7 +251,15 @@ D. Không kết luận được gì vì các tình nguyện viên không phải 
 2. Có chọn mẫu ngẫu nhiên từ mọi người trưởng thành không? Không.
 
 ::solution
-Phân nhóm ngẫu nhiên cho phép kết luận nhân quả, nhưng chỉ với những người giống các tình nguyện viên, vì họ không được chọn ngẫu nhiên từ mọi người trưởng thành. Đáp án là **B**. Phương án A khái quát quá mức; phương án D bỏ qua điều mà phân nhóm ngẫu nhiên đã cho thấy.
+Các tình nguyện viên được phân ngẫu nhiên vào hai nhóm, nên hai nhóm tương đồng nhau về mọi yếu tố khác ngoài việc đi bộ. Vì vậy, sự khác biệt về huyết áp sau $8$ tuần (thấp hơn đáng kể ở nhóm đi bộ) có thể được quy cho việc đi bộ: thí nghiệm này ủng hộ kết luận có quan hệ nhân quả.
+
+Tuy nhiên, $100$ tình nguyện viên không được chọn ngẫu nhiên từ tất cả người trưởng thành. Do đó kết luận chỉ được khái quát cho những người tương tự các tình nguyện viên, chứ không cho mọi người trưởng thành.
+
+Vậy kết luận được ủng hộ tốt nhất là: đi bộ mỗi ngày có khả năng làm giảm huyết áp ở những người tương tự các tình nguyện viên, nên chọn **B**.
+
+*Nhận xét.* Phương án A khái quát quá mức, vì áp dụng cho mọi người trưởng thành; phương án C đảo ngược quan hệ nhân quả, trong khi các nhóm được phân ngẫu nhiên chứ không tự chọn; phương án D bỏ qua điều mà phân nhóm ngẫu nhiên đã cho thấy.
+
+**Đáp số.** B.
 :::
 
 ## Bài tập vận dụng
@@ -228,7 +275,20 @@ Lớp A có 20 học sinh với điểm trung bình 75. Lớp B có 30 học sin
 2. Chia tổng chung cho $50$.
 
 ::solution
-$\dfrac{1.500+2.400}{50}=\dfrac{3.900}{50}=78$. Số trung bình gần 80 hơn 75 vì lớp B đông hơn.
+Tổng điểm của lớp A bằng số học sinh nhân với điểm trung bình:
+$$20\cdot75=1.500.$$
+
+Tổng điểm của lớp B là
+$$30\cdot80=2.400.$$
+
+Tổng điểm của cả $50$ học sinh là $1.500+2.400=3.900$, nên điểm trung bình của cả hai lớp là
+$$\frac{1.500+2.400}{50}=\frac{3.900}{50}=78.$$
+
+Kết quả hợp lí vì $75<78<80$ và số trung bình gần $80$ hơn $75$, do lớp B đông học sinh hơn.
+
+Vậy điểm trung bình của cả $50$ học sinh là $78$.
+
+**Đáp số.** $78$.
 :::
 
 :::exercise Viên bi
@@ -242,7 +302,16 @@ Một túi có 4 viên bi đỏ, 6 viên bi xanh dương và 5 viên bi xanh lá
 2. Không phải xanh dương: $4+5$.
 
 ::solution
-$\dfrac{9}{15}=\dfrac35$.
+Gọi $A$ là biến cố "viên bi được lấy không phải màu xanh dương".
+
+Tổng số viên bi trong túi là $4+6+5=15$, và mỗi viên bi có cùng khả năng được lấy.
+
+Số viên bi không phải màu xanh dương là $4+5=9$ (gồm bi đỏ và bi xanh lá). Do đó
+$$P(A)=\frac{9}{15}=\frac35.$$
+
+Vậy xác suất để viên bi được lấy không phải màu xanh dương là $\dfrac35$.
+
+**Đáp số.** $\dfrac35$.
 :::
 
 :::exercise So sánh độ phân tán
@@ -256,7 +325,23 @@ Tập dữ liệu A là 48, 49, 50, 51, 52. Tập dữ liệu B là 30, 40, 50, 
 2. So sánh khoảng cách từ các giá trị đến số trung bình.
 
 ::solution
-Cả hai số trung bình đều là $50$. Khoảng biến thiên của A là $4$, của B là $40$. Các giá trị của B nằm xa số trung bình hơn nhiều, nên B có độ lệch chuẩn lớn hơn.
+Số trung bình của tập A là
+$$\frac{48+49+50+51+52}{5}=\frac{250}{5}=50,$$
+và số trung bình của tập B là
+$$\frac{30+40+50+60+70}{5}=\frac{250}{5}=50.$$
+
+Khoảng biến thiên bằng giá trị lớn nhất trừ giá trị nhỏ nhất. Với tập A: $52-48=4$. Với tập B: $70-30=40$.
+
+Để so sánh độ lệch chuẩn, ta tính tổng bình phương các độ lệch so với số trung bình $50$. Với tập A:
+$$(-2)^2+(-1)^2+0^2+1^2+2^2=10.$$
+Với tập B:
+$$(-20)^2+(-10)^2+0^2+10^2+20^2=1.000.$$
+
+Hai tập có cùng số giá trị nên tổng bình phương độ lệch của B lớn gấp $100$ lần của A, suy ra độ lệch chuẩn của B lớn gấp $10$ lần độ lệch chuẩn của A. Điều này phù hợp với việc các giá trị của B nằm xa số trung bình hơn nhiều.
+
+Vậy hai tập dữ liệu có cùng số trung bình $50$; khoảng biến thiên của A là $4$, của B là $40$; và B có độ lệch chuẩn lớn hơn A.
+
+**Đáp số.** Cùng số trung bình $50$; khoảng biến thiên của A là $4$, của B là $40$; B có độ lệch chuẩn lớn hơn.
 :::
 
 :::exercise Thử thách
@@ -270,7 +355,18 @@ Các số 6, 8, $x$, 15, 21 được viết theo thứ tự tăng dần, và s�
 2. Cho nó bằng $x$.
 
 ::solution
-$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12{,}5$. Giá trị này nằm giữa $8$ và $15$, nên thứ tự vẫn đúng.
+Năm số $6, 8, x, 15, 21$ được viết theo thứ tự tăng dần, nên số ở giữa là số thứ ba. Do đó trung vị bằng $x$.
+
+Tổng bốn số đã biết là $6+8+15+21=50$, nên số trung bình là $\dfrac{50+x}{5}$.
+
+Số trung bình bằng trung vị, nên
+$$\begin{aligned}\frac{50+x}{5}&=x\\50+x&=5x\\50&=4x\\x&=12{,}5.\end{aligned}$$
+
+Kiểm tra điều kiện: $8<12{,}5<15$ nên thứ tự tăng dần vẫn đúng (thoả mãn điều kiện). Khi đó số trung bình là $\dfrac{62{,}5}{5}=12{,}5$, đúng bằng trung vị.
+
+Vậy $x=12{,}5$.
+
+**Đáp số.** $12{,}5$.
 :::
 
 :::quiz

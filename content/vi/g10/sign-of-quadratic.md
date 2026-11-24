@@ -216,7 +216,15 @@ Giải $x^2-4x+3>0$.
 3. Lấy phần làm tam thức dương.
 
 ::solution
-$x^2-4x+3=(x-1)(x-3)$ có hai nghiệm $1$ và $3$. Vì $a=1>0$ nên tam thức dương khi $x$ nằm ngoài hai nghiệm; dấu "$>$" chặt nên không lấy nghiệm.
+Xét tam thức bậc hai $f(x)=x^2-4x+3$ có hệ số $a=1>0$.
+
+Ta có $f(x)=x^2-4x+3=(x-1)(x-3)$, nên $f(x)=0$ khi $x=1$ hoặc $x=3$. Vậy $f(x)$ có hai nghiệm phân biệt $x_1=1$ và $x_2=3$.
+
+Vì $a=1>0$ nên $f(x)$ cùng dấu với $a$ (tức là dương) khi $x$ nằm ngoài đoạn $[1; 3]$, và trái dấu với $a$ (tức là âm) khi $x$ nằm giữa hai nghiệm. Do đó $f(x)>0$ khi $x<1$ hoặc $x>3$.
+
+Bất phương trình có dấu $>$ (chặt) nên không lấy hai nghiệm $1$ và $3$.
+
+Vậy tập nghiệm của bất phương trình là $S=(-\infty; 1)\cup(3; +\infty)$.
 
 **Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
 :::
@@ -232,7 +240,15 @@ Giải $x^2-9\le 0$.
 2. Với $a>0$, tam thức không dương ở giữa hai nghiệm.
 
 ::solution
-$x^2-9=(x-3)(x+3)$ có hai nghiệm $\pm3$. Vì $a=1>0$ nên tam thức $\le 0$ ở giữa hai nghiệm, lấy cả hai nghiệm vì có dấu bằng.
+Xét tam thức $f(x)=x^2-9$ có hệ số $a=1>0$.
+
+Ta có $x^2-9=(x-3)(x+3)$, nên $f(x)=0$ khi $x=-3$ hoặc $x=3$.
+
+Vì $a=1>0$ nên $f(x)$ trái dấu với $a$ (tức là âm) khi $x$ nằm giữa hai nghiệm, nghĩa là $f(x)<0$ khi $-3<x<3$.
+
+Bất phương trình có dấu bằng ($\le$) nên lấy cả hai nghiệm $-3$ và $3$. Do đó $f(x)\le0$ khi $-3\le x\le3$.
+
+Vậy tập nghiệm của bất phương trình là $S=[-3; 3]$.
 
 **Đáp số.** $S=[-3; 3]$.
 :::
@@ -248,7 +264,13 @@ Giải $-x^2+2x+8>0$.
 2. Tìm hai nghiệm và chọn phần giữa.
 
 ::solution
-$-x^2+2x+8=-(x-4)(x+2)$, hai nghiệm $-2$ và $4$. Vì $a=-1<0$ nên tam thức dương ở giữa hai nghiệm.
+Xét tam thức $f(x)=-x^2+2x+8$ có hệ số $a=-1<0$.
+
+Ta có $-x^2+2x+8=-(x^2-2x-8)=-(x-4)(x+2)$, nên $f(x)=0$ khi $x=-2$ hoặc $x=4$.
+
+Vì $a=-1<0$ nên $f(x)$ trái dấu với $a$ (tức là dương) khi $x$ nằm giữa hai nghiệm, và cùng dấu với $a$ (tức là âm) khi $x$ nằm ngoài đoạn $[-2; 4]$. Do đó $f(x)>0$ khi $-2<x<4$.
+
+Vậy tập nghiệm của bất phương trình là $S=(-2; 4)$.
 
 **Đáp số.** $S=(-2; 4)$.
 :::
@@ -264,7 +286,16 @@ Giải $2x^2-x-3\ge 0$.
 2. Với $a>0$, tam thức $\ge 0$ ở ngoài hai nghiệm, kể cả hai nghiệm.
 
 ::solution
-$\Delta=1+24=25$, nghiệm $x=\dfrac{1\pm5}{4}$, tức $x=-1$ và $x=\dfrac32$. Vì $a=2>0$ nên tam thức không âm ở ngoài hai nghiệm, kể cả hai nghiệm.
+Xét tam thức $f(x)=2x^2-x-3$ có hệ số $a=2>0$.
+
+Tính biệt thức: $\Delta=(-1)^2-4\cdot2\cdot(-3)=1+24=25>0$, nên $f(x)$ có hai nghiệm phân biệt
+$$x=\frac{1\pm5}{4},\ \text{tức là}\ x_1=-1,\quad x_2=\frac32.$$
+
+Vì $a=2>0$ nên $f(x)$ cùng dấu với $a$ (tức là dương) khi $x$ nằm ngoài đoạn $\left[-1; \dfrac32\right]$, và âm khi $x$ nằm giữa hai nghiệm.
+
+Bất phương trình có dấu bằng ($\ge$) nên lấy cả hai nghiệm. Do đó $f(x)\ge0$ khi $x\le-1$ hoặc $x\ge\dfrac32$.
+
+Vậy tập nghiệm của bất phương trình là $S=(-\infty; -1]\cup\left[\dfrac32; +\infty\right)$.
 
 **Đáp số.** $S=(-\infty; -1]\cup\left[\dfrac32; +\infty\right)$.
 :::
@@ -280,7 +311,15 @@ Giải $x^2+4x+5>0$.
 2. Xem dấu của $a$ rồi kết luận.
 
 ::solution
-$\Delta=16-20=-4<0$ và $a=1>0$, nên tam thức luôn dương với mọi $x$.
+Xét tam thức $f(x)=x^2+4x+5$ có hệ số $a=1>0$.
+
+Tính biệt thức: $\Delta=4^2-4\cdot1\cdot5=16-20=-4<0$. Do đó $f(x)$ vô nghiệm.
+
+Vì $\Delta<0$ nên $f(x)$ cùng dấu với $a$ với mọi $x\in\mathbb{R}$; mà $a=1>0$ nên $f(x)>0$ với mọi $x$.
+
+Có thể kiểm tra lại bằng cách viết $x^2+4x+5=(x+2)^2+1\ge1>0$ với mọi $x$.
+
+Vậy bất phương trình nghiệm đúng với mọi số thực $x$, tức là $S=\mathbb{R}$.
 
 **Đáp số.** $S=\mathbb{R}$.
 :::
@@ -296,7 +335,13 @@ Giải $x^2-4x+4\le 0$.
 2. Hỏi: bình phương "$\le 0$" khi nào?
 
 ::solution
-$x^2-4x+4=(x-2)^2\ge 0$ với mọi $x$, nên nó $\le 0$ chỉ khi bằng $0$, tức $x=2$.
+Ta nhận thấy vế trái là một hằng đẳng thức: $x^2-4x+4=(x-2)^2$.
+
+Với mọi số thực $x$ ta có $(x-2)^2\ge0$.
+
+Do đó $(x-2)^2\le0$ chỉ xảy ra khi $(x-2)^2=0$, tức là $x-2=0$, hay $x=2$.
+
+Vậy tập nghiệm của bất phương trình là $S=\{2\}$.
 
 **Đáp số.** $S=\{2\}$.
 :::
@@ -313,11 +358,20 @@ Một mảnh vườn hình chữ nhật có chu vi $20$ m, chiều rộng là $x
 3. Kết hợp với điều kiện chiều rộng không lớn hơn chiều dài.
 
 ::solution
-Nửa chu vi là $10$ m nên chiều dài là $10-x$ và diện tích là $x(10-x)$. Ta cần
-$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
-Chiều rộng không lớn hơn chiều dài: $x\le 10-x$, tức $x\le 5$.
+Gọi $x$ (m) là chiều rộng của mảnh vườn. Vì chu vi là $20$ m nên nửa chu vi là $10$ m, do đó chiều dài là $10-x$ (m) và diện tích là $x(10-x)$ (m²).
 
-**Đáp số.** $3\le x\le 5$ (mét). Kiểm tra: $x=3$ cho diện tích $3\cdot7=21$ m², vừa đủ.
+Điều kiện: chiều rộng dương và không lớn hơn chiều dài, tức là $0<x\le10-x$, hay $0<x\le5$.
+
+Diện tích vườn ít nhất $21$ m² nên
+$$\begin{aligned} x(10-x)\ge21 &\iff x^2-10x+21\le0\\ &\iff (x-3)(x-7)\le0\\ &\iff 3\le x\le7. \end{aligned}$$
+
+Kết hợp với điều kiện $0<x\le5$, ta được $3\le x\le5$.
+
+Kiểm tra: với $x=3$, chiều dài là $7$ m và diện tích là $3\cdot7=21$ m², vừa đủ; với $x=5$, vườn là hình vuông cạnh $5$ m, diện tích $25$ m² $\ge21$ m².
+
+Vậy chiều rộng $x$ thoả mãn $3\le x\le5$ (mét).
+
+**Đáp số.** $3\le x\le5$ (mét).
 :::
 
 :::exercise
@@ -331,7 +385,19 @@ Giải $\dfrac{x+1}{x-3}<0$.
 2. Xét dấu tử, mẫu trên từng khoảng.
 
 ::solution
-Tử bằng $0$ tại $x=-1$, mẫu bằng $0$ tại $x=3$ (loại). Trên khoảng $(-1; 3)$ tử dương, mẫu âm nên thương âm; ngoài khoảng đó tử và mẫu cùng dấu nên thương dương.
+Điều kiện xác định: $x-3\ne0$, tức là $x\ne3$.
+
+Tử số $x+1=0$ khi $x=-1$; mẫu số $x-3=0$ khi $x=3$. Ta xét dấu thương $\dfrac{x+1}{x-3}$ trên từng khoảng:
+
+| $x$ | $-\infty$ | | $-1$ | | $3$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $x+1$ | | $-$ | $0$ | $+$ | | $+$ | |
+| $x-3$ | | $-$ | | $-$ | $0$ | $+$ | |
+| $\dfrac{x+1}{x-3}$ | | $+$ | $0$ | $-$ | không xác định | $+$ | |
+
+Trên khoảng $(-1; 3)$, tử dương và mẫu âm nên thương âm; ngoài khoảng đó (và khác $-1$, $3$) tử và mẫu cùng dấu nên thương dương. Tại $x=-1$ thương bằng $0$ nên không thoả mãn bất phương trình chặt, còn $x=3$ bị loại theo điều kiện.
+
+Vậy tập nghiệm của bất phương trình là $S=(-1; 3)$.
 
 **Đáp số.** $S=(-1; 3)$.
 :::
@@ -347,7 +413,15 @@ Giải $x^4-5x^2+4<0$.
 2. Trả về $x$: từ điều kiện của $t$ suy ra điều kiện của $x^2$, rồi của $x$.
 
 ::solution
-Với $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. Vậy $1<x^2<4$, tức $1<|x|<2$.
+Đặt $t=x^2$, với điều kiện $t\ge0$. Bất phương trình trở thành
+$$t^2-5t+4<0\iff(t-1)(t-4)<0\iff1<t<4.$$
+Khoảng này nằm trong điều kiện $t\ge0$ nên thoả mãn.
+
+Thay $t=x^2$, ta được $1<x^2<4$. Vì $x^2=|x|^2$ nên điều này tương đương với $1<|x|<2$.
+
+Ta có $|x|>1$ khi $x<-1$ hoặc $x>1$; $|x|<2$ khi $-2<x<2$. Kết hợp hai điều kiện, ta được $-2<x<-1$ hoặc $1<x<2$.
+
+Vậy tập nghiệm của bất phương trình là $S=(-2; -1)\cup(1; 2)$.
 
 **Đáp số.** $S=(-2; -1)\cup(1; 2)$.
 :::
@@ -363,7 +437,13 @@ Tìm tập xác định của hàm số $y=\sqrt{x^2-3x-4}$.
 2. Phân tích thành nhân tử và xét dấu.
 
 ::solution
-Cần $x^2-3x-4=(x-4)(x+1)\ge 0$. Vì $a=1>0$ nên điều này đúng khi $x$ ở ngoài hai nghiệm $-1$ và $4$, kể cả hai nghiệm.
+Hàm số $y=\sqrt{x^2-3x-4}$ xác định khi biểu thức dưới dấu căn không âm: $x^2-3x-4\ge0$.
+
+Ta có $x^2-3x-4=(x-4)(x+1)$, nên tam thức $f(x)=x^2-3x-4$ có hai nghiệm $x=-1$ và $x=4$.
+
+Vì $a=1>0$ nên $f(x)\ge0$ khi $x$ nằm ngoài khoảng giữa hai nghiệm, kể cả hai nghiệm (do có dấu bằng). Do đó $x\le-1$ hoặc $x\ge4$.
+
+Vậy tập xác định của hàm số là $D=(-\infty; -1]\cup[4; +\infty)$.
 
 **Đáp số.** $D=(-\infty; -1]\cup[4; +\infty)$.
 :::

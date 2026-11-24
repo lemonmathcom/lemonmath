@@ -219,11 +219,19 @@ A polynomial of degree $3$ has zeros $0$, $2$ and $-1$, and its graph passes thr
 **What you need:** write $p(x)=ax(x-2)(x+1)$ and use the point to find $a$.
 
 ::solution
-Since the zeros are $0$, $2$ and $-1$, we write $p(x)=ax(x-2)(x+1)$.
+The polynomial of degree $3$ has zeros $0$, $2$ and $-1$, so it has the form
+$$p(x)=ax(x-2)(x+1),\ \text{where}\ a\neq0.$$
 
-Substituting $x=1$: $p(1)=a(1)(-1)(2)=-2a$. Since $p(1)=-4$, we get $a=2$.
+The graph passes through the point $(1, -4)$, so $p(1)=-4$.
 
-So $p(x)=2x(x-2)(x+1)$.
+Substituting $x=1$ into $p(x)$, we get
+$$p(1)=a\cdot1\cdot(1-2)\cdot(1+1)=a\cdot1\cdot(-1)\cdot2=-2a.$$
+
+Hence $-2a=-4$, so $a=2$ (which satisfies $a\neq0$).
+
+Check: for $p(x)=2x(x-2)(x+1)$ we have $p(1)=2\cdot1\cdot(-1)\cdot2=-4$ and $p(0)=p(2)=p(-1)=0$.
+
+So the required polynomial is $p(x)=2x(x-2)(x+1)$.
 
 **Answer.** $p(x)=2x(x-2)(x+1)$.
 :::

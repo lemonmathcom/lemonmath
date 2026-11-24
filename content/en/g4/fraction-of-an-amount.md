@@ -163,7 +163,15 @@ Find $\dfrac{3}{4}$ of $20$.
 2. Take $3$ parts.
 
 ::solution
-Each part is $20\div4=5$. Taking $3$ parts gives $5\times3=15$.
+To find $\dfrac{3}{4}$ of $20$, we split $20$ into $4$ equal parts and take $3$ of them.
+
+The value of each part is:
+$$20\div4=5.$$
+
+The value of $3$ parts is:
+$$5\times3=15.$$
+
+So $\dfrac{3}{4}$ of $20$ is $15$.
 
 **Answer.** $15$.
 :::
@@ -179,7 +187,12 @@ Find $\dfrac{2}{5}$ of $30$.
 2. Multiply by the numerator.
 
 ::solution
+To find $\dfrac{2}{5}$ of $30$, we split $30$ into $5$ equal parts and take $2$ of them.
+
+We have
 $$30\div5\times2=6\times2=12.$$
+
+So $\dfrac{2}{5}$ of $30$ is $12$.
 
 **Answer.** $12$.
 :::
@@ -195,7 +208,12 @@ Find $\dfrac{7}{8}$ of $64$.
 2. Take $7$ parts.
 
 ::solution
+To find $\dfrac{7}{8}$ of $64$, we split $64$ into $8$ equal parts and take $7$ of them.
+
+We have
 $$64\div8\times7=8\times7=56.$$
+
+So $\dfrac{7}{8}$ of $64$ is $56$.
 
 **Answer.** $56$.
 :::
@@ -211,8 +229,14 @@ There are $60$ minutes in an hour. How many minutes is $\dfrac{2}{3}$ of an hour
 2. Divide $60$ by $3$ and multiply by $2$.
 
 ::solution
+Solution
+
+To find how many minutes are in $\dfrac{2}{3}$ of an hour, we find $\dfrac{2}{3}$ of $60$ minutes.
+
 The number of minutes in $\dfrac{2}{3}$ of an hour is:
-$$60\div3\times2=20\times2=40\ \text{(minutes)}.$$
+$$60\div3\times2=20\times2=40\ \text{(minutes)}$$
+
+So $\dfrac{2}{3}$ of an hour is $40$ minutes.
 
 **Answer.** $40$ minutes.
 :::
@@ -228,9 +252,17 @@ A tank holds $480$ litres of water. $\dfrac{3}{8}$ of the water in the tank has 
 2. Find $\dfrac{3}{8}$ of $480$, then subtract.
 
 ::solution
-The litres of water used are $480\div8\times3=60\times3=180$ (litres).
+Solution
 
-The litres of water left are $480-180=300$ (litres).
+The litres of water used are $\dfrac{3}{8}$ of $480$ litres, that is:
+$$480\div8\times3=60\times3=180\ \text{(litres)}$$
+
+The litres of water left in the tank are:
+$$480-180=300\ \text{(litres)}$$
+
+*Check.* The water left is $\dfrac{5}{8}$ of the water in the tank and $480\div8\times5=60\times5=300$ (litres). Correct.
+
+So $180$ litres of water have been used and $300$ litres are left in the tank.
 
 **Answer.** $180$ litres used; $300$ litres left.
 :::
@@ -246,11 +278,18 @@ A length of cloth is $18$ m long. $\dfrac{2}{9}$ of the cloth is used to make a 
 2. Subtract both from $18$.
 
 ::solution
-The metres of cloth for the shirt are $18\div9\times2=4$ (m).
+Solution
 
-The metres of cloth for the trousers are $18\div3=6$ (m).
+The metres of cloth used for the shirt are $\dfrac{2}{9}$ of $18$ m, that is:
+$$18\div9\times2=2\times2=4\ \text{(m)}$$
 
-The metres of cloth left are $18-4-6=8$ (m).
+The metres of cloth used for the trousers are $\dfrac{1}{3}$ of $18$ m, that is:
+$$18\div3=6\ \text{(m)}$$
+
+The metres of cloth left are:
+$$18-4-6=8\ \text{(m)}$$
+
+So $8$ m of cloth are left.
 
 **Answer.** $8$ m.
 :::
@@ -266,8 +305,12 @@ Nam has $150\,000$ dong and spends $\dfrac{2}{5}$ of it on books. How much money
 2. Divide $150\,000$ by $5$ and multiply by $2$.
 
 ::solution
-The amount Nam spends on books is:
-$$150\,000\div5\times2=30\,000\times2=60\,000\ \text{(dong)}.$$
+Solution
+
+The amount Nam spends on books is $\dfrac{2}{5}$ of $150\,000$ dong, that is:
+$$150\,000\div5\times2=30\,000\times2=60\,000\ \text{(dong)}$$
+
+So Nam spends $60\,000$ dong on books.
 
 **Answer.** $60\,000$ dong.
 :::
@@ -283,7 +326,15 @@ Remember the lesson on multiplying fractions. Find $\dfrac{2}{3}$ of $\dfrac{3}{
 2. Simplify the answer.
 
 ::solution
-$$\dfrac{3}{5}\times\dfrac{2}{3}=\dfrac{6}{15}=\dfrac{2}{5}.$$
+Finding $\dfrac{2}{3}$ of $\dfrac{3}{5}$ means multiplying $\dfrac{3}{5}$ by $\dfrac{2}{3}$.
+
+To multiply two fractions, we multiply the numerators and multiply the denominators:
+$$\frac{3}{5}\times\frac{2}{3}=\frac{3\times2}{5\times3}=\frac{6}{15}.$$
+
+We simplify the fraction by dividing both the numerator and the denominator by $3$:
+$$\frac{6}{15}=\frac{6\div3}{15\div3}=\frac{2}{5}.$$
+
+So $\dfrac{2}{3}$ of $\dfrac{3}{5}$ is $\dfrac{2}{5}$.
 
 **Answer.** $\dfrac{2}{5}$.
 :::
@@ -299,11 +350,18 @@ Remember the lessons on comparing and subtracting fractions. A class has $40$ st
 2. Subtract the smaller number from the larger.
 
 ::solution
-The number who like Maths is $40\div5\times3=24$ (students).
+Solution
 
-The number who like Literature is $40\div4=10$ (students).
+The number of students who like Maths is $\dfrac{3}{5}$ of $40$ students, that is:
+$$40\div5\times3=8\times3=24\ \text{(students)}$$
 
-The number who like Maths exceeds the number who like Literature by $24-10=14$ (students).
+The number of students who like Literature is $\dfrac{1}{4}$ of $40$ students, that is:
+$$40\div4=10\ \text{(students)}$$
+
+The number who like Maths exceeds the number who like Literature by:
+$$24-10=14\ \text{(students)}$$
+
+So $14$ more students like Maths than like Literature.
 
 **Answer.** $14$ students.
 :::
@@ -319,11 +377,19 @@ The Year $4$ group of a school has a number of students. $\dfrac{3}{5}$ of the s
 2. The whole group is $5$ parts.
 
 ::solution
-$3$ parts is $36$ students, so $1$ part is $36\div3=12$ (students).
+Solution
 
-The whole group is $5$ parts, which is $12\times5=60$ (students).
+$\dfrac{3}{5}$ of the students in the group is $36$ students, that is, $3$ equal parts make $36$ students in total.
 
-**Check.** $\dfrac{3}{5}$ of $60$ is $60\div5\times3=36$. Correct.
+The number of students in each part is:
+$$36\div3=12\ \text{(students)}$$
+
+The whole group has $5$ such parts, so the number of students in the Year $4$ group is:
+$$12\times5=60\ \text{(students)}$$
+
+*Check.* $\dfrac{3}{5}$ of $60$ is $60\div5\times3=12\times3=36$. Correct.
+
+So the Year $4$ group has $60$ students.
 
 **Answer.** $60$ students.
 :::

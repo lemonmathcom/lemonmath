@@ -272,7 +272,15 @@ Convert the following angles to radians: $150^\circ$, $-60^\circ$. Convert to de
 2. Radians to degrees: multiply by $\dfrac{180}\pi$.
 
 ::solution
-$150^\circ=150\cdot\dfrac\pi{180}=\dfrac{5\pi}6$; $-60^\circ=-\dfrac\pi3$; $\dfrac{5\pi}4=225^\circ$; $\dfrac{7\pi}{18}=70^\circ$.
+Conversion formulas: $1^\circ=\dfrac\pi{180}$ rad and $1$ rad $=\left(\dfrac{180}\pi\right)^\circ$.
+
+Converting to radians:
+$$150^\circ=150\cdot\frac\pi{180}=\frac{5\pi}6,\qquad -60^\circ=-60\cdot\frac\pi{180}=-\frac\pi3.$$
+
+Converting to degrees:
+$$\frac{5\pi}4=\frac{5\pi}4\cdot\frac{180^\circ}\pi=225^\circ,\qquad \frac{7\pi}{18}=\frac{7\pi}{18}\cdot\frac{180^\circ}\pi=70^\circ.$$
+
+So $150^\circ=\dfrac{5\pi}6$, $-60^\circ=-\dfrac\pi3$, $\dfrac{5\pi}4=225^\circ$ and $\dfrac{7\pi}{18}=70^\circ$.
 
 **Answer.** $\dfrac{5\pi}6$; $-\dfrac\pi3$; $225^\circ$; $70^\circ$.
 :::
@@ -288,7 +296,15 @@ Find the measure $\alpha\in[0, 2\pi)$ of the directed angle that has a measure $
 2. Check the difference from the original number.
 
 ::solution
-$\dfrac{31\pi}6=\dfrac{7\pi}6+4\pi$, so $\alpha=\dfrac{7\pi}6$. $-\dfrac{17\pi}4+6\pi=\dfrac{7\pi}4$, so $\alpha=\dfrac{7\pi}4$.
+Two directed angles whose measures differ by $k2\pi$ $(k\in\mathbb{Z})$ have the same initial side and terminal side. So we add or subtract multiples of $2\pi$ to bring the measure into $[0, 2\pi)$.
+
+For $\dfrac{31\pi}6$: we have $\dfrac{31\pi}6=\dfrac{7\pi}6+\dfrac{24\pi}6=\dfrac{7\pi}6+4\pi$. Since $\dfrac{7\pi}6\in[0, 2\pi)$, we get $\alpha=\dfrac{7\pi}6$.
+
+For $-\dfrac{17\pi}4$: adding $3\cdot2\pi=6\pi$, we obtain
+$$-\frac{17\pi}4+6\pi=-\frac{17\pi}4+\frac{24\pi}4=\frac{7\pi}4.$$
+Since $\dfrac{7\pi}4\in[0, 2\pi)$, we get $\alpha=\dfrac{7\pi}4$.
+
+So $\alpha=\dfrac{7\pi}6$ for the angle with measure $\dfrac{31\pi}6$, and $\alpha=\dfrac{7\pi}4$ for the angle with measure $-\dfrac{17\pi}4$.
 
 **Answer.** $\dfrac{7\pi}6$; $\dfrac{7\pi}4$.
 :::
@@ -304,7 +320,21 @@ Find $\sin\dfrac{5\pi}3$, $\cos\left(-\dfrac\pi3\right)$, $\tan\dfrac{3\pi}4$, $
 2. Decide the sign from the quadrant.
 
 ::solution
-$\sin\dfrac{5\pi}3=-\sin\dfrac\pi3=-\dfrac{\sqrt3}2$. $\cos\left(-\dfrac\pi3\right)=\cos\dfrac\pi3=\dfrac12$. $\tan\dfrac{3\pi}4=-\tan\dfrac\pi4=-1$. $\cot\dfrac{7\pi}6=\cot\dfrac\pi6=\sqrt3$.
+We reduce each angle to an acute angle using the related-angle formulas.
+
+Since $\dfrac{5\pi}3=2\pi-\dfrac\pi3$,
+$$\sin\frac{5\pi}3=\sin\left(-\frac\pi3\right)=-\sin\frac\pi3=-\frac{\sqrt3}2.$$
+
+Since $\cos$ is an even function,
+$$\cos\left(-\frac\pi3\right)=\cos\frac\pi3=\frac12.$$
+
+Since $\dfrac{3\pi}4=\pi-\dfrac\pi4$ and $\tan(\pi-x)=-\tan x$,
+$$\tan\frac{3\pi}4=-\tan\frac\pi4=-1.$$
+
+Since $\dfrac{7\pi}6=\dfrac\pi6+\pi$ and $\cot$ has period $\pi$,
+$$\cot\frac{7\pi}6=\cot\frac\pi6=\sqrt3.$$
+
+So $\sin\dfrac{5\pi}3=-\dfrac{\sqrt3}2$, $\cos\left(-\dfrac\pi3\right)=\dfrac12$, $\tan\dfrac{3\pi}4=-1$ and $\cot\dfrac{7\pi}6=\sqrt3$.
 
 **Answer.** $-\dfrac{\sqrt3}2$; $\dfrac12$; $-1$; $\sqrt3$.
 :::
@@ -320,7 +350,13 @@ Decide the signs of $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ when $\pi<\alpha<\d
 2. Read the signs from the table.
 
 ::solution
-For $\pi<\alpha<\dfrac{3\pi}2$ the representing point is in the third quadrant, so $\sin\alpha<0$, $\cos\alpha<0$, $\tan\alpha>0$.
+Let $M$ be the point representing the directed angle $\alpha$ on the unit circle. When $\pi<\alpha<\dfrac{3\pi}2$, the point $M$ lies in the third quadrant.
+
+In the third quadrant both the $x$-coordinate and the $y$-coordinate of $M$ are negative. Since $\cos\alpha$ is the $x$-coordinate and $\sin\alpha$ is the $y$-coordinate of $M$, we get $\cos\alpha<0$ and $\sin\alpha<0$.
+
+Hence $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}>0$ (a quotient of two negative numbers).
+
+So when $\pi<\alpha<\dfrac{3\pi}2$ we have $\sin\alpha<0$, $\cos\alpha<0$ and $\tan\alpha>0$.
 
 **Answer.** $\sin\alpha<0$; $\cos\alpha<0$; $\tan\alpha>0$.
 :::
@@ -340,11 +376,20 @@ c) What are the coordinates of the tip?
 3. Find the angle $\theta=\dfrac\pi2+\alpha$.
 
 ::solution
-a) The angle turned is $-6^\circ\cdot25=-150^\circ=-\dfrac{5\pi}6$.
+The minute hand turns clockwise (the negative direction) and makes one full turn of $-360^\circ$ in $60$ minutes, so it turns through $-6^\circ$ each minute.
 
-b) $l=12\cdot\dfrac{5\pi}6=10\pi\approx31.4$ (cm).
+a) After $25$ minutes the hand has turned through the directed angle
+$$-6^\circ\cdot25=-150^\circ=-150\cdot\frac\pi{180}=-\frac{5\pi}6\ (\text{rad}).$$
 
-c) $\theta=\dfrac\pi2-\dfrac{5\pi}6=-\dfrac\pi3$, so $x=12\cos\left(-\dfrac\pi3\right)=6$ and $y=12\sin\left(-\dfrac\pi3\right)=-6\sqrt3\approx-10.39$.
+b) The tip moves on a circle of radius $R=12$ cm and traces an arc of measure $\dfrac{5\pi}6$ rad. The distance travelled is
+$$l=R\cdot\frac{5\pi}6=12\cdot\frac{5\pi}6=10\pi\approx31.4\ (\text{cm}).$$
+
+c) At $12$ o'clock the tip is at $(0, 12)$, so the directed angle from the ray $Ox$ to the ray $OM$ is $\dfrac\pi2$. After turning through a further $-\dfrac{5\pi}6$, the directed angle of the ray $OM$ is
+$$\theta=\frac\pi2-\frac{5\pi}6=-\frac\pi3.$$
+Therefore
+$$x=12\cos\left(-\frac\pi3\right)=12\cdot\frac12=6,\qquad y=12\sin\left(-\frac\pi3\right)=-12\cdot\frac{\sqrt3}2=-6\sqrt3\approx-10.39.$$
+
+So after $25$ minutes the minute hand has turned through $-\dfrac{5\pi}6$ rad; the tip has travelled about $31.4$ cm; and the coordinates of the tip are $(6, -6\sqrt3)$.
 
 **Answer.** a) $-\dfrac{5\pi}6$; b) $\approx31.4$ cm; c) $(6, -6\sqrt3)$.
 :::
@@ -360,7 +405,17 @@ A Ferris wheel has radius $15$ m and its centre is $18$ m above the ground. A ca
 2. Find the range of $h$ from $-1\le\cos\theta\le1$.
 
 ::solution
-For $\theta=\dfrac\pi3$: $h=18-15\cdot\dfrac12=10.5$ (m). Since $-1\le\cos\theta\le1$, we have $3\le h\le33$. The least height is $3$ m (when $\cos\theta=1$) and the greatest is $33$ m (when $\cos\theta=-1$).
+The height of the cabin is $h=18-15\cos\theta$ (m).
+
+For $\theta=\dfrac\pi3$ we have $\cos\dfrac\pi3=\dfrac12$, so
+$$h=18-15\cdot\frac12=18-7.5=10.5\ (\text{m}).$$
+
+For every $\theta$ we have $-1\le\cos\theta\le1$. Multiplying by $-15<0$ (which reverses the inequalities) gives $-15\le-15\cos\theta\le15$. Adding $18$ throughout, we get
+$$3\le h\le33.$$
+
+Equality on the left occurs when $\cos\theta=1$, and equality on the right occurs when $\cos\theta=-1$. Since $\cos\theta$ takes both of these values, the least height is $3$ m and the greatest height is $33$ m.
+
+So when $\theta=\dfrac\pi3$ the cabin is $10.5$ m high; the least height of the cabin is $3$ m (when $\cos\theta=1$) and the greatest height is $33$ m (when $\cos\theta=-1$).
 
 **Answer.** $10.5$ m; least $3$ m; greatest $33$ m.
 :::
@@ -384,9 +439,21 @@ d) $\cos\left(\dfrac\pi2-\alpha\right)=\dfrac35$.
 2. Use $\sin(\pi-\alpha)=\sin\alpha$ and $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha$.
 
 ::solution
-We have $\dfrac1{\cos^2\alpha}=1+\dfrac9{16}=\dfrac{25}{16}$, so $\cos\alpha=\dfrac45$ (since $\cos\alpha>0$), and $\sin\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+Since $0<\alpha<\dfrac\pi2$, we have $\sin\alpha>0$ and $\cos\alpha>0$.
 
-a) **False**: $\sin\alpha=\dfrac35$. b) **True**: $\cos\alpha=\dfrac45$. c) **True**: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) **True**: $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+From the identity $1+\tan^2\alpha=\dfrac1{\cos^2\alpha}$ and $\tan\alpha=\dfrac34$, we have
+$$\frac1{\cos^2\alpha}=1+\frac9{16}=\frac{25}{16},\ \text{so}\ \cos^2\alpha=\frac{16}{25}.$$
+Since $\cos\alpha>0$, we get $\cos\alpha=\dfrac45$. Then $\sin\alpha=\tan\alpha\cdot\cos\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+
+a) **False.** We have $\sin\alpha=\dfrac35\ne\dfrac45$.
+
+b) **True.** By the above, $\cos\alpha=\dfrac45$.
+
+c) **True.** Supplementary angles have the same sine, so $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$.
+
+d) **True.** For complementary angles, $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+
+So statements b), c), d) are true; statement a) is false.
 
 **Answer.** a) False; b) True; c) True; d) True.
 :::
@@ -402,7 +469,15 @@ Given $\tan\alpha=3$, find $A=\dfrac{2\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alp
 2. Divide the numerator and the denominator by $\cos\alpha$.
 
 ::solution
-Dividing the numerator and the denominator by $\cos\alpha$: $A=\dfrac{2\tan\alpha+1}{\tan\alpha-1}=\dfrac{2\cdot3+1}{3-1}=\dfrac72=3.5$.
+Since $\tan\alpha=3$ is defined, $\cos\alpha\ne0$. The denominator equals $\sin\alpha-\cos\alpha=\cos\alpha\,(\tan\alpha-1)=2\cos\alpha\ne0$, so the expression $A$ is defined.
+
+Dividing the numerator and the denominator of $A$ by $\cos\alpha\ne0$, we get
+$$A=\frac{2\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}=\frac{2\tan\alpha+1}{\tan\alpha-1}.$$
+
+Substituting $\tan\alpha=3$, we have
+$$A=\frac{2\cdot3+1}{3-1}=\frac72=3.5.$$
+
+So $A=3.5$.
 
 **Answer.** $3.5$.
 :::
@@ -418,7 +493,15 @@ Triangle $ABC$ is right-angled at $A$ with $AB=6$ and $AC=8$. Find $\sin B$, $\c
 2. Write the ratios and check the identity.
 
 ::solution
-$BC=\sqrt{6^2+8^2}=10$. So $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$. Check: $\dfrac{16}{25}+\dfrac9{25}=1$.
+Consider triangle $ABC$ right-angled at $A$. By Pythagoras' theorem,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Using the definitions of the trigonometric ratios of the acute angle $B$ (opposite side $AC$, adjacent side $AB$, hypotenuse $BC$), we have
+$$\sin B=\frac{AC}{BC}=\frac8{10}=\frac45,\qquad \cos B=\frac{AB}{BC}=\frac6{10}=\frac35,\qquad \tan B=\frac{AC}{AB}=\frac86=\frac43.$$
+
+Check: $\sin^2B+\cos^2B=\dfrac{16}{25}+\dfrac9{25}=\dfrac{25}{25}=1$.
+
+So $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$, and the identity $\sin^2B+\cos^2B=1$ holds.
 
 **Answer.** $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$.
 :::
@@ -434,7 +517,15 @@ Prove that $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ for all $\alp
 2. Write $a^3+b^3$ in terms of $a+b$ and $ab$.
 
 ::solution
-Let $a=\sin^2\alpha$, $b=\cos^2\alpha$, so $a+b=1$. We have $\sin^6\alpha+\cos^6\alpha=a^3+b^3=(a+b)^3-3ab(a+b)=1-3ab$. So the left-hand side is $1-3ab+3ab=1$.
+We transform the left-hand side. Let $a=\sin^2\alpha$ and $b=\cos^2\alpha$. By the basic identity $\sin^2\alpha+\cos^2\alpha=1$, we have $a+b=1$.
+
+Applying the identity $a^3+b^3=(a+b)^3-3ab(a+b)$ and substituting $a+b=1$, we get
+$$\begin{aligned}\sin^6\alpha+\cos^6\alpha&=a^3+b^3\\&=(a+b)^3-3ab(a+b)\\&=1-3ab.\end{aligned}$$
+
+Also $3\sin^2\alpha\cos^2\alpha=3ab$. Hence
+$$\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1-3ab+3ab=1.$$
+
+So $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ for all $\alpha$.
 
 **Answer.** The identity is proved.
 :::

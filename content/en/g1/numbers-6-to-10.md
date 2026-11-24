@@ -139,7 +139,9 @@ There are seven apples on a plate. Write the number of apples.
 2. Write seven as a digit.
 
 ::solution
-Seven is written $7$.
+There are seven apples on the plate. We count: one, two, three, four, five, six, seven. The number "seven" is written with the digit $7$.
+
+So there are $7$ apples on the plate.
 
 **Answer.** $7$ apples.
 :::
@@ -155,7 +157,13 @@ Fill in the box: $6, 7, 8, \square, 10$.
 2. Which number is between $8$ and $10$?
 
 ::solution
-After $8$ comes $9$, then $10$.
+We read the numbers in order from smallest to largest: $6, 7, 8$, then the box, then $10$.
+
+After $8$ comes $9$, and after $9$ comes $10$. So the number for the box is $9$.
+
+Check: we read the whole row $6, 7, 8, 9, 10$. Correct.
+
+So the number to fill in is $9$.
 
 **Answer.** $9$.
 :::
@@ -171,7 +179,13 @@ Remember the last lesson: what is the number after $5$? Then fill in the box: $0
 2. Say the row $0, 1, ...$ to find the missing number.
 
 ::solution
-After five comes six, so the number after $5$ is $6$. In the row, after $1$ comes $2$.
+The number after a given number is the one that comes right after it when we count. After five comes six, so the number after $5$ is $6$.
+
+In the row $0, 1, \square, 3, 4, 5$, we read in order: after $1$ comes $2$, and after $2$ comes $3$. So the number for the box is $2$.
+
+Check: we read the whole row $0, 1, 2, 3, 4, 5$. Correct.
+
+So the number after $5$ is $6$ and the number for the box is $2$.
 
 **Answer.** $6$ and $2$.
 :::
@@ -187,7 +201,11 @@ How many fingers does Lan have on her two hands? Write the number.
 2. Carry on with the second hand: six, seven, ...
 
 ::solution
-You count up to ten fingers, written $10$.
+Each of Lan's two hands has $5$ fingers. We count on from one hand to the other: one, two, three, four, five, six, seven, eight, nine, ten.
+
+The number "ten" is written $10$.
+
+So Lan has $10$ fingers on her two hands.
 
 **Answer.** $10$ fingers.
 :::
@@ -203,7 +221,11 @@ Binh writes the number ten as $01$. Is Binh right? Why?
 2. Which digit must come first?
 
 ::solution
-Ten is written $10$, not $01$. Binh is wrong.
+The number ten has the digit $1$ first and the digit $0$ after it, so it is written $10$.
+
+Binh writes $01$, which has the digit $0$ first and the digit $1$ after it. This is not how ten is written.
+
+So Binh is wrong; ten must be written $10$.
 
 **Answer.** No. It should be $10$.
 :::
@@ -221,7 +243,11 @@ An counts eight chairs and says: "one, two, three, four, five, six, eight". Wher
 2. Find the number that is missing.
 
 ::solution
-An left out seven. The right count is: one, two, three, four, five, six, seven, eight.
+There are eight chairs, so the right way to count is: one, two, three, four, five, six, seven, eight.
+
+An counts: "one, two, three, four, five, six, eight". After six, An jumps to eight, which means she leaves out seven.
+
+So An went wrong by missing the number $7$; the right count is $1, 2, 3, 4, 5, 6, 7, 8$.
 
 **Answer.** An missed $7$.
 :::
@@ -244,7 +270,13 @@ b) Which thing has none?
 2. Find $0$.
 
 ::solution
-a) The number $10$ is under rulers. b) The number $0$ is under rubbers.
+By the table, the numbers of things are: pens $6$, exercise books $9$, rubbers $0$, rulers $10$.
+
+a) We look for the number $10$ in the table. The number $10$ is under rulers, so there are $10$ rulers.
+
+b) The number $0$ means there is none. The number $0$ is under rubbers, so the box has no rubber.
+
+So a) there are $10$ rulers; b) there are no rubbers.
 
 **Answer.** a) Rulers. b) Rubbers.
 :::
@@ -260,9 +292,13 @@ Fill in the boxes (count backwards): $10, \square, 8, \square, 6, \square$.
 2. What comes after $8$? What comes after $6$?
 
 ::solution
-Counting backwards: $10, 9, 8, 7, 6, 5$.
+We count backwards, going down by one each time: $10, 9, 8, 7, 6, 5$.
 
-**Check.** Read forwards from $5$ to $10$: $5, 6, 7, 8, 9, 10$. Correct.
+The number between $10$ and $8$ is $9$. The number between $8$ and $6$ is $7$. The number after $6$ is $5$.
+
+Check: we read forwards from $5$ to $10$: $5, 6, 7, 8, 9, 10$. Correct.
+
+So the numbers for the boxes are $9$, $7$, $5$ in order.
 
 **Answer.** $9$, $7$, $5$.
 :::

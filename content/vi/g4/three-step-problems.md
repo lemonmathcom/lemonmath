@@ -172,12 +172,16 @@ Một xưởng (số liệu giả định) ngày thứ nhất làm được $1\,
 ::solution
 Bài giải
 
-Số áo ngày thứ hai làm được là:
+Ngày thứ hai làm gấp đôi ngày thứ nhất, nên số áo ngày thứ hai làm được là:
 $$1\,250\times2=2\,500\ \text{(chiếc)}.$$
-Số áo ngày thứ ba làm được là:
+
+Ngày thứ ba làm ít hơn ngày thứ hai $300$ chiếc, nên số áo ngày thứ ba làm được là:
 $$2\,500-300=2\,200\ \text{(chiếc)}.$$
+
 Số áo cả ba ngày làm được là:
 $$1\,250+2\,500+2\,200=5\,950\ \text{(chiếc)}.$$
+
+Vậy cả ba ngày xưởng làm được $5\,950$ chiếc áo.
 
 **Đáp số.** $5\,950$ chiếc áo.
 :::
@@ -198,10 +202,14 @@ Bài giải
 
 Số tiền mua $3$ cuốn truyện là:
 $$3\times35\,000=105\,000\ \text{(đồng)}.$$
-Số tiền Mai đã tiêu là:
+
+Số tiền Mai đã tiêu (mua truyện và hộp bút) là:
 $$105\,000+48\,000=153\,000\ \text{(đồng)}.$$
+
 Số tiền Mai còn lại là:
 $$200\,000-153\,000=47\,000\ \text{(đồng)}.$$
+
+Vậy Mai còn lại $47\,000$ đồng.
 
 **Đáp số.** $47\,000$ đồng.
 :::
@@ -220,12 +228,16 @@ Mua $6$ hộp bút chì hết $90\,000$ đồng. Hỏi mua $9$ hộp bút chì n
 ::solution
 Bài giải
 
-Giá một hộp bút chì là:
+Đề bài cho giá của $6$ hộp bút chì, nên ta tìm giá của một hộp bút chì trước (rút về đơn vị). Giá một hộp bút chì là:
 $$90\,000:6=15\,000\ \text{(đồng)}.$$
+
 Số tiền mua $9$ hộp bút chì là:
 $$15\,000\times9=135\,000\ \text{(đồng)}.$$
-Tổng số tiền phải trả là:
+
+Tổng số tiền phải trả cho $9$ hộp bút chì và $1$ chiếc cặp là:
 $$135\,000+120\,000=255\,000\ \text{(đồng)}.$$
+
+Vậy phải trả tất cả $255\,000$ đồng.
 
 **Đáp số.** $255\,000$ đồng.
 :::
@@ -244,12 +256,16 @@ Một mảnh vườn (số liệu giả định) hình chữ nhật có chiều 
 ::solution
 Bài giải
 
-Chiều dài mảnh vườn là:
+Chiều dài mảnh vườn gấp $3$ lần chiều rộng, nên chiều dài là:
 $$25\times3=75\ \text{(m)}.$$
-Chu vi mảnh vườn là:
+
+Hàng rào đi hết một vòng quanh mảnh vườn, nên chiều dài hàng rào bằng chu vi mảnh vườn:
 $$(75+25)\times2=200\ \text{(m)}.$$
+
 Số tiền rào mảnh vườn là:
 $$200\times12\,000=2\,400\,000\ \text{(đồng)}.$$
+
+Vậy tiền rào mảnh vườn là $2\,400\,000$ đồng.
 
 **Đáp số.** $2\,400\,000$ đồng.
 :::
@@ -268,12 +284,16 @@ Một kho có $1\,500$ kg gạo, được chia đều vào $6$ bao. Xe chở đi
 ::solution
 Bài giải
 
-Số gạo ở mỗi bao là:
+Gạo được chia đều vào $6$ bao, nên số gạo ở mỗi bao là:
 $$1\,500:6=250\ \text{(kg)}.$$
-Số gạo xe chở đi là:
+
+Số gạo xe chở đi ($4$ bao) là:
 $$250\times4=1\,000\ \text{(kg)}.$$
+
 Số gạo còn lại trong kho là:
 $$1\,500-1\,000=500\ \text{(kg)}.$$
+
+Vậy trong kho còn lại $500$ kg gạo.
 
 **Đáp số.** $500$ kg gạo.
 :::
@@ -292,11 +312,15 @@ Một tấm vải dài $48$ m. Người ta cắt $5$ bộ quần áo, mỗi bộ
 ::solution
 Bài giải
 
-Số mét vải dùng để may quần áo là:
+Số mét vải dùng để may $5$ bộ quần áo là:
 $$3\times5=15\ \text{(m)}.$$
+
 Số mét vải còn lại là:
 $$48-15=33\ \text{(m)}.$$
-Ta có $33:2=16$ (dư $1$), nên cắt được $16$ chiếc khăn và thừa $1$ m vải.
+
+Mỗi chiếc khăn cần $2$ m vải. Ta có $33:2=16$ (dư $1$), nghĩa là $33$ m vải đủ cắt $16$ chiếc khăn và thừa $1$ m, không đủ cắt thêm một chiếc nữa.
+
+Vậy cắt được nhiều nhất $16$ chiếc khăn.
 
 **Đáp số.** $16$ chiếc khăn.
 :::
@@ -317,10 +341,14 @@ Bài giải
 
 Tiền mua $2$ vé người lớn là:
 $$2\times45\,000=90\,000\ \text{(đồng)}.$$
+
 Tiền mua $3$ vé trẻ em là:
 $$3\times20\,000=60\,000\ \text{(đồng)}.$$
-Số tiền gia đình phải trả là:
+
+Số tiền gia đình phải trả tất cả là:
 $$90\,000+60\,000=150\,000\ \text{(đồng)}.$$
+
+Vậy gia đình phải trả tất cả $150\,000$ đồng.
 
 **Đáp số.** $150\,000$ đồng.
 :::
@@ -336,8 +364,17 @@ Em hãy nhớ lại bài biểu thức chứa chữ. Mỗi quyển vở giá $7\
 2. Thay $m=6$ rồi tính theo đúng thứ tự phép tính.
 
 ::solution
-Số tiền phải trả là $7\,000\times m+5\,000\times2$ (đồng). Khi $m=6$, số tiền là:
+Bài giải
+
+Số tiền mua $m$ quyển vở là $7\,000\times m$ (đồng). Số tiền mua $2$ chiếc bút là $5\,000\times2$ (đồng).
+
+Biểu thức tính số tiền phải trả là:
+$$7\,000\times m+5\,000\times2\ \text{(đồng)}.$$
+
+Khi $m=6$, ta thay $m=6$ vào biểu thức:
 $$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(đồng)}.$$
+
+Vậy khi $m=6$ thì phải trả $52\,000$ đồng.
 
 **Đáp số.** $52\,000$ đồng.
 :::
@@ -353,11 +390,23 @@ Một cửa hàng có $125$ kg đường, buổi sáng bán $40$ kg, buổi chi�
 2. Làm lại bước thứ hai cho đúng.
 
 ::solution
-Nam sai ở bước thứ hai: buổi chiều cửa hàng bán thêm $35$ kg, số đường phải giảm, nên cần trừ chứ không cộng.
+Ta kiểm tra từng bước làm của Nam.
 
-Bài giải đúng: $125-40=85$ (kg); $85-35=50$ (kg).
+Bước 1: $125-40=85$ (kg). Bước này đúng, vì buổi sáng cửa hàng bán $40$ kg nên số đường còn lại phải trừ đi $40$ kg.
 
-**Thử lại.** $50+35+40=125$. Đúng.
+Bước 2: Nam tính $85+35=120$ (kg). Bước này sai. Buổi chiều cửa hàng bán thêm $35$ kg, nên số đường phải giảm đi, ta cần trừ chứ không cộng. Hơn nữa, kết quả $120$ kg lớn hơn $85$ kg là vô lí vì bán thêm thì số đường chỉ ít đi.
+
+Bài giải đúng:
+
+Sau buổi sáng, số đường còn lại là:
+$$125-40=85\ \text{(kg)}.$$
+
+Sau buổi chiều, số đường còn lại là:
+$$85-35=50\ \text{(kg)}.$$
+
+Thử lại: $50+35+40=125$ (kg), đúng bằng số đường ban đầu.
+
+Vậy Nam làm sai; cửa hàng còn lại $50$ kg đường.
 
 **Đáp số.** Nam sai; còn lại $50$ kg đường.
 :::
@@ -376,12 +425,16 @@ Một cửa hàng nhập $4$ thùng bút, mỗi thùng có $12$ hộp, mỗi h�
 ::solution
 Bài giải
 
-Số hộp bút trong $4$ thùng là:
+Mỗi thùng có $12$ hộp, nên số hộp bút trong $4$ thùng là:
 $$4\times12=48\ \text{(hộp)}.$$
-Số chiếc bút nhập về là:
+
+Mỗi hộp có $10$ chiếc bút, nên số chiếc bút nhập về là:
 $$48\times10=480\ \text{(chiếc)}.$$
-Số chiếc bút còn lại là:
+
+Cửa hàng bán được $275$ chiếc, nên số chiếc bút còn lại là:
 $$480-275=205\ \text{(chiếc)}.$$
+
+Vậy cửa hàng còn lại $205$ chiếc bút.
 
 **Đáp số.** $205$ chiếc bút.
 :::

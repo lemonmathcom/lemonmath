@@ -214,13 +214,17 @@ d) A regular tetrahedron is a regular triangular pyramid.
 2. For d), check the base and the foot of the height of a regular tetrahedron.
 
 ::solution
-a) **False**: the lateral faces are isosceles triangles, not necessarily equilateral.
+Recall: a regular triangular pyramid has an equilateral triangle as its base, equal lateral edges, and the foot of its height at the centre of the base; a regular square-based pyramid has a square base, equal lateral edges, and the foot of its height at the centre of the base.
 
-b) **True**: the foot of the height is the centre of the base, which is the centroid of the equilateral triangle.
+a) **False.** A lateral face of a regular triangular pyramid is an isosceles triangle with its apex at the top (two equal lateral edges), but the base edge may differ from the lateral edge. For example, if the regular triangular pyramid $S.ABC$ has $AB=BC=CA=6$ and height $SO=1$, then $SA=SB=SC=\sqrt{13}$; the face $SAB$ has sides $\sqrt{13}$, $\sqrt{13}$, $6$, which are not all equal, so it is not equilateral.
 
-c) **True**: the lateral faces are equal isosceles triangles, so the lateral edges are equal.
+b) **True.** Let $S.ABC$ be a regular triangular pyramid with height $SO$. The right-angled triangles $SOA$, $SOB$, $SOC$ share the side $SO$ and $SA=SB=SC$, so $OA=OB=OC$; that is, $O$ is the circumcentre of the base triangle. Since the base is an equilateral triangle, its circumcentre is also its centroid. Hence the foot of the height is the centroid of the base triangle.
 
-d) **True**: a regular tetrahedron has an equilateral base and equal lateral edges (equal to the base edge), so the foot of its height is the centre of the base.
+c) **True.** Let $S.ABCD$ be a regular square-based pyramid. By definition the lateral faces are equal isosceles triangles with the common apex $S$, so $SA=SB=SC=SD$. This can also be seen as follows: $O$ is the centre of the square base, so $OA=OB=OC=OD$; the right-angled triangles $SOA$, $SOB$, $SOC$, $SOD$ share the side $SO$, so the four lateral edges are equal.
+
+d) **True.** Let $ABCD$ be a regular tetrahedron (all six edges equal), with apex $D$ and base $ABC$. The base $ABC$ has three equal sides, so it is equilateral, and the lateral edges satisfy $DA=DB=DC$ (all equal to the edge of the tetrahedron). By the argument in part b), the foot of the height from $D$ is equidistant from $A$, $B$, $C$, so it is the centre of the base. Hence a regular tetrahedron is a regular triangular pyramid.
+
+So statements b), c), d) are true; statement a) is false.
 
 **Answer.** a) False; b) True; c) True; d) True.
 :::
@@ -236,7 +240,19 @@ A regular triangular pyramid has base side $8$ cm and slant height $3$ cm. Find 
 2. Multiply by the slant height.
 
 ::solution
-Half the perimeter of the base is $p=\dfrac{3\cdot8}2=12$ cm. The lateral surface area is $S_{\text{lat}}=12\cdot3=36$ cm².
+Let $S.ABC$ be the regular triangular pyramid with base side $8$ cm and slant height $d=3$ cm.
+
+Apply the formula for the lateral surface area of a regular pyramid: $S_{\text{lat}}=p\cdot d$, where $p$ is half the perimeter of the base and $d$ is the slant height.
+
+The base is an equilateral triangle of side $8$ cm, so half the perimeter of the base is
+$$p=\frac{3\cdot8}{2}=12\ \text{(cm)}.$$
+
+Substituting $p=12$ and $d=3$ into the formula, we get
+$$S_{\text{lat}}=12\cdot3=36\ \text{(cm}^2\text{)}.$$
+
+Check: each lateral face is an isosceles triangle with base $8$ cm and height $3$ cm (the slant height), so its area is $\dfrac12\cdot8\cdot3=12$ cm²; the three lateral faces have total area $3\cdot12=36$ cm².
+
+So the lateral surface area of the pyramid is $36$ cm².
 
 **Answer.** $36$ cm².
 :::
@@ -252,7 +268,21 @@ A regular square-based pyramid has base side $8$ cm and slant height $5$ cm. Fin
 2. Find $h$ from the right-angled triangle $SOM$ with $OM=4$, then find $V$.
 
 ::solution
-Half the perimeter of the base is $p=\dfrac{4\cdot8}2=16$ cm, so $S_{\text{lat}}=16\cdot5=80$ cm² and $S_{\text{total}}=80+8^2=144$ cm². In triangle $SOM$, right-angled at $O$, with $OM=4$ and $SM=5$, we have $h=\sqrt{5^2-4^2}=3$ cm. The volume is $V=\dfrac13\cdot64\cdot3=64$ cm³.
+Let $S.ABCD$ be the regular square-based pyramid with base side $8$ cm and slant height $5$ cm; let $O$ be the centre of the square base and $M$ the midpoint of one base edge, so $SM=5$ cm and $SO=h$ is the height.
+
+Lateral surface area. Half the perimeter of the base is $p=\dfrac{4\cdot8}{2}=16$ cm. By the formula $S_{\text{lat}}=p\cdot d$, we have
+$$S_{\text{lat}}=16\cdot5=80\ \text{(cm}^2\text{)}.$$
+
+Total surface area. The base area is $8^2=64$ cm². Hence
+$$S_{\text{total}}=S_{\text{lat}}+8^2=80+64=144\ \text{(cm}^2\text{)}.$$
+
+Height. Since $SO\perp(ABCD)$, triangle $SOM$ is right-angled at $O$. Since $O$ is the centre of the square and $M$ is the midpoint of one edge, $OM=\dfrac82=4$ cm. By Pythagoras' theorem,
+$$h=SO=\sqrt{SM^2-OM^2}=\sqrt{5^2-4^2}=\sqrt{9}=3\ \text{(cm)}.$$
+
+Volume. The volume of a pyramid is $\dfrac13$ of the product of the base area and the height, so
+$$V=\frac13\cdot64\cdot3=64\ \text{(cm}^3\text{)}.$$
+
+So $S_{\text{lat}}=80$ cm²; $S_{\text{total}}=144$ cm²; the height is $h=3$ cm; the volume is $V=64$ cm³.
 
 **Answer.** $S_{\text{lat}}=80$ cm²; $S_{\text{total}}=144$ cm²; $h=3$ cm; $V=64$ cm³.
 :::
@@ -268,7 +298,17 @@ The regular triangular pyramid $S.ABC$ has base side $6$ cm and height $1$ cm. F
 2. Look at triangle $SOA$, right-angled at $O$.
 
 ::solution
-We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $SOA$, right-angled at $O$, we have $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3.6$ (cm).
+Let $O$ be the centre of the equilateral triangle $ABC$. Since $S.ABC$ is a regular triangular pyramid, $SO\perp(ABC)$ and $SO=1$ cm.
+
+The height of an equilateral triangle of side $6$ cm is $\dfrac{6\sqrt3}{2}=3\sqrt3$ cm. The centre $O$ is also the centroid, so $OA$ equals $\dfrac23$ of this height, that is
+$$OA=\frac23\cdot3\sqrt3=\frac{6\sqrt3}{3}=2\sqrt3\ \text{(cm)}.$$
+
+Consider triangle $SOA$, right-angled at $O$. By Pythagoras' theorem,
+$$SA^2=SO^2+OA^2=1^2+\left(2\sqrt3\right)^2=1+12=13.$$
+
+Hence $SA=\sqrt{13}\approx3.6$ (cm), rounded to 1 decimal place.
+
+So the lateral edge $SA\approx3.6$ cm.
 
 **Answer.** $SA\approx3.6$ cm.
 :::
@@ -284,7 +324,18 @@ Remember Pythagoras' theorem. A regular square-based pyramid has base side $10$ 
 2. Use the formulas for $S_{\text{lat}}$ and $V$.
 
 ::solution
-In triangle $SOM$, right-angled at $O$, with $OM=5$ and $SO=12$, we have $d=\sqrt{12^2+5^2}=13$ cm. Half the perimeter of the base is $20$ cm, so $S_{\text{lat}}=20\cdot13=260$ cm². The volume is $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+Let $S.ABCD$ be the regular square-based pyramid with base side $10$ cm and height $SO=12$ cm; $O$ is the centre of the base and $M$ is the midpoint of one base edge.
+
+Slant height. Since $O$ is the centre of the square and $M$ is the midpoint of one edge, $OM=\dfrac{10}{2}=5$ cm. Triangle $SOM$ is right-angled at $O$, so by Pythagoras' theorem
+$$d=SM=\sqrt{SO^2+OM^2}=\sqrt{12^2+5^2}=\sqrt{169}=13\ \text{(cm)}.$$
+
+Lateral surface area. Half the perimeter of the base is $p=\dfrac{4\cdot10}{2}=20$ cm, so
+$$S_{\text{lat}}=p\cdot d=20\cdot13=260\ \text{(cm}^2\text{)}.$$
+
+Volume. The base area is $10^2=100$ cm², so
+$$V=\frac13\cdot10^2\cdot12=400\ \text{(cm}^3\text{)}.$$
+
+So the slant height is $d=13$ cm, the lateral surface area is $S_{\text{lat}}=260$ cm² and the volume is $V=400$ cm³.
 
 **Answer.** $d=13$ cm; $S_{\text{lat}}=260$ cm²; $V=400$ cm³.
 :::
@@ -300,7 +351,21 @@ A glass block is a regular triangular pyramid with base side $12$ cm and height 
 2. Find $S_{\text{lat}}$ and $V$.
 
 ::solution
-We have $OM=\dfrac{12\sqrt3}6=2\sqrt3$, so $d=\sqrt{5.5^2+12}=6.5$ cm. Half the perimeter of the base is $18$ cm, so $S_{\text{lat}}=18\cdot6.5=117$ cm². The base area is $36\sqrt3$ cm², so $V=\dfrac13\cdot36\sqrt3\cdot5.5=66\sqrt3\approx114.3$ cm³.
+Let $S.ABC$ be the glass block, $O$ the centre of the equilateral base $ABC$ of side $12$ cm, and $M$ the midpoint of $BC$; the height is $SO=5.5$ cm. The coloured paper covers the three sloping faces, so the area of paper needed equals the lateral surface area $S_{\text{lat}}$.
+
+The height $AM$ of an equilateral triangle of side $12$ cm is $\dfrac{12\sqrt3}{2}=6\sqrt3$ cm. Since $O$ is the centroid,
+$$OM=\frac13AM=2\sqrt3\ \text{(cm)}.$$
+
+Triangle $SOM$ is right-angled at $O$, so by Pythagoras' theorem the slant height is
+$$d=SM=\sqrt{SO^2+OM^2}=\sqrt{5.5^2+12}=\sqrt{42.25}=6.5\ \text{(cm)}.$$
+
+Half the perimeter of the base is $p=\dfrac{3\cdot12}{2}=18$ cm, so the area of paper needed is
+$$S_{\text{lat}}=p\cdot d=18\cdot6.5=117\ \text{(cm}^2\text{)}.$$
+
+The base area is $\dfrac12\cdot12\cdot6\sqrt3=36\sqrt3$ cm². The volume of the block is
+$$V=\frac13\cdot36\sqrt3\cdot5.5=66\sqrt3\approx114.3\ \text{(cm}^3\text{)}.$$
+
+So the area of paper needed is $117$ cm² and the volume of the block is approximately $114.3$ cm³.
 
 **Answer.** $117$ cm²; $\approx114.3$ cm³.
 :::
@@ -316,7 +381,18 @@ The roof of a pavilion is a regular square-based pyramid with base side $6$ m an
 2. Find $S_{\text{lat}}$, then multiply by the price.
 
 ::solution
-In triangle $SOM$, right-angled at $O$, with $OM=3$ and $SO=4$, we have $d=\sqrt{4^2+3^2}=5$ m. Half the perimeter of the base is $12$ m, so $S_{\text{lat}}=12\cdot5=60$ m². The cost is $60\cdot180\,000=10\,800\,000$ (dong).
+Let $S.ABCD$ be the regular square-based pyramid forming the roof, $O$ the centre of the square base and $M$ the midpoint of one base edge. Then $SO=4$ m, $OM=\dfrac62=3$ m and $SM=d$ is the slant height. The tiling cost for the four sloping faces is based on the lateral surface area $S_{\text{lat}}$ (m²).
+
+Triangle $SOM$ is right-angled at $O$, so by Pythagoras' theorem
+$$d=\sqrt{SO^2+OM^2}=\sqrt{4^2+3^2}=\sqrt{25}=5\ \text{(m)}.$$
+
+Half the perimeter of the base is $p=\dfrac{4\cdot6}{2}=12$ m, so the area of the four faces of the roof is
+$$S_{\text{lat}}=p\cdot d=12\cdot5=60\ \text{(m}^2\text{)}.$$
+
+Let $T$ (dong) be the cost of tiling. Each square metre costs $180\,000$ dong, so
+$$T=60\cdot180\,000=10\,800\,000\ \text{(dong)}.$$
+
+So the cost of tiling the four sloping faces is $10\,800\,000$ dong.
 
 **Answer.** $10\,800\,000$ dong.
 :::
@@ -332,7 +408,16 @@ A funnel is a regular square-based pyramid with its apex pointing down. The top 
 2. Find $V$, then change the unit.
 
 ::solution
-The area of the top is $30^2=900$ cm². The volume is $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ litres.
+The funnel is a regular square-based pyramid with its apex pointing down, and its top is a square of side $30$ cm. The depth of the funnel is the height of the pyramid, $40$ cm. The maximum amount of water the funnel can hold equals the volume $V$ (cm³) of the pyramid.
+
+The area of the top of the funnel (the base area) is $30^2=900$ cm².
+
+Applying the volume formula for a pyramid:
+$$V=\frac13\cdot900\cdot40=12\,000\ \text{(cm}^3\text{)}.$$
+
+Converting units: $1$ litre $=1000$ cm³, so $12\,000$ cm³ $=12\,000\div1000=12$ litres.
+
+So the funnel can hold at most $12$ litres of water.
 
 **Answer.** $12$ litres.
 :::
@@ -348,7 +433,17 @@ The regular tetrahedron $ABCD$ has edge $6$. Find the height from the vertex $D$
 2. Find $h=DO$, then $V$.
 
 ::solution
-Let $O$ be the centre of the equilateral triangle $ABC$. We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $DOA$, right-angled at $O$, we have $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4.9$. The base area is $9\sqrt3$, so $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25.5$.
+Since $ABCD$ is a regular tetrahedron of edge $6$, the face $ABC$ is an equilateral triangle of side $6$ and $DA=DB=DC=6$; hence $D.ABC$ is a regular triangular pyramid. Let $O$ be the centre of the equilateral triangle $ABC$; then $DO\perp(ABC)$ and $h=DO$ is the required height.
+
+We have $OA=\dfrac{6\sqrt3}{3}=2\sqrt3$ (this equals $\dfrac23$ of the height $3\sqrt3$ of the equilateral triangle $ABC$).
+
+Consider triangle $DOA$, right-angled at $O$. By Pythagoras' theorem,
+$$h=DO=\sqrt{DA^2-OA^2}=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4.9.$$
+
+The base area is $\dfrac{\sqrt3}{4}\cdot6^2=9\sqrt3$. The volume of the tetrahedron is
+$$V=\frac13\cdot9\sqrt3\cdot2\sqrt6=6\sqrt{18}=18\sqrt2\approx25.5.$$
+
+So the height from $D$ is $h=2\sqrt6\approx4.9$ and the volume of the tetrahedron is $V=18\sqrt2\approx25.5$.
 
 **Answer.** $h=2\sqrt6\approx4.9$; $V=18\sqrt2\approx25.5$.
 :::

@@ -168,7 +168,17 @@ Work out: $3\,628\div4$.
 2. Bring down each next digit and divide again.
 
 ::solution
-$36\div4=9$ (remainder $0$). Bring down $2$ to make $2$; $2\div4=0$, write $0$. Bring down $8$ to make $28$; $28\div4=7$.
+We divide $3\,628$ by $4$ step by step from left to right.
+
+Since $3<4$, we take $36$ and divide by $4$: $36\div4=9$, write $9$; $9\times4=36$, $36-36=0$, remainder $0$.
+
+Bring down $2$ to make $2$; $2\div4=0$, write $0$; remainder $2$.
+
+Bring down $8$ to make $28$; $28\div4=7$, write $7$; $7\times4=28$, remainder $0$.
+
+Check: $907\times4=3\,628$. Correct.
+
+So $3\,628\div4=907$.
 
 **Answer.** $907$.
 :::
@@ -184,7 +194,19 @@ Work out: $8\,436\div6$.
 2. Bring down each digit, and remember to write $0$ in the quotient when needed.
 
 ::solution
-$8\div6=1$ (remainder $2$). Bring down $4$ to make $24$; $24\div6=4$. Bring down $3$ to make $3$; $3\div6=0$ (remainder $3$), write $0$. Bring down $6$ to make $36$; $36\div6=6$.
+We divide $8\,436$ by $6$ step by step from left to right.
+
+Take $8$ and divide by $6$: $8\div6=1$, write $1$; $1\times6=6$, $8-6=2$, remainder $2$.
+
+Bring down $4$ to make $24$; $24\div6=4$, write $4$; $4\times6=24$, remainder $0$.
+
+Bring down $3$ to make $3$; $3\div6=0$, write $0$; remainder $3$.
+
+Bring down $6$ to make $36$; $36\div6=6$, write $6$; $6\times6=36$, remainder $0$.
+
+Check: $1\,406\times6=8\,436$. Correct.
+
+So $8\,436\div6=1\,406$.
 
 **Answer.** $1\,406$.
 :::
@@ -200,9 +222,19 @@ Work out: $9\,125\div5$.
 2. Bring down each digit, divide again, then check.
 
 ::solution
-$9\div5=1$ (remainder $4$). Bring down $1$ to make $41$; $41\div5=8$ (remainder $1$). Bring down $2$ to make $12$; $12\div5=2$ (remainder $2$). Bring down $5$ to make $25$; $25\div5=5$.
+We divide $9\,125$ by $5$ step by step from left to right.
 
-**Check.** $1\,825\times5=9\,125$. Correct.
+Take $9$ and divide by $5$: $9\div5=1$, write $1$; $1\times5=5$, $9-5=4$, remainder $4$.
+
+Bring down $1$ to make $41$; $41\div5=8$, write $8$; $8\times5=40$, $41-40=1$, remainder $1$.
+
+Bring down $2$ to make $12$; $12\div5=2$, write $2$; $2\times5=10$, $12-10=2$, remainder $2$.
+
+Bring down $5$ to make $25$; $25\div5=5$, write $5$; $5\times5=25$, remainder $0$.
+
+Check: $1\,825\times5=9\,125$. Correct.
+
+So $9\,125\div5=1\,825$.
 
 **Answer.** $1\,825$.
 :::
@@ -218,9 +250,17 @@ Work out: $5\,237\div7$.
 2. Bring down each digit and write the final remainder.
 
 ::solution
-$52\div7=7$ (remainder $3$). Bring down $3$ to make $33$; $33\div7=4$ (remainder $5$). Bring down $7$ to make $57$; $57\div7=8$ (remainder $1$).
+We divide $5\,237$ by $7$ step by step from left to right.
 
-**Check.** $748\times7=5\,236$ and $5\,236+1=5\,237$. Correct.
+Since $5<7$, we take $52$ and divide by $7$: $52\div7=7$, write $7$; $7\times7=49$, $52-49=3$, remainder $3$.
+
+Bring down $3$ to make $33$; $33\div7=4$, write $4$; $4\times7=28$, $33-28=5$, remainder $5$.
+
+Bring down $7$ to make $57$; $57\div7=8$, write $8$; $8\times7=56$, $57-56=1$, remainder $1$.
+
+Check: $748\times7=5\,236$ and $5\,236+1=5\,237$. Correct.
+
+So $5\,237\div7=748$ (remainder $1$).
 
 **Answer.** $748$ (remainder $1$).
 :::
@@ -236,9 +276,16 @@ Find $x$: $x\times6=4\,614$.
 2. Divide, then check.
 
 ::solution
-$x=4\,614\div6=769$.
+In a multiplication, an unknown factor equals the product divided by the known factor. From $x\times6=4\,614$ we have
+$$x=4\,614\div6.$$
 
-**Check.** $769\times6=4\,614$. Correct.
+We divide $4\,614$ by $6$: take $46$ and divide by $6$ to get $7$, remainder $4$ (since $7\times6=42$); bring down $1$ to make $41$, $41\div6=6$, remainder $5$ (since $6\times6=36$); bring down $4$ to make $54$, $54\div6=9$, remainder $0$.
+
+Hence $x=769$.
+
+Check: $769\times6=4\,614$. Correct.
+
+So $x=769$.
 
 **Answer.** $x=769$.
 :::
@@ -257,8 +304,12 @@ A water plant (made-up numbers) shares $3\,648$ litres of water equally among $4
 ::solution
 Solution
 
-The number of litres in each tank is:
+The $3\,648$ litres are shared equally among $4$ tanks, so the number of litres in each tank is:
 $$3\,648\div4=912\ \text{(litres)}.$$
+
+Check: $912\times4=3\,648$.
+
+So each tank gets $912$ litres of water.
 
 **Answer.** $912$ litres of water.
 :::
@@ -276,10 +327,12 @@ A bakery (made-up numbers) has $2\,500$ cakes. They are packed into boxes of $6$
 ::solution
 Solution
 
-We have $2\,500\div6=416$ (remainder $4$).
+To find the number of full boxes, we divide the number of cakes by the number of cakes in each box. We have $2\,500\div6=416$ (remainder $4$), because $416\times6=2\,496$ and $2\,500-2\,496=4$.
 
-So $416$ boxes are full and $4$ cakes are left over, which need $1$ more box. The smallest number of boxes is:
+So $416$ boxes are full and $4$ cakes are left over. These $4$ cakes still have to be packed, so we need $1$ more box. The smallest number of boxes is:
 $$416+1=417\ \text{(boxes)}.$$
+
+So at least $417$ boxes are needed to pack all the cakes.
 
 **Answer.** $417$ boxes.
 :::
@@ -295,7 +348,13 @@ Remember the lesson on multiplying a four-digit number by a one-digit number. We
 2. Write the two matching divisions.
 
 ::solution
-Since $1\,507\times3=4\,521$, we have $4\,521\div3=1\,507$ and $4\,521\div1\,507=3$.
+We know that $1\,507\times3=4\,521$. In a multiplication, dividing the product by one factor gives the other factor.
+
+Dividing the product by the factor $3$ gives the factor $1\,507$, so $4\,521\div3=1\,507$.
+
+Dividing the product by the factor $1\,507$ gives the factor $3$, so $4\,521\div1\,507=3$.
+
+So $4\,521\div3=1\,507$ and $4\,521\div1\,507=3$.
 
 **Answer.** $4\,521\div3=1\,507$ and $4\,521\div1\,507=3$.
 :::
@@ -329,10 +388,14 @@ A number divided by $6$ gives a quotient of $724$ and a remainder of $5$. Find t
 2. Add the remainder $5$.
 
 ::solution
+In a division with a remainder, the dividend equals the quotient times the divisor plus the remainder. The remainder $5$ is less than the divisor $6$, so this division makes sense.
+
 We have $724\times6=4\,344$. The number is:
 $$4\,344+5=4\,349.$$
 
-**Check.** $4\,349\div6=724$ (remainder $5$). Correct.
+Check: $4\,349\div6=724$ (remainder $5$), because $6\times724=4\,344$ and $4\,349-4\,344=5$. Correct.
+
+So the number is $4\,349$.
 
 **Answer.** $4\,349$.
 :::

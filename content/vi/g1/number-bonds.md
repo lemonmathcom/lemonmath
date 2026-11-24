@@ -122,7 +122,11 @@ $3$ gồm $1$ và $\square$. Tìm số còn thiếu.
 2. Đếm lên tới $3$ xem thêm mấy số.
 
 ::solution
-Đếm từ $1$ lên $3$: "hai, ba". Có $2$ số.
+Ta đếm tiếp từ $1$ cho đến $3$: "hai, ba". Ta đếm thêm được $2$ số.
+
+Kiểm tra: $1+2=3$. Đúng.
+
+Vậy $3$ gồm $1$ và $2$.
 
 **Đáp số.** $2$.
 :::
@@ -138,7 +142,11 @@ $5$ gồm $4$ và $\square$. Tìm số còn thiếu.
 2. Đếm lên tới $5$.
 
 ::solution
-Đếm từ $4$ lên $5$: "năm". Có $1$ số.
+Ta đếm tiếp từ $4$ cho đến $5$: "năm". Ta đếm thêm được $1$ số.
+
+Kiểm tra: $4+1=5$. Đúng.
+
+Vậy $5$ gồm $4$ và $1$.
 
 **Đáp số.** $1$.
 :::
@@ -154,7 +162,14 @@ Em hãy nhớ lại bài trước. a) Điền dấu $>$, $<$ hoặc $=$: $6 \;\s
 2. Đếm từ $2$ lên $6$.
 
 ::solution
-a) $6$ đếm trước $8$ nên $6<8$. b) Đếm từ $2$ lên $6$: "ba, bốn, năm, sáu", có $4$ số.
+a) Khi đếm, số $6$ được đếm trước số $8$ nên $6$ bé hơn $8$. Ta điền dấu $<$:
+$$6<8.$$
+
+b) Ta đếm tiếp từ $2$ cho đến $6$: "ba, bốn, năm, sáu". Ta đếm thêm được $4$ số.
+
+Kiểm tra: $2+4=6$. Đúng.
+
+Vậy a) $6<8$; b) $6$ gồm $2$ và $4$.
 
 **Đáp số.** a) $6<8$. b) $4$.
 :::
@@ -171,7 +186,11 @@ b) $7$ gồm $3$ và $\square$.
 2. Phần b) bắt đầu từ $3$.
 
 ::solution
-a) Đếm từ $5$ lên $7$: "sáu, bảy", có $2$ số. b) Đếm từ $3$ lên $7$: "bốn, năm, sáu, bảy", có $4$ số.
+a) Ta đếm tiếp từ $5$ cho đến $7$: "sáu, bảy". Ta đếm thêm được $2$ số. Kiểm tra: $5+2=7$. Đúng.
+
+b) Ta đếm tiếp từ $3$ cho đến $7$: "bốn, năm, sáu, bảy". Ta đếm thêm được $4$ số. Kiểm tra: $3+4=7$. Đúng.
+
+Vậy a) $7$ gồm $5$ và $2$; b) $7$ gồm $3$ và $4$.
 
 **Đáp số.** a) $2$. b) $4$.
 :::
@@ -187,7 +206,11 @@ Hà nói: "$6$ gồm $4$ và $3$." Hà nói đúng không? Vì sao?
 2. Đếm tới số mấy?
 
 ::solution
-Từ $4$ đếm tiếp $3$ số thì tới bảy, không phải sáu. Hà nói sai. Từ $4$ lên $6$ chỉ cần $2$ số.
+Hà nói $6$ gồm $4$ và $3$. Ta kiểm tra bằng cách đếm tiếp $3$ số từ $4$: "năm, sáu, bảy". Đếm xong ta được $7$, không phải $6$.
+
+Để đếm từ $4$ lên $6$: "năm, sáu", ta chỉ cần đếm thêm $2$ số. Kiểm tra: $4+2=6$. Đúng.
+
+Vậy Hà nói sai; $6$ gồm $4$ và $2$.
 
 **Đáp số.** Sai. $6$ gồm $4$ và $2$.
 :::
@@ -203,7 +226,11 @@ Nam tách số $8$ thành $5$ và $2$. Nam sai ở đâu? Tách đúng như th�
 2. So với số $2$ của Nam.
 
 ::solution
-Từ $5$ lên $8$: "sáu, bảy, tám", cần $3$ số. Nam chọn $2$ là sai.
+Nam tách $8$ thành $5$ và $2$. Ta kiểm tra: đếm tiếp $2$ số từ $5$ là "sáu, bảy", được $7$, không phải $8$.
+
+Để đếm từ $5$ lên $8$: "sáu, bảy, tám", ta cần đếm thêm $3$ số. Kiểm tra: $5+3=8$. Đúng.
+
+Vậy Nam sai ở chỗ chọn số $2$; tách đúng là $8$ gồm $5$ và $3$.
 
 **Đáp số.** $8$ gồm $5$ và $3$.
 :::
@@ -219,7 +246,13 @@ Có $9$ quả bóng chia vào hai túi. Túi đỏ có $6$ quả bóng. Túi xan
 2. Đếm từ $6$ lên $9$.
 
 ::solution
-Đếm từ $6$ lên $9$: "bảy, tám, chín", có $3$ số.
+Bài giải
+
+Túi xanh có số quả bóng là số cần đếm thêm từ $6$ để được $9$. Ta đếm tiếp từ $6$ cho đến $9$: "bảy, tám, chín". Ta đếm thêm được $3$ số.
+
+Kiểm tra: $6+3=9$. Đúng.
+
+Vậy túi xanh có $3$ quả bóng.
 
 **Đáp số.** Túi xanh có $3$ quả bóng.
 :::
@@ -235,9 +268,19 @@ Viết tất cả các cách tách số $4$ thành hai số, cả hai số đề
 2. Làm tiếp với phần đầu là $2$ và $3$.
 
 ::solution
-Phần đầu $1$: đếm từ $1$ lên $4$ được $3$. Phần đầu $2$: được $2$. Phần đầu $3$: được $1$.
+Bài giải
 
-**Kiểm tra.** Mỗi cặp ghép lại đủ $4$.
+Ta tách số $4$ thành hai số đều lớn hơn $0$, lần lượt cho phần đầu là $1$, $2$, $3$.
+
+Phần đầu là $1$: đếm tiếp từ $1$ cho đến $4$: "hai, ba, bốn", được $3$. Vậy $4$ gồm $1$ và $3$.
+
+Phần đầu là $2$: đếm tiếp từ $2$ cho đến $4$: "ba, bốn", được $2$. Vậy $4$ gồm $2$ và $2$.
+
+Phần đầu là $3$: đếm tiếp từ $3$ cho đến $4$: "bốn", được $1$. Vậy $4$ gồm $3$ và $1$.
+
+Kiểm tra: $1+3=4$, $2+2=4$, $3+1=4$. Mỗi cặp ghép lại đủ $4$.
+
+Vậy có $3$ cách tách: $4$ gồm $1$ và $3$; $2$ và $2$; $3$ và $1$.
 
 **Đáp số.** $4$ gồm $1$ và $3$; $2$ và $2$; $3$ và $1$.
 :::

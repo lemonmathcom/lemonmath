@@ -224,7 +224,12 @@ Simplify the polynomial $Q=4x^2y-3xy+2x^2y+5xy-7$ and find its degree.
 2. Add the coefficients, then find the highest degree.
 
 ::solution
-We have $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. The term $6x^2y$ has degree $3$.
+To simplify the polynomial, we group the like terms and add their coefficients.
+
+We have
+$$\begin{aligned}Q&=(4x^2y+2x^2y)+(-3xy+5xy)-7\\&=6x^2y+2xy-7.\end{aligned}$$
+
+The degree of a polynomial is the highest degree of its terms. The term $6x^2y$ has degree $2+1=3$; the term $2xy$ has degree $2$; the term $-7$ has degree $0$. Hence the degree of $Q$ is $3$.
 
 So $Q=6x^2y+2xy-7$ and the degree of $Q$ is $3$.
 
@@ -262,9 +267,11 @@ Let $A=2x^2-3x+5$ and $B=-x^2+4x-1$. Find $A+B$ and $A-B$.
 2. Write $A-B$, change the signs of the terms of $B$, then collect.
 
 ::solution
-We have $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
+To add two polynomials, we remove the brackets and group the like terms.
+$$\begin{aligned}A+B&=(2x^2-3x+5)+(-x^2+4x-1)\\&=(2x^2-x^2)+(-3x+4x)+(5-1)\\&=x^2+x+4.\end{aligned}$$
 
-We have $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
+To subtract, when removing brackets preceded by a minus sign we change the sign of every term inside.
+$$\begin{aligned}A-B&=(2x^2-3x+5)-(-x^2+4x-1)\\&=2x^2-3x+5+x^2-4x+1\\&=(2x^2+x^2)+(-3x-4x)+(5+1)\\&=3x^2-7x+6.\end{aligned}$$
 
 So $A+B=x^2+x+4$ and $A-B=3x^2-7x+6$.
 
@@ -282,9 +289,11 @@ Let $M=x^2+2xy-y^2$ and $N=3x^2-xy+2y^2$. Find $M+N$ and $M-N$.
 2. For $M-N$, change the signs of the terms of $N$.
 
 ::solution
-We have $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
+To add two polynomials, we remove the brackets and group the like terms.
+$$\begin{aligned}M+N&=(x^2+2xy-y^2)+(3x^2-xy+2y^2)\\&=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)\\&=4x^2+xy+y^2.\end{aligned}$$
 
-We have $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
+To subtract, brackets preceded by a minus sign are removed by changing the sign of every term inside.
+$$\begin{aligned}M-N&=(x^2+2xy-y^2)-(3x^2-xy+2y^2)\\&=x^2+2xy-y^2-3x^2+xy-2y^2\\&=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)\\&=-2x^2+3xy-3y^2.\end{aligned}$$
 
 So $M+N=4x^2+xy+y^2$ and $M-N=-2x^2+3xy-3y^2$.
 
@@ -342,9 +351,17 @@ Recall the lesson on cuboids. A cuboid has a base of length $(x+3)$ cm and width
 2. Multiply by $2\cdot5$, then substitute $x=4$.
 
 ::solution
-We have $a+b=(x+3)+x=2x+3$. Hence the lateral surface area is $2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
+Let $a$ (cm) be the length and $b$ (cm) the width of the base, so $a=x+3$ and $b=x$ (with $x>0$), and the height is $h=5$ cm.
 
-When $x=4$, it is $20\cdot4+30=110\ (\text{cm}^2)$. (Check: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
+The lateral surface area of a cuboid is $S=2(a+b)h$. We have $a+b=(x+3)+x=2x+3$.
+
+Substituting into the formula, we get
+$$S=2(2x+3)\cdot5=10(2x+3)=20x+30\ (\text{cm}^2).$$
+
+When $x=4$ (which satisfies $x>0$), we have
+$$S=20\cdot4+30=110\ (\text{cm}^2).$$
+
+Check: when $x=4$ we have $a=7$, $b=4$ and $2(7+4)\cdot5=110$ (cm$^2$).
 
 So the lateral surface area is $20x+30\ (\text{cm}^2)$, which equals $110\ \text{cm}^2$ when $x=4$.
 
@@ -362,7 +379,11 @@ Find the polynomial $C$ such that $C+(x^2-2xy)=3x^2+xy-y^2$.
 2. Remove the brackets (changing signs), then simplify.
 
 ::solution
-We have $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
+From $C+(x^2-2xy)=3x^2+xy-y^2$, to find $C$ we subtract the known term from the sum:
+$$C=(3x^2+xy-y^2)-(x^2-2xy).$$
+
+Removing the brackets preceded by a minus sign (changing the sign of every term inside) and grouping like terms:
+$$\begin{aligned}C&=3x^2+xy-y^2-x^2+2xy\\&=(3x^2-x^2)+(xy+2xy)-y^2\\&=2x^2+3xy-y^2.\end{aligned}$$
 
 So $C=2x^2+3xy-y^2$.
 

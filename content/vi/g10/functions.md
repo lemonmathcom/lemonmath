@@ -214,7 +214,15 @@ Cho $f(x)=3x-2$. Tính $f(-1)$ và $f(4)$.
 2. Thay $x=4$.
 
 ::solution
-$f(-1)=3\cdot(-1)-2=-5$ và $f(4)=3\cdot4-2=10$.
+Để tính giá trị của hàm số $f(x)=3x-2$ tại một điểm, ta thay giá trị của $x$ vào biểu thức.
+
+Với $x=-1$:
+$$f(-1)=3\cdot(-1)-2=-3-2=-5.$$
+
+Với $x=4$:
+$$f(4)=3\cdot4-2=12-2=10.$$
+
+Vậy $f(-1)=-5$ và $f(4)=10$.
 
 **Đáp số.** $f(-1)=-5$; $f(4)=10$.
 :::
@@ -230,7 +238,17 @@ Tìm tập xác định của: (a) $f(x)=\sqrt{5-x}$; (b) $g(x)=\dfrac{1}{x^2-4}
 2. Với (b), tìm các $x$ làm $x^2-4=0$ rồi bỏ đi.
 
 ::solution
-(a) $5-x\ge0\iff x\le5$. (b) $x^2-4=0\iff x=\pm2$, nên ta bỏ hai giá trị này.
+Tập xác định của hàm số là tập các giá trị của $x$ để biểu thức của hàm số có nghĩa.
+
+a) Hàm số $f(x)=\sqrt{5-x}$ xác định khi biểu thức dưới căn không âm:
+$$5-x\ge0\iff x\le5.$$
+Vậy $D=(-\infty; 5]$.
+
+b) Hàm số $g(x)=\dfrac{1}{x^2-4}$ xác định khi mẫu thức khác $0$, tức là $x^2-4\neq0$.
+
+Ta có $x^2-4=0\iff(x-2)(x+2)=0\iff x=2$ hoặc $x=-2$. Do đó ta bỏ hai giá trị $x=-2$ và $x=2$.
+
+Vậy $D=\mathbb{R}\setminus\{-2; 2\}$.
 
 **Đáp số.** (a) $D=(-\infty; 5]$; (b) $D=\mathbb{R}\setminus\{-2; 2\}$.
 :::
@@ -246,7 +264,13 @@ Một bảng cho các cặp $(x; y)$: $(1; 4)$, $(2; 5)$, $(2; 6)$, $(3; 7)$. B�
 2. Nếu có, so sánh hai giá trị $y$ tương ứng.
 
 ::solution
-Giá trị $x=2$ ứng với hai giá trị khác nhau của $y$ là $5$ và $6$.
+Một bảng xác định $y$ là hàm số của $x$ khi mỗi giá trị của $x$ tương ứng với đúng một giá trị của $y$.
+
+Xét các cặp đã cho: $x=1$ ứng với $y=4$; $x=3$ ứng với $y=7$; còn $x=2$ xuất hiện trong hai cặp $(2; 5)$ và $(2; 6)$.
+
+Giá trị $x=2$ ứng với hai giá trị khác nhau của $y$ là $5$ và $6$. Điều này vi phạm điều kiện mỗi giá trị của $x$ chỉ ứng với một giá trị của $y$.
+
+Vậy bảng này không xác định $y$ là hàm số của $x$.
 
 **Đáp số.** Không phải hàm số.
 :::
@@ -262,9 +286,14 @@ Chứng minh $h(x)=-2x+5$ nghịch biến trên $\mathbb{R}$.
 2. Xét dấu của hiệu đó.
 
 ::solution
-Với $x_1<x_2$:
-$$h(x_1)-h(x_2)=(-2x_1+5)-(-2x_2+5)=2(x_2-x_1)>0,$$
-nên $h(x_1)>h(x_2)$.
+Hàm số $h(x)=-2x+5$ xác định trên $\mathbb{R}$. Hàm số nghịch biến trên $\mathbb{R}$ nếu với mọi $x_1, x_2\in\mathbb{R}$ mà $x_1<x_2$ thì $h(x_1)>h(x_2)$.
+
+Lấy $x_1, x_2\in\mathbb{R}$ tuỳ ý với $x_1<x_2$. Xét hiệu
+$$\begin{aligned}h(x_1)-h(x_2)&=(-2x_1+5)-(-2x_2+5)\\ &=-2x_1+2x_2\\ &=2(x_2-x_1).\end{aligned}$$
+
+Vì $x_1<x_2$ nên $x_2-x_1>0$, do đó $2(x_2-x_1)>0$. Suy ra $h(x_1)-h(x_2)>0$, tức là $h(x_1)>h(x_2)$.
+
+Vậy hàm số $h(x)=-2x+5$ nghịch biến trên $\mathbb{R}$.
 
 **Đáp số.** $h$ nghịch biến trên $\mathbb{R}$ (đã chứng minh).
 :::
@@ -281,7 +310,23 @@ Cho $f(x)=\begin{cases} x+2 & \text{nếu } x<0,\\ x^2 & \text{nếu } x\ge 0.\e
 3. Loại các nghiệm không thoả điều kiện.
 
 ::solution
-$f(x)=9$: với $x<0$, $x+2=9$ cho $x=7$ (loại vì $7\ge0$); với $x\ge0$, $x^2=9$ cho $x=3$ (loại $x=-3$). $f(x)=-1$: với $x<0$, $x+2=-1$ cho $x=-3$ (nhận); với $x\ge0$, $x^2=-1$ vô nghiệm.
+Hàm số $f$ được cho bởi hai công thức, nên mỗi phương trình ta xét hai trường hợp theo điều kiện của $x$.
+
+Giải $f(x)=9$.
+
+Với $x<0$: $f(x)=x+2=9$, suy ra $x=7$. Giá trị này không thoả $x<0$ (vì $7\ge0$), nên loại.
+
+Với $x\ge0$: $f(x)=x^2=9$, suy ra $x=3$ hoặc $x=-3$. Chỉ $x=3$ thoả $x\ge0$, còn $x=-3$ bị loại.
+
+Giải $f(x)=-1$.
+
+Với $x<0$: $x+2=-1$, suy ra $x=-3$. Giá trị này thoả $x<0$ nên nhận.
+
+Với $x\ge0$: $x^2=-1$. Phương trình này vô nghiệm vì $x^2\ge0$ với mọi $x$.
+
+Kiểm tra: $f(3)=3^2=9$ và $f(-3)=-3+2=-1$.
+
+Vậy $f(x)=9$ khi và chỉ khi $x=3$; $f(x)=-1$ khi và chỉ khi $x=-3$.
 
 **Đáp số.** $f(x)=9\iff x=3$; $f(x)=-1\iff x=-3$.
 :::
@@ -297,8 +342,18 @@ Một công ty điện tính $2$ nghìn đồng cho mỗi kWh trong $50$ kWh đ�
 2. Giải phương trình ở dòng đó.
 
 ::solution
-$50$ kWh đầu hết $2\cdot50=100$ nghìn đồng $<300$, nên $x>50$ và
-$$100+2{,}5(x-50)=300\iff 2{,}5(x-50)=200\iff x-50=80\iff x=130.$$
+Gọi $x$ (kWh) là lượng điện hộ gia đình đã dùng, $x>0$.
+
+$50$ kWh đầu tiên tốn $2\cdot50=100$ nghìn đồng. Vì $100<300$ nên hộ đã dùng vượt $50$ kWh, tức là $x>50$.
+
+Phần vượt là $x-50$ kWh, mỗi kWh tính $2{,}5$ nghìn đồng. Tổng tiền điện là $300$ nghìn đồng nên ta có phương trình
+$$\begin{aligned}100+2{,}5(x-50)&=300\\ 2{,}5(x-50)&=200\\ x-50&=80\\ x&=130.\end{aligned}$$
+
+Đối chiếu điều kiện: $x=130>50$ nên thoả mãn.
+
+Kiểm tra: $100+2{,}5\cdot80=100+200=300$ (nghìn đồng).
+
+Vậy hộ gia đình đã dùng $130$ kWh.
 
 **Đáp số.** $130$.
 :::
@@ -320,13 +375,17 @@ d) $f(x)<0$ khi và chỉ khi $-1<x<3$.
 3. Xem phần đồ thị nằm dưới trục hoành.
 
 ::solution
-a) **Đúng.** Đồ thị cắt trục tung tại $(0; -3)$.
+Ta viết $f(x)=x^2-2x-3=(x-1)^2-4=(x+1)(x-3)$. Đồ thị là parabol có hệ số $a=1>0$, đỉnh $(1; -4)$ và cắt trục hoành tại $x=-1$ và $x=3$.
 
-b) **Đúng.** Điểm thấp nhất là $(1; -4)$ và đồ thị đi lên mãi về hai phía.
+a) **Đúng.** Ta có $f(0)=0^2-2\cdot0-3=-3$, tức là đồ thị cắt trục tung tại $(0; -3)$.
 
-c) **Sai.** Trên $(-1; 1)$ đồ thị đi xuống, chẳng hạn $f(0)=-3>f(1)=-4$; $f$ chỉ đồng biến trên $(1; +\infty)$.
+b) **Đúng.** Vì $f(x)=(x-1)^2-4$ và $(x-1)^2$ nhận mọi giá trị trong $[0; +\infty)$ nên $f(x)$ nhận mọi giá trị trong $[-4; +\infty)$. Điểm thấp nhất của đồ thị là $(1; -4)$ và đồ thị đi lên mãi về hai phía.
 
-d) **Đúng.** Phần đồ thị nằm dưới trục hoành ứng với $x$ nằm giữa hai không điểm $-1$ và $3$.
+c) **Sai.** Hàm số nghịch biến trên $(-\infty; 1)$ và chỉ đồng biến trên $(1; +\infty)$. Khoảng $(-1; 3)$ chứa đoạn $(-1; 1)$ mà hàm số đi xuống, chẳng hạn $0<1$ nhưng $f(0)=-3>f(1)=-4$. Do đó $f$ không đồng biến trên $(-1; 3)$.
+
+d) **Đúng.** Ta có $f(x)=(x+1)(x-3)$ với hai nghiệm $-1$ và $3$, $a=1>0$ nên $f(x)<0$ khi và chỉ khi $x$ nằm giữa hai nghiệm, tức là $-1<x<3$. Đó chính là phần đồ thị nằm dưới trục hoành.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -342,7 +401,17 @@ d) **Đúng.** Phần đồ thị nằm dưới trục hoành ứng với $x$ n�
 2. Lấy giao của hai khoảng, rồi liệt kê các số nguyên trong đó.
 
 ::solution
-$x+3\ge0\iff x\ge-3$ và $2-x>0\iff x<2$. Vậy $D=[-3; 2)$, và các số nguyên trong $D$ là $-3, -2, -1, 0, 1$ (không lấy $2$).
+Hàm số $f(x)=\sqrt{x+3}+\dfrac{1}{\sqrt{2-x}}$ xác định khi cả hai số hạng có nghĩa.
+
+Số hạng $\sqrt{x+3}$ có nghĩa khi $x+3\ge0\iff x\ge-3$.
+
+Số hạng $\dfrac{1}{\sqrt{2-x}}$ có nghĩa khi $2-x\ge0$ và mẫu $\sqrt{2-x}\neq0$, tức là $2-x>0\iff x<2$.
+
+Lấy giao hai điều kiện, ta được $-3\le x<2$. Vậy $D=[-3; 2)$.
+
+Các số nguyên thuộc $D$ là $-3$, $-2$, $-1$, $0$, $1$. Số $2$ không thuộc $D$ vì $D$ không chứa đầu mút $2$.
+
+Vậy $D=[-3; 2)$ và $D\cap\mathbb{Z}=\{-3; -2; -1; 0; 1\}$.
 
 **Đáp số.** $D=[-3; 2)$; $D\cap\mathbb{Z}=\{-3; -2; -1; 0; 1\}$.
 :::
@@ -358,9 +427,18 @@ Tìm tập giá trị của $f(x)=x^2-4x+7$ trên $\mathbb{R}$ và trên đoạn
 2. Trên $[0; 3]$: tìm khoảng giá trị của $x-2$, rồi của $(x-2)^2$.
 
 ::solution
-Trên $\mathbb{R}$, $(x-2)^2$ nhận mọi giá trị trong $[0; +\infty)$, nên $f(x)$ nhận mọi giá trị trong $[3; +\infty)$.
+Ta viết lại hàm số bằng cách hoàn thành bình phương:
+$$f(x)=x^2-4x+7=(x-2)^2+3.$$
 
-Với $0\le x\le3$ thì $-2\le x-2\le1$, nên $(x-2)^2$ nhận mọi giá trị trong $[0; 4]$ (giá trị $4$ tại $x=0$, giá trị $0$ tại $x=2$). Do đó $f(x)$ nhận mọi giá trị trong $[3; 7]$.
+Trên $\mathbb{R}$: $(x-2)^2$ nhận mọi giá trị trong $[0; +\infty)$, nên $f(x)=(x-2)^2+3$ nhận mọi giá trị trong $[3; +\infty)$.
+
+Trên đoạn $[0; 3]$: từ $0\le x\le3$ suy ra $-2\le x-2\le1$.
+
+Khi đó $(x-2)^2$ nhỏ nhất bằng $0$ tại $x=2$ (thuộc đoạn $[0; 3]$) và lớn nhất bằng $4$ tại $x=0$ (vì $(-2)^2=4>1^2=1$). Do $(x-2)^2$ nhận mọi giá trị trong $[0; 4]$ nên $f(x)$ nhận mọi giá trị trong $[3; 7]$.
+
+Kiểm tra: $f(2)=3$, $f(0)=7$ và $f(3)=9-12+7=4$ đều nằm trong $[3; 7]$.
+
+Vậy tập giá trị của $f$ trên $\mathbb{R}$ là $[3; +\infty)$ và trên đoạn $[0; 3]$ là $[3; 7]$.
 
 **Đáp số.** Trên $\mathbb{R}$: $[3; +\infty)$; trên $[0; 3]$: $[3; 7]$.
 :::
@@ -376,11 +454,22 @@ Một nhà mạng có hai gói dữ liệu theo tháng. Gói A: $50$ nghìn đ�
 2. Giải $B(x)<A(x)$ trên từng điều kiện rồi gộp kết quả.
 
 ::solution
-Với $0\le x\le6$: $90<50+10x\iff x>4$, nên $4<x\le6$.
+Gọi $x$ (GB) là lượng dữ liệu dùng trong tháng, $x\ge0$. Số tiền (nghìn đồng) của hai gói là:
 
-Với $x>6$: $B(x)=90+15(x-6)=15x$, và $15x<50+10x\iff x<10$, nên $6<x<10$.
+- Gói A: $A(x)=50+10x$.
+- Gói B: $B(x)=90$ nếu $0\le x\le6$; và nếu $x>6$ thì $B(x)=90+15(x-6)=15x$.
 
-Gộp lại được $4<x<10$. **Kiểm tra.** Tại $x=4$: $A=B=90$; tại $x=10$: $A=B=150$.
+Ta tìm $x$ để $B(x)<A(x)$.
+
+Với $0\le x\le6$: $90<50+10x\iff40<10x\iff x>4$. Kết hợp với $0\le x\le6$, ta được $4<x\le6$.
+
+Với $x>6$: $15x<50+10x\iff5x<50\iff x<10$. Kết hợp với $x>6$, ta được $6<x<10$.
+
+Gộp hai trường hợp, ta được $4<x<10$.
+
+Kiểm tra: tại $x=4$ có $A=90=B$; tại $x=10$ có $A=150=B$; tại $x=5$ có $A=100>B=90$ (gói B rẻ hơn); tại $x=12$ có $A=170<B=180$ (gói B đắt hơn).
+
+Vậy gói B rẻ hơn gói A khi $4<x<10$ (GB).
 
 **Đáp số.** Gói B rẻ hơn khi $4<x<10$ (GB).
 :::

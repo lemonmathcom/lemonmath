@@ -228,7 +228,14 @@ Thời gian chờ (phút) của $10$ khách hàng được ghép nhóm: nhóm $[
 2. Tính tổng $n_ix_i$ rồi chia cho $10$.
 
 ::solution
-$\bar x=\dfrac{3\cdot2+5\cdot6+2\cdot10}{10}=\dfrac{56}{10}=5{,}6$. Phương án B là trung bình của ba giá trị đại diện, phương án C chia cho $3$ thay vì $10$, phương án D dùng đầu mút trái.
+Với mẫu số liệu ghép nhóm, ta lấy giá trị đại diện của mỗi nhóm là trung điểm của nhóm đó. Các giá trị đại diện của ba nhóm $[0; 4)$, $[4; 8)$, $[8; 12)$ lần lượt là $2$, $6$, $10$.
+
+Áp dụng công thức số trung bình của mẫu số liệu ghép nhóm, với cỡ mẫu $n=10$, ta có
+$$\bar x=\frac{3\cdot2+5\cdot6+2\cdot10}{10}=\frac{6+30+20}{10}=\frac{56}{10}=5{,}6.$$
+
+Vậy số trung bình của mẫu số liệu là $5{,}6$. Vậy chọn **A**.
+
+*Nhận xét.* Phương án B là trung bình của ba giá trị đại diện; phương án C chia cho $3$ thay vì $10$; phương án D dùng đầu mút trái của các nhóm.
 
 **Đáp số.** A.
 :::
@@ -250,7 +257,17 @@ $\bar x=\dfrac{3\cdot2+5\cdot6+2\cdot10}{10}=\dfrac{56}{10}=5{,}6$. Phương án
 2. Thay vào công thức với $C=12$, $n_m=16$.
 
 ::solution
-$M_e=7+\dfrac{25-12}{16}\cdot1=7{,}8125\approx7{,}81$. Phương án C lấy $C=28$ (gồm cả nhóm chứa trung vị), phương án D dùng nhầm tần số $14$ của nhóm sau, phương án B chỉ là trung điểm nhóm.
+Cỡ mẫu là $n=50$, nên $\dfrac n2=25$. Tần số tích luỹ của các nhóm lần lượt là
+$$4,\quad4+8=12,\quad12+16=28,\quad28+14=42,\quad42+8=50.$$
+
+Nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $25$ là $[7; 8)$, nên đây là nhóm chứa trung vị. Ta có $u_m=7$, tần số của nhóm là $n_m=16$, tần số tích luỹ của các nhóm đứng trước là $C=12$, độ rộng nhóm là $1$.
+
+Áp dụng công thức trung vị của mẫu số liệu ghép nhóm, ta có
+$$M_e=u_m+\frac{\frac n2-C}{n_m}\cdot(u_{m+1}-u_m)=7+\frac{25-12}{16}\cdot1=7{,}8125\approx7{,}81.$$
+
+Vậy trung vị của mẫu số liệu xấp xỉ $7{,}81$. Vậy chọn **A**.
+
+*Nhận xét.* Phương án C lấy $C=28$ (gồm cả nhóm chứa trung vị); phương án D dùng nhầm tần số $14$ của nhóm sau; phương án B chỉ là trung điểm của nhóm.
 
 **Đáp số.** A.
 :::
@@ -274,13 +291,21 @@ d) Độ lệch chuẩn của mẫu số liệu bằng $12{,}5$ kg.
 2. Tần số tích luỹ $5$, $15$, $20$; $\dfrac n4=5$.
 
 ::solution
-a) **Sai.** Nhóm có tần số lớn nhất là $[50; 55)$.
+Cỡ mẫu là $n=20$. Giá trị đại diện của ba nhóm $[45; 50)$, $[50; 55)$, $[55; 60)$ lần lượt là $47{,}5$; $52{,}5$; $57{,}5$.
 
-b) **Đúng.** Nhóm đầu tiên có tần số tích luỹ $\ge5$ là $[45; 50)$: $Q_1=45+\dfrac{5-0}{5}\cdot5=50$.
+a) **Sai.** Nhóm có tần số lớn nhất là $[50; 55)$ (tần số $10$), nên mốt của mẫu số liệu thuộc nhóm $[50; 55)$, không phải nhóm $[55; 60)$.
 
-c) **Đúng.** $s^2=\dfrac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\dfrac{250}{20}=12{,}5$.
+b) **Đúng.** Ta có $\dfrac n4=5$. Nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $5$ là $[45; 50)$, với tần số tích luỹ của các nhóm đứng trước bằng $0$ và tần số của nhóm bằng $5$. Do đó
+$$Q_1=45+\frac{5-0}{5}\cdot5=50.$$
 
-d) **Sai.** $s=\sqrt{12{,}5}\approx3{,}54$ kg.
+c) **Đúng.** Số trung bình là
+$$\bar x=\frac{5\cdot47{,}5+10\cdot52{,}5+5\cdot57{,}5}{20}=\frac{1050}{20}=52{,}5.$$
+Các độ lệch của giá trị đại diện so với số trung bình là $-5$, $0$, $5$. Do đó phương sai là
+$$s^2=\frac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\frac{250}{20}=12{,}5.$$
+
+d) **Sai.** Độ lệch chuẩn là căn bậc hai của phương sai: $s=\sqrt{12{,}5}\approx3{,}54$ kg, không phải $12{,}5$ kg (số $12{,}5$ là phương sai).
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -300,9 +325,18 @@ Tính khoảng tứ phân vị của mẫu số liệu ghép nhóm sau (làm tr�
 2. Vị trí $10$ thuộc $[10; 20)$, vị trí $30$ thuộc $[20; 30)$.
 
 ::solution
-$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14{,}17,\qquad Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28{,}67.$$
+Cỡ mẫu là $n=5+12+15+8=40$. Tần số tích luỹ của các nhóm lần lượt là $5$, $17$, $32$, $40$.
 
-Để tránh sai số làm tròn, ta trừ hai phân số: $\Delta_Q=\dfrac{86}{3}-\dfrac{85}{6}=\dfrac{87}{6}=14{,}5$.
+Tứ phân vị thứ nhất: $\dfrac n4=10$. Nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $10$ là $[10; 20)$, với tần số tích luỹ của các nhóm đứng trước bằng $5$, tần số của nhóm bằng $12$, độ rộng nhóm bằng $10$. Do đó
+$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14{,}17.$$
+
+Tứ phân vị thứ ba: $\dfrac{3n}{4}=30$. Nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $30$ là $[20; 30)$, với tần số tích luỹ của các nhóm đứng trước bằng $17$, tần số của nhóm bằng $15$, độ rộng nhóm bằng $10$. Do đó
+$$Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28{,}67.$$
+
+Khoảng tứ phân vị là $\Delta_Q=Q_3-Q_1$. Để tránh sai số làm tròn, ta trừ hai phân số:
+$$\Delta_Q=\frac{86}{3}-\frac{85}{6}=\frac{172}{6}-\frac{85}{6}=\frac{87}{6}=14{,}5.$$
+
+Vậy khoảng tứ phân vị của mẫu số liệu là $14{,}5$.
 
 **Đáp số.** $14{,}5$.
 :::
@@ -320,7 +354,15 @@ Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}4$ và $P(B)=0{,}5$. X
 2. Thay vào công thức cộng.
 
 ::solution
-$P(A\cap B)=0{,}2$, nên $P(A\cup B)=0{,}4+0{,}5-0{,}2=0{,}7$. Phương án A coi $A$, $B$ xung khắc; phương án B là $P(A\cap B)$; phương án D là $1-0{,}7$.
+Vì hai biến cố $A$, $B$ độc lập nên
+$$P(A\cap B)=P(A)\cdot P(B)=0{,}4\cdot0{,}5=0{,}2.$$
+
+Áp dụng công thức cộng xác suất, ta có
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0{,}4+0{,}5-0{,}2=0{,}7.$$
+
+Vậy $P(A\cup B)=0{,}7$. Vậy chọn **C**.
+
+*Nhận xét.* Phương án A coi $A$, $B$ xung khắc; phương án B là $P(A\cap B)$; phương án D là $1-0{,}7$.
 
 **Đáp số.** C.
 :::
@@ -336,7 +378,16 @@ Một hộp có $10$ tấm thẻ, trong đó có $4$ thẻ đỏ. Lấy lần l�
 2. Sau khi lấy một thẻ đỏ, còn $3$ thẻ đỏ trong $9$ thẻ.
 
 ::solution
-$P=\dfrac{4}{10}\cdot\dfrac39=\dfrac{2}{15}\approx0{,}133$.
+Gọi $A_1$ là biến cố "Thẻ lấy lần thứ nhất là thẻ đỏ" và $A_2$ là biến cố "Thẻ lấy lần thứ hai là thẻ đỏ". Cần tính $P(A_1\cap A_2)$.
+
+Hộp có $10$ thẻ, trong đó có $4$ thẻ đỏ nên $P(A_1)=\dfrac{4}{10}$.
+
+Sau khi lấy một thẻ đỏ (không hoàn lại), hộp còn $9$ thẻ, trong đó có $3$ thẻ đỏ nên $P(A_2\mid A_1)=\dfrac39$.
+
+Áp dụng công thức nhân xác suất, ta có
+$$P(A_1\cap A_2)=P(A_1)\cdot P(A_2\mid A_1)=\frac{4}{10}\cdot\frac39=\frac{2}{15}\approx0{,}133.$$
+
+Vậy xác suất để cả hai thẻ đều đỏ xấp xỉ $0{,}13$.
 
 **Đáp số.** $0{,}13$.
 :::
@@ -352,7 +403,16 @@ Trong hộp thư của một công ty, $30\%$ số thư là thư rác. Bộ lọ
 2. Chia nhánh "rác và bị đánh dấu" cho kết quả đó.
 
 ::solution
-$P(\text{đánh dấu})=0{,}27+0{,}035=0{,}305$, nên $P(\text{rác}\mid\text{đánh dấu})=\dfrac{0{,}27}{0{,}305}\approx0{,}885$.
+Gọi $S$ là biến cố "Thư là thư rác" và $M$ là biến cố "Thư bị đánh dấu rác". Theo đề bài,
+$$P(S)=0{,}3,\quad P\left(\overline S\right)=0{,}7,\quad P(M\mid S)=0{,}9,\quad P\left(M\mid\overline S\right)=0{,}05.$$
+
+Áp dụng công thức xác suất toàn phần, ta có
+$$P(M)=P(S)\cdot P(M\mid S)+P\left(\overline S\right)\cdot P\left(M\mid\overline S\right)=0{,}3\cdot0{,}9+0{,}7\cdot0{,}05=0{,}27+0{,}035=0{,}305.$$
+
+Áp dụng công thức Bayes, xác suất thư bị đánh dấu "rác" đó thật sự là thư rác là
+$$P(S\mid M)=\frac{P(S)\cdot P(M\mid S)}{P(M)}=\frac{0{,}27}{0{,}305}\approx0{,}885.$$
+
+Vậy xác suất để thư đó thật sự là thư rác xấp xỉ $0{,}89$.
 
 **Đáp số.** $0{,}89$.
 :::
@@ -368,7 +428,16 @@ $P(\text{đánh dấu})=0{,}27+0{,}035=0{,}305$, nên $P(\text{rác}\mid\text{đ
 2. Dùng công thức Bayes cho "mưa khi biết đi muộn".
 
 ::solution
-$P(\text{muộn})=0{,}3\cdot0{,}4+0{,}7\cdot0{,}1=0{,}12+0{,}07=0{,}19$. Khi đó $P(\text{mưa}\mid\text{muộn})=\dfrac{0{,}12}{0{,}19}=\dfrac{12}{19}\approx0{,}63$.
+Gọi $R$ là biến cố "Hôm đó trời mưa" và $L$ là biến cố "Minh đi học muộn". Theo đề bài,
+$$P(R)=0{,}3,\quad P\left(\overline R\right)=0{,}7,\quad P(L\mid R)=0{,}4,\quad P\left(L\mid\overline R\right)=0{,}1.$$
+
+Xác suất Minh đi học muộn vào một ngày bất kì: áp dụng công thức xác suất toàn phần, ta có
+$$P(L)=P(R)\cdot P(L\mid R)+P\left(\overline R\right)\cdot P\left(L\mid\overline R\right)=0{,}3\cdot0{,}4+0{,}7\cdot0{,}1=0{,}12+0{,}07=0{,}19.$$
+
+Xác suất hôm nay trời mưa, biết Minh đi học muộn: áp dụng công thức Bayes, ta có
+$$P(R\mid L)=\frac{P(R)\cdot P(L\mid R)}{P(L)}=\frac{0{,}12}{0{,}19}=\frac{12}{19}\approx0{,}63.$$
+
+Vậy xác suất Minh đi học muộn vào một ngày bất kì là $0{,}19$; biết hôm nay Minh đi học muộn thì xác suất hôm nay trời mưa xấp xỉ $0{,}63$.
 
 **Đáp số.** $0{,}19$ và khoảng $0{,}63$.
 :::
@@ -388,7 +457,20 @@ Tính độ lệch chuẩn của mẫu số liệu ghép nhóm sau.
 2. Tính trung bình các bình phương, trừ $\bar x^2$, rồi lấy căn.
 
 ::solution
-$\bar x=\dfrac{12+40+42+18}{20}=5{,}6$. $\dfrac{4\cdot9+8\cdot25+6\cdot49+2\cdot81}{20}=\dfrac{692}{20}=34{,}6$, nên $s^2=34{,}6-31{,}36=3{,}24$ và $s=1{,}8$.
+Cỡ mẫu là $n=4+8+6+2=20$. Giá trị đại diện của bốn nhóm $[2; 4)$, $[4; 6)$, $[6; 8)$, $[8; 10)$ lần lượt là $3$, $5$, $7$, $9$.
+
+Số trung bình của mẫu số liệu là
+$$\bar x=\frac{4\cdot3+8\cdot5+6\cdot7+2\cdot9}{20}=\frac{12+40+42+18}{20}=\frac{112}{20}=5{,}6.$$
+
+Áp dụng công thức phương sai $s^2=\dfrac{\sum n_ix_i^2}{n}-\bar x^2$, ta có
+$$\frac{4\cdot3^2+8\cdot5^2+6\cdot7^2+2\cdot9^2}{20}=\frac{36+200+294+162}{20}=\frac{692}{20}=34{,}6,$$
+nên
+$$s^2=34{,}6-5{,}6^2=34{,}6-31{,}36=3{,}24.$$
+
+Độ lệch chuẩn là căn bậc hai của phương sai:
+$$s=\sqrt{3{,}24}=1{,}8.$$
+
+Vậy độ lệch chuẩn của mẫu số liệu là $1{,}8$.
 
 **Đáp số.** $1{,}8$.
 :::
@@ -404,7 +486,16 @@ Một cửa hàng nhập linh kiện từ ba nhà cung cấp X, Y, Z với tỉ 
 2. Chia nhánh của Z cho $P(\text{lỗi})$.
 
 ::solution
-$P(\text{lỗi})=0{,}5\cdot0{,}01+0{,}3\cdot0{,}02+0{,}2\cdot0{,}03=0{,}005+0{,}006+0{,}006=0{,}017$. Khi đó $P(Z\mid\text{lỗi})=\dfrac{0{,}006}{0{,}017}\approx0{,}353$.
+Gọi $Z$ là biến cố "Linh kiện do nhà cung cấp Z cung cấp", tương tự có $X$, $Y$; gọi $F$ là biến cố "Linh kiện bị lỗi". Theo đề bài,
+$$P(X)=0{,}5,\quad P(Y)=0{,}3,\quad P(Z)=0{,}2,\quad P(F\mid X)=0{,}01,\quad P(F\mid Y)=0{,}02,\quad P(F\mid Z)=0{,}03.$$
+
+Ba biến cố $X$, $Y$, $Z$ đôi một xung khắc và có tổng xác suất bằng $1$. Áp dụng công thức xác suất toàn phần, ta có
+$$P(F)=0{,}5\cdot0{,}01+0{,}3\cdot0{,}02+0{,}2\cdot0{,}03=0{,}005+0{,}006+0{,}006=0{,}017.$$
+
+Áp dụng công thức Bayes, ta có
+$$P(Z\mid F)=\frac{P(Z)\cdot P(F\mid Z)}{P(F)}=\frac{0{,}006}{0{,}017}\approx0{,}353.$$
+
+Vậy xác suất để linh kiện bị lỗi đó do nhà cung cấp Z cung cấp xấp xỉ $0{,}35$.
 
 **Đáp số.** $0{,}35$.
 :::

@@ -181,8 +181,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Trừ hàng đơn vị, rồi hàng chục, rồi hàng trăm.
 
 ::solution
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị, hàng chục đến hàng trăm.
+
 $$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
-Hàng đơn vị: $6-4=2$. Hàng chục: $8-5=3$. Hàng trăm: $7-3=4$.
+
+Hàng đơn vị: $6-4=2$, viết $2$.
+
+Hàng chục: $8-5=3$, viết $3$.
+
+Hàng trăm: $7-3=4$, viết $4$.
+
+Thử lại: $432+354=786$.
+
+Vậy $786-354=432$.
 
 **Đáp số.** $432$.
 :::
@@ -198,9 +209,13 @@ Tính nhẩm: $900-400$ và $640-30$.
 2. $640$ là bao nhiêu chục? $30$ là bao nhiêu chục?
 
 ::solution
-$9$ trăm trừ $4$ trăm bằng $5$ trăm, nên $900-400=500$.
+Ta tính nhẩm theo số trăm và số chục.
 
-$64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
+$900$ là $9$ trăm, $400$ là $4$ trăm. $9$ trăm trừ $4$ trăm bằng $5$ trăm, nên $900-400=500$.
+
+$640$ là $64$ chục, $30$ là $3$ chục. $64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
+
+Vậy $900-400=500$ và $640-30=610$.
 
 **Đáp số.** $500$ và $610$.
 :::
@@ -216,8 +231,19 @@ $64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
 2. Hàng chục lúc này còn bao nhiêu?
 
 ::solution
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị, hàng chục đến hàng trăm.
+
 $$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
-Hàng đơn vị: $11-7=4$, hàng chục còn $3$. Hàng chục: $3-1=2$. Hàng trăm: $5-2=3$.
+
+Hàng đơn vị: $1$ không trừ được $7$, nên mượn $1$ chục. Ta có $11-7=4$, viết $4$; hàng chục còn $3$.
+
+Hàng chục: $3-1=2$, viết $2$.
+
+Hàng trăm: $5-2=3$, viết $3$.
+
+Thử lại: $324+217=541$.
+
+Vậy $541-217=324$.
 
 **Đáp số.** $324$.
 :::
@@ -233,8 +259,19 @@ Hàng đơn vị: $11-7=4$, hàng chục còn $3$. Hàng chục: $3-1=2$. Hàng 
 2. Hàng chục: $1$ không trừ được $8$, lấy $11-8$.
 
 ::solution
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị, hàng chục đến hàng trăm.
+
 $$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
-Hàng đơn vị: $15-7=8$, hàng chục còn $1$. Hàng chục: $11-8=3$, hàng trăm còn $5$. Hàng trăm: $5-3=2$.
+
+Hàng đơn vị: $5$ không trừ được $7$, nên mượn $1$ chục. Ta có $15-7=8$, viết $8$; hàng chục còn $1$.
+
+Hàng chục: $1$ không trừ được $8$, nên mượn $1$ trăm. Ta có $11-8=3$, viết $3$; hàng trăm còn $5$.
+
+Hàng trăm: $5-3=2$, viết $2$.
+
+Thử lại: $238+387=625$.
+
+Vậy $625-387=238$.
 
 **Đáp số.** $238$.
 :::
@@ -250,9 +287,16 @@ Một cửa hàng có $735$ kg gạo, ngày đầu bán được $258$ kg. Hỏi
 2. Viết phép tính $735-258$, đặt tính rồi thử lại bằng phép cộng.
 
 ::solution
+Bài giải
+
 Số ki-lô-gam gạo cửa hàng còn lại là:
 $$735-258=477\ \text{(kg)}.$$
-Hàng đơn vị: $15-8=7$, hàng chục còn $2$. Hàng chục: $12-5=7$, hàng trăm còn $6$. Hàng trăm: $6-2=4$.
+
+Cách tính: hàng đơn vị $5$ không trừ được $8$, mượn $1$ chục, $15-8=7$, hàng chục còn $2$. Hàng chục: $2$ không trừ được $5$, mượn $1$ trăm, $12-5=7$, hàng trăm còn $6$. Hàng trăm: $6-2=4$.
+
+Thử lại: $477+258=735$.
+
+Vậy cửa hàng còn lại $477$ kg gạo.
 
 **Đáp số.** $477$ kg gạo.
 :::
@@ -288,9 +332,16 @@ Bể nước nhà bác An chứa $650$ lít nước. Sau một tuần dùng, b�
 2. Đặt tính $650-275$: hàng đơn vị là $0$, em đổi từ hàng chục.
 
 ::solution
+Bài giải
+
 Số lít nước còn lại trong bể là:
 $$650-275=375\ \text{(lít)}.$$
-Hàng đơn vị: $10-5=5$, hàng chục còn $4$. Hàng chục: $14-7=7$, hàng trăm còn $5$. Hàng trăm: $5-2=3$.
+
+Cách tính: hàng đơn vị $0$ không trừ được $5$, mượn $1$ chục, $10-5=5$, hàng chục còn $4$. Hàng chục: $4$ không trừ được $7$, mượn $1$ trăm, $14-7=7$, hàng trăm còn $5$. Hàng trăm: $5-2=3$.
+
+Thử lại: $375+275=650$.
+
+Vậy bể còn lại $375$ lít nước.
 
 **Đáp số.** $375$ lít nước.
 :::
@@ -306,12 +357,16 @@ Tính nhanh $400-138$. Gợi ý: viết $400=399+1$.
 2. Cộng thêm $1$ để được kết quả của $400-138$.
 
 ::solution
-Ta có $400-138=(399-138)+1$.
+Ta viết $400=399+1$. Khi bớt đi cùng một số $138$, ta có
+$$400-138=(399+1)-138=(399-138)+1.$$
 
-$$399-138=261.$$
-Vậy $400-138=261+1=262$.
+Tính $399-138$ (không nhớ): hàng đơn vị $9-8=1$, hàng chục $9-3=6$, hàng trăm $3-1=2$. Vậy $399-138=261$.
+
+Do đó $400-138=261+1=262$.
 
 Thử lại: $262+138=400$. Đúng.
+
+Vậy $400-138=262$.
 
 **Đáp số.** $262$.
 :::

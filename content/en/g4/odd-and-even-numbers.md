@@ -135,7 +135,14 @@ Among the numbers $7\,482$; $6\,135$; $20\,508$; $9\,999$, which are even?
 2. Choose the numbers whose last digit is even.
 
 ::solution
-The last digits are $2$, $5$, $8$, $9$. So the even numbers are $7\,482$ and $20\,508$.
+An even number is a number whose last digit is $0$, $2$, $4$, $6$ or $8$. We look at the last digit of each number:
+
+- $7\,482$ ends in $2$, so it is even.
+- $6\,135$ ends in $5$, so it is odd.
+- $20\,508$ ends in $8$, so it is even.
+- $9\,999$ ends in $9$, so it is odd.
+
+So the even numbers are $7\,482$ and $20\,508$.
 
 **Answer.** $7\,482$ and $20\,508$.
 :::
@@ -152,9 +159,13 @@ b) Write three consecutive odd numbers starting from $49$.
 2. Add $2$ again to get the third.
 
 ::solution
-a) $96$; $96+2=98$; $98+2=100$.
+Two consecutive even numbers differ by $2$, and two consecutive odd numbers also differ by $2$.
 
-b) $49$; $49+2=51$; $51+2=53$.
+a) Starting from $96$, we have $96$; $96+2=98$; $98+2=100$.
+
+b) Starting from $49$, we have $49$; $49+2=51$; $51+2=53$.
+
+So the three consecutive even numbers are $96$, $98$, $100$ and the three consecutive odd numbers are $49$, $51$, $53$.
 
 **Answer.** a) $96$, $98$, $100$. b) $49$, $51$, $53$.
 :::
@@ -171,9 +182,13 @@ b) Find the least three-digit odd number whose digits are all different.
 2. Part b): start with the smallest non-zero first digit.
 
 ::solution
-a) Take the biggest digits: $9$, $8$, $7$, $6$. The number $9\,876$ ends in $6$, so it is even.
+a) For a four-digit number with different digits to be as large as possible, we take the largest digits in decreasing order: $9$, $8$, $7$, $6$. The number $9\,876$ ends in $6$, so it is even.
 
-b) The smallest hundreds digit is $1$. The smallest tens digit other than $1$ is $0$. The ones digit is the smallest odd digit other than $1$, which is $3$. This gives $103$.
+So the greatest four-digit even number with different digits is $9\,876$.
+
+b) For a three-digit number with different digits to be as small as possible, the hundreds digit must be the smallest, which is $1$. The smallest tens digit other than $1$ is $0$. The ones digit must be odd, different from $1$ and $0$, and as small as possible, which is $3$. This gives $103$.
+
+So the least three-digit odd number with different digits is $103$.
 
 **Answer.** a) $9\,876$. b) $103$.
 :::
@@ -189,7 +204,14 @@ Is the sum of two odd numbers even or odd? Try three pairs: $3+5$; $7+9$; $11+15
 2. Look at the last digit of each sum.
 
 ::solution
-$3+5=8$; $7+9=16$; $11+15=26$. All three sums end in an even digit. Why? Each odd number is an even number plus $1$, so two odd numbers together have an extra $1+1=2$, and the total still divides exactly by $2$.
+We work out the sum of each pair:
+$$3+5=8;\qquad 7+9=16;\qquad 11+15=26.$$
+
+All three sums $8$, $16$, $26$ end in an even digit, so they are all even.
+
+Why is this? Each odd number is an even number plus $1$, so when we add two odd numbers, we get an even number plus $1+1=2$. The total still divides exactly by $2$.
+
+So the sum of two odd numbers is even.
 
 **Answer.** The sum of two odd numbers is even.
 :::
@@ -205,7 +227,13 @@ Binh says: "$1\,250$ is odd because it has the digit $5$". Where did Binh go wro
 2. Try dividing $1\,250\div2$.
 
 ::solution
-The last digit of $1\,250$ is $0$. Divide: $1\,250\div2=625$ with no remainder.
+Whether a number is even or odd depends on its last digit, not on whether the number contains the digit $5$.
+
+The last digit of $1\,250$ is $0$, so $1\,250$ is even.
+
+Check by division: $1\,250\div2=625$ with no remainder.
+
+So Binh went wrong by relying on the digit $5$ in the tens place; the correct statement is: $1\,250$ is even because it ends in $0$.
 
 **Answer.** Binh is wrong: $1\,250$ is even because it ends in $0$.
 :::
@@ -224,9 +252,12 @@ b) In which case is a pupil left over?
 2. Look at the remainder.
 
 ::solution
-a) $34\div2=17$, remainder $0$. $35\div2=17$, remainder $1$.
+a) We do the two divisions:
+$$34\div2=17\ \text{(remainder }0\text{)};\qquad 35\div2=17\ \text{(remainder }1\text{)}.$$
 
-b) With $35$ pupils, $1$ pupil is left over.
+b) Lining up in pairs means every $2$ pupils form one row. With $34$ pupils the division is exact, so no pupil is left over. With $35$ pupils there is a remainder of $1$, so one pupil has no partner.
+
+So a pupil is left over in the case with $35$ pupils.
 
 **Answer.** a) $17$ remainder $0$; $17$ remainder $1$. b) The case with $35$ pupils.
 :::
@@ -242,7 +273,14 @@ A row of houses has consecutive odd numbers: $15$, $17$, $19$, …. Which house 
 2. Count them.
 
 ::solution
-The row: $15$, $17$, $19$, $21$, $23$, $25$. The number $25$ is the $6$th. Each number is $2$ more than the one before, so the last digit stays odd.
+The row of consecutive odd numbers, each $2$ more than the one before, is:
+$$15,\ 17,\ 19,\ 21,\ 23,\ 25.$$
+
+The number $15$ is the first, $17$ is the second, $19$ is the third, $21$ is the fourth, $23$ is the fifth and $25$ is the sixth.
+
+All the numbers in the row are odd because each number is the one before it plus $2$; adding $2$ to an odd number leaves the last digit odd.
+
+So house number $25$ is the $6$th house in the row.
 
 **Answer.** House number $25$ is the $6$th house.
 :::
@@ -258,7 +296,15 @@ How many two-digit even numbers are there? How many two-digit odd numbers are th
 2. Multiply the number of groups by $5$.
 
 ::solution
-The groups of ten from $10$ to $99$ are $10$–$19$, $20$–$29$, …, $90$–$99$: $9$ groups. Each group has $5$ even and $5$ odd numbers. Even numbers: $9\times5=45$. Odd numbers: $9\times5=45$.
+The two-digit numbers are the numbers from $10$ to $99$. We split them into groups of ten: $10$–$19$, $20$–$29$, ..., $90$–$99$. There are $9$ such groups.
+
+Each group has $10$ numbers: $5$ even numbers (ending in $0$, $2$, $4$, $6$, $8$) and $5$ odd numbers (ending in $1$, $3$, $5$, $7$, $9$).
+
+The number of two-digit even numbers is $9\times5=45$.
+
+The number of two-digit odd numbers is $9\times5=45$.
+
+So there are $45$ two-digit even numbers and $45$ two-digit odd numbers.
 
 **Answer.** $45$ even numbers and $45$ odd numbers.
 :::

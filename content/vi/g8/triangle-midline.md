@@ -179,7 +179,10 @@ Tam giác $ABC$ có $BC=18$ cm. Gọi $D$, $E$ là trung điểm của $AB$, $AC
 2. Lấy một nửa của $BC$.
 
 ::solution
-$DE$ là đường trung bình của tam giác $ABC$ nên $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+Vì $D$, $E$ lần lượt là trung điểm của $AB$, $AC$ nên $DE$ là đường trung bình của tam giác $ABC$.
+
+Đường trung bình của tam giác thì song song với cạnh thứ ba và bằng một nửa cạnh ấy, nên
+$$DE=\frac12BC=\frac12\cdot18=9\ \text{(cm)}.$$
 
 Vậy $DE=9$ cm.
 
@@ -197,7 +200,10 @@ Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=7{,}5$ c
 2. Nhân đôi $DE$.
 
 ::solution
-Vì $DE$ là đường trung bình nên $BC=2DE=2\cdot7{,}5=15$ (cm).
+Vì $D$, $E$ lần lượt là trung điểm của $AB$, $AC$ nên $DE$ là đường trung bình của tam giác $ABC$.
+
+Do đó $DE=\dfrac12BC$, suy ra
+$$BC=2DE=2\cdot7{,}5=15\ \text{(cm)}.$$
 
 Vậy $BC=15$ cm.
 
@@ -233,7 +239,12 @@ Tam giác $ABC$ có $\widehat{B}=60^\circ$ và $\widehat{C}=75^\circ$. Gọi $D$
 2. Dùng cặp góc đồng vị.
 
 ::solution
-Vì $DE$ là đường trung bình nên $DE\parallel BC$. Do đó $\widehat{ADE}=\widehat{B}=60^\circ$ và $\widehat{AED}=\widehat{C}=75^\circ$ (các cặp góc đồng vị).
+Vì $D$, $E$ lần lượt là trung điểm của $AB$, $AC$ nên $DE$ là đường trung bình của tam giác $ABC$, do đó $DE\parallel BC$.
+
+Vì $DE\parallel BC$ nên các cặp góc đồng vị bằng nhau:
+$$\widehat{ADE}=\widehat B=60^\circ,\qquad\widehat{AED}=\widehat C=75^\circ.$$
+
+Kiểm tra: trong tam giác $ABC$ có $\widehat A=180^\circ-60^\circ-75^\circ=45^\circ$, và trong tam giác $ADE$ có $45^\circ+60^\circ+75^\circ=180^\circ$.
 
 Vậy $\widehat{ADE}=60^\circ$ và $\widehat{AED}=75^\circ$.
 
@@ -287,7 +298,10 @@ Giả sử hai điểm $A$, $B$ nằm ở hai bờ của một đầm lầy. Ch�
 2. Nhân đôi $MN$.
 
 ::solution
-$MN$ là đường trung bình của tam giác $CAB$ nên $AB=2MN=2\cdot23=46$ (m).
+Xét tam giác $CAB$. Vì $M$, $N$ lần lượt là trung điểm của $CA$, $CB$ nên $MN$ là đường trung bình của tam giác $CAB$.
+
+Do đó $MN=\dfrac12AB$, suy ra
+$$AB=2MN=2\cdot23=46\ \text{(m)}.$$
 
 Vậy khoảng cách $AB$ là $46$ m.
 

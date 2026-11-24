@@ -135,7 +135,13 @@ c) $50\;\square\;50$.
 2. Compare the tens and choose the sign.
 
 ::solution
-a) $2$ tens is less than $4$ tens. b) $7$ tens is greater than $3$ tens. c) The two numbers are equal.
+a) $20$ is $2$ tens and $40$ is $4$ tens. Since $2<4$, we have $20<40$.
+
+b) $70$ is $7$ tens and $30$ is $3$ tens. Since $7>3$, we have $70>30$.
+
+c) $50$ and $50$ are both $5$ tens, so the two numbers are equal, $50=50$.
+
+So we write: $20<40$; $70>30$; $50=50$.
 
 **Answer.** a) $<$; b) $>$; c) $=$.
 :::
@@ -157,7 +163,13 @@ c) $400\;\square\;400$.
 2. Compare the hundreds and choose the sign.
 
 ::solution
-a) $3$ hundreds is less than $8$ hundreds. b) $9$ hundreds is greater than $6$ hundreds. c) The two numbers are equal.
+a) $300$ is $3$ hundreds and $800$ is $8$ hundreds. Since $3<8$, we have $300<800$.
+
+b) $900$ is $9$ hundreds and $600$ is $6$ hundreds. Since $9>6$, we have $900>600$.
+
+c) $400$ and $400$ are both $4$ hundreds, so the two numbers are equal, $400=400$.
+
+So we write: $300<800$; $900>600$; $400=400$.
 
 **Answer.** a) $<$; b) $>$; c) $=$.
 :::
@@ -173,7 +185,12 @@ Remember the last lesson. Write $6$ tens and $4$ hundreds as numbers, then write
 2. Remember that $10$ tens make $1$ hundred, then compare.
 
 ::solution
-$6$ tens is $60$ and $4$ hundreds is $400$. $60$ is not even $1$ hundred, so it is less than $400$.
+Write them as numbers:
+$$6\ \text{tens}=60,\qquad 4\ \text{hundreds}=400.$$
+
+The number $60$ is not even $1$ hundred, while $400$ is $4$ hundreds, so $60$ is less than $400$.
+
+So $6$ tens $<$ $4$ hundreds, that is $60<400$.
 
 **Answer.** $60<400$.
 :::
@@ -193,7 +210,17 @@ b) Largest first: $200, 700, 100, 500$.
 2. Pick the numbers one at a time.
 
 ::solution
-a) Tens: $6, 1, 9, 3$. Smallest first: $1, 3, 6, 9$ tens. b) Hundreds: $2, 7, 1, 5$. Largest first: $7, 5, 2, 1$ hundreds.
+a) Count in tens: $60$ is $6$ tens, $10$ is $1$ ten, $90$ is $9$ tens, $30$ is $3$ tens.
+
+Compare the tens: $1<3<6<9$.
+
+So the numbers from smallest to largest are $10, 30, 60, 90$.
+
+b) Count in hundreds: $200$ is $2$ hundreds, $700$ is $7$ hundreds, $100$ is $1$ hundred, $500$ is $5$ hundreds.
+
+Compare the hundreds: $7>5>2>1$.
+
+So the numbers from largest to smallest are $700, 500, 200, 100$.
 
 **Answer.** a) $10, 30, 60, 90$; b) $700, 500, 200, 100$.
 :::
@@ -209,7 +236,15 @@ Write $>$, $<$ or $=$: $50\;\square\;500$. Why?
 2. How many tens are in $5$ hundreds?
 
 ::solution
-$500$ is $5$ hundreds, which is $50$ tens. $50$ tens is greater than $5$ tens.
+We write both numbers in the same unit, tens.
+
+The number $50$ is $5$ tens.
+
+The number $500$ is $5$ hundreds, and $1$ hundred is $10$ tens, so $500$ is $50$ tens.
+
+Since $5$ tens is less than $50$ tens, we have $50<500$.
+
+So we write the sign $<$: $50<500$. This is because $500$ is $50$ tens, while $50$ is only $5$ tens.
 
 **Answer.** $50<500$.
 :::
@@ -225,7 +260,15 @@ Nam says: "$90>100$ because $9>1$." What is wrong with what Nam says? Correct it
 2. Compare $9$ tens and $10$ tens.
 
 ::solution
-$100$ is $10$ tens, but $90$ has only $9$ tens. Nam must not compare the first digits.
+The number $100$ is $1$ hundred, which is $10$ tens.
+
+The number $90$ has only $9$ tens.
+
+Since $9<10$, we have $90<100$.
+
+Nam is wrong because he only compares the first digits ($9$ and $1$) and does not notice that $100$ has three digits while $90$ has only two. To compare, we must compare by place value or write both numbers in the same unit.
+
+So Nam is wrong; the correct statement is $90<100$.
 
 **Answer.** $90<100$.
 :::
@@ -241,7 +284,15 @@ A supermarket has $60$ tins of milk and $40$ cans of fizzy drink. Which has more
 2. Compare $60$ and $40$.
 
 ::solution
-$6$ tens is greater than $4$ tens, so $60>40$.
+Solution
+
+The supermarket has $60$ tins of milk, which is $6$ tens.
+
+It has $40$ cans of fizzy drink, which is $4$ tens.
+
+Since $6$ tens is greater than $4$ tens, we have $60>40$.
+
+So there are more tins of milk than cans of fizzy drink.
 
 **Answer.** There are more tins of milk.
 :::
@@ -257,9 +308,17 @@ Find all the multiples of 10 that are greater than $30$ and less than $70$.
 2. Stop before $70$.
 
 ::solution
-After $30$ come $40, 50, 60$, and then $70$ (we must not include $70$).
+The multiples of $10$ in order are $30, 40, 50, 60, 70, \dots$
 
-**Check.** $30<40<50<60<70$. Correct.
+The numbers must be greater than $30$, so we start from $40$.
+
+The numbers must be less than $70$, so we stop before $70$ (we do not include $70$).
+
+The multiples of $10$ that fit are $40$, $50$, $60$.
+
+Check: $30<40<50<60<70$. Correct.
+
+So the multiples of $10$ that are greater than $30$ and less than $70$ are $40$, $50$, $60$.
 
 **Answer.** $40$, $50$, $60$.
 :::

@@ -470,15 +470,28 @@ Cho tam giác $ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điể
 2. Xét hai tam giác $ABD$ và $ACE$.
 
 ::solution
-Vì tam giác $ABC$ cân tại $A$ nên $AB=AC$ và $\widehat{ABC}=\widehat{ACB}$. Vì $\widehat{ABD}$ và $\widehat{ABC}$ kề bù, $\widehat{ACE}$ và $\widehat{ACB}$ kề bù nên $\widehat{ABD}=180^\circ-\widehat{ABC}=180^\circ-\widehat{ACB}=\widehat{ACE}$.
+Vì tam giác $ABC$ cân tại $A$ nên
+$$AB=AC\quad\text{và}\quad\widehat{ABC}=\widehat{ACB}.$$
+
+Vì $D$ nằm trên tia đối của tia $BC$ nên $\widehat{ABD}$ và $\widehat{ABC}$ là hai góc kề bù. Do đó
+$$\widehat{ABD}=180^\circ-\widehat{ABC}.$$
+
+Vì $E$ nằm trên tia đối của tia $CB$ nên $\widehat{ACE}$ và $\widehat{ACB}$ là hai góc kề bù. Do đó
+$$\widehat{ACE}=180^\circ-\widehat{ACB}.$$
+
+Mà $\widehat{ABC}=\widehat{ACB}$ nên $\widehat{ABD}=\widehat{ACE}$.
 
 Xét tam giác $ABD$ và tam giác $ACE$ có:
 
 - $AB=AC$ (chứng minh trên);
 - $\widehat{ABD}=\widehat{ACE}$ (chứng minh trên);
-- $BD=CE$ (gt).
+- $BD=CE$ (giả thiết).
 
-Do đó $\triangle ABD=\triangle ACE$ (c.g.c). Suy ra $AD=AE$, tức tam giác $ADE$ cân tại $A$.
+Do đó $\triangle ABD=\triangle ACE$ (c.g.c).
+
+Suy ra $AD=AE$ (hai cạnh tương ứng), nên tam giác $ADE$ cân tại $A$.
+
+Vậy tam giác $ADE$ cân tại $A$.
 
 **Đáp số.** Chứng minh xong.
 :::

@@ -105,7 +105,18 @@ Tìm chuỗi Maclaurin của $\cos2x$ đến số hạng chứa $x^4$. [3 marks]
 **Cần nhớ:** thế $2x$ vào $\cos x=1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dots$
 
 ::solution
-$1-\dfrac{(2x)^2}{2}+\dfrac{(2x)^4}{24}=1-2x^2+\dfrac{2x^4}{3}$.
+Chuỗi Maclaurin của $\cos x$ là
+$$\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots$$
+
+Thay $x$ bằng $2x$ vào khai triển trên, ta được
+$$\cos2x=1-\frac{(2x)^2}{2}+\frac{(2x)^4}{24}-\cdots$$
+
+Ta có $(2x)^2=4x^2$ và $(2x)^4=16x^4$. Do đó
+$$\cos2x=1-\frac{4x^2}{2}+\frac{16x^4}{24}-\cdots=1-2x^2+\frac{2x^4}{3}-\cdots$$
+
+Vậy chuỗi Maclaurin của $\cos2x$ đến số hạng chứa $x^4$ là $1-2x^2+\dfrac{2x^4}{3}$.
+
+**Đáp số.** $1-2x^2+\dfrac{2x^4}{3}$.
 :::
 
 :::exercise Chuỗi của hàm mũ
@@ -115,7 +126,18 @@ Tìm bốn số hạng đầu của chuỗi Maclaurin của $e^{x^2}$. [3 marks]
 **Cần nhớ:** thế $x^2$ vào chuỗi của $e^x$.
 
 ::solution
-$1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
+Chuỗi Maclaurin của $e^u$ là
+$$e^u=1+u+\frac{u^2}{2!}+\frac{u^3}{3!}+\cdots$$
+
+Thay $u=x^2$ vào khai triển trên, ta được
+$$e^{x^2}=1+x^2+\frac{\left(x^2\right)^2}{2!}+\frac{\left(x^2\right)^3}{3!}+\cdots$$
+
+Ta có $\left(x^2\right)^2=x^4$ và $\left(x^2\right)^3=x^6$, $2!=2$, $3!=6$. Do đó
+$$e^{x^2}=1+x^2+\frac{x^4}{2}+\frac{x^6}{6}+\cdots$$
+
+Vậy bốn số hạng đầu của chuỗi Maclaurin của $e^{x^2}$ là $1$, $x^2$, $\dfrac{x^4}{2}$, $\dfrac{x^6}{6}$.
+
+**Đáp số.** $1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
 :::
 
 :::exercise Một giới hạn
@@ -125,7 +147,20 @@ Tính $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}$. [4 marks]
 **Cần nhớ:** $\sin x=x-\dfrac{x^3}{6}+\dots$
 
 ::solution
-$\dfrac{\frac{x^3}{6}-\dots}{x^3}\to\dfrac16$.
+Ta dùng chuỗi Maclaurin của $\sin x$:
+$$\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots=x-\frac{x^3}{6}+\frac{x^5}{120}-\cdots$$
+
+Suy ra
+$$x-\sin x=\frac{x^3}{6}-\frac{x^5}{120}+\cdots$$
+
+Với $x\neq0$, chia cả tử và mẫu cho $x^3$, ta được
+$$\frac{x-\sin x}{x^3}=\frac16-\frac{x^2}{120}+\cdots$$
+
+Khi $x\to0$, mọi số hạng chứa luỹ thừa dương của $x$ đều tiến tới $0$, nên biểu thức trên tiến tới $\dfrac16$.
+
+Vậy $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}=\frac16$.
+
+**Đáp số.** $\dfrac16$.
 :::
 
 :::exercise Tách biến với arctan
@@ -135,7 +170,22 @@ Giải $\dfrac{dy}{dx}=2x\left(1+y^2\right)$, biết $y=0$ khi $x=0$. [5 marks]
 **Cần nhớ:** $\displaystyle\int\frac{dy}{1+y^2}=\arctan y$.
 
 ::solution
-$\arctan y=x^2+C$, và $C=0$, nên $y=\tan\left(x^2\right)$.
+Đây là phương trình vi phân có biến số phân li. Vì $1+y^2>0$ nên ta chia hai vế cho $1+y^2$:
+$$\frac{1}{1+y^2}\cdot\frac{dy}{dx}=2x.$$
+
+Lấy tích phân hai vế theo $x$:
+$$\int\frac{1}{1+y^2}\,dy=\int2x\,dx.$$
+
+Suy ra
+$$\arctan y=x^2+C.$$
+
+Thay điều kiện $y=0$ khi $x=0$: $\arctan0=0^2+C$, nên $C=0$.
+
+Do đó $\arctan y=x^2$, tức là $y=\tan\left(x^2\right)$.
+
+Vậy nghiệm của bài toán là $y=\tan\left(x^2\right)$.
+
+**Đáp số.** $y=\tan\left(x^2\right)$.
 :::
 
 :::exercise Thừa số tích phân
@@ -145,7 +195,25 @@ Giải $\dfrac{dy}{dx}-y=e^{2x}$, biết $y=0$ khi $x=0$. [5 marks]
 **Cần nhớ:** thừa số tích phân là $e^{-x}$.
 
 ::solution
-$\dfrac{d}{dx}\left(ye^{-x}\right)=e^x$, nên $ye^{-x}=e^x+C$; $C=-1$. Vậy $y=e^{2x}-e^x$.
+Đây là phương trình vi phân tuyến tính cấp một. Ta dùng thừa số tích phân $e^{-x}$: nhân hai vế của $\dfrac{dy}{dx}-y=e^{2x}$ với $e^{-x}$, ta được
+$$e^{-x}\frac{dy}{dx}-e^{-x}y=e^{-x}\cdot e^{2x}=e^x.$$
+
+Vế trái chính là đạo hàm của tích $ye^{-x}$, nên
+$$\frac{d}{dx}\left(ye^{-x}\right)=e^x.$$
+
+Lấy tích phân hai vế theo $x$:
+$$ye^{-x}=e^x+C.$$
+
+Thay điều kiện $y=0$ khi $x=0$: $0\cdot e^0=e^0+C$, tức là $0=1+C$, nên $C=-1$.
+
+Do đó $ye^{-x}=e^x-1$. Nhân hai vế với $e^x$, ta được
+$$y=e^{2x}-e^x.$$
+
+Kiểm tra: $\dfrac{dy}{dx}-y=\left(2e^{2x}-e^x\right)-\left(e^{2x}-e^x\right)=e^{2x}$ và $y(0)=1-1=0$.
+
+Vậy nghiệm của bài toán là $y=e^{2x}-e^x$.
+
+**Đáp số.** $y=e^{2x}-e^x$.
 :::
 
 ## Bài tập vận dụng
@@ -159,9 +227,27 @@ Tại thời điểm $t$ phút, một bể chứa $Q$ kg muối. Nước muối 
 **Cần nhớ:** viết $\dfrac{dQ}{dt}+\dfrac{Q}{50}=2$; thừa số tích phân là $e^{t/50}$.
 
 ::solution
-(a) $\dfrac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}$, nên $Qe^{t/50}=100e^{t/50}+C$ và $C=-100$. Vậy $Q=100\left(1-e^{-t/50}\right)$.
+a) Viết phương trình dưới dạng $\dfrac{dQ}{dt}+\dfrac{Q}{50}=2$. Đây là phương trình tuyến tính cấp một với thừa số tích phân $e^{t/50}$. Nhân hai vế với $e^{t/50}$:
+$$e^{t/50}\frac{dQ}{dt}+\frac{1}{50}e^{t/50}Q=2e^{t/50}.$$
 
-(b) $Q\to100$ kg.
+Vế trái là đạo hàm của $Qe^{t/50}$, nên
+$$\frac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}.$$
+
+Lấy tích phân hai vế theo $t$, với $\displaystyle\int2e^{t/50}dt=100e^{t/50}$, ta được
+$$Qe^{t/50}=100e^{t/50}+C.$$
+
+Thay điều kiện $Q=0$ khi $t=0$: $0=100+C$, nên $C=-100$.
+
+Do đó $Qe^{t/50}=100e^{t/50}-100$. Nhân hai vế với $e^{-t/50}$, ta được
+$$Q=100-100e^{-t/50}=100\left(1-e^{-t/50}\right).$$
+
+Vậy $Q=100\left(1-e^{-t/50}\right)$ (kg).
+
+b) Khi $t\to+\infty$ thì $e^{-t/50}\to0$, nên $Q\to100(1-0)=100$. Hơn nữa $\dfrac{dQ}{dt}=2e^{-t/50}>0$ nên $Q$ tăng dần theo thời gian.
+
+Vậy về lâu dài, lượng muối trong bể tăng dần và tiến tới $100$ kg.
+
+**Đáp số.** a) $Q=100\left(1-e^{-t/50}\right)$; b) $Q\to100$ kg.
 :::
 
 :::exercise Tích phân từ chuỗi
@@ -171,7 +257,22 @@ Dùng hai số hạng khác không đầu tiên của chuỗi Maclaurin của $\
 **Cần nhớ:** $\sin\left(x^2\right)=x^2-\dfrac{x^6}{6}+\dots$; lấy tích phân từng số hạng.
 
 ::solution
-$\displaystyle\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\frac13-\frac{1}{42}=\frac{13}{42}\approx0{,}310$. (GDC cũng cho $0{,}310$.)
+Chuỗi Maclaurin của $\sin u$ là
+$$\sin u=u-\frac{u^3}{3!}+\cdots$$
+
+Thay $u=x^2$, ta được hai số hạng khác không đầu tiên của $\sin\left(x^2\right)$:
+$$\sin\left(x^2\right)\approx x^2-\frac{\left(x^2\right)^3}{6}=x^2-\frac{x^6}{6}.$$
+
+Do đó
+$$\int_0^1\sin\left(x^2\right)dx\approx\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\left[\frac{x^3}{3}-\frac{x^7}{42}\right]_0^1=\frac13-\frac1{42}.$$
+
+Quy đồng: $\dfrac13-\dfrac1{42}=\dfrac{14}{42}-\dfrac{1}{42}=\dfrac{13}{42}\approx0{,}310$.
+
+Vậy $\displaystyle\int_0^1\sin\left(x^2\right)dx\approx\dfrac{13}{42}\approx0{,}310$.
+
+*Mẹo thi.* Dùng GDC tính trực tiếp $\displaystyle\int_0^1\sin\left(x^2\right)dx$ cũng cho $0{,}310$; có thể dùng để kiểm tra kết quả.
+
+**Đáp số.** $\dfrac{13}{42}\approx0{,}310$.
 :::
 
 :::exercise Euler với bảng của GDC
@@ -181,7 +282,21 @@ Với $\dfrac{dy}{dx}=\sin x+y$ và $y(0)=1$, dùng phương pháp Euler với $
 **Cần nhớ:** hai bước; chế độ radian.
 
 ::solution
-$y_1=1+0{,}2(\sin0+1)=1{,}2$. $y_2=1{,}2+0{,}2(\sin0{,}2+1{,}2)\approx1{,}48$.
+Phương pháp Euler với bước $h=0{,}2$ cho công thức
+$$x_{n+1}=x_n+h,\qquad y_{n+1}=y_n+h\,f(x_n,y_n),$$
+trong đó $f(x,y)=\sin x+y$ (tính $\sin$ theo radian). Điều kiện ban đầu là $x_0=0$, $y_0=1$.
+
+Bước 1: $x_1=0{,}2$ và
+$$y_1=y_0+0{,}2\left(\sin0+y_0\right)=1+0{,}2(0+1)=1{,}2.$$
+
+Bước 2: $x_2=0{,}4$ và
+$$y_2=y_1+0{,}2\left(\sin0{,}2+y_1\right)=1{,}2+0{,}2\left(\sin0{,}2+1{,}2\right).$$
+
+Với $\sin0{,}2\approx0{,}19867$, ta có $y_2\approx1{,}2+0{,}2\cdot1{,}39867\approx1{,}48$.
+
+Vậy $y(0{,}4)\approx1{,}48$.
+
+**Đáp số.** $y(0{,}4)\approx1{,}48$.
 :::
 
 :::exercise Thử thách: chuỗi bằng đạo hàm
@@ -191,7 +306,21 @@ Tìm chuỗi Maclaurin của $\tan x$ đến số hạng chứa $x^3$ bằng cá
 **Cần nhớ:** $f'=\sec^2x$, $f''=2\sec^2x\tan x$ và $f'''=2\sec^4x+4\sec^2x\tan^2x$.
 
 ::solution
-$f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. Vậy $\tan x=x+\dfrac{2}{3!}x^3+\dots=x+\dfrac{x^3}{3}+\dots$
+Đặt $f(x)=\tan x$. Chuỗi Maclaurin có dạng
+$$f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+\frac{f'''(0)}{3!}x^3+\cdots$$
+
+Ta lần lượt lấy đạo hàm:
+$$\begin{aligned}f'(x)&=\sec^2x,\\f''(x)&=2\sec x\cdot\sec x\tan x=2\sec^2x\tan x,\\f'''(x)&=4\sec^2x\tan^2x+2\sec^4x.\end{aligned}$$
+
+Tại $x=0$, ta có $\tan0=0$ và $\sec0=1$, nên
+$$f(0)=0,\quad f'(0)=1,\quad f''(0)=0,\quad f'''(0)=2.$$
+
+Thay vào công thức Maclaurin:
+$$\tan x=0+1\cdot x+\frac{0}{2!}x^2+\frac{2}{3!}x^3+\cdots=x+\frac{x^3}{3}+\cdots$$
+
+Vậy chuỗi Maclaurin của $\tan x$ đến số hạng chứa $x^3$ là $x+\dfrac{x^3}{3}$.
+
+**Đáp số.** $\tan x=x+\dfrac{x^3}{3}+\cdots$
 :::
 
 :::quiz

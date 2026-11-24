@@ -133,7 +133,13 @@ Biết $2+3=5$. Tính $5-2$.
 2. Bớt $2$ khỏi $5$.
 
 ::solution
-$5$ gồm $2$ và $3$, bớt $2$ thì còn $3$.
+Ta biết $2+3=5$, nghĩa là $5$ gồm $2$ và $3$.
+
+Bớt $2$ khỏi $5$ thì còn lại $3$. Do đó $5-2=3$.
+
+Kiểm tra: $3+2=5$. Đúng.
+
+Vậy $5-2=3$.
 
 **Đáp số.** $5-2=3$.
 :::
@@ -149,7 +155,13 @@ Biết $4+3=7$. Tính $7-4$.
 2. Bớt $4$ khỏi $7$.
 
 ::solution
-$7$ gồm $4$ và $3$, bớt $4$ thì còn $3$.
+Ta biết $4+3=7$, nghĩa là $7$ gồm $4$ và $3$.
+
+Bớt $4$ khỏi $7$ thì còn lại $3$. Do đó $7-4=3$.
+
+Kiểm tra: $3+4=7$. Đúng.
+
+Vậy $7-4=3$.
 
 **Đáp số.** $7-4=3$.
 :::
@@ -165,7 +177,11 @@ Em hãy nhớ lại bài trước: tính $9-4$ bằng cách đếm lùi, rồi k
 2. Tính $\square+4$ xem có bằng $9$ không.
 
 ::solution
-Đếm lùi được $5$. Kiểm tra: $5+4=9$. Đúng.
+Đếm lùi từ $9$ bốn số: "tám, bảy, sáu, năm". Số cuối cùng là $5$, nên $9-4=5$.
+
+Kiểm tra bằng phép cộng: $5+4=9$. Đúng.
+
+Vậy $9-4=5$.
 
 **Đáp số.** $9-4=5$.
 :::
@@ -183,7 +199,11 @@ b) $\square-5=3$.
 2. Gộp $3$ và $5$.
 
 ::solution
-a) Từ $2$ lên $6$ có $4$ số, nên $6-4=2$. b) $3+5=8$, nên $8-5=3$.
+a) Ta cần tìm số để $6$ trừ số đó bằng $2$. Từ $2$ lên $6$: "ba, bốn, năm, sáu", có $4$ số, nên số cần điền là $4$. Kiểm tra: $6-4=2$. Đúng.
+
+b) Số bị trừ bằng hiệu cộng số trừ, nên số cần điền là $3+5=8$. Kiểm tra: $8-5=3$. Đúng.
+
+Vậy số cần điền ở câu a) là $4$ và ở câu b) là $8$.
 
 **Đáp số.** a) $4$. b) $8$.
 :::
@@ -199,7 +219,13 @@ Lan viết từ $3+4=7$ ra phép trừ $7-3=3$. Lan đúng không? Vì sao?
 2. Phần đó là số mấy?
 
 ::solution
-$7$ gồm $3$ và $4$. Bớt $3$ thì còn $4$, không phải $3$.
+Từ $3+4=7$ ta biết $7$ gồm $3$ và $4$.
+
+Bớt $3$ khỏi $7$ thì còn lại $4$, nên $7-3=4$. Lan viết $7-3=3$ là không đúng.
+
+Kiểm tra: $4+3=7$ nên $7-3=4$, còn $3+3=6$, không bằng $7$.
+
+Vậy Lan sai, và phép trừ đúng là $7-3=4$.
 
 **Đáp số.** Sai. $7-3=4$.
 :::
@@ -215,7 +241,17 @@ An viết bốn phép tính từ ba số $3$, $4$, $7$: $3+4=7$, $4+3=7$, $7-3=4
 2. Tìm phép có số bé trừ số lớn.
 
 ::solution
-Phép $3-4=7$ sai vì không bớt được $4$ khỏi $3$. Phép đúng là $7-4=3$.
+Ta xét từng phép tính của An.
+
+Phép $3+4=7$ đúng, và phép $4+3=7$ cũng đúng.
+
+Phép $7-3=4$ đúng, vì $7$ gồm $3$ và $4$, bớt $3$ thì còn $4$.
+
+Phép $3-4=7$ sai, vì $3$ ít hơn $4$ nên không bớt được $4$ khỏi $3$. Ngoài ra hiệu không thể bằng $7$, lớn hơn cả số bị trừ $3$.
+
+Từ ba số $3$, $4$, $7$, số lớn nhất là $7$ nên phép trừ phải lấy $7$ làm số bị trừ. Phép đúng là $7-4=3$.
+
+Vậy phép tính sai là $3-4=7$, và viết lại cho đúng là $7-4=3$.
 
 **Đáp số.** $3-4=7$ sai; đúng là $7-4=3$.
 :::
@@ -231,10 +267,14 @@ Có $9$ quả cam. Có $4$ quả cam trong rổ, còn lại ở trên bàn. Hỏ
 2. Tính $9-4$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số cam trên bàn là:
+Bài giải
+
+Số quả cam trên bàn bằng tổng số cam bớt đi số cam trong rổ. Số cam trên bàn là:
 $$9-4=5\ \text{(quả)}.$$
 
-**Kiểm tra.** $4+5=9$. Đúng.
+Kiểm tra: $4+5=9$. Đúng.
+
+Vậy trên bàn có $5$ quả cam.
 
 **Đáp số.** $5$ quả cam.
 :::
@@ -250,9 +290,15 @@ Từ ba số $3$, $6$, $9$, viết đủ bốn phép tính cộng và trừ.
 2. Viết hai phép trừ.
 
 ::solution
-Hai phép cộng: $3+6=9$ và $6+3=9$. Hai phép trừ: $9-3=6$ và $9-6=3$.
+Ba số $3$, $6$, $9$ có $9$ là số lớn nhất và $3+6=9$, nên $9$ gồm $3$ và $6$.
 
-**Kiểm tra.** $3+6=9$ nên $9-3=6$ và $9-6=3$. Đúng.
+Hai phép cộng: $3+6=9$ và $6+3=9$.
+
+Hai phép trừ: bớt $3$ khỏi $9$ còn $6$, nên $9-3=6$; bớt $6$ khỏi $9$ còn $3$, nên $9-6=3$.
+
+Kiểm tra: $3+6=9$ nên $9-3=6$ và $9-6=3$. Đúng.
+
+Vậy bốn phép tính là $3+6=9$; $6+3=9$; $9-3=6$; $9-6=3$.
 
 **Đáp số.** $3+6=9$; $6+3=9$; $9-3=6$; $9-6=3$.
 :::

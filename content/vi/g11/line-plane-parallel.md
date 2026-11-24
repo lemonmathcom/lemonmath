@@ -165,7 +165,13 @@ Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $AB\parallel(CDD'C')$ và $AC\para
 2. $AC\parallel A'C'$ và $A'C'\subset(A'B'C'D')$.
 
 ::solution
-$ABCD$ là hình bình hành nên $AB\parallel CD$, mà $CD\subset(CDD'C')$ và $AB\not\subset(CDD'C')$, nên $AB\parallel(CDD'C')$. Tương tự $AA'C'C$ là hình bình hành nên $AC\parallel A'C'\subset(A'B'C'D')$, và $AC\not\subset(A'B'C'D')$, nên $AC\parallel(A'B'C'D')$.
+Ta dùng điều kiện nhận biết: nếu đường thẳng $d$ không nằm trong mặt phẳng $(P)$ và song song với một đường thẳng nằm trong $(P)$ thì $d\parallel(P)$.
+
+Chứng minh $AB\parallel(CDD'C')$. Vì $ABCD$ là hình bình hành nên $AB\parallel CD$. Đường thẳng $CD$ nằm trong $(CDD'C')$, còn $AB$ không nằm trong $(CDD'C')$. Do đó $AB\parallel(CDD'C')$.
+
+Chứng minh $AC\parallel(A'B'C'D')$. Vì $AA'\parallel CC'$ và $AA'=CC'$ nên $AA'C'C$ là hình bình hành, suy ra $AC\parallel A'C'$. Đường thẳng $A'C'$ nằm trong $(A'B'C'D')$, còn $AC$ không nằm trong $(A'B'C'D')$. Do đó $AC\parallel(A'B'C'D')$.
+
+Vậy $AB\parallel(CDD'C')$ và $AC\parallel(A'B'C'D')$.
 
 **Đáp số.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
 :::
@@ -181,7 +187,11 @@ Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$ lần lượt là trung điểm củ
 2. $NP\parallel BD$ và $BD\subset(ABD)$.
 
 ::solution
-Trong tam giác $ABC$, $MN\parallel AC$ và $AC\subset(ACD)$, $MN\not\subset(ACD)$, nên $MN\parallel(ACD)$. Trong tam giác $BCD$, $NP\parallel BD$ và $BD\subset(ABD)$, $NP\not\subset(ABD)$, nên $NP\parallel(ABD)$.
+Chứng minh $MN\parallel(ACD)$. Trong tam giác $ABC$, $M$ và $N$ là trung điểm của $AB$ và $BC$ nên $MN$ là đường trung bình, do đó $MN\parallel AC$. Đường thẳng $AC$ nằm trong $(ACD)$, còn $MN$ không nằm trong $(ACD)$. Do đó $MN\parallel(ACD)$.
+
+Chứng minh $NP\parallel(ABD)$. Trong tam giác $BCD$, $N$ và $P$ là trung điểm của $BC$ và $CD$ nên $NP$ là đường trung bình, do đó $NP\parallel BD$. Đường thẳng $BD$ nằm trong $(ABD)$, còn $NP$ không nằm trong $(ABD)$. Do đó $NP\parallel(ABD)$.
+
+Vậy $MN\parallel(ACD)$ và $NP\parallel(ABD)$.
 
 **Đáp số.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
 :::
@@ -197,7 +207,15 @@ Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$ tâm $O$. Gọi 
 2. $ON\subset(NAC)$.
 
 ::solution
-$O$ là trung điểm của $BD$ và $N$ là trung điểm của $SB$ nên $ON$ là đường trung bình của tam giác $SBD$, do đó $ON\parallel SD$. Đường thẳng $ON$ nằm trong $(NAC)$ (vì $O\in AC$), còn $SD\not\subset(NAC)$, nên $SD\parallel(NAC)$.
+Vì $ABCD$ là hình bình hành tâm $O$ nên $O$ là trung điểm của $BD$ (và của $AC$).
+
+Trong tam giác $SBD$, $O$ là trung điểm của $BD$ và $N$ là trung điểm của $SB$ nên $ON$ là đường trung bình của tam giác. Do đó $ON\parallel SD$.
+
+Vì $O\in AC$ nên $O$ thuộc $(NAC)$; cùng với $N\in(NAC)$, đường thẳng $ON$ nằm trong $(NAC)$. Đường thẳng $SD$ không nằm trong $(NAC)$.
+
+Như vậy $SD$ song song với đường thẳng $ON$ nằm trong $(NAC)$ và $SD\not\subset(NAC)$, nên $SD\parallel(NAC)$.
+
+Vậy $SD\parallel(NAC)$.
 
 **Đáp số.** $SD\parallel(NAC)$.
 :::
@@ -213,7 +231,13 @@ Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Gọi $M$ là t
 2. Áp dụng tính chất 1 với mặt phẳng $(SBC)$.
 
 ::solution
-Vì $BC\parallel AD\subset(ADM)$ và $BC\not\subset(ADM)$ nên $BC\parallel(ADM)$. Mặt phẳng $(SBC)$ chứa $BC$ và cắt $(ADM)$ theo $MN$, nên $MN\parallel BC$. Trong tam giác $SBC$, $M$ là trung điểm $SC$ và $MN\parallel BC$ nên $N$ là trung điểm $SB$.
+Chứng minh $MN\parallel BC$. Vì $ABCD$ là hình bình hành nên $BC\parallel AD$. Đường thẳng $AD$ nằm trong $(ADM)$, còn $BC$ không nằm trong $(ADM)$. Do đó $BC\parallel(ADM)$.
+
+Mặt phẳng $(SBC)$ chứa $BC$ và có điểm chung $M$ với $(ADM)$; theo đề, $N$ là giao điểm của $SB$ với $(ADM)$ nên $N$ cũng là điểm chung. Vậy $(SBC)$ cắt $(ADM)$ theo giao tuyến $MN$. Vì $BC\parallel(ADM)$ nên giao tuyến $MN$ song song với $BC$.
+
+Chứng minh $N$ là trung điểm của $SB$. Trong tam giác $SBC$, $M$ là trung điểm của $SC$, $N$ thuộc $SB$ và $MN\parallel BC$. Do đó $MN$ là đường trung bình của tam giác $SBC$, suy ra $N$ là trung điểm của $SB$.
+
+Vậy $MN\parallel BC$ và $N$ là trung điểm của $SB$.
 
 **Đáp số.** $MN\parallel BC$ và $N$ là trung điểm của $SB$.
 :::
@@ -229,7 +253,14 @@ Theo Luật bóng đá của FIFA, khung thành tiêu chuẩn có hai cột dọ
 2. Dùng tính chất của hình bình hành để so sánh độ dài.
 
 ::solution
-Gọi chân hai cột là $A$, $B$ và đỉnh là $A'$, $B'$. $AA'$ và $BB'$ song song và bằng nhau ($2{,}44$ m) nên $AA'B'B$ là hình bình hành, do đó $A'B'\parallel AB$ và $A'B'=AB=7{,}32$ m. $AB$ nằm trong mặt sân và $A'B'$ không nằm trong mặt sân nên $A'B'\parallel$ mặt sân.
+Gọi chân hai cột là $A$, $B$ và đỉnh hai cột là $A'$, $B'$. Theo đề, $AB=7{,}32$ m, $AA'=BB'=2{,}44$ m, hai cột thẳng đứng nên $AA'$ và $BB'$ cùng vuông góc với mặt sân.
+
+Hai đường thẳng $AA'$ và $BB'$ cùng vuông góc với mặt sân nên song song với nhau, và chúng bằng nhau ($2{,}44$ m). Do đó $AA'B'B$ là hình bình hành, suy ra
+$$A'B'\parallel AB\quad\text{và}\quad A'B'=AB=7{,}32\ \text{m}.$$
+
+Đường thẳng $AB$ nằm trong mặt sân, còn $A'B'$ không nằm trong mặt sân (vì $A'$ cách mặt sân $2{,}44$ m). Do đó $A'B'$ song song với mặt sân.
+
+Vậy xà ngang song song với mặt sân và dài $7{,}32$ m.
 
 **Đáp số.** Xà ngang song song với mặt sân và dài $7{,}32$ m.
 :::
@@ -253,13 +284,17 @@ d) $AB\parallel(SAD)$.
 2. b), d) Xét điểm chung của đường thẳng với mặt phẳng.
 
 ::solution
-a) **Đúng**: $AD\parallel BC\subset(SBC)$ và $AD\not\subset(SBC)$.
+Vì $ABCD$ là hình bình hành nên $AD\parallel BC$.
 
-b) **Sai**: $SA$ cắt $(ABCD)$ tại $A$.
+a) **Đúng.** Ta có $AD\parallel BC$, $BC\subset(SBC)$ và $AD\not\subset(SBC)$. Do đó $AD\parallel(SBC)$.
 
-c) **Đúng**: $BC\parallel AD\subset(SAD)$ và $BC\not\subset(SAD)$.
+b) **Sai.** Đường thẳng $SA$ cắt $(ABCD)$ tại điểm $A$, nên không song song với $(ABCD)$.
 
-d) **Sai**: $AB$ cắt $(SAD)$ tại $A$.
+c) **Đúng.** Ta có $BC\parallel AD$, $AD\subset(SAD)$ và $BC\not\subset(SAD)$. Do đó $BC\parallel(SAD)$.
+
+d) **Sai.** Đường thẳng $AB$ cắt $(SAD)$ tại điểm $A$, nên không song song với $(SAD)$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -275,7 +310,15 @@ Chứng minh rằng nếu hai đường thẳng phân biệt $a$, $b$ song song 
 2. So sánh $b$ với $a'$.
 
 ::solution
-Lấy điểm $A\in(P)$ và mặt phẳng $(Q)$ chứa $a$ và $A$. Vì $a\parallel(P)$ nên $(Q)$ cắt $(P)$ theo đường thẳng $a'$ qua $A$ và $a'\parallel a$. Nếu $b=a'$ thì $b\subset(P)$. Nếu $b\ne a'$ thì $b\parallel a'$ (cùng song song với $a$), với $a'\subset(P)$; khi $b\not\subset(P)$, theo điều kiện ta có $b\parallel(P)$.
+Ta chứng minh bằng phản chứng. Giả sử $b\not\subset(P)$ và $b$ không song song với $(P)$. Khi đó $b$ cắt $(P)$ tại đúng một điểm, gọi là $B$.
+
+Vì $a\parallel b$ nên $a$ và $b$ cùng nằm trong một mặt phẳng $(Q)$. Mặt phẳng $(Q)$ khác $(P)$ vì $(Q)$ chứa $a$ mà $a\parallel(P)$ nên $a\not\subset(P)$. Hai mặt phẳng phân biệt $(Q)$ và $(P)$ có điểm chung $B$ nên cắt nhau theo một đường thẳng $d$ đi qua $B$, và $d\subset(P)$.
+
+Vì $a\parallel(P)$ nên $a$ và $(P)$ không có điểm chung, suy ra $a$ và $d$ không có điểm chung. Hai đường thẳng $a$, $d$ cùng nằm trong $(Q)$ và không có điểm chung nên $a\parallel d$.
+
+Trong mặt phẳng $(Q)$, qua điểm $B$ chỉ có một đường thẳng song song với $a$. Hai đường thẳng $b$ và $d$ đều đi qua $B$ và đều song song với $a$ nên $b=d$. Khi đó $b\subset(P)$, mâu thuẫn với giả sử $b\not\subset(P)$.
+
+Vậy nếu $b\not\subset(P)$ thì $b\parallel(P)$; nghĩa là $b\parallel(P)$ hoặc $b\subset(P)$.
 
 **Đáp số.** $b\parallel(P)$ hoặc $b\subset(P)$.
 :::
@@ -291,7 +334,15 @@ Cho tứ diện $ABCD$. Lấy điểm $M$ thuộc cạnh $AB$. Mặt phẳng $(\
 2. $MQ=(\alpha)\cap(ABD)$ và $NP=(\alpha)\cap(BCD)$ đều song song $BD$.
 
 ::solution
-Vì $AC\parallel(\alpha)$, mặt phẳng $(ABC)$ chứa $AC$ cắt $(\alpha)$ theo $MN$ nên $MN\parallel AC$; mặt phẳng $(ACD)$ chứa $AC$ cắt $(\alpha)$ theo $PQ$ nên $PQ\parallel AC$. Suy ra $MN\parallel PQ$. Tương tự, vì $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ và $NP=(\alpha)\cap(BCD)\parallel BD$, nên $MQ\parallel NP$. Tứ giác $MNPQ$ có các cặp cạnh đối song song nên là hình bình hành.
+Ta dùng tính chất: nếu đường thẳng $d$ song song với mặt phẳng $(\alpha)$ và mặt phẳng $(\beta)$ chứa $d$ cắt $(\alpha)$ theo giao tuyến $m$ thì $m\parallel d$.
+
+Chứng minh $MN\parallel PQ$. Vì $AC\parallel(\alpha)$, mặt phẳng $(ABC)$ chứa $AC$ cắt $(\alpha)$ theo giao tuyến $MN$ nên $MN\parallel AC$. Mặt phẳng $(ACD)$ chứa $AC$ cắt $(\alpha)$ theo giao tuyến $PQ$ nên $PQ\parallel AC$. Suy ra $MN\parallel PQ$.
+
+Chứng minh $MQ\parallel NP$. Vì $BD\parallel(\alpha)$, mặt phẳng $(ABD)$ chứa $BD$ cắt $(\alpha)$ theo giao tuyến $MQ$ nên $MQ\parallel BD$. Mặt phẳng $(BCD)$ chứa $BD$ cắt $(\alpha)$ theo giao tuyến $NP$ nên $NP\parallel BD$. Suy ra $MQ\parallel NP$.
+
+Tứ giác $MNPQ$ có $MN\parallel PQ$ và $MQ\parallel NP$, tức là hai cặp cạnh đối song song.
+
+Vậy $MNPQ$ là hình bình hành.
 
 **Đáp số.** $MNPQ$ là hình bình hành.
 :::

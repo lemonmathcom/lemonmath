@@ -155,9 +155,14 @@ Find $\square$ when $\square+8=15$.
 2. Work out $15-8$.
 
 ::solution
-$\square=15-8=7$.
+In the addition $\square+8=15$, $\square$ is the missing addend. To find a missing addend, we subtract the known addend from the sum.
 
-**Check.** $7+8=15$. Correct.
+We have
+$$\square=15-8=7.$$
+
+Check: $7+8=15$. Correct.
+
+So $\square=7$.
 
 **Answer.** $7$.
 :::
@@ -173,9 +178,14 @@ Find $\square$ when $24+\square=40$.
 2. Work out $40-24$, then check.
 
 ::solution
-$\square=40-24=16$.
+In the addition $24+\square=40$, $\square$ is the missing addend. To find a missing addend, we subtract the known addend from the sum.
 
-**Check.** $24+16=40$. Correct.
+We have
+$$\square=40-24=16.$$
+
+Check: $24+16=40$. Correct.
+
+So $\square=16$.
 
 **Answer.** $16$.
 :::
@@ -191,7 +201,20 @@ Remember addition with regrouping: work out $46+28$. Then find $\square$ when $\
 2. Compare the result with $74$ and find $\square$.
 
 ::solution
-$46+28=74$ (because $6+8=14$, write $4$ and regroup $1$; $4+2+1=7$). From $\square+28=74$ we get $\square=74-28=46$.
+Set out the addition in columns and add from right to left, starting with the ones.
+
+Ones: $6+8=14$, write $4$ and regroup $1$.
+
+Tens: $4+2=6$, add $1$ to make $7$, write $7$.
+
+So $46+28=74$.
+
+In the addition $\square+28=74$, $\square$ is the missing addend. To find a missing addend, we subtract the known addend from the sum:
+$$\square=74-28=46.$$
+
+Check: $46+28=74$. Correct.
+
+So $46+28=74$ and $\square=46$.
 
 **Answer.** $46+28=74$ and $\square=46$.
 :::
@@ -207,9 +230,14 @@ Find the minuend when the subtrahend is $9$ and the difference is $30$, that is 
 2. Work out $30+9$, then check.
 
 ::solution
-$\square=30+9=39$.
+By the problem, the subtrahend is $9$ and the difference is $30$, that is $\square-9=30$. We need the minuend. To find the minuend, we add the subtrahend to the difference.
 
-**Check.** $39-9=30$. Correct.
+We have
+$$\square=30+9=39.$$
+
+Check: $39-9=30$. Correct.
+
+So the minuend is $39$.
 
 **Answer.** $39$.
 :::
@@ -231,11 +259,19 @@ c) $40-\square=15$.
 2. Use the matching rule.
 
 ::solution
-a) $\square$ is an addend: sum minus addend, $\square=40-15=25$.
+a) In the addition $\square+15=40$, $\square$ is a missing addend. We subtract, because to find a missing addend we subtract the known addend from the sum:
+$$\square=40-15=25.$$
+Check: $25+15=40$. Correct.
 
-b) $\square$ is the minuend: difference plus subtrahend, $\square=40+15=55$.
+b) In the subtraction $\square-15=40$, $\square$ is the minuend. We add, because to find the minuend we add the subtrahend to the difference:
+$$\square=40+15=55.$$
+Check: $55-15=40$. Correct.
 
-c) $\square$ is the subtrahend: minuend minus difference, $\square=40-15=25$.
+c) In the subtraction $40-\square=15$, $\square$ is the subtrahend. We subtract, because to find the subtrahend we subtract the difference from the minuend:
+$$\square=40-15=25.$$
+Check: $40-25=15$. Correct.
+
+So we subtract in a) and c), and add in b); we get $\square=25$; $\square=55$; $\square=25$.
 
 **Answer.** a) $25$; b) $55$; c) $25$.
 :::
@@ -251,9 +287,16 @@ Mai solved $63-\square=45$ like this: "$\square=63+45=108$". Where did Mai go wr
 2. Check Mai's answer: can $63-108$ be done?
 
 ::solution
-Mai added, but $\square$ is the subtrahend, so we subtract the difference from the minuend: $\square=63-45=18$.
+In the subtraction $63-\square=45$, $\square$ is the subtrahend. To find the subtrahend, we subtract the difference from the minuend.
 
-**Check.** $63-18=45$. Correct.
+Mai went wrong by working out $63+45$, that is, Mai added instead of subtracting.
+
+The correct way is
+$$\square=63-45=18.$$
+
+Check: $63-18=45$. Correct.
+
+So Mai went wrong by adding instead of subtracting, and $\square=18$.
 
 **Answer.** Mai used the wrong operation; $\square=18$.
 :::
@@ -271,9 +314,21 @@ b) A shop sold $27$ kg of rice in the morning. It sold $60$ kg in the whole day.
 2. Write a sum with a box, find the box, then write the answer with its unit.
 
 ::solution
-a) Let the starting number be $\square$: $\square-35=18$, so $\square=18+35=53$ (books).
+Solution
 
-b) Let the afternoon amount be $\square$: $27+\square=60$, so $\square=60-27=33$ (kg).
+a) Let the number of books at the start be $\square$. She gives $35$ books to the class and has $18$ left, so
+$$\square-35=18.$$
+The number of books at the start is:
+$$18+35=53\ \text{(books)}$$
+Check: $53-35=18$. Correct.
+
+b) Let the number of kilograms of rice sold in the afternoon be $\square$. The shop sold $27$ kg in the morning and $60$ kg in the whole day, so
+$$27+\square=60.$$
+The number of kilograms of rice sold in the afternoon is:
+$$60-27=33\ \text{(kg)}$$
+Check: $27+33=60$. Correct.
+
+So she had $53$ books at the start; the shop sold $33$ kg of rice in the afternoon.
 
 **Answer.** a) $53$ books; b) $33$ kg of rice.
 :::
@@ -293,9 +348,19 @@ b) $90-\square=47+16$.
 2. Find $\square$ with the matching rule and check.
 
 ::solution
-a) $100-35=65$, so $\square+28=65$ and $\square=65-28=37$. Check: $37+28=65$.
+a) Work out the right-hand side first:
+$$100-35=65.$$
+So $\square+28=65$. To find a missing addend, we subtract the known addend from the sum:
+$$\square=65-28=37.$$
+Check: $37+28=65$. Correct.
 
-b) $47+16=63$, so $90-\square=63$ and $\square=90-63=27$. Check: $90-27=63$.
+b) Work out the right-hand side first:
+$$47+16=63.$$
+So $90-\square=63$. To find the subtrahend, we subtract the difference from the minuend:
+$$\square=90-63=27.$$
+Check: $90-27=63$. Correct.
+
+So in a) $\square=37$; in b) $\square=27$.
 
 **Answer.** a) $37$; b) $27$.
 :::

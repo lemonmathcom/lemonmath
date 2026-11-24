@@ -152,11 +152,18 @@ c) $6\times8$.
 2. Stop at the number you need.
 
 ::solution
-a) $6\times3=18$.
+Use the $6$ times table to work out each product.
 
-b) $6\times5=30$.
+a) $6\times3$ is the sum of $3$ sixes, so
+$$6\times3=6+6+6=18.$$
 
-c) $6\times8=48$.
+b) $6\times5$ is made of $3$ sixes and $2$ sixes, so
+$$6\times5=6\times3+6\times2=18+12=30.$$
+
+c) $6\times8$ is made of $5$ sixes and $3$ sixes, so
+$$6\times8=6\times5+6\times3=30+18=48.$$
+
+So $6\times3=18$; $6\times5=30$; $6\times8=48$.
 
 **Answer.** a) $18$; b) $30$; c) $48$.
 :::
@@ -178,11 +185,18 @@ c) $6\times10$.
 2. Add $6$.
 
 ::solution
-a) $6\times7=36+6=42$.
+In the $6$ times table, each product is $6$ more than the one before it.
 
-b) $6\times9=48+6=54$.
+a) We have $6\times6=36$. Adding one more six, we get
+$$6\times7=6\times6+6=36+6=42.$$
 
-c) $6\times10=54+6=60$.
+b) We have $6\times8=48$. Adding one more six, we get
+$$6\times9=6\times8+6=48+6=54.$$
+
+c) We have $6\times9=54$. Adding one more six, we get
+$$6\times10=6\times9+6=54+6=60.$$
+
+So $6\times7=42$; $6\times9=54$; $6\times10=60$.
 
 **Answer.** a) $42$; b) $54$; c) $60$.
 :::
@@ -204,11 +218,19 @@ c) $4\times9$ and $6\times6$.
 2. Compare the results.
 
 ::solution
-a) $4\times6=24$.
+Recall the $4$ times table to work these out.
 
-b) $6\times4=24$, the same as $4\times6$.
+a) We have
+$$4\times6=4\times5+4=20+4=24.$$
 
-c) $4\times9=36$ and $6\times6=36$, so the two products are equal.
+b) When the two factors are swapped, the product does not change, so $6\times4=4\times6=24$. Check: $6\times4=6+6+6+6=24$. Correct.
+
+c) We work out each product:
+$$4\times9=4\times8+4=32+4=36,$$
+$$6\times6=6\times5+6=30+6=36.$$
+Both products equal $36$, so $4\times9=6\times6$.
+
+So $4\times6=24$; $6\times4=24$ (the same as $4\times6$); $4\times9=36$ and $6\times6=36$, so the two products are equal.
 
 **Answer.** a) $24$; b) $24$; c) $36$ and $36$.
 :::
@@ -230,11 +252,15 @@ c) $60\div6$.
 2. The other number is the quotient.
 
 ::solution
-a) $6\times3=18$, so $18\div6=3$.
+To divide, we find the matching multiplication in the $6$ times table.
 
-b) $6\times7=42$, so $42\div6=7$.
+a) Since $6\times3=18$, we have $18\div6=3$.
 
-c) $6\times10=60$, so $60\div6=10$.
+b) Since $6\times7=42$, we have $42\div6=7$.
+
+c) Since $6\times10=60$, we have $60\div6=10$.
+
+So $18\div6=3$; $42\div6=7$; $60\div6=10$.
 
 **Answer.** a) $3$; b) $7$; c) $10$.
 :::
@@ -256,11 +282,15 @@ c) $6\times8 \;\square\; 6\times7+6$.
 2. Compare the results.
 
 ::solution
-a) $6\times5=30$ and $30>28$, so $6\times5>28$.
+We work out the value of each side and then compare.
 
-b) $36\div6=6$ and $6\times1=6$, so the two sides are equal.
+a) We have $6\times5=30$. Since $30>28$, we have $6\times5>28$.
 
-c) $6\times8=48$ and $6\times7+6=42+6=48$, so the two sides are equal.
+b) Since $6\times6=36$, we have $36\div6=6$. Also $6\times1=6$. Both sides equal $6$, so $36\div6=6\times1$.
+
+c) We have $6\times8=48$ and $6\times7+6=42+6=48$. Both sides equal $48$, so $6\times8=6\times7+6$.
+
+So the signs to write are: $6\times5>28$; $36\div6=6\times1$; $6\times8=6\times7+6$.
 
 **Answer.** a) $>$; b) $=$; c) $=$.
 :::
@@ -276,9 +306,14 @@ Hoa wrote: "$6\times7=48$". Where did Hoa go wrong? Correct it.
 2. Work out $6\times7$ again from the product before.
 
 ::solution
-$48$ is $6\times8$. We have $6\times7=6\times6+6=36+6=42$.
+We work out the product $6\times7$ again:
+$$6\times7=6\times6+6=36+6=42.$$
 
-**Check.** $42\div6=7$. Correct.
+Hoa wrote $48$, but $48\ne42$, so Hoa was wrong. The number $48$ is the product $6\times8$, the next product after $6\times7$.
+
+Check: $42\div6=7$, which agrees with $6\times7=42$.
+
+So Hoa took the next product by mistake; the correct result is $6\times7=42$.
 
 **Answer.** Hoa took the next product by mistake; $6\times7=42$.
 :::
@@ -296,9 +331,15 @@ b) $54$ eggs are put into trays of $6$. How many trays are filled?
 2. Choose the operation, work it out and write the answer with its unit.
 
 ::solution
-a) The number of eggs is $6\times8=48$ (eggs).
+Solution
 
-b) The number of trays is $54\div6=9$ (trays).
+a) The number of eggs on $8$ trays is:
+$$6\times8=48\ \text{(eggs)}$$
+
+b) Since $6\times9=54$, the number of trays filled is:
+$$54\div6=9\ \text{(trays)}$$
+
+So $8$ trays hold $48$ eggs; $54$ eggs fill $9$ trays.
 
 **Answer.** a) $48$ eggs; b) $9$ trays.
 :::
@@ -318,9 +359,23 @@ b) How many rows are still to make, and how many pupils are still to stand in a 
 2. Subtract the rows made, then work out the pupils left.
 
 ::solution
-a) The number of rows needed is $60\div6=10$ (rows).
+Solution
 
-b) The rows still to make: $10-7=3$ (rows). The pupils already placed: $6\times7=42$, so the pupils left are $60-42=18$. Check: $6\times3=18$.
+a) The number of rows needed for $60$ pupils is:
+$$60\div6=10\ \text{(rows)}$$
+
+b) The number of rows still to make is:
+$$10-7=3\ \text{(rows)}$$
+
+The number of pupils already placed in $7$ rows is:
+$$6\times7=42\ \text{(pupils)}$$
+
+The number of pupils still to stand in a row is:
+$$60-42=18\ \text{(pupils)}$$
+
+Check: the $3$ remaining rows with $6$ pupils each hold $6\times3=18$ pupils. Correct.
+
+So $10$ rows are needed altogether; $3$ rows are still to make and $18$ pupils are still to stand in a row.
 
 **Answer.** a) $10$ rows; b) $3$ rows and $18$ pupils.
 :::

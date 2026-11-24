@@ -243,7 +243,27 @@ Chiều cao (cm) của $20$ bạn: $152, 158, 161, 165, 149, 170, 155, 162, 168,
 2. Đếm tần số rồi cộng lại để kiểm tra.
 
 ::solution
-Đếm từng nhóm ta được các tần số $1, 3, 5, 5, 4, 2$; chẳng hạn nhóm $[150; 155)$ gồm $152, 154, 151$. Tổng $1+3+5+5+4+2=20$.
+Để lập bảng tần số ghép nhóm, ta xếp từng số liệu vào nhóm chứa nó. Mỗi nhóm có dạng $[a; b)$ nên nhận $a$ nhưng không nhận $b$ (chẳng hạn $165$ thuộc nhóm $[165; 170)$, không thuộc nhóm $[160; 165)$).
+
+Sắp xếp $20$ số liệu theo thứ tự tăng dần:
+$$149, 151, 152, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 168, 169, 170, 173.$$
+
+Đếm số liệu trong từng nhóm:
+
+- Nhóm $[145; 150)$: $149$, có $1$ số liệu.
+- Nhóm $[150; 155)$: $151, 152, 154$, có $3$ số liệu.
+- Nhóm $[155; 160)$: $155, 156, 157, 158, 159$, có $5$ số liệu.
+- Nhóm $[160; 165)$: $160, 161, 162, 163, 164$, có $5$ số liệu.
+- Nhóm $[165; 170)$: $165, 166, 168, 169$, có $4$ số liệu.
+- Nhóm $[170; 175)$: $170, 173$, có $2$ số liệu.
+
+Kiểm tra: $1+3+5+5+4+2=20$, đúng bằng số bạn đã cho.
+
+Vậy bảng tần số ghép nhóm là
+
+| Chiều cao (cm) | $[145; 150)$ | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |
+|---|---|---|---|---|---|---|
+| Tần số | $1$ | $3$ | $5$ | $5$ | $4$ | $2$ |
 
 **Đáp số.** Các tần số là $1, 3, 5, 5, 4, 2$.
 :::
@@ -259,13 +279,34 @@ Cho mẫu số liệu ghép nhóm cỡ $50$ về chiều cao (cm): $[140; 150)$ 
 2. Cộng dồn các tần số.
 
 ::solution
-Tần số tương đối: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (tổng $100\%$). Tần số tích luỹ: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
+Cỡ mẫu là $n=50$. Tần số tương đối của một nhóm có tần số $m$ là $\dfrac{m}{n}\cdot100\%$; tần số tích luỹ của một nhóm là tổng tần số của nhóm đó và của mọi nhóm đứng trước nó.
+
+Tần số tương đối của từng nhóm:
+$$\frac{5}{50}=10\%,\quad\frac{12}{50}=24\%,\quad\frac{18}{50}=36\%,\quad\frac{10}{50}=20\%,\quad\frac{5}{50}=10\%.$$
+
+Kiểm tra: $10\%+24\%+36\%+20\%+10\%=100\%$.
+
+Tần số tích luỹ của từng nhóm:
+$$5,\quad5+12=17,\quad17+18=35,\quad35+10=45,\quad45+5=50.$$
+
+Kiểm tra: tần số tích luỹ của nhóm cuối bằng cỡ mẫu $50$.
+
+Vậy ta có bảng
+
+| Nhóm | $[140; 150)$ | $[150; 160)$ | $[160; 170)$ | $[170; 180)$ | $[180; 190)$ |
+|---|---|---|---|---|---|
+| Tần số tương đối | $10\%$ | $24\%$ | $36\%$ | $20\%$ | $10\%$ |
+| Tần số tích luỹ | $5$ | $17$ | $35$ | $45$ | $50$ |
 
 **Đáp số.** Tần số tương đối: $10\%, 24\%, 36\%, 20\%, 10\%$; tần số tích luỹ: $5, 17, 35, 45, 50$.
 :::
 
 :::exercise
-Hai bảng ghép nhóm cân nặng (kg) sau có lỗi. Hãy chỉ ra lỗi và sửa lại. a) $[40; 45)$, $[45; 50]$, $[50; 55)$, $[55; 60)$. b) $[40; 45)$, $[45; 50)$, $[55; 60)$, $[60; 65)$.
+Hai bảng ghép nhóm cân nặng (kg) sau có lỗi. Hãy chỉ ra lỗi và sửa lại.
+
+a) $[40; 45)$, $[45; 50]$, $[50; 55)$, $[55; 60)$.
+
+b) $[40; 45)$, $[45; 50)$, $[55; 60)$, $[60; 65)$.
 
 ::hint
 **Kiến thức:** các nhóm phải liên tiếp, không chồng lấn và không bỏ trống.
@@ -275,7 +316,13 @@ Hai bảng ghép nhóm cân nặng (kg) sau có lỗi. Hãy chỉ ra lỗi và s
 2. Xem có khoảng nào chưa được phủ không.
 
 ::solution
-a) Nhóm $[45; 50]$ chứa cả $50$, mà $50$ cũng thuộc $[50; 55)$ nên bị đếm hai lần: chồng lấn. Sửa thành $[45; 50)$. b) Thiếu nhóm $[50; 55)$: các số liệu từ $50$ đến dưới $55$ không thuộc nhóm nào. Sửa bằng cách thêm nhóm $[50; 55)$.
+Một bảng ghép nhóm đúng phải có các nhóm liên tiếp: nhóm nào cũng có dạng $[a; b)$, đầu mút phải của nhóm trước là đầu mút trái của nhóm sau, nên mỗi số liệu thuộc đúng một nhóm.
+
+a) Nhóm $[45; 50]$ chứa cả số $50$. Số $50$ cũng thuộc nhóm $[50; 55)$ nên bị đếm hai lần, tức là hai nhóm chồng lấn tại $50$. Ta sửa nhóm này thành $[45; 50)$, khi đó $50$ chỉ thuộc nhóm $[50; 55)$.
+
+b) Sau nhóm $[45; 50)$ là nhóm $[55; 60)$, nên các số liệu từ $50$ đến dưới $55$ không thuộc nhóm nào. Ta sửa bằng cách thêm nhóm $[50; 55)$, được các nhóm $[40; 45)$, $[45; 50)$, $[50; 55)$, $[55; 60)$, $[60; 65)$.
+
+Vậy ở bảng a) lỗi là chồng lấn tại $50$, sửa thành $[45; 50)$; ở bảng b) lỗi là thiếu nhóm $[50; 55)$, sửa bằng cách thêm nhóm này.
 
 **Đáp số.** a) Chồng lấn tại $50$; sửa $[45; 50)$. b) Thiếu $[50; 55)$; thêm nhóm này.
 :::
@@ -291,13 +338,25 @@ Giả sử lượng nước sinh hoạt tiêu thụ mỗi tháng ($\text{m}^3$) 
 2. Chia cho $50$ rồi nhân $100\%$.
 
 ::solution
-Số hộ dùng dưới $15\ \text{m}^3$ là $4+16+18=38$, chiếm $\dfrac{38}{50}\cdot100\%=76\%$.
+Các nhóm $[0; 5)$, $[5; 10)$, $[10; 15)$ gồm các hộ dùng dưới $15\ \text{m}^3$ một tháng; hai nhóm còn lại dùng từ $15\ \text{m}^3$ trở lên.
+
+Số hộ dùng dưới $15\ \text{m}^3$ là
+$$4+16+18=38\ (\text{hộ}).$$
+
+Cỡ mẫu là $50$ hộ nên tỉ lệ phần trăm cần tìm là
+$$\frac{38}{50}\cdot100\%=76\%.$$
+
+Vậy có $76\%$ số hộ dùng dưới $15\ \text{m}^3$ một tháng.
 
 **Đáp số.** $76\%$.
 :::
 
 :::exercise
-Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 160)$ có $10$, $[160; 165)$ có $14$, $[165; 170)$ có $9$, $[170; 175)$ có $3$ bạn. a) Viết giá trị đại diện của từng nhóm. b) Giả sử các bạn trong mỗi nhóm có chiều cao phân bố đều, hãy ước lượng số bạn cao dưới $162{,}5$ cm.
+Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 160)$ có $10$, $[160; 165)$ có $14$, $[165; 170)$ có $9$, $[170; 175)$ có $3$ bạn.
+
+a) Viết giá trị đại diện của từng nhóm.
+
+b) Giả sử các bạn trong mỗi nhóm có chiều cao phân bố đều, hãy ước lượng số bạn cao dưới $162{,}5$ cm.
 
 ::hint
 **Kiến thức:** giá trị đại diện là trung điểm của nhóm; $162{,}5$ là trung điểm của nhóm $[160; 165)$.
@@ -307,7 +366,18 @@ Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 
 2. Cộng các nhóm hoàn toàn nằm dưới $162{,}5$ với một nửa nhóm $[160; 165)$.
 
 ::solution
-a) Các giá trị đại diện là $152{,}5$, $157{,}5$, $162{,}5$, $167{,}5$, $172{,}5$. b) Các nhóm $[150; 155)$ và $[155; 160)$ nằm hoàn toàn dưới $162{,}5$ cm, có $4+10=14$ bạn. Nửa dưới của nhóm $[160; 165)$ có khoảng $\dfrac{14}{2}=7$ bạn. Vậy ước lượng là $14+7=21$ bạn.
+a) Giá trị đại diện của nhóm $[a; b)$ là trung điểm $\dfrac{a+b}{2}$ của nhóm đó. Ta có
+$$\frac{150+155}{2}=152{,}5,\quad\frac{155+160}{2}=157{,}5,\quad\frac{160+165}{2}=162{,}5,\quad\frac{165+170}{2}=167{,}5,\quad\frac{170+175}{2}=172{,}5.$$
+
+b) Các nhóm $[150; 155)$ và $[155; 160)$ nằm hoàn toàn dưới $162{,}5$ cm, có
+$$4+10=14\ (\text{bạn}).$$
+
+Điểm $162{,}5$ là trung điểm của nhóm $[160; 165)$. Vì các bạn trong nhóm này có chiều cao phân bố đều nên nửa dưới của nhóm, tức là phần $[160; 162{,}5)$, có khoảng
+$$\frac{14}{2}=7\ (\text{bạn}).$$
+
+Do đó số bạn cao dưới $162{,}5$ cm là khoảng $14+7=21$ bạn.
+
+Vậy các giá trị đại diện là $152{,}5; 157{,}5; 162{,}5; 167{,}5; 172{,}5$ và có khoảng $21$ bạn cao dưới $162{,}5$ cm.
 
 **Đáp số.** a) $152{,}5; 157{,}5; 162{,}5; 167{,}5; 172{,}5$; b) khoảng $21$ bạn.
 :::
@@ -332,13 +402,17 @@ d) Tần số tích luỹ của nhóm $[30; 40)$ là $38$.
 3. c), d) Cộng dồn các tần số.
 
 ::solution
-a) **Đúng**: tần số lớn nhất là $14$.
+Cỡ mẫu là $6+14+12+6+2=40$.
 
-b) **Sai**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ là tần số, không phải tần số tương đối.
+a) **Đúng.** Các tần số lần lượt là $6, 14, 12, 6, 2$; tần số lớn nhất là $14$, ứng với nhóm $[10; 20)$.
 
-c) **Đúng**: $6+14=20$.
+b) **Sai.** Tần số tương đối của nhóm $[20; 30)$ là $\dfrac{12}{40}\cdot100\%=30\%$. Số $12$ là tần số, không phải tần số tương đối.
 
-d) **Đúng**: $6+14+12+6=38$.
+c) **Đúng.** Các bạn đi chưa đến $20$ phút thuộc hai nhóm $[0; 10)$ và $[10; 20)$, có $6+14=20$ bạn.
+
+d) **Đúng.** Tần số tích luỹ của nhóm $[30; 40)$ là $6+14+12+6=38$.
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -353,7 +427,12 @@ Một mẫu số liệu ghép nhóm cỡ $50$ có các tần số tích luỹ c�
 1. Tần số nhóm thứ ba bằng tần số tích luỹ thứ ba trừ tần số tích luỹ thứ hai.
 
 ::solution
-Tần số của nhóm thứ ba là $38-17=21$.
+Tần số tích luỹ của một nhóm bằng tổng tần số của nhóm đó và các nhóm đứng trước. Gọi $m_3$ là tần số của nhóm thứ ba; khi đó tần số tích luỹ của nhóm thứ ba bằng tần số tích luỹ của nhóm thứ hai cộng $m_3$.
+
+Theo đề, tần số tích luỹ của nhóm thứ hai là $17$ và của nhóm thứ ba là $38$, nên
+$$m_3=38-17=21.$$
+
+Vậy tần số của nhóm thứ ba là $21$.
 
 **Đáp số.** $21$.
 :::
@@ -369,7 +448,18 @@ Chứng minh rằng nếu các nhóm của một mẫu số liệu ghép nhóm c
 2. Tính $c_{i+1}-c_i$.
 
 ::solution
-Giá trị đại diện của nhóm thứ $i$ là $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. Nhóm kế tiếp bắt đầu từ $a_i+h$ nên $c_{i+1}=a_i+h+\dfrac h2$. Do đó $c_{i+1}-c_i=h$ không đổi, nên $(c_i)$ là cấp số cộng có công sai $h$.
+Giả sử các nhóm đều có độ rộng $h$ và nhóm thứ $i$ là $[a_i; a_i+h)$. Giá trị đại diện của nhóm này là trung điểm của nó:
+$$c_i=\frac{a_i+(a_i+h)}{2}=a_i+\frac h2.$$
+
+Các nhóm liên tiếp nên nhóm kế tiếp bắt đầu từ $a_i+h$, tức là $a_{i+1}=a_i+h$. Do đó
+$$c_{i+1}=a_{i+1}+\frac h2=a_i+h+\frac h2.$$
+
+Suy ra
+$$c_{i+1}-c_i=\left(a_i+h+\frac h2\right)-\left(a_i+\frac h2\right)=h.$$
+
+Hiệu $c_{i+1}-c_i=h$ không đổi với mọi $i$.
+
+Vậy dãy các giá trị đại diện $(c_i)$ là một cấp số cộng có công sai $h$.
 
 **Đáp số.** Các giá trị đại diện lập thành cấp số cộng công sai $h$.
 :::
@@ -386,7 +476,18 @@ Một bảng tần số ghép nhóm có năm nhóm $[0; 10)$, $[10; 20)$, $[20; 
 3. Tìm tần số nhóm $[30; 40)$ từ tổng bằng $n$.
 
 ::solution
-Từ $\dfrac{18}{n}=0{,}36$ ta có $n=50$. Tần số tích luỹ của nhóm $[10; 20)$ là $4+m_2=14$ nên $m_2=10$. Tổng các tần số bằng $50$ nên $m_4=50-(4+10+18+3)=15$.
+Gọi $n$ là cỡ mẫu và $m_1, m_2, m_3, m_4, m_5$ là tần số của năm nhóm theo thứ tự. Theo đề, $m_1=4$, $m_3=18$, $m_5=3$.
+
+Nhóm $[20; 30)$ có tần số $18$ và tần số tương đối $36\%$ nên
+$$\frac{18}{n}=0{,}36\iff n=\frac{18}{0{,}36}=50.$$
+
+Tần số tích luỹ của nhóm $[10; 20)$ là tổng tần số của hai nhóm đầu, nên
+$$m_1+m_2=14\iff4+m_2=14\iff m_2=10.$$
+
+Tổng các tần số bằng cỡ mẫu nên $m_1+m_2+m_3+m_4+m_5=50$. Do đó
+$$m_4=50-(4+10+18+3)=50-35=15.$$
+
+Vậy cỡ mẫu là $50$, nhóm $[10; 20)$ có tần số $10$ và nhóm $[30; 40)$ có tần số $15$.
 
 **Đáp số.** $n=50$; nhóm $[10; 20)$ có $10$; nhóm $[30; 40)$ có $15$.
 :::

@@ -279,7 +279,11 @@ Hai mặt phẳng $(\alpha)$ và $(\beta)$ cắt nhau theo đường thẳng $d$
 2. Lấy góc bù.
 
 ::solution
-Vì $135^\circ>90^\circ$ nên góc giữa hai mặt phẳng là $180^\circ-135^\circ=45^\circ$.
+Góc giữa hai mặt phẳng cắt nhau là góc nhỏ nhất trong các góc phẳng nhị diện, nên không vượt quá $90^\circ$. Hai góc nhị diện tạo bởi $(\alpha)$ và $(\beta)$ có số đo bù nhau.
+
+Vì $135^\circ>90^\circ$ nên góc nhị diện còn lại có góc phẳng là $180^\circ-135^\circ=45^\circ$.
+
+Vậy góc giữa $(\alpha)$ và $(\beta)$ bằng $45^\circ$.
 
 **Đáp số.** $45^\circ$.
 :::
@@ -295,7 +299,14 @@ Một tờ bìa được gập theo nếp gấp $d$. Lấy điểm $H$ trên n�
 2. So sánh với $AB^2$.
 
 ::solution
-$HA^2+HB^2=144+256=400=20^2=AB^2$, nên $\widehat{AHB}=90^\circ$.
+Hai nửa tờ bìa nằm trong hai mặt phẳng cắt nhau theo nếp gấp $d$. Vì $H\in d$, $HA\perp d$ và $HB\perp d$ nên $\widehat{AHB}$ là góc phẳng nhị diện của hai nửa tờ bìa. Hai nửa tờ bìa vuông góc với nhau khi và chỉ khi $\widehat{AHB}=90^\circ$.
+
+Ta có
+$$HA^2+HB^2=12^2+16^2=144+256=400=20^2=AB^2.$$
+
+Theo định lí Pythagore đảo, tam giác $AHB$ vuông tại $H$, tức $\widehat{AHB}=90^\circ$.
+
+Vậy hai nửa tờ bìa vuông góc với nhau.
 
 **Đáp số.** Có, hai nửa tờ bìa vuông góc với nhau.
 :::
@@ -311,7 +322,15 @@ Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Chứng minh $(ABB'A')\perp(ADD'A'
 2. Chứng minh $AB$ vuông góc với hai đường thẳng cắt nhau của $(ADD'A')$.
 
 ::solution
-$AB\perp AD$ (đáy là hình chữ nhật) và $AB\perp AA'$ (mặt bên là hình chữ nhật). Hai đường thẳng $AD$, $AA'$ cắt nhau trong $(ADD'A')$, nên $AB\perp(ADD'A')$. Mặt phẳng $(ABB'A')$ chứa $AB$.
+Ta dùng tiêu chuẩn: nếu mặt phẳng này chứa một đường thẳng vuông góc với mặt phẳng kia thì hai mặt phẳng vuông góc.
+
+Vì $ABCD$ là hình chữ nhật nên $AB\perp AD$. Vì $ABB'A'$ là hình chữ nhật nên $AB\perp AA'$.
+
+Hai đường thẳng $AD$ và $AA'$ cắt nhau tại $A$ và cùng nằm trong $(ADD'A')$. Do đó $AB\perp(ADD'A')$.
+
+Mặt phẳng $(ABB'A')$ chứa đường thẳng $AB$ mà $AB\perp(ADD'A')$.
+
+Vậy $(ABB'A')\perp(ADD'A')$.
 
 **Đáp số.** $(ABB'A')\perp(ADD'A')$.
 :::
@@ -327,7 +346,18 @@ Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$ và
 2. Chỉ ra góc phẳng nhị diện là $\widehat{SBA}$ và tính $\tan$.
 
 ::solution
-$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$. Góc phẳng nhị diện là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=\dfrac22=1$.
+Giao tuyến của $(SBC)$ và $(ABC)$ là $BC$.
+
+Vì $SA\perp(ABC)$ nên $SA\perp BC$. Tam giác $ABC$ vuông tại $B$ nên $AB\perp BC$. Hai đường thẳng $SA$ và $AB$ cắt nhau trong $(SAB)$, do đó $BC\perp(SAB)$. Suy ra $BC\perp SB$.
+
+Ta có $BC\perp AB$ với $AB\subset(ABC)$ và $BC\perp SB$ với $SB\subset(SBC)$. Vậy góc phẳng nhị diện của hai mặt phẳng là $\widehat{SBA}$.
+
+Tam giác $SAB$ vuông tại $A$ (vì $SA\perp(ABC)$) nên
+$$\tan\widehat{SBA}=\frac{SA}{AB}=\frac22=1.$$
+
+Suy ra $\widehat{SBA}=45^\circ$.
+
+Vậy góc giữa $(SBC)$ và $(ABC)$ bằng $45^\circ$.
 
 **Đáp số.** $45^\circ$.
 :::
@@ -352,13 +382,19 @@ d) Góc giữa $(SCD)$ và $(ABCD)$ bằng $45^\circ$.
 3. c), d) Tìm góc $\widehat{SBA}$ và $\widehat{SDA}$.
 
 ::solution
-a) **Đúng**: $(SAB)$ chứa $SA\perp(ABCD)$.
+a) **Đúng.** Mặt phẳng $(SAB)$ chứa đường thẳng $SA$ và $SA\perp(ABCD)$. Do đó $(SAB)\perp(ABCD)$.
 
-b) **Đúng**: $CD\perp AD$ và $CD\perp SA$ nên $CD\perp(SAD)$; mà $(SCD)$ chứa $CD$.
+b) **Đúng.** Vì $ABCD$ là hình chữ nhật nên $CD\perp AD$. Vì $SA\perp(ABCD)$ nên $SA\perp CD$. Hai đường thẳng $AD$ và $SA$ cắt nhau trong $(SAD)$ nên $CD\perp(SAD)$. Mặt phẳng $(SCD)$ chứa $CD$ nên $(SCD)\perp(SAD)$.
 
-c) **Sai**: góc phẳng là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=\dfrac43\ne1$.
+c) **Sai.** Giao tuyến của $(SBC)$ và $(ABCD)$ là $BC$. Tương tự câu b), $BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$. Góc phẳng nhị diện là $\widehat{SBA}$ với
+$$\tan\widehat{SBA}=\frac{SA}{AB}=\frac43\ne1.$$
+Do đó góc giữa $(SBC)$ và $(ABCD)$ không bằng $45^\circ$.
 
-d) **Đúng**: $CD\perp(SAD)$ nên $CD\perp SD$; góc phẳng là $\widehat{SDA}$ với $\tan\widehat{SDA}=\dfrac{SA}{AD}=1$, tức $45^\circ$.
+d) **Đúng.** Giao tuyến của $(SCD)$ và $(ABCD)$ là $CD$. Theo câu b), $CD\perp(SAD)$ nên $CD\perp SD$; lại có $CD\perp AD$. Vậy góc phẳng nhị diện là $\widehat{SDA}$ với
+$$\tan\widehat{SDA}=\frac{SA}{AD}=\frac44=1,$$
+suy ra $\widehat{SDA}=45^\circ$. Vậy góc giữa $(SCD)$ và $(ABCD)$ bằng $45^\circ$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -374,7 +410,14 @@ Một ngôi nhà có hai tấm mái phẳng. Mặt cắt thẳng đứng vuông 
 2. Tính $\tan$ của góc ở đáy.
 
 ::solution
-Nửa đáy bằng $4$ m, chiều cao $3$ m nên $\tan\alpha=\dfrac34$, suy ra $\alpha\approx36{,}87^\circ$.
+Gọi tam giác cân là $ABC$ với đáy $BC=8$ m nằm ngang, chiều cao $AH=3$ m, $H$ là trung điểm của $BC$. Vì mặt cắt vuông góc với đường nóc nên góc giữa mỗi tấm mái và mặt phẳng ngang bằng góc giữa $AB$ (hoặc $AC$) và $BC$ trong mặt cắt.
+
+Gọi $\alpha$ là góc giữa một tấm mái và mặt phẳng ngang. Do tam giác $ABC$ cân tại $A$ nên $H$ là trung điểm của $BC$ và $BH=\dfrac82=4$ m. Trong tam giác $ABH$ vuông tại $H$, ta có
+$$\tan\alpha=\tan\widehat{ABH}=\frac{AH}{BH}=\frac34.$$
+
+Suy ra $\alpha\approx36{,}87^\circ$, làm tròn đến hàng đơn vị là $37^\circ$.
+
+Vậy mỗi tấm mái tạo với mặt phẳng ngang một góc khoảng $37^\circ$.
 
 **Đáp số.** Khoảng $37^\circ$.
 :::
@@ -390,7 +433,21 @@ Cho lăng trụ tam giác đều $ABC.A'B'C'$ có cạnh đáy bằng $6$ và c�
 2. Tính $AM$ rồi $\tan\widehat{A'MA}$.
 
 ::solution
-Tam giác $ABC$ đều nên $AM\perp BC$ và $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. Vì $AA'\perp(ABC)$ nên $BC\perp(A'AM)$, suy ra $BC\perp A'M$. Góc phẳng là $\widehat{A'MA}$ với $\tan\widehat{A'MA}=\dfrac{9}{3\sqrt3}=\sqrt3$.
+Gọi $M$ là trung điểm của $BC$. Giao tuyến của $(A'BC)$ và $(ABC)$ là $BC$.
+
+Tam giác $ABC$ đều nên đường trung tuyến $AM$ cũng là đường cao, tức $AM\perp BC$, và
+$$AM=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+Vì lăng trụ đều nên $AA'\perp(ABC)$, suy ra $AA'\perp BC$. Hai đường thẳng $AM$ và $AA'$ cắt nhau trong $(A'AM)$ và cùng vuông góc với $BC$, nên $BC\perp(A'AM)$. Suy ra $BC\perp A'M$.
+
+Ta có $AM\perp BC$ với $AM\subset(ABC)$ và $A'M\perp BC$ với $A'M\subset(A'BC)$. Vậy góc phẳng nhị diện là $\widehat{A'MA}$.
+
+Tam giác $A'AM$ vuông tại $A$ với $AA'=9$ nên
+$$\tan\widehat{A'MA}=\frac{AA'}{AM}=\frac{9}{3\sqrt3}=\sqrt3.$$
+
+Suy ra $\widehat{A'MA}=60^\circ$.
+
+Vậy góc giữa $(A'BC)$ và $(ABC)$ bằng $60^\circ$.
 
 **Đáp số.** $60^\circ$.
 :::
@@ -409,9 +466,21 @@ b) góc giữa $(SBC)$ và $(ABCD)$.
 3. Câu b: góc phẳng là $\widehat{SBA}$.
 
 ::solution
-a) $AC=a\sqrt2$, $SA=\sqrt{3a^2-2a^2}=a$. Góc cần tìm là $\widehat{SCA}$ với $\cos\widehat{SCA}=\dfrac{AC}{SC}=\sqrt{\dfrac23}$, nên $\widehat{SCA}\approx35{,}3^\circ$.
+a) Vì $SA\perp(ABCD)$ nên $AC$ là hình chiếu vuông góc của $SC$ lên $(ABCD)$. Do đó góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ là $\widehat{SCA}$.
 
-b) $BC\perp(SAB)$ nên góc phẳng là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=1$, tức $45^\circ$.
+Đáy là hình vuông cạnh $a$ nên $AC=a\sqrt2$. Tam giác $SAC$ vuông tại $A$ nên
+$$SA=\sqrt{SC^2-AC^2}=\sqrt{3a^2-2a^2}=a.$$
+
+Trong tam giác $SAC$ vuông tại $A$, ta có
+$$\cos\widehat{SCA}=\frac{AC}{SC}=\frac{a\sqrt2}{a\sqrt3}=\sqrt{\frac23}.$$
+
+Suy ra $\widehat{SCA}\approx35{,}3^\circ$ (làm tròn đến hàng phần mười của độ).
+
+b) Giao tuyến của $(SBC)$ và $(ABCD)$ là $BC$. Vì $BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$. Vậy góc phẳng nhị diện là $\widehat{SBA}$, với
+$$\tan\widehat{SBA}=\frac{SA}{AB}=\frac aa=1,$$
+tức $\widehat{SBA}=45^\circ$.
+
+Vậy góc giữa $SC$ và $(ABCD)$ khoảng $35{,}3^\circ$; góc giữa $(SBC)$ và $(ABCD)$ bằng $45^\circ$.
 
 **Đáp số.** a) $35{,}3^\circ$; b) $45^\circ$.
 :::
@@ -428,11 +497,20 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc giữa $(A'BD)$ 
 3. Dùng định lí côsin trong tam giác $A'OC'$.
 
 ::solution
-Tam giác $A'BD$ cân tại $A'$ nên $A'O\perp BD$; tương tự $C'O\perp BD$. Góc phẳng là $\widehat{A'OC'}$. Ta có $A'O=C'O=\sqrt{a^2+\dfrac{a^2}{2}}=\dfrac{a\sqrt6}{2}$ và $A'C'=a\sqrt2$:
+Gọi $O$ là giao điểm của $AC$ và $BD$. Giao tuyến của $(A'BD)$ và $(C'BD)$ là $BD$.
 
-$$\cos\widehat{A'OC'}=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac13.$$
+Tam giác $A'BD$ có $A'B=A'D=a\sqrt2$ (đường chéo các mặt bên) nên cân tại $A'$. Do $O$ là trung điểm của $BD$ nên $A'O\perp BD$. Tương tự, tam giác $C'BD$ cân tại $C'$ nên $C'O\perp BD$. Vậy góc phẳng nhị diện là $\widehat{A'OC'}$.
 
-Góc này nhọn nên $\widehat{A'OC'}\approx70{,}5^\circ$.
+Ta có $AO=\dfrac{a\sqrt2}{2}$ và $AA'\perp AO$ nên trong tam giác $A'AO$ vuông tại $A$,
+$$A'O=\sqrt{a^2+\frac{a^2}{2}}=\frac{a\sqrt6}{2}.$$
+Tương tự $C'O=\dfrac{a\sqrt6}{2}$, và $A'C'=a\sqrt2$.
+
+Áp dụng định lí côsin trong tam giác $A'OC'$, ta có
+$$\cos\widehat{A'OC'}=\frac{A'O^2+C'O^2-A'C'^2}{2\cdot A'O\cdot C'O}=\frac{\frac{3a^2}{2}+\frac{3a^2}{2}-2a^2}{2\cdot\frac{3a^2}{2}}=\frac{a^2}{3a^2}=\frac13.$$
+
+Vì $\cos\widehat{A'OC'}>0$ nên góc này nhọn và $\widehat{A'OC'}\approx70{,}5^\circ$. Đây cũng là góc giữa hai mặt phẳng.
+
+Vậy góc giữa $(A'BD)$ và $(C'BD)$ khoảng $70{,}5^\circ$.
 
 **Đáp số.** $70{,}5^\circ$.
 :::
@@ -448,7 +526,16 @@ Cho hình chóp $S.ABC$ có $(SAB)\perp(ABC)$ và $(SAC)\perp(ABC)$. Chứng min
 2. Dùng $SA\perp AB$ trong tam giác $SAB$.
 
 ::solution
-Hai mặt phẳng $(SAB)$, $(SAC)$ cắt nhau theo $SA$ và cùng vuông góc với $(ABC)$, nên $SA\perp(ABC)$. Khi đó $SA\perp AB$ và $SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4$.
+Chứng minh $SA\perp(ABC)$.
+
+Hai mặt phẳng $(SAB)$ và $(SAC)$ cắt nhau theo giao tuyến $SA$ và cùng vuông góc với mặt phẳng $(ABC)$. Theo định lí về giao tuyến của hai mặt phẳng cùng vuông góc với một mặt phẳng thứ ba, giao tuyến $SA$ vuông góc với $(ABC)$.
+
+Tính $SA$.
+
+Vì $SA\perp(ABC)$ và $AB\subset(ABC)$ nên $SA\perp AB$. Tam giác $SAB$ vuông tại $A$ với $AB=3$ và $SB=5$. Theo định lí Pythagore,
+$$SA=\sqrt{SB^2-AB^2}=\sqrt{25-9}=4.$$
+
+Vậy $SA\perp(ABC)$ và $SA=4$.
 
 **Đáp số.** $SA=4$.
 :::

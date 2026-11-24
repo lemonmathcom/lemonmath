@@ -159,7 +159,15 @@ Work out in your head: $36\times10$; $36\times100$; $36\times1\,000$.
 2. Add $1$, $2$, $3$ zeros on the right in turn.
 
 ::solution
-$36\times10=360$; $36\times100=3\,600$; $36\times1\,000=36\,000$.
+When we multiply a number by $10$, $100$ or $1\,000$, we write one, two or three zeros to the right of that number.
+
+We have $36\times10=360$ (one zero added).
+
+We have $36\times100=3\,600$ (two zeros added).
+
+We have $36\times1\,000=36\,000$ (three zeros added).
+
+So $36\times10=360$; $36\times100=3\,600$; $36\times1\,000=36\,000$.
 
 **Answer.** $360$; $3\,600$; $36\,000$.
 :::
@@ -175,7 +183,15 @@ Work out in your head: $5\,000\div10$; $5\,000\div100$; $5\,000\div1\,000$.
 2. Remove $1$, $2$, $3$ zeros in turn.
 
 ::solution
-$5\,000\div10=500$; $5\,000\div100=50$; $5\,000\div1\,000=5$.
+When we divide a number ending in zeros by $10$, $100$ or $1\,000$, we remove one, two or three zeros from the end of that number.
+
+We have $5\,000\div10=500$ (one zero removed).
+
+We have $5\,000\div100=50$ (two zeros removed).
+
+We have $5\,000\div1\,000=5$ (three zeros removed).
+
+So $5\,000\div10=500$; $5\,000\div100=50$; $5\,000\div1\,000=5$.
 
 **Answer.** $500$; $50$; $5$.
 :::
@@ -193,9 +209,11 @@ b) $9\,000\div\square=90$
 2. Part b: how many zeros must be removed from $9\,000$ to get $90$?
 
 ::solution
-a) $2\,400$ has two more zeros than $24$, so $24\times100=2\,400$.
+a) The number $2\,400$ has two more zeros than $24$, so the missing number is $100$. Check: $24\times100=2\,400$.
 
-b) Removing two zeros from $9\,000$ gives $90$, so $9\,000\div100=90$.
+b) Removing two zeros from $9\,000$ gives $90$, so the divisor is $100$. Check: $9\,000\div100=90$.
+
+So both missing numbers are $100$.
 
 **Answer.** a) $100$. b) $100$.
 :::
@@ -213,9 +231,11 @@ b) $6\,000$ kg $=\ ?$ tonnes
 2. Part b: divide $6\,000$ by $1\,000$.
 
 ::solution
-a) $8$ tạ $=8\times100=800$ kg.
+a) We have $1$ tạ $=100$ kg, so $8$ tạ $=8\times100=800$ kg.
 
-b) $6\,000$ kg $=6\,000\div1\,000=6$ tonnes.
+b) We have $1$ tonne $=1\,000$ kg, so $6\,000$ kg $=6\,000\div1\,000=6$ tonnes.
+
+So $8$ tạ $=800$ kg and $6\,000$ kg $=6$ tonnes.
 
 **Answer.** a) $800$ kg. b) $6$ tonnes.
 :::
@@ -231,9 +251,15 @@ A piece of cloth $25$ m long is cut into pieces, each $10$ cm long. How many pie
 2. Change $25$ m to centimetres, then divide by $10$.
 
 ::solution
-$25$ m $=25\times100=2\,500$ (cm).
+Solution
 
-The number of pieces is $2\,500\div10=250$ (pieces).
+We convert the length of the cloth to centimetres so that it has the same unit as the length of each piece. Since $1$ m $=100$ cm,
+$$25\ \text{m}=25\times100=2\,500\ \text{(cm)}.$$
+
+The number of pieces is:
+$$2\,500\div10=250\ \text{(pieces)}.$$
+
+So $250$ pieces can be cut.
 
 **Answer.** $250$ pieces.
 :::
@@ -249,9 +275,15 @@ A school buys $100$ boxes of chalk, each box holding $48$ sticks. The chalk is s
 2. Work out the total number of sticks, then share it equally among $10$ classes.
 
 ::solution
-The number of sticks the school buys is $48\times100=4\,800$ (sticks).
+Solution
 
-The number of sticks each class gets is $4\,800\div10=480$ (sticks).
+There are $100$ boxes of chalk with $48$ sticks in each box, so the number of sticks the school buys is:
+$$48\times100=4\,800\ \text{(sticks)}.$$
+
+This chalk is shared equally among $10$ classes, so the number of sticks each class gets is:
+$$4\,800\div10=480\ \text{(sticks)}.$$
+
+So each class gets $480$ sticks of chalk.
 
 **Answer.** $480$ sticks of chalk.
 :::
@@ -267,9 +299,15 @@ Work out in your head: $62\times40$ and $8\,400\div200$.
 2. $8\,400\div200=84\div2$.
 
 ::solution
-$62\times40=(62\times4)\times10=248\times10=2\,480$.
+Multiplication: $40=4\times10$, so
+$$62\times40=(62\times4)\times10=248\times10=2\,480.$$
 
-$8\,400\div200=84\div2=42$.
+Division: we remove two zeros from the end of both the dividend and the divisor, and the quotient does not change. Hence
+$$8\,400\div200=84\div2=42.$$
+
+*Check.* $42\times200=8\,400$. Correct.
+
+So $62\times40=2\,480$ and $8\,400\div200=42$.
 
 **Answer.** $2\,480$ and $42$.
 :::
@@ -285,7 +323,12 @@ Remember the lesson on properties of multiplication. Calculate in the easy way: 
 2. Multiply the result by $37$.
 
 ::solution
-$$5\times37\times20=(5\times20)\times37=100\times37=3\,700.$$
+We use the commutative and associative properties of multiplication to group the factors $5$ and $20$ together, because $5\times20=100$ is a round number.
+
+We have
+$$\begin{aligned}5\times37\times20&=(5\times20)\times37\\&=100\times37\\&=3\,700.\end{aligned}$$
+
+So $5\times37\times20=3\,700$.
 
 **Answer.** $3\,700$.
 :::
@@ -301,9 +344,15 @@ One lap of a running track at a stadium is $400$ m. An athlete runs $10$ laps. H
 2. Change to kilometres: divide by $1\,000$.
 
 ::solution
-The number of metres the athlete runs is $400\times10=4\,000$ (m).
+Solution
 
-In kilometres: $4\,000\div1\,000=4$ (km).
+One lap is $400$ m long and the athlete runs $10$ laps, so the number of metres the athlete runs is:
+$$400\times10=4\,000\ \text{(m)}.$$
+
+Since $1$ km $=1\,000$ m, in kilometres we have:
+$$4\,000\div1\,000=4\ \text{(km)}.$$
+
+So the athlete runs $4\,000$ m, which is $4$ km.
 
 **Answer.** $4\,000$ m, which is $4$ km.
 :::
@@ -319,11 +368,16 @@ A number is multiplied by $100$ and then divided by $10$, giving $3\,500$. Find 
 2. The number multiplied by $100$ gives that result; find the number.
 
 ::solution
-Before dividing by $10$ we had $3\,500\times10=35\,000$.
+Let the required number be $a$. By the problem, $a$ multiplied by $100$ and then divided by $10$ gives $3\,500$.
 
-The number multiplied by $100$ gives $35\,000$, so the number is $35\,000\div100=350$.
+The number before dividing by $10$ is $3\,500\times10=35\,000$, because the dividend equals the quotient multiplied by the divisor.
 
-**Check.** $350\times100=35\,000$ and $35\,000\div10=3\,500$. Correct.
+So $a\times100=35\,000$, and the unknown factor is
+$$a=35\,000\div100=350.$$
+
+*Check.* $350\times100=35\,000$ and $35\,000\div10=3\,500$. Correct.
+
+So the required number is $350$.
 
 **Answer.** $350$.
 :::

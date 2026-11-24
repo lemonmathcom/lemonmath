@@ -144,7 +144,15 @@ Một hình chữ nhật dài $15$ m, rộng $8$ m. Tính chu vi và diện tíc
 2. Tính diện tích.
 
 ::solution
-Chu vi là $(15+8)\times2=46\ (\text{m})$. Diện tích là $15\times8=120\ (\text{m}^2)$.
+Bài giải
+
+Chu vi hình chữ nhật là:
+$$(15+8)\times2=46\ (\text{m})$$
+
+Diện tích hình chữ nhật là:
+$$15\times8=120\ (\text{m}^2)$$
+
+Vậy hình chữ nhật có chu vi $46$ m và diện tích $120\ \text{m}^2$.
 
 **Đáp số.** $46$ m; $120\ \text{m}^2$.
 :::
@@ -160,7 +168,12 @@ Một tam giác vuông có hai cạnh góc vuông dài $9$ cm và $12$ cm. Tính
 2. Áp dụng $S=a\times h:2$.
 
 ::solution
-$S=9\times12:2=54\ (\text{cm}^2)$.
+Bài giải
+
+Tam giác vuông có hai cạnh góc vuông là đáy và chiều cao của nhau, nên diện tích tam giác là:
+$$S=9\times12:2=54\ (\text{cm}^2)$$
+
+Vậy diện tích tam giác là $54\ \text{cm}^2$.
 
 **Đáp số.** $54\ \text{cm}^2$.
 :::
@@ -176,7 +189,12 @@ Một hình thang có hai đáy $14$ m và $8$ m, chiều cao $6$ m. Tính diệ
 2. Nhân với chiều cao rồi chia $2$.
 
 ::solution
-$S=(14+8)\times6:2=22\times6:2=66\ (\text{m}^2)$.
+Bài giải
+
+Diện tích hình thang bằng tổng hai đáy nhân với chiều cao rồi chia cho $2$. Diện tích hình thang là:
+$$S=(14+8)\times6:2=22\times6:2=66\ (\text{m}^2)$$
+
+Vậy diện tích hình thang là $66\ \text{m}^2$.
 
 **Đáp số.** $66\ \text{m}^2$.
 :::
@@ -192,7 +210,18 @@ Một hình tròn có đường kính $20$ cm. Tính chu vi và diện tích.
 2. Tìm bán kính rồi tính diện tích.
 
 ::solution
-Chu vi là $20\times3{,}14=62{,}8\ (\text{cm})$. Bán kính là $20:2=10\ (\text{cm})$, nên diện tích là $10\times10\times3{,}14=314\ (\text{cm}^2)$.
+Bài giải
+
+Chu vi hình tròn bằng đường kính nhân với $3{,}14$. Chu vi hình tròn là:
+$$20\times3{,}14=62{,}8\ (\text{cm})$$
+
+Bán kính hình tròn là:
+$$20:2=10\ (\text{cm})$$
+
+Diện tích hình tròn bằng bán kính nhân với bán kính rồi nhân với $3{,}14$. Diện tích hình tròn là:
+$$10\times10\times3{,}14=314\ (\text{cm}^2)$$
+
+Vậy hình tròn có chu vi $62{,}8$ cm và diện tích $314\ \text{cm}^2$.
 
 **Đáp số.** $62{,}8$ cm; $314\ \text{cm}^2$.
 :::
@@ -209,7 +238,15 @@ Một bể nước hình hộp chữ nhật dài $1{,}5$ m, rộng $0{,}8$ m, ca
 3. Thử lại: $0{,}8\ \text{m}=8$ dm, $1{,}5\ \text{m}=15$ dm, $1\ \text{m}=10$ dm; $15\times8\times10$ có bằng kết quả không?
 
 ::solution
-Thể tích bể là $1{,}5\times0{,}8\times1=1{,}2\ (\text{m}^3)$. Vì $1\ \text{m}^3=1000\ \text{dm}^3=1000$ lít nên bể chứa $1{,}2\times1000=1200$ (lít).
+Bài giải
+
+Thể tích bể nước là:
+$$1{,}5\times0{,}8\times1=1{,}2\ (\text{m}^3)$$
+
+Ta có $1\ \text{m}^3=1000\ \text{dm}^3=1000$ lít. Số lít nước bể chứa đầy là:
+$$1{,}2\times1000=1200\ \text{(lít)}$$
+
+Vậy bể chứa đầy được $1200$ lít nước.
 
 **Đáp số.** $1200$ lít.
 :::
@@ -226,7 +263,15 @@ Giả sử thửa ruộng hình thang có hai đáy $80$ m và $60$ m, chiều c
 3. Nhân với $0{,}5$.
 
 ::solution
-Diện tích thửa ruộng là $(80+60)\times50:2=3500\ (\text{m}^2)$. Khối lượng thóc thu hoạch là $3500\times0{,}5=1750$ (kg).
+Bài giải
+
+Diện tích thửa ruộng hình thang là:
+$$(80+60)\times50:2=3500\ (\text{m}^2)$$
+
+Khối lượng thóc thu hoạch được trên cả thửa ruộng là:
+$$3500\times0{,}5=1750\ \text{(kg)}$$
+
+Vậy cả thửa ruộng thu hoạch được $1750$ kg thóc.
 
 **Đáp số.** $1750$ kg.
 :::
@@ -242,7 +287,17 @@ Em hãy nhớ lại bài thể tích hình lập phương. Một bể hình lậ
 2. Lấy $\dfrac23$ của thể tích.
 
 ::solution
-Thể tích bể là $6\times6\times6=216\ (\text{dm}^3)$. Lượng nước trong bể là $216\times\dfrac23=144\ (\text{dm}^3)=144$ lít.
+Bài giải
+
+Thể tích hình lập phương bằng cạnh nhân với cạnh nhân với cạnh. Thể tích bể là:
+$$6\times6\times6=216\ (\text{dm}^3)$$
+
+Lượng nước trong bể bằng $\dfrac23$ thể tích bể, nên lượng nước là:
+$$216\times\frac23=144\ (\text{dm}^3)$$
+
+Vì $1\ \text{dm}^3=1$ lít nên $144\ \text{dm}^3=144$ lít.
+
+Vậy bể đang chứa $144$ lít nước.
 
 **Đáp số.** $144$ lít.
 :::
@@ -264,11 +319,20 @@ c) $4{,}2\ \text{m}^3=\ ?\ \text{dm}^3$.
 2. Đổi từ bé sang lớn thì chia.
 
 ::solution
-a) $3{,}5\times10\,000=35\,000$.
+a) Ta có $1$ ha $=10\,000\ \text{m}^2$. Đổi từ ha sang $\text{m}^2$ ta nhân với $10\,000$:
+$$3{,}5\times10\,000=35\,000.$$
 
-b) $7200:10\,000=0{,}72$.
+Vậy $3{,}5$ ha $=35\,000\ \text{m}^2$.
 
-c) $4{,}2\times1000=4200$.
+b) Ta có $1\ \text{m}^2=10\,000\ \text{cm}^2$. Đổi từ $\text{cm}^2$ sang $\text{m}^2$ ta chia cho $10\,000$:
+$$7200:10\,000=0{,}72.$$
+
+Vậy $7200\ \text{cm}^2=0{,}72\ \text{m}^2$.
+
+c) Ta có $1\ \text{m}^3=1000\ \text{dm}^3$. Đổi từ $\text{m}^3$ sang $\text{dm}^3$ ta nhân với $1000$:
+$$4{,}2\times1000=4200.$$
+
+Vậy $4{,}2\ \text{m}^3=4200\ \text{dm}^3$.
 
 **Đáp số.** a) $35\,000\ \text{m}^2$; b) $0{,}72\ \text{m}^2$; c) $4200\ \text{dm}^3$.
 :::
@@ -284,7 +348,23 @@ Một mảnh đất gồm một hình chữ nhật dài $20$ m, rộng $12$ m v�
 2. Tính diện tích từng phần rồi cộng.
 
 ::solution
-Bán kính nửa hình tròn là $12:2=6$ (m). Diện tích hình chữ nhật là $20\times12=240\ (\text{m}^2)$. Diện tích nửa hình tròn là $6\times6\times3{,}14:2=56{,}52\ (\text{m}^2)$. Diện tích mảnh đất là $240+56{,}52=296{,}52\ (\text{m}^2)$.
+Bài giải
+
+Mảnh đất gồm hình chữ nhật và nửa hình tròn ghép vào cạnh rộng $12$ m của hình chữ nhật.
+
+Bán kính nửa hình tròn là:
+$$12:2=6\ \text{(m)}$$
+
+Diện tích hình chữ nhật là:
+$$20\times12=240\ (\text{m}^2)$$
+
+Diện tích nửa hình tròn là:
+$$6\times6\times3{,}14:2=56{,}52\ (\text{m}^2)$$
+
+Diện tích mảnh đất là:
+$$240+56{,}52=296{,}52\ (\text{m}^2)$$
+
+Vậy diện tích mảnh đất là $296{,}52\ \text{m}^2$.
 
 **Đáp số.** $296{,}52\ \text{m}^2$.
 :::

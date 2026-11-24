@@ -215,13 +215,17 @@ d) A square and a rhombus that is not a square.
 2. Check the ratios of the sides, pairing long sides with long sides.
 
 ::solution
-a) Equilateral triangles have all angles equal to $60^\circ$ and proportional sides, so they are similar with ratio $\dfrac53$.
+Recall: two polygons are similar when their corresponding angles are equal and their corresponding sides are proportional.
 
-b) All angles are $90^\circ$ and $\dfrac{10}4=\dfrac{15}6=2.5$, so they are similar with ratio $2.5$.
+a) Each equilateral triangle has three angles of $60^\circ$ and three equal sides. So the two triangles have equal corresponding angles ($60^\circ$) and their corresponding sides have the same ratio $\dfrac53$ (from the triangle of side $3$ to the triangle of side $5$). Hence they are similar with ratio $\dfrac53$.
 
-c) $\dfrac62=3$ but $\dfrac95=1.8$, so they are not similar.
+b) Both rectangles have all angles equal to $90^\circ$. We have $\dfrac{10}{4}=2.5$ and $\dfrac{15}{6}=2.5$, so the corresponding sides are proportional. Hence the rectangles are similar with ratio $2.5$.
 
-d) The angles of a rhombus that is not a square are not $90^\circ$, so they are not similar.
+c) All angles are $90^\circ$, but $\dfrac62=3$ while $\dfrac95=1.8$ and $3\neq1.8$, so the corresponding sides are not proportional. If the sides are paired the other way, $\dfrac92=4.5$ and $\dfrac65=1.2$, which are not equal either. Hence the rectangles are not similar.
+
+d) A square has four angles of $90^\circ$. A rhombus that is not a square has angles different from $90^\circ$ (if one angle is $90^\circ$, the rhombus is a square). The corresponding angles are not equal, so the shapes are not similar.
+
+So the pairs in a) and b) are similar (with ratios $\dfrac53$ and $2.5$); the pairs in c) and d) are not similar.
 
 **Answer.** a) Similar, $\dfrac53$. b) Similar, $2.5$. c) No. d) No.
 :::
@@ -237,7 +241,18 @@ The rectangle $ABCD$ with $AB=6$, $BC=4$ is similar to the rectangle $A'B'C'D'$ 
 2. Multiply $BC$ by $k$; then find the perimeter.
 
 ::solution
-The similarity ratio is $k=\dfrac{15}6=2.5$. Hence $B'C'=2.5\cdot4=10$. The perimeter of $A'B'C'D'$ is $2\cdot(15+10)=50$.
+Since the rectangle $ABCD$ is similar to the rectangle $A'B'C'D'$, their corresponding sides are proportional. The similarity ratio is
+$$k=\frac{A'B'}{AB}=\frac{15}{6}=2.5.$$
+
+The side $B'C'$ corresponds to $BC$, so
+$$B'C'=k\cdot BC=2.5\cdot4=10.$$
+
+The perimeter of the rectangle $A'B'C'D'$ is
+$$2\cdot(A'B'+B'C')=2\cdot(15+10)=50.$$
+
+Check: the perimeter of $ABCD$ is $2\cdot(6+4)=20$ and $2.5\cdot20=50$.
+
+So $B'C'=10$ and the perimeter of the rectangle $A'B'C'D'$ is $50$.
 
 **Answer.** $B'C'=10$; the perimeter is $50$.
 :::
@@ -253,7 +268,17 @@ Triangle $A'B'C'$ is in perspective similarity with triangle $ABC$, centre $O$, 
 2. Find the perimeter of $ABC$, then multiply by $3$.
 
 ::solution
-We have $OA'=3\cdot2=6$ (cm) and $A'B'=3\cdot3=9$ (cm). The perimeter of triangle $ABC$ is $3+4+5=12$ cm, so the perimeter of triangle $A'B'C'$ is $3\cdot12=36$ cm.
+Triangle $A'B'C'$ is in perspective similarity with triangle $ABC$, centre $O$ and ratio $k=3$, so $OA'=k\cdot OA$ and $A'B'=k\cdot AB$.
+
+We have
+$$OA'=3\cdot OA=3\cdot2=6\ \text{(cm)},\qquad A'B'=3\cdot AB=3\cdot3=9\ \text{(cm)}.$$
+
+The perimeter of triangle $ABC$ is $AB+BC+CA=3+4+5=12$ cm. The triangles are similar with ratio $3$, so the perimeter of triangle $A'B'C'$ is $3$ times that of triangle $ABC$:
+$$3\cdot12=36\ \text{(cm)}.$$
+
+Check: $A'B'=9$, $B'C'=3\cdot4=12$, $C'A'=3\cdot5=15$ and $9+12+15=36$.
+
+So $OA'=6$ cm, $A'B'=9$ cm and the perimeter of triangle $A'B'C'$ is $36$ cm.
 
 **Answer.** $OA'=6$ cm; $A'B'=9$ cm; perimeter $36$ cm.
 :::
@@ -269,7 +294,18 @@ In the coordinate plane $Oxy$, let $A(2, 1)$ and $B(4, 3)$. The points $A'$ and 
 2. Find $AB$ and $A'B'$ with Pythagoras' theorem.
 
 ::solution
-We have $A'(6, 3)$ and $B'(12, 9)$. By Pythagoras' theorem, $AB=\sqrt{2^2+2^2}=2\sqrt2$ and $A'B'=\sqrt{6^2+6^2}=6\sqrt2$. Hence $A'B'=3\cdot AB$.
+Since $A'$ lies on the ray $OA$ and $OA'=3\cdot OA$, the coordinates of $A'$ are $3$ times those of $A$; similarly for $B'$. Hence
+$$A'(3\cdot2, 3\cdot1)=A'(6, 3),\qquad B'(3\cdot4, 3\cdot3)=B'(12, 9).$$
+
+Finding $AB$. By Pythagoras' theorem (the projections onto the two axes have lengths $4-2=2$ and $3-1=2$),
+$$AB=\sqrt{(4-2)^2+(3-1)^2}=\sqrt{2^2+2^2}=2\sqrt2.$$
+
+Finding $A'B'$. Similarly (the projections have lengths $12-6=6$ and $9-3=6$),
+$$A'B'=\sqrt{(12-6)^2+(9-3)^2}=\sqrt{6^2+6^2}=6\sqrt2.$$
+
+Hence $A'B'=6\sqrt2=3\cdot2\sqrt2=3\cdot AB$.
+
+So $A'(6, 3)$, $B'(12, 9)$ and $A'B'=3\cdot AB$.
 
 **Answer.** $A'(6, 3)$, $B'(12, 9)$; $A'B'=3\cdot AB$.
 :::
@@ -285,7 +321,16 @@ Remember the converse of the intercept theorem. The points $A'$, $B'$ lie on the
 2. Form the ratios $\dfrac{OA'}{OA}$ and $\dfrac{OB'}{OB}$.
 
 ::solution
-We have $\dfrac{OA'}{OA}=k=\dfrac{OB'}{OB}$. By the converse of the intercept theorem in triangle $OAB$ (when $k<1$; when $k>1$ use triangle $OA'B'$), we get $A'B'\parallel AB$.
+Assume $O$, $A$, $B$ are not collinear (so that $OAB$ is a triangle) and $k>0$, $k\neq1$ (if $k=1$ then $A'\equiv A$ and $B'\equiv B$). We have
+$$\frac{OA'}{OA}=k=\frac{OB'}{OB}.$$
+
+Case $0<k<1$. Since $A'$, $B'$ lie on the rays $OA$, $OB$ with $OA'<OA$ and $OB'<OB$, the point $A'$ lies between $O$ and $A$, and $B'$ lies between $O$ and $B$. In triangle $OAB$ we have $A'\in OA$, $B'\in OB$ and $\dfrac{OA'}{OA}=\dfrac{OB'}{OB}$. By the converse of the intercept theorem, $A'B'\parallel AB$.
+
+Case $k>1$. Then $OA<OA'$ and $OB<OB'$, so $A$ lies between $O$ and $A'$, and $B$ lies between $O$ and $B'$. In triangle $OA'B'$ we have $A\in OA'$, $B\in OB'$ and
+$$\frac{OA}{OA'}=\frac1k=\frac{OB}{OB'}.$$
+By the converse of the intercept theorem, $AB\parallel A'B'$.
+
+So in every case, $A'B'\parallel AB$.
 
 **Answer.** $A'B'\parallel AB$.
 :::
@@ -301,7 +346,17 @@ A club's logo of size $12\ \text{cm}\times8\ \text{cm}$ is printed on a rectangu
 2. Multiply the height $8$ cm by $k$.
 
 ::solution
-We have $1.8\ \text{m}=180\ \text{cm}$, so $k=\dfrac{180}{12}=15$. The height on the banner is $8\cdot15=120$ cm.
+The logo is printed on the banner keeping its shape, so the rectangle on the banner is similar to the $12\ \text{cm}\times8\ \text{cm}$ rectangle (width $12$ cm, height $8$ cm). Let $k$ be the similarity ratio and $x$ cm the height of the logo on the banner.
+
+Converting units: $1.8\ \text{m}=180$ cm. The similarity ratio is
+$$k=\frac{180}{12}=15.$$
+
+The corresponding height of the logo on the banner is
+$$x=k\cdot8=15\cdot8=120\ \text{(cm)}.$$
+
+Check: $\dfrac{120}{8}=15=k$. Converting units: $120$ cm $=1.2$ m.
+
+So the height of the logo on the banner is $120$ cm, that is $1.2$ m.
 
 **Answer.** $120$ cm $=1.2$ m.
 :::
@@ -317,7 +372,16 @@ On a map with scale $1:200\,000$, two towns are $6.5$ cm apart. What is the real
 2. Change $52$ km to centimetres and divide by $200\,000$.
 
 ::solution
-The real distance is $6.5\cdot200\,000=1\,300\,000$ cm $=13$ km. The route of $52$ km $=5\,200\,000$ cm is $\dfrac{5\,200\,000}{200\,000}=26$ cm long on the map.
+A map scale of $1:200\,000$ means that $1$ cm on the map represents $200\,000$ cm in reality.
+
+Real distance. The towns are $6.5$ cm apart on the map, so the real distance is
+$$6.5\cdot200\,000=1\,300\,000\ \text{(cm)}.$$
+Since $1$ km $=100\,000$ cm, we have $1\,300\,000$ cm $=1\,300\,000\div100\,000=13$ km.
+
+Length on the map. The real route $52$ km $=52\cdot100\,000=5\,200\,000$ cm. Its length on the map is
+$$\frac{5\,200\,000}{200\,000}=26\ \text{(cm)}.$$
+
+So the real distance between the towns is $13$ km and a route of $52$ km is $26$ cm long on the map.
 
 **Answer.** $13$ km; $26$ cm.
 :::
@@ -333,7 +397,19 @@ A model of a house is built to the scale $1:20$. The front door of the model is 
 2. Divide the real width by $20$.
 
 ::solution
-The real door is $10\cdot20=200$ cm $=2$ m high. The width of the model is $\dfrac{8}{20}=0.4$ m $=40$ cm.
+A model built to the scale $1:20$ means that every real dimension is $20$ times the corresponding dimension of the model.
+
+Height of the real door. The door of the model is $10$ cm high, so the real door is
+$$10\cdot20=200\ \text{(cm)}=2\ \text{(m)}$$
+high.
+
+Width of the model. The real house is $8$ m wide, so the model is
+$$\frac{8}{20}=0.4\ \text{(m)}=40\ \text{(cm)}$$
+wide.
+
+Check: $40\cdot20=800$ cm $=8$ m.
+
+So the real door is $2$ m high and the model is $40$ cm wide.
 
 **Answer.** $2$ m; $40$ cm.
 :::
@@ -349,7 +425,18 @@ A small lamp at a point $O$ lights a square card of side $15$ cm placed parallel
 2. Use $OM'=300$ cm to find $OM$.
 
 ::solution
-We have $k=\dfrac{90}{15}=6$. Let $d$ cm be the distance from the lamp to the card; since the wall is $300$ cm from the lamp, $\dfrac{300}{d}=6$, so $d=50$.
+The shadow of the card on the wall is in perspective similarity with the card, with centre $O$ at the lamp (because the card is parallel to the wall). The similarity ratio equals the ratio of the side of the shadow to the side of the card:
+$$k=\frac{90}{15}=6.$$
+
+This ratio also equals the ratio of the distance from the lamp to the wall to the distance from the lamp to the card. Let $d$ cm be the distance from the lamp to the card, $d>0$. The wall is $3$ m $=300$ cm from the lamp, so
+$$\frac{300}{d}=6.$$
+
+Hence
+$$d=\frac{300}{6}=50.$$
+
+The value $d=50>0$ and $50<300$ (the card lies between the lamp and the wall), so it satisfies the conditions. Check: $\dfrac{300}{50}=6$.
+
+So the card must be placed $50$ cm from the lamp.
 
 **Answer.** $50$ cm.
 :::

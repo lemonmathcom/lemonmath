@@ -197,7 +197,12 @@ Giải phương trình $\sin x=-\dfrac12$.
 2. Viết hai họ nghiệm $x=\alpha+k2\pi$ và $x=\pi-\alpha+k2\pi$.
 
 ::solution
-Ta có $\sin x=\sin\left(-\dfrac{\pi}{6}\right)$ nên $x=-\dfrac{\pi}{6}+k2\pi$ hoặc $x=\pi+\dfrac{\pi}{6}+k2\pi=\dfrac{7\pi}{6}+k2\pi$.
+Áp dụng công thức nghiệm: $\sin x=\sin\alpha$ khi và chỉ khi $x=\alpha+k2\pi$ hoặc $x=\pi-\alpha+k2\pi$ $(k\in\mathbb{Z})$.
+
+Ta có $-\dfrac12=\sin\left(-\dfrac\pi6\right)$ nên phương trình trở thành $\sin x=\sin\left(-\dfrac\pi6\right)$. Do đó
+$$x=-\frac\pi6+k2\pi\quad\text{hoặc}\quad x=\pi-\left(-\frac\pi6\right)+k2\pi=\frac{7\pi}6+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Vậy phương trình có nghiệm $x=-\dfrac\pi6+k2\pi$ hoặc $x=\dfrac{7\pi}6+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x=-\dfrac{\pi}{6}+k2\pi$ hoặc $x=\dfrac{7\pi}{6}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -213,7 +218,14 @@ Giải phương trình $2\cos x+1=0$.
 2. Viết $-\dfrac12=\cos\dfrac{2\pi}{3}$.
 
 ::solution
-Ta có $\cos x=-\dfrac12=\cos\dfrac{2\pi}{3}$ nên $x=\pm\dfrac{2\pi}{3}+k2\pi$.
+Ta biến đổi $2\cos x+1=0\iff\cos x=-\dfrac12$.
+
+Vì $\cos\dfrac{2\pi}3=-\dfrac12$ nên phương trình trở thành $\cos x=\cos\dfrac{2\pi}3$.
+
+Áp dụng công thức nghiệm: $\cos x=\cos\alpha$ khi và chỉ khi $x=\pm\alpha+k2\pi$ $(k\in\mathbb{Z})$. Do đó
+$$x=\pm\frac{2\pi}3+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Vậy phương trình có nghiệm $x=\pm\dfrac{2\pi}3+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x=\pm\dfrac{2\pi}{3}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -229,7 +241,16 @@ Giải phương trình $\tan\left(x-\dfrac{\pi}{4}\right)=\sqrt3$.
 2. Giải $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$.
 
 ::solution
-Ta có $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$, suy ra $x=\dfrac{7\pi}{12}+k\pi$.
+Điều kiện xác định: $x-\dfrac\pi4\ne\dfrac\pi2+k\pi$, tức là $x\ne\dfrac{3\pi}4+k\pi$ $(k\in\mathbb{Z})$.
+
+Vì $\tan\dfrac\pi3=\sqrt3$ nên phương trình trở thành $\tan\left(x-\dfrac\pi4\right)=\tan\dfrac\pi3$.
+
+Áp dụng công thức nghiệm: $\tan u=\tan\alpha$ khi và chỉ khi $u=\alpha+k\pi$ $(k\in\mathbb{Z})$. Do đó
+$$x-\frac\pi4=\frac\pi3+k\pi,\ \text{suy ra}\ x=\frac\pi4+\frac\pi3+k\pi=\frac{7\pi}{12}+k\pi\quad(k\in\mathbb{Z}).$$
+
+Các nghiệm này thoả mãn điều kiện vì $\dfrac{7\pi}{12}+k\pi\ne\dfrac{3\pi}4+m\pi$ với mọi số nguyên $k$, $m$ (hiệu của chúng là $-\dfrac{\pi}6+(k-m)\pi$, không phải là bội của $\pi$).
+
+Vậy phương trình có nghiệm $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -245,7 +266,15 @@ Giải phương trình $\cos x=0{,}25$ bằng máy tính cầm tay. Cho nghiệm
 2. Viết nghiệm $x=\pm\alpha+k2\pi$.
 
 ::solution
-Máy tính cho $\alpha=\arccos0{,}25\approx1{,}3181$. Do đó $x\approx\pm1{,}32+k2\pi$.
+Chuyển máy tính cầm tay sang chế độ radian rồi bấm $\arccos0{,}25$, ta được
+$$\alpha=\arccos0{,}25\approx1{,}3181.$$
+Khi đó $\cos x=0{,}25=\cos\alpha$.
+
+Áp dụng công thức nghiệm $\cos x=\cos\alpha\iff x=\pm\alpha+k2\pi$ $(k\in\mathbb{Z})$, ta được
+$$x\approx\pm1{,}3181+k2\pi.$$
+Làm tròn $\alpha$ đến hàng phần trăm, ta có $x\approx\pm1{,}32+k2\pi$ $(k\in\mathbb{Z})$.
+
+Vậy phương trình có nghiệm $x\approx1{,}32+k2\pi$ hoặc $x\approx-1{,}32+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x\approx1{,}32+k2\pi$ hoặc $x\approx-1{,}32+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -261,7 +290,18 @@ Giải phương trình $\sin2x=\dfrac{\sqrt3}{2}$ và tìm các nghiệm thuộc
 2. Thay $k$ để chọn nghiệm trong $[0; \pi]$.
 
 ::solution
-Ta có $2x=\dfrac{\pi}{3}+k2\pi$ hoặc $2x=\dfrac{2\pi}{3}+k2\pi$, suy ra $x=\dfrac{\pi}{6}+k\pi$ hoặc $x=\dfrac{\pi}{3}+k\pi$. Trong $[0; \pi]$, chỉ $k=0$ cho nghiệm ($k=1$ cho $x>\pi$ và $k=-1$ cho $x<0$): $x=\dfrac{\pi}{6}$ và $x=\dfrac{\pi}{3}$.
+Vì $\sin\dfrac\pi3=\dfrac{\sqrt3}2$ nên phương trình trở thành $\sin2x=\sin\dfrac\pi3$. Do đó
+$$2x=\frac\pi3+k2\pi\quad\text{hoặc}\quad2x=\pi-\frac\pi3+k2\pi=\frac{2\pi}3+k2\pi\quad(k\in\mathbb{Z}).$$
+Chia hai vế cho $2$, ta được
+$$x=\frac\pi6+k\pi\quad\text{hoặc}\quad x=\frac\pi3+k\pi\quad(k\in\mathbb{Z}).$$
+
+Tìm các nghiệm thuộc đoạn $[0; \pi]$.
+
+Với họ $x=\dfrac\pi6+k\pi$: $0\le\dfrac\pi6+k\pi\le\pi\iff-\dfrac16\le k\le\dfrac56$. Vì $k$ nguyên nên $k=0$, cho $x=\dfrac\pi6$.
+
+Với họ $x=\dfrac\pi3+k\pi$: $0\le\dfrac\pi3+k\pi\le\pi\iff-\dfrac13\le k\le\dfrac23$. Vì $k$ nguyên nên $k=0$, cho $x=\dfrac\pi3$.
+
+Vậy phương trình có nghiệm $x=\dfrac\pi6+k\pi$ hoặc $x=\dfrac\pi3+k\pi$ $(k\in\mathbb{Z})$; các nghiệm thuộc đoạn $[0; \pi]$ là $x=\dfrac\pi6$ và $x=\dfrac\pi3$.
 
 **Đáp số.** $x=\dfrac{\pi}{6}+k\pi$, $x=\dfrac{\pi}{3}+k\pi$; trong $[0; \pi]$: $\dfrac{\pi}{6}$ và $\dfrac{\pi}{3}$.
 :::
@@ -277,7 +317,20 @@ Giả sử nhiệt độ ngoài trời (độ C) tại một thành phố đư�
 2. Giải hai họ nghiệm rồi chọn $t$ trong $[0; 24)$.
 
 ::solution
-Ta có $28+5\sin\dfrac{\pi(t-9)}{12}=30{,}5\Leftrightarrow\sin\dfrac{\pi(t-9)}{12}=\dfrac12$. Do đó $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{6}+k2\pi$, suy ra $t=11+24k$; hoặc $\dfrac{\pi(t-9)}{12}=\dfrac{5\pi}{6}+k2\pi$, suy ra $t=19+24k$. Với $0\le t<24$ ta lấy $k=0$.
+Nhiệt độ đạt $30{,}5^\circ$C khi $T(t)=30{,}5$, với $0\le t<24$. Ta có
+$$28+5\sin\frac{\pi(t-9)}{12}=30{,}5\iff\sin\frac{\pi(t-9)}{12}=\frac12=\sin\frac\pi6.$$
+
+Do đó
+$$\frac{\pi(t-9)}{12}=\frac\pi6+k2\pi\quad\text{hoặc}\quad\frac{\pi(t-9)}{12}=\frac{5\pi}6+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Nhân hai vế với $\dfrac{12}\pi$ rồi cộng $9$:
+$$t=9+2+24k=11+24k\quad\text{hoặc}\quad t=9+10+24k=19+24k.$$
+
+Đối chiếu điều kiện $0\le t<24$: với $t=11+24k$ ta có $-\dfrac{11}{24}\le k<\dfrac{13}{24}$, nên $k=0$ và $t=11$; với $t=19+24k$ ta có $-\dfrac{19}{24}\le k<\dfrac5{24}$, nên $k=0$ và $t=19$.
+
+Kiểm tra: $T(11)=28+5\sin\dfrac\pi6=30{,}5$ và $T(19)=28+5\sin\dfrac{5\pi}6=30{,}5$.
+
+Vậy nhiệt độ đạt $30{,}5^\circ$C vào lúc $11$ giờ và $19$ giờ.
 
 **Đáp số.** Lúc $11$ giờ và $19$ giờ.
 :::
@@ -301,13 +354,17 @@ d) Tổng các nghiệm thuộc đoạn $[0; 2\pi]$ bằng $\pi$.
 2. c), d) Liệt kê nghiệm thuộc $[0; 2\pi]$.
 
 ::solution
-a) **Đúng**: $\cos\dfrac{\pi}{3}=\dfrac12$.
+Vì $\cos\dfrac\pi3=\dfrac12$ nên phương trình $\cos x=\dfrac12$ tương đương với $\cos x=\cos\dfrac\pi3$, tức là $x=\pm\dfrac\pi3+k2\pi$ $(k\in\mathbb{Z})$.
 
-b) **Sai**: với $k=1$, $x=\dfrac{4\pi}{3}$ có $\cos\dfrac{4\pi}{3}=-\dfrac12\ne\dfrac12$.
+a) **Đúng.** Ta có $\cos\dfrac\pi3=\dfrac12$ nên $x=\dfrac\pi3$ là một nghiệm.
 
-c) **Đúng**: các nghiệm thuộc $[0; 2\pi]$ là $\dfrac{\pi}{3}$ và $\dfrac{5\pi}{3}$.
+b) **Sai.** Với $k=1$, ta có $x=\dfrac\pi3+\pi=\dfrac{4\pi}3$ và $\cos\dfrac{4\pi}3=-\dfrac12\ne\dfrac12$. Vậy không phải mọi số $x=\dfrac\pi3+k\pi$ đều là nghiệm.
 
-d) **Sai**: $\dfrac{\pi}{3}+\dfrac{5\pi}{3}=2\pi\ne\pi$.
+c) **Đúng.** Với họ $x=\dfrac\pi3+k2\pi$, điều kiện $0\le x\le2\pi$ cho $k=0$ và $x=\dfrac\pi3$. Với họ $x=-\dfrac\pi3+k2\pi$, điều kiện $0\le x\le2\pi$ cho $k=1$ và $x=\dfrac{5\pi}3$. Vậy trong đoạn $[0; 2\pi]$ phương trình có đúng hai nghiệm là $\dfrac\pi3$ và $\dfrac{5\pi}3$.
+
+d) **Sai.** Tổng các nghiệm thuộc đoạn $[0; 2\pi]$ là $\dfrac\pi3+\dfrac{5\pi}3=2\pi\ne\pi$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -323,7 +380,21 @@ d) **Sai**: $\dfrac{\pi}{3}+\dfrac{5\pi}{3}=2\pi\ne\pi$.
 2. Chọn nghiệm dương nhỏ nhất.
 
 ::solution
-Ta có $\cos\dfrac{\pi t}{4}=\dfrac12$, suy ra $\dfrac{\pi t}{4}=\pm\dfrac{\pi}{3}+k2\pi$, tức $t=\pm\dfrac43+8k$. Nghiệm dương nhỏ nhất là $t=\dfrac43\approx1{,}3$.
+Gọi $t$ (phút) là thời điểm cabin ở độ cao $12$ m, với $t>0$. Ta có $h(t)=12$ nên
+$$22-20\cos\frac{\pi t}4=12\iff\cos\frac{\pi t}4=\frac12=\cos\frac\pi3.$$
+
+Do đó
+$$\frac{\pi t}4=\pm\frac\pi3+k2\pi\ \Rightarrow\ t=\pm\frac43+8k\quad(k\in\mathbb{Z}).$$
+
+Đối chiếu điều kiện $t>0$:
+- Với $t=\dfrac43+8k$: cần $k\ge0$, giá trị nhỏ nhất là $t=\dfrac43$ (khi $k=0$).
+- Với $t=-\dfrac43+8k$: cần $k\ge1$, giá trị nhỏ nhất là $t=\dfrac{20}3$ (khi $k=1$).
+
+Nghiệm dương nhỏ nhất là $t=\dfrac43\approx1{,}3$.
+
+Kiểm tra: $h\left(\dfrac43\right)=22-20\cos\dfrac\pi3=22-10=12$ (m).
+
+Vậy thời điểm đầu tiên cabin ở độ cao $12$ m là sau khoảng $1{,}3$ phút.
 
 **Đáp số.** $1{,}3$ phút.
 :::
@@ -339,7 +410,19 @@ Giải phương trình $\sin x+\cos x=1$.
 2. Giải hai họ nghiệm của $x+\dfrac{\pi}{4}$.
 
 ::solution
-Ta có $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=1$, tức $\sin\left(x+\dfrac{\pi}{4}\right)=\dfrac{\sqrt2}{2}=\sin\dfrac{\pi}{4}$. Do đó $x+\dfrac{\pi}{4}=\dfrac{\pi}{4}+k2\pi$, suy ra $x=k2\pi$; hoặc $x+\dfrac{\pi}{4}=\dfrac{3\pi}{4}+k2\pi$, suy ra $x=\dfrac{\pi}{2}+k2\pi$.
+Ta biến đổi vế trái: 
+$$\sqrt2\sin\left(x+\frac\pi4\right)=\sqrt2\left(\sin x\cos\frac\pi4+\cos x\sin\frac\pi4\right)=\sqrt2\cdot\frac{\sqrt2}2(\sin x+\cos x)=\sin x+\cos x.$$
+
+Do đó phương trình $\sin x+\cos x=1$ tương đương với $\sqrt2\sin\left(x+\dfrac\pi4\right)=1$, tức là
+$$\sin\left(x+\frac\pi4\right)=\frac1{\sqrt2}=\frac{\sqrt2}2=\sin\frac\pi4.$$
+
+Áp dụng công thức nghiệm của phương trình $\sin u=\sin\alpha$, ta có
+$$x+\frac\pi4=\frac\pi4+k2\pi\quad\text{hoặc}\quad x+\frac\pi4=\pi-\frac\pi4+k2\pi=\frac{3\pi}4+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Suy ra
+$$x=k2\pi\quad\text{hoặc}\quad x=\frac{3\pi}4-\frac\pi4+k2\pi=\frac\pi2+k2\pi\quad(k\in\mathbb{Z}).$$
+
+Vậy phương trình có nghiệm $x=k2\pi$ hoặc $x=\dfrac\pi2+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x=k2\pi$ hoặc $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
 :::
@@ -355,7 +438,18 @@ Giải phương trình $\sin3x=\cos2x$.
 2. Viết hai họ nghiệm rồi rút gọn.
 
 ::solution
-Ta có $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Do đó $3x=\dfrac{\pi}{2}-2x+k2\pi$, suy ra $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$; hoặc $3x=\pi-\left(\dfrac{\pi}{2}-2x\right)+k2\pi=\dfrac{\pi}{2}+2x+k2\pi$, suy ra $x=\dfrac{\pi}{2}+k2\pi$.
+Ta đưa phương trình về cùng một hàm số. Vì $\cos2x=\sin\left(\dfrac\pi2-2x\right)$ nên phương trình trở thành
+$$\sin3x=\sin\left(\frac\pi2-2x\right).$$
+
+Áp dụng công thức nghiệm của phương trình $\sin u=\sin v$, ta có hai trường hợp $(k\in\mathbb{Z})$.
+
+Trường hợp 1: $3x=\dfrac\pi2-2x+k2\pi$. Khi đó $5x=\dfrac\pi2+k2\pi$, suy ra
+$$x=\frac\pi{10}+\frac{k2\pi}5.$$
+
+Trường hợp 2: $3x=\pi-\left(\dfrac\pi2-2x\right)+k2\pi=\dfrac\pi2+2x+k2\pi$. Khi đó
+$$x=\frac\pi2+k2\pi.$$
+
+Vậy phương trình có nghiệm $x=\dfrac\pi{10}+\dfrac{k2\pi}5$ hoặc $x=\dfrac\pi2+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$ hoặc $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
 :::

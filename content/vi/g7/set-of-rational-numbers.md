@@ -524,11 +524,17 @@ c) $-\dfrac7{10}$ và $\dfrac1{1000}$.
 3. Câu c): hai số khác dấu nên không cần quy đồng.
 
 ::solution
-a) Mẫu chung là $40$: $-\dfrac58=\dfrac{-25}{40}$ và $-\dfrac35=\dfrac{-24}{40}$. Vì $-25<-24$ nên $-\dfrac58<-\dfrac35$.
+a) Quy đồng mẫu số chung $40$ (vì $\text{BCNN}(8, 5)=40$):
+$$-\frac58=\frac{-25}{40},\qquad -\frac35=\frac{-24}{40}.$$
+Vì $-25<-24$ nên $-\dfrac58<-\dfrac35$.
 
-b) Ta có $-0{,}4=-\dfrac25=\dfrac{-14}{35}$ và $-\dfrac37=\dfrac{-15}{35}$. Vì $-15<-14$ nên $-\dfrac37<-0{,}4$.
+b) Ta có $-0{,}4=-\dfrac25$. Quy đồng mẫu số chung $35$:
+$$-0{,}4=-\frac25=\frac{-14}{35},\qquad -\frac37=\frac{-15}{35}.$$
+Vì $-15<-14$ nên $-\dfrac37<-0{,}4$.
 
-c) Vì $-\dfrac7{10}<0$ và $0<\dfrac1{1000}$ nên $-\dfrac7{10}<\dfrac1{1000}$.
+c) Vì $-\dfrac7{10}<0$ và $0<\dfrac1{1000}$ nên $-\dfrac7{10}<\dfrac1{1000}$ (số âm nhỏ hơn số dương).
+
+Vậy $-\dfrac58<-\dfrac35$; $-\dfrac37<-0{,}4$; $-\dfrac7{10}<\dfrac1{1000}$.
 
 **Đáp số.** a) $-\dfrac58<-\dfrac35$. b) $-\dfrac37<-0{,}4$. c) $-\dfrac7{10}<\dfrac1{1000}$.
 :::
@@ -572,17 +578,21 @@ b) Tính: $\left|-\dfrac94\right|$; $|0{,}6|$; $-\left|\dfrac{-3}{-8}\right|$.
 2. Xét dấu của số nằm trong dấu giá trị tuyệt đối, rồi bỏ dấu.
 
 ::solution
+Số đối của số $a$ là $-a$. Giá trị tuyệt đối $|a|$ bằng $a$ nếu $a\ge0$ và bằng $-a$ nếu $a<0$.
+
 a) Số đối của $-\dfrac94$ là $\dfrac94$.
 
-Vì $\dfrac{-3}{-8}=\dfrac38$ nên số đối của nó là $-\dfrac38$.
+Vì $\dfrac{-3}{-8}=\dfrac38$ nên số đối của $\dfrac{-3}{-8}$ là $-\dfrac38$.
 
 Số đối của $0{,}6$ là $-0{,}6$.
 
-b) Vì $-\dfrac94<0$ nên $\left|-\dfrac94\right|=\dfrac94$.
+b) Vì $-\dfrac94<0$ nên $\left|-\dfrac94\right|=-\left(-\dfrac94\right)=\dfrac94$.
 
 Vì $0{,}6>0$ nên $|0{,}6|=0{,}6$.
 
 Vì $\dfrac{-3}{-8}=\dfrac38>0$ nên $\left|\dfrac{-3}{-8}\right|=\dfrac38$, suy ra $-\left|\dfrac{-3}{-8}\right|=-\dfrac38$.
+
+Vậy các số đối là $\dfrac94$; $-\dfrac38$; $-0{,}6$ và các giá trị cần tính là $\dfrac94$; $0{,}6$; $-\dfrac38$.
 
 **Đáp số.** a) $\dfrac94$; $-\dfrac38$; $-0{,}6$. b) $\dfrac94$; $0{,}6$; $-\dfrac38$.
 :::

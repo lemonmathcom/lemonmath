@@ -180,7 +180,20 @@ D. $200$ m².
 2. Solve $S'(x)=0$.
 
 ::solution
-$S'(x)=20-2x=0\iff x=10$, and $S'$ changes from $+$ to $-$. $S(10)=100$. Option B is $20^2$.
+Let $x$ (m) be the length of one side of the garden, $0<x<20$. Since the perimeter is $40$ m, the semi-perimeter is $20$ m, so the other side is $20-x$ (m).
+
+The area of the garden is
+$$S(x)=x(20-x)=20x-x^2\quad(\text{m}^2),\ 0<x<20.$$
+
+We have $S'(x)=20-2x$. Then
+$$S'(x)=0\iff x=10\ (\text{satisfies the condition}).$$
+
+Since $S'(x)>0$ for $0<x<10$ and $S'(x)<0$ for $10<x<20$, $S'$ changes from $+$ to $-$ at $x=10$. Hence $S$ attains its greatest value at $x=10$ and
+$$S(10)=10\cdot(20-10)=100.$$
+
+So the greatest area of the garden is $100$ m² (when the garden is a square of side $10$ m). So the answer is **A**.
+
+*Remark.* Option B is $20^2$.
 
 **Answer.** A.
 :::
@@ -196,7 +209,17 @@ An object moves with $s(t)=t^3-3t^2+5t$ (m), $t$ in seconds. Find its velocity (
 2. Solve $a(t)=0$ and substitute into $v$.
 
 ::solution
-$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
+Velocity is the derivative of displacement with respect to time, and acceleration is the derivative of velocity with respect to time. We have
+$$v(t)=s'(t)=3t^2-6t+5,\qquad a(t)=v'(t)=6t-6.$$
+
+The acceleration is $0$ when
+$$6t-6=0\iff t=1\ (\text{seconds}),$$
+which satisfies the condition $t\ge0$.
+
+Substituting $t=1$ into $v(t)$, we get
+$$v(1)=3\cdot1^2-6\cdot1+5=2.$$
+
+So the velocity of the object at the moment when its acceleration is $0$ is $2$ m/s.
 
 **Answer.** $2$.
 :::
@@ -216,7 +239,20 @@ D. $50$ thousand đồng.
 2. Evaluate $\overline C$ at the positive root.
 
 ::solution
-$\overline C'(x)=0\iff x=30$, and $\overline C'$ changes from $-$ to $+$. $\overline C(30)=30+20+30=80$. Option B is the number of items $x$; C leaves out the term $20$.
+Condition: $x>0$. The average cost per item is
+$$\overline C(x)=\frac{C(x)}{x}=\frac{x^2+20x+900}{x}=x+20+\frac{900}{x}\quad(\text{thousand đồng}),\ x>0.$$
+
+We have
+$$\overline C'(x)=1-\frac{900}{x^2}=\frac{x^2-900}{x^2}.$$
+
+For $x>0$, $\overline C'(x)=0\iff x^2=900\iff x=30$.
+
+Since $\overline C'(x)<0$ for $0<x<30$ and $\overline C'(x)>0$ for $x>30$, $\overline C'$ changes from $-$ to $+$ at $x=30$. Hence $\overline C$ attains its least value at $x=30$ and
+$$\overline C(30)=30+20+\frac{900}{30}=30+20+30=80.$$
+
+So the least average cost per item is $80$ thousand đồng (when $30$ items are made). So the answer is **A**.
+
+*Remark.* Option B is the number of items $x$; option C leaves out the term $20$.
 
 **Answer.** A.
 :::
@@ -232,7 +268,22 @@ An open tank with a square base has volume $32$ dm³. Find its dimensions so tha
 2. Draw the table of variations on $(0, +\infty)$.
 
 ::solution
-$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ for $0<x<4$ and $S'>0$ for $x>4$. Then $h=\dfrac{32}{16}=2$ and $S(4)=16+32=48$ dm².
+Let $x$ (dm) be the side of the base and $h$ (dm) the height of the tank, $x>0$, $h>0$.
+
+The volume is $x^2h=32$, so $h=\dfrac{32}{x^2}$.
+
+The tank has no lid, so the area of material is the area of the base plus the area of the four sides:
+$$S(x)=x^2+4xh=x^2+4x\cdot\frac{32}{x^2}=x^2+\frac{128}{x}\quad(\text{dm}^2),\ x>0.$$
+
+We have
+$$S'(x)=2x-\frac{128}{x^2}=\frac{2\left(x^3-64\right)}{x^2}.$$
+
+For $x>0$, $S'(x)=0\iff x^3=64\iff x=4$.
+
+Since $S'(x)<0$ for $0<x<4$ and $S'(x)>0$ for $x>4$, $S$ attains its least value at $x=4$. Then
+$$h=\frac{32}{4^2}=2,\qquad S(4)=16+\frac{128}{4}=16+32=48.$$
+
+So the tank that uses the least material has a square base of side $4$ dm and height $2$ dm; the area of material is then $48$ dm².
 
 **Answer.** Base side $4$ dm, height $2$ dm (material area $48$ dm²).
 :::
@@ -256,13 +307,20 @@ d) The greatest profit is $4225$ thousand đồng.
 2. Find the maximum of $P$ on $[0, 80]$.
 
 ::solution
-a) **True**: a reduction of $10$ thousand gives $50+10=60$ shirts.
+Let $x$ (thousand đồng) be the price reduction, $0\le x\le80$. Then the selling price of a shirt is $200-x$ (thousand đồng) and the number of shirts sold per month is $50+x$.
 
-b) **True**: profit per shirt $200-x-120=80-x$, times $50+x$.
+a) **True.** A price of $190$ thousand đồng means a reduction of $x=200-190=10$ thousand đồng, so the shop sells $50+10=60$ shirts a month.
 
-c) **False**: $P'(x)=30-2x=0\iff x=15$, so the best price is $185$ thousand đồng.
+b) **True.** The profit on each shirt is $(200-x)-120=80-x$ (thousand đồng). Multiplying by the number of shirts sold, $50+x$, the monthly profit is
+$$P(x)=(80-x)(50+x)=-x^2+30x+4000\quad(\text{thousand đồng}).$$
 
-d) **True**: $P(15)=65\cdot65=4225$, more than $P(0)=4000$ and $P(80)=0$.
+c) **False.** We have $P'(x)=30-2x$, so $P'(x)=0\iff x=15$ (which satisfies $0\le x\le80$). The price is then $200-15=185$ thousand đồng, not $170$ thousand đồng. Indeed, a price of $170$ thousand đồng corresponds to $x=30$ and $P(30)=50\cdot80=4000<P(15)$.
+
+d) **True.** Since $P'(x)>0$ for $0\le x<15$ and $P'(x)<0$ for $15<x\le80$, $P$ is greatest at $x=15$. We have
+$$P(15)=65\cdot65=4225,$$
+which is more than $P(0)=4000$ and $P(80)=0$. So the greatest profit is $4225$ thousand đồng.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -278,7 +336,15 @@ A ball is thrown straight up; its height after $t$ seconds is $h(t)=1.5+19.6t-4.
 2. Substitute into $h(t)$.
 
 ::solution
-$h'(t)=0\iff t=2$, and $h'$ changes from $+$ to $-$. $h(2)=1.5+39.2-19.6=21.1$.
+The height of the ball is $h(t)=1.5+19.6t-4.9t^2$ (m), $t\ge0$. We have
+$$h'(t)=19.6-9.8t.$$
+
+Then $h'(t)=0\iff t=2$ (seconds), which satisfies the condition $t\ge0$.
+
+Since $h'(t)>0$ for $0\le t<2$ and $h'(t)<0$ for $t>2$, $h'$ changes from $+$ to $-$ at $t=2$. Hence $h$ attains its greatest value at $t=2$ and
+$$h(2)=1.5+19.6\cdot2-4.9\cdot2^2=1.5+39.2-19.6=21.1.$$
+
+So the greatest height of the ball is $21.1$ m.
 
 **Answer.** $21.1$.
 :::
@@ -298,7 +364,23 @@ D. $1$ cm.
 2. Solve $S'(r)=0$.
 
 ::solution
-$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ changes from $-$ to $+$. Then $h=4$. Option B is the height, C is $r^3$.
+Let $r$ (cm) be the radius of the base and $h$ (cm) the height of the can, $r>0$, $h>0$.
+
+The volume of the can is $\pi r^2h=16\pi$, so $h=\dfrac{16}{r^2}$.
+
+The total surface area of the can is
+$$S(r)=2\pi r^2+2\pi rh=2\pi r^2+2\pi r\cdot\frac{16}{r^2}=2\pi r^2+\frac{32\pi}{r}\quad(\text{cm}^2),\ r>0.$$
+
+We have
+$$S'(r)=4\pi r-\frac{32\pi}{r^2}=\frac{4\pi\left(r^3-8\right)}{r^2}.$$
+
+For $r>0$, $S'(r)=0\iff r^3=8\iff r=2$.
+
+Since $S'(r)<0$ for $0<r<2$ and $S'(r)>0$ for $r>2$, $S'$ changes from $-$ to $+$ at $r=2$. Hence $S$ attains its least value at $r=2$; then $h=\dfrac{16}{2^2}=4$.
+
+So, to use the least material, the radius of the base must be $2$ cm. So the answer is **A**.
+
+*Remark.* Option B is the height $h=4$ cm; option C is $r^3=8$.
 
 **Answer.** A.
 :::
@@ -314,7 +396,26 @@ A person at point $A$ on a lake is $4$ km from a straight shore ($B$ is the poin
 2. Solve $T'(x)=0$ and compare with the two endpoints.
 
 ::solution
-$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3.33$, $T(3)=\dfrac53+\dfrac75\approx3.07$, $T(10)\approx3.59$ (hours).
+Put $BM=x$ (km), $0\le x\le10$. Then $MC=10-x$ (km).
+
+Triangle $ABM$ is right-angled at $B$ with $AB=4$ km, so $AM=\sqrt{x^2+16}$ (km).
+
+The time spent rowing from $A$ to $M$ is $\dfrac{\sqrt{x^2+16}}{3}$ (hours) and the time spent walking from $M$ to $C$ is $\dfrac{10-x}{5}$ (hours). The total time is
+$$T(x)=\frac{\sqrt{x^2+16}}{3}+\frac{10-x}{5},\ 0\le x\le10.$$
+
+We have
+$$T'(x)=\frac{x}{3\sqrt{x^2+16}}-\frac15.$$
+
+For $x\ge0$,
+$$\begin{aligned}T'(x)=0&\iff5x=3\sqrt{x^2+16}\\&\iff25x^2=9x^2+144\\&\iff16x^2=144\\&\iff x=3\end{aligned}$$
+(both sides are non-negative, so squaring gives an equivalent equation; $x=3$ satisfies $0\le x\le10$).
+
+The function $T$ is continuous on the interval $[0, 10]$, so its least value is the smallest of the values at the two endpoints and at $x=3$:
+$$T(0)=\frac43+2=\frac{10}{3}\approx3.33,\qquad T(3)=\frac53+\frac75=\frac{46}{15}\approx3.07,\qquad T(10)=\frac{\sqrt{116}}{3}\approx3.59\ (\text{hours}).$$
+
+The least value is $T(3)$.
+
+So the time is least when $M$ is $3$ km from $B$ (about $3.07$ hours).
 
 **Answer.** $3$.
 :::
@@ -338,15 +439,22 @@ d) The greatest volume of the box is $144$ cm³.
 2. Keep only the roots inside the domain of $x$.
 
 ::solution
-$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
+Cutting four squares of side $x$ cm from the corners and folding up, we obtain an open box of height $x$ cm. Each side of the sheet loses two squares, so the base is a rectangle with sides $16-2x$ and $10-2x$ (cm).
 
-a) **True**: we need $10-2x>0$ and $x>0$.
+a) **True.** To make the box we need $x>0$, $16-2x>0$ and $10-2x>0$, that is $x>0$, $x<8$ and $x<5$. Combining these, the constraint on $x$ is $0<x<5$.
 
-b) **False**: each side of the base loses two squares, so it must be $16-2x$ and $10-2x$.
+b) **False.** Since the sides of the base are $16-2x$ and $10-2x$, the volume of the box is
+$$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x,$$
+not $x(16-x)(10-x)$.
 
-c) **False**: $\dfrac{20}{3}\approx6.67$ is not in $(0, 5)$; the root to use is $x=2$.
+c) **False.** We have
+$$V'(x)=12x^2-104x+160=4(x-2)(3x-20).$$
+Hence $V'(x)=0\iff x=2$ or $x=\dfrac{20}{3}$. Since $\dfrac{20}{3}\approx6.67$ is not in the interval $(0, 5)$, we keep only $x=2$. So the volume is not greatest at $x=\dfrac{20}{3}$.
 
-d) **True**: $V'$ changes from $+$ to $-$ at $x=2$, and $V(2)=2\cdot12\cdot6=144$.
+d) **True.** On the interval $(0, 5)$, $V'(x)>0$ for $0<x<2$ and $V'(x)<0$ for $2<x<5$, so $V'$ changes from $+$ to $-$ at $x=2$. Hence $V$ attains its greatest value at $x=2$ and
+$$V(2)=2\cdot(16-4)\cdot(10-4)=2\cdot12\cdot6=144\ (\text{cm}^3).$$
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -362,8 +470,23 @@ A metal sheet $30$ cm wide is folded into a gutter: a base $10$ cm wide and two 
 2. Find $A'(\theta)$ and factorise it in terms of $\cos\theta$.
 
 ::solution
-$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
-On $\left(0, \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, so $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ for $\theta<\dfrac{\pi}{3}$ and $A'<0$ for $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129.9$.
+The cross-section is an isosceles trapezium whose shorter base is $10$ cm and whose two legs are $10$ cm, each leg making an angle $\theta$ with the horizontal.
+
+The height of the trapezium is $10\sin\theta$ (cm). The horizontal projection of each leg is $10\cos\theta$ (cm), so the longer base is $10+2\cdot10\cos\theta=10+20\cos\theta$ (cm).
+
+The cross-sectional area is
+$$A(\theta)=\frac{10+(10+20\cos\theta)}{2}\cdot10\sin\theta=100\sin\theta(1+\cos\theta)\quad(\text{cm}^2),\ 0<\theta\le\frac{\pi}{2}.$$
+
+We have
+$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100\left(2\cos^2\theta+\cos\theta-1\right)=100(2\cos\theta-1)(\cos\theta+1).$$
+
+On $\left(0, \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, so
+$$A'(\theta)=0\iff\cos\theta=\frac12\iff\theta=\frac{\pi}{3}\ (\text{satisfies the condition}).$$
+
+For $0<\theta<\dfrac{\pi}{3}$ we have $\cos\theta>\dfrac12$, so $A'(\theta)>0$; for $\dfrac{\pi}{3}<\theta\le\dfrac{\pi}{2}$ we have $\cos\theta<\dfrac12$, so $A'(\theta)<0$. Hence $A'$ changes from $+$ to $-$ at $\theta=\dfrac{\pi}{3}$ and $A$ is greatest there:
+$$A\left(\frac{\pi}{3}\right)=100\cdot\frac{\sqrt3}{2}\cdot\left(1+\frac12\right)=100\cdot\frac{\sqrt3}{2}\cdot\frac32=75\sqrt3\approx129.9.$$
+
+So the cross-sectional area is greatest when $\theta=\dfrac{\pi}{3}$ ($60^\circ$), and that greatest area is $75\sqrt3\approx129.9$ cm².
 
 **Answer.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), with greatest area $75\sqrt3\approx129.9$ cm².
 :::

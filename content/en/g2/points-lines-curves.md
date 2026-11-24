@@ -137,7 +137,11 @@ A shape has two points $P$ and $Q$ and a straight line joining $P$ to $Q$ drawn 
 2. Name it using its two endpoints.
 
 ::solution
-The straight line joining $P$ and $Q$ has two ends, so it is the line segment $PQ$.
+The shape has two points $P$ and $Q$ and a straight line joining $P$ to $Q$ drawn with a ruler.
+
+This straight line has two ends, $P$ and $Q$ (it does not go on for ever in either direction). A shape with two ends like this is called a line segment.
+
+So the shape is the line segment $PQ$.
 
 **Answer.** Line segment $PQ$.
 :::
@@ -153,7 +157,17 @@ Describe how to draw a line segment $AB$ that is $5$ cm long.
 2. Mark point $B$ at the $5$ mark, then draw the line.
 
 ::solution
-Mark point $A$. Place the ruler with its $0$ mark at $A$. Mark point $B$ at $5$ cm. Draw a straight line from $A$ to $B$ along the edge of the ruler. This gives line segment $AB$, $5$ cm long.
+To draw a line segment $AB$ that is $5$ cm long, we do the following in order.
+
+Step 1: Use a pencil to mark a point and name it $A$.
+
+Step 2: Place the ruler so that its $0$ mark is at point $A$.
+
+Step 3: Mark point $B$ exactly at the $5$ cm mark on the ruler.
+
+Step 4: Draw a straight line from $A$ to $B$ along the edge of the ruler.
+
+So we get the line segment $AB$, $5$ cm long.
 
 **Answer.** Line segment $AB$, $5$ cm long.
 :::
@@ -175,11 +189,13 @@ c) The rim of a bicycle wheel.
 2. Name the shape.
 
 ::solution
-a) The edge of a board is straight and has two ends: a line segment.
+a) The edge of a board is straight and has two ends, so it suggests a line segment.
 
-b) A rope in loops bends: a curve.
+b) A rope lying in loops on the floor is not straight but bent, so it suggests a curve.
 
-c) The rim of a wheel is round, not straight: a curve.
+c) The rim of a bicycle wheel is round, not straight, so it suggests a curve.
+
+So a) a line segment; b) a curve; c) a curve.
 
 **Answer.** a) Line segment; b) Curve; c) Curve.
 :::
@@ -195,8 +211,18 @@ Remember subtraction with regrouping. Line segment $AB$ is $52$ cm long and line
 2. Work out $52-27$, borrowing $1$ ten, and write the unit cm.
 
 ::solution
-$12-7=5$ and $5-1-2=2$. The difference in length is:
-$$52-27=25\ \text{(cm)}.$$
+Solution
+
+To find how many centimetres longer $AB$ is than $CD$, we subtract the length of $CD$ from the length of $AB$.
+
+Set out the subtraction and start from the ones: $2$ cannot take away $7$, so we regroup and work out $12-7=5$, write $5$ and carry $1$. Tens: $5-1-2=2$, write $2$.
+
+The difference in length is:
+$$52-27=25\ \text{(cm)}$$
+
+Check: $25+27=52$. Correct.
+
+So line segment $AB$ is $25$ cm longer than line segment $CD$.
 
 **Answer.** $25$ cm.
 :::
@@ -212,7 +238,15 @@ Points $A$, $B$, $C$ are in a line, with $B$ in the middle. Name the line segmen
 2. Write the name of each segment.
 
 ::solution
-The pairs are $A$ and $B$, $B$ and $C$, $A$ and $C$. The line segments are $AB$, $BC$, $AC$.
+Each line segment has as its endpoints two of the three points $A$, $B$, $C$. We pair up the different points:
+
+- the pair $A$ and $B$ gives the line segment $AB$;
+- the pair $B$ and $C$ gives the line segment $BC$;
+- the pair $A$ and $C$ gives the line segment $AC$.
+
+The line segment $AC$ passes through point $B$, but it is still a line segment with endpoints $A$ and $C$. There are no other pairs of points.
+
+So there are $3$ line segments: $AB$, $BC$, $AC$.
 
 **Answer.** $AB$, $BC$, $AC$ ($3$ line segments).
 :::
@@ -228,7 +262,11 @@ Nam draws a slightly bent line joining points $A$ and $B$ and says, "This is lin
 2. What do you need to draw a straight line?
 
 ::solution
-Nam's line is slightly bent, so it is not a line segment. Use a ruler with its edge through $A$ and $B$, and draw a straight line along it.
+A line segment is a straight line with two ends. The line that Nam drew joining points $A$ and $B$ is slightly bent, not straight, so it is not a line segment.
+
+How to fix it: place a ruler so that its edge passes through both points $A$ and $B$, then draw a straight line from $A$ to $B$ along the edge of the ruler. Then we get the line segment $AB$.
+
+So Nam is wrong; the line joining $A$ and $B$ must be drawn again with a ruler.
 
 **Answer.** Nam is wrong; draw it again with a ruler.
 :::
@@ -244,7 +282,13 @@ Three marker poles $A$, $B$, $C$ are placed in a line on a field. The children s
 2. Is pole $D$ on the straight line $AC$?
 
 ::solution
-Since $A$, $B$, $C$ are in a line, pole $B$ is on the string stretched from $A$ to $C$. Pole $D$ is off to the side, so it is not on the string.
+The string stretched from pole $A$ to pole $C$ is straight, so it suggests the line segment $AC$.
+
+Since the three poles $A$, $B$, $C$ are placed in a line, pole $B$ is on the string stretched from $A$ to $C$.
+
+Pole $D$ is placed off to the side, not in a line with $A$ and $C$, so pole $D$ is not on the string.
+
+So pole $B$ is on the stretched string, and pole $D$ is not on the string.
 
 **Answer.** Pole $B$ is on the string; pole $D$ is not.
 :::
@@ -260,7 +304,16 @@ There are four points $A$, $B$, $C$, $D$. The points $A$, $B$, $C$ are in a line
 2. Then the pairs with $B$ (not counted yet), then the pairs with $C$.
 
 ::solution
-The line segments are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. That is $3+2+1=6$ line segments.
+Joining every pair of the four points $A$, $B$, $C$, $D$ gives one line segment for each pair. We list them in order so that we miss none and count none twice.
+
+- The line segments with an end at $A$: $AB$, $AC$, $AD$ ($3$ segments).
+- The line segments with an end at $B$ (not counting $AB$ again): $BC$, $BD$ ($2$ segments).
+- The line segments with an end at $C$ (not counting $AC$, $BC$ again): $CD$ ($1$ segment).
+
+The number of line segments is:
+$$3+2+1=6\ \text{(line segments)}$$
+
+So there are $6$ line segments altogether.
 
 **Answer.** $6$ line segments.
 :::

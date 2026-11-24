@@ -178,10 +178,14 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Hạ $4$ rồi chia tiếp.
 
 ::solution
-- $88:13=6$, vì $13\times6=78$; $88-78=10$.
-- Hạ $4$, được $104$. $104:13=8$, vì $13\times8=104$; dư $0$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $13\times68=884$. Đúng.
+- Lần 1: Vì $8<13$ nên lấy hai chữ số $88$ để chia. Ta có $88:13=6$, vì $13\times6=78$. Viết $6$ vào thương. Số dư là $88-78=10$.
+- Lần 2: Hạ $4$, được $104$. Ta có $104:13=8$, vì $13\times8=104$. Viết $8$ vào thương. Số dư là $104-104=0$.
+
+*Thử lại.* $13\times68=884$. Đúng.
+
+Vậy $884:13=68$.
 
 **Đáp số.** $884:13=68$.
 :::
@@ -197,10 +201,14 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Hạ $8$ rồi chia tiếp.
 
 ::solution
-- $172:24=7$, vì $24\times7=168$; $172-168=4$.
-- Hạ $8$, được $48$. $48:24=2$; dư $0$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $24\times72=1\,728$. Đúng.
+- Lần 1: Vì $17<24$ nên lấy ba chữ số $172$ để chia. Ta có $172:24=7$, vì $24\times7=168$. Viết $7$ vào thương. Số dư là $172-168=4$.
+- Lần 2: Hạ $8$, được $48$. Ta có $48:24=2$, vì $24\times2=48$. Viết $2$ vào thương. Số dư là $48-48=0$.
+
+*Thử lại.* $24\times72=1\,728$. Đúng.
+
+Vậy $1\,728:24=72$.
 
 **Đáp số.** $1\,728:24=72$.
 :::
@@ -216,10 +224,14 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Hạ $0$ rồi chia tiếp.
 
 ::solution
-- $357:42=8$, vì $42\times8=336$; $357-336=21$.
-- Hạ $0$, được $210$. $210:42=5$, vì $42\times5=210$; dư $0$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $42\times85=3\,570$. Đúng.
+- Lần 1: Vì $35<42$ nên lấy ba chữ số $357$ để chia. Ta có $357:42=8$, vì $42\times8=336$. Viết $8$ vào thương. Số dư là $357-336=21$.
+- Lần 2: Hạ $0$, được $210$. Ta có $210:42=5$, vì $42\times5=210$. Viết $5$ vào thương. Số dư là $210-210=0$.
+
+*Thử lại.* $42\times85=3\,570$. Đúng.
+
+Vậy $3\,570:42=85$.
 
 **Đáp số.** $3\,570:42=85$.
 :::
@@ -235,10 +247,16 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Hạ $5$, chia tiếp, rồi thử lại.
 
 ::solution
-- $234:52=4$, vì $52\times4=208$; $234-208=26$.
-- Hạ $5$, được $265$. $265:52=5$, vì $52\times5=260$; dư $5$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $45\times52+5=2\,340+5=2\,345$. Đúng.
+- Lần 1: Vì $23<52$ nên lấy ba chữ số $234$ để chia. Ta có $234:52=4$, vì $52\times4=208$. Viết $4$ vào thương. Số dư là $234-208=26$.
+- Lần 2: Hạ $5$, được $265$. Ta có $265:52=5$, vì $52\times5=260$. Viết $5$ vào thương. Số dư là $265-260=5$.
+
+Số dư $5$ bé hơn số chia $52$ nên phép chia dừng lại ở đây.
+
+*Thử lại.* $45\times52+5=2\,340+5=2\,345$. Đúng.
+
+Vậy $2\,345:52=45$ (dư $5$).
 
 **Đáp số.** $2\,345:52=45$ (dư $5$).
 :::
@@ -254,10 +272,16 @@ Một cửa hàng có $1\,080$ cái bút, xếp vào các hộp, mỗi hộp $12
 2. Đặt tính $1\,080:12$ rồi thử lại bằng phép nhân.
 
 ::solution
+Bài giải
+
+Muốn biết xếp được bao nhiêu hộp, ta lấy số cái bút chia cho số cái bút trong mỗi hộp.
+
 Số hộp xếp được là:
 $$1\,080:12=90\ \text{(hộp)}.$$
 
-**Thử lại.** $90\times12=1\,080$. Đúng.
+*Thử lại.* $90\times12=1\,080$. Đúng.
+
+Vậy xếp được $90$ hộp.
 
 **Đáp số.** $90$ hộp.
 :::
@@ -273,9 +297,18 @@ Giả sử một đoàn khách có $250$ người thuê xe, mỗi xe chở đư�
 2. Tính $250:45$, rồi xem số dư.
 
 ::solution
+Bài giải
+
+Mỗi xe chở được nhiều nhất $45$ người, nên ta chia $250$ cho $45$ để biết số xe chở đầy.
+
 Ta có $250:45=5$ (dư $25$), vì $45\times5=225$ và $250-225=25$.
 
-$5$ xe chở được $225$ người, còn $25$ người nữa cần thêm $1$ xe. Số xe cần thuê là $5+1=6$ (xe).
+$5$ xe chở được $225$ người, còn $25$ người nữa chưa có xe. Vì $25<45$ nên chỉ cần thêm $1$ xe nữa.
+
+Số xe cần thuê là:
+$$5+1=6\ \text{(xe)}.$$
+
+Vậy cần thuê ít nhất $6$ xe để chở hết đoàn khách.
 
 **Đáp số.** Ít nhất $6$ xe.
 :::
@@ -291,9 +324,14 @@ Em hãy nhớ lại bài nhân với số có hai chữ số. Một phép chia c
 2. Cộng thêm số dư.
 
 ::solution
-Số bị chia là $48\times25+13=1\,200+13=1\,213$.
+Trong phép chia có dư, ta có: số bị chia $=$ thương $\times$ số chia $+$ số dư.
 
-**Thử lại.** $1\,213:25=48$ (dư $13$). Đúng.
+Thay thương $48$, số chia $25$ và số dư $13$ vào, ta được
+$$48\times25+13=1\,200+13=1\,213.$$
+
+*Thử lại.* $1\,213:25=48$ (dư $13$), vì $25\times48=1\,200$ và $1\,213-1\,200=13$. Đúng.
+
+Vậy số bị chia là $1\,213$.
 
 **Đáp số.** $1\,213$.
 :::
@@ -309,11 +347,17 @@ Số bị chia là $48\times25+13=1\,200+13=1\,213$.
 2. Hạ $0$, rồi hạ $5$.
 
 ::solution
-- $78:41=1$; $78-41=37$.
-- Hạ $0$, được $370$. $370:41=9$, vì $41\times9=369$; dư $1$.
-- Hạ $5$, được $15$. $15:41=0$; dư $15$.
+Đặt tính rồi chia lần lượt từ trái sang phải.
 
-**Thử lại.** $190\times41+15=7\,790+15=7\,805$. Đúng.
+- Lần 1: Vì $7<41$ nên lấy hai chữ số $78$ để chia. Ta có $78:41=1$. Viết $1$ vào thương. Số dư là $78-41=37$.
+- Lần 2: Hạ $0$, được $370$. Ta có $370:41=9$, vì $41\times9=369$. Viết $9$ vào thương. Số dư là $370-369=1$.
+- Lần 3: Hạ $5$, được $15$. Vì $15<41$ nên $15:41=0$. Viết $0$ vào thương. Số dư là $15$.
+
+Số dư $15$ bé hơn số chia $41$ nên phép chia dừng lại ở đây.
+
+*Thử lại.* $190\times41+15=7\,790+15=7\,805$. Đúng.
+
+Vậy $7\,805:41=190$ (dư $15$).
 
 **Đáp số.** $7\,805:41=190$ (dư $15$).
 :::
@@ -329,11 +373,18 @@ Giả sử mẹ trả $1\,260\,000$ đồng để mua $18$ chiếc ghế giống
 2. Nhân kết quả với $1\,000$.
 
 ::solution
-Ta có $1\,260:18=70$.
+Bài giải
 
-Giá mỗi chiếc ghế là $70\times1\,000=70\,000$ (đồng).
+Muốn biết giá của mỗi chiếc ghế, ta lấy số tiền mua chia cho số ghế. Vì $1\,260\,000$ đồng là $1\,260$ nghìn đồng nên ta chia $1\,260$ cho $18$ rồi đổi về đồng.
 
-**Thử lại.** $70\,000\times18=1\,260\,000$. Đúng.
+Ta có $1\,260:18=70$ (nghìn đồng).
+
+Giá của mỗi chiếc ghế là:
+$$70\times1\,000=70\,000\ \text{(đồng)}.$$
+
+*Thử lại.* $70\,000\times18=1\,260\,000$ (đồng). Đúng.
+
+Vậy giá của mỗi chiếc ghế là $70\,000$ đồng.
 
 **Đáp số.** $70\,000$ đồng.
 :::
@@ -349,11 +400,16 @@ Tìm số tự nhiên nhỏ nhất có ba chữ số mà khi chia cho $24$ thì 
 2. Số đầu tiên có ba chữ số là số nào?
 
 ::solution
-Các số chia cho $24$ dư $23$ có dạng $24\times k+23$:
-- $k=3$: $24\times3+23=95$ (hai chữ số).
-- $k=4$: $24\times4+23=119$ (ba chữ số).
+Các số chia cho $24$ dư $23$ có dạng $24\times k+23$, với $k$ là số tự nhiên. Ta thử lần lượt các giá trị của $k$ để tìm số nhỏ nhất có ba chữ số.
 
-**Thử lại.** $119:24=4$ (dư $23$). Đúng.
+- Với $k=3$: $24\times3+23=72+23=95$, chỉ có hai chữ số.
+- Với $k=4$: $24\times4+23=96+23=119$, có ba chữ số.
+
+Các số ứng với $k$ lớn hơn đều lớn hơn $119$, nên $119$ là số nhỏ nhất có ba chữ số thoả mãn.
+
+*Thử lại.* $119:24=4$ (dư $23$), vì $24\times4=96$ và $119-96=23$. Đúng.
+
+Vậy số tự nhiên nhỏ nhất có ba chữ số mà chia cho $24$ dư $23$ là $119$.
 
 **Đáp số.** $119$.
 :::

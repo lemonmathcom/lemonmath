@@ -214,7 +214,13 @@ Một hộp có $40$ bi đỏ và xanh. Lấy ngẫu nhiên một bi, ghi màu r
 2. Nhân với $40$.
 
 ::solution
-Xác suất thực nghiệm là $\dfrac{20}{80}=\dfrac14$. Số bi đỏ ước lượng là $40\cdot\dfrac14=10$.
+Gọi $A$ là biến cố "lấy được bi đỏ". Vì mỗi lần lấy xong đều trả bi lại hộp nên các lần lấy giống nhau, và xác suất thực nghiệm của $A$ xấp xỉ tỉ lệ bi đỏ trong hộp.
+
+Xác suất thực nghiệm của biến cố $A$ là
+$$P(A)=\frac{\text{số lần lấy được bi đỏ}}{\text{tổng số lần lấy}}=\frac{20}{80}=\frac14.$$
+
+Do đó tỉ lệ bi đỏ trong hộp xấp xỉ $\dfrac14$. Hộp có $40$ bi nên số bi đỏ ước lượng là
+$$40\cdot\frac14=10\ (\text{bi}).$$
 
 Vậy trong hộp có khoảng $10$ bi đỏ.
 
@@ -304,7 +310,17 @@ Một máy quay thưởng được quay $80$ lần và có $12$ lần trúng th�
 2. Lấy $1$ trừ kết quả.
 
 ::solution
-Xác suất thực nghiệm trúng thưởng là $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. Xác suất thực nghiệm không trúng là $1-0{,}15=0{,}85=85\%$ (cũng bằng $\dfrac{68}{80}$).
+Gọi $A$ là biến cố "trúng thưởng". Khi đó biến cố đối của $A$ là $\overline{A}$: "không trúng thưởng".
+
+Xác suất thực nghiệm của biến cố $A$ là
+$$P(A)=\frac{12}{80}=\frac{3}{20}=0{,}15=15\%.$$
+
+Vì $A$ và $\overline{A}$ là hai biến cố đối nhau nên $P(\overline{A})=1-P(A)$. Do đó
+$$P(\overline{A})=1-0{,}15=0{,}85=85\%.$$
+
+Kiểm tra: số lần không trúng là $80-12=68$ và $\dfrac{68}{80}=0{,}85$.
+
+Vậy xác suất thực nghiệm của biến cố "trúng thưởng" là $15\%$ và của biến cố "không trúng" là $85\%$.
 
 **Đáp số.** $15\%$; $85\%$.
 :::
@@ -320,9 +336,22 @@ Gieo cùng lúc hai con xúc xắc $72$ lần; tổng số chấm bằng $7$ xu�
 2. Tính $600\cdot\dfrac{15}{72}$ và $600\cdot\dfrac16$.
 
 ::solution
-Xác suất thực nghiệm là $\dfrac{15}{72}=\dfrac{5}{24}\approx20{,}8\%$, lớn hơn $\dfrac16\approx16{,}7\%$ (lí thuyết mong đợi $72\cdot\dfrac16=12$ lần, ta được $15$ lần). Dự đoán cho $600$ lần theo thực nghiệm: $600\cdot\dfrac{5}{24}=125$ lần; theo lí thuyết: $600\cdot\dfrac16=100$ lần.
+Gọi $A$ là biến cố "tổng số chấm của hai con xúc xắc bằng $7$".
 
-Nhận xét: $72$ lần thử còn ít nên xác suất thực nghiệm chưa đáng tin; với tổng cặp đồng khả năng ta nên dùng xác suất lí thuyết $\dfrac16$.
+Xác suất thực nghiệm của $A$ là
+$$P(A)=\frac{15}{72}=\frac{5}{24}\approx20{,}8\%.$$
+
+Xác suất lí thuyết là $\dfrac16\approx16{,}7\%$. Vì $20{,}8\%>16{,}7\%$ nên xác suất thực nghiệm lớn hơn xác suất lí thuyết. Cụ thể, theo lí thuyết ta mong đợi $72\cdot\dfrac16=12$ lần, còn thực tế được $15$ lần.
+
+Dự đoán cho $600$ lần gieo theo xác suất thực nghiệm:
+$$600\cdot\frac{5}{24}=125\ (\text{lần}).$$
+
+Theo xác suất lí thuyết:
+$$600\cdot\frac16=100\ (\text{lần}).$$
+
+*Nhận xét.* $72$ lần thử còn ít nên xác suất thực nghiệm chưa đáng tin; với tổng cặp đồng khả năng ta nên dùng xác suất lí thuyết $\dfrac16$.
+
+Vậy xác suất thực nghiệm là $\dfrac{5}{24}$, lớn hơn xác suất lí thuyết $\dfrac16$; dự đoán theo thực nghiệm là $125$ lần, còn theo lí thuyết là $100$ lần.
 
 **Đáp số.** $\dfrac{5}{24}$; $125$ lần so với $100$ lần.
 :::

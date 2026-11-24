@@ -200,9 +200,13 @@ b) $x:1,1,2$ and $y:2,3,4$.
 2. If so, compare the corresponding values of $y$.
 
 ::solution
-a) All the values of $x$ are different, and each has one $y$: it is a function.
+The quantity $y$ is a function of the quantity $x$ if each value of $x$ determines exactly one value of $y$.
 
-b) The value $x=1$ has two values $y=2$ and $y=3$: it is not a function.
+a) The values of $x$, namely $0$, $1$, $2$, $3$, are all different, and each value of $x$ has exactly one value of $y$ (respectively $1$, $3$, $5$, $7$). Hence $y$ is a function of $x$.
+
+b) The value $x=1$ appears twice and corresponds to two different values $y=2$ and $y=3$. One value of $x$ gives two values of $y$, so $y$ is not a function of $x$.
+
+So in table a) $y$ is a function of $x$; in table b) $y$ is not a function of $x$.
 
 **Answer.** a) a function. b) not a function.
 :::
@@ -224,11 +228,15 @@ c) $y=\dfrac1x$.
 2. For c), notice the value of $x$ that makes the denominator $0$.
 
 ::solution
-a) For $x=4$ we have $y=2$ or $y=-2$: one $x$ gives two $y$, so it is not a function.
+We check whether each value of $x$ gives exactly one value of $y$ or more than one.
 
-b) Each $x$ gives exactly one $y=3-x$: it is a function.
+a) For $x=4$, the relation $y^2=4$ gives $y=2$ or $y=-2$. One value of $x$ gives two values of $y$, so $y$ is not a function of $x$.
 
-c) Each $x\neq0$ gives exactly one $y=\dfrac1x$: it is a function with domain $x\neq0$.
+b) For each value of $x$, the expression $3-x$ gives exactly one value of $y$. Hence $y$ is a function of $x$.
+
+c) The expression $\dfrac1x$ is defined when $x\neq0$. For each $x\neq0$ we obtain exactly one value $y=\dfrac1x$. Hence $y$ is a function of $x$ with domain $x\neq0$.
+
+So $y$ is not a function of $x$ in part a); $y$ is a function of $x$ in parts b) and c) (in part c) for $x\neq0$).
 
 **Answer.** a) no. b) yes. c) yes (for $x\neq0$).
 :::
@@ -244,7 +252,19 @@ Let $f(x)=3x-4$. Find $f(0)$, $f(2)$, $f(-1)$ and find $x$ such that $f(x)=11$.
 2. Solve the equation $3x-4=11$.
 
 ::solution
-We have $f(0)=-4$; $f(2)=6-4=2$; $f(-1)=-3-4=-7$. The equation $3x-4=11$ gives $3x=15$ and $x=5$.
+For $f(x)=3x-4$, we substitute the given values of $x$ into the formula.
+
+For $x=0$: $f(0)=3\cdot0-4=-4$.
+
+For $x=2$: $f(2)=3\cdot2-4=6-4=2$.
+
+For $x=-1$: $f(-1)=3\cdot(-1)-4=-3-4=-7$.
+
+To find $x$ such that $f(x)=11$, we solve the equation
+$$3x-4=11.$$
+Moving terms, we get $3x=15$. Hence $x=5$.
+
+Check: $f(5)=3\cdot5-4=11$.
 
 So $f(0)=-4$, $f(2)=2$, $f(-1)=-7$ and $f(x)=11$ when $x=5$.
 
@@ -268,11 +288,15 @@ c) $y=x^2+1$.
 2. In c) there is no denominator.
 
 ::solution
-a) $x+3\neq0$, so $x\neq-3$.
+The domain of a function given by a formula is the set of values of $x$ for which the expression makes sense.
 
-b) $2x-6\neq0$, so $x\neq3$.
+a) The expression $\dfrac{2}{x+3}$ makes sense when the denominator is non-zero, that is $x+3\neq0$. Hence $x\neq-3$.
 
-c) The expression makes sense for every $x$, so the domain is $\mathbb R$.
+b) The expression $\dfrac{x-1}{2x-6}$ makes sense when $2x-6\neq0$, that is $2x\neq6$. Hence $x\neq3$.
+
+c) The expression $x^2+1$ is a polynomial, so it makes sense for every value of $x$. Hence the domain is $\mathbb R$.
+
+So the domains of the functions are: a) $x\neq-3$; b) $x\neq3$; c) $\mathbb R$.
 
 **Answer.** a) $x\neq-3$. b) $x\neq3$. c) $\mathbb R$.
 :::
@@ -288,9 +312,17 @@ Which of the points $A(1, 2)$, $B(2, 2)$, $C(0, 3)$, $D(-1, 4)$ lie on the graph
 2. Compare with the $y$-coordinate.
 
 ::solution
-For $A$: $-1+3=2$, correct. For $B$: $-2+3=1\neq2$, wrong. For $C$: $-0+3=3$, correct. For $D$: $-(-1)+3=4$, correct.
+A point lies on the graph of $y=-x+3$ when its coordinates satisfy the relation $y=-x+3$. We substitute the x-coordinate of each point into the formula and compare the result with the y-coordinate.
 
-So $A$, $C$, $D$ lie on the graph.
+For $A(1, 2)$: $-1+3=2$, which equals the y-coordinate $2$, so $A$ lies on the graph.
+
+For $B(2, 2)$: $-2+3=1\neq2$, so $B$ does not lie on the graph.
+
+For $C(0, 3)$: $-0+3=3$, which equals the y-coordinate $3$, so $C$ lies on the graph.
+
+For $D(-1, 4)$: $-(-1)+3=4$, which equals the y-coordinate $4$, so $D$ lies on the graph.
+
+So $A$, $C$, $D$ lie on the graph of $y=-x+3$.
 
 **Answer.** $A$, $C$, $D$.
 :::

@@ -183,9 +183,17 @@ b) A quadrilateral with sides $2$ cm, $3$ cm, $4$ cm and $5$ cm.
 2. Add step by step and write the unit, cm.
 
 ::solution
-a) $3+4+6=13$ (cm).
+Solution
 
-b) $2+3+4+5=14$ (cm).
+The perimeter of a shape is the sum of the lengths of its sides.
+
+a) The perimeter of the triangle is:
+$$3+4+6=13\ \text{(cm)}.$$
+
+b) The perimeter of the quadrilateral is:
+$$2+3+4+5=14\ \text{(cm)}.$$
+
+So the perimeter of the triangle is $13$ cm and the perimeter of the quadrilateral is $14$ cm.
 
 **Answer.** a) $13$ cm; b) $14$ cm.
 :::
@@ -205,9 +213,15 @@ b) A square with side $9$ cm.
 2. Part b): multiply the side by $4$.
 
 ::solution
-a) $(12+5)\times2=17\times2=34$ (cm).
+Solution
 
-b) $9\times4=36$ (cm).
+a) To find the perimeter of a rectangle, we add the length and the width (in the same unit) and then multiply by $2$. The perimeter of the rectangle is:
+$$(12+5)\times2=17\times2=34\ \text{(cm)}.$$
+
+b) A square has $4$ equal sides, so to find its perimeter we multiply the length of one side by $4$. The perimeter of the square is:
+$$9\times4=36\ \text{(cm)}.$$
+
+So the perimeter of the rectangle is $34$ cm and the perimeter of the square is $36$ cm.
 
 **Answer.** a) $34$ cm; b) $36$ cm.
 :::
@@ -227,11 +241,17 @@ b) A square has a side of about $38$ m. Estimate its perimeter by multiplying th
 2. Multiply the round number you found by $4$.
 
 ::solution
-a) The ones digit of $38$ is $8$, which is more than $5$, so we round up: $38\approx40$.
+Solution
 
-b) $40\times4=160$ (m).
+a) The ones digit of $38$ is $8$. Since $8$ is more than $5$, we round up to the nearest ten:
+$$38\approx40.$$
 
-**Check.** $38\times4=152$, which is close to $160$. The estimate is sensible.
+b) A square has $4$ equal sides. We multiply the rounded number from part a) by $4$ to estimate the perimeter:
+$$40\times4=160\ \text{(m)}.$$
+
+*Check.* $38\times4=152$, which is close to $160$. The estimate is sensible.
+
+So $38$ rounded to the nearest ten is $40$, and the perimeter of the square is about $160$ m.
 
 **Answer.** a) $40$; b) about $160$ m.
 :::
@@ -250,9 +270,15 @@ b) Binh bends a piece of wire into a triangle with sides $8$ cm, $9$ cm and $10$
 3. Check by adding all the sides.
 
 ::solution
-a) Perimeter of the square: $6\times4=24$ (cm).
+Solution
 
-b) The wire is as long as the perimeter of the triangle: $8+9+10=27$ (cm).
+a) The ant walks once round the edge of the table top, so the distance it walks is the perimeter of the square. A square has $4$ equal sides, so the distance is:
+$$6\times4=24\ \text{(cm)}.$$
+
+b) The wire is bent into a triangle, so its length equals the perimeter of the triangle. The length of the wire is:
+$$8+9+10=27\ \text{(cm)}.$$
+
+So the ant walks $24$ cm and the wire is $27$ cm long.
 
 **Answer.** a) $24$ cm; b) $27$ cm.
 :::
@@ -276,11 +302,20 @@ c) A quadrilateral with sides $5$ cm, $6$ cm, $7$ cm and $8$ cm.
 2. Choose the matching method.
 
 ::solution
-a) A square has four equal sides: $9\times4=36$ (cm).
+Solution
 
-b) A rectangle has two pairs of equal sides: $(11+4)\times2=15\times2=30$ (cm).
+We choose the quickest way by looking at the sides of each shape.
 
-c) The four sides are all different, so we must add all four: $5+6+7+8=26$ (cm).
+a) A square has four equal sides, so we multiply one side by $4$:
+$$9\times4=36\ \text{(cm)}.$$
+
+b) A rectangle has two pairs of equal sides (two long sides and two short sides), so we add the length and the width and multiply by $2$:
+$$(11+4)\times2=15\times2=30\ \text{(cm)}.$$
+
+c) The four sides of the quadrilateral are all different, so we must add all four:
+$$5+6+7+8=26\ \text{(cm)}.$$
+
+So the perimeter of the square is $36$ cm, the perimeter of the rectangle is $30$ cm and the perimeter of the quadrilateral is $26$ cm.
 
 **Answer.** a) $36$ cm; b) $30$ cm; c) $26$ cm.
 :::
@@ -300,9 +335,13 @@ b) Cuc: "A square has side $5$ cm. The perimeter is $5\times2=10$ (cm)."
 2. Do it again so that you go all the way round.
 
 ::solution
-a) Binh has added only one pair of sides, so he has gone only halfway round. The correct working is $(10+3)\times2=13\times2=26$ (cm).
+a) Binh has added only the length and the width, which are two sides next to each other, so he has gone only halfway round the shape. The rectangle has two more sides. The correct working is:
+$$(10+3)\times2=13\times2=26\ \text{(cm)}.$$
 
-b) Cuc multiplied by $2$, but a square has $4$ sides. The correct working is $5\times4=20$ (cm).
+b) Cuc multiplied by $2$, but a square has $4$ equal sides, so she must multiply by $4$. The correct working is:
+$$5\times4=20\ \text{(cm)}.$$
+
+So Binh forgot to multiply by $2$ and the correct perimeter is $26$ cm; Cuc multiplied by $2$ by mistake and the correct perimeter is $20$ cm.
 
 **Answer.** a) $26$ cm; b) $20$ cm.
 :::
@@ -323,9 +362,15 @@ b) He leaves a gate $2$ m wide with no fence. How many metres long is the fence 
 3. Part b): take away the gap for the gate.
 
 ::solution
-a) $(20+9)\times2=29\times2=58$ (m).
+Solution
 
-b) $58-2=56$ (m).
+a) A fence that goes all the way round is as long as the perimeter of the rectangular garden. The fence is:
+$$(20+9)\times2=29\times2=58\ \text{(m)}.$$
+
+b) Mr An leaves a gate $2$ m wide with no fence, so the fence is $2$ m shorter than the closed fence. The fence is:
+$$58-2=56\ \text{(m)}.$$
+
+So a fence all the way round is $58$ m long, and with the gate left open the fence is $56$ m long.
 
 **Answer.** a) $58$ m; b) $56$ m.
 :::
@@ -347,9 +392,19 @@ b) Find the total perimeter of the two separate squares. Why is this total bigge
 2. Find the perimeter of each square, add them, then compare.
 
 ::solution
-a) The length is $3+3=6$ cm and the width is $3$ cm. The perimeter is $(6+3)\times2=9\times2=18$ (cm).
+Solution
 
-b) Each square has perimeter $3\times4=12$ cm, so the two squares have $12+12=24$ cm. The total is bigger because the shared side, $3$ cm long, is hidden inside when we join them, so each square loses $3$ cm: $24-3-3=18$ cm.
+a) Two squares with side $3$ cm put side by side make a rectangle with length $3+3=6$ (cm) and width $3$ cm. The perimeter of the rectangle is:
+$$(6+3)\times2=9\times2=18\ \text{(cm)}.$$
+
+b) Each square has perimeter $3\times4=12$ (cm). The total perimeter of the two separate squares is:
+$$12+12=24\ \text{(cm)}.$$
+
+This total is bigger than the perimeter of the rectangle because, when we join the squares, the shared side, $3$ cm long, is hidden inside and is no longer part of the perimeter of the rectangle. Each square loses $3$ cm, so
+$$24-3-3=18\ \text{(cm)},$$
+which is exactly the perimeter of the rectangle in part a).
+
+So the perimeter of the rectangle is $18$ cm, the total perimeter of the two separate squares is $24$ cm, and the total is bigger because the shared side is hidden.
 
 **Answer.** a) $18$ cm; b) $24$ cm.
 :::

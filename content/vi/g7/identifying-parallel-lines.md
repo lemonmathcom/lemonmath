@@ -344,11 +344,21 @@ c) $\widehat{A}_4$ và $\widehat{B}_5$ là hai góc ...
 2. Rồi xác định hai góc cùng phía hay khác phía đối với $c$.
 
 ::solution
-a) $\widehat{A}_3$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và khác phía đối với $c$, nên là hai góc so le trong.
+Ta nhắc lại cách nhận biết các cặp góc tạo bởi đường thẳng $c$ cắt hai đường thẳng $a$, $b$: hai góc so le trong cùng nằm giữa $a$, $b$ và khác phía đối với $c$; hai góc đồng vị cùng nằm về một phía của $c$, một góc nằm giữa $a$, $b$ còn góc kia nằm ngoài; hai góc trong cùng phía cùng nằm giữa $a$, $b$ và cùng phía đối với $c$.
 
-b) $\widehat{A}_2$ nằm ngoài, $\widehat{B}_6$ nằm giữa $a$, $b$, cùng phía bên phải $c$, nên là hai góc đồng vị.
+a) Hai góc $\widehat{A}_3$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và nằm khác phía đối với $c$.
 
-c) $\widehat{A}_4$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và cùng phía bên trái $c$, nên là hai góc trong cùng phía.
+Do đó $\widehat{A}_3$ và $\widehat{B}_5$ là hai góc so le trong.
+
+b) Góc $\widehat{A}_2$ nằm ngoài (không nằm giữa $a$, $b$), góc $\widehat{B}_6$ nằm giữa $a$, $b$, và cả hai cùng nằm về phía bên phải của $c$.
+
+Do đó $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc đồng vị.
+
+c) Hai góc $\widehat{A}_4$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và cùng nằm về phía bên trái của $c$.
+
+Do đó $\widehat{A}_4$ và $\widehat{B}_5$ là hai góc trong cùng phía.
+
+Vậy a) hai góc so le trong; b) hai góc đồng vị; c) hai góc trong cùng phía.
 
 **Đáp số.** a) so le trong; b) đồng vị; c) trong cùng phía.
 :::
@@ -364,9 +374,13 @@ c) $\widehat{A}_4$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và cùng ph�
 2. Nêu dấu hiệu rồi kết luận.
 
 ::solution
-Hai góc $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc đồng vị và $\widehat{A}_2=\widehat{B}_6=118^\circ$ (giả thiết).
+Hai góc $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc đồng vị tạo bởi đường thẳng $c$ cắt hai đường thẳng $a$, $b$.
 
-Vì có một cặp góc đồng vị bằng nhau nên theo dấu hiệu nhận biết hai đường thẳng song song, $a\parallel b$.
+Theo giả thiết, $\widehat{A}_2=\widehat{B}_6=118^\circ$, nên đường thẳng $c$ cắt $a$, $b$ tạo thành một cặp góc đồng vị bằng nhau.
+
+Theo dấu hiệu nhận biết hai đường thẳng song song (hai đường thẳng bị cắt bởi một đường thẳng thứ ba mà có một cặp góc đồng vị bằng nhau thì song song với nhau), ta có $a\parallel b$.
+
+Vậy $a\parallel b$.
 
 **Đáp số.** $a\parallel b$.
 :::
@@ -408,9 +422,25 @@ b) Hai góc trong cùng phía là $(2x+20)^\circ$ và $(x+10)^\circ$.
 2. b) Lập phương trình tổng hai biểu thức bằng $180$.
 
 ::solution
-a) Vì $a\parallel b$ nên $3x+10=x+50$, suy ra $2x=40$, $x=20$. Mỗi góc bằng $70^\circ$.
+Vì $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$ nên hai góc so le trong bằng nhau và hai góc trong cùng phía bù nhau (có tổng bằng $180^\circ$).
 
-b) Vì $a\parallel b$ nên $(2x+20)+(x+10)=180$, suy ra $3x=150$, $x=50$. Hai góc là $120^\circ$ và $60^\circ$.
+a) Hai góc so le trong bằng nhau, nên
+$$3x+10=x+50.$$
+
+Chuyển vế, ta được $2x=40$, suy ra $x=20$.
+
+Kiểm tra: $3\cdot20+10=70$ và $20+50=70$, mỗi góc bằng $70^\circ$.
+
+Vậy $x=20$.
+
+b) Hai góc trong cùng phía có tổng bằng $180^\circ$, nên
+$$(2x+20)+(x+10)=180.$$
+
+Rút gọn, ta được $3x+30=180$, suy ra $3x=150$, do đó $x=50$.
+
+Kiểm tra: $2\cdot50+20=120$ và $50+10=60$; hai góc là $120^\circ$ và $60^\circ$, có tổng $180^\circ$.
+
+Vậy $x=50$.
 
 **Đáp số.** a) $x=20$; b) $x=50$.
 :::
@@ -524,11 +554,22 @@ Cho $a\parallel b$, $c$ cắt $a$ tại $A$, cắt $b$ tại $B$. Tia $Am$ là p
 2. Hai góc đó có vị trí gì đối với đường thẳng $AB$?
 
 ::solution
-Vì $a\parallel b$ nên $\widehat{A}_3=\widehat{B}_5$ (so le trong).
+Vì $a\parallel b$ nên hai góc so le trong $\widehat{A}_3$ và $\widehat{B}_5$ bằng nhau:
+$$\widehat{A}_3=\widehat{B}_5.$$
 
-Vì $Am$ là phân giác của $\widehat{A}_3$ nên $\widehat{mAB}=\dfrac12\widehat{A}_3$. Vì $Bn$ là phân giác của $\widehat{B}_5$ nên $\widehat{ABn}=\dfrac12\widehat{B}_5$. Mà $\widehat{A}_3=\widehat{B}_5$ nên $\widehat{mAB}=\widehat{ABn}$.
+Vì tia $Am$ là phân giác của $\widehat{A}_3$ nên
+$$\widehat{mAB}=\dfrac12\widehat{A}_3.$$
 
-Hai góc $\widehat{mAB}$ và $\widehat{ABn}$ nằm ở vị trí so le trong đối với hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $AB$. Theo dấu hiệu nhận biết, $Am\parallel Bn$.
+Vì tia $Bn$ là phân giác của $\widehat{B}_5$ nên
+$$\widehat{ABn}=\dfrac12\widehat{B}_5.$$
+
+Mà $\widehat{A}_3=\widehat{B}_5$ nên suy ra $\widehat{mAB}=\widehat{ABn}$.
+
+Hai tia $Am$ và $Bn$ nằm về hai phía của đường thẳng $AB$, nên $\widehat{mAB}$ và $\widehat{ABn}$ là hai góc so le trong tạo bởi hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $AB$.
+
+Hai góc so le trong này bằng nhau, nên theo dấu hiệu nhận biết hai đường thẳng song song, $Am\parallel Bn$.
+
+Vậy $Am\parallel Bn$.
 
 **Đáp số.** Đã chứng minh.
 :::

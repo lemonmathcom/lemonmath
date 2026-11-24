@@ -191,7 +191,15 @@ Trong hình lập phương $ABCD.A'B'C'D'$, đường thẳng $AA'$ song song v�
 3. Các cạnh còn lại là chéo nhau.
 
 ::solution
-Các cạnh song song với $AA'$ là $BB'$, $CC'$, $DD'$: $3$ cạnh. Các cạnh cắt $AA'$ là $AB$, $AD$ (tại $A$) và $A'B'$, $A'D'$ (tại $A'$): $4$ cạnh. Các cạnh còn lại là $BC$, $CD$, $B'C'$, $C'D'$: chéo nhau với $AA'$, $4$ cạnh.
+Hình lập phương $ABCD.A'B'C'D'$ có $12$ cạnh; ngoài $AA'$ còn $11$ cạnh khác. Ta xét vị trí tương đối của $AA'$ với từng cạnh.
+
+Các cạnh song song với $AA'$. Đó là các cạnh cùng phương với $AA'$: $BB'$, $CC'$, $DD'$. Có $3$ cạnh.
+
+Các cạnh cắt $AA'$. Đó là các cạnh có chung một đầu mút với $AA'$: $AB$, $AD$ (cắt tại $A$) và $A'B'$, $A'D'$ (cắt tại $A'$). Có $4$ cạnh.
+
+Các cạnh chéo nhau với $AA'$. Đó là $11-3-4=4$ cạnh còn lại: $BC$, $CD$, $B'C'$, $C'D'$. Các cạnh này không có điểm chung với $AA'$ và không song song với $AA'$ nên chéo nhau với $AA'$.
+
+Vậy $AA'$ song song với $3$ cạnh, cắt $4$ cạnh và chéo nhau với $4$ cạnh khác.
 
 **Đáp số.** Song song với $3$ cạnh, cắt $4$ cạnh, chéo nhau với $4$ cạnh.
 :::
@@ -222,7 +230,19 @@ Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$, $Q$ lần lượt là trung điểm
 2. So sánh độ dài $MN$ và $QP$.
 
 ::solution
-Trong tam giác $ABC$, $MN$ là đường trung bình nên $MN\parallel AC$ và $MN=\dfrac{AC}{2}$. Trong tam giác $ADC$, $QP$ là đường trung bình nên $QP\parallel AC$ và $QP=\dfrac{AC}{2}$. Do đó $MN\parallel QP$ và $MN=QP$, nên $M$, $N$, $P$, $Q$ đồng phẳng và $MNPQ$ là hình bình hành.
+Để chứng minh $MNPQ$ là hình bình hành, ta chứng minh hai cạnh đối $MN$, $QP$ song song và bằng nhau.
+
+Trong tam giác $ABC$, $M$ và $N$ lần lượt là trung điểm của $AB$ và $BC$ nên $MN$ là đường trung bình. Suy ra
+$$MN\parallel AC\quad\text{và}\quad MN=\frac{AC}{2}.$$
+
+Trong tam giác $ADC$, $Q$ và $P$ lần lượt là trung điểm của $AD$ và $CD$ nên $QP$ là đường trung bình. Suy ra
+$$QP\parallel AC\quad\text{và}\quad QP=\frac{AC}{2}.$$
+
+Vì $MN\parallel AC$ và $QP\parallel AC$ nên $MN\parallel QP$. Hai đường thẳng song song thì đồng phẳng, nên $M$, $N$, $P$, $Q$ cùng nằm trong một mặt phẳng. Ngoài ra $MN=QP=\dfrac{AC}{2}$.
+
+Tứ giác $MNPQ$ phẳng có hai cạnh đối $MN$ và $QP$ song song và bằng nhau.
+
+Vậy $MNPQ$ là hình bình hành.
 
 **Đáp số.** $MNPQ$ là hình bình hành.
 :::
@@ -238,7 +258,15 @@ Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Tìm giao tuy�
 2. $S$ là điểm chung; giao tuyến qua $S$.
 
 ::solution
-Vì $ABCD$ là hình bình hành nên $AD\parallel BC$. Mặt phẳng $(SAD)$ chứa $AD$ và $(SBC)$ chứa $BC$, hai mặt phẳng có điểm chung $S$. Theo tính chất 4, giao tuyến là đường thẳng đi qua $S$ và song song với $AD$ (và $BC$).
+Ta dùng tính chất 4: nếu hai mặt phẳng phân biệt lần lượt chứa hai đường thẳng song song và có một điểm chung thì giao tuyến của chúng là đường thẳng đi qua điểm chung đó và song song với hai đường thẳng đã cho.
+
+Vì $ABCD$ là hình bình hành nên $AD\parallel BC$.
+
+Mặt phẳng $(SAD)$ chứa $AD$ và mặt phẳng $(SBC)$ chứa $BC$. Hai mặt phẳng này phân biệt và có điểm chung $S$.
+
+Theo tính chất 4, giao tuyến của $(SAD)$ và $(SBC)$ là đường thẳng $d$ đi qua $S$ và song song với $AD$ (và song song với $BC$).
+
+Vậy giao tuyến của $(SAD)$ và $(SBC)$ là đường thẳng đi qua $S$ và song song với $AD$ và $BC$.
 
 **Đáp số.** Đường thẳng qua $S$ song song với $AD$ và $BC$.
 :::
@@ -254,7 +282,11 @@ Cho hình chóp $S.ABCD$ có đáy là hình thang $ABCD$ với $AD\parallel BC$
 2. Với $(SAD)\cap(SBC)$: dùng $AD\parallel BC$.
 
 ::solution
-$(SAB)\cap(SCD)$: $S$ là điểm chung; $E=AB\cap CD$ thuộc $AB\subset(SAB)$ và $CD\subset(SCD)$ nên $E$ cũng là điểm chung. Giao tuyến là $SE$. $(SAD)\cap(SBC)$: $(SAD)\supset AD$, $(SBC)\supset BC$ và $AD\parallel BC$, nên giao tuyến là đường thẳng đi qua $S$ song song với $AD$.
+Giao tuyến của $(SAB)$ và $(SCD)$. Điểm $S$ là điểm chung thứ nhất. Vì $E=AB\cap CD$ nên $E\in AB\subset(SAB)$ và $E\in CD\subset(SCD)$, do đó $E$ là điểm chung thứ hai. Hai mặt phẳng phân biệt có hai điểm chung phân biệt $S$, $E$ ($E$ nằm trong mặt đáy nên $E\neq S$) nên giao tuyến là đường thẳng $SE$.
+
+Giao tuyến của $(SAD)$ và $(SBC)$. Mặt phẳng $(SAD)$ chứa $AD$, mặt phẳng $(SBC)$ chứa $BC$, mà $AD\parallel BC$, và hai mặt phẳng có điểm chung $S$. Theo tính chất 4 (giao tuyến của hai mặt phẳng chứa hai đường thẳng song song là đường thẳng song song với hai đường thẳng đó), giao tuyến là đường thẳng đi qua $S$ và song song với $AD$ (và $BC$).
+
+Vậy $(SAB)\cap(SCD)=SE$; còn $(SAD)\cap(SBC)$ là đường thẳng đi qua $S$ và song song với $AD$.
 
 **Đáp số.** $(SAB)\cap(SCD)=SE$; $(SAD)\cap(SBC)$ là đường thẳng qua $S$ song song với $AD$.
 :::
@@ -270,7 +302,13 @@ Một cầu vượt bắc ngang phía trên một con đường: tuyến đườ
 2. Nghĩ xem khi nào chúng đồng phẳng.
 
 ::solution
-Hai tuyến không có điểm chung và không song song nên chéo nhau, do đó không nằm trong cùng một mặt phẳng. Hai tuyến sẽ song song khi cầu vượt chạy cùng hướng với tuyến phía dưới, tức hai đường thẳng đồng phẳng và không giao nhau.
+Gọi $a$ là đường thẳng biểu diễn tuyến đường trên cầu vượt và $b$ là đường thẳng biểu diễn tuyến đường phía dưới.
+
+Theo đề, $a$ và $b$ không có điểm chung (không giao nhau) và không song song. Hai đường thẳng trong không gian không có điểm chung và không song song thì chéo nhau. Hai đường thẳng chéo nhau thì không cùng nằm trong một mặt phẳng, vì nếu cùng nằm trong một mặt phẳng thì chúng hoặc cắt nhau hoặc song song.
+
+Hai đường thẳng song song là hai đường thẳng đồng phẳng và không có điểm chung. Do đó, để hai tuyến song song thì cầu vượt phải chạy cùng hướng với tuyến đường phía dưới (và hai tuyến không trùng nhau).
+
+Vậy hai tuyến đó chéo nhau nên không cùng nằm trong một mặt phẳng; chúng song song khi cầu vượt chạy cùng hướng với đường phía dưới.
 
 **Đáp số.** Chéo nhau, không cùng mặt phẳng; chúng song song khi cầu vượt chạy cùng hướng với đường dưới.
 :::
@@ -295,13 +333,15 @@ d) $BD$ và $A'C'$ cắt nhau.
 3. d) $BD\parallel B'D'$.
 
 ::solution
-a) **Đúng**: $AB\parallel CD$ và $CD\parallel C'D'$, nên $AB\parallel C'D'$.
+a) **Đúng.** Trong hình vuông $ABCD$ ta có $AB\parallel CD$. Trong hình vuông $CDD'C'$ ta có $CD\parallel C'D'$. Hai đường thẳng cùng song song với một đường thẳng thứ ba thì song song với nhau, nên $AB\parallel C'D'$.
 
-b) **Đúng**: $AB$ và $CC'$ không có điểm chung và không đồng phẳng.
+b) **Đúng.** Đường thẳng $AB$ nằm trong mặt đáy $(ABCD)$ còn $CC'$ cắt mặt đáy tại $C$, mà $C\notin AB$. Do đó $AB$ và $CC'$ không có điểm chung. Chúng cũng không song song (vì $CC'\parallel AA'$, còn $AA'$ cắt $AB$ tại $A$). Vậy $AB$ và $CC'$ chéo nhau, tức là không đồng phẳng.
 
-c) **Sai**: $AA'\parallel BB'$ và $CC'\parallel BB'$, nên $AA'\parallel CC'$.
+c) **Sai.** Ta có $AA'\parallel BB'$ và $CC'\parallel BB'$. Hai đường thẳng cùng song song với một đường thẳng thứ ba thì song song với nhau, nên $AA'\parallel CC'$. Vậy $AA'$ và $CC'$ song song, không chéo nhau.
 
-d) **Sai**: $BD$ nằm trong mặt đáy, $A'C'$ nằm trong mặt trên, chúng không có điểm chung và không song song, nên chéo nhau.
+d) **Sai.** $BD$ nằm trong mặt đáy, $A'C'$ nằm trong mặt trên, hai mặt này song song nên $BD$ và $A'C'$ không có điểm chung. Hai đường thẳng này cũng không song song, vì $BD\parallel B'D'$ mà $B'D'$ cắt $A'C'$ tại tâm của mặt trên. Vậy $BD$ và $A'C'$ chéo nhau, không cắt nhau.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -317,7 +357,12 @@ Hình hộp chữ nhật có bao nhiêu cặp cạnh chéo nhau?
 2. Chia $2$.
 
 ::solution
-Hình hộp chữ nhật có $12$ cạnh, mỗi cạnh chéo nhau với $4$ cạnh. Tổng $12\cdot4=48$ lần đếm, mỗi cặp được đếm hai lần nên có $\dfrac{48}{2}=24$ cặp.
+Hình hộp chữ nhật có $12$ cạnh. Xét một cạnh bất kì, chẳng hạn $AA'$. Theo cách đếm ở một hình hộp tương tự (như hình lập phương $ABCD.A'B'C'D'$): có $3$ cạnh song song với $AA'$, $4$ cạnh cắt $AA'$ và $11-3-4=4$ cạnh chéo nhau với $AA'$ (đó là $BC$, $CD$, $B'C'$, $C'D'$). Vị trí tương đối này chỉ phụ thuộc vào cấu trúc các cạnh nên đúng với mọi cạnh của hình hộp chữ nhật: mỗi cạnh chéo nhau với đúng $4$ cạnh khác.
+
+Đếm theo từng cạnh được $12\cdot4=48$ lần. Mỗi cặp cạnh chéo nhau $\{e, f\}$ được đếm hai lần (một lần từ $e$, một lần từ $f$). Do đó số cặp cạnh chéo nhau là
+$$\frac{12\cdot4}{2}=\frac{48}{2}=24.$$
+
+Vậy hình hộp chữ nhật có $24$ cặp cạnh chéo nhau.
 
 **Đáp số.** $24$ cặp.
 :::
@@ -333,7 +378,13 @@ Chứng minh rằng hai đường thẳng song song phân biệt $a$, $b$ xác �
 2. Lấy $A\in b$ rồi dùng $(A, a)$.
 
 ::solution
-Vì $a\parallel b$ nên $a$ và $b$ cùng nằm trong một mặt phẳng. Lấy điểm $A\in b$; $A\notin a$ vì $a$, $b$ không có điểm chung. Mọi mặt phẳng chứa $a$ và $b$ đều chứa $a$ và $A$, mà mặt phẳng $(A, a)$ là duy nhất, nên mặt phẳng chứa cả $a$ và $b$ là duy nhất.
+Cho hai đường thẳng song song phân biệt $a$, $b$. Ta cần chứng minh có đúng một mặt phẳng chứa cả $a$ và $b$, tức là chứng minh sự tồn tại và tính duy nhất.
+
+Sự tồn tại. Theo định nghĩa, hai đường thẳng song song là hai đường thẳng cùng nằm trong một mặt phẳng và không có điểm chung. Vì $a\parallel b$ nên tồn tại một mặt phẳng chứa cả $a$ và $b$.
+
+Tính duy nhất. Lấy một điểm $A\in b$. Vì $a$ và $b$ không có điểm chung nên $A\notin a$. Mọi mặt phẳng chứa $a$ và $b$ đều chứa đường thẳng $a$ và điểm $A$. Theo tính chất thừa nhận, qua một đường thẳng và một điểm không thuộc đường thẳng đó có một và chỉ một mặt phẳng, kí hiệu $(A, a)$. Do đó mọi mặt phẳng chứa $a$ và $b$ đều trùng với $(A, a)$, tức là mặt phẳng đó duy nhất.
+
+Vậy hai đường thẳng song song phân biệt $a$, $b$ xác định đúng một mặt phẳng.
 
 **Đáp số.** Có đúng một mặt phẳng chứa $a$ và $b$.
 :::

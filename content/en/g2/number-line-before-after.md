@@ -170,11 +170,17 @@ b) From mark 15, jump 7 marks to the left and you land on mark $\square$.
 2. Part b: do you add or subtract?
 
 ::solution
-a) $4+6=10$.
+On a number line, jumping to the right means adding and jumping to the left means subtracting.
 
-b) $15-7=8$.
+a) From mark $4$, jumping $6$ marks to the right means adding $6$:
+$$4+6=10.$$
 
-**Answer.** a) 10; b) 8.
+b) From mark $15$, jumping $7$ marks to the left means subtracting $7$:
+$$15-7=8.$$
+
+So in part a) you land on mark $10$; in part b) you land on mark $8$.
+
+**Answer.** a) $10$; b) $8$.
 :::
 
 :::exercise
@@ -188,9 +194,17 @@ Find the number before and the number after 79.
 2. Work out $79+1$, and notice that the tens digit changes.
 
 ::solution
-$$79-1=78,\qquad 79+1=80.$$
+The number before a given number is $1$ less than it; the number after a given number is $1$ more than it.
 
-**Answer.** The number before is 78 and the number after is 80.
+The number before $79$ is:
+$$79-1=78.$$
+
+The number after $79$ is:
+$$79+1=80.$$
+
+So the number before $79$ is $78$ and the number after $79$ is $80$.
+
+**Answer.** The number before is $78$ and the number after is $80$.
 :::
 
 :::exercise
@@ -210,13 +224,20 @@ c) The number before 10 is $\square$.
 2. Part c: when you pass a multiple of ten, the tens digit changes.
 
 ::solution
-a) $99+1=100$.
+For the number after we add $1$; for the number before we subtract $1$.
 
-b) $100-1=99$.
+a) The number after $99$ is:
+$$99+1=100.$$
 
-c) $10-1=9$.
+b) The number before $100$ is:
+$$100-1=99.$$
 
-**Answer.** a) 100; b) 99; c) 9.
+c) The number before $10$ is:
+$$10-1=9.$$
+
+So the numbers to fill in are $100$, $99$ and $9$.
+
+**Answer.** a) $100$; b) $99$; c) $9$.
 :::
 
 :::exercise
@@ -230,8 +251,13 @@ Name each number in the calculations $27+52=79$ and $64-21=43$.
 2. In the subtraction, which number comes first?
 
 ::solution
+In an addition, the numbers that are added are called addends and the result is called the sum. In a subtraction, the number we take away from is called the minuend, the number we take away is called the subtrahend, and the result is called the difference.
+
 In the addition $27+52=79$: $27$ and $52$ are the addends and $79$ is the sum.
+
 In the subtraction $64-21=43$: $64$ is the minuend, $21$ is the subtrahend and $43$ is the difference.
+
+So the names are: $27$ and $52$ are the addends, $79$ is the sum; $64$ is the minuend, $21$ is the subtrahend and $43$ is the difference.
 
 **Answer.** See the solution.
 :::
@@ -251,11 +277,17 @@ b) The difference between 79 and 34.
 2. Part b: subtract the smaller number from the larger.
 
 ::solution
-a) $43+25=68$.
+a) The sum of $43$ and $25$ is the result of $43+25$. Add the ones: $3+5=8$, write $8$. Add the tens: $4+2=6$, write $6$. So
+$$43+25=68.$$
 
-b) $79-34=45$.
+b) The difference between $79$ and $34$ is the result of $79-34$. Subtract the ones: $9-4=5$, write $5$. Subtract the tens: $7-3=4$, write $4$. So
+$$79-34=45.$$
 
-**Answer.** a) 68; b) 45.
+Check: $45+34=79$, which is correct.
+
+So the sum of $43$ and $25$ is $68$, and the difference between $79$ and $34$ is $45$.
+
+**Answer.** a) $68$; b) $45$.
 :::
 
 :::exercise
@@ -272,10 +304,17 @@ Suppose the children of class 2A line up by number. Mai is number 40. Which numb
 ::solution
 Solution
 
-The child just in front of Mai is number $40-1=39$.
-The child just behind Mai is number $40+1=41$.
+The children line up by number, so the child just in front of Mai has a number $1$ less than hers, and the child just behind her has a number $1$ more.
 
-Answer: number 39 and number 41.
+The child just in front of Mai is number:
+$$40-1=39$$
+
+The child just behind Mai is number:
+$$40+1=41$$
+
+So the child just in front of Mai is number $39$ and the child just behind her is number $41$.
+
+**Answer.** Number $39$ and number $41$.
 :::
 
 :::exercise
@@ -292,11 +331,17 @@ Remember the lesson on length. A red ribbon is 36 cm long and a blue ribbon is 2
 ::solution
 Solution
 
-The total length of the two ribbons is:
-$$36+21=57\ \text{(cm)}.$$
-The difference in length of the two ribbons is:
-$$36-21=15\ \text{(cm)}.$$
-Answer: the total is 57 cm and the difference is 15 cm.
+To find the total length of the two ribbons, we add their lengths. The total length of the two ribbons is:
+$$36+21=57\ \text{(cm)}$$
+
+To find the difference in length, we subtract the smaller number from the larger one. The difference in length of the two ribbons is:
+$$36-21=15\ \text{(cm)}$$
+
+Check: $21+15=36$, which is correct.
+
+So the total length of the two ribbons is $57\ \text{cm}$ and the difference in length is $15\ \text{cm}$.
+
+**Answer.** The total is $57\ \text{cm}$ and the difference is $15\ \text{cm}$.
 :::
 
 :::exercise Challenge

@@ -305,9 +305,13 @@ Write the given facts and the aim for the theorem: "If a line crosses two parall
 2. Name two corresponding angles for the conclusion.
 
 ::solution
-Given: $a\parallel b$; $c$ crosses $a$ at $A$ and $b$ at $B$.
+In a theorem of the form "if ... then ...", the part after "if" is the given fact (Given) and the part after "then" is the aim (To prove).
+
+Given: $a\parallel b$; the line $c$ crosses $a$ at $A$ and $b$ at $B$.
 
 To prove: corresponding angles are equal, for example $\angle A_1=\angle B_5$.
+
+So Given: $a\parallel b$, $c$ crosses $a$, $b$ at $A$, $B$; To prove: $\angle A_1=\angle B_5$ (and the other corresponding pairs).
 
 **Answer.** Given: $a\parallel b$, $c$ crosses $a$, $b$ at $A$, $B$. To prove: $\angle A_1=\angle B_5$ (and the other corresponding pairs).
 :::
@@ -325,9 +329,13 @@ Write the theorem "Adjacent supplementary angles add up to $180^\circ$" in the f
 ::solution
 In the form "if ... then ...": If two angles are adjacent supplementary then their sum is $180^\circ$.
 
+The part after "if" is the given fact and the part after "then" is the aim. Call the two adjacent supplementary angles $\angle xOy$ and $\angle yOz$.
+
 Given: $\angle xOy$ and $\angle yOz$ are adjacent supplementary.
 
 To prove: $\angle xOy+\angle yOz=180^\circ$.
+
+So Given: $\angle xOy$ and $\angle yOz$ are adjacent supplementary; To prove: $\angle xOy+\angle yOz=180^\circ$.
 
 **Answer.** Given: $\angle xOy$ and $\angle yOz$ adjacent supplementary. To prove: $\angle xOy+\angle yOz=180^\circ$.
 :::
@@ -367,13 +375,19 @@ The lines $AB$ and $CD$ meet at $O$. Prove that $\angle AOD=\angle BOC$.
 2. Write two adjacent-supplementary equations sharing the term $\angle AOC$.
 
 ::solution
-Given: $AB$ meets $CD$ at $O$. To prove: $\angle AOD=\angle BOC$.
+Given: the lines $AB$ and $CD$ meet at $O$.
 
-Since $OC$, $OD$ are opposite rays, $\angle AOD$ and $\angle AOC$ are adjacent supplementary, so $\angle AOD+\angle AOC=180^\circ$ (adjacent supplementary).
+To prove: $\angle AOD=\angle BOC$.
 
-Since $OA$, $OB$ are opposite rays, $\angle BOC$ and $\angle AOC$ are adjacent supplementary, so $\angle BOC+\angle AOC=180^\circ$ (adjacent supplementary).
+Proof. Since $OC$, $OD$ are opposite rays, $\angle AOD$ and $\angle AOC$ are adjacent supplementary, so
+$$\angle AOD+\angle AOC=180^\circ\ \text{(adjacent supplementary)}.$$
 
-Hence $\angle AOD+\angle AOC=\angle BOC+\angle AOC$, so $\angle AOD=\angle BOC$.
+Since $OA$, $OB$ are opposite rays, $\angle BOC$ and $\angle AOC$ are adjacent supplementary, so
+$$\angle BOC+\angle AOC=180^\circ\ \text{(adjacent supplementary)}.$$
+
+Hence $\angle AOD+\angle AOC=\angle BOC+\angle AOC$. Subtracting $\angle AOC$ from both sides, we get $\angle AOD=\angle BOC$.
+
+So $\angle AOD=\angle BOC$ (as required).
 
 **Answer.** Proved.
 :::
@@ -389,13 +403,17 @@ Prove: two angles that are supplementary to the same third angle are equal.
 2. Write two equations with sum $180^\circ$ and compare them.
 
 ::solution
-Given: $\widehat{A}$ is supplementary to $\widehat{C}$; $\widehat{B}$ is supplementary to $\widehat{C}$. To prove: $\widehat{A}=\widehat{B}$.
+Given: $\widehat{A}$ is supplementary to $\widehat{C}$; $\widehat{B}$ is supplementary to $\widehat{C}$.
 
-Since $\widehat{A}$ is supplementary to $\widehat{C}$, $\widehat{A}=180^\circ-\widehat{C}$ (given).
+To prove: $\widehat{A}=\widehat{B}$.
 
-Since $\widehat{B}$ is supplementary to $\widehat{C}$, $\widehat{B}=180^\circ-\widehat{C}$ (given).
+Proof. Since $\widehat{A}$ is supplementary to $\widehat{C}$, we have $\widehat{A}+\widehat{C}=180^\circ$, that is $\widehat{A}=180^\circ-\widehat{C}$ (given).
 
-The right-hand sides are equal, so $\widehat{A}=\widehat{B}$.
+Since $\widehat{B}$ is supplementary to $\widehat{C}$, we have $\widehat{B}+\widehat{C}=180^\circ$, that is $\widehat{B}=180^\circ-\widehat{C}$ (given).
+
+The right-hand sides are both equal to $180^\circ-\widehat{C}$, so $\widehat{A}=\widehat{B}$.
+
+So two angles that are supplementary to the same third angle are equal.
 
 **Answer.** Proved.
 :::
@@ -469,11 +487,16 @@ Lines $a$, $b$ are crossed by a line $c$ at $A$, $B$. Prove: if one pair of corr
 2. Which angle is vertically opposite $\angle A_1$? Then compare with $\angle B_5$.
 
 ::solution
-Given: $\angle A_1=\angle B_5$. To prove: $\angle A_3=\angle B_5$.
+Given: the lines $a$, $b$ are crossed by the line $c$ at $A$, $B$; $\angle A_1=\angle B_5$ (one pair of corresponding angles is equal).
 
-Since $\angle A_1$ and $\angle A_3$ are vertically opposite, $\angle A_3=\angle A_1$ (vertically opposite).
+To prove: $\angle A_3=\angle B_5$ (the alternate angles are equal).
 
-Since $\angle A_1=\angle B_5$ (given), $\angle A_3=\angle B_5$.
+Proof. Since $\angle A_1$ and $\angle A_3$ are vertically opposite angles,
+$$\angle A_3=\angle A_1\ \text{(vertically opposite)}.$$
+
+Since $\angle A_1=\angle B_5$ (given), we get $\angle A_3=\angle B_5$.
+
+So $\angle A_3=\angle B_5$; that is, if one pair of corresponding angles is equal then the alternate angles are also equal.
 
 **Answer.** Proved.
 :::
@@ -489,13 +512,19 @@ $a\parallel b$ and the line $c$ crosses $a$ at $A$ and $b$ at $B$. Let $\angle A
 2. What position do these two angles have for the lines $Am$, $Bn$ and the transversal $c$?
 
 ::solution
-Given: $a\parallel b$; $Am$ bisects $\angle A_1$; $Bn$ bisects $\angle B_5$. To prove: $Am\parallel Bn$.
+Given: $a\parallel b$; $c$ crosses $a$ at $A$ and $b$ at $B$; $Am$ bisects $\angle A_1$; $Bn$ bisects $\angle B_5$.
 
-Since $a\parallel b$, $\angle A_1=\angle B_5$ (corresponding).
+To prove: $Am\parallel Bn$.
 
-Since $Am$ bisects $\angle A_1$, the angle between $Am$ and the ray of $c$ inside $\angle A_1$ equals $\dfrac12\angle A_1$. Since $Bn$ bisects $\angle B_5$, the angle between $Bn$ and the ray of $c$ inside $\angle B_5$ equals $\dfrac12\angle B_5$. As $\angle A_1=\angle B_5$, these two angles are equal.
+Proof. Since $a\parallel b$, we have $\angle A_1=\angle B_5$ (corresponding angles).
 
-These two angles are corresponding angles for the lines $Am$, $Bn$ and the transversal $c$. By the test for parallel lines, $Am\parallel Bn$.
+Since $Am$ bisects $\angle A_1$, the angle between $Am$ and the ray of $c$ inside $\angle A_1$ equals $\dfrac12\angle A_1$. Since $Bn$ bisects $\angle B_5$, the angle between $Bn$ and the ray of $c$ inside $\angle B_5$ equals $\dfrac12\angle B_5$.
+
+As $\angle A_1=\angle B_5$, we have $\dfrac12\angle A_1=\dfrac12\angle B_5$, so these two angles are equal.
+
+These two angles are corresponding angles for the lines $Am$, $Bn$ and the transversal $c$. By the test for parallel lines (equal corresponding angles), $Am\parallel Bn$.
+
+So $Am\parallel Bn$ (as required).
 
 **Answer.** Proved.
 :::

@@ -264,7 +264,13 @@ Liệt kê các phần tử của mỗi tập hợp.
 2. Với (c), đặt nhân tử chung.
 
 ::solution
-(a) $\{1; 2; 3; 4\}$. (b) Số nguyên lớn hơn $-3$ và không vượt quá $1$: $\{-2; -1; 0; 1\}$. (c) $x^2-4x=x(x-4)=0$ cho $x=0$ hoặc $x=4$.
+(a) Tập $\{x\in\mathbb{N}^*\mid x\le4\}$ gồm các số nguyên dương không vượt quá $4$, đó là $1$, $2$, $3$, $4$. Vậy tập này là $\{1; 2; 3; 4\}$.
+
+(b) Tập $\{x\in\mathbb{Z}\mid -3<x\le1\}$ gồm các số nguyên lớn hơn $-3$ và không vượt quá $1$, đó là $-2$, $-1$, $0$, $1$. Vậy tập này là $\{-2; -1; 0; 1\}$.
+
+(c) Ta có $x^2-4x=x(x-4)=0$, suy ra $x=0$ hoặc $x=4$. Cả hai giá trị đều là số thực nên thuộc tập đã cho. Vậy tập này là $\{0; 4\}$.
+
+Vậy các tập hợp lần lượt là $\{1; 2; 3; 4\}$, $\{-2; -1; 0; 1\}$ và $\{0; 4\}$.
 
 **Đáp số.** (a) $\{1; 2; 3; 4\}$; (b) $\{-2; -1; 0; 1\}$; (c) $\{0; 4\}$.
 :::
@@ -282,7 +288,11 @@ Viết mỗi tập sau bằng cách nêu tính chất đặc trưng.
 2. Ghi thêm giới hạn trên để tập không kéo dài mãi.
 
 ::solution
-(a) Đây là các bội dương của $4$ không vượt quá $20$. (b) Đây là bình phương của $1, 2, 3, 4, 5$.
+(a) Các phần tử $4$, $8$, $12$, $16$, $20$ lần lượt bằng $4\cdot1$, $4\cdot2$, $4\cdot3$, $4\cdot4$, $4\cdot5$, đều là bội dương của $4$ và không vượt quá $20$. Ngược lại, mọi bội dương của $4$ không vượt quá $20$ đều nằm trong danh sách này (bội tiếp theo là $24>20$). Do đó tính chất đặc trưng là: $x$ là số nguyên dương chia hết cho $4$ và $x\le20$.
+
+(b) Ta có $1=1^2$, $4=2^2$, $9=3^2$, $16=4^2$, $25=5^2$. Các phần tử là bình phương của các số nguyên dương từ $1$ đến $5$. Do đó tính chất đặc trưng là: phần tử có dạng $n^2$ với $n$ là số nguyên dương và $n\le5$.
+
+Vậy hai tập hợp lần lượt là $\{x\in\mathbb{N}^*\mid x \text{ chia hết cho } 4,\ x\le20\}$ và $\{n^2\mid n\in\mathbb{N}^*,\ n\le5\}$.
 
 **Đáp số.** (a) $\{x\in\mathbb{N}^*\mid x \text{ chia hết cho } 4,\ x\le 20\}$; (b) $\{n^2\mid n\in\mathbb{N}^*,\ n\le 5\}$.
 :::
@@ -298,7 +308,16 @@ Cho $A=\{2; 3; 5; 7\}$. Tập $A$ có bao nhiêu tập con? Có bao nhiêu tập
 2. Nếu bắt buộc lấy $2$, chỉ còn ba phần tử được tự do chọn.
 
 ::solution
-Mỗi phần tử trong bốn phần tử có $2$ lựa chọn, nên số tập con là $2\cdot2\cdot2\cdot2=16$ (kể cả $\varnothing$ và $A$). Nếu bắt buộc lấy $2$, ba phần tử $3, 5, 7$ còn lại cho $2\cdot2\cdot2=8$ cách.
+Tập $A=\{2; 3; 5; 7\}$ có $4$ phần tử. Khi lập một tập con của $A$, với mỗi phần tử ta có $2$ lựa chọn: lấy phần tử đó hoặc không lấy. Do đó số tập con của $A$ là
+$$2\cdot2\cdot2\cdot2=2^4=16$$
+(kể cả tập rỗng $\varnothing$ và chính tập $A$).
+
+Với các tập con chứa phần tử $2$, phần tử $2$ bắt buộc được lấy; ba phần tử còn lại $3$, $5$, $7$ mỗi phần tử có $2$ lựa chọn. Do đó số tập con chứa $2$ là
+$$2\cdot2\cdot2=2^3=8.$$
+
+Kiểm tra: số tập con không chứa $2$ cũng là $2^3=8$, và $8+8=16$.
+
+Vậy tập $A$ có $16$ tập con, trong đó có $8$ tập con chứa phần tử $2$.
 
 **Đáp số.** $16$ tập con; $8$ tập con chứa $2$.
 :::
@@ -314,7 +333,17 @@ Cho $A=[-4; 1]$ và $B=(-1; 3)$. Tìm $A\cap B$, $A\cup B$, $A\setminus B$ và $
 2. Tại mỗi đầu mút $-4$, $-1$, $1$, $3$, hỏi điểm đó thuộc tập nào.
 
 ::solution
-Phần chung là $-1<x\le 1$; gộp lại là $-4\le x<3$. Bỏ khỏi $A$ phần $x>-1$: còn $[-4; -1]$ vì $-1\notin B$. Bỏ khỏi $B$ phần $x\le 1$: còn $(1; 3)$ vì $1\in A$.
+Ta có $A=[-4; 1]$ gồm các số $x$ với $-4\le x\le1$, và $B=(-1; 3)$ gồm các số $x$ với $-1<x<3$.
+
+Giao $A\cap B$ gồm các số thoả mãn đồng thời $-4\le x\le1$ và $-1<x<3$, tức là $-1<x\le1$. Vậy $A\cap B=(-1; 1]$.
+
+Hợp $A\cup B$ gồm các số thuộc $A$ hoặc thuộc $B$. Hai tập có phần chung nên hợp của chúng phủ liên tục từ $-4$ đến $3$; điểm $-4\in A$ được lấy, điểm $3\notin B$ không được lấy. Vậy $A\cup B=[-4; 3)$.
+
+Hiệu $A\setminus B$ gồm các số thuộc $A$ nhưng không thuộc $B$. Số $x\notin B$ khi $x\le-1$ hoặc $x\ge3$; kết hợp với $-4\le x\le1$ ta được $-4\le x\le-1$. Điểm $-1\in A$ và $-1\notin B$ nên được lấy. Vậy $A\setminus B=[-4; -1]$.
+
+Hiệu $B\setminus A$ gồm các số thuộc $B$ nhưng không thuộc $A$. Số $x\notin A$ khi $x<-4$ hoặc $x>1$; kết hợp với $-1<x<3$ ta được $1<x<3$. Điểm $1\in A$ nên không được lấy. Vậy $B\setminus A=(1; 3)$.
+
+Vậy $A\cap B=(-1; 1]$, $A\cup B=[-4; 3)$, $A\setminus B=[-4; -1]$ và $B\setminus A=(1; 3)$.
 
 **Đáp số.** $A\cap B=(-1; 1]$, $A\cup B=[-4; 3)$, $A\setminus B=[-4; -1]$, $B\setminus A=(1; 3)$.
 :::
@@ -330,7 +359,13 @@ Tìm phần bù trong $\mathbb{R}$ của tập $A=(-\infty; -2]\cup(3; +\infty)$
 2. Xét riêng hai điểm $-2$ và $3$.
 
 ::solution
-Phần còn trống nằm giữa $-2$ và $3$. Điểm $-2\in A$ nên không lấy; điểm $3\notin A$ nên được lấy.
+Phần bù của $A$ trong $\mathbb{R}$ là $C_{\mathbb{R}}A=\mathbb{R}\setminus A$, gồm các số thực không thuộc $A$.
+
+Ta có $A=(-\infty; -2]\cup(3; +\infty)$, tức là $x\in A$ khi $x\le-2$ hoặc $x>3$. Do đó $x\notin A$ khi đồng thời $x>-2$ và $x\le3$, tức là $-2<x\le3$.
+
+Kiểm tra các điểm đầu mút: điểm $-2\in A$ nên không lấy; điểm $3\notin A$ nên được lấy.
+
+Vậy $C_{\mathbb{R}}A=(-2; 3]$.
 
 **Đáp số.** $C_{\mathbb{R}}A=(-2; 3]$.
 :::
@@ -352,15 +387,17 @@ d) $A$ chứa đúng $4$ số nguyên.
 3. Với b), hỏi số $-1{,}5$ có thuộc $A\cup B$ không.
 
 ::solution
-$B=\{-2; -1; 0; 1; 2\}$.
+Ta có $B=\{x\in\mathbb{Z}\mid -2\le x\le2\}=\{-2; -1; 0; 1; 2\}$ và $A=[-1; 4)$ gồm các số thực $x$ với $-1\le x<4$.
 
-a) **Đúng.** Trong $B$, chỉ $-2$ không thuộc $A$.
+a) **Đúng.** Trong các phần tử của $B$, các số $-1$, $0$, $1$, $2$ đều thoả $-1\le x<4$ nên thuộc $A$; còn $-2<-1$ nên $-2\notin A$. Do đó $A\cap B=\{-1; 0; 1; 2\}$.
 
-b) **Sai.** $-1{,}5\in[-2; 4)$ nhưng $-1{,}5\notin A$ và $-1{,}5\notin B$. Thực ra $A\cup B=\{-2\}\cup[-1; 4)$.
+b) **Sai.** Số $-1{,}5$ thuộc $[-2; 4)$ nhưng $-1{,}5\notin A$ (vì $-1{,}5<-1$) và $-1{,}5\notin B$ (vì không phải số nguyên), nên $-1{,}5\notin A\cup B$. Thực ra $A\cup B=\{-2\}\cup[-1; 4)$, khác $[-2; 4)$.
 
-c) **Đúng.** $-2$ là phần tử duy nhất của $B$ không thuộc $A$.
+c) **Đúng.** Theo a), trong $B$ chỉ có phần tử $-2$ không thuộc $A$. Do đó $B\setminus A=\{-2\}$.
 
-d) **Sai.** $A$ chứa $5$ số nguyên: $-1, 0, 1, 2, 3$ ($4\notin A$).
+d) **Sai.** Các số nguyên thuộc $A$ là $-1$, $0$, $1$, $2$, $3$ (số $4\notin A$). Vậy $A$ chứa $5$ số nguyên, không phải $4$ số.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -376,7 +413,19 @@ Khảo sát $50$ học sinh: $32$ bạn thích bóng đá, $25$ bạn thích bơ
 2. Thay vào công thức và tìm $n(A\cap B)$.
 
 ::solution
-Số bạn thích ít nhất một môn: $50-9=41$. Khi đó $41=32+25-n(A\cap B)$, nên $n(A\cap B)=57-41=16$.
+Gọi $A$ là tập các bạn thích bóng đá và $B$ là tập các bạn thích bơi. Ta có $n(A)=32$ và $n(B)=25$.
+
+Có $9$ bạn không thích môn nào trong hai môn, nên số bạn thích ít nhất một môn là
+$$n(A\cup B)=50-9=41.$$
+
+Áp dụng công thức $n(A\cup B)=n(A)+n(B)-n(A\cap B)$, ta có
+$$41=32+25-n(A\cap B).$$
+
+Suy ra $n(A\cap B)=57-41=16$.
+
+Kiểm tra: có $32-16=16$ bạn chỉ thích bóng đá, $25-16=9$ bạn chỉ thích bơi, và $16+9+16=41$ bạn thích ít nhất một môn.
+
+Vậy có $16$ bạn thích cả hai môn.
 
 **Đáp số.** $16$.
 :::
@@ -393,7 +442,16 @@ Một công ty du lịch hỏi $120$ khách: $70$ người đã đến Hạ Long
 3. Lấy tổng số khách trừ số người đã đến ít nhất một nơi.
 
 ::solution
-Ít nhất một nơi: $70+55-30=95$. Đúng một nơi: $95-30=65$ (gồm $40$ người chỉ đến Hạ Long và $25$ người chỉ đến Sa Pa). Chưa đến nơi nào: $120-95=25$.
+Gọi $A$ là tập các khách đã đến Hạ Long và $B$ là tập các khách đã đến Sa Pa. Ta có $n(A)=70$, $n(B)=55$ và $n(A\cap B)=30$; tổng số khách được hỏi là $120$.
+
+Số khách đã đến ít nhất một trong hai nơi là
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=70+55-30=95.$$
+
+Số khách chỉ đến Hạ Long là $70-30=40$, số khách chỉ đến Sa Pa là $55-30=25$. Do đó số khách đến đúng một trong hai nơi là $40+25=65$ (cũng bằng $95-30=65$).
+
+Số khách chưa đến nơi nào là $120-95=25$.
+
+Vậy có $65$ khách đã đến đúng một trong hai nơi và có $25$ khách chưa đến nơi nào.
 
 **Đáp số.** $65$ khách đến đúng một nơi; $25$ khách chưa đến nơi nào.
 :::
@@ -412,11 +470,13 @@ Một công ty du lịch hỏi $120$ khách: $70$ người đã đến Hạ Long
 3. Với (c), tìm một phản ví dụ.
 
 ::solution
-(a) $x^2\le 4\iff -2\le x\le 2$, nên $A=[-2; 2]$.
+(a) Ta có $x^2\le4\iff-2\le x\le2$. Do đó $A=[-2; 2]$.
 
-(b) Mọi $x\in[-2; 2]$ đều thoả $-3<x<3$, nên mệnh đề đúng ($A\subset B$). Phủ định: "$\exists x\in A,\ x\notin B$".
+(b) Với mọi $x\in A$, ta có $-2\le x\le2$, và các giá trị này đều thoả $-3<x<3$, tức là $x\in B$. Do đó mệnh đề "$\forall x\in A,\ x\in B$" đúng (vì $A\subset B$). Mệnh đề phủ định của nó là "$\exists x\in A,\ x\notin B$".
 
-(c) Sai: $x=2{,}5\in B$ nhưng $2{,}5^2=6{,}25>4$ nên $2{,}5\notin A$.
+(c) Mệnh đề "$\forall x\in B,\ x\in A$" sai. Thật vậy, lấy $x=2{,}5$: vì $-3<2{,}5<3$ nên $2{,}5\in B$, nhưng $2{,}5^2=6{,}25>4$ nên $2{,}5\notin A$. Đây là một phản ví dụ.
+
+Vậy $A=[-2; 2]$; mệnh đề ở (b) đúng; mệnh đề ở (c) sai.
 
 **Đáp số.** (a) $A=[-2; 2]$; (b) đúng; (c) sai.
 :::
@@ -432,7 +492,15 @@ Có bao nhiêu tập hợp $X$ thoả mãn $\{1; 2\}\subset X\subset\{1; 2; 3; 4
 2. Mỗi phần tử tự do có hai lựa chọn: lấy hoặc không.
 
 ::solution
-$X$ luôn chứa $1$ và $2$; mỗi phần tử $3$, $4$, $5$ có thể lấy hoặc không. Số cách là $2\cdot2\cdot2=8$, từ $X=\{1; 2\}$ đến $X=\{1; 2; 3; 4; 5\}$.
+Tập $X$ thoả $\{1; 2\}\subset X\subset\{1; 2; 3; 4; 5\}$ (kí hiệu $\subset$ ở đây gồm cả trường hợp hai tập bằng nhau) khi và chỉ khi $X$ chứa hai phần tử $1$, $2$ và mọi phần tử của $X$ đều thuộc $\{1; 2; 3; 4; 5\}$.
+
+Như vậy $1$ và $2$ luôn có mặt trong $X$, còn mỗi phần tử trong ba phần tử $3$, $4$, $5$ có $2$ lựa chọn: thuộc $X$ hoặc không thuộc $X$.
+
+Do đó số tập hợp $X$ là
+$$2\cdot2\cdot2=2^3=8,$$
+từ $X=\{1; 2\}$ (không lấy phần tử nào trong $3$, $4$, $5$) đến $X=\{1; 2; 3; 4; 5\}$ (lấy cả ba phần tử).
+
+Vậy có $8$ tập hợp $X$ thoả mãn.
 
 **Đáp số.** $8$.
 :::

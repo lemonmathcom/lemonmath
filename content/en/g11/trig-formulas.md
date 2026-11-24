@@ -208,9 +208,13 @@ Find $\cos15^\circ$ and $\tan15^\circ$.
 2. Find $\tan15^\circ=\tan(45^\circ-30^\circ)$ with $\tan45^\circ=1$ and $\tan30^\circ=\dfrac{1}{\sqrt3}$.
 
 ::solution
-We have $\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\dfrac{\sqrt6+\sqrt2}{4}$.
+Since $15^\circ=45^\circ-30^\circ$, the addition formula $\cos(a-b)=\cos a\cos b+\sin a\sin b$ gives
+$$\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\frac{\sqrt2}{2}\cdot\frac{\sqrt3}{2}+\frac{\sqrt2}{2}\cdot\frac12=\frac{\sqrt6+\sqrt2}{4}.$$
 
-We have $\tan15^\circ=\dfrac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\dfrac{\sqrt3-1}{\sqrt3+1}=\dfrac{(\sqrt3-1)^2}{2}=2-\sqrt3$.
+Using the formula $\tan(a-b)=\dfrac{\tan a-\tan b}{1+\tan a\tan b}$ with $\tan45^\circ=1$ and $\tan30^\circ=\dfrac{1}{\sqrt3}$, we have
+$$\tan15^\circ=\frac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\frac{\sqrt3-1}{\sqrt3+1}=\frac{(\sqrt3-1)^2}{(\sqrt3+1)(\sqrt3-1)}=\frac{4-2\sqrt3}{2}=2-\sqrt3.$$
+
+So $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ and $\tan15^\circ=2-\sqrt3$.
 
 **Answer.** $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$; $\tan15^\circ=2-\sqrt3$.
 :::
@@ -226,8 +230,19 @@ Given $\sin a=\dfrac35$ with $\dfrac{\pi}{2}<a<\pi$ and $\cos b=\dfrac{5}{13}$ w
 2. Substitute into the addition formulas.
 
 ::solution
-Since $a$ is in the second quadrant, $\cos a=-\sqrt{1-\frac{9}{25}}=-\dfrac45$. Since $0<b<\dfrac{\pi}{2}$, $\sin b=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$. Hence
-$$\sin(a+b)=\dfrac35\cdot\dfrac{5}{13}+\left(-\dfrac45\right)\dfrac{12}{13}=-\dfrac{33}{65},\qquad \cos(a+b)=\left(-\dfrac45\right)\dfrac{5}{13}-\dfrac35\cdot\dfrac{12}{13}=-\dfrac{56}{65}.$$
+Since $\dfrac{\pi}{2}<a<\pi$, the angle $a$ lies in the second quadrant, so $\cos a<0$. From $\sin^2a+\cos^2a=1$, we have
+$$\cos a=-\sqrt{1-\sin^2a}=-\sqrt{1-\frac{9}{25}}=-\frac45.$$
+
+Since $0<b<\dfrac{\pi}{2}$, we have $\sin b>0$. From $\sin^2b+\cos^2b=1$, we have
+$$\sin b=\sqrt{1-\cos^2b}=\sqrt{1-\frac{25}{169}}=\frac{12}{13}.$$
+
+Using the addition formula $\sin(a+b)=\sin a\cos b+\cos a\sin b$, we get
+$$\sin(a+b)=\frac35\cdot\frac{5}{13}+\left(-\frac45\right)\cdot\frac{12}{13}=\frac{15}{65}-\frac{48}{65}=-\frac{33}{65}.$$
+
+Using the addition formula $\cos(a+b)=\cos a\cos b-\sin a\sin b$, we get
+$$\cos(a+b)=\left(-\frac45\right)\cdot\frac{5}{13}-\frac35\cdot\frac{12}{13}=-\frac{20}{65}-\frac{36}{65}=-\frac{56}{65}.$$
+
+So $\sin(a+b)=-\dfrac{33}{65}$ and $\cos(a+b)=-\dfrac{56}{65}$.
 
 **Answer.** $\sin(a+b)=-\dfrac{33}{65}$; $\cos(a+b)=-\dfrac{56}{65}$.
 :::
@@ -243,7 +258,16 @@ Given $\sin\alpha=\dfrac45$ with $\dfrac{\pi}{2}<\alpha<\pi$, find $\sin2\alpha$
 2. Substitute into the double-angle formulas.
 
 ::solution
-Since $\dfrac{\pi}{2}<\alpha<\pi$, $\cos\alpha=-\sqrt{1-\frac{16}{25}}=-\dfrac35$. Hence $\sin2\alpha=2\cdot\dfrac45\cdot\left(-\dfrac35\right)=-\dfrac{24}{25}$ and $\cos2\alpha=1-2\cdot\dfrac{16}{25}=-\dfrac{7}{25}$.
+Since $\dfrac{\pi}{2}<\alpha<\pi$, we have $\cos\alpha<0$. From $\sin^2\alpha+\cos^2\alpha=1$, we get
+$$\cos\alpha=-\sqrt{1-\sin^2\alpha}=-\sqrt{1-\frac{16}{25}}=-\frac35.$$
+
+Using the double-angle formula $\sin2\alpha=2\sin\alpha\cos\alpha$, we have
+$$\sin2\alpha=2\cdot\frac45\cdot\left(-\frac35\right)=-\frac{24}{25}.$$
+
+Using the double-angle formula $\cos2\alpha=1-2\sin^2\alpha$, we have
+$$\cos2\alpha=1-2\cdot\frac{16}{25}=\frac{25-32}{25}=-\frac{7}{25}.$$
+
+So $\sin2\alpha=-\dfrac{24}{25}$ and $\cos2\alpha=-\dfrac{7}{25}$.
 
 **Answer.** $\sin2\alpha=-\dfrac{24}{25}$; $\cos2\alpha=-\dfrac{7}{25}$.
 :::
@@ -259,9 +283,13 @@ Find a) $\sin15^\circ\cos75^\circ$; b) $\cos105^\circ+\cos15^\circ$.
 2. Part b: use $\cos u+\cos v=2\cos\dfrac{u+v}{2}\cos\dfrac{u-v}{2}$.
 
 ::solution
-a) $\sin15^\circ\cos75^\circ=\dfrac12\left[\sin(-60^\circ)+\sin90^\circ\right]=\dfrac12\left(1-\dfrac{\sqrt3}{2}\right)=\dfrac{2-\sqrt3}{4}$.
+a) Using the product-to-sum formula $\sin a\cos b=\dfrac12\left[\sin(a+b)+\sin(a-b)\right]$ with $a=15^\circ$, $b=75^\circ$, we have
+$$\sin15^\circ\cos75^\circ=\frac12\left[\sin90^\circ+\sin(-60^\circ)\right]=\frac12\left(1-\frac{\sqrt3}{2}\right)=\frac{2-\sqrt3}{4}.$$
 
-b) $\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\dfrac12\cdot\dfrac{\sqrt2}{2}=\dfrac{\sqrt2}{2}$.
+b) Using the sum-to-product formula $\cos a+\cos b=2\cos\dfrac{a+b}{2}\cos\dfrac{a-b}{2}$ with $a=105^\circ$, $b=15^\circ$, we have
+$$\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\frac12\cdot\frac{\sqrt2}{2}=\frac{\sqrt2}{2}.$$
+
+So $\sin15^\circ\cos75^\circ=\dfrac{2-\sqrt3}{4}$ and $\cos105^\circ+\cos15^\circ=\dfrac{\sqrt2}{2}$.
 
 **Answer.** a) $\dfrac{2-\sqrt3}{4}$; b) $\dfrac{\sqrt2}{2}$.
 :::
@@ -277,8 +305,15 @@ Simplify $A=\dfrac{\sin3x+\sin x}{\cos3x+\cos x}$ (for values of $x$ where the e
 2. Cancel the common factor.
 
 ::solution
-We have $\sin3x+\sin x=2\sin2x\cos x$ and $\cos3x+\cos x=2\cos2x\cos x$. Since the expression is defined, $\cos x\ne0$, so
-$$A=\dfrac{2\sin2x\cos x}{2\cos2x\cos x}=\dfrac{\sin2x}{\cos2x}=\tan2x.$$
+Condition: $\cos3x+\cos x\ne0$.
+
+Using the sum-to-product formulas, we have
+$$\sin3x+\sin x=2\sin2x\cos x,\qquad \cos3x+\cos x=2\cos2x\cos x.$$
+
+Hence the condition is $\cos2x\cos x\ne0$, that is $\cos x\ne0$ and $\cos2x\ne0$. For these values of $x$, we have
+$$A=\frac{2\sin2x\cos x}{2\cos2x\cos x}=\frac{\sin2x}{\cos2x}=\tan2x.$$
+
+So $A=\tan2x$.
 
 **Answer.** $A=\tan2x$.
 :::
@@ -294,7 +329,15 @@ A player kicks a ball with initial speed $15$ m/s and it lands $20$ m from the k
 2. Find the two values of $2\alpha$, then halve them.
 
 ::solution
-We have $\sin2\alpha=\dfrac{20\cdot9.8}{15^2}=\dfrac{196}{225}\approx0.8711$. Since $0^\circ<2\alpha<180^\circ$, either $2\alpha\approx60.6^\circ$ or $2\alpha\approx180^\circ-60.6^\circ=119.4^\circ$, so $\alpha\approx30.3^\circ$ or $\alpha\approx59.7^\circ$.
+Let $\alpha$ be the kick angle. With $R=20$ m, $v=15$ m/s and $g\approx9.8$ m/s$^2$, the range formula $R=\dfrac{v^2\sin2\alpha}{g}$ gives
+$$\sin2\alpha=\frac{Rg}{v^2}=\frac{20\cdot9.8}{15^2}=\frac{196}{225}\approx0.8711.$$
+
+Since $0^\circ<\alpha<90^\circ$, we have $0^\circ<2\alpha<180^\circ$. In this interval, the equation $\sin2\alpha\approx0.8711$ has two solutions:
+$$2\alpha\approx60.6^\circ\quad\text{or}\quad2\alpha\approx180^\circ-60.6^\circ=119.4^\circ.$$
+
+Hence $\alpha\approx30.3^\circ$ or $\alpha\approx59.7^\circ$ (both satisfy $0^\circ<\alpha<90^\circ$).
+
+So there are two kick angles, $\alpha\approx30.3^\circ$ and $\alpha\approx59.7^\circ$; they are complementary because $30.3^\circ+59.7^\circ=90^\circ$.
 
 **Answer.** There are two angles: $\alpha\approx30.3^\circ$ and $\alpha\approx59.7^\circ$ (complementary angles).
 :::
@@ -319,13 +362,19 @@ d) $\tan\alpha=2+\sqrt3$.
 3. d) Compare with $\tan15^\circ$.
 
 ::solution
-a) **False**: $\cos\dfrac{\pi}{12}\approx0.966$, but $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}\approx-0.207$; a difference of cosines is not the cosine of a difference of angles.
+We have $\alpha=\dfrac{\pi}{12}=\dfrac{\pi}{3}-\dfrac{\pi}{4}$ (that is, $15^\circ$).
 
-b) **True**: $\cos\dfrac{\pi}{12}=\cos\dfrac{\pi}{3}\cos\dfrac{\pi}{4}+\sin\dfrac{\pi}{3}\sin\dfrac{\pi}{4}=\dfrac{\sqrt2}{4}+\dfrac{\sqrt6}{4}$.
+a) **False.** We have $\cos\dfrac{\pi}{12}\approx0.966$, but $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}=\dfrac12-\dfrac{\sqrt2}{2}\approx-0.207$. A difference of cosines is not the cosine of a difference of angles.
 
-c) **True**: $\sin\alpha\cos\alpha=\dfrac12\sin\dfrac{\pi}{6}=\dfrac14$.
+b) **True.** Using the addition formula $\cos(a-b)=\cos a\cos b+\sin a\sin b$, we have
+$$\cos\frac{\pi}{12}=\cos\frac{\pi}{3}\cos\frac{\pi}{4}+\sin\frac{\pi}{3}\sin\frac{\pi}{4}=\frac{\sqrt2}{4}+\frac{\sqrt6}{4}=\frac{\sqrt6+\sqrt2}{4}.$$
 
-d) **False**: $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0.268$; $2+\sqrt3$ is $\tan75^\circ$.
+c) **True.** Using the double-angle formula $\sin2\alpha=2\sin\alpha\cos\alpha$, we have
+$$\sin\alpha\cos\alpha=\frac12\sin2\alpha=\frac12\sin\frac{\pi}{6}=\frac12\cdot\frac12=\frac14.$$
+
+d) **False.** We have $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0.268$, whereas $2+\sqrt3$ is $\tan75^\circ$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -341,9 +390,17 @@ A person stands $8$ m from a wall. The lower edge of a banner hanging on the wal
 2. Find $\tan(\alpha-\beta)$, then the angle.
 
 ::solution
-We have $\tan\alpha=\dfrac78$ and $\tan\beta=\dfrac18$. Hence
-$$\tan(\alpha-\beta)=\dfrac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\dfrac{\frac34}{\frac{71}{64}}=\dfrac{48}{71}\approx0.676,$$
-so $\alpha-\beta\approx34.1^\circ$.
+Let $\alpha$ be the angle between the horizontal line from the eyes to the wall and the line of sight to the upper edge of the banner, and $\beta$ the angle between the horizontal line and the line of sight to the lower edge. The viewing angle of the banner is $\alpha-\beta$.
+
+The person stands $8$ m from the wall, the upper edge is $7$ m above the eyes and the lower edge is $1$ m above the eyes, so
+$$\tan\alpha=\frac78,\qquad\tan\beta=\frac18.$$
+
+Using the formula $\tan(\alpha-\beta)=\dfrac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$, we have
+$$\tan(\alpha-\beta)=\frac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\frac{\frac34}{\frac{71}{64}}=\frac{48}{71}\approx0.676.$$
+
+Since $0^\circ<\alpha-\beta<90^\circ$, we get $\alpha-\beta\approx34.1^\circ$.
+
+So the viewing angle of the banner is about $34.1^\circ$.
 
 **Answer.** About $34.1^\circ$.
 :::
@@ -359,8 +416,15 @@ In triangle $ABC$, $\angle A=45^\circ$, $\angle B=60^\circ$ and $BC=a$. Find $\s
 2. Apply the sine rule to find $AB$.
 
 ::solution
-We have $\angle C=180^\circ-45^\circ-60^\circ=75^\circ$, so $\sin C=\sin75^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ (the first example). By the sine rule:
-$$AB=\dfrac{BC\sin C}{\sin A}=\dfrac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\dfrac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\dfrac{a(\sqrt3+1)}{2}.$$
+In triangle $ABC$, we have $\angle C=180^\circ-45^\circ-60^\circ=75^\circ$, so $\sin C=\sin75^\circ$.
+
+Since $75^\circ=45^\circ+30^\circ$, the addition formula $\sin(a+b)=\sin a\cos b+\cos a\sin b$ gives
+$$\sin C=\sin45^\circ\cos30^\circ+\cos45^\circ\sin30^\circ=\frac{\sqrt2}{2}\cdot\frac{\sqrt3}{2}+\frac{\sqrt2}{2}\cdot\frac12=\frac{\sqrt6+\sqrt2}{4}.$$
+
+By the sine rule in triangle $ABC$: $\dfrac{AB}{\sin C}=\dfrac{BC}{\sin A}$, hence
+$$AB=\frac{BC\sin C}{\sin A}=\frac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\frac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\frac{a\sqrt2(\sqrt3+1)}{2\sqrt2}=\frac{a(\sqrt3+1)}{2}.$$
+
+So $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$ and $AB=\dfrac{(\sqrt3+1)a}{2}$.
 
 **Answer.** $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$; $AB=\dfrac{(\sqrt3+1)a}{2}$.
 :::
@@ -376,9 +440,19 @@ Prove that $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 2. Multiply and divide by $\sin\dfrac{\pi}{7}$ and use the double-angle formula three times.
 
 ::solution
-Let $P$ be the product. Since $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$, we have $P=-\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{4\pi}{7}$. Multiply both sides by $8\sin\dfrac{\pi}{7}$ and use $2\sin x\cos x=\sin2x$ three times:
-$$8\sin\dfrac{\pi}{7}\,P=-\sin\dfrac{8\pi}{7}=\sin\dfrac{\pi}{7}\quad\left(\text{because }\sin\dfrac{8\pi}{7}=-\sin\dfrac{\pi}{7}\right).$$
-Since $\sin\dfrac{\pi}{7}\ne0$, we get $P=\dfrac18$.
+Let $P=\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}$. We need to prove that $P=\dfrac18$.
+
+Since $\dfrac{3\pi}{7}=\pi-\dfrac{4\pi}{7}$, we have $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$. Hence
+$$P=-\cos\frac{\pi}{7}\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}.$$
+
+Multiply both sides by $8\sin\dfrac{\pi}{7}$ and apply $2\sin x\cos x=\sin2x$ three times in a row:
+$$\begin{aligned}8\sin\frac{\pi}{7}\,P&=-4\left(2\sin\frac{\pi}{7}\cos\frac{\pi}{7}\right)\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}\\&=-4\sin\frac{2\pi}{7}\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}\\&=-2\sin\frac{4\pi}{7}\cos\frac{4\pi}{7}\\&=-\sin\frac{8\pi}{7}.\end{aligned}$$
+
+Since $\sin\dfrac{8\pi}{7}=\sin\left(\pi+\dfrac{\pi}{7}\right)=-\sin\dfrac{\pi}{7}$, we get $8\sin\dfrac{\pi}{7}\,P=\sin\dfrac{\pi}{7}$.
+
+Since $0<\dfrac{\pi}{7}<\pi$, we have $\sin\dfrac{\pi}{7}\ne0$. Dividing both sides by $8\sin\dfrac{\pi}{7}$, we obtain $P=\dfrac18$.
+
+So $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 
 **Answer.** $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 :::

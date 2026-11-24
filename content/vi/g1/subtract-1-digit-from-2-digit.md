@@ -120,7 +120,17 @@ Tính $38-5$.
 2. Hàng chục giữ nguyên là $3$.
 
 ::solution
-$8-5=3$, hàng chục là $3$, nên $38-5=33$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $8-5=3$, viết $3$.
+
+Hàng chục: $38$ có $3$ chục và không phải trừ gì ở hàng chục, nên giữ nguyên $3$ chục.
+
+Do đó $38-5=33$.
+
+Thử lại: $33+5=38$. Đúng.
+
+Vậy $38-5=33$.
 
 **Đáp số.** $33$.
 :::
@@ -136,7 +146,17 @@ Tính $79-6$.
 2. Giữ nguyên $7$ chục.
 
 ::solution
-$9-6=3$, hàng chục là $7$, nên $79-6=73$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $9-6=3$, viết $3$.
+
+Hàng chục: $79$ có $7$ chục và không phải trừ gì ở hàng chục, nên giữ nguyên $7$ chục.
+
+Do đó $79-6=73$.
+
+Thử lại: $73+6=79$. Đúng.
+
+Vậy $79-6=73$.
 
 **Đáp số.** $73$.
 :::
@@ -152,7 +172,17 @@ Tính $64-4$.
 2. Giữ nguyên $6$ chục.
 
 ::solution
-$4-4=0$, hàng chục là $6$, nên $64-4=60$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $4-4=0$, viết $0$.
+
+Hàng chục: $64$ có $6$ chục và không phải trừ gì ở hàng chục, nên giữ nguyên $6$ chục.
+
+Do đó $64-4=60$.
+
+Thử lại: $60+4=64$. Đúng.
+
+Vậy $64-4=60$.
 
 **Đáp số.** $60$.
 :::
@@ -168,7 +198,13 @@ $4-4=0$, hàng chục là $6$, nên $64-4=60$.
 2. So sánh kết quả với $40$.
 
 ::solution
-$8-5=3$, nên $48-5=43$. Vì $43>40$ nên $48-5>40$.
+Ta tính vế trái trước. Hàng đơn vị: $8-5=3$. Hàng chục giữ nguyên là $4$. Nên $48-5=43$.
+
+Ta so sánh $43$ với $40$. Hai số đều có $4$ chục; $43$ có $3$ đơn vị còn $40$ có $0$ đơn vị, mà $3>0$ nên $43>40$.
+
+Do đó $48-5>40$.
+
+Vậy điền dấu $>$.
 
 **Đáp số.** Dấu $>$.
 :::
@@ -184,8 +220,14 @@ Hộp có $45$ cái kẹo. Em ăn hết $3$ cái. Hỏi trong hộp còn lại b
 2. Tính $45-3$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số cái kẹo còn lại là:
+Bài giải
+
+Số cái kẹo còn lại trong hộp là:
 $$45-3=42\ \text{(cái)}.$$
+
+Kiểm tra: $42+3=45$. Đúng.
+
+Vậy trong hộp còn lại $42$ cái kẹo.
 
 **Đáp số.** $42$ cái kẹo.
 :::
@@ -201,7 +243,15 @@ Em hãy nhớ lại bài trước: cộng hai số có hai chữ số. Tính $32
 2. Lấy kết quả trừ $6$.
 
 ::solution
-$32+45=77$. Rồi $7-6=1$, hàng chục là $7$, nên $77-6=71$.
+Bài toán gồm hai bước: cộng trước, rồi trừ kết quả cho $6$.
+
+Bước 1: cộng hai số có hai chữ số. Hàng đơn vị: $2+5=7$. Hàng chục: $3+4=7$. Nên $32+45=77$.
+
+Bước 2: trừ $6$ từ kết quả. Hàng đơn vị: $7-6=1$. Hàng chục giữ nguyên là $7$. Nên $77-6=71$.
+
+Thử lại: $71+6=77$. Đúng.
+
+Vậy $32+45=77$ và $77-6=71$.
 
 **Đáp số.** $71$.
 :::
@@ -217,7 +267,15 @@ Lan làm bài: $46-3=16$. Lan làm đúng hay sai? Vì sao? Hãy sửa lại cho
 2. Tính lại $6-3$ và giữ nguyên hàng chục.
 
 ::solution
-Lan sai, vì Lan trừ $3$ ở hàng chục ($4$ chục thành $1$ chục). Cách đúng: $6-3=3$, hàng chục là $4$, nên $46-3=43$.
+Ta kiểm tra cách làm của Lan. Lan đã trừ $3$ ở hàng chục, nên $4$ chục thành $1$ chục và được $16$.
+
+Cách làm đó sai, vì $3$ trong phép tính $46-3$ là $3$ đơn vị, phải trừ ở hàng đơn vị.
+
+Cách làm đúng: hàng đơn vị $6-3=3$, hàng chục giữ nguyên là $4$. Nên $46-3=43$.
+
+Thử lại: $43+3=46$. Đúng. Còn $16+3=19$, khác $46$, nên kết quả $16$ của Lan là sai.
+
+Vậy Lan làm sai; kết quả đúng là $46-3=43$.
 
 **Đáp số.** Sai; kết quả đúng là $43$.
 :::
@@ -233,9 +291,17 @@ Tìm số thích hợp điền vào ô trống: $\square-5=32$.
 2. Hàng chục giữ nguyên là $3$.
 
 ::solution
-Hàng đơn vị: $7-5=2$. Hàng chục là $3$, nên số cần điền là $37$.
+Ta tìm số mà bớt đi $5$ thì còn $32$.
 
-**Kiểm tra.** $37-5=32$. Đúng.
+Hàng đơn vị: vì $7-5=2$ nên chữ số hàng đơn vị của số cần điền là $7$.
+
+Hàng chục: kết quả $32$ có $3$ chục và không phải trừ gì ở hàng chục, nên số cần điền có $3$ chục.
+
+Do đó số cần điền là $37$.
+
+Kiểm tra: $37-5=32$. Đúng.
+
+Vậy số thích hợp điền vào ô trống là $37$.
 
 **Đáp số.** $37$.
 :::

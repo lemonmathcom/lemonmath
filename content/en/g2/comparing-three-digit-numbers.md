@@ -130,7 +130,13 @@ c) $505\;\square\;505$.
 2. If they differ, choose the sign straight away.
 
 ::solution
-a) $2<3$, so $243<351$. b) $7>6$, so $780>620$. c) The two numbers are the same.
+a) Compare $243$ and $351$: the hundreds $2<3$, so $243<351$.
+
+b) Compare $780$ and $620$: the hundreds $7>6$, so $780>620$.
+
+c) The numbers $505$ and $505$ have the same hundreds, tens and ones, so $505=505$.
+
+So we write: $243<351$; $780>620$; $505=505$.
 
 **Answer.** a) $<$; b) $>$; c) $=$.
 :::
@@ -152,7 +158,13 @@ c) $467\;\square\;427$.
 2. If equal, compare the tens, then the ones.
 
 ::solution
-a) Ones: $2<8$. b) Hundreds: $9>1$. c) Tens: $6>2$.
+a) Compare $352$ and $358$: the hundreds $3=3$, the tens $5=5$, the ones $2<8$, so $352<358$.
+
+b) Compare $910$ and $190$: the hundreds $9>1$, so $910>190$.
+
+c) Compare $467$ and $427$: the hundreds $4=4$, the tens $6>2$, so $467>427$.
+
+So we write: $352<358$; $910>190$; $467>427$.
 
 **Answer.** a) $<$; b) $>$; c) $>$.
 :::
@@ -168,7 +180,14 @@ Remember the last lesson. Write $428$ and $482$ as sums of hundreds, tens and on
 2. Compare the hundreds, then the tens.
 
 ::solution
-$428=400+20+8$ and $482=400+80+2$. The hundreds are equal, and the tens $2<8$.
+Write each number as a sum of hundreds, tens and ones:
+$$428=400+20+8,\qquad 482=400+80+2.$$
+
+The two numbers have equal hundreds ($4$ hundreds).
+
+We compare the tens next: $2$ tens $<$ $8$ tens.
+
+So $428<482$.
 
 **Answer.** $428<482$.
 :::
@@ -188,7 +207,19 @@ b) Largest first: $899, 989, 998$.
 2. Pick the rest one at a time.
 
 ::solution
-a) $405<450<504<540$. b) Hundreds: $8, 9, 9$; for the two with hundreds $9$ compare the tens: $8<9$, so $989<998$. So $998>989>899$.
+a) The hundreds digits of the four numbers are $4$ or $5$.
+
+The numbers with $4$ hundreds are $450$ and $405$. The tens $0<5$, so $405<450$.
+
+The numbers with $5$ hundreds are $540$ and $504$. The tens $0<4$, so $504<540$.
+
+Since $4<5$, we get $405<450<504<540$.
+
+b) The hundreds of $899$, $989$, $998$ are $8$, $9$, $9$. The number $899$ has the fewest hundreds, so $899$ is the smallest.
+
+The numbers $989$ and $998$ have equal hundreds ($9$), so we compare the tens: $8<9$, so $989<998$.
+
+So from largest to smallest we have $998>989>899$.
 
 **Answer.** a) $405, 450, 504, 540$; b) $998, 989, 899$.
 :::
@@ -204,7 +235,13 @@ Which is the greatest of $376, 367, 673$? Why?
 2. Choose the number with the most hundreds.
 
 ::solution
-The hundreds are $3, 3, 6$. The number $673$ has the most hundreds.
+We compare the hundreds of the three numbers.
+
+The hundreds of $376$, $367$, $673$ are $3$, $3$, $6$.
+
+Since $6>3$, the number $673$ is greater than both of the others.
+
+So the greatest number is $673$, because it has the most hundreds.
 
 **Answer.** $673$.
 :::
@@ -220,7 +257,17 @@ Nam says: "$349>351$ because $9>1$." What is wrong with what Nam says? Correct i
 2. If equal, compare the tens.
 
 ::solution
-The hundreds $3$ and $3$ are equal, and the tens $4<5$. Nam compared the ones first, so he is wrong.
+We compare $349$ and $351$ starting from the highest place, the hundreds.
+
+Hundreds: $3=3$.
+
+Tens: $4<5$.
+
+Therefore $349<351$.
+
+Nam is wrong because he compared the ones ($9>1$) first. To compare three-digit numbers, we compare the hundreds first, then the tens, and the ones last.
+
+So Nam is wrong; the correct statement is $349<351$.
 
 **Answer.** $349<351$.
 :::
@@ -236,7 +283,13 @@ School A has $428$ pupils and school B has $482$ pupils. Which school has more p
 2. Compare $428$ and $482$.
 
 ::solution
-The hundreds are equal and the tens $2<8$, so $428<482$.
+Solution
+
+To find which school has more pupils, we compare $428$ and $482$.
+
+The hundreds are equal ($4$ hundreds) and the tens $2<8$, so $428<482$.
+
+So school B ($482$ pupils) has more pupils.
 
 **Answer.** School B has more pupils.
 :::
@@ -252,9 +305,19 @@ Find the digit to put in the box so that $475<4\square5<495$.
 2. Try the digits $7, 8, 9$.
 
 ::solution
-Try $\square=7$: $475$ is not greater than $475$. Try $\square=8$: $485$ is greater than $475$ and less than $495$. Try $\square=9$: $495$ is not less than $495$.
+The number $4\square5$ must be greater than $475$ and less than $495$. These numbers all have $4$ hundreds and $5$ ones, so we try the digits in the tens place.
 
-**Check.** $475<485<495$. Correct.
+Try $\square=7$: $475$ is not greater than $475$, so it does not fit.
+
+Try $\square=8$: $485$ is greater than $475$ and less than $495$, so it fits.
+
+Try $\square=9$: $495$ is not less than $495$, so it does not fit.
+
+Digits less than $7$ give numbers less than $475$, so they do not fit either.
+
+Check: $475<485<495$. Correct.
+
+So the right digit is $8$.
 
 **Answer.** $\square=8$.
 :::

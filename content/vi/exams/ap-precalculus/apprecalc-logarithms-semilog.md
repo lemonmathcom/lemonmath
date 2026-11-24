@@ -186,9 +186,16 @@ Giải phương trình $e^{2x}=10$, làm tròn $x$ đến ba chữ số thập p
 **Kiến thức:** lấy logarit tự nhiên hai vế.
 
 ::solution
-Ẩn nằm ở số mũ của $e$, nên ta lấy logarit tự nhiên hai vế: $2x=\ln10$, nên $x=\dfrac{\ln10}{2}$.
+Ẩn $x$ nằm ở số mũ của $e$, nên ta lấy logarit tự nhiên hai vế của phương trình.
 
-Vì $\ln10\approx2{,}3026$ nên $x\approx1{,}151$.
+Ta có
+$$\begin{aligned}e^{2x}&=10\\\ln e^{2x}&=\ln10\\2x&=\ln10.\end{aligned}$$
+
+Chia hai vế cho $2$, ta được $x=\dfrac{\ln10}{2}$.
+
+Thay $\ln10\approx2{,}3026$, ta có $x\approx\dfrac{2{,}3026}{2}=1{,}1513$. Làm tròn đến ba chữ số thập phân, $x\approx1{,}151$.
+
+Kiểm tra: $e^{2\cdot1{,}151}=e^{2{,}302}\approx9{,}99\approx10$.
 
 Vậy $x\approx1{,}151$.
 

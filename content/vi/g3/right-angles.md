@@ -168,11 +168,15 @@ c) Điểm nào là điểm chung của hai cạnh?
 2. Điểm đó là đỉnh.
 
 ::solution
-a) Đỉnh là $K$.
+Theo đề bài, góc có đỉnh $K$ và hai cạnh là $KA$, $KB$. Hai cạnh của một góc cùng xuất phát từ đỉnh của góc đó.
 
-b) Hai cạnh là $KA$ và $KB$.
+a) Đỉnh của góc là điểm mà hai cạnh cùng xuất phát. Ở đây đó là điểm $K$.
 
-c) Điểm chung của hai cạnh là $K$.
+b) Hai cạnh của góc là hai đoạn thẳng xuất phát từ đỉnh $K$, đó là $KA$ và $KB$.
+
+c) Hai cạnh $KA$ và $KB$ cùng có một đầu là đỉnh $K$, nên điểm chung của hai cạnh là $K$.
+
+Vậy đỉnh của góc là điểm $K$; hai cạnh của góc là $KA$ và $KB$; điểm chung của hai cạnh là $K$.
 
 **Đáp số.** a) $K$; b) $KA$, $KB$; c) $K$.
 :::
@@ -194,11 +198,15 @@ c) Cạnh còn lại của góc nằm lọt vào trong góc của ê-ke.
 2. Nếu hở hoặc lệch thì không vuông.
 
 ::solution
-a) Trùng nhau: góc vuông.
+Để kiểm tra một góc có phải góc vuông hay không, em đặt ê-ke sao cho đỉnh góc vuông của ê-ke trùng với đỉnh của góc, một cạnh của ê-ke trùng với một cạnh của góc. Sau đó em xem cạnh còn lại của ê-ke có trùng với cạnh còn lại của góc hay không.
 
-b) Hở ra: góc không vuông.
+a) Cạnh còn lại của ê-ke trùng với cạnh còn lại của góc, nên đó là góc vuông.
 
-c) Lệch vào trong: góc không vuông.
+b) Cạnh còn lại của ê-ke nằm ngoài góc, hở ra, tức là không trùng với cạnh còn lại của góc, nên đó không phải là góc vuông.
+
+c) Cạnh còn lại của góc nằm lọt vào trong góc của ê-ke, tức là không trùng với cạnh còn lại của ê-ke, nên đó không phải là góc vuông.
+
+Vậy góc ở ý a) là góc vuông; các góc ở ý b) và c) là góc không vuông.
 
 **Đáp số.** a) Vuông; b) không vuông; c) không vuông.
 :::
@@ -214,7 +222,11 @@ Em hãy nhớ lại bài trước về hình tròn. Hình tròn tâm $O$ có bá
 2. Dùng bán kính đã cho.
 
 ::solution
-$OA$ và $OB$ đều là bán kính nên mỗi cạnh dài $4$ cm. Hai cạnh của góc bằng nhau.
+Hình tròn tâm $O$ có bán kính $4$ cm. Các điểm $A$, $B$ nằm trên đường tròn nên $OA$ và $OB$ là hai đoạn thẳng nối tâm $O$ với một điểm trên đường tròn.
+
+Do đó $OA$ và $OB$ đều là bán kính của hình tròn, và mỗi đoạn dài $4$ cm. Hai cạnh của góc đỉnh $O$ bằng nhau.
+
+Vậy mỗi cạnh của góc dài $4$ cm.
 
 **Đáp số.** $OA=4$ cm và $OB=4$ cm.
 :::
@@ -238,13 +250,17 @@ d) Mái nhà hình chữ A.
 2. Chọn những góc khớp ê-ke.
 
 ::solution
-a) Góc quyển vở khớp ê-ke: góc vuông.
+Em dùng ê-ke để kiểm tra từng góc. Góc nào khớp với góc vuông của ê-ke thì đó là góc vuông.
 
-b) Hai kim lúc $1$ giờ chụm hẹp: không vuông.
+a) Góc của quyển vở khớp với ê-ke, nên là góc vuông.
 
-c) Góc bảng đen khớp ê-ke: góc vuông.
+b) Hai kim đồng hồ lúc $1$ giờ đúng chụm lại hẹp, không khớp với góc vuông của ê-ke, nên không phải góc vuông.
 
-d) Mái chữ A chụm hẹp: không vuông.
+c) Góc của bảng đen khớp với ê-ke, nên là góc vuông.
+
+d) Mái nhà hình chữ A chụm hẹp, không khớp với góc vuông của ê-ke, nên không phải góc vuông.
+
+Vậy các đồ vật có góc vuông là góc của quyển vở và góc của bảng đen.
 
 **Đáp số.** Góc quyển vở và góc bảng đen.
 :::
@@ -260,7 +276,11 @@ Hai góc vuông: một góc có hai cạnh dài $3$ cm, góc kia có hai cạnh 
 2. Độ dài cạnh có ảnh hưởng đến việc góc vuông không?
 
 ::solution
-Cả hai đều là góc vuông, nên chúng bằng nhau. Độ dài cạnh không làm đổi việc góc có vuông hay không.
+Cả hai góc đều là góc vuông. Mọi góc vuông đều bằng nhau, vì khi đặt chồng lên nhau thì hai cạnh của chúng trùng khít.
+
+Độ dài các cạnh ($3$ cm hay $6$ cm) chỉ cho biết các cạnh dài hay ngắn, không làm thay đổi việc góc đó có phải là góc vuông hay không.
+
+Vậy hai góc đó bằng nhau, vì cả hai đều là góc vuông.
 
 **Đáp số.** Bằng nhau, vì cả hai đều là góc vuông.
 :::
@@ -276,7 +296,15 @@ Nam nói: "Góc này trông giống góc vuông nên đó là góc vuông". Nam 
 2. Dùng dụng cụ nào để chắc chắn?
 
 ::solution
-Nam chỉ nhìn bằng mắt nên có thể nhầm với góc gần vuông. Em dùng ê-ke: đặt đỉnh trùng đỉnh, một cạnh trùng một cạnh, rồi xem cạnh còn lại có trùng không.
+Nam chỉ nhìn bằng mắt. Mắt có thể nhầm một góc gần vuông với góc vuông, nên chỉ nhìn "trông giống" thì chưa thể kết luận đó là góc vuông.
+
+Em sẽ dùng ê-ke để kiểm tra:
+
+- Đặt đỉnh góc vuông của ê-ke trùng với đỉnh của góc cần kiểm tra.
+- Đặt một cạnh của ê-ke trùng với một cạnh của góc.
+- Xem cạnh còn lại của ê-ke có trùng với cạnh còn lại của góc hay không. Nếu trùng thì đó là góc vuông; nếu không trùng thì đó không phải góc vuông.
+
+Vậy Nam làm chưa đúng vì chỉ dựa vào mắt nhìn; em phải kiểm tra bằng ê-ke.
 
 **Đáp số.** Phải kiểm tra bằng ê-ke.
 :::
@@ -296,9 +324,13 @@ b) Hai kim đồng hồ lúc $3$ giờ đúng tạo thành góc gì?
 2. Kết luận theo ê-ke.
 
 ::solution
-a) Chữ $L$ và chữ $T$ có hai nét gặp nhau ở góc vuông; chữ $V$ thì không.
+a) Ta kiểm tra chỗ hai nét gặp nhau của từng chữ cái bằng ê-ke.
 
-b) Hai kim lúc $3$ giờ đúng tạo thành góc vuông.
+Ở chữ $L$, hai nét gặp nhau tạo thành góc vuông. Ở chữ $T$, nét ngang và nét đứng gặp nhau cũng tạo thành góc vuông. Ở chữ $V$, hai nét chụm lại và không tạo thành góc vuông.
+
+b) Lúc $3$ giờ đúng, kim giờ chỉ số $3$ và kim phút chỉ số $12$. Hai kim tạo thành góc vuông.
+
+Vậy chữ $L$ và chữ $T$ có góc vuông; hai kim đồng hồ lúc $3$ giờ đúng tạo thành góc vuông.
 
 **Đáp số.** a) $L$, $T$; b) góc vuông.
 :::
@@ -316,7 +348,14 @@ Một tờ giấy hình chữ nhật có $4$ góc vuông. Em cắt bỏ một g�
 2. Một góc bị cắt đi, hai góc mới xuất hiện ở chỗ cắt nhưng không vuông.
 
 ::solution
-Ban đầu có $4$ góc vuông. Cắt bỏ một góc thì mất $1$ góc vuông, còn $4-1=3$ góc vuông. Hai góc mới ở chỗ cắt là góc không vuông.
+Tờ giấy hình chữ nhật ban đầu có $4$ góc vuông.
+
+Nhát cắt thẳng cắt bỏ một góc, nên mất đi $1$ góc vuông. Nhát cắt không đi qua góc nào khác nên $3$ góc vuông còn lại không bị ảnh hưởng. Tại chỗ cắt xuất hiện hai góc mới, và hai góc mới này là góc không vuông.
+
+Số góc vuông còn lại là:
+$$4-1=3\ \text{(góc vuông)}.$$
+
+Vậy tờ giấy còn lại có $3$ góc vuông.
 
 **Đáp số.** $3$ góc vuông.
 :::

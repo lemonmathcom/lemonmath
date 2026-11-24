@@ -294,11 +294,11 @@ c) $y=\log_2(x+3)$ (tìm tập xác định và tiệm cận đứng).
 2. Cộng, trừ hằng số tương ứng.
 
 ::solution
-a) $3^x>0$ nên $y>2$; tập giá trị $(2; +\infty)$, tiệm cận ngang $y=2$.
+a) Hàm số $y=3^x+2$ xác định trên $\mathbb{R}$. Với mọi $x$ ta có $3^x>0$, suy ra $3^x+2>2$, tức là $y>2$. Vì $3^x$ nhận mọi giá trị dương nên $y$ nhận mọi giá trị trong khoảng $(2; +\infty)$. Khi $x\to-\infty$ thì $3^x\to0$, do đó $y\to2$. Vậy tập giá trị là $(2; +\infty)$ và đồ thị có tiệm cận ngang $y=2$.
 
-b) $\left(\dfrac12\right)^x>0$ nên $y<1$; tập giá trị $(-\infty; 1)$, tiệm cận ngang $y=1$.
+b) Hàm số $y=1-\left(\dfrac12\right)^x$ xác định trên $\mathbb{R}$. Với mọi $x$ ta có $\left(\dfrac12\right)^x>0$, suy ra $1-\left(\dfrac12\right)^x<1$, tức là $y<1$. Vì $\left(\dfrac12\right)^x$ nhận mọi giá trị dương nên $y$ nhận mọi giá trị trong khoảng $(-\infty; 1)$. Khi $x\to+\infty$ thì $\left(\dfrac12\right)^x\to0$, do đó $y\to1$. Vậy tập giá trị là $(-\infty; 1)$ và đồ thị có tiệm cận ngang $y=1$.
 
-c) Cần $x+3>0$, tức $x>-3$; tập xác định $(-3; +\infty)$, tiệm cận đứng $x=-3$.
+c) Hàm số $y=\log_2(x+3)$ xác định khi biểu thức dưới dấu lôgarit dương: $x+3>0$, tức là $x>-3$. Khi $x\to(-3)^+$ thì $x+3\to0^+$ nên $y\to-\infty$. Vậy tập xác định là $(-3; +\infty)$ và đồ thị có tiệm cận đứng $x=-3$.
 
 **Đáp số.** a) $(2; +\infty)$, $y=2$; b) $(-\infty; 1)$, $y=1$; c) $(-3; +\infty)$, $x=-3$.
 :::
@@ -322,13 +322,17 @@ d) Đồ thị hàm số có tiệm cận ngang $y=0$.
 2. Kiểm tra từng mệnh đề với tính chất và định nghĩa.
 
 ::solution
-a) **Sai**: cơ số $\dfrac13<1$ nên hàm nghịch biến.
+Hàm số $y=\log_{1/3}x$ có tập xác định $(0; +\infty)$ và cơ số $\dfrac13$ thoả mãn $0<\dfrac13<1$.
 
-b) **Đúng**: $\log_{1/3}1=0$.
+a) **Sai.** Vì cơ số $\dfrac13<1$ nên hàm số $y=\log_{1/3}x$ nghịch biến trên $(0; +\infty)$, không đồng biến.
 
-c) **Đúng**: $\left(\dfrac13\right)^{-2}=9$.
+b) **Đúng.** Ta có $\log_{1/3}1=0$ (vì $\left(\dfrac13\right)^0=1$), nên đồ thị đi qua điểm $(1; 0)$.
 
-d) **Sai**: tiệm cận của hàm lôgarit là tiệm cận đứng $x=0$.
+c) **Đúng.** Ta có $\left(\dfrac13\right)^{-2}=3^2=9$, suy ra $\log_{1/3}9=-2$.
+
+d) **Sai.** Khi $x\to0^+$ thì $y=\log_{1/3}x\to+\infty$, nên đồ thị có tiệm cận đứng $x=0$. Khi $x\to+\infty$ thì $y\to-\infty$, nên đồ thị không có tiệm cận ngang $y=0$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -344,11 +348,19 @@ Giả sử một khoản tiền gửi tăng $5\%$ mỗi năm, lãi kép (số li
 2. Tính $n_0=\log_{1{,}05}2$ rồi lấy số nguyên đủ lớn nhất cần thiết.
 
 ::solution
-Cần $1{,}05^n\ge2$. Ta có $\log_{1{,}05}2=\dfrac{\ln2}{\ln1{,}05}\approx14{,}2$. Hàm đồng biến nên $n\ge14{,}2$, tức $n=15$.
+Gọi $A$ là số tiền ban đầu và $n$ là số năm nguyên ($n\in\mathbb{N}^*$). Vì tiền tăng $5\%$ mỗi năm theo lãi kép nên sau $n$ năm số tiền là $A\cdot1{,}05^n$.
 
-Thử lại: $1{,}05^{14}\approx1{,}98<2$ và $1{,}05^{15}\approx2{,}08\ge2$.
+Số tiền ít nhất gấp đôi số ban đầu khi
+$$A\cdot1{,}05^n\ge2A\iff1{,}05^n\ge2.$$
 
-Vậy sau ít nhất $15$ năm.
+Vì cơ số $1{,}05>1$ nên hàm số $y=\log_{1{,}05}t$ đồng biến; do đó
+$$n\ge\log_{1{,}05}2=\frac{\ln2}{\ln1{,}05}\approx14{,}2.$$
+
+Vì $n$ nguyên nên $n\ge15$, giá trị nhỏ nhất là $n=15$.
+
+Kiểm tra: $1{,}05^{14}\approx1{,}98<2$ và $1{,}05^{15}\approx2{,}08\ge2$.
+
+Vậy sau ít nhất $15$ năm thì số tiền ít nhất gấp đôi số ban đầu.
 
 **Đáp số.** $15$ năm.
 :::
@@ -368,11 +380,19 @@ b) Sau bao nhiêu ngày thì còn $10$ g (làm tròn đến hàng phần mười
 2. b) Giải $\left(\dfrac12\right)^{t/5}=0{,}1$, tìm $\dfrac t5$ bằng lôgarit.
 
 ::solution
-a) $m(12)=100\cdot2^{-2{,}4}\approx18{,}9\approx19$ (g).
+Khối lượng còn lại sau $t$ ngày là $m(t)=100\cdot\left(\dfrac12\right)^{t/5}$ (gam).
 
-b) Từ $\left(\dfrac12\right)^{t/5}=0{,}1$ ta có $\dfrac t5=\log_{1/2}0{,}1=\log_210$, nên $t=5\log_210\approx5\cdot3{,}3219\approx16{,}6$ (ngày).
+a) Thay $t=12$ vào công thức, ta được
+$$m(12)=100\cdot\left(\frac12\right)^{12/5}=100\cdot2^{-2{,}4}\approx18{,}9.$$
+Làm tròn đến hàng đơn vị, $m(12)\approx19$ g. Vậy sau $12$ ngày còn lại khoảng $19$ g.
 
-Vậy a) khoảng $19$ g; b) khoảng $16{,}6$ ngày.
+b) Cần tìm $t$ để $m(t)=10$, tức là
+$$100\cdot\left(\frac12\right)^{t/5}=10\iff\left(\frac12\right)^{t/5}=0{,}1.$$
+Lấy lôgarit cơ số $\dfrac12$ hai vế, ta được
+$$\frac t5=\log_{1/2}0{,}1=\log_210,$$
+suy ra
+$$t=5\log_210\approx5\cdot3{,}3219\approx16{,}6.$$
+Vậy sau khoảng $16{,}6$ ngày thì còn lại $10$ g.
 
 **Đáp số.** a) $19$ g; b) $16{,}6$ ngày.
 :::
@@ -388,11 +408,19 @@ Giả sử dân số một thành phố là $500\,000$ người và tăng $2\%$ 
 2. Dùng lôgarit và tính đơn điệu để tìm $n$ nguyên nhỏ nhất.
 
 ::solution
-Cần $1{,}02^n>\dfrac{600\,000}{500\,000}=1{,}2$. Ta có $\log_{1{,}02}1{,}2=\dfrac{\ln1{,}2}{\ln1{,}02}\approx9{,}2$. Hàm đồng biến nên $n>9{,}2$, tức $n=10$.
+Gọi $n$ là số năm nguyên ($n\in\mathbb{N}^*$). Vì dân số tăng $2\%$ mỗi năm nên sau $n$ năm dân số là $500\,000\cdot1{,}02^n$ (người).
 
-Thử lại: $500\,000\cdot1{,}02^9\approx597\,500<600\,000$ và $500\,000\cdot1{,}02^{10}\approx609\,500>600\,000$.
+Dân số vượt $600\,000$ người khi
+$$500\,000\cdot1{,}02^n>600\,000\iff1{,}02^n>\frac{600\,000}{500\,000}=1{,}2.$$
 
-Vậy sau ít nhất $10$ năm.
+Vì cơ số $1{,}02>1$ nên hàm số $y=\log_{1{,}02}t$ đồng biến; do đó
+$$n>\log_{1{,}02}1{,}2=\frac{\ln1{,}2}{\ln1{,}02}\approx9{,}2.$$
+
+Vì $n$ nguyên nên $n\ge10$, giá trị nhỏ nhất là $n=10$.
+
+Kiểm tra: $500\,000\cdot1{,}02^9\approx597\,500<600\,000$ và $500\,000\cdot1{,}02^{10}\approx609\,500>600\,000$.
+
+Vậy sau ít nhất $10$ năm thì dân số thành phố vượt $600\,000$ người.
 
 **Đáp số.** $10$ năm.
 :::
@@ -408,11 +436,19 @@ Cho $f(x)=\log_5x-1$. Tìm hàm ngược $f^{-1}$ và tính $f^{-1}(1)$.
 2. Đổi tên biến rồi thay $x=1$.
 
 ::solution
-Từ $y=\log_5x-1$ ta có $\log_5x=y+1$, suy ra $x=5^{y+1}$. Vậy $f^{-1}(x)=5^{x+1}$ với mọi $x\in\mathbb{R}$.
+Hàm số $f(x)=\log_5x-1$ có tập xác định $(0; +\infty)$ và tập giá trị $\mathbb{R}$, đồng biến nên có hàm ngược.
 
-Do đó $f^{-1}(1)=5^2=25$.
+Đặt $y=\log_5x-1$. Ta có
+$$\log_5x=y+1\iff x=5^{y+1}.$$
 
-**Kiểm tra.** $f(25)=\log_525-1=2-1=1$.
+Đổi vai trò của $x$ và $y$, ta được $f^{-1}(x)=5^{x+1}$ với mọi $x\in\mathbb{R}$.
+
+Do đó
+$$f^{-1}(1)=5^{1+1}=5^2=25.$$
+
+Kiểm tra: $f(25)=\log_525-1=2-1=1$.
+
+Vậy $f^{-1}(x)=5^{x+1}$ và $f^{-1}(1)=25$.
 
 **Đáp số.** $f^{-1}(x)=5^{x+1}$; $f^{-1}(1)=25$.
 :::
@@ -428,7 +464,14 @@ Do đó $f^{-1}(1)=5^2=25$.
 2. Áp dụng định lí giá trị trung gian.
 
 ::solution
-Hàm $g(x)=2^x+x-4$ liên tục trên $\mathbb{R}$ (tổng của hai hàm liên tục). Ta có $g(1)=2+1-4=-1<0$ và $g(2)=4+2-4=2>0$. Theo định lí giá trị trung gian, tồn tại $c\in(1; 2)$ sao cho $g(c)=0$, tức $2^c+c=4$.
+Xét hàm số $g(x)=2^x+x-4$. Hàm số mũ $2^x$ và hàm số $x$ đều liên tục trên $\mathbb{R}$, nên $g$ là tổng của hai hàm liên tục và liên tục trên $\mathbb{R}$; đặc biệt $g$ liên tục trên đoạn $[1; 2]$.
+
+Ta có
+$$g(1)=2+1-4=-1<0,\qquad g(2)=4+2-4=2>0.$$
+
+Suy ra $g(1)\cdot g(2)<0$. Theo định lí giá trị trung gian, tồn tại $c\in(1; 2)$ sao cho $g(c)=0$, tức là $2^c+c=4$.
+
+Vậy phương trình $2^x+x=4$ có ít nhất một nghiệm trong khoảng $(1; 2)$.
 
 **Đáp số.** Phương trình có nghiệm trong $(1; 2)$.
 :::

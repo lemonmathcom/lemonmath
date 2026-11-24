@@ -172,12 +172,16 @@ A workshop (made-up numbers) makes $1\,250$ shirts on the first day, twice as ma
 ::solution
 Solution
 
-The number of shirts made on the second day is:
+The workshop makes twice as many shirts on the second day as on the first day, so the number of shirts made on the second day is:
 $$1\,250\times2=2\,500\ \text{(shirts)}.$$
-The number of shirts made on the third day is:
+
+On the third day it makes $300$ fewer than on the second day, so the number of shirts made on the third day is:
 $$2\,500-300=2\,200\ \text{(shirts)}.$$
+
 The number of shirts made in the three days is:
 $$1\,250+2\,500+2\,200=5\,950\ \text{(shirts)}.$$
+
+So the workshop makes $5\,950$ shirts in the three days.
 
 **Answer.** $5\,950$ shirts.
 :::
@@ -198,10 +202,14 @@ Solution
 
 The cost of $3$ story books is:
 $$3\times35\,000=105\,000\ \text{(dong)}.$$
-The money Mai spent is:
+
+The money Mai spent (on the story books and the box of pens) is:
 $$105\,000+48\,000=153\,000\ \text{(dong)}.$$
+
 The money Mai has left is:
 $$200\,000-153\,000=47\,000\ \text{(dong)}.$$
+
+So Mai has $47\,000$ dong left.
 
 **Answer.** $47\,000$ dong.
 :::
@@ -220,12 +228,16 @@ $6$ boxes of pencils cost $90\,000$ dong. How much do $9$ of these boxes of penc
 ::solution
 Solution
 
-The price of one box of pencils is:
+The problem gives the cost of $6$ boxes of pencils, so we first find the cost of one box (the unitary method). The price of one box of pencils is:
 $$90\,000\div6=15\,000\ \text{(dong)}.$$
+
 The cost of $9$ boxes of pencils is:
 $$15\,000\times9=135\,000\ \text{(dong)}.$$
-The total money to pay is:
+
+The total money to pay for $9$ boxes of pencils and $1$ school bag is:
 $$135\,000+120\,000=255\,000\ \text{(dong)}.$$
+
+So the total cost is $255\,000$ dong.
 
 **Answer.** $255\,000$ dong.
 :::
@@ -244,12 +256,16 @@ A garden (made-up numbers) is a rectangle with width $25$ m, and its length is $
 ::solution
 Solution
 
-The length of the garden is:
+The length of the garden is $3$ times its width, so the length is:
 $$25\times3=75\ \text{(m)}.$$
-The perimeter of the garden is:
+
+The fence goes all the way round the garden, so its length equals the perimeter of the garden:
 $$(75+25)\times2=200\ \text{(m)}.$$
+
 The cost of the fence is:
 $$200\times12\,000=2\,400\,000\ \text{(dong)}.$$
+
+So the fence costs $2\,400\,000$ dong.
 
 **Answer.** $2\,400\,000$ dong.
 :::
@@ -268,12 +284,16 @@ A store has $1\,500$ kg of rice, shared equally into $6$ sacks. A lorry takes aw
 ::solution
 Solution
 
-The rice in each sack is:
+The rice is shared equally into $6$ sacks, so the rice in each sack is:
 $$1\,500\div6=250\ \text{(kg)}.$$
-The rice the lorry takes away is:
+
+The rice the lorry takes away ($4$ sacks) is:
 $$250\times4=1\,000\ \text{(kg)}.$$
+
 The rice left in the store is:
 $$1\,500-1\,000=500\ \text{(kg)}.$$
+
+So $500$ kg of rice are left in the store.
 
 **Answer.** $500$ kg of rice.
 :::
@@ -292,11 +312,15 @@ A piece of cloth is $48$ m long. $5$ outfits are cut from it, using $3$ m of clo
 ::solution
 Solution
 
-The number of metres of cloth used for outfits is:
+The number of metres of cloth used for $5$ outfits is:
 $$3\times5=15\ \text{(m)}.$$
+
 The number of metres of cloth left is:
 $$48-15=33\ \text{(m)}.$$
-We have $33\div2=16$ (remainder $1$), so $16$ scarves can be cut with $1$ m of cloth left over.
+
+Each scarf needs $2$ m of cloth. We have $33\div2=16$ (remainder $1$), which means $33$ m of cloth is enough for $16$ scarves with $1$ m left over, not enough for one more scarf.
+
+So the greatest number of scarves that can be cut is $16$.
 
 **Answer.** $16$ scarves.
 :::
@@ -317,10 +341,14 @@ Solution
 
 The cost of $2$ adult tickets is:
 $$2\times45\,000=90\,000\ \text{(dong)}.$$
+
 The cost of $3$ children's tickets is:
 $$3\times20\,000=60\,000\ \text{(dong)}.$$
-The money the family pays is:
+
+The money the family pays altogether is:
 $$90\,000+60\,000=150\,000\ \text{(dong)}.$$
+
+So the family pays $150\,000$ dong altogether.
 
 **Answer.** $150\,000$ dong.
 :::
@@ -336,8 +364,17 @@ Remember the lesson on expressions with letters. An exercise book costs $7\,000$
 2. Substitute $m=6$ and work it out in the right order.
 
 ::solution
-The money to pay is $7\,000\times m+5\,000\times2$ (dong). When $m=6$, the money is:
+Solution
+
+The cost of $m$ exercise books is $7\,000\times m$ (dong). The cost of $2$ pens is $5\,000\times2$ (dong).
+
+The expression for the money to pay is:
+$$7\,000\times m+5\,000\times2\ \text{(dong)}.$$
+
+When $m=6$, we substitute $m=6$ into the expression:
 $$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(dong)}.$$
+
+So when $m=6$, the money to pay is $52\,000$ dong.
 
 **Answer.** $52\,000$ dong.
 :::
@@ -353,11 +390,23 @@ A shop has $125$ kg of sugar. It sells $40$ kg in the morning and $35$ kg in the
 2. Do the second step again correctly.
 
 ::solution
-Nam is wrong in the second step: in the afternoon the shop sells another $35$ kg, so the amount of sugar must go down, and we need to subtract, not add.
+We check each step of Nam's solution.
 
-The correct solution: $125-40=85$ (kg); $85-35=50$ (kg).
+Step 1: $125-40=85$ (kg). This step is correct, because the shop sells $40$ kg in the morning, so we subtract $40$ kg.
 
-**Check.** $50+35+40=125$. Correct.
+Step 2: Nam works out $85+35=120$ (kg). This step is wrong. In the afternoon the shop sells another $35$ kg, so the amount of sugar must go down, and we need to subtract, not add. Also, $120$ kg is more than $85$ kg, which is impossible because selling more sugar can only leave less.
+
+The correct solution:
+
+After the morning, the sugar left is:
+$$125-40=85\ \text{(kg)}.$$
+
+After the afternoon, the sugar left is:
+$$85-35=50\ \text{(kg)}.$$
+
+Check: $50+35+40=125$ (kg), which equals the original amount of sugar.
+
+So Nam is wrong; the shop has $50$ kg of sugar left.
 
 **Answer.** Nam is wrong; $50$ kg of sugar is left.
 :::
@@ -376,12 +425,16 @@ A shop receives $4$ cartons of pens, with $12$ boxes in each carton and $10$ pen
 ::solution
 Solution
 
-The number of boxes of pens in $4$ cartons is:
+Each carton has $12$ boxes, so the number of boxes of pens in $4$ cartons is:
 $$4\times12=48\ \text{(boxes)}.$$
-The number of pens received is:
+
+Each box has $10$ pens, so the number of pens received is:
 $$48\times10=480\ \text{(pens)}.$$
-The number of pens left is:
+
+The shop sells $275$ pens, so the number of pens left is:
 $$480-275=205\ \text{(pens)}.$$
+
+So the shop has $205$ pens left.
 
 **Answer.** $205$ pens.
 :::

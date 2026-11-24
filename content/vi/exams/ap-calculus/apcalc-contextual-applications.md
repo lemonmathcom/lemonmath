@@ -133,7 +133,15 @@ D. $0<t<2$
 2. Lập bảng xét dấu.
 
 ::solution
-$v(t)<0$ giữa hai nghiệm, nên hạt đi sang trái khi $1<t<3$: đáp án **B**.
+Hạt đi sang trái khi vận tốc $v(t)<0$.
+
+Phân tích vận tốc thành nhân tử: $v(t)=t^2-4t+3=(t-1)(t-3)$, có hai nghiệm $t=1$ và $t=3$.
+
+Vì hệ số của $t^2$ dương nên $v(t)<0$ khi $t$ nằm giữa hai nghiệm, tức là $1<t<3$; còn $v(t)>0$ khi $0\le t<1$ hoặc $t>3$.
+
+Vậy hạt đi sang trái trên khoảng $1<t<3$. Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -147,7 +155,17 @@ Bán kính của một vết dầu loang hình tròn tăng $2$ xăng-ti-mét m�
 2. Thay $r=10$ và $\dfrac{dr}{dt}=2$.
 
 ::solution
-$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125{,}7$ xăng-ti-mét vuông mỗi giây.
+Gọi $r$ (xăng-ti-mét) là bán kính và $A$ (xăng-ti-mét vuông) là diện tích của vết dầu tại thời điểm $t$ (giây). Ta có $A=\pi r^2$ và $\dfrac{dr}{dt}=2$ xăng-ti-mét mỗi giây.
+
+Lấy đạo hàm hai vế theo $t$ (quy tắc đạo hàm hàm hợp):
+$$\frac{dA}{dt}=2\pi r\,\frac{dr}{dt}.$$
+
+Thay $r=10$ và $\dfrac{dr}{dt}=2$, ta được
+$$\frac{dA}{dt}=2\pi(10)(2)=40\pi\approx125{,}7.$$
+
+Vậy khi bán kính bằng $10$ xăng-ti-mét, diện tích vết dầu tăng với tốc độ $40\pi\approx125{,}7$ xăng-ti-mét vuông mỗi giây.
+
+**Đáp số.** $40\pi\approx125{,}7$ xăng-ti-mét vuông mỗi giây.
 :::
 
 :::exercise Trắc nghiệm
@@ -165,7 +183,17 @@ D. $\dfrac12$
 2. Dùng thêm một lần.
 
 ::solution
-Lần thứ hai cho $\dfrac{e^x}{2}\to\dfrac12$: đáp án **D**.
+Khi $x\to0$, tử số $e^x-1-x\to e^0-1-0=0$ và mẫu số $x^2\to0$, nên giới hạn có dạng $\dfrac00$. Ta áp dụng quy tắc L'Hôpital.
+
+Lần thứ nhất:
+$$\lim_{x\to0}\frac{e^x-1-x}{x^2}=\lim_{x\to0}\frac{e^x-1}{2x}.$$
+
+Giới hạn mới vẫn có dạng $\dfrac00$ (tử $\to e^0-1=0$, mẫu $\to0$), nên ta áp dụng quy tắc L'Hôpital lần thứ hai:
+$$\lim_{x\to0}\frac{e^x-1}{2x}=\lim_{x\to0}\frac{e^x}{2}=\frac{e^0}{2}=\frac12.$$
+
+Vậy giới hạn bằng $\dfrac12$, nên chọn **D**.
+
+**Đáp số.** D.
 :::
 
 :::exercise Tự luận
@@ -178,7 +206,15 @@ Hàm số có đạo hàm $f$ thoả mãn $f(3)=2$ và $f'(3)=4$. Dùng tiếp t
 1. $x-3=-0{,}1$.
 
 ::solution
-$f(2{,}9)\approx2+4(-0{,}1)=1{,}6$.
+Phương trình tiếp tuyến của đồ thị $f$ tại $x=3$ là
+$$L(x)=f(3)+f'(3)(x-3)=2+4(x-3).$$
+
+Vì $2{,}9$ gần $3$ nên ta dùng $f(2{,}9)\approx L(2{,}9)$, với $2{,}9-3=-0{,}1$:
+$$f(2{,}9)\approx2+4(-0{,}1)=2-0{,}4=1{,}6.$$
+
+Vậy $f(2{,}9)\approx1{,}6$.
+
+**Đáp số.** $1{,}6$.
 :::
 
 :::exercise Tự luận
@@ -188,7 +224,13 @@ Một quần thể vi khuẩn có $P(t)$ nghìn con sau $t$ giờ kể từ khi 
 **Cần nhớ:** theo mẫu câu: thời điểm, đại lượng, chiều thay đổi, tốc độ kèm đơn vị.
 
 ::solution
-Tại thời điểm $t=4$ giờ, số vi khuẩn đang tăng với tốc độ $1{,}5$ nghìn con mỗi giờ.
+Hàm $P(t)$ cho số vi khuẩn (đơn vị: nghìn con) sau $t$ giờ, nên đạo hàm $P'(t)$ cho tốc độ thay đổi tức thời của số vi khuẩn theo thời gian, với đơn vị là nghìn con mỗi giờ.
+
+Ta có $P'(4)=1{,}5>0$, nên tại thời điểm $t=4$ giờ số vi khuẩn đang tăng.
+
+Vậy tại thời điểm $t=4$ giờ, số vi khuẩn đang tăng với tốc độ $1{,}5$ nghìn con mỗi giờ.
+
+**Đáp số.** Tại thời điểm $t=4$ giờ, số vi khuẩn đang tăng với tốc độ $1{,}5$ nghìn con mỗi giờ.
 :::
 
 ## Bài tập vận dụng
@@ -204,7 +246,23 @@ Người ta đổ nước với tốc độ $2$ mét khối mỗi phút vào m�
 2. $\dfrac{dV}{dt}=\dfrac{\pi h^2}{4}\dfrac{dh}{dt}$; thay $h=4$.
 
 ::solution
-$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, nên $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0{,}159$ mét mỗi phút.
+Gọi $h$ (mét) là độ sâu của nước, $r$ (mét) là bán kính mặt nước và $V$ (mét khối) là thể tích nước trong bể tại thời điểm $t$ (phút). Ta có $\dfrac{dV}{dt}=2$ mét khối mỗi phút.
+
+Nước trong bể có hình nón đồng dạng với bể (đỉnh ở dưới), nên
+$$\frac{r}{h}=\frac{3}{6}\ \Rightarrow\ r=\frac h2.$$
+
+Thể tích nước là
+$$V=\frac13\pi r^2h=\frac13\pi\left(\frac h2\right)^2h=\frac{\pi h^3}{12}.$$
+
+Lấy đạo hàm hai vế theo $t$ (quy tắc đạo hàm hàm hợp):
+$$\frac{dV}{dt}=\frac{\pi h^2}{4}\,\frac{dh}{dt}.$$
+
+Thay $\dfrac{dV}{dt}=2$ và $h=4$, ta được
+$$2=\frac{\pi(16)}{4}\,\frac{dh}{dt}=4\pi\,\frac{dh}{dt}\ \Rightarrow\ \frac{dh}{dt}=\frac{1}{2\pi}\approx0{,}159.$$
+
+Vậy khi nước sâu $4$ mét, mực nước dâng với tốc độ $\dfrac{1}{2\pi}\approx0{,}159$ mét mỗi phút.
+
+**Đáp số.** $\dfrac{1}{2\pi}\approx0{,}159$ mét mỗi phút.
 :::
 
 :::exercise Một câu chuyển động đầy đủ
@@ -222,11 +280,22 @@ c) Tính tổng quãng đường đi được trên $0\le t\le3$.
 3. Vị trí tại $t=0, 1, 2, 3$.
 
 ::solution
-a) $v<0$ khi $1<t<2$.
+Vận tốc của hạt là $v(t)=x'(t)=6t^2-18t+12=6(t-1)(t-2)$, và gia tốc là $a(t)=v'(t)=12t-18$.
 
-b) $v(1{,}2)=6(0{,}2)(-0{,}8)=-0{,}96$ và $a(1{,}2)=-3{,}6$: cùng dấu, nên hạt nhanh dần.
+a) Hạt đi sang trái khi $v(t)<0$. Vì $v(t)=6(t-1)(t-2)$ có hệ số của $t^2$ dương nên $v(t)<0$ khi $t$ nằm giữa hai nghiệm $1$ và $2$. Vậy hạt đi sang trái khi $1<t<2$.
 
-c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Quãng đường $=5+1+5=11$.
+b) Tại $t=1{,}2$:
+$$v(1{,}2)=6(0{,}2)(-0{,}8)=-0{,}96,\qquad a(1{,}2)=12(1{,}2)-18=-3{,}6.$$
+Vì $v(1{,}2)$ và $a(1{,}2)$ cùng dấu (cùng âm) nên tốc độ $|v|$ đang tăng. Vậy tại $t=1{,}2$ hạt đang nhanh dần.
+
+c) Hạt đổi chiều tại $t=1$ và $t=2$ (các thời điểm $v$ đổi dấu), nên ta tính vị trí tại các mốc $t=0,1,2,3$:
+$$x(0)=0,\quad x(1)=2-9+12=5,\quad x(2)=16-36+24=4,\quad x(3)=54-81+36=9.$$
+Tổng quãng đường là tổng độ dời trên từng đoạn mà hạt đi một chiều:
+$$|x(1)-x(0)|+|x(2)-x(1)|+|x(3)-x(2)|=5+1+5=11.$$
+
+Vậy hạt đi sang trái khi $1<t<2$; tại $t=1{,}2$ hạt nhanh dần; tổng quãng đường đi được trên $0\le t\le3$ là $11$.
+
+**Đáp số.** a) $1<t<2$; b) nhanh dần; c) $11$.
 :::
 
 :::exercise Hai chiếc xe
@@ -240,7 +309,24 @@ Xe A chạy về hướng bắc từ một ngã tư với vận tốc $60$ ki-l�
 2. $z\dfrac{dz}{dt}=x\dfrac{dx}{dt}+y\dfrac{dy}{dt}$.
 
 ::solution
-$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, nên $\dfrac{dz}{dt}=100$ ki-lô-mét mỗi giờ.
+Gọi $y$ (ki-lô-mét) là quãng đường xe A đã đi về hướng bắc, $x$ (ki-lô-mét) là quãng đường xe B đã đi về hướng đông và $z$ (ki-lô-mét) là khoảng cách giữa hai xe tại thời điểm $t$ (giờ). Ta có $\dfrac{dy}{dt}=60$ và $\dfrac{dx}{dt}=80$.
+
+Hai xe đi theo hai hướng vuông góc nên theo định lí Pythagore,
+$$z^2=x^2+y^2.$$
+
+Lấy đạo hàm hai vế theo $t$:
+$$2z\,\frac{dz}{dt}=2x\,\frac{dx}{dt}+2y\,\frac{dy}{dt}\ \Rightarrow\ z\,\frac{dz}{dt}=x\,\frac{dx}{dt}+y\,\frac{dy}{dt}.$$
+
+Sau nửa giờ ($t=0{,}5$): $x=80\cdot0{,}5=40$, $y=60\cdot0{,}5=30$ và $z=\sqrt{40^2+30^2}=50$.
+
+Thay vào, ta được
+$$50\,\frac{dz}{dt}=40(80)+30(60)=5000\ \Rightarrow\ \frac{dz}{dt}=100.$$
+
+Kiểm tra: $z=\sqrt{(80t)^2+(60t)^2}=100t$ nên $\dfrac{dz}{dt}=100$.
+
+Vậy sau nửa giờ, khoảng cách giữa hai xe tăng với tốc độ $100$ ki-lô-mét mỗi giờ.
+
+**Đáp số.** $100$ ki-lô-mét mỗi giờ.
 :::
 
 :::exercise Thử thách
@@ -254,7 +340,17 @@ Hàm số $f$ có đạo hàm cấp hai, $f(1)=3$, $f'(1)=2$ và $f''(x)>0$ vớ
 2. Lõm lên: tiếp tuyến nằm ở đâu so với đồ thị?
 
 ::solution
-$f(1{,}2)\approx3{,}4$. Vì $f''>0$ nên đồ thị lõm lên và nằm phía trên tiếp tuyến, do đó $3{,}4$ nhỏ hơn giá trị thật.
+Phương trình tiếp tuyến của đồ thị $f$ tại $x=1$ là
+$$L(x)=f(1)+f'(1)(x-1)=3+2(x-1).$$
+
+Ước lượng bằng tiếp tuyến, với $1{,}2-1=0{,}2$:
+$$f(1{,}2)\approx L(1{,}2)=3+2(0{,}2)=3{,}4.$$
+
+Vì $f''(x)>0$ với mọi $x$ nên đồ thị của $f$ lõm lên (lõm hướng lên trên) trên toàn bộ trục số, và do đó đồ thị nằm phía trên mọi tiếp tuyến của nó. Đặc biệt, tại $x=1{,}2$ ta có $f(1{,}2)>L(1{,}2)=3{,}4$.
+
+Vậy giá trị ước lượng $3{,}4$ nhỏ hơn giá trị thật của $f(1{,}2)$.
+
+**Đáp số.** $f(1{,}2)\approx3{,}4$; giá trị ước lượng nhỏ hơn giá trị thật.
 :::
 
 :::quiz

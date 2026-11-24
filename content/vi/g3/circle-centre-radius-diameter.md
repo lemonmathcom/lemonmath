@@ -158,11 +158,15 @@ c) $OB$ so với $OA$ như thế nào?
 2. Có đi qua tâm và hai đầu trên đường tròn không?
 
 ::solution
-a) $OA$ là bán kính.
+Hình tròn có tâm $O$; hai điểm $A$, $B$ nằm trên đường tròn và $O$ nằm trên đoạn thẳng $AB$.
 
-b) $AB$ là đường kính.
+a) $OA$ là đoạn thẳng nối tâm $O$ với điểm $A$ trên đường tròn nên $OA$ là bán kính.
 
-c) $OB$ cũng là bán kính nên $OB=OA$.
+b) $AB$ là đoạn thẳng đi qua tâm $O$ và có hai đầu $A$, $B$ nằm trên đường tròn nên $AB$ là đường kính.
+
+c) $OB$ cũng là đoạn thẳng nối tâm $O$ với điểm $B$ trên đường tròn nên $OB$ là bán kính. Mọi bán kính của một hình tròn đều bằng nhau, do đó $OB=OA$.
+
+Vậy $OA$ là bán kính, $AB$ là đường kính, và $OB=OA$.
 
 **Đáp số.** a) Bán kính; b) đường kính; c) bằng nhau.
 :::
@@ -184,11 +188,15 @@ c) $10$ cm.
 2. Nhân với $2$ rồi ghi đơn vị.
 
 ::solution
-a) $4\times2=8$ (cm).
+Trong một hình tròn, đường kính dài gấp hai lần bán kính, nên muốn tính đường kính ta lấy bán kính nhân với $2$.
 
-b) $6\times2=12$ (cm).
+a) Hình tròn có bán kính $4$ cm thì đường kính là $4\times2=8$ (cm).
 
-c) $10\times2=20$ (cm).
+b) Hình tròn có bán kính $6$ cm thì đường kính là $6\times2=12$ (cm).
+
+c) Hình tròn có bán kính $10$ cm thì đường kính là $10\times2=20$ (cm).
+
+Vậy các hình tròn đó có đường kính lần lượt là $8$ cm, $12$ cm và $20$ cm.
 
 **Đáp số.** a) $8$ cm; b) $12$ cm; c) $20$ cm.
 :::
@@ -204,7 +212,16 @@ Em hãy nhớ lại bài trước về trung điểm. Tâm $O$ là trung điểm
 2. Chia $AB$ cho $2$.
 
 ::solution
-$OA=18:2=9$ (cm). Vì $O$ là trung điểm nên $OB=OA=9$ cm.
+Tâm $O$ là trung điểm của đường kính $AB$ nên $O$ chia $AB$ thành hai đoạn bằng nhau.
+
+Ta có
+$$OA=AB:2=18:2=9\ (\text{cm}).$$
+
+Vì $O$ là trung điểm của $AB$ nên $OB=OA=9$ cm.
+
+Thử lại: $OA+OB=9+9=18$ (cm), bằng $AB$. Đúng.
+
+Vậy $OA=9$ cm và $OB=9$ cm.
 
 **Đáp số.** $OA=9$ cm và $OB=9$ cm.
 :::
@@ -226,11 +243,15 @@ c) $30$ cm.
 2. Chia cho $2$ rồi ghi đơn vị.
 
 ::solution
-a) $12:2=6$ (cm).
+Trong một hình tròn, bán kính bằng một nửa đường kính, nên muốn tính bán kính ta lấy đường kính chia cho $2$.
 
-b) $20:2=10$ (cm).
+a) Hình tròn có đường kính $12$ cm thì bán kính là $12:2=6$ (cm).
 
-c) $30:2=15$ (cm).
+b) Hình tròn có đường kính $20$ cm thì bán kính là $20:2=10$ (cm).
+
+c) Hình tròn có đường kính $30$ cm thì bán kính là $30:2=15$ (cm).
+
+Vậy các hình tròn đó có bán kính lần lượt là $6$ cm, $10$ cm và $15$ cm.
 
 **Đáp số.** a) $6$ cm; b) $10$ cm; c) $15$ cm.
 :::
@@ -252,11 +273,13 @@ c) Đường kính dài gấp đôi bán kính.
 2. Tìm ví dụ cho thấy câu sai.
 
 ::solution
-a) Đúng: mọi điểm trên đường tròn cách tâm một khoảng bằng nhau.
+a) **Đúng.** Mọi điểm trên đường tròn đều cách tâm một khoảng bằng nhau, nên mọi bán kính của một hình tròn đều bằng nhau.
 
-b) Sai: đoạn nối hai điểm trên đường tròn nhưng không đi qua tâm thì không là đường kính.
+b) **Sai.** Đoạn thẳng nối hai điểm trên đường tròn mà không đi qua tâm thì không phải là đường kính. Đường kính phải đi qua tâm.
 
-c) Đúng: đường kính gồm hai bán kính.
+c) **Đúng.** Đường kính gồm hai bán kính nối tiếp nhau (hai bên của tâm), nên đường kính dài gấp đôi bán kính.
+
+Vậy các câu a), c) đúng; câu b) sai.
 
 **Đáp số.** a) Đúng; b) sai; c) đúng.
 :::
@@ -272,9 +295,16 @@ Lan nói: "Hình tròn có đường kính $10$ cm thì bán kính là $20$ cm".
 2. Dùng phép tính đúng.
 
 ::solution
-Lan đã nhân với $2$, nhưng phải chia đôi: $10:2=5$ (cm).
+Trong một hình tròn, bán kính bằng một nửa đường kính, nên muốn tìm bán kính ta phải chia đường kính cho $2$.
 
-**Thử lại.** $5\times2=10$. Đúng.
+Lan đã nhân với $2$ ($10\times2=20$) thay vì chia cho $2$, nên Lan nhầm phép tính. Kết quả của Lan cũng vô lí: bán kính $20$ cm thì đường kính là $20\times2=40$ (cm), khác $10$ cm.
+
+Sửa lại:
+$$10:2=5\ (\text{cm}).$$
+
+Thử lại: $5\times2=10$. Đúng.
+
+Vậy Lan nhầm phép tính; bán kính của hình tròn là $5$ cm.
 
 **Đáp số.** Lan nhầm phép tính; bán kính là $5$ cm.
 :::
@@ -292,9 +322,13 @@ b) Muốn vẽ hình tròn có đường kính $10$ cm, em mở com-pa bao nhiê
 2. Nhân hoặc chia cho $2$, ghi đáp số có đơn vị.
 
 ::solution
-a) Đường kính là $35\times2=70$ (cm).
+a) Đường kính dài gấp hai lần bán kính nên đường kính của bánh xe là
+$$35\times2=70\ (\text{cm}).$$
 
-b) Độ mở com-pa là bán kính: $10:2=5$ (cm).
+b) Khi vẽ hình tròn bằng com-pa, độ mở của com-pa bằng bán kính của hình tròn. Hình tròn có đường kính $10$ cm nên bán kính là
+$$10:2=5\ (\text{cm}).$$
+
+Vậy đường kính của bánh xe là $70$ cm, và em phải mở com-pa $5$ cm.
 
 **Đáp số.** a) $70$ cm; b) $5$ cm.
 :::
@@ -312,7 +346,17 @@ Ba hình tròn bằng nhau, mỗi hình có bán kính $4$ cm, được xếp th
 2. Hàng gồm $3$ đường kính nối đuôi nhau.
 
 ::solution
-Đường kính mỗi hình tròn là $4\times2=8$ (cm). Hàng dài $8\times3=24$ (cm).
+Bài giải
+
+Đường kính của mỗi hình tròn là:
+$$4\times2=8\ (\text{cm}).$$
+
+Ba hình tròn bằng nhau xếp thành một hàng ngang, hai hình cạnh nhau chạm nhau, nên chiều dài của hàng bằng tổng ba đường kính. Hàng dài là:
+$$8\times3=24\ (\text{cm}).$$
+
+Thử lại: hàng dài bằng $6$ bán kính nên $4\times6=24$ (cm). Đúng.
+
+Vậy hàng đó dài $24$ cm.
 
 **Đáp số.** $24$ cm.
 :::

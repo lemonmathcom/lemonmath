@@ -162,7 +162,13 @@ Trong các phân số $\dfrac{4}{10}$, $\dfrac{9}{25}$, $\dfrac{17}{100}$, $\dfr
 2. Chọn các phân số có mẫu số là $10$, $100$ hoặc $1\,000$.
 
 ::solution
-Các phân số $\dfrac{4}{10}$, $\dfrac{17}{100}$ và $\dfrac{120}{1\,000}$ có mẫu số là $10$, $100$ và $1\,000$. Hai phân số còn lại có mẫu số $25$ và $8$.
+Phân số thập phân là phân số có mẫu số là $10$, $100$, $1\,000$, $\ldots$ Ta xét mẫu số của từng phân số.
+
+Các phân số $\dfrac{4}{10}$, $\dfrac{17}{100}$ và $\dfrac{120}{1\,000}$ có mẫu số lần lượt là $10$, $100$ và $1\,000$ nên đây là các phân số thập phân.
+
+Các phân số $\dfrac{9}{25}$ và $\dfrac{3}{8}$ có mẫu số lần lượt là $25$ và $8$, không phải $10$, $100$, $1\,000$, $\ldots$ nên không phải là phân số thập phân.
+
+Vậy các phân số thập phân là $\dfrac{4}{10}$, $\dfrac{17}{100}$ và $\dfrac{120}{1\,000}$.
 
 **Đáp số.** $\dfrac{4}{10}$, $\dfrac{17}{100}$, $\dfrac{120}{1\,000}$.
 :::
@@ -178,7 +184,15 @@ Viết các phân số $\dfrac{4}{5}$ và $\dfrac{9}{25}$ thành phân số th�
 2. Nhân cả tử số và mẫu số.
 
 ::solution
-$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$ và $\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$.
+Để viết một phân số thành phân số thập phân, ta tìm số để nhân cả tử số và mẫu số sao cho mẫu số trở thành $10$, $100$, $\ldots$
+
+Với $\dfrac{4}{5}$: vì $5\times2=10$ nên ta nhân cả tử số và mẫu số với $2$:
+$$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$$
+
+Với $\dfrac{9}{25}$: vì $25\times4=100$ nên ta nhân cả tử số và mẫu số với $4$:
+$$\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$$
+
+Vậy $\dfrac{4}{5}=\dfrac{8}{10}$ và $\dfrac{9}{25}=\dfrac{36}{100}$.
 
 **Đáp số.** $\dfrac{8}{10}$ và $\dfrac{36}{100}$.
 :::
@@ -194,7 +208,14 @@ Viết phân số $\dfrac{7}{8}$ thành phân số thập phân có mẫu số l
 2. Nhân cả tử số và mẫu số.
 
 ::solution
-$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}.$$
+Ta tìm số nhân với mẫu số $8$ để được $1\,000$. Ta có $1\,000:8=125$.
+
+Nhân cả tử số và mẫu số với $125$, ta được:
+$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}$$
+
+*Thử lại.* $7\times125=875$ và $8\times125=1\,000$. Đúng.
+
+Vậy $\dfrac{7}{8}=\dfrac{875}{1\,000}$.
 
 **Đáp số.** $\dfrac{875}{1\,000}$.
 :::
@@ -210,7 +231,17 @@ Rút gọn các phân số thập phân $\dfrac{60}{100}$ và $\dfrac{125}{1\,00
 2. $125$ và $1\,000$ cùng chia hết cho số nào?
 
 ::solution
-$\dfrac{60}{100}=\dfrac{60:20}{100:20}=\dfrac{3}{5}$ và $\dfrac{125}{1\,000}=\dfrac{125:125}{1\,000:125}=\dfrac{1}{8}$.
+Để rút gọn một phân số, ta chia cả tử số và mẫu số cho một số tự nhiên lớn hơn $1$ mà cả hai cùng chia hết.
+
+Với $\dfrac{60}{100}$: cả $60$ và $100$ cùng chia hết cho $20$, nên
+$$\dfrac{60}{100}=\dfrac{60:20}{100:20}=\dfrac{3}{5}$$
+Phân số $\dfrac{3}{5}$ có $3$ và $5$ không cùng chia hết cho số nào lớn hơn $1$, nên đã tối giản.
+
+Với $\dfrac{125}{1\,000}$: cả $125$ và $1\,000$ cùng chia hết cho $125$, nên
+$$\dfrac{125}{1\,000}=\dfrac{125:125}{1\,000:125}=\dfrac{1}{8}$$
+Phân số $\dfrac{1}{8}$ có tử số là $1$ nên đã tối giản.
+
+Vậy $\dfrac{60}{100}=\dfrac{3}{5}$ và $\dfrac{125}{1\,000}=\dfrac{1}{8}$.
 
 **Đáp số.** $\dfrac{3}{5}$ và $\dfrac{1}{8}$.
 :::
@@ -226,7 +257,14 @@ Viết $450$ g dưới dạng phân số của ki-lô-gam, rồi rút gọn đ�
 2. Rút gọn phân số.
 
 ::solution
-$450$ g $=\dfrac{450}{1\,000}$ kg. Cả $450$ và $1\,000$ chia hết cho $50$: $\dfrac{450}{1\,000}=\dfrac{9}{20}$ kg.
+Ta có $1$ kg $=1\,000$ g, nên $1$ g bằng $\dfrac{1}{1\,000}$ kg. Do đó
+$$450\ \text{g}=\dfrac{450}{1\,000}\ \text{kg}$$
+
+Cả $450$ và $1\,000$ cùng chia hết cho $50$, nên
+$$\dfrac{450}{1\,000}=\dfrac{450:50}{1\,000:50}=\dfrac{9}{20}$$
+Phân số $\dfrac{9}{20}$ có $9$ và $20$ không cùng chia hết cho số nào lớn hơn $1$ nên đã tối giản.
+
+Vậy $450$ g $=\dfrac{9}{20}$ kg.
 
 **Đáp số.** $\dfrac{9}{20}$ kg.
 :::
@@ -242,8 +280,16 @@ Buổi sáng Lan đi bộ được $\dfrac{2}{10}$ km, buổi chiều đi bộ �
 2. Đổi $\dfrac{2}{10}$ thành phân số có mẫu số $100$ rồi cộng.
 
 ::solution
-Ta có $\dfrac{2}{10}=\dfrac{20}{100}$. Số ki-lô-mét Lan đi bộ cả hai buổi là:
-$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}.$$
+Bài giải
+
+Hai phân số có mẫu số khác nhau, nên ta quy đồng. Vì $10\times10=100$ nên
+$$\dfrac{2}{10}=\dfrac{2\times10}{10\times10}=\dfrac{20}{100}$$
+
+Số ki-lô-mét Lan đi bộ cả hai buổi là:
+$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}$$
+(Rút gọn bằng cách chia cả tử số và mẫu số cho $5$.)
+
+Vậy cả hai buổi Lan đi bộ được $\dfrac{11}{20}$ km.
 
 **Đáp số.** $\dfrac{11}{20}$ km.
 :::
@@ -259,7 +305,14 @@ Em hãy nhớ lại bài so sánh phân số. So sánh $\dfrac{7}{10}$ và $\dfr
 2. So sánh hai tử số.
 
 ::solution
-$\dfrac{7}{10}=\dfrac{70}{100}$. Vì $70>65$ nên $\dfrac{70}{100}>\dfrac{65}{100}$.
+Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh các tử số.
+
+Vì $10\times10=100$ nên
+$$\dfrac{7}{10}=\dfrac{7\times10}{10\times10}=\dfrac{70}{100}$$
+
+Hai phân số $\dfrac{70}{100}$ và $\dfrac{65}{100}$ có cùng mẫu số. Vì $70>65$ nên $\dfrac{70}{100}>\dfrac{65}{100}$.
+
+Vậy $\dfrac{7}{10}>\dfrac{65}{100}$.
 
 **Đáp số.** $\dfrac{7}{10}>\dfrac{65}{100}$.
 :::
@@ -275,8 +328,15 @@ Bình có $\dfrac{9}{10}$ lít sữa và uống hết $\dfrac{37}{100}$ lít. H�
 2. Đổi $\dfrac{9}{10}$ thành phân số có mẫu số $100$ rồi trừ.
 
 ::solution
-Ta có $\dfrac{9}{10}=\dfrac{90}{100}$. Số lít sữa còn lại là:
-$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(lít)}.$$
+Bài giải
+
+Ta quy đồng mẫu số. Vì $10\times10=100$ nên
+$$\dfrac{9}{10}=\dfrac{9\times10}{10\times10}=\dfrac{90}{100}$$
+
+Số lít sữa Bình còn lại là:
+$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(lít)}$$
+
+Vậy Bình còn lại $\dfrac{53}{100}$ lít sữa.
 
 **Đáp số.** $\dfrac{53}{100}$ lít.
 :::
@@ -292,7 +352,18 @@ Em hãy nhớ lại bài tìm phân số của một số. Viết $\dfrac{3}{5}$
 2. Chia $150$ cho $10$ rồi nhân với $6$.
 
 ::solution
-$\dfrac{3}{5}=\dfrac{6}{10}$. Do đó $\dfrac{3}{5}$ của $150$ kg là $150:10\times6=15\times6=90$ (kg).
+Bài giải
+
+Vì $5\times2=10$ nên ta nhân cả tử số và mẫu số của $\dfrac{3}{5}$ với $2$:
+$$\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$$
+
+$\dfrac{1}{10}$ của $150$ kg là:
+$$150:10=15\ \text{(kg)}$$
+
+$\dfrac{3}{5}$ của $150$ kg, tức là $\dfrac{6}{10}$ của $150$ kg, là:
+$$15\times6=90\ \text{(kg)}$$
+
+Vậy $\dfrac{3}{5}=\dfrac{6}{10}$ và $\dfrac{3}{5}$ của $150$ kg là $90$ kg.
 
 **Đáp số.** $\dfrac{6}{10}$; $90$ kg.
 :::
@@ -308,9 +379,15 @@ Tìm tất cả các số có một chữ số $n$ (khác $0$) để phân số 
 2. Với mỗi $n$ chia hết, viết $\dfrac{1}{n}=\dfrac{?}{1\,000}$.
 
 ::solution
-$1\,000$ chia hết cho $1$, $2$, $4$, $5$, $8$, còn không chia hết cho $3$, $6$, $7$, $9$.
+Nếu $\dfrac{1}{n}=\dfrac{k}{1\,000}$ với $k$ là số tự nhiên thì $n\times k=1\,000$, tức là $1\,000$ phải chia hết cho $n$. Ngược lại, nếu $1\,000$ chia hết cho $n$ thì $\dfrac{1}{n}=\dfrac{1\,000:n}{1\,000}$. Vì vậy ta kiểm tra xem $1\,000$ chia hết cho số có một chữ số nào.
 
-Ví dụ $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000}$, $\dfrac{1}{5}=\dfrac{200}{1\,000}$, $\dfrac{1}{2}=\dfrac{500}{1\,000}$, $\dfrac{1}{1}=\dfrac{1\,000}{1\,000}$.
+- $1\,000:1=1\,000$, $1\,000:2=500$, $1\,000:4=250$, $1\,000:5=200$, $1\,000:8=125$: chia hết.
+- $1\,000:3$, $1\,000:6$, $1\,000:7$, $1\,000:9$ đều có số dư khác $0$: không chia hết.
+
+Do đó $n$ có thể là $1$, $2$, $4$, $5$, $8$. Ta có
+$$\dfrac{1}{1}=\dfrac{1\,000}{1\,000},\ \dfrac{1}{2}=\dfrac{500}{1\,000},\ \dfrac{1}{4}=\dfrac{250}{1\,000},\ \dfrac{1}{5}=\dfrac{200}{1\,000},\ \dfrac{1}{8}=\dfrac{125}{1\,000}$$
+
+Vậy $n=1$, $2$, $4$, $5$ hoặc $8$.
 
 **Đáp số.** $n=1$, $2$, $4$, $5$ hoặc $8$.
 :::

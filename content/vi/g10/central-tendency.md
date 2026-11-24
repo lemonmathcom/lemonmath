@@ -195,9 +195,13 @@ b) Tìm trung vị của $3, 9, 4, 7, 1, 6$.
 2. b) Sắp xếp sáu số, lấy trung bình hai số giữa.
 
 ::solution
-a) $\bar{x}=\dfrac{45}{5}=9$.
+a) Số trung bình cộng của $n$ số là tổng các số chia cho $n$. Với $5$ số đã cho, ta có
+$$\bar{x}=\frac{6+8+9+10+12}{5}=\frac{45}{5}=9.$$
 
-b) Sắp xếp: $1, 3, 4, 6, 7, 9$; $M_e=\dfrac{4+6}{2}=5$.
+b) Sắp xếp các số theo thứ tự không giảm: $1, 3, 4, 6, 7, 9$. Mẫu có $n=6$ số (chẵn) nên trung vị là trung bình cộng của hai giá trị chính giữa, là giá trị thứ $3$ và thứ $4$:
+$$M_e=\frac{4+6}{2}=5.$$
+
+Vậy số trung bình cộng của $6, 8, 9, 10, 12$ bằng $9$, và trung vị của $3, 9, 4, 7, 1, 6$ bằng $5$.
 
 **Đáp số.** a) $9$; b) $5$.
 :::
@@ -215,9 +219,13 @@ b) Một cửa hàng ghi cỡ áo bán được trong ngày: M, L, S, M, XL, M, 
 2. Chọn giá trị xuất hiện nhiều nhất.
 
 ::solution
-a) $5$ xuất hiện ba lần, nhiều nhất.
+a) Mốt là giá trị xuất hiện nhiều lần nhất. Trong dãy $2, 3, 3, 5, 5, 5, 7$: số $2$ xuất hiện một lần, số $3$ hai lần, số $5$ ba lần, số $7$ một lần. Số $5$ xuất hiện nhiều nhất nên $M_o=5$.
 
-b) Tần số: S: $2$, M: $4$, L: $3$, XL: $1$. Cỡ áo không phải là số nên không cộng và chia được.
+b) Lập bảng tần số của $10$ cỡ áo đã ghi: S xuất hiện $2$ lần, M xuất hiện $4$ lần, L xuất hiện $3$ lần, XL xuất hiện $1$ lần (kiểm tra: $2+4+3+1=10$). Tần số lớn nhất là $4$, ứng với cỡ M nên mốt là cỡ M.
+
+Cỡ áo là dữ liệu không phải số, nên không thể cộng các giá trị rồi chia cho số lượng; do đó không tính được số trung bình cộng của dữ liệu này.
+
+Vậy mốt của dãy ở ý a) là $5$; mốt của cỡ áo là M, và không tính được số trung bình cộng của dữ liệu cỡ áo.
 
 **Đáp số.** a) $M_o=5$; b) $M_o=\text{M}$; không tính được số trung bình cộng.
 :::
@@ -237,9 +245,21 @@ b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
 2. Chia hai nửa, tìm trung vị mỗi nửa.
 
 ::solution
-a) $n=9$, $M_e=8$. Nửa dưới $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4{,}5$. Nửa trên $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+Ta dùng quy ước: $M_e$ là trung vị của cả mẫu; $Q_1$ là trung vị của nửa dưới và $Q_3$ là trung vị của nửa trên. Khi $n$ lẻ, nửa dưới và nửa trên không chứa trung vị $M_e$. Cả hai mẫu đã được sắp xếp tăng dần.
 
-b) $n=12$, $M_e=\dfrac{10+12}{2}=11$. Nửa dưới $3, 4, 6, 7, 9, 10$: $Q_1=6{,}5$. Nửa trên $12, 13, 15, 16, 18, 20$: $Q_3=15{,}5$.
+a) Mẫu có $n=9$ (lẻ) nên $M_e$ là giá trị thứ $5$, tức $M_e=8$.
+
+Nửa dưới là $2, 4, 5, 7$ (gồm $4$ số), nên $Q_1=\dfrac{4+5}{2}=4{,}5$.
+
+Nửa trên là $10, 11, 13, 15$ (gồm $4$ số), nên $Q_3=\dfrac{11+13}{2}=12$.
+
+b) Mẫu có $n=12$ (chẵn) nên $M_e$ là trung bình cộng của giá trị thứ $6$ và thứ $7$: $M_e=\dfrac{10+12}{2}=11$.
+
+Nửa dưới là $3, 4, 6, 7, 9, 10$ (gồm $6$ số), nên $Q_1=\dfrac{6+7}{2}=6{,}5$.
+
+Nửa trên là $12, 13, 15, 16, 18, 20$ (gồm $6$ số), nên $Q_3=\dfrac{15+16}{2}=15{,}5$.
+
+Vậy ở ý a) $M_e=8$, $Q_1=4{,}5$, $Q_3=12$; ở ý b) $M_e=11$, $Q_1=6{,}5$, $Q_3=15{,}5$.
 
 **Đáp số.** a) $M_e=8$, $Q_1=4{,}5$, $Q_3=12$; b) $M_e=11$, $Q_1=6{,}5$, $Q_3=15{,}5$.
 :::
@@ -259,8 +279,17 @@ Bảng cho số quyển sách đã đọc trong tháng của $22$ học sinh. T�
 2. Lập tần số tích luỹ, tìm giá trị thứ $11$ và thứ $12$.
 
 ::solution
-$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2{,}86.$$
-Tần số tích luỹ $3, 8, 16, 20, 22$: giá trị thứ $11$ và $12$ đều bằng $3$, nên $M_e=3$. Tần số lớn nhất là $8$, ứng với $3$ quyển.
+Tổng số học sinh là $3+5+8+4+2=22$.
+
+Số trung bình cộng được tính bằng tổng (giá trị nhân tần số) chia cho $22$:
+$$\bar{x}=\frac{1\cdot3+2\cdot5+3\cdot8+4\cdot4+5\cdot2}{22}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2{,}86.$$
+
+Mẫu có $n=22$ (chẵn) nên trung vị là trung bình cộng của giá trị thứ $11$ và thứ $12$. Tần số tích luỹ ứng với $1, 2, 3, 4, 5$ quyển lần lượt là $3, 8, 16, 20, 22$. Các giá trị từ thứ $9$ đến thứ $16$ đều bằng $3$ (vì $8<9$ và $16\ge16$), nên giá trị thứ $11$ và thứ $12$ đều bằng $3$. Do đó
+$$M_e=\frac{3+3}{2}=3.$$
+
+Tần số lớn nhất là $8$, ứng với $3$ quyển, nên mốt là $3$.
+
+Vậy $\bar{x}\approx2{,}86$ quyển, $M_e=3$ quyển và mốt là $3$ quyển.
 
 **Đáp số.** $\bar{x}\approx2{,}86$; $M_e=3$; $M_o=3$.
 :::
@@ -285,13 +314,17 @@ d) Nếu thêm giá trị $30$ vào mẫu thì trung vị thay đổi nhiều h�
 3. Với $n=10$ sau khi thêm $30$, tính lại $\bar{x}$ và $M_e$.
 
 ::solution
-a) **Sai:** $\bar{x}=\dfrac{78}{9}\approx8{,}67$.
+Mẫu số liệu $5, 7, 7, 8, 9, 10, 10, 10, 12$ đã được sắp xếp tăng dần và có $n=9$ giá trị.
 
-b) **Đúng:** giá trị thứ $5$ là $9$.
+a) **Sai.** Tổng các giá trị là $5+7+7+8+9+10+10+10+12=78$, nên $\bar{x}=\dfrac{78}{9}\approx8{,}67$, khác $8$.
 
-c) **Đúng:** nửa dưới $5, 7, 7, 8$ cho $Q_1=\dfrac{7+7}{2}=7$.
+b) **Đúng.** Vì $n=9$ là số lẻ nên trung vị là giá trị thứ $5$, bằng $9$.
 
-d) **Sai:** sau khi thêm $30$, $M_e=\dfrac{9+10}{2}=9{,}5$ (tăng $0{,}5$), còn $\bar{x}=\dfrac{108}{10}=10{,}8$ (tăng khoảng $2{,}13$).
+c) **Đúng.** Nửa dưới (không chứa trung vị) là $5, 7, 7, 8$, nên $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **Sai.** Sau khi thêm $30$, mẫu là $5, 7, 7, 8, 9, 10, 10, 10, 12, 30$ gồm $10$ giá trị. Trung vị mới là $M_e=\dfrac{9+10}{2}=9{,}5$, tăng $9{,}5-9=0{,}5$. Số trung bình cộng mới là $\bar{x}=\dfrac{78+30}{10}=\dfrac{108}{10}=10{,}8$, tăng khoảng $10{,}8-8{,}67\approx2{,}13$. Trung vị tăng ít hơn số trung bình cộng nên khẳng định "trung vị thay đổi nhiều hơn" là sai.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -307,8 +340,14 @@ Một lớp có $20$ bạn nữ với điểm trung bình $7{,}0$ và $10$ bạn
 2. Chia tổng cho $30$.
 
 ::solution
+Điểm trung bình của cả lớp bằng tổng điểm của cả lớp chia cho tổng số học sinh.
+
+Tổng điểm của $20$ bạn nữ là $20\cdot7=140$. Tổng điểm của $10$ bạn nam là $10\cdot8{,}5=85$. Cả lớp có $20+10=30$ học sinh. Do đó
 $$\bar{x}=\frac{20\cdot7+10\cdot8{,}5}{30}=\frac{140+85}{30}=\frac{225}{30}=7{,}5.$$
-Không được lấy $\dfrac{7+8{,}5}{2}=7{,}75$, vì hai nhóm có số người khác nhau.
+
+Vậy điểm trung bình của cả lớp là $7{,}5$.
+
+*Nhận xét.* Không được lấy $\dfrac{7+8{,}5}{2}=7{,}75$, vì hai nhóm có số người khác nhau nên phải tính theo tổng điểm và tổng số người.
 
 **Đáp số.** $7{,}5$.
 :::
@@ -324,8 +363,16 @@ Lương tháng (triệu đồng) của bảy nhân viên một cửa hàng nhỏ
 2. So sánh mỗi số với phần lớn các giá trị.
 
 ::solution
-$$\bar{x}=\frac{177}{7}\approx25{,}29,\qquad M_e=15.$$
-Sáu trong bảy người nhận dưới $18$ triệu đồng, nên $25{,}29$ không đại diện cho ai.
+Gọi $\bar{x}$ (triệu đồng) là số trung bình cộng và $M_e$ (triệu đồng) là trung vị của lương bảy người.
+
+Tổng lương là $12+13+14+15+16+17+90=177$ (triệu đồng), nên
+$$\bar{x}=\frac{177}{7}\approx25{,}29.$$
+
+Bảy giá trị đã được sắp xếp tăng dần; $n=7$ là số lẻ nên trung vị là giá trị thứ $4$, tức $M_e=15$.
+
+Sáu trong bảy người nhận dưới $18$ triệu đồng (từ $12$ đến $17$ triệu đồng), nhưng số trung bình cộng $25{,}29$ lớn hơn cả sáu mức lương đó, vì bị kéo lên bởi giá trị rất lớn $90$ của chủ cửa hàng. Vì vậy $25{,}29$ không đại diện cho ai trong bảy người. Trung vị $15$ không bị giá trị bất thường này làm lệch nên phản ánh đúng mức lương thường gặp.
+
+Vậy số trung bình cộng khoảng $25{,}29$ triệu đồng, trung vị bằng $15$ triệu đồng; để biết một nhân viên ở đây thường được trả bao nhiêu, nên dùng trung vị.
 
 **Đáp số.** $\bar{x}\approx25{,}29$ triệu đồng, $M_e=15$ triệu đồng; nên dùng trung vị.
 :::
@@ -341,7 +388,17 @@ Bảy số có trung bình cộng bằng $10$. Bỏ đi một số thì trung b�
 2. Lấy hiệu.
 
 ::solution
-Tổng bảy số là $7\cdot10=70$, tổng sáu số là $6\cdot9=54$, nên số bị bỏ là $70-54=16$.
+Gọi $a$ là số bị bỏ đi.
+
+Bảy số có trung bình cộng bằng $10$ nên tổng của chúng là $7\cdot10=70$.
+
+Sáu số còn lại có trung bình cộng bằng $9$ nên tổng của chúng là $6\cdot9=54$.
+
+Tổng bảy số bằng tổng sáu số còn lại cộng với số bị bỏ đi, nên $70=54+a$. Suy ra $a=70-54=16$.
+
+Kiểm tra: bỏ số $16$ khỏi bảy số thì còn tổng $70-16=54$, trung bình cộng của sáu số còn lại là $\dfrac{54}{6}=9$ (đúng).
+
+Vậy số bị bỏ đi là $16$.
 
 **Đáp số.** $16$.
 :::
@@ -358,9 +415,18 @@ Một mẫu gồm $5$ số nguyên dương có số trung bình cộng bằng $6
 3. Tìm $d$ từ tổng.
 
 ::solution
-Tổng bằng $5\cdot6=30$. Vì $3<5=c$, số $3$ chỉ có thể là $a$, $b$, nên $a=b=3$. Khi đó
+Gọi mẫu số liệu, sắp xếp tăng dần, là $a\le b\le c\le d\le e$ (các số nguyên dương).
+
+Trung vị bằng $5$ nên $c=5$. Giá trị lớn nhất bằng $11$ nên $e=11$. Số trung bình cộng bằng $6$ nên tổng năm số là $5\cdot6=30$.
+
+Mốt duy nhất bằng $3$ nên số $3$ phải xuất hiện ít nhất hai lần (nếu mọi giá trị chỉ xuất hiện một lần thì không có mốt duy nhất). Vì $3<5=c$ và các số đứng sau $c$ đều không nhỏ hơn $5$, nên các số bằng $3$ chỉ có thể là $a$ và $b$. Do đó $a=b=3$.
+
+Khi đó
 $$d=30-3-3-5-11=8.$$
-Mẫu $3, 3, 5, 8, 11$ có mỗi giá trị khác $3$ xuất hiện một lần, nên mốt duy nhất là $3$.
+
+Kiểm tra: $5\le d=8\le11$ (đúng thứ tự). Mẫu $3, 3, 5, 8, 11$ có trung bình cộng $\dfrac{30}{5}=6$, trung vị $5$, giá trị lớn nhất $11$; số $3$ xuất hiện hai lần còn mỗi giá trị khác chỉ xuất hiện một lần, nên mốt duy nhất là $3$.
+
+Vậy mẫu số liệu cần tìm là $3, 3, 5, 8, 11$.
 
 **Đáp số.** $3, 3, 5, 8, 11$.
 :::
@@ -377,8 +443,20 @@ Mẫu $3, 3, 5, 8, 11$ có mỗi giá trị khác $3$ xuất hiện một lần,
 3. Thay hai cặp số.
 
 ::solution
-$$\frac{6+7+8+7+x+y}{6}\ge7{,}5\iff 28+x+y\ge45\iff x+y\ge17.$$
-Với $(8; 9)$: $17\ge17$, đúng. Với $(10; 6)$: $16\ge17$, sai.
+Gọi $x$ và $y$ là điểm của hai bài kiểm tra còn lại (thang điểm $10$, tức $0\le x, y\le10$).
+
+Bốn bài đã có $6, 7, 8, 7$ với tổng $6+7+8+7=28$. Điểm trung bình của sáu bài ít nhất là $7{,}5$ khi
+$$\frac{6+7+8+7+x+y}{6}\ge7{,}5.$$
+
+Nhân hai vế với $6>0$ (giữ nguyên chiều bất đẳng thức), ta được $28+x+y\ge45$, suy ra
+$$x+y\ge17.$$
+
+Kiểm tra từng cặp điểm:
+
+- Với $(8; 9)$: $8+9=17$ và $17\ge17$ đúng, nên cặp này thoả mãn.
+- Với $(10; 6)$: $10+6=16$ và $16\ge17$ sai, nên cặp này không thoả mãn.
+
+Vậy điều kiện là $x+y\ge17$ (với $0\le x, y\le10$); cặp $(8; 9)$ thoả mãn, cặp $(10; 6)$ không thoả mãn.
 
 **Đáp số.** $x+y\ge17$ (với $0\le x, y\le10$); $(8; 9)$ thoả mãn, $(10; 6)$ không thoả mãn.
 :::

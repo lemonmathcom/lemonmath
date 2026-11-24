@@ -163,7 +163,17 @@ Write each fraction as a decimal and as a percentage: a) $\dfrac{3}{4}$; b) $\df
 2. Write the result as a percentage.
 
 ::solution
-a) $3\div4=0.75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0.35=35\%$.
+To write a fraction as a decimal, we divide the numerator by the denominator; to write it as a percentage, we multiply the decimal by $100$ (or rewrite it as a fraction with denominator $100$).
+
+a) We have
+$$\frac34=3\div4=0.75=75\%.$$
+
+So $\dfrac34=0.75=75\%$.
+
+b) Multiply the numerator and the denominator by $5$ so that the denominator is $100$:
+$$\frac{7}{20}=\frac{7\times5}{20\times5}=\frac{35}{100}=0.35=35\%.$$
+
+So $\dfrac{7}{20}=0.35=35\%$.
 
 **Answer.** a) $0.75=75\%$; b) $0.35=35\%$.
 :::
@@ -180,9 +190,16 @@ Work out: a) $25.4-8.75$; b) $4.8\times0.25$; c) $9.6\div0.8$.
 3. c) Change it to $96\div8$.
 
 ::solution
-a) $25.40-8.75=16.65$.
-b) $48\times25=1\,200$, and there are $1+2=3$ decimal places, so $4.8\times0.25=1.2$.
-c) $9.6\div0.8=96\div8=12$.
+a) Write $25.4=25.40$ so that both numbers have the same number of decimal places, then subtract as with whole numbers:
+$$25.40-8.75=16.65.$$
+
+b) Multiply as with whole numbers: $48\times25=1\,200$. The two factors have $1+2=3$ decimal places altogether, so the product has three decimal places:
+$$4.8\times0.25=1.200=1.2.$$
+
+c) Multiply both the dividend and the divisor by $10$ so that the divisor is a whole number (the quotient does not change):
+$$9.6\div0.8=96\div8=12.$$
+
+So $25.4-8.75=16.65$; $4.8\times0.25=1.2$; $9.6\div0.8=12$.
 
 **Answer.** a) $16.65$; b) $1.2$; c) $12$.
 :::
@@ -198,9 +215,16 @@ Write $>$, $<$ or $=$ in the box: a) $7.305\;\square\;7.35$; b) $0.6\;\square\;6
 2. b), c) Change the percentage and the fraction into decimals.
 
 ::solution
-a) Both have tenths digit $3$; the hundredths digits are $0$ and $5$, so $7.305<7.35$.
-b) $65\%=0.65$ and $0.6=0.60$, so $0.6<65\%$.
-c) $\dfrac{2}{5}=2\div5=0.4=40\%$, so the two are equal.
+a) The numbers $7.305$ and $7.35$ have the same whole part ($7$) and the same tenths digit ($3$). In the hundredths place, $0<5$. Therefore
+$$7.305<7.35.$$
+
+b) Convert $65\%=0.65$ and write $0.6=0.60$. Since $0.60<0.65$,
+$$0.6<65\%.$$
+
+c) We have $\dfrac25=2\div5=0.4=40\%$. The two numbers are equal, so
+$$\frac25=40\%.$$
+
+So the signs to write are $<$, $<$, $=$.
 
 **Answer.** a) $<$; b) $<$; c) $=$.
 :::
@@ -216,7 +240,10 @@ Lan runs $1.2$ km and Mai runs $1.5$ km. What percentage of Mai's distance is La
 2. Divide Lan's distance by Mai's distance, then change to a percentage.
 
 ::solution
-$1.2\div1.5=12\div15=0.8=80\%$.
+To find what percentage of Mai's distance is Lan's distance, we find the ratio of $1.2$ km to $1.5$ km. Multiplying both numbers by $10$ and then dividing, we get
+$$1.2\div1.5=12\div15=0.8=80\%.$$
+
+So Lan's distance is $80\%$ of Mai's distance.
 
 **Answer.** $80\%$.
 :::
@@ -232,8 +259,15 @@ A school has $1\,250$ pupils, and $48\%$ of them are girls. How many boys are th
 2. Subtract the number of girls from the number of pupils in the school.
 
 ::solution
-The number of girls is $1\,250\times48\div100=600$.
-The number of boys is $1\,250-600=650$.
+The number of girls in the school is:
+$$1\,250\times48\div100=600\ \text{(pupils)}$$
+
+The number of boys in the school is:
+$$1\,250-600=650\ \text{(pupils)}$$
+
+Check: $650$ boys make $650\div1\,250=0.52=52\%$, and $100-48=52$. Correct.
+
+So there are $650$ boys.
 
 **Answer.** $650$ boys.
 :::
@@ -250,10 +284,20 @@ Remember the last lesson on fractions. A water tank is used like this: in the mo
 3. $100$ litres is the percentage left: use problem type 3.
 
 ::solution
-Since $\dfrac{2}{5}=40\%$, the amount used is $40\%+35\%=75\%$, so $100\%-75\%=25\%$ is left.
-$25\%$ of the water is $100$ litres, so at first there were $100\div25\times100=400$ litres.
+Convert the fraction to a percentage: $\dfrac25=2\div5=0.4=40\%$.
 
-**Check.** $\dfrac{2}{5}\times400=160$ and $35\%\times400=140$; $400-160-140=100$. Correct.
+Both amounts are taken from the original water, so the amount used is:
+$$40\%+35\%=75\%\ \text{(of the original water)}$$
+
+The amount left is:
+$$100\%-75\%=25\%\ \text{(of the original water)}$$
+
+Since $25\%$ of the original water is $100$ litres, $1\%$ is $100\div25=4$ litres, and the original amount ($100\%$) is:
+$$100\div25\times100=400\ \text{(litres)}$$
+
+Check: $\dfrac25\times400=160$ and $35\%\times400=140$; $400-160-140=100$. Correct.
+
+So at first there were $400$ litres in the tank.
 
 **Answer.** $400$ litres.
 :::
@@ -270,8 +314,19 @@ A pair of shoes has a $25\%$ discount, and the price after the discount is $150\
 3. Subtract the reduced price from the original price.
 
 ::solution
-a) $150\,000$ dong is $75\%$ of the original price, so the original price is $150\,000\div75\times100=200\,000$ dong.
-b) The discount is $200\,000-150\,000=50\,000$ dong. This is also $25\%$ of $200\,000$.
+a) After a $25\%$ discount, the shoes cost $100\%-25\%=75\%$ of the original price. So $150\,000$ dong is $75\%$ of the original price.
+
+The original price ($100\%$) is:
+$$150\,000\div75\times100=200\,000\ \text{(dong)}$$
+
+So the original price of the shoes was $200\,000$ dong.
+
+b) The discount is:
+$$200\,000-150\,000=50\,000\ \text{(dong)}$$
+
+Check: $200\,000\div100\times25=50\,000$, which is $25\%$ of $200\,000$. Correct.
+
+So the discount was $50\,000$ dong.
 
 **Answer.** a) $200\,000$ dong; b) $50\,000$ dong.
 :::
@@ -288,9 +343,19 @@ A shirt costs $500\,000$ dong. Last month the shop raised the price by $10\%$. T
 3. Compare with $500\,000$ dong, then write the difference as a percentage of the original price.
 
 ::solution
-The price after the increase is $500\,000\times110\div100=550\,000$ dong.
-The price now is $550\,000\times90\div100=495\,000$ dong.
-It is lower than the original price by $500\,000-495\,000=5\,000$ dong, and $5\,000\div500\,000=0.01=1\%$.
+After the $10\%$ increase, the shirt costs $100\%+10\%=110\%$ of the original price, so the price after the increase is:
+$$500\,000\times110\div100=550\,000\ \text{(dong)}$$
+
+This month the shop lowers the price by $10\%$ of the raised price, so the price now is $100\%-10\%=90\%$ of the raised price:
+$$550\,000\times90\div100=495\,000\ \text{(dong)}$$
+
+Since $495\,000<500\,000$, the price now is lower than the original price. The difference is:
+$$500\,000-495\,000=5\,000\ \text{(dong)}$$
+
+The difference as a percentage of the original price is:
+$$5\,000\div500\,000=0.01=1\%$$
+
+So the price now is $495\,000$ dong, which is $1\%$ lower than the original price.
 
 **Answer.** The price now is $495\,000$ dong, which is $1\%$ lower than the original price.
 :::

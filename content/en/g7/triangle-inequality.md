@@ -357,13 +357,21 @@ A point $M$ lies inside triangle $ABC$. Prove that $MB+MC<AB+AC$.
 2. Use triangle $MDC$ and then triangle $ABD$.
 
 ::solution
-Extend $BM$ to meet $AC$ at $D$. Then $D$ lies between $A$ and $C$ and $BD=BM+MD$.
+Given: a point $M$ lies inside triangle $ABC$.
 
-In triangle $MDC$ we have $MC<MD+DC$. Hence $MB+MC<MB+MD+DC=BD+DC$.
+To prove: $MB+MC<AB+AC$.
 
-In triangle $ABD$ we have $BD<BA+AD$. Hence $BD+DC<BA+AD+DC=BA+AC$.
+Proof. Extend $BM$ to meet $AC$ at $D$. Since $M$ lies inside the triangle, $D$ lies between $A$ and $C$, and $M$ lies between $B$ and $D$, so $BD=BM+MD$.
 
-From the two inequalities, $MB+MC<AB+AC$.
+In triangle $MDC$, the triangle inequality gives $MC<MD+DC$. Adding $MB$ to both sides:
+$$MB+MC<MB+MD+DC=BD+DC.\qquad(1)$$
+
+In triangle $ABD$, the triangle inequality gives $BD<BA+AD$. Adding $DC$ to both sides:
+$$BD+DC<BA+AD+DC=BA+AC.\qquad(2)$$
+
+From $(1)$ and $(2)$ we get $MB+MC<AB+AC$.
+
+So $MB+MC<AB+AC$ (as required).
 
 **Answer.** Proved.
 :::

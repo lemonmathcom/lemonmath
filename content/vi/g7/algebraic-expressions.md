@@ -337,9 +337,17 @@ Trong các số $1$, $2$, $3$, số nào là nghiệm của đa thức $x^2-5x+6
 2. Tính $4-10+6$ và $9-15+6$.
 
 ::solution
-Gọi $M(x)=x^2-5x+6$. Ta có $M(1)=1-5+6=2\neq0$. Ta có $M(2)=4-10+6=0$. Ta có $M(3)=9-15+6=0$.
+Số $a$ là nghiệm của đa thức $M(x)$ khi $M(a)=0$. Ta lần lượt thay $x=1$, $x=2$, $x=3$ vào đa thức.
 
-Vậy $x=2$ và $x=3$ là nghiệm của đa thức, còn $x=1$ thì không.
+Gọi $M(x)=x^2-5x+6$.
+
+Thay $x=1$, ta được $M(1)=1-5+6=2\neq0$, nên $x=1$ không là nghiệm.
+
+Thay $x=2$, ta được $M(2)=4-10+6=0$, nên $x=2$ là nghiệm.
+
+Thay $x=3$, ta được $M(3)=9-15+6=0$, nên $x=3$ là nghiệm.
+
+Vậy trong ba số $1$, $2$, $3$ thì $x=2$ và $x=3$ là nghiệm của đa thức, còn $x=1$ thì không.
 
 **Đáp số.** $x=2$ và $x=3$.
 :::

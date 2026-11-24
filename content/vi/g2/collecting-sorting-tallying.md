@@ -205,9 +205,22 @@ Lớp em hỏi $12$ bạn về màu yêu thích và được: xanh, đỏ, xanh,
 2. Cộng ba số vừa tìm được, so với $12$.
 
 ::solution
-Xanh: $6$ bạn, vẽ là $\cancel{\mid\mid\mid\mid}\ \mid$. Đỏ: $4$ bạn. Vàng: $2$ bạn.
+Bài giải
 
-Kiểm tra: $6+4+2=12$, đúng bằng số bạn được hỏi.
+Em đọc lần lượt từng màu trong dãy và đánh một vạch cho mỗi bạn. Cứ $4$ vạch đứng được gạch chéo bằng vạch thứ $5$ thành một nhóm $5$.
+
+Màu xanh xuất hiện ở các lần thứ $1$, $3$, $6$, $7$, $10$, $12$ nên có $6$ bạn thích màu xanh, vẽ là $\cancel{\mid\mid\mid\mid}\ \mid$.
+
+Màu đỏ xuất hiện ở các lần thứ $2$, $5$, $8$, $11$ nên có $4$ bạn thích màu đỏ.
+
+Màu vàng xuất hiện ở các lần thứ $4$, $9$ nên có $2$ bạn thích màu vàng.
+
+Kiểm tra bằng phép cộng:
+$$6+4+2=12\ \text{(bạn)}.$$
+
+Tổng này đúng bằng số bạn được hỏi.
+
+Vậy có $6$ bạn thích màu xanh, $4$ bạn thích màu đỏ và $2$ bạn thích màu vàng.
 
 **Đáp số.** Xanh $6$ bạn, đỏ $4$ bạn, vàng $2$ bạn.
 :::
@@ -223,10 +236,15 @@ Bảng số liệu cho biết số cây ba tổ đã trồng: Tổ $1$ trồng $
 2. Cộng ba số, đặt tính nếu cần.
 
 ::solution
-Ta có $14>11>9$, nên Tổ $1$ trồng nhiều cây nhất.
+Bài giải
+
+Em so sánh số cây của ba tổ: $14>11>9$. Số $14$ lớn nhất nên Tổ $1$ trồng nhiều cây nhất.
 
 Số cây cả ba tổ trồng là:
 $$14+9+11=34\ \text{(cây)}.$$
+
+Vậy Tổ $1$ trồng nhiều cây nhất và cả ba tổ trồng được $34$ cây.
+
 **Đáp số.** Tổ $1$ nhiều nhất; cả ba tổ trồng $34$ cây.
 :::
 
@@ -241,10 +259,19 @@ Biểu đồ tranh cho biết cách các bạn đến trường (mỗi ● là $
 2. "Nhiều hơn bao nhiêu" là phép trừ.
 
 ::solution
-Hàng đi bộ có $8$ hình ●, nên có $8$ bạn đi bộ. Hàng xe buýt có $3$ hình ●, nên có $3$ bạn đi xe buýt.
+Bài giải
+
+Mỗi ● là $1$ bạn nên số hình ● ở mỗi hàng chính là số bạn.
+
+Hàng đi bộ có $8$ hình ●, nên có $8$ bạn đi bộ.
+
+Hàng xe buýt có $3$ hình ●, nên có $3$ bạn đi xe buýt.
 
 Số bạn đi bộ nhiều hơn số bạn đi xe buýt là:
 $$8-3=5\ \text{(bạn)}.$$
+
+Vậy có $8$ bạn đi bộ, nhiều hơn số bạn đi xe buýt $5$ bạn.
+
 **Đáp số.** $8$ bạn đi bộ; nhiều hơn $5$ bạn.
 :::
 
@@ -259,10 +286,24 @@ Biểu đồ tranh cho biết số cây hoa ở vườn trường (mỗi ● là
 2. Tìm số cây của hoa hồng và hoa lan, rồi cộng ba số.
 
 ::solution
-Hoa cúc: $5\times 2=10$ (cây). Hoa hồng: $4\times 2=8$ (cây). Hoa lan: $3\times 2=6$ (cây).
+Bài giải
+
+Mỗi ● là $2$ cây nên muốn tìm số cây ta lấy số hình ● nhân với $2$.
+
+Số cây hoa cúc là:
+$$5\times 2=10\ \text{(cây)}.$$
+
+Số cây hoa hồng là:
+$$4\times 2=8\ \text{(cây)}.$$
+
+Số cây hoa lan là:
+$$3\times 2=6\ \text{(cây)}.$$
 
 Số cây hoa cả vườn là:
 $$8+10+6=24\ \text{(cây)}.$$
+
+Vậy có $10$ cây hoa cúc và cả vườn có $24$ cây hoa.
+
 **Đáp số.** $10$ cây hoa cúc; cả vườn $24$ cây hoa.
 :::
 
@@ -277,13 +318,23 @@ Bảng số liệu cho biết số quả bóng ba lớp mượn: Lớp $2$A mư�
 2. Làm tương tự với hai lớp còn lại rồi vẽ.
 
 ::solution
-Lớp $2$A: $6$ quả, vẽ $3$ hình. Lớp $2$B: $10$ quả, vẽ $5$ hình. Lớp $2$C: $4$ quả, vẽ $2$ hình.
+Mỗi ● là $2$ quả bóng, nên muốn tìm số hình ● cần vẽ ta lấy số quả bóng chia cho $2$.
+
+Lớp $2$A mượn $6$ quả: $6:2=3$, vẽ $3$ hình ●.
+
+Lớp $2$B mượn $10$ quả: $10:2=5$, vẽ $5$ hình ●.
+
+Lớp $2$C mượn $4$ quả: $4:2=2$, vẽ $2$ hình ●.
+
+Ta có biểu đồ tranh:
 
 | Lớp | Số quả bóng (mỗi ● là $2$ quả) |
 |---|---|
 | Lớp $2$A | ●●● |
 | Lớp $2$B | ●●●●● |
 | Lớp $2$C | ●● |
+
+Vậy cần vẽ $3$ hình ● cho Lớp $2$A, $5$ hình ● cho Lớp $2$B và $2$ hình ● cho Lớp $2$C.
 
 **Đáp số.** $3$ hình, $5$ hình và $2$ hình.
 :::
@@ -299,10 +350,16 @@ Ba ngày liền, tổ em thu gom vỏ chai nhựa để tái chế: Thứ Hai $2
 2. Viết hai phép tính, đặt tính rồi thử lại.
 
 ::solution
-Số chai thu gom được trong cả ba ngày là:
+Bài giải
+
+Số chai cả ba ngày thu gom được là:
 $$25+18+30=73\ \text{(chai)}.$$
+
 Số chai Thứ Tư thu gom nhiều hơn Thứ Ba là:
 $$30-18=12\ \text{(chai)}.$$
+
+Vậy cả ba ngày thu gom được $73$ chai, và Thứ Tư thu gom nhiều hơn Thứ Ba $12$ chai.
+
 **Đáp số.** $73$ chai; nhiều hơn $12$ chai.
 :::
 
@@ -317,12 +374,24 @@ Em nhớ lại phép cộng và phép trừ trong phạm vi 1000. Biểu đồ t
 2. Cộng, rồi trừ các số tròn trăm.
 
 ::solution
-Truyện: $400$ quyển. Sách khoa học: $300$ quyển. Sách thiếu nhi: $200$ quyển.
+Bài giải
+
+Mỗi ● là $100$ quyển nên số quyển sách mỗi loại là:
+
+Truyện: $4\times 100=400$ (quyển).
+
+Sách khoa học: $3\times 100=300$ (quyển).
+
+Sách thiếu nhi: $2\times 100=200$ (quyển).
 
 Số quyển sách tất cả là:
 $$400+300+200=900\ \text{(quyển)}.$$
-Truyện nhiều hơn sách khoa học là:
+
+Số quyển truyện nhiều hơn số quyển sách khoa học là:
 $$400-300=100\ \text{(quyển)}.$$
+
+Vậy thư viện có tất cả $900$ quyển sách, và truyện nhiều hơn sách khoa học $100$ quyển.
+
 **Đáp số.** $900$ quyển; nhiều hơn $100$ quyển.
 :::
 
@@ -337,13 +406,23 @@ Cả lớp $20$ bạn chọn một trong ba trò chơi. Biểu đồ tranh, mỗ
 2. Số bạn chọn Đá cầu là phần còn lại của $20$, rồi chia cho $2$.
 
 ::solution
-Kéo co: $4\times 2=8$ bạn. Nhảy dây: $3\times 2=6$ bạn.
+Bài giải
+
+Mỗi ● là $2$ bạn nên số bạn chọn mỗi trò đã vẽ là:
+
+Kéo co: $4\times 2=8$ (bạn).
+
+Nhảy dây: $3\times 2=6$ (bạn).
 
 Số bạn chọn Đá cầu là:
 $$20-8-6=6\ \text{(bạn)}.$$
-Mỗi ● là $2$ bạn, nên em vẽ $3$ hình ●.
+
+Mỗi ● là $2$ bạn nên số hình ● cần vẽ là:
+$$6:2=3\ \text{(hình)}.$$
 
 Thử lại: $8+6+6=20$. Đúng.
+
+Vậy em cần vẽ $3$ hình ● cho Đá cầu.
 
 **Đáp số.** $3$ hình ●.
 :::

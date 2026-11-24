@@ -188,13 +188,19 @@ d) $200$ phút $=\ ?$ giờ $?$ phút.
 2. Câu d: chia $200$ cho $60$.
 
 ::solution
-a) $3\times60=180$ (phút).
+a) Mỗi giờ có $60$ phút. Ta có
+$$3\times60=180\ \text{(phút)}.$$
+Vậy $3$ giờ $=180$ phút.
 
-b) $5\times60+20=320$ (giây).
+b) Mỗi phút có $60$ giây. Ta có
+$$5\times60+20=300+20=320\ \text{(giây)}.$$
+Vậy $5$ phút $20$ giây $=320$ giây.
 
-c) $2\times12+6=30$ (tháng).
+c) Mỗi năm có $12$ tháng. Ta có
+$$2\times12+6=24+6=30\ \text{(tháng)}.$$
+Vậy $2$ năm $6$ tháng $=30$ tháng.
 
-d) $200:60=3$ (dư $20$), nên $200$ phút $=3$ giờ $20$ phút.
+d) Ta chia $200$ cho $60$: $200:60=3$ (dư $20$), vì $3\times60=180$ và $200-180=20$. Vậy $200$ phút $=3$ giờ $20$ phút.
 
 **Đáp số.** a) $180$ phút; b) $320$ giây; c) $30$ tháng; d) $3$ giờ $20$ phút.
 :::
@@ -210,7 +216,13 @@ Năm $2028$ có bao nhiêu ngày? Tháng Hai năm $2028$ có bao nhiêu ngày? T
 2. Năm nhuận có $366$ ngày, tháng Hai có $29$ ngày.
 
 ::solution
-Vì $2028-2024=4$ nên năm $2028$ là năm nhuận: có $366$ ngày và tháng Hai có $29$ ngày. Năm $2026$ là năm thường nên tháng Hai có $28$ ngày.
+Một năm nhuận có $366$ ngày và tháng Hai có $29$ ngày; một năm thường có $365$ ngày và tháng Hai có $28$ ngày. Năm nhuận là năm có số chỉ năm chia hết cho $4$, và cách nhau $4$ năm kể từ năm nhuận $2024$.
+
+Vì $2028-2024=4$ nên năm $2028$ là năm nhuận. Do đó năm $2028$ có $366$ ngày và tháng Hai năm $2028$ có $29$ ngày.
+
+Năm $2026$ là năm thường (vì $2026-2024=2$ không chia hết cho $4$) nên tháng Hai năm $2026$ có $28$ ngày.
+
+Vậy năm $2028$ có $366$ ngày, tháng Hai năm $2028$ có $29$ ngày và tháng Hai năm $2026$ có $28$ ngày.
 
 **Đáp số.** $366$ ngày; $29$ ngày; $28$ ngày.
 :::
@@ -230,9 +242,17 @@ b) $3$ phút $45$ giây $+$ $2$ phút $30$ giây.
 2. Đổi nếu số phút (hoặc giây) từ $60$ trở lên.
 
 ::solution
-a) $2$ giờ $25$ phút $+$ $3$ giờ $40$ phút $=5$ giờ $65$ phút $=6$ giờ $5$ phút.
+Khi cộng, ta cộng giờ với giờ, phút với phút (giây với giây). Nếu số phút (số giây) từ $60$ trở lên thì đổi sang đơn vị lớn hơn.
 
-b) $3$ phút $45$ giây $+$ $2$ phút $30$ giây $=5$ phút $75$ giây $=6$ phút $15$ giây.
+a) Cộng giờ với giờ, phút với phút:
+$$2\text{ giờ }25\text{ phút}+3\text{ giờ }40\text{ phút}=5\text{ giờ }65\text{ phút}.$$
+Vì $65$ phút $=1$ giờ $5$ phút nên $5$ giờ $65$ phút $=6$ giờ $5$ phút.
+
+b) Cộng phút với phút, giây với giây:
+$$3\text{ phút }45\text{ giây}+2\text{ phút }30\text{ giây}=5\text{ phút }75\text{ giây}.$$
+Vì $75$ giây $=1$ phút $15$ giây nên $5$ phút $75$ giây $=6$ phút $15$ giây.
+
+Vậy tổng ở câu a) là $6$ giờ $5$ phút và ở câu b) là $6$ phút $15$ giây.
 
 **Đáp số.** a) $6$ giờ $5$ phút; b) $6$ phút $15$ giây.
 :::
@@ -252,9 +272,15 @@ b) $9$ phút $15$ giây $-$ $4$ phút $40$ giây.
 2. Đổi rồi trừ.
 
 ::solution
-a) $7$ giờ $10$ phút $=6$ giờ $70$ phút, nên $6$ giờ $70$ phút $-$ $3$ giờ $35$ phút $=3$ giờ $35$ phút.
+Khi trừ, ta trừ giờ với giờ, phút với phút (giây với giây). Nếu số phút (số giây) ở số bị trừ nhỏ hơn số phút (số giây) ở số trừ thì ta đổi $1$ đơn vị lớn hơn sang đơn vị nhỏ.
 
-b) $9$ phút $15$ giây $=8$ phút $75$ giây, nên $8$ phút $75$ giây $-$ $4$ phút $40$ giây $=4$ phút $35$ giây.
+a) Vì $10$ phút nhỏ hơn $35$ phút nên đổi $7$ giờ $10$ phút $=6$ giờ $70$ phút. Ta có
+$$6\text{ giờ }70\text{ phút}-3\text{ giờ }35\text{ phút}=3\text{ giờ }35\text{ phút}.$$
+
+b) Vì $15$ giây nhỏ hơn $40$ giây nên đổi $9$ phút $15$ giây $=8$ phút $75$ giây. Ta có
+$$8\text{ phút }75\text{ giây}-4\text{ phút }40\text{ giây}=4\text{ phút }35\text{ giây}.$$
+
+Vậy hiệu ở câu a) là $3$ giờ $35$ phút và ở câu b) là $4$ phút $35$ giây.
 
 **Đáp số.** a) $3$ giờ $35$ phút; b) $4$ phút $35$ giây.
 :::
@@ -271,8 +297,13 @@ Lan bắt đầu làm bài kiểm tra lúc $8$ giờ $15$ phút và nộp bài l
 3. Thử lại: $8$ giờ $15$ phút cộng kết quả có ra $9$ giờ $5$ phút không?
 
 ::solution
-Thời gian Lan làm bài là:
+Bài giải
+
+Thời gian Lan làm bài bằng thời điểm nộp bài trừ đi thời điểm bắt đầu. Vì $5$ phút nhỏ hơn $15$ phút nên đổi $9$ giờ $5$ phút $=8$ giờ $65$ phút. Thời gian Lan làm bài là:
 $$9\text{ giờ }5\text{ phút}-8\text{ giờ }15\text{ phút}=8\text{ giờ }65\text{ phút}-8\text{ giờ }15\text{ phút}=50\text{ phút}.$$
+
+Vậy Lan làm bài trong $50$ phút.
+
 **Đáp số.** $50$ phút.
 :::
 
@@ -287,8 +318,15 @@ Buổi biểu diễn văn nghệ của trường bắt đầu lúc $18$ giờ $4
 2. Cộng, rồi đổi $60$ phút thành $1$ giờ.
 
 ::solution
-Buổi biểu diễn kết thúc lúc:
-$$18\text{ giờ }40\text{ phút}+1\text{ giờ }55\text{ phút}=19\text{ giờ }95\text{ phút}=20\text{ giờ }35\text{ phút}.$$
+Bài giải
+
+Thời điểm kết thúc bằng thời điểm bắt đầu cộng với thời gian kéo dài. Buổi biểu diễn kết thúc lúc:
+$$18\text{ giờ }40\text{ phút}+1\text{ giờ }55\text{ phút}=19\text{ giờ }95\text{ phút}.$$
+
+Vì $95$ phút $=1$ giờ $35$ phút nên $19$ giờ $95$ phút $=20$ giờ $35$ phút.
+
+Vậy buổi biểu diễn kết thúc lúc $20$ giờ $35$ phút.
+
 **Đáp số.** $20$ giờ $35$ phút.
 :::
 
@@ -303,8 +341,18 @@ Nam đi ngủ lúc $21$ giờ $30$ phút và thức dậy lúc $6$ giờ $15$ ph
 2. Cộng với thời gian từ $0$ giờ đến $6$ giờ $15$ phút.
 
 ::solution
-Từ $21$ giờ $30$ phút đến $24$ giờ là $24$ giờ $-$ $21$ giờ $30$ phút $=2$ giờ $30$ phút. Thời gian ngủ là:
+Bài giải
+
+Nam ngủ từ $21$ giờ $30$ phút đến $24$ giờ (nửa đêm), rồi từ $0$ giờ đến $6$ giờ $15$ phút sáng hôm sau.
+
+Thời gian từ $21$ giờ $30$ phút đến $24$ giờ là:
+$$24\text{ giờ}-21\text{ giờ }30\text{ phút}=23\text{ giờ }60\text{ phút}-21\text{ giờ }30\text{ phút}=2\text{ giờ }30\text{ phút}.$$
+
+Thời gian Nam ngủ là:
 $$2\text{ giờ }30\text{ phút}+6\text{ giờ }15\text{ phút}=8\text{ giờ }45\text{ phút}.$$
+
+Vậy Nam ngủ $8$ giờ $45$ phút.
+
 **Đáp số.** $8$ giờ $45$ phút.
 :::
 
@@ -323,9 +371,17 @@ b) $1{,}75$ giờ $=\ ?$ giờ $?$ phút.
 2. Nhân phần thập phân với $60$.
 
 ::solution
-a) $0{,}5\times60=30$, nên $2{,}5$ giờ $=2$ giờ $30$ phút.
+Phần thập phân của số giờ được đổi ra phút bằng cách nhân với $60$, vì $1$ giờ $=60$ phút.
 
-b) $0{,}75\times60=45$, nên $1{,}75$ giờ $=1$ giờ $45$ phút.
+a) Ta có $2{,}5$ giờ $=2$ giờ $+0{,}5$ giờ. Vì
+$$0{,}5\times60=30\ \text{(phút)}$$
+nên $2{,}5$ giờ $=2$ giờ $30$ phút.
+
+b) Ta có $1{,}75$ giờ $=1$ giờ $+0{,}75$ giờ. Vì
+$$0{,}75\times60=45\ \text{(phút)}$$
+nên $1{,}75$ giờ $=1$ giờ $45$ phút.
+
+Vậy $2{,}5$ giờ $=2$ giờ $30$ phút và $1{,}75$ giờ $=1$ giờ $45$ phút.
 
 **Đáp số.** a) $2$ giờ $30$ phút; b) $1$ giờ $45$ phút.
 :::
@@ -342,8 +398,18 @@ Một bạn tập chạy: chạy $25$ phút $40$ giây, nghỉ $3$ phút $30$ gi
 3. Đổi $60$ giây thành $1$ phút.
 
 ::solution
-Tổng thời gian là:
-$$\begin{aligned} 25\text{ phút }40\text{ giây}+3\text{ phút }30\text{ giây}&=28\text{ phút }70\text{ giây}=29\text{ phút }10\text{ giây},\\ 29\text{ phút }10\text{ giây}+18\text{ phút }50\text{ giây}&=47\text{ phút }60\text{ giây}=48\text{ phút}. \end{aligned}$$
+Bài giải
+
+Tổng thời gian từ lúc bắt đầu đến lúc xong là tổng của ba khoảng thời gian: chạy lần một, nghỉ và chạy lần hai.
+
+Thời gian chạy lần một và nghỉ là:
+$$25\text{ phút }40\text{ giây}+3\text{ phút }30\text{ giây}=28\text{ phút }70\text{ giây}=29\text{ phút }10\text{ giây}.$$
+
+Cộng thêm thời gian chạy tiếp:
+$$29\text{ phút }10\text{ giây}+18\text{ phút }50\text{ giây}=47\text{ phút }60\text{ giây}=48\text{ phút}.$$
+
+Vậy tổng thời gian từ lúc bắt đầu đến lúc xong là $48$ phút.
+
 **Đáp số.** $48$ phút.
 :::
 
@@ -358,8 +424,16 @@ Một ngày có bao nhiêu giây?
 2. Nhân với $24$.
 
 ::solution
-Một giờ có $60\times60=3600$ (giây). Một ngày có:
-$$3600\times24=86\,400\text{ (giây)}.$$
+Bài giải
+
+Một giờ có $60$ phút, một phút có $60$ giây, nên một giờ có số giây là:
+$$60\times60=3\,600\ \text{(giây)}.$$
+
+Một ngày có $24$ giờ, nên một ngày có số giây là:
+$$3\,600\times24=86\,400\ \text{(giây)}.$$
+
+Vậy một ngày có $86\,400$ giây.
+
 **Đáp số.** $86\,400$ giây.
 :::
 

@@ -163,9 +163,27 @@ b) $1\,321\times2$.
 2. Multiply the ones, tens, hundreds and thousands in turn.
 
 ::solution
-a) Ones: $3\times3=9$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $2\times3=6$. So $2\,103\times3=6\,309$.
+Solution
 
-b) Ones: $1\times2=2$. Tens: $2\times2=4$. Hundreds: $3\times2=6$. Thousands: $1\times2=2$. So $1\,321\times2=2\,642$.
+a) We multiply each digit of $2\,103$ by $3$, starting from the ones. No place has a product of $10$ or more, so nothing is carried.
+$$\begin{aligned}
+\text{Ones: } & 3\times3=9,\\
+\text{Tens: } & 0\times3=0,\\
+\text{Hundreds: } & 1\times3=3,\\
+\text{Thousands: } & 2\times3=6.
+\end{aligned}$$
+Writing the results from the thousands down to the ones, we get $2\,103\times3=6\,309$.
+
+b) We multiply each digit of $1\,321$ by $2$, starting from the ones. Again nothing is carried.
+$$\begin{aligned}
+\text{Ones: } & 1\times2=2,\\
+\text{Tens: } & 2\times2=4,\\
+\text{Hundreds: } & 3\times2=6,\\
+\text{Thousands: } & 1\times2=2.
+\end{aligned}$$
+Hence $1\,321\times2=2\,642$.
+
+So $2\,103\times3=6\,309$ and $1\,321\times2=2\,642$.
 
 **Answer.** a) $6\,309$; b) $2\,642$.
 :::
@@ -203,9 +221,22 @@ Remember the last lesson (subtraction within $10\,000$). Work out $5\,000-1\,275
 2. Multiply the difference by $2$.
 
 ::solution
-$5\,000-1\,275=3\,725$. Then $3\,725\times2=7\,450$ (because $5\times2=10$, write $0$ carry $1$; $2\times2=4$, add $1$ to get $5$; $7\times2=14$, write $4$ carry $1$; $3\times2=6$, add $1$ to get $7$).
+Solution
 
-**Check.** $3\,725+1\,275=5\,000$. Correct.
+Step 1: work out $5\,000-1\,275$. We have $5\,000-1\,000=4\,000$, then $4\,000-275=3\,725$. So
+$$5\,000-1\,275=3\,725.$$
+
+Step 2: multiply the answer by $2$. We multiply each digit of $3\,725$ by $2$, starting from the ones:
+- Ones: $5\times2=10$, write $0$ carry $1$.
+- Tens: $2\times2=4$, add $1$ to get $5$, write $5$.
+- Hundreds: $7\times2=14$, write $4$ carry $1$.
+- Thousands: $3\times2=6$, add $1$ to get $7$, write $7$.
+
+Hence $3\,725\times2=7\,450$.
+
+*Check.* $3\,725+1\,275=5\,000$. Correct.
+
+So the required result is $7\,450$.
 
 **Answer.** $7\,450$.
 :::
@@ -249,11 +280,18 @@ c) A shop sells $2\,315$ books in the morning and $1\,280$ books in the afternoo
 2. Choose the operation, solve, and write the unit.
 
 ::solution
-a) There are $3$ equal jars, so multiply: $1\,250\times3=3\,750$ (beans).
+Solution
 
-b) Some rice "has been sold" and the question asks what is "left", so subtract: $4\,080-1\,260=2\,820$ (kg).
+a) Each jar holds the same number of beans and we want the number in $3$ jars, that is, $3$ equal groups. So we multiply.
+$$1\,250\times3=3\,750\ \text{(beans)}.$$
 
-c) The books from the two parts of the day are put together, so add: $2\,315+1\,280=3\,595$ (books).
+b) The storeroom has $4\,080$ kg of rice, $1\,260$ kg of it has been sold, and the question asks what is left, so some rice is taken away. So we subtract.
+$$4\,080-1\,260=2\,820\ \text{(kg)}.$$
+
+c) The books sold in the morning and in the afternoon are put together to find the number sold in the whole day. So we add.
+$$2\,315+1\,280=3\,595\ \text{(books)}.$$
+
+So part a) multiplies and gives $3\,750$ beans; part b) subtracts and leaves $2\,820$ kg of rice; part c) adds and gives $3\,595$ books sold in the whole day.
 
 **Answer.** a) $3\,750$ beans; b) $2\,820$ kg; c) $3\,595$ books.
 :::
@@ -273,9 +311,27 @@ b) Lan: "$3\,070\times2=6\,040$."
 2. Compare to find the place that went wrong.
 
 ::solution
-a) $6\times3=18$, write $8$ carry $1$. $3\times3=9$, add $1$ to get $10$, write $0$ carry $1$. Nam forgot to add the $1$ and wrote $9$. Done correctly: $1\,536\times3=4\,608$.
+a) We redo $1\,536\times3$ step by step, starting from the ones:
+- Ones: $6\times3=18$, write $8$ carry $1$.
+- Tens: $3\times3=9$, add $1$ to get $10$, write $0$ carry $1$.
+- Hundreds: $5\times3=15$, add $1$ to get $16$, write $6$ carry $1$.
+- Thousands: $1\times3=3$, add $1$ to get $4$.
 
-b) $0\times2=0$. $7\times2=14$, write $4$ carry $1$. $0\times2=0$, add $1$ to get $1$. Lan forgot to add the $1$ in the hundreds because she saw a $0$. Done correctly: $3\,070\times2=6\,140$.
+We get $1\,536\times3=4\,608$. Nam forgot to add the carried $1$ in the tens, so he wrote $9$ instead of $10$ and carried nothing to the hundreds. That is why he wrote $5$ in the hundreds instead of $6$ and got $4\,598$.
+
+*Check.* $1\,500\times3=4\,500$ and $36\times3=108$; $4\,500+108=4\,608$. Correct.
+
+b) We redo $3\,070\times2$ step by step, starting from the ones:
+- Ones: $0\times2=0$, write $0$.
+- Tens: $7\times2=14$, write $4$ carry $1$.
+- Hundreds: $0\times2=0$, add $1$ to get $1$, write $1$.
+- Thousands: $3\times2=6$, write $6$.
+
+We get $3\,070\times2=6\,140$. Lan forgot to add the carried $1$ in the hundreds because she saw a $0$, so she wrote $0$ instead of $1$ and got $6\,040$.
+
+*Check.* $3\,000\times2=6\,000$ and $70\times2=140$; $6\,000+140=6\,140$. Correct.
+
+So Nam forgot the carried $1$ in the tens and the correct answer is $4\,608$; Lan forgot the carried $1$ in the hundreds and the correct answer is $6\,140$.
 
 **Answer.** a) $4\,608$; b) $6\,140$.
 :::
@@ -296,11 +352,17 @@ b) An order needs $5\,000$ cakes. After $3$ days, how many more cakes are still 
 3. Check by estimating.
 
 ::solution
-a) $1\,450\times3=4\,350$ (cakes).
+Solution
 
-b) $5\,000-4\,350=650$ (cakes).
+a) The factory makes $1\,450$ cakes every day, so the number of cakes made in $3$ days is:
+$$1\,450\times3=4\,350\ \text{(cakes)}.$$
 
-**Check.** $1\,500\times3=4\,500$, close to $4\,350$. It makes sense.
+b) The order needs $5\,000$ cakes and the factory has made $4\,350$ cakes, so the number of cakes still needed is:
+$$5\,000-4\,350=650\ \text{(cakes)}.$$
+
+*Check.* $1\,500\times3=4\,500$, which is close to $4\,350$. The result makes sense.
+
+So in $3$ days the factory makes $4\,350$ cakes and $650$ more cakes are still needed.
 
 **Answer.** a) $4\,350$ cakes; b) $650$ cakes.
 :::
@@ -320,9 +382,21 @@ b) The two men put their seeds together. How many seeds are there in total? Why 
 2. Add the two answers, then work out $1\,245\times7$ to compare.
 
 ::solution
-a) Mr Tu: $1\,245\times4=4\,980$ seeds. Mr Nam: $1\,245\times3=3\,735$ seeds.
+Solution
 
-b) Total: $4\,980+3\,735=8\,715$ seeds. Together there are $4+3=7$ bags of $1\,245$ seeds each, so the total is $1\,245\times7=8\,715$. The two answers are the same.
+a) Each bag holds $1\,245$ seeds. The number of seeds Mr Tu has is:
+$$1\,245\times4=4\,980\ \text{(seeds)}.$$
+The number of seeds Mr Nam has is:
+$$1\,245\times3=3\,735\ \text{(seeds)}.$$
+
+b) When the two men put their seeds together, the total number of seeds is:
+$$4\,980+3\,735=8\,715\ \text{(seeds)}.$$
+
+Together there are $4+3=7$ bags of $1\,245$ seeds each, so the total is also
+$$1\,245\times7=8\,715\ \text{(seeds)}.$$
+The two answers are the same because $1\,245\times4+1\,245\times3=1\,245\times(4+3)$: adding the seeds in $4$ bags to the seeds in $3$ bags is the same as finding the seeds in $7$ bags.
+
+So Mr Tu has $4\,980$ seeds, Mr Nam has $3\,735$ seeds, and together they have $8\,715$ seeds.
 
 **Answer.** a) $4\,980$ seeds and $3\,735$ seeds; b) $8\,715$ seeds.
 :::

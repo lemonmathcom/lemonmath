@@ -178,7 +178,12 @@ Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 
 2. Nhân với tần số, cộng lại, chia cho $40$.
 
 ::solution
-Các giá trị đại diện là $152{,}5$; $157{,}5$; $162{,}5$; $167{,}5$; $172{,}5$. Do đó $\bar{x}=\dfrac{4\cdot152{,}5+10\cdot157{,}5+14\cdot162{,}5+9\cdot167{,}5+3\cdot172{,}5}{40}=\dfrac{6485}{40}\approx162{,}1$.
+Với mẫu số liệu ghép nhóm, ta lấy giá trị đại diện của mỗi nhóm là trung điểm của nhóm đó: $152{,}5$; $157{,}5$; $162{,}5$; $167{,}5$; $172{,}5$. Cỡ mẫu là $n=4+10+14+9+3=40$.
+
+Áp dụng công thức số trung bình của mẫu số liệu ghép nhóm $\bar{x}=\dfrac{m_1c_1+\dots+m_kc_k}{n}$, ta có
+$$\bar{x}=\frac{4\cdot152{,}5+10\cdot157{,}5+14\cdot162{,}5+9\cdot167{,}5+3\cdot172{,}5}{40}=\frac{6485}{40}\approx162{,}1.$$
+
+Vậy chiều cao trung bình ước lượng là khoảng $162{,}1$ cm.
 
 **Đáp số.** Khoảng $162{,}1$ cm.
 :::
@@ -194,7 +199,18 @@ Với bảng chiều cao ở bài trước, ước lượng trung vị, $Q_1$ v�
 2. Tìm nhóm chứa $10$, $20$, $30$ rồi áp dụng công thức.
 
 ::solution
-Tần số tích luỹ là $4, 14, 28, 37, 40$. Trung vị: $\dfrac n2=20$, nhóm $[160; 165)$ ($C_2=14$, $m_3=14$): $M_e=160+\dfrac{20-14}{14}\cdot5\approx162{,}14$. $Q_1$: $\dfrac n4=10$, nhóm $[155; 160)$ ($C_1=4$, $m_2=10$): $Q_1=155+\dfrac{10-4}{10}\cdot5=158$. $Q_3$: $\dfrac{3n}{4}=30$, nhóm $[165; 170)$ ($C_3=28$, $m_4=9$): $Q_3=165+\dfrac{30-28}{9}\cdot5\approx166{,}11$.
+Cỡ mẫu là $n=40$. Tần số tích luỹ của các nhóm lần lượt là $4$, $14$, $28$, $37$, $40$.
+
+Trung vị: $\dfrac n2=20$. Vì $C_2=14<20\le C_3=28$ nên nhóm chứa trung vị là $[160; 165)$, với $a_3=160$, $m_3=14$, $h=5$. Do đó
+$$M_e=160+\frac{20-14}{14}\cdot5\approx162{,}14.$$
+
+Tứ phân vị thứ nhất: $\dfrac n4=10$. Vì $C_1=4<10\le C_2=14$ nên nhóm chứa $Q_1$ là $[155; 160)$, với $m_2=10$. Do đó
+$$Q_1=155+\frac{10-4}{10}\cdot5=158.$$
+
+Tứ phân vị thứ ba: $\dfrac{3n}{4}=30$. Vì $C_3=28<30\le C_4=37$ nên nhóm chứa $Q_3$ là $[165; 170)$, với $m_4=9$. Do đó
+$$Q_3=165+\frac{30-28}{9}\cdot5\approx166{,}11.$$
+
+Vậy $M_e\approx162{,}14$ cm; $Q_1=158$ cm; $Q_3\approx166{,}11$ cm.
 
 **Đáp số.** $M_e\approx162{,}14$; $Q_1=158$; $Q_3\approx166{,}11$ (cm).
 :::
@@ -210,7 +226,14 @@ Với bảng chiều cao ở bài trước, ước lượng mốt (làm tròn đ
 2. Thay vào công thức.
 
 ::solution
-Nhóm có tần số lớn nhất là $[160; 165)$ với $m_j=14$; hai nhóm kề có $10$ và $9$. Do đó $M_o=160+\dfrac{14-10}{(14-10)+(14-9)}\cdot5=160+\dfrac49\cdot5\approx162{,}22$.
+Nhóm có tần số lớn nhất là $[160; 165)$ với $m_j=14$; hai nhóm kề nó có tần số $m_{j-1}=10$ và $m_{j+1}=9$. Độ rộng nhóm là $h=5$.
+
+Áp dụng công thức tính mốt
+$$M_o=a_j+\frac{m_j-m_{j-1}}{(m_j-m_{j-1})+(m_j-m_{j+1})}\cdot h,$$
+ta có
+$$M_o=160+\frac{14-10}{(14-10)+(14-9)}\cdot5=160+\frac49\cdot5\approx162{,}22.$$
+
+Vậy mốt ước lượng là khoảng $162{,}22$ cm.
 
 **Đáp số.** $M_o\approx162{,}22$ cm.
 :::
@@ -227,7 +250,18 @@ Giả sử lượng nước tiêu thụ mỗi tháng ($\text{m}^3$) của $50$ h
 3. Mốt thuộc nhóm có $18$ hộ.
 
 ::solution
-Số trung bình: $\bar{x}=\dfrac{4\cdot2{,}5+16\cdot7{,}5+18\cdot12{,}5+9\cdot17{,}5+3\cdot22{,}5}{50}=\dfrac{580}{50}=11{,}6$. Trung vị: $\dfrac n2=25$, nhóm $[10; 15)$ ($C_2=20$, $m_3=18$): $M_e=10+\dfrac{25-20}{18}\cdot5\approx11{,}39$. Mốt: nhóm $[10; 15)$ có tần số $18$, hai nhóm kề có $16$ và $9$: $M_o=10+\dfrac{18-16}{(18-16)+(18-9)}\cdot5\approx10{,}91$.
+Cỡ mẫu là $n=4+16+18+9+3=50$. Các giá trị đại diện là $2{,}5$; $7{,}5$; $12{,}5$; $17{,}5$; $22{,}5$. Tần số tích luỹ là $4$, $20$, $38$, $47$, $50$.
+
+Số trung bình:
+$$\bar{x}=\frac{4\cdot2{,}5+16\cdot7{,}5+18\cdot12{,}5+9\cdot17{,}5+3\cdot22{,}5}{50}=\frac{580}{50}=11{,}6.$$
+
+Trung vị: $\dfrac n2=25$. Vì $C_2=20<25\le C_3=38$ nên nhóm chứa trung vị là $[10; 15)$, với $m_3=18$, $h=5$. Do đó
+$$M_e=10+\frac{25-20}{18}\cdot5\approx11{,}39.$$
+
+Mốt: nhóm có tần số lớn nhất là $[10; 15)$ với $m_j=18$; hai nhóm kề có tần số $16$ và $9$. Do đó
+$$M_o=10+\frac{18-16}{(18-16)+(18-9)}\cdot5=10+\frac{2}{11}\cdot5\approx10{,}91.$$
+
+Vậy $\bar{x}=11{,}60$; $M_e\approx11{,}39$; $M_o\approx10{,}91$ (đơn vị $\text{m}^3$).
 
 **Đáp số.** $\bar{x}=11{,}60$; $M_e\approx11{,}39$; $M_o\approx10{,}91$ ($\text{m}^3$).
 :::
@@ -243,7 +277,17 @@ Thời gian chờ xe buýt (phút) của $25$ hành khách được ghép nhóm:
 2. Áp dụng công thức.
 
 ::solution
-Trung vị: nhóm $[5; 10)$ ($C_1=7$, $m_2=10$): $M_e=5+\dfrac{12{,}5-7}{10}\cdot5=7{,}75$. $Q_3$: nhóm $[10; 15)$ ($C_2=17$, $m_3=6$): $Q_3=10+\dfrac{18{,}75-17}{6}\cdot5\approx11{,}46$. Điều này có nghĩa là khoảng $\dfrac34$ số hành khách chờ không quá $11{,}46$ phút, hay khoảng một phần tư số hành khách chờ lâu hơn mức đó.
+Cỡ mẫu là $n=7+10+6+2=25$. Tần số tích luỹ là $7$, $17$, $23$, $25$.
+
+Trung vị: $\dfrac n2=12{,}5$. Vì $C_1=7<12{,}5\le C_2=17$ nên nhóm chứa trung vị là $[5; 10)$, với $m_2=10$, $h=5$. Do đó
+$$M_e=5+\frac{12{,}5-7}{10}\cdot5=7{,}75.$$
+
+Tứ phân vị thứ ba: $\dfrac{3n}{4}=18{,}75$. Vì $C_2=17<18{,}75\le C_3=23$ nên nhóm chứa $Q_3$ là $[10; 15)$, với $m_3=6$. Do đó
+$$Q_3=10+\frac{18{,}75-17}{6}\cdot5\approx11{,}46.$$
+
+Ý nghĩa của $Q_3$: khoảng $\dfrac34$ số hành khách chờ không quá $11{,}46$ phút, hay khoảng một phần tư số hành khách chờ lâu hơn mức đó.
+
+Vậy trung vị là $7{,}75$ phút và $Q_3\approx11{,}46$ phút.
 
 **Đáp số.** $M_e=7{,}75$ phút; $Q_3\approx11{,}46$ phút.
 :::
@@ -259,7 +303,17 @@ Cho mẫu số liệu ghép nhóm: $[0; 10)$ có $5$, $[10; 20)$ có $x$, $[20; 
 2. Giải phương trình $\bar{x}=20$.
 
 ::solution
-Ta có $\bar{x}=\dfrac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\dfrac{575+15x}{25+x}$. Từ $\dfrac{575+15x}{25+x}=20$ ta có $575+15x=500+20x$, suy ra $x=15$.
+Các giá trị đại diện của bốn nhóm là $5$, $15$, $25$, $35$. Cỡ mẫu là $n=5+x+15+5=25+x$ (với $x$ nguyên dương).
+
+Số trung bình ước lượng là
+$$\bar{x}=\frac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\frac{575+15x}{25+x}.$$
+
+Theo đề, $\bar{x}=20$, nên
+$$\frac{575+15x}{25+x}=20\iff575+15x=500+20x\iff5x=75\iff x=15.$$
+
+Giá trị $x=15$ là số nguyên dương nên thoả mãn.
+
+Vậy $x=15$.
 
 **Đáp số.** $x=15$.
 :::
@@ -284,13 +338,21 @@ d) Mốt $M_o=22{,}5$.
 3. c), d) Tính $\bar{x}$ và $M_o$.
 
 ::solution
-a) **Đúng**: $C_1=4<7{,}5\le C_2=13$, nên $Q_1\in[15; 20)$.
+Cỡ mẫu là $n=4+9+10+5+2=30$. Tần số tích luỹ là $4$, $13$, $23$, $28$, $30$. Độ rộng nhóm là $h=5$.
 
-b) **Đúng**: $M_e=20+\dfrac{15-13}{10}\cdot5=21$.
+a) **Đúng.** Ta có $\dfrac n4=7{,}5$ và $C_1=4<7{,}5\le C_2=13$, nên $Q_1$ thuộc nhóm $[15; 20)$.
 
-c) **Đúng**: $\bar{x}=\dfrac{12{,}5\cdot4+17{,}5\cdot9+22{,}5\cdot10+27{,}5\cdot5+32{,}5\cdot2}{30}=\dfrac{635}{30}\approx21{,}17$.
+b) **Đúng.** Ta có $\dfrac n2=15$ và $C_2=13<15\le C_3=23$, nên nhóm chứa trung vị là $[20; 25)$ với $m_3=10$. Do đó
+$$M_e=20+\frac{15-13}{10}\cdot5=21.$$
 
-d) **Sai**: $M_o=20+\dfrac{10-9}{(10-9)+(10-5)}\cdot5\approx20{,}83$; $22{,}5$ chỉ là giá trị đại diện của nhóm.
+c) **Đúng.** Các giá trị đại diện là $12{,}5$; $17{,}5$; $22{,}5$; $27{,}5$; $32{,}5$. Do đó
+$$\bar{x}=\frac{12{,}5\cdot4+17{,}5\cdot9+22{,}5\cdot10+27{,}5\cdot5+32{,}5\cdot2}{30}=\frac{635}{30}\approx21{,}17.$$
+
+d) **Sai.** Nhóm có tần số lớn nhất là $[20; 25)$ với $m_j=10$; hai nhóm kề có tần số $9$ và $5$. Do đó
+$$M_o=20+\frac{10-9}{(10-9)+(10-5)}\cdot5=20+\frac16\cdot5\approx20{,}83.$$
+Giá trị $22{,}5$ chỉ là giá trị đại diện của nhóm $[20; 25)$, không phải mốt.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -306,7 +368,14 @@ Một mẫu số liệu ghép nhóm cỡ $40$ có tần số tích luỹ của n
 2. Thay vào công thức $M_e$.
 
 ::solution
-Ta có $a_p=20$, $C_{p-1}=12$, $m_p=16$ và $h=10$. Do đó $M_e=20+\dfrac{20-12}{16}\cdot10=25$.
+Cỡ mẫu là $n=40$ nên $\dfrac n2=20$. Tần số tích luỹ của nhóm $[10; 20)$ là $12$ và nhóm $[20; 30)$ có tần số $16$, nên tần số tích luỹ của nhóm $[20; 30)$ là $12+16=28$. Vì $12<20\le28$ nên nhóm chứa trung vị là $[20; 30)$.
+
+Ta có $a_p=20$, $C_{p-1}=12$, $m_p=16$ và $h=10$. Áp dụng công thức trung vị
+$$M_e=a_p+\frac{\frac n2-C_{p-1}}{m_p}\cdot h,$$
+ta được
+$$M_e=20+\frac{20-12}{16}\cdot10=20+5=25.$$
+
+Vậy trung vị ước lượng là $25$.
 
 **Đáp số.** $M_e=25$.
 :::
@@ -322,7 +391,12 @@ Dùng tần số tương đối của bảng thời gian đi học ở bài trư
 2. Nhân với các giá trị đại diện rồi cộng.
 
 ::solution
-$\bar{x}=0{,}15\cdot5+0{,}35\cdot15+0{,}30\cdot25+0{,}15\cdot35+0{,}05\cdot45=0{,}75+5{,}25+7{,}5+5{,}25+2{,}25=21$.
+Tổng các tần số tương đối là $15\%+35\%+30\%+15\%+5\%=100\%$. Viết dưới dạng số thập phân: $f_1=0{,}15$, $f_2=0{,}35$, $f_3=0{,}30$, $f_4=0{,}15$, $f_5=0{,}05$. Các giá trị đại diện là $c_1=5$, $c_2=15$, $c_3=25$, $c_4=35$, $c_5=45$.
+
+Áp dụng công thức $\bar{x}=f_1c_1+\dots+f_kc_k$, ta có
+$$\begin{aligned}\bar{x}&=0{,}15\cdot5+0{,}35\cdot15+0{,}30\cdot25+0{,}15\cdot35+0{,}05\cdot45\\&=0{,}75+5{,}25+7{,}5+5{,}25+2{,}25\\&=21.\end{aligned}$$
+
+Vậy số trung bình là $21$ phút, cùng kết quả với cách tính bằng tần số.
 
 **Đáp số.** $\bar{x}=21$ phút, cùng kết quả với cách tính bằng tần số.
 :::
@@ -338,7 +412,19 @@ Một mẫu số liệu ghép nhóm có $k$ nhóm cùng độ rộng $h$, tất 
 2. Dùng $c_1=a_1+\dfrac h2$ và $c_k=a_{k+1}-\dfrac h2$.
 
 ::solution
-Vì mỗi nhóm có tần số $m$ nên $n=km$ và $\bar{x}=\dfrac{m(c_1+\dots+c_k)}{km}=\dfrac{c_1+\dots+c_k}{k}$. Các $c_i$ lập cấp số cộng nên $c_1+\dots+c_k=\dfrac{k(c_1+c_k)}{2}$, suy ra $\bar{x}=\dfrac{c_1+c_k}{2}=\dfrac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\dfrac{a_1+a_{k+1}}{2}$.
+Các nhóm là $[a_1; a_2)$, $[a_2; a_3)$, $\dots$, $[a_k; a_{k+1})$ với $a_{i+1}-a_i=h$. Giá trị đại diện của nhóm thứ $i$ là $c_i=\dfrac{a_i+a_{i+1}}{2}$.
+
+Gọi $m$ là tần số chung của mỗi nhóm. Khi đó cỡ mẫu là $n=km$ và
+$$\bar{x}=\frac{m\left(c_1+c_2+\dots+c_k\right)}{km}=\frac{c_1+c_2+\dots+c_k}{k}.$$
+
+Các giá trị $c_1, c_2,\dots,c_k$ cách đều nhau với hiệu $h$, nên lập thành một cấp số cộng. Do đó
+$$c_1+c_2+\dots+c_k=\frac{k\left(c_1+c_k\right)}{2},$$
+suy ra $\bar{x}=\dfrac{c_1+c_k}{2}$.
+
+Ta có $c_1=a_1+\dfrac h2$ và $c_k=a_{k+1}-\dfrac h2$ (vì nhóm cuối là $[a_k; a_{k+1})$ với $a_k=a_{k+1}-h$). Do đó
+$$\bar{x}=\frac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\frac{a_1+a_{k+1}}{2}.$$
+
+Vậy số trung bình ước lượng bằng trung điểm của đoạn $[a_1; a_{k+1}]$.
 
 **Đáp số.** $\bar{x}=\dfrac{a_1+a_{k+1}}{2}$, trung điểm của $[a_1; a_{k+1}]$.
 :::

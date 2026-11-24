@@ -133,7 +133,13 @@ You know $2+3=5$. Work out $5-2$.
 2. Take $2$ from $5$.
 
 ::solution
-$5$ is made of $2$ and $3$; take away $2$ and $3$ is left.
+We know $2+3=5$, which means $5$ is made of $2$ and $3$.
+
+Take away $2$ from $5$ and $3$ is left. So $5-2=3$.
+
+Check: $3+2=5$. Correct.
+
+So $5-2=3$.
 
 **Answer.** $5-2=3$.
 :::
@@ -149,7 +155,13 @@ You know $4+3=7$. Work out $7-4$.
 2. Take $4$ from $7$.
 
 ::solution
-$7$ is made of $4$ and $3$; take away $4$ and $3$ is left.
+We know $4+3=7$, which means $7$ is made of $4$ and $3$.
+
+Take away $4$ from $7$ and $3$ is left. So $7-4=3$.
+
+Check: $3+4=7$. Correct.
+
+So $7-4=3$.
 
 **Answer.** $7-4=3$.
 :::
@@ -165,7 +177,11 @@ Remember the last lesson: work out $9-4$ by counting back, then check with addit
 2. Work out $\square+4$ and see if it equals $9$.
 
 ::solution
-Counting back gives $5$. Check: $5+4=9$. Correct.
+Count back four numbers from $9$: "eight, seven, six, five". The last number is $5$, so $9-4=5$.
+
+Check with addition: $5+4=9$. Correct.
+
+So $9-4=5$.
 
 **Answer.** $9-4=5$.
 :::
@@ -183,7 +199,11 @@ b) $\square-5=3$.
 2. Put $3$ and $5$ together.
 
 ::solution
-a) From $2$ to $6$ is $4$ numbers, so $6-4=2$. b) $3+5=8$, so $8-5=3$.
+a) We need the number that, taken away from $6$, leaves $2$. From $2$ to $6$: "three, four, five, six", which is $4$ numbers, so the missing number is $4$. Check: $6-4=2$. Correct.
+
+b) The whole equals the difference plus the number taken away, so the missing number is $3+5=8$. Check: $8-5=3$. Correct.
+
+So the missing number in part a) is $4$ and in part b) it is $8$.
 
 **Answer.** a) $4$. b) $8$.
 :::
@@ -199,7 +219,13 @@ Lan writes from $3+4=7$ the subtraction $7-3=3$. Is Lan right? Why?
 2. Which number is that?
 
 ::solution
-$7$ is made of $3$ and $4$. Take away $3$ and $4$ is left, not $3$.
+From $3+4=7$ we know $7$ is made of $3$ and $4$.
+
+Take away $3$ from $7$ and $4$ is left, so $7-3=4$. Lan's $7-3=3$ is not right.
+
+Check: $4+3=7$ so $7-3=4$, but $3+3=6$, which is not $7$.
+
+So Lan is wrong, and the correct subtraction is $7-3=4$.
 
 **Answer.** No. $7-3=4$.
 :::
@@ -215,7 +241,17 @@ An writes four sums from the numbers $3$, $4$, $7$: $3+4=7$, $4+3=7$, $7-3=4$, $
 2. Find the one that takes the bigger number from the smaller.
 
 ::solution
-The sum $3-4=7$ is wrong because you cannot take $4$ away from $3$. The right sum is $7-4=3$.
+We look at each of An's sums.
+
+The sum $3+4=7$ is correct, and $4+3=7$ is also correct.
+
+The sum $7-3=4$ is correct, because $7$ is made of $3$ and $4$, and taking away $3$ leaves $4$.
+
+The sum $3-4=7$ is wrong, because $3$ is less than $4$, so we cannot take $4$ away from $3$. Also the answer cannot be $7$, which is bigger than the starting number $3$.
+
+Of the three numbers $3$, $4$, $7$, the biggest is $7$, so a subtraction must start from $7$. The right sum is $7-4=3$.
+
+So the wrong sum is $3-4=7$, and written correctly it is $7-4=3$.
 
 **Answer.** $3-4=7$ is wrong; it should be $7-4=3$.
 :::
@@ -231,10 +267,14 @@ There are $9$ oranges. $4$ oranges are in a basket and the rest are on the table
 2. Work out $9-4$ and write the answer with its unit.
 
 ::solution
-The number of oranges on the table is:
+Solution
+
+The number of oranges on the table is the total take away the oranges in the basket. The number of oranges on the table is:
 $$9-4=5\ \text{(oranges)}.$$
 
-**Check.** $4+5=9$. Correct.
+Check: $4+5=9$. Correct.
+
+So there are $5$ oranges on the table.
 
 **Answer.** $5$ oranges.
 :::
@@ -250,9 +290,15 @@ From the three numbers $3$, $6$, $9$, write all four addition and subtraction su
 2. Write the two subtractions.
 
 ::solution
-Two additions: $3+6=9$ and $6+3=9$. Two subtractions: $9-3=6$ and $9-6=3$.
+Among the numbers $3$, $6$, $9$, the biggest is $9$ and $3+6=9$, so $9$ is made of $3$ and $6$.
 
-**Check.** $3+6=9$, so $9-3=6$ and $9-6=3$. Correct.
+Two additions: $3+6=9$ and $6+3=9$.
+
+Two subtractions: take away $3$ from $9$ and $6$ is left, so $9-3=6$; take away $6$ from $9$ and $3$ is left, so $9-6=3$.
+
+Check: $3+6=9$, so $9-3=6$ and $9-6=3$. Correct.
+
+So the four sums are $3+6=9$; $6+3=9$; $9-3=6$; $9-6=3$.
 
 **Answer.** $3+6=9$; $6+3=9$; $9-3=6$; $9-6=3$.
 :::

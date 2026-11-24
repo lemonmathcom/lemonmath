@@ -180,7 +180,20 @@ Tính a) $\lim\dfrac{2n+1}{n}$; b) $\lim\left(1-\dfrac3n\right)$; c) $\lim\dfrac
 2. Thay $\dfrac1n\to0$.
 
 ::solution
-a) $\dfrac{2n+1}{n}=2+\dfrac1n\to2$. b) $1-\dfrac3n\to1$. c) $\dfrac{n+5}{2n-1}=\dfrac{1+\frac5n}{2-\frac1n}\to\dfrac12$.
+Ta dùng $\lim\dfrac1n=0$ và các quy tắc giới hạn của tổng, hiệu, thương (với mẫu có giới hạn khác $0$).
+
+a) Với $n\ge1$, ta có $\dfrac{2n+1}{n}=2+\dfrac1n$. Vì $\lim\dfrac1n=0$ nên
+$$\lim\frac{2n+1}{n}=2+0=2.$$
+
+b) Vì $\lim\dfrac3n=3\lim\dfrac1n=0$ nên
+$$\lim\left(1-\frac3n\right)=1-0=1.$$
+
+c) Với $n\ge1$ thì $2n-1\neq0$. Chia cả tử và mẫu cho $n$, ta được
+$$\frac{n+5}{2n-1}=\frac{1+\frac5n}{2-\frac1n}.$$
+Vì tử có giới hạn $1+0=1$ và mẫu có giới hạn $2-0=2\neq0$ nên
+$$\lim\frac{n+5}{2n-1}=\frac12.$$
+
+Vậy a) $2$; b) $1$; c) $\dfrac12$.
 
 **Đáp số.** a) $2$; b) $1$; c) $\dfrac12$.
 :::
@@ -195,7 +208,13 @@ Tính $\lim\dfrac{5n^2-2n}{3n^2+1}$.
 1. Viết lại thành $\dfrac{5-\frac2n}{3+\frac1{n^2}}$.
 
 ::solution
-$\dfrac{5n^2-2n}{3n^2+1}=\dfrac{5-\frac2n}{3+\frac1{n^2}}\to\dfrac53$.
+Tử và mẫu đều có bậc cao nhất là $n^2$, nên ta chia cả tử và mẫu cho $n^2$ (với $n\ge1$, $3n^2+1\neq0$):
+$$\frac{5n^2-2n}{3n^2+1}=\frac{5-\frac2n}{3+\frac1{n^2}}.$$
+
+Vì $\lim\dfrac2n=0$ và $\lim\dfrac1{n^2}=0$ nên tử có giới hạn $5$ và mẫu có giới hạn $3\neq0$. Do đó
+$$\lim\frac{5n^2-2n}{3n^2+1}=\frac53.$$
+
+Vậy $\lim\dfrac{5n^2-2n}{3n^2+1}=\dfrac53$.
 
 **Đáp số.** $\dfrac53$.
 :::
@@ -210,7 +229,13 @@ Tính $\lim\dfrac{2^n+5^n}{5^n+1}$.
 1. Chia cho $5^n$ rồi dùng $\left(\dfrac25\right)^n\to0$ và $\dfrac1{5^n}\to0$.
 
 ::solution
-$\dfrac{2^n+5^n}{5^n+1}=\dfrac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}\to\dfrac{0+1}{1+0}=1$.
+Trong tử và mẫu, số hạng lớn nhất là $5^n$, nên ta chia cả tử và mẫu cho $5^n>0$:
+$$\frac{2^n+5^n}{5^n+1}=\frac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}=\frac{\left(\frac25\right)^n+1}{1+\left(\frac15\right)^n}.$$
+
+Vì $\left|\dfrac25\right|<1$ và $\left|\dfrac15\right|<1$ nên $\lim\left(\dfrac25\right)^n=0$ và $\lim\left(\dfrac15\right)^n=0$. Do đó tử có giới hạn $0+1=1$ và mẫu có giới hạn $1+0=1\neq0$, suy ra
+$$\lim\frac{2^n+5^n}{5^n+1}=\frac{0+1}{1+0}=1.$$
+
+Vậy $\lim\dfrac{2^n+5^n}{5^n+1}=1$.
 
 **Đáp số.** $1$.
 :::
@@ -226,7 +251,16 @@ Cho $u_n=\dfrac{2n-1}{n}$. Chứng tỏ $\lim u_n=2$ và tìm số $n$ nhỏ nh�
 2. Giải $\dfrac1n<0{,}001$.
 
 ::solution
-$u_n-2=\dfrac{2n-1-2n}{n}=-\dfrac1n$ nên $|u_n-2|=\dfrac1n\to0$, suy ra $\lim u_n=2$. Giải $\dfrac1n<0{,}001$ được $n>1000$, tức $n\ge1001$.
+Phần 1: chứng tỏ $\lim u_n=2$. Với $n\ge1$, ta có
+$$u_n-2=\frac{2n-1}{n}-2=\frac{2n-1-2n}{n}=-\frac1n.$$
+Do đó $|u_n-2|=\dfrac1n$. Vì $\lim\dfrac1n=0$ nên $\lim|u_n-2|=0$, suy ra $\lim u_n=2$.
+
+Phần 2: tìm $n$ nhỏ nhất. Ta cần $|u_n-2|<0{,}001$, tức là
+$$\frac1n<0{,}001\iff n>1000.$$
+
+Số nguyên dương nhỏ nhất thoả mãn là $n=1001$. (Kiểm tra: với $n=1000$ thì $\dfrac1{1000}=0{,}001$, không nhỏ hơn $0{,}001$.) Vì $\dfrac1n$ giảm khi $n$ tăng nên với mọi $n\ge1001$ ta đều có $|u_n-2|<0{,}001$.
+
+Vậy $\lim u_n=2$ và bất đẳng thức $|u_n-2|<0{,}001$ đúng với mọi số hạng từ số hạng thứ $1001$ trở đi.
 
 **Đáp số.** $\lim u_n=2$; từ số hạng thứ $1001$ trở đi.
 :::
@@ -242,7 +276,15 @@ Tính a) $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$; b) viết $0{,}(6)=0{,}666\dot
 2. Với câu b, viết $0{,}6+0{,}06+\dots$.
 
 ::solution
-a) $u_1=1$, $q=\dfrac13$ nên $S=\dfrac{1}{1-\frac13}=\dfrac32$. b) $0{,}(6)=0{,}6+0{,}06+\dots$ có $u_1=0{,}6$, $q=0{,}1$ nên bằng $\dfrac{0{,}6}{0{,}9}=\dfrac23$.
+Tổng của cấp số nhân lùi vô hạn (công bội $q$ thoả $|q|<1$) là $S=\dfrac{u_1}{1-q}$.
+
+a) Các số hạng $1,\dfrac13,\dfrac19,\dfrac1{27},\dots$ lập thành cấp số nhân với $u_1=1$ và $q=\dfrac13$. Vì $|q|<1$ nên
+$$S=\frac{1}{1-\frac13}=\frac{1}{\frac23}=\frac32.$$
+
+b) Ta viết $0{,}(6)=0{,}6+0{,}06+0{,}006+\dots$. Đây là tổng của cấp số nhân lùi vô hạn có $u_1=0{,}6$ và $q=0{,}1$ ($|q|<1$). Do đó
+$$0{,}(6)=\frac{0{,}6}{1-0{,}1}=\frac{0{,}6}{0{,}9}=\frac23.$$
+
+Vậy a) tổng bằng $\dfrac32$; b) $0{,}(6)=\dfrac23$.
 
 **Đáp số.** a) $\dfrac32$; b) $\dfrac23$.
 :::
@@ -258,7 +300,15 @@ Một quả bóng được thả từ độ cao $5$ m; mỗi lần chạm đất
 2. Tổng quãng đường $=5+2\cdot S$.
 
 ::solution
-Các độ cao nảy: $4$; $3{,}2$; ... có $u_1=4$, $q=0{,}8$, tổng $S=\dfrac{4}{1-0{,}8}=20$ m. Tổng quãng đường là $5+2\cdot20=45$ m.
+Quãng đường gồm lần rơi đầu tiên $5$ m, rồi với mỗi lần nảy, bóng đi lên một đoạn và rơi xuống đúng đoạn đó.
+
+Độ cao các lần nảy lần lượt là $5\cdot0{,}8=4$ (m), $4\cdot0{,}8=3{,}2$ (m), ... Chúng lập thành cấp số nhân lùi vô hạn có $u_1=4$ và $q=0{,}8$ ($|q|<1$). Tổng các độ cao nảy là
+$$S=\frac{4}{1-0{,}8}=\frac{4}{0{,}2}=20\ \text{(m)}.$$
+
+Mỗi độ cao nảy được đi hai lần (lên rồi xuống), nên tổng quãng đường là
+$$5+2\cdot20=45\ \text{(m)}.$$
+
+Vậy tổng quãng đường quả bóng đi được cho đến khi dừng hẳn là $45$ m.
 
 **Đáp số.** $45$ m.
 :::
@@ -283,13 +333,17 @@ d) $\lim n(u_n-1)=0$.
 3. d) Tính $n(u_n-1)$.
 
 ::solution
-a) **Đúng**: $1+\dfrac2n\to1$.
+Với $n\ge1$, ta có $u_n=\dfrac{n+2}{n}=1+\dfrac2n$.
 
-b) **Sai**: $\dfrac{n+2}{n}=1$ vô nghiệm vì $u_n=1+\dfrac2n>1$.
+a) **Đúng.** Vì $\lim\dfrac2n=0$ nên $\lim u_n=1+0=1$.
 
-c) **Đúng**: $\lim u_n^2=(\lim u_n)^2=1$.
+b) **Sai.** Nếu $u_n=1$ thì $1+\dfrac2n=1$, suy ra $\dfrac2n=0$, vô nghiệm. Thật vậy, với mọi số nguyên dương $n$ ta có $\dfrac2n>0$ nên $u_n>1$.
 
-d) **Sai**: $n(u_n-1)=n\cdot\dfrac2n=2$ nên giới hạn bằng $2$.
+c) **Đúng.** Theo quy tắc giới hạn của tích, $\lim u_n^2=\left(\lim u_n\right)^2=1^2=1$.
+
+d) **Sai.** Với $n\ge1$, ta có $n(u_n-1)=n\cdot\dfrac2n=2$. Đây là dãy hằng số $2$ nên giới hạn bằng $2$, không phải $0$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -304,7 +358,13 @@ Tính $\lim\dfrac{6n^2+n}{2n^2-3}$.
 1. Viết $\dfrac{6+\frac1n}{2-\frac3{n^2}}$.
 
 ::solution
-$\dfrac{6n^2+n}{2n^2-3}=\dfrac{6+\frac1n}{2-\frac3{n^2}}\to\dfrac62=3$.
+Tử và mẫu đều có bậc cao nhất là $n^2$, nên ta chia cả tử và mẫu cho $n^2$ (với $n\ge2$ thì $2n^2-3\neq0$):
+$$\frac{6n^2+n}{2n^2-3}=\frac{6+\frac1n}{2-\frac3{n^2}}.$$
+
+Vì $\lim\dfrac1n=0$ và $\lim\dfrac3{n^2}=0$ nên tử có giới hạn $6$ và mẫu có giới hạn $2\neq0$. Do đó
+$$\lim\frac{6n^2+n}{2n^2-3}=\frac62=3.$$
+
+Vậy $\lim\dfrac{6n^2+n}{2n^2-3}=3$.
 
 **Đáp số.** $3$.
 :::
@@ -320,7 +380,20 @@ Cấp số nhân $(u_n)$ có $u_1=4$ và $q=\dfrac12$. Dùng công thức tổng
 2. $S-S_n=\dfrac{u_1q^n}{1-q}$.
 
 ::solution
-$S_5=\dfrac{4\left(1-\frac1{32}\right)}{\frac12}=7{,}75$ và $S=\dfrac{4}{\frac12}=8$. Ta có $S-S_n=8\cdot\left(\dfrac12\right)^n=\dfrac{8}{2^n}$. Giải $\dfrac8{2^n}<0{,}01$ được $2^n>800$; vì $2^9=512<800<1024=2^{10}$ nên $n=10$.
+Tổng $n$ số hạng đầu của cấp số nhân là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$.
+
+Tính $S_5$. Với $u_1=4$, $q=\dfrac12$, ta có
+$$S_5=\frac{4\left(1-\frac1{32}\right)}{\frac12}=8\cdot\frac{31}{32}=\frac{31}{4}=7{,}75.$$
+
+Tìm $S$. Vì $|q|=\dfrac12<1$ nên $\lim q^n=0$ và
+$$S=\lim S_n=\frac{u_1}{1-q}=\frac{4}{\frac12}=8.$$
+
+Tìm $n$ nhỏ nhất. Ta có $S_n=8\left(1-\dfrac1{2^n}\right)$ nên
+$$S-S_n=8-8\left(1-\frac1{2^n}\right)=\frac{8}{2^n}.$$
+
+Biểu thức này dương, nên $|S-S_n|<0{,}01\iff\dfrac8{2^n}<0{,}01\iff2^n>800$. Vì $2^9=512<800<1024=2^{10}$ nên số nguyên dương $n$ nhỏ nhất thoả mãn là $n=10$. (Kiểm tra: $n=9$ cho $\dfrac8{512}=0{,}015625>0{,}01$; $n=10$ cho $\dfrac8{1024}=0{,}0078125<0{,}01$.)
+
+Vậy $S_5=7{,}75$; $S=8$; và $n=10$ là số nhỏ nhất để $|S-S_n|<0{,}01$.
 
 **Đáp số.** $S_5=7{,}75$; $S=8$; $n=10$.
 :::
@@ -336,7 +409,16 @@ Tính $\lim\left(\sqrt{n^2+n}-n\right)$.
 2. Chia tử và mẫu cho $n$.
 
 ::solution
-$\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\dfrac{1}{\sqrt{1+\frac1n}+1}\to\dfrac{1}{1+1}=\dfrac12$.
+Biểu thức $\sqrt{n^2+n}-n$ có dạng hiệu của hai căn nên ta nhân và chia với biểu thức liên hợp $\sqrt{n^2+n}+n>0$:
+$$\sqrt{n^2+n}-n=\frac{\left(\sqrt{n^2+n}-n\right)\left(\sqrt{n^2+n}+n\right)}{\sqrt{n^2+n}+n}=\frac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\frac{n}{\sqrt{n^2+n}+n}.$$
+
+Với $n\ge1$, chia cả tử và mẫu cho $n>0$ và dùng $\dfrac{\sqrt{n^2+n}}{n}=\sqrt{1+\dfrac1n}$, ta được
+$$\frac{n}{\sqrt{n^2+n}+n}=\frac{1}{\sqrt{1+\frac1n}+1}.$$
+
+Vì $\lim\dfrac1n=0$ nên $\lim\sqrt{1+\dfrac1n}=1$, do đó mẫu có giới hạn $1+1=2\neq0$ và
+$$\lim\left(\sqrt{n^2+n}-n\right)=\frac{1}{1+1}=\frac12.$$
+
+Vậy $\lim\left(\sqrt{n^2+n}-n\right)=\dfrac12$.
 
 **Đáp số.** $\dfrac12$.
 :::

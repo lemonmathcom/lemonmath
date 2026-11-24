@@ -179,7 +179,10 @@ Triangle $ABC$ has $BC=18$ cm. Let $D$ and $E$ be the midpoints of $AB$ and $AC$
 2. Take half of $BC$.
 
 ::solution
-$DE$ is a midsegment of triangle $ABC$, so $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+Since $D$ and $E$ are the midpoints of $AB$ and $AC$, $DE$ is a midsegment of triangle $ABC$.
+
+A midsegment of a triangle is parallel to the third side and equal to half of it, so
+$$DE=\frac12BC=\frac12\cdot18=9\ \text{(cm)}.$$
 
 So $DE=9$ cm.
 
@@ -197,7 +200,10 @@ In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $DE=7.5$ 
 2. Double $DE$.
 
 ::solution
-Since $DE$ is a midsegment, $BC=2DE=2\cdot7.5=15$ (cm).
+Since $D$ and $E$ are the midpoints of $AB$ and $AC$, $DE$ is a midsegment of triangle $ABC$.
+
+Hence $DE=\dfrac12BC$, so
+$$BC=2DE=2\cdot7.5=15\ \text{(cm)}.$$
 
 So $BC=15$ cm.
 
@@ -233,7 +239,12 @@ Triangle $ABC$ has $\angle B=60^\circ$ and $\angle C=75^\circ$. Let $D$ and $E$ 
 2. Use the pairs of corresponding angles.
 
 ::solution
-Since $DE$ is a midsegment, $DE\parallel BC$. Hence $\angle ADE=\angle B=60^\circ$ and $\angle AED=\angle C=75^\circ$ (pairs of corresponding angles).
+Since $D$ and $E$ are the midpoints of $AB$ and $AC$, $DE$ is a midsegment of triangle $ABC$, so $DE\parallel BC$.
+
+Since $DE\parallel BC$, the pairs of corresponding angles are equal:
+$$\angle ADE=\angle B=60^\circ,\qquad\angle AED=\angle C=75^\circ.$$
+
+Check: in triangle $ABC$ we have $\angle A=180^\circ-60^\circ-75^\circ=45^\circ$, and in triangle $ADE$ we have $45^\circ+60^\circ+75^\circ=180^\circ$.
 
 So $\angle ADE=60^\circ$ and $\angle AED=75^\circ$.
 
@@ -287,7 +298,10 @@ Suppose two points $A$ and $B$ lie on opposite banks of a marsh. Choose a point 
 2. Double $MN$.
 
 ::solution
-$MN$ is a midsegment of triangle $CAB$, so $AB=2MN=2\cdot23=46$ (m).
+Consider triangle $CAB$. Since $M$ and $N$ are the midpoints of $CA$ and $CB$, $MN$ is a midsegment of triangle $CAB$.
+
+Hence $MN=\dfrac12AB$, so
+$$AB=2MN=2\cdot23=46\ \text{(m)}.$$
 
 So the distance $AB$ is $46$ m.
 

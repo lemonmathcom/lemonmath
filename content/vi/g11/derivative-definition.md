@@ -186,13 +186,25 @@ d) $f(x)=\sqrt x$ tại $x_0=4$.
 2. Rút gọn rồi cho $x\to x_0$.
 
 ::solution
-a) $\dfrac{2x^2-x-1}{x-1}=\dfrac{(2x+1)(x-1)}{x-1}=2x+1\to3$. Vậy $f'(1)=3$.
+Áp dụng định nghĩa: $f'(x_0)=\lim_{x\to x_0}\dfrac{f(x)-f(x_0)}{x-x_0}$.
 
-b) $\dfrac{x^3-8}{x-2}=x^2+2x+4\to12$. Vậy $f'(2)=12$.
+a) Ta có $f(1)=2\cdot1^2-1=1$. Với $x\neq1$:
+$$\frac{f(x)-f(1)}{x-1}=\frac{2x^2-x-1}{x-1}=\frac{(2x+1)(x-1)}{x-1}=2x+1.$$
+Khi $x\to1$ thì $2x+1\to3$. Vậy $f'(1)=3$.
 
-c) $\dfrac{\frac1x+1}{x+1}=\dfrac{\frac{1+x}{x}}{x+1}=\dfrac1x\to-1$. Vậy $f'(-1)=-1$.
+b) Ta có $f(2)=2^3=8$. Với $x\neq2$:
+$$\frac{f(x)-f(2)}{x-2}=\frac{x^3-8}{x-2}=\frac{(x-2)\left(x^2+2x+4\right)}{x-2}=x^2+2x+4.$$
+Khi $x\to2$ thì $x^2+2x+4\to4+4+4=12$. Vậy $f'(2)=12$.
 
-d) $\dfrac{\sqrt x-2}{x-4}=\dfrac{\sqrt x-2}{(\sqrt x-2)(\sqrt x+2)}=\dfrac{1}{\sqrt x+2}\to\dfrac14$. Vậy $f'(4)=\dfrac14$.
+c) Ta có $f(-1)=\dfrac1{-1}=-1$. Với $x\neq0$, $x\neq-1$:
+$$\frac{f(x)-f(-1)}{x-(-1)}=\frac{\frac1x+1}{x+1}=\frac{\frac{1+x}{x}}{x+1}=\frac1x.$$
+Khi $x\to-1$ thì $\dfrac1x\to-1$. Vậy $f'(-1)=-1$.
+
+d) Ta có $f(4)=\sqrt4=2$. Với $x>0$, $x\neq4$:
+$$\frac{f(x)-f(4)}{x-4}=\frac{\sqrt x-2}{x-4}=\frac{\sqrt x-2}{(\sqrt x-2)(\sqrt x+2)}=\frac{1}{\sqrt x+2}.$$
+Khi $x\to4$ thì $\dfrac{1}{\sqrt x+2}\to\dfrac14$. Vậy $f'(4)=\dfrac14$.
+
+Vậy $f'(1)=3$, $f'(2)=12$, $f'(-1)=-1$, $f'(4)=\dfrac14$.
 
 **Đáp số.** a) $3$; b) $12$; c) $-1$; d) $\dfrac14$.
 :::
@@ -214,11 +226,19 @@ c) $f(x)=c$ (hàm hằng).
 2. Chia cho $h$ rồi cho $h\to0$.
 
 ::solution
-a) $f(x+h)-f(x)=(x+h)^2-3(x+h)-x^2+3x=2xh+h^2-3h$. Chia cho $h$: $2x+h-3\to2x-3$. Vậy $f'(x)=2x-3$.
+Áp dụng định nghĩa: $f'(x)=\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}$.
 
-b) $\dfrac{1}{x+h}-\dfrac1x=\dfrac{-h}{x(x+h)}$. Chia cho $h$: $-\dfrac{1}{x(x+h)}\to-\dfrac{1}{x^2}$. Vậy $f'(x)=-\dfrac{1}{x^2}$.
+a) Ta có
+$$\begin{aligned}f(x+h)-f(x)&=(x+h)^2-3(x+h)-x^2+3x\\&=2xh+h^2-3h.\end{aligned}$$
+Chia cho $h\neq0$: $\dfrac{f(x+h)-f(x)}{h}=2x+h-3$. Khi $h\to0$ thì $2x+h-3\to2x-3$. Vậy $f'(x)=2x-3$.
 
-c) $f(x+h)-f(x)=c-c=0$ nên $f'(x)=0$.
+b) Với $x\neq0$ và $h$ đủ nhỏ để $x+h\neq0$:
+$$f(x+h)-f(x)=\frac{1}{x+h}-\frac1x=\frac{x-(x+h)}{x(x+h)}=\frac{-h}{x(x+h)}.$$
+Chia cho $h\neq0$: $\dfrac{f(x+h)-f(x)}{h}=-\dfrac{1}{x(x+h)}$. Khi $h\to0$ thì giá trị này tiến tới $-\dfrac{1}{x^2}$. Vậy $f'(x)=-\dfrac{1}{x^2}$.
+
+c) Với $f(x)=c$ ta có $f(x+h)-f(x)=c-c=0$ nên $\dfrac{f(x+h)-f(x)}{h}=0$ với mọi $h\neq0$. Suy ra $f'(x)=0$.
+
+Vậy $f'(x)=2x-3$ ở ý a), $f'(x)=-\dfrac{1}{x^2}$ ở ý b) và $f'(x)=0$ ở ý c).
 
 **Đáp số.** a) $2x-3$; b) $-\dfrac1{x^2}$; c) $0$.
 :::
@@ -240,11 +260,19 @@ c) $y=\dfrac1x$ tại điểm có hoành độ $\dfrac12$.
 2. Thay vào công thức rồi rút gọn.
 
 ::solution
-a) $f(-1)=1$, $f'(-1)=-2$. Tiếp tuyến: $y=-2(x+1)+1=-2x-1$.
+Phương trình tiếp tuyến của đồ thị hàm số $y=f(x)$ tại điểm có hoành độ $x_0$ là
+$$y=f'(x_0)(x-x_0)+f(x_0).$$
 
-b) $f(2)=8$, $f'(2)=12$. Tiếp tuyến: $y=12(x-2)+8=12x-16$.
+a) Với $f(x)=x^2$ ta có $f'(x)=2x$. Tại $x_0=-1$: $f(-1)=1$ và $f'(-1)=-2$. Phương trình tiếp tuyến là
+$$y=-2(x+1)+1=-2x-1.$$
 
-c) $f\left(\dfrac12\right)=2$, $f'\left(\dfrac12\right)=-4$. Tiếp tuyến: $y=-4\left(x-\dfrac12\right)+2=-4x+4$.
+b) Với $f(x)=x^3$ ta có $f'(x)=3x^2$. Tại $x_0=2$: $f(2)=8$ và $f'(2)=12$. Phương trình tiếp tuyến là
+$$y=12(x-2)+8=12x-16.$$
+
+c) Với $f(x)=\dfrac1x$ ta có $f'(x)=-\dfrac{1}{x^2}$. Tại $x_0=\dfrac12$: $f\left(\dfrac12\right)=2$ và $f'\left(\dfrac12\right)=-\dfrac{1}{1/4}=-4$. Phương trình tiếp tuyến là
+$$y=-4\left(x-\frac12\right)+2=-4x+4.$$
+
+Vậy các tiếp tuyến lần lượt là $y=-2x-1$, $y=12x-16$ và $y=-4x+4$.
 
 **Đáp số.** a) $y=-2x-1$; b) $y=12x-16$; c) $y=-4x+4$.
 :::
@@ -266,11 +294,27 @@ c) $g(x)=\begin{cases}x^2&\text{nếu }x\le1\\3x-2&\text{nếu }x>1\end{cases}$ 
 2. Tính giới hạn khi $x\to x_0^-$ và $x\to x_0^+$ rồi so sánh.
 
 ::solution
-a) Tỉ số là $\dfrac{|x-1|}{x-1}$: bên phải bằng $1$, bên trái bằng $-1$. Không có đạo hàm.
+Hàm số có đạo hàm tại $x_0$ khi và chỉ khi các giới hạn một bên của tỉ số $\dfrac{f(x)-f(x_0)}{x-x_0}$ tại $x_0$ tồn tại và bằng nhau.
 
-b) $f(2)=4$. Bên trái: $\dfrac{x^2-4}{x-2}=x+2\to4$. Bên phải: $\dfrac{4x-4-4}{x-2}=4\to4$. Có đạo hàm, $f'(2)=4$.
+a) Ta có $f(1)=|1-1|=0$, nên tỉ số là $\dfrac{|x-1|-0}{x-1}=\dfrac{|x-1|}{x-1}$. Với $x>1$ tỉ số bằng $\dfrac{x-1}{x-1}=1$; với $x<1$ tỉ số bằng $\dfrac{-(x-1)}{x-1}=-1$. Hai giới hạn một bên là $1$ và $-1$, khác nhau. Vậy $f$ không có đạo hàm tại $x_0=1$.
 
-c) $g(1)=1$. Bên trái: $\dfrac{x^2-1}{x-1}=x+1\to2$. Bên phải: $\dfrac{3x-2-1}{x-1}=3\to3$. Hai giới hạn khác nhau, không có đạo hàm.
+b) Ta có $f(2)=2^2=4$.
+
+Bên trái ($x<2$): $\dfrac{f(x)-f(2)}{x-2}=\dfrac{x^2-4}{x-2}=x+2\to4$ khi $x\to2^-$.
+
+Bên phải ($x>2$): $\dfrac{f(x)-f(2)}{x-2}=\dfrac{4x-4-4}{x-2}=\dfrac{4(x-2)}{x-2}=4\to4$ khi $x\to2^+$.
+
+Hai giới hạn một bên cùng bằng $4$. Vậy $f$ có đạo hàm tại $x_0=2$ và $f'(2)=4$.
+
+c) Ta có $g(1)=1^2=1$.
+
+Bên trái ($x<1$): $\dfrac{g(x)-g(1)}{x-1}=\dfrac{x^2-1}{x-1}=x+1\to2$ khi $x\to1^-$.
+
+Bên phải ($x>1$): $\dfrac{g(x)-g(1)}{x-1}=\dfrac{3x-2-1}{x-1}=\dfrac{3(x-1)}{x-1}=3\to3$ khi $x\to1^+$.
+
+Hai giới hạn một bên khác nhau ($2\neq3$). Vậy $g$ không có đạo hàm tại $x_0=1$.
+
+Vậy $f(x)=|x-1|$ không có đạo hàm tại $1$; $f$ ở ý b) có đạo hàm tại $2$ với $f'(2)=4$; $g$ không có đạo hàm tại $1$.
 
 **Đáp số.** a) Không; b) Có, $4$; c) Không.
 :::
@@ -294,13 +338,17 @@ d) Với $f(x)=x^3$ thì $f'(2)=6$.
 2. Câu d: dùng kết quả $f'(2)=12$ đã tính.
 
 ::solution
-a) **Sai**: hai giới hạn một bên là $1$ và $-1$.
+a) **Sai.** Với $y=|x|$ ta có $y(0)=0$ và tỉ số $\dfrac{|x|-0}{x-0}=\dfrac{|x|}{x}$. Giới hạn bên phải là $1$, giới hạn bên trái là $-1$; hai giới hạn khác nhau nên $y=|x|$ không có đạo hàm tại $x=0$.
 
-b) **Đúng**: định lí có đạo hàm thì liên tục.
+b) **Đúng.** Nếu $f$ có đạo hàm tại $x_0$ thì $f$ liên tục tại $x_0$. Thật vậy, với $x\neq x_0$:
+$$f(x)-f(x_0)=\frac{f(x)-f(x_0)}{x-x_0}\cdot(x-x_0)\to f'(x_0)\cdot0=0\quad(x\to x_0),$$
+tức là $\lim_{x\to x_0}f(x)=f(x_0)$.
 
-c) **Đúng**: ý nghĩa hình học của đạo hàm.
+c) **Đúng.** Theo ý nghĩa hình học của đạo hàm, $f'(x_0)$ là hệ số góc của tiếp tuyến của đồ thị hàm số $y=f(x)$ tại điểm có hoành độ $x_0$.
 
-d) **Sai**: $f'(2)=12$, không phải $6$.
+d) **Sai.** Với $f(x)=x^3$ ta có $f'(x)=3x^2$, nên $f'(2)=3\cdot4=12$, không phải $6$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -320,9 +368,15 @@ b) Dùng $s'(t)=10t$ (đã rút ra ở ví dụ), sau bao nhiêu giây vật đ�
 2. b) Giải $10t=40$.
 
 ::solution
-a) $\dfrac{5t^2-45}{t-3}=\dfrac{5(t-3)(t+3)}{t-3}=5(t+3)\to30$. Vậy $v(3)=30$ m/s.
+Vận tốc tức thời tại thời điểm $t_0$ là $v(t_0)=s'(t_0)=\lim_{t\to t_0}\dfrac{s(t)-s(t_0)}{t-t_0}$.
 
-b) $10t=40$ nên $t=4$ giây.
+a) Ta có $s(3)=5\cdot3^2=45$. Với $t\neq3$:
+$$\frac{s(t)-s(3)}{t-3}=\frac{5t^2-45}{t-3}=\frac{5(t-3)(t+3)}{t-3}=5(t+3).$$
+Khi $t\to3$ thì $5(t+3)\to30$. Vậy $v(3)=30$ m/s.
+
+b) Vận tốc tại thời điểm $t$ là $v(t)=s'(t)=10t$. Cho $v(t)=40$ ta được $10t=40$, suy ra $t=4$ (giây), thoả mãn $t>0$.
+
+Vậy vận tốc tức thời tại $t=3$ giây là $30$ m/s, và vật đạt vận tốc $40$ m/s sau $4$ giây.
 
 **Đáp số.** a) $30$ m/s; b) $4$ giây.
 :::
@@ -342,9 +396,17 @@ b) Tính chi phí thực tế để sản xuất thêm sản phẩm thứ $101$,
 2. b) Tính hiệu hai giá trị.
 
 ::solution
-a) $\dfrac{C(q)-C(100)}{q-100}=\dfrac{0{,}02(q^2-100^2)+3(q-100)}{q-100}=0{,}02(q+100)+3\to7$. Vậy $C'(100)=7$ triệu đồng mỗi sản phẩm.
+Gọi $q$ là số sản phẩm; $C(q)$ tính bằng triệu đồng. Ta có $C(100)=0{,}02\cdot100^2+3\cdot100+50=200+300+50=550$.
 
-b) $C(101)-C(100)=0{,}02\cdot201+3=7{,}02$ triệu đồng, rất gần $C'(100)=7$.
+a) Với $q\neq100$:
+$$\frac{C(q)-C(100)}{q-100}=\frac{0{,}02\left(q^2-100^2\right)+3(q-100)}{q-100}=0{,}02(q+100)+3.$$
+Khi $q\to100$ thì $0{,}02(q+100)+3\to0{,}02\cdot200+3=7$. Vậy $C'(100)=7$ triệu đồng mỗi sản phẩm.
+
+b) Ta có $C(101)=0{,}02\cdot101^2+3\cdot101+50=204{,}02+303+50=557{,}02$. Do đó
+$$C(101)-C(100)=557{,}02-550=7{,}02\ \text{(triệu đồng)}.$$
+Giá trị này rất gần $C'(100)=7$ (chênh lệch $0{,}02$ triệu đồng).
+
+Vậy $C'(100)=7$ triệu đồng/sản phẩm; chi phí thực tế để sản xuất thêm sản phẩm thứ $101$ là $7{,}02$ triệu đồng, xấp xỉ $C'(100)$.
 
 **Đáp số.** a) $7$ triệu đồng/sản phẩm; b) $7{,}02$ triệu đồng, xấp xỉ $C'(100)$.
 :::
@@ -382,7 +444,16 @@ b) $\dfrac{s(t)-s(4)}{t-4}=\dfrac{2t^2+3t-44}{t-4}=2t+11\to19$. Vậy $v(4)=19$ 
 2. Rút gọn rồi cho $u\to2$.
 
 ::solution
-Đặt $u=\sqrt x$ thì $x\to4$ tương đương $u\to2$. Tỉ số bằng $\dfrac{u^3-8}{u^2-4}=\dfrac{(u-2)(u^2+2u+4)}{(u-2)(u+2)}=\dfrac{u^2+2u+4}{u+2}\to\dfrac{12}{4}=3$.
+Hàm số $f(x)=x^{3/2}=\left(\sqrt x\right)^3$ xác định với $x>0$ và $f(4)=4^{3/2}=8$.
+
+Theo định nghĩa, $f'(4)=\lim_{x\to4}\dfrac{f(x)-f(4)}{x-4}$.
+
+Đặt $u=\sqrt x$ thì $x=u^2$, $f(x)=u^3$. Vì hàm căn bậc hai liên tục nên $x\to4$ tương đương $u\to2$ (với $u\neq2$ khi $x\neq4$).
+
+Với $u\neq2$, tỉ số bằng
+$$\frac{u^3-8}{u^2-4}=\frac{(u-2)\left(u^2+2u+4\right)}{(u-2)(u+2)}=\frac{u^2+2u+4}{u+2}.$$
+
+Khi $u\to2$ thì $\dfrac{u^2+2u+4}{u+2}\to\dfrac{4+4+4}{2+2}=\dfrac{12}{4}=3$.
 
 Vậy $f'(4)=3$.
 
@@ -400,9 +471,18 @@ Cho $f$ là hàm số chẵn, có đạo hàm tại $0$. Chứng minh $f'(0)=0$.
 2. So sánh hai biểu thức.
 
 ::solution
-Vì $f$ có đạo hàm tại $0$ nên $f'(0)=\displaystyle\lim_{h\to0}\dfrac{f(h)-f(0)}{h}$. Thay $h$ bằng $-h$ (vẫn $\to0$):
-$$f'(0)=\lim_{h\to0}\frac{f(-h)-f(0)}{-h}=\lim_{h\to0}\frac{f(h)-f(0)}{-h}=-f'(0).$$
-Suy ra $2f'(0)=0$, tức $f'(0)=0$.
+Vì $f$ là hàm số chẵn nên $f(-h)=f(h)$ với mọi $h$ thuộc tập xác định. Vì $f$ có đạo hàm tại $0$ nên
+$$f'(0)=\lim_{h\to0}\frac{f(h)-f(0)}{h}.$$
+
+Khi $h\to0$ thì $-h\to0$, nên ta có thể thay $h$ bằng $-h$ trong giới hạn trên:
+$$f'(0)=\lim_{h\to0}\frac{f(-h)-f(0)}{-h}.$$
+
+Do $f(-h)=f(h)$ nên
+$$f'(0)=\lim_{h\to0}\frac{f(h)-f(0)}{-h}=-\lim_{h\to0}\frac{f(h)-f(0)}{h}=-f'(0).$$
+
+Suy ra $2f'(0)=0$, tức là $f'(0)=0$.
+
+Vậy nếu $f$ là hàm số chẵn và có đạo hàm tại $0$ thì $f'(0)=0$.
 
 **Đáp số.** $f'(0)=0$.
 :::

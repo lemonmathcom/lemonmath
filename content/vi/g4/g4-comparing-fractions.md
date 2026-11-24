@@ -182,11 +182,13 @@ c) $\dfrac{6}{6}\ldots1$
 2. Câu b: hai phân số cùng tử số nào? Câu c: tử số so với mẫu số thế nào?
 
 ::solution
-a) Cùng mẫu số $9$ và $5<7$ nên $\dfrac{5}{9}<\dfrac{7}{9}$.
+a) Hai phân số có cùng mẫu số $9$, ta so sánh hai tử số. Vì $5<7$ nên $\dfrac{5}{9}<\dfrac{7}{9}$.
 
-b) Cùng tử số $4$ và $11>7$ nên $\dfrac{4}{11}<\dfrac{4}{7}$.
+b) Hai phân số có cùng tử số $4$, ta so sánh hai mẫu số. Phân số nào có mẫu số lớn hơn thì bé hơn. Vì $11>7$ nên $\dfrac{4}{11}<\dfrac{4}{7}$.
 
-c) Tử số bằng mẫu số nên $\dfrac{6}{6}=1$.
+c) Phân số $\dfrac{6}{6}$ có tử số bằng mẫu số nên $\dfrac{6}{6}=1$.
+
+Vậy các dấu cần điền lần lượt là $<$, $<$, $=$.
 
 **Đáp số.** a) $<$. b) $<$. c) $=$.
 :::
@@ -202,9 +204,12 @@ So sánh $\dfrac{3}{5}$ và $\dfrac{7}{10}$.
 2. So sánh hai tử số.
 
 ::solution
-Vì $10$ chia hết cho $5$ nên $\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$.
+Hai phân số khác mẫu số nên ta quy đồng mẫu số. Vì $10$ chia hết cho $5$ nên chọn mẫu số chung là $10$ và chỉ cần quy đồng phân số $\dfrac{3}{5}$:
+$$\frac{3}{5}=\frac{3\times2}{5\times2}=\frac{6}{10}.$$
 
-Vì $6<7$ nên $\dfrac{6}{10}<\dfrac{7}{10}$.
+Hai phân số $\dfrac{6}{10}$ và $\dfrac{7}{10}$ có cùng mẫu số, mà $6<7$ nên $\dfrac{6}{10}<\dfrac{7}{10}$.
+
+Vậy $\dfrac{3}{5}<\dfrac{7}{10}$.
 
 **Đáp số.** $\dfrac{3}{5}<\dfrac{7}{10}$.
 :::
@@ -220,8 +225,14 @@ So sánh $\dfrac{5}{8}$ và $\dfrac{2}{3}$.
 2. So sánh hai tử số.
 
 ::solution
-$$\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24},\qquad \dfrac{2}{3}=\dfrac{2\times8}{3\times8}=\dfrac{16}{24}.$$
-Vì $15<16$ nên $\dfrac{15}{24}<\dfrac{16}{24}$.
+Hai phân số khác mẫu số nên ta quy đồng mẫu số. Mẫu số chung là $24$ vì $24=8\times3$.
+
+Ta có
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24},\qquad \frac{2}{3}=\frac{2\times8}{3\times8}=\frac{16}{24}.$$
+
+Hai phân số $\dfrac{15}{24}$ và $\dfrac{16}{24}$ có cùng mẫu số, mà $15<16$ nên $\dfrac{15}{24}<\dfrac{16}{24}$.
+
+Vậy $\dfrac{5}{8}<\dfrac{2}{3}$.
 
 **Đáp số.** $\dfrac{5}{8}<\dfrac{2}{3}$.
 :::
@@ -237,7 +248,15 @@ So sánh $\dfrac{11}{12}$ và $\dfrac{7}{6}$ bằng cách so sánh với $1$.
 2. $\dfrac{7}{6}$ lớn hơn hay bé hơn $1$?
 
 ::solution
-$\dfrac{11}{12}$ có tử số bé hơn mẫu số nên $\dfrac{11}{12}<1$. $\dfrac{7}{6}$ có tử số lớn hơn mẫu số nên $\dfrac{7}{6}>1$.
+Ta so sánh mỗi phân số với $1$.
+
+Phân số $\dfrac{11}{12}$ có tử số $11$ bé hơn mẫu số $12$ nên $\dfrac{11}{12}<1$.
+
+Phân số $\dfrac{7}{6}$ có tử số $7$ lớn hơn mẫu số $6$ nên $\dfrac{7}{6}>1$.
+
+Ta có $\dfrac{11}{12}<1<\dfrac{7}{6}$.
+
+Vậy $\dfrac{11}{12}<\dfrac{7}{6}$.
 
 **Đáp số.** $\dfrac{11}{12}<\dfrac{7}{6}$.
 :::
@@ -253,8 +272,12 @@ Sắp xếp các phân số $\dfrac{2}{3}$, $\dfrac{5}{6}$, $\dfrac{1}{2}$ theo 
 2. Xếp các tử số theo thứ tự.
 
 ::solution
-$$\dfrac{2}{3}=\dfrac{4}{6},\qquad \dfrac{1}{2}=\dfrac{3}{6},\qquad \dfrac{5}{6}\ \text{(giữ nguyên)}.$$
-Ta có $3<4<5$.
+Ba phân số có mẫu số $3$, $6$, $2$ khác nhau. Vì $6$ chia hết cho $3$ và cho $2$ nên ta chọn mẫu số chung là $6$ và giữ nguyên phân số $\dfrac{5}{6}$:
+$$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6},\qquad \frac{1}{2}=\frac{1\times3}{2\times3}=\frac{3}{6},\qquad \frac{5}{6}\ \text{(giữ nguyên)}.$$
+
+Ba phân số $\dfrac{4}{6}$, $\dfrac{5}{6}$, $\dfrac{3}{6}$ có cùng mẫu số. Ta so sánh các tử số: $3<4<5$, nên $\dfrac{3}{6}<\dfrac{4}{6}<\dfrac{5}{6}$.
+
+Vậy thứ tự từ bé đến lớn là $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
 
 **Đáp số.** $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
 :::
@@ -270,9 +293,14 @@ Hai bể nước có dung tích bằng nhau. Bể thứ nhất đã đầy $\dfr
 2. Quy đồng mẫu số rồi so sánh.
 
 ::solution
-Quy đồng mẫu số với mẫu số chung $20$:
-$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{4}{5}=\dfrac{16}{20}.$$
-Vì $15<16$ nên $\dfrac{3}{4}<\dfrac{4}{5}$.
+Hai bể có dung tích bằng nhau nên bể nào đầy hơn thì có nhiều nước hơn. Ta so sánh $\dfrac{3}{4}$ và $\dfrac{4}{5}$.
+
+Quy đồng mẫu số với mẫu số chung $20$ vì $20=4\times5$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{4}{5}=\frac{4\times4}{5\times4}=\frac{16}{20}.$$
+
+Vì $15<16$ nên $\dfrac{15}{20}<\dfrac{16}{20}$, tức là $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+Vậy bể thứ hai có nhiều nước hơn.
 
 **Đáp số.** Bể thứ hai có nhiều nước hơn.
 :::
@@ -288,9 +316,14 @@ Giả sử một sợi dây đỏ dài $\dfrac{5}{6}$ m và một sợi dây xan
 2. So sánh hai tử số.
 
 ::solution
-Quy đồng mẫu số với mẫu số chung $18$:
-$$\dfrac{5}{6}=\dfrac{5\times3}{6\times3}=\dfrac{15}{18},\qquad \dfrac{7}{9}=\dfrac{7\times2}{9\times2}=\dfrac{14}{18}.$$
-Vì $15>14$ nên $\dfrac{5}{6}>\dfrac{7}{9}$.
+Sợi dây nào có số mét lớn hơn thì dài hơn. Ta so sánh $\dfrac{5}{6}$ và $\dfrac{7}{9}$.
+
+Quy đồng mẫu số với mẫu số chung $18$ vì $18$ chia hết cho cả $6$ và $9$:
+$$\frac{5}{6}=\frac{5\times3}{6\times3}=\frac{15}{18},\qquad \frac{7}{9}=\frac{7\times2}{9\times2}=\frac{14}{18}.$$
+
+Vì $15>14$ nên $\dfrac{15}{18}>\dfrac{14}{18}$, tức là $\dfrac{5}{6}>\dfrac{7}{9}$.
+
+Vậy sợi dây đỏ dài hơn.
 
 **Đáp số.** Sợi dây đỏ dài hơn.
 :::
@@ -306,9 +339,15 @@ Em hãy nhớ lại bài rút gọn phân số. Rút gọn $\dfrac{18}{24}$ rồ
 2. Quy đồng mẫu số rồi so sánh với $\dfrac{4}{5}$.
 
 ::solution
-$\dfrac{18}{24}=\dfrac{18:6}{24:6}=\dfrac{3}{4}$.
+Trước hết ta rút gọn $\dfrac{18}{24}$. Vì $18$ và $24$ cùng chia hết cho $6$ nên chia cả tử số và mẫu số cho $6$:
+$$\frac{18}{24}=\frac{18:6}{24:6}=\frac{3}{4}.$$
 
-Quy đồng mẫu số với mẫu số chung $20$: $\dfrac{3}{4}=\dfrac{15}{20}$ và $\dfrac{4}{5}=\dfrac{16}{20}$. Vì $15<16$ nên $\dfrac{3}{4}<\dfrac{4}{5}$.
+Tiếp theo ta so sánh $\dfrac{3}{4}$ và $\dfrac{4}{5}$. Quy đồng mẫu số với mẫu số chung $20$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{4}{5}=\frac{4\times4}{5\times4}=\frac{16}{20}.$$
+
+Vì $15<16$ nên $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+Vậy $\dfrac{18}{24}=\dfrac{3}{4}$ và $\dfrac{18}{24}<\dfrac{4}{5}$.
 
 **Đáp số.** $\dfrac{18}{24}<\dfrac{4}{5}$.
 :::
@@ -324,9 +363,14 @@ Tìm các số tự nhiên $x$ sao cho $\dfrac{3}{7}<\dfrac{x}{7}<\dfrac{6}{7}$.
 2. Liệt kê các số tự nhiên thoả mãn.
 
 ::solution
-Các phân số có cùng mẫu số $7$ nên $3<x<6$.
+Ba phân số $\dfrac{3}{7}$, $\dfrac{x}{7}$, $\dfrac{6}{7}$ có cùng mẫu số $7$ nên ta so sánh các tử số. Bất đẳng thức đã cho tương đương với
+$$3<x<6.$$
 
-Các số tự nhiên $x$ thoả mãn là $4$ và $5$.
+Các số tự nhiên lớn hơn $3$ và bé hơn $6$ là $4$ và $5$.
+
+Kiểm tra: $\dfrac{3}{7}<\dfrac{4}{7}<\dfrac{6}{7}$ và $\dfrac{3}{7}<\dfrac{5}{7}<\dfrac{6}{7}$, đều đúng.
+
+Vậy $x=4$ hoặc $x=5$.
 
 **Đáp số.** $x=4$ hoặc $x=5$.
 :::
@@ -342,9 +386,17 @@ So sánh $\dfrac{99}{100}$ và $\dfrac{100}{101}$ mà không quy đồng mẫu s
 2. Phần thiếu càng bé thì phân số càng lớn hay bé?
 
 ::solution
-$\dfrac{99}{100}$ còn thiếu $\dfrac{1}{100}$ để bằng $1$, còn $\dfrac{100}{101}$ còn thiếu $\dfrac{1}{101}$ để bằng $1$.
+Ta so sánh hai phân số thông qua phần còn thiếu để bằng $1$.
 
-Vì $\dfrac{1}{100}>\dfrac{1}{101}$ (cùng tử số, mẫu số $100<101$) nên $\dfrac{100}{101}$ thiếu ít hơn, tức là gần $1$ hơn.
+Ta có $1-\dfrac{99}{100}=\dfrac{1}{100}$, tức là $\dfrac{99}{100}$ còn thiếu $\dfrac{1}{100}$ để bằng $1$.
+
+Ta có $1-\dfrac{100}{101}=\dfrac{1}{101}$, tức là $\dfrac{100}{101}$ còn thiếu $\dfrac{1}{101}$ để bằng $1$.
+
+Hai phân số $\dfrac{1}{100}$ và $\dfrac{1}{101}$ có cùng tử số, mẫu số $100<101$ nên $\dfrac{1}{100}>\dfrac{1}{101}$.
+
+Do đó $\dfrac{100}{101}$ thiếu ít hơn, tức là gần $1$ hơn, nên $\dfrac{100}{101}$ lớn hơn.
+
+Vậy $\dfrac{99}{100}<\dfrac{100}{101}$.
 
 **Đáp số.** $\dfrac{99}{100}<\dfrac{100}{101}$.
 :::

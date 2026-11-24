@@ -291,13 +291,16 @@ c) $\angle A=\angle B=65^\circ$. Find $\angle C$.
 2. Subtract that sum from $180^\circ$.
 
 ::solution
-In triangle $ABC$: $\angle A+\angle B+\angle C=180^\circ$ (angle sum), so $\angle C=180^\circ-(\angle A+\angle B)$.
+Consider triangle $ABC$. By the angle sum theorem of a triangle, $\angle A+\angle B+\angle C=180^\circ$. Hence
+$$\angle C=180^\circ-(\angle A+\angle B).$$
 
-a) $\angle C=180^\circ-(50^\circ+60^\circ)=70^\circ$.
+a) Substituting $\angle A=50^\circ$, $\angle B=60^\circ$, we get $\angle C=180^\circ-(50^\circ+60^\circ)=180^\circ-110^\circ=70^\circ$.
 
-b) $\angle C=180^\circ-(100^\circ+35^\circ)=45^\circ$.
+b) Substituting $\angle A=100^\circ$, $\angle B=35^\circ$, we get $\angle C=180^\circ-(100^\circ+35^\circ)=180^\circ-135^\circ=45^\circ$.
 
-c) $\angle C=180^\circ-(65^\circ+65^\circ)=50^\circ$.
+c) Substituting $\angle A=\angle B=65^\circ$, we get $\angle C=180^\circ-(65^\circ+65^\circ)=180^\circ-130^\circ=50^\circ$.
+
+So $\angle C=70^\circ$ in a), $\angle C=45^\circ$ in b), $\angle C=50^\circ$ in c).
 
 **Answer.** a) $70^\circ$; b) $45^\circ$; c) $50^\circ$.
 :::
@@ -315,11 +318,13 @@ b) Triangle $ABC$ is right-angled at $A$ and $\angle B=\angle C$. Find $\angle B
 2. In part b), the two angles are equal, so each is half of $90^\circ$.
 
 ::solution
-Since triangle $ABC$ is right-angled at $A$, $\angle B+\angle C=90^\circ$ (the acute angles are complementary).
+Since triangle $ABC$ is right-angled at $A$, we have $\angle A=90^\circ$. By the angle sum theorem, $\angle B+\angle C=180^\circ-90^\circ=90^\circ$ (the acute angles are complementary).
 
-a) $\angle C=90^\circ-28^\circ=62^\circ$.
+a) With $\angle B=28^\circ$, we have $\angle C=90^\circ-28^\circ=62^\circ$.
 
-b) Since $\angle B=\angle C$, $2\angle B=90^\circ$, so $\angle B=45^\circ$.
+b) With $\angle B=\angle C$, we have $2\angle B=90^\circ$, so $\angle B=45^\circ$.
+
+So $\angle C=62^\circ$ in a) and $\angle B=45^\circ$ in b).
 
 **Answer.** a) $62^\circ$; b) $45^\circ$.
 :::
@@ -335,11 +340,15 @@ Triangle $ABC$ has $\angle B=40^\circ$, $\angle C=65^\circ$. Find the exterior a
 2. Find the angle adjacent supplementary to $\angle A$.
 
 ::solution
-In triangle $ABC$: $\angle A=180^\circ-(40^\circ+65^\circ)=75^\circ$ (angle sum).
+Consider triangle $ABC$. By the angle sum theorem,
+$$\angle A=180^\circ-(\angle B+\angle C)=180^\circ-(40^\circ+65^\circ)=75^\circ.$$
 
-The exterior angle at $A$ is adjacent supplementary to $\angle A$, so it equals $180^\circ-75^\circ=105^\circ$.
+The exterior angle at $A$ is adjacent supplementary to $\angle A$, so it equals
+$$180^\circ-75^\circ=105^\circ.$$
 
-Check with the exterior angle property: $\angle B+\angle C=40^\circ+65^\circ=105^\circ$.
+Check with the exterior angle property: the exterior angle at $A$ equals the sum of the two interior angles not adjacent to it, that is $\angle B+\angle C=40^\circ+65^\circ=105^\circ$ (it matches).
+
+So the exterior angle at the vertex $A$ equals $105^\circ$.
 
 **Answer.** $105^\circ$.
 :::
@@ -355,7 +364,12 @@ The angles $\angle A$, $\angle B$, $\angle C$ of triangle $ABC$ are in the ratio
 2. Solve for $k$ and work out each angle.
 
 ::solution
-Let $\angle A=k$, $\angle B=2k$, $\angle C=3k$ (degrees). By the angle sum, $k+2k+3k=180$, so $6k=180$ and $k=30$.
+Since the angles $\angle A$, $\angle B$, $\angle C$ are in the ratio $1:2:3$, let $\angle A=k$, $\angle B=2k$, $\angle C=3k$ (in degrees, $k>0$).
+
+By the angle sum theorem of a triangle,
+$$k+2k+3k=180,\ \text{that is}\ 6k=180,\ \text{so}\ k=30.$$
+
+Hence $\angle A=30^\circ$, $\angle B=2\cdot30^\circ=60^\circ$, $\angle C=3\cdot30^\circ=90^\circ$.
 
 So $\angle A=30^\circ$, $\angle B=60^\circ$, $\angle C=90^\circ$.
 
@@ -373,9 +387,16 @@ Triangle $ABC$ has $\angle A=x^\circ$, $\angle B=(2x-10)^\circ$, $\angle C=(3x+1
 2. Solve the equation and substitute back.
 
 ::solution
-By the angle sum, $x+(2x-10)+(3x+10)=180$, that is $6x=180$, so $x=30$.
+By the angle sum theorem for triangle $ABC$, we have
+$$x+(2x-10)+(3x+10)=180.$$
 
-So $\angle A=30^\circ$, $\angle B=2\cdot30^\circ-10^\circ=50^\circ$, $\angle C=3\cdot30^\circ+10^\circ=100^\circ$. The sum is $30+50+100=180$, correct.
+Simplifying the left-hand side gives $6x=180$, so $x=30$.
+
+Substituting $x=30$, we get $\angle A=30^\circ$, $\angle B=2\cdot30^\circ-10^\circ=50^\circ$, $\angle C=3\cdot30^\circ+10^\circ=100^\circ$.
+
+Check: $30+50+100=180$ (correct) and all three angles are positive.
+
+So $x=30$ and the three angles are $\angle A=30^\circ$, $\angle B=50^\circ$, $\angle C=100^\circ$.
 
 **Answer.** $x=30$; $30^\circ$, $50^\circ$, $100^\circ$.
 :::
@@ -391,9 +412,14 @@ Suppose Nam measures the three angles of a triangular piece of card and gets $47
 2. Compare with $180^\circ$.
 
 ::solution
-The sum of the three measurements is $47^\circ+68^\circ+66^\circ=181^\circ$. The exact sum of the angles of a triangle is $180^\circ$, so Nam's measurements are off by $1^\circ$.
+The exact sum of the angles of a triangle is $180^\circ$. We compute the sum of Nam's measurements:
+$$47^\circ+68^\circ+66^\circ=181^\circ.$$
 
-A difference of $1^\circ$ is small and within the usual error of a protractor, so the measurement is reasonable.
+This differs from $180^\circ$ by $181^\circ-180^\circ=1^\circ$.
+
+A difference of $1^\circ$ is very small and within the usual error of a protractor, so the measurement is reasonable.
+
+So Nam's measurement is reasonable and the error is $1^\circ$.
 
 **Answer.** Reasonable; error $1^\circ$.
 :::
@@ -409,11 +435,12 @@ Suppose the cross-section of a roof is a triangle $ABC$ with apex angle $\angle 
 2. Halve it.
 
 ::solution
-In triangle $ABC$: $\angle B+\angle C=180^\circ-100^\circ=80^\circ$ (angle sum).
+In triangle $ABC$ with $\angle A=100^\circ$, the angle sum theorem gives
+$$\angle B+\angle C=180^\circ-100^\circ=80^\circ.$$
 
-Since $\angle B=\angle C$, each equals $\dfrac{80^\circ}2=40^\circ$.
+Since $\angle B=\angle C$, we have $2\angle B=80^\circ$, so $\angle B=\angle C=\dfrac{80^\circ}2=40^\circ$.
 
-So each base angle is $40^\circ$.
+So each base angle of the roof is $40^\circ$.
 
 **Answer.** $40^\circ$.
 :::
@@ -429,9 +456,12 @@ Let $ABC$ be a triangle. Through $A$ draw a line $d\parallel BC$. The angle betw
 2. Find $\angle A$.
 
 ::solution
-Since $d\parallel BC$, the pairs of alternate angles are equal: $\angle B=50^\circ$ and $\angle C=60^\circ$.
+Since $d\parallel BC$, the pairs of alternate angles are equal. The angle between $d$ and $AB$ is alternate to $\angle B$, so $\angle B=50^\circ$. The angle between $d$ and $AC$ is alternate to $\angle C$, so $\angle C=60^\circ$.
 
-In triangle $ABC$: $\angle A=180^\circ-(50^\circ+60^\circ)=70^\circ$ (angle sum).
+In triangle $ABC$, the angle sum theorem gives
+$$\angle A=180^\circ-(\angle B+\angle C)=180^\circ-(50^\circ+60^\circ)=70^\circ.$$
+
+So $\angle A=70^\circ$.
 
 **Answer.** $\angle A=70^\circ$.
 :::
@@ -447,7 +477,11 @@ Triangle $ABC$ has an exterior angle of $130^\circ$ at the vertex $B$ and $\angl
 2. Solve for $\angle C$.
 
 ::solution
-By the exterior angle property, the exterior angle at $B$ equals $\angle A+\angle C$. So $45^\circ+\angle C=130^\circ$, giving $\angle C=85^\circ$.
+By the exterior angle property of a triangle, the exterior angle at $B$ equals the sum of the two interior angles not adjacent to it, that is $\angle A+\angle C$.
+
+Substituting the values, $45^\circ+\angle C=130^\circ$, so $\angle C=130^\circ-45^\circ=85^\circ$.
+
+So $\angle C=85^\circ$.
 
 **Answer.** $85^\circ$.
 :::
@@ -463,13 +497,24 @@ Triangle $ABC$ has $\angle A=80^\circ$. The bisectors of $\angle B$ and $\angle 
 2. Use triangle $IBC$.
 
 ::solution
-In triangle $ABC$: $\angle B+\angle C=180^\circ-80^\circ=100^\circ$ (angle sum).
+In triangle $ABC$ with $\angle A=80^\circ$, the angle sum theorem gives
+$$\angle B+\angle C=180^\circ-80^\circ=100^\circ.$$
 
-Since $BI$, $CI$ are bisectors, $\angle IBC+\angle ICB=\dfrac12(\angle B+\angle C)=50^\circ$.
+Since $BI$, $CI$ bisect $\angle B$, $\angle C$, we have
+$$\angle IBC+\angle ICB=\frac12\angle B+\frac12\angle C=\frac12(\angle B+\angle C)=50^\circ.$$
 
-In triangle $IBC$: $\angle BIC=180^\circ-50^\circ=130^\circ$.
+In triangle $IBC$, the angle sum theorem gives
+$$\angle BIC=180^\circ-(\angle IBC+\angle ICB)=180^\circ-50^\circ=130^\circ.$$
 
-In general: $\angle IBC+\angle ICB=\dfrac12(180^\circ-\angle A)=90^\circ-\dfrac12\angle A$, so $\angle BIC=180^\circ-\left(90^\circ-\dfrac12\angle A\right)=90^\circ+\dfrac12\angle A$. With $\angle A=80^\circ$ we get $90^\circ+40^\circ=130^\circ$.
+General proof. By the angle sum theorem in triangle $ABC$, $\angle B+\angle C=180^\circ-\angle A$. Since $BI$, $CI$ are bisectors,
+$$\angle IBC+\angle ICB=\frac12(\angle B+\angle C)=\frac12(180^\circ-\angle A)=90^\circ-\frac12\angle A.$$
+
+In triangle $IBC$ we have
+$$\angle BIC=180^\circ-\left(90^\circ-\frac12\angle A\right)=90^\circ+\frac12\angle A.$$
+
+With $\angle A=80^\circ$ we get $90^\circ+40^\circ=130^\circ$, which matches the result above.
+
+So $\angle BIC=130^\circ$ and $\angle BIC=90^\circ+\dfrac12\angle A$.
 
 **Answer.** $130^\circ$; proved.
 :::

@@ -245,11 +245,21 @@ b) $(4x^4-8x^2):(-2x^2)$.
 2. b) Chia $4x^4$ và $-8x^2$ cho $-2x^2$.
 
 ::solution
-a) Ta có $15x^3:(-5x)=-3x^2$, $(-5x^2):(-5x)=x$ và $10x:(-5x)=-2$. Do đó $(15x^3-5x^2+10x):(-5x)=-3x^2+x-2$.
+Để chia một đa thức cho một đơn thức, ta chia từng hạng tử của đa thức cho đơn thức đó rồi cộng các kết quả với nhau.
 
-b) Ta có $4x^4:(-2x^2)=-2x^2$ và $(-8x^2):(-2x^2)=4$. Do đó $(4x^4-8x^2):(-2x^2)=-2x^2+4$.
+a) Ta có
+$$15x^3:(-5x)=-3x^2,\qquad (-5x^2):(-5x)=x,\qquad 10x:(-5x)=-2.$$
 
-Vậy a) $-3x^2+x-2$; b) $-2x^2+4$.
+Do đó
+$$(15x^3-5x^2+10x):(-5x)=-3x^2+x-2.$$
+
+b) Ta có
+$$4x^4:(-2x^2)=-2x^2,\qquad (-8x^2):(-2x^2)=4.$$
+
+Do đó
+$$(4x^4-8x^2):(-2x^2)=-2x^2+4.$$
+
+Vậy a) kết quả là $-3x^2+x-2$; b) kết quả là $-2x^2+4$.
 
 **Đáp số.** a) $-3x^2+x-2$; b) $-2x^2+4$.
 :::
@@ -291,11 +301,17 @@ Thực hiện phép chia $(2x^2-7x+3):(2x-1)$.
 2. Nhân kết quả với $2x-1$ rồi trừ, được $-6x+3$.
 
 ::solution
-Bước 1: $2x^2:2x=x$; $x(2x-1)=2x^2-x$; $(2x^2-7x+3)-(2x^2-x)=-6x+3$.
+Cả hai đa thức đã được sắp xếp theo luỹ thừa giảm dần của biến. Ta thực hiện phép chia đa thức một biến theo từng bước.
 
-Bước 2: $-6x:2x=-3$; $-3(2x-1)=-6x+3$; $(-6x+3)-(-6x+3)=0$.
+Bước 1. Chia hạng tử bậc cao nhất của số bị chia cho hạng tử bậc cao nhất của số chia: $2x^2:2x=x$. Nhân $x$ với số chia: $x(2x-1)=2x^2-x$. Lấy số bị chia trừ đi tích vừa tìm:
+$$(2x^2-7x+3)-(2x^2-x)=-6x+3.$$
 
-Số dư bằng $0$ nên phép chia hết. Vậy $(2x^2-7x+3):(2x-1)=x-3$.
+Bước 2. Chia hạng tử bậc cao nhất của dư $-6x+3$ cho $2x$: $-6x:2x=-3$. Nhân $-3$ với số chia: $-3(2x-1)=-6x+3$. Lấy dư trừ đi tích vừa tìm:
+$$(-6x+3)-(-6x+3)=0.$$
+
+Số dư bằng $0$ nên phép chia là phép chia hết, thương là $x-3$.
+
+Vậy $(2x^2-7x+3):(2x-1)=x-3$.
 
 **Đáp số.** $x-3$.
 :::

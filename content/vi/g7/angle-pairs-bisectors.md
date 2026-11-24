@@ -303,13 +303,14 @@ c) $\widehat{aOb}=90^\circ$.
 2. Thay số rồi tính $\widehat{bOc}$.
 
 ::solution
-Vì $\widehat{aOb}$ và $\widehat{bOc}$ kề bù nên $\widehat{bOc}=180^\circ-\widehat{aOb}$.
+Hai góc kề bù có tổng số đo bằng $180^\circ$. Vì $\widehat{aOb}$ và $\widehat{bOc}$ là hai góc kề bù nên
+$$\widehat{bOc}=180^\circ-\widehat{aOb}.$$
 
-a) $\widehat{bOc}=180^\circ-120^\circ=60^\circ$.
+a) Với $\widehat{aOb}=120^\circ$, ta có $\widehat{bOc}=180^\circ-120^\circ=60^\circ$.
 
-b) $\widehat{bOc}=180^\circ-35^\circ=145^\circ$.
+b) Với $\widehat{aOb}=35^\circ$, ta có $\widehat{bOc}=180^\circ-35^\circ=145^\circ$.
 
-c) $\widehat{bOc}=180^\circ-90^\circ=90^\circ$.
+c) Với $\widehat{aOb}=90^\circ$, ta có $\widehat{bOc}=180^\circ-90^\circ=90^\circ$.
 
 Vậy $\widehat{bOc}$ lần lượt bằng $60^\circ$, $145^\circ$, $90^\circ$.
 

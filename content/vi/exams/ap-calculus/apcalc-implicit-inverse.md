@@ -125,7 +125,17 @@ Với $f(x)=\sqrt{x^2+9}$, tính $f'(4)$.
 2. Thay $x=4$.
 
 ::solution
-$f'(x)=\dfrac{x}{\sqrt{x^2+9}}$, nên $f'(4)=\dfrac45$.
+Vì $x^2+9>0$ với mọi $x$ nên hàm số xác định và có đạo hàm trên $\mathbb{R}$.
+
+Áp dụng quy tắc đạo hàm của hàm hợp $\left(\sqrt u\right)'=\dfrac{u'}{2\sqrt u}$ với $u=x^2+9$, ta có
+$$f'(x)=\frac{2x}{2\sqrt{x^2+9}}=\frac{x}{\sqrt{x^2+9}}.$$
+
+Thay $x=4$ vào, ta được
+$$f'(4)=\frac{4}{\sqrt{16+9}}=\frac{4}{5}.$$
+
+Vậy $f'(4)=\dfrac45$.
+
+**Đáp số.** $\dfrac45$.
 :::
 
 :::exercise Trắc nghiệm
@@ -142,7 +152,19 @@ D. $\ln2$
 1. $g'(x)=\dfrac{2x}{x^2+1}$.
 
 ::solution
-$g'(1)=\dfrac22=1$: đáp án **B**. Phương án D là $g(1)$.
+Vì $x^2+1>0$ với mọi $x$ nên hàm số $g(x)=\ln\left(x^2+1\right)$ xác định trên $\mathbb{R}$.
+
+Áp dụng quy tắc đạo hàm của hàm hợp $(\ln u)'=\dfrac{u'}{u}$ với $u=x^2+1$, ta có
+$$g'(x)=\frac{2x}{x^2+1}.$$
+
+Thay $x=1$ vào, ta được
+$$g'(1)=\frac{2\cdot1}{1^2+1}=\frac22=1.$$
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án D là giá trị $g(1)=\ln2$, không phải $g'(1)$.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -156,7 +178,18 @@ Tìm hệ số góc của đường cong $xy=6$ tại điểm $(2, 3)$ bằng đ
 2. Thay toạ độ điểm.
 
 ::solution
-$\dfrac{dy}{dx}=-\dfrac yx=-\dfrac32$ tại $(2, 3)$.
+Điểm $(2; 3)$ thuộc đường cong vì $2\cdot3=6$. Xem $y$ là hàm số của $x$ và lấy đạo hàm hai vế của $xy=6$ theo $x$ (dùng quy tắc đạo hàm của một tích):
+$$y+x\frac{dy}{dx}=0.$$
+
+Suy ra, với $x\neq0$,
+$$\frac{dy}{dx}=-\frac yx.$$
+
+Thay $x=2$, $y=3$ vào, ta được
+$$\frac{dy}{dx}=-\frac32.$$
+
+Vậy hệ số góc của đường cong $xy=6$ tại điểm $(2; 3)$ bằng $-\dfrac32$.
+
+**Đáp số.** $-\dfrac32$.
 :::
 
 :::exercise Trắc nghiệm
@@ -174,7 +207,21 @@ D. $2+e$
 2. $f'(x)=2+e^x$.
 
 ::solution
-$f'(0)=3$, nên $\left(f^{-1}\right)'(1)=\dfrac13$: đáp án **C**. Phương án A dùng $f'(1)$.
+Ta có $f'(x)=2+e^x>0$ với mọi $x$, nên $f$ đồng biến trên $\mathbb{R}$; do đó $f$ là đơn ánh và có hàm ngược $f^{-1}$.
+
+Áp dụng công thức đạo hàm của hàm ngược: nếu $f(a)=b$ thì
+$$\left(f^{-1}\right)'(b)=\frac{1}{f'(a)}.$$
+
+Ở đây $b=1$. Ta cần tìm $a$ sao cho $f(a)=1$. Vì $f(0)=2\cdot0+e^0=1$ và $f$ đồng biến nên $a=0$.
+
+Tính $f'(0)=2+e^0=3$. Do đó
+$$\left(f^{-1}\right)'(1)=\frac{1}{f'(0)}=\frac13.$$
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án A dùng nhầm $f'(1)=2+e$ thay vì $f'(0)$.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -188,7 +235,17 @@ Với $y=\arcsin\left(\dfrac x2\right)$, tính $\dfrac{dy}{dx}$ tại $x=1$.
 2. Thay $x=1$.
 
 ::solution
-$\dfrac{dy}{dx}=\dfrac{\frac12}{\sqrt{1-\frac{x^2}{4}}}$, nên tại $x=1$: $\dfrac{\frac12}{\sqrt{\frac34}}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}{3}$.
+Hàm số $y=\arcsin\left(\dfrac x2\right)$ có đạo hàm khi $\left|\dfrac x2\right|<1$; giá trị $x=1$ thoả mãn điều kiện này.
+
+Áp dụng quy tắc đạo hàm của hàm hợp $\left(\arcsin u\right)'=\dfrac{u'}{\sqrt{1-u^2}}$ với $u=\dfrac x2$ và $u'=\dfrac12$, ta có
+$$\frac{dy}{dx}=\frac{\frac12}{\sqrt{1-\frac{x^2}{4}}}.$$
+
+Thay $x=1$ vào, ta được
+$$\frac{dy}{dx}\bigg|_{x=1}=\frac{\frac12}{\sqrt{\frac34}}=\frac{\frac12}{\frac{\sqrt3}{2}}=\frac{1}{\sqrt3}=\frac{\sqrt3}{3}.$$
+
+Vậy $\dfrac{dy}{dx}$ tại $x=1$ bằng $\dfrac{\sqrt3}{3}$.
+
+**Đáp số.** $\dfrac{\sqrt3}{3}$.
 :::
 
 ## Bài tập vận dụng
@@ -204,7 +261,18 @@ Viết phương trình tiếp tuyến của $x^2+y^2=10$ tại $(1, 3)$.
 2. Dùng dạng điểm – hệ số góc.
 
 ::solution
-$y-3=-\dfrac13(x-1)$, tức là $y=-\dfrac13x+\dfrac{10}{3}$.
+Điểm $(1; 3)$ thuộc đường cong vì $1^2+3^2=10$. Lấy đạo hàm hai vế của $x^2+y^2=10$ theo $x$ (xem $y$ là hàm số của $x$):
+$$2x+2y\frac{dy}{dx}=0.$$
+
+Suy ra, với $y\neq0$,
+$$\frac{dy}{dx}=-\frac xy.$$
+
+Tại $(1; 3)$, hệ số góc của tiếp tuyến là $-\dfrac13$. Phương trình tiếp tuyến là
+$$y-3=-\frac13(x-1),\ \text{tức là}\ y=-\frac13x+\frac13+3=-\frac13x+\frac{10}{3}.$$
+
+Vậy tiếp tuyến của đường cong tại $(1; 3)$ có phương trình $y=-\dfrac13x+\dfrac{10}{3}$.
+
+**Đáp số.** $y=-\dfrac13x+\dfrac{10}{3}$.
 :::
 
 :::exercise Hàm ngược từ dữ kiện
@@ -217,7 +285,17 @@ Hàm số $f$ có đạo hàm và là đơn ánh, với $f(3)=5$ và $f'(3)=2$. 
 1. $g'(5)=\dfrac{1}{f'(3)}$.
 
 ::solution
-$g(5)=3$ và $g'(5)=\dfrac12$. Tiếp tuyến là $y=3+\dfrac12(x-5)$.
+Vì $f(3)=5$ và $f$ là đơn ánh nên hàm ngược $g=f^{-1}$ thoả mãn $g(5)=3$.
+
+Áp dụng công thức đạo hàm của hàm ngược với $f'(3)=2\neq0$, ta có
+$$g'(5)=\frac{1}{f'\big(g(5)\big)}=\frac{1}{f'(3)}=\frac12.$$
+
+Phương trình tiếp tuyến của đồ thị $g$ tại $x=5$ là $y=g(5)+g'(5)(x-5)$, tức là
+$$y=3+\frac12(x-5).$$
+
+Vậy $g(5)=3$, $g'(5)=\dfrac12$ và tiếp tuyến của $g$ tại $x=5$ là $y=3+\dfrac12(x-5)$.
+
+**Đáp số.** $g(5)=3$; $g'(5)=\dfrac12$; tiếp tuyến $y=3+\dfrac12(x-5)$.
 :::
 
 :::exercise Đạo hàm cấp hai của hàm ẩn
@@ -231,7 +309,21 @@ Với đường cong $x^2+y^2=25$, chứng minh $\dfrac{d^2y}{dx^2}=-\dfrac{25}{
 2. Thay $\dfrac{dy}{dx}$ bằng $-\dfrac xy$ và dùng $x^2+y^2=25$.
 
 ::solution
-$\dfrac{d^2y}{dx^2}=-\dfrac{y+\frac{x^2}{y}}{y^2}=-\dfrac{y^2+x^2}{y^3}=-\dfrac{25}{y^3}$.
+Lấy đạo hàm hai vế của $x^2+y^2=25$ theo $x$ (xem $y$ là hàm số của $x$):
+$$2x+2y\,y'=0.$$
+
+Suy ra, với $y\neq0$,
+$$y'=-\frac xy.$$
+
+Lấy đạo hàm hai vế của đẳng thức này theo $x$, dùng quy tắc đạo hàm của một thương và thay $y'=-\dfrac xy$:
+$$\begin{aligned}y''&=-\frac{1\cdot y-x\cdot y'}{y^2}\\&=-\frac{y-x\left(-\frac xy\right)}{y^2}\\&=-\frac{y+\frac{x^2}{y}}{y^2}\\&=-\frac{y^2+x^2}{y^3}.\end{aligned}$$
+
+Vì $x^2+y^2=25$ nên
+$$\frac{d^2y}{dx^2}=-\frac{25}{y^3}.$$
+
+Vậy với đường cong $x^2+y^2=25$, ta có $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$ (điều phải chứng minh).
+
+**Đáp số.** $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$.
 :::
 
 :::exercise Thử thách
@@ -245,7 +337,22 @@ Cho $h(x)=f\big(g(x)\big)$, trong đó $g(x)=x^2+1$ và $f'(5)=3$. Tính $h'(2)$
 2. $\dfrac{d}{dx}h^2=2h\cdot h'$ và $h(2)=f(5)$.
 
 ::solution
-$h'(2)=3\cdot4=12$. Khi đó $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, tại $x=2$ bằng $2\cdot(-1)\cdot12=-24$.
+Áp dụng quy tắc đạo hàm của hàm hợp cho $h(x)=f\big(g(x)\big)$, ta có
+$$h'(x)=f'\big(g(x)\big)\cdot g'(x).$$
+
+Với $g(x)=x^2+1$, ta có $g'(x)=2x$, nên $g(2)=2^2+1=5$ và $g'(2)=4$.
+
+Do đó
+$$h'(2)=f'\big(g(2)\big)\cdot g'(2)=f'(5)\cdot4=3\cdot4=12.$$
+
+Ngoài ra, $h(2)=f\big(g(2)\big)=f(5)=-1$.
+
+Áp dụng quy tắc đạo hàm của hàm hợp cho $[h(x)]^2$, ta có $\dfrac{d}{dx}\Big[h(x)\Big]^2=2h(x)h'(x)$. Tại $x=2$,
+$$\frac{d}{dx}\Big[h(x)\Big]^2\bigg|_{x=2}=2\cdot h(2)\cdot h'(2)=2\cdot(-1)\cdot12=-24.$$
+
+Vậy $h'(2)=12$ và giá trị của $\dfrac{d}{dx}\Big[h(x)\Big]^2$ tại $x=2$ bằng $-24$.
+
+**Đáp số.** $h'(2)=12$; giá trị cần tìm bằng $-24$.
 :::
 
 :::quiz

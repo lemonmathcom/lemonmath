@@ -210,13 +210,19 @@ d) $y=\pi$.
 2. Add the results, remembering that a constant has derivative $0$.
 
 ::solution
-a) $y'=5x^4-12x^2+2$.
+We use the formulas $\left(x^n\right)'=nx^{n-1}$, $\left(\sqrt x\right)'=\dfrac{1}{2\sqrt x}$ $(x>0)$, $\left(\dfrac1x\right)'=-\dfrac{1}{x^2}$ $(x\neq0)$, $(c)'=0$, together with the rules for sums, differences and constant multiples.
 
-b) $y'=\dfrac{3}{2\sqrt x}+\dfrac{2}{x^2}$.
+a) $y'=5x^4-4\cdot3x^2+2-0=5x^4-12x^2+2$.
 
-c) $y'=\dfrac1{2\sqrt x}-x$.
+b) Condition: $x>0$. We have
+$$y'=3\cdot\frac{1}{2\sqrt x}-2\cdot\left(-\frac{1}{x^2}\right)=\frac{3}{2\sqrt x}+\frac{2}{x^2}.$$
 
-d) $y'=0$ because $\pi$ is a constant.
+c) Condition: $x\ge0$ (the derivative is considered for $x>0$). We have
+$$y'=\frac{1}{2\sqrt x}-\frac{2x}{2}+0=\frac{1}{2\sqrt x}-x.$$
+
+d) Since $\pi$ is a constant, $y'=0$.
+
+So the derivatives are $5x^4-12x^2+2$; $\dfrac{3}{2\sqrt x}+\dfrac{2}{x^2}$; $\dfrac{1}{2\sqrt x}-x$; $0$ respectively.
 
 **Answer.** a) $5x^4-12x^2+2$; b) $\dfrac3{2\sqrt x}+\dfrac2{x^2}$; c) $\dfrac1{2\sqrt x}-x$; d) $0$.
 :::
@@ -240,13 +246,19 @@ d) $y=\dfrac{\ln x}{x}$.
 2. Substitute into the formula and simplify.
 
 ::solution
-a) $y'=2(x^2+3)+(2x-1)\cdot2x=6x^2-2x+6$.
+a) Apply the product rule $(uv)'=u'v+uv'$ with $u=2x-1$, $v=x^2+3$:
+$$\begin{aligned}y'&=2\left(x^2+3\right)+(2x-1)\cdot2x\\&=2x^2+6+4x^2-2x\\&=6x^2-2x+6.\end{aligned}$$
 
-b) $y'=2xe^x+x^2e^x=x(x+2)e^x$.
+b) Apply the product rule with $u=x^2$, $v=e^x$:
+$$y'=2xe^x+x^2e^x=x(x+2)e^x.$$
 
-c) $y'=\dfrac{2(x-1)-(2x+3)}{(x-1)^2}=\dfrac{-5}{(x-1)^2}$.
+c) Condition: $x\neq1$. Apply the quotient rule $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$ with $u=2x+3$, $v=x-1$:
+$$y'=\frac{2(x-1)-(2x+3)\cdot1}{(x-1)^2}=\frac{2x-2-2x-3}{(x-1)^2}=\frac{-5}{(x-1)^2}.$$
 
-d) $y'=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+d) Condition: $x>0$. Apply the quotient rule with $u=\ln x$, $v=x$:
+$$y'=\frac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\frac{1-\ln x}{x^2}.$$
+
+So the derivatives are $6x^2-2x+6$; $x(x+2)e^x$; $-\dfrac{5}{(x-1)^2}$; $\dfrac{1-\ln x}{x^2}$ respectively.
 
 **Answer.** a) $6x^2-2x+6$; b) $x(x+2)e^x$; c) $-\dfrac5{(x-1)^2}$; d) $\dfrac{1-\ln x}{x^2}$.
 :::
@@ -270,13 +282,21 @@ d) $y=\ln(3x-2)$.
 2. Multiply the derivative of the outer function (with respect to $u$) by $u'$.
 
 ::solution
-a) $y'=6(2x+1)^5\cdot2=12(2x+1)^5$.
+We use the chain rule: if $y=f(u(x))$ then $y'=f'(u)\cdot u'(x)$.
 
-b) $y'=\dfrac{(x^2+1)'}{2\sqrt{x^2+1}}=\dfrac{x}{\sqrt{x^2+1}}$.
+a) With $u=2x+1$ and $y=u^6$:
+$$y'=6(2x+1)^5\cdot(2x+1)'=6(2x+1)^5\cdot2=12(2x+1)^5.$$
 
-c) $y'=2xe^{x^2}$.
+b) Since $x^2+1>0$ for all $x$, the function is defined on $\mathbb{R}$. With $u=x^2+1$ and $y=\sqrt u$:
+$$y'=\frac{u'}{2\sqrt u}=\frac{2x}{2\sqrt{x^2+1}}=\frac{x}{\sqrt{x^2+1}}.$$
 
-d) $y'=\dfrac{3}{3x-2}$.
+c) With $u=x^2$ and $y=e^u$:
+$$y'=e^{x^2}\cdot\left(x^2\right)'=2xe^{x^2}.$$
+
+d) Condition: $3x-2>0$, that is $x>\dfrac23$. With $u=3x-2$ and $y=\ln u$:
+$$y'=\frac{(3x-2)'}{3x-2}=\frac{3}{3x-2}.$$
+
+So the derivatives are $12(2x+1)^5$; $\dfrac{x}{\sqrt{x^2+1}}$; $2xe^{x^2}$; $\dfrac{3}{3x-2}$ respectively.
 
 **Answer.** a) $12(2x+1)^5$; b) $\dfrac{x}{\sqrt{x^2+1}}$; c) $2xe^{x^2}$; d) $\dfrac3{3x-2}$.
 :::
@@ -298,11 +318,18 @@ c) $y=e^{2x}$ at the point with $x$-coordinate $0$.
 2. Substitute into the formula.
 
 ::solution
-a) $f'(x)=3x^2-3$, $f'(0)=-3$, $f(0)=1$. The tangent is $y=-3x+1$.
+The tangent at the point with $x$-coordinate $x_0$ is $y=f'(x_0)(x-x_0)+f(x_0)$.
 
-b) $f'(x)=\dfrac1x$, $f'(1)=1$, $f(1)=0$. The tangent is $y=x-1$.
+a) For $f(x)=x^3-3x+1$ we have $f'(x)=3x^2-3$. At $x_0=0$: $f'(0)=-3$ and $f(0)=1$. The tangent is
+$$y=-3(x-0)+1=-3x+1.$$
 
-c) $f'(x)=2e^{2x}$, $f'(0)=2$, $f(0)=1$. The tangent is $y=2x+1$.
+b) For $f(x)=\ln x$ (condition $x>0$) we have $f'(x)=\dfrac1x$. At $x_0=1$: $f'(1)=1$ and $f(1)=\ln1=0$. The tangent is
+$$y=1\cdot(x-1)+0=x-1.$$
+
+c) For $f(x)=e^{2x}$ we have $f'(x)=2e^{2x}$. At $x_0=0$: $f'(0)=2$ and $f(0)=1$. The tangent is
+$$y=2(x-0)+1=2x+1.$$
+
+So the tangents are $y=-3x+1$, $y=x-1$ and $y=2x+1$ respectively.
 
 **Answer.** a) $y=-3x+1$; b) $y=x-1$; c) $y=2x+1$.
 :::
@@ -326,13 +353,15 @@ d) $\left(2^x\right)'=2^x$.
 2. Watch the coefficients and the factor $\ln a$.
 
 ::solution
-a) **False**: $\left(\sqrt x\right)'=\dfrac1{2\sqrt x}$.
+a) **False.** The correct formula is $\left(\sqrt x\right)'=\dfrac1{2\sqrt x}$ $(x>0)$, not $\dfrac1{\sqrt x}$.
 
-b) **True**: the product rule.
+b) **True.** This is the product rule: $(uv)'=u'v+uv'$.
 
-c) **True**: the chain rule with $(2x)'=2$.
+c) **True.** By the chain rule with $u=2x$: $\left(e^{2x}\right)'=e^{2x}\cdot(2x)'=2e^{2x}$.
 
-d) **False**: $\left(2^x\right)'=2^x\ln2$.
+d) **False.** The correct formula is $\left(a^x\right)'=a^x\ln a$, so $\left(2^x\right)'=2^x\ln2$, which differs from $2^x$ because $\ln2\neq1$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -354,11 +383,19 @@ c) Calculate $\dfrac{N'(t)}{N(t)}$ and state its meaning.
 2. c) Divide $N'$ by $N$ and simplify.
 
 ::solution
-a) $N'(t)=1000\cdot0.3e^{0.3t}=300e^{0.3t}$.
+The number of bacteria is $N(t)=1000e^{0.3t}$, where $t$ is the number of hours ($t\ge0$). The rate of growth is the derivative $N'(t)$.
 
-b) $N'(2)=300e^{0.6}\approx300\cdot1.8221\approx547$ (bacteria per hour).
+a) Using the chain rule $\left(e^{kt}\right)'=ke^{kt}$:
+$$N'(t)=1000\cdot0.3e^{0.3t}=300e^{0.3t}.$$
 
-c) $\dfrac{N'(t)}{N(t)}=\dfrac{300e^{0.3t}}{1000e^{0.3t}}=0.3$: the bacteria count grows by $30\%$ per hour at every moment.
+b) Substituting $t=2$, we get
+$$N'(2)=300e^{0.6}\approx300\cdot1.8221\approx547\ \text{(bacteria per hour)}.$$
+
+c) For every $t$:
+$$\frac{N'(t)}{N(t)}=\frac{300e^{0.3t}}{1000e^{0.3t}}=0.3.$$
+This ratio is constant, equal to $0.3=30\%$. Meaning: at every moment the bacteria count grows by $30\%$ per hour of the current count.
+
+So $N'(t)=300e^{0.3t}$; at $t=2$ the rate of growth is about $547$ bacteria per hour; and $\dfrac{N'(t)}{N(t)}=0.3$.
 
 **Answer.** a) $300e^{0.3t}$; b) $547$ bacteria per hour; c) $0.3$.
 :::
@@ -400,9 +437,17 @@ Suppose the temperature of a cup of water after $t$ minutes is $T(t)=20+60e^{-0.
 2. Substitute $t=10$.
 
 ::solution
-$T'(t)=60\cdot(-0.1)e^{-0.1t}=-6e^{-0.1t}$, so $T'(10)=-6e^{-1}\approx-2.2$.
+The temperature is $T(t)=20+60e^{-0.1t}$ ($^\circ$C), where $t$ is the number of minutes ($t\ge0$). The rate of change of temperature is $T'(t)$.
 
-So at the 10th minute the temperature is falling by about $2.2\,^\circ$C per minute.
+By the chain rule:
+$$T'(t)=0+60\cdot(-0.1)e^{-0.1t}=-6e^{-0.1t}.$$
+
+Substituting $t=10$, we get
+$$T'(10)=-6e^{-1}=-\frac6e\approx-2.2.$$
+
+The negative sign shows that the temperature is falling.
+
+So at the 10th minute the temperature of the water is falling by about $2.2\,^\circ$C per minute.
 
 **Answer.** $T'(10)\approx-2.2$ ($^\circ$C per minute), meaning the temperature is falling.
 :::
@@ -422,9 +467,13 @@ b) $y=\log_2x$.
 2. Differentiate, remembering that $\ln a$ is a constant.
 
 ::solution
-a) $3^x=e^{x\ln3}$, so $y'=\ln3\cdot e^{x\ln3}=3^x\ln3$.
+a) We have $3^x=e^{x\ln3}$. Apply the chain rule with $u=x\ln3$ (where $\ln3$ is a constant):
+$$y'=e^{x\ln3}\cdot(x\ln3)'=\ln3\cdot e^{x\ln3}=3^x\ln3.$$
 
-b) $y=\dfrac{\ln x}{\ln2}$, so $y'=\dfrac{1}{x\ln2}$.
+b) Condition: $x>0$. By the change of base formula, $y=\log_2x=\dfrac{\ln x}{\ln2}$, where $\dfrac1{\ln2}$ is a constant. Therefore
+$$y'=\frac{1}{\ln2}\cdot(\ln x)'=\frac{1}{x\ln2}.$$
+
+So $\left(3^x\right)'=3^x\ln3$ and $\left(\log_2x\right)'=\dfrac{1}{x\ln2}$.
 
 **Answer.** a) $3^x\ln3$; b) $\dfrac1{x\ln2}$.
 :::
@@ -440,9 +489,21 @@ Let $f(x)=(x-1)(x-2)(x-3)$. Find $f'(1)+f'(2)+f'(3)$.
 2. Substitute $x=1,2,3$: two of the three terms vanish each time.
 
 ::solution
-$f'(x)=(x-2)(x-3)+(x-1)(x-3)+(x-1)(x-2)$. At $x=1$ only the first term remains: $f'(1)=(-1)(-2)=2$. At $x=2$: $f'(2)=(1)(-1)=-1$. At $x=3$: $f'(3)=(2)(1)=2$.
+Apply the product rule for three factors $(uvw)'=u'vw+uv'w+uvw'$ with $u=x-1$, $v=x-2$, $w=x-3$:
+$$f'(x)=(x-2)(x-3)+(x-1)(x-3)+(x-1)(x-2).$$
 
-The sum is $2-1+2=3$.
+At $x=1$: the last two terms contain the factor $x-1=0$, so they vanish and only the first term remains:
+$$f'(1)=(1-2)(1-3)=(-1)(-2)=2.$$
+
+At $x=2$: the first and last terms contain the factor $x-2=0$, so only the middle term remains:
+$$f'(2)=(2-1)(2-3)=1\cdot(-1)=-1.$$
+
+At $x=3$: the first two terms contain the factor $x-3=0$, so only the last term remains:
+$$f'(3)=(3-1)(3-2)=2\cdot1=2.$$
+
+Therefore $f'(1)+f'(2)+f'(3)=2-1+2=3$.
+
+So $f'(1)+f'(2)+f'(3)=3$.
 
 **Answer.** $3$.
 :::

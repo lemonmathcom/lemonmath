@@ -214,7 +214,13 @@ A box holds $40$ marbles, red and blue. A marble is taken at random, its colour 
 2. Multiply by $40$.
 
 ::solution
-The experimental probability is $\dfrac{20}{80}=\dfrac14$. The estimated number of red marbles is $40\cdot\dfrac14=10$.
+Let $A$ be the event "a red marble is taken". Since the marble is put back each time, all the draws are alike, and the experimental probability of $A$ is approximately the proportion of red marbles in the box.
+
+The experimental probability of $A$ is
+$$P(A)=\frac{\text{number of times a red marble comes out}}{\text{total number of draws}}=\frac{20}{80}=\frac14.$$
+
+Hence the proportion of red marbles in the box is about $\dfrac14$. The box holds $40$ marbles, so the estimated number of red marbles is
+$$40\cdot\frac14=10\ (\text{marbles}).$$
 
 So the box holds about $10$ red marbles.
 
@@ -304,7 +310,17 @@ A prize machine is spun $80$ times and wins a prize $12$ times (an imagined case
 2. Subtract the result from $1$.
 
 ::solution
-The experimental probability of winning is $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. The experimental probability of not winning is $1-0.15=0.85=85\%$ (also $\dfrac{68}{80}$).
+Let $A$ be the event "wins a prize". Then the complementary event of $A$ is $\overline{A}$: "does not win".
+
+The experimental probability of $A$ is
+$$P(A)=\frac{12}{80}=\frac{3}{20}=0.15=15\%.$$
+
+Since $A$ and $\overline{A}$ are complementary events, $P(\overline{A})=1-P(A)$. Hence
+$$P(\overline{A})=1-0.15=0.85=85\%.$$
+
+Check: the number of times it does not win is $80-12=68$, and $\dfrac{68}{80}=0.85$.
+
+So the experimental probability of "wins a prize" is $15\%$ and of "does not win" is $85\%$.
 
 **Answer.** $15\%$; $85\%$.
 :::
@@ -320,9 +336,22 @@ Two dice are rolled together $72$ times, and a total of $7$ occurs $15$ times. F
 2. Work out $600\cdot\dfrac{15}{72}$ and $600\cdot\dfrac16$.
 
 ::solution
-The experimental probability is $\dfrac{15}{72}=\dfrac{5}{24}\approx20.8\%$, larger than $\dfrac16\approx16.7\%$ (theory expects $72\cdot\dfrac16=12$ times, and we got $15$). The prediction for $600$ rolls from the experiment is $600\cdot\dfrac{5}{24}=125$ times; from theory it is $600\cdot\dfrac16=100$ times.
+Let $A$ be the event "the total of the two dice is $7$".
 
-Comment: $72$ trials are still few, so the experimental probability is not yet reliable; since the outcomes of a pair of dice are equally likely, we should use the theoretical probability $\dfrac16$.
+The experimental probability of $A$ is
+$$P(A)=\frac{15}{72}=\frac{5}{24}\approx20.8\%.$$
+
+The theoretical probability is $\dfrac16\approx16.7\%$. Since $20.8\%>16.7\%$, the experimental probability is larger than the theoretical one. In detail, theory expects $72\cdot\dfrac16=12$ times, and we got $15$ times.
+
+The prediction for $600$ rolls from the experimental probability is
+$$600\cdot\frac{5}{24}=125\ (\text{times}).$$
+
+From the theoretical probability it is
+$$600\cdot\frac16=100\ (\text{times}).$$
+
+*Comment.* $72$ trials are still few, so the experimental probability is not yet reliable; since the outcomes of a pair of dice are equally likely, we should use the theoretical probability $\dfrac16$.
+
+So the experimental probability is $\dfrac{5}{24}$, larger than the theoretical $\dfrac16$; the prediction from the experiment is $125$ times, and from theory $100$ times.
 
 **Answer.** $\dfrac{5}{24}$; $125$ times against $100$ times.
 :::

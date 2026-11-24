@@ -186,8 +186,18 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng hàng đơn vị, rồi hàng chục, rồi hàng trăm.
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi cộng từ phải sang trái, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
-Hàng đơn vị: $4+5=9$. Hàng chục: $1+6=7$. Hàng trăm: $2+3=5$.
+
+Hàng đơn vị: $4+5=9$, viết $9$.
+
+Hàng chục: $1+6=7$, viết $7$.
+
+Hàng trăm: $2+3=5$, viết $5$.
+
+Thử lại: $579-365=214$, đúng.
+
+Vậy $214+365=579$.
 
 **Đáp số.** $579$.
 :::
@@ -203,9 +213,13 @@ Tính nhẩm: $600+300$ và $520+70$.
 2. $520$ là bao nhiêu chục? $70$ là bao nhiêu chục?
 
 ::solution
-$6$ trăm cộng $3$ trăm bằng $9$ trăm, nên $600+300=900$.
+Ta tính $600+300$: $6$ trăm cộng $3$ trăm bằng $9$ trăm, vì $6+3=9$. Do đó
+$$600+300=900.$$
 
-$52$ chục cộng $7$ chục bằng $59$ chục, nên $520+70=590$.
+Ta tính $520+70$: $520$ là $52$ chục và $70$ là $7$ chục. $52$ chục cộng $7$ chục bằng $59$ chục, vì $52+7=59$. Do đó
+$$520+70=590.$$
+
+Vậy $600+300=900$ và $520+70=590$.
 
 **Đáp số.** $900$ và $590$.
 :::
@@ -221,8 +235,18 @@ $52$ chục cộng $7$ chục bằng $59$ chục, nên $520+70=590$.
 2. Cộng hàng đơn vị: $6+8$ được bao nhiêu? Viết mấy, nhớ mấy?
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi cộng từ phải sang trái.
 $$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
-Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$. Hàng chục: $4+7+1=12$, viết $2$ nhớ $1$. Hàng trăm: $3+2+1=6$.
+
+Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$ (nhớ $1$ sang hàng chục).
+
+Hàng chục: $4+7+1=12$, viết $2$ nhớ $1$ (nhớ $1$ sang hàng trăm).
+
+Hàng trăm: $3+2+1=6$, viết $6$.
+
+Thử lại: $624-278=346$, đúng.
+
+Vậy $346+278=624$.
 
 **Đáp số.** $624$.
 :::
@@ -238,8 +262,18 @@ Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$. Hàng chục: $4+7+1=12$, vi�
 2. Ở hàng chục, cộng cả số nhớ: $8+1+1$. Tổng này là bao nhiêu?
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi cộng từ phải sang trái.
 $$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
-Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$. Hàng chục: $8+1+1=10$, viết $0$ nhớ $1$. Hàng trăm: $4+2+1=7$.
+
+Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$ (nhớ $1$ sang hàng chục).
+
+Hàng chục: $8+1+1=10$, viết $0$ nhớ $1$ (nhớ $1$ sang hàng trăm).
+
+Hàng trăm: $4+2+1=7$, viết $7$.
+
+Thử lại: $704-219=485$, đúng.
+
+Vậy $485+219=704$.
 
 **Đáp số.** $704$.
 :::
@@ -255,9 +289,16 @@ Một cửa hàng gạo ngày thứ nhất bán được $235$ kg gạo, ngày t
 2. Làm thế nào? Viết phép tính rồi đặt tính.
 
 ::solution
+Để biết cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo, ta cộng số gạo bán được của hai ngày.
+
 Số ki-lô-gam gạo cửa hàng bán được trong cả hai ngày là:
 $$235+187=422\ \text{(kg)}.$$
-Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+8+1=12$, viết $2$ nhớ $1$. Hàng trăm: $2+1+1=4$.
+
+Cách tính: hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+8+1=12$, viết $2$ nhớ $1$. Hàng trăm: $2+1+1=4$, viết $4$.
+
+Thử lại: $422-187=235$ (kg), đúng.
+
+Vậy cả hai ngày cửa hàng bán được $422$ kg gạo.
 
 **Đáp số.** $422$ kg gạo.
 :::
@@ -273,11 +314,17 @@ Em nhớ lại phép cộng trong phạm vi 100: $58+27=85$. Dựa vào kết qu
 2. Vậy tổng $158+27$ hơn tổng $58+27$ bao nhiêu trăm?
 
 ::solution
-$158$ hơn $58$ là $1$ trăm, nên $158+27=85+100=185$.
+Ta đã biết $58+27=85$.
 
-$258$ hơn $58$ là $2$ trăm, nên $258+27=85+200=285$.
+Số $158$ hơn số $58$ là $1$ trăm, vì $158=58+100$. Khi cộng cùng số $27$, kết quả cũng hơn $85$ là $1$ trăm:
+$$158+27=85+100=185.$$
 
-**Nhận xét.** Hàng đơn vị và hàng chục làm giống hệt phép cộng $58+27$, chỉ có hàng trăm thay đổi.
+Số $258$ hơn số $58$ là $2$ trăm, vì $258=58+200$. Khi cộng cùng số $27$, kết quả cũng hơn $85$ là $2$ trăm:
+$$258+27=85+200=285.$$
+
+Vậy $158+27=185$ và $258+27=285$.
+
+*Nhận xét.* Hàng đơn vị và hàng chục làm giống hệt phép cộng $58+27$, chỉ có hàng trăm thay đổi.
 
 **Đáp số.** $185$ và $285$.
 :::
@@ -293,9 +340,16 @@ Từ nhà Nam đến trường dài $450$ m, từ trường đến thư viện d
 2. Viết phép cộng $450+380$ rồi đặt tính.
 
 ::solution
+Để biết từ nhà Nam qua trường đến thư viện dài bao nhiêu mét, ta cộng quãng đường từ nhà Nam đến trường với quãng đường từ trường đến thư viện.
+
 Quãng đường từ nhà Nam qua trường đến thư viện dài là:
 $$450+380=830\ \text{(m)}.$$
-Hàng đơn vị: $0+0=0$. Hàng chục: $5+8=13$, viết $3$ nhớ $1$. Hàng trăm: $4+3+1=8$.
+
+Cách tính: hàng đơn vị: $0+0=0$, viết $0$. Hàng chục: $5+8=13$, viết $3$ nhớ $1$. Hàng trăm: $4+3+1=8$, viết $8$.
+
+Thử lại: $830-380=450$ (m), đúng.
+
+Vậy từ nhà Nam đi qua trường rồi đến thư viện dài $830$ m.
 
 **Đáp số.** $830$ m.
 :::
@@ -312,13 +366,17 @@ $$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}
 2. Ghi nhớ $1$, rồi tìm chữ số ở hàng chục, sau đó ở hàng trăm.
 
 ::solution
-Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$, nên chữ số cần điền là $7$.
+Ta làm lần lượt từ hàng đơn vị đến hàng trăm.
 
-Hàng chục: $4+6+1=11$, viết $1$ nhớ $1$, nên chữ số cần điền là $6$.
+Hàng đơn vị: số cần điền cộng $5$ phải có chữ số hàng đơn vị là $2$. Vì $7+5=12$ nên số cần điền là $7$; viết $2$ nhớ $1$.
 
-Hàng trăm: $3+2+1=6$, nên chữ số cần điền là $3$.
+Hàng chục: $4$ cộng số cần điền, cộng thêm $1$ nhớ, phải có chữ số hàng đơn vị là $1$. Vì $4+6+1=11$ nên số cần điền là $6$; viết $1$ nhớ $1$.
 
-Ta có $347+265=612$.
+Hàng trăm: số cần điền cộng $2$, cộng thêm $1$ nhớ, bằng $6$. Vì $3+2+1=6$ nên số cần điền là $3$.
+
+Thử lại: $347+265=612$, đúng.
+
+Vậy các chữ số cần điền là $3$ (hàng trăm) và $7$ (hàng đơn vị) ở số thứ nhất, $6$ (hàng chục) ở số thứ hai; ta có $347+265=612$.
 
 **Đáp số.** $347+265=612$.
 :::

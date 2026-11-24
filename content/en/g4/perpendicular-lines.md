@@ -224,7 +224,15 @@ Rectangle $MNPQ$ is given. Name the pairs of perpendicular sides.
 2. Each right angle gives one pair of perpendicular sides.
 
 ::solution
-The rectangle $MNPQ$ has four right angles at $M$, $N$, $P$ and $Q$. Hence $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$ and $QM\perp MN$.
+The rectangle $MNPQ$ has four right angles at the vertices $M$, $N$, $P$, $Q$.
+
+Two adjacent sides of a rectangle form a right angle, so they are perpendicular. We have:
+- The right angle at $N$ gives $MN\perp NP$.
+- The right angle at $P$ gives $NP\perp PQ$.
+- The right angle at $Q$ gives $PQ\perp QM$.
+- The right angle at $M$ gives $QM\perp MN$.
+
+So the rectangle $MNPQ$ has four pairs of perpendicular sides: $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$, $QM\perp MN$.
 
 **Answer.** Four pairs of perpendicular sides.
 :::
@@ -240,7 +248,13 @@ Rectangle $EFGH$ is given. Name the pairs of parallel sides.
 2. Match each side with the side opposite to it.
 
 ::solution
-The rectangle $EFGH$ has two pairs of parallel opposite sides: $EF\parallel GH$ and $FG\parallel HE$.
+The opposite sides of the rectangle $EFGH$ are parallel.
+
+The first pair of opposite sides is $EF$ and $GH$, so $EF\parallel GH$.
+
+The second pair of opposite sides is $FG$ and $HE$, so $FG\parallel HE$.
+
+So the rectangle $EFGH$ has two pairs of parallel sides: $EF\parallel GH$ and $FG\parallel HE$.
 
 **Answer.** $EF\parallel GH$; $FG\parallel HE$.
 :::
@@ -256,7 +270,14 @@ Draw a line $d$ and mark a point $O$ on $d$. Use a set square to draw the line $
 2. Draw along the other short side.
 
 ::solution
-Place one short side of the set square along $d$, with the right-angle corner at $O$. Draw along the other short side to get the line $m$ through $O$.
+We draw the line $m$ through $O$ perpendicular to $d$ as follows.
+
+- Step 1: Place one short side of the set square along the line $d$, with the right-angle corner at the point $O$.
+- Step 2: Draw a line along the other short side of the set square. This line passes through $O$; call it $m$.
+
+Since the two short sides of the set square form a right angle, the lines $m$ and $d$ form a right angle.
+
+So the line $m$ passes through $O$ and is perpendicular to $d$.
 
 **Answer.** The line $m$ passes through $O$ and $m\perp d$.
 :::
@@ -272,9 +293,16 @@ Given a line $d$ and a point $E$ not on $d$, use a set square to draw the line t
 2. Draw through $E$ the line $n$ perpendicular to $EH$.
 
 ::solution
-Draw through $E$ the line $EH\perp d$, with $H$ on $d$. Then draw through $E$ the line $n\perp EH$.
+We draw the line through $E$ parallel to $d$ in two steps.
 
-The lines $n$ and $d$ are both perpendicular to $EH$. Hence $n\parallel d$.
+- Step 1: Use a set square to draw through $E$ the line $EH$ perpendicular to $d$, with $H$ on $d$.
+- Step 2: Use a set square to draw through $E$ the line $n$ perpendicular to $EH$.
+
+The lines $n$ and $d$ are both perpendicular to the line $EH$.
+
+Hence $n\parallel d$.
+
+So the line $n$ passes through $E$ and is parallel to $d$.
 
 **Answer.** The line $n$ passes through $E$ and $n\parallel d$.
 :::
@@ -291,10 +319,15 @@ A garden is a rectangle $ABCD$ with $AB=12$ m and $AD=8$ m. The point $M$ lies o
 3. Work out the perimeter and write the unit.
 
 ::solution
-Since $AMND$ is a rectangle, $MN=AD=8$ m.
+Solution
 
-The perimeter of the rectangle $AMND$ is:
+Since $AMND$ is a rectangle, its opposite sides $MN$ and $AD$ are equal. The length of $MN$ is:
+$$MN=AD=8\ \text{(m)}.$$
+
+The rectangle $AMND$ has length $AM=5$ m and width $AD=8$ m. The perimeter of the rectangle $AMND$ is:
 $$(5+8)\times2=26\ \text{(m)}.$$
+
+So $MN=8$ m and the perimeter of the rectangle $AMND$ is $26$ m.
 
 **Answer.** $MN=8$ m; perimeter $26$ m.
 :::
@@ -310,7 +343,13 @@ Suppose that on a map of a neighbourhood, Hoa Sen Street and Hoa Mai Street are 
 2. Use the rule for recognising parallel lines.
 
 ::solution
-Hoa Sen Street and Hoa Mai Street are both perpendicular to Tran Phu Street. Hence the two streets are parallel.
+Hoa Sen Street and Hoa Mai Street are both straight and both perpendicular to Tran Phu Street.
+
+Two lines that are perpendicular to the same third line are parallel to each other.
+
+Hence Hoa Sen Street and Hoa Mai Street are parallel.
+
+So the two streets are parallel, because they are both perpendicular to Tran Phu Street.
 
 **Answer.** Yes, the streets are parallel.
 :::
@@ -345,10 +384,18 @@ A picture frame is a rectangle $24$ cm long and $18$ cm wide. A carpenter adds a
 3. Work out the perimeter and write the unit.
 
 ::solution
-The bar is parallel to the short side, so it is as long as the short side: $18$ cm.
+Solution
 
-The length of each smaller frame is $24\div2=12$ (cm). The perimeter of each smaller frame is:
+The bar is parallel to the short side, so it is as long as the short side. The bar is:
+$$18\ \text{cm long}.$$
+
+The bar joins the midpoints of the two long sides, so it divides the frame into two equal smaller frames. The length of each smaller frame is:
+$$24\div2=12\ \text{(cm)}.$$
+
+Each smaller frame is a rectangle $12$ cm long and $18$ cm wide. The perimeter of each smaller frame is:
 $$(12+18)\times2=60\ \text{(cm)}.$$
+
+So the bar is $18$ cm long and each smaller frame has perimeter $60$ cm.
 
 **Answer.** The bar is $18$ cm long; each smaller frame has perimeter $60$ cm.
 :::
@@ -365,12 +412,21 @@ A rectangular piece of card $ABCD$ has $AB=9$ cm and $BC=5$ cm. It is cut along 
 3. Check: the two perimeters add up to the perimeter of the card plus two times $MN$.
 
 ::solution
-The rectangles $AMND$ and $MBCN$ both have width $5$ cm. Their perimeters are equal, so $AM=MB$.
+Solution
 
-Hence $AM=9\div2=4.5$ (cm). The perimeter of each rectangle is:
+Since $MN$ is parallel to $BC$, the rectangles $AMND$ and $MBCN$ both have width $5$ cm.
+
+The two rectangles have the same width and equal perimeters, so their lengths are equal, that is $AM=MB$.
+
+The length of $AM$ is:
+$$AM=9\div2=4.5\ \text{(cm)}.$$
+
+The perimeter of each rectangle is:
 $$(4.5+5)\times2=19\ \text{(cm)}.$$
 
-**Check.** $19+19=38$ and $(9+5)\times2+2\times5=38$. Correct.
+*Check.* The total of the two perimeters is $19+19=38$ (cm). Also, $(9+5)\times2+2\times5=38$ (cm). The two results are equal, so the answer is correct.
+
+So $AM=4.5$ cm and the perimeter of each rectangle is $19$ cm.
 
 **Answer.** $AM=4.5$ cm; each perimeter is $19$ cm.
 :::

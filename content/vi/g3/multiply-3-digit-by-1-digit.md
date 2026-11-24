@@ -177,8 +177,20 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 1. Nhân hàng đơn vị: $3\times 3$.
 
 ::solution
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
-Hàng đơn vị: $3\times 3=9$. Hàng chục: $1\times 3=3$. Hàng trăm: $2\times 3=6$.
+
+Hàng đơn vị: $3\times3=9$, viết $9$.
+
+Hàng chục: $1\times3=3$, viết $3$.
+
+Hàng trăm: $2\times3=6$, viết $6$.
+
+Ta được $213\times3=639$.
+
+Thử lại: $639:3=213$. Đúng.
+
+Vậy $213\times3=639$.
 
 **Đáp số.** $639$.
 :::
@@ -193,8 +205,20 @@ Hàng đơn vị: $3\times 3=9$. Hàng chục: $1\times 3=3$. Hàng trăm: $2\ti
 1. Hàng đơn vị: $2\times 4$. Hàng chục: $5\times 4$, nhớ gì?
 
 ::solution
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
-Hàng đơn vị: $2\times 4=8$. Hàng chục: $5\times 4=20$, viết $0$ nhớ $2$. Hàng trăm: $1\times 4=4$, thêm $2$ được $6$.
+
+Hàng đơn vị: $2\times4=8$, viết $8$.
+
+Hàng chục: $5\times4=20$, viết $0$ nhớ $2$.
+
+Hàng trăm: $1\times4=4$, thêm $2$ được $6$, viết $6$.
+
+Ta được $152\times4=608$.
+
+Thử lại: $608:4=152$. Đúng.
+
+Vậy $152\times4=608$.
 
 **Đáp số.** $608$.
 :::
@@ -209,8 +233,20 @@ Hàng đơn vị: $2\times 4=8$. Hàng chục: $5\times 4=20$, viết $0$ nhớ 
 1. Hàng đơn vị: $7\times 3$, nhớ mấy?
 
 ::solution
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
-Hàng đơn vị: $7\times 3=21$, viết $1$ nhớ $2$. Hàng chục: $0\times 3=0$, thêm $2$ được $2$. Hàng trăm: $3\times 3=9$.
+
+Hàng đơn vị: $7\times3=21$, viết $1$ nhớ $2$.
+
+Hàng chục: $0\times3=0$, thêm $2$ được $2$, viết $2$.
+
+Hàng trăm: $3\times3=9$, viết $9$.
+
+Ta được $307\times3=921$.
+
+Thử lại: $921:3=307$. Đúng.
+
+Vậy $307\times3=921$.
 
 **Đáp số.** $921$.
 :::
@@ -226,9 +262,18 @@ Mỗi thùng sách có $125$ quyển. Hỏi $5$ thùng như vậy có tất cả
 2. Viết phép nhân, đặt tính rồi thử lại bằng phép chia.
 
 ::solution
+Bài giải
+
+Mỗi thùng có $125$ quyển sách và có $5$ thùng như vậy, nên ta lấy số quyển sách của một thùng nhân với số thùng.
+
 Số quyển sách trong $5$ thùng là:
-$$125\times 5=625\ \text{(quyển)}.$$
-Hàng đơn vị: $5\times 5=25$, viết $5$ nhớ $2$. Hàng chục: $2\times 5=10$, thêm $2$ được $12$, viết $2$ nhớ $1$. Hàng trăm: $1\times 5=5$, thêm $1$ được $6$.
+$$125\times5=625\ \text{(quyển)}$$
+
+Cách nhân: hàng đơn vị $5\times5=25$, viết $5$ nhớ $2$. Hàng chục $2\times5=10$, thêm $2$ được $12$, viết $2$ nhớ $1$. Hàng trăm $1\times5=5$, thêm $1$ được $6$, viết $6$.
+
+Thử lại: $625:5=125$. Đúng.
+
+Vậy $5$ thùng có tất cả $625$ quyển sách.
 
 **Đáp số.** $625$ quyển sách.
 :::
@@ -243,9 +288,20 @@ Hàng đơn vị: $5\times 5=25$, viết $5$ nhớ $2$. Hàng chục: $2\times 5
 1. $6$ trăm chia $3$ được mấy trăm?
 
 ::solution
-Hàng trăm: $6:3=2$. Hàng chục: $3:3=1$. Hàng đơn vị: $9:3=3$. Vậy
+Đặt tính rồi chia lần lượt từ hàng trăm, đến hàng chục, rồi hàng đơn vị.
+
+Hàng trăm: $6:3=2$, viết $2$.
+
+Hàng chục: $3:3=1$, viết $1$.
+
+Hàng đơn vị: $9:3=3$, viết $3$.
+
+Vậy
 $$639:3=213.$$
-Thử lại: $213\times 3=639$.
+
+Thử lại: $213\times3=639$. Đúng.
+
+Vậy $639:3=213$.
 
 **Đáp số.** $213$.
 :::
@@ -260,9 +316,20 @@ Thử lại: $213\times 3=639$.
 1. Hàng chục: $0$ chia $4$ được mấy?
 
 ::solution
-Hàng trăm: $4:4=1$. Hàng chục: $0:4=0$. Hàng đơn vị: $8:4=2$. Vậy
+Đặt tính rồi chia lần lượt từ hàng trăm, đến hàng chục, rồi hàng đơn vị.
+
+Hàng trăm: $4:4=1$, viết $1$.
+
+Hàng chục: $0:4=0$, viết $0$.
+
+Hàng đơn vị: $8:4=2$, viết $2$.
+
+Vậy
 $$408:4=102.$$
-Thử lại: $102\times 4=408$.
+
+Thử lại: $102\times4=408$. Đúng.
+
+Vậy $408:4=102$.
 
 **Đáp số.** $102$.
 :::
@@ -295,11 +362,21 @@ Cô giáo có $3$ hộp bút, mỗi hộp $168$ chiếc. Cô chia đều số b�
 2. Chia tổng số bút cho $6$ lớp.
 
 ::solution
+Bài giải
+
+Cô giáo có $3$ hộp bút, mỗi hộp $168$ chiếc, nên ta lấy số chiếc bút của một hộp nhân với số hộp để tìm tổng số bút.
+
 Tổng số chiếc bút của $3$ hộp là:
-$$168\times 3=504\ \text{(chiếc)}.$$
+$$168\times3=504\ \text{(chiếc)}$$
+
+Cô chia đều số bút đó cho $6$ lớp, nên ta lấy tổng số bút chia cho số lớp.
+
 Số chiếc bút mỗi lớp được là:
-$$504:6=84\ \text{(chiếc)}.$$
-Thử lại: $84\times 6=504$. Đúng.
+$$504:6=84\ \text{(chiếc)}$$
+
+Thử lại: $84\times6=504$. Đúng.
+
+Vậy mỗi lớp được $84$ chiếc bút.
 
 **Đáp số.** $84$ chiếc bút.
 :::

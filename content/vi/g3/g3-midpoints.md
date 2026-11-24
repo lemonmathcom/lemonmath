@@ -155,11 +155,17 @@ c) Điểm nào nằm giữa $P$ và $Q$?
 2. Không tính hai điểm đầu và cuối.
 
 ::solution
-a) Đi từ $P$ đến $S$ qua $Q$ và $R$, nên $Q$ và $R$ nằm giữa.
+Bài giải
 
-b) Đi từ $Q$ đến $S$ chỉ qua $R$, nên $R$ nằm giữa.
+Bốn điểm $P$, $Q$, $R$, $S$ nằm trên một đường thẳng theo thứ tự từ trái sang phải.
 
-c) Đi từ $P$ đến $Q$ không qua điểm nào khác, nên không có điểm nào nằm giữa.
+a) Đi từ $P$ đến $S$ ta đi qua $Q$ rồi qua $R$. Do đó $Q$ và $R$ nằm giữa $P$ và $S$.
+
+b) Đi từ $Q$ đến $S$ ta chỉ đi qua $R$. Do đó $R$ nằm giữa $Q$ và $S$.
+
+c) Đi từ $P$ đến $Q$ ta không đi qua điểm nào khác. Do đó không có điểm nào nằm giữa $P$ và $Q$.
+
+Vậy a) $Q$ và $R$ nằm giữa $P$ và $S$; b) $R$ nằm giữa $Q$ và $S$; c) không có điểm nào nằm giữa $P$ và $Q$.
 
 **Đáp số.** a) $Q$, $R$; b) $R$; c) không có điểm nào.
 :::
@@ -181,11 +187,17 @@ c) $AB=30$ cm.
 2. Chia cho $2$ rồi thử lại.
 
 ::solution
+Bài giải
+
+Vì $M$ là trung điểm của đoạn thẳng $AB$ nên $M$ chia đoạn thẳng $AB$ thành hai đoạn bằng nhau, tức là $AM$ bằng một nửa của $AB$. Ta tính $AM=AB:2$.
+
 a) $AM=8:2=4$ (cm).
 
 b) $AM=20:2=10$ (cm).
 
 c) $AM=30:2=15$ (cm).
+
+Vậy $AM$ lần lượt bằng $4$ cm, $10$ cm, $15$ cm.
 
 **Đáp số.** a) $4$ cm; b) $10$ cm; c) $15$ cm.
 :::
@@ -201,7 +213,17 @@ Em hãy nhớ lại bài trước về một phần mấy. Tìm $\dfrac{1}{2}$ c
 2. So sánh với $AM$.
 
 ::solution
-$\dfrac{1}{2}$ của $18$ là $18:2=9$. Vì $M$ là trung điểm nên $AM=18:2=9$ cm, bằng $\dfrac{1}{2}$ của $AB$.
+Bài giải
+
+Một phần hai của $18$ là:
+$$18:2=9$$
+
+Vì $M$ là trung điểm của đoạn thẳng $AB$ nên $AM$ bằng một nửa của $AB$. Độ dài đoạn $AM$ là:
+$$AM=18:2=9\ \text{(cm)}$$
+
+So sánh: $\dfrac{1}{2}$ của $18$ là $9$ và $AM=9$ cm, nên $AM$ bằng $\dfrac{1}{2}$ của $AB$.
+
+Vậy $\dfrac{1}{2}$ của $18$ là $9$, và $AM=9$ cm, bằng $\dfrac{1}{2}$ của $AB$.
 
 **Đáp số.** $9$ và $AM=9$ cm.
 :::
@@ -223,11 +245,17 @@ c) $MB=12$ cm.
 2. Nhân với $2$ rồi thử lại.
 
 ::solution
+Bài giải
+
+Vì $M$ là trung điểm của đoạn thẳng $AB$ nên $MA=MB$ và $AB$ gấp đôi $MA$. Ta tính $AB=MA\times2$.
+
 a) $AB=5\times2=10$ (cm).
 
 b) $AB=9\times2=18$ (cm).
 
-c) $MA=MB=12$ cm nên $AB=12\times2=24$ (cm).
+c) Vì $M$ là trung điểm nên $MA=MB=12$ cm. Do đó $AB=12\times2=24$ (cm).
+
+Vậy $AB$ lần lượt bằng $10$ cm, $18$ cm, $24$ cm.
 
 **Đáp số.** a) $10$ cm; b) $18$ cm; c) $24$ cm.
 :::
@@ -249,11 +277,17 @@ c) Điểm $M$ không nằm trên đường thẳng $AB$ nhưng $MA=MB=4$ cm.
 2. $MA$ có bằng $MB$ không?
 
 ::solution
-a) $M$ nằm giữa và $AM=MB=3$ cm, nên $M$ là trung điểm.
+Bài giải
 
-b) $AM=2$ cm khác $MB=5$ cm, nên $M$ không là trung điểm.
+Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi $M$ nằm giữa $A$ và $B$ và $MA=MB$. Ta kiểm tra hai điều kiện này.
 
-c) $MA=MB$ nhưng $M$ không nằm giữa $A$ và $B$ (không thẳng hàng), nên $M$ không là trung điểm.
+a) $M$ nằm giữa $A$ và $B$, và $AM=MB=3$ cm. Cả hai điều kiện đều thoả mãn nên $M$ là trung điểm của $AB$.
+
+b) $M$ nằm giữa $A$ và $B$ nhưng $AM=2$ cm khác $MB=5$ cm. Điều kiện $MA=MB$ không thoả mãn nên $M$ không là trung điểm của $AB$.
+
+c) $M$ không nằm trên đường thẳng $AB$ nên $M$ không nằm giữa $A$ và $B$. Dù $MA=MB=4$ cm, điều kiện nằm giữa không thoả mãn nên $M$ không là trung điểm của $AB$.
+
+Vậy $M$ là trung điểm của $AB$ ở câu a); không là trung điểm ở các câu b) và c).
 
 **Đáp số.** a) Có; b) không; c) không.
 :::
@@ -269,7 +303,16 @@ Hà nói: "$AB=10$ cm, $M$ nằm giữa $A$ và $B$ nên $AM=5$ cm". Hà sai ở
 2. Tính $MB$ rồi so sánh.
 
 ::solution
-Hà nhầm điểm nằm giữa với trung điểm. Ví dụ $AM=3$ cm thì $MB=10-3=7$ cm. Khi đó $M$ nằm giữa $A$ và $B$ nhưng $AM\neq MB$, nên $AM$ không bằng $5$ cm.
+Bài giải
+
+Hà cho rằng $M$ nằm giữa $A$ và $B$ thì $AM=5$ cm, tức là $AM$ bằng một nửa của $AB=10$ cm. Nhưng muốn $AM$ bằng một nửa $AB$ thì $M$ phải là trung điểm, nghĩa là ngoài việc nằm giữa còn phải có $MA=MB$. Hà đã nhầm điểm nằm giữa với trung điểm.
+
+Ví dụ: lấy $AM=3$ cm. Vì $M$ nằm giữa $A$ và $B$ nên
+$$MB=AB-AM=10-3=7\ \text{(cm)}.$$
+
+Khi đó $M$ nằm giữa $A$ và $B$ nhưng $AM=3$ cm khác $MB=7$ cm, nên $M$ không là trung điểm và $AM$ không bằng $5$ cm.
+
+Vậy Hà sai vì thiếu điều kiện $MA=MB$.
 
 **Đáp số.** Hà thiếu điều kiện $MA=MB$.
 :::
@@ -287,9 +330,15 @@ b) Trường học là trung điểm của đoạn đường từ nhà Mai đế
 2. Chọn chia hoặc nhân với $2$, ghi đáp số có đơn vị.
 
 ::solution
-a) Mỗi đoạn dài $16:2=8$ (dm).
+Bài giải
 
-b) Cả đoạn đường dài $6\times2=12$ (km).
+a) Thanh gỗ được cưa tại trung điểm nên hai đoạn bằng nhau, mỗi đoạn dài bằng một nửa thanh gỗ. Mỗi đoạn dài là:
+$$16:2=8\ \text{(dm)}$$
+
+b) Trường học là trung điểm của đoạn đường từ nhà Mai đến nhà Lan nên quãng đường từ nhà Mai đến trường bằng một nửa quãng đường từ nhà Mai đến nhà Lan. Từ nhà Mai đến nhà Lan dài là:
+$$6\times2=12\ \text{(km)}$$
+
+Vậy mỗi đoạn gỗ dài $8$ dm và từ nhà Mai đến nhà Lan dài $12$ km.
 
 **Đáp số.** a) $8$ dm; b) $12$ km.
 :::
@@ -305,7 +354,20 @@ b) Cả đoạn đường dài $6\times2=12$ (km).
 2. $NB=NM+MB$.
 
 ::solution
-$AM=16:2=8$ (cm). $N$ là trung điểm của $AM$ nên $AN=NM=8:2=4$ (cm). $M$ nằm giữa $N$ và $B$ nên $NB=NM+MB=4+8=12$ (cm).
+Bài giải
+
+Vì $M$ là trung điểm của $AB$ nên $AM$ bằng một nửa của $AB$:
+$$AM=16:2=8\ \text{(cm)}$$
+
+Vì $N$ là trung điểm của $AM$ nên $AN=NM$ và mỗi đoạn bằng một nửa của $AM$:
+$$AN=NM=8:2=4\ \text{(cm)}$$
+
+Vì $M$ là trung điểm của $AB$ nên $MB=AM=8$ cm. Điểm $M$ nằm giữa $N$ và $B$ nên
+$$NB=NM+MB=4+8=12\ \text{(cm)}.$$
+
+Kiểm tra: $NB=AB-AN=16-4=12$ (cm). Khớp với kết quả trên.
+
+Vậy $AM=8$ cm, $AN=4$ cm và $NB=12$ cm.
 
 **Đáp số.** $AM=8$ cm; $AN=4$ cm; $NB=12$ cm.
 :::

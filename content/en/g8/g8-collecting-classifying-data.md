@@ -258,7 +258,15 @@ d) Names of favourite songs.
 2. Classify each kind of data.
 
 ::solution
-a) Eye colour is a name: qualitative. b) Height is a measurement: quantitative. c) The number of students is a count: quantitative. d) Song names: qualitative.
+Qualitative data are not numbers (names, colours, qualities); quantitative data are numerical values (measurements or counts) that can be compared and calculated with.
+
+a) Eye colour is a name, not a number. It is qualitative data.
+
+b) Height (cm) is a measurement. It is quantitative data.
+
+c) The number of students in each class is a count. It is quantitative data.
+
+d) Song names are names, not numbers. They are qualitative data.
 
 So a) and d) are qualitative; b) and c) are quantitative.
 
@@ -318,14 +326,23 @@ The numbers of brothers and sisters of $20$ students are recorded as $1$, $2$, $
 2. Divide by $20$ and write as a percentage.
 
 ::solution
-We count and divide by $20$:
+The frequency of a value is the number of times it occurs; the relative frequency is the frequency divided by the total number of students, written as a percentage. The total is $20$ students.
+
+Counting in the data, we get: the value $0$ occurs $4$ times, the value $1$ occurs $9$ times, the value $2$ occurs $6$ times, the value $3$ occurs $1$ time.
+
+The relative frequencies are
+$$\frac{4}{20}=20\%,\qquad\frac{9}{20}=45\%,\qquad\frac{6}{20}=30\%,\qquad\frac{1}{20}=5\%.$$
+
+We get the table:
 
 | Number of siblings | $0$ | $1$ | $2$ | $3$ | Total |
 |---|---|---|---|---|---|
 | Frequency | $4$ | $9$ | $6$ | $1$ | $20$ |
 | Relative frequency | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
 
-Check: $4+9+6+1=20$.
+Check: $4+9+6+1=20$ and $20\%+45\%+30\%+5\%=100\%$.
+
+So the table of frequencies and relative frequencies is the one above.
 
 **Answer.** Frequencies $4$; $9$; $6$; $1$, relative frequencies $20\%$; $45\%$; $30\%$; $5\%$.
 :::
@@ -359,9 +376,16 @@ A survey of $40$ students about their favourite type of book gives: Stories $16$
 2. Multiply by $360^\circ$.
 
 ::solution
-We have: Stories $\dfrac{16}{40}=40\%$, angle $144^\circ$; Science $\dfrac{12}{40}=30\%$, angle $108^\circ$; Poetry $\dfrac{4}{40}=10\%$, angle $36^\circ$; Other $\dfrac{8}{40}=20\%$, angle $72^\circ$.
+The relative frequency of each type is the number of students who chose it divided by the total number surveyed ($40$ students). A full circle is $360^\circ$, so the sector angle of each type equals its relative frequency times $360^\circ$.
 
-Check: $144+108+36+72=360$.
+- Stories: $\dfrac{16}{40}=40\%$; angle $40\%\cdot360^\circ=144^\circ$.
+- Science: $\dfrac{12}{40}=30\%$; angle $30\%\cdot360^\circ=108^\circ$.
+- Poetry: $\dfrac{4}{40}=10\%$; angle $10\%\cdot360^\circ=36^\circ$.
+- Other: $\dfrac{8}{40}=20\%$; angle $20\%\cdot360^\circ=72^\circ$.
+
+Check: $144+108+36+72=360$ and $40\%+30\%+10\%+20\%=100\%$.
+
+So the relative frequencies of the four types are $40\%$, $30\%$, $10\%$, $20\%$, and the matching angles are $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
 
 **Answer.** $40\%$, $30\%$, $10\%$, $20\%$; angles $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
 :::
@@ -385,7 +409,17 @@ d) Compare the number of boys and girls in each of four classes.
 2. Choose the matching chart.
 
 ::solution
-a) Comparing groups: bar chart. b) Over time: line graph. c) Proportions of a whole: pie chart. d) Two data sets on the same groups: double bar chart.
+Each type of chart suits a particular purpose: a bar chart compares groups; a double bar chart compares two data sets on the same groups; a pie chart shows the proportions of a whole; a line graph shows change over time.
+
+a) Comparing the number of students in four classes means comparing groups, so we use a bar chart.
+
+b) The temperature changes hour by hour, that is, over time, so we use a line graph.
+
+c) The percentages of the items are proportions of the whole budget, so we use a pie chart.
+
+d) We compare two data sets (boys and girls) on the same four classes, so we use a double bar chart.
+
+So a) bar chart; b) line graph; c) pie chart; d) double bar chart.
 
 **Answer.** a) bar chart; b) line graph; c) pie chart; d) double bar chart.
 :::

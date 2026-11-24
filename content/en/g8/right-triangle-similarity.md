@@ -233,7 +233,14 @@ Triangle $ABC$ is right-angled at $A$ with $\angle B=50^\circ$ and triangle $DEF
 2. Compare $\angle C$ with $\angle F$.
 
 ::solution
-Since triangle $ABC$ is right-angled at $A$, we have $\angle C=90^\circ-50^\circ=40^\circ$. So $\angle C=\angle F=40^\circ$ and $\triangle ABC\backsim\triangle DEF$ (two right-angled triangles with an equal acute angle).
+Consider triangle $ABC$, right-angled at $A$. The two acute angles add up to $90^\circ$, so $\angle B+\angle C=90^\circ$, which gives
+$$\angle C=90^\circ-\angle B=90^\circ-50^\circ=40^\circ.$$
+
+Triangle $DEF$ is right-angled at $D$ with $\angle F=40^\circ$. Hence $\angle C=\angle F=40^\circ$.
+
+The two right-angled triangles $ABC$ and $DEF$ have an equal acute angle ($\angle C=\angle F$), so $\triangle ABC\backsim\triangle DEF$ (the similarity condition for right-angled triangles). The corresponding vertices are $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$; moreover $\angle E=90^\circ-40^\circ=50^\circ=\angle B$.
+
+So $\triangle ABC\backsim\triangle DEF$.
 
 **Answer.** $\triangle ABC\backsim\triangle DEF$ with $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$.
 :::
@@ -249,7 +256,20 @@ Triangle $ABC$ is right-angled at $A$ with $AB=6$, $AC=8$, and triangle $MNP$ is
 2. Find $BC$, then use the similarity ratio to find $NP$.
 
 ::solution
-We have $\dfrac{MN}{AB}=\dfrac96=\dfrac32$ and $\dfrac{MP}{AC}=\dfrac{12}8=\dfrac32$, so $\triangle ABC\backsim\triangle MNP$ (the legs are proportional). By Pythagoras' theorem, $BC=\sqrt{6^2+8^2}=10$. Hence $NP=\dfrac32\cdot10=15$.
+Consider the right-angled triangles $ABC$ (right-angled at $A$) and $MNP$ (right-angled at $M$). We have
+$$\frac{MN}{AB}=\frac96=\frac32,\qquad \frac{MP}{AC}=\frac{12}{8}=\frac32.$$
+
+The legs of one triangle are proportional to the legs of the other, so $\triangle ABC\backsim\triangle MNP$ with ratio $\dfrac32$ (with $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$).
+
+Finding $NP$. By Pythagoras' theorem in triangle $ABC$, right-angled at $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Since the triangles are similar with ratio $\dfrac32$, we have $\dfrac{NP}{BC}=\dfrac32$, so
+$$NP=\frac32\cdot10=15.$$
+
+Check: in triangle $MNP$, right-angled at $M$, $NP=\sqrt{9^2+12^2}=\sqrt{225}=15$.
+
+So $\triangle ABC\backsim\triangle MNP$ and $NP=15$.
 
 **Answer.** $NP=15$.
 :::
@@ -265,7 +285,20 @@ Triangle $ABC$ is right-angled at $A$ with $BC=13$, $AB=5$, and triangle $DEF$ i
 2. Find $AC$, then deduce $DF$.
 
 ::solution
-We have $\dfrac{EF}{BC}=\dfrac{39}{13}=3$ and $\dfrac{DE}{AB}=\dfrac{15}5=3$, so $\triangle DEF\backsim\triangle ABC$ (the hypotenuse and a leg are proportional). By Pythagoras' theorem, $AC=\sqrt{13^2-5^2}=12$. Hence $DF=3\cdot12=36$.
+Consider the right-angled triangles $DEF$ (right-angled at $D$, hypotenuse $EF$) and $ABC$ (right-angled at $A$, hypotenuse $BC$). We have
+$$\frac{EF}{BC}=\frac{39}{13}=3,\qquad \frac{DE}{AB}=\frac{15}{5}=3.$$
+
+The hypotenuse and a leg of one triangle are proportional to the hypotenuse and a leg of the other, so $\triangle DEF\backsim\triangle ABC$ with ratio $3$ (with $D\leftrightarrow A$, $E\leftrightarrow B$, $F\leftrightarrow C$).
+
+Finding $DF$. By Pythagoras' theorem in triangle $ABC$, right-angled at $A$,
+$$AC=\sqrt{BC^2-AB^2}=\sqrt{13^2-5^2}=\sqrt{144}=12.$$
+
+Since $\dfrac{DF}{AC}=3$, we get
+$$DF=3\cdot12=36.$$
+
+Check: $DF=\sqrt{EF^2-DE^2}=\sqrt{39^2-15^2}=\sqrt{1296}=36$.
+
+So the two triangles are similar and $DF=36$.
 
 **Answer.** $DF=36$.
 :::
@@ -281,7 +314,17 @@ Remember the lesson on similar triangles. Triangle $ABC$ is similar to triangle 
 2. Work out the perimeter of $A'B'C'$.
 
 ::solution
-Let $p$ cm be the perimeter of triangle $A'B'C'$. We have $\dfrac{24}{p}=\dfrac25$, so $p=\dfrac{24\cdot5}{2}=60$.
+Let $p$ cm be the perimeter of triangle $A'B'C'$, $p>0$.
+
+For similar triangles, the ratio of the perimeters equals the similarity ratio. Triangle $ABC$ is similar to triangle $A'B'C'$ with ratio $\dfrac25$ and the perimeter of triangle $ABC$ is $24$ cm, so
+$$\frac{24}{p}=\frac25.$$
+
+Hence
+$$p=\frac{24\cdot5}{2}=60.$$
+
+The value $p=60>0$ satisfies the condition. Check: $\dfrac{24}{60}=\dfrac25$.
+
+So the perimeter of triangle $A'B'C'$ is $60$ cm.
 
 **Answer.** $60$ cm.
 :::
@@ -297,7 +340,19 @@ At the same moment, a vertical stake $1.5$ m tall has a shadow $1.2$ m long, and
 2. Form a proportion and work out $h$.
 
 ::solution
-The two right-angled triangles (the stake with its shadow, the flagpole with its shadow) have an equal acute angle, so they are similar. We have $\dfrac{1.5}{h}=\dfrac{1.2}{9.6}$, so $h=\dfrac{1.5\cdot9.6}{1.2}=12$.
+Let $h$ m be the height of the flagpole, $h>0$.
+
+At the same moment the sun's rays are parallel, so they make the same acute angle with the ground. The stake and the flagpole are both perpendicular to the ground. Hence the two right-angled triangles (the stake with its shadow, the flagpole with its shadow) have an equal acute angle, so they are similar.
+
+Corresponding legs are proportional: the height of the stake is to the height of the flagpole as the shadow of the stake is to the shadow of the flagpole, that is
+$$\frac{1.5}{h}=\frac{1.2}{9.6}.$$
+
+Hence
+$$h=\frac{1.5\cdot9.6}{1.2}=\frac{14.4}{1.2}=12.$$
+
+Check: $\dfrac{1.5}{12}=0.125=\dfrac{1.2}{9.6}$.
+
+So the flagpole is $12$ m tall.
 
 **Answer.** $12$ m.
 :::
@@ -313,7 +368,19 @@ The first ramp has a horizontal run of $2.4$ m, a height of $1$ m and a sloping 
 2. Use the similarity ratio to find the horizontal run.
 
 ::solution
-Consider triangle $ABC$ right-angled at $A$ with $AC=2.4$, $AB=1$, $BC=2.6$, and triangle $A'B'C'$ right-angled at $A'$ with $A'B'=2.5$, $B'C'=6.5$. We have $\dfrac{B'C'}{BC}=\dfrac{6.5}{2.6}=2.5$ and $\dfrac{A'B'}{AB}=\dfrac{2.5}1=2.5$, so $\triangle A'B'C'\backsim\triangle ABC$. Hence $\angle C'=\angle C$, so the ramps make the same angle, and $A'C'=2.5\cdot2.4=6$.
+Consider triangle $ABC$, right-angled at $A$, representing the first ramp, with $AC=2.4$ (horizontal run), $AB=1$ (height) and $BC=2.6$ (sloping surface). Consider triangle $A'B'C'$, right-angled at $A'$, representing the second ramp, with $A'B'=2.5$ (height) and $B'C'=6.5$ (sloping surface). The angle each ramp makes with the horizontal is the angle at the vertex $C$ (and $C'$).
+
+The two right-angled triangles satisfy
+$$\frac{B'C'}{BC}=\frac{6.5}{2.6}=2.5,\qquad \frac{A'B'}{AB}=\frac{2.5}{1}=2.5.$$
+
+The hypotenuse and a leg are proportional, so $\triangle A'B'C'\backsim\triangle ABC$ with ratio $2.5$. Hence $\angle C'=\angle C$, so the two ramps make the same angle with the horizontal.
+
+Finding the horizontal run of the second ramp. From $\dfrac{A'C'}{AC}=2.5$ we get
+$$A'C'=2.5\cdot2.4=6.$$
+
+Check: $A'C'=\sqrt{B'C'^2-A'B'^2}=\sqrt{6.5^2-2.5^2}=\sqrt{36}=6$.
+
+So the two ramps make the same angle with the horizontal and the horizontal run of the second ramp is $6$ m.
 
 **Answer.** The same angle; the horizontal run is $6$ m.
 :::
@@ -329,7 +396,20 @@ Triangle $ABC$ is right-angled at $A$ with $AB=15$, $AC=20$. Draw the altitude $
 2. From $\dfrac{HB}{AB}=\dfrac{HA}{AC}=\dfrac{BA}{BC}$ find $BH$ and $AH$.
 
 ::solution
-The right-angled triangles $HBA$ and $ABC$ share the angle $\angle B$, so $\triangle HBA\backsim\triangle ABC$. By Pythagoras' theorem, $BC=\sqrt{15^2+20^2}=25$. We have $\dfrac{HB}{15}=\dfrac{HA}{20}=\dfrac{15}{25}$, so $BH=\dfrac{15\cdot15}{25}=9$ and $AH=\dfrac{20\cdot15}{25}=12$.
+Proving $\triangle HBA\backsim\triangle ABC$. Consider the right-angled triangles $HBA$ (right-angled at $H$) and $ABC$ (right-angled at $A$). They share the angle $\angle B$, so $\triangle HBA\backsim\triangle ABC$ (with $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$).
+
+Finding $BC$. By Pythagoras' theorem in triangle $ABC$, right-angled at $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{15^2+20^2}=\sqrt{625}=25.$$
+
+Finding $BH$ and $AH$. From $\triangle HBA\backsim\triangle ABC$, corresponding sides are proportional:
+$$\frac{HB}{AB}=\frac{HA}{AC}=\frac{BA}{BC},\ \text{that is}\ \frac{HB}{15}=\frac{HA}{20}=\frac{15}{25}.$$
+
+Hence
+$$BH=\frac{15\cdot15}{25}=9,\qquad AH=\frac{20\cdot15}{25}=12.$$
+
+Check: $AH\cdot BC=12\cdot25=300=15\cdot20=AB\cdot AC$.
+
+So $BC=25$, $BH=9$, $AH=12$.
 
 **Answer.** $BC=25$, $BH=9$, $AH=12$.
 :::
@@ -345,7 +425,18 @@ Nam stands $10$ m from the foot of a lamp post. His eyes are $1.6$ m above the g
 2. Find $HM$, then add the height of his eyes.
 
 ::solution
-In triangle $EHM$, right-angled at $H$, we have $\angle E=45^\circ$, so $\angle M=45^\circ$ and the triangle is isosceles with $HM=EH=10$. The height of the post is $10+1.6=11.6$.
+Let $E$ be Nam's eye, $M$ the top of the lamp post and $H$ the point of the post at eye level. Then $EH=10$ m is horizontal and $HM$ is vertical, so triangle $EHM$ is right-angled at $H$, and the line of sight $EM$ makes the angle $\angle E=45^\circ$ with the horizontal. Let $h$ m be the height of the lamp post; the point $H$ is $1.6$ m above the ground (the height of his eyes).
+
+In triangle $EHM$, right-angled at $H$, with $\angle E=45^\circ$, we have
+$$\angle M=90^\circ-45^\circ=45^\circ.$$
+
+Triangle $EHM$ has $\angle E=\angle M$, so it is isosceles with right angle at $H$. Hence
+$$HM=EH=10\ \text{(m)}.$$
+
+The height of the post is $HM$ plus the height of $H$ above the ground:
+$$h=HM+1.6=10+1.6=11.6\ \text{(m)}.$$
+
+So the lamp post is $11.6$ m tall.
 
 **Answer.** $11.6$ m.
 :::
@@ -361,7 +452,23 @@ Triangle $ABC$ is right-angled at $A$ with altitude $AH$. Prove that $AB\cdot AC
 2. Cross-multiply, then substitute the numbers.
 
 ::solution
-We have $\triangle HBA\backsim\triangle ABC$, so $\dfrac{HA}{AC}=\dfrac{BA}{BC}$, which gives $AH\cdot BC=AB\cdot AC$. For $AB=9$ and $AC=12$ we have $BC=\sqrt{9^2+12^2}=15$, so $AH=\dfrac{9\cdot12}{15}=7.2$.
+Proving $AB\cdot AC=AH\cdot BC$. Consider the right-angled triangles $HBA$ (right-angled at $H$) and $ABC$ (right-angled at $A$). They share the angle $\angle B$, so $\triangle HBA\backsim\triangle ABC$ (with $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$).
+
+Corresponding sides are proportional, so
+$$\frac{HA}{AC}=\frac{BA}{BC}.$$
+
+Cross-multiplying, we get
+$$AH\cdot BC=AB\cdot AC.$$
+
+Application with $AB=9$ and $AC=12$. By Pythagoras' theorem in triangle $ABC$, right-angled at $A$,
+$$BC=\sqrt{9^2+12^2}=\sqrt{225}=15.$$
+
+From the relation just proved,
+$$AH=\frac{AB\cdot AC}{BC}=\frac{9\cdot12}{15}=7.2.$$
+
+Check by areas: $\dfrac12\cdot9\cdot12=54=\dfrac12\cdot15\cdot7.2$.
+
+So $AB\cdot AC=AH\cdot BC$, and when $AB=9$ and $AC=12$ we have $AH=7.2$.
 
 **Answer.** $AH=7.2$.
 :::

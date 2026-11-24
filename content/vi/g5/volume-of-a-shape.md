@@ -175,13 +175,23 @@ a) $6\ \text{dm}^3=?\ \text{cm}^3$; b) $9000\ \text{cm}^3=?\ \text{dm}^3$; c) $4
 2. Chú ý số nhân hoặc chia là $1000$.
 
 ::solution
-a) $6\times1000=6000\ \text{cm}^3$.
+Bài giải
 
-b) $9000:1000=9\ \text{dm}^3$.
+Ta có $1\ \text{dm}^3=1000\ \text{cm}^3$ và $1\ \text{m}^3=1000\ \text{dm}^3$. Đổi từ đơn vị lớn sang đơn vị bé thì nhân với $1000$; đổi từ đơn vị bé sang đơn vị lớn thì chia cho $1000$.
 
-c) $4\times1000=4000\ \text{dm}^3$.
+a) Đổi đề-xi-mét khối ra xăng-ti-mét khối:
+$$6\times1000=6000\ (\text{cm}^3)$$
 
-d) $12\,000:1000=12\ \text{m}^3$.
+b) Đổi xăng-ti-mét khối ra đề-xi-mét khối:
+$$9000:1000=9\ (\text{dm}^3)$$
+
+c) Đổi mét khối ra đề-xi-mét khối:
+$$4\times1000=4000\ (\text{dm}^3)$$
+
+d) Đổi đề-xi-mét khối ra mét khối:
+$$12\,000:1000=12\ (\text{m}^3)$$
+
+Vậy các số cần điền lần lượt là $6000$; $9$; $4000$; $12$.
 
 **Đáp số.** a) $6000$; b) $9$; c) $4000$; d) $12$.
 :::
@@ -198,13 +208,21 @@ a) $7\ \text{m}^3\ 300\ \text{dm}^3=?\ \text{dm}^3$; b) $5\ \text{dm}^3\ 60\ \te
 2. Với câu c và d, tách số đo thành hai đơn vị.
 
 ::solution
-a) $7\ \text{m}^3=7000\ \text{dm}^3$, nên được $7000+300=7300\ \text{dm}^3$.
+Bài giải
 
-b) $5\ \text{dm}^3=5000\ \text{cm}^3$, nên được $5000+60=5060\ \text{cm}^3$.
+Ta có $1\ \text{m}^3=1000\ \text{dm}^3$ và $1\ \text{dm}^3=1000\ \text{cm}^3$.
 
-c) $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
+a) Đổi $7\ \text{m}^3=7000\ \text{dm}^3$. Do đó
+$$7\ \text{m}^3\ 300\ \text{dm}^3=7000+300=7300\ (\text{dm}^3)$$
 
-d) $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
+b) Đổi $5\ \text{dm}^3=5000\ \text{cm}^3$. Do đó
+$$5\ \text{dm}^3\ 60\ \text{cm}^3=5000+60=5060\ (\text{cm}^3)$$
+
+c) Tách $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3$. Vì $6000\ \text{dm}^3=6\ \text{m}^3$ nên $6500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
+
+d) Tách $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3$. Vì $3000\ \text{cm}^3=3\ \text{dm}^3$ nên $3450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
+
+Vậy các số cần điền lần lượt là $7300$; $5060$; $6\ \text{m}^3\ 500\ \text{dm}^3$; $3\ \text{dm}^3\ 450\ \text{cm}^3$.
 
 **Đáp số.** a) $7300$; b) $5060$; c) $6\ \text{m}^3\ 500\ \text{dm}^3$; d) $3\ \text{dm}^3\ 450\ \text{cm}^3$.
 :::
@@ -220,9 +238,17 @@ Một hình hộp chữ nhật được xếp vừa kín bằng các khối lậ
 2. Nhân với số lớp.
 
 ::solution
-Mỗi lớp có $6\times5=30$ khối. Ba lớp có $30\times3=90$ khối.
+Bài giải
 
-Vậy thể tích của hình là $90\ \text{cm}^3$.
+Mỗi khối lập phương $1\ \text{cm}^3$ có thể tích $1\ \text{cm}^3$, nên thể tích hình hộp chữ nhật bằng số khối lập phương xếp được.
+
+Số khối lập phương trong một lớp là:
+$$6\times5=30\ (\text{khối})$$
+
+Số khối lập phương trong ba lớp là:
+$$30\times3=90\ (\text{khối})$$
+
+Vậy thể tích của hình hộp chữ nhật là $90\ \text{cm}^3$.
 
 **Đáp số.** $90\ \text{cm}^3$.
 :::
@@ -238,9 +264,17 @@ Giả sử một chai nước chứa $1{,}5$ lít nước. Hỏi chai nước đ
 2. Đổi đề-xi-mét khối ra xăng-ti-mét khối.
 
 ::solution
-Vì $1$ lít $=1\ \text{dm}^3$ nên $1{,}5$ lít $=1{,}5\ \text{dm}^3$.
+Bài giải
 
-Đổi ra xăng-ti-mét khối: $1{,}5\ \text{dm}^3=1\ \text{dm}^3+0{,}5\ \text{dm}^3=1000+500=1500\ \text{cm}^3$.
+Ta có $1$ lít $=1\ \text{dm}^3$ và $1\ \text{dm}^3=1000\ \text{cm}^3$.
+
+Đổi ra đề-xi-mét khối:
+$$1{,}5\ \text{lít}=1{,}5\ \text{dm}^3$$
+
+Đổi ra xăng-ti-mét khối:
+$$1{,}5\ \text{dm}^3=1\ \text{dm}^3+0{,}5\ \text{dm}^3=1000+500=1500\ (\text{cm}^3)$$
+
+Vậy chai nước chứa $1{,}5\ \text{dm}^3$, tức là $1500\ \text{cm}^3$ nước.
 
 **Đáp số.** $1{,}5\ \text{dm}^3$, tức là $1500\ \text{cm}^3$.
 :::
@@ -256,9 +290,17 @@ Một bể chứa được $2400$ lít nước. Hỏi bể chứa được bao n
 2. Đổi đề-xi-mét khối ra mét khối. Nhớ ghi đơn vị.
 
 ::solution
-Vì $1$ lít $=1\ \text{dm}^3$ nên $2400$ lít $=2400\ \text{dm}^3$.
+Bài giải
 
-Đổi ra mét khối: $2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0{,}4\ \text{m}^3=2{,}4\ \text{m}^3$.
+Ta có $1$ lít $=1\ \text{dm}^3$ và $1\ \text{m}^3=1000\ \text{dm}^3$.
+
+Đổi ra đề-xi-mét khối:
+$$2400\ \text{lít}=2400\ \text{dm}^3$$
+
+Đổi ra mét khối:
+$$2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0{,}4\ \text{m}^3=2{,}4\ \text{m}^3$$
+
+Vậy bể chứa được $2400\ \text{dm}^3$, tức là $2{,}4\ \text{m}^3$ nước.
 
 **Đáp số.** $2400\ \text{dm}^3$, tức là $2{,}4\ \text{m}^3$.
 :::
@@ -274,11 +316,17 @@ Vì $1$ lít $=1\ \text{dm}^3$ nên $2400$ lít $=2400\ \text{dm}^3$.
 2. So sánh hai số.
 
 ::solution
-a) $3\ \text{dm}^3=3000\ \text{cm}^3$. Vì $2500<3000$ nên điền dấu $<$.
+Bài giải
 
-b) $0{,}5\ \text{m}^3=500\ \text{dm}^3$, nên điền dấu $=$.
+Muốn so sánh, ta đổi về cùng một đơn vị đo.
 
-c) $4\ \text{dm}^3\ 20\ \text{cm}^3=4020\ \text{cm}^3$. Vì $4020<4200$ nên điền dấu $<$.
+a) Đổi $3\ \text{dm}^3=3000\ \text{cm}^3$. Vì $2500<3000$ nên $2500\ \text{cm}^3<3\ \text{dm}^3$.
+
+b) Đổi $0{,}5\ \text{m}^3=500\ \text{dm}^3$. Hai số bằng nhau nên $0{,}5\ \text{m}^3=500\ \text{dm}^3$.
+
+c) Đổi $4\ \text{dm}^3\ 20\ \text{cm}^3=4000+20=4020\ \text{cm}^3$. Vì $4020<4200$ nên $4\ \text{dm}^3\ 20\ \text{cm}^3<4200\ \text{cm}^3$.
+
+Vậy các dấu cần điền lần lượt là $<$; $=$; $<$.
 
 **Đáp số.** a) $<$; b) $=$; c) $<$.
 :::
@@ -294,7 +342,17 @@ Giả sử một thùng chứa $3\ \text{m}^3\ 600\ \text{dm}^3$ nước, ngư�
 2. Nếu số $\text{dm}^3$ từ $1000$ trở lên thì đổi ra $\text{m}^3$.
 
 ::solution
-Tổng là $3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3$, tức là $5{,}3\ \text{m}^3$.
+Bài giải
+
+Số mét khối nước trong thùng sau khi đổ thêm bằng tổng hai lượng nước.
+
+Cộng theo từng đơn vị:
+$$3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3$$
+
+Vì $1300\ \text{dm}^3=1\ \text{m}^3\ 300\ \text{dm}^3$ nên
+$$4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3=5{,}3\ \text{m}^3$$
+
+Vậy sau đó thùng chứa $5{,}3\ \text{m}^3$ nước.
 
 **Đáp số.** $5{,}3\ \text{m}^3$.
 :::
@@ -310,9 +368,16 @@ Em hãy nhớ lại bài các đơn vị đo diện tích, trong đó $1\ \text{
 2. Có bao nhiêu hàng ở mỗi lớp và bao nhiêu lớp?
 
 ::solution
-Khối lập phương cạnh $1$ m là khối cạnh $10$ dm. Mỗi hàng xếp được $10$ khối $1\ \text{dm}^3$, mỗi lớp có $10$ hàng, và có $10$ lớp. Số khối là $10\times10\times10=1000$.
+Bài giải
 
-Với diện tích chỉ có hàng và cột: $10\times10=100$ ô, nên $1\ \text{m}^2=100\ \text{dm}^2$.
+Khối lập phương cạnh $1$ m chính là khối lập phương cạnh $10$ dm. Ta xếp đầy nó bằng các khối lập phương $1\ \text{dm}^3$.
+
+Mỗi hàng xếp được $10$ khối, mỗi lớp có $10$ hàng và có tất cả $10$ lớp. Số khối $1\ \text{dm}^3$ là:
+$$10\times10\times10=1000\ (\text{khối})$$
+
+Với diện tích, ta chỉ có hàng và cột, nên số ô vuông $1\ \text{dm}^2$ là $10\times10=100$ và $1\ \text{m}^2=100\ \text{dm}^2$.
+
+Vậy $1\ \text{m}^3=1000\ \text{dm}^3$ chứ không phải $100\ \text{dm}^3$, vì thể tích có thêm một chiều nữa là chiều cao (các lớp).
 
 **Đáp số.** $1\ \text{m}^3=1000\ \text{dm}^3$ vì có thêm một chiều: $10\times10\times10=1000$.
 :::
@@ -328,9 +393,19 @@ Giả sử một bể cá chứa $60$ lít nước, bể cá thứ hai chứa $0
 2. So sánh rồi lấy số lớn trừ số bé.
 
 ::solution
-$0{,}08\ \text{m}^3=\dfrac{8}{100}\times1000=80$ lít.
+Bài giải
 
-Vì $80>60$ nên bể thứ hai chứa nhiều hơn. Bể thứ hai chứa nhiều hơn bể thứ nhất $80-60=20$ lít.
+Đổi bể thứ hai ra lít, vì $1\ \text{m}^3=1000$ lít.
+
+Bể thứ hai chứa số lít nước là:
+$$0{,}08\ \text{m}^3=\frac{8}{100}\times1000=80\ (\text{lít})$$
+
+Vì $80>60$ nên bể thứ hai chứa nhiều nước hơn.
+
+Bể thứ hai chứa nhiều hơn bể thứ nhất số lít nước là:
+$$80-60=20\ (\text{lít})$$
+
+Vậy bể thứ hai chứa nhiều nước hơn, nhiều hơn $20$ lít.
 
 **Đáp số.** Bể thứ hai chứa nhiều hơn, hơn $20$ lít.
 :::
@@ -346,7 +421,17 @@ Một khối lập phương cạnh $1$ m được cắt thành các khối lập
 2. Đổi chiều dài hàng ra mét, rồi ra ki-lô-mét.
 
 ::solution
-Có $1\,000\,000$ khối nhỏ $1\ \text{cm}^3$. Hàng dài $1\,000\,000$ cm $=10\,000$ m $=10$ km.
+Bài giải
+
+Khối lập phương cạnh $1$ m $=100$ cm có thể tích $100\times100\times100=1\,000\,000\ (\text{cm}^3)$. Mỗi khối nhỏ có thể tích $1\ \text{cm}^3$.
+
+Số khối nhỏ là:
+$$1\,000\,000:1=1\,000\,000\ (\text{khối})$$
+
+Mỗi khối nhỏ dài $1$ cm nên hàng thẳng dài:
+$$1\,000\,000\ \text{cm}=10\,000\ \text{m}=10\ \text{km}$$
+
+Vậy hàng dài $10$ ki-lô-mét.
 
 **Đáp số.** $10$ km.
 :::

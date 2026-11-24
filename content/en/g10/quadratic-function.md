@@ -236,7 +236,19 @@ Find the vertex, the axis of symmetry and the points where the parabola $y=x^2-6
 2. Solve $x^2-6x+5=0$.
 
 ::solution
-$x_I=\dfrac{6}{2}=3$, $y_I=9-18+5=-4$. The equation $x^2-6x+5=(x-1)(x-5)=0$ gives $x=1$ or $x=5$.
+The parabola $y=x^2-6x+5$ has $a=1$, $b=-6$, $c=5$.
+
+The $x$-coordinate of the vertex is $x_I=-\dfrac{b}{2a}=-\dfrac{-6}{2\cdot1}=3$. Substituting $x=3$ into the function, we get
+$$y_I=3^2-6\cdot3+5=9-18+5=-4.$$
+
+Hence the vertex is $I(3, -4)$ and the axis of symmetry is the line $x=3$.
+
+Points on the $x$-axis: put $y=0$, which gives the equation $x^2-6x+5=0$. Factorising:
+$$x^2-6x+5=(x-1)(x-5)=0.$$
+
+Hence $x=1$ or $x=5$.
+
+So the parabola has vertex $I(3, -4)$, axis of symmetry $x=3$, and meets the $x$-axis at the two points $(1, 0)$ and $(5, 0)$.
 
 **Answer.** Vertex $(3, -4)$; axis $x=3$; meets the $x$-axis at $(1, 0)$ and $(5, 0)$.
 :::
@@ -252,7 +264,14 @@ Find the minimum value of $y=3x^2-12x+7$ and the value of $x$ where it occurs.
 2. Find the $x$-coordinate of the vertex and the value there.
 
 ::solution
-$a=3>0$, $x_I=\dfrac{12}{6}=2$ and $y(2)=12-24+7=-5$.
+The function $y=3x^2-12x+7$ has $a=3$, $b=-12$, $c=7$. Since $a=3>0$, the parabola opens upwards, so the function attains its minimum at the vertex.
+
+The $x$-coordinate of the vertex is $x_I=-\dfrac{b}{2a}=-\dfrac{-12}{2\cdot3}=2$.
+
+Substituting $x=2$ into the function, we get
+$$y(2)=3\cdot2^2-12\cdot2+7=12-24+7=-5.$$
+
+So the minimum value of the function is $-5$, attained at $x=2$.
 
 **Answer.** The minimum is $-5$, at $x=2$.
 :::
@@ -268,11 +287,18 @@ Draw the table of variations of $y=-x^2+4x$ and give its maximum.
 2. Fill in the table: $-\infty$ at both ends, the vertex value in the middle.
 
 ::solution
-$a=-1<0$, $x_I=2$, $y_I=-4+8=4$.
+The function $y=-x^2+4x$ has $a=-1$, $b=4$, $c=0$. Since $a=-1<0$, the parabola opens downwards: the function is increasing to the left of the vertex, decreasing to the right of it, and attains its maximum at the vertex.
+
+Coordinates of the vertex: $x_I=-\dfrac{b}{2a}=-\dfrac{4}{2\cdot(-1)}=2$ and
+$$y_I=-2^2+4\cdot2=-4+8=4.$$
+
+Since $a<0$, we have $y\to-\infty$ as $x\to-\infty$ and as $x\to+\infty$. The table of variations is:
 
 | $x$ | $-\infty$ | | $2$ | | $+\infty$ |
 |---|---|---|---|---|---|
 | $y$ | $-\infty$ | increasing | $4$ | decreasing | $-\infty$ |
+
+So the function is increasing on $(-\infty, 2)$, decreasing on $(2, +\infty)$, and its maximum is $4$ at $x=2$.
 
 **Answer.** Increasing on $(-\infty, 2)$, decreasing on $(2, +\infty)$; the maximum is $4$ at $x=2$.
 :::
@@ -288,7 +314,22 @@ Find the quadratic function whose graph passes through $A(0, 1)$, $B(1, 0)$ and 
 2. Substitute $B$, $C$ to get a system of two equations in $a$, $b$.
 
 ::solution
-$A$ gives $c=1$. $B$ gives $a+b+1=0$, and $C$ gives $4a+2b+1=3$, that is $2a+b=1$. Subtracting: $a=2$, so $b=-3$. Check $C$: $8-6+1=3$.
+Let the required quadratic function be $y=ax^2+bx+c$ with $a\neq0$.
+
+The graph passes through $A(0, 1)$, so $a\cdot0^2+b\cdot0+c=1$, which gives $c=1$.
+
+The graph passes through $B(1, 0)$, so $a+b+c=0$. Substituting $c=1$, we get $a+b=-1$.
+
+The graph passes through $C(2, 3)$, so $4a+2b+c=3$. Substituting $c=1$, we get $4a+2b=2$, that is $2a+b=1$.
+
+We obtain the system
+$$\begin{cases}a+b=-1\\2a+b=1.\end{cases}$$
+
+Subtracting the first equation from the second, we get $a=2$. Substituting into $a+b=-1$ gives $b=-3$. The value $a=2\neq0$ is acceptable.
+
+Check: $A$: $y(0)=1$; $B$: $y(1)=2-3+1=0$; $C$: $y(2)=8-6+1=3$.
+
+So the required function is $y=2x^2-3x+1$.
 
 **Answer.** $y=2x^2-3x+1$.
 :::
@@ -309,13 +350,19 @@ d) The graph meets the $y$-axis at $(0, 1)$.
 2. Substitute $x=0$ to find the point on the $y$-axis.
 
 ::solution
-a) **True.** $a=-2<0$.
+The function $y=-2x^2+4x+1$ has $a=-2$, $b=4$, $c=1$.
 
-b) **True.** $x_I=-\dfrac{4}{2\cdot(-2)}=1$ and $y_I=-2+4+1=3$.
+a) **True.** Since $a=-2<0$, the parabola opens downwards.
 
-c) **False.** Since $a<0$, the function is **decreasing** on $(1, +\infty)$.
+b) **True.** The $x$-coordinate of the vertex is $x_I=-\dfrac{4}{2\cdot(-2)}=1$, and the $y$-coordinate is
+$$y_I=-2\cdot1^2+4\cdot1+1=3.$$
+So the vertex of the parabola is $(1, 3)$.
 
-d) **True.** $x=0$ gives $y=1$.
+c) **False.** Since $a<0$, the function is increasing on $(-\infty, 1)$ and decreasing on $(1, +\infty)$. For instance $y(1)=3$ is greater than $y(2)=-2\cdot4+8+1=1$, so the function decreases as $x$ goes from $1$ to $2$.
+
+d) **True.** The graph meets the $y$-axis when $x=0$, and then $y=-2\cdot0^2+4\cdot0+1=1$. The intersection point is $(0, 1)$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -331,7 +378,17 @@ A ball is kicked up from the ground; its height after $t$ seconds is $h(t)=-5t^2
 2. Factorise $h(t)$ to solve $h(t)=0$.
 
 ::solution
-$t_I=-\dfrac{10}{2\cdot(-5)}=1$ and $h(1)=-5+10=5$. The equation $-5t(t-2)=0$ gives $t=0$ (the kick) or $t=2$.
+The height of the ball after $t$ seconds ($t\ge0$) is $h(t)=-5t^2+10t$ (metres).
+
+Greatest height: since $a=-5<0$, $h(t)$ attains its maximum at the vertex. We have
+$$t_I=-\frac{10}{2\cdot(-5)}=1,\qquad h(1)=-5\cdot1^2+10\cdot1=5.$$
+
+When the ball comes back to the ground: we solve $h(t)=0$, that is
+$$-5t^2+10t=-5t(t-2)=0.$$
+
+Hence $t=0$ or $t=2$. The value $t=0$ is the moment the ball is kicked, not the moment it returns; therefore $t=2$.
+
+So the greatest height of the ball is $5$ m, reached at $t=1$ second, and the ball is back on the ground at $t=2$ seconds.
 
 **Answer.** Greatest height $5$ m (at $t=1$ second); back on the ground at $t=2$ seconds.
 :::
@@ -347,8 +404,19 @@ A shop buys shirts at $50$ thousand dong each. If it sells them at $x$ thousand 
 2. Find the $x$-coordinate of the vertex and check that it lies in $[50, 150]$.
 
 ::solution
-$$P(x)=(x-50)(300-2x)=-2x^2+400x-15\,000,\qquad x_I=-\frac{400}{2\cdot(-2)}=100.$$
-The value $100$ lies in $[50, 150]$. The shop then sells $100$ shirts with a profit of $50$ thousand each, so $P(100)=5000$ thousand dong.
+Let $x$ (thousand dong) be the selling price of one shirt, $50\le x\le150$, and let $P(x)$ (thousand dong) be the monthly profit.
+
+Each shirt gives a profit of $x-50$ thousand dong, and $300-2x$ shirts are sold each month (for $x\le150$ we have $300-2x\ge0$). Therefore
+$$\begin{aligned}P(x)&=(x-50)(300-2x)\\&=300x-2x^2-15\,000+100x\\&=-2x^2+400x-15\,000.\end{aligned}$$
+
+This is a quadratic function with $a=-2<0$, so $P(x)$ attains its maximum at the vertex, where
+$$x_I=-\frac{400}{2\cdot(-2)}=100.$$
+
+The value $x=100$ lies in $[50, 150]$, so it satisfies the condition.
+
+Check: for $x=100$ the shop sells $300-2\cdot100=100$ shirts, with a profit of $100-50=50$ thousand dong on each, so $P(100)=100\cdot50=5000$ thousand dong.
+
+So the shop should sell a shirt for $100$ thousand dong to make the largest monthly profit, which is then $5000$ thousand dong.
 
 **Answer.** $100$.
 :::
@@ -364,7 +432,22 @@ The value $100$ lies in $[50, 150]$. The shop then sells $100$ shirts with a pro
 2. Compute $\overrightarrow{IA}\cdot\overrightarrow{IB}$, $IA$ and $IB$.
 
 ::solution
-$I(2, -1)$, $\overrightarrow{IA}=(-1, 1)$, $\overrightarrow{IB}=(1, 1)$. Then $\overrightarrow{IA}\cdot\overrightarrow{IB}=-1+1=0$ and $IA=IB=\sqrt2$.
+The parabola $y=x^2-4x+3$ has $a=1$, $b=-4$, $c=3$. The $x$-coordinate of the vertex is $x_I=-\dfrac{-4}{2\cdot1}=2$ and the $y$-coordinate is $y_I=2^2-4\cdot2+3=-1$. Hence $I(2, -1)$.
+
+With $A(1, 0)$ and $B(3, 0)$, we have
+$$\overrightarrow{IA}=(1-2, 0-(-1))=(-1, 1),\qquad \overrightarrow{IB}=(3-2, 0-(-1))=(1, 1).$$
+
+The scalar product of the two vectors is
+$$\overrightarrow{IA}\cdot\overrightarrow{IB}=(-1)\cdot1+1\cdot1=0.$$
+
+Hence $\overrightarrow{IA}\perp\overrightarrow{IB}$, that is, triangle $IAB$ has a right angle at $I$.
+
+The lengths of the two legs are
+$$IA=\sqrt{(-1)^2+1^2}=\sqrt2,\qquad IB=\sqrt{1^2+1^2}=\sqrt2.$$
+
+Therefore $IA=IB$.
+
+So triangle $IAB$ has a right angle at $I$ and $IA=IB$, hence it is a right-angled isosceles triangle with the right angle at $I$.
 
 **Answer.** Triangle $IAB$ has a right angle at $I$ and $IA=IB=\sqrt2$, so it is right-angled and isosceles at $I$.
 :::
@@ -380,9 +463,21 @@ A gate has the shape of a parabola, $8$ m wide at the ground and $6$ m high at t
 2. The lorry is in the middle, so the edges of its cargo box are at $x=\pm1.5$; find $y$ there.
 
 ::solution
-From $0=16a+6$ we get $a=-\dfrac38$. At $x=1.5$:
-$$y=-\frac38\cdot2.25+6=6-0.84375=5.15625.$$
-The cargo box must be lower than the gate at its two edges, that is lower than $5.15625$ m. Because this is an upper limit, we round **down**: at most about $5.15$ m.
+Choose a coordinate system $Oxy$ whose origin $O$ is the midpoint of the base of the gate on the ground, with the $x$-axis along the ground and the $y$-axis through the top of the gate (unit: metre).
+
+The gate is $8$ m wide at the ground, so its two feet have $x$-coordinates $\pm4$; the top of the gate is $6$ m high, so the vertex of the parabola is $(0, 6)$. Hence the parabola has the form $y=ax^2+6$ and passes through the point $(4, 0)$.
+
+Substituting $(4, 0)$ gives $0=16a+6$, so $a=-\dfrac38$. The gate therefore has equation
+$$y=-\frac38x^2+6,\qquad -4\le x\le4.$$
+
+The lorry is $3$ m wide and drives through the middle of the gate, so the two edges of its cargo box have $x$-coordinates $x=\pm1.5$. The height of the gate at these edges is
+$$y(1.5)=-\frac38\cdot1.5^2+6=-\frac38\cdot2.25+6=6-0.84375=5.15625.$$
+
+Since the parabola opens downwards, the gate gets lower as we move away from the $y$-axis; so within the width of the lorry the gate is lowest at the two edges. The cargo box must be lower than the gate at the two edges, that is lower than $5.15625$ m.
+
+This is an upper limit for the height of the cargo box, so we round down to $0.01$ m, getting $5.15$ m (rounding up to $5.16$ m would exceed the limit).
+
+So the cargo box must be lower than $5.15625$ m, that is at most about $5.15$ m, for the lorry to pass through the gate.
 
 **Answer.** Lower than $5.15625$ m, so at most about $5.15$ m.
 :::
@@ -398,9 +493,18 @@ Find $a$ and $b$ given that the parabola $y=ax^2+bx+2$ has vertex $I(2, -2)$.
 2. Substitute $x=2$, $y=-2$ into the function and solve.
 
 ::solution
-$b=-4a$. The vertex lies on the graph: $4a+2b+2=-2$, that is $4a-8a=-4$, so $a=1$ and $b=-4$.
+The parabola $y=ax^2+bx+2$ with $a\neq0$ has vertex $I(2, -2)$.
 
-**Check.** $y=x^2-4x+2=(x-2)^2-2$ has vertex $(2, -2)$.
+The $x$-coordinate of the vertex is $2$, so $-\dfrac{b}{2a}=2$, which gives $b=-4a$.
+
+The vertex $I(2, -2)$ lies on the graph, so $a\cdot2^2+b\cdot2+2=-2$, that is $4a+2b=-4$. Substituting $b=-4a$, we get
+$$4a-8a=-4,\ \text{that is}\ -4a=-4.$$
+
+Hence $a=1$ (which satisfies $a\neq0$) and $b=-4a=-4$.
+
+Check: for $a=1$, $b=-4$ we have $y=x^2-4x+2=(x-2)^2-2$, whose vertex is $(2, -2)$.
+
+So $a=1$ and $b=-4$.
 
 **Answer.** $a=1$, $b=-4$.
 :::

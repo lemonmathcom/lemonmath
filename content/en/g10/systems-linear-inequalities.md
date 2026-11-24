@@ -237,7 +237,15 @@ Which of $(2, 1)$, $(0, 0)$, $(5, 1)$ are solutions of the system $\begin{cases}
 2. Rule out any pair that makes at least one inequality false.
 
 ::solution
-$$(2, 1):\ 3\ge 2,\ 1\le 3\ \text{(true)};\quad (0, 0):\ 0\ge 2\ \text{(false)};\quad (5, 1):\ 6\ge 2,\ \text{but } 4\le 3\ \text{(false)}.$$
+A pair $(x, y)$ is a solution of the system when it satisfies both inequalities at the same time. We substitute the coordinates of each pair into $x+y\ge2$ and $x-y\le3$.
+
+For $(2, 1)$: $x+y=3\ge2$ (true) and $x-y=1\le3$ (true). Both inequalities hold.
+
+For $(0, 0)$: $x+y=0\ge2$ is false. This pair fails the first inequality.
+
+For $(5, 1)$: $x+y=6\ge2$ (true) but $x-y=4\le3$ is false. This pair fails the second inequality.
+
+So among the three given pairs, only $(2, 1)$ is a solution of the system.
 
 **Answer.** Only $(2, 1)$.
 :::
@@ -253,7 +261,14 @@ Does the system $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ have a solution?
 2. Ask whether that condition can happen.
 
 ::solution
-If $(x, y)$ were a solution, then $3\le x+y\le 1$, which is impossible because $3>1$. The boundary lines $x+y=1$ and $x+y=3$ are parallel, and the two half-planes lie on opposite sides without overlapping.
+Suppose the system has a solution $(x, y)$. Then $(x, y)$ satisfies both $x+y\le1$ and $x+y\ge3$, that is,
+$$3\le x+y\le1.$$
+
+This is impossible because $3>1$. Hence there is no pair $(x, y)$ satisfying both inequalities.
+
+Geometrically, the boundary lines $x+y=1$ and $x+y=3$ are parallel; the half-plane $x+y\le1$ and the half-plane $x+y\ge3$ lie on opposite sides of these lines, so they have no point in common.
+
+So the system has no solution (the solution region is empty).
 
 **Answer.** The system has no solution (the region is empty).
 :::
@@ -269,8 +284,14 @@ The solution region of the system $1\le x\le 4$, $0\le y\le 3$ is a rectangle. G
 2. Compute $F$ at the four vertices.
 
 ::solution
-The vertices $(1, 0)$, $(4, 0)$, $(4, 3)$, $(1, 3)$ give
-$$F=2,\quad 8,\quad 11,\quad 5.$$
+The solution region of $1\le x\le4$, $0\le y\le3$ is the rectangle bounded by the lines $x=1$, $x=4$, $y=0$, $y=3$. Its four vertices are $(1, 0)$, $(4, 0)$, $(4, 3)$, $(1, 3)$.
+
+A linear function $F=2x+y$ attains its maximum and minimum over a polygonal region at the vertices of the region. We evaluate $F$ at each vertex:
+$$\begin{aligned} F(1, 0)&=2\cdot1+0=2,\\ F(4, 0)&=2\cdot4+0=8,\\ F(4, 3)&=2\cdot4+3=11,\\ F(1, 3)&=2\cdot1+3=5. \end{aligned}$$
+
+Comparing the four values $2$, $8$, $11$, $5$, the largest is $11$ and the smallest is $2$.
+
+So $F$ has maximum $11$ at $(4, 3)$ and minimum $2$ at $(1, 0)$.
 
 **Answer.** Maximum $11$ at $(4, 3)$; minimum $2$ at $(1, 0)$.
 :::
@@ -287,8 +308,22 @@ Find the vertices of the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\
 3. Compute $F$ at the vertices.
 
 ::solution
-On the axes: $(0, 0)$, $(6, 0)$, $(0, 4)$. Subtract $x+y=6$ from $x+3y=12$: $2y=6$, $y=3$, $x=3$. The values of $F$:
-$$F(0, 0)=0,\quad F(6, 0)=30,\quad F(0, 4)=16,\quad F(3, 3)=27.$$
+The solution region of $x\ge0$, $y\ge0$, $x+y\le6$, $x+3y\le12$ is a polygon; we find its vertices.
+
+On the $x$-axis ($y=0$): the inequalities give $x\le6$ and $x\le12$, so $x\le6$. We get the vertices $(0, 0)$ and $(6, 0)$.
+
+On the $y$-axis ($x=0$): the inequalities give $y\le6$ and $3y\le12$, that is $y\le4$, so $y\le4$. We get the vertex $(0, 4)$.
+
+The intersection of the lines $x+y=6$ and $x+3y=12$: subtracting the first equation from the second gives $2y=6$, so $y=3$ and then $x=6-3=3$. The point $(3, 3)$ has $x\ge0$, $y\ge0$, so it is a vertex of the region.
+
+So the region is the quadrilateral with vertices $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$.
+
+The function $F=5x+4y$ attains its maximum at a vertex. We compute:
+$$F(0, 0)=0,\quad F(6, 0)=30,\quad F(0, 4)=16,\quad F(3, 3)=15+12=27.$$
+
+The largest of $0$, $30$, $16$, $27$ is $30$.
+
+So the vertices are $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$, and the maximum of $F$ is $30$, attained at $(6, 0)$.
 
 **Answer.** The vertices are $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$; the maximum of $F$ is $30$, at $(6, 0)$.
 :::
@@ -313,13 +348,19 @@ d) The minimum of $x-y$ over $D$ is $-2$.
 3. Compute $x+y$ and $x-y$ at every vertex.
 
 ::solution
-a) **False:** $y=5\le 4$ is false.
+First we find the vertices of the solution region $D$ of $x\ge0$, $y\ge0$, $2x+y\le8$, $y\le4$.
 
-b) **True:** the vertices are $(0, 0)$, $(4, 0)$, $(2, 4)$, $(0, 4)$; the vertex $(2, 4)$ comes from putting $y=4$ in $2x+y=8$.
+On the $x$-axis ($y=0$): $2x\le8$, so $x\le4$; we get the vertices $(0, 0)$ and $(4, 0)$. The line $y=4$ meets $2x+y=8$ where $2x+4=8$, that is $x=2$; we get the vertex $(2, 4)$. The line $y=4$ meets the $y$-axis at $(0, 4)$ (which satisfies $2\cdot0+4=4\le8$), the remaining vertex. So $D$ has four vertices $(0, 0)$, $(4, 0)$, $(2, 4)$, $(0, 4)$.
 
-c) **True:** $x+y$ at the four vertices is $0$, $4$, $6$, $4$; the largest is $6$.
+a) **False.** For the pair $(1, 5)$, the inequality $y\le4$ becomes $5\le4$, which is false. So $(1, 5)$ is not a solution of the system.
 
-d) **False:** $x-y$ at the four vertices is $0$, $4$, $-2$, $-4$; the smallest is $-4$ (at $(0, 4)$), not $-2$.
+b) **True.** As shown above, $D$ has four vertices $(0, 0)$, $(4, 0)$, $(2, 4)$, $(0, 4)$, so it is a quadrilateral; the vertex $(2, 4)$ comes from putting $y=4$ in $2x+y=8$.
+
+c) **True.** The maximum of $x+y$ is attained at a vertex. At the four vertices, $x+y$ equals $0$, $4$, $6$, $4$; the largest is $6$.
+
+d) **False.** The minimum of $x-y$ is also attained at a vertex. At the four vertices, $x-y$ equals $0$, $4$, $-2$, $-4$; the smallest is $-4$ (at $(0, 4)$), not $-2$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -336,9 +377,19 @@ The club's food stall sells $x$ sandwiches and $y$ cups of juice per day. Prepar
 3. Compute $F=4x+3y$ at each vertex.
 
 ::solution
-The vertices $(0, 0)$, $(20, 0)$, $(20, 10)$, $(10, 20)$, $(0, 20)$ give
-$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
-The largest profit comes from $20$ sandwiches and $10$ cups of juice.
+Let $x$ be the number of sandwiches and $y$ the number of cups of juice sold in a day. The constraints are
+$$x\ge0,\quad y\ge0,\quad x\le20,\quad y\le20,\quad x+y\le30.$$
+
+The daily profit (in thousand dong) is $F=4x+3y$. We need the maximum of $F$ over the solution region of this system.
+
+The region is the pentagon with vertices $(0, 0)$, $(20, 0)$, $(20, 10)$, $(10, 20)$, $(0, 20)$. Here $(20, 10)$ is the intersection of $x=20$ with $x+y=30$, and $(10, 20)$ is the intersection of $y=20$ with $x+y=30$.
+
+The values of $F$ at the vertices:
+$$\begin{aligned} F(0, 0)&=0,\\ F(20, 0)&=4\cdot20=80,\\ F(20, 10)&=4\cdot20+3\cdot10=110,\\ F(10, 20)&=4\cdot10+3\cdot20=100,\\ F(0, 20)&=3\cdot20=60. \end{aligned}$$
+
+The largest value is $110$, attained at $(20, 10)$. These coordinates are whole numbers, so this plan is achievable.
+
+So the largest daily profit is $110$ thousand dong, obtained by selling $20$ sandwiches and $10$ cups of juice.
 
 **Answer.** $110$.
 :::
@@ -355,8 +406,19 @@ Mr Hung has $8$ hectares of land for maize and beans, and $30$ million dong to s
 3. Compute the profit $F=4x+3y$ at each vertex.
 
 ::solution
-On the axes: $(0, 0)$, $(6, 0)$, $(0, 8)$. Substitute $y=8-x$ into $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. The values of $F$:
+Let $x$ (ha) be the area planted with maize and $y$ (ha) the area planted with beans. The constraints are
+$$x\ge0,\quad y\ge0,\quad x+y\le8\ \text{(land)},\quad 5x+3y\le30\ \text{(money, million dong)}.$$
+
+The profit (in million dong) is $F=4x+3y$. We need the maximum of $F$ over the solution region.
+
+We find the vertices of the region. On the $x$-axis ($y=0$): $x\le8$ and $5x\le30$, so $x\le6$; we get the vertices $(0, 0)$ and $(6, 0)$. On the $y$-axis ($x=0$): $y\le8$ and $3y\le30$, so $y\le8$; we get the vertex $(0, 8)$. The intersection of $x+y=8$ and $5x+3y=30$: substituting $y=8-x$ into the second equation gives $5x+3(8-x)=30$, that is $2x+24=30$, so $x=3$ and $y=5$. Hence the region is the quadrilateral with vertices $(0, 0)$, $(6, 0)$, $(3, 5)$, $(0, 8)$.
+
+The values of $F$ at the vertices:
 $$F(0, 0)=0,\quad F(6, 0)=24,\quad F(0, 8)=24,\quad F(3, 5)=12+15=27.$$
+
+The largest value is $27$, attained at $(3, 5)$.
+
+So Mr Hung should plant $3$ hectares of maize and $5$ hectares of beans, and the largest profit is $27$ million dong.
 
 **Answer.** Plant $3$ hectares of maize and $5$ hectares of beans, for the largest profit of $27$ million dong.
 :::
@@ -373,9 +435,17 @@ Write a system of linear inequalities in two variables whose solution region is 
 3. Test the origin to choose the sign.
 
 ::solution
-The two sides on the axes give $x\ge 0$, $y\ge 0$. The line through $(4, 0)$ and $(0, 2)$ is $\dfrac{x}{4}+\dfrac{y}{2}=1$, that is $x+2y=4$; the origin gives $0\le 4$.
+The required solution region is the triangle $OAB$ with $O(0, 0)$, $A(4, 0)$, $B(0, 2)$, sides included. We write the inequality for each side.
 
-**Answer.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+Side $OA$ lies on the $x$-axis ($y=0$) and side $OB$ lies on the $y$-axis ($x=0$). The triangle lies on the side where $x$ and $y$ are non-negative, so we have $x\ge0$ and $y\ge0$.
+
+Side $AB$ lies on the line through $A(4, 0)$ and $B(0, 2)$. In intercept form its equation is $\dfrac{x}{4}+\dfrac{y}{2}=1$, that is $x+2y=4$.
+
+The origin $O(0, 0)$ lies in the triangle and satisfies $0+2\cdot0=0\le4$, so the half-plane containing the triangle is $x+2y\le4$.
+
+So the required system is $\begin{cases} x\ge0\\ y\ge0\\ x+2y\le4. \end{cases}$
+
+**Answer.** $\begin{cases} x\ge0\\ y\ge0\\ x+2y\le4 \end{cases}$
 :::
 
 :::exercise Challenge
@@ -389,8 +459,14 @@ Over the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 
 2. Compute $x-y$ at each vertex.
 
 ::solution
-The vertices $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$ give
-$$F=0,\quad 6,\quad 0,\quad -4.$$
+The solution region of $x\ge0$, $y\ge0$, $x+y\le6$, $x+3y\le12$ is the quadrilateral with vertices $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$. (The vertices $(6, 0)$ and $(0, 4)$ lie on the axes; the vertex $(3, 3)$ is the intersection of $x+y=6$ and $x+3y=12$.)
+
+The linear function $F=x-y$ attains its maximum and minimum over this region at the vertices. We compute:
+$$F(0, 0)=0,\quad F(6, 0)=6,\quad F(3, 3)=0,\quad F(0, 4)=-4.$$
+
+Comparing $0$, $6$, $0$, $-4$, the largest value is $6$ and the smallest is $-4$.
+
+So $F$ has maximum $6$ at $(6, 0)$ and minimum $-4$ at $(0, 4)$.
 
 **Answer.** Maximum $6$ at $(6, 0)$; minimum $-4$ at $(0, 4)$.
 :::
@@ -406,7 +482,17 @@ $$F=0,\quad 6,\quad 0,\quad -4.$$
 2. Combine the two results to choose the set.
 
 ::solution
-$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{false} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{false},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{false},\ -5\ge 0\ \text{false} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+A point belongs to $D_1$ when its coordinates satisfy $x+y\le4$, and to $D_2$ when they satisfy $x-y\ge0$. We substitute the coordinates of each point into both inequalities.
+
+For $A(1, 1)$: $x+y=2\le4$ (true) and $x-y=0\ge0$ (true). So $A\in D_1$ and $A\in D_2$, that is $A\in D_1\cap D_2$.
+
+For $B(1, 2)$: $x+y=3\le4$ (true) and $x-y=-1\ge0$ (false). So $B\in D_1$ but $B\notin D_2$, that is $B\in D_1\setminus D_2$.
+
+For $C(3, 2)$: $x+y=5\le4$ (false) and $x-y=1\ge0$ (true). So $C\in D_2$ but $C\notin D_1$, that is $C\in D_2\setminus D_1$.
+
+For $E(0, 5)$: $x+y=5\le4$ (false) and $x-y=-5\ge0$ (false). So $E$ lies in neither $D_1$ nor $D_2$, that is $E\notin D_1\cup D_2$.
+
+So $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
 
 **Answer.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
 :::

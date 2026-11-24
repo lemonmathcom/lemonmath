@@ -274,7 +274,16 @@ Rhombus $ABCD$ has side $13$ cm and diagonal $BD=10$ cm. Find the diagonal $AC$.
 2. Find $OA$ by Pythagoras' theorem, then $AC=2OA$.
 
 ::solution
-We have $OB=5$ cm. In the right-angled triangle $OAB$: $OA^2=AB^2-OB^2=169-25=144$, so $OA=12$ cm. Hence $AC=2\cdot12=24$ cm.
+Let $O$ be the intersection of the diagonals $AC$ and $BD$ of the rhombus $ABCD$. In a rhombus the diagonals are perpendicular and bisect each other. Hence triangle $OAB$ is right-angled at $O$ and $OB=\dfrac{BD}{2}$.
+
+We have $OB=\dfrac{10}{2}=5$ cm.
+
+Applying Pythagoras' theorem in the right-angled triangle $OAB$, we get
+$$OA^2=AB^2-OB^2=13^2-5^2=169-25=144.$$
+
+So $OA=12$ cm (since $OA>0$).
+
+Since $O$ is the midpoint of $AC$, we have $AC=2\cdot OA=2\cdot12=24$ cm.
 
 So $AC=24$ cm.
 
@@ -310,9 +319,17 @@ In parallelogram $ABCD$ the diagonal $AC$ bisects $\angle A$. Prove that $ABCD$ 
 2. Deduce that $BA=BC$.
 
 ::solution
-Since $AC$ bisects $\angle A$, we have $\angle BAC=\angle CAD$. Since $AD\parallel BC$, we have $\angle CAD=\angle ACB$ (alternate angles). Hence $\angle BAC=\angle ACB$, so triangle $ABC$ is isosceles at $B$; that is, $BA=BC$.
+Since $AC$ bisects $\angle A$, we have
+$$\angle BAC=\angle CAD.$$
 
-Parallelogram $ABCD$ has equal adjacent sides $BA$ and $BC$, so it is a rhombus.
+Since $ABCD$ is a parallelogram, $AD\parallel BC$. The angles $\angle CAD$ and $\angle ACB$ are alternate angles formed by the parallel lines $AD$, $BC$ and the transversal $AC$, so
+$$\angle CAD=\angle ACB.$$
+
+From the two equalities above, $\angle BAC=\angle ACB$. Triangle $ABC$ has two equal angles $\angle BAC$ and $\angle ACB$, so it is isosceles at $B$; that is, $BA=BC$.
+
+The parallelogram $ABCD$ has equal adjacent sides $BA$ and $BC$, so by the recognition criterion, $ABCD$ is a rhombus.
+
+So a parallelogram $ABCD$ whose diagonal $AC$ bisects $\angle A$ is a rhombus.
 
 **Answer.** $ABCD$ is a rhombus.
 :::
@@ -328,7 +345,12 @@ Square $ABCD$ has side $8$ cm. Find the diagonal $AC$ (round to two decimal plac
 2. Take the square root and round.
 
 ::solution
-We have $AC^2=8^2+8^2=128$, so $AC=\sqrt{128}=8\sqrt2\approx11.31$ (cm).
+The square $ABCD$ has $\angle B=90^\circ$ and $AB=BC=8$ cm. Consider triangle $ABC$, right-angled at $B$; the diagonal $AC$ is its hypotenuse.
+
+Applying Pythagoras' theorem, we have
+$$AC^2=AB^2+BC^2=8^2+8^2=128.$$
+
+Hence $AC=\sqrt{128}=8\sqrt2\approx11.31$ (cm), rounded to two decimal places.
 
 So $AC\approx11.31$ cm.
 

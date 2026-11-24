@@ -156,13 +156,17 @@ Use a calculator to work out: a) $25.6\times4.5$; b) $3456.78+1234.56$; c) $9000
 2. Estimate to check the result.
 
 ::solution
-a) $25.6\times4.5=115.2$ (estimate: $26\times4.5\approx117$).
+We use the calculator, then estimate to check whether each result is reasonable.
 
-b) $3456.78+1234.56=4691.34$ (estimate: $3500+1200=4700$).
+a) The calculator gives $25.6\times4.5=115.2$. Estimate: $26\times4.5\approx117$, which is close to $115.2$, so it is reasonable.
 
-c) $9000-2718.45=6281.55$ (estimate: $9000-2700=6300$).
+b) The calculator gives $3456.78+1234.56=4691.34$. Estimate: $3500+1200=4700$, which is close to $4691.34$, so it is reasonable.
 
-d) $78.4\div1.6=49$ (estimate: $80\div2=40$, and $1.6<2$, so the result is a little more than $40$).
+c) The calculator gives $9000-2718.45=6281.55$. Estimate: $9000-2700=6300$, which is close to $6281.55$, so it is reasonable.
+
+d) The calculator gives $78.4\div1.6=49$. Estimate: $80\div2=40$; since the divisor $1.6<2$, the quotient is a little more than $40$, and $49$ is reasonable.
+
+So the four results are $115.2$; $4691.34$; $6281.55$; $49$.
 
 **Answer.** a) $115.2$; b) $4691.34$; c) $6281.55$; d) $49$.
 :::
@@ -178,9 +182,15 @@ Estimate, then use a calculator to work out $48.7\times9.8$. Is the calculator's
 2. Multiply the two round numbers, then compare with the calculator's result.
 
 ::solution
-Estimate: $50\times10=500$. Using a calculator: $48.7\times9.8=477.26$.
+Estimate by rounding the factors: $48.7\approx50$ and $9.8\approx10$, so
+$$48.7\times9.8\approx50\times10=500.$$
 
-The result $477.26$ is close to $500$, so it is reasonable.
+Using a calculator, we get
+$$48.7\times9.8=477.26.$$
+
+The result $477.26$ is close to the estimate $500$, so the calculator's result is reasonable.
+
+So $48.7\times9.8=477.26$ and the calculator's result is reasonable.
 
 **Answer.** $477.26$.
 :::
@@ -196,9 +206,11 @@ Use a calculator, then round: a) $23\div7$, rounded to two decimal places; b) $1
 2. Round from the full result shown on the display.
 
 ::solution
-a) $23\div7=3.2857142\ldots$ The thousandths digit is $5$, so rounding gives $3.29$.
+a) The calculator gives $23\div7=3.2857142\ldots$ To round to two decimal places, we keep two digits after the decimal point and look at the thousandths digit. The thousandths digit is $5$, and $5\ge5$, so we add $1$ to the hundredths digit: $3.28\to3.29$.
 
-b) $100\div3=33.333\ldots$ The hundredths digit is $3<5$, so rounding gives $33.3$.
+b) The calculator gives $100\div3=33.333\ldots$ To round to one decimal place, we keep one digit after the decimal point and look at the hundredths digit. The hundredths digit is $3<5$, so we keep the tenths digit unchanged: $33.3$.
+
+So $23\div7\approx3.29$ and $100\div3\approx33.3$.
 
 **Answer.** a) $3.29$; b) $33.3$.
 :::
@@ -214,10 +226,14 @@ Suppose $1$ m of wire costs $12\,750$ dong. How much does $6.4$ m of this wire c
 2. Use a calculator to multiply, then estimate to check. Remember the unit.
 
 ::solution
-The cost of the wire is:
+Solution
+
+The cost equals the price of $1$ m multiplied by the number of metres. The cost of $6.4$ m of wire is:
 $$12\,750\times6.4=81\,600\ \text{(dong)}.$$
 
-**Check.** Estimate: $13\,000\times6=78\,000$, close to $81\,600$. Reasonable.
+Check: the estimate $13\,000\times6=78\,000$ is close to $81\,600$, so the result is reasonable.
+
+So $6.4$ m of wire costs $81\,600$ dong.
 
 **Answer.** $81\,600$ dong.
 :::
@@ -233,7 +249,10 @@ Suppose a library has $1250$ books, of which $325$ are comics. What percentage o
 2. Multiply the result by $100$.
 
 ::solution
-We have $325\div1250=0.26$ and $0.26\times100=26$.
+Solution
+
+To find the percentage of comics, we divide the number of comics by the total number of books, then multiply by $100$. We have
+$$325\div1250=0.26\quad\text{and}\quad0.26\times100=26.$$
 
 So comics make up $26\%$ of the library's books.
 
@@ -251,9 +270,15 @@ A bicycle wheel has diameter $0.65$ m. How many metres does the wheel travel in 
 2. Multiply the circumference by $100$.
 
 ::solution
-The circumference of the wheel is $0.65\times3.14=2.041$ (m). In one turn the wheel travels $2.041$ m.
+Solution
 
-In $100$ turns the wheel travels $2.041\times100=204.1$ (m).
+In each turn, the wheel travels a distance equal to its circumference. The circumference of the wheel is:
+$$0.65\times3.14=2.041\ \text{(m)}.$$
+
+The distance the wheel travels in $100$ turns is:
+$$2.041\times100=204.1\ \text{(m)}.$$
+
+So the wheel travels $2.041$ m in one turn and $204.1$ m in $100$ turns.
 
 **Answer.** $2.041$ m in one turn; $204.1$ m in $100$ turns.
 :::
@@ -269,9 +294,12 @@ Remember the lesson on multiplying and dividing decimals by $10$; $100$; $1000$.
 2. Compare the position of the decimal point before and after.
 
 ::solution
-Using a calculator: $3.48\times100=348$ and $56.7\div1000=0.0567$.
+Using a calculator, we get
+$$3.48\times100=348\quad\text{and}\quad56.7\div1000=0.0567.$$
 
-Multiplying by $100$: the decimal point moves two places to the right. Dividing by $1000$: the decimal point moves three places to the left.
+Observation. When $3.48$ is multiplied by $100$, the decimal point moves two places to the right (there are two zeros in $100$). When $56.7$ is divided by $1000$, the decimal point moves three places to the left (there are three zeros in $1000$), and we add the zeros needed at the front.
+
+So $3.48\times100=348$ and $56.7\div1000=0.0567$.
 
 **Answer.** $348$ and $0.0567$.
 :::
@@ -287,7 +315,13 @@ You use a calculator to work out $36\div0.4$ and the display shows $90$. An thin
 2. Compare $0.4$ with $0.5$ to decide whether the quotient is greater or less than the estimate.
 
 ::solution
-No, I do not agree. Estimate: $36\div0.5=72$. Since $0.4<0.5$, the value of $36\div0.4$ must be greater than $72$, and $90$ is reasonable. Dividing by a number less than $1$ gives a quotient greater than the dividend.
+Using a calculator, we get $36\div0.4=90$, which is greater than the dividend $36$. We estimate to check.
+
+We have $36\div0.5=72$. Since $0.4<0.5$, the value of $36\div0.4$ must be greater than $72$. So $90$ is a reasonable result.
+
+Dividing by a number less than $1$ gives a quotient greater than the dividend. So a division whose result is greater than the dividend is not necessarily a wrong key press.
+
+So I do not agree with An: the calculator is right and An is mistaken.
 
 **Answer.** The calculator is right and An is mistaken.
 :::
@@ -303,9 +337,14 @@ Use a calculator to work out $1\div7$. How do the digits after the decimal point
 2. Divide $20$ by the number of digits in the group to see where the $20$th digit falls in the group.
 
 ::solution
-The display shows $0.142857142857\ldots$ The group $142857$ ($6$ digits) repeats for ever.
+Using a calculator, the display shows
+$$1\div7=0.142857142857\ldots$$
 
-Since $20=3\times6+2$, the $20$th digit is the second digit of the group, which is $4$.
+We see that the group of six digits $142857$ repeats for ever after the decimal point.
+
+We divide the position of the digit by $6$: $20=3\times6+2$. So the first $18$ digits are $3$ complete groups $142857$, and the $20$th digit is the second digit of the next group. The second digit of the group $142857$ is $4$.
+
+So the $20$th digit after the decimal point is $4$.
 
 **Answer.** The $20$th digit is $4$.
 :::

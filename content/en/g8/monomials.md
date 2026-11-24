@@ -203,7 +203,21 @@ Of the expressions $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$
 2. See whether any variable is in a denominator.
 
 ::solution
-$x-2y$ contains a subtraction, so it is not a monomial. $\dfrac{5}{x}$ has a variable in the denominator, so it is not a monomial. The other expressions are all numbers, variables or products of numbers and variables.
+A monomial is an algebraic expression consisting only of a number, or a variable, or a product of numbers and variables (including powers of variables with natural-number exponents).
+
+The expression $-3$ is a number, so it is a monomial.
+
+The expression $x^2y$ is a product of variables, so it is a monomial.
+
+The expression $x-2y$ contains a subtraction, so it is not a monomial.
+
+The expression $\dfrac{5}{x}$ has a variable in the denominator, so it is not a monomial.
+
+The expression $\dfrac23ab$ is a product of a number and variables, so it is a monomial.
+
+The expression $y^3$ is a power of a variable, so it is a monomial.
+
+So the monomials are $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
 
 **Answer.** $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
 :::
@@ -224,9 +238,17 @@ b) $\dfrac12x^2\cdot6y\cdot x$.
 3. Add the exponents to find the degree.
 
 ::solution
-a) $5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot x^2y^2=-10x^2y^2$. Coefficient $-10$, degree $2+2=4$.
+To simplify a monomial, we multiply the coefficients together and multiply powers of the same variable using $x^m\cdot x^n=x^{m+n}$. The degree of a monomial is the sum of the exponents of its variables.
 
-b) $\dfrac12x^2\cdot6y\cdot x=\left(\dfrac12\cdot6\right)\cdot x^3y=3x^3y$. Coefficient $3$, degree $3+1=4$.
+a) We have
+$$5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot(x\cdot x)\cdot y^2=-10x^2y^2.$$
+The coefficient is $-10$; the degree is $2+2=4$.
+
+b) We have
+$$\frac12x^2\cdot6y\cdot x=\left(\frac12\cdot6\right)\cdot(x^2\cdot x)\cdot y=3x^3y.$$
+The coefficient is $3$; the degree is $3+1=4$.
+
+So a) the simplified monomial is $-10x^2y^2$, coefficient $-10$, degree $4$; b) the simplified monomial is $3x^3y$, coefficient $3$, degree $4$.
 
 **Answer.** a) $-10x^2y^2$, coefficient $-10$, degree $4$; b) $3x^3y$, coefficient $3$, degree $4$.
 :::
@@ -246,9 +268,15 @@ b) $9x^3y-4x^3y-x^3y$.
 2. Work out the algebraic sum of the coefficients.
 
 ::solution
-a) $(6-2+1)xy^2=5xy^2$.
+The monomials in each part are like monomials (same variable part), so we add or subtract the coefficients and keep the variable part.
 
-b) $(9-4-1)x^3y=4x^3y$.
+a) We have
+$$6xy^2+(-2xy^2)+xy^2=(6-2+1)xy^2=5xy^2.$$
+
+b) We have
+$$9x^3y-4x^3y-x^3y=(9-4-1)x^3y=4x^3y.$$
+
+So a) the result is $5xy^2$; b) the result is $4x^3y$.
 
 **Answer.** a) $5xy^2$; b) $4x^3y$.
 :::
@@ -268,9 +296,16 @@ b) Write $x^3\cdot x^4$ as a single power of $x$.
 2. In part a), work out $2^7$.
 
 ::solution
-a) $2^3\cdot2^4=2^{3+4}=2^7=128$. (Check: $8\cdot16=128$.)
+We apply the rule for multiplying powers with the same base: $x^m\cdot x^n=x^{m+n}$.
 
-b) $x^3\cdot x^4=x^{3+4}=x^7$.
+a) We have
+$$2^3\cdot2^4=2^{3+4}=2^7=128.$$
+Check: $2^3\cdot2^4=8\cdot16=128$.
+
+b) We have
+$$x^3\cdot x^4=x^{3+4}=x^7.$$
+
+So a) $2^3\cdot2^4=2^7=128$; b) $x^3\cdot x^4=x^7$.
 
 **Answer.** a) $2^7=128$; b) $x^7$.
 :::
@@ -293,11 +328,15 @@ c) its degree.
 3. Add the exponents $3$, $1$, $2$.
 
 ::solution
-a) The coefficient is $-4$.
+The monomial $-4x^3yz^2$ is already simplified: it is a number (the coefficient) times powers of distinct variables.
 
-b) The variable part is $x^3yz^2$.
+a) The coefficient is the number in front of the variables, that is $-4$.
 
-c) The degree is $3+1+2=6$.
+b) The variable part consists of the variables with their exponents, that is $x^3yz^2$.
+
+c) The degree is the sum of the exponents of the variables: $3+1+2=6$ (the variable $y$ has exponent $1$).
+
+So the coefficient is $-4$, the variable part is $x^3yz^2$ and the degree is $6$.
 
 **Answer.** a) $-4$; b) $x^3yz^2$; c) $6$.
 :::
@@ -319,11 +358,15 @@ c) $4ab$ and $ba$.
 2. Remember that the order of the factors can be changed.
 
 ::solution
-a) Yes: they have the same variable part $x^2y$, and the coefficients $3$ and $-5$ are non-zero.
+Two monomials are called like monomials if their coefficients are non-zero and they have the same variable part.
 
-b) No: the variable parts are $xy$ and $xy^2$, which are different.
+a) The monomials $3x^2y$ and $-5x^2y$ have non-zero coefficients $3$ and $-5$, and the same variable part $x^2y$. Hence they are like monomials.
 
-c) Yes: $ba=ab$ has coefficient $1$ and the same variable part $ab$ as $4ab$.
+b) The monomials $2xy$ and $2xy^2$ have variable parts $xy$ and $xy^2$, which are different. Hence they are not like monomials.
+
+c) We have $ba=ab$, a monomial with coefficient $1\neq0$ and variable part $ab$, the same as that of $4ab$ (coefficient $4\neq0$). Hence they are like monomials.
+
+So the pairs in a) and c) are like monomials; the pair in b) is not.
 
 **Answer.** a) yes; b) no; c) yes.
 :::
@@ -345,11 +388,18 @@ c) The degree of the monomial $5x^3y$ is $3$.
 2. Check by replacing $x$ with $2$.
 
 ::solution
-a) The mistake is in the variable part: when adding, only the coefficients are added. Right: $4x^2+3x^2=7x^2$ (try $x=2$: $16+12=28=7\cdot4$).
+We check each step of Ha's work against the rules for monomials.
 
-b) The mistake is in the exponent: $x\cdot x^2=x^3$. Right: $(-2x)(3x^2)=-6x^3$.
+a) Rule: when adding like monomials, we add the coefficients and keep the variable part. Ha made a mistake in the variable part (writing $x^4$). The correct work is
+$$4x^2+3x^2=(4+3)x^2=7x^2.$$
+Try $x=2$: $4\cdot4+3\cdot4=16+12=28$ and $7\cdot4=28$.
 
-c) Wrong because Ha forgot the exponent of $y$: $3+1=4$.
+b) Rule: when multiplying powers with the same base, we add the exponents. Ha made a mistake in the exponent, because $x\cdot x^2=x^{1+2}=x^3$. The correct work is
+$$(-2x)\cdot(3x^2)=(-2\cdot3)\cdot x^3=-6x^3.$$
+
+c) The degree of a monomial is the sum of the exponents of its variables. Ha forgot the exponent of $y$ (which is $1$). The correct work is that the degree of $5x^3y$ is $3+1=4$.
+
+So Ha made a mistake in all three parts; the correct results are a) $7x^2$; b) $-6x^3$; c) degree $4$.
 
 **Answer.** a) $7x^2$; b) $-6x^3$; c) degree $4$.
 :::
@@ -370,9 +420,16 @@ b) Find the area when $x=5$.
 3. Substitute $x=5$ and write the unit.
 
 ::solution
-a) The area is $3x\cdot2x=(3\cdot2)\cdot x^{1+1}=6x^2$ (m²). Its degree is $2$.
+The rectangular playground is $3x$ m long and $2x$ m wide (with $x>0$).
 
-b) When $x=5$: $6\cdot5^2=6\cdot25=150$ (m²).
+a) The area equals length times width, so
+$$S=3x\cdot2x=(3\cdot2)\cdot(x\cdot x)=6x^{1+1}=6x^2\ (\text{m}^2).$$
+The monomial $6x^2$ has degree $2$.
+
+b) Substituting $x=5$ into $S=6x^2$, we get
+$$S=6\cdot5^2=6\cdot25=150\ (\text{m}^2).$$
+
+So a) the area of the playground is $6x^2$ m$^2$ and the monomial has degree $2$; b) when $x=5$ the area is $150$ m$^2$.
 
 **Answer.** a) $6x^2$ m², degree $2$; b) $150$ m².
 :::

@@ -142,7 +142,12 @@ Có 8 cái kẹo chia đều cho 2 bạn. Mỗi bạn được mấy cái kẹo?
 2. Viết phép chia.
 
 ::solution
-Ta có $2\times4=8$ nên $8:2=4$.
+Bài giải
+
+Chia đều $8$ cái kẹo cho $2$ bạn nên em làm phép chia. Ta có $2\times4=8$ nên số kẹo mỗi bạn được là:
+$$8:2=4\ \text{(cái)}$$
+
+Vậy mỗi bạn được $4$ cái kẹo.
 
 **Đáp số.** Mỗi bạn được 4 cái kẹo.
 :::
@@ -158,7 +163,12 @@ Xếp 15 quả táo vào các đĩa, mỗi đĩa 5 quả. Xếp được mấy �
 2. Dựa vào bảng nhân 5.
 
 ::solution
-Ta có $5\times3=15$ nên $15:5=3$.
+Bài giải
+
+Xếp $15$ quả táo vào các đĩa, mỗi đĩa $5$ quả, nên em làm phép chia. Ta có $5\times3=15$ nên số đĩa xếp được là:
+$$15:5=3\ \text{(đĩa)}$$
+
+Vậy xếp được $3$ đĩa.
 
 **Đáp số.** 3 đĩa.
 :::
@@ -174,8 +184,15 @@ Biết $2\times4=8$. Viết hai phép chia tương ứng.
 2. Lấy tích chia cho từng thừa số.
 
 ::solution
-Lấy tích 8 chia cho từng thừa số:
-$$8:2=4,\qquad 8:4=2.$$
+Từ một phép nhân, em lập được hai phép chia bằng cách lấy tích chia cho từng thừa số.
+
+Lấy tích $8$ chia cho thừa số $2$:
+$$8:2=4.$$
+
+Lấy tích $8$ chia cho thừa số $4$:
+$$8:4=2.$$
+
+Vậy hai phép chia tương ứng là $8:2=4$ và $8:4=2$.
 
 **Đáp số.** $8:2=4$ và $8:4=2$.
 :::
@@ -191,7 +208,15 @@ Gọi tên các số trong phép chia $20:5=4$.
 2. Số nào là kết quả?
 
 ::solution
-$20$ là số bị chia, $5$ là số chia, $4$ là thương.
+Trong phép chia, số đứng đầu là số bị chia, số đứng sau dấu chia là số chia, kết quả là thương.
+
+Trong phép chia $20:5=4$:
+
+- $20$ là số bị chia;
+- $5$ là số chia;
+- $4$ là thương.
+
+Vậy số bị chia là $20$, số chia là $5$ và thương là $4$.
 
 **Đáp số.** Số bị chia 20; số chia 5; thương 4.
 :::
@@ -215,13 +240,17 @@ d) $14:2$
 2. Số nào nhân với số chia được số bị chia?
 
 ::solution
-a) $2\times5=10$ nên $10:2=5$.
+Em dùng bảng nhân để tìm thương.
 
-b) $5\times4=20$ nên $20:5=4$.
+a) Ta có $2\times5=10$ nên $10:2=5$.
 
-c) $2\times6=12$ nên $12:2=6$.
+b) Ta có $5\times4=20$ nên $20:5=4$.
 
-d) $2\times7=14$ nên $14:2=7$.
+c) Ta có $2\times6=12$ nên $12:2=6$.
+
+d) Ta có $2\times7=14$ nên $14:2=7$.
+
+Vậy $10:2=5$; $20:5=4$; $12:2=6$; $14:2=7$.
 
 **Đáp số.** a) 5; b) 4; c) 6; d) 7.
 :::
@@ -241,8 +270,13 @@ Giả sử có 18 quyển truyện chia đều cho 2 bạn. Hỏi mỗi bạn đ
 Bài giải
 
 Mỗi bạn được số quyển truyện là:
-$$18:2=9\ \text{(quyển)}.$$
-Đáp số: 9 quyển truyện.
+$$18:2=9\ \text{(quyển)}$$
+
+Kiểm tra: $2\times9=18$ (quyển), đúng.
+
+Vậy mỗi bạn được $9$ quyển truyện.
+
+**Đáp số.** 9 quyển truyện.
 :::
 
 :::exercise
@@ -260,9 +294,15 @@ b) Số bút ấy chia đều vào 3 hộp thì mỗi hộp có bao nhiêu cái 
 2. Câu b: dùng phép chia, so sánh với đề bài.
 
 ::solution
-a) Có tất cả số cái bút là $5\times3=15$ (cái).
+Bài giải
 
-b) Mỗi hộp có số cái bút là $15:3=5$ (cái).
+a) Có $3$ hộp, mỗi hộp có $5$ cái bút nên số cái bút có tất cả là:
+$$5\times3=15\ \text{(cái)}$$
+
+b) Chia đều $15$ cái bút vào $3$ hộp thì số cái bút mỗi hộp có là:
+$$15:3=5\ \text{(cái)}$$
+
+Vậy có tất cả $15$ cái bút và mỗi hộp có $5$ cái bút.
 
 **Đáp số.** a) 15 cái bút; b) 5 cái bút.
 :::
@@ -278,9 +318,13 @@ Một phép chia có số bị chia là 16 và thương là 8. Số chia là bao
 2. Kiểm tra bằng phép chia.
 
 ::solution
-Ta có $2\times8=16$ nên số chia là 2.
+Trong phép chia, số chia bằng số bị chia chia cho thương. Em tìm số nhân với $8$ để được $16$.
 
-**Kiểm tra.** $16:2=8$, đúng.
+Ta có $2\times8=16$ nên $16:8=2$, tức là số chia là $2$.
+
+Kiểm tra: $16:2=8$, đúng.
+
+Vậy số chia là $2$.
 
 **Đáp số.** 2.
 :::

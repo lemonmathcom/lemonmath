@@ -208,7 +208,17 @@ In the cube $ABCD.A'B'C'D'$ of edge $a$, find the distance from $B$ to the plane
 2. Show $BO\perp(ACC'A')$.
 
 ::solution
-$BD\perp AC$ and $BD\perp AA'$, so $BD\perp(ACC'A')$, hence $BO\perp(ACC'A')$ where $O=AC\cap BD$. Therefore $d(B,(ACC'A'))=BO=\dfrac{a\sqrt2}{2}$.
+Let $O=AC\cap BD$. Since $ABCD$ is a square, $BD\perp AC$.
+
+Since $ABCD.A'B'C'D'$ is a cube, $AA'\perp(ABCD)$, so $AA'\perp BD$.
+
+The line $BD$ is perpendicular to the two intersecting lines $AC$ and $AA'$ lying in $(ACC'A')$, so $BD\perp(ACC'A')$. As $O\in BD$, we get $BO\perp(ACC'A')$, and $O\in AC\subset(ACC'A')$.
+
+Hence $d\left(B,(ACC'A')\right)=BO$.
+
+The square $ABCD$ of side $a$ has diagonal $BD=a\sqrt2$, and $O$ is the midpoint of $BD$, so $BO=\dfrac{BD}{2}=\dfrac{a\sqrt2}{2}$.
+
+So the distance from $B$ to the plane $(ACC'A')$ is $\dfrac{a\sqrt2}{2}$.
 
 **Answer.** $\dfrac{a\sqrt2}{2}$.
 :::
@@ -224,7 +234,13 @@ In the cube $ABCD.A'B'C'D'$ of edge $a$, find the distance between the line $BB'
 2. Use the result of the previous exercise.
 
 ::solution
-$BB'\parallel CC'\subset(ACC'A')$, so $BB'\parallel(ACC'A')$. Therefore $d(BB',(ACC'A'))=d(B,(ACC'A'))=\dfrac{a\sqrt2}{2}$.
+We have $BB'\parallel CC'$ (lateral edges of the cube) and $CC'\subset(ACC'A')$. Also $BB'\not\subset(ACC'A')$ (because $B\notin(ACC'A')$). Hence $BB'\parallel(ACC'A')$.
+
+The distance between a line and a plane parallel to it equals the distance from any point of the line to the plane. Choosing the point $B$:
+$$d\left(BB',(ACC'A')\right)=d\left(B,(ACC'A')\right)=\frac{a\sqrt2}{2}$$
+(the result of Exercise 2).
+
+So the distance between $BB'$ and $(ACC'A')$ is $\dfrac{a\sqrt2}{2}$.
 
 **Answer.** $\dfrac{a\sqrt2}{2}$.
 :::
@@ -248,13 +264,15 @@ d) The distance between two skew lines $a$, $b$ equals the distance between $a$ 
 2. For part d, note the plane must be parallel to $a$.
 
 ::solution
-a) **True** by definition.
+a) **True.** By definition, the distance from a point $M$ to a plane $(P)$ is the distance $MH$ from $M$ to its orthogonal projection $H$ on $(P)$, that is, the length of the perpendicular segment from $M$ to $(P)$.
 
-b) **False**: $\Delta$ is parallel to $(P)$, so they have no common point, and the distance is greater than $0$.
+b) **False.** If $\Delta\parallel(P)$, then $\Delta$ and $(P)$ have no common point, so the distance $d(\Delta,(P))$ (the distance from any point of $\Delta$ to $(P)$) is greater than $0$.
 
-c) **True** by the theorem.
+c) **True.** By the theorem, if two planes are parallel, then every point of one plane has the same distance to the other plane; this common value is the distance between the two planes.
 
-d) **False**: the plane must contain $b$ and be parallel to $a$.
+d) **False.** The distance between two skew lines $a$, $b$ equals the distance between $a$ and the plane that contains $b$ and is parallel to $a$. If we take an arbitrary plane containing $b$ that is not parallel to $a$, that plane meets $a$ and the distance is $0$, which is not the distance between $a$ and $b$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -270,7 +288,18 @@ Suppose a room is a cuboid $ABCD.A'B'C'D'$ whose floor $ABCD$ has $AB=8$ m and $
 2. Find the altitude to the hypotenuse in triangle $ABD$.
 
 ::solution
-$BD=\sqrt{64+36}=10$. $d(AA',BD)=d(A,BD)=\dfrac{8\cdot6}{10}=4.8$.
+Since $ABCD$ is a rectangle, triangle $ABD$ is right-angled at $A$, with $AB=8$ m and $AD=6$ m.
+
+By Pythagoras' theorem:
+$$BD=\sqrt{AB^2+AD^2}=\sqrt{64+36}=10\ \text{(m)}.$$
+
+Draw $AH\perp BD$ at $H$. Since $AA'\perp(ABCD)$ and $AH\subset(ABCD)$, we have $AA'\perp AH$. So $AH$ is perpendicular to both $AA'$ and $BD$, hence $AH$ is the common perpendicular of the skew lines $AA'$ and $BD$. Therefore
+$$d(AA',BD)=AH=d(A,BD).$$
+
+In triangle $ABD$, right-angled at $A$, we have $AH\cdot BD=AB\cdot AD$ (both equal twice the area of the triangle), so
+$$AH=\frac{AB\cdot AD}{BD}=\frac{8\cdot6}{10}=4.8\ \text{(m)}.$$
+
+So the shortest distance between the pipe and the cable is $4.8$ m.
 
 **Answer.** $4.8$ m.
 :::
@@ -286,9 +315,19 @@ Suppose a roof is shaped like a pyramid $S.ABCD$ whose base $ABCD$ is a square o
 2. Find $SM$ in triangle $SOM$, right-angled at $O$, with $OM=3$.
 
 ::solution
-$OA=3\sqrt2$, so $SO=\sqrt{25-18}=\sqrt7\approx2.6$. So $d(S,(ABCD))\approx2.6$ m.
+The base $ABCD$ is a square of side $6$ m and $O$ is its centre, so $OA=OB=OC=OD$. The lateral edges satisfy $SA=SB=SC=SD=5$ m, hence $SO\perp(ABCD)$ and $d\left(S,(ABCD)\right)=SO$.
 
-Triangle $SBC$ is isosceles at $S$, so $SM\perp BC$, that is $d(S,BC)=SM$. We have $OM=3$ and $SM=\sqrt{SO^2+OM^2}=\sqrt{7+9}=4$.
+The diagonal of the base is $AC=6\sqrt2$, so $OA=\dfrac{AC}{2}=3\sqrt2$.
+
+In triangle $SOA$, right-angled at $O$:
+$$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7\approx2.6\ \text{(m)}.$$
+
+Let $M$ be the midpoint of $BC$. Triangle $SBC$ is isosceles at $S$, so the median $SM$ is also an altitude: $SM\perp BC$, that is $d(S,BC)=SM$.
+
+We have $OM\perp BC$ and $OM=\dfrac{AB}{2}=3$ m. Since $SO\perp(ABCD)$, $SO\perp OM$, and in triangle $SOM$, right-angled at $O$:
+$$SM=\sqrt{SO^2+OM^2}=\sqrt{7+9}=4\ \text{(m)}.$$
+
+So the distance from $S$ to the plane $(ABCD)$ is about $2.6$ m and the distance from $S$ to the line $BC$ is $4$ m.
 
 **Answer.** $d(S,(ABCD))\approx2.6$ m; $d(S,BC)=4$ m.
 :::
@@ -304,7 +343,17 @@ In the cube $ABCD.A'B'C'D'$ of edge $a$, find the distance from $A'$ to the plan
 2. Apply the result.
 
 ::solution
-The tetrahedron $A'.AB'D'$ has $A'A$, $A'B'$, $A'D'$ mutually perpendicular and equal to $a$, like the tetrahedron $OABC$ in the example. So $d(A',(AB'D'))=\dfrac{a\sqrt3}{3}$.
+The tetrahedron $A'.AB'D'$ has three edges $A'A$, $A'B'$, $A'D'$ that are mutually perpendicular and all equal to $a$ (the edges of the cube issuing from $A'$).
+
+Its volume is $V=\dfrac13\cdot S_{A'B'D'}\cdot A'A=\dfrac13\cdot\dfrac{a^2}{2}\cdot a=\dfrac{a^3}{6}$.
+
+Triangle $AB'D'$ has three sides $AB'=B'D'=D'A=a\sqrt2$ (diagonals of square faces), so it is equilateral with side $a\sqrt2$ and area
+$$S_{AB'D'}=\frac{\sqrt3}{4}\left(a\sqrt2\right)^2=\frac{a^2\sqrt3}{2}.$$
+
+The distance from $A'$ to $(AB'D')$ is the height of the tetrahedron relative to the base $AB'D'$, so
+$$d\left(A',(AB'D')\right)=\frac{3V}{S_{AB'D'}}=\frac{a^3/2}{a^2\sqrt3/2}=\frac{a}{\sqrt3}=\frac{a\sqrt3}{3}.$$
+
+So the distance from $A'$ to the plane $(AB'D')$ is $\dfrac{a\sqrt3}{3}$.
 
 **Answer.** $\dfrac{a\sqrt3}{3}$.
 :::
@@ -320,9 +369,15 @@ Revisit Pythagoras' theorem. In the cube $ABCD.A'B'C'D'$ of edge $a$, find the d
 2. Find the lengths by Pythagoras' theorem.
 
 ::solution
-$CC'\perp(ABCD)$, so $CC'\perp AC$, hence $d(A,CC')=AC=a\sqrt2$.
+We use Pythagoras' theorem and perpendicularity relations in the cube of edge $a$.
 
-$AB\perp(BCC'B')$, so $AB\perp BC'$, hence $d(A,BC')=AB=a$.
+Distance from $A$ to $CC'$: since $CC'\perp(ABCD)$ and $AC\subset(ABCD)$, we have $CC'\perp AC$. So $AC$ is the perpendicular segment from $A$ to $CC'$ and
+$$d(A,CC')=AC=\sqrt{AB^2+BC^2}=\sqrt{a^2+a^2}=a\sqrt2.$$
+
+Distance from $A$ to $BC'$: since $AB\perp BC$ and $AB\perp BB'$, we have $AB\perp(BCC'B')$. As $BC'\subset(BCC'B')$, we get $AB\perp BC'$. So $AB$ is the perpendicular segment from $A$ to $BC'$ and
+$$d(A,BC')=AB=a.$$
+
+So $d(A,CC')=a\sqrt2$ and $d(A,BC')=a$.
 
 **Answer.** $a\sqrt2$ and $a$.
 :::
@@ -338,9 +393,18 @@ In the cube $ABCD.A'B'C'D'$ of edge $a$, find the distance between the skew line
 2. Use the midpoint $O$ of $AC$ to pass to $d(C,(BDC'))$.
 
 ::solution
-$AB'\parallel DC'$ and $DC'\subset(BDC')$, so $AB'\parallel(BDC')$, while $BC'\subset(BDC')$. Therefore $d(AB',BC')=d(AB',(BDC'))=d(A,(BDC'))$.
+We have $AB'\parallel DC'$ (because $AB'C'D$ is a rectangle) and $DC'\subset(BDC')$, while $AB'\not\subset(BDC')$. Hence $AB'\parallel(BDC')$, and $BC'\subset(BDC')$.
 
-Let $O$ be the midpoint of $AC$; $O$ lies on $BD$, so it lies in $(BDC')$. Since $O$ is the midpoint of $AC$, $d(A,(BDC'))=d(C,(BDC'))$. The tetrahedron $C.BDC'$ has $CB$, $CD$, $CC'$ mutually perpendicular and equal to $a$, so $d(C,(BDC'))=\dfrac{a\sqrt3}{3}$.
+The distance between the skew lines $AB'$ and $BC'$ equals the distance between $AB'$ and the plane $(BDC')$, which contains $BC'$ and is parallel to $AB'$. Therefore
+$$d(AB',BC')=d\left(AB',(BDC')\right)=d\left(A,(BDC')\right).$$
+
+Let $O$ be the midpoint of $AC$. Since $O$ is also the midpoint of $BD$, $O\in BD\subset(BDC')$. As $O$ is the midpoint of $AC$ and lies in the plane $(BDC')$, the points $A$ and $C$ have the same distance to $(BDC')$:
+$$d\left(A,(BDC')\right)=d\left(C,(BDC')\right).$$
+
+The tetrahedron $C.BDC'$ has three edges $CB$, $CD$, $CC'$ that are mutually perpendicular and all equal to $a$. Its volume is $V=\dfrac13\cdot\dfrac{a^2}{2}\cdot a=\dfrac{a^3}{6}$. Triangle $BDC'$ has sides $BD=DC'=C'B=a\sqrt2$, so it is equilateral with area $\dfrac{\sqrt3}{4}\left(a\sqrt2\right)^2=\dfrac{a^2\sqrt3}{2}$. Hence
+$$d\left(C,(BDC')\right)=\frac{3V}{S_{BDC'}}=\frac{a^3/2}{a^2\sqrt3/2}=\frac{a\sqrt3}{3}.$$
+
+So the distance between the skew lines $AB'$ and $BC'$ is $\dfrac{a\sqrt3}{3}$.
 
 **Answer.** $\dfrac{a\sqrt3}{3}$.
 :::

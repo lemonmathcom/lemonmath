@@ -135,7 +135,14 @@ Viết số gồm $5$ triệu, $3$ trăm nghìn và $8$ chục.
 2. Cộng lại.
 
 ::solution
-$5\,000\,000+300\,000+80=5\,300\,080$.
+Bài giải
+
+Ta có $5$ triệu $=5\,000\,000$; $3$ trăm nghìn $=300\,000$; $8$ chục $=80$.
+
+Số cần viết là:
+$$5\,000\,000+300\,000+80=5\,300\,080.$$
+
+Vậy số đó là $5\,300\,080$.
 
 **Đáp số.** $5\,300\,080$.
 :::
@@ -170,12 +177,20 @@ Tính giá trị biểu thức: $3\times(45-27)+56:8$.
 3. Cộng hai kết quả.
 
 ::solution
-$$3\times(45-27)+56:8=3\times18+7=54+7=61.$$
+Biểu thức có dấu ngoặc, phép nhân và phép chia. Ta tính trong ngoặc trước, rồi thực hiện nhân, chia, sau cùng là cộng.
+
+Ta có
+$$\begin{aligned}3\times(45-27)+56:8&=3\times18+7\\&=54+7\\&=61.\end{aligned}$$
+
+Vậy giá trị của biểu thức là $61$.
+
 **Đáp số.** $61$.
 :::
 
 :::exercise
-a) Rút gọn $\dfrac{42}{56}$. b) So sánh $\dfrac7{12}$ và $\dfrac58$.
+a) Rút gọn $\dfrac{42}{56}$.
+
+b) So sánh $\dfrac7{12}$ và $\dfrac58$.
 
 ::hint
 **Kiến thức:** rút gọn bằng cách chia cho cùng một số; so sánh bằng cách quy đồng.
@@ -185,15 +200,27 @@ a) Rút gọn $\dfrac{42}{56}$. b) So sánh $\dfrac7{12}$ và $\dfrac58$.
 2. Câu b: mẫu số chung nhỏ nhất của $12$ và $8$ là $24$.
 
 ::solution
-a) $\dfrac{42}{56}=\dfrac34$.
+a) Cả tử số và mẫu số cùng chia hết cho $14$. Chia cả tử số và mẫu số cho $14$, ta được
+$$\frac{42}{56}=\frac{42:14}{56:14}=\frac34.$$
 
-b) $\dfrac7{12}=\dfrac{14}{24}$ và $\dfrac58=\dfrac{15}{24}$. Vì $14<15$ nên $\dfrac7{12}<\dfrac58$.
+Vậy $\dfrac{42}{56}=\dfrac34$.
+
+b) Quy đồng mẫu số hai phân số. Mẫu số chung là $24$ (vì $24$ chia hết cho $12$ và cho $8$):
+$$\frac7{12}=\frac{7\times2}{12\times2}=\frac{14}{24},\qquad\frac58=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+Vì $14<15$ nên $\dfrac{14}{24}<\dfrac{15}{24}$.
+
+Vậy $\dfrac7{12}<\dfrac58$.
 
 **Đáp số.** a) $\dfrac34$; b) $\dfrac7{12}<\dfrac58$.
 :::
 
 :::exercise
-Tính a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
+Tính:
+
+a) $\dfrac23+\dfrac5{12}$;
+
+b) $\dfrac9{10}-\dfrac34$.
 
 ::hint
 **Kiến thức:** quy đồng mẫu số rồi cộng (trừ) tử số.
@@ -203,15 +230,25 @@ Tính a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
 2. Câu b: mẫu số chung là $20$.
 
 ::solution
-a) $\dfrac23+\dfrac5{12}=\dfrac8{12}+\dfrac5{12}=\dfrac{13}{12}$.
+a) Quy đồng mẫu số với mẫu số chung là $12$, rồi cộng hai tử số:
+$$\frac23+\frac5{12}=\frac8{12}+\frac5{12}=\frac{13}{12}.$$
 
-b) $\dfrac9{10}-\dfrac34=\dfrac{18}{20}-\dfrac{15}{20}=\dfrac3{20}$.
+Vậy $\dfrac23+\dfrac5{12}=\dfrac{13}{12}$.
+
+b) Quy đồng mẫu số với mẫu số chung là $20$, rồi trừ hai tử số:
+$$\frac9{10}-\frac34=\frac{18}{20}-\frac{15}{20}=\frac3{20}.$$
+
+Vậy $\dfrac9{10}-\dfrac34=\dfrac3{20}$.
 
 **Đáp số.** a) $\dfrac{13}{12}$; b) $\dfrac3{20}$.
 :::
 
 :::exercise
-Tính a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79:\dfrac{14}3$.
+Tính:
+
+a) $\dfrac45\times\dfrac{15}8$;
+
+b) $\dfrac79:\dfrac{14}3$.
 
 ::hint
 **Kiến thức:** nhân tử với tử, mẫu với mẫu; chia thì nhân với phân số đảo ngược.
@@ -221,9 +258,15 @@ Tính a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79:\dfrac{14}3$.
 2. Câu b: đảo $\dfrac{14}3$ thành $\dfrac3{14}$.
 
 ::solution
-a) $\dfrac45\times\dfrac{15}8=\dfrac{60}{40}=\dfrac32$.
+a) Nhân tử số với tử số, mẫu số với mẫu số, rồi rút gọn bằng cách chia cả tử số và mẫu số cho $20$:
+$$\frac45\times\frac{15}8=\frac{4\times15}{5\times8}=\frac{60}{40}=\frac32.$$
 
-b) $\dfrac79:\dfrac{14}3=\dfrac79\times\dfrac3{14}=\dfrac{21}{126}=\dfrac16$.
+Vậy $\dfrac45\times\dfrac{15}8=\dfrac32$.
+
+b) Muốn chia cho một phân số, ta nhân với phân số đảo ngược, rồi rút gọn bằng cách chia cả tử số và mẫu số cho $21$:
+$$\frac79:\frac{14}3=\frac79\times\frac3{14}=\frac{21}{126}=\frac16.$$
+
+Vậy $\dfrac79:\dfrac{14}3=\dfrac16$.
 
 **Đáp số.** a) $\dfrac32$; b) $\dfrac16$.
 :::
@@ -240,9 +283,22 @@ Một bể chứa $600$ lít nước. Buổi sáng dùng $\dfrac25$ lượng nư
 3. Thử lại bằng cách tính lượng nước đã dùng.
 
 ::solution
-Phần nước đã dùng là $\dfrac25+\dfrac14=\dfrac{13}{20}$. Phần còn lại là $1-\dfrac{13}{20}=\dfrac7{20}$. Số lít nước còn lại là $600\times\dfrac7{20}=210$ (lít).
+Bài giải
 
-**Kiểm tra.** Đã dùng $600\times\dfrac{13}{20}=390$ lít, và $390+210=600$.
+Coi lượng nước trong bể lúc đầu là $1$ (cả bể nước).
+
+Phần nước đã dùng trong ngày là:
+$$\frac25+\frac14=\frac8{20}+\frac5{20}=\frac{13}{20}\ \text{(lượng nước)}$$
+
+Phần nước còn lại là:
+$$1-\frac{13}{20}=\frac7{20}\ \text{(lượng nước)}$$
+
+Số lít nước còn lại trong bể là:
+$$600\times\frac7{20}=210\ \text{(lít)}$$
+
+Kiểm tra: số lít nước đã dùng là $600\times\dfrac{13}{20}=390$ lít, và $390+210=600$ (lít), đúng bằng lượng nước ban đầu.
+
+Vậy trong bể còn $210$ lít nước.
 
 **Đáp số.** $210$ lít.
 :::
@@ -258,7 +314,20 @@ Mẹ nhận $6\,000\,000$ đồng. Mẹ dùng $\dfrac12$ số tiền trả tiề
 2. Nhân với $6\,000\,000$, rồi đổi sang phần trăm.
 
 ::solution
-Số tiền đã dùng chiếm $\dfrac12+\dfrac15=\dfrac7{10}$. Số tiền tiết kiệm chiếm $1-\dfrac7{10}=\dfrac3{10}$, tức $30\%$. Số tiền tiết kiệm là $6\,000\,000\times\dfrac3{10}=1\,800\,000$ (đồng).
+Bài giải
+
+Phần tiền mẹ đã dùng là:
+$$\frac12+\frac15=\frac5{10}+\frac2{10}=\frac7{10}\ \text{(số tiền)}$$
+
+Phần tiền tiết kiệm là:
+$$1-\frac7{10}=\frac3{10}\ \text{(số tiền)}$$
+
+Ta có $\dfrac3{10}=\dfrac{30}{100}=30\%$.
+
+Số tiền tiết kiệm là:
+$$6\,000\,000\times\frac3{10}=1\,800\,000\ \text{(đồng)}$$
+
+Vậy số tiền tiết kiệm là $1\,800\,000$ đồng, chiếm $30\%$ số tiền mẹ nhận.
 
 **Đáp số.** $1\,800\,000$ đồng; $30\%$.
 :::
@@ -274,7 +343,15 @@ Em hãy nhớ lại bài số thập phân. Viết $\dfrac38$ dưới dạng s�
 2. Đổi kết quả sang phần trăm.
 
 ::solution
-$3:8=0{,}375=37{,}5\%$.
+Bài giải
+
+Muốn viết phân số dưới dạng số thập phân, ta chia tử số cho mẫu số:
+$$3:8=0{,}375.$$
+
+Muốn viết số thập phân dưới dạng tỉ số phần trăm, ta nhân với $100$ rồi viết kí hiệu $\%$:
+$$0{,}375=0{,}375\times100\%=37{,}5\%.$$
+
+Vậy $\dfrac38=0{,}375=37{,}5\%$.
 
 **Đáp số.** $0{,}375$; $37{,}5\%$.
 :::
@@ -290,9 +367,21 @@ Hiệu của mẫu số và tử số của một phân số bằng $20$, và ph
 2. Tìm $k$ rồi tìm phân số, thử lại.
 
 ::solution
-Phân số có dạng $\dfrac{3\times k}{8\times k}$ nên hiệu mẫu số và tử số là $8\times k-3\times k=5\times k$. Vì $5\times k=20$ nên $k=4$, và phân số là $\dfrac{12}{32}$.
+Bài giải
 
-**Thử lại.** $32-12=20$ và $\dfrac{12}{32}=\dfrac38$. Đúng.
+Vì phân số bằng $\dfrac38$ nên phân số đó có dạng $\dfrac{3\times k}{8\times k}$ (với $k$ là số tự nhiên khác $0$).
+
+Hiệu của mẫu số và tử số là:
+$$8\times k-3\times k=5\times k.$$
+
+Theo đề bài, hiệu này bằng $20$ nên $5\times k=20$, suy ra
+$$k=20:5=4.$$
+
+Do đó phân số cần tìm là $\dfrac{3\times4}{8\times4}=\dfrac{12}{32}$.
+
+Thử lại: $32-12=20$ và $\dfrac{12}{32}=\dfrac38$. Đúng.
+
+Vậy phân số cần tìm là $\dfrac{12}{32}$.
 
 **Đáp số.** $\dfrac{12}{32}$.
 :::

@@ -261,11 +261,19 @@ Hàm mũ $f(x)=ab^x$ thoả mãn $f(2)=12$ và $f(5)=96$. Tính $f(0)$.
 **Kiến thức:** chia $f(5)$ cho $f(2)$ để tìm $b^3$.
 
 ::solution
-Chia hai giá trị cho nhau để khử $a$: $\dfrac{ab^5}{ab^2}=b^3=\dfrac{96}{12}=8$, nên $b=2$.
+Hàm mũ $f(x)=ab^x$ có $a\neq0$, $b>0$ và $b\neq1$. Từ $f(2)=12$ và $f(5)=96$, ta có hệ
+$$\begin{cases}ab^2=12 & (1)\\ab^5=96 & (2).\end{cases}$$
 
-Khi đó $a\cdot2^2=12$, nên $a=3$, và $f(x)=3\cdot2^x$.
+Chia (2) cho (1) theo từng vế để khử $a$:
+$$\frac{ab^5}{ab^2}=b^3=\frac{96}{12}=8.$$
 
-Vậy $f(0)=a=3$.
+Suy ra $b=2$ (thoả mãn $b>0$, $b\neq1$).
+
+Thay $b=2$ vào (1), ta được $a\cdot2^2=12$, tức là $4a=12$, suy ra $a=3$. Do đó $f(x)=3\cdot2^x$.
+
+Khi đó $f(0)=3\cdot2^0=3\cdot1=3$, tức là $f(0)=a$.
+
+Vậy $f(0)=3$.
 
 **Đáp số.** $3$.
 :::

@@ -131,7 +131,15 @@ c) chữ số hàng đơn vị.
 2. Đọc từng chữ số.
 
 ::solution
-Số $482$ có chữ số $4$ ở hàng trăm, $8$ ở hàng chục, $2$ ở hàng đơn vị.
+Số $482$ gồm $4$ trăm, $8$ chục và $2$ đơn vị.
+
+a) Chữ số ở hàng trăm là $4$.
+
+b) Chữ số ở hàng chục là $8$.
+
+c) Chữ số ở hàng đơn vị là $2$.
+
+Vậy số $482$ có chữ số hàng trăm là $4$, chữ số hàng chục là $8$ và chữ số hàng đơn vị là $2$.
 
 **Đáp số.** a) $4$; b) $8$; c) $2$.
 :::
@@ -151,7 +159,13 @@ b) $9$ trăm, $1$ chục, $4$ đơn vị.
 2. Viết ba chữ số liền nhau.
 
 ::solution
-a) Chữ số: $5$, $3$, $6$. b) Chữ số: $9$, $1$, $4$.
+Để viết số có ba chữ số, ta viết lần lượt chữ số hàng trăm, chữ số hàng chục, chữ số hàng đơn vị.
+
+a) $5$ trăm, $3$ chục, $6$ đơn vị cho ta các chữ số $5$, $3$, $6$ nên số cần viết là $536$.
+
+b) $9$ trăm, $1$ chục, $4$ đơn vị cho ta các chữ số $9$, $1$, $4$ nên số cần viết là $914$.
+
+Vậy a) số cần viết là $536$; b) số cần viết là $914$.
 
 **Đáp số.** a) $536$; b) $914$.
 :::
@@ -167,7 +181,13 @@ Em nhớ lại bài trước. Trong các số $60, 300, 90, 700$, những số n
 2. So sánh $3$ trăm và $7$ trăm.
 
 ::solution
-$300$ và $700$ có ba chữ số; $60$ và $90$ có hai chữ số. $3$ trăm bé hơn $7$ trăm.
+Số có ba chữ số là số có hàng trăm, tức là các số từ $100$ đến $999$.
+
+Các số $60$ và $90$ chỉ có hàng chục và hàng đơn vị nên có hai chữ số. Các số $300$ và $700$ có hàng trăm nên có ba chữ số.
+
+Để so sánh $300$ và $700$, ta so sánh chữ số hàng trăm của hai số. Vì $3$ trăm bé hơn $7$ trăm nên $300<700$.
+
+Vậy các số có ba chữ số là $300$ và $700$; dấu cần điền là $<$, ta có $300<700$.
 
 **Đáp số.** $300$, $700$; $300<700$.
 :::
@@ -187,7 +207,13 @@ b) $250$.
 2. Ghi số trăm, số chục, số đơn vị.
 
 ::solution
-a) $705$: $7$ trăm, $0$ chục, $5$ đơn vị. b) $250$: $2$ trăm, $5$ chục, $0$ đơn vị.
+Với mỗi số, ta xem chữ số ở hàng trăm, hàng chục và hàng đơn vị.
+
+a) Số $705$ có chữ số hàng trăm là $7$, hàng chục là $0$, hàng đơn vị là $5$. Do đó $705$ gồm $7$ trăm, $0$ chục, $5$ đơn vị.
+
+b) Số $250$ có chữ số hàng trăm là $2$, hàng chục là $5$, hàng đơn vị là $0$. Do đó $250$ gồm $2$ trăm, $5$ chục, $0$ đơn vị.
+
+Vậy a) $705$ gồm $7$ trăm, $0$ chục, $5$ đơn vị; b) $250$ gồm $2$ trăm, $5$ chục, $0$ đơn vị.
 
 **Đáp số.** a) $7$ trăm $0$ chục $5$ đơn vị; b) $2$ trăm $5$ chục $0$ đơn vị.
 :::
@@ -203,7 +229,13 @@ Muốn viết "hai trăm linh sáu", em chọn số nào trong $26$, $206$, $260
 2. Hàng chục có gì không? Hàng đơn vị là mấy?
 
 ::solution
-Có $2$ trăm, $0$ chục, $6$ đơn vị. Viết chữ số $2$, $0$, $6$.
+Số "hai trăm linh sáu" có $2$ trăm. Chữ "linh" cho biết hàng chục là $0$, và có $6$ đơn vị.
+
+Vậy số này có chữ số hàng trăm là $2$, hàng chục là $0$, hàng đơn vị là $6$. Ta viết các chữ số $2$, $0$, $6$ được số $206$.
+
+Các số còn lại không đúng: $26$ chỉ có hai chữ số ($2$ chục $6$ đơn vị); $260$ có $2$ trăm $6$ chục $0$ đơn vị, đọc là hai trăm sáu mươi.
+
+Vậy em chọn số $206$ vì số đó gồm $2$ trăm, $0$ chục, $6$ đơn vị.
 
 **Đáp số.** $206$.
 :::
@@ -219,7 +251,13 @@ Mai viết "$4$ trăm $5$ đơn vị là $45$". Mai sai ở đâu? Sửa lại c
 2. Viết lại số đủ ba chữ số.
 
 ::solution
-$45$ là $4$ chục $5$ đơn vị. Số đúng có $4$ trăm, $0$ chục, $5$ đơn vị.
+Số $45$ có hai chữ số: $4$ ở hàng chục và $5$ ở hàng đơn vị, nên $45$ là $4$ chục $5$ đơn vị. Vì vậy Mai đã viết $4$ trăm thành $4$ chục.
+
+Số cần viết có $4$ trăm, không có chục (tức $0$ chục) và $5$ đơn vị. Ta viết các chữ số $4$, $0$, $5$ theo thứ tự hàng trăm, hàng chục, hàng đơn vị.
+
+Kiểm tra: số $405$ có $4$ trăm, $0$ chục, $5$ đơn vị. Đúng.
+
+Vậy Mai sai ở chỗ viết $4$ trăm thành $4$ chục và bỏ quên chữ số $0$ ở hàng chục; $4$ trăm $5$ đơn vị phải viết là $405$.
 
 **Đáp số.** $405$.
 :::
@@ -235,7 +273,14 @@ Có $3$ hộp bi loại $100$ viên, $4$ túi bi loại $10$ viên và $7$ viên
 2. Viết số rồi ghi đáp số có đơn vị.
 
 ::solution
-Chữ số: $3$, $4$, $7$. Số viên bi là $347$.
+Bài giải
+
+$3$ hộp bi loại $100$ viên là $3$ trăm viên bi, $4$ túi bi loại $10$ viên là $4$ chục viên bi, và còn $7$ viên bi lẻ là $7$ đơn vị.
+
+Số viên bi có tất cả là:
+$$300+40+7=347\ \text{(viên)}.$$
+
+Vậy có tất cả $347$ viên bi.
 
 **Đáp số.** $347$ viên bi.
 :::
@@ -251,9 +296,13 @@ Dùng ba chữ số $2$, $5$, $8$, mỗi chữ số dùng đúng một lần, l�
 2. Số bé nhất: làm ngược lại.
 
 ::solution
-Số lớn nhất: hàng trăm $8$, hàng chục $5$, hàng đơn vị $2$, được $852$. Số bé nhất: hàng trăm $2$, hàng chục $5$, hàng đơn vị $8$, được $258$.
+Để lập số lớn nhất, ta xếp chữ số lớn nhất ở hàng cao nhất: hàng trăm là $8$, hàng chục là $5$, hàng đơn vị là $2$. Ta được số $852$.
 
-**Kiểm tra.** $258<852$. Đúng.
+Để lập số bé nhất, ta xếp chữ số bé nhất ở hàng cao nhất: hàng trăm là $2$, hàng chục là $5$, hàng đơn vị là $8$. Ta được số $258$.
+
+Kiểm tra: hai số đều có ba chữ số; so sánh chữ số hàng trăm, $2<8$ nên $258<852$. Đúng.
+
+Vậy số lớn nhất là $852$ và số bé nhất là $258$.
 
 **Đáp số.** Số lớn nhất là $852$, số bé nhất là $258$.
 :::

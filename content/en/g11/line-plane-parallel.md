@@ -165,7 +165,13 @@ Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $AB\parallel(CDD'C')$ and $AC\
 2. $AC\parallel A'C'$ and $A'C'\subset(A'B'C'D')$.
 
 ::solution
-$ABCD$ is a parallelogram, so $AB\parallel CD$, with $CD\subset(CDD'C')$ and $AB\not\subset(CDD'C')$, so $AB\parallel(CDD'C')$. Similarly $AA'C'C$ is a parallelogram, so $AC\parallel A'C'\subset(A'B'C'D')$, and $AC\not\subset(A'B'C'D')$, so $AC\parallel(A'B'C'D')$.
+We use the criterion: if a line $d$ does not lie in a plane $(P)$ and is parallel to a line lying in $(P)$, then $d\parallel(P)$.
+
+Prove $AB\parallel(CDD'C')$. Since $ABCD$ is a parallelogram, $AB\parallel CD$. The line $CD$ lies in $(CDD'C')$, while $AB$ does not lie in $(CDD'C')$. Hence $AB\parallel(CDD'C')$.
+
+Prove $AC\parallel(A'B'C'D')$. Since $AA'\parallel CC'$ and $AA'=CC'$, $AA'C'C$ is a parallelogram, so $AC\parallel A'C'$. The line $A'C'$ lies in $(A'B'C'D')$, while $AC$ does not lie in $(A'B'C'D')$. Hence $AC\parallel(A'B'C'D')$.
+
+So $AB\parallel(CDD'C')$ and $AC\parallel(A'B'C'D')$.
 
 **Answer.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
 :::
@@ -181,7 +187,11 @@ Take a tetrahedron $ABCD$. Let $M$, $N$, $P$ be the midpoints of $AB$, $BC$, $CD
 2. $NP\parallel BD$ and $BD\subset(ABD)$.
 
 ::solution
-In triangle $ABC$, $MN\parallel AC$, with $AC\subset(ACD)$ and $MN\not\subset(ACD)$, so $MN\parallel(ACD)$. In triangle $BCD$, $NP\parallel BD$, with $BD\subset(ABD)$ and $NP\not\subset(ABD)$, so $NP\parallel(ABD)$.
+Prove $MN\parallel(ACD)$. In triangle $ABC$, $M$ and $N$ are the midpoints of $AB$ and $BC$, so $MN$ is a midsegment and $MN\parallel AC$. The line $AC$ lies in $(ACD)$, while $MN$ does not lie in $(ACD)$. Hence $MN\parallel(ACD)$.
+
+Prove $NP\parallel(ABD)$. In triangle $BCD$, $N$ and $P$ are the midpoints of $BC$ and $CD$, so $NP$ is a midsegment and $NP\parallel BD$. The line $BD$ lies in $(ABD)$, while $NP$ does not lie in $(ABD)$. Hence $NP\parallel(ABD)$.
+
+So $MN\parallel(ACD)$ and $NP\parallel(ABD)$.
 
 **Answer.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
 :::
@@ -197,7 +207,15 @@ Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$ with centre $O$. Le
 2. $ON\subset(NAC)$.
 
 ::solution
-$O$ is the midpoint of $BD$ and $N$ is the midpoint of $SB$, so $ON$ is a midsegment of triangle $SBD$ and $ON\parallel SD$. The line $ON$ lies in $(NAC)$ (since $O\in AC$), while $SD\not\subset(NAC)$, so $SD\parallel(NAC)$.
+Since $ABCD$ is a parallelogram with centre $O$, $O$ is the midpoint of $BD$ (and of $AC$).
+
+In triangle $SBD$, $O$ is the midpoint of $BD$ and $N$ is the midpoint of $SB$, so $ON$ is a midsegment of the triangle. Hence $ON\parallel SD$.
+
+Since $O\in AC$, $O$ lies in $(NAC)$; together with $N\in(NAC)$, the line $ON$ lies in $(NAC)$. The line $SD$ does not lie in $(NAC)$.
+
+Thus $SD$ is parallel to the line $ON$ lying in $(NAC)$ and $SD\not\subset(NAC)$, so $SD\parallel(NAC)$.
+
+So $SD\parallel(NAC)$.
 
 **Answer.** $SD\parallel(NAC)$.
 :::
@@ -213,7 +231,13 @@ Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Let $M$ be the mid
 2. Apply property 1 with the plane $(SBC)$.
 
 ::solution
-Since $BC\parallel AD\subset(ADM)$ and $BC\not\subset(ADM)$, $BC\parallel(ADM)$. The plane $(SBC)$ contains $BC$ and meets $(ADM)$ along $MN$, so $MN\parallel BC$. In triangle $SBC$, $M$ is the midpoint of $SC$ and $MN\parallel BC$, so $N$ is the midpoint of $SB$.
+Prove $MN\parallel BC$. Since $ABCD$ is a parallelogram, $BC\parallel AD$. The line $AD$ lies in $(ADM)$, while $BC$ does not lie in $(ADM)$. Hence $BC\parallel(ADM)$.
+
+The plane $(SBC)$ contains $BC$ and shares the point $M$ with $(ADM)$; by the data, $N$ is the point where $SB$ meets $(ADM)$, so $N$ is also a common point. So $(SBC)$ meets $(ADM)$ along the line $MN$. Since $BC\parallel(ADM)$, the line of intersection $MN$ is parallel to $BC$.
+
+Prove that $N$ is the midpoint of $SB$. In triangle $SBC$, $M$ is the midpoint of $SC$, $N$ lies on $SB$ and $MN\parallel BC$. Hence $MN$ is a midsegment of triangle $SBC$, so $N$ is the midpoint of $SB$.
+
+So $MN\parallel BC$ and $N$ is the midpoint of $SB$.
 
 **Answer.** $MN\parallel BC$ and $N$ is the midpoint of $SB$.
 :::
@@ -229,7 +253,14 @@ According to the FIFA Laws of the Game, a standard football goal has two posts $
 2. Use the properties of a parallelogram to compare lengths.
 
 ::solution
-Let the feet of the posts be $A$, $B$ and the tops $A'$, $B'$. $AA'$ and $BB'$ are parallel and equal ($2.44$ m), so $AA'B'B$ is a parallelogram, hence $A'B'\parallel AB$ and $A'B'=AB=7.32$ m. $AB$ lies in the pitch and $A'B'$ does not, so $A'B'$ is parallel to the pitch.
+Let the feet of the posts be $A$, $B$ and the tops be $A'$, $B'$. By the data, $AB=7.32$ m, $AA'=BB'=2.44$ m, and the posts are vertical, so $AA'$ and $BB'$ are both perpendicular to the pitch.
+
+The lines $AA'$ and $BB'$ are both perpendicular to the pitch, so they are parallel, and they are equal ($2.44$ m). Hence $AA'B'B$ is a parallelogram, so
+$$A'B'\parallel AB\quad\text{and}\quad A'B'=AB=7.32\ \text{m}.$$
+
+The line $AB$ lies in the pitch, while $A'B'$ does not lie in the pitch (since $A'$ is $2.44$ m above it). Hence $A'B'$ is parallel to the pitch.
+
+So the crossbar is parallel to the pitch and is $7.32$ m long.
 
 **Answer.** The crossbar is parallel to the pitch and is $7.32$ m long.
 :::
@@ -253,13 +284,17 @@ d) $AB\parallel(SAD)$.
 2. b), d) Look for a common point of the line and the plane.
 
 ::solution
-a) **True**: $AD\parallel BC\subset(SBC)$ and $AD\not\subset(SBC)$.
+Since $ABCD$ is a parallelogram, $AD\parallel BC$.
 
-b) **False**: $SA$ meets $(ABCD)$ at $A$.
+a) **True.** We have $AD\parallel BC$, $BC\subset(SBC)$ and $AD\not\subset(SBC)$. Hence $AD\parallel(SBC)$.
 
-c) **True**: $BC\parallel AD\subset(SAD)$ and $BC\not\subset(SAD)$.
+b) **False.** The line $SA$ meets $(ABCD)$ at the point $A$, so it is not parallel to $(ABCD)$.
 
-d) **False**: $AB$ meets $(SAD)$ at $A$.
+c) **True.** We have $BC\parallel AD$, $AD\subset(SAD)$ and $BC\not\subset(SAD)$. Hence $BC\parallel(SAD)$.
+
+d) **False.** The line $AB$ meets $(SAD)$ at the point $A$, so it is not parallel to $(SAD)$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -275,7 +310,15 @@ Prove that if two distinct lines $a$, $b$ are parallel and $a\parallel(P)$, then
 2. Compare $b$ with $a'$.
 
 ::solution
-Take a point $A\in(P)$ and the plane $(Q)$ containing $a$ and $A$. Since $a\parallel(P)$, $(Q)$ meets $(P)$ along a line $a'$ through $A$ with $a'\parallel a$. If $b=a'$ then $b\subset(P)$. If $b\ne a'$ then $b\parallel a'$ (both are parallel to $a$), with $a'\subset(P)$; when $b\not\subset(P)$, the condition gives $b\parallel(P)$.
+We argue by contradiction. Suppose $b\not\subset(P)$ and $b$ is not parallel to $(P)$. Then $b$ meets $(P)$ at exactly one point, call it $B$.
+
+Since $a\parallel b$, the lines $a$ and $b$ lie in one plane $(Q)$. The plane $(Q)$ differs from $(P)$, because $(Q)$ contains $a$ and $a\parallel(P)$ gives $a\not\subset(P)$. The two distinct planes $(Q)$ and $(P)$ share the point $B$, so they meet along a line $d$ through $B$, with $d\subset(P)$.
+
+Since $a\parallel(P)$, the line $a$ and the plane $(P)$ have no common point, so $a$ and $d$ have no common point. The lines $a$, $d$ both lie in $(Q)$ and have no common point, so $a\parallel d$.
+
+In the plane $(Q)$, there is only one line through $B$ parallel to $a$. The lines $b$ and $d$ both pass through $B$ and are both parallel to $a$, so $b=d$. Then $b\subset(P)$, which contradicts the assumption $b\not\subset(P)$.
+
+So if $b\not\subset(P)$ then $b\parallel(P)$; that is, $b\parallel(P)$ or $b\subset(P)$.
 
 **Answer.** $b\parallel(P)$ or $b\subset(P)$.
 :::
@@ -291,7 +334,15 @@ Take a tetrahedron $ABCD$. Take a point $M$ on the edge $AB$. A plane $(\alpha)$
 2. $MQ=(\alpha)\cap(ABD)$ and $NP=(\alpha)\cap(BCD)$ are both parallel to $BD$.
 
 ::solution
-Since $AC\parallel(\alpha)$, the plane $(ABC)$ containing $AC$ meets $(\alpha)$ along $MN$, so $MN\parallel AC$; the plane $(ACD)$ containing $AC$ meets $(\alpha)$ along $PQ$, so $PQ\parallel AC$. Hence $MN\parallel PQ$. Similarly, since $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ and $NP=(\alpha)\cap(BCD)\parallel BD$, so $MQ\parallel NP$. The quadrilateral $MNPQ$ has both pairs of opposite sides parallel, so it is a parallelogram.
+We use the property: if a line $d$ is parallel to a plane $(\alpha)$ and a plane $(\beta)$ containing $d$ meets $(\alpha)$ along a line $m$, then $m\parallel d$.
+
+Prove $MN\parallel PQ$. Since $AC\parallel(\alpha)$, the plane $(ABC)$ containing $AC$ meets $(\alpha)$ along $MN$, so $MN\parallel AC$. The plane $(ACD)$ containing $AC$ meets $(\alpha)$ along $PQ$, so $PQ\parallel AC$. Hence $MN\parallel PQ$.
+
+Prove $MQ\parallel NP$. Since $BD\parallel(\alpha)$, the plane $(ABD)$ containing $BD$ meets $(\alpha)$ along $MQ$, so $MQ\parallel BD$. The plane $(BCD)$ containing $BD$ meets $(\alpha)$ along $NP$, so $NP\parallel BD$. Hence $MQ\parallel NP$.
+
+The quadrilateral $MNPQ$ has $MN\parallel PQ$ and $MQ\parallel NP$, that is, both pairs of opposite sides are parallel.
+
+So $MNPQ$ is a parallelogram.
 
 **Answer.** $MNPQ$ is a parallelogram.
 :::

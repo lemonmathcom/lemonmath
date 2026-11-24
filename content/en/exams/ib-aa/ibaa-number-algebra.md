@@ -136,9 +136,20 @@ An arithmetic sequence has first term $7$ and common difference $4$.
 **What you need:** $u_n=7+4(n-1)$ and $S_n=\dfrac n2(u_1+u_n)$.
 
 ::solution
-(a) $7+4(n-1)=95$ gives $n-1=22$, so $n=23$.
+The arithmetic sequence has first term $u_1=7$ and common difference $d=4$, so the general term is
+$$u_n=u_1+(n-1)d=7+4(n-1).$$
 
-(b) $S_{23}=\dfrac{23}{2}(7+95)=23\cdot51=1173$.
+a) Setting $u_n=95$:
+$$7+4(n-1)=95\iff4(n-1)=88\iff n-1=22\iff n=23.$$
+
+So $n=23$.
+
+b) The sum of the first $n$ terms of an arithmetic sequence is $S_n=\dfrac n2\left(u_1+u_n\right)$. With $n=23$, $u_1=7$, $u_{23}=95$:
+$$S_{23}=\frac{23}{2}(7+95)=\frac{23}{2}\cdot102=23\cdot51=1173.$$
+
+So the sum of the first $23$ terms is $1173$.
+
+**Answer.** a) $n=23$; b) $S_{23}=1173$.
 :::
 
 :::exercise Geometric sequence
@@ -148,7 +159,22 @@ In a geometric sequence, $u_2=12$ and $u_5=96$. Find the common ratio, the first
 **What you need:** divide $u_1r^4=96$ by $u_1r=12$.
 
 ::solution
-$r^3=8$, so $r=2$ and $u_1=6$. $S_{10}=\dfrac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138$.
+The general term of a geometric sequence is $u_n=u_1r^{n-1}$. From the given information:
+$$u_2=u_1r=12,\qquad u_5=u_1r^4=96.$$
+
+Dividing the second equation by the first (note $u_1r=12\neq0$):
+$$\frac{u_1r^4}{u_1r}=\frac{96}{12}\iff r^3=8.$$
+
+So $r=2$ (since $r$ is a real number).
+
+From $u_1r=12$, we get $u_1=\dfrac{12}{2}=6$.
+
+The sum of the first $10$ terms is $S_{10}=\dfrac{u_1\left(r^{10}-1\right)}{r-1}$, so
+$$S_{10}=\frac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138.$$
+
+So the common ratio is $r=2$, the first term is $u_1=6$ and $S_{10}=6138$.
+
+**Answer.** $r=2$; $u_1=6$; $S_{10}=6138$.
 :::
 
 :::exercise Logarithmic equation
@@ -162,7 +188,21 @@ Solve $\log_2(x+3)+\log_2(x-3)=4$. [5 marks]
 2. Check which root makes both logarithms defined.
 
 ::solution
-$x^2=25$, so $x=\pm5$. $x=-5$ is rejected because $x-3<0$. The solution is $x=5$.
+Condition: $x+3>0$ and $x-3>0$, that is $x>3$.
+
+Using the property $\log_ab+\log_ac=\log_a(bc)$, the equation becomes
+$$\log_2\left[(x+3)(x-3)\right]=4.$$
+
+It follows that
+$$(x+3)(x-3)=2^4\iff x^2-9=16\iff x^2=25\iff x=\pm5.$$
+
+Checking against the condition $x>3$: the value $x=5$ satisfies it; the value $x=-5$ is rejected because then $x-3=-8<0$ (the condition fails).
+
+Check: $\log_2(5+3)+\log_2(5-3)=\log_28+\log_22=3+1=4$.
+
+So the equation has the unique solution $x=5$.
+
+**Answer.** $x=5$.
 :::
 
 :::exercise Binomial coefficient
@@ -172,7 +212,17 @@ Find the coefficient of $x^2$ in the expansion of $(1+3x)^6$. [3 marks]
 **What you need:** the term $\dbinom62(3x)^2$.
 
 ::solution
-$\dbinom62\cdot9x^2=15\cdot9x^2=135x^2$. The coefficient is $135$.
+The general term in the expansion of $(1+3x)^6$ is
+$$\binom{6}{k}\cdot1^{6-k}\cdot(3x)^k=\binom{6}{k}\cdot3^kx^k.$$
+
+The term in $x^2$ corresponds to $k=2$:
+$$\binom{6}{2}\cdot3^2x^2=15\cdot9x^2=135x^2.$$
+
+Here $\binom{6}{2}=\dfrac{6!}{2!\,4!}=\dfrac{6\cdot5}{2}=15$.
+
+So the coefficient of $x^2$ in the expansion of $(1+3x)^6$ is $135$.
+
+**Answer.** $135$.
 :::
 
 :::exercise Proof
@@ -182,7 +232,14 @@ Show that $(2n+1)^2-(2n-1)^2$ is a multiple of $8$ for every integer $n$. [3 mar
 **What you need:** expand, or use $a^2-b^2=(a-b)(a+b)$.
 
 ::solution
-$(2n+1)^2-(2n-1)^2=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)=2\cdot4n=8n$, which is a multiple of $8$ because $n$ is an integer.
+We apply the difference of two squares $a^2-b^2=(a-b)(a+b)$ with $a=2n+1$ and $b=2n-1$:
+$$\begin{aligned}(2n+1)^2-(2n-1)^2&=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)\\&=2\cdot4n\\&=8n.\end{aligned}$$
+
+Since $n$ is an integer, $8n$ is a multiple of $8$.
+
+So $(2n+1)^2-(2n-1)^2$ is a multiple of $8$ for every integer $n$.
+
+**Answer.** $(2n+1)^2-(2n-1)^2=8n$, which is a multiple of $8$ for every integer $n$.
 :::
 
 ## Application exercises
@@ -194,7 +251,22 @@ A town has $12{,}000$ residents, and its population grows by $2.5\%$ each year. 
 **What you need:** solve $12{,}000(1.025)^n>20{,}000$ with logarithms or a GDC table.
 
 ::solution
-$1.025^n>\dfrac53$, so $n>\dfrac{\ln(5/3)}{\ln1.025}\approx20.7$. The population first exceeds $20{,}000$ after $21$ years. Check: $12{,}000(1.025)^{20}\approx19{,}663$ and $12{,}000(1.025)^{21}\approx20{,}155$.
+Let $P_n$ be the population of the town after $n$ years. Each year the population grows by $2.5\%$, that is, it is multiplied by $1.025$, so
+$$P_n=12{,}000\cdot(1.025)^n.$$
+
+The population exceeds $20{,}000$ when
+$$12{,}000\cdot(1.025)^n>20{,}000\iff(1.025)^n>\frac{20{,}000}{12{,}000}=\frac53.$$
+
+Taking natural logarithms of both sides, and dividing by $\ln1.025>0$ (so the inequality keeps its direction):
+$$n\ln1.025>\ln\frac53\iff n>\frac{\ln(5/3)}{\ln1.025}\approx20.7.$$
+
+Since $n$ is a number of complete years, the smallest integer satisfying this is $n=21$.
+
+Check: $12{,}000\cdot(1.025)^{20}\approx19{,}663<20{,}000$ and $12{,}000\cdot(1.025)^{21}\approx20{,}155>20{,}000$.
+
+So the population first exceeds $20{,}000$ after $21$ years.
+
+**Answer.** $21$ years.
 :::
 
 :::exercise Salary scale
@@ -204,7 +276,14 @@ A teacher's starting salary is $32{,}000$ dollars per year, and it rises by $150
 **What you need:** an arithmetic series with $u_1=32{,}000$ and $d=1500$.
 
 ::solution
-$S_{10}=\dfrac{10}{2}\big(2\cdot32000+9\cdot1500\big)=5\cdot77{,}500=387{,}500$ dollars.
+The yearly salaries form an arithmetic sequence with first term $u_1=32{,}000$ (dollars) and common difference $d=1500$ (dollars). The total earned in the first $10$ years is the sum of the first $10$ terms.
+
+Using $S_n=\dfrac n2\left(2u_1+(n-1)d\right)$ with $n=10$:
+$$S_{10}=\frac{10}{2}\big(2\cdot32{,}000+9\cdot1500\big)=5\big(64{,}000+13{,}500\big)=5\cdot77{,}500=387{,}500.$$
+
+So the total amount earned in the first $10$ years is $387{,}500$ dollars.
+
+**Answer.** $387{,}500$ dollars.
 :::
 
 :::exercise A bouncing ball
@@ -214,7 +293,19 @@ A ball is dropped from a height of $10$ meters. After each bounce it rises to $7
 **What you need:** the ball falls $10$ meters, then every rise is followed by an equal fall; the rises form a geometric series with first term $7$ and ratio $0.7$.
 
 ::solution
-Total $=10+2\cdot\dfrac{7}{1-0.7}=10+\dfrac{14}{0.3}\approx56.7$ meters.
+The ball first falls $10$ m. After that, each bounce takes it up to $70\%$ of the previous height, and it then falls the same distance back down. The heights after the bounces are
+$$7,\quad7\cdot0.7,\quad7\cdot0.7^2,\ \dots$$
+which form a geometric sequence with first term $7$ and common ratio $0.7$.
+
+Each of these heights is travelled twice (up and then down), so the total distance is
+$$10+2\left(7+7\cdot0.7+7\cdot0.7^2+\cdots\right).$$
+
+Since $|0.7|<1$, the sum to infinity exists and equals $\dfrac{u_1}{1-r}=\dfrac{7}{1-0.7}$. Hence
+$$\text{Total distance}=10+2\cdot\frac{7}{1-0.7}=10+\frac{14}{0.3}\approx10+46.7=56.7.$$
+
+So the total vertical distance the ball travels before coming to rest is about $56.7$ meters.
+
+**Answer.** $\approx56.7$ meters.
 :::
 
 :::exercise Challenge
@@ -226,9 +317,21 @@ The series $1+2x+4x^2+8x^3+\dots$ is geometric.
 **What you need:** the common ratio is $2x$.
 
 ::solution
-(a) $|2x|<1$, that is $-\dfrac12<x<\dfrac12$.
+The series $1+2x+4x^2+8x^3+\cdots$ is geometric with first term $u_1=1$ and common ratio $r=2x$.
 
-(b) $\dfrac{1}{1-2x}=4$, so $1-2x=\dfrac14$ and $x=\dfrac38$, which lies in the interval from (a).
+a) The sum to infinity of a geometric series exists if and only if $|r|<1$. Here
+$$|2x|<1\iff-1<2x<1\iff-\frac12<x<\frac12.$$
+
+So the sum to infinity exists when $-\dfrac12<x<\dfrac12$.
+
+b) When the sum to infinity exists, it equals $S_\infty=\dfrac{u_1}{1-r}=\dfrac{1}{1-2x}$. Setting $S_\infty=4$:
+$$\frac{1}{1-2x}=4\iff1-2x=\frac14\iff2x=\frac34\iff x=\frac38.$$
+
+Checking against part a): $-\dfrac12<\dfrac38<\dfrac12$, so $x=\dfrac38$ satisfies the condition.
+
+So $x=\dfrac38$.
+
+**Answer.** a) $-\dfrac12<x<\dfrac12$; b) $x=\dfrac38$.
 :::
 
 :::quiz

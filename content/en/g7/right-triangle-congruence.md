@@ -336,13 +336,17 @@ d) $BC=NP$ and $AC=MN$.
 2. In part d), $AC=MN$ tells you that $C$ corresponds to $N$.
 
 ::solution
-a) $AB$ and $MN$ are legs adjacent to the acute angles $B$ and $N$: $\triangle ABC\equiv\triangle MNP$ (LA).
+The triangles $ABC$ (right-angled at $A$) and $MNP$ (right-angled at $M$) already have one pair of equal right angles: $\angle A=\angle M=90^\circ$. We examine each condition.
 
-b) $BC$ and $NP$ are hypotenuses and $\angle C=\angle P$ is an acute angle: $\triangle ABC\equiv\triangle MNP$ (HA).
+a) $AB$ and $MN$ are legs adjacent to the acute angles $\angle B$ and $\angle N$. We have $AB=MN$ and $\angle B=\angle N$. By the leg–acute angle condition (LA), the triangles are congruent. The corresponding vertices are $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$, so $\triangle ABC\equiv\triangle MNP$.
 
-c) Only two pairs of acute angles are equal, which is not enough to conclude.
+b) $BC$ and $NP$ are the hypotenuses and $\angle C=\angle P$ are corresponding acute angles. By the hypotenuse–acute angle condition (HA), the triangles are congruent. The corresponding vertices are $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$, so $\triangle ABC\equiv\triangle MNP$.
 
-d) $BC=NP$ are hypotenuses and $AC=MN$ are legs, so the triangles are congruent (HL). Since $AC=MN$, the vertex $C$ corresponds to $N$, so $B$ corresponds to $P$. Hence $\triangle ABC\equiv\triangle MPN$.
+c) Only two pairs of acute angles are equal and no pair of sides is known to be equal. Right-angled triangles with the same angles can have different sizes, so this is not enough to conclude that the triangles are congruent.
+
+d) $BC$ and $NP$ are the hypotenuses and $AC$ and $MN$ are legs. By the hypotenuse–leg condition (HL), the triangles are congruent. Since $AC=MN$, the vertex $C$ corresponds to $N$; since $A$ corresponds to $M$, the vertex $B$ corresponds to $P$. Hence $\triangle ABC\equiv\triangle MPN$.
+
+So in a) and b) the triangles are congruent with $\triangle ABC\equiv\triangle MNP$; in c) the condition is not enough; in d) the triangles are congruent with $\triangle ABC\equiv\triangle MPN$.
 
 **Answer.** a) LA, $\triangle ABC\equiv\triangle MNP$. b) HA, $\triangle ABC\equiv\triangle MNP$. c) Not enough. d) HL, $\triangle ABC\equiv\triangle MPN$.
 :::

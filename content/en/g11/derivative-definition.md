@@ -186,13 +186,25 @@ d) $f(x)=\sqrt x$ at $x_0=4$.
 2. Cancel, then let $x\to x_0$.
 
 ::solution
-a) $\dfrac{2x^2-x-1}{x-1}=\dfrac{(2x+1)(x-1)}{x-1}=2x+1\to3$. So $f'(1)=3$.
+Apply the definition: $f'(x_0)=\lim_{x\to x_0}\dfrac{f(x)-f(x_0)}{x-x_0}$.
 
-b) $\dfrac{x^3-8}{x-2}=x^2+2x+4\to12$. So $f'(2)=12$.
+a) We have $f(1)=2\cdot1^2-1=1$. For $x\neq1$:
+$$\frac{f(x)-f(1)}{x-1}=\frac{2x^2-x-1}{x-1}=\frac{(2x+1)(x-1)}{x-1}=2x+1.$$
+As $x\to1$, $2x+1\to3$. So $f'(1)=3$.
 
-c) $\dfrac{\frac1x+1}{x+1}=\dfrac{\frac{1+x}{x}}{x+1}=\dfrac1x\to-1$. So $f'(-1)=-1$.
+b) We have $f(2)=2^3=8$. For $x\neq2$:
+$$\frac{f(x)-f(2)}{x-2}=\frac{x^3-8}{x-2}=\frac{(x-2)\left(x^2+2x+4\right)}{x-2}=x^2+2x+4.$$
+As $x\to2$, $x^2+2x+4\to4+4+4=12$. So $f'(2)=12$.
 
-d) $\dfrac{\sqrt x-2}{x-4}=\dfrac{\sqrt x-2}{(\sqrt x-2)(\sqrt x+2)}=\dfrac{1}{\sqrt x+2}\to\dfrac14$. So $f'(4)=\dfrac14$.
+c) We have $f(-1)=\dfrac1{-1}=-1$. For $x\neq0$, $x\neq-1$:
+$$\frac{f(x)-f(-1)}{x-(-1)}=\frac{\frac1x+1}{x+1}=\frac{\frac{1+x}{x}}{x+1}=\frac1x.$$
+As $x\to-1$, $\dfrac1x\to-1$. So $f'(-1)=-1$.
+
+d) We have $f(4)=\sqrt4=2$. For $x>0$, $x\neq4$:
+$$\frac{f(x)-f(4)}{x-4}=\frac{\sqrt x-2}{x-4}=\frac{\sqrt x-2}{(\sqrt x-2)(\sqrt x+2)}=\frac{1}{\sqrt x+2}.$$
+As $x\to4$, $\dfrac{1}{\sqrt x+2}\to\dfrac14$. So $f'(4)=\dfrac14$.
+
+So $f'(1)=3$, $f'(2)=12$, $f'(-1)=-1$, $f'(4)=\dfrac14$.
 
 **Answer.** a) $3$; b) $12$; c) $-1$; d) $\dfrac14$.
 :::
@@ -214,11 +226,19 @@ c) $f(x)=c$ (a constant function).
 2. Divide by $h$, then let $h\to0$.
 
 ::solution
-a) $f(x+h)-f(x)=(x+h)^2-3(x+h)-x^2+3x=2xh+h^2-3h$. Dividing by $h$: $2x+h-3\to2x-3$. So $f'(x)=2x-3$.
+Apply the definition: $f'(x)=\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}$.
 
-b) $\dfrac{1}{x+h}-\dfrac1x=\dfrac{-h}{x(x+h)}$. Dividing by $h$: $-\dfrac{1}{x(x+h)}\to-\dfrac{1}{x^2}$. So $f'(x)=-\dfrac{1}{x^2}$.
+a) We have
+$$\begin{aligned}f(x+h)-f(x)&=(x+h)^2-3(x+h)-x^2+3x\\&=2xh+h^2-3h.\end{aligned}$$
+Dividing by $h\neq0$: $\dfrac{f(x+h)-f(x)}{h}=2x+h-3$. As $h\to0$, $2x+h-3\to2x-3$. So $f'(x)=2x-3$.
 
-c) $f(x+h)-f(x)=c-c=0$, so $f'(x)=0$.
+b) For $x\neq0$ and $h$ small enough that $x+h\neq0$:
+$$f(x+h)-f(x)=\frac{1}{x+h}-\frac1x=\frac{x-(x+h)}{x(x+h)}=\frac{-h}{x(x+h)}.$$
+Dividing by $h\neq0$: $\dfrac{f(x+h)-f(x)}{h}=-\dfrac{1}{x(x+h)}$. As $h\to0$ this tends to $-\dfrac{1}{x^2}$. So $f'(x)=-\dfrac{1}{x^2}$.
+
+c) For $f(x)=c$ we have $f(x+h)-f(x)=c-c=0$, so $\dfrac{f(x+h)-f(x)}{h}=0$ for every $h\neq0$. Hence $f'(x)=0$.
+
+So $f'(x)=2x-3$ in part a), $f'(x)=-\dfrac{1}{x^2}$ in part b) and $f'(x)=0$ in part c).
 
 **Answer.** a) $2x-3$; b) $-\dfrac1{x^2}$; c) $0$.
 :::
@@ -240,11 +260,19 @@ c) $y=\dfrac1x$ at the point with $x$-coordinate $\dfrac12$.
 2. Substitute into the formula and simplify.
 
 ::solution
-a) $f(-1)=1$, $f'(-1)=-2$. The tangent is $y=-2(x+1)+1=-2x-1$.
+The equation of the tangent to the graph of $y=f(x)$ at the point with $x$-coordinate $x_0$ is
+$$y=f'(x_0)(x-x_0)+f(x_0).$$
 
-b) $f(2)=8$, $f'(2)=12$. The tangent is $y=12(x-2)+8=12x-16$.
+a) For $f(x)=x^2$ we have $f'(x)=2x$. At $x_0=-1$: $f(-1)=1$ and $f'(-1)=-2$. The tangent is
+$$y=-2(x+1)+1=-2x-1.$$
 
-c) $f\left(\dfrac12\right)=2$, $f'\left(\dfrac12\right)=-4$. The tangent is $y=-4\left(x-\dfrac12\right)+2=-4x+4$.
+b) For $f(x)=x^3$ we have $f'(x)=3x^2$. At $x_0=2$: $f(2)=8$ and $f'(2)=12$. The tangent is
+$$y=12(x-2)+8=12x-16.$$
+
+c) For $f(x)=\dfrac1x$ we have $f'(x)=-\dfrac{1}{x^2}$. At $x_0=\dfrac12$: $f\left(\dfrac12\right)=2$ and $f'\left(\dfrac12\right)=-\dfrac{1}{1/4}=-4$. The tangent is
+$$y=-4\left(x-\frac12\right)+2=-4x+4.$$
+
+So the tangents are $y=-2x-1$, $y=12x-16$ and $y=-4x+4$ respectively.
 
 **Answer.** a) $y=-2x-1$; b) $y=12x-16$; c) $y=-4x+4$.
 :::
@@ -266,11 +294,27 @@ c) $g(x)=\begin{cases}x^2&\text{if }x\le1\\3x-2&\text{if }x>1\end{cases}$ at $x_
 2. Calculate the limits as $x\to x_0^-$ and $x\to x_0^+$ and compare.
 
 ::solution
-a) The quotient is $\dfrac{|x-1|}{x-1}$: it equals $1$ from the right and $-1$ from the left. Not differentiable.
+A function is differentiable at $x_0$ if and only if the one-sided limits of the quotient $\dfrac{f(x)-f(x_0)}{x-x_0}$ at $x_0$ exist and are equal.
 
-b) $f(2)=4$. From the left: $\dfrac{x^2-4}{x-2}=x+2\to4$. From the right: $\dfrac{4x-4-4}{x-2}=4\to4$. Differentiable, $f'(2)=4$.
+a) We have $f(1)=|1-1|=0$, so the quotient is $\dfrac{|x-1|-0}{x-1}=\dfrac{|x-1|}{x-1}$. For $x>1$ it equals $\dfrac{x-1}{x-1}=1$; for $x<1$ it equals $\dfrac{-(x-1)}{x-1}=-1$. The two one-sided limits are $1$ and $-1$, which differ. So $f$ is not differentiable at $x_0=1$.
 
-c) $g(1)=1$. From the left: $\dfrac{x^2-1}{x-1}=x+1\to2$. From the right: $\dfrac{3x-2-1}{x-1}=3\to3$. The two limits differ, so not differentiable.
+b) We have $f(2)=2^2=4$.
+
+From the left ($x<2$): $\dfrac{f(x)-f(2)}{x-2}=\dfrac{x^2-4}{x-2}=x+2\to4$ as $x\to2^-$.
+
+From the right ($x>2$): $\dfrac{f(x)-f(2)}{x-2}=\dfrac{4x-4-4}{x-2}=\dfrac{4(x-2)}{x-2}=4\to4$ as $x\to2^+$.
+
+Both one-sided limits equal $4$. So $f$ is differentiable at $x_0=2$ and $f'(2)=4$.
+
+c) We have $g(1)=1^2=1$.
+
+From the left ($x<1$): $\dfrac{g(x)-g(1)}{x-1}=\dfrac{x^2-1}{x-1}=x+1\to2$ as $x\to1^-$.
+
+From the right ($x>1$): $\dfrac{g(x)-g(1)}{x-1}=\dfrac{3x-2-1}{x-1}=\dfrac{3(x-1)}{x-1}=3\to3$ as $x\to1^+$.
+
+The two one-sided limits differ ($2\neq3$). So $g$ is not differentiable at $x_0=1$.
+
+So $f(x)=|x-1|$ is not differentiable at $1$; $f$ in part b) is differentiable at $2$ with $f'(2)=4$; $g$ is not differentiable at $1$.
 
 **Answer.** a) No; b) Yes, $4$; c) No.
 :::
@@ -294,13 +338,17 @@ d) For $f(x)=x^3$, $f'(2)=6$.
 2. Part d: use the result $f'(2)=12$ already found.
 
 ::solution
-a) **False**: the two one-sided limits are $1$ and $-1$.
+a) **False.** For $y=|x|$ we have $y(0)=0$ and the quotient $\dfrac{|x|-0}{x-0}=\dfrac{|x|}{x}$. The right-hand limit is $1$ and the left-hand limit is $-1$; the two limits differ, so $y=|x|$ is not differentiable at $x=0$.
 
-b) **True**: the theorem that differentiable implies continuous.
+b) **True.** If $f$ is differentiable at $x_0$, then $f$ is continuous at $x_0$. Indeed, for $x\neq x_0$:
+$$f(x)-f(x_0)=\frac{f(x)-f(x_0)}{x-x_0}\cdot(x-x_0)\to f'(x_0)\cdot0=0\quad(x\to x_0),$$
+that is, $\lim_{x\to x_0}f(x)=f(x_0)$.
 
-c) **True**: the geometric meaning of the derivative.
+c) **True.** By the geometric meaning of the derivative, $f'(x_0)$ is the gradient of the tangent to the graph of $y=f(x)$ at the point with $x$-coordinate $x_0$.
 
-d) **False**: $f'(2)=12$, not $6$.
+d) **False.** For $f(x)=x^3$ we have $f'(x)=3x^2$, so $f'(2)=3\cdot4=12$, not $6$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -320,9 +368,15 @@ b) Using $s'(t)=10t$ (found in the example), after how many seconds does the obj
 2. b) Solve $10t=40$.
 
 ::solution
-a) $\dfrac{5t^2-45}{t-3}=\dfrac{5(t-3)(t+3)}{t-3}=5(t+3)\to30$. So $v(3)=30$ m/s.
+The instantaneous velocity at time $t_0$ is $v(t_0)=s'(t_0)=\lim_{t\to t_0}\dfrac{s(t)-s(t_0)}{t-t_0}$.
 
-b) $10t=40$, so $t=4$ seconds.
+a) We have $s(3)=5\cdot3^2=45$. For $t\neq3$:
+$$\frac{s(t)-s(3)}{t-3}=\frac{5t^2-45}{t-3}=\frac{5(t-3)(t+3)}{t-3}=5(t+3).$$
+As $t\to3$, $5(t+3)\to30$. So $v(3)=30$ m/s.
+
+b) The velocity at time $t$ is $v(t)=s'(t)=10t$. Setting $v(t)=40$ gives $10t=40$, so $t=4$ (seconds), which satisfies $t>0$.
+
+So the instantaneous velocity at $t=3$ seconds is $30$ m/s, and the object reaches a velocity of $40$ m/s after $4$ seconds.
 
 **Answer.** a) $30$ m/s; b) $4$ seconds.
 :::
@@ -342,9 +396,17 @@ b) Find the actual cost of producing the 101st item, that is $C(101)-C(100)$. Co
 2. b) Find the difference of the two values.
 
 ::solution
-a) $\dfrac{C(q)-C(100)}{q-100}=\dfrac{0.02(q^2-100^2)+3(q-100)}{q-100}=0.02(q+100)+3\to7$. So $C'(100)=7$ million dong per item.
+Let $q$ be the number of items; $C(q)$ is in million dong. We have $C(100)=0.02\cdot100^2+3\cdot100+50=200+300+50=550$.
 
-b) $C(101)-C(100)=0.02\cdot201+3=7.02$ million dong, very close to $C'(100)=7$.
+a) For $q\neq100$:
+$$\frac{C(q)-C(100)}{q-100}=\frac{0.02\left(q^2-100^2\right)+3(q-100)}{q-100}=0.02(q+100)+3.$$
+As $q\to100$, $0.02(q+100)+3\to0.02\cdot200+3=7$. So $C'(100)=7$ million dong per item.
+
+b) We have $C(101)=0.02\cdot101^2+3\cdot101+50=204.02+303+50=557.02$. Hence
+$$C(101)-C(100)=557.02-550=7.02\ \text{(million dong)}.$$
+This is very close to $C'(100)=7$ (a difference of $0.02$ million dong).
+
+So $C'(100)=7$ million dong per item; the actual cost of producing the 101st item is $7.02$ million dong, approximately $C'(100)$.
 
 **Answer.** a) $7$ million dong per item; b) $7.02$ million dong, approximately $C'(100)$.
 :::
@@ -382,7 +444,16 @@ Revisit powers with rational exponents. Let $f(x)=x^{3/2}$ ($x>0$). Find $f'(4)$
 2. Cancel, then let $u\to2$.
 
 ::solution
-Put $u=\sqrt x$; then $x\to4$ is equivalent to $u\to2$. The quotient equals $\dfrac{u^3-8}{u^2-4}=\dfrac{(u-2)(u^2+2u+4)}{(u-2)(u+2)}=\dfrac{u^2+2u+4}{u+2}\to\dfrac{12}{4}=3$.
+The function $f(x)=x^{3/2}=\left(\sqrt x\right)^3$ is defined for $x>0$ and $f(4)=4^{3/2}=8$.
+
+By the definition, $f'(4)=\lim_{x\to4}\dfrac{f(x)-f(4)}{x-4}$.
+
+Put $u=\sqrt x$; then $x=u^2$ and $f(x)=u^3$. Since the square root function is continuous, $x\to4$ is equivalent to $u\to2$ (with $u\neq2$ when $x\neq4$).
+
+For $u\neq2$ the quotient equals
+$$\frac{u^3-8}{u^2-4}=\frac{(u-2)\left(u^2+2u+4\right)}{(u-2)(u+2)}=\frac{u^2+2u+4}{u+2}.$$
+
+As $u\to2$, $\dfrac{u^2+2u+4}{u+2}\to\dfrac{4+4+4}{2+2}=\dfrac{12}{4}=3$.
 
 So $f'(4)=3$.
 
@@ -400,9 +471,18 @@ Let $f$ be an even function that is differentiable at $0$. Prove that $f'(0)=0$.
 2. Compare the two expressions.
 
 ::solution
-Since $f$ is differentiable at $0$, $f'(0)=\displaystyle\lim_{h\to0}\dfrac{f(h)-f(0)}{h}$. Replace $h$ by $-h$ (which still tends to $0$):
-$$f'(0)=\lim_{h\to0}\frac{f(-h)-f(0)}{-h}=\lim_{h\to0}\frac{f(h)-f(0)}{-h}=-f'(0).$$
+Since $f$ is an even function, $f(-h)=f(h)$ for every $h$ in the domain. Since $f$ is differentiable at $0$,
+$$f'(0)=\lim_{h\to0}\frac{f(h)-f(0)}{h}.$$
+
+As $h\to0$ we also have $-h\to0$, so we may replace $h$ by $-h$ in the limit above:
+$$f'(0)=\lim_{h\to0}\frac{f(-h)-f(0)}{-h}.$$
+
+Because $f(-h)=f(h)$,
+$$f'(0)=\lim_{h\to0}\frac{f(h)-f(0)}{-h}=-\lim_{h\to0}\frac{f(h)-f(0)}{h}=-f'(0).$$
+
 Hence $2f'(0)=0$, that is $f'(0)=0$.
+
+So if $f$ is an even function that is differentiable at $0$, then $f'(0)=0$.
 
 **Answer.** $f'(0)=0$.
 :::

@@ -253,7 +253,14 @@ The parallelogram $ABCD$ has $\angle A=65^\circ$. Find the other angles.
 2. Find $\angle B$, then $\angle D$.
 
 ::solution
-We have $\angle C=\angle A=65^\circ$. Since $\angle A+\angle B=180^\circ$, we get $\angle B=115^\circ$, and $\angle D=\angle B=115^\circ$.
+Since $ABCD$ is a parallelogram, opposite angles are equal and two angles on the same side are supplementary.
+
+Opposite angles: $\angle C=\angle A=65^\circ$.
+
+The angles $\angle A$ and $\angle B$ are co-interior angles of the lines $AD\parallel BC$ with transversal $AB$, so $\angle A+\angle B=180^\circ$. Hence
+$$\angle B=180^\circ-\angle A=180^\circ-65^\circ=115^\circ.$$
+
+Opposite angles: $\angle D=\angle B=115^\circ$.
 
 So $\angle C=65^\circ$ and $\angle B=\angle D=115^\circ$.
 
@@ -289,7 +296,12 @@ The parallelogram $ABCD$ has $AB=3x-2$ and $CD=2x+5$ (cm). Find $x$ and $AB$.
 2. Solve it, then find $AB$.
 
 ::solution
-Since $AB=CD$, we have $3x-2=2x+5$, so $x=7$. Then $AB=3\cdot7-2=19$ (cm). (Check: $CD=2\cdot7+5=19$.)
+Since $ABCD$ is a parallelogram, its opposite sides are equal: $AB=CD$. Therefore
+$$\begin{aligned}3x-2&=2x+5\\3x-2x&=5+2\\x&=7.\end{aligned}$$
+
+Substituting $x=7$ into $AB=3x-2$, we get $AB=3\cdot7-2=19$ (cm).
+
+Check: $CD=2\cdot7+5=19$ (cm), which equals $AB$ (satisfied).
 
 So $x=7$ and $AB=19$ cm.
 
@@ -307,7 +319,14 @@ The parallelogram $ABCD$ has $\angle A=4x-10^\circ$ and $\angle C=2x+30^\circ$. 
 2. Find $\angle A$, then $\angle B=180^\circ-\angle A$.
 
 ::solution
-Since $\angle A=\angle C$, we have $4x-10^\circ=2x+30^\circ$, so $2x=40^\circ$ and $x=20^\circ$. Hence $\angle A=4\cdot20^\circ-10^\circ=70^\circ$ and $\angle B=180^\circ-70^\circ=110^\circ$.
+Since $ABCD$ is a parallelogram, opposite angles are equal: $\angle A=\angle C$. Therefore
+$$\begin{aligned}4x-10^\circ&=2x+30^\circ\\4x-2x&=30^\circ+10^\circ\\2x&=40^\circ\\x&=20^\circ.\end{aligned}$$
+
+Substituting $x=20^\circ$, we get $\angle A=4\cdot20^\circ-10^\circ=70^\circ$.
+
+Check: $\angle C=2\cdot20^\circ+30^\circ=70^\circ$, which equals $\angle A$ (satisfied).
+
+Adjacent angles of a parallelogram are supplementary, so $\angle A+\angle B=180^\circ$. Hence $\angle B=180^\circ-70^\circ=110^\circ$.
 
 So $x=20^\circ$, $\angle A=70^\circ$ and $\angle B=110^\circ$.
 
@@ -325,9 +344,19 @@ The quadrilateral $ABCD$ has $\angle A=\angle C=110^\circ$ and $\angle B=\angle 
 2. Deduce the pairs of parallel sides.
 
 ::solution
-We have $\angle A+\angle B=110^\circ+70^\circ=180^\circ$. These are co-interior angles of the lines $AD$, $BC$ with transversal $AB$, so $AD\parallel BC$. Also $\angle A+\angle D=180^\circ$, so $AB\parallel CD$.
+We use the criterion: a quadrilateral with opposite sides parallel is a parallelogram.
 
-The quadrilateral $ABCD$ has opposite sides parallel, so it is a parallelogram.
+Consider the lines $AD$, $BC$ with transversal $AB$. We have
+$$\angle A+\angle B=110^\circ+70^\circ=180^\circ.$$
+The angles $\angle A$ and $\angle B$ are co-interior angles with sum $180^\circ$, so $AD\parallel BC$.
+
+Consider the lines $AB$, $CD$ with transversal $AD$. We have
+$$\angle A+\angle D=110^\circ+70^\circ=180^\circ.$$
+The angles $\angle A$ and $\angle D$ are co-interior angles with sum $180^\circ$, so $AB\parallel CD$.
+
+The quadrilateral $ABCD$ has $AD\parallel BC$ and $AB\parallel CD$, that is, both pairs of opposite sides are parallel.
+
+So $ABCD$ is a parallelogram.
 
 **Answer.** $ABCD$ is a parallelogram.
 :::
@@ -343,9 +372,16 @@ Suppose a plot of land is a parallelogram $ABCD$ with $AB=45$ m, $BC=30$ m and $
 2. Find $\angle C$, $\angle B$ and $\angle D$.
 
 ::solution
-The perimeter is $2(45+30)=150$ (m). We have $\angle C=\angle A=60^\circ$, $\angle B=180^\circ-60^\circ=120^\circ$ and $\angle D=\angle B=120^\circ$.
+The plot $ABCD$ is a parallelogram, so opposite sides are equal: $CD=AB=45$ m and $AD=BC=30$ m.
 
-So the perimeter is $150$ m, $\angle C=60^\circ$ and $\angle B=\angle D=120^\circ$.
+The perimeter of the plot is
+$$2(AB+BC)=2(45+30)=2\cdot75=150\ (\text{m}).$$
+
+Opposite angles are equal, so $\angle C=\angle A=60^\circ$.
+
+Adjacent angles are supplementary, so $\angle A+\angle B=180^\circ$. Hence $\angle B=180^\circ-60^\circ=120^\circ$, and $\angle D=\angle B=120^\circ$.
+
+So the perimeter of the plot is $150$ m, $\angle C=60^\circ$ and $\angle B=\angle D=120^\circ$.
 
 **Answer.** $150$ m; $\angle C=60^\circ$; $\angle B=\angle D=120^\circ$.
 :::

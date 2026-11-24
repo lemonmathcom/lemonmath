@@ -217,7 +217,14 @@ Write the general equation of the line through $A(2, 1)$ with normal vector $\ve
 2. Expand and simplify.
 
 ::solution
-$1\cdot(x-2)-3(y-1)=0\iff x-3y+1=0$. Check $A$: $2-3+1=0$.
+The line passes through $A(2, 1)$ and has normal vector $\vec{n}=(1, -3)$, so its equation has the form $a(x-x_A)+b(y-y_A)=0$ with $(a, b)=(1, -3)$.
+
+Substituting $x_A=2$, $y_A=1$, $a=1$, $b=-3$, we get
+$$\begin{aligned}1\cdot(x-2)-3(y-1)&=0\\ x-2-3y+3&=0\\ x-3y+1&=0.\end{aligned}$$
+
+Check: the coordinates of $A(2, 1)$ satisfy the equation because $2-3\cdot1+1=0$.
+
+So the general equation of the line is $x-3y+1=0$.
 
 **Answer.** $x-3y+1=0$.
 :::
@@ -233,7 +240,17 @@ Write the parametric and the general equations of the line through $A(1, 1)$ wit
 2. Take $\vec{n}=(1, -2)$ and write the general form.
 
 ::solution
-Parametric: $x=1+2t$, $y=1+t$. With $\vec{n}=(1, -2)$: $(x-1)-2(y-1)=0\iff x-2y+1=0$.
+The line passes through $A(1, 1)$ and has direction vector $\vec{u}=(2, 1)$.
+
+The parametric equations of the line through $A(x_A, y_A)$ with direction vector $\vec{u}=(a, b)$ are $x=x_A+at$, $y=y_A+bt$. With $A(1, 1)$ and $(a, b)=(2, 1)$, we get
+$$\begin{cases}x=1+2t\\ y=1+t\end{cases}\quad(t\in\mathbb{R}).$$
+
+To write the general equation, we need a normal vector $\vec{n}$ perpendicular to $\vec{u}$. Choose $\vec{n}=(1, -2)$; check: $\vec{u}\cdot\vec{n}=2\cdot1+1\cdot(-2)=0$.
+
+The line passes through $A(1, 1)$ and has normal vector $\vec{n}=(1, -2)$, so its equation is
+$$\begin{aligned}1\cdot(x-1)-2(y-1)&=0\\ x-1-2y+2&=0\\ x-2y+1&=0.\end{aligned}$$
+
+So the parametric equations of the line are $x=1+2t$, $y=1+t$ and its general equation is $x-2y+1=0$.
 
 **Answer.** $\begin{cases}x=1+2t\\ y=1+t\end{cases}$ and $x-2y+1=0$.
 :::
@@ -249,7 +266,18 @@ Write the general equation of the line through $A(-1, 2)$ and $B(3, -2)$.
 2. Find a normal vector and write the equation through $A$.
 
 ::solution
-$\overrightarrow{AB}=(4, -4)=4(1, -1)$, so $\vec{u}=(1, -1)$ and $\vec{n}=(1, 1)$. Then $(x+1)+(y-2)=0\iff x+y-1=0$. Check $B$: $3-2-1=0$.
+The line through $A(-1, 2)$ and $B(3, -2)$ has $\overrightarrow{AB}$ as a direction vector.
+
+We have $\overrightarrow{AB}=(3-(-1), -2-2)=(4, -4)=4(1, -1)$. Hence we may choose the direction vector $\vec{u}=(1, -1)$.
+
+A normal vector $\vec{n}$ is perpendicular to $\vec{u}$, so we choose $\vec{n}=(1, 1)$ (because $\vec{u}\cdot\vec{n}=1\cdot1+(-1)\cdot1=0$).
+
+The line passes through $A(-1, 2)$ and has normal vector $\vec{n}=(1, 1)$, so its equation is
+$$\begin{aligned}1\cdot(x+1)+1\cdot(y-2)&=0\\ x+y-1&=0.\end{aligned}$$
+
+Check: for $B(3, -2)$ we have $3-2-1=0$; for $A(-1, 2)$ we have $-1+2-1=0$.
+
+So the general equation of the line $AB$ is $x+y-1=0$.
 
 **Answer.** $x+y-1=0$.
 :::
@@ -265,7 +293,15 @@ Find the gradient and the intercepts with both axes of the line $4x-2y+8=0$.
 2. Put $y=0$, then $x=0$.
 
 ::solution
-$4x-2y+8=0\iff y=2x+4$, so $k=2$. For $y=0$: $x=-2$. For $x=0$: $y=4$.
+To find the gradient, we write the equation in the form $y=kx+m$.
+
+From $4x-2y+8=0$ we get $2y=4x+8$, that is $y=2x+4$. Hence the gradient is $k=2$.
+
+Intercept with the $x$-axis: setting $y=0$ gives $4x+8=0$, so $x=-2$. The intercept is $(-2, 0)$.
+
+Intercept with the $y$-axis: setting $x=0$ gives $-2y+8=0$, so $y=4$. The intercept is $(0, 4)$.
+
+So the line has gradient $k=2$, meets the $x$-axis at $(-2, 0)$ and the $y$-axis at $(0, 4)$.
 
 **Answer.** $k=2$; intercepts $(-2, 0)$ and $(0, 4)$.
 :::
@@ -281,7 +317,16 @@ Convert the parametric equations $\begin{cases}x=2-t\\ y=3+2t\end{cases}$ to a g
 2. Take $\vec{n}=(2, 1)$ and write the general form.
 
 ::solution
-$\vec{u}=(-1, 2)$, $\vec{n}=(2, 1)$, point $(2, 3)$: $2(x-2)+(y-3)=0\iff 2x+y-7=0$.
+From the parametric equations $x=2-t$, $y=3+2t$, the coefficients of $t$ give the direction vector $\vec{u}=(-1, 2)$, and $t=0$ gives the point $M(2, 3)$ on the line.
+
+A normal vector $\vec{n}$ is perpendicular to $\vec{u}$, so we choose $\vec{n}=(2, 1)$ (because $\vec{u}\cdot\vec{n}=-1\cdot2+2\cdot1=0$).
+
+The line passes through $M(2, 3)$ and has normal vector $\vec{n}=(2, 1)$, so its equation is
+$$\begin{aligned}2(x-2)+1\cdot(y-3)&=0\\ 2x-4+y-3&=0\\ 2x+y-7&=0.\end{aligned}$$
+
+Check: for $t=1$ we get the point $(1, 5)$, and $2\cdot1+5-7=0$.
+
+So the general equation of the line is $2x+y-7=0$.
 
 **Answer.** $2x+y-7=0$.
 :::
@@ -306,13 +351,17 @@ d) The line through the origin perpendicular to $d$ has equation $2x+y=0$.
 3. The perpendicular line takes the direction vector of $d$ as its normal vector.
 
 ::solution
-a) **True**: the coefficients of $x$ and $y$ are $1$ and $-2$.
+The line $d: x-2y+4=0$ has the form $ax+by+c=0$ with $a=1$, $b=-2$, $c=4$.
 
-b) **True**: $\vec{u}\cdot\vec{n}=2\cdot1+1\cdot(-2)=0$, so $\vec{u}$ is parallel to $d$.
+a) **True.** The vector $(a, b)=(1, -2)$ is a normal vector of $d$, which is exactly $\vec{n}=(1, -2)$.
 
-c) **False**: $2-2\cdot1+4=4\neq 0$.
+b) **True.** A direction vector of $d$ is perpendicular to the normal vector $\vec{n}=(1, -2)$. We have $\vec{u}\cdot\vec{n}=2\cdot1+1\cdot(-2)=0$, so $\vec{u}=(2, 1)$ is a direction vector of $d$.
 
-d) **True**: the perpendicular line has normal vector $(2, 1)$ and passes through $O(0, 0)$: $2x+y=0$.
+c) **False.** Substituting the coordinates of $M(2, 1)$ into the left-hand side: $2-2\cdot1+4=4\neq0$. So $M$ does not lie on $d$.
+
+d) **True.** A line perpendicular to $d$ has the direction vector $\vec{u}=(2, 1)$ of $d$ as a normal vector. It passes through $O(0, 0)$, so its equation is $2(x-0)+1\cdot(y-0)=0$, that is $2x+y=0$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -328,7 +377,15 @@ The line $\Delta$ passes through $P(1, -2)$ and is parallel to the line $2x-y+3=
 2. Put $x=0$ to find the intercept with the $y$-axis.
 
 ::solution
-$2x-y+C'=0$ through $P$: $2+2+C'=0$, so $C'=-4$ and $\Delta: 2x-y-4=0$. For $x=0$: $y=-4$.
+Since $\Delta$ is parallel to the line $2x-y+3=0$, the equation of $\Delta$ has the form $2x-y+C'=0$ with $C'\neq3$.
+
+$\Delta$ passes through $P(1, -2)$, so substituting $x=1$, $y=-2$ gives
+$$2\cdot1-(-2)+C'=0\iff4+C'=0\iff C'=-4.$$
+The value $C'=-4\neq3$ is acceptable. So $\Delta: 2x-y-4=0$.
+
+The point where $\Delta$ meets the $y$-axis has $x=0$. Substituting $x=0$ into the equation of $\Delta$: $-y-4=0$, so $y=-4$.
+
+So $\Delta$ meets the $y$-axis at the point $(0, -4)$, and the $y$-coordinate of this point is $-4$.
 
 **Answer.** $-4$.
 :::
@@ -351,11 +408,23 @@ c) Write the general equation of the path.
 3. Use $\vec{n}$ and the point $A$ to write the general form.
 
 ::solution
-a) $x=2+3t$, $y=1+4t$ ($t\ge 0$).
+Let $t$ (hours, $t\ge0$) be the time the ship has travelled since leaving $A(2, 1)$. Every hour the ship covers a displacement given by the vector $\vec{v}=(3, 4)$ (units: km).
 
-b) $2+3t=11\Rightarrow t=3$, and $1+4\cdot3=13$ also holds, so the ship reaches $B$ after $3$ hours.
+a) The vector $\vec{v}=(3, 4)$ is a direction vector of the path. The parametric equations of the ship's path are
+$$\begin{cases}x=2+3t\\ y=1+4t\end{cases}\quad(t\ge0).$$
 
-c) $4(x-2)-3(y-1)=0\iff 4x-3y-5=0$. Check $B$: $44-39-5=0$.
+b) The ship reaches the port $B(11, 13)$ when there is a $t$ with $2+3t=11$ and $1+4t=13$.
+
+From $2+3t=11$ we get $3t=9$, that is $t=3$. For $t=3$ we have $1+4\cdot3=13$, so the $y$-coordinate also matches.
+
+Both equations give $t=3$ (which satisfies $t\ge0$). So the ship reaches the port $B$ after $3$ hours.
+
+c) The path has direction vector $\vec{v}=(3, 4)$, so we choose the normal vector $\vec{n}=(4, -3)$ (because $\vec{v}\cdot\vec{n}=3\cdot4+4\cdot(-3)=0$). The path passes through $A(2, 1)$, so its equation is
+$$\begin{aligned}4(x-2)-3(y-1)&=0\\ 4x-8-3y+3&=0\\ 4x-3y-5&=0.\end{aligned}$$
+
+Check: for $B(11, 13)$ we have $4\cdot11-3\cdot13-5=44-39-5=0$.
+
+So the path of the ship has parametric equations $x=2+3t$, $y=1+4t$; the ship reaches the port $B$ after $3$ hours; the general equation of the path is $4x-3y-5=0$.
 
 **Answer.** a) $x=2+3t$, $y=1+4t$; b) $3$ hours; c) $4x-3y-5=0$.
 :::
@@ -371,7 +440,20 @@ A line through $M(2, 3)$ meets the $x$-axis at $A(a, 0)$ and the $y$-axis at $B(
 2. Write the intercept form and convert it to general form.
 
 ::solution
-$\dfrac{a+0}{2}=2$ and $\dfrac{0+b}{2}=3$, so $a=4$, $b=6$. The line is $\dfrac{x}{4}+\dfrac{y}{6}=1$; multiplying both sides by $12$: $3x+2y-12=0$. Check $M$: $6+6-12=0$.
+Since $M(2, 3)$ is the midpoint of $AB$ with $A(a, 0)$ and $B(0, b)$, the midpoint formula gives
+$$\frac{a+0}{2}=2,\qquad\frac{0+b}{2}=3.$$
+
+Hence $a=4$ and $b=6$, that is $A(4, 0)$ and $B(0, 6)$.
+
+The line meeting the axes at $A(4, 0)$ and $B(0, 6)$ has the intercept form
+$$\frac{x}{4}+\frac{y}{6}=1.$$
+
+Multiplying both sides by $12$ gives
+$$3x+2y=12\iff3x+2y-12=0.$$
+
+Check: for $M(2, 3)$ we have $3\cdot2+2\cdot3-12=0$.
+
+So the equation of the required line is $3x+2y-12=0$.
 
 **Answer.** $3x+2y-12=0$.
 :::
@@ -394,11 +476,31 @@ c) Find the coordinates of the foot $H$ of the altitude.
 3. Write the equation of $BC$ and solve the system of two equations.
 
 ::solution
-a) $\overrightarrow{AB}=(4, 2)$, $\overrightarrow{AC}=(-2, 4)$, $\overrightarrow{AB}\cdot\overrightarrow{AC}=-8+8=0$, so $\angle BAC=90^\circ$.
+a) We have $\overrightarrow{AB}=(5-1, 4-2)=(4, 2)$ and $\overrightarrow{AC}=(-1-1, 6-2)=(-2, 4)$.
 
-b) $\overrightarrow{BC}=(-6, 2)=-2(3, -1)$, so the altitude $AH$ is $3(x-1)-(y-2)=0\iff 3x-y-1=0$.
+The scalar product is
+$$\overrightarrow{AB}\cdot\overrightarrow{AC}=4\cdot(-2)+2\cdot4=-8+8=0.$$
+Hence $\overrightarrow{AB}\perp\overrightarrow{AC}$, that is $\angle BAC=90^\circ$. So the triangle $ABC$ is right-angled at $A$.
 
-c) $BC$ has direction vector $(3, -1)$ and normal vector $(1, 3)$: $(x-5)+3(y-4)=0\iff x+3y-17=0$. Substituting $y=3x-1$: $x+9x-3-17=0$, so $x=2$, $y=5$.
+b) The altitude $AH$ is perpendicular to $BC$, so it has $\overrightarrow{BC}$ as a normal vector.
+
+We have $\overrightarrow{BC}=(-1-5, 6-4)=(-6, 2)=-2(3, -1)$, so we may take $(3, -1)$ as a normal vector of $AH$.
+
+The line $AH$ passes through $A(1, 2)$, so its equation is
+$$\begin{aligned}3(x-1)-1\cdot(y-2)&=0\\ 3x-3-y+2&=0\\ 3x-y-1&=0.\end{aligned}$$
+
+c) $H$ is the intersection of the altitude $AH$ and the line $BC$.
+
+The line $BC$ has direction vector $(3, -1)$, so it has normal vector $(1, 3)$ (because $3\cdot1+(-1)\cdot3=0$). The line $BC$ passes through $B(5, 4)$, so its equation is
+$$(x-5)+3(y-4)=0\iff x+3y-17=0.$$
+
+The coordinates of $H$ satisfy the system $3x-y-1=0$ and $x+3y-17=0$. From the first equation, $y=3x-1$. Substituting into the second equation:
+$$\begin{aligned}x+3(3x-1)-17&=0\\ x+9x-3-17&=0\\ 10x&=20\\ x&=2.\end{aligned}$$
+Hence $y=3\cdot2-1=5$.
+
+Check: $H(2, 5)$ lies on $BC$ because $2+3\cdot5-17=0$.
+
+So the triangle $ABC$ is right-angled at $A$; the altitude $AH$ has equation $3x-y-1=0$; the foot of the altitude is $H(2, 5)$.
 
 **Answer.** b) $3x-y-1=0$; c) $H(2, 5)$.
 :::

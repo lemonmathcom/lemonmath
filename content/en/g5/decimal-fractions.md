@@ -162,7 +162,13 @@ Which of the fractions $\dfrac{4}{10}$, $\dfrac{9}{25}$, $\dfrac{17}{100}$, $\df
 2. Choose the fractions whose denominator is $10$, $100$ or $1\,000$.
 
 ::solution
-The fractions $\dfrac{4}{10}$, $\dfrac{17}{100}$ and $\dfrac{120}{1\,000}$ have denominators $10$, $100$ and $1\,000$. The other two have denominators $25$ and $8$.
+A decimal fraction is a fraction whose denominator is $10$, $100$, $1\,000$, $\ldots$ We look at the denominator of each fraction.
+
+The fractions $\dfrac{4}{10}$, $\dfrac{17}{100}$ and $\dfrac{120}{1\,000}$ have denominators $10$, $100$ and $1\,000$, so they are decimal fractions.
+
+The fractions $\dfrac{9}{25}$ and $\dfrac{3}{8}$ have denominators $25$ and $8$, which are not $10$, $100$, $1\,000$, $\ldots$, so they are not decimal fractions.
+
+So the decimal fractions are $\dfrac{4}{10}$, $\dfrac{17}{100}$ and $\dfrac{120}{1\,000}$.
 
 **Answer.** $\dfrac{4}{10}$, $\dfrac{17}{100}$, $\dfrac{120}{1\,000}$.
 :::
@@ -178,7 +184,15 @@ Write the fractions $\dfrac{4}{5}$ and $\dfrac{9}{25}$ as decimal fractions.
 2. Multiply the numerator and denominator.
 
 ::solution
-$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$ and $\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$.
+To write a fraction as a decimal fraction, we find a number by which to multiply both the numerator and the denominator so that the denominator becomes $10$, $100$, $\ldots$
+
+For $\dfrac{4}{5}$: since $5\times2=10$, we multiply both the numerator and the denominator by $2$:
+$$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$$
+
+For $\dfrac{9}{25}$: since $25\times4=100$, we multiply both the numerator and the denominator by $4$:
+$$\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$$
+
+So $\dfrac{4}{5}=\dfrac{8}{10}$ and $\dfrac{9}{25}=\dfrac{36}{100}$.
 
 **Answer.** $\dfrac{8}{10}$ and $\dfrac{36}{100}$.
 :::
@@ -194,7 +208,14 @@ Write the fraction $\dfrac{7}{8}$ as a decimal fraction with denominator $1\,000
 2. Multiply the numerator and denominator.
 
 ::solution
-$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}.$$
+We look for the number that multiplies the denominator $8$ to give $1\,000$. We have $1\,000\div8=125$.
+
+Multiplying both the numerator and the denominator by $125$, we get:
+$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}$$
+
+*Check.* $7\times125=875$ and $8\times125=1\,000$. Correct.
+
+So $\dfrac{7}{8}=\dfrac{875}{1\,000}$.
 
 **Answer.** $\dfrac{875}{1\,000}$.
 :::
@@ -210,7 +231,17 @@ Simplify the decimal fractions $\dfrac{60}{100}$ and $\dfrac{125}{1\,000}$ to th
 2. Which number divides both $125$ and $1\,000$?
 
 ::solution
-$\dfrac{60}{100}=\dfrac{60\div20}{100\div20}=\dfrac{3}{5}$ and $\dfrac{125}{1\,000}=\dfrac{125\div125}{1\,000\div125}=\dfrac{1}{8}$.
+To simplify a fraction, we divide both the numerator and the denominator by a whole number greater than $1$ that divides both of them.
+
+For $\dfrac{60}{100}$: both $60$ and $100$ are divisible by $20$, so
+$$\dfrac{60}{100}=\dfrac{60\div20}{100\div20}=\dfrac{3}{5}$$
+In $\dfrac{3}{5}$, no whole number greater than $1$ divides both $3$ and $5$, so the fraction is in its simplest form.
+
+For $\dfrac{125}{1\,000}$: both $125$ and $1\,000$ are divisible by $125$, so
+$$\dfrac{125}{1\,000}=\dfrac{125\div125}{1\,000\div125}=\dfrac{1}{8}$$
+The numerator of $\dfrac{1}{8}$ is $1$, so the fraction is in its simplest form.
+
+So $\dfrac{60}{100}=\dfrac{3}{5}$ and $\dfrac{125}{1\,000}=\dfrac{1}{8}$.
 
 **Answer.** $\dfrac{3}{5}$ and $\dfrac{1}{8}$.
 :::
@@ -226,7 +257,14 @@ Write $450$ g as a fraction of a kilogram, then simplify it to its simplest form
 2. Simplify the fraction.
 
 ::solution
-$450$ g $=\dfrac{450}{1\,000}$ kg. Both $450$ and $1\,000$ are divisible by $50$: $\dfrac{450}{1\,000}=\dfrac{9}{20}$ kg.
+We have $1$ kg $=1\,000$ g, so $1$ g is $\dfrac{1}{1\,000}$ kg. Hence
+$$450\ \text{g}=\dfrac{450}{1\,000}\ \text{kg}$$
+
+Both $450$ and $1\,000$ are divisible by $50$, so
+$$\dfrac{450}{1\,000}=\dfrac{450\div50}{1\,000\div50}=\dfrac{9}{20}$$
+In $\dfrac{9}{20}$, no whole number greater than $1$ divides both $9$ and $20$, so the fraction is in its simplest form.
+
+So $450$ g $=\dfrac{9}{20}$ kg.
 
 **Answer.** $\dfrac{9}{20}$ kg.
 :::
@@ -242,8 +280,16 @@ In the morning Lan walks $\dfrac{2}{10}$ km, and in the afternoon she walks $\df
 2. Change $\dfrac{2}{10}$ to a fraction with denominator $100$, then add.
 
 ::solution
-We have $\dfrac{2}{10}=\dfrac{20}{100}$. The number of kilometres Lan walks altogether is:
-$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}.$$
+Solution
+
+The two fractions have different denominators, so we convert them to a common denominator. Since $10\times10=100$,
+$$\dfrac{2}{10}=\dfrac{2\times10}{10\times10}=\dfrac{20}{100}$$
+
+The number of kilometres Lan walks altogether is:
+$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}$$
+(We simplify by dividing both the numerator and the denominator by $5$.)
+
+So Lan walks $\dfrac{11}{20}$ km altogether.
 
 **Answer.** $\dfrac{11}{20}$ km.
 :::
@@ -259,7 +305,14 @@ Remember the lesson on comparing fractions. Compare $\dfrac{7}{10}$ and $\dfrac{
 2. Compare the two numerators.
 
 ::solution
-$\dfrac{7}{10}=\dfrac{70}{100}$. Since $70>65$, $\dfrac{70}{100}>\dfrac{65}{100}$.
+To compare two fractions with different denominators, we convert them to a common denominator and then compare the numerators.
+
+Since $10\times10=100$,
+$$\dfrac{7}{10}=\dfrac{7\times10}{10\times10}=\dfrac{70}{100}$$
+
+The fractions $\dfrac{70}{100}$ and $\dfrac{65}{100}$ have the same denominator. Since $70>65$, we have $\dfrac{70}{100}>\dfrac{65}{100}$.
+
+So $\dfrac{7}{10}>\dfrac{65}{100}$.
 
 **Answer.** $\dfrac{7}{10}>\dfrac{65}{100}$.
 :::
@@ -275,8 +328,15 @@ Binh has $\dfrac{9}{10}$ of a litre of milk and drinks $\dfrac{37}{100}$ of a li
 2. Change $\dfrac{9}{10}$ to a fraction with denominator $100$, then subtract.
 
 ::solution
-We have $\dfrac{9}{10}=\dfrac{90}{100}$. The number of litres of milk left is:
-$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(litres)}.$$
+Solution
+
+We convert to a common denominator. Since $10\times10=100$,
+$$\dfrac{9}{10}=\dfrac{9\times10}{10\times10}=\dfrac{90}{100}$$
+
+The number of litres of milk left is:
+$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(litres)}$$
+
+So Binh has $\dfrac{53}{100}$ litre of milk left.
 
 **Answer.** $\dfrac{53}{100}$ litre.
 :::
@@ -292,7 +352,18 @@ Remember the lesson on finding a fraction of an amount. Write $\dfrac{3}{5}$ as 
 2. Divide $150$ by $10$ and multiply by $6$.
 
 ::solution
-$\dfrac{3}{5}=\dfrac{6}{10}$. So $\dfrac{3}{5}$ of $150$ kg is $150\div10\times6=15\times6=90$ (kg).
+Solution
+
+Since $5\times2=10$, we multiply both the numerator and the denominator of $\dfrac{3}{5}$ by $2$:
+$$\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$$
+
+$\dfrac{1}{10}$ of $150$ kg is:
+$$150\div10=15\ \text{(kg)}$$
+
+$\dfrac{3}{5}$ of $150$ kg, that is $\dfrac{6}{10}$ of $150$ kg, is:
+$$15\times6=90\ \text{(kg)}$$
+
+So $\dfrac{3}{5}=\dfrac{6}{10}$ and $\dfrac{3}{5}$ of $150$ kg is $90$ kg.
 
 **Answer.** $\dfrac{6}{10}$; $90$ kg.
 :::
@@ -308,9 +379,15 @@ Find all the one-digit numbers $n$ (other than $0$) for which the fraction $\dfr
 2. For each $n$ that divides it, write $\dfrac{1}{n}=\dfrac{?}{1\,000}$.
 
 ::solution
-$1\,000$ is divisible by $1$, $2$, $4$, $5$, $8$, and not by $3$, $6$, $7$, $9$.
+If $\dfrac{1}{n}=\dfrac{k}{1\,000}$ with $k$ a whole number, then $n\times k=1\,000$, so $1\,000$ must be divisible by $n$. Conversely, if $1\,000$ is divisible by $n$, then $\dfrac{1}{n}=\dfrac{1\,000\div n}{1\,000}$. So we check which one-digit numbers divide $1\,000$.
 
-For example $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000}$, $\dfrac{1}{5}=\dfrac{200}{1\,000}$, $\dfrac{1}{2}=\dfrac{500}{1\,000}$, $\dfrac{1}{1}=\dfrac{1\,000}{1\,000}$.
+- $1\,000\div1=1\,000$, $1\,000\div2=500$, $1\,000\div4=250$, $1\,000\div5=200$, $1\,000\div8=125$: divisible.
+- $1\,000\div3$, $1\,000\div6$, $1\,000\div7$, $1\,000\div9$ all leave a non-zero remainder: not divisible.
+
+So $n$ can be $1$, $2$, $4$, $5$, $8$. We have
+$$\dfrac{1}{1}=\dfrac{1\,000}{1\,000},\ \dfrac{1}{2}=\dfrac{500}{1\,000},\ \dfrac{1}{4}=\dfrac{250}{1\,000},\ \dfrac{1}{5}=\dfrac{200}{1\,000},\ \dfrac{1}{8}=\dfrac{125}{1\,000}$$
+
+So $n=1$, $2$, $4$, $5$ or $8$.
 
 **Answer.** $n=1$, $2$, $4$, $5$ or $8$.
 :::

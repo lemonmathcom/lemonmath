@@ -161,7 +161,11 @@ Cho tam giác $ABC$ có $AB=4$, $AC=6$. Đường phân giác $AD$ ($D\in BC$) c
 2. Giải để tìm $DC$.
 
 ::solution
-Vì $AD$ là đường phân giác nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, hay $\dfrac{2}{DC}=\dfrac46$. Suy ra $DC=\dfrac{2\cdot6}{4}=3$.
+Vì $AD$ là đường phân giác của tam giác $ABC$ nên theo tính chất đường phân giác,
+$$\frac{DB}{DC}=\frac{AB}{AC}.$$
+
+Thay $DB=2$, $AB=4$, $AC=6$, ta được $\dfrac{2}{DC}=\dfrac46$. Suy ra
+$$DC=\frac{2\cdot6}{4}=3.$$
 
 Vậy $DC=3$.
 
@@ -179,7 +183,15 @@ Cho tam giác $ABC$ có $AB=10$, $AC=14$, $BC=18$. Đường phân giác $AD$ ($
 2. Tính $DB$, rồi $DC=BC-DB$.
 
 ::solution
-Vì $AD$ là đường phân giác nên $DB=18\cdot\dfrac{10}{24}=7{,}5$. Suy ra $DC=18-7{,}5=10{,}5$.
+Vì $AD$ là đường phân giác của tam giác $ABC$ nên theo tính chất đường phân giác,
+$$\frac{DB}{DC}=\frac{AB}{AC}=\frac{10}{14}.$$
+
+Suy ra $\dfrac{DB}{DB+DC}=\dfrac{10}{10+14}$, tức là $\dfrac{DB}{BC}=\dfrac{10}{24}$ (vì $D$ nằm giữa $B$ và $C$ nên $DB+DC=BC$). Do đó
+$$DB=18\cdot\frac{10}{24}=7{,}5.$$
+
+Từ đó $DC=BC-DB=18-7{,}5=10{,}5$.
+
+Kiểm tra: $\dfrac{DB}{DC}=\dfrac{7{,}5}{10{,}5}=\dfrac{5}{7}=\dfrac{10}{14}$ (đúng).
 
 Vậy $DB=7{,}5$ và $DC=10{,}5$.
 
@@ -197,7 +209,11 @@ Cho tam giác $ABC$ có $AB=7{,}5$. Đường phân giác $AD$ ($D\in BC$) có $
 2. Dùng tính chất của tỉ lệ thức để tìm $AC$.
 
 ::solution
-Vì $AD$ là đường phân giác nên $\dfrac{AB}{AC}=\dfrac{DB}{DC}$, hay $\dfrac{7{,}5}{AC}=\dfrac{4{,}5}{6}$. Suy ra $AC=\dfrac{7{,}5\cdot6}{4{,}5}=10$.
+Vì $AD$ là đường phân giác của tam giác $ABC$ nên theo tính chất đường phân giác,
+$$\frac{AB}{AC}=\frac{DB}{DC}.$$
+
+Thay $AB=7{,}5$, $DB=4{,}5$, $DC=6$, ta được $\dfrac{7{,}5}{AC}=\dfrac{4{,}5}{6}$. Suy ra
+$$AC=\frac{7{,}5\cdot6}{4{,}5}=\frac{45}{4{,}5}=10.$$
 
 Vậy $AC=10$.
 
@@ -257,9 +273,19 @@ Cho tam giác $ABC$, đường phân giác $AD$ ($D\in BC$). Chứng minh rằng
 2. Dùng $DB+DC=BC$.
 
 ::solution
-Vì $AD$ là đường phân giác nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, suy ra $\dfrac{DB}{AB}=\dfrac{DC}{AC}$. Theo tính chất của dãy tỉ số bằng nhau, ta có
+GT: Tam giác $ABC$, $AD$ là đường phân giác ($D\in BC$).
+
+KL: $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+Chứng minh. Vì $AD$ là đường phân giác nên theo tính chất đường phân giác, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, suy ra $\dfrac{DB}{AB}=\dfrac{DC}{AC}$.
+
+Theo tính chất của dãy tỉ số bằng nhau, ta có
 $$\frac{DB}{AB}=\frac{DC}{AC}=\frac{DB+DC}{AB+AC}=\frac{BC}{AB+AC}.$$
-Do đó $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+(Ở đây $DB+DC=BC$ vì $D$ nằm giữa $B$ và $C$.)
+
+Từ $\dfrac{DB}{AB}=\dfrac{BC}{AB+AC}$ suy ra $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+Vậy $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$ (điều phải chứng minh).
 
 **Đáp số.** Đã chứng minh.
 :::
@@ -275,7 +301,14 @@ Cho tam giác $ABC$ có $AB=10$, $AC=15$, $BC=20$. Đường phân giác $AD$ ($
 2. Viết $\dfrac{DE}{AB}=\dfrac{CD}{CB}$.
 
 ::solution
-Vì $AD$ là đường phân giác nên $DC=20\cdot\dfrac{15}{25}=12$. Vì $DE\parallel AB$ nên theo định lí Thalès, ta có $\dfrac{DE}{AB}=\dfrac{CD}{CB}=\dfrac{12}{20}$. Suy ra $DE=10\cdot\dfrac{12}{20}=6$.
+Vì $AD$ là đường phân giác của tam giác $ABC$ nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}=\dfrac{10}{15}$. Theo tính chất của dãy tỉ số bằng nhau, $\dfrac{DC}{BC}=\dfrac{AC}{AB+AC}=\dfrac{15}{25}$. Do đó
+$$DC=20\cdot\frac{15}{25}=12.$$
+
+Vì $DE\parallel AB$ (với $E\in AC$) nên theo định lí Thalès (xét tam giác $CAB$ có $DE\parallel AB$), ta có
+$$\frac{DE}{AB}=\frac{CD}{CB}=\frac{12}{20}.$$
+
+Suy ra
+$$DE=10\cdot\frac{12}{20}=6.$$
 
 Vậy $DE=6$.
 
@@ -293,7 +326,15 @@ Tam giác $ABC$ có $AB=6$ cm, $AC=10$ cm và diện tích $48$ cm². Đường 
 2. Chia $48$ cm² theo tỉ số đó.
 
 ::solution
-Ta có $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac{6}{10}=\dfrac35$ và $S_{ABD}+S_{ACD}=48$. Suy ra $S_{ABD}=\dfrac38\cdot48=18$ (cm²) và $S_{ACD}=48-18=30$ (cm²).
+Hai tam giác $ABD$ và $ACD$ có chung đường cao kẻ từ $A$ xuống $BC$ nên tỉ số diện tích của chúng bằng tỉ số hai đáy: $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{DB}{DC}$.
+
+Vì $AD$ là đường phân giác nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}$. Do đó
+$$\frac{S_{ABD}}{S_{ACD}}=\frac{AB}{AC}=\frac{6}{10}=\frac35.$$
+
+Mặt khác $D$ nằm giữa $B$ và $C$ nên $S_{ABD}+S_{ACD}=S_{ABC}=48$ (cm²). Theo tính chất của dãy tỉ số bằng nhau, $\dfrac{S_{ABD}}{3}=\dfrac{S_{ACD}}{5}=\dfrac{48}{8}=6$. Suy ra
+$$S_{ABD}=\frac38\cdot48=18\ (\text{cm}^2),\qquad S_{ACD}=48-18=30\ (\text{cm}^2).$$
+
+Kiểm tra: $\dfrac{18}{30}=\dfrac35$ (đúng).
 
 Vậy $S_{ABD}=18$ cm² và $S_{ACD}=30$ cm².
 

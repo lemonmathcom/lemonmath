@@ -146,9 +146,15 @@ Work out in your head: a) $3\times 5$; b) $3\times 8$.
 2. Part b: you know $3\times 7=21$, so add $3$.
 
 ::solution
-a) $3\times 5=3+3+3+3+3=15$.
+We work these out in our head by adding threes or by using the $3$ times table.
 
-b) $3\times 8=3\times 7+3=21+3=24$.
+a) $3\times5$ is the sum of $5$ threes, so
+$$3\times5=3+3+3+3+3=15.$$
+
+b) We have $3\times7=21$. Adding one more three, we get
+$$3\times8=3\times7+3=21+3=24.$$
+
+So $3\times5=15$; $3\times8=24$.
 
 **Answer.** a) $15$; b) $24$.
 :::
@@ -164,9 +170,19 @@ Fill in the missing numbers in the pattern: $3, 6, 9, \square, 15, \square, 21$.
 2. The number after $15$ is $15+3$.
 
 ::solution
-$9+3=12$ and $15+3=18$. The full pattern is $3, 6, 9, 12, 15, 18, 21$.
+In the pattern $3, 6, 9, \square, 15, \square, 21$, each number is $3$ more than the one before it.
 
-**Check.** $18+3=21$. Correct.
+The number in the first box comes after $9$, so it is
+$$9+3=12.$$
+
+The number in the second box comes after $15$, so it is
+$$15+3=18.$$
+
+The full pattern is $3, 6, 9, 12, 15, 18, 21$.
+
+Check: $12+3=15$ and $18+3=21$. Correct.
+
+So the two missing numbers are $12$ and $18$.
 
 **Answer.** $12$ and $18$.
 :::
@@ -182,9 +198,13 @@ Work out: a) $18\div 3$; b) $27\div 3$.
 2. Part b: $3\times\square=27$.
 
 ::solution
-a) $3\times 6=18$, so $18\div 3=6$.
+To divide, we find the matching multiplication in the $3$ times table.
 
-b) $3\times 9=27$, so $27\div 3=9$.
+a) Since $3\times6=18$, we have $18\div3=6$.
+
+b) Since $3\times9=27$, we have $27\div3=9$.
+
+So $18\div3=6$; $27\div3=9$.
 
 **Answer.** a) $6$; b) $9$.
 :::
@@ -200,7 +220,13 @@ Write $>$, $<$ or $=$ in the box: $3\times 7 \;\square\; 20$.
 2. Compare the result with $20$.
 
 ::solution
-$3\times 7=21$. Since $21>20$, we have $3\times 7>20$.
+We work out $3\times7$ and then compare it with $20$.
+
+We have $3\times7=21$.
+
+Since $21>20$, we have $3\times7>20$.
+
+So the sign to write in the box is $>$.
 
 **Answer.** The sign $>$.
 :::
@@ -216,10 +242,14 @@ A teacher shares $15$ pens equally between $3$ children. How many pens does each
 2. How do we solve it? Work out $15\div 3$, then check with multiplication.
 
 ::solution
-The number of pens each child gets is:
-$$15\div 3=5\ \text{(pens)}.$$
+Solution
 
-**Check.** $3\times 5=15$. Correct.
+Sharing $15$ pens equally between $3$ children, the number of pens each child gets is:
+$$15\div3=5\ \text{(pens)}$$
+
+Check: $3$ children with $5$ pens each have $3\times5=15$ pens. Correct.
+
+So each child gets $5$ pens.
 
 **Answer.** $5$ pens.
 :::
@@ -235,8 +265,12 @@ Each row in the school garden has $3$ plant pots. The garden has $10$ rows like 
 2. How do we solve it? Work out $3\times 10$ and write the unit.
 
 ::solution
-The number of plant pots altogether is:
-$$3\times 10=30\ \text{(pots)}.$$
+Solution
+
+The garden has $10$ rows with $3$ plant pots in each row, so the number of plant pots altogether is:
+$$3\times10=30\ \text{(pots)}$$
+
+So the garden has $30$ plant pots altogether.
 
 **Answer.** $30$ plant pots.
 :::
@@ -252,9 +286,15 @@ Remember the last lesson: finding a missing number in an addition. Find the miss
 2. Take away $12$ from the total.
 
 ::solution
-$3\times 7=21$, so $\square+12=21$. The missing addend is $21-12=9$.
+We work out the right-hand side first. We have $3\times7=21$, so
+$$\square+12=21.$$
 
-**Check.** $9+12=21$. Correct.
+To find a missing addend, we subtract the known addend from the sum:
+$$\square=21-12=9.$$
+
+Check: $9+12=21$. Correct.
+
+So the missing number in the box is $9$.
 
 **Answer.** $9$.
 :::
@@ -271,9 +311,20 @@ Mrs Hoa has $27$ apples and puts them into bags with $3$ apples in each bag. She
 3. Change the bags left into apples.
 
 ::solution
-At first there were $27\div 3=9$ (bags). After giving away $4$ bags, $9-4=5$ (bags) are left. The apples left are $3\times 5=15$ (apples).
+Solution
 
-**Check.** She gave away $3\times 4=12$ apples, and $27-12=15$. Correct.
+The number of bags at first is:
+$$27\div3=9\ \text{(bags)}$$
+
+The number of bags left after Mrs Hoa gives away $4$ bags is:
+$$9-4=5\ \text{(bags)}$$
+
+The number of apples left is:
+$$3\times5=15\ \text{(apples)}$$
+
+Check: she gave away $4$ bags, that is $3\times4=12$ apples. The apples left are $27-12=15$. Correct.
+
+So Mrs Hoa has $15$ apples left.
 
 **Answer.** $15$ apples.
 :::

@@ -219,7 +219,8 @@ Evaluate $\displaystyle\int_0^2(x^3-2x+3)\,dx$.
 2. Compute $F(2)-F(0)$.
 
 ::solution
-We have $\displaystyle\int_0^2(x^3-2x+3)\,dx=\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+An antiderivative of $f(x)=x^3-2x+3$ is $F(x)=\dfrac{x^4}{4}-x^2+3x$. By the Newton–Leibniz formula $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$, we have
+$$\begin{aligned}\int_0^2(x^3-2x+3)\,dx&=\left[\frac{x^4}{4}-x^2+3x\right]_0^2\\&=\left(\frac{2^4}{4}-2^2+3\cdot2\right)-0\\&=(4-4+6)-0=6.\end{aligned}$$
 
 So the integral equals $6$.
 
@@ -237,7 +238,15 @@ Evaluate $\displaystyle\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx$.
 2. Compute $F(4)-F(1)$, taking care with the fractions.
 
 ::solution
-An antiderivative is $F(x)=\dfrac23x\sqrt x+\dfrac1x$. We have $F(4)=\dfrac{16}{3}+\dfrac14$ and $F(1)=\dfrac23+1$. So the integral equals $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
+We write $\sqrt x=x^{\frac12}$ and $\dfrac{1}{x^2}=x^{-2}$. An antiderivative of $\sqrt x-\dfrac{1}{x^2}$ is
+$$F(x)=\frac{x^{\frac32}}{\frac32}-\frac{x^{-1}}{-1}=\frac23x\sqrt x+\frac1x.$$
+
+We have $F(4)=\dfrac23\cdot4\cdot2+\dfrac14=\dfrac{16}{3}+\dfrac14$ and $F(1)=\dfrac23+1$.
+
+By the Newton–Leibniz formula,
+$$\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx=F(4)-F(1)=\frac{16}{3}+\frac14-\frac23-1=\frac{14}{3}-\frac34=\frac{56-9}{12}=\frac{47}{12}.$$
+
+So the integral equals $\dfrac{47}{12}$.
 
 **Answer.** $\dfrac{47}{12}$.
 :::
@@ -253,7 +262,14 @@ Evaluate $\displaystyle\int_0^{\pi}(\sin x+2)\,dx$.
 2. Compute $F(\pi)-F(0)$.
 
 ::solution
-An antiderivative is $F(x)=-\cos x+2x$. We have $F(\pi)=1+2\pi$ and $F(0)=-1$. So the integral equals $1+2\pi-(-1)=2+2\pi$.
+Since $(-\cos x)'=\sin x$ and $(2x)'=2$, an antiderivative of $\sin x+2$ is $F(x)=-\cos x+2x$.
+
+We have $F(\pi)=-\cos\pi+2\pi=1+2\pi$ and $F(0)=-\cos0+0=-1$.
+
+By the Newton–Leibniz formula,
+$$\int_0^{\pi}(\sin x+2)\,dx=F(\pi)-F(0)=1+2\pi-(-1)=2+2\pi.$$
+
+So the integral equals $2+2\pi$.
 
 **Answer.** $2+2\pi$.
 :::
@@ -269,9 +285,16 @@ Given $\displaystyle\int_1^3 f(x)\,dx=5$ and $\displaystyle\int_1^3 g(x)\,dx=-2$
 2. Evaluate $\displaystyle\int_1^3x\,dx$.
 
 ::solution
-We have $\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. By linearity, the required integral is $3\cdot5-2\cdot(-2)+4=15+4+4=23$.
+First, we compute the integral of $x$:
+$$\int_1^3x\,dx=\left[\frac{x^2}{2}\right]_1^3=\frac92-\frac12=4.$$
 
-So the integral equals $23$.
+By linearity of the integral,
+$$\int_1^3\big(3f(x)-2g(x)+x\big)\,dx=3\int_1^3f(x)\,dx-2\int_1^3g(x)\,dx+\int_1^3x\,dx.$$
+
+Substituting $\displaystyle\int_1^3f(x)\,dx=5$, $\displaystyle\int_1^3g(x)\,dx=-2$ and $\displaystyle\int_1^3x\,dx=4$, we get
+$$3\cdot5-2\cdot(-2)+4=15+4+4=23.$$
+
+So the required integral equals $23$.
 
 **Answer.** $23$.
 :::
@@ -295,13 +318,20 @@ d) $\displaystyle\int_3^0\lvert x-2\rvert\,dx=\dfrac52$.
 2. Evaluate the two smaller integrals and add.
 
 ::solution
-a) **True**. Since $x-2\le0$ for $x\le2$, $\lvert x-2\rvert=2-x$.
+We have $x-2=0\iff x=2$, so the sign of $x-2$ changes at $x=2$.
 
-b) **False**. The absolute value cannot be moved outside the integral; $I$ is not $\dfrac32$ (see c).
+a) **True.** For $x\in[0, 2]$ we have $x\le2$, so $x-2\le0$. Hence $\lvert x-2\rvert=-(x-2)=2-x$.
 
-c) **True**. We have $\displaystyle\int_0^2(2-x)\,dx=2$ and $\displaystyle\int_2^3(x-2)\,dx=\frac12$, so $I=\dfrac52$.
+b) **False.** We have $\displaystyle\int_0^3(x-2)\,dx=\left[\frac{x^2}{2}-2x\right]_0^3=\frac92-6=-\frac32$, so $\left\lvert\displaystyle\int_0^3(x-2)\,dx\right\rvert=\dfrac32$. However, by part c) we have $I=\dfrac52\neq\dfrac32$. So the absolute value cannot be moved outside the integral sign.
 
-d) **False**. Since swapping the limits changes the sign, that integral equals $-\dfrac52$.
+c) **True.** Split $[0, 3]$ at $x=2$: on $[0, 2]$ we have $\lvert x-2\rvert=2-x$, and on $[2, 3]$ we have $\lvert x-2\rvert=x-2$. Hence
+$$I=\int_0^2(2-x)\,dx+\int_2^3(x-2)\,dx=\left[2x-\frac{x^2}{2}\right]_0^2+\left[\frac{x^2}{2}-2x\right]_2^3=2+\frac12=\frac52.$$
+
+d) **False.** Swapping the limits changes the sign, so
+$$\int_3^0\lvert x-2\rvert\,dx=-\int_0^3\lvert x-2\rvert\,dx=-\frac52.$$
+This is not $\dfrac52$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -317,7 +347,10 @@ Evaluate $\displaystyle\int_0^1(3x+1)^2\,dx$.
 2. Substitute the limits $1$ and $0$.
 
 ::solution
-We have $\displaystyle\int_0^1(3x+1)^2\,dx=\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+Since $\big((3x+1)^3\big)'=3(3x+1)^2\cdot3=9(3x+1)^2$, an antiderivative of $(3x+1)^2$ is $F(x)=\dfrac{(3x+1)^3}{9}$.
+
+By the Newton–Leibniz formula,
+$$\int_0^1(3x+1)^2\,dx=\left[\frac{(3x+1)^3}{9}\right]_0^1=\frac{4^3}{9}-\frac{1^3}{9}=\frac{64}{9}-\frac19=\frac{63}{9}=7.$$
 
 So the integral equals $7$.
 
@@ -353,7 +386,13 @@ Let $F(x)$ be an antiderivative of $f(x)$ on $\mathbb{R}$ with $F(1)=2$ and $F(4
 2. Split the sum; $\displaystyle\int_1^41\,dx=3$.
 
 ::solution
-We have $\displaystyle\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5$. Hence $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$ (since $\displaystyle\int_1^4 1\,dx=3$).
+Since $F(x)$ is an antiderivative of $f(x)$ on $\mathbb{R}$, the Newton–Leibniz formula gives
+$$\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5.$$
+
+We have $\displaystyle\int_1^4 1\,dx=\big[x\big]_1^4=4-1=3$.
+
+By linearity,
+$$\int_1^4\big(2f(x)+1\big)\,dx=2\int_1^4f(x)\,dx+\int_1^41\,dx=2\cdot5+3=13.$$
 
 So the two integrals equal $5$ and $13$.
 
@@ -371,7 +410,13 @@ Evaluate $\displaystyle\int_0^{\ln3}e^x\,dx$ and $\displaystyle\int_1^2 2^x\,dx$
 2. $\Big[\dfrac{2^x}{\ln2}\Big]_1^2=\dfrac{4-2}{\ln2}$.
 
 ::solution
-We have $\displaystyle\int_0^{\ln3}e^x\,dx=e^{\ln3}-e^0=3-1=2$ and $\displaystyle\int_1^22^x\,dx=\Big[\frac{2^x}{\ln2}\Big]_1^2=\frac{2}{\ln2}\approx2.885$.
+First integral: an antiderivative of $e^x$ is $e^x$, so
+$$\int_0^{\ln3}e^x\,dx=\Big[e^x\Big]_0^{\ln3}=e^{\ln3}-e^0=3-1=2.$$
+
+Second integral: an antiderivative of $2^x$ is $\dfrac{2^x}{\ln2}$ (since $\displaystyle\int a^x\,dx=\dfrac{a^x}{\ln a}+C$ for $a>0$, $a\ne1$), so
+$$\int_1^22^x\,dx=\left[\frac{2^x}{\ln2}\right]_1^2=\frac{2^2-2^1}{\ln2}=\frac{2}{\ln2}\approx2.885.$$
+
+To 2 decimal places, $\dfrac{2}{\ln2}\approx2.89$.
 
 So the two integrals equal $2$ and about $2.89$.
 

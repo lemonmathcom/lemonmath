@@ -190,7 +190,12 @@ Let $AB=15$ cm and $CD=1.2$ dm. Find the ratio $\dfrac{AB}{CD}$.
 2. Form the ratio and simplify.
 
 ::solution
-We have $CD=1.2$ dm $=12$ cm. Hence $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+The ratio of two segments is the ratio of their lengths when measured in the same unit, so we first convert to the same unit.
+
+We have $1$ dm $=10$ cm, so $CD=1.2$ dm $=12$ cm.
+
+Hence
+$$\frac{AB}{CD}=\frac{15}{12}=\frac54.$$
 
 So $\dfrac{AB}{CD}=\dfrac54$.
 
@@ -208,7 +213,15 @@ In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=6$ cm, $
 2. Substitute and find $EC$.
 
 ::solution
-Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{6}{9}=\dfrac{4}{EC}$. So $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+Consider triangle $ABC$ with $D\in AB$, $E\in AC$ and $DE\parallel BC$.
+
+By the intercept theorem in a triangle, we have
+$$\frac{AD}{DB}=\frac{AE}{EC}.$$
+
+Substituting $AD=6$ cm, $DB=9$ cm and $AE=4$ cm, we get
+$$\frac69=\frac4{EC}.$$
+
+Hence $EC=\dfrac{4\cdot9}{6}=6$ (cm).
 
 So $EC=6$ cm.
 
@@ -226,7 +239,17 @@ In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AB=12$ cm, 
 2. Find $EC=AC-AE$.
 
 ::solution
-Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{5}{12}=\dfrac{AE}{18}$. So $AE=\dfrac{5\cdot18}{12}=7.5$ (cm). Hence $EC=18-7.5=10.5$ (cm).
+Consider triangle $ABC$ with $D\in AB$, $E\in AC$ and $DE\parallel BC$.
+
+By the intercept theorem in a triangle, we have
+$$\frac{AD}{AB}=\frac{AE}{AC}.$$
+
+Substituting $AD=5$ cm, $AB=12$ cm and $AC=18$ cm, we get
+$$\frac5{12}=\frac{AE}{18}.$$
+
+Hence $AE=\dfrac{5\cdot18}{12}=7.5$ (cm).
+
+Since $E$ lies on side $AC$, we have $EC=AC-AE=18-7.5=10.5$ (cm).
 
 So $AE=7.5$ cm and $EC=10.5$ cm.
 
@@ -244,7 +267,15 @@ In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=x$ cm, $
 2. Solve for $x$.
 
 ::solution
-Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{x}{3}=\dfrac{4}{6}$. So $x=\dfrac{3\cdot4}{6}=2$.
+Consider triangle $ABC$ with $D\in AB$, $E\in AC$ and $DE\parallel BC$.
+
+By the intercept theorem in a triangle, we have
+$$\frac{AD}{DB}=\frac{AE}{EC}.$$
+
+Substituting $AD=x$, $DB=3$, $AE=4$ and $EC=6$, we get
+$$\frac x3=\frac46.$$
+
+Hence $x=\dfrac{3\cdot4}{6}=2$ (which satisfies $x>0$).
 
 So $x=2$ (cm).
 
@@ -262,7 +293,16 @@ Triangle $ABC$ has $AB=15$ cm and $AC=20$ cm. On $AB$ take $D$ with $AD=6$ cm, a
 2. Compare the two ratios and conclude.
 
 ::solution
-We have $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ and $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. The two ratios are equal, so by the converse of the intercept theorem, $DE\parallel BC$.
+In triangle $ABC$, we have $D\in AB$ and $E\in AC$ (since $AD=6<AB=15$ and $AE=8<AC=20$).
+
+We compute the ratios
+$$\frac{AD}{AB}=\frac6{15}=\frac25,\qquad\frac{AE}{AC}=\frac8{20}=\frac25.$$
+
+Hence $\dfrac{AD}{AB}=\dfrac{AE}{AC}$.
+
+By the converse of the intercept theorem, $DE\parallel BC$.
+
+So $DE\parallel BC$.
 
 **Answer.** $DE\parallel BC$.
 :::
@@ -296,7 +336,17 @@ Suppose a triangular roof frame $ABC$ has $AB=6$ m and $AC=5$ m. A crossbar $DE$
 2. Find $EC=AC-AE$.
 
 ::solution
-Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{2.4}{6}=\dfrac{AE}{5}$. So $AE=\dfrac{2.4\cdot5}{6}=2$ (m). Hence $EC=5-2=3$ (m).
+Consider triangle $ABC$ with $D\in AB$, $E\in AC$ and the crossbar $DE\parallel BC$.
+
+By the intercept theorem in a triangle, we have
+$$\frac{AD}{AB}=\frac{AE}{AC}.$$
+
+Substituting $AD=2.4$ m, $AB=6$ m and $AC=5$ m, we get
+$$\frac{2.4}{6}=\frac{AE}{5}.$$
+
+Hence $AE=\dfrac{2.4\cdot5}{6}=2$ (m).
+
+Since $E$ lies on side $AC$, we have $EC=AC-AE=5-2=3$ (m).
 
 So $AE=2$ m and $EC=3$ m.
 

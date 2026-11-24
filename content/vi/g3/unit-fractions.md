@@ -167,11 +167,15 @@ c) Hình chia thành $8$ phần bằng nhau.
 2. Viết $1$ trên số phần đó.
 
 ::solution
-a) $\dfrac{1}{2}$.
+Mỗi hình được chia thành các phần bằng nhau và được tô màu một phần. Một phần trong $n$ phần bằng nhau thì viết là $\dfrac{1}{n}$.
 
-b) $\dfrac{1}{3}$.
+a) Hình được chia thành $2$ phần bằng nhau nên một phần là $\dfrac{1}{2}$.
 
-c) $\dfrac{1}{8}$.
+b) Hình được chia thành $3$ phần bằng nhau nên một phần là $\dfrac{1}{3}$.
+
+c) Hình được chia thành $8$ phần bằng nhau nên một phần là $\dfrac{1}{8}$.
+
+Vậy các phân số chỉ một phần của hình lần lượt là $\dfrac{1}{2}$, $\dfrac{1}{3}$, $\dfrac{1}{8}$.
 
 **Đáp số.** a) $\dfrac{1}{2}$; b) $\dfrac{1}{3}$; c) $\dfrac{1}{8}$.
 :::
@@ -193,11 +197,15 @@ c) Một phần mười.
 2. Viết $1$ trên $n$.
 
 ::solution
+Một phần trong $n$ phần bằng nhau được viết là $\dfrac{1}{n}$.
+
 a) Một phần tư là một phần bốn, viết là $\dfrac{1}{4}$.
 
-b) $\dfrac{1}{6}$.
+b) Một phần sáu là một phần trong $6$ phần bằng nhau, viết là $\dfrac{1}{6}$.
 
-c) $\dfrac{1}{10}$.
+c) Một phần mười là một phần trong $10$ phần bằng nhau, viết là $\dfrac{1}{10}$.
+
+Vậy ba phân số cần viết là $\dfrac{1}{4}$, $\dfrac{1}{6}$, $\dfrac{1}{10}$.
 
 **Đáp số.** a) $\dfrac{1}{4}$; b) $\dfrac{1}{6}$; c) $\dfrac{1}{10}$.
 :::
@@ -213,7 +221,17 @@ Em hãy nhớ lại bài trước. Tìm $\square$, biết $\square\times3=15$. R
 2. Tính $15:3$ và so sánh.
 
 ::solution
-$\square=15:3=5$. Một phần ba của $15$ là $15:3=5$, bằng $\square$.
+Tìm $\square$: $\square$ là thừa số chưa biết. Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:
+$$\square=15:3=5$$
+
+Thử lại: $5\times3=15$. Đúng.
+
+Tìm $\dfrac{1}{3}$ của $15$: chia $15$ thành $3$ phần bằng nhau thì mỗi phần là một phần ba của $15$:
+$$15:3=5$$
+
+Ta thấy một phần ba của $15$ bằng $5$, bằng với $\square$.
+
+Vậy $\square=5$ và $\dfrac{1}{3}$ của $15$ là $5$.
 
 **Đáp số.** $\square=5$ và $\dfrac{1}{3}$ của $15$ là $5$.
 :::
@@ -235,11 +253,18 @@ c) $\dfrac{1}{9}$ của $54$.
 2. Chia số đã cho cho $n$ rồi thử lại.
 
 ::solution
-a) $16:2=8$.
+Muốn tìm $\dfrac{1}{n}$ của một số, ta chia số đó cho $n$.
 
-b) $30:5=6$.
+a) $\dfrac{1}{2}$ của $16$ là:
+$$16:2=8$$
 
-c) $54:9=6$.
+b) $\dfrac{1}{5}$ của $30$ là:
+$$30:5=6$$
+
+c) $\dfrac{1}{9}$ của $54$ là:
+$$54:9=6$$
+
+Vậy kết quả lần lượt là $8$, $6$, $6$.
 
 **Đáp số.** a) $8$; b) $6$; c) $6$.
 :::
@@ -257,9 +282,16 @@ b) Một chiếc bánh chia đều cho $2$ bạn, một chiếc bánh giống h�
 2. So sánh số phần ở hai trường hợp.
 
 ::solution
-a) Em chia, vì chia $28$ thành $4$ phần bằng nhau thì mỗi phần là $\dfrac{1}{4}$ của $28$: $28:4=7$.
+a) Em chia, vì chia $28$ thành $4$ phần bằng nhau thì mỗi phần là $\dfrac{1}{4}$ của $28$. Ta tính:
+$$28:4=7$$
 
-b) Bạn trong nhóm $2$ bạn được $\dfrac{1}{2}$ chiếc bánh, bạn trong nhóm $4$ bạn được $\dfrac{1}{4}$ chiếc bánh. Chia ít phần hơn thì mỗi phần to hơn, nên $\dfrac{1}{2}$ to hơn $\dfrac{1}{4}$.
+Vậy $\dfrac{1}{4}$ của $28$ là $7$.
+
+b) Bạn trong nhóm $2$ bạn được $\dfrac{1}{2}$ chiếc bánh; bạn trong nhóm $4$ bạn được $\dfrac{1}{4}$ chiếc bánh.
+
+Hai chiếc bánh giống hệt nhau, chia ra ít phần hơn thì mỗi phần to hơn. Vì $2<4$ nên $\dfrac{1}{2}$ to hơn $\dfrac{1}{4}$.
+
+Vậy bạn trong nhóm $2$ bạn, được $\dfrac{1}{2}$ chiếc bánh, có phần to hơn.
 
 **Đáp số.** a) Chia, kết quả $7$; b) bạn được $\dfrac{1}{2}$ chiếc bánh có phần to hơn.
 :::
@@ -275,9 +307,14 @@ Nam viết: "$\dfrac{1}{3}$ của $12$ là $36$ vì $12\times3=36$". Nam sai ở
 2. Dùng phép tính đúng.
 
 ::solution
-Nam đã nhân, nhưng phải chia: $\dfrac{1}{3}$ của $12$ là $12:3=4$.
+Nam đã lấy $12\times3=36$, tức là làm phép nhân. Nhưng muốn tìm $\dfrac{1}{3}$ của một số thì phải chia số đó cho $3$, và phần chia ra phải nhỏ hơn $12$ chứ không thể lớn hơn $12$.
 
-**Thử lại.** $3\times4=12$. Đúng.
+Cách làm đúng là:
+$$12:3=4$$
+
+Thử lại: $3\times4=12$. Đúng.
+
+Vậy Nam sai ở chỗ dùng phép nhân thay cho phép chia; $\dfrac{1}{3}$ của $12$ là $4$.
 
 **Đáp số.** Nam dùng sai phép tính; kết quả đúng là $4$.
 :::
@@ -295,9 +332,17 @@ b) Một sợi dây dài $40$ cm được cắt thành $5$ đoạn bằng nhau. 
 2. Chia cho số phần bằng nhau, ghi đáp số có đơn vị.
 
 ::solution
-a) Lan lấy $24:6=4$ (cái kẹo).
+a) Lan lấy $\dfrac{1}{6}$ số kẹo, nên ta chia $24$ cho $6$. Số cái kẹo Lan lấy là:
+$$24:6=4\ \text{(cái kẹo)}$$
 
-b) Mỗi đoạn dài $40:5=8$ (cm) và là $\dfrac{1}{5}$ sợi dây.
+Vậy Lan lấy $4$ cái kẹo.
+
+b) Sợi dây được cắt thành $5$ đoạn bằng nhau nên mỗi đoạn dài:
+$$40:5=8\ \text{(cm)}$$
+
+Mỗi đoạn là một phần trong $5$ phần bằng nhau của sợi dây nên là $\dfrac{1}{5}$ sợi dây.
+
+Vậy mỗi đoạn dài $8$ cm và là $\dfrac{1}{5}$ sợi dây.
 
 **Đáp số.** a) $4$ cái kẹo; b) $8$ cm, là $\dfrac{1}{5}$ sợi dây.
 :::
@@ -313,7 +358,18 @@ Lớp có $36$ học sinh. $\dfrac{1}{4}$ số học sinh đi học bơi, $\dfra
 2. Trừ hai kết quả.
 
 ::solution
-Số học sinh học bơi là $36:4=9$ (em). Số học sinh học vẽ là $36:9=4$ (em). Học bơi nhiều hơn học vẽ là $9-4=5$ (em).
+Bài giải
+
+Số học sinh đi học bơi ($\dfrac{1}{4}$ của $36$ học sinh) là:
+$$36:4=9\ \text{(em)}$$
+
+Số học sinh đi học vẽ ($\dfrac{1}{9}$ của $36$ học sinh) là:
+$$36:9=4\ \text{(em)}$$
+
+Số học sinh đi học bơi nhiều hơn số học sinh đi học vẽ là:
+$$9-4=5\ \text{(em)}$$
+
+Vậy số học sinh đi học bơi nhiều hơn số học sinh đi học vẽ $5$ em.
 
 **Đáp số.** $5$ em.
 :::

@@ -219,11 +219,19 @@ Một đa thức bậc $3$ có các nghiệm $0$, $2$, $-1$ và đồ thị đi 
 **Kiến thức:** viết $p(x)=ax(x-2)(x+1)$ rồi dùng điểm đã cho để tìm $a$.
 
 ::solution
-Vì các nghiệm là $0$, $2$ và $-1$ nên ta viết $p(x)=ax(x-2)(x+1)$.
+Đa thức bậc $3$ có ba nghiệm $0$, $2$ và $-1$ nên có dạng
+$$p(x)=ax(x-2)(x+1),\ \text{với}\ a\neq0.$$
 
-Thay $x=1$: $p(1)=a(1)(-1)(2)=-2a$. Vì $p(1)=-4$ nên $a=2$.
+Đồ thị đi qua điểm $(1; -4)$ nên $p(1)=-4$.
 
-Vậy $p(x)=2x(x-2)(x+1)$.
+Thay $x=1$ vào $p(x)$, ta được
+$$p(1)=a\cdot1\cdot(1-2)\cdot(1+1)=a\cdot1\cdot(-1)\cdot2=-2a.$$
+
+Do đó $-2a=-4$, suy ra $a=2$ (thoả mãn điều kiện $a\neq0$).
+
+Kiểm tra: với $p(x)=2x(x-2)(x+1)$ thì $p(1)=2\cdot1\cdot(-1)\cdot2=-4$ và $p(0)=p(2)=p(-1)=0$.
+
+Vậy đa thức cần tìm là $p(x)=2x(x-2)(x+1)$.
 
 **Đáp số.** $p(x)=2x(x-2)(x+1)$.
 :::

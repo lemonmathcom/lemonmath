@@ -186,8 +186,18 @@ Set out in columns and work out: $214+365$.
 2. Add the ones, then the tens, then the hundreds.
 
 ::solution
+Set out the numbers in columns with the digits of the same place value lined up, then add from right to left, starting with the ones.
 $$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
-Ones: $4+5=9$. Tens: $1+6=7$. Hundreds: $2+3=5$.
+
+Ones: $4+5=9$, write $9$.
+
+Tens: $1+6=7$, write $7$.
+
+Hundreds: $2+3=5$, write $5$.
+
+Check: $579-365=214$, which is correct.
+
+So $214+365=579$.
 
 **Answer.** $579$.
 :::
@@ -203,9 +213,13 @@ Work out in your head: $600+300$ and $520+70$.
 2. How many tens is $520$? How many tens is $70$?
 
 ::solution
-$6$ hundreds plus $3$ hundreds is $9$ hundreds, so $600+300=900$.
+We work out $600+300$: $6$ hundreds plus $3$ hundreds is $9$ hundreds, because $6+3=9$. So
+$$600+300=900.$$
 
-$52$ tens plus $7$ tens is $59$ tens, so $520+70=590$.
+We work out $520+70$: $520$ is $52$ tens and $70$ is $7$ tens. $52$ tens plus $7$ tens is $59$ tens, because $52+7=59$. So
+$$520+70=590.$$
+
+So $600+300=900$ and $520+70=590$.
 
 **Answer.** $900$ and $590$.
 :::
@@ -221,8 +235,18 @@ Set out in columns and work out: $346+278$.
 2. Add the ones: what is $6+8$? What do you write, and what do you regroup?
 
 ::solution
+Set out the numbers in columns with the digits of the same place value lined up, then add from right to left.
 $$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
-Ones: $6+8=14$, write $4$ and regroup $1$. Tens: $4+7+1=12$, write $2$ and regroup $1$. Hundreds: $3+2+1=6$.
+
+Ones: $6+8=14$, write $4$ and regroup $1$ (regroup $1$ into the tens).
+
+Tens: $4+7+1=12$, write $2$ and regroup $1$ (regroup $1$ into the hundreds).
+
+Hundreds: $3+2+1=6$, write $6$.
+
+Check: $624-278=346$, which is correct.
+
+So $346+278=624$.
 
 **Answer.** $624$.
 :::
@@ -238,8 +262,18 @@ Set out in columns and work out: $485+219$.
 2. In the tens column, add the regrouped one too: $8+1+1$. What is this total?
 
 ::solution
+Set out the numbers in columns with the digits of the same place value lined up, then add from right to left.
 $$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
-Ones: $5+9=14$, write $4$ and regroup $1$. Tens: $8+1+1=10$, write $0$ and regroup $1$. Hundreds: $4+2+1=7$.
+
+Ones: $5+9=14$, write $4$ and regroup $1$ (regroup $1$ into the tens).
+
+Tens: $8+1+1=10$, write $0$ and regroup $1$ (regroup $1$ into the hundreds).
+
+Hundreds: $4+2+1=7$, write $7$.
+
+Check: $704-219=485$, which is correct.
+
+So $485+219=704$.
 
 **Answer.** $704$.
 :::
@@ -255,9 +289,16 @@ A rice shop sold $235$ kg of rice on the first day and $187$ kg of rice on the s
 2. How do we solve it? Write the sum, then set it out in columns.
 
 ::solution
+To find how many kilograms of rice the shop sold in the two days, we add the amounts sold on the two days.
+
 The number of kilograms of rice the shop sold in the two days is:
 $$235+187=422\ \text{(kg)}.$$
-Ones: $5+7=12$, write $2$ and regroup $1$. Tens: $3+8+1=12$, write $2$ and regroup $1$. Hundreds: $2+1+1=4$.
+
+How we work it out: ones: $5+7=12$, write $2$ and regroup $1$. Tens: $3+8+1=12$, write $2$ and regroup $1$. Hundreds: $2+1+1=4$, write $4$.
+
+Check: $422-187=235$ (kg), which is correct.
+
+So the shop sold $422$ kg of rice in the two days altogether.
 
 **Answer.** $422$ kg of rice.
 :::
@@ -273,11 +314,17 @@ Remember adding within 100: $58+27=85$. Use this result to work out $158+27$ and
 2. So how many hundreds more is $158+27$ than $58+27$?
 
 ::solution
-$158$ is $1$ hundred more than $58$, so $158+27=85+100=185$.
+We already know that $58+27=85$.
 
-$258$ is $2$ hundreds more than $58$, so $258+27=85+200=285$.
+The number $158$ is $1$ hundred more than $58$, because $158=58+100$. When we add the same number $27$, the result is also $1$ hundred more than $85$:
+$$158+27=85+100=185.$$
 
-**Remark.** The ones and the tens work out exactly as in $58+27$; only the hundreds change.
+The number $258$ is $2$ hundreds more than $58$, because $258=58+200$. When we add the same number $27$, the result is also $2$ hundreds more than $85$:
+$$258+27=85+200=285.$$
+
+So $158+27=185$ and $258+27=285$.
+
+*Remark.* The ones and the tens work out exactly as in $58+27$; only the hundreds change.
 
 **Answer.** $185$ and $285$.
 :::
@@ -293,9 +340,16 @@ It is $450$ m from Nam's house to school, and $380$ m from school to the library
 2. Write the sum $450+380$, then set it out in columns.
 
 ::solution
+To find the distance from Nam's house, past the school, to the library, we add the distance from Nam's house to school and the distance from school to the library.
+
 The distance from Nam's house past the school to the library is:
 $$450+380=830\ \text{(m)}.$$
-Ones: $0+0=0$. Tens: $5+8=13$, write $3$ and regroup $1$. Hundreds: $4+3+1=8$.
+
+How we work it out: ones: $0+0=0$, write $0$. Tens: $5+8=13$, write $3$ and regroup $1$. Hundreds: $4+3+1=8$, write $8$.
+
+Check: $830-380=450$ (m), which is correct.
+
+So it is $830$ m from Nam's house, past the school, to the library.
 
 **Answer.** $830$ m.
 :::
@@ -312,13 +366,17 @@ $$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}
 2. Remember to regroup $1$, then find the tens digit, and after that the hundreds digit.
 
 ::solution
-Ones: $7+5=12$, write $2$ and regroup $1$, so the missing digit is $7$.
+We work from the ones to the hundreds.
 
-Tens: $4+6+1=11$, write $1$ and regroup $1$, so the missing digit is $6$.
+Ones: the missing digit plus $5$ must end in $2$. Since $7+5=12$, the missing digit is $7$; write $2$ and regroup $1$.
 
-Hundreds: $3+2+1=6$, so the missing digit is $3$.
+Tens: $4$ plus the missing digit, plus the $1$ regrouped, must end in $1$. Since $4+6+1=11$, the missing digit is $6$; write $1$ and regroup $1$.
 
-We have $347+265=612$.
+Hundreds: the missing digit plus $2$, plus the $1$ regrouped, equals $6$. Since $3+2+1=6$, the missing digit is $3$.
+
+Check: $347+265=612$, which is correct.
+
+So the missing digits are $3$ (hundreds) and $7$ (ones) in the first number, and $6$ (tens) in the second number; we have $347+265=612$.
 
 **Answer.** $347+265=612$.
 :::

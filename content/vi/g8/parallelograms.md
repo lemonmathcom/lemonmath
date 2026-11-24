@@ -253,7 +253,14 @@ Hình bình hành $ABCD$ có $\widehat{A}=65^\circ$. Tính các góc còn lại.
 2. Tìm $\widehat{B}$ rồi $\widehat{D}$.
 
 ::solution
-Ta có $\widehat{C}=\widehat{A}=65^\circ$. Vì $\widehat{A}+\widehat{B}=180^\circ$ nên $\widehat{B}=115^\circ$, và $\widehat{D}=\widehat{B}=115^\circ$.
+Vì $ABCD$ là hình bình hành nên các góc đối bằng nhau, còn hai góc kề một cạnh thì bù nhau.
+
+Hai góc đối: $\widehat{C}=\widehat{A}=65^\circ$.
+
+Hai góc $\widehat{A}$ và $\widehat{B}$ là hai góc trong cùng phía tạo bởi $AD\parallel BC$ với cát tuyến $AB$ nên $\widehat{A}+\widehat{B}=180^\circ$. Suy ra
+$$\widehat{B}=180^\circ-\widehat{A}=180^\circ-65^\circ=115^\circ.$$
+
+Hai góc đối: $\widehat{D}=\widehat{B}=115^\circ$.
 
 Vậy $\widehat{C}=65^\circ$ và $\widehat{B}=\widehat{D}=115^\circ$.
 
@@ -289,7 +296,12 @@ Hình bình hành $ABCD$ có $AB=3x-2$ và $CD=2x+5$ (cm). Tìm $x$ và $AB$.
 2. Giải rồi tính $AB$.
 
 ::solution
-Vì $AB=CD$ nên $3x-2=2x+5$, suy ra $x=7$. Khi đó $AB=3\cdot7-2=19$ (cm). (Kiểm tra: $CD=2\cdot7+5=19$.)
+Vì $ABCD$ là hình bình hành nên hai cạnh đối bằng nhau: $AB=CD$. Do đó
+$$\begin{aligned}3x-2&=2x+5\\3x-2x&=5+2\\x&=7.\end{aligned}$$
+
+Thay $x=7$ vào $AB=3x-2$, ta được $AB=3\cdot7-2=19$ (cm).
+
+Kiểm tra: $CD=2\cdot7+5=19$ (cm), bằng $AB$ (thoả mãn).
 
 Vậy $x=7$ và $AB=19$ cm.
 
@@ -307,7 +319,14 @@ Hình bình hành $ABCD$ có $\widehat{A}=4x-10^\circ$ và $\widehat{C}=2x+30^\c
 2. Tính $\widehat{A}$ rồi $\widehat{B}=180^\circ-\widehat{A}$.
 
 ::solution
-Vì $\widehat{A}=\widehat{C}$ nên $4x-10^\circ=2x+30^\circ$, suy ra $2x=40^\circ$ và $x=20^\circ$. Do đó $\widehat{A}=4\cdot20^\circ-10^\circ=70^\circ$ và $\widehat{B}=180^\circ-70^\circ=110^\circ$.
+Vì $ABCD$ là hình bình hành nên hai góc đối bằng nhau: $\widehat{A}=\widehat{C}$. Do đó
+$$\begin{aligned}4x-10^\circ&=2x+30^\circ\\4x-2x&=30^\circ+10^\circ\\2x&=40^\circ\\x&=20^\circ.\end{aligned}$$
+
+Thay $x=20^\circ$ vào, ta được $\widehat{A}=4\cdot20^\circ-10^\circ=70^\circ$.
+
+Kiểm tra: $\widehat{C}=2\cdot20^\circ+30^\circ=70^\circ$, bằng $\widehat{A}$ (thoả mãn).
+
+Hai góc kề nhau của hình bình hành bù nhau nên $\widehat{A}+\widehat{B}=180^\circ$. Suy ra $\widehat{B}=180^\circ-70^\circ=110^\circ$.
 
 Vậy $x=20^\circ$, $\widehat{A}=70^\circ$ và $\widehat{B}=110^\circ$.
 
@@ -325,9 +344,19 @@ Tứ giác $ABCD$ có $\widehat{A}=\widehat{C}=110^\circ$ và $\widehat{B}=\wide
 2. Suy ra các cặp cạnh song song.
 
 ::solution
-Ta có $\widehat{A}+\widehat{B}=110^\circ+70^\circ=180^\circ$. Hai góc này ở trong cùng phía của hai đường thẳng $AD$, $BC$ với cát tuyến $AB$, nên $AD\parallel BC$. Ta cũng có $\widehat{A}+\widehat{D}=180^\circ$, nên $AB\parallel CD$.
+Ta dùng dấu hiệu nhận biết: tứ giác có các cạnh đối song song là hình bình hành.
 
-Tứ giác $ABCD$ có các cạnh đối song song nên là hình bình hành.
+Xét hai đường thẳng $AD$, $BC$ với cát tuyến $AB$. Ta có
+$$\widehat{A}+\widehat{B}=110^\circ+70^\circ=180^\circ.$$
+Hai góc $\widehat{A}$, $\widehat{B}$ ở vị trí trong cùng phía và có tổng bằng $180^\circ$ nên $AD\parallel BC$.
+
+Xét hai đường thẳng $AB$, $CD$ với cát tuyến $AD$. Ta có
+$$\widehat{A}+\widehat{D}=110^\circ+70^\circ=180^\circ.$$
+Hai góc $\widehat{A}$, $\widehat{D}$ ở vị trí trong cùng phía và có tổng bằng $180^\circ$ nên $AB\parallel CD$.
+
+Tứ giác $ABCD$ có $AD\parallel BC$ và $AB\parallel CD$, tức là các cạnh đối song song.
+
+Vậy $ABCD$ là hình bình hành.
 
 **Đáp số.** $ABCD$ là hình bình hành.
 :::
@@ -343,9 +372,16 @@ Giả sử một mảnh đất hình bình hành $ABCD$ có $AB=45$ m, $BC=30$ m
 2. Tính $\widehat{C}$, $\widehat{B}$ và $\widehat{D}$.
 
 ::solution
-Chu vi là $2(45+30)=150$ (m). Ta có $\widehat{C}=\widehat{A}=60^\circ$, $\widehat{B}=180^\circ-60^\circ=120^\circ$ và $\widehat{D}=\widehat{B}=120^\circ$.
+Mảnh đất $ABCD$ là hình bình hành nên các cạnh đối bằng nhau: $CD=AB=45$ m và $AD=BC=30$ m.
 
-Vậy chu vi bằng $150$ m, $\widehat{C}=60^\circ$ và $\widehat{B}=\widehat{D}=120^\circ$.
+Chu vi của mảnh đất là
+$$2(AB+BC)=2(45+30)=2\cdot75=150\ (\text{m}).$$
+
+Các góc đối bằng nhau nên $\widehat{C}=\widehat{A}=60^\circ$.
+
+Hai góc kề nhau bù nhau nên $\widehat{A}+\widehat{B}=180^\circ$. Suy ra $\widehat{B}=180^\circ-60^\circ=120^\circ$, và $\widehat{D}=\widehat{B}=120^\circ$.
+
+Vậy chu vi mảnh đất bằng $150$ m, $\widehat{C}=60^\circ$ và $\widehat{B}=\widehat{D}=120^\circ$.
 
 **Đáp số.** $150$ m; $\widehat{C}=60^\circ$; $\widehat{B}=\widehat{D}=120^\circ$.
 :::

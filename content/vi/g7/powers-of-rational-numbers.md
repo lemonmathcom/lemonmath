@@ -355,13 +355,18 @@ c) $\left(\dfrac12\right)^3\cdot6^3$.
 3. Câu c: $\dfrac12\cdot6$ bằng bao nhiêu?
 
 ::solution
-a) Ta có $(0{,}25)^3\cdot4^3=(0{,}25\cdot4)^3=1^3=1$.
+Áp dụng các công thức $x^n\cdot y^n=(x\cdot y)^n$ và $x^n:y^n=(x:y)^n$ ($y\neq0$).
 
-b) Ta có $15^5:3^5=(15:3)^5=5^5=3125$.
+a) Ta có
+$$(0{,}25)^3\cdot4^3=(0{,}25\cdot4)^3=1^3=1.$$
 
-c) Ta có $\left(\dfrac12\right)^3\cdot6^3=\left(\dfrac12\cdot6\right)^3=3^3=27$.
+b) Ta có
+$$15^5:3^5=(15:3)^5=5^5=3125.$$
 
-Vậy kết quả là $1$; $3125$; $27$.
+c) Ta có
+$$\left(\frac12\right)^3\cdot6^3=\left(\frac12\cdot6\right)^3=3^3=27.$$
+
+Vậy kết quả của a), b), c) lần lượt là $1$; $3125$; $27$.
 
 **Đáp số.** a) $1$. b) $3125$. c) $27$.
 :::
@@ -408,9 +413,19 @@ b) $\left(\dfrac13\right)^{20}$ và $\left(\dfrac19\right)^{10}$.
 2. Câu b: viết $\dfrac19=\left(\dfrac13\right)^2$.
 
 ::solution
-a) Ta có $2^{500}=\left(2^5\right)^{100}=32^{100}$ và $5^{200}=\left(5^2\right)^{100}=25^{100}$. Vì $32>25$ nên $32^{100}>25^{100}$. Vậy $2^{500}>5^{200}$.
+Ta dùng công thức $(x^m)^n=x^{m\cdot n}$ để đưa các số về cùng số mũ hoặc cùng cơ số.
 
-b) Ta có $\dfrac19=\left(\dfrac13\right)^2$ nên $\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}$. Vậy hai số bằng nhau.
+a) Ta có
+$$2^{500}=\left(2^5\right)^{100}=32^{100},\qquad 5^{200}=\left(5^2\right)^{100}=25^{100}.$$
+
+Hai lũy thừa $32^{100}$ và $25^{100}$ có cùng số mũ $100$ và $32>25$ nên $32^{100}>25^{100}$.
+
+Vậy $2^{500}>5^{200}$.
+
+b) Ta có $\dfrac19=\left(\dfrac13\right)^2$, nên
+$$\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}.$$
+
+Vậy $\left(\dfrac13\right)^{20}=\left(\dfrac19\right)^{10}$, tức là hai số bằng nhau.
 
 **Đáp số.** a) $2^{500}>5^{200}$. b) Hai số bằng nhau.
 :::

@@ -168,7 +168,17 @@ Tính: $3\,628:4$.
 2. Hạ từng chữ số tiếp theo, chia tiếp.
 
 ::solution
-$36:4=9$ (dư $0$). Hạ $2$ được $2$; $2:4=0$, viết $0$. Hạ $8$ được $28$; $28:4=7$.
+Ta chia $3\,628$ cho $4$ lần lượt từ trái sang phải.
+
+Vì $3<4$ nên lấy $36$ chia $4$: $36:4=9$, viết $9$; $9\times4=36$, $36-36=0$, dư $0$.
+
+Hạ $2$ được $2$; $2:4=0$, viết $0$; dư $2$.
+
+Hạ $8$ được $28$; $28:4=7$, viết $7$; $7\times4=28$, dư $0$.
+
+Thử lại: $907\times4=3\,628$. Đúng.
+
+Vậy $3\,628:4=907$.
 
 **Đáp số.** $907$.
 :::
@@ -184,7 +194,19 @@ Tính: $8\,436:6$.
 2. Hạ từng chữ số, nhớ viết $0$ vào thương khi cần.
 
 ::solution
-$8:6=1$ (dư $2$). Hạ $4$ được $24$; $24:6=4$. Hạ $3$ được $3$; $3:6=0$ (dư $3$), viết $0$. Hạ $6$ được $36$; $36:6=6$.
+Ta chia $8\,436$ cho $6$ lần lượt từ trái sang phải.
+
+Lấy $8$ chia $6$: $8:6=1$, viết $1$; $1\times6=6$, $8-6=2$, dư $2$.
+
+Hạ $4$ được $24$; $24:6=4$, viết $4$; $4\times6=24$, dư $0$.
+
+Hạ $3$ được $3$; $3:6=0$, viết $0$; dư $3$.
+
+Hạ $6$ được $36$; $36:6=6$, viết $6$; $6\times6=36$, dư $0$.
+
+Thử lại: $1\,406\times6=8\,436$. Đúng.
+
+Vậy $8\,436:6=1\,406$.
 
 **Đáp số.** $1\,406$.
 :::
@@ -200,9 +222,19 @@ Tính: $9\,125:5$.
 2. Hạ từng chữ số, chia tiếp rồi thử lại.
 
 ::solution
-$9:5=1$ (dư $4$). Hạ $1$ được $41$; $41:5=8$ (dư $1$). Hạ $2$ được $12$; $12:5=2$ (dư $2$). Hạ $5$ được $25$; $25:5=5$.
+Ta chia $9\,125$ cho $5$ lần lượt từ trái sang phải.
 
-**Thử lại.** $1\,825\times5=9\,125$. Đúng.
+Lấy $9$ chia $5$: $9:5=1$, viết $1$; $1\times5=5$, $9-5=4$, dư $4$.
+
+Hạ $1$ được $41$; $41:5=8$, viết $8$; $8\times5=40$, $41-40=1$, dư $1$.
+
+Hạ $2$ được $12$; $12:5=2$, viết $2$; $2\times5=10$, $12-10=2$, dư $2$.
+
+Hạ $5$ được $25$; $25:5=5$, viết $5$; $5\times5=25$, dư $0$.
+
+Thử lại: $1\,825\times5=9\,125$. Đúng.
+
+Vậy $9\,125:5=1\,825$.
 
 **Đáp số.** $1\,825$.
 :::
@@ -218,9 +250,17 @@ Tính: $5\,237:7$.
 2. Hạ từng chữ số, ghi số dư cuối cùng.
 
 ::solution
-$52:7=7$ (dư $3$). Hạ $3$ được $33$; $33:7=4$ (dư $5$). Hạ $7$ được $57$; $57:7=8$ (dư $1$).
+Ta chia $5\,237$ cho $7$ lần lượt từ trái sang phải.
 
-**Thử lại.** $748\times7=5\,236$ và $5\,236+1=5\,237$. Đúng.
+Vì $5<7$ nên lấy $52$ chia $7$: $52:7=7$, viết $7$; $7\times7=49$, $52-49=3$, dư $3$.
+
+Hạ $3$ được $33$; $33:7=4$, viết $4$; $4\times7=28$, $33-28=5$, dư $5$.
+
+Hạ $7$ được $57$; $57:7=8$, viết $8$; $8\times7=56$, $57-56=1$, dư $1$.
+
+Thử lại: $748\times7=5\,236$ và $5\,236+1=5\,237$. Đúng.
+
+Vậy $5\,237:7=748$ (dư $1$).
 
 **Đáp số.** $748$ (dư $1$).
 :::
@@ -236,9 +276,16 @@ Tìm $x$: $x\times6=4\,614$.
 2. Chia rồi thử lại.
 
 ::solution
-$x=4\,614:6=769$.
+Trong phép nhân, thừa số chưa biết bằng tích chia cho thừa số đã biết. Từ $x\times6=4\,614$ ta có
+$$x=4\,614:6.$$
 
-**Thử lại.** $769\times6=4\,614$. Đúng.
+Ta chia $4\,614$ cho $6$: lấy $46$ chia $6$ được $7$, dư $4$ (vì $7\times6=42$); hạ $1$ được $41$, $41:6=6$, dư $5$ (vì $6\times6=36$); hạ $4$ được $54$, $54:6=9$, dư $0$.
+
+Do đó $x=769$.
+
+Thử lại: $769\times6=4\,614$. Đúng.
+
+Vậy $x=769$.
 
 **Đáp số.** $x=769$.
 :::
@@ -257,8 +304,12 @@ Một nhà máy nước (số liệu giả định) chia đều $3\,648$ lít n�
 ::solution
 Bài giải
 
-Số lít nước ở mỗi bể là:
+Chia đều $3\,648$ lít nước vào $4$ bể nên mỗi bể có số lít nước là:
 $$3\,648:4=912\ \text{(lít)}.$$
+
+Kiểm tra: $912\times4=3\,648$.
+
+Vậy mỗi bể có $912$ lít nước.
 
 **Đáp số.** $912$ lít nước.
 :::
@@ -276,10 +327,12 @@ Một cửa hàng bánh (số liệu giả định) có $2\,500$ chiếc bánh. 
 ::solution
 Bài giải
 
-Ta có $2\,500:6=416$ (dư $4$).
+Muốn biết xếp được bao nhiêu hộp đầy, ta chia số bánh cho số bánh trong mỗi hộp. Ta có $2\,500:6=416$ (dư $4$), vì $416\times6=2\,496$ và $2\,500-2\,496=4$.
 
-Xếp được $416$ hộp đầy, còn thừa $4$ chiếc bánh nên cần thêm $1$ hộp. Số hộp ít nhất là:
+Xếp được $416$ hộp đầy, còn thừa $4$ chiếc bánh. Vì $4$ chiếc bánh này vẫn phải xếp vào hộp nên cần thêm $1$ hộp nữa. Số hộp ít nhất là:
 $$416+1=417\ \text{(hộp)}.$$
+
+Vậy cần ít nhất $417$ hộp để xếp hết số bánh.
 
 **Đáp số.** $417$ hộp.
 :::
@@ -295,7 +348,13 @@ Em hãy nhớ lại bài nhân số có bốn chữ số với số có một ch
 2. Viết hai phép chia tương ứng.
 
 ::solution
-Vì $1\,507\times3=4\,521$ nên $4\,521:3=1\,507$ và $4\,521:1\,507=3$.
+Ta biết $1\,507\times3=4\,521$. Trong phép nhân, lấy tích chia cho một thừa số thì được thừa số còn lại.
+
+Lấy tích chia cho thừa số $3$ thì được thừa số $1\,507$, nên $4\,521:3=1\,507$.
+
+Lấy tích chia cho thừa số $1\,507$ thì được thừa số $3$, nên $4\,521:1\,507=3$.
+
+Vậy $4\,521:3=1\,507$ và $4\,521:1\,507=3$.
 
 **Đáp số.** $4\,521:3=1\,507$ và $4\,521:1\,507=3$.
 :::
@@ -329,10 +388,14 @@ Một số chia cho $6$ được thương là $724$ và dư $5$. Tìm số đó.
 2. Cộng thêm số dư $5$.
 
 ::solution
+Trong phép chia có dư, số bị chia bằng thương nhân với số chia rồi cộng với số dư. Số dư $5$ bé hơn số chia $6$ nên phép chia này hợp lí.
+
 Ta có $724\times6=4\,344$. Số cần tìm là:
 $$4\,344+5=4\,349.$$
 
-**Thử lại.** $4\,349:6=724$ (dư $5$). Đúng.
+Thử lại: $4\,349:6=724$ (dư $5$), vì $6\times724=4\,344$ và $4\,349-4\,344=5$. Đúng.
+
+Vậy số cần tìm là $4\,349$.
 
 **Đáp số.** $4\,349$.
 :::

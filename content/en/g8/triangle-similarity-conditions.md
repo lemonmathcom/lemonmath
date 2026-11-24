@@ -172,7 +172,14 @@ Triangle $ABC$ has sides $5$, $12$, $13$ and triangle $DEF$ has sides $10$, $24$
 2. Work out the three ratios.
 
 ::solution
-We have $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. The three ratios are equal, so the triangles are similar (SSS) with scale factor $2$.
+We compare the ratios of corresponding sides, listing the sides in increasing order: $5\leftrightarrow10$, $12\leftrightarrow24$, $13\leftrightarrow26$.
+
+We have
+$$\frac{10}{5}=2,\qquad\frac{24}{12}=2,\qquad\frac{26}{13}=2.$$
+
+The three ratios are equal, so by the side - side - side condition (SSS), $\triangle ABC\sim\triangle DEF$ with scale factor $2$ (from $\triangle ABC$ to $\triangle DEF$).
+
+So the two triangles are similar with scale factor $2$.
 
 **Answer.** Similar, scale factor $2$.
 :::
@@ -188,7 +195,14 @@ Are two triangles with sides $3$, $5$, $7$ and $6$, $10$, $15$ similar?
 2. Work out the three ratios.
 
 ::solution
-We have $\dfrac63=2$, $\dfrac{10}{5}=2$ but $\dfrac{15}{7}\neq2$. The three ratios are not equal, so the triangles are not similar.
+We compare the ratios of corresponding sides, listing the sides in increasing order: $3\leftrightarrow6$, $5\leftrightarrow10$, $7\leftrightarrow15$.
+
+We have
+$$\frac63=2,\qquad\frac{10}{5}=2,\qquad\frac{15}{7}\neq2\ \ (\text{since }2\cdot7=14\neq15).$$
+
+The three ratios are not equal, so the corresponding sides of the two triangles are not proportional.
+
+So the two triangles are not similar.
 
 **Answer.** Not similar.
 :::
@@ -204,7 +218,17 @@ Triangle $ABC$ has $AB=4$, $AC=6$, $\angle A=60^\circ$ and triangle $A'B'C'$ has
 2. Use the scale factor for the remaining side.
 
 ::solution
-We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ and the included angle $\angle A'=\angle A=60^\circ$. By SAS, $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. Hence $B'C'=\dfrac32\cdot5=7.5$.
+First we prove that the triangles are similar. In $\triangle A'B'C'$ and $\triangle ABC$, we have
+$$\frac{A'B'}{AB}=\frac64=\frac32,\qquad\frac{A'C'}{AC}=\frac96=\frac32.$$
+
+Hence $\dfrac{A'B'}{AB}=\dfrac{A'C'}{AC}=\dfrac32$. Moreover, the angles included between these pairs of sides are equal: $\angle A'=\angle A=60^\circ$.
+
+By the side - angle - side condition (SAS), $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$.
+
+Now we find $B'C'$. Since the triangles are similar, $\dfrac{B'C'}{BC}=\dfrac32$. With $BC=5$, we get
+$$B'C'=\frac32\cdot5=7.5.$$
+
+So the triangles are similar and $B'C'=7.5$.
 
 **Answer.** Similar; $B'C'=7.5$.
 :::
@@ -220,7 +244,17 @@ Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$ and triangle $MNP$ h
 2. Match the equal angles.
 
 ::solution
-In $\triangle ABC$: $\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. In $\triangle MNP$: $\angle N=180^\circ-50^\circ-60^\circ=70^\circ$. We have $\angle A=\angle M$, $\angle B=\angle N$, $\angle C=\angle P$. By AA, $\triangle ABC\sim\triangle MNP$.
+In $\triangle ABC$, the angles sum to $180^\circ$, so
+$$\angle C=180^\circ-\angle A-\angle B=180^\circ-50^\circ-70^\circ=60^\circ.$$
+
+Similarly, in $\triangle MNP$,
+$$\angle N=180^\circ-\angle M-\angle P=180^\circ-50^\circ-60^\circ=70^\circ.$$
+
+We have $\angle A=\angle M=50^\circ$, $\angle B=\angle N=70^\circ$ and $\angle C=\angle P=60^\circ$.
+
+By the angle - angle condition (AA), $\triangle ABC\sim\triangle MNP$, with corresponding vertices $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$.
+
+So $\triangle ABC\sim\triangle MNP$ (vertices written in corresponding order).
 
 **Answer.** $\triangle ABC\sim\triangle MNP$ (AA).
 :::
@@ -236,7 +270,20 @@ Triangle $ABC$ is right-angled at $A$ with $AB=3$, $AC=4$; triangle $DEF$ is rig
 2. Find $BC$, then $EF$.
 
 ::solution
-We have $\dfrac63=\dfrac84=2$ and the two right angles (included) are equal, so $\triangle DEF\sim\triangle ABC$ (SAS) with scale factor $2$. By Pythagoras' theorem, $BC=5$. Hence $EF=2\cdot5=10$.
+First we prove that the triangles are similar. In $\triangle DEF$ and $\triangle ABC$, we have
+$$\frac{DE}{AB}=\frac63=2,\qquad\frac{DF}{AC}=\frac84=2.$$
+
+Hence $\dfrac{DE}{AB}=\dfrac{DF}{AC}=2$. The two included angles are right angles, so $\angle D=\angle A=90^\circ$.
+
+By the SAS condition, $\triangle DEF\sim\triangle ABC$ with scale factor $2$.
+
+Now we find $EF$. Apply Pythagoras' theorem in $\triangle ABC$, right-angled at $A$:
+$$BC^2=AB^2+AC^2=3^2+4^2=25,\ \text{so}\ BC=5.$$
+
+Since the triangles are similar, $\dfrac{EF}{BC}=2$, hence
+$$EF=2\cdot5=10.$$
+
+So the triangles are similar and $EF=10$.
 
 **Answer.** Similar, $EF=10$.
 :::
@@ -252,7 +299,18 @@ In $\triangle ABC$, the point $D$ lies on side $AC$ with $\angle ABD=\angle ACB$
 2. Use the relation to find $AC$, then $DC=AC-AD$.
 
 ::solution
-Triangles $ABD$ and $ACB$ share the angle $A$ and have $\angle ABD=\angle ACB$, so they are similar (AA). Hence $AB^2=AD\cdot AC$, that is $100=5\cdot AC$ and $AC=20$. So $DC=20-5=15$.
+Consider $\triangle ABD$ and $\triangle ACB$. Since $D$ lies on side $AC$, the two triangles share the angle $A$. By hypothesis, $\angle ABD=\angle ACB$.
+
+By the AA condition, $\triangle ABD\sim\triangle ACB$ (corresponding vertices $A\leftrightarrow A$, $B\leftrightarrow C$, $D\leftrightarrow B$).
+
+Hence
+$$\frac{AB}{AC}=\frac{AD}{AB},\ \text{that is}\ AB^2=AD\cdot AC.$$
+
+Substituting $AB=10$ and $AD=5$, we get $100=5\cdot AC$, so $AC=20$.
+
+Since $D$ lies on side $AC$, we have $DC=AC-AD=20-5=15$.
+
+So $AC=20$ and $DC=15$.
 
 **Answer.** $AC=20$; $DC=15$.
 :::
@@ -268,7 +326,17 @@ Suppose that to measure the distance $AB$ between two points on opposite sides o
 2. Use SAS to get the ratio of $A'B'$ to $AB$.
 
 ::solution
-We have $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ and $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, and $\angle O$ is common. By SAS, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$, so $AB=3\cdot A'B'=75$ (m).
+Consider $\triangle OA'B'$ and $\triangle OAB$. Since $A'\in OA$ and $B'\in OB$, the two triangles share the angle $O$.
+
+We have
+$$\frac{OA'}{OA}=\frac{30}{90}=\frac13,\qquad\frac{OB'}{OB}=\frac{40}{120}=\frac13.$$
+
+Hence $\dfrac{OA'}{OA}=\dfrac{OB'}{OB}=\dfrac13$. By the SAS condition, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$.
+
+Therefore $\dfrac{A'B'}{AB}=\dfrac13$, so
+$$AB=3\cdot A'B'=3\cdot25=75\ \text{(m)}.$$
+
+So the distance $AB$ is $75$ m.
 
 **Answer.** $75$ m.
 :::
@@ -284,7 +352,18 @@ Suppose that to measure the height of a building, a small mirror is placed on th
 2. Write $\dfrac{\text{height of person}}{\text{distance to mirror}}=\dfrac{\text{height of building}}{30}$.
 
 ::solution
-The two right-angled triangles (the person and the distance to the mirror; the building and the distance to the mirror) have one pair of equal acute angles (the angle of incidence equals the angle of reflection), so they are similar (AA). Let $h$ be the height of the building. We have $\dfrac{h}{30}=\dfrac{1.6}{2}$, so $h=24$ (m).
+Let $AB$ be the building ($B$ the foot, $A$ the top), $M$ the position of the mirror, and $CD$ the person ($D$ the foot, $C$ the top of the head, taken as the eye level). Let $h=AB$ (m), $h>0$. By hypothesis, $BM=30$ m, $DM=2$ m and $CD=1.6$ m.
+
+Consider $\triangle ABM$, right-angled at $B$, and $\triangle CDM$, right-angled at $D$. The incoming ray and the reflected ray make equal angles with the ground, so $\angle AMB=\angle CMD$.
+
+The two right-angled triangles have one pair of equal acute angles, so by the AA condition, $\triangle ABM\sim\triangle CDM$.
+
+Hence
+$$\frac{AB}{BM}=\frac{CD}{DM},\ \text{that is}\ \frac h{30}=\frac{1.6}{2}.$$
+
+Therefore $h=\dfrac{30\cdot1.6}{2}=24$ (m).
+
+So the height of the building is $24$ m.
 
 **Answer.** $24$ m.
 :::
@@ -300,7 +379,18 @@ In trapezium $ABCD$, $AB\parallel CD$; the diagonals $AC$ and $BD$ meet at $O$. 
 2. Write $\dfrac{CD}{AB}=\dfrac{OC}{OA}$.
 
 ::solution
-Since $AB\parallel CD$, $\angle OAB=\angle OCD$ and $\angle OBA=\angle ODC$ (alternate angles). By AA, $\triangle OAB\sim\triangle OCD$. Hence $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, so $CD=8\cdot\dfrac32=12$.
+First we prove $\triangle OAB\sim\triangle OCD$. Since $AB\parallel CD$ and $A$, $O$, $C$ are collinear, $\angle OAB=\angle OCD$ (alternate angles).
+
+Since $AB\parallel CD$ and $B$, $O$, $D$ are collinear, $\angle OBA=\angle ODC$ (alternate angles).
+
+By the AA condition, $\triangle OAB\sim\triangle OCD$ (corresponding vertices $O\leftrightarrow O$, $A\leftrightarrow C$, $B\leftrightarrow D$).
+
+Now we find $CD$. From the similar triangles, we have
+$$\frac{CD}{AB}=\frac{OC}{OA}=\frac64=\frac32.$$
+
+Substituting $AB=8$, we get $CD=8\cdot\dfrac32=12$.
+
+So $\triangle OAB\sim\triangle OCD$ and $CD=12$.
 
 **Answer.** Proved; $CD=12$.
 :::

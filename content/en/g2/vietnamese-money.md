@@ -132,9 +132,15 @@ Write how to say these amounts of money: $2\,000$ dong, $10\,000$ dong, $50\,000
 2. Say the number of thousands, then add "thousand dong".
 
 ::solution
-$2\,000$ dong is said "two thousand dong".
-$10\,000$ dong is said "ten thousand dong".
-$50\,000$ dong is said "fifty thousand dong".
+To say an amount of money, we say the number of thousands and then "thousand dong".
+
+$2\,000$ dong is $2$ thousand dong, said "two thousand dong".
+
+$10\,000$ dong is $10$ thousand dong, said "ten thousand dong".
+
+$50\,000$ dong is $50$ thousand dong, said "fifty thousand dong".
+
+So the amounts are said: two thousand dong; ten thousand dong; fifty thousand dong.
 
 **Answer.** Two thousand dong; ten thousand dong; fifty thousand dong.
 :::
@@ -158,13 +164,17 @@ d) $9\,000-3\,000$
 2. Add or subtract the numbers of thousands.
 
 ::solution
-a) $1+4=5$, so $1\,000+4\,000=5\,000$.
+We treat each round number of thousands as a number of thousands, work with those numbers, and then write three zeros at the end.
 
-b) $5+5=10$, so $5\,000+5\,000=10\,000$.
+a) We have $1+4=5$, so $1\,000+4\,000=5\,000$.
 
-c) $20+30=50$, so $20\,000+30\,000=50\,000$.
+b) We have $5+5=10$, so $5\,000+5\,000=10\,000$.
 
-d) $9-3=6$, so $9\,000-3\,000=6\,000$.
+c) We have $20+30=50$, so $20\,000+30\,000=50\,000$.
+
+d) We have $9-3=6$, so $9\,000-3\,000=6\,000$.
+
+So a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 
 **Answer.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 :::
@@ -183,11 +193,16 @@ Lan has two $5\,000$ dong notes and one $1\,000$ dong note. How much money does 
 ::solution
 Solution
 
+Lan has two $5\,000$ dong notes, that is $5$ thousand dong and $5$ thousand dong, and one $1\,000$ dong note, that is $1$ thousand dong.
+
 The amount of money Lan has altogether is:
 $$5+5+1=11\ \text{(thousand dong)}.$$
-That is $11\,000$ dong.
 
-Answer: $11\,000$ dong.
+$11$ thousand dong is $11\,000$ dong.
+
+So Lan has $11\,000$ dong altogether.
+
+**Answer.** $11\,000$ dong.
 :::
 
 :::exercise
@@ -203,9 +218,11 @@ b) How many $2\,000$ dong notes can you change one $10\,000$ dong note for?
 2. Part b: count on in 2 thousands up to 10 thousand.
 
 ::solution
-a) $10\,000+10\,000=20\,000$, so you get 2 notes.
+a) We need to find how many $10\,000$ dong notes make $20\,000$ dong. We have $10\,000+10\,000=20\,000$, so one $20\,000$ dong note can be changed for $2$ notes of $10\,000$ dong.
 
-b) $2+2+2+2+2=10$, so $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, and you get 5 notes.
+b) We need to find how many $2\,000$ dong notes make $10\,000$ dong. We have $2+2+2+2+2=10$, so $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$. The number of $2\,000$ dong notes is $5$, because $2\times5=10$.
+
+So a) you get $2$ notes; b) you get $5$ notes.
 
 **Answer.** a) 2 notes; b) 5 notes.
 :::
@@ -224,9 +241,15 @@ $$20\,000\ \text{dong}\ \square\ 10\,000\ \text{dong}+5\,000\ \text{dong}.$$
 2. Compare the numbers of thousands.
 
 ::solution
-$5+5=10$ thousand, so two $5\,000$ dong notes equal $10\,000$ dong.
-$3+2=5$ thousand, and $5<6$.
-$10+5=15$ thousand, and $20>15$.
+We change the amounts into thousands of dong and then compare.
+
+First box: $2$ notes of $5\,000$ dong make $5+5=10$ (thousand dong), that is $10\,000$ dong. Both sides are equal, so we write $=$.
+
+Second box: $3\,000$ dong $+\ 2\,000$ dong is $3+2=5$ (thousand dong), that is $5\,000$ dong. Since $5<6$, $5\,000$ dong is less than $6\,000$ dong, so we write $<$.
+
+Third box: $10\,000$ dong $+\ 5\,000$ dong is $10+5=15$ (thousand dong), that is $15\,000$ dong. Since $20>15$, $20\,000$ dong is greater than $15\,000$ dong, so we write $>$.
+
+So the signs to write are, in order, $=$; $<$; $>$.
 
 **Answer.** $=$; $<$; $>$.
 :::
@@ -245,11 +268,16 @@ Suppose Nam buys a story book that costs $7\,000$ dong and a pen that costs $3\,
 ::solution
 Solution
 
+Nam buys a story book that costs $7$ thousand dong and a pen that costs $3$ thousand dong, so the amount to pay is the sum of the two prices.
+
 The amount Nam must pay altogether is:
 $$7+3=10\ \text{(thousand dong)}.$$
-That is $10\,000$ dong.
 
-Answer: $10\,000$ dong.
+$10$ thousand dong is $10\,000$ dong.
+
+So Nam must pay $10\,000$ dong altogether.
+
+**Answer.** $10\,000$ dong.
 :::
 
 :::exercise
@@ -266,11 +294,18 @@ Suppose Ha has $20\,000$ dong and buys a box of cakes that costs $15\,000$ dong.
 ::solution
 Solution
 
+Ha has $20$ thousand dong and buys a box of cakes that costs $15$ thousand dong, so the money left is the difference between the two amounts.
+
 The amount of money Ha has left is:
 $$20-15=5\ \text{(thousand dong)}.$$
-That is $5\,000$ dong.
 
-Answer: $5\,000$ dong.
+$5$ thousand dong is $5\,000$ dong.
+
+Check: $15+5=20$ (thousand dong). Correct.
+
+So Ha has $5\,000$ dong left.
+
+**Answer.** $5\,000$ dong.
 :::
 
 :::exercise
@@ -286,11 +321,16 @@ Remember the lesson on multiplication. Mai has 4 notes of $5\,000$ dong. How muc
 ::solution
 Solution
 
+Mai has $4$ notes, each of $5\,000$ dong, that is $5$ thousand dong. So we multiply $5$ thousand dong by $4$.
+
 The amount of money Mai has is:
 $$5\times4=20\ \text{(thousand dong)}.$$
-That is $20\,000$ dong.
 
-Answer: $20\,000$ dong.
+$20$ thousand dong is $20\,000$ dong.
+
+So Mai has $20\,000$ dong.
+
+**Answer.** $20\,000$ dong.
 :::
 
 :::exercise Challenge
@@ -304,8 +344,15 @@ Mai has three banknotes: one $10\,000$ dong note, one $5\,000$ dong note and one
 2. Try putting together 10, 5 and 2 thousand dong.
 
 ::solution
-We have $10+2=12$, so Mai can pay exactly $12\,000$ dong with the $10\,000$ dong note and the $2\,000$ dong note.
-We have $10+5=15$, so Mai can pay exactly $15\,000$ dong with the $10\,000$ dong note and the $5\,000$ dong note.
+Mai has the $10\,000$ dong, $5\,000$ dong and $2\,000$ dong notes, that is $10$, $5$ and $2$ thousand dong. We look for notes whose total is exactly the amount to pay.
+
+To pay exactly $12\,000$ dong: we have $10+2=12$, so Mai uses the $10\,000$ dong note and the $2\,000$ dong note.
+
+To pay exactly $15\,000$ dong: we have $10+5=15$, so Mai uses the $10\,000$ dong note and the $5\,000$ dong note.
+
+Check: the other ways are $5+2=7$ and $10+5+2=17$ (thousand dong), and neither equals $12$ or $15$ thousand dong.
+
+So Mai pays exactly $12\,000$ dong with the $10\,000$ dong note and the $2\,000$ dong note; she pays exactly $15\,000$ dong with the $10\,000$ dong note and the $5\,000$ dong note.
 
 **Answer.** $12\,000$ dong: the $10\,000$ and $2\,000$ notes; $15\,000$ dong: the $10\,000$ and $5\,000$ notes.
 :::

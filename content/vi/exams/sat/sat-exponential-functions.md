@@ -143,7 +143,17 @@ D. Giá trị lúc mua là 828 đô la.
 2. Xem số $900$ có ý nghĩa gì.
 
 ::solution
-Hệ số $0{,}92$ nghĩa là giảm $8\%$ mỗi năm: đáp án **C**. Giá trị lúc mua là $V(0)=900$ đô la; 828 đô la là giá trị sau một năm.
+Hàm số $V(t)=900(0{,}92)^t$ có dạng $V(t)=a\cdot b^t$ với $a=900$ và $b=0{,}92$; $t$ là số năm kể từ khi mua.
+
+Ta có $V(0)=900\cdot(0{,}92)^0=900$, nên giá trị lúc mua là $900$ đô la, không phải $828$ đô la. Do đó phương án D sai.
+
+Sau mỗi năm, giá trị được nhân với $0{,}92$. Vì $0{,}92=1-0{,}08$ nên mỗi năm giá trị giảm $8\%$ so với giá trị của năm trước. Do đó phương án C đúng.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án A nhầm: hệ số $0{,}92$ nghĩa là giá trị còn lại $92\%$, không phải giảm $92\%$. Phương án B sai vì mức giảm là $8\%$ giá trị của năm trước, không phải một lượng cố định $8$ đô la. Phương án D sai vì $828$ đô la là $V(1)$, tức giá trị sau một năm.
+
+**Đáp số.** C.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -157,7 +167,18 @@ Mai gửi 2.000 đô la vào một tài khoản có lãi suất 5% mỗi năm, t
 2. Tính rồi làm tròn.
 
 ::solution
-$2.000\cdot(1{,}05)^4\approx2.431{,}01$, nên khoảng $2.431$ đô la. Khi nhập vào Bluebook, gõ `2431`.
+Gọi $A$ (đô la) là số tiền trong tài khoản sau $4$ năm. Áp dụng công thức lãi kép $A=P(1+r)^n$ với số tiền gửi $P=2000$ đô la, lãi suất $r=5\%=0{,}05$ mỗi năm và số năm $n=4$.
+
+Thay vào công thức, ta được
+$$A=2000\cdot(1+0{,}05)^4=2000\cdot(1{,}05)^4.$$
+
+Ta có $(1{,}05)^4=1{,}21550625$, suy ra $A=2000\cdot1{,}21550625\approx2431{,}01$ (đô la). Làm tròn đến đô la, ta được $2431$.
+
+Vậy sau $4$ năm, tài khoản của Mai có khoảng 2.431 đô la.
+
+*Mẹo thi.* Khi nhập đáp án vào Bluebook, gõ `2431`.
+
+**Đáp số.** 2.431 đô la.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -175,7 +196,18 @@ Hàm số $f$ là hàm mũ. Giá trị của $f(4)$ bằng bao nhiêu?
 2. Nhân $f(3)$ với cùng hệ số đó.
 
 ::solution
-Mỗi giá trị bằng $\dfrac13$ giá trị trước, nên $f(4)=6\cdot\dfrac13=2$.
+Vì $f$ là hàm mũ nên $f(x)=a\cdot b^x$.
+
+Từ $f(0)=162$ ta có $a=162$. Từ $f(1)=54$ ta có $b=\dfrac{f(1)}{f(0)}=\dfrac{54}{162}=\dfrac13$.
+
+Kiểm tra: $f(2)=162\cdot\left(\dfrac13\right)^2=18$ và $f(3)=162\cdot\left(\dfrac13\right)^3=6$, khớp với bảng. Như vậy mỗi giá trị bằng $\dfrac13$ giá trị trước.
+
+Do đó
+$$f(4)=f(3)\cdot\frac13=6\cdot\frac13=2.$$
+
+Vậy $f(4)=2$.
+
+**Đáp số.** $2$.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -189,7 +221,14 @@ Một mẻ nuôi cấy bắt đầu với 400 vi khuẩn, và số vi khuẩn nh
 2. Tính $400\cdot2^4$.
 
 ::solution
-$400\cdot2^4=400\cdot16=6.400$ vi khuẩn.
+Số vi khuẩn nhân đôi sau mỗi $3$ giờ. Trong $12$ giờ có $12:3=4$ lần nhân đôi.
+
+Do đó số vi khuẩn sau $12$ giờ là
+$$400\cdot2^4=400\cdot16=6400.$$
+
+Vậy sau $12$ giờ có 6.400 vi khuẩn.
+
+**Đáp số.** 6.400 vi khuẩn.
 :::
 
 :::exercise Trắc nghiệm
@@ -207,7 +246,19 @@ D. $y=3x^{0{,}8}$
 2. Xét cơ số.
 
 ::solution
-B là hàm bậc nhất và D là hàm lũy thừa. A có $b=1{,}2>1$, là tăng trưởng. C có $b=0{,}8<1$: đáp án **C**.
+Hàm số mô tả sự suy giảm theo hàm mũ có dạng $y=a\cdot b^x$ với $a>0$ và $0<b<1$.
+
+Phương án A: $y=3(1{,}2)^x$ có $b=1{,}2>1$, là tăng trưởng theo hàm mũ.
+
+Phương án B: $y=0{,}8x+3$ là hàm bậc nhất, không phải hàm mũ.
+
+Phương án D: $y=3x^{0{,}8}$ là hàm lũy thừa (biến $x$ nằm ở cơ số), không phải hàm mũ.
+
+Phương án C: $y=3(0{,}8)^x$ có $a=3>0$ và $b=0{,}8\in(0; 1)$, là suy giảm theo hàm mũ.
+
+Vậy chọn **C**.
+
+**Đáp số.** C.
 :::
 
 ## Bài tập vận dụng
@@ -223,7 +274,20 @@ Giá một chiếc vé tăng 10% trong một năm và lại tăng 10% vào năm 
 2. Đổi hệ số trở lại thành phần trăm.
 
 ::solution
-$1{,}1^2=1{,}21$, nên giá vé tăng tổng cộng $21\%$, không phải $20\%$. Ví dụ, 100 đô la thành 110 đô la, rồi thành 121 đô la.
+Gọi $P>0$ (đô la) là giá vé ban đầu.
+
+Sau năm thứ nhất, giá vé tăng $10\%$ nên bằng $P\cdot1{,}1$.
+
+Sau năm thứ hai, giá vé lại tăng $10\%$ so với giá của năm thứ nhất nên bằng
+$$P\cdot1{,}1\cdot1{,}1=P\cdot1{,}1^2=1{,}21P.$$
+
+Suy ra giá vé sau hai năm bằng $121\%$ giá ban đầu, tức là tăng thêm $21\%$ (không phải $20\%$, vì lần tăng thứ hai tính trên giá đã tăng).
+
+Ví dụ, với $P=100$ đô la: giá thành $110$ đô la, rồi thành $121$ đô la.
+
+Vậy sau hai năm, giá vé tăng $21\%$.
+
+**Đáp số.** $21\%$.
 :::
 
 :::exercise Trả lương bậc nhất hay hàm mũ
@@ -237,12 +301,24 @@ Phương án A trả 1.000 đô la cộng 100 đô la cho mỗi tháng làm vi�
 2. Tìm tháng đầu tiên B lớn hơn.
 
 ::solution
+Gọi $m$ là số tháng làm việc ($m$ nguyên, $m\ge0$). Phương án A trả $1000+100m$ đô la; phương án B trả $10\cdot2^m$ đô la.
+
+Lập bảng giá trị:
+
 | $m$ | $6$ | $7$ | $8$ |
 |---|---|---|---|
-| Phương án A | $1.600$ | $1.700$ | $1.800$ |
-| Phương án B | $640$ | $1.280$ | $2.560$ |
+| Phương án A | 1.600 | 1.700 | 1.800 |
+| Phương án B | 640 | 1.280 | 2.560 |
 
-Phương án B lần đầu trả nhiều hơn sau $8$ tháng. Tăng trưởng hàm mũ khởi đầu chậm nhưng rồi sẽ vượt mọi tăng trưởng bậc nhất.
+Với $m=6$: $640<1600$. Với $m=7$: $1280<1700$. Với $m=8$: $2560>1800$.
+
+Với $m\le5$ ta có $10\cdot2^m\le10\cdot2^5=320<1000\le1000+100m$, nên phương án B cũng chưa vượt phương án A.
+
+Vậy phương án B lần đầu trả nhiều hơn phương án A sau $8$ tháng.
+
+*Nhận xét.* Tăng trưởng hàm mũ khởi đầu chậm nhưng rồi sẽ vượt mọi tăng trưởng bậc nhất.
+
+**Đáp số.** $8$ tháng.
 :::
 
 :::exercise Tìm hệ số
@@ -256,7 +332,21 @@ Một quần thể tuân theo $f(t)=a\cdot b^t$, với $t$ tính bằng năm. T�
 2. $b=1{,}2$; tính $500(1{,}2)^5$.
 
 ::solution
-$a=500$ và $b^2=1{,}44$, nên $b=1{,}2$ (hệ số tăng trưởng dương). Khi đó $f(5)=500(1{,}2)^5=1.244{,}16$, khoảng $1.244$ con.
+Tại $t=0$ có $500$ con, nên $f(0)=a\cdot b^0=a=500$.
+
+Tại $t=2$ có $720$ con, nên $f(2)=500b^2=720$. Suy ra
+$$b^2=\frac{720}{500}=1{,}44.$$
+
+Vì hệ số tăng trưởng $b$ là số dương nên $b=\sqrt{1{,}44}=1{,}2$. Vậy $f(t)=500(1{,}2)^t$.
+
+Thay $t=5$, ta được
+$$f(5)=500\cdot(1{,}2)^5=500\cdot2{,}48832=1244{,}16.$$
+
+Làm tròn đến hàng đơn vị, ta được $1244$.
+
+Vậy mô hình dự đoán tại $t=5$ có khoảng 1.244 con.
+
+**Đáp số.** 1.244 con.
 :::
 
 :::exercise Thử thách
@@ -270,7 +360,20 @@ Một bệnh nhân được dùng 200 mi-li-gam thuốc. Mỗi giờ, cơ thể 
 2. Thử $n=6$ và $n=7$.
 
 ::solution
-$200(0{,}8)^6\approx52{,}4$ mi-li-gam, vẫn trên 50; $200(0{,}8)^7\approx41{,}9$ mi-li-gam. Lượng thuốc lần đầu xuống dưới 50 mi-li-gam sau $7$ giờ.
+Mỗi giờ cơ thể đào thải $20\%$ nên lượng thuốc còn lại bằng $80\%=0{,}8$ lượng thuốc đầu giờ. Gọi $M(t)$ (mi-li-gam) là lượng thuốc sau $t$ giờ ($t$ nguyên, $t\ge0$). Khi đó
+$$M(t)=200\cdot(0{,}8)^t.$$
+
+Ta cần tìm $t$ nhỏ nhất sao cho $M(t)<50$.
+
+Với $t=6$: $M(6)=200\cdot(0{,}8)^6\approx52{,}4$ mi-li-gam, vẫn lớn hơn $50$.
+
+Với $t=7$: $M(7)=200\cdot(0{,}8)^7\approx41{,}9$ mi-li-gam, nhỏ hơn $50$.
+
+Vì $0<0{,}8<1$ nên $M(t)$ giảm theo $t$; do đó $M(t)\ge M(6)>50$ với mọi $t\le6$.
+
+Vậy lượng thuốc lần đầu ít hơn $50$ mi-li-gam sau $7$ giờ.
+
+**Đáp số.** $7$ giờ.
 :::
 
 :::quiz

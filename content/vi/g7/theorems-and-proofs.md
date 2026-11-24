@@ -305,9 +305,13 @@ Viết GT và KL của định lí: "Nếu một đường thẳng cắt hai đ�
 2. Gọi tên hai góc đồng vị ở kết luận.
 
 ::solution
-GT: $a\parallel b$; $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$.
+Trong định lí dạng "nếu ... thì ...", phần sau từ "nếu" là giả thiết (GT), phần sau từ "thì" là kết luận (KL).
+
+GT: $a\parallel b$; đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$.
 
 KL: Hai góc đồng vị bằng nhau, chẳng hạn $\widehat{A}_1=\widehat{B}_5$.
+
+Vậy GT: $a\parallel b$, $c$ cắt $a$, $b$ tại $A$, $B$; KL: $\widehat{A}_1=\widehat{B}_5$ (và các cặp góc đồng vị khác).
 
 **Đáp số.** GT: $a\parallel b$, $c$ cắt $a$, $b$ tại $A$, $B$. KL: $\widehat{A}_1=\widehat{B}_5$ (và các cặp đồng vị khác).
 :::
@@ -325,9 +329,13 @@ Viết định lí "Hai góc kề bù có tổng bằng $180^\circ$" dưới d�
 ::solution
 Dạng "nếu ... thì ...": Nếu hai góc kề bù thì tổng của chúng bằng $180^\circ$.
 
+Phần sau từ "nếu" là giả thiết, phần sau từ "thì" là kết luận. Gọi hai góc kề bù là $\widehat{xOy}$ và $\widehat{yOz}$.
+
 GT: $\widehat{xOy}$ và $\widehat{yOz}$ kề bù.
 
 KL: $\widehat{xOy}+\widehat{yOz}=180^\circ$.
+
+Vậy GT: $\widehat{xOy}$ và $\widehat{yOz}$ kề bù; KL: $\widehat{xOy}+\widehat{yOz}=180^\circ$.
 
 **Đáp số.** GT: $\widehat{xOy}$ và $\widehat{yOz}$ kề bù. KL: $\widehat{xOy}+\widehat{yOz}=180^\circ$.
 :::
@@ -367,13 +375,19 @@ Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$. Chứng minh $\widehat
 2. Viết hai đẳng thức kề bù có chung số hạng $\widehat{AOC}$.
 
 ::solution
-GT: $AB$ cắt $CD$ tại $O$. KL: $\widehat{AOD}=\widehat{BOC}$.
+GT: Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$.
 
-Vì $OC$, $OD$ là hai tia đối nhau nên $\widehat{AOD}$ và $\widehat{AOC}$ kề bù, suy ra $\widehat{AOD}+\widehat{AOC}=180^\circ$ (kề bù).
+KL: $\widehat{AOD}=\widehat{BOC}$.
 
-Vì $OA$, $OB$ là hai tia đối nhau nên $\widehat{BOC}$ và $\widehat{AOC}$ kề bù, suy ra $\widehat{BOC}+\widehat{AOC}=180^\circ$ (kề bù).
+Chứng minh. Vì $OC$, $OD$ là hai tia đối nhau nên $\widehat{AOD}$ và $\widehat{AOC}$ là hai góc kề bù, suy ra
+$$\widehat{AOD}+\widehat{AOC}=180^\circ\ \text{(kề bù)}.$$
 
-Do đó $\widehat{AOD}+\widehat{AOC}=\widehat{BOC}+\widehat{AOC}$, suy ra $\widehat{AOD}=\widehat{BOC}$.
+Vì $OA$, $OB$ là hai tia đối nhau nên $\widehat{BOC}$ và $\widehat{AOC}$ là hai góc kề bù, suy ra
+$$\widehat{BOC}+\widehat{AOC}=180^\circ\ \text{(kề bù)}.$$
+
+Do đó $\widehat{AOD}+\widehat{AOC}=\widehat{BOC}+\widehat{AOC}$. Bớt $\widehat{AOC}$ ở hai vế, ta được $\widehat{AOD}=\widehat{BOC}$.
+
+Vậy $\widehat{AOD}=\widehat{BOC}$ (điều phải chứng minh).
 
 **Đáp số.** Đã chứng minh.
 :::
@@ -389,13 +403,17 @@ Chứng minh: hai góc cùng bù với một góc thứ ba thì bằng nhau.
 2. Lập hai đẳng thức tổng bằng $180^\circ$ rồi so sánh.
 
 ::solution
-GT: $\widehat{A}$ bù với $\widehat{C}$; $\widehat{B}$ bù với $\widehat{C}$. KL: $\widehat{A}=\widehat{B}$.
+GT: $\widehat{A}$ bù với $\widehat{C}$; $\widehat{B}$ bù với $\widehat{C}$.
 
-Vì $\widehat{A}$ bù với $\widehat{C}$ nên $\widehat{A}=180^\circ-\widehat{C}$ (gt).
+KL: $\widehat{A}=\widehat{B}$.
 
-Vì $\widehat{B}$ bù với $\widehat{C}$ nên $\widehat{B}=180^\circ-\widehat{C}$ (gt).
+Chứng minh. Vì $\widehat{A}$ bù với $\widehat{C}$ nên $\widehat{A}+\widehat{C}=180^\circ$, tức là $\widehat{A}=180^\circ-\widehat{C}$ (gt).
 
-Hai vế phải bằng nhau nên $\widehat{A}=\widehat{B}$.
+Vì $\widehat{B}$ bù với $\widehat{C}$ nên $\widehat{B}+\widehat{C}=180^\circ$, tức là $\widehat{B}=180^\circ-\widehat{C}$ (gt).
+
+Hai vế phải cùng bằng $180^\circ-\widehat{C}$ nên $\widehat{A}=\widehat{B}$.
+
+Vậy hai góc cùng bù với một góc thứ ba thì bằng nhau.
 
 **Đáp số.** Đã chứng minh.
 :::
@@ -469,11 +487,16 @@ Hai đường thẳng $a$, $b$ bị đường thẳng $c$ cắt tại $A$, $B$. 
 2. $\widehat{A}_1$ đối đỉnh với góc nào? Rồi so sánh với $\widehat{B}_5$.
 
 ::solution
-GT: $\widehat{A}_1=\widehat{B}_5$. KL: $\widehat{A}_3=\widehat{B}_5$.
+GT: Hai đường thẳng $a$, $b$ bị đường thẳng $c$ cắt tại $A$, $B$; $\widehat{A}_1=\widehat{B}_5$ (một cặp góc đồng vị bằng nhau).
 
-Vì $\widehat{A}_1$ và $\widehat{A}_3$ là hai góc đối đỉnh nên $\widehat{A}_3=\widehat{A}_1$ (đối đỉnh).
+KL: $\widehat{A}_3=\widehat{B}_5$ (cặp góc so le trong bằng nhau).
+
+Chứng minh. Vì $\widehat{A}_1$ và $\widehat{A}_3$ là hai góc đối đỉnh nên
+$$\widehat{A}_3=\widehat{A}_1\ \text{(đối đỉnh)}.$$
 
 Mà $\widehat{A}_1=\widehat{B}_5$ (gt) nên $\widehat{A}_3=\widehat{B}_5$.
+
+Vậy $\widehat{A}_3=\widehat{B}_5$, tức là nếu một cặp góc đồng vị bằng nhau thì cặp góc so le trong cũng bằng nhau.
 
 **Đáp số.** Đã chứng minh.
 :::
@@ -489,13 +512,19 @@ Cho $a\parallel b$, đường thẳng $c$ cắt $a$ tại $A$, cắt $b$ tại $
 2. Hai góc ấy ở vị trí gì với hai đường $Am$, $Bn$ và đường cắt $c$?
 
 ::solution
-GT: $a\parallel b$; $Am$ phân giác $\widehat{A}_1$; $Bn$ phân giác $\widehat{B}_5$. KL: $Am\parallel Bn$.
+GT: $a\parallel b$; $c$ cắt $a$ tại $A$, cắt $b$ tại $B$; $Am$ là phân giác của $\widehat{A}_1$; $Bn$ là phân giác của $\widehat{B}_5$.
 
-Vì $a\parallel b$ nên $\widehat{A}_1=\widehat{B}_5$ (đồng vị).
+KL: $Am\parallel Bn$.
 
-Vì $Am$ là phân giác của $\widehat{A}_1$ nên góc giữa $Am$ và tia của $c$ nằm trong $\widehat{A}_1$ bằng $\dfrac12\widehat{A}_1$. Vì $Bn$ là phân giác của $\widehat{B}_5$ nên góc giữa $Bn$ và tia của $c$ nằm trong $\widehat{B}_5$ bằng $\dfrac12\widehat{B}_5$. Do $\widehat{A}_1=\widehat{B}_5$ nên hai góc này bằng nhau.
+Chứng minh. Vì $a\parallel b$ nên $\widehat{A}_1=\widehat{B}_5$ (hai góc đồng vị).
 
-Hai góc này là hai góc đồng vị đối với hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $c$. Theo dấu hiệu nhận biết, $Am\parallel Bn$.
+Vì $Am$ là phân giác của $\widehat{A}_1$ nên góc giữa $Am$ và tia của $c$ nằm trong $\widehat{A}_1$ bằng $\dfrac12\widehat{A}_1$. Vì $Bn$ là phân giác của $\widehat{B}_5$ nên góc giữa $Bn$ và tia của $c$ nằm trong $\widehat{B}_5$ bằng $\dfrac12\widehat{B}_5$.
+
+Do $\widehat{A}_1=\widehat{B}_5$ nên $\dfrac12\widehat{A}_1=\dfrac12\widehat{B}_5$, tức là hai góc này bằng nhau.
+
+Hai góc này là hai góc đồng vị đối với hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $c$. Theo dấu hiệu nhận biết hai đường thẳng song song (hai góc đồng vị bằng nhau), ta có $Am\parallel Bn$.
+
+Vậy $Am\parallel Bn$ (điều phải chứng minh).
 
 **Đáp số.** Đã chứng minh.
 :::

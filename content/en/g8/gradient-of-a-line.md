@@ -223,13 +223,17 @@ d) $y=7x$.
 2. Read off $a$ and $b$.
 
 ::solution
-a) $a=-3$, $b=5$.
+A linear function has the form $y=ax+b$, where $a$ is the gradient and $b$ is the constant (the $y$-intercept). We bring each function to this form.
 
-b) $y=\dfrac14x-1$, so $a=\dfrac14$, $b=-1$.
+a) The function $y=-3x+5$ already has the form $y=ax+b$, so $a=-3$, $b=5$.
 
-c) $y=-2x+4$, so $a=-2$, $b=4$.
+b) We have $y=\dfrac{x}{4}-1=\dfrac14x-1$, so $a=\dfrac14$, $b=-1$.
 
-d) $y=7x+0$, so $a=7$, $b=0$.
+c) We have $y=4-2x=-2x+4$, so $a=-2$, $b=4$.
+
+d) We have $y=7x=7x+0$, so $a=7$, $b=0$.
+
+So a) $(a, b)=(-3, 5)$; b) $\left(\dfrac14, -1\right)$; c) $(-2, 4)$; d) $(7, 0)$.
 
 **Answer.** a) $(-3, 5)$. b) $\left(\dfrac14, -1\right)$. c) $(-2, 4)$. d) $(7, 0)$.
 :::
@@ -251,9 +255,15 @@ c) $y=1-3x$.
 2. Look at its sign.
 
 ::solution
-a) $a=0.5>0$: rises. b) $a=-4<0$: falls. c) $y=-3x+1$, so $a=-3<0$: falls.
+For a function $y=ax+b$: if $a>0$ the function is increasing (the graph rises from left to right); if $a<0$ the function is decreasing (the graph falls).
 
-So a) rises; b) and c) fall.
+a) The function $y=0.5x+2$ has $a=0.5>0$, so it rises.
+
+b) The function $y=-4x+1$ has $a=-4<0$, so it falls.
+
+c) We have $y=1-3x=-3x+1$, so $a=-3<0$, and it falls.
+
+So function a) rises; functions b) and c) fall.
 
 **Answer.** a) rises. b) falls. c) falls.
 :::
@@ -273,9 +283,23 @@ b) $A(0, 5)$ and $B(4, 1)$.
 2. Substitute the coordinates of one point to find $b$.
 
 ::solution
-a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. From $A$: $-3=2\cdot(-1)+b$, so $b=-1$. Equation: $y=2x-1$. Check with $B$: $2\cdot2-1=3$, correct.
+Let the required line be $y=ax+b$. The gradient of the line through $A(x_A, y_A)$ and $B(x_B, y_B)$ is $a=\dfrac{y_B-y_A}{x_B-x_A}$ (where $x_A\neq x_B$).
 
-b) $a=\dfrac{1-5}{4-0}=-1$. The line meets the $y$-axis at $(0, 5)$, so $b=5$. Equation: $y=-x+5$. Check with $B$: $-4+5=1$, correct.
+a) For $A(-1, -3)$ and $B(2, 3)$, we have
+$$a=\frac{3-(-3)}{2-(-1)}=\frac63=2.$$
+
+The line passes through $A$, so $-3=2\cdot(-1)+b$, hence $b=-3+2=-1$. The equation of the line is $y=2x-1$.
+
+Check with $B$: $2\cdot2-1=3$, correct.
+
+b) For $A(0, 5)$ and $B(4, 1)$, we have
+$$a=\frac{1-5}{4-0}=\frac{-4}{4}=-1.$$
+
+The line meets the $y$-axis at $A(0, 5)$, so $b=5$. The equation of the line is $y=-x+5$.
+
+Check with $B$: $-4+5=1$, correct.
+
+So a) $y=2x-1$; b) $y=-x+5$.
 
 **Answer.** a) $y=2x-1$. b) $y=-x+5$.
 :::
@@ -291,7 +315,21 @@ Draw the graph of $y=\dfrac{x}{2}+1$.
 2. Work out $y$ and join the two points.
 
 ::solution
-For $x=0$, $y=1$, giving $(0, 1)$. For $x=2$, $y=2$, giving $(2, 2)$. Joining the two points gives a line that rises (since $a=\dfrac12>0$) and also passes through $(-2, 0)$.
+The graph of a linear function is a straight line, so we only need two distinct points on it.
+
+For $x=0$, $y=\dfrac02+1=1$, giving the point $(0, 1)$.
+
+For $x=2$, $y=\dfrac22+1=2$, giving the point $(2, 2)$.
+
+The table of values is:
+
+| $x$ | $0$ | $2$ |
+|---|---|---|
+| $y$ | $1$ | $2$ |
+
+Draw the coordinate axes $Oxy$, plot the points $(0, 1)$ and $(2, 2)$ and join them; this gives the required line. Since $a=\dfrac12>0$, the line rises. It also passes through $(-2, 0)$, because when $x=-2$ we get $y=\dfrac{-2}{2}+1=0$.
+
+So the graph of $y=\dfrac{x}{2}+1$ is the line through the points $(0, 1)$ and $(2, 2)$.
 
 **Answer.** The line through $(0, 1)$ and $(2, 2)$.
 :::
@@ -307,7 +345,19 @@ Consider the four lines $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: y=2x
 2. If the gradients are equal, compare $b$.
 
 ::solution
-With $d_2$: same $a=2$, different $b$ ($3\neq-5$): parallel. With $d_3$: $a=-2\neq2$: intersecting, and at the intersection $2x+3=-2x+3$, so $x=0$ and $y=3$, that is $(0, 3)$. With $d_4$: same $a=2$ and same $b=3$: coincident.
+Two lines $y=ax+b$ and $y=a'x+b'$ (with $a\neq0$, $a'\neq0$): they are parallel when $a=a'$ and $b\neq b'$; coincident when $a=a'$ and $b=b'$; intersecting when $a\neq a'$.
+
+The line $d_1: y=2x+3$ has $a=2$, $b=3$.
+
+For $d_2: y=2x-5$: here $a=2$ and $b=-5$. The gradients are equal and $3\neq-5$, so $d_1\parallel d_2$.
+
+For $d_3: y=-2x+3$: here $a=-2\neq2$, so $d_1$ and $d_3$ intersect. The $x$-coordinate of the intersection satisfies
+$$2x+3=-2x+3\iff4x=0\iff x=0.$$
+Then $y=2\cdot0+3=3$. So the intersection point is $(0, 3)$.
+
+For $d_4: y=2x+3$: here $a=2$ and $b=3$, the same gradient and the same constant as $d_1$, so $d_1\equiv d_4$.
+
+So $d_1$ is parallel to $d_2$; $d_1$ meets $d_3$ at $(0, 3)$; $d_1$ coincides with $d_4$.
 
 **Answer.** $d_1\parallel d_2$; $d_1$ meets $d_3$ at $(0, 3)$; $d_1\equiv d_4$.
 :::
@@ -377,11 +427,16 @@ Find the point of intersection of the lines $y=2x-1$ and $y=-x+5$. (Revise [line
 2. Substitute $x$ into one function to find $y$.
 
 ::solution
-We have $2x-1=-x+5$, so $3x=6$ and $x=2$. Then $y=2\cdot2-1=3$.
+The $x$-coordinate of the intersection of two lines is the solution of the equation obtained by setting the two expressions for $y$ equal:
+$$2x-1=-x+5.$$
 
-Check: $-2+5=3$.
+Moving terms, we get $2x+x=5+1$, that is $3x=6$, so $x=2$.
 
-So the point of intersection is $(2, 3)$.
+Substituting $x=2$ into $y=2x-1$, we get $y=2\cdot2-1=3$.
+
+Check with the other line: $y=-2+5=3$, correct.
+
+So the point of intersection of the two lines is $(2, 3)$.
 
 **Answer.** $(2, 3)$.
 :::

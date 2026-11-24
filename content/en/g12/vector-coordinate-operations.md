@@ -211,7 +211,18 @@ Let $\vec{u}=(2, -1, 3)$ and $\vec{v}=(-1, 4, 0)$. Find $\vec{u}+\vec{v}$, $3\ve
 2. Multiply coordinates in the same position and add.
 
 ::solution
-$\vec{u}+\vec{v}=(1, 3, 3)$. $3\vec{u}=(6, -3, 9)$, $2\vec{v}=(-2, 8, 0)$, so $3\vec{u}-2\vec{v}=(8, -11, 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+For $\vec{a}=(a_1, a_2, a_3)$ and $\vec{b}=(b_1, b_2, b_3)$, we have $\vec{a}+\vec{b}=(a_1+b_1, a_2+b_2, a_3+b_3)$, $k\vec{a}=(ka_1, ka_2, ka_3)$ and $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2+a_3b_3$.
+
+Sum of two vectors: for $\vec{u}=(2, -1, 3)$ and $\vec{v}=(-1, 4, 0)$, we have
+$$\vec{u}+\vec{v}=(2+(-1), -1+4, 3+0)=(1, 3, 3).$$
+
+The vector $3\vec{u}-2\vec{v}$: we have $3\vec{u}=(6, -3, 9)$ and $2\vec{v}=(-2, 8, 0)$, so
+$$3\vec{u}-2\vec{v}=(6-(-2), -3-8, 9-0)=(8, -11, 9).$$
+
+Dot product:
+$$\vec{u}\cdot\vec{v}=2\cdot(-1)+(-1)\cdot4+3\cdot0=-2-4+0=-6.$$
+
+So $\vec{u}+\vec{v}=(1, 3, 3)$, $3\vec{u}-2\vec{v}=(8, -11, 9)$ and $\vec{u}\cdot\vec{v}=-6$.
 
 **Answer.** $(1, 3, 3)$; $(8, -11, 9)$; $-6$.
 :::
@@ -227,7 +238,15 @@ Let $\vec{a}=(2, -3, 6)$. Find $|\vec{a}|$ and the vector $\vec{e}$ with the sam
 2. Divide each coordinate by $|\vec{a}|$.
 
 ::solution
-$|\vec{a}|=\sqrt{4+9+36}=7$, so $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
+The length of $\vec{a}=(a_1, a_2, a_3)$ is $|\vec{a}|=\sqrt{a_1^2+a_2^2+a_3^2}$. For $\vec{a}=(2, -3, 6)$, we have
+$$|\vec{a}|=\sqrt{2^2+(-3)^2+6^2}=\sqrt{4+9+36}=\sqrt{49}=7.$$
+
+The vector with the same direction as $\vec{a}$ and length $1$ is $\vec{e}=\dfrac{1}{|\vec{a}|}\vec{a}$ (multiplying $\vec{a}$ by the positive number $\dfrac17$ gives a vector with the same direction). Hence
+$$\vec{e}=\frac17\vec{a}=\left(\frac27, -\frac37, \frac67\right).$$
+
+Check: $|\vec{e}|^2=\dfrac{4}{49}+\dfrac{9}{49}+\dfrac{36}{49}=1$, so $|\vec{e}|=1$.
+
+So $|\vec{a}|=7$ and $\vec{e}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
 
 **Answer.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
 :::
@@ -243,7 +262,18 @@ Find the angle between the vectors $\vec{a}=(1, 1, 0)$ and $\vec{b}=(0, 1, 1)$.
 2. Find the angle with that cosine.
 
 ::solution
-$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+The angle between two nonzero vectors is given by the formula
+$$\cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
+
+For $\vec{a}=(1, 1, 0)$ and $\vec{b}=(0, 1, 1)$, we have
+$$\vec{a}\cdot\vec{b}=1\cdot0+1\cdot1+0\cdot1=1,\qquad |\vec{a}|=\sqrt{1+1+0}=\sqrt2,\qquad |\vec{b}|=\sqrt{0+1+1}=\sqrt2.$$
+
+Substituting into the formula, we get
+$$\cos(\vec{a}, \vec{b})=\frac{1}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Since the angle between two vectors lies in $[0^\circ, 180^\circ]$ and $\cos60^\circ=\dfrac12$, we have $(\vec{a}, \vec{b})=60^\circ$.
+
+So the angle between the vectors $\vec{a}$ and $\vec{b}$ is $60^\circ$.
 
 **Answer.** $60^\circ$.
 :::
@@ -259,7 +289,15 @@ Among the three vectors $\vec{u}=(1, 2, -1)$, $\vec{v}=(3, -1, 1)$, $\vec{w}=(1,
 2. Pick those equal to $0$.
 
 ::solution
-$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+Two nonzero vectors are perpendicular if and only if their dot product is $0$. We compute the dot product of each pair among the three vectors $\vec{u}=(1, 2, -1)$, $\vec{v}=(3, -1, 1)$, $\vec{w}=(1, 1, 3)$.
+
+Pair $\vec{u}$, $\vec{v}$: $\vec{u}\cdot\vec{v}=1\cdot3+2\cdot(-1)+(-1)\cdot1=3-2-1=0$.
+
+Pair $\vec{u}$, $\vec{w}$: $\vec{u}\cdot\vec{w}=1\cdot1+2\cdot1+(-1)\cdot3=1+2-3=0$.
+
+Pair $\vec{v}$, $\vec{w}$: $\vec{v}\cdot\vec{w}=3\cdot1+(-1)\cdot1+1\cdot3=3-1+3=5\ne0$.
+
+So $\vec{u}\perp\vec{v}$ and $\vec{u}\perp\vec{w}$; the vectors $\vec{v}$ and $\vec{w}$ are not perpendicular.
 
 **Answer.** $\vec{u}\perp\vec{v}$ and $\vec{u}\perp\vec{w}$; $\vec{v}$ and $\vec{w}$ are not perpendicular.
 :::
@@ -275,7 +313,18 @@ Find $x$, $y$ such that the vectors $\vec{a}=(1, x, 3)$ and $\vec{b}=(-2, 4, y)$
 2. Use $k$ for the other two coordinates.
 
 ::solution
-$k=-2$. Then $4=-2x$, so $x=-2$, and $y=-2\cdot3=-6$.
+Since $\vec{a}=(1, x, 3)\ne\vec{0}$, the vectors $\vec{a}$ and $\vec{b}$ are collinear if and only if there is a real number $k$ such that $\vec{b}=k\vec{a}$, that is
+$$(-2, 4, y)=(k, kx, 3k).$$
+
+Equating the corresponding coordinates, we have $-2=k$, $4=kx$ and $y=3k$.
+
+From $k=-2$, substituting into $4=kx$ gives $4=-2x$, so $x=-2$.
+
+Substituting $k=-2$ into $y=3k$ gives $y=3\cdot(-2)=-6$.
+
+Check: for $x=-2$, $y=-6$ we have $\vec{a}=(1, -2, 3)$ and $\vec{b}=(-2, 4, -6)=-2\vec{a}$.
+
+So $x=-2$ and $y=-6$.
 
 **Answer.** $x=-2$, $y=-6$.
 :::
@@ -291,8 +340,19 @@ Let $A(3, 2, -1)$, $B(1, 1, 1)$, $C(2, 3, 3)$. Prove that triangle $ABC$ has a r
 2. Find $BA$, $BC$.
 
 ::solution
-$$\overrightarrow{BA}=(2, 1, -2),\quad \overrightarrow{BC}=(1, 2, 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
-$BA=BC=3$, so $S=\dfrac12\cdot3\cdot3=4.5$.
+We compute the vectors with initial point $B$:
+$$\overrightarrow{BA}=(3-1, 2-1, -1-1)=(2, 1, -2),\qquad \overrightarrow{BC}=(2-1, 3-1, 3-1)=(1, 2, 2).$$
+
+Proof of the right angle at $B$: we have
+$$\overrightarrow{BA}\cdot\overrightarrow{BC}=2\cdot1+1\cdot2+(-2)\cdot2=2+2-4=0.$$
+The vectors $\overrightarrow{BA}$ and $\overrightarrow{BC}$ are both nonzero and their dot product is $0$, so $BA\perp BC$. Hence triangle $ABC$ has a right angle at $B$.
+
+Area: we have
+$$BA=\sqrt{2^2+1^2+(-2)^2}=\sqrt9=3,\qquad BC=\sqrt{1^2+2^2+2^2}=\sqrt9=3.$$
+Since $BA=BC$, triangle $ABC$ is isosceles as well as right-angled at $B$. The area of a triangle with a right angle at $B$ is
+$$S=\frac12\cdot BA\cdot BC=\frac12\cdot3\cdot3=4.5.$$
+
+So triangle $ABC$ is right-angled (and isosceles) at $B$ and its area is $S=4.5$.
 
 **Answer.** The triangle is right-angled (and isosceles) at $B$; $S=4.5$.
 :::
@@ -317,13 +377,17 @@ d) $|\vec{a}+\vec{b}|=6$.
 3. Compute $\vec{a}+\vec{b}$ and its length.
 
 ::solution
-a) **True.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+For $\vec{a}=(1, -2, 2)$ and $\vec{b}=(2, 2, 1)$, we examine each claim in turn.
 
-b) **True.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
+a) **True.** We have $|\vec{a}|=\sqrt{1^2+(-2)^2+2^2}=\sqrt{1+4+4}=\sqrt9=3$.
 
-c) **False.** $\vec{a}-\vec{b}=(1-2,\ -2-2,\ 2-1)=(-1, -4, 1)$.
+b) **True.** We have $\vec{a}\cdot\vec{b}=1\cdot2+(-2)\cdot2+2\cdot1=2-4+2=0$. Two nonzero vectors with dot product $0$ are perpendicular, so $\vec{a}\perp\vec{b}$.
 
-d) **False.** $\vec{a}+\vec{b}=(3, 0, 3)$, so $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4.24$.
+c) **False.** We have $\vec{a}-\vec{b}=(1-2,\ -2-2,\ 2-1)=(-1, -4, 1)$, whereas the claim gives the third coordinate as $3$. The two vectors are different.
+
+d) **False.** We have $\vec{a}+\vec{b}=(3, 0, 3)$, so $|\vec{a}+\vec{b}|=\sqrt{9+0+9}=\sqrt{18}=3\sqrt2\approx4.24$, which is not $6$.
+
+So claims a), b) are true; claims c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -339,9 +403,18 @@ A person pulls a sledge with the force $\vec{F}=(10, 5, -2)$ (unit: N). The sled
 2. Compute $|\vec{F}|$, $|\vec{d}|$ and the cosine of the angle.
 
 ::solution
-$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
-$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0.880,\qquad (\vec{F}, \vec{d})\approx28.3^\circ.$$
-(The work done by the force is $50$ J.)
+The angle $\varphi$ between the pulling force $\vec{F}$ and the direction of motion $\vec{d}$ is the angle between the vectors $\vec{F}$ and $\vec{d}$, given by $\cos\varphi=\dfrac{\vec{F}\cdot\vec{d}}{|\vec{F}|\cdot|\vec{d}|}$.
+
+For $\vec{F}=(10, 5, -2)$ and $\vec{d}=(3, 4, 0)$, we have
+$$\vec{F}\cdot\vec{d}=10\cdot3+5\cdot4+(-2)\cdot0=30+20+0=50,$$
+$$|\vec{F}|=\sqrt{10^2+5^2+(-2)^2}=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=\sqrt{3^2+4^2+0^2}=5.$$
+
+Substituting into the formula, we get
+$$\cos\varphi=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0.880.$$
+
+Hence $\varphi\approx28.3^\circ$, which is $28^\circ$ to the nearest whole number. (The work done by the force is $\vec{F}\cdot\vec{d}=50$ J.)
+
+So the angle between the pulling force and the direction of motion is approximately $28^\circ$.
 
 **Answer.** $28$.
 :::
@@ -357,7 +430,20 @@ $$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0.88
 2. Compute the cosine.
 
 ::solution
-$$\overrightarrow{AC}=(1, 1, 0),\qquad \overrightarrow{A'D}=(0, 1, -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+Set up the coordinate system $Oxyz$ with $A$ at the origin, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Since $ABCD$ is a square with side $1$, we have $C(1, 1, 0)$.
+
+We have the vectors
+$$\overrightarrow{AC}=(1, 1, 0),\qquad \overrightarrow{A'D}=(0-0, 1-0, 0-1)=(0, 1, -1).$$
+
+Their dot product and lengths are
+$$\overrightarrow{AC}\cdot\overrightarrow{A'D}=1\cdot0+1\cdot1+0\cdot(-1)=1,\qquad |\overrightarrow{AC}|=\sqrt{1+1+0}=\sqrt2,\qquad |\overrightarrow{A'D}|=\sqrt{0+1+1}=\sqrt2.$$
+
+Therefore
+$$\cos\left(\overrightarrow{AC}, \overrightarrow{A'D}\right)=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Since $\cos60^\circ=\dfrac12$, the angle between $\overrightarrow{AC}$ and $\overrightarrow{A'D}$ is $60^\circ$.
+
+So the angle between $\overrightarrow{AC}$ and $\overrightarrow{A'D}$ is $60^\circ$, the same as in the previous lesson.
 
 **Answer.** $60^\circ$, the same as in the previous lesson.
 :::
@@ -373,9 +459,18 @@ Let $A(2, 1, 1)$ and $B(4, -1, 1)$. Find the points $M$ on the axis $Ox$ such th
 2. Set the scalar product equal to $0$ and solve.
 
 ::solution
-$\overrightarrow{MA}=(2-t, 1, 1)$, $\overrightarrow{MB}=(4-t, -1, 1)$.
-$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{or}\ t=4.$$
-**Check.** For $M(2, 0, 0)$: $(0, 1, 1)\cdot(2, -1, 1)=0$. For $M(4, 0, 0)$: $(-2, 1, 1)\cdot(0, -1, 1)=0$.
+Since $M$ lies on the axis $Ox$, we write $M(t, 0, 0)$. Then
+$$\overrightarrow{MA}=(2-t, 1, 1),\qquad \overrightarrow{MB}=(4-t, -1, 1).$$
+
+Every point of the axis $Ox$ has third coordinate $0$, while the line $AB$ lies in the plane $z=1$, so $M$, $A$, $B$ are never collinear and triangle $MAB$ always exists.
+
+Triangle $MAB$ has a right angle at $M$ if and only if $\overrightarrow{MA}\cdot\overrightarrow{MB}=0$, that is
+$$\begin{aligned}(2-t)(4-t)+1\cdot(-1)+1\cdot1&=0\\ (2-t)(4-t)-1+1&=0\\ (2-t)(4-t)&=0.\end{aligned}$$
+Hence $t=2$ or $t=4$.
+
+Check: for $M(2, 0, 0)$ we have $\overrightarrow{MA}\cdot\overrightarrow{MB}=(0, 1, 1)\cdot(2, -1, 1)=0-1+1=0$. For $M(4, 0, 0)$ we have $\overrightarrow{MA}\cdot\overrightarrow{MB}=(-2, 1, 1)\cdot(0, -1, 1)=0-1+1=0$.
+
+So the required points are $M(2, 0, 0)$ and $M(4, 0, 0)$.
 
 **Answer.** $M(2, 0, 0)$ or $M(4, 0, 0)$.
 :::

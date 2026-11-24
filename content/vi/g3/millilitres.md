@@ -172,9 +172,13 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 1. Đổi số lít ra mi-li-lít, rồi cộng thêm phần mi-li-lít.
 
 ::solution
-a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
+a) Vì $1\ \text{l}=1000\ \text{ml}$ nên ta nhân $5$ với $1000$:
+$$5\ \text{l}=5\times 1000=5000\ \text{ml}$$
 
-b) $3\ \text{l}=3000\ \text{ml}$, nên $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
+b) Ta có $3\ \text{l}=3000\ \text{ml}$, nên:
+$$3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$$
+
+Vậy $5\ \text{l}=5000\ \text{ml}$ và $3\ \text{l}\ 200\ \text{ml}=3200\ \text{ml}$.
 
 **Đáp số.** a) $5000$ ml; b) $3200$ ml.
 :::
@@ -189,7 +193,13 @@ b) $3\ \text{l}=3000\ \text{ml}$, nên $3\ \text{l}\ 200\ \text{ml}=3000\ \text{
 1. Tách $2500\ \text{ml}$ thành $2000\ \text{ml}$ và $500\ \text{ml}$.
 
 ::solution
-$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
+Ta tách $2500\ \text{ml}$ thành số nghìn mi-li-lít và số còn lại:
+$$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}$$
+
+Vì $2000\ \text{ml}=2\ \text{l}$ nên:
+$$2500\ \text{ml}=2\ \text{l}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$$
+
+Vậy $2500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
 
 **Đáp số.** $2\ \text{l}\ 500\ \text{ml}$.
 :::
@@ -204,7 +214,12 @@ $2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
 1. Đổi $1\ \text{l}\ 300\ \text{ml}$ ra mi-li-lít.
 
 ::solution
-$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Vì $1300>1200$ nên $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
+Để so sánh, ta đổi $1\ \text{l}\ 300\ \text{ml}$ ra mi-li-lít:
+$$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$$
+
+So sánh hai số $1300$ và $1200$, ta thấy $1300>1200$.
+
+Vậy $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
 
 **Đáp số.** $>$.
 :::
@@ -220,9 +235,14 @@ Bình thứ nhất chứa $600$ ml nước, bình thứ hai chứa $800$ ml nư�
 2. Tách kết quả thành $1000\ \text{ml}$ và phần còn lại.
 
 ::solution
+Bài giải
+
 Số mi-li-lít nước của hai bình là:
-$$600+800=1400\ \text{(ml)}.$$
-Vì $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$ nên $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+$$600+800=1400\ \text{(ml)}$$
+
+Ta đổi kết quả ra lít và mi-li-lít: $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$. Vì $1000\ \text{ml}=1\ \text{l}$ nên $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+
+Vậy hai bình chứa tất cả $1400$ ml nước, tức là $1\ \text{l}\ 400\ \text{ml}$.
 
 **Đáp số.** $1400$ ml, tức là $1\ \text{l}\ 400\ \text{ml}$.
 :::
@@ -238,10 +258,16 @@ Mẹ rót $3$ cốc nước cam, mỗi cốc $300$ ml. Hỏi mẹ đã rót bao 
 2. Lấy $1000$ trừ đi số đó.
 
 ::solution
+Bài giải
+
 Số mi-li-lít nước cam mẹ đã rót là:
-$$300\times 3=900\ \text{(ml)}.$$
-Số nước đó ít hơn $1$ l là:
-$$1000-900=100\ \text{(ml)}.$$
+$$300\times 3=900\ \text{(ml)}$$
+
+Vì $1\ \text{l}=1000\ \text{ml}$ nên số nước đó ít hơn $1$ l số mi-li-lít là:
+$$1000-900=100\ \text{(ml)}$$
+
+Vậy mẹ đã rót $900$ ml nước cam, ít hơn $1$ l là $100$ ml.
+
 **Đáp số.** $900$ ml; ít hơn $1$ l là $100$ ml.
 :::
 
@@ -256,10 +282,16 @@ Buổi sáng nhiệt độ là $22\ ^\circ\text{C}$. Buổi trưa nhiệt độ 
 2. Từ đó tìm nhiệt độ buổi chiều.
 
 ::solution
-Nhiệt độ buổi trưa là:
-$$22+9=31\ (^\circ\text{C}).$$
-Nhiệt độ buổi chiều là:
-$$31-5=26\ (^\circ\text{C}).$$
+Bài giải
+
+Buổi trưa nhiệt độ tăng thêm $9\ ^\circ\text{C}$ nên ta làm phép cộng. Nhiệt độ buổi trưa là:
+$$22+9=31\ (^\circ\text{C})$$
+
+Buổi chiều nhiệt độ giảm đi $5\ ^\circ\text{C}$ nên ta làm phép trừ. Nhiệt độ buổi chiều là:
+$$31-5=26\ (^\circ\text{C})$$
+
+Vậy buổi chiều nhiệt độ là $26\ ^\circ\text{C}$.
+
 **Đáp số.** $26\ ^\circ\text{C}$.
 :::
 
@@ -274,9 +306,14 @@ Em nhớ lại bài gấp một số lên một số lần. Một chai nhỏ ch�
 2. Đổi kết quả ra lít.
 
 ::solution
-Chai to chứa:
-$$200\times 5=1000\ \text{(ml)}.$$
+Bài giải
+
+Chai to chứa gấp $5$ lần chai nhỏ nên số mi-li-lít nước chai to chứa là:
+$$200\times 5=1000\ \text{(ml)}$$
+
 Vì $1000\ \text{ml}=1\ \text{l}$ nên chai to chứa $1$ l.
+
+Vậy chai to chứa $1000$ ml nước, tức là $1$ l.
 
 **Đáp số.** $1000$ ml, tức là $1$ l.
 :::
@@ -292,12 +329,21 @@ Một bình chứa $2$ l nước. Em rót ra $3$ cốc, mỗi cốc $300$ ml, r�
 2. Cộng thêm nước rót vào ấm rồi trừ khỏi $2000$ ml.
 
 ::solution
-Ta có $2\ \text{l}=2000\ \text{ml}$. Số nước rót vào $3$ cốc là:
-$$300\times 3=900\ \text{(ml)}.$$
+Bài giải
+
+Ta có $2\ \text{l}=2000\ \text{ml}$.
+
+Số nước rót vào $3$ cốc là:
+$$300\times 3=900\ \text{(ml)}$$
+
 Số nước đã rót ra tất cả là:
-$$900+400=1300\ \text{(ml)}.$$
+$$900+400=1300\ \text{(ml)}$$
+
 Số nước còn lại trong bình là:
-$$2000-1300=700\ \text{(ml)}.$$
+$$2000-1300=700\ \text{(ml)}$$
+
+Vậy trong bình còn lại $700$ ml nước.
+
 **Đáp số.** $700$ ml.
 :::
 

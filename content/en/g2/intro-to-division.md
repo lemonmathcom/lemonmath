@@ -142,7 +142,12 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 2. Write the division.
 
 ::solution
-We have $2\times4=8$, so $8\div2=4$.
+Solution
+
+Sharing $8$ sweets equally between $2$ children is a division. We have $2\times4=8$, so the number of sweets each child gets is:
+$$8\div2=4\ \text{(sweets)}$$
+
+So each child gets $4$ sweets.
 
 **Answer.** Each child gets 4 sweets.
 :::
@@ -158,7 +163,12 @@ We have $2\times4=8$, so $8\div2=4$.
 2. Use the 5 times table.
 
 ::solution
-We have $5\times3=15$, so $15\div5=3$.
+Solution
+
+Putting $15$ apples on plates with $5$ apples on each plate is a division. We have $5\times3=15$, so the number of plates filled is:
+$$15\div5=3\ \text{(plates)}$$
+
+So $3$ plates are filled.
 
 **Answer.** 3 plates.
 :::
@@ -174,8 +184,15 @@ You know that $2\times4=8$. Write the two matching divisions.
 2. Divide the product by each factor.
 
 ::solution
-Divide the product 8 by each factor:
-$$8\div2=4,\qquad 8\div4=2.$$
+From one multiplication we can write two divisions by dividing the product by each factor.
+
+Divide the product $8$ by the factor $2$:
+$$8\div2=4.$$
+
+Divide the product $8$ by the factor $4$:
+$$8\div4=2.$$
+
+So the two matching divisions are $8\div2=4$ and $8\div4=2$.
 
 **Answer.** $8\div2=4$ and $8\div4=2$.
 :::
@@ -191,7 +208,15 @@ Name the numbers in the division $20\div5=4$.
 2. Which number is the result?
 
 ::solution
-$20$ is the dividend, $5$ is the divisor and $4$ is the quotient.
+In a division, the first number is the dividend, the number after the division sign is the divisor, and the result is the quotient.
+
+In the division $20\div5=4$:
+
+- $20$ is the dividend;
+- $5$ is the divisor;
+- $4$ is the quotient.
+
+So the dividend is $20$, the divisor is $5$ and the quotient is $4$.
 
 **Answer.** Dividend 20; divisor 5; quotient 4.
 :::
@@ -215,13 +240,17 @@ d) $14\div2$
 2. Which number multiplied by the divisor gives the dividend?
 
 ::solution
-a) $2\times5=10$, so $10\div2=5$.
+We use the times tables to find each quotient.
 
-b) $5\times4=20$, so $20\div5=4$.
+a) We have $2\times5=10$, so $10\div2=5$.
 
-c) $2\times6=12$, so $12\div2=6$.
+b) We have $5\times4=20$, so $20\div5=4$.
 
-d) $2\times7=14$, so $14\div2=7$.
+c) We have $2\times6=12$, so $12\div2=6$.
+
+d) We have $2\times7=14$, so $14\div2=7$.
+
+So $10\div2=5$; $20\div5=4$; $12\div2=6$; $14\div2=7$.
 
 **Answer.** a) 5; b) 4; c) 6; d) 7.
 :::
@@ -241,8 +270,13 @@ Suppose 18 story books are shared equally between 2 children. How many story boo
 Solution
 
 The number of story books each child gets is:
-$$18\div2=9\ \text{(books)}.$$
-Answer: 9 story books.
+$$18\div2=9\ \text{(books)}$$
+
+Check: $2\times9=18$ (books), which is correct.
+
+So each child gets $9$ story books.
+
+**Answer.** 9 story books.
 :::
 
 :::exercise
@@ -260,9 +294,15 @@ b) If those pens are shared equally between the 3 pencil cases, how many pens ar
 2. Part b: divide, and compare with the question.
 
 ::solution
-a) The number of pens altogether is $5\times3=15$ (pens).
+Solution
 
-b) The number of pens in each pencil case is $15\div3=5$ (pens).
+a) There are $3$ pencil cases with $5$ pens in each, so the number of pens altogether is:
+$$5\times3=15\ \text{(pens)}$$
+
+b) Sharing the $15$ pens equally between the $3$ pencil cases, the number of pens in each pencil case is:
+$$15\div3=5\ \text{(pens)}$$
+
+So there are $15$ pens altogether and each pencil case has $5$ pens.
 
 **Answer.** a) 15 pens; b) 5 pens.
 :::
@@ -278,9 +318,13 @@ A division has dividend 16 and quotient 8. What is the divisor?
 2. Check with a division.
 
 ::solution
-We have $2\times8=16$, so the divisor is 2.
+In a division, the divisor is the dividend divided by the quotient. We look for the number that multiplied by $8$ gives $16$.
 
-**Check.** $16\div2=8$, which is correct.
+We have $2\times8=16$, so $16\div8=2$, that is, the divisor is $2$.
+
+Check: $16\div2=8$, which is correct.
+
+So the divisor is $2$.
 
 **Answer.** 2.
 :::

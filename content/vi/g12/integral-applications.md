@@ -199,7 +199,10 @@ Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trụ
 2. Thay cận.
 
 ::solution
-Vì $x^2+1>0$ trên $[0; 3]$ nên $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+Hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trục hoành và hai đường thẳng $x=0$, $x=3$.
+
+Vì $x^2+1>0$ với mọi $x$ nên đồ thị nằm phía trên trục hoành trên đoạn $[0; 3]$. Áp dụng công thức tính diện tích hình phẳng, ta có
+$$S=\int_0^3(x^2+1)\,dx=\left[\frac{x^3}{3}+x\right]_0^3=\left(\frac{27}{3}+3\right)-0=9+3=12.$$
 
 Vậy diện tích hình phẳng bằng $12$.
 
@@ -217,7 +220,18 @@ Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3$, trục 
 2. Lấy trị tuyệt đối từng phần rồi cộng.
 
 ::solution
-Vì $x^3$ đổi dấu tại $x=0$ nên ta tách đoạn: $\displaystyle\int_{-1}^0x^3dx=-\frac14$, $\displaystyle\int_0^2x^3dx=4$. Vậy $S=\dfrac14+4=\dfrac{17}{4}$.
+Hình phẳng giới hạn bởi đồ thị $y=x^3$, trục hoành và hai đường thẳng $x=-1$, $x=2$.
+
+Ta có $x^3=0\iff x=0$, và $x^3<0$ khi $x<0$, $x^3>0$ khi $x>0$. Vì $x^3$ đổi dấu tại $x=0\in[-1; 2]$ nên ta tách đoạn $[-1; 2]$ thành $[-1; 0]$ và $[0; 2]$:
+$$S=\int_{-1}^2|x^3|\,dx=\int_{-1}^0|x^3|\,dx+\int_0^2|x^3|\,dx.$$
+
+Tính từng tích phân:
+$$\int_{-1}^0x^3\,dx=\left[\frac{x^4}{4}\right]_{-1}^0=0-\frac14=-\frac14,\qquad\int_0^2x^3\,dx=\left[\frac{x^4}{4}\right]_0^2=4-0=4.$$
+
+Suy ra
+$$S=\left|-\frac14\right|+|4|=\frac14+4=\frac{17}{4}.$$
+
+Vậy diện tích hình phẳng bằng $\dfrac{17}{4}$.
 
 **Đáp số.** $\dfrac{17}{4}$.
 :::
@@ -233,9 +247,15 @@ Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đườn
 2. Thử $x=1$ để biết đồ thị nào nằm trên.
 
 ::solution
-Ta có $x^2=2x\iff x=0$ hoặc $x=2$. Tại $x=1$ ta có $2x=2>1=x^2$ nên đường thẳng nằm trên parabol trên $(0; 2)$.
+Phương trình hoành độ giao điểm của parabol $y=x^2$ và đường thẳng $y=2x$ là
+$$x^2=2x\iff x(x-2)=0\iff x=0\ \text{hoặc}\ x=2.$$
 
-Vậy $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+Trên khoảng $(0; 2)$, lấy $x=1$ ta có $2x=2>1=x^2$, nên đường thẳng nằm phía trên parabol trên $(0; 2)$.
+
+Áp dụng công thức tính diện tích hình phẳng giới hạn bởi hai đồ thị, ta có
+$$S=\int_0^2(2x-x^2)\,dx=\left[x^2-\frac{x^3}{3}\right]_0^2=4-\frac83=\frac43.$$
+
+Vậy diện tích hình phẳng bằng $\dfrac43$.
 
 **Đáp số.** $\dfrac43$.
 :::
@@ -277,13 +297,21 @@ d) Quay $H$ quanh trục $Ox$ được khối tròn xoay có thể tích $\dfrac
 2. Tính diện tích với hàm $4-x^2$, rồi tính $\pi\displaystyle\int_{-2}^2(x^2-4)^2dx$.
 
 ::solution
-a) **Đúng**. Ta có $x^2-4=0\iff x=\pm2$.
+Hình phẳng $H$ giới hạn bởi đồ thị $y=x^2-4$ và trục hoành. Phương trình hoành độ giao điểm là $x^2-4=0\iff x=\pm2$.
 
-b) **Sai**. Tích phân đó bằng $-\dfrac{32}{3}<0$, không thể là diện tích.
+a) **Đúng.** Đồ thị cắt trục hoành tại $x=-2$ và $x=2$, nên $H$ nằm giữa hai đường thẳng $x=-2$ và $x=2$.
 
-c) **Đúng**. Vì $x^2-4\le0$ trên $[-2; 2]$ nên diện tích bằng $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+b) **Sai.** Ta có $x^2-4\le0$ trên $[-2; 2]$ nên $\displaystyle\int_{-2}^2(x^2-4)\,dx$ là một số âm. Cụ thể,
+$$\int_{-2}^2(x^2-4)\,dx=\left[\frac{x^3}{3}-4x\right]_{-2}^2=-\frac{32}{3}<0,$$
+không thể là diện tích của $H$.
 
-d) **Đúng**. Ta có $(x^2-4)^2=x^4-8x^2+16$ và $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+c) **Đúng.** Vì $x^2-4\le0$ trên $[-2; 2]$ nên diện tích của $H$ là
+$$S=\int_{-2}^2|x^2-4|\,dx=\int_{-2}^2(4-x^2)\,dx=\left[4x-\frac{x^3}{3}\right]_{-2}^2=\frac{16}{3}-\left(-\frac{16}{3}\right)=\frac{32}{3}.$$
+
+d) **Đúng.** Thể tích khối tròn xoay khi quay $H$ quanh trục $Ox$ là $V=\pi\displaystyle\int_{-2}^2(x^2-4)^2\,dx$. Ta có $(x^2-4)^2=x^4-8x^2+16$, nên
+$$V=\pi\left[\frac{x^5}{5}-\frac{8x^3}{3}+16x\right]_{-2}^2=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}.$$
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -299,9 +327,15 @@ Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đư�
 2. Tính $\displaystyle\int\big(x-(x^2-2x)\big)\,dx$ giữa hai nghiệm.
 
 ::solution
-Phương trình hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $(0; 3)$ đường thẳng nằm trên parabol, do đó $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+Phương trình hoành độ giao điểm của parabol $y=x^2-2x$ và đường thẳng $y=x$ là
+$$x^2-2x=x\iff x^2-3x=0\iff x(x-3)=0\iff x=0\ \text{hoặc}\ x=3.$$
 
-Vậy diện tích bằng $\dfrac92$.
+Trên khoảng $(0; 3)$, lấy $x=1$ ta có $y=x=1>-1=x^2-2x$, nên đường thẳng nằm phía trên parabol.
+
+Do đó diện tích hình phẳng là
+$$S=\int_0^3\left[x-(x^2-2x)\right]dx=\int_0^3(3x-x^2)\,dx=\left[\frac{3x^2}{2}-\frac{x^3}{3}\right]_0^3=\frac{27}{2}-9=\frac92.$$
+
+Vậy diện tích hình phẳng bằng $\dfrac92=4{,}5$.
 
 **Đáp số.** $4{,}5$.
 :::
@@ -317,9 +351,17 @@ Một ô cửa sổ có dạng hình phẳng giới hạn bởi parabol $y=1{,}5
 2. Tính $S=\displaystyle\int_{-1}^1(1{,}5-1{,}5x^2)\,dx$ rồi nhân với giá kính.
 
 ::solution
-Parabol cắt trục hoành tại $x=\pm1$. Diện tích ô cửa là $S=\displaystyle\int_{-1}^1(1{,}5-1{,}5x^2)\,dx=\Big[1{,}5x-0{,}5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+Gọi $S$ (m²) là diện tích ô cửa sổ và $T$ (nghìn đồng) là số tiền mua kính.
 
-Vậy tiền kính là $2\cdot800=1600$ nghìn đồng.
+Parabol $y=1{,}5-1{,}5x^2$ cắt trục hoành khi $1{,}5-1{,}5x^2=0\iff x^2=1\iff x=\pm1$. Do đó ô cửa rộng $2$ m, đúng như đề bài, và $y\ge0$ trên $[-1; 1]$.
+
+Diện tích ô cửa là
+$$S=\int_{-1}^1(1{,}5-1{,}5x^2)\,dx=\left[1{,}5x-0{,}5x^3\right]_{-1}^1=(1{,}5-0{,}5)-(-1{,}5+0{,}5)=1-(-1)=2\ (\text{m}^2).$$
+
+Kính giá $800$ nghìn đồng một mét vuông nên
+$$T=2\cdot800=1600\ (\text{nghìn đồng}).$$
+
+Vậy số tiền mua kính để lắp ô cửa là $1600$ nghìn đồng (tức $1{,}6$ triệu đồng).
 
 **Đáp số.** $1\,600$ nghìn đồng ($1{,}6$ triệu đồng).
 :::
@@ -335,7 +377,11 @@ Một vật thể nằm giữa hai mặt phẳng $x=0$ và $x=4$. Thiết diện
 2. Tính $\displaystyle\int_0^4(4x-x^2)\,dx$.
 
 ::solution
-Diện tích thiết diện là $S(x)=x(4-x)=4x-x^2$. Do đó $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+Vật thể nằm giữa hai mặt phẳng $x=0$ và $x=4$. Thiết diện vuông góc với $Ox$ tại $x$ $(0\le x\le4)$ là hình chữ nhật có hai cạnh $x$ và $4-x$, nên diện tích thiết diện là
+$$S(x)=x(4-x)=4x-x^2.$$
+
+Áp dụng công thức tính thể tích vật thể theo diện tích thiết diện, ta có
+$$V=\int_0^4S(x)\,dx=\int_0^4(4x-x^2)\,dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
 
 Vậy thể tích vật thể bằng $\dfrac{32}{3}$.
 
@@ -353,9 +399,12 @@ Tính diện tích hình phẳng giới hạn bởi đồ thị $y=\sin x$, tr�
 2. Dùng nguyên hàm $-\cos x$.
 
 ::solution
-Vì $\sin x\ge0$ trên $[0; \pi]$ nên $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+Hình phẳng giới hạn bởi đồ thị $y=\sin x$, trục hoành và hai đường thẳng $x=0$, $x=\pi$.
 
-Vậy diện tích bằng $2$.
+Vì $\sin x\ge0$ với mọi $x\in[0; \pi]$ nên đồ thị nằm phía trên trục hoành trên đoạn này. Do đó
+$$S=\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-\cos\pi+\cos0=1-(-1)=2.$$
+
+Vậy diện tích hình phẳng bằng $2$.
 
 **Đáp số.** $2$.
 :::
@@ -371,7 +420,23 @@ Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3-x$ v�
 2. Tính $\displaystyle\int\lvert x^3-4x\rvert\,dx$ trên $[-2; 0]$ và $[0; 2]$.
 
 ::solution
-Ta có $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2; 0; 2\}$. Ta có $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. Vậy $S=8$.
+Phương trình hoành độ giao điểm của hai đồ thị $y=x^3-x$ và $y=3x$ là
+$$x^3-x=3x\iff x^3-4x=0\iff x(x-2)(x+2)=0\iff x\in\{-2; 0; 2\}.$$
+
+Xét dấu hiệu số $x^3-x-3x=x^3-4x$:
+- Trên $(-2; 0)$: lấy $x=-1$ ta có $x^3-4x=3>0$, nên đồ thị $y=x^3-x$ nằm trên đường thẳng.
+- Trên $(0; 2)$: lấy $x=1$ ta có $x^3-4x=-3<0$, nên đường thẳng nằm trên đồ thị $y=x^3-x$.
+
+Do đó diện tích hình phẳng là
+$$S=\int_{-2}^0(x^3-4x)\,dx+\int_0^2(4x-x^3)\,dx.$$
+
+Tính từng tích phân:
+$$\int_{-2}^0(x^3-4x)\,dx=\left[\frac{x^4}{4}-2x^2\right]_{-2}^0=0-(4-8)=4,$$
+$$\int_0^2(4x-x^3)\,dx=\left[2x^2-\frac{x^4}{4}\right]_0^2=8-4=4.$$
+
+Suy ra $S=4+4=8$.
+
+Vậy diện tích hình phẳng bằng $8$.
 
 **Đáp số.** $8$.
 :::

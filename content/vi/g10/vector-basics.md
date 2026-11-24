@@ -234,7 +234,19 @@ Trong các đại lượng sau, đại lượng nào là vectơ, đại lượng
 2. Có hướng thì là vectơ, không có hướng thì là vô hướng.
 
 ::solution
-Gió, lực và độ dời đều có kèm hướng (từ phía tây, xuống dưới, về hướng đông). Khối lượng và nhiệt độ chỉ có độ lớn.
+Một đại lượng là vectơ khi nó có cả độ lớn và hướng; một đại lượng là vô hướng khi nó chỉ có độ lớn (chỉ là một số). Ta xét từng đại lượng.
+
+(a) Khối lượng một túi gạo $5$ kg chỉ có độ lớn, không có hướng nên là đại lượng vô hướng.
+
+(b) Gió thổi từ phía tây với tốc độ $30$ km/h có độ lớn ($30$ km/h) và có hướng (từ phía tây) nên là vectơ.
+
+(c) Nhiệt độ $25$ °C chỉ có độ lớn, không có hướng nên là đại lượng vô hướng.
+
+(d) Lực $20$ N đẩy xuống phía dưới có độ lớn ($20$ N) và có hướng (xuống dưới) nên là vectơ.
+
+(e) Độ dời $3$ km về hướng đông có độ lớn ($3$ km) và có hướng (đông) nên là vectơ.
+
+Vậy (b), (d), (e) là vectơ; (a), (c) là đại lượng vô hướng.
 
 **Đáp số.** (b), (d), (e) là vectơ; (a), (c) là đại lượng vô hướng.
 :::
@@ -250,7 +262,19 @@ $ABCD$ là hình vuông cạnh $3$. Tính $|\overrightarrow{AB}|$ và $|\overrig
 2. So sánh hướng của từng cặp vectơ.
 
 ::solution
-$|\overrightarrow{AB}|=3$ và $|\overrightarrow{AC}|=\sqrt{3^2+3^2}=3\sqrt2$. Hình vuông là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$. Còn $\overrightarrow{AB}$ và $\overrightarrow{BC}$ cùng độ dài nhưng giá vuông góc nhau, nên không bằng nhau.
+Độ dài của vectơ $\overrightarrow{AB}$ bằng độ dài đoạn thẳng $AB$. Vì $ABCD$ là hình vuông cạnh $3$ nên $AB=BC=3$ và $\widehat{ABC}=90^\circ$.
+
+Ta có $|\overrightarrow{AB}|=AB=3$.
+
+Xét tam giác $ABC$ vuông tại $B$. Theo định lí Pythagore,
+$$AC^2=AB^2+BC^2=3^2+3^2=18,$$
+suy ra $AC=3\sqrt2$. Do đó $|\overrightarrow{AC}|=3\sqrt2$.
+
+Hình vuông là hình bình hành nên $AB\parallel DC$, $AB=DC$ và hai vectơ $\overrightarrow{AB}$, $\overrightarrow{DC}$ cùng hướng. Do đó $\overrightarrow{AB}=\overrightarrow{DC}$, khẳng định này đúng.
+
+Hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{BC}$ có cùng độ dài ($3$), nhưng giá của chúng vuông góc với nhau nên chúng không cùng hướng. Do đó $\overrightarrow{AB}\neq\overrightarrow{BC}$, khẳng định này sai.
+
+Vậy $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; đẳng thức $\overrightarrow{AB}=\overrightarrow{DC}$ đúng và đẳng thức $\overrightarrow{AB}=\overrightarrow{BC}$ sai.
 
 **Đáp số.** $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; $\overrightarrow{AB}=\overrightarrow{DC}$ đúng; $\overrightarrow{AB}=\overrightarrow{BC}$ sai.
 :::
@@ -266,7 +290,19 @@ $ABCD$ là hình bình hành tâm $O$. Chỉ ra một vectơ bằng $\overrighta
 2. Tìm các vectơ có cùng độ dài với $\overrightarrow{AB}$ nhưng chỉ theo chiều ngược lại.
 
 ::solution
-$O$ là trung điểm của $AC$ nên $\overrightarrow{AO}=\overrightarrow{OC}$; $O$ là trung điểm của $BD$ nên $\overrightarrow{BO}=\overrightarrow{OD}$. Vì $\overrightarrow{AB}=\overrightarrow{DC}$ nên $\overrightarrow{CD}=-\overrightarrow{AB}$.
+Hai vectơ bằng nhau là hai vectơ cùng hướng và cùng độ dài. Hai vectơ đối nhau là hai vectơ cùng độ dài và ngược hướng.
+
+Vì $ABCD$ là hình bình hành tâm $O$ nên $O$ là giao điểm của hai đường chéo, đồng thời là trung điểm của $AC$ và của $BD$.
+
+Vì $O$ là trung điểm của $AC$ nên $A$, $O$, $C$ thẳng hàng, $O$ nằm giữa $A$ và $C$ và $AO=OC$. Do đó $\overrightarrow{AO}$ và $\overrightarrow{OC}$ cùng hướng, cùng độ dài, tức là $\overrightarrow{AO}=\overrightarrow{OC}$.
+
+Tương tự, $O$ là trung điểm của $BD$ nên $\overrightarrow{BO}=\overrightarrow{OD}$.
+
+Vectơ $\overrightarrow{BA}$ cùng độ dài và ngược hướng với $\overrightarrow{AB}$ nên $\overrightarrow{BA}$ là một vectơ đối của $\overrightarrow{AB}$.
+
+Vì $ABCD$ là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$. Suy ra $\overrightarrow{CD}=-\overrightarrow{DC}=-\overrightarrow{AB}$, nên $\overrightarrow{CD}$ cũng là một vectơ đối của $\overrightarrow{AB}$.
+
+Vậy $\overrightarrow{OC}=\overrightarrow{AO}$, $\overrightarrow{OD}=\overrightarrow{BO}$, và hai vectơ đối của $\overrightarrow{AB}$ là $\overrightarrow{BA}$ và $\overrightarrow{CD}$.
 
 **Đáp số.** $\overrightarrow{OC}$; $\overrightarrow{OD}$; $\overrightarrow{BA}$ và $\overrightarrow{CD}$.
 :::
@@ -287,13 +323,19 @@ d) $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng hướng.
 2. Với mỗi cặp vectơ, so sánh hướng và độ dài.
 
 ::solution
-a) **Đúng.** $BD=AC=\sqrt{3^2+4^2}=5$.
+Hình chữ nhật $ABCD$ là hình bình hành, có hai đường chéo bằng nhau và cắt nhau tại trung điểm $O$ của mỗi đường.
 
-b) **Sai.** $O$ là trung điểm của $AC$, nên $\overrightarrow{OA}$ và $\overrightarrow{OC}$ cùng độ dài $2{,}5$ nhưng ngược hướng: $\overrightarrow{OA}=-\overrightarrow{OC}$.
+a) **Đúng.** Xét tam giác $ABC$ vuông tại $B$:
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{3^2+4^2}=5.$$
+Vì hai đường chéo của hình chữ nhật bằng nhau nên $BD=AC=5$, do đó $|\overrightarrow{BD}|=5$.
 
-c) **Đúng.** $ABCD$ là hình bình hành nên $\overrightarrow{AD}=\overrightarrow{BC}$.
+b) **Sai.** $O$ là trung điểm của $AC$ nên $\overrightarrow{OA}$ và $\overrightarrow{OC}$ cùng độ dài $2{,}5$, nhưng ngược hướng. Do đó $\overrightarrow{OA}=-\overrightarrow{OC}$ và $\overrightarrow{OA}\neq\overrightarrow{OC}$.
 
-d) **Sai.** $\overrightarrow{AB}=\overrightarrow{DC}$, nên $\overrightarrow{CD}$ ngược hướng với $\overrightarrow{AB}$.
+c) **Đúng.** $ABCD$ là hình bình hành nên $AD\parallel BC$, $AD=BC$ và $\overrightarrow{AD}$, $\overrightarrow{BC}$ cùng hướng. Do đó $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+d) **Sai.** Vì $ABCD$ là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$. Do đó $\overrightarrow{CD}=-\overrightarrow{DC}$ ngược hướng với $\overrightarrow{AB}$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -309,7 +351,21 @@ Ba người cùng kéo một thùng hàng trên mặt sàn bằng ba sợi dây 
 2. So sánh độ lớn của những cặp có liên quan.
 
 ::solution
-$\vec{F_1}$ và $\vec{F_3}$ cùng hướng (sang phải) nhưng độ lớn khác nhau ($30$ và $45$), nên không bằng nhau. $\vec{F_1}$ và $\vec{F_2}$ cùng độ lớn $30$ và ngược hướng, nên đối nhau. $\vec{F_2}$ và $\vec{F_3}$ ngược hướng, khác độ lớn.
+Lực là một đại lượng có hướng nên được biểu diễn bằng vectơ. Cả ba sợi dây đều nằm ngang nên ba vectơ lực cùng phương; ta xét hướng (sang phải hay sang trái) và độ lớn của từng vectơ:
+
+- $\vec{F_1}$: sang phải, độ lớn $30$ N;
+- $\vec{F_2}$: sang trái, độ lớn $30$ N;
+- $\vec{F_3}$: sang phải, độ lớn $45$ N.
+
+Cặp cùng hướng: $\vec{F_1}$ và $\vec{F_3}$ cùng hướng sang phải.
+
+Cặp đối nhau: $\vec{F_1}$ và $\vec{F_2}$ có cùng độ lớn $30$ N và ngược hướng, nên $\vec{F_2}=-\vec{F_1}$.
+
+Cặp $\vec{F_2}$ và $\vec{F_3}$ ngược hướng nhưng độ lớn khác nhau ($30\ne45$) nên không phải hai vectơ đối nhau.
+
+Hai vectơ bằng nhau phải cùng hướng và cùng độ lớn. Cặp duy nhất cùng hướng là $\vec{F_1}$, $\vec{F_3}$, nhưng độ lớn của chúng khác nhau ($30\ne45$); các cặp còn lại ngược hướng. Do đó không có hai vectơ nào bằng nhau.
+
+Vậy $\vec{F_1}$ và $\vec{F_3}$ cùng hướng; $\vec{F_1}$ và $\vec{F_2}$ là hai vectơ đối nhau; không có hai vectơ nào bằng nhau.
 
 **Đáp số.** $\vec{F_1}$, $\vec{F_3}$ cùng hướng; $\vec{F_2}=-\vec{F_1}$; không có hai vectơ nào bằng nhau.
 :::
@@ -325,7 +381,19 @@ $ABCDEF$ là lục giác đều tâm $O$. Liệt kê tất cả các vectơ bằ
 2. Chỉ giữ những vectơ chỉ cùng chiều với $O\to A$.
 
 ::solution
-$D$, $O$, $A$ thẳng hàng và $DO=OA$, nên $\overrightarrow{DO}=\overrightarrow{OA}$. $OABC$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{CB}$. $OAFE$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{EF}$.
+Gọi $a$ là cạnh của lục giác đều $ABCDEF$ tâm $O$. Các tam giác $OAB$, $OBC$, $OCD$, $ODE$, $OEF$, $OFA$ đều là tam giác đều cạnh $a$, nên $OA=OB=OC=OD=OE=OF=a$ và mỗi cạnh của lục giác dài $a$.
+
+Một vectơ bằng $\overrightarrow{OA}$ phải có độ dài $a$ và cùng hướng với $\overrightarrow{OA}$.
+
+Ba điểm $D$, $O$, $A$ thẳng hàng, $O$ nằm giữa $D$ và $A$ và $DO=OA=a$. Do đó $\overrightarrow{DO}=\overrightarrow{OA}$.
+
+Tứ giác $OABC$ có bốn cạnh $OA=AB=BC=CO=a$ nên là hình thoi. Do đó $\overrightarrow{OA}=\overrightarrow{CB}$.
+
+Tứ giác $OAFE$ có bốn cạnh $OA=AF=FE=EO=a$ nên là hình thoi. Do đó $\overrightarrow{OA}=\overrightarrow{EF}$.
+
+Ta kiểm tra không còn vectơ nào khác. Các đoạn thẳng có độ dài $a$ nối hai trong bảy điểm là $6$ cạnh và $6$ bán kính $OA, OB, \dots, OF$. Trong đó $OA$, $OD$ nằm trên đường thẳng $AD$; $BC$ và $EF$ song song với $OA$ nên song song với $AD$; các đoạn còn lại tạo với đường thẳng $AD$ góc $60^\circ$ hoặc $120^\circ$ nên không song song với $AD$. Mỗi đoạn $OA$, $OD$, $BC$, $EF$ cho hai vectơ ngược hướng nhau, trong đó chỉ một vectơ cùng hướng với $\overrightarrow{OA}$, đó là $\overrightarrow{OA}$, $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
+
+Vậy các vectơ bằng $\overrightarrow{OA}$ (khác chính nó) là $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
 
 **Đáp số.** $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
 :::
@@ -341,7 +409,15 @@ Cho tam giác $ABC$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $
 2. Kiểm tra chiều: $P\to N$ đi từ cạnh $AB$ sang cạnh $AC$, tức là cùng chiều $B\to C$.
 
 ::solution
-$PN\parallel BC$ và $PN=\dfrac{BC}{2}=BM=MC$. Chiều $P\to N$ trùng chiều $B\to C$, nên $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$. Không có đoạn nào khác song song với $BC$ và dài $\dfrac{BC}{2}$.
+Vì $P$, $N$ lần lượt là trung điểm của $AB$, $AC$ nên $PN$ là đường trung bình của tam giác $ABC$. Do đó $PN\parallel BC$ và $PN=\dfrac{BC}{2}$.
+
+Vì $M$ là trung điểm của $BC$ nên $BM=MC=\dfrac{BC}{2}$. Suy ra $PN=BM=MC$.
+
+Chiều từ $P$ đến $N$ trùng chiều từ $B$ đến $C$, và chiều từ $B$ đến $M$, từ $M$ đến $C$ cũng trùng chiều từ $B$ đến $C$. Do đó ba vectơ $\overrightarrow{PN}$, $\overrightarrow{BM}$, $\overrightarrow{MC}$ cùng hướng và cùng độ dài, nên $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$.
+
+Ta kiểm tra không còn vectơ nào khác. Một vectơ bằng $\overrightarrow{PN}$ phải có độ dài $\dfrac{BC}{2}$ và cùng hướng với $\overrightarrow{BC}$. Trong sáu điểm đã cho, các điểm $B$, $M$, $C$ nằm trên đường thẳng $BC$; các điểm $P$, $N$ nằm trên đường thẳng $PN\parallel BC$; điểm $A$ nằm riêng một mình. Các đoạn song song với $BC$ và dài $\dfrac{BC}{2}$ chỉ có $PN$, $BM$, $MC$.
+
+Vậy có $3$ vectơ bằng $\overrightarrow{PN}$ (kể cả $\overrightarrow{PN}$).
 
 **Đáp số.** $3$.
 :::
@@ -357,8 +433,17 @@ $PN\parallel BC$ và $PN=\dfrac{BC}{2}=BM=MC$. Chiều $P\to N$ trùng chiều $
 2. Lấy căn bậc hai.
 
 ::solution
+Độ dài vectơ $\overrightarrow{BC}$ bằng độ dài đoạn thẳng $BC$, nên ta tính $BC$.
+
+Áp dụng định lí côsin cho tam giác $ABC$:
+$$BC^2=AC^2+AB^2-2\cdot AC\cdot AB\cdot\cos\widehat{BAC}.$$
+
+Thay $AC=8$, $AB=5$, $\widehat{BAC}=60^\circ$ (với $\cos60^\circ=\dfrac12$), ta được
 $$BC^2=8^2+5^2-2\cdot8\cdot5\cdot\frac12=64+25-40=49.$$
-Vậy $BC=7$.
+
+Vì $BC>0$ nên $BC=7$.
+
+Vậy $|\overrightarrow{BC}|=7$.
 
 **Đáp số.** $|\overrightarrow{BC}|=7$.
 :::
@@ -374,9 +459,19 @@ Bốn điểm $A, B, C, D$ không cùng nằm trên một đường thẳng và 
 2. Viết điều kiện $\overrightarrow{PQ}=\overrightarrow{SR}$ theo các chữ $A, B, C, D$.
 
 ::solution
-Với $P=A$, $Q=B$, $R=D$, $S=C$, điều kiện $\overrightarrow{PQ}=\overrightarrow{SR}$ trở thành $\overrightarrow{AB}=\overrightarrow{CD}$, đúng theo giả thiết. Bốn điểm không thẳng hàng, nên tứ giác $ABDC$ là hình bình hành.
+Ta nhắc lại: tứ giác $PQRS$ là hình bình hành khi và chỉ khi $\overrightarrow{PQ}=\overrightarrow{SR}$ (và bốn điểm không thẳng hàng).
 
-**Đáp số.** $ABDC$ là hình bình hành (chú ý: thường **không** phải $ABCD$).
+Vì $\overrightarrow{AB}=\overrightarrow{CD}$ nên hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng hướng và cùng độ dài. Do đó $AB=CD$ và đường thẳng $AB$ song song hoặc trùng với đường thẳng $CD$.
+
+Nếu hai đường thẳng $AB$ và $CD$ trùng nhau thì bốn điểm $A, B, C, D$ cùng nằm trên một đường thẳng, trái với giả thiết. Vậy $AB\parallel CD$ và hai đường thẳng này phân biệt.
+
+Xét tứ giác $ABDC$ (các đỉnh theo thứ tự $A, B, D, C$). Đặt $P=A$, $Q=B$, $R=D$, $S=C$. Khi đó điều kiện $\overrightarrow{PQ}=\overrightarrow{SR}$ trở thành $\overrightarrow{AB}=\overrightarrow{CD}$, đúng theo giả thiết.
+
+Vậy $ABDC$ là hình bình hành.
+
+Chú ý: thứ tự đỉnh quan trọng, nên nói chung tứ giác $ABCD$ không phải là hình bình hành.
+
+**Đáp số.** $ABDC$ là hình bình hành (chú ý: thường không phải $ABCD$).
 :::
 
 :::exercise Thử thách
@@ -390,7 +485,17 @@ Hình bình hành có các đỉnh $A, B, C, D$. Có bao nhiêu vectơ khác $\v
 2. Gom các vectơ bằng nhau thành từng nhóm.
 
 ::solution
-Có $4$ cách chọn điểm đầu và $3$ cách chọn điểm cuối: $4\cdot3=12$ vectơ. Các cạnh cho bốn cặp bằng nhau: $\overrightarrow{AB}=\overrightarrow{DC}$, $\overrightarrow{BA}=\overrightarrow{CD}$, $\overrightarrow{AD}=\overrightarrow{BC}$, $\overrightarrow{DA}=\overrightarrow{CB}$, tức $4$ vectơ khác nhau. Bốn vectơ trên đường chéo $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$ đôi một khác nhau và khác các vectơ cạnh.
+Gọi hình bình hành là $ABCD$. Mỗi vectơ khác $\vec{0}$ có điểm đầu và điểm cuối là hai điểm phân biệt trong bốn điểm $A, B, C, D$.
+
+Có $4$ cách chọn điểm đầu và $3$ cách chọn điểm cuối khác điểm đầu, nên có $4\cdot3=12$ vectơ khác $\vec{0}$.
+
+Ta đếm số vectơ khác nhau. Tám vectơ nằm trên các cạnh là $\overrightarrow{AB}$, $\overrightarrow{BA}$, $\overrightarrow{BC}$, $\overrightarrow{CB}$, $\overrightarrow{CD}$, $\overrightarrow{DC}$, $\overrightarrow{DA}$, $\overrightarrow{AD}$. Vì $ABCD$ là hình bình hành nên chúng bằng nhau từng đôi một:
+$$\overrightarrow{AB}=\overrightarrow{DC},\quad\overrightarrow{BA}=\overrightarrow{CD},\quad\overrightarrow{AD}=\overrightarrow{BC},\quad\overrightarrow{DA}=\overrightarrow{CB}.$$
+Vậy các vectơ cạnh cho $4$ vectơ khác nhau.
+
+Bốn vectơ còn lại nằm trên các đường chéo là $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$. Chúng đôi một khác nhau (hai vectơ trên cùng một đường chéo ngược hướng, hai vectơ trên hai đường chéo khác nhau có giá khác nhau) và khác các vectơ cạnh vì giá của đường chéo không song song với cạnh nào. Vậy các vectơ đường chéo cho $4$ vectơ khác nhau.
+
+Vậy có $12$ vectơ khác $\vec{0}$ có điểm đầu và điểm cuối thuộc bốn điểm đó, trong đó có $4+4=8$ vectơ khác nhau.
 
 **Đáp số.** $12$ vectơ, trong đó $4+4=8$ vectơ khác nhau.
 :::

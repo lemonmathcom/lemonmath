@@ -172,7 +172,17 @@ Gõ một bất phương trình như `4x+2y<=40`, Desmos sẽ tô nửa mặt ph
 2. Thay điểm $(2, 1)$ để tìm $b$.
 
 ::solution
-$m=\dfrac{12}{4}=3$. Khi đó $1=3\cdot2+b$, nên $b=-5$. Tung độ gốc là $-5$.
+Đường thẳng $\ell$ đi qua $(2; 1)$ và $(6; 13)$ nên có hệ số góc
+$$m=\frac{13-1}{6-2}=\frac{12}{4}=3.$$
+
+Phương trình của $\ell$ có dạng $y=3x+b$. Vì $\ell$ đi qua điểm $(2; 1)$ nên
+$$1=3\cdot2+b\iff b=-5.$$
+
+Kiểm tra với điểm $(6; 13)$: $3\cdot6-5=13$.
+
+Vậy tung độ gốc của đường thẳng $\ell$ là $-5$.
+
+**Đáp số.** $-5$.
 :::
 
 :::exercise Trắc nghiệm
@@ -190,7 +200,18 @@ D. Số giờ thuê thuyền
 2. Mô tả nó theo kiểu "mỗi giờ".
 
 ::solution
-Số $15$ nhân với $n$, nên chi phí tăng $15$ đô la cho mỗi giờ thuê thêm: đáp án **B**. Phương án A phải là $C(1)=65$; phương án C mô tả số $50$.
+Hàm số $C(n)=50+15n$ có dạng bậc nhất $C(n)=an+b$ với $a=15$ và $b=50$.
+
+Khi tăng $n$ thêm $1$ giờ, chi phí thay đổi
+$$C(n+1)-C(n)=\left[50+15(n+1)\right]-\left[50+15n\right]=15\ \text{(đô la)}.$$
+
+Do đó số $15$ là mức tăng chi phí cho mỗi giờ thuê thêm, hay hệ số góc của hàm số.
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án A sai vì chi phí thuê một giờ là $C(1)=65$ đô la. Phương án C mô tả số $50$ (khoản phí cố định, ứng với $C(0)=50$).
+
+**Đáp số.** B.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -204,7 +225,16 @@ Số $15$ nhân với $n$, nên chi phí tăng $15$ đô la cho mỗi giờ thu�
 2. Thay $(1, 4)$.
 
 ::solution
-$4=-3\cdot1+b$, nên $b=7$.
+Đường thẳng $p$ có phương trình $y=-3x+b$ và đi qua điểm $(1; 4)$, nên toạ độ điểm này thoả mãn phương trình:
+$$4=-3\cdot1+b.$$
+
+Suy ra $b=4+3=7$.
+
+Kiểm tra: đường thẳng $y=-3x+7$ có cùng hệ số góc $-3$ với $y=-3x+2$ nên song song với nó, và tại $x=1$ có $y=-3+7=4$.
+
+Vậy $b=7$.
+
+**Đáp số.** $7$.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -218,7 +248,18 @@ Hàm số $g$ là hàm bậc nhất, với $g(1)=4$ và $g(4)=13$. Giá trị c�
 2. Đi từ $x=4$ đến $x=7$.
 
 ::solution
-Hệ số góc là $\dfrac{13-4}{4-1}=3$. Từ $x=4$ đến $x=7$ là thêm $3$ đơn vị, nên $g(7)=13+3\cdot3=22$.
+Vì $g$ là hàm bậc nhất nên $g(x)=mx+n$ với hệ số góc
+$$m=\frac{g(4)-g(1)}{4-1}=\frac{13-4}{3}=3.$$
+
+Từ $g(1)=4$ ta có $3\cdot1+n=4$, suy ra $n=1$. Vậy $g(x)=3x+1$.
+
+Do đó $g(7)=3\cdot7+1=22$.
+
+Kiểm tra theo cách khác: từ $x=4$ đến $x=7$ tăng $3$ đơn vị, nên $g(7)=g(4)+3\cdot3=13+9=22$.
+
+Vậy $g(7)=22$.
+
+**Đáp số.** $22$.
 :::
 
 :::exercise Trắc nghiệm
@@ -236,7 +277,19 @@ D. $x>3$
 2. Chia cho $-2$.
 
 ::solution
-$-2x>6$, nên $x<-3$. Đáp án là **C**. Phương án A quên đổi chiều. Kiểm tra với $x=-4$: $5+8=13>11$.
+Giải bất phương trình $5-2x>11$. Trừ hai vế cho $5$:
+$$-2x>6.$$
+
+Chia hai vế cho $-2<0$ nên đổi chiều bất đẳng thức:
+$$x<-3.$$
+
+Kiểm tra với $x=-4$: $5-2\cdot(-4)=5+8=13>11$, thoả mãn.
+
+Vậy tất cả các nghiệm là $x<-3$, chọn **C**.
+
+*Nhận xét.* Phương án A quên đổi chiều bất đẳng thức khi chia cho số âm.
+
+**Đáp số.** C.
 :::
 
 ## Bài tập vận dụng
@@ -252,7 +305,19 @@ Một bể chứa 500 lít nước và được xả với tốc độ không đ
 2. Giải $V(t)=140$.
 
 ::solution
-$V(t)=500-20t$. Khi đó $500-20t=140\iff 20t=360\iff t=18$. Sau 18 phút, trong bể còn 140 lít.
+Gọi $V(t)$ (lít) là thể tích nước trong bể sau $t$ phút ($t\ge0$). Ban đầu bể có $500$ lít và mỗi phút giảm $20$ lít, nên
+$$V(t)=500-20t.$$
+
+(Bể hết nước khi $500-20t=0$, tức là $t=25$; vậy $0\le t\le25$.)
+
+Trong bể còn $140$ lít khi
+$$500-20t=140\iff20t=360\iff t=18.$$
+
+Giá trị $t=18$ thuộc đoạn $[0; 25]$ nên thoả mãn. Kiểm tra: $500-20\cdot18=140$.
+
+Vậy $V(t)=500-20t$, và sau $18$ phút thì trong bể còn $140$ lít.
+
+**Đáp số.** $V(t)=500-20t$; $18$ phút.
 :::
 
 :::exercise Giao điểm với các trục và diện tích
@@ -266,7 +331,20 @@ Trong mặt phẳng $xy$, đường thẳng $3x-4y=24$ cắt trục $x$ tại đ
 2. Tam giác vuông tại $O$: diện tích $=\dfrac12\cdot OA\cdot OB$.
 
 ::solution
-Với $y=0$: $x=8$, nên $A(8, 0)$. Với $x=0$: $y=-6$, nên $B(0, -6)$. Hai cạnh góc vuông dài $8$ và $6$, nên diện tích là $\dfrac12\cdot8\cdot6=24$.
+Điểm $A$ là giao điểm của đường thẳng $3x-4y=24$ với trục $x$, nên $y=0$:
+$$3x=24\iff x=8,\ \text{nên}\ A(8; 0).$$
+
+Điểm $B$ là giao điểm với trục $y$, nên $x=0$:
+$$-4y=24\iff y=-6,\ \text{nên}\ B(0; -6).$$
+
+Vì $A$ nằm trên trục $x$ và $B$ nằm trên trục $y$ nên tam giác $OAB$ vuông tại $O$, với hai cạnh góc vuông $OA=8$ và $OB=|-6|=6$.
+
+Diện tích tam giác $OAB$ là
+$$S=\frac12\cdot OA\cdot OB=\frac12\cdot8\cdot6=24.$$
+
+Vậy diện tích tam giác $OAB$ bằng $24$ (đơn vị diện tích).
+
+**Đáp số.** $24$.
 :::
 
 :::exercise Tiết kiệm tiền
@@ -280,7 +358,18 @@ Hoa có 120 đô la và mỗi tuần tiết kiệm thêm 15 đô la. Hoa muốn 
 2. Giải tìm $w$.
 
 ::solution
-$15w\ge180\iff w\ge12$. Số tuần ít nhất là $12$. Sau 12 tuần Hoa có đúng $120+180=300$ đô la, thoả mãn "ít nhất 300".
+Gọi $w$ là số tuần Hoa tiết kiệm ($w$ nguyên dương). Sau $w$ tuần, Hoa có $120+15w$ (đô la).
+
+Hoa muốn có ít nhất $300$ đô la, nên
+$$120+15w\ge300\iff15w\ge180\iff w\ge12.$$
+
+Vì $w$ là số nguyên nên $w$ nhỏ nhất là $12$.
+
+Kiểm tra: sau $12$ tuần Hoa có đúng $120+15\cdot12=300$ đô la, thoả mãn "ít nhất $300$ đô la"; sau $11$ tuần chỉ có $120+165=285<300$ đô la.
+
+Vậy Hoa phải tiết kiệm ít nhất $12$ tuần.
+
+**Đáp số.** $12$ tuần.
 :::
 
 :::exercise Trắc nghiệm
@@ -300,7 +389,21 @@ D. $(3, 1)$
 2. Thay các điểm còn lại vào bất phương trình thứ hai.
 
 ::solution
-$(2, 3)$: $3>3$ sai. $(0, 6)$: $6\le5$ sai. $(3, 1)$: $1>5$ sai. $(1, 3)$: $3>1$ và $3\le4$ đều đúng. Đáp án là **C**. Lưu ý dấu $>$ là nghiêm ngặt, nên $(2, 3)$ bị loại.
+Một điểm là nghiệm của hệ khi toạ độ của nó thoả mãn cả hai bất phương trình $y>2x-1$ và $y\le-x+5$. Ta thử từng phương án.
+
+Phương án A, $(2; 3)$: $3>2\cdot2-1=3$ là sai (bất đẳng thức nghiêm ngặt), nên loại.
+
+Phương án B, $(0; 6)$: $6\le-0+5=5$ là sai, nên loại.
+
+Phương án D, $(3; 1)$: $1>2\cdot3-1=5$ là sai, nên loại.
+
+Phương án C, $(1; 3)$: $3>2\cdot1-1=1$ đúng và $3\le-1+5=4$ đúng, nên $(1; 3)$ thoả mãn cả hai bất phương trình.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Dấu $>$ là nghiêm ngặt, nên điểm $(2; 3)$ nằm trên đường thẳng $y=2x-1$ bị loại.
+
+**Đáp số.** C.
 :::
 
 :::exercise Thử thách
@@ -315,7 +418,24 @@ $(2, 3)$: $3>3$ sai. $(0, 6)$: $6\le5$ sai. $(3, 1)$: $1>5$ sai. $(1, 3)$: $3>1$
 3. Cho hai biểu thức của $y$ bằng nhau.
 
 ::solution
-Đường thẳng $k$: $m_k=\dfrac{8-2}{3-0}=2$, nên $y=2x+2$. Đường thẳng $m$: $y=-\dfrac12x+b$ với $4=-3+b$, nên $b=7$ và $y=-\dfrac12x+7$. Giao điểm: $2x+2=-\dfrac12x+7\iff\dfrac52x=5\iff x=2$, khi đó $y=6$. Vậy $x+y=8$.
+Đường thẳng $k$ đi qua $(0; 2)$ và $(3; 8)$ nên có hệ số góc
+$$m_k=\frac{8-2}{3-0}=2.$$
+
+Đường thẳng $k$ cắt trục $y$ tại $(0; 2)$, nên $k:\ y=2x+2$.
+
+Đường thẳng $m$ vuông góc với $k$ nên hệ số góc của $m$ là $-\dfrac1{m_k}=-\dfrac12$, và $m:\ y=-\dfrac12x+b$. Vì $m$ đi qua $(6; 4)$ nên
+$$4=-\frac12\cdot6+b\iff4=-3+b\iff b=7.$$
+
+Vậy $m:\ y=-\dfrac12x+7$.
+
+Hoành độ giao điểm của $k$ và $m$ thoả mãn
+$$2x+2=-\frac12x+7\iff\frac52x=5\iff x=2.$$
+
+Thay $x=2$ vào $y=2x+2$, ta được $y=6$. Kiểm tra với $m$: $-\dfrac12\cdot2+7=6$. Giao điểm là $(2; 6)$.
+
+Vậy $x+y=2+6=8$.
+
+**Đáp số.** $8$.
 :::
 
 :::quiz

@@ -138,7 +138,15 @@ D. The limit does not exist.
 2. $f'(x)=\cos x$.
 
 ::solution
-The limit is $\cos\dfrac{\pi}{2}=0$: answer **B**.
+Let $f(x)=\sin x$. Since $f\left(\dfrac{\pi}{2}\right)=\sin\dfrac{\pi}{2}=1$, the definition of the derivative at $x=\dfrac{\pi}{2}$ gives
+$$f'\left(\frac{\pi}{2}\right)=\lim_{h\to0}\frac{f\left(\frac{\pi}{2}+h\right)-f\left(\frac{\pi}{2}\right)}{h}=\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}.$$
+
+Hence the given limit is exactly $f'\left(\dfrac{\pi}{2}\right)$. Since $f'(x)=\cos x$,
+$$f'\left(\frac{\pi}{2}\right)=\cos\frac{\pi}{2}=0.$$
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -152,7 +160,17 @@ For $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, find $g'(1)$.
 2. Substitute $x=1$.
 
 ::solution
-$g'(x)=20x^3-6x-8x^{-3}$, so $g'(1)=20-6-8=6$.
+Rewrite $g(x)=5x^4-3x^2+4x^{-2}$ so that we can use the power rule $\left(x^n\right)'=nx^{n-1}$.
+
+We have
+$$g'(x)=5\cdot4x^3-3\cdot2x+4\cdot(-2)x^{-3}=20x^3-6x-8x^{-3}.$$
+
+Substituting $x=1$, we get
+$$g'(1)=20-6-8=6.$$
+
+So $g'(1)=6$.
+
+**Answer.** $6$.
 :::
 
 :::exercise Multiple choice
@@ -169,7 +187,15 @@ D. $1$
 1. $f'(x)=e^x+xe^x$.
 
 ::solution
-$f'(0)=1+0=1$: answer **D**.
+Using the product rule $(uv)'=u'v+uv'$ with $u=x$ and $v=e^x$, we have
+$$f'(x)=(x)'e^x+x\left(e^x\right)'=e^x+xe^x.$$
+
+Substituting $x=0$, we get
+$$f'(0)=e^0+0\cdot e^0=1+0=1.$$
+
+So the answer is **D**.
+
+**Answer.** D.
 :::
 
 :::exercise Free response
@@ -183,7 +209,23 @@ For $f(x)=\dfrac{x}{x^2+1}$, find $f'(1)$ and interpret it.
 2. Substitute $x=1$.
 
 ::solution
-$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, so $f'(1)=0$: the tangent line at $x=1$ is horizontal. In fact $f$ has its maximum value $\dfrac12$ there.
+Since $x^2+1>0$ for every $x$, the function is defined on $\mathbb{R}$.
+
+Using the quotient rule $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$ with $u=x$ and $v=x^2+1$, we have
+$$f'(x)=\frac{1\cdot\left(x^2+1\right)-x\cdot2x}{\left(x^2+1\right)^2}=\frac{1-x^2}{\left(x^2+1\right)^2}.$$
+
+Substituting $x=1$, we get
+$$f'(1)=\frac{1-1^2}{\left(1^2+1\right)^2}=0.$$
+
+Interpretation: $f'(1)$ is the slope of the tangent line to the graph at the point with $x=1$. Since $f'(1)=0$, the tangent line there is horizontal.
+
+In fact, $f(1)=\dfrac12$ and for every $x$ we have
+$$\frac12-f(x)=\frac{x^2+1-2x}{2\left(x^2+1\right)}=\frac{(x-1)^2}{2\left(x^2+1\right)}\ge0,$$
+so $f(x)\le\dfrac12$. Hence $f$ attains its maximum value $\dfrac12$ at $x=1$.
+
+So $f'(1)=0$: the tangent line to the graph at $x=1$ is horizontal, and $f$ has its maximum value $\dfrac12$ there.
+
+**Answer.** $f'(1)=0$; the tangent line at $x=1$ is horizontal.
 :::
 
 :::exercise Free response
@@ -196,7 +238,16 @@ Write the equation of the tangent line to $y=\ln x$ at $x=1$.
 1. $\ln1=0$ and $\left.\dfrac1x\right|_{x=1}=1$.
 
 ::solution
-$y=0+1\cdot(x-1)$, that is $y=x-1$.
+The function $y=\ln x$ is defined for $x>0$ and has derivative $y'=\dfrac1x$.
+
+At $x=1$, we have $y(1)=\ln1=0$ and $y'(1)=\dfrac11=1$.
+
+The tangent line at the point with $x=x_0$ is $y=y(x_0)+y'(x_0)(x-x_0)$. With $x_0=1$, we get
+$$y=0+1\cdot(x-1),\ \text{that is}\ y=x-1.$$
+
+So the tangent line to the graph of $y=\ln x$ at $x=1$ is $y=x-1$.
+
+**Answer.** $y=x-1$.
 :::
 
 ## Application exercises
@@ -212,7 +263,17 @@ A particle moves along a line with position $s(t)=t^3-6t^2+9t$ for $t\ge0$. At w
 2. Solve $v(t)=0$.
 
 ::solution
-$3(t^2-4t+3)=3(t-1)(t-3)=0$, so the particle is at rest at $t=1$ and $t=3$.
+The velocity of the particle at time $t$ is
+$$v(t)=s'(t)=3t^2-12t+9.$$
+
+The particle is at rest when $v(t)=0$ (with $t\ge0$). We have
+$$\begin{aligned}3t^2-12t+9=0&\iff3\left(t^2-4t+3\right)=0\\&\iff3(t-1)(t-3)=0\\&\iff t=1\ \text{or}\ t=3.\end{aligned}$$
+
+Both values satisfy the condition $t\ge0$.
+
+So the particle is at rest at $t=1$ and $t=3$.
+
+**Answer.** $t=1$ and $t=3$.
 :::
 
 :::exercise Horizontal tangents
@@ -226,7 +287,17 @@ Find the points on the graph of $y=x^3-3x$ where the tangent line is horizontal.
 2. Solve, then find the $y$-values.
 
 ::solution
-$3x^2-3=0$ gives $x=\pm1$. The points are $(1, -2)$ and $(-1, 2)$.
+We have $y'=3x^2-3$. The tangent line at the point with abscissa $x$ is horizontal if and only if its slope $y'=0$.
+
+Solving
+$$3x^2-3=0\iff x^2=1\iff x=1\ \text{or}\ x=-1.$$
+
+The corresponding $y$-coordinates are
+$$y(1)=1^3-3\cdot1=-2,\qquad y(-1)=(-1)^3-3\cdot(-1)=-1+3=2.$$
+
+So the points on the graph where the tangent line is horizontal are $(1, -2)$ and $(-1, 2)$.
+
+**Answer.** $(1, -2)$ and $(-1, 2)$.
 :::
 
 :::exercise Using a table
@@ -245,7 +316,15 @@ Let $h(x)=f(x)g(x)$. Find $h'(2)$.
 1. $h'(2)=f'(2)g(2)+f(2)g'(2)$.
 
 ::solution
-$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+By the product rule, for $h(x)=f(x)g(x)$ we have
+$$h'(x)=f'(x)g(x)+f(x)g'(x).$$
+
+Substituting $x=2$ and the values from the table $f(2)=3$, $f'(2)=-1$, $g(2)=4$, $g'(2)=5$, we get
+$$h'(2)=f'(2)g(2)+f(2)g'(2)=(-1)(4)+(3)(5)=-4+15=11.$$
+
+So $h'(2)=11$.
+
+**Answer.** $11$.
 :::
 
 :::exercise Challenge
@@ -260,7 +339,23 @@ Find $a$ and $b$ so that $f$ is differentiable at $x=1$.
 2. Equal slopes: $2a=b$.
 
 ::solution
-Substituting $b=2a$ into $a=b-2$ gives $a=2a-2$, so $a=2$ and $b=4$. Check: both pieces give the value $2$ and the slope $4$ at $x=1$.
+The function $f$ is differentiable at $x=1$ if and only if $f$ is continuous at $x=1$ and the left-hand and right-hand derivatives at $x=1$ are equal.
+
+Continuity condition: we have $f(1)=a\cdot1^2=a$ and
+$$\lim_{x\to1^-}f(x)=a,\qquad\lim_{x\to1^+}f(x)=b\cdot1-2=b-2.$$
+The two one-sided limits must be equal, so $a=b-2$. (1)
+
+Derivative condition: for $x<1$ we have $f'(x)=2ax$, so the left-hand derivative at $1$ is $2a$; for $x>1$ we have $f'(x)=b$, so the right-hand derivative at $1$ is $b$. Hence $b=2a$. (2)
+
+Substituting (2) into (1), we get
+$$a=2a-2\iff a=2.$$
+It follows that $b=2a=4$.
+
+Check: with $a=2$, $b=4$, both pieces give the value $2$ at $x=1$ (since $a=2$ and $b-2=2$) and the same slope $4$ (since $2a=4=b$).
+
+So $a=2$ and $b=4$.
+
+**Answer.** $a=2$, $b=4$.
 :::
 
 :::quiz

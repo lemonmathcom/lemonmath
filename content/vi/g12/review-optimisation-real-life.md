@@ -180,7 +180,20 @@ D. $200$ m².
 2. Giải $S'(x)=0$.
 
 ::solution
-$S'(x)=20-2x=0\iff x=10$, $S'$ đổi dấu từ $+$ sang $-$. $S(10)=100$. Phương án B là $20^2$.
+Gọi $x$ (m) là độ dài một cạnh của mảnh vườn, $0<x<20$. Vì chu vi bằng $40$ m nên nửa chu vi bằng $20$ m, do đó cạnh còn lại dài $20-x$ (m).
+
+Diện tích mảnh vườn là
+$$S(x)=x(20-x)=20x-x^2\quad(\text{m}^2),\ 0<x<20.$$
+
+Ta có $S'(x)=20-2x$. Khi đó
+$$S'(x)=0\iff x=10\ (\text{thoả mãn điều kiện}).$$
+
+Vì $S'(x)>0$ khi $0<x<10$ và $S'(x)<0$ khi $10<x<20$ nên $S'$ đổi dấu từ $+$ sang $-$ tại $x=10$. Do đó $S$ đạt giá trị lớn nhất tại $x=10$ và
+$$S(10)=10\cdot(20-10)=100.$$
+
+Vậy diện tích lớn nhất của mảnh vườn là $100$ m² (khi mảnh vườn là hình vuông cạnh $10$ m). Vậy chọn **A**.
+
+*Nhận xét.* Phương án B là $20^2$.
 
 **Đáp số.** A.
 :::
@@ -196,7 +209,17 @@ Một vật chuyển động với $s(t)=t^3-3t^2+5t$ (m), $t$ (giây). Tính v�
 2. Giải $a(t)=0$ rồi thay vào $v$.
 
 ::solution
-$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
+Vận tốc là đạo hàm của quãng đường theo thời gian, gia tốc là đạo hàm của vận tốc theo thời gian. Ta có
+$$v(t)=s'(t)=3t^2-6t+5,\qquad a(t)=v'(t)=6t-6.$$
+
+Gia tốc bằng $0$ khi
+$$6t-6=0\iff t=1\ (\text{giây}),$$
+thoả mãn điều kiện $t\ge0$.
+
+Thay $t=1$ vào $v(t)$, ta được
+$$v(1)=3\cdot1^2-6\cdot1+5=2.$$
+
+Vậy vận tốc của vật tại thời điểm gia tốc bằng $0$ là $2$ m/s.
 
 **Đáp số.** $2$.
 :::
@@ -216,7 +239,20 @@ D. $50$ nghìn đồng.
 2. Tính $\overline C$ tại nghiệm dương.
 
 ::solution
-$\overline C'(x)=0\iff x=30$, và $\overline C'$ đổi dấu từ $-$ sang $+$. $\overline C(30)=30+20+30=80$. Phương án B là số sản phẩm $x$; C quên số hạng $20$.
+Điều kiện: $x>0$. Chi phí trung bình cho mỗi sản phẩm là
+$$\overline C(x)=\frac{C(x)}{x}=\frac{x^2+20x+900}{x}=x+20+\frac{900}{x}\quad(\text{nghìn đồng}),\ x>0.$$
+
+Ta có
+$$\overline C'(x)=1-\frac{900}{x^2}=\frac{x^2-900}{x^2}.$$
+
+Với $x>0$, ta có $\overline C'(x)=0\iff x^2=900\iff x=30$.
+
+Vì $\overline C'(x)<0$ khi $0<x<30$ và $\overline C'(x)>0$ khi $x>30$ nên $\overline C'$ đổi dấu từ $-$ sang $+$ tại $x=30$. Do đó $\overline C$ đạt giá trị nhỏ nhất tại $x=30$ và
+$$\overline C(30)=30+20+\frac{900}{30}=30+20+30=80.$$
+
+Vậy chi phí trung bình nhỏ nhất cho mỗi sản phẩm là $80$ nghìn đồng (khi sản xuất $30$ sản phẩm). Vậy chọn **A**.
+
+*Nhận xét.* Phương án B là số sản phẩm $x$; phương án C quên số hạng $20$.
 
 **Đáp số.** A.
 :::
@@ -232,7 +268,22 @@ Một bể chứa không nắp có đáy hình vuông, thể tích $32$ dm³. T�
 2. Lập bảng biến thiên trên $(0; +\infty)$.
 
 ::solution
-$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ khi $0<x<4$, $S'>0$ khi $x>4$. Khi đó $h=\dfrac{32}{16}=2$ và $S(4)=16+32=48$ dm².
+Gọi $x$ (dm) là cạnh đáy và $h$ (dm) là chiều cao của bể, $x>0$, $h>0$.
+
+Thể tích bể là $x^2h=32$, suy ra $h=\dfrac{32}{x^2}$.
+
+Bể không nắp nên diện tích vật liệu bằng diện tích đáy cộng diện tích bốn mặt bên:
+$$S(x)=x^2+4xh=x^2+4x\cdot\frac{32}{x^2}=x^2+\frac{128}{x}\quad(\text{dm}^2),\ x>0.$$
+
+Ta có
+$$S'(x)=2x-\frac{128}{x^2}=\frac{2\left(x^3-64\right)}{x^2}.$$
+
+Với $x>0$, $S'(x)=0\iff x^3=64\iff x=4$.
+
+Vì $S'(x)<0$ khi $0<x<4$ và $S'(x)>0$ khi $x>4$ nên $S$ đạt giá trị nhỏ nhất tại $x=4$. Khi đó
+$$h=\frac{32}{4^2}=2,\qquad S(4)=16+\frac{128}{4}=16+32=48.$$
+
+Vậy để tốn ít vật liệu nhất, bể có đáy là hình vuông cạnh $4$ dm và chiều cao $2$ dm; diện tích vật liệu khi đó là $48$ dm².
 
 **Đáp số.** Đáy cạnh $4$ dm, cao $2$ dm (diện tích vật liệu $48$ dm²).
 :::
@@ -256,13 +307,20 @@ d) Lợi nhuận lớn nhất là $4225$ nghìn đồng.
 2. Tìm giá trị lớn nhất của $P$ trên $[0; 80]$.
 
 ::solution
-a) **Đúng**: giảm $10$ nghìn thì bán $50+10=60$ chiếc.
+Gọi $x$ (nghìn đồng) là số tiền giảm giá, $0\le x\le80$. Khi đó giá bán một chiếc áo là $200-x$ (nghìn đồng) và số áo bán được mỗi tháng là $50+x$ (chiếc).
 
-b) **Đúng**: lãi mỗi chiếc $200-x-120=80-x$, nhân với $50+x$.
+a) **Đúng.** Giá bán $190$ nghìn đồng nghĩa là giảm $x=200-190=10$ nghìn đồng, nên mỗi tháng cửa hàng bán được $50+10=60$ chiếc.
 
-c) **Sai**: $P'(x)=30-2x=0\iff x=15$, nên giá bán tốt nhất là $185$ nghìn đồng.
+b) **Đúng.** Lãi mỗi chiếc áo là $(200-x)-120=80-x$ (nghìn đồng). Nhân với số áo bán được $50+x$, lợi nhuận mỗi tháng là
+$$P(x)=(80-x)(50+x)=-x^2+30x+4000\quad(\text{nghìn đồng}).$$
 
-d) **Đúng**: $P(15)=65\cdot65=4225$, lớn hơn $P(0)=4000$ và $P(80)=0$.
+c) **Sai.** Ta có $P'(x)=30-2x$, nên $P'(x)=0\iff x=15$ (thoả mãn $0\le x\le80$). Khi đó giá bán là $200-15=185$ nghìn đồng, không phải $170$ nghìn đồng. Thật vậy, giá $170$ nghìn đồng ứng với $x=30$ và $P(30)=50\cdot80=4000<P(15)$.
+
+d) **Đúng.** Vì $P'(x)>0$ khi $0\le x<15$ và $P'(x)<0$ khi $15<x\le80$, nên $P$ lớn nhất tại $x=15$. Ta có
+$$P(15)=65\cdot65=4225,$$
+lớn hơn $P(0)=4000$ và $P(80)=0$. Vậy lợi nhuận lớn nhất là $4225$ nghìn đồng.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -278,7 +336,15 @@ Một quả bóng được ném thẳng đứng lên, độ cao sau $t$ giây l�
 2. Thay vào $h(t)$.
 
 ::solution
-$h'(t)=0\iff t=2$, $h'$ đổi dấu từ $+$ sang $-$. $h(2)=1{,}5+39{,}2-19{,}6=21{,}1$.
+Độ cao của quả bóng là $h(t)=1{,}5+19{,}6t-4{,}9t^2$ (m), $t\ge0$. Ta có
+$$h'(t)=19{,}6-9{,}8t.$$
+
+Khi đó $h'(t)=0\iff t=2$ (giây), thoả mãn điều kiện $t\ge0$.
+
+Vì $h'(t)>0$ khi $0\le t<2$ và $h'(t)<0$ khi $t>2$ nên $h'$ đổi dấu từ $+$ sang $-$ tại $t=2$. Do đó $h$ đạt giá trị lớn nhất tại $t=2$ và
+$$h(2)=1{,}5+19{,}6\cdot2-4{,}9\cdot2^2=1{,}5+39{,}2-19{,}6=21{,}1.$$
+
+Vậy độ cao lớn nhất của quả bóng là $21{,}1$ m.
 
 **Đáp số.** $21{,}1$.
 :::
@@ -298,7 +364,23 @@ D. $1$ cm.
 2. Giải $S'(r)=0$.
 
 ::solution
-$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ đổi dấu từ $-$ sang $+$. Khi đó $h=4$. Phương án B là chiều cao, C là $r^3$.
+Gọi $r$ (cm) là bán kính đáy và $h$ (cm) là chiều cao của lon, $r>0$, $h>0$.
+
+Thể tích lon là $\pi r^2h=16\pi$, suy ra $h=\dfrac{16}{r^2}$.
+
+Diện tích toàn phần của lon là
+$$S(r)=2\pi r^2+2\pi rh=2\pi r^2+2\pi r\cdot\frac{16}{r^2}=2\pi r^2+\frac{32\pi}{r}\quad(\text{cm}^2),\ r>0.$$
+
+Ta có
+$$S'(r)=4\pi r-\frac{32\pi}{r^2}=\frac{4\pi\left(r^3-8\right)}{r^2}.$$
+
+Với $r>0$, $S'(r)=0\iff r^3=8\iff r=2$.
+
+Vì $S'(r)<0$ khi $0<r<2$ và $S'(r)>0$ khi $r>2$ nên $S'$ đổi dấu từ $-$ sang $+$ tại $r=2$. Do đó $S$ đạt giá trị nhỏ nhất tại $r=2$; khi đó $h=\dfrac{16}{2^2}=4$.
+
+Vậy để tốn ít vật liệu nhất thì bán kính đáy của lon bằng $2$ cm. Vậy chọn **A**.
+
+*Nhận xét.* Phương án B là chiều cao $h=4$ cm; phương án C là $r^3=8$.
 
 **Đáp số.** A.
 :::
@@ -314,7 +396,26 @@ Một người ở điểm $A$ trên mặt hồ, cách bờ thẳng $4$ km ($B$ 
 2. Giải $T'(x)=0$ và so sánh với hai đầu mút.
 
 ::solution
-$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3{,}33$, $T(3)=\dfrac53+\dfrac75\approx3{,}07$, $T(10)\approx3{,}59$ (giờ).
+Đặt $BM=x$ (km), $0\le x\le10$. Khi đó $MC=10-x$ (km).
+
+Tam giác $ABM$ vuông tại $B$ có $AB=4$ km, nên $AM=\sqrt{x^2+16}$ (km).
+
+Thời gian chèo thuyền từ $A$ đến $M$ là $\dfrac{\sqrt{x^2+16}}{3}$ (giờ) và thời gian đi bộ từ $M$ đến $C$ là $\dfrac{10-x}{5}$ (giờ). Tổng thời gian là
+$$T(x)=\frac{\sqrt{x^2+16}}{3}+\frac{10-x}{5},\ 0\le x\le10.$$
+
+Ta có
+$$T'(x)=\frac{x}{3\sqrt{x^2+16}}-\frac15.$$
+
+Với $x\ge0$, ta có
+$$\begin{aligned}T'(x)=0&\iff5x=3\sqrt{x^2+16}\\&\iff25x^2=9x^2+144\\&\iff16x^2=144\\&\iff x=3\end{aligned}$$
+(hai vế không âm nên bình phương hai vế được phương trình tương đương; $x=3$ thoả mãn $0\le x\le10$).
+
+Hàm số $T$ liên tục trên đoạn $[0; 10]$ nên giá trị nhỏ nhất của $T$ là số nhỏ nhất trong các giá trị tại hai đầu mút và tại điểm $x=3$:
+$$T(0)=\frac43+2=\frac{10}{3}\approx3{,}33,\qquad T(3)=\frac53+\frac75=\frac{46}{15}\approx3{,}07,\qquad T(10)=\frac{\sqrt{116}}{3}\approx3{,}59\ (\text{giờ}).$$
+
+Giá trị nhỏ nhất là $T(3)$.
+
+Vậy điểm $M$ cách $B$ một khoảng $3$ km thì thời gian đi là ít nhất (khoảng $3{,}07$ giờ).
 
 **Đáp số.** $3$.
 :::
@@ -338,15 +439,22 @@ d) Thể tích lớn nhất của hộp là $144$ cm³.
 2. Chỉ giữ nghiệm thuộc miền của $x$.
 
 ::solution
-$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
+Cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp lên, ta được hộp không nắp có chiều cao $x$ cm. Mỗi cạnh của đáy bị cắt đi hai hình vuông, nên đáy là hình chữ nhật có các cạnh $16-2x$ và $10-2x$ (cm).
 
-a) **Đúng**: cần $10-2x>0$ và $x>0$.
+a) **Đúng.** Để làm được hộp, cần $x>0$, $16-2x>0$ và $10-2x>0$, tức là $x>0$, $x<8$ và $x<5$. Kết hợp lại, điều kiện của $x$ là $0<x<5$.
 
-b) **Sai**: mỗi cạnh đáy bị cắt hai lần, phải là $16-2x$ và $10-2x$.
+b) **Sai.** Vì các cạnh đáy là $16-2x$ và $10-2x$ nên thể tích hộp là
+$$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x,$$
+không phải $x(16-x)(10-x)$.
 
-c) **Sai**: $\dfrac{20}{3}\approx6{,}67$ không thuộc $(0; 5)$; nghiệm cần lấy là $x=2$.
+c) **Sai.** Ta có
+$$V'(x)=12x^2-104x+160=4(x-2)(3x-20).$$
+Do đó $V'(x)=0\iff x=2$ hoặc $x=\dfrac{20}{3}$. Vì $\dfrac{20}{3}\approx6{,}67$ không thuộc khoảng $(0; 5)$ nên chỉ nhận $x=2$. Vậy thể tích không lớn nhất tại $x=\dfrac{20}{3}$.
 
-d) **Đúng**: $V'$ đổi dấu từ $+$ sang $-$ tại $x=2$, $V(2)=2\cdot12\cdot6=144$.
+d) **Đúng.** Trên khoảng $(0; 5)$, $V'(x)>0$ khi $0<x<2$ và $V'(x)<0$ khi $2<x<5$ nên $V'$ đổi dấu từ $+$ sang $-$ tại $x=2$. Do đó $V$ đạt giá trị lớn nhất tại $x=2$ và
+$$V(2)=2\cdot(16-4)\cdot(10-4)=2\cdot12\cdot6=144\ (\text{cm}^3).$$
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -362,8 +470,23 @@ Một tấm tôn rộng $30$ cm được gấp thành máng nước: đáy rộn
 2. Tính $A'(\theta)$, phân tích thành nhân tử theo $\cos\theta$.
 
 ::solution
-$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
-Trên $\left(0; \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, nên $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ khi $\theta<\dfrac{\pi}{3}$ và $A'<0$ khi $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129{,}9$.
+Mặt cắt là hình thang cân có đáy nhỏ bằng $10$ cm và hai cạnh bên bằng $10$ cm, mỗi cạnh bên nghiêng với phương nằm ngang một góc $\theta$.
+
+Chiều cao hình thang là $10\sin\theta$ (cm). Hình chiếu của mỗi cạnh bên lên phương nằm ngang dài $10\cos\theta$ (cm), nên đáy lớn dài $10+2\cdot10\cos\theta=10+20\cos\theta$ (cm).
+
+Diện tích mặt cắt là
+$$A(\theta)=\frac{10+(10+20\cos\theta)}{2}\cdot10\sin\theta=100\sin\theta(1+\cos\theta)\quad(\text{cm}^2),\ 0<\theta\le\frac{\pi}{2}.$$
+
+Ta có
+$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100\left(2\cos^2\theta+\cos\theta-1\right)=100(2\cos\theta-1)(\cos\theta+1).$$
+
+Trên $\left(0; \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$ nên
+$$A'(\theta)=0\iff\cos\theta=\frac12\iff\theta=\frac{\pi}{3}\ (\text{thoả mãn điều kiện}).$$
+
+Với $0<\theta<\dfrac{\pi}{3}$ thì $\cos\theta>\dfrac12$ nên $A'(\theta)>0$; với $\dfrac{\pi}{3}<\theta\le\dfrac{\pi}{2}$ thì $\cos\theta<\dfrac12$ nên $A'(\theta)<0$. Do đó $A'$ đổi dấu từ $+$ sang $-$ tại $\theta=\dfrac{\pi}{3}$ và $A$ đạt giá trị lớn nhất tại đó:
+$$A\left(\frac{\pi}{3}\right)=100\cdot\frac{\sqrt3}{2}\cdot\left(1+\frac12\right)=100\cdot\frac{\sqrt3}{2}\cdot\frac32=75\sqrt3\approx129{,}9.$$
+
+Vậy diện tích mặt cắt lớn nhất khi $\theta=\dfrac{\pi}{3}$ ($60^\circ$), và diện tích lớn nhất đó là $75\sqrt3\approx129{,}9$ cm².
 
 **Đáp số.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), diện tích lớn nhất $75\sqrt3\approx129{,}9$ cm².
 :::

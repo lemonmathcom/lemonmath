@@ -131,7 +131,11 @@ Tính $2+3$.
 2. Đếm thêm ba số.
 
 ::solution
-Từ $2$ đếm thêm ba số: "ba, bốn, năm".
+Để tính $2+3$, từ $2$ ta đếm thêm ba số: "ba, bốn, năm".
+
+Số cuối cùng đếm được là $5$, nên $2+3=5$.
+
+Vậy $2+3=5$.
 
 **Đáp số.** $2+3=5$.
 :::
@@ -147,7 +151,11 @@ Tính $6+2$.
 2. Đếm thêm hai số.
 
 ::solution
-Từ $6$ đếm thêm hai số: "bảy, tám".
+Để tính $6+2$, từ $6$ ta đếm thêm hai số: "bảy, tám".
+
+Số cuối cùng đếm được là $8$, nên $6+2=8$.
+
+Vậy $6+2=8$.
 
 **Đáp số.** $6+2=8$.
 :::
@@ -163,7 +171,13 @@ Em hãy nhớ lại bài trước: $7$ gồm $3$ và $4$. Viết phép cộng t�
 2. Kiểm tra với số đã biết.
 
 ::solution
-Từ $4$ đếm thêm ba số: "năm, sáu, bảy". Kết quả đúng bằng số $7$ đã biết.
+Ở bài trước ta biết $7$ gồm $3$ và $4$. Phép cộng tương ứng là $3+4=7$.
+
+Ta tính lại bằng cách đếm thêm. Từ $4$ ta đếm thêm ba số: "năm, sáu, bảy".
+
+Số cuối cùng đếm được là $7$, đúng bằng số $7$ đã biết.
+
+Vậy $3+4=7$.
 
 **Đáp số.** $3+4=7$.
 :::
@@ -181,7 +195,11 @@ b) $\square+4=6$.
 2. Đếm từ $4$ lên $6$.
 
 ::solution
-a) Từ $3$ lên $5$: "bốn, năm", có $2$ số. b) Từ $4$ lên $6$: "năm, sáu", có $2$ số.
+a) Ta cần tìm số để $3+\square=5$. Từ $3$ lên $5$ ta đếm: "bốn, năm", có $2$ số, nên số cần điền là $2$. Kiểm tra: $3+2=5$. Đúng.
+
+b) Ta cần tìm số để $\square+4=6$. Từ $4$ lên $6$ ta đếm: "năm, sáu", có $2$ số, nên số cần điền là $2$. Kiểm tra: $2+4=6$. Đúng.
+
+Vậy số cần điền ở câu a) là $2$ và ở câu b) là $2$.
 
 **Đáp số.** a) $2$. b) $2$.
 :::
@@ -197,7 +215,11 @@ Nam nói: "$4+3=8$ vì em đếm bốn, năm, sáu, bảy, tám." Nam đúng kh�
 2. Đếm lại cho đúng.
 
 ::solution
-Từ $4$ chỉ cần đếm thêm $3$ số: "năm, sáu, bảy". Nam đã đếm cả số đầu thêm lần nữa.
+Ta tính $4+3$. Từ $4$ chỉ cần đếm thêm $3$ số: "năm, sáu, bảy". Số cuối cùng là $7$, nên $4+3=7$.
+
+Nam đếm "bốn, năm, sáu, bảy, tám", tức là đếm $5$ số. Nam đã đếm cả số $4$ ở đầu thêm một lần nữa, nên được kết quả $8$.
+
+Vậy Nam sai, và $4+3=7$.
 
 **Đáp số.** Sai. $4+3=7$.
 :::
@@ -213,7 +235,11 @@ Mai viết $5+0=0$. Mai sai ở đâu? Viết lại cho đúng.
 2. So với kết quả Mai viết.
 
 ::solution
-Thêm $0$ là không thêm gì, nên số vẫn là $5$.
+Thêm $0$ vào một số nghĩa là không thêm gì cả, nên số đó không thay đổi. Vì vậy $5+0=5$.
+
+Mai viết $5+0=0$ là sai, vì Mai nghĩ rằng cộng với $0$ thì kết quả bằng $0$. Thực ra kết quả vẫn là số ban đầu, tức là $5$.
+
+Vậy Mai sai, và viết lại cho đúng là $5+0=5$.
 
 **Đáp số.** $5+0=5$.
 :::
@@ -229,10 +255,14 @@ Hà có $6$ quyển vở. Mẹ mua thêm $3$ quyển vở. Hỏi Hà có tất c
 2. Tính $6+3$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số quyển vở có tất cả là:
+Bài giải
+
+Mẹ mua thêm vở cho Hà, nên ta làm phép cộng. Số quyển vở Hà có tất cả là:
 $$6+3=9\ \text{(quyển)}.$$
 
-**Kiểm tra.** Từ $6$ đếm thêm ba số: bảy, tám, chín. Đúng.
+Kiểm tra: từ $6$ đếm thêm ba số: "bảy, tám, chín". Đúng.
+
+Vậy Hà có tất cả $9$ quyển vở.
 
 **Đáp số.** $9$ quyển vở.
 :::
@@ -248,9 +278,18 @@ Có $10$ bông hoa cắm vào hai lọ. Lọ đỏ có $4$ bông hoa. Hỏi lọ
 2. Viết phép cộng: $4+\square=10$.
 
 ::solution
-Từ $4$ lên $10$: "năm, sáu, bảy, tám, chín, mười", có $6$ số.
+Bài giải
 
-**Kiểm tra.** $4+6=10$. Đúng.
+Có $10$ bông hoa cắm vào hai lọ, trong đó lọ đỏ có $4$ bông. Số bông hoa của lọ xanh là số cần thêm vào $4$ để được $10$.
+
+Từ $4$ lên $10$ ta đếm: "năm, sáu, bảy, tám, chín, mười", có $6$ số. Do đó lọ xanh có $6$ bông hoa.
+
+Phép cộng đúng là:
+$$4+6=10.$$
+
+Kiểm tra: $4+6=10$. Đúng.
+
+Vậy lọ xanh có $6$ bông hoa.
 
 **Đáp số.** Lọ xanh có $6$ bông hoa; $4+6=10$.
 :::

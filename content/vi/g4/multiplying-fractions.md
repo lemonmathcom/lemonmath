@@ -198,7 +198,15 @@ Tính $\dfrac{3}{4}\times\dfrac{2}{5}$.
 2. Rút gọn kết quả.
 
 ::solution
-$$\dfrac{3}{4}\times\dfrac{2}{5}=\dfrac{3\times2}{4\times5}=\dfrac{6}{20}=\dfrac{3}{10}.$$
+Muốn nhân hai phân số, ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số.
+
+Ta có
+$$\frac{3}{4}\times\frac{2}{5}=\frac{3\times2}{4\times5}=\frac{6}{20}.$$
+
+Rút gọn phân số bằng cách chia cả tử số và mẫu số cho $2$:
+$$\frac{6}{20}=\frac{6:2}{20:2}=\frac{3}{10}.$$
+
+Vậy $\dfrac{3}{4}\times\dfrac{2}{5}=\dfrac{3}{10}$.
 
 **Đáp số.** $\dfrac{3}{10}$.
 :::
@@ -214,7 +222,15 @@ Tính $\dfrac{5}{12}\times3$.
 2. Rút gọn kết quả.
 
 ::solution
-$$\dfrac{5}{12}\times3=\dfrac{5\times3}{12}=\dfrac{15}{12}=\dfrac{5}{4}.$$
+Muốn nhân một phân số với một số tự nhiên, ta lấy tử số nhân với số tự nhiên và giữ nguyên mẫu số.
+
+Ta có
+$$\frac{5}{12}\times3=\frac{5\times3}{12}=\frac{15}{12}.$$
+
+Rút gọn phân số bằng cách chia cả tử số và mẫu số cho $3$:
+$$\frac{15}{12}=\frac{15:3}{12:3}=\frac{5}{4}.$$
+
+Vậy $\dfrac{5}{12}\times3=\dfrac{5}{4}$.
 
 **Đáp số.** $\dfrac{5}{4}$.
 :::
@@ -230,8 +246,15 @@ Tính $\dfrac{6}{7}\times\dfrac{14}{15}$.
 2. Rút gọn phân số.
 
 ::solution
-$$\dfrac{6}{7}\times\dfrac{14}{15}=\dfrac{6\times14}{7\times15}=\dfrac{84}{105}=\dfrac{4}{5}.$$
-Ở bước cuối, ta chia cả $84$ và $105$ cho $21$.
+Ta nhân tử số với tử số, mẫu số với mẫu số:
+$$\frac{6}{7}\times\frac{14}{15}=\frac{6\times14}{7\times15}=\frac{84}{105}.$$
+
+Ta tìm số chia hết cả $84$ và $105$: đó là $21$, vì $84=21\times4$ và $105=21\times5$.
+
+Chia cả tử số và mẫu số cho $21$, ta được
+$$\frac{84}{105}=\frac{84:21}{105:21}=\frac{4}{5}.$$
+
+Vậy $\dfrac{6}{7}\times\dfrac{14}{15}=\dfrac{4}{5}$.
 
 **Đáp số.** $\dfrac{4}{5}$.
 :::
@@ -247,7 +270,15 @@ Tính $\dfrac{3}{4}:\dfrac{5}{6}$.
 2. Nhân rồi rút gọn.
 
 ::solution
-$$\dfrac{3}{4}:\dfrac{5}{6}=\dfrac{3}{4}\times\dfrac{6}{5}=\dfrac{18}{20}=\dfrac{9}{10}.$$
+Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược.
+
+Phân số $\dfrac{5}{6}$ đảo ngược là $\dfrac{6}{5}$. Ta có
+$$\frac{3}{4}:\frac{5}{6}=\frac{3}{4}\times\frac{6}{5}=\frac{3\times6}{4\times5}=\frac{18}{20}.$$
+
+Rút gọn phân số bằng cách chia cả tử số và mẫu số cho $2$:
+$$\frac{18}{20}=\frac{9}{10}.$$
+
+Vậy $\dfrac{3}{4}:\dfrac{5}{6}=\dfrac{9}{10}$.
 
 **Đáp số.** $\dfrac{9}{10}$.
 :::
@@ -265,9 +296,14 @@ b) $5:\dfrac{5}{6}$
 2. Rút gọn kết quả.
 
 ::solution
-a) $\dfrac{7}{8}:\dfrac{7}{4}=\dfrac{7}{8}\times\dfrac{4}{7}=\dfrac{28}{56}=\dfrac{1}{2}$.
+a) Phân số $\dfrac{7}{4}$ đảo ngược là $\dfrac{4}{7}$. Ta có
+$$\frac{7}{8}:\frac{7}{4}=\frac{7}{8}\times\frac{4}{7}=\frac{28}{56}.$$
+Chia cả tử số và mẫu số cho $28$, ta được $\dfrac{28}{56}=\dfrac{1}{2}$.
 
-b) $5:\dfrac{5}{6}=5\times\dfrac{6}{5}=\dfrac{30}{5}=6$.
+b) Phân số $\dfrac{5}{6}$ đảo ngược là $\dfrac{6}{5}$. Ta có
+$$5:\frac{5}{6}=5\times\frac{6}{5}=\frac{30}{5}=6.$$
+
+Vậy kết quả câu a) là $\dfrac{1}{2}$ và kết quả câu b) là $6$.
 
 **Đáp số.** a) $\dfrac{1}{2}$. b) $6$.
 :::
@@ -283,8 +319,12 @@ Giả sử mỗi chiếc nơ cần $\dfrac{2}{5}$ m ruy-băng. Hỏi làm $6$ ch
 2. Nhân $\dfrac{2}{5}$ với $6$ và ghi đơn vị mét.
 
 ::solution
-Số mét ruy-băng cần dùng là:
-$$\dfrac{2}{5}\times6=\dfrac{2\times6}{5}=\dfrac{12}{5}\ \text{(m)}.$$
+Bài giải
+
+Mỗi chiếc nơ cần $\dfrac{2}{5}$ m ruy-băng, nên số mét ruy-băng cần dùng để làm $6$ chiếc nơ là:
+$$\frac{2}{5}\times6=\frac{2\times6}{5}=\frac{12}{5}\ \text{(m)}.$$
+
+Vậy làm $6$ chiếc nơ cần $\dfrac{12}{5}$ m ruy-băng.
 
 **Đáp số.** $\dfrac{12}{5}$ m.
 :::
@@ -300,8 +340,12 @@ Một tấm kính hình chữ nhật có chiều dài $\dfrac{3}{4}$ m và chi�
 2. Nhân hai phân số, rút gọn, ghi đơn vị mét vuông.
 
 ::solution
-Diện tích tấm kính là:
-$$\dfrac{3}{4}\times\dfrac{2}{3}=\dfrac{6}{12}=\dfrac{1}{2}\ (\text{m}^2).$$
+Bài giải
+
+Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng. Diện tích tấm kính là:
+$$\frac{3}{4}\times\frac{2}{3}=\frac{3\times2}{4\times3}=\frac{6}{12}=\frac{1}{2}\ (\text{m}^2).$$
+
+Vậy diện tích tấm kính là $\dfrac{1}{2}\ \text{m}^2$.
 
 **Đáp số.** $\dfrac{1}{2}\ \text{m}^2$.
 :::
@@ -317,10 +361,14 @@ Giả sử $\dfrac{5}{6}$ kg gạo được chia đều vào $5$ túi nhỏ. H�
 2. Tính $\dfrac{5}{6}:5$ rồi rút gọn.
 
 ::solution
-Số ki-lô-gam gạo trong mỗi túi là:
-$$\dfrac{5}{6}:5=\dfrac{5}{6}\times\dfrac{1}{5}=\dfrac{5}{30}=\dfrac{1}{6}\ \text{(kg)}.$$
+Bài giải
+
+Chia đều $\dfrac{5}{6}$ kg gạo vào $5$ túi nhỏ, nên số ki-lô-gam gạo trong mỗi túi là:
+$$\frac{5}{6}:5=\frac{5}{6}\times\frac{1}{5}=\frac{5}{30}=\frac{1}{6}\ \text{(kg)}.$$
 
 **Thử lại.** $\dfrac{1}{6}\times5=\dfrac{5}{6}$. Đúng.
+
+Vậy mỗi túi có $\dfrac{1}{6}$ kg gạo.
 
 **Đáp số.** $\dfrac{1}{6}$ kg.
 :::
@@ -336,9 +384,15 @@ Em hãy nhớ lại bài cộng phân số. Tính $\dfrac{1}{2}\times\dfrac{1}{3
 2. Cộng với $\dfrac{1}{6}$ và rút gọn.
 
 ::solution
-$\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{1}{6}$.
+Trong một biểu thức, ta thực hiện phép nhân trước, rồi mới thực hiện phép cộng.
 
-Do đó $\dfrac{1}{6}+\dfrac{1}{6}=\dfrac{2}{6}=\dfrac{1}{3}$.
+Ta có
+$$\frac{1}{2}\times\frac{1}{3}=\frac{1\times1}{2\times3}=\frac{1}{6}.$$
+
+Hai phân số $\dfrac{1}{6}$ và $\dfrac{1}{6}$ có cùng mẫu số, nên ta cộng hai tử số và giữ nguyên mẫu số:
+$$\frac{1}{6}+\frac{1}{6}=\frac{2}{6}=\frac{1}{3}.$$
+
+Vậy $\dfrac{1}{2}\times\dfrac{1}{3}+\dfrac{1}{6}=\dfrac{1}{3}$.
 
 **Đáp số.** $\dfrac{1}{3}$.
 :::
@@ -354,10 +408,14 @@ Một hình chữ nhật có diện tích $\dfrac{3}{5}\ \text{m}^2$ và chiều
 2. Nhân với phân số đảo ngược, rồi thử lại.
 
 ::solution
-Chiều dài hình chữ nhật là:
-$$\dfrac{3}{5}:\dfrac{1}{2}=\dfrac{3}{5}\times2=\dfrac{6}{5}\ \text{(m)}.$$
+Bài giải
+
+Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng, nên chiều dài bằng diện tích chia cho chiều rộng. Chiều dài hình chữ nhật là:
+$$\frac{3}{5}:\frac{1}{2}=\frac{3}{5}\times2=\frac{6}{5}\ \text{(m)}.$$
 
 **Thử lại.** $\dfrac{6}{5}\times\dfrac{1}{2}=\dfrac{6}{10}=\dfrac{3}{5}$. Đúng.
+
+Vậy chiều dài hình chữ nhật là $\dfrac{6}{5}$ m.
 
 **Đáp số.** $\dfrac{6}{5}$ m.
 :::

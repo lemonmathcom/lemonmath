@@ -347,11 +347,24 @@ c) Đoạn thẳng nào dốc nhất?
 3. c) Tính mức thay đổi từng khoảng.
 
 ::solution
-a) Vẽ trục ngang ghi các tháng từ $1$ đến $6$ cách đều nhau. Vẽ trục đứng từ $0$ đến $8$, mỗi vạch ứng với $1$ kg, ghi đơn vị "kg". Đánh dấu các điểm $(1; 2)$, $(2; 3)$, $(3; 6)$, $(4; 6)$, $(5; 7)$, $(6; 8)$ rồi nối các điểm liên tiếp bằng đoạn thẳng, ghi tên biểu đồ.
+a) Để vẽ biểu đồ đoạn thẳng, ta làm như sau.
 
-b) Cân nặng tháng 3 và tháng 4 đều là $6$ kg, nên cân nặng không đổi từ tháng 3 đến tháng 4 (đoạn thẳng nằm ngang).
+Vẽ trục ngang ghi các tháng từ $1$ đến $6$ cách đều nhau. Vẽ trục đứng từ $0$ đến $8$, mỗi vạch ứng với $1$ kg và ghi đơn vị "kg".
 
-c) Mức tăng ở các khoảng là $1$; $3$; $0$; $1$; $1$ (kg). Mức tăng lớn nhất là $3$ kg, nên đoạn thẳng nối tháng 2 với tháng 3 dốc nhất.
+Đánh dấu các điểm $(1; 2)$, $(2; 3)$, $(3; 6)$, $(4; 6)$, $(5; 7)$, $(6; 8)$ theo từng cặp (tháng; cân nặng).
+
+Nối các điểm liên tiếp bằng các đoạn thẳng và ghi tên biểu đồ.
+
+b) Cân nặng tháng $3$ và tháng $4$ đều bằng $6$ kg, nên đoạn thẳng nối hai điểm $(3; 6)$ và $(4; 6)$ nằm ngang.
+
+Vậy cân nặng của chó không đổi từ tháng $3$ đến tháng $4$.
+
+c) Mức tăng cân nặng ở từng khoảng thời gian là:
+$$3-2=1;\quad 6-3=3;\quad 6-6=0;\quad 7-6=1;\quad 8-7=1\ (\text{kg}).$$
+
+Mức tăng lớn nhất là $3$ kg, ở khoảng từ tháng $2$ đến tháng $3$. Các khoảng cách đều nhau trên trục ngang nên đoạn thẳng có mức tăng lớn nhất là đoạn dốc nhất.
+
+Vậy đoạn thẳng nối tháng $2$ với tháng $3$ dốc nhất.
 
 **Đáp số.** b) Từ tháng 3 đến tháng 4; c) đoạn nối tháng 2 và tháng 3.
 :::

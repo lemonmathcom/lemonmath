@@ -211,7 +211,18 @@ Cho $\vec{u}=(2; -1; 3)$ và $\vec{v}=(-1; 4; 0)$. Tìm $\vec{u}+\vec{v}$, $3\ve
 2. Nhân các toạ độ cùng vị trí rồi cộng.
 
 ::solution
-$\vec{u}+\vec{v}=(1; 3; 3)$. $3\vec{u}=(6; -3; 9)$, $2\vec{v}=(-2; 8; 0)$, nên $3\vec{u}-2\vec{v}=(8; -11; 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+Với $\vec{a}=(a_1; a_2; a_3)$ và $\vec{b}=(b_1; b_2; b_3)$, ta có $\vec{a}+\vec{b}=(a_1+b_1; a_2+b_2; a_3+b_3)$, $k\vec{a}=(ka_1; ka_2; ka_3)$ và $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2+a_3b_3$.
+
+Tổng hai vectơ: với $\vec{u}=(2; -1; 3)$ và $\vec{v}=(-1; 4; 0)$, ta có
+$$\vec{u}+\vec{v}=(2+(-1); -1+4; 3+0)=(1; 3; 3).$$
+
+Hiệu $3\vec{u}-2\vec{v}$: ta có $3\vec{u}=(6; -3; 9)$ và $2\vec{v}=(-2; 8; 0)$, nên
+$$3\vec{u}-2\vec{v}=(6-(-2); -3-8; 9-0)=(8; -11; 9).$$
+
+Tích vô hướng:
+$$\vec{u}\cdot\vec{v}=2\cdot(-1)+(-1)\cdot4+3\cdot0=-2-4+0=-6.$$
+
+Vậy $\vec{u}+\vec{v}=(1; 3; 3)$, $3\vec{u}-2\vec{v}=(8; -11; 9)$ và $\vec{u}\cdot\vec{v}=-6$.
 
 **Đáp số.** $(1; 3; 3)$; $(8; -11; 9)$; $-6$.
 :::
@@ -227,7 +238,15 @@ Cho $\vec{a}=(2; -3; 6)$. Tính $|\vec{a}|$ và tìm vectơ $\vec{e}$ cùng hư�
 2. Chia từng toạ độ cho $|\vec{a}|$.
 
 ::solution
-$|\vec{a}|=\sqrt{4+9+36}=7$, nên $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
+Độ dài của $\vec{a}=(a_1; a_2; a_3)$ là $|\vec{a}|=\sqrt{a_1^2+a_2^2+a_3^2}$. Với $\vec{a}=(2; -3; 6)$, ta có
+$$|\vec{a}|=\sqrt{2^2+(-3)^2+6^2}=\sqrt{4+9+36}=\sqrt{49}=7.$$
+
+Vectơ cùng hướng với $\vec{a}$ có độ dài bằng $1$ là $\vec{e}=\dfrac{1}{|\vec{a}|}\vec{a}$ (nhân $\vec{a}$ với số dương $\dfrac17$ thì được vectơ cùng hướng). Do đó
+$$\vec{e}=\frac17\vec{a}=\left(\frac27; -\frac37; \frac67\right).$$
+
+Kiểm tra: $|\vec{e}|^2=\dfrac{4}{49}+\dfrac{9}{49}+\dfrac{36}{49}=1$, nên $|\vec{e}|=1$.
+
+Vậy $|\vec{a}|=7$ và $\vec{e}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
 
 **Đáp số.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
 :::
@@ -243,7 +262,18 @@ Tính góc giữa hai vectơ $\vec{a}=(1; 1; 0)$ và $\vec{b}=(0; 1; 1)$.
 2. Tìm góc có cosin bằng kết quả.
 
 ::solution
-$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+Góc giữa hai vectơ khác $\vec{0}$ được tính bởi công thức
+$$\cos(\vec{a}, \vec{b})=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}.$$
+
+Với $\vec{a}=(1; 1; 0)$ và $\vec{b}=(0; 1; 1)$, ta có
+$$\vec{a}\cdot\vec{b}=1\cdot0+1\cdot1+0\cdot1=1,\qquad |\vec{a}|=\sqrt{1+1+0}=\sqrt2,\qquad |\vec{b}|=\sqrt{0+1+1}=\sqrt2.$$
+
+Thay vào công thức, ta được
+$$\cos(\vec{a}, \vec{b})=\frac{1}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Vì góc giữa hai vectơ thuộc đoạn $[0^\circ; 180^\circ]$ và $\cos60^\circ=\dfrac12$ nên $(\vec{a}, \vec{b})=60^\circ$.
+
+Vậy góc giữa hai vectơ $\vec{a}$ và $\vec{b}$ bằng $60^\circ$.
 
 **Đáp số.** $60^\circ$.
 :::
@@ -259,7 +289,15 @@ Trong ba vectơ $\vec{u}=(1; 2; -1)$, $\vec{v}=(3; -1; 1)$, $\vec{w}=(1; 1; 3)$,
 2. Chọn những tích bằng $0$.
 
 ::solution
-$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+Hai vectơ khác $\vec{0}$ vuông góc với nhau khi và chỉ khi tích vô hướng của chúng bằng $0$. Ta tính tích vô hướng của từng cặp trong ba vectơ $\vec{u}=(1; 2; -1)$, $\vec{v}=(3; -1; 1)$, $\vec{w}=(1; 1; 3)$.
+
+Cặp $\vec{u}$, $\vec{v}$: $\vec{u}\cdot\vec{v}=1\cdot3+2\cdot(-1)+(-1)\cdot1=3-2-1=0$.
+
+Cặp $\vec{u}$, $\vec{w}$: $\vec{u}\cdot\vec{w}=1\cdot1+2\cdot1+(-1)\cdot3=1+2-3=0$.
+
+Cặp $\vec{v}$, $\vec{w}$: $\vec{v}\cdot\vec{w}=3\cdot1+(-1)\cdot1+1\cdot3=3-1+3=5\ne0$.
+
+Vậy $\vec{u}\perp\vec{v}$ và $\vec{u}\perp\vec{w}$; hai vectơ $\vec{v}$ và $\vec{w}$ không vuông góc.
 
 **Đáp số.** $\vec{u}\perp\vec{v}$ và $\vec{u}\perp\vec{w}$; $\vec{v}$ và $\vec{w}$ không vuông góc.
 :::
@@ -275,7 +313,18 @@ Tìm $x$, $y$ để hai vectơ $\vec{a}=(1; x; 3)$ và $\vec{b}=(-2; 4; y)$ cùn
 2. Dùng $k$ cho hai toạ độ còn lại.
 
 ::solution
-$k=-2$. Khi đó $4=-2x$ nên $x=-2$, và $y=-2\cdot3=-6$.
+Vì $\vec{a}=(1; x; 3)\ne\vec{0}$ nên $\vec{a}$ và $\vec{b}$ cùng phương khi và chỉ khi tồn tại số thực $k$ sao cho $\vec{b}=k\vec{a}$, tức là
+$$(-2; 4; y)=(k; kx; 3k).$$
+
+Cân bằng các toạ độ tương ứng, ta có $-2=k$, $4=kx$ và $y=3k$.
+
+Từ $k=-2$, thay vào $4=kx$, ta được $4=-2x$, suy ra $x=-2$.
+
+Thay $k=-2$ vào $y=3k$, ta được $y=3\cdot(-2)=-6$.
+
+Kiểm tra: với $x=-2$, $y=-6$ thì $\vec{a}=(1; -2; 3)$, $\vec{b}=(-2; 4; -6)=-2\vec{a}$.
+
+Vậy $x=-2$ và $y=-6$.
 
 **Đáp số.** $x=-2$, $y=-6$.
 :::
@@ -291,8 +340,19 @@ Cho $A(3; 2; -1)$, $B(1; 1; 1)$, $C(2; 3; 3)$. Chứng minh tam giác $ABC$ vuô
 2. Tính $BA$, $BC$.
 
 ::solution
-$$\overrightarrow{BA}=(2; 1; -2),\quad \overrightarrow{BC}=(1; 2; 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
-$BA=BC=3$, nên $S=\dfrac12\cdot3\cdot3=4{,}5$.
+Ta tính các vectơ có điểm đầu $B$:
+$$\overrightarrow{BA}=(3-1; 2-1; -1-1)=(2; 1; -2),\qquad \overrightarrow{BC}=(2-1; 3-1; 3-1)=(1; 2; 2).$$
+
+Chứng minh tam giác vuông tại $B$: ta có
+$$\overrightarrow{BA}\cdot\overrightarrow{BC}=2\cdot1+1\cdot2+(-2)\cdot2=2+2-4=0.$$
+Hai vectơ $\overrightarrow{BA}$, $\overrightarrow{BC}$ đều khác $\vec{0}$ và có tích vô hướng bằng $0$ nên $BA\perp BC$. Do đó tam giác $ABC$ vuông tại $B$.
+
+Tính diện tích: ta có
+$$BA=\sqrt{2^2+1^2+(-2)^2}=\sqrt9=3,\qquad BC=\sqrt{1^2+2^2+2^2}=\sqrt9=3.$$
+Vì $BA=BC$ nên tam giác $ABC$ vuông cân tại $B$. Diện tích tam giác vuông tại $B$ là
+$$S=\frac12\cdot BA\cdot BC=\frac12\cdot3\cdot3=4{,}5.$$
+
+Vậy tam giác $ABC$ vuông (và cân) tại $B$ và có diện tích $S=4{,}5$.
 
 **Đáp số.** Tam giác vuông (và cân) tại $B$; $S=4{,}5$.
 :::
@@ -317,13 +377,17 @@ d) $|\vec{a}+\vec{b}|=6$.
 3. Tính $\vec{a}+\vec{b}$ rồi độ dài của nó.
 
 ::solution
-a) **Đúng.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+Với $\vec{a}=(1; -2; 2)$ và $\vec{b}=(2; 2; 1)$, ta xét từng khẳng định.
 
-b) **Đúng.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
+a) **Đúng.** Ta có $|\vec{a}|=\sqrt{1^2+(-2)^2+2^2}=\sqrt{1+4+4}=\sqrt9=3$.
 
-c) **Sai.** $\vec{a}-\vec{b}=(1-2;\ -2-2;\ 2-1)=(-1; -4; 1)$.
+b) **Đúng.** Ta có $\vec{a}\cdot\vec{b}=1\cdot2+(-2)\cdot2+2\cdot1=2-4+2=0$. Hai vectơ khác $\vec{0}$ có tích vô hướng bằng $0$ nên $\vec{a}\perp\vec{b}$.
 
-d) **Sai.** $\vec{a}+\vec{b}=(3; 0; 3)$, nên $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4{,}24$.
+c) **Sai.** Ta có $\vec{a}-\vec{b}=(1-2;\ -2-2;\ 2-1)=(-1; -4; 1)$, trong khi khẳng định cho toạ độ thứ ba là $3$. Hai vectơ này khác nhau.
+
+d) **Sai.** Ta có $\vec{a}+\vec{b}=(3; 0; 3)$, nên $|\vec{a}+\vec{b}|=\sqrt{9+0+9}=\sqrt{18}=3\sqrt2\approx4{,}24$, khác $6$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -339,9 +403,18 @@ Một người kéo một chiếc xe trượt bằng lực $\vec{F}=(10; 5; -2)$
 2. Tính $|\vec{F}|$, $|\vec{d}|$ rồi cosin của góc.
 
 ::solution
-$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
-$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0{,}880,\qquad (\vec{F}, \vec{d})\approx28{,}3^\circ.$$
-(Công của lực là $50$ J.)
+Góc $\varphi$ giữa lực kéo $\vec{F}$ và hướng dịch chuyển $\vec{d}$ chính là góc giữa hai vectơ $\vec{F}$ và $\vec{d}$, được tính bởi $\cos\varphi=\dfrac{\vec{F}\cdot\vec{d}}{|\vec{F}|\cdot|\vec{d}|}$.
+
+Với $\vec{F}=(10; 5; -2)$ và $\vec{d}=(3; 4; 0)$, ta có
+$$\vec{F}\cdot\vec{d}=10\cdot3+5\cdot4+(-2)\cdot0=30+20+0=50,$$
+$$|\vec{F}|=\sqrt{10^2+5^2+(-2)^2}=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=\sqrt{3^2+4^2+0^2}=5.$$
+
+Thay vào công thức, ta được
+$$\cos\varphi=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0{,}880.$$
+
+Suy ra $\varphi\approx28{,}3^\circ$, làm tròn đến hàng đơn vị là $28^\circ$. (Công của lực là $\vec{F}\cdot\vec{d}=50$ J.)
+
+Vậy góc giữa lực kéo và hướng dịch chuyển xấp xỉ $28^\circ$.
 
 **Đáp số.** $28$.
 :::
@@ -357,7 +430,20 @@ $$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0{,}
 2. Tính cosin.
 
 ::solution
-$$\overrightarrow{AC}=(1; 1; 0),\qquad \overrightarrow{A'D}=(0; 1; -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+Đặt hệ toạ độ $Oxyz$ với $A$ ở gốc, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Vì $ABCD$ là hình vuông cạnh $1$ nên $C(1; 1; 0)$.
+
+Ta có các vectơ
+$$\overrightarrow{AC}=(1; 1; 0),\qquad \overrightarrow{A'D}=(0-0; 1-0; 0-1)=(0; 1; -1).$$
+
+Tích vô hướng và độ dài của chúng là
+$$\overrightarrow{AC}\cdot\overrightarrow{A'D}=1\cdot0+1\cdot1+0\cdot(-1)=1,\qquad |\overrightarrow{AC}|=\sqrt{1+1+0}=\sqrt2,\qquad |\overrightarrow{A'D}|=\sqrt{0+1+1}=\sqrt2.$$
+
+Do đó
+$$\cos\left(\overrightarrow{AC}, \overrightarrow{A'D}\right)=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Vì $\cos60^\circ=\dfrac12$ nên góc giữa $\overrightarrow{AC}$ và $\overrightarrow{A'D}$ bằng $60^\circ$.
+
+Vậy góc giữa $\overrightarrow{AC}$ và $\overrightarrow{A'D}$ bằng $60^\circ$, trùng với kết quả của bài trước.
 
 **Đáp số.** $60^\circ$, trùng với kết quả của bài trước.
 :::
@@ -373,9 +459,18 @@ Cho $A(2; 1; 1)$ và $B(4; -1; 1)$. Tìm các điểm $M$ trên trục $Ox$ sao 
 2. Lập phương trình tích vô hướng bằng $0$ và giải.
 
 ::solution
-$\overrightarrow{MA}=(2-t; 1; 1)$, $\overrightarrow{MB}=(4-t; -1; 1)$.
-$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{hoặc}\ t=4.$$
-**Kiểm tra.** Với $M(2; 0; 0)$: $(0; 1; 1)\cdot(2; -1; 1)=0$. Với $M(4; 0; 0)$: $(-2; 1; 1)\cdot(0; -1; 1)=0$.
+Vì $M$ thuộc trục $Ox$ nên ta gọi $M(t; 0; 0)$. Khi đó
+$$\overrightarrow{MA}=(2-t; 1; 1),\qquad \overrightarrow{MB}=(4-t; -1; 1).$$
+
+Các điểm của trục $Ox$ có cao độ bằng $0$, còn đường thẳng $AB$ nằm trong mặt phẳng $z=1$, nên $M$, $A$, $B$ không thẳng hàng và tam giác $MAB$ luôn tồn tại.
+
+Tam giác $MAB$ vuông tại $M$ khi và chỉ khi $\overrightarrow{MA}\cdot\overrightarrow{MB}=0$, tức là
+$$\begin{aligned}(2-t)(4-t)+1\cdot(-1)+1\cdot1&=0\\ (2-t)(4-t)-1+1&=0\\ (2-t)(4-t)&=0.\end{aligned}$$
+Suy ra $t=2$ hoặc $t=4$.
+
+Kiểm tra: với $M(2; 0; 0)$ ta có $\overrightarrow{MA}\cdot\overrightarrow{MB}=(0; 1; 1)\cdot(2; -1; 1)=0-1+1=0$. Với $M(4; 0; 0)$ ta có $\overrightarrow{MA}\cdot\overrightarrow{MB}=(-2; 1; 1)\cdot(0; -1; 1)=0-1+1=0$.
+
+Vậy có hai điểm cần tìm là $M(2; 0; 0)$ và $M(4; 0; 0)$.
 
 **Đáp số.** $M(2; 0; 0)$ hoặc $M(4; 0; 0)$.
 :::

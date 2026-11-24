@@ -194,8 +194,19 @@ Set out in columns and work out: $32\,140\times2$.
 2. Multiply place by place, starting with the ones.
 
 ::solution
+Solution
+
+We set out the multiplication in columns and multiply each digit of $32\,140$ by $2$, starting from the ones:
 $$\begin{array}{r} 32\,140 \\ \times\ 2 \\ \hline 64\,280 \end{array}$$
+- Ones: $0\times2=0$, write $0$.
+- Tens: $4\times2=8$, write $8$.
+- Hundreds: $1\times2=2$, write $2$.
+- Thousands: $2\times2=4$, write $4$.
+- Ten-thousands: $3\times2=6$, write $6$.
+
 No place has a product of $10$ or more, so nothing is regrouped.
+
+So $32\,140\times2=64\,280$.
 
 **Answer.** $64\,280$.
 :::
@@ -211,8 +222,19 @@ Set out in columns and work out: $17\,285\times4$.
 2. Multiply place by place, regrouping when needed.
 
 ::solution
+Solution
+
+We set out the multiplication in columns and multiply each digit of $17\,285$ by $4$, starting from the ones:
 $$\begin{array}{r} 17\,285 \\ \times\ 4 \\ \hline 69\,140 \end{array}$$
-Ones: $5\times4=20$, write $0$ and regroup $2$. Tens: $8\times4=32$, add $2$ to make $34$, write $4$ and regroup $3$. Hundreds: $2\times4=8$, add $3$ to make $11$, write $1$ and regroup $1$. Thousands: $7\times4=28$, add $1$ to make $29$, write $9$ and regroup $2$. Ten-thousands: $1\times4=4$, add $2$ to make $6$.
+- Ones: $5\times4=20$, write $0$ and regroup $2$.
+- Tens: $8\times4=32$, add $2$ to make $34$, write $4$ and regroup $3$.
+- Hundreds: $2\times4=8$, add $3$ to make $11$, write $1$ and regroup $1$.
+- Thousands: $7\times4=28$, add $1$ to make $29$, write $9$ and regroup $2$.
+- Ten-thousands: $1\times4=4$, add $2$ to make $6$, write $6$.
+
+*Check.* $17\,000\times4=68\,000$ and $285\times4=1\,140$; $68\,000+1\,140=69\,140$. Correct.
+
+So $17\,285\times4=69\,140$.
 
 **Answer.** $69\,140$.
 :::
@@ -228,7 +250,20 @@ Work out: $96\,840\div3$.
 2. Bring down each next digit and divide again.
 
 ::solution
-$9\div3=3$ (remainder $0$). Bring down $6$ to make $6$; $6\div3=2$ (remainder $0$). Bring down $8$ to make $8$; $8\div3=2$ (remainder $2$). Bring down $4$ to make $24$; $24\div3=8$ (remainder $0$). Bring down $0$ to make $0$; $0\div3=0$.
+Solution
+
+We divide $96\,840$ by $3$, starting from the ten-thousands:
+- $9\div3=3$ (remainder $0$), write $3$.
+- Bring down $6$ to make $6$; $6\div3=2$ (remainder $0$), write $2$.
+- Bring down $8$ to make $8$; $8\div3=2$ (remainder $2$), write $2$.
+- Bring down $4$ to make $24$; $24\div3=8$ (remainder $0$), write $8$.
+- Bring down $0$ to make $0$; $0\div3=0$, write $0$.
+
+The digits of the quotient, from left to right, are $3,\ 2,\ 2,\ 8,\ 0$.
+
+*Check.* $32\,280\times3=96\,840$. Correct.
+
+So $96\,840\div3=32\,280$.
 
 **Answer.** $32\,280$.
 :::
@@ -244,9 +279,20 @@ Work out: $52\,387\div4$.
 2. Bring down each digit, write the final remainder, then check.
 
 ::solution
-$5\div4=1$ (remainder $1$). Bring down $2$ to make $12$; $12\div4=3$ (remainder $0$). Bring down $3$ to make $3$; $3\div4=0$ (remainder $3$), write $0$. Bring down $8$ to make $38$; $38\div4=9$ (remainder $2$). Bring down $7$ to make $27$; $27\div4=6$ (remainder $3$).
+Solution
 
-**Check.** $13\,096\times4=52\,384$ and $52\,384+3=52\,387$. Correct.
+We divide $52\,387$ by $4$, starting from the ten-thousands:
+- $5\div4=1$ (remainder $1$), write $1$.
+- Bring down $2$ to make $12$; $12\div4=3$ (remainder $0$), write $3$.
+- Bring down $3$ to make $3$; $3\div4=0$ (remainder $3$), write $0$.
+- Bring down $8$ to make $38$; $38\div4=9$ (remainder $2$), write $9$.
+- Bring down $7$ to make $27$; $27\div4=6$ (remainder $3$), write $6$.
+
+The quotient is $13\,096$ and the remainder is $3$.
+
+*Check.* $13\,096\times4=52\,384$ and $52\,384+3=52\,387$. Correct.
+
+So $52\,387\div4=13\,096$ (remainder $3$).
 
 **Answer.** $13\,096$ (remainder $3$).
 :::
@@ -262,9 +308,17 @@ Find $x$: $x\div8=11\,250$.
 2. Set out the multiplication and work it out.
 
 ::solution
-$x=11\,250\times8=90\,000$.
+Solution
 
-**Check.** $90\,000\div8=11\,250$. Correct.
+In the division $x\div8=11\,250$, $x$ is the number being divided, $8$ is the divisor and $11\,250$ is the quotient. To find the number being divided, we multiply the quotient by the divisor:
+$$\begin{aligned}
+x&=11\,250\times8\\
+x&=90\,000.
+\end{aligned}$$
+
+*Check.* $90\,000\div8=11\,250$. Correct.
+
+So $x=90\,000$.
 
 **Answer.** $x=90\,000$.
 :::
@@ -283,8 +337,12 @@ A petrol station (made-up numbers) sells $12\,750$ litres of petrol every day. H
 ::solution
 Solution
 
-The number of litres sold in $6$ days is:
+The petrol station sells $12\,750$ litres of petrol every day, so the number of litres sold in $6$ days is:
 $$12\,750\times6=76\,500\ \text{(litres)}.$$
+
+*Check.* $12\,000\times6=72\,000$ and $750\times6=4\,500$; $72\,000+4\,500=76\,500$. Correct.
+
+So in $6$ days the petrol station sells $76\,500$ litres of petrol.
 
 **Answer.** $76\,500$ litres of petrol.
 :::
@@ -303,8 +361,12 @@ A rice store (made-up numbers) shares $93\,600$ kg of rice equally into $9$ larg
 ::solution
 Solution
 
-The number of kilograms in each large sack is:
+The store shares $93\,600$ kg of rice equally into $9$ large sacks, so the number of kilograms in each large sack is:
 $$93\,600\div9=10\,400\ \text{(kg)}.$$
+
+*Check.* $10\,400\times9=93\,600$. Correct.
+
+So each large sack holds $10\,400$ kg of rice.
 
 **Answer.** $10\,400$ kg of rice.
 :::
@@ -322,10 +384,15 @@ Remember the lesson on addition and subtraction within $100\,000$. A store has $
 ::solution
 Solution
 
-The number of kilograms sent out is:
+The store sends out $3$ loads of $15\,250$ kg each, so the number of kilograms sent out is:
 $$15\,250\times3=45\,750\ \text{(kg)}.$$
-The number of kilograms left is:
+
+The store had $80\,000$ kg of rice and sent out $45\,750$ kg, so the number of kilograms left is:
 $$80\,000-45\,750=34\,250\ \text{(kg)}.$$
+
+*Check.* $34\,250+45\,750=80\,000$. Correct.
+
+So $34\,250$ kg of rice are left in the store.
 
 **Answer.** $34\,250$ kg of rice.
 :::
@@ -359,10 +426,16 @@ A number divided by $8$ gives a quotient of $12\,345$ and a remainder of $7$. Fi
 2. Add the remainder $7$.
 
 ::solution
+Solution
+
+In a division with a remainder, the number being divided equals the quotient times the divisor, plus the remainder. The required number divided by $8$ gives a quotient of $12\,345$ and a remainder of $7$.
+
 We have $12\,345\times8=98\,760$. The number is:
 $$98\,760+7=98\,767.$$
 
-**Check.** $98\,767\div8=12\,345$ (remainder $7$). Correct.
+*Check.* $98\,767\div8=12\,345$ (remainder $7$). Correct.
+
+So the required number is $98\,767$.
 
 **Answer.** $98\,767$.
 :::

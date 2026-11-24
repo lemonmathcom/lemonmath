@@ -191,13 +191,23 @@ d) $y=x^2e^x$.
 2. Lấy đạo hàm của $y'$, dùng lại quy tắc nếu cần.
 
 ::solution
-a) $y'=5x^4-6x^2+1$ nên $y''=20x^3-12x$.
+Đạo hàm cấp hai của hàm số $y=f(x)$ là $y''=(y')'$. Ta dùng các công thức $(x^n)'=nx^{n-1}$, $\left(e^{kx}\right)'=ke^{kx}$, $(\ln u)'=\dfrac{u'}{u}$, $(uv)'=u'v+uv'$ và $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$.
 
-b) $y'=3e^{3x}$ nên $y''=9e^{3x}$.
+a) Hàm số xác định trên $\mathbb R$. Ta có $y'=5x^4-6x^2+1$. Suy ra
+$$y''=(5x^4-6x^2+1)'=20x^3-12x.$$
 
-c) $y'=\dfrac{2}{2x+1}$ nên $y''=\dfrac{0-2\cdot2}{(2x+1)^2}=-\dfrac{4}{(2x+1)^2}$.
+b) Ta có $y'=3e^{3x}$. Suy ra
+$$y''=3\cdot3e^{3x}=9e^{3x}.$$
 
-d) $y'=2xe^x+x^2e^x=(x^2+2x)e^x$ nên $y''=(2x+2)e^x+(x^2+2x)e^x=(x^2+4x+2)e^x$.
+c) Điều kiện xác định: $2x+1>0$, tức là $x>-\dfrac12$. Ta có $y'=\dfrac{2}{2x+1}$. Suy ra
+$$y''=\frac{0\cdot(2x+1)-2\cdot2}{(2x+1)^2}=-\frac{4}{(2x+1)^2}.$$
+
+d) Theo quy tắc đạo hàm của một tích, ta có
+$$y'=2xe^x+x^2e^x=(x^2+2x)e^x.$$
+Áp dụng tiếp quy tắc đó cho $y'$, ta được
+$$\begin{aligned}y''&=(2x+2)e^x+(x^2+2x)e^x\\&=(x^2+4x+2)e^x.\end{aligned}$$
+
+Vậy a) $y''=20x^3-12x$; b) $y''=9e^{3x}$; c) $y''=-\dfrac{4}{(2x+1)^2}$; d) $y''=(x^2+4x+2)e^x$.
 
 **Đáp số.** a) $20x^3-12x$; b) $9e^{3x}$; c) $-\dfrac4{(2x+1)^2}$; d) $(x^2+4x+2)e^x$.
 :::
@@ -221,13 +231,17 @@ d) $f''(0)$ với $f(x)=e^{-x}$.
 2. Thay $x$ đã cho.
 
 ::solution
-a) $f'(x)=3x^2-6x$, $f''(x)=6x-6$, nên $f''(2)=6$.
+Với mỗi hàm số, ta tính $f'(x)$, rồi $f''(x)$, rồi thay giá trị $x$ đã cho.
 
-b) $f''(x)=\dfrac2{x^3}$ nên $f''(2)=\dfrac28=\dfrac14$.
+a) Ta có $f'(x)=3x^2-6x$ và $f''(x)=6x-6$. Thay $x=2$, ta được $f''(2)=6\cdot2-6=6$.
 
-c) $f''(x)=-\dfrac1{x^2}$ nên $f''(e)=-\dfrac1{e^2}$.
+b) Điều kiện: $x\neq0$. Viết $f(x)=\dfrac1x=x^{-1}$, ta có $f'(x)=-\dfrac1{x^2}$ và $f''(x)=\dfrac{2}{x^3}$. Thay $x=2$, ta được $f''(2)=\dfrac28=\dfrac14$.
 
-d) $f'(x)=-e^{-x}$, $f''(x)=e^{-x}$, nên $f''(0)=1$.
+c) Điều kiện: $x>0$. Ta có $f'(x)=\dfrac1x$ và $f''(x)=-\dfrac1{x^2}$. Thay $x=e$ (thoả mãn điều kiện), ta được $f''(e)=-\dfrac1{e^2}$.
+
+d) Ta có $f'(x)=-e^{-x}$ và $f''(x)=e^{-x}$. Thay $x=0$, ta được $f''(0)=e^0=1$.
+
+Vậy a) $f''(2)=6$; b) $f''(2)=\dfrac14$; c) $f''(e)=-\dfrac1{e^2}$; d) $f''(0)=1$.
 
 **Đáp số.** a) $6$; b) $\dfrac14$; c) $-\dfrac1{e^2}$; d) $1$.
 :::
@@ -247,9 +261,17 @@ b) $f(x)=x^4-2x^2$.
 2. Giải các bất phương trình $f''(x)>0$ và $f''(x)<0$.
 
 ::solution
-a) $f'(x)=3x^2-12x+9$, $f''(x)=6x-12$. Vậy $f''>0$ khi $x>2$ và $f''<0$ khi $x<2$.
+Ta tính $f''(x)$ rồi xét dấu của nó. Cả hai hàm số đều xác định trên $\mathbb R$.
 
-b) $f'(x)=4x^3-4x$, $f''(x)=12x^2-4$. Vậy $f''>0$ khi $x^2>\dfrac13$, tức $|x|>\dfrac1{\sqrt3}$; $f''<0$ khi $|x|<\dfrac1{\sqrt3}$.
+a) Ta có $f'(x)=3x^2-12x+9$ và $f''(x)=6x-12$. Khi đó
+$$f''(x)>0\iff6x-12>0\iff x>2,$$
+$$f''(x)<0\iff6x-12<0\iff x<2.$$
+
+b) Ta có $f'(x)=4x^3-4x$ và $f''(x)=12x^2-4$. Khi đó
+$$f''(x)>0\iff x^2>\frac13\iff|x|>\frac1{\sqrt3},$$
+$$f''(x)<0\iff x^2<\frac13\iff|x|<\frac1{\sqrt3}.$$
+
+Vậy ở câu a), $f''>0$ khi $x>2$ và $f''<0$ khi $x<2$; ở câu b), $f''>0$ khi $|x|>\dfrac1{\sqrt3}$ và $f''<0$ khi $|x|<\dfrac1{\sqrt3}$.
 
 **Đáp số.** a) $f''>0$ khi $x>2$, $f''<0$ khi $x<2$; b) $f''>0$ khi $|x|>\dfrac1{\sqrt3}$, $f''<0$ khi $|x|<\dfrac1{\sqrt3}$.
 :::
@@ -269,11 +291,14 @@ b) Tìm thời điểm gia tốc bằng $0$ và vận tốc lúc đó.
 2. Thay giá trị rồi xét dấu.
 
 ::solution
-$v(t)=3t^2-6t+5$ và $a(t)=6t-6$.
+Vận tốc tức thời là đạo hàm cấp một của quãng đường, gia tốc tức thời là đạo hàm cấp hai: $v(t)=s'(t)$, $a(t)=s''(t)$, với $t\ge0$. Từ $s(t)=t^3-3t^2+5t$, ta có
+$$v(t)=3t^2-6t+5,\qquad a(t)=6t-6.$$
 
-a) $v(2)=12-12+5=5$ m/s và $a(2)=6$ m/s$^2$. Hai số cùng dương nên chuyển động nhanh dần.
+a) Thay $t=2$, ta được $v(2)=3\cdot4-6\cdot2+5=5$ (m/s) và $a(2)=6\cdot2-6=6$ (m/s$^2$). Vì $v(2)>0$ và $a(2)>0$ cùng dấu nên tại thời điểm $t=2$ chuyển động nhanh dần.
 
-b) $a(t)=0$ khi $t=1$, và $v(1)=3-6+5=2$ m/s.
+b) Giải $a(t)=0$, tức $6t-6=0$, ta được $t=1$ (thoả mãn $t\ge0$). Khi đó $v(1)=3-6+5=2$ (m/s).
+
+Vậy a) tại $t=2$ giây, vận tốc là $5$ m/s, gia tốc là $6$ m/s$^2$ và chuyển động nhanh dần; b) gia tốc bằng $0$ tại $t=1$ giây, lúc đó vận tốc là $2$ m/s.
 
 **Đáp số.** a) $v=5$ m/s, $a=6$ m/s$^2$, nhanh dần; b) $t=1$ giây, $v=2$ m/s.
 :::
@@ -293,11 +318,15 @@ b) Sau bao lâu bóng lên đến độ cao lớn nhất, và độ cao đó là
 2. Giải $v(t)=0$ rồi tính $s$.
 
 ::solution
-$v(t)=20-10t$ và $a(t)=-10$.
+Vận tốc là $v(t)=s'(t)$ và gia tốc là $a(t)=s''(t)$, với $t\ge0$. Từ $s(t)=20t-5t^2$, ta có
+$$v(t)=20-10t,\qquad a(t)=-10.$$
 
-a) $v(1)=10$ m/s và gia tốc là hằng số $a=-10$ m/s$^2$.
+a) Thay $t=1$, ta được $v(1)=20-10=10$ (m/s). Gia tốc là hằng số $a=-10$ (m/s$^2$) tại mọi thời điểm.
 
-b) $v(t)=0$ khi $t=2$, và $s(2)=40-20=20$ mét.
+b) Bóng lên đến độ cao lớn nhất khi vận tốc đổi dấu từ dương sang âm, tức là khi $v(t)=0$. Giải $20-10t=0$ ta được $t=2$. Với $0\le t<2$ thì $v(t)>0$ (bóng đang lên), với $t>2$ thì $v(t)<0$ (bóng đang xuống). Độ cao lớn nhất là
+$$s(2)=20\cdot2-5\cdot2^2=40-20=20\ \text{(m)}.$$
+
+Vậy a) $v(1)=10$ m/s và gia tốc là $-10$ m/s$^2$; b) sau $2$ giây bóng lên đến độ cao lớn nhất, bằng $20$ m.
 
 **Đáp số.** a) $v(1)=10$ m/s, $a=-10$ m/s$^2$; b) $t=2$ giây, độ cao $20$ m.
 :::
@@ -319,11 +348,17 @@ c) Từ tháng đó trở đi, doanh thu có giảm không?
 2. Giải $R''(t)=0$, tính $R'$ tại đó và xét dấu $R'$.
 
 ::solution
-a) $R'(t)=-3t^2+18t+10$ và $R''(t)=-6t+18$.
+Tốc độ tăng doanh thu là đạo hàm $R'(t)$; để biết $R'$ tăng hay giảm ta xét $R''(t)$. Xét $0\le t\le6$.
 
-b) $R''(t)=0$ khi $t=3$; $R''>0$ khi $t<3$ và $R''<0$ khi $t>3$ nên $R'$ tăng rồi giảm, và lớn nhất tại $t=3$. $R'(3)=-27+54+10=37$ (triệu đồng/tháng).
+a) Từ $R(t)=-t^3+9t^2+10t$, ta có
+$$R'(t)=-3t^2+18t+10,\qquad R''(t)=-6t+18.$$
 
-c) Trên $[0; 6]$ ta có $R'(0)=10$, $R'(3)=37$, $R'(6)=10$, đều dương nên doanh thu không giảm; sau tháng $3$ nó chỉ tăng chậm dần.
+b) Giải $R''(t)=0$, tức $-6t+18=0$, ta được $t=3$ (thuộc $[0; 6]$). Với $t<3$ thì $R''(t)>0$ nên $R'$ tăng; với $t>3$ thì $R''(t)<0$ nên $R'$ giảm. Do đó $R'$ đạt giá trị lớn nhất tại $t=3$, và
+$$R'(3)=-3\cdot9+18\cdot3+10=-27+54+10=37.$$
+
+c) Ta viết $R'(t)=-3(t-3)^2+37$. Với $t\in[0; 6]$ thì $(t-3)^2\le9$, nên $R'(t)\ge-27+37=10>0$. Cụ thể $R'(0)=10$, $R'(3)=37$, $R'(6)=10$. Vì $R'(t)>0$ nên doanh thu không giảm. Từ tháng $3$ trở đi, $R'$ giảm từ $37$ xuống $10$ nhưng vẫn dương, nên doanh thu vẫn tăng, chỉ tăng chậm dần.
+
+Vậy a) $R'(t)=-3t^2+18t+10$, $R''(t)=-6t+18$; b) tốc độ tăng doanh thu lớn nhất vào tháng $3$, bằng $37$ triệu đồng/tháng; c) từ tháng $3$ trở đi doanh thu không giảm, chỉ tăng chậm dần.
 
 **Đáp số.** a) $R'=-3t^2+18t+10$, $R''=-6t+18$; b) tháng $3$, $37$ triệu đồng/tháng; c) không giảm, chỉ tăng chậm dần.
 :::
@@ -347,13 +382,17 @@ d) $(\ln x)''=\dfrac1{x^2}$.
 2. Đối chiếu với mệnh đề.
 
 ::solution
-a) **Sai**: $\left(x^4\right)''=12x^2$.
+Ta xét từng mệnh đề bằng cách tính đạo hàm hoặc dùng ý nghĩa của vận tốc và gia tốc.
 
-b) **Đúng**: $\left(e^{2x}\right)'=2e^{2x}$ nên $\left(e^{2x}\right)''=4e^{2x}$.
+a) **Sai.** Ta có $\left(x^4\right)'=4x^3$, suy ra $\left(x^4\right)''=\left(4x^3\right)'=12x^2$. Vậy $4x^3$ là đạo hàm cấp một, không phải cấp hai.
 
-c) **Đúng**: tốc độ $|v|$ tăng khi $v$ và $a$ cùng dấu.
+b) **Đúng.** Ta có $\left(e^{2x}\right)'=2e^{2x}$, suy ra $\left(e^{2x}\right)''=2\cdot2e^{2x}=4e^{2x}$.
 
-d) **Sai**: $(\ln x)''=-\dfrac1{x^2}$.
+c) **Đúng.** Tốc độ của vật là $|v|$. Nếu $v>0$ và $a>0$ thì $|v|=v$ có đạo hàm $v'=a>0$ nên tăng. Nếu $v<0$ và $a<0$ thì $|v|=-v$ có đạo hàm $-v'=-a>0$ nên cũng tăng. Vậy khi $v$ và $a$ cùng dấu thì tốc độ tăng, tức chuyển động nhanh dần.
+
+d) **Sai.** Với $x>0$, ta có $(\ln x)'=\dfrac1x$, suy ra $(\ln x)''=-\dfrac1{x^2}$, khác $\dfrac1{x^2}$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -369,9 +408,15 @@ d) **Sai**: $(\ln x)''=-\dfrac1{x^2}$.
 2. Rút gọn thừa số $x-x_0$ rồi cho $x\to x_0$.
 
 ::solution
-$\dfrac{f'(x)-f'(x_0)}{x-x_0}=\dfrac{3x^2-3x_0^2}{x-x_0}=3(x+x_0)\to6x_0$ khi $x\to x_0$.
+Theo định nghĩa đạo hàm áp dụng cho hàm số $f'$ tại điểm $x_0$, ta có
+$$f''(x_0)=\lim_{x\to x_0}\frac{f'(x)-f'(x_0)}{x-x_0}.$$
 
-Vậy $f''(x_0)=6x_0$, tức $f''(x)=6x$.
+Với $f'(x)=3x^2$ và $x\neq x_0$, ta biến đổi
+$$\begin{aligned}\frac{f'(x)-f'(x_0)}{x-x_0}&=\frac{3x^2-3x_0^2}{x-x_0}\\&=\frac{3(x-x_0)(x+x_0)}{x-x_0}\\&=3(x+x_0).\end{aligned}$$
+
+Khi $x\to x_0$ thì $3(x+x_0)\to3\cdot2x_0=6x_0$. Do đó $f''(x_0)=6x_0$ với mọi $x_0$.
+
+Vậy $f''(x_0)=6x_0$, tức là $f''(x)=6x$.
 
 **Đáp số.** $f''(x)=6x$.
 :::
@@ -391,9 +436,15 @@ b) $y=2^x$.
 2. Đưa hằng số $\ln a$ ra ngoài.
 
 ::solution
-a) $y'=\dfrac{1}{x\ln2}$ nên $y''=\dfrac{1}{\ln2}\cdot\left(-\dfrac1{x^2}\right)=-\dfrac{1}{x^2\ln2}$.
+Ta dùng các công thức $(\log_ax)'=\dfrac{1}{x\ln a}$ (với $x>0$) và $\left(a^x\right)'=a^x\ln a$.
 
-b) $y'=2^x\ln2$ nên $y''=2^x(\ln2)^2$.
+a) Điều kiện xác định: $x>0$. Ta có $y'=\dfrac{1}{x\ln2}=\dfrac1{\ln2}\cdot x^{-1}$. Suy ra
+$$y''=\frac1{\ln2}\cdot\left(-\frac1{x^2}\right)=-\frac{1}{x^2\ln2}.$$
+
+b) Hàm số xác định trên $\mathbb R$. Ta có $y'=2^x\ln2$. Vì $\ln2$ là hằng số nên
+$$y''=\ln2\cdot\left(2^x\ln2\right)=2^x(\ln2)^2.$$
+
+Vậy a) $y''=-\dfrac{1}{x^2\ln2}$; b) $y''=2^x(\ln2)^2$.
 
 **Đáp số.** a) $-\dfrac1{x^2\ln2}$; b) $2^x(\ln2)^2$.
 :::
@@ -409,9 +460,20 @@ Chứng minh hàm số $y=Ae^x+Be^{-x}$ thoả mãn $y''=y$ với mọi hằng s
 2. Thay $x=0$ vào $y$ và $y'$ để lập hệ phương trình.
 
 ::solution
-$y'=Ae^x-Be^{-x}$ và $y''=Ae^x+Be^{-x}=y$, nên $y''=y$ với mọi $A$, $B$.
+Phần 1: chứng minh $y''=y$. Với hằng số $A$, $B$, hàm số $y=Ae^x+Be^{-x}$ xác định trên $\mathbb R$. Vì $\left(e^{x}\right)'=e^x$ và $\left(e^{-x}\right)'=-e^{-x}$ nên
+$$y'=Ae^x-Be^{-x}.$$
+Đạo hàm tiếp, ta được
+$$y''=Ae^x-B\left(-e^{-x}\right)=Ae^x+Be^{-x}=y.$$
+Vậy $y''=y$ với mọi hằng số $A$, $B$.
 
-Điều kiện $y(0)=2$ cho $A+B=2$; điều kiện $y'(0)=0$ cho $A-B=0$. Suy ra $A=B=1$.
+Phần 2: tìm $A$, $B$. Thay $x=0$ (chú ý $e^0=1$) vào $y$ và $y'$:
+$$y(0)=A+B=2,\qquad y'(0)=A-B=0.$$
+
+Từ $A-B=0$ suy ra $A=B$. Thay vào $A+B=2$, ta được $2A=2$, tức $A=1$ và $B=1$.
+
+Kiểm tra: với $y=e^x+e^{-x}$ ta có $y(0)=1+1=2$ và $y'(0)=1-1=0$ (thoả mãn).
+
+Vậy $y''=y$ với mọi $A$, $B$; và $A=B=1$, tức $y=e^x+e^{-x}$.
 
 **Đáp số.** $y''=y$; $A=B=1$, tức $y=e^x+e^{-x}$.
 :::

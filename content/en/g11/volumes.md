@@ -183,9 +183,12 @@ A cube has edge $4$. Find its volume. A cuboid has dimensions $3$, $4$, $12$: fi
 2. Find the diagonal, then the volume of the cuboid.
 
 ::solution
-Cube: $V=4^3=64$.
+A cube of edge $a$ has volume $V=a^3$. With $a=4$, we have $V=4^3=64$.
 
-Cuboid: the diagonal is $\sqrt{9+16+144}=\sqrt{169}=13$ and $V=3\cdot4\cdot12=144$.
+A cuboid with dimensions $a$, $b$, $c$ has space diagonal $d=\sqrt{a^2+b^2+c^2}$ and volume $V=abc$. With $a=3$, $b=4$, $c=12$, we have
+$$d=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13,\qquad V=3\cdot4\cdot12=144.$$
+
+So the cube has volume $64$; the cuboid has diagonal $13$ and volume $144$.
 
 **Answer.** $64$; diagonal $13$ and volume $144$.
 :::
@@ -201,7 +204,15 @@ A right prism has a base that is a right triangle with legs $3$ and $4$, and hei
 2. Multiply by the height.
 
 ::solution
-$B=\dfrac12\cdot3\cdot4=6$ and $V=6\cdot10=60$.
+The volume of a right prism is $V=B\cdot h$, where $B$ is the base area and $h$ is the height.
+
+The base is a right triangle with legs $3$ and $4$, so the base area is
+$$B=\frac12\cdot3\cdot4=6.$$
+
+The height is $h=10$, hence
+$$V=B\cdot h=6\cdot10=60.$$
+
+So the volume of the prism is $60$.
 
 **Answer.** $60$.
 :::
@@ -217,7 +228,15 @@ The tetrahedron $OABC$ has $OA$, $OB$, $OC$ mutually perpendicular and equal to 
 2. Use $V=\dfrac13Bh$ with $h=OA$.
 
 ::solution
-$B=\dfrac12\cdot6\cdot6=18$ and $h=OA=6$, so $V=\dfrac13\cdot18\cdot6=36$.
+Since $OA\perp OB$ and $OA\perp OC$, we have $OA\perp(OBC)$. So, taking $OBC$ as the base, $OA$ is the height of the tetrahedron: $h=OA=6$.
+
+Triangle $OBC$ is right-angled at $O$ (because $OB\perp OC$) with $OB=OC=6$, so the base area is
+$$B=\frac12\cdot6\cdot6=18.$$
+
+Using the volume formula for a pyramid $V=\dfrac13Bh$, we have
+$$V=\frac13\cdot18\cdot6=36.$$
+
+So the volume of the tetrahedron $OABC$ is $36$.
 
 **Answer.** $36$.
 :::
@@ -241,13 +260,15 @@ d) The volume of a frustum of a regular pyramid is $\dfrac13h(B+B')$.
 2. For part c, compute $(2a)^3$.
 
 ::solution
-a) **True**.
+a) **True.** The volume of a cuboid with dimensions $a$, $b$, $c$ is $V=abc$.
 
-b) **False**: the factor $\dfrac13$ is missing.
+b) **False.** The volume of a pyramid with base area $B$ and height $h$ is $V=\dfrac13Bh$, not $Bh$ (the formula $Bh$ is for a prism). The factor $\dfrac13$ is missing.
 
-c) **True**: $(2a)^3=8a^3$.
+c) **True.** Let the edge of the cube be $a$, so $V=a^3$. When the edge is doubled, the new volume is $(2a)^3=8a^3=8V$, that is $8$ times as large.
 
-d) **False**: the term $\sqrt{BB'}$ is missing.
+d) **False.** The volume of a frustum of a regular pyramid with bases $B$, $B'$ and height $h$ is $V=\dfrac13h\left(B+\sqrt{BB'}+B'\right)$. The given formula is missing the term $\sqrt{BB'}$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -263,7 +284,13 @@ Suppose a water tank is a cuboid with a base of $2$ m $\times1.5$ m and a height
 2. Divide by the pump rate.
 
 ::solution
-$V=2\cdot1.5\cdot1.2=3.6$ m$^3$. The time is $\dfrac{3.6}{0.6}=6$ minutes.
+The tank is a cuboid with a base of $2$ m $\times1.5$ m and a height of $1.2$ m. The volume of water it holds is
+$$V=2\cdot1.5\cdot1.2=3.6\ \text{m}^3.$$
+
+The pump fills the tank at $0.6$ m$^3$ per minute, so the time needed to fill it is
+$$\frac{V}{0.6}=\frac{3.6}{0.6}=6\ \text{(minutes)}.$$
+
+So the tank holds $3.6$ m$^3$ of water and the pump needs $6$ minutes to fill it.
 
 **Answer.** $3.6$ m$^3$; $6$ minutes.
 :::
@@ -279,7 +306,17 @@ Suppose a roof is shaped like a regular pyramid $S.ABCD$ whose base is a square 
 2. Use $V=\dfrac13Bh$.
 
 ::solution
-$OA=3\sqrt2$, so $SO=\sqrt{25-18}=\sqrt7$. The base area is $B=36$. So $V=\dfrac13\cdot36\cdot\sqrt7=12\sqrt7\approx31.7$ m$^3$.
+Let $O$ be the centre of the square $ABCD$. Since $S.ABCD$ is a regular pyramid, $SO\perp(ABCD)$, so $SO$ is the height of the pyramid.
+
+The base is a square of side $6$ m, so the diagonal is $AC=6\sqrt2$ and $OA=\dfrac{AC}{2}=3\sqrt2$ (m). The base area is $B=6^2=36$ m$^2$.
+
+Triangle $SOA$ is right-angled at $O$ with $SA=5$, so by Pythagoras' theorem,
+$$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7\ \text{(m)}.$$
+
+Using $V=\dfrac13Bh$, we have
+$$V=\frac13\cdot36\cdot\sqrt7=12\sqrt7\approx31.7\ \text{m}^3.$$
+
+So the volume of the space inside the roof is about $31.7$ m$^3$.
 
 **Answer.** About $31.7$ m$^3$.
 :::
@@ -295,7 +332,15 @@ A frustum of a regular pyramid has square bases of sides $10$ and $4$ and height
 2. Substitute into the formula.
 
 ::solution
-$B=100$, $B'=16$, $\sqrt{BB'}=40$. $V=\dfrac13\cdot6\cdot(100+40+16)=2\cdot156=312$.
+The volume of a frustum of a regular pyramid with bases $B$, $B'$ and height $h$ is $V=\dfrac13h\left(B+\sqrt{BB'}+B'\right)$.
+
+The bases are squares of sides $10$ and $4$, so
+$$B=10^2=100,\qquad B'=4^2=16,\qquad\sqrt{BB'}=\sqrt{1600}=40.$$
+
+With $h=6$, we have
+$$V=\frac13\cdot6\cdot(100+40+16)=2\cdot156=312.$$
+
+So the volume of the frustum is $312$.
 
 **Answer.** $312$.
 :::
@@ -311,7 +356,14 @@ Revisit percentages. The edge of a cube is increased by $10\%$. By what percenta
 2. Convert to a percentage increase.
 
 ::solution
-The volume ratio is $1.1^3=1.331$, an increase of $33.1\%$.
+Let $a$ be the original edge of the cube, so the original volume is $V=a^3$.
+
+The edge increases by $10\%$, so the new edge is $a'=a+0.1a=1.1a$. The new volume is
+$$V'=(1.1a)^3=1.1^3a^3=1.331\,a^3=1.331\,V.$$
+
+The volume ratio is $1.331$, that is the new volume is $133.1\%$ of the old one, an increase of $133.1\%-100\%=33.1\%$.
+
+So the volume of the cube increases by $33.1\%$.
 
 **Answer.** It increases by $33.1\%$.
 :::
@@ -327,7 +379,17 @@ The pyramid $S.ABCD$ has a rectangular base $ABCD$ with $AB=3$, $AD=4$, $SA\perp
 2. Use $V=\dfrac13Bh$.
 
 ::solution
-$AC=\sqrt{9+16}=5$. Since $\angle SCA=45^\circ$, triangle $SAC$ is right isosceles at $A$ and $SA=AC=5$. The base area is $B=3\cdot4=12$. So $V=\dfrac13\cdot12\cdot5=20$.
+Since $SA\perp(ABCD)$, the line $AC$ is the projection of $SC$ onto the plane $(ABCD)$. So the angle between $SC$ and the plane $(ABCD)$ is $\angle SCA=45^\circ$.
+
+The base $ABCD$ is a rectangle, so triangle $ABC$ is right-angled at $B$, hence
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{AB^2+AD^2}=\sqrt{9+16}=5.$$
+
+Since $SA\perp(ABCD)$, we have $SA\perp AC$, so triangle $SAC$ is right-angled at $A$. It has $\angle SCA=45^\circ$, so it is right isosceles at $A$, which gives $SA=AC=5$.
+
+The base area is $B=AB\cdot AD=3\cdot4=12$. The height of the pyramid is $SA=5$, so
+$$V=\frac13\cdot12\cdot5=20.$$
+
+So the volume of the pyramid $S.ABCD$ is $20$.
 
 **Answer.** $20$.
 :::

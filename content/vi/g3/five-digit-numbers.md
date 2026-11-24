@@ -191,7 +191,12 @@ Viết số: sáu mươi nghìn bảy trăm ba mươi hai.
 2. "Bảy trăm ba mươi hai" là số nào? Ghép hai phần lại.
 
 ::solution
-"Sáu mươi nghìn" là $60\,000$ và "bảy trăm ba mươi hai" là $732$. Ta có $60\,000+732=60\,732$.
+Ta viết từng phần của số rồi cộng lại.
+
+"Sáu mươi nghìn" là $60\,000$ và "bảy trăm ba mươi hai" là $732$. Ta có
+$$60\,000+732=60\,732.$$
+
+Vậy số cần viết là $60\,732$.
 
 **Đáp số.** $60\,732$.
 :::
@@ -207,7 +212,11 @@ Viết số: sáu mươi nghìn bảy trăm ba mươi hai.
 2. Đọc phần còn lại: $019$.
 
 ::solution
-Số $80\,019$ có $80$ nghìn, $0$ trăm, $1$ chục và $9$ đơn vị.
+Ta xem số $80\,019$ gồm những hàng nào: số $80\,019$ có $80$ nghìn, $0$ trăm, $1$ chục và $9$ đơn vị.
+
+Phần $80$ nghìn đọc là "tám mươi nghìn". Phần còn lại gồm $0$ trăm, $1$ chục, $9$ đơn vị, đọc là "không trăm mười chín".
+
+Vậy số $80\,019$ đọc là: tám mươi nghìn không trăm mười chín.
 
 **Đáp số.** Tám mươi nghìn không trăm mười chín.
 :::
@@ -223,8 +232,14 @@ Viết số $53\,092$ thành tổng các chục nghìn, nghìn, trăm, chục, �
 2. Bỏ qua hàng có chữ số $0$.
 
 ::solution
-Số $53\,092$ có $5$ chục nghìn, $3$ nghìn, $0$ trăm, $9$ chục và $2$ đơn vị. Ta có:
+Số $53\,092$ có $5$ chục nghìn, $3$ nghìn, $0$ trăm, $9$ chục và $2$ đơn vị.
+
+Giá trị của từng hàng là: $5$ chục nghìn là $50\,000$; $3$ nghìn là $3\,000$; $9$ chục là $90$; $2$ đơn vị là $2$. Hàng trăm là $0$ nên ta không viết vào tổng. Ta có
 $$53\,092=50\,000+3\,000+90+2.$$
+
+Kiểm tra: $50\,000+3\,000=53\,000$; $53\,000+90=53\,090$; $53\,090+2=53\,092$.
+
+Vậy $53\,092=50\,000+3\,000+90+2$.
 
 **Đáp số.** $50\,000+3\,000+90+2$.
 :::
@@ -240,7 +255,14 @@ Tìm số liền trước và số liền sau của $20\,000$.
 2. Tính $20\,000+1$.
 
 ::solution
-Số liền trước là $20\,000-1=19\,999$. Số liền sau là $20\,000+1=20\,001$.
+Hai số liền nhau hơn kém nhau $1$ đơn vị. Số liền trước bé hơn $20\,000$ một đơn vị, còn số liền sau lớn hơn $20\,000$ một đơn vị.
+
+Số liền trước của $20\,000$ là:
+$$20\,000-1=19\,999.$$
+Số liền sau của $20\,000$ là:
+$$20\,000+1=20\,001.$$
+
+Vậy số liền trước của $20\,000$ là $19\,999$ và số liền sau là $20\,001$.
 
 **Đáp số.** $19\,999$ và $20\,001$.
 :::
@@ -256,7 +278,13 @@ Số liền trước là $20\,000-1=19\,999$. Số liền sau là $20\,000+1=20\
 2. Tìm cặp chữ số đầu tiên khác nhau.
 
 ::solution
-Hai số đều có năm chữ số. Các hàng chục nghìn, nghìn, trăm đều bằng nhau. Hàng chục: $1<5$. Vậy $74\,215<74\,251$.
+Hai số $74\,215$ và $74\,251$ đều có năm chữ số. Ta so sánh từng cặp chữ số cùng hàng, từ trái sang phải.
+
+Hàng chục nghìn: $7=7$. Hàng nghìn: $4=4$. Hàng trăm: $2=2$. Các hàng này đều bằng nhau.
+
+Hàng chục: $1<5$.
+
+Vậy $74\,215<74\,251$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -273,7 +301,17 @@ Bốn huyện (số liệu giả định) có số dân lần lượt là $38\,5
 3. Với ba số bắt đầu bằng $38$, so sánh hàng trăm.
 
 ::solution
-Số $40\,125$ có chữ số hàng chục nghìn là $4$, lớn hơn $3$ của ba số còn lại. Ba số còn lại bắt đầu bằng $38$; so sánh hàng trăm: $5$, $4$ và $5$. Số $38\,450$ có hàng trăm bé nhất. Hai số $38\,540$ và $38\,504$ có hàng trăm bằng nhau, hàng chục là $4>0$. Ta có $38\,450<38\,504<38\,540<40\,125$.
+Ta so sánh bốn số $38\,540$, $38\,450$, $40\,125$ và $38\,504$.
+
+Số $40\,125$ có chữ số hàng chục nghìn là $4$, lớn hơn chữ số $3$ của ba số còn lại. Do đó $40\,125$ là số lớn nhất.
+
+Ba số còn lại đều bắt đầu bằng $38$; ta so sánh hàng trăm: $5$, $4$ và $5$. Số $38\,450$ có hàng trăm bé nhất nên là số bé nhất.
+
+Hai số $38\,540$ và $38\,504$ có hàng trăm bằng nhau. Ở hàng chục ta có $4>0$ nên $38\,540>38\,504$.
+
+Ta có $38\,450<38\,504<38\,540<40\,125$.
+
+Vậy huyện có $40\,125$ người đông dân nhất, huyện có $38\,450$ người ít dân nhất.
 
 **Đáp số.** Huyện có $40\,125$ người đông nhất, huyện có $38\,450$ người ít nhất.
 :::
@@ -291,10 +329,14 @@ Mai tiết kiệm được năm tờ $10\,000$ đồng và hai tờ $20\,000$ đ
 ::solution
 Bài giải
 
-Số tiền Mai đã có là:
+Mai có $5$ tờ $10\,000$ đồng và $2$ tờ $20\,000$ đồng nên số tiền Mai đã có là:
 $$5\times10\,000+2\times20\,000=50\,000+40\,000=90\,000\ \text{(đồng)}.$$
-Số tiền Mai còn thiếu là:
+Số tiền Mai còn thiếu để đủ $100\,000$ đồng là:
 $$100\,000-90\,000=10\,000\ \text{(đồng)}.$$
+
+Kiểm tra: $90\,000+10\,000=100\,000$.
+
+Vậy Mai còn thiếu $10\,000$ đồng.
 
 **Đáp số.** $10\,000$ đồng.
 :::
@@ -326,7 +368,17 @@ Tìm số lớn nhất và số bé nhất có năm chữ số mà tổng các c
 2. Số bé nhất: chữ số hàng chục nghìn là $1$, dồn phần còn lại vào hàng đơn vị.
 
 ::solution
-Số lớn nhất: chữ số hàng chục nghìn là $5$, các chữ số còn lại đều là $0$, được $50\,000$. Số bé nhất: chữ số hàng chục nghìn là $1$, các hàng còn lại cần có tổng $4$. Để số bé nhất, các hàng cao đều là $0$ và đặt $4$ ở hàng đơn vị, được $10\,004$.
+Các chữ số của số có năm chữ số đều không âm và tổng bằng $5$, nên mỗi chữ số không vượt quá $5$.
+
+Số lớn nhất: muốn số lớn nhất thì chữ số hàng chục nghìn phải lớn nhất, tức là bằng $5$. Khi đó tổng các chữ số còn lại là $5-5=0$, nên các chữ số còn lại đều là $0$. Ta được số $50\,000$.
+
+Số bé nhất: chữ số hàng chục nghìn của số có năm chữ số không thể là $0$, nên bé nhất là $1$. Khi đó các hàng còn lại cần có tổng $5-1=4$.
+
+Để số bé nhất, các hàng cao đều là $0$ và đặt cả $4$ ở hàng đơn vị. Ta được số $10\,004$.
+
+Kiểm tra: $5+0+0+0+0=5$ và $1+0+0+0+4=5$.
+
+Vậy số lớn nhất là $50\,000$ và số bé nhất là $10\,004$.
 
 **Đáp số.** $50\,000$ và $10\,004$.
 :::

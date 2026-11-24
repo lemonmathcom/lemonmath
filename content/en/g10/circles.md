@@ -213,7 +213,13 @@ Write the equation of the circle with centre $(-2, 3)$ and radius $4$.
 2. The right side is $R^2=16$.
 
 ::solution
-$(x+2)^2+(y-3)^2=4^2=16$.
+The circle with centre $I(a, b)$ and radius $R$ has equation $(x-a)^2+(y-b)^2=R^2$.
+
+For the centre $(-2, 3)$ we have $a=-2$, $b=3$; the radius is $R=4$. Substituting, we get
+$$(x-(-2))^2+(y-3)^2=4^2,$$
+that is, $(x+2)^2+(y-3)^2=16$.
+
+So the equation of the circle is $(x+2)^2+(y-3)^2=16$.
 
 **Answer.** $(x+2)^2+(y-3)^2=16$.
 :::
@@ -229,7 +235,15 @@ Find the centre and the radius of the circle $x^2+y^2-4x+6y-3=0$.
 2. Compute $a^2+b^2-c$.
 
 ::solution
-$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, so $R=4$.
+The equation $x^2+y^2-2ax-2by+c=0$ with the condition $a^2+b^2-c>0$ is the equation of a circle with centre $I(a, b)$ and radius $R=\sqrt{a^2+b^2-c}$.
+
+Comparing with $x^2+y^2-4x+6y-3=0$, we have $-2a=-4$, $-2b=6$ and $c=-3$. Hence $a=2$, $b=-3$, $c=-3$.
+
+We have $a^2+b^2-c=4+9+3=16>0$, so this is the equation of a circle, with $R=\sqrt{16}=4$.
+
+Check by completing the squares: $(x-2)^2+(y+3)^2=4+9+3=16$.
+
+So the circle has centre $I(2, -3)$ and radius $R=4$.
 
 **Answer.** Centre $(2, -3)$, $R=4$.
 :::
@@ -245,7 +259,15 @@ Is $x^2+y^2-2x+4y+6=0$ the equation of a circle?
 2. Find the sign of $a^2+b^2-c$.
 
 ::solution
-$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+The equation $x^2+y^2-2ax-2by+c=0$ is the equation of a circle if and only if $a^2+b^2-c>0$.
+
+Comparing with $x^2+y^2-2x+4y+6=0$, we have $-2a=-2$, $-2b=4$ and $c=6$. Hence $a=1$, $b=-2$, $c=6$.
+
+We have $a^2+b^2-c=1+4-6=-1<0$, so the condition is not satisfied.
+
+Check by completing the squares: the equation is equivalent to $(x-1)^2+(y+2)^2=-1$. The left side is non-negative while the right side is negative, so no point satisfies it.
+
+So $x^2+y^2-2x+4y+6=0$ is not the equation of a circle.
 
 **Answer.** It is not the equation of a circle.
 :::
@@ -262,7 +284,19 @@ Write the equation of the circle through the three points $O(0, 0)$, $A(6, 0)$ a
 3. Compute $R^2=a^2+b^2-c$.
 
 ::solution
-$O$: $c=0$. $A$: $36-12a=0$, so $a=3$. $B$: $64-16b=0$, so $b=4$. $R^2=9+16-0=25$.
+Let the equation of the required circle be $x^2+y^2-2ax-2by+c=0$ (with $a^2+b^2-c>0$).
+
+Since the circle passes through $O(0, 0)$, we have $0+0-0-0+c=0$, so $c=0$.
+
+Since the circle passes through $A(6, 0)$, we have $36+0-12a-0+c=0$. With $c=0$ this gives $36-12a=0$, so $a=3$.
+
+Since the circle passes through $B(0, 8)$, we have $0+64-0-16b+c=0$. With $c=0$ this gives $64-16b=0$, so $b=4$.
+
+Check the condition: $a^2+b^2-c=9+16-0=25>0$ (satisfied), so $R^2=25$ and $R=5$.
+
+Hence the circle has centre $I(3, 4)$, radius $5$ and equation $(x-3)^2+(y-4)^2=25$. Check: $(0-3)^2+(0-4)^2=25$; $(6-3)^2+(0-4)^2=25$; $(0-3)^2+(8-4)^2=25$.
+
+So the equation of the circle through $O$, $A$ and $B$ is $(x-3)^2+(y-4)^2=25$.
 
 **Answer.** $(x-3)^2+(y-4)^2=25$.
 :::
@@ -278,7 +312,16 @@ Write the equation of the tangent to the circle $x^2+y^2=25$ at the point $M(3, 
 2. Write the line through $M$ with $\vec{n}=\overrightarrow{OM}$.
 
 ::solution
-$3^2+4^2=25$, so $M$ is on the circle. $\overrightarrow{OM}=(3, 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+The circle $x^2+y^2=25$ has centre $O(0, 0)$ and radius $5$.
+
+Substituting the coordinates of $M(3, 4)$: $3^2+4^2=9+16=25$, so $M$ lies on the circle.
+
+The tangent to the circle at $M$ is the line through $M$ perpendicular to $OM$. Hence the tangent has normal vector $\overrightarrow{OM}=(3, 4)$.
+
+The equation of the tangent is
+$$3(x-3)+4(y-4)=0\iff3x+4y-9-16=0\iff3x+4y-25=0.$$
+
+So the tangent to the circle at $M(3, 4)$ has equation $3x+4y-25=0$.
 
 **Answer.** $3x+4y-25=0$.
 :::
@@ -303,15 +346,18 @@ d) The tangent to $(C)$ at $A$ has equation $3x+4y-30=0$.
 3. Compute $\overrightarrow{IA}$ and write the tangent.
 
 ::solution
-$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
+Comparing $(C): x^2+y^2-6x+2y-15=0$ with $x^2+y^2-2ax-2by+c=0$, we have $-2a=-6$, $-2b=2$, $c=-15$, so $a=3$, $b=-1$, $c=-15$. Then $a^2+b^2-c=9+1+15=25>0$.
 
-a) **True**: the centre is $(a, b)=(3, -1)$.
+a) **True.** The centre of $(C)$ is $I(a, b)=(3, -1)$.
 
-b) **False**: $R^2=25$, so $R=5$.
+b) **False.** The radius is $R=\sqrt{a^2+b^2-c}=\sqrt{25}=5$; the number $25$ is $R^2$, not $R$.
 
-c) **True**: $36+9-36+6-15=0$.
+c) **True.** Substituting $A(6, 3)$ into the left side: $6^2+3^2-6\cdot6+2\cdot3-15=36+9-36+6-15=0$, so $A$ lies on $(C)$.
 
-d) **True**: $\overrightarrow{IA}=(3, 4)$, and the tangent is $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
+d) **True.** Since $A$ lies on $(C)$, the tangent at $A$ is perpendicular to $IA$ and has normal vector $\overrightarrow{IA}=(6-3, 3-(-1))=(3, 4)$. The equation of the tangent is
+$$3(x-6)+4(y-3)=0\iff3x+4y-30=0.$$
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -327,7 +373,19 @@ The line $x+2y-5=0$ cuts the circle $x^2+y^2=25$ at two points $A$ and $B$. Find
 2. Substitute into the chord-length formula.
 
 ::solution
-$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, so $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8.94$. (Solving the system also gives $A(5, 0)$, $B(-3, 4)$ and $AB=\sqrt{64+16}=\sqrt{80}$.)
+The circle $x^2+y^2=25$ has centre $O(0, 0)$ and radius $R=5$.
+
+The distance from $O$ to the line $x+2y-5=0$ is
+$$d=\frac{|0+2\cdot0-5|}{\sqrt{1^2+2^2}}=\frac{5}{\sqrt5}=\sqrt5.$$
+
+Since $d=\sqrt5<5=R$, the line cuts the circle at two points $A$ and $B$. Let $H$ be the foot of the perpendicular from $O$ to the line; $H$ is the midpoint of $AB$. In the triangle $OHA$, right-angled at $H$, we have
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{R^2-d^2}=\sqrt{25-5}=\sqrt{20}.$$
+
+Hence $AB=2HA=2\sqrt{20}=4\sqrt5\approx8.94$.
+
+Check by solving the system: from $x=5-2y$, substituting into $x^2+y^2=25$ gives $(5-2y)^2+y^2=25\iff5y^2-20y=0$, so $y=0$ or $y=4$. The two intersection points are $A(5, 0)$ and $B(-3, 4)$, and then $AB=\sqrt{(5+3)^2+(0-4)^2}=\sqrt{64+16}=\sqrt{80}=4\sqrt5$ (this agrees).
+
+So the length $AB$ is $4\sqrt5$, which is $8.94$ rounded to two decimal places.
 
 **Answer.** $8.94$.
 :::
@@ -343,7 +401,15 @@ A Wi-Fi router stands at the point $I(2, 3)$ on a plan of a room (units: metres)
 2. Compare each one with $25$.
 
 ::solution
-$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
+The coverage area is the disc with centre $I(2, 3)$ and radius $5$ m. A point $P$ is inside the range when $IP<5$, outside when $IP>5$, and exactly on the edge when $IP=5$. Since $IP\ge0$, we compare $IP^2$ with $5^2=25$.
+
+For $A(5, 6)$: $IA^2=(5-2)^2+(6-3)^2=9+9=18<25$, so $IA<5$ (about $4.24$ m).
+
+For $B(7, 1)$: $IB^2=(7-2)^2+(1-3)^2=25+4=29>25$, so $IB>5$ (about $5.39$ m).
+
+For $C(-1, 7)$: $IC^2=(-1-2)^2+(7-3)^2=9+16=25$, so $IC=5$ m.
+
+So computer $A$ is inside the range, computer $B$ is outside, and computer $C$ is exactly on the edge.
 
 **Answer.** $A$ is inside the range, $B$ is outside, and $C$ is exactly on the edge.
 :::
@@ -360,7 +426,23 @@ Write the equation of the circle with centre $I(1, 2)$ that is tangent to the li
 3. Solve the system to find the point of tangency.
 
 ::solution
-$R=\dfrac{|3-8+15|}{5}=2$, so the circle is $(x-1)^2+(y-2)^2=4$. The line through $I$ perpendicular to $\Delta$: $x=1+3t$, $y=2-4t$. Substituting into $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, which gives $x=-\dfrac15$, $y=\dfrac{18}{5}$.
+The circle with centre $I(1, 2)$ is tangent to the line $\Delta$ when its radius equals the distance from $I$ to $\Delta$:
+$$R=d(I, \Delta)=\frac{|3\cdot1-4\cdot2+15|}{\sqrt{3^2+(-4)^2}}=\frac{|3-8+15|}{5}=\frac{10}{5}=2.$$
+
+Hence the equation of the circle is $(x-1)^2+(y-2)^2=2^2=4$.
+
+The point of tangency $H$ is the foot of the perpendicular from $I$ to $\Delta$. The line $\Delta$ has normal vector $\vec n=(3, -4)$, so the line through $I$ perpendicular to $\Delta$ has direction vector $\vec n$. Its parametric equations are
+$$x=1+3t,\qquad y=2-4t.$$
+
+The coordinates of $H$ correspond to the value of $t$ that satisfies the equation of $\Delta$. Substituting into $\Delta$:
+$$3(1+3t)-4(2-4t)+15=0\iff3+9t-8+16t+15=0\iff25t+10=0\iff t=-\frac25.$$
+
+It follows that
+$$x=1+3\cdot\left(-\frac25\right)=-\frac15,\qquad y=2-4\cdot\left(-\frac25\right)=\frac{18}{5}.$$
+
+Check: $3\cdot\left(-\dfrac15\right)-4\cdot\dfrac{18}{5}+15=\dfrac{-3-72+75}{5}=0$, so $H$ lies on $\Delta$; and $IH^2=\left(-\dfrac15-1\right)^2+\left(\dfrac{18}{5}-2\right)^2=\dfrac{36}{25}+\dfrac{64}{25}=4$, so $IH=2=R$.
+
+So the circle is $(x-1)^2+(y-2)^2=4$ and the point of tangency is $\left(-\dfrac15, \dfrac{18}{5}\right)$.
 
 **Answer.** $(x-1)^2+(y-2)^2=4$; point of tangency $\left(-\dfrac15, \dfrac{18}{5}\right)$.
 :::
@@ -377,7 +459,18 @@ Write the equation of the circle through $A(1, 1)$ and $B(5, 3)$ whose centre li
 3. Compute $R^2=IA^2$.
 
 ::solution
-Midpoint $(3, 2)$, $\overrightarrow{AB}=(4, 2)$: the perpendicular bisector is $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. For $y=0$: $x=4$, so the centre is $I(4, 0)$. $R^2=IA^2=9+1=10$ (and $IB^2=1+9=10$).
+Let $I$ be the centre of the required circle. Since the circle passes through $A$ and $B$, we have $IA=IB$, so $I$ lies on the perpendicular bisector of the segment $AB$. Moreover, $I$ lies on the $x$-axis, that is $y_I=0$.
+
+The midpoint of $AB$ is $\left(\dfrac{1+5}{2}, \dfrac{1+3}{2}\right)=(3, 2)$ and $\overrightarrow{AB}=(5-1, 3-1)=(4, 2)$.
+
+The perpendicular bisector of $AB$ passes through $(3, 2)$ and has normal vector $\overrightarrow{AB}=(4, 2)$, so its equation is
+$$4(x-3)+2(y-2)=0\iff4x+2y-16=0\iff2x+y-8=0.$$
+
+Since $I$ lies on the $x$-axis, $y=0$. Substituting into the equation above: $2x-8=0$, so $x=4$. Hence $I(4, 0)$.
+
+The radius satisfies $R^2=IA^2=(1-4)^2+(1-0)^2=9+1=10$. Check: $IB^2=(5-4)^2+(3-0)^2=1+9=10$ (equal to $IA^2$).
+
+So the equation of the circle is $(x-4)^2+y^2=10$.
 
 **Answer.** $(x-4)^2+y^2=10$.
 :::

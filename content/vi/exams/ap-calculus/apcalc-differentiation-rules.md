@@ -138,7 +138,15 @@ D. Giới hạn không tồn tại.
 2. $f'(x)=\cos x$.
 
 ::solution
-Giới hạn bằng $\cos\dfrac{\pi}{2}=0$: đáp án **B**.
+Đặt $f(x)=\sin x$. Vì $f\left(\dfrac{\pi}{2}\right)=\sin\dfrac{\pi}{2}=1$ nên theo định nghĩa đạo hàm tại $x=\dfrac{\pi}{2}$, ta có
+$$f'\left(\frac{\pi}{2}\right)=\lim_{h\to0}\frac{f\left(\frac{\pi}{2}+h\right)-f\left(\frac{\pi}{2}\right)}{h}=\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}.$$
+
+Do đó giới hạn đã cho chính là $f'\left(\dfrac{\pi}{2}\right)$. Vì $f'(x)=\cos x$ nên
+$$f'\left(\frac{\pi}{2}\right)=\cos\frac{\pi}{2}=0.$$
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -152,7 +160,17 @@ Với $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, tính $g'(1)$.
 2. Thay $x=1$.
 
 ::solution
-$g'(x)=20x^3-6x-8x^{-3}$, nên $g'(1)=20-6-8=6$.
+Viết lại $g(x)=5x^4-3x^2+4x^{-2}$ để áp dụng quy tắc đạo hàm của luỹ thừa $\left(x^n\right)'=nx^{n-1}$.
+
+Ta có
+$$g'(x)=5\cdot4x^3-3\cdot2x+4\cdot(-2)x^{-3}=20x^3-6x-8x^{-3}.$$
+
+Thay $x=1$ vào, ta được
+$$g'(1)=20-6-8=6.$$
+
+Vậy $g'(1)=6$.
+
+**Đáp số.** $6$.
 :::
 
 :::exercise Trắc nghiệm
@@ -169,7 +187,15 @@ D. $1$
 1. $f'(x)=e^x+xe^x$.
 
 ::solution
-$f'(0)=1+0=1$: đáp án **D**.
+Áp dụng quy tắc đạo hàm của một tích $(uv)'=u'v+uv'$ với $u=x$ và $v=e^x$, ta có
+$$f'(x)=(x)'e^x+x\left(e^x\right)'=e^x+xe^x.$$
+
+Thay $x=0$ vào, ta được
+$$f'(0)=e^0+0\cdot e^0=1+0=1.$$
+
+Vậy chọn **D**.
+
+**Đáp số.** D.
 :::
 
 :::exercise Tự luận
@@ -183,7 +209,23 @@ Với $f(x)=\dfrac{x}{x^2+1}$, tính $f'(1)$ và giải thích ý nghĩa.
 2. Thay $x=1$.
 
 ::solution
-$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, nên $f'(1)=0$: tiếp tuyến tại $x=1$ nằm ngang. Thật ra $f$ đạt giá trị lớn nhất $\dfrac12$ tại đó.
+Vì $x^2+1>0$ với mọi $x$ nên hàm số xác định trên $\mathbb{R}$.
+
+Áp dụng quy tắc đạo hàm của một thương $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$ với $u=x$ và $v=x^2+1$, ta có
+$$f'(x)=\frac{1\cdot\left(x^2+1\right)-x\cdot2x}{\left(x^2+1\right)^2}=\frac{1-x^2}{\left(x^2+1\right)^2}.$$
+
+Thay $x=1$ vào, ta được
+$$f'(1)=\frac{1-1^2}{\left(1^2+1\right)^2}=0.$$
+
+Ý nghĩa: $f'(1)$ là hệ số góc của tiếp tuyến của đồ thị tại điểm có hoành độ $x=1$. Vì $f'(1)=0$ nên tiếp tuyến tại đó nằm ngang.
+
+Thật ra, $f(1)=\dfrac12$ và với mọi $x$ ta có
+$$\frac12-f(x)=\frac{x^2+1-2x}{2\left(x^2+1\right)}=\frac{(x-1)^2}{2\left(x^2+1\right)}\ge0,$$
+nên $f(x)\le\dfrac12$. Do đó $f$ đạt giá trị lớn nhất $\dfrac12$ tại $x=1$.
+
+Vậy $f'(1)=0$: tiếp tuyến của đồ thị tại $x=1$ nằm ngang, và $f$ đạt giá trị lớn nhất $\dfrac12$ tại điểm đó.
+
+**Đáp số.** $f'(1)=0$; tiếp tuyến tại $x=1$ nằm ngang.
 :::
 
 :::exercise Tự luận
@@ -196,7 +238,16 @@ Viết phương trình tiếp tuyến của $y=\ln x$ tại $x=1$.
 1. $\ln1=0$ và $\left.\dfrac1x\right|_{x=1}=1$.
 
 ::solution
-$y=0+1\cdot(x-1)$, tức là $y=x-1$.
+Hàm số $y=\ln x$ xác định với $x>0$ và có đạo hàm $y'=\dfrac1x$.
+
+Tại $x=1$, ta có $y(1)=\ln1=0$ và $y'(1)=\dfrac11=1$.
+
+Phương trình tiếp tuyến tại điểm có hoành độ $x_0$ là $y=y(x_0)+y'(x_0)(x-x_0)$. Với $x_0=1$, ta được
+$$y=0+1\cdot(x-1),\ \text{tức là}\ y=x-1.$$
+
+Vậy tiếp tuyến của đồ thị $y=\ln x$ tại $x=1$ có phương trình $y=x-1$.
+
+**Đáp số.** $y=x-1$.
 :::
 
 ## Bài tập vận dụng
@@ -212,7 +263,17 @@ Một chất điểm chuyển động trên một đường thẳng với vị t
 2. Giải $v(t)=0$.
 
 ::solution
-$3(t^2-4t+3)=3(t-1)(t-3)=0$, nên chất điểm đứng yên tại $t=1$ và $t=3$.
+Vận tốc của chất điểm tại thời điểm $t$ là
+$$v(t)=s'(t)=3t^2-12t+9.$$
+
+Chất điểm đứng yên khi $v(t)=0$ (với $t\ge0$). Ta có
+$$\begin{aligned}3t^2-12t+9=0&\iff3\left(t^2-4t+3\right)=0\\&\iff3(t-1)(t-3)=0\\&\iff t=1\ \text{hoặc}\ t=3.\end{aligned}$$
+
+Cả hai giá trị đều thoả mãn điều kiện $t\ge0$.
+
+Vậy chất điểm đứng yên tại các thời điểm $t=1$ và $t=3$.
+
+**Đáp số.** $t=1$ và $t=3$.
 :::
 
 :::exercise Tiếp tuyến nằm ngang
@@ -226,7 +287,17 @@ Tìm các điểm trên đồ thị $y=x^3-3x$ mà tại đó tiếp tuyến n�
 2. Giải, rồi tìm các giá trị $y$.
 
 ::solution
-$3x^2-3=0$ cho $x=\pm1$. Các điểm là $(1, -2)$ và $(-1, 2)$.
+Ta có $y'=3x^2-3$. Tiếp tuyến tại điểm có hoành độ $x$ nằm ngang khi và chỉ khi hệ số góc $y'=0$.
+
+Giải phương trình
+$$3x^2-3=0\iff x^2=1\iff x=1\ \text{hoặc}\ x=-1.$$
+
+Tính tung độ các điểm tương ứng:
+$$y(1)=1^3-3\cdot1=-2,\qquad y(-1)=(-1)^3-3\cdot(-1)=-1+3=2.$$
+
+Vậy các điểm trên đồ thị có tiếp tuyến nằm ngang là $(1; -2)$ và $(-1; 2)$.
+
+**Đáp số.** $(1; -2)$ và $(-1; 2)$.
 :::
 
 :::exercise Dùng bảng giá trị
@@ -245,7 +316,15 @@ Bảng cho giá trị của các hàm số có đạo hàm $f$ và $g$ tại $x=
 1. $h'(2)=f'(2)g(2)+f(2)g'(2)$.
 
 ::solution
-$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+Theo quy tắc đạo hàm của một tích, với $h(x)=f(x)g(x)$ ta có
+$$h'(x)=f'(x)g(x)+f(x)g'(x).$$
+
+Thay $x=2$ và các giá trị trong bảng $f(2)=3$, $f'(2)=-1$, $g(2)=4$, $g'(2)=5$, ta được
+$$h'(2)=f'(2)g(2)+f(2)g'(2)=(-1)(4)+(3)(5)=-4+15=11.$$
+
+Vậy $h'(2)=11$.
+
+**Đáp số.** $11$.
 :::
 
 :::exercise Thử thách
@@ -260,7 +339,23 @@ Tìm $a$ và $b$ để $f$ có đạo hàm tại $x=1$.
 2. Hệ số góc bằng nhau: $2a=b$.
 
 ::solution
-Thay $b=2a$ vào $a=b-2$ được $a=2a-2$, nên $a=2$ và $b=4$. Kiểm tra: cả hai nhánh cho giá trị $2$ và hệ số góc $4$ tại $x=1$.
+Hàm số $f$ có đạo hàm tại $x=1$ khi và chỉ khi $f$ liên tục tại $x=1$ và đạo hàm bên trái bằng đạo hàm bên phải tại $x=1$.
+
+Điều kiện liên tục: ta có $f(1)=a\cdot1^2=a$ và
+$$\lim_{x\to1^-}f(x)=a,\qquad\lim_{x\to1^+}f(x)=b\cdot1-2=b-2.$$
+Hai giới hạn một bên phải bằng nhau, nên $a=b-2$. (1)
+
+Điều kiện đạo hàm: với $x<1$ ta có $f'(x)=2ax$, nên đạo hàm bên trái tại $1$ bằng $2a$; với $x>1$ ta có $f'(x)=b$, nên đạo hàm bên phải tại $1$ bằng $b$. Do đó $b=2a$. (2)
+
+Thay (2) vào (1), ta được
+$$a=2a-2\iff a=2.$$
+Suy ra $b=2a=4$.
+
+Kiểm tra: với $a=2$, $b=4$, cả hai nhánh cho giá trị $2$ tại $x=1$ (vì $a=2$ và $b-2=2$) và cùng hệ số góc $4$ (vì $2a=4=b$).
+
+Vậy $a=2$ và $b=4$.
+
+**Đáp số.** $a=2$, $b=4$.
 :::
 
 :::quiz

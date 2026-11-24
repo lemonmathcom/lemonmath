@@ -181,7 +181,16 @@ Giải $\sqrt{x+5}=\sqrt{3x-1}$.
 2. Thử lại điều kiện dưới dấu căn.
 
 ::solution
-Bình phương: $x+5=3x-1\iff x=3$. Với $x=3$: $x+5=8\ge 0$, hai vế đều bằng $\sqrt8$.
+Điều kiện xác định: $x+5\ge0$ và $3x-1\ge0$, tức là $x\ge\dfrac13$.
+
+Với điều kiện đó, hai vế đều không âm nên bình phương hai vế, ta được phương trình tương đương
+$$\begin{aligned}x+5&=3x-1\\ 6&=2x\\ x&=3.\end{aligned}$$
+
+Đối chiếu điều kiện: $x=3\ge\dfrac13$ nên thoả mãn.
+
+Thử lại: với $x=3$ ta có $x+5=8\ge0$ và $3x-1=8\ge0$, hai vế đều bằng $\sqrt8$.
+
+Vậy phương trình có tập nghiệm $S=\{3\}$.
 
 **Đáp số.** $S=\{3\}$.
 :::
@@ -197,7 +206,17 @@ Giải $\sqrt{x^2-4}=\sqrt{3x}$.
 2. Loại giá trị làm $3x<0$.
 
 ::solution
-Bình phương: $x^2-4=3x\iff x^2-3x-4=0\iff x=4$ hoặc $x=-1$. Với $x=-1$ thì $3x=-3<0$, loại. Với $x=4$ hai vế đều bằng $\sqrt{12}$.
+Điều kiện xác định: $x^2-4\ge0$ và $3x\ge0$. Sau khi bình phương, hai biểu thức dưới căn bằng nhau, nên ta chỉ cần kiểm tra thêm điều kiện $3x\ge0$ ở bước đối chiếu.
+
+Bình phương hai vế, ta được
+$$\begin{aligned}x^2-4&=3x\\ x^2-3x-4&=0\\ (x+1)(x-4)&=0.\end{aligned}$$
+Suy ra $x=-1$ hoặc $x=4$.
+
+Đối chiếu điều kiện: với $x=-1$ thì $3x=-3<0$, nên loại. Với $x=4$ thì $3x=12\ge0$ và $x^2-4=12\ge0$, nên nhận.
+
+Thử lại: với $x=4$, hai vế đều bằng $\sqrt{12}$.
+
+Vậy phương trình có tập nghiệm $S=\{4\}$.
 
 **Đáp số.** $S=\{4\}$.
 :::
@@ -213,7 +232,17 @@ Giải $\sqrt{x+2}=x$.
 2. Bình phương, giải phương trình bậc hai, chọn nghiệm thoả điều kiện.
 
 ::solution
-Cần $x\ge 0$. Bình phương: $x+2=x^2\iff x^2-x-2=0\iff x=2$ hoặc $x=-1$. Chỉ $x=2$ thoả mãn. Thử lại: $\sqrt4=2$.
+Vế trái $\sqrt{x+2}$ không âm, nên vế phải phải không âm: $x\ge0$. Khi đó $x+2>0$ nên căn có nghĩa.
+
+Bình phương hai vế, ta được
+$$\begin{aligned}x+2&=x^2\\ x^2-x-2&=0\\ (x+1)(x-2)&=0.\end{aligned}$$
+Suy ra $x=-1$ hoặc $x=2$.
+
+Đối chiếu điều kiện $x\ge0$: $x=-1$ bị loại; $x=2$ thoả mãn.
+
+Thử lại: $\sqrt{2+2}=\sqrt4=2$, đúng bằng vế phải.
+
+Vậy phương trình có tập nghiệm $S=\{2\}$.
 
 **Đáp số.** $S=\{2\}$.
 :::
@@ -229,7 +258,17 @@ Giải $\sqrt{x+3}=x-3$.
 2. Bình phương, giải, chọn nghiệm.
 
 ::solution
-Cần $x\ge 3$. Bình phương: $x+3=x^2-6x+9\iff x^2-7x+6=0\iff x=1$ hoặc $x=6$. Chỉ $x=6$ thoả mãn. Thử lại: $\sqrt9=3=6-3$.
+Vế trái $\sqrt{x+3}$ không âm, nên vế phải phải không âm: $x-3\ge0$, tức là $x\ge3$. Khi đó $x+3>0$ nên căn có nghĩa.
+
+Bình phương hai vế, ta được
+$$\begin{aligned}x+3&=x^2-6x+9\\ x^2-7x+6&=0\\ (x-1)(x-6)&=0.\end{aligned}$$
+Suy ra $x=1$ hoặc $x=6$.
+
+Đối chiếu điều kiện $x\ge3$: $x=1$ bị loại; $x=6$ thoả mãn.
+
+Thử lại: $\sqrt{6+3}=\sqrt9=3=6-3$.
+
+Vậy phương trình có tập nghiệm $S=\{6\}$.
 
 **Đáp số.** $S=\{6\}$.
 :::
@@ -245,7 +284,17 @@ Giải $\sqrt{x^2-2x}=\sqrt{x+4}$.
 2. Kiểm tra từng giá trị.
 
 ::solution
-Bình phương: $x^2-2x=x+4\iff x^2-3x-4=0\iff x=4$ hoặc $x=-1$. Với $x=4$: $x+4=8\ge 0$. Với $x=-1$: $x+4=3\ge 0$. Cả hai đều nhận.
+Điều kiện xác định: $x^2-2x\ge0$ và $x+4\ge0$. Sau khi bình phương, hai biểu thức dưới căn bằng nhau, nên chỉ cần kiểm tra $x+4\ge0$ ở bước đối chiếu.
+
+Bình phương hai vế, ta được
+$$\begin{aligned}x^2-2x&=x+4\\ x^2-3x-4&=0\\ (x+1)(x-4)&=0.\end{aligned}$$
+Suy ra $x=-1$ hoặc $x=4$.
+
+Đối chiếu điều kiện: với $x=4$ thì $x+4=8\ge0$; với $x=-1$ thì $x+4=3\ge0$. Cả hai giá trị đều thoả mãn.
+
+Thử lại: với $x=4$, hai vế đều bằng $\sqrt8$; với $x=-1$, hai vế đều bằng $\sqrt3$.
+
+Vậy phương trình có tập nghiệm $S=\{-1; 4\}$.
 
 **Đáp số.** $S=\{-1; 4\}$.
 :::
@@ -269,15 +318,17 @@ d) Tổng các nghiệm của phương trình đã cho bằng $2$.
 2. Thử lại từng nghiệm rồi xét từng khẳng định.
 
 ::solution
-Bình phương: $x+7=x^2+2x+1\iff x^2+x-6=0\iff x=2$ hoặc $x=-3$. Điều kiện $x+1\ge 0\iff x\ge -1$, nên loại $x=-3$.
+Xét phương trình $\sqrt{x+7}=x+1$.
 
-a) **Đúng**: $x+1\ge 0\iff x\ge -1$.
+a) **Đúng.** Vế trái là căn bậc hai nên không âm, do đó vế phải phải không âm. Ta có $x+1\ge0\iff x\ge-1$.
 
-b) **Đúng**: $x+7=x^2+2x+1\iff x^2+x-6=0$.
+b) **Đúng.** Bình phương hai vế, ta được $x+7=(x+1)^2=x^2+2x+1$, suy ra $x^2+x-6=0$.
 
-c) **Sai**: với $x=-3$, vế trái $\sqrt4=2$, vế phải $-2$.
+c) **Sai.** Giải $x^2+x-6=0$, tức là $(x-2)(x+3)=0$, ta được $x=2$ hoặc $x=-3$. Tuy nhiên $x=-3$ không thoả điều kiện $x\ge-1$. Thật vậy, với $x=-3$ vế trái là $\sqrt4=2$ còn vế phải là $-3+1=-2$, hai vế không bằng nhau. Do đó phương trình chỉ có nghiệm $x=2$, không có hai nghiệm.
 
-d) **Đúng**: phương trình chỉ có một nghiệm $x=2$, nên tổng các nghiệm là $2$.
+d) **Đúng.** Với $x=2$: vế trái $\sqrt9=3$ và vế phải $2+1=3$ nên $x=2$ là nghiệm duy nhất. Tổng các nghiệm bằng $2$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -294,7 +345,19 @@ Một chiếc thang dài $13$ m dựa vào tường. Đầu thang cao hơn kho�
 3. Tính $h=d+7$.
 
 ::solution
-Bình phương: $169-d^2=d^2+14d+49\iff d^2+7d-60=0\iff d=5$ hoặc $d=-12$. Khoảng cách dương nên $d=5$, và $h=5+7=12$. Thử lại: $\sqrt{169-25}=\sqrt{144}=12$.
+Gọi $d$ (m) là khoảng cách từ chân thang đến tường ($d>0$) và $h$ (m) là độ cao của đầu thang. Theo đề, $h=d+7$.
+
+Tường vuông góc với mặt đất nên thang, tường và mặt đất tạo thành tam giác vuông có cạnh huyền $13$ m. Theo định lí Pythagore, $d^2+h^2=13^2=169$, tức là $h=\sqrt{169-d^2}$.
+
+Ta có phương trình $\sqrt{169-d^2}=d+7$, với $d+7>0$. Bình phương hai vế:
+$$\begin{aligned}169-d^2&=d^2+14d+49\\ 2d^2+14d-120&=0\\ d^2+7d-60&=0\\ (d-5)(d+12)&=0.\end{aligned}$$
+Suy ra $d=5$ hoặc $d=-12$.
+
+Vì khoảng cách $d>0$ nên loại $d=-12$; nhận $d=5$. Khi đó $h=5+7=12$.
+
+Thử lại: $\sqrt{169-25}=\sqrt{144}=12=5+7$, và $5^2+12^2=25+144=169=13^2$.
+
+Vậy đầu thang ở độ cao $12$ m.
 
 **Đáp số.** $12$.
 :::
@@ -310,7 +373,18 @@ Một cột ăng-ten cao $12$ m dựng thẳng đứng. Một sợi dây néo n�
 2. Bình phương; số hạng $x^2$ triệt tiêu.
 
 ::solution
-Ta có $\sqrt{x^2+144}=x+8$ với $x>0$. Bình phương: $x^2+144=x^2+16x+64\iff 16x=80\iff x=5$. Dây dài $5+8=13$ m. Thử lại: $\sqrt{25+144}=\sqrt{169}=13$.
+Gọi $x$ (m) là khoảng cách từ chân cột đến điểm cuối của dây trên mặt đất, $x>0$.
+
+Cột thẳng đứng nên cột, mặt đất và sợi dây tạo thành tam giác vuông có hai cạnh góc vuông là $12$ m và $x$ m. Theo định lí Pythagore, chiều dài sợi dây là $\sqrt{x^2+144}$.
+
+Dây dài hơn $x$ đúng $8$ m, nên ta có phương trình $\sqrt{x^2+144}=x+8$, với $x+8>0$. Bình phương hai vế:
+$$\begin{aligned}x^2+144&=x^2+16x+64\\ 16x&=80\\ x&=5.\end{aligned}$$
+
+Đối chiếu điều kiện: $x=5>0$ nên thoả mãn. Chiều dài sợi dây là $x+8=5+8=13$ m.
+
+Thử lại: $\sqrt{25+144}=\sqrt{169}=13=5+8$.
+
+Vậy $x=5$ m và sợi dây dài $13$ m.
 
 **Đáp số.** $x=5$ m, dây dài $13$ m.
 :::
@@ -327,7 +401,17 @@ Giải $\sqrt{2x^2-3x-5}=x-1$.
 3. Chọn nghiệm và thử lại.
 
 ::solution
-Cần $x\ge 1$. Bình phương: $2x^2-3x-5=x^2-2x+1\iff x^2-x-6=0\iff x=3$ hoặc $x=-2$. Chỉ $x=3$ thoả mãn. Thử lại: $\sqrt{18-9-5}=\sqrt4=2=3-1$.
+Vế trái $\sqrt{2x^2-3x-5}$ không âm, nên vế phải phải không âm: $x-1\ge0$, tức là $x\ge1$.
+
+Bình phương hai vế, ta được
+$$\begin{aligned}2x^2-3x-5&=x^2-2x+1\\ x^2-x-6&=0\\ (x-3)(x+2)&=0.\end{aligned}$$
+Suy ra $x=3$ hoặc $x=-2$.
+
+Đối chiếu điều kiện $x\ge1$: $x=-2$ bị loại; $x=3$ thoả mãn.
+
+Thử lại: với $x=3$, $2\cdot9-9-5=4\ge0$ và $\sqrt4=2=3-1$.
+
+Vậy phương trình có tập nghiệm $S=\{3\}$.
 
 **Đáp số.** $S=\{3\}$.
 :::
@@ -347,9 +431,23 @@ b) Giải phương trình.
 2. Bình phương, giải, chọn nghiệm nằm trong tập vừa tìm.
 
 ::solution
-a) $x^2-3x\ge 0\iff x\le 0$ hoặc $x\ge 3$ (ngoài hai nghiệm, vì $a=1>0$). $2x-4\ge 0\iff x\ge 2$. Phần chung là $x\ge 3$.
+a) Hai căn xác định khi $x^2-3x\ge0$ và $2x-4\ge0$.
 
-b) Bình phương: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ hoặc $x=4$. Chỉ $x=4$ thoả mãn $x\ge 3$; khi đó hai vế đều bằng $\sqrt4=2$.
+Tam thức $x^2-3x=x(x-3)$ có hai nghiệm $x=0$ và $x=3$, hệ số $a=1>0$. Theo định lí về dấu của tam thức bậc hai, $x^2-3x\ge0$ khi $x$ nằm ngoài khoảng giữa hai nghiệm, tức là $x\le0$ hoặc $x\ge3$.
+
+Mặt khác, $2x-4\ge0\iff x\ge2$.
+
+Phần chung của hai điều kiện là $x\ge3$ (vì không có $x$ nào vừa $x\le0$ vừa $x\ge2$). Vậy tập các giá trị của $x$ làm cả hai căn xác định là $[3; +\infty)$.
+
+b) Bình phương hai vế (với $x\ge3$), ta được
+$$\begin{aligned}x^2-3x&=2x-4\\ x^2-5x+4&=0\\ (x-1)(x-4)&=0.\end{aligned}$$
+Suy ra $x=1$ hoặc $x=4$.
+
+Đối chiếu điều kiện $x\ge3$: $x=1$ bị loại; $x=4$ thoả mãn.
+
+Thử lại: với $x=4$, $x^2-3x=4$ và $2x-4=4$, hai vế đều bằng $\sqrt4=2$.
+
+Vậy phương trình có tập nghiệm $S=\{4\}$.
 
 **Đáp số.** a) $[3; +\infty)$; b) $S=\{4\}$.
 :::

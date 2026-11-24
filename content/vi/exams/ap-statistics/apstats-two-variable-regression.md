@@ -182,9 +182,13 @@ Một bộ dữ liệu có $\bar x=20$, $s_x=4$, $\bar y=65$, $s_y=10$ và $r=-0
 **Kiến thức:** $b=r\,\dfrac{s_y}{s_x}$ và $a=\bar y-b\bar x$.
 
 ::solution
-Hệ số góc là $b=-0{,}6\cdot\dfrac{10}{4}=-1{,}5$.
+Đường hồi quy bình phương nhỏ nhất có dạng $\hat y=a+bx$, trong đó hệ số góc $b=r\cdot\dfrac{s_y}{s_x}$.
 
-Đường thẳng đi qua $(20;65)$, nên $a=65-(-1{,}5)(20)=65+30=95$.
+Thay $r=-0{,}6$, $s_x=4$, $s_y=10$, ta được
+$$b=-0{,}6\cdot\frac{10}{4}=-1{,}5.$$
+
+Đường hồi quy luôn đi qua điểm $(\bar x; \bar y)=(20; 65)$, nên $\bar y=a+b\bar x$. Suy ra
+$$a=\bar y-b\bar x=65-(-1{,}5)(20)=65+30=95.$$
 
 Vậy đường hồi quy bình phương nhỏ nhất là $\hat y=95-1{,}5x$.
 

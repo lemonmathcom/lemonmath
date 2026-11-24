@@ -126,7 +126,18 @@ Tính $35+7$.
 2. Viết số đơn vị, nhớ $1$ chục rồi cộng hàng chục.
 
 ::solution
-Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+1=4$. Vậy $35+7=42$.
+Ta đặt tính rồi cộng từ hàng đơn vị.
+
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$.
+
+Hàng chục: $3$ cộng $1$ (nhớ) bằng $4$, viết $4$.
+
+Ta có
+$$35+7=42.$$
+
+Thử lại: $42-7=35$. Đúng.
+
+Vậy $35+7=42$.
 
 **Đáp số.** $42$.
 :::
@@ -142,7 +153,16 @@ Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+1=4$. Vậy $
 2. Cộng hàng đơn vị, rồi hàng chục.
 
 ::solution
-$8+5=13$, viết $3$ nhớ $1$. $4+1=5$. Vậy $48+5=53$.
+Đặt tính sao cho chữ số $8$ thẳng cột với chữ số $5$ ở hàng đơn vị:
+$$\begin{array}{r}48\\+\phantom{0}5\\\hline53\end{array}$$
+
+Hàng đơn vị: $8+5=13$, viết $3$ nhớ $1$.
+
+Hàng chục: $4$ cộng $1$ (nhớ) bằng $5$, viết $5$.
+
+Thử lại: $53-5=48$. Đúng.
+
+Vậy $48+5=53$.
 
 **Đáp số.** $53$.
 :::
@@ -158,8 +178,16 @@ Em hãy nhớ lại bài Lít. Một can đựng $26$ lít nước. Đổ thêm 
 2. Tính $26+7$ rồi ghi đơn vị lít.
 
 ::solution
-$6+7=13$, viết $3$ nhớ $1$. $2+1=3$. Số lít nước là:
-$$26+7=33\ \text{(lít)}.$$
+Bài giải
+
+Muốn biết can có tất cả bao nhiêu lít nước, ta lấy số lít nước đã có cộng với số lít nước đổ thêm.
+
+Hàng đơn vị: $6+7=13$, viết $3$ nhớ $1$. Hàng chục: $2+1=3$.
+
+Số lít nước trong can có tất cả là:
+$$26+7=33\ \text{(lít)}$$
+
+Vậy can có tất cả $33$ lít nước.
 
 **Đáp số.** $33$ lít nước.
 :::
@@ -179,9 +207,11 @@ b) $47+\square=52$.
 2. Cộng phần còn lại.
 
 ::solution
-a) Từ $56$ lên $60$ cần $4$, từ $60$ lên $62$ cần $2$, nên số cần điền là $4+2=6$. Thử lại: $56+6=62$.
+a) Từ $56$ lên $60$ cần thêm $4$, vì $56+4=60$. Từ $60$ lên $62$ cần thêm $2$. Số cần điền là $4+2=6$. Thử lại: $56+6=62$. Đúng.
 
-b) Từ $47$ lên $50$ cần $3$, từ $50$ lên $52$ cần $2$, nên số cần điền là $5$. Thử lại: $47+5=52$.
+b) Từ $47$ lên $50$ cần thêm $3$, vì $47+3=50$. Từ $50$ lên $52$ cần thêm $2$. Số cần điền là $3+2=5$. Thử lại: $47+5=52$. Đúng.
+
+Vậy số cần điền ở câu a) là $6$, ở câu b) là $5$.
 
 **Đáp số.** a) $6$; b) $5$.
 :::
@@ -201,9 +231,11 @@ b) $28+5 \;\square\; 34$.
 2. So sánh hàng chục, rồi hàng đơn vị.
 
 ::solution
-a) $59+4=63$. Vì $63>62$ nên $59+4>62$.
+a) Tính $59+4$: hàng đơn vị $9+4=13$, viết $3$ nhớ $1$; hàng chục $5+1=6$. Vậy $59+4=63$. Vì $63>62$ nên $59+4>62$.
 
-b) $28+5=33$. Vì $33<34$ nên $28+5<34$.
+b) Tính $28+5$: hàng đơn vị $8+5=13$, viết $3$ nhớ $1$; hàng chục $2+1=3$. Vậy $28+5=33$. Vì $33<34$ nên $28+5<34$.
+
+Vậy ở câu a) điền dấu $>$, ở câu b) điền dấu $<$.
 
 **Đáp số.** a) Dấu $>$; b) Dấu $<$.
 :::
@@ -219,7 +251,18 @@ Bạn An làm bài: $47+8=45$. Bạn An làm sai ở đâu? Em hãy sửa lại 
 2. Xem bạn An có cộng chục nhớ vào hàng chục không.
 
 ::solution
-$7+8=15$, viết $5$ nhớ $1$. Hàng chục phải là $4+1=5$, nhưng bạn An chỉ viết $4$ (quên chục nhớ). Vậy $47+8=55$.
+Ta tính lại phép cộng $47+8$.
+
+Hàng đơn vị: $7+8=15$, viết $5$ nhớ $1$.
+
+Hàng chục phải là $4+1=5$ (cộng thêm $1$ chục nhớ). Bạn An chỉ viết $4$ vì quên cộng chục nhớ, nên được kết quả sai là $45$.
+
+Sửa lại:
+$$47+8=55.$$
+
+Thử lại: $55-8=47$. Đúng.
+
+Vậy bạn An sai ở chỗ quên chục nhớ; kết quả đúng là $47+8=55$.
 
 **Đáp số.** Bạn An quên chục nhớ; đúng là $55$.
 :::
@@ -235,8 +278,16 @@ Trong sân trường có $67$ học sinh đang xếp hàng. Có thêm $9$ học 
 2. Tính $67+9$ rồi ghi đáp số có đơn vị.
 
 ::solution
-$7+9=16$, viết $6$ nhớ $1$. $6+1=7$. Số học sinh là:
-$$67+9=76\ \text{(học sinh)}.$$
+Bài giải
+
+Muốn biết lúc này có tất cả bao nhiêu học sinh, ta lấy số học sinh đang xếp hàng cộng với số học sinh chạy tới.
+
+Hàng đơn vị: $7+9=16$, viết $6$ nhớ $1$. Hàng chục: $6+1=7$.
+
+Lúc này số học sinh có tất cả là:
+$$67+9=76\ \text{(học sinh)}$$
+
+Vậy lúc này có tất cả $76$ học sinh.
 
 **Đáp số.** $76$ học sinh.
 :::
@@ -252,7 +303,15 @@ Tìm chữ số thích hợp điền vào ô trống: $4\square+7=51$.
 2. Thử lại bằng phép cộng.
 
 ::solution
-Hàng đơn vị của tổng là $1$, nên $\square+7=11$, suy ra $\square=4$. Thử lại: $44+7=51$ (vì $4+7=11$ và $4+1=5$).
+Phép tính $4\square+7=51$ có tổng là $51$, nên chữ số hàng đơn vị của tổng là $1$.
+
+Ở hàng đơn vị, $\square+7$ phải có chữ số tận cùng là $1$. Vì $\square+7$ không nhỏ hơn $7$ và không lớn hơn $16$ nên $\square+7=11$, suy ra $\square=11-7=4$.
+
+Kiểm tra hàng chục: $4$ cộng $1$ (nhớ) bằng $5$, đúng với chữ số hàng chục của $51$.
+
+Thử lại: $44+7=51$ (vì $4+7=11$ và $4+1=5$). Đúng.
+
+Vậy chữ số cần điền vào ô trống là $4$.
 
 **Đáp số.** Chữ số cần điền là $4$.
 :::

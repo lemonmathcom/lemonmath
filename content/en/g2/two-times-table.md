@@ -183,11 +183,15 @@ c) $2\times10$
 2. Each product is 2 more than the one before.
 
 ::solution
-a) $2\times3=6$.
+We use the $2$ times table to work these out in our head.
 
-b) $2\times8=16$.
+a) $2\times3$ is $3$ lots of $2$, so $2\times3=2+2+2=6$.
 
-c) $2\times10=20$.
+b) By the $2$ times table, $2\times7=14$. Adding one more $2$ gives $2\times8=14+2=16$.
+
+c) $2\times10$ is $10$ lots of $2$. Counting in $2$s: $2$, $4$, $6$, $8$, $10$, $12$, $14$, $16$, $18$, $20$, we get $2\times10=20$.
+
+So $2\times3=6$; $2\times8=16$; $2\times10=20$.
 
 **Answer.** a) 6; b) 16; c) 20.
 :::
@@ -209,11 +213,15 @@ c) $5\times10$
 2. Each product is 5 more than the one before.
 
 ::solution
-a) $5\times2=10$.
+We use the $5$ times table to work these out in our head.
 
-b) $5\times7=35$.
+a) $5\times2$ is $2$ lots of $5$, so $5\times2=5+5=10$.
 
-c) $5\times10=50$.
+b) By the $5$ times table, $5\times6=30$. Adding one more $5$ gives $5\times7=30+5=35$.
+
+c) By the $5$ times table, $5\times9=45$. Adding one more $5$ gives $5\times10=45+5=50$.
+
+So $5\times2=10$; $5\times7=35$; $5\times10=50$.
 
 **Answer.** a) 10; b) 35; c) 50.
 :::
@@ -233,9 +241,15 @@ b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
 2. Fill in the gaps one at a time.
 
 ::solution
-a) $6+2=8$ and $10+2=12$.
+a) In the sequence $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$, each number is $2$ more than the number before it. The number after $6$ is $6+2=8$. The number after $10$ is $10+2=12$.
 
-b) $10+5=15$ and $20+5=25$.
+Check: $8+2=10$ and $12+2=14$. Correct.
+
+b) In the sequence $5,\ 10,\ \square,\ 20,\ \square,\ 30$, each number is $5$ more than the number before it. The number after $10$ is $10+5=15$. The number after $20$ is $20+5=25$.
+
+Check: $15+5=20$ and $25+5=30$. Correct.
+
+So a) the missing numbers are $8$ and $12$; b) the missing numbers are $15$ and $25$.
 
 **Answer.** a) 8 and 12; b) 15 and 25.
 :::
@@ -255,9 +269,11 @@ b) $5\times\square=25$
 2. The number of counts is the missing number.
 
 ::solution
-a) $2\times7=14$, so the missing number is 7.
+a) We look in the $2$ times table for the multiplication whose answer is $14$. We have $2\times7=14$, so the missing number is $7$.
 
-b) $5\times5=25$, so the missing number is 5.
+b) We look in the $5$ times table for the multiplication whose answer is $25$. We have $5\times5=25$, so the missing number is $5$.
+
+So a) the missing number is $7$; b) the missing number is $5$.
 
 **Answer.** a) 7; b) 5.
 :::
@@ -276,9 +292,14 @@ Suppose each child has 2 exercise books. There are 9 children like this. How man
 ::solution
 Solution
 
+Each child has $2$ exercise books and there are $9$ children like this, so we multiply $2$ by $9$.
+
 The number of exercise books altogether is:
 $$2\times9=18\ \text{(books)}.$$
-Answer: 18 exercise books.
+
+So there are $18$ exercise books altogether.
+
+**Answer.** 18 exercise books.
 :::
 
 :::exercise
@@ -295,9 +316,14 @@ Suppose each basket holds 5 apples. There are 7 baskets like this. How many appl
 ::solution
 Solution
 
+Each basket holds $5$ apples and there are $7$ baskets like this, so we multiply $5$ by $7$.
+
 The number of apples altogether is:
 $$5\times7=35\ \text{(apples)}.$$
-Answer: 35 apples.
+
+So there are $35$ apples altogether.
+
+**Answer.** 35 apples.
 :::
 
 :::exercise
@@ -311,8 +337,15 @@ Remember the lesson on hours and minutes. When the long hand of a clock points t
 2. Use the 5 times table.
 
 ::solution
-Long hand at 8: $5\times8=40$ (minutes).
-Long hand at 10: $5\times10=50$ (minutes).
+On a clock face, each time the long hand moves from one number to the next, $5$ minutes have passed. So when the long hand points to a number, the number of minutes passed is $5$ times that number.
+
+When the long hand points to $8$, the number of minutes passed is:
+$$5\times8=40\ \text{(minutes)}.$$
+
+When the long hand points to $10$, the number of minutes passed is:
+$$5\times10=50\ \text{(minutes)}.$$
+
+So when the long hand points to $8$, $40$ minutes have passed; when it points to $10$, $50$ minutes have passed.
 
 **Answer.** 40 minutes and 50 minutes.
 :::
@@ -328,8 +361,14 @@ The product of 2 and a number is 18. What is the product of 5 and that number?
 2. Multiply 5 by that number of counts.
 
 ::solution
-We have $2\times9=18$, so the number is 9. The product of 5 and 9 is:
+The product of $2$ and a number is $18$, that is, $2\times\square=18$. By the $2$ times table, $2\times9=18$, so the number is $9$.
+
+The product of $5$ and that number is:
 $$5\times9=45.$$
+
+Check: by the $5$ times table, $5\times9=45$. Correct.
+
+So the product of $5$ and that number is $45$.
 
 **Answer.** 45.
 :::

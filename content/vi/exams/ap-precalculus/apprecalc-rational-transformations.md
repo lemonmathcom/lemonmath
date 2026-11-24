@@ -165,9 +165,17 @@ Tìm tiệm cận ngang của $g(x)=\dfrac{5x-1}{2x+3}$.
 **Kiến thức:** cùng bậc: chia hai hệ số cao nhất.
 
 ::solution
-Tử và mẫu đều có bậc $1$, với các hệ số cao nhất là $5$ và $2$.
+Hàm số $g(x)=\dfrac{5x-1}{2x+3}$ xác định khi $2x+3\neq0$, tức là $x\neq-\dfrac32$.
 
-Vậy tiệm cận ngang là $y=\dfrac52$.
+Tiệm cận ngang được tìm bằng giới hạn của $g(x)$ khi $x\to\pm\infty$. Chia cả tử và mẫu cho $x$ (với $x\neq0$), ta có
+$$g(x)=\frac{5-\frac1x}{2+\frac3x}.$$
+
+Khi $x\to\pm\infty$, ta có $\dfrac1x\to0$ và $\dfrac3x\to0$, nên
+$$\lim_{x\to\pm\infty}g(x)=\frac{5-0}{2+0}=\frac52.$$
+
+Điều này phù hợp với quy tắc: tử và mẫu đều có bậc $1$, với các hệ số cao nhất là $5$ và $2$, nên tiệm cận ngang là $y=\dfrac52$.
+
+Vậy tiệm cận ngang của đồ thị hàm số $g$ là đường thẳng $y=\dfrac52$.
 
 **Đáp số.** $y=\dfrac52$.
 :::

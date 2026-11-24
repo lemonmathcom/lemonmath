@@ -337,9 +337,17 @@ Which of the numbers $1$, $2$, $3$ are roots of the polynomial $x^2-5x+6$?
 2. Work out $4-10+6$ and $9-15+6$.
 
 ::solution
-Let $M(x)=x^2-5x+6$. We have $M(1)=1-5+6=2\neq0$. We have $M(2)=4-10+6=0$. We have $M(3)=9-15+6=0$.
+A number $a$ is a root of a polynomial $M(x)$ when $M(a)=0$. We substitute $x=1$, $x=2$, $x=3$ into the polynomial in turn.
 
-So $x=2$ and $x=3$ are roots of the polynomial, but $x=1$ is not.
+Let $M(x)=x^2-5x+6$.
+
+Substituting $x=1$, we get $M(1)=1-5+6=2\neq0$, so $x=1$ is not a root.
+
+Substituting $x=2$, we get $M(2)=4-10+6=0$, so $x=2$ is a root.
+
+Substituting $x=3$, we get $M(3)=9-15+6=0$, so $x=3$ is a root.
+
+So among the numbers $1$, $2$, $3$, the numbers $x=2$ and $x=3$ are roots of the polynomial, but $x=1$ is not.
 
 **Answer.** $x=2$ and $x=3$.
 :::

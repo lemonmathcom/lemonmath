@@ -185,7 +185,13 @@ Work out $\dfrac{3}{10}+\dfrac{4}{10}$.
 2. Add the two numerators.
 
 ::solution
-$$\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{3+4}{10}=\dfrac{7}{10}.$$
+The two fractions have the same denominator $10$, so we add the numerators and keep the denominator.
+
+$$\frac{3}{10}+\frac{4}{10}=\frac{3+4}{10}=\frac{7}{10}.$$
+
+The fraction $\dfrac{7}{10}$ cannot be simplified because $7$ and $10$ have no common factor greater than $1$.
+
+So $\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{7}{10}$.
 
 **Answer.** $\dfrac{7}{10}$.
 :::
@@ -201,7 +207,13 @@ Work out $\dfrac{5}{12}+\dfrac{1}{12}$ and simplify the answer.
 2. Simplify the fraction.
 
 ::solution
-$$\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{6}{12}=\dfrac{6\div6}{12\div6}=\dfrac{1}{2}.$$
+The two fractions have the same denominator $12$, so we add the numerators and keep the denominator:
+$$\frac{5}{12}+\frac{1}{12}=\frac{5+1}{12}=\frac{6}{12}.$$
+
+Now we simplify $\dfrac{6}{12}$. Since $6$ and $12$ are both divisible by $6$, we divide the numerator and the denominator by $6$:
+$$\frac{6}{12}=\frac{6\div6}{12\div6}=\frac{1}{2}.$$
+
+So $\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{1}{2}$.
 
 **Answer.** $\dfrac{1}{2}$.
 :::
@@ -217,8 +229,15 @@ Work out $\dfrac{2}{5}+\dfrac{1}{3}$.
 2. Rewrite, then add the two numerators.
 
 ::solution
-$$\dfrac{2}{5}=\dfrac{6}{15},\qquad \dfrac{1}{3}=\dfrac{5}{15}.$$
-So $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{6}{15}+\dfrac{5}{15}=\dfrac{11}{15}$.
+The two fractions have different denominators, so we write them over a common denominator. The common denominator is $15$ because $15=5\times3$.
+
+We have
+$$\frac{2}{5}=\frac{2\times3}{5\times3}=\frac{6}{15},\qquad \frac{1}{3}=\frac{1\times5}{3\times5}=\frac{5}{15}.$$
+
+So
+$$\frac{2}{5}+\frac{1}{3}=\frac{6}{15}+\frac{5}{15}=\frac{6+5}{15}=\frac{11}{15}.$$
+
+So $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{11}{15}$.
 
 **Answer.** $\dfrac{11}{15}$.
 :::
@@ -234,9 +253,13 @@ Work out $\dfrac{7}{12}+\dfrac{5}{6}$.
 2. Add the two fractions with the same denominator.
 
 ::solution
-Since $12$ is divisible by $6$, $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+The two fractions have different denominators. Since $12$ is divisible by $6$, we choose $12$ as the common denominator and only need to rewrite $\dfrac{5}{6}$:
+$$\frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12}.$$
 
-So $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{7}{12}+\dfrac{10}{12}=\dfrac{17}{12}$.
+So
+$$\frac{7}{12}+\frac{5}{6}=\frac{7}{12}+\frac{10}{12}=\frac{7+10}{12}=\frac{17}{12}.$$
+
+So $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{17}{12}$.
 
 **Answer.** $\dfrac{17}{12}$.
 :::
@@ -252,7 +275,12 @@ Work out $\dfrac{11}{15}-\dfrac{4}{15}$.
 2. See whether the answer can be simplified.
 
 ::solution
-$$\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{11-4}{15}=\dfrac{7}{15}.$$
+The two fractions have the same denominator $15$, so we subtract the numerators and keep the denominator:
+$$\frac{11}{15}-\frac{4}{15}=\frac{11-4}{15}=\frac{7}{15}.$$
+
+The fraction $\dfrac{7}{15}$ is already in simplest form because $7$ and $15$ have no common factor greater than $1$.
+
+So $\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{7}{15}$.
 
 **Answer.** $\dfrac{7}{15}$.
 :::
@@ -268,8 +296,15 @@ Work out $\dfrac{3}{4}-\dfrac{2}{5}$.
 2. Rewrite, then subtract the two numerators.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{2}{5}=\dfrac{8}{20}.$$
-So $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
+The two fractions have different denominators, so we write them over a common denominator. The common denominator is $20$ because $20=4\times5$.
+
+We have
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{2}{5}=\frac{2\times4}{5\times4}=\frac{8}{20}.$$
+
+So
+$$\frac{3}{4}-\frac{2}{5}=\frac{15}{20}-\frac{8}{20}=\frac{15-8}{20}=\frac{7}{20}.$$
+
+So $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{7}{20}$.
 
 **Answer.** $\dfrac{7}{20}$.
 :::
@@ -285,9 +320,15 @@ Uncle Hai grows vegetables on $\dfrac{2}{5}$ of his garden and flowers on $\dfra
 2. Add $\dfrac{2}{5}+\dfrac{1}{4}$, then subtract the result from $1$.
 
 ::solution
-The fraction of the garden with vegetables and flowers is:
-$$\dfrac{2}{5}+\dfrac{1}{4}=\dfrac{8}{20}+\dfrac{5}{20}=\dfrac{13}{20}.$$
-The fraction left is $1-\dfrac{13}{20}=\dfrac{20}{20}-\dfrac{13}{20}=\dfrac{7}{20}$.
+Solution
+
+The fraction of the garden covered by the two crops is:
+$$\frac{2}{5}+\frac{1}{4}=\frac{8}{20}+\frac{5}{20}=\frac{13}{20}\ \text{(of the garden)}.$$
+
+The whole garden is $1$, that is $\dfrac{20}{20}$. The fraction of the garden left is:
+$$1-\frac{13}{20}=\frac{20}{20}-\frac{13}{20}=\frac{7}{20}\ \text{(of the garden)}.$$
+
+So the two crops cover $\dfrac{13}{20}$ of the garden and $\dfrac{7}{20}$ of the garden is left.
 
 **Answer.** $\dfrac{13}{20}$ of the garden; $\dfrac{7}{20}$ is left.
 :::
@@ -303,8 +344,15 @@ Suppose a jug holds $\dfrac{3}{4}$ of a litre of water. $\dfrac{1}{3}$ of a litr
 2. Subtract $\dfrac{3}{4}-\dfrac{1}{3}$ after writing over a common denominator.
 
 ::solution
+Solution
+
+The amount of water left in the jug is the starting amount minus the amount poured out. We write the fractions over the common denominator $12$:
+$$\frac{3}{4}=\frac{9}{12},\qquad \frac{1}{3}=\frac{4}{12}.$$
+
 The number of litres of water left is:
-$$\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}\ \text{(litres)}.$$
+$$\frac{3}{4}-\frac{1}{3}=\frac{9}{12}-\frac{4}{12}=\frac{5}{12}\ \text{(litres)}.$$
+
+So $\dfrac{5}{12}$ of a litre of water is left in the jug.
 
 **Answer.** $\dfrac{5}{12}$ litre.
 :::
@@ -320,9 +368,15 @@ Remember the lesson on comparing fractions. Work out $\dfrac{2}{3}+\dfrac{1}{6}$
 2. Add, then compare with $\dfrac{5}{6}$.
 
 ::solution
-$\dfrac{2}{3}=\dfrac{4}{6}$, so $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{4}{6}+\dfrac{1}{6}=\dfrac{5}{6}$.
+We rewrite $\dfrac{2}{3}$ with denominator $6$ (since $6=3\times2$):
+$$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 
-The two fractions have the same numerator and the same denominator, so they are equal.
+So
+$$\frac{2}{3}+\frac{1}{6}=\frac{4}{6}+\frac{1}{6}=\frac{4+1}{6}=\frac{5}{6}.$$
+
+The result $\dfrac{5}{6}$ and the fraction $\dfrac{5}{6}$ have the same numerator and the same denominator, so they are equal.
+
+So $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
 
 **Answer.** $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
 :::
@@ -338,11 +392,16 @@ Work out the sum $\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}$. How muc
 2. Add the numerators, then compare with $\dfrac{16}{16}$.
 
 ::solution
-Over the denominator $16$: $\dfrac{1}{2}=\dfrac{8}{16}$, $\dfrac{1}{4}=\dfrac{4}{16}$, $\dfrac{1}{8}=\dfrac{2}{16}$.
+The common denominator of the fractions is $16$ because $16$ is divisible by $2$, $4$ and $8$. We rewrite the fractions:
+$$\frac{1}{2}=\frac{8}{16},\qquad \frac{1}{4}=\frac{4}{16},\qquad \frac{1}{8}=\frac{2}{16}.$$
 
-The sum is $\dfrac{8}{16}+\dfrac{4}{16}+\dfrac{2}{16}+\dfrac{1}{16}=\dfrac{15}{16}$.
+The sum of the four fractions is:
+$$\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}=\frac{8}{16}+\frac{4}{16}+\frac{2}{16}+\frac{1}{16}=\frac{15}{16}.$$
 
-It is short of $1$ by $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{16}$.
+The number $1$ written with denominator $16$ is $\dfrac{16}{16}$. The amount by which the sum is short of $1$ is:
+$$1-\frac{15}{16}=\frac{16}{16}-\frac{15}{16}=\frac{1}{16}.$$
+
+So the sum is $\dfrac{15}{16}$ and it is short of $1$ by $\dfrac{1}{16}$.
 
 **Answer.** The sum is $\dfrac{15}{16}$; it is short of $1$ by $\dfrac{1}{16}$.
 :::

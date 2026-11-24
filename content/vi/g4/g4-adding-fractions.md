@@ -185,7 +185,13 @@ Tính $\dfrac{3}{10}+\dfrac{4}{10}$.
 2. Cộng hai tử số.
 
 ::solution
-$$\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{3+4}{10}=\dfrac{7}{10}.$$
+Hai phân số có cùng mẫu số $10$ nên ta cộng hai tử số và giữ nguyên mẫu số.
+
+$$\frac{3}{10}+\frac{4}{10}=\frac{3+4}{10}=\frac{7}{10}.$$
+
+Phân số $\dfrac{7}{10}$ không rút gọn được vì $7$ và $10$ không có ước chung nào lớn hơn $1$.
+
+Vậy $\dfrac{3}{10}+\dfrac{4}{10}=\dfrac{7}{10}$.
 
 **Đáp số.** $\dfrac{7}{10}$.
 :::
@@ -201,7 +207,13 @@ Tính $\dfrac{5}{12}+\dfrac{1}{12}$ và rút gọn kết quả.
 2. Rút gọn phân số.
 
 ::solution
-$$\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{6}{12}=\dfrac{6:6}{12:6}=\dfrac{1}{2}.$$
+Hai phân số có cùng mẫu số $12$ nên ta cộng hai tử số và giữ nguyên mẫu số:
+$$\frac{5}{12}+\frac{1}{12}=\frac{5+1}{12}=\frac{6}{12}.$$
+
+Ta rút gọn phân số $\dfrac{6}{12}$. Vì $6$ và $12$ cùng chia hết cho $6$ nên chia cả tử số và mẫu số cho $6$:
+$$\frac{6}{12}=\frac{6:6}{12:6}=\frac{1}{2}.$$
+
+Vậy $\dfrac{5}{12}+\dfrac{1}{12}=\dfrac{1}{2}$.
 
 **Đáp số.** $\dfrac{1}{2}$.
 :::
@@ -217,8 +229,15 @@ Tính $\dfrac{2}{5}+\dfrac{1}{3}$.
 2. Quy đồng rồi cộng hai tử số.
 
 ::solution
-$$\dfrac{2}{5}=\dfrac{6}{15},\qquad \dfrac{1}{3}=\dfrac{5}{15}.$$
-Do đó $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{6}{15}+\dfrac{5}{15}=\dfrac{11}{15}$.
+Hai phân số khác mẫu số nên ta quy đồng mẫu số. Mẫu số chung là $15$ vì $15=5\times3$.
+
+Ta có
+$$\frac{2}{5}=\frac{2\times3}{5\times3}=\frac{6}{15},\qquad \frac{1}{3}=\frac{1\times5}{3\times5}=\frac{5}{15}.$$
+
+Do đó
+$$\frac{2}{5}+\frac{1}{3}=\frac{6}{15}+\frac{5}{15}=\frac{6+5}{15}=\frac{11}{15}.$$
+
+Vậy $\dfrac{2}{5}+\dfrac{1}{3}=\dfrac{11}{15}$.
 
 **Đáp số.** $\dfrac{11}{15}$.
 :::
@@ -234,9 +253,13 @@ Tính $\dfrac{7}{12}+\dfrac{5}{6}$.
 2. Cộng hai phân số cùng mẫu số.
 
 ::solution
-Vì $12$ chia hết cho $6$ nên $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+Hai phân số khác mẫu số. Vì $12$ chia hết cho $6$ nên ta chọn mẫu số chung là $12$ và chỉ cần quy đồng phân số $\dfrac{5}{6}$:
+$$\frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12}.$$
 
-Do đó $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{7}{12}+\dfrac{10}{12}=\dfrac{17}{12}$.
+Do đó
+$$\frac{7}{12}+\frac{5}{6}=\frac{7}{12}+\frac{10}{12}=\frac{7+10}{12}=\frac{17}{12}.$$
+
+Vậy $\dfrac{7}{12}+\dfrac{5}{6}=\dfrac{17}{12}$.
 
 **Đáp số.** $\dfrac{17}{12}$.
 :::
@@ -252,7 +275,12 @@ Tính $\dfrac{11}{15}-\dfrac{4}{15}$.
 2. Xem kết quả có rút gọn được không.
 
 ::solution
-$$\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{11-4}{15}=\dfrac{7}{15}.$$
+Hai phân số có cùng mẫu số $15$ nên ta trừ hai tử số và giữ nguyên mẫu số:
+$$\frac{11}{15}-\frac{4}{15}=\frac{11-4}{15}=\frac{7}{15}.$$
+
+Phân số $\dfrac{7}{15}$ đã tối giản vì $7$ và $15$ không có ước chung nào lớn hơn $1$.
+
+Vậy $\dfrac{11}{15}-\dfrac{4}{15}=\dfrac{7}{15}$.
 
 **Đáp số.** $\dfrac{7}{15}$.
 :::
@@ -268,8 +296,15 @@ Tính $\dfrac{3}{4}-\dfrac{2}{5}$.
 2. Quy đồng rồi trừ hai tử số.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{2}{5}=\dfrac{8}{20}.$$
-Do đó $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
+Hai phân số khác mẫu số nên ta quy đồng mẫu số. Mẫu số chung là $20$ vì $20=4\times5$.
+
+Ta có
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{2}{5}=\frac{2\times4}{5\times4}=\frac{8}{20}.$$
+
+Do đó
+$$\frac{3}{4}-\frac{2}{5}=\frac{15}{20}-\frac{8}{20}=\frac{15-8}{20}=\frac{7}{20}.$$
+
+Vậy $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{7}{20}$.
 
 **Đáp số.** $\dfrac{7}{20}$.
 :::
@@ -285,9 +320,15 @@ Bác Hai trồng rau trên $\dfrac{2}{5}$ diện tích mảnh vườn và trồn
 2. Cộng $\dfrac{2}{5}+\dfrac{1}{4}$ rồi lấy $1$ trừ kết quả.
 
 ::solution
-Phần diện tích trồng rau và hoa là:
-$$\dfrac{2}{5}+\dfrac{1}{4}=\dfrac{8}{20}+\dfrac{5}{20}=\dfrac{13}{20}.$$
-Phần diện tích còn lại là $1-\dfrac{13}{20}=\dfrac{20}{20}-\dfrac{13}{20}=\dfrac{7}{20}$.
+Bài giải
+
+Hai loại cây chiếm số phần diện tích mảnh vườn là:
+$$\frac{2}{5}+\frac{1}{4}=\frac{8}{20}+\frac{5}{20}=\frac{13}{20}\ \text{(diện tích mảnh vườn)}.$$
+
+Coi cả mảnh vườn là $1$, tức là $\dfrac{20}{20}$. Phần diện tích còn lại là:
+$$1-\frac{13}{20}=\frac{20}{20}-\frac{13}{20}=\frac{7}{20}\ \text{(diện tích mảnh vườn)}.$$
+
+Vậy hai loại cây chiếm $\dfrac{13}{20}$ diện tích mảnh vườn và phần còn lại là $\dfrac{7}{20}$ diện tích mảnh vườn.
 
 **Đáp số.** $\dfrac{13}{20}$ diện tích; còn lại $\dfrac{7}{20}$ diện tích.
 :::
@@ -303,8 +344,15 @@ Giả sử một chiếc can đựng $\dfrac{3}{4}$ lít nước. Người ta r�
 2. Trừ $\dfrac{3}{4}-\dfrac{1}{3}$ sau khi quy đồng mẫu số.
 
 ::solution
+Bài giải
+
+Số lít nước còn lại trong can bằng số nước ban đầu trừ đi số nước đã rót ra. Quy đồng mẫu số với mẫu số chung $12$:
+$$\frac{3}{4}=\frac{9}{12},\qquad \frac{1}{3}=\frac{4}{12}.$$
+
 Số lít nước còn lại là:
-$$\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}\ \text{(lít)}.$$
+$$\frac{3}{4}-\frac{1}{3}=\frac{9}{12}-\frac{4}{12}=\frac{5}{12}\ \text{(lít)}.$$
+
+Vậy trong can còn lại $\dfrac{5}{12}$ lít nước.
 
 **Đáp số.** $\dfrac{5}{12}$ lít.
 :::
@@ -320,9 +368,15 @@ Em hãy nhớ lại bài so sánh phân số. Hãy tính $\dfrac{2}{3}+\dfrac{1}
 2. Cộng, rồi so sánh với $\dfrac{5}{6}$.
 
 ::solution
-$\dfrac{2}{3}=\dfrac{4}{6}$ nên $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{4}{6}+\dfrac{1}{6}=\dfrac{5}{6}$.
+Ta quy đồng phân số $\dfrac{2}{3}$ về mẫu số $6$ (vì $6=3\times2$):
+$$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
 
-Hai phân số có cùng tử số và cùng mẫu số nên bằng nhau.
+Do đó
+$$\frac{2}{3}+\frac{1}{6}=\frac{4}{6}+\frac{1}{6}=\frac{4+1}{6}=\frac{5}{6}.$$
+
+Kết quả $\dfrac{5}{6}$ và phân số $\dfrac{5}{6}$ có cùng tử số và cùng mẫu số nên hai phân số bằng nhau.
+
+Vậy $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
 
 **Đáp số.** $\dfrac{2}{3}+\dfrac{1}{6}=\dfrac{5}{6}$.
 :::
@@ -338,11 +392,16 @@ Tính tổng $\dfrac{1}{2}+\dfrac{1}{4}+\dfrac{1}{8}+\dfrac{1}{16}$. Tổng này
 2. Cộng các tử số, rồi so với $\dfrac{16}{16}$.
 
 ::solution
-Quy đồng về mẫu số $16$: $\dfrac{1}{2}=\dfrac{8}{16}$, $\dfrac{1}{4}=\dfrac{4}{16}$, $\dfrac{1}{8}=\dfrac{2}{16}$.
+Mẫu số chung của các phân số là $16$ vì $16$ chia hết cho $2$, $4$, $8$. Ta quy đồng:
+$$\frac{1}{2}=\frac{8}{16},\qquad \frac{1}{4}=\frac{4}{16},\qquad \frac{1}{8}=\frac{2}{16}.$$
 
-Tổng là $\dfrac{8}{16}+\dfrac{4}{16}+\dfrac{2}{16}+\dfrac{1}{16}=\dfrac{15}{16}$.
+Tổng của bốn phân số là:
+$$\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}=\frac{8}{16}+\frac{4}{16}+\frac{2}{16}+\frac{1}{16}=\frac{15}{16}.$$
 
-Còn thiếu $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{16}$ để bằng $1$.
+Số $1$ viết dưới dạng phân số mẫu số $16$ là $\dfrac{16}{16}$. Phần còn thiếu để tổng bằng $1$ là:
+$$1-\frac{15}{16}=\frac{16}{16}-\frac{15}{16}=\frac{1}{16}.$$
+
+Vậy tổng bằng $\dfrac{15}{16}$ và còn thiếu $\dfrac{1}{16}$ để bằng $1$.
 
 **Đáp số.** Tổng bằng $\dfrac{15}{16}$; còn thiếu $\dfrac{1}{16}$ để bằng $1$.
 :::

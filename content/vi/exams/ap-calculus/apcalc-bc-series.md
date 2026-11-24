@@ -132,7 +132,21 @@ D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
 **Cần nhớ:** chuỗi $p$ với $p\le1$ thì phân kì.
 
 ::solution
-$p=0{,}9\le1$: đáp án **B**. Chuỗi D hội tụ có điều kiện.
+Ta xét tính hội tụ của từng chuỗi.
+
+Chuỗi A: $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$ là chuỗi $p$ với $p=2>1$ nên hội tụ.
+
+Chuỗi B: $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{0{,}9}}$ là chuỗi $p$ với $p=0{,}9\le1$ nên phân kì.
+
+Chuỗi C: $\displaystyle\sum_{n=1}^\infty\frac{1}{2^n}=\sum_{n=1}^\infty\left(\frac12\right)^n$ là chuỗi hình học có công bội $q=\dfrac12$, $|q|<1$ nên hội tụ.
+
+Chuỗi D: $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$ là chuỗi đan dấu có $\dfrac1n$ giảm dần và tiến tới $0$ khi $n\to\infty$; theo tiêu chuẩn chuỗi đan dấu, chuỗi hội tụ.
+
+Trong bốn chuỗi, chỉ có chuỗi B phân kì. Vậy chọn **B**.
+
+*Nhận xét.* Chuỗi D hội tụ có điều kiện: bản thân nó hội tụ nhưng chuỗi các giá trị tuyệt đối $\displaystyle\sum\frac1n$ (chuỗi điều hoà) phân kì; vì D hội tụ nên D không phải đáp án.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -142,7 +156,16 @@ Tính tổng $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n$.
 **Cần nhớ:** đây là chuỗi hình học với $r=-\dfrac12$.
 
 ::solution
-$\dfrac{1}{1-(-1/2)}=\dfrac{1}{3/2}=\dfrac23$.
+Viết lại chuỗi: $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n=\sum_{n=0}^\infty\left(-\frac12\right)^n$.
+
+Đây là chuỗi hình học có số hạng đầu $u_0=1$ và công bội $q=-\dfrac12$. Vì $|q|=\dfrac12<1$ nên chuỗi hội tụ và có tổng $\dfrac{1}{1-q}$.
+
+Thay $q=-\dfrac12$ vào, ta được
+$$S=\frac{1}{1-\left(-\frac12\right)}=\frac{1}{\frac32}=\frac23.$$
+
+Vậy tổng của chuỗi bằng $\dfrac23$.
+
+**Đáp số.** $\dfrac23$.
 :::
 
 :::exercise Tự luận
@@ -152,7 +175,20 @@ Dùng tiêu chuẩn tỉ số cho $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$
 **Cần nhớ:** $\dfrac{a_{n+1}}{a_n}=\dfrac{2}{n+1}$; $e^2=\displaystyle\sum_{n=0}^\infty\frac{2^n}{n!}$.
 
 ::solution
-$\dfrac{2}{n+1}\to0<1$, nên chuỗi hội tụ. Bắt đầu từ $n=1$ là bỏ đi số hạng $1$: tổng bằng $e^2-1$.
+Đặt $a_n=\dfrac{2^n}{n!}$. Áp dụng tiêu chuẩn tỉ số, ta xét
+$$\frac{a_{n+1}}{a_n}=\frac{2^{n+1}}{(n+1)!}\cdot\frac{n!}{2^n}=\frac{2}{n+1}.$$
+
+Khi $n\to\infty$, $\dfrac{2}{n+1}\to0<1$. Do đó, theo tiêu chuẩn tỉ số, chuỗi $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$ hội tụ.
+
+Để tính tổng, ta dùng khai triển $e^x=\displaystyle\sum_{n=0}^\infty\frac{x^n}{n!}$. Thay $x=2$, ta được
+$$e^2=\sum_{n=0}^\infty\frac{2^n}{n!}=1+\sum_{n=1}^\infty\frac{2^n}{n!}.$$
+
+Chuỗi đã cho bắt đầu từ $n=1$, tức là đã bỏ đi số hạng ứng với $n=0$ bằng $\dfrac{2^0}{0!}=1$. Suy ra
+$$\sum_{n=1}^\infty\frac{2^n}{n!}=e^2-1.$$
+
+Vậy chuỗi hội tụ và có tổng bằng $e^2-1$.
+
+**Đáp số.** Chuỗi hội tụ (tiêu chuẩn tỉ số); tổng bằng $e^2-1$.
 :::
 
 :::exercise Trắc nghiệm
@@ -166,7 +202,16 @@ D. $x-\dfrac{x^3}{3}+\dfrac{x^5}{5}-\dots$
 **Cần nhớ:** thế $-x^2$ vào chỗ $x$ trong $\dfrac{1}{1-x}$.
 
 ::solution
-$\displaystyle\sum\left(-x^2\right)^n$: đáp án **C**. Phương án D là chuỗi của $\arctan x$, tức tích phân của nó.
+Ta dùng chuỗi hình học $\dfrac{1}{1-u}=\displaystyle\sum_{n=0}^\infty u^n$ với $|u|<1$.
+
+Thay $u=-x^2$, ta được
+$$\frac{1}{1+x^2}=\sum_{n=0}^\infty\left(-x^2\right)^n=\sum_{n=0}^\infty(-1)^nx^{2n}=1-x^2+x^4-x^6+\dots$$
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án A là chuỗi của $\dfrac{1}{1-x^2}$ (thiếu dấu trừ xen kẽ); phương án B là chuỗi của $\dfrac{1}{1+x}$; phương án D là chuỗi của $\arctan x$, tức là tích phân của $\dfrac{1}{1+x^2}$ chứ không phải chính nó.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -176,7 +221,21 @@ Tìm đa thức Taylor bậc hai của $\ln x$ tại $x=1$ và dùng nó để t
 **Cần nhớ:** $f(1)=0$, $f'(1)=1$, $f''(1)=-1$.
 
 ::solution
-$P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$, nên $\ln1{,}2\approx0{,}2-0{,}02=0{,}18$. (Giá trị thật khoảng $0{,}1823$.)
+Đa thức Taylor bậc hai của $f$ tại $x=1$ là
+$$P_2(x)=f(1)+f'(1)(x-1)+\frac{f''(1)}{2!}(x-1)^2.$$
+
+Với $f(x)=\ln x$, ta có $f'(x)=\dfrac1x$ và $f''(x)=-\dfrac{1}{x^2}$. Suy ra
+$$f(1)=\ln1=0,\quad f'(1)=1,\quad f''(1)=-1.$$
+
+Thay vào công thức, ta được
+$$P_2(x)=(x-1)-\frac{(x-1)^2}{2}.$$
+
+Để tính gần đúng $\ln1{,}2$, ta thay $x=1{,}2$, khi đó $x-1=0{,}2$:
+$$\ln1{,}2\approx P_2(1{,}2)=0{,}2-\frac{0{,}2^2}{2}=0{,}2-0{,}02=0{,}18.$$
+
+Vậy $P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$ và $\ln1{,}2\approx0{,}18$. (Giá trị thật khoảng $0{,}1823$.)
+
+**Đáp số.** $P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$; $\ln1{,}2\approx0{,}18$.
 :::
 
 ## Bài tập vận dụng
@@ -195,11 +254,24 @@ c) Biết $\left|f^{(4)}(x)\right|\le24$ với $1\le x\le1{,}2$, chứng tỏ gi
 2. Cận: $\dfrac{24}{4!}(0{,}2)^4$.
 
 ::solution
-a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$.
+Đa thức Taylor bậc ba của $f$ tại $x=1$ có dạng
+$$P_3(x)=f(1)+f'(1)(x-1)+\frac{f''(1)}{2!}(x-1)^2+\frac{f'''(1)}{3!}(x-1)^3.$$
 
-b) $3-0{,}4+0{,}1+0{,}016=2{,}716$.
+a) Thay $f(1)=3$, $f'(1)=-2$, $f''(1)=5$, $f'''(1)=12$ vào công thức, ta được
+$$P_3(x)=3-2(x-1)+\frac52(x-1)^2+\frac{12}{6}(x-1)^3=3-2(x-1)+\frac52(x-1)^2+2(x-1)^3.$$
 
-c) $\left|f(1{,}2)-P_3(1{,}2)\right|\le\dfrac{24}{24}(0{,}2)^4=0{,}0016<0{,}002$.
+b) Với $x=1{,}2$ ta có $x-1=0{,}2$, nên
+$$f(1{,}2)\approx P_3(1{,}2)=3-2(0{,}2)+\frac52(0{,}2)^2+2(0{,}2)^3=3-0{,}4+0{,}1+0{,}016=2{,}716.$$
+
+c) Theo công thức đánh giá sai số Lagrange, nếu $\left|f^{(4)}(x)\right|\le M$ trên đoạn $[1; 1{,}2]$ thì
+$$\left|f(1{,}2)-P_3(1{,}2)\right|\le\frac{M}{4!}\left|1{,}2-1\right|^4.$$
+
+Với $M=24$, ta có
+$$\left|f(1{,}2)-P_3(1{,}2)\right|\le\frac{24}{24}(0{,}2)^4=0{,}0016<0{,}002.$$
+
+Vậy $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$, $f(1{,}2)\approx2{,}716$, và giá trị gần đúng này sai khác $f(1{,}2)$ không quá $0{,}0016$, tức là ít hơn $0{,}002$.
+
+**Đáp số.** a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$; b) $2{,}716$; c) sai số $\le0{,}0016<0{,}002$.
 :::
 
 :::exercise Cả hai đầu mút
@@ -209,7 +281,20 @@ Tìm khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x+1)^n}{n^2
 **Cần nhớ:** bán kính từ tiêu chuẩn tỉ số; ở hai đầu mút ta được chuỗi $p$ với $p=2$.
 
 ::solution
-Tỉ số tiến tới $|x+1|$, nên $-2<x<0$. Tại $x=0$: $\displaystyle\sum\frac{1}{n^2}$ hội tụ. Tại $x=-2$: $\displaystyle\sum\frac{(-1)^n}{n^2}$ hội tụ tuyệt đối. Khoảng hội tụ là $[-2,0]$.
+Đặt $a_n=\dfrac{(x+1)^n}{n^2}$. Áp dụng tiêu chuẩn tỉ số, ta có
+$$\left|\frac{a_{n+1}}{a_n}\right|=\frac{|x+1|^{n+1}}{(n+1)^2}\cdot\frac{n^2}{|x+1|^n}=|x+1|\cdot\frac{n^2}{(n+1)^2}\to|x+1|\quad(n\to\infty).$$
+
+Chuỗi hội tụ khi $|x+1|<1$, tức là $-1<x+1<1$, hay $-2<x<0$. Bán kính hội tụ là $1$.
+
+Xét hai đầu mút.
+
+Tại $x=0$: chuỗi trở thành $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$, là chuỗi $p$ với $p=2>1$ nên hội tụ.
+
+Tại $x=-2$: chuỗi trở thành $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$. Chuỗi các giá trị tuyệt đối là $\displaystyle\sum\frac{1}{n^2}$ hội tụ, nên chuỗi này hội tụ tuyệt đối, do đó hội tụ.
+
+Vậy khoảng hội tụ của chuỗi là $[-2; 0]$.
+
+**Đáp số.** $[-2; 0]$.
 :::
 
 :::exercise Lấy tích phân một chuỗi
@@ -223,7 +308,21 @@ Dùng chuỗi của $e^x$ để viết chuỗi cho $\displaystyle\int_0^xe^{-t^2
 2. Thay $x=0{,}5$.
 
 ::solution
-$0{,}5-\dfrac{0{,}125}{3}+\dfrac{0{,}03125}{10}\approx0{,}4615$. Chuỗi đan dấu với số hạng giảm dần, nên sai số không vượt quá $\dfrac{0{,}5^7}{42}\approx0{,}0002$.
+Ta có chuỗi $e^u=\displaystyle\sum_{n=0}^\infty\frac{u^n}{n!}$. Thay $u=-t^2$, ta được
+$$e^{-t^2}=\sum_{n=0}^\infty\frac{(-1)^nt^{2n}}{n!}=1-t^2+\frac{t^4}{2}-\frac{t^6}{6}+\dots$$
+
+Lấy tích phân từng số hạng từ $0$ đến $x$:
+$$\int_0^xe^{-t^2}\,dt=x-\frac{x^3}{3}+\frac{x^5}{10}-\frac{x^7}{42}+\dots=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)\,n!}.$$
+
+Dùng ba số hạng khác không đầu tiên với $x=0{,}5$:
+$$\int_0^{0{,}5}e^{-t^2}\,dt\approx0{,}5-\frac{0{,}5^3}{3}+\frac{0{,}5^5}{10}=0{,}5-\frac{0{,}125}{3}+\frac{0{,}03125}{10}\approx0{,}4615.$$
+
+Tại $x=0{,}5$, chuỗi trên là chuỗi đan dấu có các số hạng giảm dần về $0$ (khoảng $0{,}5$; $0{,}0417$; $0{,}0031$; $0{,}0002$; …). Theo đánh giá sai số của chuỗi đan dấu, sai số không vượt quá giá trị tuyệt đối của số hạng đầu tiên bị bỏ đi:
+$$\left|\text{sai số}\right|\le\frac{0{,}5^7}{42}\approx0{,}0002.$$
+
+Vậy $\displaystyle\int_0^xe^{-t^2}\,dt=x-\dfrac{x^3}{3}+\dfrac{x^5}{10}-\dfrac{x^7}{42}+\dots$, giá trị gần đúng của $\displaystyle\int_0^{0{,}5}e^{-t^2}\,dt$ là $0{,}4615$ với sai số không vượt quá khoảng $0{,}0002$.
+
+**Đáp số.** $\displaystyle\int_0^{0{,}5}e^{-t^2}\,dt\approx0{,}4615$; sai số không vượt quá khoảng $0{,}0002$.
 :::
 
 :::exercise Thử thách
@@ -233,7 +332,20 @@ Lấy đạo hàm chuỗi hình học $\displaystyle\sum_{n=0}^\infty x^n=\frac{
 **Cần nhớ:** $\displaystyle\sum_{n=1}^\infty nx^{n-1}=\frac{1}{(1-x)^2}$ khi $|x|<1$; nhân hai vế với $x$.
 
 ::solution
-$\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. Tại $x=\dfrac12$: $\dfrac{1/2}{1/4}=2$.
+Chuỗi hình học $\displaystyle\sum_{n=0}^\infty x^n=\frac{1}{1-x}$ hội tụ với $|x|<1$.
+
+Lấy đạo hàm hai vế theo $x$ (đạo hàm từng số hạng của chuỗi luỹ thừa trong khoảng hội tụ):
+$$\sum_{n=1}^\infty nx^{n-1}=\frac{1}{(1-x)^2}.$$
+
+Nhân hai vế với $x$, ta được
+$$\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2},\quad|x|<1.$$
+
+Thay $x=\dfrac12$ (thoả mãn $|x|<1$), ta có $\displaystyle\sum_{n=1}^\infty n\left(\frac12\right)^n=\sum_{n=1}^\infty\frac{n}{2^n}$ và
+$$\sum_{n=1}^\infty\frac{n}{2^n}=\frac{\frac12}{\left(1-\frac12\right)^2}=\frac{\frac12}{\frac14}=2.$$
+
+Vậy tổng của chuỗi bằng $2$.
+
+**Đáp số.** $2$.
 :::
 
 :::quiz

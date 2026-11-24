@@ -196,11 +196,19 @@ c) $AB'$ and $A'D$.
 2. Look at the triangle formed.
 
 ::solution
-a) $A'D'\parallel AD$, so $\angle(AB, A'D')=\angle(AB, AD)=\angle BAD=90^\circ$.
+The angle between two lines $a$, $b$ in space is the angle between two lines $a'$, $b'$ through a common point that are parallel (or equal) to $a$, $b$ respectively.
 
-b) $B'D'\parallel BD$ and $AC\perp BD$ (the diagonals of a square), so $AC\perp B'D'$, that is the angle is $90^\circ$.
+a) Since $A'D'\parallel AD$,
+$$\angle(AB, A'D')=\angle(AB, AD)=\angle BAD=90^\circ$$
+(because $ABCD$ is a square).
 
-c) $A'D\parallel B'C$, so $\angle(AB', A'D)=\angle(AB', B'C)=\angle AB'C$. Triangle $AB'C$ has three sides that are face diagonals, so it is equilateral, hence $\angle AB'C=60^\circ$.
+b) Since $B'D'\parallel BD$, we have $\angle(AC, B'D')=\angle(AC, BD)$. The diagonals $AC$ and $BD$ of the square $ABCD$ are perpendicular, so $AC\perp B'D'$, that is the angle between them is $90^\circ$.
+
+c) Since $A'D\parallel B'C$ ($A'B'CD$ is a parallelogram),
+$$\angle(AB', A'D)=\angle(AB', B'C)=\angle AB'C.$$
+Triangle $AB'C$ has three sides $AB'$, $B'C$, $AC$ that are diagonals of equal square faces, so $AB'=B'C=CA$ and the triangle is equilateral. Hence $\angle AB'C=60^\circ$.
+
+So the angle between $AB$ and $A'D'$ is $90^\circ$, between $AC$ and $B'D'$ is $90^\circ$, and between $AB'$ and $A'D$ is $60^\circ$.
 
 **Answer.** a) $90^\circ$; b) $90^\circ$; c) $60^\circ$.
 :::
@@ -216,9 +224,13 @@ Let $ABCD.A'B'C'D'$ be a cuboid. Prove that $AA'\perp B'C'$ and $BB'\perp CD$.
 2. Use the right angle of the rectangle.
 
 ::solution
-Since $B'C'\parallel A'D'$ and $AA'\perp A'D'$ (face $ADD'A'$ is a rectangle), $AA'\perp B'C'$.
+We use the property: if $a\parallel b$ and $b\perp c$, then $a\perp c$.
 
-Since $CD\parallel AB$ and $BB'\perp AB$ (face $ABB'A'$ is a rectangle), $BB'\perp CD$.
+Proof that $AA'\perp B'C'$. In a cuboid, $B'C'\parallel A'D'$ (opposite sides of the rectangle $A'B'C'D'$). The face $ADD'A'$ is a rectangle, so $AA'\perp A'D'$. Since $B'C'\parallel A'D'$ and $AA'\perp A'D'$, we get $AA'\perp B'C'$.
+
+Proof that $BB'\perp CD$. We have $CD\parallel AB$ (opposite sides of the rectangle $ABCD$). The face $ABB'A'$ is a rectangle, so $BB'\perp AB$. Since $CD\parallel AB$ and $BB'\perp AB$, we get $BB'\perp CD$.
+
+So $AA'\perp B'C'$ and $BB'\perp CD$.
 
 **Answer.** Both are perpendicular.
 :::
@@ -234,7 +246,15 @@ Suppose a room is a cuboid with floor the rectangle $ABCD$, $AB=6$ m, $BC=4$ m, 
 2. Find $\angle BAC$ in the right-angled triangle $ABC$.
 
 ::solution
-$A'C'\parallel AC$, so $\angle(AB, A'C')=\angle(AB, AC)=\angle BAC$. In triangle $ABC$, right-angled at $B$, we have $\tan\angle BAC=\dfrac{BC}{AB}=\dfrac46=\dfrac23$, so $\angle BAC\approx33.7^\circ$.
+Let $\varphi$ be the angle between the two pipes. Since $A'C'\parallel AC$ (opposite sides of the rectangle $AA'C'C$),
+$$\varphi=\angle(AB, A'C')=\angle(AB, AC)=\angle BAC.$$
+
+The base $ABCD$ is a rectangle, so triangle $ABC$ is right-angled at $B$, with $AB=6$ m and $BC=4$ m. We have
+$$\tan\angle BAC=\frac{BC}{AB}=\frac46=\frac23.$$
+
+Hence $\angle BAC\approx33.7^\circ$ (to one decimal place of a degree). The height $3$ m of the room does not affect the result.
+
+So the angle between the two pipes is about $33.7^\circ$.
 
 **Answer.** About $33.7^\circ$.
 :::
@@ -250,9 +270,18 @@ Suppose the frame of a bookcase is a cuboid $ABCD.A'B'C'D'$ with $AB=40$ cm, $AD
 2. Find $\cos\angle AOB$ and take the acute angle.
 
 ::solution
-$B'D'\parallel BD$, so $\angle(AC, B'D')=\angle(AC, BD)$. We have $AC=BD=\sqrt{40^2+90^2}=\sqrt{9700}$, so $OA=OB=\dfrac{\sqrt{9700}}{2}$ and $OA^2=2425$. Hence
-$$\cos\angle AOB=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0.6701,$$
-so $\angle AOB\approx47.9^\circ$ (acute).
+Since $B'D'\parallel BD$, we have $\angle(AC, B'D')=\angle(AC, BD)$. Let $O$ be the intersection of $AC$ and $BD$; the required angle is the acute angle between $AC$ and $BD$ at $O$.
+
+The base $ABCD$ is a rectangle, so
+$$AC=BD=\sqrt{AB^2+AD^2}=\sqrt{40^2+90^2}=\sqrt{9700}.$$
+$O$ is the midpoint of $AC$ and $BD$, so $OA=OB=\dfrac{\sqrt{9700}}{2}$, hence $OA^2=OB^2=\dfrac{9700}{4}=2425$.
+
+By the cosine rule in triangle $OAB$,
+$$\cos\angle AOB=\frac{OA^2+OB^2-AB^2}{2\cdot OA\cdot OB}=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0.6701.$$
+
+Since $\cos\angle AOB>0$, the angle $\angle AOB$ is acute and $\angle AOB\approx47.9^\circ$. This is the angle between the lines $AC$ and $BD$.
+
+So the two diagonal bars make an angle of about $47.9^\circ$.
 
 **Answer.** About $47.9^\circ$.
 :::
@@ -276,13 +305,15 @@ d) The angle between two lines always measures from $0^\circ$ to $90^\circ$.
 2. Look for a counterexample in the cube if needed.
 
 ::solution
-a) **False**: the angle between skew lines is defined through parallel lines.
+a) **False.** Two skew lines still have an angle between them: it is the angle between two intersecting lines parallel to them (through any chosen point).
 
-b) **True**: the property we have learned.
+b) **True.** Since $a\parallel b$, the angle between $b$ and $c$ equals the angle between $a$ and $c$. As $a\perp c$, this angle is $90^\circ$, that is $b\perp c$.
 
-c) **False**: in a cube, $AB$ and $AD$ are both perpendicular to $AA'$ but are not parallel.
+c) **False.** In the cube $ABCD.A'B'C'D'$, the lines $AB$ and $AD$ are both perpendicular to $AA'$, but $AB$ and $AD$ meet at $A$, so they are not parallel.
 
-d) **True**: by definition.
+d) **True.** By definition, the angle between two lines is the angle between corresponding intersecting lines, and its measure always lies from $0^\circ$ to $90^\circ$.
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -298,9 +329,18 @@ Revisit the cosine rule. The cuboid $ABCD.A'B'C'D'$ has $AB=1$, $AD=2$, $AA'=2$.
 2. Find the three sides, then use the cosine rule.
 
 ::solution
-$A'D\parallel B'C$, so $\angle(AC, A'D)=\angle ACB'$. We have $AC=\sqrt{1+4}=\sqrt5$, $AB'=\sqrt{1+4}=\sqrt5$ and $B'C=\sqrt{4+4}=2\sqrt2$. Hence
-$$\cos\angle ACB'=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0.6325,$$
-so $\angle ACB'\approx50.8^\circ$.
+Since $A'D\parallel B'C$ ($A'B'CD$ is a rectangle),
+$$\angle(AC, A'D)=\angle(AC, B'C)=\angle ACB'.$$
+
+We compute the sides of triangle $ACB'$ (the triangles $ABC$, $ABB'$, $BB'C$ are right-angled at $B$):
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{1+4}=\sqrt5,\quad AB'=\sqrt{AB^2+BB'^2}=\sqrt{1+4}=\sqrt5,\quad B'C=\sqrt{BC^2+BB'^2}=\sqrt{4+4}=2\sqrt2.$$
+
+By the cosine rule in triangle $ACB'$,
+$$\cos\angle ACB'=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0.6325.$$
+
+Hence $\angle ACB'\approx50.8^\circ$. This angle is acute, so it is the angle between $AC$ and $A'D$.
+
+So the angle between $AC$ and $A'D$ is about $50.8^\circ$.
 
 **Answer.** $50.8^\circ$.
 :::
@@ -316,9 +356,17 @@ Suppose a roof frame is a regular triangular prism $ABC.A'B'C'$ with all edges $
 2. Use the cosine rule.
 
 ::solution
-$A'C'\parallel AC$, so $\angle(AB', A'C')=\angle B'AC$. Face $ABB'A'$ is a square of side $3$, so $AB'=3\sqrt2$; face $BCC'B'$ is a square, so $B'C=3\sqrt2$; $AC=3$. Hence
-$$\cos\angle B'AC=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0.3536,$$
-so $\angle B'AC\approx69.3^\circ$.
+Since $A'C'\parallel AC$ (opposite sides of the rectangle $AA'C'C$),
+$$\angle(AB', A'C')=\angle(AB', AC)=\angle B'AC.$$
+
+The regular triangular prism has all edges equal to $3$, so its lateral faces are squares of side $3$. The face $ABB'A'$ is a square of side $3$, so $AB'=3\sqrt2$. The face $BCC'B'$ is a square of side $3$, so $B'C=3\sqrt2$. Also $AC=3$.
+
+By the cosine rule in triangle $B'AC$,
+$$\cos\angle B'AC=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0.3536.$$
+
+Hence $\angle B'AC\approx69.3^\circ$. This angle is acute, so it is the angle between $AB'$ and $A'C'$.
+
+So the angle between the bars $AB'$ and $A'C'$ is about $69.3^\circ$.
 
 **Answer.** $69.3^\circ$.
 :::
@@ -334,9 +382,20 @@ The cuboid $ABCD.A'B'C'D'$ has $AB=a$, $AD=b$, $AA'=c$. Let $\varphi$ be the ang
 2. Find $\cos\angle AOB$, then consider the acute and obtuse cases.
 
 ::solution
-$B'D'\parallel BD$, so $\varphi$ is the acute angle between $AC$ and $BD$. With $d^2=a^2+b^2$ and $OA=OB=\dfrac d2$:
-$$\cos\angle AOB=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{b^2-a^2}{a^2+b^2}.$$
-If $b\ge a$ then $\angle AOB$ is acute and $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}$. If $b<a$ then $\angle AOB$ is obtuse, the angle between the lines is the supplement and $\cos\varphi=-\cos\angle AOB=\dfrac{a^2-b^2}{a^2+b^2}$. Both cases give $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, which does not contain $c$.
+Since $B'D'\parallel BD$, the angle $\varphi$ between $AC$ and $B'D'$ is also the angle between $AC$ and $BD$, that is the acute (or right) angle formed by these two lines.
+
+Let $O$ be the intersection of $AC$ and $BD$. Put $d^2=AC^2=BD^2=a^2+b^2$. Since $O$ is the midpoint of $AC$ and $BD$, $OA=OB=\dfrac d2$.
+
+By the cosine rule in triangle $OAB$ with $AB=a$,
+$$\cos\angle AOB=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{a^2+b^2-2a^2}{a^2+b^2}=\frac{b^2-a^2}{a^2+b^2}.$$
+
+We consider two cases.
+
+If $b\ge a$ then $\cos\angle AOB\ge0$, so $\angle AOB$ is acute or right and $\varphi=\angle AOB$. Then $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+If $b<a$ then $\cos\angle AOB<0$, so $\angle AOB$ is obtuse and the angle between the lines is the supplement $\varphi=180^\circ-\angle AOB$. Then $\cos\varphi=-\cos\angle AOB=\dfrac{a^2-b^2}{a^2+b^2}=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+So in both cases $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, which does not contain $c$, hence it is independent of $c$.
 
 **Answer.** $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$.
 :::

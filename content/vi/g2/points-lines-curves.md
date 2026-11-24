@@ -137,7 +137,11 @@ Hình gồm hai điểm $P$, $Q$ và nét thẳng nối $P$ với $Q$ vẽ bằn
 2. Đọc tên theo hai điểm đầu.
 
 ::solution
-Nét thẳng nối hai điểm $P$ và $Q$ có hai đầu, nên đó là đoạn thẳng $PQ$.
+Hình gồm hai điểm $P$, $Q$ và nét thẳng nối $P$ với $Q$ vẽ bằng thước.
+
+Nét thẳng này có hai đầu là $P$ và $Q$ (không kéo dài mãi về hai phía). Hình có hai đầu như vậy gọi là đoạn thẳng.
+
+Vậy hình đó là đoạn thẳng $PQ$.
 
 **Đáp số.** Đoạn thẳng $PQ$.
 :::
@@ -153,7 +157,17 @@ Em hãy nêu các bước vẽ đoạn thẳng $AB$ dài $5$ cm.
 2. Chấm điểm $B$ ở vạch $5$, rồi kẻ nét thẳng.
 
 ::solution
-Chấm điểm $A$. Đặt thước sao cho vạch $0$ ở $A$. Chấm điểm $B$ ở vạch $5$ cm. Dùng bút kẻ nét thẳng từ $A$ đến $B$ theo mép thước. Ta được đoạn thẳng $AB$ dài $5$ cm.
+Để vẽ đoạn thẳng $AB$ dài $5$ cm, ta làm lần lượt như sau.
+
+Bước 1: Dùng bút chấm một điểm và đặt tên là $A$.
+
+Bước 2: Đặt thước sao cho vạch $0$ của thước trùng với điểm $A$.
+
+Bước 3: Chấm điểm $B$ ở đúng vạch $5$ cm của thước.
+
+Bước 4: Dùng bút kẻ một nét thẳng từ $A$ đến $B$ theo mép thước.
+
+Vậy ta được đoạn thẳng $AB$ dài $5$ cm.
 
 **Đáp số.** Đoạn thẳng $AB$ dài $5$ cm.
 :::
@@ -175,11 +189,13 @@ c) Vành chiếc bánh xe đạp.
 2. Gọi tên hình.
 
 ::solution
-a) Mép bảng thẳng, có hai đầu: đoạn thẳng.
+a) Mép tấm bảng thẳng và có hai đầu, nên gợi ra đoạn thẳng.
 
-b) Sợi dây uốn lượn: đường cong.
+b) Sợi dây thừng uốn lượn trên sàn không thẳng mà cong, nên gợi ra đường cong.
 
-c) Vành bánh xe tròn, không thẳng: đường cong.
+c) Vành chiếc bánh xe đạp tròn, không thẳng, nên gợi ra đường cong.
+
+Vậy a) đoạn thẳng; b) đường cong; c) đường cong.
 
 **Đáp số.** a) Đoạn thẳng; b) Đường cong; c) Đường cong.
 :::
@@ -195,8 +211,18 @@ Em hãy nhớ lại bài trừ có nhớ. Đoạn thẳng $AB$ dài $52$ cm, đo
 2. Tính $52-27$, nhớ mượn $1$ chục, rồi ghi đơn vị cm.
 
 ::solution
-$12-7=5$ và $5-1-2=2$. Đoạn $AB$ dài hơn đoạn $CD$ là:
-$$52-27=25\ \text{(cm)}.$$
+Bài giải
+
+Muốn biết đoạn thẳng $AB$ dài hơn đoạn thẳng $CD$ bao nhiêu xăng-ti-mét, ta lấy độ dài $AB$ trừ độ dài $CD$.
+
+Đặt tính rồi trừ từ hàng đơn vị: $2$ không trừ được $7$, lấy $12-7=5$, viết $5$ nhớ $1$. Hàng chục: $5-1-2=2$, viết $2$.
+
+Đoạn thẳng $AB$ dài hơn đoạn thẳng $CD$ là:
+$$52-27=25\ \text{(cm)}$$
+
+Thử lại: $25+27=52$. Đúng.
+
+Vậy đoạn thẳng $AB$ dài hơn đoạn thẳng $CD$ là $25$ cm.
 
 **Đáp số.** $25$ cm.
 :::
@@ -212,7 +238,15 @@ Cho ba điểm $A$, $B$, $C$ thẳng hàng, điểm $B$ ở giữa. Em hãy kể
 2. Viết tên từng đoạn thẳng.
 
 ::solution
-Các cặp điểm: $A$ với $B$, $B$ với $C$, $A$ với $C$. Các đoạn thẳng là $AB$, $BC$, $AC$.
+Mỗi đoạn thẳng có hai đầu là hai trong ba điểm $A$, $B$, $C$. Ta ghép từng cặp điểm khác nhau:
+
+- cặp $A$ và $B$ cho đoạn thẳng $AB$;
+- cặp $B$ và $C$ cho đoạn thẳng $BC$;
+- cặp $A$ và $C$ cho đoạn thẳng $AC$.
+
+Đoạn thẳng $AC$ đi qua điểm $B$ nhưng vẫn là một đoạn thẳng có hai đầu là $A$ và $C$. Không còn cặp điểm nào khác.
+
+Vậy có $3$ đoạn thẳng là $AB$, $BC$, $AC$.
 
 **Đáp số.** $AB$, $BC$, $AC$ (có $3$ đoạn thẳng).
 :::
@@ -228,7 +262,11 @@ Bạn Nam vẽ nét hơi cong nối hai điểm $A$, $B$ rồi nói: "Đây là 
 2. Cần dụng cụ gì để vẽ thẳng?
 
 ::solution
-Nét của Nam hơi cong, không thẳng, nên đó không phải đoạn thẳng. Em dùng thước đặt theo mép đi qua $A$ và $B$, rồi kẻ nét thẳng.
+Đoạn thẳng là nét thẳng có hai đầu. Nét mà bạn Nam vẽ nối hai điểm $A$, $B$ hơi cong, không thẳng, nên đó không phải là đoạn thẳng.
+
+Cách sửa: đặt thước sao cho mép thước đi qua cả hai điểm $A$ và $B$, rồi dùng bút kẻ một nét thẳng từ $A$ đến $B$ theo mép thước. Khi đó ta được đoạn thẳng $AB$.
+
+Vậy bạn Nam nói sai; cần vẽ lại nét nối $A$ với $B$ bằng thước.
 
 **Đáp số.** Sai; cần vẽ lại bằng thước.
 :::
@@ -244,7 +282,13 @@ Ba cọc tiêu $A$, $B$, $C$ cắm thẳng hàng trên sân. Các bạn căng s�
 2. Cọc $D$ có nằm trên nét thẳng $AC$ không?
 
 ::solution
-Vì $A$, $B$, $C$ thẳng hàng nên cọc $B$ nằm trên sợi dây căng từ $A$ đến $C$. Cọc $D$ cắm lệch ra ngoài nên không nằm trên sợi dây.
+Sợi dây căng từ cọc $A$ đến cọc $C$ là một nét thẳng, nên nó gợi ra đoạn thẳng $AC$.
+
+Vì ba cọc $A$, $B$, $C$ cắm thẳng hàng nên cọc $B$ nằm trên sợi dây căng từ $A$ đến $C$.
+
+Cọc $D$ cắm lệch ra ngoài, không thẳng hàng với $A$ và $C$, nên cọc $D$ không nằm trên sợi dây.
+
+Vậy cọc $B$ nằm trên sợi dây căng, còn cọc $D$ không nằm trên sợi dây.
 
 **Đáp số.** Cọc $B$ nằm trên dây; cọc $D$ không nằm trên dây.
 :::
@@ -260,7 +304,16 @@ Cho bốn điểm $A$, $B$, $C$, $D$. Ba điểm $A$, $B$, $C$ thẳng hàng, đ
 2. Rồi cặp có $B$ (chưa kể), rồi cặp có $C$.
 
 ::solution
-Các đoạn thẳng: $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. Có $3+2+1=6$ đoạn thẳng.
+Nối từng cặp điểm trong bốn điểm $A$, $B$, $C$, $D$ thì mỗi cặp cho một đoạn thẳng. Ta liệt kê có thứ tự để không bỏ sót và không đếm lặp.
+
+- Các đoạn thẳng có đầu là $A$: $AB$, $AC$, $AD$ ($3$ đoạn).
+- Các đoạn thẳng có đầu là $B$ (không tính lại $AB$): $BC$, $BD$ ($2$ đoạn).
+- Các đoạn thẳng có đầu là $C$ (không tính lại $AC$, $BC$): $CD$ ($1$ đoạn).
+
+Số đoạn thẳng là:
+$$3+2+1=6\ \text{(đoạn thẳng)}$$
+
+Vậy có tất cả $6$ đoạn thẳng.
 
 **Đáp số.** $6$ đoạn thẳng.
 :::

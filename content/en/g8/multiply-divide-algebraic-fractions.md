@@ -178,11 +178,17 @@ b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}$.
 2. b) Factorise $x^2-1=(x-1)(x+1)$.
 
 ::solution
-a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}=\dfrac{30x^2y^2}{45xy}=\dfrac{2xy}{3}$.
+We apply the rule for multiplying two fractions, $\dfrac AB\cdot\dfrac CD=\dfrac{AC}{BD}$, and then cancel the common factors of the numerator and the denominator.
 
-b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}=\dfrac{(x-1)(x+1)x^2}{x(x+1)}=x(x-1)$.
+a) Conditions: $x\neq0$, $y\neq0$. We have
+$$\frac{3x^2}{5y}\cdot\frac{10y^2}{9x}=\frac{3x^2\cdot10y^2}{5y\cdot9x}=\frac{30x^2y^2}{45xy}.$$
+Dividing the numerator and the denominator by the common factor $15xy$, we get $\dfrac{2xy}{3}$.
 
-So a) $\dfrac{2xy}{3}$; b) $x(x-1)$.
+b) Conditions: $x\neq0$, $x\neq-1$. Factorising $x^2-1=(x-1)(x+1)$, we have
+$$\frac{x^2-1}{x}\cdot\frac{x^2}{x+1}=\frac{(x-1)(x+1)\cdot x^2}{x(x+1)}.$$
+Dividing the numerator and the denominator by the common factor $x(x+1)$, we get $x(x-1)$.
+
+So a) the result is $\dfrac{2xy}{3}$; b) the result is $x(x-1)$.
 
 **Answer.** a) $\dfrac{2xy}{3}$. b) $x(x-1)$.
 :::
@@ -223,11 +229,15 @@ c) $\dfrac{x-2}{x+3}$.
 2. State when the original fraction is non-zero.
 
 ::solution
-a) $\dfrac{x-1}{5}$ (condition $x\neq1$ so that the original fraction is defined).
+Two fractions are reciprocals of each other if their product is $1$. The reciprocal of $\dfrac AB$ (with $A\neq0$, $B\neq0$) is $\dfrac BA$.
 
-b) $\dfrac{1}{x^2+1}$; $x^2+1>0$ for every $x$, so no condition is needed.
+a) The fraction $\dfrac{5}{x-1}$ is defined when $x\neq1$, and its numerator $5\neq0$. Its reciprocal is $\dfrac{x-1}{5}$, with the condition $x\neq1$.
 
-c) $\dfrac{x+3}{x-2}$ (condition $x\neq2$ so that the original fraction is non-zero, and $x\neq-3$ so that it is defined).
+b) The polynomial $x^2+1$ can be written as the fraction $\dfrac{x^2+1}{1}$. Its reciprocal is $\dfrac{1}{x^2+1}$. Since $x^2\ge0$, we have $x^2+1\ge1>0$ for every $x$, so $x^2+1\neq0$ and no extra condition is needed.
+
+c) The fraction $\dfrac{x-2}{x+3}$ is defined when $x\neq-3$. To have a reciprocal, it must be non-zero, that is $x-2\neq0$, so $x\neq2$. Its reciprocal is $\dfrac{x+3}{x-2}$, with the conditions $x\neq2$ and $x\neq-3$.
+
+So the reciprocals are: a) $\dfrac{x-1}{5}$; b) $\dfrac{1}{x^2+1}$; c) $\dfrac{x+3}{x-2}$.
 
 **Answer.** a) $\dfrac{x-1}{5}$. b) $\dfrac{1}{x^2+1}$. c) $\dfrac{x+3}{x-2}$.
 :::

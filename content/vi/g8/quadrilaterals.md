@@ -258,9 +258,13 @@ b) Tứ giác $MNPQ$ có $\widehat{M}=\widehat{N}=120^\circ$, $\widehat{P}=50^\c
 2. Lấy $360^\circ$ trừ đi tổng đó.
 
 ::solution
-a) $\widehat{D}=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
+Tổng bốn góc của một tứ giác bằng $360^\circ$, nên góc còn lại bằng $360^\circ$ trừ đi tổng ba góc đã biết.
 
-b) $\widehat{Q}=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+a) Ta có
+$$\widehat{D}=360^\circ-(\widehat{A}+\widehat{B}+\widehat{C})=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ.$$
+
+b) Ta có
+$$\widehat{Q}=360^\circ-(\widehat{M}+\widehat{N}+\widehat{P})=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ.$$
 
 Vậy a) $\widehat{D}=85^\circ$; b) $\widehat{Q}=70^\circ$.
 
@@ -278,9 +282,18 @@ Bốn góc của một tứ giác tỉ lệ với $2$, $3$, $3$, $4$. Tính số
 2. Tìm $k$ rồi tính từng góc.
 
 ::solution
-Ta có $2k+3k+3k+4k=12k=360^\circ$, nên $k=30^\circ$. Các góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+Gọi số đo bốn góc của tứ giác lần lượt là $2k$, $3k$, $3k$, $4k$ (độ), với $k>0$.
 
-Vậy bốn góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+Tổng bốn góc của tứ giác bằng $360^\circ$, nên
+$$2k+3k+3k+4k=360^\circ,$$
+tức là $12k=360^\circ$. Suy ra $k=360^\circ:12=30^\circ$ (thoả mãn $k>0$).
+
+Do đó các góc là
+$$2\cdot30^\circ=60^\circ,\quad3\cdot30^\circ=90^\circ,\quad3\cdot30^\circ=90^\circ,\quad4\cdot30^\circ=120^\circ.$$
+
+Kiểm tra: $60^\circ+90^\circ+90^\circ+120^\circ=360^\circ$.
+
+Vậy bốn góc của tứ giác là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
 
 **Đáp số.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
 :::
@@ -316,7 +329,12 @@ Tứ giác $ABCD$ có $\widehat{C}=60^\circ$, $\widehat{D}=90^\circ$ và $\wideh
 2. Chia đôi vì $\widehat{A}=\widehat{B}$.
 
 ::solution
-Ta có $\widehat{A}+\widehat{B}=360^\circ-60^\circ-90^\circ=210^\circ$. Vì $\widehat{A}=\widehat{B}$ nên mỗi góc bằng $210^\circ:2=105^\circ$.
+Tổng bốn góc của tứ giác $ABCD$ bằng $360^\circ$, tức là $\widehat{A}+\widehat{B}+\widehat{C}+\widehat{D}=360^\circ$. Suy ra
+$$\widehat{A}+\widehat{B}=360^\circ-\widehat{C}-\widehat{D}=360^\circ-60^\circ-90^\circ=210^\circ.$$
+
+Vì $\widehat{A}=\widehat{B}$ nên $2\widehat{A}=210^\circ$, suy ra $\widehat{A}=210^\circ:2=105^\circ$ và $\widehat{B}=105^\circ$.
+
+Kiểm tra: $105^\circ+105^\circ+60^\circ+90^\circ=360^\circ$.
 
 Vậy $\widehat{A}=\widehat{B}=105^\circ$.
 
@@ -352,7 +370,10 @@ Giả sử một sân hình tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\wide
 2. Lấy $360^\circ$ trừ đi tổng đó.
 
 ::solution
-Ta có $\widehat{D}=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
+Sân là tứ giác $ABCD$ nên tổng bốn góc bằng $360^\circ$. Do đó
+$$\widehat{D}=360^\circ-(\widehat{A}+\widehat{B}+\widehat{C})=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ.$$
+
+Kiểm tra: $90^\circ+90^\circ+105^\circ+75^\circ=360^\circ$.
 
 Vậy $\widehat{D}=75^\circ$.
 
@@ -370,9 +391,15 @@ Giả sử một chiếc diều có hình tứ giác với hai góc ở hai bên
 2. Lấy $360^\circ$ trừ đi tổng đó.
 
 ::solution
-Tổng ba góc đã biết là $105^\circ+105^\circ+60^\circ=270^\circ$. Góc ở đỉnh phía dưới là $360^\circ-270^\circ=90^\circ$.
+Chiếc diều là một tứ giác nên tổng bốn góc bằng $360^\circ$.
 
-Vậy góc ở đỉnh phía dưới là $90^\circ$.
+Tổng ba góc đã biết (hai góc ở hai bên và góc ở đỉnh phía trên) là
+$$105^\circ+105^\circ+60^\circ=270^\circ.$$
+
+Góc ở đỉnh phía dưới là
+$$360^\circ-270^\circ=90^\circ.$$
+
+Vậy góc ở đỉnh phía dưới của chiếc diều là $90^\circ$.
 
 **Đáp số.** $90^\circ$.
 :::

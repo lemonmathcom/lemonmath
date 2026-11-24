@@ -137,7 +137,17 @@ Tính $68-35$.
 2. Tính $6-3$.
 
 ::solution
-Hàng đơn vị: $8-5=3$. Hàng chục: $6-3=3$. Vậy $68-35=33$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $8-5=3$, viết $3$.
+
+Hàng chục: $6-3=3$, viết $3$.
+
+Do đó $68-35=33$.
+
+Thử lại: $33+35=68$. Đúng.
+
+Vậy $68-35=33$.
 
 **Đáp số.** $33$.
 :::
@@ -153,7 +163,17 @@ Tính $94-72$.
 2. Tính $9-7$.
 
 ::solution
-Hàng đơn vị: $4-2=2$. Hàng chục: $9-7=2$. Vậy $94-72=22$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $4-2=2$, viết $2$.
+
+Hàng chục: $9-7=2$, viết $2$.
+
+Do đó $94-72=22$.
+
+Thử lại: $22+72=94$. Đúng.
+
+Vậy $94-72=22$.
 
 **Đáp số.** $22$.
 :::
@@ -169,7 +189,17 @@ Tính $79-40$.
 2. Tính $7-4$.
 
 ::solution
-Hàng đơn vị: $9-0=9$. Hàng chục: $7-4=3$. Vậy $79-40=39$.
+Ta trừ theo từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $9-0=9$, viết $9$.
+
+Hàng chục: $7-4=3$, viết $3$.
+
+Do đó $79-40=39$.
+
+Thử lại: $39+40=79$. Đúng.
+
+Vậy $79-40=39$.
 
 **Đáp số.** $39$.
 :::
@@ -185,7 +215,13 @@ Hàng đơn vị: $9-0=9$. Hàng chục: $7-4=3$. Vậy $79-40=39$.
 2. So sánh kết quả với $40$.
 
 ::solution
-$6-2=4$ và $7-3=4$, nên $76-32=44$. Vì $44>40$ nên $76-32>40$.
+Ta tính vế trái trước. Hàng đơn vị: $6-2=4$. Hàng chục: $7-3=4$. Nên $76-32=44$.
+
+Ta so sánh $44$ với $40$. Hai số đều có $4$ chục; $44$ có $4$ đơn vị còn $40$ có $0$ đơn vị, mà $4>0$ nên $44>40$.
+
+Do đó $76-32>40$.
+
+Vậy điền dấu $>$.
 
 **Đáp số.** Dấu $>$.
 :::
@@ -201,8 +237,14 @@ Rổ có $76$ quả cam. Cô bán đi $34$ quả. Hỏi trong rổ còn lại ba
 2. Tính $76-34$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số quả cam còn lại là:
+Bài giải
+
+Số quả cam còn lại trong rổ là:
 $$76-34=42\ \text{(quả)}.$$
+
+Kiểm tra: $42+34=76$. Đúng.
+
+Vậy trong rổ còn lại $42$ quả cam.
 
 **Đáp số.** $42$ quả cam.
 :::
@@ -218,7 +260,15 @@ Em hãy nhớ lại bài trước: trừ số có hai chữ số cho số có m�
 2. Lấy kết quả trừ $21$.
 
 ::solution
-$8-5=3$, nên $48-5=43$. Rồi $3-1=2$ và $4-2=2$, nên $43-21=22$.
+Bài toán gồm hai bước: tính $48-5$ trước, rồi trừ kết quả cho $21$.
+
+Bước 1: $48-5$. Hàng đơn vị: $8-5=3$. Hàng chục giữ nguyên là $4$. Nên $48-5=43$.
+
+Bước 2: $43-21$. Hàng đơn vị: $3-1=2$. Hàng chục: $4-2=2$. Nên $43-21=22$.
+
+Thử lại: $22+21=43$ và $43+5=48$. Đúng.
+
+Vậy $48-5=43$ và $43-21=22$.
 
 **Đáp số.** $22$.
 :::
@@ -234,7 +284,17 @@ Hà làm bài: "$86-24$: hàng đơn vị $6-4=2$, hàng chục $8-2=6$, nên $8
 2. Ghép lại: mấy chục, mấy đơn vị?
 
 ::solution
-Hai phép trừ của Hà đúng, nhưng Hà viết nhầm chỗ. Có $6$ chục và $2$ đơn vị nên $86-24=62$.
+Ta kiểm tra từng bước của Hà.
+
+Hàng đơn vị: $6-4=2$, đúng. Hàng chục: $8-2=6$, đúng.
+
+Nhưng kết quả có $6$ chục và $2$ đơn vị, nên chữ số hàng chục phải là $6$ và chữ số hàng đơn vị phải là $2$. Hà viết $26$, tức là viết $2$ ở hàng chục và $6$ ở hàng đơn vị, nên đã viết nhầm chỗ.
+
+Cách viết đúng là $62$.
+
+Thử lại: $62+24=86$. Đúng.
+
+Vậy Hà làm sai; kết quả đúng là $86-24=62$.
 
 **Đáp số.** Sai; kết quả đúng là $62$.
 :::
@@ -250,9 +310,17 @@ Tìm chữ số thích hợp điền vào ô trống: $7\square-24=51$.
 2. Kiểm tra hàng chục: $7-2=5$.
 
 ::solution
-Hàng đơn vị: $5-4=1$. Số cần tìm là $75$, và chữ số cần điền là $5$.
+Số cần tìm có dạng $7\square$, tức là có $7$ chục.
 
-**Kiểm tra.** $75-24=51$. Đúng.
+Hàng đơn vị: số cần tìm trừ $4$ ở hàng đơn vị phải được $1$ (hàng đơn vị của $51$). Vì $5-4=1$ nên chữ số cần điền là $5$.
+
+Hàng chục: $7-2=5$, khớp với hàng chục của $51$.
+
+Do đó số cần tìm là $75$.
+
+Kiểm tra: $75-24=51$. Đúng.
+
+Vậy chữ số thích hợp điền vào ô trống là $5$.
 
 **Đáp số.** $5$.
 :::

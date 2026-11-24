@@ -163,7 +163,17 @@ Viết mỗi phân số sau dưới dạng số thập phân và dạng tỉ s�
 2. Viết kết quả dưới dạng phần trăm.
 
 ::solution
-a) $3:4=0{,}75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0{,}35=35\%$.
+Để viết phân số dưới dạng số thập phân, ta chia tử số cho mẫu số; để viết dưới dạng tỉ số phần trăm, ta nhân số thập phân với $100$ (hoặc đưa về phân số có mẫu số là $100$).
+
+a) Ta có
+$$\frac34=3:4=0{,}75=75\%.$$
+
+Vậy $\dfrac34=0{,}75=75\%$.
+
+b) Nhân cả tử số và mẫu số với $5$ để mẫu số bằng $100$:
+$$\frac{7}{20}=\frac{7\times5}{20\times5}=\frac{35}{100}=0{,}35=35\%.$$
+
+Vậy $\dfrac{7}{20}=0{,}35=35\%$.
 
 **Đáp số.** a) $0{,}75=75\%$; b) $0{,}35=35\%$.
 :::
@@ -180,9 +190,16 @@ Tính: a) $25{,}4-8{,}75$; b) $4{,}8\times0{,}25$; c) $9{,}6:0{,}8$.
 3. c) Đổi thành $96:8$.
 
 ::solution
-a) $25{,}40-8{,}75=16{,}65$.
-b) $48\times25=1\,200$ và có $1+2=3$ chữ số thập phân, nên $4{,}8\times0{,}25=1{,}2$.
-c) $9{,}6:0{,}8=96:8=12$.
+a) Viết $25{,}4=25{,}40$ để hai số có cùng số chữ số ở phần thập phân, rồi trừ như với số tự nhiên:
+$$25{,}40-8{,}75=16{,}65.$$
+
+b) Nhân như với số tự nhiên: $48\times25=1\,200$. Hai thừa số có tất cả $1+2=3$ chữ số ở phần thập phân, nên ở tích ta tách ra ba chữ số ở phần thập phân:
+$$4{,}8\times0{,}25=1{,}200=1{,}2.$$
+
+c) Nhân cả số bị chia và số chia với $10$ để số chia là số tự nhiên (thương không đổi):
+$$9{,}6:0{,}8=96:8=12.$$
+
+Vậy $25{,}4-8{,}75=16{,}65$; $4{,}8\times0{,}25=1{,}2$; $9{,}6:0{,}8=12$.
 
 **Đáp số.** a) $16{,}65$; b) $1{,}2$; c) $12$.
 :::
@@ -198,9 +215,16 @@ c) $9{,}6:0{,}8=96:8=12$.
 2. b), c) Đổi phần trăm và phân số thành số thập phân.
 
 ::solution
-a) Hai số có hàng phần mười đều là $3$; hàng phần trăm là $0$ và $5$, nên $7{,}305<7{,}35$.
-b) $65\%=0{,}65$ và $0{,}6=0{,}60$, nên $0{,}6<65\%$.
-c) $\dfrac{2}{5}=2:5=0{,}4=40\%$, nên hai số bằng nhau.
+a) Hai số $7{,}305$ và $7{,}35$ có phần nguyên bằng nhau ($7$) và hàng phần mười bằng nhau (đều là $3$). Ở hàng phần trăm, ta có $0<5$. Do đó
+$$7{,}305<7{,}35.$$
+
+b) Đổi $65\%=0{,}65$ và viết $0{,}6=0{,}60$. Vì $0{,}60<0{,}65$ nên
+$$0{,}6<65\%.$$
+
+c) Ta có $\dfrac25=2:5=0{,}4=40\%$. Hai số bằng nhau nên
+$$\frac25=40\%.$$
+
+Vậy các dấu cần điền là $<$, $<$, $=$.
 
 **Đáp số.** a) $<$; b) $<$; c) $=$.
 :::
@@ -216,7 +240,10 @@ Lan chạy $1{,}2$ km, Mai chạy $1{,}5$ km. Quãng đường Lan chạy bằng
 2. Lấy quãng đường của Lan chia cho quãng đường của Mai, rồi đổi sang phần trăm.
 
 ::solution
-$1{,}2:1{,}5=12:15=0{,}8=80\%$.
+Để biết quãng đường Lan chạy bằng bao nhiêu phần trăm quãng đường Mai chạy, ta tìm tỉ số của $1{,}2$ km và $1{,}5$ km. Nhân cả hai số với $10$ rồi chia, ta được
+$$1{,}2:1{,}5=12:15=0{,}8=80\%.$$
+
+Vậy quãng đường Lan chạy bằng $80\%$ quãng đường Mai chạy.
 
 **Đáp số.** $80\%$.
 :::
@@ -232,8 +259,15 @@ Một trường có $1\,250$ học sinh, trong đó $48\%$ là học sinh nữ. 
 2. Lấy số học sinh cả trường trừ số học sinh nữ.
 
 ::solution
-Số học sinh nữ là $1\,250\times48:100=600$ (em).
-Số học sinh nam là $1\,250-600=650$ (em).
+Số học sinh nữ của trường là:
+$$1\,250\times48:100=600\ \text{(em)}$$
+
+Số học sinh nam của trường là:
+$$1\,250-600=650\ \text{(em)}$$
+
+Kiểm tra: $650$ em nam chiếm $650:1\,250=0{,}52=52\%$ và $100-48=52$. Đúng.
+
+Vậy trường có $650$ học sinh nam.
 
 **Đáp số.** $650$ học sinh nam.
 :::
@@ -250,10 +284,20 @@ Em hãy nhớ lại bài trước về phân số. Một bể nước: buổi s�
 3. $100$ lít ứng với phần trăm còn lại: dùng bài toán loại 3.
 
 ::solution
-Vì $\dfrac{2}{5}=40\%$ nên đã dùng $40\%+35\%=75\%$ lượng nước, và còn lại $100\%-75\%=25\%$.
-$25\%$ lượng nước là $100$ lít, nên lúc đầu bể có $100:25\times100=400$ (lít).
+Đổi phân số ra phần trăm: $\dfrac25=2:5=0{,}4=40\%$.
 
-**Kiểm tra.** $\dfrac{2}{5}\times400=160$ và $35\%\times400=140$; $400-160-140=100$. Đúng.
+Cả hai lần đều tính theo lượng nước ban đầu, nên lượng nước đã dùng là:
+$$40\%+35\%=75\%\ \text{(lượng nước ban đầu)}$$
+
+Lượng nước còn lại là:
+$$100\%-75\%=25\%\ \text{(lượng nước ban đầu)}$$
+
+Vì $25\%$ lượng nước ban đầu là $100$ lít nên $1\%$ là $100:25=4$ lít, và lượng nước ban đầu ($100\%$) là:
+$$100:25\times100=400\ \text{(lít)}$$
+
+Kiểm tra: $\dfrac25\times400=160$ và $35\%\times400=140$; $400-160-140=100$. Đúng.
+
+Vậy lúc đầu bể có $400$ lít nước.
 
 **Đáp số.** $400$ lít.
 :::
@@ -270,8 +314,19 @@ Một đôi giày được giảm giá $25\%$ và có giá sau khi giảm là $1
 3. Lấy giá ban đầu trừ giá sau khi giảm.
 
 ::solution
-a) $150\,000$ đồng là $75\%$ giá ban đầu, nên giá ban đầu là $150\,000:75\times100=200\,000$ (đồng).
-b) Số tiền được giảm là $200\,000-150\,000=50\,000$ (đồng). Đây cũng là $25\%$ của $200\,000$.
+a) Sau khi giảm giá $25\%$, đôi giày có giá bằng $100\%-25\%=75\%$ giá ban đầu. Vậy $150\,000$ đồng là $75\%$ giá ban đầu.
+
+Giá ban đầu (ứng với $100\%$) là:
+$$150\,000:75\times100=200\,000\ \text{(đồng)}$$
+
+Vậy giá ban đầu của đôi giày là $200\,000$ đồng.
+
+b) Số tiền được giảm là:
+$$200\,000-150\,000=50\,000\ \text{(đồng)}$$
+
+Kiểm tra: $200\,000:100\times25=50\,000$, tức là $25\%$ của $200\,000$. Đúng.
+
+Vậy số tiền được giảm là $50\,000$ đồng.
 
 **Đáp số.** a) $200\,000$ đồng; b) $50\,000$ đồng.
 :::
@@ -288,9 +343,19 @@ Một chiếc áo giá $500\,000$ đồng. Tháng trước cửa hàng tăng gi�
 3. So sánh với $500\,000$ đồng, rồi đổi chênh lệch sang phần trăm giá ban đầu.
 
 ::solution
-Giá sau khi tăng là $500\,000\times110:100=550\,000$ (đồng).
-Giá hiện nay là $550\,000\times90:100=495\,000$ (đồng).
-Giá hiện nay thấp hơn giá ban đầu $500\,000-495\,000=5\,000$ (đồng), và $5\,000:500\,000=0{,}01=1\%$.
+Sau khi tăng $10\%$, giá áo bằng $100\%+10\%=110\%$ giá ban đầu, nên giá sau khi tăng là:
+$$500\,000\times110:100=550\,000\ \text{(đồng)}$$
+
+Tháng này cửa hàng giảm $10\%$ so với giá đã tăng, nên giá hiện nay bằng $100\%-10\%=90\%$ giá đã tăng:
+$$550\,000\times90:100=495\,000\ \text{(đồng)}$$
+
+So sánh $495\,000<500\,000$, nên giá hiện nay thấp hơn giá ban đầu. Số tiền chênh lệch là:
+$$500\,000-495\,000=5\,000\ \text{(đồng)}$$
+
+Tỉ số phần trăm của số tiền chênh lệch so với giá ban đầu là:
+$$5\,000:500\,000=0{,}01=1\%$$
+
+Vậy giá hiện nay là $495\,000$ đồng, thấp hơn giá ban đầu $1\%$.
 
 **Đáp số.** Giá hiện nay là $495\,000$ đồng, thấp hơn giá ban đầu $1\%$.
 :::

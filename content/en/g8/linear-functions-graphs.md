@@ -212,7 +212,17 @@ a) $y=4x+1$; b) $y=-3x$; c) $y=6$; d) $y=x^2-4$.
 2. Exclude the case $a=0$ and the formula containing $x^2$.
 
 ::solution
-a) has $a=4$, $b=1$. b) has $a=-3$, $b=0$. c) has $a=0$. d) contains $x^2$.
+A linear function has the form $y=ax+b$, where $a$ and $b$ are given numbers and $a\neq0$. We examine each formula.
+
+a) The formula $y=4x+1$ has the form $y=ax+b$ with $a=4\neq0$, $b=1$. It is a linear function.
+
+b) The formula $y=-3x$ can be written as $y=-3x+0$ with $a=-3\neq0$, $b=0$. It is a linear function.
+
+c) The formula $y=6$ can be written as $y=0x+6$, which has $a=0$. It is not a linear function.
+
+d) The formula $y=x^2-4$ contains $x^2$ and does not have the form $y=ax+b$. It is not a linear function.
+
+So formulas a) and b) give linear functions, with a) $a=4$, $b=1$ and b) $a=-3$, $b=0$.
 
 **Answer.** a) and b) are linear functions.
 :::
@@ -228,7 +238,15 @@ For the function $y=-2x+5$, find $y$ when $x=-1$, $x=0$ and $x=3$.
 2. Multiply before adding.
 
 ::solution
-$$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
+We substitute the given values of $x$ into the formula $y=-2x+5$.
+
+For $x=-1$: $y=-2\cdot(-1)+5=2+5=7$.
+
+For $x=0$: $y=-2\cdot0+5=5$.
+
+For $x=3$: $y=-2\cdot3+5=-6+5=-1$.
+
+So $y=7$ when $x=-1$; $y=5$ when $x=0$; $y=-1$ when $x=3$.
 
 **Answer.** $7$, $5$, $-1$.
 :::
@@ -244,7 +262,17 @@ Which of the points $A(0, -2)$, $B(1, 1)$, $C(-1, -5)$ and $D(2, 5)$ lie on the 
 2. Compare the result with the point's y-coordinate.
 
 ::solution
-For $x=0,1,-1,2$, the values of $3x-2$ are respectively $-2,1,-5,4$. The first three match the corresponding y-coordinates, while point $D$ has y-coordinate $5\ne4$.
+A point lies on the graph $y=3x-2$ when its y-coordinate equals the value of $3x-2$ computed at its x-coordinate.
+
+For $A(0, -2)$: $3\cdot0-2=-2$, which equals the y-coordinate, so $A$ lies on the graph.
+
+For $B(1, 1)$: $3\cdot1-2=1$, which equals the y-coordinate, so $B$ lies on the graph.
+
+For $C(-1, -5)$: $3\cdot(-1)-2=-5$, which equals the y-coordinate, so $C$ lies on the graph.
+
+For $D(2, 5)$: $3\cdot2-2=4\neq5$, so $D$ does not lie on the graph.
+
+So $A$, $B$, $C$ lie on the graph $y=3x-2$.
 
 **Answer.** $A$, $B$, $C$.
 :::
@@ -260,7 +288,15 @@ Draw the graph of $y=2x+6$ using its two intercepts.
 2. Draw the straight line $PQ$.
 
 ::solution
-$x=0\Rightarrow y=6$, so $P(0, 6)$. Also, $y=0\Rightarrow2x+6=0\Rightarrow x=-3$, so $Q(-3, 0)$. The graph is the straight line $PQ$.
+The graph of a linear function is a straight line, so it is enough to find two distinct points on it. We choose its two intercepts with the coordinate axes.
+
+Intercept with the y-axis: setting $x=0$, we get $y=2\cdot0+6=6$. The point is $P(0, 6)$.
+
+Intercept with the x-axis: setting $y=0$, we get $2x+6=0$, so $2x=-6$ and $x=-3$. The point is $Q(-3, 0)$.
+
+To draw it: in the coordinate plane $Oxy$, plot the points $P(0, 6)$ and $Q(-3, 0)$, then draw the straight line through them.
+
+So the graph of $y=2x+6$ is the straight line $PQ$ through $P(0, 6)$ and $Q(-3, 0)$.
 
 **Answer.** The straight line through $(0, 6)$ and $(-3, 0)$.
 :::
@@ -276,7 +312,15 @@ Draw the graph of $y=-4x$.
 2. Draw the straight line through the two points found.
 
 ::solution
-$x=0\Rightarrow O(0, 0)$. Also, $x=1\Rightarrow M(1, -4)$. The graph is the straight line $OM$.
+The function $y=-4x$ has the form $y=ax$ with $a=-4\neq0$, so its graph is a straight line through the origin $O$. We need one more point.
+
+Setting $x=0$, we get $y=-4\cdot0=0$. The point is $O(0, 0)$.
+
+Setting $x=1$, we get $y=-4\cdot1=-4$. The point is $M(1, -4)$.
+
+To draw it: in the coordinate plane $Oxy$, plot the point $M(1, -4)$, then draw the straight line through $O$ and $M$.
+
+So the graph of $y=-4x$ is the straight line $OM$ through $O(0, 0)$ and $M(1, -4)$.
 
 **Answer.** The straight line through $(0, 0)$ and $(1, -4)$.
 :::
@@ -292,7 +336,15 @@ Without drawing, find where the graph of $y=-\dfrac12x+3$ meets each coordinate 
 2. Solve $-\dfrac12x+3=0$.
 
 ::solution
-$x=0\Rightarrow y=3$, so the y-intercept is $(0, 3)$. Setting $y=0$ gives $-\dfrac12x+3=0\Rightarrow x=6$.
+The intersection with the y-axis has x-coordinate $x=0$; the intersection with the x-axis has y-coordinate $y=0$.
+
+Intersection with the y-axis: setting $x=0$, we get $y=-\dfrac12\cdot0+3=3$. The point is $(0, 3)$.
+
+Intersection with the x-axis: setting $y=0$, we get the equation
+$$-\frac12x+3=0.$$
+Hence $-\dfrac12x=-3$; multiplying both sides by $-2$, we get $x=6$. The point is $(6, 0)$.
+
+So the graph meets the y-axis at $(0, 3)$ and the x-axis at $(6, 0)$.
 
 **Answer.** $(0, 3)$ and $(6, 0)$.
 :::
@@ -310,7 +362,20 @@ a) Write $C$ in terms of $t$. b) Find the cost for $5$ hours. c) Give the two en
 2. Substitute $t=5$, then substitute the boundary values $t=0$ and $t=8$.
 
 ::solution
-$C=4t+12$. For $t=5$, $C=4\cdot5+12=32$. When $t=0$, $C=12$; when $t=8$, $C=44$.
+Let $t$ (hours) be the parking time and $C$ (thousands of dong) the cost, where $0\le t\le8$.
+
+a) The cost consists of the entry fee of $12$ thousand dong and $4t$ thousand dong for $t$ hours. Hence
+$$C=4t+12.$$
+
+b) For $t=5$, we have $C=4\cdot5+12=20+12=32$ (thousand dong).
+
+c) On $0\le t\le8$ the graph of $C=4t+12$ is a line segment. Its two endpoints correspond to $t=0$ and $t=8$.
+
+When $t=0$: $C=4\cdot0+12=12$, giving the point $(0, 12)$.
+
+When $t=8$: $C=4\cdot8+12=44$, giving the point $(8, 44)$.
+
+So a) $C=4t+12$; b) the cost for $5$ hours is $32$ thousand dong; c) the endpoints of the part of the graph are $(0, 12)$ and $(8, 44)$.
 
 **Answer.** a) $C=4t+12$; b) 32 thousand dong; c) $(0, 12)$ and $(8, 44)$.
 :::
@@ -328,7 +393,20 @@ a) Write $V$ in terms of $t$. b) Find $V$ after $6$ minutes. c) When is the tank
 2. Substitute $t=6$ and solve $V=0$.
 
 ::solution
-$V=72-8t$. After $6$ minutes, $V=72-8\cdot6=24$. The tank is empty when $72-8t=0\Rightarrow t=9$.
+Let $t$ (minutes) be the time the tank has been emptying and $V$ (litres) the amount of water left, where $t\ge0$.
+
+a) After $t$ minutes, $8t$ litres have been let out, so the amount left is
+$$V=72-8t.$$
+
+b) For $t=6$, we have $V=72-8\cdot6=72-48=24$ (litres).
+
+c) The tank is empty when $V=0$, that is
+$$72-8t=0.$$
+Hence $8t=72$, so $t=9$ (minutes).
+
+Therefore the part of the graph that fits the situation corresponds to $0\le t\le9$. When $t=0$, $V=72$, giving the point $(0, 72)$; when $t=9$, $V=0$, giving the point $(9, 0)$.
+
+So a) $V=72-8t$; b) after $6$ minutes $24$ litres are left; c) the tank is empty after $9$ minutes and the endpoints of the part of the graph are $(0, 72)$ and $(9, 0)$.
 
 **Answer.** a) $V=72-8t$; b) $24$ litres; c) $9$ minutes, with endpoints $(0, 72)$ and $(9, 0)$.
 :::
@@ -345,7 +423,16 @@ The lines $y=2x-3$ and $y=-x+6$ meet at $M$. Without drawing the graphs, find th
 3. Check it in the other formula.
 
 ::solution
-$2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Then $y=2\cdot3-3=3$. Check: $-3+6=3$.
+The coordinates of the intersection $M$ satisfy both line equations, so the x-coordinate of $M$ is a solution of the equation
+$$2x-3=-x+6.$$
+
+Moving the terms containing $x$ to the left and the numbers to the right, we get $3x=9$. Hence $x=3$.
+
+Substituting $x=3$ into $y=2x-3$, we get $y=2\cdot3-3=3$.
+
+Check: substituting $x=3$ into $y=-x+6$, we get $y=-3+6=3$, which agrees with the result above.
+
+So the two lines meet at $M(3, 3)$.
 
 **Answer.** $M(3, 3)$.
 :::

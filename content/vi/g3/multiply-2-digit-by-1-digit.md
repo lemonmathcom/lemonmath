@@ -123,7 +123,17 @@ Tính $21\times4$.
 2. Tính $2\times4$ ở hàng chục.
 
 ::solution
-$1\times4=4$; $2\times4=8$. Vậy $21\times4=84$.
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $1\times4=4$, viết $4$.
+
+Hàng chục: $2\times4=8$, viết $8$.
+
+Ta được $21\times4=84$.
+
+Thử lại: $84:4=21$. Đúng.
+
+Vậy $21\times4=84$.
 
 **Đáp số.** $84$.
 :::
@@ -139,7 +149,17 @@ Tính $13\times3$.
 2. Ghép kết quả lại.
 
 ::solution
-$3\times3=9$; $1\times3=3$. Vậy $13\times3=39$.
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $3\times3=9$, viết $9$.
+
+Hàng chục: $1\times3=3$, viết $3$.
+
+Ta được $13\times3=39$.
+
+Thử lại: $39:3=13$. Đúng.
+
+Vậy $13\times3=39$.
 
 **Đáp số.** $39$.
 :::
@@ -155,7 +175,17 @@ Tính $18\times4$.
 2. Tính $1\times4$ rồi cộng số nhớ.
 
 ::solution
-$8\times4=32$, viết $2$ nhớ $3$. $1\times4=4$, thêm $3$ được $7$. Vậy $18\times4=72$.
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $8\times4=32$, viết $2$ nhớ $3$.
+
+Hàng chục: $1\times4=4$, thêm $3$ được $7$, viết $7$.
+
+Ta được $18\times4=72$.
+
+Thử lại: $72:4=18$. Đúng.
+
+Vậy $18\times4=72$.
 
 **Đáp số.** $72$.
 :::
@@ -171,7 +201,17 @@ Tính $25\times3$.
 2. Tính $2\times3$ rồi cộng nhớ.
 
 ::solution
-$5\times3=15$, viết $5$ nhớ $1$. $2\times3=6$, thêm $1$ được $7$. Vậy $25\times3=75$.
+Đặt tính rồi nhân lần lượt từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $5\times3=15$, viết $5$ nhớ $1$.
+
+Hàng chục: $2\times3=6$, thêm $1$ được $7$, viết $7$.
+
+Ta được $25\times3=75$.
+
+Thử lại: $75:3=25$. Đúng.
+
+Vậy $25\times3=75$.
 
 **Đáp số.** $75$.
 :::
@@ -187,7 +227,17 @@ $5\times3=15$, viết $5$ nhớ $1$. $2\times3=6$, thêm $1$ được $7$. Vậy
 2. So sánh kết quả với $70$.
 
 ::solution
-$4\times5=20$, viết $0$ nhớ $2$. $1\times5=5$, thêm $2$ được $7$. Vậy $14\times5=70$.
+Muốn so sánh, ta tính $14\times5$ trước rồi so sánh kết quả với $70$.
+
+Hàng đơn vị: $4\times5=20$, viết $0$ nhớ $2$.
+
+Hàng chục: $1\times5=5$, thêm $2$ được $7$, viết $7$.
+
+Ta được $14\times5=70$.
+
+Mà $70=70$ nên $14\times5=70$.
+
+Vậy dấu cần điền là $=$.
 
 **Đáp số.** Dấu $=$.
 :::
@@ -203,8 +253,16 @@ Mỗi túi có $23$ viên bi. Hỏi $4$ túi như thế có bao nhiêu viên bi?
 2. Tính $23\times4$ rồi ghi đáp số có đơn vị.
 
 ::solution
+Bài giải
+
+Mỗi túi có $23$ viên bi, có $4$ túi như thế, nên ta lấy số bi của một túi nhân với số túi.
+
 Số viên bi có tất cả là:
-$$23\times4=92\ \text{(viên)}.$$
+$$23\times4=92\ \text{(viên)}$$
+
+Thử lại: $92:4=23$. Đúng.
+
+Vậy $4$ túi có tất cả $92$ viên bi.
 
 **Đáp số.** $92$ viên bi.
 :::
@@ -220,8 +278,16 @@ Em hãy nhớ lại bài trước: một khối hộp xếp từ các khối l�
 2. Tính $12\times4$.
 
 ::solution
-Số khối nhỏ là:
-$$12\times4=48\ \text{(khối)}.$$
+Bài giải
+
+Khối hộp có $4$ lớp, mỗi lớp có $12$ khối lập phương nhỏ, nên ta lấy số khối của một lớp nhân với số lớp.
+
+Số khối nhỏ có tất cả là:
+$$12\times4=48\ \text{(khối)}$$
+
+Thử lại: $48:4=12$. Đúng.
+
+Vậy có tất cả $48$ khối nhỏ.
 
 **Đáp số.** $48$ khối.
 :::
@@ -237,9 +303,14 @@ Tìm số thích hợp điền vào ô trống: $\square\times4=52$.
 2. Thử lại bằng phép nhân.
 
 ::solution
-Số cần tìm là $52:4=13$.
+Trong phép nhân $\square\times4=52$, $\square$ là thừa số chưa biết. Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết.
 
-**Kiểm tra.** $13\times4=52$. Đúng.
+Ta có
+$$\square=52:4=13.$$
+
+Kiểm tra: $13\times4=52$. Đúng.
+
+Vậy số cần điền vào ô trống là $13$.
 
 **Đáp số.** $13$.
 :::

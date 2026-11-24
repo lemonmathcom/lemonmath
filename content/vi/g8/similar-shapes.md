@@ -215,13 +215,17 @@ d) Hình vuông và hình thoi không phải hình vuông.
 2. Kiểm tra các tỉ số cạnh, ghép cạnh dài với cạnh dài.
 
 ::solution
-a) Hai tam giác đều có các góc đều bằng $60^\circ$ và các cạnh tỉ lệ nên đồng dạng, tỉ số $\dfrac53$.
+Nhắc lại: hai đa giác đồng dạng khi các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ.
 
-b) Các góc đều bằng $90^\circ$ và $\dfrac{10}4=\dfrac{15}6=2{,}5$ nên đồng dạng, tỉ số $2{,}5$.
+a) Mỗi tam giác đều có ba góc bằng $60^\circ$ và ba cạnh bằng nhau. Vậy hai tam giác đều có các góc tương ứng bằng nhau ($60^\circ$) và các cạnh tương ứng có cùng tỉ số $\dfrac53$ (từ tam giác cạnh $3$ sang tam giác cạnh $5$). Do đó hai tam giác đồng dạng với tỉ số $\dfrac53$.
 
-c) $\dfrac62=3$ nhưng $\dfrac95=1{,}8$ nên không đồng dạng.
+b) Hai hình chữ nhật có các góc đều bằng $90^\circ$. Ta có $\dfrac{10}{4}=2{,}5$ và $\dfrac{15}{6}=2{,}5$ nên các cạnh tương ứng tỉ lệ. Do đó hai hình chữ nhật đồng dạng với tỉ số $2{,}5$.
 
-d) Các góc của hình thoi không phải hình vuông khác $90^\circ$ nên không đồng dạng.
+c) Các góc đều bằng $90^\circ$, nhưng $\dfrac62=3$ còn $\dfrac95=1{,}8$ và $3\neq1{,}8$ nên các cạnh tương ứng không tỉ lệ. Nếu ghép cặp cạnh theo cách khác thì $\dfrac92=4{,}5$ và $\dfrac65=1{,}2$, cũng không bằng nhau. Do đó hai hình chữ nhật không đồng dạng.
+
+d) Hình vuông có bốn góc bằng $90^\circ$. Hình thoi không phải hình vuông có các góc khác $90^\circ$ (nếu một góc bằng $90^\circ$ thì hình thoi là hình vuông). Các góc tương ứng không bằng nhau nên hai hình không đồng dạng.
+
+Vậy các cặp hình ở a), b) đồng dạng (tỉ số lần lượt là $\dfrac53$ và $2{,}5$); các cặp hình ở c), d) không đồng dạng.
 
 **Đáp số.** a) Đồng dạng, $\dfrac53$. b) Đồng dạng, $2{,}5$. c) Không. d) Không.
 :::
@@ -237,7 +241,18 @@ Hình chữ nhật $ABCD$ có $AB=6$, $BC=4$ đồng dạng với hình chữ nh
 2. Nhân $BC$ với $k$; tính chu vi.
 
 ::solution
-Tỉ số đồng dạng là $k=\dfrac{15}6=2{,}5$. Suy ra $B'C'=2{,}5\cdot4=10$. Chu vi $A'B'C'D'$ là $2\cdot(15+10)=50$.
+Vì hình chữ nhật $ABCD$ đồng dạng với hình chữ nhật $A'B'C'D'$ nên các cạnh tương ứng tỉ lệ. Tỉ số đồng dạng là
+$$k=\frac{A'B'}{AB}=\frac{15}{6}=2{,}5.$$
+
+Cạnh $B'C'$ tương ứng với cạnh $BC$ nên
+$$B'C'=k\cdot BC=2{,}5\cdot4=10.$$
+
+Chu vi hình chữ nhật $A'B'C'D'$ là
+$$2\cdot(A'B'+B'C')=2\cdot(15+10)=50.$$
+
+Kiểm tra: chu vi $ABCD$ là $2\cdot(6+4)=20$ và $2{,}5\cdot20=50$.
+
+Vậy $B'C'=10$ và chu vi hình chữ nhật $A'B'C'D'$ bằng $50$.
 
 **Đáp số.** $B'C'=10$; chu vi bằng $50$.
 :::
@@ -253,7 +268,17 @@ Tam giác $A'B'C'$ đồng dạng phối cảnh với tam giác $ABC$ tâm $O$, 
 2. Tính chu vi tam giác $ABC$ rồi nhân với $3$.
 
 ::solution
-Ta có $OA'=3\cdot2=6$ (cm) và $A'B'=3\cdot3=9$ (cm). Chu vi tam giác $ABC$ là $3+4+5=12$ cm nên chu vi tam giác $A'B'C'$ là $3\cdot12=36$ cm.
+Tam giác $A'B'C'$ đồng dạng phối cảnh với tam giác $ABC$ tâm $O$, tỉ số $k=3$ nên $OA'=k\cdot OA$ và $A'B'=k\cdot AB$.
+
+Ta có
+$$OA'=3\cdot OA=3\cdot2=6\ \text{(cm)},\qquad A'B'=3\cdot AB=3\cdot3=9\ \text{(cm)}.$$
+
+Chu vi tam giác $ABC$ là $AB+BC+CA=3+4+5=12$ cm. Hai tam giác đồng dạng theo tỉ số $3$ nên chu vi tam giác $A'B'C'$ gấp $3$ lần chu vi tam giác $ABC$:
+$$3\cdot12=36\ \text{(cm)}.$$
+
+Kiểm tra: $A'B'=9$, $B'C'=3\cdot4=12$, $C'A'=3\cdot5=15$ và $9+12+15=36$.
+
+Vậy $OA'=6$ cm, $A'B'=9$ cm và chu vi tam giác $A'B'C'$ là $36$ cm.
 
 **Đáp số.** $OA'=6$ cm; $A'B'=9$ cm; chu vi $36$ cm.
 :::
@@ -269,7 +294,18 @@ Trong mặt phẳng toạ độ $Oxy$, cho $A(2; 1)$ và $B(4; 3)$. Điểm $A'$
 2. Tính $AB$ và $A'B'$ bằng định lí Pythagore.
 
 ::solution
-Ta có $A'(6; 3)$ và $B'(12; 9)$. Theo định lí Pythagore, $AB=\sqrt{2^2+2^2}=2\sqrt2$ và $A'B'=\sqrt{6^2+6^2}=6\sqrt2$. Suy ra $A'B'=3\cdot AB$.
+Vì $A'$ nằm trên tia $OA$ và $OA'=3\cdot OA$ nên toạ độ của $A'$ gấp $3$ lần toạ độ của $A$; tương tự với $B'$. Do đó
+$$A'(3\cdot2; 3\cdot1)=A'(6; 3),\qquad B'(3\cdot4; 3\cdot3)=B'(12; 9).$$
+
+Tính $AB$. Theo định lí Pythagore (độ dài hình chiếu lên hai trục là $4-2=2$ và $3-1=2$),
+$$AB=\sqrt{(4-2)^2+(3-1)^2}=\sqrt{2^2+2^2}=2\sqrt2.$$
+
+Tính $A'B'$. Tương tự (độ dài hình chiếu lên hai trục là $12-6=6$ và $9-3=6$),
+$$A'B'=\sqrt{(12-6)^2+(9-3)^2}=\sqrt{6^2+6^2}=6\sqrt2.$$
+
+Suy ra $A'B'=6\sqrt2=3\cdot2\sqrt2=3\cdot AB$.
+
+Vậy $A'(6; 3)$, $B'(12; 9)$ và $A'B'=3\cdot AB$.
 
 **Đáp số.** $A'(6; 3)$, $B'(12; 9)$; $A'B'=3\cdot AB$.
 :::
@@ -285,7 +321,16 @@ Nhớ lại định lí Thalès đảo. Cho $A'$, $B'$ nằm trên các tia $OA$
 2. Lập các tỉ số $\dfrac{OA'}{OA}$ và $\dfrac{OB'}{OB}$.
 
 ::solution
-Ta có $\dfrac{OA'}{OA}=k=\dfrac{OB'}{OB}$. Theo định lí Thalès đảo trong tam giác $OAB$ (với $k<1$; trường hợp $k>1$ xét tam giác $OA'B'$), suy ra $A'B'\parallel AB$.
+Giả sử $O$, $A$, $B$ không thẳng hàng (để có tam giác $OAB$) và $k>0$, $k\neq1$ (nếu $k=1$ thì $A'\equiv A$, $B'\equiv B$). Ta có
+$$\frac{OA'}{OA}=k=\frac{OB'}{OB}.$$
+
+Trường hợp $0<k<1$. Vì $A'$, $B'$ nằm trên các tia $OA$, $OB$ và $OA'<OA$, $OB'<OB$ nên $A'$ nằm giữa $O$ và $A$, $B'$ nằm giữa $O$ và $B$. Trong tam giác $OAB$ có $A'\in OA$, $B'\in OB$ và $\dfrac{OA'}{OA}=\dfrac{OB'}{OB}$. Theo định lí Thalès đảo, $A'B'\parallel AB$.
+
+Trường hợp $k>1$. Khi đó $OA<OA'$ và $OB<OB'$ nên $A$ nằm giữa $O$ và $A'$, $B$ nằm giữa $O$ và $B'$. Trong tam giác $OA'B'$ có $A\in OA'$, $B\in OB'$ và
+$$\frac{OA}{OA'}=\frac1k=\frac{OB}{OB'}.$$
+Theo định lí Thalès đảo, $AB\parallel A'B'$.
+
+Vậy trong mọi trường hợp, $A'B'\parallel AB$.
 
 **Đáp số.** $A'B'\parallel AB$.
 :::
@@ -301,7 +346,17 @@ Biểu trưng của một câu lạc bộ có kích thước $12\ \text{cm}\time
 2. Nhân chiều cao $8$ cm với $k$.
 
 ::solution
-Ta có $1{,}8\ \text{m}=180\ \text{cm}$, nên $k=\dfrac{180}{12}=15$. Chiều cao trên băng rôn là $8\cdot15=120$ cm.
+Biểu trưng được in lên băng rôn giữ nguyên hình dạng nên hình chữ nhật trên băng rôn đồng dạng với hình chữ nhật $12\ \text{cm}\times8\ \text{cm}$ (chiều rộng $12$ cm, chiều cao $8$ cm). Gọi $k$ là tỉ số đồng dạng và $x$ (cm) là chiều cao của biểu trưng trên băng rôn.
+
+Đổi đơn vị: $1{,}8\ \text{m}=180$ cm. Tỉ số đồng dạng là
+$$k=\frac{180}{12}=15.$$
+
+Chiều cao tương ứng của biểu trưng trên băng rôn là
+$$x=k\cdot8=15\cdot8=120\ \text{(cm)}.$$
+
+Kiểm tra: $\dfrac{120}{8}=15=k$. Đổi đơn vị: $120$ cm $=1{,}2$ m.
+
+Vậy chiều cao của biểu trưng trên băng rôn là $120$ cm, tức là $1{,}2$ m.
 
 **Đáp số.** $120$ cm $=1{,}2$ m.
 :::
@@ -317,7 +372,16 @@ Trên một bản đồ tỉ lệ $1:200\,000$, hai thị trấn cách nhau $6{,
 2. Đổi $52$ km ra xăng-ti-mét rồi chia cho $200\,000$.
 
 ::solution
-Khoảng cách thực tế là $6{,}5\cdot200\,000=1\,300\,000$ cm $=13$ km. Quãng đường $52$ km $=5\,200\,000$ cm nên trên bản đồ dài $\dfrac{5\,200\,000}{200\,000}=26$ cm.
+Bản đồ tỉ lệ $1:200\,000$ nghĩa là $1$ cm trên bản đồ ứng với $200\,000$ cm ngoài thực tế.
+
+Khoảng cách thực tế. Hai thị trấn cách nhau $6{,}5$ cm trên bản đồ nên khoảng cách thực tế là
+$$6{,}5\cdot200\,000=1\,300\,000\ \text{(cm)}.$$
+Vì $1$ km $=100\,000$ cm nên $1\,300\,000$ cm $=1\,300\,000:100\,000=13$ km.
+
+Độ dài trên bản đồ. Quãng đường thực tế $52$ km $=52\cdot100\,000=5\,200\,000$ cm. Độ dài trên bản đồ là
+$$\frac{5\,200\,000}{200\,000}=26\ \text{(cm)}.$$
+
+Vậy khoảng cách thực tế giữa hai thị trấn là $13$ km và quãng đường $52$ km được vẽ dài $26$ cm trên bản đồ.
 
 **Đáp số.** $13$ km; $26$ cm.
 :::
@@ -333,7 +397,17 @@ Một mô hình ngôi nhà được làm theo tỉ lệ $1:20$. Cửa ra vào c�
 2. Chia chiều rộng thực tế cho $20$.
 
 ::solution
-Cửa thực tế cao $10\cdot20=200$ cm $=2$ m. Chiều rộng mô hình là $\dfrac{8}{20}=0{,}4$ m $=40$ cm.
+Mô hình làm theo tỉ lệ $1:20$ nghĩa là mỗi kích thước thực tế gấp $20$ lần kích thước tương ứng của mô hình.
+
+Chiều cao cửa thực tế. Cửa của mô hình cao $10$ cm nên cửa thực tế cao
+$$10\cdot20=200\ \text{(cm)}=2\ \text{(m)}.$$
+
+Chiều rộng của mô hình. Ngôi nhà thực tế rộng $8$ m nên mô hình rộng
+$$\frac{8}{20}=0{,}4\ \text{(m)}=40\ \text{(cm)}.$$
+
+Kiểm tra: $40\cdot20=800$ cm $=8$ m.
+
+Vậy cửa thực tế cao $2$ m và mô hình rộng $40$ cm.
 
 **Đáp số.** $2$ m; $40$ cm.
 :::
@@ -349,7 +423,18 @@ Một bóng đèn nhỏ ở điểm $O$ chiếu sáng một tấm bìa hình vu�
 2. Từ $OM'=300$ cm tính $OM$.
 
 ::solution
-Ta có $k=\dfrac{90}{15}=6$. Gọi $d$ là khoảng cách từ đèn đến tấm bìa (cm); vì tường cách đèn $300$ cm nên $\dfrac{300}{d}=6$, suy ra $d=50$.
+Bóng của tấm bìa trên tường đồng dạng phối cảnh với tấm bìa, tâm $O$ là vị trí bóng đèn (vì tấm bìa song song với tường). Tỉ số đồng dạng bằng tỉ số cạnh của bóng và cạnh của tấm bìa:
+$$k=\frac{90}{15}=6.$$
+
+Tỉ số đồng dạng này cũng bằng tỉ số giữa khoảng cách từ đèn đến tường và khoảng cách từ đèn đến tấm bìa. Gọi $d$ (cm) là khoảng cách từ đèn đến tấm bìa, $d>0$. Tường cách đèn $3$ m $=300$ cm nên
+$$\frac{300}{d}=6.$$
+
+Suy ra
+$$d=\frac{300}{6}=50.$$
+
+Giá trị $d=50>0$ và $50<300$ (tấm bìa nằm giữa đèn và tường) nên thoả mãn. Kiểm tra: $\dfrac{300}{50}=6$.
+
+Vậy phải đặt tấm bìa cách đèn $50$ cm.
 
 **Đáp số.** $50$ cm.
 :::

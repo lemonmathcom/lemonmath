@@ -200,9 +200,13 @@ b) $x:1,1,2$ và $y:2,3,4$.
 2. Nếu lặp, so sánh các giá trị $y$ tương ứng.
 
 ::solution
-a) Các giá trị $x$ đều khác nhau, mỗi $x$ có một $y$: là hàm số.
+Đại lượng $y$ là hàm số của đại lượng $x$ nếu với mỗi giá trị của $x$ ta xác định được đúng một giá trị của $y$.
 
-b) Giá trị $x=1$ ứng với hai giá trị $y=2$ và $y=3$: không phải hàm số.
+a) Các giá trị của $x$ là $0$, $1$, $2$, $3$ đôi một khác nhau, và mỗi giá trị của $x$ ứng với đúng một giá trị của $y$ (lần lượt là $1$, $3$, $5$, $7$). Do đó $y$ là hàm số của $x$.
+
+b) Giá trị $x=1$ xuất hiện hai lần và ứng với hai giá trị khác nhau là $y=2$ và $y=3$. Một giá trị của $x$ cho hai giá trị của $y$ nên $y$ không là hàm số của $x$.
+
+Vậy ở bảng a) $y$ là hàm số của $x$; ở bảng b) $y$ không là hàm số của $x$.
 
 **Đáp số.** a) là hàm số. b) không là hàm số.
 :::
@@ -224,11 +228,15 @@ c) $y=\dfrac1x$.
 2. Với c), chú ý giá trị $x$ làm mẫu bằng $0$.
 
 ::solution
-a) Với $x=4$ ta có $y=2$ hoặc $y=-2$: một $x$ cho hai $y$, không phải hàm số.
+Ta xét xem mỗi giá trị của $x$ cho đúng một hay nhiều giá trị của $y$.
 
-b) Mỗi $x$ cho đúng một $y=3-x$: là hàm số.
+a) Với $x=4$, hệ thức $y^2=4$ cho $y=2$ hoặc $y=-2$. Một giá trị của $x$ cho hai giá trị của $y$ nên $y$ không là hàm số của $x$.
 
-c) Mỗi $x\neq0$ cho đúng một $y=\dfrac1x$: là hàm số với tập xác định $x\neq0$.
+b) Với mỗi giá trị của $x$, biểu thức $3-x$ cho đúng một giá trị của $y$. Do đó $y$ là hàm số của $x$.
+
+c) Biểu thức $\dfrac1x$ xác định khi $x\neq0$. Với mỗi $x\neq0$, ta tính được đúng một giá trị $y=\dfrac1x$. Do đó $y$ là hàm số của $x$ với tập xác định $x\neq0$.
+
+Vậy $y$ không là hàm số của $x$ ở câu a); $y$ là hàm số của $x$ ở câu b) và câu c) (câu c) với $x\neq0$).
 
 **Đáp số.** a) không. b) có. c) có (với $x\neq0$).
 :::
@@ -244,7 +252,19 @@ Cho hàm số $f(x)=3x-4$. Tính $f(0)$, $f(2)$, $f(-1)$ và tìm $x$ để $f(x
 2. Giải phương trình $3x-4=11$.
 
 ::solution
-Ta có $f(0)=-4$; $f(2)=6-4=2$; $f(-1)=-3-4=-7$. Phương trình $3x-4=11$ cho $3x=15$ và $x=5$.
+Với $f(x)=3x-4$, ta thay lần lượt các giá trị của $x$ vào công thức.
+
+Với $x=0$: $f(0)=3\cdot0-4=-4$.
+
+Với $x=2$: $f(2)=3\cdot2-4=6-4=2$.
+
+Với $x=-1$: $f(-1)=3\cdot(-1)-4=-3-4=-7$.
+
+Để tìm $x$ sao cho $f(x)=11$, ta giải phương trình
+$$3x-4=11.$$
+Chuyển vế, ta được $3x=15$. Suy ra $x=5$.
+
+Kiểm tra: $f(5)=3\cdot5-4=11$.
 
 Vậy $f(0)=-4$, $f(2)=2$, $f(-1)=-7$ và $f(x)=11$ khi $x=5$.
 
@@ -268,11 +288,15 @@ c) $y=x^2+1$.
 2. Với c), không có mẫu.
 
 ::solution
-a) $x+3\neq0$ nên $x\neq-3$.
+Tập xác định của hàm số cho bởi công thức là tập các giá trị của $x$ để biểu thức có nghĩa.
 
-b) $2x-6\neq0$ nên $x\neq3$.
+a) Biểu thức $\dfrac{2}{x+3}$ có nghĩa khi mẫu khác $0$, tức là $x+3\neq0$. Suy ra $x\neq-3$.
 
-c) Biểu thức có nghĩa với mọi $x$, tập xác định là $\mathbb R$.
+b) Biểu thức $\dfrac{x-1}{2x-6}$ có nghĩa khi $2x-6\neq0$, tức là $2x\neq6$. Suy ra $x\neq3$.
+
+c) Biểu thức $x^2+1$ là đa thức nên có nghĩa với mọi giá trị của $x$. Do đó tập xác định là $\mathbb R$.
+
+Vậy tập xác định của các hàm số lần lượt là: a) $x\neq-3$; b) $x\neq3$; c) $\mathbb R$.
 
 **Đáp số.** a) $x\neq-3$. b) $x\neq3$. c) $\mathbb R$.
 :::
@@ -288,9 +312,17 @@ Trong các điểm $A(1; 2)$, $B(2; 2)$, $C(0; 3)$, $D(-1; 4)$, những điểm 
 2. So sánh với tung độ.
 
 ::solution
-Với $A$: $-1+3=2$, đúng. Với $B$: $-2+3=1\neq2$, sai. Với $C$: $-0+3=3$, đúng. Với $D$: $-(-1)+3=4$, đúng.
+Một điểm thuộc đồ thị của hàm số $y=-x+3$ khi toạ độ của nó thoả mãn hệ thức $y=-x+3$. Ta thay hoành độ của từng điểm vào công thức rồi so sánh với tung độ.
 
-Vậy $A$, $C$, $D$ thuộc đồ thị.
+Với $A(1; 2)$: $-1+3=2$, bằng tung độ $2$ nên $A$ thuộc đồ thị.
+
+Với $B(2; 2)$: $-2+3=1\neq2$ nên $B$ không thuộc đồ thị.
+
+Với $C(0; 3)$: $-0+3=3$, bằng tung độ $3$ nên $C$ thuộc đồ thị.
+
+Với $D(-1; 4)$: $-(-1)+3=4$, bằng tung độ $4$ nên $D$ thuộc đồ thị.
+
+Vậy các điểm $A$, $C$, $D$ thuộc đồ thị của hàm số $y=-x+3$.
 
 **Đáp số.** $A$, $C$, $D$.
 :::

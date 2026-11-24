@@ -144,8 +144,16 @@ Set out in columns and work out: $5.8+3.6$.
 2. Add the tenths first (regroup if needed), then the ones.
 
 ::solution
+Write the decimals so that digits of the same place value are in the same column, with the decimal points lined up, then add as with whole numbers:
 $$\begin{array}{r} 5.8 \\ +\ 3.6 \\ \hline 9.4 \end{array}$$
-Tenths: $8+6=14$, write $4$ and regroup $1$. Ones: $5+3+1=9$.
+
+Tenths: $8+6=14$, write $4$ and regroup $1$.
+
+Ones: $5+3+1=9$, write $9$.
+
+Putting the decimal point in line with the decimal points above, we get $9.4$.
+
+So $5.8+3.6=9.4$.
 
 **Answer.** $9.4$.
 :::
@@ -161,8 +169,20 @@ Set out in columns and work out: $14.68+5.75$.
 2. Add each column, regrouping when a column makes $10$ or more.
 
 ::solution
+Line up the numbers with the decimal points in a column, then add from right to left:
 $$\begin{array}{r} 14.68 \\ +\ \ 5.75 \\ \hline 20.43 \end{array}$$
-Hundredths: $8+5=13$, write $3$ and regroup $1$. Tenths: $6+7+1=14$, write $4$ and regroup $1$. Ones: $4+5+1=10$, write $0$ and regroup $1$. Tens: $1+1=2$.
+
+Hundredths: $8+5=13$, write $3$ and regroup $1$.
+
+Tenths: $6+7+1=14$, write $4$ and regroup $1$.
+
+Ones: $4+5+1=10$, write $0$ and regroup $1$.
+
+Tens: $1+1=2$, write $2$.
+
+Putting the decimal point in line with the decimal points above, we get $20.43$.
+
+So $14.68+5.75=20.43$.
 
 **Answer.** $20.43$.
 :::
@@ -178,8 +198,18 @@ Work out: $9.5+2.87$.
 2. Set out the sum and add.
 
 ::solution
-$9.5=9.50$. So:
+The two addends have different numbers of decimal places. We write a $0$ at the right end of the decimal part of $9.5$ to get $9.5=9.50$ (the value does not change), then set out the sum:
 $$\begin{array}{r} 9.50 \\ +\ 2.87 \\ \hline 12.37 \end{array}$$
+
+Hundredths: $0+7=7$, write $7$.
+
+Tenths: $5+8=13$, write $3$ and regroup $1$.
+
+Ones: $9+2+1=12$, write $12$.
+
+Putting the decimal point in line with the decimal points above, we get $12.37$.
+
+So $9.5+2.87=12.37$.
 
 **Answer.** $12.37$.
 :::
@@ -195,7 +225,20 @@ Work out: $15+7.08$.
 2. Set out the sum with the decimal points lined up and add.
 
 ::solution
+The whole number $15$ can be written as the decimal $15=15.00$ (the value does not change). We set out the sum:
 $$\begin{array}{r} 15.00 \\ +\ \ 7.08 \\ \hline 22.08 \end{array}$$
+
+Hundredths: $0+8=8$, write $8$.
+
+Tenths: $0+0=0$, write $0$.
+
+Ones: $5+7=12$, write $2$ and regroup $1$.
+
+Tens: $1+1=2$, write $2$.
+
+Putting the decimal point in line with the decimal points above, we get $22.08$.
+
+So $15+7.08=22.08$.
 
 **Answer.** $22.08$.
 :::
@@ -211,8 +254,12 @@ Work out in the easy way: $2.5+6.7+7.5$.
 2. Group those two, then add the remaining number.
 
 ::solution
-Since $2.5+7.5=10$, we have:
-$$2.5+6.7+7.5=(2.5+7.5)+6.7=10+6.7=16.7.$$
+Addition is commutative and associative. We notice that $2.5+7.5=10$ is a round number, so we group these two numbers together.
+
+We have
+$$\begin{aligned}2.5+6.7+7.5&=2.5+7.5+6.7\\&=(2.5+7.5)+6.7\\&=10+6.7\\&=16.7.\end{aligned}$$
+
+So $2.5+6.7+7.5=16.7$.
 
 **Answer.** $16.7$.
 :::
@@ -229,8 +276,14 @@ Mum needs $1.6$ m of cloth to make a shirt and $1.25$ m of cloth to make a pair 
 3. Check: the sum must be greater than each addend.
 
 ::solution
-The number of metres of cloth needed for the whole outfit is:
+Solution
+
+To find the cloth needed for the whole outfit, we add the cloth for the shirt and the cloth for the trousers. Write $1.6=1.60$ and add:
 $$1.60+1.25=2.85\ \text{(m)}.$$
+
+Check: $2.85-1.25=1.60$. Correct.
+
+So the whole outfit needs $2.85$ m of cloth.
 
 **Answer.** $2.85$ m of cloth.
 :::
@@ -246,10 +299,17 @@ Remember the last lesson on units of area. One garden has an area of $0.5$ ha, a
 2. Add the two areas, both now in hectares.
 
 ::solution
-Since $1\ \text{ha}=10\,000\ \text{m}^2$, we have $2500\ \text{m}^2=0.25\ \text{ha}$. Then:
+Solution
+
+The two areas are in different units, so we change both to hectares. Since $1\ \text{ha}=10\,000\ \text{m}^2$, we have
+$$2500\ \text{m}^2=2500\div10\,000=0.25\ \text{(ha)}.$$
+
+The total area of the two gardens is:
 $$0.5+0.25=0.50+0.25=0.75\ \text{(ha)}.$$
 
-**Check.** $0.75\ \text{ha}=7500\ \text{m}^2$, and $5000+2500=7500$. Correct.
+Check: $0.75\ \text{ha}=7500\ \text{m}^2$, and $5000+2500=7500$. Correct.
+
+So the two gardens have a total area of $0.75$ ha.
 
 **Answer.** $0.75$ ha.
 :::
@@ -265,8 +325,12 @@ Work out quickly: $0.1+0.2+0.3+0.4+0.5+0.6+0.7+0.8+0.9$.
 2. Which number has no partner?
 
 ::solution
-Group the numbers into four pairs, each with sum $1$, leaving $0.5$:
-$$(0.1+0.9)+(0.2+0.8)+(0.3+0.7)+(0.4+0.6)+0.5=1+1+1+1+0.5=4.5.$$
+We group the numbers into pairs with sum $1$: $0.1$ with $0.9$, $0.2$ with $0.8$, $0.3$ with $0.7$, $0.4$ with $0.6$. The number $0.5$ is left without a partner.
+
+We have
+$$\begin{aligned}&0.1+0.2+0.3+0.4+0.5+0.6+0.7+0.8+0.9\\&=(0.1+0.9)+(0.2+0.8)+(0.3+0.7)+(0.4+0.6)+0.5\\&=1+1+1+1+0.5\\&=4.5.\end{aligned}$$
+
+So the given sum equals $4.5$.
 
 **Answer.** $4.5$.
 :::

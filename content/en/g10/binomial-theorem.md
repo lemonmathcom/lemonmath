@@ -189,7 +189,15 @@ Expand $(x+1)^5$.
 2. Match them with the row of coefficients.
 
 ::solution
-With $a=x$, $b=1$, every power of $b$ equals $1$.
+Apply the binomial theorem with $a=x$, $b=1$, $n=5$:
+$$(x+1)^5=\binom{5}{0}x^5+\binom{5}{1}x^4\cdot1+\binom{5}{2}x^3\cdot1^2+\binom{5}{3}x^2\cdot1^3+\binom{5}{4}x\cdot1^4+\binom{5}{5}\cdot1^5.$$
+
+The binomial coefficients are $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$ (this is also the row for $n=5$ of Pascal's triangle).
+
+Since every power of $b=1$ equals $1$, we get
+$$(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1.$$
+
+So $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
 
 **Answer.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
 :::
@@ -205,7 +213,15 @@ Expand $(x-3)^4$.
 2. Multiply by the row $1, 4, 6, 4, 1$.
 
 ::solution
-$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+Apply the binomial theorem with $a=x$, $b=-3$, $n=4$. The binomial coefficients are $\binom{4}{0}=1$, $\binom{4}{1}=4$, $\binom{4}{2}=6$, $\binom{4}{3}=4$, $\binom{4}{4}=1$.
+
+We have
+$$(x-3)^4=x^4+4x^3(-3)+6x^2(-3)^2+4x(-3)^3+(-3)^4.$$
+
+Compute the powers: $(-3)^2=9$, $(-3)^3=-27$, $(-3)^4=81$. Substituting, we get
+$$\begin{aligned}(x-3)^4&=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81\\&=x^4-12x^3+54x^2-108x+81.\end{aligned}$$
+
+So $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
 
 **Answer.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
 :::
@@ -221,7 +237,13 @@ Find the coefficient of $x^2$ in the expansion of $(3+x)^5$.
 2. Compute $\binom{5}{2}\cdot3^3$.
 
 ::solution
-$\binom{5}{2}\cdot3^3=10\cdot27=270$.
+By the binomial theorem, the general term of the expansion of $(3+x)^5$ is $\binom{5}{k}3^{5-k}x^k$ (for $k=0, 1, \dots, 5$).
+
+The term containing $x^2$ corresponds to $k=2$; it is $\binom{5}{2}\cdot3^{5-2}x^2=\binom{5}{2}\cdot3^3x^2$.
+
+We have $\binom{5}{2}=\dfrac{5!}{2!\,3!}=10$ and $3^3=27$. Hence the coefficient of $x^2$ is $10\cdot27=270$.
+
+So the coefficient of $x^2$ in the expansion of $(3+x)^5$ is $270$.
 
 **Answer.** $270$.
 :::
@@ -237,7 +259,16 @@ Simplify $(x+y)^4+(x-y)^4$.
 2. Add: the terms with $y$ and $y^3$ cancel.
 
 ::solution
-$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ and $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Adding, the terms $\pm4x^3y$ and $\pm4xy^3$ cancel.
+Apply the binomial theorem with $n=4$ (the coefficients are $1, 4, 6, 4, 1$):
+$$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4,$$
+$$(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4.$$
+
+Add the two expansions side by side:
+$$\begin{aligned}(x+y)^4+(x-y)^4&=\left(x^4+4x^3y+6x^2y^2+4xy^3+y^4\right)+\left(x^4-4x^3y+6x^2y^2-4xy^3+y^4\right)\\&=2x^4+12x^2y^2+2y^4.\end{aligned}$$
+
+In the step above, the terms $4x^3y$ and $-4x^3y$ cancel, and so do $4xy^3$ and $-4xy^3$; the remaining terms are doubled: $x^4+x^4=2x^4$, $6x^2y^2+6x^2y^2=12x^2y^2$, $y^4+y^4=2y^4$.
+
+So $(x+y)^4+(x-y)^4=2x^4+12x^2y^2+2y^4$.
 
 **Answer.** $2x^4+12x^2y^2+2y^4$.
 :::
@@ -259,13 +290,18 @@ d) The term containing $x^5$ is $32x^5$.
 3. Put $x=1$ for the sum of coefficients.
 
 ::solution
-a) **True.** Exponent $5$ gives $5+1=6$ terms.
+By the binomial theorem, the general term of the expansion of $(1-2x)^5$ is
+$$\binom{5}{k}\cdot1^{5-k}(-2x)^k=\binom{5}{k}(-2)^kx^k\quad(k=0, 1, \dots, 5).$$
 
-b) **True.** $\binom{5}{2}(-2)^2=10\cdot4=40$.
+a) **True.** The expansion of $(a+b)^n$ has $n+1$ terms; for $n=5$ this gives $5+1=6$ terms.
 
-c) **False.** Putting $x=1$: $(1-2)^5=-1$.
+b) **True.** The coefficient of $x^2$ corresponds to $k=2$ and equals $\binom{5}{2}(-2)^2=10\cdot4=40$.
 
-d) **False.** $\binom{5}{5}(-2)^5x^5=-32x^5$.
+c) **False.** The sum of the coefficients is the value of the expression at $x=1$, that is $(1-2\cdot1)^5=(-1)^5=-1$, which is not $1$.
+
+d) **False.** The term containing $x^5$ corresponds to $k=5$ and equals $\binom{5}{5}(-2)^5x^5=-32x^5$, not $32x^5$.
+
+So statements a), b) are true; statements c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -282,7 +318,14 @@ Find the coefficient of $x^4$ in the expansion of $\left(x^2+\dfrac2x\right)^5$ 
 3. Compute the coefficient.
 
 ::solution
-$\binom{5}{k}(x^2)^{5-k}\left(\dfrac2x\right)^k=\binom{5}{k}2^kx^{10-3k}$. We need $10-3k=4$, so $k=2$: the coefficient is $\binom{5}{2}\cdot2^2=10\cdot4=40$.
+By the binomial theorem, the general term of the expansion of $\left(x^2+\dfrac2x\right)^5$ (with $x\ne0$) is $\binom{5}{k}(x^2)^{5-k}\left(\dfrac2x\right)^k$, for $k=0, 1, \dots, 5$. Simplifying:
+$$\binom{5}{k}(x^2)^{5-k}\left(\frac2x\right)^k=\binom{5}{k}\cdot x^{10-2k}\cdot2^kx^{-k}=\binom{5}{k}2^kx^{10-3k}.$$
+
+The term containing $x^4$ corresponds to $10-3k=4$, so $3k=6$, that is $k=2$ (an integer with $0\le k\le5$).
+
+For $k=2$, the coefficient of $x^4$ is $\binom{5}{2}\cdot2^2=10\cdot4=40$.
+
+So the coefficient of $x^4$ in the given expansion is $40$.
 
 **Answer.** $40$.
 :::
@@ -299,8 +342,19 @@ A water filter costs $10$ million dong, and each year its value falls by $2\%$ o
 3. Multiply by $10$ million dong.
 
 ::solution
+Let $V$ (dong) be the value of the water filter after $5$ years ($V>0$).
+
+Each year the value falls by $2\%$ of the previous year's value, so it becomes $100\%-2\%=98\%=1-0.02$ of the previous year's value. After $5$ years we have
+$$V=10\,000\,000\cdot(1-0.02)^5.$$
+
+By the binomial theorem, $(1-0.02)^5=1-\binom{5}{1}\cdot0.02+\binom{5}{2}\cdot0.02^2-\cdots$. The first three terms are $1$, $-5\cdot0.02$ and $10\cdot0.02^2$, so
 $$0.98^5\approx1-5\cdot0.02+10\cdot0.02^2=1-0.1+0.004=0.904.$$
-The filter is worth about $10\,000\,000\cdot0.904=9\,040\,000$ dong. (The exact value is $9\,039\,207.968$ dong, less than $800$ dong away.)
+
+Hence $V\approx10\,000\,000\cdot0.904=9\,040\,000$ (dong).
+
+Check: the exact value is $10\,000\,000\cdot0.98^5=9\,039\,207.968$ dong, so the error is $9\,040\,000-9\,039\,207.968=792.032$ dong, which is less than $800$ dong.
+
+So after $5$ years the water filter is worth about $9\,040\,000$ dong.
 
 **Answer.** About $9\,040\,000$ dong.
 :::
@@ -318,10 +372,21 @@ The filter is worth about $10\,000\,000\cdot0.904=9\,040\,000$ dong. (The exact 
 2. Add them and compare with $(1+1)^5$.
 
 ::solution
-(a) $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$.
+(a) A subset of $X$ (which has $5$ elements) with $k$ elements is a combination of $k$ elements chosen from $5$, so the number of such subsets is $\binom{5}{k}=\dfrac{5!}{k!\,(5-k)!}$.
 
-(b) Put $a=b=1$ in the expansion of $(a+b)^5$:
-$$\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=(1+1)^5=32.$$
+Taking $k=0, 1, \dots, 5$ in turn:
+$$\binom{5}{0}=1,\quad \binom{5}{1}=5,\quad \binom{5}{2}=\frac{5!}{2!\,3!}=10,\quad \binom{5}{3}=\frac{5!}{3!\,2!}=10,\quad \binom{5}{4}=5,\quad \binom{5}{5}=1.$$
+
+So for $k=0, 1, 2, 3, 4, 5$, the numbers of subsets of $X$ with $k$ elements are $1, 5, 10, 10, 5, 1$.
+
+(b) Every subset of $X$ has some number $k$ of elements between $0$ and $5$, so the total number of subsets of $X$ is $\binom{5}{0}+\binom{5}{1}+\binom{5}{2}+\binom{5}{3}+\binom{5}{4}+\binom{5}{5}$.
+
+By the binomial theorem, $(a+b)^5=\binom{5}{0}a^5+\binom{5}{1}a^4b+\cdots+\binom{5}{5}b^5$. Putting $a=b=1$, we get
+$$\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=(1+1)^5=2^5=32.$$
+
+Check with part (a): $1+5+10+10+5+1=32$.
+
+So $X$ has $32$ subsets in all.
 
 **Answer.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
 :::
@@ -337,7 +402,17 @@ Find the coefficient of $x^2$ in the expansion of $(1+x)(1+2x)^4$.
 2. Add the two contributions.
 
 ::solution
-In $(1+2x)^4$: the coefficient of $x$ is $\binom{4}{1}\cdot2=8$ and of $x^2$ is $\binom{4}{2}\cdot2^2=24$. In the product, $x^2$ comes from $1\cdot24x^2$ and $x\cdot8x$, so the coefficient is $24+8=32$.
+First expand $(1+2x)^4$. By the binomial theorem, the general term is $\binom{4}{k}(2x)^k=\binom{4}{k}2^kx^k$.
+
+For $k=0$, the constant term is $1$. For $k=1$, the coefficient of $x$ is $\binom{4}{1}\cdot2=8$. For $k=2$, the coefficient of $x^2$ is $\binom{4}{2}\cdot2^2=6\cdot4=24$. Therefore
+$$(1+2x)^4=1+8x+24x^2+\cdots,$$
+where the remaining terms have degree $3$ or higher.
+
+In the product $(1+x)(1+2x)^4$, the term containing $x^2$ comes from two products: $1\cdot24x^2$ and $x\cdot8x$.
+
+Hence the coefficient of $x^2$ is $24+8=32$.
+
+So the coefficient of $x^2$ in the expansion of $(1+x)(1+2x)^4$ is $32$.
 
 **Answer.** $32$.
 :::
@@ -353,8 +428,14 @@ Without a calculator, compare $1.1^5$ with $1.6$.
 2. If needed, compute all six terms.
 
 ::solution
-$$1.1^5=1+5\cdot0.1+10\cdot0.01+10\cdot0.001+5\cdot0.0001+0.00001=1.61051.$$
-The first three terms already give $1+0.5+0.1=1.6$, and the other terms are all positive.
+Write $1.1=1+0.1$ and apply the binomial theorem with $n=5$:
+$$\begin{aligned}1.1^5=(1+0.1)^5&=\binom{5}{0}+\binom{5}{1}\cdot0.1+\binom{5}{2}\cdot0.1^2+\binom{5}{3}\cdot0.1^3+\binom{5}{4}\cdot0.1^4+\binom{5}{5}\cdot0.1^5\\&=1+5\cdot0.1+10\cdot0.01+10\cdot0.001+5\cdot0.0001+0.00001\\&=1.61051.\end{aligned}$$
+
+The first three terms give $1+0.5+0.1=1.6$.
+
+The remaining terms are $0.01$, $0.0005$ and $0.00001$; they are all positive, so their sum is positive. Therefore $1.1^5$ is greater than $1.6$.
+
+So $1.1^5>1.6$.
 
 **Answer.** $1.1^5=1.61051>1.6$.
 :::

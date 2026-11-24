@@ -176,8 +176,17 @@ Thời gian dùng điện thoại mỗi ngày (giờ) của $20$ học sinh đư
 2. Tính các độ lệch, bình phương, nhân với tần số.
 
 ::solution
-$\bar{x}=\dfrac{6+42+70+42}{20}=8$; các độ lệch $-6$, $-2$, $2$, $6$.
-$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6,\qquad s\approx3{,}69.$$
+Giá trị đại diện của các nhóm lần lượt là $2$, $6$, $10$, $14$ (giờ) với tần số $3$, $7$, $7$, $3$. Cỡ mẫu là $n=3+7+7+3=20$.
+
+Số trung bình của mẫu số liệu là
+$$\bar{x}=\frac{3\cdot2+7\cdot6+7\cdot10+3\cdot14}{20}=\frac{6+42+70+42}{20}=\frac{160}{20}=8.$$
+
+Áp dụng công thức định nghĩa $s^2=\dfrac1n\sum n_i(x_i-\bar{x})^2$. Các độ lệch $x_i-\bar{x}$ lần lượt là $-6$, $-2$, $2$, $6$, nên
+$$s^2=\frac{3\cdot(-6)^2+7\cdot(-2)^2+7\cdot2^2+3\cdot6^2}{20}=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6.$$
+
+Độ lệch chuẩn là $s=\sqrt{s^2}=\sqrt{13{,}6}\approx3{,}69$.
+
+Vậy phương sai là $s^2=13{,}6$ và độ lệch chuẩn là $s\approx3{,}69$ giờ.
 
 **Đáp số.** $s^2=13{,}6$; $s\approx3{,}69$ giờ.
 :::
@@ -197,8 +206,29 @@ $$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6,\qquad 
 2. Tính $\sum n_ix_i$ và $\sum n_ix_i^2$.
 
 ::solution
-$\sum n_ix_i=9+27{,}5+58{,}5+105+59{,}5+28{,}5=288$ và $\sum n_ix_i^2=2136$.
-$$\bar{x}=\frac{288}{40}=7{,}2,\qquad s^2=\frac{2136}{40}-7{,}2^2=53{,}4-51{,}84=1{,}56,\qquad s\approx1{,}25.$$
+Lập bảng tính với giá trị đại diện $x_i$ là trung điểm của mỗi nhóm:
+
+| Nhóm | $x_i$ | $n_i$ | $n_ix_i$ | $n_ix_i^2$ |
+|---|---|---|---|---|
+| $[4; 5)$ | $4{,}5$ | $2$ | $9$ | $40{,}5$ |
+| $[5; 6)$ | $5{,}5$ | $5$ | $27{,}5$ | $151{,}25$ |
+| $[6; 7)$ | $6{,}5$ | $9$ | $58{,}5$ | $380{,}25$ |
+| $[7; 8)$ | $7{,}5$ | $14$ | $105$ | $787{,}5$ |
+| $[8; 9)$ | $8{,}5$ | $7$ | $59{,}5$ | $505{,}75$ |
+| $[9; 10)$ | $9{,}5$ | $3$ | $28{,}5$ | $270{,}75$ |
+| Tổng | | $40$ | $288$ | $2136$ |
+
+Từ bảng, $n=40$, $\sum n_ix_i=288$ và $\sum n_ix_i^2=2136$.
+
+Số trung bình là
+$$\bar{x}=\frac{288}{40}=7{,}2.$$
+
+Áp dụng công thức $s^2=\dfrac1n\sum n_ix_i^2-\bar{x}^2$, ta được
+$$s^2=\frac{2136}{40}-7{,}2^2=53{,}4-51{,}84=1{,}56.$$
+
+Độ lệch chuẩn là $s=\sqrt{1{,}56}\approx1{,}25$.
+
+Vậy $\bar{x}=7{,}2$; $s^2=1{,}56$; $s\approx1{,}25$.
 
 **Đáp số.** $\bar{x}=7{,}2$; $s^2=1{,}56$; $s\approx1{,}25$.
 :::
@@ -221,9 +251,25 @@ Tính thời gian trung bình và độ lệch chuẩn của mỗi đơn vị. �
 2. Các độ lệch là $-10$, $-5$, $0$, $5$, $10$.
 
 ::solution
-Cả hai có $\bar{x}=32{,}5$ phút.
-$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22{,}5,\ s\approx4{,}74;$$
-$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7{,}07.$$
+Giá trị đại diện của các nhóm là $22{,}5$; $27{,}5$; $32{,}5$; $37{,}5$; $42{,}5$ (phút). Mỗi đơn vị có $n=40$ đơn hàng.
+
+Đơn vị P: số trung bình là
+$$\bar{x}_P=\frac{2\cdot22{,}5+10\cdot27{,}5+16\cdot32{,}5+10\cdot37{,}5+2\cdot42{,}5}{40}=\frac{1300}{40}=32{,}5.$$
+
+Đơn vị Q: số trung bình là
+$$\bar{x}_Q=\frac{8\cdot(22{,}5+27{,}5+32{,}5+37{,}5+42{,}5)}{40}=\frac{8\cdot162{,}5}{40}=32{,}5.$$
+
+Vậy cả hai đơn vị có thời gian giao trung bình bằng nhau, $\bar{x}=32{,}5$ phút. Các độ lệch $x_i-\bar{x}$ là $-10$, $-5$, $0$, $5$, $10$.
+
+Phương sai và độ lệch chuẩn của đơn vị P:
+$$s_P^2=\frac{2\cdot100+10\cdot25+16\cdot0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22{,}5,\qquad s_P=\sqrt{22{,}5}\approx4{,}74.$$
+
+Phương sai và độ lệch chuẩn của đơn vị Q:
+$$s_Q^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\qquad s_Q=\sqrt{50}\approx7{,}07.$$
+
+Vì $s_P<s_Q$ nên thời gian giao hàng của đơn vị P ít phân tán quanh giá trị trung bình hơn.
+
+Vậy thời gian giao trung bình của mỗi đơn vị là $32{,}5$ phút; độ lệch chuẩn của P là khoảng $4{,}74$ phút và của Q là khoảng $7{,}07$ phút. Đơn vị P giao hàng đúng hẹn ổn định hơn.
 
 **Đáp số.** Trung bình $32{,}5$ phút; $s\approx4{,}74$ (P) và $s\approx7{,}07$ (Q). Đơn vị P ổn định hơn.
 :::
@@ -253,13 +299,19 @@ d) Nếu mọi giá trị tăng thêm $5$ (các nhóm thành $[5; 15)$, …, $[3
 2. Các độ lệch $-15$, $-5$, $5$, $15$.
 
 ::solution
-a) **Đúng.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+Giá trị đại diện của các nhóm là $5$, $15$, $25$, $35$ với tần số $1$, $4$, $4$, $1$. Cỡ mẫu là $n=1+4+4+1=10$.
 
-b) **Đúng.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+a) **Đúng.** Số trung bình là
+$$\bar{x}=\frac{1\cdot5+4\cdot15+4\cdot25+1\cdot35}{10}=\frac{5+60+100+35}{10}=\frac{200}{10}=20.$$
 
-c) **Sai.** $s=\sqrt{65}\approx8{,}06<9$.
+b) **Đúng.** Các độ lệch $x_i-\bar{x}$ là $-15$, $-5$, $5$, $15$, nên
+$$s^2=\frac{1\cdot15^2+4\cdot5^2+4\cdot5^2+1\cdot15^2}{10}=\frac{225+100+100+225}{10}=\frac{650}{10}=65.$$
 
-d) **Sai.** Trung điểm và $\bar{x}$ cùng tăng $5$, các độ lệch giữ nguyên, nên phương sai vẫn bằng $65$.
+c) **Sai.** Ta có $s=\sqrt{65}\approx8{,}06$. Vì $9^2=81>65$ nên $s<9$.
+
+d) **Sai.** Khi mọi giá trị tăng thêm $5$, các giá trị đại diện thành $10$, $20$, $30$, $40$ và số trung bình thành $25$. Các độ lệch vẫn là $-15$, $-5$, $5$, $15$ nên phương sai vẫn bằng $65$, không phải $70$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -279,8 +331,21 @@ Chiều cao (cm) của $50$ học sinh được cho trong bảng. Tính độ l�
 2. Tính $\bar{x}$ rồi $s^2$, cuối cùng mới khai căn và làm tròn.
 
 ::solution
-$\sum n_ix_i=8115$, nên $\bar{x}=162{,}3$; $\sum n_ix_i^2=1318612{,}5$.
-$$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96,\qquad s\approx5{,}564.$$
+Giá trị đại diện của các nhóm là $152{,}5$; $157{,}5$; $162{,}5$; $167{,}5$; $172{,}5$ (cm) với tần số $5$, $12$, $18$, $10$, $5$. Cỡ mẫu là $n=5+12+18+10+5=50$.
+
+Ta tính tổng
+$$\sum n_ix_i=5\cdot152{,}5+12\cdot157{,}5+18\cdot162{,}5+10\cdot167{,}5+5\cdot172{,}5=8115,$$
+nên số trung bình là $\bar{x}=\dfrac{8115}{50}=162{,}3$.
+
+Ta tính tiếp
+$$\sum n_ix_i^2=116281{,}25+297675+475312{,}5+280562{,}5+148781{,}25=1318612{,}5.$$
+
+Áp dụng công thức $s^2=\dfrac1n\sum n_ix_i^2-\bar{x}^2$, ta được
+$$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96.$$
+
+Do đó $s=\sqrt{30{,}96}\approx5{,}564$, làm tròn đến hàng phần trăm được $5{,}56$.
+
+Vậy độ lệch chuẩn của chiều cao là khoảng $5{,}56$ cm.
 
 **Đáp số.** $5{,}56$.
 :::
@@ -300,8 +365,20 @@ $$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96,\qquad s\ap
 2. Tính $\sum n_ix_i$ và $\sum n_ix_i^2$.
 
 ::solution
-$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28{,}5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
-$$s^2=885-28{,}5^2=885-812{,}25=72{,}75,\qquad s\approx8{,}53.$$
+Giá trị đại diện của các nhóm là $15$, $25$, $35$, $45$ (phút) với tần số $3$, $9$, $6$, $2$. Cỡ mẫu là $n=3+9+6+2=20$.
+
+Số trung bình của mẫu số liệu ghép nhóm là
+$$\bar{x}=\frac{3\cdot15+9\cdot25+6\cdot35+2\cdot45}{20}=\frac{45+225+210+90}{20}=\frac{570}{20}=28{,}5.$$
+
+Để tính phương sai, ta tính trung bình của bình phương các giá trị đại diện:
+$$\frac{3\cdot15^2+9\cdot25^2+6\cdot35^2+2\cdot45^2}{20}=\frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+
+Áp dụng công thức $s^2=\dfrac1n\sum n_ix_i^2-\bar{x}^2$, ta được
+$$s^2=885-28{,}5^2=885-812{,}25=72{,}75.$$
+
+Độ lệch chuẩn là $s=\sqrt{72{,}75}\approx8{,}53$.
+
+Vậy $\bar{x}=28{,}5$ phút và $s\approx8{,}53$ phút.
 
 **Đáp số.** $\bar{x}=28{,}5$ phút; $s\approx8{,}53$ phút.
 :::
@@ -317,9 +394,33 @@ $$s^2=885-28{,}5^2=885-812{,}25=72{,}75,\qquad s\approx8{,}53.$$
 2. Tính $Q_1$, $Q_3$ cho từng đơn vị.
 
 ::solution
-P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
+Áp dụng công thức tứ phân vị của mẫu số liệu ghép nhóm: nếu nhóm $[u_m; u_{m+1})$ là nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $\dfrac{kn}{4}$ thì
+$$Q_k=u_m+\frac{\frac{kn}{4}-C}{n_m}\cdot(u_{m+1}-u_m),$$
+trong đó $C$ là tần số tích luỹ của các nhóm đứng trước, $n_m$ là tần số của nhóm đó. Ở đây $n=40$ nên $\dfrac n4=10$ và $\dfrac{3n}{4}=30$.
 
-Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26{,}25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38{,}75$, $\Delta_Q=12{,}5$.
+Đơn vị P: tần số tích luỹ là $2$, $12$, $28$, $38$, $40$.
+
+Nhóm chứa $Q_1$ là $[25; 30)$ (có $C=2$, $n_m=10$), nên
+$$Q_1=25+\frac{10-2}{10}\cdot5=29.$$
+
+Nhóm chứa $Q_3$ là $[35; 40)$ (có $C=28$, $n_m=10$), nên
+$$Q_3=35+\frac{30-28}{10}\cdot5=36.$$
+
+Do đó khoảng tứ phân vị của P là $\Delta_Q=36-29=7$.
+
+Đơn vị Q: tần số tích luỹ là $8$, $16$, $24$, $32$, $40$.
+
+Nhóm chứa $Q_1$ là $[25; 30)$ (có $C=8$, $n_m=8$), nên
+$$Q_1=25+\frac{10-8}{8}\cdot5=26{,}25.$$
+
+Nhóm chứa $Q_3$ là $[35; 40)$ (có $C=24$, $n_m=8$), nên
+$$Q_3=35+\frac{30-24}{8}\cdot5=38{,}75.$$
+
+Do đó khoảng tứ phân vị của Q là $\Delta_Q=38{,}75-26{,}25=12{,}5$.
+
+Vì $7<12{,}5$ nên thời gian giao hàng của P tập trung hơn, giống kết luận khi dùng độ lệch chuẩn ($s_P<s_Q$).
+
+Vậy khoảng tứ phân vị của P là $7$ và của Q là $12{,}5$; kết luận giống khi dùng độ lệch chuẩn: đơn vị P ổn định hơn.
 
 **Đáp số.** $\Delta_Q=7$ (P) và $12{,}5$ (Q); giống kết luận từ độ lệch chuẩn: P ổn định hơn.
 :::
@@ -339,9 +440,20 @@ Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là s�
 2. Với $x$ vừa tìm, tính $\sum n_ix_i^2$ và $s^2$.
 
 ::solution
-$$\frac{2+3x+25+21}{10+x}=4{,}2\iff 48+3x=42+4{,}2x\iff 1{,}2x=6\iff x=5.$$
-Khi đó $n=15$ và $\sum n_ix_i^2=2+45+125+147=319$:
+Giá trị đại diện của các nhóm là $1$, $3$, $5$, $7$ với tần số $2$, $x$, $5$, $3$. Cỡ mẫu là $n=2+x+5+3=10+x$.
+
+Tổng các giá trị là $\sum n_ix_i=2\cdot1+x\cdot3+5\cdot5+3\cdot7=48+3x$. Vì số trung bình bằng $4{,}2$ nên
+$$\frac{2+3x+25+21}{10+x}=4{,}2\iff48+3x=42+4{,}2x\iff1{,}2x=6\iff x=5.$$
+
+Giá trị $x=5$ là số nguyên dương nên thoả mãn. Kiểm tra: $\bar{x}=\dfrac{48+15}{15}=4{,}2$.
+
+Khi đó $n=15$ và
+$$\sum n_ix_i^2=2\cdot1^2+5\cdot3^2+5\cdot5^2+3\cdot7^2=2+45+125+147=319.$$
+
+Áp dụng công thức $s^2=\dfrac1n\sum n_ix_i^2-\bar{x}^2$, ta được
 $$s^2=\frac{319}{15}-4{,}2^2=\frac{319}{15}-17{,}64=\frac{272}{75}\approx3{,}63.$$
+
+Vậy $x=5$ và phương sai của mẫu số liệu là $s^2\approx3{,}63$.
 
 **Đáp số.** $x=5$; $s^2\approx3{,}63$.
 :::
@@ -357,8 +469,19 @@ $$s^2=\frac{319}{15}-4{,}2^2=\frac{319}{15}-17{,}64=\frac{272}{75}\approx3{,}63.
 2. Suy ra $s^2$ mới, rồi $s$ mới.
 
 ::solution
-$$s^2_{\text{mới}}=3600\cdot1{,}1275=4059,\qquad s_{\text{mới}}=60\cdot\sqrt{1{,}1275}\approx63{,}71.$$
-(Kiểm tra: $\sqrt{4059}\approx63{,}71$.)
+Gọi $k=60$ là hệ số đổi từ giờ sang phút. Khi nhân mọi giá trị với $k$ thì số trung bình cũng nhân với $k$, nên mỗi độ lệch $x_i-\bar{x}$ nhân với $k$.
+
+Do đó phương sai (là trung bình của bình phương các độ lệch) nhân với $k^2$, còn độ lệch chuẩn nhân với $k$.
+
+Với $s^2=1{,}1275$ (giờ²) ta có
+$$s^2_{\text{mới}}=60^2\cdot1{,}1275=3600\cdot1{,}1275=4059.$$
+
+Độ lệch chuẩn mới là
+$$s_{\text{mới}}=60\cdot\sqrt{1{,}1275}\approx63{,}71.$$
+
+Kiểm tra: $\sqrt{4059}\approx63{,}71$.
+
+Vậy phương sai mới bằng $4059$ (phút²) và độ lệch chuẩn mới bằng khoảng $63{,}71$ phút.
 
 **Đáp số.** $s^2=4059$ (phút²); $s\approx63{,}71$ phút.
 :::

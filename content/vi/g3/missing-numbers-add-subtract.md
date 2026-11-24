@@ -155,9 +155,14 @@ Tìm $\square$, biết $\square+8=15$.
 2. Lấy $15$ trừ $8$.
 
 ::solution
-$\square=15-8=7$.
+Trong phép cộng $\square+8=15$, $\square$ là số hạng chưa biết. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết.
 
-**Thử lại.** $7+8=15$. Đúng.
+Ta có
+$$\square=15-8=7.$$
+
+Thử lại: $7+8=15$. Đúng.
+
+Vậy $\square=7$.
 
 **Đáp số.** $7$.
 :::
@@ -173,9 +178,14 @@ Tìm $\square$, biết $24+\square=40$.
 2. Tính $40-24$ rồi thử lại.
 
 ::solution
-$\square=40-24=16$.
+Trong phép cộng $24+\square=40$, $\square$ là số hạng chưa biết. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết.
 
-**Thử lại.** $24+16=40$. Đúng.
+Ta có
+$$\square=40-24=16.$$
+
+Thử lại: $24+16=40$. Đúng.
+
+Vậy $\square=16$.
 
 **Đáp số.** $16$.
 :::
@@ -191,7 +201,20 @@ Em hãy nhớ lại phép cộng có nhớ: tính $46+28$. Rồi tìm $\square$,
 2. So sánh kết quả với $74$ rồi tìm $\square$.
 
 ::solution
-$46+28=74$ (vì $6+8=14$, viết $4$ nhớ $1$; $4+2+1=7$). Từ $\square+28=74$ ta có $\square=74-28=46$.
+Đặt tính và cộng từ phải sang trái, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$.
+
+Hàng chục: $4+2=6$, thêm $1$ được $7$, viết $7$.
+
+Vậy $46+28=74$.
+
+Trong phép cộng $\square+28=74$, $\square$ là số hạng chưa biết. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:
+$$\square=74-28=46.$$
+
+Thử lại: $46+28=74$. Đúng.
+
+Vậy $46+28=74$ và $\square=46$.
 
 **Đáp số.** $46+28=74$ và $\square=46$.
 :::
@@ -207,9 +230,14 @@ Tìm số bị trừ, biết số trừ là $9$ và hiệu là $30$, tức là $
 2. Tính $30+9$ rồi thử lại.
 
 ::solution
-$\square=30+9=39$.
+Theo đề bài, số trừ là $9$ và hiệu là $30$, tức là $\square-9=30$. Số cần tìm là số bị trừ. Muốn tìm số bị trừ, ta lấy hiệu cộng với số trừ.
 
-**Thử lại.** $39-9=30$. Đúng.
+Ta có
+$$\square=30+9=39.$$
+
+Thử lại: $39-9=30$. Đúng.
+
+Vậy số bị trừ là $39$.
 
 **Đáp số.** $39$.
 :::
@@ -231,11 +259,19 @@ c) $40-\square=15$.
 2. Áp dụng quy tắc tương ứng.
 
 ::solution
-a) $\square$ là số hạng: lấy tổng trừ số hạng, $\square=40-15=25$.
+a) Trong phép cộng $\square+15=40$, $\square$ là số hạng chưa biết. Em chọn phép trừ, vì muốn tìm số hạng chưa biết ta lấy tổng trừ đi số hạng đã biết:
+$$\square=40-15=25.$$
+Thử lại: $25+15=40$. Đúng.
 
-b) $\square$ là số bị trừ: lấy hiệu cộng số trừ, $\square=40+15=55$.
+b) Trong phép trừ $\square-15=40$, $\square$ là số bị trừ. Em chọn phép cộng, vì muốn tìm số bị trừ ta lấy hiệu cộng với số trừ:
+$$\square=40+15=55.$$
+Thử lại: $55-15=40$. Đúng.
 
-c) $\square$ là số trừ: lấy số bị trừ trừ hiệu, $\square=40-15=25$.
+c) Trong phép trừ $40-\square=15$, $\square$ là số trừ. Em chọn phép trừ, vì muốn tìm số trừ ta lấy số bị trừ trừ đi hiệu:
+$$\square=40-15=25.$$
+Thử lại: $40-25=15$. Đúng.
+
+Vậy ở câu a) và c) em chọn phép trừ, ở câu b) em chọn phép cộng; ta tìm được $\square=25$; $\square=55$; $\square=25$.
 
 **Đáp số.** a) $25$; b) $55$; c) $25$.
 :::
@@ -251,9 +287,16 @@ Mai giải bài $63-\square=45$ như sau: "$\square=63+45=108$". Bạn Mai làm 
 2. Thử lại kết quả của Mai: $63-108$ có làm được không?
 
 ::solution
-Mai đã cộng, nhưng $\square$ là số trừ nên phải lấy số bị trừ trừ đi hiệu: $\square=63-45=18$.
+Trong phép trừ $63-\square=45$, $\square$ là số trừ. Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu.
 
-**Thử lại.** $63-18=45$. Đúng.
+Mai đã làm sai ở chỗ lấy $63+45$, tức là Mai đã dùng phép cộng thay vì phép trừ.
+
+Cách làm đúng là
+$$\square=63-45=18.$$
+
+Thử lại: $63-18=45$. Đúng.
+
+Vậy Mai sai ở chỗ dùng phép cộng thay cho phép trừ, và $\square=18$.
 
 **Đáp số.** Mai sai phép tính; $\square=18$.
 :::
@@ -271,9 +314,21 @@ b) Buổi sáng cửa hàng bán $27$ kg gạo. Cả ngày cửa hàng bán đư
 2. Viết phép tính có ô trống, tìm ô trống rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Gọi số vở lúc đầu là $\square$: $\square-35=18$, nên $\square=18+35=53$ (quyển).
+Bài giải
 
-b) Gọi số gạo bán buổi chiều là $\square$: $27+\square=60$, nên $\square=60-27=33$ (kg).
+a) Gọi số quyển vở lúc đầu là $\square$. Cô phát $35$ quyển thì còn lại $18$ quyển, nên
+$$\square-35=18.$$
+Số quyển vở lúc đầu là:
+$$18+35=53\ \text{(quyển)}$$
+Thử lại: $53-35=18$. Đúng.
+
+b) Gọi số ki-lô-gam gạo bán buổi chiều là $\square$. Buổi sáng bán $27$ kg, cả ngày bán $60$ kg, nên
+$$27+\square=60.$$
+Số ki-lô-gam gạo bán buổi chiều là:
+$$60-27=33\ \text{(kg)}$$
+Thử lại: $27+33=60$. Đúng.
+
+Vậy lúc đầu cô có $53$ quyển vở; buổi chiều cửa hàng bán $33$ kg gạo.
 
 **Đáp số.** a) $53$ quyển vở; b) $33$ kg gạo.
 :::
@@ -293,9 +348,19 @@ b) $90-\square=47+16$.
 2. Tìm $\square$ bằng quy tắc tương ứng và thử lại.
 
 ::solution
-a) $100-35=65$, nên $\square+28=65$ và $\square=65-28=37$. Thử lại: $37+28=65$.
+a) Tính vế phải trước:
+$$100-35=65.$$
+Nên $\square+28=65$. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:
+$$\square=65-28=37.$$
+Thử lại: $37+28=65$. Đúng.
 
-b) $47+16=63$, nên $90-\square=63$ và $\square=90-63=27$. Thử lại: $90-27=63$.
+b) Tính vế phải trước:
+$$47+16=63.$$
+Nên $90-\square=63$. Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu:
+$$\square=90-63=27.$$
+Thử lại: $90-27=63$. Đúng.
+
+Vậy ở câu a) $\square=37$; ở câu b) $\square=27$.
 
 **Đáp số.** a) $37$; b) $27$.
 :::

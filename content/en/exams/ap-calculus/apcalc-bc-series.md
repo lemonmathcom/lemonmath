@@ -132,7 +132,21 @@ D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
 **What you need:** $p$-series with $p\le1$ diverge.
 
 ::solution
-$p=0.9\le1$: answer **B**. D converges conditionally.
+We test each series for convergence.
+
+Series A: $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$ is a $p$-series with $p=2>1$, so it converges.
+
+Series B: $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{0.9}}$ is a $p$-series with $p=0.9\le1$, so it diverges.
+
+Series C: $\displaystyle\sum_{n=1}^\infty\frac{1}{2^n}=\sum_{n=1}^\infty\left(\frac12\right)^n$ is a geometric series with ratio $q=\dfrac12$, $|q|<1$, so it converges.
+
+Series D: $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$ is an alternating series in which $\dfrac1n$ decreases and tends to $0$ as $n\to\infty$; by the alternating series test, it converges.
+
+Of the four series, only B diverges. So the answer is **B**.
+
+*Remark.* Series D converges conditionally: it converges itself, but the series of absolute values $\displaystyle\sum\frac1n$ (the harmonic series) diverges; since D converges, D is not the answer.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -142,7 +156,16 @@ Find the sum of $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n$.
 **What you need:** it is geometric with $r=-\dfrac12$.
 
 ::solution
-$\dfrac{1}{1-(-1/2)}=\dfrac{1}{3/2}=\dfrac23$.
+Rewrite the series: $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n=\sum_{n=0}^\infty\left(-\frac12\right)^n$.
+
+This is a geometric series with first term $u_0=1$ and ratio $q=-\dfrac12$. Since $|q|=\dfrac12<1$, the series converges and its sum is $\dfrac{1}{1-q}$.
+
+Substituting $q=-\dfrac12$, we get
+$$S=\frac{1}{1-\left(-\frac12\right)}=\frac{1}{\frac32}=\frac23.$$
+
+So the sum of the series is $\dfrac23$.
+
+**Answer.** $\dfrac23$.
 :::
 
 :::exercise Free response
@@ -152,7 +175,20 @@ Use the ratio test on $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$. Then find 
 **What you need:** $\dfrac{a_{n+1}}{a_n}=\dfrac{2}{n+1}$; $e^2=\displaystyle\sum_{n=0}^\infty\frac{2^n}{n!}$.
 
 ::solution
-$\dfrac{2}{n+1}\to0<1$, so the series converges. Starting from $n=1$ leaves out the term $1$: the sum is $e^2-1$.
+Let $a_n=\dfrac{2^n}{n!}$. To apply the ratio test, we compute
+$$\frac{a_{n+1}}{a_n}=\frac{2^{n+1}}{(n+1)!}\cdot\frac{n!}{2^n}=\frac{2}{n+1}.$$
+
+As $n\to\infty$, $\dfrac{2}{n+1}\to0<1$. Hence, by the ratio test, the series $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$ converges.
+
+To find the sum, we use the series $e^x=\displaystyle\sum_{n=0}^\infty\frac{x^n}{n!}$. Substituting $x=2$, we get
+$$e^2=\sum_{n=0}^\infty\frac{2^n}{n!}=1+\sum_{n=1}^\infty\frac{2^n}{n!}.$$
+
+The given series starts at $n=1$, so it leaves out the term for $n=0$, which equals $\dfrac{2^0}{0!}=1$. Therefore
+$$\sum_{n=1}^\infty\frac{2^n}{n!}=e^2-1.$$
+
+So the series converges and its sum is $e^2-1$.
+
+**Answer.** The series converges (ratio test); its sum is $e^2-1$.
 :::
 
 :::exercise Multiple choice
@@ -166,7 +202,16 @@ D. $x-\dfrac{x^3}{3}+\dfrac{x^5}{5}-\dots$
 **What you need:** substitute $-x^2$ for $x$ in $\dfrac{1}{1-x}$.
 
 ::solution
-$\displaystyle\sum\left(-x^2\right)^n$: answer **C**. Option D is the series for $\arctan x$, its integral.
+We use the geometric series $\dfrac{1}{1-u}=\displaystyle\sum_{n=0}^\infty u^n$ for $|u|<1$.
+
+Substituting $u=-x^2$, we get
+$$\frac{1}{1+x^2}=\sum_{n=0}^\infty\left(-x^2\right)^n=\sum_{n=0}^\infty(-1)^nx^{2n}=1-x^2+x^4-x^6+\dots$$
+
+So the answer is **C**.
+
+*Remark.* Option A is the series for $\dfrac{1}{1-x^2}$ (it lacks the alternating signs); option B is the series for $\dfrac{1}{1+x}$; option D is the series for $\arctan x$, the integral of $\dfrac{1}{1+x^2}$ rather than the function itself.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -176,7 +221,21 @@ Find the second-degree Taylor polynomial for $\ln x$ about $x=1$ and use it to a
 **What you need:** $f(1)=0$, $f'(1)=1$, $f''(1)=-1$.
 
 ::solution
-$P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$, so $\ln1.2\approx0.2-0.02=0.18$. (The true value is about $0.1823$.)
+The second-degree Taylor polynomial of $f$ about $x=1$ is
+$$P_2(x)=f(1)+f'(1)(x-1)+\frac{f''(1)}{2!}(x-1)^2.$$
+
+For $f(x)=\ln x$, we have $f'(x)=\dfrac1x$ and $f''(x)=-\dfrac{1}{x^2}$. Hence
+$$f(1)=\ln1=0,\quad f'(1)=1,\quad f''(1)=-1.$$
+
+Substituting into the formula, we get
+$$P_2(x)=(x-1)-\frac{(x-1)^2}{2}.$$
+
+To approximate $\ln1.2$, we substitute $x=1.2$, so $x-1=0.2$:
+$$\ln1.2\approx P_2(1.2)=0.2-\frac{0.2^2}{2}=0.2-0.02=0.18.$$
+
+So $P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$ and $\ln1.2\approx0.18$. (The true value is about $0.1823$.)
+
+**Answer.** $P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$; $\ln1.2\approx0.18$.
 :::
 
 ## Application exercises
@@ -195,11 +254,24 @@ c) If $\left|f^{(4)}(x)\right|\le24$ for $1\le x\le1.2$, show that the approxima
 2. Bound: $\dfrac{24}{4!}(0.2)^4$.
 
 ::solution
-a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$.
+The third-degree Taylor polynomial of $f$ about $x=1$ has the form
+$$P_3(x)=f(1)+f'(1)(x-1)+\frac{f''(1)}{2!}(x-1)^2+\frac{f'''(1)}{3!}(x-1)^3.$$
 
-b) $3-0.4+0.1+0.016=2.716$.
+a) Substituting $f(1)=3$, $f'(1)=-2$, $f''(1)=5$, $f'''(1)=12$, we get
+$$P_3(x)=3-2(x-1)+\frac52(x-1)^2+\frac{12}{6}(x-1)^3=3-2(x-1)+\frac52(x-1)^2+2(x-1)^3.$$
 
-c) $\left|f(1.2)-P_3(1.2)\right|\le\dfrac{24}{24}(0.2)^4=0.0016<0.002$.
+b) For $x=1.2$ we have $x-1=0.2$, so
+$$f(1.2)\approx P_3(1.2)=3-2(0.2)+\frac52(0.2)^2+2(0.2)^3=3-0.4+0.1+0.016=2.716.$$
+
+c) By the Lagrange error bound, if $\left|f^{(4)}(x)\right|\le M$ on $[1, 1.2]$, then
+$$\left|f(1.2)-P_3(1.2)\right|\le\frac{M}{4!}\left|1.2-1\right|^4.$$
+
+With $M=24$, we have
+$$\left|f(1.2)-P_3(1.2)\right|\le\frac{24}{24}(0.2)^4=0.0016<0.002.$$
+
+So $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$, $f(1.2)\approx2.716$, and this approximation differs from $f(1.2)$ by at most $0.0016$, which is less than $0.002$.
+
+**Answer.** a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$; b) $2.716$; c) error $\le0.0016<0.002$.
 :::
 
 :::exercise Both endpoints
@@ -209,7 +281,20 @@ Find the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x+1)^n
 **What you need:** radius from the ratio test; at the endpoints you get a $p$-series with $p=2$.
 
 ::solution
-The ratio tends to $|x+1|$, so $-2<x<0$. At $x=0$: $\displaystyle\sum\frac{1}{n^2}$ converges. At $x=-2$: $\displaystyle\sum\frac{(-1)^n}{n^2}$ converges absolutely. The interval is $[-2,0]$.
+Let $a_n=\dfrac{(x+1)^n}{n^2}$. Applying the ratio test, we have
+$$\left|\frac{a_{n+1}}{a_n}\right|=\frac{|x+1|^{n+1}}{(n+1)^2}\cdot\frac{n^2}{|x+1|^n}=|x+1|\cdot\frac{n^2}{(n+1)^2}\to|x+1|\quad(n\to\infty).$$
+
+The series converges when $|x+1|<1$, that is $-1<x+1<1$, or $-2<x<0$. The radius of convergence is $1$.
+
+We check the two endpoints.
+
+At $x=0$: the series becomes $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$, a $p$-series with $p=2>1$, so it converges.
+
+At $x=-2$: the series becomes $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$. The series of absolute values $\displaystyle\sum\frac{1}{n^2}$ converges, so this series converges absolutely, and hence converges.
+
+So the interval of convergence is $[-2, 0]$.
+
+**Answer.** $[-2, 0]$.
 :::
 
 :::exercise Integrating a series
@@ -223,7 +308,21 @@ Use the series for $e^x$ to write a series for $\displaystyle\int_0^xe^{-t^2}\,d
 2. Put $x=0.5$.
 
 ::solution
-$0.5-\dfrac{0.125}{3}+\dfrac{0.03125}{10}\approx0.4615$. The series alternates with decreasing terms, so the error is at most $\dfrac{0.5^7}{42}\approx0.0002$.
+We have the series $e^u=\displaystyle\sum_{n=0}^\infty\frac{u^n}{n!}$. Substituting $u=-t^2$, we get
+$$e^{-t^2}=\sum_{n=0}^\infty\frac{(-1)^nt^{2n}}{n!}=1-t^2+\frac{t^4}{2}-\frac{t^6}{6}+\dots$$
+
+Integrating term by term from $0$ to $x$:
+$$\int_0^xe^{-t^2}\,dt=x-\frac{x^3}{3}+\frac{x^5}{10}-\frac{x^7}{42}+\dots=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)\,n!}.$$
+
+Using the first three nonzero terms with $x=0.5$:
+$$\int_0^{0.5}e^{-t^2}\,dt\approx0.5-\frac{0.5^3}{3}+\frac{0.5^5}{10}=0.5-\frac{0.125}{3}+\frac{0.03125}{10}\approx0.4615.$$
+
+At $x=0.5$, this is an alternating series whose terms decrease in absolute value to $0$ (about $0.5$, $0.0417$, $0.0031$, $0.0002$, …). By the alternating series error bound, the error is at most the absolute value of the first omitted term:
+$$\left|\text{error}\right|\le\frac{0.5^7}{42}\approx0.0002.$$
+
+So $\displaystyle\int_0^xe^{-t^2}\,dt=x-\dfrac{x^3}{3}+\dfrac{x^5}{10}-\dfrac{x^7}{42}+\dots$, and the approximation of $\displaystyle\int_0^{0.5}e^{-t^2}\,dt$ is $0.4615$, with error at most about $0.0002$.
+
+**Answer.** $\displaystyle\int_0^{0.5}e^{-t^2}\,dt\approx0.4615$; the error is at most about $0.0002$.
 :::
 
 :::exercise Challenge
@@ -233,7 +332,20 @@ Differentiate the geometric series $\displaystyle\sum_{n=0}^\infty x^n=\frac{1}{
 **What you need:** $\displaystyle\sum_{n=1}^\infty nx^{n-1}=\frac{1}{(1-x)^2}$ for $|x|<1$; multiply by $x$.
 
 ::solution
-$\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. At $x=\dfrac12$: $\dfrac{1/2}{1/4}=2$.
+The geometric series $\displaystyle\sum_{n=0}^\infty x^n=\frac{1}{1-x}$ converges for $|x|<1$.
+
+Differentiating both sides with respect to $x$ (a power series may be differentiated term by term inside its interval of convergence):
+$$\sum_{n=1}^\infty nx^{n-1}=\frac{1}{(1-x)^2}.$$
+
+Multiplying both sides by $x$, we get
+$$\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2},\quad|x|<1.$$
+
+Substituting $x=\dfrac12$ (which satisfies $|x|<1$), we have $\displaystyle\sum_{n=1}^\infty n\left(\frac12\right)^n=\sum_{n=1}^\infty\frac{n}{2^n}$ and
+$$\sum_{n=1}^\infty\frac{n}{2^n}=\frac{\frac12}{\left(1-\frac12\right)^2}=\frac{\frac12}{\frac14}=2.$$
+
+So the sum of the series is $2$.
+
+**Answer.** $2$.
 :::
 
 :::quiz

@@ -262,11 +262,15 @@ Phân loại tam giác theo các góc: a) $50^\circ$, $60^\circ$, $70^\circ$; b)
 2. Kết luận loại tam giác.
 
 ::solution
-a) Cả ba góc bé hơn $90^\circ$: tam giác nhọn.
+Ta phân loại tam giác theo góc lớn nhất của nó: nếu cả ba góc đều bé hơn $90^\circ$ thì là tam giác nhọn; nếu có một góc bằng $90^\circ$ thì là tam giác vuông; nếu có một góc lớn hơn $90^\circ$ thì là tam giác tù.
 
-b) Có một góc $90^\circ$: tam giác vuông.
+a) Ba góc $50^\circ$, $60^\circ$, $70^\circ$ đều bé hơn $90^\circ$. Đó là tam giác nhọn.
 
-c) Có góc $120^\circ>90^\circ$: tam giác tù.
+b) Có một góc bằng $90^\circ$. Đó là tam giác vuông.
+
+c) Có góc $120^\circ>90^\circ$. Đó là tam giác tù.
+
+Vậy tam giác ở câu a) là tam giác nhọn, câu b) là tam giác vuông, câu c) là tam giác tù.
 
 **Đáp số.** a) nhọn; b) vuông; c) tù.
 :::
@@ -282,11 +286,18 @@ Tính diện tích hình tam giác có: a) đáy $15$ cm, chiều cao $8$ cm; b)
 2. Nhân rồi chia $2$, ghi đơn vị diện tích.
 
 ::solution
-a) $15\times8:2=60\ \text{cm}^2$.
+Áp dụng công thức diện tích hình tam giác: $S=\dfrac{a\times h}{2}$, tức là $S=a\times h:2$ (với $a$ là độ dài đáy, $h$ là chiều cao ứng với đáy đó).
 
-b) $7\times4:2=14\ \text{dm}^2$.
+a) Diện tích hình tam giác là:
+$$15\times8:2=120:2=60\ \text{(cm}^2\text{)}.$$
 
-c) $9\times12:2=54\ \text{cm}^2$.
+b) Diện tích hình tam giác là:
+$$7\times4:2=28:2=14\ \text{(dm}^2\text{)}.$$
+
+c) Trong tam giác vuông, hai cạnh góc vuông vuông góc với nhau nên cạnh này là đáy thì cạnh kia là chiều cao. Diện tích hình tam giác là:
+$$9\times12:2=108:2=54\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích các hình tam giác lần lượt là $60\ \text{cm}^2$, $14\ \text{dm}^2$ và $54\ \text{cm}^2$.
 
 **Đáp số.** a) $60\ \text{cm}^2$; b) $14\ \text{dm}^2$; c) $54\ \text{cm}^2$.
 :::
@@ -302,9 +313,19 @@ Tìm: a) chiều cao của tam giác có diện tích $40\ \text{cm}^2$ và đá
 2. Chia cho đáy (hoặc chiều cao) đã biết.
 
 ::solution
-a) $40\times2=80$ và $80:10=8$, nên chiều cao là $8$ cm.
+Từ công thức $S=a\times h:2$, ta suy ra $h=S\times2:a$ và $a=S\times2:h$.
 
-b) $63\times2=126$ và $126:9=14$, nên đáy là $14$ m.
+a) Chiều cao của tam giác là:
+$$40\times2:10=80:10=8\ \text{(cm)}.$$
+
+Kiểm tra: $10\times8:2=40$. Đúng.
+
+b) Đáy của tam giác là:
+$$63\times2:9=126:9=14\ \text{(m)}.$$
+
+Kiểm tra: $14\times9:2=63$. Đúng.
+
+Vậy chiều cao ở câu a) là $8$ cm, đáy ở câu b) là $14$ m.
 
 **Đáp số.** a) $8$ cm; b) $14$ m.
 :::
@@ -320,8 +341,12 @@ Giả sử một cánh buồm hình tam giác có đáy $3{,}2$ m và chiều ca
 2. Tính $3{,}2\times2{,}5$ rồi chia $2$. Nhớ ghi đơn vị.
 
 ::solution
-Diện tích cánh buồm là:
+Bài giải
+
+Áp dụng công thức diện tích hình tam giác $S=a\times h:2$, với đáy $a=3{,}2$ m và chiều cao $h=2{,}5$ m, diện tích cánh buồm là:
 $$3{,}2\times2{,}5:2=8:2=4\ \text{(m}^2\text{)}.$$
+
+Vậy diện tích cánh buồm là $4\ \text{m}^2$.
 
 **Đáp số.** $4\ \text{m}^2$.
 :::
@@ -337,9 +362,15 @@ Tính diện tích: a) hình thang có hai đáy $9$ cm và $15$ cm, chiều cao
 2. Cộng hai đáy, nhân chiều cao, rồi chia $2$.
 
 ::solution
-a) $(9+15)\times6:2=72\ \text{cm}^2$.
+Áp dụng công thức diện tích hình thang: $S=\dfrac{(a+b)\times h}{2}$, tức là $S=(a+b)\times h:2$ (với $a$, $b$ là độ dài hai đáy, $h$ là chiều cao).
 
-b) Chiều cao là $AD=7$ cm, nên $S=(4+10)\times7:2=49\ \text{cm}^2$.
+a) Diện tích hình thang là:
+$$(9+15)\times6:2=24\times6:2=144:2=72\ \text{(cm}^2\text{)}.$$
+
+b) Hình thang vuông $ABCD$ có $AD\perp AB$ nên $AD$ vuông góc với đáy $AB$ và cũng là chiều cao. Hai đáy là $AB=4$ cm, $CD=10$ cm và chiều cao là $AD=7$ cm. Diện tích hình thang là:
+$$S=(4+10)\times7:2=14\times7:2=98:2=49\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích hình thang ở câu a) là $72\ \text{cm}^2$ và ở câu b) là $49\ \text{cm}^2$.
 
 **Đáp số.** a) $72\ \text{cm}^2$; b) $49\ \text{cm}^2$.
 :::
@@ -355,10 +386,14 @@ Giả sử một thửa ruộng hình thang có hai đáy $25$ m và $35$ m, chi
 2. Dùng công thức diện tích hình thang. Thử lại: kết quả nằm giữa hai hình chữ nhật $25\times20$ và $35\times20$.
 
 ::solution
-Diện tích thửa ruộng là:
-$$(25+35)\times20:2=600\ \text{(m}^2\text{)}.$$
+Bài giải
 
-**Thử lại.** $25\times20=500$ và $35\times20=700$, mà $500<600<700$.
+Áp dụng công thức diện tích hình thang $S=(a+b)\times h:2$, diện tích thửa ruộng là:
+$$(25+35)\times20:2=60\times20:2=1\,200:2=600\ \text{(m}^2\text{)}.$$
+
+Thử lại: nếu thửa ruộng là hình chữ nhật có chiều rộng $20$ m và chiều dài $25$ m thì diện tích là $25\times20=500\ \text{m}^2$; nếu chiều dài là $35$ m thì diện tích là $35\times20=700\ \text{m}^2$. Diện tích hình thang nằm giữa hai giá trị này: $500<600<700$. Hợp lí.
+
+Vậy diện tích thửa ruộng là $600\ \text{m}^2$.
 
 **Đáp số.** $600\ \text{m}^2$.
 :::
@@ -374,9 +409,15 @@ Em hãy nhớ lại bài về héc-ta. Một khu đất hình thang có hai đá
 2. Đổi kết quả ra héc-ta.
 
 ::solution
-Diện tích khu đất là $(150+250)\times100:2=20\,000\ \text{m}^2$.
+Bài giải
 
-Đổi ra héc-ta: $20\,000:10\,000=2$ ha.
+Áp dụng công thức diện tích hình thang, diện tích khu đất là:
+$$(150+250)\times100:2=400\times100:2=20\,000\ \text{(m}^2\text{)}.$$
+
+Vì $1$ ha $=10\,000\ \text{m}^2$ nên muốn đổi ra héc-ta ta chia cho $10\,000$:
+$$20\,000\ \text{m}^2=20\,000:10\,000=2\ \text{(ha)}.$$
+
+Vậy diện tích khu đất là $2$ ha.
 
 **Đáp số.** $2$ ha.
 :::
@@ -392,9 +433,15 @@ Giả sử một mảnh vườn hình tam giác có đáy $18$ m và chiều cao
 2. Chia diện tích đó cho $3$.
 
 ::solution
-Diện tích mảnh vườn là $18\times12:2=108\ \text{m}^2$.
+Bài giải
 
-Diện tích trồng rau là $108:3=36\ \text{m}^2$.
+Diện tích mảnh vườn hình tam giác là:
+$$18\times12:2=216:2=108\ \text{(m}^2\text{)}.$$
+
+Diện tích trồng rau bằng $\dfrac{1}{3}$ diện tích mảnh vườn, nên diện tích trồng rau là:
+$$108:3=36\ \text{(m}^2\text{)}.$$
+
+Vậy diện tích trồng rau là $36\ \text{m}^2$.
 
 **Đáp số.** $36\ \text{m}^2$.
 :::
@@ -410,7 +457,20 @@ Một hình thang có diện tích $120\ \text{cm}^2$ và hai đáy dài $14$ cm
 2. Chia để tìm chiều cao.
 
 ::solution
-$S\times2=120\times2=240$ và tổng hai đáy là $14+16=30$ cm, nên chiều cao là $240:30=8$ cm.
+Từ công thức $S=(a+b)\times h:2$, ta suy ra $h=S\times2:(a+b)$.
+
+Hai lần diện tích hình thang là:
+$$120\times2=240\ \text{(cm}^2\text{)}.$$
+
+Tổng độ dài hai đáy là:
+$$14+16=30\ \text{(cm)}.$$
+
+Chiều cao hình thang là:
+$$240:30=8\ \text{(cm)}.$$
+
+Kiểm tra: $(14+16)\times8:2=120$. Đúng.
+
+Vậy chiều cao hình thang là $8$ cm.
 
 **Đáp số.** $8$ cm.
 :::
@@ -426,9 +486,20 @@ Một hình thang có đáy lớn gấp đôi đáy bé, chiều cao $6$ cm và 
 2. Chia tổng đó thành $3$ phần bằng nhau để tìm đáy bé.
 
 ::solution
-Tổng hai đáy là $54\times2:6=18$ cm. Coi đáy bé là $1$ phần thì đáy lớn là $2$ phần, tổng là $3$ phần. Đáy bé là $18:3=6$ cm, đáy lớn là $6\times2=12$ cm.
+Từ công thức $S=(a+b)\times h:2$, ta có tổng độ dài hai đáy là $(a+b)=S\times2:h$:
+$$54\times2:6=108:6=18\ \text{(cm)}.$$
 
-**Kiểm tra.** $(6+12)\times6:2=54$. Đúng.
+Đáy lớn gấp đôi đáy bé. Coi đáy bé là $1$ phần thì đáy lớn là $2$ phần, nên tổng hai đáy là $1+2=3$ (phần).
+
+Độ dài đáy bé là:
+$$18:3=6\ \text{(cm)}.$$
+
+Độ dài đáy lớn là:
+$$6\times2=12\ \text{(cm)}.$$
+
+Kiểm tra: $(6+12)\times6:2=54$. Đúng.
+
+Vậy đáy bé dài $6$ cm và đáy lớn dài $12$ cm.
 
 **Đáp số.** Đáy bé $6$ cm; đáy lớn $12$ cm.
 :::

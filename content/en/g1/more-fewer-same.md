@@ -116,7 +116,14 @@ There are $3$ cups and $4$ spoons. Which group has more?
 2. See which group has things left over.
 
 ::solution
-When the $3$ cups are used up, $1$ spoon is left over.
+We match each cup with one spoon. There are $3$ cups, so $3$ spoons are matched.
+
+The number of spoons left over is:
+$$4-3=1\ \text{(spoon)}$$
+
+The cups are used up but $1$ spoon is still left over, so there are more spoons than cups.
+
+So there are more spoons than cups.
 
 **Answer.** There are more spoons than cups.
 :::
@@ -132,7 +139,11 @@ There are $5$ children and $5$ hats. Each child wears one hat. What can you say 
 2. Is anything left over?
 
 ::solution
-No child and no hat is left over.
+Each child wears one hat, so we match each child with one hat.
+
+There are $5$ children and $5$ hats, so after matching, no child is without a hat and no hat is left over.
+
+So the number of children is the same as the number of hats.
 
 **Answer.** The number of children is the same as the number of hats.
 :::
@@ -148,7 +159,16 @@ Remember the last lesson. a) Fill in the box: $6, 7, \square, 9, 10$. b) There a
 2. Match each fish with one prawn.
 
 ::solution
-a) After $7$ comes $8$. b) When the $7$ fish are used up, $2$ prawns are left over, so the fish ran out first.
+a) We count: $6, 7, 8, 9, 10$. After $7$ comes $8$, so the number for the box is $8$.
+
+b) We match each fish with one prawn. There are $7$ fish, so $7$ prawns are matched.
+
+The number of prawns left over is:
+$$9-7=2\ \text{(prawns)}$$
+
+The fish are used up but $2$ prawns are still left over, so the fish ran out first. That means there are fewer fish than prawns.
+
+So a) the number for the box is $8$; b) there are fewer fish than prawns.
 
 **Answer.** a) $8$. b) There are fewer fish than prawns.
 :::
@@ -164,7 +184,16 @@ There are $6$ birds and $4$ nests. Each bird goes into one nest. Is any bird wit
 2. Count the birds left.
 
 ::solution
-When the $4$ nests are used up, $2$ birds are left over.
+Solution
+
+We match each bird with one nest. There are $4$ nests, so $4$ birds are matched.
+
+The number of birds without a nest is:
+$$6-4=2\ \text{(birds)}$$
+
+The nests are used up but some birds are still left over, so there are birds without a nest.
+
+So $2$ birds have no nest.
 
 **Answer.** $2$ birds have no nest.
 :::
@@ -180,7 +209,14 @@ A big box has $3$ marbles and a small box has $5$ marbles. Binh says: "The big b
 2. See which group has some left over.
 
 ::solution
-When the $3$ marbles of the big box are used up, $2$ marbles of the small box are left over. The small box has more.
+We match each marble of the big box with one marble of the small box. The big box has $3$ marbles, so $3$ marbles of the small box are matched.
+
+The number of marbles left over in the small box is:
+$$5-3=2\ \text{(marbles)}$$
+
+The marbles of the big box are used up but $2$ marbles of the small box are still left over, so the small box has more marbles. Also $5>3$.
+
+So Binh is wrong, because the small box has more marbles than the big box.
 
 **Answer.** No. The small box has more marbles.
 :::
@@ -196,7 +232,11 @@ Lan matches $4$ bowls with $4$ spoons and says: "There are more bowls than spoon
 2. Choose: more, fewer or the same.
 
 ::solution
-Matching $4$ bowls with $4$ spoons leaves nothing over. The two groups are the same.
+We match each bowl with one spoon. There are $4$ bowls and $4$ spoons, so after matching, no bowl is left over and no spoon is left over.
+
+Since nothing is left over, the two groups are the same. Lan's sentence "There are more bowls than spoons" is wrong.
+
+So Lan went wrong by saying there are more bowls than spoons; the right thing to say is that the number of bowls is the same as the number of spoons.
 
 **Answer.** The number of bowls is the same as the number of spoons.
 :::
@@ -219,7 +259,13 @@ b) Which two children have the same number of sweets?
 2. Find two numbers that are the same.
 
 ::solution
-a) Nam has $7$ sweets, which is $2$ more than Mai. b) Mai and Ha both have $5$ sweets.
+By the table, Mai has $5$ sweets, Nam has $7$ sweets and Ha has $5$ sweets.
+
+a) We compare each child's sweets with Mai's. Nam has $7$ sweets and $7>5$, so Nam has more sweets than Mai. Nam has $7-5=2$ more sweets than Mai. Ha has $5$ sweets, the same as Mai, so Ha does not have more than Mai. The child who has more sweets than Mai is Nam.
+
+b) Mai and Ha both have $5$ sweets, while Nam has $7$ sweets. The two children with the same number of sweets are Mai and Ha.
+
+So a) Nam has more sweets than Mai; b) Mai and Ha have the same number of sweets.
 
 **Answer.** a) Nam. b) Mai and Ha.
 :::
@@ -237,9 +283,18 @@ Group A has $6$ circles and group B has $9$ circles. How many circles must you d
 2. Count the circles left over in B.
 
 ::solution
-When the $6$ circles of A are used up, $3$ circles of B are left over. Draw $3$ more circles in A.
+Solution
 
-**Check.** A now has $6$ and $3$ new circles, which match all $9$ circles of B. Correct.
+We match each circle of group A with one circle of group B. Group A has $6$ circles, so $6$ circles of group B are matched.
+
+The number of circles left over in group B is:
+$$9-6=3\ \text{(circles)}$$
+
+To make the two groups the same, we draw in group A as many circles as are left over in group B, that is $3$ circles.
+
+Check: group A has $6$ circles, and after drawing $3$ more it has $6+3=9$ circles, the same as group B. Correct.
+
+So we must draw $3$ more circles in group A.
 
 **Answer.** $3$ circles.
 :::

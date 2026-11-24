@@ -151,7 +151,15 @@ D. The limit does not exist.
 2. Cancel and substitute.
 
 ::solution
-$\dfrac{x}{x+4}\to\dfrac48=\dfrac12$: answer **B**.
+As $x\to4$ we have $x\neq4$. Factorise the numerator and the denominator:
+$$\frac{x^2-4x}{x^2-16}=\frac{x(x-4)}{(x-4)(x+4)}=\frac{x}{x+4}.$$
+
+Therefore
+$$\lim_{x\to4}\frac{x^2-4x}{x^2-16}=\lim_{x\to4}\frac{x}{x+4}=\frac{4}{4+4}=\frac12.$$
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -166,7 +174,20 @@ Find $k$ so that $g$ is continuous at $x=1$, and justify.
 2. The right-hand limit is $2$.
 
 ::solution
-$g$ is continuous at $1$ when $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)$, that is $1+k=2$, so $k=1$.
+The function $g$ is continuous at $x=1$ if and only if
+$$\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1).$$
+
+We compute each value:
+- for $x\le1$: $g(x)=x+k$, so $\displaystyle\lim_{x\to1^-}g(x)=1+k$ and $g(1)=1+k$;
+- for $x>1$: $g(x)=2x^2$, so $\displaystyle\lim_{x\to1^+}g(x)=2\cdot1^2=2$.
+
+The continuity condition becomes $1+k=2$, so $k=1$.
+
+Justification: with $k=1$ we have $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)=2$, so $g$ is continuous at $x=1$.
+
+So $k=1$.
+
+**Answer.** $k=1$.
 :::
 
 :::exercise Multiple choice
@@ -183,7 +204,15 @@ D. $5$
 1. Rewrite and use the special limit.
 
 ::solution
-$\dfrac52\cdot1=\dfrac52$: answer **C**.
+Rewrite
+$$\frac{\sin(5x)}{2x}=\frac52\cdot\frac{\sin(5x)}{5x}.$$
+
+Let $t=5x$. As $x\to0$ we have $t\to0$, and by the standard limit $\displaystyle\lim_{t\to0}\frac{\sin t}{t}=1$,
+$$\lim_{x\to0}\frac{\sin(5x)}{2x}=\frac52\cdot\lim_{t\to0}\frac{\sin t}{t}=\frac52\cdot1=\frac52.$$
+
+So the answer is **C**.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -197,7 +226,15 @@ Evaluate $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}$.
 2. Cancel and substitute.
 
 ::solution
-$\dfrac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3\to6$.
+As $x\to9$ we have $x\neq9$ and $x\ge0$. Since $x-9=(\sqrt x-3)(\sqrt x+3)$ and $\sqrt x-3\neq0$,
+$$\frac{x-9}{\sqrt x-3}=\frac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3.$$
+
+Therefore
+$$\lim_{x\to9}\frac{x-9}{\sqrt x-3}=\lim_{x\to9}\left(\sqrt x+3\right)=\sqrt9+3=6.$$
+
+So $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}=6$.
+
+**Answer.** $6$.
 :::
 
 :::exercise Multiple choice
@@ -214,7 +251,15 @@ D. $\infty$
 1. Compare $4x^3$ and $2x^3$.
 
 ::solution
-$\dfrac42=2$: answer **B**.
+As $x\to\infty$ we have $x\neq0$. Divide the numerator and the denominator by $x^3$ (the highest power):
+$$\frac{4x^3+1}{2x^3-x}=\frac{4+\frac{1}{x^3}}{2-\frac{1}{x^2}}.$$
+
+Since $\dfrac{1}{x^3}\to0$ and $\dfrac{1}{x^2}\to0$ as $x\to\infty$,
+$$\lim_{x\to\infty}\frac{4x^3+1}{2x^3-x}=\frac{4+0}{2-0}=2.$$
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 ## Application exercises
@@ -230,7 +275,20 @@ Find all vertical asymptotes and holes of the graph of $y=\dfrac{x+1}{x^2-1}$.
 2. Decide which zero of the denominator remains after cancelling.
 
 ::solution
-For $x\ne\pm1$, $y=\dfrac{1}{x-1}$. So $x=1$ is a vertical asymptote, and at $x=-1$ there is a hole at $\left(-1, -\dfrac12\right)$.
+Condition: $x^2-1\neq0$, that is $x\neq\pm1$.
+
+Factorise the denominator: $x^2-1=(x-1)(x+1)$. For $x\neq\pm1$ we have
+$$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
+
+At $x=1$: as $x\to1^+$, $x-1\to0^+$ so $y\to+\infty$; as $x\to1^-$, $x-1\to0^-$ so $y\to-\infty$. Hence the line $x=1$ is a vertical asymptote.
+
+At $x=-1$: the limit
+$$\lim_{x\to-1}y=\lim_{x\to-1}\frac{1}{x-1}=\frac{1}{-1-1}=-\frac12$$
+is finite, but the function is not defined at $x=-1$. Hence the graph has a hole at $\left(-1, -\dfrac12\right)$.
+
+So the graph has the vertical asymptote $x=1$ and a hole at $\left(-1, -\dfrac12\right)$.
+
+**Answer.** Vertical asymptote $x=1$; hole at $\left(-1, -\dfrac12\right)$.
 :::
 
 :::exercise A root by the IVT
@@ -244,7 +302,18 @@ Show that the equation $x^3+x-1=0$ has a solution between $0$ and $1$.
 2. State the theorem with its condition.
 
 ::solution
-$f$ is a polynomial, so it is continuous on $[0, 1]$. $f(0)=-1<0$ and $f(1)=1>0$. By the IVT there is $c$ in $(0, 1)$ with $f(c)=0$. (A calculator gives $c\approx0.682$.)
+Let $f(x)=x^3+x-1$. Since $f$ is a polynomial, it is continuous on $[0, 1]$.
+
+We have
+$$f(0)=0^3+0-1=-1<0,\qquad f(1)=1^3+1-1=1>0.$$
+
+So $f(0)$ and $f(1)$ have opposite signs. By the Intermediate Value Theorem (IVT), there exists $c\in(0, 1)$ with $f(c)=0$, that is $c^3+c-1=0$.
+
+A calculator gives $c\approx0.682$.
+
+So the equation $x^3+x-1=0$ has a solution between $0$ and $1$.
+
+**Answer.** There exists $c\in(0, 1)$ with $f(c)=0$.
 :::
 
 :::exercise A jump
@@ -257,7 +326,19 @@ Does $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ exist? Explain using one-sided lim
 1. Compute both one-sided limits.
 
 ::solution
-For $x>0$ the expression equals $1$; for $x<0$ it equals $-1$. The one-sided limits are $1$ and $-1$, which are different, so the limit does not exist: the graph has a jump at $0$.
+The function $\dfrac{|x|}{x}$ is defined for $x\neq0$. We examine the two one-sided limits.
+
+For $x>0$ we have $|x|=x$, so $\dfrac{|x|}{x}=1$. Hence
+$$\lim_{x\to0^+}\frac{|x|}{x}=1.$$
+
+For $x<0$ we have $|x|=-x$, so $\dfrac{|x|}{x}=-1$. Hence
+$$\lim_{x\to0^-}\frac{|x|}{x}=-1.$$
+
+The one-sided limits are $1$ and $-1$, which are different. A limit exists if and only if both one-sided limits exist and are equal, so $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ does not exist: the graph has a jump at $x=0$.
+
+So the limit $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ does not exist.
+
+**Answer.** Does not exist.
 :::
 
 :::exercise Challenge
@@ -272,7 +353,21 @@ Find $a$ and $b$ so that $f$ is continuous for all real numbers.
 2. At $x=3$: $3a+b=9$.
 
 ::solution
-Subtracting: $2a=8$, so $a=4$ and $b=-3$. Check: at $x=1$ both sides give $1$; at $x=3$ both give $9$.
+On each of the intervals $(-\infty, 1)$, $(1, 3)$ and $(3, +\infty)$, $f$ is given by a polynomial, so it is continuous. Hence $f$ is continuous on $\mathbb{R}$ if and only if $f$ is continuous at $x=1$ and at $x=3$.
+
+At $x=1$: we have $\displaystyle\lim_{x\to1^-}f(x)=1^2=1$, while $f(1)=\displaystyle\lim_{x\to1^+}f(x)=a+b$. The continuity condition is
+$$a+b=1.\qquad(1)$$
+
+At $x=3$: we have $f(3)=\displaystyle\lim_{x\to3^-}f(x)=3a+b$ and $\displaystyle\lim_{x\to3^+}f(x)=12-3=9$. The continuity condition is
+$$3a+b=9.\qquad(2)$$
+
+Subtracting equation (1) from equation (2), we get $2a=8$, so $a=4$. Substituting into (1): $b=1-4=-3$.
+
+Check: at $x=1$ both sides give $1$ (since $a+b=4-3=1$); at $x=3$ both give $9$ (since $3a+b=12-3=9$).
+
+So $a=4$ and $b=-3$.
+
+**Answer.** $a=4$, $b=-3$.
 :::
 
 :::quiz

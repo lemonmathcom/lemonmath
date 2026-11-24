@@ -184,7 +184,14 @@ Prove that the sequence $(u_n)$ with $u_n=3n-5$ is an arithmetic progression. Fi
 2. Find $u_1$.
 
 ::solution
-We have $u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3$, which is constant, so $(u_n)$ is an arithmetic progression with common difference $d=3$ and $u_1=3-5=-2$.
+Consider the difference of two consecutive terms: for every $n\in\mathbb{N}^*$ we have
+$$u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3n+3-5-3n+5=3.$$
+
+This difference does not depend on $n$, so $(u_n)$ is an arithmetic progression with common difference $d=3$.
+
+The first term is $u_1=3\cdot1-5=-2$.
+
+So $(u_n)$ is an arithmetic progression with $u_1=-2$ and common difference $d=3$.
 
 **Answer.** An arithmetic progression with $u_1=-2$, $d=3$.
 :::
@@ -200,7 +207,16 @@ An arithmetic progression has $u_1=5$ and $d=-3$. Find $u_{10}$. Which term is $
 2. Solve $5-3(n-1)=-49$.
 
 ::solution
-We have $u_{10}=5+9\cdot(-3)=-22$. Solving $5-3(n-1)=-49$ gives $n-1=18$, so $n=19$.
+The general term of an arithmetic progression is $u_n=u_1+(n-1)d$.
+
+With $u_1=5$, $d=-3$ and $n=10$, we have
+$$u_{10}=5+9\cdot(-3)=5-27=-22.$$
+
+Suppose $-49$ is the $n$th term $(n\in\mathbb{N}^*)$. Then
+$$\begin{aligned}5-3(n-1)&=-49\\-3(n-1)&=-54\\n-1&=18\\n&=19.\end{aligned}$$
+The value $n=19$ is a positive integer (it satisfies the condition).
+
+So $u_{10}=-22$ and $-49$ is the $19$th term.
 
 **Answer.** $u_{10}=-22$; $-49$ is the $19$th term.
 :::
@@ -216,7 +232,17 @@ An arithmetic progression has $u_4=10$ and $u_9=-5$. Find $u_1$, the common diff
 2. Find $u_1=u_4-3d$, then $u_{20}$.
 
 ::solution
-We have $5d=-5-10=-15$, so $d=-3$. Then $u_1=10-3\cdot(-3)=19$ and $u_{20}=19+19\cdot(-3)=-38$.
+Let $d$ be the common difference. We have $u_4=u_1+3d=10$ and $u_9=u_1+8d=-5$.
+
+Subtracting $u_4$ from $u_9$ (side by side), we get
+$$5d=-5-10=-15,\ \text{so}\ d=-3.$$
+
+From $u_4=u_1+3d=10$ we have $u_1=10-3\cdot(-3)=10+9=19$.
+
+Hence
+$$u_{20}=u_1+19d=19+19\cdot(-3)=19-57=-38.$$
+
+So $u_1=19$, the common difference is $d=-3$ and $u_{20}=-38$.
 
 **Answer.** $u_1=19$, $d=-3$, $u_{20}=-38$.
 :::
@@ -232,7 +258,16 @@ Find the sum $2+5+8+\dots+98$.
 2. Use $S_n=\dfrac{n(u_1+u_n)}{2}$.
 
 ::solution
-We have $2+3(n-1)=98$, so $n=33$. Hence $S_{33}=\dfrac{33\cdot(2+98)}{2}=1650$.
+The numbers $2, 5, 8, \dots, 98$ form an arithmetic progression with $u_1=2$ and common difference $d=5-2=3$.
+
+Suppose $98$ is the $n$th term $(n\in\mathbb{N}^*)$. Then
+$$2+3(n-1)=98\iff3(n-1)=96\iff n=33.$$
+So the sum has $33$ terms, with $u_{33}=98$.
+
+Using the formula for the sum of the first $n$ terms, $S_n=\dfrac{n(u_1+u_n)}2$, we have
+$$S_{33}=\frac{33\cdot(2+98)}2=\frac{33\cdot100}2=1650.$$
+
+So $2+5+8+\dots+98=1650$.
 
 **Answer.** $1650$.
 :::
@@ -248,7 +283,14 @@ Find $x$ so that the numbers $x-2$, $2x+1$, $5x-4$, in that order, form an arith
 2. Solve the equation, then check.
 
 ::solution
-We have $6x-6=4x+2$, so $x=4$. The three numbers are $2$, $9$, $16$, with common difference $7$.
+Three numbers $a$, $b$, $c$, in that order, form an arithmetic progression if and only if $a+c=2b$.
+
+Applying this with $a=x-2$, $b=2x+1$, $c=5x-4$, we have
+$$\begin{aligned}(x-2)+(5x-4)&=2(2x+1)\\6x-6&=4x+2\\2x&=8\\x&=4.\end{aligned}$$
+
+Check: for $x=4$ the three numbers are $2$, $9$, $16$; we have $9-2=7$ and $16-9=7$, so they form an arithmetic progression with common difference $7$.
+
+So $x=4$.
 
 **Answer.** $x=4$.
 :::
@@ -264,7 +306,15 @@ Suppose a company pays a salary of $120$ million dong in the first year and each
 2. Use the sum formula.
 
 ::solution
-The salary in year $10$ is $u_{10}=120+9\cdot6=174$ (million dong). The total is $S_{10}=\dfrac{10\cdot(120+174)}{2}=1470$ (million dong).
+Let $u_n$ (million dong) be the salary in year $n$, where $n=1, 2, \dots, 10$. Each later year the salary is $6$ million dong more than the year before, so $(u_n)$ is an arithmetic progression with $u_1=120$ and common difference $d=6$.
+
+The salary in year $10$ is
+$$u_{10}=u_1+9d=120+9\cdot6=174\ (\text{million dong}).$$
+
+The total salary received in the first $10$ years is
+$$S_{10}=\frac{10\cdot(u_1+u_{10})}2=\frac{10\cdot(120+174)}2=5\cdot294=1470\ (\text{million dong}).$$
+
+So the total salary received in the first $10$ years is $1470$ million dong.
 
 **Answer.** $1470$ million dong.
 :::
@@ -289,13 +339,18 @@ d) The sum of the first $10$ terms is $-130$.
 3. d) Find $S_{10}$.
 
 ::solution
-a) **True**: $3-7=-4$.
+The sequence $7, 3, -1, -5, \dots$ is an arithmetic progression with $u_1=7$ and common difference $d=3-7=-4$ (check: $-1-3=-4$ and $-5-(-1)=-4$).
 
-b) **True**: $u_n=7+(n-1)(-4)=11-4n$.
+a) **True.** The common difference is $d=3-7=-4$.
 
-c) **True**: $11-4n=-45$ gives $n=14$.
+b) **True.** The general term is $u_n=u_1+(n-1)d=7+(n-1)\cdot(-4)=11-4n$.
 
-d) **False**: $S_{10}=\dfrac{10\left[14+9\cdot(-4)\right]}{2}=5\cdot(-22)=-110$.
+c) **True.** Suppose $-45$ is the $n$th term $(n\in\mathbb{N}^*)$. Then $11-4n=-45$, so $4n=56$ and $n=14$. This is a positive integer, so $-45$ is the $14$th term of the progression.
+
+d) **False.** Using the formula $S_n=\dfrac{n\left[2u_1+(n-1)d\right]}2$, we have
+$$S_{10}=\frac{10\left[14+9\cdot(-4)\right]}2=5\cdot(-22)=-110\ne-130.$$
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -311,7 +366,14 @@ Find the sum of all odd numbers with two digits.
 2. Use $S_n=\dfrac{n(u_1+u_n)}{2}$.
 
 ::solution
-There are $\dfrac{99-11}{2}+1=45$ terms. The sum is $\dfrac{45\cdot(11+99)}{2}=45\cdot55=2475$.
+The odd numbers with two digits are $11, 13, 15, \dots, 99$. They form an arithmetic progression with $u_1=11$ and common difference $d=2$.
+
+Suppose $99$ is the $n$th term $(n\in\mathbb{N}^*)$. Then $11+2(n-1)=99$, so $n-1=44$ and $n=45$. The number of terms is $\dfrac{99-11}2+1=45$.
+
+Using the formula $S_n=\dfrac{n(u_1+u_n)}2$, the required sum is
+$$S_{45}=\frac{45\cdot(11+99)}2=45\cdot55=2475.$$
+
+So the sum of all odd numbers with two digits is $2475$.
 
 **Answer.** $2475$.
 :::
@@ -327,7 +389,17 @@ Prove that every arithmetic progression with common difference $d>0$ is increasi
 2. Use $u_n=u_1+(n-1)d$ to compare with $u_1$ and with any number $M$.
 
 ::solution
-Since $u_{n+1}-u_n=d>0$, the sequence is increasing, so $u_n\ge u_1$ for all $n$: the sequence is bounded below by $u_1$. For any number $M$, take a positive integer $n>1+\dfrac{M-u_1}{d}$; then $u_n=u_1+(n-1)d>M$, so no number $M$ bounds the sequence above.
+Let $(u_n)$ be an arithmetic progression with common difference $d>0$.
+
+Increasing: for every $n\in\mathbb{N}^*$ we have $u_{n+1}-u_n=d>0$, that is $u_{n+1}>u_n$. So $(u_n)$ is an increasing sequence.
+
+Bounded below: since the sequence is increasing, $u_n\ge u_1$ for all $n\in\mathbb{N}^*$. So the sequence is bounded below by $u_1$.
+
+Not bounded above: take any number $M$. Choose a positive integer $n$ with $n>1+\dfrac{M-u_1}d$. Since $d>0$, multiplying both sides by $d$ keeps the inequality: $(n-1)d>M-u_1$. Therefore
+$$u_n=u_1+(n-1)d>M.$$
+So for every number $M$ some term of the sequence exceeds $M$, and hence no number $M$ bounds the sequence above.
+
+So every arithmetic progression with common difference $d>0$ is increasing and bounded below (by $u_1$) but not bounded above.
 
 **Answer.** The sequence is increasing, bounded below by $u_1$, and not bounded above.
 :::
@@ -343,7 +415,20 @@ Let $a$, $b$, $c$ be numbers such that $a^2$, $b^2$, $c^2$ form an arithmetic pr
 2. Compare the two differences, using $(b-a)(a+b)=(c-b)(b+c)$.
 
 ::solution
-We have $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ and $\dfrac{1}{a+b}-\dfrac{1}{c+a}=\dfrac{c-b}{(a+b)(c+a)}$. The two differences are equal when $\dfrac{b-a}{b+c}=\dfrac{c-b}{a+b}$, that is $(b-a)(a+b)=(c-b)(b+c)$, or $b^2-a^2=c^2-b^2$. This is the hypothesis, so the two differences are equal.
+Since $a+b$, $b+c$, $c+a$ are all non-zero, the fractions $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ are all defined.
+
+The three numbers $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ form an arithmetic progression if and only if the two consecutive differences are equal. We compute
+$$\frac{1}{c+a}-\frac{1}{b+c}=\frac{(b+c)-(c+a)}{(c+a)(b+c)}=\frac{b-a}{(c+a)(b+c)},$$
+$$\frac{1}{a+b}-\frac{1}{c+a}=\frac{(c+a)-(a+b)}{(a+b)(c+a)}=\frac{c-b}{(a+b)(c+a)}.$$
+
+These two differences have the common factor $\dfrac1{c+a}\ne0$, so they are equal if and only if
+$$\frac{b-a}{b+c}=\frac{c-b}{a+b}.$$
+Cross-multiplying (since $b+c\ne0$ and $a+b\ne0$), this is equivalent to
+$$(b-a)(a+b)=(c-b)(b+c)\iff b^2-a^2=c^2-b^2.$$
+
+The last equality is true because $a^2$, $b^2$, $c^2$ form an arithmetic progression (the hypothesis). Every step above is an equivalence, so the two differences are equal.
+
+So $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ also form an arithmetic progression.
 
 **Answer.** The numbers $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ form an arithmetic progression.
 :::

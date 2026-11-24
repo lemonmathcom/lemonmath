@@ -258,9 +258,17 @@ d) Tên các bài hát yêu thích.
 2. Phân loại từng dữ liệu.
 
 ::solution
-a) Màu mắt là tên gọi: định tính. b) Chiều cao là số đo: định lượng. c) Số học sinh là số đếm: định lượng. d) Tên bài hát: định tính.
+Dữ liệu định tính không phải là số (tên gọi, màu sắc, tính chất); dữ liệu định lượng là số liệu (số đo hoặc số đếm) có thể so sánh, tính toán.
 
-Vậy a) và d) là định tính; b) và c) là định lượng.
+a) Màu mắt là tên gọi, không phải số. Đây là dữ liệu định tính.
+
+b) Chiều cao (cm) là số đo. Đây là dữ liệu định lượng.
+
+c) Số học sinh của mỗi lớp là số đếm. Đây là dữ liệu định lượng.
+
+d) Tên bài hát là tên gọi, không phải số. Đây là dữ liệu định tính.
+
+Vậy a) và d) là dữ liệu định tính; b) và c) là dữ liệu định lượng.
 
 **Đáp số.** a) định tính; b) định lượng; c) định lượng; d) định tính.
 :::
@@ -318,14 +326,23 @@ Số anh chị em ruột của $20$ bạn được ghi lại: $1$, $2$, $0$, $1$
 2. Chia cho $20$ và đổi ra phần trăm.
 
 ::solution
-Ta đếm và chia cho $20$:
+Tần số của một giá trị là số lần giá trị đó xuất hiện; tần số tương đối là tỉ số giữa tần số và tổng số bạn, viết dưới dạng phần trăm. Tổng số bạn là $20$.
+
+Đếm trong dãy số liệu, ta được: giá trị $0$ xuất hiện $4$ lần, giá trị $1$ xuất hiện $9$ lần, giá trị $2$ xuất hiện $6$ lần, giá trị $3$ xuất hiện $1$ lần.
+
+Tần số tương đối:
+$$\frac{4}{20}=20\%,\qquad\frac{9}{20}=45\%,\qquad\frac{6}{20}=30\%,\qquad\frac{1}{20}=5\%.$$
+
+Ta có bảng:
 
 | Số anh chị em | $0$ | $1$ | $2$ | $3$ | Tổng |
 |---|---|---|---|---|---|
 | Tần số | $4$ | $9$ | $6$ | $1$ | $20$ |
 | Tần số tương đối | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
 
-Kiểm tra: $4+9+6+1=20$.
+Kiểm tra: $4+9+6+1=20$ và $20\%+45\%+30\%+5\%=100\%$.
+
+Vậy bảng tần số và tần số tương đối là bảng ở trên.
 
 **Đáp số.** Tần số $4$; $9$; $6$; $1$, tần số tương đối $20\%$; $45\%$; $30\%$; $5\%$.
 :::
@@ -359,9 +376,16 @@ Khảo sát $40$ bạn về thể loại sách yêu thích: Truyện $16$ bạn,
 2. Nhân với $360^\circ$.
 
 ::solution
-Ta có: Truyện $\dfrac{16}{40}=40\%$, cung $144^\circ$; Khoa học $\dfrac{12}{40}=30\%$, cung $108^\circ$; Thơ $\dfrac{4}{40}=10\%$, cung $36^\circ$; Khác $\dfrac{8}{40}=20\%$, cung $72^\circ$.
+Tần số tương đối của mỗi thể loại là tỉ số giữa số bạn chọn thể loại đó và tổng số bạn khảo sát ($40$ bạn). Một hình tròn có góc $360^\circ$ nên số đo cung của mỗi thể loại bằng tần số tương đối nhân với $360^\circ$.
 
-Kiểm tra: $144+108+36+72=360$.
+- Truyện: $\dfrac{16}{40}=40\%$; cung $40\%\cdot360^\circ=144^\circ$.
+- Khoa học: $\dfrac{12}{40}=30\%$; cung $30\%\cdot360^\circ=108^\circ$.
+- Thơ: $\dfrac{4}{40}=10\%$; cung $10\%\cdot360^\circ=36^\circ$.
+- Khác: $\dfrac{8}{40}=20\%$; cung $20\%\cdot360^\circ=72^\circ$.
+
+Kiểm tra: $144+108+36+72=360$ và $40\%+30\%+10\%+20\%=100\%$.
+
+Vậy tần số tương đối của bốn thể loại là $40\%$, $30\%$, $10\%$, $20\%$, và các cung tương ứng là $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
 
 **Đáp số.** $40\%$, $30\%$, $10\%$, $20\%$; cung $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
 :::
@@ -385,7 +409,17 @@ d) So sánh số học sinh nam và nữ ở từng lớp trong bốn lớp.
 2. Chọn biểu đồ tương ứng.
 
 ::solution
-a) So sánh các nhóm: biểu đồ cột. b) Theo thời gian: biểu đồ đoạn thẳng. c) Tỉ lệ các phần trong một tổng: biểu đồ hình quạt tròn. d) So sánh hai tập dữ liệu trên cùng các nhóm: biểu đồ cột kép.
+Mỗi loại biểu đồ phù hợp với một mục đích riêng: biểu đồ cột so sánh các nhóm; biểu đồ cột kép so sánh hai tập dữ liệu trên cùng các nhóm; biểu đồ hình quạt tròn thể hiện tỉ lệ các phần trong một tổng; biểu đồ đoạn thẳng thể hiện sự thay đổi theo thời gian.
+
+a) So sánh số học sinh của bốn lớp là so sánh các nhóm với nhau, nên dùng biểu đồ cột.
+
+b) Nhiệt độ thay đổi theo từng giờ, tức là theo thời gian, nên dùng biểu đồ đoạn thẳng.
+
+c) Phần trăm các khoản chi là tỉ lệ các phần trong một tổng ngân sách, nên dùng biểu đồ hình quạt tròn.
+
+d) Ta so sánh hai tập dữ liệu (nam và nữ) trên cùng bốn lớp, nên dùng biểu đồ cột kép.
+
+Vậy a) biểu đồ cột; b) biểu đồ đoạn thẳng; c) biểu đồ hình quạt tròn; d) biểu đồ cột kép.
 
 **Đáp số.** a) cột; b) đoạn thẳng; c) hình quạt tròn; d) cột kép.
 :::

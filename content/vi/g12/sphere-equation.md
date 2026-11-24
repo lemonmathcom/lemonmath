@@ -212,7 +212,18 @@ Viết phương trình mặt cầu tâm $I(-1; 2; 0)$, bán kính $3$. Điểm $
 2. Tính $IA^2$.
 
 ::solution
-$(x+1)^2+(y-2)^2+z^2=9$. $IA^2=2^2+1^2+2^2=9=R^2$.
+Phương trình mặt cầu tâm $I(a; b; c)$, bán kính $R$ là
+$$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
+
+Với tâm $I(-1; 2; 0)$ và $R=3$, ta có
+$$(x+1)^2+(y-2)^2+z^2=9.$$
+
+Để xét vị trí của điểm $A(1; 3; 2)$ đối với mặt cầu, ta so sánh $IA$ với $R$. Ta có $\overrightarrow{IA}=(2; 1; 2)$, nên
+$$IA^2=2^2+1^2+2^2=9=R^2.$$
+
+Suy ra $IA=R$ (vì $IA>0$ và $R>0$). Do đó $A$ nằm trên mặt cầu.
+
+Vậy mặt cầu có phương trình $(x+1)^2+(y-2)^2+z^2=9$ và điểm $A$ nằm trên mặt cầu.
 
 **Đáp số.** $(x+1)^2+(y-2)^2+z^2=9$; $A$ nằm trên mặt cầu.
 :::
@@ -228,7 +239,15 @@ Tìm tâm và bán kính của mặt cầu $x^2+y^2+z^2+4x-6y+2z-11=0$.
 2. Tính $R$.
 
 ::solution
-$a=-2$, $b=3$, $c=-1$, $d=-11$. $R^2=4+9+1+11=25$.
+Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là phương trình mặt cầu tâm $I(a; b; c)$, bán kính $R=\sqrt{a^2+b^2+c^2-d}$, khi $a^2+b^2+c^2-d>0$.
+
+Đồng nhất với phương trình đã cho, ta có
+$$-2a=4,\quad -2b=-6,\quad -2c=2,\quad d=-11,$$
+suy ra $a=-2$, $b=3$, $c=-1$, $d=-11$.
+
+Ta có $a^2+b^2+c^2-d=4+9+1+11=25>0$, nên đây là phương trình mặt cầu và $R^2=25$, tức là $R=5$.
+
+Vậy mặt cầu có tâm $I(-2; 3; -1)$ và bán kính $R=5$.
 
 **Đáp số.** $I(-2; 3; -1)$, $R=5$.
 :::
@@ -246,9 +265,21 @@ a) $x^2+y^2+z^2-2x+4z+1=0$. b) $x^2+y^2+z^2+2y+5=0$. c) $2x^2+2y^2+2z^2-4x+8y-2=
 2. Kiểm tra điều kiện cho từng phương trình.
 
 ::solution
-a) $a=1$, $b=0$, $c=-2$, $d=1$: $1+0+4-1=4>0$, tâm $(1; 0; -2)$, $R=2$.
-b) $a=0$, $b=-1$, $c=0$, $d=5$: $1-5=-4<0$, không phải mặt cầu.
-c) $x^2+y^2+z^2-2x+4y-1=0$: $1+4+0+1=6>0$, tâm $(1; -2; 0)$, $R=\sqrt6$.
+Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là phương trình mặt cầu khi và chỉ khi $a^2+b^2+c^2-d>0$; khi đó tâm là $I(a; b; c)$ và bán kính là $R=\sqrt{a^2+b^2+c^2-d}$. Ta xét từng phương trình.
+
+a) Đồng nhất hệ số, ta được $-2a=-2$, $-2b=0$, $-2c=4$, $d=1$, nên $a=1$, $b=0$, $c=-2$, $d=1$. Ta có
+$$a^2+b^2+c^2-d=1+0+4-1=4>0.$$
+Do đó đây là phương trình mặt cầu có tâm $I(1; 0; -2)$ và bán kính $R=\sqrt4=2$.
+
+b) Đồng nhất hệ số, ta được $-2a=0$, $-2b=2$, $-2c=0$, $d=5$, nên $a=0$, $b=-1$, $c=0$, $d=5$. Ta có
+$$a^2+b^2+c^2-d=0+1+0-5=-4<0.$$
+Do đó đây không phải là phương trình mặt cầu.
+
+c) Chia hai vế của phương trình cho $2$, ta được $x^2+y^2+z^2-2x+4y-1=0$. Khi đó $-2a=-2$, $-2b=4$, $-2c=0$, $d=-1$, nên $a=1$, $b=-2$, $c=0$, $d=-1$. Ta có
+$$a^2+b^2+c^2-d=1+4+0+1=6>0.$$
+Do đó đây là phương trình mặt cầu có tâm $I(1; -2; 0)$ và bán kính $R=\sqrt6$.
+
+Vậy các phương trình a) và c) là phương trình mặt cầu; phương trình b) không phải.
 
 **Đáp số.** a) và c) là mặt cầu; b) không phải.
 :::
@@ -264,7 +295,16 @@ Viết phương trình mặt cầu đường kính $AB$ với $A(2; -1; 3)$, $B(
 2. Tính $AB$ rồi $R$.
 
 ::solution
-$I(1; 1; 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
+Vì $AB$ là đường kính nên tâm $I$ của mặt cầu là trung điểm của $AB$ và bán kính là $R=\dfrac{AB}{2}$.
+
+Toạ độ trung điểm của $AB$ là
+$$I\left(\frac{2+0}{2}; \frac{-1+3}{2}; \frac{3+(-1)}{2}\right)=I(1; 1; 1).$$
+
+Ta có $\overrightarrow{AB}=(-2; 4; -4)$, nên
+$$AB=\sqrt{(-2)^2+4^2+(-4)^2}=\sqrt{4+16+16}=6.$$
+Suy ra $R=\dfrac62=3$.
+
+Vậy mặt cầu có phương trình $(x-1)^2+(y-1)^2+(z-1)^2=9$.
 
 **Đáp số.** $(x-1)^2+(y-1)^2+(z-1)^2=9$.
 :::
@@ -280,7 +320,15 @@ $I(1; 1; 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
 2. Viết phương trình với $R$ vừa tìm.
 
 ::solution
-$$R=d(I, (P))=\frac{|2-4-1+9|}{\sqrt{4+4+1}}=\frac63=2.$$
+Mặt cầu tâm $I$ tiếp xúc với mặt phẳng $(P)$ khi và chỉ khi bán kính bằng khoảng cách từ $I$ đến $(P)$, tức là $R=d(I, (P))$.
+
+Áp dụng công thức khoảng cách từ điểm $I(1; 2; -1)$ đến mặt phẳng $(P): 2x-2y+z+9=0$, ta có
+$$R=d(I, (P))=\frac{|2\cdot1-2\cdot2+1\cdot(-1)+9|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{|2-4-1+9|}{\sqrt{9}}=\frac63=2.$$
+
+Mặt cầu có tâm $I(1; 2; -1)$ và bán kính $R=2$ nên có phương trình
+$$(x-1)^2+(y-2)^2+(z+1)^2=4.$$
+
+Vậy phương trình mặt cầu cần tìm là $(x-1)^2+(y-2)^2+(z+1)^2=4$.
 
 **Đáp số.** $(x-1)^2+(y-2)^2+(z+1)^2=4$.
 :::
@@ -305,13 +353,19 @@ d) Mặt phẳng $z=4$ cắt $(S)$ theo một đường tròn.
 3. Tính khoảng cách từ $I$ đến mặt phẳng $z=4$.
 
 ::solution
-a) **Đúng.** $x-2$, $y+1=y-(-1)$, $z-0$.
+Từ phương trình $(S): (x-2)^2+(y+1)^2+z^2=9$, ta viết lại dưới dạng $(x-2)^2+(y-(-1))^2+(z-0)^2=3^2$.
 
-b) **Sai.** $R^2=9$, nên $R=3$.
+a) **Đúng.** So với dạng $(x-a)^2+(y-b)^2+(z-c)^2=R^2$, ta có $x-2$, $y+1=y-(-1)$, $z=z-0$, nên $a=2$, $b=-1$, $c=0$. Do đó $(S)$ có tâm $I(2; -1; 0)$.
 
-c) **Đúng.** $2^2+2^2+1^2=9$.
+b) **Sai.** Ta có $R^2=9$, nên $R=3$ chứ không phải $9$.
 
-d) **Sai.** Khoảng cách từ $I$ đến mặt phẳng $z=4$ là $|0-4|=4>3$, nên không có điểm chung.
+c) **Đúng.** Thay toạ độ $M(4; 1; 1)$ vào vế trái của phương trình $(S)$, ta được
+$$(4-2)^2+(1+1)^2+1^2=4+4+1=9.$$
+Vế trái bằng vế phải nên $M$ thuộc $(S)$.
+
+d) **Sai.** Khoảng cách từ tâm $I(2; -1; 0)$ đến mặt phẳng $z=4$ là $|0-4|=4$. Vì $4>R=3$ nên mặt phẳng này và $(S)$ không có điểm chung; do đó mặt phẳng $z=4$ không cắt $(S)$ theo một đường tròn.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -327,7 +381,17 @@ Một chiếc loa Bluetooth treo ở $I(2; 3; 4)$ trong phòng (đơn vị: mét
 2. Diện tích hình tròn $\pi r^2$.
 
 ::solution
-$r^2=36-16=20$, nên diện tích là $20\pi\approx62{,}8$ m².
+Phần không gian nghe rõ tiếng loa là hình cầu tâm $I(2; 3; 4)$, bán kính $R=6$ m. Phần sàn nhà nghe rõ tiếng loa là giao của hình cầu này với mặt phẳng $z=0$.
+
+Khoảng cách từ $I$ đến mặt phẳng sàn $z=0$ là $d=|4-0|=4$ m. Vì $d=4<R=6$ nên mặt phẳng sàn cắt mặt cầu theo một đường tròn, và phần sàn nghe rõ tiếng loa là hình tròn giới hạn bởi đường tròn đó.
+
+Gọi $r$ (m) là bán kính của hình tròn ($r>0$). Áp dụng định lí Pythagore cho tam giác vuông có cạnh huyền $R$ và hai cạnh góc vuông là $d$, $r$, ta có
+$$r^2=R^2-d^2=36-16=20.$$
+
+Diện tích phần sàn nhà nghe rõ tiếng loa là
+$$S=\pi r^2=20\pi\approx62{,}8\ (\text{m}^2).$$
+
+Vậy diện tích phần sàn nhà nghe rõ tiếng loa xấp xỉ $62{,}8$ m².
 
 **Đáp số.** $62{,}8$.
 :::
@@ -343,8 +407,19 @@ Viết phương trình mặt cầu có tâm nằm trên trục $Ox$ và đi qua 
 2. Giải $t$, rồi tính $R^2=IA^2$.
 
 ::solution
-$$(1-t)^2+4+9=(3-t)^2+0+1\iff 14-2t=10-6t\iff t=-1.$$
-$I(-1; 0; 0)$, $R^2=4+4+9=17$.
+Vì tâm $I$ nằm trên trục $Ox$ nên ta gọi $I(t; 0; 0)$.
+
+Mặt cầu đi qua $A$ và $B$ nên $IA=IB$ (cùng bằng bán kính), tức là $IA^2=IB^2$. Ta có
+$$IA^2=(1-t)^2+2^2+3^2=(1-t)^2+4+9,\qquad IB^2=(3-t)^2+0^2+1^2=(3-t)^2+0+1.$$
+
+Từ $IA^2=IB^2$, ta được
+$$\begin{aligned}(1-t)^2+4+9&=(3-t)^2+0+1\\ 14-2t+t^2-t^2&=10-6t\\ 14-2t&=10-6t\\ 4t&=-4\\ t&=-1.\end{aligned}$$
+
+Suy ra tâm $I(-1; 0; 0)$ và $R^2=IA^2=(1+1)^2+4+9=4+4+9=17$.
+
+Kiểm tra: $IB^2=(3+1)^2+0+1=17=R^2$.
+
+Vậy mặt cầu cần tìm có phương trình $(x+1)^2+y^2+z^2=17$.
 
 **Đáp số.** $(x+1)^2+y^2+z^2=17$.
 :::
@@ -360,8 +435,18 @@ $I(-1; 0; 0)$, $R^2=4+4+9=17$.
 2. Giải $t$, tìm hai giao điểm, rồi tính khoảng cách giữa chúng.
 
 ::solution
-$$(1+t)^2+4+(2-3t)^2=9\iff 10t^2-10t=0\iff t=0\ \text{hoặc}\ t=1.$$
-Hai giao điểm là $(1; 2; 2)$ và $(2; 2; -1)$. Dây cung dài $\sqrt{1^2+0^2+3^2}=\sqrt{10}$.
+Giao điểm của $d$ và $(S)$ ứng với các giá trị $t$ sao cho điểm $(1+t; 2; 2-3t)$ thuộc $(S)$. Thay $x=1+t$, $y=2$, $z=2-3t$ vào phương trình $x^2+y^2+z^2=9$, ta được
+$$\begin{aligned}(1+t)^2+4+(2-3t)^2&=9\\ 1+2t+t^2+4+4-12t+9t^2&=9\\ 10t^2-10t+9&=9\\ 10t(t-1)&=0.\end{aligned}$$
+Suy ra $t=0$ hoặc $t=1$.
+
+Với $t=0$, ta được giao điểm $M(1; 2; 2)$. Với $t=1$, ta được giao điểm $N(2; 2; -1)$.
+
+Kiểm tra: $1^2+2^2+2^2=9$ và $2^2+2^2+(-1)^2=9$, nên cả hai điểm đều thuộc $(S)$.
+
+Đường thẳng $d$ cắt mặt cầu tại hai điểm $M$, $N$ nên $MN$ là dây cung tạo thành. Ta có $\overrightarrow{MN}=(1; 0; -3)$, nên
+$$MN=\sqrt{1^2+0^2+(-3)^2}=\sqrt{10}\approx3{,}16.$$
+
+Vậy $d$ cắt $(S)$ tại hai điểm $(1; 2; 2)$ và $(2; 2; -1)$; dây cung tạo thành có độ dài $\sqrt{10}\approx3{,}16$.
 
 **Đáp số.** $(1; 2; 2)$, $(2; 2; -1)$; dây cung dài $\sqrt{10}\approx3{,}16$.
 :::

@@ -160,11 +160,16 @@ a) $4\ \text{m}\ 6\ \text{dm}=?\ \text{cm}$; b) $6\ \text{kg}\ 80\ \text{g}=?\ \
 2. Add the remaining part in the smaller unit.
 
 ::solution
-a) $4\ \text{m}=400\ \text{cm}$ and $6\ \text{dm}=60\ \text{cm}$, so $400+60=460\ \text{cm}$.
+a) We have $1$ m $=100$ cm, so $4$ m $=4\times100=400$ cm. We have $1$ dm $=10$ cm, so $6$ dm $=6\times10=60$ cm. Therefore
+$$4\ \text{m}\ 6\ \text{dm}=400\ \text{cm}+60\ \text{cm}=460\ \text{cm}.$$
 
-b) $6\ \text{kg}=6000\ \text{g}$, so $6000+80=6080\ \text{g}$.
+b) We have $1$ kg $=1000$ g, so $6$ kg $=6000$ g. Therefore
+$$6\ \text{kg}\ 80\ \text{g}=6000\ \text{g}+80\ \text{g}=6080\ \text{g}.$$
 
-c) $3$ tạ $=300\ \text{kg}$, so $300+20=320\ \text{kg}$.
+c) We have $1$ tạ $=100$ kg, so $3$ tạ $=300$ kg. Therefore
+$$3\ \text{tạ}\ 20\ \text{kg}=300\ \text{kg}+20\ \text{kg}=320\ \text{kg}.$$
+
+So the missing numbers are $460$, $6080$ and $320$.
 
 **Answer.** a) $460$; b) $6080$; c) $320$.
 :::
@@ -181,11 +186,16 @@ a) $3\ \text{m}^2=?\ \text{dm}^2$; b) $8\ \text{dm}^2\ 15\ \text{cm}^2=?\ \text{
 2. Larger unit to smaller unit: multiply. Smaller unit to larger unit: divide.
 
 ::solution
-a) $3\ \text{m}^2=3\times100=300\ \text{dm}^2$.
+a) We have $1\ \text{m}^2=100\ \text{dm}^2$, so
+$$3\ \text{m}^2=3\times100=300\ \text{dm}^2.$$
 
-b) $8\ \text{dm}^2=800\ \text{cm}^2$, so $800+15=815\ \text{cm}^2$.
+b) We have $1\ \text{dm}^2=100\ \text{cm}^2$, so $8\ \text{dm}^2=8\times100=800\ \text{cm}^2$. Therefore
+$$8\ \text{dm}^2\ 15\ \text{cm}^2=800\ \text{cm}^2+15\ \text{cm}^2=815\ \text{cm}^2.$$
 
-c) $20\,000\div10\,000=2$, so $20\,000\ \text{cm}^2=2\ \text{m}^2$.
+c) We have $1\ \text{m}^2=10\,000\ \text{cm}^2$ (because $1$ m $=100$ cm and $100\times100=10\,000$). Therefore
+$$20\,000\ \text{cm}^2=20\,000\div10\,000=2\ \text{m}^2.$$
+
+So the missing numbers are $300$, $815$ and $2$.
 
 **Answer.** a) $300$; b) $815$; c) $2$.
 :::
@@ -201,9 +211,15 @@ A rectangle has length $15$ m and width $8$ m. Find the perimeter and the area o
 2. Work out the perimeter (in metres), then the area (in square metres).
 
 ::solution
-The perimeter of the rectangle is $(15+8)\times2=46$ (m).
+Solution
 
-The area of the rectangle is $15\times8=120$ ($\text{m}^2$).
+The perimeter of a rectangle is the sum of its length and width (in the same unit) multiplied by $2$. The perimeter of the rectangle is:
+$$(15+8)\times2=46\ \text{(m)}$$
+
+The area of a rectangle is its length multiplied by its width. The area of the rectangle is:
+$$15\times8=120\ \text{(m}^2\text{)}$$
+
+So the rectangle has perimeter $46$ m and area $120\ \text{m}^2$.
 
 **Answer.** Perimeter $46$ m; area $120\ \text{m}^2$.
 :::
@@ -219,9 +235,15 @@ A square has perimeter $36$ dm. Find the side and the area of the square.
 2. Find the area: side times side.
 
 ::solution
-The side of the square is $36\div4=9$ (dm).
+Solution
 
-The area of the square is $9\times9=81$ ($\text{dm}^2$).
+A square has $4$ equal sides, so its side equals the perimeter divided by $4$. The side of the square is:
+$$36\div4=9\ \text{(dm)}$$
+
+The area of a square is the side multiplied by itself. The area of the square is:
+$$9\times9=81\ \text{(dm}^2\text{)}$$
+
+So the square has side $9$ dm and area $81\ \text{dm}^2$.
 
 **Answer.** Side $9$ dm; area $81\ \text{dm}^2$.
 :::
@@ -237,9 +259,15 @@ Mr Nam fences all round a rectangular garden that is $30$ m long and $20$ m wide
 2. Take away the gate, which needs no fence. Check: the answer must be less than the perimeter.
 
 ::solution
-The perimeter of the garden is $(30+20)\times2=100$ (m).
+Solution
 
-The length of fence needed is $100-2=98$ (m).
+The perimeter of the rectangular garden is:
+$$(30+20)\times2=100\ \text{(m)}$$
+
+The $2$ m wide gate is not fenced, so the length of fence needed is:
+$$100-2=98\ \text{(m)}$$
+
+So Mr Nam needs $98$ m of fence.
 
 **Answer.** $98$ m.
 :::
@@ -255,8 +283,14 @@ A shop receives $2$ tạ of rice and has sold $75$ kg. How many kilograms of ric
 2. Subtract the rice sold from the rice received.
 
 ::solution
-$2$ tạ $=200\ \text{kg}$. The rice left is:
-$$200-75=125\ \text{(kg)}.$$
+Solution
+
+We have $1$ tạ $=100$ kg, so $2$ tạ $=200$ kg.
+
+The number of kilograms of rice left is:
+$$200-75=125\ \text{(kg)}$$
+
+So $125$ kg of rice are left in the shop.
 
 **Answer.** $125$ kg.
 :::
@@ -272,9 +306,15 @@ Remember the lesson on adding and subtracting fractions with different denominat
 2. Multiply that sum by $2$, then simplify.
 
 ::solution
-Half the perimeter is $\dfrac{3}{4}+\dfrac{1}{2}=\dfrac{3}{4}+\dfrac{2}{4}=\dfrac{5}{4}$ (m).
+Solution
 
-The perimeter of the rectangle is $\dfrac{5}{4}\times2=\dfrac{5}{2}=2\dfrac{1}{2}$ (m).
+Half the perimeter of a rectangle is the sum of its length and width. Over the common denominator $4$, we have $\dfrac{1}{2}=\dfrac{2}{4}$. Half the perimeter is:
+$$\frac{3}{4}+\frac{1}{2}=\frac{3}{4}+\frac{2}{4}=\frac{5}{4}\ \text{(m)}$$
+
+The perimeter of the rectangle is:
+$$\frac{5}{4}\times2=\frac{5\times2}{4}=\frac{10}{4}=\frac{5}{2}=2\frac{1}{2}\ \text{(m)}$$
+
+So the perimeter of the rectangle is $2\dfrac{1}{2}$ m.
 
 **Answer.** $2\dfrac{1}{2}$ m.
 :::
@@ -290,10 +330,22 @@ A rectangular sheet of card $90$ cm long and $60$ cm wide is cut into squares of
 2. Multiply the two numbers. Check using area.
 
 ::solution
-Along the length, $90\div30=3$ squares fit. Along the width, $60\div30=2$ squares fit. The number of squares is:
-$$3\times2=6\ \text{(squares)}.$$
+Solution
 
-**Check.** $90\times60=5400\ \text{cm}^2$ and $6\times30\times30=5400\ \text{cm}^2$. Correct.
+Since no card is left over, the $30$ cm sides of the squares fit exactly along the length and the width of the sheet.
+
+Along the length, the number of squares that fit is:
+$$90\div30=3\ \text{(squares)}$$
+
+Along the width, the number of squares that fit is:
+$$60\div30=2\ \text{(squares)}$$
+
+The number of squares that can be cut is:
+$$3\times2=6\ \text{(squares)}$$
+
+Check: the area of the sheet is $90\times60=5400\ \text{cm}^2$ and the area of $6$ squares is $6\times30\times30=5400\ \text{cm}^2$. The two areas are equal (correct).
+
+So $6$ squares can be cut.
 
 **Answer.** $6$ squares.
 :::
@@ -309,9 +361,25 @@ A rectangle has perimeter $24$ cm, and both sides are whole numbers of centimetr
 2. Work out the area for each pair and compare.
 
 ::solution
-Half the perimeter is $24\div2=12$ cm, so the length plus the width is $12$ cm. The pairs give: $1\times11=11$; $2\times10=20$; $3\times9=27$; $4\times8=32$; $5\times7=35$; $6\times6=36$ ($\text{cm}^2$).
+Solution
 
-The greatest area is $36\ \text{cm}^2$, when the rectangle is a square of side $6$ cm.
+Half the perimeter of the rectangle is:
+$$24\div2=12\ \text{(cm)}$$
+
+So the length plus the width is $12$ cm. Since both sides are whole numbers of centimetres, we list the pairs of numbers with sum $12$ (swapping the length and the width does not change the area) and work out the areas:
+
+| Length (cm) | Width (cm) | Area ($\text{cm}^2$) |
+|---|---|---|
+| $11$ | $1$ | $11\times1=11$ |
+| $10$ | $2$ | $10\times2=20$ |
+| $9$ | $3$ | $9\times3=27$ |
+| $8$ | $4$ | $8\times4=32$ |
+| $7$ | $5$ | $7\times5=35$ |
+| $6$ | $6$ | $6\times6=36$ |
+
+Comparing the areas: $11<20<27<32<35<36$, so the greatest area is $36\ \text{cm}^2$, reached when the length and the width are both $6$ cm, that is, when the rectangle is a square of side $6$ cm.
+
+So the greatest possible area of the rectangle is $36\ \text{cm}^2$.
 
 **Answer.** $36\ \text{cm}^2$.
 :::

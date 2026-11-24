@@ -212,7 +212,18 @@ Write the equation of the sphere with centre $I(-1, 2, 0)$ and radius $3$. Is th
 2. Compute $IA^2$.
 
 ::solution
-$(x+1)^2+(y-2)^2+z^2=9$. $IA^2=2^2+1^2+2^2=9=R^2$.
+The equation of the sphere with centre $I(a, b, c)$ and radius $R$ is
+$$(x-a)^2+(y-b)^2+(z-c)^2=R^2.$$
+
+With centre $I(-1, 2, 0)$ and $R=3$, we have
+$$(x+1)^2+(y-2)^2+z^2=9.$$
+
+To decide where the point $A(1, 3, 2)$ lies relative to the sphere, we compare $IA$ with $R$. We have $\overrightarrow{IA}=(2, 1, 2)$, so
+$$IA^2=2^2+1^2+2^2=9=R^2.$$
+
+It follows that $IA=R$ (since $IA>0$ and $R>0$). Hence $A$ lies on the sphere.
+
+So the sphere has equation $(x+1)^2+(y-2)^2+z^2=9$ and the point $A$ lies on the sphere.
 
 **Answer.** $(x+1)^2+(y-2)^2+z^2=9$; $A$ lies on the sphere.
 :::
@@ -228,7 +239,15 @@ Find the centre and radius of the sphere $x^2+y^2+z^2+4x-6y+2z-11=0$.
 2. Compute $R$.
 
 ::solution
-$a=-2$, $b=3$, $c=-1$, $d=-11$. $R^2=4+9+1+11=25$.
+The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is the equation of the sphere with centre $I(a, b, c)$ and radius $R=\sqrt{a^2+b^2+c^2-d}$, provided that $a^2+b^2+c^2-d>0$.
+
+Comparing with the given equation, we have
+$$-2a=4,\quad -2b=-6,\quad -2c=2,\quad d=-11,$$
+so $a=-2$, $b=3$, $c=-1$, $d=-11$.
+
+We have $a^2+b^2+c^2-d=4+9+1+11=25>0$, so this is the equation of a sphere and $R^2=25$, that is $R=5$.
+
+So the sphere has centre $I(-2, 3, -1)$ and radius $R=5$.
 
 **Answer.** $I(-2, 3, -1)$, $R=5$.
 :::
@@ -246,9 +265,21 @@ a) $x^2+y^2+z^2-2x+4z+1=0$. b) $x^2+y^2+z^2+2y+5=0$. c) $2x^2+2y^2+2z^2-4x+8y-2=
 2. Check the condition for each equation.
 
 ::solution
-a) $a=1$, $b=0$, $c=-2$, $d=1$: $1+0+4-1=4>0$, centre $(1, 0, -2)$, $R=2$.
-b) $a=0$, $b=-1$, $c=0$, $d=5$: $1-5=-4<0$, not a sphere.
-c) $x^2+y^2+z^2-2x+4y-1=0$: $1+4+0+1=6>0$, centre $(1, -2, 0)$, $R=\sqrt6$.
+The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is the equation of a sphere if and only if $a^2+b^2+c^2-d>0$; in that case the centre is $I(a, b, c)$ and the radius is $R=\sqrt{a^2+b^2+c^2-d}$. We examine each equation in turn.
+
+a) Comparing coefficients, we get $-2a=-2$, $-2b=0$, $-2c=4$, $d=1$, so $a=1$, $b=0$, $c=-2$, $d=1$. We have
+$$a^2+b^2+c^2-d=1+0+4-1=4>0.$$
+Hence this is the equation of a sphere with centre $I(1, 0, -2)$ and radius $R=\sqrt4=2$.
+
+b) Comparing coefficients, we get $-2a=0$, $-2b=2$, $-2c=0$, $d=5$, so $a=0$, $b=-1$, $c=0$, $d=5$. We have
+$$a^2+b^2+c^2-d=0+1+0-5=-4<0.$$
+Hence this is not the equation of a sphere.
+
+c) Dividing both sides of the equation by $2$, we get $x^2+y^2+z^2-2x+4y-1=0$. Then $-2a=-2$, $-2b=4$, $-2c=0$, $d=-1$, so $a=1$, $b=-2$, $c=0$, $d=-1$. We have
+$$a^2+b^2+c^2-d=1+4+0+1=6>0.$$
+Hence this is the equation of a sphere with centre $I(1, -2, 0)$ and radius $R=\sqrt6$.
+
+So the equations in a) and c) are equations of spheres; the equation in b) is not.
 
 **Answer.** a) and c) are spheres; b) is not.
 :::
@@ -264,7 +295,16 @@ Write the equation of the sphere with diameter $AB$, where $A(2, -1, 3)$ and $B(
 2. Find $AB$, then $R$.
 
 ::solution
-$I(1, 1, 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
+Since $AB$ is a diameter, the centre $I$ of the sphere is the midpoint of $AB$ and the radius is $R=\dfrac{AB}{2}$.
+
+The coordinates of the midpoint of $AB$ are
+$$I\left(\frac{2+0}{2}, \frac{-1+3}{2}, \frac{3+(-1)}{2}\right)=I(1, 1, 1).$$
+
+We have $\overrightarrow{AB}=(-2, 4, -4)$, so
+$$AB=\sqrt{(-2)^2+4^2+(-4)^2}=\sqrt{4+16+16}=6.$$
+It follows that $R=\dfrac62=3$.
+
+So the sphere has equation $(x-1)^2+(y-1)^2+(z-1)^2=9$.
 
 **Answer.** $(x-1)^2+(y-1)^2+(z-1)^2=9$.
 :::
@@ -280,7 +320,15 @@ $I(1, 1, 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
 2. Write the equation with this $R$.
 
 ::solution
-$$R=d(I, (P))=\frac{|2-4-1+9|}{\sqrt{4+4+1}}=\frac63=2.$$
+The sphere with centre $I$ touches the plane $(P)$ if and only if its radius equals the distance from $I$ to $(P)$, that is $R=d(I, (P))$.
+
+Applying the formula for the distance from the point $I(1, 2, -1)$ to the plane $(P): 2x-2y+z+9=0$, we have
+$$R=d(I, (P))=\frac{|2\cdot1-2\cdot2+1\cdot(-1)+9|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{|2-4-1+9|}{\sqrt{9}}=\frac63=2.$$
+
+The sphere with centre $I(1, 2, -1)$ and radius $R=2$ has equation
+$$(x-1)^2+(y-2)^2+(z+1)^2=4.$$
+
+So the required sphere has equation $(x-1)^2+(y-2)^2+(z+1)^2=4$.
 
 **Answer.** $(x-1)^2+(y-2)^2+(z+1)^2=4$.
 :::
@@ -305,13 +353,19 @@ d) The plane $z=4$ cuts $(S)$ in a circle.
 3. Find the distance from $I$ to the plane $z=4$.
 
 ::solution
-a) **True.** $x-2$, $y+1=y-(-1)$, $z-0$.
+The equation $(S): (x-2)^2+(y+1)^2+z^2=9$ can be rewritten as $(x-2)^2+(y-(-1))^2+(z-0)^2=3^2$.
 
-b) **False.** $R^2=9$, so $R=3$.
+a) **True.** Comparing with $(x-a)^2+(y-b)^2+(z-c)^2=R^2$, we have $x-2$, $y+1=y-(-1)$, $z=z-0$, so $a=2$, $b=-1$, $c=0$. Hence $(S)$ has centre $I(2, -1, 0)$.
 
-c) **True.** $2^2+2^2+1^2=9$.
+b) **False.** We have $R^2=9$, so $R=3$, not $9$.
 
-d) **False.** The distance from $I$ to the plane $z=4$ is $|0-4|=4>3$, so they have no common point.
+c) **True.** Substituting the coordinates of $M(4, 1, 1)$ into the left-hand side of the equation of $(S)$, we get
+$$(4-2)^2+(1+1)^2+1^2=4+4+1=9.$$
+The left-hand side equals the right-hand side, so $M$ lies on $(S)$.
+
+d) **False.** The distance from the centre $I(2, -1, 0)$ to the plane $z=4$ is $|0-4|=4$. Since $4>R=3$, the plane and $(S)$ have no common point; hence the plane $z=4$ does not cut $(S)$ in a circle.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -327,7 +381,17 @@ A Bluetooth speaker hangs at $I(2, 3, 4)$ in a room (unit: metre), and the floor
 2. The area of a disc is $\pi r^2$.
 
 ::solution
-$r^2=36-16=20$, so the area is $20\pi\approx62.8$ m².
+The region of space where the speaker is heard clearly is the ball with centre $I(2, 3, 4)$ and radius $R=6$ m. The part of the floor where it is heard clearly is the intersection of this ball with the plane $z=0$.
+
+The distance from $I$ to the floor plane $z=0$ is $d=|4-0|=4$ m. Since $d=4<R=6$, the floor plane cuts the sphere in a circle, and the part of the floor where the speaker is heard clearly is the disc bounded by that circle.
+
+Let $r$ (m) be the radius of the disc ($r>0$). Applying the Pythagorean theorem to the right triangle with hypotenuse $R$ and legs $d$ and $r$, we have
+$$r^2=R^2-d^2=36-16=20.$$
+
+The area of the part of the floor where the speaker is heard clearly is
+$$S=\pi r^2=20\pi\approx62.8\ (\text{m}^2).$$
+
+So the area of the part of the floor where the speaker is heard clearly is approximately $62.8$ m².
 
 **Answer.** $62.8$.
 :::
@@ -343,8 +407,19 @@ Write the equation of the sphere whose centre lies on the axis $Ox$ and which pa
 2. Solve for $t$, then find $R^2=IA^2$.
 
 ::solution
-$$(1-t)^2+4+9=(3-t)^2+0+1\iff 14-2t=10-6t\iff t=-1.$$
-$I(-1, 0, 0)$, $R^2=4+4+9=17$.
+Since the centre $I$ lies on the axis $Ox$, we write $I(t, 0, 0)$.
+
+The sphere passes through $A$ and $B$, so $IA=IB$ (both equal the radius), that is $IA^2=IB^2$. We have
+$$IA^2=(1-t)^2+2^2+3^2=(1-t)^2+4+9,\qquad IB^2=(3-t)^2+0^2+1^2=(3-t)^2+0+1.$$
+
+From $IA^2=IB^2$, we get
+$$\begin{aligned}(1-t)^2+4+9&=(3-t)^2+0+1\\ 14-2t+t^2-t^2&=10-6t\\ 14-2t&=10-6t\\ 4t&=-4\\ t&=-1.\end{aligned}$$
+
+It follows that the centre is $I(-1, 0, 0)$ and $R^2=IA^2=(1+1)^2+4+9=4+4+9=17$.
+
+Check: $IB^2=(3+1)^2+0+1=17=R^2$.
+
+So the required sphere has equation $(x+1)^2+y^2+z^2=17$.
 
 **Answer.** $(x+1)^2+y^2+z^2=17$.
 :::
@@ -360,8 +435,18 @@ $I(-1, 0, 0)$, $R^2=4+4+9=17$.
 2. Solve for $t$, find the two points, then the distance between them.
 
 ::solution
-$$(1+t)^2+4+(2-3t)^2=9\iff 10t^2-10t=0\iff t=0\ \text{or}\ t=1.$$
-The two points are $(1, 2, 2)$ and $(2, 2, -1)$. The chord has length $\sqrt{1^2+0^2+3^2}=\sqrt{10}$.
+The intersection points of $d$ and $(S)$ correspond to the values of $t$ for which the point $(1+t, 2, 2-3t)$ lies on $(S)$. Substituting $x=1+t$, $y=2$, $z=2-3t$ into $x^2+y^2+z^2=9$, we get
+$$\begin{aligned}(1+t)^2+4+(2-3t)^2&=9\\ 1+2t+t^2+4+4-12t+9t^2&=9\\ 10t^2-10t+9&=9\\ 10t(t-1)&=0.\end{aligned}$$
+Hence $t=0$ or $t=1$.
+
+For $t=0$ we get the point $M(1, 2, 2)$. For $t=1$ we get the point $N(2, 2, -1)$.
+
+Check: $1^2+2^2+2^2=9$ and $2^2+2^2+(-1)^2=9$, so both points lie on $(S)$.
+
+The line $d$ meets the sphere at the two points $M$ and $N$, so $MN$ is the chord. We have $\overrightarrow{MN}=(1, 0, -3)$, so
+$$MN=\sqrt{1^2+0^2+(-3)^2}=\sqrt{10}\approx3.16.$$
+
+So $d$ meets $(S)$ at the two points $(1, 2, 2)$ and $(2, 2, -1)$; the chord has length $\sqrt{10}\approx3.16$.
 
 **Answer.** $(1, 2, 2)$, $(2, 2, -1)$; the chord is $\sqrt{10}\approx3.16$ long.
 :::

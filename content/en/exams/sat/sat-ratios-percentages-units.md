@@ -121,7 +121,19 @@ A sum of 150 dollars is shared between two people in the ratio $3:7$. How many d
 2. Multiply by $7$.
 
 ::solution
-One part is $15$ dollars, so the larger share is $7\cdot15=105$ dollars.
+Let the two shares be $3k$ dollars and $7k$ dollars, with $k>0$ (dollars per part), since the money is shared in the ratio $3:7$.
+
+The total is $150$ dollars, so
+$$3k+7k=150\iff10k=150\iff k=15.$$
+
+Hence one part is $15$ dollars. The person with the larger share receives $7$ parts, that is,
+$$7\cdot15=105\ \text{(dollars)}.$$
+
+Check: the smaller share is $3\cdot15=45$ dollars and $45+105=150$ dollars (this agrees with the problem).
+
+So the person with the larger share receives $105$ dollars.
+
+**Answer.** $105$ dollars.
 :::
 
 :::exercise Student-produced response
@@ -134,7 +146,16 @@ Linh types at a rate of 45 words per minute. How many minutes does she need to t
 1. Divide $1{,}800$ by $45$.
 
 ::solution
-$1{,}800\div45=40$ minutes.
+Let $t$ (minutes) be the time Linh needs to type the essay ($t>0$).
+
+Linh types $45$ words per minute and the essay has $1{,}800$ words, so the time equals the number of words divided by the typing rate:
+$$t=\frac{1{,}800}{45}=40.$$
+
+Check: $45\cdot40=1{,}800$ words (correct).
+
+So Linh needs $40$ minutes to type the essay.
+
+**Answer.** $40$ minutes.
 :::
 
 :::exercise Student-produced response
@@ -147,7 +168,14 @@ One inch is equal to 2.54 centimeters. What is the length, in centimeters, of a 
 1. $30\cdot2.54$.
 
 ::solution
-$30\cdot2.54=76.2$ centimeters.
+One inch equals $2.54$ centimeters, so a length in centimeters equals the number of inches multiplied by $2.54$.
+
+The screen diagonal is $30$ inches long, hence
+$$30\cdot2.54=76.2\ \text{(centimeters)}.$$
+
+So the screen diagonal is $76.2$ centimeters long.
+
+**Answer.** $76.2$ centimeters.
 :::
 
 :::exercise Multiple choice
@@ -165,7 +193,17 @@ D. $80\%$
 2. Divide by $250$.
 
 ::solution
-$\dfrac{50}{250}=0.2$, a decrease of $20\%$: answer **A**. Option B divides by $200$; option D is the ratio $\dfrac{200}{250}$.
+The number of visitors fell from $250$ to $200$, so the decrease is
+$$250-200=50\ \text{(visitors)}.$$
+
+The percent decrease is measured against the original number of visitors (Monday), which is $250$:
+$$\frac{50}{250}=0.2=20\%.$$
+
+So the number of visitors decreased by $20\%$, and the answer is **A**.
+
+*Remark.* Option B divides by $200$ (the later number) instead of the original number; option D is the ratio $\dfrac{200}{250}$, which is the percent remaining, not the percent decrease.
+
+**Answer.** A.
 :::
 
 :::exercise Student-produced response
@@ -179,7 +217,19 @@ A total of 54 dollars includes an 8% sales tax. What was the price before tax, i
 2. Divide.
 
 ::solution
-$P=\dfrac{54}{1.08}=50$ dollars. Check: $50+4=54$.
+Let $P$ (dollars) be the price before tax ($P>0$).
+
+The sales tax is $8\%$ of $P$, so the total amount paid is
+$$P+0.08P=1.08P.$$
+
+The total is $54$ dollars, so $1.08P=54$. It follows that
+$$P=\frac{54}{1.08}=50.$$
+
+Check: the tax is $8\%\cdot50=4$ dollars and $50+4=54$ dollars (correct).
+
+So the price before tax was $50$ dollars.
+
+**Answer.** $50$ dollars.
 :::
 
 ## Application exercises
@@ -195,7 +245,15 @@ The density of gold is 19.3 grams per cubic centimeter. A gold block measures 2 
 2. Multiply by $19.3$.
 
 ::solution
-The volume is $2\cdot3\cdot5=30$ cubic centimeters, so the mass is $30\cdot19.3=579$ grams.
+The gold block is a rectangular box, so its volume is the product of its three dimensions:
+$$V=2\cdot3\cdot5=30\ \text{(cubic centimeters)}.$$
+
+Mass equals density times volume. The density of gold is $19.3$ grams per cubic centimeter, so
+$$m=30\cdot19.3=579\ \text{(grams)}.$$
+
+So the gold block has a mass of $579$ grams.
+
+**Answer.** $579$ grams.
 :::
 
 :::exercise Fuel for a trip
@@ -209,7 +267,17 @@ A car uses 6.5 liters of fuel per 100 kilometers. Fuel costs 1.2 dollars per lit
 2. Multiply by $1.2$.
 
 ::solution
-The car uses $340\cdot0.065=22.1$ liters, costing $22.1\cdot1.2=26.52$ dollars.
+The car uses $6.5$ liters of fuel per $100$ kilometers, that is, $\dfrac{6.5}{100}=0.065$ liters per kilometer.
+
+For a trip of $340$ kilometers, the amount of fuel used is
+$$340\cdot0.065=22.1\ \text{(liters)}.$$
+
+Fuel costs $1.2$ dollars per liter, so the cost of the fuel is
+$$22.1\cdot1.2=26.52\ \text{(dollars)}.$$
+
+So the fuel for the $340$-kilometer trip costs $26.52$ dollars.
+
+**Answer.** $26.52$ dollars.
 :::
 
 :::exercise Up and down
@@ -223,7 +291,20 @@ A town's population increased by 25% in one decade and then decreased by 20% in 
 2. Compare with $1$.
 
 ::solution
-$1.25\cdot0.8=1$: the population is exactly back to where it started, a change of $0\%$. For example, $1{,}000\to1{,}250\to1{,}000$.
+Let $N$ be the town's original population ($N>0$).
+
+After the first decade the population increases by $25\%$, so it becomes $N\cdot1.25$.
+
+After the next decade it decreases by $20\%$, so $80\%$ of that population remains:
+$$N\cdot1.25\cdot0.8=N\cdot1=N.$$
+
+So the population after two decades is exactly the original population, which means a change of $0\%$.
+
+Check with an example: $1{,}000\to1{,}000\cdot1.25=1{,}250\to1{,}250\cdot0.8=1{,}000$.
+
+So the overall percent change over the two decades is $0\%$.
+
+**Answer.** $0\%$.
 :::
 
 :::exercise Challenge
@@ -237,7 +318,21 @@ A container holds 40 liters of a salt solution that is 30% salt. How many liters
 2. Solve $\dfrac{12}{40+w}=0.2$.
 
 ::solution
-$12=0.2(40+w)\iff 60=40+w\iff w=20$. Add 20 liters of water: the new solution has 12 liters of salt in 60 liters, which is 20%.
+Let $w$ (liters) be the amount of pure water to be added ($w>0$).
+
+The amount of salt in $40$ liters of a $30\%$ solution is
+$$0.3\cdot40=12\ \text{(liters)}.$$
+
+Adding pure water does not change the amount of salt (it stays $12$ liters), while the volume of the new solution is $40+w$ (liters). The new salt concentration is $20\%$, so
+$$\begin{aligned}12&=0.2(40+w)\\60&=40+w\\w&=20.\end{aligned}$$
+
+The value $w=20>0$ satisfies the condition.
+
+Check: the new solution has $12$ liters of salt in $40+20=60$ liters, and $\dfrac{12}{60}=0.2=20\%$ (correct).
+
+So $20$ liters of pure water must be added.
+
+**Answer.** $20$ liters.
 :::
 
 :::quiz

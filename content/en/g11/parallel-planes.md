@@ -165,7 +165,15 @@ Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $(ABB'A')\parallel(CDD'C')$.
 2. $AB$ and $AA'$ meet at $A$.
 
 ::solution
-$AB\parallel CD\subset(CDD'C')$, so $AB\parallel(CDD'C')$. $AA'\parallel DD'\subset(CDD'C')$, so $AA'\parallel(CDD'C')$. The plane $(ABB'A')$ contains the two intersecting lines $AB$, $AA'$ both parallel to $(CDD'C')$, so $(ABB'A')\parallel(CDD'C')$.
+To prove that two planes are parallel, we show that one plane contains two intersecting lines that are both parallel to the other plane.
+
+We have $AB\parallel CD$ (opposite sides of the parallelogram $ABCD$), $CD\subset(CDD'C')$ and $AB\not\subset(CDD'C')$. Hence $AB\parallel(CDD'C')$.
+
+We have $AA'\parallel DD'$ (lateral edges of the parallelepiped), $DD'\subset(CDD'C')$ and $AA'\not\subset(CDD'C')$. Hence $AA'\parallel(CDD'C')$.
+
+The plane $(ABB'A')$ contains the two lines $AB$ and $AA'$, which meet at $A$ and are both parallel to $(CDD'C')$.
+
+So $(ABB'A')\parallel(CDD'C')$.
 
 **Answer.** $(ABB'A')\parallel(CDD'C')$.
 :::
@@ -181,7 +189,15 @@ Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $(AB'D')\parallel(C'BD)$.
 2. Apply the condition.
 
 ::solution
-$AB'C'D$ is a parallelogram, so $AB'\parallel DC'$, with $DC'\subset(C'BD)$, so $AB'\parallel(C'BD)$. $AD'C'B$ is a parallelogram, so $AD'\parallel BC'$, with $BC'\subset(C'BD)$, so $AD'\parallel(C'BD)$. The plane $(AB'D')$ contains $AB'$ and $AD'$ meeting at $A$, both parallel to $(C'BD)$.
+We show that $(AB'D')$ contains two intersecting lines, both parallel to $(C'BD)$.
+
+The quadrilateral $AB'C'D$ is a parallelogram, so $AB'\parallel DC'$. Since $DC'\subset(C'BD)$ and $AB'\not\subset(C'BD)$, we get $AB'\parallel(C'BD)$.
+
+The quadrilateral $AD'C'B$ is a parallelogram, so $AD'\parallel BC'$. Since $BC'\subset(C'BD)$ and $AD'\not\subset(C'BD)$, we get $AD'\parallel(C'BD)$.
+
+The plane $(AB'D')$ contains the lines $AB'$ and $AD'$, which meet at $A$ and are both parallel to $(C'BD)$.
+
+So $(AB'D')\parallel(C'BD)$.
 
 **Answer.** $(AB'D')\parallel(C'BD)$.
 :::
@@ -197,7 +213,17 @@ Three parallel planes meet two transversals $d$, $d'$ at $A$, $B$, $C$ and $A'$,
 2. Find $A'B'$, then $B'C'=A'C'-A'B'$.
 
 ::solution
-$AC=3+5=8$. From $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ we get $A'B'=\dfrac{3}{8}\cdot24=9$, so $B'C'=24-9=15$.
+Three parallel planes cut two transversals $d$, $d'$ into proportional segments (the intercept theorem in space), so
+$$\frac{AB}{AC}=\frac{A'B'}{A'C'}.$$
+
+Since $B$ lies between $A$ and $C$, we have $AC=AB+BC=3+5=8$.
+
+Substituting, we get
+$$\frac{A'B'}{24}=\frac38\ \Rightarrow\ A'B'=\frac38\cdot24=9.$$
+
+Since $B'$ lies between $A'$ and $C'$, we have $B'C'=A'C'-A'B'=24-9=15$.
+
+So $A'B'=9$ and $B'C'=15$.
 
 **Answer.** $A'B'=9$, $B'C'=15$.
 :::
@@ -212,7 +238,11 @@ How many vertices, edges and faces does a prism whose base has $12$ sides have?
 1. Substitute $n=12$.
 
 ::solution
-For $n=12$: $2n=24$ vertices, $3n=36$ edges, $n+2=14$ faces.
+Consider a prism whose base is an $n$-sided polygon. Each base has $n$ vertices, so the prism has $2n$ vertices. Each base has $n$ edges and there are $n$ lateral edges, so the prism has $n+n+n=3n$ edges. The prism has $2$ bases and $n$ lateral faces, so it has $n+2$ faces.
+
+For $n=12$, we get $2n=24$ vertices, $3n=36$ edges and $n+2=14$ faces.
+
+So a prism whose base has $12$ sides has $24$ vertices, $36$ edges and $14$ faces.
 
 **Answer.** $24$ vertices, $36$ edges, $14$ faces.
 :::
@@ -228,7 +258,19 @@ Suppose three parallel boards of a bookshelf divide a stick $1.2$ m long into tw
 2. Divide $2.4$ m in the same ratio.
 
 ::solution
-The total number of parts is $3+5=8$. The $1.2$ m stick: upper part $\dfrac38\cdot1.2=0.45$ m and lower part $0.75$ m. The $2.4$ m stick: upper part $\dfrac38\cdot2.4=0.9$ m and lower part $1.5$ m.
+Three parallel boards cut two sticks into proportional parts. Hence the $2.4$ m stick is also divided into two parts (upper and lower) in the ratio $3:5$.
+
+The total number of parts is $3+5=8$.
+
+The $1.2$ m stick: each part is $1.2:8=0.15$ m. So the upper part is
+$$\frac38\cdot1.2=0.45\ \text{(m)},$$
+and the lower part is $1.2-0.45=0.75$ m.
+
+The $2.4$ m stick: the upper part is
+$$\frac38\cdot2.4=0.9\ \text{(m)},$$
+and the lower part is $2.4-0.9=1.5$ m.
+
+So the $1.2$ m stick is divided into parts of $0.45$ m and $0.75$ m, and the $2.4$ m stick into parts of $0.9$ m and $1.5$ m.
 
 **Answer.** The $1.2$ m stick: $0.45$ m and $0.75$ m; the $2.4$ m stick: $0.9$ m and $1.5$ m.
 :::
@@ -252,13 +294,15 @@ d) $AA'\parallel(CDD'C')$.
 2. d) $AA'\parallel DD'\subset(CDD'C')$.
 
 ::solution
-a) **True**: opposite faces are parallel.
+a) **True.** The faces $(ABCD)$ and $(A'B'C'D')$ are opposite faces of the cuboid, and opposite faces of a cuboid are parallel.
 
-b) **True**: each face is parallel to its opposite face and meets the $4$ adjacent faces.
+b) **True.** A cuboid has $6$ faces. Each face is parallel to its opposite face and meets the $4$ adjacent faces along edges of the cuboid. So each face meets exactly $4$ of the other faces.
 
-c) **False**: a cuboid has $12$ edges.
+c) **False.** A cuboid has $4$ edges on each base and $4$ lateral edges, that is $4+4+4=12$ edges, not $8$ (the number $8$ counts vertices).
 
-d) **True**: $AA'\parallel DD'\subset(CDD'C')$ and $AA'\not\subset(CDD'C')$.
+d) **True.** We have $AA'\parallel DD'$ and $DD'\subset(CDD'C')$. Also $A\notin(CDD'C')$, so $AA'\not\subset(CDD'C')$. Hence $AA'\parallel(CDD'C')$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -290,7 +334,18 @@ Take a pyramid $S.ABC$. A plane $(\alpha)$ parallel to $(ABC)$ meets $SA$, $SB$,
 2. Do the same with $(SBC)$ and $(SAC)$.
 
 ::solution
-The plane $(SAB)$ cuts the parallel planes $(\alpha)$ and $(ABC)$ along $A_1B_1$ and $AB$, so $A_1B_1\parallel AB$. By the intercept theorem in triangle $SAB$, $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{A_1B_1}{AB}$. Similarly, with the plane $(SBC)$ we have $B_1C_1\parallel BC$ and $\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}$. Combining these equalities gives the result.
+Since $(\alpha)\parallel(ABC)$, the plane $(SAB)$ cuts these two parallel planes along two parallel lines: $(SAB)\cap(\alpha)=A_1B_1$ and $(SAB)\cap(ABC)=AB$. Hence $A_1B_1\parallel AB$.
+
+In triangle $SAB$ we have $A_1B_1\parallel AB$, so by the intercept theorem,
+$$\frac{SA_1}{SA}=\frac{SB_1}{SB}=\frac{A_1B_1}{AB}.\quad(1)$$
+
+Similarly, the plane $(SBC)$ cuts $(\alpha)$ and $(ABC)$ along $B_1C_1$ and $BC$, so $B_1C_1\parallel BC$. In triangle $SBC$, by the intercept theorem,
+$$\frac{SB_1}{SB}=\frac{SC_1}{SC}.\quad(2)$$
+
+From (1) and (2) we obtain
+$$\frac{SA_1}{SA}=\frac{SB_1}{SB}=\frac{SC_1}{SC}=\frac{A_1B_1}{AB}.$$
+
+So the required equalities are proved.
 
 **Answer.** $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
 :::

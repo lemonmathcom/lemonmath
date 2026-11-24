@@ -291,11 +291,29 @@ b) $-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)$.
 2. Group terms with the same denominator: $\dfrac79$ with $\dfrac79$, $\dfrac58$ with $\dfrac38$, $\dfrac23$ with $\dfrac13$.
 
 ::solution
-a) We have $\dfrac79-\dfrac25-\dfrac79-\dfrac35=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)=0-1=-1$.
+Removing brackets: when a bracket is preceded by a "$-$" sign, we change the sign of every term inside; when it is preceded by a "$+$" sign, the terms keep their signs.
 
-b) We have $-\dfrac58+\dfrac23-\dfrac38-\dfrac13=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)=-1+\dfrac13=-\dfrac23$.
+a) Removing the brackets, we get
+$$\left(\dfrac79-\dfrac25\right)-\left(\dfrac79+\dfrac35\right)=\dfrac79-\dfrac25-\dfrac79-\dfrac35.$$
 
-So the results are $-1$ and $-\dfrac23$.
+Group the terms with the same denominator:
+$$\begin{aligned}
+&=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)\\
+&=0-1\\
+&=-1.
+\end{aligned}$$
+
+b) Removing the brackets, we get
+$$-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)=-\dfrac58+\dfrac23-\dfrac38-\dfrac13.$$
+
+Group the terms with the same denominator:
+$$\begin{aligned}
+&=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)\\
+&=-1+\dfrac13\\
+&=-\dfrac23.
+\end{aligned}$$
+
+So the result of a) is $-1$ and the result of b) is $-\dfrac23$.
 
 **Answer.** a) $-1$; b) $-\dfrac23$.
 :::
@@ -319,13 +337,21 @@ d) $-x+\dfrac12=-\dfrac23$.
 2. c), d) Find $-x$ first, then change the sign of both sides.
 
 ::solution
-a) $x=\dfrac25+\dfrac13=\dfrac6{15}+\dfrac5{15}=\dfrac{11}{15}$.
+Rule for moving terms: when a term is moved from one side of an equation to the other, its sign is changed.
 
-b) $x=-\dfrac12-\dfrac56=-\dfrac36-\dfrac56=-\dfrac86=-\dfrac43$.
+a) Moving $-\dfrac13$ to the right-hand side gives $+\dfrac13$:
+$$x=\frac25+\frac13=\frac{6}{15}+\frac{5}{15}=\frac{11}{15}.$$
 
-c) $x=\dfrac34-\dfrac18=\dfrac68-\dfrac18=\dfrac58$.
+b) Moving $+\dfrac56$ to the right-hand side gives $-\dfrac56$:
+$$x=-\frac12-\frac56=-\frac36-\frac56=-\frac86=-\frac43.$$
 
-d) $-x=-\dfrac23-\dfrac12=-\dfrac46-\dfrac36=-\dfrac76$, so $x=\dfrac76$.
+c) Moving $-x$ to the right-hand side gives $+x$, and moving $\dfrac18$ to the left-hand side gives $-\dfrac18$. So $x=\dfrac34-\dfrac18$, that is
+$$x=\frac34-\frac18=\frac68-\frac18=\frac58.$$
+
+d) Moving $\dfrac12$ to the right-hand side gives $-\dfrac12$:
+$$-x=-\frac23-\frac12=-\frac46-\frac36=-\frac76.$$
+
+Hence $x=\dfrac76$.
 
 So a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
 

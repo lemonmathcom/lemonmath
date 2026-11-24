@@ -192,9 +192,16 @@ b) Biến cố $A$: "Số chấm là số lẻ". Liệt kê các kết quả thu
 2. Chọn ra các số lẻ rồi lập tỉ số.
 
 ::solution
-a) Có $6$ kết quả: $1, 2, 3, 4, 5, 6$.
+Gieo một con xúc xắc cân đối, các mặt có số chấm từ $1$ đến $6$ và khả năng xuất hiện của mỗi mặt là như nhau.
 
-b) Kết quả thuận lợi cho $A$ là $1, 3, 5$, nên $k=3$ và $P(A)=\dfrac36=\dfrac12$.
+a) Các kết quả có thể là $1$, $2$, $3$, $4$, $5$, $6$. Có tất cả $n=6$ kết quả.
+
+b) Biến cố $A$: "Số chấm là số lẻ". Các kết quả thuận lợi cho $A$ là $1$, $3$, $5$, nên $k=3$.
+
+Áp dụng công thức $P(A)=\dfrac kn$, ta có
+$$P(A)=\frac36=\frac12.$$
+
+Vậy có $6$ kết quả có thể và $P(A)=\dfrac12$.
 
 **Đáp số.** a) $6$ kết quả; b) $P(A)=\dfrac12$.
 :::
@@ -210,7 +217,18 @@ Một hộp có $15$ viên kẹo cùng cỡ: $6$ viên cam, $5$ viên dâu, $4$ 
 2. Lập tỉ số $\dfrac{k}{15}$ và rút gọn nếu được.
 
 ::solution
-$P(\text{cam})=\dfrac{6}{15}=\dfrac25$; $P(\text{dâu})=\dfrac{5}{15}=\dfrac13$; $P(\text{nho})=\dfrac{4}{15}$.
+Các viên kẹo cùng cỡ nên lấy ngẫu nhiên một viên có $n=15$ kết quả đồng khả năng. Xác suất của mỗi loại kẹo bằng số kẹo loại đó chia cho $15$.
+
+Có $6$ viên kẹo cam, nên
+$$P(\text{cam})=\frac{6}{15}=\frac25.$$
+
+Có $5$ viên kẹo dâu, nên
+$$P(\text{dâu})=\frac{5}{15}=\frac13.$$
+
+Có $4$ viên kẹo nho, nên
+$$P(\text{nho})=\frac{4}{15}.$$
+
+Vậy xác suất lấy được kẹo cam, kẹo dâu, kẹo nho lần lượt là $\dfrac25$, $\dfrac13$, $\dfrac{4}{15}$.
 
 **Đáp số.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
 :::
@@ -232,11 +250,18 @@ c) "Số chấm lớn hơn $4$".
 2. Đếm $k$ rồi chia cho $n=6$.
 
 ::solution
-a) Cả $6$ kết quả đều nhỏ hơn $7$: chắc chắn, $P=\dfrac66=1$.
+Gieo một con xúc xắc cân đối có $n=6$ kết quả đồng khả năng: $1$, $2$, $3$, $4$, $5$, $6$.
 
-b) Không có kết quả nào bằng $0$: không thể, $P=0$.
+a) Cả $6$ kết quả đều nhỏ hơn $7$, nên biến cố xảy ra với mọi kết quả. Đây là biến cố chắc chắn, và $k=6$ nên
+$$P=\frac66=1.$$
 
-c) Các kết quả $5, 6$: ngẫu nhiên, $P=\dfrac26=\dfrac13$.
+b) Không có kết quả nào bằng $0$, nên biến cố không bao giờ xảy ra. Đây là biến cố không thể, và $k=0$ nên
+$$P=\frac06=0.$$
+
+c) Các kết quả thuận lợi là $5$, $6$ nên $k=2$. Biến cố xảy ra với một số kết quả, không phải tất cả, nên đây là biến cố ngẫu nhiên, và
+$$P=\frac26=\frac13.$$
+
+Vậy a) chắc chắn, xác suất $1$; b) không thể, xác suất $0$; c) ngẫu nhiên, xác suất $\dfrac13$.
 
 **Đáp số.** a) Chắc chắn, $1$; b) không thể, $0$; c) ngẫu nhiên, $\dfrac13$.
 :::
@@ -258,11 +283,24 @@ c) ghi số có một chữ số.
 2. Lập tỉ số $\dfrac{k}{20}$ và rút gọn.
 
 ::solution
-a) Các số $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+Trong túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$, rút ngẫu nhiên một thẻ nên có $n=20$ kết quả đồng khả năng.
 
-b) Các số chẵn $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+a) Các số nhỏ hơn $6$ là $1$, $2$, $3$, $4$, $5$, nên $k=5$.
 
-c) Các số $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+Do đó
+$$P=\frac{5}{20}=\frac14.$$
+
+b) Các số chẵn từ $1$ đến $20$ là $2$, $4$, $\dots$, $20$. Có $20:2=10$ số, nên $k=10$.
+
+Do đó
+$$P=\frac{10}{20}=\frac12.$$
+
+c) Các số có một chữ số là $1$, $2$, $\dots$, $9$, nên $k=9$.
+
+Do đó
+$$P=\frac{9}{20}.$$
+
+Vậy xác suất để thẻ rút được ghi số nhỏ hơn $6$, ghi số chẵn, ghi số có một chữ số lần lượt là $\dfrac14$, $\dfrac12$, $\dfrac{9}{20}$.
 
 **Đáp số.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
 :::
@@ -278,7 +316,17 @@ Hộp $A$ có $3$ bi đỏ và $7$ bi xanh. Hộp $B$ có $2$ bi đỏ và $3$ b
 2. Tính hai xác suất, rồi quy đồng mẫu số để so sánh.
 
 ::solution
-Hộp $A$ có $10$ viên: $P_A=\dfrac{3}{10}$. Hộp $B$ có $5$ viên: $P_B=\dfrac25=\dfrac{4}{10}$. Vì $\dfrac{3}{10}<\dfrac{4}{10}$ nên $P_A<P_B$.
+Lấy ngẫu nhiên một viên bi từ một hộp thì mọi viên bi trong hộp có khả năng được lấy như nhau. Xác suất lấy được bi đỏ bằng số bi đỏ chia cho tổng số bi trong hộp.
+
+Hộp $A$ có $3+7=10$ viên bi, trong đó có $3$ bi đỏ. Gọi $P_A$ là xác suất lấy được bi đỏ từ hộp $A$, ta có
+$$P_A=\frac{3}{10}.$$
+
+Hộp $B$ có $2+3=5$ viên bi, trong đó có $2$ bi đỏ. Gọi $P_B$ là xác suất lấy được bi đỏ từ hộp $B$, ta có
+$$P_B=\frac25=\frac{4}{10}.$$
+
+Hai phân số đã có cùng mẫu số $10$ và $3<4$ nên $\dfrac{3}{10}<\dfrac{4}{10}$, tức là $P_A<P_B$.
+
+Vậy lấy từ hộp $B$ thì khả năng được bi đỏ lớn hơn, vì $\dfrac25>\dfrac{3}{10}$.
 
 **Đáp số.** Hộp $B$, vì $\dfrac25>\dfrac{3}{10}$.
 :::
@@ -298,9 +346,19 @@ b) Bình: "Gieo xúc xắc, biến cố $M$: số chấm chia hết cho $2$. Cá
 2. Tính lại.
 
 ::solution
-a) Mai coi hai màu có khả năng như nhau, nhưng bi đỏ nhiều hơn bi xanh. Mỗi viên bi mới là một kết quả: $n=6$, $k=1$, nên $P=\dfrac16$.
+Xác suất của biến cố bằng $\dfrac kn$, trong đó $n$ là số kết quả có thể (đồng khả năng) và $k$ là số kết quả thuận lợi.
 
-b) Bình lấy $n=3$, trong khi xúc xắc có $6$ kết quả có thể. Đúng là $P(M)=\dfrac36=\dfrac12$.
+a) Lỗi sai của Mai: bạn coi hai màu có khả năng như nhau, nhưng bi đỏ nhiều hơn bi xanh nên hai màu không đồng khả năng. Mỗi viên bi mới là một kết quả đồng khả năng.
+
+Sửa lại: hộp có $5+1=6$ viên bi nên $n=6$; có $1$ bi xanh nên $k=1$. Do đó
+$$P=\frac16.$$
+
+b) Lỗi sai của Bình: bạn lấy $n=3$ (chỉ đếm các kết quả thuận lợi), trong khi con xúc xắc có $6$ kết quả có thể.
+
+Sửa lại: $n=6$, $k=3$ (các kết quả $2$, $4$, $6$). Do đó
+$$P(M)=\frac36=\frac12.$$
+
+Vậy xác suất lấy được bi xanh là $\dfrac16$ và $P(M)=\dfrac12$.
 
 **Đáp số.** a) $\dfrac16$; b) $\dfrac12$.
 :::
@@ -322,11 +380,20 @@ c) Cộng hai xác suất ở câu a) và b). Vì sao kết quả như vậy?
 2. Lập hai tỉ số rồi rút gọn, sau đó cộng lại.
 
 ::solution
-a) $P(\text{nữ})=\dfrac{22}{40}=\dfrac{11}{20}$.
+Lớp $7$B có $40$ học sinh, gọi ngẫu nhiên một bạn nên có $n=40$ kết quả đồng khả năng.
 
-b) Số bạn nam là $40-22=18$, nên $P(\text{nam})=\dfrac{18}{40}=\dfrac{9}{20}$.
+a) Có $22$ bạn nữ nên $k=22$. Do đó
+$$P(\text{nữ})=\frac{22}{40}=\frac{11}{20}.$$
 
-c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Mỗi bạn hoặc là nữ hoặc là nam, nên biến cố "nữ hoặc nam" là chắc chắn.
+b) Số bạn nam là $40-22=18$ nên $k=18$. Do đó
+$$P(\text{nam})=\frac{18}{40}=\frac{9}{20}.$$
+
+c) Cộng hai xác suất, ta được
+$$\frac{11}{20}+\frac{9}{20}=\frac{20}{20}=1.$$
+
+Kết quả bằng $1$ vì mỗi bạn hoặc là nữ hoặc là nam, nên biến cố "nữ hoặc nam" là biến cố chắc chắn và có xác suất bằng $1$.
+
+Vậy $P(\text{nữ})=\dfrac{11}{20}$, $P(\text{nam})=\dfrac{9}{20}$ và tổng hai xác suất bằng $1$.
 
 **Đáp số.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
 :::
@@ -349,7 +416,18 @@ Lấy ngẫu nhiên một viên bi. Tính xác suất lấy được mỗi màu 
 3. Cộng bốn xác suất.
 
 ::solution
-Tổng số bi là $6+9+5+10=30$. Các xác suất là $P(\text{đỏ})=\dfrac{6}{30}=\dfrac15$, $P(\text{xanh})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{vàng})=\dfrac{5}{30}=\dfrac16$, $P(\text{trắng})=\dfrac{10}{30}=\dfrac13$. Tổng bốn xác suất là $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+Tổng số viên bi trong hộp là
+$$6+9+5+10=30,$$
+nên lấy ngẫu nhiên một viên bi có $n=30$ kết quả đồng khả năng.
+
+Xác suất lấy được mỗi màu bằng số bi màu đó chia cho $30$:
+$$P(\text{đỏ})=\frac{6}{30}=\frac15,\qquad P(\text{xanh})=\frac{9}{30}=\frac{3}{10},$$
+$$P(\text{vàng})=\frac{5}{30}=\frac16,\qquad P(\text{trắng})=\frac{10}{30}=\frac13.$$
+
+Tổng bốn xác suất là
+$$\frac{6+9+5+10}{30}=\frac{30}{30}=1.$$
+
+Vậy xác suất lấy được bi đỏ, xanh, vàng, trắng lần lượt là $\dfrac15$, $\dfrac{3}{10}$, $\dfrac16$, $\dfrac13$ và tổng bốn xác suất bằng $1$.
 
 **Đáp số.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; tổng bằng $1$.
 :::

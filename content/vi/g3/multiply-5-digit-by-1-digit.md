@@ -194,8 +194,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Nhân từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Bài giải
+
+Ta đặt tính rồi nhân lần lượt từng chữ số của $32\,140$ với $2$, bắt đầu từ hàng đơn vị:
 $$\begin{array}{r} 32\,140 \\ \times\ 2 \\ \hline 64\,280 \end{array}$$
+- Hàng đơn vị: $0\times2=0$, viết $0$.
+- Hàng chục: $4\times2=8$, viết $8$.
+- Hàng trăm: $1\times2=2$, viết $2$.
+- Hàng nghìn: $2\times2=4$, viết $4$.
+- Hàng chục nghìn: $3\times2=6$, viết $6$.
+
 Không có hàng nào có tích từ $10$ trở lên nên không phải nhớ.
+
+Vậy $32\,140\times2=64\,280$.
 
 **Đáp số.** $64\,280$.
 :::
@@ -211,8 +222,19 @@ Không có hàng nào có tích từ $10$ trở lên nên không phải nhớ.
 2. Nhân tiếp từng hàng, nhớ khi cần.
 
 ::solution
+Bài giải
+
+Ta đặt tính rồi nhân lần lượt từng chữ số của $17\,285$ với $4$, bắt đầu từ hàng đơn vị:
 $$\begin{array}{r} 17\,285 \\ \times\ 4 \\ \hline 69\,140 \end{array}$$
-Hàng đơn vị: $5\times4=20$, viết $0$ nhớ $2$. Hàng chục: $8\times4=32$, thêm $2$ được $34$, viết $4$ nhớ $3$. Hàng trăm: $2\times4=8$, thêm $3$ được $11$, viết $1$ nhớ $1$. Hàng nghìn: $7\times4=28$, thêm $1$ được $29$, viết $9$ nhớ $2$. Hàng chục nghìn: $1\times4=4$, thêm $2$ được $6$.
+- Hàng đơn vị: $5\times4=20$, viết $0$ nhớ $2$.
+- Hàng chục: $8\times4=32$, thêm $2$ được $34$, viết $4$ nhớ $3$.
+- Hàng trăm: $2\times4=8$, thêm $3$ được $11$, viết $1$ nhớ $1$.
+- Hàng nghìn: $7\times4=28$, thêm $1$ được $29$, viết $9$ nhớ $2$.
+- Hàng chục nghìn: $1\times4=4$, thêm $2$ được $6$, viết $6$.
+
+*Kiểm tra.* $17\,000\times4=68\,000$ và $285\times4=1\,140$; $68\,000+1\,140=69\,140$. Đúng.
+
+Vậy $17\,285\times4=69\,140$.
 
 **Đáp số.** $69\,140$.
 :::
@@ -228,7 +250,20 @@ Tính: $96\,840:3$.
 2. Hạ từng chữ số tiếp theo, chia tiếp.
 
 ::solution
-$9:3=3$ (dư $0$). Hạ $6$ được $6$; $6:3=2$ (dư $0$). Hạ $8$ được $8$; $8:3=2$ (dư $2$). Hạ $4$ được $24$; $24:3=8$ (dư $0$). Hạ $0$ được $0$; $0:3=0$.
+Bài giải
+
+Ta chia lần lượt từ hàng chục nghìn của $96\,840$ cho $3$:
+- $9:3=3$ (dư $0$), viết $3$.
+- Hạ $6$ được $6$; $6:3=2$ (dư $0$), viết $2$.
+- Hạ $8$ được $8$; $8:3=2$ (dư $2$), viết $2$.
+- Hạ $4$ được $24$; $24:3=8$ (dư $0$), viết $8$.
+- Hạ $0$ được $0$; $0:3=0$, viết $0$.
+
+Các chữ số của thương, từ trái sang phải, là $3,\ 2,\ 2,\ 8,\ 0$.
+
+*Thử lại.* $32\,280\times3=96\,840$. Đúng.
+
+Vậy $96\,840:3=32\,280$.
 
 **Đáp số.** $32\,280$.
 :::
@@ -244,9 +279,20 @@ Tính: $52\,387:4$.
 2. Hạ từng chữ số, ghi số dư cuối cùng rồi thử lại.
 
 ::solution
-$5:4=1$ (dư $1$). Hạ $2$ được $12$; $12:4=3$ (dư $0$). Hạ $3$ được $3$; $3:4=0$ (dư $3$), viết $0$. Hạ $8$ được $38$; $38:4=9$ (dư $2$). Hạ $7$ được $27$; $27:4=6$ (dư $3$).
+Bài giải
 
-**Thử lại.** $13\,096\times4=52\,384$ và $52\,384+3=52\,387$. Đúng.
+Ta chia lần lượt từ hàng chục nghìn của $52\,387$ cho $4$:
+- $5:4=1$ (dư $1$), viết $1$.
+- Hạ $2$ được $12$; $12:4=3$ (dư $0$), viết $3$.
+- Hạ $3$ được $3$; $3:4=0$ (dư $3$), viết $0$.
+- Hạ $8$ được $38$; $38:4=9$ (dư $2$), viết $9$.
+- Hạ $7$ được $27$; $27:4=6$ (dư $3$), viết $6$.
+
+Thương là $13\,096$ và số dư là $3$.
+
+*Thử lại.* $13\,096\times4=52\,384$ và $52\,384+3=52\,387$. Đúng.
+
+Vậy $52\,387:4=13\,096$ (dư $3$).
 
 **Đáp số.** $13\,096$ (dư $3$).
 :::
@@ -262,9 +308,17 @@ Tìm $x$: $x:8=11\,250$.
 2. Đặt tính rồi nhân.
 
 ::solution
-$x=11\,250\times8=90\,000$.
+Bài giải
 
-**Thử lại.** $90\,000:8=11\,250$. Đúng.
+Trong phép chia $x:8=11\,250$, $x$ là số bị chia, $8$ là số chia và $11\,250$ là thương. Muốn tìm số bị chia, ta lấy thương nhân với số chia:
+$$\begin{aligned}
+x&=11\,250\times8\\
+x&=90\,000.
+\end{aligned}$$
+
+*Thử lại.* $90\,000:8=11\,250$. Đúng.
+
+Vậy $x=90\,000$.
 
 **Đáp số.** $x=90\,000$.
 :::
@@ -283,8 +337,12 @@ Một cửa hàng xăng (số liệu giả định) mỗi ngày bán được $1
 ::solution
 Bài giải
 
-Số lít xăng bán được trong $6$ ngày là:
+Mỗi ngày cửa hàng bán được $12\,750$ lít xăng, nên số lít xăng bán được trong $6$ ngày là:
 $$12\,750\times6=76\,500\ \text{(lít)}.$$
+
+*Kiểm tra.* $12\,000\times6=72\,000$ và $750\times6=4\,500$; $72\,000+4\,500=76\,500$. Đúng.
+
+Vậy trong $6$ ngày cửa hàng bán được $76\,500$ lít xăng.
 
 **Đáp số.** $76\,500$ lít xăng.
 :::
@@ -303,8 +361,12 @@ Một kho gạo (số liệu giả định) chia đều $93\,600$ kg gạo vào 
 ::solution
 Bài giải
 
-Số ki-lô-gam gạo ở mỗi bao lớn là:
+Kho chia đều $93\,600$ kg gạo vào $9$ bao lớn, nên số ki-lô-gam gạo ở mỗi bao lớn là:
 $$93\,600:9=10\,400\ \text{(kg)}.$$
+
+*Thử lại.* $10\,400\times9=93\,600$. Đúng.
+
+Vậy mỗi bao lớn đựng $10\,400$ kg gạo.
 
 **Đáp số.** $10\,400$ kg gạo.
 :::
@@ -322,10 +384,15 @@ Em hãy nhớ lại bài cộng, trừ trong phạm vi $100\,000$. Một kho có
 ::solution
 Bài giải
 
-Số ki-lô-gam gạo đã xuất là:
+Kho xuất đi $3$ chuyến, mỗi chuyến $15\,250$ kg, nên số ki-lô-gam gạo đã xuất là:
 $$15\,250\times3=45\,750\ \text{(kg)}.$$
-Số ki-lô-gam gạo còn lại là:
+
+Kho có $80\,000$ kg gạo, đã xuất $45\,750$ kg, nên số ki-lô-gam gạo còn lại là:
 $$80\,000-45\,750=34\,250\ \text{(kg)}.$$
+
+*Thử lại.* $34\,250+45\,750=80\,000$. Đúng.
+
+Vậy kho còn lại $34\,250$ kg gạo.
 
 **Đáp số.** $34\,250$ kg gạo.
 :::
@@ -359,10 +426,16 @@ Một số chia cho $8$ được thương là $12\,345$ và dư $7$. Tìm số �
 2. Cộng thêm số dư $7$.
 
 ::solution
+Bài giải
+
+Trong phép chia có dư, số bị chia bằng thương nhân với số chia rồi cộng với số dư. Số cần tìm chia cho $8$ được thương $12\,345$ và dư $7$.
+
 Ta có $12\,345\times8=98\,760$. Số cần tìm là:
 $$98\,760+7=98\,767.$$
 
-**Thử lại.** $98\,767:8=12\,345$ (dư $7$). Đúng.
+*Thử lại.* $98\,767:8=12\,345$ (dư $7$). Đúng.
+
+Vậy số cần tìm là $98\,767$.
 
 **Đáp số.** $98\,767$.
 :::

@@ -181,7 +181,16 @@ Solve $\sqrt{x+5}=\sqrt{3x-1}$.
 2. Check the condition under the roots.
 
 ::solution
-Squaring: $x+5=3x-1\iff x=3$. For $x=3$: $x+5=8\ge 0$, and both sides equal $\sqrt8$.
+Condition: $x+5\ge0$ and $3x-1\ge0$, that is $x\ge\dfrac13$.
+
+Under this condition both sides are non-negative, so squaring both sides gives an equivalent equation
+$$\begin{aligned}x+5&=3x-1\\ 6&=2x\\ x&=3.\end{aligned}$$
+
+Checking the condition: $x=3\ge\dfrac13$, so it is accepted.
+
+Check: for $x=3$ we have $x+5=8\ge0$ and $3x-1=8\ge0$, and both sides equal $\sqrt8$.
+
+So the solution set is $S=\{3\}$.
 
 **Answer.** $S=\{3\}$.
 :::
@@ -197,7 +206,17 @@ Solve $\sqrt{x^2-4}=\sqrt{3x}$.
 2. Reject any value with $3x<0$.
 
 ::solution
-Squaring: $x^2-4=3x\iff x^2-3x-4=0\iff x=4$ or $x=-1$. For $x=-1$, $3x=-3<0$, so it is rejected. For $x=4$ both sides equal $\sqrt{12}$.
+Condition: $x^2-4\ge0$ and $3x\ge0$. After squaring, the two radicands are equal, so we only need to check the extra condition $3x\ge0$ at the verification step.
+
+Squaring both sides gives
+$$\begin{aligned}x^2-4&=3x\\ x^2-3x-4&=0\\ (x+1)(x-4)&=0.\end{aligned}$$
+Hence $x=-1$ or $x=4$.
+
+Checking the condition: for $x=-1$ we have $3x=-3<0$, so it is rejected. For $x=4$ we have $3x=12\ge0$ and $x^2-4=12\ge0$, so it is accepted.
+
+Check: for $x=4$, both sides equal $\sqrt{12}$.
+
+So the solution set is $S=\{4\}$.
 
 **Answer.** $S=\{4\}$.
 :::
@@ -213,7 +232,17 @@ Solve $\sqrt{x+2}=x$.
 2. Square, solve the quadratic, keep the values that meet the condition.
 
 ::solution
-We need $x\ge 0$. Squaring: $x+2=x^2\iff x^2-x-2=0\iff x=2$ or $x=-1$. Only $x=2$ meets the condition. Check: $\sqrt4=2$.
+The left-hand side $\sqrt{x+2}$ is non-negative, so the right-hand side must be non-negative: $x\ge0$. Then $x+2>0$, so the square root is defined.
+
+Squaring both sides gives
+$$\begin{aligned}x+2&=x^2\\ x^2-x-2&=0\\ (x+1)(x-2)&=0.\end{aligned}$$
+Hence $x=-1$ or $x=2$.
+
+Checking the condition $x\ge0$: $x=-1$ is rejected; $x=2$ is accepted.
+
+Check: $\sqrt{2+2}=\sqrt4=2$, which equals the right-hand side.
+
+So the solution set is $S=\{2\}$.
 
 **Answer.** $S=\{2\}$.
 :::
@@ -229,7 +258,17 @@ Solve $\sqrt{x+3}=x-3$.
 2. Square, solve, choose the solution.
 
 ::solution
-We need $x\ge 3$. Squaring: $x+3=x^2-6x+9\iff x^2-7x+6=0\iff x=1$ or $x=6$. Only $x=6$ meets the condition. Check: $\sqrt9=3=6-3$.
+The left-hand side $\sqrt{x+3}$ is non-negative, so the right-hand side must be non-negative: $x-3\ge0$, that is $x\ge3$. Then $x+3>0$, so the square root is defined.
+
+Squaring both sides gives
+$$\begin{aligned}x+3&=x^2-6x+9\\ x^2-7x+6&=0\\ (x-1)(x-6)&=0.\end{aligned}$$
+Hence $x=1$ or $x=6$.
+
+Checking the condition $x\ge3$: $x=1$ is rejected; $x=6$ is accepted.
+
+Check: $\sqrt{6+3}=\sqrt9=3=6-3$.
+
+So the solution set is $S=\{6\}$.
 
 **Answer.** $S=\{6\}$.
 :::
@@ -245,7 +284,17 @@ Solve $\sqrt{x^2-2x}=\sqrt{x+4}$.
 2. Check each value.
 
 ::solution
-Squaring: $x^2-2x=x+4\iff x^2-3x-4=0\iff x=4$ or $x=-1$. For $x=4$: $x+4=8\ge 0$. For $x=-1$: $x+4=3\ge 0$. Both are accepted.
+Condition: $x^2-2x\ge0$ and $x+4\ge0$. After squaring, the two radicands are equal, so we only need to check $x+4\ge0$ at the verification step.
+
+Squaring both sides gives
+$$\begin{aligned}x^2-2x&=x+4\\ x^2-3x-4&=0\\ (x+1)(x-4)&=0.\end{aligned}$$
+Hence $x=-1$ or $x=4$.
+
+Checking the condition: for $x=4$ we have $x+4=8\ge0$; for $x=-1$ we have $x+4=3\ge0$. Both values are accepted.
+
+Check: for $x=4$ both sides equal $\sqrt8$; for $x=-1$ both sides equal $\sqrt3$.
+
+So the solution set is $S=\{-1, 4\}$.
 
 **Answer.** $S=\{-1, 4\}$.
 :::
@@ -269,15 +318,17 @@ d) The sum of the solutions of the given equation is $2$.
 2. Check each solution, then judge each claim.
 
 ::solution
-Squaring: $x+7=x^2+2x+1\iff x^2+x-6=0\iff x=2$ or $x=-3$. The condition $x+1\ge 0\iff x\ge -1$ rejects $x=-3$.
+Consider the equation $\sqrt{x+7}=x+1$.
 
-a) **True**: $x+1\ge 0\iff x\ge -1$.
+a) **True.** The left-hand side is a square root, so it is non-negative, and therefore the right-hand side must be non-negative. We have $x+1\ge0\iff x\ge-1$.
 
-b) **True**: $x+7=x^2+2x+1\iff x^2+x-6=0$.
+b) **True.** Squaring both sides gives $x+7=(x+1)^2=x^2+2x+1$, hence $x^2+x-6=0$.
 
-c) **False**: for $x=-3$ the left side is $\sqrt4=2$ and the right side is $-2$.
+c) **False.** Solving $x^2+x-6=0$, that is $(x-2)(x+3)=0$, gives $x=2$ or $x=-3$. However $x=-3$ does not satisfy the condition $x\ge-1$. Indeed, for $x=-3$ the left side is $\sqrt4=2$ and the right side is $-3+1=-2$, so the two sides are not equal. Hence the equation has only the solution $x=2$, not two solutions.
 
-d) **True**: the equation has only one solution, $x=2$, so the sum of the solutions is $2$.
+d) **True.** For $x=2$: the left side is $\sqrt9=3$ and the right side is $2+1=3$, so $x=2$ is the only solution. The sum of the solutions is $2$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -294,7 +345,19 @@ A $13$ m ladder leans against a wall. The top of the ladder is $7$ m higher than
 3. Compute $h=d+7$.
 
 ::solution
-Squaring: $169-d^2=d^2+14d+49\iff d^2+7d-60=0\iff d=5$ or $d=-12$. A distance is positive, so $d=5$ and $h=5+7=12$. Check: $\sqrt{169-25}=\sqrt{144}=12$.
+Let $d$ (m) be the distance from the foot of the ladder to the wall ($d>0$) and $h$ (m) the height of the top of the ladder. By the statement, $h=d+7$.
+
+The wall is perpendicular to the ground, so the ladder, the wall and the ground form a right triangle with hypotenuse $13$ m. By Pythagoras' theorem, $d^2+h^2=13^2=169$, that is $h=\sqrt{169-d^2}$.
+
+We get the equation $\sqrt{169-d^2}=d+7$, with $d+7>0$. Squaring both sides:
+$$\begin{aligned}169-d^2&=d^2+14d+49\\ 2d^2+14d-120&=0\\ d^2+7d-60&=0\\ (d-5)(d+12)&=0.\end{aligned}$$
+Hence $d=5$ or $d=-12$.
+
+A distance is positive, so $d=-12$ is rejected and $d=5$ is accepted. Then $h=5+7=12$.
+
+Check: $\sqrt{169-25}=\sqrt{144}=12=5+7$, and $5^2+12^2=25+144=169=13^2$.
+
+So the top of the ladder is $12$ m high.
 
 **Answer.** $12$.
 :::
@@ -310,7 +373,18 @@ A $12$ m antenna mast stands vertically. A guy wire joins the top of the mast to
 2. Square; the $x^2$ terms cancel.
 
 ::solution
-We have $\sqrt{x^2+144}=x+8$ with $x>0$. Squaring: $x^2+144=x^2+16x+64\iff 16x=80\iff x=5$. The wire is $5+8=13$ m long. Check: $\sqrt{25+144}=\sqrt{169}=13$.
+Let $x$ (m) be the distance from the foot of the mast to the point on the ground where the wire ends, $x>0$.
+
+The mast is vertical, so the mast, the ground and the wire form a right triangle whose legs are $12$ m and $x$ m. By Pythagoras' theorem, the length of the wire is $\sqrt{x^2+144}$.
+
+The wire is exactly $8$ m longer than $x$, so we get the equation $\sqrt{x^2+144}=x+8$, with $x+8>0$. Squaring both sides:
+$$\begin{aligned}x^2+144&=x^2+16x+64\\ 16x&=80\\ x&=5.\end{aligned}$$
+
+Checking the condition: $x=5>0$, so it is accepted. The length of the wire is $x+8=5+8=13$ m.
+
+Check: $\sqrt{25+144}=\sqrt{169}=13=5+8$.
+
+So $x=5$ m, and the wire is $13$ m long.
 
 **Answer.** $x=5$ m, and the wire is $13$ m long.
 :::
@@ -327,7 +401,17 @@ Solve $\sqrt{2x^2-3x-5}=x-1$.
 3. Choose the solution and check it.
 
 ::solution
-We need $x\ge 1$. Squaring: $2x^2-3x-5=x^2-2x+1\iff x^2-x-6=0\iff x=3$ or $x=-2$. Only $x=3$ meets the condition. Check: $\sqrt{18-9-5}=\sqrt4=2=3-1$.
+The left-hand side $\sqrt{2x^2-3x-5}$ is non-negative, so the right-hand side must be non-negative: $x-1\ge0$, that is $x\ge1$.
+
+Squaring both sides gives
+$$\begin{aligned}2x^2-3x-5&=x^2-2x+1\\ x^2-x-6&=0\\ (x-3)(x+2)&=0.\end{aligned}$$
+Hence $x=3$ or $x=-2$.
+
+Checking the condition $x\ge1$: $x=-2$ is rejected; $x=3$ is accepted.
+
+Check: for $x=3$, $2\cdot9-9-5=4\ge0$ and $\sqrt4=2=3-1$.
+
+So the solution set is $S=\{3\}$.
 
 **Answer.** $S=\{3\}$.
 :::
@@ -347,9 +431,23 @@ b) Solve the equation.
 2. Square, solve, keep the solutions in that set.
 
 ::solution
-a) $x^2-3x\ge 0\iff x\le 0$ or $x\ge 3$ (outside the roots, since $a=1>0$). $2x-4\ge 0\iff x\ge 2$. The common part is $x\ge 3$.
+a) Both square roots are defined when $x^2-3x\ge0$ and $2x-4\ge0$.
 
-b) Squaring: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ or $x=4$. Only $x=4$ satisfies $x\ge 3$; then both sides equal $\sqrt4=2$.
+The quadratic $x^2-3x=x(x-3)$ has two roots $x=0$ and $x=3$, and $a=1>0$. By the sign rule for quadratic expressions, $x^2-3x\ge0$ when $x$ lies outside the interval between the roots, that is $x\le0$ or $x\ge3$.
+
+Also, $2x-4\ge0\iff x\ge2$.
+
+The common part of the two conditions is $x\ge3$ (no $x$ satisfies both $x\le0$ and $x\ge2$). So the set of $x$ for which both square roots are defined is $[3, +\infty)$.
+
+b) Squaring both sides (with $x\ge3$) gives
+$$\begin{aligned}x^2-3x&=2x-4\\ x^2-5x+4&=0\\ (x-1)(x-4)&=0.\end{aligned}$$
+Hence $x=1$ or $x=4$.
+
+Checking the condition $x\ge3$: $x=1$ is rejected; $x=4$ is accepted.
+
+Check: for $x=4$, $x^2-3x=4$ and $2x-4=4$, so both sides equal $\sqrt4=2$.
+
+So the solution set is $S=\{4\}$.
 
 **Answer.** a) $[3, +\infty)$; b) $S=\{4\}$.
 :::

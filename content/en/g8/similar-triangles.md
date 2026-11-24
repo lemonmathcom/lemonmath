@@ -191,7 +191,11 @@ Let $\triangle DEF\sim\triangle ABC$ with scale factor $k=3$ and $AB=2$, $BC=4$,
 2. Multiply each side by $k$.
 
 ::solution
-Since $D$, $E$, $F$ correspond to $A$, $B$, $C$, we have $DE=3\cdot2=6$, $EF=3\cdot4=12$, $FD=3\cdot5=15$.
+Since $\triangle DEF\sim\triangle ABC$ with scale factor $k=3$ and the vertices $D$, $E$, $F$ correspond to $A$, $B$, $C$, the corresponding sides are proportional:
+$$\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}=k=3.$$
+
+Substituting the values, we get
+$$DE=3\cdot AB=3\cdot2=6,\qquad EF=3\cdot BC=3\cdot4=12,\qquad FD=3\cdot CA=3\cdot5=15.$$
 
 So $DE=6$, $EF=12$, $FD=15$.
 
@@ -209,7 +213,15 @@ Let $\triangle ABC\sim\triangle A'B'C'$ with $AB=5$, $BC=8$, $CA=10$ and $A'B'=1
 2. Multiply $BC$ and $CA$ by $k$.
 
 ::solution
-We have $k=\dfrac{15}{5}=3$. Hence $B'C'=3\cdot8=24$ and $C'A'=3\cdot10=30$. The ratio of the perimeters is $k=3$: the perimeter of $\triangle ABC$ is $23$ and that of $\triangle A'B'C'$ is $15+24+30=69=3\cdot23$.
+Since $\triangle ABC\sim\triangle A'B'C'$, the corresponding sides are proportional. The scale factor of $\triangle A'B'C'$ to $\triangle ABC$ is
+$$k=\frac{A'B'}{AB}=\frac{15}{5}=3.$$
+
+The other sides of $\triangle A'B'C'$ are
+$$B'C'=k\cdot BC=3\cdot8=24,\qquad C'A'=k\cdot CA=3\cdot10=30.$$
+
+The ratio of the perimeters equals the scale factor, so it is $k=3$. Check: the perimeter of $\triangle ABC$ is $5+8+10=23$ and that of $\triangle A'B'C'$ is $15+24+30=69=3\cdot23$.
+
+So the scale factor is $3$, the other sides are $B'C'=24$ and $C'A'=30$, and the perimeter ratio is $3$.
 
 **Answer.** $k=3$; $24$; $30$; perimeter ratio $3$.
 :::
@@ -225,7 +237,16 @@ Let $\triangle ABC$ have $AB=4$, $BC=6$, $CA=8$ and let $\triangle A'B'C'$ have 
 2. Work out the two perimeters.
 
 ::solution
-We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac{12}{8}=\dfrac32$ and the corresponding angles are equal, so $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. The perimeter of $\triangle ABC$ is $18$ and that of $\triangle A'B'C'$ is $27=\dfrac32\cdot18$.
+Consider the ratios of the corresponding sides of the two triangles:
+$$\frac{A'B'}{AB}=\frac64=\frac32,\qquad \frac{B'C'}{BC}=\frac96=\frac32,\qquad \frac{C'A'}{CA}=\frac{12}{8}=\frac32.$$
+
+The three ratios are equal and the corresponding angles are equal (given), so $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$.
+
+Comparing the perimeters. The perimeter of $\triangle ABC$ is $4+6+8=18$ and that of $\triangle A'B'C'$ is $6+9+12=27$. We have
+$$\frac{27}{18}=\frac32,$$
+that is, the ratio of the perimeters equals the scale factor ($27=\dfrac32\cdot18$).
+
+So the triangles are similar with scale factor $\dfrac32$; their perimeters are $18$ and $27$.
 
 **Answer.** Similar, scale factor $\dfrac32$; perimeters $18$ and $27$.
 :::
@@ -241,9 +262,23 @@ In $\triangle ABC$, $M\in AB$ and $N\in AC$ with $MN\parallel BC$. Given $AM=6$,
 2. Use $k$ to find $AC$, then $NC$ and $MN$.
 
 ::solution
-We have $AB=6+4=10$, so $k=\dfrac{6}{10}=\dfrac35$. Since $\dfrac{AN}{AC}=\dfrac35$, $AC=\dfrac{9}{3/5}=15$, so $NC=15-9=6$. We have $MN=\dfrac35\cdot20=12$.
+Since $M\in AB$ and $N\in AC$ (with $M$, $N$ between the endpoints), $AB=AM+MB=6+4=10$.
 
-Check: $\dfrac{AM}{AB}=\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+Since $MN\parallel BC$, we have $\triangle AMN\sim\triangle ABC$ with ratio
+$$k=\frac{AM}{AB}=\frac{6}{10}=\frac35.$$
+
+Hence $\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+
+Finding $AC$ and $NC$. From $\dfrac{AN}{AC}=\dfrac35$ and $AN=9$ we get
+$$AC=\frac{9}{3/5}=15.$$
+So $NC=AC-AN=15-9=6$.
+
+Finding $MN$. From $\dfrac{MN}{BC}=\dfrac35$ and $BC=20$ we get
+$$MN=\frac35\cdot20=12.$$
+
+Check: $\dfrac{AM}{AB}=\dfrac{6}{10}$, $\dfrac{AN}{AC}=\dfrac{9}{15}$, $\dfrac{MN}{BC}=\dfrac{12}{20}$ are all equal to $\dfrac35$.
+
+So $NC=6$, $AC=15$ and $MN=12$.
 
 **Answer.** $NC=6$; $AC=15$; $MN=12$.
 :::
@@ -259,7 +294,14 @@ A flagpole casts a shadow $12$ m long on the ground. At the same moment an uprig
 2. Solve for the height.
 
 ::solution
-Let $h$ be the height of the flagpole (m). We have $\dfrac{h}{1}=\dfrac{12}{0.8}$, so $h=15$.
+Let $h$ m be the height of the flagpole, $h>0$.
+
+At the same moment the sun's rays are parallel, so they make the same acute angle with the ground; the flagpole and the metre rule are both perpendicular to the ground. Hence the triangle formed by the flagpole, its shadow and the ray is similar to the triangle formed by the metre rule, its shadow and the ray (two right-angled triangles with an equal acute angle).
+
+Corresponding sides are proportional, so
+$$\frac{h}{1}=\frac{12}{0.8}.$$
+
+Hence $h=\dfrac{12}{0.8}=15$.
 
 Check: $\dfrac{15}{12}=\dfrac{1}{0.8}=1.25$.
 
@@ -295,7 +337,18 @@ In $\triangle ABC$, right-angled at $A$, $AB=6$ and $AC=8$. The point $M\in AB$ 
 2. Find $k=\dfrac{AM}{AB}$, then $AN$ and $MN$.
 
 ::solution
-By Pythagoras' theorem, $BC=\sqrt{6^2+8^2}=10$. Since $MN\parallel BC$, $\triangle AMN\sim\triangle ABC$ with $k=\dfrac{3}{6}=\dfrac12$. Hence $AN=\dfrac12\cdot8=4$ and $MN=\dfrac12\cdot10=5$.
+Finding $BC$. By Pythagoras' theorem in triangle $ABC$, right-angled at $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Since $M\in AB$, $N\in AC$ and $MN\parallel BC$, we have $\triangle AMN\sim\triangle ABC$ with ratio
+$$k=\frac{AM}{AB}=\frac36=\frac12.$$
+
+Hence $\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac12$, which gives
+$$AN=\frac12\cdot AC=\frac12\cdot8=4,\qquad MN=\frac12\cdot BC=\frac12\cdot10=5.$$
+
+Check: triangle $AMN$ is right-angled at $A$, so $MN=\sqrt{3^2+4^2}=5$.
+
+So $AN=4$ and $MN=5$.
 
 **Answer.** $AN=4$; $MN=5$.
 :::
@@ -311,9 +364,18 @@ $\triangle A'B'C'\sim\triangle ABC$ with scale factor $2$ and $\triangle A''B''C
 2. Use it to find $A''B''$.
 
 ::solution
-The scale factor of $\triangle A''B''C''$ to $\triangle ABC$ is $2\cdot3=6$. When $AB=5$, $A''B''=6\cdot5=30$.
+From $\triangle A'B'C'\sim\triangle ABC$ with scale factor $2$ we have $\dfrac{A'B'}{AB}=\dfrac{B'C'}{BC}=\dfrac{C'A'}{CA}=2$. From $\triangle A''B''C''\sim\triangle A'B'C'$ with scale factor $3$ we have $\dfrac{A''B''}{A'B'}=\dfrac{B''C''}{B'C'}=\dfrac{C''A''}{C'A'}=3$.
+
+Multiplying the equalities for corresponding sides:
+$$\frac{A''B''}{AB}=\frac{A''B''}{A'B'}\cdot\frac{A'B'}{AB}=3\cdot2=6,$$
+and similarly $\dfrac{B''C''}{BC}=\dfrac{C''A''}{CA}=6$. The angles of $\triangle A''B''C''$ equal those of $\triangle A'B'C'$, which equal those of $\triangle ABC$. Hence $\triangle A''B''C''\sim\triangle ABC$ with scale factor $2\cdot3=6$.
+
+When $AB=5$,
+$$A''B''=6\cdot AB=6\cdot5=30.$$
 
 Check step by step: $A'B'=2\cdot5=10$ and $A''B''=3\cdot10=30$.
+
+So the scale factor of $\triangle A''B''C''$ to $\triangle ABC$ is $6$, and $A''B''=30$ when $AB=5$.
 
 **Answer.** $6$; $A''B''=30$.
 :::
@@ -329,7 +391,16 @@ A triangular photograph with sides $6$ cm, $8$ cm, $10$ cm is enlarged to a post
 2. Multiply the other sides.
 
 ::solution
-The enlargement factor is $k=\dfrac{15}{6}=2.5$. The sides of the poster are $15$ cm, $2.5\cdot8=20$ cm, $2.5\cdot10=25$ cm. The perimeter of the photograph is $24$ cm, that of the poster is $60$ cm and $60\div24=2.5$.
+The photograph and the poster are similar triangles. The shortest side of the photograph, $6$ cm, corresponds to the shortest side of the poster, $15$ cm, so the enlargement factor is
+$$k=\frac{15}{6}=2.5.$$
+
+The sides of the poster are
+$$15\ \text{cm},\qquad 2.5\cdot8=20\ \text{cm},\qquad 2.5\cdot10=25\ \text{cm}.$$
+
+The perimeter of the photograph is $6+8+10=24$ cm and that of the poster is $15+20+25=60$ cm. The ratio of the perimeters is
+$$\frac{60}{24}=2.5=k.$$
+
+So the sides of the poster are $15$ cm, $20$ cm, $25$ cm and the perimeter ratio is $2.5$.
 
 **Answer.** $15$ cm, $20$ cm, $25$ cm; perimeter ratio $2.5$.
 :::

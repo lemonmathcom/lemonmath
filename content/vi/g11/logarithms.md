@@ -281,11 +281,15 @@ c) $\lg(x^2-4)$.
 2. Giải bất phương trình nhận được (ở câu c, xét dấu tích $(x-2)(x+2)$).
 
 ::solution
-a) Cần $x-2>0$, tức $x>2$.
+Biểu thức $\log_a b$ (với cơ số $a>0$, $a\neq1$) có nghĩa khi và chỉ khi $b>0$. Các cơ số $3$, $2$, $10$ ở đây đều thoả mãn điều kiện của cơ số.
 
-b) Cần $5-x>0$, tức $x<5$.
+a) Biểu thức $\log_3(x-2)$ có nghĩa khi $x-2>0$, suy ra $x>2$.
 
-c) Cần $x^2-4>0\Leftrightarrow(x-2)(x+2)>0$, tức $x<-2$ hoặc $x>2$.
+b) Biểu thức $\log_2(5-x)$ có nghĩa khi $5-x>0$, suy ra $x<5$.
+
+c) Biểu thức $\lg(x^2-4)$ có nghĩa khi $x^2-4>0$. Phân tích thành nhân tử:
+$$x^2-4=(x-2)(x+2)>0.$$
+Tích hai thừa số dương khi chúng cùng dấu. Nếu cả hai cùng dương thì $x>2$; nếu cả hai cùng âm thì $x<-2$. Do đó $x<-2$ hoặc $x>2$.
 
 Vậy a) $x>2$; b) $x<5$; c) $x\in(-\infty; -2)\cup(2; +\infty)$.
 
@@ -309,11 +313,15 @@ c) $\log_432$.
 2. Ở câu c: đặt $x=\log_432$ rồi giải $4^x=32$.
 
 ::solution
-a) Ta có $4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9$.
+Áp dụng các công thức $\left(a^m\right)^n=a^{mn}$ và $a^{\log_a b}=b$ (với $a>0$, $a\neq1$, $b>0$).
 
-b) Ta có $8^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125$.
+a) Ta có $4=2^2$ nên
+$$4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9.$$
 
-c) Từ $4^x=32$ ta có $2^{2x}=2^5$, suy ra $x=\dfrac52$.
+b) Ta có $8=2^3$ nên
+$$8^{\log_25}=\left(2^3\right)^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125.$$
+
+c) Đặt $x=\log_432$. Theo định nghĩa lôgarit, $4^x=32$. Viết hai vế dưới dạng luỹ thừa cơ số $2$: $2^{2x}=2^5$. Suy ra $2x=5$, do đó $x=\dfrac52$.
 
 Vậy a) $9$; b) $125$; c) $\dfrac52$.
 
@@ -337,11 +345,18 @@ c) $\log_212-2\log_23+\log_26$.
 2. Tính giá trị của biểu thức trong dấu lôgarit.
 
 ::solution
-a) Ta có $\log_64+\log_69=\log_636=2$.
+Áp dụng các công thức (với các cơ số và các số dương thích hợp):
+$$\log_a M+\log_a N=\log_a(MN),\qquad \log_a M-\log_a N=\log_a\frac MN,\qquad k\log_a M=\log_a M^k.$$
 
-b) Ta có $\log_354-\log_32=\log_327=3$.
+a) Ta có $\log_64+\log_69=\log_6(4\cdot9)=\log_636=\log_66^2=2$.
 
-c) Ta có $\log_212-2\log_23+\log_26=\log_2\dfrac{12\cdot6}{3^2}=\log_28=3$.
+b) Ta có $\log_354-\log_32=\log_3\dfrac{54}{2}=\log_327=\log_33^3=3$.
+
+c) Trước hết $2\log_23=\log_23^2$. Do đó
+$$\begin{aligned}
+\log_212-2\log_23+\log_26&=\log_212-\log_23^2+\log_26\\
+&=\log_2\frac{12\cdot6}{3^2}=\log_28=\log_22^3=3.
+\end{aligned}$$
 
 Vậy a) $2$; b) $3$; c) $3$.
 
@@ -363,9 +378,15 @@ b) Một dung dịch có $\mathrm{pH}=6{,}5$. Tìm $[\mathrm{H}^+]$, viết dư�
 2. b) Viết $10^{-6{,}5}=10^{0{,}5}\cdot10^{-7}$.
 
 ::solution
-a) Ta có $\mathrm{pH}=-(\lg2-4)=4-\lg2\approx4-0{,}3010=3{,}70$.
+Độ pH được tính bằng công thức $\mathrm{pH}=-\lg[\mathrm{H}^+]$, trong đó $[\mathrm{H}^+]$ tính bằng mol/lít.
 
-b) Ta có $[\mathrm{H}^+]=10^{-6{,}5}=10^{0{,}5}\cdot10^{-7}\approx3{,}2\cdot10^{-7}$.
+a) Với $[\mathrm{H}^+]=2\cdot10^{-4}$, ta có
+$$\mathrm{pH}=-\lg\left(2\cdot10^{-4}\right)=-\left(\lg2+\lg10^{-4}\right)=-(\lg2-4)=4-\lg2.$$
+Dùng máy tính, $\lg2\approx0{,}3010$, nên $\mathrm{pH}\approx4-0{,}3010=3{,}699\approx3{,}70$ (làm tròn đến hàng phần trăm).
+
+b) Với $\mathrm{pH}=6{,}5$, từ $-\lg[\mathrm{H}^+]=6{,}5$ ta có $\lg[\mathrm{H}^+]=-6{,}5$, suy ra
+$$[\mathrm{H}^+]=10^{-6{,}5}=10^{0{,}5}\cdot10^{-7}.$$
+Dùng máy tính, $10^{0{,}5}=\sqrt{10}\approx3{,}16\approx3{,}2$ (làm tròn đến hàng phần mười), nên $[\mathrm{H}^+]\approx3{,}2\cdot10^{-7}$.
 
 Vậy a) $\mathrm{pH}\approx3{,}70$; b) $[\mathrm{H}^+]\approx3{,}2\cdot10^{-7}$ mol/lít.
 
@@ -415,13 +436,15 @@ d) $\log_35\cdot\log_53=1$.
 2. b) Tính hai vế riêng; d) dùng $\log_ab=\dfrac{1}{\log_ba}$.
 
 ::solution
-a) **Đúng**: $2^3=8$.
+a) **Đúng.** Theo định nghĩa, $\log_28=3$ khi và chỉ khi $2^3=8$, mà đẳng thức này đúng.
 
-b) **Sai**: vế trái bằng $\log_28=3$, vế phải bằng $2+2=4$.
+b) **Sai.** Vế trái là $\log_2(4+4)=\log_28=3$. Vế phải là $\log_24+\log_24=2+2=4$. Vì $3\neq4$ nên đẳng thức sai.
 
-c) **Sai**: $\left(\dfrac12\right)^2=\dfrac14\neq4$; thực ra $\log_{1/2}4=-2$.
+c) **Sai.** Nếu $\log_{1/2}4=2$ thì $\left(\dfrac12\right)^2=4$, nhưng $\left(\dfrac12\right)^2=\dfrac14\neq4$. Thực ra $4=\left(\dfrac12\right)^{-2}$ nên $\log_{1/2}4=-2$.
 
-d) **Đúng**: $\log_35=\dfrac{1}{\log_53}$ nên tích bằng $1$.
+d) **Đúng.** Theo công thức đổi cơ số, $\log_35=\dfrac{1}{\log_53}$ (với $\log_53\neq0$). Do đó $\log_35\cdot\log_53=1$.
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -437,7 +460,12 @@ Dùng máy tính cầm tay, tính $\log_23$ (làm tròn đến hàng phần tră
 2. Bấm máy rồi làm tròn.
 
 ::solution
-Ta có $\log_23=\dfrac{\ln3}{\ln2}\approx\dfrac{1{,}0986}{0{,}6931}\approx1{,}585$.
+Máy tính cầm tay thường chỉ có phím $\ln$ và $\lg$, nên ta dùng công thức đổi cơ số $\log_ab=\dfrac{\ln b}{\ln a}$.
+
+Ta có
+$$\log_23=\frac{\ln3}{\ln2}\approx\frac{1{,}0986}{0{,}6931}\approx1{,}585.$$
+
+Làm tròn đến hàng phần trăm, ta được $\log_23\approx1{,}58$.
 
 Vậy $\log_23\approx1{,}58$.
 
@@ -459,9 +487,15 @@ b) $\log_a\dfrac{a}{\sqrt[3]{a}}$.
 2. Đọc số mũ $r$.
 
 ::solution
-a) Ta có $a^2\sqrt a=a^{2+\frac12}=a^{5/2}$, nên $\log_a\left(a^2\sqrt a\right)=\dfrac52$.
+Với $a>0$, $a\neq1$, ta dùng $\sqrt a=a^{\frac12}$, $\sqrt[3]a=a^{\frac13}$, $a^m\cdot a^n=a^{m+n}$, $\dfrac{a^m}{a^n}=a^{m-n}$ và $\log_aa^\alpha=\alpha$.
 
-b) Ta có $\dfrac{a}{\sqrt[3]{a}}=a^{1-\frac13}=a^{2/3}$, nên $\log_a\dfrac{a}{\sqrt[3]a}=\dfrac23$.
+a) Ta có
+$$a^2\sqrt a=a^2\cdot a^{\frac12}=a^{2+\frac12}=a^{\frac52}.$$
+Do đó $\log_a\left(a^2\sqrt a\right)=\log_aa^{\frac52}=\dfrac52$.
+
+b) Ta có
+$$\frac{a}{\sqrt[3]a}=\frac{a^1}{a^{\frac13}}=a^{1-\frac13}=a^{\frac23}.$$
+Do đó $\log_a\dfrac{a}{\sqrt[3]a}=\log_aa^{\frac23}=\dfrac23$.
 
 Vậy a) $\dfrac52$; b) $\dfrac23$.
 

@@ -218,17 +218,19 @@ e) Cũng túi đó, lấy một bi: được bi đỏ hoặc bi xanh.
 3. Ở d) và e), túi có những màu bi nào?
 
 ::solution
-Ta xét từng biến cố xem nó xảy ra với mọi kết quả, không kết quả nào hay một số kết quả.
+Ta xét từng biến cố xem nó xảy ra với mọi kết quả (chắc chắn), không xảy ra với kết quả nào (không thể), hay chỉ xảy ra với một số kết quả (ngẫu nhiên).
 
-a) Hộp chỉ có thẻ xanh nên thẻ rút ra luôn xanh: chắc chắn.
+a) Hộp chỉ có thẻ xanh nên mọi thẻ rút ra đều xanh. Biến cố này luôn xảy ra: chắc chắn.
 
-b) Đồng xu có thể ra sấp hoặc ngửa: ngẫu nhiên.
+b) Đồng xu có thể xuất hiện mặt sấp hoặc mặt ngửa, ta không biết trước kết quả. Biến cố này có thể xảy ra, có thể không: ngẫu nhiên.
 
-c) Xúc xắc không có mặt $0$ chấm: không thể.
+c) Con xúc xắc chỉ có các mặt từ $1$ đến $6$ chấm, không có mặt $0$ chấm. Biến cố này không bao giờ xảy ra: không thể.
 
-d) Túi không có bi vàng: không thể.
+d) Túi chỉ có bi đỏ và bi xanh, không có bi vàng nên không thể lấy được bi vàng: không thể.
 
-e) Túi chỉ có bi đỏ và bi xanh nên bi lấy ra luôn thuộc hai màu đó: chắc chắn.
+e) Túi chỉ có bi đỏ và bi xanh nên bi lấy ra luôn thuộc một trong hai màu đó. Biến cố này luôn xảy ra: chắc chắn.
+
+Vậy a) chắc chắn; b) ngẫu nhiên; c) không thể; d) không thể; e) chắc chắn.
 
 **Đáp số.** a) chắc chắn; b) ngẫu nhiên; c) không thể; d) không thể; e) chắc chắn.
 :::
@@ -251,13 +253,23 @@ c) $C$: "số chấm chia hết cho $7$".
 3. Ở c), có số nào trong $1$ đến $6$ chia hết cho $7$ không?
 
 ::solution
-Có $6$ kết quả đồng khả năng: $1$, $2$, $3$, $4$, $5$, $6$.
+Gieo một con xúc xắc cân đối có $6$ kết quả đồng khả năng: $1$, $2$, $3$, $4$, $5$, $6$.
 
-a) Các số nguyên tố là $2$, $3$, $5$ ($3$ kết quả), nên $P(A)=\dfrac36=\dfrac12$.
+Xác suất của biến cố bằng số kết quả thuận lợi chia cho tổng số kết quả có thể.
 
-b) Các số thoả mãn là $3$, $4$, $5$ ($3$ kết quả), nên $P(B)=\dfrac36=\dfrac12$.
+a) Các số nguyên tố trong các kết quả trên là $2$, $3$, $5$. Có $3$ kết quả thuận lợi cho $A$.
 
-c) Không số nào trong $1$ đến $6$ chia hết cho $7$, nên $C$ là biến cố không thể và $P(C)=0$.
+Do đó $P(A)=\dfrac36=\dfrac12$.
+
+b) Các số lớn hơn $2$ và nhỏ hơn $6$ là $3$, $4$, $5$. Có $3$ kết quả thuận lợi cho $B$.
+
+Do đó $P(B)=\dfrac36=\dfrac12$.
+
+c) Không có số nào từ $1$ đến $6$ chia hết cho $7$, nên không có kết quả thuận lợi cho $C$. Biến cố $C$ là biến cố không thể.
+
+Do đó $P(C)=\dfrac06=0$.
+
+Vậy $P(A)=\dfrac12$; $P(B)=\dfrac12$; $P(C)=0$.
 
 **Đáp số.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
 :::
@@ -274,15 +286,18 @@ Một hộp có $12$ thẻ giống hệt nhau, đánh số từ $1$ đến $12$.
 3. So sánh hai số kết quả thuận lợi.
 
 ::solution
-Có $12$ kết quả đồng khả năng.
+Rút ngẫu nhiên một thẻ trong $12$ thẻ giống hệt nhau nên có $12$ kết quả đồng khả năng: $1$, $2$, $\dots$, $12$.
 
-Thẻ chia hết cho $3$ là $3$, $6$, $9$, $12$ ($4$ kết quả), nên xác suất là $\dfrac{4}{12}=\dfrac13$.
+Biến cố "thẻ số chia hết cho $3$": các thẻ thoả mãn là $3$, $6$, $9$, $12$, có $4$ kết quả thuận lợi. Do đó xác suất là
+$$\frac{4}{12}=\frac13.$$
 
-Thẻ nguyên tố là $2$, $3$, $5$, $7$, $11$ ($5$ kết quả), nên xác suất là $\dfrac{5}{12}$.
+Biến cố "thẻ số nguyên tố": các thẻ thoả mãn là $2$, $3$, $5$, $7$, $11$, có $5$ kết quả thuận lợi. Do đó xác suất là $\dfrac{5}{12}$.
 
-Không có thẻ nào lớn hơn $12$, nên xác suất của biến cố thứ ba là $0$.
+Biến cố "thẻ số lớn hơn $12$": các thẻ đều mang số không vượt quá $12$, nên không có kết quả thuận lợi. Đây là biến cố không thể, xác suất bằng $0$.
 
-Vì $\dfrac{5}{12}>\dfrac{4}{12}$ nên biến cố "thẻ số nguyên tố" dễ xảy ra hơn.
+So sánh hai biến cố đầu: $\dfrac{4}{12}<\dfrac{5}{12}$, tức là $\dfrac13<\dfrac{5}{12}$.
+
+Vậy xác suất của ba biến cố lần lượt là $\dfrac13$; $\dfrac{5}{12}$; $0$, và biến cố "thẻ số nguyên tố" dễ xảy ra hơn biến cố "thẻ số chia hết cho $3$".
 
 **Đáp số.** $\dfrac13$; $\dfrac{5}{12}$; $0$; biến cố "nguyên tố" dễ xảy ra hơn.
 :::
@@ -305,13 +320,16 @@ c) Màu bi nào có khả năng được lấy ra cao nhất?
 3. Ở c), so sánh số bi của từng màu.
 
 ::solution
-Tổng số bi là $4+3+2+1=10$, nên có $10$ kết quả đồng khả năng.
+Tổng số bi trong túi là $4+3+2+1=10$. Các viên bi giống hệt nhau về kích thước nên lấy ngẫu nhiên một viên có $10$ kết quả đồng khả năng.
 
-a) Có $4$ bi đỏ nên xác suất là $\dfrac{4}{10}=\dfrac25$.
+a) Có $4$ bi đỏ nên có $4$ kết quả thuận lợi. Do đó xác suất lấy được bi đỏ là
+$$\frac{4}{10}=\frac25.$$
 
-b) Số bi không phải màu xanh là $10-3=7$, nên xác suất là $\dfrac{7}{10}$.
+b) Số bi không phải màu xanh là $10-3=7$. Do đó xác suất lấy được bi không phải màu xanh là $\dfrac{7}{10}$.
 
-c) Màu đỏ có nhiều bi nhất ($4$ bi) nên có khả năng được lấy ra cao nhất.
+c) Số bi mỗi màu là: đỏ $4$, xanh $3$, vàng $2$, trắng $1$. Màu đỏ có nhiều bi nhất nên xác suất lấy được bi đỏ là lớn nhất.
+
+Vậy xác suất lấy được bi đỏ là $\dfrac25$, xác suất lấy được bi không phải màu xanh là $\dfrac{7}{10}$, và màu đỏ có khả năng được lấy ra cao nhất.
 
 **Đáp số.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) màu đỏ.
 :::
@@ -353,15 +371,20 @@ Lan và Minh chơi rút một thẻ từ hộp $10$ thẻ giống hệt nhau, đ
 3. Tìm luật mới của Minh có $5$ thẻ thuận lợi.
 
 ::solution
-Có $10$ kết quả đồng khả năng.
+Rút một thẻ trong $10$ thẻ giống hệt nhau nên có $10$ kết quả đồng khả năng: $1$, $2$, $\dots$, $10$.
 
-Lan thắng với các thẻ $1$, $3$, $5$, $7$, $9$ ($5$ kết quả), nên xác suất là $\dfrac{5}{10}=\dfrac12$.
+Lan thắng khi rút được thẻ số lẻ, tức là các thẻ $1$, $3$, $5$, $7$, $9$. Có $5$ kết quả thuận lợi, nên xác suất Lan thắng là
+$$\frac{5}{10}=\frac12.$$
 
-Minh thắng với các thẻ $8$, $9$, $10$ ($3$ kết quả), nên xác suất là $\dfrac{3}{10}$.
+Minh thắng khi rút được thẻ số lớn hơn $7$, tức là các thẻ $8$, $9$, $10$. Có $3$ kết quả thuận lợi, nên xác suất Minh thắng là $\dfrac{3}{10}$.
 
 Vì $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$ nên Lan có lợi hơn.
 
-Nếu Minh thắng khi thẻ "lớn hơn $5$" (các thẻ $6$, $7$, $8$, $9$, $10$) thì xác suất là $\dfrac{5}{10}=\dfrac12$, trò chơi công bằng.
+Để trò chơi công bằng, xác suất Minh thắng phải bằng $\dfrac{5}{10}=\dfrac12$, tức là cần $5$ thẻ thuận lợi. Nếu Minh thắng khi rút được thẻ số lớn hơn $5$ (các thẻ $6$, $7$, $8$, $9$, $10$) thì có $5$ kết quả thuận lợi và xác suất Minh thắng là $\dfrac{5}{10}=\dfrac12$.
+
+Khi đó hai bạn có xác suất thắng bằng nhau.
+
+Vậy Lan có lợi hơn; nếu sửa luật của Minh thành "rút được thẻ số lớn hơn $5$" thì trò chơi công bằng.
 
 **Đáp số.** Lan có lợi hơn; đổi luật của Minh thành "thẻ lớn hơn $5$".
 :::
@@ -378,13 +401,17 @@ Lớp 7A có $40$ học sinh, gồm $24$ bạn nữ và $16$ bạn nam. Cô giá
 3. Đổi phân số sang phần trăm bằng cách đưa về mẫu $100$.
 
 ::solution
-Có $40$ kết quả đồng khả năng.
+Lớp có $40$ học sinh và chọn ngẫu nhiên một bạn nên có $40$ kết quả đồng khả năng.
 
-Xác suất chọn được bạn nữ là $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+Có $24$ bạn nữ nên xác suất chọn được bạn nữ là
+$$\frac{24}{40}=\frac35=\frac{60}{100}=60\%.$$
 
-Xác suất chọn được bạn nam là $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+Có $16$ bạn nam nên xác suất chọn được bạn nam là
+$$\frac{16}{40}=\frac25=\frac{40}{100}=40\%.$$
 
 Kiểm tra: $60\%+40\%=100\%$, vì bạn được chọn chắc chắn là nữ hoặc nam.
+
+Vậy xác suất chọn được bạn nữ là $\dfrac35=60\%$ và xác suất chọn được bạn nam là $\dfrac25=40\%$.
 
 **Đáp số.** Nữ: $\dfrac35=60\%$; nam: $\dfrac25=40\%$.
 :::
@@ -405,11 +432,23 @@ b) Xác suất không trúng giải là bao nhiêu?
 3. Số ô "Không giải" là phần còn lại của $10$ ô.
 
 ::solution
-a) Xác suất $\dfrac{1}{10}$ ứng với $1$ ô. Xác suất $\dfrac15=\dfrac{2}{10}$ ứng với $2$ ô. Xác suất $\dfrac{3}{10}$ ứng với $3$ ô. Số ô "Không giải" là $10-1-2-3=4$.
+Vòng quay có $10$ ô bằng nhau nên xác suất trúng một loại giải bằng số ô của loại đó chia cho $10$.
 
-b) Xác suất không trúng giải là $\dfrac{4}{10}=\dfrac25$.
+a) Xác suất trúng Giải nhất là $\dfrac{1}{10}$, nên cần $1$ ô Giải nhất.
+
+Xác suất trúng Giải nhì là $\dfrac15=\dfrac{2}{10}$, nên cần $2$ ô Giải nhì.
+
+Xác suất trúng Giải ba là $\dfrac{3}{10}$, nên cần $3$ ô Giải ba.
+
+Số ô "Không giải" là
+$$10-1-2-3=4.$$
+
+b) Có $4$ ô "Không giải" trong $10$ ô, nên xác suất không trúng giải là
+$$\frac{4}{10}=\frac25.$$
 
 Kiểm tra: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+Vậy cần $1$ ô Giải nhất, $2$ ô Giải nhì, $3$ ô Giải ba, $4$ ô "Không giải"; xác suất không trúng giải là $\dfrac25$.
 
 **Đáp số.** a) Giải nhất $1$ ô, Giải nhì $2$ ô, Giải ba $3$ ô, Không giải $4$ ô. b) $\dfrac25$.
 :::

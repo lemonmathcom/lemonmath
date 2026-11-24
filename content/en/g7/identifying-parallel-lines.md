@@ -344,11 +344,21 @@ c) $\angle A_4$ and $\angle B_5$ are ... angles.
 2. Then decide whether the angles are on the same side or opposite sides of $c$.
 
 ::solution
-a) $\angle A_3$ and $\angle B_5$ both lie between $a$ and $b$ on opposite sides of $c$, so they are alternate angles.
+Recall how the pairs of angles formed by the line $c$ crossing $a$ and $b$ are recognised: alternate angles both lie between $a$ and $b$ on opposite sides of $c$; corresponding angles lie on the same side of $c$, one between $a$ and $b$ and the other outside; co-interior angles both lie between $a$ and $b$ on the same side of $c$.
 
-b) $\angle A_2$ is outside, $\angle B_6$ is between $a$ and $b$, and both are to the right of $c$, so they are corresponding angles.
+a) The angles $\angle A_3$ and $\angle B_5$ both lie between $a$ and $b$, on opposite sides of $c$.
 
-c) $\angle A_4$ and $\angle B_5$ both lie between $a$ and $b$ and both to the left of $c$, so they are co-interior angles.
+Hence $\angle A_3$ and $\angle B_5$ are alternate angles.
+
+b) The angle $\angle A_2$ is outside (not between $a$ and $b$), the angle $\angle B_6$ is between $a$ and $b$, and both are to the right of $c$.
+
+Hence $\angle A_2$ and $\angle B_6$ are corresponding angles.
+
+c) The angles $\angle A_4$ and $\angle B_5$ both lie between $a$ and $b$ and both are to the left of $c$.
+
+Hence $\angle A_4$ and $\angle B_5$ are co-interior angles.
+
+So a) alternate angles; b) corresponding angles; c) co-interior angles.
 
 **Answer.** a) alternate; b) corresponding; c) co-interior.
 :::
@@ -364,9 +374,13 @@ The line $c$ crosses $a$, $b$ at $A$, $B$ and $\angle A_2=\angle B_6=118^\circ$.
 2. State the test and conclude.
 
 ::solution
-The angles $\angle A_2$ and $\angle B_6$ are corresponding angles and $\angle A_2=\angle B_6=118^\circ$ (given).
+The angles $\angle A_2$ and $\angle B_6$ are corresponding angles formed when the line $c$ crosses the lines $a$ and $b$.
 
-Since one pair of corresponding angles is equal, by the test for parallel lines, $a\parallel b$.
+By the hypothesis, $\angle A_2=\angle B_6=118^\circ$, so the line $c$ crossing $a$ and $b$ makes one pair of equal corresponding angles.
+
+By the test for parallel lines (if a line crossing two lines makes a pair of equal corresponding angles, the two lines are parallel), we get $a\parallel b$.
+
+So $a\parallel b$.
 
 **Answer.** $a\parallel b$.
 :::
@@ -408,9 +422,25 @@ b) The co-interior angles are $(2x+20)^\circ$ and $(x+10)^\circ$.
 2. b) Set the sum of the two expressions equal to $180$.
 
 ::solution
-a) Since $a\parallel b$, $3x+10=x+50$, so $2x=40$ and $x=20$. Each angle is $70^\circ$.
+Since $a\parallel b$ and the line $c$ crosses $a$ and $b$, alternate angles are equal and co-interior angles are supplementary (their sum is $180^\circ$).
 
-b) Since $a\parallel b$, $(2x+20)+(x+10)=180$, so $3x=150$ and $x=50$. The angles are $120^\circ$ and $60^\circ$.
+a) The alternate angles are equal, so
+$$3x+10=x+50.$$
+
+Moving terms across, we get $2x=40$, so $x=20$.
+
+Check: $3\cdot20+10=70$ and $20+50=70$, so each angle is $70^\circ$.
+
+So $x=20$.
+
+b) The co-interior angles add up to $180^\circ$, so
+$$(2x+20)+(x+10)=180.$$
+
+Simplifying, $3x+30=180$, so $3x=150$ and $x=50$.
+
+Check: $2\cdot50+20=120$ and $50+10=60$; the angles are $120^\circ$ and $60^\circ$, and their sum is $180^\circ$.
+
+So $x=50$.
 
 **Answer.** a) $x=20$; b) $x=50$.
 :::
@@ -524,11 +554,22 @@ $a\parallel b$, and $c$ crosses $a$ at $A$ and $b$ at $B$. The ray $Am$ bisects 
 2. What position do these two angles have with respect to the line $AB$?
 
 ::solution
-Since $a\parallel b$, $\angle A_3=\angle B_5$ (alternate angles).
+Since $a\parallel b$, the alternate angles $\angle A_3$ and $\angle B_5$ are equal:
+$$\angle A_3=\angle B_5.$$
 
-Since $Am$ bisects $\angle A_3$, $\angle mAB=\dfrac12\angle A_3$. Since $Bn$ bisects $\angle B_5$, $\angle ABn=\dfrac12\angle B_5$. As $\angle A_3=\angle B_5$, we get $\angle mAB=\angle ABn$.
+Since $Am$ bisects $\angle A_3$,
+$$\angle mAB=\dfrac12\angle A_3.$$
 
-The angles $\angle mAB$ and $\angle ABn$ are alternate angles for the two lines $Am$, $Bn$ and the transversal $AB$. By the test for parallel lines, $Am\parallel Bn$.
+Since $Bn$ bisects $\angle B_5$,
+$$\angle ABn=\dfrac12\angle B_5.$$
+
+As $\angle A_3=\angle B_5$, we get $\angle mAB=\angle ABn$.
+
+The rays $Am$ and $Bn$ lie on opposite sides of the line $AB$, so $\angle mAB$ and $\angle ABn$ are alternate angles for the two lines $Am$, $Bn$ and the transversal $AB$.
+
+These alternate angles are equal, so by the test for parallel lines, $Am\parallel Bn$.
+
+So $Am\parallel Bn$.
 
 **Answer.** Proved.
 :::

@@ -142,7 +142,11 @@ What solid shape is a dice?
 2. Choose the name.
 
 ::solution
-The faces of a dice are equal squares.
+A dice has $6$ faces, and all its faces are equal squares.
+
+A solid whose faces are all equal squares is a cube.
+
+So a dice is a cube.
 
 **Answer.** A cube.
 :::
@@ -160,6 +164,10 @@ What solid shape is a chalk box?
 ::solution
 The faces of a chalk box are rectangles.
 
+A solid whose faces are rectangles is a cuboid.
+
+So a chalk box is a cuboid.
+
 **Answer.** A cuboid.
 :::
 
@@ -174,7 +182,11 @@ Remember the last lesson: work out $9-5$. Then check with addition.
 2. Work out $\square+5$.
 
 ::solution
-Counting back gives $4$. Check: $4+5=9$. Correct.
+To work out $9-5$, we count back $5$ from $9$: $8$, $7$, $6$, $5$, $4$. Counting back $5$ times gives $4$, so $9-5=4$.
+
+Check with addition: $4+5=9$. Correct.
+
+So $9-5=4$.
 
 **Answer.** $9-5=4$.
 :::
@@ -191,7 +203,11 @@ b) What shape are the faces of a cuboid?
 2. Feel the faces of a chalk box.
 
 ::solution
-a) The faces of a cube are squares. b) The faces of a cuboid are rectangles.
+a) A cube has faces that are all squares, so the faces of a cube are squares.
+
+b) A cuboid has faces that are rectangles, so the faces of a cuboid are rectangles.
+
+So a) the faces of a cube are squares; b) the faces of a cuboid are rectangles.
 
 **Answer.** a) Squares. b) Rectangles.
 :::
@@ -207,7 +223,11 @@ Nam says: "A chalk box is a cube because it has $6$ faces." Is Nam right? Why?
 2. Choose the right name.
 
 ::solution
-The faces of a chalk box are rectangles, not squares. Nam is wrong.
+A cube has $6$ faces, but a cuboid also has $6$ faces. So having $6$ faces is not enough to say that a chalk box is a cube.
+
+The faces of a chalk box are rectangles, not squares. A cube must have faces that are squares.
+
+So Nam is wrong; a chalk box is a cuboid.
 
 **Answer.** No. A chalk box is a cuboid.
 :::
@@ -223,7 +243,11 @@ Mai says: "A square drawn on paper is a cube." Where did Mai go wrong? Say it co
 2. Say it correctly.
 
 ::solution
-A square on paper is a flat shape. A cube is a solid shape with $6$ square faces, like a dice.
+A square drawn on paper is a flat shape, so Mai is wrong to call it a cube.
+
+A cube is a solid shape with $6$ square faces, like a dice.
+
+So the correct statement is: a square drawn on paper is a flat shape; a dice is a cube.
 
 **Answer.** A square is a flat shape; a dice is a cube.
 :::
@@ -248,7 +272,14 @@ b) How many cuboids are there altogether?
 2. Put the biscuit boxes and pencil cases together.
 
 ::solution
-a) There are $4$ dice. b) $3+2=5$.
+By the table, the shelf has $4$ dice, $3$ biscuit boxes and $2$ pencil cases.
+
+a) A dice is a cube. There are $4$ dice, so there are $4$ cubes.
+
+b) Biscuit boxes and pencil cases are cuboids. The number of cuboids is
+$$3+2=5\ \text{(cuboids)}.$$
+
+So a) there are $4$ cubes; b) there are $5$ cuboids altogether.
 
 **Answer.** a) $4$ cubes. b) $5$ cuboids.
 :::
@@ -266,9 +297,13 @@ You put two cubes side by side to make a long block. What solid shape is the new
 2. Choose the name of the solid shape.
 
 ::solution
-The long face is two squares joined, which is a rectangle. The new block has rectangle faces.
+The two equal cubes are placed face to face to make a long block.
 
-**Check.** The block looks like a chalk box. Correct.
+The long face is made of two squares joined together, so the long face is a rectangle.
+
+*Check.* The new block looks like a chalk box. Correct.
+
+So the new block is a cuboid, and its long face is a rectangle.
 
 **Answer.** A cuboid; its long face is a rectangle.
 :::

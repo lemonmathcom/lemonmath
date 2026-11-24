@@ -278,7 +278,16 @@ Use the supplementary rule to find $\sin150^\circ$, $\cos150^\circ$, $\tan150^\c
 2. Take the values for $30^\circ$ from the table and change the signs where needed.
 
 ::solution
-$$\sin150^\circ=\frac12,\quad \cos150^\circ=-\frac{\sqrt3}{2},\quad \tan150^\circ=-\frac{\sqrt3}{3},\quad \cot150^\circ=-\sqrt3.$$
+Two angles $\alpha$ and $180^\circ-\alpha$ are supplementary. By the supplementary-angle rule, we have
+$$\sin(180^\circ-\alpha)=\sin\alpha,\quad\cos(180^\circ-\alpha)=-\cos\alpha,$$
+$$\tan(180^\circ-\alpha)=-\tan\alpha,\quad\cot(180^\circ-\alpha)=-\cot\alpha.$$
+
+We have $150^\circ=180^\circ-30^\circ$, so we apply the rule above with $\alpha=30^\circ$. The trigonometric values of $30^\circ$ are $\sin30^\circ=\dfrac12$, $\cos30^\circ=\dfrac{\sqrt3}{2}$, $\tan30^\circ=\dfrac{\sqrt3}{3}$, $\cot30^\circ=\sqrt3$.
+
+Therefore
+$$\begin{aligned}\sin150^\circ&=\sin30^\circ=\frac12,\\\cos150^\circ&=-\cos30^\circ=-\frac{\sqrt3}{2},\\\tan150^\circ&=-\tan30^\circ=-\frac{\sqrt3}{3},\\\cot150^\circ&=-\cot30^\circ=-\sqrt3.\end{aligned}$$
+
+So $\sin150^\circ=\dfrac12$, $\cos150^\circ=-\dfrac{\sqrt3}{2}$, $\tan150^\circ=-\dfrac{\sqrt3}{3}$, $\cot150^\circ=-\sqrt3$.
 
 **Answer.** $\dfrac12$; $-\dfrac{\sqrt3}{2}$; $-\dfrac{\sqrt3}{3}$; $-\sqrt3$.
 :::
@@ -294,8 +303,19 @@ Which of the following are undefined: $\tan90^\circ$, $\cot0^\circ$, $\tan180^\c
 2. Check whether the denominator is $0$.
 
 ::solution
-$M(1, 0)$ at $0^\circ$, $M(0, 1)$ at $90^\circ$, $M(-1, 0)$ at $180^\circ$. The denominator is $0$ for $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$. Otherwise
-$$\tan180^\circ=\frac{0}{-1}=0,\qquad \cot90^\circ=\frac01=0.$$
+On the unit semicircle with centre $O$, for an angle $\alpha\in[0^\circ, 180^\circ]$ we take the point $M(x_0, y_0)$ such that $\widehat{xOM}=\alpha$. Then
+$$\sin\alpha=y_0,\quad\cos\alpha=x_0,\quad\tan\alpha=\frac{y_0}{x_0}\ (x_0\ne0),\quad\cot\alpha=\frac{x_0}{y_0}\ (y_0\ne0).$$
+
+For the angles $0^\circ$, $90^\circ$, $180^\circ$, the point $M$ is $M(1, 0)$, $M(0, 1)$, $M(-1, 0)$ respectively.
+
+- $\tan90^\circ$: the point $M(0, 1)$ has $x_0=0$, so the denominator is $0$ and $\tan90^\circ$ is undefined.
+- $\cot0^\circ$: the point $M(1, 0)$ has $y_0=0$, so the denominator is $0$ and $\cot0^\circ$ is undefined.
+- $\cot180^\circ$: the point $M(-1, 0)$ has $y_0=0$, so the denominator is $0$ and $\cot180^\circ$ is undefined.
+
+The other two values have a non-zero denominator, so they are defined:
+$$\tan180^\circ=\frac{0}{-1}=0,\qquad\cot90^\circ=\frac01=0.$$
+
+So $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$ are undefined; $\tan180^\circ=0$ and $\cot90^\circ=0$.
 
 **Answer.** Undefined: $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$; $\tan180^\circ=0$, $\cot90^\circ=0$.
 :::
@@ -312,7 +332,18 @@ Given $\cos\alpha=-\dfrac35$ with $0^\circ\leq\alpha\leq180^\circ$, find $\sin\a
 3. Find $\tan$ and $\cot$.
 
 ::solution
-$$\sin^2\alpha=1-\frac{9}{25}=\frac{16}{25},\ \sin\alpha\geq0\Rightarrow \sin\alpha=\frac45;\qquad \tan\alpha=\frac{4/5}{-3/5}=-\frac43,\quad \cot\alpha=-\frac34.$$
+Since $0^\circ\le\alpha\le180^\circ$, we have $\sin\alpha\ge0$. Using the identity $\sin^2\alpha+\cos^2\alpha=1$ with $\cos\alpha=-\dfrac35$, we get
+$$\sin^2\alpha=1-\cos^2\alpha=1-\left(-\frac35\right)^2=1-\frac{9}{25}=\frac{16}{25}.$$
+
+Since $\sin\alpha\ge0$, we have $\sin\alpha=\dfrac45$.
+
+Because $\cos\alpha=-\dfrac35\ne0$, $\tan\alpha$ is defined, and
+$$\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{4/5}{-3/5}=-\frac43.$$
+
+Because $\sin\alpha=\dfrac45\ne0$, $\cot\alpha$ is defined, and
+$$\cot\alpha=\frac{\cos\alpha}{\sin\alpha}=\frac{-3/5}{4/5}=-\frac34.$$
+
+So $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
 
 **Answer.** $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
 :::
@@ -328,7 +359,15 @@ Compute $B=\cos20^\circ+\cos160^\circ+\sin35^\circ-\sin145^\circ$.
 2. Rewrite every term with the angles $20^\circ$ and $35^\circ$.
 
 ::solution
-$$\cos160^\circ=-\cos20^\circ,\quad \sin145^\circ=\sin35^\circ\Rightarrow B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
+We have $20^\circ+160^\circ=180^\circ$ and $35^\circ+145^\circ=180^\circ$, so $20^\circ$ and $160^\circ$ are supplementary, and so are $35^\circ$ and $145^\circ$.
+
+By the supplementary-angle rule, we have
+$$\cos160^\circ=\cos(180^\circ-20^\circ)=-\cos20^\circ,\qquad\sin145^\circ=\sin(180^\circ-35^\circ)=\sin35^\circ.$$
+
+Substituting into $B$, we obtain
+$$B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
+
+So $B=0$.
 
 **Answer.** $B=0$.
 :::
@@ -353,15 +392,22 @@ d) $\sin\alpha\cos\alpha=-\dfrac{60}{169}$.
 3. Use the supplementary rule for c).
 
 ::solution
-$\cos^2\alpha=1-\dfrac{144}{169}=\dfrac{25}{169}$, and the angle is obtuse, so $\cos\alpha=-\dfrac{5}{13}$.
+Since $90^\circ<\alpha<180^\circ$, the angle $\alpha$ is obtuse and $\cos\alpha<0$. From $\sin^2\alpha+\cos^2\alpha=1$ we get
+$$\cos^2\alpha=1-\sin^2\alpha=1-\frac{144}{169}=\frac{25}{169}.$$
 
-a) **False:** $\cos\alpha=-\dfrac5{13}$, not $\dfrac5{13}$.
+Since $\cos\alpha<0$, we have $\cos\alpha=-\dfrac{5}{13}$.
 
-b) **True:** $\tan\alpha=\dfrac{12/13}{-5/13}=-\dfrac{12}{5}$.
+a) **False.** We have $\cos\alpha=-\dfrac{5}{13}$, not $\dfrac{5}{13}$.
 
-c) **False:** $\cos(180^\circ-\alpha)=-\cos\alpha=\dfrac{5}{13}$.
+b) **True.** We have
+$$\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{12/13}{-5/13}=-\frac{12}{5}.$$
 
-d) **True:** $\dfrac{12}{13}\cdot\left(-\dfrac{5}{13}\right)=-\dfrac{60}{169}$.
+c) **False.** By the supplementary-angle rule, $\cos(180^\circ-\alpha)=-\cos\alpha=-\left(-\dfrac{5}{13}\right)=\dfrac{5}{13}$, which is not $-\dfrac{5}{13}$.
+
+d) **True.** We have
+$$\sin\alpha\cos\alpha=\frac{12}{13}\cdot\left(-\frac{5}{13}\right)=-\frac{60}{169}.$$
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -378,7 +424,17 @@ The arm of a crane is $20$ m long and is attached to the crane's tower at a poin
 3. Use a calculator in degree mode.
 
 ::solution
-$$h=3+20\sin115^\circ\approx3+20\cdot0.9063\approx21.1\ \text{(m)}.$$
+Choose a coordinate system $Oxy$ with $Ox$ horizontal and $Oy$ vertical, pointing upwards. Let $T$ be the tip of the arm; then $OT=20$ m and the ray $OT$ makes an angle of $115^\circ$ with the ray $Ox$.
+
+The height of $T$ above the point $O$ is the $y$-coordinate of $T$, which equals $OT\cdot\sin115^\circ=20\sin115^\circ$ (m).
+
+Let $h$ (m) be the height of the tip above the ground. Since $O$ is $3$ m above the ground,
+$$h=3+20\sin115^\circ.$$
+
+Using a calculator, $\sin115^\circ\approx0.9063$, hence
+$$h\approx3+20\cdot0.9063=3+18.126=21.126\approx21.1\ \text{(m)}.$$
+
+So the tip of the arm is about $21.1$ m above the ground.
 
 **Answer.** $21.1$.
 :::
@@ -395,8 +451,19 @@ In triangle $ABC$, show that $\sin(B+C)=\sin A$ and $\cos(B+C)=-\cos A$. Apply t
 3. Put $A=120^\circ$ and use the table.
 
 ::solution
-$B+C=180^\circ-A$, so $\sin(B+C)=\sin A$ and $\cos(B+C)=-\cos A$. With $A=120^\circ$:
-$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad \cos(B+C)=-\cos120^\circ=\frac12.$$
+In triangle $ABC$ we have $\widehat{A}+\widehat{B}+\widehat{C}=180^\circ$, so $B+C=180^\circ-A$. Thus the angles $B+C$ and $A$ are supplementary.
+
+By the supplementary-angle rule, we have
+$$\sin(B+C)=\sin(180^\circ-A)=\sin A,\qquad\cos(B+C)=\cos(180^\circ-A)=-\cos A.$$
+
+This is what we had to show.
+
+Applying this with $A=120^\circ$, we have $\sin120^\circ=\dfrac{\sqrt3}{2}$ and $\cos120^\circ=-\dfrac12$. Therefore
+$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad\cos(B+C)=-\cos120^\circ=-\left(-\frac12\right)=\frac12.$$
+
+Check: when $A=120^\circ$ we have $B+C=60^\circ$, and $\sin60^\circ=\dfrac{\sqrt3}{2}$, $\cos60^\circ=\dfrac12$, which agrees with the result above.
+
+So $\sin(B+C)=\sin A$ and $\cos(B+C)=-\cos A$; and when $A=120^\circ$, $\sin(B+C)=\dfrac{\sqrt3}{2}$ and $\cos(B+C)=\dfrac12$.
 
 **Answer.** $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$ (consistent with $B+C=60^\circ$).
 :::
@@ -412,9 +479,15 @@ Use a calculator to find every angle $\alpha\in[0^\circ, 180^\circ]$ (to two dec
 2. Press $\cos^{-1}(-0.6)$.
 
 ::solution
-a) $\sin^{-1}(0.6)\approx36.87^\circ$, and $180^\circ-36.87^\circ=143.13^\circ$.
+a) The calculator gives $\sin^{-1}(0.6)\approx36.87^\circ$, an acute angle satisfying $\sin\alpha=0.6$.
 
-b) $\cos^{-1}(-0.6)\approx126.87^\circ$ (a single angle).
+Since $\sin(180^\circ-\alpha)=\sin\alpha$, the supplementary angle $180^\circ-36.87^\circ=143.13^\circ$ also lies in $[0^\circ, 180^\circ]$ and has sine $0.6$.
+
+On $[0^\circ, 180^\circ]$ the equation $\sin\alpha=0.6$ has exactly these two solutions. So $\alpha\approx36.87^\circ$ or $\alpha\approx143.13^\circ$.
+
+b) On $[0^\circ, 180^\circ]$ the function $\cos\alpha$ decreases from $1$ to $-1$, so each value of $\cos\alpha$ corresponds to exactly one angle.
+
+The calculator gives $\cos^{-1}(-0.6)\approx126.87^\circ$. So $\alpha\approx126.87^\circ$ is the only angle with $\cos\alpha=-0.6$.
 
 **Answer.** a) $\alpha\approx36.87^\circ$ or $\alpha\approx143.13^\circ$; b) $\alpha\approx126.87^\circ$.
 :::
@@ -431,11 +504,29 @@ An angle $\alpha\in[0^\circ, 180^\circ]$ satisfies $\sin\alpha+\cos\alpha=\dfrac
 3. Find $\sin\alpha-\cos\alpha$, then solve for the sum and difference.
 
 ::solution
-Square both sides:
-$$1+2\sin\alpha\cos\alpha=\frac14\Rightarrow \sin\alpha\cos\alpha=-\frac38.$$
-The product is negative and $\sin\alpha\geq0$, so $\sin\alpha>0>\cos\alpha$, hence $\sin\alpha-\cos\alpha>0$:
-$$(\sin\alpha-\cos\alpha)^2=1+\frac34=\frac74\Rightarrow \sin\alpha-\cos\alpha=\frac{\sqrt7}{2}.$$
-Add and subtract with $\sin\alpha+\cos\alpha=\dfrac12$.
+Squaring both sides of $\sin\alpha+\cos\alpha=\dfrac12$, we get
+$$\sin^2\alpha+2\sin\alpha\cos\alpha+\cos^2\alpha=\frac14.$$
+
+Since $\sin^2\alpha+\cos^2\alpha=1$, this gives
+$$1+2\sin\alpha\cos\alpha=\frac14\ \Rightarrow\ \sin\alpha\cos\alpha=-\frac38.$$
+
+Since $0^\circ\le\alpha\le180^\circ$, we have $\sin\alpha\ge0$. The product $\sin\alpha\cos\alpha=-\dfrac38$ is negative, so $\sin\alpha\ne0$ and $\cos\alpha\ne0$; hence $\sin\alpha>0>\cos\alpha$, and therefore $\sin\alpha-\cos\alpha>0$.
+
+We have
+$$(\sin\alpha-\cos\alpha)^2=1-2\sin\alpha\cos\alpha=1+\frac34=\frac74.$$
+
+Since $\sin\alpha-\cos\alpha>0$, we get $\sin\alpha-\cos\alpha=\dfrac{\sqrt7}{2}$.
+
+We now have the system
+$$\begin{cases}\sin\alpha+\cos\alpha=\dfrac12\\\sin\alpha-\cos\alpha=\dfrac{\sqrt7}{2}.\end{cases}$$
+
+Adding the two equations: $2\sin\alpha=\dfrac{1+\sqrt7}{2}$, so $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0.911$.
+
+Subtracting them: $2\cos\alpha=\dfrac{1-\sqrt7}{2}$, so $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0.411$.
+
+Check: $\sin\alpha\cos\alpha=\dfrac{(1+\sqrt7)(1-\sqrt7)}{16}=\dfrac{1-7}{16}=-\dfrac38$, which agrees with the result above.
+
+So $\sin\alpha=\dfrac{1+\sqrt7}{4}$ and $\cos\alpha=\dfrac{1-\sqrt7}{4}$.
 
 **Answer.** $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0.911$, $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0.411$.
 :::

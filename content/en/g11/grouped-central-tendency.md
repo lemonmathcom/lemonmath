@@ -178,7 +178,12 @@ The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has
 2. Multiply by the frequencies, add, and divide by $40$.
 
 ::solution
-The representative values are $152.5$; $157.5$; $162.5$; $167.5$; $172.5$. Hence $\bar{x}=\dfrac{4\cdot152.5+10\cdot157.5+14\cdot162.5+9\cdot167.5+3\cdot172.5}{40}=\dfrac{6485}{40}\approx162.1$.
+For grouped data, the representative value of each class is its midpoint: $152.5$; $157.5$; $162.5$; $167.5$; $172.5$. The sample size is $n=4+10+14+9+3=40$.
+
+Using the formula for the mean of grouped data $\bar{x}=\dfrac{m_1c_1+\dots+m_kc_k}{n}$, we have
+$$\bar{x}=\frac{4\cdot152.5+10\cdot157.5+14\cdot162.5+9\cdot167.5+3\cdot172.5}{40}=\frac{6485}{40}\approx162.1.$$
+
+So the estimated mean height is about $162.1$ cm.
 
 **Answer.** About $162.1$ cm.
 :::
@@ -194,7 +199,18 @@ For the height table of the previous exercise, estimate the median, $Q_1$ and $Q
 2. Find the classes containing $10$, $20$, $30$, then apply the formula.
 
 ::solution
-The cumulative frequencies are $4, 14, 28, 37, 40$. Median: $\dfrac n2=20$, class $[160, 165)$ ($C_2=14$, $m_3=14$): $M_e=160+\dfrac{20-14}{14}\cdot5\approx162.14$. $Q_1$: $\dfrac n4=10$, class $[155, 160)$ ($C_1=4$, $m_2=10$): $Q_1=155+\dfrac{10-4}{10}\cdot5=158$. $Q_3$: $\dfrac{3n}{4}=30$, class $[165, 170)$ ($C_3=28$, $m_4=9$): $Q_3=165+\dfrac{30-28}{9}\cdot5\approx166.11$.
+The sample size is $n=40$. The cumulative frequencies of the classes are $4$, $14$, $28$, $37$, $40$.
+
+Median: $\dfrac n2=20$. Since $C_2=14<20\le C_3=28$, the median class is $[160, 165)$, with $a_3=160$, $m_3=14$, $h=5$. Hence
+$$M_e=160+\frac{20-14}{14}\cdot5\approx162.14.$$
+
+First quartile: $\dfrac n4=10$. Since $C_1=4<10\le C_2=14$, the class containing $Q_1$ is $[155, 160)$, with $m_2=10$. Hence
+$$Q_1=155+\frac{10-4}{10}\cdot5=158.$$
+
+Third quartile: $\dfrac{3n}{4}=30$. Since $C_3=28<30\le C_4=37$, the class containing $Q_3$ is $[165, 170)$, with $m_4=9$. Hence
+$$Q_3=165+\frac{30-28}{9}\cdot5\approx166.11.$$
+
+So $M_e\approx162.14$ cm; $Q_1=158$ cm; $Q_3\approx166.11$ cm.
 
 **Answer.** $M_e\approx162.14$; $Q_1=158$; $Q_3\approx166.11$ (cm).
 :::
@@ -210,7 +226,14 @@ For the height table of the previous exercises, estimate the mode (to 2 decimal 
 2. Substitute into the formula.
 
 ::solution
-The class with the greatest frequency is $[160, 165)$ with $m_j=14$; its neighbours have $10$ and $9$. Hence $M_o=160+\dfrac{14-10}{(14-10)+(14-9)}\cdot5=160+\dfrac49\cdot5\approx162.22$.
+The class with the greatest frequency is $[160, 165)$ with $m_j=14$; its neighbouring classes have frequencies $m_{j-1}=10$ and $m_{j+1}=9$. The class width is $h=5$.
+
+Using the formula for the mode
+$$M_o=a_j+\frac{m_j-m_{j-1}}{(m_j-m_{j-1})+(m_j-m_{j+1})}\cdot h,$$
+we have
+$$M_o=160+\frac{14-10}{(14-10)+(14-9)}\cdot5=160+\frac49\cdot5\approx162.22.$$
+
+So the estimated mode is about $162.22$ cm.
 
 **Answer.** $M_o\approx162.22$ cm.
 :::
@@ -227,7 +250,18 @@ Suppose the monthly water use (in $\text{m}^3$) of $50$ households is grouped: $
 3. The mode lies in the class with $18$ households.
 
 ::solution
-Mean: $\bar{x}=\dfrac{4\cdot2.5+16\cdot7.5+18\cdot12.5+9\cdot17.5+3\cdot22.5}{50}=\dfrac{580}{50}=11.6$. Median: $\dfrac n2=25$, class $[10, 15)$ ($C_2=20$, $m_3=18$): $M_e=10+\dfrac{25-20}{18}\cdot5\approx11.39$. Mode: the class $[10, 15)$ has frequency $18$ and its neighbours have $16$ and $9$: $M_o=10+\dfrac{18-16}{(18-16)+(18-9)}\cdot5\approx10.91$.
+The sample size is $n=4+16+18+9+3=50$. The representative values are $2.5$; $7.5$; $12.5$; $17.5$; $22.5$. The cumulative frequencies are $4$, $20$, $38$, $47$, $50$.
+
+Mean:
+$$\bar{x}=\frac{4\cdot2.5+16\cdot7.5+18\cdot12.5+9\cdot17.5+3\cdot22.5}{50}=\frac{580}{50}=11.6.$$
+
+Median: $\dfrac n2=25$. Since $C_2=20<25\le C_3=38$, the median class is $[10, 15)$, with $m_3=18$, $h=5$. Hence
+$$M_e=10+\frac{25-20}{18}\cdot5\approx11.39.$$
+
+Mode: the class with the greatest frequency is $[10, 15)$ with $m_j=18$; its neighbouring classes have frequencies $16$ and $9$. Hence
+$$M_o=10+\frac{18-16}{(18-16)+(18-9)}\cdot5=10+\frac{2}{11}\cdot5\approx10.91.$$
+
+So $\bar{x}=11.60$; $M_e\approx11.39$; $M_o\approx10.91$ (in $\text{m}^3$).
 
 **Answer.** $\bar{x}=11.60$; $M_e\approx11.39$; $M_o\approx10.91$ ($\text{m}^3$).
 :::
@@ -243,7 +277,17 @@ The waiting times (in minutes) for a bus of $25$ passengers are grouped: $[0, 5)
 2. Apply the formula.
 
 ::solution
-Median: class $[5, 10)$ ($C_1=7$, $m_2=10$): $M_e=5+\dfrac{12.5-7}{10}\cdot5=7.75$. $Q_3$: class $[10, 15)$ ($C_2=17$, $m_3=6$): $Q_3=10+\dfrac{18.75-17}{6}\cdot5\approx11.46$. This means that about $\dfrac34$ of the passengers wait no more than $11.46$ minutes, or about a quarter of the passengers wait longer than that.
+The sample size is $n=7+10+6+2=25$. The cumulative frequencies are $7$, $17$, $23$, $25$.
+
+Median: $\dfrac n2=12.5$. Since $C_1=7<12.5\le C_2=17$, the median class is $[5, 10)$, with $m_2=10$, $h=5$. Hence
+$$M_e=5+\frac{12.5-7}{10}\cdot5=7.75.$$
+
+Third quartile: $\dfrac{3n}{4}=18.75$. Since $C_2=17<18.75\le C_3=23$, the class containing $Q_3$ is $[10, 15)$, with $m_3=6$. Hence
+$$Q_3=10+\frac{18.75-17}{6}\cdot5\approx11.46.$$
+
+Meaning of $Q_3$: about $\dfrac34$ of the passengers wait no more than $11.46$ minutes, or about a quarter of the passengers wait longer than that.
+
+So the median is $7.75$ minutes and $Q_3\approx11.46$ minutes.
 
 **Answer.** $M_e=7.75$ minutes; $Q_3\approx11.46$ minutes.
 :::
@@ -259,7 +303,17 @@ Take grouped data: $[0, 10)$ has $5$, $[10, 20)$ has $x$, $[20, 30)$ has $15$, $
 2. Solve the equation $\bar{x}=20$.
 
 ::solution
-We have $\bar{x}=\dfrac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\dfrac{575+15x}{25+x}$. From $\dfrac{575+15x}{25+x}=20$ we get $575+15x=500+20x$, so $x=15$.
+The representative values of the four classes are $5$, $15$, $25$, $35$. The sample size is $n=5+x+15+5=25+x$ (with $x$ a positive integer).
+
+The estimated mean is
+$$\bar{x}=\frac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\frac{575+15x}{25+x}.$$
+
+By hypothesis $\bar{x}=20$, so
+$$\frac{575+15x}{25+x}=20\iff575+15x=500+20x\iff5x=75\iff x=15.$$
+
+The value $x=15$ is a positive integer, so it is valid.
+
+So $x=15$.
 
 **Answer.** $x=15$.
 :::
@@ -284,13 +338,21 @@ d) The mode is $M_o=22.5$.
 3. c), d) Find $\bar{x}$ and $M_o$.
 
 ::solution
-a) **True**: $C_1=4<7.5\le C_2=13$, so $Q_1\in[15, 20)$.
+The sample size is $n=4+9+10+5+2=30$. The cumulative frequencies are $4$, $13$, $23$, $28$, $30$. The class width is $h=5$.
 
-b) **True**: $M_e=20+\dfrac{15-13}{10}\cdot5=21$.
+a) **True.** We have $\dfrac n4=7.5$ and $C_1=4<7.5\le C_2=13$, so $Q_1$ lies in the class $[15, 20)$.
 
-c) **True**: $\bar{x}=\dfrac{12.5\cdot4+17.5\cdot9+22.5\cdot10+27.5\cdot5+32.5\cdot2}{30}=\dfrac{635}{30}\approx21.17$.
+b) **True.** We have $\dfrac n2=15$ and $C_2=13<15\le C_3=23$, so the median class is $[20, 25)$ with $m_3=10$. Hence
+$$M_e=20+\frac{15-13}{10}\cdot5=21.$$
 
-d) **False**: $M_o=20+\dfrac{10-9}{(10-9)+(10-5)}\cdot5\approx20.83$; $22.5$ is only the representative value of the class.
+c) **True.** The representative values are $12.5$; $17.5$; $22.5$; $27.5$; $32.5$. Hence
+$$\bar{x}=\frac{12.5\cdot4+17.5\cdot9+22.5\cdot10+27.5\cdot5+32.5\cdot2}{30}=\frac{635}{30}\approx21.17.$$
+
+d) **False.** The class with the greatest frequency is $[20, 25)$ with $m_j=10$; its neighbouring classes have frequencies $9$ and $5$. Hence
+$$M_o=20+\frac{10-9}{(10-9)+(10-5)}\cdot5=20+\frac16\cdot5\approx20.83.$$
+The value $22.5$ is only the representative value of the class $[20, 25)$, not the mode.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -306,7 +368,14 @@ A grouped data set of size $40$ has cumulative frequency $12$ for the class $[10
 2. Substitute into the formula for $M_e$.
 
 ::solution
-We have $a_p=20$, $C_{p-1}=12$, $m_p=16$ and $h=10$. Hence $M_e=20+\dfrac{20-12}{16}\cdot10=25$.
+The sample size is $n=40$, so $\dfrac n2=20$. The cumulative frequency of the class $[10, 20)$ is $12$ and the class $[20, 30)$ has frequency $16$, so the cumulative frequency of the class $[20, 30)$ is $12+16=28$. Since $12<20\le28$, the median class is $[20, 30)$.
+
+We have $a_p=20$, $C_{p-1}=12$, $m_p=16$ and $h=10$. Using the median formula
+$$M_e=a_p+\frac{\frac n2-C_{p-1}}{m_p}\cdot h,$$
+we get
+$$M_e=20+\frac{20-12}{16}\cdot10=20+5=25.$$
+
+So the estimated median is $25$.
 
 **Answer.** $M_e=25$.
 :::
@@ -322,7 +391,12 @@ Use the relative frequencies of the journey-time table of the previous lesson ($
 2. Multiply by the representative values and add.
 
 ::solution
-$\bar{x}=0.15\cdot5+0.35\cdot15+0.30\cdot25+0.15\cdot35+0.05\cdot45=0.75+5.25+7.5+5.25+2.25=21$.
+The relative frequencies add up to $15\%+35\%+30\%+15\%+5\%=100\%$. As decimals: $f_1=0.15$, $f_2=0.35$, $f_3=0.30$, $f_4=0.15$, $f_5=0.05$. The representative values are $c_1=5$, $c_2=15$, $c_3=25$, $c_4=35$, $c_5=45$.
+
+Using the formula $\bar{x}=f_1c_1+\dots+f_kc_k$, we have
+$$\begin{aligned}\bar{x}&=0.15\cdot5+0.35\cdot15+0.30\cdot25+0.15\cdot35+0.05\cdot45\\&=0.75+5.25+7.5+5.25+2.25\\&=21.\end{aligned}$$
+
+So the mean is $21$ minutes, the same result as with the frequencies.
 
 **Answer.** $\bar{x}=21$ minutes, the same result as with the frequencies.
 :::
@@ -338,7 +412,19 @@ Grouped data have $k$ classes of the same width $h$, all with the same frequency
 2. Use $c_1=a_1+\dfrac h2$ and $c_k=a_{k+1}-\dfrac h2$.
 
 ::solution
-Since each class has frequency $m$, $n=km$ and $\bar{x}=\dfrac{m(c_1+\dots+c_k)}{km}=\dfrac{c_1+\dots+c_k}{k}$. The $c_i$ form an arithmetic progression, so $c_1+\dots+c_k=\dfrac{k(c_1+c_k)}{2}$, and hence $\bar{x}=\dfrac{c_1+c_k}{2}=\dfrac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\dfrac{a_1+a_{k+1}}{2}$.
+The classes are $[a_1, a_2)$, $[a_2, a_3)$, $\dots$, $[a_k, a_{k+1})$ with $a_{i+1}-a_i=h$. The representative value of the $i$th class is $c_i=\dfrac{a_i+a_{i+1}}{2}$.
+
+Let $m$ be the common frequency of each class. Then the sample size is $n=km$ and
+$$\bar{x}=\frac{m\left(c_1+c_2+\dots+c_k\right)}{km}=\frac{c_1+c_2+\dots+c_k}{k}.$$
+
+The values $c_1, c_2,\dots,c_k$ are equally spaced with difference $h$, so they form an arithmetic progression. Hence
+$$c_1+c_2+\dots+c_k=\frac{k\left(c_1+c_k\right)}{2},$$
+and so $\bar{x}=\dfrac{c_1+c_k}{2}$.
+
+We have $c_1=a_1+\dfrac h2$ and $c_k=a_{k+1}-\dfrac h2$ (since the last class is $[a_k, a_{k+1})$ with $a_k=a_{k+1}-h$). Therefore
+$$\bar{x}=\frac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\frac{a_1+a_{k+1}}{2}.$$
+
+So the estimated mean equals the midpoint of the interval $[a_1, a_{k+1}]$.
 
 **Answer.** $\bar{x}=\dfrac{a_1+a_{k+1}}{2}$, the midpoint of $[a_1, a_{k+1}]$.
 :::

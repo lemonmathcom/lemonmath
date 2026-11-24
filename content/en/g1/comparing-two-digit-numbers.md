@@ -114,7 +114,11 @@ Write $>$, $<$ or $=$: $45 \;\square\; 38$.
 2. Which number has the greater tens digit?
 
 ::solution
-Tens digits: $4>3$, so $45>38$.
+To compare two two-digit numbers, we compare the tens digits first.
+
+The number $45$ has $4$ tens and the number $38$ has $3$ tens. Since $4>3$, we have $45>38$.
+
+So the sign to write is $>$, and $45>38$.
 
 **Answer.** $45>38$.
 :::
@@ -130,7 +134,13 @@ Write $>$, $<$ or $=$: $52 \;\square\; 57$.
 2. Compare the ones.
 
 ::solution
-The tens digits are both $5$. Ones digits: $2<7$, so $52<57$.
+To compare two two-digit numbers, we compare the tens digits first.
+
+The tens digits of $52$ and $57$ are both $5$, so we compare the ones digits next.
+
+Ones digits: $2<7$, so $52<57$.
+
+So the sign to write is $<$, and $52<57$.
 
 **Answer.** $52<57$.
 :::
@@ -146,7 +156,11 @@ Remember the last lesson: write the number made of $6$ tens and $2$ ones, then c
 2. Compare the tens of $62$ and $26$.
 
 ::solution
-The number is $62$. Tens digits: $6>2$, so $62>26$.
+The number made of $6$ tens and $2$ ones is $62$.
+
+We compare $62$ with $26$. The tens digit of $62$ is $6$ and the tens digit of $26$ is $2$. Since $6>2$, we have $62>26$.
+
+So the number is $62$ and $62>26$.
 
 **Answer.** $62>26$.
 :::
@@ -163,7 +177,11 @@ b) Which number is less: $91$ or $90$?
 2. Part b: the tens are both $9$, so compare the ones.
 
 ::solution
-a) $7>3$, so $73$ is greater. b) The tens are equal; $0<1$, so $90$ is less.
+a) The tens digit of $73$ is $7$ and the tens digit of $37$ is $3$. Since $7>3$, we have $73>37$, so the greater number is $73$.
+
+b) The tens digits of $91$ and $90$ are both $9$, so we compare the ones digits: $1$ and $0$. Since $0<1$, we have $90<91$, so the lesser number is $90$.
+
+So a) the greater number is $73$; b) the lesser number is $90$.
 
 **Answer.** a) $73$. b) $90$.
 :::
@@ -179,7 +197,11 @@ Nam says: "$19>21$ because $9>1$." Is Nam right? Why?
 2. Which number has the greater tens digit?
 
 ::solution
-Tens digits: $1<2$, so $19<21$. Nam compared the ones first, so he is wrong.
+Nam compared the ones digits ($9$ and $1$) first. But when we compare two-digit numbers, we must compare the tens digits first.
+
+The tens digit of $19$ is $1$ and the tens digit of $21$ is $2$. Since $1<2$, we have $19<21$.
+
+So Nam is wrong; the correct statement is $19<21$.
 
 **Answer.** No. $19<21$.
 :::
@@ -195,7 +217,13 @@ Lan puts $34, 28, 41$ "from least to greatest" as $41, 34, 28$. Where did Lan go
 2. Find the least number, then the next.
 
 ::solution
-Lan put them from greatest to least. The least number is $28$, then $34$, then $41$.
+Lan wrote the numbers as $41, 34, 28$, which is from greatest to least. The question asks for the order from least to greatest, so this is where Lan went wrong.
+
+The tens digits of $34$, $28$, $41$ are $3$, $2$, $4$. Since $2<3<4$, we have $28<34<41$.
+
+The least number is $28$, then $34$, and the greatest number is $41$.
+
+So the correct order from least to greatest is $28, 34, 41$.
 
 **Answer.** $28, 34, 41$.
 :::
@@ -219,7 +247,15 @@ c) Which two children have read the same number of pages?
 2. Compare each one.
 
 ::solution
-a) $54$ has the greatest tens digit, Binh's. b) $38$ has the least tens digit, Dung's. c) An and Chi both read $45$ pages.
+The numbers of pages read by An, Binh, Chi and Dung are $45$, $54$, $45$, $38$. Their tens digits are $4$, $5$, $4$, $3$.
+
+a) The greatest tens digit is $5$, in the number $54$. So $54$ is the greatest number, and Binh has read the most pages.
+
+b) The least tens digit is $3$, in the number $38$. So $38$ is the least number, and Dung has read the fewest pages.
+
+c) An and Chi both read $45$ pages, so these two numbers are equal.
+
+So Binh has read the most pages, Dung has read the fewest pages, and An and Chi have read the same number of pages.
 
 **Answer.** a) Binh. b) Dung. c) An and Chi.
 :::
@@ -235,9 +271,15 @@ Find the digit for the box so that $47<4\square<50$.
 2. Choose those less than $50$.
 
 ::solution
-The numbers greater than $47$ with $4$ tens are $48$ and $49$. Both are less than $50$.
+The number $4\square$ has $4$ tens, and its ones digit is the digit we need to find.
 
-**Check.** $47<48<50$ and $47<49<50$. Correct.
+Since $4\square>47$ and both numbers have $4$ tens, the ones digit of $4\square$ must be greater than $7$. The digit is $8$ or $9$, giving the numbers $48$ and $49$.
+
+Both $48$ and $49$ have $4$ tens, which is less than $5$ tens, so both are less than $50$.
+
+*Check.* $47<48<50$ and $47<49<50$. Correct.
+
+So the digit for the box is $8$ or $9$.
 
 **Answer.** The digit $8$ or $9$.
 :::

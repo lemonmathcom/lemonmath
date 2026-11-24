@@ -158,11 +158,15 @@ c) How does $OB$ compare with $OA$?
 2. Does it pass through the centre with both ends on the circle?
 
 ::solution
-a) $OA$ is a radius.
+In the circle with centre $O$, the points $A$ and $B$ are on the circle and $O$ is on the line segment $AB$.
 
-b) $AB$ is a diameter.
+a) $OA$ is a line segment joining the centre $O$ to the point $A$ on the circle, so $OA$ is a radius.
 
-c) $OB$ is also a radius, so $OB=OA$.
+b) $AB$ is a line segment that passes through the centre $O$ and has both ends $A$ and $B$ on the circle, so $AB$ is a diameter.
+
+c) $OB$ also joins the centre $O$ to the point $B$ on the circle, so $OB$ is a radius too. All radii of a circle are equal, hence $OB=OA$.
+
+So $OA$ is a radius, $AB$ is a diameter, and $OB=OA$.
 
 **Answer.** a) A radius; b) a diameter; c) equal.
 :::
@@ -184,11 +188,15 @@ c) $10$ cm.
 2. Multiply by $2$ and write the unit.
 
 ::solution
-a) $4\times2=8$ (cm).
+In a circle, the diameter is twice as long as the radius, so to find the diameter we multiply the radius by $2$.
 
-b) $6\times2=12$ (cm).
+a) A circle with radius $4$ cm has diameter $4\times2=8$ (cm).
 
-c) $10\times2=20$ (cm).
+b) A circle with radius $6$ cm has diameter $6\times2=12$ (cm).
+
+c) A circle with radius $10$ cm has diameter $10\times2=20$ (cm).
+
+So these circles have diameters $8$ cm, $12$ cm and $20$ cm respectively.
 
 **Answer.** a) $8$ cm; b) $12$ cm; c) $20$ cm.
 :::
@@ -204,7 +212,16 @@ Remember the last lesson on midpoints. The centre $O$ is the midpoint of the dia
 2. Divide $AB$ by $2$.
 
 ::solution
-$OA=18\div2=9$ (cm). Since $O$ is the midpoint, $OB=OA=9$ cm.
+The centre $O$ is the midpoint of the diameter $AB$, so $O$ divides $AB$ into two equal parts.
+
+We have
+$$OA=AB\div2=18\div2=9\ (\text{cm}).$$
+
+Since $O$ is the midpoint of $AB$, we get $OB=OA=9$ cm.
+
+Check: $OA+OB=9+9=18$ (cm), which equals $AB$. Correct.
+
+So $OA=9$ cm and $OB=9$ cm.
 
 **Answer.** $OA=9$ cm and $OB=9$ cm.
 :::
@@ -226,11 +243,15 @@ c) $30$ cm.
 2. Divide by $2$ and write the unit.
 
 ::solution
-a) $12\div2=6$ (cm).
+In a circle, the radius is half of the diameter, so to find the radius we divide the diameter by $2$.
 
-b) $20\div2=10$ (cm).
+a) A circle with diameter $12$ cm has radius $12\div2=6$ (cm).
 
-c) $30\div2=15$ (cm).
+b) A circle with diameter $20$ cm has radius $20\div2=10$ (cm).
+
+c) A circle with diameter $30$ cm has radius $30\div2=15$ (cm).
+
+So these circles have radii $6$ cm, $10$ cm and $15$ cm respectively.
 
 **Answer.** a) $6$ cm; b) $10$ cm; c) $15$ cm.
 :::
@@ -252,11 +273,13 @@ c) The diameter is twice as long as the radius.
 2. Look for an example that shows a statement is false.
 
 ::solution
-a) True: every point on the circle is the same distance from the centre.
+a) **True.** Every point on the circle is the same distance from the centre, so all radii of a circle are equal.
 
-b) False: a segment joining two points on the circle that does not pass through the centre is not a diameter.
+b) **False.** A segment joining two points on the circle that does not pass through the centre is not a diameter. A diameter must pass through the centre.
 
-c) True: the diameter is made of two radii.
+c) **True.** The diameter is made of two radii placed end to end (on the two sides of the centre), so the diameter is twice as long as the radius.
+
+So statements a) and c) are true; statement b) is false.
 
 **Answer.** a) True; b) false; c) true.
 :::
@@ -272,9 +295,16 @@ Lan says: "A circle with diameter $10$ cm has radius $20$ cm". Where did Lan go 
 2. Use the right operation.
 
 ::solution
-Lan multiplied by $2$, but we must halve: $10\div2=5$ (cm).
+In a circle, the radius is half of the diameter, so to find the radius we must divide the diameter by $2$.
 
-**Check.** $5\times2=10$. Correct.
+Lan multiplied by $2$ ($10\times2=20$) instead of dividing by $2$, so Lan used the wrong operation. Lan's answer also makes no sense: a radius of $20$ cm gives a diameter of $20\times2=40$ (cm), which is not $10$ cm.
+
+Correcting it:
+$$10\div2=5\ (\text{cm}).$$
+
+Check: $5\times2=10$. Correct.
+
+So Lan used the wrong operation; the radius of the circle is $5$ cm.
 
 **Answer.** Lan used the wrong operation; the radius is $5$ cm.
 :::
@@ -292,9 +322,13 @@ b) To draw a circle with diameter $10$ cm, how many centimetres do you open the 
 2. Multiply or divide by $2$ and write the answer with its unit.
 
 ::solution
-a) The diameter is $35\times2=70$ (cm).
+a) The diameter is twice the radius, so the diameter of the wheel is
+$$35\times2=70\ (\text{cm}).$$
 
-b) The opening of the compasses is the radius: $10\div2=5$ (cm).
+b) When we draw a circle with compasses, the opening of the compasses equals the radius of the circle. A circle with diameter $10$ cm has radius
+$$10\div2=5\ (\text{cm}).$$
+
+So the diameter of the wheel is $70$ cm, and we open the compasses $5$ cm.
 
 **Answer.** a) $70$ cm; b) $5$ cm.
 :::
@@ -312,7 +346,17 @@ Three equal circles, each with radius $4$ cm, are placed in a row so that neighb
 2. The row is $3$ diameters end to end.
 
 ::solution
-The diameter of each circle is $4\times2=8$ (cm). The row is $8\times3=24$ (cm) long.
+Solution
+
+The diameter of each circle is:
+$$4\times2=8\ (\text{cm}).$$
+
+The three equal circles are in a row and neighbouring circles touch, so the length of the row is the sum of three diameters. The row is:
+$$8\times3=24\ (\text{cm})\ \text{long}.$$
+
+Check: the row is $6$ radii long, so $4\times6=24$ (cm). Correct.
+
+So the row is $24$ cm long.
 
 **Answer.** $24$ cm.
 :::

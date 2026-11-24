@@ -138,13 +138,23 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Điền từng số theo thứ tự mặt, đỉnh, cạnh.
 
 ::solution
-Khối lập phương có $6$ mặt, $8$ đỉnh và $12$ cạnh.
+Bài giải
+
+Em quan sát khối lập phương (như con xúc xắc): khối này có $6$ mặt là các hình vuông bằng nhau, có $8$ đỉnh và có $12$ cạnh.
+
+Vậy khối lập phương có $6$ mặt, $8$ đỉnh và $12$ cạnh.
 
 **Đáp số.** $6$; $8$; $12$.
 :::
 
 :::exercise
-Mỗi vật sau có dạng khối gì: a) con xúc xắc; b) hộp phấn; c) khối rubik?
+Mỗi vật sau có dạng khối gì:
+
+a) con xúc xắc;
+
+b) hộp phấn;
+
+c) khối rubik?
 
 ::hint
 **Kiến thức:** mặt hình vuông bằng nhau là khối lập phương; mặt hình chữ nhật là khối hộp chữ nhật.
@@ -154,7 +164,15 @@ Mỗi vật sau có dạng khối gì: a) con xúc xắc; b) hộp phấn; c) kh
 2. Các mặt có bằng nhau và là hình vuông không?
 
 ::solution
-a) Khối lập phương. b) Khối hộp chữ nhật. c) Khối lập phương.
+Bài giải
+
+a) Con xúc xắc có $6$ mặt đều là hình vuông bằng nhau nên có dạng khối lập phương.
+
+b) Hộp phấn có các mặt là hình chữ nhật nên có dạng khối hộp chữ nhật.
+
+c) Khối rubik có các mặt đều là hình vuông bằng nhau nên có dạng khối lập phương.
+
+Vậy con xúc xắc và khối rubik có dạng khối lập phương; hộp phấn có dạng khối hộp chữ nhật.
 
 **Đáp số.** a) Khối lập phương; b) Khối hộp chữ nhật; c) Khối lập phương.
 :::
@@ -170,7 +188,13 @@ Khối lập phương có cạnh $7$ cm. Mỗi mặt là hình vuông có cạnh
 2. Ghi đáp số có đơn vị.
 
 ::solution
-Mỗi cạnh của mặt cũng là cạnh của khối lập phương, nên dài $7$ cm.
+Bài giải
+
+Mỗi mặt của khối lập phương là một hình vuông, và cạnh của hình vuông đó cũng là một cạnh của khối lập phương. Mọi cạnh của khối lập phương đều bằng nhau, mà khối này có cạnh $7$ cm.
+
+Do đó mỗi cạnh của mặt hình vuông dài $7$ cm.
+
+Vậy mỗi mặt là hình vuông có cạnh dài $7$ cm.
 
 **Đáp số.** $7$ cm.
 :::
@@ -186,7 +210,13 @@ Một khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $8$ 
 2. Hai mặt bằng nhau thì kích thước thế nào?
 
 ::solution
-Mặt nắp bằng mặt đáy nên dài $8$ cm, rộng $5$ cm.
+Bài giải
+
+Trong khối hộp chữ nhật, hai mặt đối diện là hai hình chữ nhật bằng nhau. Mặt nắp đối diện với mặt đáy nên mặt nắp bằng mặt đáy.
+
+Mặt đáy là hình chữ nhật dài $8$ cm, rộng $5$ cm, do đó mặt nắp cũng dài $8$ cm, rộng $5$ cm.
+
+Vậy mặt nắp dài $8$ cm và rộng $5$ cm.
 
 **Đáp số.** Dài $8$ cm, rộng $5$ cm.
 :::
@@ -204,8 +234,12 @@ An xếp các khối lập phương nhỏ thành $4$ lớp, mỗi lớp có $6$ 
 2. Tính $6\times4$ và ghi đơn vị.
 
 ::solution
-Số khối An đã dùng là:
-$$6\times4=24\ \text{(khối)}.$$
+Bài giải
+
+An xếp $4$ lớp, mỗi lớp có $6$ khối. Số khối An đã dùng là:
+$$6\times4=24\ \text{(khối)}$$
+
+Vậy An đã dùng tất cả $24$ khối lập phương nhỏ.
 
 **Đáp số.** $24$ khối.
 :::
@@ -221,10 +255,14 @@ Bình có $20$ khối lập phương nhỏ và xếp đều thành $4$ lớp. M�
 2. Tính $20:4$.
 
 ::solution
-Số khối ở mỗi lớp là:
-$$20:4=5\ \text{(khối)}.$$
+Bài giải
 
-**Thử lại.** $5\times4=20$. Đúng.
+Bình có $20$ khối xếp đều thành $4$ lớp, nên số khối ở mỗi lớp là:
+$$20:4=5\ \text{(khối)}$$
+
+Thử lại: $5\times4=20$. Đúng.
+
+Vậy mỗi lớp có $5$ khối.
 
 **Đáp số.** $5$ khối.
 :::
@@ -240,7 +278,12 @@ Em hãy nhớ lại bài trước: mỗi mặt của một khối lập phương
 2. Tính $3\times4$.
 
 ::solution
-$3\times4=12$ (cm).
+Bài giải
+
+Mặt của khối lập phương là hình vuông. Hình vuông có $4$ cạnh bằng nhau, mỗi cạnh dài $3$ cm. Tổng độ dài bốn cạnh của một mặt là:
+$$3\times4=12\ \text{(cm)}$$
+
+Vậy tổng độ dài bốn cạnh của một mặt là $12$ cm.
 
 **Đáp số.** $12$ cm.
 :::
@@ -256,9 +299,16 @@ Một con xúc xắc có $6$ mặt, tổng số chấm của hai mặt đối di
 2. Mỗi cặp có tổng $7$ chấm.
 
 ::solution
-$6$ mặt chia thành $3$ cặp mặt đối diện. Mỗi cặp có $7$ chấm nên tổng là $7\times3=21$.
+Bài giải
 
-**Kiểm tra.** $1+2+3+4+5+6=21$. Đúng.
+Con xúc xắc có $6$ mặt. Hai mặt đối diện thành một cặp, nên $6$ mặt chia thành $3$ cặp mặt đối diện.
+
+Mỗi cặp mặt đối diện có tổng số chấm là $7$. Tổng số chấm của cả $6$ mặt là:
+$$7\times3=21\ \text{(chấm)}$$
+
+Kiểm tra: các mặt có lần lượt $1$, $2$, $3$, $4$, $5$, $6$ chấm nên $1+2+3+4+5+6=21$. Khớp với kết quả trên.
+
+Vậy tổng số chấm của cả $6$ mặt là $21$ chấm.
 
 **Đáp số.** $21$ chấm.
 :::

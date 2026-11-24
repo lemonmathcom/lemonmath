@@ -170,8 +170,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Ta đặt tính rồi cộng lần lượt từ phải sang trái, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 3\,425 \\ +\ 2\,163 \\ \hline 5\,588 \end{array}$$
+
+Hàng đơn vị: $5+3=8$, viết $8$.
+Hàng chục: $2+6=8$, viết $8$.
+Hàng trăm: $4+1=5$, viết $5$.
+Hàng nghìn: $3+2=5$, viết $5$.
+
 Không có hàng nào đủ $10$ nên không phải nhớ.
+
+Thử lại: $5\,588-2\,163=3\,425$. Đúng.
+
+Vậy $3\,425+2\,163=5\,588$.
 
 **Đáp số.** $5\,588$.
 :::
@@ -187,8 +198,17 @@ Không có hàng nào đủ $10$ nên không phải nhớ.
 2. Cộng từng hàng, nhớ khi cần.
 
 ::solution
+Ta đặt tính rồi cộng lần lượt từ phải sang trái, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 2\,749 \\ +\ 3\,685 \\ \hline 6\,434 \end{array}$$
-Hàng đơn vị: $9+5=14$, viết $4$ nhớ $1$. Hàng chục: $4+8+1=13$, viết $3$ nhớ $1$. Hàng trăm: $7+6+1=14$, viết $4$ nhớ $1$. Hàng nghìn: $2+3+1=6$.
+
+Hàng đơn vị: $9+5=14$, viết $4$ nhớ $1$.
+Hàng chục: $4+8+1=13$, viết $3$ nhớ $1$.
+Hàng trăm: $7+6+1=14$, viết $4$ nhớ $1$.
+Hàng nghìn: $2+3+1=6$, viết $6$.
+
+Thử lại: $6\,434-3\,685=2\,749$. Đúng.
+
+Vậy $2\,749+3\,685=6\,434$.
 
 **Đáp số.** $6\,434$.
 :::
@@ -204,8 +224,19 @@ Hàng đơn vị: $9+5=14$, viết $4$ nhớ $1$. Hàng chục: $4+8+1=13$, vi�
 2. Trừ từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Ta đặt tính rồi trừ lần lượt từ phải sang trái, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 8\,596 \\ -\ 3\,241 \\ \hline 5\,355 \end{array}$$
+
+Hàng đơn vị: $6-1=5$, viết $5$.
+Hàng chục: $9-4=5$, viết $5$.
+Hàng trăm: $5-2=3$, viết $3$.
+Hàng nghìn: $8-3=5$, viết $5$.
+
 Không có hàng nào phải nhớ.
+
+Thử lại: $5\,355+3\,241=8\,596$. Đúng.
+
+Vậy $8\,596-3\,241=5\,355$.
 
 **Đáp số.** $5\,355$.
 :::
@@ -221,8 +252,17 @@ Không có hàng nào phải nhớ.
 2. Ở mỗi hàng, nhớ thêm $1$ vào chữ số ở số trừ rồi mới trừ.
 
 ::solution
+Ta đặt tính rồi trừ lần lượt từ phải sang trái, bắt đầu từ hàng đơn vị.
 $$\begin{array}{r} 7\,003 \\ -\ 4\,628 \\ \hline 2\,375 \end{array}$$
-Hàng đơn vị: $13-8=5$, viết $5$ nhớ $1$. Hàng chục: $2+1=3$; $10-3=7$, viết $7$ nhớ $1$. Hàng trăm: $6+1=7$; $10-7=3$, viết $3$ nhớ $1$. Hàng nghìn: $4+1=5$; $7-5=2$.
+
+Hàng đơn vị: $3$ không trừ được $8$, lấy $13-8=5$, viết $5$ nhớ $1$.
+Hàng chục: $2+1=3$; $0$ không trừ được $3$, lấy $10-3=7$, viết $7$ nhớ $1$.
+Hàng trăm: $6+1=7$; $0$ không trừ được $7$, lấy $10-7=3$, viết $3$ nhớ $1$.
+Hàng nghìn: $4+1=5$; $7-5=2$, viết $2$.
+
+Thử lại: $2\,375+4\,628=7\,003$. Đúng.
+
+Vậy $7\,003-4\,628=2\,375$.
 
 **Đáp số.** $2\,375$.
 :::
@@ -238,9 +278,12 @@ Tìm $x$: $x+2\,358=5\,000$.
 2. Đặt tính rồi trừ, sau đó thử lại.
 
 ::solution
-$x=5\,000-2\,358=2\,642$.
+Trong phép cộng, số hạng chưa biết bằng tổng trừ đi số hạng đã biết. Ta có
+$$x=5\,000-2\,358=2\,642.$$
 
-**Thử lại.** $2\,642+2\,358=5\,000$. Đúng.
+Thử lại: $2\,642+2\,358=5\,000$. Đúng.
+
+Vậy $x=2\,642$.
 
 **Đáp số.** $x=2\,642$.
 :::
@@ -259,8 +302,12 @@ Một trạm xăng (số liệu giả định) buổi sáng bán $2\,865$ lít x
 ::solution
 Bài giải
 
+Trạm bán xăng cả buổi sáng và buổi chiều, nên số lít xăng bán được cả ngày là tổng của hai buổi.
+
 Số lít xăng trạm bán được cả ngày là:
 $$2\,865+3\,478=6\,343\ \text{(lít)}.$$
+
+Vậy cả ngày trạm bán được $6\,343$ lít xăng.
 
 **Đáp số.** $6\,343$ lít xăng.
 :::
@@ -278,10 +325,17 @@ Mai có $8\,000$ đồng. Mai mua một chiếc bút giá $2\,500$ đồng và m
 ::solution
 Bài giải
 
+Mai mua một chiếc bút và một quyển vở nên số tiền Mai đã tiêu là tổng hai giá tiền; số tiền còn lại bằng số tiền Mai có trừ đi số tiền đã tiêu.
+
 Số tiền Mai đã tiêu là:
 $$2\,500+4\,300=6\,800\ \text{(đồng)}.$$
+
 Số tiền Mai còn lại là:
 $$8\,000-6\,800=1\,200\ \text{(đồng)}.$$
+
+Thử lại: $6\,800+1\,200=8\,000$ (đồng). Đúng.
+
+Vậy Mai còn lại $1\,200$ đồng.
 
 **Đáp số.** $1\,200$ đồng.
 :::
@@ -297,7 +351,12 @@ Em hãy nhớ lại bài so sánh các số. Điền dấu $>$, $<$ hoặc $=$ v
 2. So sánh kết quả với $4\,700$, bắt đầu từ hàng trăm.
 
 ::solution
-Ta có $3\,456+1\,234=4\,690$. Hai số cùng hàng nghìn là $4$; ở hàng trăm, $6<7$ nên $4\,690<4\,700$.
+Trước hết, ta tính vế trái:
+$$3\,456+1\,234=4\,690.$$
+
+Bây giờ ta so sánh $4\,690$ và $4\,700$. Hai số đều có bốn chữ số và có chữ số hàng nghìn cùng là $4$. Ở hàng trăm, ta có $6<7$ nên $4\,690<4\,700$.
+
+Vậy $3\,456+1\,234<4\,700$, ta điền dấu $<$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -313,7 +372,16 @@ Nam tính $5\,400-2\,785=3\,615$. Em hãy dùng phép cộng để thử lại k
 2. Nếu tổng khác $5\,400$ thì tính lại $5\,400-2\,785$.
 
 ::solution
-Ta có $3\,615+2\,785=6\,400$, khác $5\,400$, nên kết quả của Nam sai. Tính lại: $5\,400-2\,785=2\,615$. Thử lại: $2\,615+2\,785=5\,400$. Đúng.
+Để thử lại phép trừ bằng phép cộng, ta lấy hiệu cộng với số trừ; kết quả phải bằng số bị trừ.
+
+Ta có $3\,615+2\,785=6\,400$. Số này khác số bị trừ $5\,400$, nên kết quả của Nam sai.
+
+Ta tính lại:
+$$5\,400-2\,785=2\,615.$$
+
+Thử lại: $2\,615+2\,785=5\,400$. Đúng.
+
+Vậy kết quả của Nam sai; kết quả đúng là $2\,615$.
 
 **Đáp số.** Nam sai; kết quả đúng là $2\,615$.
 :::
@@ -329,8 +397,16 @@ Từ bốn chữ số $1$, $3$, $5$, $7$, em viết số lớn nhất và số b
 2. Đặt tính rồi trừ.
 
 ::solution
-Số lớn nhất là $7\,531$, số bé nhất là $1\,357$. Ta có:
+Số lớn nhất có bốn chữ số khác nhau: ta xếp các chữ số từ lớn đến bé, được $7\,531$.
+
+Số bé nhất có bốn chữ số khác nhau: ta xếp các chữ số từ bé đến lớn, được $1\,357$. Chữ số $1$ ở hàng nghìn nên số này thật sự có bốn chữ số.
+
+Hiệu của hai số đó là:
 $$7\,531-1\,357=6\,174.$$
+
+Thử lại: $6\,174+1\,357=7\,531$. Đúng.
+
+Vậy hiệu của số lớn nhất và số bé nhất là $6\,174$.
 
 **Đáp số.** $6\,174$.
 :::

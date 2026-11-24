@@ -186,7 +186,15 @@ Chứng minh dãy số $(u_n)$ với $u_n=5\cdot(-2)^n$ là cấp số nhân. T�
 2. Tính $u_1$.
 
 ::solution
-Ta có $\dfrac{u_{n+1}}{u_n}=\dfrac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2$ không đổi, nên $(u_n)$ là cấp số nhân với công bội $q=-2$ và $u_1=5\cdot(-2)=-10$.
+Để chứng minh $(u_n)$ là cấp số nhân, ta chứng minh tỉ số $\dfrac{u_{n+1}}{u_n}$ là một hằng số với mọi $n\in\mathbb{N}^*$ (các số hạng đều khác $0$ vì $5\cdot(-2)^n\ne0$).
+
+Ta có
+$$\frac{u_{n+1}}{u_n}=\frac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2,$$
+không phụ thuộc vào $n$. Do đó $(u_n)$ là cấp số nhân với công bội $q=-2$.
+
+Số hạng đầu là $u_1=5\cdot(-2)^1=-10$.
+
+Vậy $(u_n)$ là cấp số nhân với $u_1=-10$ và công bội $q=-2$.
 
 **Đáp số.** Cấp số nhân với $u_1=-10$, $q=-2$.
 :::
@@ -202,7 +210,15 @@ Cho cấp số nhân có $u_1=2$ và $q=3$. Tính $u_6$. Số $1458$ là số h�
 2. Giải $2\cdot3^{n-1}=1458$.
 
 ::solution
-Ta có $u_6=2\cdot3^5=486$. Giải $2\cdot3^{n-1}=1458$ ta được $3^{n-1}=729=3^6$, nên $n-1=6$ và $n=7$.
+Áp dụng công thức số hạng tổng quát $u_n=u_1q^{n-1}$ với $u_1=2$, $q=3$, ta có
+$$u_6=2\cdot3^{6-1}=2\cdot3^5=2\cdot243=486.$$
+
+Giả sử $1458$ là số hạng thứ $n$, tức là $u_n=1458$. Khi đó
+$$2\cdot3^{n-1}=1458\iff3^{n-1}=729=3^6.$$
+
+Suy ra $n-1=6$, tức là $n=7$ (thoả mãn $n\in\mathbb{N}^*$).
+
+Vậy $u_6=486$ và $1458$ là số hạng thứ $7$.
 
 **Đáp số.** $u_6=486$; $1458$ là số hạng thứ $7$.
 :::
@@ -218,7 +234,19 @@ Cho cấp số nhân có $u_2=-6$ và $u_5=48$. Tìm $u_1$, công bội $q$ và 
 2. Tính $u_1=\dfrac{u_2}{q}$, rồi $u_8$.
 
 ::solution
-Ta có $q^3=\dfrac{48}{-6}=-8$ nên $q=-2$. Khi đó $u_1=\dfrac{-6}{-2}=3$ và $u_8=3\cdot(-2)^7=-384$.
+Gọi $q$ là công bội. Theo công thức $u_n=u_1q^{n-1}$, ta có $u_2=u_1q$ và $u_5=u_1q^4$.
+
+Chia hai đẳng thức cho nhau (vì $u_2=-6\ne0$ nên $u_1\ne0$, $q\ne0$):
+$$\frac{u_5}{u_2}=q^3=\frac{48}{-6}=-8.$$
+
+Suy ra $q=-2$.
+
+Từ $u_2=u_1q$ ta có $u_1=\dfrac{u_2}{q}=\dfrac{-6}{-2}=3$.
+
+Khi đó
+$$u_8=u_1q^7=3\cdot(-2)^7=3\cdot(-128)=-384.$$
+
+Vậy $u_1=3$, công bội $q=-2$ và $u_8=-384$.
 
 **Đáp số.** $u_1=3$, $q=-2$, $u_8=-384$.
 :::
@@ -234,9 +262,15 @@ Tính a) $5+10+20+\dots$ ($8$ số hạng); b) tổng $5$ số hạng đầu c�
 2. Thay vào công thức.
 
 ::solution
-a) $u_1=5$, $q=2$, $n=8$: $S_8=\dfrac{5\left(1-2^8\right)}{1-2}=5\cdot255=1275$.
+Tổng $n$ số hạng đầu của cấp số nhân có công bội $q\ne1$ là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$.
 
-b) $S_5=\dfrac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\dfrac{27}{2}\cdot\dfrac{242}{243}=\dfrac{121}{9}$.
+a) Dãy $5, 10, 20,\dots$ là cấp số nhân có $u_1=5$ và $q=\dfrac{10}{5}=2$. Với $n=8$:
+$$S_8=\frac{5\left(1-2^8\right)}{1-2}=\frac{5\cdot(-255)}{-1}=5\cdot255=1275.$$
+Vậy tổng $8$ số hạng đầu là $1275$.
+
+b) Với $u_1=9$, $q=\dfrac13$ và $n=5$:
+$$S_5=\frac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\frac{9\cdot\frac{242}{243}}{\frac23}=\frac{27}{2}\cdot\frac{242}{243}=\frac{121}{9}.$$
+Vậy tổng $5$ số hạng đầu là $\dfrac{121}{9}$.
 
 **Đáp số.** a) $1275$; b) $\dfrac{121}{9}$.
 :::
@@ -252,7 +286,17 @@ Tìm $x$ để ba số $1$, $x+2$, $3x+4$ theo thứ tự lập thành một c�
 2. Giải phương trình bậc hai rồi thử lại.
 
 ::solution
-Ta có $x^2+4x+4=3x+4$, tức $x^2+x=0$, suy ra $x=0$ hoặc $x=-1$. Với $x=0$ ba số là $1, 2, 4$ (công bội $2$); với $x=-1$ ba số là $1, 1, 1$ (công bội $1$).
+Ba số $a$, $b$, $c$ theo thứ tự lập thành một cấp số nhân khi $b^2=ac$. Với ba số $1$, $x+2$, $3x+4$, điều kiện là
+$$(x+2)^2=1\cdot(3x+4).$$
+
+Khai triển và rút gọn:
+$$x^2+4x+4=3x+4\iff x^2+x=0\iff x(x+1)=0.$$
+
+Suy ra $x=0$ hoặc $x=-1$.
+
+Kiểm tra: với $x=0$ ba số là $1, 2, 4$, là cấp số nhân công bội $2$; với $x=-1$ ba số là $1, 1, 1$, là cấp số nhân công bội $1$. Cả hai giá trị đều thoả mãn.
+
+Vậy $x=0$ hoặc $x=-1$.
 
 **Đáp số.** $x=0$ hoặc $x=-1$.
 :::
@@ -268,7 +312,16 @@ Giả sử gửi $200$ triệu đồng với lãi suất $7\%$ một năm, lãi 
 2. Tính số tiền theo lãi đơn rồi lấy hiệu.
 
 ::solution
-Lãi kép: $200\cdot1{,}07^5\approx280{,}51$ (triệu đồng). Lãi đơn: $200+5\cdot14=270$ (triệu đồng). Hiệu là $280{,}51-270=10{,}51$ (triệu đồng).
+Gọi số tiền sau $5$ năm theo lãi kép là $A$ (triệu đồng). Vì lãi kép nên số tiền sau mỗi năm gấp $1{,}07$ lần số tiền năm trước; số tiền các năm lập thành cấp số nhân với công bội $1{,}07$. Do đó
+$$A=200\cdot1{,}07^5\approx280{,}51\ \text{(triệu đồng)}.$$
+
+Với lãi đơn, mỗi năm chỉ sinh lãi trên số tiền gốc: $200\cdot7\%=14$ (triệu đồng). Số tiền sau $5$ năm là
+$$200+5\cdot14=270\ \text{(triệu đồng)}.$$
+
+Chênh lệch giữa hai cách tính là
+$$280{,}51-270=10{,}51\ \text{(triệu đồng)}.$$
+
+Vậy sau $5$ năm số tiền là khoảng $280{,}51$ triệu đồng, hơn trường hợp tính lãi đơn khoảng $10{,}51$ triệu đồng.
 
 **Đáp số.** Khoảng $280{,}51$ triệu đồng; hơn lãi đơn khoảng $10{,}51$ triệu đồng.
 :::
@@ -293,13 +346,19 @@ d) $u_7=-\dfrac19$.
 3. d) Tính $u_7$.
 
 ::solution
-a) **Đúng**: $\dfrac{-27}{81}=-\dfrac13$.
+Dãy $81, -27, 9, -3,\dots$ là cấp số nhân có $u_1=81$.
 
-b) **Đúng**: $u_n=u_1q^{n-1}$ với $u_1=81$ và $q=-\dfrac13$.
+a) **Đúng.** Công bội là $q=\dfrac{u_2}{u_1}=\dfrac{-27}{81}=-\dfrac13$.
 
-c) **Sai**: $u_1=81>u_2=-27$ nhưng $u_2=-27<u_3=9$, nên dãy lúc giảm lúc tăng.
+b) **Đúng.** Số hạng tổng quát là $u_n=u_1q^{n-1}$ với $u_1=81$ và $q=-\dfrac13$, tức là $u_n=81\cdot\left(-\dfrac13\right)^{n-1}$.
 
-d) **Sai**: $u_7=81\cdot\left(-\dfrac13\right)^6=\dfrac{81}{729}=\dfrac19$, không phải $-\dfrac19$.
+c) **Sai.** Ta có $u_1=81>u_2=-27$ nhưng $u_2=-27<u_3=9$. Dãy lúc giảm lúc tăng nên không phải là dãy số giảm.
+
+d) **Sai.** Ta có
+$$u_7=81\cdot\left(-\frac13\right)^6=\frac{81}{729}=\frac19,$$
+không phải $-\dfrac19$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -315,7 +374,12 @@ Giả sử có thể gấp đôi một tờ giấy dày $0{,}1$ mm liên tiếp 
 2. Thay $n=8$.
 
 ::solution
-Độ dày sau $8$ lần gấp là $0{,}1\cdot2^8=0{,}1\cdot256=25{,}6$ (mm).
+Mỗi lần gấp đôi, độ dày của tập giấy gấp $2$ lần độ dày trước đó. Gọi $u_k$ (mm) là độ dày sau $k$ lần gấp, với $u_0=0{,}1$. Khi đó $(u_k)$ là cấp số nhân có công bội $q=2$, nên $u_k=0{,}1\cdot2^k$.
+
+Với $k=8$:
+$$u_8=0{,}1\cdot2^8=0{,}1\cdot256=25{,}6\ \text{(mm)}.$$
+
+Vậy độ dày của tập giấy sau $8$ lần gấp là $25{,}6$ mm.
 
 **Đáp số.** $25{,}6$ mm.
 :::
@@ -331,7 +395,14 @@ Chứng minh nếu $(u_n)$ là cấp số cộng có công sai $d$ thì dãy $v_
 2. Dùng $u_{n+1}-u_n=d$.
 
 ::solution
-Ta có $\dfrac{v_{n+1}}{v_n}=\dfrac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d$ không đổi với mọi $n$. Vậy $(v_n)$ là cấp số nhân có công bội $2^d$.
+Vì $(u_n)$ là cấp số cộng có công sai $d$ nên $u_{n+1}-u_n=d$ với mọi $n\in\mathbb{N}^*$.
+
+Dãy $v_n=2^{u_n}$ có các số hạng đều dương (nên khác $0$). Xét tỉ số hai số hạng liên tiếp:
+$$\frac{v_{n+1}}{v_n}=\frac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d.$$
+
+Tỉ số này bằng $2^d$, không đổi với mọi $n$.
+
+Vậy $(v_n)$ là cấp số nhân có công bội $2^d$.
 
 **Đáp số.** $(v_n)$ là cấp số nhân với công bội $2^d$.
 :::
@@ -347,7 +418,22 @@ Tìm ba số lập thành một cấp số nhân có tổng bằng $14$ và tíc
 2. Dùng tổng bằng $14$ để tìm $q$.
 
 ::solution
-Tích $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$ nên $a=4$. Tổng $\dfrac4q+4+4q=14$ cho $\dfrac4q+4q=10$, tức $4q^2-10q+4=0$, hay $2q^2-5q+2=0$. Suy ra $q=2$ hoặc $q=\dfrac12$. Ba số là $2, 4, 8$ (hoặc $8, 4, 2$ theo thứ tự ngược lại).
+Gọi ba số cần tìm là $\dfrac aq$, $a$, $aq$ (với $a\ne0$, $q\ne0$), theo thứ tự lập thành cấp số nhân công bội $q$.
+
+Tích của ba số bằng $64$ nên
+$$\frac aq\cdot a\cdot aq=a^3=64\iff a=4.$$
+
+Tổng của ba số bằng $14$ nên
+$$\frac4q+4+4q=14\iff\frac4q+4q=10.$$
+
+Nhân hai vế với $q\ne0$ ta được $4+4q^2=10q$, tức là
+$$4q^2-10q+4=0\iff2q^2-5q+2=0.$$
+
+Phương trình có $\Delta=25-16=9$, nên $q=\dfrac{5+3}{4}=2$ hoặc $q=\dfrac{5-3}{4}=\dfrac12$ (đều khác $0$).
+
+Với $q=2$, ba số là $2, 4, 8$. Với $q=\dfrac12$, ba số là $8, 4, 2$. Kiểm tra: $2+4+8=14$ và $2\cdot4\cdot8=64$.
+
+Vậy ba số cần tìm là $2$, $4$, $8$ (hoặc $8$, $4$, $2$ theo thứ tự ngược lại).
 
 **Đáp số.** Ba số là $2$, $4$, $8$ (hoặc $8$, $4$, $2$).
 :::

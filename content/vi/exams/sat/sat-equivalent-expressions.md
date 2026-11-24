@@ -152,7 +152,19 @@ D. $9a^5b$
 2. Chia hệ số cho hệ số, lũy thừa cho lũy thừa.
 
 ::solution
-$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. Đáp án là **C**. Phương án A bỏ mất hệ số, còn phương án D chia $27$ cho $3$ thay vì cho $9$.
+Với $a\ne0$ và $b\ne0$, ta rút gọn biểu thức bằng các quy tắc $(xy)^n=x^ny^n$, $(x^m)^n=x^{mn}$ và $\dfrac{x^m}{x^n}=x^{m-n}$.
+
+Luỹ thừa của tích ở tử số là
+$$(3a^2b)^3=3^3\cdot\left(a^2\right)^3\cdot b^3=27a^6b^3.$$
+
+Do đó
+$$\frac{(3a^2b)^3}{9ab^2}=\frac{27a^6b^3}{9ab^2}=\frac{27}{9}\cdot a^{6-1}\cdot b^{3-2}=3a^5b.$$
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án A bỏ mất hệ số $3$; phương án D chia $27$ cho $3$ thay vì chia cho $9$.
+
+**Đáp số.** C.
 :::
 
 :::exercise Trắc nghiệm
@@ -170,7 +182,19 @@ D. $x-2$
 2. Tách hạng tử giữa rồi nhóm.
 
 ::solution
-$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. Đáp án là **C**. Kiểm tra: tại $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
+Ta phân tích $3x^2-10x-8$ thành nhân tử. Tích của hệ số $x^2$ và hệ số tự do là $3\cdot(-8)=-24$. Hai số có tích $-24$ và tổng $-10$ là $-12$ và $2$.
+
+Tách hạng tử $-10x=-12x+2x$ rồi nhóm, ta được
+$$\begin{aligned}3x^2-10x-8&=3x^2-12x+2x-8\\ &=3x(x-4)+2(x-4)\\ &=(3x+2)(x-4).\end{aligned}$$
+
+Như vậy các nhân tử bậc nhất của biểu thức là $3x+2$ và $x-4$. Trong bốn phương án chỉ có $3x+2$ xuất hiện (phương án C).
+
+Kiểm tra: $3x+2=0$ khi $x=-\dfrac23$, và tại giá trị này
+$$3\cdot\frac49+\frac{20}{3}-8=\frac43+\frac{20}{3}-8=0.$$
+
+Vậy chọn **C**.
+
+**Đáp số.** C.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -184,7 +208,18 @@ Trong đẳng thức $(2x+k)(x-4)=2x^2-5x-12$, $k$ là hằng số và đẳng t
 2. Cho $k-8=-5$ rồi kiểm tra hệ số tự do.
 
 ::solution
-$k-8=-5\iff k=3$, và hệ số tự do là $-4\cdot3=-12$, khớp với đề. Đáp số là $3$.
+Khai triển vế trái của đẳng thức:
+$$(2x+k)(x-4)=2x^2-8x+kx-4k=2x^2+(k-8)x-4k.$$
+
+Đẳng thức đúng với mọi $x$ nên các hệ số tương ứng của hai vế phải bằng nhau. So với $2x^2-5x-12$, ta có hệ số của $x$ là
+$$k-8=-5,$$
+suy ra $k=3$.
+
+Kiểm tra bằng hệ số tự do: $-4k=-4\cdot3=-12$, khớp với hệ số tự do $-12$ ở vế phải.
+
+Vậy $k=3$.
+
+**Đáp số.** $3$.
 :::
 
 :::exercise Trắc nghiệm
@@ -202,7 +237,16 @@ D. $\sqrt[3]{x}$
 2. Viết kết quả trở lại dạng căn.
 
 ::solution
-$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, và $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. Đáp án là **B**.
+Với $x>0$, ta dùng quy tắc $x^m\cdot x^n=x^{m+n}$ và viết $\sqrt x=x^{\frac12}$. Khi đó
+$$x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x=x^{\frac23}\cdot x^{\frac13}\cdot x^{\frac12}=x^{\frac23+\frac13+\frac12}.$$
+
+Ta có $\dfrac23+\dfrac13+\dfrac12=1+\dfrac12=\dfrac32$, nên biểu thức bằng $x^{\frac32}$.
+
+Tách $x^{\frac32}=x^{1+\frac12}=x\cdot x^{\frac12}=x\sqrt x$.
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Trắc nghiệm
@@ -220,7 +264,17 @@ D. $h=\dfrac{A(b_1+b_2)}{2}$
 2. Chia cho $b_1+b_2$.
 
 ::solution
-$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. Đáp án là **A**.
+Cần rút $h$ từ công thức diện tích hình thang $A=\dfrac12h(b_1+b_2)$.
+
+Nhân hai vế với $2$, ta được
+$$2A=h(b_1+b_2).$$
+
+Vì $b_1$, $b_2$ là độ dài hai đáy nên $b_1+b_2>0$. Chia hai vế cho $b_1+b_2$, ta được
+$$h=\frac{2A}{b_1+b_2}.$$
+
+Vậy chọn **A**.
+
+**Đáp số.** A.
 :::
 
 ## Bài tập vận dụng
@@ -236,7 +290,18 @@ Một khu vườn hình vuông có cạnh $x$ mét. Một lối đi rộng $2$ m
 2. Khai triển $(x+4)^2-x^2$.
 
 ::solution
-$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. Khi $x=10$, lối đi có diện tích $96$ mét vuông. Kiểm tra: $14^2-10^2=196-100=96$.
+Gọi $x$ (m) là độ dài cạnh khu vườn hình vuông ($x>0$). Lối đi rộng $2$ m chạy vòng quanh bên ngoài nên hình vuông ngoài (gồm khu vườn và lối đi) có cạnh $x+2\cdot2=x+4$ (m).
+
+Diện tích lối đi bằng diện tích hình vuông ngoài trừ diện tích khu vườn:
+$$\begin{aligned}S&=(x+4)^2-x^2\\ &=x^2+8x+16-x^2\\ &=8x+16\ (\text{m}^2).\end{aligned}$$
+
+Khi $x=10$, ta có $S=8\cdot10+16=96$ (m²).
+
+Kiểm tra: $14^2-10^2=196-100=96$.
+
+Vậy biểu thức rút gọn của diện tích lối đi là $8x+16$ mét vuông, và khi $x=10$ diện tích đó bằng $96$ mét vuông.
+
+**Đáp số.** $8x+16$ mét vuông; $96$ mét vuông.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -250,7 +315,19 @@ Nếu $x^2-y^2=48$ và $x+y=8$ thì giá trị của $x-y$ bằng bao nhiêu?
 2. Thay $x+y=8$.
 
 ::solution
-$48=8(x-y)$, nên $x-y=6$. (Ở đây $x=7$, $y=1$.)
+Phân tích hiệu hai bình phương, ta có
+$$x^2-y^2=(x-y)(x+y).$$
+
+Thay $x^2-y^2=48$ và $x+y=8$ vào đẳng thức trên, ta được
+$$48=(x-y)\cdot8.$$
+
+Chia hai vế cho $8$ (khác $0$), ta được $x-y=6$.
+
+Kiểm tra: từ $x+y=8$ và $x-y=6$ suy ra $x=7$, $y=1$; khi đó $x^2-y^2=49-1=48$.
+
+Vậy $x-y=6$.
+
+**Đáp số.** $6$.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -264,7 +341,20 @@ Nếu $x+\dfrac1x=5$ thì giá trị của $x^2+\dfrac{1}{x^2}$ bằng bao nhiê
 2. Trừ đi $2$.
 
 ::solution
-$25=x^2+2+\dfrac1{x^2}$, nên $x^2+\dfrac1{x^2}=23$.
+Điều kiện xác định: $x\ne0$.
+
+Bình phương hai vế của $x+\dfrac1x=5$, ta được
+$$\left(x+\frac1x\right)^2=25.$$
+
+Khai triển vế trái bằng hằng đẳng thức $(u+v)^2=u^2+2uv+v^2$, ta có
+$$x^2+2\cdot x\cdot\frac1x+\frac{1}{x^2}=x^2+2+\frac{1}{x^2}.$$
+
+Do đó $x^2+2+\dfrac1{x^2}=25$, suy ra
+$$x^2+\frac1{x^2}=25-2=23.$$
+
+Vậy $x^2+\dfrac1{x^2}=23$.
+
+**Đáp số.** $23$.
 :::
 
 :::exercise Thử thách
@@ -278,7 +368,19 @@ Với mọi $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, trong đó $a$ và $b$ là c
 2. Giản ước $x-2$.
 
 ::solution
-Hai số đó là $-6$ và $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. Vậy biểu thức bằng $3x+1$, nên $a=3$, $b=1$ và $a+b=4$.
+Điều kiện xác định: $x\ne2$.
+
+Ta phân tích tử số thành nhân tử. Tích của hệ số $x^2$ và hệ số tự do là $3\cdot(-2)=-6$. Hai số có tích $-6$ và tổng $-5$ là $-6$ và $1$. Do đó
+$$\begin{aligned}3x^2-5x-2&=3x^2-6x+x-2\\ &=3x(x-2)+(x-2)\\ &=(3x+1)(x-2).\end{aligned}$$
+
+Với $x\ne2$, ta rút gọn thừa số $x-2$:
+$$\frac{3x^2-5x-2}{x-2}=\frac{(3x+1)(x-2)}{x-2}=3x+1.$$
+
+Đồng nhất với $ax+b$ (đúng với mọi $x\ne2$), ta được $a=3$ và $b=1$. Do đó $a+b=3+1=4$.
+
+Vậy $a+b=4$.
+
+**Đáp số.** $4$.
 :::
 
 :::quiz

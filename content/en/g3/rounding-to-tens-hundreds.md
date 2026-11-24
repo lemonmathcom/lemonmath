@@ -151,11 +151,15 @@ Round to the nearest ten: a) $23$; b) $68$; c) $95$.
 1. What is the ones digit of each number?
 
 ::solution
-a) $23$ has ones digit $3$, so $23\approx 20$.
+When rounding to the nearest ten, we look at the ones digit: if it is less than $5$ we round down, and if it is $5$ or more we round up.
 
-b) $68$ has ones digit $8$, so $68\approx 70$.
+a) $23$ has ones digit $3$, which is less than $5$, so we keep $2$ tens. Hence $23\approx20$.
 
-c) $95$ has ones digit $5$, so $95\approx 100$.
+b) $68$ has ones digit $8$, which is $5$ or more, so we increase $6$ tens to $7$ tens. Hence $68\approx70$.
+
+c) $95$ has ones digit $5$, which is $5$ or more, so we increase $9$ tens to $10$ tens, that is $100$. Hence $95\approx100$.
+
+So rounding to the nearest ten, we get $23\approx20$; $68\approx70$; $95\approx100$.
 
 **Answer.** a) $20$; b) $70$; c) $100$.
 :::
@@ -170,11 +174,15 @@ Round to the nearest ten: a) $154$; b) $281$; c) $399$.
 1. For $399$, rounding up turns $39$ tens into how many tens?
 
 ::solution
-a) $154$: digit $4$, round down, $154\approx 150$.
+We look at the ones digit of each number: if it is less than $5$ we round down, and if it is $5$ or more we round up.
 
-b) $281$: digit $1$, round down, $281\approx 280$.
+a) $154$ has ones digit $4$, which is less than $5$, so we round down. Hence $154\approx150$.
 
-c) $399$: digit $9$, round up, $39$ tens becomes $40$ tens, $399\approx 400$.
+b) $281$ has ones digit $1$, which is less than $5$, so we round down. Hence $281\approx280$.
+
+c) $399$ has ones digit $9$, which is $5$ or more, so we round up: $39$ tens becomes $40$ tens. Hence $399\approx400$.
+
+So rounding to the nearest ten, we get $154\approx150$; $281\approx280$; $399\approx400$.
 
 **Answer.** a) $150$; b) $280$; c) $400$.
 :::
@@ -189,11 +197,15 @@ Round to the nearest hundred: a) $326$; b) $750$; c) $899$.
 1. What is the tens digit of each number?
 
 ::solution
-a) $326$: the tens digit is $2$, so $326\approx 300$.
+When rounding to the nearest hundred, we look at the tens digit: if it is less than $5$ we round down, and if it is $5$ or more we round up.
 
-b) $750$: the tens digit is $5$, so $750\approx 800$.
+a) $326$ has tens digit $2$, which is less than $5$, so we keep $3$ hundreds. Hence $326\approx300$.
 
-c) $899$: the tens digit is $9$, so $899\approx 900$.
+b) $750$ has tens digit $5$, which is $5$ or more, so we increase $7$ hundreds to $8$ hundreds. Hence $750\approx800$.
+
+c) $899$ has tens digit $9$, which is $5$ or more, so we increase $8$ hundreds to $9$ hundreds. Hence $899\approx900$.
+
+So rounding to the nearest hundred, we get $326\approx300$; $750\approx800$; $899\approx900$.
 
 **Answer.** a) $300$; b) $800$; c) $900$.
 :::
@@ -208,9 +220,15 @@ A primary school has $637$ pupils. Round the number of pupils to the nearest ten
 1. Which two digits of $637$ do you need to look at?
 
 ::solution
-To the nearest ten: the ones digit is $7$, round up, $637\approx 640$.
+Solution
 
-To the nearest hundred: the tens digit is $3$, round down, $637\approx 600$.
+Rounding the number of pupils $637$ to the nearest ten: the ones digit is $7$, which is $5$ or more, so we round up. We have
+$$637\approx640.$$
+
+Rounding the number of pupils $637$ to the nearest hundred: the tens digit is $3$, which is less than $5$, so we round down. We have
+$$637\approx600.$$
+
+So the school has about $640$ pupils to the nearest ten and about $600$ pupils to the nearest hundred.
 
 **Answer.** About $640$ pupils (nearest ten) and about $600$ pupils (nearest hundred).
 :::
@@ -225,9 +243,20 @@ Estimate $38+41$ by rounding each number to the nearest ten, then work out the e
 1. Round $38$ and $41$ to the nearest ten.
 
 ::solution
-$38\approx 40$ and $41\approx 40$, so the estimated total is $40+40=80$.
+First, we round each number to the nearest ten:
 
-The exact total is $38+41=79$. The numbers $80$ and $79$ are very close.
+- $38$ has ones digit $8$, which is $5$ or more, so $38\approx40$.
+- $41$ has ones digit $1$, which is less than $5$, so $41\approx40$.
+
+The estimated total is
+$$40+40=80.$$
+
+The exact total is
+$$38+41=79.$$
+
+Comparing: the numbers $80$ and $79$ differ by only $1$, so they are very close. Hence rounding and then adding gives a good estimate.
+
+So the estimate of $38+41$ is $80$ and the exact total is $79$.
 
 **Answer.** Estimate $80$; exact total $79$.
 :::
@@ -242,9 +271,15 @@ Remember four-digit numbers. Round $998$ to the nearest ten and to the nearest h
 1. For the nearest ten: $99$ tens plus $1$ ten makes how many tens?
 
 ::solution
-To the nearest ten: the ones digit is $8$, round up, $99$ tens becomes $100$ tens, so $998\approx 1000$.
+We round $998$ first to the nearest ten and then to the nearest hundred.
 
-To the nearest hundred: the tens digit is $9$, round up, $9$ hundreds becomes $10$ hundreds, so $998\approx 1000$.
+Rounding to the nearest ten: the ones digit is $8$, which is $5$ or more, so we round up. $99$ tens plus $1$ ten becomes $100$ tens, that is $1000$. Hence
+$$998\approx1000.$$
+
+Rounding to the nearest hundred: the tens digit is $9$, which is $5$ or more, so we round up. $9$ hundreds plus $1$ hundred becomes $10$ hundreds, that is $1000$. Hence
+$$998\approx1000.$$
+
+So $998$ rounded to the nearest ten or to the nearest hundred is $1000$ in both cases.
 
 **Answer.** Both are $1000$.
 :::
@@ -259,9 +294,16 @@ Find all the two-digit numbers that round to $60$ when rounded to the nearest te
 1. List the numbers that round down to $60$, then those that round up to $60$.
 
 ::solution
-Numbers with tens digit $6$ and ones digit from $0$ to $4$: $60$, $61$, $62$, $63$, $64$. Numbers with tens digit $5$ and ones digit from $5$ to $9$: $55$, $56$, $57$, $58$, $59$.
+A two-digit number that rounds to $60$ to the nearest ten must lie closest to $60$. We consider two cases:
 
-There are $10$ numbers: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+- Numbers with tens digit $6$: to round down to $60$, the ones digit must be less than $5$, that is from $0$ to $4$. We get $60$, $61$, $62$, $63$, $64$.
+- Numbers with tens digit $5$: to round up to $60$, the ones digit must be $5$ or more, that is from $5$ to $9$. We get $55$, $56$, $57$, $58$, $59$.
+
+Numbers whose tens digit is neither $5$ nor $6$ cannot round to $60$.
+
+The number of numbers found is $5+5=10$.
+
+So there are $10$ such numbers: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
 
 **Answer.** $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
 :::
@@ -277,9 +319,13 @@ What are the smallest and the largest three-digit numbers that round to $500$ wh
 2. Find the largest number that rounds down to $500$.
 
 ::solution
-The smallest number: $450$, because its tens digit is $5$ so it rounds up to $500$ ($449\approx 400$).
+Rounding to the nearest hundred gives $500$, so we consider three-digit numbers with hundreds digit $4$ that round up, or with hundreds digit $5$ that round down.
 
-The largest number: $549$, because its tens digit is $4$ so it rounds down to $500$ ($550\approx 600$).
+The smallest number: it has hundreds digit $4$ and must round up to $500$, so its tens digit must be $5$ or more. The smallest tens digit is $5$ and the smallest ones digit is $0$, giving $450$. The number just before it, $449$, has tens digit $4$, so $449\approx400$, which does not work.
+
+The largest number: it has hundreds digit $5$ and must round down to $500$, so its tens digit must be less than $5$. The largest tens digit is $4$ and the largest ones digit is $9$, giving $549$. The number just after it, $550$, has tens digit $5$, so $550\approx600$, which does not work.
+
+So the smallest number is $450$ and the largest number is $549$.
 
 **Answer.** The smallest number is $450$; the largest number is $549$.
 :::

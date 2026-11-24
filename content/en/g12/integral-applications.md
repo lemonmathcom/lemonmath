@@ -199,7 +199,10 @@ Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and 
 2. Substitute the limits.
 
 ::solution
-Since $x^2+1>0$ on $[0, 3]$, $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+The region is bounded by the graph of $y=x^2+1$, the $x$-axis and the lines $x=0$, $x=3$.
+
+Since $x^2+1>0$ for every $x$, the graph lies above the $x$-axis on $[0, 3]$. Using the area formula, we have
+$$S=\int_0^3(x^2+1)\,dx=\left[\frac{x^3}{3}+x\right]_0^3=\left(\frac{27}{3}+3\right)-0=9+3=12.$$
 
 So the area of the region is $12$.
 
@@ -217,7 +220,18 @@ Find the area of the region bounded by the graph of $y=x^3$, the $x$-axis and th
 2. Take the absolute value of each part and add.
 
 ::solution
-Since $x^3$ changes sign at $x=0$, we split the interval: $\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
+The region is bounded by the graph of $y=x^3$, the $x$-axis and the lines $x=-1$, $x=2$.
+
+We have $x^3=0\iff x=0$, with $x^3<0$ for $x<0$ and $x^3>0$ for $x>0$. Since $x^3$ changes sign at $x=0\in[-1, 2]$, we split $[-1, 2]$ into $[-1, 0]$ and $[0, 2]$:
+$$S=\int_{-1}^2|x^3|\,dx=\int_{-1}^0|x^3|\,dx+\int_0^2|x^3|\,dx.$$
+
+We compute each integral:
+$$\int_{-1}^0x^3\,dx=\left[\frac{x^4}{4}\right]_{-1}^0=0-\frac14=-\frac14,\qquad\int_0^2x^3\,dx=\left[\frac{x^4}{4}\right]_0^2=4-0=4.$$
+
+Hence
+$$S=\left|-\frac14\right|+|4|=\frac14+4=\frac{17}{4}.$$
+
+So the area of the region is $\dfrac{17}{4}$.
 
 **Answer.** $\dfrac{17}{4}$.
 :::
@@ -233,9 +247,15 @@ Find the area of the region bounded by the parabola $y=x^2$ and the line $y=2x$.
 2. Test $x=1$ to see which graph is on top.
 
 ::solution
-We have $x^2=2x\iff x=0$ or $x=2$. At $x=1$ we have $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
+The intersection points of the parabola $y=x^2$ and the line $y=2x$ satisfy
+$$x^2=2x\iff x(x-2)=0\iff x=0\ \text{or}\ x=2.$$
 
-So $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+On the interval $(0, 2)$, taking $x=1$ gives $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
+
+Using the formula for the area between two graphs, we have
+$$S=\int_0^2(2x-x^2)\,dx=\left[x^2-\frac{x^3}{3}\right]_0^2=4-\frac83=\frac43.$$
+
+So the area of the region is $\dfrac43$.
 
 **Answer.** $\dfrac43$.
 :::
@@ -277,13 +297,21 @@ d) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\dfrac
 2. Find the area using $4-x^2$, then evaluate $\pi\displaystyle\int_{-2}^2(x^2-4)^2dx$.
 
 ::solution
-a) **True**. We have $x^2-4=0\iff x=\pm2$.
+The region $H$ is bounded by the graph of $y=x^2-4$ and the $x$-axis. The intersection points satisfy $x^2-4=0\iff x=\pm2$.
 
-b) **False**. That integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
+a) **True.** The graph meets the $x$-axis at $x=-2$ and $x=2$, so $H$ lies between the lines $x=-2$ and $x=2$.
 
-c) **True**. Since $x^2-4\le0$ on $[-2, 2]$, the area is $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+b) **False.** We have $x^2-4\le0$ on $[-2, 2]$, so $\displaystyle\int_{-2}^2(x^2-4)\,dx$ is negative. Indeed,
+$$\int_{-2}^2(x^2-4)\,dx=\left[\frac{x^3}{3}-4x\right]_{-2}^2=-\frac{32}{3}<0,$$
+so it cannot be the area of $H$.
 
-d) **True**. We have $(x^2-4)^2=x^4-8x^2+16$ and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+c) **True.** Since $x^2-4\le0$ on $[-2, 2]$, the area of $H$ is
+$$S=\int_{-2}^2|x^2-4|\,dx=\int_{-2}^2(4-x^2)\,dx=\left[4x-\frac{x^3}{3}\right]_{-2}^2=\frac{16}{3}-\left(-\frac{16}{3}\right)=\frac{32}{3}.$$
+
+d) **True.** The volume of the solid obtained by rotating $H$ about the $x$-axis is $V=\pi\displaystyle\int_{-2}^2(x^2-4)^2\,dx$. We have $(x^2-4)^2=x^4-8x^2+16$, so
+$$V=\pi\left[\frac{x^5}{5}-\frac{8x^3}{3}+16x\right]_{-2}^2=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}.$$
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -299,9 +327,15 @@ Find the area of the region bounded by the parabola $y=x^2-2x$ and the line $y=x
 2. Evaluate $\displaystyle\int\big(x-(x^2-2x)\big)\,dx$ between the two roots.
 
 ::solution
-The intersection points satisfy $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $(0, 3)$ the line lies above the parabola, hence $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+The intersection points of the parabola $y=x^2-2x$ and the line $y=x$ satisfy
+$$x^2-2x=x\iff x^2-3x=0\iff x(x-3)=0\iff x=0\ \text{or}\ x=3.$$
 
-So the area is $\dfrac92$.
+On the interval $(0, 3)$, taking $x=1$ gives $y=x=1>-1=x^2-2x$, so the line lies above the parabola.
+
+Hence the area of the region is
+$$S=\int_0^3\left[x-(x^2-2x)\right]dx=\int_0^3(3x-x^2)\,dx=\left[\frac{3x^2}{2}-\frac{x^3}{3}\right]_0^3=\frac{27}{2}-9=\frac92.$$
+
+So the area of the region is $\dfrac92=4.5$.
 
 **Answer.** $4.5$.
 :::
@@ -317,9 +351,17 @@ A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and 
 2. Evaluate $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx$, then multiply by the price.
 
 ::solution
-The parabola meets the $x$-axis at $x=\pm1$. The area of the window is $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+Let $S$ (m²) be the area of the window and $T$ (thousand đồng) the cost of the glass.
 
-So the glass costs $2\cdot800=1600$ thousand đồng.
+The parabola $y=1.5-1.5x^2$ meets the $x$-axis when $1.5-1.5x^2=0\iff x^2=1\iff x=\pm1$. So the window is $2$ m wide, as stated, and $y\ge0$ on $[-1, 1]$.
+
+The area of the window is
+$$S=\int_{-1}^1(1.5-1.5x^2)\,dx=\left[1.5x-0.5x^3\right]_{-1}^1=(1.5-0.5)-(-1.5+0.5)=1-(-1)=2\ (\text{m}^2).$$
+
+The glass costs $800$ thousand đồng per square metre, so
+$$T=2\cdot800=1600\ (\text{thousand đồng}).$$
+
+So the glass for the window costs $1600$ thousand đồng ($1.6$ million đồng).
 
 **Answer.** $1\,600$ thousand đồng ($1.6$ million đồng).
 :::
@@ -335,7 +377,11 @@ A solid lies between the planes $x=0$ and $x=4$. Its cross-section perpendicular
 2. Evaluate $\displaystyle\int_0^4(4x-x^2)\,dx$.
 
 ::solution
-The cross-section has area $S(x)=x(4-x)=4x-x^2$. Hence $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+The solid lies between the planes $x=0$ and $x=4$. The cross-section perpendicular to the $x$-axis at $x$ $(0\le x\le4)$ is a rectangle with sides $x$ and $4-x$, so its area is
+$$S(x)=x(4-x)=4x-x^2.$$
+
+Using the formula for the volume in terms of cross-sectional area, we have
+$$V=\int_0^4S(x)\,dx=\int_0^4(4x-x^2)\,dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
 
 So the volume of the solid is $\dfrac{32}{3}$.
 
@@ -353,9 +399,12 @@ Find the area of the region bounded by the graph of $y=\sin x$, the $x$-axis and
 2. Use the antiderivative $-\cos x$.
 
 ::solution
-Since $\sin x\ge0$ on $[0, \pi]$, $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+The region is bounded by the graph of $y=\sin x$, the $x$-axis and the lines $x=0$, $x=\pi$.
 
-So the area is $2$.
+Since $\sin x\ge0$ for every $x\in[0, \pi]$, the graph lies above the $x$-axis on this interval. Therefore
+$$S=\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-\cos\pi+\cos0=1-(-1)=2.$$
+
+So the area of the region is $2$.
 
 **Answer.** $2$.
 :::
@@ -371,7 +420,23 @@ Find the area of the region bounded by the graphs of $y=x^3-x$ and $y=3x$.
 2. Evaluate $\displaystyle\int\lvert x^3-4x\rvert\,dx$ on $[-2, 0]$ and $[0, 2]$.
 
 ::solution
-We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
+The intersection points of the graphs $y=x^3-x$ and $y=3x$ satisfy
+$$x^3-x=3x\iff x^3-4x=0\iff x(x-2)(x+2)=0\iff x\in\{-2, 0, 2\}.$$
+
+We examine the sign of the difference $x^3-x-3x=x^3-4x$:
+- On $(-2, 0)$: taking $x=-1$ gives $x^3-4x=3>0$, so the graph of $y=x^3-x$ lies above the line.
+- On $(0, 2)$: taking $x=1$ gives $x^3-4x=-3<0$, so the line lies above the graph of $y=x^3-x$.
+
+Hence the area of the region is
+$$S=\int_{-2}^0(x^3-4x)\,dx+\int_0^2(4x-x^3)\,dx.$$
+
+We compute each integral:
+$$\int_{-2}^0(x^3-4x)\,dx=\left[\frac{x^4}{4}-2x^2\right]_{-2}^0=0-(4-8)=4,$$
+$$\int_0^2(4x-x^3)\,dx=\left[2x^2-\frac{x^4}{4}\right]_0^2=8-4=4.$$
+
+Therefore $S=4+4=8$.
+
+So the area of the region is $8$.
 
 **Answer.** $8$.
 :::

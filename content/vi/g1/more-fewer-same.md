@@ -116,7 +116,14 @@ Có $3$ cái cốc và $4$ cái thìa. Nhóm nào nhiều hơn?
 2. Xem nhóm nào còn thừa.
 
 ::solution
-Hết $3$ cốc thì còn thừa $1$ thìa.
+Ta ghép mỗi cái cốc với một cái thìa. Có $3$ cái cốc nên ghép được $3$ cái thìa.
+
+Số thìa còn thừa là:
+$$4-3=1\ \text{(cái)}$$
+
+Hết cốc mà vẫn còn thừa $1$ cái thìa, nên số thìa nhiều hơn số cốc.
+
+Vậy thìa nhiều hơn cốc.
 
 **Đáp số.** Thìa nhiều hơn cốc.
 :::
@@ -132,7 +139,11 @@ Có $5$ bạn và $5$ chiếc mũ. Mỗi bạn đội một chiếc mũ. Hai nh�
 2. Còn thừa gì không?
 
 ::solution
-Không còn bạn hay mũ nào thừa.
+Mỗi bạn đội một chiếc mũ, tức là ta ghép mỗi bạn với một chiếc mũ.
+
+Có $5$ bạn và $5$ chiếc mũ nên ghép xong thì không còn bạn nào chưa có mũ và không còn chiếc mũ nào thừa.
+
+Vậy số bạn bằng số mũ.
 
 **Đáp số.** Số bạn bằng số mũ.
 :::
@@ -148,7 +159,16 @@ Em hãy nhớ lại bài trước. a) Điền số: $6, 7, \square, 9, 10$. b) C
 2. Ghép mỗi con cá với một con tôm.
 
 ::solution
-a) Sau $7$ là $8$. b) Hết $7$ con cá thì còn thừa $2$ con tôm, nên cá hết trước.
+a) Ta đếm: $6, 7, 8, 9, 10$. Sau $7$ là $8$, nên số cần điền vào ô trống là $8$.
+
+b) Ta ghép mỗi con cá với một con tôm. Có $7$ con cá nên ghép được $7$ con tôm.
+
+Số con tôm còn thừa là:
+$$9-7=2\ \text{(con)}$$
+
+Hết cá mà vẫn còn thừa $2$ con tôm, nên cá hết trước, tức là cá ít hơn tôm.
+
+Vậy a) số cần điền là $8$; b) cá ít hơn tôm.
 
 **Đáp số.** a) $8$. b) Cá ít hơn tôm.
 :::
@@ -164,7 +184,16 @@ Có $6$ con chim và $4$ cái tổ. Mỗi con chim vào một tổ. Còn con chi
 2. Đếm số chim còn lại.
 
 ::solution
-Hết $4$ tổ thì còn thừa $2$ con chim.
+Bài giải
+
+Ta ghép mỗi con chim với một cái tổ. Có $4$ cái tổ nên ghép được $4$ con chim.
+
+Số con chim chưa có tổ là:
+$$6-4=2\ \text{(con)}$$
+
+Hết tổ mà vẫn còn thừa chim, nên còn con chim chưa có tổ.
+
+Vậy còn $2$ con chim chưa có tổ.
 
 **Đáp số.** Còn $2$ con chim chưa có tổ.
 :::
@@ -180,7 +209,14 @@ Hộp to có $3$ viên bi, hộp nhỏ có $5$ viên bi. Bình nói: "Hộp to n
 2. Xem nhóm nào thừa.
 
 ::solution
-Hết $3$ viên bi hộp to thì còn thừa $2$ viên bi hộp nhỏ. Hộp nhỏ nhiều bi hơn.
+Ta ghép mỗi viên bi của hộp to với một viên bi của hộp nhỏ. Hộp to có $3$ viên bi nên ghép được $3$ viên bi của hộp nhỏ.
+
+Số viên bi của hộp nhỏ còn thừa là:
+$$5-3=2\ \text{(viên)}$$
+
+Hết bi của hộp to mà hộp nhỏ vẫn còn thừa $2$ viên, nên hộp nhỏ nhiều bi hơn. Ta cũng có $5>3$.
+
+Vậy Bình nói sai, vì hộp nhỏ nhiều bi hơn hộp to.
 
 **Đáp số.** Sai. Hộp nhỏ nhiều bi hơn.
 :::
@@ -196,7 +232,11 @@ Lan ghép $4$ cái bát với $4$ cái thìa rồi nói: "Bát nhiều hơn thì
 2. Chọn: nhiều hơn, ít hơn hay bằng nhau.
 
 ::solution
-Ghép $4$ bát với $4$ thìa thì không thừa gì. Hai nhóm bằng nhau.
+Ta ghép mỗi cái bát với một cái thìa. Có $4$ cái bát và $4$ cái thìa nên ghép xong thì không còn cái bát nào thừa và không còn cái thìa nào thừa.
+
+Vì không thừa cái nào nên hai nhóm bằng nhau. Lan nói "Bát nhiều hơn thìa" là sai.
+
+Vậy Lan sai vì đã nói bát nhiều hơn thìa; nói đúng là số bát bằng số thìa.
 
 **Đáp số.** Số bát bằng số thìa.
 :::
@@ -219,7 +259,13 @@ b) Hai bạn nào có số kẹo bằng nhau?
 2. Tìm hai số giống nhau.
 
 ::solution
-a) Nam có $7$ kẹo, hơn Mai $2$ kẹo. b) Mai và Hà đều có $5$ kẹo.
+Theo bảng, Mai có $5$ cái kẹo, Nam có $7$ cái kẹo, Hà có $5$ cái kẹo.
+
+a) Ta so sánh số kẹo của từng bạn với Mai. Nam có $7$ cái, mà $7>5$ nên Nam có nhiều kẹo hơn Mai. Nam hơn Mai $7-5=2$ cái kẹo. Hà có $5$ cái kẹo, bằng Mai nên Hà không nhiều hơn Mai. Người có kẹo nhiều hơn Mai là Nam.
+
+b) Mai và Hà đều có $5$ cái kẹo, còn Nam có $7$ cái kẹo. Hai bạn có số kẹo bằng nhau là Mai và Hà.
+
+Vậy a) Nam có kẹo nhiều hơn Mai; b) Mai và Hà có số kẹo bằng nhau.
 
 **Đáp số.** a) Nam. b) Mai và Hà.
 :::
@@ -237,9 +283,18 @@ Nhóm A có $6$ hình tròn, nhóm B có $9$ hình tròn. Cần vẽ thêm mấy
 2. Đếm số hình thừa của B.
 
 ::solution
-Hết $6$ hình của A thì còn thừa $3$ hình của B. Vẽ thêm $3$ hình vào A.
+Bài giải
 
-**Kiểm tra.** A có $6$ và $3$ hình mới, ghép hết $9$ hình của B. Đúng.
+Ta ghép mỗi hình tròn của nhóm A với một hình tròn của nhóm B. Nhóm A có $6$ hình tròn nên ghép được $6$ hình tròn của nhóm B.
+
+Số hình tròn của nhóm B còn thừa là:
+$$9-6=3\ \text{(hình)}$$
+
+Để hai nhóm bằng nhau, ta cần vẽ thêm vào nhóm A đúng số hình tròn đang thừa ở nhóm B, tức là $3$ hình tròn.
+
+Kiểm tra: nhóm A có $6$ hình tròn, vẽ thêm $3$ hình tròn thì được $6+3=9$ hình tròn, bằng số hình tròn của nhóm B. Đúng.
+
+Vậy cần vẽ thêm $3$ hình tròn vào nhóm A.
 
 **Đáp số.** $3$ hình tròn.
 :::

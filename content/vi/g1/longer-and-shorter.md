@@ -167,7 +167,11 @@ Dây đỏ dài hơn dây xanh, dây xanh dài hơn dây vàng. Dây nào dài n
 2. Dây đầu tiên và dây cuối cùng là dây nào?
 
 ::solution
-Đỏ dài hơn xanh, xanh dài hơn vàng. Vậy thứ tự từ dài đến ngắn là đỏ, xanh, vàng.
+Dây đỏ dài hơn dây xanh, dây xanh dài hơn dây vàng. Do đó dây đỏ dài hơn dây vàng.
+
+Thứ tự từ dài đến ngắn là: dây đỏ, dây xanh, dây vàng.
+
+Vậy dây đỏ dài nhất và dây vàng ngắn nhất.
 
 **Đáp số.** Dây đỏ dài nhất, dây vàng ngắn nhất.
 :::
@@ -183,7 +187,11 @@ Một đoạn thẳng có đầu trái ở vạch số 0 của thước, đầu 
 2. Đọc số ở đầu còn lại và viết đơn vị.
 
 ::solution
-Đoạn thẳng bắt đầu từ vạch số 0 và kết thúc ở vạch số 9 nên dài 9 cm.
+Đầu trái của đoạn thẳng ở vạch số $0$ của thước, nên độ dài của đoạn thẳng bằng số ở vạch của đầu phải.
+
+Đầu phải ở vạch số $9$ nên đoạn thẳng dài $9$ cm.
+
+Vậy đoạn thẳng dài $9$ cm.
 
 **Đáp số.** 9 cm.
 :::
@@ -205,11 +213,16 @@ c) $8\ \text{cm}+5\ \text{cm}-3\ \text{cm}$
 2. Câu c: tính từ trái sang phải.
 
 ::solution
-a) $6\ \text{cm}+9\ \text{cm}=15\ \text{cm}$.
+a) Cộng hai số rồi viết đơn vị cm:
+$$6\ \text{cm}+9\ \text{cm}=15\ \text{cm}.$$
 
-b) $14\ \text{cm}-6\ \text{cm}=8\ \text{cm}$.
+b) Trừ hai số rồi viết đơn vị cm:
+$$14\ \text{cm}-6\ \text{cm}=8\ \text{cm}.$$
 
-c) $8\ \text{cm}+5\ \text{cm}-3\ \text{cm}=13\ \text{cm}-3\ \text{cm}=10\ \text{cm}$.
+c) Tính từ trái sang phải: cộng trước, trừ sau.
+$$8\ \text{cm}+5\ \text{cm}-3\ \text{cm}=13\ \text{cm}-3\ \text{cm}=10\ \text{cm}.$$
+
+Vậy a) kết quả là $15$ cm; b) kết quả là $8$ cm; c) kết quả là $10$ cm.
 
 **Đáp số.** a) 15 cm; b) 8 cm; c) 10 cm.
 :::
@@ -225,8 +238,14 @@ Bút chì của Hà dài 12 cm, bút chì của Minh dài 9 cm. Bút của bạn
 2. Tính hiệu của hai số đo.
 
 ::solution
-Ta có $12>9$ nên bút của Hà dài hơn. Phần dài hơn là:
+Bút chì của Hà dài $12$ cm, bút chì của Minh dài $9$ cm. Ta có $12>9$ nên bút của Hà dài hơn.
+
+Phần dài hơn là:
 $$12\ \text{cm}-9\ \text{cm}=3\ \text{cm}.$$
+
+*Kiểm tra.* $9+3=12$. Đúng.
+
+Vậy bút của Hà dài hơn, dài hơn $3$ cm.
 
 **Đáp số.** Bút của Hà dài hơn, dài hơn 3 cm.
 :::
@@ -247,9 +266,12 @@ Bài giải
 
 Cây cao thêm số xăng-ti-mét là:
 $$15-8=7\ \text{(cm)}.$$
-Đáp số: 7 cm.
 
-**Kiểm tra.** $8+7=15$, đúng.
+*Kiểm tra.* $8+7=15$. Đúng.
+
+Vậy cây cao thêm $7$ cm.
+
+**Đáp số.** 7 cm.
 :::
 
 :::exercise
@@ -266,9 +288,14 @@ Sợi dây đỏ dài 8 cm. Sợi dây xanh dài hơn sợi dây đỏ 5 cm. H�
 ::solution
 Bài giải
 
+Sợi dây xanh dài hơn sợi dây đỏ $5$ cm nên ta làm phép cộng.
+
 Sợi dây xanh dài số xăng-ti-mét là:
 $$8+5=13\ \text{(cm)}.$$
-Đáp số: 13 cm.
+
+Vậy sợi dây xanh dài $13$ cm.
+
+**Đáp số.** 13 cm.
 :::
 
 :::exercise
@@ -284,9 +311,14 @@ Nhớ lại bảng cộng qua 10. Đoạn thẳng AB dài 9 cm, đoạn thẳng 
 ::solution
 Bài giải
 
+Nối hai đoạn thẳng thành một đường dài nên ta làm phép cộng. Tính $9+6$ bằng cách cộng qua $10$: tách $6=1+5$, ta có $9+1=10$, rồi $10+5=15$.
+
 Đường nối dài số xăng-ti-mét là:
 $$9+6=15\ \text{(cm)}.$$
-Đáp số: 15 cm.
+
+Vậy đường nối dài $15$ cm.
+
+**Đáp số.** 15 cm.
 :::
 
 :::exercise Thử thách
@@ -300,9 +332,16 @@ Mai đặt một cây bút chì dọc thước, nhưng đầu trái của bút �
 2. Từ vạch 0 đến vạch 2 có bao nhiêu khoảng? Phải bỏ phần nào đi?
 
 ::solution
-Từ vạch 0 đến vạch 9 có 9 khoảng, từ vạch 0 đến vạch 2 có 2 khoảng. Phần bút nằm giữa vạch 2 và vạch 9 có:
+Từ vạch $0$ đến vạch $9$ có $9$ khoảng, từ vạch $0$ đến vạch $2$ có $2$ khoảng.
+
+Phần bút nằm giữa vạch $2$ và vạch $9$ có:
 $$9-2=7\ \text{(khoảng)}.$$
-Mỗi khoảng dài 1 cm, nên bút chì dài 7 cm.
+
+Mỗi khoảng dài $1$ cm, nên bút chì dài $7$ cm.
+
+*Kiểm tra.* $2+7=9$. Đúng.
+
+Vậy bút chì dài $7$ cm.
 
 **Đáp số.** 7 cm.
 :::

@@ -123,7 +123,14 @@ $3$ exercise books cost $18\,000$ dong. How much does one book cost?
 2. Divide $18\,000$ by $3$.
 
 ::solution
-$18\,000\div3=6\,000$ (dong).
+Solution
+
+$3$ exercise books cost $18\,000$ dong, so the cost of one book is:
+$$18\,000\div3=6\,000\ \text{(dong)}.$$
+
+Check: $6\,000\times3=18\,000$ (dong), which agrees with the problem.
+
+So one book costs $6\,000$ dong.
 
 **Answer.** $6\,000$ dong.
 :::
@@ -139,7 +146,15 @@ $4$ identical cans of oil hold $28$ litres. How many litres do $6$ such cans hol
 2. Multiply by $6$.
 
 ::solution
-$28\div4=7$ (litres), $7\times6=42$ (litres).
+Solution
+
+The cans are identical, so we first find the number of litres in one can (the unitary method). The number of litres in one can is:
+$$28\div4=7\ \text{(litres)}.$$
+
+The number of litres in $6$ cans is:
+$$7\times6=42\ \text{(litres)}.$$
+
+So $6$ such cans hold $42$ litres.
 
 **Answer.** $42$ litres.
 :::
@@ -155,7 +170,15 @@ Remember the last lesson: find the mean of $12$, $18$ and $15$. A child reads th
 2. Multiply by $4$.
 
 ::solution
-$(12+18+15)\div3=45\div3=15$ (pages a day). $15\times4=60$ (pages).
+Solution
+
+The mean of $12$, $18$ and $15$ is the sum of the three numbers divided by $3$. The number of pages the child reads each day is:
+$$(12+18+15)\div3=45\div3=15\ \text{(pages)}.$$
+
+The number of pages the child reads in $4$ days is:
+$$15\times4=60\ \text{(pages)}.$$
+
+So the child reads $60$ pages in $4$ days.
 
 **Answer.** $60$ pages.
 :::
@@ -171,7 +194,15 @@ A worker makes $40$ items in $5$ days. How many items does the worker make in $9
 2. Multiply the result by $9$.
 
 ::solution
-$40\div5=8$ (items), $8\times9=72$ (items).
+Solution
+
+The worker makes the same number of items each day, so we first find the number of items made in one day. The number of items made in one day is:
+$$40\div5=8\ \text{(items)}.$$
+
+The number of items made in $9$ days is:
+$$8\times9=72\ \text{(items)}.$$
+
+So the worker makes $72$ items in $9$ days.
 
 **Answer.** $72$ items.
 :::
@@ -187,7 +218,17 @@ $6$ kg of sugar cost $90\,000$ dong. How much do $4$ kg of sugar cost? Why do we
 2. Multiply by $4$.
 
 ::solution
-$90\,000\div6=15\,000$ (dong), $15\,000\times4=60\,000$ (dong). We find the cost of $1$ kg first because every kilogram costs the same, so from it we can find the cost of any number of kilograms.
+Solution
+
+The cost of $1$ kg of sugar is:
+$$90\,000\div6=15\,000\ \text{(dong)}.$$
+
+The cost of $4$ kg of sugar is:
+$$15\,000\times4=60\,000\ \text{(dong)}.$$
+
+So $4$ kg of sugar cost $60\,000$ dong.
+
+Answering "Why do we find the cost of $1$ kg first?": every kilogram costs the same, so once we know the cost of $1$ kg, we can find the cost of any number of kilograms by multiplying.
 
 **Answer.** $60\,000$ dong.
 :::
@@ -203,7 +244,17 @@ Lan worked: "$8$ pens cost $32\,000$ dong. So $5$ pens cost $32\,000\times5=160\
 2. Multiply by $5$.
 
 ::solution
-Lan multiplied without finding the cost of one pen. The correct working is $32\,000\div8=4\,000$ (dong), $4\,000\times5=20\,000$ (dong).
+Solution
+
+Lan went wrong by multiplying $32\,000\times5$ straight away without finding the cost of one pen. The amount $32\,000$ dong is the cost of $8$ pens, so we cannot multiply it by $5$ to get the cost of $5$ pens. The result $160\,000$ dong is even more than the cost of $8$ pens, which is impossible because $5$ pens are fewer than $8$ pens.
+
+The correct working: the cost of one pen is
+$$32\,000\div8=4\,000\ \text{(dong)}.$$
+
+The cost of $5$ pens is:
+$$4\,000\times5=20\,000\ \text{(dong)}.$$
+
+So $5$ pens cost $20\,000$ dong.
 
 **Answer.** $20\,000$ dong.
 :::
@@ -223,7 +274,18 @@ c) How many minutes does it take to fill a $150$-litre tank?
 3. Divide $150$ by the litres in one minute in part c).
 
 ::solution
-a) $45\div3=15$ (litres). b) $15\times8=120$ (litres). c) $150\div15=10$ (minutes).
+Solution
+
+a) The number of litres the tap fills in one minute is:
+$$45\div3=15\ \text{(litres)}.$$
+
+b) The number of litres the tap fills in $8$ minutes is:
+$$15\times8=120\ \text{(litres)}.$$
+
+c) The number of minutes needed to fill the $150$-litre tank is:
+$$150\div15=10\ \text{(minutes)}.$$
+
+So the tap fills $15$ litres in one minute and $120$ litres in $8$ minutes, and it takes $10$ minutes to fill the $150$-litre tank.
 
 **Answer.** a) $15$ litres; b) $120$ litres; c) $10$ minutes.
 :::
@@ -240,7 +302,23 @@ $6$ identical boxes of biscuits cost $90\,000$ dong. Mai has $130\,000$ dong. Wh
 3. Work out the money left over.
 
 ::solution
-One box costs $90\,000\div6=15\,000$ (dong). $15\,000\times8=120\,000$ (dong) is less than $130\,000$; $15\,000\times9=135\,000$ (dong) is more than $130\,000$. So Mai can buy $8$ boxes, with $130\,000-120\,000=10\,000$ (dong) left over.
+Solution
+
+The price of one box of biscuits is:
+$$90\,000\div6=15\,000\ \text{(dong)}.$$
+
+We test how many boxes Mai can buy. $8$ boxes cost:
+$$15\,000\times8=120\,000\ \text{(dong)},$$
+which is less than $130\,000$ dong, so Mai has enough money. $9$ boxes cost:
+$$15\,000\times9=135\,000\ \text{(dong)},$$
+which is more than $130\,000$ dong, so Mai does not have enough money.
+
+Hence the greatest number of boxes Mai can buy is $8$. The money left over is:
+$$130\,000-120\,000=10\,000\ \text{(dong)}.$$
+
+Check: $130\,000\div15\,000=8$ (remainder $10\,000$), which matches the result above.
+
+So Mai can buy at most $8$ boxes and has $10\,000$ dong left over.
 
 **Answer.** $8$ boxes, with $10\,000$ dong left over.
 :::

@@ -195,7 +195,14 @@ Viết số: bốn trăm hai mươi triệu ba trăm nghìn.
 2. "Ba trăm nghìn" là số nào? Lớp đơn vị là bao nhiêu?
 
 ::solution
-"Bốn trăm hai mươi triệu" là $420\,000\,000$ và "ba trăm nghìn" là $300\,000$. Ta có $420\,000\,000+300\,000=420\,300\,000$.
+Ta viết từng phần của số rồi cộng lại.
+
+"Bốn trăm hai mươi triệu" là $420\,000\,000$ và "ba trăm nghìn" là $300\,000$.
+
+Ta có
+$$420\,000\,000+300\,000=420\,300\,000.$$
+
+Vậy số cần viết là $420\,300\,000$.
 
 **Đáp số.** $420\,300\,000$.
 :::
@@ -211,7 +218,11 @@ Viết số: bốn trăm hai mươi triệu ba trăm nghìn.
 2. Đọc lớp nghìn: $060$.
 
 ::solution
-Số $508\,060\,000$ có lớp triệu là $508$, lớp nghìn là $060$ và lớp đơn vị là $000$.
+Ta tách số $508\,060\,000$ thành các lớp, từ phải sang trái: lớp đơn vị là $000$, lớp nghìn là $060$ và lớp triệu là $508$.
+
+Đọc từng lớp rồi thêm tên lớp: lớp triệu đọc là "năm trăm linh tám triệu"; lớp nghìn đọc là "không trăm sáu mươi nghìn"; lớp đơn vị là $000$ nên không đọc.
+
+Vậy số $508\,060\,000$ đọc là: năm trăm linh tám triệu không trăm sáu mươi nghìn.
 
 **Đáp số.** Năm trăm linh tám triệu không trăm sáu mươi nghìn.
 :::
@@ -227,8 +238,21 @@ Viết số $26\,804\,109$ thành tổng.
 2. Bỏ qua hàng có chữ số $0$.
 
 ::solution
-Số $26\,804\,109$ có $2$ chục triệu, $6$ triệu, $8$ trăm nghìn, $0$ chục nghìn, $4$ nghìn, $1$ trăm, $0$ chục và $9$ đơn vị. Ta có:
+Ta xác định giá trị của từng chữ số trong số $26\,804\,109$:
+
+- Chữ số $2$ ở hàng chục triệu, có giá trị $20\,000\,000$.
+- Chữ số $6$ ở hàng triệu, có giá trị $6\,000\,000$.
+- Chữ số $8$ ở hàng trăm nghìn, có giá trị $800\,000$.
+- Chữ số $0$ ở hàng chục nghìn, có giá trị $0$.
+- Chữ số $4$ ở hàng nghìn, có giá trị $4\,000$.
+- Chữ số $1$ ở hàng trăm, có giá trị $100$.
+- Chữ số $0$ ở hàng chục, có giá trị $0$.
+- Chữ số $9$ ở hàng đơn vị, có giá trị $9$.
+
+Ta có
 $$26\,804\,109=20\,000\,000+6\,000\,000+800\,000+4\,000+100+9.$$
+
+Vậy số $26\,804\,109$ viết thành tổng như trên.
 
 **Đáp số.** $20\,000\,000+6\,000\,000+800\,000+4\,000+100+9$.
 :::
@@ -244,9 +268,13 @@ Trong số $372\,915\,048$, chữ số $7$ và chữ số $9$ ở hàng nào, l�
 2. Xác định lớp và giá trị của chữ số $7$ và $9$.
 
 ::solution
-Số $372\,915\,048$ có $3$ trăm triệu, $7$ chục triệu, $2$ triệu, $9$ trăm nghìn, $1$ chục nghìn, $5$ nghìn, $0$ trăm, $4$ chục và $8$ đơn vị.
+Ta đọc các hàng của số $372\,915\,048$ từ trái sang phải: $3$ trăm triệu, $7$ chục triệu, $2$ triệu, $9$ trăm nghìn, $1$ chục nghìn, $5$ nghìn, $0$ trăm, $4$ chục và $8$ đơn vị.
 
-Chữ số $7$ ở hàng chục triệu, lớp triệu, giá trị $70\,000\,000$. Chữ số $9$ ở hàng trăm nghìn, lớp nghìn, giá trị $900\,000$.
+Chữ số $7$ ở hàng chục triệu, thuộc lớp triệu, nên có giá trị $70\,000\,000$.
+
+Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn, nên có giá trị $900\,000$.
+
+Vậy chữ số $7$ ở hàng chục triệu, lớp triệu, có giá trị $70\,000\,000$; chữ số $9$ ở hàng trăm nghìn, lớp nghìn, có giá trị $900\,000$.
 
 **Đáp số.** $7$: hàng chục triệu, lớp triệu, $70\,000\,000$; $9$: hàng trăm nghìn, lớp nghìn, $900\,000$.
 :::
@@ -262,7 +290,13 @@ Chữ số $7$ ở hàng chục triệu, lớp triệu, giá trị $70\,000\,000
 2. Tìm cặp chữ số đầu tiên khác nhau.
 
 ::solution
-Hai số đều có chín chữ số. Các hàng trăm triệu, chục triệu, triệu đều bằng nhau. Hàng trăm nghìn: $2>1$. Vậy $487\,215\,000>487\,125\,000$.
+Hai số $487\,215\,000$ và $487\,125\,000$ đều có chín chữ số.
+
+Ta so sánh từng hàng, từ trái sang phải: hàng trăm triệu đều là $4$, hàng chục triệu đều là $8$, hàng triệu đều là $7$.
+
+Đến hàng trăm nghìn: $2>1$.
+
+Vậy $487\,215\,000>487\,125\,000$.
 
 **Đáp số.** Dấu $>$.
 :::
@@ -278,9 +312,16 @@ Sắp xếp các số $508\,000\,000$, $58\,000\,000$, $580\,000\,000$, $85\,000
 2. So sánh các số cùng số chữ số, từ trái sang phải.
 
 ::solution
-Hai số $58\,000\,000$ và $85\,000\,000$ có tám chữ số, hai số còn lại có chín chữ số. Ở hai số tám chữ số: $5<8$ nên $58\,000\,000<85\,000\,000$. Ở hai số chín chữ số: hàng chục triệu $0<8$ nên $508\,000\,000<580\,000\,000$.
+Trước hết, ta đếm số chữ số của mỗi số. Hai số $58\,000\,000$ và $85\,000\,000$ có tám chữ số; hai số $508\,000\,000$ và $580\,000\,000$ có chín chữ số. Số có ít chữ số hơn thì bé hơn, nên hai số tám chữ số bé hơn hai số chín chữ số.
 
-Ta có $58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000$.
+So sánh hai số tám chữ số: hàng chục triệu $5<8$, nên $58\,000\,000<85\,000\,000$.
+
+So sánh hai số chín chữ số: hàng trăm triệu đều là $5$; hàng chục triệu $0<8$, nên $508\,000\,000<580\,000\,000$.
+
+Ta có
+$$58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000.$$
+
+Vậy các số xếp từ bé đến lớn là $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
 
 **Đáp số.** $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
 :::
@@ -299,9 +340,16 @@ Giá ba chiếc xe máy (số liệu giả định) lần lượt là $45\,000\,
 ::solution
 Bài giải
 
-Hàng chục triệu của ba số là $4$, $5$ và $4$. Số $52\,500\,000$ có hàng chục triệu lớn nhất. Hai số còn lại cùng hàng chục triệu là $4$; hàng triệu: $5$ và $9$. Số $45\,000\,000$ bé hơn.
+Cả ba số đều có tám chữ số, nên ta so sánh từ hàng chục triệu.
 
-Ta có $45\,000\,000<49\,800\,000<52\,500\,000$.
+Hàng chục triệu của ba số $45\,000\,000$, $52\,500\,000$, $49\,800\,000$ lần lượt là $4$, $5$ và $4$. Số $52\,500\,000$ có hàng chục triệu lớn nhất nên là số lớn nhất.
+
+Hai số còn lại có cùng hàng chục triệu là $4$. Ta so sánh hàng triệu: $5<9$, nên $45\,000\,000<49\,800\,000$.
+
+Ta có
+$$45\,000\,000<49\,800\,000<52\,500\,000.$$
+
+Vậy giá các xe xếp từ thấp đến cao là $45\,000\,000$ đồng; $49\,800\,000$ đồng; $52\,500\,000$ đồng.
 
 **Đáp số.** $45\,000\,000$ đồng; $49\,800\,000$ đồng; $52\,500\,000$ đồng.
 :::
@@ -317,7 +365,16 @@ Em hãy nhớ lại bài cộng, trừ trong phạm vi $100\,000$. Tính $1\,000
 2. Đếm số chữ số của kết quả và xác định hàng, lớp của chữ số $9$.
 
 ::solution
-Ta có $1\,000\,000-99\,999=900\,001$. Kết quả có sáu chữ số. Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn.
+Ta thực hiện phép trừ:
+$$1\,000\,000-99\,999=900\,001.$$
+
+Thử lại: $900\,001+99\,999=1\,000\,000$. Đúng.
+
+Số $900\,001$ có sáu chữ số: $9$, $0$, $0$, $0$, $0$, $1$.
+
+Chữ số $9$ đứng đầu, ở hàng trăm nghìn, thuộc lớp nghìn.
+
+Vậy $1\,000\,000-99\,999=900\,001$; kết quả có sáu chữ số, chữ số $9$ ở hàng trăm nghìn, lớp nghìn.
 
 **Đáp số.** $900\,001$; sáu chữ số; hàng trăm nghìn, lớp nghìn.
 :::
@@ -333,7 +390,14 @@ Nam nói: "$99\,999\,999$ lớn hơn $100\,000\,000$ vì các chữ số $9$ l�
 2. So sánh hai số theo quy tắc.
 
 ::solution
-Số $99\,999\,999$ có tám chữ số, còn $100\,000\,000$ có chín chữ số. Số có nhiều chữ số hơn thì lớn hơn, nên $99\,999\,999<100\,000\,000$. Nam đã chỉ so sánh chữ số đầu tiên.
+Khi so sánh hai số tự nhiên, trước hết ta so sánh số chữ số của chúng; số nào có nhiều chữ số hơn thì lớn hơn.
+
+Số $99\,999\,999$ có tám chữ số, còn số $100\,000\,000$ có chín chữ số. Do đó
+$$99\,999\,999<100\,000\,000.$$
+
+Nam đã chỉ so sánh chữ số đầu tiên mà không so sánh số chữ số của hai số.
+
+Vậy câu nói của Nam sai; câu đúng là $99\,999\,999<100\,000\,000$.
 
 **Đáp số.** Nam sai; $99\,999\,999<100\,000\,000$.
 :::
@@ -349,7 +413,12 @@ Từ $1\,000\,000$ đến $99\,000\,000$ có bao nhiêu số tròn triệu (kể
 2. Đếm từ $1$ triệu đến số triệu đó.
 
 ::solution
-Các số tròn triệu từ $1\,000\,000$ đến $99\,000\,000$ là $1$ triệu, $2$ triệu, ..., $99$ triệu. Số các số đó là $99-1+1=99$.
+Các số tròn triệu từ $1\,000\,000$ đến $99\,000\,000$ là $1$ triệu, $2$ triệu, $3$ triệu, ..., $99$ triệu.
+
+Số đầu tiên là $1$ triệu và số cuối cùng là $99$ triệu, các số hơn kém nhau $1$ triệu. Số các số đó là:
+$$99-1+1=99\ \text{(số)}.$$
+
+Vậy từ $1\,000\,000$ đến $99\,000\,000$ có $99$ số tròn triệu.
 
 **Đáp số.** $99$ số.
 :::

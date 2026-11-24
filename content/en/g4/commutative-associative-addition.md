@@ -166,7 +166,11 @@ Write the right number in the gap: $245+138=138+\ \ldots$
 2. Which addend is missing on the right-hand side?
 
 ::solution
-By the commutative property, $245+138=138+245$.
+By the commutative property of addition, swapping the two addends does not change the sum: $a+b=b+a$.
+
+We have $245+138=138+245$.
+
+So the number to write in the gap is $245$.
 
 **Answer.** $245$.
 :::
@@ -182,7 +186,12 @@ Work out in a convenient way: $46+38+54$.
 2. Group those two, then add the remaining number.
 
 ::solution
-Since $46+54=100$, we have $46+38+54=(46+54)+38=100+38=138$.
+We notice that $46+54=100$ is a round number, so we group these two numbers together.
+
+Using the commutative and associative properties of addition, we have
+$$\begin{aligned} 46+38+54 &= (46+54)+38 \\ &= 100+38 \\ &= 138. \end{aligned}$$
+
+So $46+38+54=138$.
 
 **Answer.** $138$.
 :::
@@ -198,7 +207,12 @@ Work out in a convenient way: $173+84+27$.
 2. Group those two, then add the remaining number.
 
 ::solution
-Since $173+27=200$, we have $173+84+27=(173+27)+84=200+84=284$.
+We notice that $173+27=200$ is a round number, so we group these two numbers together.
+
+Using the commutative and associative properties of addition, we have
+$$\begin{aligned} 173+84+27 &= (173+27)+84 \\ &= 200+84 \\ &= 284. \end{aligned}$$
+
+So $173+84+27=284$.
 
 **Answer.** $284$.
 :::
@@ -214,7 +228,12 @@ Work out in a convenient way: $36+17+64+83$.
 2. Find the pair that makes $100$ with $17$.
 
 ::solution
-We have $36+64=100$ and $17+83=100$. So $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+We notice that $36+64=100$ and $17+83=100$, so we pair up the numbers to get round sums of one hundred.
+
+Using the commutative and associative properties of addition, we have
+$$\begin{aligned} 36+17+64+83 &= (36+64)+(17+83) \\ &= 100+100 \\ &= 200. \end{aligned}$$
+
+So $36+17+64+83=200$.
 
 **Answer.** $200$.
 :::
@@ -230,9 +249,15 @@ Find $x$: $x+245=245+78$.
 2. Compare the two sides to find $x$.
 
 ::solution
-By the commutative property, $245+78=78+245$. So $x+245=78+245$, which gives $x=78$.
+By the commutative property of addition, $245+78=78+245$.
 
-**Check.** $78+245=245+78$. Correct.
+So the equation becomes $x+245=78+245$.
+
+Both sides add $245$ to a number, so $x=78$.
+
+*Check.* Substituting $x=78$, we get $78+245=245+78$. Both sides are equal, so the result is correct.
+
+So $x=78$.
 
 **Answer.** $x=78$.
 :::
@@ -251,8 +276,12 @@ Three classes (made-up numbers) collect $125$ kg, $247$ kg and $175$ kg of waste
 ::solution
 Solution
 
+To find how many kilograms of waste paper the three classes collect, we add the amounts of the three classes. We notice that $125+175=300$ is a round number, so we group these two numbers together.
+
 The number of kilograms of waste paper collected by the three classes is:
 $$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+
+So the three classes collect $547$ kg of waste paper altogether.
 
 **Answer.** $547$ kg of waste paper.
 :::
@@ -271,8 +300,12 @@ A shop (made-up numbers) sells $2\,450\,000$ dong of goods on the first day, $1\
 ::solution
 Solution
 
+To find how many dong of goods the shop sells in the three days, we add the sales of the three days. We notice that $2\,450\,000+550\,000=3\,000\,000$ is a round number, so we group these two numbers together.
+
 The money from sales in the three days is:
 $$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(dong)}.$$
+
+So the shop sells $4\,380\,000$ dong of goods in the three days altogether.
 
 **Answer.** $4\,380\,000$ dong.
 :::
@@ -288,7 +321,12 @@ Remember the lesson on adding numbers with many digits. Work out in a convenient
 2. Group them, then add the remaining number.
 
 ::solution
-We have $348\,650+651\,350=1\,000\,000$. So $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
+We notice that the two numbers $348\,650$ and $651\,350$ have a round sum: $348\,650+651\,350=1\,000\,000$. So we group these two numbers together.
+
+Using the commutative and associative properties of addition, we have
+$$\begin{aligned} 348\,650+275\,480+651\,350 &= (348\,650+651\,350)+275\,480 \\ &= 1\,000\,000+275\,480 \\ &= 1\,275\,480. \end{aligned}$$
+
+So $348\,650+275\,480+651\,350=1\,275\,480$.
 
 **Answer.** $1\,275\,480$.
 :::
@@ -322,8 +360,12 @@ Calculate quickly: $1+2+3+4+5+6+7+8+9$.
 2. Which number has no partner?
 
 ::solution
-Make four pairs, each with sum $10$, leaving $5$:
-$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
+We make pairs of numbers whose sum is $10$: $1+9$, $2+8$, $3+7$, $4+6$. The number $5$ is left without a partner.
+
+Using the commutative and associative properties of addition, we have
+$$\begin{aligned} 1+2+3+4+5+6+7+8+9 &= (1+9)+(2+8)+(3+7)+(4+6)+5 \\ &= 10+10+10+10+5 \\ &= 45. \end{aligned}$$
+
+So $1+2+3+4+5+6+7+8+9=45$.
 
 **Answer.** $45$.
 :::

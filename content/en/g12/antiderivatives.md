@@ -222,7 +222,10 @@ Find $\displaystyle\int(4x^3-6x+7)\,dx$.
 2. Add a constant $C$ and check by differentiating.
 
 ::solution
-We have $\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+We use the formulas $\displaystyle\int x^{\alpha}\,dx=\dfrac{x^{\alpha+1}}{\alpha+1}+C$ $(\alpha\neq-1)$ and $\displaystyle\int k\,dx=kx+C$, together with the properties for the antiderivative of a sum and of a constant multiple of a function.
+
+We have
+$$\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C.$$
 
 So the required family is $x^4-3x^2+7x+C$.
 
@@ -240,7 +243,10 @@ Find $\displaystyle\int\left(3\sqrt x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
 2. Apply the formula to each term.
 
 ::solution
-We have $\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+On $(0, +\infty)$ we write $\sqrt x=x^{\frac12}$ and $\dfrac1{x^2}=x^{-2}$.
+
+Using the formula $\displaystyle\int x^{\alpha}\,dx=\dfrac{x^{\alpha+1}}{\alpha+1}+C$ $(\alpha\neq-1)$, we have
+$$\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x^{\frac32}-\frac1x+C=2x\sqrt x-\frac1x+C.$$
 
 So the required family is $2x\sqrt x-\dfrac1x+C$.
 
@@ -258,7 +264,10 @@ Find $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx$.
 2. Put them together and add $C$.
 
 ::solution
-We have $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+The integrand is defined on every interval where $\sin x\neq0$, that is, $x\neq k\pi$ $(k\in\mathbb{Z})$.
+
+Using the formulas $\displaystyle\int e^x\,dx=e^x+C$, $\displaystyle\int\sin x\,dx=-\cos x+C$ and $\displaystyle\int\frac{1}{\sin^2x}\,dx=-\cot x+C$, we have
+$$\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C.$$
 
 So the required family is $5e^x+2\cos x-\cot x+C$.
 
@@ -276,7 +285,10 @@ Find $\displaystyle\int(2x-1)^2\,dx$.
 2. Find the antiderivative of the polynomial.
 
 ::solution
-We have $(2x-1)^2=4x^2-4x+1$. Hence $\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+Expanding the square, we have $(2x-1)^2=4x^2-4x+1$.
+
+Hence
+$$\int(2x-1)^2\,dx=\int(4x^2-4x+1)\,dx=4\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+x+C=\frac{4x^3}{3}-2x^2+x+C.$$
 
 So the required family is $\dfrac43x^3-2x^2+x+C$.
 
@@ -302,13 +314,18 @@ d) For $G(x)$ in c), $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2$.
 2. Find $C$ in c), then substitute $x=\dfrac{\pi}{2}$ for d).
 
 ::solution
-a) **True**. We have $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$.
+The function $f(x)=3x^2+2\cos x$ is defined on $\mathbb{R}$. A function $F(x)$ is an antiderivative of $f(x)$ if and only if $F'(x)=f(x)$.
 
-b) **False**. We have $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
+a) **True.** We have $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$, so $F(x)=x^3+2\sin x$ is an antiderivative of $f(x)$.
 
-c) **True**. We have $G(x)=x^3+2\sin x+C$ and $G(0)=C=1$.
+b) **False.** We have $(x^3-2\sin x+5)'=3x^2-2\cos x\neq3x^2+2\cos x=f(x)$, so $F(x)=x^3-2\sin x+5$ is not an antiderivative of $f(x)$.
 
-d) **False**. We have $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
+c) **True.** The family of antiderivatives of $f(x)$ is $G(x)=x^3+2\sin x+C$. From $G(0)=0+2\cdot0+C=C=1$ we get $G(x)=x^3+2\sin x+1$.
+
+d) **False.** For $G(x)=x^3+2\sin x+1$, we have
+$$G\left(\frac{\pi}{2}\right)=\frac{\pi^3}{8}+2\sin\frac{\pi}{2}+1=\frac{\pi^3}{8}+2\cdot1+1=\frac{\pi^3}{8}+3\neq\frac{\pi^3}{8}+2.$$
+
+So claims a), c) are true; claims b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -324,9 +341,15 @@ Let $F(x)$ be the antiderivative of $f(x)=4x^3-2x$ that satisfies $F(1)=3$. Find
 2. Substitute $x=1$ to find $C$, then compute $F(2)$.
 
 ::solution
-We have $F(x)=x^4-x^2+C$. Since $F(1)=1-1+C=3$, $C=3$.
+We have
+$$F(x)=\int(4x^3-2x)\,dx=x^4-x^2+C.$$
 
-So $F(2)=16-4+3=15$.
+Since $F(1)=3$, we get $1^4-1^2+C=3$, so $C=3$. Hence $F(x)=x^4-x^2+3$.
+
+Substituting $x=2$ into $F(x)$, we obtain
+$$F(2)=2^4-2^2+3=16-4+3=15.$$
+
+So $F(2)=15$.
 
 **Answer.** $15$.
 :::
@@ -378,7 +401,17 @@ Find the function $f(x)$ with $f''(x)=6x+2$, $f'(0)=1$ and $f(0)=-1$.
 2. Find $f(x)$ and use $f(0)=-1$ to find the second constant.
 
 ::solution
-We have $f'(x)=\displaystyle\int(6x+2)\,dx=3x^2+2x+C_1$. Since $f'(0)=C_1=1$, $f'(x)=3x^2+2x+1$. It follows that $f(x)=x^3+x^2+x+C_2$. Since $f(0)=C_2=-1$, $f(x)=x^3+x^2+x-1$ (check: $f''(x)=6x+2$).
+Since $f'(x)$ is an antiderivative of $f''(x)$,
+$$f'(x)=\int(6x+2)\,dx=3x^2+2x+C_1.$$
+
+Since $f'(0)=1$, we get $C_1=1$, so $f'(x)=3x^2+2x+1$.
+
+Since $f(x)$ is an antiderivative of $f'(x)$,
+$$f(x)=\int(3x^2+2x+1)\,dx=x^3+x^2+x+C_2.$$
+
+Since $f(0)=-1$, we get $C_2=-1$, so $f(x)=x^3+x^2+x-1$.
+
+Check: $f'(x)=3x^2+2x+1$, $f''(x)=6x+2$, $f'(0)=1$ and $f(0)=-1$ (all conditions hold).
 
 So $f(x)=x^3+x^2+x-1$.
 
@@ -396,7 +429,15 @@ Find $\displaystyle\int\sin^2\frac{x}{2}\,dx$.
 2. Find the antiderivative term by term.
 
 ::solution
-We have $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (the half-angle formula). Hence $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Check: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
+Using the half-angle formula $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$ with $\alpha=\dfrac x2$, we have
+$$\sin^2\frac x2=\frac{1-\cos x}{2}=\frac12-\frac12\cos x.$$
+
+Hence
+$$\int\sin^2\frac x2\,dx=\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C.$$
+
+Check: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac12-\dfrac12\cos x=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$ (correct).
+
+So $\displaystyle\int\sin^2\frac x2\,dx=\dfrac x2-\dfrac{\sin x}{2}+C$.
 
 **Answer.** $\dfrac x2-\dfrac{\sin x}{2}+C$.
 :::

@@ -166,9 +166,11 @@ b) 1 hour has $\square$ minutes.
 2. How many minutes does the minute hand take to go round once?
 
 ::solution
-a) 1 day has 24 hours.
+a) One day has $24$ hours.
 
-b) 1 hour has 60 minutes.
+b) One hour has $60$ minutes.
+
+So we write the numbers $24$ and $60$.
 
 **Answer.** a) 24; b) 60.
 :::
@@ -190,11 +192,15 @@ c) 45 minutes have passed
 2. The number of counts is the number the long hand points to.
 
 ::solution
-a) $5,10,15$: 3 counts, so the long hand points to 3.
+On a clock face, the long hand moves $5$ minutes each time it goes from one number to the next.
 
-b) $5,10,15,20,25,30$: 6 counts, so the long hand points to 6.
+a) For $15$ minutes to pass, we count $5, 10, 15$: $3$ counts, so the long hand points to $3$.
 
-c) 9 counts, so the long hand points to 9.
+b) For $30$ minutes to pass, we count $5, 10, 15, 20, 25, 30$: $6$ counts, so the long hand points to $6$.
+
+c) For $45$ minutes to pass, we count $5, 10, 15, 20, 25, 30, 35, 40, 45$: $9$ counts, so the long hand points to $9$.
+
+So the long hand points to $3$, $6$ and $9$.
 
 **Answer.** a) 3; b) 6; c) 9.
 :::
@@ -210,7 +216,11 @@ A clock has its short hand just past 9 and its long hand pointing to 3. What tim
 2. How many minutes does the long hand at 3 mean?
 
 ::solution
-The short hand has just passed 9, so the hour is 9. The long hand at 3 means 15 minutes.
+The short hand has just passed $9$, so the hour is $9$.
+
+The long hand points to $3$; the numbers are $5$ minutes apart, so $3\times5=15$ minutes.
+
+So the clock shows $9$ hours $15$ minutes, that is a quarter past $9$.
 
 **Answer.** Quarter past 9 (9:15).
 :::
@@ -230,9 +240,12 @@ b) For how many minutes does Mai do her homework?
 2. Part b: the long hand goes from 12 to 6.
 
 ::solution
-a) $11-7=4$ (hours).
+a) The class has lessons from $7$ o'clock to $11$ o'clock, so the number of hours at school is:
+$$11-7=4\ \text{(hours)}.$$
 
-b) From 8 o'clock to half past 8 is 30 minutes.
+b) Mai does her homework from $8$ o'clock to half past $8$. From $8$ o'clock to half past $8$ is $30$ minutes.
+
+So the class is at school for $4$ hours and Mai does her homework for $30$ minutes.
 
 **Answer.** a) 4 hours; b) 30 minutes.
 :::
@@ -248,7 +261,14 @@ How many days does each of these months have: May, June, November and December?
 2. Remember the knuckle method.
 
 ::solution
-May has 31 days. June has 30 days. November has 30 days. December has 31 days.
+We recall the number of days in each month:
+
+- May has $31$ days.
+- June has $30$ days.
+- November has $30$ days.
+- December has $31$ days.
+
+So May and December have $31$ days; June and November have $30$ days.
 
 **Answer.** May: 31 days; June: 30 days; November: 30 days; December: 31 days.
 :::
@@ -265,9 +285,12 @@ Suppose today is 20 November. November has 30 days. How many more days are there
 3. Check with addition.
 
 ::solution
-November has 30 days, so the number of days left until the end of November is
+Solution
+
+November has $30$ days and today is the $20$th, so the number of days left until the end of November is:
 $$30-20=10\ \text{(days)}.$$
-So there are 10 days left.
+
+So there are $10$ more days until the end of November.
 
 **Answer.** 10 days.
 :::
@@ -283,8 +306,12 @@ Remember the lesson on the days of the week. Today is Thursday, 12 November. Wha
 2. What day and date comes 7 days later?
 
 ::solution
-The 13th is the day just after Thursday, so it is a Friday. Thursday of next week is on:
+Today is Thursday, $12$ November. The $13$th is the day just after Thursday, so it is a Friday.
+
+A week has $7$ days, so Thursday of next week is on:
 $$12+7=19.$$
+
+So $13$ November is a Friday, and Thursday of next week is $19$ November.
 
 **Answer.** 13 November is a Friday; Thursday of next week is 19 November.
 :::
@@ -302,9 +329,11 @@ b) Today is 31 December. What is tomorrow's date?
 2. Which month comes after December, in the next year?
 
 ::solution
-a) April has 30 days, so the 30th is the last day of the month. Tomorrow is 1 May.
+a) April has $30$ days, so the $30$th is the last day of April. The next day is in May, so tomorrow is $1$ May.
 
-b) December has 31 days, so the 31st is the last day of the year. Tomorrow is 1 January of the new year.
+b) December has $31$ days, so the $31$st is the last day of December, which is also the last day of the year. Tomorrow is $1$ January of the new year.
+
+So tomorrow is $1$ May in part a), and $1$ January of the new year in part b).
 
 **Answer.** a) 1 May; b) 1 January of the new year.
 :::

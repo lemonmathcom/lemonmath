@@ -192,9 +192,16 @@ b) Let $A$ be the event "The score is odd". List the outcomes favourable to $A$ 
 2. Pick out the odd numbers and form the ratio.
 
 ::solution
-a) There are $6$ outcomes: $1, 2, 3, 4, 5, 6$.
+Roll a fair die. Its faces show $1$ to $6$ dots and each face is equally likely.
 
-b) The outcomes favourable to $A$ are $1, 3, 5$, so $k=3$ and $P(A)=\dfrac36=\dfrac12$.
+a) The possible outcomes are $1$, $2$, $3$, $4$, $5$, $6$. There are $n=6$ outcomes in all.
+
+b) The event $A$: "The score is odd". The outcomes favourable to $A$ are $1$, $3$, $5$, so $k=3$.
+
+Using the formula $P(A)=\dfrac kn$, we have
+$$P(A)=\frac36=\frac12.$$
+
+So there are $6$ possible outcomes and $P(A)=\dfrac12$.
 
 **Answer.** a) $6$ outcomes; b) $P(A)=\dfrac12$.
 :::
@@ -210,7 +217,18 @@ A box holds $15$ sweets of the same size: $6$ orange, $5$ strawberry and $4$ gra
 2. Form the ratio $\dfrac{k}{15}$ and simplify if possible.
 
 ::solution
-$P(\text{orange})=\dfrac{6}{15}=\dfrac25$; $P(\text{strawberry})=\dfrac{5}{15}=\dfrac13$; $P(\text{grape})=\dfrac{4}{15}$.
+The sweets are the same size, so taking one at random gives $n=15$ equally likely outcomes. The probability of each kind equals the number of sweets of that kind divided by $15$.
+
+There are $6$ orange sweets, so
+$$P(\text{orange})=\frac{6}{15}=\frac25.$$
+
+There are $5$ strawberry sweets, so
+$$P(\text{strawberry})=\frac{5}{15}=\frac13.$$
+
+There are $4$ grape sweets, so
+$$P(\text{grape})=\frac{4}{15}.$$
+
+So the probabilities of taking an orange, a strawberry and a grape sweet are $\dfrac25$, $\dfrac13$ and $\dfrac{4}{15}$ respectively.
 
 **Answer.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
 :::
@@ -232,11 +250,18 @@ c) "The score is greater than $4$".
 2. Count $k$ and divide by $n=6$.
 
 ::solution
-a) All $6$ outcomes are less than $7$: certain, $P=\dfrac66=1$.
+Rolling a fair die gives $n=6$ equally likely outcomes: $1$, $2$, $3$, $4$, $5$, $6$.
 
-b) No outcome is $0$: impossible, $P=0$.
+a) All $6$ outcomes are less than $7$, so the event happens for every outcome. It is a certain event, and $k=6$, so
+$$P=\frac66=1.$$
 
-c) The outcomes $5, 6$: random, $P=\dfrac26=\dfrac13$.
+b) No outcome equals $0$, so the event never happens. It is an impossible event, and $k=0$, so
+$$P=\frac06=0.$$
+
+c) The favourable outcomes are $5$, $6$, so $k=2$. The event happens for some outcomes but not all, so it is a random event, and
+$$P=\frac26=\frac13.$$
+
+So a) certain, probability $1$; b) impossible, probability $0$; c) random, probability $\dfrac13$.
 
 **Answer.** a) Certain, $1$; b) impossible, $0$; c) random, $\dfrac13$.
 :::
@@ -258,11 +283,24 @@ c) a one-digit number.
 2. Form the ratio $\dfrac{k}{20}$ and simplify.
 
 ::solution
-a) The numbers $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+The bag holds $20$ cards numbered $1$ to $20$, and one card is drawn at random, so there are $n=20$ equally likely outcomes.
 
-b) The even numbers $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+a) The numbers less than $6$ are $1$, $2$, $3$, $4$, $5$, so $k=5$.
 
-c) The numbers $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+Hence
+$$P=\frac{5}{20}=\frac14.$$
+
+b) The even numbers from $1$ to $20$ are $2$, $4$, $\dots$, $20$. There are $20\div2=10$ of them, so $k=10$.
+
+Hence
+$$P=\frac{10}{20}=\frac12.$$
+
+c) The one-digit numbers are $1$, $2$, $\dots$, $9$, so $k=9$.
+
+Hence
+$$P=\frac{9}{20}.$$
+
+So the probabilities that the card shows a number less than $6$, an even number, a one-digit number are $\dfrac14$, $\dfrac12$, $\dfrac{9}{20}$ respectively.
 
 **Answer.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
 :::
@@ -278,7 +316,17 @@ Box $A$ has $3$ red and $7$ blue marbles. Box $B$ has $2$ red and $3$ blue marbl
 2. Find the two probabilities, then give them a common denominator to compare.
 
 ::solution
-Box $A$ has $10$ marbles: $P_A=\dfrac{3}{10}$. Box $B$ has $5$ marbles: $P_B=\dfrac25=\dfrac{4}{10}$. Since $\dfrac{3}{10}<\dfrac{4}{10}$, $P_A<P_B$.
+When one marble is taken at random from a box, every marble in the box is equally likely to be taken. The probability of a red marble equals the number of red marbles divided by the total number of marbles in the box.
+
+Box $A$ has $3+7=10$ marbles, of which $3$ are red. Let $P_A$ be the probability of taking a red marble from box $A$; then
+$$P_A=\frac{3}{10}.$$
+
+Box $B$ has $2+3=5$ marbles, of which $2$ are red. Let $P_B$ be the probability of taking a red marble from box $B$; then
+$$P_B=\frac25=\frac{4}{10}.$$
+
+The two fractions now have the same denominator $10$ and $3<4$, so $\dfrac{3}{10}<\dfrac{4}{10}$, that is $P_A<P_B$.
+
+So you are more likely to get a red marble from box $B$, because $\dfrac25>\dfrac{3}{10}$.
 
 **Answer.** Box $B$, because $\dfrac25>\dfrac{3}{10}$.
 :::
@@ -298,9 +346,19 @@ b) Binh: "Roll a die; let $M$ be the event that the score is divisible by $2$. T
 2. Work it out again.
 
 ::solution
-a) Mai treats the two colours as equally likely, but there are more red marbles than blue ones. Each marble is one outcome: $n=6$, $k=1$, so $P=\dfrac16$.
+The probability of an event is $\dfrac kn$, where $n$ is the number of (equally likely) possible outcomes and $k$ is the number of favourable outcomes.
 
-b) Binh used $n=3$, but a die has $6$ possible outcomes. The right answer is $P(M)=\dfrac36=\dfrac12$.
+a) Mai's mistake: she treats the two colours as equally likely, but there are more red marbles than blue ones, so the colours are not equally likely. Each marble is one equally likely outcome.
+
+Correction: the box has $5+1=6$ marbles, so $n=6$; there is $1$ blue marble, so $k=1$. Hence
+$$P=\frac16.$$
+
+b) Binh's mistake: he took $n=3$ (counting only the favourable outcomes), but a die has $6$ possible outcomes.
+
+Correction: $n=6$ and $k=3$ (the outcomes $2$, $4$, $6$). Hence
+$$P(M)=\frac36=\frac12.$$
+
+So the probability of taking a blue marble is $\dfrac16$ and $P(M)=\dfrac12$.
 
 **Answer.** a) $\dfrac16$; b) $\dfrac12$.
 :::
@@ -322,11 +380,20 @@ c) Add the two probabilities from parts a) and b). Why do you get this result?
 2. Form the two ratios and simplify, then add them.
 
 ::solution
-a) $P(\text{girl})=\dfrac{22}{40}=\dfrac{11}{20}$.
+Class $7$B has $40$ students and one is called at random, so there are $n=40$ equally likely outcomes.
 
-b) The number of boys is $40-22=18$, so $P(\text{boy})=\dfrac{18}{40}=\dfrac{9}{20}$.
+a) There are $22$ girls, so $k=22$. Hence
+$$P(\text{girl})=\frac{22}{40}=\frac{11}{20}.$$
 
-c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Every student is either a girl or a boy, so the event "a girl or a boy" is certain.
+b) The number of boys is $40-22=18$, so $k=18$. Hence
+$$P(\text{boy})=\frac{18}{40}=\frac{9}{20}.$$
+
+c) Adding the two probabilities, we get
+$$\frac{11}{20}+\frac{9}{20}=\frac{20}{20}=1.$$
+
+The result is $1$ because every student is either a girl or a boy, so the event "a girl or a boy" is certain and has probability $1$.
+
+So $P(\text{girl})=\dfrac{11}{20}$, $P(\text{boy})=\dfrac{9}{20}$ and the two probabilities add up to $1$.
 
 **Answer.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
 :::
@@ -349,7 +416,18 @@ One marble is taken at random. Find the probability of each colour, then add the
 3. Add the four probabilities.
 
 ::solution
-The total number of marbles is $6+9+5+10=30$. The probabilities are $P(\text{red})=\dfrac{6}{30}=\dfrac15$, $P(\text{blue})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{yellow})=\dfrac{5}{30}=\dfrac16$, $P(\text{white})=\dfrac{10}{30}=\dfrac13$. The sum of the four probabilities is $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+The total number of marbles in the box is
+$$6+9+5+10=30,$$
+so taking one marble at random gives $n=30$ equally likely outcomes.
+
+The probability of each colour equals the number of marbles of that colour divided by $30$:
+$$P(\text{red})=\frac{6}{30}=\frac15,\qquad P(\text{blue})=\frac{9}{30}=\frac{3}{10},$$
+$$P(\text{yellow})=\frac{5}{30}=\frac16,\qquad P(\text{white})=\frac{10}{30}=\frac13.$$
+
+The sum of the four probabilities is
+$$\frac{6+9+5+10}{30}=\frac{30}{30}=1.$$
+
+So the probabilities of red, blue, yellow and white are $\dfrac15$, $\dfrac{3}{10}$, $\dfrac16$ and $\dfrac13$, and the four probabilities add up to $1$.
 
 **Answer.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; they add up to $1$.
 :::

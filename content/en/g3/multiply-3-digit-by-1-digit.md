@@ -177,8 +177,20 @@ Set out in columns and work out: $213\times 3$.
 1. Multiply the ones: $3\times 3$.
 
 ::solution
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
 $$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
-Ones: $3\times 3=9$. Tens: $1\times 3=3$. Hundreds: $2\times 3=6$.
+
+Ones: $3\times3=9$, write $9$.
+
+Tens: $1\times3=3$, write $3$.
+
+Hundreds: $2\times3=6$, write $6$.
+
+We get $213\times3=639$.
+
+Check: $639\div3=213$. Correct.
+
+So $213\times3=639$.
 
 **Answer.** $639$.
 :::
@@ -193,8 +205,20 @@ Set out in columns and work out: $152\times 4$.
 1. Ones: $2\times 4$. Tens: $5\times 4$; what do you regroup?
 
 ::solution
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
 $$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
-Ones: $2\times 4=8$. Tens: $5\times 4=20$, write $0$ and regroup $2$. Hundreds: $1\times 4=4$, add $2$ to make $6$.
+
+Ones: $2\times4=8$, write $8$.
+
+Tens: $5\times4=20$, write $0$ and regroup $2$.
+
+Hundreds: $1\times4=4$, add $2$ to make $6$, write $6$.
+
+We get $152\times4=608$.
+
+Check: $608\div4=152$. Correct.
+
+So $152\times4=608$.
 
 **Answer.** $608$.
 :::
@@ -209,8 +233,20 @@ Set out in columns and work out: $307\times 3$.
 1. Ones: $7\times 3$; what do you regroup?
 
 ::solution
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
 $$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
-Ones: $7\times 3=21$, write $1$ and regroup $2$. Tens: $0\times 3=0$, add $2$ to make $2$. Hundreds: $3\times 3=9$.
+
+Ones: $7\times3=21$, write $1$ and regroup $2$.
+
+Tens: $0\times3=0$, add $2$ to make $2$, write $2$.
+
+Hundreds: $3\times3=9$, write $9$.
+
+We get $307\times3=921$.
+
+Check: $921\div3=307$. Correct.
+
+So $307\times3=921$.
 
 **Answer.** $921$.
 :::
@@ -226,9 +262,18 @@ Each crate holds $125$ books. How many books are there in $5$ crates like this?
 2. Write the multiplication, set it out, then check with division.
 
 ::solution
+Solution
+
+Each crate holds $125$ books and there are $5$ such crates, so we multiply the number of books in one crate by the number of crates.
+
 The number of books in $5$ crates is:
-$$125\times 5=625\ \text{(books)}.$$
-Ones: $5\times 5=25$, write $5$ and regroup $2$. Tens: $2\times 5=10$, add $2$ to make $12$, write $2$ and regroup $1$. Hundreds: $1\times 5=5$, add $1$ to make $6$.
+$$125\times5=625\ \text{(books)}$$
+
+How to multiply: ones $5\times5=25$, write $5$ and regroup $2$. Tens $2\times5=10$, add $2$ to make $12$, write $2$ and regroup $1$. Hundreds $1\times5=5$, add $1$ to make $6$, write $6$.
+
+Check: $625\div5=125$. Correct.
+
+So there are $625$ books in $5$ crates altogether.
 
 **Answer.** $625$ books.
 :::
@@ -243,9 +288,20 @@ Set out in columns and work out: $639\div3$.
 1. How many hundreds is $6$ hundreds divided by $3$?
 
 ::solution
-Hundreds: $6\div3=2$. Tens: $3\div3=1$. Ones: $9\div3=3$. So
+Set out the division in columns and divide from the hundreds, then the tens, then the ones.
+
+Hundreds: $6\div3=2$, write $2$.
+
+Tens: $3\div3=1$, write $1$.
+
+Ones: $9\div3=3$, write $3$.
+
+So
 $$639\div3=213.$$
-Check: $213\times 3=639$.
+
+Check: $213\times3=639$. Correct.
+
+So $639\div3=213$.
 
 **Answer.** $213$.
 :::
@@ -260,9 +316,20 @@ Set out in columns and work out: $408\div4$.
 1. Tens: what is $0$ divided by $4$?
 
 ::solution
-Hundreds: $4\div4=1$. Tens: $0\div4=0$. Ones: $8\div4=2$. So
+Set out the division in columns and divide from the hundreds, then the tens, then the ones.
+
+Hundreds: $4\div4=1$, write $1$.
+
+Tens: $0\div4=0$, write $0$.
+
+Ones: $8\div4=2$, write $2$.
+
+So
 $$408\div4=102.$$
-Check: $102\times 4=408$.
+
+Check: $102\times4=408$. Correct.
+
+So $408\div4=102$.
 
 **Answer.** $102$.
 :::
@@ -295,11 +362,21 @@ A teacher has $3$ boxes of pens, with $168$ pens in each box. She shares all the
 2. Divide the total by $6$ classes.
 
 ::solution
+Solution
+
+The teacher has $3$ boxes with $168$ pens in each box, so we multiply the number of pens in one box by the number of boxes to find the total number of pens.
+
 The total number of pens in $3$ boxes is:
-$$168\times 3=504\ \text{(pens)}.$$
+$$168\times3=504\ \text{(pens)}$$
+
+She shares all the pens equally among $6$ classes, so we divide the total number of pens by the number of classes.
+
 The number of pens each class gets is:
-$$504\div6=84\ \text{(pens)}.$$
-Check: $84\times 6=504$. Correct.
+$$504\div6=84\ \text{(pens)}$$
+
+Check: $84\times6=504$. Correct.
+
+So each class gets $84$ pens.
 
 **Answer.** $84$ pens.
 :::

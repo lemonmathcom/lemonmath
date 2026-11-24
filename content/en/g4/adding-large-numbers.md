@@ -176,8 +176,16 @@ Set out in columns and work out: $524\,163+365\,214$.
 2. Add column by column, starting with the ones.
 
 ::solution
+Set the numbers out so that digits of the same place line up, then add from right to left:
 $$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
+
+Ones: $3+4=7$, write $7$. Tens: $6+1=7$, write $7$. Hundreds: $1+2=3$, write $3$. Thousands: $4+5=9$, write $9$. Ten-thousands: $2+6=8$, write $8$. Hundred-thousands: $5+3=8$, write $8$.
+
 No column makes $10$, so nothing is regrouped.
+
+Check: $889\,377-365\,214=524\,163$. Correct.
+
+So $524\,163+365\,214=889\,377$.
 
 **Answer.** $889\,377$.
 :::
@@ -193,8 +201,24 @@ Set out in columns and work out: $387\,659+549\,874$.
 2. Add column by column, regrouping when needed.
 
 ::solution
+Set the numbers out so that digits of the same place line up, then add from right to left:
 $$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
-Ones: $9+4=13$, write $3$ and regroup $1$. Tens: $5+7+1=13$, write $3$ and regroup $1$. Hundreds: $6+8+1=15$, write $5$ and regroup $1$. Thousands: $7+9+1=17$, write $7$ and regroup $1$. Ten-thousands: $8+4+1=13$, write $3$ and regroup $1$. Hundred-thousands: $3+5+1=9$.
+
+Ones: $9+4=13$, write $3$ and regroup $1$.
+
+Tens: $5+7+1=13$, write $3$ and regroup $1$.
+
+Hundreds: $6+8+1=15$, write $5$ and regroup $1$.
+
+Thousands: $7+9+1=17$, write $7$ and regroup $1$.
+
+Ten-thousands: $8+4+1=13$, write $3$ and regroup $1$.
+
+Hundred-thousands: $3+5+1=9$, write $9$.
+
+Check: $937\,533-549\,874=387\,659$. Correct.
+
+So $387\,659+549\,874=937\,533$.
 
 **Answer.** $937\,533$.
 :::
@@ -210,8 +234,16 @@ Set out in columns and work out: $976\,842-413\,521$.
 2. Subtract column by column, starting with the ones.
 
 ::solution
+Set the numbers out so that digits of the same place line up, then subtract from right to left:
 $$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
+
+Ones: $2-1=1$, write $1$. Tens: $4-2=2$, write $2$. Hundreds: $8-5=3$, write $3$. Thousands: $6-3=3$, write $3$. Ten-thousands: $7-1=6$, write $6$. Hundred-thousands: $9-4=5$, write $5$.
+
 No column needs regrouping.
+
+Check: $563\,321+413\,521=976\,842$. Correct.
+
+So $976\,842-413\,521=563\,321$.
 
 **Answer.** $563\,321$.
 :::
@@ -227,8 +259,24 @@ Set out in columns and work out: $800\,000-345\,678$.
 2. In each column, add the regrouped $1$ to the digit below before you subtract.
 
 ::solution
+Set the numbers out so that digits of the same place line up, then subtract from right to left:
 $$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
-Ones: $10-8=2$, write $2$ and regroup $1$. Tens: $7+1=8$; $10-8=2$, write $2$ and regroup $1$. Hundreds: $6+1=7$; $10-7=3$, write $3$ and regroup $1$. Thousands: $5+1=6$; $10-6=4$, write $4$ and regroup $1$. Ten-thousands: $4+1=5$; $10-5=5$, write $5$ and regroup $1$. Hundred-thousands: $3+1=4$; $8-4=4$.
+
+Ones: $0$ is less than $8$, so use $10-8=2$, write $2$ and regroup $1$.
+
+Tens: $7+1=8$; $0$ is less than $8$, so use $10-8=2$, write $2$ and regroup $1$.
+
+Hundreds: $6+1=7$; $10-7=3$, write $3$ and regroup $1$.
+
+Thousands: $5+1=6$; $10-6=4$, write $4$ and regroup $1$.
+
+Ten-thousands: $4+1=5$; $10-5=5$, write $5$ and regroup $1$.
+
+Hundred-thousands: $3+1=4$; $8-4=4$, write $4$.
+
+Check: $454\,322+345\,678=800\,000$. Correct.
+
+So $800\,000-345\,678=454\,322$.
 
 **Answer.** $454\,322$.
 :::
@@ -244,9 +292,12 @@ Find $x$: $x+245\,780=1\,000\,000$.
 2. Set out the subtraction and work it out, then check.
 
 ::solution
-$x=1\,000\,000-245\,780=754\,220$.
+In the addition $x+245\,780=1\,000\,000$, $x$ is the unknown addend. To find an unknown addend, we subtract the known addend from the sum:
+$$x=1\,000\,000-245\,780=754\,220$$
 
-**Check.** $754\,220+245\,780=1\,000\,000$. Correct.
+Check: $754\,220+245\,780=1\,000\,000$. Correct.
+
+So $x=754\,220$.
 
 **Answer.** $x=754\,220$.
 :::
@@ -265,8 +316,10 @@ Two districts (made-up numbers) have $156\,480$ people and $238\,765$ people. Ho
 ::solution
 Solution
 
-The number of people in the two districts is:
-$$156\,480+238\,765=395\,245\ \text{(people)}.$$
+To find how many people live in the two districts, we add the numbers of people in the two districts. The number of people in the two districts is:
+$$156\,480+238\,765=395\,245\ \text{(people)}$$
+
+So the two districts have $395\,245$ people altogether.
 
 **Answer.** $395\,245$ people.
 :::
@@ -285,8 +338,10 @@ A store (made-up numbers) has $650\,000$ kg of rice. The store sends out $275\,3
 ::solution
 Solution
 
-The number of kilograms of rice left is:
-$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
+To find how many kilograms of rice are left, we subtract the rice sent out from the rice at the start. The number of kilograms of rice left is:
+$$650\,000-275\,380=374\,620\ \text{(kg)}$$
+
+So $374\,620$ kilograms of rice are left in the store.
 
 **Answer.** $374\,620$ kg of rice.
 :::
@@ -302,7 +357,14 @@ Remember the lesson on rounding numbers. Work out $468\,957+376\,849$, then roun
 2. Look at the ten-thousands digit and round.
 
 ::solution
-We have $468\,957+376\,849=845\,806$. The hundred-thousands digit is $8$ and the ten-thousands digit is $4$. Since $4<5$, keep $8$ and replace the digits to its right with $0$.
+First we work out the sum:
+$$468\,957+376\,849=845\,806$$
+
+Ones: $7+9=16$, write $6$ and regroup $1$. Tens: $5+4+1=10$, write $0$ and regroup $1$. Hundreds: $9+8+1=18$, write $8$ and regroup $1$. Thousands: $8+6+1=15$, write $5$ and regroup $1$. Ten-thousands: $6+7+1=14$, write $4$ and regroup $1$. Hundred-thousands: $4+3+1=8$, write $8$.
+
+To round $845\,806$ to the nearest hundred thousand: the hundred-thousands digit is $8$ and the digit to its right, the ten-thousands digit, is $4$. Since $4<5$, keep $8$ and replace the digits to its right with $0$.
+
+So $468\,957+376\,849=845\,806$, which rounds to $800\,000$ to the nearest hundred thousand.
 
 **Answer.** $845\,806$, which rounds to $800\,000$.
 :::
@@ -318,7 +380,17 @@ Nam works out $500\,000-237\,469=363\,531$. Use addition to check Nam's answer. 
 2. If the sum is not $500\,000$, work out $500\,000-237\,469$ again.
 
 ::solution
-We have $363\,531+237\,469=601\,000$, which is not $500\,000$, so Nam's answer is wrong. Working it out again: $500\,000-237\,469=262\,531$. Check: $262\,531+237\,469=500\,000$. Correct.
+To check a subtraction, we add the difference to the number subtracted; the result must equal the starting number. For Nam's answer:
+$$363\,531+237\,469=601\,000$$
+
+The number $601\,000$ is not the starting number $500\,000$, so Nam's answer is wrong.
+
+Working it out again:
+$$500\,000-237\,469=262\,531$$
+
+Check: $262\,531+237\,469=500\,000$. Correct.
+
+So Nam is wrong; the correct answer is $262\,531$.
 
 **Answer.** Nam is wrong; the correct answer is $262\,531$.
 :::
@@ -334,8 +406,14 @@ Find the difference between the largest and the smallest six-digit number whose 
 2. Set out the subtraction and work it out.
 
 ::solution
-The largest number is $987\,654$. The smallest is $102\,345$ (the digit $1$ first, then $0$, $2$, $3$, $4$, $5$). We have:
-$$987\,654-102\,345=885\,309.$$
+For the largest six-digit number with all different digits, we take the largest digits and put them in order from largest to smallest: $987\,654$.
+
+For the smallest, the hundred-thousands digit cannot be $0$, so the smallest choice is $1$; the other places take the smallest unused digits in turn: $0$, $2$, $3$, $4$, $5$. The smallest number is $102\,345$.
+
+The difference of the two numbers is:
+$$987\,654-102\,345=885\,309$$
+
+So the difference between the largest and the smallest six-digit number whose digits are all different is $885\,309$.
 
 **Answer.** $885\,309$.
 :::

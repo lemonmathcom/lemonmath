@@ -186,7 +186,17 @@ D. $x^4+\dfrac{1}{3x^3}+C$.
 2. Watch the minus sign in front.
 
 ::solution
-$\displaystyle\int4x^3\,dx=x^4$ and $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Option B has the wrong sign; C is the derivative; D lowers the power instead of raising it.
+Write $\dfrac{1}{x^2}=x^{-2}$. Using the formula $\displaystyle\int x^n\,dx=\dfrac{x^{n+1}}{n+1}+C$ (for $n\neq-1$), we have
+$$\int4x^3\,dx=4\cdot\frac{x^4}{4}=x^4,\qquad \int x^{-2}\,dx=\frac{x^{-1}}{-1}=-\frac1x.$$
+
+Hence
+$$\int\left(4x^3-\frac{1}{x^2}\right)dx=x^4-\left(-\frac1x\right)+C=x^4+\frac1x+C.$$
+
+Check: $\left(x^4+\dfrac1x\right)'=4x^3-\dfrac{1}{x^2}$ (satisfied).
+
+So the answer is **A**.
+
+*Remark.* Option B has the wrong sign; option C is the derivative of the integrand; option D lowers the power instead of raising it.
 
 **Answer.** A.
 :::
@@ -205,7 +215,12 @@ D. $\dfrac{\pi}{2}$.
 1. Work out $\sin\dfrac{\pi}{2}-\sin0$.
 
 ::solution
-$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Option C uses the wrong antiderivative $-\sin x$.
+An antiderivative of $\cos x$ is $\sin x$. By the Fundamental Theorem of Calculus, we have
+$$\int_0^{\frac{\pi}{2}}\cos x\,dx=\Big[\sin x\Big]_0^{\frac{\pi}{2}}=\sin\frac{\pi}{2}-\sin0=1-0=1.$$
+
+So the answer is **A**.
+
+*Remark.* Option C uses the wrong antiderivative $-\sin x$.
 
 **Answer.** A.
 :::
@@ -221,7 +236,10 @@ Evaluate $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
 2. Substitute the limits $2$ and $0$.
 
 ::solution
-$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+An antiderivative of $3x^2-2x+1$ is $x^3-x^2+x$. By the Fundamental Theorem of Calculus, we have
+$$\int_0^2\left(3x^2-2x+1\right)dx=\Big[x^3-x^2+x\Big]_0^2=\left(8-4+2\right)-0=6.$$
+
+So $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx=6$.
 
 **Answer.** $6$.
 :::
@@ -245,13 +263,19 @@ d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
 2. Evaluate each integral with $\Big[e^x+x^2\Big]$.
 
 ::solution
-a) **True**: $(e^x+x^2)'=e^x+2x$.
+Let $f(x)=e^x+2x$. We have $\displaystyle\int f(x)\,dx=e^x+x^2+C$.
 
-b) **False**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+a) **True.** We have $F'(x)=\left(e^x+x^2\right)'=e^x+2x=f(x)$, so $F(x)=e^x+x^2$ is an antiderivative of $f(x)$.
 
-c) **False**: $F(0)=1+C=3$, so $C=2$ and $F(x)=e^x+x^2+2$.
+b) **False.** We have
+$$\int_0^1f(x)\,dx=\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e\neq e+1.$$
 
-d) **True**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+c) **False.** The antiderivative has the form $F(x)=e^x+x^2+C$. From $F(0)=1+C=3$ we get $C=2$. Hence $F(x)=e^x+x^2+2$, not $e^x+x^2+3$.
+
+d) **True.** We have
+$$\int_{-1}^1f(x)\,dx=\Big[e^x+x^2\Big]_{-1}^1=(e+1)-\left(\frac1e+1\right)=e-\frac1e.$$
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -267,7 +291,14 @@ Find the area of the region bounded by the parabola $y=x^2-4$ and the $x$-axis. 
 2. On $[-2, 2]$, $x^2-4\le0$, so $\lvert x^2-4\rvert=4-x^2$.
 
 ::solution
-$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
+The $x$-coordinates of the intersection points of the parabola $y=x^2-4$ with the $x$-axis are the roots of $x^2-4=0$, that is, $x=-2$ or $x=2$.
+
+On $[-2, 2]$ we have $x^2-4\le0$, so $|x^2-4|=4-x^2$. The required area is
+$$S=\int_{-2}^2\left|x^2-4\right|dx=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
+
+Rounding to 1 decimal place, $S\approx10.7$.
+
+So the area of the region bounded by the parabola and the $x$-axis is approximately $10.7$ square units.
 
 **Answer.** $10.7$.
 :::
@@ -283,7 +314,17 @@ Find the area of the region bounded by the graph of $y=x^3-x$, the $x$-axis and 
 2. Evaluate the two integrals and add.
 
 ::solution
-$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+We have $x^3-x=x(x-1)(x+1)$. On $[0, 2]$, $x^3-x=0\iff x=0$ or $x=1$. Sign: on $(0, 1)$ we have $x^3-x<0$, and on $(1, 2)$ we have $x^3-x>0$.
+
+Hence the area is
+$$S=\int_0^2\left|x^3-x\right|dx=\int_0^1\left(x-x^3\right)dx+\int_1^2\left(x^3-x\right)dx.$$
+
+We compute each integral:
+$$\begin{aligned}\int_0^1\left(x-x^3\right)dx&=\Big[\frac{x^2}{2}-\frac{x^4}{4}\Big]_0^1=\frac12-\frac14=\frac14,\\ \int_1^2\left(x^3-x\right)dx&=\Big[\frac{x^4}{4}-\frac{x^2}{2}\Big]_1^2=(4-2)-\left(\frac14-\frac12\right)=\frac94.\end{aligned}$$
+
+Thus $S=\dfrac14+\dfrac94=\dfrac{10}{4}=\dfrac52$.
+
+So the area of the region is $\dfrac52$ square units.
 
 **Answer.** $S=\dfrac52$.
 :::
@@ -303,7 +344,14 @@ D. $18\pi$.
 2. Check with the cone formula $\dfrac13\pi r^2h$.
 
 ::solution
-$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Check: the cone has $r=6$, $h=3$, so $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Option B forgets to square; C forgets to divide by $3$; D squares only $x$.
+The solid of revolution is formed by rotating the region bounded by $y=2x$, the $x$-axis and the line $x=3$ (for $0\le x\le3$) about the $x$-axis. Using the volume formula for a solid of revolution, we have
+$$V=\pi\int_0^3(2x)^2\,dx=\pi\int_0^34x^2\,dx=\pi\Big[\frac{4x^3}{3}\Big]_0^3=\pi\cdot\frac{4\cdot27}{3}=36\pi.$$
+
+Check: this cone has base radius $r=2\cdot3=6$ and height $h=3$, so $V=\dfrac13\pi r^2h=\dfrac13\pi\cdot36\cdot3=36\pi$ (satisfied).
+
+So the answer is **A**.
+
+*Remark.* Option B forgets to square; option C forgets to divide by $3$; option D squares only $x$.
 
 **Answer.** A.
 :::
@@ -319,7 +367,10 @@ Water flows into a tank at a rate of $r(t)=0.6t+2$ (litres per minute), with $t$
 2. Substitute the limits.
 
 ::solution
-$\Big[0.3t^2+2t\Big]_0^{10}=30+20=50$.
+The amount of water flowing into the tank in the first $10$ minutes is the integral of the flow rate $r(t)$ from $t=0$ to $t=10$:
+$$V=\int_0^{10}r(t)\,dt=\int_0^{10}(0.6t+2)\,dt=\Big[0.3t^2+2t\Big]_0^{10}=\left(0.3\cdot100+2\cdot10\right)-0=30+20=50.$$
+
+So $50$ litres of water flow into the tank in the first $10$ minutes.
 
 **Answer.** $50$.
 :::
@@ -343,13 +394,20 @@ d) In the last second before stopping, the car travels $3$ m.
 2. Work out $s(4)$ and $s(4)-s(3)$.
 
 ::solution
-a) **True**: $12-3t=0\iff t=4$.
+The velocity of the car is $v(t)=12-3t$ (m/s), where $t$ is the time in seconds since braking.
 
-b) **True**: $s(t)=\Big[12u-1.5u^2\Big]_0^t=12t-1.5t^2$.
+a) **True.** The car stops when $v(t)=0$, that is, $12-3t=0\iff t=4$. For $0\le t<4$ we have $v(t)>0$, so the car is moving. Hence the car stops after $4$ seconds.
 
-c) **True**: $s(4)=48-24=24$.
+b) **True.** The distance travelled $t$ seconds after braking ($0\le t\le4$) is
+$$s(t)=\int_0^tv(u)\,du=\Big[12u-1.5u^2\Big]_0^t=12t-1.5t^2\ \text{(m)}.$$
 
-d) **False**: $s(4)-s(3)=24-22.5=1.5$ m.
+c) **True.** From braking to stopping, the car travels $s(4)=12\cdot4-1.5\cdot16=48-24=24$ m.
+
+d) **False.** The distance travelled in the last second (from $t=3$ to $t=4$) is
+$$s(4)-s(3)=24-\left(12\cdot3-1.5\cdot9\right)=24-22.5=1.5\ \text{m},$$
+not $3$ m.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -365,8 +423,17 @@ A gateway has the shape of a parabola: it is $8$ m wide at ground level and its 
 2. Evaluate the integral.
 
 ::solution
-The parabola has the form $y=4-ax^2$ and passes through $(4, 0)$, so $a=\dfrac14$.
-$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21.33.$$
+Choose a coordinate system $Oxy$ with origin $O$ at the midpoint of the base of the gateway and the $x$-axis along the ground. Then the two feet of the gateway are $(-4, 0)$ and $(4, 0)$, and the vertex of the parabola is $(0, 4)$.
+
+The parabola has vertex $(0, 4)$, so it has the form $y=4-ax^2$ with $a>0$. It passes through $(4, 0)$, so
+$$0=4-a\cdot4^2\iff16a=4\iff a=\frac14.$$
+
+Hence the parabola is $y=4-\dfrac{x^2}{4}$, and $y\ge0$ on $[-4, 4]$. The area of glass equals the area of the region bounded by the parabola and the $x$-axis:
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{64}{12}\right)=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21.33.$$
+
+Rounding to 1 decimal place, $S\approx21.3$.
+
+So the area of glass is approximately $21.3$ m².
 
 **Answer.** $21.3$.
 :::

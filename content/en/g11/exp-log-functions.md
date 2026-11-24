@@ -294,11 +294,11 @@ c) $y=\log_2(x+3)$ (find the domain and the vertical asymptote).
 2. Add or subtract the corresponding constant.
 
 ::solution
-a) $3^x>0$, so $y>2$; the range is $(2, +\infty)$ and the horizontal asymptote is $y=2$.
+a) The function $y=3^x+2$ is defined on $\mathbb{R}$. For every $x$ we have $3^x>0$, so $3^x+2>2$, that is $y>2$. Since $3^x$ takes every positive value, $y$ takes every value in $(2, +\infty)$. As $x\to-\infty$, $3^x\to0$, hence $y\to2$. So the range is $(2, +\infty)$ and the graph has the horizontal asymptote $y=2$.
 
-b) $\left(\dfrac12\right)^x>0$, so $y<1$; the range is $(-\infty, 1)$ and the horizontal asymptote is $y=1$.
+b) The function $y=1-\left(\dfrac12\right)^x$ is defined on $\mathbb{R}$. For every $x$ we have $\left(\dfrac12\right)^x>0$, so $1-\left(\dfrac12\right)^x<1$, that is $y<1$. Since $\left(\dfrac12\right)^x$ takes every positive value, $y$ takes every value in $(-\infty, 1)$. As $x\to+\infty$, $\left(\dfrac12\right)^x\to0$, hence $y\to1$. So the range is $(-\infty, 1)$ and the graph has the horizontal asymptote $y=1$.
 
-c) We need $x+3>0$, that is $x>-3$; the domain is $(-3, +\infty)$ and the vertical asymptote is $x=-3$.
+c) The function $y=\log_2(x+3)$ is defined when the argument of the logarithm is positive: $x+3>0$, that is $x>-3$. As $x\to(-3)^+$, $x+3\to0^+$, so $y\to-\infty$. So the domain is $(-3, +\infty)$ and the graph has the vertical asymptote $x=-3$.
 
 **Answer.** a) $(2, +\infty)$, $y=2$; b) $(-\infty, 1)$, $y=1$; c) $(-3, +\infty)$, $x=-3$.
 :::
@@ -322,13 +322,17 @@ d) The graph has the horizontal asymptote $y=0$.
 2. Check each statement against the properties and the definition.
 
 ::solution
-a) **False**: the base $\dfrac13<1$, so the function is decreasing.
+The function $y=\log_{1/3}x$ has domain $(0, +\infty)$ and its base satisfies $0<\dfrac13<1$.
 
-b) **True**: $\log_{1/3}1=0$.
+a) **False.** Since the base $\dfrac13<1$, the function $y=\log_{1/3}x$ is decreasing on $(0, +\infty)$, not increasing.
 
-c) **True**: $\left(\dfrac13\right)^{-2}=9$.
+b) **True.** We have $\log_{1/3}1=0$ (because $\left(\dfrac13\right)^0=1$), so the graph passes through the point $(1, 0)$.
 
-d) **False**: the asymptote of a logarithmic function is the vertical asymptote $x=0$.
+c) **True.** We have $\left(\dfrac13\right)^{-2}=3^2=9$, so $\log_{1/3}9=-2$.
+
+d) **False.** As $x\to0^+$, $y=\log_{1/3}x\to+\infty$, so the graph has the vertical asymptote $x=0$. As $x\to+\infty$, $y\to-\infty$, so the graph has no horizontal asymptote $y=0$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -344,11 +348,19 @@ Suppose a sum of money in a deposit grows by $5\%$ each year, compounded annuall
 2. Calculate $n_0=\log_{1.05}2$, then take the smallest whole number that is large enough.
 
 ::solution
-We need $1.05^n\ge2$. We have $\log_{1.05}2=\dfrac{\ln2}{\ln1.05}\approx14.2$. The function is increasing, so $n\ge14.2$, that is $n=15$.
+Let $A$ be the original amount and $n$ the number of whole years ($n\in\mathbb{N}^*$). Since the amount grows by $5\%$ each year, compounded annually, after $n$ years it is $A\cdot1.05^n$.
+
+The amount is at least double the original when
+$$A\cdot1.05^n\ge2A\iff1.05^n\ge2.$$
+
+Since the base $1.05>1$, the function $y=\log_{1.05}t$ is increasing; hence
+$$n\ge\log_{1.05}2=\frac{\ln2}{\ln1.05}\approx14.2.$$
+
+Since $n$ is an integer, $n\ge15$, and the smallest value is $n=15$.
 
 Check: $1.05^{14}\approx1.98<2$ and $1.05^{15}\approx2.08\ge2$.
 
-So after at least $15$ years.
+So after at least $15$ years the amount is at least double the original.
 
 **Answer.** $15$ years.
 :::
@@ -368,11 +380,19 @@ b) After how many days will $10$ g remain (to one decimal place)?
 2. b) Solve $\left(\dfrac12\right)^{t/5}=0.1$, finding $\dfrac t5$ with a logarithm.
 
 ::solution
-a) $m(12)=100\cdot2^{-2.4}\approx18.9\approx19$ (g).
+The mass remaining after $t$ days is $m(t)=100\cdot\left(\dfrac12\right)^{t/5}$ (grams).
 
-b) From $\left(\dfrac12\right)^{t/5}=0.1$ we get $\dfrac t5=\log_{1/2}0.1=\log_210$, so $t=5\log_210\approx5\cdot3.3219\approx16.6$ (days).
+a) Substituting $t=12$, we get
+$$m(12)=100\cdot\left(\frac12\right)^{12/5}=100\cdot2^{-2.4}\approx18.9.$$
+To the nearest whole number, $m(12)\approx19$ g. So after $12$ days about $19$ g remain.
 
-So a) about $19$ g; b) about $16.6$ days.
+b) We need $t$ with $m(t)=10$, that is
+$$100\cdot\left(\frac12\right)^{t/5}=10\iff\left(\frac12\right)^{t/5}=0.1.$$
+Taking logarithms to base $\dfrac12$ on both sides, we get
+$$\frac t5=\log_{1/2}0.1=\log_210,$$
+so
+$$t=5\log_210\approx5\cdot3.3219\approx16.6.$$
+So after about $16.6$ days, $10$ g remain.
 
 **Answer.** a) $19$ g; b) $16.6$ days.
 :::
@@ -388,11 +408,19 @@ Suppose a city has $500\,000$ people and its population grows by $2\%$ each year
 2. Use a logarithm and monotonicity to find the smallest whole $n$.
 
 ::solution
-We need $1.02^n>\dfrac{600\,000}{500\,000}=1.2$. We have $\log_{1.02}1.2=\dfrac{\ln1.2}{\ln1.02}\approx9.2$. The function is increasing, so $n>9.2$, that is $n=10$.
+Let $n$ be the number of whole years ($n\in\mathbb{N}^*$). Since the population grows by $2\%$ each year, after $n$ years it is $500\,000\cdot1.02^n$ (people).
+
+The population exceeds $600\,000$ when
+$$500\,000\cdot1.02^n>600\,000\iff1.02^n>\frac{600\,000}{500\,000}=1.2.$$
+
+Since the base $1.02>1$, the function $y=\log_{1.02}t$ is increasing; hence
+$$n>\log_{1.02}1.2=\frac{\ln1.2}{\ln1.02}\approx9.2.$$
+
+Since $n$ is an integer, $n\ge10$, and the smallest value is $n=10$.
 
 Check: $500\,000\cdot1.02^9\approx597\,500<600\,000$ and $500\,000\cdot1.02^{10}\approx609\,500>600\,000$.
 
-So after at least $10$ years.
+So after at least $10$ years the population exceeds $600\,000$.
 
 **Answer.** $10$ years.
 :::
@@ -408,11 +436,19 @@ Let $f(x)=\log_5x-1$. Find the inverse function $f^{-1}$ and calculate $f^{-1}(1
 2. Rename the variable, then substitute $x=1$.
 
 ::solution
-From $y=\log_5x-1$ we get $\log_5x=y+1$, so $x=5^{y+1}$. Thus $f^{-1}(x)=5^{x+1}$ for all $x\in\mathbb{R}$.
+The function $f(x)=\log_5x-1$ has domain $(0, +\infty)$ and range $\mathbb{R}$, and it is increasing, so it has an inverse function.
 
-Hence $f^{-1}(1)=5^2=25$.
+Put $y=\log_5x-1$. Then
+$$\log_5x=y+1\iff x=5^{y+1}.$$
 
-**Check.** $f(25)=\log_525-1=2-1=1$.
+Swapping the roles of $x$ and $y$, we get $f^{-1}(x)=5^{x+1}$ for all $x\in\mathbb{R}$.
+
+Hence
+$$f^{-1}(1)=5^{1+1}=5^2=25.$$
+
+Check: $f(25)=\log_525-1=2-1=1$.
+
+So $f^{-1}(x)=5^{x+1}$ and $f^{-1}(1)=25$.
 
 **Answer.** $f^{-1}(x)=5^{x+1}$; $f^{-1}(1)=25$.
 :::
@@ -428,7 +464,14 @@ Revisit continuous functions. Prove that the equation $2^x+x=4$ has at least one
 2. Apply the intermediate value theorem.
 
 ::solution
-The function $g(x)=2^x+x-4$ is continuous on $\mathbb{R}$ (a sum of two continuous functions). We have $g(1)=2+1-4=-1<0$ and $g(2)=4+2-4=2>0$. By the intermediate value theorem there is $c\in(1, 2)$ with $g(c)=0$, that is $2^c+c=4$.
+Consider the function $g(x)=2^x+x-4$. The exponential function $2^x$ and the function $x$ are both continuous on $\mathbb{R}$, so $g$ is a sum of two continuous functions and is continuous on $\mathbb{R}$; in particular, $g$ is continuous on $[1, 2]$.
+
+We have
+$$g(1)=2+1-4=-1<0,\qquad g(2)=4+2-4=2>0.$$
+
+Hence $g(1)\cdot g(2)<0$. By the intermediate value theorem, there is $c\in(1, 2)$ with $g(c)=0$, that is $2^c+c=4$.
+
+So the equation $2^x+x=4$ has at least one solution in the interval $(1, 2)$.
 
 **Answer.** The equation has a solution in $(1, 2)$.
 :::

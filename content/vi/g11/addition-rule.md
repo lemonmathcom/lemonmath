@@ -154,7 +154,14 @@ Gieo một con xúc xắc cân đối. Tính xác suất số chấm là số ch
 2. Tìm giao rồi áp dụng công thức.
 
 ::solution
-$A\cap B=\{6\}$ nên $P(A\cup B)=\dfrac36+\dfrac26-\dfrac16=\dfrac46=\dfrac23$.
+Gọi $A$ là biến cố "Số chấm là số chẵn" và $B$ là biến cố "Số chấm chia hết cho $3$". Con xúc xắc cân đối nên $6$ kết quả $1; 2; 3; 4; 5; 6$ có cùng khả năng xảy ra.
+
+Ta có $A=\{2; 4; 6\}$ nên $P(A)=\dfrac36$; $B=\{3; 6\}$ nên $P(B)=\dfrac26$. Biến cố giao là $A\cap B=\{6\}$ nên $P(A\cap B)=\dfrac16$.
+
+Áp dụng công thức cộng xác suất $P(A\cup B)=P(A)+P(B)-P(A\cap B)$, ta có
+$$P(A\cup B)=\frac36+\frac26-\frac16=\frac46=\frac23.$$
+
+Vậy xác suất để số chấm là số chẵn hoặc chia hết cho $3$ bằng $\dfrac23$.
 
 **Đáp số.** $\dfrac23$.
 :::
@@ -170,7 +177,14 @@ Rút ngẫu nhiên một lá từ bộ bài tây $52$ lá. Tính xác suất rú
 2. Áp dụng công thức cộng.
 
 ::solution
-$P(\text{đỏ})=\dfrac{26}{52}$, $P(\text{át})=\dfrac4{52}$, $P(\text{át đỏ})=\dfrac2{52}$. Vậy $P(A\cup B)=\dfrac{26+4-2}{52}=\dfrac{28}{52}=\dfrac7{13}$.
+Gọi $A$ là biến cố "Lá bài rút được là lá đỏ" và $B$ là biến cố "Lá bài rút được là lá át". Bộ bài có $52$ lá và mỗi lá có cùng khả năng được rút.
+
+Bộ bài có $26$ lá đỏ nên $P(A)=\dfrac{26}{52}$; có $4$ lá át nên $P(B)=\dfrac4{52}$. Biến cố $A\cap B$ là "rút được lá át đỏ". Có $2$ lá át đỏ (át cơ và át rô) nên $P(A\cap B)=\dfrac2{52}$.
+
+Áp dụng công thức cộng xác suất $P(A\cup B)=P(A)+P(B)-P(A\cap B)$, ta có
+$$P(A\cup B)=\frac{26}{52}+\frac4{52}-\frac2{52}=\frac{28}{52}=\frac7{13}.$$
+
+Vậy xác suất rút được lá đỏ hoặc lá át là $\dfrac7{13}$.
 
 **Đáp số.** $\dfrac7{13}$.
 :::
@@ -194,13 +208,17 @@ d) $P(A\cup B)\ge P(A)$.
 2. Nhớ rằng hợp chứa $A$.
 
 ::solution
-a) **Sai**: cần trừ $P(AB)$.
+Công thức cộng xác suất: với hai biến cố $A$, $B$ bất kì, $P(A\cup B)=P(A)+P(B)-P(AB)$.
 
-b) **Đúng**: khi xung khắc $P(AB)=0$.
+a) **Sai.** Theo công thức cộng, $P(A\cup B)=P(A)+P(B)-P(AB)$ nên đẳng thức $P(A\cup B)=P(A)+P(B)$ chỉ xảy ra khi $P(AB)=0$. Chẳng hạn, lấy $B=A$ với $P(A)>0$ thì $P(A\cup B)=P(A)\ne2P(A)=P(A)+P(B)$. Vậy đẳng thức không đúng với mọi biến cố $A$, $B$.
 
-c) **Đúng** theo tính chất.
+b) **Đúng.** Nếu $A$, $B$ xung khắc thì $A\cap B=\varnothing$, nên $P(AB)=0$. Thay vào công thức cộng, ta được $P(A\cup B)=P(A)+P(B)$.
 
-d) **Đúng**: $A\subset A\cup B$.
+c) **Đúng.** Hai biến cố $A$ và $\overline A$ xung khắc và $A\cup\overline A=\Omega$. Do đó $P(A)+P(\overline A)=P(\Omega)=1$, suy ra $P(\overline A)=1-P(A)$.
+
+d) **Đúng.** Vì $A\subset A\cup B$ nên mọi kết quả thuận lợi cho $A$ đều thuận lợi cho $A\cup B$. Do đó $P(A\cup B)\ge P(A)$.
+
+Vậy các mệnh đề b), c), d) đúng; mệnh đề a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 :::
@@ -216,7 +234,13 @@ Cho $P(A)=0{,}5$, $P(B)=0{,}4$ và $P(AB)=0{,}2$. Tính $P(A\cup B)$ và xác su
 2. Lấy $1$ trừ đi kết quả.
 
 ::solution
-$P(A\cup B)=0{,}5+0{,}4-0{,}2=0{,}7$. Xác suất không biến cố nào xảy ra là $1-0{,}7=0{,}3$.
+Áp dụng công thức cộng xác suất $P(A\cup B)=P(A)+P(B)-P(AB)$, ta có
+$$P(A\cup B)=0{,}5+0{,}4-0{,}2=0{,}7.$$
+
+Biến cố "không có biến cố nào trong hai biến cố $A$, $B$ xảy ra" chính là biến cố đối của $A\cup B$, tức là $\overline{A\cup B}$. Do đó
+$$P\left(\overline{A\cup B}\right)=1-P(A\cup B)=1-0{,}7=0{,}3.$$
+
+Vậy $P(A\cup B)=0{,}7$ và xác suất không có biến cố nào trong hai biến cố xảy ra là $0{,}3$.
 
 **Đáp số.** $0{,}7$ và $0{,}3$.
 :::
@@ -232,7 +256,14 @@ Tung một đồng xu cân đối ba lần. Tính xác suất có ít nhất m�
 2. Lấy $1$ trừ đi.
 
 ::solution
-Xác suất ba lần đều sấp là $\left(\dfrac12\right)^3=\dfrac18$. Vậy xác suất ít nhất một lần ngửa là $1-\dfrac18=\dfrac78$.
+Gọi $A$ là biến cố "Có ít nhất một lần ra mặt ngửa". Biến cố đối $\overline A$ là "Cả ba lần đều ra mặt sấp".
+
+Đồng xu cân đối nên mỗi lần tung, xác suất ra mặt sấp là $\dfrac12$; các lần tung độc lập với nhau. Do đó
+$$P(\overline A)=\frac12\cdot\frac12\cdot\frac12=\left(\frac12\right)^3=\frac18.$$
+
+Suy ra $P(A)=1-P(\overline A)=1-\dfrac18=\dfrac78$.
+
+Vậy xác suất để có ít nhất một lần ra mặt ngửa là $\dfrac78$.
 
 **Đáp số.** $\dfrac78$.
 :::
@@ -248,7 +279,18 @@ Giả sử một nhà kho có hai thiết bị báo cháy hoạt động độc 
 2. Nhân rồi lấy $1$ trừ đi.
 
 ::solution
-Xác suất cả hai không báo là $0{,}1\cdot0{,}2=0{,}02$. Vậy xác suất ít nhất một thiết bị báo là $1-0{,}02=0{,}98$.
+Gọi $A$ là biến cố "Thiết bị thứ nhất báo động" và $B$ là biến cố "Thiết bị thứ hai báo động" khi có cháy. Ta có $P(A)=0{,}9$, $P(B)=0{,}8$ và $A$, $B$ độc lập.
+
+Biến cố "có ít nhất một thiết bị báo động" là $A\cup B$. Biến cố đối của nó là "cả hai thiết bị đều không báo động", tức là $\overline A\cap\overline B$.
+
+Ta có $P(\overline A)=1-0{,}9=0{,}1$ và $P(\overline B)=1-0{,}8=0{,}2$. Vì $A$, $B$ độc lập nên $\overline A$, $\overline B$ cũng độc lập, do đó
+$$P(\overline A\cap\overline B)=P(\overline A)\cdot P(\overline B)=0{,}1\cdot0{,}2=0{,}02.$$
+
+Suy ra $P(A\cup B)=1-0{,}02=0{,}98$.
+
+Kiểm tra bằng công thức cộng: $P(A\cup B)=0{,}9+0{,}8-0{,}9\cdot0{,}8=1{,}7-0{,}72=0{,}98$.
+
+Vậy xác suất có ít nhất một thiết bị báo động khi có cháy là $0{,}98$.
 
 **Đáp số.** $0{,}98$.
 :::
@@ -280,7 +322,15 @@ Có $10$ số chia hết cho $2$, $6$ số chia hết cho $3$ và $3$ số chia 
 2. So sánh với $P(A)\,P(B)$.
 
 ::solution
-$P(AB)=0{,}6+0{,}5-0{,}85=0{,}25$. Mặt khác $P(A)\,P(B)=0{,}6\cdot0{,}5=0{,}3\ne0{,}25$ nên $A$, $B$ không độc lập.
+Áp dụng công thức cộng xác suất $P(A\cup B)=P(A)+P(B)-P(AB)$ và chuyển vế, ta được $P(AB)=P(A)+P(B)-P(A\cup B)$. Thay số:
+$$P(AB)=0{,}6+0{,}5-0{,}85=0{,}25.$$
+
+Hai biến cố $A$, $B$ độc lập khi và chỉ khi $P(AB)=P(A)\,P(B)$. Ta có
+$$P(A)\,P(B)=0{,}6\cdot0{,}5=0{,}3.$$
+
+Vì $0{,}25\ne0{,}3$ nên $P(AB)\ne P(A)\,P(B)$, do đó $A$, $B$ không độc lập.
+
+Vậy $P(AB)=0{,}25$ và hai biến cố $A$, $B$ không độc lập.
 
 **Đáp số.** $P(AB)=0{,}25$; không độc lập.
 :::

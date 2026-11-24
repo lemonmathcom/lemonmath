@@ -119,7 +119,14 @@ Work out $9+3$.
 2. Work out $9+1$, then add $2$.
 
 ::solution
-$9+3=9+1+2=10+2=12$.
+To add across $10$, we split $3$ into $1+2$ so that $9+1$ makes $10$.
+
+We have
+$$9+3=9+1+2=10+2=12.$$
+
+Check by swapping the two addends: $3+9=12$.
+
+So $9+3=12$.
 
 **Answer.** $12$.
 :::
@@ -135,7 +142,14 @@ Work out $8+4$.
 2. Work out $8+2$, then add what is left.
 
 ::solution
-$8+4=8+2+2=10+2=12$.
+To add across $10$, we split $4$ into $2+2$ so that $8+2$ makes $10$.
+
+We have
+$$8+4=8+2+2=10+2=12.$$
+
+Check by swapping the two addends: $4+8=12$.
+
+So $8+4=12$.
 
 **Answer.** $12$.
 :::
@@ -151,7 +165,14 @@ Work out $7+5$.
 2. Work out $7+3$, then add $2$.
 
 ::solution
-$7+5=7+3+2=10+2=12$.
+To add across $10$, we split $5$ into $3+2$ so that $7+3$ makes $10$.
+
+We have
+$$7+5=7+3+2=10+2=12.$$
+
+Check by swapping the two addends: $5+7=12$.
+
+So $7+5=12$.
 
 **Answer.** $12$.
 :::
@@ -167,7 +188,14 @@ Work out $5+9$.
 2. $9$ needs $1$ more: split $5$ into $1$ and $4$.
 
 ::solution
-$5+9=9+5=9+1+4=10+4=14$.
+When we swap the two addends the sum does not change, so $5+9=9+5$. We put $9$ first because $9$ needs only $1$ more to make $10$.
+
+We split $5$ into $1+4$:
+$$5+9=9+5=9+1+4=10+4=14.$$
+
+Check: $5+9=5+5+4=10+4=14$.
+
+So $5+9=14$.
 
 **Answer.** $14$.
 :::
@@ -183,7 +211,14 @@ Write $>$, $<$ or $=$ in the box: $8+6 \;\square\; 15$.
 2. Compare the result with $15$.
 
 ::solution
-$8+6=8+2+4=14$. Since $14<15$, we have $8+6<15$.
+First we work out $8+6$. We split $6$ into $2+4$ so that $8+2$ makes $10$:
+$$8+6=8+2+4=10+4=14.$$
+
+Now compare $14$ with $15$: $14$ comes before $15$ when we count, so $14<15$.
+
+Hence $8+6<15$.
+
+So the sign to write in the box is $<$.
 
 **Answer.** The sign $<$.
 :::
@@ -199,8 +234,14 @@ In a garden there are $9$ hens and $6$ cockerels. How many chickens are there al
 2. Work out $9+6$ and write the answer with its unit.
 
 ::solution
+Solution
+
+To find how many chickens there are altogether, we add the number of hens and the number of cockerels.
+
 The number of chickens altogether is:
 $$9+6=9+1+5=10+5=15\ \text{(chickens)}.$$
+
+So there are $15$ chickens altogether in the garden.
 
 **Answer.** $15$ chickens.
 :::
@@ -216,7 +257,12 @@ Remember the last lesson: what number comes just after $12$? Then work out (the 
 2. Add $7$ to it (count on, or add the ones).
 
 ::solution
-The number just after $12$ is $13$. Then $13+7=20$ (because $3+7=10$, and $10$ and $10$ make $20$).
+The number just after a number is $1$ more than it. Since $12+1=13$, the number just after $12$ is $13$.
+
+Next we work out $13+7$. We write $13=10+3$ and add $3$ and $7$ to make $10$:
+$$13+7=10+3+7=10+10=20.$$
+
+So the number just after $12$ is $13$, and $13+7=20$.
 
 **Answer.** $20$.
 :::
@@ -233,9 +279,14 @@ Find the missing number: $\square+8=15$.
 3. Add the two parts: $2+5$.
 
 ::solution
-From $8$ up to $10$ is $2$, and from $10$ up to $15$ is $5$, so the missing number is $2+5=7$.
+The missing number plus $8$ makes $15$. We count on from $8$ up to $15$, passing through $10$.
 
-**Check.** $7+8=15$. Correct.
+From $8$ up to $10$ we need $2$. From $10$ up to $15$ we need $5$. The missing number is
+$$2+5=7.$$
+
+Check: $7+8=7+3+5=10+5=15$. Correct.
+
+So the number to write in the box is $7$.
 
 **Answer.** $7$.
 :::

@@ -218,7 +218,11 @@ An angle measures $65^\circ$. What kind of angle is it?
 2. Name the angle using the table of kinds of angle.
 
 ::solution
+We compare the size of the angle with $90^\circ$. An angle smaller than $90^\circ$ is an acute angle.
+
 We have $65^\circ<90^\circ$, so it is an acute angle.
+
+So an angle of $65^\circ$ is an acute angle.
 
 **Answer.** An acute angle.
 :::
@@ -234,7 +238,14 @@ Some angles measure $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$. Say what k
 2. A size equal to $90^\circ$ or $180^\circ$ has its own name.
 
 ::solution
-$100^\circ$ is an obtuse angle, $90^\circ$ is a right angle, $30^\circ$ is an acute angle, $180^\circ$ is a straight angle.
+We compare each size with $90^\circ$ and $180^\circ$:
+
+- The angle $100^\circ$: since $90^\circ<100^\circ<180^\circ$, it is an obtuse angle.
+- The angle $90^\circ$: its size equals $90^\circ$, so it is a right angle.
+- The angle $30^\circ$: since $30^\circ<90^\circ$, it is an acute angle.
+- The angle $180^\circ$: its size equals $180^\circ$, so it is a straight angle.
+
+So the angles $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$ are obtuse, right, acute and straight respectively.
 
 **Answer.** Obtuse, right, acute, straight.
 :::
@@ -250,7 +261,12 @@ At $4$ o'clock, how many degrees is the angle between the two hands of a clock? 
 2. Compare the result with $90^\circ$ and $180^\circ$.
 
 ::solution
-We have $4\times30^\circ=120^\circ$. Since $90^\circ<120^\circ<180^\circ$, it is an obtuse angle.
+On a clock face, two neighbouring numbers are $30^\circ$ apart. At $4$ o'clock the hour hand points at $4$ and the minute hand points at $12$, so the hands are $4$ such gaps apart. The size of the angle between the hands is:
+$$4\times30^\circ=120^\circ.$$
+
+We compare with $90^\circ$ and $180^\circ$: since $90^\circ<120^\circ<180^\circ$, it is an obtuse angle.
+
+So at $4$ o'clock the two hands make an angle of $120^\circ$, which is an obtuse angle.
 
 **Answer.** $120^\circ$, an obtuse angle.
 :::
@@ -266,7 +282,12 @@ Write $>$, $<$ or $=$ in the gap: $125^\circ\ \ldots\ 90^\circ+35^\circ$.
 2. Compare the two sizes.
 
 ::solution
-We have $90^\circ+35^\circ=125^\circ$. The two sizes are equal.
+We work out the right-hand side first:
+$$90^\circ+35^\circ=125^\circ.$$
+
+So we need to compare $125^\circ$ with $125^\circ$. The two sizes are equal.
+
+So we write the sign $=$: $125^\circ=90^\circ+35^\circ$.
 
 **Answer.** The sign $=$.
 :::
@@ -282,7 +303,10 @@ Put the angles of size $150^\circ$, $60^\circ$, $100^\circ$, $25^\circ$ in order
 2. Find the larger sizes one by one.
 
 ::solution
-We have $25^\circ<60^\circ<100^\circ<150^\circ$.
+We compare the sizes: $25<60<100<150$. The smallest is $25$, then $60$, then $100$, and the largest is $150$. We have
+$$25^\circ<60^\circ<100^\circ<150^\circ.$$
+
+So the angles in order from smallest to largest are $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
 
 **Answer.** $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
 :::
@@ -301,9 +325,14 @@ A gate (made-up numbers) is opened through an angle of $35^\circ$, then opened a
 ::solution
 Solution
 
+The gate is opened a further angle, so the angle through which it is open is the sum of the two angles.
+
 The angle through which the gate is open is:
 $$35^\circ+50^\circ=85^\circ.$$
+
 Since $85^\circ<90^\circ$, it is an acute angle.
+
+So the gate is open through an angle of $85^\circ$, which is an acute angle.
 
 **Answer.** $85^\circ$, an acute angle.
 :::
@@ -321,9 +350,14 @@ A straight angle is split into two angles. One angle measures $65^\circ$. How ma
 ::solution
 Solution
 
+A straight angle measures $180^\circ$. The straight angle is split into two angles, so the two angles add up to $180^\circ$. Hence the size of the other angle is $180^\circ$ minus the size of the known angle.
+
 The size of the other angle is:
 $$180^\circ-65^\circ=115^\circ.$$
+
 Since $90^\circ<115^\circ<180^\circ$, it is an obtuse angle.
+
+So the other angle measures $115^\circ$, and it is an obtuse angle.
 
 **Answer.** $115^\circ$, an obtuse angle.
 :::
@@ -339,7 +373,15 @@ Remember the lesson on expressions with letters. At $n$ o'clock ($n$ from $1$ to
 2. Substitute $n=5$ into the expression.
 
 ::solution
-When $n=3$, $n\times30^\circ=3\times30^\circ=90^\circ$. When $n=5$, $n\times30^\circ=5\times30^\circ=150^\circ$.
+The expression $n\times30^\circ$ contains the letter $n$. To find the value of the expression, we replace $n$ by the given number and then calculate.
+
+When $n=3$,
+$$n\times30^\circ=3\times30^\circ=90^\circ.$$
+
+When $n=5$,
+$$n\times30^\circ=5\times30^\circ=150^\circ.$$
+
+So the value of the expression is $90^\circ$ when $n=3$ and $150^\circ$ when $n=5$.
 
 **Answer.** $90^\circ$ and $150^\circ$.
 :::
@@ -355,7 +397,13 @@ Nam says: "An angle of $120^\circ$ is an acute angle because $120$ is a big numb
 2. Name the angle correctly.
 
 ::solution
-We have $120^\circ>90^\circ$, so an angle of $120^\circ$ is not acute. Since $120^\circ<180^\circ$, it is an obtuse angle.
+We check Nam's statement by comparing $120^\circ$ with $90^\circ$. An acute angle is an angle smaller than $90^\circ$.
+
+We have $120^\circ>90^\circ$, so an angle of $120^\circ$ is not acute. A big number like $120$ is not a reason for an angle to be acute; to find the kind of angle, we must compare its size with $90^\circ$ and $180^\circ$.
+
+Correction: since $90^\circ<120^\circ<180^\circ$, an angle of $120^\circ$ is an obtuse angle.
+
+So Nam is wrong; an angle of $120^\circ$ is an obtuse angle.
 
 **Answer.** Nam is wrong; an angle of $120^\circ$ is an obtuse angle.
 :::
@@ -371,7 +419,15 @@ Look at the whole hours from $1$ o'clock to $6$ o'clock. At which times do the t
 2. Compare each size with $90^\circ$ and $180^\circ$.
 
 ::solution
-The sizes of the angle at $1$, $2$, $3$, $4$, $5$, $6$ o'clock are $30^\circ$, $60^\circ$, $90^\circ$, $120^\circ$, $150^\circ$, $180^\circ$. The angles $30^\circ$ and $60^\circ$ are less than $90^\circ$; the angles $120^\circ$ and $150^\circ$ lie between $90^\circ$ and $180^\circ$.
+At $n$ o'clock, the two hands of a clock make an angle of $n\times30^\circ$. The sizes of the angle at $1$, $2$, $3$, $4$, $5$, $6$ o'clock are
+$$30^\circ,\ 60^\circ,\ 90^\circ,\ 120^\circ,\ 150^\circ,\ 180^\circ.$$
+
+We compare with $90^\circ$ and $180^\circ$:
+
+- The angles $30^\circ$ and $60^\circ$ are less than $90^\circ$, so they are acute angles (at $1$ o'clock and $2$ o'clock).
+- The angles $120^\circ$ and $150^\circ$ lie between $90^\circ$ and $180^\circ$, so they are obtuse angles (at $4$ o'clock and $5$ o'clock).
+
+So the two hands make an acute angle at $1$ o'clock and $2$ o'clock, and an obtuse angle at $4$ o'clock and $5$ o'clock.
 
 **Answer.** An acute angle at $1$ o'clock and $2$ o'clock; an obtuse angle at $4$ o'clock and $5$ o'clock.
 :::

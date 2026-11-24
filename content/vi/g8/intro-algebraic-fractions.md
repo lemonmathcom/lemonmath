@@ -222,7 +222,15 @@ d) $4x-5$.
 2. Kiểm tra mẫu có khác $0$ không.
 
 ::solution
-a) Là phân thức. b) Mẫu bằng $0$ nên không là phân thức. c) Là phân thức. d) Là đa thức, viết được $\dfrac{4x-5}{1}$ nên là phân thức.
+Phân thức đại số là biểu thức có dạng $\dfrac{A}{B}$, trong đó $A$, $B$ là các đa thức và $B$ khác đa thức $0$. Mỗi đa thức cũng là một phân thức (với mẫu bằng $1$).
+
+a) $\dfrac{x+1}{x^2+1}$ có tử và mẫu là đa thức, mẫu khác $0$. Đây là phân thức đại số.
+
+b) $\dfrac{3x}{0}$ có mẫu bằng $0$ nên không là phân thức đại số.
+
+c) $\dfrac{2x-1}{7}$ có tử là đa thức, mẫu là đa thức $7\neq0$. Đây là phân thức đại số.
+
+d) $4x-5$ là một đa thức, viết được $\dfrac{4x-5}{1}$ nên là phân thức đại số.
 
 Vậy a), c), d) là phân thức đại số.
 
@@ -246,11 +254,15 @@ c) $\dfrac{3}{x^2+4}$.
 2. Với c), nhận xét dấu của $x^2+4$.
 
 ::solution
-a) $2x-6\neq0$ nên $x\neq3$.
+Phân thức $\dfrac{A}{B}$ xác định khi mẫu $B\neq0$.
 
-b) $x^2-25\neq0$ nên $(x-5)(x+5)\neq0$, tức $x\neq5$ và $x\neq-5$.
+a) Điều kiện xác định: $2x-6\neq0$, tức là $2x\neq6$, suy ra $x\neq3$.
 
-c) Vì $x^2+4\geq4>0$ nên mẫu không bao giờ bằng $0$; phân thức xác định với mọi $x$.
+b) Điều kiện xác định: $x^2-25\neq0$. Ta có $x^2-25=(x-5)(x+5)$ nên $(x-5)(x+5)\neq0$, tức là $x\neq5$ và $x\neq-5$.
+
+c) Với mọi $x$, ta có $x^2\geq0$ nên $x^2+4\geq4>0$. Mẫu không bao giờ bằng $0$ nên phân thức xác định với mọi $x$.
+
+Vậy a) $x\neq3$; b) $x\neq5$ và $x\neq-5$; c) phân thức xác định với mọi $x$.
 
 **Đáp số.** a) $x\neq3$. b) $x\neq\pm5$. c) với mọi $x$.
 :::
@@ -284,7 +296,13 @@ Chứng minh $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
 2. Tính $(x^2-4)\cdot3$ rồi so sánh.
 
 ::solution
-Ta có $(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12$ và $(x^2-4)\cdot3=3x^2-12$. Hai tích bằng nhau.
+Hai phân thức $\dfrac{A}{B}$ và $\dfrac{C}{D}$ bằng nhau nếu $A\cdot D=B\cdot C$. Ở đây $A=3x-6$, $B=x^2-4$, $C=3$, $D=x+2$ (với $x\neq\pm2$ để các mẫu khác $0$).
+
+Ta tính hai tích chéo:
+$$(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12,$$
+$$(x^2-4)\cdot3=3x^2-12.$$
+
+Hai tích bằng nhau, nên hai phân thức bằng nhau.
 
 Vậy $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
 
@@ -332,11 +350,16 @@ c) $\dfrac{x^2-6x+9}{x^2-9}$.
 2. b) $5x+10=5(x+2)$; c) dùng hằng đẳng thức.
 
 ::solution
-a) $\dfrac{12x^3y^2}{18x^2y^3}=\dfrac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\dfrac{2x}{3y}$.
+Để rút gọn phân thức, ta phân tích tử và mẫu thành nhân tử rồi chia cả tử và mẫu cho nhân tử chung (khác $0$).
 
-b) $\dfrac{5x+10}{x^2-4}=\dfrac{5(x+2)}{(x-2)(x+2)}=\dfrac{5}{x-2}$.
+a) Điều kiện: $x\neq0$, $y\neq0$. Nhân tử chung của $12x^3y^2$ và $18x^2y^3$ là $6x^2y^2$, nên
+$$\frac{12x^3y^2}{18x^2y^3}=\frac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\frac{2x}{3y}.$$
 
-c) $\dfrac{x^2-6x+9}{x^2-9}=\dfrac{(x-3)^2}{(x-3)(x+3)}=\dfrac{x-3}{x+3}$.
+b) Điều kiện: $x^2-4\neq0$, tức là $x\neq\pm2$. Ta có $5x+10=5(x+2)$ và $x^2-4=(x-2)(x+2)$, nên
+$$\frac{5x+10}{x^2-4}=\frac{5(x+2)}{(x-2)(x+2)}=\frac{5}{x-2}.$$
+
+c) Điều kiện: $x^2-9\neq0$, tức là $x\neq\pm3$. Ta có $x^2-6x+9=(x-3)^2$ và $x^2-9=(x-3)(x+3)$, nên
+$$\frac{x^2-6x+9}{x^2-9}=\frac{(x-3)^2}{(x-3)(x+3)}=\frac{x-3}{x+3}.$$
 
 Vậy a) $\dfrac{2x}{3y}$; b) $\dfrac{5}{x-2}$; c) $\dfrac{x-3}{x+3}$.
 

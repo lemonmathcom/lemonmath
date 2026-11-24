@@ -152,7 +152,14 @@ D. $4$
 2. $2c=4$.
 
 ::solution
-$c=2$: answer **B**.
+The function $f(x)=x^2$ is continuous on $[1, 3]$ and differentiable on $(1, 3)$, so by the Mean Value Theorem there exists $c\in(1, 3)$ such that
+$$f'(c)=\frac{f(3)-f(1)}{3-1}=\frac{9-1}{2}=4.$$
+
+We have $f'(x)=2x$, so $f'(c)=2c$. Hence $2c=4$, so $c=2$ (which lies in the interval $(1, 3)$).
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -166,7 +173,18 @@ Find the intervals on which $f(x)=xe^{-x}$ is increasing or decreasing, and its 
 2. $e^{-x}>0$ always, so the sign of $f'$ is the sign of $1-x$.
 
 ::solution
-$f$ is increasing on $(-\infty,1)$ and decreasing on $(1,\infty)$. Relative maximum at $x=1$, with value $f(1)=\dfrac1e$, because $f'$ changes from positive to negative there.
+The function $f(x)=xe^{-x}$ is defined and differentiable on $\mathbb{R}$. We have
+$$f'(x)=e^{-x}-xe^{-x}=(1-x)e^{-x}.$$
+
+Since $e^{-x}>0$ for all $x$, $f'(x)$ has the same sign as $1-x$. Hence $f'(x)=0$ only when $x=1$; $f'(x)>0$ for $x<1$; $f'(x)<0$ for $x>1$.
+
+So $f$ is increasing on $(-\infty, 1)$ and decreasing on $(1, \infty)$.
+
+At $x=1$, the derivative $f'$ changes from positive to negative, so $f$ has a relative maximum at $x=1$ with value $f(1)=1\cdot e^{-1}=\dfrac1e$. Since $f'$ vanishes only at $x=1$, $f$ has no other relative extrema.
+
+So $f$ is increasing on $(-\infty, 1)$, decreasing on $(1, \infty)$, and has a relative maximum at $x=1$ with $f(1)=\dfrac1e$.
+
+**Answer.** Increasing on $(-\infty, 1)$, decreasing on $(1, \infty)$; relative maximum at $x=1$ with value $f(1)=\dfrac1e$.
 :::
 
 :::exercise Multiple choice
@@ -183,7 +201,18 @@ D. $x=-2$
 1. $f''(x)=6x-12$.
 
 ::solution
-$f''$ changes sign at $x=2$: answer **C**. Option B is a critical point ($f'(4)=0$), not an inflection point.
+A point of inflection of the graph is a point where $f''$ changes sign. We have
+$$f'(x)=3x^2-12x,\qquad f''(x)=6x-12.$$
+
+Solving $f''(x)=0$: $6x-12=0$, so $x=2$.
+
+We have $f''(x)<0$ for $x<2$ and $f''(x)>0$ for $x>2$, so $f''$ changes sign at $x=2$. Hence the graph has a point of inflection at $x=2$.
+
+So the answer is **C**.
+
+*Remark.* Option B is a critical point ($f'(4)=3\cdot16-12\cdot4=0$), not an inflection point, because $f''(4)=12\neq0$.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -197,7 +226,19 @@ Find the absolute maximum and minimum of $f(x)=2x^3-3x^2-12x+1$ on $[-2,3]$.
 2. Evaluate $f$ at $-2$, $-1$, $2$, $3$.
 
 ::solution
-$f(-2)=-3$, $f(-1)=8$, $f(2)=-19$, $f(3)=-8$. Absolute maximum $8$ at $x=-1$; absolute minimum $-19$ at $x=2$.
+The function $f(x)=2x^3-3x^2-12x+1$ is continuous on the closed interval $[-2, 3]$, so it attains its absolute maximum and minimum on this interval at critical points or at the endpoints.
+
+We have $f'(x)=6x^2-6x-12=6(x-2)(x+1)$. Solving $f'(x)=0$ gives $x=-1$ or $x=2$; both lie in $[-2, 3]$.
+
+We evaluate $f$ at the critical points and at the endpoints:
+$$f(-2)=-16-12+24+1=-3,\qquad f(-1)=-2-3+12+1=8,$$
+$$f(2)=16-12-24+1=-19,\qquad f(3)=54-27-36+1=-8.$$
+
+Comparing the four values $-3$, $8$, $-19$, $-8$, the largest is $8$ and the smallest is $-19$.
+
+So the absolute maximum of $f$ on $[-2, 3]$ is $8$, at $x=-1$; the absolute minimum is $-19$, at $x=2$.
+
+**Answer.** Absolute maximum $8$ at $x=-1$; absolute minimum $-19$ at $x=2$.
 :::
 
 :::exercise Free response
@@ -227,7 +268,22 @@ Equal squares of side $x$ centimeters are cut from the corners of a $30$ by $30$
 2. Critical point inside the domain: $x=5$.
 
 ::solution
-$V'>0$ for $0<x<5$ and $V'<0$ for $5<x<15$, so $x=5$ gives the maximum: $V(5)=5\cdot20^2=2000$ cubic centimeters.
+When equal squares of side $x$ (centimeters) are cut from the four corners and the sides are folded up, the box has a square base of side $30-2x$ and height $x$. Condition: $0<x<15$.
+
+The volume of the box is
+$$V(x)=x(30-2x)^2\ \text{(cubic centimeters)}.$$
+
+Differentiating:
+$$V'(x)=(30-2x)^2+x\cdot2(30-2x)\cdot(-2)=(30-2x)(30-6x)=12(15-x)(5-x).$$
+
+On the interval $(0, 15)$ we have $15-x>0$, so $V'(x)$ has the same sign as $5-x$. Hence $V'(x)=0$ when $x=5$; $V'(x)>0$ for $0<x<5$; $V'(x)<0$ for $5<x<15$.
+
+Since $V'$ changes from positive to negative at $x=5$, $V$ is largest at $x=5$:
+$$V(5)=5\cdot(30-10)^2=5\cdot20^2=2000.$$
+
+So the volume of the box is largest when $x=5$ centimeters, and that volume is $2000$ cubic centimeters.
+
+**Answer.** $x=5$ centimeters; the largest volume is $2000$ cubic centimeters.
 :::
 
 :::exercise Writing justifications
@@ -243,9 +299,15 @@ b) Is the graph of $f$ concave up or concave down at $x=1$? Justify.
 2. $f''(x)=2x$.
 
 ::solution
-a) Yes: $f'$ changes from positive (for $x<-2$) to negative (for $-2<x<2$) at $x=-2$, so $f$ has a relative maximum there.
+We have $f'(x)=x^2-4=(x-2)(x+2)$.
 
-b) $f''(1)=2>0$, so the graph of $f$ is concave up at $x=1$.
+a) Yes. We examine the sign of $f'$ around $x=-2$: for $x<-2$ we have $f'(x)>0$ (for example $f'(-3)=5>0$); for $-2<x<2$ we have $f'(x)<0$ (for example $f'(0)=-4<0$). Since $f'$ changes from positive to negative at $x=-2$, $f$ has a relative maximum at $x=-2$.
+
+b) We have $f''(x)=2x$, so $f''(1)=2>0$. So the graph of $f$ is concave up at $x=1$.
+
+So $f$ has a relative maximum at $x=-2$, and the graph of $f$ is concave up at $x=1$.
+
+**Answer.** a) Yes; b) concave up.
 :::
 
 :::exercise The closest point
@@ -259,7 +321,20 @@ Find the point on the curve $y=\sqrt x$ closest to the point $(3, 0)$.
 2. $D'(x)=2x-5$.
 
 ::solution
-$D'(x)=0$ at $x=2.5$, and $D''=2>0$, so this is the minimum. The point is $\left(2.5, \sqrt{2.5}\right)\approx(2.5, 1.58)$, at distance $\sqrt{2.75}\approx1.66$.
+Let $M\left(x, \sqrt x\right)$ with $x\ge0$ be any point on the curve $y=\sqrt x$ and let $A(3, 0)$ be the given point. The squared distance $AM$ is
+$$D(x)=(x-3)^2+\left(\sqrt x\right)^2=x^2-6x+9+x=x^2-5x+9.$$
+
+The distance $AM=\sqrt{D(x)}$ is smallest when $D(x)$ is smallest.
+
+We have $D'(x)=2x-5$. Solving $D'(x)=0$ gives $x=2.5$ (which satisfies $x\ge0$).
+
+Since $D''(x)=2>0$, $x=2.5$ is a minimum of $D$. Moreover $D'(x)<0$ for $0\le x<2.5$ and $D'(x)>0$ for $x>2.5$, so this is also the smallest value of $D$ on $[0, \infty)$.
+
+Then $D(2.5)=6.25-12.5+9=2.75$, so the smallest distance is $\sqrt{2.75}\approx1.66$.
+
+So the point on the curve closest to $(3, 0)$ is $\left(2.5, \sqrt{2.5}\right)\approx(2.5, 1.58)$, at distance $\sqrt{2.75}\approx1.66$ from the given point.
+
+**Answer.** $\left(2.5, \sqrt{2.5}\right)\approx(2.5, 1.58)$.
 :::
 
 :::exercise Challenge
@@ -273,7 +348,27 @@ A closed cylindrical can must hold $500$ cubic centimeters. Find the radius that
 2. $S'(r)=4\pi r-\dfrac{1000}{r^2}$.
 
 ::solution
-$S'(r)=0$ gives $r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ centimeters. $S''(r)=4\pi+\dfrac{2000}{r^3}>0$, so this is a minimum. Then $h=\dfrac{500}{\pi r^2}=\dfrac{2\cdot250}{\pi r^2}=\dfrac{2\pi r^3}{\pi r^2}=2r$, so $h\approx8.60$ centimeters, equal to the diameter.
+Let $r$ (centimeters) be the radius of the base and $h$ (centimeters) the height of the can, with $r>0$, $h>0$.
+
+The volume is $\pi r^2h=500$, so $h=\dfrac{500}{\pi r^2}$.
+
+The amount of material is proportional to the total surface area of the closed can:
+$$S=2\pi r^2+2\pi rh=2\pi r^2+2\pi r\cdot\frac{500}{\pi r^2}=2\pi r^2+\frac{1000}{r}.$$
+
+Differentiating: $S'(r)=4\pi r-\dfrac{1000}{r^2}$. Solving $S'(r)=0$:
+$$4\pi r^3=1000\iff r^3=\frac{250}{\pi}.$$
+
+So $r=\sqrt[3]{\dfrac{250}{\pi}}\approx4.30$ centimeters.
+
+We have $S''(r)=4\pi+\dfrac{2000}{r^3}>0$ for all $r>0$, so this is a minimum, that is, the least material.
+
+The corresponding height: since $\pi r^3=250$,
+$$h=\frac{500}{\pi r^2}=\frac{2\cdot250}{\pi r^2}=\frac{2\pi r^3}{\pi r^2}=2r.$$
+Hence $h\approx8.60$ centimeters, equal to the diameter $2r$ of the base.
+
+So the can uses the least material when the radius is $r\approx4.30$ centimeters, and then the height equals the diameter.
+
+**Answer.** $r\approx4.30$ centimeters; $h=2r\approx8.60$ centimeters.
 :::
 
 :::quiz

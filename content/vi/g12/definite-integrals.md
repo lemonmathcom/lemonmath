@@ -219,7 +219,8 @@ Tính $\displaystyle\int_0^2(x^3-2x+3)\,dx$.
 2. Tính $F(2)-F(0)$.
 
 ::solution
-Ta có $\displaystyle\int_0^2(x^3-2x+3)\,dx=\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+Một nguyên hàm của $f(x)=x^3-2x+3$ là $F(x)=\dfrac{x^4}{4}-x^2+3x$. Áp dụng công thức Newton–Leibniz $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$, ta có
+$$\begin{aligned}\int_0^2(x^3-2x+3)\,dx&=\left[\frac{x^4}{4}-x^2+3x\right]_0^2\\&=\left(\frac{2^4}{4}-2^2+3\cdot2\right)-0\\&=(4-4+6)-0=6.\end{aligned}$$
 
 Vậy tích phân bằng $6$.
 
@@ -237,7 +238,15 @@ Tính $\displaystyle\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx$.
 2. Tính $F(4)-F(1)$, cẩn thận với phân số.
 
 ::solution
-Một nguyên hàm là $F(x)=\dfrac23x\sqrt x+\dfrac1x$. Ta có $F(4)=\dfrac{16}{3}+\dfrac14$, $F(1)=\dfrac23+1$. Vậy tích phân bằng $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
+Ta viết $\sqrt x=x^{\frac12}$ và $\dfrac{1}{x^2}=x^{-2}$. Một nguyên hàm của $\sqrt x-\dfrac{1}{x^2}$ là
+$$F(x)=\frac{x^{\frac32}}{\frac32}-\frac{x^{-1}}{-1}=\frac23x\sqrt x+\frac1x.$$
+
+Ta có $F(4)=\dfrac23\cdot4\cdot2+\dfrac14=\dfrac{16}{3}+\dfrac14$ và $F(1)=\dfrac23+1$.
+
+Theo công thức Newton–Leibniz,
+$$\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx=F(4)-F(1)=\frac{16}{3}+\frac14-\frac23-1=\frac{14}{3}-\frac34=\frac{56-9}{12}=\frac{47}{12}.$$
+
+Vậy tích phân bằng $\dfrac{47}{12}$.
 
 **Đáp số.** $\dfrac{47}{12}$.
 :::
@@ -253,7 +262,14 @@ Tính $\displaystyle\int_0^{\pi}(\sin x+2)\,dx$.
 2. Tính $F(\pi)-F(0)$.
 
 ::solution
-Một nguyên hàm là $F(x)=-\cos x+2x$. Ta có $F(\pi)=1+2\pi$, $F(0)=-1$. Vậy tích phân bằng $1+2\pi-(-1)=2+2\pi$.
+Vì $(-\cos x)'=\sin x$ và $(2x)'=2$ nên một nguyên hàm của $\sin x+2$ là $F(x)=-\cos x+2x$.
+
+Ta có $F(\pi)=-\cos\pi+2\pi=1+2\pi$ và $F(0)=-\cos0+0=-1$.
+
+Theo công thức Newton–Leibniz,
+$$\int_0^{\pi}(\sin x+2)\,dx=F(\pi)-F(0)=1+2\pi-(-1)=2+2\pi.$$
+
+Vậy tích phân bằng $2+2\pi$.
 
 **Đáp số.** $2+2\pi$.
 :::
@@ -269,9 +285,16 @@ Biết $\displaystyle\int_1^3 f(x)\,dx=5$ và $\displaystyle\int_1^3 g(x)\,dx=-2
 2. Tính $\displaystyle\int_1^3x\,dx$.
 
 ::solution
-Ta có $\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. Theo tính chất tuyến tính, tích phân cần tính bằng $3\cdot5-2\cdot(-2)+4=15+4+4=23$.
+Trước hết, tính tích phân của $x$:
+$$\int_1^3x\,dx=\left[\frac{x^2}{2}\right]_1^3=\frac92-\frac12=4.$$
 
-Vậy tích phân bằng $23$.
+Theo tính chất tuyến tính của tích phân,
+$$\int_1^3\big(3f(x)-2g(x)+x\big)\,dx=3\int_1^3f(x)\,dx-2\int_1^3g(x)\,dx+\int_1^3x\,dx.$$
+
+Thay $\displaystyle\int_1^3f(x)\,dx=5$, $\displaystyle\int_1^3g(x)\,dx=-2$ và $\displaystyle\int_1^3x\,dx=4$, ta được
+$$3\cdot5-2\cdot(-2)+4=15+4+4=23.$$
+
+Vậy tích phân cần tính bằng $23$.
 
 **Đáp số.** $23$.
 :::
@@ -295,13 +318,20 @@ d) $\displaystyle\int_3^0\lvert x-2\rvert\,dx=\dfrac52$.
 2. Tính hai tích phân con rồi cộng.
 
 ::solution
-a) **Đúng**. Vì với $x\le2$ thì $x-2\le0$ nên $\lvert x-2\rvert=2-x$.
+Ta có $x-2=0\iff x=2$, nên dấu của $x-2$ đổi tại $x=2$.
 
-b) **Sai**. Không thể đưa dấu giá trị tuyệt đối ra ngoài tích phân; $I$ không bằng $\dfrac32$ (xem c).
+a) **Đúng.** Với $x\in[0; 2]$ thì $x\le2$, suy ra $x-2\le0$. Do đó $\lvert x-2\rvert=-(x-2)=2-x$.
 
-c) **Đúng**. Ta có $\displaystyle\int_0^2(2-x)\,dx=2$ và $\displaystyle\int_2^3(x-2)\,dx=\frac12$, nên $I=\dfrac52$.
+b) **Sai.** Ta có $\displaystyle\int_0^3(x-2)\,dx=\left[\frac{x^2}{2}-2x\right]_0^3=\frac92-6=-\frac32$, nên $\left\lvert\displaystyle\int_0^3(x-2)\,dx\right\rvert=\dfrac32$. Tuy nhiên, theo ý c) ta có $I=\dfrac52\neq\dfrac32$. Vậy không thể đưa dấu giá trị tuyệt đối ra ngoài dấu tích phân.
 
-d) **Sai**. Vì đổi chỗ hai cận thì tích phân đổi dấu nên tích phân đó bằng $-\dfrac52$.
+c) **Đúng.** Tách đoạn $[0; 3]$ tại $x=2$: trên $[0; 2]$ ta có $\lvert x-2\rvert=2-x$, trên $[2; 3]$ ta có $\lvert x-2\rvert=x-2$. Do đó
+$$I=\int_0^2(2-x)\,dx+\int_2^3(x-2)\,dx=\left[2x-\frac{x^2}{2}\right]_0^2+\left[\frac{x^2}{2}-2x\right]_2^3=2+\frac12=\frac52.$$
+
+d) **Sai.** Đổi chỗ hai cận thì tích phân đổi dấu, nên
+$$\int_3^0\lvert x-2\rvert\,dx=-\int_0^3\lvert x-2\rvert\,dx=-\frac52.$$
+Giá trị này khác $\dfrac52$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -317,7 +347,10 @@ Tính $\displaystyle\int_0^1(3x+1)^2\,dx$.
 2. Thay cận $1$ và $0$.
 
 ::solution
-Ta có $\displaystyle\int_0^1(3x+1)^2\,dx=\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+Vì $\big((3x+1)^3\big)'=3(3x+1)^2\cdot3=9(3x+1)^2$ nên một nguyên hàm của $(3x+1)^2$ là $F(x)=\dfrac{(3x+1)^3}{9}$.
+
+Theo công thức Newton–Leibniz,
+$$\int_0^1(3x+1)^2\,dx=\left[\frac{(3x+1)^3}{9}\right]_0^1=\frac{4^3}{9}-\frac{1^3}{9}=\frac{64}{9}-\frac19=\frac{63}{9}=7.$$
 
 Vậy tích phân bằng $7$.
 
@@ -353,7 +386,13 @@ Cho $F(x)$ là một nguyên hàm của $f(x)$ trên $\mathbb{R}$ với $F(1)=2$
 2. Tách tổng; $\displaystyle\int_1^41\,dx=3$.
 
 ::solution
-Ta có $\displaystyle\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5$. Do đó $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$ (vì $\displaystyle\int_1^4 1\,dx=3$).
+Vì $F(x)$ là một nguyên hàm của $f(x)$ trên $\mathbb{R}$ nên theo công thức Newton–Leibniz,
+$$\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5.$$
+
+Ta có $\displaystyle\int_1^4 1\,dx=\big[x\big]_1^4=4-1=3$.
+
+Theo tính chất tuyến tính,
+$$\int_1^4\big(2f(x)+1\big)\,dx=2\int_1^4f(x)\,dx+\int_1^41\,dx=2\cdot5+3=13.$$
 
 Vậy hai tích phân lần lượt bằng $5$ và $13$.
 
@@ -371,7 +410,13 @@ Tính $\displaystyle\int_0^{\ln3}e^x\,dx$ và $\displaystyle\int_1^2 2^x\,dx$ (k
 2. $\Big[\dfrac{2^x}{\ln2}\Big]_1^2=\dfrac{4-2}{\ln2}$.
 
 ::solution
-Ta có $\displaystyle\int_0^{\ln3}e^x\,dx=e^{\ln3}-e^0=3-1=2$ và $\displaystyle\int_1^22^x\,dx=\Big[\frac{2^x}{\ln2}\Big]_1^2=\frac{2}{\ln2}\approx2{,}885$.
+Tích phân thứ nhất: một nguyên hàm của $e^x$ là $e^x$, nên
+$$\int_0^{\ln3}e^x\,dx=\Big[e^x\Big]_0^{\ln3}=e^{\ln3}-e^0=3-1=2.$$
+
+Tích phân thứ hai: một nguyên hàm của $2^x$ là $\dfrac{2^x}{\ln2}$ (vì $\displaystyle\int a^x\,dx=\dfrac{a^x}{\ln a}+C$ với $a>0$, $a\ne1$), nên
+$$\int_1^22^x\,dx=\left[\frac{2^x}{\ln2}\right]_1^2=\frac{2^2-2^1}{\ln2}=\frac{2}{\ln2}\approx2{,}885.$$
+
+Làm tròn đến hàng phần trăm, ta được $\dfrac{2}{\ln2}\approx2{,}89$.
 
 Vậy hai tích phân lần lượt bằng $2$ và khoảng $2{,}89$.
 

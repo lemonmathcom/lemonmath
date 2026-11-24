@@ -210,11 +210,18 @@ Viết tỉ số của: a) $15$ và $20$; b) $18$ và $12$; c) $30$ cm và $1{,}
 2. Viết tỉ số rồi rút gọn.
 
 ::solution
-a) $15:20=3:4$.
+Tỉ số của hai số $a$ và $b$ ($b\ne0$) là $a:b$. Ta rút gọn tỉ số bằng cách chia cả hai số cho cùng một ước chung của chúng.
 
-b) $18:12=3:2$.
+a) Cả $15$ và $20$ cùng chia hết cho $5$ nên
+$$15:20=(15:5):(20:5)=3:4.$$
 
-c) $1{,}5$ m $=150$ cm, nên $30:150=1:5$.
+b) Cả $18$ và $12$ cùng chia hết cho $6$ nên
+$$18:12=(18:6):(12:6)=3:2.$$
+
+c) Muốn lập tỉ số của hai đại lượng, ta phải đưa chúng về cùng một đơn vị đo. Đổi $1{,}5$ m $=150$ cm. Khi đó tỉ số của $30$ cm và $150$ cm là
+$$30:150=(30:30):(150:30)=1:5.$$
+
+Vậy tỉ số của $15$ và $20$ là $3:4$; tỉ số của $18$ và $12$ là $3:2$; tỉ số của $30$ cm và $1{,}5$ m là $1:5$.
 
 **Đáp số.** a) $3:4$; b) $3:2$; c) $1:5$.
 :::
@@ -230,9 +237,18 @@ Trong một sân có $12$ con gà và $28$ con vịt. Tìm tỉ số của số 
 2. Tính tổng số con rồi viết tỉ số gà và tổng.
 
 ::solution
-Tỉ số của số gà và số vịt là $12:28=3:7$.
+Bài giải
 
-Tổng số gà và vịt là $12+28=40$ con. Tỉ số của số gà và tổng số con là $12:40=3:10$.
+Tỉ số của số gà và số vịt là:
+$$12:28=(12:4):(28:4)=3:7$$
+
+Tổng số gà và vịt là:
+$$12+28=40\ \text{(con)}$$
+
+Tỉ số của số gà và tổng số gà và vịt là:
+$$12:40=(12:4):(40:4)=3:10$$
+
+Vậy tỉ số của số gà và số vịt là $3:7$; tỉ số của số gà và tổng số gà và vịt là $3:10$.
 
 **Đáp số.** $3:7$ và $3:10$.
 :::
@@ -248,11 +264,18 @@ Tìm tỉ số phần trăm của: a) $7$ và $20$; b) $9$ và $12$; c) $3$ và 
 2. Nhân kết quả với $100$ và viết thêm $\%$.
 
 ::solution
-a) $7:20=0{,}35=35\%$.
+Muốn tìm tỉ số phần trăm của hai số, ta chia số thứ nhất cho số thứ hai, nhân thương với $100$ rồi viết thêm kí hiệu $\%$.
 
-b) $9:12=0{,}75=75\%$.
+a) Ta có $7:20=0{,}35$. Nhân với $100$ ta được $35$, nên
+$$7:20=0{,}35=35\%.$$
 
-c) $3:8=0{,}375=37{,}5\%$.
+b) Ta có $9:12=0{,}75$. Nhân với $100$ ta được $75$, nên
+$$9:12=0{,}75=75\%.$$
+
+c) Ta có $3:8=0{,}375$. Nhân với $100$ ta được $37{,}5$, nên
+$$3:8=0{,}375=37{,}5\%.$$
+
+Vậy tỉ số phần trăm của $7$ và $20$ là $35\%$; của $9$ và $12$ là $75\%$; của $3$ và $8$ là $37{,}5\%$.
 
 **Đáp số.** a) $35\%$; b) $75\%$; c) $37{,}5\%$.
 :::
@@ -268,11 +291,18 @@ Tìm: a) $25\%$ của $120$; b) $8\%$ của $350$; c) $150\%$ của $60$.
 2. Chia cho $100$.
 
 ::solution
-a) $120\times25:100=30$.
+Muốn tìm $a\%$ của số $N$, ta lấy $N$ nhân với $a$ rồi chia cho $100$.
 
-b) $350\times8:100=28$.
+a) $25\%$ của $120$ là
+$$120\times25:100=3000:100=30.$$
 
-c) $60\times150:100=90$.
+b) $8\%$ của $350$ là
+$$350\times8:100=2800:100=28.$$
+
+c) $150\%$ của $60$ là
+$$60\times150:100=9000:100=90.$$
+
+Vậy $25\%$ của $120$ là $30$; $8\%$ của $350$ là $28$; $150\%$ của $60$ là $90$.
 
 **Đáp số.** a) $30$; b) $28$; c) $90$.
 :::
@@ -288,9 +318,17 @@ Tìm số, biết: a) $40\%$ của nó là $18$; b) $15\%$ của nó là $12$.
 2. Nhân với $100$. Thử lại bằng cách tính $x\%$ của số vừa tìm.
 
 ::solution
-a) $18:40\times100=45$. Thử lại: $45\times40:100=18$.
+Muốn tìm một số biết $a\%$ của nó bằng $m$, ta lấy $m$ chia cho $a$ rồi nhân với $100$.
 
-b) $12:15\times100=80$. Thử lại: $80\times15:100=12$.
+a) Số cần tìm là
+$$18:40\times100=0{,}45\times100=45.$$
+Thử lại: $45\times40:100=1800:100=18$ (đúng).
+
+b) Số cần tìm là
+$$12:15\times100=0{,}8\times100=80.$$
+Thử lại: $80\times15:100=1200:100=12$ (đúng).
+
+Vậy số cần tìm ở câu a) là $45$, ở câu b) là $80$.
 
 **Đáp số.** a) $45$; b) $80$.
 :::
@@ -306,9 +344,15 @@ Giả sử một trường có $600$ học sinh, trong đó $45\%$ là học sin
 2. Lấy tổng số học sinh trừ số học sinh nữ.
 
 ::solution
-Số học sinh nữ là $600\times45:100=270$ (học sinh).
+Bài giải
 
-Số học sinh nam là $600-270=330$ (học sinh).
+Số học sinh nữ của trường là:
+$$600\times45:100=270\ \text{(học sinh)}$$
+
+Số học sinh nam của trường là:
+$$600-270=330\ \text{(học sinh)}$$
+
+Vậy trường có $270$ học sinh nữ và $330$ học sinh nam.
 
 **Đáp số.** $270$ học sinh nữ; $330$ học sinh nam.
 :::
@@ -324,9 +368,15 @@ Giả sử một chiếc áo có giá niêm yết $180\,000$ đồng và đượ
 2. Lấy giá ban đầu trừ số tiền được giảm.
 
 ::solution
-Số tiền được giảm là $180\,000\times15:100=27\,000$ đồng.
+Bài giải
 
-Giá chiếc áo sau khi giảm là $180\,000-27\,000=153\,000$ (đồng).
+Số tiền được giảm là:
+$$180\,000\times15:100=27\,000\ \text{(đồng)}$$
+
+Giá chiếc áo sau khi giảm là:
+$$180\,000-27\,000=153\,000\ \text{(đồng)}$$
+
+Vậy giá chiếc áo sau khi giảm là $153\,000$ đồng.
 
 **Đáp số.** $153\,000$ đồng.
 :::
@@ -342,9 +392,17 @@ Em hãy nhớ lại bài nhân, chia số thập phân với $10$; $100$; $1000$
 2. Đổi kết quả (xăng-ti-mét) ra ki-lô-mét.
 
 ::solution
-Khoảng cách thật là $6{,}5\times100\,000=650\,000$ cm.
+Bài giải
 
-Đổi ra ki-lô-mét: $650\,000:100\,000=6{,}5$ km.
+Tỉ lệ bản đồ $1:100\,000$ cho biết $1$ cm trên bản đồ ứng với $100\,000$ cm trên thực tế.
+
+Khoảng cách thật giữa hai làng là:
+$$6{,}5\times100\,000=650\,000\ \text{(cm)}$$
+
+Vì $1$ km $=1000$ m $=100\,000$ cm nên đổi ra ki-lô-mét:
+$$650\,000:100\,000=6{,}5\ \text{(km)}$$
+
+Vậy khoảng cách thật giữa hai làng là $6{,}5$ km.
 
 **Đáp số.** $6{,}5$ km.
 :::
@@ -360,7 +418,17 @@ Trên bản đồ tỉ lệ $1:2\,000\,000$, hai thành phố cách nhau $60$ km
 2. Chia cho $2\,000\,000$.
 
 ::solution
-$60$ km $=6\,000\,000$ cm. Khoảng cách trên bản đồ là $6\,000\,000:2\,000\,000=3$ cm.
+Bài giải
+
+Tỉ lệ bản đồ $1:2\,000\,000$ cho biết $1$ cm trên bản đồ ứng với $2\,000\,000$ cm trên thực tế.
+
+Đổi $60$ km sang xăng-ti-mét:
+$$60\ \text{km}=60\times100\,000=6\,000\,000\ \text{(cm)}$$
+
+Khoảng cách giữa hai thành phố trên bản đồ là:
+$$6\,000\,000:2\,000\,000=3\ \text{(cm)}$$
+
+Vậy trên bản đồ hai thành phố cách nhau $3$ cm.
 
 **Đáp số.** $3$ cm.
 :::
@@ -376,11 +444,26 @@ Giá một món hàng được tăng $20\%$, sau đó lại giảm $20\%$ (tính
 2. Tính giá sau khi giảm $20\%$ của giá đó, rồi so với giá ban đầu.
 
 ::solution
-Chọn giá ban đầu là $100\,000$ đồng. Sau khi tăng $20\%$, giá là $100\,000+100\,000\times20:100=120\,000$ đồng.
+Bài giải
 
-Giảm $20\%$ của $120\,000$ đồng: $120\,000\times20:100=24\,000$ đồng, nên giá cuối cùng là $120\,000-24\,000=96\,000$ đồng.
+Tỉ số phần trăm của giá cuối cùng và giá ban đầu không phụ thuộc vào giá ban đầu, nên ta chọn giá ban đầu là $100\,000$ đồng.
 
-Tỉ số phần trăm của $96\,000$ và $100\,000$ là $96\,000:100\,000=0{,}96=96\%$.
+Số tiền tăng thêm là:
+$$100\,000\times20:100=20\,000\ \text{(đồng)}$$
+
+Giá sau khi tăng $20\%$ là:
+$$100\,000+20\,000=120\,000\ \text{(đồng)}$$
+
+Số tiền giảm đi ($20\%$ của giá đã tăng) là:
+$$120\,000\times20:100=24\,000\ \text{(đồng)}$$
+
+Giá cuối cùng là:
+$$120\,000-24\,000=96\,000\ \text{(đồng)}$$
+
+Tỉ số phần trăm của giá cuối cùng và giá ban đầu là:
+$$96\,000:100\,000=0{,}96=96\%$$
+
+Vậy giá cuối cùng bằng $96\%$ giá ban đầu, tức là giảm $4\%$ so với giá ban đầu.
 
 **Đáp số.** $96\%$ giá ban đầu (giảm $4\%$).
 :::

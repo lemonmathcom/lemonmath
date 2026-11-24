@@ -223,11 +223,17 @@ c) $(2x+1)^2$.
 2. Viết ba hạng tử $a^2$, $\pm2ab$, $b^2$.
 
 ::solution
-a) $(x+7)^2=x^2+14x+49$.
+Áp dụng hằng đẳng thức bình phương của một tổng và bình phương của một hiệu:
+$$(A+B)^2=A^2+2AB+B^2,\qquad(A-B)^2=A^2-2AB+B^2.$$
 
-b) $(x-6)^2=x^2-12x+36$.
+a) Với $A=x$ và $B=7$, ta có
+$$(x+7)^2=x^2+2\cdot x\cdot7+7^2=x^2+14x+49.$$
 
-c) $(2x+1)^2=4x^2+4x+1$.
+b) Với $A=x$ và $B=6$, ta có
+$$(x-6)^2=x^2-2\cdot x\cdot6+6^2=x^2-12x+36.$$
+
+c) Với $A=2x$ và $B=1$, ta có
+$$(2x+1)^2=(2x)^2+2\cdot2x\cdot1+1^2=4x^2+4x+1.$$
 
 Vậy a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
 
@@ -251,11 +257,16 @@ c) $(5x^2-y)^2$.
 2. Tính $a^2$, $2ab$, $b^2$.
 
 ::solution
-a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+Áp dụng hằng đẳng thức $(A+B)^2=A^2+2AB+B^2$ và $(A-B)^2=A^2-2AB+B^2$.
 
-b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+a) Với $A=3x$ và $B=2y$, ta có
+$$(3x-2y)^2=(3x)^2-2\cdot3x\cdot2y+(2y)^2=9x^2-12xy+4y^2.$$
 
-c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+b) Với $A=\dfrac12x$ và $B=3$, ta có
+$$\left(\frac12x+3\right)^2=\left(\frac12x\right)^2+2\cdot\frac12x\cdot3+3^2=\frac14x^2+3x+9.$$
+
+c) Với $A=5x^2$ và $B=y$, ta có
+$$(5x^2-y)^2=(5x^2)^2-2\cdot5x^2\cdot y+y^2=25x^4-10x^2y+y^2.$$
 
 Vậy a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
 
@@ -279,11 +290,16 @@ c) $(x^2+1)(x^2-1)$.
 2. Bình phương số thứ nhất rồi trừ bình phương số thứ hai.
 
 ::solution
-a) $(x-8)(x+8)=x^2-64$.
+Áp dụng hằng đẳng thức hiệu hai bình phương $(A-B)(A+B)=A^2-B^2$.
 
-b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+a) Với $A=x$ và $B=8$, ta có
+$$(x-8)(x+8)=x^2-8^2=x^2-64.$$
 
-c) $(x^2+1)(x^2-1)=x^4-1$.
+b) Với $A=4x$ và $B=3y$, ta có
+$$(4x+3y)(4x-3y)=(4x)^2-(3y)^2=16x^2-9y^2.$$
+
+c) Với $A=x^2$ và $B=1$, ta có
+$$(x^2+1)(x^2-1)=(x^2)^2-1^2=x^4-1.$$
 
 Vậy a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
 
@@ -307,11 +323,16 @@ c) $61\cdot59$.
 2. Áp dụng hằng đẳng thức tương ứng.
 
 ::solution
-a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+Ta viết mỗi số đã cho dưới dạng tổng, hiệu của một số tròn chục (hoặc tròn trăm) với một số nhỏ, rồi áp dụng hằng đẳng thức.
 
-b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+a) Ta có $103=100+3$, nên theo hằng đẳng thức bình phương của một tổng,
+$$103^2=(100+3)^2=100^2+2\cdot100\cdot3+3^2=10\,000+600+9=10\,609.$$
 
-c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+b) Ta có $98=100-2$, nên theo hằng đẳng thức bình phương của một hiệu,
+$$98^2=(100-2)^2=100^2-2\cdot100\cdot2+2^2=10\,000-400+4=9604.$$
+
+c) Ta có $61=60+1$ và $59=60-1$, nên theo hằng đẳng thức hiệu hai bình phương,
+$$61\cdot59=(60+1)(60-1)=60^2-1^2=3600-1=3599.$$
 
 Vậy a) $10\,609$; b) $9604$; c) $3599$.
 
@@ -437,9 +458,14 @@ Chứng minh rằng hiệu các bình phương của hai số lẻ liên tiếp 
 2. Dùng hằng đẳng thức rồi đặt $8$ làm thừa số.
 
 ::solution
-Gọi hai số lẻ liên tiếp là $2k-1$ và $2k+1$. Ta có
-$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
-Vì $8k$ là bội của $8$ nên hiệu các bình phương của hai số lẻ liên tiếp chia hết cho $8$.
+Gọi hai số lẻ liên tiếp là $2k-1$ và $2k+1$, trong đó $k$ là số nguyên.
+
+Hiệu các bình phương của hai số này (số lớn trừ số bé) là
+$$\begin{aligned}(2k+1)^2-(2k-1)^2&=(4k^2+4k+1)-(4k^2-4k+1)\\&=4k^2+4k+1-4k^2+4k-1\\&=8k.\end{aligned}$$
+
+Vì $k$ là số nguyên nên $8k$ là bội của $8$, tức là $8k$ chia hết cho $8$. Nếu lấy số bé trừ số lớn thì hiệu là $-8k$, cũng chia hết cho $8$.
+
+Vậy hiệu các bình phương của hai số lẻ liên tiếp luôn chia hết cho $8$.
 
 **Đáp số.** Hiệu bằng $8k$, chia hết cho $8$.
 :::

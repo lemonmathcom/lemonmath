@@ -137,7 +137,17 @@ d) A marble.
 2. Two flat ends: choose cylinder. Otherwise: sphere.
 
 ::solution
-The tin and the drum have two flat bases. The table-tennis ball and the marble have no flat face.
+A cylinder has two flat bases and one curved surface. A sphere has no flat face at all.
+
+a) The tin of fizzy drink has two flat bases, so it is a cylinder.
+
+b) The table-tennis ball has no flat face, so it is a sphere.
+
+c) The drum has two flat bases, so it is a cylinder.
+
+d) The marble has no flat face, so it is a sphere.
+
+So the tin and the drum are cylinders; the table-tennis ball and the marble are spheres.
 
 **Answer.** a) cylinder; b) sphere; c) cylinder; d) sphere.
 :::
@@ -159,7 +169,15 @@ c) A sphere has $\square$ flat faces.
 2. Fill in each box.
 
 ::solution
-A cylinder has two flat bases and one curved surface. A sphere has no flat faces.
+A cylinder has two flat bases and one curved surface.
+
+a) A cylinder has $2$ flat faces (the two bases).
+
+b) A cylinder has $1$ curved surface.
+
+c) A sphere has no flat face, so it has $0$ flat faces.
+
+So we write the numbers $2$, $1$ and $0$.
 
 **Answer.** a) $2$; b) $1$; c) $0$.
 :::
@@ -181,7 +199,13 @@ c) A ball rolls in every direction.
 2. Check it against the Summary.
 
 ::solution
-a) False, because a sphere has no flat face. b) True, because a cylinder has flat bases. c) True, because a sphere rolls in every direction.
+a) **False.** A sphere has no flat face, so the sentence "A sphere has a flat face" is false.
+
+b) **True.** A cylinder has flat bases, so cylinders can be stacked.
+
+c) **True.** A ball is a sphere, and a sphere rolls in every direction.
+
+So sentences b) and c) are true; sentence a) is false.
 
 **Answer.** a) False; b) True; c) True.
 :::
@@ -197,7 +221,17 @@ Which object does not belong with the others: a tin of milk, a drum, a ball, a c
 2. Find the object in the other group.
 
 ::solution
-The tin, the drum and the cup are cylinders. The ball is a sphere.
+We decide the shape of each object.
+
+The tin of milk has two flat bases, so it is a cylinder.
+
+The drum has two flat bases, so it is a cylinder.
+
+The cylinder-shaped cup is a cylinder.
+
+The ball has no flat face, so it is a sphere.
+
+So three objects are cylinders and the ball is a sphere; the ball does not belong with the others.
 
 **Answer.** The ball.
 :::
@@ -213,7 +247,11 @@ You want to build a tall tower from objects. Do you choose a tin of milk or a ba
 2. Will an object with a flat face roll away when stacked?
 
 ::solution
-A tin is a cylinder with flat bases, so it can be stacked. A ball is a sphere with no flat face, so it will roll away.
+A tin of milk is a cylinder with flat bases, so tins can be stacked.
+
+A ball is a sphere with no flat face, so it will roll away and cannot be stacked.
+
+So you choose the tin of milk to build a tall tower, because a tin has flat bases.
 
 **Answer.** Choose the tin of milk.
 :::
@@ -229,7 +267,13 @@ Mai says: "A round orange has two flat faces, so it is a cylinder." What is wron
 2. Which solid has no flat faces?
 
 ::solution
-A round orange has no flat face at all, so Mai is wrong. A solid with no flat face is a sphere.
+A round orange has no flat face at all.
+
+A solid with no flat face is a sphere, while a cylinder is the one that has two flat faces (its two bases).
+
+Mai is wrong when she says the orange has two flat faces, so she wrongly calls it a cylinder.
+
+So the correct statement is: a round orange has no flat face, so it is a sphere.
 
 **Answer.** A round orange has the shape of a sphere.
 :::
@@ -245,10 +289,14 @@ A shopkeeper has $20$ tins of milk and stacks them into $5$ equal stacks. How ma
 2. Work out $20\div5$ and write the answer with its unit.
 
 ::solution
-The number of tins in each stack is:
+Solution
+
+The shopkeeper stacks $20$ tins into $5$ equal stacks, so the number of tins in each stack is:
 $$20\div5=4\ \text{(tins)}.$$
 
-**Check.** $4\times5=20$. Correct.
+Check: $4\times5=20$. Correct.
+
+So each stack has $4$ tins of milk.
 
 **Answer.** $4$ tins of milk.
 :::
@@ -264,7 +312,18 @@ A baby has $3$ cylinders and $2$ spheres. How many flat faces do all these solid
 2. Work out the flat faces of $2$ spheres, then add.
 
 ::solution
-Three cylinders have $3\times2=6$ flat faces. Two spheres have $2\times0=0$ flat faces. Altogether $6+0=6$.
+Solution
+
+Each cylinder has $2$ flat faces, so $3$ cylinders have this many flat faces:
+$$3\times2=6\ \text{(flat faces)}.$$
+
+Each sphere has $0$ flat faces, so $2$ spheres have this many flat faces:
+$$2\times0=0\ \text{(flat faces)}.$$
+
+The total number of flat faces of all the solids is:
+$$6+0=6\ \text{(flat faces)}.$$
+
+So all these solids have $6$ flat faces altogether.
 
 **Answer.** $6$ flat faces.
 :::

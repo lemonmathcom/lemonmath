@@ -222,7 +222,10 @@ Tìm $\displaystyle\int(4x^3-6x+7)\,dx$.
 2. Cộng một hằng số $C$ và kiểm tra bằng đạo hàm.
 
 ::solution
-Ta có $\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+Áp dụng các công thức $\displaystyle\int x^{\alpha}\,dx=\dfrac{x^{\alpha+1}}{\alpha+1}+C$ $(\alpha\neq-1)$ và $\displaystyle\int k\,dx=kx+C$, cùng tính chất nguyên hàm của một tổng và của tích một hằng số với một hàm số.
+
+Ta có
+$$\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C.$$
 
 Vậy họ nguyên hàm cần tìm là $x^4-3x^2+7x+C$.
 
@@ -240,7 +243,10 @@ Tìm $\displaystyle\int\left(3\sqrt x+\frac1{x^2}\right)dx$ trên khoảng $(0; 
 2. Áp dụng công thức cho từng số hạng.
 
 ::solution
-Ta có $\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+Trên khoảng $(0; +\infty)$, ta viết $\sqrt x=x^{\frac12}$ và $\dfrac1{x^2}=x^{-2}$.
+
+Áp dụng công thức $\displaystyle\int x^{\alpha}\,dx=\dfrac{x^{\alpha+1}}{\alpha+1}+C$ $(\alpha\neq-1)$, ta có
+$$\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x^{\frac32}-\frac1x+C=2x\sqrt x-\frac1x+C.$$
 
 Vậy họ nguyên hàm cần tìm là $2x\sqrt x-\dfrac1x+C$.
 
@@ -258,7 +264,10 @@ Tìm $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx$.
 2. Gộp lại và cộng $C$.
 
 ::solution
-Ta có $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+Hàm số dưới dấu tích phân xác định trên mỗi khoảng mà $\sin x\neq0$, tức là $x\neq k\pi$ $(k\in\mathbb{Z})$.
+
+Áp dụng các công thức $\displaystyle\int e^x\,dx=e^x+C$, $\displaystyle\int\sin x\,dx=-\cos x+C$ và $\displaystyle\int\frac{1}{\sin^2x}\,dx=-\cot x+C$, ta có
+$$\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C.$$
 
 Vậy họ nguyên hàm cần tìm là $5e^x+2\cos x-\cot x+C$.
 
@@ -276,7 +285,10 @@ Tìm $\displaystyle\int(2x-1)^2\,dx$.
 2. Tìm nguyên hàm của đa thức.
 
 ::solution
-Ta có $(2x-1)^2=4x^2-4x+1$. Do đó $\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+Khai triển hằng đẳng thức, ta có $(2x-1)^2=4x^2-4x+1$.
+
+Do đó
+$$\int(2x-1)^2\,dx=\int(4x^2-4x+1)\,dx=4\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+x+C=\frac{4x^3}{3}-2x^2+x+C.$$
 
 Vậy họ nguyên hàm cần tìm là $\dfrac43x^3-2x^2+x+C$.
 
@@ -302,13 +314,18 @@ d) Với $G(x)$ ở ý c), ta có $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}
 2. Tìm $C$ ở c), rồi thay $x=\dfrac{\pi}{2}$ cho d).
 
 ::solution
-a) **Đúng**. Ta có $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$.
+Hàm số $f(x)=3x^2+2\cos x$ xác định trên $\mathbb{R}$. Hàm số $F(x)$ là một nguyên hàm của $f(x)$ khi và chỉ khi $F'(x)=f(x)$.
 
-b) **Sai**. Ta có $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
+a) **Đúng.** Ta có $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$, nên $F(x)=x^3+2\sin x$ là một nguyên hàm của $f(x)$.
 
-c) **Đúng**. Ta có $G(x)=x^3+2\sin x+C$ và $G(0)=C=1$.
+b) **Sai.** Ta có $(x^3-2\sin x+5)'=3x^2-2\cos x\neq3x^2+2\cos x=f(x)$, nên $F(x)=x^3-2\sin x+5$ không là nguyên hàm của $f(x)$.
 
-d) **Sai**. Ta có $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
+c) **Đúng.** Họ nguyên hàm của $f(x)$ là $G(x)=x^3+2\sin x+C$. Từ $G(0)=0+2\cdot0+C=C=1$ ta được $G(x)=x^3+2\sin x+1$.
+
+d) **Sai.** Với $G(x)=x^3+2\sin x+1$, ta có
+$$G\left(\frac{\pi}{2}\right)=\frac{\pi^3}{8}+2\sin\frac{\pi}{2}+1=\frac{\pi^3}{8}+2\cdot1+1=\frac{\pi^3}{8}+3\neq\frac{\pi^3}{8}+2.$$
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -324,9 +341,15 @@ Cho $F(x)$ là nguyên hàm của $f(x)=4x^3-2x$ thoả mãn $F(1)=3$. Tính $F(
 2. Thay $x=1$ tìm $C$, rồi tính $F(2)$.
 
 ::solution
-Ta có $F(x)=x^4-x^2+C$. Vì $F(1)=1-1+C=3$ nên $C=3$.
+Ta có
+$$F(x)=\int(4x^3-2x)\,dx=x^4-x^2+C.$$
 
-Vậy $F(2)=16-4+3=15$.
+Vì $F(1)=3$ nên $1^4-1^2+C=3$, suy ra $C=3$. Do đó $F(x)=x^4-x^2+3$.
+
+Thay $x=2$ vào $F(x)$, ta được
+$$F(2)=2^4-2^2+3=16-4+3=15.$$
+
+Vậy $F(2)=15$.
 
 **Đáp số.** $15$.
 :::
@@ -378,7 +401,17 @@ Tìm hàm số $f(x)$ biết $f''(x)=6x+2$, $f'(0)=1$ và $f(0)=-1$.
 2. Tìm $f(x)$, dùng $f(0)=-1$ để tìm hằng số thứ hai.
 
 ::solution
-Ta có $f'(x)=\displaystyle\int(6x+2)\,dx=3x^2+2x+C_1$. Vì $f'(0)=C_1=1$ nên $f'(x)=3x^2+2x+1$. Suy ra $f(x)=x^3+x^2+x+C_2$. Vì $f(0)=C_2=-1$ nên $f(x)=x^3+x^2+x-1$ (kiểm tra: $f''(x)=6x+2$).
+Vì $f'(x)$ là một nguyên hàm của $f''(x)$ nên
+$$f'(x)=\int(6x+2)\,dx=3x^2+2x+C_1.$$
+
+Vì $f'(0)=1$ nên $C_1=1$, suy ra $f'(x)=3x^2+2x+1$.
+
+Vì $f(x)$ là một nguyên hàm của $f'(x)$ nên
+$$f(x)=\int(3x^2+2x+1)\,dx=x^3+x^2+x+C_2.$$
+
+Vì $f(0)=-1$ nên $C_2=-1$, suy ra $f(x)=x^3+x^2+x-1$.
+
+Kiểm tra: $f'(x)=3x^2+2x+1$, $f''(x)=6x+2$, $f'(0)=1$ và $f(0)=-1$ (thoả mãn).
 
 Vậy $f(x)=x^3+x^2+x-1$.
 
@@ -396,7 +429,15 @@ Tìm $\displaystyle\int\sin^2\frac{x}{2}\,dx$.
 2. Tìm nguyên hàm từng số hạng.
 
 ::solution
-Ta có $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (công thức hạ bậc). Do đó $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Kiểm tra: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
+Áp dụng công thức hạ bậc $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$ với $\alpha=\dfrac x2$, ta có
+$$\sin^2\frac x2=\frac{1-\cos x}{2}=\frac12-\frac12\cos x.$$
+
+Do đó
+$$\int\sin^2\frac x2\,dx=\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C.$$
+
+Kiểm tra: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac12-\dfrac12\cos x=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$ (đúng).
+
+Vậy $\displaystyle\int\sin^2\frac x2\,dx=\dfrac x2-\dfrac{\sin x}{2}+C$.
 
 **Đáp số.** $\dfrac x2-\dfrac{\sin x}{2}+C$.
 :::

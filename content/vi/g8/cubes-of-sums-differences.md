@@ -222,11 +222,16 @@ c) $(2x+1)^3$.
 2. Viết bốn hạng tử, chú ý dấu.
 
 ::solution
-a) $(x+1)^3=x^3+3x^2+3x+1$.
+Áp dụng hằng đẳng thức lập phương của một tổng $(A+B)^3=A^3+3A^2B+3AB^2+B^3$ và lập phương của một hiệu $(A-B)^3=A^3-3A^2B+3AB^2-B^3$.
 
-b) $(x-3)^3=x^3-9x^2+27x-27$.
+a) Với $A=x$, $B=1$, ta có
+$$(x+1)^3=x^3+3\cdot x^2\cdot1+3\cdot x\cdot1^2+1^3=x^3+3x^2+3x+1.$$
 
-c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+b) Với $A=x$, $B=3$, ta có
+$$(x-3)^3=x^3-3\cdot x^2\cdot3+3\cdot x\cdot3^2-3^3=x^3-9x^2+27x-27.$$
+
+c) Với $A=2x$, $B=1$, ta có
+$$(2x+1)^3=(2x)^3+3\cdot(2x)^2\cdot1+3\cdot2x\cdot1^2+1^3=8x^3+12x^2+6x+1.$$
 
 Vậy a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
 
@@ -250,11 +255,16 @@ c) $\left(\dfrac12x+2\right)^3$.
 2. Tính $a^3$, $3a^2b$, $3ab^2$, $b^3$.
 
 ::solution
-a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+Áp dụng $(A+B)^3=A^3+3A^2B+3AB^2+B^3$ và $(A-B)^3=A^3-3A^2B+3AB^2-B^3$.
 
-b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+a) Với $A=3x$, $B=2y$, ta có
+$$\begin{aligned}(3x-2y)^3&=(3x)^3-3\cdot(3x)^2\cdot2y+3\cdot3x\cdot(2y)^2-(2y)^3\\&=27x^3-54x^2y+36xy^2-8y^3.\end{aligned}$$
 
-c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+b) Với $A=x^2$, $B=2$, ta có
+$$(x^2+2)^3=(x^2)^3+3\cdot(x^2)^2\cdot2+3\cdot x^2\cdot2^2+2^3=x^6+6x^4+12x^2+8.$$
+
+c) Với $A=\dfrac12x$, $B=2$, ta có
+$$\begin{aligned}\left(\frac12x+2\right)^3&=\left(\frac12x\right)^3+3\cdot\left(\frac12x\right)^2\cdot2+3\cdot\frac12x\cdot2^2+2^3\\&=\frac18x^3+\frac32x^2+6x+8.\end{aligned}$$
 
 Vậy a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
 
@@ -278,11 +288,16 @@ c) $(2x+3y)(4x^2-6xy+9y^2)$.
 2. Viết kết quả là tổng hoặc hiệu hai lập phương.
 
 ::solution
-a) $(x+4)(x^2-4x+16)=x^3+64$.
+Áp dụng hằng đẳng thức tổng hai lập phương $(A+B)(A^2-AB+B^2)=A^3+B^3$ và hiệu hai lập phương $(A-B)(A^2+AB+B^2)=A^3-B^3$.
 
-b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+a) Với $A=x$, $B=4$, ta có $A^2-AB+B^2=x^2-4x+16$, nên
+$$(x+4)(x^2-4x+16)=x^3+4^3=x^3+64.$$
 
-c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+b) Với $A=3x$, $B=1$, ta có $A^2+AB+B^2=9x^2+3x+1$, nên
+$$(3x-1)(9x^2+3x+1)=(3x)^3-1^3=27x^3-1.$$
+
+c) Với $A=2x$, $B=3y$, ta có $A^2-AB+B^2=4x^2-6xy+9y^2$, nên
+$$(2x+3y)(4x^2-6xy+9y^2)=(2x)^3+(3y)^3=8x^3+27y^3.$$
 
 Vậy a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
 
@@ -306,11 +321,16 @@ c) $31^3$.
 2. Áp dụng hằng đẳng thức tương ứng.
 
 ::solution
-a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+Ta tách mỗi số thành tổng hoặc hiệu của một số tròn chục và một số nhỏ, rồi áp dụng hằng đẳng thức lập phương.
 
-b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+a) Ta có $21=20+1$, nên
+$$21^3=(20+1)^3=20^3+3\cdot20^2\cdot1+3\cdot20\cdot1^2+1^3=8000+1200+60+1=9261.$$
 
-c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+b) Ta có $19=20-1$, nên
+$$19^3=(20-1)^3=20^3-3\cdot20^2\cdot1+3\cdot20\cdot1^2-1^3=8000-1200+60-1=6859.$$
+
+c) Ta có $31=30+1$, nên
+$$31^3=(30+1)^3=30^3+3\cdot30^2\cdot1+3\cdot30\cdot1^2+1^3=27\,000+2700+90+1=29\,791.$$
 
 Vậy a) $9261$; b) $6859$; c) $29\,791$.
 
@@ -334,11 +354,14 @@ c) $27+x^3$.
 2. Chọn hằng đẳng thức phù hợp.
 
 ::solution
-a) Với $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+a) Ta thấy $x^3=x^3$, $64=4^3$, $12x^2=3\cdot x^2\cdot4$ và $48x=3\cdot x\cdot4^2$. Với $a=x$, $b=4$, biểu thức có dạng $a^3+3a^2b+3ab^2+b^3$, nên
+$$x^3+12x^2+48x+64=x^3+3\cdot x^2\cdot4+3\cdot x\cdot4^2+4^3=(x+4)^3.$$
 
-b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+b) Ta có $8x^3=(2x)^3$ và $125=5^3$. Áp dụng hiệu hai lập phương $a^3-b^3=(a-b)(a^2+ab+b^2)$ với $a=2x$, $b=5$:
+$$8x^3-125=(2x)^3-5^3=(2x-5)\left(4x^2+10x+25\right).$$
 
-c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+c) Ta có $27=3^3$. Áp dụng tổng hai lập phương $a^3+b^3=(a+b)(a^2-ab+b^2)$ với $a=3$, $b=x$:
+$$27+x^3=3^3+x^3=(3+x)\left(9-3x+x^2\right).$$
 
 Vậy a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
 
@@ -416,11 +439,15 @@ Nhớ lại bài về hình hộp chữ nhật và hình lập phương. Một h
 2. Thay $x=2$.
 
 ::solution
-Ta có $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
+Thể tích hình lập phương cạnh $a$ là $V=a^3$. Với cạnh $a=2x-1$ (cm), ta có
+$$\begin{aligned}V=(2x-1)^3&=(2x)^3-3\cdot(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3\\&=8x^3-12x^2+6x-1\ (\text{cm}^3).\end{aligned}$$
 
-Khi $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Kiểm tra: cạnh là $3$ cm, $3^3=27$.)
+Thay $x=2$ vào đa thức, ta được
+$$V=8\cdot2^3-12\cdot2^2+6\cdot2-1=64-48+12-1=27\ (\text{cm}^3).$$
 
-Vậy $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, và bằng $27\ \text{cm}^3$ khi $x=2$.
+Kiểm tra: khi $x=2$ thì cạnh là $2\cdot2-1=3$ cm, và $3^3=27$.
+
+Vậy thể tích là $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, và bằng $27\ \text{cm}^3$ khi $x=2$.
 
 **Đáp số.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
 :::
@@ -436,9 +463,18 @@ Cho $a+b=1$. Chứng minh rằng $a^3+b^3+3ab=1$.
 2. Thay $a+b=1$ rồi rút gọn.
 
 ::solution
-Từ $(a+b)^3=a^3+b^3+3ab(a+b)$ ta có $a^3+b^3=(a+b)^3-3ab(a+b)$. Vì $a+b=1$ nên
-$$a^3+b^3=1-3ab.$$
-Do đó $a^3+b^3+3ab=1-3ab+3ab=1$.
+Ta cần chứng minh $a^3+b^3+3ab=1$ khi $a+b=1$.
+
+Theo hằng đẳng thức lập phương của một tổng, ta có $(a+b)^3=a^3+b^3+3ab(a+b)$. Suy ra
+$$a^3+b^3=(a+b)^3-3ab(a+b).$$
+
+Thay $a+b=1$ vào, ta được
+$$a^3+b^3=1^3-3ab\cdot1=1-3ab.$$
+
+Do đó
+$$a^3+b^3+3ab=1-3ab+3ab=1.$$
+
+Vậy nếu $a+b=1$ thì $a^3+b^3+3ab=1$.
 
 **Đáp số.** Đẳng thức được chứng minh.
 :::

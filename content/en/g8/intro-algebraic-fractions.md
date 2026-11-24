@@ -222,7 +222,15 @@ d) $4x-5$.
 2. Check that the denominator is not $0$.
 
 ::solution
-a) It is an algebraic fraction. b) The denominator is $0$, so it is not. c) It is an algebraic fraction. d) It is a polynomial, which can be written $\dfrac{4x-5}{1}$, so it is an algebraic fraction.
+An algebraic fraction is an expression of the form $\dfrac{A}{B}$, where $A$, $B$ are polynomials and $B$ is not the zero polynomial. Every polynomial is also an algebraic fraction (with denominator $1$).
+
+a) In $\dfrac{x+1}{x^2+1}$ the numerator and denominator are polynomials and the denominator is not $0$. It is an algebraic fraction.
+
+b) In $\dfrac{3x}{0}$ the denominator is $0$, so it is not an algebraic fraction.
+
+c) In $\dfrac{2x-1}{7}$ the numerator is a polynomial and the denominator is the polynomial $7\neq0$. It is an algebraic fraction.
+
+d) $4x-5$ is a polynomial and can be written $\dfrac{4x-5}{1}$, so it is an algebraic fraction.
 
 So a), c), d) are algebraic fractions.
 
@@ -246,11 +254,15 @@ c) $\dfrac{3}{x^2+4}$.
 2. For c), look at the sign of $x^2+4$.
 
 ::solution
-a) $2x-6\neq0$, so $x\neq3$.
+The fraction $\dfrac{A}{B}$ is defined when the denominator $B\neq0$.
 
-b) $x^2-25\neq0$, so $(x-5)(x+5)\neq0$, that is $x\neq5$ and $x\neq-5$.
+a) Condition: $2x-6\neq0$, that is $2x\neq6$, so $x\neq3$.
 
-c) Since $x^2+4\geq4>0$, the denominator is never $0$; the fraction is defined for every $x$.
+b) Condition: $x^2-25\neq0$. We have $x^2-25=(x-5)(x+5)$, so $(x-5)(x+5)\neq0$, that is $x\neq5$ and $x\neq-5$.
+
+c) For every $x$ we have $x^2\geq0$, so $x^2+4\geq4>0$. The denominator is never $0$, so the fraction is defined for every $x$.
+
+So a) $x\neq3$; b) $x\neq5$ and $x\neq-5$; c) the fraction is defined for every $x$.
 
 **Answer.** a) $x\neq3$. b) $x\neq\pm5$. c) every $x$.
 :::
@@ -284,7 +296,13 @@ Prove that $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
 2. Work out $(x^2-4)\cdot3$ and compare.
 
 ::solution
-We have $(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12$ and $(x^2-4)\cdot3=3x^2-12$. The two products are equal.
+Two fractions $\dfrac{A}{B}$ and $\dfrac{C}{D}$ are equal if $A\cdot D=B\cdot C$. Here $A=3x-6$, $B=x^2-4$, $C=3$, $D=x+2$ (with $x\neq\pm2$ so that the denominators are not $0$).
+
+We compute the two cross products:
+$$(3x-6)(x+2)=3x^2+6x-6x-12=3x^2-12,$$
+$$(x^2-4)\cdot3=3x^2-12.$$
+
+The two products are equal, so the two fractions are equal.
 
 So $\dfrac{3x-6}{x^2-4}=\dfrac{3}{x+2}$.
 
@@ -332,11 +350,16 @@ c) $\dfrac{x^2-6x+9}{x^2-9}$.
 2. b) $5x+10=5(x+2)$; c) use special products.
 
 ::solution
-a) $\dfrac{12x^3y^2}{18x^2y^3}=\dfrac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\dfrac{2x}{3y}$.
+To simplify a fraction, we factorise the numerator and denominator, then divide both by the common factor (which is not $0$).
 
-b) $\dfrac{5x+10}{x^2-4}=\dfrac{5(x+2)}{(x-2)(x+2)}=\dfrac{5}{x-2}$.
+a) Condition: $x\neq0$, $y\neq0$. A common factor of $12x^3y^2$ and $18x^2y^3$ is $6x^2y^2$, so
+$$\frac{12x^3y^2}{18x^2y^3}=\frac{6x^2y^2\cdot2x}{6x^2y^2\cdot3y}=\frac{2x}{3y}.$$
 
-c) $\dfrac{x^2-6x+9}{x^2-9}=\dfrac{(x-3)^2}{(x-3)(x+3)}=\dfrac{x-3}{x+3}$.
+b) Condition: $x^2-4\neq0$, that is $x\neq\pm2$. We have $5x+10=5(x+2)$ and $x^2-4=(x-2)(x+2)$, so
+$$\frac{5x+10}{x^2-4}=\frac{5(x+2)}{(x-2)(x+2)}=\frac{5}{x-2}.$$
+
+c) Condition: $x^2-9\neq0$, that is $x\neq\pm3$. We have $x^2-6x+9=(x-3)^2$ and $x^2-9=(x-3)(x+3)$, so
+$$\frac{x^2-6x+9}{x^2-9}=\frac{(x-3)^2}{(x-3)(x+3)}=\frac{x-3}{x+3}.$$
 
 So a) $\dfrac{2x}{3y}$; b) $\dfrac{5}{x-2}$; c) $\dfrac{x-3}{x+3}$.
 

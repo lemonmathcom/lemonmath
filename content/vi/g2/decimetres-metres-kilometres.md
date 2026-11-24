@@ -133,7 +133,15 @@ c) $1$ km $=\square$ m.
 2. Điền từng chỗ trống.
 
 ::solution
-Một đề-xi-mét bằng mười xăng-ti-mét, một mét bằng mười đề-xi-mét, một ki-lô-mét bằng một nghìn mét.
+Em nhớ lại mối quan hệ giữa các đơn vị đo độ dài:
+
+a) Một đề-xi-mét dài bằng mười xăng-ti-mét, nên $1$ dm $=10$ cm.
+
+b) Một mét dài bằng mười đề-xi-mét, nên $1$ m $=10$ dm.
+
+c) Một ki-lô-mét dài bằng một nghìn mét, nên $1$ km $=1000$ m.
+
+Vậy các số cần điền là $10$, $10$ và $1000$.
 
 **Đáp số.** a) $10$; b) $10$; c) $1000$.
 :::
@@ -155,7 +163,19 @@ c) $7$ dm $=\square$ cm.
 2. Đếm thêm theo $10$ hoặc chia thành các nhóm $10$.
 
 ::solution
-a) $3\times10=30$. b) $50$ dm có $5$ nhóm $10$ dm nên là $5$ m. c) $7\times10=70$.
+Em dùng $1$ m $=10$ dm và $1$ dm $=10$ cm.
+
+a) Vì $1$ m $=10$ dm nên $3$ m gấp $3$ lần $10$ dm. Ta có
+$$3\times10=30.$$
+Vậy $3$ m $=30$ dm.
+
+b) Mỗi $10$ dm bằng $1$ m. Số $50$ dm có $5$ nhóm $10$ dm nên bằng $5$ m.
+
+Vậy $50$ dm $=5$ m.
+
+c) Vì $1$ dm $=10$ cm nên $7$ dm gấp $7$ lần $10$ cm. Ta có
+$$7\times10=70.$$
+Vậy $7$ dm $=70$ cm.
 
 **Đáp số.** a) $30$; b) $5$; c) $70$.
 :::
@@ -171,7 +191,15 @@ Em nhớ lại bài trước. Quãng đường A dài $450$ m, quãng đường 
 2. Nếu bằng nhau, so sánh hàng chục.
 
 ::solution
-Hàng trăm bằng nhau là $4$. Hàng chục $5>0$ nên $450>405$.
+Để so sánh hai số có ba chữ số, em so sánh lần lượt từ hàng trăm.
+
+Hai số $450$ và $405$ có hàng trăm bằng nhau, cùng là $4$.
+
+Ta so sánh tiếp hàng chục: $5>0$, nên $450>405$.
+
+Số đo quãng đường A là $450$ m, lớn hơn số đo quãng đường B là $405$ m.
+
+Vậy $450>405$ và quãng đường A dài hơn.
 
 **Đáp số.** $450>405$; quãng đường A dài hơn.
 :::
@@ -193,7 +221,19 @@ c) $20$ km $-5$ km.
 2. Viết đơn vị vào kết quả.
 
 ::solution
-a) $6+3=9$. b) $15-8=7$. c) $20-5=15$.
+Các số đo cùng đơn vị nên em cộng, trừ các số rồi giữ nguyên đơn vị.
+
+a) Ta có
+$$6+3=9.$$
+Vậy $6$ dm $+3$ dm $=9$ dm.
+
+b) Ta có
+$$15-8=7.$$
+Vậy $15$ m $-8$ m $=7$ m.
+
+c) Ta có
+$$20-5=15.$$
+Vậy $20$ km $-5$ km $=15$ km.
 
 **Đáp số.** a) $9$ dm; b) $7$ m; c) $15$ km.
 :::
@@ -215,7 +255,15 @@ c) Đường từ nhà em đến thành phố ở xa.
 2. Chọn đơn vị phù hợp độ dài.
 
 ::solution
-a) Bàn học không quá dài, chọn dm. b) Sân trường dài hơn bàn nhiều, chọn m. c) Đường đến thành phố rất dài, chọn km.
+Em chọn đơn vị phù hợp với độ dài của vật cần đo.
+
+a) Chiều cao của cái bàn học không quá dài, nên đo bằng đề-xi-mét. Chọn dm.
+
+b) Sân trường dài hơn cái bàn học rất nhiều, nên đo bằng mét. Chọn m.
+
+c) Đường từ nhà em đến thành phố ở xa rất dài, nên đo bằng ki-lô-mét. Chọn km.
+
+Vậy đơn vị thích hợp là dm, m và km theo thứ tự các câu a), b), c).
 
 **Đáp số.** a) dm; b) m; c) km.
 :::
@@ -231,7 +279,13 @@ Mai nói: "$1$ m $=100$ dm." Mai sai ở đâu? Sửa lại cho đúng.
 2. Sửa lại số.
 
 ::solution
-Thước mét dài bằng $10$ thước $1$ dm, không phải $100$.
+Em so sánh với thước mét: một thước mét dài bằng $10$ thước dài $1$ dm xếp nối nhau, không phải $100$ thước.
+
+Do đó $1$ m $=10$ dm, còn $1$ m $=100$ dm là sai.
+
+Mai sai ở chỗ nhầm số $10$ thành số $100$. (Số $100$ là số xăng-ti-mét trong $1$ m, tức là $1$ m $=100$ cm.)
+
+Vậy câu đúng là $1$ m $=10$ dm.
 
 **Đáp số.** $1$ m $=10$ dm.
 :::
@@ -247,8 +301,12 @@ Sáng nay Nam đi bộ $3$ km, chiều nay Nam đi bộ $2$ km. Hỏi cả hai b
 2. Tính $3+2$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Quãng đường cả hai buổi là:
-$$3+2=5\ \text{(km)}.$$
+Bài giải
+
+Quãng đường Nam đi bộ cả hai buổi là:
+$$3+2=5\ \text{(km)}$$
+
+Vậy cả hai buổi Nam đi bộ $5$ km.
 
 **Đáp số.** $5$ km.
 :::
@@ -264,9 +322,17 @@ Một sợi dây dài $3$ m. Người ta cắt thành các đoạn dài $5$ dm. 
 2. Chia cho độ dài một đoạn.
 
 ::solution
-$3$ m $=30$ dm. Số đoạn dây là $30:5=6$ (đoạn).
+Bài giải
 
-**Kiểm tra.** $6\times5=30$. Đúng.
+Hai độ dài có đơn vị khác nhau nên em đổi về cùng một đơn vị. Ta có $1$ m $=10$ dm nên
+$$3\ \text{m}=3\times10=30\ \text{(dm)}$$
+
+Số đoạn dây cắt được là:
+$$30:5=6\ \text{(đoạn)}$$
+
+Kiểm tra: $6\times5=30$ (dm), đúng.
+
+Vậy cắt được $6$ đoạn dây.
 
 **Đáp số.** $6$ đoạn.
 :::

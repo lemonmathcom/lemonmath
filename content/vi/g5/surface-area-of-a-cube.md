@@ -183,8 +183,15 @@ Tính diện tích xung quanh của hình lập phương có cạnh $4$ cm.
 2. Nhân kết quả với $4$.
 
 ::solution
-Diện tích một mặt là $4\times4=16\ (\text{cm}^2)$. Diện tích xung quanh là:
-$$16\times4=64\ (\text{cm}^2).$$
+Bài giải
+
+Diện tích xung quanh của hình lập phương bằng tổng diện tích $4$ mặt bên. Diện tích một mặt là:
+$$4\times4=16\ (\text{cm}^2)$$
+
+Diện tích xung quanh của hình lập phương là:
+$$16\times4=64\ (\text{cm}^2)$$
+
+Vậy diện tích xung quanh của hình lập phương là $64\ \text{cm}^2$.
 
 **Đáp số.** $64\ \text{cm}^2$.
 :::
@@ -200,8 +207,15 @@ Tính diện tích toàn phần của hình lập phương có cạnh $7$ cm.
 2. Nhân kết quả với $6$.
 
 ::solution
-Diện tích một mặt là $7\times7=49\ (\text{cm}^2)$. Diện tích toàn phần là:
-$$49\times6=294\ (\text{cm}^2).$$
+Bài giải
+
+Diện tích toàn phần của hình lập phương bằng tổng diện tích $6$ mặt. Diện tích một mặt là:
+$$7\times7=49\ (\text{cm}^2)$$
+
+Diện tích toàn phần của hình lập phương là:
+$$49\times6=294\ (\text{cm}^2)$$
+
+Vậy diện tích toàn phần của hình lập phương là $294\ \text{cm}^2$.
 
 **Đáp số.** $294\ \text{cm}^2$.
 :::
@@ -221,11 +235,18 @@ b) diện tích toàn phần.
 2. Nhân với $4$ ở câu a), với $6$ ở câu b).
 
 ::solution
-Diện tích một mặt là $0{,}5\times0{,}5=0{,}25\ (\text{m}^2)$.
+Bài giải
 
-a) $S_{\text{xq}}=0{,}25\times4=1\ (\text{m}^2)$.
+Diện tích một mặt của hình lập phương là:
+$$0{,}5\times0{,}5=0{,}25\ (\text{m}^2)$$
 
-b) $S_{\text{tp}}=0{,}25\times6=1{,}5\ (\text{m}^2)$.
+a) Diện tích xung quanh gồm $4$ mặt bên, nên
+$$S_{\text{xq}}=0{,}25\times4=1\ (\text{m}^2).$$
+
+b) Diện tích toàn phần gồm $6$ mặt, nên
+$$S_{\text{tp}}=0{,}25\times6=1{,}5\ (\text{m}^2).$$
+
+Vậy diện tích xung quanh là $1\ \text{m}^2$ và diện tích toàn phần là $1{,}5\ \text{m}^2$.
 
 **Đáp số.** a) $1\ \text{m}^2$; b) $1{,}5\ \text{m}^2$.
 :::
@@ -241,8 +262,12 @@ Mỗi mặt của một viên xúc xắc hình lập phương có diện tích $
 2. Nhân diện tích một mặt với $6$, rồi thử lại.
 
 ::solution
-Viên xúc xắc có $6$ mặt bằng nhau, nên:
-$$S_{\text{tp}}=9\times6=54\ (\text{cm}^2).$$
+Bài giải
+
+Viên xúc xắc hình lập phương có $6$ mặt bằng nhau, mỗi mặt có diện tích $9\ \text{cm}^2$. Diện tích toàn phần của viên xúc xắc là:
+$$S_{\text{tp}}=9\times6=54\ (\text{cm}^2)$$
+
+Vậy diện tích toàn phần của viên xúc xắc là $54\ \text{cm}^2$.
 
 **Đáp số.** $54\ \text{cm}^2$.
 :::
@@ -258,8 +283,15 @@ Bạn Lan dán giấy kín toàn bộ một hộp quà hình lập phương cạ
 2. Tính $12\times12$, rồi nhân với $6$.
 
 ::solution
-Diện tích một mặt là $12\times12=144\ (\text{cm}^2)$. Diện tích giấy cần dùng là:
-$$144\times6=864\ (\text{cm}^2).$$
+Bài giải
+
+Lan dán giấy kín toàn bộ hộp quà, nên diện tích giấy cần dùng bằng diện tích toàn phần của hình lập phương. Diện tích một mặt là:
+$$12\times12=144\ (\text{cm}^2)$$
+
+Diện tích giấy cần dùng là:
+$$144\times6=864\ (\text{cm}^2)$$
+
+Vậy Lan cần $864\ \text{cm}^2$ giấy.
 
 **Đáp số.** $864\ \text{cm}^2$.
 :::
@@ -275,8 +307,15 @@ Lan sơn $4$ mặt bên của một khối gỗ hình lập phương cạnh $15$
 2. Tính $15\times15$, rồi nhân với $4$.
 
 ::solution
-Diện tích một mặt là $15\times15=225\ (\text{cm}^2)$. Diện tích được sơn là:
-$$225\times4=900\ (\text{cm}^2).$$
+Bài giải
+
+Lan chỉ sơn $4$ mặt bên, nên diện tích được sơn bằng diện tích xung quanh của hình lập phương. Diện tích một mặt là:
+$$15\times15=225\ (\text{cm}^2)$$
+
+Diện tích được sơn là:
+$$225\times4=900\ (\text{cm}^2)$$
+
+Vậy diện tích được sơn là $900\ \text{cm}^2$.
 
 **Đáp số.** $900\ \text{cm}^2$.
 :::
@@ -293,11 +332,27 @@ Em hãy nhớ lại bài trước. Hộp chữ nhật $A$ có chiều dài $8$ c
 3. So sánh hai kết quả, rồi trừ.
 
 ::solution
-Hộp $A$: chu vi đáy là $(8+5)\times2=26\ (\text{cm})$, nên $S_{\text{xq}}=26\times4=104\ (\text{cm}^2)$. Diện tích một đáy là $8\times5=40\ (\text{cm}^2)$, nên $S_{\text{tp}}=104+40\times2=184\ (\text{cm}^2)$.
+Bài giải
 
-Hộp $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+Hộp chữ nhật $A$. Chu vi đáy là:
+$$(8+5)\times2=26\ (\text{cm})$$
 
-Vì $216>184$ nên hộp $B$ lớn hơn, và $216-184=32\ (\text{cm}^2)$.
+Diện tích xung quanh là:
+$$S_{\text{xq}}=26\times4=104\ (\text{cm}^2)$$
+
+Diện tích một đáy là:
+$$8\times5=40\ (\text{cm}^2)$$
+
+Diện tích toàn phần của hộp $A$ là:
+$$S_{\text{tp}}=104+40\times2=184\ (\text{cm}^2)$$
+
+Hộp lập phương $B$. Diện tích toàn phần là:
+$$S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$$
+
+So sánh: $216>184$ nên diện tích toàn phần của hộp $B$ lớn hơn. Hiệu hai diện tích là:
+$$216-184=32\ (\text{cm}^2)$$
+
+Vậy hộp lập phương $B$ có diện tích toàn phần lớn hơn, và lớn hơn $32\ \text{cm}^2$.
 
 **Đáp số.** Hộp lập phương $B$ lớn hơn, lớn hơn $32\ \text{cm}^2$.
 :::
@@ -314,11 +369,20 @@ Hình lập phương $A$ có cạnh $3$ cm. Hình lập phương $B$ có cạnh 
 3. Chia diện tích của $B$ cho diện tích của $A$.
 
 ::solution
-Hình $A$: $S_{\text{tp}}=3\times3\times6=54\ (\text{cm}^2)$.
+Bài giải
 
-Hình $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+Hình lập phương $A$ có cạnh $3$ cm, nên diện tích toàn phần là:
+$$S_{\text{tp}}=3\times3\times6=54\ (\text{cm}^2)$$
 
-Ta có $216:54=4$. Cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì diện tích mỗi mặt tính bằng cạnh nhân cạnh.
+Hình lập phương $B$ có cạnh $6$ cm, nên diện tích toàn phần là:
+$$S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$$
+
+Số lần diện tích toàn phần của $B$ gấp diện tích toàn phần của $A$ là:
+$$216:54=4$$
+
+Nhận xét: cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì diện tích mỗi mặt tính bằng cạnh nhân cạnh.
+
+Vậy diện tích toàn phần của $B$ gấp $4$ lần diện tích toàn phần của $A$.
 
 **Đáp số.** Gấp $4$ lần.
 :::

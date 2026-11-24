@@ -190,7 +190,15 @@ Let $(u_n)$ be the sequence with $u_n=n^2-3n$. Write down the first five terms. 
 2. Solve $n^2-3n=28$ and keep the positive integer solution.
 
 ::solution
-We have $u_1=-2$, $u_2=-2$, $u_3=0$, $u_4=4$, $u_5=10$. Consider $n^2-3n=28$, that is $n^2-3n-28=0$, $(n-7)(n+4)=0$. The positive integer solution is $n=7$.
+The $n$th term of the sequence is $u_n=n^2-3n$, where $n$ is a positive integer. Substituting $n=1,2,3,4,5$ in turn:
+$$u_1=1-3=-2,\quad u_2=4-6=-2,\quad u_3=9-9=0,\quad u_4=16-12=4,\quad u_5=25-15=10.$$
+
+To decide whether $28$ is a term, we solve $u_n=28$ with $n\in\mathbb N^*$:
+$$\begin{aligned}n^2-3n&=28\\n^2-3n-28&=0\\ (n-7)(n+4)&=0.\end{aligned}$$
+
+So $n=7$ or $n=-4$. Only $n=7$ is a positive integer (the condition holds); $n=-4$ is rejected. Check: $u_7=49-21=28$.
+
+So the first five terms are $-2, -2, 0, 4, 10$; the number $28$ is a term of the sequence and it is the $7$th term.
 
 **Answer.** $-2, -2, 0, 4, 10$; $28$ is the $7$th term.
 :::
@@ -206,7 +214,10 @@ Let $(u_n)$ be the sequence with $u_1=-1$ and $u_{n+1}=u_n+2n$. Write down the f
 2. Continue with $n=2, 3, 4$.
 
 ::solution
-$u_2=-1+2=1$; $u_3=1+4=5$; $u_4=5+6=11$; $u_5=11+8=19$.
+The sequence is given by the first term $u_1=-1$ and the recurrence relation $u_{n+1}=u_n+2n$. We compute the terms one by one, taking $n=1,2,3,4$:
+$$\begin{aligned}u_2&=u_1+2\cdot1=-1+2=1,\\u_3&=u_2+2\cdot2=1+4=5,\\u_4&=u_3+2\cdot3=5+6=11,\\u_5&=u_4+2\cdot4=11+8=19.\end{aligned}$$
+
+So the first five terms of the sequence are $-1, 1, 5, 11, 19$.
 
 **Answer.** $-1, 1, 5, 11, 19$.
 :::
@@ -223,11 +234,17 @@ Guess a formula for the general term of each sequence: a) $1, 4, 7, 10, 13, \dot
 3. Part c: compare the numerator and denominator with $n$.
 
 ::solution
-a) Each term is $3$ more than the previous one and $u_1=1$, so $u_n=1+3(n-1)=3n-2$.
+We spot the pattern of each sequence and then check the guessed formula.
 
-b) $2=2^1$, $4=2^2$, $8=2^3$, so $u_n=2^n$.
+a) The sequence $1, 4, 7, 10, 13,\dots$ has $u_1=1$ and each term is $3$ more than the previous one, so it is an arithmetic progression with common difference $3$. Hence
+$$u_n=1+3(n-1)=3n-2.$$
+Check: $u_5=3\cdot5-2=13$.
 
-c) The numerator is $n$ and the denominator is $n+1$, so $u_n=\dfrac{n}{n+1}$.
+b) We have $2=2^1$, $4=2^2$, $8=2^3$, $16=2^4$. The exponent of $2$ equals the position of the term, so $u_n=2^n$.
+
+c) In $\dfrac12,\dfrac23,\dfrac34,\dfrac45,\dots$ the numerator equals the position $n$ and the denominator is $1$ more than the numerator, that is $n+1$. Hence $u_n=\dfrac{n}{n+1}$.
+
+So a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 
 **Answer.** a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 :::
@@ -243,7 +260,15 @@ Decide whether the sequence $(u_n)$ with $u_n=\dfrac{3n-2}{n+1}$ is increasing o
 2. Find a number $M$ bounding it above and a number $m$ bounding it below.
 
 ::solution
-We have $u_{n+1}=\dfrac{3n+1}{n+2}$, so $u_{n+1}-u_n=\dfrac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}=\dfrac{5}{(n+1)(n+2)}>0$, so the sequence is increasing. Since $u_n=3-\dfrac{5}{n+1}<3$ and the sequence is increasing, $u_n\ge u_1=\dfrac12$.
+The sequence is defined for every $n\ge1$ (the denominator $n+1>0$).
+
+Monotonicity. We have $u_{n+1}=\dfrac{3(n+1)-2}{(n+1)+1}=\dfrac{3n+1}{n+2}$, so
+$$\begin{aligned}u_{n+1}-u_n&=\frac{3n+1}{n+2}-\frac{3n-2}{n+1}\\&=\frac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}\\&=\frac{(3n^2+4n+1)-(3n^2+4n-4)}{(n+1)(n+2)}\\&=\frac{5}{(n+1)(n+2)}.\end{aligned}$$
+Since $n\ge1$, we have $(n+1)(n+2)>0$, so $u_{n+1}-u_n>0$. Hence $(u_n)$ is an increasing sequence.
+
+Boundedness. Write $u_n=\dfrac{3(n+1)-5}{n+1}=3-\dfrac5{n+1}$. Since $\dfrac5{n+1}>0$, we have $u_n<3$: the sequence is bounded above by $3$. Since the sequence is increasing, $u_n\ge u_1=\dfrac{3-2}{2}=\dfrac12$: the sequence is bounded below by $\dfrac12$. Thus $\dfrac12\le u_n<3$ for all $n$.
+
+So the sequence $(u_n)$ is increasing and bounded (it is bounded both above and below).
 
 **Answer.** The sequence is increasing; $\dfrac12\le u_n<3$, so it is bounded.
 :::
@@ -259,7 +284,19 @@ An buys a phone for $24$ million dong and pays it off with no interest, $2$ mill
 2. Find $u_n$ in terms of $n$, then solve $u_n=0$.
 
 ::solution
-After the first month the debt is $u_1=22$, and $u_{n+1}=u_n-2$. From $u_1$ to $u_n$ we subtract $2$ exactly $n-1$ times, so $u_n=22-2(n-1)=24-2n$. Solving $24-2n=0$ gives $n=12$.
+Let $u_n$ (million dong) be the amount still owed after month $n$ ($n\in\mathbb N^*$). At the start An owes $24$ million dong and pays $2$ million dong each month.
+
+Recurrence relation. After the first month the debt is $u_1=24-2=22$. Each following month the debt drops by $2$ million dong, so
+$$u_{n+1}=u_n-2.$$
+
+General term. The sequence $(u_n)$ is an arithmetic progression with first term $u_1=22$ and common difference $-2$. From $u_1$ to $u_n$ we subtract $2$ exactly $n-1$ times, so
+$$u_n=22-2(n-1)=24-2n.$$
+
+Time to pay off. An has paid off the phone when $u_n=0$:
+$$24-2n=0\iff n=12.$$
+The value $n=12$ is a positive integer (the condition holds). Check: $2\cdot12=24$ million dong.
+
+So the recurrence relation is $u_1=22$, $u_{n+1}=u_n-2$; the general term is $u_n=24-2n$; An has paid off the phone after $12$ months.
 
 **Answer.** $u_1=22$, $u_{n+1}=u_n-2$; $u_n=24-2n$; the debt is paid off after $12$ months.
 :::
@@ -275,7 +312,19 @@ A cinema has $20$ seats in the first row, and each row after that has $2$ more s
 2. Find $a_{15}$ and solve $a_n=40$.
 
 ::solution
-We have $a_n=20+2(n-1)=18+2n$. So $a_{15}=18+30=48$. Solving $18+2n=40$ gives $n=11$.
+Row $1$ has $a_1=20$ seats and each row after that has $2$ more seats than the row before, that is $a_{n+1}=a_n+2$. So $(a_n)$ is an arithmetic progression with first term $20$ and common difference $2$.
+
+The formula for $a_n$:
+$$a_n=a_1+(n-1)\cdot2=20+2(n-1)=18+2n.$$
+
+The number of seats in row $15$:
+$$a_{15}=18+2\cdot15=18+30=48.$$
+
+The row with $40$ seats: solve $a_n=40$ with $n\in\mathbb N^*$,
+$$18+2n=40\iff2n=22\iff n=11.$$
+The value $n=11$ is a positive integer (the condition holds).
+
+So $a_n=18+2n$; row $15$ has $48$ seats; row $11$ has $40$ seats.
 
 **Answer.** $a_n=18+2n$; row $15$ has $48$ seats; row $11$ has $40$ seats.
 :::
@@ -300,13 +349,20 @@ d) $1\le u_n<2$ for all $n$.
 3. c), d) Use $0<\dfrac1n\le1$.
 
 ::solution
-a) **True**: $u_4=\dfrac{2\cdot4-1}{4}=\dfrac74$.
+We have $u_n=\dfrac{2n-1}{n}=2-\dfrac1n$ for $n\in\mathbb N^*$.
 
-b) **True**: $u_{n+1}-u_n=\dfrac1n-\dfrac{1}{n+1}=\dfrac{1}{n(n+1)}>0$.
+a) **True.** Substituting $n=4$, we get
+$$u_4=\frac{2\cdot4-1}{4}=\frac74.$$
 
-c) **False**: $u_n=2-\dfrac1n<2$; for example $u_1=1<2$.
+b) **True.** We have
+$$u_{n+1}-u_n=\left(2-\frac1{n+1}\right)-\left(2-\frac1n\right)=\frac1n-\frac1{n+1}=\frac{1}{n(n+1)}.$$
+Since $n\ge1$, $\dfrac1{n(n+1)}>0$, so $u_{n+1}>u_n$. Hence $(u_n)$ is an increasing sequence.
 
-d) **True**: since $0<\dfrac1n\le1$, we have $1\le2-\dfrac1n<2$.
+c) **False.** Since $\dfrac1n>0$, we have $u_n=2-\dfrac1n<2$ for every $n$. For example $u_1=1<2$, so $u_n\ge2$ does not hold for all $n$.
+
+d) **True.** For $n\ge1$ we have $0<\dfrac1n\le1$, so $-1\le-\dfrac1n<0$. Adding $2$ to each side gives $1\le2-\dfrac1n<2$, that is $1\le u_n<2$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -322,7 +378,16 @@ The Fibonacci sequence is given by $u_1=1$, $u_2=1$ and $u_{n+1}=u_n+u_{n-1}$ fo
 2. Stop at the $12$th term.
 
 ::solution
-The terms are $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144$.
+We have $u_1=1$, $u_2=1$ and $u_{n+1}=u_n+u_{n-1}$ for $n\ge2$, meaning that each term from the third on is the sum of the two terms before it. We compute in turn:
+$$\begin{aligned}u_3&=u_2+u_1=1+1=2,\\u_4&=u_3+u_2=2+1=3,\\u_5&=u_4+u_3=3+2=5,\\u_6&=u_5+u_4=5+3=8,\\u_7&=u_6+u_5=8+5=13,\\u_8&=u_7+u_6=13+8=21,\\u_9&=u_8+u_7=21+13=34,\\u_{10}&=u_9+u_8=34+21=55,\\u_{11}&=u_{10}+u_9=55+34=89,\\u_{12}&=u_{11}+u_{10}=89+55=144.\end{aligned}$$
+
+Summary of the terms:
+
+| $n$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| $u_n$ | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 | 55 | 89 | 144 |
+
+So $u_{12}=144$.
 
 **Answer.** $u_{12}=144$.
 :::
@@ -338,7 +403,16 @@ Let $(u_n)$ be the sequence with $u_n=\sin\dfrac{n\pi}{2}$. Write down the first
 2. Find the remainder when $2027$ is divided by $4$.
 
 ::solution
-The first six terms are $1, 0, -1, 0, 1, 0$. Since $-1\le\sin x\le1$, we have $-1\le u_n\le1$, so the sequence is bounded. Since $u_{n+4}=\sin\left(\dfrac{n\pi}{2}+2\pi\right)=u_n$ and $2027=4\cdot506+3$, we get $u_{2027}=u_3=-1$.
+The first six terms. Substituting $n=1,\dots,6$ into $u_n=\sin\dfrac{n\pi}{2}$:
+$$\begin{aligned}u_1&=\sin\frac\pi2=1,&u_2&=\sin\pi=0,&u_3&=\sin\frac{3\pi}2=-1,\\u_4&=\sin2\pi=0,&u_5&=\sin\frac{5\pi}2=1,&u_6&=\sin3\pi=0.\end{aligned}$$
+
+Boundedness. Since $-1\le\sin x\le1$ for all $x$, we have $-1\le u_n\le1$ for all $n$. Hence the sequence is bounded.
+
+Finding $u_{2027}$. We have
+$$u_{n+4}=\sin\left(\frac{n\pi}{2}+2\pi\right)=\sin\frac{n\pi}{2}=u_n,$$
+so the sequence is periodic with period $4$: $u_n=u_{n+4}=u_{n+8}=\cdots$. Since $2027=4\cdot506+3$, we get $u_{2027}=u_3=-1$.
+
+So the first six terms are $1, 0, -1, 0, 1, 0$; the sequence is bounded; $u_{2027}=-1$.
 
 **Answer.** $1, 0, -1, 0, 1, 0$; the sequence is bounded; $u_{2027}=-1$.
 :::
@@ -355,7 +429,17 @@ Let $(u_n)$ be the sequence with $u_n=n+\dfrac1n$. Prove that $(u_n)$ is increas
 3. For every number $M$, find $n$ with $u_n>M$.
 
 ::solution
-We have $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Since $n(n+1)\ge2$, $\dfrac{1}{n(n+1)}\le\dfrac12$ and $u_{n+1}-u_n\ge\dfrac12>0$: the sequence is increasing. From $(n-1)^2\ge0$ we get $n^2+1\ge2n$, and dividing by $n>0$ gives $u_n\ge2$: the sequence is bounded below. For every number $M$, take a positive integer $n>M$; then $u_n>n>M$, so no number $M$ bounds the sequence above.
+We prove three properties of $u_n=n+\dfrac1n$ for $n\in\mathbb N^*$.
+
+The sequence is increasing. We have
+$$u_{n+1}-u_n=\left(n+1+\frac1{n+1}\right)-\left(n+\frac1n\right)=1+\frac1{n+1}-\frac1n=1-\frac{1}{n(n+1)}.$$
+Since $n\ge1$, we have $n(n+1)\ge2$, so $\dfrac1{n(n+1)}\le\dfrac12$. Hence $u_{n+1}-u_n\ge1-\dfrac12=\dfrac12>0$. So $(u_n)$ is an increasing sequence.
+
+The sequence is bounded below. For every real number we have $(n-1)^2\ge0$, that is $n^2-2n+1\ge0$, or $n^2+1\ge2n$. Dividing both sides by $n>0$ (the direction does not change) gives $n+\dfrac1n\ge2$, that is $u_n\ge2$ for all $n$. So the sequence is bounded below by $2$.
+
+The sequence is not bounded above. Suppose there is a number $M$ with $u_n\le M$ for all $n$. Take a positive integer $n>M$. Since $\dfrac1n>0$, we have $u_n=n+\dfrac1n>n>M$, contradicting $u_n\le M$. So no number $M$ bounds the sequence above.
+
+So $(u_n)$ is an increasing sequence, bounded below but not bounded above.
 
 **Answer.** The sequence is increasing, bounded below by $2$, and not bounded above.
 :::

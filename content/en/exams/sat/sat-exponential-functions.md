@@ -143,7 +143,17 @@ D. The value was 828 dollars when it was bought.
 2. Check what $900$ means.
 
 ::solution
-The factor $0.92$ means a decrease of $8\%$ per year: answer **C**. The value when bought is $V(0)=900$ dollars; 828 dollars is the value after one year.
+The function $V(t)=900(0.92)^t$ has the form $V(t)=a\cdot b^t$ with $a=900$ and $b=0.92$; $t$ is the number of years since the laptop was bought.
+
+We have $V(0)=900\cdot(0.92)^0=900$, so the value when bought is $900$ dollars, not $828$ dollars. Hence option D is false.
+
+Each year the value is multiplied by $0.92$. Since $0.92=1-0.08$, the value decreases by $8\%$ of the previous year's value each year. Hence option C is true.
+
+So the answer is **C**.
+
+*Remark.* Option A is a mistake: the factor $0.92$ means $92\%$ of the value remains, not that it decreases by $92\%$. Option B is false because the decrease is $8\%$ of the previous year's value, not a fixed amount of $8$ dollars. Option D is false because $828$ dollars is $V(1)$, the value after one year.
+
+**Answer.** C.
 :::
 
 :::exercise Student-produced response
@@ -157,7 +167,18 @@ Mai deposits 2,000 dollars in an account that earns 5% interest per year, compou
 2. Compute and round.
 
 ::solution
-$2{,}000(1.05)^4\approx2{,}431.01$, so about $2{,}431$ dollars.
+Let $A$ (dollars) be the amount in the account after $4$ years. We use the compound interest formula $A=P(1+r)^n$ with deposit $P=2000$ dollars, annual interest rate $r=5\%=0.05$ and number of years $n=4$.
+
+Substituting into the formula, we get
+$$A=2000\cdot(1+0.05)^4=2000\cdot(1.05)^4.$$
+
+We have $(1.05)^4=1.21550625$, so $A=2000\cdot1.21550625\approx2431.01$ (dollars). Rounding to the nearest dollar gives $2431$.
+
+So after $4$ years, Mai's account holds about 2,431 dollars.
+
+*Exam tip.* When entering the answer in Bluebook, type `2431`.
+
+**Answer.** 2,431 dollars.
 :::
 
 :::exercise Student-produced response
@@ -175,7 +196,18 @@ The function $f$ is exponential. What is the value of $f(4)$?
 2. Multiply $f(3)$ by the same factor.
 
 ::solution
-Each value is $\dfrac13$ of the previous one, so $f(4)=6\cdot\dfrac13=2$.
+Since $f$ is exponential, $f(x)=a\cdot b^x$.
+
+From $f(0)=162$ we get $a=162$. From $f(1)=54$ we get $b=\dfrac{f(1)}{f(0)}=\dfrac{54}{162}=\dfrac13$.
+
+Check: $f(2)=162\cdot\left(\dfrac13\right)^2=18$ and $f(3)=162\cdot\left(\dfrac13\right)^3=6$, which match the table. So each value is $\dfrac13$ of the previous one.
+
+Therefore
+$$f(4)=f(3)\cdot\frac13=6\cdot\frac13=2.$$
+
+So $f(4)=2$.
+
+**Answer.** $2$.
 :::
 
 :::exercise Student-produced response
@@ -189,7 +221,14 @@ A culture starts with 400 bacteria, and the number doubles every 3 hours. How ma
 2. Compute $400\cdot2^4$.
 
 ::solution
-$400\cdot2^4=400\cdot16=6{,}400$ bacteria.
+The number of bacteria doubles every $3$ hours. In $12$ hours there are $12\div3=4$ doublings.
+
+Therefore the number of bacteria after $12$ hours is
+$$400\cdot2^4=400\cdot16=6400.$$
+
+So after $12$ hours there are 6,400 bacteria.
+
+**Answer.** 6,400 bacteria.
 :::
 
 :::exercise Multiple choice
@@ -207,7 +246,19 @@ D. $y=3x^{0.8}$
 2. Check the base.
 
 ::solution
-B is linear and D is a power function. A has $b=1.2>1$, which is growth. C has $b=0.8<1$: answer **C**.
+A function modelling exponential decay has the form $y=a\cdot b^x$ with $a>0$ and $0<b<1$.
+
+Option A: $y=3(1.2)^x$ has $b=1.2>1$, which is exponential growth.
+
+Option B: $y=0.8x+3$ is linear, not exponential.
+
+Option D: $y=3x^{0.8}$ is a power function (the variable $x$ is in the base), not exponential.
+
+Option C: $y=3(0.8)^x$ has $a=3>0$ and $b=0.8\in(0, 1)$, which is exponential decay.
+
+So the answer is **C**.
+
+**Answer.** C.
 :::
 
 ## Application exercises
@@ -223,7 +274,20 @@ The price of a ticket increases by 10% one year and by 10% again the next year. 
 2. Convert the factor back to a percent.
 
 ::solution
-$1.1^2=1.21$, so the price increased by $21\%$ in total, not $20\%$. For example, 100 dollars becomes 110 dollars, then 121 dollars.
+Let $P>0$ (dollars) be the original price of the ticket.
+
+After the first year the price increases by $10\%$, so it becomes $P\cdot1.1$.
+
+After the second year the price increases by $10\%$ of the first year's price, so it becomes
+$$P\cdot1.1\cdot1.1=P\cdot1.1^2=1.21P.$$
+
+Hence the price after two years is $121\%$ of the original price, that is, an increase of $21\%$ (not $20\%$, because the second increase is calculated on the already increased price).
+
+For example, with $P=100$ dollars: the price becomes $110$ dollars, then $121$ dollars.
+
+So over the two years the price increased by $21\%$.
+
+**Answer.** $21\%$.
 :::
 
 :::exercise Linear or exponential pay
@@ -237,12 +301,24 @@ Plan A pays 1,000 dollars plus 100 dollars for each month worked. Plan B pays $1
 2. Find the first month where B is larger.
 
 ::solution
+Let $m$ be the number of months worked ($m$ a whole number, $m\ge0$). Plan A pays $1000+100m$ dollars; plan B pays $10\cdot2^m$ dollars.
+
+We make a table of values:
+
 | $m$ | $6$ | $7$ | $8$ |
 |---|---|---|---|
-| Plan A | $1{,}600$ | $1{,}700$ | $1{,}800$ |
-| Plan B | $640$ | $1{,}280$ | $2{,}560$ |
+| Plan A | 1,600 | 1,700 | 1,800 |
+| Plan B | 640 | 1,280 | 2,560 |
 
-Plan B first pays more after $8$ months. Exponential growth starts slowly but eventually overtakes any linear growth.
+For $m=6$: $640<1600$. For $m=7$: $1280<1700$. For $m=8$: $2560>1800$.
+
+For $m\le5$ we have $10\cdot2^m\le10\cdot2^5=320<1000\le1000+100m$, so plan B has not overtaken plan A either.
+
+So plan B first pays more than plan A after $8$ months.
+
+*Remark.* Exponential growth starts slowly but eventually overtakes any linear growth.
+
+**Answer.** $8$ months.
 :::
 
 :::exercise Finding the factor
@@ -256,7 +332,21 @@ A population follows $f(t)=a\cdot b^t$, where $t$ is in years. At $t=0$ there ar
 2. $b=1.2$; compute $500(1.2)^5$.
 
 ::solution
-$a=500$ and $b^2=1.44$, so $b=1.2$ (a growth factor is positive). Then $f(5)=500(1.2)^5=1{,}244.16$, about $1{,}244$ animals.
+At $t=0$ there are $500$ animals, so $f(0)=a\cdot b^0=a=500$.
+
+At $t=2$ there are $720$ animals, so $f(2)=500b^2=720$. Hence
+$$b^2=\frac{720}{500}=1.44.$$
+
+Since a growth factor $b$ is positive, $b=\sqrt{1.44}=1.2$. So $f(t)=500(1.2)^t$.
+
+Substituting $t=5$, we get
+$$f(5)=500\cdot(1.2)^5=500\cdot2.48832=1244.16.$$
+
+Rounding to the nearest whole number gives $1244$.
+
+So the model predicts about 1,244 animals at $t=5$.
+
+**Answer.** 1,244 animals.
 :::
 
 :::exercise Challenge
@@ -270,7 +360,20 @@ A patient is given 200 milligrams of a medicine. Each hour, the body removes 20%
 2. Test $n=6$ and $n=7$.
 
 ::solution
-$200(0.8)^6\approx52.4$ milligrams, still above 50; $200(0.8)^7\approx41.9$ milligrams. The amount first falls below 50 milligrams after $7$ hours.
+Each hour the body removes $20\%$, so the amount that remains is $80\%=0.8$ of the amount at the start of the hour. Let $M(t)$ (milligrams) be the amount after $t$ hours ($t$ a whole number, $t\ge0$). Then
+$$M(t)=200\cdot(0.8)^t.$$
+
+We need the least $t$ such that $M(t)<50$.
+
+For $t=6$: $M(6)=200\cdot(0.8)^6\approx52.4$ milligrams, still more than $50$.
+
+For $t=7$: $M(7)=200\cdot(0.8)^7\approx41.9$ milligrams, less than $50$.
+
+Since $0<0.8<1$, $M(t)$ is decreasing in $t$; hence $M(t)\ge M(6)>50$ for every $t\le6$.
+
+So the amount is first less than $50$ milligrams after $7$ hours.
+
+**Answer.** $7$ hours.
 :::
 
 :::quiz

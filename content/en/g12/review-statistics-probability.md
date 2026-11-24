@@ -228,7 +228,14 @@ The waiting times (minutes) of $10$ customers are grouped: the class $[0, 4)$ ha
 2. Find the sum of $n_ix_i$ and divide by $10$.
 
 ::solution
-$\bar x=\dfrac{3\cdot2+5\cdot6+2\cdot10}{10}=\dfrac{56}{10}=5.6$. Option B is the mean of the three midpoints, option C divides by $3$ instead of $10$, and option D uses the left endpoints.
+For grouped data, we take the midpoint of each class as its representative value. The representative values of the three classes $[0, 4)$, $[4, 8)$, $[8, 12)$ are $2$, $6$, $10$ respectively.
+
+Using the formula for the mean of grouped data, with sample size $n=10$, we have
+$$\bar x=\frac{3\cdot2+5\cdot6+2\cdot10}{10}=\frac{6+30+20}{10}=\frac{56}{10}=5.6.$$
+
+So the mean of the data is $5.6$. So the answer is **A**.
+
+*Remark.* Option B is the mean of the three midpoints; option C divides by $3$ instead of $10$; option D uses the left endpoints of the classes.
 
 **Answer.** A.
 :::
@@ -250,7 +257,17 @@ The test marks of $50$ students are given in the table. The median of the data (
 2. Substitute into the formula with $C=12$, $n_m=16$.
 
 ::solution
-$M_e=7+\dfrac{25-12}{16}\cdot1=7.8125\approx7.81$. Option C takes $C=28$ (including the median class), option D uses the frequency $14$ of the next class, and option B is just the midpoint of the class.
+The sample size is $n=50$, so $\dfrac n2=25$. The cumulative frequencies of the classes are
+$$4,\quad4+8=12,\quad12+16=28,\quad28+14=42,\quad42+8=50.$$
+
+The first class whose cumulative frequency is at least $25$ is $[7, 8)$, so it is the median class. We have $u_m=7$, the class frequency is $n_m=16$, the cumulative frequency of the classes before it is $C=12$, and the class width is $1$.
+
+Using the formula for the median of grouped data, we have
+$$M_e=u_m+\frac{\frac n2-C}{n_m}\cdot(u_{m+1}-u_m)=7+\frac{25-12}{16}\cdot1=7.8125\approx7.81.$$
+
+So the median of the data is approximately $7.81$. So the answer is **A**.
+
+*Remark.* Option C takes $C=28$ (including the median class); option D uses the frequency $14$ of the next class; option B is just the midpoint of the class.
 
 **Answer.** A.
 :::
@@ -274,13 +291,21 @@ d) The standard deviation of the data is $12.5$ kg.
 2. Cumulative frequencies $5$, $15$, $20$; $\dfrac n4=5$.
 
 ::solution
-a) **False.** The class with the highest frequency is $[50, 55)$.
+The sample size is $n=20$. The representative values of the three classes $[45, 50)$, $[50, 55)$, $[55, 60)$ are $47.5$, $52.5$, $57.5$ respectively.
 
-b) **True.** The first class with cumulative frequency $\ge5$ is $[45, 50)$: $Q_1=45+\dfrac{5-0}{5}\cdot5=50$.
+a) **False.** The class with the highest frequency is $[50, 55)$ (frequency $10$), so the mode of the data lies in the class $[50, 55)$, not in $[55, 60)$.
 
-c) **True.** $s^2=\dfrac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\dfrac{250}{20}=12.5$.
+b) **True.** We have $\dfrac n4=5$. The first class whose cumulative frequency is at least $5$ is $[45, 50)$, where the cumulative frequency of the classes before it is $0$ and the class frequency is $5$. Hence
+$$Q_1=45+\frac{5-0}{5}\cdot5=50.$$
 
-d) **False.** $s=\sqrt{12.5}\approx3.54$ kg.
+c) **True.** The mean is
+$$\bar x=\frac{5\cdot47.5+10\cdot52.5+5\cdot57.5}{20}=\frac{1050}{20}=52.5.$$
+The deviations of the representative values from the mean are $-5$, $0$, $5$. Hence the variance is
+$$s^2=\frac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\frac{250}{20}=12.5.$$
+
+d) **False.** The standard deviation is the square root of the variance: $s=\sqrt{12.5}\approx3.54$ kg, not $12.5$ kg (the number $12.5$ is the variance).
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -300,9 +325,18 @@ Find the interquartile range of the following grouped data (to 1 decimal place).
 2. Position $10$ is in $[10, 20)$ and position $30$ is in $[20, 30)$.
 
 ::solution
-$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14.17,\qquad Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28.67.$$
+The sample size is $n=5+12+15+8=40$. The cumulative frequencies of the classes are $5$, $17$, $32$, $40$.
 
-To avoid rounding errors, we subtract the fractions: $\Delta_Q=\dfrac{86}{3}-\dfrac{85}{6}=\dfrac{87}{6}=14.5$.
+First quartile: $\dfrac n4=10$. The first class whose cumulative frequency is at least $10$ is $[10, 20)$, where the cumulative frequency of the classes before it is $5$, the class frequency is $12$ and the class width is $10$. Hence
+$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14.17.$$
+
+Third quartile: $\dfrac{3n}{4}=30$. The first class whose cumulative frequency is at least $30$ is $[20, 30)$, where the cumulative frequency of the classes before it is $17$, the class frequency is $15$ and the class width is $10$. Hence
+$$Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28.67.$$
+
+The interquartile range is $\Delta_Q=Q_3-Q_1$. To avoid rounding errors, we subtract the fractions:
+$$\Delta_Q=\frac{86}{3}-\frac{85}{6}=\frac{172}{6}-\frac{85}{6}=\frac{87}{6}=14.5.$$
+
+So the interquartile range of the data is $14.5$.
 
 **Answer.** $14.5$.
 :::
@@ -320,7 +354,15 @@ $A$ and $B$ are independent events with $P(A)=0.4$ and $P(B)=0.5$. The probabili
 2. Substitute into the addition rule.
 
 ::solution
-$P(A\cap B)=0.2$, so $P(A\cup B)=0.4+0.5-0.2=0.7$. Option A treats $A$, $B$ as mutually exclusive; option B is $P(A\cap B)$; option D is $1-0.7$.
+Since the events $A$ and $B$ are independent,
+$$P(A\cap B)=P(A)\cdot P(B)=0.4\cdot0.5=0.2.$$
+
+Using the addition rule for probabilities, we have
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0.4+0.5-0.2=0.7.$$
+
+So $P(A\cup B)=0.7$. So the answer is **C**.
+
+*Remark.* Option A treats $A$, $B$ as mutually exclusive; option B is $P(A\cap B)$; option D is $1-0.7$.
 
 **Answer.** C.
 :::
@@ -336,7 +378,16 @@ A box holds $10$ cards, $4$ of which are red. Two cards are taken one after the 
 2. After one red card is taken, $3$ of the $9$ remaining cards are red.
 
 ::solution
-$P=\dfrac{4}{10}\cdot\dfrac39=\dfrac{2}{15}\approx0.133$.
+Let $A_1$ be the event "the first card taken is red" and $A_2$ the event "the second card taken is red". We need $P(A_1\cap A_2)$.
+
+The box has $10$ cards, $4$ of which are red, so $P(A_1)=\dfrac{4}{10}$.
+
+After a red card is taken (without replacement), $9$ cards remain, $3$ of which are red, so $P(A_2\mid A_1)=\dfrac39$.
+
+Using the multiplication rule for probabilities, we have
+$$P(A_1\cap A_2)=P(A_1)\cdot P(A_2\mid A_1)=\frac{4}{10}\cdot\frac39=\frac{2}{15}\approx0.133.$$
+
+So the probability that both cards are red is approximately $0.13$.
 
 **Answer.** $0.13$.
 :::
@@ -352,7 +403,16 @@ In a company's inbox, $30\%$ of the emails are spam. A filter marks $90\%$ of sp
 2. Divide the branch "spam and marked" by that result.
 
 ::solution
-$P(\text{marked})=0.27+0.035=0.305$, so $P(\text{spam}\mid\text{marked})=\dfrac{0.27}{0.305}\approx0.885$.
+Let $S$ be the event "the email is spam" and $M$ the event "the email is marked as spam". By the given information,
+$$P(S)=0.3,\quad P\left(\overline S\right)=0.7,\quad P(M\mid S)=0.9,\quad P\left(M\mid\overline S\right)=0.05.$$
+
+Using the law of total probability, we have
+$$P(M)=P(S)\cdot P(M\mid S)+P\left(\overline S\right)\cdot P\left(M\mid\overline S\right)=0.3\cdot0.9+0.7\cdot0.05=0.27+0.035=0.305.$$
+
+Using Bayes' theorem, the probability that an email marked "spam" really is spam is
+$$P(S\mid M)=\frac{P(S)\cdot P(M\mid S)}{P(M)}=\frac{0.27}{0.305}\approx0.885.$$
+
+So the probability that the email really is spam is approximately $0.89$.
 
 **Answer.** $0.89$.
 :::
@@ -368,7 +428,16 @@ In a city, the probability of rain on a given day is $0.3$. If it rains, the pro
 2. Use Bayes' theorem for "rain given late".
 
 ::solution
-$P(\text{late})=0.3\cdot0.4+0.7\cdot0.1=0.12+0.07=0.19$. Then $P(\text{rain}\mid\text{late})=\dfrac{0.12}{0.19}=\dfrac{12}{19}\approx0.63$.
+Let $R$ be the event "it rains on that day" and $L$ the event "Minh is late for school". By the given information,
+$$P(R)=0.3,\quad P\left(\overline R\right)=0.7,\quad P(L\mid R)=0.4,\quad P\left(L\mid\overline R\right)=0.1.$$
+
+The probability that Minh is late on a randomly chosen day: using the law of total probability, we have
+$$P(L)=P(R)\cdot P(L\mid R)+P\left(\overline R\right)\cdot P\left(L\mid\overline R\right)=0.3\cdot0.4+0.7\cdot0.1=0.12+0.07=0.19.$$
+
+The probability that it is raining today, given that Minh is late: using Bayes' theorem, we have
+$$P(R\mid L)=\frac{P(R)\cdot P(L\mid R)}{P(L)}=\frac{0.12}{0.19}=\frac{12}{19}\approx0.63.$$
+
+So the probability that Minh is late on a randomly chosen day is $0.19$; given that Minh is late today, the probability that it is raining today is approximately $0.63$.
 
 **Answer.** $0.19$ and about $0.63$.
 :::
@@ -388,7 +457,20 @@ Find the standard deviation of the following grouped data.
 2. Find the mean of the squares, subtract $\bar x^2$, then take the square root.
 
 ::solution
-$\bar x=\dfrac{12+40+42+18}{20}=5.6$. $\dfrac{4\cdot9+8\cdot25+6\cdot49+2\cdot81}{20}=\dfrac{692}{20}=34.6$, so $s^2=34.6-31.36=3.24$ and $s=1.8$.
+The sample size is $n=4+8+6+2=20$. The representative values of the four classes $[2, 4)$, $[4, 6)$, $[6, 8)$, $[8, 10)$ are $3$, $5$, $7$, $9$ respectively.
+
+The mean of the data is
+$$\bar x=\frac{4\cdot3+8\cdot5+6\cdot7+2\cdot9}{20}=\frac{12+40+42+18}{20}=\frac{112}{20}=5.6.$$
+
+Using the variance formula $s^2=\dfrac{\sum n_ix_i^2}{n}-\bar x^2$, we have
+$$\frac{4\cdot3^2+8\cdot5^2+6\cdot7^2+2\cdot9^2}{20}=\frac{36+200+294+162}{20}=\frac{692}{20}=34.6,$$
+so
+$$s^2=34.6-5.6^2=34.6-31.36=3.24.$$
+
+The standard deviation is the square root of the variance:
+$$s=\sqrt{3.24}=1.8.$$
+
+So the standard deviation of the data is $1.8$.
 
 **Answer.** $1.8$.
 :::
@@ -404,7 +486,16 @@ A shop buys components from three suppliers X, Y, Z in the proportions $50\%$, $
 2. Divide the branch for Z by $P(\text{faulty})$.
 
 ::solution
-$P(\text{faulty})=0.5\cdot0.01+0.3\cdot0.02+0.2\cdot0.03=0.005+0.006+0.006=0.017$. Then $P(Z\mid\text{faulty})=\dfrac{0.006}{0.017}\approx0.353$.
+Let $Z$ be the event "the component came from supplier Z", and define $X$, $Y$ similarly; let $F$ be the event "the component is faulty". By the given information,
+$$P(X)=0.5,\quad P(Y)=0.3,\quad P(Z)=0.2,\quad P(F\mid X)=0.01,\quad P(F\mid Y)=0.02,\quad P(F\mid Z)=0.03.$$
+
+The events $X$, $Y$, $Z$ are pairwise mutually exclusive and their probabilities add up to $1$. Using the law of total probability, we have
+$$P(F)=0.5\cdot0.01+0.3\cdot0.02+0.2\cdot0.03=0.005+0.006+0.006=0.017.$$
+
+Using Bayes' theorem, we have
+$$P(Z\mid F)=\frac{P(Z)\cdot P(F\mid Z)}{P(F)}=\frac{0.006}{0.017}\approx0.353.$$
+
+So the probability that the faulty component came from supplier Z is approximately $0.35$.
 
 **Answer.** $0.35$.
 :::

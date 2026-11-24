@@ -162,7 +162,18 @@ Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chia hết cho $3
 2. Tìm hợp, giao rồi chia cho $6$.
 
 ::solution
-$A=\{3,6\}$, $B=\{1,3,5\}$. Vậy $A\cup B=\{1,3,5,6\}$, $A\cap B=\{3\}$. Do đó $P(A\cup B)=\dfrac46=\dfrac23$ và $P(A\cap B)=\dfrac16$.
+Không gian mẫu là $\Omega=\{1,2,3,4,5,6\}$ gồm $6$ kết quả đồng khả năng.
+
+Biến cố $A$: "số chấm chia hết cho $3$" nên $A=\{3,6\}$. Biến cố $B$: "số chấm lẻ" nên $B=\{1,3,5\}$.
+
+Biến cố hợp $A\cup B$ là biến cố "số chấm chia hết cho $3$ hoặc là số lẻ", gồm các kết quả thuộc ít nhất một trong hai tập: $A\cup B=\{1,3,5,6\}$.
+
+Biến cố giao $A\cap B$ là biến cố "số chấm vừa chia hết cho $3$ vừa là số lẻ", gồm các kết quả thuộc cả hai tập: $A\cap B=\{3\}$.
+
+Do đó $n(A\cup B)=4$ và $n(A\cap B)=1$, suy ra
+$$P(A\cup B)=\frac46=\frac23,\qquad P(A\cap B)=\frac16.$$
+
+Vậy $P(A\cup B)=\dfrac23$ và $P(A\cap B)=\dfrac16$.
 
 **Đáp số.** $\dfrac23$ và $\dfrac16$.
 :::
@@ -178,7 +189,19 @@ Rút ngẫu nhiên một lá từ bộ bài tây $52$ lá. Gọi $A$: "lá bích
 2. Đếm giao: các lá J, Q, K bích.
 
 ::solution
-$n(A\cap B)=3$ (J, Q, K bích) nên $n(A\cup B)=13+12-3=22$. Vậy $P(A\cup B)=\dfrac{22}{52}=\dfrac{11}{26}$ và $P(A\cap B)=\dfrac3{52}$.
+Bộ bài tây có $52$ lá, mỗi lá được rút với khả năng như nhau, nên $n(\Omega)=52$.
+
+Biến cố $A$: "lá bích" có $n(A)=13$. Biến cố $B$: "lá J, Q hoặc K" có $n(B)=3\cdot4=12$ lá (mỗi quân có $4$ chất).
+
+Biến cố giao $A\cap B$ là "lá bích và là J, Q hoặc K", gồm J bích, Q bích, K bích, nên $n(A\cap B)=3$.
+
+Áp dụng công thức cộng, ta có
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=13+12-3=22.$$
+
+Do đó
+$$P(A\cup B)=\frac{22}{52}=\frac{11}{26},\qquad P(A\cap B)=\frac{3}{52}.$$
+
+Vậy $P(A\cup B)=\dfrac{11}{26}$ và $P(A\cap B)=\dfrac3{52}$.
 
 **Đáp số.** $\dfrac{11}{26}$ và $\dfrac3{52}$.
 :::
@@ -194,7 +217,20 @@ Tung một đồng xu cân đối ba lần. Gọi $A$: "có ít nhất hai mặt
 2. Tìm hợp và giao.
 
 ::solution
-$A=\{NNN,NNS,NSN,SNN\}$, $B=\{SNN,SNS,SSN,SSS\}$. Giao $A\cap B=\{SNN\}$ và hợp có $4+4-1=7$ kết quả. Vậy $P(A\cup B)=\dfrac78$ và $P(A\cap B)=\dfrac18$.
+Kí hiệu $N$ là mặt ngửa, $S$ là mặt sấp. Tung đồng xu cân đối ba lần có $2^3=8$ kết quả đồng khả năng.
+
+Biến cố $A$: "có ít nhất hai mặt ngửa" nên $A=\{NNN,NNS,NSN,SNN\}$, có $4$ kết quả.
+
+Biến cố $B$: "lần đầu ra mặt sấp" nên $B=\{SNN,SNS,SSN,SSS\}$, có $4$ kết quả.
+
+Kết quả thuộc cả $A$ và $B$ chỉ có $SNN$, nên $A\cap B=\{SNN\}$ và $n(A\cap B)=1$.
+
+Số kết quả của $A\cup B$ là $n(A\cup B)=4+4-1=7$.
+
+Do đó
+$$P(A\cup B)=\frac78,\qquad P(A\cap B)=\frac18.$$
+
+Vậy $P(A\cup B)=\dfrac78$ và $P(A\cap B)=\dfrac18$.
 
 **Đáp số.** $\dfrac78$ và $\dfrac18$.
 :::
@@ -218,13 +254,15 @@ d) Biến cố $A\cup B$ chỉ xảy ra khi cả $A$ và $B$ cùng xảy ra.
 2. Phân biệt xung khắc và độc lập.
 
 ::solution
-a) **Đúng** theo định nghĩa.
+a) **Đúng.** Theo định nghĩa, biến cố hợp $A\cup B$ xảy ra khi và chỉ khi ít nhất một trong hai biến cố $A$, $B$ xảy ra.
 
-b) **Sai**: xung khắc có $P(AB)=0$, thường khác $P(A)P(B)$.
+b) **Sai.** Nếu $A\cap B=\varnothing$ (hai biến cố xung khắc) thì $P(AB)=0$. Hai biến cố độc lập khi $P(AB)=P(A)P(B)$; nếu $P(A)>0$ và $P(B)>0$ thì $P(A)P(B)>0$, khác $P(AB)=0$. Chẳng hạn, gieo một con xúc xắc cân đối với $A=\{1\}$, $B=\{2\}$: $A\cap B=\varnothing$ nhưng $P(AB)=0\ne\dfrac1{36}=P(A)P(B)$.
 
-c) **Đúng** theo định nghĩa.
+c) **Đúng.** Theo định nghĩa, hai biến cố $A$ và $B$ độc lập khi $P(AB)=P(A)\,P(B)$.
 
-d) **Sai**: đó là biến cố giao.
+d) **Sai.** Biến cố $A\cup B$ xảy ra khi ít nhất một trong hai biến cố xảy ra, không nhất thiết cả hai cùng xảy ra. Biến cố "cả $A$ và $B$ cùng xảy ra" là biến cố giao $A\cap B$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -240,7 +278,15 @@ Giả sử hai xạ thủ bắn độc lập vào cùng một bia, xác suất b
 2. Tính $P(\overline A)$, $P(\overline B)$ rồi nhân.
 
 ::solution
-$P(AB)=0{,}8\cdot0{,}7=0{,}56$. Cả hai trượt: $P(\overline A\,\overline B)=0{,}2\cdot0{,}3=0{,}06$.
+Gọi $A$ là biến cố "người thứ nhất bắn trúng" và $B$ là biến cố "người thứ hai bắn trúng". Theo đề, $P(A)=0{,}8$, $P(B)=0{,}7$ và hai biến cố $A$, $B$ độc lập.
+
+Cả hai cùng bắn trúng là biến cố $AB$. Vì $A$, $B$ độc lập nên
+$$P(AB)=P(A)\,P(B)=0{,}8\cdot0{,}7=0{,}56.$$
+
+Cả hai cùng bắn trượt là biến cố $\overline A\,\overline B$. Ta có $P(\overline A)=1-0{,}8=0{,}2$ và $P(\overline B)=1-0{,}7=0{,}3$. Vì $A$, $B$ độc lập nên $\overline A$, $\overline B$ cũng độc lập, do đó
+$$P(\overline A\,\overline B)=P(\overline A)\,P(\overline B)=0{,}2\cdot0{,}3=0{,}06.$$
+
+Vậy xác suất cả hai cùng bắn trúng là $0{,}56$ và xác suất cả hai cùng bắn trượt là $0{,}06$.
 
 **Đáp số.** $0{,}56$ và $0{,}06$.
 :::
@@ -256,7 +302,17 @@ Gieo một con xúc xắc cân đối hai lần. Gọi $A$: "tổng hai lần b�
 2. Tìm giao: chỉ có $(1,6)$.
 
 ::solution
-$P(A)=\dfrac16$, $P(B)=\dfrac16$, $A\cap B=\{(1,6)\}$ nên $P(AB)=\dfrac1{36}=P(A)P(B)$. Vậy hai biến cố độc lập.
+Gieo xúc xắc cân đối hai lần có $6\cdot6=36$ kết quả đồng khả năng, mỗi kết quả là một cặp $(i; j)$ với $i$ là số chấm lần đầu, $j$ là số chấm lần hai.
+
+Biến cố $A$: "tổng hai lần bằng $7$" gồm $6$ kết quả $(1; 6)$, $(2; 5)$, $(3; 4)$, $(4; 3)$, $(5; 2)$, $(6; 1)$, nên $P(A)=\dfrac{6}{36}=\dfrac16$.
+
+Biến cố $B$: "lần thứ hai ra $6$ chấm" gồm $6$ kết quả $(1; 6)$, $(2; 6)$, $\ldots$, $(6; 6)$, nên $P(B)=\dfrac{6}{36}=\dfrac16$.
+
+Kết quả thuộc cả $A$ và $B$ chỉ có $(1; 6)$, nên $A\cap B=\{(1; 6)\}$ và $P(AB)=\dfrac1{36}$.
+
+Ta có $P(A)\,P(B)=\dfrac16\cdot\dfrac16=\dfrac1{36}=P(AB)$.
+
+Vậy hai biến cố $A$ và $B$ độc lập.
 
 **Đáp số.** Có, hai biến cố độc lập.
 :::
@@ -272,7 +328,18 @@ Giả sử trong một lớp $30$ học sinh có $18$ bạn học cờ vua, $12$
 2. Dùng biến cố đối.
 
 ::solution
-Số bạn học ít nhất một môn là $18+12-5=25$ nên xác suất là $\dfrac{25}{30}=\dfrac56$. Xác suất không học môn nào là $1-\dfrac56=\dfrac16$.
+Gọi $A$ là biến cố "bạn được chọn học cờ vua" và $B$ là biến cố "bạn được chọn học nhạc". Theo đề, $n(A)=18$, $n(B)=12$, $n(A\cap B)=5$ và $n(\Omega)=30$.
+
+Biến cố "học ít nhất một trong hai môn" là $A\cup B$. Áp dụng công thức cộng, số bạn học ít nhất một môn là
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=18+12-5=25.$$
+
+Do đó
+$$P(A\cup B)=\frac{25}{30}=\frac56.$$
+
+Biến cố "không học môn nào" là biến cố đối của $A\cup B$, nên
+$$P\left(\overline{A\cup B}\right)=1-P(A\cup B)=1-\frac56=\frac16.$$
+
+Vậy xác suất bạn đó học ít nhất một trong hai môn là $\dfrac56$ và xác suất bạn đó không học môn nào là $\dfrac16$.
 
 **Đáp số.** $\dfrac56$ và $\dfrac16$.
 :::
@@ -288,7 +355,15 @@ Số bạn học ít nhất một môn là $18+12-5=25$ nên xác suất là $\d
 2. Nhân hai xác suất.
 
 ::solution
-Mỗi lần xác suất lá cơ là $\dfrac{13}{52}=\dfrac14$. Hai lần độc lập nên xác suất cần tìm là $\dfrac14\cdot\dfrac14=\dfrac1{16}$.
+Gọi $A_1$ là biến cố "lần rút thứ nhất được lá cơ" và $A_2$ là biến cố "lần rút thứ hai được lá cơ".
+
+Bộ bài có $52$ lá, trong đó có $13$ lá cơ. Mỗi lần rút xong đều trả lá bài về bộ nên bộ bài luôn đủ $52$ lá, và kết quả lần rút thứ hai không phụ thuộc lần thứ nhất. Do đó $A_1$ và $A_2$ độc lập và
+$$P(A_1)=P(A_2)=\frac{13}{52}=\frac14.$$
+
+Cả hai lần đều rút được lá cơ là biến cố $A_1A_2$, nên
+$$P(A_1A_2)=P(A_1)\,P(A_2)=\frac14\cdot\frac14=\frac1{16}.$$
+
+Vậy xác suất cả hai lần đều rút được lá cơ là $\dfrac1{16}$.
 
 **Đáp số.** $\dfrac1{16}$.
 :::
@@ -304,7 +379,15 @@ Chứng minh rằng nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ c�
 2. Thay $P(AB)=P(A)P(B)$.
 
 ::solution
-Ta có $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overline B)$. Vậy $A$ và $\overline B$ độc lập.
+Giả sử $A$ và $B$ độc lập, tức là $P(AB)=P(A)\,P(B)$. Ta cần chứng minh $P(A\overline B)=P(A)\,P(\overline B)$.
+
+Biến cố $A$ là hợp của hai biến cố xung khắc $AB$ và $A\overline B$ (tuỳ theo $B$ xảy ra hay không), nên
+$$P(A)=P(AB)+P(A\overline B),\ \text{suy ra}\ P(A\overline B)=P(A)-P(AB).$$
+
+Thay $P(AB)=P(A)\,P(B)$ vào, ta được
+$$\begin{aligned}P(A\overline B)&=P(A)-P(A)\,P(B)\\&=P(A)\,\bigl(1-P(B)\bigr)\\&=P(A)\,P(\overline B).\end{aligned}$$
+
+Vậy nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ cũng độc lập.
 
 **Đáp số.** Đã chứng minh.
 :::

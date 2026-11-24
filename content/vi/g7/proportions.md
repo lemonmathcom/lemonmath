@@ -355,13 +355,19 @@ Cho $\dfrac ab=\dfrac cd$ ($b\neq0$, $d\neq0$). Chứng minh rằng $\dfrac{a+b}
 2. Tách vế phải thành $\dfrac cd+1$ rồi dùng giả thiết.
 
 ::solution
-Ta có $\dfrac{a+b}b=\dfrac ab+\dfrac bb=\dfrac ab+1$ và $\dfrac{c+d}d=\dfrac cd+\dfrac dd=\dfrac cd+1$.
+Ta biến đổi từng vế của đẳng thức cần chứng minh.
 
-Vì $\dfrac ab=\dfrac cd$ (giả thiết) nên $\dfrac ab+1=\dfrac cd+1$.
+Vì $b\neq0$ nên
+$$\frac{a+b}{b}=\frac ab+\frac bb=\frac ab+1.$$
 
-Do đó $\dfrac{a+b}b=\dfrac{c+d}d$.
+Vì $d\neq0$ nên
+$$\frac{c+d}{d}=\frac cd+\frac dd=\frac cd+1.$$
 
-Vậy điều cần chứng minh đã được chứng minh.
+Theo giả thiết, $\dfrac ab=\dfrac cd$. Cộng $1$ vào cả hai vế, ta được $\dfrac ab+1=\dfrac cd+1$.
+
+Do đó $\dfrac{a+b}{b}=\dfrac{c+d}{d}$.
+
+Vậy $\dfrac{a+b}{b}=\dfrac{c+d}{d}$.
 
 **Đáp số.** $\dfrac{a+b}b=\dfrac{c+d}d$.
 :::

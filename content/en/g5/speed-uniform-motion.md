@@ -157,8 +157,15 @@ A motorbike travels $135$ km in $3$ hours. Find its speed.
 2. Divide the distance by the time.
 
 ::solution
+Solution
+
+To find the speed, we divide the distance by the time: $v=s\div t$.
+
 The speed of the motorbike is:
-$$135\div3=45\ (\text{km/h}).$$
+$$135\div3=45\ \text{(km/h)}$$
+
+So the speed of the motorbike is $45$ km/h.
+
 **Answer.** $45$ km/h.
 :::
 
@@ -173,7 +180,15 @@ A snail crawls $3$ m in $5$ minutes. Find the snail's speed in m/min.
 2. Write the unit m/min.
 
 ::solution
-$$v=3\div5=0.6\ (\text{m/min}).$$
+Solution
+
+Speed equals distance divided by time. The distance is in metres and the time is in minutes, so the unit of speed is m/min.
+
+The speed of the snail is:
+$$3\div5=0.6\ \text{(m/min)}$$
+
+So the speed of the snail is $0.6$ m/min.
+
 **Answer.** $0.6$ m/min.
 :::
 
@@ -189,8 +204,17 @@ A car travels at $54$ km/h for $2.5$ hours. Find the distance it travels.
 3. Check: $54\times2=108$, and half an hour more is $27$ km.
 
 ::solution
+Solution
+
+To find the distance, we multiply the speed by the time: $s=v\times t$.
+
 The distance the car travels is:
-$$54\times2.5=135\ (\text{km}).$$
+$$54\times2.5=135\ \text{(km)}$$
+
+Check: $54\times2=108$ and $54\times0.5=27$, and $108+27=135$, which is correct.
+
+So the car travels $135$ km.
+
 **Answer.** $135$ km.
 :::
 
@@ -205,7 +229,16 @@ A walker goes at $5$ km/h. How long does the walker take to cover $12$ km? (Give
 2. Change the decimal part of the hour to minutes.
 
 ::solution
-The time is $12\div5=2.4$ (hours). Since $0.4\times60=24$, $2.4$ hours $=2$ hours $24$ minutes.
+Solution
+
+To find the time, we divide the distance by the speed: $t=s\div v$.
+
+The time the walker takes is:
+$$12\div5=2.4\ \text{(hours)}$$
+
+We convert the decimal part to minutes: $0.4$ hours $=0.4\times60=24$ minutes. So $2.4$ hours $=2$ hours $24$ minutes.
+
+So the walker takes $2$ hours $24$ minutes to cover $12$ km.
 
 **Answer.** $2$ hours $24$ minutes.
 :::
@@ -221,8 +254,18 @@ A fishing boat travels at $18$ km/h from $6{:}00$ to $8{:}30$. How many kilometr
 2. Multiply by the speed.
 
 ::solution
-The travelling time is $8$ h $30$ min $-$ $6$ h $=2$ h $30$ min $=2.5$ h. The distance is:
-$$18\times2.5=45\ (\text{km}).$$
+Solution
+
+The travelling time of the boat is:
+$$8\ \text{h}\ 30\ \text{min}-6\ \text{h}=2\ \text{h}\ 30\ \text{min}$$
+
+Convert $2$ h $30$ min $=2.5$ h.
+
+The distance the boat travels is:
+$$18\times2.5=45\ \text{(km)}$$
+
+So the boat travels $45$ km.
+
 **Answer.** $45$ km.
 :::
 
@@ -238,8 +281,17 @@ A motorcyclist covers $100$ km in $2$ hours $30$ minutes. Find the speed of the 
 3. Check: does $40\times2.5$ equal $100$?
 
 ::solution
-We have $2$ h $30$ min $=2.5$ h. The speed is:
-$$100\div2.5=40\ (\text{km/h}).$$
+Solution
+
+Convert $2$ h $30$ min $=2.5$ h.
+
+The speed of the motorcyclist is:
+$$100\div2.5=40\ \text{(km/h)}$$
+
+Check: $40\times2.5=100$ km, which matches the distance in the problem.
+
+So the speed of the motorcyclist is $40$ km/h.
+
 **Answer.** $40$ km/h.
 :::
 
@@ -254,8 +306,20 @@ Remember the lesson on adding and subtracting times. A vehicle leaves at $7{:}45
 2. Find the distance, then the arrival time.
 
 ::solution
-The distance AB is $48\times2.5=120$ (km). The vehicle arrives at:
-$$7\text{ h }45\text{ min}+2\text{ h }30\text{ min}=9\text{ h }75\text{ min}=10\text{ h }15\text{ min}.$$
+Solution
+
+Convert $2$ h $30$ min $=2.5$ h.
+
+The distance AB is:
+$$48\times2.5=120\ \text{(km)}$$
+
+The vehicle arrives at B at:
+$$7\ \text{h}\ 45\ \text{min}+2\ \text{h}\ 30\ \text{min}=9\ \text{h}\ 75\ \text{min}$$
+
+Since $75$ min $=1$ h $15$ min, we have $9$ h $75$ min $=10$ h $15$ min.
+
+So the distance AB is $120$ km and the vehicle arrives at B at $10{:}15$.
+
 **Answer.** $120$ km; $10{:}15$.
 :::
 
@@ -270,7 +334,20 @@ Car A travels $120$ km in $3$ hours. Car B travels $150$ km in $4$ hours. Which 
 2. Compare, then find the difference.
 
 ::solution
-The speed of car A is $120\div3=40$ (km/h). The speed of car B is $150\div4=37.5$ (km/h). Since $40>37.5$, car A is faster, by $40-37.5=2.5$ (km/h).
+Solution
+
+The speed of car A is:
+$$120\div3=40\ \text{(km/h)}$$
+
+The speed of car B is:
+$$150\div4=37.5\ \text{(km/h)}$$
+
+Since $40>37.5$, car A is faster than car B.
+
+The difference in speed is:
+$$40-37.5=2.5\ \text{(km/h)}$$
+
+So car A is faster than car B, by $2.5$ km/h.
 
 **Answer.** Car A is faster, by $2.5$ km/h.
 :::
@@ -286,9 +363,17 @@ An cycles from home to school at $12$ km/h and takes $20$ minutes. Binh walks fr
 2. Find Binh's time using $t=s\div v$.
 
 ::solution
-Since $20$ min $=\dfrac13$ hour, the distance from home to school is:
-$$12\times\frac13=4\ (\text{km}).$$
-Binh's time is $4\div4=1$ (hour).
+Solution
+
+Convert $20$ min $=\dfrac13$ hour.
+
+The distance from home to school is:
+$$12\times\frac13=4\ \text{(km)}$$
+
+Binh walks the same distance of $4$ km at $4$ km/h, so Binh's time is:
+$$4\div4=1\ \text{(hour)}$$
+
+So Binh takes $1$ hour to get from home to school.
 
 **Answer.** $1$ hour.
 :::
@@ -304,7 +389,14 @@ A girl runs at $5$ m/s. If she keeps this speed, how many kilometres does she ru
 2. Change metres to kilometres.
 
 ::solution
-In $1$ hour $=3600$ seconds she runs $5\times3600=18\,000$ (m) $=18$ (km). So $5$ m/s $=18$ km/h.
+Solution
+
+There are $3\,600$ seconds in one hour. At a speed of $5$ m/s, in $1$ hour she runs:
+$$5\times3\,600=18\,000\ \text{(m)}$$
+
+Convert $18\,000$ m $=18$ km.
+
+So she runs $18$ km in one hour, that is, $5$ m/s $=18$ km/h.
 
 **Answer.** $18$ km; $5$ m/s $=18$ km/h.
 :::

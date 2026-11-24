@@ -334,13 +334,17 @@ d) $BC=NP$ và $AC=MN$.
 2. Ở câu d), $AC=MN$ cho biết $C$ ứng với $N$.
 
 ::solution
-a) $AB$, $MN$ là cạnh góc vuông kề góc nhọn $B$, $N$: $\triangle ABC=\triangle MNP$ (cạnh góc vuông – góc nhọn kề).
+Hai tam giác $ABC$ (vuông tại $A$) và $MNP$ (vuông tại $M$) đã có một cặp góc vuông bằng nhau: $\widehat A=\widehat M=90^\circ$. Ta xét từng điều kiện.
 
-b) $BC$, $NP$ là cạnh huyền và $\widehat C=\widehat P$ là góc nhọn: $\triangle ABC=\triangle MNP$ (cạnh huyền – góc nhọn).
+a) $AB$ và $MN$ là hai cạnh góc vuông, lần lượt kề với các góc nhọn $\widehat B$ và $\widehat N$. Ta có $AB=MN$ và $\widehat B=\widehat N$. Theo trường hợp cạnh góc vuông – góc nhọn kề (g.c.g), hai tam giác bằng nhau. Các đỉnh ứng nhau là $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$, nên $\triangle ABC=\triangle MNP$.
 
-c) Chỉ có hai cặp góc nhọn bằng nhau nên chưa đủ để kết luận.
+b) $BC$ và $NP$ là hai cạnh huyền, còn $\widehat C=\widehat P$ là hai góc nhọn tương ứng. Theo trường hợp cạnh huyền – góc nhọn, hai tam giác bằng nhau. Các đỉnh ứng nhau là $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$, nên $\triangle ABC=\triangle MNP$.
 
-d) $BC=NP$ là cạnh huyền, $AC=MN$ là cạnh góc vuông, do đó hai tam giác bằng nhau (cạnh huyền – cạnh góc vuông). Vì $AC=MN$ nên $C$ ứng với $N$, suy ra $B$ ứng với $P$; vậy $\triangle ABC=\triangle MPN$.
+c) Ta chỉ có hai cặp góc nhọn bằng nhau, không có cặp cạnh nào bằng nhau. Hai tam giác vuông có các góc bằng nhau vẫn có thể có kích thước khác nhau, nên chưa đủ điều kiện để kết luận hai tam giác bằng nhau.
+
+d) $BC$ và $NP$ là hai cạnh huyền, $AC$ và $MN$ là hai cạnh góc vuông. Theo trường hợp cạnh huyền – cạnh góc vuông, hai tam giác bằng nhau. Vì $AC=MN$ nên đỉnh $C$ ứng với $N$; vì $A$ ứng với $M$ nên $B$ ứng với $P$. Do đó $\triangle ABC=\triangle MPN$.
+
+Vậy ở a) và b), hai tam giác bằng nhau và $\triangle ABC=\triangle MNP$; ở c) chưa đủ điều kiện; ở d) hai tam giác bằng nhau và $\triangle ABC=\triangle MPN$.
 
 **Đáp số.** a) g.c.g, $\triangle ABC=\triangle MNP$. b) Cạnh huyền – góc nhọn, $\triangle ABC=\triangle MNP$. c) Chưa đủ. d) Cạnh huyền – cạnh góc vuông, $\triangle ABC=\triangle MPN$.
 :::

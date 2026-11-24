@@ -183,8 +183,15 @@ Find the lateral surface area of a cube with edge $4$ cm.
 2. Multiply the result by $4$.
 
 ::solution
-The area of one face is $4\times4=16\ (\text{cm}^2)$. The lateral surface area is:
-$$16\times4=64\ (\text{cm}^2).$$
+Solution
+
+The lateral surface area of a cube is the total area of its $4$ side faces. The area of one face is:
+$$4\times4=16\ (\text{cm}^2)$$
+
+The lateral surface area of the cube is:
+$$16\times4=64\ (\text{cm}^2)$$
+
+So the lateral surface area of the cube is $64\ \text{cm}^2$.
 
 **Answer.** $64\ \text{cm}^2$.
 :::
@@ -200,8 +207,15 @@ Find the total surface area of a cube with edge $7$ cm.
 2. Multiply the result by $6$.
 
 ::solution
-The area of one face is $7\times7=49\ (\text{cm}^2)$. The total surface area is:
-$$49\times6=294\ (\text{cm}^2).$$
+Solution
+
+The total surface area of a cube is the total area of its $6$ faces. The area of one face is:
+$$7\times7=49\ (\text{cm}^2)$$
+
+The total surface area of the cube is:
+$$49\times6=294\ (\text{cm}^2)$$
+
+So the total surface area of the cube is $294\ \text{cm}^2$.
 
 **Answer.** $294\ \text{cm}^2$.
 :::
@@ -221,11 +235,18 @@ b) the total surface area.
 2. Multiply by $4$ in part a) and by $6$ in part b).
 
 ::solution
-The area of one face is $0.5\times0.5=0.25\ (\text{m}^2)$.
+Solution
 
-a) $S_{\text{lat}}=0.25\times4=1\ (\text{m}^2)$.
+The area of one face of the cube is:
+$$0.5\times0.5=0.25\ (\text{m}^2)$$
 
-b) $S_{\text{total}}=0.25\times6=1.5\ (\text{m}^2)$.
+a) The lateral surface area consists of $4$ side faces, so
+$$S_{\text{lat}}=0.25\times4=1\ (\text{m}^2).$$
+
+b) The total surface area consists of $6$ faces, so
+$$S_{\text{total}}=0.25\times6=1.5\ (\text{m}^2).$$
+
+So the lateral surface area is $1\ \text{m}^2$ and the total surface area is $1.5\ \text{m}^2$.
 
 **Answer.** a) $1\ \text{m}^2$; b) $1.5\ \text{m}^2$.
 :::
@@ -241,8 +262,12 @@ Each face of a cube-shaped dice has an area of $9\ \text{cm}^2$. Find the total 
 2. Multiply the area of one face by $6$, then check.
 
 ::solution
-The dice has $6$ equal faces, so:
-$$S_{\text{total}}=9\times6=54\ (\text{cm}^2).$$
+Solution
+
+The cube-shaped dice has $6$ equal faces, each with area $9\ \text{cm}^2$. The total surface area of the dice is:
+$$S_{\text{total}}=9\times6=54\ (\text{cm}^2)$$
+
+So the total surface area of the dice is $54\ \text{cm}^2$.
 
 **Answer.** $54\ \text{cm}^2$.
 :::
@@ -258,8 +283,15 @@ Lan covers the whole of a cube-shaped gift box with paper (ignoring any overlap)
 2. Work out $12\times12$, then multiply by $6$.
 
 ::solution
-The area of one face is $12\times12=144\ (\text{cm}^2)$. The paper needed is:
-$$144\times6=864\ (\text{cm}^2).$$
+Solution
+
+Lan covers the whole gift box with paper, so the area of paper needed equals the total surface area of the cube. The area of one face is:
+$$12\times12=144\ (\text{cm}^2)$$
+
+The area of paper needed is:
+$$144\times6=864\ (\text{cm}^2)$$
+
+So Lan needs $864\ \text{cm}^2$ of paper.
 
 **Answer.** $864\ \text{cm}^2$.
 :::
@@ -275,8 +307,15 @@ Lan paints the $4$ side faces of a cube-shaped block of wood with edge $15$ cm; 
 2. Work out $15\times15$, then multiply by $4$.
 
 ::solution
-The area of one face is $15\times15=225\ (\text{cm}^2)$. The painted area is:
-$$225\times4=900\ (\text{cm}^2).$$
+Solution
+
+Lan paints only the $4$ side faces, so the painted area equals the lateral surface area of the cube. The area of one face is:
+$$15\times15=225\ (\text{cm}^2)$$
+
+The painted area is:
+$$225\times4=900\ (\text{cm}^2)$$
+
+So the painted area is $900\ \text{cm}^2$.
 
 **Answer.** $900\ \text{cm}^2$.
 :::
@@ -293,11 +332,27 @@ Remember the last lesson. Cuboid $A$ is $8$ cm long, $5$ cm wide and $4$ cm high
 3. Compare the two results, then subtract.
 
 ::solution
-Cuboid $A$: the perimeter of the base is $(8+5)\times2=26\ (\text{cm})$, so $S_{\text{lat}}=26\times4=104\ (\text{cm}^2)$. One base has area $8\times5=40\ (\text{cm}^2)$, so $S_{\text{total}}=104+40\times2=184\ (\text{cm}^2)$.
+Solution
 
-Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
+Cuboid $A$. The perimeter of the base is:
+$$(8+5)\times2=26\ (\text{cm})$$
 
-Since $216>184$, cube $B$ is larger, and $216-184=32\ (\text{cm}^2)$.
+The lateral surface area is:
+$$S_{\text{lat}}=26\times4=104\ (\text{cm}^2)$$
+
+The area of one base is:
+$$8\times5=40\ (\text{cm}^2)$$
+
+The total surface area of cuboid $A$ is:
+$$S_{\text{total}}=104+40\times2=184\ (\text{cm}^2)$$
+
+Cube $B$. The total surface area is:
+$$S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$$
+
+Comparing: $216>184$, so the total surface area of cube $B$ is larger. The difference is:
+$$216-184=32\ (\text{cm}^2)$$
+
+So cube $B$ has the larger total surface area, by $32\ \text{cm}^2$.
 
 **Answer.** Cube $B$ is larger, by $32\ \text{cm}^2$.
 :::
@@ -314,11 +369,20 @@ Cube $A$ has an edge of $3$ cm. Cube $B$ has an edge of $6$ cm, twice the edge o
 3. Divide the area of $B$ by the area of $A$.
 
 ::solution
-Cube $A$: $S_{\text{total}}=3\times3\times6=54\ (\text{cm}^2)$.
+Solution
 
-Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
+Cube $A$ has edge $3$ cm, so its total surface area is:
+$$S_{\text{total}}=3\times3\times6=54\ (\text{cm}^2)$$
 
-We have $216\div54=4$. The edge is doubled but the area is $4$ times as large, because the area of each face is the edge times the edge.
+Cube $B$ has edge $6$ cm, so its total surface area is:
+$$S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$$
+
+The number of times the total surface area of $B$ is as large as that of $A$ is:
+$$216\div54=4$$
+
+Remark: the edge is doubled but the area is $4$ times as large, because the area of each face is the edge times the edge.
+
+So the total surface area of $B$ is $4$ times as large as that of $A$.
 
 **Answer.** $4$ times as large.
 :::

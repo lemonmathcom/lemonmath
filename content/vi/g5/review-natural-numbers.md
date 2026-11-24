@@ -166,7 +166,15 @@ Viết số: tám triệu bốn trăm linh năm nghìn hai trăm ba mươi.
 2. Chú ý chữ số $0$ cho hàng không có.
 
 ::solution
-Tám triệu là $8$; bốn trăm linh năm nghìn là $405$ nghìn; hai trăm ba mươi là $230$.
+Bài giải
+
+Ta tách số thành ba lớp, từ trái sang phải: lớp triệu, lớp nghìn, lớp đơn vị.
+
+Tám triệu viết là $8$. Bốn trăm linh năm nghìn viết là $405$ nghìn. Hai trăm ba mươi viết là $230$.
+
+Ghép ba lớp theo thứ tự trên, ta được số $8\,405\,230$.
+
+Vậy số cần viết là $8\,405\,230$.
 
 **Đáp số.** $8\,405\,230$.
 :::
@@ -182,7 +190,14 @@ Nêu giá trị của chữ số $7$ trong số $3\,571\,092$.
 2. Viết giá trị của nó.
 
 ::solution
-Số $3\,571\,092$ có chữ số $7$ ở hàng chục nghìn.
+Bài giải
+
+Đọc các hàng của số $3\,571\,092$ từ trái sang phải: chữ số $3$ ở hàng triệu, chữ số $5$ ở hàng trăm nghìn, chữ số $7$ ở hàng chục nghìn, chữ số $1$ ở hàng nghìn, chữ số $0$ ở hàng trăm, chữ số $9$ ở hàng chục, chữ số $2$ ở hàng đơn vị.
+
+Chữ số $7$ ở hàng chục nghìn nên giá trị của nó là:
+$$7\times10\,000=70\,000$$
+
+Vậy giá trị của chữ số $7$ trong số $3\,571\,092$ là $70\,000$.
 
 **Đáp số.** Giá trị của chữ số $7$ là $70\,000$.
 :::
@@ -198,7 +213,19 @@ Số $3\,571\,092$ có chữ số $7$ ở hàng chục nghìn.
 2. Dừng ở cặp chữ số khác nhau đầu tiên.
 
 ::solution
-Hai số đều có $7$ chữ số. Hàng triệu: $3=3$. Hàng trăm nghìn: $5=5$. Hàng chục nghìn: $7>1$.
+Bài giải
+
+Hai số $3\,571\,092$ và $3\,517\,920$ đều có $7$ chữ số, nên ta so sánh từng cặp chữ số cùng hàng, từ trái sang phải.
+
+Hàng triệu: $3=3$.
+
+Hàng trăm nghìn: $5=5$.
+
+Hàng chục nghìn: $7>1$.
+
+Đến hàng chục nghìn thì hai chữ số khác nhau và $7>1$, nên số thứ nhất lớn hơn số thứ hai.
+
+Vậy $3\,571\,092>3\,517\,920$.
 
 **Đáp số.** $3\,571\,092>3\,517\,920$.
 :::
@@ -214,7 +241,17 @@ Sắp xếp các số $45\,720$; $45\,270$; $54\,027$; $5\,472$ theo thứ tự 
 2. So sánh các số còn lại, từ trái sang phải.
 
 ::solution
-Số $5\,472$ có $4$ chữ số nên bé nhất. Trong các số có $5$ chữ số: $45\,270<45\,720<54\,027$.
+Bài giải
+
+Trong bốn số, số $5\,472$ có $4$ chữ số, còn ba số kia đều có $5$ chữ số. Số có ít chữ số hơn thì bé hơn, nên $5\,472$ là số bé nhất.
+
+Ta so sánh ba số có $5$ chữ số $45\,720$; $45\,270$; $54\,027$.
+
+Hàng chục nghìn: $4$, $4$ và $5$. Số $54\,027$ có chữ số hàng chục nghìn lớn nhất nên là số lớn nhất.
+
+Hai số $45\,720$ và $45\,270$ có cùng hai chữ số đầu. Hàng trăm: $2<7$, nên $45\,270<45\,720$.
+
+Vậy các số xếp từ bé đến lớn là $5\,472$; $45\,270$; $45\,720$; $54\,027$.
 
 **Đáp số.** $5\,472<45\,270<45\,720<54\,027$.
 :::
@@ -230,9 +267,15 @@ Làm tròn số $6\,481\,300$ đến hàng nghìn và đến hàng trăm nghìn.
 2. Hàng trăm nghìn: nhìn chữ số hàng chục nghìn.
 
 ::solution
-Làm tròn đến hàng nghìn: chữ số hàng trăm là $3<5$, nên được $6\,481\,000$.
+Bài giải
 
-Làm tròn đến hàng trăm nghìn: chữ số hàng chục nghìn là $8\geq5$, nên tăng $4$ thêm $1$ thành $5$, được $6\,500\,000$.
+Số $6\,481\,300$ có chữ số hàng nghìn là $1$, chữ số hàng trăm là $3$, chữ số hàng chục nghìn là $8$ và chữ số hàng trăm nghìn là $4$.
+
+Làm tròn đến hàng nghìn: ta xét chữ số hàng trăm, đó là $3$. Vì $3<5$ nên giữ nguyên chữ số hàng nghìn và thay các chữ số bên phải bằng $0$, được $6\,481\,000$.
+
+Làm tròn đến hàng trăm nghìn: ta xét chữ số hàng chục nghìn, đó là $8$. Vì $8\geq5$ nên tăng chữ số hàng trăm nghìn là $4$ thêm $1$ thành $5$ và thay các chữ số bên phải bằng $0$, được $6\,500\,000$.
+
+Vậy làm tròn $6\,481\,300$ đến hàng nghìn được $6\,481\,000$, đến hàng trăm nghìn được $6\,500\,000$.
 
 **Đáp số.** $6\,481\,000$ và $6\,500\,000$.
 :::
@@ -248,7 +291,14 @@ Tính giá trị của biểu thức: $125\times8-360:6+14$.
 2. Rồi trừ và cộng từ trái sang phải.
 
 ::solution
-$$\begin{aligned} 125\times8-360:6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+Bài giải
+
+Biểu thức có phép nhân, phép chia, phép trừ và phép cộng. Ta thực hiện nhân và chia trước, rồi trừ và cộng từ trái sang phải.
+
+Ta có $125\times8=1\,000$ và $360:6=60$. Do đó
+$$\begin{aligned} 125\times8-360:6+14 &= 1\,000-60+14 \\ &= 940+14 \\ &= 954. \end{aligned}$$
+
+Vậy giá trị của biểu thức là $954$.
 
 **Đáp số.** $954$.
 :::
@@ -264,9 +314,14 @@ Một nhà xuất bản in $24\,500$ cuốn sách vào tháng Một và $31\,750
 2. Cộng hai số rồi làm tròn đến hàng nghìn.
 
 ::solution
-Số sách in được trong hai tháng là $24\,500+31\,750=56\,250$ (cuốn).
+Bài giải
 
-Làm tròn đến hàng nghìn: chữ số hàng trăm là $2<5$ nên được $56\,000$.
+Số cuốn sách nhà xuất bản in được trong hai tháng là:
+$$24\,500+31\,750=56\,250\ \text{(cuốn)}$$
+
+Làm tròn số $56\,250$ đến hàng nghìn: chữ số hàng trăm là $2$. Vì $2<5$ nên giữ nguyên chữ số hàng nghìn là $6$ và thay các chữ số bên phải bằng $0$, được $56\,000$.
+
+Vậy cả hai tháng nhà xuất bản in được $56\,250$ cuốn sách, làm tròn đến hàng nghìn là khoảng $56\,000$ cuốn.
 
 **Đáp số.** $56\,250$ cuốn, khoảng $56\,000$ cuốn.
 :::
@@ -282,9 +337,15 @@ Mẹ có $100\,000$ đồng và mua $3$ hộp sữa, mỗi hộp giá $24\,500$ 
 2. Tính số tiền mua sữa, rồi trừ khỏi $100\,000$.
 
 ::solution
-Số tiền mua $3$ hộp sữa là $24\,500\times3=73\,500$ (đồng).
+Bài giải
 
-Số tiền mẹ còn lại là $100\,000-73\,500=26\,500$ (đồng).
+Số tiền mua $3$ hộp sữa là:
+$$24\,500\times3=73\,500\ \text{(đồng)}$$
+
+Số tiền mẹ còn lại là:
+$$100\,000-73\,500=26\,500\ \text{(đồng)}$$
+
+Vậy mẹ còn lại $26\,500$ đồng.
 
 **Đáp số.** $26\,500$ đồng.
 :::
@@ -300,7 +361,12 @@ Em hãy nhớ lại bài tính chất của phép nhân. Tính bằng cách thu�
 2. Nhân kết quả với $37$.
 
 ::solution
-$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+Bài giải
+
+Phép nhân có tính chất giao hoán và kết hợp. Ta nhóm $25$ với $4$ vì $25\times4=100$ là số tròn trăm, dễ nhân với $37$:
+$$\begin{aligned} 25\times37\times4 &= (25\times4)\times37 \\ &= 100\times37 \\ &= 3\,700. \end{aligned}$$
+
+Vậy $25\times37\times4=3\,700$.
 
 **Đáp số.** $3\,700$.
 :::
@@ -316,11 +382,19 @@ Tìm chữ số $a$ để số $\overline{4a5}$ chia hết cho cả $5$ và $9$.
 2. Tìm $a$ để tổng đó chia hết cho $9$.
 
 ::solution
-Số $\overline{4a5}$ tận cùng bằng $5$ nên luôn chia hết cho $5$.
+Bài giải
 
-Tổng các chữ số là $4+a+5=9+a$. Để chia hết cho $9$ thì $a$ phải bằng $0$ hoặc $9$.
+Số $\overline{4a5}$ có chữ số tận cùng là $5$ nên luôn chia hết cho $5$, với mọi chữ số $a$.
 
-**Thử lại.** $405:9=45$ và $495:9=55$. Đúng.
+Một số chia hết cho $9$ khi tổng các chữ số của nó chia hết cho $9$. Tổng các chữ số của $\overline{4a5}$ là $4+a+5=9+a$.
+
+Vì $a$ là chữ số nên $0\leq a\leq9$, suy ra $9\leq9+a\leq18$. Trong khoảng này, các số chia hết cho $9$ là $9$ và $18$.
+
+Nếu $9+a=9$ thì $a=0$. Nếu $9+a=18$ thì $a=9$.
+
+Thử lại: $405:9=45$ và $495:9=55$, đúng. Cả hai số đều chia hết cho $5$ vì tận cùng bằng $5$.
+
+Vậy $a=0$ hoặc $a=9$.
 
 **Đáp số.** $a=0$ hoặc $a=9$.
 :::

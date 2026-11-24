@@ -208,7 +208,18 @@ D. $0$.
 2. Xét dấu qua từng nghiệm.
 
 ::solution
-$y'=4x(x-1)(x+1)$ có ba nghiệm đơn $-1$, $0$, $1$, và $y'$ đổi dấu qua mỗi nghiệm.
+Hàm số xác định và có đạo hàm trên $\mathbb{R}$. Ta có
+$$y'=4x^3-4x=4x\left(x^2-1\right)=4x(x-1)(x+1).$$
+
+Suy ra $y'=0\iff x=-1$, $x=0$ hoặc $x=1$. Đây là ba nghiệm đơn (bội lẻ) nên $y'$ đổi dấu qua mỗi nghiệm. Ta có bảng xét dấu:
+
+| $x$ | $-\infty$ | | $-1$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $y'$ | | $-$ | $0$ | $+$ | $0$ | $-$ | $0$ | $+$ | |
+
+Do đó hàm số có đúng ba điểm cực trị: $x=-1$ và $x=1$ là điểm cực tiểu, $x=0$ là điểm cực đại.
+
+Vậy chọn **A**.
 
 **Đáp số.** A.
 :::
@@ -228,7 +239,17 @@ D. $x=3$ và $y=2$.
 2. Lấy tỉ số hai hệ số của $x$.
 
 ::solution
-Mẫu bằng $0$ tại $x=2$, tử bằng $5\ne0$, nên $x=2$ là tiệm cận đứng. $\lim\limits_{x\to\pm\infty}y=3$. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{-1}{-2}$.
+Hàm số xác định trên $\mathbb{R}\setminus\{2\}$.
+
+Tiệm cận đứng: khi $x\to2$, mẫu $x-2\to0$ còn tử $3x-1\to3\cdot2-1=5\neq0$, nên $\lim\limits_{x\to2^{\pm}}y=\pm\infty$. Do đó đường thẳng $x=2$ là tiệm cận đứng.
+
+Tiệm cận ngang: ta có
+$$\lim_{x\to\pm\infty}\frac{3x-1}{x-2}=\lim_{x\to\pm\infty}\frac{3-\dfrac1x}{1-\dfrac2x}=3.$$
+Do đó đường thẳng $y=3$ là tiệm cận ngang.
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án C lấy nhầm tỉ số hai hệ số tự do $\dfrac{-1}{-2}$ làm tiệm cận ngang; tiệm cận ngang phải tính bằng giới hạn khi $x\to\pm\infty$.
 
 **Đáp số.** A.
 :::
@@ -244,7 +265,17 @@ Gọi $M$, $m$ là giá trị lớn nhất và giá trị nhỏ nhất của $y=
 2. Tính $y(1)$, $y(2)$, $y(5)$.
 
 ::solution
-$y'=0\iff x=2$ (loại $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0{,}8=5{,}8$. Vậy $M=5{,}8$, $m=4$.
+Hàm số $y=x+\dfrac4x$ xác định và liên tục trên đoạn $[1; 5]$ (vì $x\neq0$). Ta có
+$$y'=1-\frac{4}{x^2}=\frac{x^2-4}{x^2}.$$
+
+Suy ra $y'=0\iff x=2$ hoặc $x=-2$. Chỉ có $x=2$ thuộc đoạn $[1; 5]$; loại $x=-2$.
+
+Tính giá trị của hàm số tại hai đầu mút và tại điểm tới hạn:
+$$y(1)=1+4=5,\qquad y(2)=2+2=4,\qquad y(5)=5+\frac45=5+0{,}8=5{,}8.$$
+
+So sánh ba giá trị, ta được $M=5{,}8$ và $m=4$.
+
+Vậy $M+m=5{,}8+4=9{,}8$.
 
 **Đáp số.** $9{,}8$.
 :::
@@ -260,7 +291,20 @@ Tìm các đường tiệm cận của đồ thị hàm số $y=\dfrac{x^2+x+1}{
 2. Xét giới hạn khi $x\to1^\pm$ và hiệu $y-(ax+b)$ khi $x\to\pm\infty$.
 
 ::solution
-Phép chia cho $x^2+x+1=(x-1)(x+2)+3$, nên $y=x+2+\dfrac{3}{x-1}$. Khi $x\to1^+$, $y\to+\infty$, nên $x=1$ là tiệm cận đứng. Khi $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, nên $y=x+2$ là tiệm cận xiên. Đồ thị không có tiệm cận ngang vì $y\to\pm\infty$.
+Hàm số xác định trên $\mathbb{R}\setminus\{1\}$.
+
+Thực hiện phép chia, ta có $x^2+x+1=(x-1)(x+2)+3$, nên
+$$y=\frac{x^2+x+1}{x-1}=x+2+\frac{3}{x-1}.$$
+
+Tiệm cận đứng: khi $x\to1^+$, tử $x^2+x+1\to3>0$ và mẫu $x-1\to0^+$, nên $y\to+\infty$. Do đó đường thẳng $x=1$ là tiệm cận đứng.
+
+Tiệm cận xiên: khi $x\to\pm\infty$, ta có
+$$y-(x+2)=\frac{3}{x-1}\to0.$$
+Do đó đường thẳng $y=x+2$ là tiệm cận xiên.
+
+Tiệm cận ngang: khi $x\to\pm\infty$ thì $y\to\pm\infty$ (giới hạn không hữu hạn), nên đồ thị không có tiệm cận ngang.
+
+Vậy đồ thị có tiệm cận đứng $x=1$, tiệm cận xiên $y=x+2$ và không có tiệm cận ngang.
 
 **Đáp số.** Tiệm cận đứng $x=1$, tiệm cận xiên $y=x+2$.
 :::
@@ -284,15 +328,23 @@ d) $f(-1)>f(0)$.
 2. Xét từng ý.
 
 ::solution
-Dấu của $f'$: dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
+Vì $(x-1)^2\ge0$ và chỉ bằng $0$ khi $x=1$, nên với $x\neq1$ thì $f'(x)=x(x-1)^2(x+2)$ cùng dấu với $x(x+2)$. Ta có bảng xét dấu của $f'$:
 
-a) **Sai**: tại $x=1$ không đổi dấu; chỉ có hai điểm cực trị $x=-2$ và $x=0$.
+| $x$ | $-\infty$ | | $-2$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | $0$ | $+$ | |
 
-b) **Đúng**: $f'$ đổi dấu từ $-$ sang $+$ tại $x=0$.
+Tức là $f'$ dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
 
-c) **Đúng**: $f'\ge0$ trên $(0; +\infty)$ và chỉ bằng $0$ tại $x=1$.
+a) **Sai.** Tại $x=1$ thì $f'=0$ nhưng $f'$ không đổi dấu, nên $x=1$ không là điểm cực trị. Hàm số chỉ có hai điểm cực trị là $x=-2$ và $x=0$.
 
-d) **Đúng**: $f$ nghịch biến trên $(-2; 0)$ và $-1<0$.
+b) **Đúng.** Khi $x$ đi qua $0$, $f'$ đổi dấu từ $-$ sang $+$, nên hàm số đạt cực tiểu tại $x=0$.
+
+c) **Đúng.** Trên $(0; +\infty)$ ta có $f'\ge0$ và $f'$ chỉ bằng $0$ tại $x=1$, nên hàm số đồng biến trên khoảng $(0; +\infty)$.
+
+d) **Đúng.** Hàm số nghịch biến trên $(-2; 0)$ (vì $f'<0$ ở đó) và liên tục trên $[-2; 0]$. Vì $-2<-1<0$ nên $f(-1)>f(0)$.
+
+Vậy các mệnh đề b), c), d) đúng; mệnh đề a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 :::
@@ -308,8 +360,15 @@ Nồng độ một loại thuốc trong máu sau khi uống $t$ giờ là $C(t)=
 2. Xét dấu $C'$, chú ý $C(0)=0$ và $C(t)\to0$ khi $t\to+\infty$.
 
 ::solution
-$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
-Với $t\ge0$, $C'>0$ khi $t<2$ và $C'<0$ khi $t>2$. Nồng độ cao nhất là $C(2)=\dfrac{10}{8}=1{,}25$ mg/l, sau $2$ giờ.
+Gọi $C(t)$ (mg/l) là nồng độ thuốc sau $t$ giờ, $t\ge0$. Áp dụng quy tắc đạo hàm của một thương, ta có
+$$C'(t)=\frac{5\left(t^2+4\right)-5t\cdot2t}{\left(t^2+4\right)^2}=\frac{5\left(4-t^2\right)}{\left(t^2+4\right)^2}.$$
+
+Vì $5>0$ và $\left(t^2+4\right)^2>0$ nên $C'(t)$ cùng dấu với $4-t^2$. Với $t\ge0$: $C'(t)>0$ khi $0\le t<2$ và $C'(t)<0$ khi $t>2$; $C'(t)=0\iff t=2$.
+
+Do đó $C$ tăng trên $[0; 2]$ và giảm trên $[2; +\infty)$, nên $C$ đạt giá trị lớn nhất tại $t=2$:
+$$C(2)=\frac{5\cdot2}{2^2+4}=\frac{10}{8}=1{,}25.$$
+
+Vậy nồng độ thuốc cao nhất là $1{,}25$ mg/l, đạt được sau $2$ giờ.
 
 **Đáp số.** $1{,}25$.
 :::
@@ -336,7 +395,17 @@ D. $0$.
 2. Đọc bảng: $-3$ là giá trị cực tiểu.
 
 ::solution
-$2f(x)+6=0\iff f(x)=-3$. Đường thẳng $y=-3$ chạm đồ thị tại điểm cực tiểu $x=2$ và cắt nhánh trái một lần trên $(-\infty; 0)$ (vì $f$ tăng từ $-\infty$ lên $1$). Không cắt trên $(2; +\infty)$ vì ở đó $f>-3$.
+Phương trình $2f(x)+6=0$ tương đương với $f(x)=-3$. Số nghiệm của nó bằng số giao điểm của đồ thị $y=f(x)$ với đường thẳng $y=-3$. Ta xét từng khoảng theo bảng biến thiên.
+
+Trên $(-\infty; 0)$: $f$ liên tục, đồng biến và đi từ $-\infty$ lên $1$. Vì $-3$ nằm giữa $-\infty$ và $1$ nên phương trình $f(x)=-3$ có đúng một nghiệm trên khoảng này.
+
+Trên $[0; 2]$: $f$ nghịch biến từ $1$ xuống $-3$. Do đó $f(x)>-3$ với $0\le x<2$ và $f(2)=-3$, nên phương trình có đúng một nghiệm là $x=2$ (đường thẳng $y=-3$ chạm đồ thị tại điểm cực tiểu).
+
+Trên $(2; +\infty)$: $f$ đồng biến từ $-3$ lên $+\infty$ nên $f(x)>-3$, phương trình không có nghiệm.
+
+Tổng cộng phương trình có $1+1+0=2$ nghiệm.
+
+Vậy chọn **B**.
 
 **Đáp số.** B.
 :::
@@ -360,15 +429,18 @@ d) Giá trị lớn nhất của hàm số trên đoạn $[2; 4]$ bằng $3$.
 2. Tìm hai tiệm cận và so sánh $y(2)$, $y(4)$.
 
 ::solution
-$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ với mọi $x\ne1$.
+Hàm số $y=\dfrac{x+1}{x-1}$ có đạo hàm
+$$y'=\frac{1\cdot(x-1)-(x+1)\cdot1}{(x-1)^2}=\frac{-2}{(x-1)^2}<0\quad\text{với mọi}\ x\neq1.$$
 
-a) **Đúng**: mẫu bằng $0$ chỉ tại $x=1$.
+a) **Đúng.** Hàm số xác định khi mẫu $x-1\neq0$, tức là $x\neq1$. Vậy tập xác định là $\mathbb{R}\setminus\{1\}$.
 
-b) **Sai**: hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, nhưng $y(0)=-1<y(2)=3$ nên không nghịch biến trên cả hợp.
+b) **Sai.** Vì $y'<0$ nên hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$. Tuy nhiên $0<2$ mà $y(0)=-1<y(2)=3$, nên hàm số không nghịch biến trên cả tập $\mathbb{R}\setminus\{1\}$ (hợp của hai khoảng).
 
-c) **Đúng**: tiệm cận đứng $x=1$, tiệm cận ngang $y=1$.
+c) **Đúng.** Khi $x\to1$, tử $x+1\to2\neq0$ và mẫu $\to0$, nên $x=1$ là tiệm cận đứng. Ta có $\lim\limits_{x\to\pm\infty}y=\lim\limits_{x\to\pm\infty}\dfrac{1+\frac1x}{1-\frac1x}=1$, nên $y=1$ là tiệm cận ngang. Giao điểm hai tiệm cận là $I(1; 1)$.
 
-d) **Đúng**: hàm số nghịch biến trên $[2; 4]$ nên giá trị lớn nhất là $y(2)=3$.
+d) **Đúng.** Đoạn $[2; 4]$ nằm trong khoảng $(1; +\infty)$ nên hàm số nghịch biến trên $[2; 4]$. Do đó giá trị lớn nhất trên đoạn này là $y(2)=\dfrac{2+1}{2-1}=3$.
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -384,7 +456,17 @@ Tìm giá trị nhỏ nhất của hàm số $y=(x^2-3)e^x$ trên đoạn $[0; 2
 2. So sánh với $y(0)$, $y(2)$.
 
 ::solution
-$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (loại $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5{,}44$, $y(2)=e^2\approx7{,}39$. Giá trị nhỏ nhất là $-2e\approx-5{,}4$.
+Hàm số $y=\left(x^2-3\right)e^x$ liên tục trên đoạn $[0; 2]$. Áp dụng quy tắc đạo hàm của một tích, ta có
+$$y'=2xe^x+\left(x^2-3\right)e^x=\left(x^2+2x-3\right)e^x=(x-1)(x+3)e^x.$$
+
+Vì $e^x>0$ nên $y'=0\iff x=1$ hoặc $x=-3$. Chỉ có $x=1$ thuộc đoạn $[0; 2]$; loại $x=-3$.
+
+Tính giá trị của hàm số tại hai đầu mút và tại điểm tới hạn:
+$$y(0)=-3,\qquad y(1)=(1-3)e=-2e\approx-5{,}44,\qquad y(2)=(4-3)e^2=e^2\approx7{,}39.$$
+
+So sánh ba giá trị, giá trị nhỏ nhất là $y(1)=-2e\approx-5{,}4$ (làm tròn đến hàng phần mười).
+
+Vậy giá trị nhỏ nhất của hàm số trên đoạn $[0; 2]$ xấp xỉ $-5{,}4$.
 
 **Đáp số.** $-5{,}4$.
 :::
@@ -400,9 +482,19 @@ $y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (loại $x=-3$). $y(0)=-3$, $y(1)=
 2. Giải hệ rồi kiểm tra lại loại cực trị.
 
 ::solution
-$y'=3ax^2+2bx+c$. Từ $y(0)=2$ và $y'(0)=0$: $d=2$, $c=0$. Từ $y'(2)=0$: $12a+4b=0$, tức $b=-3a$. Từ $y(2)=-2$: $8a+4b+2=-2$, tức $8a-12a=-4$, nên $a=1$, $b=-3$.
+Hàm số $y=ax^3+bx^2+cx+d$ có đạo hàm $y'=3ax^2+2bx+c$.
 
-**Kiểm tra.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ đổi dấu từ $+$ sang $-$ tại $0$ và từ $-$ sang $+$ tại $2$; $y(0)=2$, $y(2)=-2$.
+Đồ thị có điểm cực đại $(0; 2)$ nên $y(0)=2$ và $y'(0)=0$. Suy ra $d=2$ và $c=0$.
+
+Đồ thị có điểm cực tiểu $(2; -2)$ nên $y'(2)=0$ và $y(2)=-2$.
+
+Từ $y'(2)=0$: $12a+4b+c=0$, mà $c=0$ nên $12a+4b=0$, tức là $b=-3a$.
+
+Từ $y(2)=-2$: $8a+4b+2c+d=-2$, mà $c=0$, $d=2$ nên $8a+4b+2=-2$, tức là $8a+4b=-4$. Thay $b=-3a$, ta được $8a-12a=-4$, suy ra $a=1$ và $b=-3$.
+
+Kiểm tra: với $a=1$, $b=-3$, $c=0$, $d=2$ ta có $y=x^3-3x^2+2$ và $y'=3x^2-6x=3x(x-2)$. Đạo hàm $y'$ đổi dấu từ $+$ sang $-$ tại $x=0$ và từ $-$ sang $+$ tại $x=2$; ngoài ra $y(0)=2$, $y(2)=8-12+2=-2$ (thoả mãn).
+
+Vậy $a=1$, $b=-3$, $c=0$, $d=2$.
 
 **Đáp số.** $a=1$, $b=-3$, $c=0$, $d=2$.
 :::

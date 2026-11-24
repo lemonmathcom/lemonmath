@@ -165,9 +165,9 @@ b) lấy được bi đỏ.
 2. Màu cần tìm có trong hộp không?
 
 ::solution
-a) Trong hộp chỉ có bi xanh nên lấy được bi xanh là **chắc chắn**.
+a) Trong hộp chỉ có bi xanh, không có viên bi nào khác. Nhắm mắt lấy ra một viên thì chắc chắn là bi xanh. Vậy lấy được bi xanh là chắc chắn.
 
-b) Trong hộp không có bi đỏ nên lấy được bi đỏ là **không thể**.
+b) Trong hộp không có viên bi đỏ nào. Nhắm mắt lấy ra một viên thì không bao giờ được bi đỏ. Vậy lấy được bi đỏ là không thể.
 
 **Đáp số.** a) Chắc chắn. b) Không thể.
 :::
@@ -186,7 +186,11 @@ c) lấy được kẹo chanh.
 2. Xét từng ý a), b), c).
 
 ::solution
-a) Có thể. b) Có thể. c) Trong túi không có kẹo chanh nên không thể.
+a) Trong túi có $3$ kẹo cam. Nhắm mắt lấy ra một chiếc có thể là kẹo cam, nhưng cũng có thể là kẹo dâu. Vậy lấy được kẹo cam là có thể.
+
+b) Trong túi có $3$ kẹo dâu. Nhắm mắt lấy ra một chiếc có thể là kẹo dâu, nhưng cũng có thể là kẹo cam. Vậy lấy được kẹo dâu là có thể.
+
+c) Trong túi không có kẹo chanh nên không thể lấy được kẹo chanh. Vậy lấy được kẹo chanh là không thể.
 
 **Đáp số.** a) Có thể. b) Có thể. c) Không thể.
 :::
@@ -205,7 +209,11 @@ c) Ngày mai trời nắng.
 2. Chọn một trong ba mức.
 
 ::solution
-a) Tuần nào cũng có $7$ ngày: chắc chắn. b) Không thể. c) Có ngày nắng, có ngày không: có thể.
+a) Tuần nào cũng có đúng $7$ ngày. Vậy sự kiện "Một tuần có $7$ ngày" là chắc chắn.
+
+b) Con mèo không thể tự bay lên Mặt Trăng. Vậy sự kiện này là không thể.
+
+c) Có ngày trời nắng, có ngày trời không nắng, nên ngày mai trời nắng có thể xảy ra và cũng có thể không xảy ra. Vậy sự kiện này là có thể.
 
 **Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
 :::
@@ -224,11 +232,11 @@ c) lấy được thẻ ghi số lớn hơn $5$.
 2. Số nào thoả mãn từng ý?
 
 ::solution
-a) Cả bốn số đều là số chẵn: **chắc chắn**.
+a) Các số $2$, $4$, $6$, $8$ đều là số chẵn. Lấy tấm thẻ nào cũng được thẻ ghi số chẵn. Vậy sự kiện này là chắc chắn.
 
-b) Không có số $5$: **không thể**.
+b) Trong các thẻ không có thẻ ghi số $5$. Vậy lấy được thẻ ghi số $5$ là không thể.
 
-c) Có số $6$ và $8$ lớn hơn $5$, nhưng $2$ và $4$ thì không: **có thể**.
+c) Các số $6$ và $8$ lớn hơn $5$, còn các số $2$ và $4$ không lớn hơn $5$. Có thể lấy được thẻ ghi số lớn hơn $5$, nhưng cũng có thể không. Vậy sự kiện này là có thể.
 
 **Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
 :::
@@ -244,9 +252,13 @@ Một hộp có $1$ viên bi đỏ và $9$ viên bi xanh. Nam nói: "Nhắm mắ
 2. Có lần nào lấy được bi đỏ không?
 
 ::solution
-Viên bi đỏ vẫn nằm trong hộp, nên có thể lấy được bi đỏ.
+Trong hộp có $1$ viên bi đỏ và $9$ viên bi xanh. Viên bi đỏ vẫn nằm trong hộp, nên khi nhắm mắt lấy một viên, ta có thể lấy được bi đỏ. Do đó không thể nói chắc chắn lấy được bi xanh.
 
-**Đáp số.** Nam nói chưa đúng: lấy được bi xanh chỉ là **có thể**.
+Vì có $9$ viên bi xanh nên lấy được bi xanh vẫn có thể xảy ra, nhưng không phải là chắc chắn.
+
+Vậy Nam nói chưa đúng, vì viên bi đỏ vẫn có thể bị lấy ra.
+
+**Đáp số.** Nam nói chưa đúng: lấy được bi xanh chỉ là có thể.
 :::
 
 :::exercise
@@ -260,9 +272,13 @@ Lan nói: "Hộp có $4$ bi xanh và $1$ bi đỏ. Không thể lấy được b
 2. Chọn mức khả năng đúng.
 
 ::solution
-Trong hộp có $1$ bi đỏ, nên lấy được bi đỏ có thể xảy ra.
+Lan nói: "Không thể lấy được bi đỏ vì bi đỏ ít quá". Lan sai ở chỗ cho rằng bi đỏ ít thì không thể lấy được.
 
-**Đáp số.** Lan sai: lấy được bi đỏ là **có thể**, không phải không thể.
+Trong hộp có $1$ viên bi đỏ, nên khi nhắm mắt lấy một viên thì vẫn có thể lấy được bi đỏ. Một sự kiện chỉ là không thể khi trong hộp hoàn toàn không có viên bi đỏ nào.
+
+Vậy Lan phải sửa lại: lấy được bi đỏ là có thể xảy ra, không phải là không thể.
+
+**Đáp số.** Lan sai: lấy được bi đỏ là có thể, không phải không thể.
 :::
 
 :::exercise
@@ -279,16 +295,16 @@ b) Trong hộp có cả hai màu không? Vì sao?
 2. Cộng hai số rồi so với $12$.
 
 ::solution
-a)
+a) Ta đếm số lần ra mỗi màu trong $12$ lần lấy: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh. Màu đỏ xuất hiện ở các lần $1$, $3$, $4$, $6$, $8$, $9$, $11$, tức là $7$ lần. Màu xanh xuất hiện ở các lần $2$, $5$, $7$, $10$, $12$, tức là $5$ lần. Ta có bảng số liệu:
 
 | Màu bi | Vạch kiểm đếm | Số lần |
 |---|---|---|
 | Đỏ | ///////  | $7$ |
 | Xanh | ///// | $5$ |
 
-Kiểm tra: $7+5=12$.
+Kiểm tra: $7+5=12$, đúng bằng số lần Mai lấy bi.
 
-b) Cả bi đỏ và bi xanh đều được lấy ra, nên trong hộp có cả hai màu.
+b) Trong $12$ lần lấy, cả bi đỏ và bi xanh đều được lấy ra. Vậy trong hộp có cả hai màu.
 
 **Đáp số.** a) Đỏ $7$ lần, xanh $5$ lần. b) Có cả hai màu.
 :::
@@ -307,9 +323,9 @@ b) Nếu giữ nguyên $5$ bi xanh, phải lấy ra bao nhiêu viên bi đỏ đ
 2. Ở ý b), hộp phải không còn bi gì?
 
 ::solution
-a) Phải lấy hết $5$ viên bi xanh, khi đó hộp chỉ còn $3$ bi đỏ.
+a) Trong hộp có $3$ bi đỏ và $5$ bi xanh. Để chắc chắn lấy được bi đỏ thì trong hộp chỉ được còn bi đỏ, tức là phải lấy ra hết bi xanh. Khi lấy ra hết $5$ viên bi xanh thì hộp chỉ còn $3$ bi đỏ. Vậy phải lấy ra $5$ viên bi xanh.
 
-b) Phải lấy hết $3$ viên bi đỏ, khi đó hộp chỉ còn $5$ bi xanh.
+b) Để không thể lấy được bi đỏ thì trong hộp không được còn viên bi đỏ nào, tức là phải lấy ra hết bi đỏ. Khi lấy ra hết $3$ viên bi đỏ thì hộp chỉ còn $5$ bi xanh. Vậy phải lấy ra $3$ viên bi đỏ.
 
 **Đáp số.** a) $5$ viên bi xanh. b) $3$ viên bi đỏ.
 :::

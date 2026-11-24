@@ -175,13 +175,23 @@ a) $6\ \text{dm}^3=?\ \text{cm}^3$; b) $9000\ \text{cm}^3=?\ \text{dm}^3$; c) $4
 2. Remember that you multiply or divide by $1000$.
 
 ::solution
-a) $6\times1000=6000\ \text{cm}^3$.
+Solution
 
-b) $9000\div1000=9\ \text{dm}^3$.
+We have $1\ \text{dm}^3=1000\ \text{cm}^3$ and $1\ \text{m}^3=1000\ \text{dm}^3$. To change from a larger unit to a smaller unit we multiply by $1000$; to change from a smaller unit to a larger unit we divide by $1000$.
 
-c) $4\times1000=4000\ \text{dm}^3$.
+a) Change cubic decimetres to cubic centimetres:
+$$6\times1000=6000\ (\text{cm}^3)$$
 
-d) $12\,000\div1000=12\ \text{m}^3$.
+b) Change cubic centimetres to cubic decimetres:
+$$9000\div1000=9\ (\text{dm}^3)$$
+
+c) Change cubic metres to cubic decimetres:
+$$4\times1000=4000\ (\text{dm}^3)$$
+
+d) Change cubic decimetres to cubic metres:
+$$12\,000\div1000=12\ (\text{m}^3)$$
+
+So the missing numbers are $6000$; $9$; $4000$; $12$ respectively.
 
 **Answer.** a) $6000$; b) $9$; c) $4000$; d) $12$.
 :::
@@ -198,13 +208,21 @@ a) $7\ \text{m}^3\ 300\ \text{dm}^3=?\ \text{dm}^3$; b) $5\ \text{dm}^3\ 60\ \te
 2. For parts c and d, split the measurement into two units.
 
 ::solution
-a) $7\ \text{m}^3=7000\ \text{dm}^3$, so we get $7000+300=7300\ \text{dm}^3$.
+Solution
 
-b) $5\ \text{dm}^3=5000\ \text{cm}^3$, so we get $5000+60=5060\ \text{cm}^3$.
+We have $1\ \text{m}^3=1000\ \text{dm}^3$ and $1\ \text{dm}^3=1000\ \text{cm}^3$.
 
-c) $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
+a) Change $7\ \text{m}^3=7000\ \text{dm}^3$. Hence
+$$7\ \text{m}^3\ 300\ \text{dm}^3=7000+300=7300\ (\text{dm}^3)$$
 
-d) $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
+b) Change $5\ \text{dm}^3=5000\ \text{cm}^3$. Hence
+$$5\ \text{dm}^3\ 60\ \text{cm}^3=5000+60=5060\ (\text{cm}^3)$$
+
+c) Split $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3$. Since $6000\ \text{dm}^3=6\ \text{m}^3$, we get $6500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
+
+d) Split $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3$. Since $3000\ \text{cm}^3=3\ \text{dm}^3$, we get $3450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
+
+So the missing numbers are $7300$; $5060$; $6\ \text{m}^3\ 500\ \text{dm}^3$; $3\ \text{dm}^3\ 450\ \text{cm}^3$ respectively.
 
 **Answer.** a) $7300$; b) $5060$; c) $6\ \text{m}^3\ 500\ \text{dm}^3$; d) $3\ \text{dm}^3\ 450\ \text{cm}^3$.
 :::
@@ -220,7 +238,15 @@ A cuboid is exactly filled with cubes of volume $1\ \text{cm}^3$ in $3$ layers, 
 2. Multiply by the number of layers.
 
 ::solution
-Each layer has $6\times5=30$ cubes. Three layers have $30\times3=90$ cubes.
+Solution
+
+Each cube has volume $1\ \text{cm}^3$, so the volume of the cuboid equals the number of cubes that fill it.
+
+The number of cubes in one layer is:
+$$6\times5=30\ (\text{cubes})$$
+
+The number of cubes in three layers is:
+$$30\times3=90\ (\text{cubes})$$
 
 So the volume of the cuboid is $90\ \text{cm}^3$.
 
@@ -238,9 +264,17 @@ Suppose a bottle holds $1.5$ litres of water. How many cubic decimetres and how 
 2. Change cubic decimetres into cubic centimetres.
 
 ::solution
-Since $1$ litre $=1\ \text{dm}^3$, $1.5$ litres $=1.5\ \text{dm}^3$.
+Solution
 
-Change to cubic centimetres: $1.5\ \text{dm}^3=1\ \text{dm}^3+0.5\ \text{dm}^3=1000+500=1500\ \text{cm}^3$.
+We have $1$ litre $=1\ \text{dm}^3$ and $1\ \text{dm}^3=1000\ \text{cm}^3$.
+
+Change to cubic decimetres:
+$$1.5\ \text{litres}=1.5\ \text{dm}^3$$
+
+Change to cubic centimetres:
+$$1.5\ \text{dm}^3=1\ \text{dm}^3+0.5\ \text{dm}^3=1000+500=1500\ (\text{cm}^3)$$
+
+So the bottle holds $1.5\ \text{dm}^3$, which is $1500\ \text{cm}^3$ of water.
 
 **Answer.** $1.5\ \text{dm}^3$, which is $1500\ \text{cm}^3$.
 :::
@@ -256,9 +290,17 @@ A tank holds $2400$ litres of water. How many cubic decimetres and how many cubi
 2. Change cubic decimetres into cubic metres. Remember the unit.
 
 ::solution
-Since $1$ litre $=1\ \text{dm}^3$, $2400$ litres $=2400\ \text{dm}^3$.
+Solution
 
-Change to cubic metres: $2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0.4\ \text{m}^3=2.4\ \text{m}^3$.
+We have $1$ litre $=1\ \text{dm}^3$ and $1\ \text{m}^3=1000\ \text{dm}^3$.
+
+Change to cubic decimetres:
+$$2400\ \text{litres}=2400\ \text{dm}^3$$
+
+Change to cubic metres:
+$$2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0.4\ \text{m}^3=2.4\ \text{m}^3$$
+
+So the tank holds $2400\ \text{dm}^3$, which is $2.4\ \text{m}^3$ of water.
 
 **Answer.** $2400\ \text{dm}^3$, which is $2.4\ \text{m}^3$.
 :::
@@ -274,11 +316,17 @@ Write $>$, $<$ or $=$ in the gap: a) $2500\ \text{cm}^3\ \ldots\ 3\ \text{dm}^3$
 2. Compare the two numbers.
 
 ::solution
-a) $3\ \text{dm}^3=3000\ \text{cm}^3$. Since $2500<3000$, write $<$.
+Solution
 
-b) $0.5\ \text{m}^3=500\ \text{dm}^3$, so write $=$.
+To compare, we change to the same unit.
 
-c) $4\ \text{dm}^3\ 20\ \text{cm}^3=4020\ \text{cm}^3$. Since $4020<4200$, write $<$.
+a) Change $3\ \text{dm}^3=3000\ \text{cm}^3$. Since $2500<3000$, we have $2500\ \text{cm}^3<3\ \text{dm}^3$.
+
+b) Change $0.5\ \text{m}^3=500\ \text{dm}^3$. The two numbers are equal, so $0.5\ \text{m}^3=500\ \text{dm}^3$.
+
+c) Change $4\ \text{dm}^3\ 20\ \text{cm}^3=4000+20=4020\ \text{cm}^3$. Since $4020<4200$, we have $4\ \text{dm}^3\ 20\ \text{cm}^3<4200\ \text{cm}^3$.
+
+So the signs to write are $<$; $=$; $<$ respectively.
 
 **Answer.** a) $<$; b) $=$; c) $<$.
 :::
@@ -294,7 +342,17 @@ Suppose a barrel holds $3\ \text{m}^3\ 600\ \text{dm}^3$ of water, and $1\ \text
 2. If the number of $\text{dm}^3$ is $1000$ or more, change it into $\text{m}^3$.
 
 ::solution
-The total is $3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3$, which is $5.3\ \text{m}^3$.
+Solution
+
+The amount of water in the barrel after pouring in more is the sum of the two amounts.
+
+Add unit by unit:
+$$3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3$$
+
+Since $1300\ \text{dm}^3=1\ \text{m}^3\ 300\ \text{dm}^3$, we get
+$$4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3=5.3\ \text{m}^3$$
+
+So the barrel then holds $5.3\ \text{m}^3$ of water.
 
 **Answer.** $5.3\ \text{m}^3$.
 :::
@@ -310,9 +368,16 @@ Remember the lesson on units of area, in which $1\ \text{m}^2=100\ \text{dm}^2$.
 2. How many rows are there in each layer and how many layers?
 
 ::solution
-A cube with side $1$ m is a cube with side $10$ dm. Each row holds $10$ cubes of $1\ \text{dm}^3$, each layer has $10$ rows, and there are $10$ layers. The number of cubes is $10\times10\times10=1000$.
+Solution
 
-With area there are only rows and columns: $10\times10=100$ squares, so $1\ \text{m}^2=100\ \text{dm}^2$.
+A cube with side $1$ m is a cube with side $10$ dm. We fill it with cubes of $1\ \text{dm}^3$.
+
+Each row holds $10$ cubes, each layer has $10$ rows, and there are $10$ layers in all. The number of cubes of $1\ \text{dm}^3$ is:
+$$10\times10\times10=1000\ (\text{cubes})$$
+
+With area there are only rows and columns, so the number of squares of $1\ \text{dm}^2$ is $10\times10=100$ and $1\ \text{m}^2=100\ \text{dm}^2$.
+
+So $1\ \text{m}^3=1000\ \text{dm}^3$ and not $100\ \text{dm}^3$, because volume has one more dimension, the height (the layers).
 
 **Answer.** $1\ \text{m}^3=1000\ \text{dm}^3$ because there is one more dimension: $10\times10\times10=1000$.
 :::
@@ -328,9 +393,19 @@ Suppose one fish tank holds $60$ litres of water and a second fish tank holds $0
 2. Compare, then subtract the smaller from the larger.
 
 ::solution
-$0.08\ \text{m}^3=\dfrac{8}{100}\times1000=80$ litres.
+Solution
 
-Since $80>60$, the second tank holds more. The second tank holds $80-60=20$ litres more than the first.
+Change the second tank to litres, since $1\ \text{m}^3=1000$ litres.
+
+The second tank holds this many litres of water:
+$$0.08\ \text{m}^3=\frac{8}{100}\times1000=80\ (\text{litres})$$
+
+Since $80>60$, the second tank holds more water.
+
+The second tank holds this many litres more than the first:
+$$80-60=20\ (\text{litres})$$
+
+So the second tank holds more water, by $20$ litres.
 
 **Answer.** The second tank holds more, by $20$ litres.
 :::
@@ -346,7 +421,17 @@ A cube with side $1$ m is cut into small cubes with side $1$ cm. If all the smal
 2. Change the length of the line into metres, then into kilometres.
 
 ::solution
-There are $1\,000\,000$ small cubes of $1\ \text{cm}^3$. The line is $1\,000\,000$ cm $=10\,000$ m $=10$ km long.
+Solution
+
+A cube with side $1$ m $=100$ cm has volume $100\times100\times100=1\,000\,000\ (\text{cm}^3)$. Each small cube has volume $1\ \text{cm}^3$.
+
+The number of small cubes is:
+$$1\,000\,000\div1=1\,000\,000\ (\text{cubes})$$
+
+Each small cube is $1$ cm long, so the straight line is:
+$$1\,000\,000\ \text{cm}=10\,000\ \text{m}=10\ \text{km}$$
+
+So the line is $10$ kilometres long.
 
 **Answer.** $10$ km.
 :::

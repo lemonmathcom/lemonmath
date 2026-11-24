@@ -126,7 +126,18 @@ Work out $35+7$.
 2. Write the ones, carry $1$ ten, then add the tens.
 
 ::solution
-Ones: $5+7=12$, write $2$ carry $1$. Tens: $3+1=4$. So $35+7=42$.
+We set out the addition and add from the ones.
+
+Ones: $5+7=12$, write $2$ and carry $1$.
+
+Tens: $3$ plus $1$ (carried) is $4$, write $4$.
+
+We have
+$$35+7=42.$$
+
+Check: $42-7=35$. Correct.
+
+So $35+7=42$.
 
 **Answer.** $42$.
 :::
@@ -142,7 +153,16 @@ Set out in columns and work out $48+5$.
 2. Add the ones, then the tens.
 
 ::solution
-$8+5=13$, write $3$ carry $1$. $4+1=5$. So $48+5=53$.
+Set out the sum so that the digit $8$ is in the same column as the digit $5$, in the ones:
+$$\begin{array}{r}48\\+\phantom{0}5\\\hline53\end{array}$$
+
+Ones: $8+5=13$, write $3$ and carry $1$.
+
+Tens: $4$ plus $1$ (carried) is $5$, write $5$.
+
+Check: $53-5=48$. Correct.
+
+So $48+5=53$.
 
 **Answer.** $53$.
 :::
@@ -158,8 +178,16 @@ Remember the lesson on litres. A can holds $26$ litres of water. Someone pours i
 2. Work out $26+7$ and write the unit litres.
 
 ::solution
-$6+7=13$, write $3$ carry $1$. $2+1=3$. The amount of water is:
-$$26+7=33\ \text{(litres)}.$$
+Solution
+
+To find how many litres of water are in the can altogether, we add the litres already in the can and the litres poured in.
+
+Ones: $6+7=13$, write $3$ and carry $1$. Tens: $2+1=3$.
+
+The amount of water in the can altogether is:
+$$26+7=33\ \text{(litres)}$$
+
+So the can holds $33$ litres of water altogether.
 
 **Answer.** $33$ litres of water.
 :::
@@ -179,9 +207,11 @@ b) $47+\square=52$.
 2. Add the rest.
 
 ::solution
-a) From $56$ to $60$ is $4$, and from $60$ to $62$ is $2$, so the missing number is $4+2=6$. Check: $56+6=62$.
+a) From $56$ to $60$ is $4$, because $56+4=60$. From $60$ to $62$ is $2$. The missing number is $4+2=6$. Check: $56+6=62$. Correct.
 
-b) From $47$ to $50$ is $3$, and from $50$ to $52$ is $2$, so the missing number is $5$. Check: $47+5=52$.
+b) From $47$ to $50$ is $3$, because $47+3=50$. From $50$ to $52$ is $2$. The missing number is $3+2=5$. Check: $47+5=52$. Correct.
+
+So the number in box a) is $6$ and in box b) is $5$.
 
 **Answer.** a) $6$; b) $5$.
 :::
@@ -201,9 +231,11 @@ b) $28+5 \;\square\; 34$.
 2. Compare the tens, then the ones.
 
 ::solution
-a) $59+4=63$. Since $63>62$, $59+4>62$.
+a) Work out $59+4$: ones $9+4=13$, write $3$ and carry $1$; tens $5+1=6$. So $59+4=63$. Since $63>62$, we have $59+4>62$.
 
-b) $28+5=33$. Since $33<34$, $28+5<34$.
+b) Work out $28+5$: ones $8+5=13$, write $3$ and carry $1$; tens $2+1=3$. So $28+5=33$. Since $33<34$, we have $28+5<34$.
+
+So in a) we write the sign $>$, and in b) we write the sign $<$.
 
 **Answer.** a) The sign $>$; b) the sign $<$.
 :::
@@ -219,7 +251,18 @@ An writes: $47+8=45$. Where did An go wrong? Correct the answer.
 2. Check whether An added the carried ten to the tens.
 
 ::solution
-$7+8=15$, write $5$ carry $1$. The tens should be $4+1=5$, but An only wrote $4$ (forgot the carried ten). So $47+8=55$.
+We work out $47+8$ again.
+
+Ones: $7+8=15$, write $5$ and carry $1$.
+
+The tens should be $4+1=5$ (we add the carried ten). An only wrote $4$ because the carried ten was forgotten, so An got the wrong answer $45$.
+
+The correct working is
+$$47+8=55.$$
+
+Check: $55-8=47$. Correct.
+
+So An went wrong by forgetting the carried ten; the right answer is $47+8=55$.
 
 **Answer.** An forgot the carried ten; the right answer is $55$.
 :::
@@ -235,8 +278,16 @@ There are $67$ pupils lining up in the school yard. Then $9$ more pupils run ove
 2. Work out $67+9$ and write the answer with its unit.
 
 ::solution
-$7+9=16$, write $6$ carry $1$. $6+1=7$. The number of pupils is:
-$$67+9=76\ \text{(pupils)}.$$
+Solution
+
+To find how many pupils there are now altogether, we add the pupils already in the line and the pupils who ran over.
+
+Ones: $7+9=16$, write $6$ and carry $1$. Tens: $6+1=7$.
+
+The number of pupils now is:
+$$67+9=76\ \text{(pupils)}$$
+
+So there are $76$ pupils altogether now.
 
 **Answer.** $76$ pupils.
 :::
@@ -252,7 +303,15 @@ Find the digit that goes in the box: $4\square+7=51$.
 2. Check with an addition.
 
 ::solution
-The sum has $1$ in the ones, so $\square+7=11$, which means $\square=4$. Check: $44+7=51$ (because $4+7=11$ and $4+1=5$).
+The sum in $4\square+7=51$ is $51$, so the ones digit of the sum is $1$.
+
+In the ones, $\square+7$ must end in $1$. Since $\square+7$ is at least $7$ and at most $16$, we get $\square+7=11$, which gives $\square=11-7=4$.
+
+Check the tens: $4$ plus $1$ (carried) is $5$, which matches the tens digit of $51$.
+
+Check: $44+7=51$ (because $4+7=11$ and $4+1=5$). Correct.
+
+So the missing digit is $4$.
 
 **Answer.** The missing digit is $4$.
 :::

@@ -155,9 +155,23 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Thử lại bằng phép tính ngược.
 
 ::solution
-a) $5\,274+3\,968=9\,242$.
+Bài giải
 
-b) $6\,005-2\,847=3\,158$ (thử lại: $3\,158+2\,847=6\,005$).
+a) Đặt tính rồi cộng từ phải sang trái:
+$$\begin{array}{r} 5\,274 \\ +\ 3\,968 \\ \hline 9\,242 \end{array}$$
+
+Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $7+6+1=14$, viết $4$ nhớ $1$. Hàng trăm: $2+9+1=12$, viết $2$ nhớ $1$. Hàng nghìn: $5+3+1=9$, viết $9$.
+
+Vậy $5\,274+3\,968=9\,242$.
+
+b) Đặt tính rồi trừ từ phải sang trái:
+$$\begin{array}{r} 6\,005 \\ -\ 2\,847 \\ \hline 3\,158 \end{array}$$
+
+Hàng đơn vị: $5$ không trừ được $7$, lấy $15-7=8$, viết $8$ nhớ $1$. Hàng chục: $4+1=5$; $0$ không trừ được $5$, lấy $10-5=5$, viết $5$ nhớ $1$. Hàng trăm: $8+1=9$; $0$ không trừ được $9$, lấy $10-9=1$, viết $1$ nhớ $1$. Hàng nghìn: $2+1=3$; $6-3=3$, viết $3$.
+
+Thử lại: $3\,158+2\,847=6\,005$, đúng với số bị trừ.
+
+Vậy $6\,005-2\,847=3\,158$.
 
 **Đáp số.** a) $9\,242$; b) $3\,158$.
 :::
@@ -173,9 +187,20 @@ Tính: a) $406\times25$; b) $3\,150:15$.
 2. Câu b: chia lần lượt từng hàng, chú ý chữ số $0$.
 
 ::solution
-a) $406\times25=8\,120+2\,030=10\,150$.
+Bài giải
 
-b) $3\,150:15=210$, vì $15\times210=3\,150$.
+a) Nhân $406$ lần lượt với chữ số hàng đơn vị và chữ số hàng chục của $25$.
+
+Ta có $406\times5=2\,030$ và $406\times20=8\,120$. Cộng hai tích riêng:
+$$406\times25=8\,120+2\,030=10\,150.$$
+
+Vậy $406\times25=10\,150$.
+
+b) Chia từng bước từ trái sang phải. Lấy $31$ chia $15$ được $2$, dư $1$. Hạ $5$ được $15$; $15$ chia $15$ được $1$, dư $0$. Hạ $0$ được $0$; $0$ chia $15$ được $0$. Thương là $210$.
+
+Thử lại: $15\times210=3\,150$, đúng với số bị chia.
+
+Vậy $3\,150:15=210$.
 
 **Đáp số.** a) $10\,150$; b) $210$.
 :::
@@ -191,9 +216,17 @@ Tính giá trị biểu thức: a) $56+24:6\times5$; b) $90-(18+12)\times2$.
 2. Câu b: tính trong ngoặc trước.
 
 ::solution
-a) $56+24:6\times5=56+4\times5=56+20=76$.
+Bài giải
 
-b) $90-(18+12)\times2=90-30\times2=90-60=30$.
+a) Biểu thức chỉ có phép cộng, chia, nhân nên ta thực hiện chia và nhân từ trái sang phải trước, cộng sau:
+$$\begin{aligned} 56+24:6\times5 &= 56+4\times5 \\ &= 56+20 \\ &= 76. \end{aligned}$$
+
+Ở đây $24:6=4$, rồi $4\times5=20$.
+
+b) Biểu thức có dấu ngoặc nên ta tính trong ngoặc trước, rồi đến nhân, cuối cùng là trừ:
+$$\begin{aligned} 90-(18+12)\times2 &= 90-30\times2 \\ &= 90-60 \\ &= 30. \end{aligned}$$
+
+Vậy giá trị của hai biểu thức là $76$ và $30$.
 
 **Đáp số.** a) $76$; b) $30$.
 :::
@@ -209,9 +242,17 @@ Tính nhanh: a) $4\times18\times25$; b) $75\times34+75\times66$.
 2. Câu b: viết $75\times(34+66)$.
 
 ::solution
-a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+Bài giải
 
-b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+a) Áp dụng tính chất giao hoán và kết hợp của phép nhân, ta nhóm $4$ với $25$ vì $4\times25=100$:
+$$\begin{aligned} 4\times18\times25 &= (4\times25)\times18 \\ &= 100\times18 \\ &= 1\,800. \end{aligned}$$
+
+Vậy $4\times18\times25=1\,800$.
+
+b) Hai tích có chung thừa số $75$. Áp dụng tính chất một số nhân với một tổng, ta có
+$$\begin{aligned} 75\times34+75\times66 &= 75\times(34+66) \\ &= 75\times100 \\ &= 7\,500. \end{aligned}$$
+
+Vậy $75\times34+75\times66=7\,500$.
 
 **Đáp số.** a) $1\,800$; b) $7\,500$.
 :::
@@ -227,11 +268,21 @@ Mẹ mua $3$ hộp sữa, mỗi hộp $38\,000$ đồng, và $2$ túi bánh, m�
 2. Lấy $200\,000$ trừ tổng hai số tiền.
 
 ::solution
-Tiền sữa: $3\times38\,000=114\,000$ (đồng).
+Bài giải
 
-Tiền bánh: $2\times25\,000=50\,000$ (đồng).
+Số tiền mẹ mua $3$ hộp sữa là:
+$$3\times38\,000=114\,000\ \text{(đồng)}$$
 
-Tiền trả lại: $200\,000-(114\,000+50\,000)=36\,000$ (đồng).
+Số tiền mẹ mua $2$ túi bánh là:
+$$2\times25\,000=50\,000\ \text{(đồng)}$$
+
+Tổng số tiền mẹ phải trả là:
+$$114\,000+50\,000=164\,000\ \text{(đồng)}$$
+
+Số tiền cô bán hàng trả lại mẹ là:
+$$200\,000-164\,000=36\,000\ \text{(đồng)}$$
+
+Vậy cô bán hàng trả lại mẹ $36\,000$ đồng.
 
 **Đáp số.** $36\,000$ đồng.
 :::
@@ -247,7 +298,17 @@ Có $250$ học sinh đi tham quan. Mỗi xe chở nhiều nhất $45$ học sin
 2. Số dư khác $0$ nghĩa là còn học sinh chưa có xe.
 
 ::solution
-$250:45=5$ (dư $25$). Năm xe chở $225$ học sinh, còn $25$ học sinh nên cần thêm $1$ xe: $5+1=6$.
+Bài giải
+
+Để biết cần bao nhiêu xe, ta chia số học sinh cho số học sinh mỗi xe chở được:
+$$250:45=5\ \text{(dư }25\text{)}$$
+
+Vì $45\times5=225$ nên $5$ xe chở được $225$ học sinh, còn lại $250-225=25$ học sinh chưa có xe.
+
+Vì $25$ học sinh này vẫn phải đi xe nên cần thêm $1$ xe nữa:
+$$5+1=6\ \text{(xe)}$$
+
+Vậy cần ít nhất $6$ xe.
 
 **Đáp số.** $6$ xe.
 :::
@@ -263,7 +324,16 @@ Em hãy nhớ lại bài trước. Dùng bốn chữ số $3,\ 0,\ 8,\ 5$, mỗi
 2. Lấy số lớn trừ số bé.
 
 ::solution
-Số lớn nhất là $8\,530$, số bé nhất là $3\,058$. Hiệu là $8\,530-3\,058=5\,472$.
+Bài giải
+
+Để lập số lớn nhất, ta xếp các chữ số từ lớn đến bé: $8,\ 5,\ 3,\ 0$. Số lớn nhất là $8\,530$.
+
+Để lập số bé nhất, chữ số hàng nghìn phải khác $0$ và bé nhất có thể, đó là $3$. Các chữ số còn lại $0,\ 5,\ 8$ xếp từ bé đến lớn. Số bé nhất là $3\,058$ (không viết $0\,358$ vì số có bốn chữ số không bắt đầu bằng chữ số $0$).
+
+Hiệu của hai số là:
+$$8\,530-3\,058=5\,472$$
+
+Vậy hiệu của số lớn nhất và số bé nhất là $5\,472$.
 
 **Đáp số.** $5\,472$.
 :::
@@ -279,9 +349,22 @@ Tìm số tự nhiên $x$ biết $5\times(x+12)-30=120$.
 2. Tìm $x+12$, rồi tìm $x$.
 
 ::solution
-$5\times(x+12)=120+30=150$, nên $x+12=150:5=30$ và $x=30-12=18$.
+Bài giải
 
-**Kiểm tra.** $5\times(18+12)-30=150-30=120$. Đúng.
+Ta có $5\times(x+12)-30=120$.
+
+Số bị trừ bằng hiệu cộng số trừ, nên
+$$5\times(x+12)=120+30=150.$$
+
+Một thừa số bằng tích chia cho thừa số kia, nên
+$$x+12=150:5=30.$$
+
+Số hạng chưa biết bằng tổng trừ số hạng đã biết, nên
+$$x=30-12=18.$$
+
+Thử lại: $5\times(18+12)-30=5\times30-30=150-30=120$, đúng.
+
+Vậy $x=18$.
 
 **Đáp số.** $18$.
 :::

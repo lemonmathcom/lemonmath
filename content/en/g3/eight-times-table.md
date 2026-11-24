@@ -151,11 +151,15 @@ c) $8\times6$.
 2. Stop at the number you need.
 
 ::solution
-a) $8\times3=24$.
+We use the $8$ times table: each time we add one more $8$, the product goes up by $8$.
 
-b) $8\times5=40$.
+a) $8\times3=8+8+8=24$.
 
-c) $8\times6=48$.
+b) From $8\times3=24$, we have $8\times4=24+8=32$ and $8\times5=32+8=40$.
+
+c) From $8\times5=40$, we have $8\times6=40+8=48$.
+
+So $8\times3=24$; $8\times5=40$; $8\times6=48$.
 
 **Answer.** a) $24$; b) $40$; c) $48$.
 :::
@@ -177,11 +181,15 @@ c) $8\times10$.
 2. Add $8$.
 
 ::solution
+We continue from $8\times6=48$: each time we add one more $8$, the product goes up by $8$.
+
 a) $8\times7=48+8=56$.
 
-b) $8\times9=64+8=72$.
+b) We have $8\times8=56+8=64$, so $8\times9=64+8=72$.
 
 c) $8\times10=72+8=80$.
+
+So $8\times7=56$; $8\times9=72$; $8\times10=80$.
 
 **Answer.** a) $56$; b) $72$; c) $80$.
 :::
@@ -203,11 +211,13 @@ c) $7\times9$ and $8\times8$.
 2. Compare the results.
 
 ::solution
-a) $7\times8=56$.
+a) By the $7$ times table, $7\times8=56$.
 
-b) $8\times7=56$, the same as $7\times8$.
+b) When we swap the two factors, the product does not change, so $8\times7=56$, the same as $7\times8$.
 
-c) $7\times9=63$ and $8\times8=64$, so $7\times9<8\times8$.
+c) By the $7$ times table, $7\times9=63$. By the $8$ times table, $8\times8=64$. Since $63<64$, we have $7\times9<8\times8$.
+
+So $7\times8=8\times7=56$ and $7\times9=63<64=8\times8$.
 
 **Answer.** a) $56$; b) $56$; c) $63$ and $64$.
 :::
@@ -229,11 +239,15 @@ c) $80\div8$.
 2. The other number is the quotient.
 
 ::solution
-a) $8\times2=16$, so $16\div8=2$.
+To divide by $8$, we look for the number that multiplied by $8$ gives the dividend.
 
-b) $8\times7=56$, so $56\div8=7$.
+a) Since $8\times2=16$, we have $16\div8=2$.
 
-c) $8\times10=80$, so $80\div8=10$.
+b) Since $8\times7=56$, we have $56\div8=7$.
+
+c) Since $8\times10=80$, we have $80\div8=10$.
+
+So $16\div8=2$; $56\div8=7$; $80\div8=10$.
 
 **Answer.** a) $2$; b) $7$; c) $10$.
 :::
@@ -255,11 +269,15 @@ c) $8\times8 \;\square\; 4\times16$.
 2. Compare the results.
 
 ::solution
-a) $8\times6=48$ and $48<50$, so $8\times6<50$.
+We work out the value of each side and then compare the two numbers.
 
-b) $72\div8=9$ and $8\times1=8$; $9>8$, so $72\div8>8\times1$.
+a) We have $8\times6=48$. Since $48<50$, we have $8\times6<50$.
 
-c) $8\times8=64$ and $4\times16=64$, so the two sides are equal.
+b) We have $72\div8=9$ (because $8\times9=72$) and $8\times1=8$. Since $9>8$, we have $72\div8>8\times1$.
+
+c) We have $8\times8=64$ and $4\times16=64$. The two numbers are equal, so $8\times8=4\times16$.
+
+So the signs to write are $<$, $>$, $=$.
 
 **Answer.** a) $<$; b) $>$; c) $=$.
 :::
@@ -275,9 +293,14 @@ Tam wrote: "$8\times7=54$". Where did Tam go wrong? Correct it.
 2. Check with a division.
 
 ::solution
-$8\times7=8\times6+8=48+8=56$, not $54$.
+We work out $8\times7$ again by adding $8$ to $8\times6$:
+$$8\times7=8\times6+8=48+8=56.$$
 
-**Check.** $56\div8=7$. Correct.
+Tam's $54$ is wrong, because the correct product is $56$.
+
+Check: $56\div8=7$, because $8\times7=56$. Correct.
+
+So Tam remembered the wrong product. The correct calculation is $8\times7=56$.
 
 **Answer.** Tam remembered the wrong product; $8\times7=56$.
 :::
@@ -295,9 +318,19 @@ b) $64$ mangoes are put into baskets, $8$ mangoes in each basket. How many baske
 2. Choose the operation, work it out and write the answer with its unit.
 
 ::solution
-a) The number of legs is $8\times9=72$ (legs).
+Solution
 
-b) The number of baskets is $64\div8=8$ (baskets).
+a) Each spider has $8$ legs, so the number of legs of $9$ spiders is:
+$$8\times9=72\ \text{(legs)}.$$
+
+So $9$ spiders have $72$ legs.
+
+b) There are $64$ mangoes with $8$ in each basket, so the number of baskets filled is:
+$$64\div8=8\ \text{(baskets)}.$$
+
+Check: $8\times8=64$.
+
+So $8$ baskets are filled.
 
 **Answer.** a) $72$ legs; b) $8$ baskets.
 :::
@@ -317,9 +350,23 @@ b) How many bags are still to fill, and how many marbles are still to be bagged?
 2. Subtract the bags filled, then work out the marbles left.
 
 ::solution
-a) The number of bags needed is $80\div8=10$ (bags).
+Solution
 
-b) The bags still to fill: $10-6=4$ (bags). The marbles already bagged: $8\times6=48$, so the marbles left are $80-48=32$. Check: $8\times4=32$.
+a) There are $80$ marbles with $8$ in each bag, so the number of bags needed is:
+$$80\div8=10\ \text{(bags)}.$$
+
+So $10$ bags are needed altogether.
+
+b) The number of bags still to fill is:
+$$10-6=4\ \text{(bags)}.$$
+The number of marbles already bagged is:
+$$8\times6=48\ \text{(marbles)}.$$
+The number of marbles still to be bagged is:
+$$80-48=32\ \text{(marbles)}.$$
+
+Check: $8\times4=32$.
+
+So $4$ bags are still to fill and $32$ marbles are still to be bagged.
 
 **Answer.** a) $10$ bags; b) $4$ bags and $32$ marbles.
 :::

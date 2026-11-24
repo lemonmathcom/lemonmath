@@ -201,7 +201,17 @@ Khối lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $A$
 2. Nhân với $AA'$.
 
 ::solution
-Diện tích đáy là $\dfrac12\cdot3\cdot4=6$, nên $V=6\cdot5=30$. Phương án B nhân thêm $\dfrac13$, phương án C quên $\dfrac12$.
+Vì $ABC.A'B'C'$ là lăng trụ đứng nên đường cao của lăng trụ là $AA'=5$.
+
+Đáy $ABC$ là tam giác vuông tại $A$ nên diện tích đáy là
+$$S_{ABC}=\frac12\cdot AB\cdot AC=\frac12\cdot3\cdot4=6.$$
+
+Áp dụng công thức thể tích khối lăng trụ $V=S_{\text{đáy}}\cdot h$, ta có
+$$V=6\cdot5=30.$$
+
+Vậy thể tích của khối lăng trụ là $30$. Vậy chọn **A**.
+
+*Nhận xét.* Phương án B nhân thêm $\dfrac13$ (nhầm với công thức thể tích khối chóp); phương án C quên $\dfrac12$ trong công thức diện tích tam giác.
 
 **Đáp số.** A.
 :::
@@ -219,7 +229,17 @@ Tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc, $OA=2$, $OB=3$,
 2. Tính $\dfrac13\cdot S_{OAB}\cdot OC$.
 
 ::solution
-$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Phương án A quên cả $\dfrac13$ và $\dfrac12$; phương án B quên $\dfrac13$; phương án C quên $\dfrac12$.
+Vì $OA\perp OB$ và $OA\perp OC$, mà $OB$, $OC$ cắt nhau trong mặt phẳng $(OBC)$ nên $OA\perp(OBC)$. Do đó $OA$ là đường cao của tứ diện kẻ từ $A$, và $OA=2$.
+
+Tam giác $OBC$ vuông tại $O$ nên
+$$S_{OBC}=\frac12\cdot OB\cdot OC=\frac12\cdot3\cdot4=6.$$
+
+Áp dụng công thức thể tích khối chóp, ta có
+$$V=\frac13\cdot S_{OBC}\cdot OA=\frac13\cdot6\cdot2=4.$$
+
+Vậy thể tích khối tứ diện là $4$. Vậy chọn **D**.
+
+*Nhận xét.* Phương án A quên cả $\dfrac13$ và $\dfrac12$; phương án B quên $\dfrac13$; phương án C quên $\dfrac12$.
 
 **Đáp số.** D.
 :::
@@ -237,7 +257,21 @@ Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $a$, $SA\perp(ABC)
 2. Tính $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot SA$.
 
 ::solution
-$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, nên $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Phương án A dùng nhầm $\tan30^\circ$, phương án C quên $\dfrac13$, phương án D lấy nhầm góc là $\widehat{SBA}$.
+Gọi $M$ là trung điểm của $BC$. Vì tam giác $ABC$ đều cạnh $a$ nên $AM\perp BC$ và $AM=\dfrac{a\sqrt3}{2}$.
+
+Vì $SA\perp(ABC)$ nên $SA\perp BC$. Mà $AM\perp BC$ nên $BC\perp(SAM)$, suy ra $BC\perp SM$.
+
+Hai mặt phẳng $(SBC)$ và $(ABC)$ cắt nhau theo giao tuyến $BC$, lại có $AM\perp BC$ và $SM\perp BC$. Do đó góc giữa hai mặt phẳng là $\widehat{SMA}=60^\circ$.
+
+Trong tam giác $SAM$ vuông tại $A$, ta có
+$$SA=AM\cdot\tan60^\circ=\frac{a\sqrt3}{2}\cdot\sqrt3=\frac{3a}{2}.$$
+
+Diện tích đáy là $S_{ABC}=\dfrac{a^2\sqrt3}{4}$. Áp dụng công thức thể tích khối chóp, ta có
+$$V=\frac13\cdot S_{ABC}\cdot SA=\frac13\cdot\frac{a^2\sqrt3}{4}\cdot\frac{3a}{2}=\frac{a^3\sqrt3}{8}.$$
+
+Vậy thể tích khối chóp là $\dfrac{a^3\sqrt3}{8}$. Vậy chọn **B**.
+
+*Nhận xét.* Phương án A dùng nhầm $\tan30^\circ$; phương án C quên $\dfrac13$; phương án D lấy nhầm góc là $\widehat{SBA}$.
 
 **Đáp số.** B.
 :::
@@ -262,13 +296,18 @@ d) Số đo của góc nhị diện $[C', BD, C]$ bằng $45^\circ$.
 3. Với góc nhị diện, dùng $C'O\perp BD$ và $CO\perp BD$.
 
 ::solution
-a) **Đúng.** $AC\perp BD$ (hai đường chéo hình vuông) và $AC\perp BB'$, nên $AC\perp(BDD'B')$.
+a) **Đúng.** Vì $ABCD$ là hình vuông nên $AC\perp BD$ (hai đường chéo của hình vuông). Vì $BB'\perp(ABCD)$ nên $AC\perp BB'$. Đường thẳng $AC$ vuông góc với hai đường thẳng cắt nhau $BD$ và $BB'$ của mặt phẳng $(BDD'B')$, nên $AC\perp(BDD'B')$.
 
-b) **Đúng.** $BC'\parallel AD'$; tam giác $AB'D'$ có ba cạnh đều bằng $a\sqrt2$ nên là tam giác đều, góc bằng $60^\circ$.
+b) **Đúng.** Vì $ABC'D'$ là hình bình hành (có $AB\parallel C'D'$ và $AB=C'D'$) nên $BC'\parallel AD'$. Do đó góc giữa $AB'$ và $BC'$ bằng góc giữa $AB'$ và $AD'$. Tam giác $AB'D'$ có $AB'=AD'=B'D'=a\sqrt2$ (là các đường chéo của các mặt hình vuông cạnh $a$) nên là tam giác đều, suy ra $\widehat{B'AD'}=60^\circ$. Vậy góc giữa hai đường thẳng $AB'$ và $BC'$ bằng $60^\circ$.
 
-c) **Đúng.** Theo a), $AO\perp(BDD'B')$, nên khoảng cách là $AO=\dfrac{a\sqrt2}{2}$.
+c) **Đúng.** Theo a), $AC\perp(BDD'B')$, mà $O\in AC$ và $O\in BD\subset(BDD'B')$, nên $AO\perp(BDD'B')$ tại $O$. Do đó khoảng cách từ $A$ đến $(BDD'B')$ là
+$$AO=\frac{AC}{2}=\frac{a\sqrt2}{2}.$$
 
-d) **Sai.** Góc nhị diện là $\widehat{C'OC}$ với $\tan\widehat{C'OC}=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, nên góc khoảng $54{,}7^\circ$.
+d) **Sai.** Hai mặt phẳng $(C'BD)$ và $(CBD)$ có giao tuyến $BD$. Ta có $CO\perp BD$; lại có $C'B=C'D$ nên tam giác $C'BD$ cân tại $C'$, suy ra $C'O\perp BD$. Do đó số đo góc nhị diện $[C', BD, C]$ bằng $\widehat{C'OC}$. Trong tam giác $C'CO$ vuông tại $C$,
+$$\tan\widehat{C'OC}=\frac{CC'}{CO}=\frac{a}{\frac{a\sqrt2}{2}}=\sqrt2,$$
+nên $\widehat{C'OC}\approx54{,}7^\circ$, khác $45^\circ$.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -284,7 +323,16 @@ Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa đường thẳng $A
 2. Tính $\tan\widehat{A'CA}=\dfrac{AA'}{AC}$.
 
 ::solution
-$\tan\widehat{A'CA}=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, nên $\widehat{A'CA}\approx35{,}26^\circ$.
+Gọi $a$ là độ dài cạnh của hình lập phương.
+
+Vì $AA'\perp(ABCD)$ nên $AC$ là hình chiếu vuông góc của $A'C$ lên mặt phẳng $(ABCD)$. Do đó góc giữa đường thẳng $A'C$ và mặt phẳng $(ABCD)$ là $\widehat{A'CA}$.
+
+Trong tam giác $A'AC$ vuông tại $A$, ta có $AA'=a$ và $AC=a\sqrt2$ (đường chéo hình vuông cạnh $a$), nên
+$$\tan\widehat{A'CA}=\frac{AA'}{AC}=\frac{a}{a\sqrt2}=\frac{1}{\sqrt2}.$$
+
+Suy ra $\widehat{A'CA}\approx35{,}26^\circ$, làm tròn đến hàng đơn vị là $35^\circ$.
+
+Vậy góc giữa đường thẳng $A'C$ và mặt phẳng $(ABCD)$ xấp xỉ $35^\circ$.
 
 **Đáp số.** $35$.
 :::
@@ -300,7 +348,18 @@ Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $2$, $SA\perp(ABC)
 2. Thay vào công thức.
 
 ::solution
-$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, nên $AH=\dfrac{\sqrt3}{2}\approx0{,}866$.
+Gọi $M$ là trung điểm của $BC$. Vì tam giác $ABC$ đều cạnh $2$ nên $AM\perp BC$ và $AM=\dfrac{2\sqrt3}{2}=\sqrt3$.
+
+Vì $SA\perp(ABC)$ nên $SA\perp BC$. Mà $AM\perp BC$ nên $BC\perp(SAM)$.
+
+Trong mặt phẳng $(SAM)$, kẻ $AH\perp SM$ tại $H$. Vì $BC\perp(SAM)$ nên $BC\perp AH$. Đường thẳng $AH$ vuông góc với hai đường thẳng cắt nhau $SM$ và $BC$ của mặt phẳng $(SBC)$, nên $AH\perp(SBC)$. Do đó $d(A, (SBC))=AH$.
+
+Trong tam giác $SAM$ vuông tại $A$ với đường cao $AH$, ta có
+$$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AM^2}=1+\frac13=\frac43.$$
+
+Suy ra $AH=\dfrac{\sqrt3}{2}\approx0{,}866$, làm tròn đến hàng phần trăm là $0{,}87$.
+
+Vậy khoảng cách từ $A$ đến mặt phẳng $(SBC)$ xấp xỉ $0{,}87$.
 
 **Đáp số.** $0{,}87$.
 :::
@@ -316,7 +375,20 @@ Mái che của một giếng trời có dạng hình chóp tứ giác đều, đ
 2. Tính $\tan\widehat{SMO}=\dfrac{SO}{OM}$.
 
 ::solution
-$OM=2$, $\tan\widehat{SMO}=\dfrac32$, nên $\widehat{SMO}\approx56{,}31^\circ$.
+Gọi hình chóp tứ giác đều là $S.ABCD$ với đáy $ABCD$ là hình vuông cạnh $4$ m, $O$ là tâm của đáy. Vì hình chóp đều nên $SO\perp(ABCD)$ và $SO=3$ m.
+
+Gọi $M$ là trung điểm của $CD$. Khi đó $OM\perp CD$ và $OM=\dfrac{AD}{2}=2$ m.
+
+Vì $SO\perp(ABCD)$ nên $SO\perp CD$. Mà $OM\perp CD$ nên $CD\perp(SOM)$, suy ra $CD\perp SM$.
+
+Hai mặt phẳng $(SCD)$ và $(ABCD)$ cắt nhau theo giao tuyến $CD$, lại có $SM\perp CD$ và $OM\perp CD$. Do đó góc giữa mặt bên $(SCD)$ và mặt đáy là $\widehat{SMO}$.
+
+Trong tam giác $SOM$ vuông tại $O$, ta có
+$$\tan\widehat{SMO}=\frac{SO}{OM}=\frac32.$$
+
+Suy ra $\widehat{SMO}\approx56{,}31^\circ$, làm tròn đến hàng đơn vị là $56^\circ$.
+
+Vậy góc giữa một mặt bên của mái và mặt đáy xấp xỉ $56^\circ$.
 
 **Đáp số.** $56$.
 :::
@@ -332,7 +404,17 @@ Một máng nước dài $2$ m có dạng hình lăng trụ đứng, mặt cắt
 2. Nhân với chiều dài máng, rồi đổi sang lít.
 
 ::solution
-$B=\dfrac{(0{,}6+0{,}4)\cdot0{,}3}{2}=0{,}15$ m², nên $V=0{,}15\cdot2=0{,}3$ m³ $=300$ lít.
+Máng chứa được nhiều nước nhất khi đầy nước đến miệng máng, lúc đó thể tích nước bằng thể tích của khối lăng trụ đứng.
+
+Đáy của lăng trụ là mặt cắt ngang, một hình thang cân có hai đáy $0{,}6$ m và $0{,}4$ m, chiều cao (chiều sâu) $0{,}3$ m. Diện tích mặt cắt là
+$$B=\frac{(0{,}6+0{,}4)\cdot0{,}3}{2}=0{,}15\ (\text{m}^2).$$
+
+Máng dài $2$ m nên chiều cao của lăng trụ là $2$ m. Thể tích của máng là
+$$V=B\cdot h=0{,}15\cdot2=0{,}3\ (\text{m}^3).$$
+
+Vì $1$ m³ $=1000$ lít nên $V=0{,}3\cdot1000=300$ lít.
+
+Vậy máng chứa được tối đa $300$ lít nước.
 
 **Đáp số.** $300$.
 :::
@@ -348,9 +430,17 @@ Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, tâm $O$, $SA\pe
 2. Tính $OH=OC\cdot\sin\widehat{SCA}$.
 
 ::solution
-Vì $BD\perp(SAC)$ và $OH\subset(SAC)$ nên $OH\perp BD$; lại có $OH\perp SC$, nên $d(SC, BD)=OH$. Ta có $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$, $\sin\widehat{SCA}=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
+Hình vuông $ABCD$ có hai đường chéo $AC\perp BD$ cắt nhau tại $O$. Vì $SA\perp(ABCD)$ nên $SA\perp BD$. Đường thẳng $BD$ vuông góc với hai đường thẳng cắt nhau $AC$ và $SA$ của mặt phẳng $(SAC)$ nên $BD\perp(SAC)$.
 
-$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+Trong mặt phẳng $(SAC)$, kẻ $OH\perp SC$ tại $H$. Vì $BD\perp(SAC)$ và $OH\subset(SAC)$ nên $OH\perp BD$. Như vậy $OH$ vuông góc với cả $BD$ và $SC$, nên $OH$ là đoạn vuông góc chung của hai đường thẳng chéo nhau $SC$ và $BD$. Do đó $d(SC, BD)=OH$.
+
+Ta tính $OH$. Đường chéo $AC=a\sqrt2$ nên $OC=\dfrac{a\sqrt2}{2}$. Tam giác $SAC$ vuông tại $A$ nên
+$$SC=\sqrt{SA^2+AC^2}=\sqrt{a^2+2a^2}=a\sqrt3,\qquad\sin\widehat{SCA}=\frac{SA}{SC}=\frac{1}{\sqrt3}.$$
+
+Tam giác $OHC$ vuông tại $H$ và $\widehat{OCH}=\widehat{SCA}$ (vì $O$ nằm trên $CA$, $H$ nằm trên $CS$), nên
+$$OH=OC\cdot\sin\widehat{OCH}=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+
+Vậy khoảng cách giữa hai đường thẳng chéo nhau $SC$ và $BD$ bằng $\dfrac{a\sqrt6}{6}$.
 
 **Đáp số.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
 :::
@@ -366,7 +456,19 @@ Khối lăng trụ $ABC.A'B'C'$ có thể tích bằng $30$. Gọi $M$ là trung
 2. Lấy $30$ trừ đi.
 
 ::solution
-$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, nên $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. Phần còn lại có thể tích $30-5=25$.
+Gọi $B$ là diện tích đáy $ABC$ và $h$ là chiều cao của lăng trụ. Khi đó $V=B\cdot h=30$.
+
+Vì mặt phẳng $(A'B'C')$ song song với $(ABC)$ nên $d(C', (ABC))=h$.
+
+Đường thẳng $CC'$ cắt mặt phẳng $(ABC)$ tại $C$ và $M$ là trung điểm của $CC'$, nên
+$$d(M, (ABC))=\frac12d(C', (ABC))=\frac h2.$$
+
+Áp dụng công thức thể tích khối chóp, ta có
+$$V_{M.ABC}=\frac13\cdot B\cdot\frac h2=\frac16\cdot B\cdot h=\frac V6=\frac{30}{6}=5.$$
+
+Thể tích phần còn lại sau khi cắt bỏ khối chóp $M.ABC$ là $30-5=25$.
+
+Vậy phần còn lại có thể tích bằng $25$.
 
 **Đáp số.** $25$.
 :::

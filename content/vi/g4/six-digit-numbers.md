@@ -187,7 +187,12 @@ Viết số: tám trăm hai mươi nghìn bốn trăm.
 2. "Bốn trăm" là số nào? Ghép hai lớp lại.
 
 ::solution
-"Tám trăm hai mươi nghìn" là $820\,000$ và "bốn trăm" là $400$. Ta có $820\,000+400=820\,400$.
+Ta viết từng lớp của số. "Tám trăm hai mươi nghìn" là lớp nghìn nên viết là $820\,000$. "Bốn trăm" là lớp đơn vị nên viết là $400$.
+
+Ta có
+$$820\,000+400=820\,400.$$
+
+Vậy số cần viết là $820\,400$.
 
 **Đáp số.** $820\,400$.
 :::
@@ -203,7 +208,13 @@ Viết số: tám trăm hai mươi nghìn bốn trăm.
 2. Đọc lớp đơn vị: $090$.
 
 ::solution
-Số $605\,090$ có lớp nghìn là $605$ và lớp đơn vị là $090$.
+Ta tách số $605\,090$ thành từng lớp, từ phải sang trái, mỗi lớp ba chữ số. Lớp nghìn là $605$ và lớp đơn vị là $090$.
+
+Đọc lớp nghìn: $605$ đọc là "sáu trăm linh năm", kèm tên lớp là "nghìn".
+
+Đọc lớp đơn vị: $090$ đọc là "không trăm chín mươi".
+
+Vậy số $605\,090$ đọc là: sáu trăm linh năm nghìn không trăm chín mươi.
 
 **Đáp số.** Sáu trăm linh năm nghìn không trăm chín mươi.
 :::
@@ -219,8 +230,12 @@ Viết số $258\,047$ thành tổng.
 2. Bỏ qua hàng có chữ số $0$.
 
 ::solution
-Số $258\,047$ có $2$ trăm nghìn, $5$ chục nghìn, $8$ nghìn, $0$ trăm, $4$ chục và $7$ đơn vị. Ta có:
+Ta xác định giá trị của từng chữ số trong số $258\,047$ theo hàng. Số này có $2$ trăm nghìn, $5$ chục nghìn, $8$ nghìn, $0$ trăm, $4$ chục và $7$ đơn vị.
+
+Hàng nào có chữ số $0$ thì không viết vào tổng. Ta có:
 $$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+Vậy số $258\,047$ viết thành tổng là $200\,000+50\,000+8\,000+40+7$.
 
 **Đáp số.** $200\,000+50\,000+8\,000+40+7$.
 :::
@@ -236,7 +251,15 @@ Trong số $913\,256$, các chữ số $9$, $3$ và $2$ thuộc hàng nào, lớ
 2. Xác định lớp của hàng đó.
 
 ::solution
-Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn. Chữ số $3$ ở hàng nghìn, thuộc lớp nghìn. Chữ số $2$ ở hàng trăm, thuộc lớp đơn vị.
+Các hàng của số $913\,256$, đi từ trái sang phải, là: trăm nghìn, chục nghìn, nghìn, trăm, chục, đơn vị. Ba hàng đầu thuộc lớp nghìn, ba hàng sau thuộc lớp đơn vị.
+
+Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn.
+
+Chữ số $3$ ở hàng nghìn, thuộc lớp nghìn.
+
+Chữ số $2$ ở hàng trăm, thuộc lớp đơn vị.
+
+Vậy chữ số $9$ ở hàng trăm nghìn, lớp nghìn; chữ số $3$ ở hàng nghìn, lớp nghìn; chữ số $2$ ở hàng trăm, lớp đơn vị.
 
 **Đáp số.** $9$: hàng trăm nghìn, lớp nghìn; $3$: hàng nghìn, lớp nghìn; $2$: hàng trăm, lớp đơn vị.
 :::
@@ -252,7 +275,13 @@ Tìm số liền trước và số liền sau của $400\,000$.
 2. Tính $400\,000+1$.
 
 ::solution
-Số liền trước là $400\,000-1=399\,999$. Số liền sau là $400\,000+1=400\,001$.
+Số liền trước của một số bé hơn số đó $1$ đơn vị. Số liền trước của $400\,000$ là:
+$$400\,000-1=399\,999.$$
+
+Số liền sau của một số lớn hơn số đó $1$ đơn vị. Số liền sau của $400\,000$ là:
+$$400\,000+1=400\,001.$$
+
+Vậy số liền trước của $400\,000$ là $399\,999$ và số liền sau của $400\,000$ là $400\,001$.
 
 **Đáp số.** $399\,999$ và $400\,001$.
 :::
@@ -272,8 +301,11 @@ Bài giải
 
 Số tiền Mai đã có là:
 $$3\times200\,000=600\,000\ \text{(đồng)}.$$
-Số tiền Mai còn thiếu là:
+
+Số tiền Mai còn thiếu để có $1\,000\,000$ đồng là:
 $$1\,000\,000-600\,000=400\,000\ \text{(đồng)}.$$
+
+Vậy Mai còn thiếu $400\,000$ đồng.
 
 **Đáp số.** $400\,000$ đồng.
 :::
@@ -294,9 +326,14 @@ Bài giải
 
 Số tiền ở bốn tờ $200\,000$ đồng là:
 $$4\times200\,000=800\,000\ \text{(đồng)}.$$
+
 Số tiền ở hai tờ $100\,000$ đồng là:
 $$2\times100\,000=200\,000\ \text{(đồng)}.$$
-Tổng số tiền là $800\,000+200\,000=1\,000\,000$ (đồng).
+
+Tổng số tiền của cửa hàng là:
+$$800\,000+200\,000=1\,000\,000\ \text{(đồng)}.$$
+
+Vậy tổng số tiền vừa đủ $1\,000\,000$ đồng.
 
 **Đáp số.** Vừa đủ $1\,000\,000$ đồng.
 :::
@@ -312,7 +349,14 @@ Em hãy nhớ lại bài nhân số có năm chữ số với số có một ch�
 2. Đếm số chữ số và xác định hàng, lớp của chữ số $1$.
 
 ::solution
-Ta có $25\,000\times4=100\,000$. Kết quả có sáu chữ số. Chữ số $1$ ở hàng trăm nghìn, thuộc lớp nghìn.
+Ta nhân số có năm chữ số với số có một chữ số:
+$$25\,000\times4=100\,000.$$
+
+Số $100\,000$ gồm chữ số $1$ và năm chữ số $0$, nên có sáu chữ số.
+
+Chữ số $1$ đứng đầu, ở hàng trăm nghìn. Hàng trăm nghìn thuộc lớp nghìn.
+
+Vậy $25\,000\times4=100\,000$; kết quả có sáu chữ số, và chữ số $1$ ở hàng trăm nghìn, lớp nghìn.
 
 **Đáp số.** $100\,000$; sáu chữ số; hàng trăm nghìn, lớp nghìn.
 :::
@@ -328,7 +372,13 @@ Lan nghe đọc số "bốn trăm linh ba nghìn không trăm linh năm" và vi�
 2. Viết lớp đơn vị thành ba chữ số rồi ghép lại.
 
 ::solution
-Lớp nghìn là "bốn trăm linh ba", tức là $403$. Lớp đơn vị là "không trăm linh năm", tức là $005$. Số đúng là $403\,005$. Số $43\,005$ chỉ có năm chữ số nên Lan đã bỏ sót một chữ số $0$.
+Ta viết lại số theo từng lớp. Lớp nghìn là "bốn trăm linh ba", tức là $403$. Lớp đơn vị là "không trăm linh năm", tức là $005$.
+
+Ghép hai lớp lại, ta được số $403\,005$.
+
+Số Lan viết là $43\,005$ chỉ có năm chữ số, còn số đúng $403\,005$ có sáu chữ số. Lan đã bỏ sót một chữ số $0$ ở hàng chục nghìn.
+
+Vậy Lan viết sai; số đúng là $403\,005$.
 
 **Đáp số.** Lan sai; số đúng là $403\,005$.
 :::
@@ -344,8 +394,12 @@ Có bao nhiêu số có sáu chữ số?
 2. Số các số liên tiếp từ $a$ đến $b$ là $b-a+1$.
 
 ::solution
-Các số có sáu chữ số là các số từ $100\,000$ đến $999\,999$. Số các số đó là:
+Số nhỏ nhất có sáu chữ số là $100\,000$ và số lớn nhất có sáu chữ số là $999\,999$. Các số có sáu chữ số là các số từ $100\,000$ đến $999\,999$.
+
+Số các số đó là:
 $$999\,999-100\,000+1=900\,000.$$
+
+Vậy có $900\,000$ số có sáu chữ số.
 
 **Đáp số.** $900\,000$ số.
 :::

@@ -181,8 +181,19 @@ Set out in columns and work out: $786-354$.
 2. Subtract the ones, then the tens, then the hundreds.
 
 ::solution
+Set out the column and subtract from the ones, through the tens, to the hundreds.
+
 $$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
-Ones: $6-4=2$. Tens: $8-5=3$. Hundreds: $7-3=4$.
+
+Ones: $6-4=2$; write $2$.
+
+Tens: $8-5=3$; write $3$.
+
+Hundreds: $7-3=4$; write $4$.
+
+Check: $432+354=786$.
+
+So $786-354=432$.
 
 **Answer.** $432$.
 :::
@@ -198,9 +209,13 @@ Work out in your head: $900-400$ and $640-30$.
 2. How many tens is $640$? How many tens is $30$?
 
 ::solution
-$9$ hundreds minus $4$ hundreds is $5$ hundreds, so $900-400=500$.
+We work out in our heads, using hundreds and tens.
 
-$64$ tens minus $3$ tens is $61$ tens, so $640-30=610$.
+$900$ is $9$ hundreds and $400$ is $4$ hundreds. $9$ hundreds minus $4$ hundreds is $5$ hundreds, so $900-400=500$.
+
+$640$ is $64$ tens and $30$ is $3$ tens. $64$ tens minus $3$ tens is $61$ tens, so $640-30=610$.
+
+So $900-400=500$ and $640-30=610$.
 
 **Answer.** $500$ and $610$.
 :::
@@ -216,8 +231,19 @@ Set out in columns and work out: $541-217$.
 2. How many tens are left now?
 
 ::solution
+Set out the column and subtract from the ones, through the tens, to the hundreds.
+
 $$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
-Ones: $11-7=4$ and $3$ tens are left. Tens: $3-1=2$. Hundreds: $5-2=3$.
+
+Ones: $1$ is too small to take away $7$, so borrow $1$ ten. We have $11-7=4$; write $4$, and $3$ tens are left.
+
+Tens: $3-1=2$; write $2$.
+
+Hundreds: $5-2=3$; write $3$.
+
+Check: $324+217=541$.
+
+So $541-217=324$.
 
 **Answer.** $324$.
 :::
@@ -233,8 +259,19 @@ Set out in columns and work out: $625-387$.
 2. Tens: $1$ cannot take away $8$, so work out $11-8$.
 
 ::solution
+Set out the column and subtract from the ones, through the tens, to the hundreds.
+
 $$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
-Ones: $15-7=8$ and $1$ ten is left. Tens: $11-8=3$ and $5$ hundreds are left. Hundreds: $5-3=2$.
+
+Ones: $5$ is too small to take away $7$, so borrow $1$ ten. We have $15-7=8$; write $8$, and $1$ ten is left.
+
+Tens: $1$ is too small to take away $8$, so borrow $1$ hundred. We have $11-8=3$; write $3$, and $5$ hundreds are left.
+
+Hundreds: $5-3=2$; write $2$.
+
+Check: $238+387=625$.
+
+So $625-387=238$.
 
 **Answer.** $238$.
 :::
@@ -250,9 +287,16 @@ A shop has $735$ kg of rice and sold $258$ kg on the first day. How many kilogra
 2. Write the subtraction $735-258$, set it out, then check with addition.
 
 ::solution
+Solution
+
 The number of kilograms of rice left is:
 $$735-258=477\ \text{(kg)}.$$
-Ones: $15-8=7$ and $2$ tens are left. Tens: $12-5=7$ and $6$ hundreds are left. Hundreds: $6-2=4$.
+
+Working: in the ones, $5$ is too small to take away $8$, so borrow $1$ ten, $15-8=7$, and $2$ tens are left. Tens: $2$ is too small to take away $5$, so borrow $1$ hundred, $12-5=7$, and $6$ hundreds are left. Hundreds: $6-2=4$.
+
+Check: $477+258=735$.
+
+So the shop has $477$ kg of rice left.
 
 **Answer.** $477$ kg of rice.
 :::
@@ -288,9 +332,16 @@ Uncle An's water tank holds $650$ litres. After a week the tank has used $275$ l
 2. Set out $650-275$: the ones digit is $0$, so exchange from the tens.
 
 ::solution
+Solution
+
 The number of litres of water left in the tank is:
 $$650-275=375\ \text{(litres)}.$$
-Ones: $10-5=5$ and $4$ tens are left. Tens: $14-7=7$ and $5$ hundreds are left. Hundreds: $5-2=3$.
+
+Working: in the ones, $0$ is too small to take away $5$, so borrow $1$ ten, $10-5=5$, and $4$ tens are left. Tens: $4$ is too small to take away $7$, so borrow $1$ hundred, $14-7=7$, and $5$ hundreds are left. Hundreds: $5-2=3$.
+
+Check: $375+275=650$.
+
+So there are $375$ litres of water left in the tank.
 
 **Answer.** $375$ litres of water.
 :::
@@ -306,12 +357,16 @@ Work out quickly: $400-138$. Hint: write $400=399+1$.
 2. Add $1$ to get the result of $400-138$.
 
 ::solution
-We have $400-138=(399-138)+1$.
+We write $400=399+1$. Taking away the same number $138$, we have
+$$400-138=(399+1)-138=(399-138)+1.$$
 
-$$399-138=261.$$
-So $400-138=261+1=262$.
+We work out $399-138$ (no regrouping): ones $9-8=1$, tens $9-3=6$, hundreds $3-1=2$. So $399-138=261$.
+
+Hence $400-138=261+1=262$.
 
 Check: $262+138=400$. Correct.
+
+So $400-138=262$.
 
 **Answer.** $262$.
 :::

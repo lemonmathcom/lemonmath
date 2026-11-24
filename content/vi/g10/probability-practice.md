@@ -184,7 +184,16 @@ Một hộp có $6$ bóng trắng và $4$ bóng đen. Lấy ngẫu nhiên cùng 
 2. Tính số cách lấy $2$ trong $6$ bóng trắng.
 
 ::solution
-$P=\dfrac{C_6^2}{C_{10}^2}=\dfrac{15}{45}=\dfrac13$.
+Gọi $A$ là biến cố "cả hai bóng lấy ra đều trắng". Lấy ngẫu nhiên cùng lúc hai bóng từ $10$ bóng ($6$ trắng và $4$ đen), nên mỗi kết quả là một tổ hợp chập $2$ của $10$ bóng.
+
+Số kết quả có thể là $n(\Omega)=C_{10}^2=\dfrac{10\cdot9}{2}=45$.
+
+Số kết quả thuận lợi cho $A$ là số cách chọn $2$ bóng trong $6$ bóng trắng: $n(A)=C_6^2=\dfrac{6\cdot5}{2}=15$.
+
+Áp dụng định nghĩa cổ điển của xác suất, ta có
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{C_6^2}{C_{10}^2}=\frac{15}{45}=\frac13.$$
+
+Vậy xác suất để cả hai bóng đều trắng là $\dfrac13$.
 
 **Đáp số.** $\dfrac13$.
 :::
@@ -200,7 +209,16 @@ Với hộp bóng ở bài trên, tính xác suất để hai bóng lấy ra kh�
 2. Chia cho $C_{10}^2=45$.
 
 ::solution
-$n(A)=6\cdot4=24$, nên $P=\dfrac{24}{45}=\dfrac{8}{15}$.
+Xét hộp ở Bài 1 ($6$ bóng trắng, $4$ bóng đen) và lấy ngẫu nhiên cùng lúc hai bóng. Gọi $A$ là biến cố "hai bóng lấy ra khác màu". Số kết quả có thể vẫn là $n(\Omega)=C_{10}^2=45$.
+
+Hai bóng khác màu nghĩa là có một bóng trắng và một bóng đen. Chọn $1$ bóng trắng có $6$ cách, chọn $1$ bóng đen có $4$ cách; theo quy tắc nhân, $n(A)=6\cdot4=24$.
+
+Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{24}{45}=\frac{8}{15}.$$
+
+Kiểm tra bằng biến cố đối: hai bóng cùng màu có $C_6^2+C_4^2=15+6=21$ cách, nên $P(A)=1-\dfrac{21}{45}=\dfrac{24}{45}=\dfrac{8}{15}$.
+
+Vậy xác suất để hai bóng lấy ra khác màu là $\dfrac{8}{15}$.
 
 **Đáp số.** $\dfrac{8}{15}$.
 :::
@@ -216,7 +234,15 @@ Một lớp có $12$ nam và $8$ nữ. Chọn ngẫu nhiên ba học sinh. Tính
 2. Dùng $P(A)=1-P(\overline{A})$ cho câu b).
 
 ::solution
-a) $P=\dfrac{C_{12}^3}{C_{20}^3}=\dfrac{220}{1140}=\dfrac{11}{57}$. b) $P=1-\dfrac{11}{57}=\dfrac{46}{57}$.
+Chọn ngẫu nhiên $3$ học sinh trong $20$ học sinh ($12$ nam và $8$ nữ), nên $n(\Omega)=C_{20}^3=\dfrac{20\cdot19\cdot18}{3\cdot2\cdot1}=1140$.
+
+a) Gọi $A$ là biến cố "cả ba học sinh đều là nam". Số kết quả thuận lợi là $n(A)=C_{12}^3=\dfrac{12\cdot11\cdot10}{3\cdot2\cdot1}=220$. Do đó
+$$P(A)=\frac{C_{12}^3}{C_{20}^3}=\frac{220}{1140}=\frac{11}{57}.$$
+
+b) Gọi $B$ là biến cố "có ít nhất một nữ". Biến cố đối của $B$ chính là biến cố $A$ (cả ba đều là nam). Áp dụng công thức xác suất của biến cố đối, ta có
+$$P(B)=1-P(A)=1-\frac{11}{57}=\frac{46}{57}.$$
+
+Vậy xác suất để cả ba học sinh đều là nam là $\dfrac{11}{57}$, và xác suất để có ít nhất một nữ là $\dfrac{46}{57}$.
 
 **Đáp số.** a) $\dfrac{11}{57}$; b) $\dfrac{46}{57}$.
 :::
@@ -232,7 +258,16 @@ Một cửa hàng nhận một thùng $15$ chiếc bóng đèn, trong đó có $
 2. Chia và rút gọn.
 
 ::solution
-$P=\dfrac{C_{13}^3}{C_{15}^3}=\dfrac{286}{455}=\dfrac{22}{35}$.
+Gọi $A$ là biến cố "cả $3$ chiếc bóng đèn lấy ra đều tốt". Thùng có $15$ chiếc, trong đó có $15-2=13$ chiếc tốt.
+
+Lấy ngẫu nhiên $3$ chiếc từ $15$ chiếc nên $n(\Omega)=C_{15}^3=\dfrac{15\cdot14\cdot13}{3\cdot2\cdot1}=455$.
+
+Số kết quả thuận lợi cho $A$ là số cách chọn $3$ chiếc trong $13$ chiếc tốt: $n(A)=C_{13}^3=\dfrac{13\cdot12\cdot11}{3\cdot2\cdot1}=286$.
+
+Do đó
+$$P(A)=\frac{C_{13}^3}{C_{15}^3}=\frac{286}{455}=\frac{22}{35}.$$
+
+Vậy xác suất để cả $3$ chiếc đều tốt là $\dfrac{22}{35}$.
 
 **Đáp số.** $\dfrac{22}{35}$.
 :::
@@ -248,7 +283,16 @@ Gieo hai con xúc xắc cân đối. Tính xác suất để tích hai số ch�
 2. Dùng biến cố đối.
 
 ::solution
-Có $3\cdot3=9$ cặp gồm hai số lẻ trong $36$ cặp. $P(\text{chẵn})=1-\dfrac{9}{36}=\dfrac34$.
+Gieo hai con xúc xắc cân đối, mỗi con có $6$ mặt nên không gian mẫu có $n(\Omega)=6\cdot6=36$ kết quả đồng khả năng (các cặp số chấm).
+
+Gọi $A$ là biến cố "tích hai số chấm là số chẵn". Biến cố đối $\overline{A}$ là "tích hai số chấm là số lẻ". Tích hai số là số lẻ khi và chỉ khi cả hai số đều lẻ.
+
+Mỗi con xúc xắc có $3$ mặt lẻ ($1, 3, 5$), nên số cặp gồm hai số lẻ là $n(\overline{A})=3\cdot3=9$ trong $36$ cặp.
+
+Do đó
+$$P(\overline{A})=\frac{9}{36}=\frac14,\qquad P(A)=1-P(\overline{A})=1-\frac{9}{36}=\frac34.$$
+
+Vậy xác suất để tích hai số chấm là số chẵn là $\dfrac34$.
 
 **Đáp số.** $\dfrac34$.
 :::
@@ -273,13 +317,21 @@ d) Xác suất có ít nhất một bóng xanh là $\dfrac{7}{12}$.
 3. Đếm $C_7^3$ cho câu d).
 
 ::solution
-a) **Đúng**: $C_9^3=84$.
+Hộp có $4+3+2=9$ bóng. Lấy ngẫu nhiên cùng lúc $3$ bóng nên $n(\Omega)=C_9^3=84$.
 
-b) **Đúng**: $\dfrac{C_4^3}{84}=\dfrac{4}{84}=\dfrac{1}{21}$.
+a) **Đúng.** Số kết quả có thể là $C_9^3=\dfrac{9\cdot8\cdot7}{3\cdot2\cdot1}=84$.
 
-c) **Sai**: $\dfrac{4\cdot3\cdot2}{84}=\dfrac{24}{84}=\dfrac27$.
+b) **Đúng.** Số cách lấy $3$ bóng đỏ trong $4$ bóng đỏ là $C_4^3=4$. Do đó xác suất là
+$$\frac{C_4^3}{84}=\frac{4}{84}=\frac{1}{21}.$$
 
-d) **Đúng**: không có bóng xanh có $C_7^3=35$ cách, nên $P=1-\dfrac{35}{84}=\dfrac{49}{84}=\dfrac{7}{12}$.
+c) **Sai.** Lấy được đủ ba màu nghĩa là có đúng một bóng đỏ, một bóng vàng và một bóng xanh. Số cách lấy là $4\cdot3\cdot2=24$ (quy tắc nhân). Xác suất là
+$$\frac{4\cdot3\cdot2}{84}=\frac{24}{84}=\frac27.$$
+Vì $\dfrac27\ne\dfrac13$ nên mệnh đề sai.
+
+d) **Đúng.** Biến cố đối của "có ít nhất một bóng xanh" là "không có bóng xanh", tức là $3$ bóng được lấy từ $7$ bóng đỏ và vàng, có $C_7^3=35$ cách. Do đó
+$$P=1-\frac{35}{84}=\frac{49}{84}=\frac{7}{12}.$$
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -295,7 +347,16 @@ Rút ngẫu nhiên ba lá bài từ bộ bài $52$ lá. Tính xác suất để 
 2. Chia rồi làm tròn.
 
 ::solution
-$P=\dfrac{C_{13}^3}{C_{52}^3}=\dfrac{286}{22\,100}=\dfrac{11}{850}\approx 0{,}013$.
+Gọi $A$ là biến cố "cả ba lá bài rút được đều là lá cơ". Bộ bài có $52$ lá, trong đó có $13$ lá cơ.
+
+Rút ngẫu nhiên ba lá bài từ $52$ lá nên $n(\Omega)=C_{52}^3=\dfrac{52\cdot51\cdot50}{3\cdot2\cdot1}=22\,100$.
+
+Số kết quả thuận lợi cho $A$ là số cách chọn $3$ lá trong $13$ lá cơ: $n(A)=C_{13}^3=\dfrac{13\cdot12\cdot11}{3\cdot2\cdot1}=286$.
+
+Do đó
+$$P(A)=\frac{C_{13}^3}{C_{52}^3}=\frac{286}{22\,100}=\frac{11}{850}\approx 0{,}013.$$
+
+Vậy xác suất để cả ba lá đều là lá cơ xấp xỉ $0{,}013$ (làm tròn đến hàng phần nghìn).
 
 **Đáp số.** $0{,}013$.
 :::
@@ -311,7 +372,14 @@ Một nhóm có $5$ nam và $4$ nữ. Chọn ngẫu nhiên $4$ người. Tính x
 2. Tính $n(A)$ rồi chia.
 
 ::solution
-$n(\Omega)=C_9^4=126$, $n(A)=C_5^2\cdot C_4^2=10\cdot6=60$, nên $P=\dfrac{60}{126}=\dfrac{10}{21}$.
+Gọi $A$ là biến cố "chọn được đúng $2$ nam và $2$ nữ". Nhóm có $5+4=9$ người, chọn ngẫu nhiên $4$ người nên $n(\Omega)=C_9^4=\dfrac{9\cdot8\cdot7\cdot6}{4\cdot3\cdot2\cdot1}=126$.
+
+Để có đúng $2$ nam và $2$ nữ, ta chọn $2$ nam trong $5$ nam ($C_5^2=10$ cách) và chọn $2$ nữ trong $4$ nữ ($C_4^2=6$ cách). Theo quy tắc nhân, $n(A)=C_5^2\cdot C_4^2=10\cdot6=60$.
+
+Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{60}{126}=\frac{10}{21}.$$
+
+Vậy xác suất để chọn được đúng $2$ nam và $2$ nữ là $\dfrac{10}{21}$.
 
 **Đáp số.** $\dfrac{10}{21}$.
 :::
@@ -327,9 +395,20 @@ Gieo ba con xúc xắc cân đối. Tính xác suất để a) tổng số chấ
 2. Câu b): biến cố đối là "không con nào ra mặt sáu", có $5^3$ kết quả.
 
 ::solution
-a) Các bộ có tổng $9$: $\{1; 2; 6\}$, $\{1; 3; 5\}$, $\{2; 3; 4\}$ (mỗi bộ $6$ cách sắp), $\{1; 4; 4\}$, $\{2; 2; 5\}$ (mỗi bộ $3$ cách), $\{3; 3; 3\}$ ($1$ cách): tổng $18+6+1=25$, nên $P=\dfrac{25}{216}$.
+Gieo ba con xúc xắc cân đối, mỗi con có $6$ mặt nên $n(\Omega)=6^3=216$ kết quả đồng khả năng (các bộ ba số có thứ tự).
 
-b) $P=1-\dfrac{125}{216}=\dfrac{91}{216}$.
+a) Gọi $A$ là biến cố "tổng số chấm bằng $9$". Các bộ ba số (không kể thứ tự) từ $1$ đến $6$ có tổng $9$ là $\{1; 2; 6\}$, $\{1; 3; 5\}$, $\{2; 3; 4\}$, $\{1; 4; 4\}$, $\{2; 2; 5\}$ và $\{3; 3; 3\}$. Ta đếm số cách sắp thứ tự cho từng bộ:
+
+- Ba bộ gồm ba số khác nhau $\{1; 2; 6\}$, $\{1; 3; 5\}$, $\{2; 3; 4\}$: mỗi bộ có $3!=6$ cách sắp, tổng cộng $3\cdot6=18$.
+- Hai bộ có hai số bằng nhau $\{1; 4; 4\}$, $\{2; 2; 5\}$: mỗi bộ có $3$ cách sắp, tổng cộng $2\cdot3=6$.
+- Bộ ba số bằng nhau $\{3; 3; 3\}$: có $1$ cách.
+
+Số kết quả thuận lợi là $n(A)=18+6+1=25$. Do đó $P(A)=\dfrac{25}{216}$.
+
+b) Gọi $B$ là biến cố "có ít nhất một con xuất hiện mặt sáu chấm". Biến cố đối $\overline{B}$ là "không con nào xuất hiện mặt sáu chấm", tức mỗi con xuất hiện một trong $5$ mặt $1, 2, 3, 4, 5$, nên $n(\overline{B})=5^3=125$. Do đó
+$$P(B)=1-P(\overline{B})=1-\frac{125}{216}=\frac{91}{216}.$$
+
+Vậy xác suất để tổng số chấm bằng $9$ là $\dfrac{25}{216}$, và xác suất để có ít nhất một con xuất hiện mặt sáu chấm là $\dfrac{91}{216}$.
 
 **Đáp số.** a) $\dfrac{25}{216}$; b) $\dfrac{91}{216}$.
 :::
@@ -345,7 +424,16 @@ Năm bạn, trong đó có An và Bình, ngồi ngẫu nhiên vào một hàng g
 2. Xếp "khối" An–Bình cùng $3$ bạn còn lại: $4!$ cách, nhân $2$ vì An và Bình đổi chỗ được.
 
 ::solution
-$n(\Omega)=5!=120$, $n(A)=2\cdot4!=48$, nên $P=\dfrac{48}{120}=\dfrac25$.
+Gọi $A$ là biến cố "An và Bình ngồi cạnh nhau". Xếp $5$ bạn vào hàng ghế $5$ chỗ là một hoán vị của $5$ phần tử, nên $n(\Omega)=5!=120$.
+
+Để đếm $n(A)$, ta coi An và Bình là một "khối" ngồi liền nhau. Khi đó có $4$ đối tượng cần xếp (khối này và $3$ bạn còn lại), có $4!=24$ cách. Trong mỗi khối, An và Bình có thể đổi chỗ cho nhau, có $2!=2$ cách.
+
+Theo quy tắc nhân, $n(A)=2\cdot4!=2\cdot24=48$.
+
+Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{48}{120}=\frac25.$$
+
+Vậy xác suất để An và Bình ngồi cạnh nhau là $\dfrac25$.
 
 **Đáp số.** $\dfrac25$.
 :::

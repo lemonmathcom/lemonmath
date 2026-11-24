@@ -225,7 +225,17 @@ Write parametric equations of the line through $A(2, -1, 3)$ with direction vect
 3. Find $t$ from the x-coordinate of $B$, then check the other two coordinates.
 
 ::solution
-$x=2+t$, $y=-1+4t$, $z=3-2t$. For $t=-1$: $(1, -5, 5)$. For $B$: $2+t=4$ gives $t=2$; then $y=7$ and $z=-1$, which match.
+The line through $A(2, -1, 3)$ with direction vector $\vec{u}=(1, 4, -2)$ has parametric equations
+$$\begin{cases}x=2+t\\ y=-1+4t\\ z=3-2t\end{cases}\quad(t\in\mathbb{R}).$$
+
+For $t=-1$ we get $x=2-1=1$, $y=-1-4=-5$, $z=3+2=5$. So the point for $t=-1$ is $(1, -5, 5)$.
+
+To check $B(4, 7, -1)$, we find $t$ from the $x$-coordinate: $2+t=4$, so $t=2$. Substituting $t=2$ into the other two equations:
+$$y=-1+4\cdot2=7,\qquad z=3-2\cdot2=-1.$$
+
+These agree with the $y$- and $z$-coordinates of $B$.
+
+So the point for $t=-1$ is $(1, -5, 5)$ and $B$ lies on the line (for $t=2$).
 
 **Answer.** $(1, -5, 5)$; $B$ lies on the line (for $t=2$).
 :::
@@ -241,8 +251,16 @@ Write parametric and Cartesian equations of the line through $A(1, 0, -2)$ and $
 2. Write both forms using the point $A$.
 
 ::solution
-$\overrightarrow{AB}=(2, 2, 1)$.
-$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+The line through $A(1, 0, -2)$ and $B(3, 2, -1)$ has direction vector
+$$\overrightarrow{AB}=(3-1, 2-0, -1-(-2))=(2, 2, 1).$$
+
+The parametric equations of the line through $A$ with direction vector $\overrightarrow{AB}$ are
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\quad(t\in\mathbb{R}).$$
+
+Since all three coordinates of the direction vector are non-zero, the Cartesian equations are
+$$\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+So the line $AB$ has the parametric and Cartesian equations given above.
 
 **Answer.** As above.
 :::
@@ -258,9 +276,15 @@ Write the equation of the line $d$ through $M(1, -1, 2)$ perpendicular to $(P): 
 2. Substitute into $(P)$ and solve for $t$.
 
 ::solution
-$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Substituting into $(P)$:
+Since $d$ is perpendicular to $(P): 2x-y+3z+5=0$, the normal vector $\vec{n}_P=(2, -1, 3)$ of $(P)$ is a direction vector of $d$. The line $d$ passes through $M(1, -1, 2)$, so it has equations
+$$d:\ \begin{cases}x=1+2t\\ y=-1-t\\ z=2+3t\end{cases}\quad(t\in\mathbb{R}).$$
+
+The point where $d$ meets $(P)$ corresponds to the value of $t$ satisfying the equation of $(P)$. Substituting the coordinates in terms of $t$ into $(P)$, we get
 $$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
-The point of intersection is $(-1, 0, -1)$.
+
+Substituting $t=-1$ into the equations of $d$: $x=1-2=-1$, $y=-1+1=0$, $z=2-3=-1$.
+
+So the point where $d$ meets $(P)$ is $(-1, 0, -1)$.
 
 **Answer.** $(-1, 0, -1)$.
 :::
@@ -276,8 +300,16 @@ Write parametric and Cartesian equations of the line through $M(0, 1, -1)$ paral
 2. Write the equations through $M$.
 
 ::solution
-$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
-$M$ does not lie on $\Delta$ (because $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), so this line is parallel to $\Delta$, not the same line.
+From its Cartesian equations, the line $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$ has direction vector $\vec{u}_\Delta=(2, -1, 3)$.
+
+The required line is parallel to $\Delta$, so $\vec{u}_\Delta=(2, -1, 3)$ is a direction vector of it, and it passes through $M(0, 1, -1)$. Its parametric equations are
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\quad(t\in\mathbb{R}),$$
+and its Cartesian equations are
+$$\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+
+To check whether $M$ lies on $\Delta$, we substitute its coordinates into the equations of $\Delta$: $\dfrac{0-1}{2}=-\dfrac12$ and $\dfrac{1+3}{-1}=-4$. Since $-\dfrac12\ne-4$, we have $M\notin\Delta$.
+
+So the required line has the equations above; it is parallel to $\Delta$ and is not the same line as $\Delta$.
 
 **Answer.** As above.
 :::
@@ -302,13 +334,19 @@ d) $d_1$ is perpendicular to the plane $(P): 2x-y+z=0$.
 3. Compare $\vec{u}_1$ with $\vec{n}_P$.
 
 ::solution
-a) **True.** The coefficients of $t$ are $2$, $-1$, $1$.
+The line $d_1$ passes through the point $(1, 0, 3)$ (for $t=0$). The line $d_2$ has direction vector $\vec{u}_2=(-4, 2, -2)$.
 
-b) **True.** $t=1$ gives $(3, -1, 4)$.
+a) **True.** The coefficients of $t$ in the parametric equations of $d_1$ are $2$, $-1$, $1$, so $\vec{u}_1=(2, -1, 1)$ is a direction vector of $d_1$.
 
-c) **False.** $\vec{u}_2=(-4, 2, -2)=-2\vec{u}_1$, and $M(3, -1, 4)$ also lies on $d_2$, so the two lines coincide.
+b) **True.** For $t=1$ we get $x=1+2=3$, $y=-1$, $z=3+1=4$, that is $(3, -1, 4)$. So $M(3, -1, 4)$ lies on $d_1$.
 
-d) **True.** $\vec{n}_P=(2, -1, 1)=\vec{u}_1$.
+c) **False.** We have $\vec{u}_2=(-4, 2, -2)=-2\vec{u}_1$, so the two direction vectors are parallel. Moreover $M(3, -1, 4)$ lies on $d_1$ by part b), and it also lies on $d_2$ because
+$$\frac{3-3}{-4}=\frac{-1+1}{2}=\frac{4-4}{-2}=0.$$
+The two lines share the point $M$, so they coincide; they are not parallel.
+
+d) **True.** The plane $(P): 2x-y+z=0$ has normal vector $\vec{n}_P=(2, -1, 1)=\vec{u}_1$. The direction vector of $d_1$ is parallel to the normal vector of $(P)$, so $d_1\perp(P)$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -324,7 +362,19 @@ An aeroplane takes off from the point $O(0, 0, 0)$ and flies in a straight line,
 2. The point on the ground is $(80t, 60t, 0)$; find its distance from $O$.
 
 ::solution
-$t=150$ seconds. The point on the ground is $(12000, 9000, 0)$, at distance $\sqrt{12000^2+9000^2}=15000$ m from $O$.
+Let $t$ (seconds) be the flying time, $t>0$. Each second the aeroplane moves by the vector $\vec{v}=(80, 60, 10)$, so after $t$ seconds its position is
+$$(80t, 60t, 10t)\ (\text{metres}).$$
+
+The aeroplane reaches a height of $1500$ m when $10t=1500$, so $t=150$ (seconds), which satisfies $t>0$.
+
+Then the aeroplane is at $(80\cdot150, 60\cdot150, 1500)=(12000, 9000, 1500)$. The point on the ground directly below it (in the plane $z=0$) is $(12000, 9000, 0)$.
+
+The distance from this point to $O$ is
+$$\sqrt{12000^2+9000^2}=\sqrt{144000000+81000000}=\sqrt{225000000}=15000\ (\text{m}).$$
+
+Converting units: $15000$ m $=15$ km.
+
+So when the aeroplane reaches a height of $1500$ m, the point on the ground directly below it is $15$ kilometres from $O$.
 
 **Answer.** $15$.
 :::
@@ -340,9 +390,22 @@ Let $d: x=2+t$, $y=1-t$, $z=3+2t$. Decide the position of $d$ relative to $(P_1)
 2. Count the solutions.
 
 ::solution
-$(P_1)$: $(2+t)+(1-t)-1=2=0$, impossible, so $d\parallel(P_1)$.
-$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ for every $t$, so $d$ lies in $(P_2)$.
-$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, and the point of intersection is $\left(\dfrac52, \dfrac12, 4\right)$.
+The line $d$ passes through $A(2, 1, 3)$ (for $t=0$) and has direction vector $\vec{u}=(1, -1, 2)$. To decide the position of $d$ relative to each plane, we substitute the coordinates in terms of $t$ into the equation of the plane.
+
+For $(P_1): x+y-1=0$:
+$$(2+t)+(1-t)-1=2=0,$$
+which is impossible, so $d$ and $(P_1)$ have no common point. Hence $d\parallel(P_1)$.
+
+For $(P_2): x+3y+z-8=0$:
+$$(2+t)+3(1-t)+(3+2t)-8=(2+3+3-8)+(t-3t+2t)=0$$
+for every $t$, so every point of $d$ lies in $(P_2)$. Hence $d$ lies in $(P_2)$.
+
+For $(P_3): x-y+z-6=0$:
+$$(2+t)-(1-t)+(3+2t)-6=4t-2=0\iff t=\frac12.$$
+
+The equation has exactly one solution, so $d$ meets $(P_3)$. Substituting $t=\dfrac12$ into the equations of $d$: $x=\dfrac52$, $y=\dfrac12$, $z=4$.
+
+So $d$ is parallel to $(P_1)$, lies in $(P_2)$ and meets $(P_3)$ at the point $\left(\dfrac52, \dfrac12, 4\right)$.
 
 **Answer.** Parallel to $(P_1)$; lies in $(P_2)$; meets $(P_3)$ at $\left(\dfrac52, \dfrac12, 4\right)$.
 :::
@@ -358,7 +421,18 @@ Decide the position of the lines $d_1: x=1+t$, $y=1-t$, $z=2t$ and $d_2: x=1+2s$
 2. Solve the first two equations, then test the third.
 
 ::solution
-The vectors are not parallel. From $1+t=1+2s$ and $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, so $s=1$, $t=2$. The third equation: $2\cdot2=5-1$, which holds.
+The line $d_1$ has direction vector $\vec{u}_1=(1, -1, 2)$ and the line $d_2$ has direction vector $\vec{u}_2=(2, 1, -1)$. Since $\dfrac12\ne\dfrac{-1}{1}$, the two vectors are not parallel, so $d_1$ and $d_2$ are neither parallel nor coincident.
+
+To find the point of intersection (if any), we equate the coordinates and solve the system in $t$ and $s$:
+$$\begin{cases}1+t=1+2s\\ 1-t=-2+s\\ 2t=5-s.\end{cases}$$
+
+From the first equation, $t=2s$. Substituting into the second: $1-2s=-2+s\iff3s=3\iff s=1$, so $t=2$.
+
+Substituting $t=2$, $s=1$ into the third equation: $2\cdot2=4$ and $5-1=4$, which holds. The system has the unique solution $(t, s)=(2, 1)$, so the lines intersect.
+
+Substituting $t=2$ into $d_1$: $x=1+2=3$, $y=1-2=-1$, $z=2\cdot2=4$. (Substituting $s=1$ into $d_2$ also gives $(3, -1, 4)$.)
+
+So $d_1$ and $d_2$ intersect at the point $(3, -1, 4)$.
 
 **Answer.** They intersect at $(3, -1, 4)$.
 :::
@@ -374,7 +448,18 @@ The vectors are not parallel. From $1+t=1+2s$ and $1-t=-2+s$: $t=2s$, $1-2s=-2+s
 2. Solve $1+2t=7$ and check.
 
 ::solution
-$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. From $1+2t=7$ we get $t=3$; then $y=-1$ and $z=5$, which match $C$.
+The line $AB$ passes through $A(1, 2, -1)$ and has direction vector
+$$\overrightarrow{AB}=(3-1, 1-2, 1-(-1))=(2, -1, 2).$$
+
+The parametric equations of the line $AB$ are
+$$\begin{cases}x=1+2t\\ y=2-t\\ z=-1+2t\end{cases}\quad(t\in\mathbb{R}).$$
+
+The point $C(7, -1, 5)$ corresponds to the value of $t$ with $1+2t=7$, so $t=3$. Substituting $t=3$ into the other two equations:
+$$y=2-3=-1,\qquad z=-1+2\cdot3=5.$$
+
+These agree with the $y$- and $z$-coordinates of $C$, so $C$ lies on the line $AB$ and corresponds to $t=3$.
+
+So the value of $t$ for the point $C$ is $t=3$, which agrees with $\overrightarrow{AC}=3\overrightarrow{AB}$ from the previous lesson.
 
 **Answer.** $t=3$, which agrees with $\overrightarrow{AC}=3\overrightarrow{AB}$ from the previous lesson.
 :::
@@ -390,10 +475,27 @@ A laser beam starts at $A(1, 2, 3)$, reflects off a flat mirror lying in the pla
 2. Use the line $A'B$ and find where it meets $(P)$.
 
 ::solution
-The line through $A$ perpendicular to $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Substituting into $(P)$: $9+9t=0$, $t=-1$, so $H(0, 0, 1)$ and $A'(-1, -2, -1)$.
-Substituting $A'$ and $B$ into the left-hand side of $(P)$ gives $-9$ and $9$, so $A'$ and $B$ are on opposite sides at equal distances from $(P)$; therefore $M$ is the midpoint of $A'B$:
-$$M\left(1, 0, \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
-The beam travels a distance $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6.40$.
+Let $A'$ be the reflection of $A(1, 2, 3)$ in $(P): x+2y+2z-2=0$. The plane $(P)$ has normal vector $\vec{n}_P=(1, 2, 2)$.
+
+The line through $A$ perpendicular to $(P)$ has direction vector $\vec{n}_P$, so its equations are
+$$\begin{cases}x=1+t\\ y=2+2t\\ z=3+2t.\end{cases}$$
+
+Let $H$ be the point where this line meets $(P)$. Substituting into $(P)$:
+$$(1+t)+2(2+2t)+2(3+2t)-2=9+9t=0\iff t=-1.$$
+
+So $H(0, 0, 1)$. Since $H$ is the midpoint of $AA'$,
+$$A'=(2\cdot0-1, 2\cdot0-2, 2\cdot1-3)=(-1, -2, -1).$$
+
+Substituting the coordinates into the left-hand side of $(P)$: for $A'$ we get $-1-4-2-2=-9$, and for $B(3, 2, 2)$ we get $3+4+4-2=9$. The values have opposite signs, so $A'$ and $B$ lie on opposite sides of $(P)$; they have equal absolute values, so $A'$ and $B$ are at equal distances from $(P)$.
+
+Hence the segment $A'B$ meets $(P)$ at its midpoint. Since the path $A\to M\to B$ is shortest when $M$ lies on the segment $A'B$ and $M\in(P)$, the point $M$ is the midpoint of $A'B$:
+$$M=\left(\frac{-1+3}{2}, \frac{-2+2}{2}, \frac{-1+2}{2}\right)=\left(1, 0, \frac12\right).$$
+
+Check: $1+2\cdot0+2\cdot\dfrac12-2=0$, so $M\in(P)$.
+
+The beam then travels a distance $A'B=\sqrt{4^2+4^2+3^2}=\sqrt{41}\approx6.40$.
+
+So the point of the mirror where the beam reflects is $M\left(1, 0, \dfrac12\right)$.
 
 **Answer.** $M\left(1, 0, \dfrac12\right)$.
 :::

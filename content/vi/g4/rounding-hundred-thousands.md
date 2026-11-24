@@ -195,7 +195,13 @@ Làm tròn $5\,683\,200$ đến hàng trăm nghìn.
 2. So sánh chữ số hàng chục nghìn với $5$.
 
 ::solution
-Chữ số hàng trăm nghìn là $6$, chữ số hàng chục nghìn là $8$. Vì $8\geq5$ nên tăng $6$ lên $7$ và thay các chữ số bên phải bằng $0$.
+Để làm tròn $5\,683\,200$ đến hàng trăm nghìn, ta nhìn chữ số hàng trăm nghìn và chữ số ở hàng bên phải nó.
+
+Chữ số hàng trăm nghìn là $6$, chữ số hàng chục nghìn là $8$.
+
+Vì $8\geq5$ nên ta làm tròn lên: tăng $6$ lên $7$ và thay các chữ số bên phải bằng $0$.
+
+Vậy số $5\,683\,200$ làm tròn đến hàng trăm nghìn là $5\,700\,000$.
 
 **Đáp số.** $5\,700\,000$.
 :::
@@ -211,7 +217,13 @@ Làm tròn $417\,305$ đến hàng trăm nghìn.
 2. Làm tròn theo quy tắc.
 
 ::solution
-Chữ số hàng trăm nghìn là $4$, chữ số hàng chục nghìn là $1$. Vì $1<5$ nên giữ nguyên $4$ và thay các chữ số bên phải bằng $0$.
+Để làm tròn $417\,305$ đến hàng trăm nghìn, ta nhìn chữ số hàng trăm nghìn và chữ số hàng chục nghìn.
+
+Chữ số hàng trăm nghìn là $4$, chữ số hàng chục nghìn là $1$.
+
+Vì $1<5$ nên ta làm tròn xuống: giữ nguyên $4$ và thay các chữ số bên phải bằng $0$.
+
+Vậy số $417\,305$ làm tròn đến hàng trăm nghìn là $400\,000$.
 
 **Đáp số.** $400\,000$.
 :::
@@ -227,7 +239,13 @@ Làm tròn $850\,000$ đến hàng trăm nghìn.
 2. Làm tròn theo quy tắc.
 
 ::solution
-Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
+Để làm tròn $850\,000$ đến hàng trăm nghìn, ta nhìn chữ số hàng trăm nghìn và chữ số hàng chục nghìn.
+
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$.
+
+Vì $5\geq5$ nên ta làm tròn lên: tăng $8$ lên $9$ và thay các chữ số bên phải bằng $0$.
+
+Vậy số $850\,000$ làm tròn đến hàng trăm nghìn là $900\,000$.
 
 **Đáp số.** $900\,000$.
 :::
@@ -243,7 +261,15 @@ Làm tròn $726\,481$ đến hàng nghìn, đến hàng chục nghìn và đến
 2. Làm tròn đến hàng chục nghìn, rồi đến hàng trăm nghìn.
 
 ::solution
-Đến hàng nghìn: chữ số hàng trăm là $4<5$, giữ nguyên $6$, được $726\,000$. Đến hàng chục nghìn: chữ số hàng nghìn là $6\geq5$, tăng $2$ lên $3$, được $730\,000$. Đến hàng trăm nghìn: chữ số hàng chục nghìn là $2<5$, giữ nguyên $7$, được $700\,000$.
+Ta làm tròn số $726\,481$ lần lượt đến từng hàng. Mỗi lần, ta nhìn chữ số ở hàng bên phải hàng cần làm tròn.
+
+Làm tròn đến hàng nghìn: chữ số hàng nghìn là $6$, chữ số hàng trăm là $4$. Vì $4<5$ nên giữ nguyên $6$, được $726\,000$.
+
+Làm tròn đến hàng chục nghìn: chữ số hàng chục nghìn là $2$, chữ số hàng nghìn là $6$. Vì $6\geq5$ nên tăng $2$ lên $3$, được $730\,000$.
+
+Làm tròn đến hàng trăm nghìn: chữ số hàng trăm nghìn là $7$, chữ số hàng chục nghìn là $2$. Vì $2<5$ nên giữ nguyên $7$, được $700\,000$.
+
+Vậy số $726\,481$ làm tròn đến hàng nghìn, hàng chục nghìn, hàng trăm nghìn lần lượt là $726\,000$, $730\,000$, $700\,000$.
 
 **Đáp số.** $726\,000$; $730\,000$; $700\,000$.
 :::
@@ -262,9 +288,14 @@ Một thành phố (số liệu giả định) có $3\,856\,000$ người. Hỏi
 ::solution
 Bài giải
 
-Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
+Để làm tròn $3\,856\,000$ đến hàng trăm nghìn, ta nhìn chữ số hàng trăm nghìn và chữ số hàng chục nghìn.
 
-Số người khoảng $3\,900\,000$.
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên ta làm tròn lên: tăng $8$ lên $9$ và thay các chữ số bên phải bằng $0$.
+
+Số người của thành phố khoảng:
+$$3\,900\,000\ \text{(người)}.$$
+
+Vậy thành phố có khoảng $3\,900\,000$ người.
 
 **Đáp số.** Khoảng $3\,900\,000$ người.
 :::
@@ -282,9 +313,17 @@ Hai trận đấu (số liệu giả định) có $41\,280$ khán giả và $57\
 ::solution
 Bài giải
 
-Tổng số khán giả là:
+Tổng số khán giả của cả hai trận là:
 $$41\,280+57\,340=98\,620\ \text{(người)}.$$
-Chữ số hàng chục nghìn là $9$, chữ số hàng nghìn là $8\geq5$ nên tăng $9$ lên $10$, được $100\,000$.
+
+Để làm tròn $98\,620$ đến hàng chục nghìn, ta nhìn chữ số hàng chục nghìn và chữ số hàng nghìn.
+
+Chữ số hàng chục nghìn là $9$, chữ số hàng nghìn là $8$. Vì $8\geq5$ nên ta làm tròn lên: tăng $9$ lên $10$ (tức là $10$ chục nghìn) và thay các chữ số bên phải bằng $0$. Ta được $100\,000$.
+
+Số khán giả khoảng:
+$$100\,000\ \text{(người)}.$$
+
+Vậy cả hai trận có khoảng $100\,000$ khán giả.
 
 **Đáp số.** Khoảng $100\,000$ khán giả.
 :::
@@ -300,7 +339,15 @@ Viết $6$ số tự nhiên liên tiếp sau số $999\,997$.
 2. Cứ thêm $1$ để được số tiếp theo.
 
 ::solution
-Ta có $999\,997+1=999\,998$, rồi $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
+Số tự nhiên liền sau một số bằng số đó cộng thêm $1$. Ta lần lượt cộng thêm $1$ vào số $999\,997$.
+
+Ta có $999\,997+1=999\,998$.
+
+Tiếp theo $999\,998+1=999\,999$, rồi $999\,999+1=1\,000\,000$.
+
+Tiếp tục: $1\,000\,000+1=1\,000\,001$, rồi $1\,000\,001+1=1\,000\,002$, rồi $1\,000\,002+1=1\,000\,003$.
+
+Vậy $6$ số tự nhiên liên tiếp sau số $999\,997$ là $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 
 **Đáp số.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 :::
@@ -316,7 +363,17 @@ Em hãy nhớ lại bài so sánh các số có nhiều chữ số. So sánh $2\
 2. So sánh hai số.
 
 ::solution
-Số làm tròn là $2\,500\,000$. Hai số đều có bảy chữ số. Hàng triệu: $2=2$. Hàng trăm nghìn: $4<5$. Vậy $2\,467\,891<2\,500\,000$.
+Trước hết ta làm tròn $2\,467\,891$ đến hàng trăm nghìn. Chữ số hàng trăm nghìn là $4$, chữ số hàng chục nghìn là $6\geq5$ nên tăng $4$ lên $5$. Số làm tròn là $2\,500\,000$.
+
+Bây giờ ta so sánh $2\,467\,891$ và $2\,500\,000$. Hai số đều có bảy chữ số.
+
+Hàng triệu: $2=2$.
+
+Hàng trăm nghìn: $4<5$.
+
+Do đó $2\,467\,891<2\,500\,000$.
+
+Vậy số làm tròn $2\,500\,000$ lớn hơn số ban đầu $2\,467\,891$.
 
 **Đáp số.** Số làm tròn $2\,500\,000$ lớn hơn số ban đầu.
 :::
@@ -332,7 +389,15 @@ Nam làm tròn $3\,548\,200$ đến hàng trăm nghìn được $3\,600\,000$. E
 2. Làm tròn lại cho đúng.
 
 ::solution
-Chữ số hàng trăm nghìn là $5$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $5$ và thay các chữ số bên phải bằng $0$, được $3\,500\,000$. Nam đã nhìn chữ số hàng nghìn là $8$ nên làm tròn lên sai.
+Ta làm tròn lại $3\,548\,200$ đến hàng trăm nghìn.
+
+Chữ số hàng trăm nghìn là $5$, chữ số hàng chục nghìn là $4$.
+
+Vì $4<5$ nên ta làm tròn xuống: giữ nguyên $5$ và thay các chữ số bên phải bằng $0$. Ta được $3\,500\,000$.
+
+Kết quả của Nam là $3\,600\,000\ne3\,500\,000$ nên Nam sai. Nam đã nhìn chữ số hàng nghìn là $8$ (thay vì chữ số hàng chục nghìn là $4$) nên làm tròn lên sai.
+
+Vậy Nam làm sai; kết quả đúng là $3\,500\,000$.
 
 **Đáp số.** Nam sai; kết quả đúng là $3\,500\,000$.
 :::
@@ -348,9 +413,15 @@ Tìm số tự nhiên có sáu chữ số bé nhất và lớn nhất mà khi l�
 2. Số lớn nhất: chữ số hàng trăm nghìn là $5$ và phải làm tròn xuống.
 
 ::solution
-Số bé nhất: bắt đầu bằng $4$ và chữ số hàng chục nghìn phải từ $5$ trở lên nên số bé nhất là $450\,000$. Số lớn nhất: bắt đầu bằng $5$ và chữ số hàng chục nghìn phải bé hơn $5$ nên số lớn nhất là $549\,999$.
+Ta tìm các số tự nhiên có sáu chữ số mà khi làm tròn đến hàng trăm nghìn thì được $500\,000$.
 
-**Thử lại.** $449\,999$ làm tròn thành $400\,000$ và $550\,000$ làm tròn thành $600\,000$, đều khác $500\,000$.
+Số bé nhất: số đó bắt đầu bằng chữ số $4$ ở hàng trăm nghìn và phải làm tròn lên $5$, nên chữ số hàng chục nghìn phải từ $5$ trở lên. Số bé nhất là $450\,000$.
+
+Số lớn nhất: số đó bắt đầu bằng chữ số $5$ ở hàng trăm nghìn và phải làm tròn xuống, nên chữ số hàng chục nghìn phải bé hơn $5$. Số lớn nhất là $549\,999$.
+
+*Thử lại.* Số $449\,999$ làm tròn thành $400\,000$ và số $550\,000$ làm tròn thành $600\,000$, đều khác $500\,000$. Vậy không có số nào bé hơn $450\,000$ hay lớn hơn $549\,999$ thỏa mãn.
+
+Vậy số bé nhất là $450\,000$ và số lớn nhất là $549\,999$.
 
 **Đáp số.** $450\,000$ và $549\,999$.
 :::

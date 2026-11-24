@@ -165,7 +165,13 @@ $$21,\ 22,\ \square,\ 24,\ \square,\ 26.$$
 2. Số nào đứng sau 22? Số nào đứng sau 24?
 
 ::solution
-Số liền sau của 22 là 23, số liền sau của 24 là 25.
+Trong dãy số này, mỗi số liền sau hơn số liền trước $1$ đơn vị.
+
+Số liền sau của $22$ là $22+1=23$. Số liền sau của $24$ là $24+1=25$.
+
+*Kiểm tra.* Dãy số là $21$, $22$, $23$, $24$, $25$, $26$, tăng dần từng số một. Đúng.
+
+Vậy hai số cần điền là $23$ và $25$.
 
 **Đáp số.** 23 và 25.
 :::
@@ -181,7 +187,13 @@ Tìm số liền trước và số liền sau của 80.
 2. Số đứng ngay bên trái 80 là số nào?
 
 ::solution
-$$79,\ \mathbf{80},\ 81.$$
+Số liền trước của $80$ là số kém $80$ một đơn vị: $80-1=79$.
+
+Số liền sau của $80$ là số hơn $80$ một đơn vị: $80+1=81$.
+
+Ta được dãy $79$, $80$, $81$.
+
+Vậy số liền trước của $80$ là $79$ và số liền sau của $80$ là $81$.
 
 **Đáp số.** Số liền trước là 79, số liền sau là 81.
 :::
@@ -201,9 +213,15 @@ b) Số ít hơn 52 là 10 đơn vị là $\square$.
 2. Câu b: chỉ đổi số chục, chữ số cuối giữ nguyên.
 
 ::solution
-a) $52+10=62$.
+Số $52$ gồm $5$ chục và $2$ đơn vị. Trong bảng các số, đi xuống một hàng thì thêm $10$, đi lên một hàng thì bớt $10$.
 
-b) $52-10=42$.
+a) Số nhiều hơn $52$ là $10$ đơn vị là
+$$52+10=62.$$
+
+b) Số ít hơn $52$ là $10$ đơn vị là
+$$52-10=42.$$
+
+Vậy a) số cần điền là $62$; b) số cần điền là $42$.
 
 **Đáp số.** a) 62; b) 42.
 :::
@@ -220,10 +238,16 @@ $$\begin{array}{|c|c|c|} \hline 27 & \square & 29 \\ \hline \square & 38 & 39 \\
 2. Ô đầu hàng dưới nằm bên trái 38.
 
 ::solution
-Ô giữa hàng trên: số ở giữa 27 và 29 là 28.
-Ô đầu hàng dưới: $38-1=37$.
+Hai ô trống lần lượt nằm ở hàng trên và hàng dưới.
 
-**Kiểm tra.** $27+10=37$, đúng.
+Ô giữa ở hàng trên: số nằm giữa $27$ và $29$ là $28$.
+
+Ô đầu ở hàng dưới: số này đứng ngay trước $38$ nên bé hơn $38$ một đơn vị:
+$$38-1=37.$$
+
+*Kiểm tra.* Số $37$ nằm ngay dưới số $27$, mà $27+10=37$. Đúng.
+
+Vậy các số cần điền là $28$ và $37$.
 
 **Đáp số.** 28 và 37.
 :::
@@ -242,9 +266,14 @@ Giả sử trường có dãy tủ để giày, đánh số từ 1 đến 100 v�
 ::solution
 Bài giải
 
+Các tủ xếp như bảng các số. Tủ của Hà ở ngay dưới tủ của Mai nên số tủ của Hà hơn số tủ của Mai $10$.
+
 Tủ của Hà là số:
 $$62+10=72.$$
-Đáp số: tủ số 72.
+
+Vậy tủ của Hà là số $72$.
+
+**Đáp số.** Tủ số 72.
 :::
 
 :::exercise
@@ -259,9 +288,15 @@ $$45\ \square\ 54,\qquad 60\ \square\ 59,\qquad 71\ \square\ 17.$$
 2. Số nào đứng sau trong bảng thì lớn hơn.
 
 ::solution
-Số 45 có 4 chục, số 54 có 5 chục, nên $45<54$.
-Số 60 có 6 chục, số 59 có 5 chục, nên $60>59$.
-Số 71 có 7 chục, số 17 có 1 chục, nên $71>17$.
+Khi so sánh hai số có hai chữ số, ta so sánh số chục trước.
+
+Số $45$ có $4$ chục, số $54$ có $5$ chục. Vì $4<5$ nên $45<54$.
+
+Số $60$ có $6$ chục, số $59$ có $5$ chục. Vì $6>5$ nên $60>59$.
+
+Số $71$ có $7$ chục, số $17$ có $1$ chục. Vì $7>1$ nên $71>17$.
+
+Vậy các dấu cần điền lần lượt là $<$, $>$, $>$.
 
 **Đáp số.** $45<54$; $60>59$; $71>17$.
 :::
@@ -281,9 +316,13 @@ b) Phòng số 100 ở tầng mấy?
 2. Tìm số 47 và số 100 trong các số đó.
 
 ::solution
-a) Tầng 5 có các phòng số 41 đến 50. Số 47 nằm trong các số đó, nên phòng số 47 ở tầng 5.
+Mỗi tầng có $10$ phòng, các phòng được đánh số liên tiếp từ tầng $1$ lên: tầng $1$ có các phòng $1$ đến $10$, tầng $2$ có các phòng $11$ đến $20$, tầng $3$ có các phòng $21$ đến $30$, tầng $4$ có các phòng $31$ đến $40$, tầng $5$ có các phòng $41$ đến $50$.
 
-b) Tầng 10 có các phòng số 91 đến 100, nên phòng số 100 ở tầng 10.
+a) Số $47$ nằm trong các số từ $41$ đến $50$, nên phòng số $47$ ở tầng $5$.
+
+b) Tầng $10$ có các phòng $91$ đến $100$. Số $100$ nằm trong các số đó, nên phòng số $100$ ở tầng $10$.
+
+Vậy a) phòng số $47$ ở tầng $5$; b) phòng số $100$ ở tầng $10$.
 
 **Đáp số.** a) Tầng 5; b) tầng 10.
 :::
@@ -299,9 +338,14 @@ Các số có hai chữ số giống nhau là 11, 22, 33, …, 99. Hai số li�
 2. Từ 11 đến 22, em phải đi xuống mấy hàng và sang phải mấy ô?
 
 ::solution
-Từ 11 đến 22, em đi xuống 1 hàng (thêm 10) và sang phải 1 ô (thêm 1):
+Trong bảng các số, để đi từ $11$ đến $22$, em đi xuống $1$ hàng (thêm $10$) và sang phải $1$ ô (thêm $1$):
 $$11+10+1=22.$$
-Cứ như vậy, mỗi lần thêm 11.
+
+Từ $22$ đến $33$, từ $33$ đến $44$, … cũng làm như vậy, nên mỗi lần ta thêm $10+1=11$.
+
+*Kiểm tra.* $33-22=11$ và $44-33=11$. Đúng.
+
+Vậy hai số liền nhau trong dãy $11$, $22$, $33$, …, $99$ hơn kém nhau $11$ đơn vị, vì mỗi lần ta đi xuống một hàng và sang phải một ô.
 
 **Đáp số.** 11 đơn vị.
 :::

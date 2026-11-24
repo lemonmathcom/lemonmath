@@ -161,9 +161,13 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 1. Đổi số xăng-ti-mét ra mi-li-mét, rồi cộng thêm phần mi-li-mét.
 
 ::solution
-a) $6\ \text{cm}=6\times 10=60\ \text{mm}$.
+a) Vì $1\ \text{cm}=10\ \text{mm}$ nên ta nhân $6$ với $10$:
+$$6\ \text{cm}=6\times 10=60\ \text{mm}$$
 
-b) $7\ \text{cm}=70\ \text{mm}$, nên $7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$.
+b) Ta có $7\ \text{cm}=70\ \text{mm}$, nên:
+$$7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$$
+
+Vậy $6\ \text{cm}=60\ \text{mm}$ và $7\ \text{cm}\ 3\ \text{mm}=73\ \text{mm}$.
 
 **Đáp số.** a) $60$ mm; b) $73$ mm.
 :::
@@ -178,7 +182,13 @@ b) $7\ \text{cm}=70\ \text{mm}$, nên $7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+
 1. Tách $86\ \text{mm}$ thành $80\ \text{mm}$ và $6\ \text{mm}$.
 
 ::solution
-$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
+Ta tách $86\ \text{mm}$ thành số chục mi-li-mét và số còn lại:
+$$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}$$
+
+Vì $80\ \text{mm}=8\ \text{cm}$ nên:
+$$86\ \text{mm}=8\ \text{cm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$$
+
+Vậy $86\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
 
 **Đáp số.** $8\ \text{cm}\ 6\ \text{mm}$.
 :::
@@ -193,7 +203,12 @@ $86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
 1. Đổi $5\ \text{cm}\ 4\ \text{mm}$ ra mi-li-mét.
 
 ::solution
-$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$. Vì $54<56$ nên $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
+Để so sánh, ta đổi $5\ \text{cm}\ 4\ \text{mm}$ ra mi-li-mét:
+$$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$$
+
+So sánh hai số $54$ và $56$, ta thấy $54<56$.
+
+Vậy $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
 
 **Đáp số.** $<$.
 :::
@@ -209,9 +224,14 @@ Một sợi dây dài $150$ mm. Người ta cắt đi $68$ mm. Hỏi sợi dây 
 2. Viết phép trừ, đặt tính rồi thử lại.
 
 ::solution
+Bài giải
+
 Sợi dây còn lại dài là:
-$$150-68=82\ \text{(mm)}.$$
-Thử lại: $82+68=150$. Đúng.
+$$150-68=82\ \text{(mm)}$$
+
+Thử lại: $82+68=150$. Kết quả đúng.
+
+Vậy sợi dây còn lại dài $82$ mm.
 
 **Đáp số.** $82$ mm.
 :::
@@ -226,9 +246,13 @@ Thử lại: $82+68=150$. Đúng.
 1. Đổi số ki-lô-gam ra gam, rồi cộng thêm phần gam.
 
 ::solution
-a) $4\ \text{kg}=4\times 1000=4000\ \text{g}$.
+a) Vì $1\ \text{kg}=1000\ \text{g}$ nên ta nhân $4$ với $1000$:
+$$4\ \text{kg}=4\times 1000=4000\ \text{g}$$
 
-b) $2\ \text{kg}=2000\ \text{g}$, nên $2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$.
+b) Ta có $2\ \text{kg}=2000\ \text{g}$, nên:
+$$2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$$
+
+Vậy $4\ \text{kg}=4000\ \text{g}$ và $2\ \text{kg}\ 50\ \text{g}=2050\ \text{g}$.
 
 **Đáp số.** a) $4000$ g; b) $2050$ g.
 :::
@@ -244,9 +268,14 @@ Mẹ mua $800$ g thịt và $700$ g cá. Hỏi mẹ mua tất cả bao nhiêu ga
 2. Tách kết quả thành $1000\ \text{g}$ và phần còn lại.
 
 ::solution
+Bài giải
+
 Số gam thịt và cá mẹ mua tất cả là:
-$$800+700=1500\ \text{(g)}.$$
-Vì $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$ nên $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+$$800+700=1500\ \text{(g)}$$
+
+Ta đổi kết quả ra ki-lô-gam và gam: $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$. Vì $1000\ \text{g}=1\ \text{kg}$ nên $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+
+Vậy mẹ mua tất cả $1500$ g, tức là $1\ \text{kg}\ 500\ \text{g}$.
 
 **Đáp số.** $1500$ g, tức là $1\ \text{kg}\ 500\ \text{g}$.
 :::
@@ -262,10 +291,16 @@ Em nhớ lại bài gấp một số lên một số lần. Gói muối nặng $
 2. Cộng khối lượng hai gói.
 
 ::solution
-Gói đường nặng:
-$$200\times 3=600\ \text{(g)}.$$
-Cả hai gói nặng:
-$$200+600=800\ \text{(g)}.$$
+Bài giải
+
+Gói đường nặng gấp $3$ lần gói muối nên số gam của gói đường là:
+$$200\times 3=600\ \text{(g)}$$
+
+Cả hai gói nặng số gam là:
+$$200+600=800\ \text{(g)}$$
+
+Vậy cả hai gói nặng tất cả $800$ g.
+
 **Đáp số.** $800$ g.
 :::
 
@@ -280,10 +315,18 @@ Một chiếc thước dài $1$ m. Người ta cắt từ thước ra một đo�
 2. Lấy $1000$ trừ đi số đó.
 
 ::solution
-Ta có $1\ \text{m}=1000\ \text{mm}$. Hai đoạn cắt đi dài tất cả:
-$$250+400=650\ \text{(mm)}.$$
-Phần thước còn lại dài:
-$$1000-650=350\ \text{(mm)}.$$
+Bài giải
+
+Ta có $1\ \text{m}=1000\ \text{mm}$.
+
+Hai đoạn thước cắt đi dài tất cả là:
+$$250+400=650\ \text{(mm)}$$
+
+Phần thước còn lại dài là:
+$$1000-650=350\ \text{(mm)}$$
+
+Vậy phần thước còn lại dài $350$ mm.
+
 **Đáp số.** $350$ mm.
 :::
 

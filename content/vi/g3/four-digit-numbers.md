@@ -177,7 +177,9 @@ Vậy $3482>3428$.
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-a) Viết số: bảy nghìn hai trăm ba mươi tư. b) Đọc số $6805$.
+a) Viết số: bảy nghìn hai trăm ba mươi tư.
+
+b) Đọc số $6805$.
 
 ::hint
 **Kiến thức:** viết theo các hàng nghìn, trăm, chục, đơn vị.
@@ -186,9 +188,13 @@ a) Viết số: bảy nghìn hai trăm ba mươi tư. b) Đọc số $6805$.
 1. Có mấy nghìn, mấy trăm, mấy chục, mấy đơn vị?
 
 ::solution
-a) $7$ nghìn, $2$ trăm, $3$ chục, $4$ đơn vị: $7234$.
+Bài giải
 
-b) $6805$ có $6$ nghìn, $8$ trăm, $0$ chục, $5$ đơn vị, đọc là "sáu nghìn tám trăm linh năm".
+a) Số "bảy nghìn hai trăm ba mươi tư" có $7$ nghìn, $2$ trăm, $3$ chục và $4$ đơn vị. Viết các chữ số theo thứ tự từ hàng nghìn đến hàng đơn vị, ta được $7234$.
+
+b) Số $6805$ có $6$ nghìn, $8$ trăm, $0$ chục và $5$ đơn vị. Hàng chục là $0$ nên khi đọc ta nói "linh" trước chữ số $5$. Số này đọc là "sáu nghìn tám trăm linh năm".
+
+Vậy số cần viết ở câu a) là $7234$; số $6805$ ở câu b) đọc là "sáu nghìn tám trăm linh năm".
 
 **Đáp số.** a) $7234$; b) sáu nghìn tám trăm linh năm.
 :::
@@ -203,8 +209,19 @@ Phân tích số $4096$ thành tổng các nghìn, trăm, chục, đơn vị.
 1. Viết giá trị của từng chữ số.
 
 ::solution
-$4096$ có $4$ nghìn, $0$ trăm, $9$ chục, $6$ đơn vị:
+Bài giải
+
+Số $4096$ có $4$ nghìn, $0$ trăm, $9$ chục và $6$ đơn vị.
+
+Giá trị của từng hàng là: $4$ nghìn là $4000$; $9$ chục là $90$; $6$ đơn vị là $6$. Hàng trăm là $0$ nên không có số hạng nào ở hàng trăm.
+
+Do đó
 $$4096=4000+90+6.$$
+
+Thử lại: $4000+90=4090$, rồi $4090+6=4096$. Đúng.
+
+Vậy $4096=4000+90+6$.
+
 **Đáp số.** $4000+90+6$.
 :::
 
@@ -218,12 +235,26 @@ $$4096=4000+90+6.$$
 1. Thêm $500$ vào $8000$, rồi tiếp tục.
 
 ::solution
-$$8000,\ 8500,\ 9000,\ 9500,\ 10\,000.$$
+Bài giải
+
+Đếm thêm $500$ nghĩa là mỗi lần cộng thêm $500$ vào số đứng ngay trước nó. Ta có:
+$$8000+500=8500,\quad 8500+500=9000,\quad 9000+500=9500,\quad 9500+500=10\,000.$$
+
+Đến $10\,000$ thì dừng lại.
+
+Vậy các số đếm được là $8000$, $8500$, $9000$, $9500$, $10\,000$.
+
 **Đáp số.** $8000$, $8500$, $9000$, $9500$, $10\,000$.
 :::
 
 :::exercise
-Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $6548\ \ldots\ 6584$; b) $9999\ \ldots\ 10\,000$; c) $3000+500\ \ldots\ 3050$.
+Điền dấu $>$, $<$, $=$ vào chỗ chấm:
+
+a) $6548\ \ldots\ 6584$;
+
+b) $9999\ \ldots\ 10\,000$;
+
+c) $3000+500\ \ldots\ 3050$.
 
 ::hint
 **Kiến thức:** so sánh từ trái sang phải; số ít chữ số hơn thì bé hơn.
@@ -232,11 +263,15 @@ $$8000,\ 8500,\ 9000,\ 9500,\ 10\,000.$$
 1. Ở câu c, tính tổng trước rồi so sánh.
 
 ::solution
-a) Hàng nghìn, hàng trăm bằng nhau; hàng chục $4<8$, nên $6548<6584$.
+Bài giải
 
-b) $9999$ có bốn chữ số, $10\,000$ có năm chữ số, nên $9999<10\,000$.
+a) So sánh $6548$ và $6584$ từ hàng cao nhất: hàng nghìn $6=6$, hàng trăm $5=5$, hàng chục $4<8$. Do đó $6548<6584$.
 
-c) $3000+500=3500$ và $3500>3050$ (hàng trăm $5>0$).
+b) Số $9999$ có bốn chữ số, số $10\,000$ có năm chữ số. Số có nhiều chữ số hơn thì lớn hơn, nên $9999<10\,000$.
+
+c) Trước hết tính $3000+500=3500$. So sánh $3500$ và $3050$: hàng nghìn $3=3$, hàng trăm $5>0$. Do đó $3500>3050$, tức là $3000+500>3050$.
+
+Vậy các dấu cần điền lần lượt là $<$, $<$, $>$.
 
 **Đáp số.** a) $<$; b) $<$; c) $>$.
 :::
@@ -251,7 +286,17 @@ Trường $A$ có $1245$ học sinh, trường $B$ có $1254$ học sinh. Hỏi 
 1. Hai số khác nhau đầu tiên ở hàng nào?
 
 ::solution
-Hàng nghìn: $1=1$. Hàng trăm: $2=2$. Hàng chục: $4<5$. Vậy $1245<1254$.
+Bài giải
+
+Để biết trường nào có nhiều học sinh hơn, ta so sánh $1245$ và $1254$ từ hàng cao nhất:
+
+- Hàng nghìn: $1=1$.
+- Hàng trăm: $2=2$.
+- Hàng chục: $4<5$.
+
+Do đó $1245<1254$, tức là số học sinh trường $A$ ít hơn số học sinh trường $B$.
+
+Vậy trường $B$ có nhiều học sinh hơn.
 
 **Đáp số.** Trường $B$ có nhiều học sinh hơn.
 :::
@@ -266,15 +311,28 @@ Sắp xếp các số $7108$, $7180$, $7018$, $7801$ theo thứ tự từ lớn 
 1. Tìm số có hàng trăm lớn nhất.
 
 ::solution
-Hàng trăm: $8$ ở $7801$ lớn nhất. Ba số còn lại có hàng trăm là $1$, $1$, $0$: $7018$ bé nhất. Giữa $7180$ và $7108$, hàng chục $8>0$.
+Bài giải
 
-Thứ tự từ lớn đến bé: $7801>7180>7108>7018$.
+Bốn số đều có hàng nghìn là $7$. Ta so sánh tiếp hàng trăm: $7108$ có $1$ trăm, $7180$ có $1$ trăm, $7018$ có $0$ trăm, $7801$ có $8$ trăm.
+
+Số $7801$ có hàng trăm lớn nhất nên $7801$ là số lớn nhất. Số $7018$ có hàng trăm bé nhất nên $7018$ là số bé nhất.
+
+Còn lại $7180$ và $7108$ có cùng hàng trăm là $1$. Ta so sánh hàng chục: $8>0$, nên $7180>7108$.
+
+Do đó
+$$7801>7180>7108>7018.$$
+
+Vậy các số xếp theo thứ tự từ lớn đến bé là $7801$, $7180$, $7108$, $7018$.
 
 **Đáp số.** $7801$, $7180$, $7108$, $7018$.
 :::
 
 :::exercise
-Em nhớ lại các số có ba chữ số. a) Số lớn nhất có ba chữ số là số nào? Số liền sau của nó là số nào? b) Số lớn nhất có bốn chữ số là số nào? Số liền sau của nó là số nào?
+Em nhớ lại các số có ba chữ số.
+
+a) Số lớn nhất có ba chữ số là số nào? Số liền sau của nó là số nào?
+
+b) Số lớn nhất có bốn chữ số là số nào? Số liền sau của nó là số nào?
 
 ::hint
 **Kiến thức:** thêm $1$ vào số lớn nhất của mỗi hàng, em được số nhỏ nhất của hàng kế tiếp.
@@ -283,9 +341,15 @@ Em nhớ lại các số có ba chữ số. a) Số lớn nhất có ba chữ s�
 1. Số lớn nhất có ba chữ số có mấy chữ số $9$?
 
 ::solution
-a) Số lớn nhất có ba chữ số là $999$; số liền sau là $999+1=1000$.
+Bài giải
 
-b) Số lớn nhất có bốn chữ số là $9999$; số liền sau là $9999+1=10\,000$.
+a) Số có ba chữ số lớn nhất phải có mỗi chữ số là $9$, đó là $999$. Số liền sau của một số là số lớn hơn số đó $1$ đơn vị, nên số liền sau của $999$ là
+$$999+1=1000.$$
+
+b) Số có bốn chữ số lớn nhất phải có mỗi chữ số là $9$, đó là $9999$. Số liền sau của $9999$ là
+$$9999+1=10\,000.$$
+
+Vậy số lớn nhất có ba chữ số là $999$, số liền sau là $1000$; số lớn nhất có bốn chữ số là $9999$, số liền sau là $10\,000$.
 
 **Đáp số.** a) $999$ và $1000$; b) $9999$ và $10\,000$.
 :::
@@ -301,9 +365,15 @@ Từ bốn chữ số $3$, $0$, $8$, $5$, mỗi chữ số dùng đúng một l�
 2. Số bé nhất: chọn chữ số hàng nghìn bé nhất nhưng khác $0$.
 
 ::solution
-Số lớn nhất: xếp $8$, $5$, $3$, $0$ từ lớn đến bé được $8530$.
+Bài giải
 
-Số bé nhất: hàng nghìn không thể là $0$, nên chọn $3$; rồi xếp $0$, $5$, $8$ từ bé đến lớn được $3058$.
+Số lớn nhất: để số lớn nhất, ta xếp các chữ số từ lớn đến bé là $8$, $5$, $3$, $0$. Ta được số $8530$.
+
+Số bé nhất: nếu xếp các chữ số từ bé đến lớn thì được $0358$, nhưng chữ số $0$ không thể đứng ở hàng nghìn (khi đó chỉ còn ba chữ số). Vì vậy hàng nghìn phải là chữ số bé nhất khác $0$, tức là $3$.
+
+Ba chữ số còn lại là $0$, $5$, $8$. Xếp chúng từ bé đến lớn ở các hàng trăm, chục, đơn vị, ta được $058$. Do đó số bé nhất là $3058$.
+
+Vậy số có bốn chữ số lớn nhất là $8530$ và số có bốn chữ số bé nhất là $3058$.
 
 **Đáp số.** Số lớn nhất là $8530$; số bé nhất là $3058$.
 :::

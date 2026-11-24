@@ -291,13 +291,16 @@ c) $\widehat A=\widehat B=65^\circ$. Tính $\widehat C$.
 2. Lấy $180^\circ$ trừ tổng đó.
 
 ::solution
-Xét tam giác $ABC$: $\widehat A+\widehat B+\widehat C=180^\circ$ (tổng ba góc), nên $\widehat C=180^\circ-(\widehat A+\widehat B)$.
+Xét tam giác $ABC$. Theo định lí tổng ba góc của một tam giác, ta có $\widehat A+\widehat B+\widehat C=180^\circ$. Suy ra
+$$\widehat C=180^\circ-(\widehat A+\widehat B).$$
 
-a) $\widehat C=180^\circ-(50^\circ+60^\circ)=70^\circ$.
+a) Thay $\widehat A=50^\circ$, $\widehat B=60^\circ$, ta được $\widehat C=180^\circ-(50^\circ+60^\circ)=180^\circ-110^\circ=70^\circ$.
 
-b) $\widehat C=180^\circ-(100^\circ+35^\circ)=45^\circ$.
+b) Thay $\widehat A=100^\circ$, $\widehat B=35^\circ$, ta được $\widehat C=180^\circ-(100^\circ+35^\circ)=180^\circ-135^\circ=45^\circ$.
 
-c) $\widehat C=180^\circ-(65^\circ+65^\circ)=50^\circ$.
+c) Thay $\widehat A=\widehat B=65^\circ$, ta được $\widehat C=180^\circ-(65^\circ+65^\circ)=180^\circ-130^\circ=50^\circ$.
+
+Vậy $\widehat C=70^\circ$ ở câu a), $\widehat C=45^\circ$ ở câu b), $\widehat C=50^\circ$ ở câu c).
 
 **Đáp số.** a) $70^\circ$; b) $45^\circ$; c) $50^\circ$.
 :::
@@ -315,11 +318,13 @@ b) Tam giác $ABC$ vuông tại $A$, $\widehat B=\widehat C$. Tính $\widehat B$
 2. Ở câu b), hai góc bằng nhau nên mỗi góc là nửa của $90^\circ$.
 
 ::solution
-Vì tam giác $ABC$ vuông tại $A$ nên $\widehat B+\widehat C=90^\circ$ (hai góc nhọn phụ nhau).
+Vì tam giác $ABC$ vuông tại $A$ nên $\widehat A=90^\circ$. Theo định lí tổng ba góc, $\widehat B+\widehat C=180^\circ-90^\circ=90^\circ$ (hai góc nhọn phụ nhau).
 
-a) $\widehat C=90^\circ-28^\circ=62^\circ$.
+a) Với $\widehat B=28^\circ$, ta có $\widehat C=90^\circ-28^\circ=62^\circ$.
 
-b) Vì $\widehat B=\widehat C$ nên $2\widehat B=90^\circ$, suy ra $\widehat B=45^\circ$.
+b) Với $\widehat B=\widehat C$, ta có $2\widehat B=90^\circ$, suy ra $\widehat B=45^\circ$.
+
+Vậy $\widehat C=62^\circ$ ở câu a) và $\widehat B=45^\circ$ ở câu b).
 
 **Đáp số.** a) $62^\circ$; b) $45^\circ$.
 :::
@@ -335,11 +340,15 @@ Tam giác $ABC$ có $\widehat B=40^\circ$, $\widehat C=65^\circ$. Tính góc ngo
 2. Tính góc kề bù với $\widehat A$.
 
 ::solution
-Xét tam giác $ABC$: $\widehat A=180^\circ-(40^\circ+65^\circ)=75^\circ$ (tổng ba góc).
+Xét tam giác $ABC$. Theo định lí tổng ba góc,
+$$\widehat A=180^\circ-(\widehat B+\widehat C)=180^\circ-(40^\circ+65^\circ)=75^\circ.$$
 
-Góc ngoài tại $A$ kề bù với $\widehat A$ nên bằng $180^\circ-75^\circ=105^\circ$.
+Góc ngoài tại đỉnh $A$ kề bù với $\widehat A$ nên bằng
+$$180^\circ-75^\circ=105^\circ.$$
 
-Kiểm tra bằng tính chất góc ngoài: $\widehat B+\widehat C=40^\circ+65^\circ=105^\circ$.
+Kiểm tra bằng tính chất góc ngoài: góc ngoài tại $A$ bằng tổng hai góc trong không kề với nó, tức là $\widehat B+\widehat C=40^\circ+65^\circ=105^\circ$ (khớp).
+
+Vậy góc ngoài tại đỉnh $A$ bằng $105^\circ$.
 
 **Đáp số.** $105^\circ$.
 :::
@@ -355,7 +364,12 @@ Ba góc $\widehat A$, $\widehat B$, $\widehat C$ của tam giác $ABC$ tỉ lệ
 2. Giải tìm $k$ rồi tính từng góc.
 
 ::solution
-Đặt $\widehat A=k$, $\widehat B=2k$, $\widehat C=3k$ (độ). Theo tổng ba góc, $k+2k+3k=180$, suy ra $6k=180$, $k=30$.
+Vì ba góc $\widehat A$, $\widehat B$, $\widehat C$ tỉ lệ $1:2:3$ nên ta đặt $\widehat A=k$, $\widehat B=2k$, $\widehat C=3k$ (đơn vị độ, $k>0$).
+
+Theo định lí tổng ba góc của tam giác,
+$$k+2k+3k=180,\ \text{tức là}\ 6k=180,\ \text{suy ra}\ k=30.$$
+
+Do đó $\widehat A=30^\circ$, $\widehat B=2\cdot30^\circ=60^\circ$, $\widehat C=3\cdot30^\circ=90^\circ$.
 
 Vậy $\widehat A=30^\circ$, $\widehat B=60^\circ$, $\widehat C=90^\circ$.
 
@@ -373,9 +387,16 @@ Tam giác $ABC$ có $\widehat A=x^\circ$, $\widehat B=(2x-10)^\circ$, $\widehat 
 2. Giải phương trình rồi thay lại.
 
 ::solution
-Theo tổng ba góc, $x+(2x-10)+(3x+10)=180$, tức $6x=180$, suy ra $x=30$.
+Theo định lí tổng ba góc của tam giác $ABC$, ta có
+$$x+(2x-10)+(3x+10)=180.$$
 
-Vậy $\widehat A=30^\circ$, $\widehat B=2\cdot30^\circ-10^\circ=50^\circ$, $\widehat C=3\cdot30^\circ+10^\circ=100^\circ$. Tổng $30+50+100=180$, đúng.
+Rút gọn vế trái: $6x=180$, suy ra $x=30$.
+
+Thay $x=30$ vào, ta được $\widehat A=30^\circ$, $\widehat B=2\cdot30^\circ-10^\circ=50^\circ$, $\widehat C=3\cdot30^\circ+10^\circ=100^\circ$.
+
+Kiểm tra: $30+50+100=180$ (đúng) và cả ba góc đều dương.
+
+Vậy $x=30$ và ba góc là $\widehat A=30^\circ$, $\widehat B=50^\circ$, $\widehat C=100^\circ$.
 
 **Đáp số.** $x=30$; $30^\circ$, $50^\circ$, $100^\circ$.
 :::
@@ -391,9 +412,14 @@ Giả sử Nam đo ba góc của một miếng bìa hình tam giác được $47
 2. So với $180^\circ$.
 
 ::solution
-Tổng ba số đo là $47^\circ+68^\circ+66^\circ=181^\circ$. Tổng chính xác của ba góc tam giác là $180^\circ$, nên số đo của Nam lệch $1^\circ$.
+Tổng chính xác của ba góc trong một tam giác bằng $180^\circ$. Ta tính tổng các số đo của Nam:
+$$47^\circ+68^\circ+66^\circ=181^\circ.$$
 
-Độ lệch $1^\circ$ nhỏ, thuộc sai số thường gặp của thước đo góc, nên kết quả đo hợp lí.
+Tổng này lệch so với $180^\circ$ một khoảng $181^\circ-180^\circ=1^\circ$.
+
+Độ lệch $1^\circ$ rất nhỏ, nằm trong sai số thường gặp khi đo bằng thước đo góc, nên kết quả đo là hợp lí.
+
+Vậy kết quả đo của Nam hợp lí và sai số là $1^\circ$.
 
 **Đáp số.** Hợp lí; sai số $1^\circ$.
 :::
@@ -409,11 +435,12 @@ Giả sử mặt cắt của một mái nhà là tam giác $ABC$ có góc ở đ
 2. Chia đôi.
 
 ::solution
-Xét tam giác $ABC$: $\widehat B+\widehat C=180^\circ-100^\circ=80^\circ$ (tổng ba góc).
+Xét tam giác $ABC$ có $\widehat A=100^\circ$. Theo định lí tổng ba góc,
+$$\widehat B+\widehat C=180^\circ-100^\circ=80^\circ.$$
 
-Vì $\widehat B=\widehat C$ nên mỗi góc bằng $\dfrac{80^\circ}2=40^\circ$.
+Vì $\widehat B=\widehat C$ nên $2\widehat B=80^\circ$, suy ra $\widehat B=\widehat C=\dfrac{80^\circ}2=40^\circ$.
 
-Vậy mỗi góc ở đáy là $40^\circ$.
+Vậy mỗi góc ở đáy của mái nhà bằng $40^\circ$.
 
 **Đáp số.** $40^\circ$.
 :::
@@ -429,9 +456,12 @@ Cho tam giác $ABC$. Qua $A$ kẻ đường thẳng $d\parallel BC$. Góc giữa
 2. Tính $\widehat A$.
 
 ::solution
-Vì $d\parallel BC$ nên các cặp góc so le trong bằng nhau: $\widehat B=50^\circ$ và $\widehat C=60^\circ$.
+Vì $d\parallel BC$ nên các cặp góc so le trong bằng nhau. Góc giữa $d$ và $AB$ so le trong với $\widehat B$ nên $\widehat B=50^\circ$. Góc giữa $d$ và $AC$ so le trong với $\widehat C$ nên $\widehat C=60^\circ$.
 
-Xét tam giác $ABC$: $\widehat A=180^\circ-(50^\circ+60^\circ)=70^\circ$ (tổng ba góc).
+Xét tam giác $ABC$. Theo định lí tổng ba góc,
+$$\widehat A=180^\circ-(\widehat B+\widehat C)=180^\circ-(50^\circ+60^\circ)=70^\circ.$$
+
+Vậy $\widehat A=70^\circ$.
 
 **Đáp số.** $\widehat A=70^\circ$.
 :::
@@ -447,7 +477,11 @@ Tam giác $ABC$ có góc ngoài tại đỉnh $B$ bằng $130^\circ$ và $\wideh
 2. Giải tìm $\widehat C$.
 
 ::solution
-Theo tính chất góc ngoài, góc ngoài tại $B$ bằng $\widehat A+\widehat C$. Do đó $45^\circ+\widehat C=130^\circ$, suy ra $\widehat C=85^\circ$.
+Theo tính chất góc ngoài của tam giác, góc ngoài tại đỉnh $B$ bằng tổng hai góc trong không kề với nó, tức là bằng $\widehat A+\widehat C$.
+
+Thay số, ta có $45^\circ+\widehat C=130^\circ$, suy ra $\widehat C=130^\circ-45^\circ=85^\circ$.
+
+Vậy $\widehat C=85^\circ$.
 
 **Đáp số.** $85^\circ$.
 :::
@@ -463,13 +497,24 @@ Tam giác $ABC$ có $\widehat A=80^\circ$. Hai tia phân giác của $\widehat B
 2. Dùng tam giác $IBC$.
 
 ::solution
-Xét tam giác $ABC$: $\widehat B+\widehat C=180^\circ-80^\circ=100^\circ$ (tổng ba góc).
+Xét tam giác $ABC$ có $\widehat A=80^\circ$. Theo định lí tổng ba góc,
+$$\widehat B+\widehat C=180^\circ-80^\circ=100^\circ.$$
 
-Vì $BI$, $CI$ là các tia phân giác nên $\widehat{IBC}+\widehat{ICB}=\dfrac12(\widehat B+\widehat C)=50^\circ$.
+Vì $BI$, $CI$ là các tia phân giác của $\widehat B$, $\widehat C$ nên
+$$\widehat{IBC}+\widehat{ICB}=\frac12\widehat B+\frac12\widehat C=\frac12(\widehat B+\widehat C)=50^\circ.$$
 
-Xét tam giác $IBC$: $\widehat{BIC}=180^\circ-50^\circ=130^\circ$.
+Xét tam giác $IBC$. Theo định lí tổng ba góc,
+$$\widehat{BIC}=180^\circ-(\widehat{IBC}+\widehat{ICB})=180^\circ-50^\circ=130^\circ.$$
 
-Tổng quát: $\widehat{IBC}+\widehat{ICB}=\dfrac12(180^\circ-\widehat A)=90^\circ-\dfrac12\widehat A$, nên $\widehat{BIC}=180^\circ-\left(90^\circ-\dfrac12\widehat A\right)=90^\circ+\dfrac12\widehat A$. Với $\widehat A=80^\circ$ ta được $90^\circ+40^\circ=130^\circ$.
+Chứng minh tổng quát. Theo định lí tổng ba góc trong tam giác $ABC$, $\widehat B+\widehat C=180^\circ-\widehat A$. Do $BI$, $CI$ là các tia phân giác nên
+$$\widehat{IBC}+\widehat{ICB}=\frac12(\widehat B+\widehat C)=\frac12(180^\circ-\widehat A)=90^\circ-\frac12\widehat A.$$
+
+Xét tam giác $IBC$, ta có
+$$\widehat{BIC}=180^\circ-\left(90^\circ-\frac12\widehat A\right)=90^\circ+\frac12\widehat A.$$
+
+Với $\widehat A=80^\circ$ ta được $90^\circ+40^\circ=130^\circ$, khớp với kết quả trên.
+
+Vậy $\widehat{BIC}=130^\circ$ và $\widehat{BIC}=90^\circ+\dfrac12\widehat A$.
 
 **Đáp số.** $130^\circ$; đã chứng minh.
 :::

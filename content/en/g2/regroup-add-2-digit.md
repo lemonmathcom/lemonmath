@@ -126,7 +126,18 @@ Work out $24+18$.
 2. Add the tens and the carried $1$.
 
 ::solution
-Ones: $4+8=12$, write $2$ carry $1$. Tens: $2+1+1=4$. So $24+18=42$.
+We set out the addition and add from the ones.
+
+Ones: $4+8=12$, write $2$ and carry $1$.
+
+Tens: $2+1+1=4$ (including the carried ten), write $4$.
+
+We have
+$$24+18=42.$$
+
+Check: $42-18=24$. Correct.
+
+So $24+18=42$.
 
 **Answer.** $42$.
 :::
@@ -142,7 +153,16 @@ Set out the column and work out $37+25$.
 2. Add the ones, then the tens.
 
 ::solution
-$7+5=12$, write $2$ carry $1$. $3+2+1=6$. So $37+25=62$.
+Set out the sum so that digits in the same place are in the same column:
+$$\begin{array}{r}37\\+25\\\hline62\end{array}$$
+
+Ones: $7+5=12$, write $2$ and carry $1$.
+
+Tens: $3+2+1=6$, write $6$.
+
+Check: $62-25=37$. Correct.
+
+So $37+25=62$.
 
 **Answer.** $62$.
 :::
@@ -158,7 +178,16 @@ Remember the last lesson. Work out $58+7$.
 2. Tens: $5$ plus the carried ten.
 
 ::solution
-$8+7=15$, write $5$ carry $1$. $5+1=6$. So $58+7=65$.
+Ones: $8+7=15$, write $5$ and carry $1$.
+
+Tens: $5+1=6$ (only the digit $5$ and the carried ten), write $6$.
+
+We have
+$$58+7=65.$$
+
+Check: $65-7=58$. Correct.
+
+So $58+7=65$.
 
 **Answer.** $65$.
 :::
@@ -178,9 +207,11 @@ b) $56+27$.
 2. Add the tens and the carried $1$.
 
 ::solution
-a) $5+9=14$, write $4$ carry $1$; $4+3+1=8$. So $45+39=84$.
+a) Work out $45+39$. Ones: $5+9=14$, write $4$ and carry $1$. Tens: $4+3+1=8$. We have $45+39=84$. Check: $84-39=45$. Correct.
 
-b) $6+7=13$, write $3$ carry $1$; $5+2+1=8$. So $56+27=83$.
+b) Work out $56+27$. Ones: $6+7=13$, write $3$ and carry $1$. Tens: $5+2+1=8$. We have $56+27=83$. Check: $83-27=56$. Correct.
+
+So $45+39=84$ and $56+27=83$.
 
 **Answer.** a) $84$; b) $83$.
 :::
@@ -200,9 +231,11 @@ b) $29+35 \;\square\; 65$.
 2. Compare the tens, then the ones.
 
 ::solution
-a) $38+47=85$. Since $85>84$, we have $38+47>84$.
+a) Work out $38+47$. Ones: $8+7=15$, write $5$ and carry $1$. Tens: $3+4+1=8$. We have $38+47=85$. Since $85>84$, we have $38+47>84$.
 
-b) $29+35=64$. Since $64<65$, we have $29+35<65$.
+b) Work out $29+35$. Ones: $9+5=14$, write $4$ and carry $1$. Tens: $2+3+1=6$. We have $29+35=64$. Since $64<65$, we have $29+35<65$.
+
+So in a) we write the sign $>$, and in b) we write the sign $<$.
 
 **Answer.** a) The sign $>$; b) the sign $<$.
 :::
@@ -218,7 +251,18 @@ Ha wrote: $36+47=73$. Where did Ha go wrong? Correct the answer.
 2. Work out the tens: was the carried ten added?
 
 ::solution
-$6+7=13$, write $3$ carry $1$. The tens should be $3+4+1=8$, but Ha only worked out $3+4=7$ (the carried ten was forgotten). So $36+47=83$.
+We work out $36+47$ again.
+
+Ones: $6+7=13$, write $3$ and carry $1$.
+
+The tens should be $3+4+1=8$ (we add the carried ten). Ha only worked out $3+4=7$ because the carried ten was forgotten, so Ha got the wrong answer $73$.
+
+The correct working is
+$$36+47=83.$$
+
+Check: $83-47=36$. Correct.
+
+So Ha went wrong by forgetting the carried ten; the right answer is $36+47=83$.
 
 **Answer.** Ha forgot the carried ten; the right answer is $83$.
 :::
@@ -234,8 +278,16 @@ Group One planted $49$ trees and Group Two planted $38$ trees. How many trees di
 2. Work out $49+38$ and write the answer with its unit.
 
 ::solution
-$9+8=17$, write $7$ carry $1$. $4+3+1=8$. The number of trees is:
-$$49+38=87\ \text{(trees)}.$$
+Solution
+
+To find how many trees the two groups planted altogether, we add the trees planted by Group One and by Group Two.
+
+Ones: $9+8=17$, write $7$ and carry $1$. Tens: $4+3+1=8$.
+
+The number of trees is:
+$$49+38=87\ \text{(trees)}$$
+
+So the two groups planted $87$ trees altogether.
 
 **Answer.** $87$ trees.
 :::
@@ -251,7 +303,15 @@ Find the missing digit: $5\square+27=84$.
 2. Check with the addition.
 
 ::solution
-The ones digit of the sum is $4$, so $\square+7=14$, which gives $\square=7$. Check: $57+27=84$ (because $7+7=14$ and $5+2+1=8$).
+The sum in $5\square+27=84$ is $84$, so the ones digit of the sum is $4$.
+
+In the ones, $\square+7$ must end in $4$. Since $\square+7$ is at least $7$ and at most $16$, we get $\square+7=14$, which gives $\square=14-7=7$.
+
+Check the tens: $5+2+1=8$ (including the carried ten), which matches the tens digit of $84$.
+
+Check: $57+27=84$ (because $7+7=14$ and $5+2+1=8$). Correct.
+
+So the missing digit is $7$.
 
 **Answer.** The missing digit is $7$.
 :::

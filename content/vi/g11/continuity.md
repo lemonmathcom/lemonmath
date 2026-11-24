@@ -242,7 +242,14 @@ Cho hàm số $f(x)=x^2-3x+5$. Chứng minh rằng $f$ liên tục tại $x=2$.
 2. Tính $\lim_{x\to2}f(x)$ rồi so sánh.
 
 ::solution
-Ta có $f(2)=4-6+5=3$ và $\lim_{x\to2}(x^2-3x+5)=4-6+5=3$. Suy ra $\lim_{x\to2}f(x)=f(2)$.
+Hàm số $f(x)=x^2-3x+5$ là hàm đa thức nên xác định trên $\mathbb{R}$, do đó xác định tại $x=2$. Hàm số $f$ liên tục tại $x=2$ khi và chỉ khi $\lim_{x\to2}f(x)=f(2)$.
+
+Ta có $f(2)=2^2-3\cdot2+5=4-6+5=3$.
+
+Mặt khác, vì $f$ là hàm đa thức nên
+$$\lim_{x\to2}\left(x^2-3x+5\right)=2^2-3\cdot2+5=3.$$
+
+Suy ra $\lim_{x\to2}f(x)=3=f(2)$.
 
 Vậy $f$ liên tục tại $x=2$.
 
@@ -262,9 +269,15 @@ tại $x=3$.
 2. Tìm $\lim_{x\to3}f(x)$ rồi so với $f(3)$.
 
 ::solution
-Với $x\neq3$ ta có $\dfrac{x^2-x-6}{x-3}=\dfrac{(x-3)(x+2)}{x-3}=x+2$. Do đó $\lim_{x\to3}f(x)=5$.
+Hàm số $f$ xác định tại $x=3$ với $f(3)=4$. Ta xét giới hạn của $f(x)$ khi $x\to3$ và so sánh với $f(3)$.
 
-Ta có $f(3)=4\neq5$.
+Với $x\neq3$, phân tích tử thức thành nhân tử:
+$$\frac{x^2-x-6}{x-3}=\frac{(x-3)(x+2)}{x-3}=x+2.$$
+
+Do đó
+$$\lim_{x\to3}f(x)=\lim_{x\to3}(x+2)=5.$$
+
+Mặt khác $f(3)=4$, nên $\lim_{x\to3}f(x)=5\neq4=f(3)$.
 
 Vậy $f$ gián đoạn tại $x=3$.
 
@@ -282,7 +295,11 @@ Hàm số $f(x)=\dfrac{2x-1}{x^2-4}$ liên tục trên những khoảng nào?
 2. Viết tập xác định dưới dạng hợp các khoảng.
 
 ::solution
-Ta có $x^2-4=0\Leftrightarrow x=2$ hoặc $x=-2$. Tập xác định là $\mathbb{R}\setminus\{-2; 2\}$.
+Hàm số $f(x)=\dfrac{2x-1}{x^2-4}$ là hàm phân thức hữu tỉ nên liên tục trên từng khoảng thuộc tập xác định của nó.
+
+Điều kiện xác định: $x^2-4\neq0$. Ta có $x^2-4=0\Leftrightarrow x=2$ hoặc $x=-2$.
+
+Do đó tập xác định là $\mathbb{R}\setminus\{-2; 2\}$, gồm ba khoảng $(-\infty; -2)$, $(-2; 2)$ và $(2; +\infty)$.
 
 Vậy $f$ liên tục trên các khoảng $(-\infty; -2)$, $(-2; 2)$ và $(2; +\infty)$.
 
@@ -302,9 +319,17 @@ tại $x=2$.
 2. Tính hai giới hạn một bên.
 
 ::solution
-Ta có $f(2)=2\cdot2-1=3$, $\lim_{x\to2^-}(x^2-1)=3$ và $\lim_{x\to2^+}(2x-1)=3$.
+Hàm số $f$ được cho bởi hai công thức khác nhau ở hai phía của $x=2$, nên ta tính $f(2)$ và hai giới hạn một bên tại $x=2$.
 
-Ba giá trị này bằng nhau.
+Vì $2\ge2$ nên $f(2)=2\cdot2-1=3$.
+
+Giới hạn bên trái (với $x<2$, $f(x)=x^2-1$):
+$$\lim_{x\to2^-}f(x)=\lim_{x\to2^-}\left(x^2-1\right)=2^2-1=3.$$
+
+Giới hạn bên phải (với $x>2$, $f(x)=2x-1$):
+$$\lim_{x\to2^+}f(x)=\lim_{x\to2^+}(2x-1)=2\cdot2-1=3.$$
+
+Ta có $\lim_{x\to2^-}f(x)=\lim_{x\to2^+}f(x)=3$, nên $\lim_{x\to2}f(x)=3$. Giá trị này bằng $f(2)=3$.
 
 Vậy $f$ liên tục tại $x=2$.
 
@@ -372,13 +397,18 @@ d) Hàm số $f$ liên tục trên khoảng $(1; +\infty)$.
 2. Xét từng mệnh đề.
 
 ::solution
-a) **Đúng**: theo định nghĩa của $f$, $f(1)=3$.
+Ta có $f(x)=\dfrac{x^2-1}{x-1}$ với $x\neq1$ và $f(1)=3$. Với $x\neq1$:
+$$f(x)=\frac{(x-1)(x+1)}{x-1}=x+1.$$
 
-b) **Sai**: với $x\neq1$, $f(x)=x+1$ nên $\lim_{x\to1}f(x)=2$, không phải $3$.
+a) **Đúng.** Theo định nghĩa của hàm số, $f(1)=3$.
 
-c) **Đúng**: $\lim_{x\to1}f(x)=2\neq3=f(1)$.
+b) **Sai.** Vì $f(x)=x+1$ với mọi $x\neq1$ nên $\lim_{x\to1}f(x)=\lim_{x\to1}(x+1)=2$, không phải $3$.
 
-d) **Đúng**: với $x>1$ ta có $f(x)=x+1$ là đa thức, liên tục trên $(1; +\infty)$.
+c) **Đúng.** Ta có $\lim_{x\to1}f(x)=2\neq3=f(1)$ nên $f$ không liên tục tại $x=1$.
+
+d) **Đúng.** Với mọi $x>1$ ta có $f(x)=x+1$ là hàm đa thức, liên tục trên $\mathbb{R}$, nên $f$ liên tục trên khoảng $(1; +\infty)$.
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::

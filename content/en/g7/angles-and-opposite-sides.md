@@ -313,9 +313,17 @@ Triangle $ABC$ has $\angle A=65^\circ$, $\angle B=55^\circ$ (figure above). Find
 3. Pair each angle with its opposite side: $\angle A$ with $BC$, $\angle B$ with $AC$, $\angle C$ with $AB$.
 
 ::solution
-In triangle $ABC$ the three angles add up to $180^\circ$, so $\angle C=180^\circ-65^\circ-55^\circ=60^\circ$.
+In triangle $ABC$ the three angles add up to $180^\circ$, so
+$$\angle C=180^\circ-\angle A-\angle B=180^\circ-65^\circ-55^\circ=60^\circ.$$
 
-We have $\angle B=55^\circ<\angle C=60^\circ<\angle A=65^\circ$. The side opposite $\angle B$ is $AC$, opposite $\angle C$ is $AB$, opposite $\angle A$ is $BC$. By the theorem on angles and opposite sides, $AC<AB<BC$.
+We have $\angle B=55^\circ<\angle C=60^\circ<\angle A=65^\circ$.
+
+The side opposite $\angle B$ is $AC$, the side opposite $\angle C$ is $AB$, and the side opposite $\angle A$ is $BC$.
+
+By the theorem on angles and opposite sides (in a triangle, the larger angle is opposite the larger side), we have
+$$AC<AB<BC.$$
+
+So $\angle C=60^\circ$ and the three sides in increasing order are $AC<AB<BC$.
 
 **Answer.** $\angle C=60^\circ$; $AC<AB<BC$.
 :::
@@ -342,9 +350,14 @@ Triangle $ABC$ has $AB=9$ cm, $BC=6$ cm, $CA=7$ cm (figure above). Arrange the t
 2. Order the three sides $9$, $6$, $7$ and then pass to the angles.
 
 ::solution
-The angle opposite $AB$ is $\angle C$, opposite $BC$ is $\angle A$, opposite $CA$ is $\angle B$.
+The angle opposite $AB$ is $\angle C$, the angle opposite $BC$ is $\angle A$, and the angle opposite $CA$ is $\angle B$.
 
-In triangle $ABC$ we have $BC=6<CA=7<AB=9$. By the theorem on angles and opposite sides, the angle opposite the longer side is larger, so $\angle A<\angle B<\angle C$.
+In triangle $ABC$ we have $BC=6\ \text{cm}<CA=7\ \text{cm}<AB=9\ \text{cm}$.
+
+By the theorem on angles and opposite sides, in a triangle the angle opposite the longer side is larger. Hence
+$$\angle A<\angle B<\angle C.$$
+
+So the three angles of the triangle in increasing order are $\angle A<\angle B<\angle C$.
 
 **Answer.** $\angle A<\angle B<\angle C$.
 :::

@@ -180,7 +180,20 @@ Find a) $\lim\dfrac{2n+1}{n}$; b) $\lim\left(1-\dfrac3n\right)$; c) $\lim\dfrac{
 2. Replace $\dfrac1n\to0$.
 
 ::solution
-a) $\dfrac{2n+1}{n}=2+\dfrac1n\to2$. b) $1-\dfrac3n\to1$. c) $\dfrac{n+5}{2n-1}=\dfrac{1+\frac5n}{2-\frac1n}\to\dfrac12$.
+We use $\lim\dfrac1n=0$ and the limit rules for sums, differences and quotients (when the denominator has a non-zero limit).
+
+a) For $n\ge1$ we have $\dfrac{2n+1}{n}=2+\dfrac1n$. Since $\lim\dfrac1n=0$,
+$$\lim\frac{2n+1}{n}=2+0=2.$$
+
+b) Since $\lim\dfrac3n=3\lim\dfrac1n=0$,
+$$\lim\left(1-\frac3n\right)=1-0=1.$$
+
+c) For $n\ge1$ we have $2n-1\neq0$. Dividing the numerator and denominator by $n$, we get
+$$\frac{n+5}{2n-1}=\frac{1+\frac5n}{2-\frac1n}.$$
+The numerator has limit $1+0=1$ and the denominator has limit $2-0=2\neq0$, so
+$$\lim\frac{n+5}{2n-1}=\frac12.$$
+
+So a) $2$; b) $1$; c) $\dfrac12$.
 
 **Answer.** a) $2$; b) $1$; c) $\dfrac12$.
 :::
@@ -195,7 +208,13 @@ Find $\lim\dfrac{5n^2-2n}{3n^2+1}$.
 1. Rewrite as $\dfrac{5-\frac2n}{3+\frac1{n^2}}$.
 
 ::solution
-$\dfrac{5n^2-2n}{3n^2+1}=\dfrac{5-\frac2n}{3+\frac1{n^2}}\to\dfrac53$.
+The numerator and denominator both have highest power $n^2$, so we divide both by $n^2$ (for $n\ge1$, $3n^2+1\neq0$):
+$$\frac{5n^2-2n}{3n^2+1}=\frac{5-\frac2n}{3+\frac1{n^2}}.$$
+
+Since $\lim\dfrac2n=0$ and $\lim\dfrac1{n^2}=0$, the numerator has limit $5$ and the denominator has limit $3\neq0$. Hence
+$$\lim\frac{5n^2-2n}{3n^2+1}=\frac53.$$
+
+So $\lim\dfrac{5n^2-2n}{3n^2+1}=\dfrac53$.
 
 **Answer.** $\dfrac53$.
 :::
@@ -210,7 +229,13 @@ Find $\lim\dfrac{2^n+5^n}{5^n+1}$.
 1. Divide by $5^n$ and use $\left(\dfrac25\right)^n\to0$ and $\dfrac1{5^n}\to0$.
 
 ::solution
-$\dfrac{2^n+5^n}{5^n+1}=\dfrac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}\to\dfrac{0+1}{1+0}=1$.
+The dominant term in the numerator and denominator is $5^n$, so we divide both by $5^n>0$:
+$$\frac{2^n+5^n}{5^n+1}=\frac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}=\frac{\left(\frac25\right)^n+1}{1+\left(\frac15\right)^n}.$$
+
+Since $\left|\dfrac25\right|<1$ and $\left|\dfrac15\right|<1$, we have $\lim\left(\dfrac25\right)^n=0$ and $\lim\left(\dfrac15\right)^n=0$. So the numerator has limit $0+1=1$ and the denominator has limit $1+0=1\neq0$, hence
+$$\lim\frac{2^n+5^n}{5^n+1}=\frac{0+1}{1+0}=1.$$
+
+So $\lim\dfrac{2^n+5^n}{5^n+1}=1$.
 
 **Answer.** $1$.
 :::
@@ -226,7 +251,16 @@ Take $u_n=\dfrac{2n-1}{n}$. Show that $\lim u_n=2$ and find the least $n$ such t
 2. Solve $\dfrac1n<0.001$.
 
 ::solution
-$u_n-2=\dfrac{2n-1-2n}{n}=-\dfrac1n$, so $|u_n-2|=\dfrac1n\to0$, hence $\lim u_n=2$. Solving $\dfrac1n<0.001$ gives $n>1000$, that is $n\ge1001$.
+Part 1: show that $\lim u_n=2$. For $n\ge1$ we have
+$$u_n-2=\frac{2n-1}{n}-2=\frac{2n-1-2n}{n}=-\frac1n.$$
+So $|u_n-2|=\dfrac1n$. Since $\lim\dfrac1n=0$, we get $\lim|u_n-2|=0$, hence $\lim u_n=2$.
+
+Part 2: find the least $n$. We need $|u_n-2|<0.001$, that is
+$$\frac1n<0.001\iff n>1000.$$
+
+The least positive integer satisfying this is $n=1001$. (Check: for $n=1000$ we have $\dfrac1{1000}=0.001$, which is not less than $0.001$.) Since $\dfrac1n$ decreases as $n$ increases, $|u_n-2|<0.001$ holds for every $n\ge1001$.
+
+So $\lim u_n=2$, and the inequality $|u_n-2|<0.001$ holds for every term from the $1001$st term on.
 
 **Answer.** $\lim u_n=2$; from the $1001$st term on.
 :::
@@ -242,7 +276,15 @@ Find a) $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$; b) write $0.\dot6=0.666\dots$ a
 2. For part b, write $0.6+0.06+\dots$.
 
 ::solution
-a) $u_1=1$, $q=\dfrac13$, so $S=\dfrac{1}{1-\frac13}=\dfrac32$. b) $0.\dot6=0.6+0.06+\dots$ has $u_1=0.6$, $q=0.1$, so it equals $\dfrac{0.6}{0.9}=\dfrac23$.
+The sum of an infinite geometric progression with common ratio $q$ satisfying $|q|<1$ is $S=\dfrac{u_1}{1-q}$.
+
+a) The terms $1,\dfrac13,\dfrac19,\dfrac1{27},\dots$ form a geometric progression with $u_1=1$ and $q=\dfrac13$. Since $|q|<1$,
+$$S=\frac{1}{1-\frac13}=\frac{1}{\frac23}=\frac32.$$
+
+b) We write $0.\dot6=0.6+0.06+0.006+\dots$. This is the sum of an infinite geometric progression with $u_1=0.6$ and $q=0.1$ ($|q|<1$). Hence
+$$0.\dot6=\frac{0.6}{1-0.1}=\frac{0.6}{0.9}=\frac23.$$
+
+So a) the sum is $\dfrac32$; b) $0.\dot6=\dfrac23$.
 
 **Answer.** a) $\dfrac32$; b) $\dfrac23$.
 :::
@@ -258,7 +300,15 @@ A ball is dropped from $5$ m; each time it hits the ground it rises to $80\%$ of
 2. The total distance is $5+2\cdot S$.
 
 ::solution
-The bounce heights $4$; $3.2$; ... have $u_1=4$, $q=0.8$ and sum $S=\dfrac{4}{1-0.8}=20$ m. The total distance is $5+2\cdot20=45$ m.
+The distance consists of the first fall of $5$ m, and then, for each bounce, the ball goes up some distance and falls back down the same distance.
+
+The bounce heights are $5\cdot0.8=4$ (m), $4\cdot0.8=3.2$ (m), ... They form an infinite geometric progression with $u_1=4$ and $q=0.8$ ($|q|<1$). The sum of the bounce heights is
+$$S=\frac{4}{1-0.8}=\frac{4}{0.2}=20\ \text{(m)}.$$
+
+Each bounce height is travelled twice (up and down), so the total distance is
+$$5+2\cdot20=45\ \text{(m)}.$$
+
+So the total distance the ball travels until it comes to rest is $45$ m.
 
 **Answer.** $45$ m.
 :::
@@ -283,13 +333,17 @@ d) $\lim n(u_n-1)=0$.
 3. d) Find $n(u_n-1)$.
 
 ::solution
-a) **True**: $1+\dfrac2n\to1$.
+For $n\ge1$ we have $u_n=\dfrac{n+2}{n}=1+\dfrac2n$.
 
-b) **False**: $\dfrac{n+2}{n}=1$ has no solution because $u_n=1+\dfrac2n>1$.
+a) **True.** Since $\lim\dfrac2n=0$, we get $\lim u_n=1+0=1$.
 
-c) **True**: $\lim u_n^2=(\lim u_n)^2=1$.
+b) **False.** If $u_n=1$ then $1+\dfrac2n=1$, so $\dfrac2n=0$, which has no solution. Indeed, for every positive integer $n$ we have $\dfrac2n>0$, so $u_n>1$.
 
-d) **False**: $n(u_n-1)=n\cdot\dfrac2n=2$, so the limit is $2$.
+c) **True.** By the limit rule for products, $\lim u_n^2=\left(\lim u_n\right)^2=1^2=1$.
+
+d) **False.** For $n\ge1$ we have $n(u_n-1)=n\cdot\dfrac2n=2$. This is the constant sequence $2$, so its limit is $2$, not $0$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -304,7 +358,13 @@ Find $\lim\dfrac{6n^2+n}{2n^2-3}$.
 1. Write $\dfrac{6+\frac1n}{2-\frac3{n^2}}$.
 
 ::solution
-$\dfrac{6n^2+n}{2n^2-3}=\dfrac{6+\frac1n}{2-\frac3{n^2}}\to\dfrac62=3$.
+The numerator and denominator both have highest power $n^2$, so we divide both by $n^2$ (for $n\ge2$ we have $2n^2-3\neq0$):
+$$\frac{6n^2+n}{2n^2-3}=\frac{6+\frac1n}{2-\frac3{n^2}}.$$
+
+Since $\lim\dfrac1n=0$ and $\lim\dfrac3{n^2}=0$, the numerator has limit $6$ and the denominator has limit $2\neq0$. Hence
+$$\lim\frac{6n^2+n}{2n^2-3}=\frac62=3.$$
+
+So $\lim\dfrac{6n^2+n}{2n^2-3}=3$.
 
 **Answer.** $3$.
 :::
@@ -320,7 +380,20 @@ A geometric progression $(u_n)$ has $u_1=4$ and $q=\dfrac12$. Using the sum form
 2. $S-S_n=\dfrac{u_1q^n}{1-q}$.
 
 ::solution
-$S_5=\dfrac{4\left(1-\frac1{32}\right)}{\frac12}=7.75$ and $S=\dfrac{4}{\frac12}=8$. We have $S-S_n=8\cdot\left(\dfrac12\right)^n=\dfrac{8}{2^n}$. Solving $\dfrac8{2^n}<0.01$ gives $2^n>800$; since $2^9=512<800<1024=2^{10}$, we get $n=10$.
+The sum of the first $n$ terms of a geometric progression is $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$.
+
+Finding $S_5$. With $u_1=4$, $q=\dfrac12$, we have
+$$S_5=\frac{4\left(1-\frac1{32}\right)}{\frac12}=8\cdot\frac{31}{32}=\frac{31}{4}=7.75.$$
+
+Finding $S$. Since $|q|=\dfrac12<1$, we have $\lim q^n=0$ and
+$$S=\lim S_n=\frac{u_1}{1-q}=\frac{4}{\frac12}=8.$$
+
+Finding the least $n$. We have $S_n=8\left(1-\dfrac1{2^n}\right)$, so
+$$S-S_n=8-8\left(1-\frac1{2^n}\right)=\frac{8}{2^n}.$$
+
+This is positive, so $|S-S_n|<0.01\iff\dfrac8{2^n}<0.01\iff2^n>800$. Since $2^9=512<800<1024=2^{10}$, the least positive integer satisfying this is $n=10$. (Check: $n=9$ gives $\dfrac8{512}=0.015625>0.01$; $n=10$ gives $\dfrac8{1024}=0.0078125<0.01$.)
+
+So $S_5=7.75$; $S=8$; and $n=10$ is the least value such that $|S-S_n|<0.01$.
 
 **Answer.** $S_5=7.75$; $S=8$; $n=10$.
 :::
@@ -336,7 +409,16 @@ Find $\lim\left(\sqrt{n^2+n}-n\right)$.
 2. Divide the numerator and the denominator by $n$.
 
 ::solution
-$\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\dfrac{1}{\sqrt{1+\frac1n}+1}\to\dfrac{1}{1+1}=\dfrac12$.
+The expression $\sqrt{n^2+n}-n$ is a difference involving a square root, so we multiply and divide by the conjugate $\sqrt{n^2+n}+n>0$:
+$$\sqrt{n^2+n}-n=\frac{\left(\sqrt{n^2+n}-n\right)\left(\sqrt{n^2+n}+n\right)}{\sqrt{n^2+n}+n}=\frac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\frac{n}{\sqrt{n^2+n}+n}.$$
+
+For $n\ge1$, dividing the numerator and denominator by $n>0$ and using $\dfrac{\sqrt{n^2+n}}{n}=\sqrt{1+\dfrac1n}$, we get
+$$\frac{n}{\sqrt{n^2+n}+n}=\frac{1}{\sqrt{1+\frac1n}+1}.$$
+
+Since $\lim\dfrac1n=0$, we have $\lim\sqrt{1+\dfrac1n}=1$, so the denominator has limit $1+1=2\neq0$ and
+$$\lim\left(\sqrt{n^2+n}-n\right)=\frac{1}{1+1}=\frac12.$$
+
+So $\lim\left(\sqrt{n^2+n}-n\right)=\dfrac12$.
 
 **Answer.** $\dfrac12$.
 :::

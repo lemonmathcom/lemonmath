@@ -157,7 +157,15 @@ c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
 2. Viết số $100$ vào từng chỗ trống.
 
 ::solution
-a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+Đề-xi-mét vuông là diện tích hình vuông cạnh $1\ \text{dm}$; mét vuông là diện tích hình vuông cạnh $1\ \text{m}$; xăng-ti-mét vuông là diện tích hình vuông cạnh $1\ \text{cm}$.
+
+a) Vì $1\ \text{dm}=10\ \text{cm}$ nên hình vuông cạnh $1\ \text{dm}$ gồm $10\times10=100$ hình vuông cạnh $1\ \text{cm}$. Do đó $1\ \text{dm}^2=100\ \text{cm}^2$.
+
+b) Vì $1\ \text{m}=10\ \text{dm}$ nên hình vuông cạnh $1\ \text{m}$ gồm $10\times10=100$ hình vuông cạnh $1\ \text{dm}$. Do đó $1\ \text{m}^2=100\ \text{dm}^2$.
+
+c) Vì $1\ \text{cm}=10\ \text{mm}$ nên hình vuông cạnh $1\ \text{cm}$ gồm $10\times10=100$ hình vuông cạnh $1\ \text{mm}$. Do đó $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+Vậy cả ba chỗ trống đều là $100$.
 
 **Đáp số.** Cả ba chỗ trống đều là $100$.
 :::
@@ -179,7 +187,18 @@ c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
 2. Nhân số đo với $100$.
 
 ::solution
-a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+Mỗi đơn vị diện tích liền kề gấp $100$ lần đơn vị bé hơn, nên khi đổi sang đơn vị bé hơn ta nhân với $100$.
+
+a) Ta có $1\ \text{dm}^2=100\ \text{cm}^2$, nên
+$$5\ \text{dm}^2=5\times100=500\ \text{cm}^2.$$
+
+b) Ta có $1\ \text{m}^2=100\ \text{dm}^2$, nên
+$$9\ \text{m}^2=9\times100=900\ \text{dm}^2.$$
+
+c) Ta có $1\ \text{cm}^2=100\ \text{mm}^2$, nên
+$$2\ \text{cm}^2=2\times100=200\ \text{mm}^2.$$
+
+Vậy $5\ \text{dm}^2=500\ \text{cm}^2$; $9\ \text{m}^2=900\ \text{dm}^2$; $2\ \text{cm}^2=200\ \text{mm}^2$.
 
 **Đáp số.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
 :::
@@ -195,7 +214,20 @@ Em hãy nhớ lại bài trước (yến, tạ, tấn). Một xe chở $3$ tạ 
 2. Cộng hai kết quả.
 
 ::solution
-$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. Tổng là $300+50=350\ (\text{kg})$.
+Bài giải
+
+Ta nhớ lại: $1$ tạ $=100\ \text{kg}$ và $1$ yến $=10\ \text{kg}$.
+
+Số ki-lô-gam gạo xe chở là:
+$$3\times100=300\ \text{(kg)}.$$
+
+Số ki-lô-gam ngô xe chở là:
+$$5\times10=50\ \text{(kg)}.$$
+
+Số ki-lô-gam xe chở tất cả là:
+$$300+50=350\ \text{(kg)}.$$
+
+Vậy xe chở tất cả $350\ \text{kg}$.
 
 **Đáp số.** $350\ \text{kg}$.
 :::
@@ -217,7 +249,18 @@ c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
 2. Chia số đo cho $100$.
 
 ::solution
-a) $600:100=6$. b) $800:100=8$. c) $4\,000:100=40$.
+Mỗi đơn vị diện tích liền kề gấp $100$ lần đơn vị bé hơn, nên khi đổi sang đơn vị lớn hơn ta chia cho $100$.
+
+a) Ta có
+$$600\ \text{cm}^2=600:100=6\ \text{dm}^2.$$
+
+b) Ta có
+$$800\ \text{dm}^2=800:100=8\ \text{m}^2.$$
+
+c) Ta có
+$$4\,000\ \text{mm}^2=4\,000:100=40\ \text{cm}^2.$$
+
+Vậy $600\ \text{cm}^2=6\ \text{dm}^2$; $800\ \text{dm}^2=8\ \text{m}^2$; $4\,000\ \text{mm}^2=40\ \text{cm}^2$.
 
 **Đáp số.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
 :::
@@ -256,8 +299,15 @@ b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
 2. Ở câu b), tính $2\,000:100$.
 
 ::solution
-a) Mai quên đổi đúng $6\ \text{dm}^2$. Đúng là $6\ \text{dm}^2=600\ \text{cm}^2$, rồi $600+4=604$.
-b) Mai chia sai. Đúng là $2\,000:100=20$.
+a) Mai đổi sai vì quên đổi $6\ \text{dm}^2$ ra $\text{cm}^2$ trước khi cộng, mà chỉ ghép hai chữ số $6$ và $4$ lại với nhau. Làm đúng như sau: $1\ \text{dm}^2=100\ \text{cm}^2$ nên
+$$6\ \text{dm}^2=6\times100=600\ \text{cm}^2.$$
+Do đó
+$$6\ \text{dm}^2\ 4\ \text{cm}^2=600+4=604\ \text{cm}^2.$$
+
+b) Mai chia sai. Đổi từ $\text{cm}^2$ sang đơn vị lớn hơn là $\text{dm}^2$ thì chia cho $100$:
+$$2\,000\ \text{cm}^2=2\,000:100=20\ \text{dm}^2.$$
+
+Vậy câu a) đúng là $604\ \text{cm}^2$ và câu b) đúng là $20\ \text{dm}^2$.
 
 **Đáp số.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
 :::
@@ -280,9 +330,18 @@ c) Nếu lát bằng gạch hình vuông cạnh $1\ \text{dm}$ thì cần bao nh
 3. Số viên gạch bằng số $\text{dm}^2$.
 
 ::solution
-a) $5\times4=20\ (\text{m}^2)$.
-b) $20\times100=2\,000\ (\text{dm}^2)$.
-c) Mỗi viên phủ $1\ \text{dm}^2$ nên cần $2\,000$ viên.
+Bài giải
+
+a) Diện tích nền phòng là:
+$$5\times4=20\ (\text{m}^2).$$
+
+b) Vì $1\ \text{m}^2=100\ \text{dm}^2$ nên diện tích nền phòng theo $\text{dm}^2$ là:
+$$20\times100=2\,000\ (\text{dm}^2).$$
+
+c) Mỗi viên gạch hình vuông cạnh $1\ \text{dm}$ phủ được $1\ \text{dm}^2$. Số viên gạch cần dùng là:
+$$2\,000:1=2\,000\ \text{(viên)}.$$
+
+Vậy diện tích nền phòng là $20\ \text{m}^2$, bằng $2\,000\ \text{dm}^2$, và cần $2\,000$ viên gạch.
 
 **Đáp số.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ viên gạch.
 :::
@@ -299,9 +358,19 @@ Một tấm bìa hình vuông có diện tích $1\ \text{m}^2$. Bạn Hà cắt 
 3. Đổi ra mét.
 
 ::solution
-Số mảnh là $100$, vì $1\ \text{m}^2=100\ \text{dm}^2$. Mỗi mảnh rộng $1\ \text{dm}$, nên hàng dài $100\times1=100\ \text{dm}$. Đổi ra mét: $100:10=10\ \text{m}$.
+Bài giải
 
-**Kiểm tra.** $10\ \text{m}=100\ \text{dm}$. Đúng.
+Vì $1\ \text{m}^2=100\ \text{dm}^2$ nên tấm bìa cắt được $100$ mảnh hình vuông cạnh $1\ \text{dm}$.
+
+Mỗi mảnh rộng $1\ \text{dm}$, nên khi xếp $100$ mảnh nối nhau thành một hàng thẳng, hàng dài là:
+$$100\times1=100\ \text{(dm)}.$$
+
+Vì $1\ \text{m}=10\ \text{dm}$ nên đổi ra mét:
+$$100:10=10\ \text{(m)}.$$
+
+*Thử lại.* $10\ \text{m}=10\times10=100\ \text{dm}$. Kết quả đúng.
+
+Vậy hàng dài $10\ \text{m}$.
 
 **Đáp số.** $10\ \text{m}$.
 :::

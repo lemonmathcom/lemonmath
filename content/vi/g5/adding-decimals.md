@@ -144,8 +144,16 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng hàng phần mười trước (nhớ nếu cần), rồi cộng hàng đơn vị.
 
 ::solution
+Viết các số thập phân sao cho các chữ số ở cùng một hàng thẳng cột với nhau, dấu phẩy thẳng dấu phẩy, rồi cộng như cộng các số tự nhiên:
 $$\begin{array}{r} 5{,}8 \\ +\ 3{,}6 \\ \hline 9{,}4 \end{array}$$
-Hàng phần mười: $8+6=14$, viết $4$ nhớ $1$. Hàng đơn vị: $5+3+1=9$.
+
+Hàng phần mười: $8+6=14$, viết $4$ nhớ $1$.
+
+Hàng đơn vị: $5+3+1=9$, viết $9$.
+
+Viết dấu phẩy thẳng với dấu phẩy ở các số hạng, ta được $9{,}4$.
+
+Vậy $5{,}8+3{,}6=9{,}4$.
 
 **Đáp số.** $9{,}4$.
 :::
@@ -161,8 +169,20 @@ Hàng phần mười: $8+6=14$, viết $4$ nhớ $1$. Hàng đơn vị: $5+3+1=9
 2. Cộng từng hàng, nhớ khi tổng từ $10$ trở lên.
 
 ::solution
+Viết các số thẳng hàng, dấu phẩy thẳng dấu phẩy, rồi cộng từ phải sang trái:
 $$\begin{array}{r} 14{,}68 \\ +\ \ 5{,}75 \\ \hline 20{,}43 \end{array}$$
-Hàng phần trăm: $8+5=13$, viết $3$ nhớ $1$. Hàng phần mười: $6+7+1=14$, viết $4$ nhớ $1$. Hàng đơn vị: $4+5+1=10$, viết $0$ nhớ $1$. Hàng chục: $1+1=2$.
+
+Hàng phần trăm: $8+5=13$, viết $3$ nhớ $1$.
+
+Hàng phần mười: $6+7+1=14$, viết $4$ nhớ $1$.
+
+Hàng đơn vị: $4+5+1=10$, viết $0$ nhớ $1$.
+
+Hàng chục: $1+1=2$, viết $2$.
+
+Viết dấu phẩy thẳng với dấu phẩy ở các số hạng, ta được $20{,}43$.
+
+Vậy $14{,}68+5{,}75=20{,}43$.
 
 **Đáp số.** $20{,}43$.
 :::
@@ -178,8 +198,18 @@ Tính: $9{,}5+2{,}87$.
 2. Đặt tính và cộng.
 
 ::solution
-$9{,}5=9{,}50$. Ta có:
+Hai số hạng có số chữ số ở phần thập phân khác nhau. Ta viết thêm một chữ số $0$ vào bên phải phần thập phân của $9{,}5$ để được $9{,}5=9{,}50$ (giá trị không đổi), rồi đặt tính:
 $$\begin{array}{r} 9{,}50 \\ +\ 2{,}87 \\ \hline 12{,}37 \end{array}$$
+
+Hàng phần trăm: $0+7=7$, viết $7$.
+
+Hàng phần mười: $5+8=13$, viết $3$ nhớ $1$.
+
+Hàng đơn vị: $9+2+1=12$, viết $12$.
+
+Viết dấu phẩy thẳng với dấu phẩy ở các số hạng, ta được $12{,}37$.
+
+Vậy $9{,}5+2{,}87=12{,}37$.
 
 **Đáp số.** $12{,}37$.
 :::
@@ -195,7 +225,20 @@ Tính: $15+7{,}08$.
 2. Đặt tính thẳng dấu phẩy rồi cộng.
 
 ::solution
+Số tự nhiên $15$ có thể viết thành số thập phân $15=15{,}00$ (giá trị không đổi). Ta đặt tính:
 $$\begin{array}{r} 15{,}00 \\ +\ \ 7{,}08 \\ \hline 22{,}08 \end{array}$$
+
+Hàng phần trăm: $0+8=8$, viết $8$.
+
+Hàng phần mười: $0+0=0$, viết $0$.
+
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$.
+
+Hàng chục: $1+1=2$, viết $2$.
+
+Viết dấu phẩy thẳng với dấu phẩy ở các số hạng, ta được $22{,}08$.
+
+Vậy $15+7{,}08=22{,}08$.
 
 **Đáp số.** $22{,}08$.
 :::
@@ -211,8 +254,12 @@ Tính bằng cách thuận tiện: $2{,}5+6{,}7+7{,}5$.
 2. Ghép hai số đó lại, rồi cộng với số còn lại.
 
 ::solution
-Vì $2{,}5+7{,}5=10$, ta có:
-$$2{,}5+6{,}7+7{,}5=(2{,}5+7{,}5)+6{,}7=10+6{,}7=16{,}7.$$
+Phép cộng có tính chất giao hoán và kết hợp. Ta nhận thấy $2{,}5+7{,}5=10$ là một số tròn, nên ta nhóm hai số này lại với nhau.
+
+Ta có
+$$\begin{aligned}2{,}5+6{,}7+7{,}5&=2{,}5+7{,}5+6{,}7\\&=(2{,}5+7{,}5)+6{,}7\\&=10+6{,}7\\&=16{,}7.\end{aligned}$$
+
+Vậy $2{,}5+6{,}7+7{,}5=16{,}7$.
 
 **Đáp số.** $16{,}7$.
 :::
@@ -229,8 +276,14 @@ Mẹ may một cái áo cần $1{,}6$ m vải và một cái quần cần $1{,}2
 3. Thử lại: tổng phải lớn hơn mỗi số hạng.
 
 ::solution
-Số mét vải cần để may cả bộ là:
+Bài giải
+
+Muốn biết may cả bộ quần áo cần bao nhiêu mét vải, ta cộng số mét vải may áo với số mét vải may quần. Viết $1{,}6=1{,}60$ rồi cộng:
 $$1{,}60+1{,}25=2{,}85\ \text{(m)}.$$
+
+Thử lại: $2{,}85-1{,}25=1{,}60$. Đúng.
+
+Vậy may cả bộ quần áo cần $2{,}85$ m vải.
 
 **Đáp số.** $2{,}85$ m vải.
 :::
@@ -246,10 +299,17 @@ Em hãy nhớ lại bài trước về đơn vị đo diện tích. Một mảnh
 2. Cộng hai số đo cùng đơn vị héc-ta.
 
 ::solution
-Vì $1\ \text{ha}=10\,000\ \text{m}^2$ nên $2500\ \text{m}^2=0{,}25\ \text{ha}$. Ta có:
+Bài giải
+
+Hai số đo diện tích có đơn vị khác nhau nên ta đổi về cùng đơn vị héc-ta. Vì $1\ \text{ha}=10\,000\ \text{m}^2$ nên
+$$2500\ \text{m}^2=2500:10\,000=0{,}25\ \text{(ha)}.$$
+
+Diện tích cả hai mảnh vườn là:
 $$0{,}5+0{,}25=0{,}50+0{,}25=0{,}75\ \text{(ha)}.$$
 
-**Kiểm tra.** $0{,}75\ \text{ha}=7500\ \text{m}^2$, và $5000+2500=7500$. Đúng.
+Kiểm tra: $0{,}75\ \text{ha}=7500\ \text{m}^2$, và $5000+2500=7500$. Đúng.
+
+Vậy cả hai mảnh vườn rộng $0{,}75$ ha.
 
 **Đáp số.** $0{,}75$ ha.
 :::
@@ -265,8 +325,12 @@ Tính nhanh: $0{,}1+0{,}2+0{,}3+0{,}4+0{,}5+0{,}6+0{,}7+0{,}8+0{,}9$.
 2. Số nào không có cặp?
 
 ::solution
-Ta ghép thành bốn cặp, mỗi cặp có tổng bằng $1$, còn lại $0{,}5$:
-$$(0{,}1+0{,}9)+(0{,}2+0{,}8)+(0{,}3+0{,}7)+(0{,}4+0{,}6)+0{,}5=1+1+1+1+0{,}5=4{,}5.$$
+Ta ghép các số thành từng cặp có tổng bằng $1$: $0{,}1$ với $0{,}9$, $0{,}2$ với $0{,}8$, $0{,}3$ với $0{,}7$, $0{,}4$ với $0{,}6$. Còn lại số $0{,}5$ không có cặp.
+
+Ta có
+$$\begin{aligned}&0{,}1+0{,}2+0{,}3+0{,}4+0{,}5+0{,}6+0{,}7+0{,}8+0{,}9\\&=(0{,}1+0{,}9)+(0{,}2+0{,}8)+(0{,}3+0{,}7)+(0{,}4+0{,}6)+0{,}5\\&=1+1+1+1+0{,}5\\&=4{,}5.\end{aligned}$$
+
+Vậy tổng đã cho bằng $4{,}5$.
 
 **Đáp số.** $4{,}5$.
 :::

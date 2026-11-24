@@ -192,9 +192,19 @@ Tổng của hai số là $84$, hiệu của hai số là $12$. Tìm hai số đ
 2. Tính số lớn rồi thử lại.
 
 ::solution
-Số bé là $(84-12):2=36$. Số lớn là $36+12=48$.
+Bài giải
 
-**Thử lại.** $36+48=84$ và $48-36=12$. Đúng.
+Biết tổng và hiệu của hai số, ta tìm số bé trước: số bé bằng (tổng trừ hiệu) chia $2$.
+
+Số bé là:
+$$(84-12):2=72:2=36.$$
+
+Số lớn là:
+$$36+12=48.$$
+
+Thử lại: $36+48=84$ và $48-36=12$, đúng với đề bài.
+
+Vậy hai số cần tìm là $36$ và $48$.
 
 **Đáp số.** $36$ và $48$.
 :::
@@ -210,9 +220,19 @@ Tổng của hai số là $125$, hiệu của hai số là $35$. Tìm hai số �
 2. Lấy số lớn trừ hiệu để tìm số bé.
 
 ::solution
-Số lớn là $(125+35):2=160:2=80$. Số bé là $80-35=45$.
+Bài giải
 
-**Thử lại.** $80+45=125$ và $80-45=35$. Đúng.
+Biết tổng và hiệu của hai số, ta tìm số lớn trước: số lớn bằng (tổng cộng hiệu) chia $2$.
+
+Số lớn là:
+$$(125+35):2=160:2=80.$$
+
+Số bé là:
+$$80-35=45.$$
+
+Thử lại: $80+45=125$ và $80-45=35$, đúng với đề bài.
+
+Vậy hai số cần tìm là $80$ và $45$.
 
 **Đáp số.** $80$ và $45$.
 :::
@@ -228,9 +248,19 @@ Tổng của hai số là $1\,000$, hiệu của hai số là $250$. Tìm hai s�
 2. Tính số bé rồi thử lại.
 
 ::solution
-Số lớn là $(1\,000+250):2=1\,250:2=625$. Số bé là $625-250=375$.
+Bài giải
 
-**Thử lại.** $625+375=1\,000$ và $625-375=250$. Đúng.
+Số lớn bằng (tổng cộng hiệu) chia $2$.
+
+Số lớn là:
+$$(1\,000+250):2=1\,250:2=625.$$
+
+Số bé là:
+$$625-250=375.$$
+
+Thử lại: $625+375=1\,000$ và $625-375=250$, đúng với đề bài.
+
+Vậy hai số cần tìm là $625$ và $375$.
 
 **Đáp số.** $625$ và $375$.
 :::
@@ -249,10 +279,17 @@ Nam và Việt (số liệu giả định) có tất cả $45$ viên bi. Nam có
 ::solution
 Bài giải
 
+Bài toán cho biết tổng số bi của hai bạn là $45$ viên và hiệu số bi là $9$ viên. Ta tìm số bi của bạn ít hơn (Việt) trước.
+
 Số bi của Việt là:
-$$(45-9):2=18\ \text{(viên)}.$$
+$$(45-9):2=36:2=18\ \text{(viên)}.$$
+
 Số bi của Nam là:
 $$18+9=27\ \text{(viên)}.$$
+
+Thử lại: $27+18=45$ (viên) và $27-18=9$ (viên), đúng với đề bài.
+
+Vậy Nam có $27$ viên bi, Việt có $18$ viên bi.
 
 **Đáp số.** Nam: $27$ viên; Việt: $18$ viên.
 :::
@@ -270,10 +307,17 @@ Một trại (số liệu giả định) nuôi tất cả $360$ con gà và vị
 ::solution
 Bài giải
 
+Tổng số gà và vịt là $360$ con, số gà nhiều hơn số vịt $40$ con. Ta tìm số vịt (số bé) trước.
+
 Số vịt là:
-$$(360-40):2=160\ \text{(con)}.$$
+$$(360-40):2=320:2=160\ \text{(con)}.$$
+
 Số gà là:
 $$160+40=200\ \text{(con)}.$$
+
+Thử lại: $200+160=360$ (con) và $200-160=40$ (con), đúng với đề bài.
+
+Vậy trại nuôi $200$ con gà và $160$ con vịt.
 
 **Đáp số.** Gà: $200$ con; vịt: $160$ con.
 :::
@@ -291,12 +335,18 @@ Một mảnh đất hình chữ nhật (số liệu giả định) có chu vi $8
 ::solution
 Bài giải
 
-Nửa chu vi là:
+Nửa chu vi hình chữ nhật chính là tổng của chiều dài và chiều rộng. Nửa chu vi là:
 $$80:2=40\ \text{(m)}.$$
-Chiều rộng là:
-$$(40-10):2=15\ \text{(m)}.$$
+
+Bây giờ ta biết tổng của chiều dài và chiều rộng là $40$ m, hiệu của chúng là $10$ m. Chiều rộng là:
+$$(40-10):2=30:2=15\ \text{(m)}.$$
+
 Chiều dài là:
 $$15+10=25\ \text{(m)}.$$
+
+Thử lại: $(25+15)\times2=80$ (m) và $25-15=10$ (m), đúng với đề bài.
+
+Vậy mảnh đất có chiều dài $25$ m và chiều rộng $15$ m.
 
 **Đáp số.** Chiều dài $25$ m; chiều rộng $15$ m.
 :::
@@ -314,10 +364,17 @@ Hai chị em (số liệu giả định) có tất cả $100\,000$ đồng. Ch�
 ::solution
 Bài giải
 
+Tổng số tiền của hai chị em là $100\,000$ đồng, chị nhiều hơn em $24\,000$ đồng. Ta tìm số tiền của em (số bé) trước.
+
 Số tiền của em là:
-$$(100\,000-24\,000):2=38\,000\ \text{(đồng)}.$$
+$$(100\,000-24\,000):2=76\,000:2=38\,000\ \text{(đồng)}.$$
+
 Số tiền của chị là:
 $$38\,000+24\,000=62\,000\ \text{(đồng)}.$$
+
+Thử lại: $62\,000+38\,000=100\,000$ (đồng) và $62\,000-38\,000=24\,000$ (đồng), đúng với đề bài.
+
+Vậy chị có $62\,000$ đồng, em có $38\,000$ đồng.
 
 **Đáp số.** Chị: $62\,000$ đồng; em: $38\,000$ đồng.
 :::
@@ -333,9 +390,17 @@ Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tổng của h
 2. Chia kết quả cho $2$ để tìm số bé, rồi tìm số lớn.
 
 ::solution
-Số bé là $(1\,000\,000-246\,000):2=754\,000:2=377\,000$. Số lớn là $377\,000+246\,000=623\,000$.
+Bài giải
 
-**Thử lại.** $377\,000+623\,000=1\,000\,000$ và $623\,000-377\,000=246\,000$. Đúng.
+Số bé bằng (tổng trừ hiệu) chia $2$. Số bé là:
+$$(1\,000\,000-246\,000):2=754\,000:2=377\,000.$$
+
+Số lớn là:
+$$377\,000+246\,000=623\,000.$$
+
+Thử lại: $377\,000+623\,000=1\,000\,000$ và $623\,000-377\,000=246\,000$, đúng với đề bài.
+
+Vậy hai số cần tìm là $377\,000$ và $623\,000$.
 
 **Đáp số.** $377\,000$ và $623\,000$.
 :::
@@ -351,9 +416,18 @@ Nam giải bài toán: "Tổng hai số là $70$, hiệu hai số là $14$." Nam
 2. Số bé phải lớn hơn hay bé hơn số lớn?
 
 ::solution
-Số lớn $(70+14):2=42$ là đúng. Nhưng số bé phải bé hơn số lớn, nên số bé là $42-14=28$, không phải $42+14=56$.
+Ta kiểm tra từng bước làm của Nam.
 
-**Thử lại.** $42+28=70$ và $42-28=14$. Đúng.
+Bước 1: số lớn là $(70+14):2=84:2=42$. Bước này đúng vì số lớn bằng (tổng cộng hiệu) chia $2$.
+
+Bước 2: Nam tính số bé là $42+14=56$. Bước này sai, vì số bé phải bé hơn số lớn $14$ đơn vị nên phải lấy số lớn trừ đi hiệu. Hơn nữa, $56$ lớn hơn số lớn $42$ nên không thể là số bé.
+
+Cách làm đúng: số bé là
+$$42-14=28.$$
+
+Thử lại: $42+28=70$ và $42-28=14$, đúng với đề bài.
+
+Vậy Nam làm sai ở bước cuối; hai số đúng là $42$ và $28$.
 
 **Đáp số.** Nam sai ở bước cuối; hai số là $42$ và $28$.
 :::

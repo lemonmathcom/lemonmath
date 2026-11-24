@@ -262,8 +262,15 @@ Write the equation of the plane through $M(2, 1, -1)$ with normal vector $\vec{n
 2. Expand and simplify.
 
 ::solution
-$$(x-2)-3(y-1)+2(z+1)=0\iff x-3y+2z+3=0.$$
-Check with $M$: $2-3-2+3=0$.
+The plane through the point $M\left(x_0, y_0, z_0\right)$ with normal vector $\vec{n}=(a, b, c)$ has equation
+$$a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0.$$
+
+Substituting $M(2, 1, -1)$ and $\vec{n}=(1, -3, 2)$, we get
+$$\begin{aligned}1\cdot(x-2)-3(y-1)+2(z+1)&=0\\ x-2-3y+3+2z+2&=0\\ x-3y+2z+3&=0.\end{aligned}$$
+
+Check: substituting the coordinates of $M$ into the left-hand side gives $2-3\cdot1+2\cdot(-1)+3=2-3-2+3=0$ (satisfied).
+
+So the required plane is $x-3y+2z+3=0$.
 
 **Answer.** $x-3y+2z+3=0$.
 :::
@@ -279,8 +286,17 @@ Let $A(1, 2, 3)$ and $B(3, 0, 5)$. Write the equation of the perpendicular bisec
 2. Simplify the normal vector and write the equation.
 
 ::solution
-$I(2, 1, 4)$, $\overrightarrow{AB}=(2, -2, 2)=2(1, -1, 1)$. Choose $\vec{n}=(1, -1, 1)$:
-$$(x-2)-(y-1)+(z-4)=0\iff x-y+z-5=0.$$
+Let $I$ be the midpoint of segment $AB$. We have
+$$I\left(\frac{1+3}{2}, \frac{2+0}{2}, \frac{3+5}{2}\right)=I(2, 1, 4).$$
+
+We have $\overrightarrow{AB}=(3-1, 0-2, 5-3)=(2, -2, 2)=2(1, -1, 1)$.
+
+The perpendicular bisector plane of $AB$ passes through $I$ and is perpendicular to $AB$, so $\overrightarrow{AB}$ is a normal vector of it. We choose the parallel normal vector $\vec{n}=(1, -1, 1)$. The equation of the plane is
+$$\begin{aligned}1\cdot(x-2)-1\cdot(y-1)+1\cdot(z-4)&=0\\ x-2-y+1+z-4&=0\\ x-y+z-5&=0.\end{aligned}$$
+
+Check: substituting $I(2, 1, 4)$ gives $2-1+4-5=0$ (satisfied).
+
+So the perpendicular bisector plane of $AB$ is $x-y+z-5=0$.
 
 **Answer.** $x-y+z-5=0$.
 :::
@@ -296,10 +312,17 @@ Write the equation of the plane through $A(2, 1, -1)$, $B(3, 0, 1)$, $C(1, 3, 0)
 2. Compute the cross product, then write the equation through $A$.
 
 ::solution
-$\overrightarrow{AB}=(1, -1, 2)$, $\overrightarrow{AC}=(-1, 2, 1)$.
+We have $\overrightarrow{AB}=(3-2, 0-1, 1-(-1))=(1, -1, 2)$ and $\overrightarrow{AC}=(1-2, 3-1, 0-(-1))=(-1, 2, 1)$.
+
+The vector $\overrightarrow{AB}\times\overrightarrow{AC}$ is perpendicular to both $\overrightarrow{AB}$ and $\overrightarrow{AC}$, so it is a normal vector of the plane $(ABC)$. We have
 $$\overrightarrow{AB}\times\overrightarrow{AC}=\big((-1)\cdot1-2\cdot2,\ 2\cdot(-1)-1\cdot1,\ 1\cdot2-(-1)\cdot(-1)\big)=(-5, -3, 1).$$
-Choose $\vec{n}=(5, 3, -1)$: $5(x-2)+3(y-1)-(z+1)=0\iff 5x+3y-z-14=0$.
-Check with $C$: $5+9-0-14=0$.
+
+Choose the parallel normal vector $\vec{n}=(5, 3, -1)$. The plane $(ABC)$ passes through $A(2, 1, -1)$, so its equation is
+$$\begin{aligned}5(x-2)+3(y-1)-(z+1)&=0\\ 5x-10+3y-3-z-1&=0\\ 5x+3y-z-14&=0.\end{aligned}$$
+
+Check: substituting $B(3, 0, 1)$ gives $15+0-1-14=0$; substituting $C(1, 3, 0)$ gives $5+9-0-14=0$ (satisfied).
+
+So the plane through $A$, $B$, $C$ is $5x+3y-z-14=0$.
 
 **Answer.** $5x+3y-z-14=0$.
 :::
@@ -315,7 +338,18 @@ A plane meets the axes $Ox$, $Oy$, $Oz$ at $(2, 0, 0)$, $(0, -3, 0)$, $(0, 0, 6)
 2. Multiply both sides by $6$ to clear the fractions.
 
 ::solution
-$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1\iff 3x-2y+z-6=0.$$
+A plane meeting the axes $Ox$, $Oy$, $Oz$ at $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$ with $abc\neq0$ has the intercept form
+$$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
+
+Here $a=2$, $b=-3$, $c=6$, so the plane has equation
+$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1.$$
+
+Multiplying both sides by $6$, we get
+$$3x-2y+z=6\iff 3x-2y+z-6=0.$$
+
+Check: substituting $(2, 0, 0)$, $(0, -3, 0)$, $(0, 0, 6)$ into the left-hand side gives $6-6=0$, $6-6=0$, $6-6=0$ (satisfied).
+
+So the Cartesian equation of the plane is $3x-2y+z-6=0$.
 
 **Answer.** $3x-2y+z-6=0$.
 :::
@@ -340,13 +374,18 @@ d) The distance from $O$ to $(P)$ is $3$.
 3. Compute $d(O, (P))$.
 
 ::solution
-a) **True.** The coefficients of $x$, $y$, $z$ are $2$, $-1$, $2$.
+The plane $(P): 2x-y+2z-3=0$ has coefficients $2$, $-1$, $2$ for $x$, $y$, $z$.
 
-b) **False.** $2-2+2-3=-1\neq0$.
+a) **True.** A normal vector of $(P)$ is $(2, -1, 2)$, exactly the triple of coefficients of $x$, $y$, $z$.
 
-c) **True.** $(4, -2, 4)=2(2, -1, 2)$ but $1\neq2\cdot(-3)$.
+b) **False.** Substituting $M(1, 2, 1)$ into the left-hand side of $(P)$ gives $2\cdot1-2+2\cdot1-3=-1\neq0$. Hence $M\notin(P)$.
 
-d) **False.** $d(O, (P))=\dfrac{|-3|}{\sqrt{4+1+4}}=1$.
+c) **True.** A normal vector of $(Q)$ is $(4, -2, 4)=2(2, -1, 2)$, which is parallel to the normal vector of $(P)$. Moreover $1\neq2\cdot(-3)$, so the two planes do not coincide. Hence $(P)\parallel(Q)$.
+
+d) **False.** We have
+$$d(O, (P))=\frac{|2\cdot0-0+2\cdot0-3|}{\sqrt{2^2+(-1)^2+2^2}}=\frac{3}{\sqrt{9}}=1\neq3.$$
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -362,7 +401,10 @@ A hillside is modelled by the plane $(P): x+2y+2z-30=0$ (unit: metre). A survey 
 2. Divide by $\sqrt{1+4+4}$.
 
 ::solution
-$$d=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23.3.$$
+Let $d$ (metres) be the distance from the drone $M(10, 20, 25)$ to the hillside $(P): x+2y+2z-30=0$. Using the formula for the distance from a point to a plane, we have
+$$d=\frac{|1\cdot10+2\cdot20+2\cdot25-30|}{\sqrt{1^2+2^2+2^2}}=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23.3.$$
+
+So the distance from the drone to the hillside is approximately $23.3$ metres.
 
 **Answer.** $23.3$.
 :::
@@ -378,8 +420,12 @@ Prove that the planes $(P): 2x-2y+z+4=0$ and $(Q): 2x-2y+z-5=0$ are parallel and
 2. Take an easy point of $(P)$, for example with $x=y=0$.
 
 ::solution
-The planes have the same normal vector $(2, -2, 1)$ and $4\neq-5$, so $(P)\parallel(Q)$. The point $E(0, 0, -4)$ lies in $(P)$:
-$$d((P), (Q))=d(E, (Q))=\frac{|-4-5|}{\sqrt{4+4+1}}=\frac{9}{3}=3.$$
+The plane $(P)$ has normal vector $(2, -2, 1)$ and the plane $(Q)$ also has normal vector $(2, -2, 1)$. These normal vectors are equal, and the constant terms are different ($4\neq-5$), so the planes do not coincide. Hence $(P)\parallel(Q)$.
+
+Since $(P)\parallel(Q)$, the distance between the two planes equals the distance from any point of $(P)$ to $(Q)$. The point $E(0, 0, -4)$ lies in $(P)$ because $0-0-4+4=0$. We have
+$$d((P), (Q))=d(E, (Q))=\frac{|2\cdot0-2\cdot0+(-4)-5|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{|-9|}{\sqrt{9}}=\frac{9}{3}=3.$$
+
+So the planes $(P)$ and $(Q)$ are parallel and the distance between them is $3$.
 
 **Answer.** $3$.
 :::
@@ -395,8 +441,18 @@ Write the equation of the plane that contains the axis $Oz$ and passes through $
 2. Choose a pair of numbers $A$, $B$ that works.
 
 ::solution
-$A\cdot1+B\cdot2=0$; choose $B=-1$, $A=2$. The plane is $2x-y=0$.
-Check: $2\cdot1-2=0$, and every point $(0, 0, z)$ satisfies it.
+Let the required plane be $ax+by+cz+d=0$ with $a^2+b^2+c^2\neq0$.
+
+The plane contains the axis $Oz$, so it contains the origin $O(0, 0, 0)$, which gives $d=0$. It also contains every point $(0, 0, z)$, so $c\cdot z=0$ for all $z$, which gives $c=0$. Hence the equation has the form $ax+by=0$.
+
+The plane passes through $A(1, 2, 5)$, so
+$$a\cdot1+b\cdot2=0\iff a=-2b.$$
+
+Choose $b=-1$, so $a=2$. The plane is $2x-y=0$.
+
+Check: substituting $A(1, 2, 5)$ gives $2\cdot1-2=0$; and every point $(0, 0, z)$ satisfies it since $2\cdot0-0=0$.
+
+So the plane containing the axis $Oz$ and passing through $A$ is $2x-y=0$.
 
 **Answer.** $2x-y=0$.
 :::
@@ -412,8 +468,17 @@ Check: $2\cdot1-2=0$, and every point $(0, 0, z)$ satisfies it.
 2. Write the equation through $A$, then substitute $D$.
 
 ::solution
+We have $\overrightarrow{AB}=(2-1, 3-0, -1-2)=(1, 3, -3)$ and $\overrightarrow{AC}=(0-1, 4-0, 1-2)=(-1, 4, -1)$.
+
+The vector $\overrightarrow{AB}\times\overrightarrow{AC}$ is a normal vector of the plane $(ABC)$. We have
 $$\overrightarrow{AB}\times\overrightarrow{AC}=\big(3\cdot(-1)-4\cdot(-3),\ (-3)\cdot(-1)-(-1)\cdot1,\ 1\cdot4-(-1)\cdot3\big)=(9, 4, 7).$$
-$(ABC): 9(x-1)+4y+7(z-2)=0\iff 9x+4y+7z-23=0$. Substituting $D$: $-9+4+28-23=0$.
+
+The plane $(ABC)$ passes through $A(1, 0, 2)$ and has normal vector $\vec{n}=(9, 4, 7)$, so its equation is
+$$\begin{aligned}9(x-1)+4y+7(z-2)&=0\\ 9x-9+4y+7z-14&=0\\ 9x+4y+7z-23&=0.\end{aligned}$$
+
+Substituting the coordinates of $D(-1, 1, 4)$ into the left-hand side gives $9\cdot(-1)+4\cdot1+7\cdot4-23=-9+4+28-23=0$. Hence $D$ lies in the plane $(ABC)$.
+
+So the plane $(ABC)$ is $9x+4y+7z-23=0$ and the point $D$ lies in it.
 
 **Answer.** $9x+4y+7z-23=0$; $D$ lies in $(ABC)$, as it must, since a parallelogram is a plane figure.
 :::
@@ -429,9 +494,19 @@ Write the equation of the plane $(P)$ that is parallel to $(Q): x+2y+2z+1=0$ and
 2. Solve, then reject any value that makes $(P)$ coincide with $(Q)$.
 
 ::solution
+Since $(P)\parallel(Q)$, the plane $(P)$ has the form $x+2y+2z+D=0$ with $D\neq1$.
+
+The distance from $A(1, 1, 1)$ to $(P)$ is $2$, so
+$$\frac{|1+2\cdot1+2\cdot1+D|}{\sqrt{1^2+2^2+2^2}}=2\iff\frac{|5+D|}{3}=2\iff|5+D|=6.$$
+
+Hence
 $$|5+D|=6\iff D=1\ \text{or}\ D=-11.$$
-With $D=1$, $(P)$ coincides with $(Q)$ rather than being parallel to it, so we reject it. That leaves $D=-11$.
-**Check.** $d(A, (P))=\dfrac{|5-11|}{3}=2$.
+
+With $D=1$, $(P)$ coincides with $(Q)$ rather than being parallel to it, so we reject it. That leaves $D=-11$ (which satisfies $D\neq1$).
+
+Check: $d(A, (P))=\dfrac{|5-11|}{3}=\dfrac{6}{3}=2$.
+
+So the plane $(P)$ is $x+2y+2z-11=0$.
 
 **Answer.** $(P): x+2y+2z-11=0$.
 :::

@@ -179,7 +179,13 @@ Tính a) $\lim\limits_{x\to3}(x^2-2x+1)$; b) $\lim\limits_{x\to-1}\dfrac{2x+3}{x
 2. Với câu b, kiểm tra mẫu khác $0$.
 
 ::solution
-a) $9-6+1=4$. b) Mẫu tại $x=-1$ là $1+2=3\ne0$ nên $\dfrac{2(-1)+3}{3}=\dfrac13$.
+a) Hàm số $x^2-2x+1$ là đa thức nên liên tục tại $x=3$. Do đó
+$$\lim_{x\to3}(x^2-2x+1)=3^2-2\cdot3+1=9-6+1=4.$$
+
+b) Hàm số $\dfrac{2x+3}{x^2+2}$ xác định tại $x=-1$ vì mẫu tại đó bằng $(-1)^2+2=3\ne0$. Áp dụng quy tắc giới hạn của thương, ta có
+$$\lim_{x\to-1}\frac{2x+3}{x^2+2}=\frac{2\cdot(-1)+3}{(-1)^2+2}=\frac13.$$
+
+Vậy a) giới hạn bằng $4$; b) giới hạn bằng $\dfrac13$.
 
 **Đáp số.** a) $4$; b) $\dfrac13$.
 :::
@@ -195,7 +201,15 @@ Tính a) $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$; b) $\lim\limits_{x\to2}\dfrac{
 2. Rút gọn thừa số chung rồi thay $x_0$.
 
 ::solution
-a) $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. b) $\dfrac{(x-2)(x-3)}{x-2}=x-3\to-1$.
+a) Khi $x\to3$ thì $x\ne3$, và cả tử lẫn mẫu đều tiến tới $0$. Phân tích tử thành nhân tử rồi rút gọn:
+$$\frac{x^2-9}{x-3}=\frac{(x-3)(x+3)}{x-3}=x+3\quad(x\ne3).$$
+Do đó $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}=\lim\limits_{x\to3}(x+3)=6$.
+
+b) Khi $x\to2$ thì $x\ne2$, và cả tử lẫn mẫu đều tiến tới $0$. Ta có $x^2-5x+6=(x-2)(x-3)$ nên
+$$\frac{x^2-5x+6}{x-2}=\frac{(x-2)(x-3)}{x-2}=x-3\quad(x\ne2).$$
+Do đó $\lim\limits_{x\to2}\dfrac{x^2-5x+6}{x-2}=\lim\limits_{x\to2}(x-3)=-1$.
+
+Vậy a) giới hạn bằng $6$; b) giới hạn bằng $-1$.
 
 **Đáp số.** a) $6$; b) $-1$.
 :::
@@ -211,7 +225,13 @@ Tính $\lim\limits_{x\to0}\dfrac{\sqrt{x+1}-1}{x}$.
 2. Rút gọn $x$ rồi thay $x=0$.
 
 ::solution
-$\dfrac{\sqrt{x+1}-1}{x}=\dfrac{(x+1)-1}{x\left(\sqrt{x+1}+1\right)}=\dfrac{1}{\sqrt{x+1}+1}\to\dfrac12$.
+Khi $x\to0$, cả tử $\sqrt{x+1}-1$ lẫn mẫu $x$ đều tiến tới $0$. Ta nhân cả tử và mẫu với biểu thức liên hợp $\sqrt{x+1}+1$ (khác $0$ vì $\sqrt{x+1}\ge0$) với $x\ne0$:
+$$\frac{\sqrt{x+1}-1}{x}=\frac{\left(\sqrt{x+1}-1\right)\left(\sqrt{x+1}+1\right)}{x\left(\sqrt{x+1}+1\right)}=\frac{(x+1)-1}{x\left(\sqrt{x+1}+1\right)}=\frac{1}{\sqrt{x+1}+1}.$$
+
+Do đó
+$$\lim_{x\to0}\frac{\sqrt{x+1}-1}{x}=\lim_{x\to0}\frac{1}{\sqrt{x+1}+1}=\frac{1}{\sqrt1+1}=\frac12.$$
+
+Vậy giới hạn cần tìm bằng $\dfrac12$.
 
 **Đáp số.** $\dfrac12$.
 :::
@@ -227,7 +247,15 @@ Tính a) $\lim\limits_{x\to+\infty}\dfrac{3x^2-x+1}{x^2+2}$; b) $\lim\limits_{x\
 2. Câu b: chia cho $x^2$ và để ý bậc.
 
 ::solution
-a) $\dfrac{3-\frac1x+\frac1{x^2}}{1+\frac2{x^2}}\to3$. b) $\dfrac{\frac1x+\frac1{x^2}}{1+\frac1{x^2}}\to0$.
+a) Với $x\ne0$, chia cả tử và mẫu cho $x^2$ (luỹ thừa bậc cao nhất của mẫu):
+$$\frac{3x^2-x+1}{x^2+2}=\frac{3-\frac1x+\frac1{x^2}}{1+\frac2{x^2}}.$$
+Khi $x\to+\infty$ thì $\dfrac1x\to0$ và $\dfrac1{x^2}\to0$, nên giới hạn bằng $\dfrac{3-0+0}{1+0}=3$.
+
+b) Tương tự, với $x\ne0$, chia cả tử và mẫu cho $x^2$:
+$$\frac{x+1}{x^2+1}=\frac{\frac1x+\frac1{x^2}}{1+\frac1{x^2}}.$$
+Khi $x\to+\infty$ thì tử tiến tới $0$ và mẫu tiến tới $1$, nên giới hạn bằng $\dfrac{0}{1}=0$.
+
+Vậy a) giới hạn bằng $3$; b) giới hạn bằng $0$.
 
 **Đáp số.** a) $3$; b) $0$.
 :::
@@ -243,7 +271,16 @@ Với vật rơi tự do $s(t)=4{,}9t^2$ (mét), tính vận tốc tức thời 
 2. Rút gọn rồi lấy giới hạn.
 
 ::solution
-$\dfrac{4{,}9(2+h)^2-4{,}9\cdot4}{h}=\dfrac{4{,}9(4h+h^2)}{h}=4{,}9(4+h)=19{,}6+4{,}9h\to19{,}6$.
+Vận tốc trung bình của vật trên đoạn $[2; 2+h]$ (với $h\ne0$) là
+$$\bar v=\frac{s(2+h)-s(2)}{h}.$$
+
+Thay $s(t)=4{,}9t^2$, ta được
+$$\bar v=\frac{4{,}9(2+h)^2-4{,}9\cdot2^2}{h}=\frac{4{,}9\left(4+4h+h^2-4\right)}{h}=\frac{4{,}9\left(4h+h^2\right)}{h}=4{,}9(4+h)=19{,}6+4{,}9h.$$
+
+Vận tốc tức thời tại $t=2$ là giới hạn của vận tốc trung bình khi $h\to0$:
+$$v(2)=\lim_{h\to0}(19{,}6+4{,}9h)=19{,}6.$$
+
+Vậy vận tốc tức thời của vật tại $t=2$ giây là $19{,}6$ m/s.
 
 **Đáp số.** $19{,}6$ m/s.
 :::
@@ -259,7 +296,17 @@ Xét hàm số $f(x)=\dfrac{|x-2|}{x-2}$. Tính $\lim\limits_{x\to2^+}f(x)$, $\l
 2. So sánh hai giới hạn một phía.
 
 ::solution
-Khi $x>2$, $f(x)=1$ nên giới hạn phải là $1$. Khi $x<2$, $f(x)=-1$ nên giới hạn trái là $-1$. Hai giới hạn khác nhau nên $\lim\limits_{x\to2}f(x)$ không tồn tại.
+Hàm số $f(x)=\dfrac{|x-2|}{x-2}$ xác định với mọi $x\ne2$.
+
+Với $x>2$: $x-2>0$ nên $|x-2|=x-2$ và $f(x)=1$. Do đó
+$$\lim_{x\to2^+}f(x)=1.$$
+
+Với $x<2$: $x-2<0$ nên $|x-2|=-(x-2)$ và $f(x)=-1$. Do đó
+$$\lim_{x\to2^-}f(x)=-1.$$
+
+Ta thấy $\lim\limits_{x\to2^+}f(x)=1\ne-1=\lim\limits_{x\to2^-}f(x)$, tức là giới hạn phải và giới hạn trái khác nhau.
+
+Vậy giới hạn phải bằng $1$, giới hạn trái bằng $-1$, và không tồn tại $\lim\limits_{x\to2}f(x)$.
 
 **Đáp số.** $1$ và $-1$; không tồn tại giới hạn tại $2$.
 :::
@@ -283,13 +330,18 @@ d) $\lim\limits_{x\to+\infty}f(x)=1$.
 2. Tính các giới hạn của $x+1$.
 
 ::solution
-a) **Sai**: mẫu bằng $0$ tại $x=1$.
+Hàm số $f(x)=\dfrac{x^2-1}{x-1}$ có tập xác định $\mathbb{R}\setminus\{1\}$. Với $x\ne1$ ta có
+$$f(x)=\frac{(x-1)(x+1)}{x-1}=x+1.$$
 
-b) **Đúng**: $x+1\to2$.
+a) **Sai.** Tại $x=1$ mẫu $x-1=0$ nên $f$ không xác định tại $x=1$.
 
-c) **Đúng**: $x+1\to1$ khi $x\to0$.
+b) **Đúng.** Ta có $\lim\limits_{x\to1}f(x)=\lim\limits_{x\to1}(x+1)=2$.
 
-d) **Sai**: $x+1\to+\infty$.
+c) **Đúng.** Ta có $\lim\limits_{x\to0}f(x)=\lim\limits_{x\to0}(x+1)=1$.
+
+d) **Sai.** Ta có $f(x)=x+1\to+\infty$ khi $x\to+\infty$, nên $\lim\limits_{x\to+\infty}f(x)=+\infty\ne1$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -305,7 +357,13 @@ Tính $\lim\limits_{x\to2}\dfrac{x^3-8}{x-2}$.
 2. Rút gọn rồi thay $x=2$.
 
 ::solution
-$\dfrac{(x-2)(x^2+2x+4)}{x-2}=x^2+2x+4\to4+4+4=12$.
+Khi $x\to2$ thì $x\ne2$, và cả tử lẫn mẫu đều tiến tới $0$. Ta phân tích tử bằng hằng đẳng thức $a^3-b^3=(a-b)\left(a^2+ab+b^2\right)$:
+$$\frac{x^3-8}{x-2}=\frac{(x-2)\left(x^2+2x+4\right)}{x-2}=x^2+2x+4\quad(x\ne2).$$
+
+Do đó
+$$\lim_{x\to2}\frac{x^3-8}{x-2}=\lim_{x\to2}\left(x^2+2x+4\right)=4+4+4=12.$$
+
+Vậy giới hạn cần tìm bằng $12$.
 
 **Đáp số.** $12$.
 :::
@@ -321,7 +379,15 @@ Dùng định nghĩa giới hạn của hàm số qua dãy số và giới hạn
 2. Lấy giới hạn của dãy.
 
 ::solution
-Dãy $x_n=2+\dfrac1n\ne2$ có $\lim x_n=2$. Ta có $f(x_n)=\left(2+\dfrac1n\right)^2=4+\dfrac4n+\dfrac1{n^2}\to4$. Kết quả như nhau với mọi dãy $x_n\to2$ (theo quy tắc giới hạn của tích), nên $\lim\limits_{x\to2}x^2=4$.
+Xét hàm số $f(x)=x^2$ và dãy số $x_n=2+\dfrac1n$. Ta có $x_n\ne2$ với mọi $n$, và $\lim x_n=2+\lim\dfrac1n=2+0=2$.
+
+Tính giá trị của hàm số tại các điểm của dãy:
+$$f(x_n)=\left(2+\frac1n\right)^2=4+\frac4n+\frac1{n^2}.$$
+
+Vì $\lim\dfrac1n=0$ và $\lim\dfrac1{n^2}=0$ nên
+$$\lim f(x_n)=4+4\cdot0+0=4.$$
+
+Với một dãy bất kì $(x_n)$ thoả mãn $x_n\ne2$ và $x_n\to2$, theo quy tắc giới hạn của tích ta có $\lim x_n^2=\lim x_n\cdot\lim x_n=2\cdot2=4$. Vậy $\lim f(x_n)=4$ với mọi dãy như vậy, và theo định nghĩa giới hạn của hàm số qua dãy số, $\lim\limits_{x\to2}x^2=4$.
 
 **Đáp số.** $\lim\limits_{x\to2}x^2=4$.
 :::
@@ -337,7 +403,13 @@ Tính $\lim\limits_{x\to0}\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}$.
 2. Rút gọn $x$.
 
 ::solution
-$\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}=\dfrac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\dfrac{2}{\sqrt{1+x}+\sqrt{1-x}}\to\dfrac{2}{1+1}=1$.
+Khi $x\to0$, cả tử lẫn mẫu đều tiến tới $0$. Với $x\ne0$ gần $0$ (cụ thể $|x|<1$), ta nhân cả tử và mẫu với biểu thức liên hợp $\sqrt{1+x}+\sqrt{1-x}$ (dương nên khác $0$):
+$$\frac{\sqrt{1+x}-\sqrt{1-x}}{x}=\frac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\frac{2x}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\frac{2}{\sqrt{1+x}+\sqrt{1-x}}.$$
+
+Do đó
+$$\lim_{x\to0}\frac{\sqrt{1+x}-\sqrt{1-x}}{x}=\lim_{x\to0}\frac{2}{\sqrt{1+x}+\sqrt{1-x}}=\frac{2}{1+1}=1.$$
+
+Vậy giới hạn cần tìm bằng $1$.
 
 **Đáp số.** $1$.
 :::

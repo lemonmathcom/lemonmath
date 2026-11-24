@@ -129,7 +129,15 @@ Work out $36+2$.
 2. The tens stay $3$.
 
 ::solution
-$6+2=8$ and the tens are $3$, so $36+2=38$.
+The number $36$ is made of $3$ tens and $6$ ones. We only add $2$ to the ones.
+
+Add the ones: $6+2=8$.
+
+The tens stay the same, $3$ tens. So $36+2$ has $3$ tens and $8$ ones, which is $38$.
+
+Check: $38-2=36$. Correct.
+
+So $36+2=38$.
 
 **Answer.** $38$.
 :::
@@ -145,7 +153,15 @@ Work out $71+8$.
 2. Keep the $7$ tens.
 
 ::solution
-$1+8=9$ and the tens are $7$, so $71+8=79$.
+The number $71$ is made of $7$ tens and $1$ one. We only add $8$ to the ones.
+
+Add the ones: $1+8=9$.
+
+The tens stay the same, $7$ tens. So $71+8$ has $7$ tens and $9$ ones, which is $79$.
+
+Check: $79-8=71$. Correct.
+
+So $71+8=79$.
 
 **Answer.** $79$.
 :::
@@ -161,7 +177,15 @@ Work out $5+44$.
 2. Add the ones, keep the tens the same.
 
 ::solution
-$5+44=44+5$. We have $4+5=9$ and the tens are $4$, so $44+5=49$.
+When we swap the two numbers in an addition, the total does not change, so $5+44=44+5$.
+
+The number $44$ is made of $4$ tens and $4$ ones. Add the ones: $4+5=9$.
+
+The tens stay the same, $4$ tens. So $44+5$ has $4$ tens and $9$ ones, which is $49$.
+
+Check: $49-5=44$. Correct.
+
+So $5+44=49$.
 
 **Answer.** $49$.
 :::
@@ -177,7 +201,13 @@ Write $>$, $<$ or $=$ in the box: $25+4 \;\square\; 30$.
 2. Compare the result with $30$.
 
 ::solution
-$5+4=9$, so $25+4=29$. Since $29<30$, we have $25+4<30$.
+First we work out the left-hand side $25+4$.
+
+Add the ones: $5+4=9$. The tens stay the same, $2$ tens. So $25+4=29$.
+
+We compare $29$ with $30$. The number $29$ has $2$ tens and $30$ has $3$ tens, and $2$ tens is less than $3$ tens, so $29<30$.
+
+So $25+4<30$, and we write the sign $<$.
 
 **Answer.** The sign $<$.
 :::
@@ -193,8 +223,12 @@ There are $42$ hens in a yard. Mum buys $5$ more hens. How many hens are in the 
 2. Work out $42+5$ and write the answer with its unit.
 
 ::solution
-The number of hens altogether is:
+Solution
+
+Mum buys more hens for the yard, so we add. The number of hens altogether is:
 $$42+5=47\ \text{(hens)}.$$
+
+So there are $47$ hens in the yard altogether.
 
 **Answer.** $47$ hens.
 :::
@@ -210,7 +244,14 @@ Remember the last lesson on units of length. One piece of string is $12$ cm long
 2. Work out $12+6$ and write the unit cm.
 
 ::solution
-$2+6=8$ and the tens are $1$, so $12+6=18$ (cm).
+Solution
+
+To find how long the two pieces of string are altogether, we add their lengths. The length of the two pieces is:
+$$12+6=18\ \text{(cm)}.$$
+
+Working: $2+6=8$ and the tens are $1$, so $12+6=18$.
+
+So the two pieces of string are $18$ cm long altogether.
 
 **Answer.** $18$ cm.
 :::
@@ -226,7 +267,15 @@ Lan writes: $34+5=84$. Is Lan right or wrong? Why? Correct it.
 2. Work out $4+5$ again and keep the tens the same.
 
 ::solution
-Lan is wrong, because she added $5$ to the $3$ tens. The right way: $4+5=9$ and the tens are $3$, so $34+5=39$.
+Lan writes $34+5=84$. We work out $34+5$ again.
+
+The number $34$ is made of $3$ tens and $4$ ones. The number $5$ is only $5$ ones, so it must be added to the ones: $4+5=9$.
+
+The tens stay the same, $3$ tens. So $34+5=39$.
+
+Lan added $5$ to the $3$ tens: $3+5=8$ tens, so she wrote $84$. That way is wrong.
+
+So Lan is wrong, and the correct sum is $34+5=39$.
 
 **Answer.** Wrong; the correct answer is $39$.
 :::
@@ -242,9 +291,15 @@ Find the missing number: $\square+5=67$.
 2. The tens stay $6$.
 
 ::solution
-Ones: $2+5=7$. The tens are $6$, so the missing number is $62$.
+The missing number plus $5$ gives $67$. The number $5$ is only $5$ ones, so it is added to the ones and the tens do not change.
 
-**Check.** $62+5=67$. Correct.
+The ones digit of the total is $7$. We look for the digit $\square$ with $\square+5=7$. Since $2+5=7$, the ones digit is $2$.
+
+The tens digit of the total is $6$ and it stays the same, so the missing number has $6$ tens. The number is $62$.
+
+Check: $62+5=67$. Correct.
+
+So the missing number is $62$.
 
 **Answer.** $62$.
 :::

@@ -313,9 +313,17 @@ Cho tam giác $ABC$ có $\widehat{A}=65^\circ$, $\widehat{B}=55^\circ$ (hình tr
 3. Ghép mỗi góc với cạnh đối diện: $\widehat{A}$ với $BC$, $\widehat{B}$ với $AC$, $\widehat{C}$ với $AB$.
 
 ::solution
-Xét tam giác $ABC$ có tổng ba góc bằng $180^\circ$, nên $\widehat{C}=180^\circ-65^\circ-55^\circ=60^\circ$.
+Xét tam giác $ABC$, tổng ba góc bằng $180^\circ$, nên
+$$\widehat{C}=180^\circ-\widehat{A}-\widehat{B}=180^\circ-65^\circ-55^\circ=60^\circ.$$
 
-Ta có $\widehat{B}=55^\circ<\widehat{C}=60^\circ<\widehat{A}=65^\circ$. Cạnh đối diện với $\widehat{B}$ là $AC$, với $\widehat{C}$ là $AB$, với $\widehat{A}$ là $BC$. Theo định lí về góc và cạnh đối diện, ta có $AC<AB<BC$.
+Ta có $\widehat{B}=55^\circ<\widehat{C}=60^\circ<\widehat{A}=65^\circ$.
+
+Cạnh đối diện với $\widehat{B}$ là $AC$, cạnh đối diện với $\widehat{C}$ là $AB$, cạnh đối diện với $\widehat{A}$ là $BC$.
+
+Theo định lí về góc và cạnh đối diện (trong một tam giác, góc lớn hơn thì đối diện với cạnh lớn hơn), ta có
+$$AC<AB<BC.$$
+
+Vậy $\widehat{C}=60^\circ$ và ba cạnh sắp xếp theo thứ tự tăng dần là $AC<AB<BC$.
 
 **Đáp số.** $\widehat{C}=60^\circ$; $AC<AB<BC$.
 :::
@@ -342,9 +350,14 @@ Cho tam giác $ABC$ có $AB=9$ cm, $BC=6$ cm, $CA=7$ cm (hình trên). Sắp x�
 2. Sắp xếp ba cạnh $9$, $6$, $7$ rồi chuyển sang các góc.
 
 ::solution
-Góc đối diện với $AB$ là $\widehat{C}$, với $BC$ là $\widehat{A}$, với $CA$ là $\widehat{B}$.
+Góc đối diện với cạnh $AB$ là $\widehat{C}$, góc đối diện với cạnh $BC$ là $\widehat{A}$, góc đối diện với cạnh $CA$ là $\widehat{B}$.
 
-Xét tam giác $ABC$ có $BC=6<CA=7<AB=9$. Theo định lí về góc và cạnh đối diện, góc đối diện với cạnh lớn hơn thì lớn hơn, nên $\widehat{A}<\widehat{B}<\widehat{C}$.
+Xét tam giác $ABC$, ta có $BC=6\ \text{cm}<CA=7\ \text{cm}<AB=9\ \text{cm}$.
+
+Theo định lí về góc và cạnh đối diện, trong một tam giác, góc đối diện với cạnh lớn hơn thì lớn hơn. Do đó
+$$\widehat{A}<\widehat{B}<\widehat{C}.$$
+
+Vậy ba góc của tam giác sắp xếp theo thứ tự tăng dần là $\widehat{A}<\widehat{B}<\widehat{C}$.
 
 **Đáp số.** $\widehat{A}<\widehat{B}<\widehat{C}$.
 :::

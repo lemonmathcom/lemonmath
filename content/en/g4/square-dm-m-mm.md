@@ -157,7 +157,15 @@ c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
 2. Write $100$ in each blank.
 
 ::solution
-a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+A square decimetre is the area of a square with sides of $1\ \text{dm}$; a square metre is the area of a square with sides of $1\ \text{m}$; a square centimetre is the area of a square with sides of $1\ \text{cm}$.
+
+a) Since $1\ \text{dm}=10\ \text{cm}$, a square with sides of $1\ \text{dm}$ contains $10\times10=100$ squares with sides of $1\ \text{cm}$. So $1\ \text{dm}^2=100\ \text{cm}^2$.
+
+b) Since $1\ \text{m}=10\ \text{dm}$, a square with sides of $1\ \text{m}$ contains $10\times10=100$ squares with sides of $1\ \text{dm}$. So $1\ \text{m}^2=100\ \text{dm}^2$.
+
+c) Since $1\ \text{cm}=10\ \text{mm}$, a square with sides of $1\ \text{cm}$ contains $10\times10=100$ squares with sides of $1\ \text{mm}$. So $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+So all three missing numbers are $100$.
 
 **Answer.** All three missing numbers are $100$.
 :::
@@ -179,7 +187,18 @@ c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
 2. Multiply the number by $100$.
 
 ::solution
-a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+Each area unit is $100$ times the next smaller unit, so when we change to a smaller unit we multiply by $100$.
+
+a) We have $1\ \text{dm}^2=100\ \text{cm}^2$, so
+$$5\ \text{dm}^2=5\times100=500\ \text{cm}^2.$$
+
+b) We have $1\ \text{m}^2=100\ \text{dm}^2$, so
+$$9\ \text{m}^2=9\times100=900\ \text{dm}^2.$$
+
+c) We have $1\ \text{cm}^2=100\ \text{mm}^2$, so
+$$2\ \text{cm}^2=2\times100=200\ \text{mm}^2.$$
+
+So $5\ \text{dm}^2=500\ \text{cm}^2$; $9\ \text{m}^2=900\ \text{dm}^2$; $2\ \text{cm}^2=200\ \text{mm}^2$.
 
 **Answer.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
 :::
@@ -195,7 +214,20 @@ Remember the last lesson (yến, tạ and tonnes). A lorry carries $3$ tạ of r
 2. Add the two results.
 
 ::solution
-$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. The total is $300+50=350\ (\text{kg})$.
+Solution
+
+We recall: $1$ tạ $=100\ \text{kg}$ and $1$ yến $=10\ \text{kg}$.
+
+The number of kilograms of rice the lorry carries is:
+$$3\times100=300\ \text{(kg)}.$$
+
+The number of kilograms of maize the lorry carries is:
+$$5\times10=50\ \text{(kg)}.$$
+
+The number of kilograms the lorry carries altogether is:
+$$300+50=350\ \text{(kg)}.$$
+
+So the lorry carries $350\ \text{kg}$ altogether.
 
 **Answer.** $350\ \text{kg}$.
 :::
@@ -217,7 +249,18 @@ c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
 2. Divide the number by $100$.
 
 ::solution
-a) $600\div100=6$. b) $800\div100=8$. c) $4\,000\div100=40$.
+Each area unit is $100$ times the next smaller unit, so when we change to a larger unit we divide by $100$.
+
+a) We have
+$$600\ \text{cm}^2=600\div100=6\ \text{dm}^2.$$
+
+b) We have
+$$800\ \text{dm}^2=800\div100=8\ \text{m}^2.$$
+
+c) We have
+$$4\,000\ \text{mm}^2=4\,000\div100=40\ \text{cm}^2.$$
+
+So $600\ \text{cm}^2=6\ \text{dm}^2$; $800\ \text{dm}^2=8\ \text{m}^2$; $4\,000\ \text{mm}^2=40\ \text{cm}^2$.
 
 **Answer.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
 :::
@@ -256,8 +299,15 @@ b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
 2. In part b), work out $2\,000\div100$.
 
 ::solution
-a) Mai did not change $6\ \text{dm}^2$ correctly. The right way is $6\ \text{dm}^2=600\ \text{cm}^2$, then $600+4=604$.
-b) Mai divided wrongly. The right way is $2\,000\div100=20$.
+a) Mai did not change $6\ \text{dm}^2$ into $\text{cm}^2$ before adding, but simply put the digits $6$ and $4$ side by side. The correct way: $1\ \text{dm}^2=100\ \text{cm}^2$, so
+$$6\ \text{dm}^2=6\times100=600\ \text{cm}^2.$$
+Therefore
+$$6\ \text{dm}^2\ 4\ \text{cm}^2=600+4=604\ \text{cm}^2.$$
+
+b) Mai divided wrongly. Changing from $\text{cm}^2$ to the larger unit $\text{dm}^2$ means dividing by $100$:
+$$2\,000\ \text{cm}^2=2\,000\div100=20\ \text{dm}^2.$$
+
+So the correct answer to part a) is $604\ \text{cm}^2$ and to part b) is $20\ \text{dm}^2$.
 
 **Answer.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
 :::
@@ -280,9 +330,18 @@ c) If the floor is covered with square tiles with sides of $1\ \text{dm}$, how m
 3. The number of tiles equals the number of $\text{dm}^2$.
 
 ::solution
-a) $5\times4=20\ (\text{m}^2)$.
-b) $20\times100=2\,000\ (\text{dm}^2)$.
-c) Each tile covers $1\ \text{dm}^2$, so $2\,000$ tiles are needed.
+Solution
+
+a) The area of the floor is:
+$$5\times4=20\ (\text{m}^2).$$
+
+b) Since $1\ \text{m}^2=100\ \text{dm}^2$, the area of the floor in $\text{dm}^2$ is:
+$$20\times100=2\,000\ (\text{dm}^2).$$
+
+c) Each square tile with sides of $1\ \text{dm}$ covers $1\ \text{dm}^2$. The number of tiles needed is:
+$$2\,000\div1=2\,000\ \text{(tiles)}.$$
+
+So the area of the floor is $20\ \text{m}^2$, which is $2\,000\ \text{dm}^2$, and $2\,000$ tiles are needed.
 
 **Answer.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ tiles.
 :::
@@ -299,9 +358,19 @@ A square piece of card has an area of $1\ \text{m}^2$. Ha cuts it into small squ
 3. Change it into metres.
 
 ::solution
-There are $100$ small squares, because $1\ \text{m}^2=100\ \text{dm}^2$. Each is $1\ \text{dm}$ wide, so the line is $100\times1=100\ \text{dm}$ long. In metres: $100\div10=10\ \text{m}$.
+Solution
 
-**Check.** $10\ \text{m}=100\ \text{dm}$. Correct.
+Since $1\ \text{m}^2=100\ \text{dm}^2$, the piece of card can be cut into $100$ small squares with sides of $1\ \text{dm}$.
+
+Each small square is $1\ \text{dm}$ wide, so when the $100$ squares are put end to end in a straight line, the line is:
+$$100\times1=100\ \text{(dm)}\ \text{long}.$$
+
+Since $1\ \text{m}=10\ \text{dm}$, in metres this is:
+$$100\div10=10\ \text{(m)}.$$
+
+*Check.* $10\ \text{m}=10\times10=100\ \text{dm}$. The result is correct.
+
+So the line is $10\ \text{m}$ long.
 
 **Answer.** $10\ \text{m}$.
 :::

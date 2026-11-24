@@ -133,7 +133,15 @@ c) $1$ km $=\square$ m.
 2. Fill in each box.
 
 ::solution
-One decimetre is ten centimetres, one metre is ten decimetres, and one kilometre is one thousand metres.
+We recall how the units of length are related:
+
+a) One decimetre is ten centimetres, so $1$ dm $=10$ cm.
+
+b) One metre is ten decimetres, so $1$ m $=10$ dm.
+
+c) One kilometre is one thousand metres, so $1$ km $=1000$ m.
+
+So the numbers to write in the boxes are $10$, $10$ and $1000$.
 
 **Answer.** a) $10$; b) $10$; c) $1000$.
 :::
@@ -155,7 +163,19 @@ c) $7$ dm $=\square$ cm.
 2. Count on in tens or split into groups of $10$.
 
 ::solution
-a) $3\times10=30$. b) $50$ dm has $5$ groups of $10$ dm, so it is $5$ m. c) $7\times10=70$.
+We use $1$ m $=10$ dm and $1$ dm $=10$ cm.
+
+a) Since $1$ m $=10$ dm, $3$ m is $3$ times $10$ dm. We have
+$$3\times10=30.$$
+So $3$ m $=30$ dm.
+
+b) Every $10$ dm is $1$ m. The length $50$ dm has $5$ groups of $10$ dm, so it is $5$ m.
+
+So $50$ dm $=5$ m.
+
+c) Since $1$ dm $=10$ cm, $7$ dm is $7$ times $10$ cm. We have
+$$7\times10=70.$$
+So $7$ dm $=70$ cm.
 
 **Answer.** a) $30$; b) $5$; c) $70$.
 :::
@@ -171,7 +191,15 @@ Remember the last lesson. Road A is $450$ m long and road B is $405$ m long. Wri
 2. If equal, compare the tens.
 
 ::solution
-The hundreds are equal, both $4$. The tens $5>0$, so $450>405$.
+To compare two three-digit numbers, we compare the digits starting from the hundreds.
+
+The numbers $450$ and $405$ have equal hundreds, both $4$.
+
+We compare the tens next: $5>0$, so $450>405$.
+
+Road A is $450$ m long, which is more than road B at $405$ m.
+
+So $450>405$ and road A is longer.
 
 **Answer.** $450>405$; road A is longer.
 :::
@@ -193,7 +221,19 @@ c) $20$ km $-5$ km.
 2. Write the unit in the result.
 
 ::solution
-a) $6+3=9$. b) $15-8=7$. c) $20-5=15$.
+The measures have the same unit, so we add or subtract the numbers and keep the unit.
+
+a) We have
+$$6+3=9.$$
+So $6$ dm $+3$ dm $=9$ dm.
+
+b) We have
+$$15-8=7.$$
+So $15$ m $-8$ m $=7$ m.
+
+c) We have
+$$20-5=15.$$
+So $20$ km $-5$ km $=15$ km.
 
 **Answer.** a) $9$ dm; b) $7$ m; c) $15$ km.
 :::
@@ -215,7 +255,15 @@ c) The road from your home to a faraway city.
 2. Choose the unit that fits.
 
 ::solution
-a) A desk is not very long, choose dm. b) A playground is much longer than a desk, choose m. c) The road to a city is very long, choose km.
+We choose the unit that suits the length of the thing being measured.
+
+a) A school desk is not very long, so we measure its height in decimetres. Choose dm.
+
+b) A playground is much longer than a desk, so we measure it in metres. Choose m.
+
+c) The road to a faraway city is very long, so we measure it in kilometres. Choose km.
+
+So the sensible units are dm, m and km for parts a), b) and c).
 
 **Answer.** a) dm; b) m; c) km.
 :::
@@ -231,7 +279,13 @@ Mai says: "$1$ m $=100$ dm." What is wrong with what Mai says? Correct it.
 2. Correct the number.
 
 ::solution
-A metre rule is as long as $10$ rulers of $1$ dm, not $100$.
+We compare with a metre rule: a metre rule is as long as $10$ rulers of $1$ dm placed end to end, not $100$.
+
+So $1$ m $=10$ dm, and $1$ m $=100$ dm is wrong.
+
+Mai's mistake is to write $100$ instead of $10$. (The number $100$ is the number of centimetres in $1$ m, that is $1$ m $=100$ cm.)
+
+So the correct statement is $1$ m $=10$ dm.
 
 **Answer.** $1$ m $=10$ dm.
 :::
@@ -247,8 +301,12 @@ This morning Nam walks $3$ km and this afternoon he walks $2$ km. How many kilom
 2. Work out $3+2$ and give the answer with its unit.
 
 ::solution
-The distance for both parts of the day is:
-$$3+2=5\ \text{(km)}.$$
+Solution
+
+The distance Nam walks in both parts of the day is:
+$$3+2=5\ \text{(km)}$$
+
+So Nam walks $5$ km altogether.
 
 **Answer.** $5$ km.
 :::
@@ -264,9 +322,17 @@ A piece of string is $3$ m long. It is cut into pieces that are $5$ dm long. How
 2. Divide by the length of one piece.
 
 ::solution
-$3$ m $=30$ dm. The number of pieces is $30\div5=6$ (pieces).
+Solution
 
-**Check.** $6\times5=30$. Correct.
+The two lengths have different units, so we change them to the same unit. Since $1$ m $=10$ dm,
+$$3\ \text{m}=3\times10=30\ \text{(dm)}$$
+
+The number of pieces is:
+$$30\div5=6\ \text{(pieces)}$$
+
+Check: $6\times5=30$ (dm), which is correct.
+
+So $6$ pieces can be cut.
 
 **Answer.** $6$ pieces.
 :::

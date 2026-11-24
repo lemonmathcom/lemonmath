@@ -166,7 +166,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Số hạng còn thiếu ở vế phải là số nào?
 
 ::solution
-Theo tính chất giao hoán, $245+138=138+245$.
+Theo tính chất giao hoán của phép cộng, khi đổi chỗ hai số hạng thì tổng không thay đổi: $a+b=b+a$.
+
+Ta có $245+138=138+245$.
+
+Vậy số cần điền vào chỗ chấm là $245$.
 
 **Đáp số.** $245$.
 :::
@@ -182,7 +186,12 @@ Tính bằng cách thuận tiện: $46+38+54$.
 2. Ghép hai số đó, rồi cộng với số còn lại.
 
 ::solution
-Vì $46+54=100$ nên $46+38+54=(46+54)+38=100+38=138$.
+Ta thấy $46+54=100$ là một số tròn trăm, nên ta nhóm hai số này lại với nhau.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép cộng, ta có
+$$\begin{aligned} 46+38+54 &= (46+54)+38 \\ &= 100+38 \\ &= 138. \end{aligned}$$
+
+Vậy $46+38+54=138$.
 
 **Đáp số.** $138$.
 :::
@@ -198,7 +207,12 @@ Tính bằng cách thuận tiện: $173+84+27$.
 2. Ghép hai số đó rồi cộng với số còn lại.
 
 ::solution
-Vì $173+27=200$ nên $173+84+27=(173+27)+84=200+84=284$.
+Ta thấy $173+27=200$ là một số tròn trăm, nên ta nhóm hai số này lại với nhau.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép cộng, ta có
+$$\begin{aligned} 173+84+27 &= (173+27)+84 \\ &= 200+84 \\ &= 284. \end{aligned}$$
+
+Vậy $173+84+27=284$.
 
 **Đáp số.** $284$.
 :::
@@ -214,7 +228,12 @@ Tính bằng cách thuận tiện: $36+17+64+83$.
 2. Tìm cặp có tổng $100$ với $17$.
 
 ::solution
-Ta có $36+64=100$ và $17+83=100$. Vậy $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+Ta thấy $36+64=100$ và $17+83=100$, nên ta ghép các số thành từng cặp có tổng tròn trăm.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép cộng, ta có
+$$\begin{aligned} 36+17+64+83 &= (36+64)+(17+83) \\ &= 100+100 \\ &= 200. \end{aligned}$$
+
+Vậy $36+17+64+83=200$.
 
 **Đáp số.** $200$.
 :::
@@ -230,9 +249,15 @@ Tìm $x$: $x+245=245+78$.
 2. So sánh hai vế để tìm $x$.
 
 ::solution
-Theo tính chất giao hoán, $245+78=78+245$. Vậy $x+245=78+245$ nên $x=78$.
+Theo tính chất giao hoán của phép cộng, $245+78=78+245$.
 
-**Thử lại.** $78+245=245+78$. Đúng.
+Do đó phương trình trở thành $x+245=78+245$.
+
+Hai vế đều cộng với $245$, nên $x=78$.
+
+*Thử lại.* Thay $x=78$ vào, ta có $78+245=245+78$. Hai vế bằng nhau, nên kết quả đúng.
+
+Vậy $x=78$.
 
 **Đáp số.** $x=78$.
 :::
@@ -251,8 +276,12 @@ Ba lớp (số liệu giả định) thu gom được $125$ kg, $247$ kg và $17
 ::solution
 Bài giải
 
+Muốn biết cả ba lớp thu gom được bao nhiêu ki-lô-gam giấy vụn, ta cộng số ki-lô-gam của ba lớp. Ta thấy $125+175=300$ là một số tròn trăm, nên ta nhóm hai số này lại với nhau.
+
 Số ki-lô-gam giấy vụn của cả ba lớp là:
 $$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+
+Vậy cả ba lớp thu gom được $547$ kg giấy vụn.
 
 **Đáp số.** $547$ kg giấy vụn.
 :::
@@ -271,8 +300,12 @@ Một cửa hàng (số liệu giả định) ngày thứ nhất bán được $
 ::solution
 Bài giải
 
+Muốn biết cả ba ngày cửa hàng bán được bao nhiêu đồng, ta cộng số tiền bán được của ba ngày. Ta thấy $2\,450\,000+550\,000=3\,000\,000$ là một số tròn triệu, nên ta nhóm hai số này lại với nhau.
+
 Số tiền bán được trong ba ngày là:
 $$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(đồng)}.$$
+
+Vậy cả ba ngày cửa hàng bán được $4\,380\,000$ đồng.
 
 **Đáp số.** $4\,380\,000$ đồng.
 :::
@@ -288,7 +321,12 @@ Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tính bằng c
 2. Ghép chúng lại rồi cộng với số còn lại.
 
 ::solution
-Ta có $348\,650+651\,350=1\,000\,000$. Vậy $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
+Ta thấy hai số $348\,650$ và $651\,350$ có tổng tròn triệu: $348\,650+651\,350=1\,000\,000$. Vì vậy ta nhóm hai số này lại với nhau.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép cộng, ta có
+$$\begin{aligned} 348\,650+275\,480+651\,350 &= (348\,650+651\,350)+275\,480 \\ &= 1\,000\,000+275\,480 \\ &= 1\,275\,480. \end{aligned}$$
+
+Vậy $348\,650+275\,480+651\,350=1\,275\,480$.
 
 **Đáp số.** $1\,275\,480$.
 :::
@@ -322,8 +360,12 @@ Tính nhanh: $1+2+3+4+5+6+7+8+9$.
 2. Số nào không có cặp?
 
 ::solution
-Ta ghép thành bốn cặp, mỗi cặp có tổng $10$, còn lại $5$:
-$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
+Ta ghép các số thành từng cặp có tổng bằng $10$: $1+9$, $2+8$, $3+7$, $4+6$. Số $5$ còn lại không có cặp.
+
+Áp dụng tính chất giao hoán và tính chất kết hợp của phép cộng, ta có
+$$\begin{aligned} 1+2+3+4+5+6+7+8+9 &= (1+9)+(2+8)+(3+7)+(4+6)+5 \\ &= 10+10+10+10+5 \\ &= 45. \end{aligned}$$
+
+Vậy $1+2+3+4+5+6+7+8+9=45$.
 
 **Đáp số.** $45$.
 :::

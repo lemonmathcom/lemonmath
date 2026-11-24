@@ -140,9 +140,13 @@ Một túi cam đặt trên cân, kim cân chỉ đúng vạch ghi số 6. Túi 
 2. Viết số đo kèm đơn vị kg.
 
 ::solution
-Kim cân chỉ vạch ghi số 6 nên túi cam nặng 6 kg.
+Kim cân chỉ đúng vạch nào thì số ghi ở vạch đó cho biết số ki-lô-gam của vật được cân.
 
-**Đáp số.** 6 kg.
+Kim cân chỉ đúng vạch ghi số $6$, nên túi cam nặng $6\ \text{kg}$.
+
+Vậy túi cam nặng $6\ \text{kg}$.
+
+**Đáp số.** $6\ \text{kg}$.
 :::
 
 :::exercise
@@ -156,7 +160,13 @@ Trên một cân đĩa, đĩa bên trái chứa quả bưởi hạ thấp hơn �
 2. Vật ở đĩa còn lại nặng hơn hay nhẹ hơn?
 
 ::solution
-Đĩa có quả bưởi hạ thấp hơn nên quả bưởi nặng hơn. Vậy quả cam nhẹ hơn.
+Trên cân đĩa, đĩa nào hạ thấp hơn thì vật đặt ở đĩa đó nặng hơn; đĩa nào nâng cao hơn thì vật đặt ở đĩa đó nhẹ hơn.
+
+Đĩa bên trái (đựng quả bưởi) hạ thấp hơn đĩa bên phải (đựng quả cam), nên quả bưởi nặng hơn quả cam.
+
+Suy ra quả cam nhẹ hơn quả bưởi.
+
+Vậy quả cam nhẹ hơn.
 
 **Đáp số.** Quả cam nhẹ hơn.
 :::
@@ -180,15 +190,23 @@ d) $14\ \text{l}-6\ \text{l}$
 2. Nhớ dùng bảng cộng, bảng trừ qua 10.
 
 ::solution
-a) $6\ \text{kg}+9\ \text{kg}=15\ \text{kg}$.
+Khi cộng hoặc trừ các số đo có cùng đơn vị, ta cộng hoặc trừ các số rồi viết đơn vị vào kết quả.
 
-b) $16\ \text{kg}-7\ \text{kg}=9\ \text{kg}$.
+a) Ta có $6+9=15$, nên
+$$6\ \text{kg}+9\ \text{kg}=15\ \text{kg}.$$
 
-c) $5\ \text{l}+8\ \text{l}=13\ \text{l}$.
+b) Ta có $16-7=9$, nên
+$$16\ \text{kg}-7\ \text{kg}=9\ \text{kg}.$$
 
-d) $14\ \text{l}-6\ \text{l}=8\ \text{l}$.
+c) Ta có $5+8=13$, nên
+$$5\ \text{l}+8\ \text{l}=13\ \text{l}.$$
 
-**Đáp số.** a) 15 kg; b) 9 kg; c) 13 l; d) 8 l.
+d) Ta có $14-6=8$, nên
+$$14\ \text{l}-6\ \text{l}=8\ \text{l}.$$
+
+Vậy kết quả các phép tính lần lượt là $15\ \text{kg}$, $9\ \text{kg}$, $13\ \text{l}$ và $8\ \text{l}$.
+
+**Đáp số.** a) $15\ \text{kg}$; b) $9\ \text{kg}$; c) $13\ \text{l}$; d) $8\ \text{l}$.
 :::
 
 :::exercise
@@ -208,11 +226,15 @@ c) Bao gạo nặng 5 $\square$.
 2. Chọn đơn vị phù hợp.
 
 ::solution
-a) Con gà nặng 3 kg.
+Ki-lô-gam (kg) là đơn vị đo khối lượng, dùng để nói vật nặng bao nhiêu. Lít (l) là đơn vị đo dung tích, dùng để nói vật chứa được bao nhiêu nước hay chất lỏng.
 
-b) Xô nước đựng 10 l nước.
+a) Con gà nặng bao nhiêu là nói về độ nặng, nên dùng kg: con gà nặng $3\ \text{kg}$.
 
-c) Bao gạo nặng 5 kg.
+b) Xô đựng nước là nói về lượng nước xô chứa được, nên dùng l: xô nước đựng $10\ \text{l}$ nước.
+
+c) Bao gạo nặng bao nhiêu là nói về độ nặng, nên dùng kg: bao gạo nặng $5\ \text{kg}$.
+
+Vậy các đơn vị cần điền lần lượt là kg, l, kg.
 
 **Đáp số.** a) kg; b) l; c) kg.
 :::
@@ -231,9 +253,12 @@ Giả sử mẹ mua 9 kg gạo tẻ và 5 kg gạo nếp. Hỏi mẹ mua tất c
 ::solution
 Bài giải
 
-Mẹ mua tất cả số ki-lô-gam gạo là:
-$$9+5=14\ \text{(kg)}.$$
-Đáp số: 14 kg gạo.
+Mẹ mua gạo tẻ và gạo nếp, muốn biết tất cả bao nhiêu ki-lô-gam gạo thì ta làm phép cộng. Mẹ mua tất cả số ki-lô-gam gạo là:
+$$9+5=14\ \text{(kg)}$$
+
+Vậy mẹ mua tất cả $14\ \text{kg}$ gạo.
+
+**Đáp số.** $14\ \text{kg}$ gạo.
 :::
 
 :::exercise
@@ -250,9 +275,12 @@ Giả sử thùng thứ nhất đựng 12 lít nước. Thùng thứ hai đựng
 ::solution
 Bài giải
 
-Thùng thứ hai đựng số lít nước là:
-$$12+5=17\ \text{(l)}.$$
-Đáp số: 17 l nước.
+Thùng thứ hai đựng nhiều hơn thùng thứ nhất $5$ lít nước, nên muốn tìm số lít nước ở thùng thứ hai ta lấy số lít nước ở thùng thứ nhất cộng với $5$. Thùng thứ hai đựng số lít nước là:
+$$12+5=17\ \text{(l)}$$
+
+Vậy thùng thứ hai đựng $17\ \text{l}$ nước.
+
+**Đáp số.** $17\ \text{l}$ nước.
 :::
 
 :::exercise
@@ -266,10 +294,18 @@ Nhớ lại bài "Hơn, kém nhau bao nhiêu". Bao gạo nặng 15 kg, bao ngô 
 2. Tính hiệu rồi viết đơn vị kg.
 
 ::solution
-Ta có $15>9$ nên bao gạo nặng hơn. Bao gạo nặng hơn bao ngô là:
-$$15-9=6\ \text{(kg)}.$$
+Bài giải
 
-**Đáp số.** Bao gạo nặng hơn, nặng hơn 6 kg.
+So sánh hai số đo: $15>9$, nên bao gạo nặng hơn bao ngô.
+
+Muốn biết bao gạo nặng hơn bao ngô mấy ki-lô-gam, ta lấy số lớn trừ số bé. Bao gạo nặng hơn bao ngô là:
+$$15-9=6\ \text{(kg)}$$
+
+Thử lại: $9+6=15$, đúng.
+
+Vậy bao gạo nặng hơn, và nặng hơn bao ngô $6\ \text{kg}$.
+
+**Đáp số.** Bao gạo nặng hơn, nặng hơn $6\ \text{kg}$.
 :::
 
 :::exercise Thử thách
@@ -283,14 +319,19 @@ Giả sử một can đựng 10 lít dầu. Lần đầu người ta rót ra 4 l
 2. Sau lần sau, trong can còn bao nhiêu lít?
 
 ::solution
-Sau lần đầu, trong can còn:
-$$10-4=6\ \text{(l)}.$$
+Bài giải
+
+Dầu được rót ra hai lần nên ta trừ lần lượt từng lần. Sau lần đầu, trong can còn:
+$$10-4=6\ \text{(l)}$$
+
 Sau lần sau, trong can còn:
-$$6-3=3\ \text{(l)}.$$
+$$6-3=3\ \text{(l)}$$
 
-**Kiểm tra.** Tổng số lít rót ra là $4+3=7$ và $10-7=3$, đúng.
+*Kiểm tra.* Tổng số lít rót ra là $4+3=7$ (l) và $10-7=3$ (l), đúng.
 
-**Đáp số.** 3 l dầu.
+Vậy trong can còn lại $3\ \text{l}$ dầu.
+
+**Đáp số.** $3\ \text{l}$ dầu.
 :::
 
 ## Kiểm tra mini

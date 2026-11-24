@@ -121,7 +121,17 @@ Tính $(2-i)^2$ và $\dfrac{1}{2-i}$ dưới dạng $a+bi$. [4 marks]
 **Cần nhớ:** khai triển; nhân với $\dfrac{2+i}{2+i}$.
 
 ::solution
-$(2-i)^2=4-4i+i^2=3-4i$. $\dfrac{1}{2-i}=\dfrac{2+i}{5}=\dfrac25+\dfrac15i$.
+Tính $(2-i)^2$. Áp dụng hằng đẳng thức bình phương của một hiệu và $i^2=-1$:
+$$(2-i)^2=4-4i+i^2=4-4i-1=3-4i.$$
+
+Tính $\dfrac{1}{2-i}$. Nhân cả tử và mẫu với số phức liên hợp của mẫu là $2+i$:
+$$\frac{1}{2-i}=\frac{2+i}{(2-i)(2+i)}=\frac{2+i}{4-i^2}=\frac{2+i}{5}.$$
+
+Tách phần thực và phần ảo, ta được $\dfrac{1}{2-i}=\dfrac25+\dfrac15i$.
+
+Vậy $(2-i)^2=3-4i$ và $\dfrac{1}{2-i}=\dfrac25+\dfrac15i$.
+
+**Đáp số.** $(2-i)^2=3-4i$; $\dfrac{1}{2-i}=\dfrac25+\dfrac15i$.
 :::
 
 :::exercise Dạng mũ
@@ -131,7 +141,18 @@ Viết $-2-2i$ dưới dạng $re^{i\theta}$, $-\pi<\theta\le\pi$. [3 marks]
 **Cần nhớ:** điểm này nằm ở góc phần tư thứ ba.
 
 ::solution
-$r=\sqrt{8}=2\sqrt2$ và $\theta=-\dfrac{3\pi}{4}$, nên $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+Đặt $z=-2-2i$ và viết $z=re^{i\theta}$ với $r>0$, $-\pi<\theta\le\pi$.
+
+Môđun: $r=|z|=\sqrt{(-2)^2+(-2)^2}=\sqrt8=2\sqrt2$.
+
+Argument: phần thực và phần ảo của $z$ đều âm nên điểm biểu diễn $z$ nằm ở góc phần tư thứ ba. Ta có $\tan\theta=\dfrac{-2}{-2}=1$, nên góc tham chiếu là $\dfrac\pi4$. Với $-\pi<\theta\le\pi$ và góc phần tư thứ ba, ta được
+$$\theta=-\pi+\frac\pi4=-\frac{3\pi}{4}.$$
+
+Kiểm tra: $2\sqrt2\cos\left(-\dfrac{3\pi}{4}\right)=2\sqrt2\cdot\left(-\dfrac{\sqrt2}{2}\right)=-2$ và $2\sqrt2\sin\left(-\dfrac{3\pi}{4}\right)=-2$.
+
+Vậy $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+
+**Đáp số.** $2\sqrt2e^{-3\pi i/4}$.
 :::
 
 :::exercise Căn bậc bốn
@@ -141,7 +162,24 @@ Giải $z^4=16$. [4 marks]
 **Cần nhớ:** $16=16e^{i0}$; bốn nghiệm cách nhau $\dfrac\pi2$.
 
 ::solution
-$z=2e^{ik\pi/2}$, $k=0,1,2,3$: $2$, $2i$, $-2$, $-2i$.
+Viết $z=re^{i\theta}$ với $r>0$. Vì $16=16e^{i\cdot0}$, phương trình $z^4=16$ trở thành
+$$r^4e^{4i\theta}=16e^{i\cdot0}.$$
+
+So sánh môđun: $r^4=16$, suy ra $r=2$ (vì $r>0$).
+
+So sánh argument: $4\theta=2k\pi$ với $k\in\mathbb{Z}$, suy ra $\theta=\dfrac{k\pi}{2}$.
+
+Do đó $z=2e^{ik\pi/2}$. Các giá trị $k=0,1,2,3$ cho bốn nghiệm phân biệt; với $k=4$ ta quay lại nghiệm của $k=0$ nên không có thêm nghiệm mới.
+
+Tính từng nghiệm:
+- $k=0$: $z=2e^{0}=2$;
+- $k=1$: $z=2e^{i\pi/2}=2i$;
+- $k=2$: $z=2e^{i\pi}=-2$;
+- $k=3$: $z=2e^{3i\pi/2}=-2i$.
+
+Vậy phương trình $z^4=16$ có bốn nghiệm $2$, $2i$, $-2$, $-2i$.
+
+**Đáp số.** $2$, $2i$, $-2$, $-2i$.
 :::
 
 :::exercise So sánh phần thực và phần ảo
@@ -151,7 +189,23 @@ Tìm $z=a+bi$ sao cho $z+2z^*=6-i$. [3 marks]
 **Cần nhớ:** $z+2z^*=3a-bi$; so sánh phần thực và phần ảo.
 
 ::solution
-$3a=6$ và $-b=-1$, nên $z=2+i$.
+Với $z=a+bi$ ($a,b\in\mathbb{R}$), số phức liên hợp là $z^*=a-bi$.
+
+Ta có
+$$z+2z^*=(a+bi)+2(a-bi)=3a-bi.$$
+
+Phương trình $z+2z^*=6-i$ trở thành $3a-bi=6-i$.
+
+Hai số phức bằng nhau khi phần thực bằng nhau và phần ảo bằng nhau, nên
+$$3a=6\ \text{và}\ -b=-1.$$
+
+Suy ra $a=2$ và $b=1$.
+
+Kiểm tra: $2+i+2(2-i)=2+i+4-2i=6-i$.
+
+Vậy $z=2+i$.
+
+**Đáp số.** $z=2+i$.
 :::
 
 :::exercise Chia hết bằng quy nạp
@@ -161,7 +215,22 @@ Chứng minh bằng quy nạp rằng $3^{2n}-1$ chia hết cho $8$ với mọi $
 **Cần nhớ:** $3^{2(k+1)}-1=9\cdot3^{2k}-1=9\left(3^{2k}-1\right)+8$.
 
 ::solution
-Cơ sở: $3^2-1=8$. Giả sử $3^{2k}-1=8m$ với $m$ nguyên. Khi đó $3^{2k+2}-1=9(8m)+8=8(9m+1)$, là bội của $8$. Vì mệnh đề đúng với $n=1$ và đúng với $n=k+1$ mỗi khi đúng với $n=k$, nên theo nguyên lí quy nạp nó đúng với mọi $n\in\mathbb{Z}^+$.
+Gọi $P(n)$ là mệnh đề "$3^{2n}-1$ chia hết cho $8$". Ta chứng minh $P(n)$ đúng với mọi $n\in\mathbb{Z}^+$ bằng quy nạp.
+
+Cơ sở: với $n=1$, ta có $3^2-1=8$, chia hết cho $8$. Vậy $P(1)$ đúng.
+
+Giả thiết quy nạp: giả sử $P(k)$ đúng với một số nguyên dương $k$, tức là $3^{2k}-1=8m$ với $m$ nguyên.
+
+Bước quy nạp: ta chứng minh $P(k+1)$ đúng. Ta có
+$$\begin{aligned}3^{2(k+1)}-1&=3^{2k+2}-1=9\cdot3^{2k}-1\\&=9\left(3^{2k}-1\right)+8\\&=9(8m)+8=8(9m+1).\end{aligned}$$
+
+Vì $9m+1$ là số nguyên nên $3^{2(k+1)}-1$ là bội của $8$. Vậy $P(k+1)$ đúng.
+
+Kết luận: $P(1)$ đúng, và $P(k)$ đúng kéo theo $P(k+1)$ đúng. Theo nguyên lí quy nạp, $P(n)$ đúng với mọi $n\in\mathbb{Z}^+$.
+
+Vậy $3^{2n}-1$ chia hết cho $8$ với mọi $n\in\mathbb{Z}^+$.
+
+**Đáp số.** $3^{2n}-1$ chia hết cho $8$ với mọi $n\in\mathbb{Z}^+$.
 :::
 
 ## Bài tập vận dụng
@@ -173,7 +242,23 @@ Dùng định lí De Moivre với $n=3$ để chứng minh $\cos3\theta=4\cos^3\
 **Cần nhớ:** khai triển $(\cos\theta+i\sin\theta)^3$ bằng nhị thức Newton và so sánh phần thực; dùng $\sin^2\theta=1-\cos^2\theta$.
 
 ::solution
-Phần thực của $(c+is)^3$: $c^3-3cs^2=c^3-3c\left(1-c^2\right)=4c^3-3c$, với $c=\cos\theta$ và $s=\sin\theta$. Theo De Moivre, phần thực đó cũng bằng $\cos3\theta$.
+Đặt $c=\cos\theta$ và $s=\sin\theta$ (với $\theta$ thực nên $c$, $s$ là các số thực).
+
+Theo định lí De Moivre với $n=3$:
+$$(c+is)^3=\cos3\theta+i\sin3\theta.$$
+
+Khai triển vế trái bằng công thức nhị thức, với $i^2=-1$ và $i^3=-i$:
+$$(c+is)^3=c^3+3c^2(is)+3c(is)^2+(is)^3=c^3+3ic^2s-3cs^2-is^3.$$
+
+Phần thực của vế trái là $c^3-3cs^2$. Vì hai số phức bằng nhau thì phần thực bằng nhau, nên
+$$\cos3\theta=c^3-3cs^2.$$
+
+Thay $s^2=1-c^2$:
+$$\cos3\theta=c^3-3c\left(1-c^2\right)=c^3-3c+3c^3=4c^3-3c.$$
+
+Vậy $\cos3\theta=4\cos^3\theta-3\cos\theta$.
+
+**Đáp số.** $\cos3\theta=4\cos^3\theta-3\cos\theta$.
 :::
 
 :::exercise Căn bậc ba của đơn vị
@@ -183,7 +268,22 @@ Cho $\omega=e^{2\pi i/3}$. Chứng minh $1+\omega+\omega^2=0$, và mô tả ba c
 **Cần nhớ:** $\omega^3=1$ và $\omega\ne1$; phân tích $\omega^3-1$.
 
 ::solution
-$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0$ và $\omega\ne1$, nên $1+\omega+\omega^2=0$. Ba nghiệm $1$, $\omega$, $\omega^2$ là ba đỉnh của một tam giác đều nội tiếp đường tròn đơn vị.
+Ta có $\omega=e^{2\pi i/3}=\cos\dfrac{2\pi}{3}+i\sin\dfrac{2\pi}{3}=-\dfrac12+\dfrac{\sqrt3}{2}i$, nên $\omega\ne1$.
+
+Mặt khác $\omega^3=e^{2\pi i}=1$, nên $\omega^3-1=0$.
+
+Phân tích thành nhân tử:
+$$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0.$$
+
+Vì $\omega\ne1$ nên $\omega-1\ne0$. Do đó $\omega^2+\omega+1=0$, tức là $1+\omega+\omega^2=0$.
+
+Các căn bậc ba của $1$ là nghiệm của $z^3=1$, tức là $z=e^{2k\pi i/3}$ với $k=0,1,2$. Đó là $1$, $\omega$ và $\omega^2=e^{4\pi i/3}=-\dfrac12-\dfrac{\sqrt3}{2}i$.
+
+Cả ba số đều có môđun bằng $1$ nên nằm trên đường tròn đơn vị. Argument của chúng là $0$, $\dfrac{2\pi}{3}$, $\dfrac{4\pi}{3}$, cách đều nhau $\dfrac{2\pi}{3}$, nên ba điểm chia đường tròn đơn vị thành ba cung bằng nhau và các dây cung nối chúng bằng nhau.
+
+Vậy $1+\omega+\omega^2=0$, và ba căn bậc ba của $1$ là ba đỉnh của một tam giác đều nội tiếp đường tròn đơn vị trên mặt phẳng phức.
+
+**Đáp số.** $1+\omega+\omega^2=0$; ba nghiệm $1$, $\omega$, $\omega^2$ là ba đỉnh của một tam giác đều nội tiếp đường tròn đơn vị.
 :::
 
 :::exercise Quy nạp với đạo hàm
@@ -193,7 +293,25 @@ Chứng minh bằng quy nạp rằng $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^
 **Cần nhớ:** lấy đạo hàm $(x+k)e^x$ bằng quy tắc tích.
 
 ::solution
-Cơ sở: $\dfrac{d}{dx}\left(xe^x\right)=e^x+xe^x=(x+1)e^x$. Giả sử đúng với $n=k$. Khi đó $\dfrac{d}{dx}\big((x+k)e^x\big)=e^x+(x+k)e^x=(x+k+1)e^x$, đúng là công thức với $n=k+1$. Kết luận như trong khung ở trên.
+Gọi $P(n)$ là mệnh đề "$\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$". Ta chứng minh $P(n)$ đúng với mọi $n\in\mathbb{Z}^+$ bằng quy nạp.
+
+Cơ sở: với $n=1$, áp dụng quy tắc đạo hàm của một tích,
+$$\frac{d}{dx}\left(xe^x\right)=1\cdot e^x+xe^x=(x+1)e^x.$$
+Vậy $P(1)$ đúng.
+
+Giả thiết quy nạp: giả sử $P(k)$ đúng với một số nguyên dương $k$, tức là
+$$\frac{d^k}{dx^k}\left(xe^x\right)=(x+k)e^x.$$
+
+Bước quy nạp: ta chứng minh $P(k+1)$ đúng. Lấy đạo hàm hai vế của giả thiết quy nạp và áp dụng quy tắc đạo hàm của một tích:
+$$\begin{aligned}\frac{d^{k+1}}{dx^{k+1}}\left(xe^x\right)&=\frac{d}{dx}\big((x+k)e^x\big)\\&=1\cdot e^x+(x+k)e^x\\&=(x+k+1)e^x=\big(x+(k+1)\big)e^x.\end{aligned}$$
+
+Đây đúng là công thức của $P(k+1)$.
+
+Kết luận: $P(1)$ đúng, và $P(k)$ đúng kéo theo $P(k+1)$ đúng. Theo nguyên lí quy nạp, $P(n)$ đúng với mọi $n\in\mathbb{Z}^+$.
+
+Vậy $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ với mọi $n\in\mathbb{Z}^+$.
+
+**Đáp số.** $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ với mọi $n\in\mathbb{Z}^+$.
 :::
 
 :::exercise Thử thách: một logarit vô tỉ
@@ -203,7 +321,20 @@ Chứng minh bằng phản chứng rằng $\log_23$ là số vô tỉ. [5 marks]
 **Cần nhớ:** giả sử $\log_23=\dfrac pq$ với $p$, $q$ nguyên dương; khi đó $2^p=3^q$.
 
 ::solution
-Giả sử $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Khi đó $2^{p/q}=3$, nên $2^p=3^q$. Vế trái chẵn còn vế phải lẻ, vô lí. Vậy $\log_23$ là số vô tỉ.
+Giả sử ngược lại rằng $\log_23$ là số hữu tỉ.
+
+Vì $3>1$ nên $\log_23>0$. Do đó có thể viết $\log_23=\dfrac pq$ với $p,q\in\mathbb{Z}^+$.
+
+Theo định nghĩa lôgarit, $2^{p/q}=3$. Luỹ thừa $q$ cả hai vế, ta được
+$$2^p=3^q.$$
+
+Vì $p\ge1$ nên $2^p$ là số chẵn. Mặt khác, $3$ là số lẻ nên $3^q$ (tích của $q$ thừa số lẻ) là số lẻ.
+
+Một số không thể vừa chẵn vừa lẻ, nên $2^p=3^q$ là vô lí. Vậy giả sử ban đầu sai.
+
+Vậy $\log_23$ là số vô tỉ.
+
+**Đáp số.** $\log_23$ là số vô tỉ.
 :::
 
 :::quiz

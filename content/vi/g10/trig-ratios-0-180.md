@@ -278,7 +278,16 @@ Dùng quy tắc góc bù nhau để tìm $\sin150^\circ$, $\cos150^\circ$, $\tan
 2. Lấy các giá trị của $30^\circ$ trong bảng và đổi dấu đúng chỗ.
 
 ::solution
-$$\sin150^\circ=\frac12,\quad \cos150^\circ=-\frac{\sqrt3}{2},\quad \tan150^\circ=-\frac{\sqrt3}{3},\quad \cot150^\circ=-\sqrt3.$$
+Hai góc $\alpha$ và $180^\circ-\alpha$ là hai góc bù nhau. Theo quy tắc góc bù nhau, ta có
+$$\sin(180^\circ-\alpha)=\sin\alpha,\quad\cos(180^\circ-\alpha)=-\cos\alpha,$$
+$$\tan(180^\circ-\alpha)=-\tan\alpha,\quad\cot(180^\circ-\alpha)=-\cot\alpha.$$
+
+Ta có $150^\circ=180^\circ-30^\circ$ nên áp dụng quy tắc trên với $\alpha=30^\circ$. Các giá trị lượng giác của góc $30^\circ$ là $\sin30^\circ=\dfrac12$, $\cos30^\circ=\dfrac{\sqrt3}{2}$, $\tan30^\circ=\dfrac{\sqrt3}{3}$, $\cot30^\circ=\sqrt3$.
+
+Do đó
+$$\begin{aligned}\sin150^\circ&=\sin30^\circ=\frac12,\\\cos150^\circ&=-\cos30^\circ=-\frac{\sqrt3}{2},\\\tan150^\circ&=-\tan30^\circ=-\frac{\sqrt3}{3},\\\cot150^\circ&=-\cot30^\circ=-\sqrt3.\end{aligned}$$
+
+Vậy $\sin150^\circ=\dfrac12$, $\cos150^\circ=-\dfrac{\sqrt3}{2}$, $\tan150^\circ=-\dfrac{\sqrt3}{3}$, $\cot150^\circ=-\sqrt3$.
 
 **Đáp số.** $\dfrac12$; $-\dfrac{\sqrt3}{2}$; $-\dfrac{\sqrt3}{3}$; $-\sqrt3$.
 :::
@@ -294,8 +303,19 @@ Giá trị nào trong các giá trị sau không xác định: $\tan90^\circ$, $
 2. Xem mẫu số có bằng $0$ không.
 
 ::solution
-$M(1; 0)$ ở $0^\circ$, $M(0; 1)$ ở $90^\circ$, $M(-1; 0)$ ở $180^\circ$. Các mẫu số bằng $0$ ở $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$. Còn
-$$\tan180^\circ=\frac{0}{-1}=0,\qquad \cot90^\circ=\frac01=0.$$
+Trên nửa đường tròn đơn vị tâm $O$, với góc $\alpha\in[0^\circ; 180^\circ]$ ta lấy điểm $M(x_0; y_0)$ sao cho $\widehat{xOM}=\alpha$. Khi đó
+$$\sin\alpha=y_0,\quad\cos\alpha=x_0,\quad\tan\alpha=\frac{y_0}{x_0}\ (x_0\ne0),\quad\cot\alpha=\frac{x_0}{y_0}\ (y_0\ne0).$$
+
+Ứng với các góc $0^\circ$, $90^\circ$, $180^\circ$, điểm $M$ lần lượt là $M(1; 0)$, $M(0; 1)$, $M(-1; 0)$.
+
+- $\tan90^\circ$: điểm $M(0; 1)$ có $x_0=0$, mẫu số bằng $0$ nên $\tan90^\circ$ không xác định.
+- $\cot0^\circ$: điểm $M(1; 0)$ có $y_0=0$, mẫu số bằng $0$ nên $\cot0^\circ$ không xác định.
+- $\cot180^\circ$: điểm $M(-1; 0)$ có $y_0=0$, mẫu số bằng $0$ nên $\cot180^\circ$ không xác định.
+
+Hai giá trị còn lại có mẫu số khác $0$ nên xác định:
+$$\tan180^\circ=\frac{0}{-1}=0,\qquad\cot90^\circ=\frac01=0.$$
+
+Vậy $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$ không xác định; $\tan180^\circ=0$ và $\cot90^\circ=0$.
 
 **Đáp số.** Không xác định: $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$; $\tan180^\circ=0$, $\cot90^\circ=0$.
 :::
@@ -312,7 +332,18 @@ Cho $\cos\alpha=-\dfrac35$ với $0^\circ\leq\alpha\leq180^\circ$. Tính $\sin\a
 3. Tính $\tan$ và $\cot$.
 
 ::solution
-$$\sin^2\alpha=1-\frac{9}{25}=\frac{16}{25},\ \sin\alpha\geq0\Rightarrow \sin\alpha=\frac45;\qquad \tan\alpha=\frac{4/5}{-3/5}=-\frac43,\quad \cot\alpha=-\frac34.$$
+Vì $0^\circ\le\alpha\le180^\circ$ nên $\sin\alpha\ge0$. Áp dụng hệ thức $\sin^2\alpha+\cos^2\alpha=1$ với $\cos\alpha=-\dfrac35$, ta có
+$$\sin^2\alpha=1-\cos^2\alpha=1-\left(-\frac35\right)^2=1-\frac{9}{25}=\frac{16}{25}.$$
+
+Vì $\sin\alpha\ge0$ nên $\sin\alpha=\dfrac45$.
+
+Do $\cos\alpha=-\dfrac35\ne0$ nên $\tan\alpha$ xác định, và
+$$\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{4/5}{-3/5}=-\frac43.$$
+
+Do $\sin\alpha=\dfrac45\ne0$ nên $\cot\alpha$ xác định, và
+$$\cot\alpha=\frac{\cos\alpha}{\sin\alpha}=\frac{-3/5}{4/5}=-\frac34.$$
+
+Vậy $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
 
 **Đáp số.** $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
 :::
@@ -328,7 +359,15 @@ Tính $B=\cos20^\circ+\cos160^\circ+\sin35^\circ-\sin145^\circ$.
 2. Đưa mọi số hạng về góc $20^\circ$ và $35^\circ$.
 
 ::solution
-$$\cos160^\circ=-\cos20^\circ,\quad \sin145^\circ=\sin35^\circ\Rightarrow B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
+Ta có $20^\circ+160^\circ=180^\circ$ và $35^\circ+145^\circ=180^\circ$, nên $20^\circ$ và $160^\circ$ là hai góc bù nhau, $35^\circ$ và $145^\circ$ cũng là hai góc bù nhau.
+
+Theo quy tắc góc bù nhau, ta có
+$$\cos160^\circ=\cos(180^\circ-20^\circ)=-\cos20^\circ,\qquad\sin145^\circ=\sin(180^\circ-35^\circ)=\sin35^\circ.$$
+
+Thay vào biểu thức $B$, ta được
+$$B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
+
+Vậy $B=0$.
 
 **Đáp số.** $B=0$.
 :::
@@ -353,15 +392,22 @@ d) $\sin\alpha\cos\alpha=-\dfrac{60}{169}$.
 3. Dùng quy tắc góc bù cho c).
 
 ::solution
-$\cos^2\alpha=1-\dfrac{144}{169}=\dfrac{25}{169}$, góc tù nên $\cos\alpha=-\dfrac{5}{13}$.
+Vì $90^\circ<\alpha<180^\circ$ nên $\alpha$ là góc tù và $\cos\alpha<0$. Từ $\sin^2\alpha+\cos^2\alpha=1$ ta có
+$$\cos^2\alpha=1-\sin^2\alpha=1-\frac{144}{169}=\frac{25}{169}.$$
 
-a) **Sai:** $\cos\alpha=-\dfrac5{13}$, không phải $\dfrac5{13}$.
+Vì $\cos\alpha<0$ nên $\cos\alpha=-\dfrac{5}{13}$.
 
-b) **Đúng:** $\tan\alpha=\dfrac{12/13}{-5/13}=-\dfrac{12}{5}$.
+a) **Sai.** Ta có $\cos\alpha=-\dfrac{5}{13}$, không phải $\dfrac{5}{13}$.
 
-c) **Sai:** $\cos(180^\circ-\alpha)=-\cos\alpha=\dfrac{5}{13}$.
+b) **Đúng.** Ta có
+$$\tan\alpha=\frac{\sin\alpha}{\cos\alpha}=\frac{12/13}{-5/13}=-\frac{12}{5}.$$
 
-d) **Đúng:** $\dfrac{12}{13}\cdot\left(-\dfrac{5}{13}\right)=-\dfrac{60}{169}$.
+c) **Sai.** Theo quy tắc góc bù nhau, $\cos(180^\circ-\alpha)=-\cos\alpha=-\left(-\dfrac{5}{13}\right)=\dfrac{5}{13}$, khác $-\dfrac{5}{13}$.
+
+d) **Đúng.** Ta có
+$$\sin\alpha\cos\alpha=\frac{12}{13}\cdot\left(-\frac{5}{13}\right)=-\frac{60}{169}.$$
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -378,7 +424,17 @@ Cánh tay của một cần cẩu dài $20$ m, gắn vào thân cần cẩu tạ
 3. Dùng máy tính ở chế độ độ.
 
 ::solution
-$$h=3+20\sin115^\circ\approx3+20\cdot0{,}9063\approx21{,}1\ \text{(m)}.$$
+Chọn hệ trục toạ độ $Oxy$ với $Ox$ nằm ngang, $Oy$ thẳng đứng hướng lên trên. Gọi $T$ là đầu cánh tay, khi đó $OT=20$ m và tia $OT$ tạo với tia $Ox$ góc $115^\circ$.
+
+Độ cao của $T$ so với điểm $O$ chính là tung độ của $T$, bằng $OT\cdot\sin115^\circ=20\sin115^\circ$ (m).
+
+Gọi $h$ (m) là độ cao của đầu cánh tay so với mặt đất. Vì $O$ cao $3$ m so với mặt đất nên
+$$h=3+20\sin115^\circ.$$
+
+Dùng máy tính, $\sin115^\circ\approx0{,}9063$, suy ra
+$$h\approx3+20\cdot0{,}9063=3+18{,}126=21{,}126\approx21{,}1\ \text{(m)}.$$
+
+Vậy đầu cánh tay cao khoảng $21{,}1$ m so với mặt đất.
 
 **Đáp số.** $21{,}1$.
 :::
@@ -395,8 +451,19 @@ Trong tam giác $ABC$, chứng minh $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. 
 3. Thay $A=120^\circ$ và dùng bảng.
 
 ::solution
-$B+C=180^\circ-A$, nên $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. Với $A=120^\circ$:
-$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad \cos(B+C)=-\cos120^\circ=\frac12.$$
+Trong tam giác $ABC$ ta có $\widehat{A}+\widehat{B}+\widehat{C}=180^\circ$, suy ra $B+C=180^\circ-A$. Như vậy hai góc $B+C$ và $A$ bù nhau.
+
+Theo quy tắc góc bù nhau, ta có
+$$\sin(B+C)=\sin(180^\circ-A)=\sin A,\qquad\cos(B+C)=\cos(180^\circ-A)=-\cos A.$$
+
+Đó là điều phải chứng minh.
+
+Áp dụng với $A=120^\circ$, ta có $\sin120^\circ=\dfrac{\sqrt3}{2}$ và $\cos120^\circ=-\dfrac12$. Do đó
+$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad\cos(B+C)=-\cos120^\circ=-\left(-\frac12\right)=\frac12.$$
+
+Kiểm tra: khi $A=120^\circ$ thì $B+C=60^\circ$, mà $\sin60^\circ=\dfrac{\sqrt3}{2}$ và $\cos60^\circ=\dfrac12$, khớp với kết quả trên.
+
+Vậy $\sin(B+C)=\sin A$, $\cos(B+C)=-\cos A$; và khi $A=120^\circ$ thì $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$.
 
 **Đáp số.** $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$ (đúng với $B+C=60^\circ$).
 :::
@@ -412,9 +479,15 @@ Dùng máy tính, tìm mọi góc $\alpha\in[0^\circ; 180^\circ]$ (làm tròn đ
 2. Bấm $\cos^{-1}(-0{,}6)$.
 
 ::solution
-a) $\sin^{-1}(0{,}6)\approx36{,}87^\circ$, và $180^\circ-36{,}87^\circ=143{,}13^\circ$.
+a) Máy tính cho $\sin^{-1}(0{,}6)\approx36{,}87^\circ$, đó là một góc nhọn thoả mãn $\sin\alpha=0{,}6$.
 
-b) $\cos^{-1}(-0{,}6)\approx126{,}87^\circ$ (một góc duy nhất).
+Vì $\sin(180^\circ-\alpha)=\sin\alpha$ nên góc bù với nó là $180^\circ-36{,}87^\circ=143{,}13^\circ$ cũng thuộc $[0^\circ; 180^\circ]$ và có sin bằng $0{,}6$.
+
+Trên đoạn $[0^\circ; 180^\circ]$, mỗi giá trị $\sin\alpha=0{,}6$ chỉ ứng với hai góc này. Vậy $\alpha\approx36{,}87^\circ$ hoặc $\alpha\approx143{,}13^\circ$.
+
+b) Trên đoạn $[0^\circ; 180^\circ]$, hàm số $\cos\alpha$ giảm dần từ $1$ xuống $-1$, nên mỗi giá trị của $\cos\alpha$ chỉ ứng với đúng một góc.
+
+Máy tính cho $\cos^{-1}(-0{,}6)\approx126{,}87^\circ$. Vậy $\alpha\approx126{,}87^\circ$ là góc duy nhất thoả mãn $\cos\alpha=-0{,}6$.
 
 **Đáp số.** a) $\alpha\approx36{,}87^\circ$ hoặc $\alpha\approx143{,}13^\circ$; b) $\alpha\approx126{,}87^\circ$.
 :::
@@ -431,11 +504,29 @@ Cho góc $\alpha\in[0^\circ; 180^\circ]$ thoả mãn $\sin\alpha+\cos\alpha=\dfr
 3. Tìm $\sin\alpha-\cos\alpha$, rồi giải hệ tổng và hiệu.
 
 ::solution
-Bình phương hai vế:
-$$1+2\sin\alpha\cos\alpha=\frac14\Rightarrow \sin\alpha\cos\alpha=-\frac38.$$
-Tích âm và $\sin\alpha\geq0$ nên $\sin\alpha>0>\cos\alpha$, do đó $\sin\alpha-\cos\alpha>0$:
-$$(\sin\alpha-\cos\alpha)^2=1+\frac34=\frac74\Rightarrow \sin\alpha-\cos\alpha=\frac{\sqrt7}{2}.$$
-Cộng và trừ với $\sin\alpha+\cos\alpha=\dfrac12$.
+Bình phương hai vế của $\sin\alpha+\cos\alpha=\dfrac12$, ta được
+$$\sin^2\alpha+2\sin\alpha\cos\alpha+\cos^2\alpha=\frac14.$$
+
+Vì $\sin^2\alpha+\cos^2\alpha=1$ nên
+$$1+2\sin\alpha\cos\alpha=\frac14\ \Rightarrow\ \sin\alpha\cos\alpha=-\frac38.$$
+
+Vì $0^\circ\le\alpha\le180^\circ$ nên $\sin\alpha\ge0$. Tích $\sin\alpha\cos\alpha=-\dfrac38$ âm nên $\sin\alpha\ne0$ và $\cos\alpha\ne0$; do đó $\sin\alpha>0>\cos\alpha$, suy ra $\sin\alpha-\cos\alpha>0$.
+
+Ta có
+$$(\sin\alpha-\cos\alpha)^2=1-2\sin\alpha\cos\alpha=1+\frac34=\frac74.$$
+
+Vì $\sin\alpha-\cos\alpha>0$ nên $\sin\alpha-\cos\alpha=\dfrac{\sqrt7}{2}$.
+
+Ta có hệ
+$$\begin{cases}\sin\alpha+\cos\alpha=\dfrac12\\\sin\alpha-\cos\alpha=\dfrac{\sqrt7}{2}.\end{cases}$$
+
+Cộng hai phương trình: $2\sin\alpha=\dfrac{1+\sqrt7}{2}$, suy ra $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0{,}911$.
+
+Trừ hai phương trình: $2\cos\alpha=\dfrac{1-\sqrt7}{2}$, suy ra $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0{,}411$.
+
+Kiểm tra: $\sin\alpha\cos\alpha=\dfrac{(1+\sqrt7)(1-\sqrt7)}{16}=\dfrac{1-7}{16}=-\dfrac38$, khớp với kết quả ở trên.
+
+Vậy $\sin\alpha=\dfrac{1+\sqrt7}{4}$ và $\cos\alpha=\dfrac{1-\sqrt7}{4}$.
 
 **Đáp số.** $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0{,}911$, $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0{,}411$.
 :::

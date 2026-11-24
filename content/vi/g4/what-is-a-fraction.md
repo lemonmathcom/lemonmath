@@ -131,7 +131,11 @@ Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $
 2. Viết tử số và mẫu số.
 
 ::solution
-Chia thành $5$ phần, tô $2$ phần, nên phân số là $\dfrac{2}{5}$.
+Hình chữ nhật được chia thành $5$ phần bằng nhau, nên mẫu số là $5$ (cả hình có $5$ phần).
+
+Có $2$ phần được tô màu, nên tử số là $2$.
+
+Vậy phân số chỉ phần đã tô là $\dfrac{2}{5}$.
 
 **Đáp số.** $\dfrac{2}{5}$.
 :::
@@ -147,7 +151,15 @@ Viết các phân số: a) bốn phần bảy; b) hai phần năm; c) mười m�
 2. Số đọc sau chữ "phần" là mẫu số.
 
 ::solution
-a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
+Phân số có tử số ở trên, mẫu số ở dưới; đọc tử số trước, rồi đọc mẫu số kèm chữ "phần".
+
+a) "Bốn phần bảy": tử số là $4$, mẫu số là $7$, nên viết $\dfrac{4}{7}$.
+
+b) "Hai phần năm": tử số là $2$, mẫu số là $5$, nên viết $\dfrac{2}{5}$.
+
+c) "Mười một phần mười hai": tử số là $11$, mẫu số là $12$, nên viết $\dfrac{11}{12}$.
+
+Vậy các phân số cần viết là $\dfrac{4}{7}$, $\dfrac{2}{5}$ và $\dfrac{11}{12}$.
 
 **Đáp số.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
 :::
@@ -163,7 +175,11 @@ Em hãy nhớ lại bài trước (số lần xuất hiện): tung đồng xu $1
 2. Số lần ngửa là bao nhiêu?
 
 ::solution
-Số lần ngửa là $6$ trong $10$ lần tung, nên phân số là $\dfrac{6}{10}$.
+Tổng số lần tung đồng xu là $10$ lần, nên mẫu số là $10$.
+
+Số lần mặt ngửa xuất hiện là $6$ lần, nên tử số là $6$.
+
+Vậy phân số chỉ số lần ngửa so với số lần tung là $\dfrac{6}{10}$.
 
 **Đáp số.** $\dfrac{6}{10}$.
 :::
@@ -179,7 +195,13 @@ Số lần ngửa là $6$ trong $10$ lần tung, nên phân số là $\dfrac{6}{
 2. Chỉ từng số.
 
 ::solution
-$\dfrac{7}{10}$ đọc là "bảy phần mười": tử số $7$, mẫu số $10$. $\dfrac{3}{8}$ đọc là "ba phần tám": tử số $3$, mẫu số $8$.
+Trong một phân số, số ở trên gạch ngang là tử số, số ở dưới gạch ngang là mẫu số.
+
+Phân số $\dfrac{7}{10}$ đọc là "bảy phần mười": tử số là $7$, mẫu số là $10$.
+
+Phân số $\dfrac{3}{8}$ đọc là "ba phần tám": tử số là $3$, mẫu số là $8$.
+
+Vậy $\dfrac{7}{10}$ có tử số $7$, mẫu số $10$; $\dfrac{3}{8}$ có tử số $3$, mẫu số $8$.
 
 **Đáp số.** Xem lời giải.
 :::
@@ -195,7 +217,11 @@ Một chiếc bánh được cắt thành $4$ phần to nhỏ khác nhau, Lan ă
 2. So với định nghĩa phân số.
 
 ::solution
-Không. Các phần không bằng nhau nên phần Lan ăn không nhất định là một phần tư chiếc bánh.
+Muốn nói một phần của chiếc bánh là $\dfrac{1}{4}$, chiếc bánh phải được chia thành $4$ phần bằng nhau.
+
+Ở đây chiếc bánh được cắt thành $4$ phần to nhỏ khác nhau, nên các phần không bằng nhau. Phần Lan ăn có thể to hơn hoặc nhỏ hơn một phần tư chiếc bánh, nên không nhất định là $\dfrac{1}{4}$.
+
+Vậy không thể nói Lan ăn $\dfrac{1}{4}$ chiếc bánh, vì các phần không bằng nhau.
 
 **Đáp số.** Không, vì các phần không bằng nhau.
 :::
@@ -211,7 +237,11 @@ Nam viết: "Chiếc bánh chia $4$ phần, ăn $3$ phần nên phân số là $
 2. Số phần đã ăn là bao nhiêu?
 
 ::solution
-Nam viết ngược tử số và mẫu số. Cả chiếc bánh có $4$ phần nên mẫu số là $4$, ăn $3$ phần nên tử số là $3$: $\dfrac{3}{4}$.
+Nam viết ngược tử số và mẫu số. Mẫu số cho biết cả chiếc bánh được chia thành bao nhiêu phần bằng nhau, tử số cho biết số phần đã ăn. Ngoài ra, phân số $\dfrac{4}{3}$ có tử số lớn hơn mẫu số nên lớn hơn $1$, trong khi phần đã ăn nhỏ hơn cả chiếc bánh.
+
+Viết lại cho đúng: cả chiếc bánh có $4$ phần nên mẫu số là $4$; ăn $3$ phần nên tử số là $3$. Phân số đúng là $\dfrac{3}{4}$.
+
+Vậy Nam sai ở chỗ viết ngược tử số và mẫu số; phân số đúng chỉ phần đã ăn là $\dfrac{3}{4}$.
 
 **Đáp số.** $\dfrac{3}{4}$.
 :::
@@ -230,7 +260,19 @@ c) Viết phân số chỉ phần còn lại.
 2. Tìm số ô còn lại rồi viết phân số.
 
 ::solution
-a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) Còn lại $12-5-4=3$ ô, nên $\dfrac{3}{12}$.
+Thanh sô-cô-la có $12$ ô bằng nhau nên mẫu số của mọi phân số dưới đây là $12$.
+
+a) Mai ăn $5$ ô nên phần Mai ăn là $\dfrac{5}{12}$ thanh sô-cô-la.
+
+b) Nam ăn $4$ ô nên phần Nam ăn là $\dfrac{4}{12}$ thanh sô-cô-la.
+
+c) Số ô còn lại là:
+$$12-5-4=3\ \text{(ô)}.$$
+Vậy phần còn lại là $\dfrac{3}{12}$ thanh sô-cô-la.
+
+Kiểm tra: $5+4+3=12$ ô, bằng số ô của cả thanh.
+
+Vậy phần Mai ăn là $\dfrac{5}{12}$, phần Nam ăn là $\dfrac{4}{12}$ và phần còn lại là $\dfrac{3}{12}$.
 
 **Đáp số.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
 :::
@@ -249,9 +291,23 @@ Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phầ
 3. Tìm số phần đã tô: $3+2$.
 
 ::solution
-Xanh: $\dfrac{3}{8}$; đỏ: $\dfrac{2}{8}$; trắng: $8-3-2=3$ phần nên $\dfrac{3}{8}$. Phần đã tô là $3+2=5$ phần, tức $\dfrac{5}{8}$.
+Băng giấy được chia thành $8$ phần bằng nhau nên mẫu số của mọi phân số dưới đây là $8$.
 
-**Kiểm tra.** $3+2+3=8$ phần. Đúng.
+Phần màu xanh có $3$ phần, nên là $\dfrac{3}{8}$ băng giấy.
+
+Phần màu đỏ có $2$ phần, nên là $\dfrac{2}{8}$ băng giấy.
+
+Số phần để trắng là:
+$$8-3-2=3\ \text{(phần)},$$
+nên phần màu trắng là $\dfrac{3}{8}$ băng giấy.
+
+Số phần đã tô màu (cả hai màu) là:
+$$3+2=5\ \text{(phần)},$$
+nên phần đã tô màu là $\dfrac{5}{8}$ băng giấy.
+
+Kiểm tra: $3+2+3=8$ phần, bằng số phần của cả băng giấy.
+
+Vậy phần xanh là $\dfrac{3}{8}$, phần đỏ là $\dfrac{2}{8}$, phần trắng là $\dfrac{3}{8}$ và phần đã tô màu là $\dfrac{5}{8}$.
 
 **Đáp số.** Xanh $\dfrac{3}{8}$, đỏ $\dfrac{2}{8}$, trắng $\dfrac{3}{8}$; đã tô $\dfrac{5}{8}$.
 :::

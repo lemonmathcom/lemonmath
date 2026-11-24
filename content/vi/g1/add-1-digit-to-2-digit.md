@@ -129,7 +129,15 @@ Tính $36+2$.
 2. Hàng chục giữ nguyên là $3$.
 
 ::solution
-$6+2=8$, hàng chục là $3$, nên $36+2=38$.
+Số $36$ gồm $3$ chục và $6$ đơn vị. Ta chỉ cộng $2$ vào hàng đơn vị.
+
+Cộng hàng đơn vị: $6+2=8$.
+
+Hàng chục giữ nguyên, vẫn là $3$ chục. Do đó $36+2$ có $3$ chục và $8$ đơn vị, tức là $38$.
+
+Kiểm tra: $38-2=36$. Đúng.
+
+Vậy $36+2=38$.
 
 **Đáp số.** $38$.
 :::
@@ -145,7 +153,15 @@ Tính $71+8$.
 2. Giữ nguyên $7$ chục.
 
 ::solution
-$1+8=9$, hàng chục là $7$, nên $71+8=79$.
+Số $71$ gồm $7$ chục và $1$ đơn vị. Ta chỉ cộng $8$ vào hàng đơn vị.
+
+Cộng hàng đơn vị: $1+8=9$.
+
+Hàng chục giữ nguyên, vẫn là $7$ chục. Do đó $71+8$ có $7$ chục và $9$ đơn vị, tức là $79$.
+
+Kiểm tra: $79-8=71$. Đúng.
+
+Vậy $71+8=79$.
 
 **Đáp số.** $79$.
 :::
@@ -161,7 +177,15 @@ Tính $5+44$.
 2. Cộng hàng đơn vị, giữ nguyên hàng chục.
 
 ::solution
-$5+44=44+5$. Có $4+5=9$ và hàng chục là $4$, nên $44+5=49$.
+Khi đổi chỗ hai số hạng thì tổng không thay đổi, nên $5+44=44+5$.
+
+Số $44$ gồm $4$ chục và $4$ đơn vị. Cộng hàng đơn vị: $4+5=9$.
+
+Hàng chục giữ nguyên, vẫn là $4$ chục. Do đó $44+5$ có $4$ chục và $9$ đơn vị, tức là $49$.
+
+Kiểm tra: $49-5=44$. Đúng.
+
+Vậy $5+44=49$.
 
 **Đáp số.** $49$.
 :::
@@ -177,7 +201,13 @@ $5+44=44+5$. Có $4+5=9$ và hàng chục là $4$, nên $44+5=49$.
 2. So sánh kết quả với $30$.
 
 ::solution
-$5+4=9$, nên $25+4=29$. Vì $29<30$ nên $25+4<30$.
+Trước hết ta tính vế trái $25+4$.
+
+Cộng hàng đơn vị: $5+4=9$. Hàng chục giữ nguyên là $2$ chục. Do đó $25+4=29$.
+
+Ta so sánh $29$ với $30$. Số $29$ có $2$ chục, số $30$ có $3$ chục, mà $2$ chục ít hơn $3$ chục nên $29<30$.
+
+Vậy $25+4<30$, ta điền dấu $<$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -193,8 +223,12 @@ Trong sân có $42$ con gà. Mẹ mua thêm $5$ con gà nữa. Hỏi trong sân 
 2. Tính $42+5$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số con gà có tất cả là:
+Bài giải
+
+Mẹ mua thêm gà vào sân, nên ta làm phép cộng. Số con gà có tất cả là:
 $$42+5=47\ \text{(con)}.$$
+
+Vậy trong sân có tất cả $47$ con gà.
 
 **Đáp số.** $47$ con gà.
 :::
@@ -210,7 +244,14 @@ Em hãy nhớ lại bài trước về đơn vị đo độ dài. Một sợi d�
 2. Tính $12+6$ rồi ghi đơn vị cm.
 
 ::solution
-$2+6=8$, hàng chục là $1$, nên $12+6=18$ (cm).
+Bài giải
+
+Muốn biết hai sợi dây dài tất cả bao nhiêu xăng-ti-mét, ta cộng độ dài của hai sợi dây. Độ dài hai sợi dây là:
+$$12+6=18\ \text{(cm)}.$$
+
+Cách tính: $2+6=8$, hàng chục là $1$, nên $12+6=18$.
+
+Vậy hai sợi dây dài tất cả $18$ cm.
 
 **Đáp số.** $18$ cm.
 :::
@@ -226,7 +267,15 @@ Lan làm bài: $34+5=84$. Bạn Lan làm đúng hay sai? Vì sao? Hãy sửa l�
 2. Tính lại $4+5$ và giữ nguyên hàng chục.
 
 ::solution
-Lan sai, vì Lan cộng $5$ vào $3$ chục. Cách đúng: $4+5=9$, hàng chục là $3$, nên $34+5=39$.
+Lan viết $34+5=84$. Ta tính lại $34+5$.
+
+Số $34$ gồm $3$ chục và $4$ đơn vị. Số $5$ chỉ có $5$ đơn vị nên phải cộng vào hàng đơn vị: $4+5=9$.
+
+Hàng chục giữ nguyên là $3$ chục. Do đó $34+5=39$.
+
+Lan đã cộng $5$ vào $3$ chục: $3+5=8$ chục, nên viết ra $84$. Cách làm đó sai.
+
+Vậy Lan làm sai, và phép tính đúng là $34+5=39$.
 
 **Đáp số.** Sai; kết quả đúng là $39$.
 :::
@@ -242,9 +291,15 @@ Tìm số thích hợp điền vào ô trống: $\square+5=67$.
 2. Hàng chục giữ nguyên là $6$.
 
 ::solution
-Hàng đơn vị: $2+5=7$. Hàng chục là $6$, nên số cần điền là $62$.
+Số cần điền cộng với $5$ thì được $67$. Số $5$ chỉ có $5$ đơn vị, nên được cộng vào hàng đơn vị và hàng chục không đổi.
 
-**Kiểm tra.** $62+5=67$. Đúng.
+Hàng đơn vị của tổng là $7$. Ta tìm chữ số $\square$ sao cho $\square+5=7$. Vì $2+5=7$ nên chữ số hàng đơn vị là $2$.
+
+Hàng chục của tổng là $6$ và giữ nguyên, nên số cần điền có hàng chục là $6$. Số đó là $62$.
+
+Kiểm tra: $62+5=67$. Đúng.
+
+Vậy số thích hợp điền vào ô trống là $62$.
 
 **Đáp số.** $62$.
 :::

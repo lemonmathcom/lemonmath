@@ -117,7 +117,16 @@ D. $\dfrac{e^{3x+1}}{3x+1}+C$
 **Cần nhớ:** $u=3x$, $du=3\,dx$.
 
 ::solution
-$\dfrac13\displaystyle\int e^u\,du=\dfrac{e^{3x}}{3}+C$: đáp án **C**. Phương án D coi $e^{3x}$ như một luỹ thừa của $x$.
+Đặt $u=3x$, suy ra $du=3\,dx$, tức là $dx=\dfrac{du}{3}$. Khi đó
+$$\int e^{3x}\,dx=\frac13\int e^u\,du=\frac13e^u+C=\frac{e^{3x}}{3}+C.$$
+
+Kiểm tra: $\left(\dfrac{e^{3x}}{3}\right)'=\dfrac{3e^{3x}}{3}=e^{3x}$.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án D coi $e^{3x}$ như một luỹ thừa của $x$.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -130,7 +139,14 @@ Tìm $\displaystyle\int\frac{\ln x}{x}\,dx$.
 1. Đặt $u=\ln x$, $du=\dfrac1x\,dx$.
 
 ::solution
-$\displaystyle\int u\,du=\dfrac{u^2}{2}+C=\dfrac{(\ln x)^2}{2}+C$.
+Điều kiện xác định: $x>0$.
+
+Đặt $u=\ln x$, suy ra $du=\dfrac{dx}{x}$. Khi đó
+$$\int\frac{\ln x}{x}\,dx=\int u\,du=\frac{u^2}{2}+C=\frac{(\ln x)^2}{2}+C.$$
+
+Vậy $\displaystyle\int\frac{\ln x}{x}\,dx=\dfrac{(\ln x)^2}{2}+C$.
+
+**Đáp số.** $\dfrac{(\ln x)^2}{2}+C$.
 :::
 
 :::exercise Tự luận
@@ -140,7 +156,16 @@ Tính $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx$.
 **Cần nhớ:** $u=\sin x$; cận mới là $0$ và $1$.
 
 ::solution
-$\displaystyle\int_0^1e^u\,du=e-1$.
+Đặt $u=\sin x$, suy ra $du=\cos x\,dx$.
+
+Đổi cận: khi $x=0$ thì $u=\sin0=0$; khi $x=\dfrac{\pi}{2}$ thì $u=\sin\dfrac{\pi}{2}=1$.
+
+Do đó
+$$\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx=\int_0^1e^u\,du=\Big[e^u\Big]_0^1=e^1-e^0=e-1.$$
+
+Vậy $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx=e-1$.
+
+**Đáp số.** $e-1$.
 :::
 
 :::exercise Trắc nghiệm
@@ -154,7 +179,16 @@ D. $\dfrac{\ln3}{2}$
 **Cần nhớ:** $u=x^2+1$, $x\,dx=\dfrac12du$, cận $1$ và $5$.
 
 ::solution
-$\dfrac12\Big[\ln u\Big]_1^5=\dfrac{\ln5}{2}$: đáp án **A**.
+Đặt $u=x^2+1$, suy ra $du=2x\,dx$, tức là $x\,dx=\dfrac{du}{2}$.
+
+Đổi cận: khi $x=0$ thì $u=1$; khi $x=2$ thì $u=5$.
+
+Do đó
+$$\int_0^2\frac{x}{x^2+1}\,dx=\frac12\int_1^5\frac{du}{u}=\frac12\Big[\ln u\Big]_1^5=\frac12(\ln5-\ln1)=\frac{\ln5}{2}.$$
+
+Vậy chọn **A**.
+
+**Đáp số.** A.
 :::
 
 :::exercise BC: tự luận
@@ -168,7 +202,18 @@ Tìm $\displaystyle\int x\cos x\,dx$.
 2. $x\sin x-\displaystyle\int\sin x\,dx$.
 
 ::solution
-$x\sin x+\cos x+C$. Kiểm tra: đạo hàm bằng $\sin x+x\cos x-\sin x=x\cos x$.
+Dùng tích phân từng phần $\displaystyle\int u\,dv=uv-\int v\,du$. Đặt
+$$u=x,\qquad dv=\cos x\,dx,$$
+suy ra $du=dx$ và $v=\sin x$.
+
+Khi đó
+$$\int x\cos x\,dx=x\sin x-\int\sin x\,dx=x\sin x+\cos x+C.$$
+
+Kiểm tra: đạo hàm của $x\sin x+\cos x$ bằng $\sin x+x\cos x-\sin x=x\cos x$.
+
+Vậy $\displaystyle\int x\cos x\,dx=x\sin x+\cos x+C$.
+
+**Đáp số.** $x\sin x+\cos x+C$.
 :::
 
 ## Bài tập vận dụng
@@ -183,7 +228,21 @@ Nước chảy vào bể với tốc độ $r(t)=\dfrac{20t}{t^2+1}$ lít mỗi 
 1. $20t\,dt=10\,du$; cận $1$ và $10$.
 
 ::solution
-$10\displaystyle\int_1^{10}\frac{du}{u}=10\ln10\approx23{,}026$ lít.
+Lượng nước chảy vào bể từ $t=0$ đến $t=3$ phút là
+$$V=\int_0^3r(t)\,dt=\int_0^3\frac{20t}{t^2+1}\,dt\quad(\text{lít}).$$
+
+Đặt $u=t^2+1$, suy ra $du=2t\,dt$, tức là $20t\,dt=10\,du$.
+
+Đổi cận: khi $t=0$ thì $u=1$; khi $t=3$ thì $u=10$.
+
+Do đó
+$$V=10\int_1^{10}\frac{du}{u}=10\Big[\ln u\Big]_1^{10}=10(\ln10-\ln1)=10\ln10.$$
+
+Dùng máy tính, $V\approx23{,}026$.
+
+Vậy từ $t=0$ đến $t=3$ phút có $10\ln10\approx23{,}026$ lít nước chảy vào bể.
+
+**Đáp số.** $10\ln10\approx23{,}026$ lít.
 :::
 
 :::exercise Đưa về bình phương đủ
@@ -193,7 +252,15 @@ Tìm $\displaystyle\int\frac{dx}{x^2-4x+13}$.
 **Cần nhớ:** $x^2-4x+13=(x-2)^2+9$.
 
 ::solution
-Với $u=x-2$ và $a=3$: $\dfrac13\arctan\dfrac{x-2}{3}+C$.
+Biến đổi mẫu số bằng cách hoàn thiện bình phương:
+$$x^2-4x+13=(x-2)^2+9=(x-2)^2+3^2>0.$$
+
+Đặt $u=x-2$, suy ra $du=dx$; và $a=3$. Áp dụng công thức $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$, ta có
+$$\int\frac{dx}{x^2-4x+13}=\int\frac{du}{u^2+3^2}=\frac13\arctan\frac{u}{3}+C=\frac13\arctan\frac{x-2}{3}+C.$$
+
+Vậy $\displaystyle\int\frac{dx}{x^2-4x+13}=\dfrac13\arctan\dfrac{x-2}{3}+C$.
+
+**Đáp số.** $\dfrac13\arctan\dfrac{x-2}{3}+C$.
 :::
 
 :::exercise BC: từng phần và tích phân suy rộng
@@ -207,7 +274,21 @@ Tính $\displaystyle\int_0^{\infty}xe^{-x}\,dx$.
 2. Tính từ $0$ đến $b$ rồi cho $b\to\infty$.
 
 ::solution
-$\displaystyle\lim_{b\to\infty}\left[-xe^{-x}-e^{-x}\right]_0^b=\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1$. Tích phân hội tụ về $1$.
+Đây là tích phân suy rộng loại $1$, nên theo định nghĩa
+$$\int_0^{\infty}xe^{-x}\,dx=\lim_{b\to\infty}\int_0^bxe^{-x}\,dx.$$
+
+Tính nguyên hàm bằng tích phân từng phần: đặt $u=x$ và $dv=e^{-x}\,dx$, suy ra $du=dx$ và $v=-e^{-x}$. Khi đó
+$$\int xe^{-x}\,dx=-xe^{-x}+\int e^{-x}\,dx=-xe^{-x}-e^{-x}+C.$$
+
+Do đó
+$$\int_0^bxe^{-x}\,dx=\Big[-xe^{-x}-e^{-x}\Big]_0^b=\left(-\frac{b}{e^b}-\frac{1}{e^b}\right)-(0-1)=-\frac{b}{e^b}-\frac{1}{e^b}+1.$$
+
+Khi $b\to\infty$, hàm mũ $e^b$ tăng nhanh hơn $b$ nên $\dfrac{b}{e^b}\to0$, và $\dfrac{1}{e^b}\to0$. Suy ra
+$$\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1.$$
+
+Vậy tích phân hội tụ và $\displaystyle\int_0^{\infty}xe^{-x}\,dx=1$.
+
+**Đáp số.** $1$.
 :::
 
 :::exercise Thử thách
@@ -221,7 +302,15 @@ Cho $\displaystyle\int_0^4f(x)\,dx=10$. Tính $\displaystyle\int_0^2f(2x)\,dx$ v
 2. $u=2x-2$: cận lại là $0$ đến $4$.
 
 ::solution
-Cả hai tích phân đều bằng $\dfrac12\displaystyle\int_0^4f(u)\,du=\dfrac12\cdot10=5$.
+Tích phân thứ nhất: đặt $u=2x$, suy ra $du=2\,dx$, tức là $dx=\dfrac{du}{2}$. Khi $x=0$ thì $u=0$; khi $x=2$ thì $u=4$. Do đó
+$$\int_0^2f(2x)\,dx=\frac12\int_0^4f(u)\,du=\frac12\cdot10=5.$$
+
+Tích phân thứ hai: đặt $u=2x-2$, suy ra $du=2\,dx$, tức là $dx=\dfrac{du}{2}$. Khi $x=1$ thì $u=0$; khi $x=3$ thì $u=4$. Do đó
+$$\int_1^3f(2x-2)\,dx=\frac12\int_0^4f(u)\,du=\frac12\cdot10=5.$$
+
+Vậy cả hai tích phân đều bằng $5$.
+
+**Đáp số.** $5$ và $5$.
 :::
 
 :::quiz

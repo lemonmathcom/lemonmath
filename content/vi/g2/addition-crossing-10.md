@@ -119,7 +119,14 @@ Tính $9+3$.
 2. Tính $9+1$, rồi cộng thêm $2$.
 
 ::solution
-$9+3=9+1+2=10+2=12$.
+Để cộng qua $10$, em tách $3$ thành $1+2$ để $9$ cộng $1$ được $10$.
+
+Ta có
+$$9+3=9+1+2=10+2=12.$$
+
+Thử lại bằng cách đổi chỗ hai số hạng: $3+9=12$.
+
+Vậy $9+3=12$.
 
 **Đáp số.** $12$.
 :::
@@ -135,7 +142,14 @@ Tính $8+4$.
 2. Tính $8+2$, rồi cộng thêm phần còn lại.
 
 ::solution
-$8+4=8+2+2=10+2=12$.
+Để cộng qua $10$, em tách $4$ thành $2+2$ để $8$ cộng $2$ được $10$.
+
+Ta có
+$$8+4=8+2+2=10+2=12.$$
+
+Thử lại bằng cách đổi chỗ hai số hạng: $4+8=12$.
+
+Vậy $8+4=12$.
 
 **Đáp số.** $12$.
 :::
@@ -151,7 +165,14 @@ Tính $7+5$.
 2. Tính $7+3$, rồi cộng thêm $2$.
 
 ::solution
-$7+5=7+3+2=10+2=12$.
+Để cộng qua $10$, em tách $5$ thành $3+2$ để $7$ cộng $3$ được $10$.
+
+Ta có
+$$7+5=7+3+2=10+2=12.$$
+
+Thử lại bằng cách đổi chỗ hai số hạng: $5+7=12$.
+
+Vậy $7+5=12$.
 
 **Đáp số.** $12$.
 :::
@@ -167,7 +188,14 @@ Tính $5+9$.
 2. $9$ cần thêm $1$: tách $5$ thành $1$ và $4$.
 
 ::solution
-$5+9=9+5=9+1+4=10+4=14$.
+Khi đổi chỗ hai số hạng, tổng không thay đổi, nên $5+9=9+5$. Ta lấy $9$ làm số thứ nhất vì $9$ chỉ cần thêm $1$ là được $10$.
+
+Ta tách $5$ thành $1+4$:
+$$5+9=9+5=9+1+4=10+4=14.$$
+
+Thử lại: $5+9=5+5+4=10+4=14$.
+
+Vậy $5+9=14$.
 
 **Đáp số.** $14$.
 :::
@@ -183,7 +211,14 @@ $5+9=9+5=9+1+4=10+4=14$.
 2. So sánh kết quả với $15$.
 
 ::solution
-$8+6=8+2+4=14$. Vì $14<15$ nên $8+6<15$.
+Trước hết ta tính $8+6$. Tách $6$ thành $2+4$ để $8$ cộng $2$ được $10$:
+$$8+6=8+2+4=10+4=14.$$
+
+So sánh $14$ với $15$: vì $14$ đứng trước $15$ khi đếm nên $14<15$.
+
+Do đó $8+6<15$.
+
+Vậy dấu cần điền vào chỗ trống là dấu $<$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -199,8 +234,14 @@ Trong vườn có $9$ con gà mái và $6$ con gà trống. Hỏi trong vườn 
 2. Tính $9+6$ rồi ghi đáp số có đơn vị.
 
 ::solution
+Bài giải
+
+Muốn biết trong vườn có tất cả bao nhiêu con gà, ta lấy số gà mái cộng với số gà trống.
+
 Số con gà có tất cả là:
 $$9+6=9+1+5=10+5=15\ \text{(con)}.$$
+
+Vậy trong vườn có tất cả $15$ con gà.
 
 **Đáp số.** $15$ con gà.
 :::
@@ -216,7 +257,12 @@ Em hãy nhớ lại bài trước: số liền sau của $12$ là số nào? R�
 2. Cộng số đó với $7$ (đếm thêm hoặc cộng hàng đơn vị).
 
 ::solution
-Số liền sau của $12$ là $13$. Ta có $13+7=20$ (vì $3+7=10$, và $10$ cùng với $10$ là $20$).
+Số liền sau của một số hơn số đó $1$ đơn vị. Vì $12+1=13$ nên số liền sau của $12$ là $13$.
+
+Tiếp theo, ta tính $13+7$. Ta tách $13=10+3$, rồi cộng $3$ với $7$ để được $10$:
+$$13+7=10+3+7=10+10=20.$$
+
+Vậy số liền sau của $12$ là $13$ và $13+7=20$.
 
 **Đáp số.** $20$.
 :::
@@ -233,9 +279,14 @@ Tìm số thích hợp điền vào ô trống: $\square+8=15$.
 3. Cộng hai phần: $2+5$.
 
 ::solution
-Từ $8$ lên $10$ cần $2$, từ $10$ lên $15$ cần $5$, nên số cần điền là $2+5=7$.
+Số cần điền cộng với $8$ được $15$. Ta đếm thêm từ $8$ lên $15$, đi qua $10$.
 
-**Kiểm tra.** $7+8=15$. Đúng.
+Từ $8$ lên $10$ cần thêm $2$. Từ $10$ lên $15$ cần thêm $5$. Số cần điền là
+$$2+5=7.$$
+
+Kiểm tra: $7+8=7+3+5=10+5=15$. Đúng.
+
+Vậy số cần điền vào ô trống là $7$.
 
 **Đáp số.** $7$.
 :::

@@ -186,7 +186,17 @@ D. $x^4+\dfrac{1}{3x^3}+C$.
 2. Chú ý dấu trừ đứng trước.
 
 ::solution
-$\displaystyle\int4x^3\,dx=x^4$ và $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Phương án B sai dấu; C là đạo hàm; D giảm số mũ thay vì tăng.
+Viết $\dfrac{1}{x^2}=x^{-2}$. Áp dụng công thức $\displaystyle\int x^n\,dx=\dfrac{x^{n+1}}{n+1}+C$ (với $n\neq-1$), ta có
+$$\int4x^3\,dx=4\cdot\frac{x^4}{4}=x^4,\qquad \int x^{-2}\,dx=\frac{x^{-1}}{-1}=-\frac1x.$$
+
+Do đó
+$$\int\left(4x^3-\frac{1}{x^2}\right)dx=x^4-\left(-\frac1x\right)+C=x^4+\frac1x+C.$$
+
+Kiểm tra: $\left(x^4+\dfrac1x\right)'=4x^3-\dfrac{1}{x^2}$ (thoả mãn).
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B sai dấu; phương án C là đạo hàm của hàm số dưới dấu tích phân; phương án D giảm số mũ thay vì tăng.
 
 **Đáp số.** A.
 :::
@@ -205,7 +215,12 @@ D. $\dfrac{\pi}{2}$.
 1. Tính $\sin\dfrac{\pi}{2}-\sin0$.
 
 ::solution
-$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Phương án C dùng nhầm nguyên hàm $-\sin x$.
+Một nguyên hàm của $\cos x$ là $\sin x$. Áp dụng công thức Newton–Leibniz, ta có
+$$\int_0^{\frac{\pi}{2}}\cos x\,dx=\Big[\sin x\Big]_0^{\frac{\pi}{2}}=\sin\frac{\pi}{2}-\sin0=1-0=1.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án C dùng nhầm nguyên hàm $-\sin x$.
 
 **Đáp số.** A.
 :::
@@ -221,7 +236,10 @@ Tính $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
 2. Thay cận $2$ và $0$.
 
 ::solution
-$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+Một nguyên hàm của $3x^2-2x+1$ là $x^3-x^2+x$. Áp dụng công thức Newton–Leibniz, ta có
+$$\int_0^2\left(3x^2-2x+1\right)dx=\Big[x^3-x^2+x\Big]_0^2=\left(8-4+2\right)-0=6.$$
+
+Vậy $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx=6$.
 
 **Đáp số.** $6$.
 :::
@@ -245,13 +263,19 @@ d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
 2. Tính từng tích phân bằng $\Big[e^x+x^2\Big]$.
 
 ::solution
-a) **Đúng**: $(e^x+x^2)'=e^x+2x$.
+Cho $f(x)=e^x+2x$. Ta có $\displaystyle\int f(x)\,dx=e^x+x^2+C$.
 
-b) **Sai**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+a) **Đúng.** Ta có $F'(x)=\left(e^x+x^2\right)'=e^x+2x=f(x)$, nên $F(x)=e^x+x^2$ là một nguyên hàm của $f(x)$.
 
-c) **Sai**: $F(0)=1+C=3$ nên $C=2$, $F(x)=e^x+x^2+2$.
+b) **Sai.** Ta có
+$$\int_0^1f(x)\,dx=\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e\neq e+1.$$
 
-d) **Đúng**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+c) **Sai.** Nguyên hàm $F$ có dạng $F(x)=e^x+x^2+C$. Từ $F(0)=1+C=3$, suy ra $C=2$. Do đó $F(x)=e^x+x^2+2$, không phải $e^x+x^2+3$.
+
+d) **Đúng.** Ta có
+$$\int_{-1}^1f(x)\,dx=\Big[e^x+x^2\Big]_{-1}^1=(e+1)-\left(\frac1e+1\right)=e-\frac1e.$$
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -267,7 +291,14 @@ Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-4$ và trục
 2. Trên $[-2; 2]$, $x^2-4\le0$, nên $\lvert x^2-4\rvert=4-x^2$.
 
 ::solution
-$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
+Hoành độ giao điểm của parabol $y=x^2-4$ với trục hoành là nghiệm của $x^2-4=0$, tức là $x=-2$ hoặc $x=2$.
+
+Trên đoạn $[-2; 2]$ ta có $x^2-4\le0$ nên $|x^2-4|=4-x^2$. Diện tích hình phẳng cần tìm là
+$$S=\int_{-2}^2\left|x^2-4\right|dx=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
+
+Làm tròn đến hàng phần mười, ta được $S\approx10{,}7$.
+
+Vậy diện tích hình phẳng giới hạn bởi parabol và trục hoành xấp xỉ $10{,}7$ (đơn vị diện tích).
 
 **Đáp số.** $10{,}7$.
 :::
@@ -283,7 +314,17 @@ Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3-x$, trụ
 2. Tính hai tích phân rồi cộng.
 
 ::solution
-$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+Ta có $x^3-x=x(x-1)(x+1)$. Trên đoạn $[0; 2]$, $x^3-x=0\iff x=0$ hoặc $x=1$. Xét dấu: trên $(0; 1)$ ta có $x^3-x<0$, trên $(1; 2)$ ta có $x^3-x>0$.
+
+Do đó diện tích hình phẳng là
+$$S=\int_0^2\left|x^3-x\right|dx=\int_0^1\left(x-x^3\right)dx+\int_1^2\left(x^3-x\right)dx.$$
+
+Tính từng tích phân:
+$$\begin{aligned}\int_0^1\left(x-x^3\right)dx&=\Big[\frac{x^2}{2}-\frac{x^4}{4}\Big]_0^1=\frac12-\frac14=\frac14,\\ \int_1^2\left(x^3-x\right)dx&=\Big[\frac{x^4}{4}-\frac{x^2}{2}\Big]_1^2=(4-2)-\left(\frac14-\frac12\right)=\frac94.\end{aligned}$$
+
+Suy ra $S=\dfrac14+\dfrac94=\dfrac{10}{4}=\dfrac52$.
+
+Vậy diện tích hình phẳng bằng $\dfrac52$ (đơn vị diện tích).
 
 **Đáp số.** $S=\dfrac52$.
 :::
@@ -303,7 +344,14 @@ D. $18\pi$.
 2. Kiểm tra bằng công thức thể tích khối nón $\dfrac13\pi r^2h$.
 
 ::solution
-$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Kiểm tra: khối nón có $r=6$, $h=3$, $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Phương án B quên bình phương; C quên chia cho $3$; D chỉ bình phương $x$.
+Khối tròn xoay được tạo thành khi quay hình phẳng giới hạn bởi $y=2x$, trục $Ox$ và đường thẳng $x=3$ (với $0\le x\le3$) quanh trục $Ox$. Áp dụng công thức thể tích khối tròn xoay, ta có
+$$V=\pi\int_0^3(2x)^2\,dx=\pi\int_0^34x^2\,dx=\pi\Big[\frac{4x^3}{3}\Big]_0^3=\pi\cdot\frac{4\cdot27}{3}=36\pi.$$
+
+Kiểm tra: khối nón này có bán kính đáy $r=2\cdot3=6$ và chiều cao $h=3$, nên $V=\dfrac13\pi r^2h=\dfrac13\pi\cdot36\cdot3=36\pi$ (thoả mãn).
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương; phương án C quên chia cho $3$; phương án D chỉ bình phương $x$.
 
 **Đáp số.** A.
 :::
@@ -319,7 +367,10 @@ Nước chảy vào một bể với tốc độ $r(t)=0{,}6t+2$ (lít/phút), $
 2. Thay cận.
 
 ::solution
-$\Big[0{,}3t^2+2t\Big]_0^{10}=30+20=50$.
+Lượng nước chảy vào bể trong $10$ phút đầu bằng tích phân của tốc độ chảy $r(t)$ từ $t=0$ đến $t=10$:
+$$V=\int_0^{10}r(t)\,dt=\int_0^{10}(0{,}6t+2)\,dt=\Big[0{,}3t^2+2t\Big]_0^{10}=\left(0{,}3\cdot100+2\cdot10\right)-0=30+20=50.$$
+
+Vậy trong $10$ phút đầu có $50$ lít nước chảy vào bể.
 
 **Đáp số.** $50$.
 :::
@@ -343,13 +394,20 @@ d) Trong giây cuối cùng trước khi dừng, ô tô đi được $3$ m.
 2. Tính $s(4)$ và $s(4)-s(3)$.
 
 ::solution
-a) **Đúng**: $12-3t=0\iff t=4$.
+Vận tốc của ô tô là $v(t)=12-3t$ (m/s), $t$ tính bằng giây kể từ lúc đạp phanh.
 
-b) **Đúng**: $s(t)=\Big[12u-1{,}5u^2\Big]_0^t=12t-1{,}5t^2$.
+a) **Đúng.** Ô tô dừng hẳn khi $v(t)=0$, tức là $12-3t=0\iff t=4$. Với $0\le t<4$ ta có $v(t)>0$ nên ô tô đang chuyển động. Vậy ô tô dừng hẳn sau $4$ giây.
 
-c) **Đúng**: $s(4)=48-24=24$.
+b) **Đúng.** Quãng đường đi được sau $t$ giây ($0\le t\le4$) là
+$$s(t)=\int_0^tv(u)\,du=\Big[12u-1{,}5u^2\Big]_0^t=12t-1{,}5t^2\ \text{(m)}.$$
 
-d) **Sai**: $s(4)-s(3)=24-22{,}5=1{,}5$ m.
+c) **Đúng.** Từ lúc đạp phanh đến khi dừng, ô tô đi được $s(4)=12\cdot4-1{,}5\cdot16=48-24=24$ m.
+
+d) **Sai.** Quãng đường đi được trong giây cuối cùng (từ $t=3$ đến $t=4$) là
+$$s(4)-s(3)=24-\left(12\cdot3-1{,}5\cdot9\right)=24-22{,}5=1{,}5\ \text{m},$$
+không phải $3$ m.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -365,8 +423,17 @@ Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cao $4$ m
 2. Tính tích phân.
 
 ::solution
-Parabol có dạng $y=4-ax^2$ và đi qua $(4; 0)$ nên $a=\dfrac14$.
-$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21{,}33.$$
+Chọn hệ trục toạ độ $Oxy$ với gốc $O$ ở trung điểm của chân cổng, trục $Ox$ nằm trên mặt đất. Khi đó chân cổng là hai điểm $(-4; 0)$ và $(4; 0)$, còn đỉnh parabol là $(0; 4)$.
+
+Parabol có đỉnh $(0; 4)$ nên có dạng $y=4-ax^2$ với $a>0$. Parabol đi qua $(4; 0)$ nên
+$$0=4-a\cdot4^2\iff16a=4\iff a=\frac14.$$
+
+Do đó parabol là $y=4-\dfrac{x^2}{4}$, và $y\ge0$ trên đoạn $[-4; 4]$. Diện tích phần kính bằng diện tích hình phẳng giới hạn bởi parabol và trục $Ox$:
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{64}{12}\right)=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21{,}33.$$
+
+Làm tròn đến hàng phần mười, ta được $S\approx21{,}3$.
+
+Vậy diện tích phần kính xấp xỉ $21{,}3$ m².
 
 **Đáp số.** $21{,}3$.
 :::

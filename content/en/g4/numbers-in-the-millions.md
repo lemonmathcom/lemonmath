@@ -195,7 +195,14 @@ Write the number: four hundred and twenty million, three hundred thousand.
 2. What number is "three hundred thousand"? What is the units period?
 
 ::solution
-"Four hundred and twenty million" is $420\,000\,000$ and "three hundred thousand" is $300\,000$. We have $420\,000\,000+300\,000=420\,300\,000$.
+We write each part of the number and then add.
+
+"Four hundred and twenty million" is $420\,000\,000$ and "three hundred thousand" is $300\,000$.
+
+We have
+$$420\,000\,000+300\,000=420\,300\,000.$$
+
+So the number is $420\,300\,000$.
 
 **Answer.** $420\,300\,000$.
 :::
@@ -211,7 +218,11 @@ Read the number $508\,060\,000$.
 2. Read the thousands period: $060$.
 
 ::solution
-The number $508\,060\,000$ has millions period $508$, thousands period $060$ and units period $000$.
+We split the number $508\,060\,000$ into periods, from right to left: the units period is $000$, the thousands period is $060$ and the millions period is $508$.
+
+We read each period and add its name: the millions period is read "five hundred and eight million"; the thousands period is read "sixty thousand"; the units period is $000$, so we do not read it.
+
+So the number $508\,060\,000$ is read: five hundred and eight million, sixty thousand.
 
 **Answer.** Five hundred and eight million, sixty thousand.
 :::
@@ -227,8 +238,21 @@ Write $26\,804\,109$ as a sum.
 2. Leave out the place with digit $0$.
 
 ::solution
-The number $26\,804\,109$ has $2$ ten-millions, $6$ millions, $8$ hundred-thousands, $0$ ten-thousands, $4$ thousands, $1$ hundred, $0$ tens and $9$ ones. We have:
+We find the value of each digit in the number $26\,804\,109$:
+
+- The digit $2$ is in the ten-millions place, with value $20\,000\,000$.
+- The digit $6$ is in the millions place, with value $6\,000\,000$.
+- The digit $8$ is in the hundred-thousands place, with value $800\,000$.
+- The digit $0$ is in the ten-thousands place, with value $0$.
+- The digit $4$ is in the thousands place, with value $4\,000$.
+- The digit $1$ is in the hundreds place, with value $100$.
+- The digit $0$ is in the tens place, with value $0$.
+- The digit $9$ is in the ones place, with value $9$.
+
+We have
 $$26\,804\,109=20\,000\,000+6\,000\,000+800\,000+4\,000+100+9.$$
+
+So the number $26\,804\,109$ written as a sum is the one above.
 
 **Answer.** $20\,000\,000+6\,000\,000+800\,000+4\,000+100+9$.
 :::
@@ -244,9 +268,13 @@ In the number $372\,915\,048$, which place and which period are the digits $7$ a
 2. Find the period and the value of the digits $7$ and $9$.
 
 ::solution
-The number $372\,915\,048$ has $3$ hundred-millions, $7$ ten-millions, $2$ millions, $9$ hundred-thousands, $1$ ten-thousand, $5$ thousands, $0$ hundreds, $4$ tens and $8$ ones.
+We read the places of the number $372\,915\,048$ from left to right: $3$ hundred-millions, $7$ ten-millions, $2$ millions, $9$ hundred-thousands, $1$ ten-thousand, $5$ thousands, $0$ hundreds, $4$ tens and $8$ ones.
 
-The digit $7$ is in the ten-millions place, in the millions period, with value $70\,000\,000$. The digit $9$ is in the hundred-thousands place, in the thousands period, with value $900\,000$.
+The digit $7$ is in the ten-millions place, in the millions period, so its value is $70\,000\,000$.
+
+The digit $9$ is in the hundred-thousands place, in the thousands period, so its value is $900\,000$.
+
+So the digit $7$ is in the ten-millions place, in the millions period, with value $70\,000\,000$; the digit $9$ is in the hundred-thousands place, in the thousands period, with value $900\,000$.
 
 **Answer.** $7$: ten-millions place, millions period, $70\,000\,000$; $9$: hundred-thousands place, thousands period, $900\,000$.
 :::
@@ -262,7 +290,13 @@ Write $>$, $<$ or $=$ in the gap: $487\,215\,000\ \ldots\ 487\,125\,000$.
 2. Find the first pair of digits that differs.
 
 ::solution
-Both numbers have nine digits. The hundred-millions, ten-millions and millions are equal. Hundred-thousands: $2>1$. So $487\,215\,000>487\,125\,000$.
+Both numbers $487\,215\,000$ and $487\,125\,000$ have nine digits.
+
+We compare place by place, from left to right: the hundred-millions digits are both $4$, the ten-millions digits are both $8$, and the millions digits are both $7$.
+
+At the hundred-thousands place: $2>1$.
+
+So $487\,215\,000>487\,125\,000$.
 
 **Answer.** The sign $>$.
 :::
@@ -278,9 +312,16 @@ Put the numbers $508\,000\,000$, $58\,000\,000$, $580\,000\,000$, $85\,000\,000$
 2. Compare the numbers with the same number of digits from left to right.
 
 ::solution
-The numbers $58\,000\,000$ and $85\,000\,000$ have eight digits, and the other two have nine digits. Among the eight-digit numbers: $5<8$, so $58\,000\,000<85\,000\,000$. Among the nine-digit numbers: the ten-millions digit $0<8$, so $508\,000\,000<580\,000\,000$.
+First we count the digits of each number. The numbers $58\,000\,000$ and $85\,000\,000$ have eight digits; the numbers $508\,000\,000$ and $580\,000\,000$ have nine digits. The number with fewer digits is smaller, so the two eight-digit numbers are smaller than the two nine-digit numbers.
 
-We have $58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000$.
+Comparing the two eight-digit numbers: the ten-millions digits satisfy $5<8$, so $58\,000\,000<85\,000\,000$.
+
+Comparing the two nine-digit numbers: the hundred-millions digits are both $5$; the ten-millions digits satisfy $0<8$, so $508\,000\,000<580\,000\,000$.
+
+We have
+$$58\,000\,000<85\,000\,000<508\,000\,000<580\,000\,000.$$
+
+So the numbers in order from smallest to largest are $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
 
 **Answer.** $58\,000\,000$; $85\,000\,000$; $508\,000\,000$; $580\,000\,000$.
 :::
@@ -299,9 +340,16 @@ The prices of three motorbikes (made-up numbers) are $45\,000\,000$ dong, $52\,5
 ::solution
 Solution
 
-The ten-millions digits of the three numbers are $4$, $5$ and $4$. The number $52\,500\,000$ has the largest ten-millions digit. The other two have the same ten-millions digit, $4$; millions: $5$ and $9$. The number $45\,000\,000$ is smaller.
+All three numbers have eight digits, so we compare from the ten-millions place.
 
-We have $45\,000\,000<49\,800\,000<52\,500\,000$.
+The ten-millions digits of $45\,000\,000$, $52\,500\,000$ and $49\,800\,000$ are $4$, $5$ and $4$ respectively. The number $52\,500\,000$ has the largest ten-millions digit, so it is the greatest.
+
+The other two numbers have the same ten-millions digit, $4$. We compare the millions digits: $5<9$, so $45\,000\,000<49\,800\,000$.
+
+We have
+$$45\,000\,000<49\,800\,000<52\,500\,000.$$
+
+So the prices in order from lowest to highest are $45\,000\,000$ dong; $49\,800\,000$ dong; $52\,500\,000$ dong.
 
 **Answer.** $45\,000\,000$ dong; $49\,800\,000$ dong; $52\,500\,000$ dong.
 :::
@@ -317,7 +365,16 @@ Remember the lesson on addition and subtraction within $100\,000$. Work out $1\,
 2. Count the digits of the result and find the place and period of the digit $9$.
 
 ::solution
-We have $1\,000\,000-99\,999=900\,001$. The result has six digits. The digit $9$ is in the hundred-thousands place, in the thousands period.
+We do the subtraction:
+$$1\,000\,000-99\,999=900\,001.$$
+
+Check: $900\,001+99\,999=1\,000\,000$. Correct.
+
+The number $900\,001$ has six digits: $9$, $0$, $0$, $0$, $0$, $1$.
+
+The digit $9$ comes first, in the hundred-thousands place, in the thousands period.
+
+So $1\,000\,000-99\,999=900\,001$; the result has six digits, and the digit $9$ is in the hundred-thousands place, in the thousands period.
 
 **Answer.** $900\,001$; six digits; hundred-thousands place, thousands period.
 :::
@@ -333,7 +390,14 @@ Nam says: "$99\,999\,999$ is greater than $100\,000\,000$ because the digits $9$
 2. Compare the two numbers using the rule.
 
 ::solution
-The number $99\,999\,999$ has eight digits and $100\,000\,000$ has nine digits. The number with more digits is greater, so $99\,999\,999<100\,000\,000$. Nam only compared the first digit.
+When we compare two whole numbers, we first compare how many digits they have; the number with more digits is greater.
+
+The number $99\,999\,999$ has eight digits, and the number $100\,000\,000$ has nine digits. Hence
+$$99\,999\,999<100\,000\,000.$$
+
+Nam only compared the first digit and did not compare the number of digits.
+
+So Nam's statement is wrong; the correct statement is $99\,999\,999<100\,000\,000$.
 
 **Answer.** Nam is wrong; $99\,999\,999<100\,000\,000$.
 :::
@@ -349,7 +413,12 @@ How many whole numbers of millions are there from $1\,000\,000$ to $99\,000\,000
 2. Count from $1$ million to that number of millions.
 
 ::solution
-The whole numbers of millions from $1\,000\,000$ to $99\,000\,000$ are $1$ million, $2$ million, ..., $99$ million. The number of them is $99-1+1=99$.
+The whole numbers of millions from $1\,000\,000$ to $99\,000\,000$ are $1$ million, $2$ million, $3$ million, ..., $99$ million.
+
+The first number is $1$ million and the last is $99$ million, and consecutive numbers differ by $1$ million. The number of them is:
+$$99-1+1=99\ \text{(numbers)}.$$
+
+So there are $99$ whole numbers of millions from $1\,000\,000$ to $99\,000\,000$.
 
 **Answer.** $99$ numbers.
 :::

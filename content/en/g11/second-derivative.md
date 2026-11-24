@@ -191,13 +191,23 @@ d) $y=x^2e^x$.
 2. Differentiate $y'$, using the rules again if needed.
 
 ::solution
-a) $y'=5x^4-6x^2+1$, so $y''=20x^3-12x$.
+The second derivative of $y=f(x)$ is $y''=(y')'$. We use the formulas $(x^n)'=nx^{n-1}$, $\left(e^{kx}\right)'=ke^{kx}$, $(\ln u)'=\dfrac{u'}{u}$, $(uv)'=u'v+uv'$ and $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$.
 
-b) $y'=3e^{3x}$, so $y''=9e^{3x}$.
+a) The function is defined on $\mathbb R$. We have $y'=5x^4-6x^2+1$. Hence
+$$y''=(5x^4-6x^2+1)'=20x^3-12x.$$
 
-c) $y'=\dfrac{2}{2x+1}$, so $y''=\dfrac{0-2\cdot2}{(2x+1)^2}=-\dfrac{4}{(2x+1)^2}$.
+b) We have $y'=3e^{3x}$. Hence
+$$y''=3\cdot3e^{3x}=9e^{3x}.$$
 
-d) $y'=2xe^x+x^2e^x=(x^2+2x)e^x$, so $y''=(2x+2)e^x+(x^2+2x)e^x=(x^2+4x+2)e^x$.
+c) Condition: $2x+1>0$, that is $x>-\dfrac12$. We have $y'=\dfrac{2}{2x+1}$. Hence
+$$y''=\frac{0\cdot(2x+1)-2\cdot2}{(2x+1)^2}=-\frac{4}{(2x+1)^2}.$$
+
+d) By the product rule, we have
+$$y'=2xe^x+x^2e^x=(x^2+2x)e^x.$$
+Applying the same rule to $y'$, we get
+$$\begin{aligned}y''&=(2x+2)e^x+(x^2+2x)e^x\\&=(x^2+4x+2)e^x.\end{aligned}$$
+
+So a) $y''=20x^3-12x$; b) $y''=9e^{3x}$; c) $y''=-\dfrac{4}{(2x+1)^2}$; d) $y''=(x^2+4x+2)e^x$.
 
 **Answer.** a) $20x^3-12x$; b) $9e^{3x}$; c) $-\dfrac4{(2x+1)^2}$; d) $(x^2+4x+2)e^x$.
 :::
@@ -221,13 +231,17 @@ d) $f''(0)$ for $f(x)=e^{-x}$.
 2. Substitute the given $x$.
 
 ::solution
-a) $f'(x)=3x^2-6x$, $f''(x)=6x-6$, so $f''(2)=6$.
+For each function we find $f'(x)$, then $f''(x)$, and then substitute the given value of $x$.
 
-b) $f''(x)=\dfrac2{x^3}$, so $f''(2)=\dfrac28=\dfrac14$.
+a) We have $f'(x)=3x^2-6x$ and $f''(x)=6x-6$. Substituting $x=2$ gives $f''(2)=6\cdot2-6=6$.
 
-c) $f''(x)=-\dfrac1{x^2}$, so $f''(e)=-\dfrac1{e^2}$.
+b) Condition: $x\neq0$. Writing $f(x)=\dfrac1x=x^{-1}$, we have $f'(x)=-\dfrac1{x^2}$ and $f''(x)=\dfrac{2}{x^3}$. Substituting $x=2$ gives $f''(2)=\dfrac28=\dfrac14$.
 
-d) $f'(x)=-e^{-x}$, $f''(x)=e^{-x}$, so $f''(0)=1$.
+c) Condition: $x>0$. We have $f'(x)=\dfrac1x$ and $f''(x)=-\dfrac1{x^2}$. Substituting $x=e$ (the condition holds) gives $f''(e)=-\dfrac1{e^2}$.
+
+d) We have $f'(x)=-e^{-x}$ and $f''(x)=e^{-x}$. Substituting $x=0$ gives $f''(0)=e^0=1$.
+
+So a) $f''(2)=6$; b) $f''(2)=\dfrac14$; c) $f''(e)=-\dfrac1{e^2}$; d) $f''(0)=1$.
 
 **Answer.** a) $6$; b) $\dfrac14$; c) $-\dfrac1{e^2}$; d) $1$.
 :::
@@ -247,9 +261,17 @@ b) $f(x)=x^4-2x^2$.
 2. Solve the inequalities $f''(x)>0$ and $f''(x)<0$.
 
 ::solution
-a) $f'(x)=3x^2-12x+9$, $f''(x)=6x-12$. So $f''>0$ when $x>2$ and $f''<0$ when $x<2$.
+We compute $f''(x)$ and study its sign. Both functions are defined on $\mathbb R$.
 
-b) $f'(x)=4x^3-4x$, $f''(x)=12x^2-4$. So $f''>0$ when $x^2>\dfrac13$, that is $|x|>\dfrac1{\sqrt3}$; $f''<0$ when $|x|<\dfrac1{\sqrt3}$.
+a) We have $f'(x)=3x^2-12x+9$ and $f''(x)=6x-12$. Then
+$$f''(x)>0\iff6x-12>0\iff x>2,$$
+$$f''(x)<0\iff6x-12<0\iff x<2.$$
+
+b) We have $f'(x)=4x^3-4x$ and $f''(x)=12x^2-4$. Then
+$$f''(x)>0\iff x^2>\frac13\iff|x|>\frac1{\sqrt3},$$
+$$f''(x)<0\iff x^2<\frac13\iff|x|<\frac1{\sqrt3}.$$
+
+So in part a), $f''>0$ when $x>2$ and $f''<0$ when $x<2$; in part b), $f''>0$ when $|x|>\dfrac1{\sqrt3}$ and $f''<0$ when $|x|<\dfrac1{\sqrt3}$.
 
 **Answer.** a) $f''>0$ when $x>2$, $f''<0$ when $x<2$; b) $f''>0$ when $|x|>\dfrac1{\sqrt3}$, $f''<0$ when $|x|<\dfrac1{\sqrt3}$.
 :::
@@ -269,11 +291,14 @@ b) Find the time when the acceleration is $0$ and the velocity then.
 2. Substitute the values and check the signs.
 
 ::solution
-$v(t)=3t^2-6t+5$ and $a(t)=6t-6$.
+The instantaneous velocity is the first derivative of the position and the instantaneous acceleration is the second derivative: $v(t)=s'(t)$, $a(t)=s''(t)$, with $t\ge0$. From $s(t)=t^3-3t^2+5t$ we get
+$$v(t)=3t^2-6t+5,\qquad a(t)=6t-6.$$
 
-a) $v(2)=12-12+5=5$ m/s and $a(2)=6$ m/s$^2$. Both are positive, so the motion is speeding up.
+a) Substituting $t=2$, we get $v(2)=3\cdot4-6\cdot2+5=5$ (m/s) and $a(2)=6\cdot2-6=6$ (m/s$^2$). Since $v(2)>0$ and $a(2)>0$ have the same sign, the motion is speeding up at $t=2$.
 
-b) $a(t)=0$ when $t=1$, and $v(1)=3-6+5=2$ m/s.
+b) Solving $a(t)=0$, that is $6t-6=0$, gives $t=1$ (which satisfies $t\ge0$). Then $v(1)=3-6+5=2$ (m/s).
+
+So a) at $t=2$ seconds the velocity is $5$ m/s, the acceleration is $6$ m/s$^2$ and the motion is speeding up; b) the acceleration is $0$ at $t=1$ second, when the velocity is $2$ m/s.
 
 **Answer.** a) $v=5$ m/s, $a=6$ m/s$^2$, speeding up; b) $t=1$ second, $v=2$ m/s.
 :::
@@ -293,11 +318,15 @@ b) After how long does the ball reach its greatest height, and what is that heig
 2. Solve $v(t)=0$ and then find $s$.
 
 ::solution
-$v(t)=20-10t$ and $a(t)=-10$.
+The velocity is $v(t)=s'(t)$ and the acceleration is $a(t)=s''(t)$, with $t\ge0$. From $s(t)=20t-5t^2$ we get
+$$v(t)=20-10t,\qquad a(t)=-10.$$
 
-a) $v(1)=10$ m/s and the acceleration is the constant $a=-10$ m/s$^2$.
+a) Substituting $t=1$, we get $v(1)=20-10=10$ (m/s). The acceleration is the constant $a=-10$ (m/s$^2$) at every moment.
 
-b) $v(t)=0$ when $t=2$, and $s(2)=40-20=20$ metres.
+b) The ball is at its greatest height when the velocity changes sign from positive to negative, that is when $v(t)=0$. Solving $20-10t=0$ gives $t=2$. For $0\le t<2$ we have $v(t)>0$ (the ball is rising) and for $t>2$ we have $v(t)<0$ (the ball is falling). The greatest height is
+$$s(2)=20\cdot2-5\cdot2^2=40-20=20\ \text{(m)}.$$
+
+So a) $v(1)=10$ m/s and the acceleration is $-10$ m/s$^2$; b) after $2$ seconds the ball reaches its greatest height, which is $20$ m.
 
 **Answer.** a) $v(1)=10$ m/s, $a=-10$ m/s$^2$; b) $t=2$ seconds, height $20$ m.
 :::
@@ -319,11 +348,17 @@ c) From that month on, does the revenue fall?
 2. Solve $R''(t)=0$, find $R'$ there and check the sign of $R'$.
 
 ::solution
-a) $R'(t)=-3t^2+18t+10$ and $R''(t)=-6t+18$.
+The rate of growth of revenue is the derivative $R'(t)$; to see whether $R'$ increases or decreases we study $R''(t)$. Consider $0\le t\le6$.
 
-b) $R''(t)=0$ when $t=3$; $R''>0$ when $t<3$ and $R''<0$ when $t>3$, so $R'$ increases and then decreases, and is greatest at $t=3$. $R'(3)=-27+54+10=37$ (million dong per month).
+a) From $R(t)=-t^3+9t^2+10t$ we get
+$$R'(t)=-3t^2+18t+10,\qquad R''(t)=-6t+18.$$
 
-c) On $[0, 6]$ we have $R'(0)=10$, $R'(3)=37$, $R'(6)=10$, all positive, so the revenue does not fall; after month $3$ it only grows more slowly.
+b) Solving $R''(t)=0$, that is $-6t+18=0$, gives $t=3$ (which lies in $[0, 6]$). For $t<3$ we have $R''(t)>0$, so $R'$ increases; for $t>3$ we have $R''(t)<0$, so $R'$ decreases. Hence $R'$ is greatest at $t=3$, and
+$$R'(3)=-3\cdot9+18\cdot3+10=-27+54+10=37.$$
+
+c) We write $R'(t)=-3(t-3)^2+37$. For $t\in[0, 6]$ we have $(t-3)^2\le9$, so $R'(t)\ge-27+37=10>0$. In particular $R'(0)=10$, $R'(3)=37$, $R'(6)=10$. Since $R'(t)>0$, the revenue does not fall. From month $3$ on, $R'$ decreases from $37$ to $10$ but stays positive, so the revenue still grows, only more slowly.
+
+So a) $R'(t)=-3t^2+18t+10$, $R''(t)=-6t+18$; b) the rate of growth of revenue is greatest in month $3$, at $37$ million dong per month; c) from month $3$ on the revenue does not fall, it only grows more slowly.
 
 **Answer.** a) $R'=-3t^2+18t+10$, $R''=-6t+18$; b) month $3$, $37$ million dong per month; c) it does not fall, it only grows more slowly.
 :::
@@ -347,13 +382,17 @@ d) $(\ln x)''=\dfrac1{x^2}$.
 2. Compare with the statement.
 
 ::solution
-a) **False**: $\left(x^4\right)''=12x^2$.
+We examine each statement by computing derivatives or by using the meaning of velocity and acceleration.
 
-b) **True**: $\left(e^{2x}\right)'=2e^{2x}$, so $\left(e^{2x}\right)''=4e^{2x}$.
+a) **False.** We have $\left(x^4\right)'=4x^3$, so $\left(x^4\right)''=\left(4x^3\right)'=12x^2$. Thus $4x^3$ is the first derivative, not the second.
 
-c) **True**: the speed $|v|$ increases when $v$ and $a$ have the same sign.
+b) **True.** We have $\left(e^{2x}\right)'=2e^{2x}$, so $\left(e^{2x}\right)''=2\cdot2e^{2x}=4e^{2x}$.
 
-d) **False**: $(\ln x)''=-\dfrac1{x^2}$.
+c) **True.** The speed of the object is $|v|$. If $v>0$ and $a>0$, then $|v|=v$ has derivative $v'=a>0$, so it increases. If $v<0$ and $a<0$, then $|v|=-v$ has derivative $-v'=-a>0$, so it also increases. Thus when $v$ and $a$ have the same sign the speed increases, that is the motion is speeding up.
+
+d) **False.** For $x>0$ we have $(\ln x)'=\dfrac1x$, so $(\ln x)''=-\dfrac1{x^2}$, which is not $\dfrac1{x^2}$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -369,7 +408,13 @@ Revisit the definition of the derivative. Let $f(x)=x^3$, with $f'(x)=3x^2$. Use
 2. Cancel the factor $x-x_0$, then let $x\to x_0$.
 
 ::solution
-$\dfrac{f'(x)-f'(x_0)}{x-x_0}=\dfrac{3x^2-3x_0^2}{x-x_0}=3(x+x_0)\to6x_0$ as $x\to x_0$.
+By the definition of the derivative applied to the function $f'$ at the point $x_0$, we have
+$$f''(x_0)=\lim_{x\to x_0}\frac{f'(x)-f'(x_0)}{x-x_0}.$$
+
+With $f'(x)=3x^2$ and $x\neq x_0$, we rewrite
+$$\begin{aligned}\frac{f'(x)-f'(x_0)}{x-x_0}&=\frac{3x^2-3x_0^2}{x-x_0}\\&=\frac{3(x-x_0)(x+x_0)}{x-x_0}\\&=3(x+x_0).\end{aligned}$$
+
+As $x\to x_0$ we have $3(x+x_0)\to3\cdot2x_0=6x_0$. Hence $f''(x_0)=6x_0$ for every $x_0$.
 
 So $f''(x_0)=6x_0$, that is $f''(x)=6x$.
 
@@ -391,9 +436,15 @@ b) $y=2^x$.
 2. Take the constant $\ln a$ outside.
 
 ::solution
-a) $y'=\dfrac{1}{x\ln2}$, so $y''=\dfrac{1}{\ln2}\cdot\left(-\dfrac1{x^2}\right)=-\dfrac{1}{x^2\ln2}$.
+We use the formulas $(\log_ax)'=\dfrac{1}{x\ln a}$ (for $x>0$) and $\left(a^x\right)'=a^x\ln a$.
 
-b) $y'=2^x\ln2$, so $y''=2^x(\ln2)^2$.
+a) Condition: $x>0$. We have $y'=\dfrac{1}{x\ln2}=\dfrac1{\ln2}\cdot x^{-1}$. Hence
+$$y''=\frac1{\ln2}\cdot\left(-\frac1{x^2}\right)=-\frac{1}{x^2\ln2}.$$
+
+b) The function is defined on $\mathbb R$. We have $y'=2^x\ln2$. Since $\ln2$ is a constant,
+$$y''=\ln2\cdot\left(2^x\ln2\right)=2^x(\ln2)^2.$$
+
+So a) $y''=-\dfrac{1}{x^2\ln2}$; b) $y''=2^x(\ln2)^2$.
 
 **Answer.** a) $-\dfrac1{x^2\ln2}$; b) $2^x(\ln2)^2$.
 :::
@@ -409,9 +460,20 @@ Prove that the function $y=Ae^x+Be^{-x}$ satisfies $y''=y$ for all constants $A$
 2. Substitute $x=0$ into $y$ and $y'$ to form a system of equations.
 
 ::solution
-$y'=Ae^x-Be^{-x}$ and $y''=Ae^x+Be^{-x}=y$, so $y''=y$ for all $A$, $B$.
+Part 1: prove $y''=y$. For constants $A$, $B$, the function $y=Ae^x+Be^{-x}$ is defined on $\mathbb R$. Since $\left(e^{x}\right)'=e^x$ and $\left(e^{-x}\right)'=-e^{-x}$,
+$$y'=Ae^x-Be^{-x}.$$
+Differentiating again, we get
+$$y''=Ae^x-B\left(-e^{-x}\right)=Ae^x+Be^{-x}=y.$$
+So $y''=y$ for all constants $A$, $B$.
 
-The condition $y(0)=2$ gives $A+B=2$; the condition $y'(0)=0$ gives $A-B=0$. Hence $A=B=1$.
+Part 2: find $A$ and $B$. Substituting $x=0$ (note $e^0=1$) into $y$ and $y'$:
+$$y(0)=A+B=2,\qquad y'(0)=A-B=0.$$
+
+From $A-B=0$ we get $A=B$. Substituting into $A+B=2$ gives $2A=2$, so $A=1$ and $B=1$.
+
+Check: for $y=e^x+e^{-x}$ we have $y(0)=1+1=2$ and $y'(0)=1-1=0$ (both hold).
+
+So $y''=y$ for all $A$, $B$; and $A=B=1$, that is $y=e^x+e^{-x}$.
 
 **Answer.** $y''=y$; $A=B=1$, that is $y=e^x+e^{-x}$.
 :::

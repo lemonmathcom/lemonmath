@@ -171,11 +171,16 @@ Solve the system $y=2x-1$ and $3x+y=14$.
 **What you need:** substitute the expression for $y$ into the second equation.
 
 ::solution
-Substituting $y=2x-1$ into $3x+y=14$ gives $3x+2x-1=14$.
+The given system is
+$$\begin{cases}y=2x-1\\3x+y=14.\end{cases}$$
+The first equation already gives $y$ in terms of $x$, so we use substitution.
 
-So $5x=15$, and $x=3$.
+Substituting $y=2x-1$ into $3x+y=14$, we get
+$$3x+(2x-1)=14\iff5x-1=14\iff5x=15\iff x=3.$$
 
-Then $y=2(3)-1=5$.
+Substituting $x=3$ into $y=2x-1$, we get $y=2\cdot3-1=5$.
+
+Check: $3\cdot3+5=14$ (correct) and $5=2\cdot3-1$ (correct).
 
 So the solution of the system is $x=3$, $y=5$.
 
@@ -207,11 +212,14 @@ Let $f(x)=2x-5$. Find the value of $x$ for which $f(x)=7$.
 **What you need:** solve $2x-5=7$.
 
 ::solution
-We need $2x-5=7$.
+We need to find $x$ such that $f(x)=7$. Since $f(x)=2x-5$, we solve the equation
+$$2x-5=7.$$
 
-Adding $5$ to both sides gives $2x=12$, so $x=6$.
+Adding $5$ to both sides gives $2x=12$.
 
-Check: $f(6)=12-5=7$.
+Dividing both sides by $2$ gives $x=6$.
+
+Check: $f(6)=2\cdot6-5=12-5=7$ (correct).
 
 So $f(x)=7$ when $x=6$.
 

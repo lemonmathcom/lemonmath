@@ -208,7 +208,18 @@ D. $0$.
 2. Check the sign change at each root.
 
 ::solution
-$y'=4x(x-1)(x+1)$ has three simple roots $-1$, $0$, $1$, and $y'$ changes sign at each of them.
+The function is defined and differentiable on $\mathbb{R}$. We have
+$$y'=4x^3-4x=4x\left(x^2-1\right)=4x(x-1)(x+1).$$
+
+Hence $y'=0\iff x=-1$, $x=0$ or $x=1$. These are three simple roots (odd multiplicity), so $y'$ changes sign at each of them. The sign table is:
+
+| $x$ | $-\infty$ | | $-1$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $y'$ | | $-$ | $0$ | $+$ | $0$ | $-$ | $0$ | $+$ | |
+
+Therefore the function has exactly three turning points: $x=-1$ and $x=1$ are local minima, and $x=0$ is a local maximum.
+
+So the answer is **A**.
 
 **Answer.** A.
 :::
@@ -228,7 +239,17 @@ D. $x=3$ and $y=2$.
 2. Take the ratio of the coefficients of $x$.
 
 ::solution
-The denominator is $0$ at $x=2$ and the numerator is $5\ne0$ there, so $x=2$ is a vertical asymptote. $\lim\limits_{x\to\pm\infty}y=3$. Option C takes the ratio of the constant terms $\dfrac{-1}{-2}$.
+The function is defined on $\mathbb{R}\setminus\{2\}$.
+
+Vertical asymptote: as $x\to2$, the denominator $x-2\to0$ while the numerator $3x-1\to3\cdot2-1=5\neq0$, so $\lim\limits_{x\to2^{\pm}}y=\pm\infty$. Hence the line $x=2$ is a vertical asymptote.
+
+Horizontal asymptote: we have
+$$\lim_{x\to\pm\infty}\frac{3x-1}{x-2}=\lim_{x\to\pm\infty}\frac{3-\dfrac1x}{1-\dfrac2x}=3.$$
+Hence the line $y=3$ is a horizontal asymptote.
+
+So the answer is **A**.
+
+*Remark.* Option C wrongly takes the ratio of the constant terms $\dfrac{-1}{-2}$ as the horizontal asymptote; the horizontal asymptote must be found from the limit as $x\to\pm\infty$.
 
 **Answer.** A.
 :::
@@ -244,7 +265,17 @@ Let $M$, $m$ be the maximum and minimum values of $y=x+\dfrac4x$ on $[1, 5]$. Fi
 2. Compute $y(1)$, $y(2)$, $y(5)$.
 
 ::solution
-$y'=0\iff x=2$ (reject $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0.8=5.8$. So $M=5.8$ and $m=4$.
+The function $y=x+\dfrac4x$ is defined and continuous on $[1, 5]$ (since $x\neq0$). We have
+$$y'=1-\frac{4}{x^2}=\frac{x^2-4}{x^2}.$$
+
+Hence $y'=0\iff x=2$ or $x=-2$. Only $x=2$ lies in $[1, 5]$; we reject $x=-2$.
+
+We evaluate the function at the endpoints and at the critical point:
+$$y(1)=1+4=5,\qquad y(2)=2+2=4,\qquad y(5)=5+\frac45=5+0.8=5.8.$$
+
+Comparing the three values, we get $M=5.8$ and $m=4$.
+
+So $M+m=5.8+4=9.8$.
 
 **Answer.** $9.8$.
 :::
@@ -260,7 +291,20 @@ Find the asymptotes of the graph of $y=\dfrac{x^2+x+1}{x-1}$.
 2. Look at the limits as $x\to1^\pm$ and at $y-(ax+b)$ as $x\to\pm\infty$.
 
 ::solution
-The division gives $x^2+x+1=(x-1)(x+2)+3$, so $y=x+2+\dfrac{3}{x-1}$. As $x\to1^+$, $y\to+\infty$, so $x=1$ is a vertical asymptote. As $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, so $y=x+2$ is an oblique asymptote. There is no horizontal asymptote, because $y\to\pm\infty$.
+The function is defined on $\mathbb{R}\setminus\{1\}$.
+
+Performing the division, we have $x^2+x+1=(x-1)(x+2)+3$, so
+$$y=\frac{x^2+x+1}{x-1}=x+2+\frac{3}{x-1}.$$
+
+Vertical asymptote: as $x\to1^+$, the numerator $x^2+x+1\to3>0$ and the denominator $x-1\to0^+$, so $y\to+\infty$. Hence the line $x=1$ is a vertical asymptote.
+
+Oblique asymptote: as $x\to\pm\infty$, we have
+$$y-(x+2)=\frac{3}{x-1}\to0.$$
+Hence the line $y=x+2$ is an oblique asymptote.
+
+Horizontal asymptote: as $x\to\pm\infty$, $y\to\pm\infty$ (the limit is not finite), so the graph has no horizontal asymptote.
+
+So the graph has the vertical asymptote $x=1$, the oblique asymptote $y=x+2$, and no horizontal asymptote.
 
 **Answer.** Vertical asymptote $x=1$, oblique asymptote $y=x+2$.
 :::
@@ -284,15 +328,23 @@ d) $f(-1)>f(0)$.
 2. Judge each statement.
 
 ::solution
-The sign of $f'$: positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and on $(1, +\infty)$.
+Since $(x-1)^2\ge0$ and it equals $0$ only when $x=1$, for $x\neq1$ the sign of $f'(x)=x(x-1)^2(x+2)$ is the sign of $x(x+2)$. The sign table of $f'$ is:
 
-a) **False**: there is no sign change at $x=1$; there are only two turning points, $x=-2$ and $x=0$.
+| $x$ | $-\infty$ | | $-2$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | $0$ | $+$ | |
 
-b) **True**: $f'$ changes from $-$ to $+$ at $x=0$.
+That is, $f'$ is positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and on $(1, +\infty)$.
 
-c) **True**: $f'\ge0$ on $(0, +\infty)$ and is $0$ only at $x=1$.
+a) **False.** At $x=1$ we have $f'=0$ but $f'$ does not change sign, so $x=1$ is not a turning point. The function has only two turning points, $x=-2$ and $x=0$.
 
-d) **True**: $f$ is decreasing on $(-2, 0)$ and $-1<0$.
+b) **True.** As $x$ passes through $0$, $f'$ changes from $-$ to $+$, so the function has a local minimum at $x=0$.
+
+c) **True.** On $(0, +\infty)$ we have $f'\ge0$ and $f'$ is $0$ only at $x=1$, so the function is increasing on $(0, +\infty)$.
+
+d) **True.** The function is decreasing on $(-2, 0)$ (since $f'<0$ there) and continuous on $[-2, 0]$. Because $-2<-1<0$, we get $f(-1)>f(0)$.
+
+So statements b), c), d) are true; statement a) is false.
 
 **Answer.** a) False; b) True; c) True; d) True.
 :::
@@ -308,8 +360,15 @@ The concentration of a drug in the blood $t$ hours after it is taken is $C(t)=\d
 2. Find the sign of $C'$, noting that $C(0)=0$ and $C(t)\to0$ as $t\to+\infty$.
 
 ::solution
-$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
-For $t\ge0$, $C'>0$ when $t<2$ and $C'<0$ when $t>2$. The highest concentration is $C(2)=\dfrac{10}{8}=1.25$ mg/l, after $2$ hours.
+Let $C(t)$ (mg/l) be the concentration of the drug after $t$ hours, $t\ge0$. Using the quotient rule, we have
+$$C'(t)=\frac{5\left(t^2+4\right)-5t\cdot2t}{\left(t^2+4\right)^2}=\frac{5\left(4-t^2\right)}{\left(t^2+4\right)^2}.$$
+
+Since $5>0$ and $\left(t^2+4\right)^2>0$, the sign of $C'(t)$ is the sign of $4-t^2$. For $t\ge0$: $C'(t)>0$ when $0\le t<2$ and $C'(t)<0$ when $t>2$; $C'(t)=0\iff t=2$.
+
+Hence $C$ is increasing on $[0, 2]$ and decreasing on $[2, +\infty)$, so $C$ attains its greatest value at $t=2$:
+$$C(2)=\frac{5\cdot2}{2^2+4}=\frac{10}{8}=1.25.$$
+
+So the highest concentration is $1.25$ mg/l, reached after $2$ hours.
 
 **Answer.** $1.25$.
 :::
@@ -336,7 +395,17 @@ D. $0$.
 2. Read the table: $-3$ is the local minimum value.
 
 ::solution
-$2f(x)+6=0\iff f(x)=-3$. The line $y=-3$ touches the graph at the local minimum $x=2$ and crosses the left branch once on $(-\infty, 0)$ (since $f$ rises from $-\infty$ to $1$). It does not meet the graph on $(2, +\infty)$, where $f>-3$.
+The equation $2f(x)+6=0$ is equivalent to $f(x)=-3$. Its number of roots equals the number of intersection points of the graph $y=f(x)$ with the line $y=-3$. We examine each interval using the table of variations.
+
+On $(-\infty, 0)$: $f$ is continuous and increasing, going from $-\infty$ up to $1$. Since $-3$ lies between $-\infty$ and $1$, the equation $f(x)=-3$ has exactly one root on this interval.
+
+On $[0, 2]$: $f$ is decreasing from $1$ down to $-3$. Hence $f(x)>-3$ for $0\le x<2$ and $f(2)=-3$, so the equation has exactly one root, $x=2$ (the line $y=-3$ touches the graph at the local minimum).
+
+On $(2, +\infty)$: $f$ is increasing from $-3$ up to $+\infty$, so $f(x)>-3$ and the equation has no root.
+
+In total the equation has $1+1+0=2$ roots.
+
+So the answer is **B**.
 
 **Answer.** B.
 :::
@@ -360,15 +429,18 @@ d) The maximum value of the function on $[2, 4]$ is $3$.
 2. Find the two asymptotes and compare $y(2)$, $y(4)$.
 
 ::solution
-$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ for every $x\ne1$.
+The function $y=\dfrac{x+1}{x-1}$ has derivative
+$$y'=\frac{1\cdot(x-1)-(x+1)\cdot1}{(x-1)^2}=\frac{-2}{(x-1)^2}<0\quad\text{for every}\ x\neq1.$$
 
-a) **True**: the denominator is $0$ only at $x=1$.
+a) **True.** The function is defined when the denominator $x-1\neq0$, that is, $x\neq1$. So the domain is $\mathbb{R}\setminus\{1\}$.
 
-b) **False**: the function is decreasing on each of $(-\infty, 1)$ and $(1, +\infty)$, but $y(0)=-1<y(2)=3$, so it is not decreasing on the whole union.
+b) **False.** Since $y'<0$, the function is decreasing on each of the intervals $(-\infty, 1)$ and $(1, +\infty)$. However $0<2$ but $y(0)=-1<y(2)=3$, so the function is not decreasing on the whole set $\mathbb{R}\setminus\{1\}$ (the union of the two intervals).
 
-c) **True**: vertical asymptote $x=1$, horizontal asymptote $y=1$.
+c) **True.** As $x\to1$, the numerator $x+1\to2\neq0$ and the denominator $\to0$, so $x=1$ is a vertical asymptote. We have $\lim\limits_{x\to\pm\infty}y=\lim\limits_{x\to\pm\infty}\dfrac{1+\frac1x}{1-\frac1x}=1$, so $y=1$ is a horizontal asymptote. The asymptotes meet at $I(1, 1)$.
 
-d) **True**: the function is decreasing on $[2, 4]$, so the maximum is $y(2)=3$.
+d) **True.** The interval $[2, 4]$ lies inside $(1, +\infty)$, so the function is decreasing on $[2, 4]$. Hence its maximum on this interval is $y(2)=\dfrac{2+1}{2-1}=3$.
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -384,7 +456,17 @@ Find the minimum value of $y=(x^2-3)e^x$ on $[0, 2]$. Give your answer to 1 deci
 2. Compare with $y(0)$, $y(2)$.
 
 ::solution
-$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (reject $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5.44$, $y(2)=e^2\approx7.39$. The minimum value is $-2e\approx-5.4$.
+The function $y=\left(x^2-3\right)e^x$ is continuous on $[0, 2]$. Using the product rule, we have
+$$y'=2xe^x+\left(x^2-3\right)e^x=\left(x^2+2x-3\right)e^x=(x-1)(x+3)e^x.$$
+
+Since $e^x>0$, we get $y'=0\iff x=1$ or $x=-3$. Only $x=1$ lies in $[0, 2]$; we reject $x=-3$.
+
+We evaluate the function at the endpoints and at the critical point:
+$$y(0)=-3,\qquad y(1)=(1-3)e=-2e\approx-5.44,\qquad y(2)=(4-3)e^2=e^2\approx7.39.$$
+
+Comparing the three values, the minimum value is $y(1)=-2e\approx-5.4$ (to 1 decimal place).
+
+So the minimum value of the function on $[0, 2]$ is approximately $-5.4$.
 
 **Answer.** $-5.4$.
 :::
@@ -400,9 +482,19 @@ The graph of $y=ax^3+bx^2+cx+d$ has a local maximum at $(0, 2)$ and a local mini
 2. Solve, then check the type of each turning point.
 
 ::solution
-$y'=3ax^2+2bx+c$. From $y(0)=2$ and $y'(0)=0$: $d=2$, $c=0$. From $y'(2)=0$: $12a+4b=0$, so $b=-3a$. From $y(2)=-2$: $8a+4b+2=-2$, so $8a-12a=-4$, giving $a=1$, $b=-3$.
+The function $y=ax^3+bx^2+cx+d$ has derivative $y'=3ax^2+2bx+c$.
 
-**Check.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ changes from $+$ to $-$ at $0$ and from $-$ to $+$ at $2$; $y(0)=2$, $y(2)=-2$.
+The graph has a local maximum at $(0, 2)$, so $y(0)=2$ and $y'(0)=0$. Hence $d=2$ and $c=0$.
+
+The graph has a local minimum at $(2, -2)$, so $y'(2)=0$ and $y(2)=-2$.
+
+From $y'(2)=0$: $12a+4b+c=0$, and since $c=0$ we get $12a+4b=0$, that is, $b=-3a$.
+
+From $y(2)=-2$: $8a+4b+2c+d=-2$, and since $c=0$, $d=2$ we get $8a+4b+2=-2$, that is, $8a+4b=-4$. Substituting $b=-3a$ gives $8a-12a=-4$, so $a=1$ and $b=-3$.
+
+Check: with $a=1$, $b=-3$, $c=0$, $d=2$ we have $y=x^3-3x^2+2$ and $y'=3x^2-6x=3x(x-2)$. The derivative $y'$ changes from $+$ to $-$ at $x=0$ and from $-$ to $+$ at $x=2$; also $y(0)=2$, $y(2)=8-12+2=-2$ (satisfied).
+
+So $a=1$, $b=-3$, $c=0$, $d=2$.
 
 **Answer.** $a=1$, $b=-3$, $c=0$, $d=2$.
 :::

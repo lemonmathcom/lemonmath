@@ -151,7 +151,15 @@ D. Giới hạn không tồn tại.
 2. Giản ước rồi thay số.
 
 ::solution
-$\dfrac{x}{x+4}\to\dfrac48=\dfrac12$: đáp án **B**.
+Khi $x\to4$ ta có $x\neq4$. Phân tích tử và mẫu thành nhân tử:
+$$\frac{x^2-4x}{x^2-16}=\frac{x(x-4)}{(x-4)(x+4)}=\frac{x}{x+4}.$$
+
+Do đó
+$$\lim_{x\to4}\frac{x^2-4x}{x^2-16}=\lim_{x\to4}\frac{x}{x+4}=\frac{4}{4+4}=\frac12.$$
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -166,7 +174,20 @@ Tìm $k$ để $g$ liên tục tại $x=1$, và giải thích.
 2. Giới hạn bên phải bằng $2$.
 
 ::solution
-$g$ liên tục tại $1$ khi $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)$, tức là $1+k=2$, nên $k=1$.
+Hàm số $g$ liên tục tại $x=1$ khi và chỉ khi
+$$\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1).$$
+
+Ta tính từng giá trị:
+- với $x\le1$: $g(x)=x+k$, nên $\displaystyle\lim_{x\to1^-}g(x)=1+k$ và $g(1)=1+k$;
+- với $x>1$: $g(x)=2x^2$, nên $\displaystyle\lim_{x\to1^+}g(x)=2\cdot1^2=2$.
+
+Điều kiện liên tục trở thành $1+k=2$, suy ra $k=1$.
+
+Giải thích: với $k=1$, ta có $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)=2$, nên $g$ liên tục tại $x=1$.
+
+Vậy $k=1$.
+
+**Đáp số.** $k=1$.
 :::
 
 :::exercise Trắc nghiệm
@@ -183,7 +204,15 @@ D. $5$
 1. Viết lại rồi dùng giới hạn đặc biệt.
 
 ::solution
-$\dfrac52\cdot1=\dfrac52$: đáp án **C**.
+Viết lại
+$$\frac{\sin(5x)}{2x}=\frac52\cdot\frac{\sin(5x)}{5x}.$$
+
+Đặt $t=5x$. Khi $x\to0$ thì $t\to0$, và theo giới hạn cơ bản $\displaystyle\lim_{t\to0}\frac{\sin t}{t}=1$, ta có
+$$\lim_{x\to0}\frac{\sin(5x)}{2x}=\frac52\cdot\lim_{t\to0}\frac{\sin t}{t}=\frac52\cdot1=\frac52.$$
+
+Vậy chọn **C**.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -197,7 +226,15 @@ Tính $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}$.
 2. Giản ước rồi thay số.
 
 ::solution
-$\dfrac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3\to6$.
+Khi $x\to9$ ta có $x\neq9$ và $x\ge0$. Vì $x-9=(\sqrt x-3)(\sqrt x+3)$ và $\sqrt x-3\neq0$ nên
+$$\frac{x-9}{\sqrt x-3}=\frac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3.$$
+
+Do đó
+$$\lim_{x\to9}\frac{x-9}{\sqrt x-3}=\lim_{x\to9}\left(\sqrt x+3\right)=\sqrt9+3=6.$$
+
+Vậy $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}=6$.
+
+**Đáp số.** $6$.
 :::
 
 :::exercise Trắc nghiệm
@@ -214,7 +251,15 @@ D. $\infty$
 1. So sánh $4x^3$ và $2x^3$.
 
 ::solution
-$\dfrac42=2$: đáp án **B**.
+Khi $x\to\infty$ ta có $x\neq0$. Chia cả tử và mẫu cho $x^3$ (bậc cao nhất):
+$$\frac{4x^3+1}{2x^3-x}=\frac{4+\frac{1}{x^3}}{2-\frac{1}{x^2}}.$$
+
+Vì $\dfrac{1}{x^3}\to0$ và $\dfrac{1}{x^2}\to0$ khi $x\to\infty$ nên
+$$\lim_{x\to\infty}\frac{4x^3+1}{2x^3-x}=\frac{4+0}{2-0}=2.$$
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 ## Bài tập vận dụng
@@ -230,7 +275,20 @@ Tìm mọi tiệm cận đứng và điểm khuyết của đồ thị $y=\dfrac
 2. Xét nghiệm nào của mẫu còn lại sau khi giản ước.
 
 ::solution
-Với $x\ne\pm1$, $y=\dfrac{1}{x-1}$. Vậy $x=1$ là tiệm cận đứng, còn tại $x=-1$ đồ thị bị khuyết tại điểm $\left(-1; -\dfrac12\right)$.
+Điều kiện xác định: $x^2-1\neq0$, tức là $x\neq\pm1$.
+
+Phân tích mẫu số: $x^2-1=(x-1)(x+1)$. Với $x\neq\pm1$, ta có
+$$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
+
+Tại $x=1$: khi $x\to1^+$ thì $x-1\to0^+$ nên $y\to+\infty$; khi $x\to1^-$ thì $x-1\to0^-$ nên $y\to-\infty$. Do đó đường thẳng $x=1$ là tiệm cận đứng.
+
+Tại $x=-1$: giới hạn
+$$\lim_{x\to-1}y=\lim_{x\to-1}\frac{1}{x-1}=\frac{1}{-1-1}=-\frac12$$
+là một số hữu hạn, nhưng hàm số không xác định tại $x=-1$. Do đó đồ thị bị khuyết tại điểm $\left(-1; -\dfrac12\right)$.
+
+Vậy đồ thị có tiệm cận đứng là đường thẳng $x=1$, và có điểm khuyết tại $\left(-1; -\dfrac12\right)$.
+
+**Đáp số.** Tiệm cận đứng $x=1$; điểm khuyết $\left(-1; -\dfrac12\right)$.
 :::
 
 :::exercise Nghiệm theo IVT
@@ -244,7 +302,18 @@ Chứng minh phương trình $x^3+x-1=0$ có một nghiệm nằm giữa $0$ và
 2. Phát biểu định lí kèm điều kiện.
 
 ::solution
-$f$ là đa thức nên liên tục trên $[0; 1]$. $f(0)=-1<0$ và $f(1)=1>0$. Theo IVT tồn tại $c$ thuộc $(0; 1)$ sao cho $f(c)=0$. (Máy tính cho $c\approx0{,}682$.)
+Đặt $f(x)=x^3+x-1$. Vì $f$ là đa thức nên $f$ liên tục trên $[0; 1]$.
+
+Ta có
+$$f(0)=0^3+0-1=-1<0,\qquad f(1)=1^3+1-1=1>0.$$
+
+Như vậy $f(0)$ và $f(1)$ trái dấu. Theo định lí giá trị trung gian (IVT), tồn tại $c\in(0; 1)$ sao cho $f(c)=0$, tức là $c^3+c-1=0$.
+
+Máy tính cho $c\approx0{,}682$.
+
+Vậy phương trình $x^3+x-1=0$ có một nghiệm nằm giữa $0$ và $1$.
+
+**Đáp số.** Tồn tại $c\in(0; 1)$ sao cho $f(c)=0$.
 :::
 
 :::exercise Bước nhảy
@@ -257,7 +326,19 @@ $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ có tồn tại không? Giải thích b
 1. Tính cả hai giới hạn một bên.
 
 ::solution
-Khi $x>0$ biểu thức bằng $1$; khi $x<0$ biểu thức bằng $-1$. Hai giới hạn một bên là $1$ và $-1$, khác nhau, nên giới hạn không tồn tại: đồ thị có bước nhảy tại $0$.
+Hàm số $\dfrac{|x|}{x}$ xác định với $x\neq0$. Ta xét hai giới hạn một bên.
+
+Khi $x>0$ ta có $|x|=x$, nên $\dfrac{|x|}{x}=1$. Do đó
+$$\lim_{x\to0^+}\frac{|x|}{x}=1.$$
+
+Khi $x<0$ ta có $|x|=-x$, nên $\dfrac{|x|}{x}=-1$. Do đó
+$$\lim_{x\to0^-}\frac{|x|}{x}=-1.$$
+
+Hai giới hạn một bên là $1$ và $-1$, khác nhau. Một giới hạn tồn tại khi và chỉ khi hai giới hạn một bên tồn tại và bằng nhau, nên $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ không tồn tại: đồ thị có bước nhảy tại $x=0$.
+
+Vậy giới hạn $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ không tồn tại.
+
+**Đáp số.** Không tồn tại.
 :::
 
 :::exercise Thử thách
@@ -272,7 +353,21 @@ Tìm $a$ và $b$ để $f$ liên tục trên toàn bộ tập số thực.
 2. Tại $x=3$: $3a+b=9$.
 
 ::solution
-Trừ hai phương trình: $2a=8$, nên $a=4$ và $b=-3$. Kiểm tra: tại $x=1$ hai vế đều bằng $1$; tại $x=3$ đều bằng $9$.
+Trên mỗi khoảng $(-\infty; 1)$, $(1; 3)$ và $(3; +\infty)$, hàm số $f$ được cho bởi một đa thức nên liên tục. Do đó $f$ liên tục trên $\mathbb{R}$ khi và chỉ khi $f$ liên tục tại $x=1$ và tại $x=3$.
+
+Tại $x=1$: ta có $\displaystyle\lim_{x\to1^-}f(x)=1^2=1$, còn $f(1)=\displaystyle\lim_{x\to1^+}f(x)=a+b$. Điều kiện liên tục là
+$$a+b=1.\qquad(1)$$
+
+Tại $x=3$: ta có $f(3)=\displaystyle\lim_{x\to3^-}f(x)=3a+b$ và $\displaystyle\lim_{x\to3^+}f(x)=12-3=9$. Điều kiện liên tục là
+$$3a+b=9.\qquad(2)$$
+
+Trừ phương trình (2) cho phương trình (1), ta được $2a=8$, nên $a=4$. Thay vào (1): $b=1-4=-3$.
+
+Kiểm tra: tại $x=1$ hai vế đều bằng $1$ (vì $a+b=4-3=1$); tại $x=3$ hai vế đều bằng $9$ (vì $3a+b=12-3=9$).
+
+Vậy $a=4$ và $b=-3$.
+
+**Đáp số.** $a=4$, $b=-3$.
 :::
 
 :::quiz

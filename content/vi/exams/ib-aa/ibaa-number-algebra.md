@@ -136,9 +136,20 @@ Một cấp số cộng có số hạng đầu $7$ và công sai $4$.
 **Cần nhớ:** $u_n=7+4(n-1)$ và $S_n=\dfrac n2(u_1+u_n)$.
 
 ::solution
-(a) $7+4(n-1)=95$ cho $n-1=22$, nên $n=23$.
+Cấp số cộng có số hạng đầu $u_1=7$ và công sai $d=4$ nên số hạng tổng quát là
+$$u_n=u_1+(n-1)d=7+4(n-1).$$
 
-(b) $S_{23}=\dfrac{23}{2}(7+95)=23\cdot51=1173$.
+a) Cho $u_n=95$:
+$$7+4(n-1)=95\iff4(n-1)=88\iff n-1=22\iff n=23.$$
+
+Vậy $n=23$.
+
+b) Tổng $n$ số hạng đầu của cấp số cộng là $S_n=\dfrac n2\left(u_1+u_n\right)$. Với $n=23$, $u_1=7$, $u_{23}=95$:
+$$S_{23}=\frac{23}{2}(7+95)=\frac{23}{2}\cdot102=23\cdot51=1173.$$
+
+Vậy tổng $23$ số hạng đầu bằng $1173$.
+
+**Đáp số.** a) $n=23$; b) $S_{23}=1173$.
 :::
 
 :::exercise Cấp số nhân
@@ -148,7 +159,22 @@ Trong một cấp số nhân, $u_2=12$ và $u_5=96$. Tìm công bội, số hạ
 **Cần nhớ:** chia $u_1r^4=96$ cho $u_1r=12$.
 
 ::solution
-$r^3=8$, nên $r=2$ và $u_1=6$. $S_{10}=\dfrac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138$.
+Số hạng tổng quát của cấp số nhân là $u_n=u_1r^{n-1}$. Từ giả thiết:
+$$u_2=u_1r=12,\qquad u_5=u_1r^4=96.$$
+
+Chia vế với vế hai đẳng thức (với $u_1r=12\neq0$):
+$$\frac{u_1r^4}{u_1r}=\frac{96}{12}\iff r^3=8.$$
+
+Suy ra $r=2$ (vì $r$ là số thực).
+
+Từ $u_1r=12$, ta có $u_1=\dfrac{12}{2}=6$.
+
+Tổng $10$ số hạng đầu là $S_{10}=\dfrac{u_1\left(r^{10}-1\right)}{r-1}$, nên
+$$S_{10}=\frac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138.$$
+
+Vậy công bội là $r=2$, số hạng đầu là $u_1=6$ và $S_{10}=6138$.
+
+**Đáp số.** $r=2$; $u_1=6$; $S_{10}=6138$.
 :::
 
 :::exercise Phương trình logarit
@@ -162,7 +188,21 @@ Giải $\log_2(x+3)+\log_2(x-3)=4$. [5 marks]
 2. Kiểm tra nghiệm nào làm cả hai logarit xác định.
 
 ::solution
-$x^2=25$, nên $x=\pm5$. Loại $x=-5$ vì khi đó $x-3<0$. Nghiệm là $x=5$.
+Điều kiện xác định: $x+3>0$ và $x-3>0$, tức là $x>3$.
+
+Áp dụng tính chất $\log_ab+\log_ac=\log_a(bc)$, phương trình trở thành
+$$\log_2\left[(x+3)(x-3)\right]=4.$$
+
+Suy ra
+$$(x+3)(x-3)=2^4\iff x^2-9=16\iff x^2=25\iff x=\pm5.$$
+
+Đối chiếu điều kiện $x>3$: giá trị $x=5$ thoả mãn; giá trị $x=-5$ bị loại vì khi đó $x-3=-8<0$ (không thoả mãn điều kiện).
+
+Kiểm tra: $\log_2(5+3)+\log_2(5-3)=\log_28+\log_22=3+1=4$.
+
+Vậy phương trình có nghiệm duy nhất $x=5$.
+
+**Đáp số.** $x=5$.
 :::
 
 :::exercise Hệ số nhị thức
@@ -172,7 +212,17 @@ Tìm hệ số của $x^2$ trong khai triển $(1+3x)^6$. [3 marks]
 **Cần nhớ:** số hạng $\dbinom62(3x)^2$.
 
 ::solution
-$\dbinom62\cdot9x^2=15\cdot9x^2=135x^2$. Hệ số là $135$.
+Số hạng tổng quát trong khai triển $(1+3x)^6$ là
+$$C_6^k\cdot1^{6-k}\cdot(3x)^k=C_6^k\cdot3^kx^k.$$
+
+Số hạng chứa $x^2$ ứng với $k=2$:
+$$C_6^2\cdot3^2x^2=15\cdot9x^2=135x^2.$$
+
+Ở đây $C_6^2=\dfrac{6!}{2!\,4!}=\dfrac{6\cdot5}{2}=15$.
+
+Vậy hệ số của $x^2$ trong khai triển $(1+3x)^6$ là $135$.
+
+**Đáp số.** $135$.
 :::
 
 :::exercise Chứng minh
@@ -182,7 +232,14 @@ Chứng minh rằng $(2n+1)^2-(2n-1)^2$ là bội của $8$ với mọi số ngu
 **Cần nhớ:** khai triển, hoặc dùng $a^2-b^2=(a-b)(a+b)$.
 
 ::solution
-$(2n+1)^2-(2n-1)^2=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)=2\cdot4n=8n$, là bội của $8$ vì $n$ là số nguyên.
+Áp dụng hằng đẳng thức hiệu hai bình phương $a^2-b^2=(a-b)(a+b)$ với $a=2n+1$ và $b=2n-1$:
+$$\begin{aligned}(2n+1)^2-(2n-1)^2&=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)\\&=2\cdot4n\\&=8n.\end{aligned}$$
+
+Vì $n$ là số nguyên nên $8n$ là bội của $8$.
+
+Vậy $(2n+1)^2-(2n-1)^2$ là bội của $8$ với mọi số nguyên $n$.
+
+**Đáp số.** $(2n+1)^2-(2n-1)^2=8n$, là bội của $8$ với mọi số nguyên $n$.
 :::
 
 ## Bài tập vận dụng
@@ -194,7 +251,22 @@ Một thị trấn có $12.000$ dân, và dân số tăng $2{,}5\%$ mỗi năm. 
 **Cần nhớ:** giải $12.000\cdot(1{,}025)^n>20.000$ bằng logarit hoặc bảng giá trị của GDC.
 
 ::solution
-$1{,}025^n>\dfrac53$, nên $n>\dfrac{\ln(5/3)}{\ln1{,}025}\approx20{,}7$. Dân số lần đầu vượt $20.000$ sau $21$ năm. Kiểm tra: $12.000\cdot(1{,}025)^{20}\approx19.663$ và $12.000\cdot(1{,}025)^{21}\approx20.155$.
+Gọi $P_n$ là dân số của thị trấn sau $n$ năm. Mỗi năm dân số tăng $2{,}5\%$, tức là nhân với $1{,}025$, nên
+$$P_n=12.000\cdot(1{,}025)^n.$$
+
+Dân số vượt $20.000$ khi
+$$12.000\cdot(1{,}025)^n>20.000\iff(1{,}025)^n>\frac{20.000}{12.000}=\frac53.$$
+
+Lấy lôgarit tự nhiên hai vế. Vì $\ln1{,}025>0$ nên khi chia hai vế cho $\ln1{,}025$, chiều bất đẳng thức được giữ nguyên:
+$$n\ln1{,}025>\ln\frac53\iff n>\frac{\ln(5/3)}{\ln1{,}025}\approx20{,}7.$$
+
+Vì $n$ là số năm tròn nên số nguyên $n$ nhỏ nhất thoả mãn là $n=21$.
+
+Kiểm tra: $12.000\cdot(1{,}025)^{20}\approx19.663<20.000$ và $12.000\cdot(1{,}025)^{21}\approx20.155>20.000$.
+
+Vậy dân số lần đầu vượt $20.000$ sau $21$ năm.
+
+**Đáp số.** $21$ năm.
 :::
 
 :::exercise Thang lương
@@ -204,7 +276,14 @@ Lương khởi điểm của một giáo viên là $32.000$ đô la mỗi năm, 
 **Cần nhớ:** chuỗi cấp số cộng với $u_1=32.000$ và $d=1500$.
 
 ::solution
-$S_{10}=\dfrac{10}{2}\big(2\cdot32.000+9\cdot1500\big)=5\cdot77.500=387.500$ đô la.
+Lương mỗi năm lập thành một cấp số cộng có số hạng đầu $u_1=32.000$ (đô la) và công sai $d=1500$ (đô la). Tổng số tiền nhận được trong $10$ năm đầu là tổng $10$ số hạng đầu.
+
+Áp dụng công thức $S_n=\dfrac n2\left(2u_1+(n-1)d\right)$ với $n=10$:
+$$S_{10}=\frac{10}{2}\big(2\cdot32.000+9\cdot1500\big)=5\big(64.000+13.500\big)=5\cdot77.500=387.500.$$
+
+Vậy tổng số tiền nhận được trong $10$ năm đầu là $387.500$ đô la.
+
+**Đáp số.** $387.500$ đô la.
 :::
 
 :::exercise Quả bóng nảy
@@ -214,7 +293,19 @@ Một quả bóng được thả từ độ cao $10$ mét. Sau mỗi lần nảy
 **Cần nhớ:** bóng rơi $10$ mét, rồi mỗi lần nảy lên lại rơi xuống một đoạn bằng thế; các lần nảy lên tạo thành chuỗi cấp số nhân với số hạng đầu $7$ và công bội $0{,}7$.
 
 ::solution
-Tổng $=10+2\cdot\dfrac{7}{1-0{,}7}=10+\dfrac{14}{0{,}3}\approx56{,}7$ mét.
+Quả bóng đi xuống $10$ m lần đầu. Sau đó, mỗi lần nảy lên tới độ cao bằng $70\%$ độ cao trước đó và rơi xuống đúng độ cao ấy. Các độ cao sau mỗi lần nảy là
+$$7,\quad7\cdot0{,}7,\quad7\cdot0{,}7^2,\ \dots$$
+lập thành cấp số nhân với số hạng đầu $7$ và công bội $0{,}7$.
+
+Mỗi độ cao này được đi hai lần (lên rồi xuống), nên tổng quãng đường là
+$$10+2\left(7+7\cdot0{,}7+7\cdot0{,}7^2+\cdots\right).$$
+
+Vì $|0{,}7|<1$ nên tổng vô hạn tồn tại và bằng $\dfrac{u_1}{1-r}=\dfrac{7}{1-0{,}7}$. Do đó
+$$\text{Tổng quãng đường}=10+2\cdot\frac{7}{1-0{,}7}=10+\frac{14}{0{,}3}\approx10+46{,}7=56{,}7.$$
+
+Vậy tổng quãng đường theo phương thẳng đứng mà bóng đi được cho đến khi dừng là khoảng $56{,}7$ mét.
+
+**Đáp số.** $\approx56{,}7$ mét.
 :::
 
 :::exercise Thử thách
@@ -226,9 +317,21 @@ Chuỗi $1+2x+4x^2+8x^3+\dots$ là chuỗi cấp số nhân.
 **Cần nhớ:** công bội là $2x$.
 
 ::solution
-(a) $|2x|<1$, tức $-\dfrac12<x<\dfrac12$.
+Chuỗi $1+2x+4x^2+8x^3+\cdots$ là chuỗi cấp số nhân có số hạng đầu $u_1=1$ và công bội $r=2x$.
 
-(b) $\dfrac{1}{1-2x}=4$, nên $1-2x=\dfrac14$ và $x=\dfrac38$, thuộc khoảng ở câu (a).
+a) Tổng vô hạn của chuỗi cấp số nhân tồn tại khi và chỉ khi $|r|<1$. Ở đây
+$$|2x|<1\iff-1<2x<1\iff-\frac12<x<\frac12.$$
+
+Vậy tổng vô hạn tồn tại khi $-\dfrac12<x<\dfrac12$.
+
+b) Khi tổng vô hạn tồn tại, tổng đó là $S_\infty=\dfrac{u_1}{1-r}=\dfrac{1}{1-2x}$. Cho $S_\infty=4$:
+$$\frac{1}{1-2x}=4\iff1-2x=\frac14\iff2x=\frac34\iff x=\frac38.$$
+
+Đối chiếu với câu a): $-\dfrac12<\dfrac38<\dfrac12$ nên giá trị $x=\dfrac38$ thoả mãn điều kiện.
+
+Vậy $x=\dfrac38$.
+
+**Đáp số.** a) $-\dfrac12<x<\dfrac12$; b) $x=\dfrac38$.
 :::
 
 :::quiz

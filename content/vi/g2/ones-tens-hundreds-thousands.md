@@ -130,7 +130,15 @@ c) $10$ trăm $=\square$ nghìn.
 2. Điền từng chỗ trống.
 
 ::solution
-Mười đơn vị là một chục, mười chục là một trăm, mười trăm là một nghìn.
+Cứ mười đơn vị thì gộp thành một chục, mười chục gộp thành một trăm, mười trăm gộp thành một nghìn.
+
+a) $10$ đơn vị gộp lại được $1$ chục, nên $10$ đơn vị $=1$ chục.
+
+b) $10$ chục gộp lại được $1$ trăm, nên $10$ chục $=1$ trăm.
+
+c) $10$ trăm gộp lại được $1$ nghìn, nên $10$ trăm $=1$ nghìn.
+
+Vậy ba số cần điền đều là $1$.
 
 **Đáp số.** a) $1$; b) $1$; c) $1$.
 :::
@@ -152,7 +160,15 @@ c) $1$ nghìn $=\square$ trăm.
 2. Điền từng chỗ trống.
 
 ::solution
-Một chục có mười đơn vị, một trăm có mười chục, một nghìn có mười trăm.
+Ngược lại với bài trước: một chục có mười đơn vị, một trăm có mười chục, một nghìn có mười trăm.
+
+a) $1$ chục có $10$ đơn vị, nên $1$ chục $=10$ đơn vị.
+
+b) $1$ trăm có $10$ chục, nên $1$ trăm $=10$ chục.
+
+c) $1$ nghìn có $10$ trăm, nên $1$ nghìn $=10$ trăm.
+
+Vậy ba số cần điền đều là $10$.
 
 **Đáp số.** a) $10$; b) $10$; c) $10$.
 :::
@@ -168,7 +184,14 @@ Em hãy nhớ lại bài trước. Một lon sữa là khối trụ, có $2$ m�
 2. Đổi số vừa tìm ra chục.
 
 ::solution
-Số mặt phẳng của $10$ lon là $10\times2=20$. Mà $20=10+10$, tức là $2$ chục.
+Bài giải
+
+Mỗi lon sữa có $2$ mặt phẳng, có $10$ lon như vậy nên số $2$ được lấy $10$ lần. Số mặt phẳng của $10$ lon sữa là:
+$$10\times2=20\ \text{(mặt phẳng)}$$
+
+Ta có $20=10+10$, mà $10$ là $1$ chục nên $20$ là $2$ chục.
+
+Vậy $10$ lon sữa có $20$ mặt phẳng, đó là $2$ chục.
 
 **Đáp số.** $20$ mặt phẳng, là $2$ chục.
 :::
@@ -190,7 +213,19 @@ c) $5$ chục $=\square$ đơn vị.
 2. Đếm thêm mười một: $10, 20, 30, \dots$
 
 ::solution
-$2$ chục: $10+10=20$. $3$ chục: $10+10+10=30$. $5$ chục: đếm thêm mười năm lần được $50$.
+Một chục là $10$ đơn vị. Muốn đổi số chục ra đơn vị, ta đếm thêm mười theo số chục.
+
+a) $2$ chục là hai lần mười:
+$$10+10=20.$$
+Vậy $2$ chục $=20$ đơn vị.
+
+b) $3$ chục là ba lần mười:
+$$10+10+10=30.$$
+Vậy $3$ chục $=30$ đơn vị.
+
+c) $5$ chục: đếm thêm mười năm lần được $10, 20, 30, 40, 50$. Vậy $5$ chục $=50$ đơn vị.
+
+Vậy các số cần điền lần lượt là $20$, $30$ và $50$.
 
 **Đáp số.** a) $20$; b) $30$; c) $50$.
 :::
@@ -206,7 +241,13 @@ Em muốn đếm $100$ viên bi nhanh. Em gói mỗi túi $10$ viên. Em cần g
 2. $100$ viên là mấy chục?
 
 ::solution
-Mỗi túi là $1$ chục. $100$ là $1$ trăm, mà $1$ trăm có $10$ chục. Vậy cần $10$ túi.
+Mỗi túi có $10$ viên bi, tức là $1$ chục viên bi. Số bi cần đếm là $100$ viên, tức là $1$ trăm.
+
+Mà $1$ trăm có $10$ chục (vì $10$ chục gộp lại được $1$ trăm). Như vậy $100$ viên bi gồm $10$ chục viên bi, và mỗi chục viên bi được gói vào một túi.
+
+Thử lại: $10$ túi, mỗi túi $10$ viên thì có $10\times10=100$ (viên bi), đúng.
+
+Vậy em cần gói $10$ túi, vì $1$ trăm có $10$ chục.
 
 **Đáp số.** $10$ túi.
 :::
@@ -222,7 +263,11 @@ Nam nói: "$1$ trăm bằng $10$ đơn vị." Lời nói của Nam sai ở đâu
 2. $1$ trăm gồm mấy chục?
 
 ::solution
-$10$ đơn vị chỉ là $1$ chục, chưa đủ $1$ trăm. Muốn có $1$ trăm cần $10$ chục.
+Nam nói: "$1$ trăm bằng $10$ đơn vị."
+
+Ta có $10$ đơn vị gộp lại chỉ được $1$ chục, chưa đủ $1$ trăm. Muốn có $1$ trăm thì cần $10$ chục, tức là $100$ đơn vị.
+
+Vậy Nam sai ở chỗ nhầm $10$ đơn vị (là $1$ chục) với $1$ trăm; nói đúng là $1$ trăm bằng $10$ chục.
 
 **Đáp số.** $1$ trăm bằng $10$ chục.
 :::
@@ -238,7 +283,15 @@ Một thùng có $100$ quyển vở. Cửa hàng có $10$ thùng như vậy. H�
 2. Đổi $10$ trăm ra nghìn rồi ghi đáp số có đơn vị.
 
 ::solution
-$10$ thùng là $10$ trăm quyển vở. Mà $10$ trăm là $1$ nghìn.
+Bài giải
+
+Mỗi thùng có $100$ quyển vở, tức là $1$ trăm quyển vở. Có $10$ thùng như vậy nên có $10$ trăm quyển vở.
+
+Mà $10$ trăm gộp lại được $1$ nghìn.
+
+Thử lại: số quyển vở là $100\times10=1000$ (quyển), và $1000$ là $1$ nghìn, đúng.
+
+Vậy cửa hàng có tất cả $1$ nghìn quyển vở.
 
 **Đáp số.** $1$ nghìn quyển vở.
 :::

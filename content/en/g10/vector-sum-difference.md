@@ -271,9 +271,18 @@ Simplify: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$;
 2. For a difference, look at two vectors with a common tail and join their heads.
 
 ::solution
-(a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ} = \overrightarrow{MP} + \overrightarrow{PQ} = \overrightarrow{MQ}$.
-(b) Both vectors have tail $A$: $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$.
-(c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD} = \overrightarrow{AC} - \overrightarrow{AD} = \overrightarrow{DC}$.
+(a) Using the triangle rule $\overrightarrow{MN}+\overrightarrow{NP}=\overrightarrow{MP}$, we have
+$$\overrightarrow{MN}+\overrightarrow{NP}+\overrightarrow{PQ}=\overrightarrow{MP}+\overrightarrow{PQ}=\overrightarrow{MQ}.$$
+So $\overrightarrow{MN}+\overrightarrow{NP}+\overrightarrow{PQ}=\overrightarrow{MQ}$.
+
+(b) The vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ have the same tail $A$. Subtracting a vector is adding its opposite, so
+$$\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{CA}=\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}.$$
+So $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
+
+(c) By the triangle rule, $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$. Hence
+$$\overrightarrow{AB}+\overrightarrow{BC}-\overrightarrow{AD}=\overrightarrow{AC}-\overrightarrow{AD}.$$
+The vectors $\overrightarrow{AC}$ and $\overrightarrow{AD}$ have the same tail $A$, so by the difference rule, $\overrightarrow{AC}-\overrightarrow{AD}=\overrightarrow{DC}$.
+So $\overrightarrow{AB}+\overrightarrow{BC}-\overrightarrow{AD}=\overrightarrow{DC}$.
 
 **Answer.** (a) $\overrightarrow{MQ}$; (b) $\overrightarrow{CB}$; (c) $\overrightarrow{DC}$.
 :::
@@ -289,7 +298,19 @@ $ABCD$ is a square of side $4$. Find $|\overrightarrow{AB} + \overrightarrow{AD}
 2. Find its length by Pythagoras' theorem.
 
 ::solution
-$\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}$ and $\overrightarrow{AB} - \overrightarrow{AD} = \overrightarrow{DB}$, both diagonals of length $\sqrt{4^2+4^2}=4\sqrt2$. Since $\overrightarrow{CD}=\overrightarrow{BA}$, $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AB} + \overrightarrow{BA}=\vec{0}$.
+The square $ABCD$ of side $4$ has $AB=AD=4$ and $\widehat{DAB}=90^\circ$.
+
+By the parallelogram rule (for the parallelogram $ABCD$), $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. In triangle $ABC$, right-angled at $B$:
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{4^2+4^2}=4\sqrt2.$$
+Hence $|\overrightarrow{AB}+\overrightarrow{AD}|=|\overrightarrow{AC}|=4\sqrt2$.
+
+The vectors $\overrightarrow{AB}$ and $\overrightarrow{AD}$ have the same tail $A$, so by the difference rule, $\overrightarrow{AB}-\overrightarrow{AD}=\overrightarrow{DB}$. The two diagonals of a square are equal, so $DB=AC=4\sqrt2$. Hence $|\overrightarrow{AB}-\overrightarrow{AD}|=|\overrightarrow{DB}|=4\sqrt2$.
+
+Since $ABCD$ is a parallelogram, $\overrightarrow{AB}=\overrightarrow{DC}$, so $\overrightarrow{CD}=-\overrightarrow{AB}=\overrightarrow{BA}$. Therefore
+$$\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AB}+\overrightarrow{BA}=\vec{0},$$
+and $|\overrightarrow{AB}+\overrightarrow{CD}|=0$.
+
+So $|\overrightarrow{AB}+\overrightarrow{AD}|=4\sqrt2$, $|\overrightarrow{AB}-\overrightarrow{AD}|=4\sqrt2$ and $|\overrightarrow{AB}+\overrightarrow{CD}|=0$.
 
 **Answer.** $4\sqrt2$; $4\sqrt2$; $0$.
 :::
@@ -305,7 +326,18 @@ $ABCD$ is a parallelogram with centre $O$. Prove that $\overrightarrow{OA} + \ov
 2. Write two midpoint identities and add them.
 
 ::solution
-$O$ is the midpoint of $AC$, so $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$; $O$ is the midpoint of $BD$, so $\overrightarrow{OB} + \overrightarrow{OD} = \vec{0}$. Adding the two gives $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
+Since $ABCD$ is a parallelogram with centre $O$, the point $O$ is the intersection of the two diagonals, and it is the midpoint of both $AC$ and $BD$.
+
+Since $O$ is the midpoint of $AC$, we have $OA=OC$ and the vectors $\overrightarrow{OA}$, $\overrightarrow{OC}$ have opposite directions. Hence $\overrightarrow{OA}$ and $\overrightarrow{OC}$ are opposite vectors, that is,
+$$\overrightarrow{OA}+\overrightarrow{OC}=\vec{0}.$$
+
+Similarly, $O$ is the midpoint of $BD$, so $\overrightarrow{OB}+\overrightarrow{OD}=\vec{0}$.
+
+Adding the two equalities, we obtain
+$$\left(\overrightarrow{OA}+\overrightarrow{OC}\right)+\left(\overrightarrow{OB}+\overrightarrow{OD}\right)=\vec{0}+\vec{0},$$
+that is, $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0}$.
+
+So $\overrightarrow{OA}+\overrightarrow{OC}=\vec{0}$ and $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0}$.
 
 **Answer.** Both identities hold (proved).
 :::
@@ -321,7 +353,16 @@ Prove that for any four points $A$, $B$, $C$, $D$: $\overrightarrow{AB} + \overr
 2. Group the two opposite vectors.
 
 ::solution
-$$\overrightarrow{AB} + \overrightarrow{CD} = (\overrightarrow{AD} + \overrightarrow{DB}) + (\overrightarrow{CB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB} + (\overrightarrow{DB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB}.$$
+We transform the left-hand side. Apply the triangle rule to $\overrightarrow{AB}$ and $\overrightarrow{CD}$, inserting the point $D$ and the point $B$:
+$$\overrightarrow{AB}=\overrightarrow{AD}+\overrightarrow{DB},\qquad\overrightarrow{CD}=\overrightarrow{CB}+\overrightarrow{BD}.$$
+
+Therefore
+$$\begin{aligned}\overrightarrow{AB}+\overrightarrow{CD}&=\left(\overrightarrow{AD}+\overrightarrow{DB}\right)+\left(\overrightarrow{CB}+\overrightarrow{BD}\right)\\&=\overrightarrow{AD}+\overrightarrow{CB}+\left(\overrightarrow{DB}+\overrightarrow{BD}\right).\end{aligned}$$
+
+Since $\overrightarrow{DB}$ and $\overrightarrow{BD}$ are opposite vectors, $\overrightarrow{DB}+\overrightarrow{BD}=\vec{0}$. It follows that
+$$\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AD}+\overrightarrow{CB}.$$
+
+So for any four points $A$, $B$, $C$, $D$, we have $\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AD}+\overrightarrow{CB}$.
 
 **Answer.** The identity holds (proved).
 :::
@@ -340,9 +381,19 @@ b) By how many degrees does the boat's true path differ from the direction it po
 2. The angle $\alpha$ lies between the boat's heading and the diagonal, with $\tan\alpha=\dfrac{8}{6}$.
 
 ::solution
-a) $|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10$ (km/h).
+Let $\vec{v_1}$ be the velocity of the boat relative to the water (along the direction it points), $|\vec{v_1}|=6$ km/h; let $\vec{v_2}$ be the velocity of the current relative to the bank, $|\vec{v_2}|=8$ km/h. By hypothesis, $\vec{v_1}\perp\vec{v_2}$.
 
-b) The side adjacent to the angle is $6$ (the heading) and the opposite side is $8$ (the current): $\tan\alpha=\dfrac86\approx1.333$, so $\alpha\approx53^\circ$.
+The velocity of the boat relative to the bank is $\vec{v}=\vec{v_1}+\vec{v_2}$. Since $\vec{v_1}$ and $\vec{v_2}$ are perpendicular, by the parallelogram rule $\vec{v}$ is the diagonal of the rectangle with adjacent sides $6$ and $8$.
+
+a) By Pythagoras' theorem,
+$$|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(km/h)}.$$
+So the speed of the boat relative to the bank is $10$ km/h.
+
+b) Let $\alpha$ be the angle between the boat's true path (the direction of $\vec{v}$) and the direction it points (the direction of $\vec{v_1}$). In the right triangle formed by $\vec{v_1}$, $\vec{v_2}$, $\vec{v}$, the side adjacent to the angle $\alpha$ is $6$ (the heading) and the opposite side is $8$ (the current), so
+$$\tan\alpha=\frac86\approx1.333.$$
+Hence $\alpha\approx53^\circ$.
+
+So the boat's true path differs by about $53^\circ$ from the direction it points.
 
 **Answer.** a) $10$ km/h; b) about $53^\circ$.
 :::
@@ -358,7 +409,17 @@ Two forces, each of magnitude $20$ N, act on the same point and make an angle of
 2. In triangle $OAC$, find the angle at $A$ and recognise the triangle.
 
 ::solution
-Draw $\overrightarrow{OA}$, $\overrightarrow{OB}$ for the two forces and complete the rhombus $OACB$. The resultant is $\overrightarrow{OC}$. In the rhombus, $\angle OAC=180^\circ-120^\circ=60^\circ$ and $AO=AC=20$, so triangle $OAC$ is equilateral and $OC=20$.
+Let $\overrightarrow{OA}$ and $\overrightarrow{OB}$ represent the two forces; then $OA=OB=20$ and $\widehat{AOB}=120^\circ$.
+
+Complete the parallelogram $OACB$. Since $OA=OB$, $OACB$ is a rhombus, so $AC=CB=OA=20$. By the parallelogram rule, the resultant is
+$$\overrightarrow{OA}+\overrightarrow{OB}=\overrightarrow{OC}.$$
+
+In the parallelogram $OACB$, the adjacent angles $\widehat{AOB}$ and $\widehat{OAC}$ are supplementary, so
+$$\widehat{OAC}=180^\circ-120^\circ=60^\circ.$$
+
+Triangle $OAC$ has $AO=AC=20$ and $\widehat{OAC}=60^\circ$, so it is equilateral. Hence $OC=20$.
+
+So the resultant has magnitude $20$ N.
 
 **Answer.** $20$ N.
 :::
@@ -379,13 +440,19 @@ d) $|\overrightarrow{AB} + \overrightarrow{AC}| = 6\sqrt3$.
 2. For d), complete the rhombus $ABDC$; the diagonal $AD$ is twice $AM$.
 
 ::solution
-a) **False.** $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$, which points the opposite way to $\overrightarrow{BC}$.
+Triangle $ABC$ is equilateral with side $6$, so $AB=AC=BC=6$.
 
-b) **True.** $|\overrightarrow{CB}|=BC=6$.
+a) **False.** The vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ have the same tail $A$, so by the difference rule, $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$. The vector $\overrightarrow{CB}$ is the opposite of $\overrightarrow{BC}$ (same length, opposite direction), so $\overrightarrow{CB}\neq\overrightarrow{BC}$.
 
-c) **True.** $M$ is the midpoint of $BC$.
+b) **True.** We have $\left|\overrightarrow{AB}-\overrightarrow{AC}\right|=\left|\overrightarrow{CB}\right|=CB=6$.
 
-d) **True.** With the rhombus $ABDC$, $\overrightarrow{AB} + \overrightarrow{AC}=\overrightarrow{AD}$ and $AD=2AM=2\cdot\dfrac{6\sqrt3}{2}=6\sqrt3$.
+c) **True.** $M$ is the midpoint of $BC$, so $\overrightarrow{MB}$ and $\overrightarrow{MC}$ are opposite vectors, hence $\overrightarrow{MB}+\overrightarrow{MC}=\vec{0}$.
+
+d) **True.** Complete the parallelogram $ABDC$; since $AB=AC$ it is a rhombus. By the parallelogram rule, $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}$. The diagonals of a rhombus bisect each other, so $M$ is the midpoint of $AD$, hence $AD=2AM$. In an equilateral triangle of side $6$, the median $AM$ is also the altitude, so $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. It follows that
+$$AD=2AM=2\cdot\frac{6\sqrt3}{2}=6\sqrt3,$$
+that is, $\left|\overrightarrow{AB}+\overrightarrow{AC}\right|=6\sqrt3$.
+
+So statements b), c), d) are true; statement a) is false.
 
 **Answer.** a) False; b) True; c) True; d) True.
 :::
@@ -436,11 +503,14 @@ $$\overrightarrow{AD} + \overrightarrow{BE} + \overrightarrow{CF} = \overrightar
 2. Simplify the three differences with the triangle rule.
 
 ::solution
-$$\begin{aligned}
-&(\overrightarrow{AD}-\overrightarrow{AE}) + (\overrightarrow{BE}-\overrightarrow{BF}) + (\overrightarrow{CF}-\overrightarrow{CD})\\
-&= \overrightarrow{ED} + \overrightarrow{FE} + \overrightarrow{DF} = \overrightarrow{FE} + \overrightarrow{ED} + \overrightarrow{DF} = \overrightarrow{FF}=\vec{0}.
-\end{aligned}$$
+To show that the two sides are equal, we show that their difference is $\vec{0}$. Grouping vectors with the same tail and using the difference rule ($\overrightarrow{AD}-\overrightarrow{AE}=\overrightarrow{ED}$, $\overrightarrow{BE}-\overrightarrow{BF}=\overrightarrow{FE}$, $\overrightarrow{CF}-\overrightarrow{CD}=\overrightarrow{DF}$), we have
+$$\begin{aligned}&\left(\overrightarrow{AD}+\overrightarrow{BE}+\overrightarrow{CF}\right)-\left(\overrightarrow{AE}+\overrightarrow{BF}+\overrightarrow{CD}\right)\\&=\left(\overrightarrow{AD}-\overrightarrow{AE}\right)+\left(\overrightarrow{BE}-\overrightarrow{BF}\right)+\left(\overrightarrow{CF}-\overrightarrow{CD}\right)\\&=\overrightarrow{ED}+\overrightarrow{FE}+\overrightarrow{DF}\\&=\overrightarrow{FE}+\overrightarrow{ED}+\overrightarrow{DF}\\&=\overrightarrow{FF}=\vec{0}.\end{aligned}$$
+
+In the fourth line we reorder the terms (vector addition is commutative), and then apply the triangle rule twice: $\overrightarrow{FE}+\overrightarrow{ED}=\overrightarrow{FD}$ and $\overrightarrow{FD}+\overrightarrow{DF}=\overrightarrow{FF}=\vec{0}$.
+
 The difference of the two sides is $\vec{0}$, so the two sides are equal.
+
+So for any six points $A, B, C, D, E, F$, $\overrightarrow{AD}+\overrightarrow{BE}+\overrightarrow{CF}=\overrightarrow{AE}+\overrightarrow{BF}+\overrightarrow{CD}$.
 
 **Answer.** The identity holds (proved).
 :::

@@ -170,9 +170,17 @@ b) Một tờ $10\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,
 2. Cộng lại rồi viết thêm "nghìn đồng".
 
 ::solution
-a) $5+2=7$ nghìn đồng, tức là $7\,000$ đồng.
+Bài giải
 
-b) $10+2+1=13$ nghìn đồng, tức là $13\,000$ đồng.
+a) Nhóm a có một tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Ta cộng số nghìn đồng của các tờ tiền:
+$$5+2=7\ \text{(nghìn đồng)}$$
+$7$ nghìn đồng là $7\,000$ đồng.
+
+b) Nhóm b có một tờ $10\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Ta có:
+$$10+2+1=13\ \text{(nghìn đồng)}$$
+$13$ nghìn đồng là $13\,000$ đồng.
+
+Vậy nhóm a có $7\,000$ đồng, nhóm b có $13\,000$ đồng.
 
 **Đáp số.** a) $7\,000$ đồng; b) $13\,000$ đồng.
 :::
@@ -190,9 +198,16 @@ b) Một cuốn truyện giá $15\,000$ đồng và một cây bút chì giá $3
 2. Câu b): $15\,000+3\,000$.
 
 ::solution
-a) $20+20+10=50$ nghìn đồng, tức là $50\,000$ đồng.
+Bài giải
 
-b) $15\,000+3\,000=18\,000$ (đồng).
+a) Em có hai tờ $20\,000$ đồng và một tờ $10\,000$ đồng. Số tiền em có là:
+$$20+20+10=50\ \text{(nghìn đồng)}$$
+$50$ nghìn đồng là $50\,000$ đồng.
+
+b) Số tiền phải trả để mua cả cuốn truyện và cây bút chì là:
+$$15\,000+3\,000=18\,000\ \text{(đồng)}$$
+
+Vậy em có $50\,000$ đồng và mua cả hai thứ phải trả $18\,000$ đồng.
 
 **Đáp số.** a) $50\,000$ đồng; b) $18\,000$ đồng.
 :::
@@ -212,9 +227,15 @@ b) Nam đi mua sách vào tháng $5$. Tháng $5$ có bao nhiêu ngày?
 2. Câu b): xem tháng $5$ thuộc nhóm tháng nào.
 
 ::solution
-a) $15+10=25$, nên Nam mua xong lúc $8$ giờ $25$ phút.
+Bài giải
 
-b) Tháng $5$ nằm trong các tháng có $31$ ngày.
+a) Nam mua xong sau $10$ phút kể từ lúc $8$ giờ $15$ phút, nên ta cộng số phút:
+$$15+10=25\ \text{(phút)}$$
+Do đó Nam mua xong lúc $8$ giờ $25$ phút.
+
+b) Các tháng $1$, $3$, $5$, $7$, $8$, $10$, $12$ có $31$ ngày. Tháng $5$ là một trong các tháng đó nên tháng $5$ có $31$ ngày.
+
+Vậy Nam mua xong lúc $8$ giờ $25$ phút và tháng $5$ có $31$ ngày.
 
 **Đáp số.** a) $8$ giờ $25$ phút; b) $31$ ngày.
 :::
@@ -233,11 +254,17 @@ b) Bố đưa $20\,000$ đồng, được trả lại $6\,000$ đồng. Bố đ�
 3. Thử lại bằng phép cộng.
 
 ::solution
-a) $50\,000-28\,000=22\,000$ (đồng).
+Bài giải
 
-b) $20\,000-6\,000=14\,000$ (đồng).
+a) Muốn biết người bán phải trả lại bao nhiêu tiền, ta lấy số tiền mẹ đưa trừ đi số tiền mua đồ:
+$$50\,000-28\,000=22\,000\ \text{(đồng)}$$
 
-**Kiểm tra.** Câu a): $28\,000+22\,000=50\,000$. Câu b): $14\,000+6\,000=20\,000$.
+b) Muốn biết bố đã mua đồ hết bao nhiêu tiền, ta lấy số tiền bố đưa trừ đi số tiền được trả lại:
+$$20\,000-6\,000=14\,000\ \text{(đồng)}$$
+
+Kiểm tra: câu a) $28\,000+22\,000=50\,000$; câu b) $14\,000+6\,000=20\,000$. Cả hai đều đúng.
+
+Vậy người bán phải trả lại mẹ $22\,000$ đồng và bố đã mua đồ hết $14\,000$ đồng.
 
 **Đáp số.** a) $22\,000$ đồng; b) $14\,000$ đồng.
 :::
@@ -257,9 +284,15 @@ b) Mai có $35\,000$ đồng, mua một quyển sách hết $28\,000$ đồng. M
 2. Chọn phép tính rồi tính.
 
 ::solution
-a) Dì cho thêm tiền nên số tiền tăng lên, ta làm phép cộng: $25\,000+10\,000=35\,000$ (đồng).
+Bài giải
 
-b) Mai trả đi một phần tiền nên số tiền giảm xuống, ta làm phép trừ: $35\,000-28\,000=7\,000$ (đồng).
+a) Dì cho thêm tiền nên số tiền của Mai tăng lên, vì vậy ta làm phép cộng. Số tiền Mai có tất cả là:
+$$25\,000+10\,000=35\,000\ \text{(đồng)}$$
+
+b) Mai mua sách là trả đi một phần tiền nên số tiền giảm xuống, vì vậy ta làm phép trừ. Số tiền Mai còn lại là:
+$$35\,000-28\,000=7\,000\ \text{(đồng)}$$
+
+Vậy Mai có tất cả $35\,000$ đồng ở câu a), và còn lại $7\,000$ đồng ở câu b).
 
 **Đáp số.** a) $35\,000$ đồng; b) $7\,000$ đồng.
 :::
@@ -279,9 +312,15 @@ b) Tú: "Tú đưa $50\,000$ đồng, mua hàng hết $31\,000$ đồng. Tiền 
 2. Câu b): tiền trả lại có thể nhiều hơn tiền đưa không?
 
 ::solution
-a) Hà mới cộng một tờ $10\,000$ đồng, bỏ sót một tờ. Làm đúng: $10\,000+10\,000+5\,000=25\,000$ (đồng).
+Bài giải
 
-b) Tú cộng thay vì trừ. Tiền trả lại không thể nhiều hơn tiền đưa. Làm đúng: $50\,000-31\,000=19\,000$ (đồng).
+a) Hà có hai tờ $10\,000$ đồng và một tờ $5\,000$ đồng, nhưng Hà chỉ cộng một tờ $10\,000$ đồng, bỏ sót một tờ. Phải cộng cả ba tờ tiền:
+$$10\,000+10\,000+5\,000=25\,000\ \text{(đồng)}$$
+
+b) Tú đưa tiền rồi được trả lại, nên phải làm phép trừ, nhưng Tú lại làm phép cộng. Tiền trả lại không thể nhiều hơn tiền đưa ($81\,000>50\,000$), nên kết quả của Tú vô lí. Làm đúng là:
+$$50\,000-31\,000=19\,000\ \text{(đồng)}$$
+
+Vậy Hà có $25\,000$ đồng và tiền trả lại của Tú là $19\,000$ đồng.
 
 **Đáp số.** a) $25\,000$ đồng; b) $19\,000$ đồng.
 :::
@@ -310,11 +349,17 @@ b) Người bán trả lại An bao nhiêu tiền?
 3. Thử lại bằng phép cộng.
 
 ::solution
-a) Tiền hàng: $12\,000+8\,000=20\,000$ (đồng).
+Bài giải
 
-b) Tiền trả lại: $50\,000-20\,000=30\,000$ (đồng).
+a) An mua một cái bánh mì giá $12\,000$ đồng và một hộp sữa giá $8\,000$ đồng. Tiền hàng An phải trả là:
+$$12\,000+8\,000=20\,000\ \text{(đồng)}$$
 
-**Kiểm tra.** $20\,000+30\,000=50\,000$. Khớp.
+b) An đưa $50\,000$ đồng, nên số tiền người bán trả lại là:
+$$50\,000-20\,000=30\,000\ \text{(đồng)}$$
+
+Kiểm tra: $20\,000+30\,000=50\,000$. Khớp với số tiền An đưa.
+
+Vậy An phải trả $20\,000$ đồng tiền hàng và người bán trả lại An $30\,000$ đồng.
 
 **Đáp số.** a) $20\,000$ đồng; b) $30\,000$ đồng.
 :::
@@ -337,11 +382,21 @@ c) Mẹ cho Hùng thêm một tờ $20\,000$ đồng. Bây giờ Hùng có đủ
 3. Câu c): cộng thêm $20\,000$ rồi so sánh với $45\,000$.
 
 ::solution
-a) $20+5+2+2+2=31$ nghìn đồng, tức là $31\,000$ đồng.
+Bài giải
 
-b) $45\,000-31\,000=14\,000$ (đồng).
+a) Hùng có một tờ $20\,000$ đồng, một tờ $5\,000$ đồng và ba tờ $2\,000$ đồng. Ta cộng số nghìn đồng:
+$$20+5+2+2+2=31\ \text{(nghìn đồng)}$$
+$31$ nghìn đồng là $31\,000$ đồng.
 
-c) Sau khi mẹ cho thêm, Hùng có $31\,000+20\,000=51\,000$ (đồng). Vì $51\,000>45\,000$ nên Hùng đủ tiền. Số tiền còn thừa là $51\,000-45\,000=6\,000$ (đồng).
+b) Kính bơi giá $45\,000$ đồng, Hùng có $31\,000$ đồng. Số tiền Hùng còn thiếu là:
+$$45\,000-31\,000=14\,000\ \text{(đồng)}$$
+
+c) Sau khi mẹ cho thêm một tờ $20\,000$ đồng, số tiền Hùng có là:
+$$31\,000+20\,000=51\,000\ \text{(đồng)}$$
+Vì $51\,000>45\,000$ nên Hùng đủ tiền mua kính bơi. Số tiền còn thừa là:
+$$51\,000-45\,000=6\,000\ \text{(đồng)}$$
+
+Vậy Hùng có $31\,000$ đồng, còn thiếu $14\,000$ đồng để mua kính; sau khi được mẹ cho thêm thì Hùng đủ tiền và còn thừa $6\,000$ đồng.
 
 **Đáp số.** a) $31\,000$ đồng; b) thiếu $14\,000$ đồng; c) đủ tiền, còn thừa $6\,000$ đồng.
 :::

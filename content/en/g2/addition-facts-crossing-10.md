@@ -158,9 +158,15 @@ b) $8+6$
 2. Add 10 and the remaining part.
 
 ::solution
-a) $9+4=9+1+3=10+3=13$.
+To add across $10$, we split the second addend so that the first number plus part of it makes $10$.
 
-b) $8+6=8+2+4=10+4=14$.
+a) Split $4$ into $1+3$ so that $9+1=10$:
+$$9+4=9+1+3=10+3=13.$$
+
+b) Split $6$ into $2+4$ so that $8+2=10$:
+$$8+6=8+2+4=10+4=14.$$
+
+So $9+4=13$ and $8+6=14$.
 
 **Answer.** a) 13; b) 14.
 :::
@@ -182,11 +188,16 @@ c) $9+9$
 2. Part b: swap to $8+6$ and then split.
 
 ::solution
-a) $7+5=7+3+2=10+2=12$.
+a) Split $5$ into $3+2$ so that $7+3=10$:
+$$7+5=7+3+2=10+2=12.$$
 
-b) $6+8=8+6=8+2+4=14$.
+b) Swap the addends: $6+8=8+6$. Split $6$ into $2+4$ so that $8+2=10$:
+$$6+8=8+6=8+2+4=10+4=14.$$
 
-c) $9+9=9+1+8=10+8=18$.
+c) Split $9$ into $1+8$ so that $9+1=10$:
+$$9+9=9+1+8=10+8=18.$$
+
+So $7+5=12$; $6+8=14$; $9+9=18$.
 
 **Answer.** a) 12; b) 14; c) 18.
 :::
@@ -206,9 +217,15 @@ b) $6+7$
 2. Split a number to make 10.
 
 ::solution
-a) $4+9=9+4=9+1+3=13$.
+When we swap the two addends the sum does not change. We put the larger number first and then split the other number to make $10$.
 
-b) $6+7=7+6=7+3+3=13$.
+a) We have $4+9=9+4$. Split $4$ into $1+3$:
+$$4+9=9+4=9+1+3=10+3=13.$$
+
+b) We have $6+7=7+6$. Split $6$ into $3+3$ so that $7+3=10$:
+$$6+7=7+6=7+3+3=10+3=13.$$
+
+So $4+9=13$ and $6+7=13$.
 
 **Answer.** a) 13; b) 13.
 :::
@@ -225,9 +242,15 @@ $$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
 2. Compare each result with the number on the right.
 
 ::solution
-We have $8+5=13$ and $13<14$.
-We have $7+6=13$ and $13=13$.
-We have $9+4=13$ and $13>12$.
+We work out the sum on the left and then compare it with the number on the right.
+
+We have $8+5=8+2+3=10+3=13$. Since $13<14$, we have $8+5<14$.
+
+We have $7+6=7+3+3=10+3=13$. Since $13=13$, we have $7+6=13$.
+
+We have $9+4=9+1+3=10+3=13$. Since $13>12$, we have $9+4>12$.
+
+So we write: $8+5<14$; $7+6=13$; $9+4>12$.
 
 **Answer.** $8+5<14$; $7+6=13$; $9+4>12$.
 :::
@@ -246,9 +269,14 @@ Suppose that in the morning Lan folds 6 paper boats and in the afternoon she fol
 ::solution
 Solution
 
+To find how many paper boats Lan folds in the two parts of the day, we add the boats from the morning and from the afternoon.
+
 The number of paper boats Lan folds in the two parts of the day is:
-$$6+7=7+6=13\ \text{(boats)}.$$
-Answer: 13 boats.
+$$6+7=7+6=7+3+3=10+3=13\ \text{(boats)}.$$
+
+So Lan folds $13$ paper boats in the two parts of the day.
+
+**Answer.** 13 boats.
 :::
 
 :::exercise
@@ -265,9 +293,14 @@ Suppose that in the class library 8 children are reading story books and 9 child
 ::solution
 Solution
 
+To find how many children are reading altogether, we add the children reading story books and the children reading science books.
+
 The number of children reading altogether is:
 $$8+9=8+2+7=10+7=17\ \text{(children)}.$$
-Answer: 17 children.
+
+So $17$ children are reading altogether in the class library.
+
+**Answer.** 17 children.
 :::
 
 :::exercise
@@ -281,8 +314,12 @@ Remember the lesson on number lines. On a number line, jump 7 marks to the right
 2. Split a number to make 10.
 
 ::solution
-Jumping 7 marks to the right is adding 7:
+On a number line, jumping $7$ marks to the right means adding $7$. So we work out $8+7$.
+
+Split $7$ into $2+5$ so that $8+2$ makes $10$:
 $$8+7=8+2+5=10+5=15.$$
+
+So jumping $7$ marks to the right from mark $8$ takes us to mark $15$.
 
 **Answer.** Mark 15.
 :::
@@ -298,7 +335,24 @@ Among the sums $9+2$, $9+3$, $9+4$, …, $9+9$, which ones have a sum greater th
 2. How does the sum change as the second addend goes up?
 
 ::solution
-We have $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. The sums greater than 14 and less than 18 are 15, 16 and 17.
+We work out the sum of each addition. Each sum $9+n$ equals $10$ plus $n-1$ (because $9+1=10$).
+
+| Addition | Sum |
+|---|---|
+| $9+2$ | $11$ |
+| $9+3$ | $12$ |
+| $9+4$ | $13$ |
+| $9+5$ | $14$ |
+| $9+6$ | $15$ |
+| $9+7$ | $16$ |
+| $9+8$ | $17$ |
+| $9+9$ | $18$ |
+
+We need the sums greater than $14$ and less than $18$, that is, the sums $15$, $16$ and $17$. The sum $14$ is not greater than $14$, and the sum $18$ is not less than $18$, so these two are left out.
+
+The sums $15$, $16$ and $17$ come from $9+6$, $9+7$ and $9+8$.
+
+So there are three sums that fit: $9+6$, $9+7$ and $9+8$.
 
 **Answer.** Three sums: $9+6$, $9+7$ and $9+8$.
 :::

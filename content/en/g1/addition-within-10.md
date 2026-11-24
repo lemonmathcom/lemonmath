@@ -131,7 +131,11 @@ Work out $2+3$.
 2. Count on three more.
 
 ::solution
-From $2$ count on three: "three, four, five".
+To work out $2+3$, from $2$ we count on three numbers: "three, four, five".
+
+The last number we count is $5$, so $2+3=5$.
+
+So $2+3=5$.
 
 **Answer.** $2+3=5$.
 :::
@@ -147,7 +151,11 @@ Work out $6+2$.
 2. Count on two more.
 
 ::solution
-From $6$ count on two: "seven, eight".
+To work out $6+2$, from $6$ we count on two numbers: "seven, eight".
+
+The last number we count is $8$, so $6+2=8$.
+
+So $6+2=8$.
 
 **Answer.** $6+2=8$.
 :::
@@ -163,7 +171,13 @@ Remember the last lesson: $7$ is made of $3$ and $4$. Write the matching sum and
 2. Check with the number you know.
 
 ::solution
-From $4$ count on three: "five, six, seven". The result equals the $7$ you already know.
+In the last lesson we learnt that $7$ is made of $3$ and $4$. The matching sum is $3+4=7$.
+
+We work it out again by counting on. From $4$ we count on three numbers: "five, six, seven".
+
+The last number we count is $7$, which equals the $7$ we already know.
+
+So $3+4=7$.
 
 **Answer.** $3+4=7$.
 :::
@@ -181,7 +195,11 @@ b) $\square+4=6$.
 2. Count from $4$ to $6$.
 
 ::solution
-a) From $3$ to $5$: "four, five", which is $2$ numbers. b) From $4$ to $6$: "five, six", which is $2$ numbers.
+a) We need the number with $3+\square=5$. From $3$ to $5$ we count: "four, five", which is $2$ numbers, so the missing number is $2$. Check: $3+2=5$. Correct.
+
+b) We need the number with $\square+4=6$. From $4$ to $6$ we count: "five, six", which is $2$ numbers, so the missing number is $2$. Check: $2+4=6$. Correct.
+
+So the missing number in part a) is $2$ and in part b) it is $2$.
 
 **Answer.** a) $2$. b) $2$.
 :::
@@ -197,7 +215,11 @@ Nam says: "$4+3=8$ because I counted four, five, six, seven, eight." Is Nam righ
 2. Count again correctly.
 
 ::solution
-From $4$ you only count on $3$ numbers: "five, six, seven". Nam counted the first number again.
+We work out $4+3$. From $4$ we only count on $3$ numbers: "five, six, seven". The last number is $7$, so $4+3=7$.
+
+Nam counted "four, five, six, seven, eight", which is $5$ numbers. Nam counted the first number $4$ again, so he got $8$.
+
+So Nam is wrong, and $4+3=7$.
 
 **Answer.** No. $4+3=7$.
 :::
@@ -213,7 +235,11 @@ Mai writes $5+0=0$. Where did Mai go wrong? Write it correctly.
 2. Compare with Mai's answer.
 
 ::solution
-Adding $0$ means adding nothing, so the number is still $5$.
+Adding $0$ to a number means adding nothing, so the number does not change. So $5+0=5$.
+
+Mai's $5+0=0$ is wrong, because Mai thought that adding $0$ makes the result $0$. In fact the result is still the number we started with, which is $5$.
+
+So Mai is wrong, and written correctly it is $5+0=5$.
 
 **Answer.** $5+0=5$.
 :::
@@ -229,10 +255,14 @@ Ha has $6$ exercise books. Mum buys $3$ more. How many exercise books does Ha ha
 2. Work out $6+3$ and write the answer with its unit.
 
 ::solution
-The number of exercise books altogether is:
+Solution
+
+Mum buys more books for Ha, so we add. The number of exercise books Ha has altogether is:
 $$6+3=9\ \text{(books)}.$$
 
-**Check.** Count on three from $6$: seven, eight, nine. Correct.
+Check: count on three from $6$: "seven, eight, nine". Correct.
+
+So Ha has $9$ exercise books altogether.
 
 **Answer.** $9$ exercise books.
 :::
@@ -248,9 +278,18 @@ $10$ flowers are put into two vases. The red vase has $4$ flowers. How many flow
 2. Write the sum: $4+\square=10$.
 
 ::solution
-From $4$ to $10$: "five, six, seven, eight, nine, ten", which is $6$ numbers.
+Solution
 
-**Check.** $4+6=10$. Correct.
+$10$ flowers are put into two vases, and the red vase has $4$ flowers. The number of flowers in the blue vase is the number we must add to $4$ to make $10$.
+
+From $4$ to $10$ we count: "five, six, seven, eight, nine, ten", which is $6$ numbers. So the blue vase has $6$ flowers.
+
+The right sum is:
+$$4+6=10.$$
+
+Check: $4+6=10$. Correct.
+
+So the blue vase has $6$ flowers.
 
 **Answer.** The blue vase has $6$ flowers; $4+6=10$.
 :::

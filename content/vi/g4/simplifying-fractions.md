@@ -190,8 +190,14 @@ Rút gọn phân số $\dfrac{10}{25}$.
 2. Chia cả hai cho số đó rồi kiểm tra đã tối giản chưa.
 
 ::solution
-Cả $10$ và $25$ đều chia hết cho $5$:
-$$\dfrac{10}{25}=\dfrac{10:5}{25:5}=\dfrac{2}{5}.$$
+Muốn rút gọn phân số, ta tìm một số tự nhiên lớn hơn $1$ mà cả tử số và mẫu số cùng chia hết. Cả $10$ và $25$ đều chia hết cho $5$.
+
+Chia cả tử số và mẫu số cho $5$, ta được
+$$\frac{10}{25}=\frac{10:5}{25:5}=\frac{2}{5}.$$
+
+Phân số $\dfrac{2}{5}$ có $2$ và $5$ không cùng chia hết cho số tự nhiên nào lớn hơn $1$, nên không rút gọn được nữa.
+
+Vậy $\dfrac{10}{25}$ rút gọn được thành $\dfrac{2}{5}$.
 
 **Đáp số.** $\dfrac{2}{5}$.
 :::
@@ -207,7 +213,14 @@ Rút gọn phân số $\dfrac{36}{48}$ đến phân số tối giản.
 2. Chia cả hai cho $12$.
 
 ::solution
-$$\dfrac{36}{48}=\dfrac{36:12}{48:12}=\dfrac{3}{4}.$$
+Ta tìm số lớn nhất mà cả $36$ và $48$ cùng chia hết. Ta có $36=12\times3$ và $48=12\times4$, nên cả hai số cùng chia hết cho $12$.
+
+Chia cả tử số và mẫu số cho $12$, ta được
+$$\frac{36}{48}=\frac{36:12}{48:12}=\frac{3}{4}.$$
+
+Phân số $\dfrac{3}{4}$ có $3$ và $4$ không cùng chia hết cho số tự nhiên nào lớn hơn $1$, nên đã là phân số tối giản.
+
+Vậy rút gọn $\dfrac{36}{48}$ đến phân số tối giản ta được $\dfrac{3}{4}$.
 
 **Đáp số.** $\dfrac{3}{4}$.
 :::
@@ -223,10 +236,14 @@ Trong các phân số $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfrac
 2. Rút gọn thử các phân số chẵn hoặc có tổng chữ số chia hết cho $3$, $9$.
 
 ::solution
-- $\dfrac{4}{9}$: $4$ và $9$ không có số chung lớn hơn $1$, nên tối giản.
-- $\dfrac{6}{14}=\dfrac{3}{7}$: rút gọn được.
-- $\dfrac{15}{22}$: $15$ và $22$ không có số chung lớn hơn $1$, nên tối giản.
-- $\dfrac{18}{27}=\dfrac{2}{3}$: rút gọn được.
+Một phân số là tối giản khi tử số và mẫu số không cùng chia hết cho số tự nhiên nào lớn hơn $1$. Ta xét từng phân số.
+
+- $\dfrac{4}{9}$: $4$ và $9$ không có số chung lớn hơn $1$ cùng chia hết, nên tối giản.
+- $\dfrac{6}{14}$: cả $6$ và $14$ cùng chia hết cho $2$, nên $\dfrac{6}{14}=\dfrac{6:2}{14:2}=\dfrac{3}{7}$, tức là rút gọn được.
+- $\dfrac{15}{22}$: $15$ và $22$ không có số chung lớn hơn $1$ cùng chia hết, nên tối giản.
+- $\dfrac{18}{27}$: cả $18$ và $27$ cùng chia hết cho $9$, nên $\dfrac{18}{27}=\dfrac{18:9}{27:9}=\dfrac{2}{3}$, tức là rút gọn được.
+
+Vậy các phân số tối giản là $\dfrac{4}{9}$ và $\dfrac{15}{22}$.
 
 **Đáp số.** $\dfrac{4}{9}$ và $\dfrac{15}{22}$.
 :::
@@ -242,7 +259,15 @@ Rút gọn phân số $\dfrac{120}{180}$.
 2. Rút gọn tiếp cho đến khi tối giản.
 
 ::solution
-$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+Cả tử số và mẫu số đều có chữ số $0$ ở tận cùng nên cùng chia hết cho $10$. Chia cả hai cho $10$, ta được
+$$\frac{120}{180}=\frac{12}{18}.$$
+
+Cả $12$ và $18$ cùng chia hết cho $6$. Chia cả hai cho $6$, ta được
+$$\frac{12}{18}=\frac{12:6}{18:6}=\frac{2}{3}.$$
+
+Phân số $\dfrac{2}{3}$ có $2$ và $3$ không cùng chia hết cho số tự nhiên nào lớn hơn $1$, nên đã tối giản.
+
+Vậy $\dfrac{120}{180}$ rút gọn được thành $\dfrac{2}{3}$.
 
 **Đáp số.** $\dfrac{2}{3}$.
 :::
@@ -258,7 +283,15 @@ Quy đồng mẫu số hai phân số $\dfrac{3}{4}$ và $\dfrac{2}{7}$.
 2. Nhân cả tử số và mẫu số của $\dfrac{3}{4}$ với $7$, của $\dfrac{2}{7}$ với $4$.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+Muốn quy đồng mẫu số hai phân số, ta chọn một mẫu số chung chia hết cho cả hai mẫu số. Ở đây ta chọn mẫu số chung là $4\times7=28$.
+
+Nhân cả tử số và mẫu số của phân số thứ nhất với $7$ (mẫu số của phân số thứ hai):
+$$\frac{3}{4}=\frac{3\times7}{4\times7}=\frac{21}{28}.$$
+
+Nhân cả tử số và mẫu số của phân số thứ hai với $4$ (mẫu số của phân số thứ nhất):
+$$\frac{2}{7}=\frac{2\times4}{7\times4}=\frac{8}{28}.$$
+
+Vậy quy đồng mẫu số hai phân số $\dfrac{3}{4}$ và $\dfrac{2}{7}$ ta được $\dfrac{21}{28}$ và $\dfrac{8}{28}$.
 
 **Đáp số.** $\dfrac{21}{28}$ và $\dfrac{8}{28}$.
 :::
@@ -274,7 +307,14 @@ Quy đồng mẫu số hai phân số $\dfrac{7}{12}$ và $\dfrac{5}{6}$.
 2. Giữ $\dfrac{7}{12}$ và đổi $\dfrac{5}{6}$.
 
 ::solution
-Vì $12$ chia hết cho $6$ nên giữ $\dfrac{7}{12}$ và đổi $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+Ta so sánh hai mẫu số $12$ và $6$. Vì $12:6=2$ nên $12$ chia hết cho $6$, do đó ta chọn $12$ làm mẫu số chung.
+
+Phân số $\dfrac{7}{12}$ đã có mẫu số là $12$ nên ta giữ nguyên.
+
+Nhân cả tử số và mẫu số của phân số $\dfrac{5}{6}$ với $2$, ta được
+$$\frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12}.$$
+
+Vậy quy đồng mẫu số hai phân số $\dfrac{7}{12}$ và $\dfrac{5}{6}$ ta được $\dfrac{7}{12}$ và $\dfrac{10}{12}$.
 
 **Đáp số.** $\dfrac{7}{12}$ và $\dfrac{10}{12}$.
 :::
@@ -290,9 +330,17 @@ Một lớp có $40$ học sinh, trong đó có $15$ em thích bóng đá. Viế
 2. Viết phân số $\dfrac{15}{40}$ rồi rút gọn.
 
 ::solution
-Phân số chỉ số em thích bóng đá là $\dfrac{15}{40}$.
+Bài giải
 
-Cả $15$ và $40$ chia hết cho $5$: $\dfrac{15}{40}=\dfrac{15:5}{40:5}=\dfrac{3}{8}$.
+Cả lớp có $40$ học sinh, trong đó có $15$ em thích bóng đá. Phân số chỉ số em thích bóng đá so với cả lớp là:
+$$\frac{15}{40}.$$
+
+Cả $15$ và $40$ cùng chia hết cho $5$. Chia cả tử số và mẫu số cho $5$, ta được:
+$$\frac{15}{40}=\frac{15:5}{40:5}=\frac{3}{8}.$$
+
+Phân số $\dfrac{3}{8}$ có $3$ và $8$ không cùng chia hết cho số tự nhiên nào lớn hơn $1$, nên đã tối giản.
+
+Vậy số em thích bóng đá bằng $\dfrac{15}{40}$, rút gọn là $\dfrac{3}{8}$ số học sinh cả lớp.
 
 **Đáp số.** $\dfrac{15}{40}=\dfrac{3}{8}$.
 :::
@@ -308,9 +356,15 @@ Một băng giấy được chia thành $8$ phần bằng nhau và tô màu $6$ 
 2. Tìm phân số bằng nó có mẫu số $12$.
 
 ::solution
-Ta có $\dfrac{6}{8}=\dfrac{6:2}{8:2}=\dfrac{3}{4}$.
+Bài giải
 
-Vì $12=4\times3$ nên $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+Phân số chỉ phần đã tô màu ở băng giấy thứ nhất là $\dfrac{6}{8}$. Rút gọn phân số này bằng cách chia cả tử số và mẫu số cho $2$:
+$$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
+
+Băng giấy thứ hai được chia thành $12$ phần bằng nhau. Vì $12=4\times3$ nên ta nhân cả tử số và mẫu số của $\dfrac{3}{4}$ với $3$:
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12}.$$
+
+Vậy phải tô màu $9$ phần của băng giấy thứ hai thì được phân số bằng phân số của băng giấy thứ nhất.
 
 **Đáp số.** Phải tô màu $9$ phần.
 :::
@@ -326,7 +380,15 @@ Em hãy nhớ lại bài nhân, chia với $10$, $100$, $1\,000$. Rút gọn ph�
 2. Rút gọn tiếp.
 
 ::solution
-$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24:12}{36:12}=\dfrac{2}{3}.$$
+Cả tử số và mẫu số đều có hai chữ số $0$ ở tận cùng. Chia cả hai cho $100$, ta được
+$$\frac{2\,400}{3\,600}=\frac{24}{36}.$$
+
+Cả $24$ và $36$ cùng chia hết cho $12$. Chia cả tử số và mẫu số cho $12$, ta được
+$$\frac{24}{36}=\frac{24:12}{36:12}=\frac{2}{3}.$$
+
+Phân số $\dfrac{2}{3}$ có $2$ và $3$ không cùng chia hết cho số tự nhiên nào lớn hơn $1$, nên đã tối giản.
+
+Vậy rút gọn $\dfrac{2\,400}{3\,600}$ đến phân số tối giản ta được $\dfrac{2}{3}$.
 
 **Đáp số.** $\dfrac{2}{3}$.
 :::
@@ -342,11 +404,20 @@ Tìm phân số bằng $\dfrac{3}{7}$ sao cho tổng của tử số và mẫu s
 2. Tìm $k$ rồi tìm phân số.
 
 ::solution
-Phân số bằng $\dfrac{3}{7}$ có dạng $\dfrac{3\times k}{7\times k}$ nên tổng tử số và mẫu số là $3\times k+7\times k=10\times k$.
+Bài giải
 
-Vì $10\times k=50$ nên $k=5$. Phân số cần tìm là $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+Phân số bằng $\dfrac{3}{7}$ có dạng $\dfrac{3\times k}{7\times k}$, với $k$ là một số tự nhiên lớn hơn $0$. Tổng của tử số và mẫu số là:
+$$3\times k+7\times k=10\times k.$$
 
-**Thử lại.** $15+35=50$ và $\dfrac{15}{35}=\dfrac{15:5}{35:5}=\dfrac{3}{7}$. Đúng.
+Theo đề bài, tổng này bằng $50$ nên $10\times k=50$. Suy ra
+$$k=50:10=5.$$
+
+Phân số cần tìm là:
+$$\frac{3\times5}{7\times5}=\frac{15}{35}.$$
+
+*Thử lại.* Ta có $15+35=50$ và $\dfrac{15}{35}=\dfrac{15:5}{35:5}=\dfrac{3}{7}$. Kết quả đúng.
+
+Vậy phân số cần tìm là $\dfrac{15}{35}$.
 
 **Đáp số.** $\dfrac{15}{35}$.
 :::

@@ -148,7 +148,14 @@ Find the volume of a cuboid $7$ cm long, $3$ cm wide and $4$ cm high.
 2. Multiply step by step, then write the unit cm³.
 
 ::solution
-$V=7\times3\times4=21\times4=84\ (\text{cm}^3)$.
+Solution
+
+The volume of a cuboid is its length times its width times its height.
+
+The volume of the cuboid is:
+$$7\times3\times4=21\times4=84\ (\text{cm}^3)$$
+
+So the volume of the cuboid is $84$ cm³.
 
 **Answer.** $84$ cm³.
 :::
@@ -164,7 +171,14 @@ Find the volume of a cuboid $10$ cm long, $5$ cm wide and $2$ cm high.
 2. Multiply the result by $2$.
 
 ::solution
-$V=10\times5\times2=50\times2=100\ (\text{cm}^3)$.
+Solution
+
+The volume of a cuboid is its length times its width times its height.
+
+The volume of the cuboid is:
+$$10\times5\times2=50\times2=100\ (\text{cm}^3)$$
+
+So the volume of the cuboid is $100$ cm³.
 
 **Answer.** $100$ cm³.
 :::
@@ -180,7 +194,14 @@ Find the volume of a cuboid $12$ dm long, $5$ dm wide and $3$ dm high.
 2. Multiply the result by $3$ and write the unit dm³.
 
 ::solution
-$V=12\times5\times3=60\times3=180\ (\text{dm}^3)$.
+Solution
+
+The volume of a cuboid is its length times its width times its height.
+
+The volume of the cuboid is:
+$$12\times5\times3=60\times3=180\ (\text{dm}^3)$$
+
+So the volume of the cuboid is $180$ dm³.
 
 **Answer.** $180$ dm³.
 :::
@@ -196,8 +217,14 @@ Ha's pencil case is a cuboid $18$ cm long, $6$ cm wide and $4$ cm high. What is 
 2. Work out $18\times6\times4$ and write the answer with its unit.
 
 ::solution
+Solution
+
+The pencil case is a cuboid, so its volume is its length times its width times its height.
+
 The volume of the pencil case is:
-$$18\times6\times4=108\times4=432\ (\text{cm}^3).$$
+$$18\times6\times4=108\times4=432\ (\text{cm}^3)$$
+
+So the volume of the pencil case is $432$ cubic centimetres.
 
 **Answer.** $432$ cm³.
 :::
@@ -213,8 +240,14 @@ A fish tank is a cuboid $1$ m long, $6$ dm wide and $5$ dm high. Find the volume
 2. Multiply the three measurements and write the unit dm³.
 
 ::solution
-Change $1$ m $=10$ dm. The volume of the tank is:
-$$10\times6\times5=300\ (\text{dm}^3).$$
+Solution
+
+All the measurements must be in the same unit, decimetres. Change $1$ m $=10$ dm.
+
+The volume of the tank is:
+$$10\times6\times5=60\times5=300\ (\text{dm}^3)$$
+
+So the volume of the tank is $300$ dm³.
 
 **Answer.** $300$ dm³.
 :::
@@ -230,9 +263,20 @@ Remember the last lesson: a cube has edges of $4$ cm. Find its lateral surface a
 2. Multiply by $4$ for the lateral surface area, and by $6$ for the total surface area.
 
 ::solution
-The area of one face is $4\times4=16$ (cm²).
+Solution
 
-Lateral surface area: $16\times4=64$ (cm²). Total surface area: $16\times6=96$ (cm²).
+A cube has $6$ equal square faces; the $4$ side faces make up the lateral surface.
+
+The area of one face is:
+$$4\times4=16\ (\text{cm}^2)$$
+
+The lateral surface area of the cube is:
+$$16\times4=64\ (\text{cm}^2)$$
+
+The total surface area of the cube is:
+$$16\times6=96\ (\text{cm}^2)$$
+
+So the lateral surface area is $64$ cm² and the total surface area is $96$ cm².
 
 **Answer.** Lateral surface area $64$ cm², total surface area $96$ cm².
 :::
@@ -248,9 +292,19 @@ A cuboid has volume $120$ cm³, length $8$ cm and width $5$ cm. Find its height.
 2. Divide $120$ by the base area.
 
 ::solution
-The base area is $8\times5=40$ (cm²). The height is $120\div40=3$ (cm).
+Solution
 
-**Check.** $8\times5\times3=120$. Correct.
+The volume equals the base area times the height, so the height equals the volume divided by the base area.
+
+The base area of the cuboid is:
+$$8\times5=40\ (\text{cm}^2)$$
+
+The height of the cuboid is:
+$$120\div40=3\ (\text{cm})$$
+
+Check: $8\times5\times3=120$ (cm³), as required.
+
+So the height of the cuboid is $3$ cm.
 
 **Answer.** $3$ cm.
 :::
@@ -266,9 +320,22 @@ A crate is a cuboid $40$ cm long, $30$ cm wide and $20$ cm high. You pack small 
 2. Divide the volume of the crate by the volume of one small box.
 
 ::solution
-The volume of the crate is $40\times30\times20=24\,000$ (cm³). The volume of one small box is $10\times10\times5=500$ (cm³). The number of small boxes is $24\,000\div500=48$ (boxes).
+Solution
 
-**Check.** Along the length there are $40\div10=4$ boxes, along the width $30\div10=3$ boxes, and in height $20\div5=4$ layers. That is $4\times3\times4=48$ boxes. Correct.
+Since the small boxes fit exactly with no gaps, the number of small boxes equals the volume of the crate divided by the volume of one small box.
+
+The volume of the crate is:
+$$40\times30\times20=24\,000\ (\text{cm}^3)$$
+
+The volume of one small box is:
+$$10\times10\times5=500\ (\text{cm}^3)$$
+
+The number of small boxes is:
+$$24\,000\div500=48\ (\text{boxes})$$
+
+Check: along the length there are $40\div10=4$ boxes, along the width $30\div10=3$ boxes, and in height $20\div5=4$ layers. The number of boxes is $4\times3\times4=48$, which is correct.
+
+So the greatest number of small boxes that fit is $48$.
 
 **Answer.** $48$ boxes.
 :::

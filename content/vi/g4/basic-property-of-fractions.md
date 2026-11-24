@@ -129,7 +129,12 @@ Tìm số thích hợp: $\dfrac{1}{3}=\dfrac{?}{6}$.
 2. Nhân tử số với số đó.
 
 ::solution
-$3\times2=6$ nên $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+Khi nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+
+Mẫu số đã tăng từ $3$ lên $6$. Vì $3\times2=6$ nên ta nhân cả tử số và mẫu số với $2$:
+$$\frac{1}{3}=\frac{1\times2}{3\times2}=\frac{2}{6}$$
+
+Vậy số thích hợp là $2$.
 
 **Đáp số.** $2$.
 :::
@@ -145,7 +150,12 @@ Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{12}{?}$.
 2. Nhân mẫu số với số đó.
 
 ::solution
-$12:4=3$ nên $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+Khi nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+
+Tử số đã tăng từ $4$ lên $12$. Vì $12:4=3$ nên ta nhân cả tử số và mẫu số với $3$:
+$$\frac{4}{5}=\frac{4\times3}{5\times3}=\frac{12}{15}$$
+
+Vậy số thích hợp là $15$.
 
 **Đáp số.** $15$.
 :::
@@ -161,7 +171,13 @@ Em hãy nhớ lại bài trước: $3:4$ viết thành phân số là gì? Rồi
 2. Nhân cả tử số và mẫu số với $2$.
 
 ::solution
-$3:4=\dfrac{3}{4}$. Vì $4\times2=8$ nên $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+Thương của phép chia số tự nhiên cho số tự nhiên khác $0$ có thể viết thành một phân số, tử số là số bị chia, mẫu số là số chia:
+$$3:4=\frac{3}{4}$$
+
+Muốn viết $\dfrac{3}{4}$ với mẫu số $8$: vì $4\times2=8$ nên ta nhân cả tử số và mẫu số với $2$:
+$$\frac{3}{4}=\frac{3\times2}{4\times2}=\frac{6}{8}$$
+
+Vậy $3:4$ viết thành phân số là $\dfrac{3}{4}$, và phân số đó viết với mẫu số $8$ là $\dfrac{6}{8}$.
 
 **Đáp số.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
 :::
@@ -177,7 +193,12 @@ Tìm số thích hợp: $\dfrac{8}{12}=\dfrac{?}{3}$.
 2. Chia tử số cho số đó.
 
 ::solution
-$12:4=3$ nên $\dfrac{8}{12}=\dfrac{8:4}{12:4}=\dfrac{2}{3}$.
+Khi chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (là ước chung của cả hai) thì được một phân số bằng phân số đã cho.
+
+Mẫu số đã giảm từ $12$ xuống $3$. Vì $12:4=3$ nên ta chia cả tử số và mẫu số cho $4$:
+$$\frac{8}{12}=\frac{8:4}{12:4}=\frac{2}{3}$$
+
+Vậy số thích hợp là $2$.
 
 **Đáp số.** $2$.
 :::
@@ -193,7 +214,16 @@ Có thể viết $\dfrac{1}{2}=\dfrac{2}{3}$ bằng cách cùng cộng thêm $1$
 2. So sánh với cách nhân hoặc chia.
 
 ::solution
-Không. Tử số $1$ nhân với $2$ được $2$, nhưng mẫu số $2$ không nhân với $2$ để được $3$. Hai phân số này không bằng nhau; phân số bằng $\dfrac{1}{2}$ là $\dfrac{2}{4}$.
+Cộng thêm $1$ vào cả tử số và mẫu số của $\dfrac{1}{2}$ thì được $\dfrac{1+1}{2+1}=\dfrac{2}{3}$.
+
+Theo tính chất cơ bản của phân số, muốn được phân số bằng $\dfrac{1}{2}$ ta phải nhân (hoặc chia) cả tử số và mẫu số với cùng một số, chứ không phải cộng cùng một số. Tử số $1$ nhân với $2$ được $2$, nhưng mẫu số $2$ không nhân với $2$ để được $3$.
+
+Phân số bằng $\dfrac{1}{2}$ khi nhân cả hai số với $2$ là:
+$$\frac{1}{2}=\frac{1\times2}{2\times2}=\frac{2}{4}$$
+
+Kiểm tra: đưa về cùng mẫu số $6$ thì $\dfrac{1}{2}=\dfrac{3}{6}$ và $\dfrac{2}{3}=\dfrac{4}{6}$; vì $3\neq4$ nên $\dfrac{1}{2}\neq\dfrac{2}{3}$.
+
+Vậy không thể viết $\dfrac{1}{2}=\dfrac{2}{3}$ bằng cách cộng thêm $1$ vào cả tử số và mẫu số; phân số bằng $\dfrac{1}{2}$ là $\dfrac{2}{4}$.
 
 **Đáp số.** Không, vì phải nhân cả hai số với cùng một số.
 :::
@@ -209,7 +239,12 @@ Mai viết: "$\dfrac{2}{5}=\dfrac{6}{10}$ vì nhân tử số với $3$ và nhâ
 2. Nhân cả hai số với $3$.
 
 ::solution
-Mai nhân tử số với $3$ nhưng mẫu số với $2$: hai số nhân khác nhau. Đúng là $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+Mai nhân tử số $2$ với $3$ nhưng lại nhân mẫu số $5$ với $2$. Hai số được nhân là khác nhau nên $\dfrac{2}{5}$ không bằng $\dfrac{6}{10}$.
+
+Theo tính chất cơ bản của phân số, ta phải nhân cả tử số và mẫu số với cùng một số. Nhân cả hai với $3$:
+$$\frac{2}{5}=\frac{2\times3}{5\times3}=\frac{6}{15}$$
+
+Vậy Mai sai ở chỗ nhân tử số và mẫu số với hai số khác nhau; viết đúng là $\dfrac{2}{5}=\dfrac{6}{15}$.
 
 **Đáp số.** $\dfrac{6}{15}$.
 :::
@@ -225,7 +260,20 @@ Nam ăn $\dfrac{2}{4}$ chiếc bánh, Hà ăn $\dfrac{4}{8}$, Lan ăn $\dfrac{3}
 2. So sánh kết quả.
 
 ::solution
-$\dfrac{2}{4}=\dfrac{2:2}{4:2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4:4}{8:4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Cả ba bằng $\dfrac{1}{2}$.
+Chia cả tử số và mẫu số cho cùng một số tự nhiên khác $0$ thì được phân số bằng phân số đã cho.
+
+Phần bánh của Nam:
+$$\frac{2}{4}=\frac{2:2}{4:2}=\frac{1}{2}$$
+
+Phần bánh của Hà:
+$$\frac{4}{8}=\frac{4:4}{8:4}=\frac{1}{2}$$
+
+Phần bánh của Lan:
+$$\frac{3}{6}=\frac{3:3}{6:3}=\frac{1}{2}$$
+
+Cả ba phân số đều bằng $\dfrac{1}{2}$, và các chiếc bánh giống nhau nên ba bạn ăn số bánh như nhau.
+
+Vậy ba bạn ăn bằng nhau, mỗi bạn ăn $\dfrac{1}{2}$ chiếc bánh.
 
 **Đáp số.** Ba bạn ăn bằng nhau, mỗi bạn $\dfrac{1}{2}$ chiếc bánh.
 :::
@@ -241,9 +289,21 @@ Tìm các số tự nhiên $a$ và $b$ sao cho $\dfrac{3}{4}=\dfrac{a}{20}=\dfra
 2. $3\times9=27$: tìm $b$.
 
 ::solution
-$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$ nên $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$ nên $b=36$.
+Ta có $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$, nên $a$ và $b$ được tìm bằng tính chất cơ bản của phân số.
 
-**Kiểm tra.** $15:5=3$, $20:5=4$; $27:9=3$, $36:9=4$. Đúng.
+Tìm $a$: mẫu số tăng từ $4$ lên $20$. Vì $20:4=5$ nên ta nhân cả tử số và mẫu số với $5$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20}$$
+
+Suy ra $a=15$.
+
+Tìm $b$: tử số tăng từ $3$ lên $27$. Vì $27:3=9$ nên ta nhân cả tử số và mẫu số với $9$:
+$$\frac{3}{4}=\frac{3\times9}{4\times9}=\frac{27}{36}$$
+
+Suy ra $b=36$.
+
+Kiểm tra: $15:5=3$, $20:5=4$; $27:9=3$, $36:9=4$. Cả hai đều cho $\dfrac{3}{4}$. Đúng.
+
+Vậy $a=15$ và $b=36$.
 
 **Đáp số.** $a=15$, $b=36$.
 :::

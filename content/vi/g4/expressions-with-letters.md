@@ -165,7 +165,10 @@ Tính giá trị của biểu thức $m\times6$ khi $m=9$.
 2. Thực hiện phép nhân.
 
 ::solution
-Khi $m=9$ thì $m\times6=9\times6=54$.
+Thay $m=9$ vào biểu thức $m\times6$, ta được
+$$m\times6=9\times6=54.$$
+
+Vậy khi $m=9$ thì giá trị của biểu thức $m\times6$ là $54$.
 
 **Đáp số.** $54$.
 :::
@@ -181,7 +184,14 @@ Tính giá trị của biểu thức $125-x$ khi $x=48$.
 2. Đặt tính rồi trừ.
 
 ::solution
-Khi $x=48$ thì $125-x=125-48=77$.
+Thay $x=48$ vào biểu thức $125-x$, ta được
+$$125-x=125-48.$$
+
+Đặt tính rồi trừ từ phải sang trái: $15-8=7$, viết $7$ nhớ $1$; $4+1=5$, $12-5=7$, viết $7$ nhớ $1$; $1-1=0$. Ta được $125-48=77$.
+
+*Thử lại.* $77+48=125$. Đúng.
+
+Vậy khi $x=48$ thì giá trị của biểu thức $125-x$ là $77$.
 
 **Đáp số.** $77$.
 :::
@@ -197,7 +207,12 @@ Tính giá trị của biểu thức $a\times4+b$ khi $a=15$ và $b=30$.
 2. Tính $15\times4$ trước rồi cộng với $30$.
 
 ::solution
-Khi $a=15$ và $b=30$ thì $a\times4+b=15\times4+30=60+30=90$.
+Biểu thức $a\times4+b$ không có dấu ngoặc và có cả phép nhân lẫn phép cộng, nên ta thực hiện phép nhân trước, phép cộng sau.
+
+Thay $a=15$ và $b=30$ vào biểu thức, ta được
+$$a\times4+b=15\times4+30=60+30=90.$$
+
+Vậy khi $a=15$ và $b=30$ thì giá trị của biểu thức $a\times4+b$ là $90$.
 
 **Đáp số.** $90$.
 :::
@@ -213,7 +228,12 @@ Tính giá trị của biểu thức $(a+b)\times c$ khi $a=12$, $b=8$ và $c=5$
 2. Tính $12+8$ trước rồi nhân với $5$.
 
 ::solution
-Khi $a=12$, $b=8$, $c=5$ thì $(a+b)\times c=(12+8)\times5=20\times5=100$.
+Biểu thức $(a+b)\times c$ có dấu ngoặc, nên ta tính phép cộng trong ngoặc trước, rồi mới nhân.
+
+Thay $a=12$, $b=8$ và $c=5$ vào biểu thức, ta được
+$$(a+b)\times c=(12+8)\times5=20\times5=100.$$
+
+Vậy khi $a=12$, $b=8$ và $c=5$ thì giá trị của biểu thức $(a+b)\times c$ là $100$.
 
 **Đáp số.** $100$.
 :::
@@ -232,8 +252,12 @@ Một mảnh vườn (số liệu giả định) hình vuông có cạnh $25$ m.
 ::solution
 Bài giải
 
+Hình vuông có bốn cạnh bằng nhau nên chu vi hình vuông bằng độ dài một cạnh nhân với $4$.
+
 Chu vi mảnh vườn là:
-$$25\times4=100\ \text{(m)}.$$
+$$25\times4=100\ \text{(m)}$$
+
+Vậy chu vi mảnh vườn là $100$ m.
 
 **Đáp số.** $100$ m.
 :::
@@ -251,8 +275,12 @@ Một tấm bìa hình chữ nhật có chiều dài $38$ cm và chiều rộng 
 ::solution
 Bài giải
 
+Chu vi hình chữ nhật bằng tổng chiều dài và chiều rộng rồi nhân với $2$.
+
 Chu vi tấm bìa là:
-$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
+$$(38+22)\times2=60\times2=120\ \text{(cm)}$$
+
+Vậy chu vi tấm bìa là $120$ cm.
 
 **Đáp số.** $120$ cm.
 :::
@@ -271,8 +299,14 @@ Mai mua $m$ quyển vở, mỗi quyển giá $6\,500$ đồng, và một chiếc
 ::solution
 Bài giải
 
-Số tiền Mai phải trả là $6\,500\times m+3\,000$ (đồng). Khi $m=5$, số tiền là:
-$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(đồng)}.$$
+Số tiền mua $m$ quyển vở là $6\,500\times m$ (đồng).
+
+Mai còn mua một chiếc thước giá $3\,000$ đồng, nên số tiền Mai phải trả là $6\,500\times m+3\,000$ (đồng).
+
+Khi $m=5$, số tiền Mai phải trả là:
+$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(đồng)}$$
+
+Vậy biểu thức số tiền Mai phải trả là $6\,500\times m+3\,000$ (đồng); khi $m=5$ thì Mai phải trả $35\,500$ đồng.
 
 **Đáp số.** $35\,500$ đồng.
 :::
@@ -288,9 +322,14 @@ Em hãy nhớ lại bài chia số có năm chữ số cho số có một chữ 
 2. Chia $90\,000$ cho $8$ rồi thử lại bằng phép nhân.
 
 ::solution
-Khi $n=8$ thì $90\,000:n=90\,000:8=11\,250$.
+Thay $n=8$ vào biểu thức $90\,000:n$, ta được
+$$90\,000:n=90\,000:8.$$
 
-**Thử lại.** $11\,250\times8=90\,000$. Đúng.
+Đặt tính rồi chia từ trái sang phải: $9:8=1$ dư $1$; hạ $0$ được $10$, $10:8=1$ dư $2$; hạ $0$ được $20$, $20:8=2$ dư $4$; hạ $0$ được $40$, $40:8=5$ dư $0$; hạ $0$ được $0$, $0:8=0$. Ta được $90\,000:8=11\,250$.
+
+*Thử lại.* $11\,250\times8=90\,000$. Đúng.
+
+Vậy khi $n=8$ thì giá trị của biểu thức $90\,000:n$ là $11\,250$.
 
 **Đáp số.** $11\,250$.
 :::
@@ -306,9 +345,14 @@ Nam tính giá trị của biểu thức $3\times a+b$ khi $a=10$ và $b=5$ đư
 2. Thay $a=10$ và $b=5$ rồi tính đúng thứ tự.
 
 ::solution
-Biểu thức $3\times a+b$ không có ngoặc, nên phải nhân trước rồi cộng sau. Nam đã cộng $10+5$ trước nên sai.
+Khi $a=10$ và $b=5$, biểu thức $3\times a+b$ trở thành $3\times10+5$.
 
-Tính lại: $3\times10+5=30+5=35$.
+Biểu thức này không có dấu ngoặc, nên phải nhân trước rồi cộng sau. Nam đã cộng $10+5$ trước rồi mới nhân với $3$, tức là Nam tính $3\times(10+5)$ chứ không phải $3\times10+5$. Vì vậy kết quả $45$ của Nam là sai.
+
+Tính lại:
+$$3\times a+b=3\times10+5=30+5=35.$$
+
+Vậy Nam sai; kết quả đúng là $35$.
 
 **Đáp số.** Nam sai; kết quả đúng là $35$.
 :::
@@ -324,9 +368,19 @@ Một hình chữ nhật có chu vi $56$ cm và chiều dài $18$ cm. Tính chi�
 2. Lấy $a+b$ trừ chiều dài $18$.
 
 ::solution
-Ta có $(a+b)\times2=56$, nên $a+b=56:2=28$ (cm). Chiều rộng là $b=28-18=10$ (cm).
+Bài giải
 
-**Thử lại.** $(18+10)\times2=28\times2=56$. Đúng.
+Chu vi hình chữ nhật là $(a+b)\times2$, trong đó $a$ là chiều dài, $b$ là chiều rộng. Vì chu vi bằng $56$ cm nên $(a+b)\times2=56$.
+
+Nửa chu vi, tức là tổng chiều dài và chiều rộng, là:
+$$a+b=56:2=28\ \text{(cm)}$$
+
+Chiều rộng hình chữ nhật là:
+$$b=28-18=10\ \text{(cm)}$$
+
+*Thử lại.* $(18+10)\times2=28\times2=56$. Đúng.
+
+Vậy chiều rộng của hình chữ nhật là $10$ cm.
 
 **Đáp số.** $10$ cm.
 :::

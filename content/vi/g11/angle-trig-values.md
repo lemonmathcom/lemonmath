@@ -272,7 +272,15 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 2. Radian sang độ: nhân với $\dfrac{180}\pi$.
 
 ::solution
-$150^\circ=150\cdot\dfrac\pi{180}=\dfrac{5\pi}6$; $-60^\circ=-\dfrac\pi3$; $\dfrac{5\pi}4=225^\circ$; $\dfrac{7\pi}{18}=70^\circ$.
+Công thức đổi đơn vị: $1^\circ=\dfrac\pi{180}$ rad và $1$ rad $=\left(\dfrac{180}\pi\right)^\circ$.
+
+Đổi sang radian:
+$$150^\circ=150\cdot\frac\pi{180}=\frac{5\pi}6,\qquad -60^\circ=-60\cdot\frac\pi{180}=-\frac\pi3.$$
+
+Đổi sang độ:
+$$\frac{5\pi}4=\frac{5\pi}4\cdot\frac{180^\circ}\pi=225^\circ,\qquad \frac{7\pi}{18}=\frac{7\pi}{18}\cdot\frac{180^\circ}\pi=70^\circ.$$
+
+Vậy $150^\circ=\dfrac{5\pi}6$, $-60^\circ=-\dfrac\pi3$, $\dfrac{5\pi}4=225^\circ$ và $\dfrac{7\pi}{18}=70^\circ$.
 
 **Đáp số.** $\dfrac{5\pi}6$; $-\dfrac\pi3$; $225^\circ$; $70^\circ$.
 :::
@@ -288,7 +296,15 @@ Tìm số đo $\alpha\in[0;2\pi)$ của góc lượng giác có một số đo l
 2. Kiểm tra lại hiệu với số ban đầu.
 
 ::solution
-$\dfrac{31\pi}6=\dfrac{7\pi}6+4\pi$, nên $\alpha=\dfrac{7\pi}6$. $-\dfrac{17\pi}4+6\pi=\dfrac{7\pi}4$, nên $\alpha=\dfrac{7\pi}4$.
+Hai góc lượng giác có số đo hơn kém nhau $k2\pi$ $(k\in\mathbb{Z})$ thì có cùng tia đầu và tia cuối. Vì vậy ta cộng hoặc trừ bội của $2\pi$ để đưa số đo về đoạn $[0; 2\pi)$.
+
+Với $\dfrac{31\pi}6$: ta có $\dfrac{31\pi}6=\dfrac{7\pi}6+\dfrac{24\pi}6=\dfrac{7\pi}6+4\pi$. Vì $\dfrac{7\pi}6\in[0; 2\pi)$ nên $\alpha=\dfrac{7\pi}6$.
+
+Với $-\dfrac{17\pi}4$: cộng thêm $3\cdot2\pi=6\pi$, ta được
+$$-\frac{17\pi}4+6\pi=-\frac{17\pi}4+\frac{24\pi}4=\frac{7\pi}4.$$
+Vì $\dfrac{7\pi}4\in[0; 2\pi)$ nên $\alpha=\dfrac{7\pi}4$.
+
+Vậy $\alpha=\dfrac{7\pi}6$ đối với góc có một số đo là $\dfrac{31\pi}6$, và $\alpha=\dfrac{7\pi}4$ đối với góc có một số đo là $-\dfrac{17\pi}4$.
 
 **Đáp số.** $\dfrac{7\pi}6$; $\dfrac{7\pi}4$.
 :::
@@ -304,7 +320,21 @@ Tính $\sin\dfrac{5\pi}3$, $\cos\left(-\dfrac\pi3\right)$, $\tan\dfrac{3\pi}4$, 
 2. Xác định dấu theo góc phần tư.
 
 ::solution
-$\sin\dfrac{5\pi}3=-\sin\dfrac\pi3=-\dfrac{\sqrt3}2$. $\cos\left(-\dfrac\pi3\right)=\cos\dfrac\pi3=\dfrac12$. $\tan\dfrac{3\pi}4=-\tan\dfrac\pi4=-1$. $\cot\dfrac{7\pi}6=\cot\dfrac\pi6=\sqrt3$.
+Ta đưa mỗi góc về góc nhọn bằng các công thức góc liên quan.
+
+Vì $\dfrac{5\pi}3=2\pi-\dfrac\pi3$ nên
+$$\sin\frac{5\pi}3=\sin\left(-\frac\pi3\right)=-\sin\frac\pi3=-\frac{\sqrt3}2.$$
+
+Vì $\cos$ là hàm số chẵn nên
+$$\cos\left(-\frac\pi3\right)=\cos\frac\pi3=\frac12.$$
+
+Vì $\dfrac{3\pi}4=\pi-\dfrac\pi4$ và $\tan(\pi-x)=-\tan x$ nên
+$$\tan\frac{3\pi}4=-\tan\frac\pi4=-1.$$
+
+Vì $\dfrac{7\pi}6=\dfrac\pi6+\pi$ và $\cot$ tuần hoàn với chu kì $\pi$ nên
+$$\cot\frac{7\pi}6=\cot\frac\pi6=\sqrt3.$$
+
+Vậy $\sin\dfrac{5\pi}3=-\dfrac{\sqrt3}2$, $\cos\left(-\dfrac\pi3\right)=\dfrac12$, $\tan\dfrac{3\pi}4=-1$ và $\cot\dfrac{7\pi}6=\sqrt3$.
 
 **Đáp số.** $-\dfrac{\sqrt3}2$; $\dfrac12$; $-1$; $\sqrt3$.
 :::
@@ -320,7 +350,13 @@ Xác định dấu của $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ khi $\pi<\alph
 2. Đọc dấu từ bảng.
 
 ::solution
-Với $\pi<\alpha<\dfrac{3\pi}2$, điểm biểu diễn ở góc phần tư thứ III, nên $\sin\alpha<0$, $\cos\alpha<0$, $\tan\alpha>0$.
+Gọi $M$ là điểm biểu diễn của góc lượng giác $\alpha$ trên đường tròn lượng giác. Khi $\pi<\alpha<\dfrac{3\pi}2$, điểm $M$ nằm ở góc phần tư thứ III.
+
+Ở góc phần tư thứ III, hoành độ và tung độ của $M$ đều âm. Vì $\cos\alpha$ là hoành độ và $\sin\alpha$ là tung độ của $M$ nên $\cos\alpha<0$ và $\sin\alpha<0$.
+
+Do đó $\tan\alpha=\dfrac{\sin\alpha}{\cos\alpha}>0$ (thương của hai số âm).
+
+Vậy khi $\pi<\alpha<\dfrac{3\pi}2$ thì $\sin\alpha<0$, $\cos\alpha<0$ và $\tan\alpha>0$.
 
 **Đáp số.** $\sin\alpha<0$; $\cos\alpha<0$; $\tan\alpha>0$.
 :::
@@ -340,13 +376,22 @@ c) Toạ độ đầu kim là gì?
 3. Tính góc $\theta=\dfrac\pi2+\alpha$.
 
 ::solution
-a) Góc quay là $-6^\circ\cdot25=-150^\circ=-\dfrac{5\pi}6$.
+Kim phút quay cùng chiều kim đồng hồ (chiều âm) và quay hết một vòng $-360^\circ$ trong $60$ phút, nên mỗi phút kim quay một góc $-6^\circ$.
 
-b) $l=12\cdot\dfrac{5\pi}6=10\pi\approx31{,}4$ (cm).
+a) Sau $25$ phút, kim quay một góc lượng giác
+$$-6^\circ\cdot25=-150^\circ=-150\cdot\frac\pi{180}=-\frac{5\pi}6\ (\text{rad}).$$
 
-c) $\theta=\dfrac\pi2-\dfrac{5\pi}6=-\dfrac\pi3$, nên $x=12\cos\left(-\dfrac\pi3\right)=6$ và $y=12\sin\left(-\dfrac\pi3\right)=-6\sqrt3\approx-10{,}39$.
+b) Đầu kim chuyển động trên đường tròn bán kính $R=12$ cm và đi được cung có số đo $\dfrac{5\pi}6$ rad. Độ dài quãng đường là
+$$l=R\cdot\frac{5\pi}6=12\cdot\frac{5\pi}6=10\pi\approx31{,}4\ (\text{cm}).$$
 
-**Đáp số.** a) $-\dfrac{5\pi}6$; b) $\approx31{,}4$ cm; c) $(6;-6\sqrt3)$.
+c) Lúc $12$ giờ đầu kim ở $(0; 12)$, tức là góc lượng giác từ tia $Ox$ đến tia $OM$ bằng $\dfrac\pi2$. Sau khi quay thêm góc $-\dfrac{5\pi}6$, góc lượng giác của tia $OM$ là
+$$\theta=\frac\pi2-\frac{5\pi}6=-\frac\pi3.$$
+Do đó
+$$x=12\cos\left(-\frac\pi3\right)=12\cdot\frac12=6,\qquad y=12\sin\left(-\frac\pi3\right)=-12\cdot\frac{\sqrt3}2=-6\sqrt3\approx-10{,}39.$$
+
+Vậy sau $25$ phút, kim phút quay một góc $-\dfrac{5\pi}6$ rad; đầu kim đi được quãng đường khoảng $31{,}4$ cm; toạ độ đầu kim là $(6; -6\sqrt3)$.
+
+**Đáp số.** a) $-\dfrac{5\pi}6$; b) $\approx31{,}4$ cm; c) $(6; -6\sqrt3)$.
 :::
 
 :::exercise
@@ -360,7 +405,17 @@ Một vòng đu quay có bán kính $15$ m, tâm cách mặt đất $18$ m. Cabi
 2. Tìm khoảng giá trị của $h$ từ $-1\le\cos\theta\le1$.
 
 ::solution
-Với $\theta=\dfrac\pi3$: $h=18-15\cdot\dfrac12=10{,}5$ (m). Vì $-1\le\cos\theta\le1$ nên $3\le h\le33$. Độ cao nhỏ nhất là $3$ m (khi $\cos\theta=1$), lớn nhất là $33$ m (khi $\cos\theta=-1$).
+Độ cao của cabin là $h=18-15\cos\theta$ (m).
+
+Với $\theta=\dfrac\pi3$ ta có $\cos\dfrac\pi3=\dfrac12$, nên
+$$h=18-15\cdot\frac12=18-7{,}5=10{,}5\ (\text{m}).$$
+
+Với mọi $\theta$ ta có $-1\le\cos\theta\le1$. Nhân các vế với $-15<0$ (đổi chiều bất đẳng thức) ta được $-15\le-15\cos\theta\le15$. Cộng $18$ vào các vế, ta được
+$$3\le h\le33.$$
+
+Dấu bằng bên trái xảy ra khi $\cos\theta=1$, và dấu bằng bên phải xảy ra khi $\cos\theta=-1$. Vì $\cos\theta$ nhận được cả hai giá trị này nên độ cao nhỏ nhất là $3$ m và độ cao lớn nhất là $33$ m.
+
+Vậy khi $\theta=\dfrac\pi3$ cabin ở độ cao $10{,}5$ m; độ cao nhỏ nhất của cabin là $3$ m (khi $\cos\theta=1$) và độ cao lớn nhất là $33$ m (khi $\cos\theta=-1$).
 
 **Đáp số.** $10{,}5$ m; nhỏ nhất $3$ m; lớn nhất $33$ m.
 :::
@@ -384,9 +439,21 @@ d) $\cos\left(\dfrac\pi2-\alpha\right)=\dfrac35$.
 2. Dùng $\sin(\pi-\alpha)=\sin\alpha$ và $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha$.
 
 ::solution
-Ta có $\dfrac1{\cos^2\alpha}=1+\dfrac9{16}=\dfrac{25}{16}$ nên $\cos\alpha=\dfrac45$ (vì $\cos\alpha>0$), và $\sin\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+Vì $0<\alpha<\dfrac\pi2$ nên $\sin\alpha>0$ và $\cos\alpha>0$.
 
-a) **Sai**: $\sin\alpha=\dfrac35$. b) **Đúng**: $\cos\alpha=\dfrac45$. c) **Đúng**: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) **Đúng**: $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+Từ hệ thức $1+\tan^2\alpha=\dfrac1{\cos^2\alpha}$ và $\tan\alpha=\dfrac34$, ta có
+$$\frac1{\cos^2\alpha}=1+\frac9{16}=\frac{25}{16},\ \text{suy ra}\ \cos^2\alpha=\frac{16}{25}.$$
+Vì $\cos\alpha>0$ nên $\cos\alpha=\dfrac45$. Khi đó $\sin\alpha=\tan\alpha\cdot\cos\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+
+a) **Sai.** Ta có $\sin\alpha=\dfrac35\ne\dfrac45$.
+
+b) **Đúng.** Theo trên, $\cos\alpha=\dfrac45$.
+
+c) **Đúng.** Hai góc bù nhau có cùng sin nên $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$.
+
+d) **Đúng.** Hai góc phụ nhau nên $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+
+Vậy các mệnh đề b), c), d) đúng; mệnh đề a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 :::
@@ -402,7 +469,15 @@ Cho $\tan\alpha=3$. Tính giá trị của $A=\dfrac{2\sin\alpha+\cos\alpha}{\si
 2. Chia tử và mẫu cho $\cos\alpha$.
 
 ::solution
-Chia tử và mẫu cho $\cos\alpha$: $A=\dfrac{2\tan\alpha+1}{\tan\alpha-1}=\dfrac{2\cdot3+1}{3-1}=\dfrac72=3{,}5$.
+Vì $\tan\alpha=3$ xác định nên $\cos\alpha\ne0$. Mẫu số bằng $\sin\alpha-\cos\alpha=\cos\alpha\,(\tan\alpha-1)=2\cos\alpha\ne0$, nên biểu thức $A$ xác định.
+
+Chia cả tử và mẫu của $A$ cho $\cos\alpha\ne0$, ta được
+$$A=\frac{2\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}=\frac{2\tan\alpha+1}{\tan\alpha-1}.$$
+
+Thay $\tan\alpha=3$, ta có
+$$A=\frac{2\cdot3+1}{3-1}=\frac72=3{,}5.$$
+
+Vậy $A=3{,}5$.
 
 **Đáp số.** $3{,}5$.
 :::
@@ -418,7 +493,15 @@ Tam giác $ABC$ vuông tại $A$ có $AB=6$ và $AC=8$. Tính $\sin B$, $\cos B$
 2. Viết các tỉ số rồi kiểm tra hệ thức.
 
 ::solution
-$BC=\sqrt{6^2+8^2}=10$. Do đó $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$. Kiểm tra: $\dfrac{16}{25}+\dfrac9{25}=1$.
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Áp dụng định nghĩa tỉ số lượng giác của góc nhọn $B$ (cạnh đối $AC$, cạnh kề $AB$, cạnh huyền $BC$), ta có
+$$\sin B=\frac{AC}{BC}=\frac8{10}=\frac45,\qquad \cos B=\frac{AB}{BC}=\frac6{10}=\frac35,\qquad \tan B=\frac{AC}{AB}=\frac86=\frac43.$$
+
+Kiểm tra hệ thức: $\sin^2B+\cos^2B=\dfrac{16}{25}+\dfrac9{25}=\dfrac{25}{25}=1$.
+
+Vậy $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$ và hệ thức $\sin^2B+\cos^2B=1$ được nghiệm đúng.
 
 **Đáp số.** $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$.
 :::
@@ -434,7 +517,15 @@ Chứng minh rằng $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ vớ
 2. Viết $a^3+b^3$ qua $a+b$ và $ab$.
 
 ::solution
-Đặt $a=\sin^2\alpha$, $b=\cos^2\alpha$ thì $a+b=1$. Ta có $\sin^6\alpha+\cos^6\alpha=a^3+b^3=(a+b)^3-3ab(a+b)=1-3ab$. Do đó vế trái bằng $1-3ab+3ab=1$.
+Ta biến đổi vế trái. Đặt $a=\sin^2\alpha$ và $b=\cos^2\alpha$. Theo hệ thức cơ bản $\sin^2\alpha+\cos^2\alpha=1$, ta có $a+b=1$.
+
+Áp dụng hằng đẳng thức $a^3+b^3=(a+b)^3-3ab(a+b)$ và thay $a+b=1$, ta được
+$$\begin{aligned}\sin^6\alpha+\cos^6\alpha&=a^3+b^3\\&=(a+b)^3-3ab(a+b)\\&=1-3ab.\end{aligned}$$
+
+Mặt khác $3\sin^2\alpha\cos^2\alpha=3ab$. Do đó
+$$\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1-3ab+3ab=1.$$
+
+Vậy $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ với mọi $\alpha$.
 
 **Đáp số.** Đẳng thức được chứng minh.
 :::

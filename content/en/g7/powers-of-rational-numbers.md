@@ -355,13 +355,18 @@ c) $\left(\dfrac12\right)^3\cdot6^3$.
 3. Part c: what is $\dfrac12\cdot6$?
 
 ::solution
-a) We have $(0.25)^3\cdot4^3=(0.25\cdot4)^3=1^3=1$.
+We use the formulas $x^n\cdot y^n=(x\cdot y)^n$ and $x^n\div y^n=(x\div y)^n$ ($y\neq0$).
 
-b) We have $15^5:3^5=(15:3)^5=5^5=3125$.
+a) We have
+$$(0.25)^3\cdot4^3=(0.25\cdot4)^3=1^3=1.$$
 
-c) We have $\left(\dfrac12\right)^3\cdot6^3=\left(\dfrac12\cdot6\right)^3=3^3=27$.
+b) We have
+$$15^5:3^5=(15:3)^5=5^5=3125.$$
 
-So the results are $1$, $3125$ and $27$.
+c) We have
+$$\left(\frac12\right)^3\cdot6^3=\left(\frac12\cdot6\right)^3=3^3=27.$$
+
+So the results of a), b), c) are $1$, $3125$ and $27$ respectively.
 
 **Answer.** a) $1$. b) $3125$. c) $27$.
 :::
@@ -408,9 +413,19 @@ b) $\left(\dfrac13\right)^{20}$ and $\left(\dfrac19\right)^{10}$.
 2. Part b: write $\dfrac19=\left(\dfrac13\right)^2$.
 
 ::solution
-a) We have $2^{500}=\left(2^5\right)^{100}=32^{100}$ and $5^{200}=\left(5^2\right)^{100}=25^{100}$. Since $32>25$, we get $32^{100}>25^{100}$. So $2^{500}>5^{200}$.
+We use the formula $(x^m)^n=x^{m\cdot n}$ to bring the numbers to the same exponent or the same base.
 
-b) We have $\dfrac19=\left(\dfrac13\right)^2$, so $\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}$. So the two numbers are equal.
+a) We have
+$$2^{500}=\left(2^5\right)^{100}=32^{100},\qquad 5^{200}=\left(5^2\right)^{100}=25^{100}.$$
+
+The powers $32^{100}$ and $25^{100}$ have the same exponent $100$ and $32>25$, so $32^{100}>25^{100}$.
+
+So $2^{500}>5^{200}$.
+
+b) We have $\dfrac19=\left(\dfrac13\right)^2$, so
+$$\left(\dfrac19\right)^{10}=\left[\left(\dfrac13\right)^2\right]^{10}=\left(\dfrac13\right)^{20}.$$
+
+So $\left(\dfrac13\right)^{20}=\left(\dfrac19\right)^{10}$, that is, the two numbers are equal.
 
 **Answer.** a) $2^{500}>5^{200}$. b) The two numbers are equal.
 :::

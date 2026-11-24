@@ -160,11 +160,16 @@ a) $4\ \text{m}\ 6\ \text{dm}=?\ \text{cm}$; b) $6\ \text{kg}\ 80\ \text{g}=?\ \
 2. Cộng với phần đơn vị bé còn lại.
 
 ::solution
-a) $4\ \text{m}=400\ \text{cm}$ và $6\ \text{dm}=60\ \text{cm}$, nên $400+60=460\ \text{cm}$.
+a) Ta có $1$ m $=100$ cm nên $4$ m $=4\times100=400$ cm. Ta có $1$ dm $=10$ cm nên $6$ dm $=6\times10=60$ cm. Do đó
+$$4\ \text{m}\ 6\ \text{dm}=400\ \text{cm}+60\ \text{cm}=460\ \text{cm}.$$
 
-b) $6\ \text{kg}=6000\ \text{g}$, nên $6000+80=6080\ \text{g}$.
+b) Ta có $1$ kg $=1000$ g nên $6$ kg $=6000$ g. Do đó
+$$6\ \text{kg}\ 80\ \text{g}=6000\ \text{g}+80\ \text{g}=6080\ \text{g}.$$
 
-c) $3$ tạ $=300\ \text{kg}$, nên $300+20=320\ \text{kg}$.
+c) Ta có $1$ tạ $=100$ kg nên $3$ tạ $=300$ kg. Do đó
+$$3\ \text{tạ}\ 20\ \text{kg}=300\ \text{kg}+20\ \text{kg}=320\ \text{kg}.$$
+
+Vậy các số cần điền là $460$; $6080$; $320$.
 
 **Đáp số.** a) $460$; b) $6080$; c) $320$.
 :::
@@ -181,11 +186,16 @@ a) $3\ \text{m}^2=?\ \text{dm}^2$; b) $8\ \text{dm}^2\ 15\ \text{cm}^2=?\ \text{
 2. Đổi đơn vị lớn ra bé thì nhân, đổi bé ra lớn thì chia.
 
 ::solution
-a) $3\ \text{m}^2=3\times100=300\ \text{dm}^2$.
+a) Ta có $1\ \text{m}^2=100\ \text{dm}^2$ nên
+$$3\ \text{m}^2=3\times100=300\ \text{dm}^2.$$
 
-b) $8\ \text{dm}^2=800\ \text{cm}^2$, nên $800+15=815\ \text{cm}^2$.
+b) Ta có $1\ \text{dm}^2=100\ \text{cm}^2$ nên $8\ \text{dm}^2=8\times100=800\ \text{cm}^2$. Do đó
+$$8\ \text{dm}^2\ 15\ \text{cm}^2=800\ \text{cm}^2+15\ \text{cm}^2=815\ \text{cm}^2.$$
 
-c) $20\,000:10\,000=2$, nên $20\,000\ \text{cm}^2=2\ \text{m}^2$.
+c) Ta có $1\ \text{m}^2=10\,000\ \text{cm}^2$ (vì $1$ m $=100$ cm và $100\times100=10\,000$). Do đó
+$$20\,000\ \text{cm}^2=20\,000:10\,000=2\ \text{m}^2.$$
+
+Vậy các số cần điền là $300$; $815$; $2$.
 
 **Đáp số.** a) $300$; b) $815$; c) $2$.
 :::
@@ -201,9 +211,15 @@ Một hình chữ nhật có chiều dài $15$ m, chiều rộng $8$ m. Tính ch
 2. Tính chu vi (mét), rồi diện tích (mét vuông).
 
 ::solution
-Chu vi hình chữ nhật là $(15+8)\times2=46$ (m).
+Bài giải
 
-Diện tích hình chữ nhật là $15\times8=120$ ($\text{m}^2$).
+Chu vi hình chữ nhật bằng tổng chiều dài và chiều rộng (cùng đơn vị đo) nhân với $2$. Chu vi hình chữ nhật là:
+$$(15+8)\times2=46\ \text{(m)}$$
+
+Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng. Diện tích hình chữ nhật là:
+$$15\times8=120\ \text{(m}^2\text{)}$$
+
+Vậy hình chữ nhật có chu vi $46$ m và diện tích $120\ \text{m}^2$.
 
 **Đáp số.** Chu vi $46$ m; diện tích $120\ \text{m}^2$.
 :::
@@ -219,9 +235,15 @@ Một hình vuông có chu vi $36$ dm. Tính cạnh và diện tích của hình
 2. Tính diện tích: cạnh nhân cạnh.
 
 ::solution
-Cạnh hình vuông là $36:4=9$ (dm).
+Bài giải
 
-Diện tích hình vuông là $9\times9=81$ ($\text{dm}^2$).
+Hình vuông có $4$ cạnh bằng nhau nên cạnh hình vuông bằng chu vi chia cho $4$. Cạnh hình vuông là:
+$$36:4=9\ \text{(dm)}$$
+
+Diện tích hình vuông bằng cạnh nhân với cạnh. Diện tích hình vuông là:
+$$9\times9=81\ \text{(dm}^2\text{)}$$
+
+Vậy hình vuông có cạnh $9$ dm và diện tích $81\ \text{dm}^2$.
 
 **Đáp số.** Cạnh $9$ dm; diện tích $81\ \text{dm}^2$.
 :::
@@ -237,9 +259,15 @@ Bác Nam rào xung quanh một khu vườn hình chữ nhật dài $30$ m, rộn
 2. Bớt đi phần cổng không cần rào. Thử lại: kết quả phải bé hơn chu vi.
 
 ::solution
-Chu vi khu vườn là $(30+20)\times2=100$ (m).
+Bài giải
 
-Số mét hàng rào cần dùng là $100-2=98$ (m).
+Chu vi khu vườn hình chữ nhật là:
+$$(30+20)\times2=100\ \text{(m)}$$
+
+Chỗ chừa cổng rộng $2$ m không phải rào, nên số mét hàng rào cần dùng là:
+$$100-2=98\ \text{(m)}$$
+
+Vậy bác Nam cần $98$ m hàng rào.
 
 **Đáp số.** $98$ m.
 :::
@@ -255,8 +283,14 @@ Một cửa hàng nhập $2$ tạ gạo và đã bán $75$ kg. Hỏi cửa hàng
 2. Lấy số gạo nhập trừ số gạo đã bán.
 
 ::solution
-$2$ tạ $=200\ \text{kg}$. Số gạo còn lại là:
-$$200-75=125\ \text{(kg)}.$$
+Bài giải
+
+Ta có $1$ tạ $=100$ kg nên $2$ tạ $=200$ kg.
+
+Số ki-lô-gam gạo còn lại là:
+$$200-75=125\ \text{(kg)}$$
+
+Vậy cửa hàng còn lại $125$ kg gạo.
 
 **Đáp số.** $125$ kg.
 :::
@@ -272,9 +306,15 @@ Em hãy nhớ lại bài cộng, trừ phân số khác mẫu số. Một hình 
 2. Nhân tổng đó với $2$, rồi rút gọn.
 
 ::solution
-Nửa chu vi là $\dfrac{3}{4}+\dfrac{1}{2}=\dfrac{3}{4}+\dfrac{2}{4}=\dfrac{5}{4}$ (m).
+Bài giải
 
-Chu vi hình chữ nhật là $\dfrac{5}{4}\times2=\dfrac{5}{2}=2\dfrac{1}{2}$ (m).
+Nửa chu vi hình chữ nhật bằng tổng chiều dài và chiều rộng. Quy đồng mẫu số với mẫu số chung là $4$, ta có $\dfrac{1}{2}=\dfrac{2}{4}$. Nửa chu vi là:
+$$\frac{3}{4}+\frac{1}{2}=\frac{3}{4}+\frac{2}{4}=\frac{5}{4}\ \text{(m)}$$
+
+Chu vi hình chữ nhật là:
+$$\frac{5}{4}\times2=\frac{5\times2}{4}=\frac{10}{4}=\frac{5}{2}=2\frac{1}{2}\ \text{(m)}$$
+
+Vậy chu vi hình chữ nhật là $2\dfrac{1}{2}$ m.
 
 **Đáp số.** $2\dfrac{1}{2}$ m.
 :::
@@ -290,10 +330,22 @@ Một tấm bìa hình chữ nhật dài $90$ cm, rộng $60$ cm được cắt 
 2. Nhân hai số vừa tìm. Thử lại bằng diện tích.
 
 ::solution
-Dọc chiều dài xếp được $90:30=3$ hình vuông. Dọc chiều rộng xếp được $60:30=2$ hình vuông. Số hình vuông cắt được là:
-$$3\times2=6\ \text{(hình)}.$$
+Bài giải
 
-**Kiểm tra.** $90\times60=5400\ \text{cm}^2$ và $6\times30\times30=5400\ \text{cm}^2$. Đúng.
+Vì không thừa mảnh nào nên các cạnh $30$ cm của hình vuông xếp vừa khít theo chiều dài và chiều rộng tấm bìa.
+
+Dọc chiều dài xếp được số hình vuông là:
+$$90:30=3\ \text{(hình)}$$
+
+Dọc chiều rộng xếp được số hình vuông là:
+$$60:30=2\ \text{(hình)}$$
+
+Số hình vuông cắt được là:
+$$3\times2=6\ \text{(hình)}$$
+
+Kiểm tra: diện tích tấm bìa là $90\times60=5400\ \text{cm}^2$ và diện tích $6$ hình vuông là $6\times30\times30=5400\ \text{cm}^2$. Hai diện tích bằng nhau (đúng).
+
+Vậy cắt được $6$ hình vuông.
 
 **Đáp số.** $6$ hình vuông.
 :::
@@ -309,9 +361,25 @@ Một hình chữ nhật có chu vi $24$ cm, hai cạnh đều là số đo tự
 2. Tính diện tích từng cặp và so sánh.
 
 ::solution
-Nửa chu vi là $24:2=12$ cm, nên chiều dài cộng chiều rộng bằng $12$ cm. Ta có các cặp: $1\times11=11$; $2\times10=20$; $3\times9=27$; $4\times8=32$; $5\times7=35$; $6\times6=36$ ($\text{cm}^2$).
+Bài giải
 
-Diện tích lớn nhất là $36\ \text{cm}^2$, khi hình chữ nhật là hình vuông cạnh $6$ cm.
+Nửa chu vi hình chữ nhật là:
+$$24:2=12\ \text{(cm)}$$
+
+Vậy chiều dài cộng chiều rộng bằng $12$ cm. Vì hai cạnh đều là số tự nhiên (đơn vị: xăng-ti-mét) nên ta liệt kê các cặp số có tổng bằng $12$ (đổi chỗ chiều dài và chiều rộng thì diện tích không đổi) và tính diện tích:
+
+| Chiều dài (cm) | Chiều rộng (cm) | Diện tích ($\text{cm}^2$) |
+|---|---|---|
+| $11$ | $1$ | $11\times1=11$ |
+| $10$ | $2$ | $10\times2=20$ |
+| $9$ | $3$ | $9\times3=27$ |
+| $8$ | $4$ | $8\times4=32$ |
+| $7$ | $5$ | $7\times5=35$ |
+| $6$ | $6$ | $6\times6=36$ |
+
+So sánh các diện tích: $11<20<27<32<35<36$, nên diện tích lớn nhất là $36\ \text{cm}^2$, đạt được khi chiều dài bằng chiều rộng bằng $6$ cm, tức là hình chữ nhật là hình vuông cạnh $6$ cm.
+
+Vậy diện tích lớn nhất có thể của hình chữ nhật đó là $36\ \text{cm}^2$.
 
 **Đáp số.** $36\ \text{cm}^2$.
 :::

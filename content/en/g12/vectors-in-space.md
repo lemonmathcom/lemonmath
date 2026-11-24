@@ -361,13 +361,21 @@ d) The angle between the vectors $\overrightarrow{AC}$ and $\overrightarrow{B'D'
 3. d) $\overrightarrow{B'D'}=\overrightarrow{BD}$; the diagonals of a square are perpendicular.
 
 ::solution
-a) **True.** This is the parallelepiped rule.
+In the cube $ABCD.A'B'C'D'$ with edge $1$, the three vectors $\overrightarrow{AB}$, $\overrightarrow{AD}$, $\overrightarrow{AA'}$ are pairwise perpendicular and each has length $1$. We examine each statement in turn.
 
-b) **True.** We have $AC'^2=1+1+1=3$.
+a) **True.** By the parallelepiped rule, for the parallelepiped $ABCD.A'B'C'D'$ we have $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
 
-c) **False.** Since $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$, we have $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
+b) **True.** By part a), $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$. Since these three vectors are pairwise perpendicular, the cross dot products are all $0$, and
+$$AC'^2=AB^2+AD^2+AA'^2=1+1+1=3.$$
+Hence $AC'=\sqrt3$.
 
-d) **True.** We have $\overrightarrow{B'D'}=\overrightarrow{BD}$ and $AC\perp BD$ (the diagonals of the square $ABCD$).
+c) **False.** Since $ABCD$ is a square, $\overrightarrow{CD}=-\overrightarrow{AB}$; since $DD'\parallel AA'$ and $DD'=AA'$, $\overrightarrow{DD'}=\overrightarrow{AA'}$. Therefore $\overrightarrow{CD'}=\overrightarrow{CD}+\overrightarrow{DD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$. We have
+$$\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-AB^2+\overrightarrow{AB}\cdot\overrightarrow{AA'}=-1+0=-1,$$
+which is not $1$.
+
+d) **True.** Since $BB'D'D$ is a rectangle, $\overrightarrow{B'D'}=\overrightarrow{BD}$. In the square $ABCD$ the two diagonals are perpendicular, so $AC\perp BD$. Hence the angle between the vectors $\overrightarrow{AC}$ and $\overrightarrow{B'D'}$ is $90^\circ$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -402,8 +410,16 @@ So the required angle is about $39^\circ$.
 2. Add the three equalities.
 
 ::solution
-By the triangle rule, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Since $G$ is the centroid of triangle $BCD$, $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Adding the three equations, we get
-$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+Since $G$ is the centroid of triangle $BCD$, we have the relation
+$$\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}.$$
+
+By the triangle rule, we have
+$$\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB},\qquad \overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC},\qquad \overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}.$$
+
+Adding the three equations side by side, we get
+$$\begin{aligned}\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}&=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)\\ &=3\overrightarrow{AG}+\vec{0}\\ &=3\overrightarrow{AG}.\end{aligned}$$
+
+So $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
 
 **Answer.** The identity is proved.
 :::

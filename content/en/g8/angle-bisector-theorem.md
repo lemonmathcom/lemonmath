@@ -161,7 +161,11 @@ In triangle $ABC$, $AB=4$ and $AC=6$. The bisector $AD$ ($D$ on $BC$) has $DB=2$
 2. Solve for $DC$.
 
 ::solution
-Since $AD$ is the bisector, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, that is $\dfrac{2}{DC}=\dfrac46$. Hence $DC=\dfrac{2\cdot6}{4}=3$.
+Since $AD$ is the bisector of angle $A$ in triangle $ABC$, the angle bisector theorem gives
+$$\frac{DB}{DC}=\frac{AB}{AC}.$$
+
+Substituting $DB=2$, $AB=4$, $AC=6$, we get $\dfrac{2}{DC}=\dfrac46$. Hence
+$$DC=\frac{2\cdot6}{4}=3.$$
 
 So $DC=3$.
 
@@ -179,7 +183,15 @@ In triangle $ABC$, $AB=10$, $AC=14$ and $BC=18$. The bisector $AD$ meets $BC$ at
 2. Find $DB$, then $DC=BC-DB$.
 
 ::solution
-Since $AD$ is the bisector, $DB=18\cdot\dfrac{10}{24}=7.5$. Hence $DC=18-7.5=10.5$.
+Since $AD$ is the bisector of angle $A$ in triangle $ABC$, the angle bisector theorem gives
+$$\frac{DB}{DC}=\frac{AB}{AC}=\frac{10}{14}.$$
+
+Hence $\dfrac{DB}{DB+DC}=\dfrac{10}{10+14}$, that is $\dfrac{DB}{BC}=\dfrac{10}{24}$ (since $D$ lies between $B$ and $C$, $DB+DC=BC$). Therefore
+$$DB=18\cdot\frac{10}{24}=7.5.$$
+
+Then $DC=BC-DB=18-7.5=10.5$.
+
+Check: $\dfrac{DB}{DC}=\dfrac{7.5}{10.5}=\dfrac{5}{7}=\dfrac{10}{14}$ (correct).
 
 So $DB=7.5$ and $DC=10.5$.
 
@@ -197,7 +209,11 @@ In triangle $ABC$, $AB=7.5$. The bisector $AD$ ($D$ on $BC$) has $DB=4.5$ and $D
 2. Use the properties of proportions to find $AC$.
 
 ::solution
-Since $AD$ is the bisector, $\dfrac{AB}{AC}=\dfrac{DB}{DC}$, that is $\dfrac{7.5}{AC}=\dfrac{4.5}{6}$. Hence $AC=\dfrac{7.5\cdot6}{4.5}=10$.
+Since $AD$ is the bisector of angle $A$ in triangle $ABC$, the angle bisector theorem gives
+$$\frac{AB}{AC}=\frac{DB}{DC}.$$
+
+Substituting $AB=7.5$, $DB=4.5$, $DC=6$, we get $\dfrac{7.5}{AC}=\dfrac{4.5}{6}$. Hence
+$$AC=\frac{7.5\cdot6}{4.5}=\frac{45}{4.5}=10.$$
 
 So $AC=10$.
 
@@ -257,9 +273,19 @@ In triangle $ABC$, $AD$ is the bisector of angle $A$ ($D$ on $BC$). Prove that $
 2. Use $DB+DC=BC$.
 
 ::solution
-Since $AD$ is the bisector, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, so $\dfrac{DB}{AB}=\dfrac{DC}{AC}$. By the property of equal ratios,
+Given: triangle $ABC$ with $AD$ the bisector of angle $A$ ($D$ on $BC$).
+
+To prove: $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+Proof. Since $AD$ is the bisector, the angle bisector theorem gives $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, so $\dfrac{DB}{AB}=\dfrac{DC}{AC}$.
+
+By the property of equal ratios,
 $$\frac{DB}{AB}=\frac{DC}{AC}=\frac{DB+DC}{AB+AC}=\frac{BC}{AB+AC}.$$
-Hence $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+(Here $DB+DC=BC$ because $D$ lies between $B$ and $C$.)
+
+From $\dfrac{DB}{AB}=\dfrac{BC}{AB+AC}$ we get $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+So $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$ (as required).
 
 **Answer.** Proved.
 :::
@@ -275,7 +301,14 @@ In triangle $ABC$, $AB=10$, $AC=15$ and $BC=20$. The bisector $AD$ meets $BC$ at
 2. Write $\dfrac{DE}{AB}=\dfrac{CD}{CB}$.
 
 ::solution
-Since $AD$ is the bisector, $DC=20\cdot\dfrac{15}{25}=12$. Since $DE\parallel AB$, the intercept theorem gives $\dfrac{DE}{AB}=\dfrac{CD}{CB}=\dfrac{12}{20}$. Hence $DE=10\cdot\dfrac{12}{20}=6$.
+Since $AD$ is the bisector of angle $A$ in triangle $ABC$, we have $\dfrac{DB}{DC}=\dfrac{AB}{AC}=\dfrac{10}{15}$. By the property of equal ratios, $\dfrac{DC}{BC}=\dfrac{AC}{AB+AC}=\dfrac{15}{25}$. Therefore
+$$DC=20\cdot\frac{15}{25}=12.$$
+
+Since $DE\parallel AB$ (with $E$ on $AC$), the intercept theorem (in triangle $CAB$ with $DE\parallel AB$) gives
+$$\frac{DE}{AB}=\frac{CD}{CB}=\frac{12}{20}.$$
+
+Hence
+$$DE=10\cdot\frac{12}{20}=6.$$
 
 So $DE=6$.
 
@@ -293,7 +326,15 @@ Triangle $ABC$ has $AB=6$ cm, $AC=10$ cm and area $48$ cm². The bisector $AD$ m
 2. Share $48$ cm² in that ratio.
 
 ::solution
-We have $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac{6}{10}=\dfrac35$ and $S_{ABD}+S_{ACD}=48$. Hence $S_{ABD}=\dfrac38\cdot48=18$ (cm²) and $S_{ACD}=48-18=30$ (cm²).
+Triangles $ABD$ and $ACD$ share the same height from $A$ to $BC$, so the ratio of their areas equals the ratio of their bases: $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{DB}{DC}$.
+
+Since $AD$ is the bisector, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$. Therefore
+$$\frac{S_{ABD}}{S_{ACD}}=\frac{AB}{AC}=\frac{6}{10}=\frac35.$$
+
+Also $D$ lies between $B$ and $C$, so $S_{ABD}+S_{ACD}=S_{ABC}=48$ (cm²). By the property of equal ratios, $\dfrac{S_{ABD}}{3}=\dfrac{S_{ACD}}{5}=\dfrac{48}{8}=6$. Hence
+$$S_{ABD}=\frac38\cdot48=18\ (\text{cm}^2),\qquad S_{ACD}=48-18=30\ (\text{cm}^2).$$
+
+Check: $\dfrac{18}{30}=\dfrac35$ (correct).
 
 So $S_{ABD}=18$ cm² and $S_{ACD}=30$ cm².
 

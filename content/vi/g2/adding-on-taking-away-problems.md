@@ -167,9 +167,14 @@ Trong giỏ có 8 quả táo. Mẹ cho thêm 5 quả táo. Hỏi trong giỏ có
 ::solution
 Bài giải
 
+Mẹ cho thêm táo vào giỏ nên số táo tăng lên. Ta làm phép cộng.
+
 Trong giỏ có tất cả số quả táo là:
 $$8+5=13\ \text{(quả)}.$$
-Đáp số: 13 quả táo.
+
+Vậy trong giỏ có tất cả 13 quả táo.
+
+**Đáp số.** 13 quả táo.
 :::
 
 :::exercise
@@ -186,9 +191,14 @@ Hà có 16 cái kẹo. Hà ăn 4 cái kẹo. Hỏi Hà còn lại bao nhiêu cá
 ::solution
 Bài giải
 
+Hà ăn kẹo nên số kẹo giảm đi. Ta làm phép trừ.
+
 Hà còn lại số cái kẹo là:
 $$16-4=12\ \text{(cái)}.$$
-Đáp số: 12 cái kẹo.
+
+Vậy Hà còn lại 12 cái kẹo.
+
+**Đáp số.** 12 cái kẹo.
 :::
 
 :::exercise
@@ -204,9 +214,14 @@ Lan có 6 bông hoa. Mai có nhiều hơn Lan 7 bông hoa. Hỏi Mai có bao nhi
 ::solution
 Bài giải
 
+Mai có nhiều hơn Lan 7 bông hoa, nên số hoa của Mai bằng số hoa của Lan cộng thêm 7. Ta làm phép cộng.
+
 Mai có số bông hoa là:
 $$6+7=13\ \text{(bông)}.$$
-Đáp số: 13 bông hoa.
+
+Vậy Mai có 13 bông hoa.
+
+**Đáp số.** 13 bông hoa.
 :::
 
 :::exercise
@@ -223,9 +238,14 @@ Nam có 15 viên bi. Hà có ít hơn Nam 4 viên bi. Hỏi Hà có bao nhiêu v
 ::solution
 Bài giải
 
+Hà có ít hơn Nam 4 viên bi, nên số bi của Hà bằng số bi của Nam bớt đi 4. Ta làm phép trừ.
+
 Hà có số viên bi là:
 $$15-4=11\ \text{(viên)}.$$
-Đáp số: 11 viên bi.
+
+Vậy Hà có 11 viên bi.
+
+**Đáp số.** 11 viên bi.
 :::
 
 :::exercise
@@ -242,9 +262,14 @@ Giả sử trên xe buýt có 18 người. Đến bến, có 5 người xuống 
 ::solution
 Bài giải
 
+Đến bến, có 5 người xuống xe nên số người trên xe giảm đi. Ta làm phép trừ.
+
 Trên xe còn lại số người là:
 $$18-5=13\ \text{(người)}.$$
-Đáp số: 13 người.
+
+Vậy trên xe còn lại 13 người.
+
+**Đáp số.** 13 người.
 :::
 
 :::exercise
@@ -261,9 +286,14 @@ Giả sử sân trường có 17 cây phượng. Số cây bàng ít hơn số c
 ::solution
 Bài giải
 
+Số cây bàng ít hơn số cây phượng 6 cây, nên số cây bàng bằng số cây phượng bớt đi 6. Ta làm phép trừ.
+
 Sân trường có số cây bàng là:
 $$17-6=11\ \text{(cây)}.$$
-Đáp số: 11 cây bàng.
+
+Vậy sân trường có 11 cây bàng.
+
+**Đáp số.** 11 cây bàng.
 :::
 
 :::exercise
@@ -281,9 +311,13 @@ b) Em kiểm tra lại: lấy số bi của An cộng với số viên Bình nhi
 2. Câu b: cộng số bi của An với kết quả câu a.
 
 ::solution
-a) Bình nhiều hơn An số viên bi là $16-12=4$ (viên).
+a) Để biết Bình nhiều hơn An mấy viên bi, ta lấy số bi của Bình trừ đi số bi của An:
+$$16-12=4\ \text{(viên)}.$$
+Vậy Bình nhiều hơn An $4$ viên bi.
 
-b) Ta có $12+4=16$, đúng bằng số bi của Bình.
+b) Ta lấy số bi của An cộng với số viên bi Bình nhiều hơn:
+$$12+4=16\ \text{(viên)}.$$
+Kết quả $16$ đúng bằng số bi của Bình. Vậy phép tính ở câu a) đúng.
 
 **Đáp số.** a) 4 viên bi; b) đúng.
 :::
@@ -299,10 +333,13 @@ Hà có 8 viên bi. Nam có nhiều hơn Hà 3 viên bi. Lan có ít hơn Nam 2 
 2. Lan ít hơn Nam: dùng phép tính nào?
 
 ::solution
-Số viên bi của Nam là:
+Nam có nhiều hơn Hà 3 viên bi, nên số viên bi của Nam là:
 $$8+3=11\ \text{(viên)}.$$
-Số viên bi của Lan là:
+
+Lan có ít hơn Nam 2 viên bi, nên số viên bi của Lan là:
 $$11-2=9\ \text{(viên)}.$$
+
+Vậy Lan có 9 viên bi.
 
 **Đáp số.** 9 viên bi.
 :::

@@ -203,7 +203,13 @@ D. $1$.
 1. Read off the mark for $3$ correct statements.
 
 ::solution
-By the scale, $3$ correct statements give $0.5$. Option B is the mistake $3\cdot0.25$.
+By the marking scale for a true/false question: $1$ correct statement gives $0.1$ marks; $2$ correct statements give $0.25$; $3$ correct statements give $0.5$; all $4$ correct give $1$.
+
+You judge $3$ statements correctly, so you get $0.5$ marks.
+
+So the answer is **A**.
+
+*Remark.* Option B is the mistake $3\cdot0.25=0.75$: the mark does not grow evenly with the number of correct statements. Option C is the mark for $2$ correct statements; option D is the mark for all $4$ correct.
 
 **Answer.** A.
 :::
@@ -219,7 +225,17 @@ Bình gets $9$ questions right in Part I; in Part II, $4$, $4$, $2$, $1$ stateme
 2. Add the three parts.
 
 ::solution
-Part I: $9\cdot0.25=2.25$. Part II: $1+1+0.25+0.1=2.35$. Part III: $3\cdot0.5=1.5$.
+By the marking scale: each correct Part I question gives $0.25$ marks; each correct Part III question gives $0.5$ marks; each Part II question is marked by the number of correct statements ($1$ statement: $0.1$; $2$: $0.25$; $3$: $0.5$; $4$: $1$ mark).
+
+Part I: Bình gets $9$ questions right, so $9\cdot0.25=2.25$ marks.
+
+Part II: the questions have $4$, $4$, $2$, $1$ statements right, so $1+1+0.25+0.1=2.35$ marks.
+
+Part III: Bình gets $3$ questions right, so $3\cdot0.5=1.5$ marks.
+
+The total is $2.25+2.35+1.5=6.1$ marks.
+
+So Bình's mark is $6.1$.
 
 **Answer.** $2.25+2.35+1.5=6.1$.
 :::
@@ -235,7 +251,13 @@ A short-answer question asks for 1 decimal place, and the exact result is $-\dfr
 2. Count the characters if rounded to 2 decimal places.
 
 ::solution
-$-\dfrac23\approx-0.667$, which to 1 decimal place is $-0.7$: four characters "−", "0", ",", "7". To 2 decimal places it would be $-0.67$, which needs $5$ boxes and cannot be written.
+We compute $-\dfrac23\approx-0.667$.
+
+To 1 decimal place this is $-0.7$. The answer has four characters "−", "0", ",", "7", which exactly fill the four boxes.
+
+To 2 decimal places it would be $-0.67$, with five characters "−", "0", ",", "6", "7", which needs $5$ boxes and cannot be written in $4$.
+
+So you write $-0.7$ in the $4$ boxes; the question does not ask for 2 decimal places because $-0.67$ needs $5$ boxes, while the answer sheet has only $4$.
 
 **Answer.** $-0.7$.
 :::
@@ -255,7 +277,16 @@ D. $x=2$.
 2. Find the limit as $x\to+\infty$.
 
 ::solution
-Options B and D are vertical lines, so they are ruled out. $\lim\limits_{x\to\pm\infty}\dfrac{2x+1}{x-1}=2$. Option C takes the ratio of the constant terms $\dfrac{1}{-1}$.
+The function $y=\dfrac{2x+1}{x-1}$ is defined for all $x\neq1$.
+
+The horizontal asymptote is found from the limit of the function as $x\to\pm\infty$. Dividing the numerator and the denominator by $x$, we have
+$$\lim_{x\to\pm\infty}\frac{2x+1}{x-1}=\lim_{x\to\pm\infty}\frac{2+\frac1x}{1-\frac1x}=\frac{2+0}{1-0}=2.$$
+
+Hence the graph has the horizontal asymptote $y=2$.
+
+So the answer is **A**.
+
+*Remark.* Options B and D are vertical lines ($x=1$, $x=2$), so they cannot be horizontal asymptotes. Option C takes the ratio of the constant terms $\dfrac{1}{-1}=-1$, whereas the horizontal asymptote uses the ratio of the coefficients of $x$, that is $\dfrac21$.
 
 **Answer.** A.
 :::
@@ -278,13 +309,19 @@ d) $\displaystyle\int_0^2 f(x)g(x)\,dx=-3$.
 1. Judge each statement with exactly one property.
 
 ::solution
-a) **True**: $3+(-1)=2$.
+a) **True.** By the property of the integral of a sum,
+$$\int_0^2\left[f(x)+g(x)\right]dx=\int_0^2f(x)\,dx+\int_0^2g(x)\,dx=3+(-1)=2.$$
 
-b) **True**: $2\cdot3=6$.
+b) **True.** By the property of a constant multiple,
+$$\int_0^22f(x)\,dx=2\int_0^2f(x)\,dx=2\cdot3=6.$$
 
-c) **True**: swapping the limits changes the sign, $-(-1)=1$.
+c) **True.** Swapping the limits changes the sign, so
+$$\int_2^0g(x)\,dx=-\int_0^2g(x)\,dx=-(-1)=1.$$
 
-d) **False**: the integral of a product is not the product of the integrals. For instance $f(x)=\dfrac32$ and $g(x)=-x+\dfrac12$ satisfy the conditions, but $\displaystyle\int_0^2 f(x)g(x)\,dx=-\dfrac32$.
+d) **False.** The integral of a product is not the product of the integrals, so we cannot conclude that $\displaystyle\int_0^2f(x)g(x)\,dx=3\cdot(-1)=-3$. For instance, $f(x)=\dfrac32$ and $g(x)=-x+\dfrac12$ satisfy the conditions, since $\displaystyle\int_0^2\frac32\,dx=3$ and $\displaystyle\int_0^2\left(-x+\frac12\right)dx=-2+1=-1$; but
+$$\int_0^2f(x)g(x)\,dx=\int_0^2\left(-\frac32x+\frac34\right)dx=-3+\frac32=-\frac32\neq-3.$$
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -300,7 +337,12 @@ A car moves with velocity $v(t)=3t^2+2$ (m/s), with $t$ in seconds. Find the dis
 2. Use the antiderivative $t^3+2t$.
 
 ::solution
-$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=27+6=33.$$
+The distance travelled in the first $3$ seconds is the integral of the velocity from $t=0$ to $t=3$. Since $v(t)=3t^2+2>0$ for all $t$, the car never reverses and the distance equals exactly this integral.
+
+An antiderivative of $3t^2+2$ is $t^3+2t$. Hence
+$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=(27+6)-0=33.$$
+
+So in the first $3$ seconds the car travels $33$ metres.
 
 **Answer.** $33$.
 :::
@@ -316,7 +358,15 @@ Two events $A$, $B$ have $P(A)=0.4$, $P(B\mid A)=0.3$ and $P(B\mid\overline{A})=
 2. Substitute into the formula.
 
 ::solution
+The events $A$ and $\overline{A}$ form a partition. We have $P(\overline{A})=1-P(A)=1-0.4=0.6$.
+
+By the law of total probability:
+$$P(B)=P(A)\cdot P(B\mid A)+P(\overline{A})\cdot P(B\mid\overline{A}).$$
+
+Substituting, we get
 $$P(B)=0.4\cdot0.3+0.6\cdot0.5=0.12+0.3=0.42.$$
+
+So $P(B)=0.42$.
 
 **Answer.** $0.42$.
 :::
@@ -332,7 +382,15 @@ Minh plans the $90$-minute paper: the last $5$ minutes for checking, $2$ minutes
 2. Subtract everything from $90$ and divide by $4$.
 
 ::solution
-Part I: $12\cdot2=24$ minutes; Part III: $6\cdot5=30$ minutes. That leaves $90-5-24-30=31$ minutes for Part II, so $\dfrac{31}{4}=7.75$ minutes per question.
+Part I has $12$ questions at $2$ minutes each, so it needs $12\cdot2=24$ minutes.
+
+Part III has $6$ questions at $5$ minutes each, so it needs $6\cdot5=30$ minutes.
+
+The time left for Part II is $90-5-24-30=31$ minutes (after taking away the last $5$ minutes for checking).
+
+Shared equally among the $4$ Part II questions, each gets $\dfrac{31}{4}=7.75$ minutes.
+
+So each Part II question gets $7.75$ minutes, that is about $7$ minutes $45$ seconds (since $0.75\cdot60=45$ seconds).
 
 **Answer.** $7.75$ minutes (about $7$ minutes $45$ seconds).
 :::

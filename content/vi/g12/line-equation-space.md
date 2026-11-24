@@ -225,7 +225,17 @@ Viết phương trình tham số của đường thẳng đi qua $A(2; -1; 3)$ v
 3. Tìm $t$ từ hoành độ của $B$ rồi kiểm tra hai toạ độ còn lại.
 
 ::solution
-$x=2+t$, $y=-1+4t$, $z=3-2t$. Với $t=-1$: $(1; -5; 5)$. Với $B$: $2+t=4$ cho $t=2$, khi đó $y=7$, $z=-1$, khớp.
+Đường thẳng đi qua $A(2; -1; 3)$ và có vectơ chỉ phương $\vec{u}=(1; 4; -2)$ nên có phương trình tham số
+$$\begin{cases}x=2+t\\ y=-1+4t\\ z=3-2t\end{cases}\quad(t\in\mathbb{R}).$$
+
+Với $t=-1$ ta có $x=2-1=1$, $y=-1-4=-5$, $z=3+2=5$. Vậy điểm ứng với $t=-1$ là $(1; -5; 5)$.
+
+Để kiểm tra $B(4; 7; -1)$, ta tìm $t$ từ toạ độ $x$: $2+t=4$, suy ra $t=2$. Thay $t=2$ vào hai phương trình còn lại:
+$$y=-1+4\cdot2=7,\qquad z=3-2\cdot2=-1.$$
+
+Các giá trị này trùng với toạ độ $y$, $z$ của $B$.
+
+Vậy điểm ứng với $t=-1$ là $(1; -5; 5)$ và $B$ thuộc đường thẳng (ứng với $t=2$).
 
 **Đáp số.** $(1; -5; 5)$; $B$ thuộc đường thẳng (ứng với $t=2$).
 :::
@@ -241,8 +251,17 @@ Viết phương trình tham số và phương trình chính tắc của đườn
 2. Viết hai dạng phương trình với điểm $A$.
 
 ::solution
-$\overrightarrow{AB}=(2; 2; 1)$.
-$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+Đường thẳng đi qua $A(1; 0; -2)$ và $B(3; 2; -1)$ nhận vectơ
+$$\overrightarrow{AB}=(3-1; 2-0; -1-(-2))=(2; 2; 1)$$
+làm vectơ chỉ phương.
+
+Phương trình tham số của đường thẳng đi qua $A$ với vectơ chỉ phương $\overrightarrow{AB}$ là
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\quad(t\in\mathbb{R}).$$
+
+Vì cả ba toạ độ của vectơ chỉ phương đều khác $0$ nên đường thẳng có phương trình chính tắc
+$$\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+Vậy đường thẳng $AB$ có phương trình tham số và phương trình chính tắc như trên.
 
 **Đáp số.** Như trên.
 :::
@@ -258,9 +277,15 @@ Viết phương trình đường thẳng $d$ đi qua $M(1; -1; 2)$ và vuông g�
 2. Thay vào $(P)$, giải $t$.
 
 ::solution
-$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Thay vào $(P)$:
+Vì $d$ vuông góc với $(P): 2x-y+3z+5=0$ nên $d$ nhận vectơ pháp tuyến $\vec{n}_P=(2; -1; 3)$ của $(P)$ làm vectơ chỉ phương. Đường thẳng $d$ đi qua $M(1; -1; 2)$ nên có phương trình
+$$d:\ \begin{cases}x=1+2t\\ y=-1-t\\ z=2+3t\end{cases}\quad(t\in\mathbb{R}).$$
+
+Giao điểm của $d$ và $(P)$ ứng với giá trị $t$ thoả mãn phương trình của $(P)$. Thay toạ độ theo $t$ vào $(P)$, ta được
 $$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
-Giao điểm là $(-1; 0; -1)$.
+
+Thay $t=-1$ vào phương trình của $d$: $x=1-2=-1$, $y=-1+1=0$, $z=2-3=-1$.
+
+Vậy giao điểm của $d$ và $(P)$ là $(-1; 0; -1)$.
 
 **Đáp số.** $(-1; 0; -1)$.
 :::
@@ -276,8 +301,16 @@ Viết phương trình tham số và chính tắc của đường thẳng đi qu
 2. Viết phương trình qua $M$.
 
 ::solution
-$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
-$M$ không thuộc $\Delta$ (vì $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), nên đường thẳng này song song, không trùng $\Delta$.
+Từ phương trình chính tắc, đường thẳng $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$ có vectơ chỉ phương $\vec{u}_\Delta=(2; -1; 3)$.
+
+Đường thẳng cần tìm song song với $\Delta$ nên nhận $\vec{u}_\Delta=(2; -1; 3)$ làm vectơ chỉ phương, và đi qua $M(0; 1; -1)$. Phương trình tham số là
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\quad(t\in\mathbb{R}),$$
+và phương trình chính tắc là
+$$\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+
+Kiểm tra $M$ có thuộc $\Delta$ hay không: thay toạ độ $M$ vào phương trình của $\Delta$ ta được $\dfrac{0-1}{2}=-\dfrac12$ và $\dfrac{1+3}{-1}=-4$. Vì $-\dfrac12\ne-4$ nên $M\notin\Delta$.
+
+Vậy đường thẳng cần tìm có phương trình như trên; nó song song với $\Delta$ và không trùng với $\Delta$.
 
 **Đáp số.** Như trên.
 :::
@@ -302,13 +335,19 @@ d) $d_1$ vuông góc với mặt phẳng $(P): 2x-y+z=0$.
 3. So sánh $\vec{u}_1$ với $\vec{n}_P$.
 
 ::solution
-a) **Đúng.** Hệ số của $t$ là $2$, $-1$, $1$.
+Đường thẳng $d_1$ đi qua điểm $(1; 0; 3)$ (ứng với $t=0$). Đường thẳng $d_2$ có vectơ chỉ phương $\vec{u}_2=(-4; 2; -2)$.
 
-b) **Đúng.** $t=1$ cho $(3; -1; 4)$.
+a) **Đúng.** Hệ số của $t$ trong phương trình tham số của $d_1$ là $2$, $-1$, $1$, nên $\vec{u}_1=(2; -1; 1)$ là một vectơ chỉ phương của $d_1$.
 
-c) **Sai.** $\vec{u}_2=(-4; 2; -2)=-2\vec{u}_1$, và $M(3; -1; 4)$ thuộc cả $d_2$, nên hai đường thẳng trùng nhau.
+b) **Đúng.** Với $t=1$ ta có $x=1+2=3$, $y=-1$, $z=3+1=4$, tức là $(3; -1; 4)$. Vậy $M(3; -1; 4)$ thuộc $d_1$.
 
-d) **Đúng.** $\vec{n}_P=(2; -1; 1)=\vec{u}_1$.
+c) **Sai.** Ta có $\vec{u}_2=(-4; 2; -2)=-2\vec{u}_1$ nên hai vectơ chỉ phương cùng phương. Mặt khác $M(3; -1; 4)$ thuộc $d_1$ theo câu b), và cũng thuộc $d_2$ vì
+$$\frac{3-3}{-4}=\frac{-1+1}{2}=\frac{4-4}{-2}=0.$$
+Hai đường thẳng có chung điểm $M$ nên chúng trùng nhau, không song song.
+
+d) **Đúng.** Mặt phẳng $(P): 2x-y+z=0$ có vectơ pháp tuyến $\vec{n}_P=(2; -1; 1)=\vec{u}_1$. Vectơ chỉ phương của $d_1$ cùng phương với vectơ pháp tuyến của $(P)$ nên $d_1\perp(P)$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -324,7 +363,19 @@ Một máy bay cất cánh từ điểm $O(0; 0; 0)$ và bay thẳng, mỗi giâ
 2. Hình chiếu trên mặt đất là $(80t; 60t; 0)$; tính khoảng cách tới $O$.
 
 ::solution
-$t=150$ giây. Hình chiếu là $(12000; 9000; 0)$, cách $O$ một khoảng $\sqrt{12000^2+9000^2}=15000$ m.
+Gọi $t$ (giây) là thời gian bay, $t>0$. Mỗi giây máy bay dịch chuyển theo vectơ $\vec{v}=(80; 60; 10)$ nên sau $t$ giây vị trí của máy bay là
+$$(80t; 60t; 10t)\ (\text{mét}).$$
+
+Máy bay đạt độ cao $1500$ m khi $10t=1500$, suy ra $t=150$ (giây) (thoả mãn $t>0$).
+
+Khi đó máy bay ở vị trí $(80\cdot150; 60\cdot150; 1500)=(12000; 9000; 1500)$. Hình chiếu của nó trên mặt đất (mặt phẳng $z=0$) là $(12000; 9000; 0)$.
+
+Khoảng cách từ hình chiếu đó đến $O$ là
+$$\sqrt{12000^2+9000^2}=\sqrt{144000000+81000000}=\sqrt{225000000}=15000\ (\text{m}).$$
+
+Đổi đơn vị: $15000$ m $=15$ km.
+
+Vậy khi máy bay đạt độ cao $1500$ m, hình chiếu của nó trên mặt đất cách $O$ là $15$ kilômét.
 
 **Đáp số.** $15$.
 :::
@@ -340,9 +391,22 @@ Cho $d: x=2+t$, $y=1-t$, $z=3+2t$. Xét vị trí của $d$ với $(P_1): x+y-1=
 2. Đọc số nghiệm.
 
 ::solution
-$(P_1)$: $(2+t)+(1-t)-1=2=0$, vô lí, nên $d\parallel(P_1)$.
-$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ với mọi $t$, nên $d$ nằm trong $(P_2)$.
-$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, giao điểm $\left(\dfrac52; \dfrac12; 4\right)$.
+Đường thẳng $d$ đi qua $A(2; 1; 3)$ (ứng với $t=0$) và có vectơ chỉ phương $\vec{u}=(1; -1; 2)$. Để xét vị trí của $d$ với mỗi mặt phẳng, ta thay toạ độ theo $t$ vào phương trình mặt phẳng.
+
+Với $(P_1): x+y-1=0$:
+$$(2+t)+(1-t)-1=2=0,$$
+phương trình này vô nghiệm (vô lí) nên $d$ và $(P_1)$ không có điểm chung. Vậy $d\parallel(P_1)$.
+
+Với $(P_2): x+3y+z-8=0$:
+$$(2+t)+3(1-t)+(3+2t)-8=(2+3+3-8)+(t-3t+2t)=0$$
+với mọi $t$, nên mọi điểm của $d$ đều thuộc $(P_2)$. Vậy $d$ nằm trong $(P_2)$.
+
+Với $(P_3): x-y+z-6=0$:
+$$(2+t)-(1-t)+(3+2t)-6=4t-2=0\iff t=\frac12.$$
+
+Phương trình có đúng một nghiệm nên $d$ cắt $(P_3)$. Thay $t=\dfrac12$ vào phương trình của $d$: $x=\dfrac52$, $y=\dfrac12$, $z=4$.
+
+Vậy $d$ song song với $(P_1)$, nằm trong $(P_2)$ và cắt $(P_3)$ tại điểm $\left(\dfrac52; \dfrac12; 4\right)$.
 
 **Đáp số.** Song song với $(P_1)$; nằm trong $(P_2)$; cắt $(P_3)$ tại $\left(\dfrac52; \dfrac12; 4\right)$.
 :::
@@ -358,7 +422,18 @@ Xét vị trí của hai đường thẳng $d_1: x=1+t$, $y=1-t$, $z=2t$ và $d_
 2. Giải hai phương trình đầu, rồi thử phương trình thứ ba.
 
 ::solution
-Hai vectơ không cùng phương. Từ $1+t=1+2s$ và $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, nên $s=1$, $t=2$. Phương trình thứ ba: $2\cdot2=5-1$, đúng.
+Đường thẳng $d_1$ có vectơ chỉ phương $\vec{u}_1=(1; -1; 2)$, đường thẳng $d_2$ có vectơ chỉ phương $\vec{u}_2=(2; 1; -1)$. Vì $\dfrac12\ne\dfrac{-1}{1}$ nên hai vectơ không cùng phương, do đó $d_1$ và $d_2$ không song song, cũng không trùng nhau.
+
+Để tìm giao điểm (nếu có), ta giải hệ ba phương trình theo ẩn $t$, $s$ bằng cách cho các toạ độ bằng nhau:
+$$\begin{cases}1+t=1+2s\\ 1-t=-2+s\\ 2t=5-s.\end{cases}$$
+
+Từ phương trình đầu ta có $t=2s$. Thay vào phương trình thứ hai: $1-2s=-2+s\iff3s=3\iff s=1$, suy ra $t=2$.
+
+Thay $t=2$, $s=1$ vào phương trình thứ ba: $2\cdot2=4$ và $5-1=4$, đẳng thức đúng. Hệ có nghiệm duy nhất $(t; s)=(2; 1)$ nên hai đường thẳng cắt nhau.
+
+Thay $t=2$ vào $d_1$: $x=1+2=3$, $y=1-2=-1$, $z=2\cdot2=4$. (Thay $s=1$ vào $d_2$ cũng được $(3; -1; 4)$.)
+
+Vậy $d_1$ và $d_2$ cắt nhau tại điểm $(3; -1; 4)$.
 
 **Đáp số.** Cắt nhau tại $(3; -1; 4)$.
 :::
@@ -374,7 +449,18 @@ Hai vectơ không cùng phương. Từ $1+t=1+2s$ và $1-t=-2+s$: $t=2s$, $1-2s=
 2. Giải $1+2t=7$ và kiểm tra.
 
 ::solution
-$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. Từ $1+2t=7$ ta có $t=3$; khi đó $y=-1$, $z=5$, khớp với $C$.
+Đường thẳng $AB$ đi qua $A(1; 2; -1)$ và có vectơ chỉ phương
+$$\overrightarrow{AB}=(3-1; 1-2; 1-(-1))=(2; -1; 2).$$
+
+Phương trình tham số của đường thẳng $AB$ là
+$$\begin{cases}x=1+2t\\ y=2-t\\ z=-1+2t\end{cases}\quad(t\in\mathbb{R}).$$
+
+Điểm $C(7; -1; 5)$ ứng với giá trị $t$ thoả mãn $1+2t=7$, suy ra $t=3$. Thay $t=3$ vào hai phương trình còn lại:
+$$y=2-3=-1,\qquad z=-1+2\cdot3=5.$$
+
+Các giá trị này trùng với toạ độ $y$, $z$ của $C$, nên $C$ thuộc đường thẳng $AB$ và ứng với $t=3$.
+
+Vậy giá trị $t$ ứng với điểm $C$ là $t=3$; điều này đúng với $\overrightarrow{AC}=3\overrightarrow{AB}$ ở bài trước.
 
 **Đáp số.** $t=3$, đúng với $\overrightarrow{AC}=3\overrightarrow{AB}$ ở bài trước.
 :::
@@ -390,10 +476,27 @@ Một tia laze xuất phát từ $A(1; 2; 3)$, phản xạ trên một tấm gư
 2. Viết đường thẳng $A'B$ và tìm giao điểm với $(P)$.
 
 ::solution
-Đường thẳng qua $A$ vuông góc với $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Thay vào $(P)$: $9+9t=0$, $t=-1$, nên $H(0; 0; 1)$ và $A'(-1; -2; -1)$.
-Thay $A'$ và $B$ vào vế trái của $(P)$ được $-9$ và $9$, nên $A'$, $B$ ở hai phía và cách $(P)$ bằng nhau; vì vậy $M$ là trung điểm của $A'B$:
-$$M\left(1; 0; \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
-Đường đi của tia sáng dài $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6{,}40$.
+Gọi $A'$ là điểm đối xứng của $A(1; 2; 3)$ qua $(P): x+2y+2z-2=0$. Mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}_P=(1; 2; 2)$.
+
+Đường thẳng qua $A$ vuông góc với $(P)$ nhận $\vec{n}_P$ làm vectơ chỉ phương nên có phương trình
+$$\begin{cases}x=1+t\\ y=2+2t\\ z=3+2t.\end{cases}$$
+
+Gọi $H$ là giao điểm của đường thẳng này với $(P)$. Thay vào $(P)$:
+$$(1+t)+2(2+2t)+2(3+2t)-2=9+9t=0\iff t=-1.$$
+
+Suy ra $H(0; 0; 1)$. Vì $H$ là trung điểm của $AA'$ nên
+$$A'=(2\cdot0-1; 2\cdot0-2; 2\cdot1-3)=(-1; -2; -1).$$
+
+Thay toạ độ vào vế trái của $(P)$: với $A'$ ta được $-1-4-2-2=-9$, với $B(3; 2; 2)$ ta được $3+4+4-2=9$. Hai giá trị trái dấu nên $A'$ và $B$ nằm về hai phía của $(P)$; hai giá trị có cùng giá trị tuyệt đối nên $A'$ và $B$ cách đều $(P)$.
+
+Do đó đoạn $A'B$ cắt $(P)$ tại trung điểm của nó. Vì quãng đường $A\to M\to B$ ngắn nhất khi $M$ nằm trên đoạn $A'B$ và $M\in(P)$, nên $M$ là trung điểm của $A'B$:
+$$M=\left(\frac{-1+3}{2}; \frac{-2+2}{2}; \frac{-1+2}{2}\right)=\left(1; 0; \frac12\right).$$
+
+Kiểm tra: $1+2\cdot0+2\cdot\dfrac12-2=0$, nên $M\in(P)$.
+
+Khi đó đường đi của tia sáng dài $A'B=\sqrt{4^2+4^2+3^2}=\sqrt{41}\approx6{,}40$.
+
+Vậy điểm phản xạ trên gương là $M\left(1; 0; \dfrac12\right)$.
 
 **Đáp số.** $M\left(1; 0; \dfrac12\right)$.
 :::

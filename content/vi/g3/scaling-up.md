@@ -157,7 +157,13 @@ Gấp $6$ lên $3$ lần.
 1. Viết phép nhân $6\times 3$.
 
 ::solution
-$$6\times 3=18.$$
+Gấp một số lên một số lần là lấy số đó nhân với số lần.
+
+Gấp $6$ lên $3$ lần, ta lấy $6$ nhân với $3$:
+$$6\times3=18.$$
+
+Vậy gấp $6$ lên $3$ lần được $18$.
+
 **Đáp số.** $18$.
 :::
 
@@ -171,7 +177,13 @@ Gấp $15$ lên $5$ lần.
 1. Viết phép nhân $15\times 5$, nhân hàng đơn vị trước.
 
 ::solution
-$$15\times 5=75.$$
+Gấp một số lên một số lần là lấy số đó nhân với số lần.
+
+Gấp $15$ lên $5$ lần, ta lấy $15$ nhân với $5$:
+$$15\times5=75.$$
+
+Vậy gấp $15$ lên $5$ lần được $75$.
+
 **Đáp số.** $75$.
 :::
 
@@ -185,8 +197,14 @@ Giảm $32$ đi $4$ lần.
 1. Viết phép chia $32:4$.
 
 ::solution
+Giảm một số đi một số lần là lấy số đó chia cho số lần.
+
+Giảm $32$ đi $4$ lần, ta lấy $32$ chia cho $4$:
 $$32:4=8.$$
-Thử lại: $8\times 4=32$.
+
+Thử lại: $8\times4=32$. Kết quả đúng.
+
+Vậy giảm $32$ đi $4$ lần được $8$.
 
 **Đáp số.** $8$.
 :::
@@ -201,8 +219,14 @@ Giảm $54$ đi $6$ lần.
 1. Số nào nhân $6$ bằng $54$?
 
 ::solution
+Giảm một số đi một số lần là lấy số đó chia cho số lần.
+
+Giảm $54$ đi $6$ lần, ta lấy $54$ chia cho $6$:
 $$54:6=9.$$
-Thử lại: $9\times 6=54$.
+
+Thử lại: $9\times6=54$. Kết quả đúng.
+
+Vậy giảm $54$ đi $6$ lần được $9$.
 
 **Đáp số.** $9$.
 :::
@@ -218,8 +242,13 @@ Nhà Lan nuôi $9$ con gà. Số vịt nhà Lan nuôi gấp $4$ lần số gà. 
 2. Viết phép tính rồi trả lời.
 
 ::solution
-Số vịt nhà Lan nuôi là:
-$$9\times 4=36\ \text{(con)}.$$
+Bài giải
+
+Số vịt gấp $4$ lần số gà, nên số vịt nhà Lan nuôi là:
+$$9\times4=36\ \text{(con)}.$$
+
+Vậy nhà Lan nuôi $36$ con vịt.
+
 **Đáp số.** $36$ con vịt.
 :::
 
@@ -234,10 +263,16 @@ Buổi sáng một cửa hàng bán được $72$ chiếc bút. Số bút bán �
 2. Cộng số bút hai buổi.
 
 ::solution
-Số bút bán được buổi chiều là:
+Bài giải
+
+Số bút buổi chiều bằng số bút buổi sáng giảm đi $8$ lần, nên số bút bán được buổi chiều là:
 $$72:8=9\ \text{(chiếc)}.$$
+
 Số bút bán được cả ngày là:
 $$72+9=81\ \text{(chiếc)}.$$
+
+Vậy buổi chiều cửa hàng bán được $9$ chiếc bút và cả ngày bán được $81$ chiếc bút.
+
 **Đáp số.** Buổi chiều $9$ chiếc bút; cả ngày $81$ chiếc bút.
 :::
 
@@ -251,7 +286,15 @@ Em nhớ lại bảng nhân $6$: biết $6\times 7=42$. Hãy giảm $42$ đi $6$
 1. Viết hai phép chia $42:6$ và $42:7$.
 
 ::solution
-Vì $6\times 7=42$, nên $42:6=7$ và $42:7=6$.
+Ta có $6\times7=42$. Từ phép nhân này, ta suy ra hai phép chia: $42:6=7$ và $42:7=6$.
+
+Giảm $42$ đi $6$ lần, ta lấy $42$ chia cho $6$, được
+$$42:6=7.$$
+
+Giảm $42$ đi $7$ lần, ta lấy $42$ chia cho $7$, được
+$$42:7=6.$$
+
+Vậy giảm $42$ đi $6$ lần được $7$ và giảm $42$ đi $7$ lần được $6$.
 
 **Đáp số.** Giảm $42$ đi $6$ lần được $7$; giảm $42$ đi $7$ lần được $6$.
 :::
@@ -266,11 +309,17 @@ Một số khi gấp lên $4$ lần rồi giảm đi $2$ lần thì được $18
 1. Trước khi giảm đi $2$ lần, số đó bằng bao nhiêu?
 
 ::solution
-Trước khi giảm đi $2$ lần, số đó là $18\times 2=36$.
+Ta đi ngược lại các bước đã làm với số cần tìm.
 
-Trước khi gấp lên $4$ lần, số đó là $36:4=9$.
+Số đó gấp lên $4$ lần, rồi giảm đi $2$ lần thì được $18$. Trước khi giảm đi $2$ lần, số đó là:
+$$18\times2=36.$$
 
-Thử lại: $9\times 4=36$, rồi $36:2=18$. Đúng.
+Trước khi gấp lên $4$ lần, số đó là:
+$$36:4=9.$$
+
+Thử lại: $9\times4=36$, rồi $36:2=18$. Kết quả đúng.
+
+Vậy số cần tìm là $9$.
 
 **Đáp số.** $9$.
 :::

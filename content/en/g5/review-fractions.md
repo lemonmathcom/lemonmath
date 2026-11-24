@@ -153,7 +153,12 @@ Write the quotient of each division as a fraction: $5\div8$ and $9\div4$.
 2. The divisor is the denominator.
 
 ::solution
-$5\div8=\dfrac{5}{8}$ and $9\div4=\dfrac{9}{4}$.
+The quotient of a division of a natural number by a non-zero natural number can be written as a fraction, whose numerator is the dividend and whose denominator is the divisor.
+
+Therefore
+$$5\div8=\frac{5}{8},\qquad 9\div4=\frac{9}{4}.$$
+
+So the quotient of $5\div8$ is $\dfrac{5}{8}$ and the quotient of $9\div4$ is $\dfrac{9}{4}$.
 
 **Answer.** $\dfrac{5}{8}$ and $\dfrac{9}{4}$.
 :::
@@ -169,7 +174,12 @@ Write the natural number $7$ as a fraction with denominator $3$.
 2. By what number must you multiply the numerator and denominator to make the denominator $3$?
 
 ::solution
-$7=\dfrac{7}{1}=\dfrac{7\times3}{1\times3}=\dfrac{21}{3}$.
+Every natural number can be written as a fraction with denominator $1$: $7=\dfrac{7}{1}$.
+
+To get denominator $3$, we multiply both the numerator and the denominator by $3$:
+$$7=\frac{7}{1}=\frac{7\times3}{1\times3}=\frac{21}{3}.$$
+
+So the natural number $7$ written as a fraction with denominator $3$ is $\dfrac{21}{3}$.
 
 **Answer.** $\dfrac{21}{3}$.
 :::
@@ -185,7 +195,14 @@ Remember the lesson on simplifying fractions. Simplify $\dfrac{36}{60}$ to its s
 2. Divide, then check whether the fraction is in its simplest form.
 
 ::solution
-Both $36$ and $60$ are divisible by $12$: $\dfrac{36}{60}=\dfrac{36\div12}{60\div12}=\dfrac{3}{5}$.
+To simplify a fraction, we divide both the numerator and the denominator by a common factor greater than $1$.
+
+Both $36$ and $60$ are divisible by $12$, so
+$$\frac{36}{60}=\frac{36\div12}{60\div12}=\frac{3}{5}.$$
+
+Since $3$ and $5$ have no common factor greater than $1$, the fraction $\dfrac{3}{5}$ is in simplest form.
+
+So $\dfrac{36}{60}$ simplified to its simplest form is $\dfrac{3}{5}$.
 
 **Answer.** $\dfrac{3}{5}$.
 :::
@@ -201,7 +218,12 @@ Find the number $x$ such that $\dfrac{5}{8}=\dfrac{x}{24}$.
 2. Multiply the numerator $5$ by that number.
 
 ::solution
-Since $24=8\times3$, $\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24}$.
+The denominator of the second fraction is $24$. We have $24=8\times3$, so to change the denominator $8$ into $24$ we multiply it by $3$. To keep the value of the fraction unchanged, we also multiply the numerator by $3$:
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+Comparing with $\dfrac{5}{8}=\dfrac{x}{24}$, we get $x=15$.
+
+So $x=15$.
 
 **Answer.** $x=15$.
 :::
@@ -217,7 +239,12 @@ Write the fractions $\dfrac{3}{10}$ and $\dfrac{4}{15}$ over a common denominato
 2. Change each fraction to denominator $30$.
 
 ::solution
-$$\dfrac{3}{10}=\dfrac{3\times3}{10\times3}=\dfrac{9}{30},\qquad \dfrac{4}{15}=\dfrac{4\times2}{15\times2}=\dfrac{8}{30}.$$
+To write two fractions over a common denominator, we find a common denominator that both denominators divide. Here the common denominator is $30$, because $30\div10=3$ and $30\div15=2$.
+
+Multiply the numerator and denominator of each fraction by the matching factor:
+$$\frac{3}{10}=\frac{3\times3}{10\times3}=\frac{9}{30},\qquad \frac{4}{15}=\frac{4\times2}{15\times2}=\frac{8}{30}.$$
+
+So over a common denominator, $\dfrac{3}{10}$ and $\dfrac{4}{15}$ become $\dfrac{9}{30}$ and $\dfrac{8}{30}$.
 
 **Answer.** $\dfrac{9}{30}$ and $\dfrac{8}{30}$.
 :::
@@ -233,8 +260,14 @@ Compare $\dfrac{7}{12}$ and $\dfrac{5}{8}$.
 2. Compare the two numerators.
 
 ::solution
-$$\dfrac{7}{12}=\dfrac{14}{24},\qquad \dfrac{5}{8}=\dfrac{15}{24}.$$
-Since $14<15$, $\dfrac{7}{12}<\dfrac{5}{8}$.
+To compare two fractions with different denominators, we write them over a common denominator and compare the numerators. The common denominator is $24$, because $24\div12=2$ and $24\div8=3$.
+
+We have
+$$\frac{7}{12}=\frac{7\times2}{12\times2}=\frac{14}{24},\qquad \frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+For fractions with the same denominator, the one with the smaller numerator is smaller. Since $14<15$, we have $\dfrac{14}{24}<\dfrac{15}{24}$.
+
+So $\dfrac{7}{12}<\dfrac{5}{8}$.
 
 **Answer.** $\dfrac{7}{12}<\dfrac{5}{8}$.
 :::
@@ -250,8 +283,15 @@ Put the fractions $\dfrac{3}{4}$, $\dfrac{5}{6}$, $\dfrac{2}{3}$, $\dfrac{7}{12}
 2. Put the numerators in order.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{9}{12},\qquad \dfrac{5}{6}=\dfrac{10}{12},\qquad \dfrac{2}{3}=\dfrac{8}{12},\qquad \dfrac{7}{12}\ \text{(unchanged)}.$$
-We have $7<8<9<10$.
+We write the fractions over the common denominator $12$, because $12$ is divisible by $4$, $6$, $3$ and $12$.
+
+We have
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12},\qquad \frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12},\qquad \frac{2}{3}=\frac{2\times4}{3\times4}=\frac{8}{12},\qquad \frac{7}{12}\ \text{(unchanged)}.$$
+
+The fractions have the same denominator $12$ and the numerators are $9$, $10$, $8$, $7$. Since $7<8<9<10$, we get
+$$\frac{7}{12}<\frac{8}{12}<\frac{9}{12}<\frac{10}{12}.$$
+
+So the fractions in order from least to greatest are $\dfrac{7}{12}$, $\dfrac{2}{3}$, $\dfrac{3}{4}$, $\dfrac{5}{6}$.
 
 **Answer.** $\dfrac{7}{12}<\dfrac{2}{3}<\dfrac{3}{4}<\dfrac{5}{6}$.
 :::
@@ -267,9 +307,14 @@ Nam has read $\dfrac{7}{10}$ of a story book and Ha has read $\dfrac{5}{8}$ of a
 2. Write over a common denominator, then compare.
 
 ::solution
-Write over the common denominator $40$:
-$$\dfrac{7}{10}=\dfrac{28}{40},\qquad \dfrac{5}{8}=\dfrac{25}{40}.$$
-Since $28>25$, $\dfrac{7}{10}>\dfrac{5}{8}$.
+Solution
+
+To find out who has read more, we compare $\dfrac{7}{10}$ and $\dfrac{5}{8}$. Write them over the common denominator $40$, because $40\div10=4$ and $40\div8=5$:
+$$\frac{7}{10}=\frac{7\times4}{10\times4}=\frac{28}{40},\qquad \frac{5}{8}=\frac{5\times5}{8\times5}=\frac{25}{40}.$$
+
+Since $28>25$, we have $\dfrac{28}{40}>\dfrac{25}{40}$, that is, $\dfrac{7}{10}>\dfrac{5}{8}$.
+
+So Nam has read more.
 
 **Answer.** Nam has read more.
 :::
@@ -285,8 +330,12 @@ A shop shares $5$ kg of rice equally into $6$ identical bags. How many kilograms
 2. Write the quotient $5\div6$ as a fraction and write the unit.
 
 ::solution
-The number of kilograms of rice in each bag is:
-$$5\div6=\dfrac{5}{6}\ \text{(kg)}.$$
+Solution
+
+Sharing $5$ kg of rice equally into $6$ identical bags, the number of kilograms of rice in each bag is the quotient of $5\div6$, written as a fraction:
+$$5\div6=\frac{5}{6}\ \text{(kg)}$$
+
+So each bag has $\dfrac{5}{6}$ kg of rice.
 
 **Answer.** $\dfrac{5}{6}$ kg.
 :::
@@ -302,9 +351,17 @@ Find a fraction that is greater than $\dfrac{3}{5}$ and less than $\dfrac{2}{3}$
 2. If not, multiply both by $2$ to get denominator $30$.
 
 ::solution
-We have $\dfrac{3}{5}=\dfrac{9}{15}$ and $\dfrac{2}{3}=\dfrac{10}{15}$. There is no natural number between the numerators $9$ and $10$.
+We write the two given fractions over the common denominator $15$:
+$$\frac{3}{5}=\frac{3\times3}{5\times3}=\frac{9}{15},\qquad \frac{2}{3}=\frac{2\times5}{3\times5}=\frac{10}{15}.$$
 
-Multiply the numerator and denominator by $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ and $\dfrac{2}{3}=\dfrac{20}{30}$. The fraction $\dfrac{19}{30}$ has numerator between $18$ and $20$.
+There is no natural number between the numerators $9$ and $10$, so we cannot yet find a fraction with denominator $15$ that works.
+
+We multiply the numerator and denominator of each fraction by $2$:
+$$\frac{3}{5}=\frac{9}{15}=\frac{18}{30},\qquad \frac{2}{3}=\frac{10}{15}=\frac{20}{30}.$$
+
+The natural number $19$ lies between $18$ and $20$, so the fraction $\dfrac{19}{30}$ satisfies $\dfrac{18}{30}<\dfrac{19}{30}<\dfrac{20}{30}$, that is, $\dfrac{3}{5}<\dfrac{19}{30}<\dfrac{2}{3}$.
+
+So $\dfrac{19}{30}$ is a fraction that is greater than $\dfrac{3}{5}$ and less than $\dfrac{2}{3}$.
 
 **Answer.** One fraction that works is $\dfrac{19}{30}$.
 :::

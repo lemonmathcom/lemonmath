@@ -137,7 +137,13 @@ Work out $32+45$.
 2. Work out $3+4$.
 
 ::solution
-Ones: $2+5=7$. Tens: $3+4=7$. So $32+45=77$.
+The number $32$ is made of $3$ tens and $2$ ones; the number $45$ is made of $4$ tens and $5$ ones. We add each place, starting with the ones.
+
+Ones: $2+5=7$.
+
+Tens: $3+4=7$.
+
+So $32+45=77$.
 
 **Answer.** $77$.
 :::
@@ -153,7 +159,13 @@ Work out $61+28$.
 2. Work out $6+2$.
 
 ::solution
-Ones: $1+8=9$. Tens: $6+2=8$. So $61+28=89$.
+The number $61$ is made of $6$ tens and $1$ one; the number $28$ is made of $2$ tens and $8$ ones. We add each place, starting with the ones.
+
+Ones: $1+8=9$.
+
+Tens: $6+2=8$.
+
+So $61+28=89$.
 
 **Answer.** $89$.
 :::
@@ -169,7 +181,13 @@ Work out $40+37$.
 2. Work out $4+3$.
 
 ::solution
-Ones: $0+7=7$. Tens: $4+3=7$. So $40+37=77$.
+The number $40$ is made of $4$ tens and $0$ ones; the number $37$ is made of $3$ tens and $7$ ones. We add each place, starting with the ones.
+
+Ones: $0+7=7$.
+
+Tens: $4+3=7$.
+
+So $40+37=77$.
 
 **Answer.** $77$.
 :::
@@ -185,7 +203,17 @@ Write $>$, $<$ or $=$ in the box: $24+35 \;\square\; 60$.
 2. Compare the result with $60$.
 
 ::solution
-$4+5=9$ and $2+3=5$, so $24+35=59$. Since $59<60$, we have $24+35<60$.
+First we work out the left-hand side $24+35$.
+
+Ones: $4+5=9$.
+
+Tens: $2+3=5$.
+
+So $24+35=59$.
+
+We compare $59$ with $60$. The number $59$ has $5$ tens and $60$ has $6$ tens, and $5$ tens is less than $6$ tens, so $59<60$.
+
+So $24+35<60$, and we write the sign $<$.
 
 **Answer.** The sign $<$.
 :::
@@ -201,8 +229,14 @@ An apple tree has $54$ red apples and $23$ green apples. How many apples does th
 2. Work out $54+23$ and write the answer with its unit.
 
 ::solution
-The number of apples altogether is:
+Solution
+
+To find how many apples the tree has altogether, we add the red apples and the green apples. The number of apples altogether is:
 $$54+23=77\ \text{(apples)}.$$
+
+Working: ones $4+3=7$, tens $5+2=7$.
+
+So the tree has $77$ apples altogether.
 
 **Answer.** $77$ apples.
 :::
@@ -218,7 +252,15 @@ Remember the last lesson: adding a one-digit number to a two-digit number. Work 
 2. Add $2$ more tens to the tens.
 
 ::solution
-$5+4=9$, so $35+4=39$. Add $2$ tens: $3+2=5$ tens, so $39+20=59$.
+This exercise has two steps: work out $35+4$, then add $20$ to the result.
+
+Step 1. Add a one-digit number to a two-digit number: $5+4=9$ and the tens stay $3$, so $35+4=39$.
+
+Step 2. Add $20$ to $39$. The number $20$ is $2$ tens, so we add it to the tens: $3+2=5$ tens. The ones stay $9$, so $39+20=59$.
+
+Check: $35+4+20=35+24=59$. Correct.
+
+So the required result is $59$.
 
 **Answer.** $59$.
 :::
@@ -234,7 +276,15 @@ Binh writes: "$25+43$: ones $5+3=8$, tens $2+4=6$, so $25+43=86$". Is Binh right
 2. Put the answer together: how many tens and how many ones?
 
 ::solution
-Binh's two additions are correct, but he wrote the digits in the wrong places. There are $6$ tens and $8$ ones, so $25+43=68$.
+We work out $25+43$ again.
+
+Ones: $5+3=8$.
+
+Tens: $2+4=6$.
+
+Binh's two additions are both correct. However, the result has $6$ tens and $8$ ones, so the number is $68$. Binh wrote $8$ in the tens place and $6$ in the ones place, so he got $86$.
+
+So Binh is wrong, and the correct sum is $25+43=68$.
 
 **Answer.** Wrong; the correct answer is $68$.
 :::
@@ -250,9 +300,17 @@ Find the missing digit: $3\square+41=75$.
 2. Check the tens: $3+4=7$.
 
 ::solution
-Ones: $4+1=5$. The number is $34$, so the missing digit is $4$.
+The number $3\square$ plus $41$ gives $75$. We look at each place.
 
-**Check.** $34+41=75$. Correct.
+Ones: the number $41$ has $1$ one and the total has $5$ ones. We look for the digit $\square$ with $\square+1=5$. Since $4+1=5$, we get $\square=4$.
+
+Tens: $3+4=7$, which is exactly the tens digit of $75$.
+
+So the number is $34$.
+
+Check: $34+41=75$. Correct.
+
+So the missing digit is $4$.
 
 **Answer.** $4$.
 :::

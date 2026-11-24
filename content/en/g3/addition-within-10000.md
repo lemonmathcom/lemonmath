@@ -170,8 +170,19 @@ Set out in columns and work out: $3\,425+2\,163$.
 2. Add column by column, starting with the ones.
 
 ::solution
+We set out the sum in columns and add from right to left, starting with the ones.
 $$\begin{array}{r} 3\,425 \\ +\ 2\,163 \\ \hline 5\,588 \end{array}$$
+
+Ones: $5+3=8$, write $8$.
+Tens: $2+6=8$, write $8$.
+Hundreds: $4+1=5$, write $5$.
+Thousands: $3+2=5$, write $5$.
+
 No column makes $10$, so nothing is regrouped.
+
+Check: $5\,588-2\,163=3\,425$. Correct.
+
+So $3\,425+2\,163=5\,588$.
 
 **Answer.** $5\,588$.
 :::
@@ -187,8 +198,17 @@ Set out in columns and work out: $2\,749+3\,685$.
 2. Add column by column, regrouping when needed.
 
 ::solution
+We set out the sum in columns and add from right to left, starting with the ones.
 $$\begin{array}{r} 2\,749 \\ +\ 3\,685 \\ \hline 6\,434 \end{array}$$
-Ones: $9+5=14$, write $4$ and regroup $1$. Tens: $4+8+1=13$, write $3$ and regroup $1$. Hundreds: $7+6+1=14$, write $4$ and regroup $1$. Thousands: $2+3+1=6$.
+
+Ones: $9+5=14$, write $4$ and regroup $1$.
+Tens: $4+8+1=13$, write $3$ and regroup $1$.
+Hundreds: $7+6+1=14$, write $4$ and regroup $1$.
+Thousands: $2+3+1=6$, write $6$.
+
+Check: $6\,434-3\,685=2\,749$. Correct.
+
+So $2\,749+3\,685=6\,434$.
 
 **Answer.** $6\,434$.
 :::
@@ -204,8 +224,19 @@ Set out in columns and work out: $8\,596-3\,241$.
 2. Subtract column by column, starting with the ones.
 
 ::solution
+We set out the subtraction in columns and subtract from right to left, starting with the ones.
 $$\begin{array}{r} 8\,596 \\ -\ 3\,241 \\ \hline 5\,355 \end{array}$$
+
+Ones: $6-1=5$, write $5$.
+Tens: $9-4=5$, write $5$.
+Hundreds: $5-2=3$, write $3$.
+Thousands: $8-3=5$, write $5$.
+
 No column needs regrouping.
+
+Check: $5\,355+3\,241=8\,596$. Correct.
+
+So $8\,596-3\,241=5\,355$.
 
 **Answer.** $5\,355$.
 :::
@@ -221,8 +252,17 @@ Set out in columns and work out: $7\,003-4\,628$.
 2. In each column, add the regrouped $1$ to the digit below before you subtract.
 
 ::solution
+We set out the subtraction in columns and subtract from right to left, starting with the ones.
 $$\begin{array}{r} 7\,003 \\ -\ 4\,628 \\ \hline 2\,375 \end{array}$$
-Ones: $13-8=5$, write $5$ and regroup $1$. Tens: $2+1=3$; $10-3=7$, write $7$ and regroup $1$. Hundreds: $6+1=7$; $10-7=3$, write $3$ and regroup $1$. Thousands: $4+1=5$; $7-5=2$.
+
+Ones: we cannot take $8$ from $3$, so we work out $13-8=5$, write $5$ and regroup $1$.
+Tens: $2+1=3$; we cannot take $3$ from $0$, so we work out $10-3=7$, write $7$ and regroup $1$.
+Hundreds: $6+1=7$; we cannot take $7$ from $0$, so we work out $10-7=3$, write $3$ and regroup $1$.
+Thousands: $4+1=5$; $7-5=2$, write $2$.
+
+Check: $2\,375+4\,628=7\,003$. Correct.
+
+So $7\,003-4\,628=2\,375$.
 
 **Answer.** $2\,375$.
 :::
@@ -238,9 +278,12 @@ Find $x$: $x+2\,358=5\,000$.
 2. Set out the subtraction and work it out, then check.
 
 ::solution
-$x=5\,000-2\,358=2\,642$.
+In an addition, the unknown addend equals the total minus the known addend. We have
+$$x=5\,000-2\,358=2\,642.$$
 
-**Check.** $2\,642+2\,358=5\,000$. Correct.
+Check: $2\,642+2\,358=5\,000$. Correct.
+
+So $x=2\,642$.
 
 **Answer.** $x=2\,642$.
 :::
@@ -259,8 +302,12 @@ A petrol station (made-up numbers) sold $2\,865$ litres of petrol in the morning
 ::solution
 Solution
 
+The station sold petrol in the morning and in the afternoon, so the number of litres sold in the whole day is the sum of the two parts.
+
 The number of litres sold in the whole day is:
 $$2\,865+3\,478=6\,343\ \text{(litres)}.$$
+
+So the station sold $6\,343$ litres of petrol in the whole day.
 
 **Answer.** $6\,343$ litres of petrol.
 :::
@@ -278,10 +325,17 @@ Mai has $8\,000$ dong. She buys a pen for $2\,500$ dong and an exercise book for
 ::solution
 Solution
 
+Mai buys a pen and an exercise book, so the money she spent is the sum of the two prices; the money left is the money she had minus the money she spent.
+
 The money Mai spent is:
 $$2\,500+4\,300=6\,800\ \text{(dong)}.$$
+
 The money Mai has left is:
 $$8\,000-6\,800=1\,200\ \text{(dong)}.$$
+
+Check: $6\,800+1\,200=8\,000$ (dong). Correct.
+
+So Mai has $1\,200$ dong left.
 
 **Answer.** $1\,200$ dong.
 :::
@@ -297,7 +351,12 @@ Remember the lesson on comparing numbers. Write $>$, $<$ or $=$ in the gap: $3\,
 2. Compare the result with $4\,700$, starting with the hundreds.
 
 ::solution
-We have $3\,456+1\,234=4\,690$. The thousands digit is $4$ in both numbers; in the hundreds, $6<7$, so $4\,690<4\,700$.
+First we work out the left-hand side:
+$$3\,456+1\,234=4\,690.$$
+
+Now we compare $4\,690$ and $4\,700$. Both numbers have four digits and the same thousands digit, $4$. In the hundreds place, $6<7$, so $4\,690<4\,700$.
+
+So $3\,456+1\,234<4\,700$, and we write the sign $<$.
 
 **Answer.** The sign $<$.
 :::
@@ -313,7 +372,16 @@ Nam works out $5\,400-2\,785=3\,615$. Use addition to check Nam's answer. If it 
 2. If the sum is not $5\,400$, work out $5\,400-2\,785$ again.
 
 ::solution
-We have $3\,615+2\,785=6\,400$, which is not $5\,400$, so Nam's answer is wrong. Working it out again: $5\,400-2\,785=2\,615$. Check: $2\,615+2\,785=5\,400$. Correct.
+To check a subtraction by addition, we add the difference and the number subtracted; the result must equal the number we started with.
+
+We have $3\,615+2\,785=6\,400$. This is different from $5\,400$, so Nam's answer is wrong.
+
+We work it out again:
+$$5\,400-2\,785=2\,615.$$
+
+Check: $2\,615+2\,785=5\,400$. Correct.
+
+So Nam's answer is wrong; the correct answer is $2\,615$.
 
 **Answer.** Nam is wrong; the correct answer is $2\,615$.
 :::
@@ -329,8 +397,16 @@ Using the four digits $1$, $3$, $5$, $7$, write the largest and the smallest fou
 2. Set out the subtraction and work it out.
 
 ::solution
-The largest number is $7\,531$ and the smallest is $1\,357$. We have:
+For the largest four-digit number with all digits different, we arrange the digits from largest to smallest, which gives $7\,531$.
+
+For the smallest such number, we arrange the digits from smallest to largest, which gives $1\,357$. The digit $1$ is in the thousands place, so this number really has four digits.
+
+The difference between the two numbers is:
 $$7\,531-1\,357=6\,174.$$
+
+Check: $6\,174+1\,357=7\,531$. Correct.
+
+So the difference between the largest and the smallest number is $6\,174$.
 
 **Answer.** $6\,174$.
 :::

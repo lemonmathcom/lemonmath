@@ -126,7 +126,18 @@ Tính $24+18$.
 2. Cộng hàng chục và nhớ thêm $1$.
 
 ::solution
-Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$. Vậy $24+18=42$.
+Ta đặt tính rồi cộng từ hàng đơn vị.
+
+Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$.
+
+Hàng chục: $2+1+1=4$ (có $1$ chục nhớ), viết $4$.
+
+Ta có
+$$24+18=42.$$
+
+Thử lại: $42-18=24$. Đúng.
+
+Vậy $24+18=42$.
 
 **Đáp số.** $42$.
 :::
@@ -142,7 +153,16 @@ Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$. Vậy
 2. Cộng hàng đơn vị, rồi hàng chục.
 
 ::solution
-$7+5=12$, viết $2$ nhớ $1$. $3+2+1=6$. Vậy $37+25=62$.
+Đặt tính sao cho các chữ số cùng hàng thẳng cột với nhau:
+$$\begin{array}{r}37\\+25\\\hline62\end{array}$$
+
+Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$.
+
+Hàng chục: $3+2+1=6$, viết $6$.
+
+Thử lại: $62-25=37$. Đúng.
+
+Vậy $37+25=62$.
 
 **Đáp số.** $62$.
 :::
@@ -158,7 +178,16 @@ Em hãy nhớ lại bài trước. Tính $58+7$.
 2. Hàng chục: $5$ cộng $1$ chục nhớ.
 
 ::solution
-$8+7=15$, viết $5$ nhớ $1$. $5+1=6$. Vậy $58+7=65$.
+Hàng đơn vị: $8+7=15$, viết $5$ nhớ $1$.
+
+Hàng chục: $5+1=6$ (chỉ có chữ số $5$ và $1$ chục nhớ), viết $6$.
+
+Ta có
+$$58+7=65.$$
+
+Thử lại: $65-7=58$. Đúng.
+
+Vậy $58+7=65$.
 
 **Đáp số.** $65$.
 :::
@@ -178,9 +207,11 @@ b) $56+27$.
 2. Cộng hàng chục rồi cộng $1$ nhớ.
 
 ::solution
-a) $5+9=14$, viết $4$ nhớ $1$; $4+3+1=8$. Vậy $45+39=84$.
+a) Tính $45+39$. Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$. Hàng chục: $4+3+1=8$. Ta có $45+39=84$. Thử lại: $84-39=45$. Đúng.
 
-b) $6+7=13$, viết $3$ nhớ $1$; $5+2+1=8$. Vậy $56+27=83$.
+b) Tính $56+27$. Hàng đơn vị: $6+7=13$, viết $3$ nhớ $1$. Hàng chục: $5+2+1=8$. Ta có $56+27=83$. Thử lại: $83-27=56$. Đúng.
+
+Vậy $45+39=84$ và $56+27=83$.
 
 **Đáp số.** a) $84$; b) $83$.
 :::
@@ -200,9 +231,11 @@ b) $29+35 \;\square\; 65$.
 2. So sánh hàng chục, rồi hàng đơn vị.
 
 ::solution
-a) $38+47=85$. Vì $85>84$ nên $38+47>84$.
+a) Tính $38+47$. Hàng đơn vị: $8+7=15$, viết $5$ nhớ $1$. Hàng chục: $3+4+1=8$. Ta có $38+47=85$. Vì $85>84$ nên $38+47>84$.
 
-b) $29+35=64$. Vì $64<65$ nên $29+35<65$.
+b) Tính $29+35$. Hàng đơn vị: $9+5=14$, viết $4$ nhớ $1$. Hàng chục: $2+3+1=6$. Ta có $29+35=64$. Vì $64<65$ nên $29+35<65$.
+
+Vậy ở câu a) điền dấu $>$, ở câu b) điền dấu $<$.
 
 **Đáp số.** a) Dấu $>$; b) Dấu $<$.
 :::
@@ -218,7 +251,18 @@ Bạn Hà làm bài: $36+47=73$. Bạn Hà làm sai ở đâu? Em hãy sửa l�
 2. Tính hàng chục, có cộng chục nhớ không?
 
 ::solution
-$6+7=13$, viết $3$ nhớ $1$. Hàng chục phải là $3+4+1=8$, nhưng bạn Hà chỉ làm $3+4=7$ (quên chục nhớ). Vậy $36+47=83$.
+Ta tính lại phép cộng $36+47$.
+
+Hàng đơn vị: $6+7=13$, viết $3$ nhớ $1$.
+
+Hàng chục phải là $3+4+1=8$ (cộng thêm $1$ chục nhớ). Bạn Hà chỉ làm $3+4=7$ vì quên chục nhớ, nên được kết quả sai là $73$.
+
+Sửa lại:
+$$36+47=83.$$
+
+Thử lại: $83-47=36$. Đúng.
+
+Vậy bạn Hà sai ở chỗ quên chục nhớ; kết quả đúng là $36+47=83$.
 
 **Đáp số.** Bạn Hà quên chục nhớ; đúng là $83$.
 :::
@@ -234,8 +278,16 @@ Tổ Một trồng được $49$ cây, tổ Hai trồng được $38$ cây. Hỏ
 2. Tính $49+38$ rồi ghi đáp số có đơn vị.
 
 ::solution
-$9+8=17$, viết $7$ nhớ $1$. $4+3+1=8$. Số cây là:
-$$49+38=87\ \text{(cây)}.$$
+Bài giải
+
+Muốn biết cả hai tổ trồng được bao nhiêu cây, ta lấy số cây của tổ Một cộng với số cây của tổ Hai.
+
+Hàng đơn vị: $9+8=17$, viết $7$ nhớ $1$. Hàng chục: $4+3+1=8$.
+
+Số cây cả hai tổ trồng được là:
+$$49+38=87\ \text{(cây)}$$
+
+Vậy cả hai tổ trồng được $87$ cây.
 
 **Đáp số.** $87$ cây.
 :::
@@ -251,7 +303,15 @@ Tìm chữ số thích hợp điền vào ô trống: $5\square+27=84$.
 2. Thử lại bằng phép cộng.
 
 ::solution
-Hàng đơn vị của tổng là $4$, nên $\square+7=14$, suy ra $\square=7$. Thử lại: $57+27=84$ (vì $7+7=14$ và $5+2+1=8$).
+Phép tính $5\square+27=84$ có tổng là $84$, nên chữ số hàng đơn vị của tổng là $4$.
+
+Ở hàng đơn vị, $\square+7$ phải có chữ số tận cùng là $4$. Vì $\square+7$ không nhỏ hơn $7$ và không lớn hơn $16$ nên $\square+7=14$, suy ra $\square=14-7=7$.
+
+Kiểm tra hàng chục: $5+2+1=8$ (có $1$ chục nhớ), đúng với chữ số hàng chục của $84$.
+
+Thử lại: $57+27=84$ (vì $7+7=14$ và $5+2+1=8$). Đúng.
+
+Vậy chữ số cần điền vào ô trống là $7$.
 
 **Đáp số.** Chữ số cần điền là $7$.
 :::

@@ -205,7 +205,13 @@ Change: $7$ tạ $=\ ?$ kg and $6\,000$ kg $=\ ?$ tonnes.
 2. Change $6\,000$ kg to tonnes by dividing.
 
 ::solution
-$7$ tạ $=7\times100=700$ kg. $6\,000$ kg $=6\,000\div1\,000=6$ tonnes.
+We have $1$ tạ $=100$ kg, so to change $7$ tạ to kilograms we multiply by $100$:
+$$7\ \text{tạ}=7\times100=700\ \text{(kg)}.$$
+
+We have $1$ tonne $=1\,000$ kg, so to change $6\,000$ kg to tonnes we divide by $1\,000$:
+$$6\,000\ \text{kg}=6\,000\div1\,000=6\ \text{(tonnes)}.$$
+
+So $7$ tạ $=700$ kg and $6\,000$ kg $=6$ tonnes.
 
 **Answer.** $700$ kg and $6$ tonnes.
 :::
@@ -221,7 +227,14 @@ Change $2$ tạ $5$ yến to kilograms.
 2. Change $5$ yến to kilograms and add.
 
 ::solution
-$2$ tạ $=200$ kg and $5$ yến $=50$ kg. So $2$ tạ $5$ yến $=200+50=250$ kg.
+We have $1$ tạ $=100$ kg, so $2$ tạ $=2\times100=200$ kg.
+
+We have $1$ yến $=10$ kg, so $5$ yến $=5\times10=50$ kg.
+
+Therefore
+$$2\ \text{tạ}\ 5\ \text{yến}=200+50=250\ \text{(kg)}.$$
+
+So $2$ tạ $5$ yến $=250$ kg.
 
 **Answer.** $250$ kg.
 :::
@@ -237,7 +250,15 @@ Work out: $3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ.
 2. Change $10$ tạ or more into tonnes.
 
 ::solution
-$3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ $=5$ tonnes $13$ tạ. Since $13$ tạ $=1$ tonne $3$ tạ, the result is $6$ tonnes $3$ tạ.
+Add the tonnes to the tonnes and the tạ to the tạ:
+$$3\ \text{tonnes}+2\ \text{tonnes}=5\ \text{tonnes},\qquad 4\ \text{tạ}+9\ \text{tạ}=13\ \text{tạ}.$$
+
+Therefore $3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ $=5$ tonnes $13$ tạ.
+
+Since $1$ tonne $=10$ tạ, we have $13$ tạ $=1$ tonne $3$ tạ. Hence
+$$5\ \text{tonnes}\ 13\ \text{tạ}=5\ \text{tonnes}+1\ \text{tonne}\ 3\ \text{tạ}=6\ \text{tonnes}\ 3\ \text{tạ}.$$
+
+So $3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ $=6$ tonnes $3$ tạ.
 
 **Answer.** $6$ tonnes $3$ tạ.
 :::
@@ -253,7 +274,15 @@ Work out: $5$ tonnes $-2$ tonnes $7$ tạ.
 2. Change $2$ tonnes $7$ tạ to tạ, then subtract.
 
 ::solution
-$5$ tonnes $=50$ tạ and $2$ tonnes $7$ tạ $=27$ tạ. We have $50-27=23$ tạ, which is $2$ tonnes $3$ tạ.
+Since $1$ tonne $=10$ tạ, we change both quantities to tạ:
+$$5\ \text{tonnes}=50\ \text{tạ},\qquad 2\ \text{tonnes}\ 7\ \text{tạ}=20+7=27\ \text{tạ}.$$
+
+We have
+$$50-27=23\ \text{(tạ)}.$$
+
+Since $23$ tạ $=20$ tạ $+3$ tạ $=2$ tonnes $3$ tạ, the result is $2$ tonnes $3$ tạ.
+
+So $5$ tonnes $-2$ tonnes $7$ tạ $=2$ tonnes $3$ tạ.
 
 **Answer.** $2$ tonnes $3$ tạ.
 :::
@@ -272,10 +301,16 @@ A lorry (made-up numbers) carries $4$ tonnes of goods, and $2$ tonnes $5$ tạ h
 ::solution
 Solution
 
-The goods at the start are $4$ tonnes $=4\,000$ kg. The goods unloaded are $2$ tonnes $5$ tạ $=2\,500$ kg.
+The goods on the lorry at the start are:
+$$4\ \text{tonnes}=4\,000\ \text{(kg)}.$$
 
-The goods left are:
+The goods unloaded are:
+$$2\ \text{tonnes}\ 5\ \text{tạ}=2\,000+500=2\,500\ \text{(kg)}.$$
+
+The goods left on the lorry are:
 $$4\,000-2\,500=1\,500\ \text{(kg)}.$$
+
+So $1\,500$ kg of goods are left on the lorry.
 
 **Answer.** $1\,500$ kg of goods.
 :::
@@ -291,7 +326,17 @@ Change $3$ minutes $20$ seconds to seconds and $255$ seconds to minutes and seco
 2. Divide $255$ by $60$, and write the quotient and the remainder.
 
 ::solution
-$3$ minutes $20$ seconds $=3\times60+20=200$ seconds. We have $255\div60=4$ (remainder $15$), so $255$ seconds $=4$ minutes $15$ seconds.
+We have $1$ minute $=60$ seconds, so
+$$3\ \text{minutes}\ 20\ \text{seconds}=3\times60+20=180+20=200\ \text{(seconds)}.$$
+
+To change $255$ seconds to minutes and seconds, we divide $255$ by $60$:
+$$255\div60=4\ \text{(remainder}\ 15\text{)}.$$
+
+The quotient $4$ is the number of minutes and the remainder $15$ is the number of seconds, so $255$ seconds $=4$ minutes $15$ seconds.
+
+Check: $4\times60+15=255$. Correct.
+
+So $3$ minutes $20$ seconds $=200$ seconds and $255$ seconds $=4$ minutes $15$ seconds.
 
 **Answer.** $200$ seconds and $4$ minutes $15$ seconds.
 :::
@@ -307,7 +352,15 @@ Which centuries are the years $1010$ and $1945$ in? The 21st century is the year
 2. The $21$st century starts after the $20$th century ends at the year $2000$.
 
 ::solution
-$1010\div100=10$ (remainder $10$), so the year $1010$ is in the $11$th century, which is XI. $1945\div100=19$ (remainder $45$), so the year $1945$ is in the $20$th century, which is XX. The XX century ends at the year $2000$, so the XXI century is the years from $2001$ to $2100$.
+Each century has $100$ years. To find the century of a year, we divide the year by $100$; if there is a remainder, the century is the quotient plus $1$.
+
+We have $1010\div100=10$ (remainder $10$), so the year $1010$ is in the $10+1=11$th century, which is XI.
+
+We have $1945\div100=19$ (remainder $45$), so the year $1945$ is in the $19+1=20$th century, which is XX.
+
+The XX century ends at the year $2000$, so the XXI century starts at the year $2001$ and lasts $100$ years, that is, it ends at the year $2100$.
+
+So the year $1010$ is in the 11th century, the year $1945$ is in the 20th century, and the 21st century is the years from $2001$ to $2100$.
 
 **Answer.** The 11th century; the 20th century; from the year $2001$ to the year $2100$.
 :::
@@ -326,12 +379,16 @@ Remember the lesson on three-step word problems. A store (made-up numbers) has $
 ::solution
 Solution
 
-The feed used in $10$ days is $4\times10=40$ yến $=400$ kg.
+The feed used by the store in $10$ days is:
+$$4\times10=40\ \text{(yến)}=400\ \text{(kg)}.$$
 
-The feed left is:
+The feed at the start is $2$ tonnes $=2\,000$ kg. The feed left after $10$ days is:
 $$2\,000-400=1\,600\ \text{(kg)}.$$
-The feed now is:
+
+The feed the store has now (after receiving $3$ tạ $=300$ kg more) is:
 $$1\,600+300=1\,900\ \text{(kg)}.$$
+
+So the store now has $1\,900$ kg of feed.
 
 **Answer.** $1\,900$ kg of feed.
 :::
@@ -366,7 +423,22 @@ A lorry can carry at most $5$ tonnes of goods. It has already loaded $28$ sacks 
 3. Divide by the mass of one sack of maize.
 
 ::solution
-One sack of rice weighs $1$ tạ $5$ yến $=150$ kg. The mass of $28$ sacks of rice is $28\times150=4\,200$ kg. The lorry can still carry $5\,000-4\,200=800$ kg. One sack of maize weighs $5$ yến $=50$ kg, so the number of sacks of maize is $800\div50=16$.
+Solution
+
+One sack of rice weighs $1$ tạ $5$ yến $=100+50=150$ kg.
+
+The mass of $28$ sacks of rice is:
+$$28\times150=4\,200\ \text{(kg)}.$$
+
+The lorry can carry at most $5$ tonnes $=5\,000$ kg, so the mass it can still carry is at most:
+$$5\,000-4\,200=800\ \text{(kg)}.$$
+
+One sack of maize weighs $5$ yến $=50$ kg, so the greatest number of sacks of maize it can carry as well is:
+$$800\div50=16\ \text{(sacks)}.$$
+
+Check: $16\times50=800$ kg. Correct.
+
+So the lorry can carry at most $16$ more sacks of maize.
 
 **Answer.** $16$ sacks of maize.
 :::

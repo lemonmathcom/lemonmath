@@ -148,7 +148,14 @@ Tính thể tích hình hộp chữ nhật dài $7$ cm, rộng $3$ cm, cao $4$ c
 2. Nhân từng bước, rồi ghi đơn vị cm³.
 
 ::solution
-$V=7\times3\times4=21\times4=84\ (\text{cm}^3)$.
+Bài giải
+
+Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng nhân chiều cao.
+
+Thể tích hình hộp chữ nhật là:
+$$7\times3\times4=21\times4=84\ (\text{cm}^3)$$
+
+Vậy thể tích hình hộp chữ nhật là $84$ cm³.
 
 **Đáp số.** $84$ cm³.
 :::
@@ -164,7 +171,14 @@ Tính thể tích hình hộp chữ nhật dài $10$ cm, rộng $5$ cm, cao $2$ 
 2. Nhân kết quả với $2$.
 
 ::solution
-$V=10\times5\times2=50\times2=100\ (\text{cm}^3)$.
+Bài giải
+
+Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng nhân chiều cao.
+
+Thể tích hình hộp chữ nhật là:
+$$10\times5\times2=50\times2=100\ (\text{cm}^3)$$
+
+Vậy thể tích hình hộp chữ nhật là $100$ cm³.
 
 **Đáp số.** $100$ cm³.
 :::
@@ -180,7 +194,14 @@ Tính thể tích hình hộp chữ nhật dài $12$ dm, rộng $5$ dm, cao $3$ 
 2. Nhân kết quả với $3$ và ghi đơn vị dm³.
 
 ::solution
-$V=12\times5\times3=60\times3=180\ (\text{dm}^3)$.
+Bài giải
+
+Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng nhân chiều cao.
+
+Thể tích hình hộp chữ nhật là:
+$$12\times5\times3=60\times3=180\ (\text{dm}^3)$$
+
+Vậy thể tích hình hộp chữ nhật là $180$ dm³.
 
 **Đáp số.** $180$ dm³.
 :::
@@ -196,8 +217,14 @@ Hộp bút của Hà là hình hộp chữ nhật dài $18$ cm, rộng $6$ cm, c
 2. Tính $18\times6\times4$ rồi ghi đáp số có đơn vị.
 
 ::solution
+Bài giải
+
+Hộp bút có dạng hình hộp chữ nhật nên thể tích bằng chiều dài nhân chiều rộng nhân chiều cao.
+
 Thể tích hộp bút là:
-$$18\times6\times4=108\times4=432\ (\text{cm}^3).$$
+$$18\times6\times4=108\times4=432\ (\text{cm}^3)$$
+
+Vậy thể tích hộp bút là $432$ xăng-ti-mét khối.
 
 **Đáp số.** $432$ cm³.
 :::
@@ -213,8 +240,14 @@ Một bể cá hình hộp chữ nhật dài $1$ m, rộng $6$ dm, cao $5$ dm. T
 2. Nhân ba kích thước và ghi đơn vị dm³.
 
 ::solution
-Đổi $1$ m $=10$ dm. Thể tích bể cá là:
-$$10\times6\times5=300\ (\text{dm}^3).$$
+Bài giải
+
+Các kích thước phải cùng đơn vị đo là đề-xi-mét. Đổi $1$ m $=10$ dm.
+
+Thể tích bể cá là:
+$$10\times6\times5=60\times5=300\ (\text{dm}^3)$$
+
+Vậy thể tích bể cá là $300$ dm³.
 
 **Đáp số.** $300$ dm³.
 :::
@@ -230,9 +263,20 @@ Em hãy nhớ lại bài trước: một hình lập phương có cạnh $4$ cm.
 2. Nhân với $4$ để được diện tích xung quanh, nhân với $6$ để được diện tích toàn phần.
 
 ::solution
-Diện tích một mặt là $4\times4=16$ (cm²).
+Bài giải
 
-Diện tích xung quanh: $16\times4=64$ (cm²). Diện tích toàn phần: $16\times6=96$ (cm²).
+Hình lập phương có $6$ mặt là các hình vuông bằng nhau; $4$ mặt bên tạo thành mặt xung quanh.
+
+Diện tích một mặt là:
+$$4\times4=16\ (\text{cm}^2)$$
+
+Diện tích xung quanh của hình lập phương là:
+$$16\times4=64\ (\text{cm}^2)$$
+
+Diện tích toàn phần của hình lập phương là:
+$$16\times6=96\ (\text{cm}^2)$$
+
+Vậy diện tích xung quanh là $64$ cm² và diện tích toàn phần là $96$ cm².
 
 **Đáp số.** Diện tích xung quanh $64$ cm², diện tích toàn phần $96$ cm².
 :::
@@ -248,9 +292,19 @@ Một hình hộp chữ nhật có thể tích $120$ cm³, chiều dài $8$ cm, 
 2. Chia $120$ cho diện tích đáy.
 
 ::solution
-Diện tích đáy là $8\times5=40$ (cm²). Chiều cao là $120:40=3$ (cm).
+Bài giải
 
-**Kiểm tra.** $8\times5\times3=120$. Đúng.
+Thể tích bằng diện tích đáy nhân chiều cao, nên chiều cao bằng thể tích chia cho diện tích đáy.
+
+Diện tích đáy của hình hộp chữ nhật là:
+$$8\times5=40\ (\text{cm}^2)$$
+
+Chiều cao của hình hộp chữ nhật là:
+$$120:40=3\ (\text{cm})$$
+
+Kiểm tra: $8\times5\times3=120$ (cm³), đúng với đề bài.
+
+Vậy chiều cao của hình hộp chữ nhật là $3$ cm.
 
 **Đáp số.** $3$ cm.
 :::
@@ -266,9 +320,22 @@ Một thùng hình hộp chữ nhật dài $40$ cm, rộng $30$ cm, cao $20$ cm.
 2. Chia thể tích thùng cho thể tích một hộp nhỏ.
 
 ::solution
-Thể tích thùng là $40\times30\times20=24\,000$ (cm³). Thể tích một hộp nhỏ là $10\times10\times5=500$ (cm³). Số hộp nhỏ là $24\,000:500=48$ (hộp).
+Bài giải
 
-**Kiểm tra.** Theo chiều dài xếp được $40:10=4$ hộp, theo chiều rộng $30:10=3$ hộp, theo chiều cao $20:5=4$ lớp. Có $4\times3\times4=48$ hộp. Đúng.
+Vì các hộp nhỏ xếp vừa khít, không có khe hở, nên số hộp nhỏ bằng thể tích thùng chia cho thể tích một hộp nhỏ.
+
+Thể tích thùng là:
+$$40\times30\times20=24\,000\ (\text{cm}^3)$$
+
+Thể tích một hộp nhỏ là:
+$$10\times10\times5=500\ (\text{cm}^3)$$
+
+Số hộp nhỏ xếp được là:
+$$24\,000:500=48\ (\text{hộp})$$
+
+Kiểm tra: theo chiều dài xếp được $40:10=4$ hộp, theo chiều rộng xếp được $30:10=3$ hộp, theo chiều cao xếp được $20:5=4$ lớp. Số hộp là $4\times3\times4=48$ (hộp), đúng.
+
+Vậy xếp được nhiều nhất $48$ hộp nhỏ.
 
 **Đáp số.** $48$ hộp.
 :::

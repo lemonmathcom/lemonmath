@@ -146,9 +146,15 @@ Tính nhẩm: a) $3\times 5$; b) $3\times 8$.
 2. Câu b: biết $3\times 7=21$, cộng thêm $3$.
 
 ::solution
-a) $3\times 5=3+3+3+3+3=15$.
+Em tính nhẩm bằng cách cộng các số $3$ hoặc dùng bảng nhân $3$.
 
-b) $3\times 8=3\times 7+3=21+3=24$.
+a) $3\times5$ là tổng của $5$ số $3$, nên
+$$3\times5=3+3+3+3+3=15.$$
+
+b) Ta có $3\times7=21$. Thêm một số $3$, ta được
+$$3\times8=3\times7+3=21+3=24.$$
+
+Vậy $3\times5=15$; $3\times8=24$.
 
 **Đáp số.** a) $15$; b) $24$.
 :::
@@ -164,9 +170,19 @@ b) $3\times 8=3\times 7+3=21+3=24$.
 2. Số sau $15$ là $15+3$.
 
 ::solution
-$9+3=12$ và $15+3=18$. Dãy đầy đủ là $3, 6, 9, 12, 15, 18, 21$.
+Trong dãy $3, 6, 9, \square, 15, \square, 21$, mỗi số bằng số liền trước cộng thêm $3$.
 
-**Kiểm tra.** $18+3=21$. Đúng.
+Số ở ô thứ nhất đứng sau số $9$ nên là
+$$9+3=12.$$
+
+Số ở ô thứ hai đứng sau số $15$ nên là
+$$15+3=18.$$
+
+Dãy đầy đủ là $3, 6, 9, 12, 15, 18, 21$.
+
+Kiểm tra: $12+3=15$ và $18+3=21$. Đúng.
+
+Vậy hai số cần điền là $12$ và $18$.
 
 **Đáp số.** $12$ và $18$.
 :::
@@ -182,9 +198,13 @@ Tính: a) $18:3$; b) $27:3$.
 2. Câu b: $3\times\square=27$.
 
 ::solution
-a) $3\times 6=18$ nên $18:3=6$.
+Muốn chia, em tìm phép nhân tương ứng trong bảng nhân $3$.
 
-b) $3\times 9=27$ nên $27:3=9$.
+a) Vì $3\times6=18$ nên $18:3=6$.
+
+b) Vì $3\times9=27$ nên $27:3=9$.
+
+Vậy $18:3=6$; $27:3=9$.
 
 **Đáp số.** a) $6$; b) $9$.
 :::
@@ -200,7 +220,13 @@ b) $3\times 9=27$ nên $27:3=9$.
 2. So sánh kết quả với $20$.
 
 ::solution
-$3\times 7=21$. Vì $21>20$ nên $3\times 7>20$.
+Em tính giá trị của $3\times7$ rồi so sánh với $20$.
+
+Ta có $3\times7=21$.
+
+Vì $21>20$ nên $3\times7>20$.
+
+Vậy dấu cần điền vào chỗ trống là dấu $>$.
 
 **Đáp số.** Dấu $>$.
 :::
@@ -216,10 +242,14 @@ Cô giáo chia đều $15$ cái bút cho $3$ bạn. Hỏi mỗi bạn được m
 2. Làm thế nào? Tính $15:3$, rồi thử lại bằng phép nhân.
 
 ::solution
-Số bút mỗi bạn được là:
-$$15:3=5\ \text{(cái)}.$$
+Bài giải
 
-**Kiểm tra.** $3\times 5=15$. Đúng.
+Chia đều $15$ cái bút cho $3$ bạn thì mỗi bạn được số bút là:
+$$15:3=5\ \text{(cái)}$$
+
+Kiểm tra: $3$ bạn, mỗi bạn $5$ cái bút, có $3\times5=15$ cái bút. Đúng.
+
+Vậy mỗi bạn được $5$ cái bút.
 
 **Đáp số.** $5$ cái bút.
 :::
@@ -235,8 +265,12 @@ Mỗi hàng trong vườn trường có $3$ chậu cây. Vườn có $10$ hàng 
 2. Làm thế nào? Tính $3\times 10$ và ghi đơn vị.
 
 ::solution
-Số chậu cây có tất cả là:
-$$3\times 10=30\ \text{(chậu)}.$$
+Bài giải
+
+Vườn có $10$ hàng, mỗi hàng có $3$ chậu cây nên số chậu cây có tất cả là:
+$$3\times10=30\ \text{(chậu)}$$
+
+Vậy vườn có tất cả $30$ chậu cây.
 
 **Đáp số.** $30$ chậu cây.
 :::
@@ -252,9 +286,15 @@ Em hãy nhớ lại bài trước: tìm số hạng chưa biết. Tìm số thí
 2. Lấy tổng trừ đi $12$.
 
 ::solution
-$3\times 7=21$, nên $\square+12=21$. Số hạng chưa biết là $21-12=9$.
+Em tính vế phải trước. Ta có $3\times7=21$, nên
+$$\square+12=21.$$
 
-**Kiểm tra.** $9+12=21$. Đúng.
+Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:
+$$\square=21-12=9.$$
+
+Kiểm tra: $9+12=21$. Đúng.
+
+Vậy số thích hợp điền vào ô trống là $9$.
 
 **Đáp số.** $9$.
 :::
@@ -271,9 +311,20 @@ Cô Hoa có $27$ quả táo, xếp đều vào các túi, mỗi túi $3$ quả. 
 3. Đổi số túi còn lại ra số quả táo.
 
 ::solution
-Số túi lúc đầu là $27:3=9$ (túi). Số túi còn lại là $9-4=5$ (túi). Số quả táo còn lại là $3\times 5=15$ (quả).
+Bài giải
 
-**Kiểm tra.** Cô cho đi $4$ túi, tức $3\times 4=12$ quả. Còn lại $27-12=15$ quả. Đúng.
+Số túi táo lúc đầu là:
+$$27:3=9\ \text{(túi)}$$
+
+Số túi táo còn lại sau khi cô cho bạn $4$ túi là:
+$$9-4=5\ \text{(túi)}$$
+
+Số quả táo còn lại là:
+$$3\times5=15\ \text{(quả)}$$
+
+Kiểm tra: cô cho đi $4$ túi, tức là $3\times4=12$ quả táo. Số táo còn lại là $27-12=15$ quả. Đúng.
+
+Vậy cô Hoa còn lại $15$ quả táo.
 
 **Đáp số.** $15$ quả táo.
 :::

@@ -129,7 +129,12 @@ Find the missing number: $\dfrac{1}{3}=\dfrac{?}{6}$.
 2. Multiply the numerator by that number.
 
 ::solution
-$3\times2=6$, so $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+When we multiply both the numerator and the denominator of a fraction by the same whole number other than $0$, we get a fraction equal to the original one.
+
+The denominator has gone from $3$ to $6$. Since $3\times2=6$, we multiply both the numerator and the denominator by $2$:
+$$\frac{1}{3}=\frac{1\times2}{3\times2}=\frac{2}{6}$$
+
+So the missing number is $2$.
 
 **Answer.** $2$.
 :::
@@ -145,7 +150,12 @@ Find the missing number: $\dfrac{4}{5}=\dfrac{12}{?}$.
 2. Multiply the denominator by it.
 
 ::solution
-$12\div4=3$, so $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+When we multiply both the numerator and the denominator of a fraction by the same whole number other than $0$, we get a fraction equal to the original one.
+
+The numerator has gone from $4$ to $12$. Since $12\div4=3$, we multiply both the numerator and the denominator by $3$:
+$$\frac{4}{5}=\frac{4\times3}{5\times3}=\frac{12}{15}$$
+
+So the missing number is $15$.
 
 **Answer.** $15$.
 :::
@@ -161,7 +171,13 @@ Remember the last lesson: what is $3\div4$ written as a fraction? Then write tha
 2. Multiply the numerator and the denominator by $2$.
 
 ::solution
-$3\div4=\dfrac{3}{4}$. Since $4\times2=8$, we get $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+The quotient of a whole number divided by a whole number other than $0$ can be written as a fraction, with the dividend as the numerator and the divisor as the denominator:
+$$3\div4=\frac{3}{4}$$
+
+To write $\dfrac{3}{4}$ with denominator $8$: since $4\times2=8$, we multiply both the numerator and the denominator by $2$:
+$$\frac{3}{4}=\frac{3\times2}{4\times2}=\frac{6}{8}$$
+
+So $3\div4$ written as a fraction is $\dfrac{3}{4}$, and that fraction with denominator $8$ is $\dfrac{6}{8}$.
 
 **Answer.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
 :::
@@ -177,7 +193,12 @@ Find the missing number: $\dfrac{8}{12}=\dfrac{?}{3}$.
 2. Divide the numerator by that number.
 
 ::solution
-$12\div4=3$, so $\dfrac{8}{12}=\dfrac{8\div4}{12\div4}=\dfrac{2}{3}$.
+When we divide both the numerator and the denominator of a fraction by the same whole number other than $0$ (a common factor of both), we get a fraction equal to the original one.
+
+The denominator has gone from $12$ to $3$. Since $12\div4=3$, we divide both the numerator and the denominator by $4$:
+$$\frac{8}{12}=\frac{8\div4}{12\div4}=\frac{2}{3}$$
+
+So the missing number is $2$.
 
 **Answer.** $2$.
 :::
@@ -193,7 +214,16 @@ Can we write $\dfrac{1}{2}=\dfrac{2}{3}$ by adding $1$ to both the numerator and
 2. Compare with multiplying or dividing.
 
 ::solution
-No. The numerator $1$ times $2$ gives $2$, but the denominator $2$ times $2$ does not give $3$. The two fractions are not equal; the fraction equal to $\dfrac{1}{2}$ is $\dfrac{2}{4}$.
+Adding $1$ to both the numerator and the denominator of $\dfrac{1}{2}$ gives $\dfrac{1+1}{2+1}=\dfrac{2}{3}$.
+
+By the basic property of fractions, to get a fraction equal to $\dfrac{1}{2}$ we must multiply (or divide) both the numerator and the denominator by the same number, not add the same number. The numerator $1$ times $2$ gives $2$, but the denominator $2$ times $2$ does not give $3$.
+
+The fraction equal to $\dfrac{1}{2}$ when both numbers are multiplied by $2$ is:
+$$\frac{1}{2}=\frac{1\times2}{2\times2}=\frac{2}{4}$$
+
+Check: with the common denominator $6$, $\dfrac{1}{2}=\dfrac{3}{6}$ and $\dfrac{2}{3}=\dfrac{4}{6}$; since $3\neq4$, $\dfrac{1}{2}\neq\dfrac{2}{3}$.
+
+So we cannot write $\dfrac{1}{2}=\dfrac{2}{3}$ by adding $1$ to both the numerator and the denominator; the fraction equal to $\dfrac{1}{2}$ is $\dfrac{2}{4}$.
 
 **Answer.** No, because both numbers must be multiplied by the same number.
 :::
@@ -209,7 +239,12 @@ Mai wrote: "$\dfrac{2}{5}=\dfrac{6}{10}$ because I multiplied the numerator by $
 2. Multiply both numbers by $3$.
 
 ::solution
-Mai multiplied the numerator by $3$ but the denominator by $2$: two different numbers. The correct working is $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+Mai multiplied the numerator $2$ by $3$ but the denominator $5$ by $2$. The two numbers used are different, so $\dfrac{2}{5}$ is not equal to $\dfrac{6}{10}$.
+
+By the basic property of fractions, we must multiply both the numerator and the denominator by the same number. Multiplying both by $3$:
+$$\frac{2}{5}=\frac{2\times3}{5\times3}=\frac{6}{15}$$
+
+So Mai went wrong by multiplying the numerator and the denominator by two different numbers; the correct working is $\dfrac{2}{5}=\dfrac{6}{15}$.
 
 **Answer.** $\dfrac{6}{15}$.
 :::
@@ -225,7 +260,20 @@ Nam eats $\dfrac{2}{4}$ of a cake, Ha eats $\dfrac{4}{8}$ and Lan eats $\dfrac{3
 2. Compare the results.
 
 ::solution
-$\dfrac{2}{4}=\dfrac{2\div2}{4\div2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4\div4}{8\div4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3\div3}{6\div3}=\dfrac{1}{2}$. All three equal $\dfrac{1}{2}$.
+Dividing both the numerator and the denominator by the same whole number other than $0$ gives a fraction equal to the original one.
+
+Nam's share:
+$$\frac{2}{4}=\frac{2\div2}{4\div2}=\frac{1}{2}$$
+
+Ha's share:
+$$\frac{4}{8}=\frac{4\div4}{8\div4}=\frac{1}{2}$$
+
+Lan's share:
+$$\frac{3}{6}=\frac{3\div3}{6\div3}=\frac{1}{2}$$
+
+All three fractions equal $\dfrac{1}{2}$, and the cakes are all the same, so the three children ate the same amount.
+
+So the three children ate the same amount, $\dfrac{1}{2}$ of a cake each.
 
 **Answer.** The three children ate the same amount, $\dfrac{1}{2}$ of a cake each.
 :::
@@ -241,9 +289,21 @@ Find the whole numbers $a$ and $b$ such that $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{
 2. $3\times9=27$: find $b$.
 
 ::solution
-$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$, so $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$, so $b=36$.
+We have $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$, so we find $a$ and $b$ using the basic property of fractions.
 
-**Check.** $15\div5=3$, $20\div5=4$; $27\div9=3$, $36\div9=4$. Correct.
+Finding $a$: the denominator has gone from $4$ to $20$. Since $20\div4=5$, we multiply both the numerator and the denominator by $5$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20}$$
+
+So $a=15$.
+
+Finding $b$: the numerator has gone from $3$ to $27$. Since $27\div3=9$, we multiply both the numerator and the denominator by $9$:
+$$\frac{3}{4}=\frac{3\times9}{4\times9}=\frac{27}{36}$$
+
+So $b=36$.
+
+Check: $15\div5=3$, $20\div5=4$; $27\div9=3$, $36\div9=4$. Both give $\dfrac{3}{4}$. Correct.
+
+So $a=15$ and $b=36$.
 
 **Answer.** $a=15$, $b=36$.
 :::

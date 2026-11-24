@@ -205,7 +205,19 @@ Tính góc giữa $d_1: x=1+t$, $y=2t$, $z=-t$ và $d_2: \dfrac{x-1}{2}=\dfrac{y
 2. Tính tích vô hướng và hai độ dài.
 
 ::solution
-$$\vec{u}_1\cdot\vec{u}_2=2-2-1=-1,\qquad \cos\varphi=\frac{1}{\sqrt6\cdot\sqrt6}=\frac16,\qquad \varphi\approx80{,}4^\circ.$$
+Gọi $\varphi$ là góc giữa hai đường thẳng $d_1$ và $d_2$.
+
+Đường thẳng $d_1$ có vectơ chỉ phương $\vec{u}_1=(1; 2; -1)$, đường thẳng $d_2$ có vectơ chỉ phương $\vec{u}_2=(2; -1; 1)$.
+
+Ta có
+$$\vec{u}_1\cdot\vec{u}_2=1\cdot2+2\cdot(-1)+(-1)\cdot1=-1,\qquad|\vec{u}_1|=\sqrt{1+4+1}=\sqrt6,\qquad|\vec{u}_2|=\sqrt{4+1+1}=\sqrt6.$$
+
+Áp dụng công thức $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}$ (góc giữa hai đường thẳng không vượt quá $90^\circ$ nên lấy giá trị tuyệt đối), ta được
+$$\cos\varphi=\frac{|-1|}{\sqrt6\cdot\sqrt6}=\frac16.$$
+
+Suy ra $\varphi\approx80{,}4^\circ$.
+
+Vậy góc giữa $d_1$ và $d_2$ khoảng $80{,}4^\circ$.
 
 **Đáp số.** Khoảng $80{,}4^\circ$.
 :::
@@ -221,7 +233,19 @@ Tính góc giữa đường thẳng $d: x=1+t$, $y=t$, $z=2$ và mặt phẳng $
 2. Tính $\sin\varphi$.
 
 ::solution
-$$\sin\varphi=\frac{|1+0+0|}{\sqrt2\cdot\sqrt2}=\frac12,\qquad\varphi=30^\circ.$$
+Gọi $\varphi$ là góc giữa đường thẳng $d$ và mặt phẳng $(P)$.
+
+Đường thẳng $d$ có vectơ chỉ phương $\vec{u}=(1; 1; 0)$, mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}=(1; 0; 1)$.
+
+Ta có
+$$\vec{u}\cdot\vec{n}=1\cdot1+1\cdot0+0\cdot1=1,\qquad|\vec{u}|=\sqrt2,\qquad|\vec{n}|=\sqrt2.$$
+
+Áp dụng công thức $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}$, ta được
+$$\sin\varphi=\frac{|1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Vì $0^\circ\le\varphi\le90^\circ$ nên $\varphi=30^\circ$.
+
+Vậy góc giữa đường thẳng $d$ và mặt phẳng $(P)$ bằng $30^\circ$.
 
 **Đáp số.** $30^\circ$.
 :::
@@ -237,7 +261,19 @@ Tính góc giữa hai mặt phẳng $(P): 2x-y+z-1=0$ và $(Q): x+y+2z+3=0$.
 2. Tính côsin.
 
 ::solution
-$$\cos\varphi=\frac{|2-1+2|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12,\qquad\varphi=60^\circ.$$
+Gọi $\varphi$ là góc giữa hai mặt phẳng $(P)$ và $(Q)$.
+
+Mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}_P=(2; -1; 1)$, mặt phẳng $(Q)$ có vectơ pháp tuyến $\vec{n}_Q=(1; 1; 2)$.
+
+Ta có
+$$\vec{n}_P\cdot\vec{n}_Q=2\cdot1+(-1)\cdot1+1\cdot2=3,\qquad|\vec{n}_P|=\sqrt{4+1+1}=\sqrt6,\qquad|\vec{n}_Q|=\sqrt{1+1+4}=\sqrt6.$$
+
+Áp dụng công thức $\cos\varphi=\dfrac{|\vec{n}_P\cdot\vec{n}_Q|}{|\vec{n}_P|\cdot|\vec{n}_Q|}$, ta được
+$$\cos\varphi=\frac{|3|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12.$$
+
+Vì $0^\circ\le\varphi\le90^\circ$ nên $\varphi=60^\circ$.
+
+Vậy góc giữa hai mặt phẳng $(P)$ và $(Q)$ bằng $60^\circ$.
 
 **Đáp số.** $60^\circ$.
 :::
@@ -253,7 +289,19 @@ Tính góc giữa đường thẳng $\Delta: \dfrac{x-1}{2}=\dfrac{y+1}{-2}=\dfr
 2. Tính $\sin\varphi$.
 
 ::solution
-$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13,\qquad\varphi\approx19{,}5^\circ.$$
+Gọi $\varphi$ là góc giữa đường thẳng $\Delta$ và mặt phẳng $(Oxy)$.
+
+Đường thẳng $\Delta$ có vectơ chỉ phương $\vec{u}=(2; -2; 1)$. Mặt phẳng $(Oxy)$ có phương trình $z=0$ nên có vectơ pháp tuyến $\vec{k}=(0; 0; 1)$.
+
+Ta có
+$$\vec{u}\cdot\vec{k}=1,\qquad|\vec{u}|=\sqrt{4+4+1}=3,\qquad|\vec{k}|=1.$$
+
+Áp dụng công thức $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}|\cdot|\vec{k}|}$, ta được
+$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13.$$
+
+Suy ra $\varphi\approx19{,}5^\circ$.
+
+Vậy góc giữa đường thẳng $\Delta$ và mặt phẳng $(Oxy)$ khoảng $19{,}5^\circ$.
 
 **Đáp số.** Khoảng $19{,}5^\circ$.
 :::
@@ -277,13 +325,20 @@ d) Góc giữa hai đường thẳng $AC'$ và $BD$ bằng $60^\circ$.
 2. Áp dụng đúng công thức cho từng loại góc.
 
 ::solution
-a) **Đúng.** $\overrightarrow{AC}=(1; 1; 0)$, $\overrightarrow{B'D'}=(-1; 1; 0)$, tích vô hướng bằng $0$.
+Từ $A(0; 0; 0)$, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$ và cạnh hình lập phương bằng $1$, ta tìm được $C(1; 1; 0)$, $B'(1; 0; 1)$, $D'(0; 1; 1)$, $C'(1; 1; 1)$.
 
-b) **Sai.** $\overrightarrow{A'C}=(1; 1; -1)$, $\sin\varphi=\dfrac{1}{\sqrt3}$, nên $\varphi\approx35{,}3^\circ$.
+a) **Đúng.** Ta có $\overrightarrow{AC}=(1; 1; 0)$ và $\overrightarrow{B'D'}=(-1; 1; 0)$. Khi đó $\overrightarrow{AC}\cdot\overrightarrow{B'D'}=-1+1+0=0$ nên $AC\perp B'D'$, tức là góc giữa hai đường thẳng bằng $90^\circ$.
 
-c) **Đúng.** $\vec{n}=(1; 1; 1)$ và $\vec{k}=(0; 0; 1)$: $\cos\varphi=\dfrac{1}{\sqrt3}$.
+b) **Sai.** Ta có $\overrightarrow{A'C}=(1; 1; -1)$, $|\overrightarrow{A'C}|=\sqrt3$. Mặt phẳng $(ABCD)$ có vectơ pháp tuyến $\vec{k}=(0; 0; 1)$. Gọi $\varphi$ là góc giữa $A'C$ và $(ABCD)$, ta có
+$$\sin\varphi=\frac{|-1|}{\sqrt3\cdot1}=\frac1{\sqrt3},$$
+suy ra $\varphi\approx35{,}3^\circ\neq45^\circ$.
 
-d) **Sai.** $\overrightarrow{AC'}=(1; 1; 1)$, $\overrightarrow{BD}=(-1; 1; 0)$, tích vô hướng bằng $0$, nên góc bằng $90^\circ$.
+c) **Đúng.** Mặt phẳng $(A'BD)$ đi qua $A'(0; 0; 1)$, $B(1; 0; 0)$, $D(0; 1; 0)$ nên có phương trình $x+y+z-1=0$ và vectơ pháp tuyến $\vec{n}=(1; 1; 1)$. Mặt phẳng $(ABCD)$ có vectơ pháp tuyến $\vec{k}=(0; 0; 1)$. Do đó
+$$\cos\varphi=\frac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}=\frac{1}{\sqrt3\cdot1}=\frac1{\sqrt3}.$$
+
+d) **Sai.** Ta có $\overrightarrow{AC'}=(1; 1; 1)$ và $\overrightarrow{BD}=(-1; 1; 0)$. Khi đó $\overrightarrow{AC'}\cdot\overrightarrow{BD}=-1+1+0=0$ nên $AC'\perp BD$, tức là góc giữa hai đường thẳng bằng $90^\circ$, không phải $60^\circ$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -299,8 +354,19 @@ Một đường dốc cho xe lăn là mặt phẳng nghiêng: cứ đi $12$ m th
 2. Tính côsin rồi góc.
 
 ::solution
-$$\cos\varphi=\frac{|-12|}{\sqrt{1+144}\cdot1}=\frac{12}{\sqrt{145}}\approx0{,}9965,\qquad\varphi\approx4{,}8^\circ.$$
-(Kiểm tra bằng tam giác vuông: $\tan\varphi=\dfrac{1}{12}$.)
+Chọn hệ toạ độ có mặt đất là mặt phẳng $(Oxy)$: $z=0$, vectơ pháp tuyến $\vec{k}=(0; 0; 1)$. Mặt dốc $(P): x-12z=0$ có vectơ pháp tuyến $\vec{n}=(1; 0; -12)$.
+
+Gọi $\varphi$ là góc giữa mặt dốc và mặt đất. Ta có
+$$\vec{n}\cdot\vec{k}=-12,\qquad|\vec{n}|=\sqrt{1+144}=\sqrt{145},\qquad|\vec{k}|=1.$$
+
+Áp dụng công thức $\cos\varphi=\dfrac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}$, ta được
+$$\cos\varphi=\frac{|-12|}{\sqrt{145}\cdot1}=\frac{12}{\sqrt{145}}\approx0{,}9965.$$
+
+Suy ra $\varphi\approx4{,}8^\circ$.
+
+Kiểm tra bằng tam giác vuông: cứ đi $12$ m theo phương ngang thì lên cao $1$ m nên $\tan\varphi=\dfrac1{12}$, suy ra $\varphi\approx4{,}8^\circ$, khớp với kết quả trên.
+
+Vậy góc giữa mặt dốc và mặt đất khoảng $4{,}8$ độ.
 
 **Đáp số.** $4{,}8$.
 :::
@@ -316,8 +382,19 @@ Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB=3$, $AD=4$, $SA$ 
 2. $\overrightarrow{SC}=(3; 4; -5)$; dùng $\sin\varphi$ với $(0; 0; 1)$ và $(0; 1; 0)$.
 
 ::solution
-$|\overrightarrow{SC}|=\sqrt{50}=5\sqrt2$.
-$$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \sin\varphi_2=\frac{4}{5\sqrt2}\approx0{,}566,\ \varphi_2\approx34{,}4^\circ.$$
+Vì $SA$ vuông góc với đáy và đáy là hình chữ nhật nên ta chọn hệ toạ độ $A(0; 0; 0)$, $B(3; 0; 0)$, $D(0; 4; 0)$, $S(0; 0; 5)$. Khi đó $C(3; 4; 0)$ và $\overrightarrow{SC}=(3; 4; -5)$.
+
+Ta có $|\overrightarrow{SC}|=\sqrt{9+16+25}=\sqrt{50}=5\sqrt2$.
+
+Góc giữa $SC$ và mặt đáy. Mặt đáy $(ABCD)$ có phương trình $z=0$ nên có vectơ pháp tuyến $\vec{k}=(0; 0; 1)$. Gọi $\varphi_1$ là góc cần tìm, ta có
+$$\sin\varphi_1=\frac{|\overrightarrow{SC}\cdot\vec{k}|}{|\overrightarrow{SC}|\cdot|\vec{k}|}=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},$$
+suy ra $\varphi_1=45^\circ$.
+
+Góc giữa $SC$ và mặt phẳng $(SAB)$. Mặt phẳng $(SAB)$ chứa $A$, $B$, $S$ đều có tung độ bằng $0$ nên có phương trình $y=0$ và vectơ pháp tuyến $\vec{j}=(0; 1; 0)$. Gọi $\varphi_2$ là góc cần tìm, ta có
+$$\sin\varphi_2=\frac{|\overrightarrow{SC}\cdot\vec{j}|}{|\overrightarrow{SC}|\cdot|\vec{j}|}=\frac{4}{5\sqrt2}\approx0{,}566,$$
+suy ra $\varphi_2\approx34{,}4^\circ$.
+
+Vậy góc giữa $SC$ và mặt đáy bằng $45^\circ$, góc giữa $SC$ và mặt phẳng $(SAB)$ khoảng $34{,}4^\circ$.
 
 **Đáp số.** $45^\circ$ và khoảng $34{,}4^\circ$.
 :::
@@ -333,7 +410,19 @@ $$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \
 2. Dùng $\vec{n}=(1; 2; 1)$ và $\vec{k}=(0; 0; 1)$.
 
 ::solution
-$$\cos\varphi=\frac{1}{\sqrt6}\approx0{,}408,\qquad\varphi\approx65{,}9^\circ.$$
+Gọi $(P)$ là mặt phẳng đi qua $A(2; 0; 0)$, $B(0; 1; 0)$, $C(0; 0; 2)$.
+
+Áp dụng phương trình mặt phẳng theo đoạn chắn, ta có
+$$(P):\ \frac x2+\frac y1+\frac z2=1\iff x+2y+z-2=0.$$
+
+Do đó $(P)$ có vectơ pháp tuyến $\vec{n}=(1; 2; 1)$ và $|\vec{n}|=\sqrt{1+4+1}=\sqrt6$. Mặt phẳng $(Oxy)$ có phương trình $z=0$ nên có vectơ pháp tuyến $\vec{k}=(0; 0; 1)$.
+
+Gọi $\varphi$ là góc giữa $(P)$ và $(Oxy)$. Ta có
+$$\cos\varphi=\frac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}=\frac{|1|}{\sqrt6\cdot1}=\frac1{\sqrt6}\approx0{,}408.$$
+
+Suy ra $\varphi\approx65{,}9^\circ$.
+
+Vậy mặt phẳng $(ABC)$ tạo với mặt phẳng $(Oxy)$ một góc khoảng $65{,}9^\circ$.
 
 **Đáp số.** Khoảng $65{,}9^\circ$.
 :::
@@ -349,7 +438,19 @@ $$\cos\varphi=\frac{1}{\sqrt6}\approx0{,}408,\qquad\varphi\approx65{,}9^\circ.$$
 2. Tính $\sin\varphi$ với $\vec{n}=(1; -2; 2)$.
 
 ::solution
-$$\sin\varphi=\frac{|2+6+4|}{\sqrt{17}\cdot3}=\frac{4}{\sqrt{17}}\approx0{,}970,\qquad\varphi\approx76{,}0^\circ.$$
+Ta có $\overrightarrow{AB}=(3-1; -1-2; 1-(-1))=(2; -3; 2)$ nên $|\overrightarrow{AB}|=\sqrt{4+9+4}=\sqrt{17}$.
+
+Mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}=(1; -2; 2)$ và $|\vec{n}|=\sqrt{1+4+4}=3$.
+
+Tích vô hướng
+$$\overrightarrow{AB}\cdot\vec{n}=2\cdot1+(-3)\cdot(-2)+2\cdot2=2+6+4=12.$$
+
+Gọi $\varphi$ là góc giữa đường thẳng $AB$ và $(P)$. Áp dụng công thức $\sin\varphi=\dfrac{|\overrightarrow{AB}\cdot\vec{n}|}{|\overrightarrow{AB}|\cdot|\vec{n}|}$, ta được
+$$\sin\varphi=\frac{|12|}{\sqrt{17}\cdot3}=\frac4{\sqrt{17}}\approx0{,}970.$$
+
+Suy ra $\varphi\approx76{,}0^\circ$.
+
+Vậy góc giữa đường thẳng $AB$ và mặt phẳng $(P)$ khoảng $76{,}0^\circ$.
 
 **Đáp số.** Khoảng $76{,}0^\circ$.
 :::
@@ -365,8 +466,18 @@ Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Tính góc giữa đường
 2. Tính $\sin\varphi$ với $\vec{n}=(1; 1; 1)$.
 
 ::solution
-$$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19{,}5^\circ.$$
-**Kiểm tra.** $\sin\varphi$ nhỏ nên $BD'$ gần như nằm sát mặt phẳng, đúng vì $B$ thuộc $(A'BD)$ và $D'$ chỉ cách mặt phẳng $\dfrac{1}{\sqrt3}$.
+Với hệ toạ độ $A(0; 0; 0)$, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$ thì $D'(0; 1; 1)$. Khi đó $\overrightarrow{BD'}=(-1; 1; 1)$ và $|\overrightarrow{BD'}|=\sqrt3$.
+
+Mặt phẳng $(A'BD)$ đi qua $A'(0; 0; 1)$, $B(1; 0; 0)$, $D(0; 1; 0)$ nên có phương trình $x+y+z-1=0$ và vectơ pháp tuyến $\vec{n}=(1; 1; 1)$, $|\vec{n}|=\sqrt3$.
+
+Gọi $\varphi$ là góc giữa $BD'$ và $(A'BD)$. Ta có $\overrightarrow{BD'}\cdot\vec{n}=-1+1+1=1$ nên
+$$\sin\varphi=\frac{|\overrightarrow{BD'}\cdot\vec{n}|}{|\overrightarrow{BD'}|\cdot|\vec{n}|}=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13.$$
+
+Suy ra $\varphi\approx19{,}5^\circ$.
+
+Vậy góc giữa đường chéo $BD'$ và mặt phẳng $(A'BD)$ khoảng $19{,}5^\circ$.
+
+*Kiểm tra.* Điểm $B$ thuộc $(A'BD)$ và khoảng cách từ $D'$ đến $(A'BD)$ là $\dfrac{|0+1+1-1|}{\sqrt3}=\dfrac1{\sqrt3}$. Do đó $\sin\varphi=\dfrac{1/\sqrt3}{\sqrt3}=\dfrac13$, khớp với kết quả trên; $\sin\varphi$ nhỏ nên $BD'$ nằm khá sát mặt phẳng.
 
 **Đáp số.** Khoảng $19{,}5^\circ$.
 :::

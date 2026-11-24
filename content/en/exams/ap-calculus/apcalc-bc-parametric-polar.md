@@ -130,7 +130,17 @@ D. $3$
 **What you need:** $\dfrac{dy}{dx}=\dfrac{2t}{2}$.
 
 ::solution
-$\dfrac{dy}{dx}=t=3$: answer **D**.
+For a curve given by two parametric functions, when $\dfrac{dx}{dt}\neq0$ we have
+$$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}.$$
+
+From $x=2t+1$ and $y=t^2$, we have $\dfrac{dx}{dt}=2\neq0$ and $\dfrac{dy}{dt}=2t$. Hence
+$$\frac{dy}{dx}=\frac{2t}{2}=t.$$
+
+At $t=3$, we get $\dfrac{dy}{dx}=3$.
+
+So the answer is **D**.
+
+**Answer.** D.
 :::
 
 :::exercise Free response
@@ -140,7 +150,17 @@ Find the equation of the tangent line to $x=e^t$, $y=t^2+1$ at $t=1$.
 **What you need:** the point $(e,2)$ and the slope $\dfrac{2t}{e^t}$.
 
 ::solution
-The slope is $\dfrac2e$, so the tangent line is $y=2+\dfrac2e(x-e)$, that is $y=\dfrac2ex$.
+At $t=1$, we have $x=e^1=e$ and $y=1^2+1=2$, so the point of tangency is $(e, 2)$.
+
+We have $\dfrac{dx}{dt}=e^t$ and $\dfrac{dy}{dt}=2t$. At $t=1$: $\dfrac{dx}{dt}=e\neq0$ and $\dfrac{dy}{dt}=2$. Hence the slope of the tangent line is
+$$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}=\frac2e.$$
+
+The tangent line through $(e, 2)$ with slope $\dfrac2e$ is
+$$y=2+\frac2e(x-e)=2+\frac2ex-2=\frac2ex.$$
+
+So the tangent line to the curve at $t=1$ is $y=\dfrac2ex$.
+
+**Answer.** $y=\dfrac2ex$.
 :::
 
 :::exercise Free response
@@ -153,7 +173,19 @@ Find the length of the path $x=t^2$, $y=\dfrac23t^3$ for $0\le t\le1$.
 1. Substitute $u=1+t^2$.
 
 ::solution
-$\displaystyle\int_0^12t\sqrt{1+t^2}\,dt=\left[\frac23\left(1+t^2\right)^{3/2}\right]_0^1=\frac23\left(2\sqrt2-1\right)\approx1.219$.
+The length of the path $x=x(t)$, $y=y(t)$ for $a\le t\le b$ is $L=\displaystyle\int_a^b\sqrt{\left(\dfrac{dx}{dt}\right)^2+\left(\dfrac{dy}{dt}\right)^2}\,dt$.
+
+From $x=t^2$ and $y=\dfrac23t^3$, we have $\dfrac{dx}{dt}=2t$ and $\dfrac{dy}{dt}=2t^2$. Hence
+$$\sqrt{(2t)^2+\left(2t^2\right)^2}=\sqrt{4t^2\left(1+t^2\right)}=2t\sqrt{1+t^2}\quad(\text{since }t\ge0).$$
+
+So $L=\displaystyle\int_0^12t\sqrt{1+t^2}\,dt$.
+
+Let $u=1+t^2$, so $du=2t\,dt$. When $t=0$ we have $u=1$; when $t=1$ we have $u=2$. We get
+$$L=\int_1^2\sqrt u\,du=\left.\frac23u^{3/2}\right|_1^2=\frac23\left(2\sqrt2-1\right)\approx1.219.$$
+
+So the length of the path is $\dfrac23\left(2\sqrt2-1\right)\approx1.219$.
+
+**Answer.** $\dfrac23\left(2\sqrt2-1\right)\approx1.219$.
 :::
 
 :::exercise Multiple choice
@@ -167,7 +199,19 @@ D. $2\pi$
 **What you need:** $\dfrac12\displaystyle\int_0^\pi16\sin^2\theta\,d\theta$, or notice that the curve is a circle of radius $2$.
 
 ::solution
-$8\displaystyle\int_0^\pi\sin^2\theta\,d\theta=8\cdot\frac\pi2=4\pi$: answer **A**. The curve is the circle of radius $2$ centered at $(0,2)$.
+The area enclosed by the polar curve $r=r(\theta)$ for $\alpha\le\theta\le\beta$ is $A=\dfrac12\displaystyle\int_\alpha^\beta r^2\,d\theta$. For $r=4\sin\theta$ we have $r\ge0$ on $[0, \pi]$, so
+$$A=\frac12\int_0^\pi16\sin^2\theta\,d\theta=8\int_0^\pi\sin^2\theta\,d\theta.$$
+
+Since $\sin^2\theta=\dfrac{1-\cos2\theta}{2}$, we have
+$$\int_0^\pi\sin^2\theta\,d\theta=\left.\left(\frac\theta2-\frac{\sin2\theta}{4}\right)\right|_0^\pi=\frac\pi2.$$
+
+Hence $A=8\cdot\dfrac\pi2=4\pi$.
+
+So the answer is **A**.
+
+*Remark.* The curve is the circle of radius $2$ centered at $(0, 2)$ (because $r=4\sin\theta\iff x^2+y^2=4y\iff x^2+(y-2)^2=4$), so its area is $\pi\cdot2^2=4\pi$, which agrees with the result above.
+
+**Answer.** A.
 :::
 
 :::exercise Free response
@@ -177,7 +221,14 @@ For the spiral $r=\theta$, $0\le\theta\le\pi$: is the point moving toward or awa
 **What you need:** the sign of $\dfrac{dr}{d\theta}$; $\dfrac12\displaystyle\int_0^\pi\theta^2\,d\theta$.
 
 ::solution
-$\dfrac{dr}{d\theta}=1>0$ and $r>0$, so it moves away from the origin. Area $=\dfrac12\cdot\dfrac{\pi^3}{3}=\dfrac{\pi^3}{6}\approx5.168$.
+For $r=\theta$ we have $\dfrac{dr}{d\theta}=1>0$ and $r=\theta>0$ when $\theta>0$. Since $r$ is the distance from the point to the origin and $r$ increases as $\theta$ increases, the point moves away from the origin.
+
+The area swept out by the segment from the origin to the point as $\theta$ goes from $0$ to $\pi$ is
+$$A=\frac12\int_0^\pi r^2\,d\theta=\frac12\int_0^\pi\theta^2\,d\theta=\frac12\left.\frac{\theta^3}{3}\right|_0^\pi=\frac12\cdot\frac{\pi^3}{3}=\frac{\pi^3}{6}\approx5.168.$$
+
+So as $\theta$ increases, the point moves away from the origin; the area swept out is $\dfrac{\pi^3}{6}\approx5.168$.
+
+**Answer.** Away from the origin; area $\dfrac{\pi^3}{6}\approx5.168$.
 :::
 
 ## Application exercises
@@ -196,11 +247,20 @@ c) Find the slope of the path at $t=1$.
 2. $x(2)=1+\displaystyle\int_0^2\left(3t^2-6t\right)dt$, $y(2)=\displaystyle\int_0^24t\,dt$.
 
 ::solution
-a) $t=2$ (at $t=0$ both components are $0$: the particle is at rest).
+We have $\dfrac{dx}{dt}=3t^2-6t=3t(t-2)$ and $\dfrac{dy}{dt}=4t$.
 
-b) $x(2)=1+(8-12)=-3$ and $y(2)=8$: the point $(-3,8)$.
+a) The particle moves vertically when $\dfrac{dx}{dt}=0$ and $\dfrac{dy}{dt}\neq0$. Solving $3t(t-2)=0$ gives $t=0$ or $t=2$. At $t=0$ both components are $0$: the particle is at rest, so we reject it. At $t=2$ we have $\dfrac{dy}{dt}=8\neq0$. So for $t>0$, the particle moves vertically at $t=2$.
 
-c) $\dfrac{dy}{dx}=\dfrac{4}{3-6}=-\dfrac43$.
+b) Since the particle is at $(1, 0)$ at $t=0$,
+$$x(t)=1+\int_0^t\left(3s^2-6s\right)ds=1+t^3-3t^2,\qquad y(t)=0+\int_0^t4s\,ds=2t^2.$$
+At $t=2$: $x(2)=1+8-12=-3$ and $y(2)=2\cdot4=8$. So the position of the particle is $(-3, 8)$.
+
+c) At $t=1$ we have $\dfrac{dx}{dt}=3-6=-3\neq0$ and $\dfrac{dy}{dt}=4$. Hence the slope of the path is
+$$\frac{dy}{dx}=\frac{4}{3-6}=-\frac43.$$
+
+So the particle moves vertically at $t=2$, at the position $(-3, 8)$, and the slope of the path at $t=1$ is $-\dfrac43$.
+
+**Answer.** a) $t=2$; b) $(-3, 8)$; c) $-\dfrac43$.
 :::
 
 :::exercise Inside a cardioid
@@ -212,9 +272,18 @@ b) Find $\dfrac{dr}{d\theta}$ at $\theta=\pi$ and explain what it says about the
 **What you need:** $\displaystyle\int_0^{2\pi}\sin\theta\,d\theta=0$ and $\displaystyle\int_0^{2\pi}\sin^2\theta\,d\theta=\pi$.
 
 ::solution
-a) $\dfrac12\displaystyle\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta=\dfrac12(8\pi+4\pi)=6\pi$.
+For $r=2+2\sin\theta$ we have $r\ge0$ for all $\theta$, and the curve is traced exactly once as $\theta$ goes from $0$ to $2\pi$.
 
-b) $\dfrac{dr}{d\theta}=2\cos\theta=-2$ at $\theta=\pi$. Since $r=2>0$ there, the curve is getting closer to the origin as $\theta$ increases.
+a) The area enclosed by the curve is
+$$A=\frac12\int_0^{2\pi}(2+2\sin\theta)^2\,d\theta=\frac12\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta.$$
+We compute each term: $\displaystyle\int_0^{2\pi}4\,d\theta=8\pi$; $\displaystyle\int_0^{2\pi}8\sin\theta\,d\theta=0$; and since $\sin^2\theta=\dfrac{1-\cos2\theta}{2}$, $\displaystyle\int_0^{2\pi}4\sin^2\theta\,d\theta=4\pi$. Hence
+$$A=\frac12(8\pi+0+4\pi)=6\pi.$$
+
+b) We have $\dfrac{dr}{d\theta}=2\cos\theta$. At $\theta=\pi$: $\dfrac{dr}{d\theta}=2\cos\pi=-2$, and $r=2+2\sin\pi=2>0$. Since $r>0$ and $\dfrac{dr}{d\theta}<0$, $r$ decreases as $\theta$ increases; that is, there the curve is getting closer to the origin.
+
+So the area enclosed by the curve is $6\pi$; at $\theta=\pi$ we have $\dfrac{dr}{d\theta}=-2$ and the curve is getting closer to the origin.
+
+**Answer.** a) $6\pi$; b) $\dfrac{dr}{d\theta}=-2$, the curve is getting closer to the origin.
 :::
 
 :::exercise Between two polar curves
@@ -227,7 +296,21 @@ Find the area of the region inside $r=3\cos\theta$ and outside $r=1+\cos\theta$.
 1. $A=\dfrac12\displaystyle\int_{-\pi/3}^{\pi/3}\left(9\cos^2\theta-(1+\cos\theta)^2\right)d\theta$.
 
 ::solution
-The integral equals $\pi$. With a graphing calculator on the calculator part, the setup and the value $3.142$ are enough.
+Find the intersections of the two curves: $3\cos\theta=1+\cos\theta\iff\cos\theta=\dfrac12\iff\theta=\pm\dfrac\pi3$.
+
+The circle $r=3\cos\theta$ is traced once for $-\dfrac\pi2\le\theta\le\dfrac\pi2$. For $-\dfrac\pi3\le\theta\le\dfrac\pi3$ we have $\cos\theta\ge\dfrac12$, so $3\cos\theta\ge1+\cos\theta$: the circle lies outside the curve $r=1+\cos\theta$. For $\dfrac\pi3<|\theta|\le\dfrac\pi2$ we have $3\cos\theta<1+\cos\theta$, so the circle lies inside the other curve. Hence the region inside $r=3\cos\theta$ and outside $r=1+\cos\theta$ corresponds to $-\dfrac\pi3\le\theta\le\dfrac\pi3$.
+
+By symmetry about the $x$-axis, the area is
+$$A=\frac12\int_{-\pi/3}^{\pi/3}\left[(3\cos\theta)^2-(1+\cos\theta)^2\right]d\theta=\int_0^{\pi/3}\left(8\cos^2\theta-2\cos\theta-1\right)d\theta.$$
+
+Since $8\cos^2\theta=4+4\cos2\theta$,
+$$A=\int_0^{\pi/3}\left(3+4\cos2\theta-2\cos\theta\right)d\theta=\Big[3\theta+2\sin2\theta-2\sin\theta\Big]_0^{\pi/3}=\pi+\sqrt3-\sqrt3=\pi.$$
+
+So the required area is $\pi\approx3.142$.
+
+*Exam tip.* On the calculator part with a graphing calculator, it is enough to write the integral $\dfrac12\displaystyle\int_{-\pi/3}^{\pi/3}\left[(3\cos\theta)^2-(1+\cos\theta)^2\right]d\theta$ and the value $3.142$.
+
+**Answer.** $\pi\approx3.142$.
 :::
 
 :::exercise Challenge
@@ -241,7 +324,25 @@ Find the point on $r=1+\cos\theta$, $0<\theta<\pi$, where the tangent line is ho
 2. Factor: $(2\cos\theta-1)(\cos\theta+1)=0$.
 
 ::solution
-$\cos\theta=\dfrac12$, so $\theta=\dfrac\pi3$ (the root $\cos\theta=-1$ gives $\theta=\pi$, outside the interval). There $r=\dfrac32$, and the point is $\left(\dfrac34,\dfrac{3\sqrt3}{4}\right)$. Check: $\dfrac{dx}{d\theta}\ne0$ there.
+The Cartesian coordinates of a point on the curve are
+$$x=r\cos\theta=(1+\cos\theta)\cos\theta,\qquad y=r\sin\theta=(1+\cos\theta)\sin\theta.$$
+
+Differentiating with respect to $\theta$:
+$$\frac{dy}{d\theta}=-\sin^2\theta+(1+\cos\theta)\cos\theta=2\cos^2\theta+\cos\theta-1=(2\cos\theta-1)(\cos\theta+1),$$
+$$\frac{dx}{d\theta}=-\sin\theta\cos\theta-(1+\cos\theta)\sin\theta=-\sin\theta(1+2\cos\theta).$$
+
+The tangent line is horizontal when $\dfrac{dy}{d\theta}=0$ and $\dfrac{dx}{d\theta}\neq0$. Solving $\dfrac{dy}{d\theta}=0$: $\cos\theta=\dfrac12$ or $\cos\theta=-1$.
+
+For $0<\theta<\pi$: $\cos\theta=\dfrac12$ gives $\theta=\dfrac\pi3$; and $\cos\theta=-1$ gives $\theta=\pi$, which lies outside the interval, so we reject it.
+
+Check: at $\theta=\dfrac\pi3$ we have $\dfrac{dx}{d\theta}=-\dfrac{\sqrt3}{2}(1+1)=-\sqrt3\neq0$.
+
+Then $r=1+\dfrac12=\dfrac32$, so
+$$x=\frac32\cdot\frac12=\frac34,\qquad y=\frac32\cdot\frac{\sqrt3}{2}=\frac{3\sqrt3}{4}.$$
+
+So the point on the curve where the tangent line is horizontal is $\left(\dfrac34, \dfrac{3\sqrt3}{4}\right)$.
+
+**Answer.** $\left(\dfrac34, \dfrac{3\sqrt3}{4}\right)$.
 :::
 
 :::quiz

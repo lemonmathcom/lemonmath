@@ -223,11 +223,16 @@ c) $5x(y-2)-3(y-2)$.
 2. Divide each term by the common factor and write the results in the bracket.
 
 ::solution
-a) $4x^2-6x=2x(2x-3)$.
+We take out the common factor: find the greatest common divisor of the coefficients and the common powers of the variables.
 
-b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+a) The two terms $4x^2$ and $6x$ have common factor $2x$. We have
+$$4x^2-6x=2x\cdot2x-2x\cdot3=2x(2x-3).$$
 
-c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+b) The greatest common divisor of $12$ and $18$ is $6$; the common variable part is $x^2y$. The common factor is $6x^2y$, so
+$$12x^3y-18x^2y^2=6x^2y\cdot2x-6x^2y\cdot3y=6x^2y(2x-3y).$$
+
+c) The two terms have common factor $(y-2)$. We have
+$$5x(y-2)-3(y-2)=(y-2)(5x-3).$$
 
 So a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
 
@@ -251,11 +256,14 @@ c) $3a(b-1)-6(1-b)$.
 2. Take out the common factor.
 
 ::solution
-a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
+a) The two terms have common factor $(x-3)$. We have
+$$2x(x-3)+5(x-3)=(x-3)(2x+5).$$
 
-b) We have $y(y-x)=-y(x-y)$, so $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+b) We have $y-x=-(x-y)$, so $y(y-x)=-y(x-y)$. Hence
+$$x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2.$$
 
-c) We have $-6(1-b)=6(b-1)$, so $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+c) We have $1-b=-(b-1)$, so $-6(1-b)=6(b-1)$. Hence
+$$3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2).$$
 
 So a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
 
@@ -279,11 +287,14 @@ c) $4x^2+12x+9$.
 2. Identify $A$ and $B$ and write the result.
 
 ::solution
-a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
+a) We have $9x^2=(3x)^2$ and $16y^2=(4y)^2$. Using the difference of two squares $A^2-B^2=(A-B)(A+B)$:
+$$9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y).$$
 
-b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+b) We have $x^2$, $25=5^2$ and $10x=2\cdot x\cdot5$. Using the square of a difference $A^2-2AB+B^2=(A-B)^2$:
+$$x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2.$$
 
-c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+c) We have $4x^2=(2x)^2$, $9=3^2$ and $12x=2\cdot2x\cdot3$. Using the square of a sum $A^2+2AB+B^2=(A+B)^2$:
+$$4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2.$$
 
 So a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
 
@@ -307,11 +318,14 @@ c) $x^3+6x^2+12x+8$.
 2. Watch the sign in the second factor.
 
 ::solution
-a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
+a) We have $8=2^3$. Using the sum of two cubes $A^3+B^3=(A+B)(A^2-AB+B^2)$:
+$$x^3+8=x^3+2^3=(x+2)\left(x^2-2x+4\right).$$
 
-b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
+b) We have $27x^3=(3x)^3$ and $1=1^3$. Using the difference of two cubes $A^3-B^3=(A-B)(A^2+AB+B^2)$:
+$$27x^3-1=(3x)^3-1^3=(3x-1)\left(9x^2+3x+1\right).$$
 
-c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
+c) We have $8=2^3$, $6x^2=3\cdot x^2\cdot2$ and $12x=3\cdot x\cdot2^2$. Using the cube of a sum:
+$$x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3.$$
 
 So a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
 
@@ -335,11 +349,16 @@ c) $a^2-ab-4a+4b$.
 2. Take out the common factor in each group, then the new common factor.
 
 ::solution
-a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
+We group the terms so that each group has a common factor, then take out the common factor of the whole expression.
 
-b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+a) Group the first two terms and the last two terms:
+$$xy+2x+3y+6=(xy+2x)+(3y+6)=x(y+2)+3(y+2)=(y+2)(x+3).$$
 
-c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+b) Group the first two terms and the last two terms:
+$$x^2-2xy+x-2y=(x^2-2xy)+(x-2y)=x(x-2y)+(x-2y)=(x-2y)(x+1).$$
+
+c) Group the first two terms and the last two terms:
+$$a^2-ab-4a+4b=(a^2-ab)-(4a-4b)=a(a-b)-4(a-b)=(a-b)(a-4).$$
 
 So a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
 
@@ -363,11 +382,18 @@ c) $x^4-16$.
 2. Factorise what remains using identities.
 
 ::solution
-a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
+Factorising completely means continuing until no factor can be factorised further.
 
-b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+a) Take out the common factor $3x$, then use the difference of two squares:
+$$3x^3-12x=3x\left(x^2-4\right)=3x(x-2)(x+2).$$
 
-c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+b) Take out the common factor $2$, then use the square of a difference:
+$$2x^2-12x+18=2\left(x^2-6x+9\right)=2(x-3)^2.$$
+
+c) Use the difference of two squares twice, since $x^4=(x^2)^2$ and $16=4^2$:
+$$x^4-16=\left(x^2\right)^2-4^2=\left(x^2-4\right)\left(x^2+4\right)=(x-2)(x+2)\left(x^2+4\right).$$
+
+The factor $x^2+4$ cannot be factorised further (over the real numbers).
 
 So a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
 
@@ -391,11 +417,14 @@ c) $76^2+2\cdot76\cdot24+24^2$.
 2. Factorise, then calculate.
 
 ::solution
-a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
+a) Take out the common factor $45$:
+$$45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500.$$
 
-b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+b) Use the difference of two squares $A^2-B^2=(A-B)(A+B)$:
+$$65^2-35^2=(65-35)(65+35)=30\cdot100=3000.$$
 
-c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
+c) The expression has the form $A^2+2AB+B^2$ with $A=76$, $B=24$. Using the square of a sum:
+$$76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000.$$
 
 So a) $4500$; b) $3000$; c) $10\,000$.
 
@@ -433,7 +462,13 @@ Recall the lesson on the difference of two squares. Suppose a square piece of ca
 2. Factorise it into a product, then calculate.
 
 ::solution
-The remaining area is $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Check: $144-64=80$.)
+The remaining area equals the area of the square card minus the area of the square that is cut out:
+$$S=12^2-8^2.$$
+
+Using the difference of two squares $A^2-B^2=(A-B)(A+B)$, we have
+$$S=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2).$$
+
+Check: $12^2-8^2=144-64=80$.
 
 So the remaining area is $80\ \text{cm}^2$.
 

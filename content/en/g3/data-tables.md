@@ -164,6 +164,12 @@ You wrote down the animals children like: cat, dog, cat, fish, dog, cat, cat, fi
 3. Add up to check.
 
 ::solution
+We read the animals one by one and draw one tally mark in the row of that animal. Each time we meet an animal, we add one more mark.
+
+The animals in order are: cat, dog, cat, fish, dog, cat, cat, fish.
+
+Counting each kind: cat appears $4$ times (in positions $1$, $3$, $6$, $7$); dog appears $2$ times (in positions $2$, $5$); fish appears $2$ times (in positions $4$, $8$). We get the data table:
+
 | Animal | Tally marks | Number of children |
 |---|---|---|
 | Cat | //// | $4$ |
@@ -171,6 +177,8 @@ You wrote down the animals children like: cat, dog, cat, fish, dog, cat, cat, fi
 | Fish | // | $2$ |
 
 Check: $4+2+2=8$, the number of children you wrote down.
+
+So in the table, $4$ children like cats, $2$ children like dogs and $2$ children like fish.
 
 **Answer.** Cat $4$, dog $2$, fish $2$.
 :::
@@ -193,9 +201,16 @@ b) How many children are in Class 3B?
 2. Add the four numbers.
 
 ::solution
-a) The biggest number is $11$ (bicycle) and the smallest is $5$ (bus).
+a) Reading the table, the numbers of children for the four ways are $7$, $11$, $5$ and $9$. Comparing these four numbers, we have $5<7<9<11$.
 
-b) $7+11+5+9=32$ (children).
+The biggest number is $11$, which is bicycle. The smallest number is $5$, which is bus.
+
+So bicycle has the most children and bus has the fewest.
+
+b) The number of children in Class 3B is the total of the four ways of travelling. We add the numbers one at a time:
+$$7+11=18;\quad 18+5=23;\quad 23+9=32.$$
+
+So Class 3B has $32$ children.
 
 **Answer.** a) Bicycle is the most, bus is the fewest. b) $32$ children.
 :::
@@ -215,9 +230,18 @@ A class has $28$ children and each joins one club. The number who joined art is 
 2. Subtract the result from $28$.
 
 ::solution
-$11+8=19$. The number who joined art is $28-19=9$ (children).
+Solution
 
-**Check.** $11+8+9=28$.
+The class has $28$ children and each child joins exactly one club, so the three clubs together have $28$ children.
+
+The number of children who joined singing and dancing is:
+$$11+8=19\ \text{(children)}.$$
+The number of children who joined art is:
+$$28-19=9\ \text{(children)}.$$
+
+Check: $11+8+9=28$, the number of children in the class.
+
+So $9$ children joined art.
 
 **Answer.** $9$ children.
 :::
@@ -240,9 +264,17 @@ b) How many more eggs are collected on the best day than on the worst day?
 2. Find the biggest and smallest numbers, then subtract.
 
 ::solution
-a) $24+30=54$; $54+27=81$; $81+21=102$ (eggs).
+a) The number of eggs collected in all four days is the total of the four numbers in the table. We add the numbers one at a time:
+$$24+30=54;\quad 54+27=81;\quad 81+21=102.$$
 
-b) The biggest number is $30$ and the smallest is $21$. We have $30-21=9$ (eggs).
+So $102$ eggs are collected in the four days.
+
+b) Comparing the four numbers $24$, $30$, $27$, $21$: the biggest number is $30$ (Tuesday) and the smallest is $21$ (Thursday).
+
+The number of eggs by which the best day beats the worst day is:
+$$30-21=9\ \text{(eggs)}.$$
+
+So the best day has $9$ more eggs than the worst day.
 
 **Answer.** a) $102$ eggs. b) $9$ eggs.
 :::
@@ -264,7 +296,15 @@ Binh says: "There are $30$ children in our class and each chose one ice cream." 
 2. Add the three numbers and compare with $30$.
 
 ::solution
-$8+12+6=26$. Since $26\ne30$, there are not $30$ children in the table.
+If the class has $30$ children and each child chooses one ice cream, the total number of children in the table must be $30$.
+
+The total number of children in the table is:
+$$8+12+6=26\ \text{(children)}.$$
+
+Since $26\neq30$, the table does not have $30$ children. The number of children missing is:
+$$30-26=4\ \text{(children)}.$$
+
+So Binh is not right, because the table has only $26$ children, so $4$ are missing.
 
 **Answer.** Binh is not right: the table has only $26$ children, so $4$ are missing.
 :::
@@ -280,7 +320,18 @@ Lan asked $9$ children for their colour: blue, red, blue, yellow, red, blue, yel
 2. Count each colour in the list again.
 
 ::solution
-$5+3+2=10$, but Lan asked only $9$ children, so the table is wrong. Counting again: blue is $4$ (the 1st, 3rd, 6th and 8th children), red is $3$, yellow is $2$. We have $4+3+2=9$.
+Lan asked $9$ children, so the total in the table must be $9$. Lan's table has a total of:
+$$5+3+2=10.$$
+
+Since $10\neq9$, Lan's table is wrong.
+
+Counting again from the list of answers: blue, red, blue, yellow, red, blue, yellow, blue, red.
+
+Blue is chosen by the 1st, 3rd, 6th and 8th children, that is $4$ children. Red is chosen by the 2nd, 5th and 9th children, that is $3$ children. Yellow is chosen by the 4th and 7th children, that is $2$ children.
+
+Check: $4+3+2=9$, the number of children Lan asked.
+
+So Lan counted one blue child too many. The correct table is: blue $4$, red $3$, yellow $2$.
 
 **Answer.** Lan counted one blue too many; the correct table is blue $4$, red $3$, yellow $2$.
 :::
@@ -299,15 +350,21 @@ b) A shop sells $12\,640$ exercise books in $4$ weeks, the same number each week
 2. Each week has the same number of books.
 
 ::solution
-a) $12\,640\div4=3\,160$.
+a) We divide $12\,640$ by $4$ step by step from left to right.
 
-b)
+Take $12$ and divide by $4$ to get $3$, remainder $0$. Bring down $6$ to make $6$; $6\div4=1$, remainder $2$. Bring down $4$ to make $24$; $24\div4=6$, remainder $0$. Bring down $0$ to make $0$; $0\div4=0$, remainder $0$.
+
+So $12\,640\div4=3\,160$.
+
+b) The shop sells $12\,640$ exercise books in $4$ weeks, the same number each week, so the number of books each week is $12\,640\div4=3\,160$ (books). We put this in the table:
 
 | Week | One | Two | Three | Four |
 |---|---|---|---|---|
 | Number of books | $3\,160$ | $3\,160$ | $3\,160$ | $3\,160$ |
 
-**Check.** $3\,160\times4=12\,640$.
+Check: $3\,160\times4=12\,640$.
+
+So the shop sells $3\,160$ books each week.
 
 **Answer.** a) $3\,160$. b) $3\,160$ books each week.
 :::
@@ -323,9 +380,18 @@ A class has $36$ children and each chooses one of three sports: football, badmin
 2. Subtract the football and badminton numbers from $36$.
 
 ::solution
-Badminton: $15-5=10$ (children). Football and badminton together: $15+10=25$ (children). Swimming: $36-25=11$ (children).
+Solution
 
-**Check.** $15+10+11=36$.
+The number of children who choose badminton is:
+$$15-5=10\ \text{(children)}.$$
+The number of children who choose football and badminton together is:
+$$15+10=25\ \text{(children)}.$$
+The number of children who choose swimming is:
+$$36-25=11\ \text{(children)}.$$
+
+Check: $15+10+11=36$, the number of children in the class.
+
+So $11$ children choose swimming.
 
 **Answer.** $11$ children.
 :::

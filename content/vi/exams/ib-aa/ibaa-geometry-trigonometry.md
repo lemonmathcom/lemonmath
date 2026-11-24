@@ -124,7 +124,17 @@ Một hình cầu có thể tích $36\pi$ cm³. Tìm bán kính và diện tích
 **Cần nhớ:** $V=\dfrac43\pi r^3$ và $S=4\pi r^2$.
 
 ::solution
-$\dfrac43r^3=36$, nên $r^3=27$ và $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+Gọi $r$ (cm) là bán kính hình cầu, $r>0$. Áp dụng công thức thể tích hình cầu $V=\dfrac43\pi r^3$, ta có
+$$\frac43\pi r^3=36\pi.$$
+
+Chia hai vế cho $\pi$ rồi nhân với $\dfrac34$, ta được $r^3=36\cdot\dfrac34=27$, suy ra $r=3$ (cm).
+
+Áp dụng công thức diện tích mặt cầu $S=4\pi r^2$, ta có
+$$S=4\pi\cdot3^2=36\pi\ \text{cm}^2.$$
+
+Vậy hình cầu có bán kính $3$ cm và diện tích mặt cầu là $36\pi$ cm².
+
+**Đáp số.** $r=3$ cm; $S=36\pi$ cm².
 :::
 
 :::exercise Tìm góc từ ba cạnh
@@ -134,7 +144,16 @@ Một tam giác có các cạnh $5$, $7$ và $8$. Tìm góc đối diện cạnh
 **Cần nhớ:** định lí cosin viết lại: $\cos C=\dfrac{a^2+b^2-c^2}{2ab}$.
 
 ::solution
-$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, nên góc đó bằng $60^\circ$.
+Xét tam giác $ABC$ với $a=BC=5$, $b=CA=8$ và $c=AB=7$. Góc đối diện cạnh dài $7$ là góc $C$.
+
+Áp dụng định lí côsin $c^2=a^2+b^2-2ab\cos C$, ta có
+$$\cos C=\frac{a^2+b^2-c^2}{2ab}=\frac{25+64-49}{2\cdot5\cdot8}=\frac{40}{80}=\frac12.$$
+
+Vì $0^\circ<C<180^\circ$ và $\cos C=\dfrac12$ nên $C=60^\circ$.
+
+Vậy góc đối diện cạnh dài $7$ bằng $60^\circ$.
+
+**Đáp số.** $60^\circ$.
 :::
 
 :::exercise Chu vi hình quạt
@@ -144,7 +163,17 @@ Một hình quạt có bán kính $6$ cm và góc $\dfrac\pi3$. Tìm chu vi chí
 **Cần nhớ:** chu vi $=2r+r\theta$.
 
 ::solution
-$l=6\cdot\dfrac\pi3=2\pi$, nên chu vi là $12+2\pi$ cm.
+Chu vi hình quạt gồm hai bán kính và độ dài cung.
+
+Với góc $\theta=\dfrac\pi3$ (rađian) và bán kính $r=6$ cm, độ dài cung là
+$$l=r\theta=6\cdot\frac\pi3=2\pi\ \text{cm}.$$
+
+Chu vi hình quạt là
+$$P=2r+l=2\cdot6+2\pi=12+2\pi\ \text{cm}.$$
+
+Vậy chu vi chính xác của hình quạt là $12+2\pi$ cm.
+
+**Đáp số.** $12+2\pi$ cm.
 :::
 
 :::exercise Góc phần tư thứ ba
@@ -154,7 +183,22 @@ Cho $\cos\theta=-\dfrac{5}{13}$ và $\pi<\theta<\dfrac{3\pi}{2}$. Tìm giá tr�
 **Cần nhớ:** ở góc phần tư thứ ba sin âm và tan dương.
 
 ::solution
-$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, và $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
+Áp dụng hệ thức $\sin^2\theta+\cos^2\theta=1$, ta có
+$$\sin^2\theta=1-\cos^2\theta=1-\frac{25}{169}=\frac{144}{169}.$$
+
+Suy ra $\sin\theta=\pm\dfrac{12}{13}$.
+
+Vì $\pi<\theta<\dfrac{3\pi}{2}$ nên $\theta$ thuộc góc phần tư thứ ba, ở đó $\sin\theta<0$. Do đó
+$$\sin\theta=-\sqrt{1-\frac{25}{169}}=-\frac{12}{13}.$$
+
+Ta có
+$$\tan\theta=\frac{\sin\theta}{\cos\theta}=\frac{-12/13}{-5/13}=\frac{12}{5}.$$
+
+Giá trị $\tan\theta>0$ phù hợp với góc phần tư thứ ba.
+
+Vậy $\sin\theta=-\dfrac{12}{13}$ và $\tan\theta=\dfrac{12}{5}$.
+
+**Đáp số.** $\sin\theta=-\dfrac{12}{13}$; $\tan\theta=\dfrac{12}{5}$.
 :::
 
 :::exercise Phân tích, đừng chia
@@ -164,7 +208,21 @@ Giải $\sin2x=\sin x$ với $0\le x\le\pi$. [5 marks]
 **Cần nhớ:** $2\sin x\cos x-\sin x=\sin x(2\cos x-1)$.
 
 ::solution
-$\sin x=0$ cho $x=0$ hoặc $x=\pi$; $\cos x=\dfrac12$ cho $x=\dfrac\pi3$. Các nghiệm là $0$, $\dfrac\pi3$, $\pi$.
+Áp dụng công thức nhân đôi $\sin2x=2\sin x\cos x$, phương trình trở thành
+$$2\sin x\cos x=\sin x.$$
+
+Chuyển vế và đặt nhân tử chung (không chia hai vế cho $\sin x$ để không mất nghiệm):
+$$\sin x(2\cos x-1)=0.$$
+
+Suy ra $\sin x=0$ hoặc $\cos x=\dfrac12$.
+
+Trường hợp $\sin x=0$ với $0\le x\le\pi$: $x=0$ hoặc $x=\pi$.
+
+Trường hợp $\cos x=\dfrac12$ với $0\le x\le\pi$: $x=\dfrac\pi3$ (trên đoạn $[0; \pi]$ hàm $\cos x$ giảm từ $1$ đến $-1$ nên chỉ có một nghiệm).
+
+Vậy phương trình có ba nghiệm $x=0$, $x=\dfrac\pi3$, $x=\pi$ trong đoạn $[0; \pi]$.
+
+**Đáp số.** $0$, $\dfrac\pi3$, $\pi$.
 :::
 
 ## Bài tập vận dụng
@@ -176,7 +234,19 @@ Với vòng đu quay ở trên, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. 
 **Cần nhớ:** $\cos\left(\dfrac{\pi t}{15}\right)=-\dfrac12$, và lấy nghiệm dương nhỏ nhất.
 
 ::solution
-$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, nên $t=10$ giây.
+Thời điểm ghế ở độ cao $17$ mét thoả mãn $h(t)=17$, tức là
+$$12-10\cos\left(\frac{\pi t}{15}\right)=17.$$
+
+Suy ra $-10\cos\left(\dfrac{\pi t}{15}\right)=5$, tức là $\cos\left(\dfrac{\pi t}{15}\right)=-\dfrac12$.
+
+Đặt $u=\dfrac{\pi t}{15}$. Vì $t\ge0$ nên $u\ge0$. Trên đoạn $[0; \pi]$, hàm $\cos u$ giảm từ $1$ đến $-1$ nên có đúng một giá trị $u$ thoả $\cos u=-\dfrac12$, đó là $u=\dfrac{2\pi}{3}$. Đây là giá trị nhỏ nhất của $u\ge0$ thoả mãn, ứng với thời điểm đầu tiên.
+
+Từ $\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$ suy ra
+$$t=\frac{2\pi}{3}\cdot\frac{15}{\pi}=10.$$
+
+Vậy ghế lần đầu tiên ở độ cao $17$ mét sau $10$ giây.
+
+**Đáp số.** $t=10$ giây.
 :::
 
 :::exercise Phương vị
@@ -186,7 +256,19 @@ Một con tàu đi $12$ km theo phương vị $060^\circ$, rồi đi $8$ km theo
 **Cần nhớ:** vẽ hình sẽ thấy hai chặng vuông góc với nhau ($150^\circ-60^\circ=90^\circ$).
 
 ::solution
-$\sqrt{12^2+8^2}=\sqrt{208}\approx14{,}4$ km.
+Gọi $O$ là điểm xuất phát, $A$ là vị trí sau khi đi $12$ km theo phương vị $060^\circ$, và $B$ là vị trí sau khi đi tiếp $8$ km theo phương vị $150^\circ$. Ta có $OA=12$ km và $AB=8$ km.
+
+Phương vị đo từ hướng bắc theo chiều kim đồng hồ. Hướng từ $A$ về $O$ có phương vị $060^\circ+180^\circ=240^\circ$, còn hướng từ $A$ đến $B$ có phương vị $150^\circ$. Do đó
+$$\widehat{OAB}=240^\circ-150^\circ=90^\circ.$$
+
+Tam giác $OAB$ vuông tại $A$. Áp dụng định lí Pythagore:
+$$OB^2=OA^2+AB^2=12^2+8^2=144+64=208.$$
+
+Suy ra $OB=\sqrt{208}\approx14{,}4$ km.
+
+Vậy khoảng cách từ tàu đến điểm xuất phát khoảng $14{,}4$ km.
+
+**Đáp số.** $\sqrt{208}\approx14{,}4$ km.
 :::
 
 :::exercise Chiều cao của tháp
@@ -196,7 +278,16 @@ Từ một điểm cách chân tháp $50$ m trên mặt đất bằng phẳng, g
 **Cần nhớ:** $\tan32^\circ=\dfrac{h}{50}$.
 
 ::solution
-$h=50\tan32^\circ\approx31{,}2$ m.
+Gọi $h$ (m) là chiều cao của tháp. Mặt đất bằng phẳng nên tháp vuông góc với mặt đất; tam giác tạo bởi đỉnh tháp, chân tháp và điểm quan sát là tam giác vuông, với cạnh kề góc nâng bằng $50$ m và cạnh đối bằng $h$.
+
+Áp dụng tỉ số lượng giác trong tam giác vuông:
+$$\tan32^\circ=\frac{h}{50}.$$
+
+Suy ra $h=50\tan32^\circ\approx31{,}2$ (m).
+
+Vậy chiều cao của tháp khoảng $31{,}2$ m.
+
+**Đáp số.** $h\approx31{,}2$ m.
 :::
 
 :::exercise Thử thách: một đẳng thức
@@ -206,7 +297,17 @@ Chứng minh $\dfrac{1-\cos2x}{\sin2x}=\tan x$ với $\sin2x\ne0$. [4 marks]
 **Cần nhớ:** $\cos2x=1-2\sin^2x$ và $\sin2x=2\sin x\cos x$.
 
 ::solution
-VT $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ VP.
+Điều kiện $\sin2x\ne0$. Vì $\sin2x=2\sin x\cos x$ nên điều kiện này tương đương $\sin x\ne0$ và $\cos x\ne0$; khi đó $\tan x$ cũng xác định.
+
+Xét vế trái (VT). Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có $1-\cos2x=1-\left(1-2\sin^2x\right)=2\sin^2x$. Áp dụng $\sin2x=2\sin x\cos x$, ta được
+$$\text{VT}=\frac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\frac{2\sin^2x}{2\sin x\cos x}.$$
+
+Vì $2\sin x\ne0$ nên ta rút gọn được:
+$$\text{VT}=\frac{\sin x}{\cos x}=\tan x=\text{VP}.$$
+
+Vậy $\dfrac{1-\cos2x}{\sin2x}=\tan x$ với $\sin2x\ne0$.
+
+**Đáp số.** $\dfrac{1-\cos2x}{\sin2x}=\tan x$.
 :::
 
 :::quiz

@@ -189,9 +189,17 @@ b) $7$ và $24$.
 2. Khai căn.
 
 ::solution
-a) $c^2=81+144=225$ nên $c=15$.
+Trong tam giác vuông, theo định lí Pythagore, bình phương cạnh huyền $c$ bằng tổng bình phương hai cạnh góc vuông: $c^2=a^2+b^2$.
 
-b) $c^2=49+576=625$ nên $c=25$.
+a) Với $a=9$, $b=12$, ta có
+$$c^2=9^2+12^2=81+144=225.$$
+Vì $c>0$ nên $c=\sqrt{225}=15$.
+
+b) Với $a=7$, $b=24$, ta có
+$$c^2=7^2+24^2=49+576=625.$$
+Vì $c>0$ nên $c=\sqrt{625}=25$.
+
+Vậy cạnh huyền của tam giác ở câu a) là $15$ và ở câu b) là $25$.
 
 **Đáp số.** a) $15$. b) $25$.
 :::
@@ -211,9 +219,17 @@ b) cạnh huyền $10$, một cạnh góc vuông $6$.
 2. Khai căn.
 
 ::solution
-a) $a^2=289-64=225$ nên $a=15$.
+Gọi $c$ là cạnh huyền, $a$ là cạnh góc vuông còn lại, $b$ là cạnh góc vuông đã biết. Theo định lí Pythagore, $c^2=a^2+b^2$, suy ra $a^2=c^2-b^2$.
 
-b) $a^2=100-36=64$ nên $a=8$.
+a) Với $c=17$, $b=8$, ta có
+$$a^2=17^2-8^2=289-64=225.$$
+Vì $a>0$ nên $a=15$.
+
+b) Với $c=10$, $b=6$, ta có
+$$a^2=10^2-6^2=100-36=64.$$
+Vì $a>0$ nên $a=8$.
+
+Vậy cạnh góc vuông còn lại là $15$ ở câu a) và $8$ ở câu b).
 
 **Đáp số.** a) $15$. b) $8$.
 :::
@@ -229,7 +245,12 @@ Tam giác vuông có hai cạnh góc vuông là $4$ và $7$. Tính cạnh huyề
 2. Khai căn và làm tròn.
 
 ::solution
-$c^2=16+49=65$ nên $c=\sqrt{65}\approx8{,}06$.
+Gọi $c$ là độ dài cạnh huyền. Theo định lí Pythagore, ta có
+$$c^2=4^2+7^2=16+49=65.$$
+
+Vì $c>0$ nên $c=\sqrt{65}$. Bằng máy tính, $\sqrt{65}\approx8{,}062$, làm tròn đến hai chữ số thập phân ta được $8{,}06$.
+
+Vậy cạnh huyền bằng $\sqrt{65}\approx8{,}06$.
 
 **Đáp số.** $\sqrt{65}\approx8{,}06$.
 :::
@@ -251,11 +272,15 @@ c) Các cạnh $9$, $40$, $41$.
 2. So sánh bình phương nó với tổng hai bình phương còn lại.
 
 ::solution
-a) $25^2=625$ và $7^2+24^2=49+576=625$: vuông.
+Ta dùng định lí Pythagore đảo: nếu bình phương cạnh lớn nhất bằng tổng bình phương hai cạnh còn lại thì tam giác đó vuông.
 
-b) $12^2=144$ và $8^2+10^2=164$: không vuông.
+a) Cạnh lớn nhất là $25$. Ta có $25^2=625$ và $7^2+24^2=49+576=625$. Hai giá trị bằng nhau nên tam giác vuông.
 
-c) $41^2=1681$ và $9^2+40^2=81+1600=1681$: vuông.
+b) Cạnh lớn nhất là $12$. Ta có $12^2=144$ và $8^2+10^2=64+100=164$. Vì $144\neq164$ nên tam giác không vuông.
+
+c) Cạnh lớn nhất là $41$. Ta có $41^2=1681$ và $9^2+40^2=81+1600=1681$. Hai giá trị bằng nhau nên tam giác vuông.
+
+Vậy các tam giác ở câu a) và c) là tam giác vuông.
 
 **Đáp số.** a) và c) là tam giác vuông.
 :::
@@ -271,7 +296,17 @@ Tính đường chéo của hình chữ nhật có hai cạnh $15$ và $8$, và 
 2. Với hình vuông, $a=b$.
 
 ::solution
-Hình chữ nhật: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Hình vuông: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7{,}07$.
+Đường chéo của hình chữ nhật chia hình chữ nhật thành hai tam giác vuông có hai cạnh góc vuông là hai cạnh của hình chữ nhật, nên đường chéo là cạnh huyền.
+
+Hình chữ nhật có hai cạnh $15$ và $8$. Theo định lí Pythagore,
+$$d^2=15^2+8^2=225+64=289,$$
+suy ra $d=\sqrt{289}=17$.
+
+Hình vuông cạnh $5$ cũng là hình chữ nhật có hai cạnh bằng $5$, nên
+$$d^2=5^2+5^2=25+25=50,$$
+suy ra $d=\sqrt{50}=5\sqrt2\approx7{,}07$ (làm tròn đến hai chữ số thập phân).
+
+Vậy đường chéo của hình chữ nhật là $17$ và đường chéo của hình vuông là $5\sqrt2\approx7{,}07$.
 
 **Đáp số.** $17$; $5\sqrt2\approx7{,}07$.
 :::
@@ -287,11 +322,17 @@ Giả sử một chiếc thang dài $6{,}5$ m dựa vào tường thẳng đứn
 2. Tính và khai căn.
 
 ::solution
-$h^2=42{,}25-6{,}25=36$ nên $h=6$.
+Thang, tường và mặt đất tạo thành một tam giác vuông, trong đó thang là cạnh huyền ($6{,}5$ m), chân thang cách tường là một cạnh góc vuông ($2{,}5$ m).
+
+Gọi $h$ (m) là độ cao của đầu thang trên tường ($h>0$). Theo định lí Pythagore,
+$$h^2+2{,}5^2=6{,}5^2,$$
+suy ra
+$$h^2=6{,}5^2-2{,}5^2=42{,}25-6{,}25=36.$$
+Vì $h>0$ nên $h=6$.
 
 Kiểm tra: $2{,}5^2+6^2=6{,}25+36=42{,}25=6{,}5^2$.
 
-Vậy đầu thang cao $6$ m.
+Vậy đầu thang chạm tường ở độ cao $6$ m.
 
 **Đáp số.** $6$ m.
 :::
@@ -307,7 +348,16 @@ Giả sử một chiếc tivi có chiều rộng $96$ cm và chiều cao $54$ cm
 2. Chia cho $2{,}54$.
 
 ::solution
-$d^2=9\,216+2\,916=12\,132$, nên $d=\sqrt{12\,132}\approx110$ (cm). Đổi sang inch: $\dfrac{110{,}14}{2{,}54}\approx43{,}4\approx43$ (inch).
+Màn hình là hình chữ nhật có chiều rộng $96$ cm và chiều cao $54$ cm; đường chéo $d$ (cm) là cạnh huyền của tam giác vuông có hai cạnh góc vuông là $96$ và $54$.
+
+Theo định lí Pythagore,
+$$d^2=96^2+54^2=9\,216+2\,916=12\,132.$$
+Vì $d>0$ nên $d=\sqrt{12\,132}\approx110{,}14$, làm tròn đến hàng đơn vị là $110$ (cm).
+
+Đổi sang inch, với $1$ inch $=2{,}54$ cm:
+$$\frac{110{,}14}{2{,}54}\approx43{,}4\approx43\ (\text{inch}).$$
+
+Vậy đường chéo màn hình dài khoảng $110$ cm, tức khoảng $43$ inch.
 
 **Đáp số.** Khoảng $110$ cm, tức khoảng $43$ inch.
 :::
@@ -323,7 +373,12 @@ Giả sử hai tàu cùng rời cảng một lúc, một tàu đi về hướng 
 2. Tính cạnh huyền.
 
 ::solution
-Khoảng cách là $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
+Hướng bắc và hướng đông vuông góc với nhau. Do đó cảng, vị trí tàu thứ nhất và vị trí tàu thứ hai là ba đỉnh của một tam giác vuông tại cảng, có hai cạnh góc vuông là $12$ km và $16$ km. Khoảng cách giữa hai tàu là cạnh huyền.
+
+Theo định lí Pythagore, khoảng cách giữa hai tàu là
+$$\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20\ (\text{km}).$$
+
+Vậy hai tàu cách nhau $20$ km.
 
 **Đáp số.** $20$ km.
 :::
@@ -339,7 +394,16 @@ Hình thoi $ABCD$ có hai đường chéo $AC=16$ và $BD=12$ cắt nhau tại $
 2. Dùng định lí Pythagore trong tam giác $AOB$.
 
 ::solution
-Ta có $OA=\dfrac{16}{2}=8$ và $OB=\dfrac{12}{2}=6$. Tam giác $AOB$ vuông tại $O$ nên $AB^2=8^2+6^2=100$, suy ra $AB=10$.
+Hình thoi $ABCD$ có hai đường chéo cắt nhau tại $O$. Hai đường chéo của hình thoi vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường.
+
+Vì $O$ là trung điểm của $AC$ và $BD$ nên
+$$OA=\frac{AC}{2}=\frac{16}{2}=8,\qquad OB=\frac{BD}{2}=\frac{12}{2}=6.$$
+
+Vì $AC\perp BD$ nên tam giác $AOB$ vuông tại $O$. Theo định lí Pythagore,
+$$AB^2=OA^2+OB^2=8^2+6^2=64+36=100.$$
+Vì $AB>0$ nên $AB=10$.
+
+Hình thoi có bốn cạnh bằng nhau nên cạnh của hình thoi bằng $10$.
 
 Vậy cạnh hình thoi bằng $10$.
 
@@ -357,9 +421,18 @@ Với hai số nguyên dương $m>n$, đặt $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. 
 2. So sánh với $c^2$.
 
 ::solution
-Ta có $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. Với $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, và $5^2+12^2=13^2$.
+Ta biến đổi vế trái $a^2+b^2$ rồi so sánh với $c^2$, trong đó $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$.
 
-Vậy công thức luôn cho một bộ ba Pythagore.
+Ta có
+$$\begin{aligned}a^2+b^2&=(m^2-n^2)^2+(2mn)^2\\&=m^4-2m^2n^2+n^4+4m^2n^2\\&=m^4+2m^2n^2+n^4\\&=(m^2+n^2)^2\\&=c^2.\end{aligned}$$
+
+Vì $m>n>0$ nên $a=m^2-n^2>0$, $b=2mn>0$, $c>0$. Do $a^2+b^2=c^2$ nên theo định lí Pythagore đảo, $a$, $b$, $c$ là độ dài ba cạnh của một tam giác vuông có cạnh huyền $c$.
+
+Áp dụng với $m=3$, $n=2$ (thoả mãn $m>n$):
+$$a=3^2-2^2=9-4=5,\quad b=2\cdot3\cdot2=12,\quad c=3^2+2^2=9+4=13.$$
+Kiểm tra: $5^2+12^2=25+144=169=13^2$.
+
+Vậy công thức luôn cho một bộ ba Pythagore, và với $m=3$, $n=2$ ta được bộ ba $(5, 12, 13)$.
 
 **Đáp số.** Đã chứng minh; $(5,12,13)$.
 :::

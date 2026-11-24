@@ -234,9 +234,14 @@ Tìm tập xác định của hàm số a) $y=\tan\left(x+\dfrac{\pi}{6}\right)$
 2. Câu b: $\sin x\ne-1$ khi nào?
 
 ::solution
-a) Hàm số xác định khi $x+\dfrac{\pi}{6}\ne\dfrac{\pi}{2}+k\pi$, tức $x\ne\dfrac{\pi}{3}+k\pi$.
+a) Hàm số $y=\tan u$ xác định khi $\cos u\ne0$, tức là $u\ne\dfrac{\pi}{2}+k\pi$ $(k\in\mathbb{Z})$. Với $u=x+\dfrac{\pi}{6}$, hàm số xác định khi
+$$x+\frac{\pi}{6}\ne\frac{\pi}{2}+k\pi\iff x\ne\frac{\pi}{3}+k\pi.$$
 
-b) Hàm số xác định khi $1+\sin x\ne0$, tức $\sin x\ne-1$, hay $x\ne-\dfrac{\pi}{2}+k2\pi$.
+Vậy tập xác định của hàm số là $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
+
+b) Hàm số $y=\dfrac{1}{1+\sin x}$ xác định khi mẫu số khác $0$, tức là $1+\sin x\ne0$, hay $\sin x\ne-1$. Phương trình $\sin x=-1$ có nghiệm $x=-\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$, nên hàm số xác định khi $x\ne-\dfrac{\pi}{2}+k2\pi$.
+
+Vậy tập xác định của hàm số là $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
 
 **Đáp số.** a) $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\right\}$; b) $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\right\}$ ($k\in\mathbb{Z}$).
 :::
@@ -252,7 +257,16 @@ Tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số $y=5-3\cos
 2. Tìm $x$ ứng với mỗi giá trị.
 
 ::solution
-Vì $-1\le\cos x\le1$ nên $-3\le-3\cos x\le3$, suy ra $2\le y\le8$. Giá trị nhỏ nhất $2$ đạt khi $\cos x=1$, tức $x=k2\pi$. Giá trị lớn nhất $8$ đạt khi $\cos x=-1$, tức $x=\pi+k2\pi$.
+Hàm số $y=5-3\cos x$ xác định với mọi $x\in\mathbb{R}$.
+
+Với mọi $x$, ta có $-1\le\cos x\le1$. Nhân các vế với $-3<0$ (đổi chiều bất đẳng thức), ta được $-3\le-3\cos x\le3$. Cộng thêm $5$ vào các vế, ta được
+$$2\le5-3\cos x\le8,\ \text{tức là}\ 2\le y\le8.$$
+
+Giá trị nhỏ nhất $y=2$ đạt khi $\cos x=1$, tức là $x=k2\pi$ $(k\in\mathbb{Z})$.
+
+Giá trị lớn nhất $y=8$ đạt khi $\cos x=-1$, tức là $x=\pi+k2\pi$ $(k\in\mathbb{Z})$.
+
+Vậy giá trị nhỏ nhất của hàm số là $2$, đạt khi $x=k2\pi$; giá trị lớn nhất là $8$, đạt khi $x=\pi+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Đáp số.** $\min y=2$ tại $x=k2\pi$; $\max y=8$ tại $x=\pi+k2\pi$.
 :::
@@ -268,11 +282,19 @@ Xét tính chẵn lẻ của các hàm số a) $y=x\cos x$; b) $y=\sin^2x+\cos x
 2. So sánh với $f(x)$ và $-f(x)$.
 
 ::solution
-a) $f(-x)=(-x)\cos(-x)=-x\cos x=-f(x)$: hàm số lẻ.
+Để xét tính chẵn lẻ, ta kiểm tra tập xác định có đối xứng qua $0$ hay không, rồi so sánh $f(-x)$ với $f(x)$. Nhắc lại: $\cos(-x)=\cos x$, $\sin(-x)=-\sin x$, $\tan(-x)=-\tan x$.
 
-b) $f(-x)=\sin^2(-x)+\cos(-x)=\sin^2x+\cos x=f(x)$: hàm số chẵn.
+a) Hàm số $f(x)=x\cos x$ có tập xác định $\mathbb{R}$, đối xứng qua $0$. Ta có
+$$f(-x)=(-x)\cos(-x)=-x\cos x=-f(x).$$
+Vậy $y=x\cos x$ là hàm số lẻ.
 
-c) $f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x)$: hàm số lẻ.
+b) Hàm số $f(x)=\sin^2x+\cos x$ có tập xác định $\mathbb{R}$, đối xứng qua $0$. Ta có
+$$f(-x)=\sin^2(-x)+\cos(-x)=(-\sin x)^2+\cos x=\sin^2x+\cos x=f(x).$$
+Vậy $y=\sin^2x+\cos x$ là hàm số chẵn.
+
+c) Hàm số $f(x)=\tan x+x$ có tập xác định $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\right\}$; nếu $x$ thuộc tập này thì $-x$ cũng thuộc tập này, nên tập xác định đối xứng qua $0$. Ta có
+$$f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x).$$
+Vậy $y=\tan x+x$ là hàm số lẻ.
 
 **Đáp số.** a) lẻ; b) chẵn; c) lẻ.
 :::
@@ -288,11 +310,15 @@ Tìm chu kì của các hàm số a) $y=\sin3x$; b) $y=\cos\dfrac{x}{2}$; c) $y=
 2. Áp dụng công thức chu kì.
 
 ::solution
-a) $\omega=3$ nên chu kì là $\dfrac{2\pi}{3}$.
+Hàm số $y=\sin\omega x$ và $y=\cos\omega x$ tuần hoàn với chu kì $\dfrac{2\pi}{|\omega|}$; hàm số $y=\tan\omega x$ tuần hoàn với chu kì $\dfrac{\pi}{|\omega|}$.
 
-b) $\omega=\dfrac12$ nên chu kì là $\dfrac{2\pi}{1/2}=4\pi$.
+a) Với $y=\sin3x$, ta có $\omega=3$ nên chu kì là $\dfrac{2\pi}{3}$.
 
-c) $\omega=2$ nên chu kì là $\dfrac{\pi}{2}$.
+b) Với $y=\cos\dfrac{x}{2}$, ta có $\omega=\dfrac12$ nên chu kì là $\dfrac{2\pi}{1/2}=4\pi$.
+
+c) Với $y=\tan2x$, ta có $\omega=2$ nên chu kì là $\dfrac{\pi}{2}$.
+
+Vậy chu kì của ba hàm số lần lượt là $\dfrac{2\pi}{3}$, $4\pi$ và $\dfrac{\pi}{2}$.
 
 **Đáp số.** a) $\dfrac{2\pi}{3}$; b) $4\pi$; c) $\dfrac{\pi}{2}$.
 :::
@@ -308,9 +334,13 @@ So sánh a) $\sin\dfrac{\pi}{9}$ và $\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}
 2. So sánh hai góc rồi suy ra.
 
 ::solution
-a) Hai góc cùng thuộc $\left(0; \dfrac{\pi}{2}\right)$ nơi $\sin$ đồng biến và $\dfrac{\pi}{9}<\dfrac{2\pi}{9}$, nên $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$.
+a) Ta có $0<\dfrac{\pi}{9}<\dfrac{2\pi}{9}<\dfrac{\pi}{2}$, tức là hai góc cùng thuộc khoảng $\left(0; \dfrac{\pi}{2}\right)$. Trên khoảng này hàm số $y=\sin x$ đồng biến, nên
+$$\sin\frac{\pi}{9}<\sin\frac{2\pi}{9}.$$
 
-b) Hai góc cùng thuộc $(0; \pi)$ nơi $\cos$ nghịch biến và $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, nên $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+b) Ta có $0<\dfrac{3\pi}{5}<\dfrac{4\pi}{5}<\pi$, tức là hai góc cùng thuộc khoảng $(0; \pi)$. Trên khoảng này hàm số $y=\cos x$ nghịch biến và $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, nên
+$$\cos\frac{4\pi}{5}<\cos\frac{3\pi}{5}.$$
+
+Vậy $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$ và $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
 
 **Đáp số.** a) $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
 :::
@@ -327,7 +357,17 @@ Giả sử nhiệt độ ngoài trời (độ C) tại một thành phố vào n
 3. Tìm chu kì của $\sin\dfrac{\pi t}{12}$.
 
 ::solution
-Vì $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$ nên $23\le T\le33$. Nhiệt độ $33$ khi $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, tức $t=15$. Nhiệt độ $23$ khi $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, tức $t=3$. Chu kì là $\dfrac{2\pi}{\pi/12}=24$ giờ.
+Nhiệt độ được cho bởi $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$ với $0\le t<24$ ($t$ tính bằng giờ, $T$ tính bằng độ C).
+
+Với mọi $t$, ta có $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$, nên $-5\le5\sin\dfrac{\pi(t-9)}{12}\le5$, suy ra $23\le T\le33$.
+
+Nhiệt độ cao nhất $33^\circ$C đạt khi $\sin\dfrac{\pi(t-9)}{12}=1$, tức là $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, hay $t-9=6$, tức $t=15$ (thoả mãn $0\le t<24$).
+
+Nhiệt độ thấp nhất $23^\circ$C đạt khi $\sin\dfrac{\pi(t-9)}{12}=-1$, tức là $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, hay $t-9=-6$, tức $t=3$ (thoả mãn $0\le t<24$).
+
+Chu kì của hàm số là $\dfrac{2\pi}{\pi/12}=24$ giờ, nên nhiệt độ lặp lại sau mỗi $24$ giờ; vì vậy trong khoảng $0\le t<24$ chỉ có đúng hai thời điểm trên.
+
+Vậy nhiệt độ cao nhất là $33^\circ$C lúc $15$ giờ, thấp nhất là $23^\circ$C lúc $3$ giờ, và nhiệt độ lặp lại sau $24$ giờ.
 
 **Đáp số.** Cao nhất $33^\circ$C lúc $15$ giờ; thấp nhất $23^\circ$C lúc $3$ giờ; lặp lại sau $24$ giờ.
 :::
@@ -352,13 +392,17 @@ d) Đồ thị hàm số nhận gốc toạ độ làm tâm đối xứng.
 3. d) Hàm số lẻ có đồ thị đối xứng qua gốc $O$.
 
 ::solution
-a) **Sai**: $\tan x$ không xác định tại $x=\dfrac{\pi}{2}+k\pi$.
+Xét hàm số $y=\tan x$ có tập xác định $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
 
-b) **Đúng**: $\tan(x+\pi)=\tan x$ và $\pi$ là số dương nhỏ nhất như vậy.
+a) **Sai.** Hàm số $\tan x$ không xác định tại $x=\dfrac{\pi}{2}+k\pi$ (vì $\cos x=0$ tại các điểm đó), nên không xác định trên toàn bộ $\mathbb{R}$.
 
-c) **Sai**: $\dfrac{\pi}{2}\in(0; \pi)$ mà $\tan x$ không xác định tại đó; hàm số đồng biến trên $\left(0; \dfrac{\pi}{2}\right)$ và trên $\left(\dfrac{\pi}{2}; \pi\right)$ riêng rẽ.
+b) **Đúng.** Ta có $\tan(x+\pi)=\tan x$ với mọi $x$ thuộc tập xác định, và $\pi$ là số dương nhỏ nhất có tính chất này. Do đó hàm số tuần hoàn với chu kì $\pi$.
 
-d) **Đúng**: $\tan$ là hàm số lẻ.
+c) **Sai.** Ta có $\dfrac{\pi}{2}\in(0; \pi)$ mà $\tan x$ không xác định tại đó, nên hàm số không liên tục trên $(0; \pi)$. Hàm số đồng biến trên khoảng $\left(0; \dfrac{\pi}{2}\right)$ và trên khoảng $\left(\dfrac{\pi}{2}; \pi\right)$ riêng rẽ.
+
+d) **Đúng.** Tập xác định đối xứng qua $0$ và $\tan(-x)=-\tan x$, nên $\tan$ là hàm số lẻ. Do đó đồ thị hàm số nhận gốc toạ độ làm tâm đối xứng.
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -374,7 +418,14 @@ d) **Đúng**: $\tan$ là hàm số lẻ.
 2. Tính gần đúng $220\sqrt2$.
 
 ::solution
-Vì $\sin(100\pi t)\le1$ nên $u\le220\sqrt2\approx311{,}1$.
+Điện áp tức thời là $u(t)=220\sqrt2\sin(100\pi t)$ (V).
+
+Với mọi $t$, ta có $\sin(100\pi t)\le1$, nên $u\le220\sqrt2$. Dấu bằng xảy ra khi $\sin(100\pi t)=1$, chẳng hạn khi $100\pi t=\dfrac{\pi}{2}$, tức $t=\dfrac1{200}$ giây. Do đó điện áp cực đại là
+$$U_{\max}=220\sqrt2\approx311{,}1\ \text{V}.$$
+
+Làm tròn đến hàng đơn vị, ta được $311$ V.
+
+Vậy điện áp cực đại của nguồn điện xấp xỉ $311$ V.
 
 **Đáp số.** $311$ V.
 :::
@@ -390,7 +441,16 @@ Dùng công thức cộng để viết $y=\sin x+\cos x$ dưới dạng $y=\sqrt
 2. Dùng $-1\le\sin\le1$ và chu kì của $\sin(x+\varphi)$.
 
 ::solution
-Ta có $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\dfrac{\sqrt2}{2}+\cos x\cdot\dfrac{\sqrt2}{2}\right)=\sin x+\cos x$. Vì $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$ nên $-\sqrt2\le y\le\sqrt2$. Chu kì là $2\pi$.
+Áp dụng công thức cộng $\sin(a+b)=\sin a\cos b+\cos a\sin b$ với $a=x$, $b=\dfrac{\pi}{4}$, ta có
+$$\sqrt2\sin\left(x+\frac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\frac{\sqrt2}{2}+\cos x\cdot\frac{\sqrt2}{2}\right)=\sin x+\cos x.$$
+
+Vậy $y=\sin x+\cos x=\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)$.
+
+Với mọi $x$, ta có $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$, nên $-\sqrt2\le y\le\sqrt2$. Vì $x+\dfrac{\pi}{4}$ nhận mọi giá trị thực nên $\sin\left(x+\dfrac{\pi}{4}\right)$ nhận mọi giá trị trong $[-1; 1]$, do đó $y$ nhận mọi giá trị trong $\left[-\sqrt2; \sqrt2\right]$.
+
+Hàm số $\sin\left(x+\dfrac{\pi}{4}\right)$ tuần hoàn với chu kì $2\pi$ nên hàm số $y$ có chu kì $2\pi$.
+
+Vậy tập giá trị của hàm số là $\left[-\sqrt2; \sqrt2\right]$ và chu kì là $2\pi$.
 
 **Đáp số.** Tập giá trị $\left[-\sqrt2; \sqrt2\right]$; chu kì $2\pi$.
 :::

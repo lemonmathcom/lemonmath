@@ -191,7 +191,13 @@ In the parallelogram $EFGH$, $EF=8$ cm and $FG=3$ cm. Find $GH$ and $HE$.
 2. Which side is opposite to $FG$?
 
 ::solution
-In the parallelogram $EFGH$, opposite sides are equal. Hence $GH=EF=8$ cm and $HE=FG=3$ cm.
+In a parallelogram, opposite sides are equal.
+
+In the parallelogram $EFGH$, the side $GH$ is opposite the side $EF$, so $GH=EF=8$ cm.
+
+The side $HE$ is opposite the side $FG$, so $HE=FG=3$ cm.
+
+So $GH=8$ cm and $HE=3$ cm.
 
 **Answer.** $GH=8$ cm; $HE=3$ cm.
 :::
@@ -207,7 +213,12 @@ The rhombus $ABCD$ has side $9$ cm. Find the perimeter of the rhombus $ABCD$.
 2. Multiply the length of one side by $4$.
 
 ::solution
-The perimeter of the rhombus $ABCD$ is $9\times4=36$ (cm).
+A rhombus has four equal sides, so its perimeter is the length of one side multiplied by $4$.
+
+The perimeter of the rhombus $ABCD$ is:
+$$9\times4=36\ \text{(cm)}.$$
+
+So the perimeter of the rhombus $ABCD$ is $36$ cm.
 
 **Answer.** $36$ cm.
 :::
@@ -223,7 +234,13 @@ Is a rectangle a parallelogram? Why?
 2. Compare with the definition of a parallelogram.
 
 ::solution
-A rectangle is a quadrilateral with two pairs of parallel opposite sides. So a rectangle is a parallelogram.
+A parallelogram is a quadrilateral with two pairs of parallel opposite sides.
+
+A rectangle is a quadrilateral with two pairs of parallel opposite sides.
+
+So a rectangle has every property in the definition of a parallelogram.
+
+So a rectangle is a parallelogram, because it is a quadrilateral with two pairs of parallel opposite sides.
 
 **Answer.** Yes.
 :::
@@ -258,9 +275,15 @@ A garden is a parallelogram with adjacent sides $18$ m and $12$ m. A fence is bu
 3. Subtract the gap for the gate.
 
 ::solution
-The perimeter of the garden is $(18+12)\times2=60$ (m).
+Solution
 
-The length of the fence is $60-3=57$ (m).
+A parallelogram has two pairs of equal opposite sides, so the perimeter of the garden is the sum of two adjacent sides multiplied by $2$. The perimeter of the garden is:
+$$(18+12)\times2=60\ \text{(m)}.$$
+
+A gap of $3$ m is left for the gate and has no fence, so the length of the fence is:
+$$60-3=57\ \text{(m)}.$$
+
+So $57$ m of fence are needed.
 
 **Answer.** $57$ m.
 :::
@@ -276,9 +299,17 @@ A rhombus-shaped tile has side $20$ cm. A strip of trim goes round the edge of e
 2. Do it for $5$ tiles, then change to metres.
 
 ::solution
-The perimeter of one tile is $20\times4=80$ (cm).
+Solution
 
-The trim for $5$ tiles is $80\times5=400$ (cm), which is $4$ m.
+A rhombus has four equal sides. The perimeter of one tile is:
+$$20\times4=80\ \text{(cm)}.$$
+
+The length of trim for $5$ tiles is:
+$$80\times5=400\ \text{(cm)}.$$
+
+We convert: $400$ cm $=4$ m (because $100$ cm $=1$ m).
+
+So $4$ m of trim are needed for $5$ tiles.
 
 **Answer.** $4$ m.
 :::
@@ -294,9 +325,18 @@ The rhombus $ABCD$ has $AB=6$ cm. The parallelogram $MNPQ$ has $MN=8$ cm and the
 2. Find half the perimeter of the parallelogram, then subtract $MN$.
 
 ::solution
-The perimeter of the rhombus $ABCD$ is $6\times4=24$ (cm).
+Solution
 
-Half the perimeter of the parallelogram $MNPQ$ is $24\div2=12$ (cm). Hence $NP=12-8=4$ (cm).
+A rhombus has four equal sides. The perimeter of the rhombus $ABCD$ is:
+$$6\times4=24\ \text{(cm)}.$$
+
+The perimeter of the parallelogram $MNPQ$ equals that of the rhombus $ABCD$, which is $24$ cm. Half the perimeter of the parallelogram $MNPQ$, which is also the sum of the adjacent sides $MN$ and $NP$, is:
+$$24\div2=12\ \text{(cm)}.$$
+
+The length of the side $NP$ is:
+$$12-8=4\ \text{(cm)}.$$
+
+So $NP=4$ cm.
 
 **Answer.** $NP=4$ cm.
 :::
@@ -313,11 +353,22 @@ A parallelogram has perimeter $36$ cm, and its two adjacent sides differ by $4$ 
 3. Check by working out the perimeter.
 
 ::solution
-The sum of the two adjacent sides is $36\div2=18$ (cm).
+Solution
 
-The longer side is $(18+4)\div2=11$ (cm). The shorter side is $11-4=7$ (cm).
+Half the perimeter of a parallelogram is the sum of two adjacent sides. The sum of the two adjacent sides is:
+$$36\div2=18\ \text{(cm)}.$$
+
+The two adjacent sides differ by $4$ cm, so we have a problem of finding two numbers when we know their sum and their difference.
+
+The longer side is:
+$$(18+4)\div2=11\ \text{(cm)}.$$
+
+The shorter side is:
+$$11-4=7\ \text{(cm)}.$$
 
 **Check.** $(11+7)\times2=36$. Correct.
+
+So the two adjacent sides of the parallelogram are $11$ cm and $7$ cm long.
 
 **Answer.** $11$ cm and $7$ cm.
 :::

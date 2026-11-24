@@ -161,7 +161,24 @@ Tính $46\,285+27\,639$.
 2. Nhớ $1$ sang hàng chục và làm tiếp.
 
 ::solution
-$5+9=14$ (viết $4$ nhớ $1$); $8+3+1=12$ (viết $2$ nhớ $1$); $2+6+1=9$; $6+7=13$ (viết $3$ nhớ $1$); $4+2+1=7$. Được $73\,924$.
+Đặt tính rồi cộng từ phải sang trái, mỗi hàng cộng với nhau và cộng thêm số nhớ (nếu có).
+
+Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$.
+
+Hàng chục: $8+3+1=12$, viết $2$ nhớ $1$.
+
+Hàng trăm: $2+6+1=9$, viết $9$.
+
+Hàng nghìn: $6+7=13$, viết $3$ nhớ $1$.
+
+Hàng chục nghìn: $4+2+1=7$, viết $7$.
+
+Ta được:
+$$46\,285+27\,639=73\,924.$$
+
+*Thử lại.* $73\,924-27\,639=46\,285$. Đúng.
+
+Vậy $46\,285+27\,639=73\,924$.
 
 **Đáp số.** $73\,924$.
 :::
@@ -177,9 +194,26 @@ Tính $80\,000-36\,457$ rồi thử lại.
 2. Cộng hiệu với số trừ để thử lại.
 
 ::solution
-$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. Được $43\,543$.
+Đặt tính rồi trừ từ phải sang trái.
 
-**Thử lại.** $43\,543+36\,457=80\,000$.
+Các chữ số $0$ ở hàng đơn vị, chục, trăm, nghìn của $80\,000$ đều không trừ được, nên ta mượn $1$ chục nghìn: hàng chục nghìn còn $7$, các hàng nghìn, trăm, chục đều thành $9$, hàng đơn vị thành $10$.
+
+Hàng đơn vị: $10-7=3$, viết $3$.
+
+Hàng chục: $9-5=4$, viết $4$.
+
+Hàng trăm: $9-4=5$, viết $5$.
+
+Hàng nghìn: $9-6=3$, viết $3$.
+
+Hàng chục nghìn: $7-3=4$, viết $4$.
+
+Ta được:
+$$80\,000-36\,457=43\,543.$$
+
+*Thử lại.* $43\,543+36\,457=80\,000$. Đúng.
+
+Vậy $80\,000-36\,457=43\,543$.
 
 **Đáp số.** $43\,543$.
 :::
@@ -195,7 +229,24 @@ Tính $14\,308\times5$.
 2. Làm tiếp các hàng còn lại.
 
 ::solution
-$8\times5=40$ (viết $0$ nhớ $4$); $0\times5+4=4$; $3\times5=15$ (viết $5$ nhớ $1$); $4\times5+1=21$ (viết $1$ nhớ $2$); $1\times5+2=7$. Được $71\,540$.
+Đặt tính rồi nhân lần lượt từng chữ số của $14\,308$ với $5$, từ phải sang trái.
+
+Hàng đơn vị: $8\times5=40$, viết $0$ nhớ $4$.
+
+Hàng chục: $0\times5+4=4$, viết $4$.
+
+Hàng trăm: $3\times5=15$, viết $5$ nhớ $1$.
+
+Hàng nghìn: $4\times5+1=21$, viết $1$ nhớ $2$.
+
+Hàng chục nghìn: $1\times5+2=7$, viết $7$.
+
+Ta được:
+$$14\,308\times5=71\,540.$$
+
+*Thử lại.* $71\,540:5=14\,308$. Đúng.
+
+Vậy $14\,308\times5=71\,540$.
 
 **Đáp số.** $71\,540$.
 :::
@@ -211,9 +262,22 @@ Tính $72\,168:8$ rồi thử lại.
 2. Hạ lần lượt các chữ số còn lại.
 
 ::solution
-$72:8=9$ dư $0$. Hạ $1$: $1:8=0$ dư $1$. Hạ $6$: $16:8=2$ dư $0$. Hạ $8$: $8:8=1$. Thương là $9\,021$.
+Đặt tính rồi chia từ trái sang phải.
 
-**Thử lại.** $9\,021\times8=72\,168$.
+$72:8=9$, dư $0$; viết $9$ ở thương.
+
+Hạ $1$: $1:8=0$, dư $1$; viết $0$ ở thương.
+
+Hạ $6$, được $16$: $16:8=2$, dư $0$; viết $2$ ở thương.
+
+Hạ $8$: $8:8=1$, dư $0$; viết $1$ ở thương.
+
+Ta được thương là $9\,021$:
+$$72\,168:8=9\,021.$$
+
+*Thử lại.* $9\,021\times8=72\,168$. Đúng.
+
+Vậy $72\,168:8=9\,021$.
 
 **Đáp số.** $9\,021$.
 :::
@@ -229,10 +293,16 @@ Có $18\,000$ kg ngô, chia đều vào $6$ xe tải. Mỗi xe chở bao nhiêu 
 2. Tính $18\,000:6$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Chia đều thì mỗi xe chở như nhau, nên ta chia tổng số ngô cho số xe:
+Bài giải
+
+Ngô được chia đều vào các xe nên mỗi xe chở số ki-lô-gam ngô như nhau. Vì vậy em dùng phép chia: lấy tổng số ngô chia cho số xe.
+
+Mỗi xe chở số ki-lô-gam ngô là:
 $$18\,000:6=3\,000\ \text{(kg)}.$$
 
-**Thử lại.** $3\,000\times6=18\,000$.
+*Thử lại.* $3\,000\times6=18\,000$. Đúng.
+
+Vậy mỗi xe chở $3\,000$ kg ngô.
 
 **Đáp số.** $3\,000$ kg ngô.
 :::
@@ -248,7 +318,26 @@ Nam tính $36\,054:6=609$. Nam sai ở đâu? Hãy tính lại.
 2. Chia lại, chú ý khi chưa chia được thì viết $0$.
 
 ::solution
-$609\times6=3\,654\ne36\,054$, nên Nam sai. Chia lại: $36:6=6$. Hạ $0$: $0:6=0$. Hạ $5$: $5:6=0$ dư $5$. Hạ $4$: $54:6=9$. Thương là $6\,009$.
+Em thử lại phép tính của Nam bằng phép nhân:
+$$609\times6=3\,654.$$
+
+Vì $3\,654\ne36\,054$ nên phép chia của Nam sai.
+
+Ta chia lại $36\,054:6$.
+
+$36:6=6$, viết $6$ ở thương.
+
+Hạ $0$: $0:6=0$, viết $0$ ở thương.
+
+Hạ $5$: $5:6=0$ dư $5$, vẫn phải viết $0$ ở thương.
+
+Hạ $4$, được $54$: $54:6=9$, viết $9$ ở thương.
+
+Thương là $6\,009$.
+
+*Thử lại.* $6\,009\times6=36\,054$. Đúng.
+
+Vậy Nam quên một chữ số $0$ ở thương; đúng là $36\,054:6=6\,009$.
 
 **Đáp số.** Nam quên chữ số $0$; đúng là $36\,054:6=6\,009$.
 :::
@@ -264,7 +353,15 @@ Ngày đầu một cửa hàng bán $15\,360$ kg gạo. Ngày thứ hai bán nhi
 2. Cộng số gạo hai ngày.
 
 ::solution
-Ngày thứ hai bán: $15\,360+2\,840=18\,200$ (kg). Cả hai ngày bán: $15\,360+18\,200=33\,560$ (kg).
+Bài giải
+
+Ngày thứ hai cửa hàng bán số ki-lô-gam gạo là:
+$$15\,360+2\,840=18\,200\ \text{(kg)}.$$
+
+Cả hai ngày cửa hàng bán số ki-lô-gam gạo là:
+$$15\,360+18\,200=33\,560\ \text{(kg)}.$$
+
+Vậy cả hai ngày cửa hàng bán được $33\,560$ kg gạo.
 
 **Đáp số.** $33\,560$ kg gạo.
 :::
@@ -281,9 +378,20 @@ Một đơn hàng cần $90\,000$ viên gạch. Bốn xe đã chở, mỗi xe $1
 3. Chia cho $8$.
 
 ::solution
-Đã chở: $12\,500\times4=50\,000$ (viên). Còn thiếu: $90\,000-50\,000=40\,000$ (viên). Mỗi ngày chở: $40\,000:8=5\,000$ (viên).
+Bài giải
 
-**Kiểm tra.** $5\,000\times8=40\,000$.
+Số viên gạch bốn xe đã chở là:
+$$12\,500\times4=50\,000\ \text{(viên)}.$$
+
+Số viên gạch còn thiếu là:
+$$90\,000-50\,000=40\,000\ \text{(viên)}.$$
+
+Mỗi ngày phải chở số viên gạch là:
+$$40\,000:8=5\,000\ \text{(viên)}.$$
+
+*Kiểm tra.* $5\,000\times8=40\,000$. Đúng.
+
+Vậy mỗi ngày phải chở $5\,000$ viên gạch.
 
 **Đáp số.** $5\,000$ viên gạch.
 :::

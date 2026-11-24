@@ -155,11 +155,17 @@ c) $4\times9$.
 2. Dừng ở số thứ tự cần tìm.
 
 ::solution
-a) $4\times3=12$.
+Bài giải
 
-b) $4\times5=20$.
+Em dùng bảng nhân $4$ để tính.
 
-c) $4\times9=36$.
+a) $4\times3$ là $3$ lần số $4$: $4+4+4=12$. Vậy $4\times3=12$.
+
+b) $4\times5$ là $5$ lần số $4$: $4\times5=20$.
+
+c) $4\times9$ là $9$ lần số $4$: $4\times9=36$.
+
+Vậy $4\times3=12$; $4\times5=20$; $4\times9=36$.
 
 **Đáp số.** a) $12$; b) $20$; c) $36$.
 :::
@@ -181,11 +187,17 @@ c) $4\times4$.
 2. Cộng thêm $4$.
 
 ::solution
-a) $4\times7=24+4=28$.
+Bài giải
 
-b) $4\times10=36+4=40$.
+Khi số lần tăng thêm $1$ thì tích trong bảng nhân $4$ tăng thêm $4$. Em dùng tích đứng ngay trước để tính.
 
-c) $4\times4=12+4=16$.
+a) Ta có $4\times6=24$ nên $4\times7=24+4=28$.
+
+b) Ta có $4\times9=36$ nên $4\times10=36+4=40$.
+
+c) Ta có $4\times3=12$ nên $4\times4=12+4=16$.
+
+Vậy $4\times7=28$; $4\times10=40$; $4\times4=16$.
 
 **Đáp số.** a) $28$; b) $40$; c) $16$.
 :::
@@ -207,11 +219,15 @@ c) $3\times8$ và $4\times6$.
 2. So sánh kết quả.
 
 ::solution
-a) $3\times4=12$.
+Bài giải
 
-b) $4\times3=12$, bằng $3\times4$.
+a) Theo bảng nhân $3$: $3\times4=12$.
 
-c) $3\times8=24$ và $4\times6=24$, hai tích bằng nhau.
+b) Theo bảng nhân $4$: $4\times3=12$. Kết quả bằng $3\times4$, vì khi đổi chỗ hai thừa số thì tích không thay đổi.
+
+c) Theo bảng nhân $3$: $3\times8=24$. Theo bảng nhân $4$: $4\times6=24$. Hai tích này bằng nhau.
+
+Vậy $3\times4=4\times3=12$ và $3\times8=4\times6=24$.
 
 **Đáp số.** a) $12$; b) $12$; c) $24$ và $24$.
 :::
@@ -233,11 +249,17 @@ c) $40:4$.
 2. Số còn lại là thương.
 
 ::solution
-a) $4\times3=12$ nên $12:4=3$.
+Bài giải
 
-b) $4\times7=28$ nên $28:4=7$.
+Phép chia cho $4$ là phép tính ngược của phép nhân với $4$. Em nghĩ: "$4$ nhân mấy bằng số bị chia?".
 
-c) $4\times10=40$ nên $40:4=10$.
+a) Ta có $4\times3=12$ nên $12:4=3$.
+
+b) Ta có $4\times7=28$ nên $28:4=7$.
+
+c) Ta có $4\times10=40$ nên $40:4=10$.
+
+Vậy $12:4=3$; $28:4=7$; $40:4=10$.
 
 **Đáp số.** a) $3$; b) $7$; c) $10$.
 :::
@@ -259,11 +281,17 @@ c) $4\times9 \;\square\; 3\times12$.
 2. So sánh kết quả.
 
 ::solution
-a) $4\times7=28$ và $28<30$ nên $4\times7<30$.
+Bài giải
 
-b) $24:4=6$ và $4\times2=8$, $6<8$ nên $24:4<4\times2$.
+Em tính giá trị hai vế rồi so sánh.
 
-c) $4\times9=36$ và $3\times12=36$ nên hai vế bằng nhau.
+a) Ta có $4\times7=28$. Vì $28<30$ nên $4\times7<30$.
+
+b) Ta có $24:4=6$ (vì $4\times6=24$) và $4\times2=8$. Vì $6<8$ nên $24:4<4\times2$.
+
+c) Ta có $4\times9=36$ và $3\times12=36$. Hai vế bằng nhau nên $4\times9=3\times12$.
+
+Vậy các dấu cần điền lần lượt là $<$, $<$, $=$.
 
 **Đáp số.** a) $<$; b) $<$; c) $=$.
 :::
@@ -279,9 +307,15 @@ Bình làm: "$36:4=8$ vì $4\times8=36$". Bình sai ở đâu? Hãy sửa lại.
 2. Tìm số đúng trong bảng nhân $4$.
 
 ::solution
-$4\times8=32$, không phải $36$. Ta có $4\times9=36$ nên $36:4=9$.
+Bài giải
 
-**Thử lại.** $4\times9=36$. Đúng.
+Bình viết $36:4=8$ vì cho rằng $4\times8=36$. Nhưng $4\times8=32$, không phải $36$. Vậy Bình đã nhớ sai tích trong bảng nhân $4$.
+
+Cách sửa: ta tìm số nhân với $4$ được $36$. Ta có $4\times9=36$ nên $36:4=9$.
+
+Thử lại: $4\times9=36$. Đúng.
+
+Vậy Bình sai ở chỗ nhớ sai tích $4\times8$; kết quả đúng là $36:4=9$.
 
 **Đáp số.** Bình nhớ sai tích; $36:4=9$.
 :::
@@ -299,9 +333,15 @@ b) Có $36$ chiếc bánh xếp vào các hộp, mỗi hộp $4$ chiếc. Hỏi 
 2. Chọn phép tính, tính rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Số bánh xe là $4\times8=32$ (bánh).
+Bài giải
 
-b) Số hộp là $36:4=9$ (hộp).
+a) Mỗi xe có $4$ bánh, $8$ xe như vậy thì số bánh xe là:
+$$4\times8=32\ \text{(bánh)}$$
+
+b) Có $36$ chiếc bánh, mỗi hộp xếp $4$ chiếc thì số hộp xếp được là:
+$$36:4=9\ \text{(hộp)}$$
+
+Vậy $8$ xe có $32$ bánh và xếp được $9$ hộp.
 
 **Đáp số.** a) $32$ bánh; b) $9$ hộp.
 :::
@@ -321,9 +361,23 @@ b) Còn bao nhiêu hộp chưa xếp, và còn bao nhiêu quả bóng chưa xế
 2. Trừ số hộp đã xếp, rồi tính số bóng còn lại.
 
 ::solution
-a) Số hộp cần dùng là $40:4=10$ (hộp).
+Bài giải
 
-b) Số hộp chưa xếp là $10-6=4$ (hộp). Số bóng đã xếp là $4\times6=24$ (quả), nên số bóng chưa xếp là $40-24=16$ (quả). Kiểm tra: $4\times4=16$.
+a) Có $40$ quả bóng, mỗi hộp $4$ quả. Số hộp cần dùng tất cả là:
+$$40:4=10\ \text{(hộp)}$$
+
+b) Lan đã xếp được $6$ hộp. Số hộp chưa xếp là:
+$$10-6=4\ \text{(hộp)}$$
+
+Số bóng Lan đã xếp là:
+$$4\times6=24\ \text{(quả)}$$
+
+Số bóng chưa xếp là:
+$$40-24=16\ \text{(quả)}$$
+
+Kiểm tra: còn $4$ hộp, mỗi hộp $4$ quả nên $4\times4=16$ (quả). Khớp với kết quả trên.
+
+Vậy cần tất cả $10$ hộp; còn $4$ hộp chưa xếp và $16$ quả bóng chưa xếp.
 
 **Đáp số.** a) $10$ hộp; b) $4$ hộp và $16$ quả bóng.
 :::

@@ -177,7 +177,9 @@ So $3482>3428$.
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-a) Write the number: seven thousand two hundred and thirty-four. b) Read the number $6805$.
+a) Write the number: seven thousand two hundred and thirty-four.
+
+b) Read the number $6805$.
 
 ::hint
 **What you need:** write according to the thousands, hundreds, tens and ones places.
@@ -186,9 +188,13 @@ a) Write the number: seven thousand two hundred and thirty-four. b) Read the num
 1. How many thousands, hundreds, tens and ones are there?
 
 ::solution
-a) $7$ thousands, $2$ hundreds, $3$ tens, $4$ ones: $7234$.
+Solution
 
-b) $6805$ has $6$ thousands, $8$ hundreds, $0$ tens and $5$ ones, and is read "six thousand eight hundred and five".
+a) The number "seven thousand two hundred and thirty-four" has $7$ thousands, $2$ hundreds, $3$ tens and $4$ ones. Writing the digits in order from the thousands place to the ones place, we get $7234$.
+
+b) The number $6805$ has $6$ thousands, $8$ hundreds, $0$ tens and $5$ ones. There are no tens, so we read the last digit after "and" as "five". The number is read "six thousand eight hundred and five".
+
+So the number in part a) is $7234$, and the number $6805$ in part b) is read "six thousand eight hundred and five".
 
 **Answer.** a) $7234$; b) six thousand eight hundred and five.
 :::
@@ -203,8 +209,19 @@ Partition the number $4096$ into thousands, hundreds, tens and ones.
 1. Write the value of each digit.
 
 ::solution
-$4096$ has $4$ thousands, $0$ hundreds, $9$ tens and $6$ ones:
+Solution
+
+The number $4096$ has $4$ thousands, $0$ hundreds, $9$ tens and $6$ ones.
+
+The value of each place is: $4$ thousands is $4000$; $9$ tens is $90$; $6$ ones is $6$. There are $0$ hundreds, so there is no term for the hundreds place.
+
+Hence
 $$4096=4000+90+6.$$
+
+Check: $4000+90=4090$, then $4090+6=4096$. Correct.
+
+So $4096=4000+90+6$.
+
 **Answer.** $4000+90+6$.
 :::
 
@@ -218,12 +235,26 @@ Count on in $500$s from $8000$ to $10\,000$.
 1. Add $500$ to $8000$, then keep going.
 
 ::solution
-$$8000,\ 8500,\ 9000,\ 9500,\ 10\,000.$$
+Solution
+
+Counting on in $500$s means adding $500$ to the number just before it each time. We have:
+$$8000+500=8500,\quad 8500+500=9000,\quad 9000+500=9500,\quad 9500+500=10\,000.$$
+
+We stop at $10\,000$.
+
+So the numbers we count are $8000$, $8500$, $9000$, $9500$, $10\,000$.
+
 **Answer.** $8000$, $8500$, $9000$, $9500$, $10\,000$.
 :::
 
 :::exercise
-Fill in $>$, $<$ or $=$: a) $6548\ \ldots\ 6584$; b) $9999\ \ldots\ 10\,000$; c) $3000+500\ \ldots\ 3050$.
+Fill in $>$, $<$ or $=$:
+
+a) $6548\ \ldots\ 6584$;
+
+b) $9999\ \ldots\ 10\,000$;
+
+c) $3000+500\ \ldots\ 3050$.
 
 ::hint
 **What you need:** compare from left to right; fewer digits means smaller.
@@ -232,11 +263,15 @@ Fill in $>$, $<$ or $=$: a) $6548\ \ldots\ 6584$; b) $9999\ \ldots\ 10\,000$; c)
 1. In part c, work out the sum first, then compare.
 
 ::solution
-a) Thousands and hundreds are equal; in the tens $4<8$, so $6548<6584$.
+Solution
 
-b) $9999$ has four digits and $10\,000$ has five digits, so $9999<10\,000$.
+a) Compare $6548$ and $6584$ starting from the highest place: thousands $6=6$, hundreds $5=5$, tens $4<8$. So $6548<6584$.
 
-c) $3000+500=3500$ and $3500>3050$ (hundreds $5>0$).
+b) The number $9999$ has four digits and $10\,000$ has five digits. The number with more digits is greater, so $9999<10\,000$.
+
+c) First work out $3000+500=3500$. Compare $3500$ and $3050$: thousands $3=3$, hundreds $5>0$. So $3500>3050$, that is $3000+500>3050$.
+
+So the signs to fill in are $<$, $<$, $>$ in that order.
 
 **Answer.** a) $<$; b) $<$; c) $>$.
 :::
@@ -251,7 +286,17 @@ School $A$ has $1245$ pupils and school $B$ has $1254$ pupils. Which school has 
 1. In which place do the two numbers first differ?
 
 ::solution
-Thousands: $1=1$. Hundreds: $2=2$. Tens: $4<5$. So $1245<1254$.
+Solution
+
+To find which school has more pupils, we compare $1245$ and $1254$ starting from the highest place:
+
+- Thousands: $1=1$.
+- Hundreds: $2=2$.
+- Tens: $4<5$.
+
+So $1245<1254$, that is, school $A$ has fewer pupils than school $B$.
+
+So school $B$ has more pupils.
 
 **Answer.** School $B$ has more pupils.
 :::
@@ -266,15 +311,28 @@ Put the numbers $7108$, $7180$, $7018$, $7801$ in order from largest to smallest
 1. Find the number with the greatest hundreds digit.
 
 ::solution
-Hundreds: the $8$ in $7801$ is the greatest. The other three have hundreds $1$, $1$, $0$: $7018$ is the smallest. Between $7180$ and $7108$, the tens $8>0$.
+Solution
 
-In order from largest to smallest: $7801>7180>7108>7018$.
+All four numbers have $7$ in the thousands place. Next we compare the hundreds: $7108$ has $1$ hundred, $7180$ has $1$ hundred, $7018$ has $0$ hundreds, $7801$ has $8$ hundreds.
+
+The number $7801$ has the greatest hundreds digit, so $7801$ is the largest. The number $7018$ has the smallest hundreds digit, so $7018$ is the smallest.
+
+The numbers $7180$ and $7108$ both have $1$ hundred. Comparing the tens: $8>0$, so $7180>7108$.
+
+Hence
+$$7801>7180>7108>7018.$$
+
+So the numbers in order from largest to smallest are $7801$, $7180$, $7108$, $7018$.
 
 **Answer.** $7801$, $7180$, $7108$, $7018$.
 :::
 
 :::exercise
-Remember three-digit numbers. a) What is the largest three-digit number? What number comes after it? b) What is the largest four-digit number? What number comes after it?
+Remember three-digit numbers.
+
+a) What is the largest three-digit number? What number comes after it?
+
+b) What is the largest four-digit number? What number comes after it?
 
 ::hint
 **What you need:** adding $1$ to the largest number of one size gives the smallest number of the next size.
@@ -283,9 +341,15 @@ Remember three-digit numbers. a) What is the largest three-digit number? What nu
 1. How many digits $9$ does the largest three-digit number have?
 
 ::solution
-a) The largest three-digit number is $999$; the number after it is $999+1=1000$.
+Solution
 
-b) The largest four-digit number is $9999$; the number after it is $9999+1=10\,000$.
+a) The largest three-digit number has $9$ in every place, so it is $999$. The number after a given number is $1$ more than it, so the number after $999$ is
+$$999+1=1000.$$
+
+b) The largest four-digit number has $9$ in every place, so it is $9999$. The number after $9999$ is
+$$9999+1=10\,000.$$
+
+So the largest three-digit number is $999$ and the number after it is $1000$; the largest four-digit number is $9999$ and the number after it is $10\,000$.
 
 **Answer.** a) $999$ and $1000$; b) $9999$ and $10\,000$.
 :::
@@ -301,9 +365,15 @@ Using the four digits $3$, $0$, $8$, $5$, each exactly once, make the largest fo
 2. Smallest number: pick the smallest thousands digit that is not $0$.
 
 ::solution
-Largest number: putting $8$, $5$, $3$, $0$ from greatest to smallest gives $8530$.
+Solution
 
-Smallest number: the thousands digit cannot be $0$, so pick $3$; then put $0$, $5$, $8$ from smallest to greatest to get $3058$.
+Largest number: to make the largest number, we arrange the digits from greatest to smallest: $8$, $5$, $3$, $0$. This gives $8530$.
+
+Smallest number: arranging the digits from smallest to greatest would give $0358$, but the digit $0$ cannot be in the thousands place (the number would then have only three digits). So the thousands digit must be the smallest non-zero digit, which is $3$.
+
+The remaining digits are $0$, $5$, $8$. Putting them from smallest to greatest in the hundreds, tens and ones places gives $058$. So the smallest number is $3058$.
+
+So the largest four-digit number is $8530$ and the smallest four-digit number is $3058$.
 
 **Answer.** The largest number is $8530$; the smallest number is $3058$.
 :::

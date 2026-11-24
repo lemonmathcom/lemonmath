@@ -182,11 +182,13 @@ c) $\dfrac{6}{6}\ldots1$
 2. Part b: which numerator do both share? Part c: how does the numerator compare with the denominator?
 
 ::solution
-a) Same denominator $9$ and $5<7$, so $\dfrac{5}{9}<\dfrac{7}{9}$.
+a) The two fractions have the same denominator $9$, so we compare the numerators. Since $5<7$, $\dfrac{5}{9}<\dfrac{7}{9}$.
 
-b) Same numerator $4$ and $11>7$, so $\dfrac{4}{11}<\dfrac{4}{7}$.
+b) The two fractions have the same numerator $4$, so we compare the denominators. The fraction with the greater denominator is the smaller one. Since $11>7$, $\dfrac{4}{11}<\dfrac{4}{7}$.
 
-c) The numerator equals the denominator, so $\dfrac{6}{6}=1$.
+c) The fraction $\dfrac{6}{6}$ has its numerator equal to its denominator, so $\dfrac{6}{6}=1$.
+
+So the signs to write are $<$, $<$, $=$ in that order.
 
 **Answer.** a) $<$. b) $<$. c) $=$.
 :::
@@ -202,9 +204,12 @@ Compare $\dfrac{3}{5}$ and $\dfrac{7}{10}$.
 2. Compare the two numerators.
 
 ::solution
-Since $10$ is divisible by $5$, $\dfrac{3}{5}=\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$.
+The two fractions have different denominators, so we write them over a common denominator. Since $10$ is divisible by $5$, we choose $10$ as the common denominator and only need to rewrite $\dfrac{3}{5}$:
+$$\frac{3}{5}=\frac{3\times2}{5\times2}=\frac{6}{10}.$$
 
-Since $6<7$, $\dfrac{6}{10}<\dfrac{7}{10}$.
+The fractions $\dfrac{6}{10}$ and $\dfrac{7}{10}$ have the same denominator, and $6<7$, so $\dfrac{6}{10}<\dfrac{7}{10}$.
+
+So $\dfrac{3}{5}<\dfrac{7}{10}$.
 
 **Answer.** $\dfrac{3}{5}<\dfrac{7}{10}$.
 :::
@@ -220,8 +225,14 @@ Compare $\dfrac{5}{8}$ and $\dfrac{2}{3}$.
 2. Compare the two numerators.
 
 ::solution
-$$\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24},\qquad \dfrac{2}{3}=\dfrac{2\times8}{3\times8}=\dfrac{16}{24}.$$
-Since $15<16$, $\dfrac{15}{24}<\dfrac{16}{24}$.
+The two fractions have different denominators, so we write them over a common denominator. The common denominator is $24$ because $24=8\times3$.
+
+We have
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24},\qquad \frac{2}{3}=\frac{2\times8}{3\times8}=\frac{16}{24}.$$
+
+The fractions $\dfrac{15}{24}$ and $\dfrac{16}{24}$ have the same denominator, and $15<16$, so $\dfrac{15}{24}<\dfrac{16}{24}$.
+
+So $\dfrac{5}{8}<\dfrac{2}{3}$.
 
 **Answer.** $\dfrac{5}{8}<\dfrac{2}{3}$.
 :::
@@ -237,7 +248,15 @@ Compare $\dfrac{11}{12}$ and $\dfrac{7}{6}$ by comparing each with $1$.
 2. Is $\dfrac{7}{6}$ greater or less than $1$?
 
 ::solution
-$\dfrac{11}{12}$ has numerator less than denominator, so $\dfrac{11}{12}<1$. $\dfrac{7}{6}$ has numerator greater than denominator, so $\dfrac{7}{6}>1$.
+We compare each fraction with $1$.
+
+The fraction $\dfrac{11}{12}$ has numerator $11$ less than denominator $12$, so $\dfrac{11}{12}<1$.
+
+The fraction $\dfrac{7}{6}$ has numerator $7$ greater than denominator $6$, so $\dfrac{7}{6}>1$.
+
+We have $\dfrac{11}{12}<1<\dfrac{7}{6}$.
+
+So $\dfrac{11}{12}<\dfrac{7}{6}$.
 
 **Answer.** $\dfrac{11}{12}<\dfrac{7}{6}$.
 :::
@@ -253,8 +272,12 @@ Put the fractions $\dfrac{2}{3}$, $\dfrac{5}{6}$, $\dfrac{1}{2}$ in order from l
 2. Put the numerators in order.
 
 ::solution
-$$\dfrac{2}{3}=\dfrac{4}{6},\qquad \dfrac{1}{2}=\dfrac{3}{6},\qquad \dfrac{5}{6}\ \text{(unchanged)}.$$
-We have $3<4<5$.
+The three fractions have different denominators $3$, $6$ and $2$. Since $6$ is divisible by both $3$ and $2$, we choose $6$ as the common denominator and keep $\dfrac{5}{6}$ unchanged:
+$$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6},\qquad \frac{1}{2}=\frac{1\times3}{2\times3}=\frac{3}{6},\qquad \frac{5}{6}\ \text{(unchanged)}.$$
+
+The fractions $\dfrac{4}{6}$, $\dfrac{5}{6}$ and $\dfrac{3}{6}$ have the same denominator. We compare the numerators: $3<4<5$, so $\dfrac{3}{6}<\dfrac{4}{6}<\dfrac{5}{6}$.
+
+So the order from least to greatest is $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
 
 **Answer.** $\dfrac{1}{2}<\dfrac{2}{3}<\dfrac{5}{6}$.
 :::
@@ -270,9 +293,14 @@ Two water tanks have the same capacity. The first tank is $\dfrac{3}{4}$ full an
 2. Write over a common denominator, then compare.
 
 ::solution
-Write over the common denominator $20$:
-$$\dfrac{3}{4}=\dfrac{15}{20},\qquad \dfrac{4}{5}=\dfrac{16}{20}.$$
-Since $15<16$, $\dfrac{3}{4}<\dfrac{4}{5}$.
+The two tanks have the same capacity, so the fuller tank holds more water. We compare $\dfrac{3}{4}$ and $\dfrac{4}{5}$.
+
+We write the fractions over the common denominator $20$ because $20=4\times5$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{4}{5}=\frac{4\times4}{5\times4}=\frac{16}{20}.$$
+
+Since $15<16$, $\dfrac{15}{20}<\dfrac{16}{20}$, that is $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+So the second tank holds more water.
 
 **Answer.** The second tank holds more water.
 :::
@@ -288,9 +316,14 @@ Suppose a red rope is $\dfrac{5}{6}$ m long and a blue rope is $\dfrac{7}{9}$ m 
 2. Compare the two numerators.
 
 ::solution
-Write over the common denominator $18$:
-$$\dfrac{5}{6}=\dfrac{5\times3}{6\times3}=\dfrac{15}{18},\qquad \dfrac{7}{9}=\dfrac{7\times2}{9\times2}=\dfrac{14}{18}.$$
-Since $15>14$, $\dfrac{5}{6}>\dfrac{7}{9}$.
+The rope with the greater length in metres is the longer one. We compare $\dfrac{5}{6}$ and $\dfrac{7}{9}$.
+
+We write the fractions over the common denominator $18$ because $18$ is divisible by both $6$ and $9$:
+$$\frac{5}{6}=\frac{5\times3}{6\times3}=\frac{15}{18},\qquad \frac{7}{9}=\frac{7\times2}{9\times2}=\frac{14}{18}.$$
+
+Since $15>14$, $\dfrac{15}{18}>\dfrac{14}{18}$, that is $\dfrac{5}{6}>\dfrac{7}{9}$.
+
+So the red rope is longer.
 
 **Answer.** The red rope is longer.
 :::
@@ -306,9 +339,15 @@ Remember the lesson on simplifying fractions. Simplify $\dfrac{18}{24}$ and then
 2. Write over a common denominator and compare with $\dfrac{4}{5}$.
 
 ::solution
-$\dfrac{18}{24}=\dfrac{18\div6}{24\div6}=\dfrac{3}{4}$.
+First we simplify $\dfrac{18}{24}$. Since $18$ and $24$ are both divisible by $6$, we divide the numerator and the denominator by $6$:
+$$\frac{18}{24}=\frac{18\div6}{24\div6}=\frac{3}{4}.$$
 
-Write over the common denominator $20$: $\dfrac{3}{4}=\dfrac{15}{20}$ and $\dfrac{4}{5}=\dfrac{16}{20}$. Since $15<16$, $\dfrac{3}{4}<\dfrac{4}{5}$.
+Next we compare $\dfrac{3}{4}$ and $\dfrac{4}{5}$. We write them over the common denominator $20$:
+$$\frac{3}{4}=\frac{3\times5}{4\times5}=\frac{15}{20},\qquad \frac{4}{5}=\frac{4\times4}{5\times4}=\frac{16}{20}.$$
+
+Since $15<16$, $\dfrac{3}{4}<\dfrac{4}{5}$.
+
+So $\dfrac{18}{24}=\dfrac{3}{4}$ and $\dfrac{18}{24}<\dfrac{4}{5}$.
 
 **Answer.** $\dfrac{18}{24}<\dfrac{4}{5}$.
 :::
@@ -324,9 +363,14 @@ Find the natural numbers $x$ such that $\dfrac{3}{7}<\dfrac{x}{7}<\dfrac{6}{7}$.
 2. List the natural numbers that satisfy it.
 
 ::solution
-The fractions have the same denominator $7$, so $3<x<6$.
+The three fractions $\dfrac{3}{7}$, $\dfrac{x}{7}$ and $\dfrac{6}{7}$ have the same denominator $7$, so we compare the numerators. The given inequality is equivalent to
+$$3<x<6.$$
 
-The natural numbers $x$ that work are $4$ and $5$.
+The natural numbers greater than $3$ and less than $6$ are $4$ and $5$.
+
+Check: $\dfrac{3}{7}<\dfrac{4}{7}<\dfrac{6}{7}$ and $\dfrac{3}{7}<\dfrac{5}{7}<\dfrac{6}{7}$, both true.
+
+So $x=4$ or $x=5$.
 
 **Answer.** $x=4$ or $x=5$.
 :::
@@ -342,9 +386,17 @@ Compare $\dfrac{99}{100}$ and $\dfrac{100}{101}$ without using a common denomina
 2. The smaller the shortfall, is the fraction greater or smaller?
 
 ::solution
-$\dfrac{99}{100}$ is $\dfrac{1}{100}$ short of $1$, and $\dfrac{100}{101}$ is $\dfrac{1}{101}$ short of $1$.
+We compare the two fractions through the amount each is short of $1$.
 
-Since $\dfrac{1}{100}>\dfrac{1}{101}$ (same numerator, and $100<101$), $\dfrac{100}{101}$ is short by less, so it is closer to $1$.
+We have $1-\dfrac{99}{100}=\dfrac{1}{100}$, so $\dfrac{99}{100}$ is $\dfrac{1}{100}$ short of $1$.
+
+We have $1-\dfrac{100}{101}=\dfrac{1}{101}$, so $\dfrac{100}{101}$ is $\dfrac{1}{101}$ short of $1$.
+
+The fractions $\dfrac{1}{100}$ and $\dfrac{1}{101}$ have the same numerator, and $100<101$, so $\dfrac{1}{100}>\dfrac{1}{101}$.
+
+Hence $\dfrac{100}{101}$ is short by less, that is, it is closer to $1$, so $\dfrac{100}{101}$ is the greater fraction.
+
+So $\dfrac{99}{100}<\dfrac{100}{101}$.
 
 **Answer.** $\dfrac{99}{100}<\dfrac{100}{101}$.
 :::

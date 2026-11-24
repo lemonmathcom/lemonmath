@@ -146,7 +146,15 @@ Cho $f(x)=\ln(5-x)$. Viết tập xác định và tập giá trị của $f$. [
 **Cần nhớ:** biểu thức trong logarit phải dương; logarit nhận mọi giá trị thực.
 
 ::solution
-Tập xác định $x<5$; tập giá trị $f(x)\in\mathbb{R}$.
+Để $f(x)=\ln(5-x)$ xác định, cần $5-x>0$, tức là $x<5$.
+
+Vậy tập xác định của $f$ là $x<5$, tức khoảng $(-\infty; 5)$.
+
+Khi $x$ chạy trên $(-\infty; 5)$, biểu thức $t=5-x$ nhận mọi giá trị trong $(0; +\infty)$. Hàm số $y=\ln t$ với $t>0$ nhận mọi giá trị thực, nên $f(x)$ cũng nhận mọi giá trị thực.
+
+Vậy tập giá trị của $f$ là $\mathbb{R}$.
+
+**Đáp số.** Tập xác định $x<5$; tập giá trị $f(x)\in\mathbb{R}$.
 :::
 
 :::exercise Phương trình với hàm hợp
@@ -156,7 +164,20 @@ Cho $f(x)=x+2$ và $g(x)=3x^2$. Giải $(g\circ f)(x)=27$. [4 marks]
 **Cần nhớ:** $(g\circ f)(x)=3(x+2)^2$.
 
 ::solution
-$(x+2)^2=9$, nên $x+2=\pm3$: $x=1$ hoặc $x=-5$.
+Ta có $(g\circ f)(x)=g(f(x))=g(x+2)=3(x+2)^2$.
+
+Phương trình $(g\circ f)(x)=27$ trở thành
+$$3(x+2)^2=27.$$
+
+Chia hai vế cho $3$, ta được $(x+2)^2=9$. Suy ra $x+2=3$ hoặc $x+2=-3$.
+
+Do đó $x=1$ hoặc $x=-5$.
+
+Kiểm tra: với $x=1$, $3(1+2)^2=27$; với $x=-5$, $3(-5+2)^2=27$. Cả hai đều thoả mãn.
+
+Vậy phương trình có hai nghiệm $x=1$ và $x=-5$.
+
+**Đáp số.** $x=1$ hoặc $x=-5$.
 :::
 
 :::exercise Hàm ngược của hàm mũ
@@ -166,7 +187,20 @@ Cho $f(x)=e^{2x}-1$. Tìm $f^{-1}(x)$ và tập xác định của nó. [4 marks
 **Cần nhớ:** đổi chỗ $x$ và $y$, rồi lấy logarit tự nhiên.
 
 ::solution
-$x=e^{2y}-1$, nên $e^{2y}=x+1$ và $f^{-1}(x)=\dfrac12\ln(x+1)$, với tập xác định $x>-1$ (tập giá trị của $f$).
+Để tìm hàm ngược, đặt $y=f^{-1}(x)$, tức là $x=f(y)=e^{2y}-1$.
+
+Từ đó $e^{2y}=x+1$.
+
+Vì $e^{2y}>0$ nên cần $x+1>0$. Lấy lôgarit tự nhiên hai vế, ta được $2y=\ln(x+1)$, suy ra
+$$y=\frac12\ln(x+1).$$
+
+Vậy $f^{-1}(x)=\dfrac12\ln(x+1)$.
+
+Tập xác định của $f^{-1}$ là tập giá trị của $f$. Vì $e^{2x}>0$ với mọi $x$ và $e^{2x}$ nhận mọi giá trị dương, nên $f(x)=e^{2x}-1$ nhận mọi giá trị lớn hơn $-1$. Điều này khớp với điều kiện $x+1>0$ ở trên.
+
+Vậy $f^{-1}(x)=\dfrac12\ln(x+1)$ với tập xác định $x>-1$.
+
+**Đáp số.** $f^{-1}(x)=\dfrac12\ln(x+1)$, tập xác định $x>-1$.
 :::
 
 :::exercise Biến đổi một parabol
@@ -176,7 +210,21 @@ Mô tả dãy các phép biến đổi đưa $y=x^2$ thành $y=-(x+1)^2+4$, và 
 **Cần nhớ:** đọc riêng phần trong ngoặc, dấu trừ và hằng số.
 
 ::solution
-Đối xứng qua trục $x$, rồi tịnh tiến sang trái $1$ đơn vị và lên trên $4$ đơn vị. Đỉnh là $(-1,4)$.
+Ta biến đổi đồ thị $y=x^2$ theo từng bước.
+
+Bước 1: đối xứng qua trục $x$ (thay $y$ bằng $-y$), được đồ thị $y=-x^2$.
+
+Bước 2: tịnh tiến sang trái $1$ đơn vị (thay $x$ bằng $x+1$), được đồ thị $y=-(x+1)^2$.
+
+Bước 3: tịnh tiến lên trên $4$ đơn vị (cộng $4$ vào $y$), được đồ thị $y=-(x+1)^2+4$.
+
+Đỉnh của $y=x^2$ là $(0; 0)$. Phép đối xứng qua trục $x$ giữ nguyên điểm này; phép tịnh tiến sang trái $1$ đơn vị đưa nó tới $(-1; 0)$; phép tịnh tiến lên trên $4$ đơn vị đưa nó tới $(-1; 4)$.
+
+Kiểm tra: $y=-(x+1)^2+4$ có dạng $y=a(x-h)^2+k$ với $h=-1$, $k=4$, nên đỉnh là $(-1; 4)$.
+
+Vậy dãy phép biến đổi là: đối xứng qua trục $x$, rồi tịnh tiến sang trái $1$ đơn vị và lên trên $4$ đơn vị; đỉnh của đồ thị mới là $(-1; 4)$.
+
+**Đáp số.** Đối xứng qua trục $x$, rồi tịnh tiến sang trái $1$ đơn vị và lên trên $4$ đơn vị; đỉnh $(-1; 4)$.
 :::
 
 :::exercise Bất phương trình với biệt thức
@@ -186,7 +234,20 @@ Tìm các giá trị của $k$ để $kx^2+4x+1=0$ có hai nghiệm thực phân
 **Cần nhớ:** $\Delta>0$, và $k\ne0$ để phương trình là bậc hai.
 
 ::solution
-$16-4k>0$, nên $k<4$, với $k\ne0$.
+Để phương trình $kx^2+4x+1=0$ là phương trình bậc hai, cần $k\ne0$.
+
+Phương trình bậc hai có hai nghiệm thực phân biệt khi và chỉ khi biệt thức $\Delta>0$. Ta có
+$$\Delta=4^2-4\cdot k\cdot1=16-4k.$$
+
+Do đó $\Delta>0\iff16-4k>0\iff k<4$.
+
+Kết hợp với điều kiện $k\ne0$, ta được $k<4$ và $k\ne0$.
+
+Lưu ý: khi $k=0$, phương trình trở thành $4x+1=0$ chỉ có một nghiệm, nên giá trị $k=0$ bị loại.
+
+Vậy phương trình có hai nghiệm thực phân biệt khi $k<4$ và $k\ne0$.
+
+**Đáp số.** $k<4$, $k\ne0$.
 :::
 
 ## Bài tập vận dụng
@@ -200,9 +261,30 @@ Một quả bóng được ném lên, độ cao tính bằng mét sau $t$ giây 
 **Cần nhớ:** đỉnh tại $t=-\dfrac{b}{2a}$; câu (b) giải $h(t)=0$ bằng GDC và lấy nghiệm dương.
 
 ::solution
-(a) $t=\dfrac{19{,}6}{9{,}8}=2$, và $h(2)=21{,}1$ mét.
+a) Hàm số $h(t)=-4{,}9t^2+19{,}6t+1{,}5$ là hàm bậc hai có hệ số $-4{,}9<0$, nên đồ thị là parabol quay xuống và $h$ đạt giá trị lớn nhất tại đỉnh.
 
-(b) $h(t)=0$ khi $t\approx4{,}08$ giây (nghiệm còn lại âm).
+Hoành độ đỉnh là
+$$t=-\frac{19{,}6}{2\cdot(-4{,}9)}=\frac{19{,}6}{9{,}8}=2\ \text{(giây)}.$$
+
+Thay $t=2$ vào $h(t)$:
+$$h(2)=-4{,}9\cdot4+19{,}6\cdot2+1{,}5=-19{,}6+39{,}2+1{,}5=21{,}1.$$
+
+Vậy độ cao lớn nhất của bóng là $21{,}1$ mét (đạt được sau $2$ giây).
+
+b) Bóng chạm đất khi $h(t)=0$, tức là
+$$-4{,}9t^2+19{,}6t+1{,}5=0.$$
+
+Biệt thức: $\Delta=19{,}6^2-4\cdot(-4{,}9)\cdot1{,}5=384{,}16+29{,}4=413{,}56$, nên $\sqrt\Delta\approx20{,}336$.
+
+Hai nghiệm là
+$$t=\frac{-19{,}6\pm\sqrt\Delta}{2\cdot(-4{,}9)}=\frac{19{,}6\mp\sqrt\Delta}{9{,}8},$$
+tức là $t\approx4{,}075$ hoặc $t\approx-0{,}075$.
+
+Vì $t\ge0$ nên loại nghiệm âm và chọn $t\approx4{,}075$.
+
+Vậy bóng chạm đất sau khoảng $4{,}08$ giây.
+
+**Đáp số.** a) $21{,}1$ mét; b) $t\approx4{,}08$ giây.
 :::
 
 :::exercise Cốc nước nguội dần
@@ -214,9 +296,24 @@ Nhiệt độ của một cốc nước, tính bằng độ C, sau $t$ phút k�
 **Cần nhớ:** $e^{-0{,}05t}\to0$; câu (b): $70e^{-0{,}05t}=30$.
 
 ::solution
-(a) $T=20$: về lâu dài, cốc nước tiến tới nhiệt độ phòng $20$ độ C.
+a) Khi $t\to+\infty$, ta có $-0{,}05t\to-\infty$ nên $e^{-0{,}05t}\to0$. Do đó
+$$T(t)=20+70e^{-0{,}05t}\to20.$$
 
-(b) $e^{-0{,}05t}=\dfrac37$, nên $t=\dfrac{\ln(7/3)}{0{,}05}\approx16{,}9$ phút.
+Vậy đồ thị $T$ có đường tiệm cận ngang $T=20$.
+
+Ý nghĩa: về lâu dài, nhiệt độ của cốc nước tiến tới $20$ độ C (nhiệt độ phòng) nhưng không bao giờ xuống dưới mức đó.
+
+b) Giải $T(t)=50$:
+$$20+70e^{-0{,}05t}=50\iff70e^{-0{,}05t}=30\iff e^{-0{,}05t}=\frac37.$$
+
+Lấy lôgarit tự nhiên hai vế:
+$$-0{,}05t=\ln\frac37=-\ln\frac73,\ \text{suy ra}\ t=\frac{\ln(7/3)}{0{,}05}\approx16{,}9.$$
+
+Giá trị này thoả mãn $t\ge0$.
+
+Vậy sau khoảng $16{,}9$ phút thì nhiệt độ của cốc nước bằng $50$ độ C.
+
+**Đáp số.** a) $T=20$; b) $t\approx16{,}9$ phút.
 :::
 
 :::exercise Hàm tự ngược
@@ -226,7 +323,28 @@ Cho $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Chứng minh $f^{-1}(x)=f(x)$. Điều nà
 **Cần nhớ:** tìm $f^{-1}$ theo cách thông thường.
 
 ::solution
-$x=\dfrac{y+2}{y-1}$ cho $xy-x=y+2$, nên $y(x-1)=x+2$ và $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. Đồ thị của $f$ đối xứng qua đường thẳng $y=x$.
+Điều kiện xác định: $x\ne1$.
+
+Để tìm hàm ngược, đặt $y=f^{-1}(x)$, tức là $x=f(y)=\dfrac{y+2}{y-1}$ với $y\ne1$.
+
+Nhân hai vế với $y-1\ne0$:
+$$x(y-1)=y+2\iff xy-x=y+2.$$
+
+Chuyển các số hạng chứa $y$ sang một vế:
+$$xy-y=x+2\iff y(x-1)=x+2.$$
+
+Với $x\ne1$, chia hai vế cho $x-1$ ta được
+$$y=\frac{x+2}{x-1}.$$
+
+Vậy $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$.
+
+Về tập xác định: vì $f(x)=1+\dfrac{3}{x-1}$ nhận mọi giá trị khác $1$, nên tập xác định của $f^{-1}$ là $x\ne1$, trùng với tập xác định của $f$.
+
+Ý nghĩa: đồ thị của $f^{-1}$ là ảnh của đồ thị $f$ qua phép đối xứng qua đường thẳng $y=x$. Vì $f^{-1}=f$ nên đồ thị của $f$ trùng với ảnh của chính nó qua phép đối xứng này.
+
+Vậy $f^{-1}(x)=f(x)$, và đồ thị của $f$ đối xứng qua đường thẳng $y=x$.
+
+**Đáp số.** $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$; đồ thị của $f$ đối xứng qua đường thẳng $y=x$.
 :::
 
 :::exercise Thử thách
@@ -236,7 +354,20 @@ Tìm các giá trị của $k$ để đường thẳng $y=kx$ tiếp xúc với 
 **Cần nhớ:** tiếp tuyến cắt đường cong tại đúng một điểm, nên phương trình bậc hai thu được có $\Delta=0$.
 
 ::solution
-$x^2-kx+1=0$ có $\Delta=k^2-4=0$, nên $k=\pm2$.
+Hoành độ giao điểm của đường thẳng $y=kx$ và đường cong $y=x^2+1$ thoả mãn
+$$kx=x^2+1\iff x^2-kx+1=0.$$
+
+Đường thẳng tiếp xúc với đường cong khi và chỉ khi phương trình trên có nghiệm kép, tức là $\Delta=0$.
+
+Ta có $\Delta=(-k)^2-4\cdot1\cdot1=k^2-4$.
+
+Do đó $\Delta=0\iff k^2=4\iff k=2$ hoặc $k=-2$.
+
+Kiểm tra: với $k=2$, $x^2-2x+1=(x-1)^2$ có nghiệm kép $x=1$; với $k=-2$, $x^2+2x+1=(x+1)^2$ có nghiệm kép $x=-1$.
+
+Vậy đường thẳng $y=kx$ tiếp xúc với đường cong $y=x^2+1$ khi $k=2$ hoặc $k=-2$.
+
+**Đáp số.** $k=\pm2$.
 :::
 
 :::quiz

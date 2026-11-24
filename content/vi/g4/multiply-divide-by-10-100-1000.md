@@ -159,7 +159,15 @@ Tính nhẩm: $36\times10$; $36\times100$; $36\times1\,000$.
 2. Thêm lần lượt $1$, $2$, $3$ chữ số 0 vào bên phải.
 
 ::solution
-$36\times10=360$; $36\times100=3\,600$; $36\times1\,000=36\,000$.
+Khi nhân một số với $10$, $100$, $1\,000$, ta viết thêm vào bên phải số đó một, hai, ba chữ số $0$.
+
+Ta có $36\times10=360$ (thêm một chữ số $0$).
+
+Ta có $36\times100=3\,600$ (thêm hai chữ số $0$).
+
+Ta có $36\times1\,000=36\,000$ (thêm ba chữ số $0$).
+
+Vậy $36\times10=360$; $36\times100=3\,600$; $36\times1\,000=36\,000$.
 
 **Đáp số.** $360$; $3\,600$; $36\,000$.
 :::
@@ -175,7 +183,15 @@ Tính nhẩm: $5\,000:10$; $5\,000:100$; $5\,000:1\,000$.
 2. Bỏ lần lượt $1$, $2$, $3$ chữ số 0.
 
 ::solution
-$5\,000:10=500$; $5\,000:100=50$; $5\,000:1\,000=5$.
+Khi chia một số tròn chục, tròn trăm, tròn nghìn cho $10$, $100$, $1\,000$, ta bỏ bớt đi một, hai, ba chữ số $0$ ở tận cùng của số đó.
+
+Ta có $5\,000:10=500$ (bỏ một chữ số $0$).
+
+Ta có $5\,000:100=50$ (bỏ hai chữ số $0$).
+
+Ta có $5\,000:1\,000=5$ (bỏ ba chữ số $0$).
+
+Vậy $5\,000:10=500$; $5\,000:100=50$; $5\,000:1\,000=5$.
 
 **Đáp số.** $500$; $50$; $5$.
 :::
@@ -193,9 +209,11 @@ b) $9\,000:\square=90$
 2. Câu b: $9\,000$ bỏ mấy chữ số 0 thì được $90$?
 
 ::solution
-a) $2\,400$ có thêm hai chữ số 0 so với $24$, nên $24\times100=2\,400$.
+a) Số $2\,400$ có thêm hai chữ số $0$ so với $24$, nên số cần điền là $100$. Kiểm tra: $24\times100=2\,400$.
 
-b) $9\,000$ bỏ đi hai chữ số 0 thì được $90$, nên $9\,000:100=90$.
+b) Số $9\,000$ bỏ đi hai chữ số $0$ thì được $90$, nên số chia là $100$. Kiểm tra: $9\,000:100=90$.
+
+Vậy cả hai ô cần điền số $100$.
 
 **Đáp số.** a) $100$. b) $100$.
 :::
@@ -213,9 +231,11 @@ b) $6\,000$ kg $=\ ?$ tấn
 2. Câu b: chia $6\,000$ cho $1\,000$.
 
 ::solution
-a) $8$ tạ $=8\times100=800$ kg.
+a) Ta có $1$ tạ $=100$ kg, nên $8$ tạ $=8\times100=800$ kg.
 
-b) $6\,000$ kg $=6\,000:1\,000=6$ tấn.
+b) Ta có $1$ tấn $=1\,000$ kg, nên $6\,000$ kg $=6\,000:1\,000=6$ tấn.
+
+Vậy $8$ tạ $=800$ kg và $6\,000$ kg $=6$ tấn.
 
 **Đáp số.** a) $800$ kg. b) $6$ tấn.
 :::
@@ -231,9 +251,15 @@ Một tấm vải dài $25$ m được cắt thành các mảnh, mỗi mảnh d�
 2. Đổi $25$ m ra xăng-ti-mét rồi chia cho $10$.
 
 ::solution
-$25$ m $=25\times100=2\,500$ (cm).
+Bài giải
 
-Số mảnh vải cắt được là $2\,500:10=250$ (mảnh).
+Ta đổi độ dài tấm vải ra xăng-ti-mét để cùng đơn vị với độ dài mỗi mảnh. Vì $1$ m $=100$ cm nên
+$$25\ \text{m}=25\times100=2\,500\ \text{(cm)}.$$
+
+Số mảnh vải cắt được là:
+$$2\,500:10=250\ \text{(mảnh)}.$$
+
+Vậy cắt được $250$ mảnh vải.
 
 **Đáp số.** $250$ mảnh.
 :::
@@ -249,9 +275,15 @@ Nhà trường mua $100$ hộp phấn, mỗi hộp có $48$ viên. Số phấn �
 2. Tính tổng số viên phấn, rồi chia đều cho $10$ lớp.
 
 ::solution
-Số viên phấn nhà trường mua là $48\times100=4\,800$ (viên).
+Bài giải
 
-Số viên phấn mỗi lớp được là $4\,800:10=480$ (viên).
+Có $100$ hộp phấn, mỗi hộp có $48$ viên, nên số viên phấn nhà trường mua là:
+$$48\times100=4\,800\ \text{(viên)}.$$
+
+Số phấn đó chia đều cho $10$ lớp, nên số viên phấn mỗi lớp được là:
+$$4\,800:10=480\ \text{(viên)}.$$
+
+Vậy mỗi lớp được $480$ viên phấn.
 
 **Đáp số.** $480$ viên phấn.
 :::
@@ -267,9 +299,15 @@ Tính nhẩm: $62\times40$ và $8\,400:200$.
 2. $8\,400:200=84:2$.
 
 ::solution
-$62\times40=(62\times4)\times10=248\times10=2\,480$.
+Phép nhân: $40=4\times10$, nên
+$$62\times40=(62\times4)\times10=248\times10=2\,480.$$
 
-$8\,400:200=84:2=42$.
+Phép chia: ta bỏ bớt hai chữ số $0$ ở tận cùng của cả số bị chia và số chia, thương không thay đổi. Do đó
+$$8\,400:200=84:2=42.$$
+
+*Thử lại.* $42\times200=8\,400$. Đúng.
+
+Vậy $62\times40=2\,480$ và $8\,400:200=42$.
 
 **Đáp số.** $2\,480$ và $42$.
 :::
@@ -285,7 +323,12 @@ Em hãy nhớ lại bài tính chất của phép nhân. Tính bằng cách thu�
 2. Nhân kết quả với $37$.
 
 ::solution
-$$5\times37\times20=(5\times20)\times37=100\times37=3\,700.$$
+Ta dùng tính chất giao hoán và kết hợp của phép nhân để nhóm hai thừa số $5$ và $20$ lại với nhau, vì $5\times20=100$ là một số tròn trăm.
+
+Ta có
+$$\begin{aligned}5\times37\times20&=(5\times20)\times37\\&=100\times37\\&=3\,700.\end{aligned}$$
+
+Vậy $5\times37\times20=3\,700$.
 
 **Đáp số.** $3\,700$.
 :::
@@ -301,9 +344,15 @@ Một đường chạy trong sân vận động dài $400$ m một vòng. Một 
 2. Đổi sang ki-lô-mét: chia cho $1\,000$.
 
 ::solution
-Số mét vận động viên chạy được là $400\times10=4\,000$ (m).
+Bài giải
 
-Đổi ra ki-lô-mét: $4\,000:1\,000=4$ (km).
+Một vòng dài $400$ m và vận động viên chạy $10$ vòng, nên số mét vận động viên chạy được là:
+$$400\times10=4\,000\ \text{(m)}.$$
+
+Vì $1$ km $=1\,000$ m nên đổi ra ki-lô-mét ta có:
+$$4\,000:1\,000=4\ \text{(km)}.$$
+
+Vậy vận động viên chạy được $4\,000$ m, tức là $4$ km.
 
 **Đáp số.** $4\,000$ m, tức là $4$ km.
 :::
@@ -319,11 +368,16 @@ Một số nhân với $100$ rồi chia cho $10$ thì được $3\,500$. Tìm s�
 2. Số đó nhân với $100$ được số vừa tìm; tìm số đó.
 
 ::solution
-Trước khi chia cho $10$ ta có $3\,500\times10=35\,000$.
+Gọi số cần tìm là $a$. Theo đề bài, $a$ nhân với $100$ rồi chia cho $10$ được $3\,500$.
 
-Số cần tìm nhân với $100$ được $35\,000$ nên số đó là $35\,000:100=350$.
+Số trước khi chia cho $10$ là $3\,500\times10=35\,000$, vì số bị chia bằng thương nhân với số chia.
 
-**Thử lại.** $350\times100=35\,000$ và $35\,000:10=3\,500$. Đúng.
+Như vậy $a\times100=35\,000$, nên thừa số chưa biết là
+$$a=35\,000:100=350.$$
+
+*Thử lại.* $350\times100=35\,000$ và $35\,000:10=3\,500$. Đúng.
+
+Vậy số cần tìm là $350$.
 
 **Đáp số.** $350$.
 :::

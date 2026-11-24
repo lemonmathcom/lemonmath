@@ -242,7 +242,13 @@ Tính thể tích và diện tích toàn phần của hình hộp chữ nhật c
 2. Tính ba diện tích $ab$, $bc$, $ca$ rồi nhân đôi tổng.
 
 ::solution
-Ta có $V=9\cdot6\cdot4=216\ (\text{cm}^3)$ và $S_{tp}=2(54+24+36)=228\ (\text{cm}^2)$.
+Hình hộp chữ nhật có chiều dài $a=9$ cm, chiều rộng $b=6$ cm, chiều cao $c=4$ cm. Ta dùng các công thức $V=abc$ và $S_{tp}=2(ab+bc+ca)$.
+
+Thể tích hình hộp chữ nhật là
+$$V=9\cdot6\cdot4=216\ (\text{cm}^3).$$
+
+Các diện tích các mặt khác nhau là $ab=9\cdot6=54$, $bc=6\cdot4=24$, $ca=4\cdot9=36$ (cm²). Diện tích toàn phần là
+$$S_{tp}=2(54+24+36)=2\cdot114=228\ (\text{cm}^2).$$
 
 Vậy $V=216\ \text{cm}^3$ và $S_{tp}=228\ \text{cm}^2$.
 
@@ -260,7 +266,13 @@ Tính thể tích và diện tích toàn phần của hình lập phương có c
 2. Tính $6\cdot7^2$.
 
 ::solution
-Ta có $V=7^3=343\ (\text{cm}^3)$ và $S_{tp}=6\cdot49=294\ (\text{cm}^2)$.
+Hình lập phương có cạnh $a=7$ cm. Ta dùng các công thức $V=a^3$ và $S_{tp}=6a^2$.
+
+Thể tích hình lập phương là
+$$V=7^3=343\ (\text{cm}^3).$$
+
+Diện tích một mặt là $7^2=49$ (cm²), và hình lập phương có $6$ mặt nên
+$$S_{tp}=6\cdot49=294\ (\text{cm}^2).$$
 
 Vậy $V=343\ \text{cm}^3$ và $S_{tp}=294\ \text{cm}^2$.
 
@@ -278,9 +290,15 @@ Một hình hộp chữ nhật có thể tích $210\ \text{cm}^3$, đáy là hì
 2. Chia thể tích cho diện tích đáy.
 
 ::solution
-Diện tích đáy là $7\cdot5=35\ (\text{cm}^2)$. Chiều cao là $h=\dfrac{210}{35}=6$ (cm).
+Thể tích hình hộp chữ nhật bằng diện tích đáy nhân chiều cao: $V=S_{đáy}\cdot h$. Do đó $h=\dfrac{V}{S_{đáy}}$.
 
-Vậy chiều cao là $6$ cm.
+Diện tích đáy là
+$$S_{đáy}=7\cdot5=35\ (\text{cm}^2).$$
+
+Thay $V=210\ \text{cm}^3$ vào công thức, ta được
+$$h=\frac{210}{35}=6\ (\text{cm}).$$
+
+Vậy chiều cao của hình hộp là $6$ cm.
 
 **Đáp số.** $6$ cm.
 :::
@@ -332,7 +350,19 @@ Một hình lăng trụ đứng có đáy là tam giác vuông với hai cạnh 
 2. Áp dụng công thức.
 
 ::solution
-Diện tích đáy là $\dfrac12\cdot6\cdot8=24\ (\text{cm}^2)$, chu vi đáy là $6+8+10=24$ (cm). Ta có $V=24\cdot9=216\ (\text{cm}^3)$ và $S_{tp}=24\cdot9+2\cdot24=264\ (\text{cm}^2)$.
+Đáy của lăng trụ là tam giác vuông có hai cạnh góc vuông $6$ cm, $8$ cm và cạnh huyền $10$ cm. Ta dùng các công thức $V=S_{đáy}\cdot h$ và $S_{tp}=S_{xq}+2S_{đáy}$, trong đó $S_{xq}=C_{đáy}\cdot h$.
+
+Diện tích đáy là
+$$S_{đáy}=\frac12\cdot6\cdot8=24\ (\text{cm}^2).$$
+
+Chu vi đáy là
+$$C_{đáy}=6+8+10=24\ (\text{cm}).$$
+
+Thể tích hình lăng trụ là
+$$V=24\cdot9=216\ (\text{cm}^3).$$
+
+Diện tích xung quanh là $S_{xq}=24\cdot9=216$ (cm²). Diện tích toàn phần là
+$$S_{tp}=24\cdot9+2\cdot24=216+48=264\ (\text{cm}^2).$$
 
 Vậy $V=216\ \text{cm}^3$ và $S_{tp}=264\ \text{cm}^2$.
 
@@ -350,7 +380,19 @@ Một hình lăng trụ đứng tứ giác có đáy là hình bình hành với
 2. Áp dụng $V=S_{\text{đ}}\cdot h$ và $S_{xq}=C_{\text{đ}}\cdot h$.
 
 ::solution
-Diện tích đáy là $8\cdot5=40\ (\text{cm}^2)$, chu vi đáy là $2(8+6)=28$ (cm). Ta có $V=40\cdot10=400\ (\text{cm}^3)$ và $S_{xq}=28\cdot10=280\ (\text{cm}^2)$.
+Đáy của lăng trụ là hình bình hành. Ta dùng các công thức $V=S_{đáy}\cdot h$ và $S_{xq}=C_{đáy}\cdot h$.
+
+Diện tích đáy bằng cạnh nhân đường cao ứng với cạnh đó:
+$$S_{đáy}=8\cdot5=40\ (\text{cm}^2).$$
+
+Chu vi đáy là
+$$C_{đáy}=2(8+6)=28\ (\text{cm}).$$
+
+Thể tích hình lăng trụ là
+$$V=40\cdot10=400\ (\text{cm}^3).$$
+
+Diện tích xung quanh là
+$$S_{xq}=28\cdot10=280\ (\text{cm}^2).$$
 
 Vậy $V=400\ \text{cm}^3$ và $S_{xq}=280\ \text{cm}^2$.
 

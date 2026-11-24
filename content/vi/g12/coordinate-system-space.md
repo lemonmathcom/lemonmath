@@ -224,9 +224,15 @@ b) Tìm toạ độ của vectơ $\vec{a}=-\vec{i}+4\vec{k}$.
 2. b) Hệ số của $\vec{j}$ bằng $0$.
 
 ::solution
-a) Vì $\overrightarrow{OM}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$ nên $M(2; -3; 1)$.
+Trong hệ trục $Oxyz$, nếu $\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$ thì điểm $M$ có toạ độ $(x; y; z)$; nếu $\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$ thì vectơ $\vec{a}$ có toạ độ $(x; y; z)$.
 
-b) Vì $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$ nên $\vec{a}=(-1; 0; 4)$.
+a) Ta có $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$.
+
+Suy ra $M(2; -3; 1)$.
+
+b) Ta có $\vec{a}=-\vec{i}+4\vec{k}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$ (hệ số của $\vec{j}$ bằng $0$ vì $\vec{j}$ không xuất hiện).
+
+Suy ra $\vec{a}=(-1; 0; 4)$.
 
 Vậy $M(2; -3; 1)$ và $\vec{a}=(-1; 0; 4)$.
 
@@ -263,8 +269,14 @@ Cho $A(2; -1; 3)$ và $B(-1; 3; 3)$. Tìm toạ độ của $\overrightarrow{AB}
 2. Cộng ba bình phương rồi khai căn.
 
 ::solution
-Ta có
-$$\overrightarrow{AB}=(-3; 4; 0),\qquad AB=\sqrt{9+16+0}=5.$$
+Với $A(x_A; y_A; z_A)$ và $B(x_B; y_B; z_B)$, ta có $\overrightarrow{AB}=(x_B-x_A; y_B-y_A; z_B-z_A)$ và $AB=\left|\overrightarrow{AB}\right|=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+
+Thay toạ độ $A(2; -1; 3)$, $B(-1; 3; 3)$ vào, ta được
+$$\overrightarrow{AB}=(-1-2;\ 3-(-1);\ 3-3)=(-3; 4; 0).$$
+
+Suy ra độ dài
+$$AB=\sqrt{(-3)^2+4^2+0^2}=\sqrt{9+16+0}=\sqrt{25}=5.$$
+
 Vậy $\overrightarrow{AB}=(-3; 4; 0)$ và $AB=5$.
 
 **Đáp số.** $\overrightarrow{AB}=(-3; 4; 0)$; $AB=5$.
@@ -281,8 +293,15 @@ Cho $A(2; 1; -3)$, $B(0; 5; 1)$, $C(4; -3; 5)$. Tìm trung điểm $M$ của $AB
 2. Cộng từng toạ độ của $A$, $B$, $C$ rồi chia cho $3$.
 
 ::solution
-Theo công thức toạ độ trung điểm và trọng tâm, ta có
-$$M\left(\frac{2+0}{2};\ \frac{1+5}{2};\ \frac{-3+1}{2}\right)=M(1; 3; -1),\qquad G\left(\frac{6}{3};\ \frac{3}{3};\ \frac{3}{3}\right)=G(2; 1; 1).$$
+Trung điểm của đoạn $AB$ có toạ độ là trung bình cộng các toạ độ tương ứng của $A$ và $B$; trọng tâm của tam giác $ABC$ có toạ độ là trung bình cộng các toạ độ tương ứng của ba đỉnh.
+
+Vì $M$ là trung điểm của $AB$ với $A(2; 1; -3)$, $B(0; 5; 1)$ nên
+$$M\left(\frac{2+0}{2};\ \frac{1+5}{2};\ \frac{-3+1}{2}\right)=M(1; 3; -1).$$
+
+Vì $G$ là trọng tâm tam giác $ABC$ với $A(2; 1; -3)$, $B(0; 5; 1)$, $C(4; -3; 5)$ nên
+$$G\left(\frac{2+0+4}{3};\ \frac{1+5+(-3)}{3};\ \frac{-3+1+5}{3}\right)=G\left(\frac{6}{3};\ \frac{3}{3};\ \frac{3}{3}\right)=G(2; 1; 1).$$
+
+Vậy trung điểm của $AB$ là $M(1; 3; -1)$ và trọng tâm của tam giác $ABC$ là $G(2; 1; 1)$.
 
 **Đáp số.** $M(1; 3; -1)$; $G(2; 1; 1)$.
 :::
@@ -344,13 +363,20 @@ d) Khoảng cách từ $M$ đến trục $Ox$ bằng $4$.
 3. Xác định đúng toạ độ nào dùng cho mỗi khoảng cách.
 
 ::solution
-a) **Đúng.** Hình chiếu lên $(Oxy)$ giữ nguyên $x$, $y$ và có $z=0$.
+Điểm $M(3; -4; 12)$ có hoành độ $3$, tung độ $-4$ và cao độ $12$.
 
-b) **Sai.** Khoảng cách đến $(Oyz)$ là $|x|=3$.
+a) **Đúng.** Hình chiếu vuông góc của $M$ lên mặt phẳng $(Oxy)$ giữ nguyên hoành độ và tung độ, còn cao độ bằng $0$. Do đó hình chiếu là $(3; -4; 0)$.
 
-c) **Đúng.** Ta có $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
+b) **Sai.** Khoảng cách từ một điểm đến mặt phẳng $(Oyz)$ bằng giá trị tuyệt đối của hoành độ, tức là $|x|=|3|=3$. Giá trị này khác $4$.
 
-d) **Sai.** Hình chiếu của $M$ lên $Ox$ là $H(3; 0; 0)$ nên $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
+c) **Đúng.** Ta có
+$$OM=\sqrt{3^2+(-4)^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+d) **Sai.** Hình chiếu vuông góc của $M$ lên trục $Ox$ là $H(3; 0; 0)$, nên khoảng cách từ $M$ đến $Ox$ là
+$$MH=\sqrt{(3-3)^2+(-4-0)^2+(12-0)^2}=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}.$$
+Giá trị này khác $4$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -367,8 +393,20 @@ Hình lập phương $ABCD.A'B'C'D'$ cạnh $4$ được đặt vào hệ $Oxyz$
 3. Tính $IB$ bằng công thức khoảng cách.
 
 ::solution
-Theo quy tắc hình hộp, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=(4; 0; 0)+(0; 4; 0)+(0; 0; 4)=(4; 4; 4)$ nên $C'(4; 4; 4)$. Tâm $I$ là trung điểm của $A'(0; 0; 4)$ và $C'$ nên $I(2; 2; 4)$. Do đó
-$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{24}=2\sqrt6.$$
+Vì $ABCD.A'B'C'D'$ là hình lập phương nên cũng là hình hộp. Theo quy tắc hình hộp, ta có $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$.
+
+Với $A(0; 0; 0)$, $B(4; 0; 0)$, $D(0; 4; 0)$, $A'(0; 0; 4)$, ta có $\overrightarrow{AB}=(4; 0; 0)$, $\overrightarrow{AD}=(0; 4; 0)$, $\overrightarrow{AA'}=(0; 0; 4)$. Suy ra
+$$\overrightarrow{AC'}=(4; 0; 0)+(0; 4; 0)+(0; 0; 4)=(4; 4; 4).$$
+
+Vì $A$ trùng $O$ nên toạ độ của $C'$ bằng toạ độ của $\overrightarrow{AC'}$, tức là $C'(4; 4; 4)$.
+
+Tâm $I$ của mặt $A'B'C'D'$ là giao điểm hai đường chéo, nên $I$ là trung điểm của $A'C'$. Với $A'(0; 0; 4)$ và $C'(4; 4; 4)$, ta có
+$$I\left(\frac{0+4}{2};\ \frac{0+4}{2};\ \frac{4+4}{2}\right)=I(2; 2; 4).$$
+
+Với $B(4; 0; 0)$ và $I(2; 2; 4)$, ta có
+$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{4+4+16}=\sqrt{24}=2\sqrt6\approx4{,}90.$$
+
+Vậy $C'(4; 4; 4)$, $I(2; 2; 4)$ và $IB=2\sqrt6\approx4{,}90$.
 
 **Đáp số.** $C'(4; 4; 4)$, $I(2; 2; 4)$, $IB=2\sqrt6\approx4{,}90$.
 :::
@@ -388,9 +426,15 @@ b) Coi $A$, $B$ là các điểm $A(1; 2; 0)$, $B(4; 6; 0)$ của mặt phẳng 
 2. b) Thêm hiệu cao độ $12$ và để ý rằng $ABB'$ vuông tại $B$.
 
 ::solution
-a) Ta có $\overrightarrow{AB}=(3; 4)$ nên $AB=\sqrt{3^2+4^2}=5$.
+a) Với $A(1; 2)$ và $B(4; 6)$, công thức của lớp 10 cho $\overrightarrow{AB}=(4-1;\ 6-2)=(3; 4)$ và
+$$AB=\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{25}=5.$$
 
-b) Ta có $\overrightarrow{AB'}=(3; 4; 12)$ nên $AB'=\sqrt{9+16+144}=13$. Đây đúng là định lí Pythagore trong tam giác $ABB'$ vuông tại $B$: $5^2+12^2=13^2$.
+b) Với $A(1; 2; 0)$ và $B'(4; 6; 12)$, ta có $\overrightarrow{AB'}=(4-1;\ 6-2;\ 12-0)=(3; 4; 12)$. Suy ra
+$$AB'=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+Kết quả này đúng là định lí Pythagore trong tam giác $ABB'$ vuông tại $B$ (vì $BB'$ thẳng đứng, vuông góc với mặt phẳng $(Oxy)$): $AB^2+BB'^2=5^2+12^2=25+144=169=13^2$.
+
+Vậy $AB=5$ và $AB'=13$.
 
 **Đáp số.** a) $AB=5$; b) $AB'=13$.
 :::

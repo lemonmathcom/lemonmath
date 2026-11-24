@@ -191,11 +191,15 @@ c) $A'C'\perp(BDD'B')$.
 2. Ở câu c, dời $A'C'$ về $AC$.
 
 ::solution
-a) $AA'\perp AB$ và $AA'\perp AD$ (các mặt bên là hình vuông), $AB$, $AD$ cắt nhau tại $A$ trong $(ABCD)$ nên $AA'\perp(ABCD)$.
+Ta dùng điều kiện nhận biết: nếu một đường thẳng vuông góc với hai đường thẳng cắt nhau cùng nằm trong một mặt phẳng thì nó vuông góc với mặt phẳng đó.
 
-b) $BD\perp AC$ (hai đường chéo hình vuông) và $BD\perp AA'$ (do $AA'\perp(ABCD)$). $AC$, $AA'$ cắt nhau trong $(ACC'A')$ nên $BD\perp(ACC'A')$.
+a) Các mặt bên của hình lập phương là hình vuông nên $AA'\perp AB$ và $AA'\perp AD$. Hai đường thẳng $AB$, $AD$ cắt nhau tại $A$ và cùng nằm trong $(ABCD)$. Do đó $AA'\perp(ABCD)$.
 
-c) Tương tự, $AC\perp BD$ và $AC\perp BB'$ nên $AC\perp(BDD'B')$. Vì $A'C'\parallel AC$ nên $A'C'\perp(BDD'B')$.
+b) Vì $ABCD$ là hình vuông nên $BD\perp AC$ (hai đường chéo của hình vuông). Vì $AA'\perp(ABCD)$ và $BD\subset(ABCD)$ nên $BD\perp AA'$. Hai đường thẳng $AC$, $AA'$ cắt nhau tại $A$ và cùng nằm trong $(ACC'A')$. Do đó $BD\perp(ACC'A')$.
+
+c) Tương tự, $AC\perp BD$ (hai đường chéo của hình vuông $ABCD$). Vì $BB'\parallel AA'$ và $AA'\perp(ABCD)$ nên $BB'\perp(ABCD)$, suy ra $AC\perp BB'$. Hai đường thẳng $BD$, $BB'$ cắt nhau tại $B$ và cùng nằm trong $(BDD'B')$. Do đó $AC\perp(BDD'B')$. Vì $A'C'\parallel AC$ nên $A'C'\perp(BDD'B')$.
+
+Vậy cả ba mệnh đề a), b), c) đều đúng.
 
 **Đáp số.** Cả ba mệnh đề đều đúng.
 :::
@@ -211,9 +215,11 @@ Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(AB
 2. Làm tương tự cho $CD$ và $(SAD)$.
 
 ::solution
-$BC\perp AB$ (hình chữ nhật) và $BC\perp SA$ (do $SA\perp(ABCD)$). $AB$, $SA$ cắt nhau tại $A$ trong $(SAB)$ nên $BC\perp(SAB)$.
+Vì $ABCD$ là hình chữ nhật nên $BC\perp AB$. Vì $SA\perp(ABCD)$ và $BC\subset(ABCD)$ nên $BC\perp SA$. Hai đường thẳng $AB$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAB)$. Do đó $BC\perp(SAB)$.
 
-$CD\perp AD$ (hình chữ nhật) và $CD\perp SA$. $AD$, $SA$ cắt nhau tại $A$ trong $(SAD)$ nên $CD\perp(SAD)$.
+Tương tự, $CD\perp AD$ vì $ABCD$ là hình chữ nhật, và $CD\perp SA$ vì $SA\perp(ABCD)$ và $CD\subset(ABCD)$. Hai đường thẳng $AD$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAD)$. Do đó $CD\perp(SAD)$.
+
+Vậy $BC\perp(SAB)$ và $CD\perp(SAD)$.
 
 **Đáp số.** Hai mệnh đề đều được chứng minh.
 :::
@@ -229,9 +235,15 @@ Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $S
 2. Tính $SB$ từ tam giác $SAB$ rồi $SC$ từ tam giác $SBC$.
 
 ::solution
-$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$.
+Chứng minh $BC\perp(SAB)$. Vì tam giác $ABC$ vuông tại $B$ nên $BC\perp AB$. Vì $SA\perp(ABC)$ và $BC\subset(ABC)$ nên $BC\perp SA$. Hai đường thẳng $AB$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAB)$. Do đó $BC\perp(SAB)$.
 
-Tam giác $SAB$ vuông tại $A$ nên $SB^2=9+16=25$, $SB=5$. Tam giác $SBC$ vuông tại $B$ nên $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
+Tính $SB$. Vì $SA\perp(ABC)$ và $AB\subset(ABC)$ nên $SA\perp AB$, tam giác $SAB$ vuông tại $A$. Theo định lí Pythagore,
+$$SB^2=SA^2+AB^2=3^2+4^2=25\Rightarrow SB=5.$$
+
+Tính $SC$. Vì $BC\perp(SAB)$ và $SB\subset(SAB)$ nên $BC\perp SB$, tam giác $SBC$ vuông tại $B$. Theo định lí Pythagore,
+$$SC^2=SB^2+BC^2=25+25=50\Rightarrow SC=5\sqrt2.$$
+
+Vậy $BC\perp(SAB)$, $SB=5$ và $SC=5\sqrt2$.
 
 **Đáp số.** $SB=5$; $SC=5\sqrt2$.
 :::
@@ -255,13 +267,17 @@ d) $BC\perp(SAB)$.
 2. Kiểm tra từng đường có vuông góc với đường thẳng đã cho không.
 
 ::solution
-a) **Sai**: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$ (hoặc $SB$).
+Vì $ABCD$ là hình vuông nên $AC\perp BD$ và $AB\perp BC$. Vì $SA\perp(ABCD)$ nên $SA$ vuông góc với mọi đường thẳng nằm trong $(ABCD)$.
 
-b) **Đúng**: $BD\perp AC$ và $BD\perp SA$.
+a) **Sai.** Nếu $AC\perp(SBD)$ thì $AC\perp SD$. Khi đó $AC$ vuông góc với hai đường thẳng $SA$ và $SD$ cắt nhau tại $S$ trong $(SAD)$, nên $AC\perp(SAD)$ và $AC\perp AD$. Điều này mâu thuẫn vì góc $CAD=45^\circ$. Vậy $AC$ không vuông góc với $(SBD)$.
 
-c) **Sai**: $AD\perp CD$ nhưng $AD$ không vuông góc với $SD$ (vì $SA\perp AD$ và $SA\neq0$ nên góc $SDA$ không vuông).
+b) **Đúng.** Ta có $BD\perp AC$ và $BD\perp SA$ (do $SA\perp(ABCD)$ và $BD\subset(ABCD)$). Hai đường thẳng $AC$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAC)$. Do đó $BD\perp(SAC)$.
 
-d) **Đúng**: $BC\perp AB$ và $BC\perp SA$.
+c) **Sai.** Nếu $AD\perp(SCD)$ thì $AD\perp SD$. Nhưng tam giác $SAD$ vuông tại $A$ (vì $SA\perp AD$) nên góc $SDA$ nhọn, tức là $AD$ không vuông góc với $SD$. Vậy $AD$ không vuông góc với $(SCD)$.
+
+d) **Đúng.** Ta có $BC\perp AB$ và $BC\perp SA$ (do $SA\perp(ABCD)$ và $BC\subset(ABCD)$). Hai đường thẳng $AB$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAB)$. Do đó $BC\perp(SAB)$.
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -277,7 +293,19 @@ Giả sử một cột $SO$ có chân $O$ trên sân phẳng, hai điểm $B$, $
 2. Chú ý $OB$, $OC$ có cắt nhau không.
 
 ::solution
-$SO^2+OB^2=81+144=225=SB^2$ nên $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$ nên $SO\perp OC$. $OB$, $OC$ cắt nhau tại $O$ nên $SO\perp(\text{sân})$.
+Ta kiểm tra $SO$ có vuông góc với hai đường thẳng cắt nhau của mặt sân hay không.
+
+Xét tam giác $SOB$ có
+$$SO^2+OB^2=9^2+12^2=81+144=225=15^2=SB^2.$$
+Theo định lí Pythagore đảo, tam giác $SOB$ vuông tại $O$, tức là $SO\perp OB$.
+
+Xét tam giác $SOC$ có
+$$SO^2+OC^2=9^2+40^2=81+1600=1681=41^2=SC^2.$$
+Theo định lí Pythagore đảo, tam giác $SOC$ vuông tại $O$, tức là $SO\perp OC$.
+
+Vì $O$, $B$, $C$ không thẳng hàng nên $OB$ và $OC$ là hai đường thẳng cắt nhau tại $O$ và cùng nằm trên mặt sân. Do đó $SO$ vuông góc với mặt sân.
+
+Vậy cột vuông góc với mặt sân.
 
 **Đáp số.** Có, cột vuông góc với mặt sân.
 :::
@@ -293,8 +321,13 @@ Giả sử một căn phòng hình hộp chữ nhật $ABCD.A'B'C'D'$ có sàn $
 2. Dùng định lí Pythagore trong tam giác $A'AC$ vuông tại $A$.
 
 ::solution
-$AC^2=6^2+4^2=52$. Vì $AA'\perp(ABCD)$ nên $AA'\perp AC$, tam giác $A'AC$ vuông tại $A$ và
-$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7{,}8.$$
+Sàn $ABCD$ là hình chữ nhật có $AB=6$ m, $AD=4$ m. Xét tam giác $ABC$ vuông tại $B$ (hoặc tam giác $ABD$), ta có
+$$AC^2=AB^2+BC^2=6^2+4^2=52.$$
+
+Vì $AA'\perp(ABCD)$ và $AC\subset(ABCD)$ nên $AA'\perp AC$, tam giác $A'AC$ vuông tại $A$. Theo định lí Pythagore,
+$$A'C^2=AA'^2+AC^2=3^2+52=61\Rightarrow A'C=\sqrt{61}\approx7{,}8.$$
+
+Vậy sợi dây dài khoảng $7{,}8$ m.
 
 **Đáp số.** Khoảng $7{,}8$ m.
 :::
@@ -310,9 +343,14 @@ Giả sử một mái chóp có dạng hình chóp $S.ABCD$ với đáy $ABCD$ l
 2. Tính $OA$ rồi $SO$ trong tam giác $SOA$ vuông tại $O$.
 
 ::solution
-Tam giác $SAC$ cân tại $S$ có $SO$ là trung tuyến ($O$ là trung điểm $AC$) nên $SO\perp AC$. Tương tự $SO\perp BD$. $AC$, $BD$ cắt nhau tại $O$ nên $SO\perp(ABCD)$.
+Chứng minh $SO\perp(ABCD)$. Vì $ABCD$ là hình vuông tâm $O$ nên $O$ là trung điểm của $AC$ và của $BD$.
 
-$AC=6\sqrt2$ nên $OA=3\sqrt2$ và $OA^2=18$. Tam giác $SOA$ vuông tại $O$ nên $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2{,}6$.
+Tam giác $SAC$ có $SA=SC$ nên cân tại $S$, và $SO$ là trung tuyến nên cũng là đường cao: $SO\perp AC$. Tương tự, tam giác $SBD$ có $SB=SD$ nên cân tại $S$, và $SO$ là trung tuyến nên $SO\perp BD$. Hai đường thẳng $AC$, $BD$ cắt nhau tại $O$ và cùng nằm trong $(ABCD)$. Do đó $SO\perp(ABCD)$.
+
+Tính $SO$. Hình vuông cạnh $6$ m có đường chéo $AC=6\sqrt2$ m, nên $OA=\dfrac{AC}{2}=3\sqrt2$ và $OA^2=18$. Vì $SO\perp(ABCD)$ và $OA\subset(ABCD)$ nên tam giác $SOA$ vuông tại $O$. Theo định lí Pythagore,
+$$SO^2=SA^2-OA^2=25-18=7\Rightarrow SO=\sqrt7\approx2{,}6.$$
+
+Vậy $SO\perp(ABCD)$ và chiều cao $SO$ khoảng $2{,}6$ m.
 
 **Đáp số.** $SO\perp(ABCD)$; $SO\approx2{,}6$ m.
 :::
@@ -328,7 +366,13 @@ $AC=6\sqrt2$ nên $OA=3\sqrt2$ và $OA^2=18$. Tam giác $SOA$ vuông tại $O$ n
 2. Kết luận về $SC$.
 
 ::solution
-$BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$. Vì $SC\subset(SAC)$ nên $BD\perp SC$, tức góc giữa $SC$ và $BD$ bằng $90^\circ$.
+Góc giữa hai đường thẳng $SC$ và $BD$ bằng $90^\circ$ nếu $SC\perp BD$. Ta chứng minh điều này.
+
+Vì $ABCD$ là hình vuông nên $BD\perp AC$. Vì $SA\perp(ABCD)$ và $BD\subset(ABCD)$ nên $BD\perp SA$. Hai đường thẳng $AC$, $SA$ cắt nhau tại $A$ và cùng nằm trong $(SAC)$. Do đó $BD\perp(SAC)$.
+
+Vì $SC\subset(SAC)$ nên $BD\perp SC$.
+
+Vậy góc giữa hai đường thẳng $SC$ và $BD$ bằng $90^\circ$.
 
 **Đáp số.** $90^\circ$.
 :::
@@ -344,7 +388,15 @@ Cho tứ diện $ABCD$ có $AB=AC$ và $DB=DC$. Chứng minh $AD\perp BC$.
 2. Suy ra $BC\perp(ADM)$.
 
 ::solution
-Gọi $M$ là trung điểm $BC$. Tam giác $ABC$ cân tại $A$ nên $AM\perp BC$. Tam giác $DBC$ cân tại $D$ nên $DM\perp BC$. $AM$, $DM$ cắt nhau tại $M$ trong $(ADM)$ nên $BC\perp(ADM)$. Vì $AD\subset(ADM)$ nên $BC\perp AD$.
+Gọi $M$ là trung điểm của $BC$.
+
+Tam giác $ABC$ có $AB=AC$ nên cân tại $A$, và $AM$ là trung tuyến nên cũng là đường cao: $AM\perp BC$. Tam giác $DBC$ có $DB=DC$ nên cân tại $D$, và $DM$ là trung tuyến nên $DM\perp BC$.
+
+Vì $ABCD$ là tứ diện nên $D$ không thuộc $(ABC)$, mà $A$, $M$ thuộc $(ABC)$ nên ba điểm $A$, $D$, $M$ không thẳng hàng. Do đó $AM$, $DM$ là hai đường thẳng cắt nhau tại $M$ và cùng nằm trong $(ADM)$. Vì $BC$ vuông góc với cả hai nên $BC\perp(ADM)$.
+
+Vì $AD\subset(ADM)$ nên $BC\perp AD$.
+
+Vậy $AD\perp BC$.
 
 **Đáp số.** $AD\perp BC$.
 :::

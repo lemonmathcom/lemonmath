@@ -142,7 +142,13 @@ What shape is a wall clock face?
 2. Does it have sides and corners?
 
 ::solution
-The edge of the clock is round, with no sides.
+We look at the face of a wall clock.
+
+The edge of the clock face is round, with no sides.
+
+A shape with a round edge and no sides is a circle.
+
+So a wall clock face is a circle.
 
 **Answer.** A circle.
 :::
@@ -158,7 +164,11 @@ What shape has $3$ sides?
 2. Which shape has $3$ sides?
 
 ::solution
-A triangle has $3$ sides.
+We compare the number of sides of the shapes we know: a circle has no sides; a square and a rectangle have $4$ sides; a triangle has $3$ sides.
+
+The shape with $3$ sides is the triangle.
+
+So the shape that has $3$ sides is a triangle.
 
 **Answer.** A triangle.
 :::
@@ -174,7 +184,13 @@ Remember the last lesson. a) $8$ cakes are shared between two plates. The first 
 2. Remember what a square looks like.
 
 ::solution
-a) From $5$ to $8$ is $3$ numbers. b) A shape with $4$ sides of the same length is a square.
+a) The first plate has $5$ cakes, so the number of cakes on the second plate is what is left after taking $5$ away from $8$:
+$$8-5=3\ \text{(cakes)}.$$
+Check: counting on from $5$, "six, seven, eight", gives $3$ numbers, and $5+3=8$. Hence $8$ is made of $5$ and $3$.
+
+b) A rectangle also has $4$ sides, but it has two long sides and two short sides. The shape with all $4$ sides of the same length is a square.
+
+So $8$ is made of $5$ and $3$; the shape with $4$ sides of the same length is a square.
 
 **Answer.** a) $3$. b) A square.
 :::
@@ -191,7 +207,12 @@ b) How many sides does a rectangle have?
 2. Count the sides of a rectangle.
 
 ::solution
-a) A circle has no sides. b) A rectangle has $4$ sides.
+a) A square has $4$ sides, a triangle has $3$ sides, and a circle has a curved edge, so it has no sides. Hence the circle is the shape with no sides.
+
+b) A rectangle has two long sides and two short sides, so in all it has
+$$2+2=4\ \text{(sides)}.$$
+
+So a) the circle has no sides; b) a rectangle has $4$ sides.
 
 **Answer.** a) A circle. b) $4$ sides.
 :::
@@ -207,7 +228,13 @@ An says: "A sheet of paper has $4$ sides, two long and two short, so it is a squ
 2. Choose the right name.
 
 ::solution
-The paper has long sides and short sides, so the sides are not all the same. An is wrong.
+To find out whether the paper is a square, we recall that a square has $4$ sides of the same length.
+
+An's sheet of paper has two long sides and two short sides, so the sides are not all the same length.
+
+A shape with $4$ sides, two long and two short, is a rectangle.
+
+So An is wrong; the paper is a rectangle.
 
 **Answer.** No. The paper is a rectangle.
 :::
@@ -223,7 +250,13 @@ Mai says: "A triangle has $4$ sides." Where did Mai go wrong? Say it correctly.
 2. Compare with Mai's number.
 
 ::solution
-A triangle has only $3$ sides, not $4$.
+We count the sides of a triangle: a triangle has $3$ sides.
+
+Mai says a triangle has $4$ sides, which is not right, because a triangle has only $3$ sides. A shape with $4$ sides is a square or a rectangle.
+
+Mai should say it again: a triangle has $3$ sides.
+
+So Mai went wrong by saying the number of sides is $4$; the correct sentence is: a triangle has $3$ sides.
 
 **Answer.** A triangle has $3$ sides.
 :::
@@ -248,7 +281,13 @@ b) Which shape is there least of?
 2. Find the greatest and the least.
 
 ::solution
-a) The greatest number is $5$, for circles. b) The least number is $2$, for triangles.
+From the table, the number of each shape is: squares $3$, circles $5$, triangles $2$, rectangles $4$.
+
+a) Comparing the numbers $3$, $5$, $2$, $4$, we have $5>4>3>2$, so the greatest number is $5$. The number $5$ is for circles, so there are most circles.
+
+b) Among these numbers, the least is $2$. The number $2$ is for triangles, so there are fewest triangles.
+
+So there are most circles and fewest triangles.
 
 **Answer.** a) Circles. b) Triangles.
 :::
@@ -266,9 +305,15 @@ You cut a square sheet of paper along a straight line joining two opposite corne
 2. How many sides does each part have?
 
 ::solution
-The cut splits the square into $2$ parts. Each part has $3$ sides.
+You cut the square sheet of paper along a straight line joining two opposite corners.
 
-**Check.** The two pieces fit back together to make the square.
+The cut splits the square into $2$ parts, so you get $2$ pieces.
+
+Each piece has $3$ sides: two of them are sides of the square and one is the cutting line. A shape with $3$ sides is a triangle.
+
+Check: the two pieces fit back together to make the square.
+
+So you get $2$ pieces, each a triangle.
 
 **Answer.** $2$ pieces, each a triangle.
 :::

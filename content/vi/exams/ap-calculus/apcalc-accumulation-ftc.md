@@ -146,7 +146,22 @@ Với $f(x)=x^2$ trên $[0,3]$, tính tổng Riemann trái và phải với ba k
 2. Giá trị đúng: $\left[\dfrac{x^3}{3}\right]_0^3$.
 
 ::solution
-Tổng trái bằng $5$, tổng phải bằng $14$, giá trị đúng bằng $9$. Đúng như dự đoán với hàm đồng biến: $5<9<14$.
+Chia đoạn $[0; 3]$ thành ba khoảng bằng nhau, mỗi khoảng có độ rộng $\Delta x=\dfrac{3-0}{3}=1$, đó là $[0; 1]$, $[1; 2]$, $[2; 3]$.
+
+Tổng Riemann trái dùng giá trị của $f$ tại đầu mút trái $x=0$, $1$, $2$ của các khoảng:
+$$L_3=1\cdot\left[f(0)+f(1)+f(2)\right]=0+1+4=5.$$
+
+Tổng Riemann phải dùng giá trị của $f$ tại đầu mút phải $x=1$, $2$, $3$:
+$$R_3=1\cdot\left[f(1)+f(2)+f(3)\right]=1+4+9=14.$$
+
+Giá trị đúng của tích phân là
+$$\int_0^3x^2\,dx=\left.\frac{x^3}{3}\right|_0^3=\frac{27}{3}-0=9.$$
+
+Hàm số $f(x)=x^2$ đồng biến trên $[0; 3]$ nên trên mỗi khoảng, giá trị tại đầu mút trái nhỏ nhất và giá trị tại đầu mút phải lớn nhất. Do đó tổng trái nhỏ hơn giá trị đúng và tổng phải lớn hơn giá trị đúng, và quả thật $5<9<14$.
+
+Vậy tổng Riemann trái bằng $5$, tổng Riemann phải bằng $14$ và giá trị đúng bằng $9$; kết quả $5<9<14$ phù hợp với hàm đồng biến.
+
+**Đáp số.** Tổng trái $5$; tổng phải $14$; giá trị đúng $9$.
 :::
 
 :::exercise Trắc nghiệm
@@ -163,7 +178,12 @@ D. $2$
 1. $-\cos\pi-(-\cos0)$.
 
 ::solution
-$-(-1)+1=2$: đáp án **D**.
+Một nguyên hàm của $\sin x$ là $-\cos x$. Theo công thức Newton–Leibniz, ta có
+$$\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-\cos\pi-(-\cos0)=-(-1)+1=2.$$
+
+Vậy chọn **D**.
+
+**Đáp số.** D.
 :::
 
 :::exercise Tự luận
@@ -173,7 +193,17 @@ Cho $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$. Tính $F'(2)$ và $F(1)$.
 **Cần nhớ:** Phần 1 của định lí cơ bản, và tích phân từ $1$ đến $1$.
 
 ::solution
-$F'(x)=x^3+1$, nên $F'(2)=9$. $F(1)=0$ vì khoảng lấy tích phân có độ rộng bằng không.
+Hàm số $t^3+1$ liên tục trên $\mathbb{R}$ nên theo định lí cơ bản của giải tích, $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$ có đạo hàm
+$$F'(x)=x^3+1.$$
+
+Thay $x=2$, ta được $F'(2)=2^3+1=9$.
+
+Với $x=1$, hai cận của tích phân trùng nhau nên khoảng lấy tích phân có độ rộng bằng không:
+$$F(1)=\int_1^1\left(t^3+1\right)dt=0.$$
+
+Vậy $F'(2)=9$ và $F(1)=0$.
+
+**Đáp số.** $F'(2)=9$; $F(1)=0$.
 :::
 
 :::exercise Trắc nghiệm
@@ -191,7 +221,17 @@ D. $14$
 2. $\displaystyle\int_2^51\,dx=3$.
 
 ::solution
-$2(4)+3=11$: đáp án **B**. Phương án A quên số hạng $+1$.
+Theo tính chất cộng của tích phân, $\displaystyle\int_0^5f(x)\,dx=\int_0^2f(x)\,dx+\int_2^5f(x)\,dx$. Do đó
+$$\int_2^5f(x)\,dx=7-3=4.$$
+
+Theo tính chất tuyến tính của tích phân, ta có
+$$\int_2^5\big(2f(x)+1\big)\,dx=2\int_2^5f(x)\,dx+\int_2^5 1\,dx=2\cdot4+(5-2)=8+3=11.$$
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án A quên số hạng $+1$ (số hạng này đóng góp $\displaystyle\int_2^51\,dx=3$ vào kết quả).
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -205,7 +245,21 @@ Xấp xỉ $\displaystyle\int_0^4x^2\,dx$ bằng tổng điểm giữa với hai
 2. Giá trị đúng: $\dfrac{64}{3}$.
 
 ::solution
-Tổng điểm giữa bằng $2(1+9)=20$, còn giá trị đúng là $\dfrac{64}{3}\approx21{,}33$, nên giá trị xấp xỉ nhỏ hơn. Với hàm lõm lên, tổng điểm giữa luôn nhỏ hơn giá trị thật.
+Chia $[0; 4]$ thành hai khoảng bằng nhau $[0; 2]$ và $[2; 4]$, mỗi khoảng có độ rộng $\Delta x=2$. Điểm giữa của hai khoảng là $x=1$ và $x=3$.
+
+Tổng điểm giữa là
+$$M=2\left[f(1)+f(3)\right]=2\left(1^2+3^2\right)=2(1+9)=20.$$
+
+Giá trị đúng của tích phân là
+$$\int_0^4x^2\,dx=\left.\frac{x^3}{3}\right|_0^4=\frac{64}{3}\approx21{,}33.$$
+
+Vì $20<\dfrac{64}{3}$ nên giá trị xấp xỉ nhỏ hơn giá trị thật.
+
+Giải thích: hàm $f(x)=x^2$ lõm lên (vì $f''(x)=2>0$). Trên mỗi khoảng, tiếp tuyến tại điểm giữa nằm dưới đồ thị, và diện tích hình thang dưới tiếp tuyến đó bằng diện tích hình chữ nhật điểm giữa. Vì vậy với hàm lõm lên, tổng điểm giữa luôn nhỏ hơn giá trị thật.
+
+Vậy giá trị xấp xỉ bằng $20$, và nó nhỏ hơn giá trị thật $\dfrac{64}{3}$.
+
+**Đáp số.** $20$; nhỏ hơn giá trị thật.
 :::
 
 ## Bài tập vận dụng
@@ -223,9 +277,25 @@ b) Lượng nước ít nhất vào lúc nào và bằng bao nhiêu? Giải thí
 2. $4t-10=0$ khi $t=2{,}5$.
 
 ::solution
-a) $50+(128-80)=98$ lít.
+Gọi $A(t)$ (lít) là lượng nước trong bể tại thời điểm $t$ (phút), $0\le t\le8$. Tốc độ thay đổi ròng của lượng nước là
+$$A'(t)=E(t)-10=4t-10\ \text{(lít mỗi phút)},\quad A(0)=50.$$
 
-b) Tốc độ ròng $4t-10$ đổi dấu từ âm sang dương tại $t=2{,}5$. Các ứng viên: $50$ lúc $t=0$, $50+(12{,}5-25)=37{,}5$ lúc $t=2{,}5$, và $98$ lúc $t=8$. Lượng nước ít nhất là $37{,}5$ lít, lúc $t=2{,}5$ phút.
+a) Ta có
+$$A(8)=A(0)+\int_0^8(4t-10)\,dt=50+\Big[2t^2-10t\Big]_0^8=50+(128-80)=98.$$
+Vậy lúc $t=8$ trong bể có $98$ lít nước.
+
+b) Giải $A'(t)=0$: $4t-10=0$, suy ra $t=2{,}5$ (thuộc $[0; 8]$). Ta có $A'(t)<0$ khi $0\le t<2{,}5$ và $A'(t)>0$ khi $2{,}5<t\le8$, nên $A'$ đổi dấu từ âm sang dương tại $t=2{,}5$.
+
+Giá trị nhỏ nhất của $A$ trên $[0; 8]$ đạt tại điểm tới hạn hoặc tại hai đầu mút. Ta so sánh:
+- $A(0)=50$;
+- $A(2{,}5)=50+\Big[2t^2-10t\Big]_0^{2{,}5}=50+(12{,}5-25)=37{,}5$;
+- $A(8)=98$.
+
+Vì $37{,}5<50<98$ nên lượng nước ít nhất là $37{,}5$ lít, đạt lúc $t=2{,}5$ phút.
+
+Vậy lúc $t=8$ trong bể có $98$ lít nước; lượng nước ít nhất là $37{,}5$ lít, vào lúc $t=2{,}5$ phút.
+
+**Đáp số.** a) $98$ lít; b) $37{,}5$ lít lúc $t=2{,}5$ phút.
 :::
 
 :::exercise Vị trí từ vận tốc
@@ -241,9 +311,23 @@ b) Tính tổng quãng đường hạt đi được.
 2. Tách quãng đường tại $t=4$.
 
 ::solution
-a) $\displaystyle\int_0^5v\,dt=125-150=-25$, nên $x(5)=4-25=-21$.
+Vị trí của hạt thoả mãn $x'(t)=v(t)$ và $x(0)=4$.
 
-b) $\displaystyle\int_0^4v\,dt=64-96=-32$ và $\displaystyle\int_4^5v\,dt=-25-(-32)=7$. Quãng đường $=32+7=39$ mét.
+a) Ta có
+$$x(5)=x(0)+\int_0^5v(t)\,dt=4+\int_0^5\left(3t^2-12t\right)dt=4+\Big[t^3-6t^2\Big]_0^5=4+(125-150)=4-25=-21.$$
+Vậy $x(5)=-21$ (mét).
+
+b) Tổng quãng đường là $\displaystyle\int_0^5|v(t)|\,dt$. Ta xét dấu của $v(t)=3t(t-4)$: $v(t)=0$ khi $t=0$ hoặc $t=4$; $v(t)<0$ khi $0<t<4$ và $v(t)>0$ khi $4<t\le5$. Do đó hạt đi theo chiều âm trong $4$ giây đầu rồi đổi chiều.
+
+Ta tính
+$$\int_0^4v\,dt=\Big[t^3-6t^2\Big]_0^4=64-96=-32,\qquad\int_4^5v\,dt=\int_0^5v\,dt-\int_0^4v\,dt=-25-(-32)=7.$$
+
+Quãng đường là
+$$\int_0^5|v|\,dt=-\int_0^4v\,dt+\int_4^5v\,dt=32+7=39\ \text{(mét)}.$$
+
+Vậy $x(5)=-21$ mét và tổng quãng đường hạt đi được là $39$ mét.
+
+**Đáp số.** a) $-21$ mét; b) $39$ mét.
 :::
 
 :::exercise Hai cận đều thay đổi
@@ -257,7 +341,20 @@ Cho $F(x)=\displaystyle\int_x^{2x}t^2\,dt$. Tìm $F'(x)$ bằng hai cách: dùng
 2. Tính trực tiếp: $F(x)=\dfrac{(2x)^3-x^3}{3}$.
 
 ::solution
-Định lí cơ bản: $F'(x)=8x^2-x^2=7x^2$. Tính trực tiếp: $F(x)=\dfrac{7x^3}{3}$, nên $F'(x)=7x^2$. Hai cách cho cùng kết quả.
+Cách 1: dùng định lí cơ bản của giải tích. Đặt $G(u)=\displaystyle\int_0^ut^2\,dt$. Vì $t^2$ liên tục nên $G'(u)=u^2$. Ta có
+$$F(x)=\int_x^{2x}t^2\,dt=G(2x)-G(x).$$
+
+Lấy đạo hàm, áp dụng quy tắc đạo hàm hàm hợp cho $G(2x)$, ta được
+$$F'(x)=2G'(2x)-G'(x)=2(2x)^2-x^2=8x^2-x^2=7x^2.$$
+
+Cách 2: tính tích phân trước. Ta có
+$$F(x)=\left.\frac{t^3}{3}\right|_x^{2x}=\frac{(2x)^3}{3}-\frac{x^3}{3}=\frac{8x^3-x^3}{3}=\frac{7x^3}{3}.$$
+
+Suy ra $F'(x)=\dfrac{7\cdot3x^2}{3}=7x^2$.
+
+Vậy cả hai cách đều cho cùng kết quả $F'(x)=7x^2$.
+
+**Đáp số.** $F'(x)=7x^2$.
 :::
 
 :::exercise Thử thách
@@ -273,7 +370,16 @@ Dùng tổng hình thang để ước lượng quãng đường ô tô đi đư�
 **Cần nhớ:** bốn hình thang có độ rộng $10$; vị trí của dây cung so với một đồ thị lõm xuống.
 
 ::solution
-$10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\dfrac{18+20}{2}=40+110+160+190=500$ mét. Với đồ thị lõm xuống, mỗi dây cung nằm dưới đồ thị, nên $500$ mét nhỏ hơn giá trị thật.
+Các giá trị $v(t)$ được ghi lại sau mỗi $10$ giây nên mỗi hình thang có độ rộng $\Delta t=10$. Quãng đường đi được là $\displaystyle\int_0^{40}v(t)\,dt$. Tổng hình thang ước lượng nó bằng tổng diện tích bốn hình thang:
+$$\begin{aligned}T&=10\cdot\frac{0+8}{2}+10\cdot\frac{8+14}{2}+10\cdot\frac{14+18}{2}+10\cdot\frac{18+20}{2}\\&=40+110+160+190=500.\end{aligned}$$
+
+Vậy quãng đường ước lượng là $500$ mét.
+
+Nếu đồ thị của $v$ lõm xuống thì trên mỗi khoảng, dây cung nối hai điểm ghi nhận được nằm dưới đồ thị. Do đó mỗi hình thang có diện tích nhỏ hơn diện tích dưới đồ thị tương ứng.
+
+Vậy ước lượng $500$ mét nhỏ hơn giá trị thật.
+
+**Đáp số.** $500$ mét; nhỏ hơn giá trị thật.
 :::
 
 :::quiz

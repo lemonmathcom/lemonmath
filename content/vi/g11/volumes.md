@@ -183,9 +183,12 @@ Một khối lập phương có cạnh $4$. Tính thể tích. Một khối hộ
 2. Tính đường chéo, rồi thể tích khối hộp chữ nhật.
 
 ::solution
-Khối lập phương: $V=4^3=64$.
+Khối lập phương cạnh $a$ có thể tích $V=a^3$. Với $a=4$, ta có $V=4^3=64$.
 
-Khối hộp chữ nhật: đường chéo $\sqrt{9+16+144}=\sqrt{169}=13$ và $V=3\cdot4\cdot12=144$.
+Khối hộp chữ nhật có ba kích thước $a$, $b$, $c$ có đường chéo $d=\sqrt{a^2+b^2+c^2}$ và thể tích $V=abc$. Với $a=3$, $b=4$, $c=12$, ta có
+$$d=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13,\qquad V=3\cdot4\cdot12=144.$$
+
+Vậy khối lập phương có thể tích $64$; khối hộp chữ nhật có đường chéo $13$ và thể tích $144$.
 
 **Đáp số.** $64$; đường chéo $13$ và thể tích $144$.
 :::
@@ -201,7 +204,15 @@ Một khối lăng trụ đứng có đáy là tam giác vuông với hai cạnh
 2. Nhân với chiều cao.
 
 ::solution
-$B=\dfrac12\cdot3\cdot4=6$ và $V=6\cdot10=60$.
+Thể tích khối lăng trụ đứng là $V=B\cdot h$, trong đó $B$ là diện tích đáy và $h$ là chiều cao.
+
+Đáy là tam giác vuông có hai cạnh góc vuông $3$ và $4$ nên diện tích đáy là
+$$B=\frac12\cdot3\cdot4=6.$$
+
+Chiều cao là $h=10$, do đó
+$$V=B\cdot h=6\cdot10=60.$$
+
+Vậy thể tích khối lăng trụ là $60$.
 
 **Đáp số.** $60$.
 :::
@@ -217,7 +228,15 @@ Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và bằng $
 2. Dùng $V=\dfrac13Bh$ với $h=OA$.
 
 ::solution
-$B=\dfrac12\cdot6\cdot6=18$ và $h=OA=6$ nên $V=\dfrac13\cdot18\cdot6=36$.
+Vì $OA\perp OB$ và $OA\perp OC$ nên $OA\perp(OBC)$. Do đó, nếu lấy $OBC$ làm đáy thì $OA$ là chiều cao của tứ diện: $h=OA=6$.
+
+Tam giác $OBC$ vuông tại $O$ (vì $OB\perp OC$) có $OB=OC=6$ nên diện tích đáy là
+$$B=\frac12\cdot6\cdot6=18.$$
+
+Áp dụng công thức thể tích khối chóp $V=\dfrac13Bh$, ta có
+$$V=\frac13\cdot18\cdot6=36.$$
+
+Vậy thể tích tứ diện $OABC$ là $36$.
 
 **Đáp số.** $36$.
 :::
@@ -241,13 +260,15 @@ d) Thể tích khối chóp cụt đều là $\dfrac13h(B+B')$.
 2. Ở câu c, tính $(2a)^3$.
 
 ::solution
-a) **Đúng**.
+a) **Đúng.** Thể tích khối hộp chữ nhật có ba kích thước $a$, $b$, $c$ là $V=abc$.
 
-b) **Sai**: phải có hệ số $\dfrac13$.
+b) **Sai.** Thể tích khối chóp có diện tích đáy $B$ và chiều cao $h$ là $V=\dfrac13Bh$, không phải $Bh$ (công thức $Bh$ là của khối lăng trụ). Phải có hệ số $\dfrac13$.
 
-c) **Đúng**: $(2a)^3=8a^3$.
+c) **Đúng.** Gọi cạnh khối lập phương là $a$, thể tích là $V=a^3$. Khi cạnh tăng gấp đôi, thể tích mới là $(2a)^3=8a^3=8V$, tức là tăng gấp $8$ lần.
 
-d) **Sai**: thiếu số hạng $\sqrt{BB'}$.
+d) **Sai.** Thể tích khối chóp cụt đều có hai đáy $B$, $B'$ và chiều cao $h$ là $V=\dfrac13h\left(B+\sqrt{BB'}+B'\right)$. Công thức đã cho thiếu số hạng $\sqrt{BB'}$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -263,7 +284,13 @@ Giả sử một bể nước có dạng khối hộp chữ nhật với đáy $
 2. Chia cho tốc độ bơm.
 
 ::solution
-$V=2\cdot1{,}5\cdot1{,}2=3{,}6$ m$^3$. Thời gian là $\dfrac{3{,}6}{0{,}6}=6$ phút.
+Bể nước có dạng khối hộp chữ nhật với đáy $2$ m $\times1{,}5$ m và cao $1{,}2$ m. Thể tích nước bể chứa được là
+$$V=2\cdot1{,}5\cdot1{,}2=3{,}6\ \text{m}^3.$$
+
+Máy bơm đổ đầy bể với tốc độ $0{,}6$ m$^3$ mỗi phút nên thời gian cần để đầy bể là
+$$\frac{V}{0{,}6}=\frac{3{,}6}{0{,}6}=6\ \text{(phút)}.$$
+
+Vậy bể chứa được $3{,}6$ m$^3$ nước và máy bơm cần $6$ phút để đổ đầy bể.
 
 **Đáp số.** $3{,}6$ m$^3$; $6$ phút.
 :::
@@ -279,7 +306,17 @@ Giả sử một mái chóp có dạng khối chóp đều $S.ABCD$ với đáy 
 2. Dùng $V=\dfrac13Bh$.
 
 ::solution
-$OA=3\sqrt2$ nên $SO=\sqrt{25-18}=\sqrt7$. Diện tích đáy $B=36$. Vậy $V=\dfrac13\cdot36\cdot\sqrt7=12\sqrt7\approx31{,}7$ m$^3$.
+Gọi $O$ là tâm của hình vuông $ABCD$. Vì $S.ABCD$ là khối chóp đều nên $SO\perp(ABCD)$, tức là $SO$ là chiều cao của khối chóp.
+
+Đáy là hình vuông cạnh $6$ m nên đường chéo $AC=6\sqrt2$ và $OA=\dfrac{AC}{2}=3\sqrt2$ (m). Diện tích đáy là $B=6^2=36$ m$^2$.
+
+Tam giác $SOA$ vuông tại $O$, có $SA=5$ nên theo định lí Pythagore,
+$$SO=\sqrt{SA^2-OA^2}=\sqrt{25-18}=\sqrt7\ \text{(m)}.$$
+
+Áp dụng công thức $V=\dfrac13Bh$, ta có
+$$V=\frac13\cdot36\cdot\sqrt7=12\sqrt7\approx31{,}7\ \text{m}^3.$$
+
+Vậy thể tích khoảng không bên trong mái khoảng $31{,}7$ m$^3$.
 
 **Đáp số.** Khoảng $31{,}7$ m$^3$.
 :::
@@ -295,7 +332,15 @@ Cho khối chóp cụt đều có hai đáy là hình vuông cạnh $10$ và $4$
 2. Thay vào công thức.
 
 ::solution
-$B=100$, $B'=16$, $\sqrt{BB'}=40$. $V=\dfrac13\cdot6\cdot(100+40+16)=2\cdot156=312$.
+Thể tích khối chóp cụt đều có hai đáy $B$, $B'$ và chiều cao $h$ là $V=\dfrac13h\left(B+\sqrt{BB'}+B'\right)$.
+
+Hai đáy là hình vuông cạnh $10$ và $4$ nên
+$$B=10^2=100,\qquad B'=4^2=16,\qquad\sqrt{BB'}=\sqrt{1600}=40.$$
+
+Với $h=6$, ta có
+$$V=\frac13\cdot6\cdot(100+40+16)=2\cdot156=312.$$
+
+Vậy thể tích khối chóp cụt đều là $312$.
 
 **Đáp số.** $312$.
 :::
@@ -311,7 +356,14 @@ $B=100$, $B'=16$, $\sqrt{BB'}=40$. $V=\dfrac13\cdot6\cdot(100+40+16)=2\cdot156=3
 2. Đổi ra phần trăm tăng.
 
 ::solution
-Tỉ số thể tích là $1{,}1^3=1{,}331$, tức tăng $33{,}1\%$.
+Gọi $a$ là cạnh ban đầu của khối lập phương, thể tích ban đầu là $V=a^3$.
+
+Cạnh tăng thêm $10\%$ nên cạnh mới là $a'=a+0{,}1a=1{,}1a$. Thể tích mới là
+$$V'=(1{,}1a)^3=1{,}1^3a^3=1{,}331\,a^3=1{,}331\,V.$$
+
+Tỉ số thể tích là $1{,}331$, tức là thể tích mới bằng $133{,}1\%$ thể tích cũ, hay tăng thêm $133{,}1\%-100\%=33{,}1\%$.
+
+Vậy thể tích của khối lập phương tăng thêm $33{,}1\%$.
 
 **Đáp số.** Tăng $33{,}1\%$.
 :::
@@ -327,7 +379,17 @@ Cho khối chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AB=3$, 
 2. Dùng $V=\dfrac13Bh$.
 
 ::solution
-$AC=\sqrt{9+16}=5$. Vì $\widehat{SCA}=45^\circ$ nên tam giác $SAC$ vuông cân tại $A$ và $SA=AC=5$. Diện tích đáy $B=3\cdot4=12$. Vậy $V=\dfrac13\cdot12\cdot5=20$.
+Vì $SA\perp(ABCD)$ nên $AC$ là hình chiếu của $SC$ lên mặt phẳng $(ABCD)$. Do đó góc giữa $SC$ và mặt phẳng $(ABCD)$ là $\widehat{SCA}=45^\circ$.
+
+Đáy $ABCD$ là hình chữ nhật nên tam giác $ABC$ vuông tại $B$, suy ra
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{AB^2+AD^2}=\sqrt{9+16}=5.$$
+
+Vì $SA\perp(ABCD)$ nên $SA\perp AC$, tức là tam giác $SAC$ vuông tại $A$. Tam giác này có $\widehat{SCA}=45^\circ$ nên vuông cân tại $A$, suy ra $SA=AC=5$.
+
+Diện tích đáy là $B=AB\cdot AD=3\cdot4=12$. Chiều cao của khối chóp là $SA=5$, do đó
+$$V=\frac13\cdot12\cdot5=20.$$
+
+Vậy thể tích khối chóp $S.ABCD$ là $20$.
 
 **Đáp số.** $20$.
 :::

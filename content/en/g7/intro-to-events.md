@@ -218,17 +218,19 @@ e) From the same bag, one ball is taken: it is red or blue.
 3. In d) and e), which colours of ball are in the bag?
 
 ::solution
-We check each event: does it happen for every outcome, for none, or for some?
+We check each event: it is certain if it happens for every outcome, impossible if it happens for no outcome, and random if it happens for some outcomes only.
 
-a) The box has only blue cards, so the card drawn is always blue: certain.
+a) The box has only blue cards, so every card drawn is blue. The event always happens: certain.
 
-b) The coin may show heads or tails: random.
+b) The coin may show heads or tails and we cannot know the result in advance. The event may or may not happen: random.
 
-c) A dice has no face with $0$ dots: impossible.
+c) A dice has faces with $1$ to $6$ dots only, and no face with $0$ dots. The event never happens: impossible.
 
-d) The bag has no yellow ball: impossible.
+d) The bag has only red and blue balls and no yellow ball, so a yellow ball cannot be taken: impossible.
 
-e) The bag has only red and blue balls, so the ball taken is always one of those colours: certain.
+e) The bag has only red and blue balls, so the ball taken is always one of those two colours. The event always happens: certain.
+
+So a) certain; b) random; c) impossible; d) impossible; e) certain.
 
 **Answer.** a) certain; b) random; c) impossible; d) impossible; e) certain.
 :::
@@ -251,13 +253,23 @@ c) $C$: "the number of dots is a multiple of $7$".
 3. In c), is any number from $1$ to $6$ a multiple of $7$?
 
 ::solution
-There are $6$ equally likely outcomes: $1$, $2$, $3$, $4$, $5$, $6$.
+Rolling a fair dice gives $6$ equally likely outcomes: $1$, $2$, $3$, $4$, $5$, $6$.
 
-a) The primes are $2$, $3$, $5$ ($3$ outcomes), so $P(A)=\dfrac36=\dfrac12$.
+The probability of an event is the number of favourable outcomes divided by the total number of possible outcomes.
 
-b) The numbers that fit are $3$, $4$, $5$ ($3$ outcomes), so $P(B)=\dfrac36=\dfrac12$.
+a) The prime numbers among these outcomes are $2$, $3$, $5$. There are $3$ favourable outcomes for $A$.
 
-c) No number from $1$ to $6$ is a multiple of $7$, so $C$ is impossible and $P(C)=0$.
+Hence $P(A)=\dfrac36=\dfrac12$.
+
+b) The numbers greater than $2$ and less than $6$ are $3$, $4$, $5$. There are $3$ favourable outcomes for $B$.
+
+Hence $P(B)=\dfrac36=\dfrac12$.
+
+c) No number from $1$ to $6$ is a multiple of $7$, so there is no favourable outcome for $C$. The event $C$ is impossible.
+
+Hence $P(C)=\dfrac06=0$.
+
+So $P(A)=\dfrac12$; $P(B)=\dfrac12$; $P(C)=0$.
 
 **Answer.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
 :::
@@ -274,15 +286,18 @@ A box has $12$ identical cards numbered $1$ to $12$. One card is drawn at random
 3. Compare the two numbers of favourable outcomes.
 
 ::solution
-There are $12$ equally likely outcomes.
+One card is drawn at random from $12$ identical cards, so there are $12$ equally likely outcomes: $1$, $2$, $\dots$, $12$.
 
-The multiples of $3$ are $3$, $6$, $9$, $12$ ($4$ outcomes), so the probability is $\dfrac{4}{12}=\dfrac13$.
+The event "the card is a multiple of $3$": the favourable cards are $3$, $6$, $9$, $12$, that is $4$ outcomes. So the probability is
+$$\frac{4}{12}=\frac13.$$
 
-The primes are $2$, $3$, $5$, $7$, $11$ ($5$ outcomes), so the probability is $\dfrac{5}{12}$.
+The event "the card is a prime number": the favourable cards are $2$, $3$, $5$, $7$, $11$, that is $5$ outcomes. So the probability is $\dfrac{5}{12}$.
 
-No card is greater than $12$, so the probability of the third event is $0$.
+The event "the card is greater than $12$": every card shows a number not exceeding $12$, so there is no favourable outcome. The event is impossible and its probability is $0$.
 
-Since $\dfrac{5}{12}>\dfrac{4}{12}$, the event "a prime number" is more likely.
+Comparing the first two events: $\dfrac{4}{12}<\dfrac{5}{12}$, that is $\dfrac13<\dfrac{5}{12}$.
+
+So the three probabilities are $\dfrac13$, $\dfrac{5}{12}$ and $0$, and the event "a prime number" is more likely than "a multiple of $3$".
 
 **Answer.** $\dfrac13$; $\dfrac{5}{12}$; $0$; "a prime number" is more likely.
 :::
@@ -305,13 +320,16 @@ c) Which colour is the most likely to be taken?
 3. In c), compare the number of balls of each colour.
 
 ::solution
-The total number of balls is $4+3+2+1=10$, so there are $10$ equally likely outcomes.
+The total number of balls in the bag is $4+3+2+1=10$. The balls are all the same size, so taking one at random gives $10$ equally likely outcomes.
 
-a) There are $4$ red balls, so the probability is $\dfrac{4}{10}=\dfrac25$.
+a) There are $4$ red balls, so there are $4$ favourable outcomes. Hence the probability of taking a red ball is
+$$\frac{4}{10}=\frac25.$$
 
-b) The number of balls that are not blue is $10-3=7$, so the probability is $\dfrac{7}{10}$.
+b) The number of balls that are not blue is $10-3=7$. Hence the probability of taking a ball that is not blue is $\dfrac{7}{10}$.
 
-c) Red has the most balls ($4$), so red is the most likely colour to be taken.
+c) The numbers of balls of each colour are: red $4$, blue $3$, yellow $2$, white $1$. Red has the most balls, so the probability of taking a red ball is the greatest.
+
+So the probability of a red ball is $\dfrac25$, the probability of a ball that is not blue is $\dfrac{7}{10}$, and red is the most likely colour to be taken.
 
 **Answer.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) red.
 :::
@@ -353,15 +371,20 @@ Lan and Minh play a game by drawing one card from a box of $10$ identical cards 
 3. Find a new rule for Minh with $5$ favourable cards.
 
 ::solution
-There are $10$ equally likely outcomes.
+Drawing one card from $10$ identical cards gives $10$ equally likely outcomes: $1$, $2$, $\dots$, $10$.
 
-Lan wins with the cards $1$, $3$, $5$, $7$, $9$ ($5$ outcomes), so the probability is $\dfrac{5}{10}=\dfrac12$.
+Lan wins when the card is odd, that is the cards $1$, $3$, $5$, $7$, $9$. There are $5$ favourable outcomes, so the probability that Lan wins is
+$$\frac{5}{10}=\frac12.$$
 
-Minh wins with the cards $8$, $9$, $10$ ($3$ outcomes), so the probability is $\dfrac{3}{10}$.
+Minh wins when the card is greater than $7$, that is the cards $8$, $9$, $10$. There are $3$ favourable outcomes, so the probability that Minh wins is $\dfrac{3}{10}$.
 
 Since $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$, Lan has the advantage.
 
-If Minh wins when the card is "greater than $5$" (cards $6$, $7$, $8$, $9$, $10$), his probability is $\dfrac{5}{10}=\dfrac12$ and the game is fair.
+For the game to be fair, Minh's probability must equal $\dfrac{5}{10}=\dfrac12$, so he needs $5$ favourable cards. If Minh wins when the card is greater than $5$ (the cards $6$, $7$, $8$, $9$, $10$), there are $5$ favourable outcomes and his probability is $\dfrac{5}{10}=\dfrac12$.
+
+Then both players have the same probability of winning.
+
+So Lan has the advantage; changing Minh's rule to "a card greater than $5$" makes the game fair.
 
 **Answer.** Lan has the advantage; change Minh's rule to "a card greater than $5$".
 :::
@@ -378,13 +401,17 @@ Class 7A has $40$ students: $24$ girls and $16$ boys. The teacher chooses one st
 3. Change the fraction to a percentage by writing it over $100$.
 
 ::solution
-There are $40$ equally likely outcomes.
+The class has $40$ students and one is chosen at random, so there are $40$ equally likely outcomes.
 
-The probability of choosing a girl is $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+There are $24$ girls, so the probability of choosing a girl is
+$$\frac{24}{40}=\frac35=\frac{60}{100}=60\%.$$
 
-The probability of choosing a boy is $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+There are $16$ boys, so the probability of choosing a boy is
+$$\frac{16}{40}=\frac25=\frac{40}{100}=40\%.$$
 
 Check: $60\%+40\%=100\%$, because the student chosen is certainly a girl or a boy.
+
+So the probability of choosing a girl is $\dfrac35=60\%$ and the probability of choosing a boy is $\dfrac25=40\%$.
 
 **Answer.** Girl: $\dfrac35=60\%$; boy: $\dfrac25=40\%$.
 :::
@@ -405,11 +432,23 @@ b) What is the probability of winning no prize?
 3. The number of "No prize" sections is what is left of the $10$.
 
 ::solution
-a) A probability of $\dfrac{1}{10}$ needs $1$ section. A probability of $\dfrac15=\dfrac{2}{10}$ needs $2$ sections. A probability of $\dfrac{3}{10}$ needs $3$ sections. The number of "No prize" sections is $10-1-2-3=4$.
+The spinner has $10$ equal sections, so the probability of a kind of prize equals the number of sections of that kind divided by $10$.
 
-b) The probability of winning no prize is $\dfrac{4}{10}=\dfrac25$.
+a) The probability of First prize is $\dfrac{1}{10}$, so $1$ First prize section is needed.
+
+The probability of Second prize is $\dfrac15=\dfrac{2}{10}$, so $2$ Second prize sections are needed.
+
+The probability of Third prize is $\dfrac{3}{10}$, so $3$ Third prize sections are needed.
+
+The number of "No prize" sections is
+$$10-1-2-3=4.$$
+
+b) There are $4$ "No prize" sections out of $10$, so the probability of winning no prize is
+$$\frac{4}{10}=\frac25.$$
 
 Check: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+So $1$ First prize section, $2$ Second prize sections, $3$ Third prize sections and $4$ "No prize" sections are needed; the probability of winning no prize is $\dfrac25$.
 
 **Answer.** a) First prize $1$ section, Second prize $2$, Third prize $3$, No prize $4$. b) $\dfrac25$.
 :::

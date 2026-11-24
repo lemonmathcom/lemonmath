@@ -225,11 +225,14 @@ Rút gọn $i^{2027}$.
 **Kiến thức:** các luỹ thừa của $i$ lặp lại sau mỗi $4$ lần; tìm số dư khi chia $2027$ cho $4$.
 
 ::solution
-Chia $2027$ cho $4$, ta được $2027=4\times506+3$.
+Các luỹ thừa của $i$ lặp lại theo chu kì $4$ vì $i^4=1$, nên ta chia số mũ cho $4$.
 
-Vì $i^4=1$ nên $i^{2027}=\left(i^4\right)^{506}\cdot i^3=i^3$.
+Ta có $2027=4\times506+3$.
 
-Mặt khác $i^3=i^2\cdot i=-i$.
+Vì $i^4=1$ nên
+$$i^{2027}=i^{4\cdot506+3}=\left(i^4\right)^{506}\cdot i^3=1^{506}\cdot i^3=i^3.$$
+
+Mặt khác, $i^2=-1$ nên $i^3=i^2\cdot i=-i$.
 
 Vậy $i^{2027}=-i$.
 

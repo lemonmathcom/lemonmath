@@ -174,8 +174,17 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi cộng lần lượt từ phải sang trái.
+
 $$\begin{array}{r} 23\,145 \\ +\ 61\,432 \\ \hline 84\,577 \end{array}$$
-Không có hàng nào đủ $10$ nên không phải nhớ.
+
+Hàng đơn vị: $5+2=7$, viết $7$. Hàng chục: $4+3=7$, viết $7$. Hàng trăm: $1+4=5$, viết $5$. Hàng nghìn: $3+1=4$, viết $4$. Hàng chục nghìn: $2+6=8$, viết $8$.
+
+Không có hàng nào có tổng đủ $10$ nên không phải nhớ.
+
+Thử lại: $84\,577-61\,432=23\,145$. Đúng.
+
+Vậy $23\,145+61\,432=84\,577$.
 
 **Đáp số.** $84\,577$.
 :::
@@ -191,8 +200,23 @@ Không có hàng nào đủ $10$ nên không phải nhớ.
 2. Cộng từng hàng, nhớ khi cần.
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi cộng lần lượt từ phải sang trái.
+
 $$\begin{array}{r} 36\,758 \\ +\ 27\,495 \\ \hline 64\,253 \end{array}$$
-Hàng đơn vị: $8+5=13$, viết $3$ nhớ $1$. Hàng chục: $5+9+1=15$, viết $5$ nhớ $1$. Hàng trăm: $7+4+1=12$, viết $2$ nhớ $1$. Hàng nghìn: $6+7+1=14$, viết $4$ nhớ $1$. Hàng chục nghìn: $3+2+1=6$.
+
+Hàng đơn vị: $8+5=13$, viết $3$ nhớ $1$.
+
+Hàng chục: $5+9+1=15$, viết $5$ nhớ $1$.
+
+Hàng trăm: $7+4+1=12$, viết $2$ nhớ $1$.
+
+Hàng nghìn: $6+7+1=14$, viết $4$ nhớ $1$.
+
+Hàng chục nghìn: $3+2+1=6$, viết $6$.
+
+Thử lại: $64\,253-27\,495=36\,758$. Đúng.
+
+Vậy $36\,758+27\,495=64\,253$.
 
 **Đáp số.** $64\,253$.
 :::
@@ -208,8 +232,17 @@ Hàng đơn vị: $8+5=13$, viết $3$ nhớ $1$. Hàng chục: $5+9+1=15$, vi�
 2. Trừ từng hàng, bắt đầu từ hàng đơn vị.
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi trừ lần lượt từ phải sang trái.
+
 $$\begin{array}{r} 87\,649 \\ -\ 25\,317 \\ \hline 62\,332 \end{array}$$
-Không có hàng nào phải nhớ.
+
+Hàng đơn vị: $9-7=2$, viết $2$. Hàng chục: $4-1=3$, viết $3$. Hàng trăm: $6-3=3$, viết $3$. Hàng nghìn: $7-5=2$, viết $2$. Hàng chục nghìn: $8-2=6$, viết $6$.
+
+Ở mỗi hàng, chữ số của số bị trừ đều không bé hơn chữ số của số trừ nên không phải nhớ.
+
+Thử lại: $62\,332+25\,317=87\,649$. Đúng.
+
+Vậy $87\,649-25\,317=62\,332$.
 
 **Đáp số.** $62\,332$.
 :::
@@ -225,8 +258,23 @@ Không có hàng nào phải nhớ.
 2. Ở mỗi hàng, thêm $1$ vào chữ số ở số trừ rồi mới trừ.
 
 ::solution
+Đặt tính: viết các chữ số cùng hàng thẳng cột với nhau, rồi trừ lần lượt từ phải sang trái.
+
 $$\begin{array}{r} 70\,025 \\ -\ 34\,168 \\ \hline 35\,857 \end{array}$$
-Hàng đơn vị: $15-8=7$, viết $7$ nhớ $1$. Hàng chục: $6+1=7$; $12-7=5$, viết $5$ nhớ $1$. Hàng trăm: $1+1=2$; $10-2=8$, viết $8$ nhớ $1$. Hàng nghìn: $4+1=5$; $10-5=5$, viết $5$ nhớ $1$. Hàng chục nghìn: $3+1=4$; $7-4=3$.
+
+Hàng đơn vị: $5$ không trừ được $8$, lấy $15-8=7$, viết $7$ nhớ $1$.
+
+Hàng chục: $6+1=7$; $2$ không trừ được $7$, lấy $12-7=5$, viết $5$ nhớ $1$.
+
+Hàng trăm: $1+1=2$; $0$ không trừ được $2$, lấy $10-2=8$, viết $8$ nhớ $1$.
+
+Hàng nghìn: $4+1=5$; $0$ không trừ được $5$, lấy $10-5=5$, viết $5$ nhớ $1$.
+
+Hàng chục nghìn: $3+1=4$; $7-4=3$, viết $3$.
+
+Thử lại: $35\,857+34\,168=70\,025$. Đúng.
+
+Vậy $70\,025-34\,168=35\,857$.
 
 **Đáp số.** $35\,857$.
 :::
@@ -242,9 +290,14 @@ Tìm $x$: $x+25\,360=70\,000$.
 2. Đặt tính rồi trừ, sau đó thử lại.
 
 ::solution
-$x=70\,000-25\,360=44\,640$.
+Trong phép cộng, $x$ là số hạng chưa biết. Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết.
 
-**Thử lại.** $44\,640+25\,360=70\,000$. Đúng.
+Ta có
+$$x=70\,000-25\,360=44\,640.$$
+
+Thử lại: $44\,640+25\,360=70\,000$. Đúng.
+
+Vậy $x=44\,640$.
 
 **Đáp số.** $x=44\,640$.
 :::
@@ -266,6 +319,8 @@ Bài giải
 Số khán giả của cả hai buổi là:
 $$15\,280+21\,765=37\,045\ \text{(khán giả)}.$$
 
+Vậy cả hai buổi có $37\,045$ khán giả.
+
 **Đáp số.** $37\,045$ khán giả.
 :::
 
@@ -284,8 +339,13 @@ Bài giải
 
 Số tiền chị Hoa đã tiêu là:
 $$45\,500+28\,750=74\,250\ \text{(đồng)}.$$
+
 Số tiền chị Hoa còn lại là:
 $$100\,000-74\,250=25\,750\ \text{(đồng)}.$$
+
+Thử lại: $25\,750+74\,250=100\,000$. Đúng.
+
+Vậy chị Hoa còn lại $25\,750$ đồng.
 
 **Đáp số.** $25\,750$ đồng.
 :::
@@ -301,7 +361,12 @@ Em hãy nhớ lại bài so sánh các số. Điền dấu $>$, $<$ hoặc $=$ v
 2. So sánh kết quả với $68\,000$.
 
 ::solution
-Ta có $58\,760+9\,240=68\,000$. Hai số bằng nhau.
+Ta tính vế trái trước:
+$$58\,760+9\,240=68\,000.$$
+
+So sánh với vế phải: $68\,000$ và $68\,000$ là hai số bằng nhau.
+
+Vậy ta điền dấu $=$ vào chỗ chấm: $58\,760+9\,240=68\,000$.
 
 **Đáp số.** Dấu $=$.
 :::
@@ -317,7 +382,18 @@ Nam tính $80\,000-35\,600=54\,400$. Em hãy dùng phép cộng để thử lạ
 2. Nếu tổng khác $80\,000$ thì tính lại $80\,000-35\,600$.
 
 ::solution
-Ta có $54\,400+35\,600=90\,000$, khác $80\,000$, nên kết quả của Nam sai. Tính lại: $80\,000-35\,600=44\,400$. Thử lại: $44\,400+35\,600=80\,000$. Đúng.
+Muốn thử lại phép trừ bằng phép cộng, ta lấy hiệu cộng với số trừ; kết quả phải bằng số bị trừ.
+
+Ta có $54\,400+35\,600=90\,000$.
+
+Vì $90\,000$ khác số bị trừ $80\,000$ nên kết quả của Nam sai.
+
+Tính lại:
+$$80\,000-35\,600=44\,400.$$
+
+Thử lại: $44\,400+35\,600=80\,000$. Đúng.
+
+Vậy Nam tính sai; kết quả đúng là $44\,400$.
 
 **Đáp số.** Nam sai; kết quả đúng là $44\,400$.
 :::
@@ -333,8 +409,18 @@ Tìm hiệu của số lớn nhất và số bé nhất có năm chữ số mà 
 2. Đặt tính rồi trừ.
 
 ::solution
-Số lớn nhất là $98\,765$. Số bé nhất là $10\,234$ (chữ số $1$ ở đầu, rồi $0$, $2$, $3$, $4$). Ta có:
+Số có năm chữ số mà các chữ số đều khác nhau.
+
+Số lớn nhất: ta chọn các chữ số lớn nhất, mỗi chữ số dùng một lần, và xếp từ lớn đến bé theo thứ tự các hàng: $9$, $8$, $7$, $6$, $5$. Số lớn nhất là $98\,765$.
+
+Số bé nhất: chữ số hàng chục nghìn phải khác $0$ nên bé nhất là $1$. Các hàng còn lại chọn các chữ số bé nhất chưa dùng theo thứ tự: $0$, $2$, $3$, $4$. Số bé nhất là $10\,234$.
+
+Hiệu của hai số là
 $$98\,765-10\,234=88\,531.$$
+
+Thử lại: $88\,531+10\,234=98\,765$. Đúng.
+
+Vậy hiệu của số lớn nhất và số bé nhất có năm chữ số khác nhau là $88\,531$.
 
 **Đáp số.** $88\,531$.
 :::

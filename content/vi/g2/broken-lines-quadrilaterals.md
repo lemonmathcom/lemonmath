@@ -166,7 +166,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Nối tiếp P với Q.
 
 ::solution
-Đường gấp khúc MNPQ gồm ba đoạn thẳng MN, NP và PQ.
+Đường gấp khúc gồm các đoạn thẳng nối tiếp nhau, mỗi đoạn nối hai điểm liền nhau trong tên đường gấp khúc.
+
+Đường gấp khúc MNPQ có các điểm theo thứ tự là M, N, P, Q. Các cặp điểm liền nhau là M và N, N và P, P và Q.
+
+Vậy đường gấp khúc MNPQ gồm ba đoạn thẳng MN, NP và PQ.
 
 **Đáp số.** MN, NP, PQ.
 :::
@@ -182,8 +186,16 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng độ dài các đoạn thẳng, nhớ viết cm.
 
 ::solution
+Bài giải
+
+Độ dài đường gấp khúc bằng tổng độ dài các đoạn thẳng của nó. Đường gấp khúc EFGH gồm ba đoạn thẳng EF, FG và GH.
+
 Độ dài đường gấp khúc EFGH là:
 $$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
+
+Ta tính từng bước: $4+6=10$, rồi $10+3=13$.
+
+Vậy đường gấp khúc EFGH dài $13$ cm.
 
 **Đáp số.** 13 cm.
 :::
@@ -199,7 +211,16 @@ $$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
 2. Cộng qua 10: $8+7=8+2+5$.
 
 ::solution
+Bài giải
+
+Đường gấp khúc ABC gồm hai đoạn thẳng AB và BC. Độ dài đường gấp khúc ABC bằng tổng độ dài hai đoạn thẳng đó.
+
+Độ dài đường gấp khúc ABC là:
 $$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
+
+Ta cộng qua $10$: $8+7=8+2+5=10+5=15$.
+
+Vậy đường gấp khúc ABC dài $15$ cm.
 
 **Đáp số.** 15 cm.
 :::
@@ -215,7 +236,11 @@ Hình tứ giác ABCD có bao nhiêu đỉnh, bao nhiêu cạnh? Kể tên các 
 2. Nối các chữ cái liền nhau, nhớ nối cả chữ cái cuối với chữ cái đầu.
 
 ::solution
-Hình tứ giác ABCD có 4 đỉnh là A, B, C, D và 4 cạnh là AB, BC, CD, DA.
+Hình tứ giác ABCD được gọi tên theo các đỉnh theo thứ tự A, B, C, D. Số đỉnh của hình là $4$.
+
+Các cạnh là các đoạn thẳng nối hai đỉnh liền nhau: AB, BC, CD và DA (đỉnh cuối D nối về đỉnh đầu A). Số cạnh của hình cũng là $4$.
+
+Vậy hình tứ giác ABCD có $4$ đỉnh là A, B, C, D và $4$ cạnh là AB, BC, CD, DA.
 
 **Đáp số.** 4 đỉnh, 4 cạnh.
 :::
@@ -234,9 +259,16 @@ Giả sử một sợi dây thép được uốn thành đường gấp khúc g�
 ::solution
 Bài giải
 
+Sợi dây thép được uốn thành đường gấp khúc nên chiều dài sợi dây bằng tổng độ dài ba đoạn thẳng.
+
 Sợi dây thép dài số xăng-ti-mét là:
 $$9+4+6=19\ \text{(cm)}.$$
-Đáp số: 19 cm.
+
+Ta tính từng bước: $9+4=13$, rồi $13+6=19$.
+
+Vậy sợi dây thép dài $19$ cm.
+
+**Đáp số.** 19 cm.
 :::
 
 :::exercise
@@ -253,9 +285,16 @@ Giả sử Mai dùng một sợi len xếp thành hình tứ giác ABCD có các
 ::solution
 Bài giải
 
+Sợi len xếp thành hình tứ giác ABCD nên chiều dài sợi len bằng tổng độ dài bốn cạnh AB, BC, CD, DA.
+
 Sợi len dài số xăng-ti-mét là:
 $$4+5+4+5=18\ \text{(cm)}.$$
-Đáp số: 18 cm.
+
+Ta nhóm từng cặp: $(4+5)+(4+5)=9+9=18$.
+
+Vậy sợi len dài $18$ cm.
+
+**Đáp số.** 18 cm.
 :::
 
 :::exercise
@@ -269,10 +308,19 @@ Nhớ lại bài đo độ dài. Em dùng thước đo được $AB=6$ cm và $B
 2. So sánh 6 và 8, rồi lấy số lớn trừ số bé.
 
 ::solution
+Bài giải
+
+Đường gấp khúc ABC gồm hai đoạn thẳng AB và BC, nên độ dài của nó bằng tổng độ dài hai đoạn thẳng đó.
+
 Độ dài đường gấp khúc ABC là:
 $$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
-Ta có $8>6$ nên đoạn BC dài hơn đoạn AB. Đoạn BC dài hơn đoạn AB là:
+
+Để so sánh hai đoạn thẳng, ta so sánh hai số đo: $8>6$ nên đoạn thẳng BC dài hơn đoạn thẳng AB.
+
+Muốn biết đoạn BC dài hơn đoạn AB bao nhiêu xăng-ti-mét, ta lấy số đo lớn trừ số đo bé. Đoạn BC dài hơn đoạn AB là:
 $$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
+
+Vậy đường gấp khúc ABC dài $14$ cm; đoạn thẳng BC dài hơn đoạn thẳng AB $2$ cm.
 
 **Đáp số.** 14 cm; đoạn BC dài hơn 2 cm.
 :::
@@ -288,12 +336,19 @@ $$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
 2. Lấy 18 trừ độ dài hai đoạn ấy.
 
 ::solution
+Bài giải
+
+Độ dài đường gấp khúc ABCD bằng tổng độ dài ba đoạn thẳng AB, BC và CD. Biết cả đường gấp khúc dài $18$ cm, ta tìm đoạn CD bằng cách lấy $18$ cm trừ đi độ dài hai đoạn đã biết.
+
 Hai đoạn AB và BC dài tất cả:
 $$7+5=12\ \text{(cm)}.$$
+
 Đoạn CD dài:
 $$18-12=6\ \text{(cm)}.$$
 
-**Kiểm tra.** $7+5+6=18$, đúng.
+Kiểm tra: $7+5+6=12+6=18$. Đúng.
+
+Vậy đoạn thẳng CD dài $6$ cm.
 
 **Đáp số.** 6 cm.
 :::

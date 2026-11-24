@@ -137,7 +137,17 @@ Work out $68-35$.
 2. Work out $6-3$.
 
 ::solution
-Ones: $8-5=3$. Tens: $6-3=3$. So $68-35=33$.
+We subtract place by place, starting with the ones.
+
+Ones: $8-5=3$, write $3$.
+
+Tens: $6-3=3$, write $3$.
+
+Hence $68-35=33$.
+
+Check: $33+35=68$. Correct.
+
+So $68-35=33$.
 
 **Answer.** $33$.
 :::
@@ -153,7 +163,17 @@ Work out $94-72$.
 2. Work out $9-7$.
 
 ::solution
-Ones: $4-2=2$. Tens: $9-7=2$. So $94-72=22$.
+We subtract place by place, starting with the ones.
+
+Ones: $4-2=2$, write $2$.
+
+Tens: $9-7=2$, write $2$.
+
+Hence $94-72=22$.
+
+Check: $22+72=94$. Correct.
+
+So $94-72=22$.
 
 **Answer.** $22$.
 :::
@@ -169,7 +189,17 @@ Work out $79-40$.
 2. Work out $7-4$.
 
 ::solution
-Ones: $9-0=9$. Tens: $7-4=3$. So $79-40=39$.
+We subtract place by place, starting with the ones.
+
+Ones: $9-0=9$, write $9$.
+
+Tens: $7-4=3$, write $3$.
+
+Hence $79-40=39$.
+
+Check: $39+40=79$. Correct.
+
+So $79-40=39$.
 
 **Answer.** $39$.
 :::
@@ -185,7 +215,13 @@ Write $>$, $<$ or $=$ in the box: $76-32 \;\square\; 40$.
 2. Compare the answer with $40$.
 
 ::solution
-$6-2=4$ and $7-3=4$, so $76-32=44$. Since $44>40$, $76-32>40$.
+We work out the left side first. Ones: $6-2=4$. Tens: $7-3=4$. So $76-32=44$.
+
+We compare $44$ with $40$. Both numbers have $4$ tens; $44$ has $4$ ones and $40$ has $0$ ones, and $4>0$, so $44>40$.
+
+Hence $76-32>40$.
+
+So we write the sign $>$.
 
 **Answer.** The sign $>$.
 :::
@@ -201,8 +237,14 @@ A basket has $76$ oranges. The seller sells $34$ of them. How many oranges are l
 2. Work out $76-34$ and write the answer with its unit.
 
 ::solution
-The number of oranges left is:
+Solution
+
+The number of oranges left in the basket is:
 $$76-34=42\ \text{(oranges)}.$$
+
+Check: $42+34=76$. Correct.
+
+So there are $42$ oranges left in the basket.
 
 **Answer.** $42$ oranges.
 :::
@@ -218,7 +260,15 @@ Remember the last lesson: subtracting a one-digit number from a two-digit number
 2. Subtract $21$ from the answer.
 
 ::solution
-$8-5=3$, so $48-5=43$. Then $3-1=2$ and $4-2=2$, so $43-21=22$.
+The problem has two steps: work out $48-5$ first, then subtract $21$ from the answer.
+
+Step 1: $48-5$. Ones: $8-5=3$. The tens stay $4$. So $48-5=43$.
+
+Step 2: $43-21$. Ones: $3-1=2$. Tens: $4-2=2$. So $43-21=22$.
+
+Check: $22+21=43$ and $43+5=48$. Correct.
+
+So $48-5=43$ and $43-21=22$.
 
 **Answer.** $22$.
 :::
@@ -234,7 +284,17 @@ Ha writes: "$86-24$: ones $6-4=2$, tens $8-2=6$, so $86-24=26$". Is Ha right or 
 2. Put them together: how many tens, how many ones?
 
 ::solution
-Ha's two subtractions are right, but Ha put the digits in the wrong places. There are $6$ tens and $2$ ones, so $86-24=62$.
+We check each of Ha's steps.
+
+Ones: $6-4=2$, which is right. Tens: $8-2=6$, which is right.
+
+But the result has $6$ tens and $2$ ones, so the tens digit must be $6$ and the ones digit must be $2$. Ha wrote $26$, that is, $2$ in the tens place and $6$ in the ones place, so the digits were put in the wrong places.
+
+The correct way to write it is $62$.
+
+Check: $62+24=86$. Correct.
+
+So Ha is wrong; the right answer is $86-24=62$.
 
 **Answer.** Wrong; the right answer is $62$.
 :::
@@ -250,9 +310,17 @@ Find the digit that goes in the box: $7\square-24=51$.
 2. Check the tens: $7-2=5$.
 
 ::solution
-Ones: $5-4=1$. The number is $75$, so the missing digit is $5$.
+The number we want has the form $7\square$, that is, it has $7$ tens.
 
-**Check.** $75-24=51$. Correct.
+Ones: taking away $4$ ones must leave $1$ (the ones digit of $51$). Since $5-4=1$, the digit in the box is $5$.
+
+Tens: $7-2=5$, which matches the tens digit of $51$.
+
+Hence the number we want is $75$.
+
+Check: $75-24=51$. Correct.
+
+So the digit that goes in the box is $5$.
 
 **Answer.** $5$.
 :::

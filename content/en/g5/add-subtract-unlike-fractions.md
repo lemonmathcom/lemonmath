@@ -141,7 +141,16 @@ Work out: $\dfrac{1}{4}+\dfrac{2}{3}$.
 2. Rewrite both fractions, then add.
 
 ::solution
-$$\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{3}{12}+\dfrac{8}{12}=\dfrac{11}{12}.$$
+The two fractions have different denominators, so we write them with a common denominator. A common denominator is $12$ (since $12=4\times3$).
+
+We have $\dfrac{1}{4}=\dfrac{1\times3}{4\times3}=\dfrac{3}{12}$ and $\dfrac{2}{3}=\dfrac{2\times4}{3\times4}=\dfrac{8}{12}$.
+
+Adding two fractions with the same denominator:
+$$\frac{1}{4}+\frac{2}{3}=\frac{3}{12}+\frac{8}{12}=\frac{3+8}{12}=\frac{11}{12}.$$
+
+The fraction $\dfrac{11}{12}$ is in its simplest form because $11$ and $12$ have no common factor other than $1$.
+
+So $\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{11}{12}$.
 
 **Answer.** $\dfrac{11}{12}$.
 :::
@@ -157,8 +166,16 @@ Work out: $\dfrac{5}{6}-\dfrac{3}{8}$.
 2. Rewrite both fractions, then subtract.
 
 ::solution
-A common denominator is $24$:
-$$\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}.$$
+The two fractions have different denominators, so we write them with a common denominator. A common denominator is $24$ (since $24=6\times4=8\times3$).
+
+We have $\dfrac{5}{6}=\dfrac{5\times4}{6\times4}=\dfrac{20}{24}$ and $\dfrac{3}{8}=\dfrac{3\times3}{8\times3}=\dfrac{9}{24}$.
+
+Subtracting two fractions with the same denominator:
+$$\frac{5}{6}-\frac{3}{8}=\frac{20}{24}-\frac{9}{24}=\frac{20-9}{24}=\frac{11}{24}.$$
+
+The fraction $\dfrac{11}{24}$ is in its simplest form.
+
+So $\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{11}{24}$.
 
 **Answer.** $\dfrac{11}{24}$.
 :::
@@ -174,7 +191,16 @@ Work out and simplify the answer: $\dfrac{3}{4}+\dfrac{1}{12}$.
 2. Add, then simplify.
 
 ::solution
-$$\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{9}{12}+\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}.$$
+The denominator $12$ is a multiple of the denominator $4$, so we take $12$ as the common denominator and only need to rewrite the first fraction:
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12}.$$
+
+Adding two fractions with the same denominator:
+$$\frac{3}{4}+\frac{1}{12}=\frac{9}{12}+\frac{1}{12}=\frac{10}{12}.$$
+
+To simplify, we divide both the numerator and the denominator by $2$ (the greatest common factor of $10$ and $12$):
+$$\frac{10}{12}=\frac{10\div2}{12\div2}=\frac{5}{6}.$$
+
+So $\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{5}{6}$.
 
 **Answer.** $\dfrac{5}{6}$.
 :::
@@ -190,7 +216,17 @@ Find the missing number: $\dfrac{1}{2}+\ ?=\dfrac{5}{6}$.
 2. Write over a common denominator, subtract, then simplify.
 
 ::solution
-$$\dfrac{5}{6}-\dfrac{1}{2}=\dfrac{5}{6}-\dfrac{3}{6}=\dfrac{2}{6}=\dfrac{1}{3}.$$
+The missing number is an unknown addend. To find an addend, we subtract the known addend from the sum:
+$$?=\frac{5}{6}-\frac{1}{2}.$$
+
+Common denominator: it is $6$, and $\dfrac{1}{2}=\dfrac{1\times3}{2\times3}=\dfrac{3}{6}$.
+
+We have
+$$\frac{5}{6}-\frac{1}{2}=\frac{5}{6}-\frac{3}{6}=\frac{2}{6}=\frac{1}{3}.$$
+
+Check: $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$. Correct.
+
+So the missing number is $\dfrac{1}{3}$.
 
 **Answer.** $\dfrac{1}{3}$.
 :::
@@ -206,10 +242,15 @@ In the morning Lan drinks $\dfrac{1}{4}$ of a bottle of water, and at lunchtime 
 2. Subtract the result from $1$. Check: the part drunk plus the part left must make $1$.
 
 ::solution
-The fraction of the bottle Lan has drunk is:
-$$\dfrac{1}{4}+\dfrac{2}{5}=\dfrac{5}{20}+\dfrac{8}{20}=\dfrac{13}{20}\ \text{(of the bottle)}.$$
-The fraction of the bottle left is:
-$$1-\dfrac{13}{20}=\dfrac{7}{20}\ \text{(of the bottle)}.$$
+Solution
+
+The fraction of the bottle Lan has drunk (in the morning and at lunchtime) is:
+$$\frac{1}{4}+\frac{2}{5}=\frac{5}{20}+\frac{8}{20}=\frac{13}{20}\ \text{(of the bottle)}.$$
+
+Count the whole bottle as $1$. The fraction of the bottle left is:
+$$1-\frac{13}{20}=\frac{20}{20}-\frac{13}{20}=\frac{7}{20}\ \text{(of the bottle)}.$$
+
+So Lan has drunk $\dfrac{13}{20}$ of the bottle, and $\dfrac{7}{20}$ of the bottle is left.
 
 **Answer.** She has drunk $\dfrac{13}{20}$ of the bottle, and $\dfrac{7}{20}$ is left.
 :::
@@ -225,8 +266,15 @@ A piece of string is $\dfrac{7}{8}$ m long. The teacher cuts off $\dfrac{1}{3}$ 
 2. Write $\dfrac{7}{8}$ and $\dfrac{1}{3}$ over a common denominator, then subtract. Remember the unit.
 
 ::solution
+Solution
+
+To find the length of string left, we subtract the length cut off from the starting length. We use the common denominator $24$:
+$$\frac{7}{8}=\frac{21}{24},\qquad \frac{1}{3}=\frac{8}{24}.$$
+
 The length of string left is:
-$$\dfrac{7}{8}-\dfrac{1}{3}=\dfrac{21}{24}-\dfrac{8}{24}=\dfrac{13}{24}\ \text{(m)}.$$
+$$\frac{7}{8}-\frac{1}{3}=\frac{21}{24}-\frac{8}{24}=\frac{13}{24}\ \text{(m)}.$$
+
+So $\dfrac{13}{24}$ m of string is left.
 
 **Answer.** $\dfrac{13}{24}$ m.
 :::
@@ -242,9 +290,15 @@ Remember the lesson on comparing fractions. Compare $\dfrac{5}{8}$ and $\dfrac{7
 2. Compare the numerators, then subtract the smaller fraction from the larger one.
 
 ::solution
-A common denominator is $24$: $\dfrac{5}{8}=\dfrac{15}{24}$ and $\dfrac{7}{12}=\dfrac{14}{24}$.
+We write the two fractions with the common denominator $24$:
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24},\qquad \frac{7}{12}=\frac{7\times2}{12\times2}=\frac{14}{24}.$$
 
-Since $15>14$, we have $\dfrac{5}{8}>\dfrac{7}{12}$. The difference is $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac{1}{24}$.
+When two fractions have the same denominator, the one with the larger numerator is larger. Since $15>14$, we have $\dfrac{15}{24}>\dfrac{14}{24}$, that is, $\dfrac{5}{8}>\dfrac{7}{12}$.
+
+The larger fraction exceeds the smaller one by their difference:
+$$\frac{5}{8}-\frac{7}{12}=\frac{15}{24}-\frac{14}{24}=\frac{1}{24}.$$
+
+So $\dfrac{5}{8}>\dfrac{7}{12}$, and $\dfrac{5}{8}$ is greater than $\dfrac{7}{12}$ by $\dfrac{1}{24}$.
 
 **Answer.** $\dfrac{5}{8}>\dfrac{7}{12}$, and the difference is $\dfrac{1}{24}$.
 :::
@@ -260,10 +314,15 @@ Suppose a plot of land uses $\dfrac{3}{10}$ of its area for a house and $\dfrac{
 2. Subtract that fraction from $1$.
 
 ::solution
-The fraction used for the house and the pond is:
-$$\dfrac{3}{10}+\dfrac{1}{4}=\dfrac{6}{20}+\dfrac{5}{20}=\dfrac{11}{20}\ \text{(of the plot)}.$$
-The fraction planted with trees is:
-$$1-\dfrac{11}{20}=\dfrac{9}{20}\ \text{(of the plot)}.$$
+Solution
+
+Count the whole plot as $1$. The fraction of the plot used for the house and the pond is:
+$$\frac{3}{10}+\frac{1}{4}=\frac{6}{20}+\frac{5}{20}=\frac{11}{20}\ \text{(of the plot)}.$$
+
+The fraction of the plot left for trees is:
+$$1-\frac{11}{20}=\frac{20}{20}-\frac{11}{20}=\frac{9}{20}\ \text{(of the plot)}.$$
+
+So $\dfrac{9}{20}$ of the plot is planted with trees.
 
 **Answer.** $\dfrac{9}{20}$ of the plot.
 :::
@@ -279,8 +338,19 @@ Work out quickly: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{
 2. Look at which fractions cancel each other.
 
 ::solution
-Since $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$ and $30=5\times6$, we have:
-$$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfrac{1}{3}-\dfrac{1}{4}\right)+\left(\dfrac{1}{4}-\dfrac{1}{5}\right)+\left(\dfrac{1}{5}-\dfrac{1}{6}\right)=1-\dfrac{1}{6}=\dfrac{5}{6}.$$
+We notice that each denominator is the product of two consecutive natural numbers:
+$$2=1\times2,\quad 6=2\times3,\quad 12=3\times4,\quad 20=4\times5,\quad 30=5\times6.$$
+
+For consecutive natural numbers $n$ and $n+1$, we have $\dfrac{1}{n}-\dfrac{1}{n+1}=\dfrac{n+1-n}{n(n+1)}=\dfrac{1}{n(n+1)}$. Hence
+$$\frac{1}{2}=1-\frac{1}{2},\quad \frac{1}{6}=\frac{1}{2}-\frac{1}{3},\quad \frac{1}{12}=\frac{1}{3}-\frac{1}{4},\quad \frac{1}{20}=\frac{1}{4}-\frac{1}{5},\quad \frac{1}{30}=\frac{1}{5}-\frac{1}{6}.$$
+
+Substituting into the sum, we get
+$$\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\left(\frac{1}{4}-\frac{1}{5}\right)+\left(\frac{1}{5}-\frac{1}{6}\right).$$
+
+The middle fractions are opposites, so they cancel in pairs, leaving only the first and the last:
+$$1-\frac{1}{6}=\frac{6}{6}-\frac{1}{6}=\frac{5}{6}.$$
+
+So $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30}=\dfrac{5}{6}$.
 
 **Answer.** $\dfrac{5}{6}$.
 :::

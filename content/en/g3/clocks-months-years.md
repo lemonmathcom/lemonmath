@@ -204,7 +204,12 @@ The short hand of a clock is between $5$ and $6$, and the long hand points at $6
 2. Work out the minutes from the number the long hand points at.
 
 ::solution
-The short hand has passed $5$, so the hour is $5$. The long hand points at $6$, and $6\times5=30$ minutes.
+The short hand is between $5$ and $6$, so it has passed $5$ but has not reached $6$; the hour is $5$.
+
+The long hand points at $6$. Each number on the clock face stands for $5$ minutes, so the number of minutes is
+$$6\times5=30\ \text{(minutes)}.$$
+
+So the clock shows $30$ minutes past $5$.
 
 **Answer.** $30$ minutes past $5$.
 :::
@@ -220,7 +225,17 @@ The short hand of a clock is close to $8$ but has not reached $8$, and the long 
 2. How many minutes are there until $8$ o'clock?
 
 ::solution
-The short hand has not reached $8$, so the hour is $7$. The long hand points at $9$, and $9\times5=45$ minutes. The clock shows $45$ minutes past $7$. There are $60-45=15$ minutes until $8$ o'clock.
+The short hand is close to $8$ but has not reached $8$, so the hour is $7$.
+
+The long hand points at $9$. Each number on the clock face stands for $5$ minutes, so the number of minutes is
+$$9\times5=45\ \text{(minutes)}.$$
+
+The clock shows $45$ minutes past $7$.
+
+To say it using "to", we find how many minutes are left until $8$ o'clock. One hour has $60$ minutes, so the minutes left are
+$$60-45=15\ \text{(minutes)}.$$
+
+So the clock shows $45$ minutes past $7$, which is $15$ minutes to $8$.
 
 **Answer.** $45$ minutes past $7$, which is $15$ minutes to $8$.
 :::
@@ -236,7 +251,14 @@ Write $40$ minutes past $6$ using "to".
 2. How many minutes are there until that hour?
 
 ::solution
-The next hour is $7$ o'clock. There are $60-40=20$ minutes until then.
+To say a time using "to", we take the next hour and subtract the minutes that are missing.
+
+After $40$ minutes past $6$, the next hour is $7$ o'clock.
+
+The number of minutes left until $7$ o'clock is
+$$60-40=20\ \text{(minutes)}.$$
+
+So $40$ minutes past $6$ is $20$ minutes to $7$.
 
 **Answer.** $20$ minutes to $7$.
 :::
@@ -252,7 +274,12 @@ Change: $1$ hour $25$ minutes $=\ ?$ minutes.
 2. Add $25$ minutes.
 
 ::solution
-We have $1$ hour $=60$ minutes. So $1$ hour $25$ minutes $=60+25=85$ minutes.
+We have $1$ hour $=60$ minutes.
+
+Therefore
+$$1\ \text{hour}\ 25\ \text{minutes}=60\ \text{minutes}+25\ \text{minutes}=85\ \text{minutes}.$$
+
+So $1$ hour $25$ minutes $=85$ minutes.
 
 **Answer.** $85$ minutes.
 :::
@@ -271,11 +298,16 @@ A film (made-up numbers) is shown from $10$ minutes past $9$ to $55$ minutes pas
 ::solution
 Solution
 
-From $10$ minutes past $9$ to $10$ minutes past $10$ is $1$ hour. From $10$ minutes past $10$ to $55$ minutes past $10$ is $55-10=45$ minutes.
+From $10$ minutes past $9$ to $10$ minutes past $10$ is $1$ hour.
+
+From $10$ minutes past $10$ to $55$ minutes past $10$ is
+$$55-10=45\ \text{(minutes)}.$$
 
 The film is $1$ hour $45$ minutes long.
 
-**Check.** $1$ hour $45$ minutes $=60+45=105$ minutes. Correct.
+Check: $10$ minutes past $9$ plus $1$ hour $45$ minutes gives $55$ minutes past $10$. Correct.
+
+So the film is $1$ hour $45$ minutes long.
 
 **Answer.** $1$ hour $45$ minutes.
 :::
@@ -291,7 +323,11 @@ Which of the months $4$, $7$, $9$, $12$ have $31$ days?
 2. Choose the months with $31$ days.
 
 ::solution
-Month $4$ and month $9$ have $30$ days. Month $7$ and month $12$ have $31$ days.
+In a year, months $1$, $3$, $5$, $7$, $8$, $10$, $12$ have $31$ days; months $4$, $6$, $9$, $11$ have $30$ days (month $2$ has $28$ or $29$ days).
+
+Month $4$ has $30$ days. Month $7$ has $31$ days. Month $9$ has $30$ days. Month $12$ has $31$ days.
+
+So among the given months, month $7$ and month $12$ have $31$ days.
 
 **Answer.** Month $7$ and month $12$.
 :::
@@ -310,8 +346,14 @@ The first term of a school (made-up numbers) starts on day $1$ of month $9$ and 
 ::solution
 Solution
 
-Month $9$ has $30$ days, month $10$ has $31$ days, month $11$ has $30$ days, month $12$ has $31$ days. The number of days is:
+The first term covers four months: month $9$, month $10$, month $11$ and month $12$.
+
+Month $9$ has $30$ days, month $10$ has $31$ days, month $11$ has $30$ days, month $12$ has $31$ days.
+
+The number of days in the first term is:
 $$30+31+30+31=122\ \text{(days)}.$$
+
+So the first term has $122$ days.
 
 **Answer.** $122$ days.
 :::
@@ -331,7 +373,14 @@ Solution
 
 The minutes Mai practises in $7$ days are:
 $$35\times7=245\ \text{(minutes)}.$$
-We have $245=4\times60+5$, so $245$ minutes $=4$ hours $5$ minutes.
+
+We change $245$ minutes into hours and minutes. Since $1$ hour $=60$ minutes, we divide $245$ by $60$:
+$$245=4\times60+5,$$
+so $245$ minutes $=4$ hours $5$ minutes.
+
+Check: $4\times60+5=245$ (minutes). Correct.
+
+So in $7$ days Mai practises $4$ hours $5$ minutes altogether.
 
 **Answer.** $4$ hours $5$ minutes.
 :::
@@ -347,9 +396,13 @@ Remember the lesson on dividing by a one-digit number. A year usually has $365$ 
 2. Check: quotient $\times7+$ remainder.
 
 ::solution
+To find how many weeks $365$ days is and how many days are left over, we divide $365$ by $7$ (because a week has $7$ days).
+
 We have $365\div7=52$ (remainder $1$).
 
-**Check.** $52\times7=364$ and $364+1=365$. Correct.
+Check: $52\times7=364$ and $364+1=365$. Correct.
+
+So $365$ days is $52$ weeks and $1$ day.
 
 **Answer.** $52$ weeks and $1$ day.
 :::
@@ -365,7 +418,15 @@ Day $1$ of month $3$ (March) is a Monday. What day of the week is day $1$ of mon
 2. Divide that number of days by $7$ and look at the remainder.
 
 ::solution
-From day $1$ of month $3$ to day $1$ of month $4$ there are $31$ days. We have $31\div7=4$ (remainder $3$). The days of the week repeat every $7$ days, so we count $3$ more days after Monday: Tuesday, Wednesday, Thursday.
+Month $3$ (March) has $31$ days, so from day $1$ of month $3$ to day $1$ of month $4$ (April) there are $31$ days.
+
+We have $31\div7=4$ (remainder $3$).
+
+The days of the week repeat every $7$ days, so after $4\times7=28$ days (that is, on day $29$ of month $3$) it is still Monday.
+
+We count $3$ more days after Monday: day $30$ of month $3$ is Tuesday, day $31$ of month $3$ is Wednesday, and day $1$ of month $4$ is Thursday.
+
+So day $1$ of month $4$ in that year is a Thursday.
 
 **Answer.** Thursday.
 :::

@@ -142,7 +142,11 @@ Quả xúc xắc có dạng khối gì?
 2. Chọn tên khối.
 
 ::solution
-Các mặt của xúc xắc là hình vuông bằng nhau.
+Quả xúc xắc có $6$ mặt, các mặt đều là hình vuông bằng nhau.
+
+Khối có các mặt đều là hình vuông bằng nhau là khối lập phương.
+
+Vậy quả xúc xắc có dạng khối lập phương.
 
 **Đáp số.** Khối lập phương.
 :::
@@ -160,6 +164,10 @@ Hộp phấn có dạng khối gì?
 ::solution
 Các mặt của hộp phấn là hình chữ nhật.
 
+Khối có các mặt là hình chữ nhật là khối hộp chữ nhật.
+
+Vậy hộp phấn có dạng khối hộp chữ nhật.
+
 **Đáp số.** Khối hộp chữ nhật.
 :::
 
@@ -174,7 +182,11 @@ Em hãy nhớ lại bài trước: tính $9-5$. Rồi kiểm tra bằng phép c�
 2. Tính $\square+5$.
 
 ::solution
-Đếm lùi được $4$. Kiểm tra: $4+5=9$. Đúng.
+Để tính $9-5$, ta đếm lùi $5$ số bắt đầu từ $9$: $8$, $7$, $6$, $5$, $4$. Đếm lùi $5$ lần thì được $4$, nên $9-5=4$.
+
+Kiểm tra bằng phép cộng: $4+5=9$. Đúng.
+
+Vậy $9-5=4$.
 
 **Đáp số.** $9-5=4$.
 :::
@@ -191,7 +203,11 @@ b) Mặt của khối hộp chữ nhật là hình gì?
 2. Sờ các mặt của hộp phấn.
 
 ::solution
-a) Mặt của khối lập phương là hình vuông. b) Mặt của khối hộp chữ nhật là hình chữ nhật.
+a) Khối lập phương có các mặt đều là hình vuông, nên mặt của khối lập phương là hình vuông.
+
+b) Khối hộp chữ nhật có các mặt là hình chữ nhật, nên mặt của khối hộp chữ nhật là hình chữ nhật.
+
+Vậy a) mặt của khối lập phương là hình vuông; b) mặt của khối hộp chữ nhật là hình chữ nhật.
 
 **Đáp số.** a) Hình vuông. b) Hình chữ nhật.
 :::
@@ -207,7 +223,11 @@ Nam nói: "Hộp phấn là khối lập phương vì có $6$ mặt." Nam nói �
 2. Chọn tên khối đúng.
 
 ::solution
-Các mặt của hộp phấn là hình chữ nhật, không phải hình vuông. Nam nói sai.
+Khối lập phương có $6$ mặt, nhưng khối hộp chữ nhật cũng có $6$ mặt. Vì vậy chỉ có $6$ mặt thì chưa đủ để nói hộp phấn là khối lập phương.
+
+Các mặt của hộp phấn là hình chữ nhật, không phải hình vuông. Khối lập phương phải có các mặt là hình vuông.
+
+Vậy Nam nói sai; hộp phấn là khối hộp chữ nhật.
 
 **Đáp số.** Sai. Hộp phấn là khối hộp chữ nhật.
 :::
@@ -223,7 +243,11 @@ Mai nói: "Hình vuông vẽ trên giấy là khối lập phương." Mai sai �
 2. Nói lại cho đúng.
 
 ::solution
-Hình vuông trên giấy là hình phẳng. Khối lập phương là khối có $6$ mặt vuông, như xúc xắc.
+Hình vuông vẽ trên giấy là hình phẳng, nên Mai sai khi nói nó là khối lập phương.
+
+Khối lập phương là khối có $6$ mặt vuông, như quả xúc xắc.
+
+Vậy nói lại cho đúng: hình vuông vẽ trên giấy là hình phẳng; quả xúc xắc mới là khối lập phương.
 
 **Đáp số.** Hình vuông là hình phẳng; xúc xắc mới là khối lập phương.
 :::
@@ -248,7 +272,14 @@ b) Có tất cả bao nhiêu khối hộp chữ nhật?
 2. Gộp số hộp bánh và số hộp bút.
 
 ::solution
-a) Có $4$ viên xúc xắc. b) $3+2=5$.
+Theo bảng, trên kệ có $4$ xúc xắc, $3$ hộp bánh và $2$ hộp bút.
+
+a) Xúc xắc có dạng khối lập phương. Trên kệ có $4$ xúc xắc nên có $4$ khối lập phương.
+
+b) Hộp bánh và hộp bút có dạng khối hộp chữ nhật. Số khối hộp chữ nhật là
+$$3+2=5\ \text{(khối)}.$$
+
+Vậy a) có $4$ khối lập phương; b) có tất cả $5$ khối hộp chữ nhật.
 
 **Đáp số.** a) $4$ khối. b) $5$ khối.
 :::
@@ -266,9 +297,13 @@ Em xếp hai khối lập phương cạnh nhau thành một khối dài. Khối 
 2. Chọn tên khối.
 
 ::solution
-Mặt dài gồm hai hình vuông ghép lại, là hình chữ nhật. Khối mới có các mặt chữ nhật.
+Hai khối lập phương bằng nhau được đặt sát mặt nhau thành một khối dài.
 
-**Kiểm tra.** Khối giống một hộp phấn. Đúng.
+Mặt dài gồm hai hình vuông ghép lại, nên mặt dài là hình chữ nhật.
+
+*Kiểm tra.* Khối mới giống một hộp phấn. Đúng.
+
+Vậy khối mới là khối hộp chữ nhật, và mặt dài của nó là hình chữ nhật.
 
 **Đáp số.** Khối hộp chữ nhật; mặt dài là hình chữ nhật.
 :::

@@ -160,7 +160,17 @@ Tính $\dfrac{3}{10}+\dfrac{4}{15}$.
 2. Quy đồng rồi cộng hai tử số.
 
 ::solution
-$$\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{9}{30}+\dfrac{8}{30}=\dfrac{17}{30}.$$
+Hai phân số khác mẫu số nên ta quy đồng mẫu số trước khi cộng. Mẫu số chung là $30$ vì $30:10=3$ và $30:15=2$.
+
+Ta có
+$$\frac{3}{10}=\frac{3\times3}{10\times3}=\frac{9}{30},\qquad \frac{4}{15}=\frac{4\times2}{15\times2}=\frac{8}{30}.$$
+
+Cộng hai phân số cùng mẫu số:
+$$\frac{3}{10}+\frac{4}{15}=\frac{9}{30}+\frac{8}{30}=\frac{17}{30}.$$
+
+Phân số $\dfrac{17}{30}$ đã tối giản vì $17$ và $30$ không có ước chung nào lớn hơn $1$.
+
+Vậy $\dfrac{3}{10}+\dfrac{4}{15}=\dfrac{17}{30}$.
 
 **Đáp số.** $\dfrac{17}{30}$.
 :::
@@ -176,7 +186,17 @@ Tính $\dfrac{7}{8}-\dfrac{1}{6}$.
 2. Quy đồng rồi trừ hai tử số.
 
 ::solution
-$$\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{21}{24}-\dfrac{4}{24}=\dfrac{17}{24}.$$
+Hai phân số khác mẫu số nên ta quy đồng mẫu số trước khi trừ. Mẫu số chung là $24$ vì $24:8=3$ và $24:6=4$.
+
+Ta có
+$$\frac{7}{8}=\frac{7\times3}{8\times3}=\frac{21}{24},\qquad \frac{1}{6}=\frac{1\times4}{6\times4}=\frac{4}{24}.$$
+
+Trừ hai phân số cùng mẫu số:
+$$\frac{7}{8}-\frac{1}{6}=\frac{21}{24}-\frac{4}{24}=\frac{17}{24}.$$
+
+Phân số $\dfrac{17}{24}$ đã tối giản vì $17$ và $24$ không có ước chung nào lớn hơn $1$.
+
+Vậy $\dfrac{7}{8}-\dfrac{1}{6}=\dfrac{17}{24}$.
 
 **Đáp số.** $\dfrac{17}{24}$.
 :::
@@ -192,7 +212,15 @@ Tính $\dfrac{5}{6}\times\dfrac{9}{10}$.
 2. Rút gọn kết quả.
 
 ::solution
-$$\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{45}{60}=\dfrac{3}{4}.$$
+Muốn nhân hai phân số, ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số:
+$$\frac{5}{6}\times\frac{9}{10}=\frac{5\times9}{6\times10}=\frac{45}{60}.$$
+
+Cả $45$ và $60$ cùng chia hết cho $15$ nên rút gọn:
+$$\frac{45}{60}=\frac{45:15}{60:15}=\frac{3}{4}.$$
+
+Phân số $\dfrac{3}{4}$ đã tối giản.
+
+Vậy $\dfrac{5}{6}\times\dfrac{9}{10}=\dfrac{3}{4}$.
 
 **Đáp số.** $\dfrac{3}{4}$.
 :::
@@ -208,7 +236,13 @@ Tính $\dfrac{4}{9}:\dfrac{2}{3}$.
 2. Nhân rồi rút gọn.
 
 ::solution
-$$\dfrac{4}{9}:\dfrac{2}{3}=\dfrac{4}{9}\times\dfrac{3}{2}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+Muốn chia một phân số cho một phân số, ta lấy phân số thứ nhất nhân với phân số thứ hai đảo ngược (đổi chỗ tử số và mẫu số):
+$$\frac{4}{9}:\frac{2}{3}=\frac{4}{9}\times\frac{3}{2}=\frac{4\times3}{9\times2}=\frac{12}{18}.$$
+
+Cả $12$ và $18$ cùng chia hết cho $6$ nên rút gọn:
+$$\frac{12}{18}=\frac{12:6}{18:6}=\frac{2}{3}.$$
+
+Vậy $\dfrac{4}{9}:\dfrac{2}{3}=\dfrac{2}{3}$.
 
 **Đáp số.** $\dfrac{2}{3}$.
 :::
@@ -224,7 +258,16 @@ Tính giá trị của biểu thức $\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3
 2. Rồi trừ.
 
 ::solution
-$$\dfrac{3}{4}-\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}=\dfrac{7}{12}.$$
+Trong biểu thức có phép nhân và phép trừ, ta thực hiện phép nhân trước:
+$$\frac{1}{2}\times\frac{1}{3}=\frac{1}{6}.$$
+
+Do đó
+$$\frac{3}{4}-\frac{1}{2}\times\frac{1}{3}=\frac{3}{4}-\frac{1}{6}.$$
+
+Quy đồng mẫu số với mẫu số chung là $12$:
+$$\frac{3}{4}-\frac{1}{6}=\frac{9}{12}-\frac{2}{12}=\frac{7}{12}.$$
+
+Vậy giá trị của biểu thức là $\dfrac{7}{12}$.
 
 **Đáp số.** $\dfrac{7}{12}$.
 :::
@@ -240,7 +283,16 @@ Tính giá trị của biểu thức $\left(\dfrac{2}{3}+\dfrac{1}{6}\right):\df
 2. Chia kết quả cho $\dfrac{5}{12}$.
 
 ::solution
-$$\left(\dfrac{2}{3}+\dfrac{1}{6}\right):\dfrac{5}{12}=\dfrac{5}{6}:\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2.$$
+Trong biểu thức có dấu ngoặc, ta tính phần trong ngoặc trước. Quy đồng mẫu số với mẫu số chung là $6$:
+$$\frac{2}{3}+\frac{1}{6}=\frac{4}{6}+\frac{1}{6}=\frac{5}{6}.$$
+
+Do đó
+$$\left(\frac{2}{3}+\frac{1}{6}\right):\frac{5}{12}=\frac{5}{6}:\frac{5}{12}.$$
+
+Chia cho một phân số là nhân với phân số đảo ngược:
+$$\frac{5}{6}:\frac{5}{12}=\frac{5}{6}\times\frac{12}{5}=\frac{5\times12}{6\times5}=\frac{60}{30}=2.$$
+
+Vậy giá trị của biểu thức là $2$.
 
 **Đáp số.** $2$.
 :::
@@ -256,9 +308,15 @@ Một bể nước có $\dfrac{3}{5}$ bể. Người ta dùng $\dfrac{1}{4}$ b�
 2. Trừ $\dfrac{1}{4}$ rồi cộng $\dfrac{1}{10}$.
 
 ::solution
-Sau khi dùng, nước còn lại là $\dfrac{3}{5}-\dfrac{1}{4}=\dfrac{12}{20}-\dfrac{5}{20}=\dfrac{7}{20}$ (bể).
+Bài giải
 
-Sau khi đổ thêm, nước trong bể là $\dfrac{7}{20}+\dfrac{1}{10}=\dfrac{7}{20}+\dfrac{2}{20}=\dfrac{9}{20}$ (bể).
+Sau khi dùng $\dfrac{1}{4}$ bể, nước còn lại trong bể là:
+$$\frac{3}{5}-\frac{1}{4}=\frac{12}{20}-\frac{5}{20}=\frac{7}{20}\ \text{(bể)}$$
+
+Sau khi đổ thêm $\dfrac{1}{10}$ bể, nước trong bể là:
+$$\frac{7}{20}+\frac{1}{10}=\frac{7}{20}+\frac{2}{20}=\frac{9}{20}\ \text{(bể)}$$
+
+Vậy lúc này nước trong bể chiếm $\dfrac{9}{20}$ bể.
 
 **Đáp số.** $\dfrac{9}{20}$ bể.
 :::
@@ -274,10 +332,14 @@ Một mảnh vải dài $\dfrac{5}{6}$ m. Mỗi chiếc khăn cần $\dfrac{1}{1
 2. Tính $\dfrac{5}{6}:\dfrac{1}{12}$.
 
 ::solution
-Số chiếc khăn may được là:
-$$\dfrac{5}{6}:\dfrac{1}{12}=\dfrac{5}{6}\times12=\dfrac{60}{6}=10\ \text{(chiếc)}.$$
+Bài giải
 
-**Thử lại.** $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$. Đúng.
+Số chiếc khăn may được bằng số mét vải chia cho số mét vải cho mỗi chiếc khăn:
+$$\frac{5}{6}:\frac{1}{12}=\frac{5}{6}\times12=\frac{60}{6}=10\ \text{(chiếc)}$$
+
+Thử lại: $10\times\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}$ (m), đúng bằng chiều dài mảnh vải.
+
+Vậy may được nhiều nhất $10$ chiếc khăn.
 
 **Đáp số.** $10$ chiếc khăn.
 :::
@@ -293,11 +355,18 @@ Em hãy nhớ lại bài tìm phân số của một số. Một lớp có $32$ 
 2. Lấy số lớn trừ số bé.
 
 ::solution
-Số em thích bơi là $32:8\times3=12$ (em).
+Bài giải
 
-Số em thích cầu lông là $32:4=8$ (em).
+Muốn tìm $\dfrac{3}{8}$ của $32$, ta chia $32$ cho $8$ rồi nhân với $3$. Số em thích bơi là:
+$$32:8\times3=12\ \text{(em)}$$
 
-Số em thích bơi nhiều hơn số em thích cầu lông là $12-8=4$ (em).
+Số em thích cầu lông ($\dfrac{1}{4}$ số học sinh) là:
+$$32:4=8\ \text{(em)}$$
+
+Số em thích bơi nhiều hơn số em thích cầu lông là:
+$$12-8=4\ \text{(em)}$$
+
+Vậy số em thích bơi nhiều hơn số em thích cầu lông $4$ em.
 
 **Đáp số.** $4$ em.
 :::
@@ -313,11 +382,15 @@ Tính nhanh: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}$.
 2. Cộng lại, các số hạng ở giữa sẽ triệt tiêu nhau.
 
 ::solution
-Ta có $\dfrac{1}{2}=1-\dfrac{1}{2}$, $\dfrac{1}{6}=\dfrac{1}{2}-\dfrac{1}{3}$, $\dfrac{1}{12}=\dfrac{1}{3}-\dfrac{1}{4}$, $\dfrac{1}{20}=\dfrac{1}{4}-\dfrac{1}{5}$.
+Ta nhận thấy các mẫu số là $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$, và mỗi phân số có thể viết thành hiệu của hai phân số:
+$$\frac{1}{2}=1-\frac{1}{2},\quad \frac{1}{6}=\frac{1}{2}-\frac{1}{3},\quad \frac{1}{12}=\frac{1}{3}-\frac{1}{4},\quad \frac{1}{20}=\frac{1}{4}-\frac{1}{5}.$$
 
-Cộng lại: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4}+\dfrac{1}{4}-\dfrac{1}{5}=1-\dfrac{1}{5}=\dfrac{4}{5}$.
+Cộng bốn đẳng thức trên, ta được
+$$\begin{aligned}\frac{1}{2}+\frac{1}{6}+\frac{1}{12}+\frac{1}{20}&=1-\frac{1}{2}+\frac{1}{2}-\frac{1}{3}+\frac{1}{3}-\frac{1}{4}+\frac{1}{4}-\frac{1}{5}\\&=1-\frac{1}{5}=\frac{4}{5}.\end{aligned}$$
 
-**Thử lại.** $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$. Đúng.
+Thử lại: $\dfrac{1}{2}+\dfrac{1}{6}=\dfrac{2}{3}$; $\dfrac{2}{3}+\dfrac{1}{12}=\dfrac{3}{4}$; $\dfrac{3}{4}+\dfrac{1}{20}=\dfrac{4}{5}$ (đúng).
+
+Vậy $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}=\dfrac{4}{5}$.
 
 **Đáp số.** $\dfrac{4}{5}$.
 :::

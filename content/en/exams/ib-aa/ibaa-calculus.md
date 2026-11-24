@@ -122,7 +122,19 @@ Let $f(x)=\dfrac{e^x}{x+1}$, $x\ne-1$. Show that $f'(x)=\dfrac{xe^x}{(x+1)^2}$. 
 **What you need:** $u=e^x$, $v=x+1$.
 
 ::solution
-$f'(x)=\dfrac{e^x(x+1)-e^x\cdot1}{(x+1)^2}=\dfrac{xe^x}{(x+1)^2}$.
+Condition: $x\ne-1$.
+
+Apply the quotient rule $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$ with $u=e^x$ and $v=x+1$. We have $u'=e^x$ and $v'=1$.
+
+Hence
+$$f'(x)=\frac{e^x(x+1)-e^x\cdot1}{(x+1)^2}.$$
+
+Simplifying the numerator: $e^x(x+1)-e^x=xe^x+e^x-e^x=xe^x$. It follows that
+$$f'(x)=\frac{xe^x}{(x+1)^2}.$$
+
+So $f'(x)=\dfrac{xe^x}{(x+1)^2}$ for $x\ne-1$.
+
+**Answer.** $f'(x)=\dfrac{xe^x}{(x+1)^2}$.
 :::
 
 :::exercise Tangent to a logarithm
@@ -132,7 +144,21 @@ Find the equation of the tangent to $y=\ln(2x)$ at $x=\dfrac12$. [4 marks]
 **What you need:** $\dfrac{d}{dx}\ln(2x)=\dfrac{2}{2x}=\dfrac1x$, and the point $\left(\dfrac12,0\right)$.
 
 ::solution
-The gradient is $2$, so $y=2\left(x-\dfrac12\right)=2x-1$.
+Condition: $2x>0$, that is $x>0$. The value $x=\dfrac12$ satisfies the condition.
+
+The $y$-coordinate of the point of tangency is $y\left(\dfrac12\right)=\ln\left(2\cdot\dfrac12\right)=\ln1=0$, so the point is $\left(\dfrac12, 0\right)$.
+
+We have
+$$y'=\frac{(2x)'}{2x}=\frac{2}{2x}=\frac1x.$$
+
+Hence the gradient of the tangent is $y'\left(\dfrac12\right)=2$.
+
+Using the tangent equation $y=y'(x_0)(x-x_0)+y_0$ with $x_0=\dfrac12$ and $y_0=0$, we get
+$$y=2\left(x-\frac12\right)+0=2x-1.$$
+
+So the tangent to the graph at $x=\dfrac12$ has equation $y=2x-1$.
+
+**Answer.** $y=2x-1$.
 :::
 
 :::exercise A stationary point that is not an extremum
@@ -142,7 +168,25 @@ Let $f(x)=x^4-4x^3$. Find the stationary points and determine their nature. [6 m
 **What you need:** $f'(x)=4x^2(x-3)$; check the sign of $f'$ on both sides of each point.
 
 ::solution
-$f'(x)=0$ at $x=0$ and $x=3$. Around $x=0$, $f'$ is negative on both sides: a stationary point of inflection at $(0,0)$. Around $x=3$, $f'$ changes from negative to positive: a minimum at $(3,-27)$.
+We have $f'(x)=4x^3-12x^2=4x^2(x-3)$.
+
+Stationary points satisfy $f'(x)=0$, that is $4x^2(x-3)=0$, so $x=0$ or $x=3$.
+
+The $y$-coordinates are $f(0)=0$ and $f(3)=3^4-4\cdot3^3=81-108=-27$.
+
+Since $4x^2\ge0$, the sign of $f'(x)$ is the sign of $x-3$ (for $x\ne0$). The sign table is:
+
+| $x$ | $(-\infty, 0)$ | $0$ | $(0, 3)$ | $3$ | $(3, +\infty)$ |
+|---|---|---|---|---|---|
+| $f'(x)$ | $-$ | $0$ | $-$ | $0$ | $+$ |
+
+Around $x=0$, $f'(x)$ is negative on both sides, so it does not change sign: $(0, 0)$ is a stationary point of inflection (not an extremum).
+
+Around $x=3$, $f'(x)$ changes from negative to positive: $(3, -27)$ is a minimum.
+
+So the graph has two stationary points: $(0, 0)$ is a stationary point of inflection and $(3, -27)$ is a minimum.
+
+**Answer.** $(0, 0)$ is a stationary point of inflection; $(3, -27)$ is a minimum.
 :::
 
 :::exercise A definite integral
@@ -152,7 +196,20 @@ Evaluate $\displaystyle\int_1^4\left(3\sqrt x-1\right)dx$. [4 marks]
 **What you need:** $\displaystyle\int3x^{1/2}\,dx=2x^{3/2}$.
 
 ::solution
-$\left[2x^{3/2}-x\right]_1^4=(16-4)-(2-1)=11$.
+Find an antiderivative of the integrand. Writing $3\sqrt x=3x^{1/2}$, we have
+$$\int\left(3x^{1/2}-1\right)dx=3\cdot\frac{x^{3/2}}{3/2}-x=2x^{3/2}-x.$$
+
+By the Fundamental Theorem of Calculus,
+$$\int_1^4\left(3\sqrt x-1\right)dx=\Big[2x^{3/2}-x\Big]_1^4.$$
+
+Substituting the limits: $4^{3/2}=8$, so the value at $x=4$ is $2\cdot8-4=12$; the value at $x=1$ is $2\cdot1-1=1$.
+
+Therefore
+$$\int_1^4\left(3\sqrt x-1\right)dx=12-1=11.$$
+
+So the integral equals $11$.
+
+**Answer.** $11$.
 :::
 
 :::exercise From acceleration to velocity
@@ -162,7 +219,21 @@ A particle has acceleration $a(t)=6t$ m s⁻² and initial velocity $-3$ m s⁻�
 **What you need:** $v(t)=\displaystyle\int6t\,dt=3t^2+C$ with $v(0)=-3$.
 
 ::solution
-$v(t)=3t^2-3=0$ at $t=1$ s ($t\ge0$).
+Let $v(t)$ (m s⁻¹) be the velocity of the particle at time $t$ (s), $t\ge0$. We have $v'(t)=a(t)=6t$.
+
+Integrating,
+$$v(t)=\int6t\,dt=3t^2+C.$$
+
+The initial velocity is $v(0)=-3$, so $3\cdot0^2+C=-3$, which gives $C=-3$. Hence $v(t)=3t^2-3$.
+
+The particle is at rest when $v(t)=0$:
+$$3t^2-3=0\iff t^2=1\iff t=1\ \text{or}\ t=-1.$$
+
+Since $t\ge0$, we accept only $t=1$.
+
+So the particle is at rest at time $t=1$ second.
+
+**Answer.** $t=1$ s.
 :::
 
 ## Application exercises
@@ -174,7 +245,22 @@ A farmer has $40$ m of fencing to make a rectangular enclosure against a long st
 **What you need:** if the sides perpendicular to the wall are $x$, then $A=x(40-2x)$.
 
 ::solution
-$A'=40-4x=0$ at $x=10$, and $A''=-4<0$. The maximum area is $10\cdot20=200$ m².
+Let $x$ (m) be the length of each side of the enclosure perpendicular to the wall. Since the wall forms one side, fencing is needed only for the two sides of length $x$ and one side parallel to the wall.
+
+The side parallel to the wall has length $40-2x$ (m). Conditions: $x>0$ and $40-2x>0$, that is $0<x<20$.
+
+The area of the enclosure is
+$$A(x)=x(40-2x)=40x-2x^2\ \ (\text{m}^2).$$
+
+We have $A'(x)=40-4x$. Solving $A'(x)=0$ gives $x=10$ (which satisfies $0<x<20$).
+
+We have $A''(x)=-4<0$, so $A$ has a maximum at $x=10$. Since $A$ is a quadratic function with coefficient $-2<0$, this is also the greatest value on the interval $(0, 20)$.
+
+When $x=10$, the side parallel to the wall has length $40-2\cdot10=20$ m, so the maximum area is $10\cdot20=200$ m².
+
+So the maximum area of the enclosure is $200$ m².
+
+**Answer.** $200$ m².
 :::
 
 :::exercise A can with least material
@@ -188,7 +274,27 @@ A closed cylindrical can has volume $500$ cm³. Find the radius that minimizes i
 2. On Paper 2, check the minimum on the graph of $S$.
 
 ::solution
-$r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ cm, and $S\approx349$ cm².
+Let $r$ (cm) be the radius and $h$ (cm) the height of the can, $r>0$, $h>0$.
+
+The volume is $V=\pi r^2h=500$, so
+$$h=\frac{500}{\pi r^2}.$$
+
+The total surface area (with both ends) is $S=2\pi r^2+2\pi rh$. Substituting $h$, we get
+$$S(r)=2\pi r^2+2\pi r\cdot\frac{500}{\pi r^2}=2\pi r^2+\frac{1000}{r}.$$
+
+We have
+$$S'(r)=4\pi r-\frac{1000}{r^2}.$$
+
+Solving $S'(r)=0$: $4\pi r^3=1000$, so $r^3=\dfrac{250}{\pi}$, that is $r=\sqrt[3]{\dfrac{250}{\pi}}\approx4.30$ (which satisfies $r>0$).
+
+We have $S''(r)=4\pi+\dfrac{2000}{r^3}>0$ for all $r>0$, so $S$ has a minimum at $r=\sqrt[3]{\dfrac{250}{\pi}}$; this is the only stationary point on $(0, +\infty)$, so it gives the minimum area.
+
+Substituting the unrounded value of $r$ into $S(r)$:
+$$S=2\pi r^2+\frac{1000}{r}\approx116.2+232.5\approx349\ \text{cm}^2.$$
+
+So the radius that minimizes the surface area is $r\approx4.30$ cm, and the minimum area is $S\approx349$ cm².
+
+**Answer.** $r\approx4.30$ cm; $S\approx349$ cm².
 :::
 
 :::exercise Between sine and cosine
@@ -198,7 +304,23 @@ Find the area enclosed by $y=\sin x$ and $y=\cos x$ for $\dfrac\pi4\le x\le\dfra
 **What you need:** on this interval $\sin x\ge\cos x$; the curves meet at the endpoints.
 
 ::solution
-$\displaystyle\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}=\sqrt2-\left(-\sqrt2\right)=2\sqrt2$.
+The graphs meet where $\sin x=\cos x$. On the interval $\left[\dfrac\pi4, \dfrac{5\pi}{4}\right]$ these values are $x=\dfrac\pi4$ and $x=\dfrac{5\pi}{4}$, which are exactly the two limits in the question.
+
+Determine the sign of the difference: $\sin x-\cos x=\sqrt2\sin\left(x-\dfrac\pi4\right)$. For $\dfrac\pi4\le x\le\dfrac{5\pi}{4}$ we have $0\le x-\dfrac\pi4\le\pi$, so $\sin\left(x-\dfrac\pi4\right)\ge0$. Hence $\sin x\ge\cos x$ on this interval.
+
+The required area is
+$$A=\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}.$$
+
+Evaluating at the two limits:
+- at $x=\dfrac{5\pi}{4}$: $-\cos\dfrac{5\pi}{4}-\sin\dfrac{5\pi}{4}=\dfrac{\sqrt2}{2}+\dfrac{\sqrt2}{2}=\sqrt2$;
+- at $x=\dfrac\pi4$: $-\cos\dfrac\pi4-\sin\dfrac\pi4=-\dfrac{\sqrt2}{2}-\dfrac{\sqrt2}{2}=-\sqrt2$.
+
+Therefore
+$$A=\sqrt2-\left(-\sqrt2\right)=2\sqrt2.$$
+
+So the area enclosed by the two curves is $2\sqrt2$ (square units).
+
+**Answer.** $2\sqrt2$.
 :::
 
 :::exercise Paper 2 kinematics
@@ -208,7 +330,27 @@ A particle has velocity $v(t)=e^{0.5t}\cos t$ m s⁻¹ for $0\le t\le4$. Find it
 **What you need:** $\displaystyle\int_0^4v\,dt$ and $\displaystyle\int_0^4|v|\,dt$ on the GDC.
 
 ::solution
-Displacement $\approx-6.81$ m; distance $\approx9.51$ m. The particle changes direction at $t=\dfrac\pi2$.
+Let $s$ (m) be the displacement and $d$ (m) the distance traveled for $0\le t\le4$.
+
+Displacement. Using the antiderivative formula (integration by parts twice)
+$$\int e^{at}\cos t\,dt=\frac{e^{at}(a\cos t+\sin t)}{a^2+1}+C$$
+with $a=0.5$, we obtain an antiderivative of $v$:
+$$F(t)=\frac{e^{0.5t}(0.5\cos t+\sin t)}{1.25}=e^{0.5t}(0.4\cos t+0.8\sin t).$$
+
+We have $F(0)=0.4$ and $F(4)=e^{2}(0.4\cos4+0.8\sin4)\approx-6.406$. Therefore
+$$s=\int_0^4v(t)\,dt=F(4)-F(0)\approx-6.406-0.4=-6.81\ \text{m}.$$
+
+Distance. The particle changes direction when $v(t)=0$, that is $\cos t=0$ (since $e^{0.5t}>0$), so $t=\dfrac\pi2+k\pi$. In $[0, 4]$ the only such value is $t=\dfrac\pi2\approx1.57$ (the next one, $\dfrac{3\pi}{2}\approx4.71$, exceeds $4$).
+
+Since $\cos t>0$ on $\left[0, \dfrac\pi2\right)$ and $\cos t<0$ on $\left(\dfrac\pi2, 4\right]$, we have $v>0$ and then $v<0$. Hence
+$$d=\int_0^{\pi/2}v\,dt-\int_{\pi/2}^4v\,dt=2F\left(\frac\pi2\right)-F(0)-F(4).$$
+
+With $F\left(\dfrac\pi2\right)=0.8e^{\pi/4}\approx1.7546$, we get
+$$d\approx2\cdot1.7546-0.4+6.4056\approx9.51\ \text{m}.$$
+
+So the displacement of the particle is about $-6.81$ m (it ends on the negative side of its starting position) and the distance traveled is about $9.51$ m; the particle changes direction at $t=\dfrac\pi2$.
+
+**Answer.** Displacement $\approx-6.81$ m; distance $\approx9.51$ m.
 :::
 
 :::quiz

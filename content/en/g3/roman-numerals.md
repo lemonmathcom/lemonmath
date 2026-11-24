@@ -154,11 +154,15 @@ Read the Roman numerals: a) VIII; b) XIII; c) XVII.
 1. Split each number into X, V, I and add the values.
 
 ::solution
-a) VIII $=5+3=8$.
+Recall the Roman numerals: I is $1$, V is $5$, X is $10$. When a smaller symbol comes after a larger one, we add their values.
 
-b) XIII $=10+3=13$.
+a) VIII is made of V and III, so VIII $=5+3=8$.
 
-c) XVII $=10+5+2=17$.
+b) XIII is made of X and III, so XIII $=10+3=13$.
+
+c) XVII is made of X, V and II, so XVII $=10+5+2=17$.
+
+So VIII is read as $8$, XIII is read as $13$, and XVII is read as $17$.
 
 **Answer.** a) $8$; b) $13$; c) $17$.
 :::
@@ -173,11 +177,15 @@ Write in Roman numerals: a) $6$; b) $14$; c) $20$.
 1. $14$ is $10$ and how many more?
 
 ::solution
-a) $6=5+1$, written VI.
+We split each number into a sum of numbers with familiar Roman numerals ($1$, $5$, $10$), then write each part.
 
-b) $14=10+4$, and $4$ is written IV, so it is written XIV.
+a) $6=5+1$, and $5$ is written V and $1$ is written I, so $6$ is written VI.
 
-c) $20=10+10$, written XX.
+b) $14=10+4$, and $10$ is written X and $4$ is written IV, so $14$ is written XIV.
+
+c) $20=10+10$, and $10$ is written X, so $20$ is written XX.
+
+So $6$ is written VI, $14$ is written XIV, and $20$ is written XX.
 
 **Answer.** a) VI; b) XIV; c) XX.
 :::
@@ -192,11 +200,15 @@ Write in Roman numerals: a) $4$; b) $9$; c) $19$.
 1. Remember not to write a symbol more than three times in a row.
 
 ::solution
-a) $4=5-1$, written IV.
+For the numbers $4$ and $9$, we write the smaller symbol before the larger one to show subtraction.
 
-b) $9=10-1$, written IX.
+a) $4=5-1$, so $4$ is written IV (I before V).
 
-c) $19=10+9$, written XIX.
+b) $9=10-1$, so $9$ is written IX (I before X).
+
+c) $19=10+9$, and $10$ is written X and $9$ is written IX, so $19$ is written XIX.
+
+So $4$ is written IV, $9$ is written IX, and $19$ is written XIX.
 
 **Answer.** a) IV; b) IX; c) XIX.
 :::
@@ -211,11 +223,15 @@ Fill in $>$, $<$ or $=$: a) XIV $\ldots$ XI; b) VIII $\ldots$ IX; c) XX $\ldots$
 1. Convert each Roman numeral to an ordinary number.
 
 ::solution
-a) XIV $=14$ and XI $=11$; $14>11$.
+To compare Roman numerals, we change each one into a familiar number and then compare.
 
-b) VIII $=8$ and IX $=9$; $8<9$.
+a) XIV $=14$ and XI $=11$. Since $14>11$, XIV $>$ XI.
 
-c) XX $=20$ and XIX $=19$; $20>19$.
+b) VIII $=8$ and IX $=9$. Since $8<9$, VIII $<$ IX.
+
+c) XX $=20$ and XIX $=19$. Since $20>19$, XX $>$ XIX.
+
+So the signs to fill in are $>$, $<$, $>$ in that order.
 
 **Answer.** a) $>$; b) $<$; c) $>$.
 :::
@@ -230,9 +246,13 @@ On a clock face the minute hand points at XII. What time does the clock show if 
 1. Convert V and XI to ordinary numbers.
 
 ::solution
-a) V is $5$, so the clock shows $5$ o'clock.
+The minute hand points at XII, so the clock shows an exact hour. The hour is the number that the hour hand points at.
 
-b) XI is $11$, so the clock shows $11$ o'clock.
+a) The hour hand points at V, and V is $5$, so the clock shows $5$ o'clock.
+
+b) The hour hand points at XI, and XI is $11$ (X is $10$, plus I is $1$), so the clock shows $11$ o'clock.
+
+So the clock shows $5$ o'clock in a) and $11$ o'clock in b).
 
 **Answer.** a) $5$ o'clock; b) $11$ o'clock.
 :::
@@ -247,9 +267,17 @@ Work out, writing the result in Roman numerals: a) VI $+$ IX; b) XVIII $-$ XII.
 1. Convert each Roman numeral to an ordinary number.
 
 ::solution
-a) VI $=6$ and IX $=9$, so $6+9=15$. The number $15$ is written XV.
+We change the Roman numerals into familiar numbers, work out the result, then write it in Roman numerals.
 
-b) XVIII $=18$ and XII $=12$, so $18-12=6$. The number $6$ is written VI.
+a) VI $=6$ and IX $=9$, so
+$$6+9=15.$$
+The number $15$ is made of $10$ and $5$, so it is written XV.
+
+b) XVIII $=18$ and XII $=12$, so
+$$18-12=6.$$
+The number $6$ is written VI.
+
+So VI $+$ IX $=$ XV and XVIII $-$ XII $=$ VI.
 
 **Answer.** a) XV; b) VI.
 :::
@@ -264,7 +292,13 @@ Remember comparing numbers. Put the Roman numerals IX, XV, V, XII in order from 
 1. Convert each number to an ordinary number.
 
 ::solution
-IX $=9$, XV $=15$, V $=5$, XII $=12$. Since $5<9<12<15$, the order from smallest to largest is V, IX, XII, XV.
+We change the Roman numerals into familiar numbers: IX $=9$, XV $=15$, V $=5$, XII $=12$.
+
+We compare these numbers: $5<9<12<15$.
+
+From this, the order of the Roman numerals from smallest to largest is V, IX, XII, XV.
+
+So the Roman numerals in order from smallest to largest are V, IX, XII, XV.
 
 **Answer.** V, IX, XII, XV.
 :::
@@ -279,9 +313,16 @@ The clock shows VIII o'clock. In how many hours will the hour hand point at XII?
 1. Work out the number of hours from $8$ o'clock to $12$ o'clock.
 
 ::solution
-VIII is $8$ o'clock and XII is $12$ o'clock. The number of hours to wait is:
+Solution
+
+VIII is $8$ o'clock and XII is $12$ o'clock.
+
+The number of hours to wait until the hour hand points at XII is:
 $$12-8=4\ \text{(hours)}.$$
+
 The number $4$ written in Roman numerals is IV.
+
+So in $4$ hours the hour hand will point at XII, and that number of hours is written IV.
 
 **Answer.** $4$ hours, written IV.
 :::

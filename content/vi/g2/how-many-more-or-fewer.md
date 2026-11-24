@@ -149,8 +149,12 @@ Có 9 cái đĩa và 6 cái cốc. Đĩa nhiều hơn cốc bao nhiêu cái? C�
 2. Hai câu hỏi cùng một phép trừ hay hai phép trừ khác nhau?
 
 ::solution
-Ta có $9>6$ nên đĩa nhiều hơn cốc. Số cái hơn kém nhau là:
-$$9-6=3\ \text{(cái)}.$$
+Để biết hơn kém nhau bao nhiêu, em so sánh hai số rồi lấy số lớn trừ số bé.
+
+Ta có $9>6$ nên đĩa nhiều hơn cốc. Số cái đĩa nhiều hơn số cái cốc, cũng là số cái cốc ít hơn số cái đĩa, là:
+$$9-6=3\ \text{(cái)}$$
+
+Vậy đĩa nhiều hơn cốc $3$ cái, cốc ít hơn đĩa $3$ cái.
 
 **Đáp số.** Đĩa nhiều hơn cốc 3 cái, cốc ít hơn đĩa 3 cái.
 :::
@@ -170,9 +174,15 @@ b) Số 9 kém số 17 là $\square$ đơn vị.
 2. Câu a và câu b có cùng đáp số không?
 
 ::solution
-a) $17-9=8$.
+Muốn tìm số này hơn hoặc kém số kia bao nhiêu đơn vị, em lấy số lớn trừ số bé.
 
-b) $17-9=8$.
+a) Số $17$ lớn hơn số $9$. Số $17$ hơn số $9$ là
+$$17-9=8\ \text{(đơn vị)}.$$
+
+b) Số $9$ bé hơn số $17$. Số $9$ kém số $17$ cũng là
+$$17-9=8\ \text{(đơn vị)}.$$
+
+Vậy cả hai chỗ trống đều điền số $8$.
 
 **Đáp số.** a) 8; b) 8.
 :::
@@ -188,7 +198,10 @@ Trên tia số, hai vạch ghi 5 và 12 cách nhau mấy vạch?
 2. Lấy số lớn trừ số bé.
 
 ::solution
+Trên tia số, hai vạch ghi $5$ và $12$ cách nhau số vạch bằng hiệu của hai số đó. Số lớn là $12$, số bé là $5$, nên ta có
 $$12-5=7.$$
+
+Vậy hai vạch ghi $5$ và $12$ cách nhau $7$ vạch.
 
 **Đáp số.** 7 vạch.
 :::
@@ -207,9 +220,12 @@ Lan có 14 bông hoa giấy, Mai có 8 bông hoa giấy. Bạn nào có nhiều 
 ::solution
 Bài giải
 
-Số bông hoa Lan nhiều hơn Mai là:
-$$14-8=6\ \text{(bông)}.$$
-Đáp số: Lan nhiều hơn, nhiều hơn 6 bông hoa.
+Ta có $14>8$ nên Lan có nhiều hoa hơn Mai. Số bông hoa Lan nhiều hơn Mai là:
+$$14-8=6\ \text{(bông)}$$
+
+Vậy Lan có nhiều hoa hơn, nhiều hơn $6$ bông hoa.
+
+**Đáp số.** Lan nhiều hơn, nhiều hơn 6 bông hoa.
 :::
 
 :::exercise
@@ -226,9 +242,12 @@ Giả sử ngày thứ nhất một cửa hàng bán 36 chiếc bánh, ngày th�
 ::solution
 Bài giải
 
-Ta có $36>25$ nên ngày thứ nhất bán nhiều hơn. Số bánh ngày thứ nhất bán nhiều hơn là:
-$$36-25=11\ \text{(chiếc)}.$$
-Đáp số: ngày thứ nhất, nhiều hơn 11 chiếc bánh.
+Ta có $36>25$ nên ngày thứ nhất bán nhiều hơn ngày thứ hai. Số bánh ngày thứ nhất bán nhiều hơn là:
+$$36-25=11\ \text{(chiếc)}$$
+
+Vậy ngày thứ nhất bán nhiều hơn, nhiều hơn $11$ chiếc bánh.
+
+**Đáp số.** ngày thứ nhất, nhiều hơn 11 chiếc bánh.
 :::
 
 :::exercise
@@ -246,8 +265,11 @@ Giả sử sân trường có 28 cây phượng và 15 cây bàng. Cây bàng í
 Bài giải
 
 Số cây bàng ít hơn số cây phượng là:
-$$28-15=13\ \text{(cây)}.$$
-Đáp số: 13 cây.
+$$28-15=13\ \text{(cây)}$$
+
+Vậy cây bàng ít hơn cây phượng $13$ cây.
+
+**Đáp số.** 13 cây.
 :::
 
 :::exercise
@@ -261,7 +283,15 @@ Nhớ lại tên các thành phần của phép trừ. Nam có 9 viên bi, Hà c
 2. Gọi tên từng số.
 
 ::solution
-Trong phép trừ $15-9=6$: $15$ là số bị trừ, $9$ là số trừ, $6$ là hiệu.
+Phép trừ có ba thành phần: số bị trừ, số trừ và hiệu. Số đứng đầu là số bị trừ, số đứng sau dấu trừ là số trừ, kết quả là hiệu.
+
+Trong phép trừ $15-9=6$:
+
+- $15$ là số bị trừ;
+- $9$ là số trừ;
+- $6$ là hiệu. Hiệu này cho biết Hà nhiều hơn Nam $6$ viên bi.
+
+Vậy số bị trừ là $15$, số trừ là $9$ và hiệu là $6$.
 
 **Đáp số.** Số bị trừ là 15, số trừ là 9, hiệu là 6.
 :::
@@ -277,8 +307,12 @@ Ba bạn Lan, Mai, Hà có lần lượt 9, 14 và 6 bông hoa giấy. Bạn có
 2. Tính hiệu của hai số ấy.
 
 ::solution
-Số lớn nhất là 14 (Mai), số bé nhất là 6 (Hà). Ta có:
-$$14-6=8.$$
+Em so sánh ba số $9$, $14$ và $6$. Số lớn nhất là $14$ (của Mai), số bé nhất là $6$ (của Hà).
+
+Số bông hoa của bạn có nhiều hoa nhất hơn bạn có ít hoa nhất là:
+$$14-6=8\ \text{(bông)}$$
+
+Vậy bạn có nhiều hoa nhất hơn bạn có ít hoa nhất $8$ bông hoa.
 
 **Đáp số.** 8 bông hoa.
 :::

@@ -149,8 +149,12 @@ There are 9 plates and 6 cups. How many more plates than cups are there? How man
 2. Are the two questions the same subtraction or two different ones?
 
 ::solution
-We have $9>6$, so there are more plates than cups. The difference is:
-$$9-6=3\ \text{(items)}.$$
+To find how many more or fewer, we compare the two numbers and subtract the smaller from the larger.
+
+We have $9>6$, so there are more plates than cups. The number of plates more than cups, which is also the number of cups fewer than plates, is:
+$$9-6=3\ \text{(items)}$$
+
+So there are $3$ more plates than cups, and $3$ fewer cups than plates.
 
 **Answer.** There are 3 more plates than cups, and 3 fewer cups than plates.
 :::
@@ -170,9 +174,15 @@ b) The number 9 is $\square$ less than 17.
 2. Do parts a and b have the same answer?
 
 ::solution
-a) $17-9=8$.
+To find how many more or less one number is than another, we subtract the smaller number from the larger.
 
-b) $17-9=8$.
+a) The number $17$ is larger than $9$. The number $17$ is more than $9$ by
+$$17-9=8.$$
+
+b) The number $9$ is smaller than $17$. The number $9$ is less than $17$ by
+$$17-9=8.$$
+
+So both boxes are filled with $8$.
 
 **Answer.** a) 8; b) 8.
 :::
@@ -188,7 +198,10 @@ On a number line, how many marks apart are the marks labelled 5 and 12?
 2. Subtract the smaller number from the larger.
 
 ::solution
+On a number line, the number of marks between the marks labelled $5$ and $12$ is the difference of the two numbers. The larger number is $12$ and the smaller is $5$, so we have
 $$12-5=7.$$
+
+So the marks labelled $5$ and $12$ are $7$ marks apart.
 
 **Answer.** 7 marks.
 :::
@@ -207,9 +220,12 @@ Lan has 14 paper flowers and Mai has 8 paper flowers. Who has more flowers? How 
 ::solution
 Solution
 
-The number of flowers Lan has more than Mai is:
-$$14-8=6\ \text{(flowers)}.$$
-Answer: Lan has more, by 6 flowers.
+We have $14>8$, so Lan has more flowers than Mai. The number of flowers Lan has more than Mai is:
+$$14-8=6\ \text{(flowers)}$$
+
+So Lan has more flowers, by $6$ flowers.
+
+**Answer.** Lan has more, by 6 flowers.
 :::
 
 :::exercise
@@ -226,9 +242,12 @@ Suppose on the first day a shop sells 36 cakes and on the second day it sells 25
 ::solution
 Solution
 
-We have $36>25$, so more cakes are sold on the first day. The number of extra cakes is:
-$$36-25=11\ \text{(cakes)}.$$
-Answer: the first day, by 11 cakes.
+We have $36>25$, so more cakes are sold on the first day than on the second day. The number of extra cakes is:
+$$36-25=11\ \text{(cakes)}$$
+
+So the shop sells more on the first day, by $11$ cakes.
+
+**Answer.** the first day, by 11 cakes.
 :::
 
 :::exercise
@@ -246,8 +265,11 @@ Suppose the school playground has 28 flame trees and 15 banyan trees. How many f
 Solution
 
 The number of banyan trees is fewer than the number of flame trees by:
-$$28-15=13\ \text{(trees)}.$$
-Answer: 13 trees.
+$$28-15=13\ \text{(trees)}$$
+
+So there are $13$ fewer banyan trees than flame trees.
+
+**Answer.** 13 trees.
 :::
 
 :::exercise
@@ -261,7 +283,15 @@ Remember the names of the parts of a subtraction. Nam has 9 marbles and Ha has 1
 2. Name each number.
 
 ::solution
-In the subtraction $15-9=6$: $15$ is the minuend, $9$ is the subtrahend and $6$ is the difference.
+A subtraction has three parts: the minuend, the subtrahend and the difference. The first number is the minuend, the number after the minus sign is the subtrahend, and the result is the difference.
+
+In the subtraction $15-9=6$:
+
+- $15$ is the minuend;
+- $9$ is the subtrahend;
+- $6$ is the difference. This difference tells us that Ha has $6$ more marbles than Nam.
+
+So the minuend is $15$, the subtrahend is $9$ and the difference is $6$.
 
 **Answer.** The minuend is 15, the subtrahend is 9 and the difference is 6.
 :::
@@ -277,8 +307,12 @@ Lan, Mai and Ha have 9, 14 and 6 paper flowers respectively. How many more flowe
 2. Work out the difference between those two numbers.
 
 ::solution
-The largest number is 14 (Mai) and the smallest is 6 (Ha). We have:
-$$14-6=8.$$
+We compare the three numbers $9$, $14$ and $6$. The largest is $14$ (Mai's) and the smallest is $6$ (Ha's).
+
+The number of flowers the child with the most has more than the child with the fewest is:
+$$14-6=8\ \text{(flowers)}$$
+
+So the child with the most flowers has $8$ more flowers than the child with the fewest.
 
 **Answer.** 8 flowers.
 :::

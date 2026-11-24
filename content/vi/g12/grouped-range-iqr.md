@@ -190,8 +190,19 @@ Khối lượng (g) của $40$ quả táo được cho trong bảng. Tính $R$, 
 3. Thay vào công thức.
 
 ::solution
-Tần số tích luỹ: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
-$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182{,}5.$$
+Cỡ mẫu là $n=4+10+14+8+4=40$. Tần số tích luỹ của các nhóm là $4$, $14$, $28$, $36$, $40$.
+
+Khoảng biến thiên là hiệu giữa đầu mút phải của nhóm cuối và đầu mút trái của nhóm đầu: $R=200-150=50$.
+
+Với $\dfrac n4=10$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $10$ là $[160; 170)$ (vì $4<10\le14$). Áp dụng công thức tứ phân vị thứ nhất:
+$$Q_1=160+\frac{10-4}{10}\cdot10=166.$$
+
+Với $\dfrac{3n}{4}=30$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $30$ là $[180; 190)$ (vì $28<30\le36$). Do đó
+$$Q_3=180+\frac{30-28}{8}\cdot10=182{,}5.$$
+
+Khoảng tứ phân vị là $\Delta_Q=Q_3-Q_1=182{,}5-166=16{,}5$.
+
+Vậy $R=50$ g, $Q_1=166$, $Q_3=182{,}5$ và $\Delta_Q=16{,}5$ g.
 
 **Đáp số.** $R=50$ g, $Q_1=166$, $Q_3=182{,}5$, $\Delta_Q=16{,}5$ g.
 :::
@@ -211,7 +222,17 @@ Thời gian đọc sách mỗi ngày (phút) của $50$ học sinh được cho 
 2. Chọn nhóm cho mỗi vị trí và thay vào công thức.
 
 ::solution
-$$Q_1=20+\frac{12{,}5-5}{9}\cdot20=20+\frac{50}{3}\approx36{,}67,\qquad Q_3=60+\frac{37{,}5-30}{12}\cdot20=72{,}5.$$
+Cỡ mẫu là $n=5+9+16+12+8=50$. Tần số tích luỹ là $5$, $14$, $30$, $42$, $50$.
+
+Với $\dfrac n4=12{,}5$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $12{,}5$ là $[20; 40)$ (vì $5<12{,}5\le14$). Do đó
+$$Q_1=20+\frac{12{,}5-5}{9}\cdot20=20+\frac{50}{3}=\frac{110}{3}\approx36{,}67.$$
+
+Với $\dfrac{3n}{4}=37{,}5$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $37{,}5$ là $[60; 80)$ (vì $30<37{,}5\le42$). Do đó
+$$Q_3=60+\frac{37{,}5-30}{12}\cdot20=72{,}5.$$
+
+Khoảng tứ phân vị là $\Delta_Q=72{,}5-\dfrac{110}{3}\approx35{,}83$.
+
+Vậy $Q_1\approx36{,}67$ phút, $Q_3=72{,}5$ phút và $\Delta_Q\approx35{,}83$ phút.
 
 **Đáp số.** $Q_1\approx36{,}67$; $Q_3=72{,}5$; $\Delta_Q\approx35{,}83$ phút.
 :::
@@ -234,11 +255,17 @@ Tính khoảng tứ phân vị của mỗi loại. Nếu khách hàng cần th�
 2. Tính $Q_1$, $Q_3$ rồi $\Delta_Q$ cho mỗi loại và so sánh.
 
 ::solution
-Loại X (tích luỹ $3$, $13$, $37$, $47$, $50$):
-$$Q_1=10+\frac{12{,}5-3}{10}\cdot2=11{,}9,\qquad Q_3=14+\frac{37{,}5-37}{10}\cdot2=14{,}1,\qquad \Delta_Q=2{,}2.$$
-Loại Y (tích luỹ $8$, $20$, $30$, $42$, $50$):
-$$Q_1=10+\frac{12{,}5-8}{12}\cdot2=10{,}75,\qquad Q_3=14+\frac{37{,}5-30}{12}\cdot2=15{,}25,\qquad \Delta_Q=4{,}5.$$
-Hai loại có cùng $R=10$ giờ, nhưng $\Delta_Q$ của X nhỏ hơn nhiều.
+Mỗi loại có $n=50$ chiếc nên $\dfrac n4=12{,}5$ và $\dfrac{3n}{4}=37{,}5$.
+
+Loại X: tần số tích luỹ là $3$, $13$, $37$, $47$, $50$. Vì $3<12{,}5\le13$ nên $Q_1$ thuộc nhóm $[10; 12)$; vì $37<37{,}5\le47$ nên $Q_3$ thuộc nhóm $[14; 16)$. Do đó
+$$Q_1=10+\frac{12{,}5-3}{10}\cdot2=11{,}9,\qquad Q_3=14+\frac{37{,}5-37}{10}\cdot2=14{,}1,\qquad \Delta_Q=14{,}1-11{,}9=2{,}2.$$
+
+Loại Y: tần số tích luỹ là $8$, $20$, $30$, $42$, $50$. Vì $8<12{,}5\le20$ nên $Q_1$ thuộc nhóm $[10; 12)$; vì $30<37{,}5\le42$ nên $Q_3$ thuộc nhóm $[14; 16)$. Do đó
+$$Q_1=10+\frac{12{,}5-8}{12}\cdot2=10{,}75,\qquad Q_3=14+\frac{37{,}5-30}{12}\cdot2=15{,}25,\qquad \Delta_Q=15{,}25-10{,}75=4{,}5.$$
+
+Hai loại có cùng khoảng biến thiên $R=18-8=10$ giờ, nên $R$ không phân biệt được. Khoảng tứ phân vị càng nhỏ thì nửa giữa của mẫu số liệu càng tập trung, tức là thời lượng pin càng ổn định. Vì $2{,}2<4{,}5$ nên $\Delta_Q$ của X nhỏ hơn nhiều.
+
+Vậy $\Delta_Q=2{,}2$ giờ (loại X) và $\Delta_Q=4{,}5$ giờ (loại Y); khách hàng cần thời lượng pin ổn định nên chọn loại X.
 
 **Đáp số.** $\Delta_Q=2{,}2$ giờ (X) và $4{,}5$ giờ (Y); nên chọn loại X.
 :::
@@ -268,13 +295,21 @@ d) Khoảng tứ phân vị lớn hơn $4$.
 2. Tính $Q_1$, $Q_3$ rồi $\Delta_Q$.
 
 ::solution
-a) **Đúng.** $R=10-0=10$.
+Cỡ mẫu là $n=3+7+10+6+4=30$. Tần số tích luỹ là $3$, $10$, $20$, $26$, $30$.
 
-b) **Đúng.** $3<7{,}5\le10$, và $Q_1=2+\dfrac{7{,}5-3}{7}\cdot2=\dfrac{23}{7}\approx3{,}29$.
+a) **Đúng.** Khoảng biến thiên bằng đầu mút phải của nhóm cuối trừ đầu mút trái của nhóm đầu: $R=10-0=10$.
 
-c) **Đúng.** $20<22{,}5\le26$, nên $Q_3=6+\dfrac{22{,}5-20}{6}\cdot2=\dfrac{41}{6}\approx6{,}83$.
+b) **Đúng.** Ta có $\dfrac n4=7{,}5$ và $3<7{,}5\le10$ nên $Q_1$ thuộc nhóm $[2; 4)$. Cụ thể,
+$$Q_1=2+\frac{7{,}5-3}{7}\cdot2=\frac{23}{7}\approx3{,}29.$$
 
-d) **Sai.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3{,}55<4$.
+c) **Đúng.** Ta có $\dfrac{3n}{4}=22{,}5$ và $20<22{,}5\le26$ nên $Q_3$ thuộc nhóm $[6; 8)$. Do đó
+$$Q_3=6+\frac{22{,}5-20}{6}\cdot2=\frac{41}{6}\approx6{,}83.$$
+
+d) **Sai.** Khoảng tứ phân vị là
+$$\Delta_Q=Q_3-Q_1=\frac{41}{6}-\frac{23}{7}=\frac{287-138}{42}=\frac{149}{42}\approx3{,}55.$$
+Vì $3{,}55<4$ nên $\Delta_Q$ không lớn hơn $4$.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -294,8 +329,20 @@ Cân nặng (kg) của $40$ học sinh được cho trong bảng. Tính khoảng
 2. Vị trí $10$ thuộc $[45; 50)$, vị trí $30$ thuộc $[55; 60)$.
 
 ::solution
-$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48{,}33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56{,}25.$$
-$$\Delta_Q=56{,}25-\frac{145}{3}\approx7{,}9167.$$
+Cỡ mẫu là $n=4+9+15+8+4=40$. Tần số tích luỹ là $4$, $13$, $28$, $36$, $40$.
+
+Với $\dfrac n4=10$: vì $4<10\le13$ nên $Q_1$ thuộc nhóm $[45; 50)$. Do đó
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48{,}33.$$
+
+Với $\dfrac{3n}{4}=30$: vì $28<30\le36$ nên $Q_3$ thuộc nhóm $[55; 60)$. Do đó
+$$Q_3=55+\frac{30-28}{8}\cdot5=56{,}25.$$
+
+Khoảng tứ phân vị là
+$$\Delta_Q=Q_3-Q_1=56{,}25-\frac{145}{3}\approx7{,}9167.$$
+
+Làm tròn đến hàng phần trăm, ta được $\Delta_Q\approx7{,}92$.
+
+Vậy khoảng tứ phân vị của mẫu số liệu là khoảng $7{,}92$ kg.
 
 **Đáp số.** $7{,}92$.
 :::
@@ -311,8 +358,14 @@ $$\Delta_Q=56{,}25-\frac{145}{3}\approx7{,}9167.$$
 2. Nhóm chứa $M_e$ là $[170; 180)$, với $C=14$, $n_m=14$.
 
 ::solution
+Với bảng khối lượng táo ở Bài 1, cỡ mẫu là $n=40$ và tần số tích luỹ là $4$, $14$, $28$, $36$, $40$.
+
+Trung vị ứng với $\dfrac n2=20$. Vì $14<20\le28$ nên $M_e$ thuộc nhóm $[170; 180)$. Áp dụng công thức trung vị của mẫu số liệu ghép nhóm:
 $$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174{,}29.$$
-Vì $166<174{,}29<182{,}5$, ta có $Q_1<M_e<Q_3$.
+
+Ở Bài 1 ta có $Q_1=166$ và $Q_3=182{,}5$. Vì $166<174{,}29<182{,}5$ nên $Q_1<M_e<Q_3$.
+
+Vậy trung vị là $M_e\approx174{,}29$ g và $Q_1<M_e<Q_3$.
 
 **Đáp số.** $M_e\approx174{,}29$ g.
 :::
@@ -332,10 +385,23 @@ b) Ghép thành ba nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ rồi tính $R$ và $
 2. b) Đếm tần số mỗi nhóm; vị trí $3$ và $9$.
 
 ::solution
-a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9{,}5$, $Q_3=\dfrac{18+21}{2}=19{,}5$, $\Delta_Q=10$.
+a) Mẫu số liệu gốc gồm $12$ giá trị đã sắp xếp tăng dần. Khoảng biến thiên là $R=29-3=26$.
 
-b) Tần số $3$, $6$, $3$ (tích luỹ $3$, $9$, $12$), $R=30$.
-$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+Trung vị nằm giữa giá trị thứ $6$ và thứ $7$. Nửa dưới gồm $3, 7, 8, 11, 12, 14$ nên $Q_1$ là trung vị của nửa dưới: $Q_1=\dfrac{8+11}{2}=9{,}5$. Nửa trên gồm $15, 16, 18, 21, 24, 29$ nên $Q_3=\dfrac{18+21}{2}=19{,}5$.
+
+Do đó $\Delta_Q=19{,}5-9{,}5=10$.
+
+b) Các nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ có tần số $3$, $6$, $3$ (gồm $3, 7, 8$; rồi $11, 12, 14, 15, 16, 18$; rồi $21, 24, 29$). Tần số tích luỹ là $3$, $9$, $12$ và $n=12$. Khoảng biến thiên là $R=30-0=30$.
+
+Với $\dfrac n4=3$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $3$ là $[0; 10)$, nên
+$$Q_1=0+\frac{3-0}{3}\cdot10=10.$$
+
+Với $\dfrac{3n}{4}=9$: nhóm đầu tiên có tần số tích luỹ không nhỏ hơn $9$ là $[10; 20)$, nên
+$$Q_3=10+\frac{9-3}{6}\cdot10=20.$$
+
+Do đó $\Delta_Q=20-10=10$.
+
+Vậy mẫu gốc có $R=26$, $\Delta_Q=10$; mẫu ghép nhóm có $R=30$, $\Delta_Q=10$. Ở đây $\Delta_Q$ xấp xỉ rất tốt, còn $R$ thì lớn hơn thực tế.
 
 **Đáp số.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Ở đây $\Delta_Q$ xấp xỉ rất tốt, còn $R$ thì lớn hơn thực tế.
 :::
@@ -351,8 +417,16 @@ $$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \De
 2. Tính ngưỡng trên và so sánh với $62$.
 
 ::solution
-$\Delta_Q=17{,}5$ và $1{,}5\,\Delta_Q=26{,}25$. Ngưỡng trên là
-$$Q_3+1{,}5\,\Delta_Q=32{,}5+26{,}25=58{,}75<62.$$
+Theo quy tắc $1{,}5\,\Delta_Q$, một giá trị là bất thường nếu nó lớn hơn $Q_3+1{,}5\,\Delta_Q$ hoặc nhỏ hơn $Q_1-1{,}5\,\Delta_Q$.
+
+Với $Q_1=15$ và $Q_3=32{,}5$, ta có $\Delta_Q=32{,}5-15=17{,}5$ và $1{,}5\,\Delta_Q=1{,}5\cdot17{,}5=26{,}25$.
+
+Ngưỡng trên là
+$$Q_3+1{,}5\,\Delta_Q=32{,}5+26{,}25=58{,}75.$$
+
+Vì $62>58{,}75$ nên thời gian $62$ phút vượt ngưỡng trên.
+
+Vậy $62$ phút là giá trị bất thường so với lớp.
 
 **Đáp số.** Có, $62$ phút là giá trị bất thường so với lớp.
 :::
@@ -374,8 +448,15 @@ Biết $Q_1=13{,}75$ và $Q_1$ thuộc nhóm $[10; 20)$. Tìm $x$.
 2. Giải phương trình rồi kiểm tra điều kiện chọn nhóm.
 
 ::solution
-$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13{,}75\iff\frac{x+4}{4x}\cdot10=3{,}75\iff 10x+40=15x\iff x=8.$$
-**Kiểm tra.** $n=28$, $\frac n4=7$ và $4<7\le12$, nên $Q_1$ đúng là thuộc $[10; 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13{,}75$.
+Cỡ mẫu là $n=4+x+10+6=20+x$, nên $\dfrac n4=\dfrac{20+x}{4}$. Vì $Q_1$ thuộc nhóm $[10; 20)$, có tần số $x$ và tần số tích luỹ của nhóm trước là $4$, nên
+$$Q_1=10+\frac{\frac{20+x}{4}-4}{x}\cdot10.$$
+
+Theo đề, $Q_1=13{,}75$. Ta có $\dfrac{20+x}{4}-4=\dfrac{x+4}{4}$ nên phương trình trở thành
+$$10+\frac{x+4}{4x}\cdot10=13{,}75\iff\frac{x+4}{4x}\cdot10=3{,}75\iff 10x+40=15x\iff x=8.$$
+
+Kiểm tra: $x=8$ là số nguyên dương. Khi đó $n=28$, $\dfrac n4=7$ và $4<7\le12$ nên $Q_1$ đúng là thuộc nhóm $[10; 20)$; thật vậy, $Q_1=10+\dfrac{7-4}{8}\cdot10=13{,}75$.
+
+Vậy $x=8$.
 
 **Đáp số.** $x=8$.
 :::

@@ -192,7 +192,13 @@ Một hình gồm hai hàng ô vuông $1\ \text{cm}^2$, mỗi hàng có $5$ ô. 
 1. Có tất cả bao nhiêu ô vuông?
 
 ::solution
-Số ô vuông là $5+5=10$, mỗi ô có diện tích $1\ \text{cm}^2$.
+Hình gồm hai hàng ô vuông, mỗi hàng có $5$ ô, nên số ô vuông của hình là
+$$5+5=10\ \text{(ô)}.$$
+
+Mỗi ô vuông có diện tích $1\ \text{cm}^2$ nên diện tích của hình là
+$$10\times1=10\ (\text{cm}^2).$$
+
+Vậy hình đó có diện tích $10\ \text{cm}^2$.
 
 **Đáp số.** $10\ \text{cm}^2$.
 :::
@@ -207,8 +213,13 @@ Tính diện tích hình chữ nhật có chiều dài $8$ cm, chiều rộng $3
 1. Viết phép nhân $8\times 3$.
 
 ::solution
+Muốn tính diện tích hình chữ nhật, ta lấy chiều dài nhân với chiều rộng (cùng một đơn vị đo).
+
 Diện tích hình chữ nhật là:
-$$8\times 3=24\ (\text{cm}^2).$$
+$$8\times3=24\ (\text{cm}^2).$$
+
+Vậy hình chữ nhật có diện tích $24\ \text{cm}^2$.
+
 **Đáp số.** $24\ \text{cm}^2$.
 :::
 
@@ -222,8 +233,13 @@ Tính diện tích hình vuông có cạnh $7$ cm.
 1. Viết phép nhân $7\times 7$.
 
 ::solution
+Muốn tính diện tích hình vuông, ta lấy độ dài cạnh nhân với chính nó.
+
 Diện tích hình vuông là:
-$$7\times 7=49\ (\text{cm}^2).$$
+$$7\times7=49\ (\text{cm}^2).$$
+
+Vậy hình vuông có diện tích $49\ \text{cm}^2$.
+
 **Đáp số.** $49\ \text{cm}^2$.
 :::
 
@@ -238,8 +254,13 @@ Nắp một hộp bánh hình chữ nhật dài $15$ cm, rộng $9$ cm. Hỏi di
 2. Viết phép nhân $15\times 9$.
 
 ::solution
-Diện tích nắp hộp là:
-$$15\times 9=135\ (\text{cm}^2).$$
+Bài giải
+
+Nắp hộp hình chữ nhật nên diện tích nắp hộp bằng chiều dài nhân chiều rộng:
+$$15\times9=135\ (\text{cm}^2).$$
+
+Vậy diện tích nắp hộp là $135\ \text{cm}^2$.
+
 **Đáp số.** $135\ \text{cm}^2$.
 :::
 
@@ -253,9 +274,15 @@ Hình $A$ là hình chữ nhật dài $9$ cm, rộng $4$ cm. Hình $B$ là hình
 1. Tính $9\times 4$ và $6\times 6$.
 
 ::solution
-Diện tích hình $A$ là $9\times 4=36\ (\text{cm}^2)$. Diện tích hình $B$ là $6\times 6=36\ (\text{cm}^2)$.
+Hình $A$ là hình chữ nhật nên diện tích hình $A$ là
+$$9\times4=36\ (\text{cm}^2).$$
 
-Hai diện tích bằng nhau: $36=36$.
+Hình $B$ là hình vuông nên diện tích hình $B$ là
+$$6\times6=36\ (\text{cm}^2).$$
+
+So sánh hai diện tích: $36=36$.
+
+Vậy hai hình có diện tích bằng nhau, không có hình nào lớn hơn.
 
 **Đáp số.** Hai hình có diện tích bằng nhau.
 :::
@@ -271,10 +298,19 @@ Một tờ giấy hình chữ nhật dài $10$ cm, rộng $6$ cm. Cắt bỏ m�
 2. Lấy diện tích tờ giấy trừ diện tích hình vuông.
 
 ::solution
-Diện tích tờ giấy là $10\times 6=60\ (\text{cm}^2)$. Diện tích hình vuông bị cắt là $2\times 2=4\ (\text{cm}^2)$.
+Bài giải
+
+Diện tích tờ giấy là:
+$$10\times6=60\ (\text{cm}^2).$$
+
+Diện tích hình vuông bị cắt bỏ là:
+$$2\times2=4\ (\text{cm}^2).$$
 
 Diện tích phần giấy còn lại là:
 $$60-4=56\ (\text{cm}^2).$$
+
+Vậy phần giấy còn lại có diện tích $56\ \text{cm}^2$.
+
 **Đáp số.** $56\ \text{cm}^2$.
 :::
 
@@ -288,8 +324,17 @@ Em nhớ lại biểu thức số. Một tấm bìa gồm hai hình chữ nhật
 1. Viết diện tích mỗi hình chữ nhật, rồi cộng.
 
 ::solution
-Tổng diện tích tấm bìa là:
-$$5\times 3+4\times 3=15+12=27\ (\text{cm}^2).$$
+Bài giải
+
+Diện tích hình chữ nhật thứ nhất là $5\times3=15\ (\text{cm}^2)$.
+
+Diện tích hình chữ nhật thứ hai là $4\times3=12\ (\text{cm}^2)$.
+
+Tổng diện tích tấm bìa bằng tổng diện tích hai hình chữ nhật. Biểu thức là $5\times3+4\times3$. Ta tính:
+$$5\times3+4\times3=15+12=27\ (\text{cm}^2).$$
+
+Vậy tổng diện tích tấm bìa là $27\ \text{cm}^2$.
+
 **Đáp số.** $27\ \text{cm}^2$.
 :::
 
@@ -304,10 +349,18 @@ Một hình vuông có chu vi $24$ cm. Tính diện tích hình vuông đó.
 2. Tính diện tích.
 
 ::solution
-Độ dài một cạnh hình vuông là:
+Bài giải
+
+Hình vuông có bốn cạnh bằng nhau nên độ dài một cạnh bằng chu vi chia cho $4$:
 $$24:4=6\ (\text{cm}).$$
+
 Diện tích hình vuông là:
-$$6\times 6=36\ (\text{cm}^2).$$
+$$6\times6=36\ (\text{cm}^2).$$
+
+Thử lại: chu vi hình vuông cạnh $6$ cm là $6\times4=24$ (cm). Đúng.
+
+Vậy hình vuông đó có diện tích $36\ \text{cm}^2$.
+
 **Đáp số.** $36\ \text{cm}^2$.
 :::
 

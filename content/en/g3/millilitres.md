@@ -172,9 +172,13 @@ Convert to millilitres: a) $5\ \text{l}$; b) $3\ \text{l}\ 200\ \text{ml}$.
 1. Convert the litres to millilitres, then add the extra millilitres.
 
 ::solution
-a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
+a) Since $1\ \text{l}=1000\ \text{ml}$, we multiply $5$ by $1000$:
+$$5\ \text{l}=5\times 1000=5000\ \text{ml}$$
 
-b) $3\ \text{l}=3000\ \text{ml}$, so $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
+b) We have $3\ \text{l}=3000\ \text{ml}$, so:
+$$3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$$
+
+So $5\ \text{l}=5000\ \text{ml}$ and $3\ \text{l}\ 200\ \text{ml}=3200\ \text{ml}$.
 
 **Answer.** a) $5000$ ml; b) $3200$ ml.
 :::
@@ -189,7 +193,13 @@ Convert $2500\ \text{ml}$ to litres and millilitres.
 1. Split $2500\ \text{ml}$ into $2000\ \text{ml}$ and $500\ \text{ml}$.
 
 ::solution
-$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
+We split $2500\ \text{ml}$ into whole thousands of millilitres and the rest:
+$$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}$$
+
+Since $2000\ \text{ml}=2\ \text{l}$, we get:
+$$2500\ \text{ml}=2\ \text{l}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$$
+
+So $2500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
 
 **Answer.** $2\ \text{l}\ 500\ \text{ml}$.
 :::
@@ -204,7 +214,12 @@ Fill in $>$, $<$ or $=$: $1\ \text{l}\ 300\ \text{ml}\ \ldots\ 1200\ \text{ml}$.
 1. Convert $1\ \text{l}\ 300\ \text{ml}$ to millilitres.
 
 ::solution
-$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Since $1300>1200$, we have $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
+To compare, we convert $1\ \text{l}\ 300\ \text{ml}$ to millilitres:
+$$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$$
+
+Comparing the numbers $1300$ and $1200$, we see that $1300>1200$.
+
+So $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
 
 **Answer.** $>$.
 :::
@@ -220,9 +235,14 @@ The first jug holds $600$ ml of water and the second jug holds $800$ ml. How man
 2. Split the result into $1000\ \text{ml}$ and the rest.
 
 ::solution
+Solution
+
 The number of millilitres of water in the two jugs is:
-$$600+800=1400\ \text{(ml)}.$$
-Since $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$, we have $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+$$600+800=1400\ \text{(ml)}$$
+
+We write the result in litres and millilitres: $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$. Since $1000\ \text{ml}=1\ \text{l}$, we have $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
+
+So the two jugs hold $1400$ ml of water altogether, which is $1\ \text{l}\ 400\ \text{ml}$.
 
 **Answer.** $1400$ ml, which is $1\ \text{l}\ 400\ \text{ml}$.
 :::
@@ -238,10 +258,16 @@ Mum pours $3$ cups of orange juice, $300$ ml in each cup. How many millilitres o
 2. Subtract it from $1000$.
 
 ::solution
+Solution
+
 The number of millilitres of orange juice Mum has poured is:
-$$300\times 3=900\ \text{(ml)}.$$
-The amount less than $1$ l is:
-$$1000-900=100\ \text{(ml)}.$$
+$$300\times 3=900\ \text{(ml)}$$
+
+Since $1\ \text{l}=1000\ \text{ml}$, the number of millilitres less than $1$ l is:
+$$1000-900=100\ \text{(ml)}$$
+
+So Mum has poured $900$ ml of orange juice, which is $100$ ml less than $1$ l.
+
 **Answer.** $900$ ml; it is $100$ ml less than $1$ l.
 :::
 
@@ -256,10 +282,16 @@ In the morning the temperature is $22\ ^\circ\text{C}$. At noon it rises by $9\ 
 2. From that, find the temperature in the afternoon.
 
 ::solution
-The temperature at noon is:
-$$22+9=31\ (^\circ\text{C}).$$
-The temperature in the afternoon is:
-$$31-5=26\ (^\circ\text{C}).$$
+Solution
+
+At noon the temperature rises by $9\ ^\circ\text{C}$, so we add. The temperature at noon is:
+$$22+9=31\ (^\circ\text{C})$$
+
+In the afternoon the temperature falls by $5\ ^\circ\text{C}$, so we subtract. The temperature in the afternoon is:
+$$31-5=26\ (^\circ\text{C})$$
+
+So the temperature in the afternoon is $26\ ^\circ\text{C}$.
+
 **Answer.** $26\ ^\circ\text{C}$.
 :::
 
@@ -274,9 +306,14 @@ Remember the lesson on making a number several times larger. A small bottle hold
 2. Convert the result to litres.
 
 ::solution
-The large bottle holds:
-$$200\times 5=1000\ \text{(ml)}.$$
+Solution
+
+The large bottle holds $5$ times as much as the small bottle, so the number of millilitres the large bottle holds is:
+$$200\times 5=1000\ \text{(ml)}$$
+
 Since $1000\ \text{ml}=1\ \text{l}$, the large bottle holds $1$ l.
+
+So the large bottle holds $1000$ ml of water, which is $1$ l.
 
 **Answer.** $1000$ ml, which is $1$ l.
 :::
@@ -292,12 +329,21 @@ A jug holds $2$ l of water. You pour out $3$ cups of $300$ ml each, then pour $4
 2. Add the water poured into the kettle, then subtract from $2000$ ml.
 
 ::solution
-We have $2\ \text{l}=2000\ \text{ml}$. The water poured into $3$ cups is:
-$$300\times 3=900\ \text{(ml)}.$$
+Solution
+
+We have $2\ \text{l}=2000\ \text{ml}$.
+
+The water poured into $3$ cups is:
+$$300\times 3=900\ \text{(ml)}$$
+
 The water poured out altogether is:
-$$900+400=1300\ \text{(ml)}.$$
+$$900+400=1300\ \text{(ml)}$$
+
 The water left in the jug is:
-$$2000-1300=700\ \text{(ml)}.$$
+$$2000-1300=700\ \text{(ml)}$$
+
+So $700$ ml of water is left in the jug.
+
 **Answer.** $700$ ml.
 :::
 

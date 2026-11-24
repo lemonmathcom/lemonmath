@@ -221,7 +221,13 @@ Hình thang $ABCD$ ($AB\parallel CD$) có $\widehat{A}=120^\circ$ và $\widehat{
 2. Tính $\widehat{C}$ từ $\widehat{B}$.
 
 ::solution
-Ta có $\widehat{D}=180^\circ-120^\circ=60^\circ$ và $\widehat{C}=180^\circ-100^\circ=80^\circ$. (Kiểm tra: $120+100+80+60=360$.)
+Hình thang $ABCD$ có $AB\parallel CD$. Hai góc $\widehat{A}$ và $\widehat{D}$ là hai góc trong cùng phía tạo bởi hai đường thẳng song song $AB$, $CD$ với cạnh bên $AD$, nên
+$$\widehat{A}+\widehat{D}=180^\circ.$$
+Suy ra $\widehat{D}=180^\circ-120^\circ=60^\circ$.
+
+Tương tự, $\widehat{B}$ và $\widehat{C}$ là hai góc trong cùng phía với cạnh bên $BC$, nên $\widehat{B}+\widehat{C}=180^\circ$. Suy ra $\widehat{C}=180^\circ-100^\circ=80^\circ$.
+
+Kiểm tra: $120^\circ+100^\circ+80^\circ+60^\circ=360^\circ$, bằng tổng các góc của một tứ giác.
 
 Vậy $\widehat{D}=60^\circ$ và $\widehat{C}=80^\circ$.
 
@@ -239,7 +245,14 @@ Hình thang cân $MNPQ$ ($MN\parallel PQ$) có $\widehat{Q}=65^\circ$. Tính cá
 2. Tìm $\widehat{M}$ và $\widehat{N}$.
 
 ::solution
-Hai góc kề đáy $PQ$ bằng nhau nên $\widehat{P}=\widehat{Q}=65^\circ$. Vì $MN\parallel PQ$ nên $\widehat{M}=180^\circ-\widehat{Q}=115^\circ$ và $\widehat{N}=180^\circ-\widehat{P}=115^\circ$.
+Vì $MNPQ$ là hình thang cân có hai đáy $MN$ và $PQ$ nên hai góc kề đáy $PQ$ bằng nhau, tức là
+$$\widehat{P}=\widehat{Q}=65^\circ.$$
+
+Vì $MN\parallel PQ$ nên $\widehat{M}$ và $\widehat{Q}$ là hai góc trong cùng phía với cạnh bên $MQ$. Do đó
+$$\widehat{M}=180^\circ-\widehat{Q}=180^\circ-65^\circ=115^\circ.$$
+
+Tương tự, $\widehat{N}$ và $\widehat{P}$ là hai góc trong cùng phía với cạnh bên $NP$ nên
+$$\widehat{N}=180^\circ-\widehat{P}=180^\circ-65^\circ=115^\circ.$$
 
 Vậy $\widehat{P}=65^\circ$ và $\widehat{M}=\widehat{N}=115^\circ$.
 
@@ -257,9 +270,14 @@ Hình thang cân $ABCD$ ($AB\parallel CD$) có $AB=8$ cm, $CD=14$ cm và $AD=5$ 
 2. Cộng bốn cạnh.
 
 ::solution
-Vì $ABCD$ là hình thang cân nên $BC=AD=5$ cm. Chu vi là $8+5+14+5=32$ (cm).
+Chu vi hình thang $ABCD$ bằng tổng độ dài bốn cạnh: $AB+BC+CD+DA$.
 
-Vậy chu vi bằng $32$ cm.
+Vì $ABCD$ là hình thang cân nên hai cạnh bên bằng nhau, tức là $BC=AD=5$ cm.
+
+Do đó chu vi là
+$$AB+BC+CD+DA=8+5+14+5=32\ (\text{cm}).$$
+
+Vậy chu vi của hình thang cân $ABCD$ bằng $32$ cm.
 
 **Đáp số.** $32$ cm.
 :::
@@ -275,9 +293,16 @@ Hình thang cân $ABCD$ ($AB\parallel CD$) có $AB=6$ cm, $CD=14$ cm và $AD=5$ 
 2. Tính $AH$ trong tam giác vuông $AHD$.
 
 ::solution
-Ta có $DH=\dfrac{14-6}{2}=4$ (cm). Trong tam giác vuông $AHD$: $AH^2=AD^2-DH^2=25-16=9$, nên $AH=3$ cm.
+Kẻ các đường cao $AH$ và $BK$ xuống đáy $CD$ ($H$, $K$ thuộc $CD$). Vì $ABCD$ là hình thang cân nên $DH=KC$ và $HK=AB=6$ cm.
 
-Vậy chiều cao bằng $3$ cm.
+Ta có
+$$DH=\frac{CD-AB}{2}=\frac{14-6}{2}=4\ (\text{cm}).$$
+
+Xét tam giác $AHD$ vuông tại $H$. Theo định lí Pythagore, ta có
+$$AH^2=AD^2-DH^2=5^2-4^2=25-16=9.$$
+Suy ra $AH=3$ cm (vì $AH>0$).
+
+Vậy chiều cao của hình thang cân bằng $3$ cm.
 
 **Đáp số.** $3$ cm.
 :::
@@ -311,7 +336,18 @@ Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{A}=3\widehat{C}$. Tính
 2. Tìm $\widehat{C}$ rồi các góc còn lại.
 
 ::solution
-Vì $\widehat{D}=\widehat{C}$ nên $\widehat{A}+\widehat{C}=\widehat{A}+\widehat{D}=180^\circ$. Thay $\widehat{A}=3\widehat{C}$: $4\widehat{C}=180^\circ$, nên $\widehat{C}=45^\circ$. Do đó $\widehat{D}=45^\circ$ và $\widehat{A}=\widehat{B}=135^\circ$.
+Vì $ABCD$ là hình thang cân có $AB\parallel CD$ nên hai góc kề đáy $CD$ bằng nhau: $\widehat{D}=\widehat{C}$. Hai góc kề đáy $AB$ cũng bằng nhau: $\widehat{A}=\widehat{B}$.
+
+Vì $AB\parallel CD$ nên $\widehat{A}$ và $\widehat{D}$ là hai góc trong cùng phía, do đó
+$$\widehat{A}+\widehat{D}=180^\circ.$$
+Mà $\widehat{D}=\widehat{C}$ nên $\widehat{A}+\widehat{C}=180^\circ$.
+
+Thay $\widehat{A}=3\widehat{C}$ vào, ta được
+$$3\widehat{C}+\widehat{C}=180^\circ\iff4\widehat{C}=180^\circ\iff\widehat{C}=45^\circ.$$
+
+Suy ra $\widehat{D}=\widehat{C}=45^\circ$ và $\widehat{A}=3\cdot45^\circ=135^\circ$, $\widehat{B}=\widehat{A}=135^\circ$.
+
+Kiểm tra: $135^\circ+135^\circ+45^\circ+45^\circ=360^\circ$.
 
 Vậy $\widehat{C}=\widehat{D}=45^\circ$ và $\widehat{A}=\widehat{B}=135^\circ$.
 

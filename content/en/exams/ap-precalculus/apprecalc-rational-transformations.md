@@ -165,9 +165,17 @@ Find the horizontal asymptote of $g(x)=\dfrac{5x-1}{2x+3}$.
 **What you need:** equal degrees: divide the leading coefficients.
 
 ::solution
-The numerator and the denominator both have degree $1$, with leading coefficients $5$ and $2$.
+The function $g(x)=\dfrac{5x-1}{2x+3}$ is defined when $2x+3\neq0$, that is $x\neq-\dfrac32$.
 
-So the horizontal asymptote is $y=\dfrac52$.
+The horizontal asymptote is found from the limit of $g(x)$ as $x\to\pm\infty$. Dividing the numerator and the denominator by $x$ (for $x\neq0$), we have
+$$g(x)=\frac{5-\frac1x}{2+\frac3x}.$$
+
+As $x\to\pm\infty$, we have $\dfrac1x\to0$ and $\dfrac3x\to0$, so
+$$\lim_{x\to\pm\infty}g(x)=\frac{5-0}{2+0}=\frac52.$$
+
+This agrees with the rule: the numerator and the denominator both have degree $1$, with leading coefficients $5$ and $2$, so the horizontal asymptote is $y=\dfrac52$.
+
+So the horizontal asymptote of the graph of $g$ is the line $y=\dfrac52$.
 
 **Answer.** $y=\dfrac52$.
 :::

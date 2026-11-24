@@ -140,7 +140,17 @@ d) $9$ hundreds.
 2. Add the right number of $0$s.
 
 ::solution
-$3$ tens is $30$, $8$ tens is $80$, $5$ hundreds is $500$, $9$ hundreds is $900$.
+A multiple of $10$ has $0$ in the ones place. A multiple of $100$ has $0$ in both the tens place and the ones place.
+
+a) $3$ tens is $3$ times ten, so $3$ tens is $30$.
+
+b) $8$ tens is $8$ times ten, so $8$ tens is $80$.
+
+c) $5$ hundreds is $5$ times one hundred, so $5$ hundreds is $500$.
+
+d) $9$ hundreds is $9$ times one hundred, so $9$ hundreds is $900$.
+
+So the numbers to write are $30$, $80$, $500$ and $900$.
 
 **Answer.** a) $30$; b) $80$; c) $500$; d) $900$.
 :::
@@ -160,7 +170,13 @@ b) $100, 200, \square, 400, \square$.
 2. Keep counting the same way.
 
 ::solution
-a) Counting on in tens: $10, 20, 30, 40, 50, 60$. b) Counting on in hundreds: $100, 200, 300, 400, 500$.
+We look at how much the neighbouring numbers differ, to know what to count on by.
+
+a) The sequence $10, 20, 30, 40, 50, 60$ counts on in tens. Adding $10$ gives the next number: $20+10=30$ and $40+10=50$. Check: $50+10=60$, which matches the last number in the sequence.
+
+b) The sequence $100, 200, 300, 400, 500$ counts on in hundreds. Adding $100$ gives the next number: $200+100=300$ and $400+100=500$.
+
+So the missing numbers are: in part a) $30$ and $50$; in part b) $300$ and $500$.
 
 **Answer.** a) $30$ and $50$; b) $300$ and $500$.
 :::
@@ -180,7 +196,11 @@ b) $1$ hundred $=\square$ tens.
 2. Fill in each box.
 
 ::solution
-Ten tens make one hundred, and one hundred has ten tens.
+a) Ten tens put together make one hundred, so $10$ tens $=1$ hundred.
+
+b) The other way round, one hundred can be split into ten tens, so $1$ hundred $=10$ tens.
+
+So $10$ tens equal $1$ hundred, and $1$ hundred equals $10$ tens.
 
 **Answer.** a) $1$; b) $10$.
 :::
@@ -196,7 +216,15 @@ Which of the numbers $25, 40, 70, 56, 90$ are multiples of 10?
 2. Choose the numbers that end in $0$.
 
 ::solution
-$40$, $70$ and $90$ end in $0$. $25$ and $56$ end in $5$ and $6$.
+A multiple of $10$ is a number whose ones digit is $0$. We look at the last digit of each number.
+
+- The number $25$ ends in $5$, which is not $0$, so it is not a multiple of $10$.
+- The number $40$ ends in $0$, so it is a multiple of $10$.
+- The number $70$ ends in $0$, so it is a multiple of $10$.
+- The number $56$ ends in $6$, which is not $0$, so it is not a multiple of $10$.
+- The number $90$ ends in $0$, so it is a multiple of $10$.
+
+So the multiples of $10$ are $40$, $70$ and $90$.
 
 **Answer.** $40$, $70$, $90$.
 :::
@@ -218,7 +246,13 @@ How are the two numbers different? Why?
 2. Write $7$ hundreds and compare the number of digits.
 
 ::solution
-$7$ tens is $70$. $7$ hundreds is $700$. The number $700$ has one more $0$ because a hundred is bigger than a ten.
+a) Seventy is $7$ tens, written as $70$ (two digits).
+
+b) Seven hundred is $7$ hundreds, written as $700$ (three digits, with two $0$s).
+
+Both numbers begin with the digit $7$, but $700$ has one more $0$ than $70$. In $70$ the digit $7$ is in the tens place, and in $700$ it is in the hundreds place. Since a hundred is bigger than a ten, $7$ hundreds is more than $7$ tens, so the number $700$ needs one more $0$.
+
+So $70$ and $700$ differ in the number of $0$s: $700$ has one more $0$ because the hundreds place is bigger than the tens place.
 
 **Answer.** a) $70$; b) $700$.
 :::
@@ -234,7 +268,11 @@ Lan writes "$6$ hundreds is $60$". What is wrong with what Lan writes? Correct i
 2. Write $6$ hundreds again.
 
 ::solution
-$60$ is $6$ tens, not $6$ hundreds. $6$ hundreds needs two $0$s.
+Lan writes "$6$ hundreds is $60$". Look at the number $60$: the digit $6$ is in the tens place, so $60$ is $6$ tens, not $6$ hundreds.
+
+To write $6$ hundreds, the digit $6$ must be in the hundreds place, so two $0$s must follow the digit $6$. Hence $6$ hundreds is $600$.
+
+So Lan is wrong because she wrote $60$ (which is $6$ tens) instead of $600$; the correct statement is that $6$ hundreds is $600$.
 
 **Answer.** $6$ hundreds is $600$.
 :::
@@ -250,7 +288,14 @@ Each box holds $10$ pens. There are $8$ boxes. How many pens are there?
 2. Write $8$ tens and give the answer with its unit.
 
 ::solution
-$8$ boxes make $8$ tens of pens, which is $80$ pens.
+Solution
+
+Each box holds $10$ pens, which is $1$ ten of pens. There are $8$ boxes, so there are $8$ tens of pens.
+
+The number of pens is:
+$$10\times8=80\ \text{(pens)}$$
+
+So $8$ tens is $80$, and there are $80$ pens.
 
 **Answer.** $80$ pens.
 :::
@@ -266,9 +311,17 @@ There are $10$ boxes, each with $100$ marbles. People take away $4$ boxes. How m
 2. Change the boxes left into hundreds of marbles.
 
 ::solution
-The boxes left: $10-4=6$. Each box has $100$ marbles, so $6$ boxes are $6$ hundreds, which is $600$ marbles.
+Solution
 
-**Check.** $600+400=1000$. Correct.
+There are $10$ boxes and $4$ boxes are taken away, so the number of boxes left is:
+$$10-4=6\ \text{(boxes)}$$
+
+Each box has $100$ marbles, so $6$ boxes are $6$ hundreds of marbles, that is
+$$100\times6=600\ \text{(marbles)}$$
+
+*Check.* The number of marbles taken away is $400$, and $600+400=1000$, which is exactly the number of marbles at the start.
+
+So there are $600$ marbles left.
 
 **Answer.** $600$ marbles.
 :::

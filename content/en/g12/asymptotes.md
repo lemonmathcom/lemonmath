@@ -243,7 +243,17 @@ Find the asymptotes of the graph of $y=\dfrac{1-2x}{x+3}$.
 2. Find the root of the denominator.
 
 ::solution
-We have $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. At $x=-3$ the numerator is $7\neq0$, so $\lim\limits_{x\to-3^+}y=+\infty$.
+Condition: $x+3\neq0$, that is, $x\neq-3$.
+
+Horizontal asymptote. We have
+$$\lim_{x\to\pm\infty}\frac{1-2x}{x+3}=\lim_{x\to\pm\infty}\frac{\frac1x-2}{1+\frac3x}=\frac{-2}{1}=-2.$$
+
+So the line $y=-2$ is a horizontal asymptote of the graph.
+
+Vertical asymptote. At $x=-3$ the numerator is $1-2\cdot(-3)=7\neq0$, and the denominator $x+3\to0^+$ as $x\to-3^+$. Hence
+$$\lim_{x\to-3^+}\frac{1-2x}{x+3}=+\infty.$$
+
+So the line $x=-3$ is a vertical asymptote of the graph.
 
 So the graph has one vertical and one horizontal asymptote.
 
@@ -305,15 +315,18 @@ d) The graph has exactly two asymptotes.
 2. Check each claim.
 
 ::solution
-We have $x^2-3x+4=(x-2)(x-1)+2$, so $y=x-1+\dfrac{2}{x-2}$.
+Condition: $x\neq2$. Dividing the polynomials, we have $x^2-3x+4=(x-2)(x-1)+2$, so
+$$y=x-1+\frac{2}{x-2}.$$
 
-a) **True**. Since the numerator is $2\neq0$ at $x=2$, $\lim\limits_{x\to2^+}y=+\infty$.
+a) **True.** At $x=2$ the numerator is $2^2-3\cdot2+4=2\neq0$ and the denominator $x-2\to0^+$ as $x\to2^+$, so $\lim\limits_{x\to2^+}y=+\infty$. Hence $x=2$ is a vertical asymptote of the graph.
 
-b) **True**. We have $y\to+\infty$ as $x\to+\infty$ and $y\to-\infty$ as $x\to-\infty$.
+b) **True.** From $y=x-1+\dfrac{2}{x-2}$ we have $y\to+\infty$ as $x\to+\infty$ and $y\to-\infty$ as $x\to-\infty$. These limits are not finite, so the graph has no horizontal asymptote.
 
-c) **False**. The oblique asymptote is $y=x-1$.
+c) **False.** We have $y-(x-1)=\dfrac{2}{x-2}\to0$ as $x\to\pm\infty$, so the oblique asymptote of the graph is $y=x-1$, not $y=x+1$.
 
-d) **True**. The graph has the vertical asymptote $x=2$ and the oblique asymptote $y=x-1$.
+d) **True.** The graph has the vertical asymptote $x=2$ and the oblique asymptote $y=x-1$, and no horizontal asymptote, so it has exactly two asymptotes.
+
+So claims a), b), d) are true; claim c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -347,9 +360,20 @@ A tank holds $200$ litres of clean water. Salt water with a concentration of $30
 2. Compute $\lim\limits_{t\to+\infty}C(t)$.
 
 ::solution
-We have $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (dividing the numerator and the denominator by $10$) and $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. For example, $C(10)=10$, $C(60)=22.5$, $C(180)=27$.
+Let $t$ (minutes) be the pumping time, $t\ge0$.
 
-So the graph has the horizontal asymptote $C=30$.
+After $t$ minutes, $10t$ litres of salt water have been pumped in, containing $30\cdot10t=300t$ grams of salt. The volume of water in the tank is $200+10t$ litres. Hence the salt concentration is
+$$C(t)=\frac{300t}{200+10t}=\frac{30t}{20+t}\ \text{(grams per litre)}$$
+(dividing the numerator and the denominator by $10$).
+
+Finding the horizontal asymptote. We have
+$$\lim_{t\to+\infty}\frac{30t}{20+t}=\lim_{t\to+\infty}\frac{30}{\frac{20}{t}+1}=30.$$
+
+So the line $C=30$ is a horizontal asymptote of the graph of $C(t)$.
+
+Practical meaning. For every $t\ge0$ we have $30-C(t)=\dfrac{600}{20+t}>0$, so $C(t)<30$. For example, $C(10)=10$, $C(60)=22.5$, $C(180)=27$. Thus the concentration keeps increasing and gets close to $30$ grams per litre but never exceeds it.
+
+So the graph has the horizontal asymptote $C=30$: over time the salt concentration in the tank gets close to $30$ grams per litre, exactly the concentration of the incoming salt water.
 
 **Answer.** Horizontal asymptote $C=30$: over time the salt concentration in the tank gets close to $30$ grams per litre (the concentration of the incoming water) but never exceeds it.
 :::

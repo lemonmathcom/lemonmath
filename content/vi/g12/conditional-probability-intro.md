@@ -202,7 +202,16 @@ Gieo một con xúc xắc cân đối. Biết xuất hiện mặt lẻ, tính x�
 2. Đếm các phần tử của $B$ không vượt quá $3$.
 
 ::solution
-$A\cap B=\{1; 3\}$, nên $P(A\mid B)=\dfrac23$.
+Gọi $A$ là biến cố "số chấm không vượt quá $3$" và $B$ là biến cố "xuất hiện mặt lẻ". Cần tính $P(A\mid B)$.
+
+Không gian mẫu là $\Omega=\{1; 2; 3; 4; 5; 6\}$ gồm $6$ kết quả đồng khả năng. Ta có $B=\{1; 3; 5\}$ nên $n(B)=3$.
+
+Các kết quả thuận lợi cho cả $A$ và $B$ là $A\cap B=\{1; 3\}$, nên $n(A\cap B)=2$.
+
+Áp dụng công thức $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}$, ta được
+$$P(A\mid B)=\frac23.$$
+
+Vậy xác suất số chấm không vượt quá $3$, biết xuất hiện mặt lẻ, bằng $\dfrac23$.
 
 **Đáp số.** $\dfrac23$.
 :::
@@ -218,7 +227,18 @@ Một lớp có $40$ học sinh: $20$ nam, trong đó $14$ bạn thích môn To�
 2. Tính $\dfrac{10}{20}$ và $\dfrac{14}{24}$.
 
 ::solution
-$P(\text{thích Toán}\mid\text{nữ})=\dfrac{10}{20}=\dfrac12$; $P(\text{nam}\mid\text{thích Toán})=\dfrac{14}{24}=\dfrac{7}{12}$.
+Gọi $A$ là biến cố "học sinh được chọn thích Toán", $N$ là biến cố "học sinh được chọn là nữ", $M$ là biến cố "học sinh được chọn là nam".
+
+Số học sinh thích Toán là $14+10=24$. Ta có
+$$P(N)=\frac{20}{40},\qquad P(A)=\frac{24}{40},\qquad P(A\cap N)=\frac{10}{40},\qquad P(A\cap M)=\frac{14}{40}.$$
+
+Xác suất bạn đó thích Toán biết đó là bạn nữ:
+$$P(A\mid N)=\frac{P(A\cap N)}{P(N)}=\frac{10/40}{20/40}=\frac{10}{20}=\frac12.$$
+
+Xác suất bạn đó là nam biết bạn thích Toán:
+$$P(M\mid A)=\frac{P(A\cap M)}{P(A)}=\frac{14/40}{24/40}=\frac{14}{24}=\frac7{12}.$$
+
+Vậy xác suất bạn đó thích Toán biết là bạn nữ bằng $\dfrac12$, và xác suất bạn đó là nam biết bạn thích Toán bằng $\dfrac7{12}$.
 
 **Đáp số.** $\dfrac12$ và $\dfrac7{12}$.
 :::
@@ -234,7 +254,12 @@ Cho $P(A)=0{,}5$, $P(B)=0{,}4$, $P(A\cap B)=0{,}2$. Tính $P(A\mid B)$, $P(B\mid
 2. So sánh $P(A\mid B)$ với $P(A)$.
 
 ::solution
-$P(A\mid B)=\dfrac{0{,}2}{0{,}4}=0{,}5$, $P(B\mid A)=\dfrac{0{,}2}{0{,}5}=0{,}4$. Vì $P(A\mid B)=P(A)$ nên $A$, $B$ độc lập.
+Áp dụng công thức xác suất có điều kiện $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ và $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$, ta có
+$$P(A\mid B)=\frac{0{,}2}{0{,}4}=0{,}5,\qquad P(B\mid A)=\frac{0{,}2}{0{,}5}=0{,}4.$$
+
+Xét tính độc lập. Ta có $P(A\mid B)=0{,}5=P(A)$. Ngoài ra $P(A)\cdot P(B)=0{,}5\cdot0{,}4=0{,}2=P(A\cap B)$.
+
+Vậy $P(A\mid B)=0{,}5$, $P(B\mid A)=0{,}4$ và hai biến cố $A$, $B$ độc lập.
 
 **Đáp số.** $0{,}5$; $0{,}4$; độc lập.
 :::
@@ -250,7 +275,15 @@ Một hộp có $4$ viên bi trắng và $6$ viên bi đen. Lấy lần lượt 
 2. Nếu lần đầu đen thì còn $4$ trắng trong $9$ viên.
 
 ::solution
-$P(\text{hai viên đen})=\dfrac{6}{10}\cdot\dfrac59=\dfrac13$. $P(\text{trắng lần 2}\mid\text{đen lần 1})=\dfrac49$.
+Gọi $A_1$ là biến cố "viên thứ nhất đen", $A_2$ là biến cố "viên thứ hai đen", $T_2$ là biến cố "viên thứ hai trắng".
+
+Xác suất cả hai viên đều đen. Ban đầu hộp có $10$ viên, trong đó $6$ viên đen, nên $P(A_1)=\dfrac{6}{10}$. Sau khi lấy một viên đen (không hoàn lại), hộp còn $9$ viên, trong đó $5$ viên đen, nên $P(A_2\mid A_1)=\dfrac59$. Theo công thức nhân xác suất,
+$$P(A_1\cap A_2)=P(A_1)\cdot P(A_2\mid A_1)=\frac{6}{10}\cdot\frac59=\frac{30}{90}=\frac13.$$
+
+Xác suất viên thứ hai trắng biết viên thứ nhất đen. Sau khi lấy một viên đen, hộp còn $9$ viên, trong đó $4$ viên trắng, nên
+$$P(T_2\mid A_1)=\frac49.$$
+
+Vậy xác suất cả hai viên đều đen bằng $\dfrac13$, và xác suất viên thứ hai trắng biết viên thứ nhất đen bằng $\dfrac49$.
 
 **Đáp số.** $\dfrac13$ và $\dfrac49$.
 :::
@@ -274,13 +307,17 @@ d) $A$ và $B$ không độc lập.
 2. So sánh $P(A\mid B)$ với $P(A)=\dfrac12$.
 
 ::solution
-a) **Đúng**: $P(B)=\dfrac4{10}=0{,}4$.
+Không gian mẫu $\Omega=\{1; 2; \dots; 10\}$ gồm $10$ kết quả đồng khả năng. Ta có $A=\{2; 4; 6; 8; 10\}$ nên $n(A)=5$ và $P(A)=\dfrac5{10}=\dfrac12$. Ta có $B=\{7; 8; 9; 10\}$ nên $n(B)=4$. Giao của hai biến cố là $A\cap B=\{8; 10\}$ nên $n(A\cap B)=2$.
 
-b) **Đúng**: $P(A\mid B)=\dfrac24=\dfrac12$.
+a) **Đúng.** Ta có $P(B)=\dfrac{n(B)}{n(\Omega)}=\dfrac4{10}=0{,}4$.
 
-c) **Đúng**: $A$ có $5$ phần tử, trong đó $8$ và $10$ thuộc $B$, nên $P(B\mid A)=\dfrac25$.
+b) **Đúng.** Ta có $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac24=\dfrac12$.
 
-d) **Sai**: $P(A\mid B)=\dfrac12=P(A)$, nên $A$ và $B$ độc lập.
+c) **Đúng.** Trong $5$ phần tử của $A$ có $2$ phần tử là $8$ và $10$ thuộc $B$, nên $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}=\dfrac25$.
+
+d) **Sai.** Ta có $P(A\mid B)=\dfrac12=P(A)$. Ngoài ra $P(A)\cdot P(B)=\dfrac12\cdot0{,}4=0{,}2=\dfrac2{10}=P(A\cap B)$. Do đó $A$ và $B$ độc lập, nên khẳng định "$A$ và $B$ không độc lập" là sai.
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -296,7 +333,16 @@ Gieo hai con xúc xắc cân đối. Biết có ít nhất một con xuất hi�
 2. Trong đó đếm các kết quả có tổng $\ge10$.
 
 ::solution
-Các kết quả có mặt $6$ và tổng $\ge10$: $(4; 6)$, $(6; 4)$, $(5; 6)$, $(6; 5)$, $(6; 6)$. Xác suất là $\dfrac5{11}\approx0{,}4545$.
+Gọi $A$ là biến cố "có ít nhất một con xuất hiện mặt $6$ chấm" và $B$ là biến cố "tổng số chấm ít nhất là $10$". Cần tính $P(B\mid A)$.
+
+Gieo hai con xúc xắc có $6\cdot6=36$ kết quả đồng khả năng. Biến cố đối của $A$ là "cả hai con đều không ra mặt $6$", có $5\cdot5=25$ kết quả. Do đó $n(A)=36-25=11$.
+
+Các kết quả thuận lợi cho cả $A$ và $B$ (có mặt $6$ và tổng $\ge10$) là $(4; 6)$, $(6; 4)$, $(5; 6)$, $(6; 5)$, $(6; 6)$, nên $n(A\cap B)=5$.
+
+Áp dụng công thức $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}$, ta được
+$$P(B\mid A)=\frac5{11}\approx0{,}4545.$$
+
+Vậy xác suất tổng số chấm ít nhất là $10$, biết có ít nhất một con xuất hiện mặt $6$ chấm, xấp xỉ $0{,}45$.
 
 **Đáp số.** $0{,}45$.
 :::
@@ -312,7 +358,15 @@ Các kết quả có mặt $6$ và tổng $\ge10$: $(4; 6)$, $(6; 4)$, $(5; 6)$,
 2. Chia cho $P(\text{bánh})=0{,}35$.
 
 ::solution
-$P(\text{cà phê và bánh})=0{,}7\cdot0{,}4=0{,}28$. $P(\text{cà phê}\mid\text{bánh})=\dfrac{0{,}28}{0{,}35}=0{,}8$.
+Gọi $A$ là biến cố "khách gọi đồ uống có cà phê" và $B$ là biến cố "khách có gọi bánh". Theo đề, $P(A)=0{,}7$, $P(B\mid A)=0{,}4$ và $P(B)=0{,}35$.
+
+Xác suất khách gọi cả cà phê và bánh. Theo công thức nhân xác suất,
+$$P(A\cap B)=P(A)\cdot P(B\mid A)=0{,}7\cdot0{,}4=0{,}28.$$
+
+Xác suất khách gọi cà phê biết khách có gọi bánh:
+$$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{0{,}28}{0{,}35}=0{,}8.$$
+
+Vậy xác suất một khách gọi cả cà phê và bánh bằng $0{,}28$, và xác suất khách gọi cà phê biết khách có gọi bánh bằng $0{,}8$.
 
 **Đáp số.** $0{,}28$ và $0{,}8$.
 :::
@@ -328,7 +382,20 @@ Hai xạ thủ bắn độc lập vào một mục tiêu, mỗi người một v
 2. $P(\text{ít nhất một trúng})=1-0{,}2\cdot0{,}3$; "cả hai trúng" nằm trong "ít nhất một trúng".
 
 ::solution
-$P(\text{cả hai})=0{,}56$, $P(\text{ít nhất một})=1-0{,}06=0{,}94$. Vì "cả hai trúng" kéo theo "ít nhất một trúng", giao của chúng là "cả hai trúng", nên xác suất cần tìm là $\dfrac{0{,}56}{0{,}94}=\dfrac{28}{47}\approx0{,}596$.
+Gọi $A$ là biến cố "xạ thủ thứ nhất bắn trúng", $B$ là biến cố "xạ thủ thứ hai bắn trúng". Theo đề, $P(A)=0{,}8$, $P(B)=0{,}7$ và $A$, $B$ độc lập.
+
+Gọi $C=A\cap B$ là biến cố "cả hai người đều bắn trúng" và $D$ là biến cố "mục tiêu bị trúng ít nhất một viên". Cần tính $P(C\mid D)$.
+
+Vì $A$, $B$ độc lập nên
+$$P(C)=P(A)\cdot P(B)=0{,}8\cdot0{,}7=0{,}56.$$
+
+Biến cố đối của $D$ là "cả hai đều bắn trượt", có xác suất $(1-0{,}8)(1-0{,}7)=0{,}2\cdot0{,}3=0{,}06$. Do đó
+$$P(D)=1-0{,}06=0{,}94.$$
+
+Vì "cả hai trúng" kéo theo "ít nhất một trúng" nên $C\subset D$, suy ra $C\cap D=C$. Áp dụng công thức xác suất có điều kiện,
+$$P(C\mid D)=\frac{P(C\cap D)}{P(D)}=\frac{0{,}56}{0{,}94}=\frac{28}{47}\approx0{,}596.$$
+
+Vậy xác suất cả hai người đều bắn trúng, biết mục tiêu bị trúng ít nhất một viên, xấp xỉ $0{,}60$.
 
 **Đáp số.** $\approx0{,}60$.
 :::
@@ -344,7 +411,18 @@ Một nhóm có $5$ bạn nam và $4$ bạn nữ. Chọn ngẫu nhiên $3$ bạn
 2. Số cách có đúng một nữ: $C_4^1\cdot C_5^2$.
 
 ::solution
-$C_9^3-C_5^3=84-10=74$ và $C_4^1\cdot C_5^2=4\cdot10=40$. Xác suất là $\dfrac{40}{74}=\dfrac{20}{37}$.
+Gọi $A$ là biến cố "trong $3$ bạn được chọn có ít nhất một bạn nữ" và $B$ là biến cố "trong $3$ bạn được chọn có đúng một bạn nữ". Cần tính $P(B\mid A)$.
+
+Chọn $3$ bạn trong $9$ bạn có $C_9^3=84$ cách. Biến cố đối của $A$ là "cả $3$ bạn đều là nam", có $C_5^3=10$ cách. Do đó $n(A)=84-10=74$.
+
+Biến cố $B$: chọn $1$ bạn nữ trong $4$ bạn nữ và $2$ bạn nam trong $5$ bạn nam, nên $n(B)=C_4^1\cdot C_5^2=4\cdot10=40$.
+
+Vì có đúng một bạn nữ thì có ít nhất một bạn nữ nên $B\subset A$, suy ra $n(A\cap B)=n(B)=40$.
+
+Áp dụng công thức $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}$, ta được
+$$P(B\mid A)=\frac{40}{74}=\frac{20}{37}.$$
+
+Vậy xác suất có đúng một bạn nữ, biết có ít nhất một bạn nữ, bằng $\dfrac{20}{37}$.
 
 **Đáp số.** $\dfrac{20}{37}$.
 :::
@@ -360,7 +438,20 @@ Gieo một đồng xu cân đối ba lần. Gọi $A$: "lần đầu xuất hi�
 2. Đếm $A\cap B$, rồi chia cho $n(B)$ và cho $n(A)=4$.
 
 ::solution
-$A\cap B=\{\text{NNS}; \text{NSN}; \text{NNN}\}$ có $3$ phần tử. $P(A\mid B)=\dfrac34$ và $P(B\mid A)=\dfrac34$. Vì $P(A)=\dfrac12\neq\dfrac34$, hai biến cố không độc lập: biết lần đầu ngửa thì dễ có ít nhất hai mặt ngửa hơn.
+Kí hiệu N là mặt ngửa, S là mặt sấp. Không gian mẫu gồm $2^3=8$ kết quả đồng khả năng.
+
+Biến cố $A$ "lần đầu xuất hiện mặt ngửa": $A=\{\text{NNN}; \text{NNS}; \text{NSN}; \text{NSS}\}$, nên $P(A)=\dfrac48=\dfrac12$.
+
+Biến cố $B$ "có ít nhất hai lần xuất hiện mặt ngửa": $B=\{\text{NNN}; \text{NNS}; \text{NSN}; \text{SNN}\}$, nên $P(B)=\dfrac48=\dfrac12$.
+
+Giao của hai biến cố là $A\cap B=\{\text{NNS}; \text{NSN}; \text{NNN}\}$ có $3$ phần tử, nên $P(A\cap B)=\dfrac38$.
+
+Áp dụng công thức xác suất có điều kiện,
+$$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{3/8}{4/8}=\frac34,\qquad P(B\mid A)=\frac{P(A\cap B)}{P(A)}=\frac{3/8}{4/8}=\frac34.$$
+
+Xét tính độc lập. Ta có $P(A)=\dfrac12\neq\dfrac34=P(A\mid B)$ (hay $P(A)\cdot P(B)=\dfrac14\neq\dfrac38=P(A\cap B)$), nên $A$ và $B$ không độc lập: biết lần đầu ngửa thì dễ có ít nhất hai mặt ngửa hơn.
+
+Vậy $P(A\mid B)=\dfrac34$, $P(B\mid A)=\dfrac34$ và hai biến cố $A$, $B$ không độc lập.
 
 **Đáp số.** $\dfrac34$; $\dfrac34$; không độc lập.
 :::

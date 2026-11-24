@@ -166,7 +166,15 @@ Write the number: eight million four hundred and five thousand two hundred and t
 2. Use the digit $0$ for any empty place.
 
 ::solution
-Eight million is $8$; four hundred and five thousand is $405$ thousand; two hundred and thirty is $230$.
+Solution
+
+We split the number into three classes, from left to right: millions, thousands and units.
+
+Eight million is written $8$. Four hundred and five thousand is written $405$ thousand. Two hundred and thirty is written $230$.
+
+Putting the three classes together in this order, we get $8\,405\,230$.
+
+So the number is $8\,405\,230$.
 
 **Answer.** $8\,405\,230$.
 :::
@@ -182,7 +190,14 @@ State the value of the digit $7$ in the number $3\,571\,092$.
 2. Write its value.
 
 ::solution
-In the number $3\,571\,092$ the digit $7$ is in the ten thousands place.
+Solution
+
+Read the places of the number $3\,571\,092$ from left to right: the digit $3$ is in the millions place, $5$ in the hundred thousands place, $7$ in the ten thousands place, $1$ in the thousands place, $0$ in the hundreds place, $9$ in the tens place and $2$ in the units place.
+
+The digit $7$ is in the ten thousands place, so its value is:
+$$7\times10\,000=70\,000$$
+
+So the value of the digit $7$ in $3\,571\,092$ is $70\,000$.
 
 **Answer.** The value of the digit $7$ is $70\,000$.
 :::
@@ -198,7 +213,19 @@ Put $>$, $<$ or $=$ in the gap: $3\,571\,092\ \ldots\ 3\,517\,920$.
 2. Stop at the first pair of digits that differ.
 
 ::solution
-Both numbers have $7$ digits. Millions: $3=3$. Hundred thousands: $5=5$. Ten thousands: $7>1$.
+Solution
+
+The numbers $3\,571\,092$ and $3\,517\,920$ both have $7$ digits, so we compare the digits in the same places, from left to right.
+
+Millions: $3=3$.
+
+Hundred thousands: $5=5$.
+
+Ten thousands: $7>1$.
+
+At the ten thousands place the digits differ and $7>1$, so the first number is greater than the second.
+
+So $3\,571\,092>3\,517\,920$.
 
 **Answer.** $3\,571\,092>3\,517\,920$.
 :::
@@ -214,7 +241,17 @@ Put the numbers $45\,720$; $45\,270$; $54\,027$; $5\,472$ in order from least to
 2. Compare the others from left to right.
 
 ::solution
-The number $5\,472$ has $4$ digits, so it is the least. Among the numbers with $5$ digits: $45\,270<45\,720<54\,027$.
+Solution
+
+Among the four numbers, $5\,472$ has $4$ digits and the other three have $5$ digits. A number with fewer digits is smaller, so $5\,472$ is the least.
+
+We compare the three numbers with $5$ digits: $45\,720$; $45\,270$; $54\,027$.
+
+Ten thousands: $4$, $4$ and $5$. The number $54\,027$ has the greatest ten thousands digit, so it is the greatest.
+
+The numbers $45\,720$ and $45\,270$ start with the same two digits. Hundreds: $2<7$, so $45\,270<45\,720$.
+
+So the numbers in order from least to greatest are $5\,472$; $45\,270$; $45\,720$; $54\,027$.
 
 **Answer.** $5\,472<45\,270<45\,720<54\,027$.
 :::
@@ -230,9 +267,15 @@ Round $6\,481\,300$ to the nearest thousand and to the nearest hundred thousand.
 2. Hundred thousands: look at the ten thousands digit.
 
 ::solution
-To the nearest thousand: the hundreds digit is $3<5$, so we get $6\,481\,000$.
+Solution
 
-To the nearest hundred thousand: the ten thousands digit is $8\geq5$, so increase $4$ by $1$ to make $5$, giving $6\,500\,000$.
+In the number $6\,481\,300$, the thousands digit is $1$, the hundreds digit is $3$, the ten thousands digit is $8$ and the hundred thousands digit is $4$.
+
+To round to the nearest thousand, we look at the hundreds digit, which is $3$. Since $3<5$, we keep the thousands digit and replace the digits to its right with $0$, giving $6\,481\,000$.
+
+To round to the nearest hundred thousand, we look at the ten thousands digit, which is $8$. Since $8\geq5$, we increase the hundred thousands digit $4$ by $1$ to make $5$ and replace the digits to its right with $0$, giving $6\,500\,000$.
+
+So $6\,481\,300$ rounds to $6\,481\,000$ to the nearest thousand and to $6\,500\,000$ to the nearest hundred thousand.
 
 **Answer.** $6\,481\,000$ and $6\,500\,000$.
 :::
@@ -248,7 +291,14 @@ Work out the value of the expression: $125\times8-360\div6+14$.
 2. Then subtract and add from left to right.
 
 ::solution
-$$\begin{aligned} 125\times8-360\div6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+Solution
+
+The expression has multiplication, division, subtraction and addition. We do the multiplication and division first, then the subtraction and addition from left to right.
+
+We have $125\times8=1\,000$ and $360\div6=60$. Hence
+$$\begin{aligned} 125\times8-360\div6+14 &= 1\,000-60+14 \\ &= 940+14 \\ &= 954. \end{aligned}$$
+
+So the value of the expression is $954$.
 
 **Answer.** $954$.
 :::
@@ -264,9 +314,14 @@ A publisher prints $24\,500$ books in January and $31\,750$ books in February. H
 2. Add the two numbers, then round to the nearest thousand.
 
 ::solution
-The number of books printed in the two months is $24\,500+31\,750=56\,250$ (books).
+Solution
 
-To the nearest thousand: the hundreds digit is $2<5$, so we get $56\,000$.
+The number of books the publisher prints in the two months is:
+$$24\,500+31\,750=56\,250\ \text{(books)}$$
+
+To round $56\,250$ to the nearest thousand, we look at the hundreds digit, which is $2$. Since $2<5$, we keep the thousands digit $6$ and replace the digits to its right with $0$, giving $56\,000$.
+
+So the publisher prints $56\,250$ books in the two months altogether, which is about $56\,000$ books to the nearest thousand.
 
 **Answer.** $56\,250$ books, about $56\,000$ books.
 :::
@@ -282,9 +337,15 @@ Mum has $100\,000$ dong and buys $3$ cartons of milk at $24\,500$ dong each. How
 2. Work out the cost of the milk, then subtract it from $100\,000$.
 
 ::solution
-The cost of $3$ cartons of milk is $24\,500\times3=73\,500$ (dong).
+Solution
 
-The money Mum has left is $100\,000-73\,500=26\,500$ (dong).
+The cost of the $3$ cartons of milk is:
+$$24\,500\times3=73\,500\ \text{(dong)}$$
+
+The money Mum has left is:
+$$100\,000-73\,500=26\,500\ \text{(dong)}$$
+
+So Mum has $26\,500$ dong left.
 
 **Answer.** $26\,500$ dong.
 :::
@@ -300,7 +361,12 @@ Remember the lesson on properties of multiplication. Calculate in the easy way: 
 2. Multiply the result by $37$.
 
 ::solution
-$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+Solution
+
+Multiplication is commutative and associative. We group $25$ with $4$ because $25\times4=100$ is a round number, easy to multiply by $37$:
+$$\begin{aligned} 25\times37\times4 &= (25\times4)\times37 \\ &= 100\times37 \\ &= 3\,700. \end{aligned}$$
+
+So $25\times37\times4=3\,700$.
 
 **Answer.** $3\,700$.
 :::
@@ -316,11 +382,19 @@ Find the digit $a$ for which the number $\overline{4a5}$ is divisible by both $5
 2. Find $a$ so that this sum is divisible by $9$.
 
 ::solution
-The number $\overline{4a5}$ ends in $5$, so it is always divisible by $5$.
+Solution
 
-The digit sum is $4+a+5=9+a$. For this to be divisible by $9$, $a$ must be $0$ or $9$.
+The number $\overline{4a5}$ ends in $5$, so it is divisible by $5$ for every digit $a$.
 
-**Check.** $405\div9=45$ and $495\div9=55$. Correct.
+A number is divisible by $9$ when the sum of its digits is divisible by $9$. The digit sum of $\overline{4a5}$ is $4+a+5=9+a$.
+
+Since $a$ is a digit, $0\leq a\leq9$, so $9\leq9+a\leq18$. In this range, the multiples of $9$ are $9$ and $18$.
+
+If $9+a=9$ then $a=0$. If $9+a=18$ then $a=9$.
+
+Check: $405\div9=45$ and $495\div9=55$, which is correct. Both numbers are divisible by $5$ because they end in $5$.
+
+So $a=0$ or $a=9$.
 
 **Answer.** $a=0$ or $a=9$.
 :::

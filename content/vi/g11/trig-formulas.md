@@ -208,9 +208,13 @@ Tính $\cos15^\circ$ và $\tan15^\circ$.
 2. Tính $\tan15^\circ=\tan(45^\circ-30^\circ)$ với $\tan45^\circ=1$, $\tan30^\circ=\dfrac{1}{\sqrt3}$.
 
 ::solution
-Ta có $\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\dfrac{\sqrt6+\sqrt2}{4}$.
+Vì $15^\circ=45^\circ-30^\circ$ nên áp dụng công thức cộng $\cos(a-b)=\cos a\cos b+\sin a\sin b$, ta có
+$$\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\frac{\sqrt2}{2}\cdot\frac{\sqrt3}{2}+\frac{\sqrt2}{2}\cdot\frac12=\frac{\sqrt6+\sqrt2}{4}.$$
 
-Ta có $\tan15^\circ=\dfrac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\dfrac{\sqrt3-1}{\sqrt3+1}=\dfrac{(\sqrt3-1)^2}{2}=2-\sqrt3$.
+Áp dụng công thức $\tan(a-b)=\dfrac{\tan a-\tan b}{1+\tan a\tan b}$ với $\tan45^\circ=1$ và $\tan30^\circ=\dfrac{1}{\sqrt3}$, ta có
+$$\tan15^\circ=\frac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\frac{\sqrt3-1}{\sqrt3+1}=\frac{(\sqrt3-1)^2}{(\sqrt3+1)(\sqrt3-1)}=\frac{4-2\sqrt3}{2}=2-\sqrt3.$$
+
+Vậy $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ và $\tan15^\circ=2-\sqrt3$.
 
 **Đáp số.** $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$; $\tan15^\circ=2-\sqrt3$.
 :::
@@ -226,8 +230,19 @@ Cho $\sin a=\dfrac35$ với $\dfrac{\pi}{2}<a<\pi$ và $\cos b=\dfrac{5}{13}$ v�
 2. Thay vào công thức cộng.
 
 ::solution
-Vì $a$ thuộc góc phần tư thứ hai nên $\cos a=-\sqrt{1-\frac{9}{25}}=-\dfrac45$. Vì $0<b<\dfrac{\pi}{2}$ nên $\sin b=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$. Do đó
-$$\sin(a+b)=\dfrac35\cdot\dfrac{5}{13}+\left(-\dfrac45\right)\dfrac{12}{13}=-\dfrac{33}{65},\qquad \cos(a+b)=\left(-\dfrac45\right)\dfrac{5}{13}-\dfrac35\cdot\dfrac{12}{13}=-\dfrac{56}{65}.$$
+Vì $\dfrac{\pi}{2}<a<\pi$ nên $a$ thuộc góc phần tư thứ hai, do đó $\cos a<0$. Từ $\sin^2a+\cos^2a=1$, ta có
+$$\cos a=-\sqrt{1-\sin^2a}=-\sqrt{1-\frac{9}{25}}=-\frac45.$$
+
+Vì $0<b<\dfrac{\pi}{2}$ nên $\sin b>0$. Từ $\sin^2b+\cos^2b=1$, ta có
+$$\sin b=\sqrt{1-\cos^2b}=\sqrt{1-\frac{25}{169}}=\frac{12}{13}.$$
+
+Áp dụng công thức cộng $\sin(a+b)=\sin a\cos b+\cos a\sin b$, ta được
+$$\sin(a+b)=\frac35\cdot\frac{5}{13}+\left(-\frac45\right)\cdot\frac{12}{13}=\frac{15}{65}-\frac{48}{65}=-\frac{33}{65}.$$
+
+Áp dụng công thức cộng $\cos(a+b)=\cos a\cos b-\sin a\sin b$, ta được
+$$\cos(a+b)=\left(-\frac45\right)\cdot\frac{5}{13}-\frac35\cdot\frac{12}{13}=-\frac{20}{65}-\frac{36}{65}=-\frac{56}{65}.$$
+
+Vậy $\sin(a+b)=-\dfrac{33}{65}$ và $\cos(a+b)=-\dfrac{56}{65}$.
 
 **Đáp số.** $\sin(a+b)=-\dfrac{33}{65}$; $\cos(a+b)=-\dfrac{56}{65}$.
 :::
@@ -243,7 +258,16 @@ Cho $\sin\alpha=\dfrac45$ với $\dfrac{\pi}{2}<\alpha<\pi$. Tính $\sin2\alpha$
 2. Thay vào công thức nhân đôi.
 
 ::solution
-Vì $\dfrac{\pi}{2}<\alpha<\pi$ nên $\cos\alpha=-\sqrt{1-\frac{16}{25}}=-\dfrac35$. Do đó $\sin2\alpha=2\cdot\dfrac45\cdot\left(-\dfrac35\right)=-\dfrac{24}{25}$ và $\cos2\alpha=1-2\cdot\dfrac{16}{25}=-\dfrac{7}{25}$.
+Vì $\dfrac{\pi}{2}<\alpha<\pi$ nên $\cos\alpha<0$. Từ $\sin^2\alpha+\cos^2\alpha=1$, ta có
+$$\cos\alpha=-\sqrt{1-\sin^2\alpha}=-\sqrt{1-\frac{16}{25}}=-\frac35.$$
+
+Áp dụng công thức nhân đôi $\sin2\alpha=2\sin\alpha\cos\alpha$, ta có
+$$\sin2\alpha=2\cdot\frac45\cdot\left(-\frac35\right)=-\frac{24}{25}.$$
+
+Áp dụng công thức nhân đôi $\cos2\alpha=1-2\sin^2\alpha$, ta có
+$$\cos2\alpha=1-2\cdot\frac{16}{25}=\frac{25-32}{25}=-\frac{7}{25}.$$
+
+Vậy $\sin2\alpha=-\dfrac{24}{25}$ và $\cos2\alpha=-\dfrac{7}{25}$.
 
 **Đáp số.** $\sin2\alpha=-\dfrac{24}{25}$; $\cos2\alpha=-\dfrac{7}{25}$.
 :::
@@ -259,9 +283,13 @@ Tính a) $\sin15^\circ\cos75^\circ$; b) $\cos105^\circ+\cos15^\circ$.
 2. Câu b: dùng $\cos u+\cos v=2\cos\dfrac{u+v}{2}\cos\dfrac{u-v}{2}$.
 
 ::solution
-a) $\sin15^\circ\cos75^\circ=\dfrac12\left[\sin(-60^\circ)+\sin90^\circ\right]=\dfrac12\left(1-\dfrac{\sqrt3}{2}\right)=\dfrac{2-\sqrt3}{4}$.
+a) Áp dụng công thức biến đổi tích thành tổng $\sin a\cos b=\dfrac12\left[\sin(a+b)+\sin(a-b)\right]$ với $a=15^\circ$, $b=75^\circ$, ta có
+$$\sin15^\circ\cos75^\circ=\frac12\left[\sin90^\circ+\sin(-60^\circ)\right]=\frac12\left(1-\frac{\sqrt3}{2}\right)=\frac{2-\sqrt3}{4}.$$
 
-b) $\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\dfrac12\cdot\dfrac{\sqrt2}{2}=\dfrac{\sqrt2}{2}$.
+b) Áp dụng công thức biến đổi tổng thành tích $\cos a+\cos b=2\cos\dfrac{a+b}{2}\cos\dfrac{a-b}{2}$ với $a=105^\circ$, $b=15^\circ$, ta có
+$$\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\frac12\cdot\frac{\sqrt2}{2}=\frac{\sqrt2}{2}.$$
+
+Vậy $\sin15^\circ\cos75^\circ=\dfrac{2-\sqrt3}{4}$ và $\cos105^\circ+\cos15^\circ=\dfrac{\sqrt2}{2}$.
 
 **Đáp số.** a) $\dfrac{2-\sqrt3}{4}$; b) $\dfrac{\sqrt2}{2}$.
 :::
@@ -277,8 +305,15 @@ Rút gọn biểu thức $A=\dfrac{\sin3x+\sin x}{\cos3x+\cos x}$ (với $x$ là
 2. Giản ước thừa số chung.
 
 ::solution
-Ta có $\sin3x+\sin x=2\sin2x\cos x$ và $\cos3x+\cos x=2\cos2x\cos x$. Vì biểu thức xác định nên $\cos x\ne0$, do đó
-$$A=\dfrac{2\sin2x\cos x}{2\cos2x\cos x}=\dfrac{\sin2x}{\cos2x}=\tan2x.$$
+Điều kiện xác định: $\cos3x+\cos x\ne0$.
+
+Áp dụng công thức biến đổi tổng thành tích, ta có
+$$\sin3x+\sin x=2\sin2x\cos x,\qquad \cos3x+\cos x=2\cos2x\cos x.$$
+
+Do đó điều kiện xác định là $\cos2x\cos x\ne0$, tức là $\cos x\ne0$ và $\cos2x\ne0$. Với các giá trị $x$ này, ta có
+$$A=\frac{2\sin2x\cos x}{2\cos2x\cos x}=\frac{\sin2x}{\cos2x}=\tan2x.$$
+
+Vậy $A=\tan2x$.
 
 **Đáp số.** $A=\tan2x$.
 :::
@@ -294,7 +329,15 @@ Một cầu thủ đá quả bóng với vận tốc đầu $15$ m/s, bóng ch�
 2. Tìm hai giá trị của $2\alpha$ rồi chia đôi.
 
 ::solution
-Ta có $\sin2\alpha=\dfrac{20\cdot9{,}8}{15^2}=\dfrac{196}{225}\approx0{,}8711$. Vì $0^\circ<2\alpha<180^\circ$ nên $2\alpha\approx60{,}6^\circ$ hoặc $2\alpha\approx180^\circ-60{,}6^\circ=119{,}4^\circ$, suy ra $\alpha\approx30{,}3^\circ$ hoặc $\alpha\approx59{,}7^\circ$.
+Gọi $\alpha$ là góc đá. Với $R=20$ m, $v=15$ m/s và $g\approx9{,}8$ m/s$^2$, công thức tầm xa $R=\dfrac{v^2\sin2\alpha}{g}$ cho
+$$\sin2\alpha=\frac{Rg}{v^2}=\frac{20\cdot9{,}8}{15^2}=\frac{196}{225}\approx0{,}8711.$$
+
+Vì $0^\circ<\alpha<90^\circ$ nên $0^\circ<2\alpha<180^\circ$. Trong khoảng này, phương trình $\sin2\alpha\approx0{,}8711$ có hai nghiệm:
+$$2\alpha\approx60{,}6^\circ\quad\text{hoặc}\quad2\alpha\approx180^\circ-60{,}6^\circ=119{,}4^\circ.$$
+
+Suy ra $\alpha\approx30{,}3^\circ$ hoặc $\alpha\approx59{,}7^\circ$ (cả hai đều thoả mãn $0^\circ<\alpha<90^\circ$).
+
+Vậy có hai góc đá thoả mãn là $\alpha\approx30{,}3^\circ$ và $\alpha\approx59{,}7^\circ$; hai góc này phụ nhau vì $30{,}3^\circ+59{,}7^\circ=90^\circ$.
 
 **Đáp số.** Có hai góc: $\alpha\approx30{,}3^\circ$ và $\alpha\approx59{,}7^\circ$ (hai góc phụ nhau).
 :::
@@ -319,13 +362,19 @@ d) $\tan\alpha=2+\sqrt3$.
 3. d) So sánh với $\tan15^\circ$.
 
 ::solution
-a) **Sai**: $\cos\dfrac{\pi}{12}\approx0{,}966$, còn $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}\approx-0{,}207$; hiệu hai côsin không phải côsin của hiệu hai góc.
+Ta có $\alpha=\dfrac{\pi}{12}=\dfrac{\pi}{3}-\dfrac{\pi}{4}$ (tức $15^\circ$).
 
-b) **Đúng**: $\cos\dfrac{\pi}{12}=\cos\dfrac{\pi}{3}\cos\dfrac{\pi}{4}+\sin\dfrac{\pi}{3}\sin\dfrac{\pi}{4}=\dfrac{\sqrt2}{4}+\dfrac{\sqrt6}{4}$.
+a) **Sai.** Ta có $\cos\dfrac{\pi}{12}\approx0{,}966$, còn $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}=\dfrac12-\dfrac{\sqrt2}{2}\approx-0{,}207$. Hiệu hai côsin không phải là côsin của hiệu hai góc.
 
-c) **Đúng**: $\sin\alpha\cos\alpha=\dfrac12\sin\dfrac{\pi}{6}=\dfrac14$.
+b) **Đúng.** Áp dụng công thức cộng $\cos(a-b)=\cos a\cos b+\sin a\sin b$, ta có
+$$\cos\frac{\pi}{12}=\cos\frac{\pi}{3}\cos\frac{\pi}{4}+\sin\frac{\pi}{3}\sin\frac{\pi}{4}=\frac{\sqrt2}{4}+\frac{\sqrt6}{4}=\frac{\sqrt6+\sqrt2}{4}.$$
 
-d) **Sai**: $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0{,}268$; $2+\sqrt3$ là $\tan75^\circ$.
+c) **Đúng.** Áp dụng công thức nhân đôi $\sin2\alpha=2\sin\alpha\cos\alpha$, ta có
+$$\sin\alpha\cos\alpha=\frac12\sin2\alpha=\frac12\sin\frac{\pi}{6}=\frac12\cdot\frac12=\frac14.$$
+
+d) **Sai.** Ta có $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0{,}268$, còn $2+\sqrt3$ là $\tan75^\circ$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -341,9 +390,17 @@ Một người đứng cách một bức tường $8$ m. Mép dưới của mộ
 2. Tính $\tan(\alpha-\beta)$ rồi suy ra góc.
 
 ::solution
-Ta có $\tan\alpha=\dfrac78$ và $\tan\beta=\dfrac18$. Do đó
-$$\tan(\alpha-\beta)=\dfrac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\dfrac{\frac34}{\frac{71}{64}}=\dfrac{48}{71}\approx0{,}676,$$
-suy ra $\alpha-\beta\approx34{,}1^\circ$.
+Gọi $\alpha$ là góc giữa phương ngang (từ mắt đến chân đường vuông góc hạ xuống tường) và tia nhìn tới mép trên băng rôn, $\beta$ là góc giữa phương ngang và tia nhìn tới mép dưới. Góc nhìn băng rôn là $\alpha-\beta$.
+
+Người đứng cách tường $8$ m, mép trên cao hơn mắt $7$ m, mép dưới cao hơn mắt $1$ m nên
+$$\tan\alpha=\frac78,\qquad\tan\beta=\frac18.$$
+
+Áp dụng công thức $\tan(\alpha-\beta)=\dfrac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta}$, ta có
+$$\tan(\alpha-\beta)=\frac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\frac{\frac34}{\frac{71}{64}}=\frac{48}{71}\approx0{,}676.$$
+
+Vì $0^\circ<\alpha-\beta<90^\circ$ nên $\alpha-\beta\approx34{,}1^\circ$.
+
+Vậy góc nhìn tấm băng rôn khoảng $34{,}1^\circ$.
 
 **Đáp số.** Khoảng $34{,}1^\circ$.
 :::
@@ -359,8 +416,15 @@ Cho tam giác $ABC$ có $\widehat{A}=45^\circ$, $\widehat{B}=60^\circ$ và $BC=a
 2. Áp dụng định lí sin để tính $AB$.
 
 ::solution
-Ta có $\widehat{C}=180^\circ-45^\circ-60^\circ=75^\circ$ nên $\sin C=\sin75^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ (ví dụ đầu bài). Theo định lí sin:
-$$AB=\dfrac{BC\sin C}{\sin A}=\dfrac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\dfrac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\dfrac{a(\sqrt3+1)}{2}.$$
+Trong tam giác $ABC$, ta có $\widehat{C}=180^\circ-45^\circ-60^\circ=75^\circ$, nên $\sin C=\sin75^\circ$.
+
+Vì $75^\circ=45^\circ+30^\circ$ nên áp dụng công thức cộng $\sin(a+b)=\sin a\cos b+\cos a\sin b$, ta có
+$$\sin C=\sin45^\circ\cos30^\circ+\cos45^\circ\sin30^\circ=\frac{\sqrt2}{2}\cdot\frac{\sqrt3}{2}+\frac{\sqrt2}{2}\cdot\frac12=\frac{\sqrt6+\sqrt2}{4}.$$
+
+Áp dụng định lí sin cho tam giác $ABC$: $\dfrac{AB}{\sin C}=\dfrac{BC}{\sin A}$, suy ra
+$$AB=\frac{BC\sin C}{\sin A}=\frac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\frac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\frac{a\sqrt2(\sqrt3+1)}{2\sqrt2}=\frac{a(\sqrt3+1)}{2}.$$
+
+Vậy $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$ và $AB=\dfrac{(\sqrt3+1)a}{2}$.
 
 **Đáp số.** $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$; $AB=\dfrac{(\sqrt3+1)a}{2}$.
 :::
@@ -376,9 +440,19 @@ Chứng minh $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$
 2. Nhân và chia với $\sin\dfrac{\pi}{7}$, dùng công thức nhân đôi ba lần.
 
 ::solution
-Gọi $P$ là tích cần tính. Vì $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$ nên $P=-\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{4\pi}{7}$. Nhân hai vế với $8\sin\dfrac{\pi}{7}$ và dùng $2\sin x\cos x=\sin2x$ ba lần:
-$$8\sin\dfrac{\pi}{7}\,P=-\sin\dfrac{8\pi}{7}=\sin\dfrac{\pi}{7}\quad\left(\text{vì }\sin\dfrac{8\pi}{7}=-\sin\dfrac{\pi}{7}\right).$$
-Vì $\sin\dfrac{\pi}{7}\ne0$ nên $P=\dfrac18$.
+Gọi $P=\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}$. Ta cần chứng minh $P=\dfrac18$.
+
+Vì $\dfrac{3\pi}{7}=\pi-\dfrac{4\pi}{7}$ nên $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$. Do đó
+$$P=-\cos\frac{\pi}{7}\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}.$$
+
+Nhân hai vế với $8\sin\dfrac{\pi}{7}$ và áp dụng công thức $2\sin x\cos x=\sin2x$ ba lần liên tiếp:
+$$\begin{aligned}8\sin\frac{\pi}{7}\,P&=-4\left(2\sin\frac{\pi}{7}\cos\frac{\pi}{7}\right)\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}\\&=-4\sin\frac{2\pi}{7}\cos\frac{2\pi}{7}\cos\frac{4\pi}{7}\\&=-2\sin\frac{4\pi}{7}\cos\frac{4\pi}{7}\\&=-\sin\frac{8\pi}{7}.\end{aligned}$$
+
+Vì $\sin\dfrac{8\pi}{7}=\sin\left(\pi+\dfrac{\pi}{7}\right)=-\sin\dfrac{\pi}{7}$ nên $8\sin\dfrac{\pi}{7}\,P=\sin\dfrac{\pi}{7}$.
+
+Vì $0<\dfrac{\pi}{7}<\pi$ nên $\sin\dfrac{\pi}{7}\ne0$. Chia hai vế cho $8\sin\dfrac{\pi}{7}$, ta được $P=\dfrac18$.
+
+Vậy $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 
 **Đáp số.** $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 :::

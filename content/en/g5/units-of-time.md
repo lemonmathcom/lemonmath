@@ -188,13 +188,19 @@ d) $200$ min $=\ ?$ h $?$ min.
 2. Part d: divide $200$ by $60$.
 
 ::solution
-a) $3\times60=180$ (min).
+a) Each hour has $60$ minutes. We have
+$$3\times60=180\ \text{(min)}.$$
+So $3$ h $=180$ min.
 
-b) $5\times60+20=320$ (s).
+b) Each minute has $60$ seconds. We have
+$$5\times60+20=300+20=320\ \text{(s)}.$$
+So $5$ min $20$ s $=320$ s.
 
-c) $2\times12+6=30$ (months).
+c) Each year has $12$ months. We have
+$$2\times12+6=24+6=30\ \text{(months)}.$$
+So $2$ years $6$ months $=30$ months.
 
-d) $200\div60=3$ remainder $20$, so $200$ min $=3$ h $20$ min.
+d) We divide $200$ by $60$: $200\div60=3$ remainder $20$, because $3\times60=180$ and $200-180=20$. So $200$ min $=3$ h $20$ min.
 
 **Answer.** a) $180$ min; b) $320$ s; c) $30$ months; d) $3$ h $20$ min.
 :::
@@ -210,7 +216,13 @@ How many days does the year $2028$ have? How many days does February $2028$ have
 2. A leap year has $366$ days and February has $29$ days.
 
 ::solution
-Since $2028-2024=4$, the year $2028$ is a leap year: it has $366$ days and February has $29$ days. The year $2026$ is a common year, so February has $28$ days.
+A leap year has $366$ days and its February has $29$ days; a common year has $365$ days and its February has $28$ days. Leap years come every $4$ years, counting from the leap year $2024$.
+
+Since $2028-2024=4$, the year $2028$ is a leap year. So the year $2028$ has $366$ days and February $2028$ has $29$ days.
+
+The year $2026$ is a common year (because $2026-2024=2$ is not a multiple of $4$), so February $2026$ has $28$ days.
+
+So the year $2028$ has $366$ days, February $2028$ has $29$ days and February $2026$ has $28$ days.
 
 **Answer.** $366$ days; $29$ days; $28$ days.
 :::
@@ -230,9 +242,17 @@ b) $3$ min $45$ s $+$ $2$ min $30$ s.
 2. Regroup if the minutes (or seconds) make $60$ or more.
 
 ::solution
-a) $2$ h $25$ min $+$ $3$ h $40$ min $=5$ h $65$ min $=6$ h $5$ min.
+When adding, we add hours to hours and minutes to minutes (seconds to seconds). If the minutes (seconds) reach $60$ or more, we change them to the larger unit.
 
-b) $3$ min $45$ s $+$ $2$ min $30$ s $=5$ min $75$ s $=6$ min $15$ s.
+a) Add hours to hours and minutes to minutes:
+$$2\text{ h }25\text{ min}+3\text{ h }40\text{ min}=5\text{ h }65\text{ min}.$$
+Since $65$ min $=1$ h $5$ min, we get $5$ h $65$ min $=6$ h $5$ min.
+
+b) Add minutes to minutes and seconds to seconds:
+$$3\text{ min }45\text{ s}+2\text{ min }30\text{ s}=5\text{ min }75\text{ s}.$$
+Since $75$ s $=1$ min $15$ s, we get $5$ min $75$ s $=6$ min $15$ s.
+
+So the sum in part a) is $6$ h $5$ min and in part b) is $6$ min $15$ s.
 
 **Answer.** a) $6$ h $5$ min; b) $6$ min $15$ s.
 :::
@@ -252,9 +272,15 @@ b) $9$ min $15$ s $-$ $4$ min $40$ s.
 2. Regroup, then subtract.
 
 ::solution
-a) $7$ h $10$ min $=6$ h $70$ min, so $6$ h $70$ min $-$ $3$ h $35$ min $=3$ h $35$ min.
+When subtracting, we subtract hours from hours and minutes from minutes (seconds from seconds). If the minutes (seconds) in the first time are fewer than in the second, we change $1$ of the larger unit into the smaller unit.
 
-b) $9$ min $15$ s $=8$ min $75$ s, so $8$ min $75$ s $-$ $4$ min $40$ s $=4$ min $35$ s.
+a) Since $10$ min is less than $35$ min, we change $7$ h $10$ min $=6$ h $70$ min. We have
+$$6\text{ h }70\text{ min}-3\text{ h }35\text{ min}=3\text{ h }35\text{ min}.$$
+
+b) Since $15$ s is less than $40$ s, we change $9$ min $15$ s $=8$ min $75$ s. We have
+$$8\text{ min }75\text{ s}-4\text{ min }40\text{ s}=4\text{ min }35\text{ s}.$$
+
+So the difference in part a) is $3$ h $35$ min and in part b) is $4$ min $35$ s.
 
 **Answer.** a) $3$ h $35$ min; b) $4$ min $35$ s.
 :::
@@ -271,8 +297,13 @@ Lan starts a test at $8{:}15$ and hands it in at $9{:}05$. How long does Lan spe
 3. Check: does $8{:}15$ plus your answer make $9{:}05$?
 
 ::solution
-The time Lan spends on the test is:
+Solution
+
+The time Lan spends equals the finishing time minus the starting time. Since $5$ min is less than $15$ min, we change $9$ h $5$ min $=8$ h $65$ min. The time Lan spends on the test is:
 $$9\text{ h }5\text{ min}-8\text{ h }15\text{ min}=8\text{ h }65\text{ min}-8\text{ h }15\text{ min}=50\text{ min}.$$
+
+So Lan spends $50$ minutes on the test.
+
 **Answer.** $50$ minutes.
 :::
 
@@ -287,8 +318,15 @@ The school concert starts at $18{:}40$ and lasts $1$ hour $55$ minutes. At what 
 2. Add, then change $60$ minutes to $1$ hour.
 
 ::solution
-The concert finishes at:
-$$18\text{ h }40\text{ min}+1\text{ h }55\text{ min}=19\text{ h }95\text{ min}=20\text{ h }35\text{ min}.$$
+Solution
+
+The finishing time equals the starting time plus the length of the show. The concert finishes at:
+$$18\text{ h }40\text{ min}+1\text{ h }55\text{ min}=19\text{ h }95\text{ min}.$$
+
+Since $95$ min $=1$ h $35$ min, we get $19$ h $95$ min $=20$ h $35$ min.
+
+So the concert finishes at $20{:}35$.
+
 **Answer.** $20{:}35$.
 :::
 
@@ -303,8 +341,18 @@ Nam goes to bed at $21{:}30$ and wakes up at $6{:}15$ the next morning. How long
 2. Add the time from $0{:}00$ to $6{:}15$.
 
 ::solution
-From $21{:}30$ to $24{:}00$ is $24$ h $-$ $21$ h $30$ min $=2$ h $30$ min. The time asleep is:
+Solution
+
+Nam sleeps from $21{:}30$ until $24{:}00$ (midnight), then from $0{:}00$ until $6{:}15$ the next morning.
+
+The time from $21{:}30$ to $24{:}00$ is:
+$$24\text{ h}-21\text{ h }30\text{ min}=23\text{ h }60\text{ min}-21\text{ h }30\text{ min}=2\text{ h }30\text{ min}.$$
+
+The time Nam sleeps is:
 $$2\text{ h }30\text{ min}+6\text{ h }15\text{ min}=8\text{ h }45\text{ min}.$$
+
+So Nam sleeps for $8$ hours $45$ minutes.
+
 **Answer.** $8$ hours $45$ minutes.
 :::
 
@@ -323,9 +371,17 @@ b) $1.75$ h $=\ ?$ h $?$ min.
 2. Multiply the decimal part by $60$.
 
 ::solution
-a) $0.5\times60=30$, so $2.5$ h $=2$ h $30$ min.
+The decimal part of the number of hours is changed to minutes by multiplying by $60$, because $1$ h $=60$ min.
 
-b) $0.75\times60=45$, so $1.75$ h $=1$ h $45$ min.
+a) We have $2.5$ h $=2$ h $+0.5$ h. Since
+$$0.5\times60=30\ \text{(min)}$$
+we get $2.5$ h $=2$ h $30$ min.
+
+b) We have $1.75$ h $=1$ h $+0.75$ h. Since
+$$0.75\times60=45\ \text{(min)}$$
+we get $1.75$ h $=1$ h $45$ min.
+
+So $2.5$ h $=2$ h $30$ min and $1.75$ h $=1$ h $45$ min.
 
 **Answer.** a) $2$ h $30$ min; b) $1$ h $45$ min.
 :::
@@ -342,8 +398,18 @@ A runner trains like this: runs for $25$ min $40$ s, rests for $3$ min $30$ s, t
 3. Change $60$ seconds to $1$ minute.
 
 ::solution
-The total time is:
-$$\begin{aligned} 25\text{ min }40\text{ s}+3\text{ min }30\text{ s}&=28\text{ min }70\text{ s}=29\text{ min }10\text{ s},\\ 29\text{ min }10\text{ s}+18\text{ min }50\text{ s}&=47\text{ min }60\text{ s}=48\text{ min}. \end{aligned}$$
+Solution
+
+The total time from start to finish is the sum of three periods: the first run, the rest and the second run.
+
+The first run plus the rest take:
+$$25\text{ min }40\text{ s}+3\text{ min }30\text{ s}=28\text{ min }70\text{ s}=29\text{ min }10\text{ s}.$$
+
+Adding the second run:
+$$29\text{ min }10\text{ s}+18\text{ min }50\text{ s}=47\text{ min }60\text{ s}=48\text{ min}.$$
+
+So the total time from start to finish is $48$ minutes.
+
 **Answer.** $48$ minutes.
 :::
 
@@ -358,8 +424,16 @@ How many seconds are there in one day?
 2. Multiply by $24$.
 
 ::solution
-One hour has $60\times60=3600$ (s). One day has:
-$$3600\times24=86\,400\text{ (s)}.$$
+Solution
+
+One hour has $60$ minutes and one minute has $60$ seconds, so one hour has this many seconds:
+$$60\times60=3\,600\ \text{(s)}.$$
+
+One day has $24$ hours, so one day has this many seconds:
+$$3\,600\times24=86\,400\ \text{(s)}.$$
+
+So there are $86\,400$ seconds in one day.
+
 **Answer.** $86\,400$ seconds.
 :::
 

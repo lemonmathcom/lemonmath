@@ -116,7 +116,17 @@ Hai góc kề bù có số đo $(2x+15)^\circ$ và $(4x-3)^\circ$. Giá trị c�
 2. Giải tìm $x$.
 
 ::solution
-$6x+12=180\iff x=28$. Hai góc là $71^\circ$ và $109^\circ$.
+Hai góc kề bù có tổng số đo bằng $180^\circ$. Ta có phương trình
+$$(2x+15)+(4x-3)=180.$$
+
+Thu gọn vế trái, ta được
+$$\begin{aligned}6x+12&=180\\ 6x&=168\\ x&=28.\end{aligned}$$
+
+Kiểm tra: hai góc là $2\cdot28+15=71^\circ$ và $4\cdot28-3=109^\circ$, có tổng $71^\circ+109^\circ=180^\circ$.
+
+Vậy $x=28$.
+
+**Đáp số.** $28$.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -130,7 +140,17 @@ Các góc của một tam giác tỉ lệ với $2:3:4$. Góc lớn nhất có s
 2. Nhân với $4$.
 
 ::solution
-Một phần là $20^\circ$, nên góc lớn nhất là $80^\circ$.
+Gọi số đo một phần là $k^\circ$ ($k>0$). Khi đó ba góc của tam giác có số đo là $2k^\circ$, $3k^\circ$, $4k^\circ$.
+
+Tổng ba góc của một tam giác bằng $180^\circ$, nên
+$$\begin{aligned}2k+3k+4k&=180\\ 9k&=180\\ k&=20.\end{aligned}$$
+Như vậy một phần là $20^\circ$.
+
+Góc lớn nhất ứng với phần lớn nhất là $4$, nên số đo của nó là $4\cdot20^\circ=80^\circ$.
+
+Vậy góc lớn nhất có số đo $80^\circ$.
+
+**Đáp số.** $80^\circ$.
 :::
 
 :::exercise Trắc nghiệm
@@ -148,7 +168,17 @@ D. $1.080^\circ$
 2. Chia cho $8$.
 
 ::solution
-$6\cdot180^\circ=1.080^\circ$, và $1.080^\circ:8=135^\circ$: đáp án **B**.
+Đa giác $n$ cạnh có tổng các góc trong bằng $(n-2)\cdot180^\circ$. Với bát giác, $n=8$.
+
+Tổng các góc trong của bát giác là
+$$(8-2)\cdot180^\circ=6\cdot180^\circ=1.080^\circ.$$
+
+Bát giác đều có $8$ góc trong bằng nhau, nên mỗi góc trong có số đo
+$$1.080^\circ:8=135^\circ.$$
+
+Vậy chọn **B**.
+
+**Đáp số.** B.
 :::
 
 :::exercise Trắc nghiệm
@@ -166,7 +196,16 @@ D. $48\pi$
 2. $\dfrac13\cdot16\cdot6$.
 
 ::solution
-$\dfrac13\pi\cdot16\cdot6=32\pi$: đáp án **A**. Phương án B quên $\dfrac13$.
+Thể tích hình nón có bán kính đáy $r$ và chiều cao $h$ là $V=\dfrac13\pi r^2h$.
+
+Với $r=4$ cm và $h=6$ cm, ta có
+$$V=\frac13\pi\cdot4^2\cdot6=\frac13\pi\cdot16\cdot6=32\pi\ (\text{cm}^3).$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên hệ số $\dfrac13$ nên ra $\pi r^2h=96\pi$.
+
+**Đáp số.** A.
 :::
 
 :::exercise Trắc nghiệm
@@ -183,7 +222,18 @@ D. Gấp 27 lần.
 1. $k=3$.
 
 ::solution
-Diện tích được nhân với $3^2=9$: đáp án **C**. Phương án D là hệ số cho thể tích.
+Gọi chiều dài và chiều rộng ban đầu của hình chữ nhật là $a$ và $b$ ($a>0$, $b>0$). Diện tích ban đầu là $S=ab$.
+
+Sau khi cùng gấp ba, chiều dài là $3a$ và chiều rộng là $3b$, nên diện tích mới là
+$$S'=3a\cdot3b=9ab=9S.$$
+
+Như vậy diện tích được nhân với $3^2=9$.
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án D (gấp $27$ lần) là hệ số thay đổi của thể tích, vì thể tích được nhân với $3^3=27$.
+
+**Đáp số.** C.
 :::
 
 ## Bài tập vận dụng
@@ -199,7 +249,17 @@ Một chiếc hộp hình hộp chữ nhật dài 30 xăng-ti-mét, rộng 20 x�
 2. Cộng lại rồi nhân đôi.
 
 ::solution
-$2(600+300+200)=2.200$ xăng-ti-mét vuông.
+Diện tích toàn phần của hình hộp chữ nhật có ba kích thước $a$, $b$, $c$ là $S_{tp}=2(ab+bc+ca)$.
+
+Với chiều dài $30$ cm, chiều rộng $20$ cm và chiều cao $10$ cm, ta có các tích
+$$30\cdot20=600,\qquad 30\cdot10=300,\qquad 20\cdot10=200.$$
+
+Do đó
+$$S_{tp}=2(600+300+200)=2\cdot1.100=2.200\ (\text{cm}^2).$$
+
+Vậy diện tích toàn phần của hộp là $2.200$ xăng-ti-mét vuông.
+
+**Đáp số.** $2.200$ xăng-ti-mét vuông.
 :::
 
 :::exercise Bể cá
@@ -213,7 +273,17 @@ Một bể cá dài 60 xăng-ti-mét, rộng 40 xăng-ti-mét và cao 30 xăng-t
 2. Chia cho $1.000$.
 
 ::solution
-$60\cdot40\cdot25=60.000$ xăng-ti-mét khối, tức 60 lít.
+Phần nước trong bể có dạng hình hộp chữ nhật với đáy $60$ cm $\times$ $40$ cm và chiều cao bằng độ sâu của nước là $25$ cm (không phải chiều cao $30$ cm của bể).
+
+Thể tích nước là
+$$V=60\cdot40\cdot25=60.000\ (\text{cm}^3).$$
+
+Vì $1$ lít $=1.000$ xăng-ti-mét khối nên số lít nước là
+$$60.000:1.000=60.$$
+
+Vậy trong bể có $60$ lít nước.
+
+**Đáp số.** $60$ lít.
 :::
 
 :::exercise Đường chạy
@@ -227,7 +297,16 @@ Một đường chạy hình vành khuyên có bán kính trong 30 mét và bán
 2. Làm tròn.
 
 ::solution
-$\pi(1.225-900)=325\pi\approx1.021$ mét vuông.
+Đường chạy hình vành khuyên là phần nằm giữa hai đường tròn cùng tâm, nên diện tích của nó bằng hiệu diện tích hình tròn ngoài và hình tròn trong: $S=\pi R^2-\pi r^2$, với $R=35$ m và $r=30$ m.
+
+Ta có
+$$S=\pi\left(35^2-30^2\right)=\pi(1.225-900)=325\pi.$$
+
+Bằng máy tính, $325\pi\approx1.021$ khi làm tròn đến hàng đơn vị.
+
+Vậy diện tích đường chạy xấp xỉ $1.021$ mét vuông.
+
+**Đáp số.** $1.021$ mét vuông.
 :::
 
 :::exercise Thử thách
@@ -241,7 +320,21 @@ Một hình cầu nằm vừa khít trong một hình lập phương có thể t
 2. Chia thể tích hình cầu cho $64$.
 
 ::solution
-Hình cầu có thể tích $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. Tỉ số là $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0{,}52$. Hình cầu luôn chiếm $\dfrac{\pi}{6}$ thể tích hình lập phương bao quanh nó, dù to hay nhỏ.
+Gọi $a$ (cm) là cạnh của hình lập phương ($a>0$). Thể tích hình lập phương là $a^3=64$, nên $a=\sqrt[3]{64}=4$.
+
+Hình cầu nằm vừa khít trong hình lập phương và tiếp xúc với cả sáu mặt nên đường kính của hình cầu bằng cạnh hình lập phương, tức là $2R=4$ và $R=2$ cm.
+
+Thể tích hình cầu là
+$$V_{\text{cầu}}=\frac43\pi R^3=\frac43\pi\cdot8=\frac{32\pi}{3}\ (\text{cm}^3).$$
+
+Tỉ số thể tích của hình cầu và hình lập phương là
+$$\frac{V_{\text{cầu}}}{V_{\text{lập phương}}}=\frac{32\pi}{3\cdot64}=\frac{\pi}{6}\approx0{,}52.$$
+
+Với cạnh $a$ bất kì thì $R=\dfrac a2$ và $V_{\text{cầu}}=\dfrac43\pi\cdot\dfrac{a^3}{8}=\dfrac{\pi a^3}{6}$, nên hình cầu luôn chiếm $\dfrac{\pi}{6}$ thể tích hình lập phương bao quanh nó, dù to hay nhỏ.
+
+Vậy hình cầu chiếm $\dfrac{\pi}{6}$ thể tích hình lập phương, xấp xỉ $0{,}52$.
+
+**Đáp số.** $\dfrac{\pi}{6}\approx0{,}52$.
 :::
 
 :::quiz

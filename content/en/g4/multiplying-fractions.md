@@ -198,7 +198,15 @@ Work out $\dfrac{3}{4}\times\dfrac{2}{5}$.
 2. Simplify the answer.
 
 ::solution
-$$\dfrac{3}{4}\times\dfrac{2}{5}=\dfrac{3\times2}{4\times5}=\dfrac{6}{20}=\dfrac{3}{10}.$$
+To multiply two fractions, we multiply the numerators together and the denominators together.
+
+We have
+$$\frac{3}{4}\times\frac{2}{5}=\frac{3\times2}{4\times5}=\frac{6}{20}.$$
+
+We simplify the fraction by dividing both the numerator and the denominator by $2$:
+$$\frac{6}{20}=\frac{6\div2}{20\div2}=\frac{3}{10}.$$
+
+So $\dfrac{3}{4}\times\dfrac{2}{5}=\dfrac{3}{10}$.
 
 **Answer.** $\dfrac{3}{10}$.
 :::
@@ -214,7 +222,15 @@ Work out $\dfrac{5}{12}\times3$.
 2. Simplify the answer.
 
 ::solution
-$$\dfrac{5}{12}\times3=\dfrac{5\times3}{12}=\dfrac{15}{12}=\dfrac{5}{4}.$$
+To multiply a fraction by a whole number, we multiply the numerator by the whole number and keep the denominator.
+
+We have
+$$\frac{5}{12}\times3=\frac{5\times3}{12}=\frac{15}{12}.$$
+
+We simplify the fraction by dividing both the numerator and the denominator by $3$:
+$$\frac{15}{12}=\frac{15\div3}{12\div3}=\frac{5}{4}.$$
+
+So $\dfrac{5}{12}\times3=\dfrac{5}{4}$.
 
 **Answer.** $\dfrac{5}{4}$.
 :::
@@ -230,8 +246,15 @@ Work out $\dfrac{6}{7}\times\dfrac{14}{15}$.
 2. Simplify the fraction.
 
 ::solution
-$$\dfrac{6}{7}\times\dfrac{14}{15}=\dfrac{6\times14}{7\times15}=\dfrac{84}{105}=\dfrac{4}{5}.$$
-In the last step, we divide both $84$ and $105$ by $21$.
+We multiply the numerators together and the denominators together:
+$$\frac{6}{7}\times\frac{14}{15}=\frac{6\times14}{7\times15}=\frac{84}{105}.$$
+
+The number $21$ divides both $84$ and $105$, because $84=21\times4$ and $105=21\times5$.
+
+Dividing both the numerator and the denominator by $21$, we get
+$$\frac{84}{105}=\frac{84\div21}{105\div21}=\frac{4}{5}.$$
+
+So $\dfrac{6}{7}\times\dfrac{14}{15}=\dfrac{4}{5}$.
 
 **Answer.** $\dfrac{4}{5}$.
 :::
@@ -247,7 +270,15 @@ Work out $\dfrac{3}{4}\div\dfrac{5}{6}$.
 2. Multiply, then simplify.
 
 ::solution
-$$\dfrac{3}{4}\div\dfrac{5}{6}=\dfrac{3}{4}\times\dfrac{6}{5}=\dfrac{18}{20}=\dfrac{9}{10}.$$
+To divide a fraction by a fraction, we multiply the first fraction by the reciprocal of the second fraction.
+
+The reciprocal of $\dfrac{5}{6}$ is $\dfrac{6}{5}$. We have
+$$\frac{3}{4}\div\frac{5}{6}=\frac{3}{4}\times\frac{6}{5}=\frac{3\times6}{4\times5}=\frac{18}{20}.$$
+
+We simplify the fraction by dividing both the numerator and the denominator by $2$:
+$$\frac{18}{20}=\frac{9}{10}.$$
+
+So $\dfrac{3}{4}\div\dfrac{5}{6}=\dfrac{9}{10}$.
 
 **Answer.** $\dfrac{9}{10}$.
 :::
@@ -265,9 +296,14 @@ b) $5\div\dfrac{5}{6}$
 2. Simplify the answer.
 
 ::solution
-a) $\dfrac{7}{8}\div\dfrac{7}{4}=\dfrac{7}{8}\times\dfrac{4}{7}=\dfrac{28}{56}=\dfrac{1}{2}$.
+a) The reciprocal of $\dfrac{7}{4}$ is $\dfrac{4}{7}$. We have
+$$\frac{7}{8}\div\frac{7}{4}=\frac{7}{8}\times\frac{4}{7}=\frac{28}{56}.$$
+Dividing both the numerator and the denominator by $28$, we get $\dfrac{28}{56}=\dfrac{1}{2}$.
 
-b) $5\div\dfrac{5}{6}=5\times\dfrac{6}{5}=\dfrac{30}{5}=6$.
+b) The reciprocal of $\dfrac{5}{6}$ is $\dfrac{6}{5}$. We have
+$$5\div\frac{5}{6}=5\times\frac{6}{5}=\frac{30}{5}=6.$$
+
+So the result of part a) is $\dfrac{1}{2}$ and the result of part b) is $6$.
 
 **Answer.** a) $\dfrac{1}{2}$. b) $6$.
 :::
@@ -283,8 +319,12 @@ Suppose each bow needs $\dfrac{2}{5}$ m of ribbon. How many metres of ribbon are
 2. Multiply $\dfrac{2}{5}$ by $6$ and write the unit, metres.
 
 ::solution
-The number of metres of ribbon needed is:
-$$\dfrac{2}{5}\times6=\dfrac{2\times6}{5}=\dfrac{12}{5}\ \text{(m)}.$$
+Solution
+
+Each bow needs $\dfrac{2}{5}$ m of ribbon, so the number of metres of ribbon needed to make $6$ bows is:
+$$\frac{2}{5}\times6=\frac{2\times6}{5}=\frac{12}{5}\ \text{(m)}.$$
+
+So $\dfrac{12}{5}$ m of ribbon are needed to make $6$ bows.
 
 **Answer.** $\dfrac{12}{5}$ m.
 :::
@@ -300,8 +340,12 @@ A rectangular pane of glass is $\dfrac{3}{4}$ m long and $\dfrac{2}{3}$ m wide. 
 2. Multiply the two fractions, simplify, and write the unit, square metres.
 
 ::solution
-The area of the pane is:
-$$\dfrac{3}{4}\times\dfrac{2}{3}=\dfrac{6}{12}=\dfrac{1}{2}\ (\text{m}^2).$$
+Solution
+
+The area of a rectangle is its length multiplied by its width. The area of the pane is:
+$$\frac{3}{4}\times\frac{2}{3}=\frac{3\times2}{4\times3}=\frac{6}{12}=\frac{1}{2}\ (\text{m}^2).$$
+
+So the area of the pane is $\dfrac{1}{2}\ \text{m}^2$.
 
 **Answer.** $\dfrac{1}{2}\ \text{m}^2$.
 :::
@@ -317,10 +361,14 @@ Suppose $\dfrac{5}{6}$ kg of rice is shared equally among $5$ small bags. How ma
 2. Work out $\dfrac{5}{6}\div5$ and simplify.
 
 ::solution
-The number of kilograms of rice in each bag is:
-$$\dfrac{5}{6}\div5=\dfrac{5}{6}\times\dfrac{1}{5}=\dfrac{5}{30}=\dfrac{1}{6}\ \text{(kg)}.$$
+Solution
+
+The rice is shared equally among $5$ small bags, so the number of kilograms of rice in each bag is:
+$$\frac{5}{6}\div5=\frac{5}{6}\times\frac{1}{5}=\frac{5}{30}=\frac{1}{6}\ \text{(kg)}.$$
 
 **Check.** $\dfrac{1}{6}\times5=\dfrac{5}{6}$. Correct.
+
+So each bag has $\dfrac{1}{6}$ kg of rice.
 
 **Answer.** $\dfrac{1}{6}$ kg.
 :::
@@ -336,9 +384,15 @@ Remember the lesson on adding fractions. Work out $\dfrac{1}{2}\times\dfrac{1}{3
 2. Add $\dfrac{1}{6}$ and simplify.
 
 ::solution
-$\dfrac{1}{2}\times\dfrac{1}{3}=\dfrac{1}{6}$.
+In an expression, we do the multiplication first and then the addition.
 
-So $\dfrac{1}{6}+\dfrac{1}{6}=\dfrac{2}{6}=\dfrac{1}{3}$.
+We have
+$$\frac{1}{2}\times\frac{1}{3}=\frac{1\times1}{2\times3}=\frac{1}{6}.$$
+
+The fractions $\dfrac{1}{6}$ and $\dfrac{1}{6}$ have the same denominator, so we add the numerators and keep the denominator:
+$$\frac{1}{6}+\frac{1}{6}=\frac{2}{6}=\frac{1}{3}.$$
+
+So $\dfrac{1}{2}\times\dfrac{1}{3}+\dfrac{1}{6}=\dfrac{1}{3}$.
 
 **Answer.** $\dfrac{1}{3}$.
 :::
@@ -354,10 +408,14 @@ A rectangle has area $\dfrac{3}{5}\ \text{m}^2$ and width $\dfrac{1}{2}$ m. Find
 2. Multiply by the reciprocal, then check.
 
 ::solution
-The length of the rectangle is:
-$$\dfrac{3}{5}\div\dfrac{1}{2}=\dfrac{3}{5}\times2=\dfrac{6}{5}\ \text{(m)}.$$
+Solution
+
+The area of a rectangle is its length multiplied by its width, so the length is the area divided by the width. The length of the rectangle is:
+$$\frac{3}{5}\div\frac{1}{2}=\frac{3}{5}\times2=\frac{6}{5}\ \text{(m)}.$$
 
 **Check.** $\dfrac{6}{5}\times\dfrac{1}{2}=\dfrac{6}{10}=\dfrac{3}{5}$. Correct.
+
+So the length of the rectangle is $\dfrac{6}{5}$ m.
 
 **Answer.** $\dfrac{6}{5}$ m.
 :::

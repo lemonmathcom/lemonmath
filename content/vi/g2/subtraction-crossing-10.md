@@ -161,11 +161,15 @@ c) $11-9$
 2. Lấy 10 trừ phần còn lại.
 
 ::solution
-a) $12-5=12-2-3=10-3=7$.
+Ta tách số trừ thành hai số sao cho trừ số thứ nhất thì được $10$, rồi trừ tiếp số còn lại.
 
-b) $14-8=14-4-4=10-4=6$.
+a) Tách $5=2+3$. Ta có $12-5=12-2-3=10-3=7$.
 
-c) $11-9=11-1-8=10-8=2$.
+b) Tách $8=4+4$. Ta có $14-8=14-4-4=10-4=6$.
+
+c) Tách $9=1+8$. Ta có $11-9=11-1-8=10-8=2$.
+
+Vậy $12-5=7$, $14-8=6$ và $11-9=2$.
 
 **Đáp số.** a) 7; b) 6; c) 2.
 :::
@@ -187,11 +191,15 @@ c) $17-8$
 2. Kiểm tra bằng phép cộng.
 
 ::solution
+Ta tính nhẩm bằng cách trừ để được $10$ trước, rồi trừ tiếp phần còn lại.
+
 a) $13-7=13-3-4=10-4=6$.
 
 b) $16-9=16-6-3=10-3=7$.
 
 c) $17-8=17-7-1=10-1=9$.
+
+Vậy $13-7=6$, $16-9=7$ và $17-8=9$.
 
 **Đáp số.** a) 6; b) 7; c) 9.
 :::
@@ -207,8 +215,12 @@ Biết $9+8=17$. Viết hai phép trừ tương ứng.
 2. Lấy tổng trừ lần lượt từng số hạng.
 
 ::solution
-Tổng là 17. Ta có:
+Phép cộng đã cho là $9+8=17$, trong đó $9$ và $8$ là hai số hạng, $17$ là tổng.
+
+Lấy tổng trừ đi một số hạng thì được số hạng còn lại. Ta có:
 $$17-9=8,\qquad 17-8=9.$$
+
+Vậy hai phép trừ tương ứng là $17-9=8$ và $17-8=9$.
 
 **Đáp số.** $17-9=8$ và $17-8=9$.
 :::
@@ -225,9 +237,15 @@ $$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
 2. So sánh kết quả với số bên phải.
 
 ::solution
-Ta có $15-7=8$ và $8<9$.
-Ta có $13-6=7$ và $7=7$.
-Ta có $12-4=8$ và $8>7$.
+Ta tính hiệu ở vế trái rồi so sánh với số ở vế phải.
+
+Ta có $15-7=15-5-2=10-2=8$ và $8<9$, nên $15-7<9$.
+
+Ta có $13-6=13-3-3=10-3=7$ và $7=7$, nên $13-6=7$.
+
+Ta có $12-4=12-2-2=10-2=8$ và $8>7$, nên $12-4>7$.
+
+Vậy $15-7<9$; $13-6=7$; $12-4>7$.
 
 **Đáp số.** $15-7<9$; $13-6=7$; $12-4>7$.
 :::
@@ -246,9 +264,12 @@ Giả sử trong hộp có 15 viên bi. Nam lấy ra 6 viên bi. Hỏi trong h�
 ::solution
 Bài giải
 
-Trong hộp còn lại số viên bi là:
+Số viên bi còn lại trong hộp là:
 $$15-6=15-5-1=10-1=9\ \text{(viên)}.$$
-Đáp số: 9 viên bi.
+
+Vậy trong hộp còn lại $9$ viên bi.
+
+**Đáp số.** 9 viên bi.
 :::
 
 :::exercise
@@ -265,9 +286,12 @@ Giả sử sân trường có 17 bạn đang chơi. Có 9 bạn đi vào lớp. 
 ::solution
 Bài giải
 
-Sân trường còn lại số bạn đang chơi là:
+Số bạn còn lại đang chơi trong sân trường là:
 $$17-9=17-7-2=10-2=8\ \text{(bạn)}.$$
-Đáp số: 8 bạn.
+
+Vậy sân trường còn lại $8$ bạn đang chơi.
+
+**Đáp số.** 8 bạn.
 :::
 
 :::exercise
@@ -284,9 +308,12 @@ Nhớ lại bài toán về ít hơn. Lan có 14 bông hoa. Mai có ít hơn Lan
 ::solution
 Bài giải
 
-Mai có số bông hoa là:
+Mai có ít hơn Lan $6$ bông hoa, nên số bông hoa của Mai bằng số bông hoa của Lan trừ đi $6$. Số bông hoa Mai có là:
 $$14-6=14-4-2=10-2=8\ \text{(bông)}.$$
-Đáp số: 8 bông hoa.
+
+Vậy Mai có $8$ bông hoa.
+
+**Đáp số.** 8 bông hoa.
 :::
 
 :::exercise Thử thách
@@ -300,9 +327,14 @@ Trong bảng trừ qua 10, những phép trừ nào có hiệu bằng 9? Em nh�
 2. So sánh số bị trừ và số trừ của hai phép trừ liền nhau.
 
 ::solution
-Các phép trừ có hiệu bằng 9 là:
-$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
-Từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng 1 và số trừ cũng tăng 1, nên hiệu không đổi.
+Các phép trừ trong bảng trừ qua $10$ có hiệu bằng $9$ có số trừ bằng số bị trừ trừ đi $9$. Ta kiểm tra từng phép trừ, chẳng hạn $13-4=13-3-1=10-1=9$:
+$$11-2=9,\ 12-3=9,\ 13-4=9,\ 14-5=9,\ 15-6=9,\ 16-7=9,\ 17-8=9,\ 18-9=9.$$
+
+Có $8$ phép trừ như vậy.
+
+Nhận xét: từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng $1$ và số trừ cũng tăng $1$, nên hiệu không đổi, vẫn bằng $9$.
+
+Vậy có $8$ phép trừ có hiệu bằng $9$, và khi số bị trừ và số trừ cùng tăng $1$ thì hiệu vẫn bằng $9$.
 
 **Đáp số.** Có 8 phép trừ; số bị trừ và số trừ cùng tăng 1 thì hiệu vẫn bằng 9.
 :::

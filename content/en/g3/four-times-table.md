@@ -155,11 +155,17 @@ c) $4\times9$.
 2. Stop at the number you need.
 
 ::solution
-a) $4\times3=12$.
+Solution
 
-b) $4\times5=20$.
+We use the $4$ times table.
 
-c) $4\times9=36$.
+a) $4\times3$ is $3$ lots of $4$: $4+4+4=12$. So $4\times3=12$.
+
+b) $4\times5$ is $5$ lots of $4$: $4\times5=20$.
+
+c) $4\times9$ is $9$ lots of $4$: $4\times9=36$.
+
+So $4\times3=12$; $4\times5=20$; $4\times9=36$.
 
 **Answer.** a) $12$; b) $20$; c) $36$.
 :::
@@ -181,11 +187,17 @@ c) $4\times4$.
 2. Add $4$.
 
 ::solution
-a) $4\times7=24+4=28$.
+Solution
 
-b) $4\times10=36+4=40$.
+When the number of lots goes up by $1$, the product in the $4$ times table goes up by $4$. We use the product just before to work out each answer.
 
-c) $4\times4=12+4=16$.
+a) We have $4\times6=24$, so $4\times7=24+4=28$.
+
+b) We have $4\times9=36$, so $4\times10=36+4=40$.
+
+c) We have $4\times3=12$, so $4\times4=12+4=16$.
+
+So $4\times7=28$; $4\times10=40$; $4\times4=16$.
 
 **Answer.** a) $28$; b) $40$; c) $16$.
 :::
@@ -207,11 +219,15 @@ c) $3\times8$ and $4\times6$.
 2. Compare the results.
 
 ::solution
-a) $3\times4=12$.
+Solution
 
-b) $4\times3=12$, the same as $3\times4$.
+a) From the $3$ times table: $3\times4=12$.
 
-c) $3\times8=24$ and $4\times6=24$, so the two products are equal.
+b) From the $4$ times table: $4\times3=12$. This is the same as $3\times4$, because swapping the two numbers does not change the product.
+
+c) From the $3$ times table: $3\times8=24$. From the $4$ times table: $4\times6=24$. The two products are equal.
+
+So $3\times4=4\times3=12$ and $3\times8=4\times6=24$.
 
 **Answer.** a) $12$; b) $12$; c) $24$ and $24$.
 :::
@@ -233,11 +249,17 @@ c) $40\div4$.
 2. The other number is the quotient.
 
 ::solution
-a) $4\times3=12$, so $12\div4=3$.
+Solution
 
-b) $4\times7=28$, so $28\div4=7$.
+Dividing by $4$ is the opposite of multiplying by $4$. We think: "$4$ times what number gives the number being divided?"
 
-c) $4\times10=40$, so $40\div4=10$.
+a) We have $4\times3=12$, so $12\div4=3$.
+
+b) We have $4\times7=28$, so $28\div4=7$.
+
+c) We have $4\times10=40$, so $40\div4=10$.
+
+So $12\div4=3$; $28\div4=7$; $40\div4=10$.
 
 **Answer.** a) $3$; b) $7$; c) $10$.
 :::
@@ -259,11 +281,17 @@ c) $4\times9 \;\square\; 3\times12$.
 2. Compare the results.
 
 ::solution
-a) $4\times7=28$ and $28<30$, so $4\times7<30$.
+Solution
 
-b) $24\div4=6$ and $4\times2=8$; $6<8$, so $24\div4<4\times2$.
+We work out the value of each side and then compare.
 
-c) $4\times9=36$ and $3\times12=36$, so the two sides are equal.
+a) We have $4\times7=28$. Since $28<30$, we get $4\times7<30$.
+
+b) We have $24\div4=6$ (because $4\times6=24$) and $4\times2=8$. Since $6<8$, we get $24\div4<4\times2$.
+
+c) We have $4\times9=36$ and $3\times12=36$. The two sides are equal, so $4\times9=3\times12$.
+
+So the signs to write are $<$, $<$, $=$ in that order.
 
 **Answer.** a) $<$; b) $<$; c) $=$.
 :::
@@ -279,9 +307,15 @@ Binh wrote: "$36\div4=8$ because $4\times8=36$". Where did Binh go wrong? Correc
 2. Find the right number in the $4$ times table.
 
 ::solution
-$4\times8=32$, not $36$. We have $4\times9=36$, so $36\div4=9$.
+Solution
 
-**Check.** $4\times9=36$. Correct.
+Binh wrote $36\div4=8$ because he thought $4\times8=36$. But $4\times8=32$, not $36$. So Binh remembered the wrong product from the $4$ times table.
+
+To correct it, we find the number that gives $36$ when multiplied by $4$. We have $4\times9=36$, so $36\div4=9$.
+
+Check: $4\times9=36$. Correct.
+
+So Binh's mistake was remembering the wrong product for $4\times8$; the correct result is $36\div4=9$.
 
 **Answer.** Binh remembered the wrong product; $36\div4=9$.
 :::
@@ -299,9 +333,15 @@ b) $36$ cakes are put into boxes, $4$ cakes in each box. How many boxes are fill
 2. Choose the operation, work it out and write the answer with its unit.
 
 ::solution
-a) The number of wheels is $4\times8=32$ (wheels).
+Solution
 
-b) The number of boxes is $36\div4=9$ (boxes).
+a) Each car has $4$ wheels, so $8$ such cars have this many wheels:
+$$4\times8=32\ \text{(wheels)}$$
+
+b) There are $36$ cakes with $4$ cakes in each box, so the number of boxes filled is:
+$$36\div4=9\ \text{(boxes)}$$
+
+So $8$ cars have $32$ wheels and $9$ boxes are filled.
 
 **Answer.** a) $32$ wheels; b) $9$ boxes.
 :::
@@ -321,9 +361,23 @@ b) How many boxes are still to fill, and how many balls are still to be packed?
 2. Subtract the boxes filled, then work out the balls left.
 
 ::solution
-a) The number of boxes needed is $40\div4=10$ (boxes).
+Solution
 
-b) The boxes still to fill: $10-6=4$ (boxes). The balls already packed: $4\times6=24$, so the balls left are $40-24=16$. Check: $4\times4=16$.
+a) There are $40$ balls with $4$ balls in each box. The number of boxes needed altogether is:
+$$40\div4=10\ \text{(boxes)}$$
+
+b) Lan has already filled $6$ boxes. The number of boxes still to fill is:
+$$10-6=4\ \text{(boxes)}$$
+
+The number of balls already packed is:
+$$4\times6=24\ \text{(balls)}$$
+
+The number of balls still to be packed is:
+$$40-24=16\ \text{(balls)}$$
+
+Check: $4$ boxes are left, with $4$ balls in each box, so $4\times4=16$ (balls). This matches the result above.
+
+So $10$ boxes are needed altogether; $4$ boxes are still to fill and $16$ balls are still to be packed.
 
 **Answer.** a) $10$ boxes; b) $4$ boxes and $16$ balls.
 :::

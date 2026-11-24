@@ -182,9 +182,13 @@ For a data set, $\bar x=20$, $s_x=4$, $\bar y=65$, $s_y=10$ and $r=-0.6$. Find t
 **What you need:** $b=r\,\dfrac{s_y}{s_x}$ and $a=\bar y-b\bar x$.
 
 ::solution
-The slope is $b=-0.6\cdot\dfrac{10}{4}=-1.5$.
+The least-squares regression line has the form $\hat y=a+bx$, where the slope is $b=r\cdot\dfrac{s_y}{s_x}$.
 
-The line passes through $(20,65)$, so $a=65-(-1.5)(20)=65+30=95$.
+Substituting $r=-0.6$, $s_x=4$, $s_y=10$, we get
+$$b=-0.6\cdot\frac{10}{4}=-1.5.$$
+
+The regression line always passes through the point $(\bar x, \bar y)=(20, 65)$, so $\bar y=a+b\bar x$. It follows that
+$$a=\bar y-b\bar x=65-(-1.5)(20)=65+30=95.$$
 
 So the least-squares regression line is $\hat y=95-1.5x$.
 

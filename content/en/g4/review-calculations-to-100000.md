@@ -161,7 +161,24 @@ Work out $46\,285+27\,639$.
 2. Regroup $1$ to the tens and carry on.
 
 ::solution
-$5+9=14$ (write $4$, regroup $1$); $8+3+1=12$ (write $2$, regroup $1$); $2+6+1=9$; $6+7=13$ (write $3$, regroup $1$); $4+2+1=7$. The result is $73\,924$.
+Set the sum out in columns and add from right to left, adding the digits in each place and any regrouped amount.
+
+Ones: $5+9=14$, write $4$, regroup $1$.
+
+Tens: $8+3+1=12$, write $2$, regroup $1$.
+
+Hundreds: $2+6+1=9$, write $9$.
+
+Thousands: $6+7=13$, write $3$, regroup $1$.
+
+Ten thousands: $4+2+1=7$, write $7$.
+
+We get:
+$$46\,285+27\,639=73\,924.$$
+
+*Check.* $73\,924-27\,639=46\,285$. Correct.
+
+So $46\,285+27\,639=73\,924$.
 
 **Answer.** $73\,924$.
 :::
@@ -177,9 +194,26 @@ Work out $80\,000-36\,457$ and check your answer.
 2. Add the difference and $36\,457$ to check.
 
 ::solution
-$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. The result is $43\,543$.
+Set the subtraction out in columns and subtract from right to left.
 
-**Check.** $43\,543+36\,457=80\,000$.
+The zeros in the ones, tens, hundreds and thousands places of $80\,000$ cannot be subtracted from, so we borrow $1$ ten thousand: the ten-thousands place becomes $7$, the thousands, hundreds and tens places each become $9$, and the ones place becomes $10$.
+
+Ones: $10-7=3$, write $3$.
+
+Tens: $9-5=4$, write $4$.
+
+Hundreds: $9-4=5$, write $5$.
+
+Thousands: $9-6=3$, write $3$.
+
+Ten thousands: $7-3=4$, write $4$.
+
+We get:
+$$80\,000-36\,457=43\,543.$$
+
+*Check.* $43\,543+36\,457=80\,000$. Correct.
+
+So $80\,000-36\,457=43\,543$.
 
 **Answer.** $43\,543$.
 :::
@@ -195,7 +229,24 @@ Work out $14\,308\times5$.
 2. Carry on with the other places.
 
 ::solution
-$8\times5=40$ (write $0$, regroup $4$); $0\times5+4=4$; $3\times5=15$ (write $5$, regroup $1$); $4\times5+1=21$ (write $1$, regroup $2$); $1\times5+2=7$. The result is $71\,540$.
+Set the product out in columns and multiply each digit of $14\,308$ by $5$, from right to left.
+
+Ones: $8\times5=40$, write $0$, regroup $4$.
+
+Tens: $0\times5+4=4$, write $4$.
+
+Hundreds: $3\times5=15$, write $5$, regroup $1$.
+
+Thousands: $4\times5+1=21$, write $1$, regroup $2$.
+
+Ten thousands: $1\times5+2=7$, write $7$.
+
+We get:
+$$14\,308\times5=71\,540.$$
+
+*Check.* $71\,540\div5=14\,308$. Correct.
+
+So $14\,308\times5=71\,540$.
 
 **Answer.** $71\,540$.
 :::
@@ -211,9 +262,22 @@ Work out $72\,168\div8$ and check your answer.
 2. Bring down the other digits one by one.
 
 ::solution
-$72\div8=9$ remainder $0$. Bring down $1$: $1\div8=0$ remainder $1$. Bring down $6$: $16\div8=2$ remainder $0$. Bring down $8$: $8\div8=1$. The quotient is $9\,021$.
+Set the division out and divide from left to right.
 
-**Check.** $9\,021\times8=72\,168$.
+$72\div8=9$ remainder $0$; write $9$ in the quotient.
+
+Bring down $1$: $1\div8=0$ remainder $1$; write $0$ in the quotient.
+
+Bring down $6$ to make $16$: $16\div8=2$ remainder $0$; write $2$ in the quotient.
+
+Bring down $8$: $8\div8=1$ remainder $0$; write $1$ in the quotient.
+
+The quotient is $9\,021$:
+$$72\,168\div8=9\,021.$$
+
+*Check.* $9\,021\times8=72\,168$. Correct.
+
+So $72\,168\div8=9\,021$.
 
 **Answer.** $9\,021$.
 :::
@@ -229,10 +293,16 @@ $18\,000$ kg of maize is shared equally between $6$ lorries. How many kilograms 
 2. Work out $18\,000\div6$ and write the answer with its unit.
 
 ::solution
-Shared equally means each lorry carries the same amount, so we divide the total maize by the number of lorries:
+Solution
+
+The maize is shared equally, so every lorry carries the same amount. That is why we use division: we divide the total maize by the number of lorries.
+
+The number of kilograms of maize each lorry carries is:
 $$18\,000\div6=3\,000\ \text{(kg)}.$$
 
-**Check.** $3\,000\times6=18\,000$.
+*Check.* $3\,000\times6=18\,000$. Correct.
+
+So each lorry carries $3\,000$ kg of maize.
 
 **Answer.** $3\,000$ kg of maize.
 :::
@@ -248,7 +318,26 @@ Nam works out $36\,054\div6=609$. Where did Nam go wrong? Work it out again.
 2. Divide again, and write $0$ when you cannot divide yet.
 
 ::solution
-$609\times6=3\,654\ne36\,054$, so Nam is wrong. Dividing again: $36\div6=6$. Bring down $0$: $0\div6=0$. Bring down $5$: $5\div6=0$ remainder $5$. Bring down $4$: $54\div6=9$. The quotient is $6\,009$.
+We check Nam's work by multiplying:
+$$609\times6=3\,654.$$
+
+Since $3\,654\ne36\,054$, Nam's division is wrong.
+
+We divide $36\,054\div6$ again.
+
+$36\div6=6$, write $6$ in the quotient.
+
+Bring down $0$: $0\div6=0$, write $0$ in the quotient.
+
+Bring down $5$: $5\div6=0$ remainder $5$, and we still write $0$ in the quotient.
+
+Bring down $4$ to make $54$: $54\div6=9$, write $9$ in the quotient.
+
+The quotient is $6\,009$.
+
+*Check.* $6\,009\times6=36\,054$. Correct.
+
+So Nam left out one zero in the quotient; the correct answer is $36\,054\div6=6\,009$.
 
 **Answer.** Nam forgot a zero; the correct answer is $36\,054\div6=6\,009$.
 :::
@@ -264,7 +353,15 @@ On the first day a shop sells $15\,360$ kg of rice. On the second day it sells $
 2. Add the rice from both days.
 
 ::solution
-Second day: $15\,360+2\,840=18\,200$ (kg). Both days: $15\,360+18\,200=33\,560$ (kg).
+Solution
+
+The number of kilograms of rice sold on the second day is:
+$$15\,360+2\,840=18\,200\ \text{(kg)}.$$
+
+The number of kilograms of rice sold in the two days is:
+$$15\,360+18\,200=33\,560\ \text{(kg)}.$$
+
+So the shop sells $33\,560$ kg of rice in the two days.
 
 **Answer.** $33\,560$ kg of rice.
 :::
@@ -281,9 +378,20 @@ An order needs $90\,000$ bricks. Four lorries have already carried $12\,500$ bri
 3. Divide by $8$.
 
 ::solution
-Already carried: $12\,500\times4=50\,000$ (bricks). Still needed: $90\,000-50\,000=40\,000$ (bricks). Each day: $40\,000\div8=5\,000$ (bricks).
+Solution
 
-**Check.** $5\,000\times8=40\,000$.
+The number of bricks the four lorries have already carried is:
+$$12\,500\times4=50\,000\ \text{(bricks)}.$$
+
+The number of bricks still needed is:
+$$90\,000-50\,000=40\,000\ \text{(bricks)}.$$
+
+The number of bricks that must be carried each day is:
+$$40\,000\div8=5\,000\ \text{(bricks)}.$$
+
+*Check.* $5\,000\times8=40\,000$. Correct.
+
+So $5\,000$ bricks must be carried each day.
 
 **Answer.** $5\,000$ bricks.
 :::

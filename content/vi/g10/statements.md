@@ -241,7 +241,17 @@ Câu nào dưới đây là mệnh đề? Nếu là mệnh đề thì đúng hay
 3. Tính để biết đúng hay sai.
 
 ::solution
-(a) Là mệnh đề sai, vì $221=13\cdot17$. (b) Chứa biến $x$ nên chưa phải mệnh đề (đúng khi $x=5$, sai khi $x=0$). (c) Câu cảm thán, không phải mệnh đề. (d) Là mệnh đề đúng, vì $7^2=49$ và $7>0$.
+Một câu khẳng định được gọi là mệnh đề nếu nó hoặc đúng hoặc sai (không thể vừa đúng vừa sai, cũng không thể thiếu cả hai).
+
+a) Câu "$221$ là số nguyên tố" là một khẳng định có thể xét đúng sai nên là mệnh đề. Ta có $221=13\cdot17$, tức là $221$ có ước $13$ khác $1$ và khác $221$, nên $221$ không phải số nguyên tố. Đây là mệnh đề sai.
+
+b) Câu "$x-3>0$" có chứa biến $x$ nên tính đúng sai phụ thuộc vào giá trị của $x$: với $x=5$ ta có $2>0$ (đúng), với $x=0$ ta có $-3>0$ (sai). Do đó nó chưa phải là mệnh đề; đây là mệnh đề chứa biến.
+
+c) Câu "Bài này hay quá!" là câu cảm thán, không khẳng định một sự việc có thể xét đúng sai nên không phải là mệnh đề.
+
+d) Câu "$\sqrt{49}=7$" là một khẳng định có thể xét đúng sai nên là mệnh đề. Vì $7^2=49$ và $7>0$ nên $\sqrt{49}=7$. Đây là mệnh đề đúng.
+
+Vậy a) là mệnh đề sai; b) là mệnh đề chứa biến; c) không phải là mệnh đề; d) là mệnh đề đúng.
 
 **Đáp số.** (a) mệnh đề sai; (b) mệnh đề chứa biến; (c) không phải mệnh đề; (d) mệnh đề đúng.
 :::
@@ -259,11 +269,15 @@ Lập mệnh đề phủ định của mỗi mệnh đề sau và cho biết m�
 2. Xét tính đúng sai của mệnh đề gốc.
 
 ::solution
-(a) "$2023$ không chia hết cho $7$". Vì $2023=7\cdot289$ nên mệnh đề gốc đúng, phủ định sai.
+Phủ định của một mệnh đề có giá trị đúng sai ngược với mệnh đề đó: mệnh đề gốc đúng thì phủ định sai, và ngược lại.
 
-(b) "$\pi\ge 3{,}14$". Vì $\pi\approx3{,}1416$ nên mệnh đề gốc sai, phủ định đúng.
+a) Mệnh đề phủ định là "$2023$ không chia hết cho $7$". Vì $2023=7\cdot289$ nên $2023$ chia hết cho $7$; do đó mệnh đề gốc đúng và mệnh đề phủ định sai.
 
-(c) "$-3\le -5$". Mệnh đề gốc đúng, phủ định sai.
+b) Mệnh đề phủ định là "$\pi\ge3{,}14$". Vì $\pi\approx3{,}1416>3{,}14$ nên mệnh đề gốc "$\pi<3{,}14$" sai và mệnh đề phủ định đúng.
+
+c) Mệnh đề phủ định là "$-3\le-5$". Vì $-3-(-5)=2>0$ nên $-3>-5$; do đó mệnh đề gốc đúng và mệnh đề phủ định sai.
+
+Vậy mệnh đề đúng là: mệnh đề gốc ở a), mệnh đề phủ định ở b), mệnh đề gốc ở c).
 
 **Đáp số.** Đúng là: (a) mệnh đề gốc; (b) mệnh đề phủ định; (c) mệnh đề gốc.
 :::
@@ -279,7 +293,15 @@ Cho mệnh đề "Nếu tứ giác $ABCD$ là hình thoi thì hai đường ché
 2. Tìm một tứ giác có hai đường chéo vuông góc nhưng không phải hình thoi.
 
 ::solution
-Mệnh đề đã cho đúng: hai đường chéo của hình thoi vuông góc với nhau. Mệnh đề đảo: "Nếu tứ giác $ABCD$ có hai đường chéo vuông góc thì nó là hình thoi." Mệnh đề đảo sai: tứ giác có hai đường chéo vuông góc, cắt nhau tại trung điểm của chỉ một đường chéo (hình "cánh diều", chẳng hạn $AB=AD=2$, $CB=CD=5$) không phải hình thoi.
+Mệnh đề đã cho có dạng "Nếu $P$ thì $Q$" với $P$: "tứ giác $ABCD$ là hình thoi" và $Q$: "hai đường chéo của $ABCD$ vuông góc với nhau".
+
+Xét mệnh đề đã cho. Nếu $ABCD$ là hình thoi thì $AB=BC=CD=DA$. Khi đó $A$ và $C$ cùng cách đều hai điểm $B$, $D$ (vì $AB=AD$ và $CB=CD$), nên đường thẳng $AC$ là đường trung trực của đoạn $BD$. Suy ra $AC\perp BD$. Vậy mệnh đề đã cho là mệnh đề đúng.
+
+Mệnh đề đảo là "Nếu tứ giác $ABCD$ có hai đường chéo vuông góc thì nó là hình thoi."
+
+Xét mệnh đề đảo. Lấy tứ giác $ABCD$ có $AB=AD=2$ và $CB=CD=5$ (hình "cánh diều"). Vì $A$, $C$ cùng cách đều $B$, $D$ nên $AC\perp BD$, tức là hai đường chéo vuông góc. Tuy nhiên $AB=2\ne5=CB$ nên bốn cạnh không bằng nhau và tứ giác này không phải hình thoi (chỉ một đường chéo là $AC$ đi qua trung điểm của đường chéo kia). Đây là một phản ví dụ, nên mệnh đề đảo sai.
+
+Vậy mệnh đề đã cho đúng, còn mệnh đề đảo sai.
 
 **Đáp số.** Mệnh đề đúng; mệnh đề đảo sai.
 :::
@@ -319,9 +341,15 @@ Lập mệnh đề phủ định của $A$: "$\forall x\in\mathbb{R},\ x^2+x+1>0
 2. Viết $x^2+x+1$ thành một bình phương cộng một số.
 
 ::solution
-$\overline{A}$: "$\exists x\in\mathbb{R},\ x^2+x+1\le 0$". Ta có
-$$x^2+x+1=\left(x+\dfrac12\right)^2+\dfrac34\ge\dfrac34>0$$
-với mọi $x$, nên $A$ đúng.
+Phủ định của mệnh đề "$\forall x\in\mathbb{R},\ P(x)$" là "$\exists x\in\mathbb{R},\ \overline{P(x)}$". Phủ định của "$x^2+x+1>0$" là "$x^2+x+1\le0$". Do đó
+$$\overline{A}:\ "\exists x\in\mathbb{R},\ x^2+x+1\le0".$$
+
+Để xét tính đúng sai, ta biến đổi bằng cách viết thành bình phương một tổng:
+$$x^2+x+1=\left(x+\frac12\right)^2+\frac34.$$
+
+Vì $\left(x+\dfrac12\right)^2\ge0$ với mọi $x$ nên $x^2+x+1\ge\dfrac34>0$ với mọi $x\in\mathbb{R}$. Do đó $A$ đúng, và không tồn tại $x$ nào để $x^2+x+1\le0$, tức là $\overline{A}$ sai.
+
+Vậy $A$ đúng, $\overline{A}$ sai.
 
 **Đáp số.** $A$ đúng, $\overline{A}$ sai.
 :::
@@ -366,7 +394,15 @@ Trong các số tự nhiên $n$ từ $1$ đến $20$, có bao nhiêu số làm c
 3. Đếm số $n$ lẻ từ $1$ đến $20$.
 
 ::solution
-Nếu $n$ chẵn thì $n^2-1$ lẻ, không chia hết cho $8$. Nếu $n$ lẻ thì $n-1$, $n+1$ là hai số chẵn liên tiếp, một trong hai chia hết cho $4$, nên $(n-1)(n+1)$ chia hết cho $2\cdot4=8$. Từ $1$ đến $20$ có $10$ số lẻ.
+Ta có $n^2-1=(n-1)(n+1)$. Xét hai trường hợp theo tính chẵn lẻ của $n$.
+
+Trường hợp $n$ chẵn: khi đó $n^2$ chẵn nên $n^2-1$ là số lẻ, không thể chia hết cho $8$. Vậy $P(n)$ sai.
+
+Trường hợp $n$ lẻ: khi đó $n-1$ và $n+1$ là hai số chẵn liên tiếp. Trong hai số chẵn liên tiếp luôn có một số chia hết cho $4$, và số còn lại chia hết cho $2$. Do đó $(n-1)(n+1)$ chia hết cho $2\cdot4=8$. Vậy $P(n)$ đúng.
+
+Như vậy $P(n)$ đúng khi và chỉ khi $n$ lẻ. Các số lẻ từ $1$ đến $20$ là $1$, $3$, $5$, $\dots$, $19$, gồm $10$ số.
+
+Vậy có $10$ số tự nhiên $n$ từ $1$ đến $20$ làm cho $P(n)$ là mệnh đề đúng.
 
 **Đáp số.** $10$.
 :::
@@ -392,7 +428,20 @@ Bạn nào vi phạm nội quy?
 3. Tìm trường hợp $P$ đúng, $Q$ sai.
 
 ::solution
-An: $P$ sai, $Q$ sai. Bình: $P$ sai, $Q$ đúng (tự giác lên phòng, nội quy không cấm). Chi: $P$ đúng, $Q$ đúng. Dũng: $P$ đúng, $Q$ sai, đây là trường hợp duy nhất làm $P\Rightarrow Q$ sai.
+Gọi $P$ là mệnh đề "bạn đó đến muộn quá $15$ phút" và $Q$ là mệnh đề "bạn đó lên phòng giám thị". Nội quy có dạng mệnh đề kéo theo $P\Rightarrow Q$.
+
+Mệnh đề $P\Rightarrow Q$ chỉ sai khi $P$ đúng và $Q$ sai. Vì vậy một bạn vi phạm nội quy khi và chỉ khi bạn đó đến muộn quá $15$ phút mà không lên phòng giám thị. Ta xét từng bạn:
+
+| Bạn | $P$ | $Q$ | $P\Rightarrow Q$ |
+|---|---|---|---|
+| An ($0$ phút, không lên) | sai | sai | đúng |
+| Bình ($10$ phút, có lên) | sai | đúng | đúng |
+| Chi ($20$ phút, có lên) | đúng | đúng | đúng |
+| Dũng ($25$ phút, không lên) | đúng | sai | sai |
+
+Bạn Bình đến muộn chưa quá $15$ phút nhưng vẫn tự giác lên phòng giám thị; nội quy không cấm điều này nên bạn không vi phạm.
+
+Vậy chỉ có bạn Dũng vi phạm nội quy.
 
 **Đáp số.** Chỉ bạn Dũng vi phạm nội quy.
 :::
@@ -411,9 +460,13 @@ An: $P$ sai, $Q$ sai. Bình: $P$ sai, $Q$ đúng (tự giác lên phòng, nội 
 2. Với (b), thử một giá trị $x$ nằm giữa hai nghiệm $2$ và $5$ của $x^2-7x+10=0$.
 
 ::solution
-(a) $\Delta'=(-3)^2-10=-1<0$ nên phương trình vô nghiệm: $P$ sai. $\overline{P}$: "Phương trình $x^2-6x+10=0$ không có nghiệm thực" là mệnh đề đúng.
+a) Xét $P$: "Phương trình $x^2-6x+10=0$ có nghiệm thực". Phương trình có $b'=-3$, nên
+$$\Delta'=(-3)^2-1\cdot10=9-10=-1<0.$$
+Do đó phương trình vô nghiệm thực, nên $P$ là mệnh đề sai. Mệnh đề phủ định $\overline{P}$: "Phương trình $x^2-6x+10=0$ không có nghiệm thực" là mệnh đề đúng.
 
-(b) Với $x=3$: $9-21+10=-2<0$, nên $Q$ đúng. $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge 0$" là mệnh đề sai.
+b) Xét $Q$: "$\exists x\in\mathbb{R},\ x^2-7x+10<0$". Để chứng tỏ $Q$ đúng, ta chỉ cần chỉ ra một giá trị $x$ thoả mãn. Với $x=3$ ta có $3^2-7\cdot3+10=9-21+10=-2<0$, nên $Q$ là mệnh đề đúng. Mệnh đề phủ định $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge0$" là mệnh đề sai, vì $x=3$ là một phản ví dụ.
+
+Vậy $P$ sai, $\overline{P}$ đúng; $Q$ đúng, $\overline{Q}$ sai.
 
 **Đáp số.** (a) $P$ sai, $\overline{P}$ đúng; (b) $Q$ đúng, $\overline{Q}$ sai.
 :::

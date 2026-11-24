@@ -291,11 +291,29 @@ b) $-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)$.
 2. Nhóm các số hạng cùng mẫu: $\dfrac79$ với $\dfrac79$, $\dfrac58$ với $\dfrac38$, $\dfrac23$ với $\dfrac13$.
 
 ::solution
-a) Ta có $\dfrac79-\dfrac25-\dfrac79-\dfrac35=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)=0-1=-1$.
+Bỏ dấu ngoặc: khi bỏ dấu ngoặc có dấu "$-$" đằng trước thì phải đổi dấu mọi số hạng trong ngoặc; dấu ngoặc có dấu "$+$" đằng trước thì giữ nguyên.
 
-b) Ta có $-\dfrac58+\dfrac23-\dfrac38-\dfrac13=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)=-1+\dfrac13=-\dfrac23$.
+a) Bỏ dấu ngoặc, ta được
+$$\left(\dfrac79-\dfrac25\right)-\left(\dfrac79+\dfrac35\right)=\dfrac79-\dfrac25-\dfrac79-\dfrac35.$$
 
-Vậy kết quả là $-1$ và $-\dfrac23$.
+Nhóm các số hạng có cùng mẫu số:
+$$\begin{aligned}
+&=\left(\dfrac79-\dfrac79\right)-\left(\dfrac25+\dfrac35\right)\\
+&=0-1\\
+&=-1.
+\end{aligned}$$
+
+b) Bỏ dấu ngoặc, ta được
+$$-\left(\dfrac58-\dfrac23\right)-\left(\dfrac38+\dfrac13\right)=-\dfrac58+\dfrac23-\dfrac38-\dfrac13.$$
+
+Nhóm các số hạng có cùng mẫu số:
+$$\begin{aligned}
+&=\left(-\dfrac58-\dfrac38\right)+\left(\dfrac23-\dfrac13\right)\\
+&=-1+\dfrac13\\
+&=-\dfrac23.
+\end{aligned}$$
+
+Vậy kết quả của a) là $-1$ và của b) là $-\dfrac23$.
 
 **Đáp số.** a) $-1$; b) $-\dfrac23$.
 :::
@@ -319,13 +337,21 @@ d) $-x+\dfrac12=-\dfrac23$.
 2. c), d) Tìm $-x$ trước, rồi đổi dấu hai vế.
 
 ::solution
-a) $x=\dfrac25+\dfrac13=\dfrac6{15}+\dfrac5{15}=\dfrac{11}{15}$.
+Quy tắc chuyển vế: khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó.
 
-b) $x=-\dfrac12-\dfrac56=-\dfrac36-\dfrac56=-\dfrac86=-\dfrac43$.
+a) Chuyển $-\dfrac13$ sang vế phải thành $+\dfrac13$:
+$$x=\frac25+\frac13=\frac{6}{15}+\frac{5}{15}=\frac{11}{15}.$$
 
-c) $x=\dfrac34-\dfrac18=\dfrac68-\dfrac18=\dfrac58$.
+b) Chuyển $+\dfrac56$ sang vế phải thành $-\dfrac56$:
+$$x=-\frac12-\frac56=-\frac36-\frac56=-\frac86=-\frac43.$$
 
-d) $-x=-\dfrac23-\dfrac12=-\dfrac46-\dfrac36=-\dfrac76$, nên $x=\dfrac76$.
+c) Chuyển $-x$ sang vế phải thành $+x$ và chuyển $\dfrac18$ sang vế trái thành $-\dfrac18$, ta được $x=\dfrac34-\dfrac18$, tức là
+$$x=\frac34-\frac18=\frac68-\frac18=\frac58.$$
+
+d) Chuyển $\dfrac12$ sang vế phải thành $-\dfrac12$:
+$$-x=-\frac23-\frac12=-\frac46-\frac36=-\frac76.$$
+
+Suy ra $x=\dfrac76$.
 
 Vậy a) $\dfrac{11}{15}$; b) $-\dfrac43$; c) $\dfrac58$; d) $\dfrac76$.
 

@@ -136,7 +136,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Đọc "bốn mươi mốt nghìn", rồi đọc phần còn lại.
 
 ::solution
-Các chữ số: chục nghìn $4$, nghìn $1$, trăm $3$, chục $0$, đơn vị $5$.
+Ta xác định các chữ số của số $41\,305$ theo hàng: chục nghìn là $4$, nghìn là $1$, trăm là $3$, chục là $0$, đơn vị là $5$.
+
+Số này gồm $4$ chục nghìn, $1$ nghìn, $3$ trăm, $0$ chục và $5$ đơn vị. Chữ số $0$ ở hàng chục nên đọc là "linh".
+
+Vậy số $41\,305$ đọc là: bốn mươi mốt nghìn ba trăm linh năm.
 
 **Đáp số.** Bốn mươi mốt nghìn ba trăm linh năm.
 :::
@@ -154,9 +158,13 @@ b) Hai mươi ba nghìn không trăm linh tám.
 2. Ý b): $23\,000$ và $8$, hàng trăm và hàng chục là $0$.
 
 ::solution
-a) $60\,000+200+10=60\,210$.
+a) Sáu mươi nghìn hai trăm mười gồm $60$ nghìn, $2$ trăm và $1$ chục. Ta có
+$$60\,000+200+10=60\,210.$$
 
-b) $23\,000+8=23\,008$.
+b) Hai mươi ba nghìn không trăm linh tám gồm $23$ nghìn, $0$ trăm, $0$ chục và $8$ đơn vị. Ta có
+$$23\,000+8=23\,008.$$
+
+Vậy a) số cần viết là $60\,210$; b) số cần viết là $23\,008$.
 
 **Đáp số.** a) $60\,210$. b) $23\,008$.
 :::
@@ -172,7 +180,14 @@ Viết số $70\,605$ thành tổng các hàng.
 2. Bỏ hàng có chữ số $0$.
 
 ::solution
-Các chữ số: $7$ chục nghìn, $0$ nghìn, $6$ trăm, $0$ chục, $5$ đơn vị. Vậy $70\,605=70\,000+600+5$.
+Ta xác định các chữ số của số $70\,605$: $7$ chục nghìn, $0$ nghìn, $6$ trăm, $0$ chục, $5$ đơn vị.
+
+Giá trị mỗi hàng là $7$ chục nghìn $=70\,000$, $6$ trăm $=600$, $5$ đơn vị $=5$; các hàng nghìn và chục bằng $0$ nên không viết vào tổng.
+
+Do đó
+$$70\,605=70\,000+600+5.$$
+
+Vậy số $70\,605$ viết thành tổng các hàng là $70\,000+600+5$.
 
 **Đáp số.** $70\,000+600+5$.
 :::
@@ -188,7 +203,15 @@ Cho số $58\,142$. Hãy nêu giá trị của chữ số $5$, chữ số $8$ v�
 2. Làm tương tự với chữ số $8$ và chữ số $4$.
 
 ::solution
-Chữ số $5$ ở hàng chục nghìn: giá trị $50\,000$. Chữ số $8$ ở hàng nghìn: giá trị $8\,000$. Chữ số $4$ ở hàng chục: giá trị $40$.
+Trong số $58\,142$, ta xác định hàng của từng chữ số.
+
+Chữ số $5$ ở hàng chục nghìn nên có giá trị $50\,000$.
+
+Chữ số $8$ ở hàng nghìn nên có giá trị $8\,000$.
+
+Chữ số $4$ ở hàng chục nên có giá trị $40$.
+
+Vậy giá trị của chữ số $5$, chữ số $8$, chữ số $4$ lần lượt là $50\,000$, $8\,000$, $40$.
 
 **Đáp số.** $50\,000$; $8\,000$; $40$.
 :::
@@ -229,9 +252,11 @@ b) Hà nói $9\,999>10\,000$ vì $9>1$.
 2. Ý b): đếm số chữ số của hai số.
 
 ::solution
-a) "Ba mươi nghìn năm trăm hai mươi" là $30\,520$. Số $30\,502$ có chữ số hàng chục là $0$, nên đọc là "ba mươi nghìn năm trăm linh hai".
+a) Số "ba mươi nghìn năm trăm hai mươi" là $30\,000+500+20=30\,520$. Số $30\,502$ có chữ số hàng chục là $0$ và chữ số hàng đơn vị là $2$, nên phải đọc là "ba mươi nghìn năm trăm linh hai". Hà sai vì đã đọc thành $30\,520$.
 
-b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số, nên $9\,999<10\,000$. Hà không được so một chữ số đầu khi số chữ số khác nhau.
+b) Số $9\,999$ có $4$ chữ số, số $10\,000$ có $5$ chữ số. Số có ít chữ số hơn thì bé hơn, nên $9\,999<10\,000$. Hà sai vì chỉ so sánh hai chữ số đầu tiên, trong khi hai số có số chữ số khác nhau.
+
+Vậy Hà đọc sai ở câu a) và so sánh sai ở câu b); cách sửa là đọc $30\,502$ là "ba mươi nghìn năm trăm linh hai" và $9\,999<10\,000$.
 
 **Đáp số.** a) Ba mươi nghìn năm trăm linh hai. b) $9\,999<10\,000$.
 :::
@@ -247,7 +272,17 @@ Ba thư viện có số quyển sách là $24\,300$; $8\,900$; $24\,030$. Hãy s
 2. So hai số còn lại từ hàng chục nghìn.
 
 ::solution
-$8\,900$ có $4$ chữ số nên bé nhất. Hai số còn lại cùng có $5$ chữ số, chung hàng chục nghìn và hàng nghìn. Hàng trăm: $0<3$ nên $24\,030<24\,300$.
+Ta so sánh ba số $24\,300$; $8\,900$; $24\,030$.
+
+Số $8\,900$ có $4$ chữ số, hai số còn lại có $5$ chữ số, nên $8\,900$ là số bé nhất.
+
+Hai số $24\,300$ và $24\,030$ cùng có $5$ chữ số, và có chung chữ số hàng chục nghìn là $2$ và hàng nghìn là $4$.
+
+Ta so sánh hàng trăm: $0<3$, nên $24\,030<24\,300$.
+
+Do đó $8\,900<24\,030<24\,300$.
+
+Vậy thứ tự từ bé đến lớn là $8\,900$; $24\,030$; $24\,300$, và thư viện có $24\,300$ quyển có nhiều sách nhất.
 
 **Đáp số.** $8\,900<24\,030<24\,300$; thư viện có $24\,300$ quyển nhiều sách nhất.
 :::
@@ -263,7 +298,13 @@ Từ các chữ số $0$, $3$, $5$, $7$, $9$ (mỗi chữ số dùng đúng mộ
 2. Xếp từ bé đến lớn, nhưng chữ số đầu tiên phải khác $0$.
 
 ::solution
-Số lớn nhất: $97\,530$. Số bé nhất: chữ số đầu là chữ số bé nhất khác $0$, tức $3$; các chữ số còn lại xếp từ bé đến lớn: $0$, $5$, $7$, $9$. Được $30\,579$.
+Ta lập số từ năm chữ số $0$, $3$, $5$, $7$, $9$, mỗi chữ số dùng đúng một lần.
+
+Số lớn nhất: xếp các chữ số từ lớn đến bé, được $97\,530$.
+
+Số bé nhất: chữ số đầu tiên không thể là $0$, nên chọn chữ số bé nhất khác $0$, tức là $3$. Các chữ số còn lại là $0$, $5$, $7$, $9$ được xếp từ bé đến lớn. Ta được $30\,579$.
+
+Vậy số có $5$ chữ số lớn nhất là $97\,530$ và số có $5$ chữ số bé nhất là $30\,579$.
 
 **Đáp số.** Số lớn nhất $97\,530$; số bé nhất $30\,579$.
 :::

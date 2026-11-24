@@ -201,7 +201,17 @@ Round $4\,863$ to the nearest ten and the nearest hundred; round $2.71828$ to tw
 2. Look at the digit just to its right.
 
 ::solution
-$4\,863$: the units digit $3<5$, so to the nearest ten it is $4\,860$; the tens digit $6\ge5$, so to the nearest hundred it is $4\,900$. $2.71828$: the thousandths digit $8\ge5$, so to two decimal places it is $2.72$; the ten-thousandths digit $2<5$, so to three decimal places it is $2.718$.
+Rounding rule: look at the digit immediately to the right of the rounding place; if it is less than $5$, keep the digit in the rounding place; if it is at least $5$, increase the digit in the rounding place by $1$; the digits to the right are dropped (or replaced by $0$ in the integer part).
+
+Round $4\,863$ to the nearest ten: the units digit is $3<5$, so we keep the tens digit and get $4\,860$.
+
+Round $4\,863$ to the nearest hundred: the tens digit is $6\ge5$, so we increase the hundreds digit ($8$) by $1$ and get $4\,900$.
+
+Round $2.71828$ to two decimal places: the thousandths digit is $8\ge5$, so we increase the hundredths digit ($1$) by $1$ and get $2.72$.
+
+Round $2.71828$ to three decimal places: the ten-thousandths digit is $2<5$, so we keep the thousandths digit and get $2.718$.
+
+So $4\,863\approx4\,860$ (nearest ten), $4\,863\approx4\,900$ (nearest hundred), $2.71828\approx2.72$ (two decimal places), $2.71828\approx2.718$ (three decimal places).
 
 **Answer.** $4\,860$; $4\,900$; $2.72$; $2.718$.
 :::
@@ -217,8 +227,17 @@ Given $\sqrt3=1.7320508\ldots$, take $\bar a=1.73$ as an approximation of $\sqrt
 2. Divide $0.0021$ by $1.73$ and convert to a percentage.
 
 ::solution
-$\Delta_{\bar a}=1.7320508\ldots-1.73=0.0020508\ldots<0.0021$. Hence
-$$\delta_{\bar a}\le\dfrac{0.0021}{1.73}\approx0.0012=0.12\%.$$
+The absolute error of the approximation $\bar a$ is $\Delta_{\bar a}=|a-\bar a|$, with $a=\sqrt3$ and $\bar a=1.73$.
+
+Since $\sqrt3=1.7320508\ldots>1.73$, we have
+$$\Delta_{\bar a}=\sqrt3-1.73=0.0020508\ldots<0.0021.$$
+
+Hence $\Delta_{\bar a}<0.0021$, so we may take the error bound $d=0.0021$.
+
+The relative error of $\bar a$ satisfies $\delta_{\bar a}=\dfrac{\Delta_{\bar a}}{|\bar a|}\le\dfrac d{|\bar a|}$, so
+$$\delta_{\bar a}\le\frac{0.0021}{1.73}\approx0.0012=0.12\%.$$
+
+So $\Delta_{\bar a}<0.0021$ and the relative error of $\bar a$ is at most $0.12\%$.
 
 **Answer.** $\delta_{\bar a}\le0.12\%$.
 :::
@@ -234,9 +253,19 @@ Which is the better approximation of $\sqrt2=1.41421356\ldots$: $1.41$ or $\dfra
 2. Compute both absolute errors and compare.
 
 ::solution
-$\dfrac{99}{70}=1.4142857\ldots$ We have
-$$|\sqrt2-1.41|\approx0.0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0.000072.$$
-The second error is far smaller.
+The number whose absolute error (with respect to $\sqrt2$) is smaller is the better approximation of $\sqrt2$. We compute the error of each number.
+
+We have $\dfrac{99}{70}=1.4142857\ldots$ and $\sqrt2=1.41421356\ldots$
+
+For $1.41$:
+$$|\sqrt2-1.41|=0.00421356\ldots\approx0.0042.$$
+
+For $\dfrac{99}{70}$:
+$$\left|\frac{99}{70}-\sqrt2\right|=0.0000721\ldots\approx0.000072.$$
+
+Since $0.000072<0.0042$, the error of $\dfrac{99}{70}$ is far smaller than the error of $1.41$.
+
+So $\dfrac{99}{70}$ is a better approximation of $\sqrt2$ than $1.41$.
 
 **Answer.** $\dfrac{99}{70}$ is the better approximation of $\sqrt2$.
 :::
@@ -252,13 +281,25 @@ Given $\sqrt7=2.6457513\ldots$ and $\pi^2=9.8696044\ldots$, write an approximati
 2. $d=0.01$: round to two decimal places.
 
 ::solution
-$\sqrt7\approx2.646$ with error $\approx0.00025\le0.001$. $\pi^2\approx9.87$ with error $\approx0.0004\le0.01$.
+When a number is rounded to a given place, the error does not exceed half a unit of that place. So we choose the rounding place such that half a unit of that place does not exceed the required error bound.
+
+For $\sqrt7=2.6457513\ldots$ with error bound $0.001$: round to three decimal places (half a unit is $0.0005\le0.001$). The ten-thousandths digit is $7\ge5$, so $\sqrt7\approx2.646$. The error is
+$$|\sqrt7-2.646|=0.0002487\ldots\approx0.00025\le0.001.$$
+
+For $\pi^2=9.8696044\ldots$ with error bound $0.01$: round to two decimal places (half a unit is $0.005\le0.01$). The thousandths digit is $9\ge5$, so $\pi^2\approx9.87$. The error is
+$$|\pi^2-9.87|=0.0003956\ldots\approx0.0004\le0.01.$$
+
+So $\sqrt7\approx2.646$ (error bound $0.001$) and $\pi^2\approx9.87$ (error bound $0.01$).
 
 **Answer.** $\sqrt7\approx2.646$; $\pi^2\approx9.87$.
 :::
 
 :::exercise
-Write the rounded form of each approximate value: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0.73914\pm0.004$.
+Write the rounded form of each approximate value:
+
+a) $\bar a=2\,476\,154\pm2\,000$.
+
+b) $\bar b=0.73914\pm0.004$.
 
 ::hint
 **What you need:** round to the lowest place whose unit is greater than $d$.
@@ -268,9 +309,13 @@ Write the rounded form of each approximate value: (a) $\bar a=2\,476\,154\pm2\,0
 2. Round using the digit just to the right of that place.
 
 ::solution
-(a) $2\,000$ is not less than $1\,000$ but is less than $10\,000$, so round to the nearest ten thousand; the thousands digit is $6\ge5$: $2\,480\,000$.
+The rounded form of an approximation with error bound $d$ is obtained by rounding to the lowest place for which $d$ is less than one unit of that place.
 
-(b) $0.004$ is less than $0.01$ but not less than $0.001$, so round to two decimal places; the thousandths digit is $9\ge5$: $0.74$.
+a) For $\bar a=2\,476\,154$ and $d=2\,000$: $2\,000$ is not less than $1\,000$ (one unit of the thousands place) but is less than $10\,000$ (one unit of the ten-thousands place), so we round to the nearest ten thousand. The thousands digit is $6\ge5$, so we increase the ten-thousands digit ($7$) by $1$ and get $2\,480\,000$.
+
+b) For $\bar b=0.73914$ and $d=0.004$: $0.004$ is not less than $0.001$ but is less than $0.01$, so we round to two decimal places. The thousandths digit is $9\ge5$, so we increase the hundredths digit ($3$) by $1$ and get $0.74$.
+
+So the rounded form of $\bar a$ is $2\,480\,000$ and the rounded form of $\bar b$ is $0.74$.
 
 **Answer.** (a) $2\,480\,000$; (b) $0.74$.
 :::
@@ -286,7 +331,17 @@ A tailor measures a piece of cloth as $6.4$ m with error bound $0.05$ m. A build
 2. Compare the two ratios.
 
 ::solution
-Tailor: $\delta_1\le\dfrac{0.05}{6.4}\approx0.78\%$. Builder: $\delta_2\le\dfrac{0.4}{85}\approx0.47\%$.
+The measurement with the smaller relative error is the more accurate one. We compute the upper bound $\delta\le\dfrac{d}{|\bar a|}$ for the relative error of each measurement.
+
+Tailor: $\bar a=6.4$ m, $d=0.05$ m, so
+$$\delta_1\le\frac{0.05}{6.4}=0.0078125\approx0.78\%.$$
+
+Builder: $\bar a=85$ m, $d=0.4$ m, so
+$$\delta_2\le\frac{0.4}{85}\approx0.0047\approx0.47\%.$$
+
+Since $0.47\%<0.78\%$, the relative error of the builder's measurement is smaller.
+
+So the builder's measurement is more accurate.
 
 **Answer.** The builder's measurement is more accurate.
 :::
@@ -308,13 +363,18 @@ d) It is possible that $a=4.4$.
 3. Find the lowest place whose unit is greater than $0.02$.
 
 ::solution
-a) **True.** $4.375-0.02=4.355$ and $4.375+0.02=4.395$.
+Since $\bar a=4.375$ is an approximation of $a$ with error bound $d=0.02$, we have $|a-\bar a|\le0.02$, that is $\bar a-d\le a\le\bar a+d$.
 
-b) **True.** $\dfrac{0.02}{4.375}\approx0.46\%\le0.5\%$.
+a) **True.** We have $4.375-0.02=4.355$ and $4.375+0.02=4.395$. Hence $a\in[4.355, 4.395]$.
 
-c) **False.** $0.02$ is not less than $0.01$ but is less than $0.1$, so we round to one decimal place: $4.4$.
+b) **True.** The relative error of $\bar a$ satisfies
+$$\delta_{\bar a}\le\frac{d}{\bar a}=\frac{0.02}{4.375}\approx0.0046=0.46\%\le0.5\%.$$
 
-d) **False.** $4.4-4.375=0.025>0.02$, so $4.4$ lies outside the interval in a).
+c) **False.** Since $0.02$ is not less than $0.01$ but is less than $0.1$, we round $\bar a$ to one decimal place. The hundredths digit is $7\ge5$, so we get $4.4$, not $4.38$.
+
+d) **False.** If $a=4.4$ then $|a-\bar a|=4.4-4.375=0.025>0.02$, contradicting the error bound $d=0.02$. Likewise, $4.4$ lies outside the interval $[4.355, 4.395]$ in a).
+
+So statements a) and b) are true; statements c) and d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -331,8 +391,18 @@ A rectangular yard is $32.5\pm0.1$ m long and $18.4\pm0.1$ m wide. Find an upper
 3. Divide and convert to a percentage.
 
 ::solution
-Approximate perimeter $\bar P=2(32.5+18.4)=101.8$ m, error bound $d=2(0.1+0.1)=0.4$ m. Hence
-$$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
+Let $\ell$ and $w$ (m) be the length and the width of the yard. By hypothesis, $\bar\ell=32.5$, $\bar w=18.4$, and $|\ell-\bar\ell|\le0.1$, $|w-\bar w|\le0.1$.
+
+The approximate perimeter is
+$$\bar P=2(\bar\ell+\bar w)=2(32.5+18.4)=101.8\ \text{(m)}.$$
+
+The error of the perimeter satisfies
+$$|P-\bar P|=2\left|(\ell-\bar\ell)+(w-\bar w)\right|\le2(0.1+0.1)=0.4\ \text{(m)}.$$
+
+So the perimeter has error bound $d=0.4$ m. An upper bound for the relative error is
+$$\delta\le\frac{d}{\bar P}=\frac{0.4}{101.8}\approx0.0039=0.39\%.$$
+
+So the relative error of the perimeter is at most $0.39\%$.
 
 **Answer.** $\delta\le0.39\%$.
 :::
@@ -340,7 +410,11 @@ $$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
 :::exercise
 (Review of [Sets and set operations](lesson:sets-and-set-operations)) We know that $\pi=3.14\pm0.002$.
 
-(a) Write the set $I$ of possible values of $\pi$ given by this information as a closed interval. (b) Does $\dfrac{22}{7}$ belong to $I$? (c) Find $I\cap[3.141, 3.15]$.
+a) Write the set $I$ of possible values of $\pi$ given by this information as a closed interval.
+
+b) Does $\dfrac{22}{7}$ belong to $I$?
+
+c) Find $I\cap[3.141, 3.15]$.
 
 ::hint
 **What you need:** $a=\bar a\pm d$ means $a\in[\bar a-d, \bar a+d]$; the intersection of two intervals is their common part.
@@ -351,11 +425,15 @@ $$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
 3. Draw both intervals on a number line.
 
 ::solution
-(a) $I=[3.138, 3.142]$.
+Since $\pi=3.14\pm0.002$, we have $|\pi-3.14|\le0.002$.
 
-(b) $\dfrac{22}{7}=3.142857\ldots>3.142$, so $\dfrac{22}{7}\notin I$.
+a) We have $3.14-0.002=3.138$ and $3.14+0.002=3.142$. Hence the set of possible values of $\pi$ is $I=[3.138, 3.142]$.
 
-(c) The common part of $[3.138, 3.142]$ and $[3.141, 3.15]$ is $[3.141, 3.142]$.
+b) We have $\dfrac{22}{7}=3.142857\ldots>3.142$. So $\dfrac{22}{7}$ is greater than the right endpoint of $I$, hence $\dfrac{22}{7}\notin I$.
+
+c) The intersection of $[3.138, 3.142]$ and $[3.141, 3.15]$ consists of the numbers that are both $\ge3.138$ and $\ge3.141$, and both $\le3.142$ and $\le3.15$, that is $3.141\le x\le3.142$. Therefore $I\cap[3.141, 3.15]=[3.141, 3.142]$.
+
+So $I=[3.138, 3.142]$; $\dfrac{22}{7}\notin I$; $I\cap[3.141, 3.15]=[3.141, 3.142]$.
 
 **Answer.** (a) $[3.138, 3.142]$; (b) no; (c) $[3.141, 3.142]$.
 :::
@@ -372,7 +450,25 @@ For the yard in the previous exercise ($32.5\pm0.1$ m by $18.4\pm0.1$ m), the ar
 3. Apply the rule for the rounded form.
 
 ::solution
-Estimated area $\bar S=32.5\cdot18.4=598$ m². Smallest $32.4\cdot18.3=592.92$, largest $32.6\cdot18.5=603.1$. The two distances are $598-592.92=5.08$ and $603.1-598=5.1$, so take $d=5.1$. Since $5.1$ is not less than $1$ but is less than $10$, we round $598$ to the nearest ten: $600$.
+Let $\ell$ and $w$ (m) be the actual length and width of the yard. By hypothesis, $\ell=32.5\pm0.1$ and $w=18.4\pm0.1$, so
+$$32.4\le\ell\le32.6,\qquad18.3\le w\le18.5.$$
+
+The estimated area is
+$$\bar S=32.5\cdot18.4=598\ \text{(m}^2\text{)}.$$
+
+The actual area is $S=\ell\cdot w$, with $\ell$ and $w$ positive. Since $S$ increases when $\ell$ or $w$ increases, $S$ is smallest when both are smallest and largest when both are largest:
+$$S_{\min}=32.4\cdot18.3=592.92,\qquad S_{\max}=32.6\cdot18.5=603.1.$$
+
+Hence $592.92\le S\le603.1$.
+
+The two distances from $\bar S$ to the endpoints are
+$$598-592.92=5.08,\qquad603.1-598=5.1.$$
+
+Taking $d=5.1$ (the larger one) gives $|S-\bar S|\le5.1$, that is $S=598\pm5.1$ (m$^2$).
+
+Since $5.1$ is not less than $1$ but is less than $10$, we round $598$ to the nearest ten. The units digit is $8\ge5$, so we increase the tens digit ($9$) by $1$ and get $600$.
+
+So the smallest area is $592.92$ m², the largest is $603.1$ m², $S=598\pm5.1$ (m²), and the rounded form of the area is $600$ m².
 
 **Answer.** $592.92\le S\le603.1$; $S=598\pm5.1$ (m²); the rounded form is $600$ m².
 :::

@@ -163,9 +163,27 @@ b) $1\,321\times2$.
 2. Nhân lần lượt hàng đơn vị, chục, trăm, nghìn.
 
 ::solution
-a) Đơn vị: $3\times3=9$. Chục: $0\times3=0$. Trăm: $1\times3=3$. Nghìn: $2\times3=6$. Vậy $2\,103\times3=6\,309$.
+Bài giải
 
-b) Đơn vị: $1\times2=2$. Chục: $2\times2=4$. Trăm: $3\times2=6$. Nghìn: $1\times2=2$. Vậy $1\,321\times2=2\,642$.
+a) Ta nhân lần lượt từng chữ số của $2\,103$ với $3$, bắt đầu từ hàng đơn vị. Không có hàng nào có tích từ $10$ trở lên nên không phải nhớ.
+$$\begin{aligned}
+\text{Hàng đơn vị: } & 3\times3=9,\\
+\text{Hàng chục: } & 0\times3=0,\\
+\text{Hàng trăm: } & 1\times3=3,\\
+\text{Hàng nghìn: } & 2\times3=6.
+\end{aligned}$$
+Viết các kết quả từ hàng nghìn đến hàng đơn vị, ta được $2\,103\times3=6\,309$.
+
+b) Ta nhân lần lượt từng chữ số của $1\,321$ với $2$, bắt đầu từ hàng đơn vị. Cũng không có hàng nào phải nhớ.
+$$\begin{aligned}
+\text{Hàng đơn vị: } & 1\times2=2,\\
+\text{Hàng chục: } & 2\times2=4,\\
+\text{Hàng trăm: } & 3\times2=6,\\
+\text{Hàng nghìn: } & 1\times2=2.
+\end{aligned}$$
+Do đó $1\,321\times2=2\,642$.
+
+Vậy $2\,103\times3=6\,309$ và $1\,321\times2=2\,642$.
 
 **Đáp số.** a) $6\,309$; b) $2\,642$.
 :::
@@ -203,9 +221,22 @@ Em hãy nhớ lại bài trước (phép trừ trong phạm vi $10\,000$). Tính
 2. Lấy hiệu vừa tìm được nhân $2$.
 
 ::solution
-$5\,000-1\,275=3\,725$. Sau đó $3\,725\times2=7\,450$ (vì $5\times2=10$, viết $0$ nhớ $1$; $2\times2=4$, thêm $1$ được $5$; $7\times2=14$, viết $4$ nhớ $1$; $3\times2=6$, thêm $1$ được $7$).
+Bài giải
 
-**Kiểm tra.** $3\,725+1\,275=5\,000$. Đúng.
+Bước 1: tính $5\,000-1\,275$. Ta có $5\,000-1\,000=4\,000$, rồi $4\,000-275=3\,725$. Vậy
+$$5\,000-1\,275=3\,725.$$
+
+Bước 2: nhân kết quả với $2$. Ta nhân từng chữ số của $3\,725$ với $2$, bắt đầu từ hàng đơn vị:
+- Hàng đơn vị: $5\times2=10$, viết $0$ nhớ $1$.
+- Hàng chục: $2\times2=4$, thêm $1$ được $5$, viết $5$.
+- Hàng trăm: $7\times2=14$, viết $4$ nhớ $1$.
+- Hàng nghìn: $3\times2=6$, thêm $1$ được $7$, viết $7$.
+
+Do đó $3\,725\times2=7\,450$.
+
+*Kiểm tra.* $3\,725+1\,275=5\,000$. Đúng.
+
+Vậy kết quả cần tìm là $7\,450$.
 
 **Đáp số.** $7\,450$.
 :::
@@ -249,11 +280,18 @@ c) Sáng cửa hàng bán $2\,315$ quyển sách, chiều bán $1\,280$ quyển.
 2. Chọn phép tính rồi giải, ghi đơn vị.
 
 ::solution
-a) $3$ lọ bằng nhau nên dùng phép nhân: $1\,250\times3=3\,750$ (hạt).
+Bài giải
 
-b) "Đã bán" rồi hỏi "còn lại" nên dùng phép trừ: $4\,080-1\,260=2\,820$ (kg).
+a) Mỗi lọ có số hạt đậu bằng nhau và ta cần tìm số hạt của $3$ lọ, tức là $3$ nhóm bằng nhau. Vì vậy ta dùng phép nhân.
+$$1\,250\times3=3\,750\ \text{(hạt)}.$$
 
-c) Gộp số sách hai buổi nên dùng phép cộng: $2\,315+1\,280=3\,595$ (quyển).
+b) Kho có $4\,080$ kg gạo, đã bán đi $1\,260$ kg rồi hỏi còn lại bao nhiêu, tức là bớt đi một phần. Vì vậy ta dùng phép trừ.
+$$4\,080-1\,260=2\,820\ \text{(kg)}.$$
+
+c) Số sách bán buổi sáng và số sách bán buổi chiều được gộp lại để tìm số sách cả ngày. Vì vậy ta dùng phép cộng.
+$$2\,315+1\,280=3\,595\ \text{(quyển)}.$$
+
+Vậy câu a) dùng phép nhân và có $3\,750$ hạt đậu; câu b) dùng phép trừ và còn $2\,820$ kg gạo; câu c) dùng phép cộng và cả ngày bán $3\,595$ quyển sách.
 
 **Đáp số.** a) $3\,750$ hạt đậu; b) $2\,820$ kg; c) $3\,595$ quyển.
 :::
@@ -273,9 +311,27 @@ b) Lan: "$3\,070\times2=6\,040$."
 2. So sánh để tìm hàng bị sai.
 
 ::solution
-a) $6\times3=18$, viết $8$ nhớ $1$. $3\times3=9$, thêm $1$ được $10$, viết $0$ nhớ $1$. Nam đã quên cộng $1$ nên viết $9$. Làm đúng: $1\,536\times3=4\,608$.
+a) Ta làm lại phép tính $1\,536\times3$ từng bước, bắt đầu từ hàng đơn vị:
+- Hàng đơn vị: $6\times3=18$, viết $8$ nhớ $1$.
+- Hàng chục: $3\times3=9$, thêm $1$ được $10$, viết $0$ nhớ $1$.
+- Hàng trăm: $5\times3=15$, thêm $1$ được $16$, viết $6$ nhớ $1$.
+- Hàng nghìn: $1\times3=3$, thêm $1$ được $4$.
 
-b) $0\times2=0$. $7\times2=14$, viết $4$ nhớ $1$. $0\times2=0$, thêm $1$ được $1$. Lan quên cộng $1$ ở hàng trăm vì thấy chữ số $0$. Làm đúng: $3\,070\times2=6\,140$.
+Ta được $1\,536\times3=4\,608$. Nam đã quên cộng $1$ nhớ ở hàng chục nên viết $9$ thay vì $10$, và không nhớ sang hàng trăm. Vì thế bạn viết $5$ ở hàng trăm thay vì $6$ và được $4\,598$.
+
+*Kiểm tra.* $1\,500\times3=4\,500$ và $36\times3=108$; $4\,500+108=4\,608$. Đúng.
+
+b) Ta làm lại phép tính $3\,070\times2$ từng bước, bắt đầu từ hàng đơn vị:
+- Hàng đơn vị: $0\times2=0$, viết $0$.
+- Hàng chục: $7\times2=14$, viết $4$ nhớ $1$.
+- Hàng trăm: $0\times2=0$, thêm $1$ được $1$, viết $1$.
+- Hàng nghìn: $3\times2=6$, viết $6$.
+
+Ta được $3\,070\times2=6\,140$. Lan đã quên cộng $1$ nhớ ở hàng trăm vì thấy chữ số $0$, nên viết $0$ thay vì $1$ và được $6\,040$.
+
+*Kiểm tra.* $3\,000\times2=6\,000$ và $70\times2=140$; $6\,000+140=6\,140$. Đúng.
+
+Vậy Nam quên cộng số nhớ ở hàng chục, kết quả đúng là $4\,608$; Lan quên cộng số nhớ ở hàng trăm, kết quả đúng là $6\,140$.
 
 **Đáp số.** a) $4\,608$; b) $6\,140$.
 :::
@@ -296,11 +352,17 @@ b) Một đơn hàng cần $5\,000$ cái bánh. Hỏi $3$ ngày làm xong thì c
 3. Thử lại bằng ước lượng.
 
 ::solution
-a) $1\,450\times3=4\,350$ (cái bánh).
+Bài giải
 
-b) $5\,000-4\,350=650$ (cái bánh).
+a) Mỗi ngày nhà máy làm được $1\,450$ cái bánh, nên số bánh làm được trong $3$ ngày là:
+$$1\,450\times3=4\,350\ \text{(cái bánh)}.$$
 
-**Kiểm tra.** $1\,500\times3=4\,500$, gần $4\,350$. Hợp lí.
+b) Đơn hàng cần $5\,000$ cái bánh, nhà máy đã làm được $4\,350$ cái bánh, nên số bánh còn thiếu là:
+$$5\,000-4\,350=650\ \text{(cái bánh)}.$$
+
+*Kiểm tra.* $1\,500\times3=4\,500$, gần với $4\,350$. Kết quả hợp lí.
+
+Vậy trong $3$ ngày nhà máy làm được $4\,350$ cái bánh và còn thiếu $650$ cái bánh.
 
 **Đáp số.** a) $4\,350$ cái bánh; b) $650$ cái bánh.
 :::
@@ -320,9 +382,21 @@ b) Hai bác gộp hạt lại. Tổng số hạt là bao nhiêu? Vì sao tổng 
 2. Cộng hai kết quả, rồi tính $1\,245\times7$ để so sánh.
 
 ::solution
-a) Bác Tư: $1\,245\times4=4\,980$ hạt. Bác Năm: $1\,245\times3=3\,735$ hạt.
+Bài giải
 
-b) Tổng: $4\,980+3\,735=8\,715$ hạt. Gộp lại có $4+3=7$ túi, mỗi túi $1\,245$ hạt nên tổng là $1\,245\times7=8\,715$. Hai kết quả bằng nhau.
+a) Mỗi túi có $1\,245$ hạt. Số hạt của bác Tư là:
+$$1\,245\times4=4\,980\ \text{(hạt)}.$$
+Số hạt của bác Năm là:
+$$1\,245\times3=3\,735\ \text{(hạt)}.$$
+
+b) Khi hai bác gộp hạt lại, tổng số hạt là:
+$$4\,980+3\,735=8\,715\ \text{(hạt)}.$$
+
+Gộp lại có $4+3=7$ túi, mỗi túi có $1\,245$ hạt nên tổng số hạt cũng là
+$$1\,245\times7=8\,715\ \text{(hạt)}.$$
+Hai kết quả bằng nhau vì $1\,245\times4+1\,245\times3=1\,245\times(4+3)$: cộng số hạt của $4$ túi với số hạt của $3$ túi cũng chính là tính số hạt của $7$ túi.
+
+Vậy bác Tư có $4\,980$ hạt, bác Năm có $3\,735$ hạt, và hai bác có tất cả $8\,715$ hạt.
 
 **Đáp số.** a) $4\,980$ hạt và $3\,735$ hạt; b) $8\,715$ hạt.
 :::

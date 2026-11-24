@@ -190,8 +190,14 @@ Simplify the fraction $\dfrac{10}{25}$.
 2. Divide both by it and check whether the fraction is in its simplest form.
 
 ::solution
-Both $10$ and $25$ are divisible by $5$:
-$$\dfrac{10}{25}=\dfrac{10\div5}{25\div5}=\dfrac{2}{5}.$$
+To simplify a fraction, we look for a whole number greater than $1$ that divides both the numerator and the denominator. Both $10$ and $25$ are divisible by $5$.
+
+Dividing the numerator and the denominator by $5$, we get
+$$\frac{10}{25}=\frac{10\div5}{25\div5}=\frac{2}{5}.$$
+
+For the fraction $\dfrac{2}{5}$, the numbers $2$ and $5$ have no common divisor greater than $1$, so it cannot be simplified further.
+
+So $\dfrac{10}{25}$ simplifies to $\dfrac{2}{5}$.
 
 **Answer.** $\dfrac{2}{5}$.
 :::
@@ -207,7 +213,14 @@ Simplify the fraction $\dfrac{36}{48}$ to its simplest form.
 2. Divide both by $12$.
 
 ::solution
-$$\dfrac{36}{48}=\dfrac{36\div12}{48\div12}=\dfrac{3}{4}.$$
+We look for the greatest number that divides both $36$ and $48$. We have $36=12\times3$ and $48=12\times4$, so both numbers are divisible by $12$.
+
+Dividing the numerator and the denominator by $12$, we get
+$$\frac{36}{48}=\frac{36\div12}{48\div12}=\frac{3}{4}.$$
+
+For the fraction $\dfrac{3}{4}$, the numbers $3$ and $4$ have no common divisor greater than $1$, so it is in its simplest form.
+
+So $\dfrac{36}{48}$ in its simplest form is $\dfrac{3}{4}$.
 
 **Answer.** $\dfrac{3}{4}$.
 :::
@@ -223,10 +236,14 @@ Which of the fractions $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfra
 2. Try simplifying the even fractions and those whose digit sums are divisible by $3$ or $9$.
 
 ::solution
+A fraction is in its simplest form when its numerator and denominator have no common divisor greater than $1$. We check each fraction.
+
 - $\dfrac{4}{9}$: $4$ and $9$ have no common divisor greater than $1$, so it is in its simplest form.
-- $\dfrac{6}{14}=\dfrac{3}{7}$: it can be simplified.
+- $\dfrac{6}{14}$: both $6$ and $14$ are divisible by $2$, so $\dfrac{6}{14}=\dfrac{6\div2}{14\div2}=\dfrac{3}{7}$; it can be simplified.
 - $\dfrac{15}{22}$: $15$ and $22$ have no common divisor greater than $1$, so it is in its simplest form.
-- $\dfrac{18}{27}=\dfrac{2}{3}$: it can be simplified.
+- $\dfrac{18}{27}$: both $18$ and $27$ are divisible by $9$, so $\dfrac{18}{27}=\dfrac{18\div9}{27\div9}=\dfrac{2}{3}$; it can be simplified.
+
+So the fractions in their simplest form are $\dfrac{4}{9}$ and $\dfrac{15}{22}$.
 
 **Answer.** $\dfrac{4}{9}$ and $\dfrac{15}{22}$.
 :::
@@ -242,7 +259,15 @@ Simplify the fraction $\dfrac{120}{180}$.
 2. Keep simplifying until the fraction is in its simplest form.
 
 ::solution
-$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+Both the numerator and the denominator end in the digit $0$, so both are divisible by $10$. Dividing both by $10$, we get
+$$\frac{120}{180}=\frac{12}{18}.$$
+
+Both $12$ and $18$ are divisible by $6$. Dividing both by $6$, we get
+$$\frac{12}{18}=\frac{12\div6}{18\div6}=\frac{2}{3}.$$
+
+For the fraction $\dfrac{2}{3}$, the numbers $2$ and $3$ have no common divisor greater than $1$, so it is in its simplest form.
+
+So $\dfrac{120}{180}$ simplifies to $\dfrac{2}{3}$.
 
 **Answer.** $\dfrac{2}{3}$.
 :::
@@ -258,7 +283,15 @@ Write the fractions $\dfrac{3}{4}$ and $\dfrac{2}{7}$ over a common denominator.
 2. Multiply the numerator and denominator of $\dfrac{3}{4}$ by $7$, and those of $\dfrac{2}{7}$ by $4$.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+To write two fractions over a common denominator, we choose a denominator that both denominators divide into. Here we choose the common denominator $4\times7=28$.
+
+Multiply the numerator and the denominator of the first fraction by $7$ (the denominator of the second fraction):
+$$\frac{3}{4}=\frac{3\times7}{4\times7}=\frac{21}{28}.$$
+
+Multiply the numerator and the denominator of the second fraction by $4$ (the denominator of the first fraction):
+$$\frac{2}{7}=\frac{2\times4}{7\times4}=\frac{8}{28}.$$
+
+So over a common denominator, $\dfrac{3}{4}$ and $\dfrac{2}{7}$ become $\dfrac{21}{28}$ and $\dfrac{8}{28}$.
 
 **Answer.** $\dfrac{21}{28}$ and $\dfrac{8}{28}$.
 :::
@@ -274,7 +307,14 @@ Write the fractions $\dfrac{7}{12}$ and $\dfrac{5}{6}$ over a common denominator
 2. Keep $\dfrac{7}{12}$ and change $\dfrac{5}{6}$.
 
 ::solution
-Since $12$ is divisible by $6$, keep $\dfrac{7}{12}$ and change $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+We compare the two denominators $12$ and $6$. Since $12\div6=2$, the number $12$ is divisible by $6$, so we choose $12$ as the common denominator.
+
+The fraction $\dfrac{7}{12}$ already has denominator $12$, so we keep it.
+
+Multiplying the numerator and the denominator of $\dfrac{5}{6}$ by $2$, we get
+$$\frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12}.$$
+
+So over a common denominator, $\dfrac{7}{12}$ and $\dfrac{5}{6}$ become $\dfrac{7}{12}$ and $\dfrac{10}{12}$.
 
 **Answer.** $\dfrac{7}{12}$ and $\dfrac{10}{12}$.
 :::
@@ -290,9 +330,17 @@ A class has $40$ students, of whom $15$ like football. Write the fraction of the
 2. Write the fraction $\dfrac{15}{40}$ and simplify it.
 
 ::solution
-The fraction of the class who like football is $\dfrac{15}{40}$.
+Solution
 
-Both $15$ and $40$ are divisible by $5$: $\dfrac{15}{40}=\dfrac{15\div5}{40\div5}=\dfrac{3}{8}$.
+The class has $40$ students, of whom $15$ like football. The fraction of the class who like football is:
+$$\frac{15}{40}.$$
+
+Both $15$ and $40$ are divisible by $5$. Dividing the numerator and the denominator by $5$, we get:
+$$\frac{15}{40}=\frac{15\div5}{40\div5}=\frac{3}{8}.$$
+
+For the fraction $\dfrac{3}{8}$, the numbers $3$ and $8$ have no common divisor greater than $1$, so it is in its simplest form.
+
+So the students who like football make up $\dfrac{15}{40}$ of the class, which simplifies to $\dfrac{3}{8}$.
 
 **Answer.** $\dfrac{15}{40}=\dfrac{3}{8}$.
 :::
@@ -308,9 +356,15 @@ A strip of paper is divided into $8$ equal parts and $6$ parts are coloured. Ano
 2. Find the equal fraction with denominator $12$.
 
 ::solution
-We have $\dfrac{6}{8}=\dfrac{6\div2}{8\div2}=\dfrac{3}{4}$.
+Solution
 
-Since $12=4\times3$, $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+The fraction showing the coloured part of the first strip is $\dfrac{6}{8}$. We simplify it by dividing the numerator and the denominator by $2$:
+$$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
+
+The second strip is divided into $12$ equal parts. Since $12=4\times3$, we multiply the numerator and the denominator of $\dfrac{3}{4}$ by $3$:
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12}.$$
+
+So $9$ parts of the second strip must be coloured to give a fraction equal to that of the first strip.
 
 **Answer.** $9$ parts must be coloured.
 :::
@@ -326,7 +380,15 @@ Remember the lesson on multiplying and dividing by $10$, $100$, $1\,000$. Simpli
 2. Keep simplifying.
 
 ::solution
-$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24\div12}{36\div12}=\dfrac{2}{3}.$$
+Both the numerator and the denominator end in two zeros. Dividing both by $100$, we get
+$$\frac{2\,400}{3\,600}=\frac{24}{36}.$$
+
+Both $24$ and $36$ are divisible by $12$. Dividing the numerator and the denominator by $12$, we get
+$$\frac{24}{36}=\frac{24\div12}{36\div12}=\frac{2}{3}.$$
+
+For the fraction $\dfrac{2}{3}$, the numbers $2$ and $3$ have no common divisor greater than $1$, so it is in its simplest form.
+
+So $\dfrac{2\,400}{3\,600}$ in its simplest form is $\dfrac{2}{3}$.
 
 **Answer.** $\dfrac{2}{3}$.
 :::
@@ -342,11 +404,20 @@ Find the fraction equal to $\dfrac{3}{7}$ whose numerator and denominator add up
 2. Find $k$, then find the fraction.
 
 ::solution
-A fraction equal to $\dfrac{3}{7}$ has the form $\dfrac{3\times k}{7\times k}$, so the sum of numerator and denominator is $3\times k+7\times k=10\times k$.
+Solution
 
-Since $10\times k=50$, $k=5$. The fraction is $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+A fraction equal to $\dfrac{3}{7}$ has the form $\dfrac{3\times k}{7\times k}$, where $k$ is a whole number greater than $0$. The sum of the numerator and the denominator is:
+$$3\times k+7\times k=10\times k.$$
 
-**Check.** $15+35=50$ and $\dfrac{15}{35}=\dfrac{15\div5}{35\div5}=\dfrac{3}{7}$. Correct.
+By the problem, this sum is $50$, so $10\times k=50$. It follows that
+$$k=50\div10=5.$$
+
+The fraction we need is:
+$$\frac{3\times5}{7\times5}=\frac{15}{35}.$$
+
+*Check.* We have $15+35=50$ and $\dfrac{15}{35}=\dfrac{15\div5}{35\div5}=\dfrac{3}{7}$. The result is correct.
+
+So the required fraction is $\dfrac{15}{35}$.
 
 **Answer.** $\dfrac{15}{35}$.
 :::

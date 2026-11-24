@@ -146,7 +146,15 @@ Let $f(x)=\ln(5-x)$. Write down the domain and the range of $f$. [2 marks]
 **What you need:** the logarithm needs a positive input; logarithms take every real value.
 
 ::solution
-Domain $x<5$; range $f(x)\in\mathbb{R}$.
+For $f(x)=\ln(5-x)$ to be defined, we need $5-x>0$, that is $x<5$.
+
+So the domain of $f$ is $x<5$, i.e. the interval $(-\infty, 5)$.
+
+As $x$ runs over $(-\infty, 5)$, the expression $t=5-x$ takes every value in $(0, +\infty)$. The function $y=\ln t$ with $t>0$ takes every real value, so $f(x)$ also takes every real value.
+
+So the range of $f$ is $\mathbb{R}$.
+
+**Answer.** Domain $x<5$; range $f(x)\in\mathbb{R}$.
 :::
 
 :::exercise Composite equation
@@ -156,7 +164,20 @@ Let $f(x)=x+2$ and $g(x)=3x^2$. Solve $(g\circ f)(x)=27$. [4 marks]
 **What you need:** $(g\circ f)(x)=3(x+2)^2$.
 
 ::solution
-$(x+2)^2=9$, so $x+2=\pm3$: $x=1$ or $x=-5$.
+We have $(g\circ f)(x)=g(f(x))=g(x+2)=3(x+2)^2$.
+
+The equation $(g\circ f)(x)=27$ becomes
+$$3(x+2)^2=27.$$
+
+Dividing both sides by $3$ gives $(x+2)^2=9$. Hence $x+2=3$ or $x+2=-3$.
+
+Therefore $x=1$ or $x=-5$.
+
+Check: for $x=1$, $3(1+2)^2=27$; for $x=-5$, $3(-5+2)^2=27$. Both satisfy the equation.
+
+So the equation has two solutions, $x=1$ and $x=-5$.
+
+**Answer.** $x=1$ or $x=-5$.
 :::
 
 :::exercise Inverse of an exponential
@@ -166,7 +187,20 @@ Let $f(x)=e^{2x}-1$. Find $f^{-1}(x)$ and its domain. [4 marks]
 **What you need:** swap $x$ and $y$, then take natural logarithms.
 
 ::solution
-$x=e^{2y}-1$, so $e^{2y}=x+1$ and $f^{-1}(x)=\dfrac12\ln(x+1)$, with domain $x>-1$ (the range of $f$).
+To find the inverse, let $y=f^{-1}(x)$, that is $x=f(y)=e^{2y}-1$.
+
+Hence $e^{2y}=x+1$.
+
+Since $e^{2y}>0$, we need $x+1>0$. Taking natural logarithms of both sides gives $2y=\ln(x+1)$, so
+$$y=\frac12\ln(x+1).$$
+
+So $f^{-1}(x)=\dfrac12\ln(x+1)$.
+
+The domain of $f^{-1}$ is the range of $f$. Since $e^{2x}>0$ for all $x$ and $e^{2x}$ takes every positive value, $f(x)=e^{2x}-1$ takes every value greater than $-1$. This agrees with the condition $x+1>0$ above.
+
+So $f^{-1}(x)=\dfrac12\ln(x+1)$ with domain $x>-1$.
+
+**Answer.** $f^{-1}(x)=\dfrac12\ln(x+1)$, domain $x>-1$.
 :::
 
 :::exercise Transformations of a parabola
@@ -176,7 +210,21 @@ Describe the sequence of transformations that maps $y=x^2$ onto $y=-(x+1)^2+4$, 
 **What you need:** read the bracket, the minus sign and the constant separately.
 
 ::solution
-A reflection in the $x$-axis, then a translation by $1$ unit left and $4$ units up. The vertex is $(-1,4)$.
+We transform the graph $y=x^2$ step by step.
+
+Step 1: a reflection in the $x$-axis (replace $y$ by $-y$), giving $y=-x^2$.
+
+Step 2: a translation by $1$ unit to the left (replace $x$ by $x+1$), giving $y=-(x+1)^2$.
+
+Step 3: a translation by $4$ units up (add $4$ to $y$), giving $y=-(x+1)^2+4$.
+
+The vertex of $y=x^2$ is $(0, 0)$. The reflection in the $x$-axis leaves this point unchanged; the translation $1$ unit left takes it to $(-1, 0)$; the translation $4$ units up takes it to $(-1, 4)$.
+
+Check: $y=-(x+1)^2+4$ has the form $y=a(x-h)^2+k$ with $h=-1$ and $k=4$, so the vertex is $(-1, 4)$.
+
+So the sequence is: a reflection in the $x$-axis, then a translation by $1$ unit left and $4$ units up; the vertex of the new graph is $(-1, 4)$.
+
+**Answer.** A reflection in the $x$-axis, then a translation by $1$ unit left and $4$ units up; vertex $(-1, 4)$.
 :::
 
 :::exercise Discriminant inequality
@@ -186,7 +234,20 @@ Find the values of $k$ for which $kx^2+4x+1=0$ has two distinct real roots. [4 m
 **What you need:** $\Delta>0$, and $k\ne0$ so that the equation is quadratic.
 
 ::solution
-$16-4k>0$, so $k<4$, with $k\ne0$.
+For $kx^2+4x+1=0$ to be a quadratic equation, we need $k\ne0$.
+
+A quadratic equation has two distinct real roots if and only if the discriminant $\Delta>0$. We have
+$$\Delta=4^2-4\cdot k\cdot1=16-4k.$$
+
+Hence $\Delta>0\iff16-4k>0\iff k<4$.
+
+Combining with the condition $k\ne0$, we get $k<4$ and $k\ne0$.
+
+Note: when $k=0$ the equation becomes $4x+1=0$, which has only one root, so $k=0$ is excluded.
+
+So the equation has two distinct real roots when $k<4$ and $k\ne0$.
+
+**Answer.** $k<4$, $k\ne0$.
 :::
 
 ## Application exercises
@@ -200,9 +261,30 @@ A ball is thrown upward, and its height in meters after $t$ seconds is $h(t)=-4.
 **What you need:** the vertex is at $t=-\dfrac{b}{2a}$; for (b) solve $h(t)=0$ with a GDC and take the positive root.
 
 ::solution
-(a) $t=\dfrac{19.6}{9.8}=2$, and $h(2)=21.1$ meters.
+a) The function $h(t)=-4.9t^2+19.6t+1.5$ is quadratic with coefficient $-4.9<0$, so its graph is a downward-opening parabola and $h$ is greatest at the vertex.
 
-(b) $h(t)=0$ when $t\approx4.08$ seconds (the other root is negative).
+The $t$-coordinate of the vertex is
+$$t=-\frac{19.6}{2\cdot(-4.9)}=\frac{19.6}{9.8}=2\ \text{(seconds)}.$$
+
+Substituting $t=2$ into $h(t)$:
+$$h(2)=-4.9\cdot4+19.6\cdot2+1.5=-19.6+39.2+1.5=21.1.$$
+
+So the maximum height of the ball is $21.1$ meters (reached after $2$ seconds).
+
+b) The ball hits the ground when $h(t)=0$, that is
+$$-4.9t^2+19.6t+1.5=0.$$
+
+The discriminant is $\Delta=19.6^2-4\cdot(-4.9)\cdot1.5=384.16+29.4=413.56$, so $\sqrt\Delta\approx20.336$.
+
+The two roots are
+$$t=\frac{-19.6\pm\sqrt\Delta}{2\cdot(-4.9)}=\frac{19.6\mp\sqrt\Delta}{9.8},$$
+that is $t\approx4.075$ or $t\approx-0.075$.
+
+Since $t\ge0$, we reject the negative root and take $t\approx4.075$.
+
+So the ball hits the ground after about $4.08$ seconds.
+
+**Answer.** a) $21.1$ meters; b) $t\approx4.08$ seconds.
 :::
 
 :::exercise A cooling drink
@@ -214,9 +296,24 @@ The temperature of a drink, in degrees Celsius, $t$ minutes after it is poured i
 **What you need:** $e^{-0.05t}\to0$; for (b), $70e^{-0.05t}=30$.
 
 ::solution
-(a) $T=20$: in the long run, the drink approaches the room temperature of $20$ degrees Celsius.
+a) As $t\to+\infty$, we have $-0.05t\to-\infty$, so $e^{-0.05t}\to0$. Therefore
+$$T(t)=20+70e^{-0.05t}\to20.$$
 
-(b) $e^{-0.05t}=\dfrac37$, so $t=\dfrac{\ln(7/3)}{0.05}\approx16.9$ minutes.
+So the graph of $T$ has the horizontal asymptote $T=20$.
+
+Interpretation: in the long run, the temperature of the drink approaches $20$ degrees Celsius (room temperature) but never falls below it.
+
+b) Solve $T(t)=50$:
+$$20+70e^{-0.05t}=50\iff70e^{-0.05t}=30\iff e^{-0.05t}=\frac37.$$
+
+Taking natural logarithms of both sides:
+$$-0.05t=\ln\frac37=-\ln\frac73,\ \text{so}\ t=\frac{\ln(7/3)}{0.05}\approx16.9.$$
+
+This value satisfies $t\ge0$.
+
+So the temperature of the drink is $50$ degrees Celsius after about $16.9$ minutes.
+
+**Answer.** a) $T=20$; b) $t\approx16.9$ minutes.
 :::
 
 :::exercise A self-inverse function
@@ -226,7 +323,28 @@ Let $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Show that $f^{-1}(x)=f(x)$. What does this
 **What you need:** find $f^{-1}$ in the usual way.
 
 ::solution
-$x=\dfrac{y+2}{y-1}$ gives $xy-x=y+2$, so $y(x-1)=x+2$ and $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. The graph of $f$ is symmetric about the line $y=x$.
+Condition: $x\ne1$.
+
+To find the inverse, let $y=f^{-1}(x)$, that is $x=f(y)=\dfrac{y+2}{y-1}$ with $y\ne1$.
+
+Multiplying both sides by $y-1\ne0$:
+$$x(y-1)=y+2\iff xy-x=y+2.$$
+
+Collecting the terms containing $y$ on one side:
+$$xy-y=x+2\iff y(x-1)=x+2.$$
+
+For $x\ne1$, dividing both sides by $x-1$ gives
+$$y=\frac{x+2}{x-1}.$$
+
+So $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$.
+
+For the domain: since $f(x)=1+\dfrac{3}{x-1}$ takes every value except $1$, the domain of $f^{-1}$ is $x\ne1$, the same as the domain of $f$.
+
+Interpretation: the graph of $f^{-1}$ is the image of the graph of $f$ under reflection in the line $y=x$. Since $f^{-1}=f$, the graph of $f$ coincides with its own image under this reflection.
+
+So $f^{-1}(x)=f(x)$, and the graph of $f$ is symmetric about the line $y=x$.
+
+**Answer.** $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$; the graph of $f$ is symmetric about the line $y=x$.
 :::
 
 :::exercise Challenge
@@ -236,7 +354,20 @@ Find the values of $k$ for which the line $y=kx$ is tangent to the curve $y=x^2+
 **What you need:** a tangent line meets the curve at exactly one point, so the resulting quadratic has $\Delta=0$.
 
 ::solution
-$x^2-kx+1=0$ has $\Delta=k^2-4=0$, so $k=\pm2$.
+The $x$-coordinates of the intersection points of the line $y=kx$ and the curve $y=x^2+1$ satisfy
+$$kx=x^2+1\iff x^2-kx+1=0.$$
+
+The line is tangent to the curve if and only if this equation has a repeated root, that is $\Delta=0$.
+
+We have $\Delta=(-k)^2-4\cdot1\cdot1=k^2-4$.
+
+Therefore $\Delta=0\iff k^2=4\iff k=2$ or $k=-2$.
+
+Check: for $k=2$, $x^2-2x+1=(x-1)^2$ has the repeated root $x=1$; for $k=-2$, $x^2+2x+1=(x+1)^2$ has the repeated root $x=-1$.
+
+So the line $y=kx$ is tangent to the curve $y=x^2+1$ when $k=2$ or $k=-2$.
+
+**Answer.** $k=\pm2$.
 :::
 
 :::quiz

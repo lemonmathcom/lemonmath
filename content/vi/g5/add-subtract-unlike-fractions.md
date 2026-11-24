@@ -141,7 +141,16 @@ Tính: $\dfrac{1}{4}+\dfrac{2}{3}$.
 2. Đổi hai phân số, rồi cộng.
 
 ::solution
-$$\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{3}{12}+\dfrac{8}{12}=\dfrac{11}{12}.$$
+Hai phân số có mẫu số khác nhau nên ta quy đồng mẫu số. Mẫu số chung là $12$ (vì $12=4\times3$).
+
+Ta có $\dfrac{1}{4}=\dfrac{1\times3}{4\times3}=\dfrac{3}{12}$ và $\dfrac{2}{3}=\dfrac{2\times4}{3\times4}=\dfrac{8}{12}$.
+
+Cộng hai phân số cùng mẫu số:
+$$\frac{1}{4}+\frac{2}{3}=\frac{3}{12}+\frac{8}{12}=\frac{3+8}{12}=\frac{11}{12}.$$
+
+Phân số $\dfrac{11}{12}$ đã tối giản vì $11$ và $12$ chỉ có ước chung là $1$.
+
+Vậy $\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{11}{12}$.
 
 **Đáp số.** $\dfrac{11}{12}$.
 :::
@@ -157,8 +166,16 @@ Tính: $\dfrac{5}{6}-\dfrac{3}{8}$.
 2. Quy đồng rồi trừ.
 
 ::solution
-Mẫu số chung là $24$:
-$$\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}.$$
+Hai phân số có mẫu số khác nhau nên ta quy đồng mẫu số. Mẫu số chung là $24$ (vì $24=6\times4=8\times3$).
+
+Ta có $\dfrac{5}{6}=\dfrac{5\times4}{6\times4}=\dfrac{20}{24}$ và $\dfrac{3}{8}=\dfrac{3\times3}{8\times3}=\dfrac{9}{24}$.
+
+Trừ hai phân số cùng mẫu số:
+$$\frac{5}{6}-\frac{3}{8}=\frac{20}{24}-\frac{9}{24}=\frac{20-9}{24}=\frac{11}{24}.$$
+
+Phân số $\dfrac{11}{24}$ đã tối giản.
+
+Vậy $\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{11}{24}$.
 
 **Đáp số.** $\dfrac{11}{24}$.
 :::
@@ -174,7 +191,16 @@ Tính rồi rút gọn kết quả: $\dfrac{3}{4}+\dfrac{1}{12}$.
 2. Cộng, rồi rút gọn.
 
 ::solution
-$$\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{9}{12}+\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}.$$
+Mẫu số $12$ chia hết cho mẫu số $4$ nên ta chọn $12$ làm mẫu số chung và chỉ cần quy đồng phân số thứ nhất:
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12}.$$
+
+Cộng hai phân số cùng mẫu số:
+$$\frac{3}{4}+\frac{1}{12}=\frac{9}{12}+\frac{1}{12}=\frac{10}{12}.$$
+
+Rút gọn kết quả: chia cả tử số và mẫu số cho $2$ (là ước chung lớn nhất của $10$ và $12$), ta được
+$$\frac{10}{12}=\frac{10:2}{12:2}=\frac{5}{6}.$$
+
+Vậy $\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{5}{6}$.
 
 **Đáp số.** $\dfrac{5}{6}$.
 :::
@@ -190,7 +216,17 @@ Số?  $\dfrac{1}{2}+\ ?=\dfrac{5}{6}$.
 2. Quy đồng, trừ, rồi rút gọn.
 
 ::solution
-$$\dfrac{5}{6}-\dfrac{1}{2}=\dfrac{5}{6}-\dfrac{3}{6}=\dfrac{2}{6}=\dfrac{1}{3}.$$
+Số cần tìm là số hạng chưa biết. Muốn tìm một số hạng, ta lấy tổng trừ đi số hạng đã biết:
+$$?=\frac{5}{6}-\frac{1}{2}.$$
+
+Quy đồng mẫu số: mẫu số chung là $6$ và $\dfrac{1}{2}=\dfrac{1\times3}{2\times3}=\dfrac{3}{6}$.
+
+Ta có
+$$\frac{5}{6}-\frac{1}{2}=\frac{5}{6}-\frac{3}{6}=\frac{2}{6}=\frac{1}{3}.$$
+
+Thử lại: $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$. Đúng.
+
+Vậy số cần điền vào dấu $?$ là $\dfrac{1}{3}$.
 
 **Đáp số.** $\dfrac{1}{3}$.
 :::
@@ -206,10 +242,15 @@ Buổi sáng Lan uống $\dfrac{1}{4}$ chai nước, buổi trưa Lan uống $\d
 2. Lấy $1$ trừ đi kết quả. Thử lại: phần uống cộng phần còn lại phải bằng $1$.
 
 ::solution
-Phần chai nước Lan đã uống là:
-$$\dfrac{1}{4}+\dfrac{2}{5}=\dfrac{5}{20}+\dfrac{8}{20}=\dfrac{13}{20}\ \text{(chai)}.$$
-Phần chai nước còn lại là:
-$$1-\dfrac{13}{20}=\dfrac{7}{20}\ \text{(chai)}.$$
+Bài giải
+
+Phần chai nước Lan đã uống (buổi sáng và buổi trưa) là:
+$$\frac{1}{4}+\frac{2}{5}=\frac{5}{20}+\frac{8}{20}=\frac{13}{20}\ \text{(chai)}.$$
+
+Coi cả chai nước là $1$ (chai). Phần chai nước còn lại là:
+$$1-\frac{13}{20}=\frac{20}{20}-\frac{13}{20}=\frac{7}{20}\ \text{(chai)}.$$
+
+Vậy Lan đã uống $\dfrac{13}{20}$ chai nước và còn lại $\dfrac{7}{20}$ chai nước.
 
 **Đáp số.** Đã uống $\dfrac{13}{20}$ chai; còn lại $\dfrac{7}{20}$ chai.
 :::
@@ -225,8 +266,15 @@ Một sợi dây dài $\dfrac{7}{8}$ m. Cô giáo cắt đi $\dfrac{1}{3}$ m đ�
 2. Quy đồng $\dfrac{7}{8}$ và $\dfrac{1}{3}$ rồi trừ. Nhớ ghi đơn vị.
 
 ::solution
+Bài giải
+
+Muốn biết sợi dây còn lại dài bao nhiêu mét, ta lấy độ dài ban đầu trừ đi độ dài đã cắt. Quy đồng mẫu số với mẫu số chung là $24$:
+$$\frac{7}{8}=\frac{21}{24},\qquad \frac{1}{3}=\frac{8}{24}.$$
+
 Sợi dây còn lại dài:
-$$\dfrac{7}{8}-\dfrac{1}{3}=\dfrac{21}{24}-\dfrac{8}{24}=\dfrac{13}{24}\ \text{(m)}.$$
+$$\frac{7}{8}-\frac{1}{3}=\frac{21}{24}-\frac{8}{24}=\frac{13}{24}\ \text{(m)}.$$
+
+Vậy sợi dây còn lại dài $\dfrac{13}{24}$ m.
 
 **Đáp số.** $\dfrac{13}{24}$ m.
 :::
@@ -242,9 +290,15 @@ Em hãy nhớ lại bài so sánh phân số. So sánh $\dfrac{5}{8}$ và $\dfra
 2. So sánh hai tử số, rồi lấy phân số lớn trừ phân số bé.
 
 ::solution
-Mẫu số chung là $24$: $\dfrac{5}{8}=\dfrac{15}{24}$ và $\dfrac{7}{12}=\dfrac{14}{24}$.
+Quy đồng mẫu số hai phân số với mẫu số chung là $24$:
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24},\qquad \frac{7}{12}=\frac{7\times2}{12\times2}=\frac{14}{24}.$$
 
-Vì $15>14$ nên $\dfrac{5}{8}>\dfrac{7}{12}$. Hiệu của chúng là $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac{1}{24}$.
+Hai phân số có cùng mẫu số, phân số nào có tử số lớn hơn thì lớn hơn. Vì $15>14$ nên $\dfrac{15}{24}>\dfrac{14}{24}$, tức là $\dfrac{5}{8}>\dfrac{7}{12}$.
+
+Phân số lớn hơn phân số bé một khoảng bằng hiệu của chúng:
+$$\frac{5}{8}-\frac{7}{12}=\frac{15}{24}-\frac{14}{24}=\frac{1}{24}.$$
+
+Vậy $\dfrac{5}{8}>\dfrac{7}{12}$ và phân số $\dfrac{5}{8}$ lớn hơn phân số $\dfrac{7}{12}$ là $\dfrac{1}{24}$.
 
 **Đáp số.** $\dfrac{5}{8}>\dfrac{7}{12}$ và hơn nhau $\dfrac{1}{24}$.
 :::
@@ -260,10 +314,15 @@ Một mảnh đất, giả sử, dùng $\dfrac{3}{10}$ diện tích để xây n
 2. Lấy $1$ trừ đi phần đó.
 
 ::solution
-Phần đất xây nhà và đào ao là:
-$$\dfrac{3}{10}+\dfrac{1}{4}=\dfrac{6}{20}+\dfrac{5}{20}=\dfrac{11}{20}\ \text{(diện tích)}.$$
-Phần đất trồng cây là:
-$$1-\dfrac{11}{20}=\dfrac{9}{20}\ \text{(diện tích)}.$$
+Bài giải
+
+Coi cả mảnh đất là $1$ (diện tích). Phần đất dùng để xây nhà và đào ao là:
+$$\frac{3}{10}+\frac{1}{4}=\frac{6}{20}+\frac{5}{20}=\frac{11}{20}\ \text{(diện tích)}.$$
+
+Phần đất còn lại để trồng cây là:
+$$1-\frac{11}{20}=\frac{20}{20}-\frac{11}{20}=\frac{9}{20}\ \text{(diện tích)}.$$
+
+Vậy phần đất trồng cây chiếm $\dfrac{9}{20}$ diện tích mảnh đất.
 
 **Đáp số.** $\dfrac{9}{20}$ diện tích mảnh đất.
 :::
@@ -279,8 +338,19 @@ Tính nhanh: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30
 2. Nhìn xem những phân số nào triệt tiêu nhau.
 
 ::solution
-Vì $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$, $30=5\times6$ nên:
-$$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfrac{1}{3}-\dfrac{1}{4}\right)+\left(\dfrac{1}{4}-\dfrac{1}{5}\right)+\left(\dfrac{1}{5}-\dfrac{1}{6}\right)=1-\dfrac{1}{6}=\dfrac{5}{6}.$$
+Ta nhận thấy các mẫu số là tích của hai số tự nhiên liên tiếp:
+$$2=1\times2,\quad 6=2\times3,\quad 12=3\times4,\quad 20=4\times5,\quad 30=5\times6.$$
+
+Với hai số tự nhiên liên tiếp $n$ và $n+1$, ta có $\dfrac{1}{n}-\dfrac{1}{n+1}=\dfrac{n+1-n}{n(n+1)}=\dfrac{1}{n(n+1)}$. Do đó
+$$\frac{1}{2}=1-\frac{1}{2},\quad \frac{1}{6}=\frac{1}{2}-\frac{1}{3},\quad \frac{1}{12}=\frac{1}{3}-\frac{1}{4},\quad \frac{1}{20}=\frac{1}{4}-\frac{1}{5},\quad \frac{1}{30}=\frac{1}{5}-\frac{1}{6}.$$
+
+Thay vào tổng, ta được
+$$\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\left(\frac{1}{3}-\frac{1}{4}\right)+\left(\frac{1}{4}-\frac{1}{5}\right)+\left(\frac{1}{5}-\frac{1}{6}\right).$$
+
+Các phân số ở giữa đối nhau nên triệt tiêu từng cặp, chỉ còn số đầu và số cuối:
+$$1-\frac{1}{6}=\frac{6}{6}-\frac{1}{6}=\frac{5}{6}.$$
+
+Vậy $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30}=\dfrac{5}{6}$.
 
 **Đáp số.** $\dfrac{5}{6}$.
 :::

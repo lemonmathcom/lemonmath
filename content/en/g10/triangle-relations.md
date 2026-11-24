@@ -212,7 +212,14 @@ In triangle $ABC$, $b=6$, $c=8$ and $A=60^\circ$. Find $a$.
 2. Take the square root and simplify.
 
 ::solution
-$$a^2=36+64-2\cdot6\cdot8\cdot\frac12=100-48=52\Rightarrow a=\sqrt{52}=2\sqrt{13}.$$
+Apply the law of cosines in triangle $ABC$: $a^2=b^2+c^2-2bc\cos A$.
+
+Substituting $b=6$, $c=8$, $A=60^\circ$ (where $\cos60^\circ=\dfrac12$), we get
+$$\begin{aligned} a^2&=6^2+8^2-2\cdot6\cdot8\cdot\frac12\\ &=36+64-48\\ &=52. \end{aligned}$$
+
+Hence $a=\sqrt{52}=2\sqrt{13}$ (we take the positive value because $a$ is a length).
+
+So $a=2\sqrt{13}\approx7.21$.
 
 **Answer.** $a=2\sqrt{13}\approx7.21$.
 :::
@@ -228,7 +235,15 @@ A triangle has sides $a=5$, $b=6$, $c=7$. Find the angle $C$.
 2. Use $\cos^{-1}$ on a calculator.
 
 ::solution
-$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0.2\Rightarrow C\approx78.46^\circ.$$
+Apply the corollary of the law of cosines to the angle $C$ opposite side $c$:
+$$\cos C=\frac{a^2+b^2-c^2}{2ab}.$$
+
+Substituting $a=5$, $b=6$, $c=7$, we get
+$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0.2.$$
+
+Since $0^\circ<C<180^\circ$ and $\cos C=0.2$, we obtain $C\approx78.46^\circ$.
+
+So the angle $C$ is approximately $78.46^\circ$.
 
 **Answer.** $C\approx78.46^\circ$.
 :::
@@ -246,10 +261,15 @@ b) In triangle $ABC$, $A=45^\circ$, $B=60^\circ$, $b=\sqrt6$. Find $a$.
 2. b) Write $a=\dfrac{b\sin A}{\sin B}$ and use the table of special values.
 
 ::solution
-a) $2R=\dfrac{8}{\sin30^\circ}=16$, so $R=8$.
+Apply the law of sines in triangle $ABC$ with circumradius $R$: $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$.
 
-b)
-$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=2.$$
+a) With $a=8$ and $A=30^\circ$ (where $\sin30^\circ=\dfrac12$), we have
+$$2R=\frac{a}{\sin A}=\frac{8}{\sin30^\circ}=16,$$
+so $R=8$. So the circumradius is $R=8$.
+
+b) By the law of sines, $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$, so $a=\dfrac{b\sin A}{\sin B}$. Substituting $b=\sqrt6$, $\sin A=\sin45^\circ=\dfrac{\sqrt2}{2}$, $\sin B=\sin60^\circ=\dfrac{\sqrt3}{2}$, we get
+$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=\sqrt{4}=2.$$
+So $a=2$.
 
 **Answer.** a) $R=8$; b) $a=2$.
 :::
@@ -264,7 +284,12 @@ Find the area of a triangle with $a=6$, $b=9$ and $C=30^\circ$.
 1. Substitute $a$, $b$ and $\sin30^\circ=\dfrac12$.
 
 ::solution
-$$S=\frac12\cdot6\cdot9\cdot\frac12=13.5.$$
+Apply the area formula using two sides and the included angle: $S=\dfrac12ab\sin C$.
+
+Substituting $a=6$, $b=9$, $C=30^\circ$ (where $\sin30^\circ=\dfrac12$), we get
+$$S=\frac12\cdot6\cdot9\cdot\frac12=\frac{27}{2}=13.5.$$
+
+So the area of the triangle is $S=13.5$ (square units).
 
 **Answer.** $S=13.5$.
 :::
@@ -289,13 +314,21 @@ d) The angle opposite the side $15$ is obtuse.
 3. Compare $15^2$ with $13^2+14^2$.
 
 ::solution
-a) **True:** $p=\dfrac{13+14+15}{2}=21$.
+Let the sides of the triangle be $a=13$, $b=14$, $c=15$.
 
-b) **True:** $S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84$.
+a) **True.** The semi-perimeter is $p=\dfrac{a+b+c}{2}=\dfrac{13+14+15}{2}=\dfrac{42}{2}=21$.
 
-c) **False:** $R=\dfrac{13\cdot14\cdot15}{4\cdot84}=\dfrac{2730}{336}=8.125$.
+b) **True.** By Heron's formula $S=\sqrt{p(p-a)(p-b)(p-c)}$ with $p=21$, we have
+$$S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84.$$
 
-d) **False:** $15^2=225<13^2+14^2=365$, so the cosine of that angle is positive and the angle is acute.
+c) **False.** From the formula $S=\dfrac{abc}{4R}$ we get
+$$R=\frac{abc}{4S}=\frac{13\cdot14\cdot15}{4\cdot84}=\frac{2730}{336}=8.125\ne8.$$
+
+d) **False.** The cosine of the angle opposite the side $15$ is
+$$\cos C=\frac{13^2+14^2-15^2}{2\cdot13\cdot14}=\frac{169+196-225}{364}=\frac{140}{364}>0.$$
+(We can also see that $15^2=225<13^2+14^2=365$.) Since $\cos C>0$, the angle is acute, not obtuse.
+
+So statements a), b) are true; statements c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -311,8 +344,16 @@ Two ships leave the same port. The first sails at $12$ km/h, the second at $16$ 
 2. Two distances with the $50^\circ$ angle between them: use the cosine rule.
 
 ::solution
-After $2$ hours the ships are $24$ km and $32$ km from the port.
-$$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612.7\Rightarrow d\approx24.75.$$
+Let $O$ be the port, $A$ and $B$ the positions of the first and second ship after $2$ hours, and $d=AB$ (km) the required distance.
+
+After $2$ hours the first ship has travelled $12\cdot2=24$ km and the second $16\cdot2=32$ km, so $OA=24$ km and $OB=32$ km. The two courses make the angle $\angle AOB=50^\circ$.
+
+Applying the law of cosines in triangle $OAB$, we have
+$$\begin{aligned} d^2&=OA^2+OB^2-2\cdot OA\cdot OB\cdot\cos50^\circ\\ &=24^2+32^2-2\cdot24\cdot32\cos50^\circ\\ &=1600-1536\cos50^\circ\\ &\approx612.7. \end{aligned}$$
+
+Hence $d\approx\sqrt{612.7}\approx24.75$, which rounds to $d\approx24.8$ to one decimal place.
+
+So after $2$ hours the ships are about $24.8$ km apart.
 
 **Answer.** $24.8$.
 :::
@@ -328,7 +369,15 @@ To measure the distance from a point $A$ on a river bank to a tree $C$ on the ot
 2. Write $\dfrac{AC}{\sin B}=\dfrac{AB}{\sin C}$.
 
 ::solution
-$$\angle C=180^\circ-62^\circ-71^\circ=47^\circ,\qquad AC=\frac{200\sin71^\circ}{\sin47^\circ}\approx258.6\ \text{(m)}.$$
+Consider triangle $ABC$ with $AB=200$ m, $\angle A=62^\circ$, $\angle B=71^\circ$.
+
+The three angles of a triangle add up to $180^\circ$, so
+$$\angle C=180^\circ-62^\circ-71^\circ=47^\circ.$$
+
+By the law of sines, $\dfrac{AC}{\sin B}=\dfrac{AB}{\sin C}$. Hence
+$$AC=\frac{AB\sin B}{\sin C}=\frac{200\sin71^\circ}{\sin47^\circ}\approx258.6\ \text{(m)}.$$
+
+So the distance from $A$ to the tree $C$ is $AC\approx258.6$ m.
 
 **Answer.** $AC\approx258.6$ m.
 :::
@@ -344,8 +393,14 @@ Is there a triangle $ABC$ with $A=40^\circ$, $a=4$, $b=8$? Explain.
 2. Compare it with $1$.
 
 ::solution
-$$\sin B=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx1.286>1,$$
-which is impossible. (The quick rule shows it too: $a=4<b\sin A\approx5.14$.)
+Suppose a triangle $ABC$ with $A=40^\circ$, $a=4$, $b=8$ exists. Then by the law of sines, $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$, so
+$$\sin B=\frac{b\sin A}{a}=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx2\cdot0.6428\approx1.286.$$
+
+Since $\sin B\le1$ for every angle $B$ but here $\sin B\approx1.286>1$, the assumption leads to a contradiction.
+
+Another quick check: the side $a$ must be at least the distance $b\sin A$ from the vertex $C$ to the line $AB$; here $b\sin A=8\sin40^\circ\approx5.14$ while $a=4<5.14$.
+
+So there is no triangle $ABC$ with $A=40^\circ$, $a=4$, $b=8$.
 
 **Answer.** No such triangle exists.
 :::
@@ -362,8 +417,18 @@ A triangle has sides $3$, $5$, $7$. Show that its largest angle is $120^\circ$, 
 3. Find $p$, then $r=\dfrac{S}{p}$.
 
 ::solution
-$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{-15}{30}=-\frac12\Rightarrow \theta=120^\circ.$$
-$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{2},\qquad r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}.$$
+The largest angle of a triangle is opposite the longest side; let $\theta$ be the angle opposite the side $7$. By the law of cosines,
+$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{9+25-49}{30}=\frac{-15}{30}=-\frac12.$$
+
+Since $0^\circ<\theta<180^\circ$ and $\cos\theta=-\dfrac12$, we get $\theta=120^\circ$. So the largest angle is $120^\circ$.
+
+The area (using the sides $3$, $5$ and the included angle $\theta$) is
+$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac12\cdot3\cdot5\cdot\frac{\sqrt3}{2}=\frac{15\sqrt3}{4}\approx6.50.$$
+
+The semi-perimeter is $p=\dfrac{3+5+7}{2}=\dfrac{15}{2}$. From the formula $S=pr$, the inradius is
+$$r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}\approx0.87.$$
+
+So the largest angle is $120^\circ$, the area is $S=\dfrac{15\sqrt3}{4}\approx6.50$ and the inradius is $r=\dfrac{\sqrt3}{2}\approx0.87$.
 
 **Answer.** $S=\dfrac{15\sqrt3}{4}\approx6.50$; $r=\dfrac{\sqrt3}{2}\approx0.87$.
 :::
@@ -380,8 +445,18 @@ $$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{
 3. Find $a^2$; since $\cos A$ is negative, the last term becomes a plus.
 
 ::solution
-$$\sin^2A=1-\frac{9}{25}=\frac{16}{25}\Rightarrow \sin A=\frac45,\qquad S=\frac12\cdot5\cdot4\cdot\frac45=8,$$
-$$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
+Compute $\sin A$. Since $\sin^2A+\cos^2A=1$ and $\cos A=-\dfrac35$,
+$$\sin^2A=1-\left(-\frac35\right)^2=1-\frac{9}{25}=\frac{16}{25}.$$
+Because $0^\circ<A<180^\circ$, we have $\sin A>0$, so $\sin A=\dfrac45$.
+
+Compute the area. Using $S=\dfrac12bc\sin A$ with $b=5$, $c=4$:
+$$S=\frac12\cdot5\cdot4\cdot\frac45=8.$$
+
+Compute the side $a$. By the law of cosines $a^2=b^2+c^2-2bc\cos A$:
+$$\begin{aligned} a^2&=5^2+4^2-2\cdot5\cdot4\cdot\left(-\frac35\right)\\ &=25+16+24\\ &=65. \end{aligned}$$
+Hence $a=\sqrt{65}\approx8.06$ (taking the positive value).
+
+So $\sin A=\dfrac45$, the area is $S=8$ and the side is $a=\sqrt{65}\approx8.06$.
 
 **Answer.** $\sin A=\dfrac45$; $S=8$; $a=\sqrt{65}\approx8.06$.
 :::

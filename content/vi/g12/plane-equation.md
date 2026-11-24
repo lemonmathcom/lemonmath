@@ -262,8 +262,15 @@ Viết phương trình mặt phẳng đi qua $M(2; 1; -1)$ và có vectơ pháp 
 2. Khai triển và rút gọn.
 
 ::solution
-$$(x-2)-3(y-1)+2(z+1)=0\iff x-3y+2z+3=0.$$
-Kiểm tra $M$: $2-3-2+3=0$.
+Mặt phẳng đi qua điểm $M\left(x_0; y_0; z_0\right)$ và có vectơ pháp tuyến $\vec{n}=(a; b; c)$ có phương trình
+$$a\left(x-x_0\right)+b\left(y-y_0\right)+c\left(z-z_0\right)=0.$$
+
+Thay $M(2; 1; -1)$ và $\vec{n}=(1; -3; 2)$ vào, ta được
+$$\begin{aligned}1\cdot(x-2)-3(y-1)+2(z+1)&=0\\ x-2-3y+3+2z+2&=0\\ x-3y+2z+3&=0.\end{aligned}$$
+
+Kiểm tra: thay toạ độ $M$ vào vế trái, ta có $2-3\cdot1+2\cdot(-1)+3=2-3-2+3=0$ (thoả mãn).
+
+Vậy phương trình mặt phẳng cần tìm là $x-3y+2z+3=0$.
 
 **Đáp số.** $x-3y+2z+3=0$.
 :::
@@ -279,8 +286,17 @@ Cho $A(1; 2; 3)$ và $B(3; 0; 5)$. Viết phương trình mặt phẳng trung tr
 2. Rút gọn vectơ pháp tuyến rồi viết phương trình.
 
 ::solution
-$I(2; 1; 4)$, $\overrightarrow{AB}=(2; -2; 2)=2(1; -1; 1)$. Chọn $\vec{n}=(1; -1; 1)$:
-$$(x-2)-(y-1)+(z-4)=0\iff x-y+z-5=0.$$
+Gọi $I$ là trung điểm của đoạn $AB$. Ta có
+$$I\left(\frac{1+3}{2}; \frac{2+0}{2}; \frac{3+5}{2}\right)=I(2; 1; 4).$$
+
+Ta có $\overrightarrow{AB}=(3-1; 0-2; 5-3)=(2; -2; 2)=2(1; -1; 1)$.
+
+Mặt phẳng trung trực của $AB$ đi qua $I$ và vuông góc với $AB$, nên nhận $\overrightarrow{AB}$ làm vectơ pháp tuyến. Ta chọn vectơ pháp tuyến cùng phương với $\overrightarrow{AB}$ là $\vec{n}=(1; -1; 1)$. Phương trình mặt phẳng là
+$$\begin{aligned}1\cdot(x-2)-1\cdot(y-1)+1\cdot(z-4)&=0\\ x-2-y+1+z-4&=0\\ x-y+z-5&=0.\end{aligned}$$
+
+Kiểm tra: thay $I(2; 1; 4)$ vào, ta có $2-1+4-5=0$ (thoả mãn).
+
+Vậy phương trình mặt phẳng trung trực của đoạn $AB$ là $x-y+z-5=0$.
 
 **Đáp số.** $x-y+z-5=0$.
 :::
@@ -296,10 +312,17 @@ Viết phương trình mặt phẳng đi qua $A(2; 1; -1)$, $B(3; 0; 1)$, $C(1; 
 2. Tính tích có hướng, rồi viết phương trình qua $A$.
 
 ::solution
-$\overrightarrow{AB}=(1; -1; 2)$, $\overrightarrow{AC}=(-1; 2; 1)$.
+Ta có $\overrightarrow{AB}=(3-2; 0-1; 1-(-1))=(1; -1; 2)$ và $\overrightarrow{AC}=(1-2; 3-1; 0-(-1))=(-1; 2; 1)$.
+
+Vectơ $[\overrightarrow{AB}, \overrightarrow{AC}]$ vuông góc với cả $\overrightarrow{AB}$ và $\overrightarrow{AC}$ nên là một vectơ pháp tuyến của mặt phẳng $(ABC)$. Ta có
 $$[\overrightarrow{AB}, \overrightarrow{AC}]=\big((-1)\cdot1-2\cdot2;\ 2\cdot(-1)-1\cdot1;\ 1\cdot2-(-1)\cdot(-1)\big)=(-5; -3; 1).$$
-Chọn $\vec{n}=(5; 3; -1)$: $5(x-2)+3(y-1)-(z+1)=0\iff 5x+3y-z-14=0$.
-Kiểm tra $C$: $5+9-0-14=0$.
+
+Chọn vectơ pháp tuyến cùng phương là $\vec{n}=(5; 3; -1)$. Mặt phẳng $(ABC)$ đi qua $A(2; 1; -1)$ nên có phương trình
+$$\begin{aligned}5(x-2)+3(y-1)-(z+1)&=0\\ 5x-10+3y-3-z-1&=0\\ 5x+3y-z-14&=0.\end{aligned}$$
+
+Kiểm tra: thay $B(3; 0; 1)$ vào, ta có $15+0-1-14=0$; thay $C(1; 3; 0)$ vào, ta có $5+9-0-14=0$ (thoả mãn).
+
+Vậy phương trình mặt phẳng đi qua ba điểm $A$, $B$, $C$ là $5x+3y-z-14=0$.
 
 **Đáp số.** $5x+3y-z-14=0$.
 :::
@@ -315,7 +338,18 @@ Một mặt phẳng cắt các trục $Ox$, $Oy$, $Oz$ lần lượt tại $(2; 
 2. Nhân hai vế với $6$ để bỏ mẫu.
 
 ::solution
-$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1\iff 3x-2y+z-6=0.$$
+Mặt phẳng cắt các trục $Ox$, $Oy$, $Oz$ lần lượt tại $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$ với $abc\neq0$ có phương trình đoạn chắn
+$$\frac{x}{a}+\frac{y}{b}+\frac{z}{c}=1.$$
+
+Ở đây $a=2$, $b=-3$, $c=6$ nên mặt phẳng có phương trình
+$$\frac{x}{2}+\frac{y}{-3}+\frac{z}{6}=1.$$
+
+Nhân hai vế với $6$, ta được
+$$3x-2y+z=6\iff 3x-2y+z-6=0.$$
+
+Kiểm tra: thay $(2; 0; 0)$, $(0; -3; 0)$, $(0; 0; 6)$ vào vế trái, ta lần lượt có $6-6=0$, $6-6=0$, $6-6=0$ (thoả mãn).
+
+Vậy phương trình tổng quát của mặt phẳng là $3x-2y+z-6=0$.
 
 **Đáp số.** $3x-2y+z-6=0$.
 :::
@@ -340,13 +374,18 @@ d) Khoảng cách từ $O$ đến $(P)$ bằng $3$.
 3. Tính $d(O, (P))$.
 
 ::solution
-a) **Đúng.** Các hệ số của $x$, $y$, $z$ là $2$, $-1$, $2$.
+Mặt phẳng $(P): 2x-y+2z-3=0$ có các hệ số của $x$, $y$, $z$ lần lượt là $2$, $-1$, $2$.
 
-b) **Sai.** $2-2+2-3=-1\neq0$.
+a) **Đúng.** Mặt phẳng $(P)$ có một vectơ pháp tuyến là $(2; -1; 2)$, đúng bằng bộ ba hệ số của $x$, $y$, $z$.
 
-c) **Đúng.** $(4; -2; 4)=2(2; -1; 2)$ nhưng $1\neq2\cdot(-3)$.
+b) **Sai.** Thay $M(1; 2; 1)$ vào vế trái của $(P)$, ta có $2\cdot1-2+2\cdot1-3=-1\neq0$. Do đó $M\notin(P)$.
 
-d) **Sai.** $d(O, (P))=\dfrac{|-3|}{\sqrt{4+1+4}}=1$.
+c) **Đúng.** Vectơ pháp tuyến của $(Q)$ là $(4; -2; 4)=2(2; -1; 2)$ nên cùng phương với vectơ pháp tuyến của $(P)$. Mặt khác $1\neq2\cdot(-3)$ nên hai mặt phẳng không trùng nhau. Do đó $(P)\parallel(Q)$.
+
+d) **Sai.** Ta có
+$$d(O, (P))=\frac{|2\cdot0-0+2\cdot0-3|}{\sqrt{2^2+(-1)^2+2^2}}=\frac{3}{\sqrt{9}}=1\neq3.$$
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -362,7 +401,10 @@ Một sườn đồi được coi gần đúng là mặt phẳng $(P): x+2y+2z-3
 2. Chia cho $\sqrt{1+4+4}$.
 
 ::solution
-$$d=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23{,}3.$$
+Gọi $d$ (mét) là khoảng cách từ drone $M(10; 20; 25)$ đến sườn đồi $(P): x+2y+2z-30=0$. Áp dụng công thức khoảng cách từ một điểm đến một mặt phẳng, ta có
+$$d=\frac{|1\cdot10+2\cdot20+2\cdot25-30|}{\sqrt{1^2+2^2+2^2}}=\frac{|10+40+50-30|}{\sqrt{1+4+4}}=\frac{70}{3}\approx23{,}3.$$
+
+Vậy khoảng cách từ drone đến sườn đồi xấp xỉ $23{,}3$ mét.
 
 **Đáp số.** $23{,}3$.
 :::
@@ -378,8 +420,12 @@ Chứng minh hai mặt phẳng $(P): 2x-2y+z+4=0$ và $(Q): 2x-2y+z-5=0$ song so
 2. Lấy một điểm dễ tìm trên $(P)$, ví dụ cho $x=y=0$.
 
 ::solution
-Hai mặt phẳng có cùng vectơ pháp tuyến $(2; -2; 1)$ và $4\neq-5$, nên $(P)\parallel(Q)$. Điểm $E(0; 0; -4)$ thuộc $(P)$:
-$$d((P), (Q))=d(E, (Q))=\frac{|-4-5|}{\sqrt{4+4+1}}=\frac{9}{3}=3.$$
+Mặt phẳng $(P)$ có vectơ pháp tuyến $(2; -2; 1)$ và mặt phẳng $(Q)$ cũng có vectơ pháp tuyến $(2; -2; 1)$. Hai vectơ pháp tuyến này trùng nhau, và các hằng số tự do khác nhau ($4\neq-5$) nên hai mặt phẳng không trùng nhau. Do đó $(P)\parallel(Q)$.
+
+Vì $(P)\parallel(Q)$ nên khoảng cách giữa hai mặt phẳng bằng khoảng cách từ một điểm bất kì của $(P)$ đến $(Q)$. Điểm $E(0; 0; -4)$ thuộc $(P)$ vì $0-0-4+4=0$. Ta có
+$$d((P), (Q))=d(E, (Q))=\frac{|2\cdot0-2\cdot0+(-4)-5|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{|-9|}{\sqrt{9}}=\frac{9}{3}=3.$$
+
+Vậy hai mặt phẳng $(P)$ và $(Q)$ song song với nhau và khoảng cách giữa chúng bằng $3$.
 
 **Đáp số.** $3$.
 :::
@@ -395,8 +441,18 @@ Viết phương trình mặt phẳng chứa trục $Oz$ và đi qua điểm $A(1
 2. Chọn một cặp số $A$, $B$ thoả mãn.
 
 ::solution
-$A\cdot1+B\cdot2=0$, chọn $B=-1$, $A=2$. Mặt phẳng là $2x-y=0$.
-Kiểm tra: $2\cdot1-2=0$ và mọi điểm $(0; 0; z)$ đều thoả mãn.
+Gọi phương trình mặt phẳng cần tìm là $ax+by+cz+d=0$ với $a^2+b^2+c^2\neq0$.
+
+Mặt phẳng chứa trục $Oz$ nên chứa gốc toạ độ $O(0; 0; 0)$, suy ra $d=0$. Mặt phẳng cũng chứa mọi điểm $(0; 0; z)$ nên $c\cdot z=0$ với mọi $z$, suy ra $c=0$. Do đó phương trình có dạng $ax+by=0$.
+
+Mặt phẳng đi qua $A(1; 2; 5)$ nên
+$$a\cdot1+b\cdot2=0\iff a=-2b.$$
+
+Chọn $b=-1$, suy ra $a=2$. Phương trình mặt phẳng là $2x-y=0$.
+
+Kiểm tra: thay $A(1; 2; 5)$ vào, ta có $2\cdot1-2=0$; và mọi điểm $(0; 0; z)$ đều thoả mãn vì $2\cdot0-0=0$.
+
+Vậy phương trình mặt phẳng chứa trục $Oz$ và đi qua $A$ là $2x-y=0$.
 
 **Đáp số.** $2x-y=0$.
 :::
@@ -412,8 +468,17 @@ Kiểm tra: $2\cdot1-2=0$ và mọi điểm $(0; 0; z)$ đều thoả mãn.
 2. Viết phương trình qua $A$, rồi thay $D$.
 
 ::solution
+Ta có $\overrightarrow{AB}=(2-1; 3-0; -1-2)=(1; 3; -3)$ và $\overrightarrow{AC}=(0-1; 4-0; 1-2)=(-1; 4; -1)$.
+
+Vectơ $[\overrightarrow{AB}, \overrightarrow{AC}]$ là một vectơ pháp tuyến của mặt phẳng $(ABC)$. Ta có
 $$[\overrightarrow{AB}, \overrightarrow{AC}]=\big(3\cdot(-1)-4\cdot(-3);\ (-3)\cdot(-1)-(-1)\cdot1;\ 1\cdot4-(-1)\cdot3\big)=(9; 4; 7).$$
-$(ABC): 9(x-1)+4y+7(z-2)=0\iff 9x+4y+7z-23=0$. Thay $D$: $-9+4+28-23=0$.
+
+Mặt phẳng $(ABC)$ đi qua $A(1; 0; 2)$ và nhận $\vec{n}=(9; 4; 7)$ làm vectơ pháp tuyến nên có phương trình
+$$\begin{aligned}9(x-1)+4y+7(z-2)&=0\\ 9x-9+4y+7z-14&=0\\ 9x+4y+7z-23&=0.\end{aligned}$$
+
+Thay toạ độ $D(-1; 1; 4)$ vào vế trái, ta có $9\cdot(-1)+4\cdot1+7\cdot4-23=-9+4+28-23=0$. Do đó $D$ thuộc mặt phẳng $(ABC)$.
+
+Vậy phương trình mặt phẳng $(ABC)$ là $9x+4y+7z-23=0$ và điểm $D$ thuộc mặt phẳng này.
 
 **Đáp số.** $9x+4y+7z-23=0$; $D$ thuộc $(ABC)$, đúng như một hình bình hành phải nằm trong một mặt phẳng.
 :::
@@ -429,9 +494,19 @@ Viết phương trình mặt phẳng $(P)$ song song với $(Q): x+2y+2z+1=0$ v�
 2. Giải, rồi loại giá trị làm $(P)$ trùng $(Q)$.
 
 ::solution
+Vì $(P)\parallel(Q)$ nên $(P)$ có dạng $x+2y+2z+D=0$ với $D\neq1$.
+
+Khoảng cách từ $A(1; 1; 1)$ đến $(P)$ bằng $2$ nên
+$$\frac{|1+2\cdot1+2\cdot1+D|}{\sqrt{1^2+2^2+2^2}}=2\iff\frac{|5+D|}{3}=2\iff|5+D|=6.$$
+
+Suy ra
 $$|5+D|=6\iff D=1\ \text{hoặc}\ D=-11.$$
-Với $D=1$, $(P)$ trùng $(Q)$, không phải song song, nên loại. Còn lại $D=-11$.
-**Kiểm tra.** $d(A, (P))=\dfrac{|5-11|}{3}=2$.
+
+Với $D=1$, mặt phẳng $(P)$ trùng với $(Q)$, không phải song song, nên loại. Còn lại $D=-11$ (thoả mãn $D\neq1$).
+
+Kiểm tra: $d(A, (P))=\dfrac{|5-11|}{3}=\dfrac{6}{3}=2$.
+
+Vậy phương trình mặt phẳng $(P)$ là $x+2y+2z-11=0$.
 
 **Đáp số.** $(P): x+2y+2z-11=0$.
 :::

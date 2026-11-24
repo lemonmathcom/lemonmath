@@ -130,7 +130,17 @@ D. $3$
 **Cần nhớ:** $\dfrac{dy}{dx}=\dfrac{2t}{2}$.
 
 ::solution
-$\dfrac{dy}{dx}=t=3$: đáp án **D**.
+Với đường cong cho bởi hai hàm tham số, khi $\dfrac{dx}{dt}\neq0$ ta có
+$$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}.$$
+
+Từ $x=2t+1$ và $y=t^2$, ta có $\dfrac{dx}{dt}=2\neq0$ và $\dfrac{dy}{dt}=2t$. Do đó
+$$\frac{dy}{dx}=\frac{2t}{2}=t.$$
+
+Tại $t=3$, ta được $\dfrac{dy}{dx}=3$.
+
+Vậy chọn **D**.
+
+**Đáp số.** D.
 :::
 
 :::exercise Tự luận
@@ -140,7 +150,17 @@ Viết phương trình tiếp tuyến của $x=e^t$, $y=t^2+1$ tại $t=1$.
 **Cần nhớ:** tiếp điểm $(e,2)$ và hệ số góc $\dfrac{2t}{e^t}$.
 
 ::solution
-Hệ số góc bằng $\dfrac2e$, nên tiếp tuyến là $y=2+\dfrac2e(x-e)$, tức $y=\dfrac2ex$.
+Tại $t=1$, ta có $x=e^1=e$ và $y=1^2+1=2$, nên tiếp điểm là $(e; 2)$.
+
+Ta có $\dfrac{dx}{dt}=e^t$ và $\dfrac{dy}{dt}=2t$. Tại $t=1$: $\dfrac{dx}{dt}=e\neq0$ và $\dfrac{dy}{dt}=2$. Do đó hệ số góc của tiếp tuyến là
+$$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}=\frac2e.$$
+
+Phương trình tiếp tuyến đi qua $(e; 2)$ với hệ số góc $\dfrac2e$ là
+$$y=2+\frac2e(x-e)=2+\frac2ex-2=\frac2ex.$$
+
+Vậy tiếp tuyến của đường cong tại $t=1$ là $y=\dfrac2ex$.
+
+**Đáp số.** $y=\dfrac2ex$.
 :::
 
 :::exercise Tự luận
@@ -153,7 +173,19 @@ Tính độ dài quỹ đạo $x=t^2$, $y=\dfrac23t^3$ với $0\le t\le1$.
 1. Đổi biến $u=1+t^2$.
 
 ::solution
-$\displaystyle\int_0^12t\sqrt{1+t^2}\,dt=\left[\frac23\left(1+t^2\right)^{3/2}\right]_0^1=\frac23\left(2\sqrt2-1\right)\approx1{,}219$.
+Độ dài của quỹ đạo $x=x(t)$, $y=y(t)$ với $a\le t\le b$ là $L=\displaystyle\int_a^b\sqrt{\left(\dfrac{dx}{dt}\right)^2+\left(\dfrac{dy}{dt}\right)^2}\,dt$.
+
+Từ $x=t^2$ và $y=\dfrac23t^3$, ta có $\dfrac{dx}{dt}=2t$ và $\dfrac{dy}{dt}=2t^2$. Do đó
+$$\sqrt{(2t)^2+\left(2t^2\right)^2}=\sqrt{4t^2\left(1+t^2\right)}=2t\sqrt{1+t^2}\quad(\text{vì }t\ge0).$$
+
+Suy ra $L=\displaystyle\int_0^12t\sqrt{1+t^2}\,dt$.
+
+Đặt $u=1+t^2$, suy ra $du=2t\,dt$. Khi $t=0$ thì $u=1$; khi $t=1$ thì $u=2$. Ta có
+$$L=\int_1^2\sqrt u\,du=\left.\frac23u^{3/2}\right|_1^2=\frac23\left(2\sqrt2-1\right)\approx1{,}219.$$
+
+Vậy độ dài quỹ đạo bằng $\dfrac23\left(2\sqrt2-1\right)\approx1{,}219$.
+
+**Đáp số.** $\dfrac23\left(2\sqrt2-1\right)\approx1{,}219$.
 :::
 
 :::exercise Trắc nghiệm
@@ -167,7 +199,19 @@ D. $2\pi$
 **Cần nhớ:** $\dfrac12\displaystyle\int_0^\pi16\sin^2\theta\,d\theta$, hoặc nhận ra đường cong là đường tròn bán kính $2$.
 
 ::solution
-$8\displaystyle\int_0^\pi\sin^2\theta\,d\theta=8\cdot\frac\pi2=4\pi$: đáp án **A**. Đường cong là đường tròn bán kính $2$, tâm $(0,2)$.
+Diện tích miền giới hạn bởi đường cong cực $r=r(\theta)$ với $\alpha\le\theta\le\beta$ là $A=\dfrac12\displaystyle\int_\alpha^\beta r^2\,d\theta$. Với $r=4\sin\theta$ ta có $r\ge0$ trên $[0; \pi]$, nên
+$$A=\frac12\int_0^\pi16\sin^2\theta\,d\theta=8\int_0^\pi\sin^2\theta\,d\theta.$$
+
+Vì $\sin^2\theta=\dfrac{1-\cos2\theta}{2}$ nên
+$$\int_0^\pi\sin^2\theta\,d\theta=\left.\left(\frac\theta2-\frac{\sin2\theta}{4}\right)\right|_0^\pi=\frac\pi2.$$
+
+Do đó $A=8\cdot\dfrac\pi2=4\pi$.
+
+Vậy chọn **A**.
+
+*Nhận xét.* Đường cong là đường tròn bán kính $2$, tâm $(0; 2)$ (vì $r=4\sin\theta\iff x^2+y^2=4y\iff x^2+(y-2)^2=4$), nên diện tích là $\pi\cdot2^2=4\pi$, khớp với kết quả trên.
+
+**Đáp số.** A.
 :::
 
 :::exercise Tự luận
@@ -177,7 +221,14 @@ Với đường xoắn ốc $r=\theta$, $0\le\theta\le\pi$: khi $\theta$ tăng, 
 **Cần nhớ:** dấu của $\dfrac{dr}{d\theta}$; $\dfrac12\displaystyle\int_0^\pi\theta^2\,d\theta$.
 
 ::solution
-$\dfrac{dr}{d\theta}=1>0$ và $r>0$, nên điểm ra xa gốc. Diện tích $=\dfrac12\cdot\dfrac{\pi^3}{3}=\dfrac{\pi^3}{6}\approx5{,}168$.
+Với $r=\theta$ ta có $\dfrac{dr}{d\theta}=1>0$ và $r=\theta>0$ khi $\theta>0$. Vì $r$ là khoảng cách từ điểm đến gốc toạ độ và $r$ tăng khi $\theta$ tăng, nên điểm ra xa gốc toạ độ.
+
+Diện tích miền mà đoạn thẳng nối gốc với điểm đó quét qua khi $\theta$ chạy từ $0$ đến $\pi$ là
+$$A=\frac12\int_0^\pi r^2\,d\theta=\frac12\int_0^\pi\theta^2\,d\theta=\frac12\left.\frac{\theta^3}{3}\right|_0^\pi=\frac12\cdot\frac{\pi^3}{3}=\frac{\pi^3}{6}\approx5{,}168.$$
+
+Vậy khi $\theta$ tăng, điểm ra xa gốc toạ độ; diện tích miền bị quét qua bằng $\dfrac{\pi^3}{6}\approx5{,}168$.
+
+**Đáp số.** Ra xa gốc toạ độ; diện tích $\dfrac{\pi^3}{6}\approx5{,}168$.
 :::
 
 ## Bài tập vận dụng
@@ -196,11 +247,20 @@ c) Tìm hệ số góc của quỹ đạo tại $t=1$.
 2. $x(2)=1+\displaystyle\int_0^2\left(3t^2-6t\right)dt$, $y(2)=\displaystyle\int_0^24t\,dt$.
 
 ::solution
-a) $t=2$ (tại $t=0$ cả hai thành phần đều bằng $0$: hạt đang đứng yên).
+Ta có $\dfrac{dx}{dt}=3t^2-6t=3t(t-2)$ và $\dfrac{dy}{dt}=4t$.
 
-b) $x(2)=1+(8-12)=-3$ và $y(2)=8$: điểm $(-3,8)$.
+a) Hạt chuyển động theo phương thẳng đứng khi $\dfrac{dx}{dt}=0$ và $\dfrac{dy}{dt}\neq0$. Giải $3t(t-2)=0$ ta được $t=0$ hoặc $t=2$. Tại $t=0$ cả hai thành phần đều bằng $0$: hạt đang đứng yên, nên loại. Tại $t=2$ ta có $\dfrac{dy}{dt}=8\neq0$. Vậy với $t>0$, hạt chuyển động theo phương thẳng đứng tại $t=2$.
 
-c) $\dfrac{dy}{dx}=\dfrac{4}{3-6}=-\dfrac43$.
+b) Vì hạt ở $(1; 0)$ lúc $t=0$ nên
+$$x(t)=1+\int_0^t\left(3s^2-6s\right)ds=1+t^3-3t^2,\qquad y(t)=0+\int_0^t4s\,ds=2t^2.$$
+Tại $t=2$: $x(2)=1+8-12=-3$ và $y(2)=2\cdot4=8$. Vậy vị trí của hạt là $(-3; 8)$.
+
+c) Tại $t=1$ ta có $\dfrac{dx}{dt}=3-6=-3\neq0$ và $\dfrac{dy}{dt}=4$. Do đó hệ số góc của quỹ đạo là
+$$\frac{dy}{dx}=\frac{4}{3-6}=-\frac43.$$
+
+Vậy hạt chuyển động thẳng đứng tại $t=2$, khi đó ở vị trí $(-3; 8)$, và hệ số góc của quỹ đạo tại $t=1$ bằng $-\dfrac43$.
+
+**Đáp số.** a) $t=2$; b) $(-3; 8)$; c) $-\dfrac43$.
 :::
 
 :::exercise Bên trong đường hình tim
@@ -212,9 +272,18 @@ b) Tính $\dfrac{dr}{d\theta}$ tại $\theta=\pi$ và giải thích ý nghĩa đ
 **Cần nhớ:** $\displaystyle\int_0^{2\pi}\sin\theta\,d\theta=0$ và $\displaystyle\int_0^{2\pi}\sin^2\theta\,d\theta=\pi$.
 
 ::solution
-a) $\dfrac12\displaystyle\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta=\dfrac12(8\pi+4\pi)=6\pi$.
+Với $r=2+2\sin\theta$ ta có $r\ge0$ với mọi $\theta$, và đường cong được vẽ đúng một lần khi $\theta$ chạy từ $0$ đến $2\pi$.
 
-b) $\dfrac{dr}{d\theta}=2\cos\theta=-2$ tại $\theta=\pi$. Vì ở đó $r=2>0$, đường cong đang tiến lại gần gốc khi $\theta$ tăng.
+a) Diện tích miền giới hạn bởi đường cong là
+$$A=\frac12\int_0^{2\pi}(2+2\sin\theta)^2\,d\theta=\frac12\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta.$$
+Ta tính từng số hạng: $\displaystyle\int_0^{2\pi}4\,d\theta=8\pi$; $\displaystyle\int_0^{2\pi}8\sin\theta\,d\theta=0$; và vì $\sin^2\theta=\dfrac{1-\cos2\theta}{2}$ nên $\displaystyle\int_0^{2\pi}4\sin^2\theta\,d\theta=4\pi$. Do đó
+$$A=\frac12(8\pi+0+4\pi)=6\pi.$$
+
+b) Ta có $\dfrac{dr}{d\theta}=2\cos\theta$. Tại $\theta=\pi$: $\dfrac{dr}{d\theta}=2\cos\pi=-2$, và $r=2+2\sin\pi=2>0$. Vì $r>0$ và $\dfrac{dr}{d\theta}<0$ nên $r$ giảm khi $\theta$ tăng; nghĩa là tại đó đường cong đang tiến lại gần gốc toạ độ.
+
+Vậy diện tích miền giới hạn bởi đường cong bằng $6\pi$; tại $\theta=\pi$ có $\dfrac{dr}{d\theta}=-2$ và đường cong đang tiến lại gần gốc toạ độ.
+
+**Đáp số.** a) $6\pi$; b) $\dfrac{dr}{d\theta}=-2$, đường cong đang tiến lại gần gốc toạ độ.
 :::
 
 :::exercise Giữa hai đường cong cực
@@ -227,7 +296,21 @@ Tính diện tích miền nằm trong $r=3\cos\theta$ và nằm ngoài $r=1+\cos
 1. $A=\dfrac12\displaystyle\int_{-\pi/3}^{\pi/3}\left(9\cos^2\theta-(1+\cos\theta)^2\right)d\theta$.
 
 ::solution
-Tích phân bằng $\pi$. Ở phần được dùng máy tính vẽ đồ thị, chỉ cần viết tích phân và giá trị $3{,}142$.
+Tìm giao điểm của hai đường cong: $3\cos\theta=1+\cos\theta\iff\cos\theta=\dfrac12\iff\theta=\pm\dfrac\pi3$.
+
+Đường tròn $r=3\cos\theta$ được vẽ một lần khi $-\dfrac\pi2\le\theta\le\dfrac\pi2$. Với $-\dfrac\pi3\le\theta\le\dfrac\pi3$ ta có $\cos\theta\ge\dfrac12$, nên $3\cos\theta\ge1+\cos\theta$: đường tròn nằm ngoài đường $r=1+\cos\theta$. Với $\dfrac\pi3<|\theta|\le\dfrac\pi2$ thì $3\cos\theta<1+\cos\theta$, nên đường tròn nằm trong đường kia. Vì vậy miền nằm trong $r=3\cos\theta$ và ngoài $r=1+\cos\theta$ ứng với $-\dfrac\pi3\le\theta\le\dfrac\pi3$.
+
+Do tính đối xứng qua trục hoành, diện tích là
+$$A=\frac12\int_{-\pi/3}^{\pi/3}\left[(3\cos\theta)^2-(1+\cos\theta)^2\right]d\theta=\int_0^{\pi/3}\left(8\cos^2\theta-2\cos\theta-1\right)d\theta.$$
+
+Vì $8\cos^2\theta=4+4\cos2\theta$ nên
+$$A=\int_0^{\pi/3}\left(3+4\cos2\theta-2\cos\theta\right)d\theta=\Big[3\theta+2\sin2\theta-2\sin\theta\Big]_0^{\pi/3}=\pi+\sqrt3-\sqrt3=\pi.$$
+
+Vậy diện tích miền cần tìm bằng $\pi\approx3{,}142$.
+
+*Mẹo thi.* Ở phần được dùng máy tính vẽ đồ thị, chỉ cần viết tích phân $\dfrac12\displaystyle\int_{-\pi/3}^{\pi/3}\left[(3\cos\theta)^2-(1+\cos\theta)^2\right]d\theta$ và giá trị $3{,}142$.
+
+**Đáp số.** $\pi\approx3{,}142$.
 :::
 
 :::exercise Thử thách
@@ -241,7 +324,25 @@ Tìm điểm trên $r=1+\cos\theta$, $0<\theta<\pi$, tại đó tiếp tuyến n
 2. Phân tích: $(2\cos\theta-1)(\cos\theta+1)=0$.
 
 ::solution
-$\cos\theta=\dfrac12$, nên $\theta=\dfrac\pi3$ (nghiệm $\cos\theta=-1$ cho $\theta=\pi$, nằm ngoài khoảng). Khi đó $r=\dfrac32$, và điểm cần tìm là $\left(\dfrac34,\dfrac{3\sqrt3}{4}\right)$. Kiểm tra: tại đó $\dfrac{dx}{d\theta}\ne0$.
+Toạ độ Descartes của điểm trên đường cong là
+$$x=r\cos\theta=(1+\cos\theta)\cos\theta,\qquad y=r\sin\theta=(1+\cos\theta)\sin\theta.$$
+
+Lấy đạo hàm theo $\theta$:
+$$\frac{dy}{d\theta}=-\sin^2\theta+(1+\cos\theta)\cos\theta=2\cos^2\theta+\cos\theta-1=(2\cos\theta-1)(\cos\theta+1),$$
+$$\frac{dx}{d\theta}=-\sin\theta\cos\theta-(1+\cos\theta)\sin\theta=-\sin\theta(1+2\cos\theta).$$
+
+Tiếp tuyến nằm ngang khi $\dfrac{dy}{d\theta}=0$ và $\dfrac{dx}{d\theta}\neq0$. Giải $\dfrac{dy}{d\theta}=0$: $\cos\theta=\dfrac12$ hoặc $\cos\theta=-1$.
+
+Với $0<\theta<\pi$: $\cos\theta=\dfrac12$ cho $\theta=\dfrac\pi3$; còn $\cos\theta=-1$ cho $\theta=\pi$, nằm ngoài khoảng nên loại.
+
+Kiểm tra: tại $\theta=\dfrac\pi3$ ta có $\dfrac{dx}{d\theta}=-\dfrac{\sqrt3}{2}(1+1)=-\sqrt3\neq0$.
+
+Khi đó $r=1+\dfrac12=\dfrac32$, nên
+$$x=\frac32\cdot\frac12=\frac34,\qquad y=\frac32\cdot\frac{\sqrt3}{2}=\frac{3\sqrt3}{4}.$$
+
+Vậy điểm trên đường cong có tiếp tuyến nằm ngang là $\left(\dfrac34; \dfrac{3\sqrt3}{4}\right)$.
+
+**Đáp số.** $\left(\dfrac34; \dfrac{3\sqrt3}{4}\right)$.
 :::
 
 :::quiz

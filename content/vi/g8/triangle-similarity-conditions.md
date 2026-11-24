@@ -172,7 +172,14 @@ Cho $\triangle ABC$ có các cạnh $5$, $12$, $13$ và $\triangle DEF$ có các
 2. Tính ba tỉ số.
 
 ::solution
-Ta có $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. Ba tỉ số bằng nhau nên hai tam giác đồng dạng (c.c.c) với tỉ số $2$.
+Ta so sánh tỉ số các cạnh tương ứng của hai tam giác, sắp xếp các cạnh theo thứ tự tăng dần: $5\leftrightarrow10$, $12\leftrightarrow24$, $13\leftrightarrow26$.
+
+Ta có
+$$\frac{10}{5}=2,\qquad\frac{24}{12}=2,\qquad\frac{26}{13}=2.$$
+
+Ba tỉ số bằng nhau, nên theo trường hợp đồng dạng cạnh - cạnh - cạnh (c.c.c), $\triangle ABC\sim\triangle DEF$ với tỉ số đồng dạng $2$ (từ $\triangle ABC$ sang $\triangle DEF$).
+
+Vậy hai tam giác đồng dạng với tỉ số $2$.
 
 **Đáp số.** Đồng dạng, tỉ số $2$.
 :::
@@ -188,7 +195,14 @@ Hai tam giác có các cạnh $3$, $5$, $7$ và $6$, $10$, $15$ có đồng dạ
 2. Tính ba tỉ số.
 
 ::solution
-Ta có $\dfrac63=2$, $\dfrac{10}{5}=2$ nhưng $\dfrac{15}{7}\neq2$. Ba tỉ số không bằng nhau nên hai tam giác không đồng dạng.
+Ta so sánh tỉ số các cạnh tương ứng, sắp xếp các cạnh theo thứ tự tăng dần: $3\leftrightarrow6$, $5\leftrightarrow10$, $7\leftrightarrow15$.
+
+Ta có
+$$\frac63=2,\qquad\frac{10}{5}=2,\qquad\frac{15}{7}\neq2\ \ (\text{vì }2\cdot7=14\neq15).$$
+
+Ba tỉ số không bằng nhau, nên hai tam giác không có các cạnh tương ứng tỉ lệ.
+
+Vậy hai tam giác đó không đồng dạng.
 
 **Đáp số.** Không đồng dạng.
 :::
@@ -204,7 +218,17 @@ Cho $\triangle ABC$ có $AB=4$, $AC=6$, $\widehat A=60^\circ$ và $\triangle A'B
 2. Dùng tỉ số đồng dạng cho cạnh còn lại.
 
 ::solution
-Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ và góc xen giữa $\widehat{A'}=\widehat A=60^\circ$. Theo c.g.c, $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Do đó $B'C'=\dfrac32\cdot5=7{,}5$.
+Chứng minh hai tam giác đồng dạng. Xét $\triangle A'B'C'$ và $\triangle ABC$, ta có
+$$\frac{A'B'}{AB}=\frac64=\frac32,\qquad\frac{A'C'}{AC}=\frac96=\frac32.$$
+
+Suy ra $\dfrac{A'B'}{AB}=\dfrac{A'C'}{AC}=\dfrac32$. Hơn nữa, góc xen giữa hai cặp cạnh này bằng nhau: $\widehat{A'}=\widehat A=60^\circ$.
+
+Theo trường hợp đồng dạng cạnh - góc - cạnh (c.g.c), $\triangle A'B'C'\sim\triangle ABC$ với tỉ số đồng dạng $\dfrac32$.
+
+Tính $B'C'$. Vì hai tam giác đồng dạng nên $\dfrac{B'C'}{BC}=\dfrac32$. Với $BC=5$, ta được
+$$B'C'=\frac32\cdot5=7{,}5.$$
+
+Vậy hai tam giác đồng dạng và $B'C'=7{,}5$.
 
 **Đáp số.** Đồng dạng; $B'C'=7{,}5$.
 :::
@@ -220,7 +244,17 @@ Cho $\triangle ABC$ có $\widehat A=50^\circ$, $\widehat B=70^\circ$ và $\trian
 2. Ghép các góc bằng nhau.
 
 ::solution
-Trong $\triangle ABC$: $\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. Trong $\triangle MNP$: $\widehat N=180^\circ-50^\circ-60^\circ=70^\circ$. Ta có $\widehat A=\widehat M$, $\widehat B=\widehat N$, $\widehat C=\widehat P$. Theo g.g, $\triangle ABC\sim\triangle MNP$.
+Trong $\triangle ABC$, tổng ba góc bằng $180^\circ$ nên
+$$\widehat C=180^\circ-\widehat A-\widehat B=180^\circ-50^\circ-70^\circ=60^\circ.$$
+
+Trong $\triangle MNP$, tương tự,
+$$\widehat N=180^\circ-\widehat M-\widehat P=180^\circ-50^\circ-60^\circ=70^\circ.$$
+
+Ta có $\widehat A=\widehat M=50^\circ$, $\widehat B=\widehat N=70^\circ$ và $\widehat C=\widehat P=60^\circ$.
+
+Theo trường hợp đồng dạng góc - góc (g.g), $\triangle ABC\sim\triangle MNP$, trong đó các đỉnh tương ứng là $A\leftrightarrow M$, $B\leftrightarrow N$, $C\leftrightarrow P$.
+
+Vậy $\triangle ABC\sim\triangle MNP$ (đỉnh viết theo đúng thứ tự tương ứng).
 
 **Đáp số.** $\triangle ABC\sim\triangle MNP$ (g.g).
 :::
@@ -236,7 +270,20 @@ Tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$; tam giác $DEF$ vuông tạ
 2. Tính $BC$ rồi $EF$.
 
 ::solution
-Ta có $\dfrac63=\dfrac84=2$ và hai góc vuông xen giữa bằng nhau, nên $\triangle DEF\sim\triangle ABC$ (c.g.c) với tỉ số $2$. Theo định lí Pythagore, $BC=5$. Do đó $EF=2\cdot5=10$.
+Chứng minh hai tam giác đồng dạng. Xét $\triangle DEF$ và $\triangle ABC$, ta có
+$$\frac{DE}{AB}=\frac63=2,\qquad\frac{DF}{AC}=\frac84=2.$$
+
+Suy ra $\dfrac{DE}{AB}=\dfrac{DF}{AC}=2$. Hai góc xen giữa là hai góc vuông nên $\widehat D=\widehat A=90^\circ$.
+
+Theo trường hợp đồng dạng c.g.c, $\triangle DEF\sim\triangle ABC$ với tỉ số đồng dạng $2$.
+
+Tính $EF$. Áp dụng định lí Pythagore cho $\triangle ABC$ vuông tại $A$:
+$$BC^2=AB^2+AC^2=3^2+4^2=25,\ \text{suy ra}\ BC=5.$$
+
+Vì hai tam giác đồng dạng nên $\dfrac{EF}{BC}=2$, do đó
+$$EF=2\cdot5=10.$$
+
+Vậy hai tam giác đồng dạng và $EF=10$.
 
 **Đáp số.** Đồng dạng, $EF=10$.
 :::
@@ -252,7 +299,18 @@ Cho $\triangle ABC$, điểm $D$ trên cạnh $AC$ sao cho $\widehat{ABD}=\wideh
 2. Dùng hệ thức để tính $AC$, rồi $DC=AC-AD$.
 
 ::solution
-Hai tam giác $ABD$ và $ACB$ có góc $A$ chung và $\widehat{ABD}=\widehat{ACB}$ nên đồng dạng (g.g). Suy ra $AB^2=AD\cdot AC$, tức $100=5\cdot AC$ và $AC=20$. Do đó $DC=20-5=15$.
+Xét $\triangle ABD$ và $\triangle ACB$. Vì $D$ nằm trên cạnh $AC$ nên hai tam giác có chung góc $A$. Theo giả thiết, $\widehat{ABD}=\widehat{ACB}$.
+
+Theo trường hợp đồng dạng g.g, $\triangle ABD\sim\triangle ACB$ (các đỉnh tương ứng $A\leftrightarrow A$, $B\leftrightarrow C$, $D\leftrightarrow B$).
+
+Suy ra
+$$\frac{AB}{AC}=\frac{AD}{AB},\ \text{tức là}\ AB^2=AD\cdot AC.$$
+
+Thay $AB=10$ và $AD=5$ vào, ta được $100=5\cdot AC$, suy ra $AC=20$.
+
+Vì $D$ nằm trên cạnh $AC$ nên $DC=AC-AD=20-5=15$.
+
+Vậy $AC=20$ và $DC=15$.
 
 **Đáp số.** $AC=20$; $DC=15$.
 :::
@@ -268,7 +326,17 @@ Giả sử để đo khoảng cách $AB$ giữa hai điểm hai bên một cái 
 2. Dùng c.g.c để suy ra tỉ số của $A'B'$ và $AB$.
 
 ::solution
-Ta có $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ và $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, và $\widehat O$ chung. Theo c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số $\dfrac13$, nên $AB=3\cdot A'B'=75$ (m).
+Xét $\triangle OA'B'$ và $\triangle OAB$. Vì $A'\in OA$, $B'\in OB$ nên hai tam giác có chung góc $O$.
+
+Ta có
+$$\frac{OA'}{OA}=\frac{30}{90}=\frac13,\qquad\frac{OB'}{OB}=\frac{40}{120}=\frac13.$$
+
+Suy ra $\dfrac{OA'}{OA}=\dfrac{OB'}{OB}=\dfrac13$. Theo trường hợp đồng dạng c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số đồng dạng $\dfrac13$.
+
+Do đó $\dfrac{A'B'}{AB}=\dfrac13$, suy ra
+$$AB=3\cdot A'B'=3\cdot25=75\ \text{(m)}.$$
+
+Vậy khoảng cách $AB$ là $75$ m.
 
 **Đáp số.** $75$ m.
 :::
@@ -284,7 +352,18 @@ Giả sử để đo chiều cao một toà nhà, người ta đặt một chi�
 2. Viết tỉ lệ $\dfrac{\text{chiều cao người}}{\text{khoảng cách đến gương}}=\dfrac{\text{chiều cao nhà}}{30}$.
 
 ::solution
-Hai tam giác vuông (người và khoảng cách đến gương; toà nhà và khoảng cách đến gương) có một cặp góc nhọn bằng nhau (góc tới bằng góc phản xạ), nên đồng dạng (g.g). Gọi $h$ là chiều cao toà nhà. Ta có $\dfrac{h}{30}=\dfrac{1{,}6}{2}$, suy ra $h=24$ (m).
+Gọi $AB$ là toà nhà ($B$ là chân, $A$ là đỉnh), $M$ là vị trí đặt gương, $CD$ là người ($D$ là chân, $C$ là đỉnh đầu, coi là điểm nhìn). Gọi $h=AB$ (m), $h>0$. Theo đề, $BM=30$ m, $DM=2$ m và $CD=1{,}6$ m.
+
+Xét $\triangle ABM$ vuông tại $B$ và $\triangle CDM$ vuông tại $D$. Tia sáng tới và tia phản xạ tạo với mặt đất hai góc bằng nhau, nên $\widehat{AMB}=\widehat{CMD}$.
+
+Hai tam giác vuông có một cặp góc nhọn bằng nhau, nên theo trường hợp g.g, $\triangle ABM\sim\triangle CDM$.
+
+Suy ra
+$$\frac{AB}{BM}=\frac{CD}{DM},\ \text{tức là}\ \frac h{30}=\frac{1{,}6}{2}.$$
+
+Do đó $h=\dfrac{30\cdot1{,}6}{2}=24$ (m).
+
+Vậy chiều cao của toà nhà là $24$ m.
 
 **Đáp số.** $24$ m.
 :::
@@ -300,7 +379,18 @@ Hình thang $ABCD$ có $AB\parallel CD$; hai đường chéo $AC$ và $BD$ cắt
 2. Viết tỉ lệ $\dfrac{CD}{AB}=\dfrac{OC}{OA}$.
 
 ::solution
-Vì $AB\parallel CD$ nên $\widehat{OAB}=\widehat{OCD}$ và $\widehat{OBA}=\widehat{ODC}$ (so le trong). Theo g.g, $\triangle OAB\sim\triangle OCD$. Do đó $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, suy ra $CD=8\cdot\dfrac32=12$.
+Chứng minh $\triangle OAB\sim\triangle OCD$. Vì $AB\parallel CD$ và $A$, $O$, $C$ thẳng hàng nên $\widehat{OAB}=\widehat{OCD}$ (so le trong).
+
+Vì $AB\parallel CD$ và $B$, $O$, $D$ thẳng hàng nên $\widehat{OBA}=\widehat{ODC}$ (so le trong).
+
+Theo trường hợp đồng dạng g.g, $\triangle OAB\sim\triangle OCD$ (các đỉnh tương ứng $O\leftrightarrow O$, $A\leftrightarrow C$, $B\leftrightarrow D$).
+
+Tính $CD$. Từ hai tam giác đồng dạng, ta có
+$$\frac{CD}{AB}=\frac{OC}{OA}=\frac64=\frac32.$$
+
+Thay $AB=8$ vào, ta được $CD=8\cdot\dfrac32=12$.
+
+Vậy $\triangle OAB\sim\triangle OCD$ và $CD=12$.
 
 **Đáp số.** Đã chứng minh; $CD=12$.
 :::

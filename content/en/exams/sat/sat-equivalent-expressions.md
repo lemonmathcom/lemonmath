@@ -152,7 +152,19 @@ D. $9a^5b$
 2. Divide coefficient by coefficient and power by power.
 
 ::solution
-$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. The answer is **C**. Option A drops the coefficient, and option D divides $27$ by $3$ instead of by $9$.
+For $a\ne0$ and $b\ne0$, we simplify the expression using the rules $(xy)^n=x^ny^n$, $(x^m)^n=x^{mn}$ and $\dfrac{x^m}{x^n}=x^{m-n}$.
+
+The power of the product in the numerator is
+$$(3a^2b)^3=3^3\cdot\left(a^2\right)^3\cdot b^3=27a^6b^3.$$
+
+Therefore
+$$\frac{(3a^2b)^3}{9ab^2}=\frac{27a^6b^3}{9ab^2}=\frac{27}{9}\cdot a^{6-1}\cdot b^{3-2}=3a^5b.$$
+
+So the answer is **C**.
+
+*Remark.* Option A drops the coefficient $3$; option D divides $27$ by $3$ instead of by $9$.
+
+**Answer.** C.
 :::
 
 :::exercise Multiple choice
@@ -170,7 +182,19 @@ D. $x-2$
 2. Split the middle term and group.
 
 ::solution
-$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. The answer is **C**. Check: at $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
+We factorise $3x^2-10x-8$. The product of the coefficient of $x^2$ and the constant term is $3\cdot(-8)=-24$. The two numbers with product $-24$ and sum $-10$ are $-12$ and $2$.
+
+Splitting $-10x=-12x+2x$ and grouping, we get
+$$\begin{aligned}3x^2-10x-8&=3x^2-12x+2x-8\\ &=3x(x-4)+2(x-4)\\ &=(3x+2)(x-4).\end{aligned}$$
+
+So the linear factors of the expression are $3x+2$ and $x-4$. Among the four options, only $3x+2$ appears (option C).
+
+Check: $3x+2=0$ when $x=-\dfrac23$, and at this value
+$$3\cdot\frac49+\frac{20}{3}-8=\frac43+\frac{20}{3}-8=0.$$
+
+So the answer is **C**.
+
+**Answer.** C.
 :::
 
 :::exercise Student-produced response
@@ -184,7 +208,18 @@ In the equation $(2x+k)(x-4)=2x^2-5x-12$, $k$ is a constant and the equation is 
 2. Set $k-8=-5$ and check the constant.
 
 ::solution
-$k-8=-5\iff k=3$, and the constant is $-4\cdot3=-12$, which matches. The answer is $3$.
+Expanding the left-hand side of the equation:
+$$(2x+k)(x-4)=2x^2-8x+kx-4k=2x^2+(k-8)x-4k.$$
+
+The equation is true for all $x$, so the corresponding coefficients on the two sides must be equal. Comparing with $2x^2-5x-12$, the coefficient of $x$ gives
+$$k-8=-5,$$
+so $k=3$.
+
+Check with the constant term: $-4k=-4\cdot3=-12$, which matches the constant $-12$ on the right-hand side.
+
+So $k=3$.
+
+**Answer.** $3$.
 :::
 
 :::exercise Multiple choice
@@ -202,7 +237,16 @@ D. $\sqrt[3]{x}$
 2. Write the result back with a root.
 
 ::solution
-$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, and $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. The answer is **B**.
+For $x>0$, we use the rule $x^m\cdot x^n=x^{m+n}$ and write $\sqrt x=x^{\frac12}$. Then
+$$x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x=x^{\frac23}\cdot x^{\frac13}\cdot x^{\frac12}=x^{\frac23+\frac13+\frac12}.$$
+
+We have $\dfrac23+\dfrac13+\dfrac12=1+\dfrac12=\dfrac32$, so the expression equals $x^{\frac32}$.
+
+Splitting $x^{\frac32}=x^{1+\frac12}=x\cdot x^{\frac12}=x\sqrt x$.
+
+So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Multiple choice
@@ -220,7 +264,17 @@ D. $h=\dfrac{A(b_1+b_2)}{2}$
 2. Divide by $b_1+b_2$.
 
 ::solution
-$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. The answer is **A**.
+We need to solve for $h$ in the area formula for a trapezoid, $A=\dfrac12h(b_1+b_2)$.
+
+Multiplying both sides by $2$, we get
+$$2A=h(b_1+b_2).$$
+
+Since $b_1$ and $b_2$ are the lengths of the bases, $b_1+b_2>0$. Dividing both sides by $b_1+b_2$, we get
+$$h=\frac{2A}{b_1+b_2}.$$
+
+So the answer is **A**.
+
+**Answer.** A.
 :::
 
 ## Application exercises
@@ -236,7 +290,18 @@ A square garden has side length $x$ meters. A path $2$ meters wide runs around t
 2. Expand $(x+4)^2-x^2$.
 
 ::solution
-$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. When $x=10$ the path has area $96$ square meters. Check: $14^2-10^2=196-100=96$.
+Let $x$ (m) be the side length of the square garden ($x>0$). The path is $2$ m wide and runs around the outside, so the outer square (garden and path together) has side length $x+2\cdot2=x+4$ (m).
+
+The area of the path is the area of the outer square minus the area of the garden:
+$$\begin{aligned}A&=(x+4)^2-x^2\\ &=x^2+8x+16-x^2\\ &=8x+16\ (\text{m}^2).\end{aligned}$$
+
+When $x=10$, we have $A=8\cdot10+16=96$ (m²).
+
+Check: $14^2-10^2=196-100=96$.
+
+So the simplified expression for the area of the path is $8x+16$ square meters, and when $x=10$ the area is $96$ square meters.
+
+**Answer.** $8x+16$ square meters; $96$ square meters.
 :::
 
 :::exercise Student-produced response
@@ -250,7 +315,19 @@ If $x^2-y^2=48$ and $x+y=8$, what is the value of $x-y$?
 2. Substitute $x+y=8$.
 
 ::solution
-$48=8(x-y)$, so $x-y=6$. (Here $x=7$, $y=1$.)
+Factorising the difference of two squares, we have
+$$x^2-y^2=(x-y)(x+y).$$
+
+Substituting $x^2-y^2=48$ and $x+y=8$ into this identity, we get
+$$48=(x-y)\cdot8.$$
+
+Dividing both sides by $8$ (which is nonzero), we get $x-y=6$.
+
+Check: from $x+y=8$ and $x-y=6$ we get $x=7$, $y=1$; then $x^2-y^2=49-1=48$.
+
+So $x-y=6$.
+
+**Answer.** $6$.
 :::
 
 :::exercise Student-produced response
@@ -264,7 +341,20 @@ If $x+\dfrac1x=5$, what is the value of $x^2+\dfrac{1}{x^2}$?
 2. Subtract $2$.
 
 ::solution
-$25=x^2+2+\dfrac1{x^2}$, so $x^2+\dfrac1{x^2}=23$.
+Condition: $x\ne0$.
+
+Squaring both sides of $x+\dfrac1x=5$, we get
+$$\left(x+\frac1x\right)^2=25.$$
+
+Expanding the left-hand side with the identity $(u+v)^2=u^2+2uv+v^2$, we have
+$$x^2+2\cdot x\cdot\frac1x+\frac{1}{x^2}=x^2+2+\frac{1}{x^2}.$$
+
+Hence $x^2+2+\dfrac1{x^2}=25$, so
+$$x^2+\frac1{x^2}=25-2=23.$$
+
+So $x^2+\dfrac1{x^2}=23$.
+
+**Answer.** $23$.
 :::
 
 :::exercise Challenge
@@ -278,7 +368,19 @@ For all $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, where $a$ and $b$ are constants.
 2. Cancel $x-2$.
 
 ::solution
-The numbers are $-6$ and $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. So the expression equals $3x+1$, giving $a=3$, $b=1$ and $a+b=4$.
+Condition: $x\ne2$.
+
+We factorise the numerator. The product of the coefficient of $x^2$ and the constant term is $3\cdot(-2)=-6$. The two numbers with product $-6$ and sum $-5$ are $-6$ and $1$. Therefore
+$$\begin{aligned}3x^2-5x-2&=3x^2-6x+x-2\\ &=3x(x-2)+(x-2)\\ &=(3x+1)(x-2).\end{aligned}$$
+
+For $x\ne2$, we cancel the factor $x-2$:
+$$\frac{3x^2-5x-2}{x-2}=\frac{(3x+1)(x-2)}{x-2}=3x+1.$$
+
+Comparing with $ax+b$ (true for all $x\ne2$), we get $a=3$ and $b=1$. Hence $a+b=3+1=4$.
+
+So $a+b=4$.
+
+**Answer.** $4$.
 :::
 
 :::quiz

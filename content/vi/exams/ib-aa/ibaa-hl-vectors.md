@@ -92,7 +92,16 @@ Tìm $k$ để $\begin{pmatrix}k\\2\\-1\end{pmatrix}$ và $\begin{pmatrix}3\\k\\
 **Cần nhớ:** tích vô hướng bằng $0$.
 
 ::solution
-$3k+2k-4=0$, nên $k=\dfrac45$.
+Hai véc-tơ vuông góc với nhau khi và chỉ khi tích vô hướng của chúng bằng $0$. Ta có
+$$\begin{pmatrix}k\\2\\-1\end{pmatrix}\cdot\begin{pmatrix}3\\k\\4\end{pmatrix}=3k+2k-4=5k-4.$$
+
+Cho tích vô hướng bằng $0$: $5k-4=0$, suy ra $5k=4$, tức là $k=\dfrac45$.
+
+Kiểm tra: với $k=\dfrac45$, tích vô hướng là $\dfrac{12}{5}+\dfrac{8}{5}-4=0$.
+
+Vậy $k=\dfrac45$.
+
+**Đáp số.** $k=\dfrac45$.
 :::
 
 :::exercise Đường thẳng qua hai điểm
@@ -102,7 +111,17 @@ Viết một phương trình véc-tơ của đường thẳng qua $A(2,-1,3)$ v�
 **Cần nhớ:** véc-tơ chỉ phương $\overrightarrow{AB}$.
 
 ::solution
-$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+Đường thẳng qua $A$ và $B$ nhận véc-tơ $\overrightarrow{AB}$ làm véc-tơ chỉ phương. Ta có
+$$\overrightarrow{AB}=\begin{pmatrix}4-2\\1-(-1)\\0-3\end{pmatrix}=\begin{pmatrix}2\\2\\-3\end{pmatrix}.$$
+
+Đường thẳng đi qua $A(2; -1; 3)$ nên phương trình véc-tơ có dạng $\boldsymbol r=\overrightarrow{OA}+\lambda\overrightarrow{AB}$, tức là
+$$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix},\quad\lambda\in\mathbb R.$$
+
+Kiểm tra: với $\lambda=1$ ta được $\begin{pmatrix}4\\1\\0\end{pmatrix}$, chính là điểm $B$.
+
+Vậy một phương trình véc-tơ của đường thẳng $AB$ là $\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+
+**Đáp số.** $\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
 :::
 
 :::exercise Hai đường thẳng cắt nhau
@@ -112,7 +131,21 @@ Tìm giao điểm của $L_1:\boldsymbol r=\begin{pmatrix}0\\1\\1\end{pmatrix}+\
 **Cần nhớ:** giải hai thành phần, rồi kiểm tra thành phần thứ ba.
 
 ::solution
-$x$: $\lambda=1$. $y$: $1=2+\mu$, nên $\mu=-1$. Kiểm tra $z$: $1+\lambda=2$ và $3+\mu=2$, khớp nhau. Hai đường thẳng cắt nhau tại $(1,1,2)$.
+Viết toạ độ điểm tổng quát của hai đường thẳng:
+$$L_1:\ (\lambda;\ 1;\ 1+\lambda),\qquad L_2:\ (1;\ 2+\mu;\ 3+\mu).$$
+
+Hai đường thẳng cắt nhau khi tồn tại $\lambda$, $\mu$ để hai điểm trùng nhau, tức là hệ sau có nghiệm:
+$$\begin{cases}\lambda=1&(x)\\1=2+\mu&(y)\\1+\lambda=3+\mu&(z)\end{cases}$$
+
+Từ phương trình $x$: $\lambda=1$. Từ phương trình $y$: $\mu=1-2=-1$.
+
+Kiểm tra phương trình $z$: vế trái $1+\lambda=2$, vế phải $3+\mu=2$; hai vế bằng nhau nên hệ có nghiệm $\lambda=1$, $\mu=-1$.
+
+Thay $\lambda=1$ vào $L_1$, ta được giao điểm $(1; 1; 2)$. Thay $\mu=-1$ vào $L_2$ cũng được $(1; 1; 2)$.
+
+Vậy hai đường thẳng cắt nhau tại điểm $(1; 1; 2)$.
+
+**Đáp số.** $(1; 1; 2)$.
 :::
 
 :::exercise Một tích có hướng
@@ -122,7 +155,18 @@ Tính $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatr
 **Cần nhớ:** công thức theo thành phần.
 
 ::solution
-$\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+Áp dụng công thức tích có hướng
+$$\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}\times\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$$
+với $(a_1, a_2, a_3)=(1, 2, 3)$ và $(b_1, b_2, b_3)=(0, 1, 4)$.
+
+Thay số vào, ta được
+$$\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}=\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}.$$
+
+Kiểm tra: tích vô hướng của kết quả với $\begin{pmatrix}1\\2\\3\end{pmatrix}$ là $5-8+3=0$ và với $\begin{pmatrix}0\\1\\4\end{pmatrix}$ là $0-4+4=0$.
+
+Vậy $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+
+**Đáp số.** $\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
 :::
 
 :::exercise Mặt phẳng từ một điểm và véc-tơ pháp tuyến
@@ -132,7 +176,17 @@ Viết phương trình toạ độ của mặt phẳng qua $(1,2,3)$ có véc-t�
 **Cần nhớ:** $2x-y+z=d$, rồi thay toạ độ điểm vào.
 
 ::solution
-$d=2-2+3=3$, nên $2x-y+z=3$.
+Mặt phẳng có véc-tơ pháp tuyến $\begin{pmatrix}2\\-1\\1\end{pmatrix}$ nên có phương trình dạng
+$$2x-y+z=d.$$
+
+Mặt phẳng đi qua điểm $(1; 2; 3)$ nên thay $x=1$, $y=2$, $z=3$ vào phương trình:
+$$d=2\cdot1-2+3=3.$$
+
+Do đó phương trình của mặt phẳng là $2x-y+z=3$.
+
+Vậy phương trình toạ độ của mặt phẳng là $2x-y+z=3$.
+
+**Đáp số.** $2x-y+z=3$.
 :::
 
 ## Bài tập vận dụng
@@ -146,9 +200,22 @@ Một chiếc drone chuyển động sao cho vị trí của nó, tính bằng k
 **Cần nhớ:** tốc độ là độ dài véc-tơ chỉ phương trong mỗi giờ.
 
 ::solution
-(a) $\sqrt{9+16+144}=13$ km mỗi giờ.
+a) Vận tốc của drone là đạo hàm của vị trí theo $t$:
+$$\boldsymbol v=\frac{d\boldsymbol r}{dt}=\begin{pmatrix}3\\4\\12\end{pmatrix}\ \text{(km/h)}.$$
 
-(b) $12t=6$, nên $t=0{,}5$ và vị trí là $(3{,}5;3;6)$.
+Tốc độ là độ dài của véc-tơ vận tốc:
+$$|\boldsymbol v|=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+Vậy tốc độ của drone là $13$ km mỗi giờ.
+
+b) Độ cao là thành phần thứ ba của $\boldsymbol r$, bằng $0+12t=12t$ (km). Drone đạt độ cao $6$ km khi $12t=6$, suy ra $t=0{,}5$ (giờ).
+
+Thay $t=0{,}5$ vào $\boldsymbol r$:
+$$\boldsymbol r=\begin{pmatrix}2+0{,}5\cdot3\\1+0{,}5\cdot4\\0+0{,}5\cdot12\end{pmatrix}=\begin{pmatrix}3{,}5\\3\\6\end{pmatrix}.$$
+
+Vậy khi đạt độ cao $6$ km, drone ở vị trí $(3{,}5; 3; 6)$.
+
+**Đáp số.** a) $13$ km/h; b) $(3{,}5; 3; 6)$.
 :::
 
 :::exercise Khoảng cách từ điểm đến mặt phẳng
@@ -158,7 +225,17 @@ Tính khoảng cách từ $P(3,1,2)$ đến mặt phẳng $2x-y+2z=1$. [4 marks]
 **Cần nhớ:** khoảng cách bằng $\dfrac{|2x_0-y_0+2z_0-1|}{|\boldsymbol n|}$, hoặc tìm giao điểm của đường thẳng qua $P$ vuông góc với mặt phẳng.
 
 ::solution
-$\dfrac{|6-1+4-1|}{\sqrt{4+1+4}}=\dfrac83$.
+Khoảng cách từ điểm $P\left(x_0; y_0; z_0\right)$ đến mặt phẳng $ax+by+cz=d$ là
+$$\frac{\left|ax_0+by_0+cz_0-d\right|}{\sqrt{a^2+b^2+c^2}}.$$
+
+Ở đây mặt phẳng là $2x-y+2z=1$, nên $a=2$, $b=-1$, $c=2$, $d=1$; điểm là $P(3; 1; 2)$.
+
+Thay số vào:
+$$\text{Khoảng cách}=\frac{|2\cdot3-1\cdot1+2\cdot2-1|}{\sqrt{4+1+4}}=\frac{|6-1+4-1|}{\sqrt9}=\frac{8}{3}.$$
+
+Vậy khoảng cách từ $P$ đến mặt phẳng là $\dfrac83$.
+
+**Đáp số.** $\dfrac83$.
 :::
 
 :::exercise Góc giữa hai mặt phẳng
@@ -168,7 +245,18 @@ Tìm góc giữa hai mặt phẳng $x+y+z=1$ và $x-y=0$. [3 marks]
 **Cần nhớ:** góc giữa hai mặt phẳng bằng góc giữa hai véc-tơ pháp tuyến.
 
 ::solution
-$\begin{pmatrix}1\\1\\1\end{pmatrix}\cdot\begin{pmatrix}1\\-1\\0\end{pmatrix}=0$, nên hai mặt phẳng vuông góc: $90^\circ$.
+Góc giữa hai mặt phẳng bằng góc giữa hai véc-tơ pháp tuyến của chúng. Mặt phẳng $x+y+z=1$ có véc-tơ pháp tuyến $\boldsymbol n_1=\begin{pmatrix}1\\1\\1\end{pmatrix}$; mặt phẳng $x-y=0$ có véc-tơ pháp tuyến $\boldsymbol n_2=\begin{pmatrix}1\\-1\\0\end{pmatrix}$.
+
+Ta có
+$$\boldsymbol n_1\cdot\boldsymbol n_2=1\cdot1+1\cdot(-1)+1\cdot0=0.$$
+
+Gọi $\theta$ là góc giữa hai mặt phẳng, thì
+$$\cos\theta=\frac{\left|\boldsymbol n_1\cdot\boldsymbol n_2\right|}{|\boldsymbol n_1|\,|\boldsymbol n_2|}=\frac{0}{\sqrt3\cdot\sqrt2}=0,$$
+suy ra $\theta=90^\circ$.
+
+Vậy hai mặt phẳng vuông góc với nhau, góc giữa chúng là $90^\circ$.
+
+**Đáp số.** $90^\circ$.
 :::
 
 :::exercise Thử thách: chân đường vuông góc
@@ -178,7 +266,20 @@ Tìm điểm trên đường thẳng $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{
 **Cần nhớ:** véc-tơ từ điểm $(t,t,t)$ đến $P$ vuông góc với véc-tơ chỉ phương.
 
 ::solution
-$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=6-3t=0$, nên $t=2$ và điểm gần nhất là $(2,2,2)$. Khoảng cách là $\sqrt{1+0+1}=\sqrt2$.
+Gọi $Q$ là điểm trên đường thẳng, với toạ độ $Q(t; t; t)$. Khi đó
+$$\overrightarrow{QP}=\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}.$$
+
+Điểm $Q$ gần $P$ nhất khi $\overrightarrow{QP}$ vuông góc với véc-tơ chỉ phương $\begin{pmatrix}1\\1\\1\end{pmatrix}$ của đường thẳng, tức là tích vô hướng bằng $0$:
+$$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=(1-t)+(2-t)+(3-t)=6-3t=0.$$
+
+Suy ra $t=2$, và điểm gần nhất là $Q(2; 2; 2)$.
+
+Khi đó $\overrightarrow{QP}=\begin{pmatrix}-1\\0\\1\end{pmatrix}$, nên khoảng cách ngắn nhất từ $P$ đến đường thẳng là
+$$PQ=\sqrt{(-1)^2+0^2+1^2}=\sqrt{1+0+1}=\sqrt2.$$
+
+Vậy điểm trên đường thẳng gần $P$ nhất là $(2; 2; 2)$ và khoảng cách ngắn nhất từ $P$ đến đường thẳng là $\sqrt2$.
+
+**Đáp số.** Điểm gần nhất là $(2; 2; 2)$; khoảng cách ngắn nhất là $\sqrt2$.
 :::
 
 :::quiz

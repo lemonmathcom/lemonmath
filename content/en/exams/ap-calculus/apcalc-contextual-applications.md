@@ -133,7 +133,15 @@ D. $0<t<2$
 2. Make a sign chart.
 
 ::solution
-$v(t)<0$ between the roots, so the particle moves left for $1<t<3$: answer **B**.
+The particle moves left when its velocity $v(t)<0$.
+
+Factorise the velocity: $v(t)=t^2-4t+3=(t-1)(t-3)$, which has roots $t=1$ and $t=3$.
+
+Since the coefficient of $t^2$ is positive, $v(t)<0$ when $t$ lies between the roots, that is $1<t<3$; and $v(t)>0$ when $0\le t<1$ or $t>3$.
+
+So the particle moves left on the interval $1<t<3$. So the answer is **B**.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -147,7 +155,17 @@ The radius of a circular oil spill grows at $2$ centimeters per second. How fast
 2. Substitute $r=10$ and $\dfrac{dr}{dt}=2$.
 
 ::solution
-$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125.7$ square centimeters per second.
+Let $r$ (centimeters) be the radius and $A$ (square centimeters) the area of the spill at time $t$ (seconds). Then $A=\pi r^2$ and $\dfrac{dr}{dt}=2$ centimeters per second.
+
+Differentiating both sides with respect to $t$ (chain rule):
+$$\frac{dA}{dt}=2\pi r\,\frac{dr}{dt}.$$
+
+Substituting $r=10$ and $\dfrac{dr}{dt}=2$, we get
+$$\frac{dA}{dt}=2\pi(10)(2)=40\pi\approx125.7.$$
+
+So when the radius is $10$ centimeters, the area is growing at a rate of $40\pi\approx125.7$ square centimeters per second.
+
+**Answer.** $40\pi\approx125.7$ square centimeters per second.
 :::
 
 :::exercise Multiple choice
@@ -165,7 +183,17 @@ D. $\dfrac12$
 2. Apply again.
 
 ::solution
-The second application gives $\dfrac{e^x}{2}\to\dfrac12$: answer **D**.
+As $x\to0$, the numerator $e^x-1-x\to e^0-1-0=0$ and the denominator $x^2\to0$, so the limit has the form $\dfrac00$. We apply L'Hôpital's rule.
+
+First application:
+$$\lim_{x\to0}\frac{e^x-1-x}{x^2}=\lim_{x\to0}\frac{e^x-1}{2x}.$$
+
+The new limit is still of the form $\dfrac00$ (numerator $\to e^0-1=0$, denominator $\to0$), so we apply L'Hôpital's rule a second time:
+$$\lim_{x\to0}\frac{e^x-1}{2x}=\lim_{x\to0}\frac{e^x}{2}=\frac{e^0}{2}=\frac12.$$
+
+So the limit equals $\dfrac12$, and the answer is **D**.
+
+**Answer.** D.
 :::
 
 :::exercise Free response
@@ -178,7 +206,15 @@ A differentiable function has $f(3)=2$ and $f'(3)=4$. Use the tangent line at $x
 1. $x-3=-0.1$.
 
 ::solution
-$f(2.9)\approx2+4(-0.1)=1.6$.
+The tangent line to the graph of $f$ at $x=3$ is
+$$L(x)=f(3)+f'(3)(x-3)=2+4(x-3).$$
+
+Since $2.9$ is close to $3$, we use $f(2.9)\approx L(2.9)$, where $2.9-3=-0.1$:
+$$f(2.9)\approx2+4(-0.1)=2-0.4=1.6.$$
+
+So $f(2.9)\approx1.6$.
+
+**Answer.** $1.6$.
 :::
 
 :::exercise Free response
@@ -188,7 +224,13 @@ A bacteria colony has $P(t)$ thousand bacteria $t$ hours after an experiment sta
 **What you need:** the template: moment, quantity, direction, rate with units.
 
 ::solution
-At $t=4$ hours, the number of bacteria is increasing at a rate of $1.5$ thousand bacteria per hour.
+The function $P(t)$ gives the number of bacteria (in thousands) after $t$ hours, so the derivative $P'(t)$ gives the instantaneous rate of change of the number of bacteria with respect to time, in thousand bacteria per hour.
+
+Since $P'(4)=1.5>0$, the number of bacteria is increasing at time $t=4$ hours.
+
+So at $t=4$ hours, the number of bacteria is increasing at a rate of $1.5$ thousand bacteria per hour.
+
+**Answer.** At $t=4$ hours, the number of bacteria is increasing at a rate of $1.5$ thousand bacteria per hour.
 :::
 
 ## Application exercises
@@ -204,7 +246,23 @@ Water is poured at $2$ cubic meters per minute into a tank shaped like an invert
 2. $\dfrac{dV}{dt}=\dfrac{\pi h^2}{4}\dfrac{dh}{dt}$; substitute $h=4$.
 
 ::solution
-$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, so $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0.159$ meters per minute.
+Let $h$ (meters) be the depth of the water, $r$ (meters) the radius of the water surface and $V$ (cubic meters) the volume of water in the tank at time $t$ (minutes). Then $\dfrac{dV}{dt}=2$ cubic meters per minute.
+
+The water forms a cone similar to the tank (vertex at the bottom), so
+$$\frac{r}{h}=\frac{3}{6}\ \Rightarrow\ r=\frac h2.$$
+
+The volume of the water is
+$$V=\frac13\pi r^2h=\frac13\pi\left(\frac h2\right)^2h=\frac{\pi h^3}{12}.$$
+
+Differentiating both sides with respect to $t$ (chain rule):
+$$\frac{dV}{dt}=\frac{\pi h^2}{4}\,\frac{dh}{dt}.$$
+
+Substituting $\dfrac{dV}{dt}=2$ and $h=4$, we get
+$$2=\frac{\pi(16)}{4}\,\frac{dh}{dt}=4\pi\,\frac{dh}{dt}\ \Rightarrow\ \frac{dh}{dt}=\frac{1}{2\pi}\approx0.159.$$
+
+So when the water is $4$ meters deep, the water level is rising at $\dfrac{1}{2\pi}\approx0.159$ meters per minute.
+
+**Answer.** $\dfrac{1}{2\pi}\approx0.159$ meters per minute.
 :::
 
 :::exercise A full motion question
@@ -222,11 +280,22 @@ c) Find the total distance traveled on $0\le t\le3$.
 3. Positions at $t=0, 1, 2, 3$.
 
 ::solution
-a) $v<0$ for $1<t<2$.
+The velocity of the particle is $v(t)=x'(t)=6t^2-18t+12=6(t-1)(t-2)$, and the acceleration is $a(t)=v'(t)=12t-18$.
 
-b) $v(1.2)=6(0.2)(-0.8)=-0.96$ and $a(1.2)=-3.6$: same sign, so it is speeding up.
+a) The particle moves left when $v(t)<0$. Since $v(t)=6(t-1)(t-2)$ has a positive coefficient of $t^2$, $v(t)<0$ when $t$ lies between the roots $1$ and $2$. So the particle moves left for $1<t<2$.
 
-c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Distance $=5+1+5=11$.
+b) At $t=1.2$:
+$$v(1.2)=6(0.2)(-0.8)=-0.96,\qquad a(1.2)=12(1.2)-18=-3.6.$$
+Since $v(1.2)$ and $a(1.2)$ have the same sign (both negative), the speed $|v|$ is increasing. So at $t=1.2$ the particle is speeding up.
+
+c) The particle changes direction at $t=1$ and $t=2$ (where $v$ changes sign), so we compute the position at $t=0,1,2,3$:
+$$x(0)=0,\quad x(1)=2-9+12=5,\quad x(2)=16-36+24=4,\quad x(3)=54-81+36=9.$$
+The total distance is the sum of the displacements on each interval where the particle moves in one direction:
+$$|x(1)-x(0)|+|x(2)-x(1)|+|x(3)-x(2)|=5+1+5=11.$$
+
+So the particle moves left for $1<t<2$; at $t=1.2$ it is speeding up; the total distance traveled on $0\le t\le3$ is $11$.
+
+**Answer.** a) $1<t<2$; b) speeding up; c) $11$.
 :::
 
 :::exercise Two cars
@@ -240,7 +309,24 @@ Car A drives north from an intersection at $60$ kilometers per hour and car B dr
 2. $z\dfrac{dz}{dt}=x\dfrac{dx}{dt}+y\dfrac{dy}{dt}$.
 
 ::solution
-$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, so $\dfrac{dz}{dt}=100$ kilometers per hour.
+Let $y$ (kilometers) be the distance car A has driven north, $x$ (kilometers) the distance car B has driven east, and $z$ (kilometers) the distance between the cars at time $t$ (hours). Then $\dfrac{dy}{dt}=60$ and $\dfrac{dx}{dt}=80$.
+
+The cars travel in perpendicular directions, so by the Pythagorean theorem,
+$$z^2=x^2+y^2.$$
+
+Differentiating both sides with respect to $t$:
+$$2z\,\frac{dz}{dt}=2x\,\frac{dx}{dt}+2y\,\frac{dy}{dt}\ \Rightarrow\ z\,\frac{dz}{dt}=x\,\frac{dx}{dt}+y\,\frac{dy}{dt}.$$
+
+After half an hour ($t=0.5$): $x=80\cdot0.5=40$, $y=60\cdot0.5=30$ and $z=\sqrt{40^2+30^2}=50$.
+
+Substituting, we get
+$$50\,\frac{dz}{dt}=40(80)+30(60)=5000\ \Rightarrow\ \frac{dz}{dt}=100.$$
+
+Check: $z=\sqrt{(80t)^2+(60t)^2}=100t$, so $\dfrac{dz}{dt}=100$.
+
+So after half an hour, the distance between the cars is increasing at $100$ kilometers per hour.
+
+**Answer.** $100$ kilometers per hour.
 :::
 
 :::exercise Challenge
@@ -254,7 +340,17 @@ A twice-differentiable function has $f(1)=3$, $f'(1)=2$ and $f''(x)>0$ for all $
 2. Concave up: where is the tangent relative to the graph?
 
 ::solution
-$f(1.2)\approx3.4$. Because $f''>0$, the graph is concave up and lies above its tangent line, so $3.4$ is an underestimate.
+The tangent line to the graph of $f$ at $x=1$ is
+$$L(x)=f(1)+f'(1)(x-1)=3+2(x-1).$$
+
+Estimating with the tangent line, where $1.2-1=0.2$:
+$$f(1.2)\approx L(1.2)=3+2(0.2)=3.4.$$
+
+Since $f''(x)>0$ for all $x$, the graph of $f$ is concave up everywhere, and therefore lies above each of its tangent lines. In particular, at $x=1.2$ we have $f(1.2)>L(1.2)=3.4$.
+
+So the estimate $3.4$ is smaller than the true value of $f(1.2)$.
+
+**Answer.** $f(1.2)\approx3.4$; the estimate is an underestimate.
 :::
 
 :::quiz

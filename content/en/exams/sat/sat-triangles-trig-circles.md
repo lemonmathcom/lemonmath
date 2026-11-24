@@ -145,7 +145,18 @@ D. $7\sqrt2$
 1. Multiply the leg by $\sqrt2$.
 
 ::solution
-The hypotenuse is $7\sqrt2$: answer **D**. Check with Pythagoras: $49+49=98=(7\sqrt2)^2$.
+Let $c$ be the length of the hypotenuse ($c>0$). An isosceles right triangle has two equal legs, each of length $7$.
+
+By the Pythagorean theorem, we have
+$$c^2=7^2+7^2=49+49=98.$$
+
+It follows that $c=\sqrt{98}=\sqrt{49\cdot2}=7\sqrt2$ (taking $c>0$).
+
+Check: $\left(7\sqrt2\right)^2=49\cdot2=98=49+49$ (correct).
+
+So the hypotenuse has length $7\sqrt2$, and the answer is **D**.
+
+**Answer.** D.
 :::
 
 :::exercise Student-produced response
@@ -158,7 +169,17 @@ A pole 2 meters tall casts a shadow 3 meters long. At the same time, a tree cast
 1. $\dfrac{h}{18}=\dfrac{2}{3}$.
 
 ::solution
-$h=18\cdot\dfrac23=12$ meters.
+Let $h$ (meters) be the height of the tree ($h>0$).
+
+At the same time of day the sun's rays make the same angle with the ground, so the pole with its shadow and the tree with its shadow form two similar right triangles. Hence the ratio of height to shadow length is the same:
+$$\frac{h}{18}=\frac{2}{3}.$$
+
+It follows that
+$$h=18\cdot\frac23=12.$$
+
+So the tree is $12$ meters tall.
+
+**Answer.** $12$ meters.
 :::
 
 :::exercise Student-produced response
@@ -171,7 +192,16 @@ For an angle with $0<x<90$, $\cos x^\circ=\sin20^\circ$. What is the value of $x
 1. Set $90-x=20$.
 
 ::solution
-$x=70$.
+For two complementary angles $\alpha$ and $90^\circ-\alpha$, we have $\sin\alpha=\cos\left(90^\circ-\alpha\right)$.
+
+Applying this with $\alpha=20^\circ$:
+$$\sin20^\circ=\cos\left(90^\circ-20^\circ\right)=\cos70^\circ.$$
+
+Hence $\cos x^\circ=\cos70^\circ$. Since $0<x<90$ and cosine is decreasing on the interval $\left(0^\circ, 90^\circ\right)$, we get $x=70$ (this satisfies the condition $0<x<90$).
+
+So $x=70$.
+
+**Answer.** $70$.
 :::
 
 :::exercise Multiple choice
@@ -188,7 +218,16 @@ D. $\dfrac43$
 1. The side opposite $A$ is the side adjacent to $B$.
 
 ::solution
-$\cos B=\sin A=\dfrac35$: answer **C**. Option A is $\cos A$ (and $\sin B$).
+Triangle $ABC$ has a right angle at $C$, so the acute angles $A$ and $B$ are complementary: $A+B=90^\circ$.
+
+For two complementary angles, the sine of one equals the cosine of the other. Therefore
+$$\cos B=\cos\left(90^\circ-A\right)=\sin A=\frac35.$$
+
+So $\cos B=\dfrac35$, and the answer is **C**.
+
+*Remark.* Option A is $\cos A=\sqrt{1-\sin^2A}=\dfrac45$ (which also equals $\sin B$); option B is $\tan A=\dfrac34$; option D is $\tan B=\dfrac43$.
+
+**Answer.** C.
 :::
 
 :::exercise Multiple choice
@@ -205,7 +244,17 @@ D. $(-8, 2)$
 1. $x^2+8x=(x+4)^2-16$, $y^2-2y=(y-1)^2-1$.
 
 ::solution
-$(x+4)^2+(y-1)^2=16+1-8=9$. The center is $(-4, 1)$ and the radius is $3$: answer **B**.
+Rewrite the equation in standard form by grouping the terms in $x$ and the terms in $y$:
+$$\left(x^2+8x\right)+\left(y^2-2y\right)+8=0.$$
+
+Complete the square: $x^2+8x=(x+4)^2-16$ and $y^2-2y=(y-1)^2-1$. Substituting, we get
+$$(x+4)^2-16+(y-1)^2-1+8=0\iff(x+4)^2+(y-1)^2=16+1-8=9.$$
+
+This is the equation of a circle $(x-a)^2+(y-b)^2=R^2$ with $a=-4$, $b=1$ and $R^2=9$, that is, $R=3$.
+
+So the circle has center $(-4, 1)$ and radius $3$, and the answer is **B**.
+
+**Answer.** B.
 :::
 
 ## Application exercises
@@ -220,7 +269,18 @@ A 13-foot ladder leans against a vertical wall. Its foot is 5 feet from the wall
 1. $h^2=13^2-5^2$.
 
 ::solution
-$h^2=169-25=144$, so $h=12$ feet.
+The ladder, the vertical wall and the ground form a right triangle: the ladder is the hypotenuse of length $13$ feet, and the foot of the ladder, $5$ feet from the wall, gives one leg.
+
+Let $h$ (feet) be the height at which the ladder touches the wall ($h>0$). By the Pythagorean theorem, we have
+$$h^2+5^2=13^2\iff h^2=169-25=144.$$
+
+It follows that $h=\sqrt{144}=12$ (taking $h>0$).
+
+Check: $5^2+12^2=25+144=169=13^2$ (correct).
+
+So the ladder reaches $12$ feet up the wall.
+
+**Answer.** $12$ feet.
 :::
 
 :::exercise A ramp
@@ -233,7 +293,14 @@ A ramp 10 meters long rises at an angle of $6^\circ$ to the horizontal. How much
 1. Rise $=10\sin6^\circ$ (calculator in degree mode).
 
 ::solution
-$10\sin6^\circ\approx10\cdot0.1045=1.05$ meters.
+The ramp, the horizontal and the vertical line down from the top of the ramp form a right triangle. The ramp is the hypotenuse of length $10$ meters, and the angle of $6^\circ$ lies opposite the height we want.
+
+Let $h$ (meters) be the height the ramp rises ($h>0$). By the definition of sine in a right triangle, $\sin6^\circ=\dfrac{h}{10}$, so
+$$h=10\sin6^\circ\approx10\cdot0.1045=1.045\approx1.05\ \text{(meters)}.$$
+
+So the ramp rises about $1.05$ meters (to the nearest hundredth).
+
+**Answer.** $1.05$ meters.
 :::
 
 :::exercise A slice of pizza
@@ -247,7 +314,17 @@ A pizza has radius 20 centimeters and is cut into 8 equal slices. What is the ar
 2. Arc $=\dfrac{45}{360}\cdot2\pi\cdot20$.
 
 ::solution
-Area $=\dfrac18\cdot400\pi=50\pi\approx157.1$ square centimeters. Arc $=\dfrac18\cdot40\pi=5\pi\approx15.7$ centimeters.
+The whole pizza is a circle of radius $R=20$ centimeters, cut into $8$ equal slices, so each slice is a circular sector that makes up $\dfrac18$ of the circle.
+
+The area of the whole circle is $\pi R^2=\pi\cdot20^2=400\pi$. The area of one slice is
+$$S=\frac18\cdot400\pi=50\pi\approx157.1\ \text{(square centimeters)}.$$
+
+The circumference of the circle is $2\pi R=2\pi\cdot20=40\pi$. The length of the curved edge (arc) of one slice is
+$$\ell=\frac18\cdot40\pi=5\pi\approx15.7\ \text{(centimeters)}.$$
+
+So the area of one slice is $50\pi$ square centimeters, approximately $157.1$ square centimeters; the length of the curved edge is $5\pi$ centimeters, approximately $15.7$ centimeters.
+
+**Answer.** Area $50\pi\approx157.1$ square centimeters; curved edge $5\pi\approx15.7$ centimeters.
 :::
 
 :::exercise Challenge
@@ -261,7 +338,20 @@ The point $(5, k)$, with $k>0$, lies on the circle $(x-2)^2+(y-1)^2=25$. What is
 2. Keep the positive value.
 
 ::solution
-$(k-1)^2=16$, so $k-1=4$ or $k-1=-4$, giving $k=5$ or $k=-3$. Since $k>0$, $k=5$. The two points $(5, 5)$ and $(5, -3)$ are symmetric about the horizontal line through the center.
+The point $(5, k)$ lies on the circle $(x-2)^2+(y-1)^2=25$, so its coordinates satisfy the equation of the circle. Substituting $x=5$, $y=k$, we get
+$$(5-2)^2+(k-1)^2=25\iff9+(k-1)^2=25\iff(k-1)^2=16.$$
+
+It follows that $k-1=4$ or $k-1=-4$, that is, $k=5$ or $k=-3$.
+
+Since $k>0$, we reject $k=-3$ and accept $k=5$.
+
+Check: $(5-2)^2+(5-1)^2=9+16=25$ (correct).
+
+So $k=5$.
+
+*Remark.* The two points $(5, 5)$ and $(5, -3)$ are symmetric about the horizontal line through the center $(2, 1)$ of the circle, that is, the line $y=1$.
+
+**Answer.** $5$.
 :::
 
 :::quiz

@@ -191,7 +191,11 @@ Cho $\triangle DEF\sim\triangle ABC$ theo tỉ số $k=3$ với $AB=2$, $BC=4$, 
 2. Nhân từng cạnh với $k$.
 
 ::solution
-Vì $D$, $E$, $F$ ứng với $A$, $B$, $C$ nên $DE=3\cdot2=6$, $EF=3\cdot4=12$, $FD=3\cdot5=15$.
+Vì $\triangle DEF\sim\triangle ABC$ theo tỉ số $k=3$ với các đỉnh $D$, $E$, $F$ ứng với $A$, $B$, $C$ nên các cạnh tương ứng tỉ lệ:
+$$\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}=k=3.$$
+
+Thay số, ta được
+$$DE=3\cdot AB=3\cdot2=6,\qquad EF=3\cdot BC=3\cdot4=12,\qquad FD=3\cdot CA=3\cdot5=15.$$
 
 Vậy $DE=6$, $EF=12$, $FD=15$.
 
@@ -209,7 +213,15 @@ Cho $\triangle ABC\sim\triangle A'B'C'$ với $AB=5$, $BC=8$, $CA=10$ và $A'B'=
 2. Nhân $BC$ và $CA$ với $k$.
 
 ::solution
-Ta có $k=\dfrac{15}{5}=3$. Do đó $B'C'=3\cdot8=24$ và $C'A'=3\cdot10=30$. Tỉ số chu vi bằng $k=3$: chu vi $\triangle ABC$ là $23$, chu vi $\triangle A'B'C'$ là $15+24+30=69=3\cdot23$.
+Vì $\triangle ABC\sim\triangle A'B'C'$ nên các cạnh tương ứng tỉ lệ. Tỉ số đồng dạng của $\triangle A'B'C'$ so với $\triangle ABC$ là
+$$k=\frac{A'B'}{AB}=\frac{15}{5}=3.$$
+
+Các cạnh còn lại của $\triangle A'B'C'$ là
+$$B'C'=k\cdot BC=3\cdot8=24,\qquad C'A'=k\cdot CA=3\cdot10=30.$$
+
+Tỉ số chu vi bằng tỉ số đồng dạng nên bằng $k=3$. Kiểm tra: chu vi $\triangle ABC$ là $5+8+10=23$, chu vi $\triangle A'B'C'$ là $15+24+30=69=3\cdot23$.
+
+Vậy tỉ số đồng dạng là $3$, các cạnh còn lại là $B'C'=24$ và $C'A'=30$, tỉ số chu vi là $3$.
 
 **Đáp số.** $k=3$; $24$; $30$; tỉ số chu vi $3$.
 :::
@@ -225,7 +237,16 @@ Cho $\triangle ABC$ có $AB=4$, $BC=6$, $CA=8$ và $\triangle A'B'C'$ có $A'B'=
 2. Tính hai chu vi.
 
 ::solution
-Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac{12}{8}=\dfrac32$ và các góc tương ứng bằng nhau, nên $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Chu vi $\triangle ABC$ là $18$, chu vi $\triangle A'B'C'$ là $27=\dfrac32\cdot18$.
+Xét các tỉ số giữa các cạnh tương ứng của hai tam giác:
+$$\frac{A'B'}{AB}=\frac64=\frac32,\qquad \frac{B'C'}{BC}=\frac96=\frac32,\qquad \frac{C'A'}{CA}=\frac{12}{8}=\frac32.$$
+
+Ba tỉ số bằng nhau và các góc tương ứng bằng nhau (theo đề bài) nên $\triangle A'B'C'\sim\triangle ABC$ theo tỉ số $\dfrac32$.
+
+So sánh chu vi. Chu vi $\triangle ABC$ là $4+6+8=18$, chu vi $\triangle A'B'C'$ là $6+9+12=27$. Ta có
+$$\frac{27}{18}=\frac32,$$
+tức là tỉ số chu vi bằng tỉ số đồng dạng ($27=\dfrac32\cdot18$).
+
+Vậy hai tam giác đồng dạng với tỉ số $\dfrac32$; chu vi của chúng là $18$ và $27$.
 
 **Đáp số.** Đồng dạng, tỉ số $\dfrac32$; chu vi $18$ và $27$.
 :::
@@ -241,9 +262,23 @@ Cho $\triangle ABC$, điểm $M\in AB$, $N\in AC$ sao cho $MN\parallel BC$. Bi�
 2. Dùng $k$ để tìm $AC$, rồi $NC$ và $MN$.
 
 ::solution
-Ta có $AB=6+4=10$ nên $k=\dfrac{6}{10}=\dfrac35$. Vì $\dfrac{AN}{AC}=\dfrac35$ nên $AC=\dfrac{9}{3/5}=15$, suy ra $NC=15-9=6$. Ta có $MN=\dfrac35\cdot20=12$.
+Vì $M\in AB$ và $N\in AC$ (với $M$, $N$ nằm giữa các đầu mút) nên $AB=AM+MB=6+4=10$.
 
-Kiểm tra: $\dfrac{AM}{AB}=\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+Vì $MN\parallel BC$ nên $\triangle AMN\sim\triangle ABC$ với tỉ số
+$$k=\frac{AM}{AB}=\frac{6}{10}=\frac35.$$
+
+Do đó $\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+
+Tính $AC$ và $NC$. Từ $\dfrac{AN}{AC}=\dfrac35$ và $AN=9$ ta có
+$$AC=\frac{9}{3/5}=15.$$
+Suy ra $NC=AC-AN=15-9=6$.
+
+Tính $MN$. Từ $\dfrac{MN}{BC}=\dfrac35$ và $BC=20$ ta có
+$$MN=\frac35\cdot20=12.$$
+
+Kiểm tra: $\dfrac{AM}{AB}=\dfrac{6}{10}$, $\dfrac{AN}{AC}=\dfrac{9}{15}$, $\dfrac{MN}{BC}=\dfrac{12}{20}$ đều bằng $\dfrac35$.
+
+Vậy $NC=6$, $AC=15$ và $MN=12$.
 
 **Đáp số.** $NC=6$; $AC=15$; $MN=12$.
 :::
@@ -259,7 +294,14 @@ Một cột cờ có bóng dài $12$ m trên mặt đất. Cùng lúc đó, mộ
 2. Giải để tìm chiều cao.
 
 ::solution
-Gọi $h$ là chiều cao cột cờ (m). Ta có $\dfrac{h}{1}=\dfrac{12}{0{,}8}$, suy ra $h=15$.
+Gọi $h$ (m) là chiều cao của cột cờ, $h>0$.
+
+Cùng một lúc, các tia nắng song song nên tạo với mặt đất cùng một góc nhọn; cột cờ và thước đều vuông góc với mặt đất. Do đó tam giác tạo bởi cột cờ, bóng của nó và tia nắng đồng dạng với tam giác tạo bởi cây thước, bóng của nó và tia nắng (hai tam giác vuông có một góc nhọn bằng nhau).
+
+Các cạnh tương ứng tỉ lệ nên
+$$\frac{h}{1}=\frac{12}{0{,}8}.$$
+
+Suy ra $h=\dfrac{12}{0{,}8}=15$.
 
 Kiểm tra: $\dfrac{15}{12}=\dfrac{1}{0{,}8}=1{,}25$.
 
@@ -295,7 +337,18 @@ Cho $\triangle ABC$ vuông tại $A$ có $AB=6$, $AC=8$. Điểm $M\in AB$ với
 2. Tìm $k=\dfrac{AM}{AB}$ rồi suy ra $AN$ và $MN$.
 
 ::solution
-Theo định lí Pythagore, $BC=\sqrt{6^2+8^2}=10$. Vì $MN\parallel BC$ nên $\triangle AMN\sim\triangle ABC$ với $k=\dfrac{3}{6}=\dfrac12$. Do đó $AN=\dfrac12\cdot8=4$ và $MN=\dfrac12\cdot10=5$.
+Tính $BC$. Theo định lí Pythagore trong tam giác $ABC$ vuông tại $A$,
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10.$$
+
+Vì $M\in AB$, $N\in AC$ và $MN\parallel BC$ nên $\triangle AMN\sim\triangle ABC$ với tỉ số
+$$k=\frac{AM}{AB}=\frac36=\frac12.$$
+
+Do đó $\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac12$, suy ra
+$$AN=\frac12\cdot AC=\frac12\cdot8=4,\qquad MN=\frac12\cdot BC=\frac12\cdot10=5.$$
+
+Kiểm tra: tam giác $AMN$ vuông tại $A$ nên $MN=\sqrt{3^2+4^2}=5$.
+
+Vậy $AN=4$ và $MN=5$.
 
 **Đáp số.** $AN=4$; $MN=5$.
 :::
@@ -311,9 +364,18 @@ $\triangle A'B'C'\sim\triangle ABC$ theo tỉ số $2$ và $\triangle A''B''C''\
 2. Dùng tỉ số để tìm $A''B''$.
 
 ::solution
-Tỉ số đồng dạng của $\triangle A''B''C''$ so với $\triangle ABC$ là $2\cdot3=6$. Khi $AB=5$ thì $A''B''=6\cdot5=30$.
+Từ $\triangle A'B'C'\sim\triangle ABC$ theo tỉ số $2$ ta có $\dfrac{A'B'}{AB}=\dfrac{B'C'}{BC}=\dfrac{C'A'}{CA}=2$. Từ $\triangle A''B''C''\sim\triangle A'B'C'$ theo tỉ số $3$ ta có $\dfrac{A''B''}{A'B'}=\dfrac{B''C''}{B'C'}=\dfrac{C''A''}{C'A'}=3$.
+
+Nhân hai đẳng thức theo từng cạnh tương ứng:
+$$\frac{A''B''}{AB}=\frac{A''B''}{A'B'}\cdot\frac{A'B'}{AB}=3\cdot2=6,$$
+và tương tự $\dfrac{B''C''}{BC}=\dfrac{C''A''}{CA}=6$. Các góc tương ứng của $\triangle A''B''C''$ bằng các góc của $\triangle A'B'C'$, mà các góc này bằng các góc của $\triangle ABC$. Do đó $\triangle A''B''C''\sim\triangle ABC$ theo tỉ số $2\cdot3=6$.
+
+Khi $AB=5$ thì
+$$A''B''=6\cdot AB=6\cdot5=30.$$
 
 Kiểm tra từng bước: $A'B'=2\cdot5=10$ và $A''B''=3\cdot10=30$.
+
+Vậy tỉ số đồng dạng của $\triangle A''B''C''$ so với $\triangle ABC$ là $6$, và $A''B''=30$ khi $AB=5$.
 
 **Đáp số.** $6$; $A''B''=30$.
 :::
@@ -329,7 +391,16 @@ Một bức ảnh tam giác có các cạnh $6$ cm, $8$ cm, $10$ cm được ph�
 2. Nhân các cạnh còn lại.
 
 ::solution
-Tỉ số phóng to là $k=\dfrac{15}{6}=2{,}5$. Các cạnh áp phích là $15$ cm, $2{,}5\cdot8=20$ cm, $2{,}5\cdot10=25$ cm. Chu vi bức ảnh là $24$ cm, chu vi áp phích là $60$ cm và $60:24=2{,}5$.
+Bức ảnh và áp phích là hai tam giác đồng dạng. Cạnh ngắn nhất của bức ảnh là $6$ cm ứng với cạnh ngắn nhất của áp phích là $15$ cm, nên tỉ số phóng to là
+$$k=\frac{15}{6}=2{,}5.$$
+
+Các cạnh của áp phích là
+$$15\ \text{cm},\qquad 2{,}5\cdot8=20\ \text{cm},\qquad 2{,}5\cdot10=25\ \text{cm}.$$
+
+Chu vi bức ảnh là $6+8+10=24$ cm; chu vi áp phích là $15+20+25=60$ cm. Tỉ số chu vi là
+$$\frac{60}{24}=2{,}5=k.$$
+
+Vậy các cạnh của áp phích là $15$ cm, $20$ cm, $25$ cm và tỉ số chu vi là $2{,}5$.
 
 **Đáp số.** $15$ cm, $20$ cm, $25$ cm; tỉ số chu vi $2{,}5$.
 :::

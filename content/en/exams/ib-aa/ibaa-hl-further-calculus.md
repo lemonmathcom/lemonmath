@@ -105,7 +105,18 @@ Find the Maclaurin series of $\cos2x$ up to the term in $x^4$. [3 marks]
 **What you need:** substitute $2x$ into $\cos x=1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dots$
 
 ::solution
-$1-\dfrac{(2x)^2}{2}+\dfrac{(2x)^4}{24}=1-2x^2+\dfrac{2x^4}{3}$.
+The Maclaurin series of $\cos x$ is
+$$\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\cdots$$
+
+Replacing $x$ by $2x$ in this expansion, we get
+$$\cos2x=1-\frac{(2x)^2}{2}+\frac{(2x)^4}{24}-\cdots$$
+
+We have $(2x)^2=4x^2$ and $(2x)^4=16x^4$. Hence
+$$\cos2x=1-\frac{4x^2}{2}+\frac{16x^4}{24}-\cdots=1-2x^2+\frac{2x^4}{3}-\cdots$$
+
+So the Maclaurin series of $\cos2x$ up to the term in $x^4$ is $1-2x^2+\dfrac{2x^4}{3}$.
+
+**Answer.** $1-2x^2+\dfrac{2x^4}{3}$.
 :::
 
 :::exercise An exponential series
@@ -115,7 +126,18 @@ Find the first four terms of the Maclaurin series of $e^{x^2}$. [3 marks]
 **What you need:** substitute $x^2$ into $e^x$.
 
 ::solution
-$1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
+The Maclaurin series of $e^u$ is
+$$e^u=1+u+\frac{u^2}{2!}+\frac{u^3}{3!}+\cdots$$
+
+Substituting $u=x^2$ into this expansion, we get
+$$e^{x^2}=1+x^2+\frac{\left(x^2\right)^2}{2!}+\frac{\left(x^2\right)^3}{3!}+\cdots$$
+
+We have $\left(x^2\right)^2=x^4$ and $\left(x^2\right)^3=x^6$, $2!=2$, $3!=6$. Hence
+$$e^{x^2}=1+x^2+\frac{x^4}{2}+\frac{x^6}{6}+\cdots$$
+
+So the first four terms of the Maclaurin series of $e^{x^2}$ are $1$, $x^2$, $\dfrac{x^4}{2}$, $\dfrac{x^6}{6}$.
+
+**Answer.** $1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
 :::
 
 :::exercise A limit
@@ -125,7 +147,20 @@ Find $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}$. [4 marks]
 **What you need:** $\sin x=x-\dfrac{x^3}{6}+\dots$
 
 ::solution
-$\dfrac{\frac{x^3}{6}-\dots}{x^3}\to\dfrac16$.
+We use the Maclaurin series of $\sin x$:
+$$\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots=x-\frac{x^3}{6}+\frac{x^5}{120}-\cdots$$
+
+It follows that
+$$x-\sin x=\frac{x^3}{6}-\frac{x^5}{120}+\cdots$$
+
+For $x\neq0$, dividing every term by $x^3$ gives
+$$\frac{x-\sin x}{x^3}=\frac16-\frac{x^2}{120}+\cdots$$
+
+As $x\to0$, every term containing a positive power of $x$ tends to $0$, so the expression tends to $\dfrac16$.
+
+So $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}=\frac16$.
+
+**Answer.** $\dfrac16$.
 :::
 
 :::exercise Separable with arctan
@@ -135,7 +170,22 @@ Solve $\dfrac{dy}{dx}=2x\left(1+y^2\right)$, given that $y=0$ when $x=0$. [5 mar
 **What you need:** $\displaystyle\int\frac{dy}{1+y^2}=\arctan y$.
 
 ::solution
-$\arctan y=x^2+C$, and $C=0$, so $y=\tan\left(x^2\right)$.
+This is a separable differential equation. Since $1+y^2>0$, we divide both sides by $1+y^2$:
+$$\frac{1}{1+y^2}\cdot\frac{dy}{dx}=2x.$$
+
+Integrating both sides with respect to $x$:
+$$\int\frac{1}{1+y^2}\,dy=\int2x\,dx.$$
+
+It follows that
+$$\arctan y=x^2+C.$$
+
+Substituting the condition $y=0$ when $x=0$: $\arctan0=0^2+C$, so $C=0$.
+
+Hence $\arctan y=x^2$, that is $y=\tan\left(x^2\right)$.
+
+So the solution is $y=\tan\left(x^2\right)$.
+
+**Answer.** $y=\tan\left(x^2\right)$.
 :::
 
 :::exercise Integrating factor
@@ -145,7 +195,25 @@ Solve $\dfrac{dy}{dx}-y=e^{2x}$, given that $y=0$ when $x=0$. [5 marks]
 **What you need:** the integrating factor is $e^{-x}$.
 
 ::solution
-$\dfrac{d}{dx}\left(ye^{-x}\right)=e^x$, so $ye^{-x}=e^x+C$; $C=-1$. Hence $y=e^{2x}-e^x$.
+This is a first-order linear differential equation. We use the integrating factor $e^{-x}$: multiplying both sides of $\dfrac{dy}{dx}-y=e^{2x}$ by $e^{-x}$ gives
+$$e^{-x}\frac{dy}{dx}-e^{-x}y=e^{-x}\cdot e^{2x}=e^x.$$
+
+The left-hand side is the derivative of the product $ye^{-x}$, so
+$$\frac{d}{dx}\left(ye^{-x}\right)=e^x.$$
+
+Integrating both sides with respect to $x$:
+$$ye^{-x}=e^x+C.$$
+
+Substituting the condition $y=0$ when $x=0$: $0\cdot e^0=e^0+C$, that is $0=1+C$, so $C=-1$.
+
+Hence $ye^{-x}=e^x-1$. Multiplying both sides by $e^x$, we get
+$$y=e^{2x}-e^x.$$
+
+Check: $\dfrac{dy}{dx}-y=\left(2e^{2x}-e^x\right)-\left(e^{2x}-e^x\right)=e^{2x}$ and $y(0)=1-1=0$.
+
+So the solution is $y=e^{2x}-e^x$.
+
+**Answer.** $y=e^{2x}-e^x$.
 :::
 
 ## Application exercises
@@ -159,9 +227,27 @@ A tank contains $Q$ kg of salt at time $t$ minutes. Brine flows in and the mixtu
 **What you need:** write $\dfrac{dQ}{dt}+\dfrac{Q}{50}=2$; the integrating factor is $e^{t/50}$.
 
 ::solution
-(a) $\dfrac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}$, so $Qe^{t/50}=100e^{t/50}+C$ and $C=-100$. Hence $Q=100\left(1-e^{-t/50}\right)$.
+a) Write the equation as $\dfrac{dQ}{dt}+\dfrac{Q}{50}=2$. This is a first-order linear equation with integrating factor $e^{t/50}$. Multiplying both sides by $e^{t/50}$:
+$$e^{t/50}\frac{dQ}{dt}+\frac{1}{50}e^{t/50}Q=2e^{t/50}.$$
 
-(b) $Q\to100$ kg.
+The left-hand side is the derivative of $Qe^{t/50}$, so
+$$\frac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}.$$
+
+Integrating both sides with respect to $t$, with $\displaystyle\int2e^{t/50}dt=100e^{t/50}$, we get
+$$Qe^{t/50}=100e^{t/50}+C.$$
+
+Substituting the condition $Q=0$ when $t=0$: $0=100+C$, so $C=-100$.
+
+Hence $Qe^{t/50}=100e^{t/50}-100$. Multiplying both sides by $e^{-t/50}$, we get
+$$Q=100-100e^{-t/50}=100\left(1-e^{-t/50}\right).$$
+
+So $Q=100\left(1-e^{-t/50}\right)$ (kg).
+
+b) As $t\to+\infty$, $e^{-t/50}\to0$, so $Q\to100(1-0)=100$. Moreover $\dfrac{dQ}{dt}=2e^{-t/50}>0$, so $Q$ increases with time.
+
+So in the long run, the amount of salt in the tank increases and approaches $100$ kg.
+
+**Answer.** a) $Q=100\left(1-e^{-t/50}\right)$; b) $Q\to100$ kg.
 :::
 
 :::exercise An integral from a series
@@ -171,7 +257,22 @@ Use the first two nonzero terms of the Maclaurin series of $\sin\left(x^2\right)
 **What you need:** $\sin\left(x^2\right)=x^2-\dfrac{x^6}{6}+\dots$; integrate term by term.
 
 ::solution
-$\displaystyle\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\frac13-\frac{1}{42}=\frac{13}{42}\approx0.310$. (A GDC gives $0.310$ as well.)
+The Maclaurin series of $\sin u$ is
+$$\sin u=u-\frac{u^3}{3!}+\cdots$$
+
+Substituting $u=x^2$, the first two nonzero terms of $\sin\left(x^2\right)$ are
+$$\sin\left(x^2\right)\approx x^2-\frac{\left(x^2\right)^3}{6}=x^2-\frac{x^6}{6}.$$
+
+Therefore
+$$\int_0^1\sin\left(x^2\right)dx\approx\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\left[\frac{x^3}{3}-\frac{x^7}{42}\right]_0^1=\frac13-\frac1{42}.$$
+
+Over a common denominator: $\dfrac13-\dfrac1{42}=\dfrac{14}{42}-\dfrac{1}{42}=\dfrac{13}{42}\approx0.310$.
+
+So $\displaystyle\int_0^1\sin\left(x^2\right)dx\approx\dfrac{13}{42}\approx0.310$.
+
+*Exam tip.* A GDC gives $0.310$ as well when it evaluates $\displaystyle\int_0^1\sin\left(x^2\right)dx$ directly, which is a useful check.
+
+**Answer.** $\dfrac{13}{42}\approx0.310$.
 :::
 
 :::exercise Euler with a GDC table
@@ -181,7 +282,21 @@ For $\dfrac{dy}{dx}=\sin x+y$ with $y(0)=1$, use Euler's method with $h=0.2$ to 
 **What you need:** two steps; radian mode.
 
 ::solution
-$y_1=1+0.2(\sin0+1)=1.2$. $y_2=1.2+0.2(\sin0.2+1.2)\approx1.48$.
+Euler's method with step $h=0.2$ uses the formulas
+$$x_{n+1}=x_n+h,\qquad y_{n+1}=y_n+h\,f(x_n,y_n),$$
+where $f(x,y)=\sin x+y$ ($\sin$ is evaluated in radians). The initial condition is $x_0=0$, $y_0=1$.
+
+Step 1: $x_1=0.2$ and
+$$y_1=y_0+0.2\left(\sin0+y_0\right)=1+0.2(0+1)=1.2.$$
+
+Step 2: $x_2=0.4$ and
+$$y_2=y_1+0.2\left(\sin0.2+y_1\right)=1.2+0.2\left(\sin0.2+1.2\right).$$
+
+With $\sin0.2\approx0.19867$, we have $y_2\approx1.2+0.2\cdot1.39867\approx1.48$.
+
+So $y(0.4)\approx1.48$.
+
+**Answer.** $y(0.4)\approx1.48$.
 :::
 
 :::exercise Challenge: a series by differentiation
@@ -191,7 +306,21 @@ Find the Maclaurin series of $\tan x$ up to the term in $x^3$ by differentiating
 **What you need:** $f'=\sec^2x$ and $f''=2\sec^2x\tan x$, $f'''=2\sec^4x+4\sec^2x\tan^2x$.
 
 ::solution
-$f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. So $\tan x=x+\dfrac{2}{3!}x^3+\dots=x+\dfrac{x^3}{3}+\dots$
+Let $f(x)=\tan x$. The Maclaurin series has the form
+$$f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+\frac{f'''(0)}{3!}x^3+\cdots$$
+
+We differentiate step by step:
+$$\begin{aligned}f'(x)&=\sec^2x,\\f''(x)&=2\sec x\cdot\sec x\tan x=2\sec^2x\tan x,\\f'''(x)&=4\sec^2x\tan^2x+2\sec^4x.\end{aligned}$$
+
+At $x=0$ we have $\tan0=0$ and $\sec0=1$, so
+$$f(0)=0,\quad f'(0)=1,\quad f''(0)=0,\quad f'''(0)=2.$$
+
+Substituting into the Maclaurin formula:
+$$\tan x=0+1\cdot x+\frac{0}{2!}x^2+\frac{2}{3!}x^3+\cdots=x+\frac{x^3}{3}+\cdots$$
+
+So the Maclaurin series of $\tan x$ up to the term in $x^3$ is $x+\dfrac{x^3}{3}$.
+
+**Answer.** $\tan x=x+\dfrac{x^3}{3}+\cdots$
 :::
 
 :::quiz

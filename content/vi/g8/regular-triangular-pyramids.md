@@ -214,13 +214,17 @@ d) Tứ diện đều là một hình chóp tam giác đều.
 2. Với d), kiểm tra đáy và chân đường cao của tứ diện đều.
 
 ::solution
-a) **Sai**: các mặt bên là tam giác cân, không nhất thiết là tam giác đều.
+Nhắc lại: hình chóp tam giác đều có đáy là tam giác đều, các cạnh bên bằng nhau và chân đường cao là tâm của tam giác đáy; hình chóp tứ giác đều có đáy là hình vuông, các cạnh bên bằng nhau và chân đường cao là tâm của hình vuông đáy.
 
-b) **Đúng**: chân đường cao là tâm của đáy, tức trọng tâm của tam giác đều.
+a) **Sai.** Mặt bên của hình chóp tam giác đều là tam giác cân tại đỉnh (có hai cạnh bên bằng nhau), còn cạnh đáy có thể khác cạnh bên. Chẳng hạn, hình chóp tam giác đều $S.ABC$ có $AB=BC=CA=6$ và chiều cao $SO=1$ thì $SA=SB=SC=\sqrt{13}$; mặt bên $SAB$ có ba cạnh $\sqrt{13}$, $\sqrt{13}$, $6$ không bằng nhau nên không phải là tam giác đều.
 
-c) **Đúng**: mặt bên là những tam giác cân bằng nhau nên các cạnh bên bằng nhau.
+b) **Đúng.** Gọi $S.ABC$ là hình chóp tam giác đều và $SO$ là đường cao. Các tam giác vuông $SOA$, $SOB$, $SOC$ có chung cạnh $SO$ và $SA=SB=SC$ nên $OA=OB=OC$, tức là $O$ là tâm đường tròn ngoại tiếp tam giác đáy. Vì tam giác đáy là tam giác đều nên tâm đường tròn ngoại tiếp cũng chính là trọng tâm. Do đó chân đường cao là trọng tâm của tam giác đáy.
 
-d) **Đúng**: tứ diện đều có đáy là tam giác đều và các cạnh bên bằng nhau (bằng cạnh đáy), nên chân đường cao là tâm của đáy.
+c) **Đúng.** Gọi $S.ABCD$ là hình chóp tứ giác đều. Theo định nghĩa, các mặt bên là những tam giác cân bằng nhau có chung đỉnh $S$, nên $SA=SB=SC=SD$. Cũng có thể thấy điều này như sau: $O$ là tâm hình vuông đáy nên $OA=OB=OC=OD$; các tam giác vuông $SOA$, $SOB$, $SOC$, $SOD$ có chung cạnh $SO$ nên bốn cạnh bên bằng nhau.
+
+d) **Đúng.** Gọi $ABCD$ là tứ diện đều (sáu cạnh bằng nhau), xét $D$ là đỉnh và $ABC$ là đáy. Đáy $ABC$ có ba cạnh bằng nhau nên là tam giác đều, và các cạnh bên $DA=DB=DC$ (cùng bằng cạnh của tứ diện). Theo lập luận ở ý b), chân đường cao hạ từ $D$ cách đều $A$, $B$, $C$ nên là tâm của tam giác đáy. Do đó tứ diện đều là một hình chóp tam giác đều.
+
+Vậy các mệnh đề b), c), d) đúng; mệnh đề a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 :::
@@ -236,7 +240,19 @@ Cho hình chóp tam giác đều có cạnh đáy $8$ cm và trung đoạn $3$ c
 2. Nhân với trung đoạn.
 
 ::solution
-Nửa chu vi đáy là $p=\dfrac{3\cdot8}2=12$ cm. Diện tích xung quanh là $S_{xq}=12\cdot3=36$ cm².
+Gọi $S.ABC$ là hình chóp tam giác đều có cạnh đáy $8$ cm và trung đoạn $d=3$ cm.
+
+Áp dụng công thức diện tích xung quanh của hình chóp đều: $S_{xq}=p\cdot d$, trong đó $p$ là nửa chu vi đáy và $d$ là trung đoạn.
+
+Đáy là tam giác đều cạnh $8$ cm nên nửa chu vi đáy là
+$$p=\frac{3\cdot8}{2}=12\ \text{(cm)}.$$
+
+Thay $p=12$ và $d=3$ vào công thức, ta được
+$$S_{xq}=12\cdot3=36\ \text{(cm}^2\text{)}.$$
+
+Kiểm tra: mỗi mặt bên là tam giác cân có đáy $8$ cm và đường cao ứng với đáy là trung đoạn $3$ cm nên có diện tích $\dfrac12\cdot8\cdot3=12$ cm²; ba mặt bên có diện tích $3\cdot12=36$ cm².
+
+Vậy diện tích xung quanh của hình chóp là $36$ cm².
 
 **Đáp số.** $36$ cm².
 :::
@@ -252,7 +268,21 @@ Cho hình chóp tứ giác đều có cạnh đáy $8$ cm và trung đoạn $5$ 
 2. Tìm $h$ từ tam giác vuông $SOM$ với $OM=4$, rồi tính $V$.
 
 ::solution
-Nửa chu vi đáy là $p=\dfrac{4\cdot8}2=16$ cm nên $S_{xq}=16\cdot5=80$ cm² và $S_{tp}=80+8^2=144$ cm². Xét tam giác $SOM$ vuông tại $O$ có $OM=4$, $SM=5$, ta có $h=\sqrt{5^2-4^2}=3$ cm. Thể tích là $V=\dfrac13\cdot64\cdot3=64$ cm³.
+Gọi $S.ABCD$ là hình chóp tứ giác đều có cạnh đáy $8$ cm và trung đoạn $5$ cm; $O$ là tâm của hình vuông đáy, $M$ là trung điểm của một cạnh đáy, khi đó $SM=5$ cm và $SO=h$ là chiều cao.
+
+Diện tích xung quanh. Nửa chu vi đáy là $p=\dfrac{4\cdot8}{2}=16$ cm. Áp dụng công thức $S_{xq}=p\cdot d$, ta có
+$$S_{xq}=16\cdot5=80\ \text{(cm}^2\text{)}.$$
+
+Diện tích toàn phần. Diện tích đáy là $8^2=64$ cm². Do đó
+$$S_{tp}=S_{xq}+8^2=80+64=144\ \text{(cm}^2\text{)}.$$
+
+Chiều cao. Vì $SO\perp(ABCD)$ nên tam giác $SOM$ vuông tại $O$. Vì $O$ là tâm hình vuông và $M$ là trung điểm của một cạnh nên $OM=\dfrac82=4$ cm. Theo định lí Pythagore,
+$$h=SO=\sqrt{SM^2-OM^2}=\sqrt{5^2-4^2}=\sqrt{9}=3\ \text{(cm)}.$$
+
+Thể tích. Thể tích hình chóp bằng $\dfrac13$ tích của diện tích đáy và chiều cao, nên
+$$V=\frac13\cdot64\cdot3=64\ \text{(cm}^3\text{)}.$$
+
+Vậy $S_{xq}=80$ cm²; $S_{tp}=144$ cm²; chiều cao $h=3$ cm; thể tích $V=64$ cm³.
 
 **Đáp số.** $S_{xq}=80$ cm²; $S_{tp}=144$ cm²; $h=3$ cm; $V=64$ cm³.
 :::
@@ -268,7 +298,17 @@ Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy $6$ cm và chiều cao
 2. Xét tam giác $SOA$ vuông tại $O$.
 
 ::solution
-Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $SOA$ vuông tại $O$, ta có $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3{,}6$ (cm).
+Gọi $O$ là tâm của tam giác đều $ABC$. Vì $S.ABC$ là hình chóp tam giác đều nên $SO\perp(ABC)$ và $SO=1$ cm.
+
+Đường cao của tam giác đều cạnh $6$ cm là $\dfrac{6\sqrt3}{2}=3\sqrt3$ cm. Tâm $O$ cũng là trọng tâm nên $OA$ bằng $\dfrac23$ đường cao, tức là
+$$OA=\frac23\cdot3\sqrt3=\frac{6\sqrt3}{3}=2\sqrt3\ \text{(cm)}.$$
+
+Xét tam giác $SOA$ vuông tại $O$. Theo định lí Pythagore,
+$$SA^2=SO^2+OA^2=1^2+\left(2\sqrt3\right)^2=1+12=13.$$
+
+Suy ra $SA=\sqrt{13}\approx3{,}6$ (cm), làm tròn đến hàng phần mười.
+
+Vậy cạnh bên $SA\approx3{,}6$ cm.
 
 **Đáp số.** $SA\approx3{,}6$ cm.
 :::
@@ -284,7 +324,18 @@ Nhớ lại định lí Pythagore. Cho hình chóp tứ giác đều có cạnh 
 2. Dùng các công thức của $S_{xq}$ và $V$.
 
 ::solution
-Xét tam giác $SOM$ vuông tại $O$ có $OM=5$, $SO=12$, ta có $d=\sqrt{12^2+5^2}=13$ cm. Nửa chu vi đáy là $20$ cm nên $S_{xq}=20\cdot13=260$ cm². Thể tích là $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+Gọi $S.ABCD$ là hình chóp tứ giác đều có cạnh đáy $10$ cm và chiều cao $SO=12$ cm; $O$ là tâm của đáy, $M$ là trung điểm của một cạnh đáy.
+
+Trung đoạn. Vì $O$ là tâm hình vuông và $M$ là trung điểm của một cạnh nên $OM=\dfrac{10}{2}=5$ cm. Tam giác $SOM$ vuông tại $O$, theo định lí Pythagore,
+$$d=SM=\sqrt{SO^2+OM^2}=\sqrt{12^2+5^2}=\sqrt{169}=13\ \text{(cm)}.$$
+
+Diện tích xung quanh. Nửa chu vi đáy là $p=\dfrac{4\cdot10}{2}=20$ cm, nên
+$$S_{xq}=p\cdot d=20\cdot13=260\ \text{(cm}^2\text{)}.$$
+
+Thể tích. Diện tích đáy là $10^2=100$ cm², nên
+$$V=\frac13\cdot10^2\cdot12=400\ \text{(cm}^3\text{)}.$$
+
+Vậy trung đoạn $d=13$ cm, diện tích xung quanh $S_{xq}=260$ cm² và thể tích $V=400$ cm³.
 
 **Đáp số.** $d=13$ cm; $S_{xq}=260$ cm²; $V=400$ cm³.
 :::
@@ -300,7 +351,21 @@ Một khối thuỷ tinh có dạng hình chóp tam giác đều với cạnh đ
 2. Tính $S_{xq}$ và $V$.
 
 ::solution
-Ta có $OM=\dfrac{12\sqrt3}6=2\sqrt3$ nên $d=\sqrt{5{,}5^2+12}=6{,}5$ cm. Nửa chu vi đáy là $18$ cm nên $S_{xq}=18\cdot6{,}5=117$ cm². Diện tích đáy là $36\sqrt3$ cm² nên $V=\dfrac13\cdot36\sqrt3\cdot5{,}5=66\sqrt3\approx114{,}3$ cm³.
+Gọi $S.ABC$ là khối thuỷ tinh, $O$ là tâm của tam giác đều đáy $ABC$ cạnh $12$ cm, $M$ là trung điểm của $BC$; chiều cao $SO=5{,}5$ cm. Giấy màu dán lên ba mặt bên nên diện tích giấy cần dùng bằng diện tích xung quanh $S_{xq}$.
+
+Đường cao $AM$ của tam giác đều cạnh $12$ cm là $\dfrac{12\sqrt3}{2}=6\sqrt3$ cm. Vì $O$ là trọng tâm nên
+$$OM=\frac13AM=2\sqrt3\ \text{(cm)}.$$
+
+Tam giác $SOM$ vuông tại $O$, theo định lí Pythagore, trung đoạn là
+$$d=SM=\sqrt{SO^2+OM^2}=\sqrt{5{,}5^2+12}=\sqrt{42{,}25}=6{,}5\ \text{(cm)}.$$
+
+Nửa chu vi đáy là $p=\dfrac{3\cdot12}{2}=18$ cm, nên diện tích giấy cần dùng là
+$$S_{xq}=p\cdot d=18\cdot6{,}5=117\ \text{(cm}^2\text{)}.$$
+
+Diện tích đáy là $\dfrac12\cdot12\cdot6\sqrt3=36\sqrt3$ cm². Thể tích khối thuỷ tinh là
+$$V=\frac13\cdot36\sqrt3\cdot5{,}5=66\sqrt3\approx114{,}3\ \text{(cm}^3\text{)}.$$
+
+Vậy diện tích giấy cần dùng là $117$ cm² và thể tích khối thuỷ tinh xấp xỉ $114{,}3$ cm³.
 
 **Đáp số.** $117$ cm²; $\approx114{,}3$ cm³.
 :::
@@ -316,7 +381,18 @@ Mái của một ngôi đình có dạng hình chóp tứ giác đều với c�
 2. Tính $S_{xq}$ rồi nhân với giá tiền.
 
 ::solution
-Xét tam giác $SOM$ vuông tại $O$ có $OM=3$, $SO=4$, ta có $d=\sqrt{4^2+3^2}=5$ m. Nửa chu vi đáy là $12$ m nên $S_{xq}=12\cdot5=60$ m². Chi phí là $60\cdot180\,000=10\,800\,000$ (đồng).
+Gọi $S.ABCD$ là hình chóp tứ giác đều biểu diễn mái đình, $O$ là tâm của hình vuông đáy, $M$ là trung điểm của một cạnh đáy. Khi đó $SO=4$ m, $OM=\dfrac62=3$ m và $SM=d$ là trung đoạn. Chi phí lợp ngói cho bốn mặt của mái tính theo diện tích xung quanh $S_{xq}$ (m²).
+
+Tam giác $SOM$ vuông tại $O$, theo định lí Pythagore,
+$$d=\sqrt{SO^2+OM^2}=\sqrt{4^2+3^2}=\sqrt{25}=5\ \text{(m)}.$$
+
+Nửa chu vi đáy là $p=\dfrac{4\cdot6}{2}=12$ m, nên diện tích bốn mặt của mái là
+$$S_{xq}=p\cdot d=12\cdot5=60\ \text{(m}^2\text{)}.$$
+
+Gọi $T$ (đồng) là chi phí lợp ngói. Mỗi mét vuông lợp ngói hết $180\,000$ đồng nên
+$$T=60\cdot180\,000=10\,800\,000\ \text{(đồng)}.$$
+
+Vậy chi phí lợp ngói cho bốn mặt của mái là $10\,800\,000$ đồng.
 
 **Đáp số.** $10\,800\,000$ đồng.
 :::
@@ -332,7 +408,16 @@ Một cái phễu có dạng hình chóp tứ giác đều đặt đỉnh xuốn
 2. Tính $V$ rồi đổi đơn vị.
 
 ::solution
-Diện tích miệng phễu là $30^2=900$ cm². Thể tích là $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ lít.
+Phễu có dạng hình chóp tứ giác đều đặt đỉnh xuống dưới, miệng phễu là hình vuông đáy cạnh $30$ cm. Chiều sâu của phễu chính là chiều cao của hình chóp, bằng $40$ cm. Lượng nước tối đa phễu chứa được bằng thể tích $V$ (cm³) của hình chóp.
+
+Diện tích miệng phễu (diện tích đáy) là $30^2=900$ cm².
+
+Áp dụng công thức thể tích hình chóp:
+$$V=\frac13\cdot900\cdot40=12\,000\ \text{(cm}^3\text{)}.$$
+
+Đổi đơn vị: $1$ lít $=1000$ cm³ nên $12\,000$ cm³ $=12\,000:1000=12$ lít.
+
+Vậy phễu chứa được tối đa $12$ lít nước.
 
 **Đáp số.** $12$ lít.
 :::
@@ -348,7 +433,17 @@ Cho tứ diện đều $ABCD$ có cạnh bằng $6$. Tính chiều cao hạ từ
 2. Tính $h=DO$ rồi $V$.
 
 ::solution
-Gọi $O$ là tâm của tam giác đều $ABC$. Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $DOA$ vuông tại $O$, ta có $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4{,}9$. Diện tích đáy là $9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25{,}5$.
+Vì $ABCD$ là tứ diện đều cạnh $6$ nên $ABC$ là tam giác đều cạnh $6$ và $DA=DB=DC=6$; do đó $D.ABC$ là hình chóp tam giác đều. Gọi $O$ là tâm của tam giác đều $ABC$, khi đó $DO\perp(ABC)$ và $h=DO$ là chiều cao cần tìm.
+
+Ta có $OA=\dfrac{6\sqrt3}{3}=2\sqrt3$ (bằng $\dfrac23$ đường cao $3\sqrt3$ của tam giác đều $ABC$).
+
+Xét tam giác $DOA$ vuông tại $O$. Theo định lí Pythagore,
+$$h=DO=\sqrt{DA^2-OA^2}=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4{,}9.$$
+
+Diện tích đáy là $\dfrac{\sqrt3}{4}\cdot6^2=9\sqrt3$. Thể tích của tứ diện là
+$$V=\frac13\cdot9\sqrt3\cdot2\sqrt6=6\sqrt{18}=18\sqrt2\approx25{,}5.$$
+
+Vậy chiều cao hạ từ $D$ là $h=2\sqrt6\approx4{,}9$ và thể tích tứ diện là $V=18\sqrt2\approx25{,}5$.
 
 **Đáp số.** $h=2\sqrt6\approx4{,}9$; $V=18\sqrt2\approx25{,}5$.
 :::

@@ -123,7 +123,14 @@ Mua $3$ quyển vở hết $18\,000$ đồng. Hỏi một quyển vở giá bao 
 2. Chia $18\,000$ cho $3$.
 
 ::solution
-$18\,000:3=6\,000$ (đồng).
+Bài giải
+
+Mua $3$ quyển vở như nhau hết $18\,000$ đồng, nên giá một quyển vở là:
+$$18\,000:3=6\,000\ \text{(đồng)}.$$
+
+Thử lại: $6\,000\times3=18\,000$ (đồng), đúng với đề bài.
+
+Vậy một quyển vở giá $6\,000$ đồng.
 
 **Đáp số.** $6\,000$ đồng.
 :::
@@ -139,7 +146,15 @@ $4$ can dầu như nhau chứa $28$ lít. Hỏi $6$ can dầu như thế chứa 
 2. Nhân với $6$.
 
 ::solution
-$28:4=7$ (lít), $7\times6=42$ (lít).
+Bài giải
+
+Các can dầu như nhau, nên ta tìm số lít dầu trong một can trước (rút về đơn vị). Số lít dầu trong một can là:
+$$28:4=7\ \text{(lít)}.$$
+
+Số lít dầu trong $6$ can là:
+$$7\times6=42\ \text{(lít)}.$$
+
+Vậy $6$ can dầu như thế chứa $42$ lít.
 
 **Đáp số.** $42$ lít.
 :::
@@ -155,7 +170,15 @@ Em hãy nhớ lại bài trước: tìm số trung bình cộng của $12$, $18$
 2. Nhân với $4$.
 
 ::solution
-$(12+18+15):3=45:3=15$ (trang mỗi ngày). $15\times4=60$ (trang).
+Bài giải
+
+Số trung bình cộng của $12$, $18$ và $15$ bằng tổng của ba số chia cho $3$. Số trang bạn đó đọc mỗi ngày là:
+$$(12+18+15):3=45:3=15\ \text{(trang)}.$$
+
+Số trang bạn đó đọc được trong $4$ ngày là:
+$$15\times4=60\ \text{(trang)}.$$
+
+Vậy trong $4$ ngày bạn đó đọc được $60$ trang.
 
 **Đáp số.** $60$ trang.
 :::
@@ -171,7 +194,15 @@ Một công nhân làm $5$ ngày được $40$ sản phẩm. Hỏi làm $9$ ngà
 2. Nhân kết quả với $9$.
 
 ::solution
-$40:5=8$ (sản phẩm), $8\times9=72$ (sản phẩm).
+Bài giải
+
+Công nhân làm đều mỗi ngày như nhau, nên ta tìm số sản phẩm làm được trong một ngày trước. Số sản phẩm làm được trong một ngày là:
+$$40:5=8\ \text{(sản phẩm)}.$$
+
+Số sản phẩm làm được trong $9$ ngày là:
+$$8\times9=72\ \text{(sản phẩm)}.$$
+
+Vậy làm $9$ ngày như thế thì được $72$ sản phẩm.
 
 **Đáp số.** $72$ sản phẩm.
 :::
@@ -187,7 +218,17 @@ Mua $6$ kg đường hết $90\,000$ đồng. Hỏi mua $4$ kg đường hết b
 2. Nhân với $4$.
 
 ::solution
-$90\,000:6=15\,000$ (đồng), $15\,000\times4=60\,000$ (đồng). Phải tìm giá $1$ kg vì mỗi ki-lô-gam giá bằng nhau, nên từ đó tính được số kg bất kì.
+Bài giải
+
+Giá $1$ kg đường là:
+$$90\,000:6=15\,000\ \text{(đồng)}.$$
+
+Số tiền mua $4$ kg đường là:
+$$15\,000\times4=60\,000\ \text{(đồng)}.$$
+
+Vậy mua $4$ kg đường hết $60\,000$ đồng.
+
+Trả lời câu hỏi "Vì sao phải tìm giá $1$ kg đường trước?": vì mỗi ki-lô-gam đường có giá bằng nhau, nên khi biết giá $1$ kg ta tính được giá của số ki-lô-gam bất kì bằng phép nhân.
 
 **Đáp số.** $60\,000$ đồng.
 :::
@@ -203,7 +244,17 @@ Lan giải: "$8$ cái bút giá $32\,000$ đồng. $5$ cái bút giá $32\,000\t
 2. Nhân với $5$.
 
 ::solution
-Lan nhân ngay mà chưa tìm giá một cái bút. Đúng là $32\,000:8=4\,000$ (đồng), $4\,000\times5=20\,000$ (đồng).
+Bài giải
+
+Lan sai ở chỗ nhân ngay $32\,000\times5$ mà chưa tìm giá của một cái bút. Số $32\,000$ đồng là giá của $8$ cái bút, nên không thể nhân với $5$ để được giá của $5$ cái bút. Kết quả $160\,000$ đồng còn lớn hơn giá của $8$ cái bút, là điều vô lí vì $5$ cái bút ít hơn $8$ cái bút.
+
+Cách làm đúng: giá một cái bút là
+$$32\,000:8=4\,000\ \text{(đồng)}.$$
+
+Giá $5$ cái bút là:
+$$4\,000\times5=20\,000\ \text{(đồng)}.$$
+
+Vậy $5$ cái bút giá $20\,000$ đồng.
 
 **Đáp số.** $20\,000$ đồng.
 :::
@@ -223,7 +274,18 @@ c) Cần bao nhiêu phút để chảy đầy bể $150$ lít?
 3. Chia $150$ cho số lít một phút ở câu c).
 
 ::solution
-a) $45:3=15$ (lít). b) $15\times8=120$ (lít). c) $150:15=10$ (phút).
+Bài giải
+
+a) Mỗi phút vòi chảy được số lít nước là:
+$$45:3=15\ \text{(lít)}.$$
+
+b) $8$ phút vòi chảy được số lít nước là:
+$$15\times8=120\ \text{(lít)}.$$
+
+c) Số phút cần để chảy đầy bể $150$ lít là:
+$$150:15=10\ \text{(phút)}.$$
+
+Vậy mỗi phút vòi chảy được $15$ lít; $8$ phút chảy được $120$ lít; cần $10$ phút để chảy đầy bể $150$ lít.
 
 **Đáp số.** a) $15$ lít; b) $120$ lít; c) $10$ phút.
 :::
@@ -240,7 +302,23 @@ Mua $6$ hộp bánh như nhau hết $90\,000$ đồng. Mai có $130\,000$ đồn
 3. Tính số tiền thừa.
 
 ::solution
-Giá một hộp: $90\,000:6=15\,000$ (đồng). $15\,000\times8=120\,000$ (đồng) nhỏ hơn $130\,000$; $15\,000\times9=135\,000$ (đồng) lớn hơn $130\,000$. Vậy mua được $8$ hộp, còn thừa $130\,000-120\,000=10\,000$ (đồng).
+Bài giải
+
+Giá một hộp bánh là:
+$$90\,000:6=15\,000\ \text{(đồng)}.$$
+
+Ta thử số hộp bánh Mai có thể mua. Mua $8$ hộp hết:
+$$15\,000\times8=120\,000\ \text{(đồng)},$$
+số tiền này nhỏ hơn $130\,000$ đồng nên Mai đủ tiền. Mua $9$ hộp hết:
+$$15\,000\times9=135\,000\ \text{(đồng)},$$
+số tiền này lớn hơn $130\,000$ đồng nên Mai không đủ tiền.
+
+Do đó Mai mua được nhiều nhất $8$ hộp bánh. Số tiền còn thừa là:
+$$130\,000-120\,000=10\,000\ \text{(đồng)}.$$
+
+Thử lại: $130\,000:15\,000=8$ (dư $10\,000$), khớp với kết quả trên.
+
+Vậy Mai mua được nhiều nhất $8$ hộp bánh và còn thừa $10\,000$ đồng.
 
 **Đáp số.** $8$ hộp, còn thừa $10\,000$ đồng.
 :::

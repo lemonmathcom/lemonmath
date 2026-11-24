@@ -154,11 +154,15 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 1. Tách mỗi số thành X, V, I rồi cộng giá trị.
 
 ::solution
-a) VIII $=5+3=8$.
+Ta nhớ các chữ số La Mã: I là $1$, V là $5$, X là $10$. Số La Mã có chữ số bé đứng sau chữ số lớn thì ta cộng các giá trị lại.
 
-b) XIII $=10+3=13$.
+a) VIII gồm V và III, nên VIII $=5+3=8$.
 
-c) XVII $=10+5+2=17$.
+b) XIII gồm X và III, nên XIII $=10+3=13$.
+
+c) XVII gồm X, V và II, nên XVII $=10+5+2=17$.
+
+Vậy VIII đọc là $8$, XIII đọc là $13$, XVII đọc là $17$.
 
 **Đáp số.** a) $8$; b) $13$; c) $17$.
 :::
@@ -173,11 +177,15 @@ Viết bằng số La Mã: a) $6$; b) $14$; c) $20$.
 1. $14$ gồm $10$ và mấy?
 
 ::solution
-a) $6=5+1$, viết là VI.
+Ta tách mỗi số thành tổng của các số có chữ số La Mã quen thuộc ($1$, $5$, $10$), rồi viết từng phần.
 
-b) $14=10+4$, mà $4$ viết là IV, nên viết là XIV.
+a) $6=5+1$, mà $5$ viết là V và $1$ viết là I, nên $6$ viết là VI.
 
-c) $20=10+10$, viết là XX.
+b) $14=10+4$, mà $10$ viết là X và $4$ viết là IV, nên $14$ viết là XIV.
+
+c) $20=10+10$, mà $10$ viết là X, nên $20$ viết là XX.
+
+Vậy $6$ viết là VI, $14$ viết là XIV, $20$ viết là XX.
 
 **Đáp số.** a) VI; b) XIV; c) XX.
 :::
@@ -192,11 +200,15 @@ Viết bằng số La Mã: a) $4$; b) $9$; c) $19$.
 1. Nhớ không viết một kí hiệu quá ba lần liên tiếp.
 
 ::solution
-a) $4=5-1$, viết là IV.
+Với các số $4$ và $9$, ta viết chữ số bé đứng trước chữ số lớn để chỉ phép trừ.
 
-b) $9=10-1$, viết là IX.
+a) $4=5-1$, nên $4$ viết là IV (I đứng trước V).
 
-c) $19=10+9$, viết là XIX.
+b) $9=10-1$, nên $9$ viết là IX (I đứng trước X).
+
+c) $19=10+9$, mà $10$ viết là X và $9$ viết là IX, nên $19$ viết là XIX.
+
+Vậy $4$ viết là IV, $9$ viết là IX, $19$ viết là XIX.
 
 **Đáp số.** a) IV; b) IX; c) XIX.
 :::
@@ -211,11 +223,15 @@ c) $19=10+9$, viết là XIX.
 1. Đổi từng số La Mã sang số thường.
 
 ::solution
-a) XIV $=14$ và XI $=11$; $14>11$.
+Để so sánh các số La Mã, ta đổi mỗi số về số quen thuộc rồi so sánh.
 
-b) VIII $=8$ và IX $=9$; $8<9$.
+a) XIV $=14$ và XI $=11$. Vì $14>11$ nên XIV $>$ XI.
 
-c) XX $=20$ và XIX $=19$; $20>19$.
+b) VIII $=8$ và IX $=9$. Vì $8<9$ nên VIII $<$ IX.
+
+c) XX $=20$ và XIX $=19$. Vì $20>19$ nên XX $>$ XIX.
+
+Vậy các dấu cần điền lần lượt là $>$, $<$, $>$.
 
 **Đáp số.** a) $>$; b) $<$; c) $>$.
 :::
@@ -230,9 +246,13 @@ Trên mặt đồng hồ, kim dài chỉ vào XII. Hỏi đồng hồ chỉ mấ
 1. Đổi V và XI sang số thường.
 
 ::solution
-a) V là $5$, nên đồng hồ chỉ $5$ giờ.
+Kim dài chỉ vào XII, nên đồng hồ chỉ giờ đúng. Số giờ là số mà kim ngắn chỉ vào.
 
-b) XI là $11$, nên đồng hồ chỉ $11$ giờ.
+a) Kim ngắn chỉ vào V, mà V là $5$, nên đồng hồ chỉ $5$ giờ.
+
+b) Kim ngắn chỉ vào XI, mà XI là $11$ (X là $10$, thêm I là $1$), nên đồng hồ chỉ $11$ giờ.
+
+Vậy đồng hồ chỉ $5$ giờ ở ý a) và $11$ giờ ở ý b).
 
 **Đáp số.** a) $5$ giờ; b) $11$ giờ.
 :::
@@ -247,9 +267,17 @@ Tính, viết kết quả bằng số La Mã: a) VI $+$ IX; b) XVIII $-$ XII.
 1. Đổi mỗi số La Mã sang số thường.
 
 ::solution
-a) VI $=6$ và IX $=9$, nên $6+9=15$. Số $15$ viết là XV.
+Ta đổi các số La Mã về số quen thuộc, tính, rồi viết kết quả bằng số La Mã.
 
-b) XVIII $=18$ và XII $=12$, nên $18-12=6$. Số $6$ viết là VI.
+a) VI $=6$ và IX $=9$, nên
+$$6+9=15.$$
+Số $15$ gồm $10$ và $5$, nên viết là XV.
+
+b) XVIII $=18$ và XII $=12$, nên
+$$18-12=6.$$
+Số $6$ viết là VI.
+
+Vậy VI $+$ IX $=$ XV và XVIII $-$ XII $=$ VI.
 
 **Đáp số.** a) XV; b) VI.
 :::
@@ -264,7 +292,13 @@ Em nhớ lại bài so sánh số. Sắp xếp các số La Mã IX, XV, V, XII t
 1. Đổi từng số sang số thường.
 
 ::solution
-IX $=9$, XV $=15$, V $=5$, XII $=12$. Vì $5<9<12<15$ nên thứ tự từ bé đến lớn là V, IX, XII, XV.
+Ta đổi các số La Mã về số quen thuộc: IX $=9$, XV $=15$, V $=5$, XII $=12$.
+
+Ta so sánh các số này: $5<9<12<15$.
+
+Từ đó, thứ tự từ bé đến lớn của các số La Mã là V, IX, XII, XV.
+
+Vậy các số La Mã xếp từ bé đến lớn là V, IX, XII, XV.
 
 **Đáp số.** V, IX, XII, XV.
 :::
@@ -279,9 +313,16 @@ IX $=9$, XV $=15$, V $=5$, XII $=12$. Vì $5<9<12<15$ nên thứ tự từ bé �
 1. Tính số giờ từ $8$ giờ đến $12$ giờ.
 
 ::solution
-VIII là $8$ giờ và XII là $12$ giờ. Số giờ cần đợi là:
+Bài giải
+
+VIII là $8$ giờ và XII là $12$ giờ.
+
+Số giờ cần đợi để kim ngắn chỉ vào XII là:
 $$12-8=4\ \text{(giờ)}.$$
+
 Số $4$ viết bằng số La Mã là IV.
+
+Vậy sau $4$ giờ nữa thì kim ngắn chỉ vào XII, và số giờ đó viết là IV.
 
 **Đáp số.** $4$ giờ, viết là IV.
 :::

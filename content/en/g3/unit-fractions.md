@@ -167,11 +167,15 @@ c) A shape split into $8$ equal parts.
 2. Write $1$ over that number.
 
 ::solution
-a) $\dfrac{1}{2}$.
+Each shape is split into equal parts and one part is shaded. One part out of $n$ equal parts is written as $\dfrac{1}{n}$.
 
-b) $\dfrac{1}{3}$.
+a) The shape is split into $2$ equal parts, so one part is $\dfrac{1}{2}$.
 
-c) $\dfrac{1}{8}$.
+b) The shape is split into $3$ equal parts, so one part is $\dfrac{1}{3}$.
+
+c) The shape is split into $8$ equal parts, so one part is $\dfrac{1}{8}$.
+
+So the fractions for one part of the shapes are $\dfrac{1}{2}$, $\dfrac{1}{3}$, $\dfrac{1}{8}$.
 
 **Answer.** a) $\dfrac{1}{2}$; b) $\dfrac{1}{3}$; c) $\dfrac{1}{8}$.
 :::
@@ -193,11 +197,15 @@ c) One tenth.
 2. Write $1$ over $n$.
 
 ::solution
+One part out of $n$ equal parts is written as $\dfrac{1}{n}$.
+
 a) One quarter is one fourth, written $\dfrac{1}{4}$.
 
-b) $\dfrac{1}{6}$.
+b) One sixth is one part out of $6$ equal parts, written $\dfrac{1}{6}$.
 
-c) $\dfrac{1}{10}$.
+c) One tenth is one part out of $10$ equal parts, written $\dfrac{1}{10}$.
+
+So the three fractions are $\dfrac{1}{4}$, $\dfrac{1}{6}$, $\dfrac{1}{10}$.
 
 **Answer.** a) $\dfrac{1}{4}$; b) $\dfrac{1}{6}$; c) $\dfrac{1}{10}$.
 :::
@@ -213,7 +221,17 @@ Remember the last lesson. Find $\square$ when $\square\times3=15$. Then find $\d
 2. Work out $15\div3$ and compare.
 
 ::solution
-$\square=15\div3=5$. One third of $15$ is $15\div3=5$, the same as $\square$.
+Find $\square$: $\square$ is the unknown factor. To find an unknown factor, we divide the product by the known factor:
+$$\square=15\div3=5$$
+
+Check: $5\times3=15$. Correct.
+
+Find $\dfrac{1}{3}$ of $15$: split $15$ into $3$ equal parts, and each part is one third of $15$:
+$$15\div3=5$$
+
+We see that one third of $15$ is $5$, the same as $\square$.
+
+So $\square=5$ and $\dfrac{1}{3}$ of $15$ is $5$.
 
 **Answer.** $\square=5$ and $\dfrac{1}{3}$ of $15$ is $5$.
 :::
@@ -235,11 +253,18 @@ c) $\dfrac{1}{9}$ of $54$.
 2. Divide the number by $n$, then check.
 
 ::solution
-a) $16\div2=8$.
+To find $\dfrac{1}{n}$ of a number, we divide that number by $n$.
 
-b) $30\div5=6$.
+a) $\dfrac{1}{2}$ of $16$ is:
+$$16\div2=8$$
 
-c) $54\div9=6$.
+b) $\dfrac{1}{5}$ of $30$ is:
+$$30\div5=6$$
+
+c) $\dfrac{1}{9}$ of $54$ is:
+$$54\div9=6$$
+
+So the results are $8$, $6$, $6$ in turn.
 
 **Answer.** a) $8$; b) $6$; c) $6$.
 :::
@@ -257,9 +282,16 @@ b) One cake is shared equally among $2$ friends, and an identical cake is shared
 2. Compare the number of parts in the two cases.
 
 ::solution
-a) We divide, because splitting $28$ into $4$ equal parts gives parts that are each $\dfrac{1}{4}$ of $28$: $28\div4=7$.
+a) We divide, because splitting $28$ into $4$ equal parts gives parts that are each $\dfrac{1}{4}$ of $28$. We work out:
+$$28\div4=7$$
 
-b) A friend in the group of $2$ gets $\dfrac{1}{2}$ of a cake, a friend in the group of $4$ gets $\dfrac{1}{4}$. Fewer parts means bigger parts, so $\dfrac{1}{2}$ is bigger than $\dfrac{1}{4}$.
+So $\dfrac{1}{4}$ of $28$ is $7$.
+
+b) A friend in the group of $2$ gets $\dfrac{1}{2}$ of a cake; a friend in the group of $4$ gets $\dfrac{1}{4}$ of a cake.
+
+The two cakes are identical, and fewer parts means bigger parts. Since $2<4$, $\dfrac{1}{2}$ is bigger than $\dfrac{1}{4}$.
+
+So a friend in the group of $2$, who gets $\dfrac{1}{2}$ of a cake, has the bigger piece.
 
 **Answer.** a) Divide, result $7$; b) a friend who gets $\dfrac{1}{2}$ of a cake has the bigger piece.
 :::
@@ -275,9 +307,14 @@ Nam wrote: "$\dfrac{1}{3}$ of $12$ is $36$ because $12\times3=36$". Where did Na
 2. Use the right operation.
 
 ::solution
-Nam multiplied, but we must divide: $\dfrac{1}{3}$ of $12$ is $12\div3=4$.
+Nam worked out $12\times3=36$, which is multiplication. But to find $\dfrac{1}{3}$ of a number we must divide it by $3$, and one part must be smaller than $12$, not bigger.
 
-**Check.** $3\times4=12$. Correct.
+The correct working is:
+$$12\div3=4$$
+
+Check: $3\times4=12$. Correct.
+
+So Nam went wrong by multiplying instead of dividing; $\dfrac{1}{3}$ of $12$ is $4$.
 
 **Answer.** Nam used the wrong operation; the right answer is $4$.
 :::
@@ -295,9 +332,17 @@ b) A piece of string $40$ cm long is cut into $5$ equal lengths. How many centim
 2. Divide by the number of equal parts and write the answer with its unit.
 
 ::solution
-a) Lan takes $24\div6=4$ (sweets).
+a) Lan takes $\dfrac{1}{6}$ of the sweets, so we divide $24$ by $6$. The number of sweets Lan takes is:
+$$24\div6=4\ \text{(sweets)}$$
 
-b) Each length is $40\div5=8$ (cm) and is $\dfrac{1}{5}$ of the string.
+So Lan takes $4$ sweets.
+
+b) The string is cut into $5$ equal lengths, so each length is:
+$$40\div5=8\ \text{(cm)}$$
+
+Each length is one part out of $5$ equal parts of the string, so it is $\dfrac{1}{5}$ of the string.
+
+So each length is $8$ cm and is $\dfrac{1}{5}$ of the string.
 
 **Answer.** a) $4$ sweets; b) $8$ cm, which is $\dfrac{1}{5}$ of the string.
 :::
@@ -313,7 +358,18 @@ A class has $36$ pupils. $\dfrac{1}{4}$ of the pupils go to swimming club and $\
 2. Subtract the two results.
 
 ::solution
-The pupils at swimming club: $36\div4=9$. The pupils at art club: $36\div9=4$. The difference is $9-4=5$ (pupils).
+Solution
+
+The number of pupils at swimming club ($\dfrac{1}{4}$ of $36$ pupils) is:
+$$36\div4=9\ \text{(pupils)}$$
+
+The number of pupils at art club ($\dfrac{1}{9}$ of $36$ pupils) is:
+$$36\div9=4\ \text{(pupils)}$$
+
+The number of pupils at swimming club more than at art club is:
+$$9-4=5\ \text{(pupils)}$$
+
+So $5$ more pupils go to swimming club than to art club.
 
 **Answer.** $5$ pupils.
 :::

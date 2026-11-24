@@ -296,9 +296,16 @@ Xét tính đơn điệu của hàm số $y=\dfrac{x+2}{x-1}$.
 2. Tính $y'$ và xem dấu của tử.
 
 ::solution
-Tập xác định: $D=\mathbb{R}\setminus\{1\}$. Ta có $y'=\dfrac{1\cdot(-1)-2\cdot1}{(x-1)^2}=\dfrac{-3}{(x-1)^2}<0$ với mọi $x\in D$.
+Tập xác định: $D=\mathbb{R}\setminus\{1\}$ (vì mẫu thức $x-1\neq0$).
 
-Vậy hàm số nghịch biến trên từng khoảng xác định.
+Trên $D$ hàm số có đạo hàm. Áp dụng quy tắc đạo hàm của một thương với $u=x+2$, $v=x-1$, ta có
+$$y'=\frac{u'v-uv'}{v^2}=\frac{1\cdot(x-1)-(x+2)\cdot1}{(x-1)^2}=\frac{-3}{(x-1)^2}.$$
+
+Vì $(x-1)^2>0$ với mọi $x\in D$ nên $y'<0$ với mọi $x\in D$. Suy ra $y'$ không bằng $0$ và không đổi dấu trên $D$.
+
+Do đó hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, đồng thời không có cực trị.
+
+Vậy hàm số nghịch biến trên từng khoảng xác định và không có cực trị.
 
 **Đáp số.** Hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, không có cực trị.
 :::
@@ -340,15 +347,23 @@ d) Hàm số $f$ nghịch biến trên khoảng $(-2; 1)$.
 2. Đọc khoảng đơn điệu và các điểm đổi dấu.
 
 ::solution
-Vì $(x-1)^2\ge0$ nên $f'$ cùng dấu với $x(x+2)$ (trừ tại $x=1$ thì $f'=0$). Do đó $f'$ dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
+Ta có $f'(x)=x(x-1)^2(x+2)$. Vì $(x-1)^2\ge0$ với mọi $x$ và $(x-1)^2=0$ chỉ khi $x=1$, nên với $x\neq1$ thì $f'(x)$ cùng dấu với $x(x+2)$.
 
-a) **Đúng**. Vì $f'\ge 0$ trên $(0; +\infty)$ và chỉ bằng $0$ tại $x=1$ nên hàm số đồng biến trên khoảng này.
+Tam thức $x(x+2)$ dương khi $x<-2$ hoặc $x>0$, âm khi $-2<x<0$. Ta có bảng xét dấu của $f'$:
 
-b) **Sai**. Vì $f'$ chỉ đổi dấu tại $x=-2$ và $x=0$ nên hàm số có hai điểm cực trị.
+| $x$ | $-\infty$ | | $-2$ | | $0$ | | $1$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|---|---|
+| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | $0$ | $+$ | |
 
-c) **Đúng**. Vì $f'$ đổi dấu từ $+$ sang $-$ tại $x=-2$ nên hàm số đạt cực đại tại đó.
+a) **Đúng.** Trên $(0; +\infty)$ ta có $f'(x)\ge0$ và $f'(x)=0$ chỉ tại $x=1$, nên hàm số đồng biến trên khoảng $(0; +\infty)$.
 
-d) **Sai**. Trên $(0; 1)$ ta có $f'>0$ nên hàm số đồng biến trên khoảng này.
+b) **Sai.** $f'$ chỉ đổi dấu tại $x=-2$ (từ $+$ sang $-$) và tại $x=0$ (từ $-$ sang $+$). Tại $x=1$ thì $f'=0$ nhưng không đổi dấu. Do đó hàm số có hai điểm cực trị, không phải ba.
+
+c) **Đúng.** Khi $x$ đi qua $-2$, $f'$ đổi dấu từ $+$ sang $-$, nên hàm số đạt cực đại tại $x=-2$.
+
+d) **Sai.** Trên $(-2; 0)$ ta có $f'<0$ nhưng trên $(0; 1)$ ta có $f'>0$, nên hàm số đồng biến trên $(0; 1)$. Do đó $f$ không nghịch biến trên cả khoảng $(-2; 1)$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -364,7 +379,15 @@ Hàm số $y=x^3-3x^2-9x+4$ có giá trị cực đại $y_{\text{CĐ}}$ và gi�
 2. Tính $y$ tại hai nghiệm.
 
 ::solution
-Ta có $y'=3(x+1)(x-3)$. Vì $a=3>0$ nên $y'$ đổi dấu $+\to-$ tại $x=-1$ và $-\to+$ tại $x=3$. Do đó $y_{\text{CĐ}}=y(-1)=-1-3+9+4=9$ và $y_{\text{CT}}=y(3)=27-27-27+4=-23$.
+Hàm số xác định và có đạo hàm trên $\mathbb{R}$. Ta có
+$$y'=3x^2-6x-9=3\left(x^2-2x-3\right)=3(x+1)(x-3).$$
+
+Suy ra $y'=0\iff x=-1$ hoặc $x=3$.
+
+Vì hệ số $a=3>0$ nên $y'>0$ khi $x<-1$ hoặc $x>3$, và $y'<0$ khi $-1<x<3$. Do đó $y'$ đổi dấu từ $+$ sang $-$ tại $x=-1$ và từ $-$ sang $+$ tại $x=3$.
+
+Suy ra hàm số đạt cực đại tại $x=-1$ và đạt cực tiểu tại $x=3$. Ta có
+$$\begin{aligned}y_{\text{CĐ}}&=y(-1)=(-1)^3-3\cdot(-1)^2-9\cdot(-1)+4=-1-3+9+4=9,\\ y_{\text{CT}}&=y(3)=3^3-3\cdot3^2-9\cdot3+4=27-27-27+4=-23.\end{aligned}$$
 
 Vậy $y_{\text{CĐ}}-y_{\text{CT}}=9-(-23)=32$.
 
@@ -382,9 +405,22 @@ Giả sử nồng độ một loại thuốc trong máu sau khi tiêm $t$ giờ 
 2. Xét dấu $C'(t)$ với $t>0$.
 
 ::solution
-Ta có $C'(t)=\dfrac{30(t^2+9)-30t\cdot 2t}{(t^2+9)^2}=\dfrac{30(9-t^2)}{(t^2+9)^2}$. Với $t>0$, ta có $C'>0$ khi $0<t<3$ và $C'<0$ khi $t>3$.
+Gọi $C(t)$ (mg/l) là nồng độ thuốc trong máu sau $t$ giờ, với $t>0$. Hàm số có đạo hàm trên $(0; +\infty)$.
 
-Vậy nồng độ đạt cực đại tại $t=3$ và $C(3)=\dfrac{90}{18}=5$.
+Áp dụng quy tắc đạo hàm của một thương với $u=30t$, $v=t^2+9$, ta có
+$$C'(t)=\frac{30\left(t^2+9\right)-30t\cdot2t}{\left(t^2+9\right)^2}=\frac{30\left(9-t^2\right)}{\left(t^2+9\right)^2}.$$
+
+Vì $30>0$ và $\left(t^2+9\right)^2>0$ nên $C'(t)$ cùng dấu với $9-t^2$. Với $t>0$: $C'(t)>0$ khi $0<t<3$ và $C'(t)<0$ khi $t>3$; $C'(t)=0\iff t=3$ (vì $t>0$). Ta có bảng biến thiên:
+
+| $t$ | $0$ | | $3$ | | $+\infty$ |
+|---|---|---|---|---|---|
+| $C'(t)$ | | $+$ | $0$ | $-$ | |
+| $C(t)$ | | $\nearrow$ | $5$ | $\searrow$ | |
+
+Do đó nồng độ thuốc tăng trong khoảng $(0; 3)$ và giảm trong khoảng $(3; +\infty)$. Hàm số đạt cực đại tại $t=3$ với giá trị cực đại
+$$C(3)=\frac{30\cdot3}{3^2+9}=\frac{90}{18}=5.$$
+
+Vậy nồng độ thuốc tăng trong $3$ giờ đầu, giảm sau đó; nồng độ đạt cực đại $5$ mg/l tại thời điểm $t=3$ giờ.
 
 **Đáp số.** Tăng trong $3$ giờ đầu, giảm sau đó; cực đại $5$ mg/l lúc $t=3$ giờ.
 :::
@@ -418,9 +454,15 @@ Chứng minh rằng hàm số $y=x^3+x^2+x+1$ đồng biến trên $\mathbb{R}$.
 2. Tính biệt thức của $y'$ và xem dấu của $a$.
 
 ::solution
-Ta có $y'=3x^2+2x+1$. Vì $\Delta=4-12=-8<0$ và $a=3>0$ nên $y'>0$ với mọi $x$.
+Hàm số $y=x^3+x^2+x+1$ có đạo hàm trên $\mathbb{R}$. Ta có
+$$y'=3x^2+2x+1.$$
 
-Vậy hàm số đồng biến trên $\mathbb{R}$.
+Tam thức bậc hai $3x^2+2x+1$ có hệ số $a=3>0$ và biệt thức
+$$\Delta=2^2-4\cdot3\cdot1=4-12=-8<0.$$
+
+Vì $a>0$ và $\Delta<0$ nên $3x^2+2x+1>0$ với mọi $x\in\mathbb{R}$, tức là $y'>0$ với mọi $x\in\mathbb{R}$.
+
+Vậy hàm số $y=x^3+x^2+x+1$ đồng biến trên $\mathbb{R}$.
 
 **Đáp số.** $y'>0$ với mọi $x\in\mathbb{R}$, nên hàm số đồng biến trên $\mathbb{R}$.
 :::

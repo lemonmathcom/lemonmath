@@ -123,7 +123,13 @@ The number $34$ is $\square$ tens and $\square$ ones.
 2. Find the digit on the right.
 
 ::solution
-The tens digit is $3$ and the ones digit is $4$.
+The number $34$ has $3$ in the tens place and $4$ in the ones place.
+
+The digit $3$ in the tens place means $3$ tens; the digit $4$ in the ones place means $4$ ones.
+
+Check: $3$ tens is $30$ and $30+4=34$, which is correct.
+
+So the number $34$ is $3$ tens and $4$ ones.
 
 **Answer.** $3$ tens and $4$ ones.
 :::
@@ -139,7 +145,13 @@ Write the number made of $6$ tens and $2$ ones.
 2. What is the ones digit?
 
 ::solution
-Write $6$ then $2$.
+The number made of $6$ tens and $2$ ones has $6$ in the tens place and $2$ in the ones place.
+
+We write the tens digit first and then the ones digit: write $6$ and then $2$.
+
+Check: $60+2=62$, which is correct.
+
+So the number made of $6$ tens and $2$ ones is $62$.
 
 **Answer.** $62$.
 :::
@@ -155,7 +167,13 @@ Remember the last lesson: $6$ children are in a line and Nam is fourth from the 
 2. Count the children after Nam.
 
 ::solution
+There are $6$ children in the line and Nam is fourth from the start.
+
 After the fourth child come the fifth and the sixth, which is $2$ children.
+
+Check: $6-4=2$ (children), which is correct.
+
+So there are $2$ children behind Nam.
 
 **Answer.** $2$ children.
 :::
@@ -172,7 +190,11 @@ b) Write the number made of $9$ tens and $1$ one.
 2. Write $9$ then $1$.
 
 ::solution
-a) The tens digit of $70$ is $7$ and the ones digit is $0$. b) Write $9$ then $1$.
+a) The number $70$ has $7$ in the tens place and $0$ in the ones place.
+So the number $70$ is $7$ tens and $0$ ones.
+
+b) The number made of $9$ tens and $1$ one has $9$ in the tens place and $1$ in the ones place, so we write $9$ and then $1$.
+So the number is $91$.
 
 **Answer.** a) $7$ tens and $0$ ones. b) $91$.
 :::
@@ -188,7 +210,15 @@ Nam says: "$32$ and $23$ are the same number because they both have the digits $
 2. How many tens and ones are in $23$?
 
 ::solution
-$32$ is $3$ tens and $2$ ones. $23$ is $2$ tens and $3$ ones. They are different numbers.
+We look at how many tens and ones each number has.
+
+The number $32$ has $3$ in the tens place and $2$ in the ones place, so $32$ is $3$ tens and $2$ ones.
+
+The number $23$ has $2$ in the tens place and $3$ in the ones place, so $23$ is $2$ tens and $3$ ones.
+
+The two numbers use the same digits $2$ and $3$, but each digit is in a different place, so the values are different: $32=30+2$ and $23=20+3$.
+
+So Nam is wrong: $32$ and $23$ are different numbers.
 
 **Answer.** No. $32$ and $23$ are different numbers.
 :::
@@ -204,7 +234,15 @@ Mai says: "$5$ tens is written $5$." Where did Mai go wrong? Write it correctly.
 2. Write both digits.
 
 ::solution
-The tens digit is $5$ and the ones digit is $0$. Mai forgot the digit $0$.
+$5$ tens means the digit in the tens place is $5$ and there are $0$ ones.
+
+A two-digit number must show both the tens digit and the ones digit: the digit $5$ in the tens place and the digit $0$ in the ones place.
+
+Mai wrote only $5$, so Mai forgot the digit $0$ in the ones place. The number $5$ is only $5$ ones, not $5$ tens.
+
+Written correctly: $5$ tens is $50$. Check: the number $50$ has $5$ in the tens place and $0$ in the ones place, which is correct.
+
+So Mai went wrong by forgetting the digit $0$; $5$ tens is written $50$.
 
 **Answer.** $5$ tens is written $50$.
 :::
@@ -222,7 +260,14 @@ There are $4$ bundles of sticks with $10$ sticks in each, and $5$ loose sticks. 
 2. Write the tens, then the ones.
 
 ::solution
-$4$ bundles are $4$ tens and $5$ loose sticks are $5$ ones, so there are $45$ sticks.
+Each bundle has $10$ sticks, which is $1$ ten. There are $4$ bundles, so there are $4$ tens, that is $40$ sticks.
+
+There are also $5$ loose sticks, which is $5$ ones.
+
+The number of sticks altogether is:
+$$40+5=45\ \text{(sticks)}.$$
+
+So there are $45$ sticks altogether.
 
 **Answer.** $45$ sticks.
 :::
@@ -238,9 +283,15 @@ A two-digit number has $4$ in the tens place and a digit less than $2$ in the on
 2. Try $0$ and $1$ in the ones place.
 
 ::solution
-The ones digit is $0$ or $1$, so the two numbers are $40$ and $41$.
+The number has two digits and the tens digit is $4$, so it has the form $4\square$, where $\square$ is the ones digit.
 
-**Check.** Both numbers have $4$ tens and fewer than $2$ ones. Correct.
+The ones digit is less than $2$, so it is $0$ or $1$.
+
+With ones digit $0$ we get the number $40$; with ones digit $1$ we get the number $41$.
+
+Check: both $40$ and $41$ have $4$ tens and fewer than $2$ ones, which is correct.
+
+So the numbers are $40$ and $41$.
 
 **Answer.** $40$ and $41$.
 :::

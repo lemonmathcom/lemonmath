@@ -205,13 +205,21 @@ a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$;
 2. Check whether you multiply or divide by $1\,000\,000$ or by $100$.
 
 ::solution
-a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+We use the relationships between the units of area: $1\ \text{km}^2=1\,000\,000\ \text{m}^2$ and $1\ \text{km}^2=100$ ha.
 
-b) $12\,000\,000\div1\,000\,000=12\ \text{km}^2$.
+a) To change from $\text{km}^2$ to $\text{m}^2$, we multiply by $1\,000\,000$:
+$$7\ \text{km}^2=7\times1\,000\,000=7\,000\,000\ \text{m}^2.$$
 
-c) $4\times100=400$ ha.
+b) To change from $\text{m}^2$ to $\text{km}^2$, we divide by $1\,000\,000$:
+$$12\,000\,000\ \text{m}^2=12\,000\,000\div1\,000\,000=12\ \text{km}^2.$$
 
-d) $900\div100=9\ \text{km}^2$.
+c) To change from $\text{km}^2$ to ha, we multiply by $100$:
+$$4\ \text{km}^2=4\times100=400\ \text{ha}.$$
+
+d) To change from ha to $\text{km}^2$, we divide by $100$:
+$$900\ \text{ha}=900\div100=9\ \text{km}^2.$$
+
+So the missing numbers are $7\,000\,000$; $12$; $400$; $9$.
 
 **Answer.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
 :::
@@ -228,13 +236,21 @@ a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3.5$ ha $=?\ \tex
 2. Change the decimal part using a fraction, for example $0.5$ ha $=\dfrac{5}{10}$ ha.
 
 ::solution
-a) $6\times10\,000=60\,000\ \text{m}^2$.
+We use the relationship $1$ ha $=10\,000\ \text{m}^2$.
 
-b) $80\,000\div10\,000=8$ ha.
+a) To change from ha to $\text{m}^2$, we multiply by $10\,000$:
+$$6\ \text{ha}=6\times10\,000=60\,000\ \text{m}^2.$$
 
-c) $3.5$ ha $=3$ ha $+0.5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+b) To change from $\text{m}^2$ to ha, we divide by $10\,000$:
+$$80\,000\ \text{m}^2=80\,000\div10\,000=8\ \text{ha}.$$
 
-d) $0.25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+c) We have $3.5$ ha $=3$ ha $+0.5$ ha. Since $3$ ha $=30\,000\ \text{m}^2$ and $0.5$ ha $=0.5\times10\,000=5000\ \text{m}^2$, we get
+$$3.5\ \text{ha}=30\,000+5000=35\,000\ \text{m}^2.$$
+
+d) We have $0.25$ ha $=\dfrac{25}{100}$ ha, so
+$$0.25\ \text{ha}=\frac{25}{100}\times10\,000=2500\ \text{m}^2.$$
+
+So the missing numbers are $60\,000$; $8$; $35\,000$; $2500$.
 
 **Answer.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
 :::
@@ -251,13 +267,21 @@ a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\
 2. Multiply or divide by $100$ for each step.
 
 ::solution
-a) $3\times100=300\ \text{m}^2$.
+Two neighbouring units of area differ by a factor of $100$: to change to the next smaller unit we multiply by $100$, and to change to the next larger unit we divide by $100$.
 
-b) $5\times100=500\ \text{dam}^2$.
+a) From $\text{dam}^2$ down to $\text{m}^2$ there is one step, so we multiply by $100$:
+$$3\ \text{dam}^2=3\times100=300\ \text{m}^2.$$
 
-c) $40\,000\div100=400\ \text{m}^2$.
+b) From $\text{hm}^2$ down to $\text{dam}^2$ there is one step, so we multiply by $100$:
+$$5\ \text{hm}^2=5\times100=500\ \text{dam}^2.$$
 
-d) From $\text{mm}^2$ up to $\text{dm}^2$ there are two steps, each dividing by $100$, so we divide by $10\,000$: $70\,000\div10\,000=7\ \text{dm}^2$.
+c) From $\text{dm}^2$ up to $\text{m}^2$ there is one step, so we divide by $100$:
+$$40\,000\ \text{dm}^2=40\,000\div100=400\ \text{m}^2.$$
+
+d) From $\text{mm}^2$ up to $\text{dm}^2$ there are two steps ($\text{mm}^2\to\text{cm}^2\to\text{dm}^2$), each dividing by $100$, so we divide by $100\times100=10\,000$:
+$$70\,000\ \text{mm}^2=70\,000\div10\,000=7\ \text{dm}^2.$$
+
+So the missing numbers are $300$; $500$; $400$; $7$.
 
 **Answer.** a) $300$; b) $500$; c) $400$; d) $7$.
 :::
@@ -273,9 +297,15 @@ Suppose a nature reserve is a rectangle $8$ km long and $5$ km wide. Find the ar
 2. Change the result into hectares.
 
 ::solution
-The area of the reserve is $8\times5=40\ \text{km}^2$.
+Solution
 
-Change to hectares: $40\times100=4000$ ha.
+The area of the reserve in square kilometres is:
+$$8\times5=40\ (\text{km}^2)$$
+
+Since $1\ \text{km}^2=100$ ha, the area of the reserve in hectares is:
+$$40\times100=4000\ \text{(ha)}$$
+
+So the reserve has an area of $40\ \text{km}^2$, which is $4000$ ha.
 
 **Answer.** $40\ \text{km}^2$, which is $4000$ ha.
 :::
@@ -291,9 +321,18 @@ Suppose a field is a rectangle $400$ m long and $150$ m wide. Each hectare of th
 2. Multiply the number of hectares by $7$. Check: is the result reasonable?
 
 ::solution
-The area of the field is $400\times150=60\,000\ \text{m}^2=6$ ha.
+Solution
 
-The number of tonnes of rice produced is $6\times7=42$ (tonnes).
+The area of the field in square metres is:
+$$400\times150=60\,000\ (\text{m}^2)$$
+
+Since $1$ ha $=10\,000\ \text{m}^2$, the area of the field in hectares is:
+$$60\,000\div10\,000=6\ \text{(ha)}$$
+
+The number of tonnes of rice produced is:
+$$6\times7=42\ \text{(tonnes)}$$
+
+So the whole field produces $42$ tonnes of rice.
 
 **Answer.** $42$ tonnes of rice.
 :::
@@ -309,11 +348,15 @@ Write $>$, $<$ or $=$ in the gap: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5
 2. Compare the two numbers.
 
 ::solution
-a) $3$ ha $=30\,000\ \text{m}^2$, so write $=$.
+We change the measures to the same unit and then compare them.
 
-b) $5\ \text{km}^2=500$ ha. Since $500>450$, write $>$.
+a) Since $1$ ha $=10\,000\ \text{m}^2$, we have $3$ ha $=3\times10\,000=30\,000\ \text{m}^2$. The two areas are equal, so we write $=$.
 
-c) $0.3$ ha $=3000\ \text{m}^2$. Since $2500<3000$, write $<$.
+b) Since $1\ \text{km}^2=100$ ha, we have $5\ \text{km}^2=5\times100=500$ ha. Since $500>450$, we get $5\ \text{km}^2>450$ ha, so we write $>$.
+
+c) We have $0.3$ ha $=0.3\times10\,000=3000\ \text{m}^2$. Since $2500<3000$, we get $2500\ \text{m}^2<0.3$ ha, so we write $<$.
+
+So the signs to write are $=$; $>$; $<$ in that order.
 
 **Answer.** a) $=$; b) $>$; c) $<$.
 :::
@@ -329,9 +372,17 @@ Suppose a village has three plots of land of areas $2.5$ ha, $15\,000\ \text{m}^
 2. Compare the three numbers you have found.
 
 ::solution
-$2.5$ ha $=25\,000\ \text{m}^2$ and $0.4$ ha $=4000\ \text{m}^2$. The three areas are $25\,000$; $15\,000$; $4000$ (square metres).
+Solution
 
-Since $4000<15\,000<25\,000$, the order from least to greatest is $0.4$ ha; $15\,000\ \text{m}^2$; $2.5$ ha.
+We change the areas of the three plots to the same unit, square metres (since $1$ ha $=10\,000\ \text{m}^2$):
+
+- $2.5$ ha $=2.5\times10\,000=25\,000\ \text{m}^2$;
+- the second plot has area $15\,000\ \text{m}^2$;
+- $0.4$ ha $=0.4\times10\,000=4000\ \text{m}^2$.
+
+Comparing the three numbers $25\,000$; $15\,000$; $4000$, we have $4000<15\,000<25\,000$.
+
+So the order of the areas from least to greatest is $0.4$ ha; $15\,000\ \text{m}^2$; $2.5$ ha.
 
 **Answer.** $0.4$ ha $<15\,000\ \text{m}^2<2.5$ ha.
 :::
@@ -347,9 +398,15 @@ Remember the review lesson on the area of rectangles and squares. A square plot 
 2. Change the result into hectares.
 
 ::solution
-The area of the plot is $200\times200=40\,000\ \text{m}^2$.
+Solution
 
-Change to hectares: $40\,000\div10\,000=4$ ha.
+The area of a square is the side times the side. The area of the plot in square metres is:
+$$200\times200=40\,000\ (\text{m}^2)$$
+
+Since $1$ ha $=10\,000\ \text{m}^2$, the area of the plot in hectares is:
+$$40\,000\div10\,000=4\ \text{(ha)}$$
+
+So the plot has an area of $40\,000\ \text{m}^2$, which is $4$ ha.
 
 **Answer.** $40\,000\ \text{m}^2$, which is $4$ ha.
 :::
@@ -365,9 +422,15 @@ Suppose a district has $1200$ ha of rice fields and $8\ \text{km}^2$ of forest. 
 2. Add the two areas.
 
 ::solution
-The forest has area $8\ \text{km}^2=8\times100=800$ ha.
+Solution
 
-The total area is $1200+800=2000$ (ha).
+Since $1\ \text{km}^2=100$ ha, the area of the forest in hectares is:
+$$8\ \text{km}^2=8\times100=800\ \text{(ha)}$$
+
+The total area of the rice fields and the forest is:
+$$1200+800=2000\ \text{(ha)}$$
+
+So the rice fields and the forest together cover $2000$ ha.
 
 **Answer.** $2000$ ha.
 :::
@@ -383,9 +446,24 @@ A rectangle has area $1$ ha and its length is $4$ times its width. Find the peri
 2. Find the side of a square (which number multiplied by itself gives that area?), then find the perimeter.
 
 ::solution
-The rectangle can be cut into $4$ equal squares, each with area $10\,000\div4=2500\ \text{m}^2$. Since $50\times50=2500$, the side of a square is $50$ m.
+Solution
 
-The width is $50$ m and the length is $50\times4=200$ m. The perimeter is $(50+200)\times2=500$ (m).
+We change $1$ ha $=10\,000\ \text{m}^2$.
+
+The length is $4$ times the width, so the rectangle can be cut into $4$ equal squares, each with side equal to the width. The area of each square is:
+$$10\,000\div4=2500\ (\text{m}^2)$$
+
+Since $50\times50=2500$, the side of each square is $50$ m. So the width of the rectangle is $50$ m.
+
+The length of the rectangle is:
+$$50\times4=200\ \text{(m)}$$
+
+The perimeter of the rectangle is:
+$$(50+200)\times2=500\ \text{(m)}$$
+
+Check: $200\times50=10\,000\ \text{m}^2=1$ ha. Correct.
+
+So the perimeter of the rectangle is $500$ m.
 
 **Answer.** $500$ m.
 :::

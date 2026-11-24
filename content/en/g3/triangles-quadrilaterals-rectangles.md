@@ -158,7 +158,13 @@ Fill in the blanks: a triangle has $\ldots$ vertices and $\ldots$ sides; a quadr
 2. Fill in the number for each shape.
 
 ::solution
-A triangle has $3$ vertices and $3$ sides; a quadrilateral has $4$ vertices and $4$ sides.
+We recall the features of each shape.
+
+A triangle has $3$ vertices and $3$ sides.
+
+A quadrilateral has $4$ vertices and $4$ sides.
+
+So the numbers to write, in order, are $3$; $3$; $4$; $4$.
 
 **Answer.** $3$; $3$; $4$; $4$.
 :::
@@ -174,7 +180,15 @@ Rectangle $ABCD$ has $AB=7$ cm and $BC=2$ cm. Find $CD$ and $AD$.
 2. Which side is $AD$ opposite?
 
 ::solution
-$CD=AB=7$ cm; $AD=BC=2$ cm.
+In a rectangle, opposite sides are equal.
+
+Side $CD$ is opposite side $AB$, so
+$$CD=AB=7\ \text{(cm)}.$$
+
+Side $AD$ is opposite side $BC$, so
+$$AD=BC=2\ \text{(cm)}.$$
+
+So $CD=7$ cm and $AD=2$ cm.
 
 **Answer.** $CD=7$ cm, $AD=2$ cm.
 :::
@@ -190,7 +204,11 @@ Square $EFGH$ has a side of $6$ cm. How long is each of the other sides, in cent
 2. How are the other sides related to it?
 
 ::solution
-The four sides of a square are equal, so each of the other sides is also $6$ cm.
+A square has four equal sides.
+
+Square $EFGH$ has one side of $6$ cm, so each of the other sides is also $6$ cm.
+
+So each of the other sides of square $EFGH$ is $6$ cm long.
 
 **Answer.** $6$ cm.
 :::
@@ -209,7 +227,13 @@ c) A shape with $4$ right angles, two sides of $8$ cm and two sides of $3$ cm.
 2. Part c: are all four sides equal?
 
 ::solution
-a) A square. b) A triangle. c) It has $4$ right angles but the sides are not all equal, so it is a rectangle.
+a) A shape with $4$ right angles and $4$ equal sides is a square.
+
+b) A shape with $3$ vertices has $3$ sides, so it is a triangle.
+
+c) The shape has $4$ right angles, two sides of $8$ cm and two sides of $3$ cm. Since $8\ne3$, the sides are not all equal, so it is not a square. A shape with $4$ right angles whose sides are not all equal is a rectangle.
+
+So the shapes are a square, a triangle and a rectangle, in that order.
 
 **Answer.** a) Square; b) Triangle; c) Rectangle.
 :::
@@ -225,8 +249,12 @@ Mr Hoa makes a square frame from $4$ wooden strips, each $5$ dm long. How long a
 2. Work out $5\times4$ and write the unit.
 
 ::solution
-The total length of the strips is:
-$$5\times4=20\ \text{(dm)}.$$
+Solution
+
+The square frame is made from $4$ wooden strips, each $5$ dm long, so the total length of the strips is:
+$$5\times4=20\ \text{(dm)}$$
+
+So all the strips together are $20$ dm long.
 
 **Answer.** $20$ dm.
 :::
@@ -242,7 +270,10 @@ Find the missing number: a square with a side of $9$ cm has four sides with a to
 2. Work out $9\times4$.
 
 ::solution
-$9\times4=36$ (cm).
+A square has four equal sides, each $9$ cm long, so the total length of the four sides is:
+$$9\times4=36\ \text{(cm)}$$
+
+So the four sides of the square have a total length of $36$ cm.
 
 **Answer.** $36$ cm.
 :::
@@ -258,7 +289,12 @@ Remember the last lesson: how many right angles does rectangle $ABCD$ have? A tr
 2. A triangle has $3$ angles; take away the right angle.
 
 ::solution
-A rectangle has $4$ right angles. A triangle has $3$ angles, and $1$ is a right angle, so $3-1=2$ angles are not right angles.
+Rectangle $ABCD$ has $4$ right angles.
+
+Triangle $MNP$ has $3$ angles, and exactly $1$ of them is a right angle. The number of angles that are not right angles is:
+$$3-1=2\ \text{(angles)}$$
+
+So rectangle $ABCD$ has $4$ right angles; triangle $MNP$ has $2$ angles that are not right angles.
 
 **Answer.** $4$ right angles; $2$ angles that are not right angles.
 :::
@@ -274,9 +310,16 @@ Put two squares with sides of $3$ cm side by side, sharing one side, to make a r
 2. A long side is made of how many square sides? A short side?
 
 ::solution
-A long side is made of two square sides: $3+3=6$ (cm). A short side is one square side: $3$ cm.
+Solution
 
-**Check.** The shape has $4$ right angles and equal opposite sides. Correct.
+A long side of the rectangle is made of two sides of the squares, so its length is:
+$$3+3=6\ \text{(cm)}$$
+
+A short side of the rectangle is one side of a square, so it is $3$ cm long.
+
+Check: the new shape has $4$ right angles and equal opposite sides ($6$ cm and $6$ cm; $3$ cm and $3$ cm). Correct.
+
+So the sides of the rectangle are $6$ cm and $3$ cm.
 
 **Answer.** $6$ cm and $3$ cm.
 :::

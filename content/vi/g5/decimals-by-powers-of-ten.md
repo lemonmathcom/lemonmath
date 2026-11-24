@@ -176,13 +176,21 @@ Tính nhẩm: a) $4{,}26\times10$; b) $0{,}035\times100$; c) $7{,}8\times1000$; 
 2. Chuyển dấu phẩy sang phải bấy nhiêu chữ số, thêm chữ số $0$ nếu thiếu.
 
 ::solution
-a) $4{,}26\times10=42{,}6$.
+Muốn nhân một số thập phân với $10$, $100$, $1000$, $\ldots$ ta chuyển dấu phẩy sang bên phải một, hai, ba, $\ldots$ chữ số. Nếu không đủ chữ số thì ta viết thêm chữ số $0$.
 
-b) $0{,}035\times100=3{,}5$.
+a) Nhân với $10$: chuyển dấu phẩy sang phải một chữ số.
+$$4{,}26\times10=42{,}6$$
 
-c) $7{,}8\times1000=7800$.
+b) Nhân với $100$: chuyển dấu phẩy sang phải hai chữ số.
+$$0{,}035\times100=3{,}5$$
 
-d) $0{,}5\times1000=500$.
+c) Nhân với $1000$: chuyển dấu phẩy sang phải ba chữ số, viết thêm hai chữ số $0$.
+$$7{,}8\times1000=7800$$
+
+d) Nhân với $1000$: chuyển dấu phẩy sang phải ba chữ số, viết thêm hai chữ số $0$.
+$$0{,}5\times1000=500$$
+
+Vậy kết quả lần lượt là $42{,}6$; $3{,}5$; $7800$; $500$.
 
 **Đáp số.** a) $42{,}6$; b) $3{,}5$; c) $7800$; d) $500$.
 :::
@@ -198,13 +206,21 @@ Tính nhẩm: a) $62{,}5:10$; b) $9{,}4:100$; c) $4:1000$; d) $2300:100$.
 2. Chuyển dấu phẩy sang trái, viết thêm chữ số $0$ bên trái nếu thiếu.
 
 ::solution
-a) $62{,}5:10=6{,}25$.
+Muốn chia một số thập phân cho $10$, $100$, $1000$, $\ldots$ ta chuyển dấu phẩy sang bên trái một, hai, ba, $\ldots$ chữ số. Nếu không đủ chữ số thì ta viết thêm chữ số $0$ ở bên trái.
 
-b) $9{,}4:100=0{,}094$.
+a) Chia cho $10$: chuyển dấu phẩy sang trái một chữ số.
+$$62{,}5:10=6{,}25$$
 
-c) $4:1000=0{,}004$.
+b) Chia cho $100$: chuyển dấu phẩy sang trái hai chữ số, viết thêm một chữ số $0$.
+$$9{,}4:100=0{,}094$$
 
-d) $2300:100=23$.
+c) Số $4$ viết là $4{,}0$. Chia cho $1000$: chuyển dấu phẩy sang trái ba chữ số.
+$$4:1000=0{,}004$$
+
+d) Số $2300$ viết là $2300{,}0$. Chia cho $100$: chuyển dấu phẩy sang trái hai chữ số.
+$$2300:100=23$$
+
+Vậy kết quả lần lượt là $6{,}25$; $0{,}094$; $0{,}004$; $23$.
 
 **Đáp số.** a) $6{,}25$; b) $0{,}094$; c) $0{,}004$; d) $23$.
 :::
@@ -220,13 +236,21 @@ Tính nhẩm: a) $35\times0{,}1$; b) $7{,}2\times0{,}01$; c) $6{,}3:0{,}1$; d) $
 2. Chuyển dấu phẩy.
 
 ::solution
-a) $35\times0{,}1=35:10=3{,}5$.
+Nhân với $0{,}1$; $0{,}01$ cũng như chia cho $10$; $100$. Chia cho $0{,}1$; $0{,}01$ cũng như nhân với $10$; $100$.
 
-b) $7{,}2\times0{,}01=7{,}2:100=0{,}072$.
+a) Nhân với $0{,}1$ là chia cho $10$:
+$$35\times0{,}1=35:10=3{,}5$$
 
-c) $6{,}3:0{,}1=6{,}3\times10=63$.
+b) Nhân với $0{,}01$ là chia cho $100$:
+$$7{,}2\times0{,}01=7{,}2:100=0{,}072$$
 
-d) $0{,}45:0{,}01=0{,}45\times100=45$.
+c) Chia cho $0{,}1$ là nhân với $10$:
+$$6{,}3:0{,}1=6{,}3\times10=63$$
+
+d) Chia cho $0{,}01$ là nhân với $100$:
+$$0{,}45:0{,}01=0{,}45\times100=45$$
+
+Vậy kết quả lần lượt là $3{,}5$; $0{,}072$; $63$; $45$.
 
 **Đáp số.** a) $3{,}5$; b) $0{,}072$; c) $63$; d) $45$.
 :::
@@ -242,13 +266,21 @@ d) $0{,}45:0{,}01=0{,}45\times100=45$.
 2. Chuyển dấu phẩy theo $100$ hoặc $1000$.
 
 ::solution
-a) $7{,}5\times100=750$ cm.
+Ta nhớ: $1$ m $=100$ cm và $1$ kg $=1000$ g. Đổi từ đơn vị lớn sang đơn vị bé thì nhân; đổi từ đơn vị bé sang đơn vị lớn thì chia.
 
-b) $63:100=0{,}63$ m.
+a) Đổi mét sang xăng-ti-mét, ta nhân với $100$:
+$$7{,}5\times100=750\ \text{(cm)}$$
 
-c) $0{,}8\times1000=800$ g.
+b) Đổi xăng-ti-mét sang mét, ta chia cho $100$:
+$$63:100=0{,}63\ \text{(m)}$$
 
-d) $1250:1000=1{,}25$ kg.
+c) Đổi ki-lô-gam sang gam, ta nhân với $1000$:
+$$0{,}8\times1000=800\ \text{(g)}$$
+
+d) Đổi gam sang ki-lô-gam, ta chia cho $1000$:
+$$1250:1000=1{,}25\ \text{(kg)}$$
+
+Vậy $7{,}5$ m $=750$ cm; $63$ cm $=0{,}63$ m; $0{,}8$ kg $=800$ g; $1250$ g $=1{,}25$ kg.
 
 **Đáp số.** a) $750$ cm; b) $0{,}63$ m; c) $800$ g; d) $1{,}25$ kg.
 :::
@@ -264,8 +296,13 @@ Giả sử mỗi gói bánh nặng $0{,}12$ kg. Hỏi $1000$ gói bánh như th�
 2. Nhân $0{,}12$ với $1000$ bằng cách chuyển dấu phẩy.
 
 ::solution
-Khối lượng $1000$ gói bánh là:
-$$0{,}12\times1000=120\ \text{(kg)}.$$
+Bài giải
+
+Mỗi gói bánh nặng $0{,}12$ kg nên khối lượng $1000$ gói bánh là:
+$$0{,}12\times1000=120\ \text{(kg)}$$
+(Nhân với $1000$: chuyển dấu phẩy sang phải ba chữ số.)
+
+Vậy $1000$ gói bánh nặng $120$ kg.
 
 **Đáp số.** $120$ kg.
 :::
@@ -281,9 +318,15 @@ Giả sử một tờ giấy dày $0{,}1$ mm. Hỏi một chồng $1000$ tờ gi
 2. Đổi ra xăng-ti-mét bằng cách chia cho $10$.
 
 ::solution
-Độ dày chồng giấy là:
-$$0{,}1\times1000=100\ \text{(mm)}.$$
-Vì $1$ cm $=10$ mm nên $100\ \text{mm}=100:10=10$ cm.
+Bài giải
+
+Mỗi tờ giấy dày $0{,}1$ mm nên độ dày của chồng $1000$ tờ giấy là:
+$$0{,}1\times1000=100\ \text{(mm)}$$
+
+Vì $1$ cm $=10$ mm nên muốn đổi mi-li-mét sang xăng-ti-mét ta chia cho $10$:
+$$100:10=10\ \text{(cm)}$$
+
+Vậy chồng giấy dày $100$ mm, tức là $10$ cm.
 
 **Đáp số.** $100$ mm, tức là $10$ cm.
 :::
@@ -299,10 +342,15 @@ Giả sử $100$ chai nước như nhau chứa tất cả $150$ lít. Hỏi mỗ
 2. Chia $150$ cho $100$. Thử lại bằng phép nhân.
 
 ::solution
-Mỗi chai chứa:
-$$150:100=1{,}5\ \text{(lít)}.$$
+Bài giải
 
-**Thử lại.** $1{,}5\times100=150$. Đúng.
+Các chai nước như nhau nên để tìm số lít nước trong mỗi chai, ta lấy tổng số lít chia cho số chai. Mỗi chai chứa:
+$$150:100=1{,}5\ \text{(lít)}$$
+(Chia cho $100$: chuyển dấu phẩy sang trái hai chữ số.)
+
+*Thử lại.* $1{,}5\times100=150$. Đúng.
+
+Vậy mỗi chai chứa $1{,}5$ lít nước.
 
 **Đáp số.** $1{,}5$ lít.
 :::
@@ -318,7 +366,11 @@ Em hãy nhớ lại bài phép nhân số thập phân. Tính nhanh: $2{,}5\time
 2. Nhân kết quả với $3{,}7$ và $100$ bằng cách chuyển dấu phẩy.
 
 ::solution
-$$\begin{aligned} 2{,}5\times3{,}7\times4\times100 &= (2{,}5\times4)\times3{,}7\times100 \\ &= 10\times3{,}7\times100 \\ &= 37\times100=3700. \end{aligned}$$
+Ta thấy $2{,}5\times4=10$. Vì phép nhân có tính chất giao hoán và kết hợp nên ta nhóm $2{,}5$ với $4$ để tính trước.
+
+$$\begin{aligned} 2{,}5\times3{,}7\times4\times100 &= (2{,}5\times4)\times3{,}7\times100 \\ &= 10\times3{,}7\times100 \\ &= 37\times100 \\ &= 3700 \end{aligned}$$
+
+Vậy $2{,}5\times3{,}7\times4\times100=3700$.
 
 **Đáp số.** $3700$.
 :::
@@ -335,13 +387,17 @@ a) $4{,}5\times?=4500$; b) $?:100=0{,}36$; c) $0{,}07\times?=7$; d) $85:?=0{,}08
 2. Nếu chuyển sang phải thì nhân, sang trái thì chia.
 
 ::solution
-a) Từ $4{,}5$ đến $4500$ chuyển dấu phẩy sang phải ba chữ số, nên nhân với $1000$.
+a) Từ $4{,}5$ đến $4500$, dấu phẩy chuyển sang phải ba chữ số (viết thêm hai chữ số $0$). Vậy $4{,}5\times1000=4500$ và số cần điền là $1000$.
 
-b) $?=0{,}36\times100=36$.
+b) Muốn tìm số bị chia, ta lấy thương nhân với số chia:
+$$0{,}36\times100=36$$
+Vậy $36:100=0{,}36$ và số cần điền là $36$.
 
-c) Từ $0{,}07$ đến $7$ chuyển dấu phẩy sang phải hai chữ số, nên nhân với $100$.
+c) Từ $0{,}07$ đến $7$, dấu phẩy chuyển sang phải hai chữ số. Vậy $0{,}07\times100=7$ và số cần điền là $100$.
 
-d) Từ $85$ đến $0{,}085$ chuyển dấu phẩy sang trái ba chữ số, nên chia cho $1000$.
+d) Từ $85$ đến $0{,}085$, dấu phẩy chuyển sang trái ba chữ số. Vậy $85:1000=0{,}085$ và số cần điền là $1000$.
+
+Vậy các số cần điền lần lượt là $1000$; $36$; $100$; $1000$.
 
 **Đáp số.** a) $1000$; b) $36$; c) $100$; d) $1000$.
 :::
@@ -357,9 +413,19 @@ Một số thập phân, khi chuyển dấu phẩy sang phải một chữ số 
 2. Số mới hơn số cũ mấy phần? Phần đó bằng $31{,}5$.
 
 ::solution
-Coi số cũ là $1$ phần thì số mới là $10$ phần, nên số mới hơn số cũ $10-1=9$ phần. Do đó $9$ phần bằng $31{,}5$, và số cũ là $31{,}5:9=3{,}5$.
+Bài giải
 
-**Kiểm tra.** $3{,}5\times10=35$ và $35-3{,}5=31{,}5$. Đúng.
+Khi chuyển dấu phẩy của một số thập phân sang phải một chữ số thì số đó được nhân với $10$. Coi số cũ là $1$ phần thì số mới là $10$ phần như thế.
+
+Số mới hơn số cũ số phần là:
+$$10-1=9\ \text{(phần)}$$
+
+Số mới hơn số cũ $31{,}5$ đơn vị, nên $9$ phần bằng $31{,}5$. Số cần tìm (một phần) là:
+$$31{,}5:9=3{,}5$$
+
+*Kiểm tra.* $3{,}5\times10=35$ và $35-3{,}5=31{,}5$. Đúng.
+
+Vậy số thập phân cần tìm là $3{,}5$.
 
 **Đáp số.** $3{,}5$.
 :::

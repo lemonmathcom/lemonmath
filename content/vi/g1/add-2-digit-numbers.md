@@ -137,7 +137,13 @@ Tính $32+45$.
 2. Tính $3+4$.
 
 ::solution
-Hàng đơn vị: $2+5=7$. Hàng chục: $3+4=7$. Vậy $32+45=77$.
+Số $32$ gồm $3$ chục và $2$ đơn vị; số $45$ gồm $4$ chục và $5$ đơn vị. Ta cộng từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $2+5=7$.
+
+Hàng chục: $3+4=7$.
+
+Vậy $32+45=77$.
 
 **Đáp số.** $77$.
 :::
@@ -153,7 +159,13 @@ Tính $61+28$.
 2. Tính $6+2$.
 
 ::solution
-Hàng đơn vị: $1+8=9$. Hàng chục: $6+2=8$. Vậy $61+28=89$.
+Số $61$ gồm $6$ chục và $1$ đơn vị; số $28$ gồm $2$ chục và $8$ đơn vị. Ta cộng từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $1+8=9$.
+
+Hàng chục: $6+2=8$.
+
+Vậy $61+28=89$.
 
 **Đáp số.** $89$.
 :::
@@ -169,7 +181,13 @@ Tính $40+37$.
 2. Tính $4+3$.
 
 ::solution
-Hàng đơn vị: $0+7=7$. Hàng chục: $4+3=7$. Vậy $40+37=77$.
+Số $40$ gồm $4$ chục và $0$ đơn vị; số $37$ gồm $3$ chục và $7$ đơn vị. Ta cộng từng hàng, bắt đầu từ hàng đơn vị.
+
+Hàng đơn vị: $0+7=7$.
+
+Hàng chục: $4+3=7$.
+
+Vậy $40+37=77$.
 
 **Đáp số.** $77$.
 :::
@@ -185,7 +203,17 @@ Hàng đơn vị: $0+7=7$. Hàng chục: $4+3=7$. Vậy $40+37=77$.
 2. So sánh kết quả với $60$.
 
 ::solution
-$4+5=9$ và $2+3=5$, nên $24+35=59$. Vì $59<60$ nên $24+35<60$.
+Trước hết ta tính vế trái $24+35$.
+
+Hàng đơn vị: $4+5=9$.
+
+Hàng chục: $2+3=5$.
+
+Do đó $24+35=59$.
+
+Ta so sánh $59$ với $60$. Số $59$ có $5$ chục, số $60$ có $6$ chục, mà $5$ chục ít hơn $6$ chục nên $59<60$.
+
+Vậy $24+35<60$, ta điền dấu $<$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -201,8 +229,14 @@ Cây táo có $54$ quả táo đỏ và $23$ quả táo xanh. Hỏi cây táo c�
 2. Tính $54+23$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số quả táo có tất cả là:
+Bài giải
+
+Muốn biết cây táo có tất cả bao nhiêu quả táo, ta cộng số táo đỏ với số táo xanh. Số quả táo có tất cả là:
 $$54+23=77\ \text{(quả)}.$$
+
+Cách tính: hàng đơn vị $4+3=7$, hàng chục $5+2=7$.
+
+Vậy cây táo có tất cả $77$ quả táo.
 
 **Đáp số.** $77$ quả táo.
 :::
@@ -218,7 +252,15 @@ Em hãy nhớ lại bài trước: cộng số có hai chữ số với số có
 2. Cộng thêm $2$ chục vào hàng chục.
 
 ::solution
-$5+4=9$, nên $35+4=39$. Thêm $2$ chục: $3+2=5$ chục, nên $39+20=59$.
+Bài này có hai bước: tính $35+4$, rồi cộng kết quả với $20$.
+
+Bước 1. Cộng một số có hai chữ số với một số có một chữ số: $5+4=9$, hàng chục giữ nguyên là $3$, nên $35+4=39$.
+
+Bước 2. Cộng $39$ với $20$. Số $20$ là $2$ chục, nên ta cộng vào hàng chục: $3+2=5$ chục. Hàng đơn vị giữ nguyên là $9$, nên $39+20=59$.
+
+Kiểm tra: $35+4+20=35+24=59$. Đúng.
+
+Vậy kết quả cần tìm là $59$.
 
 **Đáp số.** $59$.
 :::
@@ -234,7 +276,15 @@ Bình làm bài: "$25+43$: hàng đơn vị $5+3=8$, hàng chục $2+4=6$, nên 
 2. Ghép lại: mấy chục, mấy đơn vị?
 
 ::solution
-Hai phép cộng của Bình đúng, nhưng Bình viết nhầm chỗ. Có $6$ chục và $8$ đơn vị nên $25+43=68$.
+Ta tính lại $25+43$.
+
+Hàng đơn vị: $5+3=8$.
+
+Hàng chục: $2+4=6$.
+
+Hai phép cộng của Bình đều đúng. Tuy nhiên kết quả có $6$ chục và $8$ đơn vị, nên số đó là $68$. Bình đã viết $8$ vào hàng chục và $6$ vào hàng đơn vị nên được $86$.
+
+Vậy Bình làm sai, và phép tính đúng là $25+43=68$.
 
 **Đáp số.** Sai; kết quả đúng là $68$.
 :::
@@ -250,9 +300,17 @@ Tìm chữ số thích hợp điền vào ô trống: $3\square+41=75$.
 2. Kiểm tra hàng chục: $3+4=7$.
 
 ::solution
-Hàng đơn vị: $4+1=5$. Số cần tìm là $34$, và chữ số cần điền là $4$.
+Số $3\square$ cộng với $41$ thì được $75$. Ta xét từng hàng.
 
-**Kiểm tra.** $34+41=75$. Đúng.
+Hàng đơn vị: số $41$ có $1$ đơn vị và tổng có $5$ đơn vị. Ta tìm chữ số $\square$ sao cho $\square+1=5$. Vì $4+1=5$ nên $\square=4$.
+
+Hàng chục: $3+4=7$, đúng bằng chữ số hàng chục của $75$.
+
+Do đó số cần tìm là $34$.
+
+Kiểm tra: $34+41=75$. Đúng.
+
+Vậy chữ số thích hợp điền vào ô trống là $4$.
 
 **Đáp số.** $4$.
 :::

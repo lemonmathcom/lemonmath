@@ -130,7 +130,15 @@ c) $10$ hundreds $=\square$ thousand.
 2. Fill in each box.
 
 ::solution
-Ten ones make a ten, ten tens make a hundred, and ten hundreds make a thousand.
+Every ten ones make a ten, every ten tens make a hundred, and every ten hundreds make a thousand.
+
+a) $10$ ones put together make $1$ ten, so $10$ ones $=1$ ten.
+
+b) $10$ tens put together make $1$ hundred, so $10$ tens $=1$ hundred.
+
+c) $10$ hundreds put together make $1$ thousand, so $10$ hundreds $=1$ thousand.
+
+So all three numbers to write are $1$.
 
 **Answer.** a) $1$; b) $1$; c) $1$.
 :::
@@ -152,7 +160,15 @@ c) $1$ thousand $=\square$ hundreds.
 2. Fill in each box.
 
 ::solution
-One ten has ten ones, one hundred has ten tens, and one thousand has ten hundreds.
+This is the reverse of the previous exercise: one ten has ten ones, one hundred has ten tens, and one thousand has ten hundreds.
+
+a) $1$ ten has $10$ ones, so $1$ ten $=10$ ones.
+
+b) $1$ hundred has $10$ tens, so $1$ hundred $=10$ tens.
+
+c) $1$ thousand has $10$ hundreds, so $1$ thousand $=10$ hundreds.
+
+So all three numbers to write are $10$.
 
 **Answer.** a) $10$; b) $10$; c) $10$.
 :::
@@ -168,7 +184,14 @@ Remember the last lesson. A tin of milk is a cylinder with $2$ flat faces. How m
 2. Change the number you found into tens.
 
 ::solution
-The flat faces of $10$ tins: $10\times2=20$. And $20=10+10$, which is $2$ tens.
+Solution
+
+Each tin of milk has $2$ flat faces, and there are $10$ such tins, so the number $2$ is taken $10$ times. The number of flat faces of $10$ tins is:
+$$10\times2=20\ \text{(flat faces)}$$
+
+We have $20=10+10$, and $10$ is $1$ ten, so $20$ is $2$ tens.
+
+So $10$ tins have $20$ flat faces, which is $2$ tens.
 
 **Answer.** $20$ flat faces, which is $2$ tens.
 :::
@@ -190,7 +213,19 @@ c) $5$ tens $=\square$ ones.
 2. Or count on in tens: $10, 20, 30, \dots$
 
 ::solution
-$2$ tens: $10+10=20$. $3$ tens: $10+10+10=30$. $5$ tens: counting on in tens five times gives $50$.
+One ten is $10$ ones. To change tens to ones, we count on in tens as many times as there are tens.
+
+a) $2$ tens is two times ten:
+$$10+10=20.$$
+So $2$ tens $=20$ ones.
+
+b) $3$ tens is three times ten:
+$$10+10+10=30.$$
+So $3$ tens $=30$ ones.
+
+c) $5$ tens: counting on in tens five times gives $10, 20, 30, 40, 50$. So $5$ tens $=50$ ones.
+
+So the numbers to fill in are $20$, $30$ and $50$.
 
 **Answer.** a) $20$; b) $30$; c) $50$.
 :::
@@ -206,7 +241,13 @@ You want to count $100$ marbles quickly. You put $10$ marbles in each bag. How m
 2. How many tens is $100$?
 
 ::solution
-Each bag is $1$ ten. $100$ is $1$ hundred, and $1$ hundred has $10$ tens. So you need $10$ bags.
+Each bag holds $10$ marbles, which is $1$ ten of marbles. The number of marbles to count is $100$, which is $1$ hundred.
+
+Now $1$ hundred has $10$ tens (because $10$ tens put together make $1$ hundred). So $100$ marbles are $10$ tens of marbles, and each ten of marbles goes into one bag.
+
+Check: $10$ bags with $10$ marbles in each make $10\times10=100$ (marbles), which is correct.
+
+So you need $10$ bags, because $1$ hundred has $10$ tens.
 
 **Answer.** $10$ bags.
 :::
@@ -222,7 +263,11 @@ Nam says: "$1$ hundred is $10$ ones." What is wrong with what Nam says? Correct 
 2. How many tens make $1$ hundred?
 
 ::solution
-$10$ ones make only $1$ ten, not yet $1$ hundred. To make $1$ hundred you need $10$ tens.
+Nam says: "$1$ hundred is $10$ ones."
+
+$10$ ones put together make only $1$ ten, not yet $1$ hundred. To make $1$ hundred we need $10$ tens, that is $100$ ones.
+
+So Nam is wrong because he mixes up $10$ ones (which is $1$ ten) with $1$ hundred; the correct statement is that $1$ hundred is $10$ tens.
 
 **Answer.** $1$ hundred is $10$ tens.
 :::
@@ -238,7 +283,15 @@ One box holds $100$ exercise books. A shop has $10$ such boxes. How many thousan
 2. Change $10$ hundreds into thousands and write the answer with its unit.
 
 ::solution
-$10$ boxes make $10$ hundreds of books. And $10$ hundreds make $1$ thousand.
+Solution
+
+Each box holds $100$ exercise books, which is $1$ hundred books. There are $10$ such boxes, so there are $10$ hundreds of books.
+
+And $10$ hundreds put together make $1$ thousand.
+
+Check: the number of books is $100\times10=1000$ (books), and $1000$ is $1$ thousand, which is correct.
+
+So there are $1$ thousand books altogether.
 
 **Answer.** $1$ thousand books.
 :::

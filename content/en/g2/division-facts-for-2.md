@@ -175,11 +175,15 @@ c) $20\div2$
 2. Write the quotient.
 
 ::solution
-a) $2\times3=6$, so $6\div2=3$.
+We use the $2$ times table to find each quotient.
 
-b) $2\times6=12$, so $12\div2=6$.
+a) We have $2\times3=6$, so $6\div2=3$.
 
-c) $2\times10=20$, so $20\div2=10$.
+b) We have $2\times6=12$, so $12\div2=6$.
+
+c) We have $2\times10=20$, so $20\div2=10$.
+
+So $6\div2=3$; $12\div2=6$; $20\div2=10$.
 
 **Answer.** a) 3; b) 6; c) 10.
 :::
@@ -201,11 +205,15 @@ c) $50\div5$
 2. Write the quotient.
 
 ::solution
-a) $5\times2=10$, so $10\div5=2$.
+We use the $5$ times table to find each quotient.
 
-b) $5\times5=25$, so $25\div5=5$.
+a) We have $5\times2=10$, so $10\div5=2$.
 
-c) $5\times10=50$, so $50\div5=10$.
+b) We have $5\times5=25$, so $25\div5=5$.
+
+c) We have $5\times10=50$, so $50\div5=10$.
+
+So $10\div5=2$; $25\div5=5$; $50\div5=10$.
 
 **Answer.** a) 2; b) 5; c) 10.
 :::
@@ -225,9 +233,13 @@ b) $\square\div5=4$
 2. Part b: work out $5\times4$.
 
 ::solution
-a) $2\times6=12$, so $12\div2=6$.
+The dividend is the quotient multiplied by the divisor, so we multiply the quotient by the divisor.
 
-b) $5\times4=20$, so $20\div5=4$.
+a) We have $2\times6=12$, so $12\div2=6$. The missing number is $12$.
+
+b) We have $5\times4=20$, so $20\div5=4$. The missing number is $20$.
+
+So the two missing numbers are $12$ and $20$.
 
 **Answer.** a) 12; b) 20.
 :::
@@ -243,8 +255,15 @@ You know that $2\times9=18$. Write the two matching divisions.
 2. Divide the product by each factor.
 
 ::solution
-Divide the product 18 by each factor:
-$$18\div2=9,\qquad 18\div9=2.$$
+From one multiplication we can write two divisions by dividing the product by each factor.
+
+Divide the product $18$ by the factor $2$:
+$$18\div2=9.$$
+
+Divide the product $18$ by the factor $9$:
+$$18\div9=2.$$
+
+So the two matching divisions are $18\div2=9$ and $18\div9=2$.
 
 **Answer.** $18\div2=9$ and $18\div9=2$.
 :::
@@ -264,8 +283,13 @@ Suppose 40 oranges are shared equally between 5 baskets. How many oranges are in
 Solution
 
 The number of oranges in each basket is:
-$$40\div5=8\ \text{(oranges)}.$$
-Answer: 8 oranges.
+$$40\div5=8\ \text{(oranges)}$$
+
+Check: $5\times8=40$ (oranges), which is correct.
+
+So each basket has $8$ oranges.
+
+**Answer.** 8 oranges.
 :::
 
 :::exercise
@@ -283,8 +307,13 @@ Suppose 18 children are split into teams of 2. How many teams are there?
 Solution
 
 The number of teams is:
-$$18\div2=9\ \text{(teams)}.$$
-Answer: 9 teams.
+$$18\div2=9\ \text{(teams)}$$
+
+Check: $2\times9=18$ (children), which is correct.
+
+So there are $9$ teams.
+
+**Answer.** 9 teams.
 :::
 
 :::exercise
@@ -298,8 +327,13 @@ Remember the lesson on hours and minutes. When the long hand of a clock has pass
 2. Use the division facts for 5.
 
 ::solution
-45 minutes passed: $45\div5=9$, so the long hand points to 9.
-20 minutes passed: $20\div5=4$, so the long hand points to 4.
+On a clock face, the long hand pointing to $1$ means $5$ minutes, pointing to $2$ means $10$ minutes, and so on. To find the number the long hand points to, we divide the number of minutes by $5$.
+
+$45$ minutes passed: we have $5\times9=45$, so $45\div5=9$. The long hand points to $9$.
+
+$20$ minutes passed: we have $5\times4=20$, so $20\div5=4$. The long hand points to $4$.
+
+So the long hand points to $9$ after $45$ minutes and to $4$ after $20$ minutes.
 
 **Answer.** 9 and 4.
 :::
@@ -315,8 +349,13 @@ A number divided by 5 gives a quotient of 4. What quotient do you get if you div
 2. Divide that number by 2.
 
 ::solution
-The number is $5\times4=20$. Dividing by 2:
+The number divided by $5$ gives a quotient of $4$, so the number is the quotient times the divisor. We have
+$$5\times4=20.$$
+
+Dividing that number by $2$, we get
 $$20\div2=10.$$
+
+So the quotient is $10$ when the number is divided by $2$.
 
 **Answer.** 10.
 :::

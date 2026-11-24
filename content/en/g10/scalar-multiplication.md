@@ -258,7 +258,16 @@ Suppose $|\vec{a}| = 6$. Find $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ 
 2. Look at the sign of each number to decide the direction.
 
 ::solution
-$|2\vec{a}| = 2\cdot6 = 12$, $\left|-\dfrac{1}{2}\vec{a}\right| = \dfrac{1}{2}\cdot6 = 3$, $|0\vec{a}| = |\vec{0}| = 0$. Since $2>0$, $2\vec{a}$ has the direction of $\vec{a}$; since $-\dfrac12<0$, $-\dfrac{1}{2}\vec{a}$ points the opposite way.
+We use the properties of the product of a number and a vector: $|k\vec{a}|=|k|\cdot|\vec{a}|$; for $\vec{a}\neq\vec{0}$, the vector $k\vec{a}$ has the same direction as $\vec{a}$ if $k>0$ and the opposite direction if $k<0$.
+
+With $|\vec{a}|=6$, we have
+$$|2\vec{a}|=|2|\cdot6=12,\qquad \left|-\frac12\vec{a}\right|=\left|-\frac12\right|\cdot6=\frac12\cdot6=3.$$
+
+Since $0\vec{a}=\vec{0}$, we get $|0\vec{a}|=|\vec{0}|=0$.
+
+Since $|\vec{a}|=6\neq0$, we have $\vec{a}\neq\vec{0}$. As $2>0$, the vector $2\vec{a}$ has the direction of $\vec{a}$; as $-\dfrac12<0$, the vector $-\dfrac12\vec{a}$ points the opposite way.
+
+So $|2\vec{a}|=12$, $\left|-\dfrac12\vec{a}\right|=3$, $|0\vec{a}|=0$, and of the two given vectors only $2\vec{a}$ has the direction of $\vec{a}$.
 
 **Answer.** $12$; $3$; $0$; only $2\vec{a}$ has the direction of $\vec{a}$.
 :::
@@ -274,9 +283,15 @@ Simplify $3(\vec{a} - 2\vec{b}) - 2(\vec{a} - \vec{b})$.
 2. Collect the terms in $\vec{a}$, then the terms in $\vec{b}$.
 
 ::solution
-$$3\vec{a} - 6\vec{b} - 2\vec{a} + 2\vec{b} = (3-2)\vec{a} + (-6+2)\vec{b} = \vec{a} - 4\vec{b}.$$
+Using the distributive property $k(\vec{u}-\vec{v})=k\vec{u}-k\vec{v}$, we expand the brackets:
+$$3(\vec{a}-2\vec{b})-2(\vec{a}-\vec{b})=3\vec{a}-6\vec{b}-2\vec{a}+2\vec{b}.$$
 
-**Answer.** $\vec{a} - 4\vec{b}$.
+Collecting the terms in $\vec{a}$ and the terms in $\vec{b}$:
+$$\begin{aligned}3\vec{a}-6\vec{b}-2\vec{a}+2\vec{b}&=(3-2)\vec{a}+(-6+2)\vec{b}\\&=\vec{a}-4\vec{b}.\end{aligned}$$
+
+So $3(\vec{a}-2\vec{b})-2(\vec{a}-\vec{b})=\vec{a}-4\vec{b}$.
+
+**Answer.** $\vec{a}-4\vec{b}$.
 :::
 
 :::exercise
@@ -290,9 +305,17 @@ In triangle $ABC$ let $M$, $N$ be the midpoints of $AB$, $AC$. Prove that $\over
 2. Substitute $\overrightarrow{AM}$, $\overrightarrow{AN}$ and take out the factor $\dfrac12$.
 
 ::solution
-$$\overrightarrow{MN} = \overrightarrow{AN} - \overrightarrow{AM} = \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} = \frac{1}{2}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{1}{2}\overrightarrow{BC}.$$
+Since $M$ is the midpoint of $AB$, we have $\overrightarrow{AM}=\dfrac12\overrightarrow{AB}$. Since $N$ is the midpoint of $AC$, we have $\overrightarrow{AN}=\dfrac12\overrightarrow{AC}$.
 
-**Answer.** $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$ (proved): the midsegment is parallel to the third side and half as long.
+By the difference rule (for the three points $A$, $M$, $N$) we have $\overrightarrow{MN}=\overrightarrow{AN}-\overrightarrow{AM}$. Substituting the equalities above, we get
+$$\begin{aligned}\overrightarrow{MN}&=\frac12\overrightarrow{AC}-\frac12\overrightarrow{AB}\\&=\frac12\left(\overrightarrow{AC}-\overrightarrow{AB}\right).\end{aligned}$$
+
+By the difference rule, $\overrightarrow{AC}-\overrightarrow{AB}=\overrightarrow{BC}$. Therefore
+$$\overrightarrow{MN}=\frac12\overrightarrow{BC}.$$
+
+So $\overrightarrow{MN}=\dfrac12\overrightarrow{BC}$; it follows that $MN\parallel BC$ and $MN=\dfrac12BC$, that is, the midsegment is parallel to the third side and half as long.
+
+**Answer.** $\overrightarrow{MN}=\dfrac12\overrightarrow{BC}$ (proved): the midsegment is parallel to the third side and half as long.
 :::
 
 :::exercise
@@ -323,7 +346,15 @@ On a straight east–west road, a car drives at $40$ km/h towards the east; call
 2. Add a minus sign if the vehicle goes the opposite way to the car.
 
 ::solution
-Lorry: $\dfrac{60}{40}=\dfrac32$, opposite direction, so its velocity is $-\dfrac32\vec{v}$. Bicycle: $\dfrac{15}{40}=\dfrac38$, same direction, so its velocity is $\dfrac38\vec{v}$.
+Let $\vec{v}_1$ be the velocity of the lorry and $\vec{v}_2$ the velocity of the bicycle. The velocity of the car is $\vec{v}$, with $|\vec{v}|=40$ km/h, directed towards the east.
+
+Lorry: its speed is $60$ km/h and it travels towards the west, opposite to $\vec{v}$. The ratio of the magnitudes is $\dfrac{60}{40}=\dfrac32$. Since the two vectors have opposite directions,
+$$\vec{v}_1=-\frac32\vec{v}.$$
+
+Bicycle: its speed is $15$ km/h and it travels towards the east, in the same direction as $\vec{v}$. The ratio of the magnitudes is $\dfrac{15}{40}=\dfrac38$. Since the two vectors have the same direction,
+$$\vec{v}_2=\frac38\vec{v}.$$
+
+So the velocity of the lorry is $-\dfrac32\vec{v}$ and the velocity of the bicycle is $\dfrac38\vec{v}$.
 
 **Answer.** Lorry $-\dfrac{3}{2}\vec{v}$; bicycle $\dfrac{3}{8}\vec{v}$.
 :::
@@ -344,13 +375,18 @@ d) $\overrightarrow{AB} + \overrightarrow{AC} = 3\overrightarrow{AG}$.
 2. For c) and d), use the midpoint formula with a suitable point $O$.
 
 ::solution
-a) **True.** $\overrightarrow{AG}$ and $\overrightarrow{AM}$ have the same direction and $AG=\dfrac23AM$.
+Since $G$ is the centroid of triangle $ABC$ and $M$ is the midpoint of $BC$, the points $A$, $G$, $M$ are collinear, $G$ lies between $A$ and $M$, and $AG=\dfrac23AM$, $GM=\dfrac13AM$; hence $GA=2GM$.
 
-b) **False.** $GA=2GM$, but $\overrightarrow{GA}$ and $\overrightarrow{GM}$ point opposite ways ($G$ lies between $A$ and $M$), so $\overrightarrow{GA} = -2\overrightarrow{GM}$.
+a) **True.** Since $G$ lies between $A$ and $M$, the vectors $\overrightarrow{AG}$ and $\overrightarrow{AM}$ have the same direction. Together with $AG=\dfrac23AM$, this gives $\overrightarrow{AG}=\dfrac23\overrightarrow{AM}$.
 
-c) **True.** The midpoint formula with $O=G$.
+b) **False.** In length we do have $GA=2GM$, but since $G$ lies between $A$ and $M$, the vectors $\overrightarrow{GA}$ and $\overrightarrow{GM}$ point opposite ways. Therefore $\overrightarrow{GA}=-2\overrightarrow{GM}$, not $2\overrightarrow{GM}$.
 
-d) **True.** With $O=A$: $\overrightarrow{AB} + \overrightarrow{AC} = 2\overrightarrow{AM} = 2\cdot\dfrac{3}{2}\overrightarrow{AG} = 3\overrightarrow{AG}$.
+c) **True.** Since $M$ is the midpoint of $BC$, for every point $O$ we have $\overrightarrow{OB}+\overrightarrow{OC}=2\overrightarrow{OM}$. Taking $O=G$ gives $\overrightarrow{GB}+\overrightarrow{GC}=2\overrightarrow{GM}$.
+
+d) **True.** Applying the midpoint formula with $O=A$: $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}$. From a) we get $\overrightarrow{AM}=\dfrac32\overrightarrow{AG}$, so
+$$\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}=2\cdot\frac32\overrightarrow{AG}=3\overrightarrow{AG}.$$
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -366,9 +402,15 @@ In triangle $ABC$ the point $D$ lies on side $BC$ with $BD = \dfrac{1}{4}BC$. Ex
 2. Substitute $\overrightarrow{BC}$ and collect coefficients.
 
 ::solution
-$$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{3}{4}\overrightarrow{AB} + \frac{1}{4}\overrightarrow{AC}.$$
+Since $D$ lies on side $BC$ and $BD=\dfrac14BC$, the vector $\overrightarrow{BD}$ has the same direction as $\overrightarrow{BC}$ and
+$$\overrightarrow{BD}=\frac14\overrightarrow{BC}.$$
 
-**Answer.** $\overrightarrow{AD} = \dfrac{3}{4}\overrightarrow{AB} + \dfrac{1}{4}\overrightarrow{AC}$.
+By the three-point rule, $\overrightarrow{AD}=\overrightarrow{AB}+\overrightarrow{BD}$. Substituting $\overrightarrow{BD}=\dfrac14\overrightarrow{BC}$ and $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$, we get
+$$\begin{aligned}\overrightarrow{AD}&=\overrightarrow{AB}+\frac14\left(\overrightarrow{AC}-\overrightarrow{AB}\right)\\&=\frac34\overrightarrow{AB}+\frac14\overrightarrow{AC}.\end{aligned}$$
+
+So $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
+
+**Answer.** $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
 :::
 
 :::exercise
@@ -382,9 +424,19 @@ $$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - 
 2. In triangle $ABD$: $AB=3$, $BD=AC=5$, $\angle ABD=120^\circ$. Find $AD$.
 
 ::solution
-Complete the parallelogram $ABDC$. Then $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}=2\overrightarrow{AM}$, and in triangle $ABD$ we have $AB=3$, $BD=5$, $\angle ABD=120^\circ$:
-$$AD^2=3^2+5^2-2\cdot3\cdot5\cos120^\circ=9+25+15=49,$$
-so $AD=7$ and $AM=\dfrac72=3.5$.
+Complete the parallelogram $ABDC$ with $AB$ and $AC$ as adjacent sides and $D$ the vertex opposite $A$. By the parallelogram rule, $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}$.
+
+The diagonals $AD$ and $BC$ of a parallelogram bisect each other. Since $M$ is the midpoint of $BC$, it is also the midpoint of $AD$. Therefore $\overrightarrow{AD}=2\overrightarrow{AM}$ and $AD=2AM$.
+
+In the parallelogram $ABDC$ we have $BD=AC=5$ (opposite sides) and $AC\parallel BD$. The angles $\angle BAC$ and $\angle ABD$ are co-interior angles, so
+$$\angle ABD=180^\circ-\angle BAC=180^\circ-60^\circ=120^\circ.$$
+
+Applying the cosine rule in triangle $ABD$ with $AB=3$, $BD=5$, $\angle ABD=120^\circ$:
+$$\begin{aligned}AD^2&=AB^2+BD^2-2\cdot AB\cdot BD\cdot\cos120^\circ\\&=3^2+5^2-2\cdot3\cdot5\cdot\left(-\frac12\right)\\&=9+25+15=49.\end{aligned}$$
+
+Hence $AD=7$ (since $AD>0$), and $AM=\dfrac{AD}{2}=\dfrac72=3.5$.
+
+So the median $AM$ has length $3.5$.
 
 **Answer.** $3.5$.
 :::
@@ -400,10 +452,23 @@ In triangle $ABC$, $D$ is the point of $BC$ with $\overrightarrow{BD} = 2\overri
 2. Write $\overrightarrow{BE}$ and $\overrightarrow{BF}$ in terms of $\vec{b}$, $\vec{c}$ and find $k$.
 
 ::solution
-$\overrightarrow{AD} = \vec{b} + \dfrac{2}{3}(\vec{c} - \vec{b}) = \dfrac{1}{3}\vec{b} + \dfrac{2}{3}\vec{c}$, so $\overrightarrow{AE} = \dfrac{1}{6}\vec{b} + \dfrac{1}{3}\vec{c}$. Then:
-$$\overrightarrow{BE} = \overrightarrow{AE} - \vec{b} = -\frac{5}{6}\vec{b} + \frac{1}{3}\vec{c},\qquad \overrightarrow{BF} = \overrightarrow{AF} - \vec{b} = -\vec{b} + \frac{2}{5}\vec{c} = \frac{6}{5}\overrightarrow{BE}.$$
+Put $\vec{b}=\overrightarrow{AB}$ and $\vec{c}=\overrightarrow{AC}$. Since $A$, $B$, $C$ are the vertices of a triangle, $\vec{b}$ and $\vec{c}$ are non-collinear.
 
-**Answer.** $\overrightarrow{BF} = \dfrac{6}{5}\overrightarrow{BE}$, so $B$, $E$, $F$ are collinear.
+From $\overrightarrow{BD}=2\overrightarrow{DC}$ we get $\overrightarrow{BC}=\overrightarrow{BD}+\overrightarrow{DC}=\overrightarrow{BD}+\dfrac12\overrightarrow{BD}=\dfrac32\overrightarrow{BD}$, that is $\overrightarrow{BD}=\dfrac23\overrightarrow{BC}$. Therefore
+$$\overrightarrow{AD}=\overrightarrow{AB}+\overrightarrow{BD}=\vec{b}+\frac23(\vec{c}-\vec{b})=\frac13\vec{b}+\frac23\vec{c}.$$
+
+Since $E$ is the midpoint of $AD$,
+$$\overrightarrow{AE}=\frac12\overrightarrow{AD}=\frac16\vec{b}+\frac13\vec{c}.$$
+
+We express $\overrightarrow{BE}$ and $\overrightarrow{BF}$ in terms of $\vec{b}$ and $\vec{c}$:
+$$\overrightarrow{BE}=\overrightarrow{AE}-\vec{b}=-\frac56\vec{b}+\frac13\vec{c},\qquad \overrightarrow{BF}=\overrightarrow{AF}-\vec{b}=\frac25\vec{c}-\vec{b}=-\vec{b}+\frac25\vec{c}.$$
+
+On the other hand,
+$$\frac65\overrightarrow{BE}=\frac65\cdot\left(-\frac56\right)\vec{b}+\frac65\cdot\frac13\vec{c}=-\vec{b}+\frac25\vec{c}=\overrightarrow{BF}.$$
+
+So $\overrightarrow{BF}=\dfrac65\overrightarrow{BE}$. Since $\overrightarrow{BE}\neq\vec{0}$ (as $\vec{b}$, $\vec{c}$ are non-collinear, the coefficients $-\dfrac56$ and $\dfrac13$ cannot both vanish), the vectors $\overrightarrow{BE}$ and $\overrightarrow{BF}$ are collinear, hence the points $B$, $E$, $F$ are collinear.
+
+**Answer.** $\overrightarrow{BF}=\dfrac{6}{5}\overrightarrow{BE}$, so $B$, $E$, $F$ are collinear.
 :::
 
 :::exercise Challenge
@@ -417,9 +482,19 @@ Let $\vec{a}$, $\vec{b}$ be non-collinear, $\vec{u} = \vec{a} + 2\vec{b}$, $\vec
 2. Compare coefficients with $5\vec{a} + \vec{b}$ and solve the system.
 
 ::solution
-$x\vec{u} + y\vec{v} = (x + y)\vec{a} + (2x - y)\vec{b}$. Comparing coefficients:
-$$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3.\end{cases}$$
-**Check.** $2(\vec{a} + 2\vec{b}) + 3(\vec{a} - \vec{b}) = 5\vec{a} + \vec{b}$.
+Since $\vec{a}$, $\vec{b}$ are non-collinear, if $m\vec{a}+n\vec{b}=m'\vec{a}+n'\vec{b}$ then $m=m'$ and $n=n'$.
+
+We have
+$$x\vec{u}+y\vec{v}=x(\vec{a}+2\vec{b})+y(\vec{a}-\vec{b})=(x+y)\vec{a}+(2x-y)\vec{b}.$$
+
+The condition $\vec{w}=x\vec{u}+y\vec{v}$ becomes $5\vec{a}+\vec{b}=(x+y)\vec{a}+(2x-y)\vec{b}$. Comparing the coefficients of $\vec{a}$ and $\vec{b}$, we obtain the system
+$$\begin{cases} x + y = 5\\ 2x - y = 1.\end{cases}$$
+
+Adding the two equations, we get $3x=6$, so $x=2$. Substituting into $x+y=5$ gives $y=3$.
+
+Check: $2(\vec{a}+2\vec{b})+3(\vec{a}-\vec{b})=2\vec{a}+4\vec{b}+3\vec{a}-3\vec{b}=5\vec{a}+\vec{b}=\vec{w}$.
+
+So $x=2$ and $y=3$.
 
 **Answer.** $x=2$, $y=3$.
 :::

@@ -165,7 +165,15 @@ Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $(ABB'A')\parallel(CDD'C')$.
 2. $AB$ và $AA'$ cắt nhau tại $A$.
 
 ::solution
-$AB\parallel CD\subset(CDD'C')$ nên $AB\parallel(CDD'C')$. $AA'\parallel DD'\subset(CDD'C')$ nên $AA'\parallel(CDD'C')$. Mặt phẳng $(ABB'A')$ chứa hai đường thẳng cắt nhau $AB$, $AA'$ cùng song song với $(CDD'C')$, nên $(ABB'A')\parallel(CDD'C')$.
+Để chứng minh hai mặt phẳng song song, ta chỉ ra mặt phẳng này chứa hai đường thẳng cắt nhau và cùng song song với mặt phẳng kia.
+
+Ta có $AB\parallel CD$ (hai cạnh đối của hình bình hành $ABCD$), $CD\subset(CDD'C')$ và $AB\not\subset(CDD'C')$. Suy ra $AB\parallel(CDD'C')$.
+
+Ta có $AA'\parallel DD'$ (hai cạnh bên của hình hộp), $DD'\subset(CDD'C')$ và $AA'\not\subset(CDD'C')$. Suy ra $AA'\parallel(CDD'C')$.
+
+Mặt phẳng $(ABB'A')$ chứa hai đường thẳng $AB$ và $AA'$ cắt nhau tại $A$, cùng song song với $(CDD'C')$.
+
+Vậy $(ABB'A')\parallel(CDD'C')$.
 
 **Đáp số.** $(ABB'A')\parallel(CDD'C')$.
 :::
@@ -181,7 +189,15 @@ Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $(AB'D')\parallel(C'BD)$.
 2. Áp dụng điều kiện.
 
 ::solution
-$AB'C'D$ là hình bình hành nên $AB'\parallel DC'$, mà $DC'\subset(C'BD)$ nên $AB'\parallel(C'BD)$. $AD'C'B$ là hình bình hành nên $AD'\parallel BC'$, mà $BC'\subset(C'BD)$ nên $AD'\parallel(C'BD)$. Mặt phẳng $(AB'D')$ chứa $AB'$ và $AD'$ cắt nhau tại $A$, cùng song song với $(C'BD)$.
+Ta chỉ ra $(AB'D')$ chứa hai đường thẳng cắt nhau cùng song song với $(C'BD)$.
+
+Tứ giác $AB'C'D$ là hình bình hành nên $AB'\parallel DC'$. Vì $DC'\subset(C'BD)$ và $AB'\not\subset(C'BD)$ nên $AB'\parallel(C'BD)$.
+
+Tứ giác $AD'C'B$ là hình bình hành nên $AD'\parallel BC'$. Vì $BC'\subset(C'BD)$ và $AD'\not\subset(C'BD)$ nên $AD'\parallel(C'BD)$.
+
+Mặt phẳng $(AB'D')$ chứa hai đường thẳng $AB'$ và $AD'$ cắt nhau tại $A$, cùng song song với $(C'BD)$.
+
+Vậy $(AB'D')\parallel(C'BD)$.
 
 **Đáp số.** $(AB'D')\parallel(C'BD)$.
 :::
@@ -197,7 +213,17 @@ Ba mặt phẳng song song cắt hai cát tuyến $d$, $d'$ tại $A$, $B$, $C$ 
 2. Tính $A'B'$ rồi $B'C'=A'C'-A'B'$.
 
 ::solution
-$AC=3+5=8$. Từ $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ ta có $A'B'=\dfrac{3}{8}\cdot24=9$, nên $B'C'=24-9=15$.
+Ba mặt phẳng song song chắn trên hai cát tuyến $d$, $d'$ những đoạn thẳng tương ứng tỉ lệ (định lí Thalès trong không gian), nên
+$$\frac{AB}{AC}=\frac{A'B'}{A'C'}.$$
+
+Vì $B$ nằm giữa $A$ và $C$ nên $AC=AB+BC=3+5=8$.
+
+Thay số, ta được
+$$\frac{A'B'}{24}=\frac38\ \Rightarrow\ A'B'=\frac38\cdot24=9.$$
+
+Vì $B'$ nằm giữa $A'$ và $C'$ nên $B'C'=A'C'-A'B'=24-9=15$.
+
+Vậy $A'B'=9$ và $B'C'=15$.
 
 **Đáp số.** $A'B'=9$, $B'C'=15$.
 :::
@@ -212,7 +238,11 @@ Hình lăng trụ có đáy là đa giác $12$ cạnh có bao nhiêu đỉnh, c�
 1. Thay $n=12$.
 
 ::solution
-Với $n=12$: $2n=24$ đỉnh, $3n=36$ cạnh, $n+2=14$ mặt.
+Xét hình lăng trụ có đáy là đa giác $n$ cạnh. Mỗi đáy có $n$ đỉnh nên lăng trụ có $2n$ đỉnh. Mỗi đáy có $n$ cạnh và có thêm $n$ cạnh bên nên lăng trụ có $n+n+n=3n$ cạnh. Lăng trụ có $2$ mặt đáy và $n$ mặt bên nên có $n+2$ mặt.
+
+Với $n=12$, ta có $2n=24$ đỉnh, $3n=36$ cạnh và $n+2=14$ mặt.
+
+Vậy hình lăng trụ có đáy là đa giác $12$ cạnh có $24$ đỉnh, $36$ cạnh và $14$ mặt.
 
 **Đáp số.** $24$ đỉnh, $36$ cạnh, $14$ mặt.
 :::
@@ -228,7 +258,19 @@ Giả sử ba tấm ván song song của một giá sách chia một thanh gỗ 
 2. Chia $2{,}4$ m theo cùng tỉ lệ.
 
 ::solution
-Tổng số phần là $3+5=8$. Thanh $1{,}2$ m: đoạn trên $\dfrac38\cdot1{,}2=0{,}45$ m và đoạn dưới $0{,}75$ m. Thanh $2{,}4$ m: đoạn trên $\dfrac38\cdot2{,}4=0{,}9$ m và đoạn dưới $1{,}5$ m.
+Ba tấm ván song song cắt hai thanh gỗ thành các đoạn tương ứng tỉ lệ. Vì vậy thanh dài $2{,}4$ m cũng được chia thành hai đoạn (đoạn trên, đoạn dưới) có tỉ lệ $3:5$.
+
+Tổng số phần là $3+5=8$.
+
+Thanh dài $1{,}2$ m: mỗi phần dài $1{,}2:8=0{,}15$ m. Do đó đoạn trên dài
+$$\frac38\cdot1{,}2=0{,}45\ \text{(m)},$$
+và đoạn dưới dài $1{,}2-0{,}45=0{,}75$ m.
+
+Thanh dài $2{,}4$ m: đoạn trên dài
+$$\frac38\cdot2{,}4=0{,}9\ \text{(m)},$$
+và đoạn dưới dài $2{,}4-0{,}9=1{,}5$ m.
+
+Vậy thanh $1{,}2$ m được chia thành các đoạn $0{,}45$ m và $0{,}75$ m; thanh $2{,}4$ m được chia thành các đoạn $0{,}9$ m và $1{,}5$ m.
 
 **Đáp số.** Thanh $1{,}2$ m: $0{,}45$ m và $0{,}75$ m; thanh $2{,}4$ m: $0{,}9$ m và $1{,}5$ m.
 :::
@@ -252,13 +294,15 @@ d) $AA'\parallel(CDD'C')$.
 2. d) $AA'\parallel DD'\subset(CDD'C')$.
 
 ::solution
-a) **Đúng**: hai mặt đối diện song song.
+a) **Đúng.** Hai mặt đáy $(ABCD)$ và $(A'B'C'D')$ là hai mặt đối diện của hình hộp chữ nhật, mà hai mặt đối diện của hình hộp thì song song.
 
-b) **Đúng**: mỗi mặt song song với mặt đối diện và cắt $4$ mặt kề còn lại.
+b) **Đúng.** Hình hộp chữ nhật có $6$ mặt. Mỗi mặt song song với mặt đối diện của nó và cắt $4$ mặt kề còn lại theo các cạnh của hình hộp. Vậy mỗi mặt cắt đúng $4$ mặt còn lại.
 
-c) **Sai**: hình hộp có $12$ cạnh.
+c) **Sai.** Hình hộp chữ nhật có $4$ cạnh ở mỗi đáy và $4$ cạnh bên, tức là $4+4+4=12$ cạnh, không phải $8$ cạnh ($8$ là số đỉnh).
 
-d) **Đúng**: $AA'\parallel DD'\subset(CDD'C')$ và $AA'\not\subset(CDD'C')$.
+d) **Đúng.** Ta có $AA'\parallel DD'$ và $DD'\subset(CDD'C')$. Mặt khác $A\notin(CDD'C')$ nên $AA'\not\subset(CDD'C')$. Suy ra $AA'\parallel(CDD'C')$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -290,7 +334,18 @@ Cho hình chóp $S.ABC$. Mặt phẳng $(\alpha)$ song song với $(ABC)$ cắt 
 2. Làm tương tự với $(SBC)$ và $(SAC)$.
 
 ::solution
-Mặt phẳng $(SAB)$ cắt $(\alpha)$ và $(ABC)$ song song theo $A_1B_1$ và $AB$ nên $A_1B_1\parallel AB$. Theo Thalès trong tam giác $SAB$, $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{A_1B_1}{AB}$. Tương tự với mặt phẳng $(SBC)$ ta có $B_1C_1\parallel BC$ và $\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}$. Ghép các đẳng thức ta có điều phải chứng minh.
+Vì $(\alpha)\parallel(ABC)$ nên mặt phẳng $(SAB)$ cắt hai mặt phẳng song song này theo hai giao tuyến song song: $(SAB)\cap(\alpha)=A_1B_1$ và $(SAB)\cap(ABC)=AB$. Do đó $A_1B_1\parallel AB$.
+
+Trong tam giác $SAB$ có $A_1B_1\parallel AB$ nên theo định lí Thalès,
+$$\frac{SA_1}{SA}=\frac{SB_1}{SB}=\frac{A_1B_1}{AB}.\quad(1)$$
+
+Tương tự, mặt phẳng $(SBC)$ cắt $(\alpha)$ và $(ABC)$ theo $B_1C_1$ và $BC$ nên $B_1C_1\parallel BC$. Trong tam giác $SBC$, theo định lí Thalès,
+$$\frac{SB_1}{SB}=\frac{SC_1}{SC}.\quad(2)$$
+
+Từ (1) và (2) suy ra
+$$\frac{SA_1}{SA}=\frac{SB_1}{SB}=\frac{SC_1}{SC}=\frac{A_1B_1}{AB}.$$
+
+Vậy đẳng thức cần chứng minh đã được chứng minh.
 
 **Đáp số.** $\dfrac{SA_1}{SA}=\dfrac{SB_1}{SB}=\dfrac{SC_1}{SC}=\dfrac{A_1B_1}{AB}$.
 :::

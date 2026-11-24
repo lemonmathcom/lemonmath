@@ -216,7 +216,15 @@ Solve $x^2-4x+3>0$.
 3. Keep the part where the quadratic is positive.
 
 ::solution
-$x^2-4x+3=(x-1)(x-3)$ has roots $1$ and $3$. Since $a=1>0$, the quadratic is positive outside the roots; "$>$" is strict, so the roots are not included.
+Consider the quadratic $f(x)=x^2-4x+3$ with leading coefficient $a=1>0$.
+
+We have $f(x)=x^2-4x+3=(x-1)(x-3)$, so $f(x)=0$ when $x=1$ or $x=3$. Hence $f(x)$ has two distinct roots $x_1=1$ and $x_2=3$.
+
+Since $a=1>0$, $f(x)$ has the same sign as $a$ (that is, it is positive) when $x$ lies outside $[1, 3]$, and the opposite sign (negative) when $x$ lies between the roots. Therefore $f(x)>0$ when $x<1$ or $x>3$.
+
+The inequality is strict ($>$), so the roots $1$ and $3$ are not included.
+
+So the solution set is $S=(-\infty, 1)\cup(3, +\infty)$.
 
 **Answer.** $S=(-\infty, 1)\cup(3, +\infty)$.
 :::
@@ -232,7 +240,15 @@ Solve $x^2-9\le 0$.
 2. With $a>0$, the quadratic is non-positive between the roots.
 
 ::solution
-$x^2-9=(x-3)(x+3)$ has roots $\pm3$. Since $a=1>0$, the quadratic is $\le 0$ between the roots, and both roots count because of the equals sign.
+Consider the quadratic $f(x)=x^2-9$ with leading coefficient $a=1>0$.
+
+We have $x^2-9=(x-3)(x+3)$, so $f(x)=0$ when $x=-3$ or $x=3$.
+
+Since $a=1>0$, $f(x)$ has the opposite sign to $a$ (that is, it is negative) when $x$ lies between the roots, so $f(x)<0$ when $-3<x<3$.
+
+The inequality contains an equals sign ($\le$), so both roots $-3$ and $3$ are included. Therefore $f(x)\le0$ when $-3\le x\le3$.
+
+So the solution set is $S=[-3, 3]$.
 
 **Answer.** $S=[-3, 3]$.
 :::
@@ -248,7 +264,13 @@ Solve $-x^2+2x+8>0$.
 2. Find the roots and keep the middle part.
 
 ::solution
-$-x^2+2x+8=-(x-4)(x+2)$, with roots $-2$ and $4$. Since $a=-1<0$, the quadratic is positive between the roots.
+Consider the quadratic $f(x)=-x^2+2x+8$ with leading coefficient $a=-1<0$.
+
+We have $-x^2+2x+8=-(x^2-2x-8)=-(x-4)(x+2)$, so $f(x)=0$ when $x=-2$ or $x=4$.
+
+Since $a=-1<0$, $f(x)$ has the opposite sign to $a$ (that is, it is positive) when $x$ lies between the roots, and the same sign as $a$ (negative) when $x$ lies outside $[-2, 4]$. Therefore $f(x)>0$ when $-2<x<4$.
+
+So the solution set is $S=(-2, 4)$.
 
 **Answer.** $S=(-2, 4)$.
 :::
@@ -264,7 +286,16 @@ Solve $2x^2-x-3\ge 0$.
 2. With $a>0$, the quadratic is $\ge 0$ outside the roots, roots included.
 
 ::solution
-$\Delta=1+24=25$, roots $x=\dfrac{1\pm5}{4}$, that is $x=-1$ and $x=\dfrac32$. Since $a=2>0$, the quadratic is non-negative outside the roots, roots included.
+Consider the quadratic $f(x)=2x^2-x-3$ with leading coefficient $a=2>0$.
+
+Compute the discriminant: $\Delta=(-1)^2-4\cdot2\cdot(-3)=1+24=25>0$, so $f(x)$ has two distinct roots
+$$x=\frac{1\pm5}{4},\ \text{that is}\ x_1=-1,\quad x_2=\frac32.$$
+
+Since $a=2>0$, $f(x)$ has the same sign as $a$ (that is, it is positive) when $x$ lies outside $\left[-1, \dfrac32\right]$, and it is negative when $x$ lies between the roots.
+
+The inequality contains an equals sign ($\ge$), so both roots are included. Therefore $f(x)\ge0$ when $x\le-1$ or $x\ge\dfrac32$.
+
+So the solution set is $S=(-\infty, -1]\cup\left[\dfrac32, +\infty\right)$.
 
 **Answer.** $S=(-\infty, -1]\cup\left[\dfrac32, +\infty\right)$.
 :::
@@ -280,7 +311,15 @@ Solve $x^2+4x+5>0$.
 2. Look at the sign of $a$ and conclude.
 
 ::solution
-$\Delta=16-20=-4<0$ and $a=1>0$, so the quadratic is positive for every $x$.
+Consider the quadratic $f(x)=x^2+4x+5$ with leading coefficient $a=1>0$.
+
+Compute the discriminant: $\Delta=4^2-4\cdot1\cdot5=16-20=-4<0$. Hence $f(x)$ has no real root.
+
+Since $\Delta<0$, $f(x)$ has the same sign as $a$ for every $x\in\mathbb{R}$; as $a=1>0$, we get $f(x)>0$ for every $x$.
+
+We can double-check by writing $x^2+4x+5=(x+2)^2+1\ge1>0$ for every $x$.
+
+So the inequality holds for every real number $x$, that is, $S=\mathbb{R}$.
 
 **Answer.** $S=\mathbb{R}$.
 :::
@@ -296,7 +335,13 @@ Solve $x^2-4x+4\le 0$.
 2. Ask: when is a square "$\le 0$"?
 
 ::solution
-$x^2-4x+4=(x-2)^2\ge 0$ for every $x$, so it is $\le 0$ only when it equals $0$, that is $x=2$.
+The left-hand side is a perfect square: $x^2-4x+4=(x-2)^2$.
+
+For every real number $x$ we have $(x-2)^2\ge0$.
+
+Therefore $(x-2)^2\le0$ happens only when $(x-2)^2=0$, that is, $x-2=0$, so $x=2$.
+
+So the solution set is $S=\{2\}$.
 
 **Answer.** $S=\{2\}$.
 :::
@@ -313,11 +358,20 @@ A rectangular garden has perimeter $20$ m and width $x$ m (the width is not larg
 3. Combine with the condition that the width is not larger than the length.
 
 ::solution
-Half the perimeter is $10$ m, so the length is $10-x$ and the area is $x(10-x)$. We need
-$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
-The width is not larger than the length: $x\le 10-x$, that is $x\le 5$.
+Let $x$ (m) be the width of the garden. Since the perimeter is $20$ m, the semi-perimeter is $10$ m, so the length is $10-x$ (m) and the area is $x(10-x)$ (m²).
 
-**Answer.** $3\le x\le 5$ (metres). Check: $x=3$ gives an area of $3\cdot7=21$ m², just enough.
+Condition: the width is positive and not larger than the length, that is $0<x\le10-x$, so $0<x\le5$.
+
+The area is at least $21$ m², so
+$$\begin{aligned} x(10-x)\ge21 &\iff x^2-10x+21\le0\\ &\iff (x-3)(x-7)\le0\\ &\iff 3\le x\le7. \end{aligned}$$
+
+Combining with the condition $0<x\le5$, we get $3\le x\le5$.
+
+Check: for $x=3$ the length is $7$ m and the area is $3\cdot7=21$ m², just enough; for $x=5$ the garden is a square of side $5$ m with area $25$ m² $\ge21$ m².
+
+So the width $x$ satisfies $3\le x\le5$ (metres).
+
+**Answer.** $3\le x\le5$ (metres).
 :::
 
 :::exercise
@@ -331,7 +385,19 @@ Solve $\dfrac{x+1}{x-3}<0$.
 2. Check the signs of both on each interval.
 
 ::solution
-The numerator is $0$ at $x=-1$, the denominator at $x=3$ (excluded). On $(-1, 3)$ the numerator is positive and the denominator negative, so the quotient is negative; outside that interval they have the same sign, so the quotient is positive.
+Condition: $x-3\ne0$, that is $x\ne3$.
+
+The numerator $x+1$ is $0$ at $x=-1$; the denominator $x-3$ is $0$ at $x=3$. We study the sign of the quotient $\dfrac{x+1}{x-3}$ on each interval:
+
+| $x$ | $-\infty$ | | $-1$ | | $3$ | | $+\infty$ |
+|---|---|---|---|---|---|---|---|
+| $x+1$ | | $-$ | $0$ | $+$ | | $+$ | |
+| $x-3$ | | $-$ | | $-$ | $0$ | $+$ | |
+| $\dfrac{x+1}{x-3}$ | | $+$ | $0$ | $-$ | undefined | $+$ | |
+
+On $(-1, 3)$ the numerator is positive and the denominator is negative, so the quotient is negative; outside this interval (and apart from $-1$, $3$) the numerator and denominator have the same sign, so the quotient is positive. At $x=-1$ the quotient equals $0$, which does not satisfy the strict inequality, and $x=3$ is excluded by the condition.
+
+So the solution set is $S=(-1, 3)$.
 
 **Answer.** $S=(-1, 3)$.
 :::
@@ -347,7 +413,15 @@ Solve $x^4-5x^2+4<0$.
 2. Go back to $x$: turn the condition on $t$ into a condition on $x^2$, then on $x$.
 
 ::solution
-With $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. So $1<x^2<4$, that is $1<|x|<2$.
+Let $t=x^2$, with the condition $t\ge0$. The inequality becomes
+$$t^2-5t+4<0\iff(t-1)(t-4)<0\iff1<t<4.$$
+This interval lies within the condition $t\ge0$, so it is admissible.
+
+Substituting $t=x^2$, we get $1<x^2<4$. Since $x^2=|x|^2$, this is equivalent to $1<|x|<2$.
+
+We have $|x|>1$ when $x<-1$ or $x>1$, and $|x|<2$ when $-2<x<2$. Combining the two conditions, we get $-2<x<-1$ or $1<x<2$.
+
+So the solution set is $S=(-2, -1)\cup(1, 2)$.
 
 **Answer.** $S=(-2, -1)\cup(1, 2)$.
 :::
@@ -363,7 +437,13 @@ Find the domain of $y=\sqrt{x^2-3x-4}$.
 2. Factorise and read the sign.
 
 ::solution
-We need $x^2-3x-4=(x-4)(x+1)\ge 0$. Since $a=1>0$, this holds outside the roots $-1$ and $4$, roots included.
+The function $y=\sqrt{x^2-3x-4}$ is defined when the expression under the square root is non-negative: $x^2-3x-4\ge0$.
+
+We have $x^2-3x-4=(x-4)(x+1)$, so the quadratic $f(x)=x^2-3x-4$ has roots $x=-1$ and $x=4$.
+
+Since $a=1>0$, $f(x)\ge0$ when $x$ lies outside the interval between the roots, roots included (because of the equals sign). Therefore $x\le-1$ or $x\ge4$.
+
+So the domain of the function is $D=(-\infty, -1]\cup[4, +\infty)$.
 
 **Answer.** $D=(-\infty, -1]\cup[4, +\infty)$.
 :::

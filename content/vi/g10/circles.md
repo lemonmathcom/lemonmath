@@ -213,7 +213,13 @@ Viết phương trình đường tròn tâm $(-2; 3)$, bán kính $4$.
 2. Vế phải là $R^2=16$.
 
 ::solution
-$(x+2)^2+(y-3)^2=4^2=16$.
+Đường tròn tâm $I(a; b)$, bán kính $R$ có phương trình $(x-a)^2+(y-b)^2=R^2$.
+
+Với tâm $(-2; 3)$ ta có $a=-2$, $b=3$; bán kính $R=4$. Thay vào, ta được
+$$(x-(-2))^2+(y-3)^2=4^2,$$
+tức là $(x+2)^2+(y-3)^2=16$.
+
+Vậy phương trình đường tròn là $(x+2)^2+(y-3)^2=16$.
 
 **Đáp số.** $(x+2)^2+(y-3)^2=16$.
 :::
@@ -229,7 +235,15 @@ Tìm tâm và bán kính của đường tròn $x^2+y^2-4x+6y-3=0$.
 2. Tính $a^2+b^2-c$.
 
 ::solution
-$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, nên $R=4$.
+Phương trình $x^2+y^2-2ax-2by+c=0$ với điều kiện $a^2+b^2-c>0$ là phương trình đường tròn có tâm $I(a; b)$ và bán kính $R=\sqrt{a^2+b^2-c}$.
+
+Đồng nhất với $x^2+y^2-4x+6y-3=0$, ta có $-2a=-4$, $-2b=6$ và $c=-3$. Suy ra $a=2$, $b=-3$, $c=-3$.
+
+Ta có $a^2+b^2-c=4+9+3=16>0$, nên đây là phương trình đường tròn, với $R=\sqrt{16}=4$.
+
+Kiểm tra bằng cách đưa về dạng chính tắc: $(x-2)^2+(y+3)^2=4+9+3=16$.
+
+Vậy đường tròn có tâm $I(2; -3)$ và bán kính $R=4$.
 
 **Đáp số.** Tâm $(2; -3)$, $R=4$.
 :::
@@ -245,7 +259,15 @@ Phương trình $x^2+y^2-2x+4y+6=0$ có phải là phương trình đường tr�
 2. Xét dấu $a^2+b^2-c$.
 
 ::solution
-$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+Phương trình $x^2+y^2-2ax-2by+c=0$ là phương trình đường tròn khi và chỉ khi $a^2+b^2-c>0$.
+
+Đồng nhất với $x^2+y^2-2x+4y+6=0$, ta có $-2a=-2$, $-2b=4$ và $c=6$. Suy ra $a=1$, $b=-2$, $c=6$.
+
+Ta có $a^2+b^2-c=1+4-6=-1<0$, nên điều kiện không được thoả mãn.
+
+Kiểm tra bằng cách đưa về dạng chính tắc: phương trình tương đương với $(x-1)^2+(y+2)^2=-1$. Vế trái không âm còn vế phải âm nên không có điểm nào thoả mãn.
+
+Vậy $x^2+y^2-2x+4y+6=0$ không phải là phương trình đường tròn.
 
 **Đáp số.** Không phải phương trình đường tròn.
 :::
@@ -262,7 +284,19 @@ Viết phương trình đường tròn đi qua ba điểm $O(0; 0)$, $A(6; 0)$ v
 3. Tính $R^2=a^2+b^2-c$.
 
 ::solution
-$O$: $c=0$. $A$: $36-12a=0$, nên $a=3$. $B$: $64-16b=0$, nên $b=4$. $R^2=9+16-0=25$.
+Gọi phương trình đường tròn cần tìm là $x^2+y^2-2ax-2by+c=0$ (với $a^2+b^2-c>0$).
+
+Vì đường tròn đi qua $O(0; 0)$ nên $0+0-0-0+c=0$, suy ra $c=0$.
+
+Vì đường tròn đi qua $A(6; 0)$ nên $36+0-12a-0+c=0$. Với $c=0$ ta có $36-12a=0$, suy ra $a=3$.
+
+Vì đường tròn đi qua $B(0; 8)$ nên $0+64-0-16b+c=0$. Với $c=0$ ta có $64-16b=0$, suy ra $b=4$.
+
+Kiểm tra điều kiện: $a^2+b^2-c=9+16-0=25>0$ (thoả mãn), nên $R^2=25$, $R=5$.
+
+Do đó đường tròn có tâm $I(3; 4)$, bán kính $5$ và phương trình $(x-3)^2+(y-4)^2=25$. Kiểm tra: $(0-3)^2+(0-4)^2=25$; $(6-3)^2+(0-4)^2=25$; $(0-3)^2+(8-4)^2=25$.
+
+Vậy phương trình đường tròn đi qua ba điểm $O$, $A$, $B$ là $(x-3)^2+(y-4)^2=25$.
 
 **Đáp số.** $(x-3)^2+(y-4)^2=25$.
 :::
@@ -278,7 +312,16 @@ Viết phương trình tiếp tuyến của đường tròn $x^2+y^2=25$ tại �
 2. Viết đường thẳng qua $M$ với $\vec{n}=\overrightarrow{OM}$.
 
 ::solution
-$3^2+4^2=25$, nên $M$ thuộc đường tròn. $\overrightarrow{OM}=(3; 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+Đường tròn $x^2+y^2=25$ có tâm $O(0; 0)$ và bán kính $5$.
+
+Thay toạ độ $M(3; 4)$ vào: $3^2+4^2=9+16=25$, nên $M$ thuộc đường tròn.
+
+Tiếp tuyến của đường tròn tại $M$ là đường thẳng đi qua $M$ và vuông góc với $OM$. Do đó tiếp tuyến nhận $\overrightarrow{OM}=(3; 4)$ làm vectơ pháp tuyến.
+
+Phương trình tiếp tuyến là
+$$3(x-3)+4(y-4)=0\iff3x+4y-9-16=0\iff3x+4y-25=0.$$
+
+Vậy tiếp tuyến của đường tròn tại $M(3; 4)$ có phương trình $3x+4y-25=0$.
 
 **Đáp số.** $3x+4y-25=0$.
 :::
@@ -303,15 +346,18 @@ d) Tiếp tuyến của $(C)$ tại $A$ có phương trình $3x+4y-30=0$.
 3. Tính $\overrightarrow{IA}$ và viết tiếp tuyến.
 
 ::solution
-$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
+Đồng nhất $(C): x^2+y^2-6x+2y-15=0$ với $x^2+y^2-2ax-2by+c=0$, ta có $-2a=-6$, $-2b=2$, $c=-15$, suy ra $a=3$, $b=-1$, $c=-15$. Khi đó $a^2+b^2-c=9+1+15=25>0$.
 
-a) **Đúng**: tâm $(a; b)=(3; -1)$.
+a) **Đúng.** Tâm của $(C)$ là $I(a; b)=(3; -1)$.
 
-b) **Sai**: $R^2=25$, nên $R=5$.
+b) **Sai.** Bán kính là $R=\sqrt{a^2+b^2-c}=\sqrt{25}=5$; số $25$ là $R^2$ chứ không phải $R$.
 
-c) **Đúng**: $36+9-36+6-15=0$.
+c) **Đúng.** Thay toạ độ $A(6; 3)$ vào vế trái: $6^2+3^2-6\cdot6+2\cdot3-15=36+9-36+6-15=0$, nên $A$ thuộc $(C)$.
 
-d) **Đúng**: $\overrightarrow{IA}=(3; 4)$, tiếp tuyến $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
+d) **Đúng.** Vì $A$ thuộc $(C)$ nên tiếp tuyến tại $A$ vuông góc với $IA$, nhận $\overrightarrow{IA}=(6-3; 3-(-1))=(3; 4)$ làm vectơ pháp tuyến. Phương trình tiếp tuyến là
+$$3(x-6)+4(y-3)=0\iff3x+4y-30=0.$$
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -327,7 +373,19 @@ d) **Đúng**: $\overrightarrow{IA}=(3; 4)$, tiếp tuyến $3(x-6)+4(y-3)=0\iff
 2. Thay vào công thức độ dài dây cung.
 
 ::solution
-$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, nên $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8{,}94$. (Giải hệ cũng cho $A(5; 0)$, $B(-3; 4)$ và $AB=\sqrt{64+16}=\sqrt{80}$.)
+Đường tròn $x^2+y^2=25$ có tâm $O(0; 0)$ và bán kính $R=5$.
+
+Khoảng cách từ $O$ đến đường thẳng $x+2y-5=0$ là
+$$d=\frac{|0+2\cdot0-5|}{\sqrt{1^2+2^2}}=\frac{5}{\sqrt5}=\sqrt5.$$
+
+Vì $d=\sqrt5<5=R$ nên đường thẳng cắt đường tròn tại hai điểm $A$, $B$. Gọi $H$ là chân đường vuông góc hạ từ $O$ xuống đường thẳng; $H$ là trung điểm của $AB$. Xét tam giác $OHA$ vuông tại $H$, ta có
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{R^2-d^2}=\sqrt{25-5}=\sqrt{20}.$$
+
+Suy ra $AB=2HA=2\sqrt{20}=4\sqrt5\approx8{,}94$.
+
+Kiểm tra bằng cách giải hệ: từ $x=5-2y$, thay vào $x^2+y^2=25$ ta được $(5-2y)^2+y^2=25\iff5y^2-20y=0$, suy ra $y=0$ hoặc $y=4$. Hai giao điểm là $A(5; 0)$ và $B(-3; 4)$, khi đó $AB=\sqrt{(5+3)^2+(0-4)^2}=\sqrt{64+16}=\sqrt{80}=4\sqrt5$ (khớp).
+
+Vậy độ dài $AB$ bằng $4\sqrt5$, làm tròn đến hàng phần trăm là $8{,}94$.
 
 **Đáp số.** $8{,}94$.
 :::
@@ -343,7 +401,15 @@ Một máy phát Wi-Fi đặt tại điểm $I(2; 3)$ trên sơ đồ một căn
 2. So sánh từng số với $25$.
 
 ::solution
-$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
+Vùng phủ sóng là hình tròn tâm $I(2; 3)$, bán kính $5$ m. Một điểm $P$ nằm trong vùng phủ sóng khi $IP<5$, nằm ngoài khi $IP>5$ và nằm đúng biên khi $IP=5$. Vì $IP\ge0$ nên ta so sánh $IP^2$ với $5^2=25$.
+
+Với $A(5; 6)$: $IA^2=(5-2)^2+(6-3)^2=9+9=18<25$, nên $IA<5$ (khoảng $4{,}24$ m).
+
+Với $B(7; 1)$: $IB^2=(7-2)^2+(1-3)^2=25+4=29>25$, nên $IB>5$ (khoảng $5{,}39$ m).
+
+Với $C(-1; 7)$: $IC^2=(-1-2)^2+(7-3)^2=9+16=25$, nên $IC=5$ m.
+
+Vậy máy $A$ nằm trong vùng phủ sóng, máy $B$ nằm ngoài vùng phủ sóng, máy $C$ nằm đúng biên.
 
 **Đáp số.** $A$ trong vùng phủ sóng, $B$ ngoài, $C$ ở đúng biên.
 :::
@@ -360,7 +426,23 @@ Viết phương trình đường tròn tâm $I(1; 2)$ tiếp xúc với đườn
 3. Giải hệ để tìm tiếp điểm.
 
 ::solution
-$R=\dfrac{|3-8+15|}{5}=2$, nên đường tròn là $(x-1)^2+(y-2)^2=4$. Đường thẳng qua $I$ vuông góc với $\Delta$: $x=1+3t$, $y=2-4t$. Thay vào $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, cho $x=-\dfrac15$, $y=\dfrac{18}{5}$.
+Đường tròn tâm $I(1; 2)$ tiếp xúc với đường thẳng $\Delta$ khi bán kính bằng khoảng cách từ $I$ đến $\Delta$:
+$$R=d(I, \Delta)=\frac{|3\cdot1-4\cdot2+15|}{\sqrt{3^2+(-4)^2}}=\frac{|3-8+15|}{5}=\frac{10}{5}=2.$$
+
+Do đó phương trình đường tròn là $(x-1)^2+(y-2)^2=2^2=4$.
+
+Tiếp điểm $H$ là hình chiếu vuông góc của $I$ trên $\Delta$. Đường thẳng $\Delta$ có vectơ pháp tuyến $\vec n=(3; -4)$, nên đường thẳng qua $I$ vuông góc với $\Delta$ nhận $\vec n$ làm vectơ chỉ phương. Phương trình tham số của nó là
+$$x=1+3t,\qquad y=2-4t.$$
+
+Toạ độ của $H$ ứng với $t$ thoả mãn phương trình của $\Delta$. Thay vào $\Delta$:
+$$3(1+3t)-4(2-4t)+15=0\iff3+9t-8+16t+15=0\iff25t+10=0\iff t=-\frac25.$$
+
+Suy ra
+$$x=1+3\cdot\left(-\frac25\right)=-\frac15,\qquad y=2-4\cdot\left(-\frac25\right)=\frac{18}{5}.$$
+
+Kiểm tra: $3\cdot\left(-\dfrac15\right)-4\cdot\dfrac{18}{5}+15=\dfrac{-3-72+75}{5}=0$, nên $H$ thuộc $\Delta$; và $IH^2=\left(-\dfrac15-1\right)^2+\left(\dfrac{18}{5}-2\right)^2=\dfrac{36}{25}+\dfrac{64}{25}=4$, nên $IH=2=R$.
+
+Vậy đường tròn là $(x-1)^2+(y-2)^2=4$ và tiếp điểm có toạ độ $\left(-\dfrac15; \dfrac{18}{5}\right)$.
 
 **Đáp số.** $(x-1)^2+(y-2)^2=4$; tiếp điểm $\left(-\dfrac15; \dfrac{18}{5}\right)$.
 :::
@@ -377,7 +459,18 @@ Viết phương trình đường tròn đi qua $A(1; 1)$, $B(5; 3)$ và có tâm
 3. Tính $R^2=IA^2$.
 
 ::solution
-Trung điểm $(3; 2)$, $\overrightarrow{AB}=(4; 2)$: trung trực $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. Với $y=0$: $x=4$, tâm $I(4; 0)$. $R^2=IA^2=9+1=10$ (và $IB^2=1+9=10$).
+Gọi $I$ là tâm đường tròn cần tìm. Vì đường tròn đi qua $A$ và $B$ nên $IA=IB$, tức là $I$ nằm trên đường trung trực của đoạn $AB$. Ngoài ra $I$ nằm trên trục hoành, tức là $y_I=0$.
+
+Trung điểm của $AB$ là $\left(\dfrac{1+5}{2}; \dfrac{1+3}{2}\right)=(3; 2)$ và $\overrightarrow{AB}=(5-1; 3-1)=(4; 2)$.
+
+Đường trung trực của $AB$ đi qua $(3; 2)$ và nhận $\overrightarrow{AB}=(4; 2)$ làm vectơ pháp tuyến, nên có phương trình
+$$4(x-3)+2(y-2)=0\iff4x+2y-16=0\iff2x+y-8=0.$$
+
+Vì $I$ thuộc trục hoành nên $y=0$. Thay vào phương trình trên: $2x-8=0$, suy ra $x=4$. Vậy $I(4; 0)$.
+
+Bán kính thoả mãn $R^2=IA^2=(1-4)^2+(1-0)^2=9+1=10$. Kiểm tra: $IB^2=(5-4)^2+(3-0)^2=1+9=10$ (bằng $IA^2$).
+
+Vậy phương trình đường tròn là $(x-4)^2+y^2=10$.
 
 **Đáp số.** $(x-4)^2+y^2=10$.
 :::

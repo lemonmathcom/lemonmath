@@ -156,13 +156,17 @@ Dùng máy tính để tính: a) $25{,}6\times4{,}5$; b) $3456{,}78+1234{,}56$; 
 2. Ước lượng để kiểm tra kết quả.
 
 ::solution
-a) $25{,}6\times4{,}5=115{,}2$ (ước lượng: $26\times4{,}5\approx117$).
+Ta bấm máy tính, rồi ước lượng để kiểm tra xem kết quả có hợp lí không.
 
-b) $3456{,}78+1234{,}56=4691{,}34$ (ước lượng: $3500+1200=4700$).
+a) Bấm máy tính được $25{,}6\times4{,}5=115{,}2$. Ước lượng: $26\times4{,}5\approx117$, gần $115{,}2$ nên hợp lí.
 
-c) $9000-2718{,}45=6281{,}55$ (ước lượng: $9000-2700=6300$).
+b) Bấm máy tính được $3456{,}78+1234{,}56=4691{,}34$. Ước lượng: $3500+1200=4700$, gần $4691{,}34$ nên hợp lí.
 
-d) $78{,}4:1{,}6=49$ (ước lượng: $80:2=40$, và $1{,}6<2$ nên kết quả hơi lớn hơn $40$).
+c) Bấm máy tính được $9000-2718{,}45=6281{,}55$. Ước lượng: $9000-2700=6300$, gần $6281{,}55$ nên hợp lí.
+
+d) Bấm máy tính được $78{,}4:1{,}6=49$. Ước lượng: $80:2=40$; vì số chia $1{,}6<2$ nên thương hơi lớn hơn $40$, và $49$ hợp lí.
+
+Vậy kết quả bốn phép tính lần lượt là $115{,}2$; $4691{,}34$; $6281{,}55$; $49$.
 
 **Đáp số.** a) $115{,}2$; b) $4691{,}34$; c) $6281{,}55$; d) $49$.
 :::
@@ -178,9 +182,15 @@ d) $78{,}4:1{,}6=49$ (ước lượng: $80:2=40$, và $1{,}6<2$ nên kết quả
 2. Nhân hai số tròn, rồi so sánh với kết quả của máy.
 
 ::solution
-Ước lượng: $50\times10=500$. Dùng máy tính: $48{,}7\times9{,}8=477{,}26$.
+Ước lượng bằng cách làm tròn các thừa số: $48{,}7\approx50$ và $9{,}8\approx10$, nên
+$$48{,}7\times9{,}8\approx50\times10=500.$$
 
-Kết quả $477{,}26$ gần $500$, nên hợp lí.
+Dùng máy tính, ta được
+$$48{,}7\times9{,}8=477{,}26.$$
+
+Kết quả $477{,}26$ gần với giá trị ước lượng $500$ nên kết quả của máy hợp lí.
+
+Vậy $48{,}7\times9{,}8=477{,}26$ và kết quả của máy hợp lí.
 
 **Đáp số.** $477{,}26$.
 :::
@@ -196,9 +206,11 @@ Dùng máy tính rồi làm tròn: a) $23:7$, làm tròn đến hàng phần tr�
 2. Làm tròn từ kết quả đầy đủ trên màn hình.
 
 ::solution
-a) $23:7=3{,}2857142\ldots$ Chữ số hàng phần nghìn là $5$ nên làm tròn được $3{,}29$.
+a) Bấm máy tính được $23:7=3{,}2857142\ldots$ Làm tròn đến hàng phần trăm thì ta giữ hai chữ số sau dấu phẩy và xét chữ số hàng phần nghìn. Chữ số hàng phần nghìn là $5$, mà $5\ge5$ nên ta cộng thêm $1$ vào chữ số hàng phần trăm: $3{,}28\to3{,}29$.
 
-b) $100:3=33{,}333\ldots$ Chữ số hàng phần trăm là $3<5$ nên làm tròn được $33{,}3$.
+b) Bấm máy tính được $100:3=33{,}333\ldots$ Làm tròn đến hàng phần mười thì ta giữ một chữ số sau dấu phẩy và xét chữ số hàng phần trăm. Chữ số hàng phần trăm là $3<5$ nên ta giữ nguyên chữ số hàng phần mười: $33{,}3$.
+
+Vậy $23:7\approx3{,}29$ và $100:3\approx33{,}3$.
 
 **Đáp số.** a) $3{,}29$; b) $33{,}3$.
 :::
@@ -214,10 +226,14 @@ Giả sử $1$ m dây thép giá $12\,750$ đồng. Hỏi mua $6{,}4$ m dây th�
 2. Dùng máy tính để nhân, rồi ước lượng để kiểm tra. Nhớ ghi đơn vị.
 
 ::solution
-Số tiền mua dây thép là:
+Bài giải
+
+Số tiền mua dây thép bằng giá tiền $1$ m nhân với số mét dây. Số tiền mua $6{,}4$ m dây thép là:
 $$12\,750\times6{,}4=81\,600\ \text{(đồng)}.$$
 
-**Kiểm tra.** Ước lượng: $13\,000\times6=78\,000$, gần $81\,600$. Hợp lí.
+Kiểm tra: ước lượng $13\,000\times6=78\,000$, gần $81\,600$ nên kết quả hợp lí.
+
+Vậy mua $6{,}4$ m dây thép hết $81\,600$ đồng.
 
 **Đáp số.** $81\,600$ đồng.
 :::
@@ -233,7 +249,10 @@ Giả sử một thư viện có $1250$ quyển sách, trong đó có $325$ quy�
 2. Nhân kết quả với $100$.
 
 ::solution
-Ta có $325:1250=0{,}26$ và $0{,}26\times100=26$.
+Bài giải
+
+Muốn biết truyện tranh chiếm bao nhiêu phần trăm số sách, ta lấy số truyện tranh chia cho tổng số sách, rồi nhân với $100$. Ta có
+$$325:1250=0{,}26\quad\text{và}\quad0{,}26\times100=26.$$
 
 Vậy truyện tranh chiếm $26\%$ số sách của thư viện.
 
@@ -251,9 +270,15 @@ Một bánh xe đạp có đường kính $0{,}65$ m. Mỗi vòng quay, bánh xe
 2. Nhân chu vi với $100$.
 
 ::solution
-Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ (m). Mỗi vòng quay, bánh xe đi được $2{,}041$ m.
+Bài giải
 
-Quay $100$ vòng, bánh xe đi được $2{,}041\times100=204{,}1$ (m).
+Mỗi vòng quay, bánh xe đi được một quãng đường bằng chu vi của bánh xe. Chu vi bánh xe là:
+$$0{,}65\times3{,}14=2{,}041\ \text{(m)}.$$
+
+Quãng đường bánh xe đi được sau $100$ vòng quay là:
+$$2{,}041\times100=204{,}1\ \text{(m)}.$$
+
+Vậy mỗi vòng quay bánh xe đi được $2{,}041$ m và quay $100$ vòng thì đi được $204{,}1$ m.
 
 **Đáp số.** $2{,}041$ m một vòng; $204{,}1$ m sau $100$ vòng.
 :::
@@ -269,9 +294,12 @@ Em hãy nhớ lại bài nhân, chia số thập phân với $10$; $100$; $1000$
 2. So sánh vị trí dấu phẩy trước và sau khi tính.
 
 ::solution
-Dùng máy tính: $3{,}48\times100=348$ và $56{,}7:1000=0{,}0567$.
+Dùng máy tính, ta được
+$$3{,}48\times100=348\quad\text{và}\quad56{,}7:1000=0{,}0567.$$
 
-Nhân với $100$: dấu phẩy dịch sang phải hai chữ số. Chia cho $1000$: dấu phẩy dịch sang trái ba chữ số.
+Nhận xét. Khi nhân $3{,}48$ với $100$, dấu phẩy dịch sang phải hai chữ số (có hai chữ số $0$ ở $100$). Khi chia $56{,}7$ cho $1000$, dấu phẩy dịch sang trái ba chữ số (có ba chữ số $0$ ở $1000$), và ta thêm các chữ số $0$ cần thiết ở đầu.
+
+Vậy $3{,}48\times100=348$ và $56{,}7:1000=0{,}0567$.
 
 **Đáp số.** $348$ và $0{,}0567$.
 :::
@@ -287,7 +315,13 @@ Dùng máy tính để tính $36:0{,}4$ và máy hiển thị $90$. An nghĩ: "P
 2. So sánh $0{,}4$ với $0{,}5$ để biết thương lớn hơn hay bé hơn kết quả ước lượng.
 
 ::solution
-Em không đồng ý. Ước lượng: $36:0{,}5=72$. Vì $0{,}4<0{,}5$ nên $36:0{,}4$ phải lớn hơn $72$, và $90$ hợp lí. Chia cho số bé hơn $1$ thì thương lớn hơn số bị chia.
+Dùng máy tính, ta được $36:0{,}4=90$, kết quả này lớn hơn số bị chia $36$. Ta ước lượng để kiểm tra.
+
+Ta có $36:0{,}5=72$. Vì $0{,}4<0{,}5$ nên $36:0{,}4$ phải lớn hơn $72$. Do đó $90$ là kết quả hợp lí.
+
+Khi chia cho một số bé hơn $1$ thì thương lớn hơn số bị chia. Vì vậy phép chia có kết quả lớn hơn số bị chia chưa chắc là bấm sai.
+
+Vậy em không đồng ý với An: máy tính đúng, An nhầm.
 
 **Đáp số.** Máy tính đúng, An nhầm.
 :::
@@ -303,9 +337,14 @@ Dùng máy tính tính $1:7$. Em thấy các chữ số sau dấu phẩy lặp l
 2. Chia $20$ cho số chữ số của nhóm để biết chữ số thứ $20$ nằm ở vị trí nào trong nhóm.
 
 ::solution
-Màn hình hiện $0{,}142857142857\ldots$ Nhóm $142857$ ($6$ chữ số) lặp lại mãi.
+Dùng máy tính, màn hình hiện
+$$1:7=0{,}142857142857\ldots$$
 
-Vì $20=3\times6+2$ nên chữ số thứ $20$ là chữ số thứ hai của nhóm, tức là $4$.
+Ta thấy nhóm sáu chữ số $142857$ lặp đi lặp lại mãi sau dấu phẩy.
+
+Ta chia số thứ tự của chữ số cho $6$: $20=3\times6+2$. Như vậy $18$ chữ số đầu là $3$ nhóm $142857$ trọn vẹn, và chữ số thứ $20$ là chữ số thứ hai của nhóm tiếp theo. Chữ số thứ hai của nhóm $142857$ là $4$.
+
+Vậy chữ số thứ $20$ sau dấu phẩy là chữ số $4$.
 
 **Đáp số.** Chữ số thứ $20$ là $4$.
 :::

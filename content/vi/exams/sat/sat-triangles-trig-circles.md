@@ -145,7 +145,18 @@ D. $7\sqrt2$
 1. Nhân cạnh góc vuông với $\sqrt2$.
 
 ::solution
-Cạnh huyền là $7\sqrt2$: đáp án **D**. Kiểm tra bằng Pythagore: $49+49=98=(7\sqrt2)^2$.
+Gọi $c$ là độ dài cạnh huyền ($c>0$). Tam giác vuông cân có hai cạnh góc vuông bằng nhau, mỗi cạnh dài $7$.
+
+Áp dụng định lí Pythagore, ta có
+$$c^2=7^2+7^2=49+49=98.$$
+
+Suy ra $c=\sqrt{98}=\sqrt{49\cdot2}=7\sqrt2$ (nhận $c>0$).
+
+Kiểm tra: $\left(7\sqrt2\right)^2=49\cdot2=98=49+49$ (đúng).
+
+Vậy cạnh huyền dài $7\sqrt2$, nên chọn **D**.
+
+**Đáp số.** D.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -158,7 +169,17 @@ Một cây cột cao 2 mét có bóng dài 3 mét. Cùng lúc đó, một cái c
 1. $\dfrac{h}{18}=\dfrac{2}{3}$.
 
 ::solution
-$h=18\cdot\dfrac23=12$ mét.
+Gọi $h$ (mét) là chiều cao của cây ($h>0$).
+
+Cùng một thời điểm, tia nắng tạo với mặt đất cùng một góc, nên cột và bóng của nó, cây và bóng của nó tạo thành hai tam giác vuông đồng dạng. Do đó tỉ số chiều cao trên độ dài bóng là như nhau:
+$$\frac{h}{18}=\frac{2}{3}.$$
+
+Suy ra
+$$h=18\cdot\frac23=12.$$
+
+Vậy cây cao $12$ mét.
+
+**Đáp số.** $12$ mét.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -171,7 +192,16 @@ Với góc $0<x<90$, $\cos x^\circ=\sin20^\circ$. Giá trị của $x$ bằng ba
 1. Cho $90-x=20$.
 
 ::solution
-$x=70$.
+Với hai góc phụ nhau $\alpha$ và $90^\circ-\alpha$, ta có $\sin\alpha=\cos\left(90^\circ-\alpha\right)$.
+
+Áp dụng với $\alpha=20^\circ$:
+$$\sin20^\circ=\cos\left(90^\circ-20^\circ\right)=\cos70^\circ.$$
+
+Do đó $\cos x^\circ=\cos70^\circ$. Vì $0<x<90$ và hàm số côsin nghịch biến trên khoảng $\left(0^\circ; 90^\circ\right)$ nên $x=70$ (thoả mãn điều kiện $0<x<90$).
+
+Vậy $x=70$.
+
+**Đáp số.** $70$.
 :::
 
 :::exercise Trắc nghiệm
@@ -188,7 +218,16 @@ D. $\dfrac43$
 1. Cạnh đối diện $A$ chính là cạnh kề $B$.
 
 ::solution
-$\cos B=\sin A=\dfrac35$: đáp án **C**. Phương án A là $\cos A$ (và $\sin B$).
+Tam giác $ABC$ vuông tại $C$ nên hai góc nhọn $A$ và $B$ phụ nhau: $A+B=90^\circ$.
+
+Với hai góc phụ nhau, sin của góc này bằng côsin của góc kia. Do đó
+$$\cos B=\cos\left(90^\circ-A\right)=\sin A=\frac35.$$
+
+Vậy $\cos B=\dfrac35$, nên chọn **C**.
+
+*Nhận xét.* Phương án A là $\cos A=\sqrt{1-\sin^2A}=\dfrac45$ (và cũng bằng $\sin B$); phương án B là $\tan A=\dfrac34$; phương án D là $\tan B=\dfrac43$.
+
+**Đáp số.** C.
 :::
 
 :::exercise Trắc nghiệm
@@ -205,7 +244,17 @@ D. $(-8, 2)$
 1. $x^2+8x=(x+4)^2-16$, $y^2-2y=(y-1)^2-1$.
 
 ::solution
-$(x+4)^2+(y-1)^2=16+1-8=9$. Tâm là $(-4, 1)$ và bán kính là $3$: đáp án **B**.
+Đưa phương trình về dạng chính tắc bằng cách nhóm các số hạng chứa $x$ và chứa $y$:
+$$\left(x^2+8x\right)+\left(y^2-2y\right)+8=0.$$
+
+Hoàn thành bình phương: $x^2+8x=(x+4)^2-16$ và $y^2-2y=(y-1)^2-1$. Thay vào, ta được
+$$(x+4)^2-16+(y-1)^2-1+8=0\iff(x+4)^2+(y-1)^2=16+1-8=9.$$
+
+Đây là phương trình đường tròn $(x-a)^2+(y-b)^2=R^2$ với $a=-4$, $b=1$ và $R^2=9$, tức là $R=3$.
+
+Vậy đường tròn có tâm $(-4; 1)$ và bán kính $3$, nên chọn **B**.
+
+**Đáp số.** B.
 :::
 
 ## Bài tập vận dụng
@@ -220,7 +269,18 @@ Một chiếc thang dài 13 feet dựa vào một bức tường thẳng đứng
 1. $h^2=13^2-5^2$.
 
 ::solution
-$h^2=169-25=144$, nên $h=12$ feet.
+Chiếc thang, bức tường thẳng đứng và mặt đất tạo thành một tam giác vuông: thang là cạnh huyền dài $13$ feet, chân thang cách tường $5$ feet là một cạnh góc vuông.
+
+Gọi $h$ (feet) là độ cao của đầu thang trên tường ($h>0$). Áp dụng định lí Pythagore, ta có
+$$h^2+5^2=13^2\iff h^2=169-25=144.$$
+
+Suy ra $h=\sqrt{144}=12$ (nhận $h>0$).
+
+Kiểm tra: $5^2+12^2=25+144=169=13^2$ (đúng).
+
+Vậy đầu thang chạm tường ở độ cao $12$ feet.
+
+**Đáp số.** $12$ feet.
 :::
 
 :::exercise Dốc lên xuống
@@ -233,7 +293,14 @@ Một con dốc dài 10 mét nghiêng một góc $6^\circ$ so với phương nga
 1. Độ cao $=10\sin6^\circ$ (máy tính để chế độ độ).
 
 ::solution
-$10\sin6^\circ\approx10\cdot0{,}1045=1{,}05$ mét.
+Con dốc, phương ngang và đường thẳng đứng từ đỉnh dốc xuống tạo thành một tam giác vuông. Con dốc là cạnh huyền dài $10$ mét, góc nghiêng $6^\circ$ nằm đối diện với độ cao cần tìm.
+
+Gọi $h$ (mét) là độ cao con dốc lên được ($h>0$). Theo định nghĩa của sin trong tam giác vuông, $\sin6^\circ=\dfrac{h}{10}$, nên
+$$h=10\sin6^\circ\approx10\cdot0{,}1045=1{,}045\approx1{,}05\ \text{(mét)}.$$
+
+Vậy con dốc cao lên khoảng $1{,}05$ mét (làm tròn đến hàng phần trăm).
+
+**Đáp số.** $1{,}05$ mét.
 :::
 
 :::exercise Miếng bánh pizza
@@ -247,7 +314,17 @@ Một chiếc bánh pizza có bán kính 20 xăng-ti-mét được cắt thành 
 2. Cung $=\dfrac{45}{360}\cdot2\pi\cdot20$.
 
 ::solution
-Diện tích $=\dfrac18\cdot400\pi=50\pi\approx157{,}1$ xăng-ti-mét vuông. Cung $=\dfrac18\cdot40\pi=5\pi\approx15{,}7$ xăng-ti-mét.
+Cả chiếc bánh là hình tròn bán kính $R=20$ xăng-ti-mét, được cắt thành $8$ miếng bằng nhau, nên mỗi miếng là một hình quạt tròn chiếm $\dfrac18$ hình tròn.
+
+Diện tích cả hình tròn là $\pi R^2=\pi\cdot20^2=400\pi$. Diện tích một miếng là
+$$S=\frac18\cdot400\pi=50\pi\approx157{,}1\ \text{(xăng-ti-mét vuông)}.$$
+
+Chu vi hình tròn là $2\pi R=2\pi\cdot20=40\pi$. Độ dài mép cong (cung tròn) của một miếng là
+$$\ell=\frac18\cdot40\pi=5\pi\approx15{,}7\ \text{(xăng-ti-mét)}.$$
+
+Vậy diện tích một miếng là $50\pi$ xăng-ti-mét vuông, xấp xỉ $157{,}1$ xăng-ti-mét vuông; độ dài mép cong là $5\pi$ xăng-ti-mét, xấp xỉ $15{,}7$ xăng-ti-mét.
+
+**Đáp số.** Diện tích $50\pi\approx157{,}1$ xăng-ti-mét vuông; độ dài mép cong $5\pi\approx15{,}7$ xăng-ti-mét.
 :::
 
 :::exercise Thử thách
@@ -261,7 +338,20 @@ Diện tích $=\dfrac18\cdot400\pi=50\pi\approx157{,}1$ xăng-ti-mét vuông. Cu
 2. Giữ giá trị dương.
 
 ::solution
-$(k-1)^2=16$, nên $k-1=4$ hoặc $k-1=-4$, cho $k=5$ hoặc $k=-3$. Vì $k>0$ nên $k=5$. Hai điểm $(5, 5)$ và $(5, -3)$ đối xứng nhau qua đường nằm ngang đi qua tâm.
+Điểm $(5; k)$ nằm trên đường tròn $(x-2)^2+(y-1)^2=25$ nên toạ độ của nó thoả mãn phương trình đường tròn. Thay $x=5$, $y=k$, ta được
+$$(5-2)^2+(k-1)^2=25\iff9+(k-1)^2=25\iff(k-1)^2=16.$$
+
+Suy ra $k-1=4$ hoặc $k-1=-4$, tức là $k=5$ hoặc $k=-3$.
+
+Vì $k>0$ nên loại $k=-3$ và nhận $k=5$.
+
+Kiểm tra: $(5-2)^2+(5-1)^2=9+16=25$ (đúng).
+
+Vậy $k=5$.
+
+*Nhận xét.* Hai điểm $(5; 5)$ và $(5; -3)$ đối xứng nhau qua đường nằm ngang đi qua tâm $(2; 1)$ của đường tròn, tức là qua đường thẳng $y=1$.
+
+**Đáp số.** $5$.
 :::
 
 :::quiz

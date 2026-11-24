@@ -199,9 +199,13 @@ Let $A=4x^2-3x+7$ and $B=x^2+5x-2$. Find $A+B$ and $A-B$.
 2. For $A-B$, write $-x^2-5x+2$ after removing the brackets.
 
 ::solution
-We have $A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5$.
+To add or subtract two polynomials, we remove the brackets and group the like terms (terms of the same degree).
 
-We have $A-B=4x^2-3x+7-x^2-5x+2=(4x^2-x^2)+(-3x-5x)+(7+2)=3x^2-8x+9$.
+We have
+$$A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5.$$
+
+We have
+$$\begin{aligned}A-B&=4x^2-3x+7-x^2-5x+2\\&=(4x^2-x^2)+(-3x-5x)+(7+2)\\&=3x^2-8x+9.\end{aligned}$$
 
 So $A+B=5x^2+2x+5$ and $A-B=3x^2-8x+9$.
 
@@ -219,9 +223,13 @@ Let $A=2x^3-x+5$ and $B=-3x^3+x^2+4x-1$. Find $A+B$ and $A-B$.
 2. When subtracting, change the sign of all four terms of $B$.
 
 ::solution
-We have $A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4$.
+We remove the brackets and group the like terms.
 
-We have $A-B=2x^3-x+5+3x^3-x^2-4x+1=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)=5x^3-x^2-5x+6$.
+We have
+$$A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4.$$
+
+When subtracting $B$, we change the sign of every term of $B$ (because of the minus sign in front of the bracket), so
+$$\begin{aligned}A-B&=2x^3-x+5+3x^3-x^2-4x+1\\&=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)\\&=5x^3-x^2-5x+6.\end{aligned}$$
 
 So $A+B=-x^3+x^2+3x+4$ and $A-B=5x^3-x^2-5x+6$.
 
@@ -263,9 +271,11 @@ Find the polynomial $M$, given that $M+(x^2-3x)=2x^2+x-4$.
 2. Remove the brackets, change the signs of the two terms in the second bracket, then combine.
 
 ::solution
-From $M+(x^2-3x)=2x^2+x-4$ we get $M=(2x^2+x-4)-(x^2-3x)$.
+To find an unknown term in a sum, we subtract the known term from the sum. From $M+(x^2-3x)=2x^2+x-4$ we get
+$$M=(2x^2+x-4)-(x^2-3x).$$
 
-Removing the brackets, we get $M=2x^2+x-4-x^2+3x=(2x^2-x^2)+(x+3x)-4=x^2+4x-4$.
+Removing the brackets (changing the signs of the terms in the bracket with a minus sign in front), we get
+$$\begin{aligned}M&=2x^2+x-4-x^2+3x\\&=(2x^2-x^2)+(x+3x)-4\\&=x^2+4x-4.\end{aligned}$$
 
 Check: $(x^2+4x-4)+(x^2-3x)=2x^2+x-4$, as required.
 
@@ -289,11 +299,13 @@ b) $3x\cdot(2x^2-x+4)$.
 2. b) Multiply $3x$ by each term in the brackets; do not miss the last term.
 
 ::solution
-a) We have $(-2)\cdot3=-6$ and $x^2\cdot x^4=x^6$, so $(-2x^2)\cdot(3x^4)=-6x^6$.
+a) We multiply the coefficients and multiply the powers of $x$. We have $(-2)\cdot3=-6$ and $x^2\cdot x^4=x^{2+4}=x^6$. Hence
+$$(-2x^2)\cdot(3x^4)=-6x^6.$$
 
-b) By the distributive property, $3x\cdot(2x^2-x+4)=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4=6x^3-3x^2+12x$.
+b) By the distributive property, we have
+$$\begin{aligned}3x\cdot(2x^2-x+4)&=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4\\&=6x^3-3x^2+12x.\end{aligned}$$
 
-So a) $-6x^6$; b) $6x^3-3x^2+12x$.
+So a) the product is $-6x^6$; b) the product is $6x^3-3x^2+12x$.
 
 **Answer.** a) $-6x^6$; b) $6x^3-3x^2+12x$.
 :::
@@ -313,11 +325,18 @@ b) $(2x+3)(x-1)$.
 2. b) There are $4$ products; combine $-2x$ and $3x$.
 
 ::solution
-a) We have $(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8$. Combining like terms: $x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8$.
+To multiply two polynomials, we multiply each term of one polynomial by every term of the other and add the products.
 
-b) We have $(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3$.
+a) We have
+$$(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8.$$
 
-So a) $x^3-8$; b) $2x^2+x-3$.
+Combining like terms:
+$$x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8.$$
+
+b) We have
+$$(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3.$$
+
+So a) the result is $x^3-8$; b) the result is $2x^2+x-3$.
 
 **Answer.** a) $x^3-8$; b) $2x^2+x-3$.
 :::
@@ -333,11 +352,17 @@ Show that the value of the expression $(x+4)(x-1)-(x^2+3x)$ does not depend on t
 2. Subtract $x^2+3x$ by changing the sign of both terms.
 
 ::solution
-We have $(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4$.
+We simplify the expression; if the result is a constant, then the value of the expression does not depend on $x$.
 
-Hence $(x+4)(x-1)-(x^2+3x)=x^2+3x-4-x^2-3x=-4$.
+First, we have
+$$(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4.$$
 
-The expression always equals $-4$ for every $x$, so its value does not depend on $x$.
+Hence
+$$\begin{aligned}(x+4)(x-1)-(x^2+3x)&=x^2+3x-4-x^2-3x\\&=(x^2-x^2)+(3x-3x)-4\\&=-4.\end{aligned}$$
+
+The expression always equals $-4$ for every value of $x$.
+
+So the value of the expression $(x+4)(x-1)-(x^2+3x)$ does not depend on the value of $x$.
 
 **Answer.** The expression always equals $-4$.
 :::
@@ -401,11 +426,16 @@ Prove that $(x+1)(x^2-x+1)=x^3+1$. Then, by putting $x=10$, find the product $11
 2. Put $x=10$ in both sides: $x+1=11$ and $x^2-x+1=91$.
 
 ::solution
-We have $(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1$. Combining like terms: $x^3+(-x^2+x^2)+(x-x)+1=x^3+1$.
+First we transform the left-hand side. We have
+$$(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1.$$
+
+Combining like terms:
+$$x^3+(-x^2+x^2)+(x-x)+1=x^3+1.$$
 
 So $(x+1)(x^2-x+1)=x^3+1$.
 
-Putting $x=10$, we have $x+1=11$ and $x^2-x+1=100-10+1=91$. Hence $11\cdot91=10^3+1=1001$.
+Now we put $x=10$ into the identity we have just proved. Then $x+1=11$ and $x^2-x+1=100-10+1=91$, while the right-hand side equals $10^3+1=1001$. Hence
+$$11\cdot91=10^3+1=1001.$$
 
 So $11\cdot91=1001$.
 

@@ -153,11 +153,18 @@ c) $7\times6$.
 2. Stop at the number you need.
 
 ::solution
-a) $7\times3=21$.
+Use the $7$ times table to work out each product.
 
-b) $7\times5=35$.
+a) $7\times3$ is the sum of $3$ sevens, so
+$$7\times3=7+7+7=21.$$
 
-c) $7\times6=42$.
+b) $7\times5$ is made of $3$ sevens and $2$ sevens, so
+$$7\times5=7\times3+7\times2=21+14=35.$$
+
+c) Adding one more seven to $7\times5$, we get
+$$7\times6=7\times5+7=35+7=42.$$
+
+So $7\times3=21$; $7\times5=35$; $7\times6=42$.
 
 **Answer.** a) $21$; b) $35$; c) $42$.
 :::
@@ -179,11 +186,18 @@ c) $7\times10$.
 2. Add $7$.
 
 ::solution
-a) $7\times7=42+7=49$.
+In the $7$ times table, each product is $7$ more than the one before it.
 
-b) $7\times9=56+7=63$.
+a) We have $7\times6=42$. Adding one more seven, we get
+$$7\times7=7\times6+7=42+7=49.$$
 
-c) $7\times10=63+7=70$.
+b) We have $7\times8=56$. Adding one more seven, we get
+$$7\times9=7\times8+7=56+7=63.$$
+
+c) We have $7\times9=63$. Adding one more seven, we get
+$$7\times10=7\times9+7=63+7=70.$$
+
+So $7\times7=49$; $7\times9=63$; $7\times10=70$.
 
 **Answer.** a) $49$; b) $63$; c) $70$.
 :::
@@ -205,11 +219,19 @@ c) $6\times9$ and $7\times8$.
 2. Compare the results.
 
 ::solution
-a) $6\times7=42$.
+Recall the $6$ times table to work these out.
 
-b) $7\times6=42$, the same as $6\times7$.
+a) We have
+$$6\times7=6\times6+6=36+6=42.$$
 
-c) $6\times9=54$ and $7\times8=56$, so $6\times9<7\times8$.
+b) When the two factors are swapped, the product does not change, so $7\times6=6\times7=42$. Check: $7\times6=7\times5+7=35+7=42$. Correct.
+
+c) We work out each product:
+$$6\times9=6\times8+6=48+6=54,$$
+$$7\times8=7\times7+7=49+7=56.$$
+Since $54<56$, we have $6\times9<7\times8$.
+
+So $6\times7=42$; $7\times6=42$ (the same as $6\times7$); $6\times9=54$ is less than $7\times8=56$.
 
 **Answer.** a) $42$; b) $42$; c) $54$ and $56$.
 :::
@@ -231,11 +253,15 @@ c) $70\div7$.
 2. The other number is the quotient.
 
 ::solution
-a) $7\times3=21$, so $21\div7=3$.
+To divide, we find the matching multiplication in the $7$ times table.
 
-b) $7\times7=49$, so $49\div7=7$.
+a) Since $7\times3=21$, we have $21\div7=3$.
 
-c) $7\times10=70$, so $70\div7=10$.
+b) Since $7\times7=49$, we have $49\div7=7$.
+
+c) Since $7\times10=70$, we have $70\div7=10$.
+
+So $21\div7=3$; $49\div7=7$; $70\div7=10$.
 
 **Answer.** a) $3$; b) $7$; c) $10$.
 :::
@@ -257,11 +283,15 @@ c) $7\times9 \;\square\; 8\times8$.
 2. Compare the results.
 
 ::solution
-a) $7\times6=42$ and $42>40$, so $7\times6>40$.
+We work out the value of each side and then compare.
 
-b) $56\div7=8$ and $7\times1=7$; $8>7$, so $56\div7>7\times1$.
+a) We have $7\times6=42$. Since $42>40$, we have $7\times6>40$.
 
-c) $7\times9=63$ and $8\times8=64$; $63<64$, so $7\times9<8\times8$.
+b) Since $7\times8=56$, we have $56\div7=8$. Also $7\times1=7$. Since $8>7$, we have $56\div7>7\times1$.
+
+c) We have $7\times9=7\times8+7=56+7=63$ and $8\times8=64$. Since $63<64$, we have $7\times9<8\times8$.
+
+So the signs to write are: $7\times6>40$; $56\div7>7\times1$; $7\times9<8\times8$.
 
 **Answer.** a) $>$; b) $>$; c) $<$.
 :::
@@ -277,9 +307,14 @@ Lam wrote: "$7\times8=54$". Where did Lam go wrong? Correct it.
 2. Check with a division.
 
 ::solution
-$7\times8=7\times7+7=49+7=56$, not $54$.
+We work out the product $7\times8$ again:
+$$7\times8=7\times7+7=49+7=56.$$
 
-**Check.** $56\div7=8$. Correct.
+Lam wrote $54$, but $54\ne56$, so Lam was wrong.
+
+Check: $56\div7=8$, which agrees with $7\times8=56$.
+
+So Lam remembered the wrong product; the correct result is $7\times8=56$.
 
 **Answer.** Lam remembered the wrong product; $7\times8=56$.
 :::
@@ -297,9 +332,17 @@ b) A journey lasts $63$ days. How many weeks is that?
 2. Choose the operation, work it out and write the answer with its unit.
 
 ::solution
-a) The number of days is $7\times6=42$ (days).
+Solution
 
-b) The number of weeks is $63\div7=9$ (weeks).
+One week has $7$ days.
+
+a) The number of days in $6$ weeks is:
+$$7\times6=42\ \text{(days)}$$
+
+b) Since $7\times9=63$, the number of weeks the journey lasts is:
+$$63\div7=9\ \text{(weeks)}$$
+
+So $6$ weeks have $42$ days; the journey lasts $9$ weeks.
 
 **Answer.** a) $42$ days; b) $9$ weeks.
 :::
@@ -319,9 +362,23 @@ b) How many shelves are still to fill, and how many books are still to be shelve
 2. Subtract the shelves filled, then work out the books left.
 
 ::solution
-a) The number of shelves needed is $70\div7=10$ (shelves).
+Solution
 
-b) The shelves still to fill: $10-4=6$ (shelves). The books already shelved: $7\times4=28$, so the books left are $70-28=42$. Check: $7\times6=42$.
+a) The number of shelves needed to hold all $70$ storybooks is:
+$$70\div7=10\ \text{(shelves)}$$
+
+b) The number of shelves still to fill is:
+$$10-4=6\ \text{(shelves)}$$
+
+The number of books already shelved on $4$ shelves is:
+$$7\times4=28\ \text{(books)}$$
+
+The number of books still to be shelved is:
+$$70-28=42\ \text{(books)}$$
+
+Check: the $6$ remaining shelves hold $7\times6=42$ books. Correct.
+
+So $10$ shelves are needed altogether; $6$ shelves are still to fill and $42$ books are still to be shelved.
 
 **Answer.** a) $10$ shelves; b) $6$ shelves and $42$ books.
 :::

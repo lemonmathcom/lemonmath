@@ -179,7 +179,13 @@ Find a) $\lim\limits_{x\to3}(x^2-2x+1)$; b) $\lim\limits_{x\to-1}\dfrac{2x+3}{x^
 2. For part b, check that the denominator is non-zero.
 
 ::solution
-a) $9-6+1=4$. b) The denominator at $x=-1$ is $1+2=3\ne0$, so $\dfrac{2(-1)+3}{3}=\dfrac13$.
+a) The function $x^2-2x+1$ is a polynomial, so it is continuous at $x=3$. Hence
+$$\lim_{x\to3}(x^2-2x+1)=3^2-2\cdot3+1=9-6+1=4.$$
+
+b) The function $\dfrac{2x+3}{x^2+2}$ is defined at $x=-1$ because the denominator there is $(-1)^2+2=3\ne0$. By the quotient rule for limits,
+$$\lim_{x\to-1}\frac{2x+3}{x^2+2}=\frac{2\cdot(-1)+3}{(-1)^2+2}=\frac13.$$
+
+So a) the limit is $4$; b) the limit is $\dfrac13$.
 
 **Answer.** a) $4$; b) $\dfrac13$.
 :::
@@ -195,7 +201,15 @@ Find a) $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$; b) $\lim\limits_{x\to2}\dfrac{x
 2. Cancel the common factor and substitute $x_0$.
 
 ::solution
-a) $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. b) $\dfrac{(x-2)(x-3)}{x-2}=x-3\to-1$.
+a) As $x\to3$ we have $x\ne3$, and both the numerator and the denominator tend to $0$. Factorise the numerator and cancel:
+$$\frac{x^2-9}{x-3}=\frac{(x-3)(x+3)}{x-3}=x+3\quad(x\ne3).$$
+Hence $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}=\lim\limits_{x\to3}(x+3)=6$.
+
+b) As $x\to2$ we have $x\ne2$, and both the numerator and the denominator tend to $0$. Since $x^2-5x+6=(x-2)(x-3)$,
+$$\frac{x^2-5x+6}{x-2}=\frac{(x-2)(x-3)}{x-2}=x-3\quad(x\ne2).$$
+Hence $\lim\limits_{x\to2}\dfrac{x^2-5x+6}{x-2}=\lim\limits_{x\to2}(x-3)=-1$.
+
+So a) the limit is $6$; b) the limit is $-1$.
 
 **Answer.** a) $6$; b) $-1$.
 :::
@@ -211,7 +225,13 @@ Find $\lim\limits_{x\to0}\dfrac{\sqrt{x+1}-1}{x}$.
 2. Cancel $x$ and substitute $x=0$.
 
 ::solution
-$\dfrac{\sqrt{x+1}-1}{x}=\dfrac{(x+1)-1}{x\left(\sqrt{x+1}+1\right)}=\dfrac{1}{\sqrt{x+1}+1}\to\dfrac12$.
+As $x\to0$, both the numerator $\sqrt{x+1}-1$ and the denominator $x$ tend to $0$. For $x\ne0$ we multiply the numerator and the denominator by the conjugate $\sqrt{x+1}+1$ (which is not $0$ because $\sqrt{x+1}\ge0$):
+$$\frac{\sqrt{x+1}-1}{x}=\frac{\left(\sqrt{x+1}-1\right)\left(\sqrt{x+1}+1\right)}{x\left(\sqrt{x+1}+1\right)}=\frac{(x+1)-1}{x\left(\sqrt{x+1}+1\right)}=\frac{1}{\sqrt{x+1}+1}.$$
+
+Therefore
+$$\lim_{x\to0}\frac{\sqrt{x+1}-1}{x}=\lim_{x\to0}\frac{1}{\sqrt{x+1}+1}=\frac{1}{\sqrt1+1}=\frac12.$$
+
+So the required limit is $\dfrac12$.
 
 **Answer.** $\dfrac12$.
 :::
@@ -227,7 +247,15 @@ Find a) $\lim\limits_{x\to+\infty}\dfrac{3x^2-x+1}{x^2+2}$; b) $\lim\limits_{x\t
 2. Part b: divide by $x^2$ and note the degrees.
 
 ::solution
-a) $\dfrac{3-\frac1x+\frac1{x^2}}{1+\frac2{x^2}}\to3$. b) $\dfrac{\frac1x+\frac1{x^2}}{1+\frac1{x^2}}\to0$.
+a) For $x\ne0$, divide the numerator and the denominator by $x^2$ (the highest power in the denominator):
+$$\frac{3x^2-x+1}{x^2+2}=\frac{3-\frac1x+\frac1{x^2}}{1+\frac2{x^2}}.$$
+As $x\to+\infty$, $\dfrac1x\to0$ and $\dfrac1{x^2}\to0$, so the limit is $\dfrac{3-0+0}{1+0}=3$.
+
+b) Similarly, for $x\ne0$, divide the numerator and the denominator by $x^2$:
+$$\frac{x+1}{x^2+1}=\frac{\frac1x+\frac1{x^2}}{1+\frac1{x^2}}.$$
+As $x\to+\infty$ the numerator tends to $0$ and the denominator tends to $1$, so the limit is $\dfrac{0}{1}=0$.
+
+So a) the limit is $3$; b) the limit is $0$.
 
 **Answer.** a) $3$; b) $0$.
 :::
@@ -243,7 +271,16 @@ For a freely falling object with $s(t)=4.9t^2$ (metres), find the instantaneous 
 2. Cancel, then take the limit.
 
 ::solution
-$\dfrac{4.9(2+h)^2-4.9\cdot4}{h}=\dfrac{4.9(4h+h^2)}{h}=4.9(4+h)=19.6+4.9h\to19.6$.
+The average velocity of the object over $[2, 2+h]$ (with $h\ne0$) is
+$$\bar v=\frac{s(2+h)-s(2)}{h}.$$
+
+Substituting $s(t)=4.9t^2$, we get
+$$\bar v=\frac{4.9(2+h)^2-4.9\cdot2^2}{h}=\frac{4.9\left(4+4h+h^2-4\right)}{h}=\frac{4.9\left(4h+h^2\right)}{h}=4.9(4+h)=19.6+4.9h.$$
+
+The instantaneous velocity at $t=2$ is the limit of the average velocity as $h\to0$:
+$$v(2)=\lim_{h\to0}(19.6+4.9h)=19.6.$$
+
+So the instantaneous velocity of the object at $t=2$ seconds is $19.6$ m/s.
 
 **Answer.** $19.6$ m/s.
 :::
@@ -259,7 +296,17 @@ Take the function $f(x)=\dfrac{|x-2|}{x-2}$. Find $\lim\limits_{x\to2^+}f(x)$ an
 2. Compare the two one-sided limits.
 
 ::solution
-When $x>2$, $f(x)=1$, so the right-hand limit is $1$. When $x<2$, $f(x)=-1$, so the left-hand limit is $-1$. The two limits differ, so $\lim\limits_{x\to2}f(x)$ does not exist.
+The function $f(x)=\dfrac{|x-2|}{x-2}$ is defined for every $x\ne2$.
+
+For $x>2$: $x-2>0$, so $|x-2|=x-2$ and $f(x)=1$. Hence
+$$\lim_{x\to2^+}f(x)=1.$$
+
+For $x<2$: $x-2<0$, so $|x-2|=-(x-2)$ and $f(x)=-1$. Hence
+$$\lim_{x\to2^-}f(x)=-1.$$
+
+We see that $\lim\limits_{x\to2^+}f(x)=1\ne-1=\lim\limits_{x\to2^-}f(x)$, that is, the right-hand and left-hand limits differ.
+
+So the right-hand limit is $1$, the left-hand limit is $-1$, and $\lim\limits_{x\to2}f(x)$ does not exist.
 
 **Answer.** $1$ and $-1$; the limit at $2$ does not exist.
 :::
@@ -283,13 +330,18 @@ d) $\lim\limits_{x\to+\infty}f(x)=1$.
 2. Find the limits of $x+1$.
 
 ::solution
-a) **False**: the denominator is $0$ at $x=1$.
+The function $f(x)=\dfrac{x^2-1}{x-1}$ has domain $\mathbb{R}\setminus\{1\}$. For $x\ne1$ we have
+$$f(x)=\frac{(x-1)(x+1)}{x-1}=x+1.$$
 
-b) **True**: $x+1\to2$.
+a) **False.** At $x=1$ the denominator $x-1=0$, so $f$ is not defined at $x=1$.
 
-c) **True**: $x+1\to1$ as $x\to0$.
+b) **True.** We have $\lim\limits_{x\to1}f(x)=\lim\limits_{x\to1}(x+1)=2$.
 
-d) **False**: $x+1\to+\infty$.
+c) **True.** We have $\lim\limits_{x\to0}f(x)=\lim\limits_{x\to0}(x+1)=1$.
+
+d) **False.** We have $f(x)=x+1\to+\infty$ as $x\to+\infty$, so $\lim\limits_{x\to+\infty}f(x)=+\infty\ne1$.
+
+So statements b), c) are true; statements a), d) are false.
 
 **Answer.** a) False; b) True; c) True; d) False.
 :::
@@ -305,7 +357,13 @@ Find $\lim\limits_{x\to2}\dfrac{x^3-8}{x-2}$.
 2. Cancel and substitute $x=2$.
 
 ::solution
-$\dfrac{(x-2)(x^2+2x+4)}{x-2}=x^2+2x+4\to4+4+4=12$.
+As $x\to2$ we have $x\ne2$, and both the numerator and the denominator tend to $0$. Factorise the numerator using the identity $a^3-b^3=(a-b)\left(a^2+ab+b^2\right)$:
+$$\frac{x^3-8}{x-2}=\frac{(x-2)\left(x^2+2x+4\right)}{x-2}=x^2+2x+4\quad(x\ne2).$$
+
+Therefore
+$$\lim_{x\to2}\frac{x^3-8}{x-2}=\lim_{x\to2}\left(x^2+2x+4\right)=4+4+4=12.$$
+
+So the required limit is $12$.
 
 **Answer.** $12$.
 :::
@@ -321,7 +379,15 @@ Using the definition of the limit of a function through sequences and the limits
 2. Take the limit of the sequence.
 
 ::solution
-The sequence $x_n=2+\dfrac1n\ne2$ has $\lim x_n=2$. We have $f(x_n)=\left(2+\dfrac1n\right)^2=4+\dfrac4n+\dfrac1{n^2}\to4$. The result is the same for every sequence $x_n\to2$ (by the rule for the limit of a product), so $\lim\limits_{x\to2}x^2=4$.
+Consider the function $f(x)=x^2$ and the sequence $x_n=2+\dfrac1n$. We have $x_n\ne2$ for every $n$, and $\lim x_n=2+\lim\dfrac1n=2+0=2$.
+
+Evaluate the function at the terms of the sequence:
+$$f(x_n)=\left(2+\frac1n\right)^2=4+\frac4n+\frac1{n^2}.$$
+
+Since $\lim\dfrac1n=0$ and $\lim\dfrac1{n^2}=0$,
+$$\lim f(x_n)=4+4\cdot0+0=4.$$
+
+For any sequence $(x_n)$ with $x_n\ne2$ and $x_n\to2$, the rule for the limit of a product gives $\lim x_n^2=\lim x_n\cdot\lim x_n=2\cdot2=4$. So $\lim f(x_n)=4$ for every such sequence, and by the definition of the limit of a function through sequences, $\lim\limits_{x\to2}x^2=4$.
 
 **Answer.** $\lim\limits_{x\to2}x^2=4$.
 :::
@@ -337,7 +403,13 @@ Find $\lim\limits_{x\to0}\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}$.
 2. Cancel $x$.
 
 ::solution
-$\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}=\dfrac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\dfrac{2}{\sqrt{1+x}+\sqrt{1-x}}\to\dfrac{2}{1+1}=1$.
+As $x\to0$, both the numerator and the denominator tend to $0$. For $x\ne0$ close to $0$ (say $|x|<1$), we multiply the numerator and the denominator by the conjugate $\sqrt{1+x}+\sqrt{1-x}$ (which is positive, hence not $0$):
+$$\frac{\sqrt{1+x}-\sqrt{1-x}}{x}=\frac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\frac{2x}{x\left(\sqrt{1+x}+\sqrt{1-x}\right)}=\frac{2}{\sqrt{1+x}+\sqrt{1-x}}.$$
+
+Therefore
+$$\lim_{x\to0}\frac{\sqrt{1+x}-\sqrt{1-x}}{x}=\lim_{x\to0}\frac{2}{\sqrt{1+x}+\sqrt{1-x}}=\frac{2}{1+1}=1.$$
+
+So the required limit is $1$.
 
 **Answer.** $1$.
 :::

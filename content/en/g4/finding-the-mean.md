@@ -124,7 +124,12 @@ Find the mean of $5$, $7$ and $9$.
 2. Divide the sum by $3$.
 
 ::solution
-$(5+7+9)\div3=21\div3=7$.
+To find the mean of several numbers, we add the numbers and divide the sum by how many numbers there are.
+
+The sum of the three numbers $5$, $7$ and $9$ is $5+7+9=21$. There are $3$ numbers, so we divide the sum by $3$:
+$$(5+7+9)\div3=21\div3=7.$$
+
+So the mean of $5$, $7$ and $9$ is $7$.
 
 **Answer.** $7$.
 :::
@@ -140,7 +145,12 @@ Find the mean of $10$, $20$, $30$ and $40$.
 2. Divide the sum by $4$.
 
 ::solution
-$(10+20+30+40)\div4=100\div4=25$.
+To find the mean of several numbers, we add the numbers and divide the sum by how many numbers there are.
+
+The sum of the four numbers $10$, $20$, $30$ and $40$ is $10+20+30+40=100$. There are $4$ numbers, so we divide the sum by $4$:
+$$(10+20+30+40)\div4=100\div4=25.$$
+
+So the mean of $10$, $20$, $30$ and $40$ is $25$.
 
 **Answer.** $25$.
 :::
@@ -156,7 +166,14 @@ Remember dividing by a two-digit number: work out $156\div12$. Then say what the
 2. For $12$ numbers with sum $156$, the mean is $156\div12$.
 
 ::solution
-$12\times13=156$, so $156\div12=13$. The mean of those $12$ numbers is $13$.
+Work out $156\div12$. We know that $12\times13=156$, so
+$$156\div12=13.$$
+
+*Check.* $13\times12=156$. Correct.
+
+To find the mean of $12$ numbers, we divide their sum by $12$. The sum of the $12$ numbers is $156$, so their mean is $156\div12=13$.
+
+So $156\div12=13$ and the mean of $12$ numbers whose sum is $156$ is $13$.
 
 **Answer.** $13$.
 :::
@@ -172,7 +189,12 @@ Three numbers have a sum of $45$. Find their mean.
 2. Divide $45$ by that number.
 
 ::solution
-$45\div3=15$.
+To find the mean of three numbers, we divide their sum by $3$.
+
+The sum of the three numbers is $45$, so their mean is:
+$$45\div3=15.$$
+
+So the mean of the three numbers is $15$.
 
 **Answer.** $15$.
 :::
@@ -188,7 +210,17 @@ Two children put together $20$ marbles and $36$ marbles, then share them equally
 2. Work out the total, then divide by the number of children.
 
 ::solution
-The total is $20+36=56$ (marbles). There are $2$ children, so $56\div2=28$ (marbles).
+Solution
+
+The total number of marbles the two children have is:
+$$20+36=56\ \text{(marbles)}$$
+
+Sharing the marbles equally means each child gets the same number. There are $2$ children, so we must divide the total number of marbles by $2$.
+
+The number of marbles each child gets is:
+$$56\div2=28\ \text{(marbles)}$$
+
+So each child gets $28$ marbles; we divide by $2$ because the marbles are shared equally between $2$ children.
 
 **Answer.** $28$ marbles.
 :::
@@ -204,7 +236,14 @@ Mai wrote: "The mean of $4$, $8$, $6$, $10$: the sum is $28$, and $28\div3$ does
 2. Divide the sum by that number.
 
 ::solution
-There are $4$ numbers, not $3$, so Mai divided by the wrong number. The correct working is $(4+8+6+10)\div4=28\div4=7$.
+To find the mean of several numbers, we divide their sum by how many numbers there are.
+
+Here there are $4$ numbers, which are $4$, $8$, $6$ and $10$, not $3$ numbers. Mai divided the sum by $3$, which is wrong; we must divide the sum by $4$.
+
+Doing it correctly:
+$$(4+8+6+10)\div4=28\div4=7.$$
+
+So Mai went wrong by dividing the sum by $3$ instead of $4$; the correct mean of $4$, $8$, $6$, $10$ is $7$.
 
 **Answer.** $7$.
 :::
@@ -222,8 +261,25 @@ b) Which days were warmer than the mean?
 2. Compare each day with your answer.
 
 ::solution
-a) $(22+24+25+23+26)\div5=120\div5=24$ (degrees).
-b) The days above $24$ degrees are Wednesday ($25$) and Friday ($26$).
+Solution
+
+a) The total of the temperatures over the five days is:
+$$22+24+25+23+26=120\ \text{(degrees)}$$
+
+The mean temperature over the five days is:
+$$120\div5=24\ \text{(degrees)}$$
+
+b) We compare each day's temperature with the mean of $24$ degrees:
+
+- Monday: $22<24$;
+- Tuesday: $24=24$;
+- Wednesday: $25>24$;
+- Thursday: $23<24$;
+- Friday: $26>24$.
+
+The days above $24$ degrees are Wednesday ($25$ degrees) and Friday ($26$ degrees). Tuesday is equal to the mean, so it is not warmer.
+
+So the mean temperature over the five days is $24$ degrees; the days warmer than the mean are Wednesday and Friday.
 
 **Answer.** a) $24$ degrees; b) Wednesday and Friday.
 :::
@@ -239,9 +295,22 @@ The mean of four numbers is $15$. Three of the numbers are $12$, $18$ and $20$. 
 2. Subtract the sum of the three known numbers.
 
 ::solution
-The sum of the four numbers is $15\times4=60$. The three known numbers add up to $12+18+20=50$. The fourth number is $60-50=10$.
+Solution
 
-**Check.** $(12+18+20+10)\div4=60\div4=15$. Correct.
+The mean of four numbers is their sum divided by $4$, so the sum of the four numbers equals the mean multiplied by $4$.
+
+The sum of the four numbers is:
+$$15\times4=60$$
+
+The sum of the three known numbers is:
+$$12+18+20=50$$
+
+The fourth number is:
+$$60-50=10$$
+
+*Check.* $(12+18+20+10)\div4=60\div4=15$. Correct.
+
+So the fourth number is $10$.
 
 **Answer.** $10$.
 :::

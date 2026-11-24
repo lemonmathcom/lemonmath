@@ -189,9 +189,17 @@ b) $7$ and $24$.
 2. Take the square root.
 
 ::solution
-a) $c^2=81+144=225$, so $c=15$.
+In a right-angled triangle, by Pythagoras' theorem the square of the hypotenuse $c$ equals the sum of the squares of the legs: $c^2=a^2+b^2$.
 
-b) $c^2=49+576=625$, so $c=25$.
+a) With $a=9$, $b=12$, we have
+$$c^2=9^2+12^2=81+144=225.$$
+Since $c>0$, $c=\sqrt{225}=15$.
+
+b) With $a=7$, $b=24$, we have
+$$c^2=7^2+24^2=49+576=625.$$
+Since $c>0$, $c=\sqrt{625}=25$.
+
+So the hypotenuse is $15$ in part a) and $25$ in part b).
 
 **Answer.** a) $15$. b) $25$.
 :::
@@ -211,9 +219,17 @@ b) hypotenuse $10$, one leg $6$.
 2. Take the square root.
 
 ::solution
-a) $a^2=289-64=225$, so $a=15$.
+Let $c$ be the hypotenuse, $b$ the known leg and $a$ the remaining leg. By Pythagoras' theorem, $c^2=a^2+b^2$, so $a^2=c^2-b^2$.
 
-b) $a^2=100-36=64$, so $a=8$.
+a) With $c=17$, $b=8$, we have
+$$a^2=17^2-8^2=289-64=225.$$
+Since $a>0$, $a=15$.
+
+b) With $c=10$, $b=6$, we have
+$$a^2=10^2-6^2=100-36=64.$$
+Since $a>0$, $a=8$.
+
+So the remaining leg is $15$ in part a) and $8$ in part b).
 
 **Answer.** a) $15$. b) $8$.
 :::
@@ -229,7 +245,12 @@ A right-angled triangle has legs $4$ and $7$. Find the hypotenuse (to 2 decimal 
 2. Take the square root and round.
 
 ::solution
-$c^2=16+49=65$, so $c=\sqrt{65}\approx8.06$.
+Let $c$ be the length of the hypotenuse. By Pythagoras' theorem, we have
+$$c^2=4^2+7^2=16+49=65.$$
+
+Since $c>0$, $c=\sqrt{65}$. Using a calculator, $\sqrt{65}\approx8.062$, which is $8.06$ to $2$ decimal places.
+
+So the hypotenuse is $\sqrt{65}\approx8.06$.
 
 **Answer.** $\sqrt{65}\approx8.06$.
 :::
@@ -251,11 +272,15 @@ c) Sides $9$, $40$, $41$.
 2. Compare its square with the sum of the other two squares.
 
 ::solution
-a) $25^2=625$ and $7^2+24^2=49+576=625$: right-angled.
+We use the converse of Pythagoras' theorem: if the square of the longest side equals the sum of the squares of the other two sides, the triangle is right-angled.
 
-b) $12^2=144$ and $8^2+10^2=164$: not right-angled.
+a) The longest side is $25$. We have $25^2=625$ and $7^2+24^2=49+576=625$. The two values are equal, so the triangle is right-angled.
 
-c) $41^2=1681$ and $9^2+40^2=81+1600=1681$: right-angled.
+b) The longest side is $12$. We have $12^2=144$ and $8^2+10^2=64+100=164$. Since $144\neq164$, the triangle is not right-angled.
+
+c) The longest side is $41$. We have $41^2=1681$ and $9^2+40^2=81+1600=1681$. The two values are equal, so the triangle is right-angled.
+
+So the triangles in parts a) and c) are right-angled.
 
 **Answer.** a) and c) are right-angled.
 :::
@@ -271,7 +296,17 @@ Find the diagonal of a rectangle with sides $15$ and $8$, and of a square with s
 2. For the square, $a=b$.
 
 ::solution
-Rectangle: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Square: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7.07$.
+A diagonal of a rectangle splits it into two right-angled triangles whose legs are two sides of the rectangle, so the diagonal is the hypotenuse.
+
+The rectangle has sides $15$ and $8$. By Pythagoras' theorem,
+$$d^2=15^2+8^2=225+64=289,$$
+so $d=\sqrt{289}=17$.
+
+A square with side $5$ is also a rectangle with both sides equal to $5$, so
+$$d^2=5^2+5^2=25+25=50,$$
+so $d=\sqrt{50}=5\sqrt2\approx7.07$ (to $2$ decimal places).
+
+So the diagonal of the rectangle is $17$ and the diagonal of the square is $5\sqrt2\approx7.07$.
 
 **Answer.** $17$; $5\sqrt2\approx7.07$.
 :::
@@ -287,7 +322,13 @@ Suppose a ladder $6.5$ m long leans against a vertical wall, with its foot $2.5$
 2. Work it out and take the square root.
 
 ::solution
-$h^2=42.25-6.25=36$, so $h=6$.
+The ladder, the wall and the ground form a right-angled triangle in which the ladder is the hypotenuse ($6.5$ m) and the distance from the foot of the ladder to the wall is one leg ($2.5$ m).
+
+Let $h$ (m) be the height of the top of the ladder on the wall ($h>0$). By Pythagoras' theorem,
+$$h^2+2.5^2=6.5^2,$$
+so
+$$h^2=6.5^2-2.5^2=42.25-6.25=36.$$
+Since $h>0$, $h=6$.
 
 Check: $2.5^2+6^2=6.25+36=42.25=6.5^2$.
 
@@ -307,7 +348,16 @@ Suppose a television screen is $96$ cm wide and $54$ cm high. Find the diagonal 
 2. Divide by $2.54$.
 
 ::solution
-$d^2=9\,216+2\,916=12\,132$, so $d=\sqrt{12\,132}\approx110$ (cm). In inches: $\dfrac{110.14}{2.54}\approx43.4\approx43$ (inches).
+The screen is a rectangle $96$ cm wide and $54$ cm high; its diagonal $d$ (cm) is the hypotenuse of a right-angled triangle with legs $96$ and $54$.
+
+By Pythagoras' theorem,
+$$d^2=96^2+54^2=9\,216+2\,916=12\,132.$$
+Since $d>0$, $d=\sqrt{12\,132}\approx110.14$, which is $110$ (cm) to the nearest whole number.
+
+Converting to inches, with $1$ inch $=2.54$ cm:
+$$\frac{110.14}{2.54}\approx43.4\approx43\ (\text{inches}).$$
+
+So the diagonal of the screen is about $110$ cm, that is about $43$ inches.
 
 **Answer.** About $110$ cm, that is about $43$ inches.
 :::
@@ -323,7 +373,12 @@ Suppose two ships leave a port at the same time, one sailing north and the other
 2. Find the hypotenuse.
 
 ::solution
-The distance is $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
+North and east are perpendicular directions. So the port, the first ship and the second ship are the vertices of a triangle that is right-angled at the port, with legs $12$ km and $16$ km. The distance between the ships is the hypotenuse.
+
+By Pythagoras' theorem, the distance between the ships is
+$$\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20\ (\text{km}).$$
+
+So the ships are $20$ km apart.
 
 **Answer.** $20$ km.
 :::
@@ -339,7 +394,16 @@ A rhombus $ABCD$ has diagonals $AC=16$ and $BD=12$ meeting at $O$. Find the side
 2. Use Pythagoras' theorem in triangle $AOB$.
 
 ::solution
-We have $OA=\dfrac{16}{2}=8$ and $OB=\dfrac{12}{2}=6$. Triangle $AOB$ is right-angled at $O$, so $AB^2=8^2+6^2=100$, giving $AB=10$.
+The rhombus $ABCD$ has diagonals meeting at $O$. The diagonals of a rhombus are perpendicular and bisect each other.
+
+Since $O$ is the midpoint of $AC$ and of $BD$,
+$$OA=\frac{AC}{2}=\frac{16}{2}=8,\qquad OB=\frac{BD}{2}=\frac{12}{2}=6.$$
+
+Since $AC\perp BD$, triangle $AOB$ is right-angled at $O$. By Pythagoras' theorem,
+$$AB^2=OA^2+OB^2=8^2+6^2=64+36=100.$$
+Since $AB>0$, $AB=10$.
+
+A rhombus has four equal sides, so its side is $10$.
 
 So the side of the rhombus is $10$.
 
@@ -357,9 +421,18 @@ For positive whole numbers $m>n$, let $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Prove t
 2. Compare with $c^2$.
 
 ::solution
-We have $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. With $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, and $5^2+12^2=13^2$.
+We transform the left-hand side $a^2+b^2$ and compare it with $c^2$, where $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$.
 
-So the formula always gives a Pythagorean triple.
+We have
+$$\begin{aligned}a^2+b^2&=(m^2-n^2)^2+(2mn)^2\\&=m^4-2m^2n^2+n^4+4m^2n^2\\&=m^4+2m^2n^2+n^4\\&=(m^2+n^2)^2\\&=c^2.\end{aligned}$$
+
+Since $m>n>0$, we have $a=m^2-n^2>0$, $b=2mn>0$, $c>0$. Because $a^2+b^2=c^2$, by the converse of Pythagoras' theorem $a$, $b$, $c$ are the sides of a right-angled triangle with hypotenuse $c$.
+
+Applying this with $m=3$, $n=2$ (which satisfies $m>n$):
+$$a=3^2-2^2=9-4=5,\quad b=2\cdot3\cdot2=12,\quad c=3^2+2^2=9+4=13.$$
+Check: $5^2+12^2=25+144=169=13^2$.
+
+So the formula always gives a Pythagorean triple, and with $m=3$, $n=2$ we get the triple $(5, 12, 13)$.
 
 **Answer.** Proved; $(5,12,13)$.
 :::

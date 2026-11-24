@@ -161,9 +161,13 @@ Convert to millimetres: a) $6\ \text{cm}$; b) $7\ \text{cm}\ 3\ \text{mm}$.
 1. Convert the centimetres to millimetres, then add the extra millimetres.
 
 ::solution
-a) $6\ \text{cm}=6\times 10=60\ \text{mm}$.
+a) Since $1\ \text{cm}=10\ \text{mm}$, we multiply $6$ by $10$:
+$$6\ \text{cm}=6\times 10=60\ \text{mm}$$
 
-b) $7\ \text{cm}=70\ \text{mm}$, so $7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$.
+b) We have $7\ \text{cm}=70\ \text{mm}$, so:
+$$7\ \text{cm}\ 3\ \text{mm}=70\ \text{mm}+3\ \text{mm}=73\ \text{mm}$$
+
+So $6\ \text{cm}=60\ \text{mm}$ and $7\ \text{cm}\ 3\ \text{mm}=73\ \text{mm}$.
 
 **Answer.** a) $60$ mm; b) $73$ mm.
 :::
@@ -178,7 +182,13 @@ Convert $86\ \text{mm}$ to centimetres and millimetres.
 1. Split $86\ \text{mm}$ into $80\ \text{mm}$ and $6\ \text{mm}$.
 
 ::solution
-$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
+We split $86\ \text{mm}$ into whole tens of millimetres and the rest:
+$$86\ \text{mm}=80\ \text{mm}+6\ \text{mm}$$
+
+Since $80\ \text{mm}=8\ \text{cm}$, we get:
+$$86\ \text{mm}=8\ \text{cm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$$
+
+So $86\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$.
 
 **Answer.** $8\ \text{cm}\ 6\ \text{mm}$.
 :::
@@ -193,7 +203,12 @@ Fill in $>$, $<$ or $=$: $5\ \text{cm}\ 4\ \text{mm}\ \ldots\ 56\ \text{mm}$.
 1. Convert $5\ \text{cm}\ 4\ \text{mm}$ to millimetres.
 
 ::solution
-$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$. Since $54<56$, we have $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
+To compare, we convert $5\ \text{cm}\ 4\ \text{mm}$ to millimetres:
+$$5\ \text{cm}\ 4\ \text{mm}=50\ \text{mm}+4\ \text{mm}=54\ \text{mm}$$
+
+Comparing the numbers $54$ and $56$, we see that $54<56$.
+
+So $5\ \text{cm}\ 4\ \text{mm}<56\ \text{mm}$.
 
 **Answer.** $<$.
 :::
@@ -209,9 +224,14 @@ A piece of string is $150$ mm long. $68$ mm is cut off. How many millimetres lon
 2. Write the subtraction, set it out in columns, then check.
 
 ::solution
+Solution
+
 The length of string left is:
-$$150-68=82\ \text{(mm)}.$$
-Check: $82+68=150$. Correct.
+$$150-68=82\ \text{(mm)}$$
+
+Check: $82+68=150$. The result is correct.
+
+So the string that is left is $82$ mm long.
 
 **Answer.** $82$ mm.
 :::
@@ -226,9 +246,13 @@ Convert to grams: a) $4\ \text{kg}$; b) $2\ \text{kg}\ 50\ \text{g}$.
 1. Convert the kilograms to grams, then add the extra grams.
 
 ::solution
-a) $4\ \text{kg}=4\times 1000=4000\ \text{g}$.
+a) Since $1\ \text{kg}=1000\ \text{g}$, we multiply $4$ by $1000$:
+$$4\ \text{kg}=4\times 1000=4000\ \text{g}$$
 
-b) $2\ \text{kg}=2000\ \text{g}$, so $2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$.
+b) We have $2\ \text{kg}=2000\ \text{g}$, so:
+$$2\ \text{kg}\ 50\ \text{g}=2000\ \text{g}+50\ \text{g}=2050\ \text{g}$$
+
+So $4\ \text{kg}=4000\ \text{g}$ and $2\ \text{kg}\ 50\ \text{g}=2050\ \text{g}$.
 
 **Answer.** a) $4000$ g; b) $2050$ g.
 :::
@@ -244,9 +268,14 @@ Mum buys $800$ g of meat and $700$ g of fish. How many grams does she buy altoge
 2. Split the result into $1000\ \text{g}$ and the rest.
 
 ::solution
+Solution
+
 The number of grams of meat and fish Mum buys altogether is:
-$$800+700=1500\ \text{(g)}.$$
-Since $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$, we have $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+$$800+700=1500\ \text{(g)}$$
+
+We write the result in kilograms and grams: $1500\ \text{g}=1000\ \text{g}+500\ \text{g}$. Since $1000\ \text{g}=1\ \text{kg}$, we have $1500\ \text{g}=1\ \text{kg}\ 500\ \text{g}$.
+
+So Mum buys $1500$ g altogether, which is $1\ \text{kg}\ 500\ \text{g}$.
 
 **Answer.** $1500$ g, which is $1\ \text{kg}\ 500\ \text{g}$.
 :::
@@ -262,10 +291,16 @@ Remember the lesson on making a number several times larger. A packet of salt we
 2. Add the masses of the two packets.
 
 ::solution
-The packet of sugar weighs:
-$$200\times 3=600\ \text{(g)}.$$
+Solution
+
+The packet of sugar weighs $3$ times as much as the packet of salt, so it weighs:
+$$200\times 3=600\ \text{(g)}$$
+
 The two packets weigh:
-$$200+600=800\ \text{(g)}.$$
+$$200+600=800\ \text{(g)}$$
+
+So the two packets weigh $800$ g altogether.
+
 **Answer.** $800$ g.
 :::
 
@@ -280,10 +315,18 @@ A ruler is $1$ m long. A piece $250$ mm long and a piece $400$ mm long are cut f
 2. Subtract that from $1000$.
 
 ::solution
-We have $1\ \text{m}=1000\ \text{mm}$. The two pieces cut off are altogether:
-$$250+400=650\ \text{(mm)}.$$
+Solution
+
+We have $1\ \text{m}=1000\ \text{mm}$.
+
+The two pieces cut off are altogether:
+$$250+400=650\ \text{(mm)}$$
+
 The part of the ruler that is left is:
-$$1000-650=350\ \text{(mm)}.$$
+$$1000-650=350\ \text{(mm)}$$
+
+So the part of the ruler that is left is $350$ mm long.
+
 **Answer.** $350$ mm.
 :::
 

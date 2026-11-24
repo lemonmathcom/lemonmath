@@ -162,7 +162,15 @@ At the same moment, a vertical tree casts a shadow $12$ m long and a vertical st
 1. Write the proportion $\dfrac{h}{12}=\dfrac{2}{1.6}$.
 
 ::solution
-$h=\dfrac{12\cdot2}{1.6}=15$ m.
+At the same moment the sun's rays are parallel, so the shadows of vertical objects on level ground are their parallel projections. Parallel projection preserves ratios of lengths, so the height and the shadow length of the two objects are proportional.
+
+Let $h$ (m) be the height of the tree ($h>0$). We have
+$$\frac{h}{12}=\frac{2}{1.6}.$$
+
+Hence
+$$h=\frac{12\cdot2}{1.6}=15.$$
+
+So the tree is $15$ m tall.
 
 **Answer.** The tree is $15$ m tall.
 :::
@@ -178,7 +186,14 @@ Take a triangle $ABC$ and a point $M$ on $BC$ with $BM=2MC$. A parallel projecti
 2. Divide $B'C'=9$ in the ratio $2:1$.
 
 ::solution
-$\dfrac{B'M'}{M'C'}=\dfrac{BM}{MC}=2$ and $B'M'+M'C'=9$, so $M'C'=3$ and $B'M'=6$.
+Parallel projection preserves the ratio of lengths of segments lying on the same line. Since $M$ lies on $BC$,
+$$\frac{B'M'}{M'C'}=\frac{BM}{MC}=2.$$
+
+Hence $B'M'=2M'C'$. Since $M'$ lies between $B'$ and $C'$, we have $B'M'+M'C'=B'C'=9$.
+
+Substituting, $2M'C'+M'C'=9$, that is $3M'C'=9$, so $M'C'=3$ and $B'M'=2\cdot3=6$.
+
+So $B'M'=6$ and $M'C'=3$.
 
 **Answer.** $B'M'=6$, $M'C'=3$.
 :::
@@ -194,7 +209,15 @@ A parallelogram $ABCD$ has a drawing $A'B'C'D'$. What kind of figure is the draw
 2. Deduce the pairs of opposite sides of $A'B'C'D'$.
 
 ::solution
-$AB\parallel CD$, so $A'B'\parallel C'D'$; $AD\parallel BC$, so $A'D'\parallel B'C'$. Both pairs of opposite sides are parallel, so $A'B'C'D'$ is a parallelogram.
+Parallel projection maps two parallel lines to two parallel lines (or to the same line).
+
+Since $AB\parallel CD$ (opposite sides of the parallelogram $ABCD$), we get $A'B'\parallel C'D'$.
+
+Since $AD\parallel BC$ (opposite sides of the parallelogram $ABCD$), we get $A'D'\parallel B'C'$.
+
+The quadrilateral $A'B'C'D'$ has two pairs of parallel opposite sides.
+
+So the drawing $A'B'C'D'$ is a parallelogram.
 
 **Answer.** A parallelogram.
 :::
@@ -210,7 +233,14 @@ Four collinear points $A$, $B$, $C$, $D$, in that order, satisfy $AB:BC:CD=2:3:5
 2. Each part is $\dfrac{30}{10}=3$ long.
 
 ::solution
-$A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+Parallel projection preserves the ratio of lengths of segments on the same line, so $A'B':B'C':C'D'=2:3:5$.
+
+Since $A'$, $B'$, $C'$, $D'$ are collinear in that order, $A'D'=A'B'+B'C'+C'D'$. Let $k$ be the length of one part ($k>0$). Then $A'B'=2k$, $B'C'=3k$, $C'D'=5k$ and
+$$A'D'=2k+3k+5k=10k=30\ \Rightarrow\ k=3.$$
+
+Hence $A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+
+So $A'B'=6$, $B'C'=9$, $C'D'=15$.
 
 **Answer.** $A'B'=6$, $B'C'=9$, $C'D'=15$.
 :::
@@ -226,7 +256,15 @@ At one moment, a person $1.7$ m tall standing upright casts a shadow $1.2$ m lon
 2. Multiply by $24$.
 
 ::solution
-The height of the building is $h=\dfrac{24\cdot1.7}{1.2}=34$ m.
+At the same moment the sun's rays are parallel, so the height of a vertical object is proportional to the length of its shadow on level ground.
+
+Let $h$ (m) be the height of the building ($h>0$). We have
+$$\frac{h}{24}=\frac{1.7}{1.2}.$$
+
+Hence
+$$h=\frac{24\cdot1.7}{1.2}=34.$$
+
+So the building is $34$ m tall.
 
 **Answer.** $34$ m.
 :::
@@ -250,13 +288,15 @@ d) The projection of a triangle may be a segment.
 2. d) The plane of the triangle is parallel to $l$.
 
 ::solution
-a) **False**: two parallel lines may have the same projection.
+a) **False.** If two parallel lines lie in a plane parallel to the direction $l$, their projections coincide (they are the same line), not two parallel lines. So the projections of two parallel lines are not always two parallel lines.
 
-b) **True**: parallel projection preserves ratios, so it preserves midpoints.
+b) **True.** Parallel projection preserves the ratio of lengths of segments on the same line. If $M$ is the midpoint of $AB$, then $\dfrac{AM}{MB}=1$, so $\dfrac{A'M'}{M'B'}=1$, that is $M'$ is the midpoint of $A'B'$.
 
-c) **False**: two intersecting lines have projections that intersect or coincide, never parallel.
+c) **False.** Two lines meeting at $O$ have projections that both pass through $O'$ (the projection of $O$). Hence their projections intersect or coincide, and cannot be parallel.
 
-d) **True**: when the plane of the triangle is parallel to $l$, the projection of the triangle lies on a line.
+d) **True.** When the plane of the triangle is parallel to the direction $l$, the projections of all points of the triangle lie on one line, so the projection of the triangle is a segment.
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -272,7 +312,17 @@ Two planes $(P)$ and $(Q)$ are parallel. A parallel projection onto $(Q)$ in the
 2. Prove that $ABB'A'$ is a parallelogram.
 
 ::solution
-$AA'$ and $BB'$ are both parallel to $l$, so they are parallel, and the plane $(AA'B'B)$ cuts $(P)$ and $(Q)$ along $AB$ and $A'B'$, so $AB\parallel A'B'$. Hence $ABB'A'$ is a parallelogram and $A'B'=AB$. Similarly $B'C'=BC$ and $C'A'=CA$. The two triangles have three pairs of equal sides, so they are congruent.
+The parallel projection onto $(Q)$ in the direction $l$ maps $A$, $B$, $C$ to $A'$, $B'$, $C'$, so $AA'$, $BB'$, $CC'$ are all parallel to $l$ (or lie along the line through that point parallel to $l$).
+
+Consider the side $AB$. The lines $AA'$ and $BB'$ are both parallel to $l$, so they are parallel to each other, and $A$, $A'$, $B'$, $B$ lie in one plane $(AA'B'B)$. This plane cuts the parallel planes $(P)$ and $(Q)$ along $AB$ and $A'B'$, so $AB\parallel A'B'$.
+
+The quadrilateral $ABB'A'$ has $AA'\parallel BB'$ and $AB\parallel A'B'$, so it is a parallelogram. Hence $A'B'=AB$.
+
+The same argument for the other sides gives $B'C'=BC$ and $C'A'=CA$.
+
+The triangles $A'B'C'$ and $ABC$ have three pairs of equal corresponding sides, so they are congruent (SSS).
+
+So triangle $A'B'C'$ is congruent to triangle $ABC$.
 
 **Answer.** Triangle $A'B'C'$ is congruent to triangle $ABC$.
 :::
@@ -288,7 +338,18 @@ Take a square $ABCD$ and let $M$ be the midpoint of $CD$. Let $N$ be the interse
 2. On $B'D'$ take the point dividing it in the same ratio.
 
 ::solution
-Since $AB\parallel DM$, triangle $NBA$ is similar to triangle $NDM$, so $\dfrac{BN}{ND}=\dfrac{AB}{DM}=2$, that is $BN=2ND$. Parallel projection preserves midpoints and ratios, so in the drawing $M'$ is the midpoint of $C'D'$ and $N'$ is the intersection of $A'M'$ with $B'D'$, and it satisfies $B'N'=2N'D'$.
+Proof that $BN=2ND$.
+
+Since $ABCD$ is a square, $AB\parallel CD$, so $AB\parallel DM$ (with $M\in CD$). Consider triangles $NBA$ and $NDM$: $N$ is the intersection of $AM$ and $BD$, so $\angle BNA=\angle DNM$ (vertically opposite) and $\angle NBA=\angle NDM$ (alternate angles). Hence triangle $NBA$ is similar to triangle $NDM$, and
+$$\frac{BN}{ND}=\frac{AB}{DM}.$$
+
+Since $M$ is the midpoint of $CD$, $DM=\dfrac{CD}{2}=\dfrac{AB}{2}$, so $\dfrac{AB}{DM}=2$. Therefore $\dfrac{BN}{ND}=2$, that is $BN=2ND$.
+
+How to find $N'$ on the drawing.
+
+Parallel projection preserves collinearity, intersections and ratios of lengths of segments on the same line. Since $M$ is the midpoint of $CD$, $M'$ is the midpoint of $C'D'$. Since $N$ is the intersection of $AM$ and $BD$, $N'$ is the intersection of $A'M'$ and $B'D'$. Since $\dfrac{BN}{ND}=2$, we get $\dfrac{B'N'}{N'D'}=2$, that is $B'N'=2N'D'$.
+
+So $BN=2ND$; on the drawing, take $M'$ as the midpoint of $C'D'$ and then $N'$ as the intersection of $A'M'$ with $B'D'$, and then $B'N'=2N'D'$.
 
 **Answer.** $BN=2ND$; $N'=A'M'\cap B'D'$ where $M'$ is the midpoint of $C'D'$, and $B'N'=2N'D'$.
 :::

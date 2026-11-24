@@ -165,7 +165,11 @@ Ngày nào các bạn mượn ít nhất, và mượn bao nhiêu quyển?
 2. Đọc số trên đỉnh cột.
 
 ::solution
+Để biết ngày nào mượn ít nhất, ta tìm cột thấp nhất trong biểu đồ vì cột càng thấp thì số quyển mượn càng ít.
+
 Cột thấp nhất là cột Thứ Sáu, ghi $4$.
+
+Vậy ngày mượn ít nhất là Thứ Sáu, với $4$ quyển.
 
 **Đáp số.** Thứ Sáu, $4$ quyển.
 :::
@@ -181,7 +185,14 @@ Thứ Ba các bạn mượn nhiều hơn Thứ Sáu bao nhiêu quyển?
 2. Lấy số lớn trừ số bé.
 
 ::solution
-$10-4=6$ (quyển).
+Bài giải
+
+Từ biểu đồ, Thứ Ba mượn $10$ quyển và Thứ Sáu mượn $4$ quyển. Muốn biết Thứ Ba mượn nhiều hơn Thứ Sáu bao nhiêu quyển, ta làm phép trừ.
+
+Số quyển Thứ Ba mượn nhiều hơn Thứ Sáu là:
+$$10-4=6\ \text{(quyển)}.$$
+
+Vậy Thứ Ba mượn nhiều hơn Thứ Sáu $6$ quyển.
 
 **Đáp số.** $6$ quyển.
 :::
@@ -197,7 +208,12 @@ Em hãy nhớ lại bài trước: viết dãy số liệu của biểu đồ th
 2. Sắp xếp các số từ bé đến lớn.
 
 ::solution
-Dãy số liệu: $6, 10, 8, 12, 4$. Sắp xếp từ bé đến lớn: $4, 6, 8, 10, 12$.
+Ta đọc số liệu ở từng cột, theo thứ tự các ngày từ Thứ Hai đến Thứ Sáu. Dãy số liệu là $6, 10, 8, 12, 4$.
+
+Để sắp xếp từ bé đến lớn, ta so sánh các số: số bé nhất là $4$, rồi đến $6$, $8$, $10$ và số lớn nhất là $12$. Ta có
+$$4<6<8<10<12.$$
+
+Vậy dãy số liệu theo thứ tự các ngày là $6, 10, 8, 12, 4$; sắp xếp từ bé đến lớn là $4, 6, 8, 10, 12$.
 
 **Đáp số.** $6, 10, 8, 12, 4$; sắp xếp: $4, 6, 8, 10, 12$.
 :::
@@ -213,7 +229,12 @@ Ngày nào các bạn mượn số quyển đúng gấp đôi ngày Thứ Sáu?
 2. Tìm ngày có số quyển đó.
 
 ::solution
-Thứ Sáu mượn $4$ quyển, gấp đôi là $4\times2=8$ quyển. Cột ghi $8$ là Thứ Tư.
+Thứ Sáu mượn $4$ quyển. Số quyển gấp đôi Thứ Sáu là:
+$$4\times2=8\ \text{(quyển)}.$$
+
+Ta tìm cột ghi $8$ trong biểu đồ. Đó là cột Thứ Tư.
+
+Vậy ngày mượn số quyển đúng gấp đôi Thứ Sáu là Thứ Tư.
 
 **Đáp số.** Thứ Tư.
 :::
@@ -231,7 +252,14 @@ Biểu đồ cột cho số bạn thích môn thể thao: cột bóng đá cao $
 2. Cộng các số trên đỉnh cột.
 
 ::solution
-Ta làm phép cộng vì tổng số bạn là số bạn của cả bốn môn gộp lại: $12+8+6+4=30$ (bạn).
+Bài giải
+
+Chiều cao mỗi cột cho biết số bạn thích môn thể thao đó. Muốn biết tổng số bạn được hỏi, ta gộp số bạn của cả bốn môn lại, tức là làm phép cộng.
+
+Tổng số bạn được hỏi là:
+$$12+8+6+4=30\ \text{(bạn)}.$$
+
+Vậy ta làm phép cộng và có tất cả $30$ bạn được hỏi.
 
 **Đáp số.** Phép cộng; $30$ bạn.
 :::
@@ -247,7 +275,12 @@ Hà nói: "Thứ Năm mượn $12$ quyển, Thứ Sáu mượn $4$ quyển, nên
 2. Làm lại bằng phép tính đúng.
 
 ::solution
-Hà dùng phép cộng, nhưng phải dùng phép trừ: $12-4=8$ (quyển).
+Hà sai ở chỗ dùng phép cộng. Câu hỏi là "nhiều hơn bao nhiêu quyển", tức là so sánh hai số, nên phải dùng phép trừ lấy số lớn trừ đi số bé. Phép cộng $12+4=16$ chỉ cho biết cả hai ngày mượn tất cả bao nhiêu quyển.
+
+Làm lại cho đúng: số quyển Thứ Năm mượn nhiều hơn Thứ Sáu là
+$$12-4=8\ \text{(quyển)}.$$
+
+Vậy Hà sai vì dùng phép cộng thay cho phép trừ; Thứ Năm mượn nhiều hơn Thứ Sáu $8$ quyển.
 
 **Đáp số.** $8$ quyển.
 :::
@@ -269,7 +302,16 @@ c) Trung bình mỗi lớp trồng bao nhiêu cây?
 3. Cộng bốn số rồi chia cho $4$.
 
 ::solution
-a) $4$A: $5\times5=25$; $4$B: $6\times5=30$; $4$C: $4\times5=20$; $4$D: $25$ (cây). b) $30-20=10$ (cây). c) $(25+30+20+25):4=100:4=25$ (cây).
+a) Mỗi vạch ứng với $5$ cây, nên số cây của mỗi lớp bằng số vạch nhân với $5$:
+$$4\text{A}: 5\times5=25;\quad 4\text{B}: 6\times5=30;\quad 4\text{C}: 4\times5=20;\quad 4\text{D}: 5\times5=25\ \text{(cây)}.$$
+
+b) Lớp trồng nhiều nhất là lớp $4$B với $30$ cây; lớp trồng ít nhất là lớp $4$C với $20$ cây. Số cây lớp nhiều nhất trồng hơn lớp ít nhất là:
+$$30-20=10\ \text{(cây)}.$$
+
+c) Trung bình mỗi lớp trồng được số cây bằng tổng số cây chia cho số lớp. Tổng số cây của bốn lớp là $25+30+20+25=100$ (cây). Do đó
+$$(25+30+20+25):4=100:4=25\ \text{(cây)}.$$
+
+Vậy các lớp $4$A, $4$B, $4$C, $4$D lần lượt trồng $25$, $30$, $20$, $25$ cây; lớp nhiều nhất trồng hơn lớp ít nhất $10$ cây; trung bình mỗi lớp trồng $25$ cây.
 
 **Đáp số.** a) $25$, $30$, $20$, $25$ cây; b) $10$ cây; c) $25$ cây.
 :::
@@ -286,9 +328,20 @@ Biểu đồ có ba cột A, B, C. Cột C cao $5$. Cột B cao hơn cột C là
 3. Cộng ba cột.
 
 ::solution
-Cột B: $5+3=8$. Cột A: $8+4=12$. Tổng: $12+8+5=25$.
+Cột C cao $5$.
 
-**Kiểm tra.** $12-8=4$ và $8-5=3$. Đúng.
+Cột B cao hơn cột C là $3$ nên chiều cao cột B là:
+$$5+3=8.$$
+
+Cột A cao hơn cột B là $4$ nên chiều cao cột A là:
+$$8+4=12.$$
+
+Tổng chiều cao ba cột là:
+$$12+8+5=25.$$
+
+*Kiểm tra.* $12-8=4$ và $8-5=3$. Đúng.
+
+Vậy cột A cao $12$, cột B cao $8$, cột C cao $5$ và tổng chiều cao ba cột là $25$.
 
 **Đáp số.** A cao $12$, B cao $8$, C cao $5$; tổng $25$.
 :::

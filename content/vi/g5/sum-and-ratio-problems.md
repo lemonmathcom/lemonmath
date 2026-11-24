@@ -217,9 +217,25 @@ Tổng của hai số là $56$. Tỉ số của hai số là $\dfrac{3}{4}$. Tì
 2. Nhân giá trị một phần với số phần của mỗi số. Thử lại bằng tổng.
 
 ::solution
-Tổng số phần bằng nhau là $3+4=7$ (phần). Giá trị một phần là $56:7=8$. Số bé là $8\times3=24$. Số lớn là $8\times4=32$.
+Bài giải
 
-**Thử lại.** $24+32=56$ và $\dfrac{24}{32}=\dfrac{3}{4}$. Đúng.
+Tỉ số của hai số là $\dfrac{3}{4}$, nên nếu coi số bé gồm $3$ phần bằng nhau thì số lớn gồm $4$ phần như thế.
+
+Tổng số phần bằng nhau là:
+$$3+4=7\ \text{(phần)}$$
+
+Giá trị một phần là:
+$$56:7=8$$
+
+Số bé là:
+$$8\times3=24$$
+
+Số lớn là:
+$$8\times4=32$$
+
+Thử lại: $24+32=56$ và $\dfrac{24}{32}=\dfrac{3}{4}$. Đúng.
+
+Vậy hai số cần tìm là $24$ và $32$.
 
 **Đáp số.** $24$ và $32$.
 :::
@@ -235,7 +251,25 @@ Tổng của hai số là $90$. Số bé bằng $\dfrac{2}{7}$ số lớn. Tìm 
 2. Tìm tổng số phần và giá trị một phần.
 
 ::solution
-Tổng số phần bằng nhau là $2+7=9$ (phần). Giá trị một phần là $90:9=10$. Số bé là $10\times2=20$. Số lớn là $10\times7=70$.
+Bài giải
+
+Số bé bằng $\dfrac{2}{7}$ số lớn, nên nếu coi số bé gồm $2$ phần bằng nhau thì số lớn gồm $7$ phần như thế.
+
+Tổng số phần bằng nhau là:
+$$2+7=9\ \text{(phần)}$$
+
+Giá trị một phần là:
+$$90:9=10$$
+
+Số bé là:
+$$10\times2=20$$
+
+Số lớn là:
+$$10\times7=70$$
+
+Thử lại: $20+70=90$ và $\dfrac{20}{70}=\dfrac{2}{7}$. Đúng.
+
+Vậy hai số cần tìm là $20$ và $70$.
 
 **Đáp số.** $20$ và $70$.
 :::
@@ -251,7 +285,25 @@ Giả sử hai thùng chứa tất cả $150$ lít nước. Lượng nước ở
 2. Tìm tổng số phần, giá trị một phần, rồi lượng nước mỗi thùng. Nhớ ghi đơn vị.
 
 ::solution
-Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $150:5=30$ (lít). Thùng thứ nhất chứa $30\times2=60$ (lít). Thùng thứ hai chứa $30\times3=90$ (lít).
+Bài giải
+
+Lượng nước ở thùng thứ nhất bằng $\dfrac{2}{3}$ lượng nước ở thùng thứ hai, nên nếu coi thùng thứ nhất có $2$ phần bằng nhau thì thùng thứ hai có $3$ phần như thế.
+
+Tổng số phần bằng nhau là:
+$$2+3=5\ \text{(phần)}$$
+
+Một phần ứng với số lít nước là:
+$$150:5=30\ \text{(lít)}$$
+
+Thùng thứ nhất chứa số lít nước là:
+$$30\times2=60\ \text{(lít)}$$
+
+Thùng thứ hai chứa số lít nước là:
+$$30\times3=90\ \text{(lít)}$$
+
+Thử lại: $60+90=150$ và $\dfrac{60}{90}=\dfrac{2}{3}$. Đúng.
+
+Vậy thùng thứ nhất chứa $60$ lít nước, thùng thứ hai chứa $90$ lít nước.
 
 **Đáp số.** Thùng thứ nhất $60$ lít; thùng thứ hai $90$ lít.
 :::
@@ -267,9 +319,30 @@ Em hãy nhớ lại bài ôn tập về hình chữ nhật. Giả sử một sâ
 2. Nhân chiều dài với chiều rộng.
 
 ::solution
-Chiều rộng có $2$ phần, chiều dài có $3$ phần. Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $75:5=15$ (m). Chiều rộng là $15\times2=30$ (m). Chiều dài là $15\times3=45$ (m).
+Bài giải
 
-Diện tích sân trường là $45\times30=1350\ \text{(m}^2\text{)}$.
+Nửa chu vi của hình chữ nhật bằng tổng của chiều dài và chiều rộng, nên tổng của chiều dài và chiều rộng là $75$ m.
+
+Chiều rộng bằng $\dfrac{2}{3}$ chiều dài, nên chiều rộng có $2$ phần và chiều dài có $3$ phần bằng nhau.
+
+Tổng số phần bằng nhau là:
+$$2+3=5\ \text{(phần)}$$
+
+Một phần ứng với độ dài là:
+$$75:5=15\ \text{(m)}$$
+
+Chiều rộng sân trường là:
+$$15\times2=30\ \text{(m)}$$
+
+Chiều dài sân trường là:
+$$15\times3=45\ \text{(m)}$$
+
+Diện tích sân trường là:
+$$45\times30=1350\ \text{(m}^2\text{)}$$
+
+Thử lại: $45+30=75$ và $\dfrac{30}{45}=\dfrac{2}{3}$. Đúng.
+
+Vậy sân trường có chiều dài $45$ m, chiều rộng $30$ m và diện tích $1350\ \text{m}^2$.
 
 **Đáp số.** Chiều dài $45$ m; chiều rộng $30$ m; diện tích $1350\ \text{m}^2$.
 :::
@@ -285,9 +358,25 @@ Hiệu của hai số là $15$. Tỉ số của số bé và số lớn là $\df
 2. Tìm mỗi số, rồi thử lại bằng hiệu.
 
 ::solution
-Hiệu số phần bằng nhau là $5-2=3$ (phần). Giá trị một phần là $15:3=5$. Số bé là $5\times2=10$. Số lớn là $5\times5=25$.
+Bài giải
 
-**Thử lại.** $25-10=15$ và $\dfrac{10}{25}=\dfrac{2}{5}$. Đúng.
+Tỉ số của số bé và số lớn là $\dfrac{2}{5}$, nên nếu coi số bé gồm $2$ phần bằng nhau thì số lớn gồm $5$ phần như thế.
+
+Hiệu số phần bằng nhau là:
+$$5-2=3\ \text{(phần)}$$
+
+Giá trị một phần là:
+$$15:3=5$$
+
+Số bé là:
+$$5\times2=10$$
+
+Số lớn là:
+$$5\times5=25$$
+
+Thử lại: $25-10=15$ và $\dfrac{10}{25}=\dfrac{2}{5}$. Đúng.
+
+Vậy hai số cần tìm là $10$ và $25$.
 
 **Đáp số.** $10$ và $25$.
 :::
@@ -303,7 +392,25 @@ Hiệu của hai số là $48$. Tỉ số của số lớn và số bé là $\df
 2. Tìm hiệu số phần, một phần, rồi hai số.
 
 ::solution
-Hiệu số phần bằng nhau là $7-3=4$ (phần). Giá trị một phần là $48:4=12$. Số lớn là $12\times7=84$. Số bé là $12\times3=36$.
+Bài giải
+
+Tỉ số của số lớn và số bé là $\dfrac{7}{3}$, nên nếu coi số lớn gồm $7$ phần bằng nhau thì số bé gồm $3$ phần như thế.
+
+Hiệu số phần bằng nhau là:
+$$7-3=4\ \text{(phần)}$$
+
+Giá trị một phần là:
+$$48:4=12$$
+
+Số lớn là:
+$$12\times7=84$$
+
+Số bé là:
+$$12\times3=36$$
+
+Thử lại: $84-36=48$ và $\dfrac{84}{36}=\dfrac{7}{3}$. Đúng.
+
+Vậy số lớn là $84$ và số bé là $36$.
 
 **Đáp số.** Số lớn $84$; số bé $36$.
 :::
@@ -319,9 +426,25 @@ Giả sử một cửa hàng có số gạo nếp ít hơn số gạo tẻ $120$
 2. Tìm một phần, rồi khối lượng mỗi loại gạo. Nhớ ghi đơn vị.
 
 ::solution
-Hiệu số phần bằng nhau là $8-3=5$ (phần). Một phần là $120:5=24$ (kg). Gạo nếp là $24\times3=72$ (kg). Gạo tẻ là $24\times8=192$ (kg).
+Bài giải
 
-**Kiểm tra.** $192-72=120$. Đúng.
+Số gạo nếp bằng $\dfrac{3}{8}$ số gạo tẻ, nên nếu coi số gạo nếp có $3$ phần bằng nhau thì số gạo tẻ có $8$ phần như thế.
+
+Hiệu số phần bằng nhau là:
+$$8-3=5\ \text{(phần)}$$
+
+Một phần ứng với số ki-lô-gam gạo là:
+$$120:5=24\ \text{(kg)}$$
+
+Số gạo nếp của cửa hàng là:
+$$24\times3=72\ \text{(kg)}$$
+
+Số gạo tẻ của cửa hàng là:
+$$24\times8=192\ \text{(kg)}$$
+
+Thử lại: $192-72=120$ và $\dfrac{72}{192}=\dfrac{3}{8}$. Đúng.
+
+Vậy cửa hàng có $72$ kg gạo nếp và $192$ kg gạo tẻ.
 
 **Đáp số.** Gạo nếp $72$ kg; gạo tẻ $192$ kg.
 :::
@@ -337,7 +460,24 @@ Giả sử bố hơn con $30$ tuổi và tuổi bố gấp $6$ lần tuổi con.
 2. Tìm một phần, rồi tuổi của mỗi người.
 
 ::solution
-Hiệu số phần bằng nhau là $6-1=5$ (phần). Một phần là $30:5=6$ (tuổi). Tuổi con là $6$ tuổi. Tuổi bố là $6\times6=36$ (tuổi).
+Bài giải
+
+Tuổi bố gấp $6$ lần tuổi con, nên nếu coi tuổi con là $1$ phần thì tuổi bố là $6$ phần bằng nhau như thế.
+
+Hiệu số phần bằng nhau là:
+$$6-1=5\ \text{(phần)}$$
+
+Một phần ứng với số tuổi là:
+$$30:5=6\ \text{(tuổi)}$$
+
+Tuổi con là $6$ tuổi.
+
+Tuổi bố là:
+$$6\times6=36\ \text{(tuổi)}$$
+
+Thử lại: $36-6=30$ và $36=6\times6$. Đúng.
+
+Vậy con $6$ tuổi và bố $36$ tuổi.
 
 **Đáp số.** Con $6$ tuổi; bố $36$ tuổi.
 :::
@@ -353,9 +493,29 @@ Em hãy nhớ lại bài về tỉ số và tỉ số phần trăm. Một lớp 
 2. Rút gọn tỉ số nam : nữ, rồi dùng tổng $40$ và tỉ số đó để tìm lại hai số.
 
 ::solution
-a) Số học sinh nữ là $40\times\dfrac{55}{100}=22$ (học sinh). Số học sinh nam là $40-22=18$ (học sinh).
+Bài giải
 
-b) Tỉ số của số nam và số nữ là $\dfrac{18}{22}=\dfrac{9}{11}$. Tổng số phần bằng nhau là $9+11=20$ (phần), một phần là $40:20=2$ (học sinh). Số nam là $2\times9=18$ và số nữ là $2\times11=22$, giống kết quả ở câu a).
+a) Số học sinh nữ chiếm $55\%$ số học sinh cả lớp, nên số học sinh nữ là:
+$$40\times\frac{55}{100}=22\ \text{(học sinh)}$$
+
+Số học sinh nam là:
+$$40-22=18\ \text{(học sinh)}$$
+
+Vậy lớp có $22$ học sinh nữ và $18$ học sinh nam.
+
+b) Tỉ số của số học sinh nam và số học sinh nữ là $\dfrac{18}{22}$. Rút gọn (chia cả tử và mẫu cho $2$) ta được phân số tối giản $\dfrac{9}{11}$.
+
+Giải lại bằng cách tìm hai số khi biết tổng và tỉ số: coi số học sinh nam là $9$ phần bằng nhau thì số học sinh nữ là $11$ phần như thế.
+
+Tổng số phần bằng nhau là:
+$$9+11=20\ \text{(phần)}$$
+
+Một phần ứng với số học sinh là:
+$$40:20=2\ \text{(học sinh)}$$
+
+Số học sinh nam là $2\times9=18$ (học sinh) và số học sinh nữ là $2\times11=22$ (học sinh). Kết quả này giống kết quả ở câu a).
+
+Vậy tỉ số của số học sinh nam và số học sinh nữ là $\dfrac{9}{11}$, và hai cách làm cho cùng kết quả.
 
 **Đáp số.** a) $22$ nữ, $18$ nam; b) tỉ số $\dfrac{9}{11}$, kết quả khớp.
 :::
@@ -371,9 +531,25 @@ Tổng của hai số là $91$. Biết $\dfrac{1}{3}$ số thứ nhất bằng $
 2. Giải bài toán biết tổng và tỉ số.
 
 ::solution
-Số thứ nhất có $3$ phần và số thứ hai có $4$ phần như thế. Tổng số phần bằng nhau là $3+4=7$ (phần). Một phần là $91:7=13$. Số thứ nhất là $13\times3=39$. Số thứ hai là $13\times4=52$.
+Bài giải
 
-**Thử lại.** $39+52=91$; $39:3=13$ và $52:4=13$. Đúng.
+Vì $\dfrac{1}{3}$ số thứ nhất bằng $\dfrac{1}{4}$ số thứ hai, nên nếu coi mỗi giá trị đó là $1$ phần thì số thứ nhất có $3$ phần và số thứ hai có $4$ phần bằng nhau như thế.
+
+Tổng số phần bằng nhau là:
+$$3+4=7\ \text{(phần)}$$
+
+Giá trị một phần là:
+$$91:7=13$$
+
+Số thứ nhất là:
+$$13\times3=39$$
+
+Số thứ hai là:
+$$13\times4=52$$
+
+Thử lại: $39+52=91$; $39:3=13$ và $52:4=13$. Đúng.
+
+Vậy hai số cần tìm là $39$ và $52$.
 
 **Đáp số.** $39$ và $52$.
 :::

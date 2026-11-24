@@ -202,7 +202,16 @@ A fair die is rolled. Given that the result is odd, find the probability that it
 2. Count the elements of $B$ that are at most $3$.
 
 ::solution
-$A\cap B=\{1, 3\}$, so $P(A\mid B)=\dfrac23$.
+Let $A$ be the event "the result is at most $3$" and $B$ be the event "the result is odd". We need $P(A\mid B)$.
+
+The sample space is $\Omega=\{1, 2, 3, 4, 5, 6\}$, which has $6$ equally likely outcomes. We have $B=\{1, 3, 5\}$, so $n(B)=3$.
+
+The outcomes favourable to both $A$ and $B$ are $A\cap B=\{1, 3\}$, so $n(A\cap B)=2$.
+
+Using the formula $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}$, we get
+$$P(A\mid B)=\frac23.$$
+
+So the probability that the result is at most $3$, given that it is odd, is $\dfrac23$.
 
 **Answer.** $\dfrac23$.
 :::
@@ -218,7 +227,18 @@ A class has $40$ students: $20$ boys, $14$ of whom like maths, and $20$ girls, $
 2. Compute $\dfrac{10}{20}$ and $\dfrac{14}{24}$.
 
 ::solution
-$P(\text{likes maths}\mid\text{girl})=\dfrac{10}{20}=\dfrac12$; $P(\text{boy}\mid\text{likes maths})=\dfrac{14}{24}=\dfrac{7}{12}$.
+Let $A$ be the event "the chosen student likes maths", $G$ be the event "the chosen student is a girl" and $B$ be the event "the chosen student is a boy".
+
+The number of students who like maths is $14+10=24$. We have
+$$P(G)=\frac{20}{40},\qquad P(A)=\frac{24}{40},\qquad P(A\cap G)=\frac{10}{40},\qquad P(A\cap B)=\frac{14}{40}.$$
+
+The probability that the student likes maths given that she is a girl:
+$$P(A\mid G)=\frac{P(A\cap G)}{P(G)}=\frac{10/40}{20/40}=\frac{10}{20}=\frac12.$$
+
+The probability that the student is a boy given that the student likes maths:
+$$P(B\mid A)=\frac{P(A\cap B)}{P(A)}=\frac{14/40}{24/40}=\frac{14}{24}=\frac7{12}.$$
+
+So the probability that the student likes maths given that she is a girl is $\dfrac12$, and the probability that the student is a boy given that the student likes maths is $\dfrac7{12}$.
 
 **Answer.** $\dfrac12$ and $\dfrac7{12}$.
 :::
@@ -234,7 +254,12 @@ Given $P(A)=0.5$, $P(B)=0.4$ and $P(A\cap B)=0.2$, find $P(A\mid B)$ and $P(B\mi
 2. Compare $P(A\mid B)$ with $P(A)$.
 
 ::solution
-$P(A\mid B)=\dfrac{0.2}{0.4}=0.5$ and $P(B\mid A)=\dfrac{0.2}{0.5}=0.4$. Since $P(A\mid B)=P(A)$, $A$ and $B$ are independent.
+Using the conditional probability formulas $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ and $P(B\mid A)=\dfrac{P(A\cap B)}{P(A)}$, we have
+$$P(A\mid B)=\frac{0.2}{0.4}=0.5,\qquad P(B\mid A)=\frac{0.2}{0.5}=0.4.$$
+
+Testing independence. We have $P(A\mid B)=0.5=P(A)$. Also $P(A)\cdot P(B)=0.5\cdot0.4=0.2=P(A\cap B)$.
+
+So $P(A\mid B)=0.5$, $P(B\mid A)=0.4$ and the events $A$ and $B$ are independent.
 
 **Answer.** $0.5$; $0.4$; independent.
 :::
@@ -250,7 +275,15 @@ A box holds $4$ white balls and $6$ black balls. Two balls are drawn one after t
 2. If the first is black, $4$ white remain out of $9$.
 
 ::solution
-$P(\text{both black})=\dfrac{6}{10}\cdot\dfrac59=\dfrac13$. $P(\text{white second}\mid\text{black first})=\dfrac49$.
+Let $A_1$ be the event "the first ball is black", $A_2$ be the event "the second ball is black" and $W_2$ be the event "the second ball is white".
+
+Probability that both are black. The box initially holds $10$ balls, of which $6$ are black, so $P(A_1)=\dfrac{6}{10}$. After a black ball is drawn (without replacement), $9$ balls remain, of which $5$ are black, so $P(A_2\mid A_1)=\dfrac59$. By the multiplication rule,
+$$P(A_1\cap A_2)=P(A_1)\cdot P(A_2\mid A_1)=\frac{6}{10}\cdot\frac59=\frac{30}{90}=\frac13.$$
+
+Probability that the second is white given that the first is black. After a black ball is drawn, $9$ balls remain, of which $4$ are white, so
+$$P(W_2\mid A_1)=\frac49.$$
+
+So the probability that both balls are black is $\dfrac13$, and the probability that the second is white given that the first is black is $\dfrac49$.
 
 **Answer.** $\dfrac13$ and $\dfrac49$.
 :::
@@ -274,13 +307,17 @@ d) $A$ and $B$ are not independent.
 2. Compare $P(A\mid B)$ with $P(A)=\dfrac12$.
 
 ::solution
-a) **True**: $P(B)=\dfrac4{10}=0.4$.
+The sample space $\Omega=\{1, 2, \dots, 10\}$ has $10$ equally likely outcomes. We have $A=\{2, 4, 6, 8, 10\}$, so $n(A)=5$ and $P(A)=\dfrac5{10}=\dfrac12$. We have $B=\{7, 8, 9, 10\}$, so $n(B)=4$. The intersection is $A\cap B=\{8, 10\}$, so $n(A\cap B)=2$.
 
-b) **True**: $P(A\mid B)=\dfrac24=\dfrac12$.
+a) **True.** We have $P(B)=\dfrac{n(B)}{n(\Omega)}=\dfrac4{10}=0.4$.
 
-c) **True**: $A$ has $5$ elements, of which $8$ and $10$ are in $B$, so $P(B\mid A)=\dfrac25$.
+b) **True.** We have $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac24=\dfrac12$.
 
-d) **False**: $P(A\mid B)=\dfrac12=P(A)$, so $A$ and $B$ are independent.
+c) **True.** Of the $5$ elements of $A$, the $2$ elements $8$ and $10$ belong to $B$, so $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}=\dfrac25$.
+
+d) **False.** We have $P(A\mid B)=\dfrac12=P(A)$. Also $P(A)\cdot P(B)=\dfrac12\cdot0.4=0.2=\dfrac2{10}=P(A\cap B)$. Hence $A$ and $B$ are independent, so the claim that $A$ and $B$ are not independent is false.
+
+So claims a), b), c) are true; claim d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -296,7 +333,16 @@ Two fair dice are rolled. Given that at least one die shows a $6$, find the prob
 2. Among them, count those with total $\ge10$.
 
 ::solution
-The outcomes with a $6$ and total $\ge10$ are $(4, 6)$, $(6, 4)$, $(5, 6)$, $(6, 5)$, $(6, 6)$. The probability is $\dfrac5{11}\approx0.4545$.
+Let $A$ be the event "at least one die shows a $6$" and $B$ be the event "the total is at least $10$". We need $P(B\mid A)$.
+
+Rolling two dice gives $6\cdot6=36$ equally likely outcomes. The complement of $A$ is "neither die shows a $6$", which has $5\cdot5=25$ outcomes. Hence $n(A)=36-25=11$.
+
+The outcomes favourable to both $A$ and $B$ (a $6$ appears and the total is $\ge10$) are $(4, 6)$, $(6, 4)$, $(5, 6)$, $(6, 5)$, $(6, 6)$, so $n(A\cap B)=5$.
+
+Using the formula $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}$, we get
+$$P(B\mid A)=\frac5{11}\approx0.4545.$$
+
+So the probability that the total is at least $10$, given that at least one die shows a $6$, is approximately $0.45$.
 
 **Answer.** $0.45$.
 :::
@@ -312,7 +358,15 @@ In a café, $70\%$ of customers order a coffee drink, and $40\%$ of those also o
 2. Divide by $P(\text{cake})=0.35$.
 
 ::solution
-$P(\text{coffee and cake})=0.7\cdot0.4=0.28$. $P(\text{coffee}\mid\text{cake})=\dfrac{0.28}{0.35}=0.8$.
+Let $A$ be the event "the customer orders a coffee drink" and $B$ be the event "the customer orders a cake". By the problem, $P(A)=0.7$, $P(B\mid A)=0.4$ and $P(B)=0.35$.
+
+Probability that a customer orders both coffee and cake. By the multiplication rule,
+$$P(A\cap B)=P(A)\cdot P(B\mid A)=0.7\cdot0.4=0.28.$$
+
+Probability that the customer ordered coffee given that the customer ordered cake:
+$$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{0.28}{0.35}=0.8.$$
+
+So the probability that a customer orders both coffee and cake is $0.28$, and the probability that the customer ordered coffee given that the customer ordered cake is $0.8$.
 
 **Answer.** $0.28$ and $0.8$.
 :::
@@ -328,7 +382,20 @@ Two marksmen fire independently at a target, one shot each, hitting with probabi
 2. $P(\text{at least one hit})=1-0.2\cdot0.3$; "both hit" lies inside "at least one hit".
 
 ::solution
-$P(\text{both})=0.56$ and $P(\text{at least one})=1-0.06=0.94$. Since "both hit" implies "at least one hit", their intersection is "both hit", so the probability is $\dfrac{0.56}{0.94}=\dfrac{28}{47}\approx0.596$.
+Let $A$ be the event "the first marksman hits" and $B$ be the event "the second marksman hits". By the problem, $P(A)=0.8$, $P(B)=0.7$ and $A$, $B$ are independent.
+
+Let $C=A\cap B$ be the event "both hit" and $D$ be the event "the target is hit at least once". We need $P(C\mid D)$.
+
+Since $A$ and $B$ are independent,
+$$P(C)=P(A)\cdot P(B)=0.8\cdot0.7=0.56.$$
+
+The complement of $D$ is "both miss", with probability $(1-0.8)(1-0.7)=0.2\cdot0.3=0.06$. Hence
+$$P(D)=1-0.06=0.94.$$
+
+Since "both hit" implies "at least one hit", we have $C\subset D$, so $C\cap D=C$. Using the conditional probability formula,
+$$P(C\mid D)=\frac{P(C\cap D)}{P(D)}=\frac{0.56}{0.94}=\frac{28}{47}\approx0.596.$$
+
+So the probability that both hit the target, given that the target is hit at least once, is approximately $0.60$.
 
 **Answer.** $\approx0.60$.
 :::
@@ -344,7 +411,18 @@ A group has $5$ boys and $4$ girls. Three of them are chosen at random. Given th
 2. The number with exactly one girl is $\binom{4}{1}\cdot\binom{5}{2}$.
 
 ::solution
-$\binom{9}{3}-\binom{5}{3}=84-10=74$ and $\binom{4}{1}\cdot\binom{5}{2}=4\cdot10=40$. The probability is $\dfrac{40}{74}=\dfrac{20}{37}$.
+Let $A$ be the event "at least one girl is chosen" and $B$ be the event "exactly one girl is chosen". We need $P(B\mid A)$.
+
+Choosing $3$ people from $9$ can be done in $\binom{9}{3}=84$ ways. The complement of $A$ is "all three chosen are boys", which can be done in $\binom{5}{3}=10$ ways. Hence $n(A)=84-10=74$.
+
+For the event $B$, we choose $1$ girl from $4$ girls and $2$ boys from $5$ boys, so $n(B)=\binom{4}{1}\cdot\binom{5}{2}=4\cdot10=40$.
+
+Exactly one girl implies at least one girl, so $B\subset A$ and $n(A\cap B)=n(B)=40$.
+
+Using the formula $P(B\mid A)=\dfrac{n(A\cap B)}{n(A)}$, we get
+$$P(B\mid A)=\frac{40}{74}=\frac{20}{37}.$$
+
+So the probability that exactly one girl is chosen, given that at least one girl is chosen, is $\dfrac{20}{37}$.
 
 **Answer.** $\dfrac{20}{37}$.
 :::
@@ -360,7 +438,20 @@ A fair coin is tossed three times. Let $A$ be "the first toss is heads" and $B$ 
 2. Count $A\cap B$, then divide by $n(B)$ and by $n(A)=4$.
 
 ::solution
-$A\cap B=\{\text{HHT}, \text{HTH}, \text{HHH}\}$ has $3$ elements. $P(A\mid B)=\dfrac34$ and $P(B\mid A)=\dfrac34$. Since $P(A)=\dfrac12\neq\dfrac34$, the events are not independent: knowing the first toss is heads makes at least two heads more likely.
+Write H for heads and T for tails. The sample space has $2^3=8$ equally likely outcomes.
+
+The event $A$ "the first toss is heads" is $A=\{\text{HHH}, \text{HHT}, \text{HTH}, \text{HTT}\}$, so $P(A)=\dfrac48=\dfrac12$.
+
+The event $B$ "at least two tosses are heads" is $B=\{\text{HHH}, \text{HHT}, \text{HTH}, \text{THH}\}$, so $P(B)=\dfrac48=\dfrac12$.
+
+The intersection is $A\cap B=\{\text{HHT}, \text{HTH}, \text{HHH}\}$, which has $3$ elements, so $P(A\cap B)=\dfrac38$.
+
+Using the conditional probability formula,
+$$P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{3/8}{4/8}=\frac34,\qquad P(B\mid A)=\frac{P(A\cap B)}{P(A)}=\frac{3/8}{4/8}=\frac34.$$
+
+Testing independence. We have $P(A)=\dfrac12\neq\dfrac34=P(A\mid B)$ (equivalently, $P(A)\cdot P(B)=\dfrac14\neq\dfrac38=P(A\cap B)$), so $A$ and $B$ are not independent: knowing the first toss is heads makes at least two heads more likely.
+
+So $P(A\mid B)=\dfrac34$, $P(B\mid A)=\dfrac34$ and the events $A$ and $B$ are not independent.
 
 **Answer.** $\dfrac34$; $\dfrac34$; not independent.
 :::

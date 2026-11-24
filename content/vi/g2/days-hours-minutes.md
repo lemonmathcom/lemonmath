@@ -170,9 +170,11 @@ b) 1 giờ có $\square$ phút.
 2. Kim dài quay một vòng là bao nhiêu phút?
 
 ::solution
-a) 1 ngày có 24 giờ.
+a) Một ngày có $24$ giờ.
 
-b) 1 giờ có 60 phút.
+b) Một giờ có $60$ phút.
+
+Vậy ta điền các số $24$ và $60$.
 
 **Đáp số.** a) 24; b) 60.
 :::
@@ -194,11 +196,15 @@ c) 45 phút
 2. Số lần đếm là số mà kim dài chỉ.
 
 ::solution
-a) $5,10,15$: đếm 3 lần nên kim dài chỉ số 3.
+Trên mặt đồng hồ, kim dài đi từ số này sang số kế tiếp là $5$ phút.
 
-b) $5,10,15,20,25,30$: đếm 6 lần nên kim dài chỉ số 6.
+a) Để qua $15$ phút, kim dài đếm $5, 10, 15$: đếm $3$ lần nên kim dài chỉ số $3$.
 
-c) Đếm 9 lần nên kim dài chỉ số 9.
+b) Để qua $30$ phút, kim dài đếm $5, 10, 15, 20, 25, 30$: đếm $6$ lần nên kim dài chỉ số $6$.
+
+c) Để qua $45$ phút, kim dài đếm $5, 10, 15, 20, 25, 30, 35, 40, 45$: đếm $9$ lần nên kim dài chỉ số $9$.
+
+Vậy kim dài chỉ số $3$, số $6$ và số $9$.
 
 **Đáp số.** a) Số 3; b) số 6; c) số 9.
 :::
@@ -214,7 +220,11 @@ c) Đếm 9 lần nên kim dài chỉ số 9.
 2. Kim dài chỉ số 3 là bao nhiêu phút?
 
 ::solution
-Kim ngắn vừa qua số 9 nên là 9 giờ. Kim dài chỉ số 3 nên là 15 phút.
+Kim ngắn vừa qua số $9$ nên đồng hồ chỉ $9$ giờ.
+
+Kim dài chỉ số $3$; mỗi số cách nhau $5$ phút nên $3\times5=15$ phút.
+
+Vậy đồng hồ chỉ $9$ giờ $15$ phút.
 
 **Đáp số.** 9 giờ 15 phút.
 :::
@@ -234,9 +244,12 @@ b) Mai làm bài trong bao nhiêu phút?
 2. Câu b: kim dài đi từ số 12 đến số 6.
 
 ::solution
-a) $11-7=4$ (giờ).
+a) Lớp em học từ $7$ giờ đến $11$ giờ nên số giờ lớp em học là:
+$$11-7=4\ \text{(giờ)}.$$
 
-b) Từ 8 giờ đến 8 giờ 30 phút là 30 phút.
+b) Mai làm bài từ $8$ giờ đến $8$ giờ $30$ phút. Từ $8$ giờ đến $8$ giờ $30$ phút là $30$ phút.
+
+Vậy lớp em học trong $4$ giờ và Mai làm bài trong $30$ phút.
 
 **Đáp số.** a) 4 giờ; b) 30 phút.
 :::
@@ -252,7 +265,14 @@ Mỗi tháng sau có bao nhiêu ngày: tháng 5, tháng 6, tháng 11, tháng 12?
 2. Nhớ cách nắm bàn tay.
 
 ::solution
-Tháng 5 có 31 ngày. Tháng 6 có 30 ngày. Tháng 11 có 30 ngày. Tháng 12 có 31 ngày.
+Ta nhớ số ngày của từng tháng:
+
+- Tháng 5 có $31$ ngày.
+- Tháng 6 có $30$ ngày.
+- Tháng 11 có $30$ ngày.
+- Tháng 12 có $31$ ngày.
+
+Vậy tháng 5 và tháng 12 có $31$ ngày; tháng 6 và tháng 11 có $30$ ngày.
 
 **Đáp số.** Tháng 5: 31 ngày; tháng 6: 30 ngày; tháng 11: 30 ngày; tháng 12: 31 ngày.
 :::
@@ -271,9 +291,12 @@ Giả sử hôm nay là ngày 20 tháng 11. Tháng 11 có 30 ngày. Hỏi còn m
 ::solution
 Bài giải
 
-Số ngày còn lại đến hết tháng 11 là:
+Tháng 11 có $30$ ngày, hôm nay là ngày $20$ nên số ngày còn lại đến hết tháng 11 là:
 $$30-20=10\ \text{(ngày)}.$$
-Đáp số: 10 ngày.
+
+Vậy còn $10$ ngày nữa thì hết tháng 11.
+
+**Đáp số.** 10 ngày.
 :::
 
 :::exercise
@@ -287,8 +310,12 @@ Nhớ lại bài các ngày trong tuần. Hôm nay là thứ năm, ngày 12 thá
 2. Sau 7 ngày là thứ gì, ngày mấy?
 
 ::solution
-Ngày 13 tháng 11 là ngày ngay sau thứ năm nên là thứ sáu. Thứ năm tuần sau là:
+Hôm nay là thứ năm, ngày $12$ tháng 11. Ngày $13$ tháng 11 là ngày ngay sau thứ năm nên là thứ sáu.
+
+Một tuần có $7$ ngày nên thứ năm tuần sau là ngày:
 $$12+7=19.$$
+
+Vậy ngày $13$ tháng 11 là thứ sáu, và thứ năm tuần sau là ngày $19$ tháng 11.
 
 **Đáp số.** Ngày 13 là thứ sáu; thứ năm tuần sau là ngày 19 tháng 11.
 :::
@@ -306,9 +333,11 @@ b) Hôm nay là ngày 31 tháng 12. Ngày mai là ngày nào?
 2. Sau tháng 12 là tháng mấy của năm sau?
 
 ::solution
-a) Tháng 4 có 30 ngày nên ngày 30 là ngày cuối tháng. Ngày mai là ngày 1 tháng 5.
+a) Tháng 4 có $30$ ngày nên ngày $30$ là ngày cuối tháng 4. Sau đó là sang tháng 5, nên ngày mai là ngày $1$ tháng 5.
 
-b) Tháng 12 có 31 ngày nên ngày 31 là ngày cuối năm. Ngày mai là ngày 1 tháng 1 của năm sau.
+b) Tháng 12 có $31$ ngày nên ngày $31$ là ngày cuối tháng 12, cũng là ngày cuối năm. Ngày mai là ngày $1$ tháng 1 của năm sau.
+
+Vậy ngày mai ở câu a) là ngày $1$ tháng 5, ở câu b) là ngày $1$ tháng 1 của năm sau.
 
 **Đáp số.** a) Ngày 1 tháng 5; b) ngày 1 tháng 1 của năm sau.
 :::

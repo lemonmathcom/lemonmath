@@ -156,11 +156,19 @@ c) $9\times6$.
 2. Dừng ở số thứ tự cần tìm.
 
 ::solution
+Bài giải
+
+Ta dùng bảng nhân $9$.
+
 a) $9\times3=27$.
 
 b) $9\times5=45$.
 
 c) $9\times6=54$.
+
+*Thử lại.* $9\times6=9\times5+9=45+9=54$. Đúng.
+
+Vậy $9\times3=27$, $9\times5=45$ và $9\times6=54$.
 
 **Đáp số.** a) $27$; b) $45$; c) $54$.
 :::
@@ -182,11 +190,17 @@ c) $9\times10$.
 2. Bớt đi $n$.
 
 ::solution
-a) $9\times7=70-7=63$.
+Bài giải
 
-b) $9\times9=90-9=81$.
+Em có thể nhân với $9$ bằng cách nhân với $10$ rồi trừ đi một lần số đó.
 
-c) $9\times10=100-10=90$.
+a) $9\times7=10\times7-7=70-7=63$.
+
+b) $9\times9=10\times9-9=90-9=81$.
+
+c) $9\times10=10\times10-10=100-10=90$.
+
+Vậy $9\times7=63$, $9\times9=81$ và $9\times10=90$.
 
 **Đáp số.** a) $63$; b) $81$; c) $90$.
 :::
@@ -208,11 +222,15 @@ c) $8\times8$ và $9\times7$.
 2. So sánh kết quả.
 
 ::solution
-a) $8\times9=72$.
+Bài giải
 
-b) $9\times8=72$, bằng $8\times9$.
+a) Theo bảng nhân $8$, ta có $8\times9=72$.
 
-c) $8\times8=64$ và $9\times7=63$, nên $8\times8>9\times7$.
+b) Theo bảng nhân $9$, ta có $9\times8=72$. Kết quả này bằng $8\times9$ vì khi đổi chỗ hai thừa số thì tích không đổi.
+
+c) Ta có $8\times8=64$ và $9\times7=63$. Vì $64>63$ nên $8\times8>9\times7$.
+
+Vậy $8\times9=72$, $9\times8=72$, và $8\times8=64$ lớn hơn $9\times7=63$.
 
 **Đáp số.** a) $72$; b) $72$; c) $64$ và $63$.
 :::
@@ -234,11 +252,17 @@ c) $90:9$.
 2. Số còn lại là thương.
 
 ::solution
-a) $9\times3=27$ nên $27:9=3$.
+Bài giải
 
-b) $9\times7=63$ nên $63:9=7$.
+Muốn tìm thương, ta nhớ lại phép nhân $9$ tương ứng.
 
-c) $9\times10=90$ nên $90:9=10$.
+a) Vì $9\times3=27$ nên $27:9=3$.
+
+b) Vì $9\times7=63$ nên $63:9=7$.
+
+c) Vì $9\times10=90$ nên $90:9=10$.
+
+Vậy $27:9=3$, $63:9=7$ và $90:9=10$.
 
 **Đáp số.** a) $3$; b) $7$; c) $10$.
 :::
@@ -260,11 +284,17 @@ c) $9\times8 \;\square\; 8\times9$.
 2. So sánh kết quả.
 
 ::solution
-a) $9\times6=54$ và $54>50$ nên $9\times6>50$.
+Bài giải
 
-b) $45:9=5$ và $9\times1=9$, $5<9$ nên $45:9<9\times1$.
+Ta tính giá trị mỗi vế rồi so sánh.
 
-c) $9\times8=72$ và $8\times9=72$ nên hai vế bằng nhau (đổi chỗ hai thừa số thì tích không đổi).
+a) Ta có $9\times6=54$. Vì $54>50$ nên $9\times6>50$.
+
+b) Ta có $45:9=5$ (vì $9\times5=45$) và $9\times1=9$. Vì $5<9$ nên $45:9<9\times1$.
+
+c) Ta có $9\times8=72$ và $8\times9=72$. Hai vế bằng nhau, vì khi đổi chỗ hai thừa số thì tích không đổi. Vậy $9\times8=8\times9$.
+
+Vậy các dấu cần điền lần lượt là $>$, $<$ và $=$.
 
 **Đáp số.** a) $>$; b) $<$; c) $=$.
 :::
@@ -280,9 +310,15 @@ Khoa viết: "$9\times6=45$". Khoa sai ở đâu? Hãy sửa lại.
 2. Tính lại $9\times6$ từ tích liền trước.
 
 ::solution
-$45=9\times5$, Khoa thiếu một nhóm $9$. Ta có $9\times6=45+9=54$.
+Bài giải
 
-**Thử lại.** $54:9=6$. Đúng.
+Ta kiểm tra bằng bảng nhân $9$. Ta có $45=9\times5$, nên $45$ là kết quả của $5$ nhóm $9$, không phải $6$ nhóm $9$. Khoa đã thiếu một nhóm $9$.
+
+Làm đúng: $9\times6=9\times5+9=45+9=54$.
+
+*Thử lại.* $54:9=6$. Đúng.
+
+Vậy Khoa sai vì thiếu một nhóm $9$; kết quả đúng là $9\times6=54$.
 
 **Đáp số.** Khoa thiếu một nhóm; $9\times6=54$.
 :::
@@ -300,9 +336,17 @@ b) Có $81$ viên kẹo chia vào các túi, mỗi túi $9$ viên. Hỏi chia đ
 2. Chọn phép tính, tính rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Số bút là $9\times8=72$ (cây).
+Bài giải
 
-b) Số túi là $81:9=9$ (túi).
+a) Mỗi hộp có $9$ cây bút màu, nên số bút trong $8$ hộp là:
+$$9\times8=72\ \text{(cây)}.$$
+
+b) Có $81$ viên kẹo, mỗi túi đựng $9$ viên, nên số túi chia được là:
+$$81:9=9\ \text{(túi)}.$$
+
+*Thử lại.* $9\times9=81$. Đúng.
+
+Vậy $8$ hộp có $72$ cây bút và chia được $9$ túi kẹo.
 
 **Đáp số.** a) $72$ cây bút; b) $9$ túi.
 :::
@@ -322,11 +366,25 @@ b) Chia mỗi số tìm được ở câu a) cho $9$.
 2. Chọn số có tổng bằng $9$, rồi chia cho $9$ bằng bảng chia $9$.
 
 ::solution
-a) $3+6=9$, $4+5=9$, $4+8=12$, $7+2=9$, $7+5=12$. Vậy $36,\ 45,\ 72$ là tích trong bảng nhân $9$.
+Bài giải
 
-b) $36:9=4$, $45:9=5$, $72:9=8$.
+Mẹo: một số trong bảng nhân $9$ (nhỏ hơn $100$) có tổng hai chữ số bằng $9$.
 
-**Thử lại.** $9\times4=36$, $9\times5=45$, $9\times8=72$.
+a) Ta tính tổng hai chữ số của từng số:
+- $36$: $3+6=9$.
+- $45$: $4+5=9$.
+- $48$: $4+8=12$, khác $9$.
+- $72$: $7+2=9$.
+- $75$: $7+5=12$, khác $9$.
+
+Vậy các số $36,\ 45,\ 72$ là tích trong bảng nhân $9$.
+
+b) Ta chia mỗi số tìm được cho $9$:
+$$36:9=4,\qquad 45:9=5,\qquad 72:9=8.$$
+
+*Thử lại.* $9\times4=36$, $9\times5=45$, $9\times8=72$. Đúng.
+
+Vậy các số $36,\ 45,\ 72$ là tích trong bảng nhân $9$, và chia cho $9$ lần lượt được $4,\ 5,\ 8$.
 
 **Đáp số.** a) $36,\ 45,\ 72$; b) $4,\ 5,\ 8$.
 :::

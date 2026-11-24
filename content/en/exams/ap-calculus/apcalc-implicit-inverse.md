@@ -125,7 +125,17 @@ For $f(x)=\sqrt{x^2+9}$, find $f'(4)$.
 2. Substitute $x=4$.
 
 ::solution
-$f'(x)=\dfrac{x}{\sqrt{x^2+9}}$, so $f'(4)=\dfrac45$.
+Since $x^2+9>0$ for every $x$, the function is defined and differentiable on $\mathbb{R}$.
+
+Using the chain rule $\left(\sqrt u\right)'=\dfrac{u'}{2\sqrt u}$ with $u=x^2+9$, we have
+$$f'(x)=\frac{2x}{2\sqrt{x^2+9}}=\frac{x}{\sqrt{x^2+9}}.$$
+
+Substituting $x=4$, we get
+$$f'(4)=\frac{4}{\sqrt{16+9}}=\frac{4}{5}.$$
+
+So $f'(4)=\dfrac45$.
+
+**Answer.** $\dfrac45$.
 :::
 
 :::exercise Multiple choice
@@ -142,7 +152,19 @@ D. $\ln2$
 1. $g'(x)=\dfrac{2x}{x^2+1}$.
 
 ::solution
-$g'(1)=\dfrac22=1$: answer **B**. Option D is $g(1)$.
+Since $x^2+1>0$ for every $x$, the function $g(x)=\ln\left(x^2+1\right)$ is defined on $\mathbb{R}$.
+
+Using the chain rule $(\ln u)'=\dfrac{u'}{u}$ with $u=x^2+1$, we have
+$$g'(x)=\frac{2x}{x^2+1}.$$
+
+Substituting $x=1$, we get
+$$g'(1)=\frac{2\cdot1}{1^2+1}=\frac22=1.$$
+
+So the answer is **B**.
+
+*Remark.* Option D is the value $g(1)=\ln2$, not $g'(1)$.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -156,7 +178,18 @@ Find the slope of the curve $xy=6$ at the point $(2, 3)$ by implicit differentia
 2. Substitute the point.
 
 ::solution
-$\dfrac{dy}{dx}=-\dfrac yx=-\dfrac32$ at $(2, 3)$.
+The point $(2, 3)$ lies on the curve because $2\cdot3=6$. Regard $y$ as a function of $x$ and differentiate both sides of $xy=6$ with respect to $x$ (using the product rule):
+$$y+x\frac{dy}{dx}=0.$$
+
+Hence, for $x\neq0$,
+$$\frac{dy}{dx}=-\frac yx.$$
+
+Substituting $x=2$, $y=3$, we get
+$$\frac{dy}{dx}=-\frac32.$$
+
+So the slope of the curve $xy=6$ at the point $(2, 3)$ is $-\dfrac32$.
+
+**Answer.** $-\dfrac32$.
 :::
 
 :::exercise Multiple choice
@@ -174,7 +207,21 @@ D. $2+e$
 2. $f'(x)=2+e^x$.
 
 ::solution
-$f'(0)=3$, so $\left(f^{-1}\right)'(1)=\dfrac13$: answer **C**. Option A uses $f'(1)$.
+We have $f'(x)=2+e^x>0$ for every $x$, so $f$ is increasing on $\mathbb{R}$; hence $f$ is one-to-one and has an inverse function $f^{-1}$.
+
+By the formula for the derivative of an inverse function: if $f(a)=b$, then
+$$\left(f^{-1}\right)'(b)=\frac{1}{f'(a)}.$$
+
+Here $b=1$. We need $a$ such that $f(a)=1$. Since $f(0)=2\cdot0+e^0=1$ and $f$ is increasing, $a=0$.
+
+We compute $f'(0)=2+e^0=3$. Therefore
+$$\left(f^{-1}\right)'(1)=\frac{1}{f'(0)}=\frac13.$$
+
+So the answer is **C**.
+
+*Remark.* Option A mistakenly uses $f'(1)=2+e$ instead of $f'(0)$.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -188,7 +235,17 @@ For $y=\arcsin\left(\dfrac x2\right)$, find $\dfrac{dy}{dx}$ at $x=1$.
 2. Substitute $x=1$.
 
 ::solution
-$\dfrac{dy}{dx}=\dfrac{\frac12}{\sqrt{1-\frac{x^2}{4}}}$, so at $x=1$: $\dfrac{\frac12}{\sqrt{\frac34}}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}{3}$.
+The function $y=\arcsin\left(\dfrac x2\right)$ is differentiable when $\left|\dfrac x2\right|<1$; the value $x=1$ satisfies this condition.
+
+Using the chain rule $\left(\arcsin u\right)'=\dfrac{u'}{\sqrt{1-u^2}}$ with $u=\dfrac x2$ and $u'=\dfrac12$, we have
+$$\frac{dy}{dx}=\frac{\frac12}{\sqrt{1-\frac{x^2}{4}}}.$$
+
+Substituting $x=1$, we get
+$$\frac{dy}{dx}\bigg|_{x=1}=\frac{\frac12}{\sqrt{\frac34}}=\frac{\frac12}{\frac{\sqrt3}{2}}=\frac{1}{\sqrt3}=\frac{\sqrt3}{3}.$$
+
+So $\dfrac{dy}{dx}$ at $x=1$ equals $\dfrac{\sqrt3}{3}$.
+
+**Answer.** $\dfrac{\sqrt3}{3}$.
 :::
 
 ## Application exercises
@@ -204,7 +261,18 @@ Write the equation of the tangent line to $x^2+y^2=10$ at $(1, 3)$.
 2. Use point–slope form.
 
 ::solution
-$y-3=-\dfrac13(x-1)$, that is $y=-\dfrac13x+\dfrac{10}{3}$.
+The point $(1, 3)$ lies on the curve because $1^2+3^2=10$. Differentiate both sides of $x^2+y^2=10$ with respect to $x$ (regarding $y$ as a function of $x$):
+$$2x+2y\frac{dy}{dx}=0.$$
+
+Hence, for $y\neq0$,
+$$\frac{dy}{dx}=-\frac xy.$$
+
+At $(1, 3)$, the slope of the tangent line is $-\dfrac13$. The tangent line is
+$$y-3=-\frac13(x-1),\ \text{that is}\ y=-\frac13x+\frac13+3=-\frac13x+\frac{10}{3}.$$
+
+So the tangent line to the curve at $(1, 3)$ is $y=-\dfrac13x+\dfrac{10}{3}$.
+
+**Answer.** $y=-\dfrac13x+\dfrac{10}{3}$.
 :::
 
 :::exercise An inverse from a table
@@ -217,7 +285,17 @@ The function $f$ is differentiable and one-to-one, with $f(3)=5$ and $f'(3)=2$. 
 1. $g'(5)=\dfrac{1}{f'(3)}$.
 
 ::solution
-$g(5)=3$ and $g'(5)=\dfrac12$. The tangent line is $y=3+\dfrac12(x-5)$.
+Since $f(3)=5$ and $f$ is one-to-one, the inverse function $g=f^{-1}$ satisfies $g(5)=3$.
+
+By the formula for the derivative of an inverse function, with $f'(3)=2\neq0$, we have
+$$g'(5)=\frac{1}{f'\big(g(5)\big)}=\frac{1}{f'(3)}=\frac12.$$
+
+The tangent line to the graph of $g$ at $x=5$ is $y=g(5)+g'(5)(x-5)$, that is
+$$y=3+\frac12(x-5).$$
+
+So $g(5)=3$, $g'(5)=\dfrac12$, and the tangent line to $g$ at $x=5$ is $y=3+\dfrac12(x-5)$.
+
+**Answer.** $g(5)=3$; $g'(5)=\dfrac12$; tangent line $y=3+\dfrac12(x-5)$.
 :::
 
 :::exercise The second derivative implicitly
@@ -231,7 +309,21 @@ For the curve $x^2+y^2=25$, show that $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$.
 2. Replace $\dfrac{dy}{dx}$ by $-\dfrac xy$ and use $x^2+y^2=25$.
 
 ::solution
-$\dfrac{d^2y}{dx^2}=-\dfrac{y+\frac{x^2}{y}}{y^2}=-\dfrac{y^2+x^2}{y^3}=-\dfrac{25}{y^3}$.
+Differentiate both sides of $x^2+y^2=25$ with respect to $x$ (regarding $y$ as a function of $x$):
+$$2x+2y\,y'=0.$$
+
+Hence, for $y\neq0$,
+$$y'=-\frac xy.$$
+
+Differentiate this equality with respect to $x$, using the quotient rule and substituting $y'=-\dfrac xy$:
+$$\begin{aligned}y''&=-\frac{1\cdot y-x\cdot y'}{y^2}\\&=-\frac{y-x\left(-\frac xy\right)}{y^2}\\&=-\frac{y+\frac{x^2}{y}}{y^2}\\&=-\frac{y^2+x^2}{y^3}.\end{aligned}$$
+
+Since $x^2+y^2=25$,
+$$\frac{d^2y}{dx^2}=-\frac{25}{y^3}.$$
+
+So for the curve $x^2+y^2=25$ we have $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$, as required.
+
+**Answer.** $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$.
 :::
 
 :::exercise Challenge
@@ -245,7 +337,22 @@ Let $h(x)=f\big(g(x)\big)$, where $g(x)=x^2+1$ and $f'(5)=3$. Find $h'(2)$, then
 2. $\dfrac{d}{dx}h^2=2h\cdot h'$ and $h(2)=f(5)$.
 
 ::solution
-$h'(2)=3\cdot4=12$. Then $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, which at $x=2$ equals $2\cdot(-1)\cdot12=-24$.
+Using the chain rule for $h(x)=f\big(g(x)\big)$, we have
+$$h'(x)=f'\big(g(x)\big)\cdot g'(x).$$
+
+With $g(x)=x^2+1$ we have $g'(x)=2x$, so $g(2)=2^2+1=5$ and $g'(2)=4$.
+
+Therefore
+$$h'(2)=f'\big(g(2)\big)\cdot g'(2)=f'(5)\cdot4=3\cdot4=12.$$
+
+Also, $h(2)=f\big(g(2)\big)=f(5)=-1$.
+
+Applying the chain rule to $[h(x)]^2$, we have $\dfrac{d}{dx}\Big[h(x)\Big]^2=2h(x)h'(x)$. At $x=2$,
+$$\frac{d}{dx}\Big[h(x)\Big]^2\bigg|_{x=2}=2\cdot h(2)\cdot h'(2)=2\cdot(-1)\cdot12=-24.$$
+
+So $h'(2)=12$ and the value of $\dfrac{d}{dx}\Big[h(x)\Big]^2$ at $x=2$ is $-24$.
+
+**Answer.** $h'(2)=12$; the required value is $-24$.
 :::
 
 :::quiz

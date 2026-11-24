@@ -150,7 +150,13 @@ Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào 
 2. Hình nào đứng sau hình tròn?
 
 ::solution
-Sau hình tròn là hình tam giác.
+Hàng ngang, đọc từ trái sang phải, gồm: hình vuông, hình tròn, hình tam giác.
+
+Hình ở bên phải hình tròn là hình đứng sau hình tròn.
+
+Ngay sau hình tròn là hình tam giác.
+
+Vậy hình tam giác ở bên phải hình tròn.
 
 **Đáp số.** Hình tam giác.
 :::
@@ -166,7 +172,13 @@ Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình n
 2. Hình đầu tiên là hình nào?
 
 ::solution
+Hàng dọc, đọc từ trên xuống dưới, gồm: hình tam giác, hình vuông, hình tròn.
+
+Hình ở trên cùng là hình đầu tiên khi đọc từ trên xuống.
+
 Hình đầu tiên từ trên xuống là hình tam giác.
+
+Vậy hình ở trên cùng là hình tam giác.
 
 **Đáp số.** Hình tam giác.
 :::
@@ -182,7 +194,13 @@ Em hãy nhớ lại bài trước: viên xúc xắc đặt trên bàn. Xúc xắ
 2. Viên xúc xắc đặt trên vật nào?
 
 ::solution
-Xúc xắc là khối lập phương. Xúc xắc đặt trên bàn nên bàn ở dưới xúc xắc.
+Bài toán hỏi hai điều: xúc xắc có dạng khối gì và vật nào ở dưới viên xúc xắc.
+
+Viên xúc xắc có các mặt đều là hình vuông, nên xúc xắc là khối lập phương.
+
+Xúc xắc đặt trên bàn, nghĩa là xúc xắc ở phía trên còn bàn ở phía dưới.
+
+Vậy xúc xắc là khối lập phương và cái bàn ở dưới viên xúc xắc.
 
 **Đáp số.** Khối lập phương; cái bàn.
 :::
@@ -200,7 +218,13 @@ b) Hình tam giác ở bên trái hay bên phải hình tròn?
 2. Hình tam giác đứng trước hay sau hình tròn?
 
 ::solution
-a) Hình tròn ở bên phải hình vuông. b) Hình tam giác đứng sau hình tròn nên ở bên phải.
+Hàng ngang, đọc từ trái sang phải, gồm: hình vuông, hình tròn, hình tam giác.
+
+a) Ngay trước hình tròn là hình vuông, nên hình tròn ở bên phải hình vuông.
+
+b) Hình tam giác đứng sau hình tròn, nên hình tam giác ở bên phải hình tròn.
+
+Vậy a) hình tròn ở bên phải hình vuông; b) hình tam giác ở bên phải hình tròn.
 
 **Đáp số.** a) Hình vuông. b) Bên phải.
 :::
@@ -216,7 +240,15 @@ Bình nói: "Hình vuông ở giữa" (trong hàng ngang vuông, tròn, tam giá
 2. Hình nào ở giữa?
 
 ::solution
-Hình vuông đứng đầu hàng, không có hình bên trái. Hình ở giữa là hình tròn.
+Hàng ngang có ba hình theo thứ tự từ trái sang phải: hình vuông, hình tròn, hình tam giác.
+
+Hình ở giữa là hình có một hình ở bên trái và một hình ở bên phải.
+
+Hình vuông đứng đầu hàng, không có hình nào ở bên trái, nên hình vuông không ở giữa.
+
+Hình tròn có hình vuông ở bên trái và hình tam giác ở bên phải, nên hình tròn ở giữa.
+
+Vậy Bình nói sai; hình ở giữa là hình tròn.
 
 **Đáp số.** Sai. Hình tròn ở giữa.
 :::
@@ -232,7 +264,15 @@ Lan đứng sau Mai, Mai đứng sau Nam. Lan nói: "Em đứng đầu hàng." L
 2. Lan đứng thứ mấy?
 
 ::solution
-Lan sau Mai, Mai sau Nam, nên thứ tự là Nam, Mai, Lan. Lan đứng cuối hàng.
+Lan đứng sau Mai, Mai đứng sau Nam. Ta xếp các bạn từ đầu hàng đến cuối hàng.
+
+Vì Mai đứng sau Nam nên Nam đứng trước Mai. Vì Lan đứng sau Mai nên Mai đứng trước Lan.
+
+Thứ tự từ đầu hàng là: Nam, Mai, Lan.
+
+Lan đứng sau hai bạn nên Lan đứng cuối hàng, không phải đứng đầu hàng. Nam không có ai đứng trước nên Nam đứng đầu hàng.
+
+Vậy Lan nói sai: Nam đứng đầu hàng, Lan đứng cuối hàng.
 
 **Đáp số.** Sai. Nam đứng đầu hàng, Lan đứng cuối.
 :::
@@ -250,7 +290,13 @@ b) Ai ngồi bên phải Bình?
 2. Tìm bạn đứng sau Bình.
 
 ::solution
-a) Bình có An bên trái và Chi bên phải. b) Sau Bình là Chi.
+Ba bạn ngồi từ trái sang phải theo thứ tự: An, Bình, Chi.
+
+a) Người ngồi ở giữa có một bạn ở bên trái và một bạn ở bên phải. Bình có An ở bên trái và Chi ở bên phải, nên Bình ngồi ở giữa.
+
+b) Bạn ngồi ngay sau Bình, tức là ở bên phải Bình, là Chi.
+
+Vậy Bình ngồi ở giữa và Chi ngồi bên phải Bình.
 
 **Đáp số.** a) Bình. b) Chi.
 :::
@@ -266,9 +312,15 @@ Bốn bạn xếp hàng: Hà đứng trước Lan, Lan đứng trước Mai, Mai
 2. Viết tiếp từng bạn theo thứ tự.
 
 ::solution
-Thứ tự từ đầu hàng: Hà, Lan, Mai, Nam.
+Ta xếp bốn bạn theo thứ tự từ đầu hàng.
 
-**Kiểm tra.** Hà trước Lan, Lan trước Mai, Mai trước Nam. Đúng.
+Hà đứng trước Lan, Lan đứng trước Mai, Mai đứng trước Nam, nên thứ tự từ đầu hàng là: Hà, Lan, Mai, Nam.
+
+Kiểm tra: Hà trước Lan, Lan trước Mai, Mai trước Nam. Đúng.
+
+Người đứng thứ hai từ đầu hàng là Lan. Người đứng cuối hàng là Nam.
+
+Vậy Lan đứng thứ hai và Nam đứng cuối hàng.
 
 **Đáp số.** Lan đứng thứ hai; Nam đứng cuối.
 :::

@@ -224,7 +224,12 @@ Thu gọn đa thức $Q=4x^2y-3xy+2x^2y+5xy-7$ và tìm bậc của nó.
 2. Cộng hệ số, rồi tìm bậc cao nhất.
 
 ::solution
-Ta có $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. Hạng tử $6x^2y$ có bậc $3$.
+Để thu gọn đa thức, ta nhóm các đơn thức đồng dạng rồi cộng các hệ số.
+
+Ta có
+$$\begin{aligned}Q&=(4x^2y+2x^2y)+(-3xy+5xy)-7\\&=6x^2y+2xy-7.\end{aligned}$$
+
+Bậc của đa thức là bậc của hạng tử có bậc cao nhất. Hạng tử $6x^2y$ có bậc $2+1=3$; hạng tử $2xy$ có bậc $2$; hạng tử $-7$ có bậc $0$. Do đó bậc của $Q$ là $3$.
 
 Vậy $Q=6x^2y+2xy-7$ và bậc của $Q$ là $3$.
 
@@ -262,9 +267,11 @@ Cho $A=2x^2-3x+5$ và $B=-x^2+4x-1$. Tính $A+B$ và $A-B$.
 2. Viết $A-B$, đổi dấu các hạng tử của $B$, rồi nhóm.
 
 ::solution
-Ta có $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
+Cộng hai đa thức: bỏ dấu ngoặc rồi nhóm các hạng tử đồng dạng.
+$$\begin{aligned}A+B&=(2x^2-3x+5)+(-x^2+4x-1)\\&=(2x^2-x^2)+(-3x+4x)+(5-1)\\&=x^2+x+4.\end{aligned}$$
 
-Ta có $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
+Trừ hai đa thức: khi bỏ dấu ngoặc có dấu $-$ đứng trước, ta đổi dấu mọi hạng tử trong ngoặc.
+$$\begin{aligned}A-B&=(2x^2-3x+5)-(-x^2+4x-1)\\&=2x^2-3x+5+x^2-4x+1\\&=(2x^2+x^2)+(-3x-4x)+(5+1)\\&=3x^2-7x+6.\end{aligned}$$
 
 Vậy $A+B=x^2+x+4$ và $A-B=3x^2-7x+6$.
 
@@ -282,9 +289,11 @@ Cho $M=x^2+2xy-y^2$ và $N=3x^2-xy+2y^2$. Tính $M+N$ và $M-N$.
 2. Với $M-N$, đổi dấu các hạng tử của $N$.
 
 ::solution
-Ta có $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
+Cộng hai đa thức: bỏ dấu ngoặc rồi nhóm các hạng tử đồng dạng.
+$$\begin{aligned}M+N&=(x^2+2xy-y^2)+(3x^2-xy+2y^2)\\&=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)\\&=4x^2+xy+y^2.\end{aligned}$$
 
-Ta có $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
+Trừ hai đa thức: bỏ dấu ngoặc có dấu $-$ đứng trước nên đổi dấu mọi hạng tử trong ngoặc.
+$$\begin{aligned}M-N&=(x^2+2xy-y^2)-(3x^2-xy+2y^2)\\&=x^2+2xy-y^2-3x^2+xy-2y^2\\&=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)\\&=-2x^2+3xy-3y^2.\end{aligned}$$
 
 Vậy $M+N=4x^2+xy+y^2$ và $M-N=-2x^2+3xy-3y^2$.
 
@@ -342,11 +351,19 @@ Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật c
 2. Nhân với $2\cdot5$ rồi thay $x=4$.
 
 ::solution
-Ta có $a+b=(x+3)+x=2x+3$. Do đó $S_{xq}=2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
+Gọi $a$ (cm) là chiều dài đáy và $b$ (cm) là chiều rộng đáy, ta có $a=x+3$, $b=x$ (với $x>0$), chiều cao $h=5$ cm.
 
-Khi $x=4$, $S_{xq}=20\cdot4+30=110\ (\text{cm}^2)$. (Kiểm tra: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
+Diện tích xung quanh của hình hộp chữ nhật là $S_{xq}=2(a+b)h$. Ta có $a+b=(x+3)+x=2x+3$.
 
-Vậy $S_{xq}=20x+30\ (\text{cm}^2)$ và bằng $110\ \text{cm}^2$ khi $x=4$.
+Thay vào công thức, ta được
+$$S_{xq}=2(2x+3)\cdot5=10(2x+3)=20x+30\ (\text{cm}^2).$$
+
+Khi $x=4$ (thoả mãn $x>0$), ta có
+$$S_{xq}=20\cdot4+30=110\ (\text{cm}^2).$$
+
+Kiểm tra: khi $x=4$ thì $a=7$, $b=4$ và $2(7+4)\cdot5=110$ (cm$^2$).
+
+Vậy diện tích xung quanh là $S_{xq}=20x+30\ (\text{cm}^2)$ và bằng $110\ \text{cm}^2$ khi $x=4$.
 
 **Đáp số.** $20x+30$; $110\ \text{cm}^2$.
 :::
@@ -362,7 +379,11 @@ Tìm đa thức $C$ sao cho $C+(x^2-2xy)=3x^2+xy-y^2$.
 2. Bỏ ngoặc (đổi dấu) rồi thu gọn.
 
 ::solution
-Ta có $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
+Từ $C+(x^2-2xy)=3x^2+xy-y^2$, muốn tìm $C$ ta lấy tổng trừ đi số hạng đã biết:
+$$C=(3x^2+xy-y^2)-(x^2-2xy).$$
+
+Bỏ dấu ngoặc có dấu $-$ đứng trước (đổi dấu mọi hạng tử trong ngoặc) rồi nhóm các hạng tử đồng dạng:
+$$\begin{aligned}C&=3x^2+xy-y^2-x^2+2xy\\&=(3x^2-x^2)+(xy+2xy)-y^2\\&=2x^2+3xy-y^2.\end{aligned}$$
 
 Vậy $C=2x^2+3xy-y^2$.
 

@@ -162,7 +162,15 @@ Cùng một thời điểm, một cái cây thẳng đứng có bóng dài $12$ 
 1. Lập tỉ lệ $\dfrac{h}{12}=\dfrac{2}{1{,}6}$.
 
 ::solution
-$h=\dfrac{12\cdot2}{1{,}6}=15$ m.
+Cùng một thời điểm, các tia nắng song song, nên bóng của các vật thẳng đứng trên mặt đất phẳng là hình chiếu song song của chúng. Phép chiếu song song giữ nguyên tỉ số độ dài, nên chiều cao và độ dài bóng của hai vật tỉ lệ với nhau.
+
+Gọi $h$ (m) là chiều cao của cây ($h>0$). Ta có
+$$\frac{h}{12}=\frac{2}{1{,}6}.$$
+
+Suy ra
+$$h=\frac{12\cdot2}{1{,}6}=15.$$
+
+Vậy cây cao $15$ m.
 
 **Đáp số.** Cây cao $15$ m.
 :::
@@ -178,7 +186,14 @@ Cho tam giác $ABC$ và điểm $M$ thuộc $BC$ sao cho $BM=2MC$. Phép chiếu
 2. Chia $B'C'=9$ theo tỉ lệ $2:1$.
 
 ::solution
-$\dfrac{B'M'}{M'C'}=\dfrac{BM}{MC}=2$ và $B'M'+M'C'=9$, nên $M'C'=3$ và $B'M'=6$.
+Phép chiếu song song bảo toàn tỉ số độ dài của các đoạn thẳng nằm trên cùng một đường thẳng. Vì $M$ thuộc $BC$ nên
+$$\frac{B'M'}{M'C'}=\frac{BM}{MC}=2.$$
+
+Suy ra $B'M'=2M'C'$. Vì $M'$ nằm giữa $B'$ và $C'$ nên $B'M'+M'C'=B'C'=9$.
+
+Thay vào, ta được $2M'C'+M'C'=9$, tức $3M'C'=9$, do đó $M'C'=3$ và $B'M'=2\cdot3=6$.
+
+Vậy $B'M'=6$ và $M'C'=3$.
 
 **Đáp số.** $B'M'=6$, $M'C'=3$.
 :::
@@ -194,7 +209,15 @@ Hình bình hành $ABCD$ có hình biểu diễn $A'B'C'D'$. Hình biểu diễn
 2. Suy ra các cặp cạnh đối của $A'B'C'D'$.
 
 ::solution
-$AB\parallel CD$ nên $A'B'\parallel C'D'$; $AD\parallel BC$ nên $A'D'\parallel B'C'$. Hai cặp cạnh đối song song nên $A'B'C'D'$ là hình bình hành.
+Phép chiếu song song biến hai đường thẳng song song thành hai đường thẳng song song (hoặc trùng nhau).
+
+Vì $AB\parallel CD$ (hai cạnh đối của hình bình hành $ABCD$) nên $A'B'\parallel C'D'$.
+
+Vì $AD\parallel BC$ (hai cạnh đối của hình bình hành $ABCD$) nên $A'D'\parallel B'C'$.
+
+Tứ giác $A'B'C'D'$ có hai cặp cạnh đối song song.
+
+Vậy hình biểu diễn $A'B'C'D'$ là một hình bình hành.
 
 **Đáp số.** Hình bình hành.
 :::
@@ -210,7 +233,14 @@ Bốn điểm $A$, $B$, $C$, $D$ thẳng hàng theo thứ tự với $AB:BC:CD=2
 2. Mỗi phần dài $\dfrac{30}{10}=3$.
 
 ::solution
-$A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+Phép chiếu song song bảo toàn tỉ số độ dài các đoạn thẳng trên cùng một đường thẳng, nên $A'B':B'C':C'D'=2:3:5$.
+
+Vì $A'$, $B'$, $C'$, $D'$ thẳng hàng theo thứ tự nên $A'D'=A'B'+B'C'+C'D'$. Gọi $k$ là độ dài ứng với mỗi phần ($k>0$), ta có $A'B'=2k$, $B'C'=3k$, $C'D'=5k$ và
+$$A'D'=2k+3k+5k=10k=30\ \Rightarrow\ k=3.$$
+
+Do đó $A'B'=2\cdot3=6$, $B'C'=3\cdot3=9$, $C'D'=5\cdot3=15$.
+
+Vậy $A'B'=6$, $B'C'=9$, $C'D'=15$.
 
 **Đáp số.** $A'B'=6$, $B'C'=9$, $C'D'=15$.
 :::
@@ -226,7 +256,15 @@ Vào một thời điểm, một người cao $1{,}7$ m đứng thẳng có bón
 2. Nhân với $24$.
 
 ::solution
-Chiều cao toà nhà là $h=\dfrac{24\cdot1{,}7}{1{,}2}=34$ m.
+Cùng một thời điểm, các tia nắng song song, nên chiều cao của vật thẳng đứng tỉ lệ với độ dài bóng của nó trên mặt đất phẳng.
+
+Gọi $h$ (m) là chiều cao của toà nhà ($h>0$). Ta có
+$$\frac{h}{24}=\frac{1{,}7}{1{,}2}.$$
+
+Suy ra
+$$h=\frac{24\cdot1{,}7}{1{,}2}=34.$$
+
+Vậy toà nhà cao $34$ m.
 
 **Đáp số.** $34$ m.
 :::
@@ -250,13 +288,15 @@ d) Hình chiếu của một tam giác có thể là một đoạn thẳng.
 2. d) Mặt phẳng của tam giác song song với $l$.
 
 ::solution
-a) **Sai**: hai đường thẳng song song có thể có hình chiếu trùng nhau.
+a) **Sai.** Nếu hai đường thẳng song song nằm trong một mặt phẳng song song với phương chiếu $l$ thì hình chiếu của chúng trùng nhau (cùng là một đường thẳng), không phải hai đường thẳng song song. Vậy hình chiếu của hai đường thẳng song song không luôn là hai đường thẳng song song.
 
-b) **Đúng**: phép chiếu song song giữ tỉ số, nên giữ trung điểm.
+b) **Đúng.** Phép chiếu song song bảo toàn tỉ số độ dài các đoạn thẳng trên cùng một đường thẳng. Nếu $M$ là trung điểm của $AB$ thì $\dfrac{AM}{MB}=1$, nên $\dfrac{A'M'}{M'B'}=1$, tức $M'$ là trung điểm của $A'B'$.
 
-c) **Sai**: hai đường thẳng cắt nhau có hình chiếu là hai đường thẳng cắt nhau hoặc trùng nhau, không thể song song.
+c) **Sai.** Hai đường thẳng cắt nhau tại $O$ có hình chiếu cùng đi qua $O'$ (hình chiếu của $O$). Do đó hình chiếu của chúng cắt nhau hoặc trùng nhau, không thể song song.
 
-d) **Đúng**: khi mặt phẳng chứa tam giác song song với $l$, hình chiếu của tam giác nằm trên một đường thẳng.
+d) **Đúng.** Khi mặt phẳng chứa tam giác song song với phương chiếu $l$, mọi điểm của tam giác có hình chiếu nằm trên một đường thẳng, nên hình chiếu của tam giác là một đoạn thẳng.
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -272,7 +312,17 @@ Hai mặt phẳng $(P)$ và $(Q)$ song song. Phép chiếu song song lên $(Q)$ 
 2. Chứng minh $ABB'A'$ là hình bình hành.
 
 ::solution
-$AA'$ và $BB'$ cùng song song với $l$ nên song song, và mặt phẳng $(AA'B'B)$ cắt $(P)$ và $(Q)$ theo $AB$ và $A'B'$, nên $AB\parallel A'B'$. Do đó $ABB'A'$ là hình bình hành và $A'B'=AB$. Tương tự $B'C'=BC$ và $C'A'=CA$. Hai tam giác có ba cặp cạnh bằng nhau nên bằng nhau.
+Phép chiếu song song lên $(Q)$ theo phương $l$ biến $A$, $B$, $C$ thành $A'$, $B'$, $C'$, nên $AA'$, $BB'$, $CC'$ cùng song song với $l$ (hoặc trùng với đường thẳng song song với $l$ đi qua mỗi điểm đó).
+
+Xét cạnh $AB$. Hai đường thẳng $AA'$ và $BB'$ cùng song song với $l$ nên song song với nhau, do đó $A$, $A'$, $B'$, $B$ cùng nằm trong một mặt phẳng $(AA'B'B)$. Mặt phẳng này cắt hai mặt phẳng song song $(P)$ và $(Q)$ theo hai giao tuyến $AB$ và $A'B'$, nên $AB\parallel A'B'$.
+
+Tứ giác $ABB'A'$ có $AA'\parallel BB'$ và $AB\parallel A'B'$ nên là hình bình hành. Suy ra $A'B'=AB$.
+
+Chứng minh tương tự cho các cạnh còn lại, ta được $B'C'=BC$ và $C'A'=CA$.
+
+Hai tam giác $A'B'C'$ và $ABC$ có ba cặp cạnh tương ứng bằng nhau nên bằng nhau (c.c.c).
+
+Vậy tam giác $A'B'C'$ bằng tam giác $ABC$.
 
 **Đáp số.** Tam giác $A'B'C'$ bằng tam giác $ABC$.
 :::
@@ -288,7 +338,18 @@ Cho hình vuông $ABCD$ và $M$ là trung điểm của $CD$. Gọi $N$ là giao
 2. Trên $B'D'$ lấy điểm chia theo cùng tỉ số.
 
 ::solution
-Vì $AB\parallel DM$ nên tam giác $NBA$ đồng dạng với tam giác $NDM$, suy ra $\dfrac{BN}{ND}=\dfrac{AB}{DM}=2$, tức $BN=2ND$. Phép chiếu song song giữ trung điểm và tỉ số, nên trên hình biểu diễn, $M'$ là trung điểm của $C'D'$ và $N'$ là giao điểm của $A'M'$ với $B'D'$, thoả mãn $B'N'=2N'D'$.
+Chứng minh $BN=2ND$.
+
+Vì $ABCD$ là hình vuông nên $AB\parallel CD$, do đó $AB\parallel DM$ (với $M\in CD$). Xét hai tam giác $NBA$ và $NDM$: $N$ là giao điểm của $AM$ và $BD$ nên $\widehat{BNA}=\widehat{DNM}$ (đối đỉnh) và $\widehat{NBA}=\widehat{NDM}$ (so le trong). Suy ra tam giác $NBA$ đồng dạng với tam giác $NDM$, và
+$$\frac{BN}{ND}=\frac{AB}{DM}.$$
+
+Vì $M$ là trung điểm của $CD$ nên $DM=\dfrac{CD}{2}=\dfrac{AB}{2}$, do đó $\dfrac{AB}{DM}=2$. Suy ra $\dfrac{BN}{ND}=2$, tức $BN=2ND$.
+
+Cách xác định $N'$ trên hình biểu diễn.
+
+Phép chiếu song song bảo toàn tính thẳng hàng, sự cắt nhau và tỉ số độ dài các đoạn thẳng trên cùng một đường thẳng. Vì $M$ là trung điểm của $CD$ nên $M'$ là trung điểm của $C'D'$. Vì $N$ là giao điểm của $AM$ và $BD$ nên $N'$ là giao điểm của $A'M'$ và $B'D'$. Vì $\dfrac{BN}{ND}=2$ nên $\dfrac{B'N'}{N'D'}=2$, tức $B'N'=2N'D'$.
+
+Vậy $BN=2ND$; trên hình biểu diễn, lấy $M'$ là trung điểm của $C'D'$ rồi lấy $N'$ là giao điểm của $A'M'$ với $B'D'$, khi đó $B'N'=2N'D'$.
 
 **Đáp số.** $BN=2ND$; $N'=A'M'\cap B'D'$ với $M'$ là trung điểm $C'D'$, và $B'N'=2N'D'$.
 :::

@@ -132,9 +132,15 @@ Viết cách đọc các số tiền sau: $2\,000$ đồng, $10\,000$ đồng, $
 2. Đọc số nghìn, rồi thêm "nghìn đồng".
 
 ::solution
-$2\,000$ đồng đọc là hai nghìn đồng.
-$10\,000$ đồng đọc là mười nghìn đồng.
-$50\,000$ đồng đọc là năm mươi nghìn đồng.
+Để đọc số tiền, ta đọc số nghìn rồi đọc "nghìn đồng".
+
+$2\,000$ đồng là $2$ nghìn đồng, đọc là hai nghìn đồng.
+
+$10\,000$ đồng là $10$ nghìn đồng, đọc là mười nghìn đồng.
+
+$50\,000$ đồng là $50$ nghìn đồng, đọc là năm mươi nghìn đồng.
+
+Vậy cách đọc là: hai nghìn đồng; mười nghìn đồng; năm mươi nghìn đồng.
 
 **Đáp số.** Hai nghìn đồng; mười nghìn đồng; năm mươi nghìn đồng.
 :::
@@ -158,13 +164,17 @@ d) $9\,000-3\,000$
 2. Cộng hoặc trừ các số nghìn.
 
 ::solution
-a) $1+4=5$ nên $1\,000+4\,000=5\,000$.
+Ta coi mỗi số tròn nghìn là số nghìn, tính với số nghìn rồi viết thêm ba chữ số $0$ ở cuối.
 
-b) $5+5=10$ nên $5\,000+5\,000=10\,000$.
+a) Ta có $1+4=5$ nên $1\,000+4\,000=5\,000$.
 
-c) $20+30=50$ nên $20\,000+30\,000=50\,000$.
+b) Ta có $5+5=10$ nên $5\,000+5\,000=10\,000$.
 
-d) $9-3=6$ nên $9\,000-3\,000=6\,000$.
+c) Ta có $20+30=50$ nên $20\,000+30\,000=50\,000$.
+
+d) Ta có $9-3=6$ nên $9\,000-3\,000=6\,000$.
+
+Vậy a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 
 **Đáp số.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 :::
@@ -183,11 +193,16 @@ Lan có hai tờ $5\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Lan có
 ::solution
 Bài giải
 
+Lan có hai tờ $5\,000$ đồng, tức là $5$ nghìn đồng và $5$ nghìn đồng, và một tờ $1\,000$ đồng, tức là $1$ nghìn đồng.
+
 Lan có tất cả số tiền là:
 $$5+5+1=11\ \text{(nghìn đồng)}.$$
-Tức là $11\,000$ đồng.
 
-Đáp số: $11\,000$ đồng.
+$11$ nghìn đồng là $11\,000$ đồng.
+
+Vậy Lan có tất cả $11\,000$ đồng.
+
+**Đáp số.** $11\,000$ đồng.
 :::
 
 :::exercise
@@ -203,9 +218,11 @@ b) Một tờ $10\,000$ đồng đổi được mấy tờ $2\,000$ đồng?
 2. Câu b: đếm thêm 2 nghìn đến 10 nghìn.
 
 ::solution
-a) $10\,000+10\,000=20\,000$ nên đổi được 2 tờ.
+a) Ta cần tìm xem mấy tờ $10\,000$ đồng thì được $20\,000$ đồng. Ta có $10\,000+10\,000=20\,000$ nên một tờ $20\,000$ đồng đổi được $2$ tờ $10\,000$ đồng.
 
-b) $2+2+2+2+2=10$ nên $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, đổi được 5 tờ.
+b) Ta cần tìm xem mấy tờ $2\,000$ đồng thì được $10\,000$ đồng. Ta có $2+2+2+2+2=10$ nên $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$. Số tờ $2\,000$ đồng là $5$ tờ, vì $2\times5=10$.
+
+Vậy a) đổi được $2$ tờ; b) đổi được $5$ tờ.
 
 **Đáp số.** a) 2 tờ; b) 5 tờ.
 :::
@@ -224,9 +241,15 @@ $$20\,000\ \text{đồng}\ \square\ 10\,000\ \text{đồng}+5\,000\ \text{đồn
 2. So sánh các số nghìn.
 
 ::solution
-$5+5=10$ nghìn nên hai tờ $5\,000$ đồng bằng $10\,000$ đồng.
-$3+2=5$ nghìn, mà $5<6$.
-$10+5=15$ nghìn, mà $20>15$.
+Ta đổi các số tiền ra nghìn đồng rồi so sánh.
+
+Ở chỗ thứ nhất: $2$ tờ $5\,000$ đồng là $5+5=10$ (nghìn đồng), tức là $10\,000$ đồng. Hai bên bằng nhau nên điền dấu $=$.
+
+Ở chỗ thứ hai: $3\,000$ đồng $+\ 2\,000$ đồng là $3+2=5$ (nghìn đồng), tức là $5\,000$ đồng. Vì $5<6$ nên $5\,000$ đồng bé hơn $6\,000$ đồng, điền dấu $<$.
+
+Ở chỗ thứ ba: $10\,000$ đồng $+\ 5\,000$ đồng là $10+5=15$ (nghìn đồng), tức là $15\,000$ đồng. Vì $20>15$ nên $20\,000$ đồng lớn hơn $15\,000$ đồng, điền dấu $>$.
+
+Vậy các dấu cần điền lần lượt là $=$; $<$; $>$.
 
 **Đáp số.** $=$; $<$; $>$.
 :::
@@ -245,11 +268,16 @@ Giả sử Nam mua một quyển truyện giá $7\,000$ đồng và một chiế
 ::solution
 Bài giải
 
+Nam mua quyển truyện giá $7$ nghìn đồng và chiếc bút giá $3$ nghìn đồng, nên số tiền phải trả là tổng của hai giá tiền đó.
+
 Nam phải trả tất cả số tiền là:
 $$7+3=10\ \text{(nghìn đồng)}.$$
-Tức là $10\,000$ đồng.
 
-Đáp số: $10\,000$ đồng.
+$10$ nghìn đồng là $10\,000$ đồng.
+
+Vậy Nam phải trả tất cả $10\,000$ đồng.
+
+**Đáp số.** $10\,000$ đồng.
 :::
 
 :::exercise
@@ -266,11 +294,18 @@ Giả sử Hà có $20\,000$ đồng và mua một hộp bánh giá $15\,000$ đ
 ::solution
 Bài giải
 
+Hà có $20$ nghìn đồng và đã mua hộp bánh giá $15$ nghìn đồng, nên số tiền còn lại là hiệu của hai số tiền đó.
+
 Hà còn lại số tiền là:
 $$20-15=5\ \text{(nghìn đồng)}.$$
-Tức là $5\,000$ đồng.
 
-Đáp số: $5\,000$ đồng.
+$5$ nghìn đồng là $5\,000$ đồng.
+
+Thử lại: $15+5=20$ (nghìn đồng). Đúng.
+
+Vậy Hà còn lại $5\,000$ đồng.
+
+**Đáp số.** $5\,000$ đồng.
 :::
 
 :::exercise
@@ -286,11 +321,16 @@ Nhớ lại bài phép nhân. Mai có 4 tờ $5\,000$ đồng. Hỏi Mai có bao
 ::solution
 Bài giải
 
+Mai có $4$ tờ, mỗi tờ $5\,000$ đồng, tức là $5$ nghìn đồng. Vì vậy ta lấy $5$ nghìn đồng nhân với $4$.
+
 Mai có số tiền là:
 $$5\times4=20\ \text{(nghìn đồng)}.$$
-Tức là $20\,000$ đồng.
 
-Đáp số: $20\,000$ đồng.
+$20$ nghìn đồng là $20\,000$ đồng.
+
+Vậy Mai có $20\,000$ đồng.
+
+**Đáp số.** $20\,000$ đồng.
 :::
 
 :::exercise Thử thách
@@ -304,8 +344,15 @@ Mai có ba tờ tiền: một tờ $10\,000$ đồng, một tờ $5\,000$ đồn
 2. Thử ghép các tờ 10, 5, 2 nghìn đồng.
 
 ::solution
-Ta có $10+2=12$ nên trả đúng $12\,000$ đồng bằng tờ $10\,000$ đồng và tờ $2\,000$ đồng.
-Ta có $10+5=15$ nên trả đúng $15\,000$ đồng bằng tờ $10\,000$ đồng và tờ $5\,000$ đồng.
+Mai có các tờ $10\,000$ đồng, $5\,000$ đồng và $2\,000$ đồng, tức là $10$ nghìn, $5$ nghìn và $2$ nghìn đồng. Ta tìm các tờ có tổng đúng bằng số tiền cần trả.
+
+Trả đúng $12\,000$ đồng: ta có $10+2=12$ nên Mai dùng tờ $10\,000$ đồng và tờ $2\,000$ đồng.
+
+Trả đúng $15\,000$ đồng: ta có $10+5=15$ nên Mai dùng tờ $10\,000$ đồng và tờ $5\,000$ đồng.
+
+Kiểm tra: các cách khác là $5+2=7$ và $10+5+2=17$ (nghìn đồng), đều không bằng $12$ hay $15$ nghìn đồng.
+
+Vậy Mai trả đúng $12\,000$ đồng bằng tờ $10\,000$ đồng và tờ $2\,000$ đồng; trả đúng $15\,000$ đồng bằng tờ $10\,000$ đồng và tờ $5\,000$ đồng.
 
 **Đáp số.** $12\,000$ đồng: tờ $10\,000$ và tờ $2\,000$; $15\,000$ đồng: tờ $10\,000$ và tờ $5\,000$.
 :::

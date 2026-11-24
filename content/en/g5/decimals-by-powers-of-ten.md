@@ -176,13 +176,21 @@ Work out in your head: a) $4.26\times10$; b) $0.035\times100$; c) $7.8\times1000
 2. Move the decimal point right by that many places, writing the digit $0$ if there are not enough digits.
 
 ::solution
-a) $4.26\times10=42.6$.
+To multiply a decimal by $10$, $100$, $1000$, $\ldots$ we move the decimal point one, two, three, $\ldots$ places to the right. If there are not enough digits, we write extra zeros.
 
-b) $0.035\times100=3.5$.
+a) Multiplying by $10$: move the decimal point one place to the right.
+$$4.26\times10=42.6$$
 
-c) $7.8\times1000=7800$.
+b) Multiplying by $100$: move the decimal point two places to the right.
+$$0.035\times100=3.5$$
 
-d) $0.5\times1000=500$.
+c) Multiplying by $1000$: move the decimal point three places to the right, writing two extra zeros.
+$$7.8\times1000=7800$$
+
+d) Multiplying by $1000$: move the decimal point three places to the right, writing two extra zeros.
+$$0.5\times1000=500$$
+
+So the results are $42.6$; $3.5$; $7800$; $500$.
 
 **Answer.** a) $42.6$; b) $3.5$; c) $7800$; d) $500$.
 :::
@@ -198,13 +206,21 @@ Work out in your head: a) $62.5\div10$; b) $9.4\div100$; c) $4\div1000$; d) $230
 2. Move the decimal point left, writing the digit $0$ on the left if there are not enough digits.
 
 ::solution
-a) $62.5\div10=6.25$.
+To divide a decimal by $10$, $100$, $1000$, $\ldots$ we move the decimal point one, two, three, $\ldots$ places to the left. If there are not enough digits, we write extra zeros on the left.
 
-b) $9.4\div100=0.094$.
+a) Dividing by $10$: move the decimal point one place to the left.
+$$62.5\div10=6.25$$
 
-c) $4\div1000=0.004$.
+b) Dividing by $100$: move the decimal point two places to the left, writing one extra zero.
+$$9.4\div100=0.094$$
 
-d) $2300\div100=23$.
+c) We write $4$ as $4.0$. Dividing by $1000$: move the decimal point three places to the left.
+$$4\div1000=0.004$$
+
+d) We write $2300$ as $2300.0$. Dividing by $100$: move the decimal point two places to the left.
+$$2300\div100=23$$
+
+So the results are $6.25$; $0.094$; $0.004$; $23$.
 
 **Answer.** a) $6.25$; b) $0.094$; c) $0.004$; d) $23$.
 :::
@@ -220,13 +236,21 @@ Work out in your head: a) $35\times0.1$; b) $7.2\times0.01$; c) $6.3\div0.1$; d)
 2. Move the decimal point.
 
 ::solution
-a) $35\times0.1=35\div10=3.5$.
+Multiplying by $0.1$ or $0.01$ is the same as dividing by $10$ or $100$. Dividing by $0.1$ or $0.01$ is the same as multiplying by $10$ or $100$.
 
-b) $7.2\times0.01=7.2\div100=0.072$.
+a) Multiplying by $0.1$ is dividing by $10$:
+$$35\times0.1=35\div10=3.5$$
 
-c) $6.3\div0.1=6.3\times10=63$.
+b) Multiplying by $0.01$ is dividing by $100$:
+$$7.2\times0.01=7.2\div100=0.072$$
 
-d) $0.45\div0.01=0.45\times100=45$.
+c) Dividing by $0.1$ is multiplying by $10$:
+$$6.3\div0.1=6.3\times10=63$$
+
+d) Dividing by $0.01$ is multiplying by $100$:
+$$0.45\div0.01=0.45\times100=45$$
+
+So the results are $3.5$; $0.072$; $63$; $45$.
 
 **Answer.** a) $3.5$; b) $0.072$; c) $63$; d) $45$.
 :::
@@ -242,13 +266,21 @@ Change units: a) $7.5$ m $=?$ cm; b) $63$ cm $=?$ m; c) $0.8$ kg $=?$ g; d) $125
 2. Move the decimal point for $100$ or $1000$.
 
 ::solution
-a) $7.5\times100=750$ cm.
+We recall that $1$ m $=100$ cm and $1$ kg $=1000$ g. Changing from a larger unit to a smaller unit, we multiply; changing from a smaller unit to a larger unit, we divide.
 
-b) $63\div100=0.63$ m.
+a) Changing metres to centimetres, we multiply by $100$:
+$$7.5\times100=750\ \text{(cm)}$$
 
-c) $0.8\times1000=800$ g.
+b) Changing centimetres to metres, we divide by $100$:
+$$63\div100=0.63\ \text{(m)}$$
 
-d) $1250\div1000=1.25$ kg.
+c) Changing kilograms to grams, we multiply by $1000$:
+$$0.8\times1000=800\ \text{(g)}$$
+
+d) Changing grams to kilograms, we divide by $1000$:
+$$1250\div1000=1.25\ \text{(kg)}$$
+
+So $7.5$ m $=750$ cm; $63$ cm $=0.63$ m; $0.8$ kg $=800$ g; $1250$ g $=1.25$ kg.
 
 **Answer.** a) $750$ cm; b) $0.63$ m; c) $800$ g; d) $1.25$ kg.
 :::
@@ -264,8 +296,13 @@ Suppose each packet of biscuits has mass $0.12$ kg. What is the mass in kilogram
 2. Multiply $0.12$ by $1000$ by moving the decimal point.
 
 ::solution
-The mass of $1000$ packets of biscuits is:
-$$0.12\times1000=120\ \text{(kg)}.$$
+Solution
+
+Each packet of biscuits has mass $0.12$ kg, so the mass of $1000$ packets is:
+$$0.12\times1000=120\ \text{(kg)}$$
+(Multiplying by $1000$: move the decimal point three places to the right.)
+
+So $1000$ packets of biscuits have mass $120$ kg.
 
 **Answer.** $120$ kg.
 :::
@@ -281,9 +318,15 @@ Suppose a sheet of paper is $0.1$ mm thick. How many millimetres and how many ce
 2. Change it to centimetres by dividing by $10$.
 
 ::solution
-The thickness of the pile is:
-$$0.1\times1000=100\ \text{(mm)}.$$
-Since $1$ cm $=10$ mm, we have $100\ \text{mm}=100\div10=10$ cm.
+Solution
+
+Each sheet is $0.1$ mm thick, so the thickness of the pile of $1000$ sheets is:
+$$0.1\times1000=100\ \text{(mm)}$$
+
+Since $1$ cm $=10$ mm, to change millimetres to centimetres we divide by $10$:
+$$100\div10=10\ \text{(cm)}$$
+
+So the pile is $100$ mm thick, which is $10$ cm.
 
 **Answer.** $100$ mm, which is $10$ cm.
 :::
@@ -299,10 +342,15 @@ Suppose $100$ identical bottles of water hold $150$ litres altogether. How many 
 2. Divide $150$ by $100$. Check by multiplying.
 
 ::solution
-Each bottle holds:
-$$150\div100=1.5\ \text{(litres)}.$$
+Solution
 
-**Check.** $1.5\times100=150$. Correct.
+The bottles are identical, so to find the number of litres in each bottle we divide the total number of litres by the number of bottles. Each bottle holds:
+$$150\div100=1.5\ \text{(litres)}$$
+(Dividing by $100$: move the decimal point two places to the left.)
+
+*Check.* $1.5\times100=150$. Correct.
+
+So each bottle holds $1.5$ litres of water.
 
 **Answer.** $1.5$ litres.
 :::
@@ -318,7 +366,11 @@ Remember the lesson on multiplying decimals. Work out in the easy way: $2.5\time
 2. Multiply the result by $3.7$ and by $100$ by moving the decimal point.
 
 ::solution
-$$\begin{aligned} 2.5\times3.7\times4\times100 &= (2.5\times4)\times3.7\times100 \\ &= 10\times3.7\times100 \\ &= 37\times100=3700. \end{aligned}$$
+We notice that $2.5\times4=10$. Since multiplication is commutative and associative, we group $2.5$ with $4$ and work that out first.
+
+$$\begin{aligned} 2.5\times3.7\times4\times100 &= (2.5\times4)\times3.7\times100 \\ &= 10\times3.7\times100 \\ &= 37\times100 \\ &= 3700 \end{aligned}$$
+
+So $2.5\times3.7\times4\times100=3700$.
 
 **Answer.** $3700$.
 :::
@@ -335,13 +387,17 @@ a) $4.5\times?=4500$; b) $?\div100=0.36$; c) $0.07\times?=7$; d) $85\div?=0.085$
 2. If it moves right, multiply; if it moves left, divide.
 
 ::solution
-a) From $4.5$ to $4500$ the decimal point moves three places right, so multiply by $1000$.
+a) From $4.5$ to $4500$, the decimal point moves three places to the right (with two extra zeros). So $4.5\times1000=4500$ and the missing number is $1000$.
 
-b) $?=0.36\times100=36$.
+b) To find the dividend, we multiply the quotient by the divisor:
+$$0.36\times100=36$$
+So $36\div100=0.36$ and the missing number is $36$.
 
-c) From $0.07$ to $7$ the decimal point moves two places right, so multiply by $100$.
+c) From $0.07$ to $7$, the decimal point moves two places to the right. So $0.07\times100=7$ and the missing number is $100$.
 
-d) From $85$ to $0.085$ the decimal point moves three places left, so divide by $1000$.
+d) From $85$ to $0.085$, the decimal point moves three places to the left. So $85\div1000=0.085$ and the missing number is $1000$.
+
+So the missing numbers are $1000$; $36$; $100$; $1000$.
 
 **Answer.** a) $1000$; b) $36$; c) $100$; d) $1000$.
 :::
@@ -357,9 +413,19 @@ When the decimal point of a decimal is moved one place to the right, the number 
 2. By how many parts is the new number greater? That amount is $31.5$.
 
 ::solution
-Take the old number as $1$ part. Then the new number is $10$ parts, so it is $10-1=9$ parts greater than the old number. So $9$ parts equal $31.5$, and the old number is $31.5\div9=3.5$.
+Solution
 
-**Check.** $3.5\times10=35$ and $35-3.5=31.5$. Correct.
+When the decimal point of a decimal is moved one place to the right, the number is multiplied by $10$. Take the old number as $1$ part; then the new number is $10$ such parts.
+
+The new number is greater than the old number by:
+$$10-1=9\ \text{(parts)}$$
+
+The new number is greater by $31.5$, so $9$ parts equal $31.5$. The number we want (one part) is:
+$$31.5\div9=3.5$$
+
+*Check.* $3.5\times10=35$ and $35-3.5=31.5$. Correct.
+
+So the decimal is $3.5$.
 
 **Answer.** $3.5$.
 :::

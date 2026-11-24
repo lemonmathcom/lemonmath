@@ -223,13 +223,17 @@ d) $y=7x$.
 2. Đọc $a$ và $b$.
 
 ::solution
-a) $a=-3$, $b=5$.
+Hàm số bậc nhất có dạng $y=ax+b$, trong đó $a$ là hệ số góc và $b$ là tung độ gốc. Ta đưa mỗi hàm số về dạng này.
 
-b) $y=\dfrac14x-1$ nên $a=\dfrac14$, $b=-1$.
+a) Hàm số $y=-3x+5$ đã có dạng $y=ax+b$ nên $a=-3$, $b=5$.
 
-c) $y=-2x+4$ nên $a=-2$, $b=4$.
+b) Ta có $y=\dfrac{x}{4}-1=\dfrac14x-1$ nên $a=\dfrac14$, $b=-1$.
 
-d) $y=7x+0$ nên $a=7$, $b=0$.
+c) Ta có $y=4-2x=-2x+4$ nên $a=-2$, $b=4$.
+
+d) Ta có $y=7x=7x+0$ nên $a=7$, $b=0$.
+
+Vậy a) $(a; b)=(-3; 5)$; b) $\left(\dfrac14; -1\right)$; c) $(-2; 4)$; d) $(7; 0)$.
 
 **Đáp số.** a) $(-3; 5)$. b) $\left(\dfrac14; -1\right)$. c) $(-2; 4)$. d) $(7; 0)$.
 :::
@@ -251,9 +255,15 @@ c) $y=1-3x$.
 2. Xét dấu.
 
 ::solution
-a) $a=0{,}5>0$: đi lên. b) $a=-4<0$: đi xuống. c) $y=-3x+1$ nên $a=-3<0$: đi xuống.
+Với hàm số $y=ax+b$: nếu $a>0$ thì hàm số đồng biến (đồ thị đi lên từ trái sang phải); nếu $a<0$ thì hàm số nghịch biến (đồ thị đi xuống).
 
-Vậy a) đi lên; b) và c) đi xuống.
+a) Hàm số $y=0{,}5x+2$ có $a=0{,}5>0$ nên đi lên.
+
+b) Hàm số $y=-4x+1$ có $a=-4<0$ nên đi xuống.
+
+c) Ta có $y=1-3x=-3x+1$ nên $a=-3<0$, do đó đi xuống.
+
+Vậy hàm số a) đi lên; các hàm số b) và c) đi xuống.
 
 **Đáp số.** a) lên. b) xuống. c) xuống.
 :::
@@ -273,9 +283,23 @@ b) $A(0; 5)$ và $B(4; 1)$.
 2. Thay toạ độ một điểm để tìm $b$.
 
 ::solution
-a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. Từ $A$: $-3=2\cdot(-1)+b$, suy ra $b=-1$. Phương trình: $y=2x-1$. Kiểm tra với $B$: $2\cdot2-1=3$, đúng.
+Gọi đường thẳng cần tìm là $y=ax+b$. Hệ số góc của đường thẳng đi qua $A(x_A; y_A)$ và $B(x_B; y_B)$ là $a=\dfrac{y_B-y_A}{x_B-x_A}$ (với $x_A\neq x_B$).
 
-b) $a=\dfrac{1-5}{4-0}=-1$. Đường thẳng cắt trục tung tại $(0; 5)$ nên $b=5$. Phương trình: $y=-x+5$. Kiểm tra với $B$: $-4+5=1$, đúng.
+a) Với $A(-1; -3)$ và $B(2; 3)$, ta có
+$$a=\frac{3-(-3)}{2-(-1)}=\frac63=2.$$
+
+Đường thẳng đi qua $A$ nên $-3=2\cdot(-1)+b$, suy ra $b=-3+2=-1$. Phương trình đường thẳng là $y=2x-1$.
+
+Kiểm tra với $B$: $2\cdot2-1=3$, đúng.
+
+b) Với $A(0; 5)$ và $B(4; 1)$, ta có
+$$a=\frac{1-5}{4-0}=\frac{-4}{4}=-1.$$
+
+Đường thẳng cắt trục tung tại $A(0; 5)$ nên $b=5$. Phương trình đường thẳng là $y=-x+5$.
+
+Kiểm tra với $B$: $-4+5=1$, đúng.
+
+Vậy a) $y=2x-1$; b) $y=-x+5$.
 
 **Đáp số.** a) $y=2x-1$. b) $y=-x+5$.
 :::
@@ -291,7 +315,21 @@ Vẽ đồ thị của hàm số $y=\dfrac{x}{2}+1$.
 2. Tính $y$ rồi nối hai điểm.
 
 ::solution
-Cho $x=0$ thì $y=1$, được $(0; 1)$. Cho $x=2$ thì $y=2$, được $(2; 2)$. Nối hai điểm ta được đường thẳng đi lên (vì $a=\dfrac12>0$), đi qua thêm điểm $(-2; 0)$.
+Đồ thị của hàm số bậc nhất là một đường thẳng nên ta chỉ cần xác định hai điểm phân biệt của nó.
+
+Cho $x=0$ thì $y=\dfrac02+1=1$, ta được điểm $(0; 1)$.
+
+Cho $x=2$ thì $y=\dfrac22+1=2$, ta được điểm $(2; 2)$.
+
+Ta có bảng giá trị:
+
+| $x$ | $0$ | $2$ |
+|---|---|---|
+| $y$ | $1$ | $2$ |
+
+Vẽ hệ trục toạ độ $Oxy$, biểu diễn hai điểm $(0; 1)$ và $(2; 2)$ rồi nối chúng, ta được đường thẳng cần vẽ. Vì $a=\dfrac12>0$ nên đường thẳng đi lên. Đường thẳng này còn đi qua điểm $(-2; 0)$, vì khi $x=-2$ thì $y=\dfrac{-2}{2}+1=0$.
+
+Vậy đồ thị của hàm số $y=\dfrac{x}{2}+1$ là đường thẳng đi qua hai điểm $(0; 1)$ và $(2; 2)$.
 
 **Đáp số.** Đường thẳng đi qua $(0; 1)$ và $(2; 2)$.
 :::
@@ -307,7 +345,19 @@ Cho bốn đường thẳng $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: 
 2. Nếu $a$ bằng nhau, so sánh $b$.
 
 ::solution
-Với $d_2$: cùng $a=2$, $b$ khác ($3\neq-5$): song song. Với $d_3$: $a=-2\neq2$: cắt nhau, giao điểm có $2x+3=-2x+3$, suy ra $x=0$ và $y=3$, tức $(0; 3)$. Với $d_4$: cùng $a=2$ và cùng $b=3$: trùng nhau.
+Hai đường thẳng $y=ax+b$ và $y=a'x+b'$ (với $a\neq0$, $a'\neq0$): song song khi $a=a'$ và $b\neq b'$; trùng nhau khi $a=a'$ và $b=b'$; cắt nhau khi $a\neq a'$.
+
+Đường thẳng $d_1: y=2x+3$ có $a=2$, $b=3$.
+
+Với $d_2: y=2x-5$: có $a=2$ và $b=-5$. Hai đường thẳng cùng hệ số góc và $3\neq-5$ nên $d_1\parallel d_2$.
+
+Với $d_3: y=-2x+3$: có $a=-2\neq2$ nên $d_1$ và $d_3$ cắt nhau. Hoành độ giao điểm thoả mãn
+$$2x+3=-2x+3\iff4x=0\iff x=0.$$
+Khi đó $y=2\cdot0+3=3$. Vậy giao điểm là $(0; 3)$.
+
+Với $d_4: y=2x+3$: có $a=2$ và $b=3$, cùng hệ số góc và cùng tung độ gốc với $d_1$ nên $d_1\equiv d_4$.
+
+Vậy $d_1$ song song với $d_2$; $d_1$ cắt $d_3$ tại $(0; 3)$; $d_1$ trùng với $d_4$.
 
 **Đáp số.** $d_1\parallel d_2$; $d_1$ cắt $d_3$ tại $(0; 3)$; $d_1\equiv d_4$.
 :::
@@ -377,11 +427,16 @@ Tìm giao điểm của hai đường thẳng $y=2x-1$ và $y=-x+5$. (Ôn lại 
 2. Thay $x$ vào một hàm số để tìm $y$.
 
 ::solution
-Ta có $2x-1=-x+5$, suy ra $3x=6$ và $x=2$. Khi đó $y=2\cdot2-1=3$.
+Hoành độ giao điểm của hai đường thẳng là nghiệm của phương trình hoành độ giao điểm:
+$$2x-1=-x+5.$$
 
-Kiểm tra: $-2+5=3$.
+Chuyển vế, ta được $2x+x=5+1$, tức là $3x=6$, suy ra $x=2$.
 
-Vậy giao điểm là $(2; 3)$.
+Thay $x=2$ vào $y=2x-1$, ta được $y=2\cdot2-1=3$.
+
+Kiểm tra với đường thẳng còn lại: $y=-2+5=3$, đúng.
+
+Vậy giao điểm của hai đường thẳng là $(2; 3)$.
 
 **Đáp số.** $(2; 3)$.
 :::

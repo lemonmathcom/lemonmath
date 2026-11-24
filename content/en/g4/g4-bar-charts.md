@@ -165,7 +165,11 @@ On which day were the fewest books borrowed, and how many?
 2. Read the number on top of it.
 
 ::solution
+To find the day with the fewest books borrowed, we look for the shortest bar, because the shorter the bar, the fewer books were borrowed.
+
 The shortest bar is Friday, showing $4$.
+
+So the fewest books were borrowed on Friday, and the number was $4$ books.
 
 **Answer.** Friday, $4$ books.
 :::
@@ -181,7 +185,14 @@ How many more books were borrowed on Tuesday than on Friday?
 2. Subtract the smaller from the larger.
 
 ::solution
-$10-4=6$ (books).
+Solution
+
+From the chart, $10$ books were borrowed on Tuesday and $4$ books on Friday. To find how many more books were borrowed on Tuesday than on Friday, we subtract.
+
+The number of books borrowed on Tuesday more than on Friday is:
+$$10-4=6\ \text{(books)}.$$
+
+So $6$ more books were borrowed on Tuesday than on Friday.
 
 **Answer.** $6$ books.
 :::
@@ -197,7 +208,12 @@ Remember the last lesson: write the list of data for the chart in order from Mon
 2. Put the numbers in order from smallest to largest.
 
 ::solution
-The list is $6, 10, 8, 12, 4$. In order from smallest to largest: $4, 6, 8, 10, 12$.
+We read the data from each bar, in order of the days from Monday to Friday. The list of data is $6, 10, 8, 12, 4$.
+
+To put the list in order from smallest to largest, we compare the numbers: the smallest is $4$, then $6$, $8$, $10$, and the largest is $12$. We have
+$$4<6<8<10<12.$$
+
+So the list in order of the days is $6, 10, 8, 12, 4$, and in order from smallest to largest it is $4, 6, 8, 10, 12$.
 
 **Answer.** $6, 10, 8, 12, 4$; in order: $4, 6, 8, 10, 12$.
 :::
@@ -213,7 +229,12 @@ On which day were exactly twice as many books borrowed as on Friday?
 2. Find the day with that number.
 
 ::solution
-Friday had $4$ books, and twice that is $4\times2=8$ books. The bar showing $8$ is Wednesday.
+On Friday, $4$ books were borrowed. Twice as many as on Friday is:
+$$4\times2=8\ \text{(books)}.$$
+
+We look for the bar showing $8$ in the chart. It is the Wednesday bar.
+
+So the day on which exactly twice as many books were borrowed as on Friday is Wednesday.
 
 **Answer.** Wednesday.
 :::
@@ -231,7 +252,14 @@ A bar chart shows how many children like each sport: the football bar is $12$ ta
 2. Add the numbers on top of the bars.
 
 ::solution
-We add, because the total number of children is the children for all four sports put together: $12+8+6+4=30$ (children).
+Solution
+
+The height of each bar shows how many children like that sport. To find how many children were asked in all, we put the children for the four sports together, so we add.
+
+The total number of children asked is:
+$$12+8+6+4=30\ \text{(children)}.$$
+
+So we add, and $30$ children were asked in all.
 
 **Answer.** Addition; $30$ children.
 :::
@@ -247,7 +275,12 @@ Ha said: "Thursday had $12$ books and Friday had $4$ books, so Thursday had $12+
 2. Redo it with the correct operation.
 
 ::solution
-Ha added, but we must subtract: $12-4=8$ (books).
+Ha went wrong by using addition. The question asks "how many more", which compares two numbers, so we must subtract the smaller number from the larger one. The sum $12+4=16$ only tells us how many books were borrowed on the two days together.
+
+Doing it correctly: the number of books borrowed on Thursday more than on Friday is
+$$12-4=8\ \text{(books)}.$$
+
+So Ha was wrong to add instead of subtract; Thursday had $8$ more books than Friday.
 
 **Answer.** $8$ books.
 :::
@@ -269,7 +302,16 @@ c) On average, how many trees did each class plant?
 3. Add the four numbers and divide by $4$.
 
 ::solution
-a) $4$A: $5\times5=25$; $4$B: $6\times5=30$; $4$C: $4\times5=20$; $4$D: $25$ (trees). b) $30-20=10$ (trees). c) $(25+30+20+25)\div4=100\div4=25$ (trees).
+a) Each mark stands for $5$ trees, so the number of trees for each class is the number of marks times $5$:
+$$4\text{A}: 5\times5=25;\quad 4\text{B}: 6\times5=30;\quad 4\text{C}: 4\times5=20;\quad 4\text{D}: 5\times5=25\ \text{(trees)}.$$
+
+b) The best class is $4$B with $30$ trees; the lowest class is $4$C with $20$ trees. The number of trees the best class planted more than the lowest is:
+$$30-20=10\ \text{(trees)}.$$
+
+c) The average number of trees per class is the total number of trees divided by the number of classes. The total for the four classes is $25+30+20+25=100$ (trees). Hence
+$$(25+30+20+25)\div4=100\div4=25\ \text{(trees)}.$$
+
+So classes $4$A, $4$B, $4$C and $4$D planted $25$, $30$, $20$ and $25$ trees; the best class planted $10$ more trees than the lowest; on average each class planted $25$ trees.
 
 **Answer.** a) $25$, $30$, $20$, $25$ trees; b) $10$ trees; c) $25$ trees.
 :::
@@ -286,9 +328,20 @@ A chart has three bars A, B and C. Bar C is $5$ tall. Bar B is $3$ taller than b
 3. Add the three bars.
 
 ::solution
-Bar B: $5+3=8$. Bar A: $8+4=12$. Total: $12+8+5=25$.
+Bar C is $5$ tall.
 
-**Check.** $12-8=4$ and $8-5=3$. Correct.
+Bar B is $3$ taller than bar C, so the height of bar B is:
+$$5+3=8.$$
+
+Bar A is $4$ taller than bar B, so the height of bar A is:
+$$8+4=12.$$
+
+The total height of the three bars is:
+$$12+8+5=25.$$
+
+*Check.* $12-8=4$ and $8-5=3$. Correct.
+
+So bar A is $12$ tall, bar B is $8$ tall, bar C is $5$ tall, and the total height of the three bars is $25$.
 
 **Answer.** A is $12$, B is $8$, C is $5$; total $25$.
 :::

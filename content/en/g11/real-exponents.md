@@ -231,11 +231,16 @@ c) $\left(\dfrac23\right)^{-2}$.
 2. Watch the sign in part b and the reciprocal of the fraction in part c.
 
 ::solution
-a) We have $2^{-5}=\dfrac{1}{2^5}=\dfrac1{32}$.
+The bases $2$, $-3$, $\dfrac23$ are all non-zero. We use the definition of a power with a negative integer exponent: $a^{-n}=\dfrac{1}{a^n}$ ($a\neq0$, $n$ a positive integer), and its consequence $\left(\dfrac ab\right)^{-n}=\left(\dfrac ba\right)^n$.
 
-b) We have $(-3)^{-3}=\dfrac{1}{(-3)^3}=-\dfrac1{27}$.
+a) We have
+$$2^{-5}=\frac{1}{2^5}=\frac{1}{32}.$$
 
-c) We have $\left(\dfrac23\right)^{-2}=\left(\dfrac32\right)^2=\dfrac94$.
+b) We have $(-3)^{-3}=\dfrac{1}{(-3)^3}$. Since $(-3)^3=-27$,
+$$(-3)^{-3}=\frac{1}{-27}=-\frac{1}{27}.$$
+
+c) We have
+$$\left(\frac23\right)^{-2}=\left(\frac32\right)^2=\frac{3^2}{2^2}=\frac94.$$
 
 So a) $\dfrac1{32}$; b) $-\dfrac1{27}$; c) $\dfrac94$.
 
@@ -291,11 +296,16 @@ c) $4^{\sqrt3}\cdot2^{2-2\sqrt3}$.
 2. Add, subtract or multiply the exponents.
 
 ::solution
-a) We have $\dfrac{7^{\sqrt5+1}}{7^{\sqrt5-1}}=7^{(\sqrt5+1)-(\sqrt5-1)}=7^2=49$.
+For $a>0$ and real numbers $\alpha$, $\beta$, we use the laws of powers with real exponents: $\dfrac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta}$, $\left(a^{\alpha}\right)^{\beta}=a^{\alpha\beta}$, $a^{\alpha}\cdot a^{\beta}=a^{\alpha+\beta}$.
 
-b) We have $\left(3^{\sqrt2}\right)^{\sqrt2}=3^{\sqrt2\cdot\sqrt2}=3^2=9$.
+a) By the law for a quotient of powers, we have
+$$\frac{7^{\sqrt5+1}}{7^{\sqrt5-1}}=7^{(\sqrt5+1)-(\sqrt5-1)}=7^2=49.$$
 
-c) We have $4^{\sqrt3}=2^{2\sqrt3}$, so $4^{\sqrt3}\cdot2^{2-2\sqrt3}=2^{2\sqrt3+2-2\sqrt3}=2^2=4$.
+b) By the law for a power of a power, we have
+$$\left(3^{\sqrt2}\right)^{\sqrt2}=3^{\sqrt2\cdot\sqrt2}=3^2=9.$$
+
+c) Since $4=2^2$, we have $4^{\sqrt3}=\left(2^2\right)^{\sqrt3}=2^{2\sqrt3}$. Hence
+$$4^{\sqrt3}\cdot2^{2-2\sqrt3}=2^{2\sqrt3+\left(2-2\sqrt3\right)}=2^2=4.$$
 
 So a) $49$; b) $9$; c) $4$.
 
@@ -319,11 +329,16 @@ c) $\dfrac{1}{a\sqrt{a}}$.
 2. Add or subtract the exponents.
 
 ::solution
-a) We have $a^{1/2}\cdot a^{1/3}=a^{\frac12+\frac13}=a^{5/6}$.
+Since $a>0$, we use $\sqrt{a}=a^{1/2}$, $\sqrt[3]{a}=a^{1/3}$ and the laws $a^{\alpha}\cdot a^{\beta}=a^{\alpha+\beta}$, $\dfrac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta}$, $\dfrac1{a^{\alpha}}=a^{-\alpha}$.
 
-b) We have $\dfrac{a^2}{a^{1/3}}=a^{2-\frac13}=a^{5/3}$.
+a) We have
+$$\sqrt{a}\cdot\sqrt[3]{a}=a^{1/2}\cdot a^{1/3}=a^{\frac12+\frac13}=a^{\frac36+\frac26}=a^{5/6}.$$
 
-c) We have $\dfrac{1}{a\cdot a^{1/2}}=\dfrac{1}{a^{3/2}}=a^{-3/2}$.
+b) We have
+$$\frac{a^2}{\sqrt[3]{a}}=\frac{a^2}{a^{1/3}}=a^{2-\frac13}=a^{\frac53}.$$
+
+c) We have $a\sqrt a=a\cdot a^{1/2}=a^{1+\frac12}=a^{3/2}$, so
+$$\frac{1}{a\sqrt a}=\frac{1}{a^{3/2}}=a^{-3/2}.$$
 
 So a) $a^{5/6}$; b) $a^{5/3}$; c) $a^{-3/2}$.
 
@@ -385,13 +400,18 @@ d) $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^{2}$.
 2. c), d) Compare $\sqrt3$ with $1.7$ and $\sqrt5$ with $2$.
 
 ::solution
-a) **False**: by definition, $a^{r}$ is considered only for $a>0$, so $(-8)^{1/3}$ is not defined as a power with a rational exponent (the cube root of $-8$ is $-2$).
+We examine each statement using the definition of powers with rational exponents ($a>0$) and the monotonicity of the exponential function $y=a^x$.
 
-b) **True**: $4^{3/2}=\left(2^2\right)^{3/2}=2^3=8$.
+a) **False.** By definition, a power $a^{r}$ with rational exponent $r=\dfrac mn$ is considered only for a base $a>0$. The base $-8<0$, so $(-8)^{1/3}$ is not defined as a power with a rational exponent (the cube root of $-8$ is $-2$, written $\sqrt[3]{-8}=-2$).
 
-c) **False**: the base $2>1$ and $\sqrt3\approx1.732>1.7$, so $2^{\sqrt3}>2^{1.7}$.
+b) **True.** We have
+$$4^{3/2}=\left(2^2\right)^{3/2}=2^{2\cdot\frac32}=2^3=8.$$
 
-d) **True**: the base $\dfrac12<1$ and $\sqrt5\approx2.236>2$, so $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^2$.
+c) **False.** The base $2>1$, so the function $y=2^x$ is increasing. Since $3>1.7^2=2.89$, we have $\sqrt3>1.7$ (indeed $\sqrt3\approx1.732$). Hence $2^{\sqrt3}>2^{1.7}$.
+
+d) **True.** The base $\dfrac12\in(0, 1)$, so the function $y=\left(\dfrac12\right)^x$ is decreasing. Since $5>4$, we have $\sqrt5>2$ (indeed $\sqrt5\approx2.236$). Hence $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^2$.
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -407,7 +427,11 @@ Work out the value of $\left(3^{\sqrt5-1}\right)^{\sqrt5+1}$.
 2. Work out $3$ to that power.
 
 ::solution
-We have $\left(3^{\sqrt5-1}\right)^{\sqrt5+1}=3^{(\sqrt5-1)(\sqrt5+1)}=3^{5-1}=3^4=81$.
+By the law for a power of a power $\left(a^{\alpha}\right)^{\beta}=a^{\alpha\beta}$ with $a=3>0$, we have
+$$\left(3^{\sqrt5-1}\right)^{\sqrt5+1}=3^{(\sqrt5-1)(\sqrt5+1)}.$$
+
+By the difference of two squares, $(\sqrt5-1)(\sqrt5+1)=(\sqrt5)^2-1^2=5-1=4$. It follows that
+$$3^{(\sqrt5-1)(\sqrt5+1)}=3^4=81.$$
 
 So the value of the expression is $81$.
 
@@ -425,7 +449,11 @@ Revision of surds from earlier years. Work out $\left(\sqrt5+2\right)^{2026}\lef
 2. Work out the product $(\sqrt5+2)(\sqrt5-2)$.
 
 ::solution
-We have $\left(\sqrt5+2\right)^{2026}\left(\sqrt5-2\right)^{2026}=\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}$. Since $\left(\sqrt5+2\right)\left(\sqrt5-2\right)=5-4=1$, the expression equals $1^{2026}=1$.
+The two powers have the same exponent $2026$, so we apply the law $a^nb^n=(ab)^n$:
+$$\left(\sqrt5+2\right)^{2026}\left(\sqrt5-2\right)^{2026}=\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}.$$
+
+By the difference of two squares, $\left(\sqrt5+2\right)\left(\sqrt5-2\right)=(\sqrt5)^2-2^2=5-4=1$. Hence
+$$\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}=1^{2026}=1.$$
 
 So the value of the expression is $1$.
 

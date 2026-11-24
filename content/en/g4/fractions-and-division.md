@@ -126,7 +126,12 @@ Write the quotient of $3\div5$ as a fraction.
 2. The divisor is the denominator.
 
 ::solution
-$3\div5=\dfrac{3}{5}$.
+The quotient of a whole number divided by a non-zero whole number can be written as a fraction, where the numerator is the dividend and the denominator is the divisor.
+
+In the division $3\div5$, the dividend is $3$ and the divisor is $5$, so
+$$3\div5=\frac{3}{5}.$$
+
+So the quotient of $3\div5$ written as a fraction is $\dfrac{3}{5}$.
 
 **Answer.** $\dfrac{3}{5}$.
 :::
@@ -142,7 +147,12 @@ Share $4$ cakes equally among $6$ children. What part of a cake does each child 
 2. Write the division, then the fraction.
 
 ::solution
-$4\div6=\dfrac{4}{6}$ (of a cake).
+Solution
+
+Sharing $4$ cakes equally among $6$ children, the part of a cake each child gets is:
+$$4\div6=\frac{4}{6}\ \text{(of a cake)}$$
+
+So each child gets $\dfrac{4}{6}$ of a cake.
 
 **Answer.** $\dfrac{4}{6}$ of a cake.
 :::
@@ -160,7 +170,12 @@ Remember the last lesson: a shape is cut into $9$ equal parts and $7$ parts are 
 2. Write the division whose dividend is the numerator.
 
 ::solution
-The fraction for the coloured part is $\dfrac{7}{9}$, and $\dfrac{7}{9}=7\div9$.
+The shape is cut into $9$ equal parts, so the denominator is $9$. Seven parts are coloured, so the numerator is $7$. The fraction for the coloured part is $\dfrac{7}{9}$.
+
+A fraction can be written as a division: the numerator is the dividend and the denominator is the divisor. Therefore
+$$\frac{7}{9}=7\div9.$$
+
+So the fraction for the coloured part is $\dfrac{7}{9}$ and $\dfrac{7}{9}=7\div9$.
 
 **Answer.** $\dfrac{7}{9}=7\div9$.
 :::
@@ -176,7 +191,18 @@ Write each whole number as a fraction with denominator $1$: a) $5$; b) $12$. Wri
 2. For the number $1$, make the numerator equal to the denominator.
 
 ::solution
-a) $5=\dfrac{5}{1}$. b) $12=\dfrac{12}{1}$. The number $1$ with denominator $6$ is $\dfrac{6}{6}$.
+Every whole number can be written as a fraction with denominator $1$: the numerator is the number itself, because dividing a number by $1$ gives the same number.
+
+a) We have $5=5\div1$, so
+$$5=\frac{5}{1}.$$
+
+b) We have $12=12\div1$, so
+$$12=\frac{12}{1}.$$
+
+Writing the number $1$ as a fraction with denominator $6$, the numerator is also $6$, because $6\div6=1$. Therefore
+$$1=\frac{6}{6}.$$
+
+So $5=\dfrac{5}{1}$; $12=\dfrac{12}{1}$; $1=\dfrac{6}{6}$.
 
 **Answer.** $\dfrac{5}{1}$; $\dfrac{12}{1}$; $\dfrac{6}{6}$.
 :::
@@ -192,7 +218,11 @@ Why can we not write $5\div0$ as a fraction?
 2. Can the denominator be that number?
 
 ::solution
-The divisor $0$ would become a denominator of $0$. We cannot share $5$ into $0$ equal parts, so there is no fraction $\dfrac{5}{0}$.
+To write the quotient of $5\div0$ as a fraction, the divisor $0$ would have to become the denominator, giving the fraction $\dfrac{5}{0}$.
+
+The denominator of a fraction tells us how many equal parts the whole is cut into. We cannot share $5$ into $0$ equal parts, so there is no fraction $\dfrac{5}{0}$.
+
+So we cannot write $5\div0$ as a fraction because the denominator cannot be $0$.
 
 **Answer.** Because the denominator cannot be $0$.
 :::
@@ -208,7 +238,14 @@ Ha wrote: "$2\div3=\dfrac{3}{2}$." Where did Ha go wrong? Write it correctly.
 2. Does the dividend go in the numerator or the denominator?
 
 ::solution
-Ha wrote it the wrong way round. The dividend is $2$, so it is the numerator: $2\div3=\dfrac{2}{3}$.
+When we write a division as a fraction, the dividend is the numerator and the divisor is the denominator.
+
+In the division $2\div3$, the dividend is $2$, so $2$ is the numerator, and the divisor is $3$, so $3$ is the denominator. Ha wrote the numerator and the denominator the wrong way round, so $2\div3=\dfrac{3}{2}$ is wrong.
+
+Writing it correctly:
+$$2\div3=\frac{2}{3}.$$
+
+So Ha wrote the numerator and denominator the wrong way round; the correct form is $2\div3=\dfrac{2}{3}$.
 
 **Answer.** $\dfrac{2}{3}$.
 :::
@@ -227,7 +264,18 @@ c) Share $6$ litres of water equally into $6$ bottles. How many litres in each b
 2. Write the quotient as a fraction.
 
 ::solution
-a) $2\div3=\dfrac{2}{3}$ (litres). b) $3\div2=\dfrac{3}{2}$ (litres). c) $6\div6=\dfrac{6}{6}=1$ (litre).
+Solution
+
+a) Sharing $2$ litres of water equally into $3$ bottles, the number of litres in each bottle is:
+$$2\div3=\frac{2}{3}\ \text{(litres)}$$
+
+b) Sharing $3$ litres of water equally into $2$ bottles, the number of litres in each bottle is:
+$$3\div2=\frac{3}{2}\ \text{(litres)}$$
+
+c) Sharing $6$ litres of water equally into $6$ bottles, the number of litres in each bottle is:
+$$6\div6=\frac{6}{6}=1\ \text{(litre)}$$
+
+So each bottle holds $\dfrac{2}{3}$ litre in part a), $\dfrac{3}{2}$ litres in part b) and $1$ litre in part c).
 
 **Answer.** a) $\dfrac{2}{3}$ litre; b) $\dfrac{3}{2}$ litres; c) $1$ litre.
 :::
@@ -246,9 +294,17 @@ c) $7\div4=\dfrac{?}{4}$.
 2. The divisor is the denominator.
 
 ::solution
-a) The dividend is $4$, so $?=4$. b) The denominator is $5$, so the divisor $?=5$. c) The dividend is $7$, so $?=7$.
+We recall that $a\div b=\dfrac{a}{b}$: the dividend is the numerator and the divisor is the denominator.
 
-**Check.** $4\div9=\dfrac{4}{9}$; $12\div5=\dfrac{12}{5}$; $7\div4=\dfrac{7}{4}$. Correct.
+a) In $4\div9=\dfrac{?}{9}$, the dividend is $4$, so the numerator is $4$. So $?=4$.
+
+b) In $12\div?=\dfrac{12}{5}$, the denominator is $5$, so the divisor is $5$. So $?=5$.
+
+c) In $7\div4=\dfrac{?}{4}$, the dividend is $7$, so the numerator is $7$. So $?=7$.
+
+*Check.* $4\div9=\dfrac{4}{9}$; $12\div5=\dfrac{12}{5}$; $7\div4=\dfrac{7}{4}$. Correct.
+
+So the numbers to write in are $4$, $5$ and $7$ in that order.
 
 **Answer.** a) $4$; b) $5$; c) $7$.
 :::

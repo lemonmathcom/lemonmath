@@ -243,7 +243,17 @@ Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{1-2x}{x+3}$.
 2. Tìm nghiệm của mẫu.
 
 ::solution
-Ta có $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. Tại $x=-3$, tử bằng $7\neq0$ nên $\lim\limits_{x\to-3^+}y=+\infty$.
+Điều kiện xác định: $x+3\neq0$, tức là $x\neq-3$.
+
+Tiệm cận ngang. Ta có
+$$\lim_{x\to\pm\infty}\frac{1-2x}{x+3}=\lim_{x\to\pm\infty}\frac{\frac1x-2}{1+\frac3x}=\frac{-2}{1}=-2.$$
+
+Do đó đường thẳng $y=-2$ là tiệm cận ngang của đồ thị.
+
+Tiệm cận đứng. Tại $x=-3$, tử số bằng $1-2\cdot(-3)=7\neq0$ và mẫu số $x+3\to0^+$ khi $x\to-3^+$. Suy ra
+$$\lim_{x\to-3^+}\frac{1-2x}{x+3}=+\infty.$$
+
+Do đó đường thẳng $x=-3$ là tiệm cận đứng của đồ thị.
 
 Vậy đồ thị có một tiệm cận đứng và một tiệm cận ngang.
 
@@ -305,15 +315,18 @@ d) Đồ thị có đúng hai đường tiệm cận.
 2. Kiểm tra từng khẳng định.
 
 ::solution
-Ta có $x^2-3x+4=(x-2)(x-1)+2$ nên $y=x-1+\dfrac{2}{x-2}$.
+Điều kiện xác định: $x\neq2$. Thực hiện phép chia đa thức, ta có $x^2-3x+4=(x-2)(x-1)+2$, nên
+$$y=x-1+\frac{2}{x-2}.$$
 
-a) **Đúng**. Vì tử bằng $2\neq0$ tại $x=2$ nên $\lim\limits_{x\to2^+}y=+\infty$.
+a) **Đúng.** Tại $x=2$ tử số bằng $2^2-3\cdot2+4=2\neq0$ và mẫu số $x-2\to0^+$ khi $x\to2^+$ nên $\lim\limits_{x\to2^+}y=+\infty$. Vậy $x=2$ là tiệm cận đứng của đồ thị.
 
-b) **Đúng**. Ta có $y\to+\infty$ khi $x\to+\infty$ và $y\to-\infty$ khi $x\to-\infty$.
+b) **Đúng.** Từ $y=x-1+\dfrac{2}{x-2}$, ta có $y\to+\infty$ khi $x\to+\infty$ và $y\to-\infty$ khi $x\to-\infty$. Các giới hạn này không hữu hạn nên đồ thị không có tiệm cận ngang.
 
-c) **Sai**. Tiệm cận xiên là $y=x-1$.
+c) **Sai.** Ta có $y-(x-1)=\dfrac{2}{x-2}\to0$ khi $x\to\pm\infty$ nên tiệm cận xiên của đồ thị là $y=x-1$, không phải $y=x+1$.
 
-d) **Đúng**. Đồ thị có tiệm cận đứng $x=2$ và tiệm cận xiên $y=x-1$.
+d) **Đúng.** Đồ thị có tiệm cận đứng $x=2$ và tiệm cận xiên $y=x-1$, không có tiệm cận ngang, nên có đúng hai đường tiệm cận.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -347,9 +360,20 @@ Một bể chứa $200$ lít nước sạch. Người ta bơm vào bể nước 
 2. Tính $\lim\limits_{t\to+\infty}C(t)$.
 
 ::solution
-Ta có $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (chia tử và mẫu cho $10$) và $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. Chẳng hạn $C(10)=10$, $C(60)=22{,}5$, $C(180)=27$.
+Gọi $t$ (phút) là thời gian bơm, $t\ge0$.
 
-Vậy đồ thị có tiệm cận ngang $C=30$.
+Sau $t$ phút, lượng nước muối đã bơm vào là $10t$ lít, chứa $30\cdot10t=300t$ gam muối. Thể tích nước trong bể là $200+10t$ lít. Do đó nồng độ muối là
+$$C(t)=\frac{300t}{200+10t}=\frac{30t}{20+t}\ \text{(gam/lít)}$$
+(chia tử và mẫu cho $10$).
+
+Tìm tiệm cận ngang. Ta có
+$$\lim_{t\to+\infty}\frac{30t}{20+t}=\lim_{t\to+\infty}\frac{30}{\frac{20}{t}+1}=30.$$
+
+Do đó đường thẳng $C=30$ là tiệm cận ngang của đồ thị hàm số $C(t)$.
+
+Ý nghĩa thực tế. Với mọi $t\ge0$, ta có $30-C(t)=\dfrac{600}{20+t}>0$ nên $C(t)<30$. Chẳng hạn $C(10)=10$, $C(60)=22{,}5$, $C(180)=27$. Như vậy nồng độ muối tăng dần và tiến gần $30$ gam/lít nhưng không vượt quá giá trị này.
+
+Vậy đồ thị có tiệm cận ngang $C=30$: theo thời gian, nồng độ muối trong bể tiến gần $30$ gam/lít, đúng bằng nồng độ của nước muối được bơm vào.
 
 **Đáp số.** Tiệm cận ngang $C=30$: theo thời gian, nồng độ muối trong bể tiến gần $30$ gam/lít (nồng độ của nước bơm vào) nhưng không vượt quá.
 :::

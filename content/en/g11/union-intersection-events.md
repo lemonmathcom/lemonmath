@@ -162,7 +162,18 @@ Roll a fair die. Let $A$ be "the number is divisible by $3$" and $B$ be "the num
 2. Find the union and the intersection, then divide by $6$.
 
 ::solution
-$A=\{3,6\}$, $B=\{1,3,5\}$. So $A\cup B=\{1,3,5,6\}$ and $A\cap B=\{3\}$. Hence $P(A\cup B)=\dfrac46=\dfrac23$ and $P(A\cap B)=\dfrac16$.
+The sample space is $\Omega=\{1,2,3,4,5,6\}$, which has $6$ equally likely outcomes.
+
+The event $A$, "the number is divisible by $3$", gives $A=\{3,6\}$. The event $B$, "the number is odd", gives $B=\{1,3,5\}$.
+
+The union $A\cup B$ is the event "the number is divisible by $3$ or is odd", consisting of the outcomes in at least one of the two sets: $A\cup B=\{1,3,5,6\}$.
+
+The intersection $A\cap B$ is the event "the number is both divisible by $3$ and odd", consisting of the outcomes in both sets: $A\cap B=\{3\}$.
+
+Hence $n(A\cup B)=4$ and $n(A\cap B)=1$, so
+$$P(A\cup B)=\frac46=\frac23,\qquad P(A\cap B)=\frac16.$$
+
+So $P(A\cup B)=\dfrac23$ and $P(A\cap B)=\dfrac16$.
 
 **Answer.** $\dfrac23$ and $\dfrac16$.
 :::
@@ -178,7 +189,19 @@ A card is drawn at random from a standard deck of $52$ cards. Let $A$ be "a spad
 2. Count the intersection: the jack, queen and king of spades.
 
 ::solution
-$n(A\cap B)=3$ (the jack, queen and king of spades), so $n(A\cup B)=13+12-3=22$. So $P(A\cup B)=\dfrac{22}{52}=\dfrac{11}{26}$ and $P(A\cap B)=\dfrac3{52}$.
+A standard deck has $52$ cards, each equally likely to be drawn, so $n(\Omega)=52$.
+
+The event $A$, "a spade", has $n(A)=13$. The event $B$, "a jack, queen or king", has $n(B)=3\cdot4=12$ cards (each rank comes in $4$ suits).
+
+The intersection $A\cap B$ is "a spade that is a jack, queen or king", consisting of the jack, queen and king of spades, so $n(A\cap B)=3$.
+
+By the addition rule, we have
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=13+12-3=22.$$
+
+Hence
+$$P(A\cup B)=\frac{22}{52}=\frac{11}{26},\qquad P(A\cap B)=\frac{3}{52}.$$
+
+So $P(A\cup B)=\dfrac{11}{26}$ and $P(A\cap B)=\dfrac3{52}$.
 
 **Answer.** $\dfrac{11}{26}$ and $\dfrac3{52}$.
 :::
@@ -194,7 +217,20 @@ A fair coin is tossed three times. Let $A$ be "at least two heads" and $B$ be "t
 2. Find the union and the intersection.
 
 ::solution
-$A=\{HHH,HHT,HTH,THH\}$ and $B=\{THH,THT,TTH,TTT\}$. The intersection is $A\cap B=\{THH\}$ and the union has $4+4-1=7$ outcomes. So $P(A\cup B)=\dfrac78$ and $P(A\cap B)=\dfrac18$.
+Let $H$ denote heads and $T$ denote tails. Tossing a fair coin three times gives $2^3=8$ equally likely outcomes.
+
+The event $A$, "at least two heads", gives $A=\{HHH,HHT,HTH,THH\}$, which has $4$ outcomes.
+
+The event $B$, "the first toss is a tail", gives $B=\{THH,THT,TTH,TTT\}$, which has $4$ outcomes.
+
+The only outcome in both $A$ and $B$ is $THH$, so $A\cap B=\{THH\}$ and $n(A\cap B)=1$.
+
+The union has $n(A\cup B)=4+4-1=7$ outcomes.
+
+Hence
+$$P(A\cup B)=\frac78,\qquad P(A\cap B)=\frac18.$$
+
+So $P(A\cup B)=\dfrac78$ and $P(A\cap B)=\dfrac18$.
 
 **Answer.** $\dfrac78$ and $\dfrac18$.
 :::
@@ -218,13 +254,15 @@ d) The event $A\cup B$ occurs only when both $A$ and $B$ occur.
 2. Distinguish mutually exclusive from independent.
 
 ::solution
-a) **True** by definition.
+a) **True.** By definition, the union $A\cup B$ occurs exactly when at least one of $A$, $B$ occurs.
 
-b) **False**: mutually exclusive events have $P(AB)=0$, which usually differs from $P(A)P(B)$.
+b) **False.** If $A\cap B=\varnothing$ (the events are mutually exclusive) then $P(AB)=0$. Two events are independent when $P(AB)=P(A)P(B)$; if $P(A)>0$ and $P(B)>0$ then $P(A)P(B)>0$, which differs from $P(AB)=0$. For example, roll a fair die with $A=\{1\}$ and $B=\{2\}$: $A\cap B=\varnothing$ but $P(AB)=0\ne\dfrac1{36}=P(A)P(B)$.
 
-c) **True** by definition.
+c) **True.** By definition, the events $A$ and $B$ are independent when $P(AB)=P(A)\,P(B)$.
 
-d) **False**: that describes the intersection.
+d) **False.** The event $A\cup B$ occurs when at least one of the two events occurs, not necessarily both. The event "both $A$ and $B$ occur" is the intersection $A\cap B$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -240,7 +278,15 @@ Suppose two marksmen shoot independently at the same target; the probability of 
 2. Find $P(\overline A)$, $P(\overline B)$ and multiply.
 
 ::solution
-$P(AB)=0.8\cdot0.7=0.56$. Both miss: $P(\overline A\,\overline B)=0.2\cdot0.3=0.06$.
+Let $A$ be the event "the first marksman hits" and $B$ the event "the second marksman hits". We are given $P(A)=0.8$, $P(B)=0.7$, and $A$, $B$ are independent.
+
+Both hit is the event $AB$. Since $A$ and $B$ are independent,
+$$P(AB)=P(A)\,P(B)=0.8\cdot0.7=0.56.$$
+
+Both miss is the event $\overline A\,\overline B$. We have $P(\overline A)=1-0.8=0.2$ and $P(\overline B)=1-0.7=0.3$. Since $A$ and $B$ are independent, so are $\overline A$ and $\overline B$, hence
+$$P(\overline A\,\overline B)=P(\overline A)\,P(\overline B)=0.2\cdot0.3=0.06.$$
+
+So the probability that both hit is $0.56$ and the probability that both miss is $0.06$.
 
 **Answer.** $0.56$ and $0.06$.
 :::
@@ -256,7 +302,17 @@ Roll a fair die twice. Let $A$ be "the sum of the two rolls is $7$" and $B$ be "
 2. Find the intersection: only $(1,6)$.
 
 ::solution
-$P(A)=\dfrac16$, $P(B)=\dfrac16$ and $A\cap B=\{(1,6)\}$, so $P(AB)=\dfrac1{36}=P(A)P(B)$. So the events are independent.
+Rolling a fair die twice gives $6\cdot6=36$ equally likely outcomes, each a pair $(i, j)$ where $i$ is the first roll and $j$ is the second roll.
+
+The event $A$, "the sum of the two rolls is $7$", consists of the $6$ outcomes $(1, 6)$, $(2, 5)$, $(3, 4)$, $(4, 3)$, $(5, 2)$, $(6, 1)$, so $P(A)=\dfrac{6}{36}=\dfrac16$.
+
+The event $B$, "the second roll is $6$", consists of the $6$ outcomes $(1, 6)$, $(2, 6)$, $\ldots$, $(6, 6)$, so $P(B)=\dfrac{6}{36}=\dfrac16$.
+
+The only outcome in both $A$ and $B$ is $(1, 6)$, so $A\cap B=\{(1, 6)\}$ and $P(AB)=\dfrac1{36}$.
+
+We have $P(A)\,P(B)=\dfrac16\cdot\dfrac16=\dfrac1{36}=P(AB)$.
+
+So the events $A$ and $B$ are independent.
 
 **Answer.** Yes, the events are independent.
 :::
@@ -272,7 +328,18 @@ Suppose that in a class of $30$ students, $18$ learn chess, $12$ learn music and
 2. Use the complement.
 
 ::solution
-The number who learn at least one is $18+12-5=25$, so the probability is $\dfrac{25}{30}=\dfrac56$. The probability of neither is $1-\dfrac56=\dfrac16$.
+Let $A$ be the event "the chosen student learns chess" and $B$ the event "the chosen student learns music". We are given $n(A)=18$, $n(B)=12$, $n(A\cap B)=5$ and $n(\Omega)=30$.
+
+The event "learns at least one of the two" is $A\cup B$. By the addition rule, the number of students who learn at least one is
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=18+12-5=25.$$
+
+Hence
+$$P(A\cup B)=\frac{25}{30}=\frac56.$$
+
+The event "learns neither" is the complement of $A\cup B$, so
+$$P\left(\overline{A\cup B}\right)=1-P(A\cup B)=1-\frac56=\frac16.$$
+
+So the probability that the student learns at least one of the two is $\dfrac56$, and the probability that the student learns neither is $\dfrac16$.
 
 **Answer.** $\dfrac56$ and $\dfrac16$.
 :::
@@ -288,7 +355,15 @@ Revisit fractions. Two cards are drawn one after the other from a standard deck 
 2. Multiply the two probabilities.
 
 ::solution
-Each time the probability of a heart is $\dfrac{13}{52}=\dfrac14$. The draws are independent, so the required probability is $\dfrac14\cdot\dfrac14=\dfrac1{16}$.
+Let $A_1$ be the event "the first card is a heart" and $A_2$ the event "the second card is a heart".
+
+The deck has $52$ cards, of which $13$ are hearts. Each card is returned to the deck after it is drawn, so the deck always has all $52$ cards and the second draw does not depend on the first. Hence $A_1$ and $A_2$ are independent and
+$$P(A_1)=P(A_2)=\frac{13}{52}=\frac14.$$
+
+Both cards being hearts is the event $A_1A_2$, so
+$$P(A_1A_2)=P(A_1)\,P(A_2)=\frac14\cdot\frac14=\frac1{16}.$$
+
+So the probability that both cards are hearts is $\dfrac1{16}$.
 
 **Answer.** $\dfrac1{16}$.
 :::
@@ -304,7 +379,15 @@ Prove that if $A$ and $B$ are independent, then $A$ and $\overline B$ are also i
 2. Substitute $P(AB)=P(A)P(B)$.
 
 ::solution
-We have $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overline B)$. So $A$ and $\overline B$ are independent.
+Suppose $A$ and $B$ are independent, that is $P(AB)=P(A)\,P(B)$. We need to prove that $P(A\overline B)=P(A)\,P(\overline B)$.
+
+The event $A$ is the union of the two mutually exclusive events $AB$ and $A\overline B$ (according to whether $B$ occurs or not), so
+$$P(A)=P(AB)+P(A\overline B),\ \text{hence}\ P(A\overline B)=P(A)-P(AB).$$
+
+Substituting $P(AB)=P(A)\,P(B)$, we obtain
+$$\begin{aligned}P(A\overline B)&=P(A)-P(A)\,P(B)\\&=P(A)\,\bigl(1-P(B)\bigr)\\&=P(A)\,P(\overline B).\end{aligned}$$
+
+So if $A$ and $B$ are independent, then $A$ and $\overline B$ are also independent.
 
 **Answer.** Proved.
 :::

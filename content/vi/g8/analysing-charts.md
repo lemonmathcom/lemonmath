@@ -229,9 +229,19 @@ Biểu đồ hình quạt tròn cho biết $150$ học sinh chọn câu lạc b�
 2. Nhân với $150$.
 
 ::solution
-Ta có $150\cdot0{,}4=60$; $150\cdot0{,}3=45$; $150\cdot0{,}2=30$; $150\cdot0{,}1=15$.
+Số học sinh của mỗi câu lạc bộ bằng tổng số học sinh nhân với tỉ lệ phần trăm tương ứng trong biểu đồ.
 
-Vậy Bóng đá $60$ bạn, Âm nhạc $45$ bạn, Mỹ thuật $30$ bạn, Cờ vua $15$ bạn.
+Bóng đá chiếm $40\%$: $150\cdot0{,}4=60$ (bạn).
+
+Âm nhạc chiếm $30\%$: $150\cdot0{,}3=45$ (bạn).
+
+Mỹ thuật chiếm $20\%$: $150\cdot0{,}2=30$ (bạn).
+
+Cờ vua chiếm $10\%$: $150\cdot0{,}1=15$ (bạn).
+
+Kiểm tra: $60+45+30+15=150$ (đúng bằng tổng số học sinh).
+
+Vậy câu lạc bộ Bóng đá có $60$ bạn, Âm nhạc $45$ bạn, Mỹ thuật $30$ bạn, Cờ vua $15$ bạn.
 
 **Đáp số.** $60$; $45$; $30$; $15$ bạn.
 :::
@@ -265,9 +275,12 @@ Số thành viên của một câu lạc bộ tăng từ $40$ lên $52$ người
 2. Chia cho giá trị cũ $40$.
 
 ::solution
-Ta có $\dfrac{52-40}{40}\cdot100\%=\dfrac{12}{40}\cdot100\%=30\%$.
+Phần trăm tăng bằng hiệu của giá trị mới và giá trị cũ, chia cho giá trị cũ, rồi nhân với $100\%$.
 
-Vậy số thành viên tăng $30\%$.
+Số thành viên tăng thêm là $52-40=12$ (người). Do đó
+$$\frac{52-40}{40}\cdot100\%=\frac{12}{40}\cdot100\%=30\%.$$
+
+Vậy số thành viên của câu lạc bộ tăng $30\%$.
 
 **Đáp số.** $30\%$.
 :::
@@ -319,9 +332,16 @@ Giả sử lượng mưa (mm) ở một địa phương các tháng $6$, $7$, $8
 2. Từ tháng $8$ sang tháng $9$: cũ là $250$, mới là $200$.
 
 ::solution
-Từ tháng $6$ đến tháng $8$: $\dfrac{250-100}{100}\cdot100\%=150\%$. Từ tháng $8$ sang tháng $9$: $\dfrac{200-250}{250}\cdot100\%=-20\%$.
+Phần trăm thay đổi bằng hiệu của giá trị mới và giá trị cũ, chia cho giá trị cũ, rồi nhân với $100\%$.
 
-Vậy lượng mưa tăng $150\%$ rồi giảm $20\%$.
+Từ tháng $6$ đến tháng $8$, lượng mưa tăng từ $100$ mm lên $250$ mm:
+$$\frac{250-100}{100}\cdot100\%=150\%.$$
+
+Từ tháng $8$ sang tháng $9$, lượng mưa thay đổi từ $250$ mm xuống $200$ mm:
+$$\frac{200-250}{250}\cdot100\%=-20\%.$$
+Kết quả âm nghĩa là lượng mưa giảm $20\%$.
+
+Vậy lượng mưa tăng $150\%$ từ tháng $6$ đến tháng $8$, rồi giảm $20\%$ từ tháng $8$ sang tháng $9$.
 
 **Đáp số.** Tăng $150\%$; giảm $20\%$.
 :::
@@ -337,9 +357,15 @@ Khảo sát $25$ bạn về môn học yêu thích: Toán $10$ bạn, Văn $5$ b
 2. Nhân với $360^\circ$.
 
 ::solution
-Toán: $\dfrac{10}{25}=40\%$, cung $144^\circ$. Mỗi môn còn lại: $\dfrac{5}{25}=20\%$, cung $72^\circ$.
+Tổng số bạn được khảo sát là $25$. Tần số tương đối của một môn bằng số bạn chọn môn đó chia cho $25$. Trong biểu đồ hình quạt tròn, số đo cung của môn đó bằng tần số tương đối nhân với $360^\circ$.
 
-Kiểm tra: $144+3\cdot72=360$.
+Môn Toán: tần số tương đối là $\dfrac{10}{25}=40\%$, số đo cung là $0{,}4\cdot360^\circ=144^\circ$.
+
+Mỗi môn còn lại (Văn, Tiếng Anh, môn khác) có $5$ bạn: tần số tương đối là $\dfrac{5}{25}=20\%$, số đo cung là $0{,}2\cdot360^\circ=72^\circ$.
+
+Kiểm tra: $144+3\cdot72=360$ và $40\%+3\cdot20\%=100\%$ (đúng).
+
+Vậy tần số tương đối của Toán, Văn, Tiếng Anh, môn khác lần lượt là $40\%$, $20\%$, $20\%$, $20\%$ và số đo các cung lần lượt là $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
 
 **Đáp số.** $40\%$, $20\%$, $20\%$, $20\%$; cung $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
 :::

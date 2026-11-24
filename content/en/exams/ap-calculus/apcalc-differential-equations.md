@@ -157,7 +157,21 @@ D. $y=\ln\left(x^2\right)+1$
 1. $e^y=x^2+C$; at $(0,0)$, $C=1$.
 
 ::solution
-$e^y=x^2+1$, so $y=\ln\left(x^2+1\right)$: answer **B**.
+This is a separable equation. From $\dfrac{dy}{dx}=2xe^{-y}$, multiply both sides by $e^y\,dx$:
+$$e^y\,dy=2x\,dx.$$
+
+Integrating both sides:
+$$e^y=x^2+C.$$
+
+The condition $y(0)=0$ gives $e^0=0^2+C$, so $C=1$. Therefore
+$$e^y=x^2+1\ \Rightarrow\ y=\ln\left(x^2+1\right)$$
+(valid because $x^2+1>0$ for every $x$).
+
+So the answer is **B**.
+
+*Remark.* Option A is wrong because $y=x^2$ has $y'=2x\ne2xe^{-x^2}$. Option C satisfies $y(0)=0$ but not the differential equation (since $y'=2xe^{x^2}$ while $2xe^{-y}=2xe^{1-e^{x^2}}$). Option D is undefined at $x=0$ because $\ln\left(0^2\right)$ does not exist.
+
+**Answer.** B.
 :::
 
 :::exercise Free response
@@ -167,7 +181,19 @@ Show that $y=Ce^{-x}+x-1$ is a solution of $\dfrac{dy}{dx}=x-y$ for every consta
 **What you need:** compute both sides separately.
 
 ::solution
-Left side: $y'=-Ce^{-x}+1$. Right side: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. They are equal for every $C$. With $C=0$ this is the line in the slope field above.
+Let $y=Ce^{-x}+x-1$ with $C$ any constant. We show that both sides of $\dfrac{dy}{dx}=x-y$ are equal.
+
+Left side: differentiating with respect to $x$,
+$$y'=-Ce^{-x}+1.$$
+
+Right side: substituting $y$,
+$$x-y=x-\left(Ce^{-x}+x-1\right)=x-Ce^{-x}-x+1=1-Ce^{-x}.$$
+
+Both sides equal $1-Ce^{-x}$ for every $x$ and every $C$.
+
+So $y=Ce^{-x}+x-1$ is a solution of $\dfrac{dy}{dx}=x-y$ for every constant $C$. (For example, when $C=0$ the solution is the line $y=x-1$.)
+
+**Answer.** Both sides equal $1-Ce^{-x}$, so $y=Ce^{-x}+x-1$ is a solution for every constant $C$.
 :::
 
 :::exercise Free response
@@ -181,7 +207,20 @@ Solve $\dfrac{dy}{dx}=y^2$ with $y(0)=1$, and state where the solution exists.
 2. Solve for $y$.
 
 ::solution
-$-\dfrac1y=x-1$, so $y=\dfrac{1}{1-x}$. The curve through $(0,1)$ blows up at $x=1$, so the solution exists for $x<1$.
+This is a separable equation. Since $y(0)=1\ne0$, we divide both sides by $y^2$ (for $y\ne0$):
+$$\frac{dy}{y^2}=dx.$$
+
+Integrating both sides:
+$$-\frac1y=x+C.$$
+
+The condition $y(0)=1$ gives $-1=0+C$, so $C=-1$. Therefore
+$$-\frac1y=x-1\ \Rightarrow\ y=\frac{1}{1-x}.$$
+
+This solution is undefined at $x=1$, and $y\to+\infty$ as $x\to1^-$. The solution we want must be defined and continuous on an interval containing $x=0$ (the point of the initial condition), so that interval is $x<1$.
+
+So the solution is $y=\dfrac{1}{1-x}$, and it exists for $x<1$.
+
+**Answer.** $y=\dfrac{1}{1-x}$, which exists for $x<1$.
 :::
 
 :::exercise Multiple choice
@@ -195,7 +234,14 @@ D. $\dfrac{1}{30}$
 **What you need:** $30$ years is three half-lives.
 
 ::solution
-$\left(\dfrac12\right)^3=\dfrac18$: answer **C**.
+The half-life is the time it takes for the amount of substance to fall to half. Every $10$ years, the amount of radioactive substance remaining is $\dfrac12$ of the previous amount.
+
+A period of $30$ years consists of $\dfrac{30}{10}=3$ half-lives, so the fraction remaining is
+$$\left(\frac12\right)^3=\frac18.$$
+
+So $\dfrac18$ of the original substance remains after $30$ years, and the answer is **C**.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -205,7 +251,20 @@ For $\dfrac{dy}{dx}=x^2-y$, find the slope of the solution curve through $(2,1)$
 **What you need:** slope $=2^2-1$; tangent line $y=1+m(x-2)$.
 
 ::solution
-The slope is $3$, the tangent line is $y=1+3(x-2)$, and $y(2.1)\approx1+3(0.1)=1.3$.
+The slope of the solution curve at a point $(x, y)$ equals $\dfrac{dy}{dx}$ at that point.
+
+At the point $(2, 1)$:
+$$\frac{dy}{dx}=x^2-y=2^2-1=3.$$
+
+The tangent line passes through $(2, 1)$ with slope $3$, so its equation is
+$$y-1=3(x-2)\ \Rightarrow\ y=1+3(x-2).$$
+
+Using the tangent line to approximate $y(2.1)$, where $2.1-2=0.1$:
+$$y(2.1)\approx1+3(0.1)=1.3.$$
+
+So the slope is $3$, the tangent line is $y=1+3(x-2)$, and $y(2.1)\approx1.3$.
+
+**Answer.** Slope $3$; tangent line $y=1+3(x-2)$; $y(2.1)\approx1.3$.
 :::
 
 ## Application exercises
@@ -221,7 +280,20 @@ A cup of tea at $90$ degrees Celsius is placed in a room at $20$ degrees Celsius
 2. $T(20)-20=70\left(e^{-10k}\right)^2$.
 
 ::solution
-The temperature difference halves every $10$ minutes: $T(20)=20+70\cdot\dfrac14=37.5$ degrees Celsius.
+Let $D=T-20$ be the temperature difference between the tea and the room. From $\dfrac{dT}{dt}=-k(T-20)$ we get $\dfrac{dD}{dt}=-kD$, so
+$$D(t)=D(0)e^{-kt}.$$
+
+At $t=0$: $D(0)=90-20=70$. At $t=10$: $D(10)=T(10)-20=55-20=35$. Hence
+$$35=70e^{-10k}\ \Rightarrow\ e^{-10k}=\frac12.$$
+
+So the temperature difference halves every $10$ minutes. At $t=20$:
+$$D(20)=70e^{-20k}=70\left(e^{-10k}\right)^2=70\cdot\frac14=17.5.$$
+
+Therefore $T(20)=20+D(20)=20+17.5=37.5$.
+
+So after $20$ minutes the temperature of the tea is $37.5$ degrees Celsius.
+
+**Answer.** $37.5$ degrees Celsius.
 :::
 
 :::exercise An AP-style question
@@ -237,9 +309,28 @@ b) Find $f(x)$ by separation of variables.
 2. $\ln|y-1|=\dfrac{x^2}{2}+C$; at $(0,3)$, $C=\ln2$.
 
 ::solution
-a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, equal to $2$ at $(0,3)$: the graph is concave up there.
+a) From $\dfrac{dy}{dx}=x(y-1)$, differentiate with respect to $x$ (product rule, with $y$ a function of $x$):
+$$\frac{d^2y}{dx^2}=(y-1)+x\,\frac{dy}{dx}.$$
 
-b) $y-1=2e^{x^2/2}$, so $f(x)=1+2e^{x^2/2}$.
+Substituting $\dfrac{dy}{dx}=x(y-1)$, we get
+$$\frac{d^2y}{dx^2}=(y-1)+x\cdot x(y-1)=(y-1)\left(1+x^2\right).$$
+
+At $(0, 3)$:
+$$\frac{d^2y}{dx^2}=(3-1)\left(1+0^2\right)=2>0,$$
+so the graph of $f$ is concave up at that point.
+
+b) The equation is separable. Since $f(0)=3\ne1$, we have $y\ne1$ near $x=0$, and we write
+$$\frac{dy}{y-1}=x\,dx.$$
+
+Integrating both sides:
+$$\ln|y-1|=\frac{x^2}{2}+C_1\ \Rightarrow\ y-1=Ae^{x^2/2}\quad(A\ne0).$$
+
+The condition $f(0)=3$ gives $3-1=Ae^0$, so $A=2$. Therefore
+$$y-1=2e^{x^2/2}\ \Rightarrow\ f(x)=1+2e^{x^2/2}.$$
+
+So $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, equal to $2$ at $(0, 3)$, and $f(x)=1+2e^{x^2/2}$.
+
+**Answer.** a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, equal to $2$ at $(0, 3)$ (concave up); b) $f(x)=1+2e^{x^2/2}$.
 :::
 
 :::exercise BC: Euler's method
@@ -253,7 +344,20 @@ For $\dfrac{dy}{dx}=2y$ with $y(0)=1$, use two Euler steps of size $0.25$ to app
 2. $y(0.5)\approx1.5+0.25\cdot3$.
 
 ::solution
-$y(0.25)\approx1.5$ and $y(0.5)\approx2.25$. The exact solution is $y=e^{2x}$, so $y(0.5)=e\approx2.718$: Euler's method underestimates because the solution is concave up.
+Euler's method with step size $h=0.25$ gives $y_{n+1}=y_n+h\,f(x_n,y_n)$, where here $f(x,y)=2y$. The initial condition is $x_0=0$, $y_0=1$.
+
+Step 1: $y_1=y_0+0.25\cdot2y_0=1+0.25\cdot2\cdot1=1.5$, that is $y(0.25)\approx1.5$.
+
+Step 2: $y_2=y_1+0.25\cdot2y_1=1.5+0.25\cdot2\cdot1.5=1.5+0.75=2.25$, that is $y(0.5)\approx2.25$.
+
+Exact value: the equation $\dfrac{dy}{dx}=2y$ has general solution $y=Ce^{2x}$; the condition $y(0)=1$ gives $C=1$, so $y=e^{2x}$ and
+$$y(0.5)=e^{1}=e\approx2.718.$$
+
+Comparison: $2.25<2.718$, so Euler's method underestimates. The reason is that the solution is concave up ($y''=4y>0$), so the graph lies above the tangent lines that Euler's method uses at each step.
+
+So $y(0.5)\approx2.25$ by Euler's method, while the exact value is $e\approx2.718$.
+
+**Answer.** $y(0.5)\approx2.25$ (Euler); exact value $e\approx2.718$; Euler's method underestimates.
 :::
 
 :::exercise BC: logistic model
@@ -266,7 +370,21 @@ c) Is the graph of $P$ concave up or concave down at $t=0$?
 **What you need:** carrying capacity; maximum of a quadratic in $P$; the sign of $\dfrac{d^2P}{dt^2}$ changes at half the carrying capacity.
 
 ::solution
-a) $600$. b) $P=300$. c) Concave up: $P(0)=100<300$, so $\dfrac{dP}{dt}$ is still increasing.
+We have $\dfrac{dP}{dt}=0.3P\left(1-\dfrac{P}{600}\right)$ (a logistic model) with $P(0)=100$.
+
+a) We have $\dfrac{dP}{dt}=0$ when $P=0$ or $P=600$; these are constant solutions. Since $0<P(0)=100<600$, $P$ always stays between $0$ and $600$, where $\dfrac{dP}{dt}>0$; that is, $P$ is increasing and bounded above by $600$. Hence $P(t)$ has a limit, and that limit must be a constant solution greater than $100$, namely $600$. So $\displaystyle\lim_{t\to\infty}P(t)=600$.
+
+b) The rate of spread is $\dfrac{dP}{dt}=0.3P-\dfrac{P^2}{2000}$, a quadratic function of $P$ with negative coefficient of $P^2$, so it is largest at its vertex. Its derivative with respect to $P$ is $0.3-\dfrac{P}{1000}=0$ when $P=300$. So the rumor spreads fastest when $P=300$ (half of $600$).
+
+c) Differentiating $\dfrac{dP}{dt}=0.3P-\dfrac{P^2}{2000}$ with respect to $t$ (chain rule):
+$$\frac{d^2P}{dt^2}=\left(0.3-\frac{P}{1000}\right)\frac{dP}{dt}.$$
+At $t=0$: $P=100$ and $\dfrac{dP}{dt}=0.3\cdot100\left(1-\dfrac{100}{600}\right)=25>0$. Therefore
+$$\frac{d^2P}{dt^2}=(0.3-0.1)\cdot25=5>0.$$
+So the graph of $P$ is concave up at $t=0$. (Reason: $P(0)=100<300$, so $\dfrac{dP}{dt}$ is still increasing.)
+
+So a) the limit is $600$; b) the rumor spreads fastest when $P=300$; c) the graph of $P$ is concave up at $t=0$.
+
+**Answer.** a) $600$; b) $P=300$; c) concave up.
 :::
 
 :::quiz

@@ -212,7 +212,17 @@ a) $y=4x+1$; b) $y=-3x$; c) $y=6$; d) $y=x^2-4$.
 2. Loại $a=0$ và công thức chứa $x^2$.
 
 ::solution
-a) Có $a=4$, $b=1$. b) Có $a=-3$, $b=0$. c) Có $a=0$. d) Chứa $x^2$.
+Hàm số bậc nhất có dạng $y=ax+b$ với $a$, $b$ là các số cho trước và $a\neq0$. Ta xét từng công thức.
+
+a) Công thức $y=4x+1$ có dạng $y=ax+b$ với $a=4\neq0$, $b=1$. Đây là hàm số bậc nhất.
+
+b) Công thức $y=-3x$ viết được thành $y=-3x+0$ với $a=-3\neq0$, $b=0$. Đây là hàm số bậc nhất.
+
+c) Công thức $y=6$ viết được thành $y=0x+6$ có $a=0$. Đây không phải là hàm số bậc nhất.
+
+d) Công thức $y=x^2-4$ chứa $x^2$, không có dạng $y=ax+b$. Đây không phải là hàm số bậc nhất.
+
+Vậy các công thức a) và b) cho hàm số bậc nhất, với a) $a=4$, $b=1$ và b) $a=-3$, $b=0$.
 
 **Đáp số.** a) và b) là hàm số bậc nhất.
 :::
@@ -228,7 +238,15 @@ Cho hàm số $y=-2x+5$. Tính $y$ khi $x=-1$, $x=0$ và $x=3$.
 2. Thực hiện phép nhân trước phép cộng.
 
 ::solution
-$$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
+Ta thay lần lượt các giá trị của $x$ vào công thức $y=-2x+5$.
+
+Với $x=-1$: $y=-2\cdot(-1)+5=2+5=7$.
+
+Với $x=0$: $y=-2\cdot0+5=5$.
+
+Với $x=3$: $y=-2\cdot3+5=-6+5=-1$.
+
+Vậy $y=7$ khi $x=-1$; $y=5$ khi $x=0$; $y=-1$ khi $x=3$.
 
 **Đáp số.** $7$, $5$, $-1$.
 :::
@@ -244,7 +262,17 @@ $$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
 2. So sánh với tung độ.
 
 ::solution
-Với $x=0,1,-1,2$, ta được $-2,1,-5,4$. Ba kết quả đầu khớp; điểm $D$ có $5\ne4$.
+Một điểm thuộc đồ thị $y=3x-2$ khi tung độ của nó bằng giá trị $3x-2$ tính tại hoành độ của điểm đó.
+
+Với $A(0; -2)$: $3\cdot0-2=-2$, bằng tung độ nên $A$ thuộc đồ thị.
+
+Với $B(1; 1)$: $3\cdot1-2=1$, bằng tung độ nên $B$ thuộc đồ thị.
+
+Với $C(-1; -5)$: $3\cdot(-1)-2=-5$, bằng tung độ nên $C$ thuộc đồ thị.
+
+Với $D(2; 5)$: $3\cdot2-2=4\neq5$ nên $D$ không thuộc đồ thị.
+
+Vậy các điểm $A$, $B$, $C$ thuộc đồ thị $y=3x-2$.
 
 **Đáp số.** $A$, $B$, $C$.
 :::
@@ -260,7 +288,15 @@ Vẽ đồ thị hàm số $y=2x+6$ bằng hai giao điểm với các trục to
 2. Vẽ đường thẳng $PQ$.
 
 ::solution
-$x=0\Rightarrow y=6$, nên $P(0; 6)$. $y=0\Rightarrow2x+6=0\Rightarrow x=-3$, nên $Q(-3; 0)$. Đồ thị là đường thẳng $PQ$.
+Đồ thị của hàm số bậc nhất là một đường thẳng, nên chỉ cần xác định hai điểm phân biệt của nó. Ta chọn hai giao điểm với các trục toạ độ.
+
+Giao điểm với trục tung: cho $x=0$, ta được $y=2\cdot0+6=6$. Điểm đó là $P(0; 6)$.
+
+Giao điểm với trục hoành: cho $y=0$, ta được $2x+6=0$, suy ra $2x=-6$ và $x=-3$. Điểm đó là $Q(-3; 0)$.
+
+Cách vẽ: trên mặt phẳng toạ độ $Oxy$, ta vẽ các điểm $P(0; 6)$ và $Q(-3; 0)$, rồi kẻ đường thẳng đi qua hai điểm đó.
+
+Vậy đồ thị của hàm số $y=2x+6$ là đường thẳng $PQ$ đi qua $P(0; 6)$ và $Q(-3; 0)$.
 
 **Đáp số.** Đường thẳng qua $(0; 6)$ và $(-3; 0)$.
 :::
@@ -276,7 +312,15 @@ Vẽ đồ thị hàm số $y=-4x$.
 2. Vẽ đường thẳng qua hai điểm tìm được.
 
 ::solution
-$x=0\Rightarrow O(0; 0)$. $x=1\Rightarrow M(1; -4)$. Đồ thị là đường thẳng $OM$.
+Hàm số $y=-4x$ có dạng $y=ax$ với $a=-4\neq0$ nên đồ thị là một đường thẳng đi qua gốc toạ độ $O$. Ta cần thêm một điểm nữa.
+
+Cho $x=0$, ta được $y=-4\cdot0=0$. Điểm đó là $O(0; 0)$.
+
+Cho $x=1$, ta được $y=-4\cdot1=-4$. Điểm đó là $M(1; -4)$.
+
+Cách vẽ: trên mặt phẳng toạ độ $Oxy$, ta vẽ điểm $M(1; -4)$, rồi kẻ đường thẳng đi qua $O$ và $M$.
+
+Vậy đồ thị của hàm số $y=-4x$ là đường thẳng $OM$ đi qua $O(0; 0)$ và $M(1; -4)$.
 
 **Đáp số.** Đường thẳng qua $(0; 0)$ và $(1; -4)$.
 :::
@@ -292,7 +336,15 @@ Không cần vẽ, hãy tìm giao điểm của đồ thị $y=-\dfrac12x+3$ v�
 2. Giải $-\dfrac12x+3=0$.
 
 ::solution
-$x=0\Rightarrow y=3$, nên giao điểm với trục tung là $(0; 3)$. Cho $y=0$: $-\dfrac12x+3=0\Rightarrow x=6$.
+Giao điểm với trục tung có hoành độ $x=0$; giao điểm với trục hoành có tung độ $y=0$.
+
+Giao điểm với trục tung: cho $x=0$, ta được $y=-\dfrac12\cdot0+3=3$. Giao điểm là $(0; 3)$.
+
+Giao điểm với trục hoành: cho $y=0$, ta được phương trình
+$$-\frac12x+3=0.$$
+Suy ra $-\dfrac12x=-3$, nhân hai vế với $-2$, ta được $x=6$. Giao điểm là $(6; 0)$.
+
+Vậy đồ thị cắt trục tung tại $(0; 3)$ và cắt trục hoành tại $(6; 0)$.
 
 **Đáp số.** $(0; 3)$ và $(6; 0)$.
 :::
@@ -310,7 +362,20 @@ a) Viết công thức của $C$ theo $t$. b) Tính phí gửi $5$ giờ. c) Nê
 2. Thay $t=5$, rồi thay hai giá trị biên $t=0$, $t=8$.
 
 ::solution
-$C=4t+12$. Với $t=5$, $C=4\cdot5+12=32$. Khi $t=0$, $C=12$; khi $t=8$, $C=44$.
+Gọi $t$ (giờ) là thời gian gửi xe và $C$ (nghìn đồng) là chi phí, với $0\le t\le8$.
+
+a) Chi phí gồm $12$ nghìn đồng phí vào cổng và $4t$ nghìn đồng cho $t$ giờ. Do đó
+$$C=4t+12.$$
+
+b) Với $t=5$, ta có $C=4\cdot5+12=20+12=32$ (nghìn đồng).
+
+c) Đồ thị của $C=4t+12$ trên đoạn $0\le t\le8$ là một đoạn thẳng. Hai đầu mút ứng với $t=0$ và $t=8$.
+
+Khi $t=0$: $C=4\cdot0+12=12$, được điểm $(0; 12)$.
+
+Khi $t=8$: $C=4\cdot8+12=44$, được điểm $(8; 44)$.
+
+Vậy a) $C=4t+12$; b) phí gửi $5$ giờ là $32$ nghìn đồng; c) hai đầu mút của phần đồ thị là $(0; 12)$ và $(8; 44)$.
 
 **Đáp số.** a) $C=4t+12$; b) $32$ nghìn đồng; c) $(0; 12)$ và $(8; 44)$.
 :::
@@ -328,7 +393,20 @@ a) Viết $V$ theo $t$. b) Tính $V$ sau $6$ phút. c) Khi nào bể hết nư�
 2. Thay $t=6$ và giải $V=0$.
 
 ::solution
-$V=72-8t$. Sau $6$ phút, $V=72-8\cdot6=24$. Bể hết nước khi $72-8t=0\Rightarrow t=9$.
+Gọi $t$ (phút) là thời gian xả nước và $V$ (lít) là lượng nước còn lại trong bể, với $t\ge0$.
+
+a) Sau $t$ phút, bể đã xả $8t$ lít nên lượng nước còn lại là
+$$V=72-8t.$$
+
+b) Với $t=6$, ta có $V=72-8\cdot6=72-48=24$ (lít).
+
+c) Bể hết nước khi $V=0$, tức là
+$$72-8t=0.$$
+Suy ra $8t=72$, do đó $t=9$ (phút).
+
+Như vậy, phần đồ thị phù hợp với tình huống ứng với $0\le t\le9$. Khi $t=0$ thì $V=72$, được điểm $(0; 72)$; khi $t=9$ thì $V=0$, được điểm $(9; 0)$.
+
+Vậy a) $V=72-8t$; b) sau $6$ phút còn $24$ lít; c) bể hết nước sau $9$ phút và hai đầu mút của phần đồ thị là $(0; 72)$ và $(9; 0)$.
 
 **Đáp số.** a) $V=72-8t$; b) $24$ lít; c) $9$ phút, hai đầu mút $(0; 72)$ và $(9; 0)$.
 :::
@@ -345,7 +423,16 @@ Hai đường thẳng $y=2x-3$ và $y=-x+6$ cắt nhau tại $M$. Không vẽ đ
 3. Kiểm tra với công thức còn lại.
 
 ::solution
-$2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Khi đó $y=2\cdot3-3=3$. Kiểm tra: $-3+6=3$.
+Giao điểm $M$ có toạ độ thoả mãn cả hai phương trình đường thẳng, nên hoành độ của $M$ là nghiệm của phương trình
+$$2x-3=-x+6.$$
+
+Chuyển các hạng tử chứa $x$ sang vế trái và các số sang vế phải, ta được $3x=9$. Suy ra $x=3$.
+
+Thay $x=3$ vào $y=2x-3$, ta được $y=2\cdot3-3=3$.
+
+Kiểm tra: thay $x=3$ vào $y=-x+6$, ta được $y=-3+6=3$, trùng với kết quả trên.
+
+Vậy giao điểm của hai đường thẳng là $M(3; 3)$.
 
 **Đáp số.** $M(3; 3)$.
 :::

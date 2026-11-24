@@ -218,7 +218,11 @@ Một góc có số đo $65^\circ$. Đó là góc gì?
 2. Gọi tên góc theo bảng các loại góc.
 
 ::solution
+Ta so sánh số đo góc với $90^\circ$. Góc có số đo bé hơn $90^\circ$ là góc nhọn.
+
 Ta có $65^\circ<90^\circ$ nên đó là góc nhọn.
+
+Vậy góc có số đo $65^\circ$ là góc nhọn.
 
 **Đáp số.** Góc nhọn.
 :::
@@ -234,7 +238,14 @@ Cho các góc có số đo $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$. Hã
 2. Số đo nào bằng $90^\circ$ hoặc $180^\circ$ thì có tên riêng.
 
 ::solution
-$100^\circ$ là góc tù, $90^\circ$ là góc vuông, $30^\circ$ là góc nhọn, $180^\circ$ là góc bẹt.
+Ta so sánh từng số đo với $90^\circ$ và $180^\circ$:
+
+- Góc $100^\circ$: vì $90^\circ<100^\circ<180^\circ$ nên đó là góc tù.
+- Góc $90^\circ$: số đo bằng $90^\circ$ nên đó là góc vuông.
+- Góc $30^\circ$: vì $30^\circ<90^\circ$ nên đó là góc nhọn.
+- Góc $180^\circ$: số đo bằng $180^\circ$ nên đó là góc bẹt.
+
+Vậy các góc $100^\circ$, $90^\circ$, $30^\circ$, $180^\circ$ lần lượt là góc tù, góc vuông, góc nhọn, góc bẹt.
 
 **Đáp số.** Góc tù, góc vuông, góc nhọn, góc bẹt.
 :::
@@ -250,7 +261,12 @@ Lúc $4$ giờ, hai kim đồng hồ tạo thành góc bao nhiêu độ? Đó l�
 2. So sánh kết quả với $90^\circ$ và $180^\circ$.
 
 ::solution
-Ta có $4\times30^\circ=120^\circ$. Vì $90^\circ<120^\circ<180^\circ$ nên đó là góc tù.
+Trên mặt đồng hồ, giữa hai số liền nhau có góc $30^\circ$. Lúc $4$ giờ, kim giờ chỉ số $4$ và kim phút chỉ số $12$, hai kim cách nhau $4$ khoảng như thế. Số đo góc giữa hai kim là:
+$$4\times30^\circ=120^\circ.$$
+
+Ta so sánh với $90^\circ$ và $180^\circ$: vì $90^\circ<120^\circ<180^\circ$ nên đó là góc tù.
+
+Vậy lúc $4$ giờ, hai kim đồng hồ tạo thành góc $120^\circ$, đó là góc tù.
 
 **Đáp số.** $120^\circ$, góc tù.
 :::
@@ -266,7 +282,12 @@ Ta có $4\times30^\circ=120^\circ$. Vì $90^\circ<120^\circ<180^\circ$ nên đó
 2. So sánh hai số đo.
 
 ::solution
-Ta có $90^\circ+35^\circ=125^\circ$. Hai số đo bằng nhau.
+Ta tính vế phải trước:
+$$90^\circ+35^\circ=125^\circ.$$
+
+Như vậy cần so sánh $125^\circ$ với $125^\circ$. Hai số đo bằng nhau.
+
+Vậy ta điền dấu $=$: $125^\circ=90^\circ+35^\circ$.
 
 **Đáp số.** Dấu $=$.
 :::
@@ -282,7 +303,10 @@ Sắp xếp các góc có số đo $150^\circ$, $60^\circ$, $100^\circ$, $25^\ci
 2. Lần lượt tìm các số đo lớn hơn.
 
 ::solution
-Ta có $25^\circ<60^\circ<100^\circ<150^\circ$.
+Ta so sánh các số đo: $25<60<100<150$. Số bé nhất là $25$, tiếp theo là $60$, rồi $100$, số lớn nhất là $150$. Ta có
+$$25^\circ<60^\circ<100^\circ<150^\circ.$$
+
+Vậy các góc sắp xếp từ bé đến lớn là $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
 
 **Đáp số.** $25^\circ$; $60^\circ$; $100^\circ$; $150^\circ$.
 :::
@@ -301,9 +325,14 @@ Cánh cổng (số liệu giả định) được mở một góc $35^\circ$, r�
 ::solution
 Bài giải
 
+Cánh cổng mở thêm góc nữa, nên góc mở của cánh cổng là tổng của hai góc đã mở.
+
 Góc mở của cánh cổng là:
 $$35^\circ+50^\circ=85^\circ.$$
+
 Vì $85^\circ<90^\circ$ nên đó là góc nhọn.
+
+Vậy cánh cổng mở một góc $85^\circ$, đó là góc nhọn.
 
 **Đáp số.** $85^\circ$, góc nhọn.
 :::
@@ -321,9 +350,14 @@ Một góc bẹt được chia thành hai góc. Một góc có số đo $65^\cir
 ::solution
 Bài giải
 
+Góc bẹt có số đo $180^\circ$. Góc bẹt được chia thành hai góc nên tổng số đo hai góc bằng $180^\circ$. Do đó số đo góc còn lại bằng $180^\circ$ trừ đi số đo góc đã biết.
+
 Số đo góc còn lại là:
 $$180^\circ-65^\circ=115^\circ.$$
+
 Vì $90^\circ<115^\circ<180^\circ$ nên đó là góc tù.
+
+Vậy góc còn lại có số đo $115^\circ$, đó là góc tù.
 
 **Đáp số.** $115^\circ$, góc tù.
 :::
@@ -339,7 +373,15 @@ Em hãy nhớ lại bài biểu thức chứa chữ. Lúc $n$ giờ ($n$ từ $1
 2. Thay $n=5$ vào biểu thức.
 
 ::solution
-Khi $n=3$ thì $n\times30^\circ=3\times30^\circ=90^\circ$. Khi $n=5$ thì $n\times30^\circ=5\times30^\circ=150^\circ$.
+Biểu thức $n\times30^\circ$ có chữ $n$. Muốn tính giá trị của biểu thức, ta thay chữ $n$ bằng số đã cho rồi thực hiện phép tính.
+
+Khi $n=3$ thì
+$$n\times30^\circ=3\times30^\circ=90^\circ.$$
+
+Khi $n=5$ thì
+$$n\times30^\circ=5\times30^\circ=150^\circ.$$
+
+Vậy giá trị của biểu thức bằng $90^\circ$ khi $n=3$ và bằng $150^\circ$ khi $n=5$.
 
 **Đáp số.** $90^\circ$ và $150^\circ$.
 :::
@@ -355,7 +397,13 @@ Nam nói: "Góc $120^\circ$ là góc nhọn vì $120$ là một số lớn." Em 
 2. Gọi tên góc đúng.
 
 ::solution
-Ta có $120^\circ>90^\circ$ nên góc $120^\circ$ không phải góc nhọn. Vì $120^\circ<180^\circ$ nên đó là góc tù.
+Ta kiểm tra câu nói của Nam bằng cách so sánh $120^\circ$ với $90^\circ$. Góc nhọn là góc có số đo bé hơn $90^\circ$.
+
+Ta có $120^\circ>90^\circ$ nên góc $120^\circ$ không phải góc nhọn. Số $120$ lớn không phải là lí do để kết luận một góc là góc nhọn; muốn biết loại góc, ta phải so sánh số đo với $90^\circ$ và $180^\circ$.
+
+Sửa lại: vì $90^\circ<120^\circ<180^\circ$ nên góc $120^\circ$ là góc tù.
+
+Vậy Nam nói sai; góc $120^\circ$ là góc tù.
 
 **Đáp số.** Nam sai; góc $120^\circ$ là góc tù.
 :::
@@ -371,7 +419,15 @@ Xét các giờ tròn từ $1$ giờ đến $6$ giờ. Lúc nào hai kim đồng
 2. So sánh từng số đo với $90^\circ$ và $180^\circ$.
 
 ::solution
-Số đo góc lúc $1$, $2$, $3$, $4$, $5$, $6$ giờ lần lượt là $30^\circ$, $60^\circ$, $90^\circ$, $120^\circ$, $150^\circ$, $180^\circ$. Các góc $30^\circ$ và $60^\circ$ bé hơn $90^\circ$; các góc $120^\circ$ và $150^\circ$ nằm giữa $90^\circ$ và $180^\circ$.
+Lúc $n$ giờ, hai kim đồng hồ tạo thành góc $n\times30^\circ$. Số đo góc lúc $1$, $2$, $3$, $4$, $5$, $6$ giờ lần lượt là
+$$30^\circ,\ 60^\circ,\ 90^\circ,\ 120^\circ,\ 150^\circ,\ 180^\circ.$$
+
+Ta so sánh với $90^\circ$ và $180^\circ$:
+
+- Các góc $30^\circ$ và $60^\circ$ bé hơn $90^\circ$ nên là góc nhọn (lúc $1$ giờ và $2$ giờ).
+- Các góc $120^\circ$ và $150^\circ$ nằm giữa $90^\circ$ và $180^\circ$ nên là góc tù (lúc $4$ giờ và $5$ giờ).
+
+Vậy hai kim đồng hồ tạo thành góc nhọn lúc $1$ giờ và $2$ giờ, tạo thành góc tù lúc $4$ giờ và $5$ giờ.
 
 **Đáp số.** Góc nhọn lúc $1$ giờ và $2$ giờ; góc tù lúc $4$ giờ và $5$ giờ.
 :::

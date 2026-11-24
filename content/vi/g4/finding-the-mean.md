@@ -124,7 +124,12 @@ Tìm số trung bình cộng của $5$, $7$ và $9$.
 2. Chia tổng cho $3$.
 
 ::solution
-$(5+7+9):3=21:3=7$.
+Muốn tìm số trung bình cộng của nhiều số, ta tính tổng các số đó rồi chia cho số các số hạng.
+
+Tổng của ba số $5$, $7$ và $9$ là $5+7+9=21$. Có $3$ số nên ta chia tổng cho $3$:
+$$(5+7+9):3=21:3=7.$$
+
+Vậy số trung bình cộng của $5$, $7$ và $9$ là $7$.
 
 **Đáp số.** $7$.
 :::
@@ -140,7 +145,12 @@ Tìm số trung bình cộng của $10$, $20$, $30$ và $40$.
 2. Chia tổng cho $4$.
 
 ::solution
-$(10+20+30+40):4=100:4=25$.
+Muốn tìm số trung bình cộng của nhiều số, ta tính tổng các số đó rồi chia cho số các số hạng.
+
+Tổng của bốn số $10$, $20$, $30$ và $40$ là $10+20+30+40=100$. Có $4$ số nên ta chia tổng cho $4$:
+$$(10+20+30+40):4=100:4=25.$$
+
+Vậy số trung bình cộng của $10$, $20$, $30$ và $40$ là $25$.
 
 **Đáp số.** $25$.
 :::
@@ -156,7 +166,14 @@ Em hãy nhớ lại bài chia cho số có hai chữ số: tính $156:12$. Từ 
 2. $12$ số có tổng $156$ thì trung bình cộng là $156:12$.
 
 ::solution
-$12\times13=156$, nên $156:12=13$. Trung bình cộng của $12$ số đó là $13$.
+Tính $156:12$. Ta nhẩm: $12\times13=156$, nên
+$$156:12=13.$$
+
+*Thử lại.* $13\times12=156$. Đúng.
+
+Muốn tìm số trung bình cộng của $12$ số, ta lấy tổng của $12$ số đó chia cho $12$. Tổng của $12$ số đã cho là $156$, nên số trung bình cộng của chúng là $156:12=13$.
+
+Vậy $156:12=13$ và trung bình cộng của $12$ số có tổng bằng $156$ là $13$.
 
 **Đáp số.** $13$.
 :::
@@ -172,7 +189,12 @@ Ba số có tổng bằng $45$. Tìm số trung bình cộng của ba số đó.
 2. Chia $45$ cho số đó.
 
 ::solution
-$45:3=15$.
+Muốn tìm số trung bình cộng của ba số, ta lấy tổng của ba số đó chia cho $3$.
+
+Tổng của ba số là $45$, nên số trung bình cộng của ba số đó là:
+$$45:3=15.$$
+
+Vậy số trung bình cộng của ba số đó là $15$.
 
 **Đáp số.** $15$.
 :::
@@ -188,7 +210,17 @@ Hai bạn gộp $20$ viên bi và $36$ viên bi rồi chia đều cho nhau. Mỗ
 2. Tính tổng số bi, rồi chia cho số bạn.
 
 ::solution
-Tổng số bi là $20+36=56$ (viên). Có $2$ bạn nên chia cho $2$: $56:2=28$ (viên).
+Bài giải
+
+Tổng số bi của hai bạn là:
+$$20+36=56\ \text{(viên)}$$
+
+Chia đều số bi đó cho hai bạn nghĩa là mỗi bạn được số bi bằng nhau. Vì có $2$ bạn nên ta phải chia tổng số bi cho $2$.
+
+Mỗi bạn được số viên bi là:
+$$56:2=28\ \text{(viên)}$$
+
+Vậy mỗi bạn được $28$ viên bi; ta phải chia cho $2$ vì có $2$ bạn chia đều số bi.
 
 **Đáp số.** $28$ viên bi.
 :::
@@ -204,7 +236,14 @@ Mai làm bài: "Số trung bình cộng của $4$, $8$, $6$, $10$: tổng là $2
 2. Chia tổng cho số đó.
 
 ::solution
-Có $4$ số, không phải $3$ số, nên Mai chia sai. Đúng là $(4+8+6+10):4=28:4=7$.
+Muốn tìm số trung bình cộng của nhiều số, ta lấy tổng các số đó chia cho số các số hạng.
+
+Ở đây có $4$ số là $4$, $8$, $6$ và $10$, không phải $3$ số. Mai đã chia tổng cho $3$ nên chia sai; ta phải chia tổng cho $4$.
+
+Làm lại cho đúng:
+$$(4+8+6+10):4=28:4=7.$$
+
+Vậy Mai sai ở chỗ chia tổng cho $3$ thay vì chia cho $4$; số trung bình cộng đúng của $4$, $8$, $6$, $10$ là $7$.
 
 **Đáp số.** $7$.
 :::
@@ -222,8 +261,25 @@ b) Những ngày nào có nhiệt độ cao hơn mức trung bình?
 2. So sánh từng ngày với kết quả.
 
 ::solution
-a) $(22+24+25+23+26):5=120:5=24$ (độ).
-b) Các ngày có nhiệt độ lớn hơn $24$ độ là Thứ Tư ($25$) và Thứ Sáu ($26$).
+Bài giải
+
+a) Tổng nhiệt độ của năm ngày là:
+$$22+24+25+23+26=120\ \text{(độ)}$$
+
+Nhiệt độ trung bình của năm ngày là:
+$$120:5=24\ \text{(độ)}$$
+
+b) Ta so sánh nhiệt độ của từng ngày với mức trung bình $24$ độ:
+
+- Thứ Hai: $22<24$;
+- Thứ Ba: $24=24$;
+- Thứ Tư: $25>24$;
+- Thứ Năm: $23<24$;
+- Thứ Sáu: $26>24$.
+
+Các ngày có nhiệt độ lớn hơn $24$ độ là Thứ Tư ($25$ độ) và Thứ Sáu ($26$ độ). Thứ Ba có nhiệt độ bằng mức trung bình nên không cao hơn.
+
+Vậy nhiệt độ trung bình của năm ngày là $24$ độ; các ngày có nhiệt độ cao hơn mức trung bình là Thứ Tư và Thứ Sáu.
 
 **Đáp số.** a) $24$ độ; b) Thứ Tư và Thứ Sáu.
 :::
@@ -239,9 +295,22 @@ Trung bình cộng của bốn số là $15$. Ba trong bốn số là $12$, $18$
 2. Trừ đi tổng ba số đã biết.
 
 ::solution
-Tổng bốn số là $15\times4=60$. Ba số đã biết có tổng $12+18+20=50$. Số thứ tư là $60-50=10$.
+Bài giải
 
-**Kiểm tra.** $(12+18+20+10):4=60:4=15$. Đúng.
+Số trung bình cộng của bốn số bằng tổng của bốn số đó chia cho $4$, nên tổng của bốn số bằng số trung bình cộng nhân với $4$.
+
+Tổng của bốn số là:
+$$15\times4=60$$
+
+Tổng của ba số đã biết là:
+$$12+18+20=50$$
+
+Số thứ tư là:
+$$60-50=10$$
+
+*Kiểm tra.* $(12+18+20+10):4=60:4=15$. Đúng.
+
+Vậy số thứ tư là $10$.
 
 **Đáp số.** $10$.
 :::

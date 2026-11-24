@@ -142,7 +142,9 @@ There are three oranges in a basket. Write the number of oranges.
 2. Write three as a digit.
 
 ::solution
-Three is written $3$.
+There are three oranges in the basket. We count: one, two, three. The number "three" is written with the digit $3$.
+
+So there are $3$ oranges in the basket.
 
 **Answer.** $3$ oranges.
 :::
@@ -158,7 +160,13 @@ Fill in the box: $0, 1, 2, \square, 4, 5$.
 2. Which number is between $2$ and $4$?
 
 ::solution
-After $2$ comes $3$, then $4$.
+We read the numbers in order from smallest to largest: $0, 1, 2$, then the box, then $4, 5$.
+
+After $2$ comes $3$, and after $3$ comes $4$. So the number for the box is $3$.
+
+Check: we read the whole row $0, 1, 2, 3, 4, 5$. Correct.
+
+So the number to fill in is $3$.
 
 **Answer.** $3$.
 :::
@@ -174,7 +182,11 @@ You learned to count in nursery. Count the fingers on one hand and write the num
 2. Count: one, two, three, four, five.
 
 ::solution
-You count five fingers, written $5$.
+We count the fingers on one hand one by one: one, two, three, four, five. We count five fingers.
+
+The number "five" is written with the digit $5$.
+
+So one hand has $5$ fingers.
 
 **Answer.** $5$ fingers.
 :::
@@ -190,7 +202,9 @@ Mai's pencil case has no pens. Write the number of pens in it.
 2. Choose the number for "nothing".
 
 ::solution
-There is no pen, so you write $0$.
+Mai's pencil case has no pens. When there is nothing, we write the number $0$.
+
+So the number of pens in Mai's pencil case is $0$.
 
 **Answer.** $0$ pens.
 :::
@@ -206,7 +220,11 @@ A vase has no flowers. Lan writes that the number of flowers is $5$. Is Lan righ
 2. Which number says "nothing"?
 
 ::solution
-The vase has no flowers, so the number is $0$. Lan's $5$ is wrong.
+The vase has no flowers. When there is nothing, we write the number $0$, so the number of flowers in the vase is $0$.
+
+Lan writes $5$, but $5$ is the number for five flowers. So what Lan wrote is not right.
+
+So Lan is wrong; she should write $0$ for the number of flowers.
 
 **Answer.** No. It should be $0$.
 :::
@@ -222,7 +240,11 @@ Nam counts four balloons and says: "one, two, three, five". Where did Nam go wro
 2. Find the number that is missing.
 
 ::solution
-Nam left out four. The right count is: one, two, three, four.
+There are four balloons, so the right way to count is: one, two, three, four.
+
+Nam counts: "one, two, three, five". After three, Nam jumps to five, which means he leaves out four.
+
+So Nam went wrong by missing the number $4$; the right count is $1, 2, 3, 4$.
 
 **Answer.** Nam missed $4$; the right count is $1, 2, 3, 4$.
 :::
@@ -238,7 +260,11 @@ A school box holds: $4$ pencils, $2$ rubbers, $0$ rulers, $5$ felt pens. Which t
 2. Read the name next to it.
 
 ::solution
-The number $0$ is next to rulers, so the box has no ruler.
+The box holds: $4$ pencils, $2$ rubbers, $0$ rulers, $5$ felt pens.
+
+The number $0$ means there is none. The number $0$ is next to rulers, so the box has no ruler. The numbers $4$, $2$, $5$ are all different from $0$, so pencils, rubbers and felt pens are all in the box.
+
+So the thing that is not in the box is the ruler.
 
 **Answer.** The ruler.
 :::
@@ -254,9 +280,13 @@ Fill in the boxes (count backwards): $5, \square, 3, \square, 1, \square$.
 2. What comes after $3$? What comes after $1$?
 
 ::solution
-Counting backwards: $5, 4, 3, 2, 1, 0$.
+We count backwards, going down by one each time: $5, 4, 3, 2, 1, 0$.
 
-**Check.** Read from $0$ to $5$: $0, 1, 2, 3, 4, 5$. Correct.
+The number between $5$ and $3$ is $4$. The number between $3$ and $1$ is $2$. The number after $1$ is $0$.
+
+Check: we read forwards from $0$ to $5$: $0, 1, 2, 3, 4, 5$. Correct.
+
+So the numbers for the boxes are $4$, $2$, $0$ in order.
 
 **Answer.** $4$, $2$, $0$.
 :::

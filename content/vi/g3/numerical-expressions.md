@@ -133,7 +133,16 @@ Tính giá trị của biểu thức: $90-25+17$.
 1. Tính $90-25$ trước.
 
 ::solution
-$$90-25+17=65+17=82.$$
+Biểu thức $90-25+17$ chỉ có phép trừ và phép cộng, nên ta tính từ trái sang phải.
+
+Ta có
+$$\begin{aligned}
+90-25+17&=65+17\\
+&=82.
+\end{aligned}$$
+
+Vậy giá trị của biểu thức $90-25+17$ là $82$.
+
 **Đáp số.** $82$.
 :::
 
@@ -147,7 +156,16 @@ Tính giá trị của biểu thức: $63:7\times 4$.
 1. Tính $63:7$ trước.
 
 ::solution
-$$63:7\times 4=9\times 4=36.$$
+Biểu thức $63:7\times 4$ chỉ có phép chia và phép nhân, nên ta tính từ trái sang phải.
+
+Ta có
+$$\begin{aligned}
+63:7\times 4&=9\times 4\\
+&=36.
+\end{aligned}$$
+
+Vậy giá trị của biểu thức $63:7\times 4$ là $36$.
+
 **Đáp số.** $36$.
 :::
 
@@ -161,7 +179,16 @@ Tính giá trị của biểu thức: $15+4\times 6$.
 1. Phép nào tính trước?
 
 ::solution
-$$15+4\times 6=15+24=39.$$
+Biểu thức $15+4\times 6$ có cả phép cộng và phép nhân, không có dấu ngoặc, nên ta thực hiện phép nhân trước, rồi đến phép cộng.
+
+Ta có
+$$\begin{aligned}
+15+4\times 6&=15+24\\
+&=39.
+\end{aligned}$$
+
+Vậy giá trị của biểu thức $15+4\times 6$ là $39$.
+
 **Đáp số.** $39$.
 :::
 
@@ -175,7 +202,16 @@ Tính giá trị của biểu thức: $56-28:4$.
 1. Tính $28:4$ trước.
 
 ::solution
-$$56-28:4=56-7=49.$$
+Biểu thức $56-28:4$ có cả phép trừ và phép chia, không có dấu ngoặc, nên ta thực hiện phép chia trước, rồi đến phép trừ.
+
+Ta có
+$$\begin{aligned}
+56-28:4&=56-7\\
+&=49.
+\end{aligned}$$
+
+Vậy giá trị của biểu thức $56-28:4$ là $49$.
+
 **Đáp số.** $49$.
 :::
 
@@ -190,9 +226,21 @@ Tính giá trị của hai biểu thức $(24+36):6$ và $24+36:6$. Hai giá tr�
 2. Biểu thức thứ hai: tính phép chia trước.
 
 ::solution
-$$(24+36):6=60:6=10.$$
-$$24+36:6=24+6=30.$$
-Hai giá trị là $10$ và $30$, nên không bằng nhau.
+Với biểu thức $(24+36):6$, ta tính phần trong ngoặc trước, rồi chia:
+$$\begin{aligned}
+(24+36):6&=60:6\\
+&=10.
+\end{aligned}$$
+
+Với biểu thức $24+36:6$, không có dấu ngoặc, nên ta thực hiện phép chia trước, rồi đến phép cộng:
+$$\begin{aligned}
+24+36:6&=24+6\\
+&=30.
+\end{aligned}$$
+
+Hai giá trị là $10$ và $30$. Vì $10\neq30$ nên hai giá trị không bằng nhau.
+
+Vậy $(24+36):6=10$ và $24+36:6=30$; hai giá trị không bằng nhau.
 
 **Đáp số.** $10$ và $30$; không bằng nhau.
 :::
@@ -208,8 +256,19 @@ Một cửa hàng có $5$ thùng nước, mỗi thùng $12$ chai, và có thêm 
 2. Cộng chai lẻ, rồi trừ số chai đã bán.
 
 ::solution
+Bài giải
+
+Số chai nước trong $5$ thùng là $5\times12$ chai. Cửa hàng còn có thêm $25$ chai lẻ, nên tổng số chai là $5\times12+25$. Cửa hàng đã bán $40$ chai, nên số chai còn lại được viết thành biểu thức $5\times 12+25-40$.
+
 Số chai nước còn lại là:
-$$5\times 12+25-40=60+25-40=85-40=45\ \text{(chai)}.$$
+$$\begin{aligned}
+5\times 12+25-40&=60+25-40\\
+&=85-40\\
+&=45\ \text{(chai)}.
+\end{aligned}$$
+
+Vậy cửa hàng còn lại $45$ chai nước.
+
 **Đáp số.** $45$ chai nước.
 :::
 
@@ -223,8 +282,18 @@ Em nhớ lại bài toán hai bước. Nhà Hà nuôi $8$ con gà, số vịt g�
 1. Viết biểu thức có số gà cộng với số vịt.
 
 ::solution
+Bài giải
+
+Nhà Hà có $8$ con gà. Số vịt gấp $3$ lần số gà nên số vịt là $8\times 3$ con. Số gà và vịt là $8+8\times 3$ con.
+
 Số con gà và vịt là:
-$$8+8\times 3=8+24=32\ \text{(con)}.$$
+$$\begin{aligned}
+8+8\times 3&=8+24\\
+&=32\ \text{(con)}.
+\end{aligned}$$
+
+Vậy nhà Hà nuôi tất cả $32$ con gà và vịt.
+
 **Đáp số.** $32$ con.
 :::
 
@@ -238,10 +307,19 @@ Thêm một cặp dấu ngoặc vào biểu thức $30-10+5$ để giá trị c�
 1. Thử đặt ngoặc quanh $10+5$.
 
 ::solution
-Không có ngoặc: $30-10+5=20+5=25$.
+Khi không có dấu ngoặc, ta tính từ trái sang phải:
+$$30-10+5=20+5=25.$$
+Giá trị này bằng $25$, khác $15$.
 
-Đặt ngoặc quanh $10+5$: 
-$$30-(10+5)=30-15=15.$$
+Ta thử đặt ngoặc quanh $10+5$, tức là tính $10+5$ trước:
+$$\begin{aligned}
+30-(10+5)&=30-15\\
+&=15.
+\end{aligned}$$
+Giá trị này đúng bằng $15$.
+
+Vậy ta đặt dấu ngoặc quanh $10+5$ và được $30-(10+5)=15$.
+
 **Đáp số.** $30-(10+5)=15$.
 :::
 

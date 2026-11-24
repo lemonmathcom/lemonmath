@@ -128,7 +128,14 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Trừ từng hàng từ phải sang trái, rồi viết dấu phẩy.
 
 ::solution
+Đặt tính sao cho các chữ số ở cùng một hàng thẳng cột, dấu phẩy thẳng dấu phẩy, rồi trừ như trừ các số tự nhiên (từ phải sang trái):
 $$\begin{array}{r} 8{,}95 \\ -\ 4{,}32 \\ \hline 4{,}63 \end{array}$$
+
+Hàng phần trăm: $5-2=3$, viết $3$. Hàng phần mười: $9-3=6$, viết $6$. Hàng đơn vị: $8-4=4$, viết $4$. Viết dấu phẩy ở hiệu thẳng cột với dấu phẩy ở số bị trừ và số trừ.
+
+Thử lại: $4{,}63+4{,}32=8{,}95$. Đúng.
+
+Vậy $8{,}95-4{,}32=4{,}63$.
 
 **Đáp số.** $4{,}63$.
 :::
@@ -144,9 +151,14 @@ Tính $15{,}7-6{,}9$.
 2. Mượn $1$ ở hàng đơn vị, rồi trừ từng hàng.
 
 ::solution
-$15{,}7-6{,}9=8{,}8$.
+Hai số đều có một chữ số ở phần thập phân, nên ta đặt tính rồi trừ:
+$$\begin{array}{r} 15{,}7 \\ -\ \ 6{,}9 \\ \hline 8{,}8 \end{array}$$
 
-**Kiểm tra.** $8{,}8+6{,}9=15{,}7$. Đúng.
+Hàng phần mười: $7$ không trừ được $9$, lấy $17-9=8$, viết $8$ nhớ $1$. Hàng đơn vị: $6+1=7$; $5$ không trừ được $7$, lấy $15-7=8$, viết $8$ nhớ $1$. Hàng chục: $0+1=1$; $1-1=0$, không viết. Viết dấu phẩy thẳng cột.
+
+Thử lại: $8{,}8+6{,}9=15{,}7$. Đúng.
+
+Vậy $15{,}7-6{,}9=8{,}8$.
 
 **Đáp số.** $8{,}8$.
 :::
@@ -162,7 +174,14 @@ Tính $20{,}5-8{,}76$.
 2. Đặt tính và trừ từng hàng, nhớ mượn.
 
 ::solution
-$20{,}50-8{,}76=11{,}74$.
+Số bị trừ $20{,}5$ có một chữ số ở phần thập phân còn số trừ $8{,}76$ có hai chữ số. Ta viết thêm một chữ số $0$ vào tận cùng bên phải phần thập phân của $20{,}5$ để được $20{,}50$ rồi đặt tính:
+$$\begin{array}{r} 20{,}50 \\ -\ \ 8{,}76 \\ \hline 11{,}74 \end{array}$$
+
+Hàng phần trăm: $0$ không trừ được $6$, lấy $10-6=4$, viết $4$ nhớ $1$. Hàng phần mười: $7+1=8$; $5$ không trừ được $8$, lấy $15-8=7$, viết $7$ nhớ $1$. Hàng đơn vị: $8+1=9$; $0$ không trừ được $9$, lấy $10-9=1$, viết $1$ nhớ $1$. Hàng chục: $0+1=1$; $2-1=1$, viết $1$.
+
+Thử lại: $11{,}74+8{,}76=20{,}50$. Đúng.
+
+Vậy $20{,}5-8{,}76=11{,}74$.
 
 **Đáp số.** $11{,}74$.
 :::
@@ -178,7 +197,14 @@ Tính $6-2{,}8$.
 2. Đặt tính rồi trừ.
 
 ::solution
-$6{,}0-2{,}8=3{,}2$.
+Số bị trừ $6$ là số tự nhiên. Ta viết $6=6{,}0$ để hai số cùng có một chữ số ở phần thập phân rồi đặt tính:
+$$\begin{array}{r} 6{,}0 \\ -\ 2{,}8 \\ \hline 3{,}2 \end{array}$$
+
+Hàng phần mười: $0$ không trừ được $8$, lấy $10-8=2$, viết $2$ nhớ $1$. Hàng đơn vị: $2+1=3$; $6-3=3$, viết $3$. Viết dấu phẩy thẳng cột.
+
+Thử lại: $3{,}2+2{,}8=6{,}0$. Đúng.
+
+Vậy $6-2{,}8=3{,}2$.
 
 **Đáp số.** $3{,}2$.
 :::
@@ -194,7 +220,16 @@ $6{,}0-2{,}8=3{,}2$.
 2. So sánh kết quả với $8{,}5=8{,}50$.
 
 ::solution
-$14{,}50-6{,}25=8{,}25$. Vì $8{,}25<8{,}50$ nên $14{,}5-6{,}25<8{,}5$.
+Ta tính vế trái rồi so sánh với $8{,}5$.
+
+Viết $14{,}5=14{,}50$ rồi trừ:
+$$14{,}50-6{,}25=8{,}25.$$
+
+Viết $8{,}5=8{,}50$. Hai số $8{,}25$ và $8{,}50$ có phần nguyên bằng nhau; ở hàng phần mười có $2<5$ nên $8{,}25<8{,}50$.
+
+Do đó $14{,}5-6{,}25<8{,}5$.
+
+Vậy dấu cần điền vào ô trống là $<$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -210,10 +245,16 @@ Bao đường nặng $25{,}5$ kg. Cửa hàng bán đi $18{,}75$ kg. Hỏi trong
 2. Tính $25{,}50-18{,}75$, ghi đáp số có đơn vị, rồi thử lại bằng phép cộng.
 
 ::solution
-Số đường còn lại là:
-$$25{,}50-18{,}75=6{,}75\ \text{(kg)}.$$
+Bài giải
 
-**Kiểm tra.** $6{,}75+18{,}75=25{,}50$. Đúng.
+Số ki-lô-gam đường còn lại trong bao là:
+$$25{,}50-18{,}75=6{,}75\ \text{(kg)}$$
+
+Hàng phần trăm: $0-5$ không được, lấy $10-5=5$ nhớ $1$. Hàng phần mười: $7+1=8$; $5-8$ không được, lấy $15-8=7$ nhớ $1$. Hàng đơn vị: $8+1=9$; $5-9$ không được, lấy $15-9=6$ nhớ $1$. Hàng chục: $1+1=2$; $2-2=0$.
+
+Thử lại: $6{,}75+18{,}75=25{,}50$. Đúng.
+
+Vậy trong bao còn lại $6{,}75$ kg đường.
 
 **Đáp số.** $6{,}75$ kg.
 :::
@@ -229,7 +270,15 @@ Em hãy nhớ lại bài trước: tính $4{,}75+3{,}6$. Rồi lấy kết quả
 2. Viết $5{,}9=5{,}90$ rồi lấy tổng trừ $5{,}90$.
 
 ::solution
-$4{,}75+3{,}60=8{,}35$. Sau đó $8{,}35-5{,}90=2{,}45$.
+Bước 1: tính $4{,}75+3{,}6$. Viết $3{,}6=3{,}60$ rồi cộng:
+$$4{,}75+3{,}60=8{,}35.$$
+
+Bước 2: lấy kết quả đó trừ đi $5{,}9$. Viết $5{,}9=5{,}90$ rồi trừ:
+$$8{,}35-5{,}90=2{,}45.$$
+
+Thử lại: $2{,}45+5{,}90=8{,}35$. Đúng.
+
+Vậy kết quả cuối cùng là $2{,}45$.
 
 **Đáp số.** $2{,}45$.
 :::
@@ -245,9 +294,15 @@ Tìm $x$, biết $x+3{,}75=10{,}2$.
 2. Viết $10{,}2=10{,}20$ rồi trừ.
 
 ::solution
-Ta có $x=10{,}2-3{,}75=10{,}20-3{,}75=6{,}45$.
+Trong phép cộng, số hạng chưa biết bằng tổng trừ đi số hạng đã biết. Do đó
+$$x=10{,}2-3{,}75.$$
 
-**Kiểm tra.** $6{,}45+3{,}75=10{,}20$. Đúng.
+Viết $10{,}2=10{,}20$ rồi trừ:
+$$x=10{,}20-3{,}75=6{,}45.$$
+
+Thử lại: $6{,}45+3{,}75=10{,}20$. Đúng.
+
+Vậy $x=6{,}45$.
 
 **Đáp số.** $x=6{,}45$.
 :::

@@ -241,7 +241,17 @@ Which of these are statements? For each statement, is it true or false?
 3. Compute to decide true or false.
 
 ::solution
-(a) A false statement, because $221=13\cdot17$. (b) It contains the variable $x$, so it is not yet a statement (true for $x=5$, false for $x=0$). (c) An exclamation, not a statement. (d) A true statement, because $7^2=49$ and $7>0$.
+A sentence is a statement if it is either true or false (it cannot be both, and it cannot be neither).
+
+a) The sentence "$221$ is a prime number" can be judged true or false, so it is a statement. We have $221=13\cdot17$, so $221$ has the divisor $13$, which is neither $1$ nor $221$; hence $221$ is not prime. This is a false statement.
+
+b) The sentence "$x-3>0$" contains the variable $x$, so whether it is true depends on $x$: for $x=5$ we get $2>0$ (true), for $x=0$ we get $-3>0$ (false). So it is not yet a statement; it is a statement with a variable.
+
+c) The sentence "What a nice problem!" is an exclamation and does not assert anything that can be judged true or false, so it is not a statement.
+
+d) The sentence "$\sqrt{49}=7$" can be judged true or false, so it is a statement. Since $7^2=49$ and $7>0$, we have $\sqrt{49}=7$. This is a true statement.
+
+So a) is a false statement; b) is a statement with a variable; c) is not a statement; d) is a true statement.
 
 **Answer.** (a) false statement; (b) statement with a variable; (c) not a statement; (d) true statement.
 :::
@@ -259,11 +269,15 @@ Write the negation of each statement and say which of the two is true.
 2. Decide whether the original is true.
 
 ::solution
-(a) "$2023$ is not divisible by $7$". Since $2023=7\cdot289$, the original is true and the negation is false.
+The negation of a statement has the opposite truth value: if the original is true, its negation is false, and vice versa.
 
-(b) "$\pi\ge 3.14$". Since $\pi\approx3.1416$, the original is false and the negation is true.
+a) The negation is "$2023$ is not divisible by $7$". Since $2023=7\cdot289$, the number $2023$ is divisible by $7$; so the original is true and the negation is false.
 
-(c) "$-3\le -5$". The original is true and the negation is false.
+b) The negation is "$\pi\ge3.14$". Since $\pi\approx3.1416>3.14$, the original "$\pi<3.14$" is false and the negation is true.
+
+c) The negation is "$-3\le-5$". Since $-3-(-5)=2>0$, we have $-3>-5$; so the original is true and the negation is false.
+
+So the true one is: the original in a), the negation in b), the original in c).
 
 **Answer.** The true one is: (a) the original; (b) the negation; (c) the original.
 :::
@@ -279,7 +293,15 @@ Consider "If quadrilateral $ABCD$ is a rhombus, then its diagonals are perpendic
 2. Find a quadrilateral with perpendicular diagonals that is not a rhombus.
 
 ::solution
-The statement is true: the diagonals of a rhombus are perpendicular. Converse: "If quadrilateral $ABCD$ has perpendicular diagonals, then it is a rhombus." The converse is false: a kite such as $AB=AD=2$, $CB=CD=5$ has perpendicular diagonals, but only one diagonal bisects the other, so it is not a rhombus.
+The given statement has the form "If $P$ then $Q$" with $P$: "quadrilateral $ABCD$ is a rhombus" and $Q$: "the diagonals of $ABCD$ are perpendicular".
+
+Consider the given statement. If $ABCD$ is a rhombus, then $AB=BC=CD=DA$. Then $A$ and $C$ are both equidistant from $B$ and $D$ (because $AB=AD$ and $CB=CD$), so the line $AC$ is the perpendicular bisector of the segment $BD$. Hence $AC\perp BD$. So the given statement is true.
+
+The converse is "If quadrilateral $ABCD$ has perpendicular diagonals, then it is a rhombus."
+
+Consider the converse. Take a quadrilateral $ABCD$ with $AB=AD=2$ and $CB=CD=5$ (a kite). Since $A$ and $C$ are equidistant from $B$ and $D$, we have $AC\perp BD$, so the diagonals are perpendicular. However $AB=2\ne5=CB$, so the four sides are not equal and this quadrilateral is not a rhombus (only one diagonal, $AC$, bisects the other). This is a counterexample, so the converse is false.
+
+So the given statement is true and its converse is false.
 
 **Answer.** The statement is true; the converse is false.
 :::
@@ -319,9 +341,15 @@ Write the negation of $A$: "$\forall x\in\mathbb{R},\ x^2+x+1>0$" and decide whe
 2. Write $x^2+x+1$ as a square plus a number.
 
 ::solution
-$\overline{A}$: "$\exists x\in\mathbb{R},\ x^2+x+1\le 0$". We have
-$$x^2+x+1=\left(x+\dfrac12\right)^2+\dfrac34\ge\dfrac34>0$$
-for every $x$, so $A$ is true.
+The negation of "$\forall x\in\mathbb{R},\ P(x)$" is "$\exists x\in\mathbb{R},\ \overline{P(x)}$". The negation of "$x^2+x+1>0$" is "$x^2+x+1\le0$". Hence
+$$\overline{A}:\ "\exists x\in\mathbb{R},\ x^2+x+1\le0".$$
+
+To decide which is true, we complete the square:
+$$x^2+x+1=\left(x+\frac12\right)^2+\frac34.$$
+
+Since $\left(x+\dfrac12\right)^2\ge0$ for every $x$, we get $x^2+x+1\ge\dfrac34>0$ for every $x\in\mathbb{R}$. So $A$ is true, and there is no $x$ with $x^2+x+1\le0$, that is, $\overline{A}$ is false.
+
+So $A$ is true and $\overline{A}$ is false.
 
 **Answer.** $A$ is true, $\overline{A}$ is false.
 :::
@@ -366,7 +394,15 @@ Among the natural numbers $n$ from $1$ to $20$, how many make the statement $P(n
 3. Count the odd $n$ from $1$ to $20$.
 
 ::solution
-If $n$ is even, $n^2-1$ is odd, so not divisible by $8$. If $n$ is odd, $n-1$ and $n+1$ are consecutive even numbers, one of them divisible by $4$, so $(n-1)(n+1)$ is divisible by $2\cdot4=8$. There are $10$ odd numbers from $1$ to $20$.
+We have $n^2-1=(n-1)(n+1)$. Consider two cases according to the parity of $n$.
+
+Case $n$ even: then $n^2$ is even, so $n^2-1$ is odd and cannot be divisible by $8$. So $P(n)$ is false.
+
+Case $n$ odd: then $n-1$ and $n+1$ are consecutive even numbers. Among two consecutive even numbers, one is divisible by $4$ and the other is divisible by $2$. Hence $(n-1)(n+1)$ is divisible by $2\cdot4=8$. So $P(n)$ is true.
+
+Thus $P(n)$ is true if and only if $n$ is odd. The odd numbers from $1$ to $20$ are $1$, $3$, $5$, $\dots$, $19$, which makes $10$ numbers.
+
+So there are $10$ natural numbers $n$ from $1$ to $20$ for which $P(n)$ is true.
 
 **Answer.** $10$.
 :::
@@ -392,7 +428,20 @@ Who broke the rule?
 3. Look for the case $P$ true, $Q$ false.
 
 ::solution
-An: $P$ false, $Q$ false. Binh: $P$ false, $Q$ true (he went anyway, which the rule does not forbid). Chi: $P$ true, $Q$ true. Dung: $P$ true, $Q$ false, the only case that makes $P\Rightarrow Q$ false.
+Let $P$ be the statement "the student is more than $15$ minutes late" and $Q$ the statement "the student goes to the supervisor's office". The rule is the implication $P\Rightarrow Q$.
+
+The implication $P\Rightarrow Q$ is false only when $P$ is true and $Q$ is false. So a student breaks the rule exactly when they are more than $15$ minutes late and do not go to the office. We check each student:
+
+| Student | $P$ | $Q$ | $P\Rightarrow Q$ |
+|---|---|---|---|
+| An ($0$ min, did not go) | false | false | true |
+| Binh ($10$ min, went) | false | true | true |
+| Chi ($20$ min, went) | true | true | true |
+| Dung ($25$ min, did not go) | true | false | false |
+
+Binh was not more than $15$ minutes late but went to the office anyway; the rule does not forbid this, so he did not break it.
+
+So only Dung broke the rule.
 
 **Answer.** Only Dung broke the rule.
 :::
@@ -411,9 +460,13 @@ An: $P$ false, $Q$ false. Binh: $P$ false, $Q$ true (he went anyway, which the r
 2. For (b), try a value of $x$ between the roots $2$ and $5$ of $x^2-7x+10=0$.
 
 ::solution
-(a) $\Delta'=(-3)^2-10=-1<0$, so the equation has no real root: $P$ is false. $\overline{P}$: "The equation $x^2-6x+10=0$ has no real root" is true.
+a) Consider $P$: "The equation $x^2-6x+10=0$ has a real root". Here $b'=-3$, so
+$$\Delta'=(-3)^2-1\cdot10=9-10=-1<0.$$
+Hence the equation has no real root, so $P$ is false. Its negation $\overline{P}$: "The equation $x^2-6x+10=0$ has no real root" is true.
 
-(b) For $x=3$: $9-21+10=-2<0$, so $Q$ is true. $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge 0$" is false.
+b) Consider $Q$: "$\exists x\in\mathbb{R},\ x^2-7x+10<0$". To show that $Q$ is true, it is enough to exhibit one value of $x$. For $x=3$ we have $3^2-7\cdot3+10=9-21+10=-2<0$, so $Q$ is true. Its negation $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge0$" is false, because $x=3$ is a counterexample.
+
+So $P$ is false and $\overline{P}$ is true; $Q$ is true and $\overline{Q}$ is false.
 
 **Answer.** (a) $P$ false, $\overline{P}$ true; (b) $Q$ true, $\overline{Q}$ false.
 :::

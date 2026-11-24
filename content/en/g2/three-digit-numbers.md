@@ -131,7 +131,15 @@ c) the ones digit.
 2. Read each digit.
 
 ::solution
-The number $482$ has the digit $4$ in the hundreds place, $8$ in the tens place and $2$ in the ones place.
+The number $482$ has $4$ hundreds, $8$ tens and $2$ ones.
+
+a) The digit in the hundreds place is $4$.
+
+b) The digit in the tens place is $8$.
+
+c) The digit in the ones place is $2$.
+
+So the number $482$ has hundreds digit $4$, tens digit $8$ and ones digit $2$.
 
 **Answer.** a) $4$; b) $8$; c) $2$.
 :::
@@ -151,7 +159,13 @@ b) $9$ hundreds, $1$ ten, $4$ ones.
 2. Write the three digits side by side.
 
 ::solution
-a) Digits: $5$, $3$, $6$. b) Digits: $9$, $1$, $4$.
+To write a three-digit number, we write the hundreds digit first, then the tens digit, then the ones digit.
+
+a) $5$ hundreds, $3$ tens and $6$ ones give the digits $5$, $3$, $6$, so the number is $536$.
+
+b) $9$ hundreds, $1$ ten and $4$ ones give the digits $9$, $1$, $4$, so the number is $914$.
+
+So a) the number is $536$; b) the number is $914$.
 
 **Answer.** a) $536$; b) $914$.
 :::
@@ -167,7 +181,13 @@ Remember the last lesson. Which of the numbers $60, 300, 90, 700$ have three dig
 2. Compare $3$ hundreds and $7$ hundreds.
 
 ::solution
-$300$ and $700$ have three digits; $60$ and $90$ have two digits. $3$ hundreds is less than $7$ hundreds.
+A number has three digits when it has a hundreds place, that is, when it is from $100$ to $999$.
+
+The numbers $60$ and $90$ have only tens and ones, so they have two digits. The numbers $300$ and $700$ have hundreds, so they have three digits.
+
+To compare $300$ and $700$, we compare their hundreds digits. Since $3$ hundreds is less than $7$ hundreds, $300<700$.
+
+So the numbers with three digits are $300$ and $700$; the sign to write is $<$, and $300<700$.
 
 **Answer.** $300$, $700$; $300<700$.
 :::
@@ -187,7 +207,13 @@ b) $250$.
 2. Write the hundreds, tens and ones.
 
 ::solution
-a) $705$: $7$ hundreds, $0$ tens, $5$ ones. b) $250$: $2$ hundreds, $5$ tens, $0$ ones.
+For each number, we look at the digit in the hundreds, tens and ones places.
+
+a) The number $705$ has hundreds digit $7$, tens digit $0$ and ones digit $5$. So $705$ has $7$ hundreds, $0$ tens and $5$ ones.
+
+b) The number $250$ has hundreds digit $2$, tens digit $5$ and ones digit $0$. So $250$ has $2$ hundreds, $5$ tens and $0$ ones.
+
+So a) $705$ has $7$ hundreds, $0$ tens and $5$ ones; b) $250$ has $2$ hundreds, $5$ tens and $0$ ones.
 
 **Answer.** a) $7$ hundreds $0$ tens $5$ ones; b) $2$ hundreds $5$ tens $0$ ones.
 :::
@@ -203,7 +229,13 @@ To write "two hundred and six", which of $26$, $206$, $260$ do you choose? Why?
 2. Is there anything in the tens place? How many ones?
 
 ::solution
-There are $2$ hundreds, $0$ tens and $6$ ones. Write the digits $2$, $0$, $6$.
+The number "two hundred and six" has $2$ hundreds. The word "and" shows that there are no tens, so the tens digit is $0$, and there are $6$ ones.
+
+So the hundreds digit is $2$, the tens digit is $0$ and the ones digit is $6$. Writing the digits $2$, $0$, $6$ gives $206$.
+
+The other numbers do not fit: $26$ has only two digits ($2$ tens $6$ ones); $260$ has $2$ hundreds, $6$ tens and $0$ ones, and is read "two hundred and sixty".
+
+So we choose $206$, because it has $2$ hundreds, $0$ tens and $6$ ones.
 
 **Answer.** $206$.
 :::
@@ -219,7 +251,13 @@ Mai writes "$4$ hundreds $5$ ones is $45$". What is wrong with what Mai writes? 
 2. Write the number again with three digits.
 
 ::solution
-$45$ is $4$ tens $5$ ones. The right number has $4$ hundreds, $0$ tens and $5$ ones.
+The number $45$ has two digits: $4$ in the tens place and $5$ in the ones place, so $45$ is $4$ tens $5$ ones. So Mai wrote $4$ hundreds as $4$ tens.
+
+The number we need has $4$ hundreds, no tens (that is, $0$ tens) and $5$ ones. We write the digits $4$, $0$, $5$ in the order hundreds, tens, ones.
+
+Check: the number $405$ has $4$ hundreds, $0$ tens and $5$ ones. Correct.
+
+So Mai's mistake is writing $4$ hundreds as $4$ tens and leaving out the digit $0$ in the tens place; $4$ hundreds $5$ ones must be written as $405$.
 
 **Answer.** $405$.
 :::
@@ -235,7 +273,14 @@ There are $3$ boxes of $100$ marbles, $4$ bags of $10$ marbles and $7$ loose mar
 2. Write the number and give the answer with its unit.
 
 ::solution
-Digits: $3$, $4$, $7$. The number of marbles is $347$.
+Solution
+
+$3$ boxes of $100$ marbles make $3$ hundreds, $4$ bags of $10$ marbles make $4$ tens, and the $7$ loose marbles are $7$ ones.
+
+The number of marbles altogether is:
+$$300+40+7=347\ \text{(marbles)}.$$
+
+So there are $347$ marbles altogether.
 
 **Answer.** $347$ marbles.
 :::
@@ -251,9 +296,13 @@ Use the three digits $2$, $5$, $8$, each exactly once, to make the largest and t
 2. Smallest: do the opposite.
 
 ::solution
-Largest: hundreds $8$, tens $5$, ones $2$, which is $852$. Smallest: hundreds $2$, tens $5$, ones $8$, which is $258$.
+To make the largest number, we put the largest digit in the highest place: hundreds digit $8$, tens digit $5$, ones digit $2$. We get $852$.
 
-**Check.** $258<852$. Correct.
+To make the smallest number, we put the smallest digit in the highest place: hundreds digit $2$, tens digit $5$, ones digit $8$. We get $258$.
+
+Check: both numbers have three digits; comparing the hundreds digits, $2<8$, so $258<852$. Correct.
+
+So the largest number is $852$ and the smallest number is $258$.
 
 **Answer.** The largest is $852$ and the smallest is $258$.
 :::

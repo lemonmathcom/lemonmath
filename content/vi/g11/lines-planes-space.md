@@ -239,7 +239,12 @@ Hình chóp có đáy là đa giác $7$ cạnh có bao nhiêu mặt, cạnh và 
 1. Thay $n=7$.
 
 ::solution
-Với $n=7$: $n+1=8$ mặt, $2n=14$ cạnh, $n+1=8$ đỉnh.
+Hình chóp có đáy là đa giác $n$ cạnh gồm $n$ mặt bên (mỗi mặt bên là một tam giác) và $1$ mặt đáy; có $n$ cạnh đáy và $n$ cạnh bên; có $n$ đỉnh đáy và $1$ đỉnh chóp.
+
+Với $n=7$:
+$$\text{số mặt}=n+1=8,\quad\text{số cạnh}=n+n=2n=14,\quad\text{số đỉnh}=n+1=8.$$
+
+Vậy hình chóp có đáy $7$ cạnh có $8$ mặt, $14$ cạnh và $8$ đỉnh.
 
 **Đáp số.** $8$ mặt, $14$ cạnh, $8$ đỉnh.
 :::
@@ -255,7 +260,14 @@ Cho năm điểm trong không gian, trong đó không có ba điểm nào thẳn
 2. Giải thích vì sao các mặt phẳng đôi một khác nhau.
 
 ::solution
-Số cách chọn ba điểm trong năm điểm là $\dbinom{5}{3}=10$. Mỗi bộ ba không thẳng hàng xác định đúng một mặt phẳng. Hai bộ ba khác nhau cho hai mặt phẳng khác nhau, vì nếu trùng nhau thì ít nhất bốn điểm đồng phẳng.
+Ba điểm không thẳng hàng xác định đúng một mặt phẳng. Vì trong năm điểm đã cho không có ba điểm nào thẳng hàng nên mỗi bộ ba điểm xác định đúng một mặt phẳng.
+
+Số cách chọn ba điểm trong năm điểm là
+$$\dbinom{5}{3}=\frac{5\cdot4\cdot3}{3\cdot2\cdot1}=10.$$
+
+Hai bộ ba khác nhau cho hai mặt phẳng khác nhau. Thật vậy, nếu hai bộ ba khác nhau cho cùng một mặt phẳng thì hợp của chúng có ít nhất bốn điểm cùng nằm trong mặt phẳng đó, trái với giả thiết không có bốn điểm nào đồng phẳng.
+
+Vậy có $10$ mặt phẳng đi qua ba trong năm điểm đã cho.
 
 **Đáp số.** $10$ mặt phẳng.
 :::
@@ -271,7 +283,13 @@ Cho tứ diện $ABCD$. Lấy $M$ thuộc cạnh $AB$ và $N$ thuộc cạnh $AC
 2. Chứng tỏ $E$ thuộc cả hai mặt phẳng.
 
 ::solution
-Điểm $D$ thuộc cả hai mặt phẳng. Vì $E\in MN\subset(DMN)$ và $E\in BC\subset(BCD)$ nên $E$ cũng là điểm chung. Hai điểm chung $D$, $E$ phân biệt (vì $E$ thuộc mặt phẳng $(ABC)$ còn $D$ thì không) cho giao tuyến $DE$.
+Hai mặt phẳng $(DMN)$ và $(BCD)$ có điểm chung $D$.
+
+Vì $E\in MN$ và $MN\subset(DMN)$ nên $E\in(DMN)$. Vì $E\in BC$ và $BC\subset(BCD)$ nên $E\in(BCD)$. Vậy $E$ cũng là điểm chung của hai mặt phẳng.
+
+Hai điểm $D$ và $E$ phân biệt, vì $E$ thuộc $BC\subset(ABC)$ còn $D$ không thuộc $(ABC)$ (do $ABCD$ là tứ diện). Hai mặt phẳng có hai điểm chung phân biệt $D$, $E$ nên giao tuyến của chúng là đường thẳng $DE$.
+
+Vậy giao tuyến của $(DMN)$ và $(BCD)$ là đường thẳng $DE$.
 
 **Đáp số.** Giao tuyến là đường thẳng $DE$.
 :::
@@ -287,7 +305,13 @@ Cho hình chóp $S.ABCD$ có đáy là tứ giác $ABCD$ sao cho $AB$ cắt $CD$
 2. Tìm giao điểm của đường thẳng $ME$ với $SC$ trong $(SCD)$.
 
 ::solution
-Mặt phẳng phụ chứa $SC$ là $(SCD)$. Điểm $M\in SD\subset(SCD)$ và $M\in(MAB)$; điểm $E\in CD\subset(SCD)$ và $E\in AB\subset(MAB)$. Do đó giao tuyến của $(SCD)$ và $(MAB)$ là $ME$. Trong mặt phẳng $(SCD)$, $ME$ cắt $SC$ tại $N$, và $N\in(MAB)$.
+Để tìm giao điểm của $SC$ và $(MAB)$, ta chọn mặt phẳng phụ chứa $SC$ là $(SCD)$ và tìm giao tuyến của $(SCD)$ với $(MAB)$.
+
+Điểm $M\in SD$ và $SD\subset(SCD)$ nên $M\in(SCD)$; đồng thời $M\in(MAB)$. Điểm $E\in CD$ và $CD\subset(SCD)$ nên $E\in(SCD)$; đồng thời $E\in AB$ và $AB\subset(MAB)$ nên $E\in(MAB)$. Hai điểm $M$, $E$ là hai điểm chung phân biệt, nên giao tuyến của $(SCD)$ và $(MAB)$ là đường thẳng $ME$.
+
+Trong mặt phẳng $(SCD)$, hai đường thẳng $ME$ và $SC$ cắt nhau tại một điểm $N$. Vì $N\in ME\subset(MAB)$ và $N\in SC$ nên $N$ là giao điểm của $SC$ với $(MAB)$.
+
+Vậy giao điểm của $SC$ và $(MAB)$ là $N=SC\cap ME$.
 
 **Đáp số.** Giao điểm là $N=SC\cap ME$.
 :::
@@ -303,7 +327,11 @@ Một cánh cửa gắn vào khung bằng hai bản lề (coi như hai điểm c
 2. Mặt phẳng chứa hai điểm cố định có xác định duy nhất không?
 
 ::solution
-Hai bản lề cố định chỉ cho ta một đường thẳng cố định. Có vô số mặt phẳng chứa đường thẳng này, nên cánh cửa có thể quay quanh nó và chiếm các vị trí khác nhau. Khi thêm chốt thứ ba không nằm trên trục, ba điểm cố định không thẳng hàng xác định đúng một mặt phẳng. Cánh cửa phải nằm trong mặt phẳng duy nhất đó nên không quay được.
+Hai bản lề là hai điểm cố định phân biệt nên cố định đúng một đường thẳng (trục quay). Có vô số mặt phẳng chứa đường thẳng này, nên cánh cửa có thể quay quanh trục và chiếm các vị trí khác nhau, mỗi vị trí ứng với một mặt phẳng chứa trục.
+
+Khi thêm chốt khoá là điểm cố định thứ ba không nằm trên trục, ba điểm cố định này không thẳng hàng. Theo tính chất của mặt phẳng, ba điểm không thẳng hàng xác định đúng một mặt phẳng. Cánh cửa là một phần của mặt phẳng chứa cả ba điểm cố định nên chỉ có thể nằm trong mặt phẳng duy nhất đó, và do đó không quay được nữa.
+
+Vậy hai điểm chỉ cố định được một đường thẳng nên cửa còn quay được; ba điểm không thẳng hàng cố định được một mặt phẳng nên cửa không quay được.
 
 **Đáp số.** Hai điểm chỉ cố định được một đường thẳng; ba điểm không thẳng hàng cố định được mặt phẳng.
 :::
@@ -328,13 +356,15 @@ d) Có đúng $3$ mặt phẳng đi qua ba trong bốn điểm đã cho.
 3. d) Đếm các bộ ba.
 
 ::solution
-a) **Đúng**: nếu thẳng hàng thì cùng với $D$ chúng đồng phẳng.
+a) **Đúng.** Nếu $A$, $B$, $C$ thẳng hàng thì ba điểm này cùng với $D$ đồng phẳng (một đường thẳng và một điểm luôn nằm trong một mặt phẳng), trái với giả thiết bốn điểm không đồng phẳng.
 
-b) **Sai**: nếu $AB$ và $CD$ cắt nhau thì chúng nằm trên một mặt phẳng, và bốn điểm đồng phẳng.
+b) **Sai.** Nếu $AB$ và $CD$ cắt nhau thì chúng nằm trong cùng một mặt phẳng, khi đó bốn điểm $A$, $B$, $C$, $D$ đồng phẳng, trái với giả thiết. Vậy $AB$ và $CD$ không thể cắt nhau.
 
-c) **Đúng**: $A$ và $B$ thuộc cả hai mặt phẳng nên giao tuyến là $AB$.
+c) **Đúng.** Hai điểm $A$ và $B$ cùng thuộc $(ABC)$ và $(ABD)$. Hai mặt phẳng này phân biệt (vì $D\notin(ABC)$) nên giao tuyến là đường thẳng $AB$.
 
-d) **Sai**: có $4$ mặt phẳng $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
+d) **Sai.** Bốn điểm không đồng phẳng, không có ba điểm nào thẳng hàng, nên mỗi bộ ba điểm xác định một mặt phẳng. Có $\dbinom{4}{3}=4$ bộ ba nên có $4$ mặt phẳng $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$, chứ không phải $3$ mặt phẳng.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -350,7 +380,20 @@ Số cạnh của hình chóp có đáy là tam giác, tứ giác, ngũ giác, .
 2. Tính $u_{k+1}-u_k$ và tìm $u_k$.
 
 ::solution
-Hình chóp đáy tam giác có $6$ cạnh nên $u_1=6$; đáy $k+2$ cạnh có $2(k+2)=2k+4$ cạnh, tức $u_k=2k+4$. Vì $u_{k+1}-u_k=2$ không đổi nên đây là cấp số cộng với $u_1=6$, $d=2$. Hình chóp đáy $20$ cạnh ứng với $k=18$, và $u_{18}=2\cdot18+4=40$.
+Hình chóp có đáy là đa giác $n$ cạnh có $n$ cạnh đáy và $n$ cạnh bên, tức là $2n$ cạnh.
+
+Đáy là tam giác ($n=3$) ứng với $k=1$, đáy là tứ giác ($n=4$) ứng với $k=2$, và tổng quát đáy có $n=k+2$ cạnh ứng với số hạng thứ $k$. Do đó
+$$u_k=2(k+2)=2k+4.$$
+Khi $k=1$: $u_1=6$, đúng với hình chóp tam giác có $6$ cạnh.
+
+Chứng minh cấp số cộng. Với mọi $k\ge1$,
+$$u_{k+1}-u_k=\left[2(k+1)+4\right]-(2k+4)=2.$$
+Hiệu này không đổi nên $(u_k)$ là cấp số cộng với số hạng đầu $u_1=6$ và công sai $d=2$.
+
+Hình chóp có đáy $20$ cạnh ứng với $k+2=20$, tức là $k=18$. Số cạnh của nó là
+$$u_{18}=2\cdot18+4=40.$$
+
+Vậy $(u_k)$ là cấp số cộng có công sai $2$ và số hạng tổng quát $u_k=2k+4$; hình chóp có đáy $20$ cạnh có $40$ cạnh.
 
 **Đáp số.** Cấp số cộng $u_k=2k+4$ (công sai $2$); hình chóp đáy $20$ cạnh có $40$ cạnh.
 :::
@@ -366,7 +409,13 @@ Cho ba mặt phẳng phân biệt $(P)$, $(Q)$, $(R)$ đôi một cắt nhau the
 2. Kết luận $I\in c$.
 
 ::solution
-Vì $I\in a=(P)\cap(Q)$ nên $I\in(P)$ và $I\in(Q)$. Vì $I\in b=(Q)\cap(R)$ nên $I\in(Q)$ và $I\in(R)$. Do đó $I$ thuộc cả $(P)$ và $(R)$, nên $I$ thuộc giao tuyến $c=(R)\cap(P)$.
+Vì $I$ thuộc đường thẳng $a=(P)\cap(Q)$ nên $I\in(P)$ và $I\in(Q)$.
+
+Vì $I$ thuộc đường thẳng $b=(Q)\cap(R)$ nên $I\in(Q)$ và $I\in(R)$.
+
+Do đó $I$ thuộc cả $(P)$ và $(R)$. Hai mặt phẳng này có giao tuyến là $c=(R)\cap(P)$, và mọi điểm chung của chúng đều nằm trên $c$. Suy ra $I\in c$.
+
+Vậy $I$ nằm trên cả ba đường thẳng $a$, $b$, $c$, tức là ba giao tuyến $a$, $b$, $c$ đồng quy tại $I$.
 
 **Đáp số.** $I\in c$; ba giao tuyến $a$, $b$, $c$ đồng quy tại $I$.
 :::

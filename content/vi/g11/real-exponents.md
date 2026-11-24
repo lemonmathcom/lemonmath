@@ -231,11 +231,16 @@ c) $\left(\dfrac23\right)^{-2}$.
 2. Chú ý dấu ở câu b và nghịch đảo phân số ở câu c.
 
 ::solution
-a) Ta có $2^{-5}=\dfrac{1}{2^5}=\dfrac1{32}$.
+Các cơ số $2$, $-3$, $\dfrac23$ đều khác $0$. Áp dụng định nghĩa luỹ thừa với số mũ nguyên âm: $a^{-n}=\dfrac{1}{a^n}$ ($a\neq0$, $n$ nguyên dương), và hệ quả $\left(\dfrac ab\right)^{-n}=\left(\dfrac ba\right)^n$.
 
-b) Ta có $(-3)^{-3}=\dfrac{1}{(-3)^3}=-\dfrac1{27}$.
+a) Ta có
+$$2^{-5}=\frac{1}{2^5}=\frac{1}{32}.$$
 
-c) Ta có $\left(\dfrac23\right)^{-2}=\left(\dfrac32\right)^2=\dfrac94$.
+b) Ta có $(-3)^{-3}=\dfrac{1}{(-3)^3}$. Vì $(-3)^3=-27$ nên
+$$(-3)^{-3}=\frac{1}{-27}=-\frac{1}{27}.$$
+
+c) Ta có
+$$\left(\frac23\right)^{-2}=\left(\frac32\right)^2=\frac{3^2}{2^2}=\frac94.$$
 
 Vậy a) $\dfrac1{32}$; b) $-\dfrac1{27}$; c) $\dfrac94$.
 
@@ -291,11 +296,16 @@ c) $4^{\sqrt3}\cdot2^{2-2\sqrt3}$.
 2. Cộng, trừ hoặc nhân các số mũ.
 
 ::solution
-a) Ta có $\dfrac{7^{\sqrt5+1}}{7^{\sqrt5-1}}=7^{(\sqrt5+1)-(\sqrt5-1)}=7^2=49$.
+Với $a>0$ và các số thực $\alpha$, $\beta$, ta dùng các tính chất của luỹ thừa với số mũ thực: $\dfrac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta}$, $\left(a^{\alpha}\right)^{\beta}=a^{\alpha\beta}$, $a^{\alpha}\cdot a^{\beta}=a^{\alpha+\beta}$.
 
-b) Ta có $\left(3^{\sqrt2}\right)^{\sqrt2}=3^{\sqrt2\cdot\sqrt2}=3^2=9$.
+a) Theo tính chất của luỹ thừa một thương, ta có
+$$\frac{7^{\sqrt5+1}}{7^{\sqrt5-1}}=7^{(\sqrt5+1)-(\sqrt5-1)}=7^2=49.$$
 
-c) Ta có $4^{\sqrt3}=2^{2\sqrt3}$ nên $4^{\sqrt3}\cdot2^{2-2\sqrt3}=2^{2\sqrt3+2-2\sqrt3}=2^2=4$.
+b) Theo tính chất của luỹ thừa của luỹ thừa, ta có
+$$\left(3^{\sqrt2}\right)^{\sqrt2}=3^{\sqrt2\cdot\sqrt2}=3^2=9.$$
+
+c) Vì $4=2^2$ nên $4^{\sqrt3}=\left(2^2\right)^{\sqrt3}=2^{2\sqrt3}$. Do đó
+$$4^{\sqrt3}\cdot2^{2-2\sqrt3}=2^{2\sqrt3+\left(2-2\sqrt3\right)}=2^2=4.$$
 
 Vậy a) $49$; b) $9$; c) $4$.
 
@@ -319,11 +329,16 @@ c) $\dfrac{1}{a\sqrt{a}}$.
 2. Cộng hoặc trừ các số mũ.
 
 ::solution
-a) Ta có $a^{1/2}\cdot a^{1/3}=a^{\frac12+\frac13}=a^{5/6}$.
+Vì $a>0$ nên ta dùng $\sqrt{a}=a^{1/2}$, $\sqrt[3]{a}=a^{1/3}$ và các tính chất $a^{\alpha}\cdot a^{\beta}=a^{\alpha+\beta}$, $\dfrac{a^{\alpha}}{a^{\beta}}=a^{\alpha-\beta}$, $\dfrac1{a^{\alpha}}=a^{-\alpha}$.
 
-b) Ta có $\dfrac{a^2}{a^{1/3}}=a^{2-\frac13}=a^{5/3}$.
+a) Ta có
+$$\sqrt{a}\cdot\sqrt[3]{a}=a^{1/2}\cdot a^{1/3}=a^{\frac12+\frac13}=a^{\frac36+\frac26}=a^{5/6}.$$
 
-c) Ta có $\dfrac{1}{a\cdot a^{1/2}}=\dfrac{1}{a^{3/2}}=a^{-3/2}$.
+b) Ta có
+$$\frac{a^2}{\sqrt[3]{a}}=\frac{a^2}{a^{1/3}}=a^{2-\frac13}=a^{\frac53}.$$
+
+c) Ta có $a\sqrt a=a\cdot a^{1/2}=a^{1+\frac12}=a^{3/2}$, do đó
+$$\frac{1}{a\sqrt a}=\frac{1}{a^{3/2}}=a^{-3/2}.$$
 
 Vậy a) $a^{5/6}$; b) $a^{5/3}$; c) $a^{-3/2}$.
 
@@ -385,13 +400,18 @@ d) $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^{2}$.
 2. c), d) So sánh $\sqrt3$ với $1{,}7$ và $\sqrt5$ với $2$.
 
 ::solution
-a) **Sai**: theo định nghĩa, $a^{r}$ chỉ xét với $a>0$, nên $(-8)^{1/3}$ không được định nghĩa là luỹ thừa với số mũ hữu tỉ (còn căn bậc ba của $-8$ là $-2$).
+Ta xét từng mệnh đề, dựa vào định nghĩa luỹ thừa với số mũ hữu tỉ ($a>0$) và tính đồng biến, nghịch biến của hàm số mũ $y=a^x$.
 
-b) **Đúng**: $4^{3/2}=\left(2^2\right)^{3/2}=2^3=8$.
+a) **Sai.** Theo định nghĩa, luỹ thừa $a^{r}$ với số mũ hữu tỉ $r=\dfrac mn$ chỉ được xét với cơ số $a>0$. Cơ số $-8<0$ nên $(-8)^{1/3}$ không được định nghĩa là luỹ thừa với số mũ hữu tỉ (còn căn bậc ba của $-8$ là $-2$, viết $\sqrt[3]{-8}=-2$).
 
-c) **Sai**: cơ số $2>1$ và $\sqrt3\approx1{,}732>1{,}7$ nên $2^{\sqrt3}>2^{1{,}7}$.
+b) **Đúng.** Ta có
+$$4^{3/2}=\left(2^2\right)^{3/2}=2^{2\cdot\frac32}=2^3=8.$$
 
-d) **Đúng**: cơ số $\dfrac12<1$ và $\sqrt5\approx2{,}236>2$ nên $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^2$.
+c) **Sai.** Cơ số $2>1$ nên hàm số $y=2^x$ đồng biến. Vì $3>1{,}7^2=2{,}89$ nên $\sqrt3>1{,}7$ (cụ thể $\sqrt3\approx1{,}732$). Do đó $2^{\sqrt3}>2^{1{,}7}$.
+
+d) **Đúng.** Cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\left(\dfrac12\right)^x$ nghịch biến. Vì $5>4$ nên $\sqrt5>2$ (cụ thể $\sqrt5\approx2{,}236$). Do đó $\left(\dfrac12\right)^{\sqrt5}<\left(\dfrac12\right)^2$.
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -407,7 +427,11 @@ Tính giá trị của biểu thức $\left(3^{\sqrt5-1}\right)^{\sqrt5+1}$.
 2. Tính $3$ mũ kết quả.
 
 ::solution
-Ta có $\left(3^{\sqrt5-1}\right)^{\sqrt5+1}=3^{(\sqrt5-1)(\sqrt5+1)}=3^{5-1}=3^4=81$.
+Áp dụng tính chất luỹ thừa của luỹ thừa $\left(a^{\alpha}\right)^{\beta}=a^{\alpha\beta}$ với $a=3>0$, ta có
+$$\left(3^{\sqrt5-1}\right)^{\sqrt5+1}=3^{(\sqrt5-1)(\sqrt5+1)}.$$
+
+Theo hằng đẳng thức hiệu hai bình phương, $(\sqrt5-1)(\sqrt5+1)=(\sqrt5)^2-1^2=5-1=4$. Suy ra
+$$3^{(\sqrt5-1)(\sqrt5+1)}=3^4=81.$$
 
 Vậy giá trị của biểu thức bằng $81$.
 
@@ -425,7 +449,11 @@ Vậy giá trị của biểu thức bằng $81$.
 2. Tính tích $(\sqrt5+2)(\sqrt5-2)$.
 
 ::solution
-Ta có $\left(\sqrt5+2\right)^{2026}\left(\sqrt5-2\right)^{2026}=\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}$. Vì $\left(\sqrt5+2\right)\left(\sqrt5-2\right)=5-4=1$ nên biểu thức bằng $1^{2026}=1$.
+Hai luỹ thừa có cùng số mũ $2026$ nên ta áp dụng tính chất $a^nb^n=(ab)^n$:
+$$\left(\sqrt5+2\right)^{2026}\left(\sqrt5-2\right)^{2026}=\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}.$$
+
+Theo hằng đẳng thức hiệu hai bình phương, $\left(\sqrt5+2\right)\left(\sqrt5-2\right)=(\sqrt5)^2-2^2=5-4=1$. Do đó
+$$\left[\left(\sqrt5+2\right)\left(\sqrt5-2\right)\right]^{2026}=1^{2026}=1.$$
 
 Vậy giá trị của biểu thức bằng $1$.
 

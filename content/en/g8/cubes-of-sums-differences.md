@@ -222,11 +222,16 @@ c) $(2x+1)^3$.
 2. Write the four terms, paying attention to the signs.
 
 ::solution
-a) $(x+1)^3=x^3+3x^2+3x+1$.
+Use the identity for the cube of a sum $(A+B)^3=A^3+3A^2B+3AB^2+B^3$ and the cube of a difference $(A-B)^3=A^3-3A^2B+3AB^2-B^3$.
 
-b) $(x-3)^3=x^3-9x^2+27x-27$.
+a) With $A=x$, $B=1$, we have
+$$(x+1)^3=x^3+3\cdot x^2\cdot1+3\cdot x\cdot1^2+1^3=x^3+3x^2+3x+1.$$
 
-c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+b) With $A=x$, $B=3$, we have
+$$(x-3)^3=x^3-3\cdot x^2\cdot3+3\cdot x\cdot3^2-3^3=x^3-9x^2+27x-27.$$
+
+c) With $A=2x$, $B=1$, we have
+$$(2x+1)^3=(2x)^3+3\cdot(2x)^2\cdot1+3\cdot2x\cdot1^2+1^3=8x^3+12x^2+6x+1.$$
 
 So a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
 
@@ -250,11 +255,16 @@ c) $\left(\dfrac12x+2\right)^3$.
 2. Work out $a^3$, $3a^2b$, $3ab^2$, $b^3$.
 
 ::solution
-a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+Use $(A+B)^3=A^3+3A^2B+3AB^2+B^3$ and $(A-B)^3=A^3-3A^2B+3AB^2-B^3$.
 
-b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+a) With $A=3x$, $B=2y$, we have
+$$\begin{aligned}(3x-2y)^3&=(3x)^3-3\cdot(3x)^2\cdot2y+3\cdot3x\cdot(2y)^2-(2y)^3\\&=27x^3-54x^2y+36xy^2-8y^3.\end{aligned}$$
 
-c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+b) With $A=x^2$, $B=2$, we have
+$$(x^2+2)^3=(x^2)^3+3\cdot(x^2)^2\cdot2+3\cdot x^2\cdot2^2+2^3=x^6+6x^4+12x^2+8.$$
+
+c) With $A=\dfrac12x$, $B=2$, we have
+$$\begin{aligned}\left(\frac12x+2\right)^3&=\left(\frac12x\right)^3+3\cdot\left(\frac12x\right)^2\cdot2+3\cdot\frac12x\cdot2^2+2^3\\&=\frac18x^3+\frac32x^2+6x+8.\end{aligned}$$
 
 So a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
 
@@ -278,11 +288,16 @@ c) $(2x+3y)(4x^2-6xy+9y^2)$.
 2. Write the result as a sum or difference of two cubes.
 
 ::solution
-a) $(x+4)(x^2-4x+16)=x^3+64$.
+Use the identity for the sum of two cubes $(A+B)(A^2-AB+B^2)=A^3+B^3$ and for the difference of two cubes $(A-B)(A^2+AB+B^2)=A^3-B^3$.
 
-b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+a) With $A=x$, $B=4$, we have $A^2-AB+B^2=x^2-4x+16$, so
+$$(x+4)(x^2-4x+16)=x^3+4^3=x^3+64.$$
 
-c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+b) With $A=3x$, $B=1$, we have $A^2+AB+B^2=9x^2+3x+1$, so
+$$(3x-1)(9x^2+3x+1)=(3x)^3-1^3=27x^3-1.$$
+
+c) With $A=2x$, $B=3y$, we have $A^2-AB+B^2=4x^2-6xy+9y^2$, so
+$$(2x+3y)(4x^2-6xy+9y^2)=(2x)^3+(3y)^3=8x^3+27y^3.$$
 
 So a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
 
@@ -306,11 +321,16 @@ c) $31^3$.
 2. Apply the matching identity.
 
 ::solution
-a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+We split each number into a sum or difference of a round number and a small number, then use the identities for cubes.
 
-b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+a) We have $21=20+1$, so
+$$21^3=(20+1)^3=20^3+3\cdot20^2\cdot1+3\cdot20\cdot1^2+1^3=8000+1200+60+1=9261.$$
 
-c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+b) We have $19=20-1$, so
+$$19^3=(20-1)^3=20^3-3\cdot20^2\cdot1+3\cdot20\cdot1^2-1^3=8000-1200+60-1=6859.$$
+
+c) We have $31=30+1$, so
+$$31^3=(30+1)^3=30^3+3\cdot30^2\cdot1+3\cdot30\cdot1^2+1^3=27\,000+2700+90+1=29\,791.$$
 
 So a) $9261$; b) $6859$; c) $29\,791$.
 
@@ -334,11 +354,14 @@ c) $27+x^3$.
 2. Choose the matching identity.
 
 ::solution
-a) With $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+a) We see that $x^3=x^3$, $64=4^3$, $12x^2=3\cdot x^2\cdot4$ and $48x=3\cdot x\cdot4^2$. With $a=x$, $b=4$, the expression has the form $a^3+3a^2b+3ab^2+b^3$, so
+$$x^3+12x^2+48x+64=x^3+3\cdot x^2\cdot4+3\cdot x\cdot4^2+4^3=(x+4)^3.$$
 
-b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+b) We have $8x^3=(2x)^3$ and $125=5^3$. Using the difference of two cubes $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=2x$, $b=5$:
+$$8x^3-125=(2x)^3-5^3=(2x-5)\left(4x^2+10x+25\right).$$
 
-c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+c) We have $27=3^3$. Using the sum of two cubes $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=3$, $b=x$:
+$$27+x^3=3^3+x^3=(3+x)\left(9-3x+x^2\right).$$
 
 So a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
 
@@ -416,11 +439,15 @@ Recall the lesson on cuboids and cubes. A cube has edge $(2x-1)$ cm. Write its v
 2. Substitute $x=2$.
 
 ::solution
-We have $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
+The volume of a cube with edge $a$ is $V=a^3$. With edge $a=2x-1$ (cm), we have
+$$\begin{aligned}V=(2x-1)^3&=(2x)^3-3\cdot(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3\\&=8x^3-12x^2+6x-1\ (\text{cm}^3).\end{aligned}$$
 
-When $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Check: the edge is $3$ cm, and $3^3=27$.)
+Substituting $x=2$ into the polynomial, we get
+$$V=8\cdot2^3-12\cdot2^2+6\cdot2-1=64-48+12-1=27\ (\text{cm}^3).$$
 
-So $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, which equals $27\ \text{cm}^3$ when $x=2$.
+Check: when $x=2$ the edge is $2\cdot2-1=3$ cm, and $3^3=27$.
+
+So the volume is $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, which equals $27\ \text{cm}^3$ when $x=2$.
 
 **Answer.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
 :::
@@ -436,9 +463,18 @@ Given $a+b=1$, prove that $a^3+b^3+3ab=1$.
 2. Substitute $a+b=1$ and simplify.
 
 ::solution
-From $(a+b)^3=a^3+b^3+3ab(a+b)$ we get $a^3+b^3=(a+b)^3-3ab(a+b)$. Since $a+b=1$,
-$$a^3+b^3=1-3ab.$$
-Hence $a^3+b^3+3ab=1-3ab+3ab=1$.
+We need to prove that $a^3+b^3+3ab=1$ when $a+b=1$.
+
+By the identity for the cube of a sum, $(a+b)^3=a^3+b^3+3ab(a+b)$. Hence
+$$a^3+b^3=(a+b)^3-3ab(a+b).$$
+
+Substituting $a+b=1$, we get
+$$a^3+b^3=1^3-3ab\cdot1=1-3ab.$$
+
+Therefore
+$$a^3+b^3+3ab=1-3ab+3ab=1.$$
+
+So if $a+b=1$ then $a^3+b^3+3ab=1$.
 
 **Answer.** The identity is proved.
 :::

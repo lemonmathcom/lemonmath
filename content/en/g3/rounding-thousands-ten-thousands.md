@@ -142,9 +142,13 @@ b) $6\,905$.
 2. Compare it with $5$, then change the digits on the right to $0$.
 
 ::solution
-a) The hundreds digit of $2\,148$ is $1$, less than $5$, so $2\,148\approx2\,000$.
+When rounding to the nearest thousand, we look at the digit just to the right, that is the hundreds digit. If it is less than $5$, we keep the thousands digit; if it is $5$ or more, we increase the thousands digit by $1$. All the places to the right become $0$.
 
-b) The hundreds digit of $6\,905$ is $9$, which is $5$ or more, so $6\,905\approx7\,000$.
+a) The number $2\,148$ has hundreds digit $1$, which is less than $5$, so we keep $2$ thousands. Hence $2\,148\approx2\,000$.
+
+b) The number $6\,905$ has hundreds digit $9$, which is $5$ or more, so we increase $6$ thousands to $7$ thousands. Hence $6\,905\approx7\,000$.
+
+So $2\,148$ rounded to the nearest thousand is $2\,000$ and $6\,905$ rounded to the nearest thousand is $7\,000$.
 
 **Answer.** a) $2\,000$; b) $7\,000$.
 :::
@@ -166,11 +170,15 @@ c) $35\,480$ to the nearest ten thousand.
 2. Follow the method from the examples.
 
 ::solution
-a) The hundreds digit is $3$, less than $5$: $4\,372\approx4\,000$.
+To round to a given place, we look at the digit just to the right of that place: if it is less than $5$ we round down, and if it is $5$ or more we round up.
 
-b) The hundreds digit is $6$, which is $5$ or more: $8\,650\approx9\,000$.
+a) Rounding $4\,372$ to the nearest thousand: the hundreds digit is $3$, less than $5$, so we keep $4$ thousands. Hence $4\,372\approx4\,000$.
 
-c) The thousands digit is $5$, which is $5$ or more, so the $3$ ten thousands go up to $4$ ten thousands: $35\,480\approx40\,000$.
+b) Rounding $8\,650$ to the nearest thousand: the hundreds digit is $6$, which is $5$ or more, so we increase $8$ thousands to $9$ thousands. Hence $8\,650\approx9\,000$.
+
+c) Rounding $35\,480$ to the nearest ten thousand: we look at the thousands digit, which is $5$, so $5$ or more, and the $3$ ten thousands go up to $4$ ten thousands. Hence $35\,480\approx40\,000$.
+
+So $4\,372\approx4\,000$; $8\,650\approx9\,000$; $35\,480\approx40\,000$.
 
 **Answer.** a) $4\,000$; b) $9\,000$; c) $40\,000$.
 :::
@@ -208,7 +216,17 @@ Of the numbers $5\,499$, $5\,500$, $6\,499$, $6\,500$, $6\,501$, which round to 
 2. Choose the numbers that give $6\,000$.
 
 ::solution
-$5\,499\approx5\,000$ (hundreds digit $4$). $5\,500\approx6\,000$ (hundreds digit $5$). $6\,499\approx6\,000$ (hundreds digit $4$). $6\,500\approx7\,000$ (hundreds digit $5$). $6\,501\approx7\,000$ (hundreds digit $5$).
+To round a number to the nearest thousand, we look at the hundreds digit. We round each number:
+
+- $5\,499$: the hundreds digit is $4$, less than $5$, so $5\,499\approx5\,000$.
+- $5\,500$: the hundreds digit is $5$, which is $5$ or more, so $5\,500\approx6\,000$.
+- $6\,499$: the hundreds digit is $4$, less than $5$, so $6\,499\approx6\,000$.
+- $6\,500$: the hundreds digit is $5$, which is $5$ or more, so $6\,500\approx7\,000$.
+- $6\,501$: the hundreds digit is $5$, which is $5$ or more, so $6\,501\approx7\,000$.
+
+Among the given numbers, only $5\,500$ and $6\,499$ round to $6\,000$.
+
+So the numbers that round to $6\,000$ to the nearest thousand are $5\,500$ and $6\,499$.
 
 **Answer.** $5\,500$ and $6\,499$.
 :::
@@ -250,9 +268,14 @@ b) Tu: "Rounding $27\,450$ to the nearest ten thousand: I look at the hundreds d
 2. Tu: to round to the nearest ten thousand, which place do you look at?
 
 ::solution
-a) The hundreds digit is $7$, which is $5$ or more, so you must round up: $3\,700\approx4\,000$.
+a) Ha is wrong. To round $3\,700$ to the nearest thousand we look at the hundreds digit. The hundreds digit is $7$, which is $5$ or more, so we must round up, that is increase $3$ thousands to $4$ thousands, not keep it. The correct work is
+$$3\,700\approx4\,000.$$
 
-b) To round to the nearest ten thousand you look at the thousands digit, which is $7$, so $5$ or more, and $27\,450\approx30\,000$. Tu looked at the wrong place, and $27\,000$ is not a whole ten thousand.
+b) Tu is wrong. To round $27\,450$ to the nearest ten thousand we must look at the thousands digit, not the hundreds digit. The thousands digit is $7$, which is $5$ or more, so we increase $2$ ten thousands to $3$ ten thousands. The correct work is
+$$27\,450\approx30\,000.$$
+Tu's result $27\,000$ is also not a whole number of ten thousands.
+
+So Ha kept the thousands when the number had to be rounded up, and the correct result is $4\,000$; Tu looked at the wrong place, and the correct result is $30\,000$.
 
 **Answer.** a) $4\,000$; b) $30\,000$.
 :::
@@ -279,9 +302,17 @@ b) Using the rounded numbers, which match had the most spectators?
 3. Compare the three rounded numbers.
 
 ::solution
-a) $12\,380\approx12\,000$ (hundreds digit $3$). $15\,720\approx16\,000$ (hundreds digit $7$). $9\,560\approx10\,000$ (hundreds digit $5$).
+a) We round the number of spectators at each match to the nearest thousand by looking at the hundreds digit.
 
-b) Compare $12\,000$, $16\,000$, $10\,000$: the greatest is $16\,000$, for match $2$.
+Match $1$: $12\,380$ has hundreds digit $3$, less than $5$, so $12\,380\approx12\,000$.
+
+Match $2$: $15\,720$ has hundreds digit $7$, which is $5$ or more, so $15\,720\approx16\,000$.
+
+Match $3$: $9\,560$ has hundreds digit $5$, which is $5$ or more, so $9\,560\approx10\,000$.
+
+b) We compare the rounded numbers: $12\,000$, $16\,000$, $10\,000$. Since $10\,000<12\,000<16\,000$, the greatest is $16\,000$, for match $2$.
+
+So the rounded numbers of spectators are $12\,000$, $16\,000$, $10\,000$; match $2$ had the most spectators.
 
 **Answer.** a) $12\,000$; $16\,000$; $10\,000$. b) Match $2$.
 :::
@@ -301,11 +332,15 @@ b) What are the least and the greatest such numbers?
 2. Least number: choose the smallest possible digits. Greatest number: choose the biggest possible digits.
 
 ::solution
-a) The hundreds digit must be $5$ or more, so it is $5$, $6$, $7$, $8$ or $9$.
+The given number has four digits and thousands digit $4$. Rounding to the nearest thousand gives $5\,000$, which means we must round up from $4$ thousands to $5$ thousands.
 
-b) Least number: hundreds digit $5$ and the other places $0$, giving $4\,500$. Greatest number: hundreds digit $9$ and the other places $9$, giving $4\,999$.
+a) To round up, the hundreds digit must be $5$ or more. So the hundreds digit can be $5$, $6$, $7$, $8$ or $9$.
 
-**Check.** $4\,500\approx5\,000$ and $4\,999\approx5\,000$.
+b) Least number: take the smallest hundreds digit $5$ and the other places $0$, giving $4\,500$. Greatest number: take the largest hundreds digit $9$ and the other places $9$, giving $4\,999$.
+
+Check: $4\,500$ has hundreds digit $5$, so $4\,500\approx5\,000$; $4\,999$ has hundreds digit $9$, so $4\,999\approx5\,000$.
+
+So the hundreds digit can be $5$, $6$, $7$, $8$, $9$; the least number is $4\,500$ and the greatest number is $4\,999$.
 
 **Answer.** a) $5$, $6$, $7$, $8$, $9$; b) $4\,500$ and $4\,999$.
 :::

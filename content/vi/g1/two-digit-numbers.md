@@ -123,7 +123,13 @@ Số $34$ gồm $\square$ chục và $\square$ đơn vị.
 2. Tìm chữ số bên phải.
 
 ::solution
-Chữ số hàng chục là $3$, chữ số hàng đơn vị là $4$.
+Số $34$ có chữ số hàng chục là $3$ và chữ số hàng đơn vị là $4$.
+
+Chữ số $3$ ở hàng chục nghĩa là $3$ chục; chữ số $4$ ở hàng đơn vị nghĩa là $4$ đơn vị.
+
+Thử lại: $3$ chục là $30$ và $30+4=34$, đúng.
+
+Vậy số $34$ gồm $3$ chục và $4$ đơn vị.
 
 **Đáp số.** $3$ chục và $4$ đơn vị.
 :::
@@ -139,7 +145,13 @@ Viết số gồm $6$ chục và $2$ đơn vị.
 2. Chữ số hàng đơn vị là mấy?
 
 ::solution
-Viết $6$ rồi đến $2$.
+Số gồm $6$ chục và $2$ đơn vị có chữ số hàng chục là $6$ và chữ số hàng đơn vị là $2$.
+
+Ta viết chữ số hàng chục trước, rồi viết chữ số hàng đơn vị: viết $6$ rồi đến $2$.
+
+Thử lại: $60+2=62$, đúng.
+
+Vậy số gồm $6$ chục và $2$ đơn vị là $62$.
 
 **Đáp số.** $62$.
 :::
@@ -155,7 +167,13 @@ Em hãy nhớ lại bài trước: hàng có $6$ bạn, Nam đứng thứ tư t�
 2. Đếm các bạn sau Nam.
 
 ::solution
-Sau bạn thứ tư là bạn thứ năm và bạn thứ sáu, có $2$ bạn.
+Hàng có $6$ bạn và Nam đứng thứ tư từ đầu hàng.
+
+Sau bạn thứ tư là bạn thứ năm và bạn thứ sáu, tức là có $2$ bạn.
+
+Thử lại: $6-4=2$ (bạn), đúng.
+
+Vậy có $2$ bạn đứng sau Nam.
 
 **Đáp số.** $2$ bạn.
 :::
@@ -172,7 +190,11 @@ b) Viết số gồm $9$ chục và $1$ đơn vị.
 2. Viết $9$ rồi $1$.
 
 ::solution
-a) $70$ có chữ số hàng chục là $7$ và hàng đơn vị là $0$. b) Viết $9$ rồi $1$.
+a) Số $70$ có chữ số hàng chục là $7$ và chữ số hàng đơn vị là $0$.
+Vậy số $70$ gồm $7$ chục và $0$ đơn vị.
+
+b) Số gồm $9$ chục và $1$ đơn vị có chữ số hàng chục là $9$ và chữ số hàng đơn vị là $1$, nên ta viết $9$ rồi đến $1$.
+Vậy số cần viết là $91$.
 
 **Đáp số.** a) $7$ chục và $0$ đơn vị. b) $91$.
 :::
@@ -188,7 +210,15 @@ Nam nói: "$32$ và $23$ là cùng một số vì cùng có chữ số $2$ và $
 2. $23$ gồm mấy chục, mấy đơn vị?
 
 ::solution
-$32$ gồm $3$ chục $2$ đơn vị. $23$ gồm $2$ chục $3$ đơn vị. Hai số khác nhau.
+Ta xem mỗi số gồm mấy chục và mấy đơn vị.
+
+Số $32$ có chữ số hàng chục là $3$ và chữ số hàng đơn vị là $2$, nên $32$ gồm $3$ chục và $2$ đơn vị.
+
+Số $23$ có chữ số hàng chục là $2$ và chữ số hàng đơn vị là $3$, nên $23$ gồm $2$ chục và $3$ đơn vị.
+
+Hai số có cùng các chữ số $2$ và $3$, nhưng mỗi chữ số đứng ở hàng khác nhau nên giá trị khác nhau: $32=30+2$ còn $23=20+3$.
+
+Vậy Nam nói sai: $32$ và $23$ là hai số khác nhau.
 
 **Đáp số.** Sai. $32$ và $23$ là hai số khác nhau.
 :::
@@ -204,7 +234,15 @@ Mai nói: "$5$ chục viết là $5$." Mai sai ở đâu? Viết lại cho đún
 2. Viết hai chữ số.
 
 ::solution
-Hàng chục là $5$, hàng đơn vị là $0$. Mai quên chữ số $0$.
+$5$ chục nghĩa là chữ số hàng chục là $5$ và hàng đơn vị có $0$ đơn vị.
+
+Số có hai chữ số phải viết đủ cả chữ số hàng chục và chữ số hàng đơn vị: chữ số $5$ ở hàng chục và chữ số $0$ ở hàng đơn vị.
+
+Mai chỉ viết $5$ nên đã quên chữ số $0$ ở hàng đơn vị. Số $5$ chỉ có $5$ đơn vị, không phải $5$ chục.
+
+Viết lại cho đúng: $5$ chục là $50$. Thử lại: số $50$ có chữ số hàng chục là $5$ và chữ số hàng đơn vị là $0$, đúng.
+
+Vậy Mai sai ở chỗ quên chữ số $0$; $5$ chục viết là $50$.
 
 **Đáp số.** $5$ chục viết là $50$.
 :::
@@ -222,7 +260,14 @@ Có $4$ bó que tính, mỗi bó $10$ que, và $5$ que lẻ. Hỏi có tất c�
 2. Viết số chục rồi số đơn vị.
 
 ::solution
-$4$ bó là $4$ chục, $5$ que lẻ là $5$ đơn vị, nên có $45$ que.
+Mỗi bó có $10$ que tính, tức là $1$ chục que. Có $4$ bó nên có $4$ chục que, tức là $40$ que.
+
+Ngoài ra còn $5$ que lẻ, tức là $5$ đơn vị.
+
+Số que tính có tất cả là:
+$$40+5=45\ \text{(que)}.$$
+
+Vậy có tất cả $45$ que tính.
 
 **Đáp số.** $45$ que tính.
 :::
@@ -238,9 +283,15 @@ Số có hai chữ số, chữ số hàng chục là $4$ và chữ số hàng đ
 2. Thử $0$ và $1$ ở hàng đơn vị.
 
 ::solution
-Chữ số hàng đơn vị là $0$ hoặc $1$, nên có hai số là $40$ và $41$.
+Số có hai chữ số và chữ số hàng chục là $4$ nên số đó có dạng $4\square$, trong đó $\square$ là chữ số hàng đơn vị.
 
-**Kiểm tra.** Cả hai số đều có $4$ chục và số đơn vị bé hơn $2$. Đúng.
+Chữ số hàng đơn vị bé hơn $2$ nên chữ số đó là $0$ hoặc $1$.
+
+Với chữ số hàng đơn vị là $0$ ta được số $40$; với chữ số hàng đơn vị là $1$ ta được số $41$.
+
+Kiểm tra: cả hai số $40$ và $41$ đều có $4$ chục và có số đơn vị bé hơn $2$, đúng.
+
+Vậy đó là các số $40$ và $41$.
 
 **Đáp số.** $40$ và $41$.
 :::

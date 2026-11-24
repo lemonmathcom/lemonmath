@@ -261,11 +261,19 @@ An exponential function $f(x)=ab^x$ satisfies $f(2)=12$ and $f(5)=96$. Find $f(0
 **What you need:** divide $f(5)$ by $f(2)$ to find $b^3$.
 
 ::solution
-Divide the two values to eliminate $a$: $\dfrac{ab^5}{ab^2}=b^3=\dfrac{96}{12}=8$, so $b=2$.
+The exponential function $f(x)=ab^x$ has $a\neq0$, $b>0$ and $b\neq1$. From $f(2)=12$ and $f(5)=96$, we have the system
+$$\begin{cases}ab^2=12 & (1)\\ab^5=96 & (2).\end{cases}$$
 
-Then $a\cdot2^2=12$, so $a=3$, and $f(x)=3\cdot2^x$.
+Dividing (2) by (1) side by side to eliminate $a$:
+$$\frac{ab^5}{ab^2}=b^3=\frac{96}{12}=8.$$
 
-So $f(0)=a=3$.
+Hence $b=2$ (which satisfies $b>0$, $b\neq1$).
+
+Substituting $b=2$ into (1), we get $a\cdot2^2=12$, that is $4a=12$, so $a=3$. Therefore $f(x)=3\cdot2^x$.
+
+Then $f(0)=3\cdot2^0=3\cdot1=3$, that is $f(0)=a$.
+
+So $f(0)=3$.
 
 **Answer.** $3$.
 :::

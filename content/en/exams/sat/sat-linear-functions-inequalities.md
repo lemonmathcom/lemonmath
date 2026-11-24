@@ -172,7 +172,17 @@ Line $\ell$ passes through the points $(2, 1)$ and $(6, 13)$. What is the $y$-in
 2. Substitute the point $(2, 1)$ to find $b$.
 
 ::solution
-$m=\dfrac{12}{4}=3$. Then $1=3\cdot2+b$, so $b=-5$. The $y$-intercept is $-5$.
+Line $\ell$ passes through $(2, 1)$ and $(6, 13)$, so its slope is
+$$m=\frac{13-1}{6-2}=\frac{12}{4}=3.$$
+
+The equation of $\ell$ has the form $y=3x+b$. Since $\ell$ passes through $(2, 1)$,
+$$1=3\cdot2+b\iff b=-5.$$
+
+Check with the point $(6, 13)$: $3\cdot6-5=13$.
+
+So the $y$-intercept of line $\ell$ is $-5$.
+
+**Answer.** $-5$.
 :::
 
 :::exercise Multiple choice
@@ -190,7 +200,18 @@ D. The number of hours the boat is rented
 2. Describe it as "per hour".
 
 ::solution
-$15$ multiplies $n$, so the cost increases by $15$ dollars for each additional hour: answer **B**. Option A would be $C(1)=65$; option C describes $50$.
+The function $C(n)=50+15n$ is linear of the form $C(n)=an+b$ with $a=15$ and $b=50$.
+
+When $n$ increases by $1$ hour, the cost changes by
+$$C(n+1)-C(n)=\left[50+15(n+1)\right]-\left[50+15n\right]=15\ \text{(dollars)}.$$
+
+Hence the number $15$ is the increase in cost for each additional hour, that is, the slope of the function.
+
+So the answer is **B**.
+
+*Remark.* Option A is false because the cost of renting for one hour is $C(1)=65$ dollars. Option C describes the number $50$ (the fixed fee, corresponding to $C(0)=50$).
+
+**Answer.** B.
 :::
 
 :::exercise Student-produced response
@@ -204,7 +225,16 @@ Line $p$ is parallel to the line $y=-3x+2$ and passes through the point $(1, 4)$
 2. Substitute $(1, 4)$.
 
 ::solution
-$4=-3\cdot1+b$, so $b=7$.
+Line $p$ has equation $y=-3x+b$ and passes through the point $(1, 4)$, so the coordinates of this point satisfy the equation:
+$$4=-3\cdot1+b.$$
+
+Hence $b=4+3=7$.
+
+Check: the line $y=-3x+7$ has the same slope $-3$ as $y=-3x+2$, so it is parallel to it, and at $x=1$ we have $y=-3+7=4$.
+
+So $b=7$.
+
+**Answer.** $7$.
 :::
 
 :::exercise Student-produced response
@@ -218,7 +248,18 @@ The function $g$ is linear, with $g(1)=4$ and $g(4)=13$. What is the value of $g
 2. Go from $x=4$ to $x=7$.
 
 ::solution
-The slope is $\dfrac{13-4}{4-1}=3$. From $x=4$ to $x=7$ is $3$ more units, so $g(7)=13+3\cdot3=22$.
+Since $g$ is linear, $g(x)=mx+n$ with slope
+$$m=\frac{g(4)-g(1)}{4-1}=\frac{13-4}{3}=3.$$
+
+From $g(1)=4$ we get $3\cdot1+n=4$, so $n=1$. Thus $g(x)=3x+1$.
+
+Therefore $g(7)=3\cdot7+1=22$.
+
+Check in another way: going from $x=4$ to $x=7$ is $3$ more units, so $g(7)=g(4)+3\cdot3=13+9=22$.
+
+So $g(7)=22$.
+
+**Answer.** $22$.
 :::
 
 :::exercise Multiple choice
@@ -236,7 +277,19 @@ D. $x>3$
 2. Divide by $-2$.
 
 ::solution
-$-2x>6$, so $x<-3$. The answer is **C**. Option A forgets to reverse the sign. Check with $x=-4$: $5+8=13>11$.
+We solve the inequality $5-2x>11$. Subtracting $5$ from both sides:
+$$-2x>6.$$
+
+Dividing both sides by $-2<0$ reverses the inequality:
+$$x<-3.$$
+
+Check with $x=-4$: $5-2\cdot(-4)=5+8=13>11$, which holds.
+
+So all the solutions are $x<-3$, and the answer is **C**.
+
+*Remark.* Option A forgets to reverse the inequality when dividing by a negative number.
+
+**Answer.** C.
 :::
 
 ## Application exercises
@@ -252,7 +305,19 @@ A tank holds 500 liters of water and is drained at a constant rate of 20 liters 
 2. Solve $V(t)=140$.
 
 ::solution
-$V(t)=500-20t$. Then $500-20t=140\iff 20t=360\iff t=18$. After 18 minutes, 140 liters are left.
+Let $V(t)$ (liters) be the volume of water in the tank after $t$ minutes ($t\ge0$). The tank starts with $500$ liters and loses $20$ liters each minute, so
+$$V(t)=500-20t.$$
+
+(The tank is empty when $500-20t=0$, that is $t=25$; so $0\le t\le25$.)
+
+There are $140$ liters left when
+$$500-20t=140\iff20t=360\iff t=18.$$
+
+The value $t=18$ lies in $[0, 25]$, so it is acceptable. Check: $500-20\cdot18=140$.
+
+So $V(t)=500-20t$, and after $18$ minutes there are $140$ liters left in the tank.
+
+**Answer.** $V(t)=500-20t$; $18$ minutes.
 :::
 
 :::exercise Intercepts and area
@@ -266,7 +331,20 @@ In the $xy$-plane, the line $3x-4y=24$ crosses the $x$-axis at point $A$ and the
 2. The triangle is right-angled at $O$: area $=\dfrac12\cdot OA\cdot OB$.
 
 ::solution
-With $y=0$: $x=8$, so $A(8, 0)$. With $x=0$: $y=-6$, so $B(0, -6)$. The legs have lengths $8$ and $6$, so the area is $\dfrac12\cdot8\cdot6=24$.
+Point $A$ is where the line $3x-4y=24$ crosses the $x$-axis, so $y=0$:
+$$3x=24\iff x=8,\ \text{so}\ A(8, 0).$$
+
+Point $B$ is where it crosses the $y$-axis, so $x=0$:
+$$-4y=24\iff y=-6,\ \text{so}\ B(0, -6).$$
+
+Since $A$ lies on the $x$-axis and $B$ lies on the $y$-axis, triangle $OAB$ has a right angle at $O$, with legs $OA=8$ and $OB=|-6|=6$.
+
+The area of triangle $OAB$ is
+$$S=\frac12\cdot OA\cdot OB=\frac12\cdot8\cdot6=24.$$
+
+So the area of triangle $OAB$ is $24$ (square units).
+
+**Answer.** $24$.
 :::
 
 :::exercise Saving money
@@ -280,7 +358,18 @@ Hoa has 120 dollars and saves 15 dollars each week. She wants to have at least 3
 2. Solve for $w$.
 
 ::solution
-$15w\ge180\iff w\ge12$. The least number of weeks is $12$. After 12 weeks she has exactly $120+180=300$ dollars, which satisfies "at least 300".
+Let $w$ be the number of weeks Hoa saves ($w$ a positive whole number). After $w$ weeks, Hoa has $120+15w$ (dollars).
+
+She wants to have at least $300$ dollars, so
+$$120+15w\ge300\iff15w\ge180\iff w\ge12.$$
+
+Since $w$ is a whole number, the least value of $w$ is $12$.
+
+Check: after $12$ weeks she has exactly $120+15\cdot12=300$ dollars, which satisfies "at least $300$ dollars"; after $11$ weeks she has only $120+165=285<300$ dollars.
+
+So Hoa must save for at least $12$ weeks.
+
+**Answer.** $12$ weeks.
 :::
 
 :::exercise Multiple choice
@@ -300,7 +389,21 @@ D. $(3, 1)$
 2. Substitute the remaining points into the second.
 
 ::solution
-$(2, 3)$: $3>3$ is false. $(0, 6)$: $6\le5$ is false. $(3, 1)$: $1>5$ is false. $(1, 3)$: $3>1$ and $3\le4$ are both true. The answer is **C**. Note that $>$ is strict, which rules out $(2, 3)$.
+A point is a solution of the system when its coordinates satisfy both inequalities $y>2x-1$ and $y\le-x+5$. We test each option.
+
+Option A, $(2, 3)$: $3>2\cdot2-1=3$ is false (the inequality is strict), so it is rejected.
+
+Option B, $(0, 6)$: $6\le-0+5=5$ is false, so it is rejected.
+
+Option D, $(3, 1)$: $1>2\cdot3-1=5$ is false, so it is rejected.
+
+Option C, $(1, 3)$: $3>2\cdot1-1=1$ is true and $3\le-1+5=4$ is true, so $(1, 3)$ satisfies both inequalities.
+
+So the answer is **C**.
+
+*Remark.* The sign $>$ is strict, so the point $(2, 3)$, which lies on the line $y=2x-1$, is ruled out.
+
+**Answer.** C.
 :::
 
 :::exercise Challenge
@@ -315,7 +418,24 @@ Line $k$ passes through $(0, 2)$ and $(3, 8)$. Line $m$ is perpendicular to line
 3. Set the two expressions for $y$ equal.
 
 ::solution
-Line $k$: $m_k=\dfrac{8-2}{3-0}=2$, so $y=2x+2$. Line $m$: $y=-\dfrac12x+b$ with $4=-3+b$, so $b=7$ and $y=-\dfrac12x+7$. Intersection: $2x+2=-\dfrac12x+7\iff\dfrac52x=5\iff x=2$, then $y=6$. So $x+y=8$.
+Line $k$ passes through $(0, 2)$ and $(3, 8)$, so its slope is
+$$m_k=\frac{8-2}{3-0}=2.$$
+
+Line $k$ crosses the $y$-axis at $(0, 2)$, so $k:\ y=2x+2$.
+
+Line $m$ is perpendicular to $k$, so the slope of $m$ is $-\dfrac1{m_k}=-\dfrac12$, and $m:\ y=-\dfrac12x+b$. Since $m$ passes through $(6, 4)$,
+$$4=-\frac12\cdot6+b\iff4=-3+b\iff b=7.$$
+
+So $m:\ y=-\dfrac12x+7$.
+
+The $x$-coordinate of the intersection of $k$ and $m$ satisfies
+$$2x+2=-\frac12x+7\iff\frac52x=5\iff x=2.$$
+
+Substituting $x=2$ into $y=2x+2$ gives $y=6$. Check with $m$: $-\dfrac12\cdot2+7=6$. The intersection is $(2, 6)$.
+
+So $x+y=2+6=8$.
+
+**Answer.** $8$.
 :::
 
 :::quiz

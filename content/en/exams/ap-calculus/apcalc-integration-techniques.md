@@ -117,7 +117,16 @@ D. $\dfrac{e^{3x+1}}{3x+1}+C$
 **What you need:** $u=3x$, $du=3\,dx$.
 
 ::solution
-$\dfrac13\displaystyle\int e^u\,du=\dfrac{e^{3x}}{3}+C$: answer **C**. Option D treats $e^{3x}$ like a power of $x$.
+Let $u=3x$, so $du=3\,dx$, that is $dx=\dfrac{du}{3}$. Then
+$$\int e^{3x}\,dx=\frac13\int e^u\,du=\frac13e^u+C=\frac{e^{3x}}{3}+C.$$
+
+Check: $\left(\dfrac{e^{3x}}{3}\right)'=\dfrac{3e^{3x}}{3}=e^{3x}$.
+
+So the answer is **C**.
+
+*Remark.* Option D treats $e^{3x}$ like a power of $x$.
+
+**Answer.** C.
 :::
 
 :::exercise Free response
@@ -130,7 +139,14 @@ Find $\displaystyle\int\frac{\ln x}{x}\,dx$.
 1. Let $u=\ln x$, $du=\dfrac1x\,dx$.
 
 ::solution
-$\displaystyle\int u\,du=\dfrac{u^2}{2}+C=\dfrac{(\ln x)^2}{2}+C$.
+Condition: $x>0$.
+
+Let $u=\ln x$, so $du=\dfrac{dx}{x}$. Then
+$$\int\frac{\ln x}{x}\,dx=\int u\,du=\frac{u^2}{2}+C=\frac{(\ln x)^2}{2}+C.$$
+
+So $\displaystyle\int\frac{\ln x}{x}\,dx=\dfrac{(\ln x)^2}{2}+C$.
+
+**Answer.** $\dfrac{(\ln x)^2}{2}+C$.
 :::
 
 :::exercise Free response
@@ -140,7 +156,16 @@ Evaluate $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx$.
 **What you need:** $u=\sin x$; the limits become $0$ and $1$.
 
 ::solution
-$\displaystyle\int_0^1e^u\,du=e-1$.
+Let $u=\sin x$, so $du=\cos x\,dx$.
+
+Change the limits: when $x=0$, $u=\sin0=0$; when $x=\dfrac{\pi}{2}$, $u=\sin\dfrac{\pi}{2}=1$.
+
+Therefore
+$$\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx=\int_0^1e^u\,du=\Big[e^u\Big]_0^1=e^1-e^0=e-1.$$
+
+So $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx=e-1$.
+
+**Answer.** $e-1$.
 :::
 
 :::exercise Multiple choice
@@ -154,7 +179,16 @@ D. $\dfrac{\ln3}{2}$
 **What you need:** $u=x^2+1$, $x\,dx=\dfrac12du$, limits $1$ and $5$.
 
 ::solution
-$\dfrac12\Big[\ln u\Big]_1^5=\dfrac{\ln5}{2}$: answer **A**.
+Let $u=x^2+1$, so $du=2x\,dx$, that is $x\,dx=\dfrac{du}{2}$.
+
+Change the limits: when $x=0$, $u=1$; when $x=2$, $u=5$.
+
+Therefore
+$$\int_0^2\frac{x}{x^2+1}\,dx=\frac12\int_1^5\frac{du}{u}=\frac12\Big[\ln u\Big]_1^5=\frac12(\ln5-\ln1)=\frac{\ln5}{2}.$$
+
+So the answer is **A**.
+
+**Answer.** A.
 :::
 
 :::exercise BC: free response
@@ -168,7 +202,18 @@ Find $\displaystyle\int x\cos x\,dx$.
 2. $x\sin x-\displaystyle\int\sin x\,dx$.
 
 ::solution
-$x\sin x+\cos x+C$. Check: the derivative is $\sin x+x\cos x-\sin x=x\cos x$.
+Use integration by parts $\displaystyle\int u\,dv=uv-\int v\,du$. Let
+$$u=x,\qquad dv=\cos x\,dx,$$
+so $du=dx$ and $v=\sin x$.
+
+Then
+$$\int x\cos x\,dx=x\sin x-\int\sin x\,dx=x\sin x+\cos x+C.$$
+
+Check: the derivative of $x\sin x+\cos x$ is $\sin x+x\cos x-\sin x=x\cos x$.
+
+So $\displaystyle\int x\cos x\,dx=x\sin x+\cos x+C$.
+
+**Answer.** $x\sin x+\cos x+C$.
 :::
 
 ## Application exercises
@@ -183,7 +228,21 @@ Water flows into a tank at a rate of $r(t)=\dfrac{20t}{t^2+1}$ liters per minute
 1. $20t\,dt=10\,du$; limits $1$ and $10$.
 
 ::solution
-$10\displaystyle\int_1^{10}\frac{du}{u}=10\ln10\approx23.026$ liters.
+The amount of water entering the tank from $t=0$ to $t=3$ minutes is
+$$V=\int_0^3r(t)\,dt=\int_0^3\frac{20t}{t^2+1}\,dt\quad(\text{liters}).$$
+
+Let $u=t^2+1$, so $du=2t\,dt$, that is $20t\,dt=10\,du$.
+
+Change the limits: when $t=0$, $u=1$; when $t=3$, $u=10$.
+
+Therefore
+$$V=10\int_1^{10}\frac{du}{u}=10\Big[\ln u\Big]_1^{10}=10(\ln10-\ln1)=10\ln10.$$
+
+With a calculator, $V\approx23.026$.
+
+So from $t=0$ to $t=3$ minutes, $10\ln10\approx23.026$ liters of water enter the tank.
+
+**Answer.** $10\ln10\approx23.026$ liters.
 :::
 
 :::exercise Completing the square
@@ -193,7 +252,15 @@ Find $\displaystyle\int\frac{dx}{x^2-4x+13}$.
 **What you need:** $x^2-4x+13=(x-2)^2+9$.
 
 ::solution
-With $u=x-2$ and $a=3$: $\dfrac13\arctan\dfrac{x-2}{3}+C$.
+Rewrite the denominator by completing the square:
+$$x^2-4x+13=(x-2)^2+9=(x-2)^2+3^2>0.$$
+
+Let $u=x-2$, so $du=dx$; and $a=3$. Using the formula $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$, we have
+$$\int\frac{dx}{x^2-4x+13}=\int\frac{du}{u^2+3^2}=\frac13\arctan\frac{u}{3}+C=\frac13\arctan\frac{x-2}{3}+C.$$
+
+So $\displaystyle\int\frac{dx}{x^2-4x+13}=\dfrac13\arctan\dfrac{x-2}{3}+C$.
+
+**Answer.** $\dfrac13\arctan\dfrac{x-2}{3}+C$.
 :::
 
 :::exercise BC: parts and an improper integral
@@ -207,7 +274,21 @@ Evaluate $\displaystyle\int_0^{\infty}xe^{-x}\,dx$.
 2. Evaluate from $0$ to $b$ and let $b\to\infty$.
 
 ::solution
-$\displaystyle\lim_{b\to\infty}\left[-xe^{-x}-e^{-x}\right]_0^b=\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1$. The integral converges to $1$.
+This is an improper integral of type $1$, so by definition
+$$\int_0^{\infty}xe^{-x}\,dx=\lim_{b\to\infty}\int_0^bxe^{-x}\,dx.$$
+
+Find the antiderivative by integration by parts: let $u=x$ and $dv=e^{-x}\,dx$, so $du=dx$ and $v=-e^{-x}$. Then
+$$\int xe^{-x}\,dx=-xe^{-x}+\int e^{-x}\,dx=-xe^{-x}-e^{-x}+C.$$
+
+Therefore
+$$\int_0^bxe^{-x}\,dx=\Big[-xe^{-x}-e^{-x}\Big]_0^b=\left(-\frac{b}{e^b}-\frac{1}{e^b}\right)-(0-1)=-\frac{b}{e^b}-\frac{1}{e^b}+1.$$
+
+As $b\to\infty$, the exponential $e^b$ grows faster than $b$, so $\dfrac{b}{e^b}\to0$, and $\dfrac{1}{e^b}\to0$. It follows that
+$$\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1.$$
+
+So the integral converges and $\displaystyle\int_0^{\infty}xe^{-x}\,dx=1$.
+
+**Answer.** $1$.
 :::
 
 :::exercise Challenge
@@ -221,7 +302,15 @@ Given $\displaystyle\int_0^4f(x)\,dx=10$, find $\displaystyle\int_0^2f(2x)\,dx$ 
 2. $u=2x-2$: limits $0$ to $4$ again.
 
 ::solution
-Both integrals equal $\dfrac12\displaystyle\int_0^4f(u)\,du=\dfrac12\cdot10=5$.
+First integral: let $u=2x$, so $du=2\,dx$, that is $dx=\dfrac{du}{2}$. When $x=0$, $u=0$; when $x=2$, $u=4$. Therefore
+$$\int_0^2f(2x)\,dx=\frac12\int_0^4f(u)\,du=\frac12\cdot10=5.$$
+
+Second integral: let $u=2x-2$, so $du=2\,dx$, that is $dx=\dfrac{du}{2}$. When $x=1$, $u=0$; when $x=3$, $u=4$. Therefore
+$$\int_1^3f(2x-2)\,dx=\frac12\int_0^4f(u)\,du=\frac12\cdot10=5.$$
+
+So both integrals equal $5$.
+
+**Answer.** $5$ and $5$.
 :::
 
 :::quiz

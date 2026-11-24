@@ -190,8 +190,19 @@ The masses (g) of $40$ apples are given in the table. Find $R$, $Q_1$, $Q_3$ and
 3. Substitute into the formula.
 
 ::solution
-Cumulative frequencies: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
-$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182.5.$$
+The sample size is $n=4+10+14+8+4=40$. The cumulative frequencies of the classes are $4$, $14$, $28$, $36$, $40$.
+
+The range is the right endpoint of the last class minus the left endpoint of the first class: $R=200-150=50$.
+
+For $\dfrac n4=10$: the first class whose cumulative frequency is at least $10$ is $[160, 170)$ (since $4<10\le14$). By the formula for the first quartile,
+$$Q_1=160+\frac{10-4}{10}\cdot10=166.$$
+
+For $\dfrac{3n}{4}=30$: the first class whose cumulative frequency is at least $30$ is $[180, 190)$ (since $28<30\le36$). Hence
+$$Q_3=180+\frac{30-28}{8}\cdot10=182.5.$$
+
+The interquartile range is $\Delta_Q=Q_3-Q_1=182.5-166=16.5$.
+
+So $R=50$ g, $Q_1=166$, $Q_3=182.5$ and $\Delta_Q=16.5$ g.
 
 **Answer.** $R=50$ g, $Q_1=166$, $Q_3=182.5$, $\Delta_Q=16.5$ g.
 :::
@@ -211,7 +222,17 @@ The daily reading times (minutes) of $50$ students are given in the table. Find 
 2. Choose the class for each position and substitute into the formula.
 
 ::solution
-$$Q_1=20+\frac{12.5-5}{9}\cdot20=20+\frac{50}{3}\approx36.67,\qquad Q_3=60+\frac{37.5-30}{12}\cdot20=72.5.$$
+The sample size is $n=5+9+16+12+8=50$. The cumulative frequencies are $5$, $14$, $30$, $42$, $50$.
+
+For $\dfrac n4=12.5$: the first class whose cumulative frequency is at least $12.5$ is $[20, 40)$ (since $5<12.5\le14$). Hence
+$$Q_1=20+\frac{12.5-5}{9}\cdot20=20+\frac{50}{3}=\frac{110}{3}\approx36.67.$$
+
+For $\dfrac{3n}{4}=37.5$: the first class whose cumulative frequency is at least $37.5$ is $[60, 80)$ (since $30<37.5\le42$). Hence
+$$Q_3=60+\frac{37.5-30}{12}\cdot20=72.5.$$
+
+The interquartile range is $\Delta_Q=72.5-\dfrac{110}{3}\approx35.83$.
+
+So $Q_1\approx36.67$ minutes, $Q_3=72.5$ minutes and $\Delta_Q\approx35.83$ minutes.
 
 **Answer.** $Q_1\approx36.67$; $Q_3=72.5$; $\Delta_Q\approx35.83$ minutes.
 :::
@@ -234,11 +255,17 @@ Find the interquartile range of each model. If a customer wants a steady battery
 2. Find $Q_1$, $Q_3$ and $\Delta_Q$ for each model and compare.
 
 ::solution
-Model X (cumulative $3$, $13$, $37$, $47$, $50$):
-$$Q_1=10+\frac{12.5-3}{10}\cdot2=11.9,\qquad Q_3=14+\frac{37.5-37}{10}\cdot2=14.1,\qquad \Delta_Q=2.2.$$
-Model Y (cumulative $8$, $20$, $30$, $42$, $50$):
-$$Q_1=10+\frac{12.5-8}{12}\cdot2=10.75,\qquad Q_3=14+\frac{37.5-30}{12}\cdot2=15.25,\qquad \Delta_Q=4.5.$$
-Both models have the same $R=10$ hours, but the $\Delta_Q$ of X is much smaller.
+Each model has $n=50$ phones, so $\dfrac n4=12.5$ and $\dfrac{3n}{4}=37.5$.
+
+Model X: the cumulative frequencies are $3$, $13$, $37$, $47$, $50$. Since $3<12.5\le13$, $Q_1$ lies in the class $[10, 12)$; since $37<37.5\le47$, $Q_3$ lies in the class $[14, 16)$. Hence
+$$Q_1=10+\frac{12.5-3}{10}\cdot2=11.9,\qquad Q_3=14+\frac{37.5-37}{10}\cdot2=14.1,\qquad \Delta_Q=14.1-11.9=2.2.$$
+
+Model Y: the cumulative frequencies are $8$, $20$, $30$, $42$, $50$. Since $8<12.5\le20$, $Q_1$ lies in the class $[10, 12)$; since $30<37.5\le42$, $Q_3$ lies in the class $[14, 16)$. Hence
+$$Q_1=10+\frac{12.5-8}{12}\cdot2=10.75,\qquad Q_3=14+\frac{37.5-30}{12}\cdot2=15.25,\qquad \Delta_Q=15.25-10.75=4.5.$$
+
+Both models have the same range $R=18-8=10$ hours, so $R$ cannot tell them apart. The smaller the interquartile range, the more concentrated the middle half of the data, that is, the steadier the battery life. Since $2.2<4.5$, the $\Delta_Q$ of X is much smaller.
+
+So $\Delta_Q=2.2$ hours (model X) and $\Delta_Q=4.5$ hours (model Y); a customer who wants a steady battery life should choose model X.
 
 **Answer.** $\Delta_Q=2.2$ hours (X) and $4.5$ hours (Y); choose model X.
 :::
@@ -268,13 +295,21 @@ d) The interquartile range is greater than $4$.
 2. Find $Q_1$, $Q_3$ and $\Delta_Q$.
 
 ::solution
-a) **True.** $R=10-0=10$.
+The sample size is $n=3+7+10+6+4=30$. The cumulative frequencies are $3$, $10$, $20$, $26$, $30$.
 
-b) **True.** $3<7.5\le10$, and $Q_1=2+\dfrac{7.5-3}{7}\cdot2=\dfrac{23}{7}\approx3.29$.
+a) **True.** The range is the right endpoint of the last class minus the left endpoint of the first class: $R=10-0=10$.
 
-c) **True.** $20<22.5\le26$, so $Q_3=6+\dfrac{22.5-20}{6}\cdot2=\dfrac{41}{6}\approx6.83$.
+b) **True.** We have $\dfrac n4=7.5$ and $3<7.5\le10$, so $Q_1$ lies in the class $[2, 4)$. Precisely,
+$$Q_1=2+\frac{7.5-3}{7}\cdot2=\frac{23}{7}\approx3.29.$$
 
-d) **False.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3.55<4$.
+c) **True.** We have $\dfrac{3n}{4}=22.5$ and $20<22.5\le26$, so $Q_3$ lies in the class $[6, 8)$. Hence
+$$Q_3=6+\frac{22.5-20}{6}\cdot2=\frac{41}{6}\approx6.83.$$
+
+d) **False.** The interquartile range is
+$$\Delta_Q=Q_3-Q_1=\frac{41}{6}-\frac{23}{7}=\frac{287-138}{42}=\frac{149}{42}\approx3.55.$$
+Since $3.55<4$, $\Delta_Q$ is not greater than $4$.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -294,8 +329,20 @@ The masses (kg) of $40$ students are given in the table. Find the interquartile 
 2. Position $10$ lies in $[45, 50)$, position $30$ in $[55, 60)$.
 
 ::solution
-$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48.33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56.25.$$
-$$\Delta_Q=56.25-\frac{145}{3}\approx7.9167.$$
+The sample size is $n=4+9+15+8+4=40$. The cumulative frequencies are $4$, $13$, $28$, $36$, $40$.
+
+For $\dfrac n4=10$: since $4<10\le13$, $Q_1$ lies in the class $[45, 50)$. Hence
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48.33.$$
+
+For $\dfrac{3n}{4}=30$: since $28<30\le36$, $Q_3$ lies in the class $[55, 60)$. Hence
+$$Q_3=55+\frac{30-28}{8}\cdot5=56.25.$$
+
+The interquartile range is
+$$\Delta_Q=Q_3-Q_1=56.25-\frac{145}{3}\approx7.9167.$$
+
+To 2 decimal places, $\Delta_Q\approx7.92$.
+
+So the interquartile range of the data is about $7.92$ kg.
 
 **Answer.** $7.92$.
 :::
@@ -311,8 +358,14 @@ $$\Delta_Q=56.25-\frac{145}{3}\approx7.9167.$$
 2. The class containing $M_e$ is $[170, 180)$, with $C=14$, $n_m=14$.
 
 ::solution
+For the table of apple masses in Exercise 1, the sample size is $n=40$ and the cumulative frequencies are $4$, $14$, $28$, $36$, $40$.
+
+The median corresponds to $\dfrac n2=20$. Since $14<20\le28$, $M_e$ lies in the class $[170, 180)$. By the formula for the median of grouped data,
 $$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174.29.$$
-Since $166<174.29<182.5$, we have $Q_1<M_e<Q_3$.
+
+In Exercise 1 we found $Q_1=166$ and $Q_3=182.5$. Since $166<174.29<182.5$, we have $Q_1<M_e<Q_3$.
+
+So the median is $M_e\approx174.29$ g and $Q_1<M_e<Q_3$.
 
 **Answer.** $M_e\approx174.29$ g.
 :::
@@ -332,10 +385,23 @@ b) Group them into the three classes $[0, 10)$, $[10, 20)$, $[20, 30)$ and find 
 2. b) Count the frequency of each class; positions $3$ and $9$.
 
 ::solution
-a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9.5$, $Q_3=\dfrac{18+21}{2}=19.5$, $\Delta_Q=10$.
+a) The raw data consist of $12$ values in increasing order. The range is $R=29-3=26$.
 
-b) Frequencies $3$, $6$, $3$ (cumulative $3$, $9$, $12$), $R=30$.
-$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+The median lies between the 6th and the 7th values. The lower half is $3, 7, 8, 11, 12, 14$, so $Q_1$ is the median of the lower half: $Q_1=\dfrac{8+11}{2}=9.5$. The upper half is $15, 16, 18, 21, 24, 29$, so $Q_3=\dfrac{18+21}{2}=19.5$.
+
+Hence $\Delta_Q=19.5-9.5=10$.
+
+b) The classes $[0, 10)$, $[10, 20)$, $[20, 30)$ have frequencies $3$, $6$, $3$ (namely $3, 7, 8$; then $11, 12, 14, 15, 16, 18$; then $21, 24, 29$). The cumulative frequencies are $3$, $9$, $12$ and $n=12$. The range is $R=30-0=30$.
+
+For $\dfrac n4=3$: the first class whose cumulative frequency is at least $3$ is $[0, 10)$, so
+$$Q_1=0+\frac{3-0}{3}\cdot10=10.$$
+
+For $\dfrac{3n}{4}=9$: the first class whose cumulative frequency is at least $9$ is $[10, 20)$, so
+$$Q_3=10+\frac{9-3}{6}\cdot10=20.$$
+
+Hence $\Delta_Q=20-10=10$.
+
+So the raw data have $R=26$, $\Delta_Q=10$; the grouped data have $R=30$, $\Delta_Q=10$. Here $\Delta_Q$ is a very good approximation, while $R$ is larger than the true value.
 
 **Answer.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Here $\Delta_Q$ is a very good approximation, while $R$ is larger than the true value.
 :::
@@ -351,8 +417,16 @@ For class 12A (Example 1) we have $Q_1=15$ and $Q_3=32.5$ minutes. A new student
 2. Compute the upper limit and compare it with $62$.
 
 ::solution
-$\Delta_Q=17.5$ and $1.5\,\Delta_Q=26.25$. The upper limit is
-$$Q_3+1.5\,\Delta_Q=32.5+26.25=58.75<62.$$
+By the $1.5\,\Delta_Q$ rule, a value is an outlier if it is greater than $Q_3+1.5\,\Delta_Q$ or less than $Q_1-1.5\,\Delta_Q$.
+
+With $Q_1=15$ and $Q_3=32.5$, we have $\Delta_Q=32.5-15=17.5$ and $1.5\,\Delta_Q=1.5\cdot17.5=26.25$.
+
+The upper limit is
+$$Q_3+1.5\,\Delta_Q=32.5+26.25=58.75.$$
+
+Since $62>58.75$, the time of $62$ minutes exceeds the upper limit.
+
+So $62$ minutes is an outlier for this class.
 
 **Answer.** Yes, $62$ minutes is an outlier for this class.
 :::
@@ -374,8 +448,15 @@ We know that $Q_1=13.75$ and that $Q_1$ lies in the class $[10, 20)$. Find $x$.
 2. Solve the equation, then check the condition for choosing the class.
 
 ::solution
-$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13.75\iff\frac{x+4}{4x}\cdot10=3.75\iff 10x+40=15x\iff x=8.$$
-**Check.** $n=28$, $\frac n4=7$ and $4<7\le12$, so $Q_1$ does lie in $[10, 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13.75$.
+The sample size is $n=4+x+10+6=20+x$, so $\dfrac n4=\dfrac{20+x}{4}$. Since $Q_1$ lies in the class $[10, 20)$, which has frequency $x$ and whose preceding cumulative frequency is $4$, we have
+$$Q_1=10+\frac{\frac{20+x}{4}-4}{x}\cdot10.$$
+
+We are given $Q_1=13.75$. Since $\dfrac{20+x}{4}-4=\dfrac{x+4}{4}$, the equation becomes
+$$10+\frac{x+4}{4x}\cdot10=13.75\iff\frac{x+4}{4x}\cdot10=3.75\iff 10x+40=15x\iff x=8.$$
+
+Check: $x=8$ is a positive integer. Then $n=28$, $\dfrac n4=7$ and $4<7\le12$, so $Q_1$ does lie in the class $[10, 20)$; indeed, $Q_1=10+\dfrac{7-4}{8}\cdot10=13.75$.
+
+So $x=8$.
 
 **Answer.** $x=8$.
 :::

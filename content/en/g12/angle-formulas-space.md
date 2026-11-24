@@ -205,7 +205,19 @@ Find the angle between $d_1: x=1+t$, $y=2t$, $z=-t$ and $d_2: \dfrac{x-1}{2}=\df
 2. Compute the scalar product and the two lengths.
 
 ::solution
-$$\vec{u}_1\cdot\vec{u}_2=2-2-1=-1,\qquad \cos\varphi=\frac{1}{\sqrt6\cdot\sqrt6}=\frac16,\qquad \varphi\approx80.4^\circ.$$
+Let $\varphi$ be the angle between the lines $d_1$ and $d_2$.
+
+The line $d_1$ has direction vector $\vec{u}_1=(1, 2, -1)$ and the line $d_2$ has direction vector $\vec{u}_2=(2, -1, 1)$.
+
+We have
+$$\vec{u}_1\cdot\vec{u}_2=1\cdot2+2\cdot(-1)+(-1)\cdot1=-1,\qquad|\vec{u}_1|=\sqrt{1+4+1}=\sqrt6,\qquad|\vec{u}_2|=\sqrt{4+1+1}=\sqrt6.$$
+
+Using the formula $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}$ (the angle between two lines does not exceed $90^\circ$, so we take the absolute value), we get
+$$\cos\varphi=\frac{|-1|}{\sqrt6\cdot\sqrt6}=\frac16.$$
+
+Hence $\varphi\approx80.4^\circ$.
+
+So the angle between $d_1$ and $d_2$ is about $80.4^\circ$.
 
 **Answer.** About $80.4^\circ$.
 :::
@@ -221,7 +233,19 @@ Find the angle between the line $d: x=1+t$, $y=t$, $z=2$ and the plane $(P): x+z
 2. Compute $\sin\varphi$.
 
 ::solution
-$$\sin\varphi=\frac{|1+0+0|}{\sqrt2\cdot\sqrt2}=\frac12,\qquad\varphi=30^\circ.$$
+Let $\varphi$ be the angle between the line $d$ and the plane $(P)$.
+
+The line $d$ has direction vector $\vec{u}=(1, 1, 0)$ and the plane $(P)$ has normal vector $\vec{n}=(1, 0, 1)$.
+
+We have
+$$\vec{u}\cdot\vec{n}=1\cdot1+1\cdot0+0\cdot1=1,\qquad|\vec{u}|=\sqrt2,\qquad|\vec{n}|=\sqrt2.$$
+
+Using the formula $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}$, we get
+$$\sin\varphi=\frac{|1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Since $0^\circ\le\varphi\le90^\circ$, we have $\varphi=30^\circ$.
+
+So the angle between the line $d$ and the plane $(P)$ is $30^\circ$.
 
 **Answer.** $30^\circ$.
 :::
@@ -237,7 +261,19 @@ Find the angle between the planes $(P): 2x-y+z-1=0$ and $(Q): x+y+2z+3=0$.
 2. Compute the cosine.
 
 ::solution
-$$\cos\varphi=\frac{|2-1+2|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12,\qquad\varphi=60^\circ.$$
+Let $\varphi$ be the angle between the planes $(P)$ and $(Q)$.
+
+The plane $(P)$ has normal vector $\vec{n}_P=(2, -1, 1)$ and the plane $(Q)$ has normal vector $\vec{n}_Q=(1, 1, 2)$.
+
+We have
+$$\vec{n}_P\cdot\vec{n}_Q=2\cdot1+(-1)\cdot1+1\cdot2=3,\qquad|\vec{n}_P|=\sqrt{4+1+1}=\sqrt6,\qquad|\vec{n}_Q|=\sqrt{1+1+4}=\sqrt6.$$
+
+Using the formula $\cos\varphi=\dfrac{|\vec{n}_P\cdot\vec{n}_Q|}{|\vec{n}_P|\cdot|\vec{n}_Q|}$, we get
+$$\cos\varphi=\frac{|3|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12.$$
+
+Since $0^\circ\le\varphi\le90^\circ$, we have $\varphi=60^\circ$.
+
+So the angle between the planes $(P)$ and $(Q)$ is $60^\circ$.
 
 **Answer.** $60^\circ$.
 :::
@@ -253,7 +289,19 @@ Find the angle between the line $\Delta: \dfrac{x-1}{2}=\dfrac{y+1}{-2}=\dfrac{z
 2. Compute $\sin\varphi$.
 
 ::solution
-$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13,\qquad\varphi\approx19.5^\circ.$$
+Let $\varphi$ be the angle between the line $\Delta$ and the plane $(Oxy)$.
+
+The line $\Delta$ has direction vector $\vec{u}=(2, -2, 1)$. The plane $(Oxy)$ has equation $z=0$, so it has normal vector $\vec{k}=(0, 0, 1)$.
+
+We have
+$$\vec{u}\cdot\vec{k}=1,\qquad|\vec{u}|=\sqrt{4+4+1}=3,\qquad|\vec{k}|=1.$$
+
+Using the formula $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}|\cdot|\vec{k}|}$, we get
+$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13.$$
+
+Hence $\varphi\approx19.5^\circ$.
+
+So the angle between the line $\Delta$ and the plane $(Oxy)$ is about $19.5^\circ$.
 
 **Answer.** About $19.5^\circ$.
 :::
@@ -277,13 +325,20 @@ d) The angle between the lines $AC'$ and $BD$ is $60^\circ$.
 2. Use the right formula for each kind of angle.
 
 ::solution
-a) **True.** $\overrightarrow{AC}=(1, 1, 0)$, $\overrightarrow{B'D'}=(-1, 1, 0)$, and their scalar product is $0$.
+From $A(0, 0, 0)$, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$ and the edge length $1$, we find $C(1, 1, 0)$, $B'(1, 0, 1)$, $D'(0, 1, 1)$, $C'(1, 1, 1)$.
 
-b) **False.** $\overrightarrow{A'C}=(1, 1, -1)$, $\sin\varphi=\dfrac{1}{\sqrt3}$, so $\varphi\approx35.3^\circ$.
+a) **True.** We have $\overrightarrow{AC}=(1, 1, 0)$ and $\overrightarrow{B'D'}=(-1, 1, 0)$. Then $\overrightarrow{AC}\cdot\overrightarrow{B'D'}=-1+1+0=0$, so $AC\perp B'D'$, that is, the angle between the two lines is $90^\circ$.
 
-c) **True.** $\vec{n}=(1, 1, 1)$ and $\vec{k}=(0, 0, 1)$: $\cos\varphi=\dfrac{1}{\sqrt3}$.
+b) **False.** We have $\overrightarrow{A'C}=(1, 1, -1)$ and $|\overrightarrow{A'C}|=\sqrt3$. The plane $(ABCD)$ has normal vector $\vec{k}=(0, 0, 1)$. Let $\varphi$ be the angle between $A'C$ and $(ABCD)$; then
+$$\sin\varphi=\frac{|-1|}{\sqrt3\cdot1}=\frac1{\sqrt3},$$
+so $\varphi\approx35.3^\circ\neq45^\circ$.
 
-d) **False.** $\overrightarrow{AC'}=(1, 1, 1)$, $\overrightarrow{BD}=(-1, 1, 0)$, and their scalar product is $0$, so the angle is $90^\circ$.
+c) **True.** The plane $(A'BD)$ passes through $A'(0, 0, 1)$, $B(1, 0, 0)$, $D(0, 1, 0)$, so it has equation $x+y+z-1=0$ and normal vector $\vec{n}=(1, 1, 1)$. The plane $(ABCD)$ has normal vector $\vec{k}=(0, 0, 1)$. Therefore
+$$\cos\varphi=\frac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}=\frac{1}{\sqrt3\cdot1}=\frac1{\sqrt3}.$$
+
+d) **False.** We have $\overrightarrow{AC'}=(1, 1, 1)$ and $\overrightarrow{BD}=(-1, 1, 0)$. Then $\overrightarrow{AC'}\cdot\overrightarrow{BD}=-1+1+0=0$, so $AC'\perp BD$, that is, the angle between the two lines is $90^\circ$, not $60^\circ$.
+
+So claims a), c) are true; claims b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -299,8 +354,19 @@ A wheelchair ramp is an inclined plane: for every $12$ m along the ground it ris
 2. Compute the cosine, then the angle.
 
 ::solution
-$$\cos\varphi=\frac{|-12|}{\sqrt{1+144}\cdot1}=\frac{12}{\sqrt{145}}\approx0.9965,\qquad\varphi\approx4.8^\circ.$$
-(Check with a right-angled triangle: $\tan\varphi=\dfrac{1}{12}$.)
+Take the ground as the plane $(Oxy)$: $z=0$, with normal vector $\vec{k}=(0, 0, 1)$. The ramp $(P): x-12z=0$ has normal vector $\vec{n}=(1, 0, -12)$.
+
+Let $\varphi$ be the angle between the ramp and the ground. We have
+$$\vec{n}\cdot\vec{k}=-12,\qquad|\vec{n}|=\sqrt{1+144}=\sqrt{145},\qquad|\vec{k}|=1.$$
+
+Using the formula $\cos\varphi=\dfrac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}$, we get
+$$\cos\varphi=\frac{|-12|}{\sqrt{145}\cdot1}=\frac{12}{\sqrt{145}}\approx0.9965.$$
+
+Hence $\varphi\approx4.8^\circ$.
+
+Check with a right-angled triangle: for every $12$ m along the ground the ramp rises $1$ m, so $\tan\varphi=\dfrac1{12}$, which gives $\varphi\approx4.8^\circ$, in agreement with the result above.
+
+So the angle between the ramp and the ground is about $4.8$ degrees.
 
 **Answer.** $4.8$.
 :::
@@ -316,8 +382,19 @@ The pyramid $S.ABCD$ has a rectangular base with $AB=3$, $AD=4$, $SA$ perpendicu
 2. $\overrightarrow{SC}=(3, 4, -5)$; use $\sin\varphi$ with $(0, 0, 1)$ and $(0, 1, 0)$.
 
 ::solution
-$|\overrightarrow{SC}|=\sqrt{50}=5\sqrt2$.
-$$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \sin\varphi_2=\frac{4}{5\sqrt2}\approx0.566,\ \varphi_2\approx34.4^\circ.$$
+Since $SA$ is perpendicular to the base and the base is a rectangle, we choose coordinates $A(0, 0, 0)$, $B(3, 0, 0)$, $D(0, 4, 0)$, $S(0, 0, 5)$. Then $C(3, 4, 0)$ and $\overrightarrow{SC}=(3, 4, -5)$.
+
+We have $|\overrightarrow{SC}|=\sqrt{9+16+25}=\sqrt{50}=5\sqrt2$.
+
+Angle between $SC$ and the base. The base $(ABCD)$ has equation $z=0$, so it has normal vector $\vec{k}=(0, 0, 1)$. Let $\varphi_1$ be the required angle; then
+$$\sin\varphi_1=\frac{|\overrightarrow{SC}\cdot\vec{k}|}{|\overrightarrow{SC}|\cdot|\vec{k}|}=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},$$
+so $\varphi_1=45^\circ$.
+
+Angle between $SC$ and the plane $(SAB)$. The plane $(SAB)$ contains $A$, $B$, $S$, all with $y$-coordinate $0$, so it has equation $y=0$ and normal vector $\vec{j}=(0, 1, 0)$. Let $\varphi_2$ be the required angle; then
+$$\sin\varphi_2=\frac{|\overrightarrow{SC}\cdot\vec{j}|}{|\overrightarrow{SC}|\cdot|\vec{j}|}=\frac{4}{5\sqrt2}\approx0.566,$$
+so $\varphi_2\approx34.4^\circ$.
+
+So the angle between $SC$ and the base is $45^\circ$, and the angle between $SC$ and the plane $(SAB)$ is about $34.4^\circ$.
 
 **Answer.** $45^\circ$ and about $34.4^\circ$.
 :::
@@ -333,7 +410,19 @@ $$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \
 2. Use $\vec{n}=(1, 2, 1)$ and $\vec{k}=(0, 0, 1)$.
 
 ::solution
-$$\cos\varphi=\frac{1}{\sqrt6}\approx0.408,\qquad\varphi\approx65.9^\circ.$$
+Let $(P)$ be the plane through $A(2, 0, 0)$, $B(0, 1, 0)$, $C(0, 0, 2)$.
+
+Using the intercept form of the equation of a plane, we have
+$$(P):\ \frac x2+\frac y1+\frac z2=1\iff x+2y+z-2=0.$$
+
+So $(P)$ has normal vector $\vec{n}=(1, 2, 1)$ and $|\vec{n}|=\sqrt{1+4+1}=\sqrt6$. The plane $(Oxy)$ has equation $z=0$, so it has normal vector $\vec{k}=(0, 0, 1)$.
+
+Let $\varphi$ be the angle between $(P)$ and $(Oxy)$. We have
+$$\cos\varphi=\frac{|\vec{n}\cdot\vec{k}|}{|\vec{n}|\cdot|\vec{k}|}=\frac{|1|}{\sqrt6\cdot1}=\frac1{\sqrt6}\approx0.408.$$
+
+Hence $\varphi\approx65.9^\circ$.
+
+So the plane $(ABC)$ makes an angle of about $65.9^\circ$ with the plane $(Oxy)$.
 
 **Answer.** About $65.9^\circ$.
 :::
@@ -349,7 +438,19 @@ $$\cos\varphi=\frac{1}{\sqrt6}\approx0.408,\qquad\varphi\approx65.9^\circ.$$
 2. Compute $\sin\varphi$ with $\vec{n}=(1, -2, 2)$.
 
 ::solution
-$$\sin\varphi=\frac{|2+6+4|}{\sqrt{17}\cdot3}=\frac{4}{\sqrt{17}}\approx0.970,\qquad\varphi\approx76.0^\circ.$$
+We have $\overrightarrow{AB}=(3-1, -1-2, 1-(-1))=(2, -3, 2)$, so $|\overrightarrow{AB}|=\sqrt{4+9+4}=\sqrt{17}$.
+
+The plane $(P)$ has normal vector $\vec{n}=(1, -2, 2)$ and $|\vec{n}|=\sqrt{1+4+4}=3$.
+
+The scalar product is
+$$\overrightarrow{AB}\cdot\vec{n}=2\cdot1+(-3)\cdot(-2)+2\cdot2=2+6+4=12.$$
+
+Let $\varphi$ be the angle between the line $AB$ and $(P)$. Using the formula $\sin\varphi=\dfrac{|\overrightarrow{AB}\cdot\vec{n}|}{|\overrightarrow{AB}|\cdot|\vec{n}|}$, we get
+$$\sin\varphi=\frac{|12|}{\sqrt{17}\cdot3}=\frac4{\sqrt{17}}\approx0.970.$$
+
+Hence $\varphi\approx76.0^\circ$.
+
+So the angle between the line $AB$ and the plane $(P)$ is about $76.0^\circ$.
 
 **Answer.** About $76.0^\circ$.
 :::
@@ -365,8 +466,18 @@ Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Find the angle between the diagonal
 2. Compute $\sin\varphi$ with $\vec{n}=(1, 1, 1)$.
 
 ::solution
-$$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19.5^\circ.$$
-**Check.** $\sin\varphi$ is small, so $BD'$ stays close to the plane, which fits: $B$ lies in $(A'BD)$ and $D'$ is only $\dfrac{1}{\sqrt3}$ from it.
+With the coordinates $A(0, 0, 0)$, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$ we get $D'(0, 1, 1)$. Then $\overrightarrow{BD'}=(-1, 1, 1)$ and $|\overrightarrow{BD'}|=\sqrt3$.
+
+The plane $(A'BD)$ passes through $A'(0, 0, 1)$, $B(1, 0, 0)$, $D(0, 1, 0)$, so it has equation $x+y+z-1=0$ and normal vector $\vec{n}=(1, 1, 1)$, $|\vec{n}|=\sqrt3$.
+
+Let $\varphi$ be the angle between $BD'$ and $(A'BD)$. We have $\overrightarrow{BD'}\cdot\vec{n}=-1+1+1=1$, so
+$$\sin\varphi=\frac{|\overrightarrow{BD'}\cdot\vec{n}|}{|\overrightarrow{BD'}|\cdot|\vec{n}|}=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13.$$
+
+Hence $\varphi\approx19.5^\circ$.
+
+So the angle between the diagonal $BD'$ and the plane $(A'BD)$ is about $19.5^\circ$.
+
+*Check.* The point $B$ lies in $(A'BD)$ and the distance from $D'$ to $(A'BD)$ is $\dfrac{|0+1+1-1|}{\sqrt3}=\dfrac1{\sqrt3}$. Therefore $\sin\varphi=\dfrac{1/\sqrt3}{\sqrt3}=\dfrac13$, in agreement with the result above; since $\sin\varphi$ is small, $BD'$ stays fairly close to the plane.
 
 **Answer.** About $19.5^\circ$.
 :::

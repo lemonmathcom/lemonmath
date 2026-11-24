@@ -140,9 +140,13 @@ A bag of oranges is placed on a set of scales and the pointer is exactly at the 
 2. Write the measurement with the unit kg.
 
 ::solution
-The pointer is at the mark labelled 6, so the bag of oranges has a mass of 6 kg.
+The number at the mark the pointer shows is the mass of the object in kilograms.
 
-**Answer.** 6 kg.
+The pointer is exactly at the mark labelled $6$, so the bag of oranges has a mass of $6\ \text{kg}$.
+
+So the mass of the bag of oranges is $6\ \text{kg}$.
+
+**Answer.** $6\ \text{kg}$.
 :::
 
 :::exercise
@@ -156,7 +160,13 @@ On a set of balance scales, the left pan holds a grapefruit and is lower than th
 2. Is the object on the other pan heavier or lighter?
 
 ::solution
-The pan with the grapefruit is lower, so the grapefruit is heavier. So the orange is lighter.
+On balance scales, the object in the lower pan is heavier, and the object in the higher pan is lighter.
+
+The left pan (with the grapefruit) is lower than the right pan (with the orange), so the grapefruit is heavier than the orange.
+
+It follows that the orange is lighter than the grapefruit.
+
+So the orange is lighter.
 
 **Answer.** The orange is lighter.
 :::
@@ -180,15 +190,23 @@ d) $14\ \text{l}-6\ \text{l}$
 2. Remember the addition and subtraction facts that bridge through 10.
 
 ::solution
-a) $6\ \text{kg}+9\ \text{kg}=15\ \text{kg}$.
+When we add or subtract measures with the same unit, we add or subtract the numbers and then write the unit in the result.
 
-b) $16\ \text{kg}-7\ \text{kg}=9\ \text{kg}$.
+a) We have $6+9=15$, so
+$$6\ \text{kg}+9\ \text{kg}=15\ \text{kg}.$$
 
-c) $5\ \text{l}+8\ \text{l}=13\ \text{l}$.
+b) We have $16-7=9$, so
+$$16\ \text{kg}-7\ \text{kg}=9\ \text{kg}.$$
 
-d) $14\ \text{l}-6\ \text{l}=8\ \text{l}$.
+c) We have $5+8=13$, so
+$$5\ \text{l}+8\ \text{l}=13\ \text{l}.$$
 
-**Answer.** a) 15 kg; b) 9 kg; c) 13 l; d) 8 l.
+d) We have $14-6=8$, so
+$$14\ \text{l}-6\ \text{l}=8\ \text{l}.$$
+
+So the results are $15\ \text{kg}$, $9\ \text{kg}$, $13\ \text{l}$ and $8\ \text{l}$.
+
+**Answer.** a) $15\ \text{kg}$; b) $9\ \text{kg}$; c) $13\ \text{l}$; d) $8\ \text{l}$.
 :::
 
 :::exercise
@@ -208,11 +226,15 @@ c) A sack of rice has a mass of 5 $\square$.
 2. Choose the matching unit.
 
 ::solution
-a) A hen has a mass of 3 kg.
+The kilogram (kg) is the unit of mass; it tells us how heavy something is. The litre (l) is the unit of capacity; it tells us how much water or other liquid a container holds.
 
-b) A bucket holds 10 l of water.
+a) "A hen has a mass of …" is about how heavy it is, so we use kg: a hen has a mass of $3\ \text{kg}$.
 
-c) A sack of rice has a mass of 5 kg.
+b) "A bucket holds … of water" is about how much water it holds, so we use l: a bucket holds $10\ \text{l}$ of water.
+
+c) "A sack of rice has a mass of …" is about how heavy it is, so we use kg: a sack of rice has a mass of $5\ \text{kg}$.
+
+So the units to write are kg, l, kg.
 
 **Answer.** a) kg; b) l; c) kg.
 :::
@@ -231,9 +253,12 @@ Suppose Mum buys 9 kg of plain rice and 5 kg of sticky rice. How many kilograms 
 ::solution
 Solution
 
-The number of kilograms of rice Mum buys altogether is:
-$$9+5=14\ \text{(kg)}.$$
-Answer: 14 kg of rice.
+Mum buys plain rice and sticky rice; to find how many kilograms of rice she buys altogether, we add. The number of kilograms of rice Mum buys altogether is:
+$$9+5=14\ \text{(kg)}$$
+
+So Mum buys $14\ \text{kg}$ of rice altogether.
+
+**Answer.** $14\ \text{kg}$ of rice.
 :::
 
 :::exercise
@@ -250,9 +275,12 @@ Suppose the first tank holds 12 litres of water. The second tank holds 5 litres 
 ::solution
 Solution
 
-The number of litres of water the second tank holds is:
-$$12+5=17\ \text{(l)}.$$
-Answer: 17 l of water.
+The second tank holds $5$ litres more than the first tank, so to find the litres in the second tank we add $5$ to the litres in the first tank. The number of litres of water the second tank holds is:
+$$12+5=17\ \text{(l)}$$
+
+So the second tank holds $17\ \text{l}$ of water.
+
+**Answer.** $17\ \text{l}$ of water.
 :::
 
 :::exercise
@@ -266,10 +294,18 @@ Remember the lesson "How many more or fewer?". A sack of rice has a mass of 15 k
 2. Work out the difference and write the unit kg.
 
 ::solution
-We have $15>9$, so the sack of rice is heavier. It is heavier than the sack of maize by:
-$$15-9=6\ \text{(kg)}.$$
+Solution
 
-**Answer.** The sack of rice is heavier, by 6 kg.
+Compare the two masses: $15>9$, so the sack of rice is heavier than the sack of maize.
+
+To find by how many kilograms the sack of rice is heavier, we subtract the smaller number from the larger one. The sack of rice is heavier than the sack of maize by:
+$$15-9=6\ \text{(kg)}$$
+
+Check: $9+6=15$, which is correct.
+
+So the sack of rice is heavier, by $6\ \text{kg}$.
+
+**Answer.** The sack of rice is heavier, by $6\ \text{kg}$.
 :::
 
 :::exercise Challenge
@@ -283,14 +319,19 @@ Suppose a can holds 10 litres of oil. The first time, 4 litres are poured out, a
 2. How many litres are left after the second time?
 
 ::solution
-After the first time, the can holds:
-$$10-4=6\ \text{(l)}.$$
+Solution
+
+Oil is poured out twice, so we subtract one time after the other. After the first time, the can holds:
+$$10-4=6\ \text{(l)}$$
+
 After the second time, the can holds:
-$$6-3=3\ \text{(l)}.$$
+$$6-3=3\ \text{(l)}$$
 
-**Check.** The total poured out is $4+3=7$ and $10-7=3$, which is correct.
+*Check.* The total poured out is $4+3=7$ (l) and $10-7=3$ (l), which is correct.
 
-**Answer.** 3 l of oil.
+So there are $3\ \text{l}$ of oil left in the can.
+
+**Answer.** $3\ \text{l}$ of oil.
 :::
 
 ## Mini test

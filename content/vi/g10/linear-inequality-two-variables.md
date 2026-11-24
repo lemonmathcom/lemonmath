@@ -237,7 +237,15 @@ Trong các cặp $(2; -1)$, $(0; 3)$, $(6; 1)$, cặp nào là nghiệm của b�
 2. So sánh kết quả với $4$, nhớ rằng dấu $\ge$ cho phép bằng.
 
 ::solution
-$$(2; -1):\ 2+2=4\ge 4\ \text{(đúng)};\quad (0; 3):\ 0-6=-6\ge 4\ \text{(sai)};\quad (6; 1):\ 6-2=4\ge 4\ \text{(đúng)}.$$
+Cặp $(x_0; y_0)$ là nghiệm của bất phương trình $x-2y\ge 4$ khi và chỉ khi thay $x=x_0$, $y=y_0$ vào vế trái ta được một bất đẳng thức đúng.
+
+Với cặp $(2; -1)$: thay $x=2$, $y=-1$, ta được $2-2\cdot(-1)=2+2=4$. Vì $4\ge 4$ là đúng nên $(2; -1)$ là nghiệm.
+
+Với cặp $(0; 3)$: thay $x=0$, $y=3$, ta được $0-2\cdot 3=-6$. Vì $-6\ge 4$ là sai nên $(0; 3)$ không là nghiệm.
+
+Với cặp $(6; 1)$: thay $x=6$, $y=1$, ta được $6-2\cdot 1=4$. Vì $4\ge 4$ là đúng nên $(6; 1)$ là nghiệm.
+
+Vậy hai cặp $(2; -1)$ và $(6; 1)$ là nghiệm của bất phương trình; cặp $(0; 3)$ không phải là nghiệm.
 
 **Đáp số.** $(2; -1)$ và $(6; 1)$ là nghiệm.
 :::
@@ -262,13 +270,17 @@ d) Miền nghiệm là nửa mặt phẳng chứa gốc toạ độ, kể cả �
 3. Dùng kết quả của a) và loại nét vẽ để xét d).
 
 ::solution
-a) **Đúng:** $2\cdot 0-3\cdot 0=0\le 6$.
+Xét bất phương trình $2x-3y\le 6$ có đường thẳng biên $d: 2x-3y=6$.
 
-b) **Sai:** cho $x=0$ ta được $-3y=6$, tức $y=-2$. Đường biên đi qua $(3; 0)$ và $(0; -2)$, không đi qua $(0; 2)$.
+a) **Đúng.** Thay $x=0$, $y=0$, ta được $2\cdot 0-3\cdot 0=0$. Vì $0\le 6$ là đúng nên $(0; 0)$ là một nghiệm.
 
-c) **Sai:** $2\cdot 1-3\cdot(-2)=8$, mà $8\le 6$ là sai.
+b) **Sai.** Cho $x=0$ thì $-3y=6$, suy ra $y=-2$. Cho $y=0$ thì $2x=6$, suy ra $x=3$. Do đó đường biên đi qua $(3; 0)$ và $(0; -2)$. Điểm $(0; 2)$ không nằm trên đường biên vì $2\cdot 0-3\cdot 2=-6\ne 6$.
 
-d) **Đúng:** $O$ là nghiệm (câu a) và dấu $\le$ nên bờ thuộc miền nghiệm.
+c) **Sai.** Thay $x=1$, $y=-2$, ta được $2\cdot 1-3\cdot(-2)=2+6=8$. Vì $8\le 6$ là sai nên $(1; -2)$ không là nghiệm.
+
+d) **Đúng.** Gốc toạ độ $O(0; 0)$ là một nghiệm (câu a) và không nằm trên $d$, nên miền nghiệm là nửa mặt phẳng bờ $d$ chứa $O$. Vì dấu của bất phương trình là $\le$ nên các điểm trên đường biên cũng là nghiệm, tức là miền nghiệm kể cả bờ.
+
+Vậy các mệnh đề a), d) đúng; các mệnh đề b), c) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
 :::
@@ -285,8 +297,20 @@ Biểu diễn miền nghiệm của $2x-y\le 4$: nêu hai điểm của đườn
 3. Thay $O(0; 0)$.
 
 ::solution
+Xét bất phương trình $2x-y\le 4$ có đường biên $d: 2x-y=4$.
+
+Tìm hai điểm của đường biên: cho $y=0$ thì $2x=4$, suy ra $x=2$; cho $x=0$ thì $-y=4$, suy ra $y=-4$.
 $$y=0\Rightarrow x=2,\qquad x=0\Rightarrow y=-4.$$
-Đường biên đi qua $(2; 0)$ và $(0; -4)$, vẽ nét liền vì dấu $\le$. Thay $O$: $0\le 4$ đúng.
+
+Vậy đường biên $d$ đi qua hai điểm $(2; 0)$ và $(0; -4)$.
+
+Bất phương trình có dấu $\le$ (có dấu bằng) nên các điểm trên $d$ cũng là nghiệm; do đó ta vẽ $d$ bằng nét liền.
+
+Đường thẳng $d$ không đi qua gốc toạ độ $O(0; 0)$ vì $2\cdot 0-0=0\ne 4$, nên ta chọn $O$ làm điểm kiểm tra. Thay $x=0$, $y=0$, ta được $0\le 4$ là đúng.
+
+Do đó $O$ thuộc miền nghiệm, nên ta lấy phía chứa $O$ của đường thẳng $d$.
+
+Vậy miền nghiệm là nửa mặt phẳng bờ $d$ chứa gốc toạ độ, kể cả bờ.
 
 **Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $2x-y=4$ chứa gốc toạ độ, kể cả bờ.
 :::
@@ -302,7 +326,15 @@ Biểu diễn miền nghiệm của $x-y\ge 0$.
 2. Thử điểm $(1; 0)$.
 
 ::solution
-Đường biên $y=x$ đi qua $O$ và $(1; 1)$, vẽ nét liền. Thử $(1; 0)$: $1-0=1\ge 0$, đúng.
+Xét bất phương trình $x-y\ge 0$ có đường biên $d: x-y=0$, tức là $y=x$.
+
+Đường thẳng $y=x$ đi qua gốc toạ độ $O(0; 0)$ và điểm $(1; 1)$. Bất phương trình có dấu $\ge$ (có dấu bằng) nên các điểm trên $d$ cũng là nghiệm; do đó ta vẽ $d$ bằng nét liền.
+
+Vì $d$ đi qua $O$ nên không thể dùng $O$ làm điểm kiểm tra. Ta chọn điểm $(1; 0)$ không nằm trên $d$ và thay vào: $1-0=1\ge 0$ là đúng.
+
+Do đó $(1; 0)$ thuộc miền nghiệm, nên ta lấy nửa mặt phẳng bờ $d$ chứa $(1; 0)$. Với mỗi hoành độ $x$, các điểm của miền nghiệm có tung độ $y\le x$, tức nằm phía dưới đường thẳng $y=x$.
+
+Vậy miền nghiệm là nửa mặt phẳng bờ $y=x$ chứa điểm $(1; 0)$, kể cả bờ.
 
 **Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $y=x$ chứa điểm $(1; 0)$ (phía dưới đường thẳng $y=x$), kể cả bờ.
 :::
@@ -318,8 +350,16 @@ Biểu diễn miền nghiệm của $x-y\ge 0$.
 2. So sánh chặt với $5$.
 
 ::solution
+Một điểm thuộc miền nghiệm của $3x+2y>5$ khi và chỉ khi toạ độ của nó thoả mãn bất đẳng thức $3x+2y>5$ (bất đẳng thức ngặt).
+
+Với $A(1; 1)$: $3\cdot 1+2\cdot 1=5$. Vì $5>5$ là sai nên $A$ không thuộc miền nghiệm ($A$ nằm trên đường biên, mà đường biên vẽ nét đứt vì dấu $>$ không có dấu bằng).
+
+Với $B(-2; 3)$: $3\cdot(-2)+2\cdot 3=-6+6=0$. Vì $0>5$ là sai nên $B$ không thuộc miền nghiệm.
+
+Với $C(4; -1)$: $3\cdot 4+2\cdot(-1)=12-2=10$. Vì $10>5$ là đúng nên $C$ thuộc miền nghiệm.
 $$A:\ 3+2=5;\qquad B:\ -6+6=0;\qquad C:\ 12-2=10.$$
-Chỉ có $10>5$ đúng; tại $A$ ta có $5>5$ là sai vì $A$ nằm trên bờ nét đứt.
+
+Vậy trong ba điểm đã cho, chỉ có điểm $C$ thuộc miền nghiệm của bất phương trình.
 
 **Đáp số.** Chỉ có điểm $C$.
 :::
@@ -336,8 +376,19 @@ Một gói cước điện thoại tính $2000$ đồng mỗi phút gọi và $5
 3. Thay hai cặp số.
 
 ::solution
+Gọi $x$ là số phút gọi và $y$ là số tin nhắn của Mai ($x\ge 0$, $y\ge 0$).
+
+Số tiền phải trả là $2000x+500y$ (đồng). Mai có tối đa $40000$ đồng trong tài khoản nên
+$$2000x+500y\le 40000.$$
+
+Chia hai vế cho $500>0$ (giữ nguyên chiều bất đẳng thức), ta được
 $$2000x+500y\le 40000\iff 4x+y\le 80.$$
-Với $(15; 20)$: $60+20=80\le 80$, đúng. Với $(18; 10)$: $72+10=82\le 80$, sai (cần $41000$ đồng).
+
+Với $(15; 20)$: $4\cdot 15+20=60+20=80$. Vì $80\le 80$ là đúng nên Mai có thể gọi $15$ phút và nhắn $20$ tin. Kiểm tra: số tiền phải trả là $2000\cdot 15+500\cdot 20=30000+10000=40000$ đồng, đúng bằng số tiền Mai có.
+
+Với $(18; 10)$: $4\cdot 18+10=72+10=82$. Vì $82\le 80$ là sai nên Mai không thể làm vậy. Kiểm tra: số tiền phải trả là $2000\cdot 18+500\cdot 10=36000+5000=41000$ đồng, vượt quá $40000$ đồng.
+
+Vậy bất phương trình cần tìm là $4x+y\le 80$; Mai dùng được $15$ phút gọi và $20$ tin nhắn, nhưng không đủ tiền cho $18$ phút gọi và $10$ tin nhắn.
 
 **Đáp số.** $4x+y\le 80$; Mai dùng được $15$ phút và $20$ tin, nhưng không đủ tiền cho $18$ phút và $10$ tin.
 :::
@@ -354,8 +405,20 @@ Có bao nhiêu cặp số nguyên không âm $(x; y)$ là nghiệm của bất p
 3. Cộng lại.
 
 ::solution
+Ta cần đếm các cặp số nguyên $(x; y)$ với $x\ge 0$, $y\ge 0$ thoả mãn $2x+y\le 4$.
+
+Vì $y\ge 0$ nên $2x\le 4-y\le 4$, suy ra $x\le 2$. Do đó $x\in\{0; 1; 2\}$. Với mỗi giá trị của $x$, ta có $0\le y\le 4-2x$.
+
+Với $x=0$: $0\le y\le 4$, có $5$ giá trị của $y$, tức $5$ cặp.
+
+Với $x=1$: $0\le y\le 2$, có $3$ giá trị của $y$, tức $3$ cặp.
+
+Với $x=2$: $0\le y\le 0$, tức $y=0$, có $1$ cặp.
 $$x=0:\ 0\le y\le 4\ (5\ \text{cặp});\quad x=1:\ 0\le y\le 2\ (3\ \text{cặp});\quad x=2:\ y=0\ (1\ \text{cặp}).$$
-Tổng cộng $5+3+1=9$ cặp.
+
+Tổng số cặp là $5+3+1=9$.
+
+Vậy có $9$ cặp số nguyên không âm $(x; y)$ là nghiệm của bất phương trình.
 
 **Đáp số.** $9$.
 :::
@@ -372,8 +435,22 @@ Vé học sinh giá $20$ nghìn đồng, vé người lớn giá $50$ nghìn đ�
 3. Với mỗi $y=2, 3, 4$, tìm $x$ lớn nhất rồi so sánh tổng $x+y$.
 
 ::solution
+Gọi $x$ là số vé học sinh và $y$ là số vé người lớn mà nhóm mua ($x$, $y$ là các số nguyên). Mỗi người một vé nên số người của nhóm là $x+y$.
+
+Tổng số tiền không quá $200$ nghìn đồng, nên $20x+50y\le 200$. Chia hai vế cho $10>0$, ta được $2x+5y\le 20$. Nhóm phải mua ít nhất $2$ vé người lớn nên $y\ge 2$; ngoài ra $x\ge 0$. Ta có hệ
 $$20x+50y\le 200\iff 2x+5y\le 20,\qquad y\ge 2,\ x\ge 0.$$
-Với $y=2$: $2x\le 10$, $x\le 5$, tổng $7$. Với $y=3$: $2x\le 5$, $x\le 2$, tổng $5$. Với $y=4$: $x=0$, tổng $4$.
+
+Từ $2x\ge 0$ suy ra $5y\le 20$, tức $y\le 4$. Do đó $y\in\{2; 3; 4\}$. Ta xét từng trường hợp để tìm $x$ lớn nhất.
+
+Với $y=2$: $2x\le 20-10=10$, suy ra $x\le 5$. Số người lớn nhất là $5+2=7$.
+
+Với $y=3$: $2x\le 20-15=5$, suy ra $x\le 2$ (vì $x$ nguyên). Số người lớn nhất là $2+3=5$.
+
+Với $y=4$: $2x\le 20-20=0$, suy ra $x=0$. Số người là $0+4=4$.
+
+So sánh ba trường hợp, số người nhiều nhất là $7$, đạt được khi $x=5$, $y=2$. Kiểm tra: số tiền là $20\cdot 5+50\cdot 2=100+100=200$ nghìn đồng, thoả mãn.
+
+Vậy các bất phương trình là $2x+5y\le 20$, $y\ge 2$, $x\ge 0$, và nhóm có nhiều nhất $7$ người ($5$ học sinh và $2$ người lớn).
 
 **Đáp số.** Nhiều nhất $7$ người ($5$ học sinh và $2$ người lớn).
 :::
@@ -389,8 +466,14 @@ Tìm một bất phương trình dạng $ax+by\le c$ có đường biên đi qua
 2. Thay $O(0; 0)$ để chọn đúng chiều.
 
 ::solution
+Đường biên của bất phương trình là đường thẳng đi qua hai điểm $(0; 2)$ và $(3; 0)$. Đường thẳng này cắt trục $Ox$ tại $(3; 0)$ và cắt trục $Oy$ tại $(0; 2)$ nên có phương trình đoạn chắn
 $$\frac{x}{3}+\frac{y}{2}=1\iff 2x+3y=6.$$
-Tại $O$: $2\cdot 0+3\cdot 0=0\le 6$, nên gốc toạ độ nằm về phía "$\le 6$".
+
+Kiểm tra: với $(0; 2)$ ta có $2\cdot 0+3\cdot 2=6$; với $(3; 0)$ ta có $2\cdot 3+3\cdot 0=6$. Cả hai điểm đều thoả mãn.
+
+Bất phương trình cần tìm có dạng $2x+3y\le 6$ hoặc $2x+3y\ge 6$. Để miền nghiệm chứa gốc toạ độ, ta thay $O(0; 0)$: $2\cdot 0+3\cdot 0=0$. Vì $0\le 6$ nên gốc toạ độ nằm về phía "$\le 6$".
+
+Vậy bất phương trình cần tìm là $2x+3y\le 6$.
 
 **Đáp số.** $2x+3y\le 6$.
 :::
@@ -407,7 +490,16 @@ Tại $O$: $2\cdot 0+3\cdot 0=0\le 6$, nên gốc toạ độ nằm về phía "
 3. Viết phủ định bằng "tồn tại".
 
 ::solution
-Thay $y=1$: $2x+1\le 7\iff x\le 3$. Với $x=4$: $2\cdot 4+1=9>7$, nên $(4; 1)$ không là nghiệm và $P$ sai.
+Thay $y=1$ vào bất phương trình $2x+y\le 7$, ta được $2x+1\le 7$. Chuyển vế và chia hai vế cho $2>0$, ta được $x\le 3$.
+$$2x+1\le 7\iff x\le 3.$$
+
+Như vậy, cặp $(x; 1)$ là nghiệm khi và chỉ khi $x\le 3$. Mệnh đề $P$ khẳng định điều này đúng với mọi số thực $x$, nên để chứng tỏ $P$ sai ta chỉ cần một phản ví dụ.
+
+Chọn $x=4$: $2\cdot 4+1=9$. Vì $9\le 7$ là sai nên $(4; 1)$ không là nghiệm của bất phương trình.
+
+Vậy mệnh đề $P$ sai.
+
+Mệnh đề phủ định của mệnh đề "Với mọi $x$, $A(x)$" là "Tồn tại $x$ sao cho $A(x)$ không đúng". Ở đây $A(x)$ là "$(x; 1)$ là nghiệm của $2x+y\le 7$", tức là $2x+1\le 7$; phủ định của $2x+1\le 7$ là $2x+1>7$. Do đó $\overline{P}$: "Tồn tại số thực $x$ sao cho $2x+1>7$", tức là có cặp $(x; 1)$ không là nghiệm. Mệnh đề $\overline{P}$ đúng, chẳng hạn với $x=4$.
 
 **Đáp số.** $P$ sai (phản ví dụ $x=4$). $\overline{P}$: "Tồn tại số thực $x$ sao cho $2x+1>7$", tức là có cặp $(x; 1)$ không là nghiệm.
 :::

@@ -304,13 +304,31 @@ d) $\log_{1/2}(x+1)>-1$.
 2. Look at the base, then solve; for logarithms also write the condition that the argument is positive.
 
 ::solution
-a) $9=\left(\dfrac13\right)^{-2}$ and the base $\dfrac13<1$, so $x>-2$.
+a) We have $9=\left(\dfrac13\right)^{-2}$, so the inequality becomes $\left(\dfrac13\right)^x<\left(\dfrac13\right)^{-2}$.
 
-b) $8=2^3$ and the base $2>1$, so $x^2-2x<3$, that is $x^2-2x-3<0$, giving $-1<x<3$.
+Since the base $\dfrac13<1$, the exponential function is decreasing; hence the inequality is equivalent to $x>-2$ (the direction reverses).
 
-c) The base $3>1$: $0<x-2<3^2=9$, giving $2<x<11$.
+So the solution set is $(-2, +\infty)$.
 
-d) $-1=\log_{1/2}2$ and the base $\dfrac12<1$, so $0<x+1<2$, giving $-1<x<1$.
+b) We have $8=2^3$, so the inequality becomes $2^{x^2-2x}<2^3$.
+
+Since the base $2>1$, the exponential function is increasing; hence the inequality is equivalent to $x^2-2x<3$, that is $x^2-2x-3<0$. The quadratic $x^2-2x-3=(x+1)(x-3)$ has roots $-1$ and $3$ and leading coefficient $1>0$, so $x^2-2x-3<0$ when $-1<x<3$.
+
+So the solution set is $(-1, 3)$.
+
+c) Condition: $x-2>0$, that is $x>2$.
+
+We have $2=\log_39$, so the inequality becomes $\log_3(x-2)<\log_39$. Since the base $3>1$, it is equivalent to $x-2<9$, that is $x<11$.
+
+Combining with the condition $x>2$, we get $2<x<11$. So the solution set is $(2, 11)$.
+
+d) Condition: $x+1>0$, that is $x>-1$.
+
+We have $-1=\log_{1/2}2$, so the inequality becomes $\log_{1/2}(x+1)>\log_{1/2}2$. Since the base $\dfrac12\in(0, 1)$, the logarithmic function is decreasing; hence the inequality is equivalent to $x+1<2$, that is $x<1$.
+
+Combining with the condition $x>-1$, we get $-1<x<1$. So the solution set is $(-1, 1)$.
+
+So the solution sets are $(-2, +\infty)$, $(-1, 3)$, $(2, 11)$ and $(-1, 1)$ respectively.
 
 **Answer.** a) $(-2, +\infty)$; b) $(-1, 3)$; c) $(2, 11)$; d) $(-1, 1)$.
 :::
@@ -334,13 +352,15 @@ d) The equation $\log_3(x^2)=4$ has two solutions.
 2. Part c: reverse when the base is less than $1$; part d: solve $x^2=81$.
 
 ::solution
-a) **True**: $5^x>0$ for all $x$.
+a) **True.** The exponential function $y=5^x$ always takes positive values: $5^x>0$ for all $x$. Hence $5^x=0$ is impossible and the equation has no solution.
 
-b) **False**: $2^2+3^2=13\neq5$.
+b) **False.** Substituting $x=2$ into the left-hand side: $2^2+3^2=4+9=13\neq5$. So $x=2$ is not a solution.
 
-c) **False**: $\log_{1/2}x>1\Leftrightarrow0<x<\dfrac12$.
+c) **False.** Condition: $x>0$. We have $1=\log_{1/2}\dfrac12$, so $\log_{1/2}x>\log_{1/2}\dfrac12$. Since the base $\dfrac12<1$, the inequality is equivalent to $0<x<\dfrac12$. The solution set is $\left(0, \dfrac12\right)$, not $\left(\dfrac12, +\infty\right)$.
 
-d) **True**: $x^2=81$ gives $x=\pm9$, and both satisfy $x^2>0$.
+d) **True.** Condition: $x^2>0$, that is $x\neq0$. We have $\log_3\left(x^2\right)=4\Leftrightarrow x^2=3^4=81\Leftrightarrow x=\pm9$. Both values satisfy $x\neq0$, so the equation has two solutions.
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -356,9 +376,19 @@ Suppose a motorbike costs $600$ million dong and its value falls by $12\%$ each 
 2. Calculate $\log_{0.88}0.5$, reverse the inequality, then take the suitable whole number.
 
 ::solution
-We need $0.88^t<0.5$. Since the base $0.88<1$, $t>\log_{0.88}0.5=\dfrac{\ln0.5}{\ln0.88}\approx5.42$. The smallest whole number of years is $6$.
+Let $t$ (years) be the time of use, $t>0$. The value of the motorbike is $V(t)=600\cdot0.88^t$ (million dong). We need $V(t)<300$.
 
-Check: $600\cdot0.88^5\approx316.6>300$ and $600\cdot0.88^6\approx278.6<300$.
+We have
+$$600\cdot0.88^t<300\Leftrightarrow0.88^t<0.5.$$
+
+Since the base $0.88<1$, the function $y=0.88^t$ is decreasing; taking logarithms to base $0.88$ on both sides reverses the inequality:
+$$t>\log_{0.88}0.5=\frac{\ln0.5}{\ln0.88}\approx5.42.$$
+
+The smallest whole number satisfying $t>5.42$ is $t=6$.
+
+Check: $V(5)=600\cdot0.88^5\approx316.6>300$ and $V(6)=600\cdot0.88^6\approx278.6<300$.
+
+So after at least $6$ years the value of the motorbike is below $300$ million dong.
 
 **Answer.** $6$ years.
 :::
@@ -374,9 +404,15 @@ The sound level is $L=10\log\dfrac{I}{I_0}$ (dB), with $I_0=10^{-12}$ W/m² (by 
 2. Solve, then multiply by $I_0$.
 
 ::solution
-We need $10\log\dfrac{I}{I_0}\le80$, that is $\log\dfrac{I}{I_0}\le8$, so $\dfrac{I}{I_0}\le10^8$ and $I\le10^8\cdot10^{-12}=10^{-4}$.
+The sound level is $L=10\log\dfrac{I}{I_0}$ (dB) with $I_0=10^{-12}$ W/m² and $I>0$. The regulation requires $L\le80$.
 
-So the largest intensity is $10^{-4}$ W/m².
+We have
+$$10\log\frac{I}{I_0}\le80\Leftrightarrow\log\frac{I}{I_0}\le8.$$
+
+Since the base $10>1$, the function $y=10^t$ is increasing; therefore
+$$\frac{I}{I_0}\le10^8\Leftrightarrow I\le10^8\cdot10^{-12}=10^{-4}.$$
+
+So the largest sound intensity allowed is $10^{-4}$ W/m².
 
 **Answer.** $10^{-4}$ W/m².
 :::
@@ -396,9 +432,15 @@ b) A solution with $\mathrm{pH}<3.5$ has $[\mathrm{H}^+]$ greater than which val
 2. Reverse the inequality because the function is decreasing.
 
 ::solution
-a) From $4\le\mathrm{pH}\le6$ and $[\mathrm{H}^+]=10^{-\mathrm{pH}}$ (decreasing) we get $10^{-6}\le[\mathrm{H}^+]\le10^{-4}$.
+We have $\mathrm{pH}=-\log[\mathrm{H}^+]$, so $[\mathrm{H}^+]=10^{-\mathrm{pH}}$. The function $y=10^{-p}$ is decreasing in $p$ (because $10^{-p}=\left(\dfrac1{10}\right)^p$ has base less than $1$).
 
-b) From $\mathrm{pH}<3.5$ we get $[\mathrm{H}^+]>10^{-3.5}\approx3.2\cdot10^{-4}$.
+a) From $4\le\mathrm{pH}\le6$ we get $-6\le-\mathrm{pH}\le-4$. Since the exponential function with base $10$ is increasing,
+$$10^{-6}\le10^{-\mathrm{pH}}\le10^{-4},\ \text{that is}\ 10^{-6}\le[\mathrm{H}^+]\le10^{-4}.$$
+So $[\mathrm{H}^+]$ lies in the interval $\left[10^{-6}, 10^{-4}\right]$ mol/litre.
+
+b) From $\mathrm{pH}<3.5$ we get $-\mathrm{pH}>-3.5$, so
+$$[\mathrm{H}^+]=10^{-\mathrm{pH}}>10^{-3.5}\approx3.2\cdot10^{-4}.$$
+So a solution with $\mathrm{pH}<3.5$ has $[\mathrm{H}^+]>3.2\cdot10^{-4}$ mol/litre.
 
 **Answer.** a) $10^{-6}\le[\mathrm{H}^+]\le10^{-4}$; b) $[\mathrm{H}^+]>3.2\cdot10^{-4}$ mol/litre.
 :::
@@ -414,7 +456,16 @@ Revisit continuous functions. Prove that the equation $\ln x=2-x$ has at least o
 2. Apply the intermediate value theorem.
 
 ::solution
-The function $g(x)=\ln x+x-2$ is continuous on $(0, +\infty)$. We have $g(1)=0+1-2=-1<0$ and $g(2)=\ln2+2-2=\ln2>0$. By the intermediate value theorem there is $c\in(1, 2)$ with $g(c)=0$, that is $\ln c=2-c$.
+The condition for the equation $\ln x=2-x$ is $x>0$. The equation is equivalent to $\ln x+x-2=0$.
+
+Consider the function $g(x)=\ln x+x-2$. It is a sum of functions that are continuous on $(0, +\infty)$, so $g$ is continuous on $(0, +\infty)$, and hence on the interval $[1, 2]$.
+
+We have
+$$g(1)=\ln1+1-2=0+1-2=-1<0,\qquad g(2)=\ln2+2-2=\ln2>0.$$
+
+So $g(1)\cdot g(2)<0$. By the intermediate value theorem there is $c\in(1, 2)$ such that $g(c)=0$, that is $\ln c+c-2=0$, or $\ln c=2-c$.
+
+So the equation $\ln x=2-x$ has at least one solution in the interval $(1, 2)$.
 
 **Answer.** The equation has a solution in $(1, 2)$.
 :::

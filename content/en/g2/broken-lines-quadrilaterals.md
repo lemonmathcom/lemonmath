@@ -166,7 +166,11 @@ Which line segments make up the broken line MNPQ?
 2. Then join P to Q.
 
 ::solution
-The broken line MNPQ is made of three line segments: MN, NP and PQ.
+A broken line is made of line segments joined one after another, and each segment joins two neighbouring points in the name of the broken line.
+
+The points of the broken line MNPQ, in order, are M, N, P, Q. The neighbouring pairs are M and N, N and P, P and Q.
+
+So the broken line MNPQ is made of three line segments: MN, NP and PQ.
 
 **Answer.** MN, NP, PQ.
 :::
@@ -182,8 +186,16 @@ The broken line EFGH has $EF=4$ cm, $FG=6$ cm and $GH=3$ cm. Find the length of 
 2. Add their lengths, and remember to write cm.
 
 ::solution
+Solution
+
+The length of a broken line is the sum of the lengths of its line segments. The broken line EFGH is made of three line segments EF, FG and GH.
+
 The length of the broken line EFGH is:
 $$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
+
+Step by step: $4+6=10$, then $10+3=13$.
+
+So the broken line EFGH is $13$ cm long.
 
 **Answer.** 13 cm.
 :::
@@ -199,7 +211,16 @@ The broken line ABC has $AB=8$ cm and $BC=7$ cm. Find the length of the broken l
 2. Bridge through 10: $8+7=8+2+5$.
 
 ::solution
+Solution
+
+The broken line ABC is made of two line segments AB and BC. Its length is the sum of the lengths of these two segments.
+
+The length of the broken line ABC is:
 $$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
+
+We add across $10$: $8+7=8+2+5=10+5=15$.
+
+So the broken line ABC is $15$ cm long.
 
 **Answer.** 15 cm.
 :::
@@ -215,7 +236,11 @@ How many vertices and how many sides does the quadrilateral ABCD have? Name the 
 2. Join neighbouring letters, and remember to join the last letter back to the first.
 
 ::solution
-The quadrilateral ABCD has 4 vertices, A, B, C and D, and 4 sides, AB, BC, CD and DA.
+The quadrilateral ABCD is named by its vertices in the order A, B, C, D. So the number of vertices is $4$.
+
+The sides are the line segments joining neighbouring vertices: AB, BC, CD and DA (the last vertex D joins back to the first vertex A). So the number of sides is also $4$.
+
+So the quadrilateral ABCD has $4$ vertices, A, B, C and D, and $4$ sides, AB, BC, CD and DA.
 
 **Answer.** 4 vertices, 4 sides.
 :::
@@ -234,9 +259,16 @@ Suppose a piece of wire is bent into a broken line made of three line segments t
 ::solution
 Solution
 
+The wire is bent into a broken line, so its length is the sum of the lengths of the three line segments.
+
 The length of the wire in centimetres is:
 $$9+4+6=19\ \text{(cm)}.$$
-Answer: 19 cm.
+
+Step by step: $9+4=13$, then $13+6=19$.
+
+So the wire is $19$ cm long.
+
+**Answer.** 19 cm.
 :::
 
 :::exercise
@@ -253,9 +285,16 @@ Suppose Mai uses a piece of wool to make a quadrilateral ABCD with sides $AB=4$ 
 ::solution
 Solution
 
+The wool makes the quadrilateral ABCD, so its length is the sum of the lengths of the four sides AB, BC, CD and DA.
+
 The length of the wool in centimetres is:
 $$4+5+4+5=18\ \text{(cm)}.$$
-Answer: 18 cm.
+
+We group the numbers in pairs: $(4+5)+(4+5)=9+9=18$.
+
+So the wool is $18$ cm long.
+
+**Answer.** 18 cm.
 :::
 
 :::exercise
@@ -269,10 +308,19 @@ Remember the lesson on measuring length. You measure with a ruler and find $AB=6
 2. Compare 6 and 8, then subtract the smaller from the larger.
 
 ::solution
+Solution
+
+The broken line ABC is made of two line segments AB and BC, so its length is the sum of the lengths of these two segments.
+
 The length of the broken line ABC is:
 $$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
-We have $8>6$, so BC is longer than AB. BC is longer than AB by:
+
+To compare the two line segments, we compare their measures: $8>6$, so BC is longer than AB.
+
+To find by how many centimetres BC is longer than AB, we subtract the smaller measure from the larger one. BC is longer than AB by:
 $$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
+
+So the broken line ABC is $14$ cm long; the line segment BC is longer than AB, by $2$ cm.
 
 **Answer.** 14 cm; BC is longer by 2 cm.
 :::
@@ -288,12 +336,19 @@ The broken line ABCD is 18 cm long. You know that $AB=7$ cm and $BC=5$ cm. How m
 2. Take that length away from 18.
 
 ::solution
+Solution
+
+The length of the broken line ABCD is the sum of the lengths of the three line segments AB, BC and CD. The whole broken line is $18$ cm long, so we find CD by subtracting the lengths of the two known segments from $18$ cm.
+
 AB and BC together are:
 $$7+5=12\ \text{(cm)}.$$
+
 So CD is:
 $$18-12=6\ \text{(cm)}.$$
 
-**Check.** $7+5+6=18$, which is correct.
+Check: $7+5+6=12+6=18$. Correct.
+
+So the line segment CD is $6$ cm long.
 
 **Answer.** 6 cm.
 :::

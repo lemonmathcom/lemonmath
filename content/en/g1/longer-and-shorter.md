@@ -167,7 +167,11 @@ The red string is longer than the blue string, and the blue string is longer tha
 2. Which string is first and which is last?
 
 ::solution
-Red is longer than blue, and blue is longer than yellow. So the order from longest to shortest is red, blue, yellow.
+The red string is longer than the blue string, and the blue string is longer than the yellow string. So the red string is longer than the yellow string.
+
+The order from longest to shortest is: the red string, the blue string, the yellow string.
+
+So the red string is the longest and the yellow string is the shortest.
 
 **Answer.** The red string is the longest and the yellow string is the shortest.
 :::
@@ -183,7 +187,11 @@ A line segment has its left end at the 0 mark of a ruler and its right end at th
 2. Read the number at the other end and write the unit.
 
 ::solution
-The line segment starts at the 0 mark and ends at the 9 mark, so it is 9 cm long.
+The left end of the line segment is at the $0$ mark of the ruler, so the length of the line segment equals the number at the mark of its right end.
+
+The right end is at the $9$ mark, so the line segment is $9$ cm long.
+
+So the line segment is $9$ cm long.
 
 **Answer.** 9 cm.
 :::
@@ -205,11 +213,16 @@ c) $8\ \text{cm}+5\ \text{cm}-3\ \text{cm}$
 2. Part c: work from left to right.
 
 ::solution
-a) $6\ \text{cm}+9\ \text{cm}=15\ \text{cm}$.
+a) Add the two numbers and write the unit cm:
+$$6\ \text{cm}+9\ \text{cm}=15\ \text{cm}.$$
 
-b) $14\ \text{cm}-6\ \text{cm}=8\ \text{cm}$.
+b) Subtract the two numbers and write the unit cm:
+$$14\ \text{cm}-6\ \text{cm}=8\ \text{cm}.$$
 
-c) $8\ \text{cm}+5\ \text{cm}-3\ \text{cm}=13\ \text{cm}-3\ \text{cm}=10\ \text{cm}$.
+c) Work from left to right: add first, then subtract.
+$$8\ \text{cm}+5\ \text{cm}-3\ \text{cm}=13\ \text{cm}-3\ \text{cm}=10\ \text{cm}.$$
+
+So a) the result is $15$ cm; b) the result is $8$ cm; c) the result is $10$ cm.
 
 **Answer.** a) 15 cm; b) 8 cm; c) 10 cm.
 :::
@@ -225,8 +238,14 @@ Ha's pencil is 12 cm long and Minh's pencil is 9 cm long. Whose pencil is longer
 2. Work out the difference between the two measurements.
 
 ::solution
-We have $12>9$, so Ha's pencil is longer. The difference is:
+Ha's pencil is $12$ cm long and Minh's pencil is $9$ cm long. We have $12>9$, so Ha's pencil is longer.
+
+The difference is:
 $$12\ \text{cm}-9\ \text{cm}=3\ \text{cm}.$$
+
+*Check.* $9+3=12$. Correct.
+
+So Ha's pencil is longer, by $3$ cm.
 
 **Answer.** Ha's pencil is longer, by 3 cm.
 :::
@@ -245,11 +264,14 @@ Suppose a plant in a pot is 8 cm tall. Two weeks later it is 15 cm tall. By how 
 ::solution
 Solution
 
-The plant grew by:
+The plant grew by this many centimetres:
 $$15-8=7\ \text{(cm)}.$$
-Answer: 7 cm.
 
-**Check.** $8+7=15$, which is correct.
+*Check.* $8+7=15$. Correct.
+
+So the plant grew by $7$ cm.
+
+**Answer.** 7 cm.
 :::
 
 :::exercise
@@ -266,9 +288,14 @@ The red string is 8 cm long. The blue string is 5 cm longer than the red string.
 ::solution
 Solution
 
+The blue string is $5$ cm longer than the red string, so we add.
+
 The blue string is this many centimetres long:
 $$8+5=13\ \text{(cm)}.$$
-Answer: 13 cm.
+
+So the blue string is $13$ cm long.
+
+**Answer.** 13 cm.
 :::
 
 :::exercise
@@ -284,9 +311,14 @@ Remember the addition facts bridging through 10. Line segment AB is 9 cm long an
 ::solution
 Solution
 
+The two segments are joined to make one long line, so we add. We work out $9+6$ by bridging through $10$: split $6=1+5$, then $9+1=10$ and $10+5=15$.
+
 The joined line is this many centimetres long:
 $$9+6=15\ \text{(cm)}.$$
-Answer: 15 cm.
+
+So the joined line is $15$ cm long.
+
+**Answer.** 15 cm.
 :::
 
 :::exercise Challenge
@@ -300,9 +332,16 @@ Mai lays a pencil along a ruler, but the left end of the pencil is at the 2 mark
 2. How many gaps are there from the 0 mark to the 2 mark? Which part must you leave out?
 
 ::solution
-From the 0 mark to the 9 mark there are 9 gaps, and from the 0 mark to the 2 mark there are 2 gaps. The part of the pencil between the 2 mark and the 9 mark has:
+From the $0$ mark to the $9$ mark there are $9$ gaps, and from the $0$ mark to the $2$ mark there are $2$ gaps.
+
+The part of the pencil between the $2$ mark and the $9$ mark has:
 $$9-2=7\ \text{(gaps)}.$$
-Each gap is 1 cm long, so the pencil is 7 cm long.
+
+Each gap is $1$ cm long, so the pencil is $7$ cm long.
+
+*Check.* $2+7=9$. Correct.
+
+So the pencil is $7$ cm long.
 
 **Answer.** 7 cm.
 :::

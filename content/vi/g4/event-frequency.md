@@ -132,7 +132,14 @@ Tung đồng xu $8$ lần được: N, N, S, N, S, S, N, N. Mỗi mặt xuất h
 3. Cộng lại xem có bằng $8$ không.
 
 ::solution
-N xuất hiện $5$ lần, S xuất hiện $3$ lần. Kiểm tra $5+3=8$.
+Ta đếm từng mặt trong dãy kết quả N, N, S, N, S, S, N, N.
+
+- Mặt ngửa (N) xuất hiện ở lần tung thứ $1$, $2$, $4$, $7$, $8$, tức là $5$ lần.
+- Mặt sấp (S) xuất hiện ở lần tung thứ $3$, $5$, $6$, tức là $3$ lần.
+
+Kiểm tra: $5+3=8$, đúng bằng số lần tung.
+
+Vậy mặt ngửa xuất hiện $5$ lần, mặt sấp xuất hiện $3$ lần.
 
 **Đáp số.** Ngửa $5$ lần, sấp $3$ lần.
 :::
@@ -148,7 +155,15 @@ Rút một thẻ từ ba loại thẻ A, B, C rồi trả lại, làm $10$ lần
 2. Kiểm tra tổng bằng $10$.
 
 ::solution
-A: $5$ lần, B: $3$ lần, C: $2$ lần. Kiểm tra: $5+3+2=10$.
+Ta đếm từng loại thẻ trong dãy A, B, A, C, A, B, A, A, C, B.
+
+- Thẻ A được rút ở lần thứ $1$, $3$, $5$, $7$, $8$, tức là $5$ lần.
+- Thẻ B được rút ở lần thứ $2$, $6$, $10$, tức là $3$ lần.
+- Thẻ C được rút ở lần thứ $4$, $9$, tức là $2$ lần.
+
+Kiểm tra: $5+3+2=10$, đúng bằng số lần rút.
+
+Vậy thẻ A được rút $5$ lần, thẻ B được rút $3$ lần, thẻ C được rút $2$ lần.
 
 **Đáp số.** A $5$ lần, B $3$ lần, C $2$ lần.
 :::
@@ -164,7 +179,14 @@ Em hãy nhớ lại bài biểu đồ cột: biểu đồ cho số lần xuất 
 2. Cộng ba số; tìm số lớn nhất.
 
 ::solution
-$3+5+4=12$ (lần). Cột cao nhất là cột mặt $2$ ($5$ lần).
+Chiều cao của mỗi cột cho biết số lần mặt đó xuất hiện: mặt $1$ xuất hiện $3$ lần, mặt $2$ xuất hiện $5$ lần, mặt $3$ xuất hiện $4$ lần.
+
+Tổng số lần gieo là tổng số lần xuất hiện của ba mặt:
+$$3+5+4=12\ \text{(lần)}.$$
+
+Ta so sánh các số $3$, $5$, $4$: số lớn nhất là $5$, ứng với cột cao nhất, đó là cột của mặt $2$.
+
+Vậy tổng số lần gieo là $12$ lần, và mặt $2$ xuất hiện nhiều nhất ($5$ lần).
 
 **Đáp số.** $12$ lần; mặt $2$.
 :::
@@ -180,7 +202,14 @@ Tung đồng xu $20$ lần, mặt ngửa xuất hiện $11$ lần. Mặt sấp x
 2. Kiểm tra bằng phép cộng.
 
 ::solution
-$20-11=9$ (lần). Kiểm tra: $11+9=20$.
+Mỗi lần tung đồng xu cho đúng một mặt: ngửa hoặc sấp. Vì vậy số lần sấp bằng số lần tung trừ đi số lần ngửa.
+
+Số lần mặt sấp xuất hiện là:
+$$20-11=9\ \text{(lần)}.$$
+
+*Thử lại.* $11+9=20$, đúng bằng số lần tung.
+
+Vậy mặt sấp xuất hiện $9$ lần.
 
 **Đáp số.** $9$ lần.
 :::
@@ -196,7 +225,13 @@ Vì sao tổng số lần xuất hiện của hai mặt đồng xu luôn bằng 
 2. Cộng $6$ và $4$.
 
 ::solution
-Mỗi lần tung chỉ cho một mặt, nên mỗi lần được đếm đúng một lần, và đếm hết thì được đúng số lần tung. Với $6+4=10$, đúng bằng $10$ lần tung.
+Mỗi lần tung đồng xu chỉ cho một mặt: ngửa hoặc sấp, không thể có cả hai. Vì vậy mỗi lần tung được đếm đúng một lần, hoặc ở mặt ngửa, hoặc ở mặt sấp.
+
+Do đó khi cộng số lần xuất hiện của hai mặt, ta đếm hết tất cả các lần tung, và tổng đó bằng số lần tung.
+
+Kiểm tra với ngửa $6$ lần, sấp $4$ lần: $6+4=10$, đúng bằng $10$ lần tung.
+
+Vậy tổng số lần xuất hiện của hai mặt luôn bằng số lần tung, vì mỗi lần tung có đúng một kết quả.
 
 **Đáp số.** Vì mỗi lần tung có đúng một kết quả; $6+4=10$.
 :::
@@ -212,7 +247,17 @@ Lan đếm dãy Đ, X, Đ, Đ, X và nói: "Đ xuất hiện $4$ lần, X xuất
 2. Đếm lại từng chữ.
 
 ::solution
-Dãy có $5$ lần thử mà Lan tính $4+2=6$, nên đếm trùng. Đếm đúng: Đ có $3$ lần, X có $2$ lần ($3+2=5$).
+Dãy Đ, X, Đ, Đ, X có $5$ lần thử.
+
+Lan nói Đ xuất hiện $4$ lần và X xuất hiện $2$ lần, nên tổng là $4+2=6$. Tổng này lớn hơn $5$, nên Lan đã đếm trùng một lần.
+
+Ta đếm lại:
+- Đ xuất hiện ở vị trí thứ $1$, $3$, $4$, tức là $3$ lần.
+- X xuất hiện ở vị trí thứ $2$, $5$, tức là $2$ lần.
+
+Kiểm tra: $3+2=5$, đúng bằng số lần thử.
+
+Vậy Lan đã đếm Đ thừa một lần; đếm đúng thì Đ xuất hiện $3$ lần và X xuất hiện $2$ lần.
 
 **Đáp số.** Đ $3$ lần, X $2$ lần.
 :::
@@ -231,7 +276,23 @@ c) Xe đạp nhiều hơn ô tô bao nhiêu chiếc?
 2. Lấy $30$ trừ đi để tìm số người đi bộ.
 
 ::solution
-a) Xe đạp, xe máy, ô tô: $12+9+5=26$. Người đi bộ: $30-26=4$. b) $9+5=14$ (chiếc). c) $12-5=7$ (chiếc).
+Số người đi bộ bằng tổng số lượt qua trừ đi số lượt của các loại xe.
+
+a) Số xe đạp, xe máy và ô tô đi qua là:
+$$12+9+5=26\ \text{(chiếc)}.$$
+Số người đi bộ là:
+$$30-26=4\ \text{(người)}.$$
+Vậy có $4$ người đi bộ.
+
+b) Số xe máy và ô tô đi qua tất cả là:
+$$9+5=14\ \text{(chiếc)}.$$
+Vậy xe máy và ô tô đi qua tất cả $14$ chiếc.
+
+c) Số xe đạp nhiều hơn số ô tô là:
+$$12-5=7\ \text{(chiếc)}.$$
+Vậy xe đạp nhiều hơn ô tô $7$ chiếc.
+
+Vậy có $4$ người đi bộ; xe máy và ô tô đi qua tất cả $14$ chiếc; xe đạp nhiều hơn ô tô $7$ chiếc.
 
 **Đáp số.** a) $4$ người; b) $14$ chiếc; c) $7$ chiếc.
 :::
@@ -247,9 +308,17 @@ Gieo một con xúc xắc $20$ lần, các mặt chẵn xuất hiện tất cả
 2. Số lần mặt lẻ bằng $20$ trừ số lần mặt chẵn.
 
 ::solution
-Mặt $4$: $12-5-3=4$ (lần). Mặt lẻ: $20-12=8$ (lần).
+Các mặt chẵn của xúc xắc là mặt $2$, mặt $4$ và mặt $6$. Tổng số lần xuất hiện của ba mặt này là $12$ lần.
 
-**Kiểm tra.** $5+4+3=12$ và $12+8=20$. Đúng.
+Số lần mặt $4$ xuất hiện là:
+$$12-5-3=4\ \text{(lần)}.$$
+
+Mỗi lần gieo cho một mặt, chẵn hoặc lẻ, nên số lần xuất hiện các mặt lẻ bằng số lần gieo trừ đi số lần xuất hiện các mặt chẵn:
+$$20-12=8\ \text{(lần)}.$$
+
+*Kiểm tra.* $5+4+3=12$ và $12+8=20$. Đúng.
+
+Vậy mặt $4$ xuất hiện $4$ lần, và các mặt lẻ xuất hiện tất cả $8$ lần.
 
 **Đáp số.** Mặt $4$ xuất hiện $4$ lần; mặt lẻ $8$ lần.
 :::

@@ -140,7 +140,17 @@ d) $9$ trăm.
 2. Thêm đủ chữ số $0$.
 
 ::solution
-$3$ chục là $30$, $8$ chục là $80$, $5$ trăm là $500$, $9$ trăm là $900$.
+Số tròn chục có chữ số hàng đơn vị là $0$. Số tròn trăm có chữ số hàng chục và hàng đơn vị đều là $0$.
+
+a) $3$ chục là $3$ lần mười, nên $3$ chục là $30$.
+
+b) $8$ chục là $8$ lần mười, nên $8$ chục là $80$.
+
+c) $5$ trăm là $5$ lần một trăm, nên $5$ trăm là $500$.
+
+d) $9$ trăm là $9$ lần một trăm, nên $9$ trăm là $900$.
+
+Vậy các số cần viết là $30$, $80$, $500$ và $900$.
 
 **Đáp số.** a) $30$; b) $80$; c) $500$; d) $900$.
 :::
@@ -160,7 +170,13 @@ b) $100, 200, \square, 400, \square$.
 2. Đếm tiếp theo cách đó.
 
 ::solution
-a) Đếm thêm $10$: $10, 20, 30, 40, 50, 60$. b) Đếm thêm $100$: $100, 200, 300, 400, 500$.
+Ta xem hai số đứng cạnh nhau hơn kém nhau bao nhiêu để biết cần đếm thêm mấy.
+
+a) Dãy $10, 20, 30, 40, 50, 60$ đếm thêm $10$. Cứ thêm $10$ thì được số kế tiếp: $20+10=30$ và $40+10=50$. Kiểm tra: $50+10=60$, đúng với số cuối của dãy.
+
+b) Dãy $100, 200, 300, 400, 500$ đếm thêm $100$. Cứ thêm $100$ thì được số kế tiếp: $200+100=300$ và $400+100=500$.
+
+Vậy các số còn thiếu là: ở câu a) $30$ và $50$; ở câu b) $300$ và $500$.
 
 **Đáp số.** a) $30$ và $50$; b) $300$ và $500$.
 :::
@@ -180,7 +196,11 @@ b) $1$ trăm $=\square$ chục.
 2. Điền từng chỗ trống.
 
 ::solution
-Mười chục gộp thành một trăm, và một trăm có mười chục.
+a) Mười chục gộp lại thành một trăm, nên $10$ chục $=1$ trăm.
+
+b) Ngược lại, một trăm có thể chia thành mười chục, nên $1$ trăm $=10$ chục.
+
+Vậy $10$ chục bằng $1$ trăm và $1$ trăm bằng $10$ chục.
 
 **Đáp số.** a) $1$; b) $10$.
 :::
@@ -196,7 +216,15 @@ Trong các số $25, 40, 70, 56, 90$, những số nào là số tròn chục?
 2. Chọn các số tận cùng là $0$.
 
 ::solution
-$40$, $70$, $90$ có chữ số cuối là $0$. $25$ và $56$ có chữ số cuối là $5$ và $6$.
+Số tròn chục là số có chữ số hàng đơn vị bằng $0$. Ta xét chữ số cuối của từng số.
+
+- Số $25$ có chữ số cuối là $5$, khác $0$ nên không phải số tròn chục.
+- Số $40$ có chữ số cuối là $0$ nên là số tròn chục.
+- Số $70$ có chữ số cuối là $0$ nên là số tròn chục.
+- Số $56$ có chữ số cuối là $6$, khác $0$ nên không phải số tròn chục.
+- Số $90$ có chữ số cuối là $0$ nên là số tròn chục.
+
+Vậy các số tròn chục là $40$, $70$ và $90$.
 
 **Đáp số.** $40$, $70$, $90$.
 :::
@@ -218,7 +246,13 @@ Hai số này khác nhau ở đâu? Vì sao?
 2. Viết $7$ trăm rồi so sánh số chữ số.
 
 ::solution
-$7$ chục là $70$. $7$ trăm là $700$. Số $700$ có thêm một chữ số $0$ vì trăm lớn hơn chục.
+a) Bảy mươi là $7$ chục, viết là $70$ (hai chữ số).
+
+b) Bảy trăm là $7$ trăm, viết là $700$ (ba chữ số, có hai chữ số $0$).
+
+Hai số này đều có chữ số $7$ ở đầu, nhưng $700$ có thêm một chữ số $0$ so với $70$. Chữ số $7$ ở số $70$ đứng ở hàng chục, còn ở số $700$ đứng ở hàng trăm. Vì một trăm lớn hơn một chục nên $7$ trăm lớn hơn $7$ chục, do đó số $700$ phải có thêm một chữ số $0$.
+
+Vậy $70$ và $700$ khác nhau ở số chữ số $0$: số $700$ có thêm một chữ số $0$ vì hàng trăm lớn hơn hàng chục.
 
 **Đáp số.** a) $70$; b) $700$.
 :::
@@ -234,7 +268,11 @@ Lan viết "$6$ trăm là $60$". Lan sai ở đâu? Sửa lại cho đúng.
 2. Viết lại $6$ trăm.
 
 ::solution
-$60$ là $6$ chục, không phải $6$ trăm. $6$ trăm phải viết hai chữ số $0$.
+Lan viết "$6$ trăm là $60$". Ta xét số $60$: chữ số $6$ ở hàng chục, nên $60$ là $6$ chục, không phải $6$ trăm.
+
+Muốn viết $6$ trăm, chữ số $6$ phải ở hàng trăm, tức là sau chữ số $6$ có hai chữ số $0$. Vậy $6$ trăm là $600$.
+
+Vậy Lan sai ở chỗ viết $60$ (là $6$ chục) thay cho $600$; viết đúng là $6$ trăm là $600$.
 
 **Đáp số.** $6$ trăm là $600$.
 :::
@@ -250,7 +288,14 @@ Mỗi hộp có $10$ chiếc bút. Có $8$ hộp. Hỏi có bao nhiêu chiếc b
 2. Viết $8$ chục rồi ghi đáp số có đơn vị.
 
 ::solution
-$8$ hộp là $8$ chục bút, tức là $80$ chiếc bút.
+Bài giải
+
+Mỗi hộp có $10$ chiếc bút, tức là $1$ chục chiếc bút. Có $8$ hộp nên có $8$ chục chiếc bút.
+
+Số chiếc bút là:
+$$10\times8=80\ \text{(chiếc)}$$
+
+Vậy $8$ chục là $80$, nên có $80$ chiếc bút.
 
 **Đáp số.** $80$ chiếc bút.
 :::
@@ -266,9 +311,17 @@ Có $10$ hộp, mỗi hộp $100$ viên bi. Người ta lấy ra $4$ hộp. Còn
 2. Đổi số hộp còn lại ra số trăm viên.
 
 ::solution
-Số hộp còn lại là $10-4=6$ hộp. Mỗi hộp $100$ viên, nên $6$ hộp là $6$ trăm, tức $600$ viên.
+Bài giải
 
-**Kiểm tra.** $600+400=1000$. Đúng.
+Có $10$ hộp, lấy ra $4$ hộp nên số hộp còn lại là:
+$$10-4=6\ \text{(hộp)}$$
+
+Mỗi hộp có $100$ viên bi, nên $6$ hộp là $6$ trăm viên bi, tức là
+$$100\times6=600\ \text{(viên bi)}$$
+
+*Kiểm tra.* Số viên bi đã lấy ra là $400$ viên, và $600+400=1000$, đúng bằng số viên bi lúc đầu.
+
+Vậy còn lại $600$ viên bi.
 
 **Đáp số.** $600$ viên bi.
 :::

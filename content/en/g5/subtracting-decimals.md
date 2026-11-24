@@ -128,7 +128,14 @@ Set out and work out $8.95-4.32$.
 2. Subtract place by place from right to left, then put in the decimal point.
 
 ::solution
+Set out the subtraction so that digits of the same place value are in the same column and the decimal points are in line, then subtract as with whole numbers (from right to left):
 $$\begin{array}{r} 8.95 \\ -\ 4.32 \\ \hline 4.63 \end{array}$$
+
+Hundredths: $5-2=3$, write $3$. Tenths: $9-3=6$, write $6$. Ones: $8-4=4$, write $4$. Put the decimal point in the difference in line with the decimal points above.
+
+Check: $4.63+4.32=8.95$. Correct.
+
+So $8.95-4.32=4.63$.
 
 **Answer.** $4.63$.
 :::
@@ -144,9 +151,14 @@ Work out $15.7-6.9$.
 2. Regroup $1$ from the ones place, then subtract place by place.
 
 ::solution
-$15.7-6.9=8.8$.
+Both numbers have one decimal place, so we set out the subtraction and work it out:
+$$\begin{array}{r} 15.7 \\ -\ \ 6.9 \\ \hline 8.8 \end{array}$$
 
-**Check.** $8.8+6.9=15.7$. Correct.
+Tenths: $7$ is less than $9$, so take $17-9=8$, write $8$ and carry $1$. Ones: $6+1=7$; $5$ is less than $7$, so take $15-7=8$, write $8$ and carry $1$. Tens: $0+1=1$; $1-1=0$, which is not written. Put the decimal point in line.
+
+Check: $8.8+6.9=15.7$. Correct.
+
+So $15.7-6.9=8.8$.
 
 **Answer.** $8.8$.
 :::
@@ -162,7 +174,14 @@ Work out $20.5-8.76$.
 2. Set out the subtraction and subtract, regrouping when needed.
 
 ::solution
-$20.50-8.76=11.74$.
+The minuend $20.5$ has one decimal place while the subtrahend $8.76$ has two. We write one extra $0$ at the right end of the decimal part of $20.5$ to get $20.50$, then set out the subtraction:
+$$\begin{array}{r} 20.50 \\ -\ \ 8.76 \\ \hline 11.74 \end{array}$$
+
+Hundredths: $0$ is less than $6$, so take $10-6=4$, write $4$ and carry $1$. Tenths: $7+1=8$; $5$ is less than $8$, so take $15-8=7$, write $7$ and carry $1$. Ones: $8+1=9$; $0$ is less than $9$, so take $10-9=1$, write $1$ and carry $1$. Tens: $0+1=1$; $2-1=1$, write $1$.
+
+Check: $11.74+8.76=20.50$. Correct.
+
+So $20.5-8.76=11.74$.
 
 **Answer.** $11.74$.
 :::
@@ -178,7 +197,14 @@ Work out $6-2.8$.
 2. Set out the subtraction and subtract.
 
 ::solution
-$6.0-2.8=3.2$.
+The minuend $6$ is a whole number. We write $6=6.0$ so that both numbers have one decimal place, then set out the subtraction:
+$$\begin{array}{r} 6.0 \\ -\ 2.8 \\ \hline 3.2 \end{array}$$
+
+Tenths: $0$ is less than $8$, so take $10-8=2$, write $2$ and carry $1$. Ones: $2+1=3$; $6-3=3$, write $3$. Put the decimal point in line.
+
+Check: $3.2+2.8=6.0$. Correct.
+
+So $6-2.8=3.2$.
 
 **Answer.** $3.2$.
 :::
@@ -194,7 +220,16 @@ Write $>$, $<$ or $=$ in the box: $14.5-6.25 \;\square\; 8.5$.
 2. Compare the result with $8.5=8.50$.
 
 ::solution
-$14.50-6.25=8.25$. Since $8.25<8.50$, we have $14.5-6.25<8.5$.
+We work out the left-hand side and then compare it with $8.5$.
+
+Write $14.5=14.50$ and subtract:
+$$14.50-6.25=8.25.$$
+
+Write $8.5=8.50$. The numbers $8.25$ and $8.50$ have equal whole-number parts; in the tenths place $2<5$, so $8.25<8.50$.
+
+Hence $14.5-6.25<8.5$.
+
+So the sign to write in the box is $<$.
 
 **Answer.** The sign $<$.
 :::
@@ -210,10 +245,16 @@ A sack of sugar weighs $25.5$ kg. A shop sells $18.75$ kg of it. How many kilogr
 2. Work out $25.50-18.75$, write the unit in the answer, then check by addition.
 
 ::solution
-The sugar left is:
-$$25.50-18.75=6.75\ \text{(kg)}.$$
+Solution
 
-**Check.** $6.75+18.75=25.50$. Correct.
+The number of kilograms of sugar left in the sack is:
+$$25.50-18.75=6.75\ \text{(kg)}$$
+
+Hundredths: $0-5$ is not possible, so take $10-5=5$ and carry $1$. Tenths: $7+1=8$; $5-8$ is not possible, so take $15-8=7$ and carry $1$. Ones: $8+1=9$; $5-9$ is not possible, so take $15-9=6$ and carry $1$. Tens: $1+1=2$; $2-2=0$.
+
+Check: $6.75+18.75=25.50$. Correct.
+
+So there are $6.75$ kg of sugar left in the sack.
 
 **Answer.** $6.75$ kg.
 :::
@@ -229,7 +270,15 @@ Remember the last lesson: work out $4.75+3.6$. Then subtract $5.9$ from your ans
 2. Write $5.9=5.90$ and subtract it from the sum.
 
 ::solution
-$4.75+3.60=8.35$. Then $8.35-5.90=2.45$.
+Step 1: work out $4.75+3.6$. Write $3.6=3.60$ and add:
+$$4.75+3.60=8.35.$$
+
+Step 2: subtract $5.9$ from this result. Write $5.9=5.90$ and subtract:
+$$8.35-5.90=2.45.$$
+
+Check: $2.45+5.90=8.35$. Correct.
+
+So the final result is $2.45$.
 
 **Answer.** $2.45$.
 :::
@@ -245,9 +294,15 @@ Find $x$, given that $x+3.75=10.2$.
 2. Write $10.2=10.20$ and subtract.
 
 ::solution
-We have $x=10.2-3.75=10.20-3.75=6.45$.
+In an addition, an unknown addend equals the sum minus the known addend. Hence
+$$x=10.2-3.75.$$
 
-**Check.** $6.45+3.75=10.20$. Correct.
+Write $10.2=10.20$ and subtract:
+$$x=10.20-3.75=6.45.$$
+
+Check: $6.45+3.75=10.20$. Correct.
+
+So $x=6.45$.
 
 **Answer.** $x=6.45$.
 :::

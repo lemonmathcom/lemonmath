@@ -219,7 +219,14 @@ Xác định vị trí tương đối của hai đường thẳng $x-3y+2=0$ và
 2. So sánh và kết luận.
 
 ::solution
-$\dfrac{1}{-2}=\dfrac{-3}{6}=\dfrac{2}{-4}=-\dfrac12$. Ba tỉ số bằng nhau, nên hai phương trình tỉ lệ.
+Xét hai đường thẳng $d_1: x-3y+2=0$ và $d_2: -2x+6y-4=0$. Ta so sánh các hệ số tương ứng $(a_1; b_1; c_1)=(1; -3; 2)$ và $(a_2; b_2; c_2)=(-2; 6; -4)$.
+
+Ta có
+$$\frac{a_1}{a_2}=\frac{1}{-2}=-\frac12,\qquad \frac{b_1}{b_2}=\frac{-3}{6}=-\frac12,\qquad \frac{c_1}{c_2}=\frac{2}{-4}=-\frac12.$$
+
+Ba tỉ số bằng nhau, nên hai phương trình tỉ lệ. Thật vậy, $-2(x-3y+2)=-2x+6y-4$, tức là phương trình của $d_2$ nhận được bằng cách nhân hai vế phương trình của $d_1$ với $-2$. Vì vậy hai phương trình có cùng tập nghiệm.
+
+Vậy hai đường thẳng đã cho trùng nhau.
 
 **Đáp số.** Hai đường thẳng trùng nhau.
 :::
@@ -235,7 +242,19 @@ Tìm giao điểm của hai đường thẳng $3x+2y-6=0$ và $x-y+2=0$.
 2. Thế vào phương trình thứ nhất.
 
 ::solution
-Thế $x=y-2$: $3(y-2)+2y-6=0\iff 5y=12\iff y=\dfrac{12}{5}$, suy ra $x=\dfrac{12}{5}-2=\dfrac25$.
+Giao điểm của hai đường thẳng có toạ độ là nghiệm của hệ phương trình
+$$\begin{cases}3x+2y-6=0\\ x-y+2=0.\end{cases}$$
+
+Từ phương trình thứ hai, ta có $x=y-2$.
+
+Thế $x=y-2$ vào phương trình thứ nhất, ta được
+$$\begin{aligned}3(y-2)+2y-6&=0\\ 3y-6+2y-6&=0\\ 5y&=12\\ y&=\frac{12}{5}.\end{aligned}$$
+
+Suy ra $x=y-2=\dfrac{12}{5}-2=\dfrac25$.
+
+Kiểm tra: $3\cdot\dfrac25+2\cdot\dfrac{12}{5}-6=\dfrac{6+24}{5}-6=0$ và $\dfrac25-\dfrac{12}{5}+2=-2+2=0$.
+
+Vậy giao điểm của hai đường thẳng là $\left(\dfrac25; \dfrac{12}{5}\right)$.
 
 **Đáp số.** $\left(\dfrac25; \dfrac{12}{5}\right)$.
 :::
@@ -251,7 +270,18 @@ Tính góc giữa hai đường thẳng $x+y=0$ và $x+3y-2=0$ (đơn vị: đ�
 2. Tính $\cos\varphi$, rồi dùng máy tính để tìm $\varphi$.
 
 ::solution
-$\cos\varphi=\dfrac{|1+3|}{\sqrt2\cdot\sqrt{10}}=\dfrac{4}{\sqrt{20}}=\dfrac{2}{\sqrt5}$, nên $\varphi\approx 26{,}57^\circ$.
+Gọi $\varphi$ là góc giữa hai đường thẳng $x+y=0$ và $x+3y-2=0$. Hai đường thẳng có vectơ pháp tuyến lần lượt là $\vec{n}_1=(1; 1)$ và $\vec{n}_2=(1; 3)$.
+
+Áp dụng công thức góc giữa hai đường thẳng
+$$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|},$$
+ta có $\vec{n}_1\cdot\vec{n}_2=1\cdot1+1\cdot3=4$, $|\vec{n}_1|=\sqrt{1+1}=\sqrt2$ và $|\vec{n}_2|=\sqrt{1+9}=\sqrt{10}$.
+
+Do đó
+$$\cos\varphi=\frac{|1+3|}{\sqrt2\cdot\sqrt{10}}=\frac{4}{\sqrt{20}}=\frac{2}{\sqrt5}.$$
+
+Suy ra $\varphi\approx 26{,}57^\circ$ (làm tròn đến hàng phần trăm).
+
+Vậy góc giữa hai đường thẳng đã cho xấp xỉ $26{,}57^\circ$.
 
 **Đáp số.** $26{,}57$.
 :::
@@ -267,7 +297,13 @@ Tìm khoảng cách từ gốc toạ độ đến đường thẳng $5x+12y-26=0
 2. Tính $\sqrt{5^2+12^2}$.
 
 ::solution
-$d=\dfrac{|0+0-26|}{\sqrt{25+144}}=\dfrac{26}{13}=2$.
+Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $ax+by+c=0$ là
+$$d=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$$
+
+Áp dụng với $M=O(0; 0)$ và đường thẳng $5x+12y-26=0$ (có $a=5$, $b=12$, $c=-26$), ta được
+$$d=\frac{|5\cdot0+12\cdot0-26|}{\sqrt{5^2+12^2}}=\frac{26}{\sqrt{25+144}}=\frac{26}{\sqrt{169}}=\frac{26}{13}=2.$$
+
+Vậy khoảng cách từ gốc toạ độ đến đường thẳng đã cho bằng $2$.
 
 **Đáp số.** $2$.
 :::
@@ -283,7 +319,17 @@ Tìm khoảng cách giữa hai đường thẳng song song $2x-y+1=0$ và $2x-y-
 2. Thay vào công thức.
 
 ::solution
-Hai phương trình có cùng $a=2$, $b=-1$. $d=\dfrac{|1-(-4)|}{\sqrt{4+1}}=\dfrac{5}{\sqrt5}=\sqrt5$.
+Hai đường thẳng $2x-y+1=0$ và $2x-y-4=0$ có cùng $a=2$, $b=-1$ nên chúng song song (hai hằng số $1\ne-4$ khác nhau).
+
+Khoảng cách giữa hai đường thẳng song song $ax+by+c_1=0$ và $ax+by+c_2=0$ là
+$$d=\frac{|c_1-c_2|}{\sqrt{a^2+b^2}}.$$
+
+Ở đây $c_1=1$, $c_2=-4$, nên
+$$d=\frac{|1-(-4)|}{\sqrt{4+1}}=\frac{5}{\sqrt5}=\sqrt5.$$
+
+Kiểm tra bằng một điểm: điểm $M(0; 1)$ thuộc đường thẳng thứ nhất (vì $2\cdot0-1+1=0$), và khoảng cách từ $M$ đến đường thẳng thứ hai là $\dfrac{|2\cdot0-1-4|}{\sqrt5}=\dfrac{5}{\sqrt5}=\sqrt5$.
+
+Vậy khoảng cách giữa hai đường thẳng song song đã cho bằng $\sqrt5$.
 
 **Đáp số.** $\sqrt5$.
 :::
@@ -308,13 +354,20 @@ d) Khoảng cách từ $A$ đến $d_2$ bằng $1$.
 3. Tính hai khoảng cách từ $A$.
 
 ::solution
-a) **Đúng**: $3\cdot4+(-4)\cdot3=0$.
+Các đường thẳng $d_1: 3x-4y+5=0$ và $d_2: 4x+3y-10=0$ có vectơ pháp tuyến lần lượt là $\vec{n}_1=(3; -4)$ và $\vec{n}_2=(4; 3)$.
 
-b) **Đúng**: $3-8+5=0$ và $4+6-10=0$.
+a) **Đúng.** Ta có $\vec{n}_1\cdot\vec{n}_2=3\cdot4+(-4)\cdot3=12-12=0$, nên $\vec{n}_1\perp\vec{n}_2$. Do đó $d_1\perp d_2$.
 
-c) **Sai**: $d(A, d_1)=\dfrac{|6+4+5|}{5}=3$.
+b) **Đúng.** Thay $(1; 2)$ vào $d_1$: $3\cdot1-4\cdot2+5=3-8+5=0$. Thay $(1; 2)$ vào $d_2$: $4\cdot1+3\cdot2-10=4+6-10=0$. Điểm $(1; 2)$ thuộc cả hai đường thẳng, và hai đường thẳng cắt nhau (vì vuông góc) nên giao điểm của chúng là $(1; 2)$.
 
-d) **Đúng**: $d(A, d_2)=\dfrac{|8-3-10|}{5}=1$.
+c) **Sai.** Ta có
+$$d(A, d_1)=\frac{|3\cdot2-4\cdot(-1)+5|}{\sqrt{3^2+(-4)^2}}=\frac{|6+4+5|}{5}=\frac{15}{5}=3.$$
+Khoảng cách này bằng $3$, không phải $2$.
+
+d) **Đúng.** Ta có
+$$d(A, d_2)=\frac{|4\cdot2+3\cdot(-1)-10|}{\sqrt{4^2+3^2}}=\frac{|8-3-10|}{5}=\frac{5}{5}=1.$$
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -331,7 +384,23 @@ Trên bản vẽ (đơn vị: chục mét), một mảnh đất hình tam giác 
 3. Tính diện tích trên bản vẽ, rồi nhân với $100$.
 
 ::solution
-$\vec{n}=(3; -4)$: $AB: 3(x-1)-4(y-1)=0\iff 3x-4y+1=0$. $d(C, AB)=\dfrac{|6-20+1|}{5}=2{,}6$, $AB=\sqrt{16+9}=5$. Diện tích trên bản vẽ $\dfrac12\cdot5\cdot2{,}6=6{,}5$, diện tích thực $6{,}5\cdot100=650$ m².
+Ta có $\overrightarrow{AB}=(5-1; 4-1)=(4; 3)$. Đường thẳng $AB$ nhận vectơ $\vec{n}=(3; -4)$ làm vectơ pháp tuyến (vì $\vec{n}\cdot\overrightarrow{AB}=3\cdot4-4\cdot3=0$) và đi qua $A(1; 1)$, nên phương trình của $AB$ là
+$$3(x-1)-4(y-1)=0\iff 3x-4y+1=0.$$
+
+Kiểm tra: điểm $B(5; 4)$ thoả mãn vì $3\cdot5-4\cdot4+1=0$.
+
+Khoảng cách từ $C(2; 5)$ đến đường thẳng $AB$ là
+$$d(C, AB)=\frac{|3\cdot2-4\cdot5+1|}{\sqrt{3^2+(-4)^2}}=\frac{|6-20+1|}{5}=\frac{13}{5}=2{,}6$$
+(đơn vị: chục mét).
+
+Độ dài cạnh $AB=\sqrt{4^2+3^2}=\sqrt{25}=5$ (chục mét).
+
+Diện tích tam giác $ABC$ trên bản vẽ là
+$$S=\frac12\cdot AB\cdot d(C, AB)=\frac12\cdot5\cdot2{,}6=6{,}5\ (\text{chục mét})^2.$$
+
+Vì $1$ đơn vị trên bản vẽ ứng với $10$ m nên $1$ đơn vị diện tích ứng với $10\cdot10=100$ m². Do đó diện tích thực của mảnh đất là $6{,}5\cdot100=650$ m².
+
+Vậy đường thẳng $AB$ có phương trình $3x-4y+1=0$, khoảng cách từ $C$ đến $AB$ là $2{,}6$ (chục mét) và diện tích thực của mảnh đất là $650$ m².
 
 **Đáp số.** $3x-4y+1=0$; $2{,}6$; $650$ m².
 :::
@@ -347,7 +416,14 @@ Một ngọn hải đăng ở điểm $M(3; 4)$ trên hải đồ (đơn vị: k
 2. So sánh với $6$ km.
 
 ::solution
-$d(M, \Delta)=\dfrac{|12+12-49|}{\sqrt{16+9}}=\dfrac{25}{5}=5$ km. Vì $5<6$ nên tàu đi vào vùng nhìn thấy ánh sáng.
+Vùng nhìn thấy ánh sáng là hình tròn tâm $M(3; 4)$ bán kính $6$ km. Đường đi của tàu là đường thẳng $\Delta: 4x+3y-49=0$. Tàu đi vào vùng nhìn thấy ánh sáng khi và chỉ khi khoảng cách từ tâm $M$ đến $\Delta$ nhỏ hơn bán kính $6$ km.
+
+Khoảng cách từ $M$ đến $\Delta$ là
+$$d(M, \Delta)=\frac{|4\cdot3+3\cdot4-49|}{\sqrt{4^2+3^2}}=\frac{|12+12-49|}{\sqrt{16+9}}=\frac{25}{5}=5\ \text{km}.$$
+
+Vì $5<6$ nên đường thẳng $\Delta$ cắt hình tròn tâm $M$ bán kính $6$ km, tức là tàu đi vào vùng nhìn thấy ánh sáng.
+
+Vậy tàu có đi vào vùng nhìn thấy ánh sáng; khoảng cách gần nhất từ tàu đến ngọn hải đăng là $5$ km.
 
 **Đáp số.** Có; khoảng cách gần nhất là $5$ km.
 :::
@@ -363,7 +439,15 @@ Tính khoảng cách từ $A(1; 1)$ đến đường thẳng đi qua $B(2; -1)$ 
 2. Dùng công thức khoảng cách.
 
 ::solution
-$\vec{n}=(4; -3)$: $4(x-2)-3(y+1)=0\iff 4x-3y-11=0$. Khoảng cách từ $A$: $\dfrac{|4-3-11|}{5}=\dfrac{10}{5}=2$.
+Đường thẳng cần tìm có vectơ chỉ phương $\vec{u}=(3; 4)$ nên nhận $\vec{n}=(4; -3)$ làm vectơ pháp tuyến (vì $\vec{n}\cdot\vec{u}=4\cdot3-3\cdot4=0$). Đường thẳng đi qua $B(2; -1)$, nên có phương trình
+$$4(x-2)-3(y+1)=0\iff 4x-3y-11=0.$$
+
+Kiểm tra: $B(2; -1)$ thoả mãn vì $4\cdot2-3\cdot(-1)-11=8+3-11=0$.
+
+Khoảng cách từ $A(1; 1)$ đến đường thẳng này là
+$$d=\frac{|4\cdot1-3\cdot1-11|}{\sqrt{4^2+(-3)^2}}=\frac{|4-3-11|}{5}=\frac{10}{5}=2.$$
+
+Vậy khoảng cách từ $A$ đến đường thẳng đã cho bằng $2$.
 
 **Đáp số.** $2$.
 :::
@@ -383,9 +467,21 @@ b) Tính góc giữa hai đường thẳng $AB$ và $AC$. Vì sao kết quả kh
 2. Góc giữa hai đường thẳng bằng $\widehat{BAC}$ nếu góc đó không tù, bằng $180^\circ-\widehat{BAC}$ nếu góc đó tù.
 
 ::solution
-a) $\overrightarrow{AB}=(4; 0)$, $\overrightarrow{AC}=(-2; 3)$, $\cos\widehat{BAC}=\dfrac{-8}{4\sqrt{13}}=-\dfrac{2}{\sqrt{13}}$, nên $\widehat{BAC}\approx 123{,}69^\circ$.
+a) Ta có $\overrightarrow{AB}=(4-0; 0-0)=(4; 0)$ và $\overrightarrow{AC}=(-2-0; 3-0)=(-2; 3)$.
 
-b) Góc $\widehat{BAC}$ tù, nên góc giữa hai đường thẳng là $180^\circ-123{,}69^\circ=56{,}31^\circ$ (cũng là góc có $\cos\varphi=\dfrac{2}{\sqrt{13}}$).
+Áp dụng công thức tích vô hướng $\cos\widehat{BAC}=\dfrac{\overrightarrow{AB}\cdot\overrightarrow{AC}}{|\overrightarrow{AB}|\cdot|\overrightarrow{AC}|}$, với $\overrightarrow{AB}\cdot\overrightarrow{AC}=4\cdot(-2)+0\cdot3=-8$, $|\overrightarrow{AB}|=4$ và $|\overrightarrow{AC}|=\sqrt{4+9}=\sqrt{13}$, ta được
+$$\cos\widehat{BAC}=\frac{-8}{4\sqrt{13}}=-\frac{2}{\sqrt{13}}.$$
+
+Suy ra $\widehat{BAC}\approx 123{,}69^\circ$ (làm tròn đến hàng phần trăm).
+
+b) Góc giữa hai đường thẳng $AB$ và $AC$ được tính bằng công thức với giá trị tuyệt đối của tích vô hướng:
+$$\cos\varphi=\frac{|\overrightarrow{AB}\cdot\overrightarrow{AC}|}{|\overrightarrow{AB}|\cdot|\overrightarrow{AC}|}=\frac{|-8|}{4\sqrt{13}}=\frac{2}{\sqrt{13}}.$$
+
+Suy ra $\varphi\approx 56{,}31^\circ$.
+
+Kết quả khác câu a) vì góc giữa hai đường thẳng luôn thuộc đoạn $[0^\circ; 90^\circ]$, còn góc $\widehat{BAC}$ của tam giác có thể lớn hơn $90^\circ$. Ở đây $\cos\widehat{BAC}<0$ nên $\widehat{BAC}$ tù, và góc giữa hai đường thẳng là góc bù của nó: $180^\circ-123{,}69^\circ=56{,}31^\circ$ (cũng là góc có $\cos\varphi=\dfrac{2}{\sqrt{13}}$).
+
+Vậy $\widehat{BAC}\approx 123{,}69^\circ$ và góc giữa hai đường thẳng $AB$, $AC$ xấp xỉ $56{,}31^\circ$.
 
 **Đáp số.** a) $\approx 123{,}69^\circ$; b) $\approx 56{,}31^\circ$.
 :::

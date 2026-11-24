@@ -205,9 +205,17 @@ d) $7-2t=0$.
 2. Kiểm tra hệ số $a$ khác $0$.
 
 ::solution
-a) Có $a=5\neq0$: đúng. b) $a=0$: không phải. c) Ẩn có số mũ $2$: không phải. d) Viết $-2t+7=0$ với $a=-2\neq0$: đúng.
+Phương trình bậc nhất một ẩn có dạng $ax+b=0$ với $a\neq0$. Ta đưa từng phương trình về dạng này.
 
-Vậy a) và d) là phương trình bậc nhất một ẩn.
+a) Phương trình $5x-3=0$ có $a=5\neq0$, $b=-3$. Đây là phương trình bậc nhất một ẩn.
+
+b) Phương trình $0x-4=0$ có $a=0$. Đây không phải là phương trình bậc nhất một ẩn.
+
+c) Phương trình $x^2+2=0$ chứa ẩn với số mũ $2$. Đây không phải là phương trình bậc nhất một ẩn.
+
+d) Phương trình $7-2t=0$ viết được thành $-2t+7=0$ với ẩn $t$, $a=-2\neq0$, $b=7$. Đây là phương trình bậc nhất một ẩn.
+
+Vậy các phương trình a) và d) là phương trình bậc nhất một ẩn.
 
 **Đáp số.** a), d).
 :::
@@ -229,11 +237,11 @@ c) $7-4x=0$.
 2. Chia hai vế cho hệ số của $x$.
 
 ::solution
-a) $2x=10$ nên $x=5$.
+a) Ta có $2x-10=0$. Chuyển $-10$ sang vế phải (đổi dấu), ta được $2x=10$. Chia hai vế cho $2$, ta được $x=5$.
 
-b) $3x=-8$ nên $x=-\dfrac83$.
+b) Ta có $3x+8=0$. Chuyển $8$ sang vế phải (đổi dấu), ta được $3x=-8$. Chia hai vế cho $3$, ta được $x=-\dfrac83$.
 
-c) $-4x=-7$ nên $x=\dfrac74$.
+c) Ta có $7-4x=0$. Chuyển $7$ sang vế phải (đổi dấu), ta được $-4x=-7$. Chia hai vế cho $-4$, ta được $x=\dfrac74$.
 
 Vậy a) $x=5$; b) $x=-\dfrac83$; c) $x=\dfrac74$.
 
@@ -251,9 +259,12 @@ Giải phương trình $5x-3=2x+9$.
 2. Thu gọn rồi chia hai vế.
 
 ::solution
-Ta có $5x-2x=9+3$, tức $3x=12$, suy ra $x=4$.
+Ta chuyển các hạng tử chứa $x$ sang vế trái, các hạng tử tự do sang vế phải (đổi dấu):
+$$5x-2x=9+3.$$
 
-Kiểm tra: vế trái $5\cdot4-3=17$, vế phải $2\cdot4+9=17$.
+Thu gọn, ta được $3x=12$. Chia hai vế cho $3$, ta được $x=4$.
+
+Kiểm tra: vế trái $5\cdot4-3=17$; vế phải $2\cdot4+9=17$. Hai vế bằng nhau.
 
 Vậy phương trình có nghiệm $x=4$.
 
@@ -315,9 +326,15 @@ b) $2x+5=2(x-1)$.
 2. Xét $c$ bằng $0$ hay khác $0$.
 
 ::solution
-a) Bỏ ngoặc: $3x+6=3x+6$, tức $0x=0$ đúng với mọi $x$: phương trình có vô số nghiệm.
+a) Bỏ dấu ngoặc ở vế trái, ta được
+$$3x+6=3x+6.$$
+Chuyển các hạng tử về một vế, ta được $0x=0$. Hệ thức này đúng với mọi giá trị của $x$. Do đó phương trình có vô số nghiệm.
 
-b) Bỏ ngoặc: $2x+5=2x-2$, suy ra $0x=-7$, không có $x$ nào thoả mãn: phương trình vô nghiệm.
+b) Bỏ dấu ngoặc ở vế phải, ta được
+$$2x+5=2x-2.$$
+Chuyển các hạng tử chứa $x$ sang vế trái và các số sang vế phải, ta được $0x=-7$. Không có giá trị nào của $x$ thoả mãn hệ thức này. Do đó phương trình vô nghiệm.
+
+Vậy phương trình a) có vô số nghiệm; phương trình b) vô nghiệm.
 
 **Đáp số.** a) vô số nghiệm. b) vô nghiệm.
 :::
@@ -333,9 +350,14 @@ Giả sử một hãng taxi tính cước mở cửa $12\,000$ đồng và $14\,
 2. Giải phương trình.
 
 ::solution
-Phương trình: $14\,000x+12\,000=96\,000$. Chuyển vế: $14\,000x=84\,000$, suy ra $x=6$.
+Gọi $x$ (km) là quãng đường hành khách đã đi ($x>0$).
 
-Kiểm tra: $14\,000\cdot6+12\,000=96\,000$.
+Tiền cước gồm cước mở cửa $12\,000$ đồng và $14\,000x$ đồng cho $x$ km. Hành khách trả $96\,000$ đồng nên ta có phương trình
+$$14\,000x+12\,000=96\,000.$$
+
+Chuyển $12\,000$ sang vế phải, ta được $14\,000x=84\,000$. Chia hai vế cho $14\,000$, ta được $x=6$ (thoả mãn điều kiện $x>0$).
+
+Kiểm tra: $14\,000\cdot6+12\,000=84\,000+12\,000=96\,000$ (đồng).
 
 Vậy hành khách đã đi $6$ km.
 
@@ -373,9 +395,15 @@ Trong các số $-2$, $0$, $2$, số nào là nghiệm của phương trình $3x
 2. So sánh hai vế.
 
 ::solution
-Với $x=-2$: vế trái $3\cdot(-2)+7=1$, vế phải $-2+3=1$, bằng nhau. Với $x=0$: $7\neq3$. Với $x=2$: $13\neq5$.
+Một số là nghiệm của phương trình khi thay vào hai vế ta được hai giá trị bằng nhau. Ta thử từng số.
 
-Vậy chỉ có $x=-2$ là nghiệm.
+Với $x=-2$: vế trái $3\cdot(-2)+7=1$, vế phải $-2+3=1$. Hai vế bằng nhau nên $-2$ là nghiệm.
+
+Với $x=0$: vế trái $3\cdot0+7=7$, vế phải $0+3=3$. Vì $7\neq3$ nên $0$ không là nghiệm.
+
+Với $x=2$: vế trái $3\cdot2+7=13$, vế phải $2+3=5$. Vì $13\neq5$ nên $2$ không là nghiệm.
+
+Vậy trong các số đã cho, chỉ có $x=-2$ là nghiệm của phương trình.
 
 **Đáp số.** $-2$.
 :::

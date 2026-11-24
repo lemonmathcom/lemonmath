@@ -174,8 +174,17 @@ Set out in columns and work out: $23\,145+61\,432$.
 2. Add column by column, starting with the ones.
 
 ::solution
+Set out the numbers in columns, with the digits of the same place lined up, and add from right to left.
+
 $$\begin{array}{r} 23\,145 \\ +\ 61\,432 \\ \hline 84\,577 \end{array}$$
+
+Ones: $5+2=7$, write $7$. Tens: $4+3=7$, write $7$. Hundreds: $1+4=5$, write $5$. Thousands: $3+1=4$, write $4$. Ten-thousands: $2+6=8$, write $8$.
+
 No column makes $10$, so nothing is regrouped.
+
+Check: $84\,577-61\,432=23\,145$. Correct.
+
+So $23\,145+61\,432=84\,577$.
 
 **Answer.** $84\,577$.
 :::
@@ -191,8 +200,23 @@ Set out in columns and work out: $36\,758+27\,495$.
 2. Add column by column, regrouping when needed.
 
 ::solution
+Set out the numbers in columns, with the digits of the same place lined up, and add from right to left.
+
 $$\begin{array}{r} 36\,758 \\ +\ 27\,495 \\ \hline 64\,253 \end{array}$$
-Ones: $8+5=13$, write $3$ and regroup $1$. Tens: $5+9+1=15$, write $5$ and regroup $1$. Hundreds: $7+4+1=12$, write $2$ and regroup $1$. Thousands: $6+7+1=14$, write $4$ and regroup $1$. Ten-thousands: $3+2+1=6$.
+
+Ones: $8+5=13$, write $3$ and regroup $1$.
+
+Tens: $5+9+1=15$, write $5$ and regroup $1$.
+
+Hundreds: $7+4+1=12$, write $2$ and regroup $1$.
+
+Thousands: $6+7+1=14$, write $4$ and regroup $1$.
+
+Ten-thousands: $3+2+1=6$, write $6$.
+
+Check: $64\,253-27\,495=36\,758$. Correct.
+
+So $36\,758+27\,495=64\,253$.
 
 **Answer.** $64\,253$.
 :::
@@ -208,8 +232,17 @@ Set out in columns and work out: $87\,649-25\,317$.
 2. Subtract column by column, starting with the ones.
 
 ::solution
+Set out the numbers in columns, with the digits of the same place lined up, and subtract from right to left.
+
 $$\begin{array}{r} 87\,649 \\ -\ 25\,317 \\ \hline 62\,332 \end{array}$$
-No column needs regrouping.
+
+Ones: $9-7=2$, write $2$. Tens: $4-1=3$, write $3$. Hundreds: $6-3=3$, write $3$. Thousands: $7-5=2$, write $2$. Ten-thousands: $8-2=6$, write $6$.
+
+In every column the digit of the first number is not smaller than the digit of the second number, so no column needs regrouping.
+
+Check: $62\,332+25\,317=87\,649$. Correct.
+
+So $87\,649-25\,317=62\,332$.
 
 **Answer.** $62\,332$.
 :::
@@ -225,8 +258,23 @@ Set out in columns and work out: $70\,025-34\,168$.
 2. In each column, add the regrouped $1$ to the digit below before you subtract.
 
 ::solution
+Set out the numbers in columns, with the digits of the same place lined up, and subtract from right to left.
+
 $$\begin{array}{r} 70\,025 \\ -\ 34\,168 \\ \hline 35\,857 \end{array}$$
-Ones: $15-8=7$, write $7$ and regroup $1$. Tens: $6+1=7$; $12-7=5$, write $5$ and regroup $1$. Hundreds: $1+1=2$; $10-2=8$, write $8$ and regroup $1$. Thousands: $4+1=5$; $10-5=5$, write $5$ and regroup $1$. Ten-thousands: $3+1=4$; $7-4=3$.
+
+Ones: $5$ is less than $8$, so take $15-8=7$, write $7$ and regroup $1$.
+
+Tens: $6+1=7$; $2$ is less than $7$, so take $12-7=5$, write $5$ and regroup $1$.
+
+Hundreds: $1+1=2$; $0$ is less than $2$, so take $10-2=8$, write $8$ and regroup $1$.
+
+Thousands: $4+1=5$; $0$ is less than $5$, so take $10-5=5$, write $5$ and regroup $1$.
+
+Ten-thousands: $3+1=4$; $7-4=3$, write $3$.
+
+Check: $35\,857+34\,168=70\,025$. Correct.
+
+So $70\,025-34\,168=35\,857$.
 
 **Answer.** $35\,857$.
 :::
@@ -242,9 +290,14 @@ Find $x$: $x+25\,360=70\,000$.
 2. Set out the subtraction and work it out, then check.
 
 ::solution
-$x=70\,000-25\,360=44\,640$.
+In this addition, $x$ is the unknown addend. To find an unknown addend, we subtract the known addend from the sum.
 
-**Check.** $44\,640+25\,360=70\,000$. Correct.
+We have
+$$x=70\,000-25\,360=44\,640.$$
+
+Check: $44\,640+25\,360=70\,000$. Correct.
+
+So $x=44\,640$.
 
 **Answer.** $x=44\,640$.
 :::
@@ -266,6 +319,8 @@ Solution
 The number of people in the audience at the two concerts is:
 $$15\,280+21\,765=37\,045\ \text{(people)}.$$
 
+So there are $37\,045$ people in the audience at the two concerts altogether.
+
 **Answer.** $37\,045$ people.
 :::
 
@@ -284,8 +339,13 @@ Solution
 
 The money Hoa spent is:
 $$45\,500+28\,750=74\,250\ \text{(dong)}.$$
+
 The money Hoa has left is:
 $$100\,000-74\,250=25\,750\ \text{(dong)}.$$
+
+Check: $25\,750+74\,250=100\,000$. Correct.
+
+So Hoa has $25\,750$ dong left.
 
 **Answer.** $25\,750$ dong.
 :::
@@ -301,7 +361,12 @@ Remember the lesson on comparing numbers. Write $>$, $<$ or $=$ in the gap: $58\
 2. Compare the result with $68\,000$.
 
 ::solution
-We have $58\,760+9\,240=68\,000$. The two numbers are equal.
+We work out the left-hand side first:
+$$58\,760+9\,240=68\,000.$$
+
+Comparing with the right-hand side: $68\,000$ and $68\,000$ are equal.
+
+So we write the sign $=$ in the gap: $58\,760+9\,240=68\,000$.
 
 **Answer.** The sign $=$.
 :::
@@ -317,7 +382,18 @@ Nam works out $80\,000-35\,600=54\,400$. Use addition to check Nam's answer. If 
 2. If the sum is not $80\,000$, work out $80\,000-35\,600$ again.
 
 ::solution
-We have $54\,400+35\,600=90\,000$, which is not $80\,000$, so Nam's answer is wrong. Working it out again: $80\,000-35\,600=44\,400$. Check: $44\,400+35\,600=80\,000$. Correct.
+To check a subtraction by addition, we add the answer to the number being subtracted; the result must equal the first number.
+
+We have $54\,400+35\,600=90\,000$.
+
+Since $90\,000$ is not equal to the first number $80\,000$, Nam's answer is wrong.
+
+Working it out again:
+$$80\,000-35\,600=44\,400.$$
+
+Check: $44\,400+35\,600=80\,000$. Correct.
+
+So Nam is wrong; the correct answer is $44\,400$.
 
 **Answer.** Nam is wrong; the correct answer is $44\,400$.
 :::
@@ -333,8 +409,18 @@ Find the difference between the largest and the smallest five-digit number whose
 2. Set out the subtraction and work it out.
 
 ::solution
-The largest number is $98\,765$. The smallest is $10\,234$ (the digit $1$ first, then $0$, $2$, $3$, $4$). We have:
+We look for five-digit numbers whose digits are all different.
+
+The largest number: we choose the largest digits, each used once, and arrange them from the greatest place downwards: $9$, $8$, $7$, $6$, $5$. The largest number is $98\,765$.
+
+The smallest number: the first digit cannot be $0$, so the smallest choice is $1$. For the remaining places we take the smallest unused digits in order: $0$, $2$, $3$, $4$. The smallest number is $10\,234$.
+
+The difference of the two numbers is
 $$98\,765-10\,234=88\,531.$$
+
+Check: $88\,531+10\,234=98\,765$. Correct.
+
+So the difference between the largest and the smallest five-digit number whose digits are all different is $88\,531$.
 
 **Answer.** $88\,531$.
 :::

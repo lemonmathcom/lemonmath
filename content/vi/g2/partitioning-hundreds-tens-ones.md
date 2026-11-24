@@ -124,7 +124,13 @@ b) $910$.
 2. Hàng nào là $0$ thì bỏ.
 
 ::solution
-a) $236$ có $2$ trăm, $3$ chục, $6$ đơn vị. b) $910$ có $9$ trăm, $1$ chục, $0$ đơn vị.
+a) Số $236$ có $2$ trăm, $3$ chục và $6$ đơn vị. $2$ trăm là $200$, $3$ chục là $30$, $6$ đơn vị là $6$. Do đó
+$$236=200+30+6.$$
+
+b) Số $910$ có $9$ trăm, $1$ chục và $0$ đơn vị. $9$ trăm là $900$, $1$ chục là $10$, còn $0$ đơn vị là $0$ nên không cần viết thêm. Do đó
+$$910=900+10.$$
+
+Vậy $236=200+30+6$ và $910=900+10$.
 
 **Đáp số.** a) $236=200+30+6$; b) $910=900+10$.
 :::
@@ -144,7 +150,11 @@ b) $800+20$.
 2. Hàng nào thiếu thì viết chữ số $0$.
 
 ::solution
-a) $4$ trăm, $5$ chục, $7$ đơn vị. b) $8$ trăm, $2$ chục, $0$ đơn vị.
+a) Ta có $400+50+7$ gồm $4$ trăm, $5$ chục và $7$ đơn vị. Viết các chữ số theo thứ tự hàng trăm, hàng chục, hàng đơn vị, ta được số $457$.
+
+b) Ta có $800+20$ gồm $8$ trăm, $2$ chục và không có đơn vị nào, nên chữ số hàng đơn vị là $0$. Viết các chữ số theo thứ tự, ta được số $820$.
+
+Vậy a) số cần viết là $457$; b) số cần viết là $820$.
 
 **Đáp số.** a) $457$; b) $820$.
 :::
@@ -160,7 +170,12 @@ Em nhớ lại bài trước. Số có chữ số hàng trăm là $6$, hàng ch�
 2. Viết thành tổng, bỏ phần chục vì bằng $0$.
 
 ::solution
-Số đó là $604$. Ta có $604=600+4$.
+Số cần tìm có chữ số hàng trăm là $6$, chữ số hàng chục là $0$ và chữ số hàng đơn vị là $4$. Vậy số đó gồm $6$ trăm, $0$ chục và $4$ đơn vị, viết là $604$.
+
+Để viết thành tổng: $6$ trăm là $600$, $0$ chục là $0$, $4$ đơn vị là $4$. Ta có
+$$604=600+0+4=600+4.$$
+
+Vậy số đó là $604$ và $604=600+4$.
 
 **Đáp số.** $604=600+4$.
 :::
@@ -180,7 +195,11 @@ b) $\square+40+2=942$.
 2. Viết giá trị của chữ số đó.
 
 ::solution
-a) $573$ có $7$ ở hàng chục, giá trị $70$. b) $942$ có $9$ ở hàng trăm, giá trị $900$.
+a) Số $573$ có $5$ trăm, $7$ chục và $3$ đơn vị, nên $573=500+70+3$. Đối chiếu với $500+\square+3$, ta thấy ô trống là $70$. Thử lại: $500+70+3=573$.
+
+b) Số $942$ có $9$ trăm, $4$ chục và $2$ đơn vị, nên $942=900+40+2$. Đối chiếu với $\square+40+2$, ta thấy ô trống là $900$. Thử lại: $900+40+2=942$.
+
+Vậy số cần điền ở câu a) là $70$, ở câu b) là $900$.
 
 **Đáp số.** a) $70$; b) $900$.
 :::
@@ -196,7 +215,18 @@ Cách viết nào đúng cho số $372$: $3+7+2$, $30+70+2$ hay $300+70+2$? Vì 
 2. Cộng các giá trị lại.
 
 ::solution
-$3$ ở hàng trăm là $300$, $7$ ở hàng chục là $70$, $2$ ở hàng đơn vị là $2$. Cộng lại được $372$.
+Số $372$ có chữ số $3$ ở hàng trăm, chữ số $7$ ở hàng chục và chữ số $2$ ở hàng đơn vị. Giá trị của từng chữ số là:
+
+- chữ số $3$ ở hàng trăm có giá trị $300$;
+- chữ số $7$ ở hàng chục có giá trị $70$;
+- chữ số $2$ ở hàng đơn vị có giá trị $2$.
+
+Ta kiểm tra từng cách viết:
+$$3+7+2=12,\qquad 30+70+2=102,\qquad 300+70+2=372.$$
+
+Chỉ có $300+70+2$ cho kết quả $372$. Hai cách còn lại sai vì chưa viết đúng giá trị theo hàng của các chữ số.
+
+Vậy cách viết đúng là $372=300+70+2$.
 
 **Đáp số.** $372=300+70+2$.
 :::
@@ -212,7 +242,14 @@ Lan viết "$305=300+50$". Lan sai ở đâu? Sửa lại cho đúng.
 2. $305$ có mấy chục, mấy đơn vị?
 
 ::solution
-$300+50=350$, không phải $305$. Số $305$ có $3$ trăm, $0$ chục, $5$ đơn vị.
+Ta tính $300+50=350$, mà $350\neq305$. Vậy Lan viết sai.
+
+Số $305$ có $3$ trăm, $0$ chục và $5$ đơn vị. Chữ số $5$ đứng ở hàng đơn vị nên có giá trị $5$, không phải $50$. Vì có $0$ chục nên không cần viết phần chục. Sửa lại:
+$$305=300+5.$$
+
+Thử lại: $300+5=305$.
+
+Vậy Lan sai ở chỗ viết $5$ đơn vị thành $50$; cách viết đúng là $305=300+5$.
 
 **Đáp số.** $305=300+5$.
 :::
@@ -228,7 +265,16 @@ Thư viện có $4$ thùng sách loại $100$ quyển, $6$ bó sách loại $10$
 2. Viết tổng rồi ghi đáp số có đơn vị.
 
 ::solution
-Tổng là $400+60+8=468$.
+Bài giải
+
+$4$ thùng, mỗi thùng $100$ quyển, là $4$ trăm quyển, tức là $400$ quyển.
+
+$6$ bó, mỗi bó $10$ quyển, là $6$ chục quyển, tức là $60$ quyển.
+
+Ngoài ra còn $8$ quyển lẻ. Số quyển sách của thư viện là:
+$$400+60+8=468\ \text{(quyển)}$$
+
+Vậy thư viện có $468$ quyển sách và $468=400+60+8$.
 
 **Đáp số.** $468$ quyển sách; $468=400+60+8$.
 :::
@@ -244,9 +290,16 @@ Tìm số có ba chữ số có dạng $400+\square0+\square$, biết chữ số
 2. Viết số rồi viết thành tổng.
 
 ::solution
-Chữ số hàng chục là $8$, nên phần chục là $80$. Ta có $400+80+8=488$.
+Số cần tìm có dạng $400+\square0+\square$, tức là có chữ số hàng trăm là $4$.
 
-**Kiểm tra.** $488$ có hàng chục và hàng đơn vị đều là $8$. Đúng.
+Hàng đơn vị là $8$. Chữ số hàng chục bằng chữ số hàng đơn vị nên chữ số hàng chục cũng là $8$, và phần chục là $80$.
+
+Ta có
+$$400+80+8=488.$$
+
+Kiểm tra: số $488$ có chữ số hàng chục và chữ số hàng đơn vị đều là $8$. Đúng.
+
+Vậy số cần tìm là $488$.
 
 **Đáp số.** $488$.
 :::

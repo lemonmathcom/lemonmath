@@ -137,7 +137,17 @@ d) Viên bi.
 2. Có hai đầu phẳng thì chọn khối trụ, còn lại chọn khối cầu.
 
 ::solution
-Lon nước ngọt và cái trống có hai đáy phẳng. Quả bóng bàn và viên bi không có mặt phẳng.
+Khối trụ có hai đáy phẳng và một mặt cong. Khối cầu không có mặt phẳng nào.
+
+a) Lon nước ngọt có hai đáy phẳng nên là khối trụ.
+
+b) Quả bóng bàn không có mặt phẳng nên là khối cầu.
+
+c) Cái trống có hai đáy phẳng nên là khối trụ.
+
+d) Viên bi không có mặt phẳng nên là khối cầu.
+
+Vậy lon nước ngọt và cái trống có dạng khối trụ; quả bóng bàn và viên bi có dạng khối cầu.
 
 **Đáp số.** a) khối trụ; b) khối cầu; c) khối trụ; d) khối cầu.
 :::
@@ -159,7 +169,15 @@ c) Khối cầu có $\square$ mặt phẳng.
 2. Điền từng chỗ trống.
 
 ::solution
-Khối trụ có hai đáy phẳng và một mặt cong. Khối cầu không có mặt phẳng.
+Khối trụ có hai đáy phẳng và một mặt cong.
+
+a) Khối trụ có $2$ mặt phẳng (hai đáy).
+
+b) Khối trụ có $1$ mặt cong.
+
+c) Khối cầu không có mặt phẳng nào, nên có $0$ mặt phẳng.
+
+Vậy ta điền các số $2$, $1$ và $0$.
 
 **Đáp số.** a) $2$; b) $1$; c) $0$.
 :::
@@ -181,7 +199,13 @@ c) Quả bóng lăn được theo mọi hướng.
 2. Đối chiếu với phần Tóm tắt.
 
 ::solution
-a) Sai vì khối cầu không có mặt phẳng. b) Đúng vì khối trụ có đáy phẳng. c) Đúng vì khối cầu lăn theo mọi hướng.
+a) **Sai.** Khối cầu không có mặt phẳng nào, nên câu "Khối cầu có mặt phẳng" là sai.
+
+b) **Đúng.** Khối trụ có đáy phẳng nên các khối trụ xếp chồng lên nhau được.
+
+c) **Đúng.** Quả bóng có dạng khối cầu, mà khối cầu lăn được theo mọi hướng.
+
+Vậy câu b), c) đúng; câu a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng.
 :::
@@ -197,7 +221,17 @@ Trong các đồ vật sau, vật nào không cùng nhóm với các vật còn 
 2. Tìm vật ở nhóm khác.
 
 ::solution
-Lon sữa, cái trống, cái cốc là khối trụ. Quả bóng là khối cầu.
+Ta xác định dạng khối của từng đồ vật.
+
+Lon sữa có hai đáy phẳng nên là khối trụ.
+
+Cái trống có hai đáy phẳng nên là khối trụ.
+
+Cái cốc hình trụ là khối trụ.
+
+Quả bóng không có mặt phẳng nên là khối cầu.
+
+Vậy ba vật là khối trụ, còn quả bóng là khối cầu nên quả bóng không cùng nhóm với các vật còn lại.
 
 **Đáp số.** Quả bóng.
 :::
@@ -213,7 +247,11 @@ Em muốn xếp một cái tháp cao bằng các đồ vật. Em chọn lon sữ
 2. Vật có mặt phẳng thì có lăn đi khi chồng lên nhau không?
 
 ::solution
-Lon sữa là khối trụ, có đáy phẳng nên xếp chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn đi.
+Lon sữa là khối trụ, có đáy phẳng nên có thể xếp chồng lên nhau.
+
+Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn đi, không xếp chồng được.
+
+Vậy em chọn lon sữa để xếp một cái tháp cao, vì lon sữa có đáy phẳng.
 
 **Đáp số.** Chọn lon sữa.
 :::
@@ -229,7 +267,13 @@ Mai nói: "Quả cam tròn có hai mặt phẳng nên là khối trụ." Lời n
 2. Vật không có mặt phẳng là khối nào?
 
 ::solution
-Quả cam tròn không có mặt phẳng nào, nên Mai nói sai. Vật không có mặt phẳng là khối cầu.
+Quả cam tròn không có mặt phẳng nào.
+
+Vật không có mặt phẳng là khối cầu, còn khối trụ mới có hai mặt phẳng (hai đáy).
+
+Mai sai ở chỗ nói quả cam có hai mặt phẳng, nên đã gọi nhầm là khối trụ.
+
+Vậy câu đúng là: quả cam tròn không có mặt phẳng nên có dạng khối cầu.
 
 **Đáp số.** Quả cam tròn có dạng khối cầu.
 :::
@@ -245,10 +289,14 @@ Cô bán hàng có $20$ lon sữa, xếp thành $5$ chồng bằng nhau. Hỏi m
 2. Tính $20:5$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Số lon sữa mỗi chồng là:
+Bài giải
+
+Cô xếp $20$ lon sữa thành $5$ chồng bằng nhau nên số lon sữa mỗi chồng là:
 $$20:5=4\ \text{(lon)}.$$
 
-**Kiểm tra.** $4\times5=20$. Đúng.
+Kiểm tra: $4\times5=20$. Đúng.
+
+Vậy mỗi chồng có $4$ lon sữa.
 
 **Đáp số.** $4$ lon sữa.
 :::
@@ -264,7 +312,18 @@ Một em bé có $3$ khối trụ và $2$ khối cầu. Hỏi tất cả các kh
 2. Tính số mặt phẳng của $2$ khối cầu rồi cộng lại.
 
 ::solution
-Ba khối trụ có $3\times2=6$ mặt phẳng. Hai khối cầu có $2\times0=0$ mặt phẳng. Tổng số mặt phẳng là $6+0=6$.
+Bài giải
+
+Mỗi khối trụ có $2$ mặt phẳng nên $3$ khối trụ có số mặt phẳng là:
+$$3\times2=6\ \text{(mặt phẳng)}.$$
+
+Mỗi khối cầu có $0$ mặt phẳng nên $2$ khối cầu có số mặt phẳng là:
+$$2\times0=0\ \text{(mặt phẳng)}.$$
+
+Tổng số mặt phẳng của tất cả các khối là:
+$$6+0=6\ \text{(mặt phẳng)}.$$
+
+Vậy tất cả các khối đó có $6$ mặt phẳng.
 
 **Đáp số.** $6$ mặt phẳng.
 :::

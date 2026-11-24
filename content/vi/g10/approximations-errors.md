@@ -201,7 +201,17 @@ Quy tròn $4\,863$ đến hàng chục và hàng trăm; quy tròn $2{,}71828$ đ
 2. Nhìn chữ số ngay bên phải nó.
 
 ::solution
-$4\,863$: chữ số hàng đơn vị $3<5$ nên đến hàng chục là $4\,860$; chữ số hàng chục $6\ge5$ nên đến hàng trăm là $4\,900$. $2{,}71828$: chữ số hàng phần nghìn $8\ge5$ nên đến hàng phần trăm là $2{,}72$; chữ số hàng phần chục nghìn $2<5$ nên đến hàng phần nghìn là $2{,}718$.
+Quy tắc quy tròn: xét chữ số ngay bên phải hàng quy tròn; nếu chữ số đó nhỏ hơn $5$ thì giữ nguyên chữ số ở hàng quy tròn, nếu lớn hơn hoặc bằng $5$ thì tăng chữ số ở hàng quy tròn thêm $1$; các chữ số bên phải bị bỏ (hoặc thay bằng $0$ nếu ở phần nguyên).
+
+Quy tròn $4\,863$ đến hàng chục: chữ số hàng đơn vị là $3<5$ nên giữ nguyên chữ số hàng chục, được $4\,860$.
+
+Quy tròn $4\,863$ đến hàng trăm: chữ số hàng chục là $6\ge5$ nên tăng chữ số hàng trăm ($8$) thêm $1$, được $4\,900$.
+
+Quy tròn $2{,}71828$ đến hàng phần trăm: chữ số hàng phần nghìn là $8\ge5$ nên tăng chữ số hàng phần trăm ($1$) thêm $1$, được $2{,}72$.
+
+Quy tròn $2{,}71828$ đến hàng phần nghìn: chữ số hàng phần chục nghìn là $2<5$ nên giữ nguyên chữ số hàng phần nghìn, được $2{,}718$.
+
+Vậy $4\,863\approx4\,860$ (hàng chục), $4\,863\approx4\,900$ (hàng trăm), $2{,}71828\approx2{,}72$ (hàng phần trăm), $2{,}71828\approx2{,}718$ (hàng phần nghìn).
 
 **Đáp số.** $4\,860$; $4\,900$; $2{,}72$; $2{,}718$.
 :::
@@ -217,8 +227,17 @@ Biết $\sqrt3=1{,}7320508\ldots$ Lấy $\bar a=1{,}73$ làm số gần đúng c
 2. Chia $0{,}0021$ cho $1{,}73$ và đổi ra phần trăm.
 
 ::solution
-$\Delta_{\bar a}=1{,}7320508\ldots-1{,}73=0{,}0020508\ldots<0{,}0021$. Do đó
-$$\delta_{\bar a}\le\dfrac{0{,}0021}{1{,}73}\approx0{,}0012=0{,}12\%.$$
+Sai số tuyệt đối của số gần đúng $\bar a$ là $\Delta_{\bar a}=|a-\bar a|$, với $a=\sqrt3$ và $\bar a=1{,}73$.
+
+Vì $\sqrt3=1{,}7320508\ldots>1{,}73$ nên
+$$\Delta_{\bar a}=\sqrt3-1{,}73=0{,}0020508\ldots<0{,}0021.$$
+
+Do đó $\Delta_{\bar a}<0{,}0021$, tức là có thể lấy độ chính xác $d=0{,}0021$.
+
+Sai số tương đối của $\bar a$ thoả mãn $\delta_{\bar a}=\dfrac{\Delta_{\bar a}}{|\bar a|}\le\dfrac d{|\bar a|}$, nên
+$$\delta_{\bar a}\le\frac{0{,}0021}{1{,}73}\approx0{,}0012=0{,}12\%.$$
+
+Vậy $\Delta_{\bar a}<0{,}0021$ và sai số tương đối của $\bar a$ không vượt quá $0{,}12\%$.
 
 **Đáp số.** $\delta_{\bar a}\le0{,}12\%$.
 :::
@@ -234,9 +253,19 @@ Số nào xấp xỉ $\sqrt2=1{,}41421356\ldots$ tốt hơn: $1{,}41$ hay $\dfra
 2. Tính hai sai số tuyệt đối rồi so sánh.
 
 ::solution
-$\dfrac{99}{70}=1{,}4142857\ldots$ Ta có
-$$|\sqrt2-1{,}41|\approx0{,}0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0{,}000072.$$
-Sai số thứ hai nhỏ hơn rất nhiều.
+Số nào có sai số tuyệt đối (so với $\sqrt2$) nhỏ hơn thì xấp xỉ $\sqrt2$ tốt hơn. Ta tính sai số của từng số.
+
+Ta có $\dfrac{99}{70}=1{,}4142857\ldots$ và $\sqrt2=1{,}41421356\ldots$
+
+Với số $1{,}41$:
+$$|\sqrt2-1{,}41|=0{,}00421356\ldots\approx0{,}0042.$$
+
+Với số $\dfrac{99}{70}$:
+$$\left|\frac{99}{70}-\sqrt2\right|=0{,}0000721\ldots\approx0{,}000072.$$
+
+Vì $0{,}000072<0{,}0042$ nên sai số của $\dfrac{99}{70}$ nhỏ hơn rất nhiều sai số của $1{,}41$.
+
+Vậy $\dfrac{99}{70}$ xấp xỉ $\sqrt2$ tốt hơn $1{,}41$.
 
 **Đáp số.** $\dfrac{99}{70}$ xấp xỉ $\sqrt2$ tốt hơn.
 :::
@@ -252,13 +281,25 @@ Biết $\sqrt7=2{,}6457513\ldots$ và $\pi^2=9{,}8696044\ldots$ Viết số gầ
 2. $d=0{,}01$: quy tròn đến hàng phần trăm.
 
 ::solution
-$\sqrt7\approx2{,}646$ với sai số $\approx0{,}00025\le0{,}001$. $\pi^2\approx9{,}87$ với sai số $\approx0{,}0004\le0{,}01$.
+Khi quy tròn một số đến một hàng thì sai số không vượt quá nửa đơn vị của hàng đó. Vì vậy ta chọn hàng quy tròn sao cho nửa đơn vị của hàng đó không vượt quá độ chính xác yêu cầu.
+
+Với $\sqrt7=2{,}6457513\ldots$ và độ chính xác $0{,}001$: quy tròn đến hàng phần nghìn (nửa đơn vị là $0{,}0005\le0{,}001$). Chữ số hàng phần chục nghìn là $7\ge5$ nên ta được $\sqrt7\approx2{,}646$. Sai số là
+$$|\sqrt7-2{,}646|=0{,}0002487\ldots\approx0{,}00025\le0{,}001.$$
+
+Với $\pi^2=9{,}8696044\ldots$ và độ chính xác $0{,}01$: quy tròn đến hàng phần trăm (nửa đơn vị là $0{,}005\le0{,}01$). Chữ số hàng phần nghìn là $9\ge5$ nên ta được $\pi^2\approx9{,}87$. Sai số là
+$$|\pi^2-9{,}87|=0{,}0003956\ldots\approx0{,}0004\le0{,}01.$$
+
+Vậy $\sqrt7\approx2{,}646$ (với độ chính xác $0{,}001$) và $\pi^2\approx9{,}87$ (với độ chính xác $0{,}01$).
 
 **Đáp số.** $\sqrt7\approx2{,}646$; $\pi^2\approx9{,}87$.
 :::
 
 :::exercise
-Viết số quy tròn của mỗi số gần đúng: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0{,}73914\pm0{,}004$.
+Viết số quy tròn của mỗi số gần đúng:
+
+a) $\bar a=2\,476\,154\pm2\,000$.
+
+b) $\bar b=0{,}73914\pm0{,}004$.
 
 ::hint
 **Kiến thức:** quy tròn đến hàng thấp nhất mà $d$ nhỏ hơn một đơn vị của hàng đó.
@@ -268,9 +309,13 @@ Viết số quy tròn của mỗi số gần đúng: (a) $\bar a=2\,476\,154\pm2
 2. Quy tròn theo chữ số ngay bên phải hàng đó.
 
 ::solution
-(a) $2\,000$ không nhỏ hơn $1\,000$ nhưng nhỏ hơn $10\,000$, nên quy tròn đến hàng chục nghìn; chữ số hàng nghìn là $6\ge5$: $2\,480\,000$.
+Số quy tròn của số gần đúng với độ chính xác $d$ được quy tròn đến hàng thấp nhất mà $d$ nhỏ hơn một đơn vị của hàng đó.
 
-(b) $0{,}004$ nhỏ hơn $0{,}01$ nhưng không nhỏ hơn $0{,}001$, nên quy tròn đến hàng phần trăm; chữ số hàng phần nghìn là $9\ge5$: $0{,}74$.
+a) Với $\bar a=2\,476\,154$ và $d=2\,000$: $2\,000$ không nhỏ hơn $1\,000$ (một đơn vị hàng nghìn) nhưng nhỏ hơn $10\,000$ (một đơn vị hàng chục nghìn), nên ta quy tròn đến hàng chục nghìn. Chữ số hàng nghìn là $6\ge5$ nên tăng chữ số hàng chục nghìn ($7$) thêm $1$, được $2\,480\,000$.
+
+b) Với $\bar b=0{,}73914$ và $d=0{,}004$: $0{,}004$ không nhỏ hơn $0{,}001$ nhưng nhỏ hơn $0{,}01$, nên ta quy tròn đến hàng phần trăm. Chữ số hàng phần nghìn là $9\ge5$ nên tăng chữ số hàng phần trăm ($3$) thêm $1$, được $0{,}74$.
+
+Vậy số quy tròn của $\bar a$ là $2\,480\,000$ và số quy tròn của $\bar b$ là $0{,}74$.
 
 **Đáp số.** (a) $2\,480\,000$; (b) $0{,}74$.
 :::
@@ -286,7 +331,17 @@ Một thợ may đo tấm vải dài $6{,}4$ m với độ chính xác $0{,}05$ 
 2. So sánh hai tỉ số.
 
 ::solution
-Thợ may: $\delta_1\le\dfrac{0{,}05}{6{,}4}\approx0{,}78\%$. Thợ xây: $\delta_2\le\dfrac{0{,}4}{85}\approx0{,}47\%$.
+Phép đo nào có sai số tương đối nhỏ hơn thì chính xác hơn. Ta tính cận trên của sai số tương đối $\delta\le\dfrac{d}{|\bar a|}$ của từng phép đo.
+
+Thợ may: $\bar a=6{,}4$ m, $d=0{,}05$ m, nên
+$$\delta_1\le\frac{0{,}05}{6{,}4}=0{,}0078125\approx0{,}78\%.$$
+
+Thợ xây: $\bar a=85$ m, $d=0{,}4$ m, nên
+$$\delta_2\le\frac{0{,}4}{85}\approx0{,}0047\approx0{,}47\%.$$
+
+Vì $0{,}47\%<0{,}78\%$ nên sai số tương đối của phép đo của thợ xây nhỏ hơn.
+
+Vậy phép đo của thợ xây chính xác hơn.
 
 **Đáp số.** Phép đo của thợ xây chính xác hơn.
 :::
@@ -308,13 +363,18 @@ d) Có thể $a=4{,}4$.
 3. Tìm hàng thấp nhất có đơn vị lớn hơn $0{,}02$.
 
 ::solution
-a) **Đúng.** $4{,}375-0{,}02=4{,}355$ và $4{,}375+0{,}02=4{,}395$.
+Vì $\bar a=4{,}375$ là số gần đúng của $a$ với độ chính xác $d=0{,}02$ nên $|a-\bar a|\le0{,}02$, tức là $\bar a-d\le a\le\bar a+d$.
 
-b) **Đúng.** $\dfrac{0{,}02}{4{,}375}\approx0{,}46\%\le0{,}5\%$.
+a) **Đúng.** Ta có $4{,}375-0{,}02=4{,}355$ và $4{,}375+0{,}02=4{,}395$. Do đó $a\in[4{,}355; 4{,}395]$.
 
-c) **Sai.** $0{,}02$ không nhỏ hơn $0{,}01$ nhưng nhỏ hơn $0{,}1$, nên quy tròn đến hàng phần mười: $4{,}4$.
+b) **Đúng.** Sai số tương đối của $\bar a$ thoả mãn
+$$\delta_{\bar a}\le\frac{d}{\bar a}=\frac{0{,}02}{4{,}375}\approx0{,}0046=0{,}46\%\le0{,}5\%.$$
 
-d) **Sai.** $4{,}4-4{,}375=0{,}025>0{,}02$, nên $4{,}4$ nằm ngoài đoạn ở câu a).
+c) **Sai.** Vì $0{,}02$ không nhỏ hơn $0{,}01$ nhưng nhỏ hơn $0{,}1$ nên ta quy tròn $\bar a$ đến hàng phần mười. Chữ số hàng phần trăm là $7\ge5$ nên ta được $4{,}4$, không phải $4{,}38$.
+
+d) **Sai.** Nếu $a=4{,}4$ thì $|a-\bar a|=4{,}4-4{,}375=0{,}025>0{,}02$, mâu thuẫn với độ chính xác $d=0{,}02$. Cũng vậy, $4{,}4$ nằm ngoài đoạn $[4{,}355; 4{,}395]$ ở câu a).
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -331,8 +391,18 @@ Một sân hình chữ nhật có chiều dài $32{,}5\pm0{,}1$ m và chiều r�
 3. Chia và đổi ra phần trăm.
 
 ::solution
-Chu vi gần đúng $\bar P=2(32{,}5+18{,}4)=101{,}8$ m, độ chính xác $d=2(0{,}1+0{,}1)=0{,}4$ m. Do đó
-$$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
+Gọi $\ell$ và $w$ (m) lần lượt là chiều dài và chiều rộng của sân. Theo đề, $\bar\ell=32{,}5$, $\bar w=18{,}4$, và $|\ell-\bar\ell|\le0{,}1$, $|w-\bar w|\le0{,}1$.
+
+Chu vi gần đúng là
+$$\bar P=2(\bar\ell+\bar w)=2(32{,}5+18{,}4)=101{,}8\ \text{(m)}.$$
+
+Sai số của chu vi thoả mãn
+$$|P-\bar P|=2\left|(\ell-\bar\ell)+(w-\bar w)\right|\le2(0{,}1+0{,}1)=0{,}4\ \text{(m)}.$$
+
+Do đó chu vi có độ chính xác $d=0{,}4$ m. Cận trên của sai số tương đối là
+$$\delta\le\frac{d}{\bar P}=\frac{0{,}4}{101{,}8}\approx0{,}0039=0{,}39\%.$$
+
+Vậy sai số tương đối của chu vi không vượt quá $0{,}39\%$.
 
 **Đáp số.** $\delta\le0{,}39\%$.
 :::
@@ -340,7 +410,11 @@ $$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
 :::exercise
 (Ôn tập bài [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations)) Biết $\pi=3{,}14\pm0{,}002$.
 
-(a) Viết tập $I$ các giá trị có thể của $\pi$ theo thông tin này dưới dạng một đoạn. (b) Số $\dfrac{22}{7}$ có thuộc $I$ không? (c) Tìm $I\cap[3{,}141; 3{,}15]$.
+a) Viết tập $I$ các giá trị có thể của $\pi$ theo thông tin này dưới dạng một đoạn.
+
+b) Số $\dfrac{22}{7}$ có thuộc $I$ không?
+
+c) Tìm $I\cap[3{,}141; 3{,}15]$.
 
 ::hint
 **Kiến thức:** $a=\bar a\pm d$ nghĩa là $a\in[\bar a-d; \bar a+d]$; giao của hai đoạn là phần chung.
@@ -351,11 +425,15 @@ $$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
 3. Vẽ hai đoạn lên trục số.
 
 ::solution
-(a) $I=[3{,}138; 3{,}142]$.
+Vì $\pi=3{,}14\pm0{,}002$ nên $|\pi-3{,}14|\le0{,}002$.
 
-(b) $\dfrac{22}{7}=3{,}142857\ldots>3{,}142$, nên $\dfrac{22}{7}\notin I$.
+a) Ta có $3{,}14-0{,}002=3{,}138$ và $3{,}14+0{,}002=3{,}142$. Do đó tập các giá trị có thể của $\pi$ là $I=[3{,}138; 3{,}142]$.
 
-(c) Phần chung của $[3{,}138; 3{,}142]$ và $[3{,}141; 3{,}15]$ là $[3{,}141; 3{,}142]$.
+b) Ta có $\dfrac{22}{7}=3{,}142857\ldots>3{,}142$. Vậy $\dfrac{22}{7}$ lớn hơn đầu mút phải của $I$, nên $\dfrac{22}{7}\notin I$.
+
+c) Giao của hai đoạn $[3{,}138; 3{,}142]$ và $[3{,}141; 3{,}15]$ gồm các số vừa $\ge3{,}138$ vừa $\ge3{,}141$, và vừa $\le3{,}142$ vừa $\le3{,}15$, tức là $3{,}141\le x\le3{,}142$. Do đó $I\cap[3{,}141; 3{,}15]=[3{,}141; 3{,}142]$.
+
+Vậy $I=[3{,}138; 3{,}142]$; $\dfrac{22}{7}\notin I$; $I\cap[3{,}141; 3{,}15]=[3{,}141; 3{,}142]$.
 
 **Đáp số.** (a) $[3{,}138; 3{,}142]$; (b) không; (c) $[3{,}141; 3{,}142]$.
 :::
@@ -372,7 +450,25 @@ Với sân hình chữ nhật ở bài trên ($32{,}5\pm0{,}1$ m và $18{,}4\pm0
 3. Áp dụng quy tắc viết số quy tròn.
 
 ::solution
-Diện tích ước lượng $\bar S=32{,}5\cdot18{,}4=598$ m². Nhỏ nhất $32{,}4\cdot18{,}3=592{,}92$, lớn nhất $32{,}6\cdot18{,}5=603{,}1$. Hai khoảng cách là $598-592{,}92=5{,}08$ và $603{,}1-598=5{,}1$, nên lấy $d=5{,}1$. Vì $5{,}1$ không nhỏ hơn $1$ nhưng nhỏ hơn $10$, ta quy tròn $598$ đến hàng chục: $600$.
+Gọi $\ell$, $w$ (m) lần lượt là chiều dài và chiều rộng thực của sân. Theo đề, $\ell=32{,}5\pm0{,}1$ và $w=18{,}4\pm0{,}1$, nên
+$$32{,}4\le\ell\le32{,}6,\qquad18{,}3\le w\le18{,}5.$$
+
+Diện tích ước lượng là
+$$\bar S=32{,}5\cdot18{,}4=598\ \text{(m}^2\text{)}.$$
+
+Diện tích thực là $S=\ell\cdot w$, với $\ell$, $w$ dương. Vì $S$ tăng khi $\ell$ hoặc $w$ tăng nên $S$ nhỏ nhất khi cả hai nhỏ nhất và lớn nhất khi cả hai lớn nhất:
+$$S_{\min}=32{,}4\cdot18{,}3=592{,}92,\qquad S_{\max}=32{,}6\cdot18{,}5=603{,}1.$$
+
+Do đó $592{,}92\le S\le603{,}1$.
+
+Hai khoảng cách từ $\bar S$ đến hai đầu mút là
+$$598-592{,}92=5{,}08,\qquad603{,}1-598=5{,}1.$$
+
+Lấy $d=5{,}1$ (số lớn hơn) thì $|S-\bar S|\le5{,}1$, tức là $S=598\pm5{,}1$ (m$^2$).
+
+Vì $5{,}1$ không nhỏ hơn $1$ nhưng nhỏ hơn $10$ nên ta quy tròn $598$ đến hàng chục. Chữ số hàng đơn vị là $8\ge5$ nên tăng chữ số hàng chục ($9$) thêm $1$, được $600$.
+
+Vậy diện tích nhỏ nhất là $592{,}92$ m², lớn nhất là $603{,}1$ m², $S=598\pm5{,}1$ (m²) và số quy tròn của diện tích là $600$ m².
 
 **Đáp số.** $592{,}92\le S\le603{,}1$; $S=598\pm5{,}1$ (m²); số quy tròn là $600$ m².
 :::

@@ -258,9 +258,13 @@ b) The quadrilateral $MNPQ$ has $\angle M=\angle N=120^\circ$, $\angle P=50^\cir
 2. Subtract that sum from $360^\circ$.
 
 ::solution
-a) $\angle D=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
+The angles of a quadrilateral add up to $360^\circ$, so the remaining angle equals $360^\circ$ minus the sum of the three known angles.
 
-b) $\angle Q=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+a) We have
+$$\angle D=360^\circ-(\angle A+\angle B+\angle C)=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ.$$
+
+b) We have
+$$\angle Q=360^\circ-(\angle M+\angle N+\angle P)=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ.$$
 
 So a) $\angle D=85^\circ$; b) $\angle Q=70^\circ$.
 
@@ -278,7 +282,16 @@ The four angles of a quadrilateral are in the ratio $2:3:3:4$. Find each angle.
 2. Find $k$, then each angle.
 
 ::solution
-We have $2k+3k+3k+4k=12k=360^\circ$, so $k=30^\circ$. The angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+Let the four angles of the quadrilateral be $2k$, $3k$, $3k$, $4k$ (degrees), with $k>0$.
+
+The angles of a quadrilateral add up to $360^\circ$, so
+$$2k+3k+3k+4k=360^\circ,$$
+that is $12k=360^\circ$. Hence $k=360^\circ\div12=30^\circ$ (which satisfies $k>0$).
+
+Therefore the angles are
+$$2\cdot30^\circ=60^\circ,\quad3\cdot30^\circ=90^\circ,\quad3\cdot30^\circ=90^\circ,\quad4\cdot30^\circ=120^\circ.$$
+
+Check: $60^\circ+90^\circ+90^\circ+120^\circ=360^\circ$.
 
 So the four angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
 
@@ -316,7 +329,12 @@ The quadrilateral $ABCD$ has $\angle C=60^\circ$, $\angle D=90^\circ$ and $\angl
 2. Halve it, since $\angle A=\angle B$.
 
 ::solution
-We have $\angle A+\angle B=360^\circ-60^\circ-90^\circ=210^\circ$. Since $\angle A=\angle B$, each angle equals $210^\circ\div2=105^\circ$.
+The angles of the quadrilateral $ABCD$ add up to $360^\circ$, that is $\angle A+\angle B+\angle C+\angle D=360^\circ$. Hence
+$$\angle A+\angle B=360^\circ-\angle C-\angle D=360^\circ-60^\circ-90^\circ=210^\circ.$$
+
+Since $\angle A=\angle B$, we have $2\angle A=210^\circ$, so $\angle A=210^\circ\div2=105^\circ$ and $\angle B=105^\circ$.
+
+Check: $105^\circ+105^\circ+60^\circ+90^\circ=360^\circ$.
 
 So $\angle A=\angle B=105^\circ$.
 
@@ -352,7 +370,10 @@ Suppose a yard is a quadrilateral $ABCD$ with $\angle A=90^\circ$, $\angle B=90^
 2. Subtract that sum from $360^\circ$.
 
 ::solution
-We have $\angle D=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
+The yard is a quadrilateral $ABCD$, so its angles add up to $360^\circ$. Therefore
+$$\angle D=360^\circ-(\angle A+\angle B+\angle C)=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ.$$
+
+Check: $90^\circ+90^\circ+105^\circ+75^\circ=360^\circ$.
 
 So $\angle D=75^\circ$.
 
@@ -370,9 +391,15 @@ Suppose a kite is a quadrilateral whose two side angles are both $105^\circ$ and
 2. Subtract that sum from $360^\circ$.
 
 ::solution
-The three known angles add up to $105^\circ+105^\circ+60^\circ=270^\circ$. The angle at the bottom is $360^\circ-270^\circ=90^\circ$.
+The kite is a quadrilateral, so its angles add up to $360^\circ$.
 
-So the angle at the bottom is $90^\circ$.
+The sum of the three known angles (the two side angles and the top angle) is
+$$105^\circ+105^\circ+60^\circ=270^\circ.$$
+
+The angle at the bottom is
+$$360^\circ-270^\circ=90^\circ.$$
+
+So the angle at the bottom of the kite is $90^\circ$.
 
 **Answer.** $90^\circ$.
 :::

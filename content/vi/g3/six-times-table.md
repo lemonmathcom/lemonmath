@@ -152,11 +152,18 @@ c) $6\times8$.
 2. Dừng ở số thứ tự cần tìm.
 
 ::solution
-a) $6\times3=18$.
+Em dùng bảng nhân $6$ để tính từng phép nhân.
 
-b) $6\times5=30$.
+a) $6\times3$ là tổng của $3$ số $6$, nên
+$$6\times3=6+6+6=18.$$
 
-c) $6\times8=48$.
+b) $6\times5$ gồm $3$ số $6$ và $2$ số $6$, nên
+$$6\times5=6\times3+6\times2=18+12=30.$$
+
+c) $6\times8$ gồm $5$ số $6$ và $3$ số $6$, nên
+$$6\times8=6\times5+6\times3=30+18=48.$$
+
+Vậy $6\times3=18$; $6\times5=30$; $6\times8=48$.
 
 **Đáp số.** a) $18$; b) $30$; c) $48$.
 :::
@@ -178,11 +185,18 @@ c) $6\times10$.
 2. Cộng thêm $6$.
 
 ::solution
-a) $6\times7=36+6=42$.
+Trong bảng nhân $6$, mỗi tích hơn tích liền trước $6$ đơn vị.
 
-b) $6\times9=48+6=54$.
+a) Ta có $6\times6=36$. Thêm một số $6$, ta được
+$$6\times7=6\times6+6=36+6=42.$$
 
-c) $6\times10=54+6=60$.
+b) Ta có $6\times8=48$. Thêm một số $6$, ta được
+$$6\times9=6\times8+6=48+6=54.$$
+
+c) Ta có $6\times9=54$. Thêm một số $6$, ta được
+$$6\times10=6\times9+6=54+6=60.$$
+
+Vậy $6\times7=42$; $6\times9=54$; $6\times10=60$.
 
 **Đáp số.** a) $42$; b) $54$; c) $60$.
 :::
@@ -204,11 +218,19 @@ c) $4\times9$ và $6\times6$.
 2. So sánh kết quả.
 
 ::solution
-a) $4\times6=24$.
+Em nhớ lại bảng nhân $4$ để tính.
 
-b) $6\times4=24$, bằng $4\times6$.
+a) Ta có
+$$4\times6=4\times5+4=20+4=24.$$
 
-c) $4\times9=36$ và $6\times6=36$, hai tích bằng nhau.
+b) Khi đổi chỗ hai thừa số thì tích không đổi, nên $6\times4=4\times6=24$. Kiểm tra: $6\times4=6+6+6+6=24$. Đúng.
+
+c) Ta tính từng tích:
+$$4\times9=4\times8+4=32+4=36,$$
+$$6\times6=6\times5+6=30+6=36.$$
+Hai tích cùng bằng $36$ nên $4\times9=6\times6$.
+
+Vậy $4\times6=24$; $6\times4=24$ (bằng $4\times6$); $4\times9=36$ và $6\times6=36$, hai tích bằng nhau.
 
 **Đáp số.** a) $24$; b) $24$; c) $36$ và $36$.
 :::
@@ -230,11 +252,15 @@ c) $60:6$.
 2. Số còn lại là thương.
 
 ::solution
-a) $6\times3=18$ nên $18:6=3$.
+Muốn chia, em tìm phép nhân tương ứng trong bảng nhân $6$.
 
-b) $6\times7=42$ nên $42:6=7$.
+a) Vì $6\times3=18$ nên $18:6=3$.
 
-c) $6\times10=60$ nên $60:6=10$.
+b) Vì $6\times7=42$ nên $42:6=7$.
+
+c) Vì $6\times10=60$ nên $60:6=10$.
+
+Vậy $18:6=3$; $42:6=7$; $60:6=10$.
 
 **Đáp số.** a) $3$; b) $7$; c) $10$.
 :::
@@ -256,11 +282,15 @@ c) $6\times8 \;\square\; 6\times7+6$.
 2. So sánh kết quả.
 
 ::solution
-a) $6\times5=30$ và $30>28$ nên $6\times5>28$.
+Em tính giá trị hai vế rồi so sánh.
 
-b) $36:6=6$ và $6\times1=6$ nên hai vế bằng nhau.
+a) Ta có $6\times5=30$. Vì $30>28$ nên $6\times5>28$.
 
-c) $6\times8=48$ và $6\times7+6=42+6=48$ nên hai vế bằng nhau.
+b) Vì $6\times6=36$ nên $36:6=6$. Ta lại có $6\times1=6$. Hai vế cùng bằng $6$ nên $36:6=6\times1$.
+
+c) Ta có $6\times8=48$ và $6\times7+6=42+6=48$. Hai vế cùng bằng $48$ nên $6\times8=6\times7+6$.
+
+Vậy các dấu cần điền là: $6\times5>28$; $36:6=6\times1$; $6\times8=6\times7+6$.
 
 **Đáp số.** a) $>$; b) $=$; c) $=$.
 :::
@@ -276,9 +306,14 @@ Hoa viết: "$6\times7=48$". Hoa sai ở đâu? Hãy sửa lại.
 2. Tính lại $6\times7$ từ tích liền trước.
 
 ::solution
-$48$ là $6\times8$. Ta có $6\times7=6\times6+6=36+6=42$.
+Em tính lại tích $6\times7$:
+$$6\times7=6\times6+6=36+6=42.$$
 
-**Thử lại.** $42:6=7$. Đúng.
+Hoa viết $48$, mà $48\ne42$ nên Hoa viết sai. Số $48$ là tích $6\times8$, tức là tích liền sau của $6\times7$.
+
+Thử lại: $42:6=7$, đúng với $6\times7=42$.
+
+Vậy Hoa đã lấy nhầm tích liền sau; kết quả đúng là $6\times7=42$.
 
 **Đáp số.** Hoa lấy nhầm tích liền sau; $6\times7=42$.
 :::
@@ -296,9 +331,15 @@ b) Có $54$ quả trứng xếp vào các vỉ, mỗi vỉ $6$ quả. Hỏi xế
 2. Chọn phép tính, tính rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Số quả trứng là $6\times8=48$ (quả).
+Bài giải
 
-b) Số vỉ là $54:6=9$ (vỉ).
+a) Số quả trứng trong $8$ vỉ là:
+$$6\times8=48\ \text{(quả)}$$
+
+b) Vì $6\times9=54$ nên số vỉ xếp được là:
+$$54:6=9\ \text{(vỉ)}$$
+
+Vậy $8$ vỉ có $48$ quả trứng; $54$ quả trứng xếp được $9$ vỉ.
 
 **Đáp số.** a) $48$ quả trứng; b) $9$ vỉ.
 :::
@@ -318,9 +359,23 @@ b) Còn bao nhiêu hàng chưa xếp, và còn bao nhiêu học sinh chưa xếp
 2. Trừ số hàng đã xếp, rồi tính số học sinh còn lại.
 
 ::solution
-a) Số hàng cần xếp là $60:6=10$ (hàng).
+Bài giải
 
-b) Số hàng chưa xếp là $10-7=3$ (hàng). Số học sinh đã xếp là $6\times7=42$ (em), nên số học sinh chưa xếp là $60-42=18$ (em). Kiểm tra: $6\times3=18$.
+a) Số hàng cần xếp cho $60$ học sinh là:
+$$60:6=10\ \text{(hàng)}$$
+
+b) Số hàng chưa xếp là:
+$$10-7=3\ \text{(hàng)}$$
+
+Số học sinh đã xếp trong $7$ hàng là:
+$$6\times7=42\ \text{(em)}$$
+
+Số học sinh chưa xếp là:
+$$60-42=18\ \text{(em)}$$
+
+Kiểm tra: $3$ hàng còn lại, mỗi hàng $6$ em, có $6\times3=18$ em. Đúng.
+
+Vậy cần xếp tất cả $10$ hàng; còn $3$ hàng chưa xếp và $18$ học sinh chưa xếp.
 
 **Đáp số.** a) $10$ hàng; b) $3$ hàng và $18$ học sinh.
 :::

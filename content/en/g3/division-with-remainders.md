@@ -166,9 +166,13 @@ Work out and say whether each division is exact or has a remainder: a) $24\div6$
 1. What is $6\times 4$?
 
 ::solution
-a) $6\times 4=24$, so $24\div6=4$. This is an exact division.
+a) We look for the number $?$ such that $6\times?=24$. Since $6\times4=24$, we have $24\div6=4$.
 
-b) $6\times 4=24$ and $26-24=2$, so $26\div6=4$ (remainder $2$). This is a division with a remainder.
+The remainder is $24-24=0$. So $24\div6=4$ and this is an exact division.
+
+b) We look for the biggest number whose product with $6$ does not go over $26$. Since $6\times4=24<26$ but $6\times5=30>26$, the quotient is $4$.
+
+The remainder is $26-24=2$, and $2<6$. So $26\div6=4$ (remainder $2$) and this is a division with a remainder.
 
 **Answer.** a) $4$, exact; b) $4$ remainder $2$, with a remainder.
 :::
@@ -183,9 +187,13 @@ Work out $31\div7$ and check.
 1. What is $7\times 4$? What is $7\times 5$?
 
 ::solution
-$7\times 4=28$ and $31-28=3$, so $31\div7=4$ (remainder $3$).
+We have $7\times4=28<31$ but $7\times5=35>31$, so the quotient is $4$.
 
-Check: $7\times 4+3=31$. Correct.
+The remainder is $31-28=3$, and $3<7$. Hence $31\div7=4$ (remainder $3$).
+
+Check: $7\times4+3=28+3=31$. Correct.
+
+So $31\div7=4$ (remainder $3$).
 
 **Answer.** $4$ remainder $3$.
 :::
@@ -200,7 +208,13 @@ When you divide a number by $8$, what is the largest possible remainder? Why?
 1. The remainder must be less than what number?
 
 ::solution
-The remainder must be less than $8$, so it can be $0$, $1$, $2$, $3$, $4$, $5$, $6$ or $7$. The largest remainder is $7$.
+In a division with a remainder, the remainder is always less than the divisor. If the remainder were $8$ or more, we could still divide at least one more time.
+
+When we divide by $8$, the remainder is less than $8$, so it can be $0$, $1$, $2$, $3$, $4$, $5$, $6$ or $7$. The largest of these numbers is $7$.
+
+For example, $15\div8=1$ (remainder $7$), because $8\times1=8$ and $15-8=7$.
+
+So when you divide a number by $8$, the largest possible remainder is $7$.
 
 **Answer.** $7$.
 :::
@@ -267,11 +281,18 @@ There are $50$ oranges to pack into bags, $6$ oranges in each bag. a) How many f
 2. Divide $50$ by $6$, then think about how many more bags the remainder needs.
 
 ::solution
-a) We have $6\times 8=48$ and $50-48=2$, so
+Solution
+
+a) The number of full bags is the quotient of $50\div6$. We have $6\times8=48<50$ and $6\times9=54>50$, and $50-48=2$, so
 $$50\div6=8\ (\text{remainder }2).$$
 We can fill $8$ full bags, with $2$ oranges left over.
 
-b) The $2$ leftover oranges need $1$ more bag, so we need at least $8+1=9$ bags.
+So $8$ full bags can be filled and $2$ oranges are left over.
+
+b) The $2$ leftover oranges still have to be put in a bag, so we need $1$ more bag. The least number of bags is:
+$$8+1=9\ \text{(bags)}.$$
+
+So at least $9$ bags are needed to hold all the oranges.
 
 **Answer.** a) $8$ full bags, $2$ oranges left over; b) $9$ bags.
 :::
@@ -286,9 +307,14 @@ A division has divisor $7$, quotient $9$ and remainder $5$. Find the dividend.
 1. Work out $9\times 7$, then add the remainder.
 
 ::solution
+In a division with a remainder, the dividend equals the quotient times the divisor plus the remainder. The remainder $5$ is less than the divisor $7$, so this division makes sense.
+
 The dividend is:
-$$9\times 7+5=63+5=68.$$
-Check: $68\div7=9$ (remainder $5$), because $7\times 9=63$ and $68-63=5$. Correct.
+$$9\times7+5=63+5=68.$$
+
+Check: $68\div7=9$ (remainder $5$), because $7\times9=63$ and $68-63=5$. Correct.
+
+So the dividend is $68$.
 
 **Answer.** $68$.
 :::

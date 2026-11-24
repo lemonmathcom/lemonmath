@@ -157,7 +157,21 @@ D. $y=\ln\left(x^2\right)+1$
 1. $e^y=x^2+C$; tại $(0,0)$, $C=1$.
 
 ::solution
-$e^y=x^2+1$, nên $y=\ln\left(x^2+1\right)$: đáp án **B**.
+Đây là phương trình tách biến. Từ $\dfrac{dy}{dx}=2xe^{-y}$, ta nhân hai vế với $e^y\,dx$:
+$$e^y\,dy=2x\,dx.$$
+
+Lấy tích phân hai vế:
+$$e^y=x^2+C.$$
+
+Điều kiện $y(0)=0$ cho $e^0=0^2+C$, tức là $C=1$. Do đó
+$$e^y=x^2+1\ \Rightarrow\ y=\ln\left(x^2+1\right)$$
+(hợp lệ vì $x^2+1>0$ với mọi $x$).
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án A sai vì $y=x^2$ có $y'=2x\ne2xe^{-x^2}$. Phương án C thoả mãn $y(0)=0$ nhưng không thoả mãn phương trình vi phân (vì $y'=2xe^{x^2}$ còn $2xe^{-y}=2xe^{1-e^{x^2}}$). Phương án D không xác định tại $x=0$ vì $\ln\left(0^2\right)$ không tồn tại.
+
+**Đáp số.** B.
 :::
 
 :::exercise Tự luận
@@ -167,7 +181,19 @@ Chứng tỏ $y=Ce^{-x}+x-1$ là nghiệm của $\dfrac{dy}{dx}=x-y$ với mọi
 **Cần nhớ:** tính riêng từng vế.
 
 ::solution
-Vế trái: $y'=-Ce^{-x}+1$. Vế phải: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. Hai vế bằng nhau với mọi $C$. Khi $C=0$ ta được đường thẳng trong trường hướng ở trên.
+Cho $y=Ce^{-x}+x-1$ với $C$ là hằng số bất kì. Ta chứng tỏ hai vế của phương trình $\dfrac{dy}{dx}=x-y$ bằng nhau.
+
+Vế trái: lấy đạo hàm theo $x$,
+$$y'=-Ce^{-x}+1.$$
+
+Vế phải: thay $y$ vào,
+$$x-y=x-\left(Ce^{-x}+x-1\right)=x-Ce^{-x}-x+1=1-Ce^{-x}.$$
+
+Hai vế đều bằng $1-Ce^{-x}$ với mọi $x$ và mọi $C$.
+
+Vậy $y=Ce^{-x}+x-1$ là nghiệm của $\dfrac{dy}{dx}=x-y$ với mọi hằng số $C$. (Chẳng hạn khi $C=0$ ta được nghiệm là đường thẳng $y=x-1$.)
+
+**Đáp số.** Hai vế đều bằng $1-Ce^{-x}$, nên $y=Ce^{-x}+x-1$ là nghiệm với mọi hằng số $C$.
 :::
 
 :::exercise Tự luận
@@ -181,7 +207,20 @@ Giải $\dfrac{dy}{dx}=y^2$ với $y(0)=1$, và cho biết nghiệm tồn tại 
 2. Rút $y$ ra.
 
 ::solution
-$-\dfrac1y=x-1$, nên $y=\dfrac{1}{1-x}$. Đường cong qua $(0,1)$ tiến ra vô cực tại $x=1$, nên nghiệm tồn tại khi $x<1$.
+Đây là phương trình tách biến. Vì $y(0)=1\ne0$ nên ta chia hai vế cho $y^2$ (với $y\ne0$):
+$$\frac{dy}{y^2}=dx.$$
+
+Lấy tích phân hai vế:
+$$-\frac1y=x+C.$$
+
+Điều kiện $y(0)=1$ cho $-1=0+C$, tức là $C=-1$. Do đó
+$$-\frac1y=x-1\ \Rightarrow\ y=\frac{1}{1-x}.$$
+
+Nghiệm này không xác định tại $x=1$, và khi $x\to1^-$ thì $y\to+\infty$. Nghiệm cần tìm phải xác định và liên tục trên một khoảng chứa $x=0$ (điểm cho điều kiện ban đầu), nên khoảng đó là $x<1$.
+
+Vậy nghiệm là $y=\dfrac{1}{1-x}$, và nó tồn tại khi $x<1$.
+
+**Đáp số.** $y=\dfrac{1}{1-x}$, tồn tại khi $x<1$.
 :::
 
 :::exercise Trắc nghiệm
@@ -195,7 +234,14 @@ D. $\dfrac{1}{30}$
 **Cần nhớ:** $30$ năm là ba chu kì bán rã.
 
 ::solution
-$\left(\dfrac12\right)^3=\dfrac18$: đáp án **C**.
+Chu kì bán rã là thời gian để lượng chất còn lại giảm đi một nửa. Cứ sau mỗi $10$ năm, lượng chất phóng xạ còn lại bằng $\dfrac12$ lượng trước đó.
+
+Khoảng thời gian $30$ năm gồm $\dfrac{30}{10}=3$ chu kì bán rã, nên phần còn lại là
+$$\left(\frac12\right)^3=\frac18.$$
+
+Vậy sau $30$ năm còn lại $\dfrac18$ lượng chất ban đầu, nên chọn **C**.
+
+**Đáp số.** C.
 :::
 
 :::exercise Tự luận
@@ -205,7 +251,20 @@ Với $\dfrac{dy}{dx}=x^2-y$, tìm hệ số góc của đường cong nghiệm 
 **Cần nhớ:** hệ số góc $=2^2-1$; tiếp tuyến $y=1+m(x-2)$.
 
 ::solution
-Hệ số góc bằng $3$, tiếp tuyến là $y=1+3(x-2)$, và $y(2{,}1)\approx1+3(0{,}1)=1{,}3$.
+Hệ số góc của đường cong nghiệm tại một điểm $(x; y)$ bằng $\dfrac{dy}{dx}$ tại điểm đó.
+
+Tại điểm $(2; 1)$:
+$$\frac{dy}{dx}=x^2-y=2^2-1=3.$$
+
+Tiếp tuyến đi qua $(2; 1)$ với hệ số góc $3$ nên có phương trình
+$$y-1=3(x-2)\ \Rightarrow\ y=1+3(x-2).$$
+
+Dùng tiếp tuyến để xấp xỉ $y(2{,}1)$, với $2{,}1-2=0{,}1$:
+$$y(2{,}1)\approx1+3(0{,}1)=1{,}3.$$
+
+Vậy hệ số góc bằng $3$, tiếp tuyến là $y=1+3(x-2)$ và $y(2{,}1)\approx1{,}3$.
+
+**Đáp số.** Hệ số góc $3$; tiếp tuyến $y=1+3(x-2)$; $y(2{,}1)\approx1{,}3$.
 :::
 
 ## Bài tập vận dụng
@@ -221,7 +280,20 @@ Một cốc trà ở $90$ độ C được đặt trong phòng $20$ độ C. Nhi
 2. $T(20)-20=70\left(e^{-10k}\right)^2$.
 
 ::solution
-Chênh lệch nhiệt độ giảm một nửa sau mỗi $10$ phút: $T(20)=20+70\cdot\dfrac14=37{,}5$ độ C.
+Đặt $D=T-20$ là chênh lệch nhiệt độ giữa cốc trà và phòng. Từ $\dfrac{dT}{dt}=-k(T-20)$ ta có $\dfrac{dD}{dt}=-kD$, nên
+$$D(t)=D(0)e^{-kt}.$$
+
+Tại $t=0$: $D(0)=90-20=70$. Tại $t=10$: $D(10)=T(10)-20=55-20=35$. Do đó
+$$35=70e^{-10k}\ \Rightarrow\ e^{-10k}=\frac12.$$
+
+Như vậy chênh lệch nhiệt độ giảm một nửa sau mỗi $10$ phút. Tại $t=20$:
+$$D(20)=70e^{-20k}=70\left(e^{-10k}\right)^2=70\cdot\frac14=17{,}5.$$
+
+Suy ra $T(20)=20+D(20)=20+17{,}5=37{,}5$.
+
+Vậy sau $20$ phút nhiệt độ của cốc trà là $37{,}5$ độ C.
+
+**Đáp số.** $37{,}5$ độ C.
 :::
 
 :::exercise Một câu kiểu đề AP
@@ -237,9 +309,28 @@ b) Tìm $f(x)$ bằng cách tách biến.
 2. $\ln|y-1|=\dfrac{x^2}{2}+C$; tại $(0,3)$, $C=\ln2$.
 
 ::solution
-a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, bằng $2$ tại $(0,3)$: đồ thị lõm lên ở đó.
+a) Từ $\dfrac{dy}{dx}=x(y-1)$, lấy đạo hàm theo $x$ (quy tắc đạo hàm của tích, với $y$ là hàm của $x$):
+$$\frac{d^2y}{dx^2}=(y-1)+x\,\frac{dy}{dx}.$$
 
-b) $y-1=2e^{x^2/2}$, nên $f(x)=1+2e^{x^2/2}$.
+Thay $\dfrac{dy}{dx}=x(y-1)$, ta được
+$$\frac{d^2y}{dx^2}=(y-1)+x\cdot x(y-1)=(y-1)\left(1+x^2\right).$$
+
+Tại $(0; 3)$:
+$$\frac{d^2y}{dx^2}=(3-1)\left(1+0^2\right)=2>0,$$
+nên đồ thị của $f$ lõm lên tại điểm đó.
+
+b) Phương trình tách biến được. Vì $f(0)=3\ne1$ nên $y\ne1$ gần $x=0$, và ta viết
+$$\frac{dy}{y-1}=x\,dx.$$
+
+Lấy tích phân hai vế:
+$$\ln|y-1|=\frac{x^2}{2}+C_1\ \Rightarrow\ y-1=Ae^{x^2/2}\quad(A\ne0).$$
+
+Điều kiện $f(0)=3$ cho $3-1=Ae^0$, tức là $A=2$. Do đó
+$$y-1=2e^{x^2/2}\ \Rightarrow\ f(x)=1+2e^{x^2/2}.$$
+
+Vậy $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, bằng $2$ tại $(0; 3)$ và $f(x)=1+2e^{x^2/2}$.
+
+**Đáp số.** a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, bằng $2$ tại $(0; 3)$ (lõm lên); b) $f(x)=1+2e^{x^2/2}$.
 :::
 
 :::exercise BC: phương pháp Euler
@@ -253,7 +344,20 @@ Với $\dfrac{dy}{dx}=2y$ và $y(0)=1$, dùng hai bước Euler độ dài $0{,}
 2. $y(0{,}5)\approx1{,}5+0{,}25\cdot3$.
 
 ::solution
-$y(0{,}25)\approx1{,}5$ và $y(0{,}5)\approx2{,}25$. Nghiệm chính xác là $y=e^{2x}$, nên $y(0{,}5)=e\approx2{,}718$: phương pháp Euler cho giá trị nhỏ hơn vì nghiệm lõm lên.
+Phương pháp Euler với độ dài bước $h=0{,}25$ cho $y_{n+1}=y_n+h\,f(x_n,y_n)$, ở đây $f(x,y)=2y$. Điều kiện ban đầu: $x_0=0$, $y_0=1$.
+
+Bước 1: $y_1=y_0+0{,}25\cdot2y_0=1+0{,}25\cdot2\cdot1=1{,}5$, tức là $y(0{,}25)\approx1{,}5$.
+
+Bước 2: $y_2=y_1+0{,}25\cdot2y_1=1{,}5+0{,}25\cdot2\cdot1{,}5=1{,}5+0{,}75=2{,}25$, tức là $y(0{,}5)\approx2{,}25$.
+
+Giá trị chính xác: phương trình $\dfrac{dy}{dx}=2y$ có nghiệm tổng quát $y=Ce^{2x}$; điều kiện $y(0)=1$ cho $C=1$, nên $y=e^{2x}$ và
+$$y(0{,}5)=e^{1}=e\approx2{,}718.$$
+
+So sánh: $2{,}25<2{,}718$, nên phương pháp Euler cho giá trị nhỏ hơn giá trị chính xác. Lí do là nghiệm lõm lên ($y''=4y>0$), nên đồ thị nằm phía trên các tiếp tuyến mà phương pháp Euler dùng ở mỗi bước.
+
+Vậy $y(0{,}5)\approx2{,}25$ theo phương pháp Euler, còn giá trị chính xác là $e\approx2{,}718$.
+
+**Đáp số.** $y(0{,}5)\approx2{,}25$ (Euler); giá trị chính xác $e\approx2{,}718$; Euler cho giá trị nhỏ hơn.
 :::
 
 :::exercise BC: mô hình logistic
@@ -266,7 +370,21 @@ c) Tại $t=0$, đồ thị của $P$ lõm lên hay lõm xuống?
 **Cần nhớ:** sức chứa; giá trị lớn nhất của tam thức bậc hai theo $P$; dấu của $\dfrac{d^2P}{dt^2}$ đổi tại một nửa sức chứa.
 
 ::solution
-a) $600$. b) $P=300$. c) Lõm lên: $P(0)=100<300$, nên $\dfrac{dP}{dt}$ vẫn đang tăng.
+Ta có $\dfrac{dP}{dt}=0{,}3P\left(1-\dfrac{P}{600}\right)$ (mô hình logistic), $P(0)=100$.
+
+a) Ta có $\dfrac{dP}{dt}=0$ khi $P=0$ hoặc $P=600$; đây là hai nghiệm hằng. Vì $0<P(0)=100<600$ nên $P$ luôn nằm giữa $0$ và $600$, khi đó $\dfrac{dP}{dt}>0$, tức là $P$ tăng và bị chặn trên bởi $600$. Do đó $P(t)$ có giới hạn, và giới hạn đó phải là một nghiệm hằng lớn hơn $100$, tức là $600$. Vậy $\displaystyle\lim_{t\to\infty}P(t)=600$.
+
+b) Tốc độ lan là $\dfrac{dP}{dt}=0{,}3P-\dfrac{P^2}{2000}$, là hàm bậc hai của $P$ có hệ số của $P^2$ âm, nên đạt giá trị lớn nhất tại đỉnh. Đạo hàm theo $P$ bằng $0{,}3-\dfrac{P}{1000}=0$ khi $P=300$. Vậy tin đồn lan nhanh nhất khi $P=300$ (bằng một nửa $600$).
+
+c) Lấy đạo hàm theo $t$ của $\dfrac{dP}{dt}=0{,}3P-\dfrac{P^2}{2000}$ (quy tắc đạo hàm hàm hợp):
+$$\frac{d^2P}{dt^2}=\left(0{,}3-\frac{P}{1000}\right)\frac{dP}{dt}.$$
+Tại $t=0$: $P=100$ và $\dfrac{dP}{dt}=0{,}3\cdot100\left(1-\dfrac{100}{600}\right)=25>0$. Do đó
+$$\frac{d^2P}{dt^2}=(0{,}3-0{,}1)\cdot25=5>0.$$
+Vậy đồ thị của $P$ lõm lên tại $t=0$. (Lí do: $P(0)=100<300$ nên $\dfrac{dP}{dt}$ vẫn đang tăng.)
+
+Vậy a) giới hạn bằng $600$; b) tin đồn lan nhanh nhất khi $P=300$; c) đồ thị của $P$ lõm lên tại $t=0$.
+
+**Đáp số.** a) $600$; b) $P=300$; c) lõm lên.
 :::
 
 :::quiz

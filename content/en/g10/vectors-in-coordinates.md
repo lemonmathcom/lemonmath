@@ -232,7 +232,15 @@ Let $\vec{a}=(3, -2)$ and $\vec{b}=(-1, 5)$. Find the coordinates of $2\vec{a}+\
 2. Add or subtract coordinate by coordinate.
 
 ::solution
-$2\vec{a}=(6, -4)$, so $2\vec{a}+\vec{b}=(6-1,\ -4+5)=(5, 1)$. $3\vec{b}=(-3, 15)$, so $\vec{a}-3\vec{b}=(3+3,\ -2-15)=(6, -17)$.
+For $\vec{u}=(x_1, y_1)$, $\vec{w}=(x_2, y_2)$ and a number $k$, we have $k\vec{u}=(kx_1, ky_1)$ and $\vec{u}\pm\vec{w}=(x_1\pm x_2, y_1\pm y_2)$.
+
+We have $2\vec{a}=(6, -4)$. Hence
+$$2\vec{a}+\vec{b}=(6+(-1),\ -4+5)=(5, 1).$$
+
+We have $3\vec{b}=(-3, 15)$. Hence
+$$\vec{a}-3\vec{b}=(3-(-3),\ -2-15)=(6, -17).$$
+
+So $2\vec{a}+\vec{b}=(5, 1)$ and $\vec{a}-3\vec{b}=(6, -17)$.
 
 **Answer.** $2\vec{a}+\vec{b}=(5, 1)$; $\vec{a}-3\vec{b}=(6, -17)$.
 :::
@@ -248,7 +256,15 @@ Find the coordinates of $\overrightarrow{AB}$ and the distance $AB$ for $A(-2, 3
 2. Find the length and simplify the square root.
 
 ::solution
-$\overrightarrow{AB}=(4+2,\ -1-3)=(6, -4)$ and $AB=\sqrt{36+16}=\sqrt{52}=2\sqrt{13}$.
+For $A(x_A, y_A)$ and $B(x_B, y_B)$, we have $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A)$ and $AB=|\overrightarrow{AB}|=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+
+For $A(-2, 3)$ and $B(4, -1)$:
+$$\overrightarrow{AB}=(4-(-2),\ -1-3)=(6, -4).$$
+
+The distance $AB$ is the length of $\overrightarrow{AB}$:
+$$AB=\sqrt{6^2+(-4)^2}=\sqrt{36+16}=\sqrt{52}=2\sqrt{13}.$$
+
+So $\overrightarrow{AB}=(6, -4)$ and $AB=2\sqrt{13}$.
 
 **Answer.** $\overrightarrow{AB}=(6, -4)$; $AB=2\sqrt{13}$.
 :::
@@ -265,8 +281,13 @@ b) Find the centroid of the triangle with vertices $A(1, 2)$, $B(4, -1)$, $C(-2,
 2. Do the same with the $y$-coordinates.
 
 ::solution
-a) $M\left(\dfrac{-3+7}{2},\ \dfrac{5+1}{2}\right)=M(2, 3)$.
-b) $G\left(\dfrac{1+4-2}{3},\ \dfrac{2-1+8}{3}\right)=G(1, 3)$.
+a) The midpoint $M$ of the segment $AB$ has coordinates equal to the averages of the corresponding coordinates of $A$ and $B$:
+$$M\left(\frac{-3+7}{2},\ \frac{5+1}{2}\right)=M(2, 3).$$
+So the midpoint of the segment $AB$ is $M(2, 3)$.
+
+b) The centroid $G$ of triangle $ABC$ has coordinates equal to the averages of the corresponding coordinates of the three vertices:
+$$G\left(\frac{1+4+(-2)}{3},\ \frac{2+(-1)+8}{3}\right)=G\left(\frac33,\ \frac93\right)=G(1, 3).$$
+So the centroid of triangle $ABC$ is $G(1, 3)$.
 
 **Answer.** a) $M(2, 3)$; b) $G(1, 3)$.
 :::
@@ -282,7 +303,16 @@ Prove that the three points $A(1, 1)$, $B(2, 3)$, $C(4, 7)$ are collinear.
 2. Compute $x_1y_2-x_2y_1$.
 
 ::solution
-$\overrightarrow{AB}=(1, 2)$, $\overrightarrow{AC}=(3, 6)$ and $1\cdot6-3\cdot2=0$. The vectors are collinear (indeed $\overrightarrow{AC}=3\overrightarrow{AB}$), so the three points are collinear.
+Three distinct points $A$, $B$, $C$ are collinear if and only if the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+We have
+$$\overrightarrow{AB}=(2-1,\ 3-1)=(1, 2),\qquad\overrightarrow{AC}=(4-1,\ 7-1)=(3, 6).$$
+
+Two vectors $(x_1, y_1)$ and $(x_2, y_2)$ are collinear when $x_1y_2-x_2y_1=0$. Here
+$$1\cdot6-3\cdot2=6-6=0,$$
+so $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear. More precisely, $(3, 6)=3\cdot(1, 2)$, that is, $\overrightarrow{AC}=3\overrightarrow{AB}$.
+
+So the three points $A$, $B$, $C$ are collinear.
 
 **Answer.** $A$, $B$, $C$ are collinear, with $\overrightarrow{AC}=3\overrightarrow{AB}$.
 :::
@@ -298,7 +328,17 @@ $ABCD$ is a parallelogram with $A(-1, 0)$, $B(2, 1)$, $C(3, 4)$. Find the coordi
 2. Set the matching coordinates equal.
 
 ::solution
-$\overrightarrow{AB}=(3, 1)$ and $\overrightarrow{DC}=(3-x,\ 4-y)$. From $3-x=3$ and $4-y=1$ we get $x=0$, $y=3$. Check: the midpoints of $AC$ and of $BD$ are both $(1, 2)$.
+Let $D(x, y)$. The quadrilateral $ABCD$ is a parallelogram if and only if $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+We have
+$$\overrightarrow{AB}=(2-(-1),\ 1-0)=(3, 1),\qquad\overrightarrow{DC}=(3-x,\ 4-y).$$
+
+Two vectors are equal when their corresponding coordinates are equal, so
+$$\begin{cases}3-x=3\\4-y=1\end{cases}\iff\begin{cases}x=0\\y=3.\end{cases}$$
+
+Check: the midpoint of $AC$ is $\left(\dfrac{-1+3}{2},\ \dfrac{0+4}{2}\right)=(1, 2)$ and the midpoint of $BD$ is $\left(\dfrac{2+0}{2},\ \dfrac{1+3}{2}\right)=(1, 2)$. The two midpoints coincide, so the diagonals bisect each other, as in a parallelogram.
+
+So the vertex $D$ has coordinates $(0, 3)$.
 
 **Answer.** $D(0, 3)$.
 :::
@@ -314,8 +354,16 @@ On a sea chart (units: km), the harbour is at the origin $O$. At $8$ o'clock a s
 2. Find $OP$ and round.
 
 ::solution
-$2\vec{v}=(6, 8)$, so at $10$ o'clock the ship is at $P(2+6,\ 3+8)=P(8, 11)$. Then
-$$OP=\sqrt{8^2+11^2}=\sqrt{185}\approx13.6.$$
+Choose a coordinate system $Oxy$ on the chart (units: km) with the harbour at the origin $O$. From $8$ o'clock to $10$ o'clock is $2$ hours, and the ship sails in a straight line with constant velocity $\vec{v}=(3, 4)$ (km/h), so its displacement in $2$ hours is
+$$2\vec{v}=(6, 8)\ \text{(km)}.$$
+
+Let $P$ be the position of the ship at $10$ o'clock. Then $\overrightarrow{AP}=2\vec{v}$, so
+$$P(2+6,\ 3+8)=P(8, 11).$$
+
+The distance from the ship to the harbour at $10$ o'clock is
+$$OP=\sqrt{8^2+11^2}=\sqrt{64+121}=\sqrt{185}\approx13.6\ \text{(km)}.$$
+
+So at $10$ o'clock the ship is about $13.6$ km from the harbour.
 
 **Answer.** $13.6$.
 :::
@@ -336,13 +384,19 @@ d) The perimeter of triangle $ABC$ is $15$.
 2. Average the coordinates to find $G$.
 
 ::solution
-a) **True.** $\overrightarrow{AB}=(4-1,\ 5-1)=(3, 4)$.
+We compute the vectors and lengths we need.
+$$\overrightarrow{AB}=(4-1,\ 5-1)=(3, 4),\quad\overrightarrow{BC}=(7-4,\ 1-5)=(3, -4),\quad\overrightarrow{AC}=(7-1,\ 1-1)=(6, 0).$$
 
-b) **True.** $AB=\sqrt{9+16}=5$ and $BC=\sqrt{3^2+(-4)^2}=5$, so $BA=BC$.
+a) **True.** We have $\overrightarrow{AB}=(4-1,\ 5-1)=(3, 4)$.
 
-c) **True.** $G\left(\dfrac{1+4+7}{3},\ \dfrac{1+5+1}{3}\right)=G\left(4, \dfrac73\right)$.
+b) **True.** We have $AB=\sqrt{3^2+4^2}=5$ and $BC=\sqrt{3^2+(-4)^2}=5$, so $BA=BC$. Hence triangle $ABC$ is isosceles with apex $B$.
 
-d) **False.** $AC=6$, so the perimeter is $5+5+6=16$.
+c) **True.** The centroid of the triangle is
+$$G\left(\frac{1+4+7}{3},\ \frac{1+5+1}{3}\right)=G\left(4, \frac73\right).$$
+
+d) **False.** We have $AC=\sqrt{6^2+0^2}=6$, so the perimeter of triangle $ABC$ is $AB+BC+CA=5+5+6=16$, which is not $15$.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -358,8 +412,19 @@ d) **False.** $AC=6$, so the perimeter is $5+5+6=16$.
 2. Set it equal to $(5, 1)$ and solve the system.
 
 ::solution
-$$\begin{cases}x+y=5\\x-y=1\end{cases}\iff\begin{cases}x=3\\y=2.\end{cases}$$
-**Check.** $3(1, 1)+2(1, -1)=(5, 1)$.
+We need to find $x$, $y$ such that $\vec{c}=x\vec{a}+y\vec{b}$. We have
+$$x\vec{a}+y\vec{b}=x(1, 1)+y(1, -1)=(x+y,\ x-y).$$
+
+Two vectors are equal when their corresponding coordinates are equal. Since $\vec{c}=(5, 1)$,
+$$\begin{cases}x+y=5\\x-y=1.\end{cases}$$
+
+Adding the two equations: $2x=6$, so $x=3$. Substituting into $x+y=5$ gives $y=5-3=2$.
+
+Hence $\begin{cases}x=3\\y=2.\end{cases}$
+
+Check: $3(1, 1)+2(1, -1)=(3+2,\ 3-2)=(5, 1)=\vec{c}$.
+
+So $\vec{c}=3\vec{a}+2\vec{b}$.
 
 **Answer.** $\vec{c}=3\vec{a}+2\vec{b}$.
 :::
@@ -375,9 +440,17 @@ Find the point $M$ on the $x$-axis that is equidistant from $A(1, 3)$ and $B(5, 
 2. Set them equal; the $t^2$ terms cancel.
 
 ::solution
-$$MA^2=(t-1)^2+9,\qquad MB^2=(t-5)^2+1.$$
-$$t^2-2t+10=t^2-10t+26\iff 8t=16\iff t=2.$$
-**Check.** $MA=\sqrt{1+9}=\sqrt{10}$ and $MB=\sqrt{9+1}=\sqrt{10}$.
+Since $M$ lies on the $x$-axis, $M(t, 0)$ for a real number $t$.
+
+We have
+$$MA^2=(t-1)^2+(0-3)^2=(t-1)^2+9,\qquad MB^2=(t-5)^2+(0-1)^2=(t-5)^2+1.$$
+
+The point $M$ is equidistant from $A$ and $B$ if and only if $MA=MB$, that is, $MA^2=MB^2$ (both sides are non-negative). Expanding:
+$$\begin{aligned}(t-1)^2+9&=(t-5)^2+1\\t^2-2t+10&=t^2-10t+26\\8t&=16\\t&=2.\end{aligned}$$
+
+Check: for $M(2, 0)$ we have $MA=\sqrt{(2-1)^2+9}=\sqrt{10}$ and $MB=\sqrt{(2-5)^2+1}=\sqrt{10}$, so $MA=MB$.
+
+So the required point is $M(2, 0)$.
 
 **Answer.** $M(2, 0)$.
 :::
@@ -393,7 +466,22 @@ Let $A(1, 3)$ and $B(5, 1)$. Find the point $M$ on the $x$-axis for which $|\ove
 2. The closest point is the foot of the perpendicular from $I$ to the $x$-axis.
 
 ::solution
-$I(3, 2)$ and $|\overrightarrow{MA}+\overrightarrow{MB}|=2MI$. With $M(t, 0)$: $MI^2=(t-3)^2+4\ge4$, with equality when $t=3$. So the smallest value is $2\cdot2=4$.
+Let $I$ be the midpoint of $AB$. Then
+$$I\left(\frac{1+5}{2},\ \frac{3+1}{2}\right)=I(3, 2).$$
+
+For every point $M$, we have
+$$\overrightarrow{MA}+\overrightarrow{MB}=\left(\overrightarrow{MI}+\overrightarrow{IA}\right)+\left(\overrightarrow{MI}+\overrightarrow{IB}\right)=2\overrightarrow{MI}+\left(\overrightarrow{IA}+\overrightarrow{IB}\right)=2\overrightarrow{MI},$$
+because $I$ is the midpoint of $AB$, so $\overrightarrow{IA}+\overrightarrow{IB}=\vec{0}$. Hence $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|=2MI$.
+
+So $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ is smallest if and only if $MI$ is smallest.
+
+Since $M$ lies on the $x$-axis, $M(t, 0)$. We have
+$$MI^2=(t-3)^2+(0-2)^2=(t-3)^2+4\ge4,$$
+with equality if and only if $t=3$. It follows that $MI\ge2$, and the smallest value of $MI$ is $2$, attained when $t=3$.
+
+Therefore the smallest value of $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ is $2\cdot2=4$, attained at $M(3, 0)$.
+
+So $M(3, 0)$ and the smallest value of $\left|\overrightarrow{MA}+\overrightarrow{MB}\right|$ is $4$.
 
 **Answer.** $M(3, 0)$; the smallest value is $4$.
 :::

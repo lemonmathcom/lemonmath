@@ -126,7 +126,12 @@ A car travels $175$ km in $3.5$ hours. Find the speed of the car.
 2. Divide the distance by the time.
 
 ::solution
-$v=175\div3.5=50$ (km/h).
+Solution
+
+Speed equals distance divided by time. The speed of the car is:
+$$v=175\div3.5=50\ \text{(km/h)}$$
+
+So the speed of the car is $50$ km/h.
 
 **Answer.** $50$ km/h.
 :::
@@ -142,7 +147,14 @@ A cyclist rides at $12$ km/h. How long does the cyclist take to ride $27$ km?
 2. Change the decimal part of the hour to minutes.
 
 ::solution
-$t=27\div12=2.25$ (hours) $=2$ h $15$ min.
+Solution
+
+Time equals distance divided by speed. The time the cyclist takes is:
+$$t=27\div12=2.25\ \text{(hours)}$$
+
+We have $0.25$ hours $=0.25\times60=15$ minutes, so $2.25$ hours $=2$ h $15$ min.
+
+So the cyclist takes $2$ hours $15$ minutes.
 
 **Answer.** $2$ hours $15$ minutes.
 :::
@@ -158,7 +170,14 @@ A motorbike travels at $36$ km/h. How many kilometres does it travel in $20$ min
 2. Multiply by the speed.
 
 ::solution
-$s=36\times\dfrac13=12$ (km).
+Solution
+
+Change $20$ minutes $=\dfrac{20}{60}$ hour $=\dfrac13$ hour.
+
+Distance equals speed times time. The distance the motorbike travels in $20$ minutes is:
+$$s=36\times\frac13=12\ \text{(km)}$$
+
+So the motorbike travels $12$ km in $20$ minutes.
 
 **Answer.** $12$ km.
 :::
@@ -174,7 +193,15 @@ A bus leaves at $7{:}20$ and travels $90$ km at $45$ km/h. At what time does it 
 2. Add it to the departure time.
 
 ::solution
-The travelling time is $90\div45=2$ (hours). The bus arrives at $7{:}20$ plus $2$ h, which is $9{:}20$.
+Solution
+
+The travelling time of the bus is:
+$$90\div45=2\ \text{(hours)}$$
+
+The bus arrives at:
+$$7{:}20+2\ \text{h}=9{:}20$$
+
+So the bus arrives at $9{:}20$.
 
 **Answer.** $9{:}20$.
 :::
@@ -191,7 +218,20 @@ A vehicle travels $60$ km in $1$ hour, then another $90$ km in $2$ hours. Find i
 3. Check: does $50\times3$ equal the total distance?
 
 ::solution
-The total distance is $60+90=150$ (km). The total time is $1+2=3$ (hours). The average speed is $150\div3=50$ (km/h).
+Solution
+
+Average speed equals the total distance divided by the total time.
+
+The total distance is:
+$$60+90=150\ \text{(km)}$$
+
+The total time is:
+$$1+2=3\ \text{(hours)}$$
+
+The average speed is:
+$$150\div3=50\ \text{(km/h)}$$
+
+So the average speed of the vehicle over the whole distance is $50$ km/h.
 
 **Answer.** $50$ km/h.
 :::
@@ -207,7 +247,15 @@ $6$ identical exercise books cost $72\,000$ dong. How much do $15$ such books co
 2. Find the price of one book, then multiply by $15$.
 
 ::solution
-One book costs $72\,000\div6=12\,000$ (dong). $15$ books cost $12\,000\times15=180\,000$ (dong).
+Solution
+
+The cost of one exercise book is:
+$$72\,000\div6=12\,000\ \text{(dong)}$$
+
+The cost of $15$ books is:
+$$12\,000\times15=180\,000\ \text{(dong)}$$
+
+So $15$ such books cost $180\,000$ dong.
 
 **Answer.** $180\,000$ dong.
 :::
@@ -223,7 +271,15 @@ A shop gives a $15\%$ discount on a shirt that costs $200\,000$ dong. What is th
 2. Subtract it from the old price.
 
 ::solution
-The discount is $200\,000\div100\times15=30\,000$ (dong). The price after the discount is $200\,000-30\,000=170\,000$ (dong).
+Solution
+
+The discount is:
+$$200\,000\div100\times15=30\,000\ \text{(dong)}$$
+
+The price of the shirt after the discount is:
+$$200\,000-30\,000=170\,000\ \text{(dong)}$$
+
+So the price of the shirt after the discount is $170\,000$ dong.
 
 **Answer.** $170\,000$ dong.
 :::
@@ -239,7 +295,15 @@ A team of $6$ workers repairs a road in $8$ days. How many workers are needed to
 2. Divide by the new number of days.
 
 ::solution
-The job needs $6\times8=48$ (days of work). To finish in $6$ days we need $48\div6=8$ (workers).
+Solution
+
+Since every worker works at the same rate, the amount of work stays the same. The job needs:
+$$6\times8=48\ \text{(days of work)}$$
+
+To finish in $6$ days, the number of workers needed is:
+$$48\div6=8\ \text{(workers)}$$
+
+So $8$ workers are needed.
 
 **Answer.** $8$ workers.
 :::
@@ -255,7 +319,20 @@ Remember the lesson on adding and subtracting times. A vehicle leaves at $8{:}45
 2. Change to hours, then multiply by the speed.
 
 ::solution
-The travelling time is $11$ h $15$ min $-$ $8$ h $45$ min $=10$ h $75$ min $-$ $8$ h $45$ min $=2$ h $30$ min $=2.5$ h. The distance is $52\times2.5=130$ (km).
+Solution
+
+The travelling time of the vehicle is:
+$$11\ \text{h}\ 15\ \text{min}-8\ \text{h}\ 45\ \text{min}$$
+
+Since $15$ minutes is less than $45$ minutes, change $11$ h $15$ min $=10$ h $75$ min. We have
+$$10\ \text{h}\ 75\ \text{min}-8\ \text{h}\ 45\ \text{min}=2\ \text{h}\ 30\ \text{min}.$$
+
+Change $2$ h $30$ min $=2.5$ h.
+
+The distance the vehicle travelled is:
+$$52\times2.5=130\ \text{(km)}$$
+
+So the vehicle travelled $130$ km.
 
 **Answer.** $130$ km.
 :::
@@ -271,9 +348,28 @@ A person goes from A to B at $30$ km/h, then returns from B to A at $20$ km/h. F
 2. Divide the total distance by the total time.
 
 ::solution
-The time out is $60\div30=2$ (hours) and the time back is $60\div20=3$ (hours). The total distance is $60\times2=120$ (km) and the total time is $5$ hours. The average speed is $120\div5=24$ (km/h).
+Solution
 
-**Remark.** If AB $=120$ km, the trip out takes $4$ hours and the trip back $6$ hours, and $240\div10=24$: the result does not change.
+We try $AB=60$ km.
+
+The time from A to B is:
+$$60\div30=2\ \text{(hours)}$$
+
+The time back from B to A is:
+$$60\div20=3\ \text{(hours)}$$
+
+The total distance for the round trip is:
+$$60\times2=120\ \text{(km)}$$
+
+The total time for the round trip is:
+$$2+3=5\ \text{(hours)}$$
+
+The average speed for the round trip is:
+$$120\div5=24\ \text{(km/h)}$$
+
+So the average speed for the round trip is $24$ km/h.
+
+*Remark.* If $AB=120$ km, the trip out takes $4$ hours and the trip back $6$ hours, and $240\div10=24$: the result does not change.
 
 **Answer.** $24$ km/h.
 :::

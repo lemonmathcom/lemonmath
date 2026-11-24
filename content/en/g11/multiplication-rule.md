@@ -189,9 +189,16 @@ A fair die is rolled and a fair coin is tossed. Find the probability that the di
 2. Multiply by the probability of tails.
 
 ::solution
-The probability of a multiple of $3$ is $\dfrac26=\dfrac13$; the probability of tails is $\dfrac12$.
+Let $A$ be the event "the die score is a multiple of $3$" and $B$ the event "the coin shows tails". Rolling the die and tossing the coin do not affect each other, so $A$ and $B$ are independent and $P(A\cap B)=P(A)P(B)$.
 
-$$P=\frac13\cdot\frac12=\frac16.$$
+The die has $6$ equally likely faces; the multiples of $3$ are $3$ and $6$, so there are $2$ favourable outcomes. Hence $P(A)=\dfrac26=\dfrac13$.
+
+The coin is fair, so $P(B)=\dfrac12$.
+
+By the multiplication rule,
+$$P(A\cap B)=P(A)\cdot P(B)=\frac13\cdot\frac12=\frac16.$$
+
+So the probability that the die score is a multiple of $3$ and the coin shows tails is $\dfrac16$.
 
 **Answer.** $\dfrac16$.
 :::
@@ -207,9 +214,15 @@ Two spinners operate independently. The probability that the first stops on red 
 2. For part b), multiply the two probabilities of not stopping on red.
 
 ::solution
-a) $P(\text{both red})=0.4\cdot0.7=0.28$.
+Let $A$ be the event "the first spinner stops on red" and $B$ the event "the second spinner stops on red". The spinners operate independently, so $A$ and $B$ are independent. We have $P(A)=0.4$ and $P(B)=0.7$.
 
-b) $P(\text{neither red})=(1-0.4)(1-0.7)=0.6\cdot0.3=0.18$.
+a) Both stopping on red is the event $A\cap B$. By the multiplication rule,
+$$P(A\cap B)=P(A)P(B)=0.4\cdot0.7=0.28.$$
+
+b) Since $A$ and $B$ are independent, $\overline A$ and $\overline B$ are also independent. We have $P(\overline A)=1-0.4=0.6$ and $P(\overline B)=1-0.7=0.3$. Neither stopping on red is the event $\overline A\cap\overline B$, so
+$$P\left(\overline A\cap\overline B\right)=P\left(\overline A\right)P\left(\overline B\right)=0.6\cdot0.3=0.18.$$
+
+So the probability that both stop on red is $0.28$; the probability that neither stops on red is $0.18$.
 
 **Answer.** a) $0.28$; b) $0.18$.
 :::
@@ -229,11 +242,15 @@ b) $P(A)=0.4$, $P(B)=0.5$, $P(A\cap B)=0.18$.
 2. Compare it with the probability of the intersection.
 
 ::solution
+Two events $A$ and $B$ are independent if and only if $P(A\cap B)=P(A)P(B)$.
+
 In both cases, $P(A)P(B)=0.4\cdot0.5=0.2$.
 
-a) $P(A\cap B)=0.2$, so $A$ and $B$ are independent.
+a) We have $P(A\cap B)=0.2=P(A)P(B)$, so $A$ and $B$ are independent.
 
-b) $P(A\cap B)=0.18\ne0.2$, so $A$ and $B$ are not independent.
+b) We have $P(A\cap B)=0.18\neq0.2=P(A)P(B)$, so $A$ and $B$ are not independent.
+
+So in case a) $A$ and $B$ are independent; in case b) $A$ and $B$ are not independent.
 
 **Answer.** a) Independent; b) not independent.
 :::
@@ -249,9 +266,15 @@ Two parts of a device operate independently. The probability that the first work
 2. Subtract the result from $1$.
 
 ::solution
-The probability that both parts work properly is $0.97\cdot0.94=0.9118$.
+Let $A$ be the event "the first part works properly" and $B$ the event "the second part works properly". The parts operate independently, so $A$ and $B$ are independent, with $P(A)=0.97$ and $P(B)=0.94$.
 
-Hence $P(\text{at least one part not working properly})=1-0.9118=0.0882$.
+Both parts working properly is the event $A\cap B$, so
+$$P(A\cap B)=P(A)P(B)=0.97\cdot0.94=0.9118.$$
+
+The event "at least one part does not work properly" is the complement of $A\cap B$. Therefore
+$$P=1-P(A\cap B)=1-0.9118=0.0882.$$
+
+So the probability that at least one part does not work properly is $0.0882$.
 
 **Answer.** $0.0882$.
 :::
@@ -267,9 +290,17 @@ A footballer takes two independent shots. The probabilities of scoring with the 
 2. Add the two results.
 
 ::solution
-The two cases have probabilities $0.75\cdot0.4=0.3$ and $0.25\cdot0.6=0.15$.
+Let $A$ be the event "the first shot scores" and $B$ the event "the second shot scores". The shots are independent, with $P(A)=0.75$ and $P(B)=0.6$. Hence $P(\overline A)=0.25$ and $P(\overline B)=0.4$.
 
+The player scores exactly one goal in two mutually exclusive cases:
+
+- scores with the first shot and misses with the second: $P\left(A\cap\overline B\right)=0.75\cdot0.4=0.3$;
+- misses with the first shot and scores with the second: $P\left(\overline A\cap B\right)=0.25\cdot0.6=0.15$.
+
+By the addition rule for mutually exclusive events,
 $$P(\text{exactly one goal})=0.3+0.15=0.45.$$
+
+So the probability that the player scores exactly one goal is $0.45$.
 
 **Answer.** $0.45$.
 :::
@@ -294,13 +325,17 @@ d) $A$ and $B$ are mutually exclusive.
 3. Compare $P(A\cap B)$ with $0$ to test mutual exclusivity.
 
 ::solution
-a) **True:** $P(A\cap B)=0.3\cdot0.8=0.24$.
+Since $A$ and $B$ are independent, $P(A\cap B)=P(A)P(B)$; also $\overline A$ and $B$ are independent.
 
-b) **True:** $P(\overline A\cap B)=0.7\cdot0.8=0.56$.
+a) **True.** We have $P(A\cap B)=0.3\cdot0.8=0.24$.
 
-c) **True:** $P(A\cup B)=0.3+0.8-0.24=0.86$.
+b) **True.** We have $P(\overline A)=1-0.3=0.7$. Since $\overline A$ and $B$ are independent, $P(\overline A\cap B)=0.7\cdot0.8=0.56$.
 
-d) **False:** $P(A\cap B)=0.24>0$, so the events are not mutually exclusive.
+c) **True.** By the addition rule, $P(A\cup B)=P(A)+P(B)-P(A\cap B)=0.3+0.8-0.24=0.86$.
+
+d) **False.** Two events are mutually exclusive when $P(A\cap B)=0$. Here $P(A\cap B)=0.24>0$, so $A$ and $B$ are not mutually exclusive.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -317,11 +352,19 @@ Two independent deliveries have probabilities $0.92$ and $0.85$ of arriving on t
 3. Convert to a percentage and round.
 
 ::solution
-The probability that exactly one delivery is late is
+Let $A$ be the event "the first delivery is late" and $B$ the event "the second delivery is late". The deliveries are independent, with probabilities $0.92$ and $0.85$ of arriving on time. Hence $P(A)=1-0.92=0.08$ and $P(B)=1-0.85=0.15$.
 
-$$0.92\cdot0.15+0.08\cdot0.85=0.138+0.068=0.206.$$
+Exactly one delivery is late in two mutually exclusive cases:
 
-As a percentage, $0.206=20.6\%$.
+- the first is on time and the second is late: $0.92\cdot0.15=0.138$;
+- the first is late and the second is on time: $0.08\cdot0.85=0.068$.
+
+Therefore
+$$P=0.138+0.068=0.206.$$
+
+As a percentage, $0.206=20.6\%$ (already to one decimal place).
+
+So the probability that exactly one delivery is late is $20.6\%$.
 
 **Answer.** $20.6\%$.
 :::
@@ -342,10 +385,13 @@ b) Are $A$ and $B$ independent?
 
 ::solution
 a) By the addition rule,
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0.45+0.35-0.15=0.65.$$
 
-$$P(A\cup B)=0.45+0.35-0.15=0.65.$$
+b) Events $A$ and $B$ are independent if and only if $P(A\cap B)=P(A)P(B)$. We have
+$$P(A)P(B)=0.45\cdot0.35=0.1575.$$
+Since $P(A\cap B)=0.15\neq0.1575$, $A$ and $B$ are not independent.
 
-b) $P(A)P(B)=0.45\cdot0.35=0.1575\ne0.15$, so $A$ and $B$ are not independent.
+So $P(A\cup B)=0.65$ and the events $A$ and $B$ are not independent.
 
 **Answer.** a) $0.65$; b) not independent.
 :::
@@ -362,11 +408,16 @@ A student answers two independent questions. The probability of answering each q
 3. Use $0\le p\le1$ to choose the solution.
 
 ::solution
-We have
+Let $A$ be the event "the first question is answered correctly" and $B$ the event "the second question is answered correctly". The questions are independent, so $P(A)=P(B)=p$ with $0\le p\le1$, and $\overline A$, $\overline B$ are independent.
 
+The event "at least one question is answered correctly" is the complement of "both are answered incorrectly", that is of $\overline A\cap\overline B$. We have $P\left(\overline A\cap\overline B\right)=(1-p)(1-p)=(1-p)^2$, so the required probability is $1-(1-p)^2$. By the condition,
 $$1-(1-p)^2=0.84\iff(1-p)^2=0.16.$$
 
-Since $0\le p\le1$, we have $1-p\ge0$. Thus $1-p=0.4$, giving $p=0.6$.
+Since $0\le p\le1$, we have $1-p\ge0$. Thus $1-p=\sqrt{0.16}=0.4$, giving $p=0.6$ (which satisfies $0\le p\le1$).
+
+Check: $1-(1-0.6)^2=1-0.16=0.84$.
+
+So $p=0.6$.
 
 **Answer.** $0.6$.
 :::

@@ -203,7 +203,13 @@ D. $1$.
 1. Tra bảng với $3$ ý đúng.
 
 ::solution
-Theo bảng điểm, $3$ ý đúng được $0{,}5$ điểm. Phương án B là lỗi tính $3\cdot0{,}25$.
+Theo bảng điểm của câu đúng/sai ở đề thi: chọn đúng $1$ ý được $0{,}1$ điểm; đúng $2$ ý được $0{,}25$ điểm; đúng $3$ ý được $0{,}5$ điểm; đúng cả $4$ ý được $1$ điểm.
+
+Bạn chọn đúng $3$ ý nên được $0{,}5$ điểm.
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B là lỗi tính $3\cdot0{,}25=0{,}75$: điểm không tăng đều theo số ý đúng. Phương án C là điểm của câu đúng $2$ ý; phương án D là điểm của câu đúng cả $4$ ý.
 
 **Đáp số.** A.
 :::
@@ -219,7 +225,17 @@ Bạn Bình làm đúng $9$ câu Phần I; ở Phần II đúng lần lượt $4
 2. Cộng ba phần.
 
 ::solution
-Phần I: $9\cdot0{,}25=2{,}25$. Phần II: $1+1+0{,}25+0{,}1=2{,}35$. Phần III: $3\cdot0{,}5=1{,}5$.
+Theo thang điểm: mỗi câu Phần I đúng được $0{,}25$ điểm; mỗi câu Phần III đúng được $0{,}5$ điểm; mỗi câu Phần II tính theo số ý đúng ($1$ ý: $0{,}1$; $2$ ý: $0{,}25$; $3$ ý: $0{,}5$; $4$ ý: $1$ điểm).
+
+Phần I: Bình làm đúng $9$ câu nên được $9\cdot0{,}25=2{,}25$ điểm.
+
+Phần II: các câu đúng lần lượt $4$, $4$, $2$, $1$ ý nên được $1+1+0{,}25+0{,}1=2{,}35$ điểm.
+
+Phần III: Bình làm đúng $3$ câu nên được $3\cdot0{,}5=1{,}5$ điểm.
+
+Tổng điểm là $2{,}25+2{,}35+1{,}5=6{,}1$ điểm.
+
+Vậy điểm của Bình là $6{,}1$ điểm.
 
 **Đáp số.** $2{,}25+2{,}35+1{,}5=6{,}1$ điểm.
 :::
@@ -235,7 +251,13 @@ Một câu trả lời ngắn yêu cầu làm tròn đến hàng phần mười,
 2. Đếm số kí tự nếu làm tròn đến hàng phần trăm.
 
 ::solution
-$-\dfrac23\approx-0{,}667$, làm tròn đến hàng phần mười được $-0{,}7$: bốn kí tự "−", "0", ",", "7". Nếu làm tròn đến hàng phần trăm thì được $-0{,}67$, cần $5$ ô, không ghi được.
+Ta tính $-\dfrac23\approx-0{,}667$.
+
+Làm tròn đến hàng phần mười (một chữ số thập phân), ta được $-0{,}7$. Đáp án gồm bốn kí tự "−", "0", ",", "7", vừa đủ bốn ô.
+
+Nếu làm tròn đến hàng phần trăm thì được $-0{,}67$, gồm năm kí tự "−", "0", ",", "6", "7", cần $5$ ô nên không ghi được vào $4$ ô.
+
+Vậy bạn ghi $-0{,}7$ vào $4$ ô; đề không yêu cầu làm tròn đến hàng phần trăm vì kết quả $-0{,}67$ cần $5$ ô, trong khi phiếu chỉ có $4$ ô.
 
 **Đáp số.** $-0{,}7$.
 :::
@@ -255,7 +277,16 @@ D. $x=2$.
 2. Tính giới hạn khi $x\to+\infty$.
 
 ::solution
-Phương án B, D là đường thẳng đứng, bị loại. $\lim\limits_{x\to\pm\infty}\dfrac{2x+1}{x-1}=2$. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{1}{-1}$.
+Hàm số $y=\dfrac{2x+1}{x-1}$ xác định với mọi $x\neq1$.
+
+Tiệm cận ngang của đồ thị được tìm bằng giới hạn của hàm số khi $x\to\pm\infty$. Chia tử và mẫu cho $x$, ta có
+$$\lim_{x\to\pm\infty}\frac{2x+1}{x-1}=\lim_{x\to\pm\infty}\frac{2+\frac1x}{1-\frac1x}=\frac{2+0}{1-0}=2.$$
+
+Do đó đồ thị có tiệm cận ngang là đường thẳng $y=2$.
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B và D là các đường thẳng đứng ($x=1$, $x=2$), nên không thể là tiệm cận ngang. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{1}{-1}=-1$, trong khi tiệm cận ngang phải lấy tỉ số hai hệ số của $x$, tức là $\dfrac21$.
 
 **Đáp số.** A.
 :::
@@ -278,13 +309,19 @@ d) $\displaystyle\int_0^2 f(x)g(x)\,dx=-3$.
 1. Xét từng ý bằng đúng một tính chất.
 
 ::solution
-a) **Đúng**: $3+(-1)=2$.
+a) **Đúng.** Theo tính chất tích phân của một tổng,
+$$\int_0^2\left[f(x)+g(x)\right]dx=\int_0^2f(x)\,dx+\int_0^2g(x)\,dx=3+(-1)=2.$$
 
-b) **Đúng**: $2\cdot3=6$.
+b) **Đúng.** Theo tính chất tích phân của một tích với hằng số,
+$$\int_0^22f(x)\,dx=2\int_0^2f(x)\,dx=2\cdot3=6.$$
 
-c) **Đúng**: đổi cận thì đổi dấu, $-(-1)=1$.
+c) **Đúng.** Đổi chỗ hai cận thì tích phân đổi dấu, nên
+$$\int_2^0g(x)\,dx=-\int_0^2g(x)\,dx=-(-1)=1.$$
 
-d) **Sai**: tích phân của tích không bằng tích các tích phân. Chẳng hạn $f(x)=\dfrac32$ và $g(x)=-x+\dfrac12$ thoả mãn đề nhưng $\displaystyle\int_0^2 f(x)g(x)\,dx=-\dfrac32$.
+d) **Sai.** Tích phân của một tích không bằng tích các tích phân, nên không thể suy ra $\displaystyle\int_0^2f(x)g(x)\,dx=3\cdot(-1)=-3$. Chẳng hạn, $f(x)=\dfrac32$ và $g(x)=-x+\dfrac12$ thoả mãn đề vì $\displaystyle\int_0^2\frac32\,dx=3$ và $\displaystyle\int_0^2\left(-x+\frac12\right)dx=-2+1=-1$; nhưng
+$$\int_0^2f(x)g(x)\,dx=\int_0^2\left(-\frac32x+\frac34\right)dx=-3+\frac32=-\frac32\neq-3.$$
+
+Vậy các mệnh đề a), b), c) đúng; mệnh đề d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -300,7 +337,12 @@ Một chiếc xe chuyển động với vận tốc $v(t)=3t^2+2$ (m/s), $t$ tí
 2. Dùng nguyên hàm $t^3+2t$.
 
 ::solution
-$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=27+6=33.$$
+Quãng đường đi được trong $3$ giây đầu là tích phân của vận tốc từ $t=0$ đến $t=3$. Vì $v(t)=3t^2+2>0$ với mọi $t$ nên xe không đổi chiều và quãng đường bằng đúng tích phân đó.
+
+Một nguyên hàm của $3t^2+2$ là $t^3+2t$. Do đó
+$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=(27+6)-0=33.$$
+
+Vậy trong $3$ giây đầu xe đi được $33$ m.
 
 **Đáp số.** $33$.
 :::
@@ -316,7 +358,15 @@ Cho hai biến cố $A$, $B$ với $P(A)=0{,}4$, $P(B\mid A)=0{,}3$ và $P(B\mid
 2. Thay vào công thức.
 
 ::solution
+Hai biến cố $A$ và $\overline{A}$ tạo thành một hệ đầy đủ. Ta có $P(\overline{A})=1-P(A)=1-0{,}4=0{,}6$.
+
+Áp dụng công thức xác suất toàn phần:
+$$P(B)=P(A)\cdot P(B\mid A)+P(\overline{A})\cdot P(B\mid\overline{A}).$$
+
+Thay số, ta được
 $$P(B)=0{,}4\cdot0{,}3+0{,}6\cdot0{,}5=0{,}12+0{,}3=0{,}42.$$
+
+Vậy $P(B)=0{,}42$.
 
 **Đáp số.** $0{,}42$.
 :::
@@ -332,7 +382,15 @@ Bạn Minh lập kế hoạch cho bài thi $90$ phút: dành $5$ phút cuối đ
 2. Lấy $90$ trừ đi các phần đã dùng rồi chia cho $4$.
 
 ::solution
-Phần I: $12\cdot2=24$ phút; Phần III: $6\cdot5=30$ phút. Còn lại $90-5-24-30=31$ phút cho Phần II, mỗi câu $\dfrac{31}{4}=7{,}75$ phút.
+Phần I có $12$ câu, mỗi câu làm trong $2$ phút nên cần $12\cdot2=24$ phút.
+
+Phần III có $6$ câu, mỗi câu làm trong $5$ phút nên cần $6\cdot5=30$ phút.
+
+Thời gian còn lại cho Phần II là $90-5-24-30=31$ phút (đã trừ $5$ phút cuối để kiểm tra).
+
+Chia đều cho $4$ câu Phần II, mỗi câu được $\dfrac{31}{4}=7{,}75$ phút.
+
+Vậy mỗi câu Phần II được $7{,}75$ phút, tức khoảng $7$ phút $45$ giây (vì $0{,}75\cdot60=45$ giây).
 
 **Đáp số.** $7{,}75$ phút (khoảng $7$ phút $45$ giây).
 :::

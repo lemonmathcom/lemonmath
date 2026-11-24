@@ -313,7 +313,13 @@ Dựa vào đồ thị hàm số $y=x^3-3x$ (bài 1), tìm số nghiệm của m
 2. Đếm giao điểm.
 
 ::solution
-a) Vì $-2<1<2$ nên đường thẳng $y=1$ cắt cả ba "đoạn" của đồ thị. Do đó phương trình có $3$ nghiệm. b) Vì $-3<-2$ nên đường thẳng $y=-3$ chỉ cắt nhánh bên trái (nơi $y$ đi từ $-\infty$ lên $2$). Do đó phương trình có $1$ nghiệm.
+Xét hàm số $y=x^3-3x$ có $y'=3x^2-3=3(x-1)(x+1)$. Hàm số đồng biến trên $(-\infty; -1)$, nghịch biến trên $(-1; 1)$, đồng biến trên $(1; +\infty)$, với cực đại $y(-1)=2$ và cực tiểu $y(1)=-2$. Do đó đồ thị gồm ba "đoạn": đoạn thứ nhất đi từ $-\infty$ lên $2$, đoạn thứ hai đi từ $2$ xuống $-2$, đoạn thứ ba đi từ $-2$ lên $+\infty$.
+
+Số nghiệm của phương trình $x^3-3x=m$ bằng số giao điểm của đồ thị với đường thẳng $y=m$.
+
+a) Vì $-2<1<2$ nên đường thẳng $y=1$ cắt cả ba "đoạn" của đồ thị, mỗi đoạn một điểm. Do đó phương trình $x^3-3x=1$ có $3$ nghiệm.
+
+b) Vì $-3<-2$ nên đường thẳng $y=-3$ nằm dưới điểm cực tiểu của đồ thị, chỉ cắt nhánh bên trái (nơi $y$ đi từ $-\infty$ lên $2$). Do đó phương trình $x^3-3x=-3$ có $1$ nghiệm.
 
 Vậy phương trình a) có ba nghiệm, phương trình b) có một nghiệm.
 
@@ -340,15 +346,17 @@ d) Tâm đối xứng của đồ thị là điểm $(2; 0)$.
 3. Giải $y''=0$.
 
 ::solution
-Ta có $y'=3(x-1)(x-3)$; $y(1)=2$ (cực đại), $y(3)=-2$ (cực tiểu).
+Ta có $y'=3x^2-12x+9=3(x-1)(x-3)$. Suy ra $y'>0$ khi $x<1$ hoặc $x>3$, và $y'<0$ khi $1<x<3$. Ta có $y(1)=1-6+9-2=2$ (cực đại) và $y(3)=27-54+27-2=-2$ (cực tiểu).
 
-a) **Đúng**. Ta có $y(0)=-2$.
+a) **Đúng.** Đồ thị cắt trục tung tại điểm có hoành độ $x=0$. Ta có $y(0)=-2$, nên giao điểm là $(0; -2)$.
 
-b) **Đúng**. Vì $y'$ đổi dấu $+\to-$ tại $x=1$ và $y(1)=2$ nên $(1; 2)$ là điểm cực đại của đồ thị.
+b) **Đúng.** Vì $y'$ đổi dấu từ $+$ sang $-$ tại $x=1$ và $y(1)=2$ nên $(1; 2)$ là điểm cực đại của đồ thị.
 
-c) **Sai**. Vì $-2<0<2$ nên đường thẳng $y=0$ cắt đồ thị tại $3$ điểm (các nghiệm là $2$ và $2\pm\sqrt3$).
+c) **Sai.** Vì $-2<0<2$ nên đường thẳng $y=0$ cắt đồ thị tại $3$ điểm, mỗi điểm trên một khoảng đơn điệu của đồ thị. Thật vậy, $x^3-6x^2+9x-2=(x-2)(x^2-4x+1)$ nên các nghiệm là $2$ và $2\pm\sqrt3$. Phương trình có $3$ nghiệm, không phải đúng hai nghiệm.
 
-d) **Đúng**. Ta có $y''=6x-12=0\iff x=2$ và $y(2)=8-24+18-2=0$.
+d) **Đúng.** Ta có $y''=6x-12$ và $y''=0\iff x=2$; $y''$ đổi dấu tại $x=2$ nên $x=2$ là hoành độ điểm uốn. Ta có $y(2)=8-24+18-2=0$. Điểm uốn của đồ thị hàm số bậc ba là tâm đối xứng của nó, nên tâm đối xứng là $(2; 0)$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::

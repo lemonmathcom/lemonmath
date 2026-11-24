@@ -132,7 +132,17 @@ Five numbers have mean $12$. A sixth number is added and the mean becomes $13$. 
 **What you need:** total $=$ mean $\times$ count.
 
 ::solution
-The totals are $5(12)=60$ and $6(13)=78$, so the sixth number is $18$.
+The mean equals the total of the numbers divided by how many there are. Five numbers with mean $12$ have total
+$$5\cdot12=60.$$
+
+After the sixth number is added, there are six numbers with mean $13$, so their total is
+$$6\cdot13=78.$$
+
+The sixth number is the difference of the two totals: $78-60=18$.
+
+So the sixth number is $18$.
+
+**Answer.** $18$.
 :::
 
 :::exercise Independent events
@@ -142,7 +152,15 @@ $A$ and $B$ are independent, with $P(A)=0.3$ and $P(B)=0.6$. Find $P(A\cup B)$. 
 **What you need:** $P(A\cap B)=P(A)P(B)$.
 
 ::solution
-$0.3+0.6-0.18=0.72$.
+Since $A$ and $B$ are independent,
+$$P(A\cap B)=P(A)\cdot P(B)=0.3\cdot0.6=0.18.$$
+
+Using the addition formula for probabilities:
+$$P(A\cup B)=P(A)+P(B)-P(A\cap B)=0.3+0.6-0.18=0.72.$$
+
+So $P(A\cup B)=0.72$.
+
+**Answer.** $0.72$.
 :::
 
 :::exercise Expected value from a table
@@ -156,7 +174,14 @@ Find $E(X)$. [2 marks]
 **What you need:** $\sum xP(X=x)$.
 
 ::solution
-$0(0.2)+1(0.5)+2(0.3)=1.1$.
+Check the distribution table: $0.2+0.5+0.3=1$, so the table is valid.
+
+The expected value of a discrete random variable is $E(X)=\sum x\cdot P(X=x)$. Therefore
+$$E(X)=0\cdot0.2+1\cdot0.5+2\cdot0.3=0+0.5+0.6=1.1.$$
+
+So $E(X)=1.1$.
+
+**Answer.** $1.1$.
 :::
 
 :::exercise Binomial probability
@@ -166,7 +191,16 @@ A fair coin is tossed $8$ times. Find the probability of exactly $4$ heads. [2 m
 **What you need:** $X\sim B(8, 0.5)$.
 
 ::solution
-$\dbinom84(0.5)^8=\dfrac{70}{256}\approx0.273$.
+Let $X$ be the number of heads in $8$ tosses. The tosses are independent and each shows a head with probability $0.5$, so $X\sim B(8, 0.5)$.
+
+Using the binomial probability formula $P(X=k)=\binom nk\,p^k(1-p)^{n-k}$ with $n=8$, $k=4$, $p=0.5$:
+$$P(X=4)=\binom84\cdot(0.5)^4(0.5)^4=70\cdot(0.5)^8=\frac{70}{256}.$$
+
+Here $\binom84=\dfrac{8!}{4!\,4!}=70$. Hence $P(X=4)=\dfrac{70}{256}\approx0.273$.
+
+So the probability of exactly $4$ heads is about $0.273$.
+
+**Answer.** $\dfrac{70}{256}\approx0.273$.
 :::
 
 :::exercise Normal probability
@@ -176,7 +210,19 @@ $X\sim N\left(50, 4^2\right)$. Find $P(46<X<58)$. [2 marks]
 **What you need:** the normal cdf with lower bound $46$, upper bound $58$, $\mu=50$, $\sigma=4$.
 
 ::solution
-$P(46<X<58)\approx0.819$.
+For $X\sim N\left(50, 4^2\right)$, the mean is $\mu=50$ and the standard deviation is $\sigma=4$.
+
+We standardise using $Z=\dfrac{X-\mu}{\sigma}$, where $Z\sim N(0, 1)$:
+$$z_1=\frac{46-50}{4}=-1,\qquad z_2=\frac{58-50}{4}=2.$$
+
+Therefore
+$$P(46<X<58)=P(-1<Z<2)=P(Z<2)-P(Z<-1)\approx0.97725-0.15866\approx0.819.$$
+
+Using a GDC (normal distribution function) with bounds $46$ and $58$, $\mu=50$, $\sigma=4$ gives $0.819$ as well.
+
+So $P(46<X<58)\approx0.819$.
+
+**Answer.** $\approx0.819$.
 :::
 
 ## Application exercises
@@ -188,7 +234,20 @@ $2\%$ of the light bulbs made in a factory are defective. A random sample of $20
 **What you need:** $X\sim B(20, 0.02)$ and $P(X\le1)$.
 
 ::solution
-$P(X\le1)\approx0.940$.
+Let $X$ be the number of defective bulbs among the $20$ bulbs checked. Each bulb is defective with probability $0.02$ and the bulbs are taken to be independent, so $X\sim B(20, 0.02)$.
+
+The event "at most one bulb is defective" is $X\le1$, so
+$$P(X\le1)=P(X=0)+P(X=1).$$
+
+Using the binomial formula:
+$$P(X=0)=(0.98)^{20}\approx0.6676,$$
+$$P(X=1)=\binom{20}{1}\cdot0.02\cdot(0.98)^{19}=20\cdot0.02\cdot(0.98)^{19}\approx0.2725.$$
+
+Adding: $P(X\le1)\approx0.6676+0.2725\approx0.940$. (A GDC with the cumulative binomial function gives $0.940$ as well.)
+
+So the probability that at most one bulb is defective is about $0.940$.
+
+**Answer.** $\approx0.940$.
 :::
 
 :::exercise Grade boundaries
@@ -198,7 +257,18 @@ Scores on a test are normally distributed with mean $65$ and standard deviation 
 **What you need:** $P(S>k)=0.1$ means $P(S<k)=0.9$.
 
 ::solution
-Inverse normal: $k\approx80.4$.
+Let $X$ be a student's score, $X\sim N\left(65, 12^2\right)$. Let $k$ be the lowest score that receives the highest grade. Since the top $10\%$ of students receive this grade,
+$$P(X\ge k)=0.1,\ \text{that is}\ P(X<k)=0.9.$$
+
+Use the standard normal variable $Z=\dfrac{X-65}{12}$. The inverse normal function on a GDC with probability $0.9$ gives $z\approx1.2816$, that is
+$$\frac{k-65}{12}\approx1.2816.$$
+
+It follows that
+$$k\approx65+12\cdot1.2816\approx80.4.$$
+
+So the lowest score that receives the highest grade is about $80.4$.
+
+**Answer.** $k\approx80.4$.
 :::
 
 :::exercise A two-way table
@@ -216,9 +286,21 @@ A survey of $200$ students records whether they studied more than $5$ hours and 
 **What you need:** the condition decides the denominator: a row total in (a), a column total in (b).
 
 ::solution
-(a) $\dfrac{90}{120}=0.75$.
+Let $A$ be the event "the student passed" and $B$ the event "the student studied more than $5$ hours". From the table, $90+30=120$ students studied more than $5$ hours and $90+50=140$ students passed; $90$ students both studied more than $5$ hours and passed.
 
-(b) $\dfrac{90}{140}\approx0.643$. The two answers differ: $P(A\mid B)\ne P(B\mid A)$ in general.
+a) We need $P(A\mid B)$. Of the $120$ students who studied more than $5$ hours, $90$ passed, so
+$$P(A\mid B)=\frac{90}{120}=0.75.$$
+
+So the probability that a student passed, given that they studied more than $5$ hours, is $0.75$.
+
+b) We need $P(B\mid A)$. Of the $140$ students who passed, $90$ studied more than $5$ hours, so
+$$P(B\mid A)=\frac{90}{140}=\frac{9}{14}\approx0.643.$$
+
+So the probability that a student studied more than $5$ hours, given that they passed, is about $0.643$.
+
+The two answers differ because the conditions (the reference groups) differ: $P(A\mid B)\neq P(B\mid A)$ in general.
+
+**Answer.** a) $0.75$; b) $\dfrac{90}{140}\approx0.643$.
 :::
 
 :::exercise Challenge: a fair game
@@ -228,7 +310,15 @@ A player pays $k$ dollars to roll a fair six-sided die and wins, in dollars, the
 **What you need:** expected winnings equal the cost.
 
 ::solution
-$E(\text{winnings})=\dfrac{1+2+3+4+5+6}{6}=3.5$, so $k=3.5$.
+Let $W$ be the number of dollars the player wins. The die is fair, so each face $1,2,3,4,5,6$ shows with probability $\dfrac16$. The expected winnings are
+$$E(W)=\frac{1+2+3+4+5+6}{6}=\frac{21}{6}=3.5\ \text{(dollars)}.$$
+
+The game is fair when the player's expected profit is $0$, that is, when the average winnings equal the amount paid:
+$$E(W)-k=0\iff k=E(W)=3.5.$$
+
+So for the game to be fair, $k=3.5$ dollars.
+
+**Answer.** $k=3.5$ dollars.
 :::
 
 :::quiz

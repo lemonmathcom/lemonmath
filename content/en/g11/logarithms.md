@@ -281,11 +281,15 @@ c) $\log(x^2-4)$.
 2. Solve the resulting inequality (in part c, study the sign of the product $(x-2)(x+2)$).
 
 ::solution
-a) We need $x-2>0$, that is $x>2$.
+The expression $\log_a b$ (with base $a>0$, $a\neq1$) is defined if and only if $b>0$. The bases $3$, $2$, $10$ here all satisfy the condition on the base.
 
-b) We need $5-x>0$, that is $x<5$.
+a) The expression $\log_3(x-2)$ is defined when $x-2>0$, so $x>2$.
 
-c) We need $x^2-4>0\Leftrightarrow(x-2)(x+2)>0$, that is $x<-2$ or $x>2$.
+b) The expression $\log_2(5-x)$ is defined when $5-x>0$, so $x<5$.
+
+c) The expression $\log(x^2-4)$ is defined when $x^2-4>0$. Factorising,
+$$x^2-4=(x-2)(x+2)>0.$$
+A product of two factors is positive when they have the same sign. If both are positive then $x>2$; if both are negative then $x<-2$. Hence $x<-2$ or $x>2$.
 
 So a) $x>2$; b) $x<5$; c) $x\in(-\infty, -2)\cup(2, +\infty)$.
 
@@ -309,11 +313,15 @@ c) $\log_432$.
 2. In part c: put $x=\log_432$ and solve $4^x=32$.
 
 ::solution
-a) We have $4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9$.
+We use the rules $\left(a^m\right)^n=a^{mn}$ and $a^{\log_a b}=b$ (for $a>0$, $a\neq1$, $b>0$).
 
-b) We have $8^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125$.
+a) Since $4=2^2$,
+$$4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9.$$
 
-c) From $4^x=32$ we get $2^{2x}=2^5$, so $x=\dfrac52$.
+b) Since $8=2^3$,
+$$8^{\log_25}=\left(2^3\right)^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125.$$
+
+c) Let $x=\log_432$. By the definition of a logarithm, $4^x=32$. Writing both sides as powers of $2$ gives $2^{2x}=2^5$. So $2x=5$, hence $x=\dfrac52$.
 
 So a) $9$; b) $125$; c) $\dfrac52$.
 
@@ -337,11 +345,18 @@ c) $\log_212-2\log_23+\log_26$.
 2. Evaluate the expression inside the logarithm.
 
 ::solution
-a) We have $\log_64+\log_69=\log_636=2$.
+We use the rules (for suitable positive bases and numbers):
+$$\log_a M+\log_a N=\log_a(MN),\qquad \log_a M-\log_a N=\log_a\frac MN,\qquad k\log_a M=\log_a M^k.$$
 
-b) We have $\log_354-\log_32=\log_327=3$.
+a) We have $\log_64+\log_69=\log_6(4\cdot9)=\log_636=\log_66^2=2$.
 
-c) We have $\log_212-2\log_23+\log_26=\log_2\dfrac{12\cdot6}{3^2}=\log_28=3$.
+b) We have $\log_354-\log_32=\log_3\dfrac{54}{2}=\log_327=\log_33^3=3$.
+
+c) First, $2\log_23=\log_23^2$. Therefore
+$$\begin{aligned}
+\log_212-2\log_23+\log_26&=\log_212-\log_23^2+\log_26\\
+&=\log_2\frac{12\cdot6}{3^2}=\log_28=\log_22^3=3.
+\end{aligned}$$
 
 So a) $2$; b) $3$; c) $3$.
 
@@ -363,9 +378,15 @@ b) A solution has $\mathrm{pH}=6.5$. Find $[\mathrm{H}^+]$, written as $c\cdot10
 2. b) Write $10^{-6.5}=10^{0.5}\cdot10^{-7}$.
 
 ::solution
-a) We have $\mathrm{pH}=-(\log2-4)=4-\log2\approx4-0.3010=3.70$.
+The pH is given by $\mathrm{pH}=-\log[\mathrm{H}^+]$, where $[\mathrm{H}^+]$ is in mol/litre.
 
-b) We have $[\mathrm{H}^+]=10^{-6.5}=10^{0.5}\cdot10^{-7}\approx3.2\cdot10^{-7}$.
+a) With $[\mathrm{H}^+]=2\cdot10^{-4}$, we have
+$$\mathrm{pH}=-\log\left(2\cdot10^{-4}\right)=-\left(\log2+\log10^{-4}\right)=-(\log2-4)=4-\log2.$$
+Using a calculator, $\log2\approx0.3010$, so $\mathrm{pH}\approx4-0.3010=3.699\approx3.70$ (to two decimal places).
+
+b) With $\mathrm{pH}=6.5$, from $-\log[\mathrm{H}^+]=6.5$ we get $\log[\mathrm{H}^+]=-6.5$, so
+$$[\mathrm{H}^+]=10^{-6.5}=10^{0.5}\cdot10^{-7}.$$
+Using a calculator, $10^{0.5}=\sqrt{10}\approx3.16\approx3.2$ (to one decimal place), so $[\mathrm{H}^+]\approx3.2\cdot10^{-7}$.
 
 So a) $\mathrm{pH}\approx3.70$; b) $[\mathrm{H}^+]\approx3.2\cdot10^{-7}$ mol/litre.
 
@@ -415,13 +436,15 @@ d) $\log_35\cdot\log_53=1$.
 2. b) Evaluate each side separately; d) use $\log_ab=\dfrac{1}{\log_ba}$.
 
 ::solution
-a) **True**: $2^3=8$.
+a) **True.** By definition, $\log_28=3$ if and only if $2^3=8$, which holds.
 
-b) **False**: the left side is $\log_28=3$, the right side is $2+2=4$.
+b) **False.** The left side is $\log_2(4+4)=\log_28=3$. The right side is $\log_24+\log_24=2+2=4$. Since $3\neq4$, the equality is false.
 
-c) **False**: $\left(\dfrac12\right)^2=\dfrac14\neq4$; in fact $\log_{1/2}4=-2$.
+c) **False.** If $\log_{1/2}4=2$, then $\left(\dfrac12\right)^2=4$, but $\left(\dfrac12\right)^2=\dfrac14\neq4$. In fact $4=\left(\dfrac12\right)^{-2}$, so $\log_{1/2}4=-2$.
 
-d) **True**: $\log_35=\dfrac{1}{\log_53}$, so the product is $1$.
+d) **True.** By the change-of-base formula, $\log_35=\dfrac{1}{\log_53}$ (with $\log_53\neq0$). Hence $\log_35\cdot\log_53=1$.
+
+So statements a), d) are true; statements b), c) are false.
 
 **Answer.** a) True; b) False; c) False; d) True.
 :::
@@ -437,7 +460,12 @@ Using a calculator, find $\log_23$ (to two decimal places).
 2. Use the calculator, then round.
 
 ::solution
-We have $\log_23=\dfrac{\ln3}{\ln2}\approx\dfrac{1.0986}{0.6931}\approx1.585$.
+A calculator usually has only the keys $\ln$ and $\log$, so we use the change-of-base formula $\log_ab=\dfrac{\ln b}{\ln a}$.
+
+We have
+$$\log_23=\frac{\ln3}{\ln2}\approx\frac{1.0986}{0.6931}\approx1.585.$$
+
+Rounding to two decimal places, $\log_23\approx1.58$.
 
 So $\log_23\approx1.58$.
 
@@ -459,9 +487,15 @@ b) $\log_a\dfrac{a}{\sqrt[3]{a}}$.
 2. Read off the exponent $r$.
 
 ::solution
-a) We have $a^2\sqrt a=a^{2+\frac12}=a^{5/2}$, so $\log_a\left(a^2\sqrt a\right)=\dfrac52$.
+For $a>0$, $a\neq1$, we use $\sqrt a=a^{\frac12}$, $\sqrt[3]a=a^{\frac13}$, $a^m\cdot a^n=a^{m+n}$, $\dfrac{a^m}{a^n}=a^{m-n}$ and $\log_aa^\alpha=\alpha$.
 
-b) We have $\dfrac{a}{\sqrt[3]{a}}=a^{1-\frac13}=a^{2/3}$, so $\log_a\dfrac{a}{\sqrt[3]a}=\dfrac23$.
+a) We have
+$$a^2\sqrt a=a^2\cdot a^{\frac12}=a^{2+\frac12}=a^{\frac52}.$$
+Therefore $\log_a\left(a^2\sqrt a\right)=\log_aa^{\frac52}=\dfrac52$.
+
+b) We have
+$$\frac{a}{\sqrt[3]a}=\frac{a^1}{a^{\frac13}}=a^{1-\frac13}=a^{\frac23}.$$
+Therefore $\log_a\dfrac{a}{\sqrt[3]a}=\log_aa^{\frac23}=\dfrac23$.
 
 So a) $\dfrac52$; b) $\dfrac23$.
 

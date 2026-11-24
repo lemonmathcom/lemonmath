@@ -196,11 +196,19 @@ c) $AB'$ và $A'D$.
 2. Xét tam giác tạo thành.
 
 ::solution
-a) $A'D'\parallel AD$ nên $\widehat{(AB, A'D')}=\widehat{(AB, AD)}=\widehat{BAD}=90^\circ$.
+Góc giữa hai đường thẳng $a$, $b$ trong không gian là góc giữa hai đường thẳng $a'$, $b'$ cùng đi qua một điểm và lần lượt song song (hoặc trùng) với $a$, $b$.
 
-b) $B'D'\parallel BD$ và $AC\perp BD$ (hai đường chéo hình vuông) nên $AC\perp B'D'$, tức góc bằng $90^\circ$.
+a) Vì $A'D'\parallel AD$ nên
+$$\widehat{(AB, A'D')}=\widehat{(AB, AD)}=\widehat{BAD}=90^\circ$$
+(vì $ABCD$ là hình vuông).
 
-c) $A'D\parallel B'C$ nên $\widehat{(AB', A'D)}=\widehat{(AB', B'C)}=\widehat{AB'C}$. Tam giác $AB'C$ có ba cạnh là đường chéo các mặt nên là tam giác đều, do đó $\widehat{AB'C}=60^\circ$.
+b) Vì $B'D'\parallel BD$ nên $\widehat{(AC, B'D')}=\widehat{(AC, BD)}$. Hai đường chéo $AC$ và $BD$ của hình vuông $ABCD$ vuông góc với nhau nên $AC\perp B'D'$, tức góc giữa chúng bằng $90^\circ$.
+
+c) Vì $A'D\parallel B'C$ (do $A'B'CD$ là hình bình hành) nên
+$$\widehat{(AB', A'D)}=\widehat{(AB', B'C)}=\widehat{AB'C}.$$
+Tam giác $AB'C$ có ba cạnh $AB'$, $B'C$, $AC$ là đường chéo của các mặt hình vuông bằng nhau nên $AB'=B'C=CA$, tức là tam giác đều. Do đó $\widehat{AB'C}=60^\circ$.
+
+Vậy góc giữa $AB$ và $A'D'$ là $90^\circ$, giữa $AC$ và $B'D'$ là $90^\circ$, giữa $AB'$ và $A'D$ là $60^\circ$.
 
 **Đáp số.** a) $90^\circ$; b) $90^\circ$; c) $60^\circ$.
 :::
@@ -216,9 +224,13 @@ Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Chứng minh $AA'\perp B'C'$ và $
 2. Dùng góc vuông của hình chữ nhật.
 
 ::solution
-Vì $B'C'\parallel A'D'$ và $AA'\perp A'D'$ (mặt $ADD'A'$ là hình chữ nhật) nên $AA'\perp B'C'$.
+Ta dùng tính chất: nếu $a\parallel b$ và $b\perp c$ thì $a\perp c$.
 
-Vì $CD\parallel AB$ và $BB'\perp AB$ (mặt $ABB'A'$ là hình chữ nhật) nên $BB'\perp CD$.
+Chứng minh $AA'\perp B'C'$. Trong hình hộp chữ nhật, $B'C'\parallel A'D'$ (hai cạnh đối của hình chữ nhật $A'B'C'D'$). Mặt $ADD'A'$ là hình chữ nhật nên $AA'\perp A'D'$. Vì $B'C'\parallel A'D'$ và $AA'\perp A'D'$ nên $AA'\perp B'C'$.
+
+Chứng minh $BB'\perp CD$. Ta có $CD\parallel AB$ (hai cạnh đối của hình chữ nhật $ABCD$). Mặt $ABB'A'$ là hình chữ nhật nên $BB'\perp AB$. Vì $CD\parallel AB$ và $BB'\perp AB$ nên $BB'\perp CD$.
+
+Vậy $AA'\perp B'C'$ và $BB'\perp CD$.
 
 **Đáp số.** Cả hai đều vuông góc.
 :::
@@ -234,7 +246,15 @@ Giả sử một căn phòng hình hộp chữ nhật có sàn là hình chữ n
 2. Tính góc $\widehat{BAC}$ trong tam giác vuông $ABC$.
 
 ::solution
-$A'C'\parallel AC$ nên $\widehat{(AB, A'C')}=\widehat{(AB, AC)}=\widehat{BAC}$. Trong tam giác $ABC$ vuông tại $B$, ta có $\tan\widehat{BAC}=\dfrac{BC}{AB}=\dfrac46=\dfrac23$, suy ra $\widehat{BAC}\approx33{,}7^\circ$.
+Gọi $\varphi$ là góc giữa hai ống. Vì $A'C'\parallel AC$ (hai cạnh đối của hình chữ nhật $AA'C'C$) nên
+$$\varphi=\widehat{(AB, A'C')}=\widehat{(AB, AC)}=\widehat{BAC}.$$
+
+Đáy $ABCD$ là hình chữ nhật nên tam giác $ABC$ vuông tại $B$, với $AB=6$ m, $BC=4$ m. Ta có
+$$\tan\widehat{BAC}=\frac{BC}{AB}=\frac46=\frac23.$$
+
+Suy ra $\widehat{BAC}\approx33{,}7^\circ$ (làm tròn đến hàng phần mười của độ). Chiều cao $3$ m của căn phòng không ảnh hưởng đến kết quả.
+
+Vậy góc giữa hai ống khoảng $33{,}7^\circ$.
 
 **Đáp số.** Khoảng $33{,}7^\circ$.
 :::
@@ -250,9 +270,18 @@ Giả sử khung một giá sách có dạng hình hộp chữ nhật $ABCD.A'B'
 2. Tính $\cos\widehat{AOB}$ rồi lấy góc nhọn.
 
 ::solution
-$B'D'\parallel BD$ nên $\widehat{(AC, B'D')}=\widehat{(AC, BD)}$. Ta có $AC=BD=\sqrt{40^2+90^2}=\sqrt{9700}$ nên $OA=OB=\dfrac{\sqrt{9700}}{2}$ và $OA^2=2425$. Do đó
-$$\cos\widehat{AOB}=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0{,}6701,$$
-suy ra $\widehat{AOB}\approx47{,}9^\circ$ (góc nhọn).
+Vì $B'D'\parallel BD$ nên $\widehat{(AC, B'D')}=\widehat{(AC, BD)}$. Gọi $O$ là giao điểm của $AC$ và $BD$; góc cần tìm là góc nhọn tạo bởi $AC$ và $BD$ tại $O$.
+
+Đáy $ABCD$ là hình chữ nhật nên
+$$AC=BD=\sqrt{AB^2+AD^2}=\sqrt{40^2+90^2}=\sqrt{9700}.$$
+$O$ là trung điểm của $AC$ và $BD$ nên $OA=OB=\dfrac{\sqrt{9700}}{2}$, suy ra $OA^2=OB^2=\dfrac{9700}{4}=2425$.
+
+Áp dụng định lí côsin trong tam giác $OAB$, ta có
+$$\cos\widehat{AOB}=\frac{OA^2+OB^2-AB^2}{2\cdot OA\cdot OB}=\frac{2\cdot2425-40^2}{2\cdot2425}=\frac{3250}{4850}\approx0{,}6701.$$
+
+Vì $\cos\widehat{AOB}>0$ nên $\widehat{AOB}$ là góc nhọn và $\widehat{AOB}\approx47{,}9^\circ$. Đây chính là góc giữa hai đường thẳng $AC$ và $BD$.
+
+Vậy hai thanh chéo hợp với nhau góc khoảng $47{,}9^\circ$.
 
 **Đáp số.** Khoảng $47{,}9^\circ$.
 :::
@@ -276,13 +305,15 @@ d) Góc giữa hai đường thẳng luôn có số đo từ $0^\circ$ đến $9
 2. Tìm phản ví dụ trong hình lập phương nếu cần.
 
 ::solution
-a) **Sai**: góc giữa hai đường thẳng chéo nhau được xác định qua đường song song.
+a) **Sai.** Hai đường thẳng chéo nhau vẫn có góc giữa chúng: đó là góc giữa hai đường thẳng cắt nhau lần lượt song song với chúng (qua một điểm bất kì).
 
-b) **Đúng**: tính chất đã học.
+b) **Đúng.** Vì $a\parallel b$ nên góc giữa $b$ và $c$ bằng góc giữa $a$ và $c$. Mà $a\perp c$ nên góc đó bằng $90^\circ$, tức $b\perp c$.
 
-c) **Sai**: trong hình lập phương, $AB$ và $AD$ cùng vuông góc với $AA'$ nhưng không song song.
+c) **Sai.** Trong hình lập phương $ABCD.A'B'C'D'$, hai đường thẳng $AB$ và $AD$ cùng vuông góc với $AA'$ nhưng $AB$ và $AD$ cắt nhau tại $A$ nên không song song.
 
-d) **Đúng**: theo định nghĩa.
+d) **Đúng.** Theo định nghĩa, góc giữa hai đường thẳng là góc giữa hai đường thẳng cắt nhau tương ứng, và số đo góc này luôn từ $0^\circ$ đến $90^\circ$.
+
+Vậy các mệnh đề b), d) đúng; các mệnh đề a), c) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -298,9 +329,18 @@ d) **Đúng**: theo định nghĩa.
 2. Tính ba cạnh rồi dùng định lí côsin.
 
 ::solution
-$A'D\parallel B'C$ nên $\widehat{(AC, A'D)}=\widehat{ACB'}$. Ta có $AC=\sqrt{1+4}=\sqrt5$, $AB'=\sqrt{1+4}=\sqrt5$ và $B'C=\sqrt{4+4}=2\sqrt2$. Do đó
-$$\cos\widehat{ACB'}=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0{,}6325,$$
-suy ra $\widehat{ACB'}\approx50{,}8^\circ$.
+Vì $A'D\parallel B'C$ (do $A'B'CD$ là hình chữ nhật) nên
+$$\widehat{(AC, A'D)}=\widehat{(AC, B'C)}=\widehat{ACB'}.$$
+
+Tính các cạnh của tam giác $ACB'$ (các tam giác $ABC$, $ABB'$, $BB'C$ vuông tại $B$):
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{1+4}=\sqrt5,\quad AB'=\sqrt{AB^2+BB'^2}=\sqrt{1+4}=\sqrt5,\quad B'C=\sqrt{BC^2+BB'^2}=\sqrt{4+4}=2\sqrt2.$$
+
+Áp dụng định lí côsin trong tam giác $ACB'$, ta có
+$$\cos\widehat{ACB'}=\frac{AC^2+B'C^2-AB'^2}{2\cdot AC\cdot B'C}=\frac{5+8-5}{2\sqrt5\cdot2\sqrt2}=\frac{2}{\sqrt{10}}\approx0{,}6325.$$
+
+Suy ra $\widehat{ACB'}\approx50{,}8^\circ$. Góc này nhọn nên đó là góc giữa $AC$ và $A'D$.
+
+Vậy góc giữa $AC$ và $A'D$ khoảng $50{,}8^\circ$.
 
 **Đáp số.** $50{,}8^\circ$.
 :::
@@ -316,9 +356,17 @@ Giả sử một khung mái hình lăng trụ tam giác đều $ABC.A'B'C'$ có 
 2. Dùng định lí côsin.
 
 ::solution
-$A'C'\parallel AC$ nên $\widehat{(AB', A'C')}=\widehat{B'AC}$. Mặt $ABB'A'$ là hình vuông cạnh $3$ nên $AB'=3\sqrt2$; mặt $BCC'B'$ là hình vuông nên $B'C=3\sqrt2$; $AC=3$. Do đó
-$$\cos\widehat{B'AC}=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0{,}3536,$$
-suy ra $\widehat{B'AC}\approx69{,}3^\circ$.
+Vì $A'C'\parallel AC$ (hai cạnh đối của hình chữ nhật $AA'C'C$) nên
+$$\widehat{(AB', A'C')}=\widehat{(AB', AC)}=\widehat{B'AC}.$$
+
+Lăng trụ tam giác đều có tất cả các cạnh bằng $3$ nên các mặt bên là hình vuông cạnh $3$. Mặt $ABB'A'$ là hình vuông cạnh $3$ nên $AB'=3\sqrt2$. Mặt $BCC'B'$ là hình vuông cạnh $3$ nên $B'C=3\sqrt2$. Ngoài ra $AC=3$.
+
+Áp dụng định lí côsin trong tam giác $B'AC$, ta có
+$$\cos\widehat{B'AC}=\frac{AB'^2+AC^2-B'C^2}{2\cdot AB'\cdot AC}=\frac{18+9-18}{2\cdot3\sqrt2\cdot3}=\frac{\sqrt2}{4}\approx0{,}3536.$$
+
+Suy ra $\widehat{B'AC}\approx69{,}3^\circ$. Góc này nhọn nên đó là góc giữa $AB'$ và $A'C'$.
+
+Vậy góc giữa thanh $AB'$ và thanh $A'C'$ khoảng $69{,}3^\circ$.
 
 **Đáp số.** $69{,}3^\circ$.
 :::
@@ -334,9 +382,20 @@ Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=a$, $AD=b$, $AA'=c$. Gọi 
 2. Tính $\cos\widehat{AOB}$ rồi xét hai trường hợp góc nhọn và góc tù.
 
 ::solution
-$B'D'\parallel BD$ nên $\varphi$ là góc nhọn giữa $AC$ và $BD$. Với $d^2=a^2+b^2$ và $OA=OB=\dfrac d2$:
-$$\cos\widehat{AOB}=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{b^2-a^2}{a^2+b^2}.$$
-Nếu $b\ge a$ thì $\widehat{AOB}$ nhọn và $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}$. Nếu $b<a$ thì $\widehat{AOB}$ tù, góc giữa là góc bù và $\cos\varphi=-\cos\widehat{AOB}=\dfrac{a^2-b^2}{a^2+b^2}$. Cả hai trường hợp cho $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, không chứa $c$.
+Vì $B'D'\parallel BD$ nên góc $\varphi$ giữa $AC$ và $B'D'$ cũng là góc giữa $AC$ và $BD$, tức là góc nhọn (hoặc vuông) tạo bởi hai đường thẳng này.
+
+Gọi $O$ là giao điểm của $AC$ và $BD$. Đặt $d^2=AC^2=BD^2=a^2+b^2$. Vì $O$ là trung điểm của $AC$ và $BD$ nên $OA=OB=\dfrac d2$.
+
+Áp dụng định lí côsin trong tam giác $OAB$ với $AB=a$, ta có
+$$\cos\widehat{AOB}=\frac{\frac{d^2}{4}+\frac{d^2}{4}-a^2}{2\cdot\frac{d^2}{4}}=\frac{d^2-2a^2}{d^2}=\frac{a^2+b^2-2a^2}{a^2+b^2}=\frac{b^2-a^2}{a^2+b^2}.$$
+
+Xét hai trường hợp.
+
+Nếu $b\ge a$ thì $\cos\widehat{AOB}\ge0$, nên $\widehat{AOB}$ nhọn hoặc vuông và $\varphi=\widehat{AOB}$. Khi đó $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+Nếu $b<a$ thì $\cos\widehat{AOB}<0$, nên $\widehat{AOB}$ tù và góc giữa hai đường thẳng là góc bù $\varphi=180^\circ-\widehat{AOB}$. Khi đó $\cos\varphi=-\cos\widehat{AOB}=\dfrac{a^2-b^2}{a^2+b^2}=\dfrac{|b^2-a^2|}{a^2+b^2}$.
+
+Vậy trong cả hai trường hợp $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$, biểu thức này không chứa $c$ nên không phụ thuộc vào $c$.
 
 **Đáp số.** $\cos\varphi=\dfrac{|b^2-a^2|}{a^2+b^2}$.
 :::

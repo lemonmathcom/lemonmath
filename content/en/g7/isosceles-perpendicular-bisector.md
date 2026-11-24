@@ -470,7 +470,16 @@ Triangle $ABC$ is isosceles with apex $A$. On the extension of $CB$ beyond $B$ t
 2. Consider triangles $ABD$ and $ACE$.
 
 ::solution
-Since triangle $ABC$ is isosceles with apex $A$, $AB=AC$ and $\angle ABC=\angle ACB$. Since $\angle ABD$ and $\angle ABC$ are adjacent on a straight line, and so are $\angle ACE$ and $\angle ACB$, we get $\angle ABD=180^\circ-\angle ABC=180^\circ-\angle ACB=\angle ACE$.
+Since triangle $ABC$ is isosceles with apex $A$,
+$$AB=AC\quad\text{and}\quad\angle ABC=\angle ACB.$$
+
+Since $D$ lies on the extension of $CB$ beyond $B$, the angles $\angle ABD$ and $\angle ABC$ are adjacent on a straight line. Hence
+$$\angle ABD=180^\circ-\angle ABC.$$
+
+Since $E$ lies on the extension of $BC$ beyond $C$, the angles $\angle ACE$ and $\angle ACB$ are adjacent on a straight line. Hence
+$$\angle ACE=180^\circ-\angle ACB.$$
+
+As $\angle ABC=\angle ACB$, we get $\angle ABD=\angle ACE$.
 
 Consider triangles $ABD$ and $ACE$. We have:
 
@@ -478,7 +487,11 @@ Consider triangles $ABD$ and $ACE$. We have:
 - $\angle ABD=\angle ACE$ (shown above);
 - $BD=CE$ (given).
 
-Hence $\triangle ABD\equiv\triangle ACE$ (SAS). So $AD=AE$, that is, triangle $ADE$ is isosceles with apex $A$.
+Hence $\triangle ABD\equiv\triangle ACE$ (SAS).
+
+So $AD=AE$ (corresponding sides), that is, triangle $ADE$ is isosceles with apex $A$.
+
+So triangle $ADE$ is isosceles with apex $A$.
 
 **Answer.** Proved.
 :::

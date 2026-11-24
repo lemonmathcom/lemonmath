@@ -189,7 +189,15 @@ Khai triển $(x+1)^5$.
 2. Ghép với hàng hệ số.
 
 ::solution
-Với $a=x$, $b=1$, mọi luỹ thừa của $b$ đều bằng $1$.
+Áp dụng công thức nhị thức Newton với $a=x$, $b=1$, $n=5$, ta có
+$$(x+1)^5=C_5^0x^5+C_5^1x^4\cdot1+C_5^2x^3\cdot1^2+C_5^3x^2\cdot1^3+C_5^4x\cdot1^4+C_5^5\cdot1^5.$$
+
+Các hệ số tổ hợp là $C_5^0=1$, $C_5^1=5$, $C_5^2=10$, $C_5^3=10$, $C_5^4=5$, $C_5^5=1$ (đây cũng là hàng ứng với $n=5$ của tam giác Pascal).
+
+Vì mọi luỹ thừa của $b=1$ đều bằng $1$ nên
+$$(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1.$$
+
+Vậy $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
 
 **Đáp số.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
 :::
@@ -205,7 +213,15 @@ Khai triển $(x-3)^4$.
 2. Nhân với hàng hệ số $1, 4, 6, 4, 1$.
 
 ::solution
-$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+Áp dụng công thức nhị thức Newton với $a=x$, $b=-3$, $n=4$. Các hệ số tổ hợp là $C_4^0=1$, $C_4^1=4$, $C_4^2=6$, $C_4^3=4$, $C_4^4=1$.
+
+Ta có
+$$(x-3)^4=x^4+4x^3(-3)+6x^2(-3)^2+4x(-3)^3+(-3)^4.$$
+
+Tính các luỹ thừa: $(-3)^2=9$, $(-3)^3=-27$, $(-3)^4=81$. Thay vào, ta được
+$$\begin{aligned}(x-3)^4&=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81\\&=x^4-12x^3+54x^2-108x+81.\end{aligned}$$
+
+Vậy $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
 
 **Đáp số.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
 :::
@@ -221,7 +237,13 @@ Tìm hệ số của $x^2$ trong khai triển $(3+x)^5$.
 2. Tính $C_5^2\cdot3^3$.
 
 ::solution
-$C_5^2\cdot3^3=10\cdot27=270$.
+Theo công thức nhị thức Newton, số hạng tổng quát của khai triển $(3+x)^5$ là $C_5^k3^{5-k}x^k$ (với $k=0, 1, \dots, 5$).
+
+Số hạng chứa $x^2$ ứng với $k=2$, đó là $C_5^2\cdot3^{5-2}x^2=C_5^2\cdot3^3x^2$.
+
+Ta có $C_5^2=\dfrac{5!}{2!\,3!}=10$ và $3^3=27$. Suy ra hệ số của $x^2$ là $10\cdot27=270$.
+
+Vậy hệ số của $x^2$ trong khai triển $(3+x)^5$ là $270$.
 
 **Đáp số.** $270$.
 :::
@@ -237,7 +259,16 @@ Rút gọn biểu thức $(x+y)^4+(x-y)^4$.
 2. Cộng lại: các số hạng chứa $y$, $y^3$ triệt tiêu.
 
 ::solution
-$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ và $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Cộng lại, các số hạng $\pm4x^3y$, $\pm4xy^3$ triệt tiêu.
+Áp dụng công thức nhị thức Newton với $n=4$ (các hệ số là $1, 4, 6, 4, 1$), ta có
+$$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4,$$
+$$(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4.$$
+
+Cộng hai khai triển theo từng vế:
+$$\begin{aligned}(x+y)^4+(x-y)^4&=\left(x^4+4x^3y+6x^2y^2+4xy^3+y^4\right)+\left(x^4-4x^3y+6x^2y^2-4xy^3+y^4\right)\\&=2x^4+12x^2y^2+2y^4.\end{aligned}$$
+
+Ở bước trên, các số hạng $4x^3y$ và $-4x^3y$ triệt tiêu, các số hạng $4xy^3$ và $-4xy^3$ cũng triệt tiêu; các số hạng còn lại được cộng đôi: $x^4+x^4=2x^4$, $6x^2y^2+6x^2y^2=12x^2y^2$, $y^4+y^4=2y^4$.
+
+Vậy $(x+y)^4+(x-y)^4=2x^4+12x^2y^2+2y^4$.
 
 **Đáp số.** $2x^4+12x^2y^2+2y^4$.
 :::
@@ -259,13 +290,18 @@ d) Số hạng chứa $x^5$ là $32x^5$.
 3. Thay $x=1$ để tính tổng hệ số.
 
 ::solution
-a) **Đúng.** Số mũ $5$ cho $5+1=6$ số hạng.
+Theo công thức nhị thức Newton, số hạng tổng quát của khai triển $(1-2x)^5$ là
+$$C_5^k\cdot1^{5-k}(-2x)^k=C_5^k(-2)^kx^k\quad(k=0, 1, \dots, 5).$$
 
-b) **Đúng.** $C_5^2(-2)^2=10\cdot4=40$.
+a) **Đúng.** Khai triển $(a+b)^n$ có $n+1$ số hạng; với $n=5$ ta có $5+1=6$ số hạng.
 
-c) **Sai.** Thay $x=1$: $(1-2)^5=-1$.
+b) **Đúng.** Hệ số của $x^2$ ứng với $k=2$, bằng $C_5^2(-2)^2=10\cdot4=40$.
 
-d) **Sai.** $C_5^5(-2)^5x^5=-32x^5$.
+c) **Sai.** Tổng các hệ số của khai triển là giá trị của biểu thức tại $x=1$, tức là $(1-2\cdot1)^5=(-1)^5=-1$, khác $1$.
+
+d) **Sai.** Số hạng chứa $x^5$ ứng với $k=5$, bằng $C_5^5(-2)^5x^5=-32x^5$, khác $32x^5$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -282,7 +318,14 @@ Tìm hệ số của $x^4$ trong khai triển $\left(x^2+\dfrac2x\right)^5$ (v�
 3. Tính hệ số.
 
 ::solution
-$C_5^k(x^2)^{5-k}\left(\dfrac2x\right)^k=C_5^k2^kx^{10-3k}$. Ta cần $10-3k=4$, tức $k=2$: hệ số là $C_5^2\cdot2^2=10\cdot4=40$.
+Theo công thức nhị thức Newton, số hạng tổng quát của khai triển $\left(x^2+\dfrac2x\right)^5$ (với $x\ne0$) là $C_5^k(x^2)^{5-k}\left(\dfrac2x\right)^k$, với $k=0, 1, \dots, 5$. Rút gọn:
+$$C_5^k(x^2)^{5-k}\left(\frac2x\right)^k=C_5^k\cdot x^{10-2k}\cdot2^kx^{-k}=C_5^k2^kx^{10-3k}.$$
+
+Số hạng chứa $x^4$ ứng với $10-3k=4$, suy ra $3k=6$, tức là $k=2$ (thoả mãn $k$ nguyên và $0\le k\le5$).
+
+Với $k=2$, hệ số của $x^4$ là $C_5^2\cdot2^2=10\cdot4=40$.
+
+Vậy hệ số của $x^4$ trong khai triển đã cho là $40$.
 
 **Đáp số.** $40$.
 :::
@@ -299,8 +342,19 @@ Một máy lọc nước giá $10$ triệu đồng, mỗi năm giá trị của 
 3. Nhân với $10$ triệu đồng.
 
 ::solution
+Gọi $V$ (đồng) là giá trị của máy lọc nước sau $5$ năm ($V>0$).
+
+Mỗi năm giá trị của máy giảm $2\%$ so với năm trước, tức là còn $100\%-2\%=98\%=1-0{,}02$ giá trị năm trước. Sau $5$ năm, ta có
+$$V=10\,000\,000\cdot(1-0{,}02)^5.$$
+
+Theo công thức nhị thức Newton, $(1-0{,}02)^5=1-C_5^1\cdot0{,}02+C_5^2\cdot0{,}02^2-\cdots$. Ba số hạng đầu là $1$, $-5\cdot0{,}02$ và $10\cdot0{,}02^2$, nên
 $$0{,}98^5\approx1-5\cdot0{,}02+10\cdot0{,}02^2=1-0{,}1+0{,}004=0{,}904.$$
-Giá trị của máy khoảng $10\,000\,000\cdot0{,}904=9\,040\,000$ đồng. (Giá trị đúng là $9\,039\,207{,}968$ đồng, lệch chưa tới $800$ đồng.)
+
+Suy ra $V\approx10\,000\,000\cdot0{,}904=9\,040\,000$ (đồng).
+
+Kiểm tra: giá trị đúng là $10\,000\,000\cdot0{,}98^5=9\,039\,207{,}968$ đồng, nên sai số là $9\,040\,000-9\,039\,207{,}968=792{,}032$ đồng, chưa tới $800$ đồng.
+
+Vậy sau $5$ năm, máy lọc nước có giá trị khoảng $9\,040\,000$ đồng.
 
 **Đáp số.** Khoảng $9\,040\,000$ đồng.
 :::
@@ -318,10 +372,21 @@ Giá trị của máy khoảng $10\,000\,000\cdot0{,}904=9\,040\,000$ đồng. (
 2. Cộng lại và so sánh với $(1+1)^5$.
 
 ::solution
-(a) $C_5^0=1$, $C_5^1=5$, $C_5^2=10$, $C_5^3=10$, $C_5^4=5$, $C_5^5=1$.
+(a) Mỗi tập con gồm $k$ phần tử của tập $X$ (có $5$ phần tử) là một tổ hợp chập $k$ của $5$ phần tử, nên số tập con như vậy là $C_5^k=\dfrac{5!}{k!\,(5-k)!}$.
 
-(b) Thay $a=b=1$ vào khai triển $(a+b)^5$:
-$$C_5^0+C_5^1+\cdots+C_5^5=(1+1)^5=32.$$
+Lần lượt cho $k=0, 1, \dots, 5$:
+$$C_5^0=1,\quad C_5^1=5,\quad C_5^2=\frac{5!}{2!\,3!}=10,\quad C_5^3=\frac{5!}{3!\,2!}=10,\quad C_5^4=5,\quad C_5^5=1.$$
+
+Vậy với $k=0, 1, 2, 3, 4, 5$, số tập con gồm $k$ phần tử của $X$ lần lượt là $1, 5, 10, 10, 5, 1$.
+
+(b) Mỗi tập con của $X$ có số phần tử $k$ nào đó từ $0$ đến $5$, nên số tất cả các tập con của $X$ là $C_5^0+C_5^1+C_5^2+C_5^3+C_5^4+C_5^5$.
+
+Theo công thức nhị thức Newton, $(a+b)^5=C_5^0a^5+C_5^1a^4b+\cdots+C_5^5b^5$. Thay $a=b=1$ vào, ta được
+$$C_5^0+C_5^1+\cdots+C_5^5=(1+1)^5=2^5=32.$$
+
+Kiểm tra bằng kết quả ý (a): $1+5+10+10+5+1=32$.
+
+Vậy $X$ có tất cả $32$ tập con.
 
 **Đáp số.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
 :::
@@ -337,7 +402,17 @@ Tìm hệ số của $x^2$ trong khai triển của $(1+x)(1+2x)^4$.
 2. Cộng hai đóng góp.
 
 ::solution
-Trong $(1+2x)^4$: hệ số của $x$ là $C_4^1\cdot2=8$, của $x^2$ là $C_4^2\cdot2^2=24$. Trong tích, $x^2$ đến từ $1\cdot24x^2$ và $x\cdot8x$, nên hệ số là $24+8=32$.
+Trước hết khai triển $(1+2x)^4$. Theo công thức nhị thức Newton, số hạng tổng quát là $C_4^k(2x)^k=C_4^k2^kx^k$.
+
+Với $k=0$, hệ số tự do là $1$. Với $k=1$, hệ số của $x$ là $C_4^1\cdot2=8$. Với $k=2$, hệ số của $x^2$ là $C_4^2\cdot2^2=6\cdot4=24$. Do đó
+$$(1+2x)^4=1+8x+24x^2+\cdots,$$
+trong đó các số hạng còn lại có bậc từ $3$ trở lên.
+
+Trong tích $(1+x)(1+2x)^4$, số hạng chứa $x^2$ nhận được từ hai cách: $1\cdot24x^2$ và $x\cdot8x$.
+
+Suy ra hệ số của $x^2$ là $24+8=32$.
+
+Vậy hệ số của $x^2$ trong khai triển của $(1+x)(1+2x)^4$ là $32$.
 
 **Đáp số.** $32$.
 :::
@@ -353,8 +428,14 @@ Không dùng máy tính, hãy so sánh $1{,}1^5$ với $1{,}6$.
 2. Nếu cần, tính đủ sáu số hạng.
 
 ::solution
-$$1{,}1^5=1+5\cdot0{,}1+10\cdot0{,}01+10\cdot0{,}001+5\cdot0{,}0001+0{,}00001=1{,}61051.$$
-Ngay ba số hạng đầu đã cho $1+0{,}5+0{,}1=1{,}6$, và các số hạng còn lại đều dương.
+Viết $1{,}1=1+0{,}1$ và áp dụng công thức nhị thức Newton với $n=5$:
+$$\begin{aligned}1{,}1^5=(1+0{,}1)^5&=C_5^0+C_5^1\cdot0{,}1+C_5^2\cdot0{,}1^2+C_5^3\cdot0{,}1^3+C_5^4\cdot0{,}1^4+C_5^5\cdot0{,}1^5\\&=1+5\cdot0{,}1+10\cdot0{,}01+10\cdot0{,}001+5\cdot0{,}0001+0{,}00001\\&=1{,}61051.\end{aligned}$$
+
+Ba số hạng đầu cho $1+0{,}5+0{,}1=1{,}6$.
+
+Các số hạng còn lại là $0{,}01$, $0{,}0005$ và $0{,}00001$ đều dương, nên tổng của chúng dương. Do đó $1{,}1^5$ lớn hơn $1{,}6$.
+
+Vậy $1{,}1^5>1{,}6$.
 
 **Đáp số.** $1{,}1^5=1{,}61051>1{,}6$.
 :::

@@ -142,9 +142,13 @@ b) $6\,905$.
 2. So sánh chữ số đó với $5$, rồi đổi các chữ số bên phải thành $0$.
 
 ::solution
-a) Chữ số hàng trăm của $2\,148$ là $1$, bé hơn $5$, nên $2\,148\approx2\,000$.
+Khi làm tròn đến hàng nghìn, ta nhìn chữ số ở hàng ngay bên phải, tức là hàng trăm. Nếu chữ số đó bé hơn $5$ thì giữ nguyên chữ số hàng nghìn; nếu từ $5$ trở lên thì tăng chữ số hàng nghìn thêm $1$. Các hàng bên phải đều thay bằng $0$.
 
-b) Chữ số hàng trăm của $6\,905$ là $9$, từ $5$ trở lên, nên $6\,905\approx7\,000$.
+a) Số $2\,148$ có chữ số hàng trăm là $1$, bé hơn $5$, nên ta giữ nguyên $2$ nghìn. Do đó $2\,148\approx2\,000$.
+
+b) Số $6\,905$ có chữ số hàng trăm là $9$, từ $5$ trở lên, nên ta tăng $6$ nghìn lên $7$ nghìn. Do đó $6\,905\approx7\,000$.
+
+Vậy $2\,148$ làm tròn đến hàng nghìn là $2\,000$ và $6\,905$ làm tròn đến hàng nghìn là $7\,000$.
 
 **Đáp số.** a) $2\,000$; b) $7\,000$.
 :::
@@ -166,11 +170,15 @@ c) $35\,480$ đến hàng chục nghìn.
 2. Làm theo cách của ví dụ.
 
 ::solution
-a) Chữ số hàng trăm là $3$, bé hơn $5$: $4\,372\approx4\,000$.
+Làm tròn đến hàng nào thì ta nhìn chữ số ở hàng ngay bên phải hàng đó: bé hơn $5$ thì làm tròn xuống, từ $5$ trở lên thì làm tròn lên.
 
-b) Chữ số hàng trăm là $6$, từ $5$ trở lên: $8\,650\approx9\,000$.
+a) Làm tròn $4\,372$ đến hàng nghìn: chữ số hàng trăm là $3$, bé hơn $5$, nên giữ nguyên $4$ nghìn. Do đó $4\,372\approx4\,000$.
 
-c) Chữ số hàng nghìn là $5$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn: $35\,480\approx40\,000$.
+b) Làm tròn $8\,650$ đến hàng nghìn: chữ số hàng trăm là $6$, từ $5$ trở lên, nên tăng $8$ nghìn lên $9$ nghìn. Do đó $8\,650\approx9\,000$.
+
+c) Làm tròn $35\,480$ đến hàng chục nghìn: ta nhìn chữ số hàng nghìn, là $5$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn. Do đó $35\,480\approx40\,000$.
+
+Vậy $4\,372\approx4\,000$; $8\,650\approx9\,000$; $35\,480\approx40\,000$.
 
 **Đáp số.** a) $4\,000$; b) $9\,000$; c) $40\,000$.
 :::
@@ -208,7 +216,17 @@ Trong các số $5\,499$, $5\,500$, $6\,499$, $6\,500$, $6\,501$, những số n
 2. Chọn những số cho kết quả $6\,000$.
 
 ::solution
-$5\,499\approx5\,000$ (hàng trăm là $4$). $5\,500\approx6\,000$ (hàng trăm là $5$). $6\,499\approx6\,000$ (hàng trăm là $4$). $6\,500\approx7\,000$ (hàng trăm là $5$). $6\,501\approx7\,000$ (hàng trăm là $5$).
+Để làm tròn một số đến hàng nghìn, ta nhìn chữ số hàng trăm. Ta làm tròn từng số:
+
+- $5\,499$: chữ số hàng trăm là $4$, bé hơn $5$, nên $5\,499\approx5\,000$.
+- $5\,500$: chữ số hàng trăm là $5$, từ $5$ trở lên, nên $5\,500\approx6\,000$.
+- $6\,499$: chữ số hàng trăm là $4$, bé hơn $5$, nên $6\,499\approx6\,000$.
+- $6\,500$: chữ số hàng trăm là $5$, từ $5$ trở lên, nên $6\,500\approx7\,000$.
+- $6\,501$: chữ số hàng trăm là $5$, từ $5$ trở lên, nên $6\,501\approx7\,000$.
+
+Trong các số đã cho, chỉ có $5\,500$ và $6\,499$ làm tròn được $6\,000$.
+
+Vậy các số làm tròn đến hàng nghìn được $6\,000$ là $5\,500$ và $6\,499$.
 
 **Đáp số.** $5\,500$ và $6\,499$.
 :::
@@ -250,9 +268,14 @@ b) Tú: "Làm tròn $27\,450$ đến hàng chục nghìn: em nhìn chữ số h�
 2. Tú: làm tròn đến hàng chục nghìn thì nhìn hàng nào?
 
 ::solution
-a) Chữ số hàng trăm là $7$, từ $5$ trở lên, nên phải làm tròn lên: $3\,700\approx4\,000$.
+a) Bạn Hà làm sai. Làm tròn $3\,700$ đến hàng nghìn thì ta nhìn chữ số hàng trăm. Chữ số hàng trăm là $7$, từ $5$ trở lên, nên phải làm tròn lên, tức là tăng $3$ nghìn lên $4$ nghìn, chứ không được giữ nguyên. Cách làm đúng là
+$$3\,700\approx4\,000.$$
 
-b) Làm tròn đến hàng chục nghìn thì phải nhìn chữ số hàng nghìn, là $7$, từ $5$ trở lên, nên $27\,450\approx30\,000$. Tú đã nhìn nhầm hàng, và kết quả $27\,000$ chưa phải số tròn chục nghìn.
+b) Bạn Tú làm sai. Làm tròn $27\,450$ đến hàng chục nghìn thì ta phải nhìn chữ số hàng nghìn, chứ không nhìn chữ số hàng trăm. Chữ số hàng nghìn là $7$, từ $5$ trở lên, nên tăng $2$ chục nghìn lên $3$ chục nghìn. Cách làm đúng là
+$$27\,450\approx30\,000.$$
+Kết quả $27\,000$ của Tú cũng chưa phải là số tròn chục nghìn.
+
+Vậy Hà giữ nguyên chữ số hàng nghìn trong khi phải làm tròn lên, kết quả đúng là $4\,000$; Tú nhìn nhầm hàng, kết quả đúng là $30\,000$.
 
 **Đáp số.** a) $4\,000$; b) $30\,000$.
 :::
@@ -279,9 +302,17 @@ b) Theo số đã làm tròn, trận nào có nhiều khán giả nhất?
 3. So sánh ba số đã làm tròn.
 
 ::solution
-a) $12\,380\approx12\,000$ (hàng trăm là $3$). $15\,720\approx16\,000$ (hàng trăm là $7$). $9\,560\approx10\,000$ (hàng trăm là $5$).
+a) Ta làm tròn số khán giả của từng trận đến hàng nghìn, bằng cách nhìn chữ số hàng trăm.
 
-b) So sánh $12\,000$, $16\,000$, $10\,000$: số lớn nhất là $16\,000$, của trận $2$.
+Trận $1$: $12\,380$ có chữ số hàng trăm là $3$, bé hơn $5$, nên $12\,380\approx12\,000$.
+
+Trận $2$: $15\,720$ có chữ số hàng trăm là $7$, từ $5$ trở lên, nên $15\,720\approx16\,000$.
+
+Trận $3$: $9\,560$ có chữ số hàng trăm là $5$, từ $5$ trở lên, nên $9\,560\approx10\,000$.
+
+b) Ta so sánh các số đã làm tròn: $12\,000$, $16\,000$, $10\,000$. Vì $10\,000<12\,000<16\,000$ nên số lớn nhất là $16\,000$, là số khán giả của trận $2$.
+
+Vậy số khán giả đã làm tròn của ba trận lần lượt là $12\,000$, $16\,000$, $10\,000$; trận $2$ có nhiều khán giả nhất.
 
 **Đáp số.** a) $12\,000$; $16\,000$; $10\,000$. b) Trận $2$.
 :::
@@ -301,11 +332,15 @@ b) Số nhỏ nhất và số lớn nhất như thế là những số nào?
 2. Số nhỏ nhất: chọn các chữ số nhỏ nhất có thể. Số lớn nhất: chọn các chữ số lớn nhất có thể.
 
 ::solution
-a) Chữ số hàng trăm phải từ $5$ trở lên, tức là $5$, $6$, $7$, $8$ hoặc $9$.
+Số đã cho có bốn chữ số, chữ số hàng nghìn là $4$. Làm tròn đến hàng nghìn được $5\,000$, nghĩa là phải làm tròn lên từ $4$ nghìn thành $5$ nghìn.
 
-b) Số nhỏ nhất: hàng trăm là $5$, các hàng còn lại là $0$, được $4\,500$. Số lớn nhất: hàng trăm là $9$, các hàng còn lại là $9$, được $4\,999$.
+a) Muốn làm tròn lên, chữ số hàng trăm phải từ $5$ trở lên. Do đó chữ số hàng trăm có thể là $5$, $6$, $7$, $8$ hoặc $9$.
 
-**Kiểm tra.** $4\,500\approx5\,000$ và $4\,999\approx5\,000$.
+b) Số nhỏ nhất: chọn chữ số hàng trăm nhỏ nhất là $5$ và các hàng còn lại là $0$, được $4\,500$. Số lớn nhất: chọn chữ số hàng trăm lớn nhất là $9$ và các hàng còn lại là $9$, được $4\,999$.
+
+Kiểm tra: $4\,500$ có chữ số hàng trăm là $5$ nên $4\,500\approx5\,000$; $4\,999$ có chữ số hàng trăm là $9$ nên $4\,999\approx5\,000$.
+
+Vậy chữ số hàng trăm có thể là $5$, $6$, $7$, $8$, $9$; số nhỏ nhất là $4\,500$ và số lớn nhất là $4\,999$.
 
 **Đáp số.** a) $5$, $6$, $7$, $8$, $9$; b) $4\,500$ và $4\,999$.
 :::

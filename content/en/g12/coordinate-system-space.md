@@ -224,9 +224,15 @@ b) Find the coordinates of the vector $\vec{a}=-\vec{i}+4\vec{k}$.
 2. b) The coefficient of $\vec{j}$ is $0$.
 
 ::solution
-a) Since $\overrightarrow{OM}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$, $M(2, -3, 1)$.
+In the system $Oxyz$, if $\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$ then the point $M$ has coordinates $(x, y, z)$; if $\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$ then the vector $\vec{a}$ has coordinates $(x, y, z)$.
 
-b) Since $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$, $\vec{a}=(-1, 0, 4)$.
+a) We have $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$.
+
+Hence $M(2, -3, 1)$.
+
+b) We have $\vec{a}=-\vec{i}+4\vec{k}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$ (the coefficient of $\vec{j}$ is $0$ because $\vec{j}$ does not appear).
+
+Hence $\vec{a}=(-1, 0, 4)$.
 
 So $M(2, -3, 1)$ and $\vec{a}=(-1, 0, 4)$.
 
@@ -263,8 +269,14 @@ Let $A(2, -1, 3)$ and $B(-1, 3, 3)$. Find the coordinates of $\overrightarrow{AB
 2. Add the three squares and take the square root.
 
 ::solution
-We have
-$$\overrightarrow{AB}=(-3, 4, 0),\qquad AB=\sqrt{9+16+0}=5.$$
+For $A(x_A, y_A, z_A)$ and $B(x_B, y_B, z_B)$ we have $\overrightarrow{AB}=(x_B-x_A, y_B-y_A, z_B-z_A)$ and $AB=\left|\overrightarrow{AB}\right|=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+
+Substituting the coordinates of $A(2, -1, 3)$ and $B(-1, 3, 3)$, we get
+$$\overrightarrow{AB}=(-1-2,\ 3-(-1),\ 3-3)=(-3, 4, 0).$$
+
+Hence the length is
+$$AB=\sqrt{(-3)^2+4^2+0^2}=\sqrt{9+16+0}=\sqrt{25}=5.$$
+
 So $\overrightarrow{AB}=(-3, 4, 0)$ and $AB=5$.
 
 **Answer.** $\overrightarrow{AB}=(-3, 4, 0)$; $AB=5$.
@@ -281,8 +293,15 @@ Let $A(2, 1, -3)$, $B(0, 5, 1)$, $C(4, -3, 5)$. Find the midpoint $M$ of $AB$ an
 2. Add each coordinate of $A$, $B$, $C$, then divide by $3$.
 
 ::solution
-By the formulas for the midpoint and the centroid, we have
-$$M\left(\frac{2+0}{2},\ \frac{1+5}{2},\ \frac{-3+1}{2}\right)=M(1, 3, -1),\qquad G\left(\frac{6}{3},\ \frac{3}{3},\ \frac{3}{3}\right)=G(2, 1, 1).$$
+The midpoint of segment $AB$ has coordinates equal to the averages of the corresponding coordinates of $A$ and $B$; the centroid of triangle $ABC$ has coordinates equal to the averages of the corresponding coordinates of the three vertices.
+
+Since $M$ is the midpoint of $AB$ with $A(2, 1, -3)$, $B(0, 5, 1)$, we have
+$$M\left(\frac{2+0}{2},\ \frac{1+5}{2},\ \frac{-3+1}{2}\right)=M(1, 3, -1).$$
+
+Since $G$ is the centroid of triangle $ABC$ with $A(2, 1, -3)$, $B(0, 5, 1)$, $C(4, -3, 5)$, we have
+$$G\left(\frac{2+0+4}{3},\ \frac{1+5+(-3)}{3},\ \frac{-3+1+5}{3}\right)=G\left(\frac{6}{3},\ \frac{3}{3},\ \frac{3}{3}\right)=G(2, 1, 1).$$
+
+So the midpoint of $AB$ is $M(1, 3, -1)$ and the centroid of triangle $ABC$ is $G(2, 1, 1)$.
 
 **Answer.** $M(1, 3, -1)$; $G(2, 1, 1)$.
 :::
@@ -344,13 +363,20 @@ d) The distance from $M$ to the axis $Ox$ is $4$.
 3. Decide which coordinates each distance uses.
 
 ::solution
-a) **True.** The projection onto $(Oxy)$ keeps $x$, $y$ and has $z=0$.
+The point $M(3, -4, 12)$ has $x$-coordinate $3$, $y$-coordinate $-4$ and $z$-coordinate $12$.
 
-b) **False.** The distance to $(Oyz)$ is $|x|=3$.
+a) **True.** The projection of $M$ onto the plane $(Oxy)$ keeps the $x$- and $y$-coordinates and has $z=0$. So the projection is $(3, -4, 0)$.
 
-c) **True.** We have $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
+b) **False.** The distance from a point to the plane $(Oyz)$ equals the absolute value of its $x$-coordinate, that is $|x|=|3|=3$. This is not $4$.
 
-d) **False.** The projection of $M$ onto $Ox$ is $H(3, 0, 0)$, so $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
+c) **True.** We have
+$$OM=\sqrt{3^2+(-4)^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+d) **False.** The projection of $M$ onto the axis $Ox$ is $H(3, 0, 0)$, so the distance from $M$ to $Ox$ is
+$$MH=\sqrt{(3-3)^2+(-4-0)^2+(12-0)^2}=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}.$$
+This is not $4$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -367,8 +393,20 @@ The cube $ABCD.A'B'C'D'$ with edge $4$ is placed in $Oxyz$ so that $A$ is at $O$
 3. Find $IB$ with the distance formula.
 
 ::solution
-By the parallelepiped rule, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=(4, 0, 0)+(0, 4, 0)+(0, 0, 4)=(4, 4, 4)$, so $C'(4, 4, 4)$. The centre $I$ is the midpoint of $A'(0, 0, 4)$ and $C'$, so $I(2, 2, 4)$. Hence
-$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{24}=2\sqrt6.$$
+Since $ABCD.A'B'C'D'$ is a cube, it is also a parallelepiped. By the parallelepiped rule, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}$.
+
+With $A(0, 0, 0)$, $B(4, 0, 0)$, $D(0, 4, 0)$, $A'(0, 0, 4)$, we have $\overrightarrow{AB}=(4, 0, 0)$, $\overrightarrow{AD}=(0, 4, 0)$, $\overrightarrow{AA'}=(0, 0, 4)$. Hence
+$$\overrightarrow{AC'}=(4, 0, 0)+(0, 4, 0)+(0, 0, 4)=(4, 4, 4).$$
+
+Since $A$ is at $O$, the coordinates of $C'$ equal those of $\overrightarrow{AC'}$, that is $C'(4, 4, 4)$.
+
+The centre $I$ of the face $A'B'C'D'$ is the intersection of its two diagonals, so $I$ is the midpoint of $A'C'$. With $A'(0, 0, 4)$ and $C'(4, 4, 4)$, we get
+$$I\left(\frac{0+4}{2},\ \frac{0+4}{2},\ \frac{4+4}{2}\right)=I(2, 2, 4).$$
+
+With $B(4, 0, 0)$ and $I(2, 2, 4)$, we have
+$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{4+4+16}=\sqrt{24}=2\sqrt6\approx4.90.$$
+
+So $C'(4, 4, 4)$, $I(2, 2, 4)$ and $IB=2\sqrt6\approx4.90$.
 
 **Answer.** $C'(4, 4, 4)$, $I(2, 2, 4)$, $IB=2\sqrt6\approx4.90$.
 :::
@@ -388,9 +426,15 @@ b) Regard $A$, $B$ as the points $A(1, 2, 0)$, $B(4, 6, 0)$ of the plane $(Oxy)$
 2. b) Add the height difference $12$ and notice that $ABB'$ has a right angle at $B$.
 
 ::solution
-a) We have $\overrightarrow{AB}=(3, 4)$, so $AB=\sqrt{3^2+4^2}=5$.
+a) With $A(1, 2)$ and $B(4, 6)$, the grade-10 formula gives $\overrightarrow{AB}=(4-1,\ 6-2)=(3, 4)$ and
+$$AB=\sqrt{3^2+4^2}=\sqrt{9+16}=\sqrt{25}=5.$$
 
-b) We have $\overrightarrow{AB'}=(3, 4, 12)$, so $AB'=\sqrt{9+16+144}=13$. This is exactly Pythagoras' theorem in triangle $ABB'$ with the right angle at $B$: $5^2+12^2=13^2$.
+b) With $A(1, 2, 0)$ and $B'(4, 6, 12)$, we have $\overrightarrow{AB'}=(4-1,\ 6-2,\ 12-0)=(3, 4, 12)$. Hence
+$$AB'=\sqrt{3^2+4^2+12^2}=\sqrt{9+16+144}=\sqrt{169}=13.$$
+
+This is exactly Pythagoras' theorem in triangle $ABB'$ with the right angle at $B$ (since $BB'$ is vertical, perpendicular to the plane $(Oxy)$): $AB^2+BB'^2=5^2+12^2=25+144=169=13^2$.
+
+So $AB=5$ and $AB'=13$.
 
 **Answer.** a) $AB=5$; b) $AB'=13$.
 :::

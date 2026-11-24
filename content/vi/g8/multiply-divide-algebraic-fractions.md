@@ -178,11 +178,17 @@ b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}$.
 2. b) Phân tích $x^2-1=(x-1)(x+1)$.
 
 ::solution
-a) $\dfrac{3x^2}{5y}\cdot\dfrac{10y^2}{9x}=\dfrac{30x^2y^2}{45xy}=\dfrac{2xy}{3}$.
+Áp dụng quy tắc nhân hai phân thức: $\dfrac AB\cdot\dfrac CD=\dfrac{AC}{BD}$, rồi rút gọn các nhân tử chung của tử và mẫu.
 
-b) $\dfrac{x^2-1}{x}\cdot\dfrac{x^2}{x+1}=\dfrac{(x-1)(x+1)x^2}{x(x+1)}=x(x-1)$.
+a) Điều kiện xác định: $x\neq0$, $y\neq0$. Ta có
+$$\frac{3x^2}{5y}\cdot\frac{10y^2}{9x}=\frac{3x^2\cdot10y^2}{5y\cdot9x}=\frac{30x^2y^2}{45xy}.$$
+Chia cả tử và mẫu cho nhân tử chung $15xy$, ta được $\dfrac{2xy}{3}$.
 
-Vậy a) $\dfrac{2xy}{3}$; b) $x(x-1)$.
+b) Điều kiện xác định: $x\neq0$, $x\neq-1$. Phân tích $x^2-1=(x-1)(x+1)$, ta có
+$$\frac{x^2-1}{x}\cdot\frac{x^2}{x+1}=\frac{(x-1)(x+1)\cdot x^2}{x(x+1)}.$$
+Chia cả tử và mẫu cho nhân tử chung $x(x+1)$, ta được $x(x-1)$.
+
+Vậy a) kết quả là $\dfrac{2xy}{3}$; b) kết quả là $x(x-1)$.
 
 **Đáp số.** a) $\dfrac{2xy}{3}$. b) $x(x-1)$.
 :::
@@ -223,11 +229,15 @@ c) $\dfrac{x-2}{x+3}$.
 2. Nêu điều kiện để phân thức ban đầu khác $0$.
 
 ::solution
-a) $\dfrac{x-1}{5}$ (điều kiện $x\neq1$ để phân thức ban đầu xác định).
+Hai phân thức gọi là nghịch đảo của nhau nếu tích của chúng bằng $1$. Phân thức nghịch đảo của $\dfrac AB$ (với $A\neq0$, $B\neq0$) là $\dfrac BA$.
 
-b) $\dfrac{1}{x^2+1}$; $x^2+1>0$ với mọi $x$ nên không cần điều kiện.
+a) Phân thức $\dfrac{5}{x-1}$ xác định khi $x\neq1$, và có tử $5\neq0$. Phân thức nghịch đảo là $\dfrac{x-1}{5}$, với điều kiện $x\neq1$.
 
-c) $\dfrac{x+3}{x-2}$ (điều kiện $x\neq2$ để phân thức ban đầu khác $0$ và $x\neq-3$ để xác định).
+b) Đa thức $x^2+1$ viết được thành phân thức $\dfrac{x^2+1}{1}$. Phân thức nghịch đảo là $\dfrac{1}{x^2+1}$. Vì $x^2\ge0$ nên $x^2+1\ge1>0$ với mọi $x$, do đó $x^2+1\neq0$ và không cần thêm điều kiện.
+
+c) Phân thức $\dfrac{x-2}{x+3}$ xác định khi $x\neq-3$. Để có phân thức nghịch đảo, phân thức này phải khác $0$, tức là $x-2\neq0$, suy ra $x\neq2$. Phân thức nghịch đảo là $\dfrac{x+3}{x-2}$, với điều kiện $x\neq2$ và $x\neq-3$.
+
+Vậy các phân thức nghịch đảo lần lượt là: a) $\dfrac{x-1}{5}$; b) $\dfrac{1}{x^2+1}$; c) $\dfrac{x+3}{x-2}$.
 
 **Đáp số.** a) $\dfrac{x-1}{5}$. b) $\dfrac{1}{x^2+1}$. c) $\dfrac{x+3}{x-2}$.
 :::

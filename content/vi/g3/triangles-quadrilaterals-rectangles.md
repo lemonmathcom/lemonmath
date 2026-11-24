@@ -158,7 +158,13 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Điền số cho từng hình.
 
 ::solution
-Hình tam giác có $3$ đỉnh và $3$ cạnh; hình tứ giác có $4$ đỉnh và $4$ cạnh.
+Em nhớ lại đặc điểm của từng hình.
+
+Hình tam giác có $3$ đỉnh và $3$ cạnh.
+
+Hình tứ giác có $4$ đỉnh và $4$ cạnh.
+
+Vậy các số cần điền theo thứ tự là $3$; $3$; $4$; $4$.
 
 **Đáp số.** $3$; $3$; $4$; $4$.
 :::
@@ -174,7 +180,15 @@ Hình chữ nhật $ABCD$ có $AB=7$ cm, $BC=2$ cm. Tìm độ dài $CD$ và $AD
 2. $AD$ đối diện cạnh nào?
 
 ::solution
-$CD=AB=7$ cm; $AD=BC=2$ cm.
+Trong hình chữ nhật, hai cạnh đối diện bằng nhau.
+
+Cạnh $CD$ đối diện với cạnh $AB$ nên
+$$CD=AB=7\ \text{(cm)}.$$
+
+Cạnh $AD$ đối diện với cạnh $BC$ nên
+$$AD=BC=2\ \text{(cm)}.$$
+
+Vậy $CD=7$ cm và $AD=2$ cm.
 
 **Đáp số.** $CD=7$ cm, $AD=2$ cm.
 :::
@@ -190,7 +204,11 @@ Hình vuông $EFGH$ có cạnh $6$ cm. Mỗi cạnh còn lại dài bao nhiêu x
 2. Các cạnh còn lại thế nào so với cạnh đó?
 
 ::solution
-Bốn cạnh của hình vuông bằng nhau nên mỗi cạnh còn lại cũng dài $6$ cm.
+Hình vuông có bốn cạnh bằng nhau.
+
+Hình vuông $EFGH$ có một cạnh dài $6$ cm nên mỗi cạnh còn lại cũng dài $6$ cm.
+
+Vậy mỗi cạnh còn lại của hình vuông $EFGH$ dài $6$ cm.
 
 **Đáp số.** $6$ cm.
 :::
@@ -209,7 +227,13 @@ c) Hình có $4$ góc vuông, hai cạnh dài $8$ cm và hai cạnh dài $3$ cm.
 2. Câu c: hai cạnh $8$ cm và hai cạnh $3$ cm có bằng nhau cả bốn không?
 
 ::solution
-a) Hình vuông. b) Hình tam giác. c) Có $4$ góc vuông nhưng các cạnh không bằng nhau hết, nên đó là hình chữ nhật.
+a) Hình có $4$ góc vuông và $4$ cạnh bằng nhau là hình vuông.
+
+b) Hình có $3$ đỉnh thì có $3$ cạnh, đó là hình tam giác.
+
+c) Hình có $4$ góc vuông, hai cạnh dài $8$ cm và hai cạnh dài $3$ cm. Vì $8\ne3$ nên các cạnh không bằng nhau hết, do đó đó không phải là hình vuông. Hình có $4$ góc vuông mà các cạnh không bằng nhau hết là hình chữ nhật.
+
+Vậy các hình đó lần lượt là hình vuông, hình tam giác, hình chữ nhật.
 
 **Đáp số.** a) Hình vuông; b) Hình tam giác; c) Hình chữ nhật.
 :::
@@ -225,8 +249,12 @@ Bác Hoa làm một khung hình vuông bằng $4$ thanh gỗ, mỗi thanh dài $
 2. Tính $5\times4$ và ghi đơn vị.
 
 ::solution
-Tổng độ dài các thanh gỗ là:
-$$5\times4=20\ \text{(dm)}.$$
+Bài giải
+
+Khung hình vuông làm bằng $4$ thanh gỗ, mỗi thanh dài $5$ dm nên tổng độ dài các thanh gỗ là:
+$$5\times4=20\ \text{(dm)}$$
+
+Vậy tất cả các thanh gỗ dài $20$ dm.
 
 **Đáp số.** $20$ dm.
 :::
@@ -242,7 +270,10 @@ Tìm số thích hợp điền vào chỗ trống: hình vuông có cạnh $9$ c
 2. Tính $9\times4$.
 
 ::solution
-$9\times4=36$ (cm).
+Hình vuông có bốn cạnh bằng nhau, mỗi cạnh dài $9$ cm nên tổng độ dài bốn cạnh là:
+$$9\times4=36\ \text{(cm)}$$
+
+Vậy tổng độ dài bốn cạnh của hình vuông là $36$ cm.
 
 **Đáp số.** $36$ cm.
 :::
@@ -258,7 +289,12 @@ Em hãy nhớ lại bài trước: hình chữ nhật $ABCD$ có mấy góc vuô
 2. Tam giác có $3$ góc, trừ đi góc vuông.
 
 ::solution
-Hình chữ nhật có $4$ góc vuông. Hình tam giác có $3$ góc, trong đó $1$ góc vuông, nên có $3-1=2$ góc không vuông.
+Hình chữ nhật $ABCD$ có $4$ góc vuông.
+
+Hình tam giác $MNP$ có $3$ góc, trong đó có đúng $1$ góc vuông. Số góc không vuông là:
+$$3-1=2\ \text{(góc)}$$
+
+Vậy hình chữ nhật $ABCD$ có $4$ góc vuông; hình tam giác $MNP$ có $2$ góc không vuông.
 
 **Đáp số.** $4$ góc vuông; $2$ góc không vuông.
 :::
@@ -274,9 +310,16 @@ Ghép hai hình vuông cạnh $3$ cm, có một cạnh chung, thành một hình
 2. Cạnh dài gồm mấy cạnh hình vuông? Cạnh ngắn gồm mấy cạnh?
 
 ::solution
-Cạnh dài gồm hai cạnh hình vuông ghép lại: $3+3=6$ (cm). Cạnh ngắn là một cạnh hình vuông: $3$ cm.
+Bài giải
 
-**Kiểm tra.** Hình có $4$ góc vuông và các cạnh đối diện bằng nhau. Đúng.
+Cạnh dài của hình chữ nhật gồm hai cạnh của hình vuông ghép lại, nên cạnh dài là:
+$$3+3=6\ \text{(cm)}$$
+
+Cạnh ngắn của hình chữ nhật là một cạnh của hình vuông, nên cạnh ngắn dài $3$ cm.
+
+Kiểm tra: hình ghép được có $4$ góc vuông và các cạnh đối diện bằng nhau ($6$ cm và $6$ cm; $3$ cm và $3$ cm). Đúng.
+
+Vậy hình chữ nhật có hai cạnh dài $6$ cm và $3$ cm.
 
 **Đáp số.** $6$ cm và $3$ cm.
 :::

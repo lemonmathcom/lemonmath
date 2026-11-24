@@ -165,9 +165,9 @@ b) you take a red marble.
 2. Is the colour you want in the box?
 
 ::solution
-a) There are only blue marbles, so taking a blue marble is **certain**.
+a) The box has only blue marbles and no other marbles. If you shut your eyes and take out one, it is certainly blue. So taking a blue marble is certain.
 
-b) There is no red marble, so taking a red marble is **impossible**.
+b) There is no red marble in the box. If you shut your eyes and take out one, you can never get red. So taking a red marble is impossible.
 
 **Answer.** a) Certain. b) Impossible.
 :::
@@ -186,7 +186,11 @@ c) you take a lemon sweet.
 2. Look at parts a), b), c) one by one.
 
 ::solution
-a) Possible. b) Possible. c) There is no lemon sweet in the bag, so it is impossible.
+a) The bag has $3$ orange sweets. The sweet you take out might be orange, but it might also be strawberry. So taking an orange sweet is possible.
+
+b) The bag has $3$ strawberry sweets. The sweet you take out might be strawberry, but it might also be orange. So taking a strawberry sweet is possible.
+
+c) There is no lemon sweet in the bag, so you cannot take a lemon sweet. So taking a lemon sweet is impossible.
 
 **Answer.** a) Possible. b) Possible. c) Impossible.
 :::
@@ -205,7 +209,11 @@ c) It is sunny tomorrow.
 2. Choose one of the three levels.
 
 ::solution
-a) Every week has $7$ days: certain. b) Impossible. c) Some days are sunny and some are not: possible.
+a) Every week has exactly $7$ days. So the event "A week has $7$ days" is certain.
+
+b) A cat cannot fly to the Moon. So this event is impossible.
+
+c) Some days are sunny and some days are not, so it may or may not be sunny tomorrow. So this event is possible.
 
 **Answer.** a) Certain. b) Impossible. c) Possible.
 :::
@@ -224,11 +232,11 @@ c) you take a card with a number greater than $5$.
 2. Which numbers fit each part?
 
 ::solution
-a) All four numbers are even: **certain**.
+a) The numbers $2$, $4$, $6$ and $8$ are all even. Whichever card you take, its number is even. So this event is certain.
 
-b) There is no $5$: **impossible**.
+b) None of the cards has the number $5$. So taking the card with $5$ is impossible.
 
-c) The numbers $6$ and $8$ are greater than $5$, but $2$ and $4$ are not: **possible**.
+c) The numbers $6$ and $8$ are greater than $5$, while $2$ and $4$ are not. You might take a card with a number greater than $5$, but you might not. So this event is possible.
 
 **Answer.** a) Certain. b) Impossible. c) Possible.
 :::
@@ -244,9 +252,13 @@ A box has $1$ red marble and $9$ blue marbles. Nam says: "If I shut my eyes and 
 2. Could you ever get the red marble?
 
 ::solution
-The red marble is still in the box, so you might get red.
+The box has $1$ red marble and $9$ blue marbles. The red marble is still in the box, so when you shut your eyes and take one, you might get red. So we cannot say that you are certain to get blue.
 
-**Answer.** Nam is not right: getting blue is only **possible**.
+Since there are $9$ blue marbles, getting blue can still happen, but it is not certain.
+
+So Nam is not right, because the red marble can still be taken out.
+
+**Answer.** Nam is not right: getting blue is only possible.
 :::
 
 :::exercise
@@ -260,9 +272,13 @@ Lan says: "A box has $4$ blue marbles and $1$ red marble. You cannot get red bec
 2. Choose the right level.
 
 ::solution
-There is $1$ red marble in the box, so getting red can happen.
+Lan says: "You cannot get red because there is so little red." Lan is wrong in thinking that having only a little red means you cannot get it.
 
-**Answer.** Lan is wrong: getting red is **possible**, not impossible.
+There is $1$ red marble in the box, so when you shut your eyes and take one, you can still get red. An event is impossible only when there is no red marble at all in the box.
+
+So Lan should correct it: getting red can happen, it is not impossible.
+
+**Answer.** Lan is wrong: getting red is possible, not impossible.
 :::
 
 :::exercise
@@ -279,16 +295,16 @@ b) Are there both colours in the box? Why?
 2. Add the two numbers and compare with $12$.
 
 ::solution
-a)
+a) We count how many times each colour appears in the $12$ draws: red, blue, red, red, blue, red, blue, red, red, blue, red, blue. Red appears in draws $1$, $3$, $4$, $6$, $8$, $9$, $11$, that is $7$ times. Blue appears in draws $2$, $5$, $7$, $10$, $12$, that is $5$ times. The data table is:
 
 | Colour | Tally marks | Number of times |
 |---|---|---|
 | Red | /////// | $7$ |
 | Blue | ///// | $5$ |
 
-Check: $7+5=12$.
+Check: $7+5=12$, which is exactly the number of times Mai took a marble.
 
-b) Both red and blue marbles were taken out, so the box has both colours.
+b) Both red and blue marbles were taken out in the $12$ draws. So the box has both colours.
 
 **Answer.** a) Red $7$ times, blue $5$ times. b) Yes, both colours.
 :::
@@ -307,9 +323,9 @@ b) If you keep the $5$ blue marbles, how many red marbles must you take out so t
 2. In part b), which marbles must be gone?
 
 ::solution
-a) You must take out all $5$ blue marbles, and then only $3$ red marbles are left.
+a) The box has $3$ red marbles and $5$ blue marbles. To be certain to get a red marble, only red marbles may be left in the box, so all the blue marbles must be taken out. When all $5$ blue marbles are taken out, only $3$ red marbles are left. So you must take out $5$ blue marbles.
 
-b) You must take out all $3$ red marbles, and then only $5$ blue marbles are left.
+b) For getting a red marble to be impossible, no red marble may be left in the box, so all the red marbles must be taken out. When all $3$ red marbles are taken out, only $5$ blue marbles are left. So you must take out $3$ red marbles.
 
 **Answer.** a) $5$ blue marbles. b) $3$ red marbles.
 :::

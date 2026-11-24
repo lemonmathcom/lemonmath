@@ -242,7 +242,14 @@ Let $f(x)=x^2-3x+5$. Show that $f$ is continuous at $x=2$.
 2. Work out $\lim_{x\to2}f(x)$ and compare.
 
 ::solution
-We have $f(2)=4-6+5=3$ and $\lim_{x\to2}(x^2-3x+5)=4-6+5=3$. Hence $\lim_{x\to2}f(x)=f(2)$.
+The function $f(x)=x^2-3x+5$ is a polynomial, so it is defined on $\mathbb{R}$, in particular at $x=2$. The function $f$ is continuous at $x=2$ if and only if $\lim_{x\to2}f(x)=f(2)$.
+
+We have $f(2)=2^2-3\cdot2+5=4-6+5=3$.
+
+On the other hand, since $f$ is a polynomial,
+$$\lim_{x\to2}\left(x^2-3x+5\right)=2^2-3\cdot2+5=3.$$
+
+Hence $\lim_{x\to2}f(x)=3=f(2)$.
 
 So $f$ is continuous at $x=2$.
 
@@ -262,9 +269,15 @@ at $x=3$.
 2. Find $\lim_{x\to3}f(x)$ and compare it with $f(3)$.
 
 ::solution
-For $x\neq3$ we have $\dfrac{x^2-x-6}{x-3}=\dfrac{(x-3)(x+2)}{x-3}=x+2$. Hence $\lim_{x\to3}f(x)=5$.
+The function $f$ is defined at $x=3$ with $f(3)=4$. We find the limit of $f(x)$ as $x\to3$ and compare it with $f(3)$.
 
-We have $f(3)=4\neq5$.
+For $x\neq3$, factorise the numerator:
+$$\frac{x^2-x-6}{x-3}=\frac{(x-3)(x+2)}{x-3}=x+2.$$
+
+Therefore
+$$\lim_{x\to3}f(x)=\lim_{x\to3}(x+2)=5.$$
+
+On the other hand $f(3)=4$, so $\lim_{x\to3}f(x)=5\neq4=f(3)$.
 
 So $f$ is discontinuous at $x=3$.
 
@@ -282,7 +295,11 @@ On which intervals is the function $f(x)=\dfrac{2x-1}{x^2-4}$ continuous?
 2. Write the domain as a union of intervals.
 
 ::solution
-We have $x^2-4=0\Leftrightarrow x=2$ or $x=-2$. The domain is $\mathbb{R}\setminus\{-2, 2\}$.
+The function $f(x)=\dfrac{2x-1}{x^2-4}$ is a rational function, so it is continuous on each interval contained in its domain.
+
+Condition: $x^2-4\neq0$. We have $x^2-4=0\Leftrightarrow x=2$ or $x=-2$.
+
+Hence the domain is $\mathbb{R}\setminus\{-2, 2\}$, which consists of the three intervals $(-\infty, -2)$, $(-2, 2)$ and $(2, +\infty)$.
 
 So $f$ is continuous on the intervals $(-\infty, -2)$, $(-2, 2)$ and $(2, +\infty)$.
 
@@ -302,9 +319,17 @@ at $x=2$.
 2. Work out the two one-sided limits.
 
 ::solution
-We have $f(2)=2\cdot2-1=3$, $\lim_{x\to2^-}(x^2-1)=3$ and $\lim_{x\to2^+}(2x-1)=3$.
+The function $f$ is given by two different formulas on the two sides of $x=2$, so we compute $f(2)$ and the two one-sided limits at $x=2$.
 
-These three values are equal.
+Since $2\ge2$, we have $f(2)=2\cdot2-1=3$.
+
+Left-hand limit (for $x<2$, $f(x)=x^2-1$):
+$$\lim_{x\to2^-}f(x)=\lim_{x\to2^-}\left(x^2-1\right)=2^2-1=3.$$
+
+Right-hand limit (for $x>2$, $f(x)=2x-1$):
+$$\lim_{x\to2^+}f(x)=\lim_{x\to2^+}(2x-1)=2\cdot2-1=3.$$
+
+Since $\lim_{x\to2^-}f(x)=\lim_{x\to2^+}f(x)=3$, we get $\lim_{x\to2}f(x)=3$. This equals $f(2)=3$.
 
 So $f$ is continuous at $x=2$.
 
@@ -372,13 +397,18 @@ d) The function $f$ is continuous on the interval $(1, +\infty)$.
 2. Check each statement.
 
 ::solution
-a) **True**: by the definition of $f$, $f(1)=3$.
+We have $f(x)=\dfrac{x^2-1}{x-1}$ for $x\neq1$ and $f(1)=3$. For $x\neq1$:
+$$f(x)=\frac{(x-1)(x+1)}{x-1}=x+1.$$
 
-b) **False**: for $x\neq1$, $f(x)=x+1$, so $\lim_{x\to1}f(x)=2$, not $3$.
+a) **True.** By the definition of the function, $f(1)=3$.
 
-c) **True**: $\lim_{x\to1}f(x)=2\neq3=f(1)$.
+b) **False.** Since $f(x)=x+1$ for all $x\neq1$, we have $\lim_{x\to1}f(x)=\lim_{x\to1}(x+1)=2$, not $3$.
 
-d) **True**: for $x>1$ we have $f(x)=x+1$, a polynomial, which is continuous on $(1, +\infty)$.
+c) **True.** We have $\lim_{x\to1}f(x)=2\neq3=f(1)$, so $f$ is not continuous at $x=1$.
+
+d) **True.** For every $x>1$ we have $f(x)=x+1$, a polynomial, which is continuous on $\mathbb{R}$; hence $f$ is continuous on the interval $(1, +\infty)$.
+
+So statements a), c), d) are true; statement b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::

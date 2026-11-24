@@ -133,7 +133,15 @@ Work out $5-2$.
 2. Count back two.
 
 ::solution
-From $5$ count back two: "four, three".
+To work out $5-2$, we count back two numbers, starting from $5$.
+
+From $5$ count back: "four, three".
+
+The last number we say is $3$, so $5-2=3$.
+
+Check: $3+2=5$. Correct.
+
+So $5-2=3$.
 
 **Answer.** $5-2=3$.
 :::
@@ -149,7 +157,15 @@ Work out $9-4$.
 2. Count back four.
 
 ::solution
-From $9$ count back four: "eight, seven, six, five".
+To work out $9-4$, we count back four numbers, starting from $9$.
+
+From $9$ count back: "eight, seven, six, five".
+
+The last number we say is $5$, so $9-4=5$.
+
+Check: $5+4=9$. Correct.
+
+So $9-4=5$.
 
 **Answer.** $9-4=5$.
 :::
@@ -165,7 +181,15 @@ Remember the last lesson: $3+4=7$. Use it to work out $7-4$ and $7-3$.
 2. Count back three from $7$.
 
 ::solution
-$7-4$: "six, five, four, three", which gives $3$. $7-3$: "six, five, four", which gives $4$.
+We have $3+4=7$, which means $7$ is made of $3$ and $4$.
+
+$7-4$: from $7$ count back four numbers: "six, five, four, three", which gives $3$. Hence $7-4=3$.
+
+$7-3$: from $7$ count back three numbers: "six, five, four", which gives $4$. Hence $7-3=4$.
+
+Both results agree with $3+4=7$: $7$ is made of $3$ and $4$, and taking away one part leaves the other.
+
+So $7-4=3$ and $7-3=4$.
 
 **Answer.** $7-4=3$; $7-3=4$.
 :::
@@ -183,7 +207,11 @@ b) $4-\square=4$.
 2. From $4$ you still have $4$: how much was taken away?
 
 ::solution
-a) From $7$ back to $5$: "six, five", so $2$ numbers. b) All $4$ are still there, so $0$ was taken away.
+a) We look for the number to take away so that $5$ is left from $7$. From $7$ back to $5$: "six, five", so we go back $2$ numbers. Hence the missing number is $2$. Check: $7-2=5$. Correct.
+
+b) We take a number away from $4$ and still have all $4$ left, which means nothing was taken away. Hence the missing number is $0$. Check: $4-0=4$. Correct.
+
+So a) the missing number is $2$; b) the missing number is $0$.
 
 **Answer.** a) $2$. b) $0$.
 :::
@@ -199,7 +227,15 @@ Nam says: "$8-3=6$ because I counted back eight, seven, six." Is Nam right? Why?
 2. Count again correctly.
 
 ::solution
-From $8$ you must count back $3$ numbers: "seven, six, five". Nam only went back $2$.
+To work out $8-3$, we count back $3$ numbers, starting from $8$ but not saying the number $8$.
+
+From $8$ count back $3$ numbers: "seven, six, five". The last number is $5$, so $8-3=5$.
+
+Nam said "eight, seven, six", so Nam said the number $8$ itself and only went back $2$ numbers, stopping at $6$.
+
+Check: $5+3=8$. Correct. But $6+3=9$, which is not $8$, so $6$ is wrong.
+
+So Nam is wrong; $8-3=5$.
 
 **Answer.** No. $8-3=5$.
 :::
@@ -215,7 +251,15 @@ Mai writes $2-5=3$. Where did Mai go wrong? Write it correctly.
 2. Try writing $5-2$.
 
 ::solution
-You cannot take $5$ away from $2$. Mai swapped the numbers. The right sum is $5-2$: from $5$ count back two, "four, three".
+The sum $2-5$ cannot be done, because you cannot take $5$ away from $2$ ($2<5$).
+
+Mai swapped the two numbers. The right sum is $5-2$.
+
+From $5$ count back two numbers: "four, three", which gives $3$. Hence $5-2=3$.
+
+Check: $3+2=5$. Correct.
+
+So Mai went wrong by writing $2-5$; it should be $5-2=3$.
 
 **Answer.** $5-2=3$.
 :::
@@ -231,10 +275,14 @@ Ha has $10$ cakes. She gives $6$ cakes to a friend. How many cakes does Ha have 
 2. Work out $10-6$ and write the answer with its unit.
 
 ::solution
-The number of cakes left is:
+Solution
+
+The number of cakes Ha has left is:
 $$10-6=4\ \text{(cakes)}.$$
 
-**Check.** $4+6=10$. Correct.
+Check: $4+6=10$. Correct.
+
+So Ha has $4$ cakes left.
 
 **Answer.** $4$ cakes.
 :::
@@ -252,9 +300,13 @@ b) $6 \;\square\; 2 = 8$.
 2. Compare $8$ with $6$.
 
 ::solution
-a) $4$ is less than $6$, so take away: $6-2=4$. b) $8$ is more than $6$, so add: $6+2=8$.
+a) The result $4$ is less than $6$, so we take away: write the sign $-$, and $6-2=4$.
 
-**Check.** From $6$ back two: "five, four"; from $6$ on two: "seven, eight". Correct.
+b) The result $8$ is more than $6$, so we add: write the sign $+$, and $6+2=8$.
+
+Check: from $6$ back two, "five, four", gives $4$; from $6$ on two, "seven, eight", gives $8$. Correct.
+
+So a) write the sign $-$; b) write the sign $+$.
 
 **Answer.** a) the sign $-$. b) the sign $+$.
 :::

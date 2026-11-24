@@ -234,9 +234,14 @@ Find the domain of a) $y=\tan\left(x+\dfrac{\pi}{6}\right)$; b) $y=\dfrac{1}{1+\
 2. Part b: when is $\sin x=-1$?
 
 ::solution
-a) The function is defined when $x+\dfrac{\pi}{6}\ne\dfrac{\pi}{2}+k\pi$, that is $x\ne\dfrac{\pi}{3}+k\pi$.
+a) The function $y=\tan u$ is defined when $\cos u\ne0$, that is $u\ne\dfrac{\pi}{2}+k\pi$ $(k\in\mathbb{Z})$. With $u=x+\dfrac{\pi}{6}$, the function is defined when
+$$x+\frac{\pi}{6}\ne\frac{\pi}{2}+k\pi\iff x\ne\frac{\pi}{3}+k\pi.$$
 
-b) The function is defined when $1+\sin x\ne0$, that is $\sin x\ne-1$, or $x\ne-\dfrac{\pi}{2}+k2\pi$.
+So the domain of the function is $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
+
+b) The function $y=\dfrac{1}{1+\sin x}$ is defined when the denominator is non-zero, that is $1+\sin x\ne0$, or $\sin x\ne-1$. The equation $\sin x=-1$ has solutions $x=-\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$, so the function is defined when $x\ne-\dfrac{\pi}{2}+k2\pi$.
+
+So the domain of the function is $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
 
 **Answer.** a) $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\right\}$; b) $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\right\}$ ($k\in\mathbb{Z}$).
 :::
@@ -252,7 +257,16 @@ Find the greatest and least values of $y=5-3\cos x$ and the values of $x$ at whi
 2. Find the $x$ for each value.
 
 ::solution
-Since $-1\le\cos x\le1$, we have $-3\le-3\cos x\le3$, so $2\le y\le8$. The least value $2$ occurs when $\cos x=1$, that is $x=k2\pi$. The greatest value $8$ occurs when $\cos x=-1$, that is $x=\pi+k2\pi$.
+The function $y=5-3\cos x$ is defined for all $x\in\mathbb{R}$.
+
+For every $x$, we have $-1\le\cos x\le1$. Multiplying by $-3<0$ (which reverses the inequalities), we get $-3\le-3\cos x\le3$. Adding $5$, we obtain
+$$2\le5-3\cos x\le8,\ \text{that is}\ 2\le y\le8.$$
+
+The least value $y=2$ occurs when $\cos x=1$, that is $x=k2\pi$ $(k\in\mathbb{Z})$.
+
+The greatest value $y=8$ occurs when $\cos x=-1$, that is $x=\pi+k2\pi$ $(k\in\mathbb{Z})$.
+
+So the least value of the function is $2$, attained at $x=k2\pi$; the greatest value is $8$, attained at $x=\pi+k2\pi$ $(k\in\mathbb{Z})$.
 
 **Answer.** $\min y=2$ at $x=k2\pi$; $\max y=8$ at $x=\pi+k2\pi$.
 :::
@@ -268,11 +282,19 @@ Decide whether each function is even, odd or neither: a) $y=x\cos x$; b) $y=\sin
 2. Compare with $f(x)$ and $-f(x)$.
 
 ::solution
-a) $f(-x)=(-x)\cos(-x)=-x\cos x=-f(x)$: odd.
+To decide parity, we check that the domain is symmetric about $0$ and then compare $f(-x)$ with $f(x)$. Recall that $\cos(-x)=\cos x$, $\sin(-x)=-\sin x$, $\tan(-x)=-\tan x$.
 
-b) $f(-x)=\sin^2(-x)+\cos(-x)=\sin^2x+\cos x=f(x)$: even.
+a) The function $f(x)=x\cos x$ has domain $\mathbb{R}$, which is symmetric about $0$. We have
+$$f(-x)=(-x)\cos(-x)=-x\cos x=-f(x).$$
+So $y=x\cos x$ is an odd function.
 
-c) $f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x)$: odd.
+b) The function $f(x)=\sin^2x+\cos x$ has domain $\mathbb{R}$, which is symmetric about $0$. We have
+$$f(-x)=\sin^2(-x)+\cos(-x)=(-\sin x)^2+\cos x=\sin^2x+\cos x=f(x).$$
+So $y=\sin^2x+\cos x$ is an even function.
+
+c) The function $f(x)=\tan x+x$ has domain $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\right\}$; if $x$ is in this set then so is $-x$, so the domain is symmetric about $0$. We have
+$$f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x).$$
+So $y=\tan x+x$ is an odd function.
 
 **Answer.** a) odd; b) even; c) odd.
 :::
@@ -288,11 +310,15 @@ Find the period of a) $y=\sin3x$; b) $y=\cos\dfrac{x}{2}$; c) $y=\tan2x$.
 2. Apply the period formula.
 
 ::solution
-a) $\omega=3$, so the period is $\dfrac{2\pi}{3}$.
+The functions $y=\sin\omega x$ and $y=\cos\omega x$ are periodic with period $\dfrac{2\pi}{|\omega|}$; the function $y=\tan\omega x$ is periodic with period $\dfrac{\pi}{|\omega|}$.
 
-b) $\omega=\dfrac12$, so the period is $\dfrac{2\pi}{1/2}=4\pi$.
+a) For $y=\sin3x$, we have $\omega=3$, so the period is $\dfrac{2\pi}{3}$.
 
-c) $\omega=2$, so the period is $\dfrac{\pi}{2}$.
+b) For $y=\cos\dfrac{x}{2}$, we have $\omega=\dfrac12$, so the period is $\dfrac{2\pi}{1/2}=4\pi$.
+
+c) For $y=\tan2x$, we have $\omega=2$, so the period is $\dfrac{\pi}{2}$.
+
+So the periods of the three functions are $\dfrac{2\pi}{3}$, $4\pi$ and $\dfrac{\pi}{2}$ respectively.
 
 **Answer.** a) $\dfrac{2\pi}{3}$; b) $4\pi$; c) $\dfrac{\pi}{2}$.
 :::
@@ -308,9 +334,13 @@ Compare a) $\sin\dfrac{\pi}{9}$ and $\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{
 2. Compare the angles, then deduce the order of the values.
 
 ::solution
-a) Both angles lie in $\left(0, \dfrac{\pi}{2}\right)$, where $\sin$ is increasing, and $\dfrac{\pi}{9}<\dfrac{2\pi}{9}$, so $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$.
+a) We have $0<\dfrac{\pi}{9}<\dfrac{2\pi}{9}<\dfrac{\pi}{2}$, so both angles lie in $\left(0, \dfrac{\pi}{2}\right)$. On this interval the function $y=\sin x$ is increasing, hence
+$$\sin\frac{\pi}{9}<\sin\frac{2\pi}{9}.$$
 
-b) Both angles lie in $(0, \pi)$, where $\cos$ is decreasing, and $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, so $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+b) We have $0<\dfrac{3\pi}{5}<\dfrac{4\pi}{5}<\pi$, so both angles lie in $(0, \pi)$. On this interval the function $y=\cos x$ is decreasing and $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, hence
+$$\cos\frac{4\pi}{5}<\cos\frac{3\pi}{5}.$$
+
+So $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$ and $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
 
 **Answer.** a) $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
 :::
@@ -327,7 +357,17 @@ Suppose the outdoor temperature (in degrees Celsius) in a city on a hot day is m
 3. Find the period of $\sin\dfrac{\pi t}{12}$.
 
 ::solution
-Since $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$, we have $23\le T\le33$. The temperature is $33$ when $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, that is $t=15$. It is $23$ when $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, that is $t=3$. The period is $\dfrac{2\pi}{\pi/12}=24$ hours.
+The temperature is given by $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$ with $0\le t<24$ ($t$ in hours, $T$ in degrees Celsius).
+
+For every $t$, we have $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$, so $-5\le5\sin\dfrac{\pi(t-9)}{12}\le5$, hence $23\le T\le33$.
+
+The highest temperature $33^\circ$C occurs when $\sin\dfrac{\pi(t-9)}{12}=1$, that is $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, so $t-9=6$, that is $t=15$ (which satisfies $0\le t<24$).
+
+The lowest temperature $23^\circ$C occurs when $\sin\dfrac{\pi(t-9)}{12}=-1$, that is $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, so $t-9=-6$, that is $t=3$ (which satisfies $0\le t<24$).
+
+The period of the function is $\dfrac{2\pi}{\pi/12}=24$ hours, so the temperature repeats every $24$ hours; therefore these are the only two such times in $0\le t<24$.
+
+So the highest temperature is $33^\circ$C at $15$ o'clock, the lowest is $23^\circ$C at $3$ o'clock, and the pattern repeats every $24$ hours.
 
 **Answer.** Highest $33^\circ$C at $15$ o'clock; lowest $23^\circ$C at $3$ o'clock; the pattern repeats every $24$ hours.
 :::
@@ -352,13 +392,17 @@ d) The graph is symmetric about the origin.
 3. d) The graph of an odd function is symmetric about $O$.
 
 ::solution
-a) **False**: $\tan x$ is not defined at $x=\dfrac{\pi}{2}+k\pi$.
+Consider the function $y=\tan x$, whose domain is $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\ \middle|\ k\in\mathbb{Z}\right\}$.
 
-b) **True**: $\tan(x+\pi)=\tan x$ and $\pi$ is the smallest such positive number.
+a) **False.** The function $\tan x$ is not defined at $x=\dfrac{\pi}{2}+k\pi$ (because $\cos x=0$ there), so it is not defined on all of $\mathbb{R}$.
 
-c) **False**: $\dfrac{\pi}{2}\in(0, \pi)$ but $\tan x$ is not defined there; the function is increasing on $\left(0, \dfrac{\pi}{2}\right)$ and on $\left(\dfrac{\pi}{2}, \pi\right)$ separately.
+b) **True.** We have $\tan(x+\pi)=\tan x$ for every $x$ in the domain, and $\pi$ is the smallest positive number with this property. Hence the function is periodic with period $\pi$.
 
-d) **True**: $\tan$ is an odd function.
+c) **False.** We have $\dfrac{\pi}{2}\in(0, \pi)$ but $\tan x$ is not defined there, so the function is not continuous on $(0, \pi)$. The function is increasing on $\left(0, \dfrac{\pi}{2}\right)$ and on $\left(\dfrac{\pi}{2}, \pi\right)$ separately.
+
+d) **True.** The domain is symmetric about $0$ and $\tan(-x)=-\tan x$, so $\tan$ is an odd function. Hence the graph is symmetric about the origin.
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -374,7 +418,14 @@ The instantaneous voltage of an alternating current source is $u(t)=220\sqrt2\si
 2. Approximate $220\sqrt2$.
 
 ::solution
-Since $\sin(100\pi t)\le1$, we have $u\le220\sqrt2\approx311.1$.
+The instantaneous voltage is $u(t)=220\sqrt2\sin(100\pi t)$ (V).
+
+For every $t$, we have $\sin(100\pi t)\le1$, so $u\le220\sqrt2$. Equality holds when $\sin(100\pi t)=1$, for instance when $100\pi t=\dfrac{\pi}{2}$, that is $t=\dfrac1{200}$ second. Hence the peak voltage is
+$$U_{\max}=220\sqrt2\approx311.1\ \text{V}.$$
+
+Rounding to the nearest whole number, we get $311$ V.
+
+So the peak voltage of the source is approximately $311$ V.
 
 **Answer.** $311$ V.
 :::
@@ -390,7 +441,16 @@ Use the addition formula to write $y=\sin x+\cos x$ in the form $y=\sqrt2\sin\le
 2. Use $-1\le\sin\le1$ and the period of $\sin(x+\varphi)$.
 
 ::solution
-We have $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\dfrac{\sqrt2}{2}+\cos x\cdot\dfrac{\sqrt2}{2}\right)=\sin x+\cos x$. Since $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$, we have $-\sqrt2\le y\le\sqrt2$. The period is $2\pi$.
+Using the addition formula $\sin(a+b)=\sin a\cos b+\cos a\sin b$ with $a=x$, $b=\dfrac{\pi}{4}$, we have
+$$\sqrt2\sin\left(x+\frac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\frac{\sqrt2}{2}+\cos x\cdot\frac{\sqrt2}{2}\right)=\sin x+\cos x.$$
+
+So $y=\sin x+\cos x=\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)$.
+
+For every $x$, we have $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$, so $-\sqrt2\le y\le\sqrt2$. Since $x+\dfrac{\pi}{4}$ takes every real value, $\sin\left(x+\dfrac{\pi}{4}\right)$ takes every value in $[-1, 1]$, so $y$ takes every value in $\left[-\sqrt2, \sqrt2\right]$.
+
+The function $\sin\left(x+\dfrac{\pi}{4}\right)$ is periodic with period $2\pi$, so $y$ has period $2\pi$.
+
+So the range of the function is $\left[-\sqrt2, \sqrt2\right]$ and its period is $2\pi$.
 
 **Answer.** Range $\left[-\sqrt2, \sqrt2\right]$; period $2\pi$.
 :::

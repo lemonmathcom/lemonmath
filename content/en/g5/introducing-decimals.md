@@ -184,7 +184,15 @@ So the order from least to greatest is $5.99$; $6.09$; $6.1$; $6.9$.
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-Write as decimals: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5\dfrac{7}{100}$; d) $\dfrac{123}{1000}$.
+Write as decimals:
+
+a) $\dfrac{9}{10}$;
+
+b) $\dfrac{47}{100}$;
+
+c) $5\dfrac{7}{100}$;
+
+d) $\dfrac{123}{1000}$.
 
 ::hint
 **What you need:** $\dfrac{1}{10}=0.1$, $\dfrac{1}{100}=0.01$, $\dfrac{1}{1000}=0.001$.
@@ -194,13 +202,27 @@ Write as decimals: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5\dfrac{7}{100}
 2. Remember to write a $0$ in any place that is empty.
 
 ::solution
-a) $\dfrac{9}{10}=0.9$. b) $\dfrac{47}{100}=0.47$. c) $5\dfrac{7}{100}=5.07$. d) $\dfrac{123}{1000}=0.123$.
+a) A decimal fraction with denominator $10$ has one digit in the decimal part. We have $\dfrac{9}{10}=0.9$.
+
+b) With denominator $100$ there are two digits in the decimal part. We have $\dfrac{47}{100}=0.47$.
+
+c) The whole-number part is $5$ and the fraction part is $\dfrac{7}{100}=0.07$ (two digits in the decimal part, with tenths digit $0$). We have $5\dfrac{7}{100}=5.07$.
+
+d) With denominator $1000$ there are three digits in the decimal part. We have $\dfrac{123}{1000}=0.123$.
+
+So a) $0.9$; b) $0.47$; c) $5.07$; d) $0.123$.
 
 **Answer.** a) $0.9$; b) $0.47$; c) $5.07$; d) $0.123$.
 :::
 
 :::exercise
-Write as decimal fractions or mixed numbers: a) $0.6$; b) $0.08$; c) $4.25$.
+Write as decimal fractions or mixed numbers:
+
+a) $0.6$;
+
+b) $0.08$;
+
+c) $4.25$.
 
 ::hint
 **What you need:** one digit in the decimal part means denominator $10$; two digits mean denominator $100$.
@@ -210,13 +232,25 @@ Write as decimal fractions or mixed numbers: a) $0.6$; b) $0.08$; c) $4.25$.
 2. Write the decimal part as a fraction and keep the whole-number part.
 
 ::solution
-a) $0.6=\dfrac{6}{10}$. b) $0.08=\dfrac{8}{100}$. c) $4.25=4\dfrac{25}{100}$.
+a) The number $0.6$ has one digit in the decimal part, so the denominator is $10$. We have $0.6=\dfrac{6}{10}$.
+
+b) The number $0.08$ has two digits in the decimal part, so the denominator is $100$. We have $0.08=\dfrac{8}{100}$.
+
+c) The number $4.25$ has whole-number part $4$ and a decimal part $0.25$ with two digits, so the denominator is $100$. We have $4.25=4\dfrac{25}{100}$.
+
+So a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
 
 **Answer.** a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
 :::
 
 :::exercise
-In each number, which place is the digit $7$ in, and what is its value? a) $24.7$; b) $5.07$; c) $70.3$.
+In each number, which place is the digit $7$ in, and what is its value?
+
+a) $24.7$;
+
+b) $5.07$;
+
+c) $70.3$.
 
 ::hint
 **What you need:** the places from left to right: tens, ones, decimal point, tenths, hundredths.
@@ -226,11 +260,13 @@ In each number, which place is the digit $7$ in, and what is its value? a) $24.7
 2. Write the value of that digit.
 
 ::solution
-a) The digit $7$ is in the tenths place, with value $0.7$.
+a) In $24.7$, the digit $7$ comes right after the decimal point, so it is in the tenths place, with value $0.7$.
 
-b) The digit $7$ is in the hundredths place, with value $0.07$.
+b) In $5.07$, the digit $7$ is the second digit after the decimal point, so it is in the hundredths place, with value $0.07$.
 
-c) The digit $7$ is in the tens place, with value $70$.
+c) In $70.3$, the digit $7$ is the second digit to the left of the decimal point, so it is in the tens place, with value $70$.
+
+So a) tenths place, value $0.7$; b) hundredths place, value $0.07$; c) tens place, value $70$.
 
 **Answer.** a) tenths, $0.7$; b) hundredths, $0.07$; c) tens, $70$.
 :::
@@ -246,13 +282,26 @@ Write as simply as possible: $8.500$; $0.70$; $12.0$.
 2. If nothing is left in the decimal part, remove the decimal point too.
 
 ::solution
-$8.500=8.5$; $0.70=0.7$; $12.0=12$.
+If we write extra zeros at the right end of the decimal part, or remove zeros at the right end of the decimal part, the value of the decimal does not change.
+
+Removing the zeros at the right end of the decimal part, we get:
+$$8.500=8.5;\qquad0.70=0.7;\qquad12.0=12.$$
+
+So the simplified numbers are $8.5$; $0.7$; $12$.
 
 **Answer.** $8.5$; $0.7$; $12$.
 :::
 
 :::exercise
-Write $>$, $<$ or $=$ in the gap: a) $7.35\ \ldots\ 7.53$; b) $0.8\ \ldots\ 0.80$; c) $15.09\ \ldots\ 15.1$; d) $2.45\ \ldots\ 2.4$.
+Write $>$, $<$ or $=$ in the gap:
+
+a) $7.35\ \ldots\ 7.53$;
+
+b) $0.8\ \ldots\ 0.80$;
+
+c) $15.09\ \ldots\ 15.1$;
+
+d) $2.45\ \ldots\ 2.4$.
 
 ::hint
 **What you need:** compare the whole-number parts first, then the decimal places from left to right.
@@ -262,13 +311,17 @@ Write $>$, $<$ or $=$ in the gap: a) $7.35\ \ldots\ 7.53$; b) $0.8\ \ldots\ 0.80
 2. Compare the tenths, then the hundredths.
 
 ::solution
-a) Tenths: $3<5$, so $7.35<7.53$.
+To compare two decimals, we compare the whole-number parts first; if they are equal, we compare the tenths, then the hundredths, and so on, from left to right.
 
-b) $0.80=0.8$, so $0.8=0.80$.
+a) Both numbers have whole-number part $7$. Tenths: $3<5$, so $7.35<7.53$.
 
-c) $15.1=15.10$. Tenths: $0<1$, so $15.09<15.1$.
+b) Removing the zero at the right end of the decimal part, we get $0.80=0.8$, so $0.8=0.80$.
 
-d) $2.4=2.40$. The tenths are equal; hundredths: $5>0$, so $2.45>2.4$.
+c) Write $15.1=15.10$. Both numbers have whole-number part $15$. Tenths: $0<1$, so $15.09<15.1$.
+
+d) Write $2.4=2.40$. Both numbers have whole-number part $2$, and the tenths are equal ($4=4$). Hundredths: $5>0$, so $2.45>2.4$.
+
+So a) $<$; b) $=$; c) $<$; d) $>$.
 
 **Answer.** a) $<$; b) $=$; c) $<$; d) $>$.
 :::
@@ -284,7 +337,15 @@ Put in order from greatest to least: $3.4$; $3.04$; $3.44$; $2.99$.
 2. Compare the other three, writing $3.4=3.40$.
 
 ::solution
-The number $2.99$ has the smallest whole-number part, so it is the least. The other three have whole-number part $3$. Write $3.4=3.40$. Tenths: $3.04$ has $0$, while $3.40$ and $3.44$ have $4$. Hundredths: $4>0$, so $3.44>3.40$.
+We compare the whole-number parts first. The number $2.99$ has whole-number part $2$, which is less than the whole-number part $3$ of the other three, so $2.99$ is the least.
+
+The other three have the same whole-number part $3$. Write $3.4=3.40$. Tenths: $3.04$ has digit $0$, while $3.40$ and $3.44$ have digit $4$, and $0<4$, so $3.04$ is less than the other two.
+
+The numbers $3.40$ and $3.44$ have equal tenths. Hundredths: $4>0$, so $3.44>3.40$.
+
+Hence $3.44>3.4>3.04>2.99$.
+
+So the numbers in order from greatest to least are $3.44$; $3.4$; $3.04$; $2.99$.
 
 **Answer.** $3.44>3.4>3.04>2.99$.
 :::
@@ -300,9 +361,16 @@ Suppose three friends run $60$ m in these times: An $10.5$ seconds, Binh $10.25$
 2. Write the three numbers with two digits in the decimal part, then compare.
 
 ::solution
-Write $10.5=10.50$ and $10.3=10.30$. We have $10.25<10.30<10.50$.
+Solution
+
+All three friends run the same $60$ m, so the one who takes less time is faster. So we compare the three times.
+
+Write $10.5=10.50$ and $10.3=10.30$. All three numbers have whole-number part $10$ and two digits in the decimal part. Tenths: $2<3<5$, so
+$$10.25<10.30<10.50.$$
 
 Binh took the least time, then Chi, then An.
+
+So Binh ran fastest; from fastest to slowest the order is Binh, Chi, An.
 
 **Answer.** Binh ran fastest; from fastest to slowest: Binh, Chi, An.
 :::
@@ -318,9 +386,13 @@ Remember the lesson on mixed numbers. Compare $2\dfrac{3}{10}$ and $2\dfrac{3}{4
 2. Write both mixed numbers as decimals, then compare.
 
 ::solution
-We have $2\dfrac{3}{10}=2.3$. Since $\dfrac{3}{4}=\dfrac{75}{100}$, we have $2\dfrac{3}{4}=2.75$.
+Change the first mixed number: $2\dfrac{3}{10}=2+0.3=2.3$.
 
-Write $2.3=2.30$. Since $30<75$, we have $2.3<2.75$.
+Change the second mixed number: $\dfrac{3}{4}=\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$, so $2\dfrac{3}{4}=2+0.75=2.75$.
+
+Both numbers have whole-number part $2$. Write $2.3=2.30$. Comparing the decimal parts: $30<75$, so $2.30<2.75$, that is $2.3<2.75$.
+
+So $2\dfrac{3}{10}<2\dfrac{3}{4}$.
 
 **Answer.** $2\dfrac{3}{10}<2\dfrac{3}{4}$.
 :::
@@ -354,7 +426,13 @@ How many decimals with two digits in the decimal part are greater than $0.3$ and
 2. Which digits can be in the hundredths place? Must any number be left out?
 
 ::solution
-The numbers we want have the form $0.3a$ with tenths digit $3$. Since the number is greater than $0.30$, the digit $a$ is not $0$, so $a\in\{1,2,3,4,5,6,7,8,9\}$. The numbers are $0.31$; $0.32$; ...; $0.39$.
+A decimal with two digits in the decimal part, greater than $0.3$ and less than $0.4$, has whole-number part $0$ and tenths digit $3$. So it has the form $0.3a$, where $a$ is the hundredths digit.
+
+Since the number is greater than $0.3=0.30$, we have $a\ne0$. Since the number is less than $0.4$, every digit $a$ from $1$ to $9$ works. So $a\in\{1,2,3,4,5,6,7,8,9\}$.
+
+The numbers are $0.31$; $0.32$; $\ldots$; $0.39$.
+
+So there are $9$ decimals satisfying the problem.
 
 **Answer.** $9$ numbers.
 :::

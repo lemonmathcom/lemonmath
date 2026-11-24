@@ -188,11 +188,16 @@ c) $\dfrac12x(4x^2-6x+2)$.
 2. Watch the sign of each product.
 
 ::solution
-a) $3x^2(2x-5)=6x^3-15x^2$.
+We use the rule for multiplying a monomial by a polynomial: $A(B+C)=AB+AC$.
 
-b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+a) Multiply $3x^2$ by each term in the bracket:
+$$3x^2(2x-5)=3x^2\cdot2x-3x^2\cdot5=6x^3-15x^2.$$
 
-c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+b) Multiply $-2xy$ by each term in the bracket:
+$$\begin{aligned}-2xy(x^2-3y+1)&=-2xy\cdot x^2+(-2xy)(-3y)+(-2xy)\cdot1\\&=-2x^3y+6xy^2-2xy.\end{aligned}$$
+
+c) Multiply $\dfrac12x$ by each term in the bracket:
+$$\frac12x(4x^2-6x+2)=\frac12x\cdot4x^2-\frac12x\cdot6x+\frac12x\cdot2=2x^3-3x^2+x.$$
 
 So a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
 
@@ -214,9 +219,13 @@ b) $(2x-1)(x^2+x-2)$.
 2. Add the like terms.
 
 ::solution
-a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+We use the rule for multiplying two polynomials: multiply each term of one polynomial by every term of the other and add the products.
 
-b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+a) We have
+$$(x+4)(x-3)=x\cdot x+x\cdot(-3)+4\cdot x+4\cdot(-3)=x^2-3x+4x-12=x^2+x-12.$$
+
+b) We have
+$$\begin{aligned}(2x-1)(x^2+x-2)&=2x\cdot x^2+2x\cdot x+2x\cdot(-2)-x^2-x+2\\&=2x^3+2x^2-4x-x^2-x+2\\&=2x^3+x^2-5x+2.\end{aligned}$$
 
 So a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
 
@@ -278,11 +287,16 @@ c) $(8x^3-4x^2+6x)\div(2x)$.
 2. Divide the powers of the same variable, then add the quotients.
 
 ::solution
-a) $12x^3y^2\div(-4xy)=-3x^2y$.
+We use the rule for dividing a monomial by a monomial (divide the coefficients, then divide the powers of the same base) and for dividing a polynomial by a monomial (divide each term by that monomial).
 
-b) $(15x^4y^3-10x^2y^2+5xy)\div(5xy)=3x^3y^2-2xy+1$.
+a) We have
+$$12x^3y^2\div(-4xy)=\left(12\div(-4)\right)\cdot\left(x^3\div x\right)\cdot\left(y^2\div y\right)=-3x^2y.$$
 
-c) $(8x^3-4x^2+6x)\div(2x)=4x^2-2x+3$.
+b) Divide each term by $5xy$:
+$$\begin{aligned}(15x^4y^3-10x^2y^2+5xy)\div(5xy)&=15x^4y^3\div(5xy)-10x^2y^2\div(5xy)+5xy\div(5xy)\\&=3x^3y^2-2xy+1.\end{aligned}$$
+
+c) Divide each term by $2x$:
+$$(8x^3-4x^2+6x)\div(2x)=8x^3\div(2x)-4x^2\div(2x)+6x\div(2x)=4x^2-2x+3.$$
 
 So a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
 
@@ -340,9 +354,16 @@ Recall the lesson on cuboids. A cuboid has a rectangular base of width $x$ cm an
 2. Substitute $x=2$.
 
 ::solution
-We have $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+The volume of a cuboid is the product of its three dimensions: $V=\text{width}\cdot\text{length}\cdot\text{height}$. With width $x$ cm, length $(x+2)$ cm and height $(x+3)$ cm, we have
+$$V=x(x+2)(x+3).$$
 
-When $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Check: $2\cdot4\cdot5=40$.)
+First multiply the last two factors: $(x+2)(x+3)=x^2+3x+2x+6=x^2+5x+6$. Hence
+$$V=x\left(x^2+5x+6\right)=x^3+5x^2+6x\ (\text{cm}^3).$$
+
+Substituting $x=2$ into the polynomial, we get
+$$V=2^3+5\cdot2^2+6\cdot2=8+20+12=40\ (\text{cm}^3).$$
+
+Check: when $x=2$ the dimensions are $2$ cm, $4$ cm, $5$ cm and $2\cdot4\cdot5=40$.
 
 So $V=x^3+5x^2+6x\ (\text{cm}^3)$, which equals $40\ \text{cm}^3$ when $x=2$.
 

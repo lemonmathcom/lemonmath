@@ -197,11 +197,18 @@ Tính: a) $6{,}3:0{,}7$; b) $9{,}6:0{,}16$; c) $15:0{,}6$.
 2. Chuyển dấu phẩy ở số bị chia (thêm chữ số $0$ nếu thiếu), rồi chia.
 
 ::solution
-a) $6{,}3:0{,}7=63:7=9$.
+Khi chia một số thập phân cho một số thập phân, ta chuyển dấu phẩy của số bị chia và số chia sang phải cùng số chữ số như nhau (tức là nhân cả hai số với cùng một số), rồi chia như chia số tự nhiên. Kết quả không đổi.
 
-b) Số chia $0{,}16$ có hai chữ số thập phân: $9{,}6:0{,}16=960:16=60$.
+a) Số chia $0{,}7$ có một chữ số thập phân, nên ta chuyển dấu phẩy của cả hai số sang phải một chữ số:
+$$6{,}3:0{,}7=63:7=9$$
 
-c) $15:0{,}6=150:6=25$.
+b) Số chia $0{,}16$ có hai chữ số thập phân, nên ta chuyển dấu phẩy của cả hai số sang phải hai chữ số (số bị chia $9{,}6$ viết thành $9{,}60$):
+$$9{,}6:0{,}16=960:16=60$$
+
+c) Số chia $0{,}6$ có một chữ số thập phân. Số bị chia $15$ viết thành $15{,}0$, rồi chuyển dấu phẩy sang phải một chữ số:
+$$15:0{,}6=150:6=25$$
+
+Vậy kết quả lần lượt là $9$; $60$; $25$.
 
 **Đáp số.** a) $9$; b) $60$; c) $25$.
 :::
@@ -217,10 +224,14 @@ Một đoạn dây điện dài $12{,}6$ m được cắt thành $6$ đoạn b�
 2. Chia $12{,}6$ cho $6$. Thử lại bằng phép nhân.
 
 ::solution
-Mỗi đoạn dài:
-$$12{,}6:6=2{,}1\ \text{(m)}.$$
+Bài giải
 
-**Thử lại.** $2{,}1\times6=12{,}6$. Đúng.
+Dây điện được cắt thành $6$ đoạn bằng nhau nên để tìm độ dài mỗi đoạn, ta lấy độ dài cả dây chia cho $6$. Mỗi đoạn dài:
+$$12{,}6:6=2{,}1\ \text{(m)}$$
+
+*Thử lại.* $2{,}1\times6=12{,}6$. Đúng.
+
+Vậy mỗi đoạn dây điện dài $2{,}1$ m.
 
 **Đáp số.** $2{,}1$ m.
 :::
@@ -236,10 +247,15 @@ Giả sử mỗi chai chứa $0{,}75$ lít nước và có $9$ lít nước cầ
 2. Chia $9$ cho $0{,}75$ bằng cách chuyển dấu phẩy.
 
 ::solution
-Số chai rót được là:
-$$9:0{,}75=900:75=12\ \text{(chai)}.$$
+Bài giải
 
-**Thử lại.** $12\times0{,}75=9$. Đúng.
+Để biết rót được bao nhiêu chai, ta lấy số lít nước chia cho số lít nước trong mỗi chai. Số chai rót được là:
+$$9:0{,}75=900:75=12\ \text{(chai)}$$
+(Chuyển dấu phẩy của cả hai số sang phải hai chữ số; $9$ viết thành $9{,}00$.)
+
+*Thử lại.* $12\times0{,}75=9$. Đúng.
+
+Vậy rót được $12$ chai.
 
 **Đáp số.** $12$ chai.
 :::
@@ -255,8 +271,15 @@ Giả sử mua $3{,}5$ kg táo hết $87\,500$ đồng. Hỏi $1$ kg táo giá b
 2. Chia $87\,500$ cho $3{,}5$. Nhớ ghi đơn vị.
 
 ::solution
-Giá tiền $1$ kg táo là:
-$$87\,500:3{,}5=875\,000:35=25\,000\ \text{(đồng)}.$$
+Bài giải
+
+Để tìm giá tiền $1$ kg táo, ta lấy số tiền mua chia cho số ki-lô-gam táo. Giá tiền $1$ kg táo là:
+$$87\,500:3{,}5=875\,000:35=25\,000\ \text{(đồng)}$$
+(Chuyển dấu phẩy của cả hai số sang phải một chữ số.)
+
+*Thử lại.* $25\,000\times3{,}5=87\,500$. Đúng.
+
+Vậy $1$ kg táo giá $25\,000$ đồng.
 
 **Đáp số.** $25\,000$ đồng.
 :::
@@ -272,9 +295,15 @@ Em hãy nhớ lại bài phép nhân số thập phân. Tìm số $x$ biết $x\
 2. Chuyển dấu phẩy để chia, rồi nhân $x$ với $2{,}5$ để thử lại.
 
 ::solution
-Ta có $x=12:2{,}5=120:25=4{,}8$.
+Trong phép nhân $x\times2{,}5=12$, $x$ là thừa số chưa biết. Muốn tìm một thừa số, ta lấy tích chia cho thừa số kia:
+$$x=12:2{,}5$$
 
-**Thử lại.** $4{,}8\times2{,}5=12$. Đúng.
+Chuyển dấu phẩy của cả hai số sang phải một chữ số, ta được
+$$x=120:25=4{,}8$$
+
+*Thử lại.* $4{,}8\times2{,}5=12$. Đúng.
+
+Vậy $x=4{,}8$.
 
 **Đáp số.** $x=4{,}8$.
 :::
@@ -290,11 +319,14 @@ Chia $17:6$ rồi làm tròn thương đến hàng phần mười và đến hà
 2. Làm tròn từ thương đầy đủ, không làm tròn từ kết quả đã làm tròn.
 
 ::solution
-Ta có $17:6=2{,}8333\ldots$
+Ta chia $17$ cho $6$. Ta có $17:6=2$ dư $5$. Viết thêm $0$ vào số dư và chia tiếp: $50:6=8$ dư $2$; $20:6=3$ dư $2$; $20:6=3$ dư $2$; $\ldots$ Các chữ số $3$ lặp lại, nên
+$$17:6=2{,}8333\ldots$$
 
-Đến hàng phần mười: chữ số hàng phần trăm là $3<5$, nên $2{,}8$.
+Làm tròn đến hàng phần mười: chữ số hàng phần trăm là $3<5$ nên giữ nguyên chữ số hàng phần mười. Ta được $2{,}8$.
 
-Đến hàng phần trăm: chữ số hàng phần nghìn là $3<5$, nên $2{,}83$.
+Làm tròn đến hàng phần trăm: chữ số hàng phần nghìn là $3<5$ nên giữ nguyên chữ số hàng phần trăm. Ta được $2{,}83$.
+
+Vậy thương làm tròn đến hàng phần mười là $2{,}8$ và đến hàng phần trăm là $2{,}83$.
 
 **Đáp số.** $2{,}8$ và $2{,}83$.
 :::
@@ -310,7 +342,16 @@ Một sợi dây dài $5$ m được cắt thành các đoạn dài $0{,}4$ m. H
 2. Xem phần nguyên của thương cho biết điều gì.
 
 ::solution
-Ta có $5:0{,}4=50:4=12{,}5$. Thương $12{,}5$ nghĩa là có $12$ đoạn đủ dài $0{,}4$ m và còn một phần nhỏ chưa đủ một đoạn.
+Bài giải
+
+Để biết cắt được bao nhiêu đoạn dài $0{,}4$ m, ta lấy chiều dài sợi dây chia cho $0{,}4$:
+$$5:0{,}4=50:4=12{,}5$$
+
+Thương $12{,}5$ nghĩa là có $12$ đoạn đủ dài $0{,}4$ m và còn một phần nhỏ chưa đủ một đoạn. Số đoạn phải là số tự nhiên nên ta lấy phần nguyên $12$.
+
+*Kiểm tra.* $12\times0{,}4=4{,}8\le5$ và $13\times0{,}4=5{,}2>5$. Đúng.
+
+Vậy cắt được nhiều nhất $12$ đoạn dài $0{,}4$ m.
 
 **Đáp số.** $12$ đoạn.
 :::
@@ -326,8 +367,10 @@ Tính bằng cách thuận tiện: $12{,}5:0{,}25:4$.
 2. Chia $12{,}5$ cho kết quả đó.
 
 ::solution
-Vì $0{,}25\times4=1$ nên:
-$$12{,}5:0{,}25:4=12{,}5:(0{,}25\times4)=12{,}5:1=12{,}5.$$
+Ta thấy $0{,}25\times4=1$. Chia liên tiếp cho hai số bằng chia cho tích của hai số đó, nên ta tính tích $0{,}25\times4$ trước:
+$$12{,}5:0{,}25:4=12{,}5:(0{,}25\times4)=12{,}5:1=12{,}5$$
+
+Vậy $12{,}5:0{,}25:4=12{,}5$.
 
 **Đáp số.** $12{,}5$.
 :::

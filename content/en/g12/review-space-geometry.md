@@ -201,7 +201,17 @@ The right prism $ABC.A'B'C'$ has a base that is a right-angled triangle at $A$, 
 2. Multiply by $AA'$.
 
 ::solution
-The base area is $\dfrac12\cdot3\cdot4=6$, so $V=6\cdot5=30$. Option B multiplies by an extra $\dfrac13$; option C forgets the $\dfrac12$.
+Since $ABC.A'B'C'$ is a right prism, its height is $AA'=5$.
+
+The base $ABC$ is a right-angled triangle at $A$, so the base area is
+$$S_{ABC}=\frac12\cdot AB\cdot AC=\frac12\cdot3\cdot4=6.$$
+
+Using the volume formula for a prism, $V=S_{\text{base}}\cdot h$, we have
+$$V=6\cdot5=30.$$
+
+So the volume of the prism is $30$. So the answer is **A**.
+
+*Remark.* Option B multiplies by an extra $\dfrac13$ (confusing it with the pyramid formula); option C forgets the $\dfrac12$ in the area of the triangle.
 
 **Answer.** A.
 :::
@@ -219,7 +229,17 @@ In the tetrahedron $OABC$, the edges $OA$, $OB$, $OC$ are mutually perpendicular
 2. Compute $\dfrac13\cdot S_{OAB}\cdot OC$.
 
 ::solution
-$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Option A forgets both $\dfrac13$ and $\dfrac12$; option B forgets $\dfrac13$; option C forgets $\dfrac12$.
+Since $OA\perp OB$ and $OA\perp OC$, and $OB$, $OC$ intersect in the plane $(OBC)$, we have $OA\perp(OBC)$. Hence $OA$ is the height of the tetrahedron from $A$, and $OA=2$.
+
+Triangle $OBC$ is right-angled at $O$, so
+$$S_{OBC}=\frac12\cdot OB\cdot OC=\frac12\cdot3\cdot4=6.$$
+
+Using the volume formula for a pyramid, we have
+$$V=\frac13\cdot S_{OBC}\cdot OA=\frac13\cdot6\cdot2=4.$$
+
+So the volume of the tetrahedron is $4$. So the answer is **D**.
+
+*Remark.* Option A forgets both $\dfrac13$ and $\dfrac12$; option B forgets $\dfrac13$; option C forgets $\dfrac12$.
 
 **Answer.** D.
 :::
@@ -237,7 +257,21 @@ The pyramid $S.ABC$ has an equilateral base with side $a$, $SA\perp(ABC)$, and t
 2. Compute $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot SA$.
 
 ::solution
-$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, so $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Option A uses $\tan30^\circ$ by mistake, option C forgets $\dfrac13$, and option D takes the angle to be $\angle SBA$.
+Let $M$ be the midpoint of $BC$. Since triangle $ABC$ is equilateral with side $a$, we have $AM\perp BC$ and $AM=\dfrac{a\sqrt3}{2}$.
+
+Since $SA\perp(ABC)$, we have $SA\perp BC$. Together with $AM\perp BC$ this gives $BC\perp(SAM)$, so $BC\perp SM$.
+
+The planes $(SBC)$ and $(ABC)$ meet along the line $BC$, and $AM\perp BC$, $SM\perp BC$. Hence the angle between the two planes is $\angle SMA=60^\circ$.
+
+In triangle $SAM$, right-angled at $A$, we have
+$$SA=AM\cdot\tan60^\circ=\frac{a\sqrt3}{2}\cdot\sqrt3=\frac{3a}{2}.$$
+
+The base area is $S_{ABC}=\dfrac{a^2\sqrt3}{4}$. Using the volume formula for a pyramid, we have
+$$V=\frac13\cdot S_{ABC}\cdot SA=\frac13\cdot\frac{a^2\sqrt3}{4}\cdot\frac{3a}{2}=\frac{a^3\sqrt3}{8}.$$
+
+So the volume of the pyramid is $\dfrac{a^3\sqrt3}{8}$. So the answer is **B**.
+
+*Remark.* Option A uses $\tan30^\circ$ by mistake; option C forgets $\dfrac13$; option D takes the angle to be $\angle SBA$.
 
 **Answer.** B.
 :::
@@ -262,13 +296,18 @@ d) The dihedral angle $[C', BD, C]$ is $45^\circ$.
 3. For the dihedral angle, use $C'O\perp BD$ and $CO\perp BD$.
 
 ::solution
-a) **True.** $AC\perp BD$ (diagonals of a square) and $AC\perp BB'$, so $AC\perp(BDD'B')$.
+a) **True.** Since $ABCD$ is a square, $AC\perp BD$ (the diagonals of a square). Since $BB'\perp(ABCD)$, we have $AC\perp BB'$. The line $AC$ is perpendicular to the two intersecting lines $BD$ and $BB'$ of the plane $(BDD'B')$, so $AC\perp(BDD'B')$.
 
-b) **True.** $BC'\parallel AD'$; triangle $AB'D'$ has all three sides equal to $a\sqrt2$, so it is equilateral and the angle is $60^\circ$.
+b) **True.** Since $ABC'D'$ is a parallelogram (with $AB\parallel C'D'$ and $AB=C'D'$), $BC'\parallel AD'$. Hence the angle between $AB'$ and $BC'$ equals the angle between $AB'$ and $AD'$. Triangle $AB'D'$ has $AB'=AD'=B'D'=a\sqrt2$ (diagonals of square faces of side $a$), so it is equilateral and $\angle B'AD'=60^\circ$. So the angle between the lines $AB'$ and $BC'$ is $60^\circ$.
 
-c) **True.** By a), $AO\perp(BDD'B')$, so the distance is $AO=\dfrac{a\sqrt2}{2}$.
+c) **True.** By a), $AC\perp(BDD'B')$, and $O\in AC$, $O\in BD\subset(BDD'B')$, so $AO\perp(BDD'B')$ at $O$. Hence the distance from $A$ to $(BDD'B')$ is
+$$AO=\frac{AC}{2}=\frac{a\sqrt2}{2}.$$
 
-d) **False.** The dihedral angle is $\angle C'OC$ with $\tan\angle C'OC=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, so the angle is about $54.7^\circ$.
+d) **False.** The planes $(C'BD)$ and $(CBD)$ meet along $BD$. We have $CO\perp BD$; also $C'B=C'D$, so triangle $C'BD$ is isosceles at $C'$ and $C'O\perp BD$. Hence the dihedral angle $[C', BD, C]$ equals $\angle C'OC$. In triangle $C'CO$, right-angled at $C$,
+$$\tan\angle C'OC=\frac{CC'}{CO}=\frac{a}{\frac{a\sqrt2}{2}}=\sqrt2,$$
+so $\angle C'OC\approx54.7^\circ$, which is not $45^\circ$.
+
+So statements a), b), c) are true; statement d) is false.
 
 **Answer.** a) True; b) True; c) True; d) False.
 :::
@@ -284,7 +323,16 @@ $ABCD.A'B'C'D'$ is a cube. Find the angle between the line $A'C$ and the plane $
 2. Compute $\tan\angle A'CA=\dfrac{AA'}{AC}$.
 
 ::solution
-$\tan\angle A'CA=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, so $\angle A'CA\approx35.26^\circ$.
+Let $a$ be the side of the cube.
+
+Since $AA'\perp(ABCD)$, the line $AC$ is the orthogonal projection of $A'C$ onto the plane $(ABCD)$. Hence the angle between the line $A'C$ and the plane $(ABCD)$ is $\angle A'CA$.
+
+In triangle $A'AC$, right-angled at $A$, we have $AA'=a$ and $AC=a\sqrt2$ (the diagonal of a square of side $a$), so
+$$\tan\angle A'CA=\frac{AA'}{AC}=\frac{a}{a\sqrt2}=\frac{1}{\sqrt2}.$$
+
+Hence $\angle A'CA\approx35.26^\circ$, which is $35^\circ$ to the nearest whole number.
+
+So the angle between the line $A'C$ and the plane $(ABCD)$ is approximately $35^\circ$.
 
 **Answer.** $35$.
 :::
@@ -300,7 +348,18 @@ The pyramid $S.ABC$ has an equilateral base with side $2$, $SA\perp(ABC)$ and $S
 2. Substitute into the formula.
 
 ::solution
-$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, so $AH=\dfrac{\sqrt3}{2}\approx0.866$.
+Let $M$ be the midpoint of $BC$. Since triangle $ABC$ is equilateral with side $2$, $AM\perp BC$ and $AM=\dfrac{2\sqrt3}{2}=\sqrt3$.
+
+Since $SA\perp(ABC)$, we have $SA\perp BC$. Together with $AM\perp BC$ this gives $BC\perp(SAM)$.
+
+In the plane $(SAM)$, draw $AH\perp SM$ at $H$. Since $BC\perp(SAM)$, we have $BC\perp AH$. The line $AH$ is perpendicular to the two intersecting lines $SM$ and $BC$ of the plane $(SBC)$, so $AH\perp(SBC)$. Hence $d(A, (SBC))=AH$.
+
+In triangle $SAM$, right-angled at $A$ with altitude $AH$, we have
+$$\frac{1}{AH^2}=\frac{1}{SA^2}+\frac{1}{AM^2}=1+\frac13=\frac43.$$
+
+So $AH=\dfrac{\sqrt3}{2}\approx0.866$, which is $0.87$ to 2 decimal places.
+
+So the distance from $A$ to the plane $(SBC)$ is approximately $0.87$.
 
 **Answer.** $0.87$.
 :::
@@ -316,7 +375,20 @@ The cover of a skylight is a regular square pyramid with a square base of side $
 2. Compute $\tan\angle SMO=\dfrac{SO}{OM}$.
 
 ::solution
-$OM=2$ and $\tan\angle SMO=\dfrac32$, so $\angle SMO\approx56.31^\circ$.
+Let the regular square pyramid be $S.ABCD$, where the base $ABCD$ is a square of side $4$ m and $O$ is the centre of the base. Since the pyramid is regular, $SO\perp(ABCD)$ and $SO=3$ m.
+
+Let $M$ be the midpoint of $CD$. Then $OM\perp CD$ and $OM=\dfrac{AD}{2}=2$ m.
+
+Since $SO\perp(ABCD)$, we have $SO\perp CD$. Together with $OM\perp CD$ this gives $CD\perp(SOM)$, so $CD\perp SM$.
+
+The planes $(SCD)$ and $(ABCD)$ meet along $CD$, and $SM\perp CD$, $OM\perp CD$. Hence the angle between a sloping face $(SCD)$ and the base is $\angle SMO$.
+
+In triangle $SOM$, right-angled at $O$, we have
+$$\tan\angle SMO=\frac{SO}{OM}=\frac32.$$
+
+Hence $\angle SMO\approx56.31^\circ$, which is $56^\circ$ to the nearest whole number.
+
+So the angle between a sloping face of the cover and the base is approximately $56^\circ$.
 
 **Answer.** $56$.
 :::
@@ -332,7 +404,17 @@ A water trough $2$ m long is a right prism whose cross-section is an isosceles t
 2. Multiply by the length of the trough, then convert to litres.
 
 ::solution
-$B=\dfrac{(0.6+0.4)\cdot0.3}{2}=0.15$ m², so $V=0.15\cdot2=0.3$ m³ $=300$ litres.
+The trough holds the most water when it is filled to the top, and then the volume of water equals the volume of the right prism.
+
+The base of the prism is the cross-section, an isosceles trapezium with parallel sides $0.6$ m and $0.4$ m and height (depth) $0.3$ m. The area of the cross-section is
+$$B=\frac{(0.6+0.4)\cdot0.3}{2}=0.15\ (\text{m}^2).$$
+
+The trough is $2$ m long, so the height of the prism is $2$ m. The volume of the trough is
+$$V=B\cdot h=0.15\cdot2=0.3\ (\text{m}^3).$$
+
+Since $1$ m³ $=1000$ litres, $V=0.3\cdot1000=300$ litres.
+
+So the trough can hold at most $300$ litres of water.
 
 **Answer.** $300$.
 :::
@@ -348,9 +430,17 @@ The pyramid $S.ABCD$ has a square base with side $a$ and centre $O$, $SA\perp(AB
 2. Compute $OH=OC\cdot\sin\angle SCA$.
 
 ::solution
-Since $BD\perp(SAC)$ and $OH\subset(SAC)$, $OH\perp BD$; also $OH\perp SC$, so $d(SC, BD)=OH$. We have $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$ and $\sin\angle SCA=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
+The square $ABCD$ has diagonals $AC\perp BD$ meeting at $O$. Since $SA\perp(ABCD)$, we have $SA\perp BD$. The line $BD$ is perpendicular to the two intersecting lines $AC$ and $SA$ of the plane $(SAC)$, so $BD\perp(SAC)$.
 
-$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+In the plane $(SAC)$, draw $OH\perp SC$ at $H$. Since $BD\perp(SAC)$ and $OH\subset(SAC)$, we have $OH\perp BD$. So $OH$ is perpendicular to both $BD$ and $SC$; it is the common perpendicular of the skew lines $SC$ and $BD$. Hence $d(SC, BD)=OH$.
+
+We now compute $OH$. The diagonal $AC=a\sqrt2$, so $OC=\dfrac{a\sqrt2}{2}$. Triangle $SAC$ is right-angled at $A$, so
+$$SC=\sqrt{SA^2+AC^2}=\sqrt{a^2+2a^2}=a\sqrt3,\qquad\sin\angle SCA=\frac{SA}{SC}=\frac{1}{\sqrt3}.$$
+
+Triangle $OHC$ is right-angled at $H$ and $\angle OCH=\angle SCA$ (since $O$ lies on $CA$ and $H$ lies on $CS$), so
+$$OH=OC\cdot\sin\angle OCH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+
+So the distance between the skew lines $SC$ and $BD$ is $\dfrac{a\sqrt6}{6}$.
 
 **Answer.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
 :::
@@ -366,7 +456,19 @@ The prism $ABC.A'B'C'$ has volume $30$. Let $M$ be the midpoint of the edge $CC'
 2. Subtract it from $30$.
 
 ::solution
-$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, so $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. What remains has volume $30-5=25$.
+Let $B$ be the area of the base $ABC$ and $h$ the height of the prism. Then $V=B\cdot h=30$.
+
+Since the plane $(A'B'C')$ is parallel to $(ABC)$, we have $d(C', (ABC))=h$.
+
+The line $CC'$ meets the plane $(ABC)$ at $C$ and $M$ is the midpoint of $CC'$, so
+$$d(M, (ABC))=\frac12d(C', (ABC))=\frac h2.$$
+
+Using the volume formula for a pyramid, we have
+$$V_{M.ABC}=\frac13\cdot B\cdot\frac h2=\frac16\cdot B\cdot h=\frac V6=\frac{30}{6}=5.$$
+
+The volume of what remains after cutting away the pyramid $M.ABC$ is $30-5=25$.
+
+So what remains has volume $25$.
 
 **Answer.** $25$.
 :::

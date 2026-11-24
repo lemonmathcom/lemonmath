@@ -210,13 +210,19 @@ d) $y=\pi$.
 2. Cộng lại, chú ý hằng số có đạo hàm bằng $0$.
 
 ::solution
-a) $y'=5x^4-12x^2+2$.
+Áp dụng các công thức $\left(x^n\right)'=nx^{n-1}$, $\left(\sqrt x\right)'=\dfrac{1}{2\sqrt x}$ $(x>0)$, $\left(\dfrac1x\right)'=-\dfrac{1}{x^2}$ $(x\neq0)$, $(c)'=0$ và quy tắc đạo hàm của tổng, hiệu, tích của hằng số với hàm số.
 
-b) $y'=\dfrac{3}{2\sqrt x}+\dfrac{2}{x^2}$.
+a) $y'=5x^4-4\cdot3x^2+2-0=5x^4-12x^2+2$.
 
-c) $y'=\dfrac1{2\sqrt x}-x$.
+b) Điều kiện: $x>0$. Ta có
+$$y'=3\cdot\frac{1}{2\sqrt x}-2\cdot\left(-\frac{1}{x^2}\right)=\frac{3}{2\sqrt x}+\frac{2}{x^2}.$$
 
-d) $y'=0$ vì $\pi$ là hằng số.
+c) Điều kiện: $x\ge0$ (đạo hàm xét với $x>0$). Ta có
+$$y'=\frac{1}{2\sqrt x}-\frac{2x}{2}+0=\frac{1}{2\sqrt x}-x.$$
+
+d) Vì $\pi$ là hằng số nên $y'=0$.
+
+Vậy đạo hàm của các hàm số lần lượt là $5x^4-12x^2+2$; $\dfrac{3}{2\sqrt x}+\dfrac{2}{x^2}$; $\dfrac{1}{2\sqrt x}-x$; $0$.
 
 **Đáp số.** a) $5x^4-12x^2+2$; b) $\dfrac3{2\sqrt x}+\dfrac2{x^2}$; c) $\dfrac1{2\sqrt x}-x$; d) $0$.
 :::
@@ -240,13 +246,19 @@ d) $y=\dfrac{\ln x}{x}$.
 2. Thay vào công thức rồi rút gọn.
 
 ::solution
-a) $y'=2(x^2+3)+(2x-1)\cdot2x=6x^2-2x+6$.
+a) Áp dụng quy tắc đạo hàm của tích $(uv)'=u'v+uv'$ với $u=2x-1$, $v=x^2+3$:
+$$\begin{aligned}y'&=2\left(x^2+3\right)+(2x-1)\cdot2x\\&=2x^2+6+4x^2-2x\\&=6x^2-2x+6.\end{aligned}$$
 
-b) $y'=2xe^x+x^2e^x=x(x+2)e^x$.
+b) Áp dụng quy tắc đạo hàm của tích với $u=x^2$, $v=e^x$:
+$$y'=2xe^x+x^2e^x=x(x+2)e^x.$$
 
-c) $y'=\dfrac{2(x-1)-(2x+3)}{(x-1)^2}=\dfrac{-5}{(x-1)^2}$.
+c) Điều kiện: $x\neq1$. Áp dụng quy tắc đạo hàm của thương $\left(\dfrac uv\right)'=\dfrac{u'v-uv'}{v^2}$ với $u=2x+3$, $v=x-1$:
+$$y'=\frac{2(x-1)-(2x+3)\cdot1}{(x-1)^2}=\frac{2x-2-2x-3}{(x-1)^2}=\frac{-5}{(x-1)^2}.$$
 
-d) $y'=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+d) Điều kiện: $x>0$. Áp dụng quy tắc đạo hàm của thương với $u=\ln x$, $v=x$:
+$$y'=\frac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\frac{1-\ln x}{x^2}.$$
+
+Vậy đạo hàm của các hàm số lần lượt là $6x^2-2x+6$; $x(x+2)e^x$; $-\dfrac{5}{(x-1)^2}$; $\dfrac{1-\ln x}{x^2}$.
 
 **Đáp số.** a) $6x^2-2x+6$; b) $x(x+2)e^x$; c) $-\dfrac5{(x-1)^2}$; d) $\dfrac{1-\ln x}{x^2}$.
 :::
@@ -270,13 +282,21 @@ d) $y=\ln(3x-2)$.
 2. Nhân đạo hàm hàm ngoài (theo $u$) với $u'$.
 
 ::solution
-a) $y'=6(2x+1)^5\cdot2=12(2x+1)^5$.
+Áp dụng quy tắc đạo hàm của hàm hợp: nếu $y=f(u(x))$ thì $y'=f'(u)\cdot u'(x)$.
 
-b) $y'=\dfrac{(x^2+1)'}{2\sqrt{x^2+1}}=\dfrac{x}{\sqrt{x^2+1}}$.
+a) Với $u=2x+1$ và $y=u^6$:
+$$y'=6(2x+1)^5\cdot(2x+1)'=6(2x+1)^5\cdot2=12(2x+1)^5.$$
 
-c) $y'=2xe^{x^2}$.
+b) Vì $x^2+1>0$ với mọi $x$ nên hàm số xác định trên $\mathbb{R}$. Với $u=x^2+1$ và $y=\sqrt u$:
+$$y'=\frac{u'}{2\sqrt u}=\frac{2x}{2\sqrt{x^2+1}}=\frac{x}{\sqrt{x^2+1}}.$$
 
-d) $y'=\dfrac{3}{3x-2}$.
+c) Với $u=x^2$ và $y=e^u$:
+$$y'=e^{x^2}\cdot\left(x^2\right)'=2xe^{x^2}.$$
+
+d) Điều kiện: $3x-2>0$, tức là $x>\dfrac23$. Với $u=3x-2$ và $y=\ln u$:
+$$y'=\frac{(3x-2)'}{3x-2}=\frac{3}{3x-2}.$$
+
+Vậy đạo hàm của các hàm số lần lượt là $12(2x+1)^5$; $\dfrac{x}{\sqrt{x^2+1}}$; $2xe^{x^2}$; $\dfrac{3}{3x-2}$.
 
 **Đáp số.** a) $12(2x+1)^5$; b) $\dfrac{x}{\sqrt{x^2+1}}$; c) $2xe^{x^2}$; d) $\dfrac3{3x-2}$.
 :::
@@ -298,11 +318,18 @@ c) $y=e^{2x}$ tại điểm có hoành độ $0$.
 2. Thay vào công thức.
 
 ::solution
-a) $f'(x)=3x^2-3$, $f'(0)=-3$, $f(0)=1$. Tiếp tuyến: $y=-3x+1$.
+Phương trình tiếp tuyến tại điểm có hoành độ $x_0$ là $y=f'(x_0)(x-x_0)+f(x_0)$.
 
-b) $f'(x)=\dfrac1x$, $f'(1)=1$, $f(1)=0$. Tiếp tuyến: $y=x-1$.
+a) Với $f(x)=x^3-3x+1$ ta có $f'(x)=3x^2-3$. Tại $x_0=0$: $f'(0)=-3$ và $f(0)=1$. Tiếp tuyến là
+$$y=-3(x-0)+1=-3x+1.$$
 
-c) $f'(x)=2e^{2x}$, $f'(0)=2$, $f(0)=1$. Tiếp tuyến: $y=2x+1$.
+b) Với $f(x)=\ln x$ (điều kiện $x>0$) ta có $f'(x)=\dfrac1x$. Tại $x_0=1$: $f'(1)=1$ và $f(1)=\ln1=0$. Tiếp tuyến là
+$$y=1\cdot(x-1)+0=x-1.$$
+
+c) Với $f(x)=e^{2x}$ ta có $f'(x)=2e^{2x}$. Tại $x_0=0$: $f'(0)=2$ và $f(0)=1$. Tiếp tuyến là
+$$y=2(x-0)+1=2x+1.$$
+
+Vậy các tiếp tuyến lần lượt là $y=-3x+1$, $y=x-1$ và $y=2x+1$.
 
 **Đáp số.** a) $y=-3x+1$; b) $y=x-1$; c) $y=2x+1$.
 :::
@@ -326,13 +353,15 @@ d) $\left(2^x\right)'=2^x$.
 2. Chú ý các hệ số và thừa số $\ln a$.
 
 ::solution
-a) **Sai**: $\left(\sqrt x\right)'=\dfrac1{2\sqrt x}$.
+a) **Sai.** Công thức đúng là $\left(\sqrt x\right)'=\dfrac1{2\sqrt x}$ $(x>0)$, không phải $\dfrac1{\sqrt x}$.
 
-b) **Đúng**: quy tắc tích.
+b) **Đúng.** Đây là quy tắc đạo hàm của một tích: $(uv)'=u'v+uv'$.
 
-c) **Đúng**: quy tắc hàm hợp với $(2x)'=2$.
+c) **Đúng.** Theo quy tắc hàm hợp với $u=2x$: $\left(e^{2x}\right)'=e^{2x}\cdot(2x)'=2e^{2x}$.
 
-d) **Sai**: $\left(2^x\right)'=2^x\ln2$.
+d) **Sai.** Công thức đúng là $\left(a^x\right)'=a^x\ln a$, nên $\left(2^x\right)'=2^x\ln2$, khác $2^x$ vì $\ln2\neq1$.
+
+Vậy các mệnh đề b), c) đúng; các mệnh đề a), d) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 :::
@@ -354,11 +383,19 @@ c) Tính $\dfrac{N'(t)}{N(t)}$ và nêu ý nghĩa.
 2. c) Chia $N'$ cho $N$ rồi rút gọn.
 
 ::solution
-a) $N'(t)=1000\cdot0{,}3e^{0{,}3t}=300e^{0{,}3t}$.
+Số vi khuẩn là $N(t)=1000e^{0{,}3t}$ với $t$ là số giờ ($t\ge0$). Tốc độ tăng của số vi khuẩn là đạo hàm $N'(t)$.
 
-b) $N'(2)=300e^{0{,}6}\approx300\cdot1{,}8221\approx547$ (con/giờ).
+a) Áp dụng quy tắc hàm hợp $\left(e^{kt}\right)'=ke^{kt}$:
+$$N'(t)=1000\cdot0{,}3e^{0{,}3t}=300e^{0{,}3t}.$$
 
-c) $\dfrac{N'(t)}{N(t)}=\dfrac{300e^{0{,}3t}}{1000e^{0{,}3t}}=0{,}3$: số vi khuẩn tăng $30\%$ mỗi giờ tại mọi thời điểm.
+b) Thay $t=2$ vào, ta được
+$$N'(2)=300e^{0{,}6}\approx300\cdot1{,}8221\approx547\ \text{(con/giờ)}.$$
+
+c) Với mọi $t$:
+$$\frac{N'(t)}{N(t)}=\frac{300e^{0{,}3t}}{1000e^{0{,}3t}}=0{,}3.$$
+Tỉ số này không đổi, bằng $0{,}3=30\%$. Ý nghĩa: tại mọi thời điểm, số vi khuẩn tăng $30\%$ mỗi giờ so với số lượng hiện có.
+
+Vậy $N'(t)=300e^{0{,}3t}$; tại $t=2$ tốc độ tăng khoảng $547$ con/giờ; và $\dfrac{N'(t)}{N(t)}=0{,}3$.
 
 **Đáp số.** a) $300e^{0{,}3t}$; b) $547$ con/giờ; c) $0{,}3$.
 :::
@@ -400,9 +437,17 @@ Giả sử nhiệt độ của một cốc nước sau $t$ phút là $T(t)=20+60
 2. Thay $t=10$.
 
 ::solution
-$T'(t)=60\cdot(-0{,}1)e^{-0{,}1t}=-6e^{-0{,}1t}$, nên $T'(10)=-6e^{-1}\approx-2{,}2$.
+Nhiệt độ là $T(t)=20+60e^{-0{,}1t}$ ($^\circ$C) với $t$ là số phút ($t\ge0$). Tốc độ thay đổi nhiệt độ là $T'(t)$.
 
-Vậy tại phút thứ $10$, nhiệt độ đang giảm khoảng $2{,}2\,^\circ$C mỗi phút.
+Áp dụng quy tắc hàm hợp:
+$$T'(t)=0+60\cdot(-0{,}1)e^{-0{,}1t}=-6e^{-0{,}1t}.$$
+
+Thay $t=10$ vào, ta được
+$$T'(10)=-6e^{-1}=-\frac6e\approx-2{,}2.$$
+
+Dấu âm cho biết nhiệt độ đang giảm.
+
+Vậy tại phút thứ $10$, nhiệt độ của cốc nước đang giảm khoảng $2{,}2\,^\circ$C mỗi phút.
 
 **Đáp số.** $T'(10)\approx-2{,}2$ ($^\circ$C/phút), nghĩa là nhiệt độ đang giảm.
 :::
@@ -422,9 +467,13 @@ b) $y=\log_2x$.
 2. Đạo hàm, nhớ $\ln a$ là hằng số.
 
 ::solution
-a) $3^x=e^{x\ln3}$ nên $y'=\ln3\cdot e^{x\ln3}=3^x\ln3$.
+a) Ta có $3^x=e^{x\ln3}$. Áp dụng quy tắc hàm hợp với $u=x\ln3$ (và $\ln3$ là hằng số):
+$$y'=e^{x\ln3}\cdot(x\ln3)'=\ln3\cdot e^{x\ln3}=3^x\ln3.$$
 
-b) $y=\dfrac{\ln x}{\ln2}$ nên $y'=\dfrac{1}{x\ln2}$.
+b) Điều kiện: $x>0$. Theo công thức đổi cơ số, $y=\log_2x=\dfrac{\ln x}{\ln2}$, với $\dfrac1{\ln2}$ là hằng số. Do đó
+$$y'=\frac{1}{\ln2}\cdot(\ln x)'=\frac{1}{x\ln2}.$$
+
+Vậy $\left(3^x\right)'=3^x\ln3$ và $\left(\log_2x\right)'=\dfrac{1}{x\ln2}$.
 
 **Đáp số.** a) $3^x\ln3$; b) $\dfrac1{x\ln2}$.
 :::
@@ -440,9 +489,21 @@ Cho $f(x)=(x-1)(x-2)(x-3)$. Tính $f'(1)+f'(2)+f'(3)$.
 2. Thay $x=1,2,3$: hai trong ba số hạng triệt tiêu.
 
 ::solution
-$f'(x)=(x-2)(x-3)+(x-1)(x-3)+(x-1)(x-2)$. Tại $x=1$ chỉ còn số hạng đầu: $f'(1)=(-1)(-2)=2$. Tại $x=2$: $f'(2)=(1)(-1)=-1$. Tại $x=3$: $f'(3)=(2)(1)=2$.
+Áp dụng quy tắc đạo hàm của tích ba thừa số $(uvw)'=u'vw+uv'w+uvw'$ với $u=x-1$, $v=x-2$, $w=x-3$:
+$$f'(x)=(x-2)(x-3)+(x-1)(x-3)+(x-1)(x-2).$$
 
-Tổng bằng $2-1+2=3$.
+Tại $x=1$: hai số hạng sau đều chứa thừa số $x-1=0$ nên bằng $0$, chỉ còn số hạng đầu:
+$$f'(1)=(1-2)(1-3)=(-1)(-2)=2.$$
+
+Tại $x=2$: số hạng đầu và số hạng cuối chứa thừa số $x-2=0$, chỉ còn số hạng giữa:
+$$f'(2)=(2-1)(2-3)=1\cdot(-1)=-1.$$
+
+Tại $x=3$: hai số hạng đầu chứa thừa số $x-3=0$, chỉ còn số hạng cuối:
+$$f'(3)=(3-1)(3-2)=2\cdot1=2.$$
+
+Do đó $f'(1)+f'(2)+f'(3)=2-1+2=3$.
+
+Vậy $f'(1)+f'(2)+f'(3)=3$.
 
 **Đáp số.** $3$.
 :::

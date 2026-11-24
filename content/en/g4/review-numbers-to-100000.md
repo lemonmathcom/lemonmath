@@ -136,7 +136,11 @@ Read the number $41\,305$.
 2. Say "forty-one thousand", then read the rest.
 
 ::solution
-The digits: ten thousands $4$, thousands $1$, hundreds $3$, tens $0$, ones $5$.
+We find the digits of $41\,305$ by place: ten thousands $4$, thousands $1$, hundreds $3$, tens $0$, ones $5$.
+
+The number has $4$ ten thousands, $1$ thousand, $3$ hundreds, $0$ tens and $5$ ones. The tens digit is $0$, so the tens are not read.
+
+So $41\,305$ is read: forty-one thousand, three hundred and five.
 
 **Answer.** Forty-one thousand, three hundred and five.
 :::
@@ -154,9 +158,13 @@ b) Twenty-three thousand and eight.
 2. Part b): $23\,000$ and $8$; the hundreds and tens are $0$.
 
 ::solution
-a) $60\,000+200+10=60\,210$.
+a) Sixty thousand, two hundred and ten is made of $60$ thousands, $2$ hundreds and $1$ ten. We have
+$$60\,000+200+10=60\,210.$$
 
-b) $23\,000+8=23\,008$.
+b) Twenty-three thousand and eight is made of $23$ thousands, $0$ hundreds, $0$ tens and $8$ ones. We have
+$$23\,000+8=23\,008.$$
+
+So a) the number is $60\,210$; b) the number is $23\,008$.
 
 **Answer.** a) $60\,210$. b) $23\,008$.
 :::
@@ -172,7 +180,14 @@ Write $70\,605$ as a sum of its places.
 2. Leave out the places with digit $0$.
 
 ::solution
-The digits: $7$ ten thousands, $0$ thousands, $6$ hundreds, $0$ tens, $5$ ones. So $70\,605=70\,000+600+5$.
+We find the digits of $70\,605$: $7$ ten thousands, $0$ thousands, $6$ hundreds, $0$ tens, $5$ ones.
+
+The values of the places are $7$ ten thousands $=70\,000$, $6$ hundreds $=600$ and $5$ ones $=5$; the thousands and tens places are $0$, so they are not written in the sum.
+
+Hence
+$$70\,605=70\,000+600+5.$$
+
+So $70\,605$ written as a sum of its places is $70\,000+600+5$.
 
 **Answer.** $70\,000+600+5$.
 :::
@@ -188,7 +203,15 @@ Look at the number $58\,142$. Give the value of the digit $5$, the digit $8$ and
 2. Do the same for the digits $8$ and $4$.
 
 ::solution
-The digit $5$ is in the ten thousands place: value $50\,000$. The digit $8$ is in the thousands place: value $8\,000$. The digit $4$ is in the tens place: value $40$.
+In the number $58\,142$, we find the place of each digit.
+
+The digit $5$ is in the ten thousands place, so its value is $50\,000$.
+
+The digit $8$ is in the thousands place, so its value is $8\,000$.
+
+The digit $4$ is in the tens place, so its value is $40$.
+
+So the values of the digit $5$, the digit $8$ and the digit $4$ are $50\,000$, $8\,000$ and $40$ respectively.
 
 **Answer.** $50\,000$; $8\,000$; $40$.
 :::
@@ -229,9 +252,11 @@ b) Ha said $9\,999>10\,000$ because $9>1$.
 2. Part b): count the digits in the two numbers.
 
 ::solution
-a) "Thirty thousand, five hundred and twenty" is $30\,520$. The number $30\,502$ has tens digit $0$, so it is read "thirty thousand, five hundred and two".
+a) "Thirty thousand, five hundred and twenty" is $30\,000+500+20=30\,520$. The number $30\,502$ has tens digit $0$ and ones digit $2$, so it is read "thirty thousand, five hundred and two". Ha was wrong because the words said $30\,520$.
 
-b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits, so $9\,999<10\,000$. Ha must not compare just the first digits when the numbers of digits differ.
+b) The number $9\,999$ has $4$ digits and $10\,000$ has $5$ digits. The number with fewer digits is smaller, so $9\,999<10\,000$. Ha was wrong because only the first digits were compared, while the numbers have different numbers of digits.
+
+So Ha read the number wrongly in a) and compared wrongly in b); the corrections are that $30\,502$ is read "thirty thousand, five hundred and two" and $9\,999<10\,000$.
 
 **Answer.** a) Thirty thousand, five hundred and two. b) $9\,999<10\,000$.
 :::
@@ -247,7 +272,17 @@ Three libraries have $24\,300$; $8\,900$; and $24\,030$ books. Put them in order
 2. Compare the other two from the ten thousands place.
 
 ::solution
-$8\,900$ has $4$ digits, so it is the least. The other two both have $5$ digits and share the ten thousands and thousands digits. In the hundreds place $0<3$, so $24\,030<24\,300$.
+We compare the three numbers $24\,300$; $8\,900$; $24\,030$.
+
+The number $8\,900$ has $4$ digits and the other two have $5$ digits, so $8\,900$ is the least.
+
+The numbers $24\,300$ and $24\,030$ both have $5$ digits and share the ten thousands digit $2$ and the thousands digit $4$.
+
+We compare the hundreds digits: $0<3$, so $24\,030<24\,300$.
+
+Hence $8\,900<24\,030<24\,300$.
+
+So the order from least to greatest is $8\,900$; $24\,030$; $24\,300$, and the library with $24\,300$ books has the most.
 
 **Answer.** $8\,900<24\,030<24\,300$; the library with $24\,300$ books has the most.
 :::
@@ -263,7 +298,13 @@ Using the digits $0$, $3$, $5$, $7$, $9$ (each digit used exactly once), make th
 2. Arrange from smallest to biggest, but the first digit must not be $0$.
 
 ::solution
-Greatest: $97\,530$. Least: the first digit is the smallest digit that is not $0$, which is $3$; the other digits go from least to greatest: $0$, $5$, $7$, $9$. This gives $30\,579$.
+We make numbers from the five digits $0$, $3$, $5$, $7$, $9$, using each digit exactly once.
+
+Greatest number: arrange the digits from greatest to least, which gives $97\,530$.
+
+Least number: the first digit cannot be $0$, so we choose the smallest digit that is not $0$, which is $3$. The remaining digits $0$, $5$, $7$, $9$ are arranged from least to greatest. This gives $30\,579$.
+
+So the greatest $5$-digit number is $97\,530$ and the least $5$-digit number is $30\,579$.
 
 **Answer.** Greatest $97\,530$; least $30\,579$.
 :::

@@ -168,11 +168,15 @@ c) Which point is shared by both sides?
 2. That point is the vertex.
 
 ::solution
-a) The vertex is $K$.
+By the problem, the angle has vertex $K$ and sides $KA$ and $KB$. The two sides of an angle both start from the vertex of that angle.
 
-b) The sides are $KA$ and $KB$.
+a) The vertex is the point where the two sides start. Here it is the point $K$.
 
-c) The point shared by both sides is $K$.
+b) The two sides of the angle are the two segments starting from the vertex $K$, that is $KA$ and $KB$.
+
+c) The sides $KA$ and $KB$ both have one end at the vertex $K$, so the point shared by both sides is $K$.
+
+So the vertex is $K$; the sides are $KA$ and $KB$; the point shared by both sides is $K$.
 
 **Answer.** a) $K$; b) $KA$, $KB$; c) $K$.
 :::
@@ -194,11 +198,15 @@ c) The other side of the angle falls inside the corner of the set square.
 2. If there is a gap or it falls inside, it is not a right angle.
 
 ::solution
-a) They line up: a right angle.
+To check whether an angle is a right angle, you place the set square so that its right-angle corner is on the vertex of the angle and one side of the set square lines up with one side of the angle. Then you see whether the other side of the set square lines up with the other side of the angle.
 
-b) A gap: not a right angle.
+a) The other side of the set square lines up with the other side of the angle, so it is a right angle.
 
-c) It falls inside: not a right angle.
+b) The other side of the set square sticks out of the angle, leaving a gap, so the two sides do not line up and it is not a right angle.
+
+c) The other side of the angle falls inside the corner of the set square, so the two sides do not line up and it is not a right angle.
+
+So the angle in a) is a right angle; the angles in b) and c) are not right angles.
 
 **Answer.** a) Right angle; b) not a right angle; c) not a right angle.
 :::
@@ -214,7 +222,11 @@ Remember the last lesson on circles. A circle with centre $O$ has radius $4$ cm.
 2. Use the radius given.
 
 ::solution
-$OA$ and $OB$ are both radii, so each side is $4$ cm long. The two sides of the angle are equal.
+The circle with centre $O$ has radius $4$ cm. The points $A$ and $B$ are on the circle, so $OA$ and $OB$ are segments joining the centre $O$ to points on the circle.
+
+Hence $OA$ and $OB$ are both radii of the circle, and each is $4$ cm long. The two sides of the angle with vertex $O$ are equal.
+
+So each side of the angle is $4$ cm long.
 
 **Answer.** $OA=4$ cm and $OB=4$ cm.
 :::
@@ -238,13 +250,17 @@ d) A roof shaped like the letter A.
 2. Choose the ones that fit the set square.
 
 ::solution
-a) The corner of a book fits the set square: a right angle.
+You use a set square to check each angle. An angle that fits the right-angle corner of the set square is a right angle.
 
-b) The clock hands at $1$ o'clock are close together: not a right angle.
+a) The corner of a book fits the set square, so it is a right angle.
 
-c) The corner of a blackboard fits the set square: a right angle.
+b) The clock hands at exactly $1$ o'clock are close together and do not fit the right-angle corner of the set square, so it is not a right angle.
 
-d) The A-shaped roof is closer together: not a right angle.
+c) The corner of a blackboard fits the set square, so it is a right angle.
+
+d) The A-shaped roof is closer together and does not fit the right-angle corner of the set square, so it is not a right angle.
+
+So the things that have a right angle are the corner of a book and the corner of a blackboard.
 
 **Answer.** The corner of a book and the corner of a blackboard.
 :::
@@ -260,7 +276,11 @@ Two right angles: one has sides $3$ cm long and the other has sides $6$ cm long.
 2. Does the length of the sides affect whether an angle is right?
 
 ::solution
-Both are right angles, so they are equal. The length of the sides does not change whether an angle is a right angle.
+Both angles are right angles. All right angles are equal, because when one is placed on top of the other, their sides line up exactly.
+
+The lengths of the sides ($3$ cm or $6$ cm) only tell us how long the sides are; they do not change whether an angle is a right angle.
+
+So the two angles are equal, because both are right angles.
 
 **Answer.** Equal, because both are right angles.
 :::
@@ -276,7 +296,15 @@ Nam says: "This angle looks like a right angle, so it is a right angle". What is
 2. Which tool makes sure?
 
 ::solution
-Nam only used his eyes, which can be fooled by an angle that is nearly right. You use a set square: put its corner on the vertex, line up one side with one side, then see whether the other side lines up too.
+Nam only used his eyes. Eyes can mistake an angle that is nearly right for a right angle, so an angle that only "looks like" a right angle cannot yet be called one.
+
+You would use a set square to test it:
+
+- Put the right-angle corner of the set square on the vertex of the angle.
+- Line up one side of the set square with one side of the angle.
+- See whether the other side of the set square lines up with the other side of the angle. If it does, the angle is a right angle; if it does not, it is not a right angle.
+
+So what is wrong with what Nam says is that he relied only on his eyes; you must test the angle with a set square.
 
 **Answer.** It must be tested with a set square.
 :::
@@ -296,9 +324,13 @@ b) What kind of angle do the clock hands make at exactly $3$ o'clock?
 2. Decide using the set square.
 
 ::solution
-a) The letters $L$ and $T$ have two strokes meeting at a right angle; the letter $V$ does not.
+a) We check, with a set square, the place where the two strokes of each letter meet.
 
-b) The clock hands at exactly $3$ o'clock make a right angle.
+In the letter $L$, the two strokes meet at a right angle. In the letter $T$, the horizontal stroke and the vertical stroke also meet at a right angle. In the letter $V$, the two strokes come together closely and do not make a right angle.
+
+b) At exactly $3$ o'clock, the hour hand points at $3$ and the minute hand points at $12$. The two hands make a right angle.
+
+So the letters $L$ and $T$ have a right angle; the clock hands at exactly $3$ o'clock make a right angle.
 
 **Answer.** a) $L$, $T$; b) a right angle.
 :::
@@ -316,7 +348,14 @@ A rectangular sheet of paper has $4$ right angles. You cut off one corner with a
 2. One corner is cut off; two new corners appear along the cut but they are not right angles.
 
 ::solution
-At the start there are $4$ right angles. Cutting off one corner removes $1$ right angle, leaving $4-1=3$ right angles. The two new corners along the cut are not right angles.
+The rectangular sheet of paper has $4$ right angles at the start.
+
+The straight cut removes one corner, so $1$ right angle is lost. The cut does not pass through any other corner, so the other $3$ right angles are not affected. Two new corners appear along the cut, and these two new corners are not right angles.
+
+The number of right angles left is:
+$$4-1=3\ \text{(right angles)}.$$
+
+So the sheet has $3$ right angles left.
 
 **Answer.** $3$ right angles.
 :::

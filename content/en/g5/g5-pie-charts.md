@@ -169,9 +169,20 @@ A pie chart shows how $200$ pupils in Year $5$ travel to school: by bicycle $40\
 2. Multiply by the percentage for each group.
 
 ::solution
-By bicycle: $200\div100\times40=80$ (pupils). On foot: $200\div100\times35=70$ (pupils). By motorbike: $200\div100\times25=50$ (pupils).
+There are $200$ pupils in Year $5$. To find the number of pupils for each way of travelling, we divide $200$ by $100$ and multiply by the matching percentage.
 
-**Check.** $80+70+50=200$.
+The number of pupils who go by bicycle is:
+$$200\div100\times40=80\ \text{(pupils)}$$
+
+The number of pupils who go on foot is:
+$$200\div100\times35=70\ \text{(pupils)}$$
+
+The number of pupils who go by motorbike is:
+$$200\div100\times25=50\ \text{(pupils)}$$
+
+Check: $80+70+50=200$ (pupils), which is the total number of pupils.
+
+So $80$ pupils go by bicycle, $70$ pupils go on foot and $50$ pupils go by motorbike.
 
 **Answer.** $80$ pupils; $70$ pupils; $50$ pupils.
 :::
@@ -187,7 +198,13 @@ In a chart of favourite kinds of book: comics $45\%$, stories $30\%$, science bo
 2. Subtract the total from $100\%$.
 
 ::solution
-The three known kinds make $45+30+15=90\ (\%)$. Other kinds make $100-90=10\ (\%)$.
+The whole pie chart stands for $100\%$. The three known kinds of book together make:
+$$45+30+15=90\ (\%)$$
+
+The percentage for other kinds is:
+$$100-90=10\ (\%)$$
+
+So other kinds make $10\%$.
 
 **Answer.** $10\%$.
 :::
@@ -203,7 +220,12 @@ Of $25$ children, $7$ like drawing. Find the percentage of the group who like dr
 2. Write it as a percentage.
 
 ::solution
-$7:25=0.28=28\%$.
+To find the percentage of the group who like drawing, we divide the number of children who like drawing by the number of children in the group and write the result as a percentage.
+
+We have
+$$7:25=0.28=28\%.$$
+
+So $28\%$ of the group like drawing.
 
 **Answer.** $28\%$.
 :::
@@ -220,9 +242,20 @@ A school collects $50$ kg of recycling: $30$ kg of paper, $15$ kg of plastic and
 3. Check: do the three percentages make $100\%$?
 
 ::solution
-Paper: $30:50=0.6=60\%$. Plastic: $15:50=0.3=30\%$. Metal: $5:50=0.1=10\%$.
+The total mass of recycling is $50$ kg. The percentage of each kind is its mass divided by $50$.
 
-**Check.** $60+30+10=100$.
+The percentage of paper is:
+$$30:50=0.6=60\%$$
+
+The percentage of plastic is:
+$$15:50=0.3=30\%$$
+
+The percentage of metal is:
+$$5:50=0.1=10\%$$
+
+Check: $60+30+10=100$, which is $100\%$.
+
+So paper is $60\%$, plastic is $30\%$ and metal is $10\%$ of the total mass.
 
 **Answer.** Paper $60\%$; plastic $30\%$; metal $10\%$.
 :::
@@ -238,8 +271,16 @@ An's family spends $10$ million dong a month. The chart shows: food $40\%$, educ
 2. Find the amount for each item.
 
 ::solution
-Savings are $100-(40+20+10)=30\ (\%)$. The amounts (in million dong) are:
+The whole chart is $100\%$ of the money. The percentage for savings is:
+$$100-(40+20+10)=30\ (\%)$$
+
+An's family spends $10$ million dong a month. The amount for each item (in million dong) is:
 $$\begin{aligned} \text{Food: }&10\div100\times40=4,\\ \text{Education: }&10\div100\times20=2,\\ \text{Water and electricity: }&10\div100\times10=1,\\ \text{Savings: }&10\div100\times30=3. \end{aligned}$$
+
+Check: $4+2+1+3=10$ (million dong), which is the monthly amount.
+
+So food costs $4$ million dong, education costs $2$ million dong, water and electricity cost $1$ million dong and the family saves $3$ million dong.
+
 **Answer.** Food $4$ million dong; education $2$ million dong; water and electricity $1$ million dong; savings $3$ million dong.
 :::
 
@@ -254,7 +295,18 @@ Ha tosses a coin $40$ times and gets heads $18$ times. Find the percentage of to
 2. Work out both ratios and add them to check.
 
 ::solution
-Heads: $18:40=0.45=45\%$. Tails came up $40-18=22$ (times): $22:40=0.55=55\%$.
+The percentage of tosses that gave heads, out of all tosses, is:
+$$18:40=0.45=45\%$$
+
+The number of tosses that gave tails is:
+$$40-18=22\ \text{(times)}$$
+
+The percentage of tosses that gave tails is:
+$$22:40=0.55=55\%$$
+
+Check: $45+55=100$.
+
+So $45\%$ of the tosses gave heads and $55\%$ gave tails.
 
 **Answer.** Heads $45\%$; tails $55\%$.
 :::
@@ -270,9 +322,20 @@ Remember the lesson on percentages. a) Find $35\%$ of $240$. b) $15\%$ of a numb
 2. Part b: find $1\%$, then multiply by $100$.
 
 ::solution
-a) $240\div100\times35=84$.
+a) To find $35\%$ of $240$, we divide $240$ by $100$ and multiply by $35$:
+$$240\div100\times35=84$$
 
-b) $1\%$ of the number is $36\div15=2.4$. The number is $2.4\times100=240$.
+So $35\%$ of $240$ is $84$.
+
+b) We know that $15\%$ of the number is $36$. First we find $1\%$ of the number:
+$$36\div15=2.4$$
+
+The number is $100\%$, so it is:
+$$2.4\times100=240$$
+
+Check: $240\div100\times15=36$, as in the question.
+
+So the number is $240$.
 
 **Answer.** a) $84$; b) $240$.
 :::
@@ -288,7 +351,13 @@ A box holds red and blue marbles. Hung picks a marble at random, notes its colou
 2. Change it to a percentage.
 
 ::solution
-$12:30=\dfrac{12}{30}=\dfrac25=0.4=40\%$.
+Hung picks a marble $30$ times and gets a red marble $12$ times. The relative frequency of red marbles is:
+$$\frac{12}{30}=\frac{12\div6}{30\div6}=\frac25$$
+
+As a percentage:
+$$\frac25=2\div5=0.4=40\%$$
+
+So the relative frequency of red marbles is $\dfrac25$, which is $40\%$.
 
 **Answer.** $\dfrac25$; $40\%$.
 :::
@@ -304,9 +373,20 @@ $80$ pupils were asked about their favourite subject: maths $35\%$, Vietnamese $
 2. Find the number for each subject and compare.
 
 ::solution
-English has $100-(35+25+20)=20\ (\%)$. The numbers of pupils are: maths $80\div100\times35=28$; Vietnamese $80\div100\times25=20$; art $80\div100\times20=16$; English $80\div100\times20=16$.
+The percentage of pupils who chose English is:
+$$100-(35+25+20)=20\ (\%)$$
 
-Maths was chosen most often. The least popular subjects have $16$ pupils, and $28-16=12$.
+The number of pupils for each subject is:
+$$\begin{aligned} \text{Maths: }&80\div100\times35=28,\\ \text{Vietnamese: }&80\div100\times25=20,\\ \text{Art: }&80\div100\times20=16,\\ \text{English: }&80\div100\times20=16. \end{aligned}$$
+
+Check: $28+20+16+16=80$ (pupils).
+
+Comparing $28$, $20$, $16$, $16$, maths was chosen most often, and art and English were the least popular, with $16$ pupils each.
+
+The number of extra pupils who chose maths is:
+$$28-16=12\ \text{(pupils)}$$
+
+So maths was chosen most often, and $12$ more pupils chose it than the least popular subject.
 
 **Answer.** Maths; $12$ more pupils.
 :::
@@ -322,9 +402,15 @@ A box holds red and blue marbles. Hung picks a marble at random, notes its colou
 2. Take that percentage of $200$.
 
 ::solution
-The relative frequency of red marbles is $10:40=0.25=25\%$. We estimate the number of red marbles as $200\div100\times25=50$ (marbles).
+Hung gets a red marble $10$ times out of $40$ picks. The relative frequency of red marbles is:
+$$10:40=0.25=25\%$$
 
-This is only an estimate; the true number of red marbles may be a little different.
+We estimate that red marbles make $25\%$ of the marbles in the box. If the box holds $200$ marbles, the estimated number of red marbles is:
+$$200\div100\times25=50\ \text{(marbles)}$$
+
+This is only an estimate based on $40$ picks, so the true number of red marbles may be a little different.
+
+So there are about $50$ red marbles in the box.
 
 **Answer.** About $50$ red marbles.
 :::

@@ -205,7 +205,13 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Đổi $6\,000$ kg ra tấn bằng phép chia.
 
 ::solution
-$7$ tạ $=7\times100=700$ kg. $6\,000$ kg $=6\,000:1\,000=6$ tấn.
+Ta có $1$ tạ $=100$ kg nên muốn đổi $7$ tạ ra ki-lô-gam, ta nhân với $100$:
+$$7\ \text{tạ}=7\times100=700\ \text{(kg)}.$$
+
+Ta có $1$ tấn $=1\,000$ kg nên muốn đổi $6\,000$ kg ra tấn, ta chia cho $1\,000$:
+$$6\,000\ \text{kg}=6\,000:1\,000=6\ \text{(tấn)}.$$
+
+Vậy $7$ tạ $=700$ kg và $6\,000$ kg $=6$ tấn.
 
 **Đáp số.** $700$ kg và $6$ tấn.
 :::
@@ -221,7 +227,14 @@ $7$ tạ $=7\times100=700$ kg. $6\,000$ kg $=6\,000:1\,000=6$ tấn.
 2. Đổi $5$ yến ra ki-lô-gam rồi cộng.
 
 ::solution
-$2$ tạ $=200$ kg và $5$ yến $=50$ kg. Vậy $2$ tạ $5$ yến $=200+50=250$ kg.
+Ta có $1$ tạ $=100$ kg nên $2$ tạ $=2\times100=200$ kg.
+
+Ta có $1$ yến $=10$ kg nên $5$ yến $=5\times10=50$ kg.
+
+Do đó
+$$2\ \text{tạ}\ 5\ \text{yến}=200+50=250\ \text{(kg)}.$$
+
+Vậy $2$ tạ $5$ yến $=250$ kg.
 
 **Đáp số.** $250$ kg.
 :::
@@ -237,7 +250,15 @@ Tính: $3$ tấn $4$ tạ $+2$ tấn $9$ tạ.
 2. Đổi $10$ tạ trở lên thành tấn.
 
 ::solution
-$3$ tấn $4$ tạ $+2$ tấn $9$ tạ $=5$ tấn $13$ tạ. Vì $13$ tạ $=1$ tấn $3$ tạ nên kết quả là $6$ tấn $3$ tạ.
+Cộng riêng số tấn với số tấn, số tạ với số tạ:
+$$3\ \text{tấn}+2\ \text{tấn}=5\ \text{tấn},\qquad 4\ \text{tạ}+9\ \text{tạ}=13\ \text{tạ}.$$
+
+Do đó $3$ tấn $4$ tạ $+2$ tấn $9$ tạ $=5$ tấn $13$ tạ.
+
+Vì $1$ tấn $=10$ tạ nên $13$ tạ $=1$ tấn $3$ tạ. Suy ra
+$$5\ \text{tấn}\ 13\ \text{tạ}=5\ \text{tấn}+1\ \text{tấn}\ 3\ \text{tạ}=6\ \text{tấn}\ 3\ \text{tạ}.$$
+
+Vậy $3$ tấn $4$ tạ $+2$ tấn $9$ tạ $=6$ tấn $3$ tạ.
 
 **Đáp số.** $6$ tấn $3$ tạ.
 :::
@@ -253,7 +274,15 @@ Tính: $5$ tấn $-2$ tấn $7$ tạ.
 2. Đổi $2$ tấn $7$ tạ ra tạ rồi trừ.
 
 ::solution
-$5$ tấn $=50$ tạ và $2$ tấn $7$ tạ $=27$ tạ. Ta có $50-27=23$ tạ, tức là $2$ tấn $3$ tạ.
+Vì $1$ tấn $=10$ tạ nên ta đổi cả hai số ra tạ:
+$$5\ \text{tấn}=50\ \text{tạ},\qquad 2\ \text{tấn}\ 7\ \text{tạ}=20+7=27\ \text{tạ}.$$
+
+Ta có
+$$50-27=23\ \text{(tạ)}.$$
+
+Vì $23$ tạ $=20$ tạ $+3$ tạ $=2$ tấn $3$ tạ nên kết quả là $2$ tấn $3$ tạ.
+
+Vậy $5$ tấn $-2$ tấn $7$ tạ $=2$ tấn $3$ tạ.
 
 **Đáp số.** $2$ tấn $3$ tạ.
 :::
@@ -272,10 +301,16 @@ Một xe tải (số liệu giả định) chở $4$ tấn hàng, đã dỡ xu�
 ::solution
 Bài giải
 
-Số hàng ban đầu là $4$ tấn $=4\,000$ kg. Số hàng đã dỡ là $2$ tấn $5$ tạ $=2\,500$ kg.
+Số hàng ban đầu trên xe là:
+$$4\ \text{tấn}=4\,000\ \text{(kg)}.$$
 
-Số hàng còn lại là:
+Số hàng đã dỡ xuống là:
+$$2\ \text{tấn}\ 5\ \text{tạ}=2\,000+500=2\,500\ \text{(kg)}.$$
+
+Số hàng còn lại trên xe là:
 $$4\,000-2\,500=1\,500\ \text{(kg)}.$$
+
+Vậy trên xe còn lại $1\,500$ kg hàng.
 
 **Đáp số.** $1\,500$ kg hàng.
 :::
@@ -291,7 +326,17 @@ $$4\,000-2\,500=1\,500\ \text{(kg)}.$$
 2. Chia $255$ cho $60$, ghi thương và số dư.
 
 ::solution
-$3$ phút $20$ giây $=3\times60+20=200$ giây. Ta có $255:60=4$ (dư $15$), nên $255$ giây $=4$ phút $15$ giây.
+Ta có $1$ phút $=60$ giây nên
+$$3\ \text{phút}\ 20\ \text{giây}=3\times60+20=180+20=200\ \text{(giây)}.$$
+
+Để đổi $255$ giây ra phút, giây, ta chia $255$ cho $60$:
+$$255:60=4\ \text{(dư}\ 15\text{)}.$$
+
+Thương $4$ là số phút, số dư $15$ là số giây, nên $255$ giây $=4$ phút $15$ giây.
+
+Kiểm tra: $4\times60+15=255$. Đúng.
+
+Vậy $3$ phút $20$ giây $=200$ giây và $255$ giây $=4$ phút $15$ giây.
 
 **Đáp số.** $200$ giây và $4$ phút $15$ giây.
 :::
@@ -307,7 +352,15 @@ Năm $1010$ và năm $1945$ thuộc thế kỉ nào? Thế kỉ XXI gồm các n
 2. Thế kỉ $21$ bắt đầu sau khi thế kỉ $20$ kết thúc ở năm $2000$.
 
 ::solution
-$1010:100=10$ (dư $10$), nên năm $1010$ thuộc thế kỉ $11$, tức thế kỉ XI. $1945:100=19$ (dư $45$), nên năm $1945$ thuộc thế kỉ $20$, tức thế kỉ XX. Thế kỉ XX kết thúc ở năm $2000$ nên thế kỉ XXI gồm các năm từ $2001$ đến $2100$.
+Mỗi thế kỉ có $100$ năm. Để biết một năm thuộc thế kỉ nào, ta chia số năm cho $100$; nếu còn dư thì thế kỉ là thương cộng thêm $1$.
+
+Ta có $1010:100=10$ (dư $10$), nên năm $1010$ thuộc thế kỉ $10+1=11$, tức là thế kỉ XI.
+
+Ta có $1945:100=19$ (dư $45$), nên năm $1945$ thuộc thế kỉ $19+1=20$, tức là thế kỉ XX.
+
+Thế kỉ XX kết thúc ở năm $2000$, nên thế kỉ XXI bắt đầu từ năm $2001$ và kéo dài $100$ năm, tức là kết thúc ở năm $2100$.
+
+Vậy năm $1010$ thuộc thế kỉ XI, năm $1945$ thuộc thế kỉ XX, và thế kỉ XXI gồm các năm từ $2001$ đến $2100$.
 
 **Đáp số.** Thế kỉ XI; thế kỉ XX; từ năm $2001$ đến năm $2100$.
 :::
@@ -326,12 +379,16 @@ Em hãy nhớ lại bài giải bài toán có ba bước tính. Một kho (số
 ::solution
 Bài giải
 
-Số thức ăn dùng trong $10$ ngày là $4\times10=40$ yến $=400$ kg.
+Số thức ăn kho dùng trong $10$ ngày là:
+$$4\times10=40\ \text{(yến)}=400\ \text{(kg)}.$$
 
-Số thức ăn còn lại là:
+Số thức ăn ban đầu của kho là $2$ tấn $=2\,000$ kg. Số thức ăn còn lại sau $10$ ngày là:
 $$2\,000-400=1\,600\ \text{(kg)}.$$
-Số thức ăn lúc này là:
+
+Số thức ăn của kho lúc này (sau khi nhập thêm $3$ tạ $=300$ kg) là:
 $$1\,600+300=1\,900\ \text{(kg)}.$$
+
+Vậy lúc này kho có $1\,900$ kg thức ăn.
 
 **Đáp số.** $1\,900$ kg thức ăn.
 :::
@@ -366,7 +423,22 @@ Một xe tải chở được nhiều nhất $5$ tấn hàng. Xe đã chở $28$
 3. Chia cho khối lượng một bao ngô.
 
 ::solution
-Một bao gạo nặng $1$ tạ $5$ yến $=150$ kg. Khối lượng $28$ bao gạo là $28\times150=4\,200$ kg. Xe còn chở thêm được $5\,000-4\,200=800$ kg. Một bao ngô nặng $5$ yến $=50$ kg, nên số bao ngô là $800:50=16$.
+Bài giải
+
+Một bao gạo nặng $1$ tạ $5$ yến $=100+50=150$ kg.
+
+Khối lượng $28$ bao gạo là:
+$$28\times150=4\,200\ \text{(kg)}.$$
+
+Xe chở được nhiều nhất $5$ tấn $=5\,000$ kg, nên khối lượng hàng xe còn chở thêm được nhiều nhất là:
+$$5\,000-4\,200=800\ \text{(kg)}.$$
+
+Một bao ngô nặng $5$ yến $=50$ kg, nên số bao ngô xe chở thêm được nhiều nhất là:
+$$800:50=16\ \text{(bao)}.$$
+
+Kiểm tra: $16\times50=800$ kg. Đúng.
+
+Vậy xe còn chở thêm được nhiều nhất $16$ bao ngô.
 
 **Đáp số.** $16$ bao ngô.
 :::

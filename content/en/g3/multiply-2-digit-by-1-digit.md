@@ -123,7 +123,17 @@ Work out $21\times4$.
 2. Work out $2\times4$ for the tens.
 
 ::solution
-$1\times4=4$; $2\times4=8$. So $21\times4=84$.
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
+
+Ones: $1\times4=4$, write $4$.
+
+Tens: $2\times4=8$, write $8$.
+
+We get $21\times4=84$.
+
+Check: $84\div4=21$. Correct.
+
+So $21\times4=84$.
 
 **Answer.** $84$.
 :::
@@ -139,7 +149,17 @@ Work out $13\times3$.
 2. Put the results together.
 
 ::solution
-$3\times3=9$; $1\times3=3$. So $13\times3=39$.
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
+
+Ones: $3\times3=9$, write $9$.
+
+Tens: $1\times3=3$, write $3$.
+
+We get $13\times3=39$.
+
+Check: $39\div3=13$. Correct.
+
+So $13\times3=39$.
 
 **Answer.** $39$.
 :::
@@ -155,7 +175,17 @@ Work out $18\times4$.
 2. Work out $1\times4$ and add the carry.
 
 ::solution
-$8\times4=32$, write $2$ and carry $3$. $1\times4=4$, and adding $3$ gives $7$. So $18\times4=72$.
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
+
+Ones: $8\times4=32$, write $2$ and carry $3$.
+
+Tens: $1\times4=4$, add $3$ to make $7$, write $7$.
+
+We get $18\times4=72$.
+
+Check: $72\div4=18$. Correct.
+
+So $18\times4=72$.
 
 **Answer.** $72$.
 :::
@@ -171,7 +201,17 @@ Work out $25\times3$.
 2. Work out $2\times3$ and add the carry.
 
 ::solution
-$5\times3=15$, write $5$ and carry $1$. $2\times3=6$, and adding $1$ gives $7$. So $25\times3=75$.
+Set out the multiplication in columns and multiply digit by digit, starting with the ones.
+
+Ones: $5\times3=15$, write $5$ and carry $1$.
+
+Tens: $2\times3=6$, add $1$ to make $7$, write $7$.
+
+We get $25\times3=75$.
+
+Check: $75\div3=25$. Correct.
+
+So $25\times3=75$.
 
 **Answer.** $75$.
 :::
@@ -187,7 +227,17 @@ Write $>$, $<$ or $=$ in the box: $14\times5 \;\square\; 70$.
 2. Compare the result with $70$.
 
 ::solution
-$4\times5=20$, write $0$ and carry $2$. $1\times5=5$, and adding $2$ gives $7$. So $14\times5=70$.
+To compare, we work out $14\times5$ first and then compare the result with $70$.
+
+Ones: $4\times5=20$, write $0$ and carry $2$.
+
+Tens: $1\times5=5$, add $2$ to make $7$, write $7$.
+
+We get $14\times5=70$.
+
+Since $70=70$, we have $14\times5=70$.
+
+So the sign to write is $=$.
 
 **Answer.** The sign $=$.
 :::
@@ -203,8 +253,16 @@ Each bag has $23$ marbles. How many marbles are in $4$ such bags?
 2. Work out $23\times4$ and write the answer with its unit.
 
 ::solution
+Solution
+
+Each bag has $23$ marbles and there are $4$ such bags, so we multiply the number of marbles in one bag by the number of bags.
+
 The number of marbles altogether is:
-$$23\times4=92\ \text{(marbles)}.$$
+$$23\times4=92\ \text{(marbles)}$$
+
+Check: $92\div4=23$. Correct.
+
+So $4$ bags have $92$ marbles altogether.
 
 **Answer.** $92$ marbles.
 :::
@@ -220,8 +278,16 @@ Remember the last lesson: a cuboid is built from small cubes in $4$ layers with 
 2. Work out $12\times4$.
 
 ::solution
-The number of small cubes is:
-$$12\times4=48\ \text{(cubes)}.$$
+Solution
+
+The cuboid has $4$ layers with $12$ small cubes in each layer, so we multiply the number of cubes in one layer by the number of layers.
+
+The number of small cubes altogether is:
+$$12\times4=48\ \text{(cubes)}$$
+
+Check: $48\div4=12$. Correct.
+
+So there are $48$ small cubes altogether.
 
 **Answer.** $48$ cubes.
 :::
@@ -237,9 +303,14 @@ Find the missing number: $\square\times4=52$.
 2. Check with multiplication.
 
 ::solution
-The missing number is $52\div4=13$.
+In the multiplication $\square\times4=52$, $\square$ is the missing factor. To find a missing factor, we divide the product by the known factor.
 
-**Check.** $13\times4=52$. Correct.
+We have
+$$\square=52\div4=13.$$
+
+Check: $13\times4=52$. Correct.
+
+So the missing number is $13$.
 
 **Answer.** $13$.
 :::

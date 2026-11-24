@@ -164,6 +164,12 @@ Em ghi lại các con vật các bạn thích: mèo, chó, mèo, cá, chó, mèo
 3. Cộng lại để kiểm tra.
 
 ::solution
+Em đọc lần lượt từng con vật trong danh sách rồi vẽ một vạch kiểm đếm vào hàng của con vật đó. Mỗi lần gặp một con vật thì thêm một vạch.
+
+Danh sách các con vật theo thứ tự là: mèo, chó, mèo, cá, chó, mèo, mèo, cá.
+
+Đếm từng loại: mèo xuất hiện $4$ lần (ở vị trí thứ $1$, $3$, $6$, $7$); chó xuất hiện $2$ lần (ở vị trí thứ $2$, $5$); cá xuất hiện $2$ lần (ở vị trí thứ $4$, $8$). Ta có bảng số liệu:
+
 | Con vật | Vạch kiểm đếm | Số bạn |
 |---|---|---|
 | Mèo | //// | $4$ |
@@ -171,6 +177,8 @@ Em ghi lại các con vật các bạn thích: mèo, chó, mèo, cá, chó, mèo
 | Cá | // | $2$ |
 
 Kiểm tra: $4+2+2=8$, bằng số bạn đã ghi.
+
+Vậy trong bảng, mèo có $4$ bạn thích, chó có $2$ bạn thích và cá có $2$ bạn thích.
 
 **Đáp số.** Mèo $4$, chó $2$, cá $2$.
 :::
@@ -193,9 +201,16 @@ b) Lớp 3B có bao nhiêu bạn?
 2. Cộng bốn số.
 
 ::solution
-a) Số lớn nhất là $11$ (xe đạp), số nhỏ nhất là $5$ (xe buýt).
+a) Đọc bảng, số bạn đi học bằng mỗi cách là $7$, $11$, $5$ và $9$. So sánh bốn số này, ta có $5<7<9<11$.
 
-b) $7+11+5+9=32$ (bạn).
+Số lớn nhất là $11$, ứng với xe đạp. Số nhỏ nhất là $5$, ứng với xe buýt.
+
+Vậy xe đạp có nhiều bạn nhất, xe buýt có ít bạn nhất.
+
+b) Số bạn của lớp 3B là tổng số bạn của cả bốn cách đi. Cộng lần lượt từng số:
+$$7+11=18;\quad 18+5=23;\quad 23+9=32.$$
+
+Vậy lớp 3B có $32$ bạn.
 
 **Đáp số.** a) Xe đạp nhiều nhất, xe buýt ít nhất. b) $32$ bạn.
 :::
@@ -215,9 +230,18 @@ Lớp có $28$ bạn, mỗi bạn chọn một câu lạc bộ. Bảng còn thi�
 2. Lấy $28$ trừ đi kết quả.
 
 ::solution
-$11+8=19$. Số bạn chọn vẽ là $28-19=9$ (bạn).
+Bài giải
 
-**Kiểm tra.** $11+8+9=28$.
+Cả lớp có $28$ bạn và mỗi bạn chọn đúng một câu lạc bộ, nên tổng số bạn của ba câu lạc bộ là $28$.
+
+Số bạn chọn hát và múa là:
+$$11+8=19\ \text{(bạn)}.$$
+Số bạn chọn vẽ là:
+$$28-19=9\ \text{(bạn)}.$$
+
+Kiểm tra: $11+8+9=28$, bằng số bạn của lớp.
+
+Vậy có $9$ bạn chọn vẽ.
 
 **Đáp số.** $9$ bạn.
 :::
@@ -240,9 +264,17 @@ b) Ngày nhiều nhất hơn ngày ít nhất bao nhiêu quả?
 2. Tìm số lớn nhất và nhỏ nhất rồi trừ.
 
 ::solution
-a) $24+30=54$; $54+27=81$; $81+21=102$ (quả).
+a) Số quả trứng thu được trong cả bốn ngày là tổng của bốn số trong bảng. Cộng lần lượt từng số:
+$$24+30=54;\quad 54+27=81;\quad 81+21=102.$$
 
-b) Số lớn nhất là $30$, số nhỏ nhất là $21$. Ta có $30-21=9$ (quả).
+Vậy cả bốn ngày thu được $102$ quả trứng.
+
+b) So sánh bốn số $24$, $30$, $27$, $21$: số lớn nhất là $30$ (thứ Ba), số nhỏ nhất là $21$ (thứ Năm).
+
+Ngày nhiều nhất hơn ngày ít nhất số quả trứng là:
+$$30-21=9\ \text{(quả)}.$$
+
+Vậy ngày nhiều nhất hơn ngày ít nhất $9$ quả trứng.
 
 **Đáp số.** a) $102$ quả. b) $9$ quả.
 :::
@@ -264,7 +296,15 @@ Bình nói: "Lớp mình có $30$ bạn, mỗi bạn chọn một loại kem". B
 2. Cộng ba số rồi so với $30$.
 
 ::solution
-$8+12+6=26$. Vì $26\ne30$ nên chưa đủ $30$ bạn.
+Nếu lớp có $30$ bạn và mỗi bạn chọn một loại kem thì tổng số bạn trong bảng phải bằng $30$.
+
+Tổng số bạn trong bảng là:
+$$8+12+6=26\ \text{(bạn)}.$$
+
+Vì $26\neq30$ nên bảng chưa đủ $30$ bạn. Số bạn còn thiếu là:
+$$30-26=4\ \text{(bạn)}.$$
+
+Vậy Bình nói chưa đúng, vì bảng mới có $26$ bạn, còn thiếu $4$ bạn.
 
 **Đáp số.** Bình nói chưa đúng: bảng mới có $26$ bạn, còn thiếu $4$ bạn.
 :::
@@ -280,7 +320,18 @@ Lan hỏi $9$ bạn chọn màu: xanh, đỏ, xanh, vàng, đỏ, xanh, vàng, x
 2. Đếm lại từng màu trong dãy.
 
 ::solution
-$5+3+2=10$, mà Lan chỉ hỏi $9$ bạn nên bảng sai. Đếm lại: xanh có $4$ (bạn thứ $1$, $3$, $6$, $8$), đỏ có $3$, vàng có $2$. Ta có $4+3+2=9$.
+Lan hỏi $9$ bạn, nên tổng số trong bảng phải bằng $9$. Bảng của Lan có tổng là:
+$$5+3+2=10.$$
+
+Vì $10\neq9$ nên bảng của Lan sai.
+
+Đếm lại theo dãy câu trả lời: xanh, đỏ, xanh, vàng, đỏ, xanh, vàng, xanh, đỏ.
+
+Màu xanh có ở bạn thứ $1$, $3$, $6$, $8$, tức là $4$ bạn. Màu đỏ có ở bạn thứ $2$, $5$, $9$, tức là $3$ bạn. Màu vàng có ở bạn thứ $4$, $7$, tức là $2$ bạn.
+
+Kiểm tra: $4+3+2=9$, bằng số bạn Lan đã hỏi.
+
+Vậy Lan đã đếm thừa một bạn chọn màu xanh. Bảng đúng là: xanh $4$, đỏ $3$, vàng $2$.
 
 **Đáp số.** Lan đếm thừa một bạn xanh; đúng là xanh $4$, đỏ $3$, vàng $2$.
 :::
@@ -299,15 +350,21 @@ b) Một cửa hàng bán $12\,640$ quyển vở trong $4$ tuần, mỗi tuần 
 2. Mỗi tuần bán cùng một số quyển.
 
 ::solution
-a) $12\,640:4=3\,160$.
+a) Ta chia $12\,640$ cho $4$ lần lượt từ trái sang phải.
 
-b)
+Lấy $12$ chia $4$ được $3$, dư $0$. Hạ $6$ được $6$; $6:4=1$, dư $2$. Hạ $4$ được $24$; $24:4=6$, dư $0$. Hạ $0$ được $0$; $0:4=0$, dư $0$.
+
+Vậy $12\,640:4=3\,160$.
+
+b) Cửa hàng bán $12\,640$ quyển vở trong $4$ tuần, mỗi tuần bán số quyển như nhau, nên số quyển vở mỗi tuần là $12\,640:4=3\,160$ (quyển). Ta ghi vào bảng:
 
 | Tuần | Một | Hai | Ba | Bốn |
 |---|---|---|---|---|
 | Số quyển vở | $3\,160$ | $3\,160$ | $3\,160$ | $3\,160$ |
 
-**Kiểm tra.** $3\,160\times4=12\,640$.
+Kiểm tra: $3\,160\times4=12\,640$.
+
+Vậy mỗi tuần cửa hàng bán $3\,160$ quyển vở.
 
 **Đáp số.** a) $3\,160$. b) Mỗi tuần $3\,160$ quyển vở.
 :::
@@ -323,9 +380,18 @@ Lớp có $36$ bạn, mỗi bạn chọn một trong ba môn: bóng đá, cầu 
 2. Lấy $36$ trừ số bạn chọn bóng đá và cầu lông.
 
 ::solution
-Cầu lông: $15-5=10$ (bạn). Bóng đá và cầu lông: $15+10=25$ (bạn). Bơi: $36-25=11$ (bạn).
+Bài giải
 
-**Kiểm tra.** $15+10+11=36$.
+Số bạn chọn cầu lông là:
+$$15-5=10\ \text{(bạn)}.$$
+Số bạn chọn bóng đá và cầu lông là:
+$$15+10=25\ \text{(bạn)}.$$
+Số bạn chọn bơi là:
+$$36-25=11\ \text{(bạn)}.$$
+
+Kiểm tra: $15+10+11=36$, bằng số bạn của lớp.
+
+Vậy có $11$ bạn chọn bơi.
 
 **Đáp số.** $11$ bạn.
 :::

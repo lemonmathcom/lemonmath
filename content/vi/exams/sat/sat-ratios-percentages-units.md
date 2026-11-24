@@ -121,7 +121,19 @@ Một số tiền 150 đô la được chia cho hai người theo tỉ số $3:7
 2. Nhân với $7$.
 
 ::solution
-Một phần là $15$ đô la, nên phần lớn hơn là $7\cdot15=105$ đô la.
+Gọi hai phần tiền lần lượt là $3k$ đô la và $7k$ đô la, với $k>0$ (đô la mỗi phần), vì số tiền được chia theo tỉ số $3:7$.
+
+Tổng số tiền là $150$ đô la, nên
+$$3k+7k=150\iff10k=150\iff k=15.$$
+
+Như vậy một phần là $15$ đô la. Người nhận phần lớn hơn nhận $7$ phần, tức là
+$$7\cdot15=105\ \text{(đô la)}.$$
+
+Kiểm tra: phần nhỏ hơn là $3\cdot15=45$ đô la và $45+105=150$ đô la (đúng với đề bài).
+
+Vậy người nhận phần lớn hơn được $105$ đô la.
+
+**Đáp số.** $105$ đô la.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -134,7 +146,16 @@ Linh gõ phím với tốc độ 45 từ mỗi phút. Linh cần bao nhiêu phú
 1. Chia $1.800$ cho $45$.
 
 ::solution
-$1.800:45=40$ phút.
+Gọi $t$ (phút) là thời gian Linh cần để gõ xong bài luận ($t>0$).
+
+Linh gõ $45$ từ mỗi phút và bài luận dài $1.800$ từ, nên thời gian gõ bằng tổng số từ chia cho tốc độ gõ:
+$$t=\frac{1.800}{45}=40.$$
+
+Kiểm tra: $45\cdot40=1.800$ từ (đúng).
+
+Vậy Linh cần $40$ phút để gõ xong bài luận.
+
+**Đáp số.** $40$ phút.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -147,7 +168,14 @@ Một inch bằng 2,54 xăng-ti-mét. Đường chéo màn hình 30 inch dài ba
 1. $30\cdot2{,}54$.
 
 ::solution
-$30\cdot2{,}54=76{,}2$ xăng-ti-mét.
+Một inch bằng $2{,}54$ xăng-ti-mét, nên độ dài tính theo xăng-ti-mét bằng số inch nhân với $2{,}54$.
+
+Đường chéo màn hình dài $30$ inch, do đó
+$$30\cdot2{,}54=76{,}2\ \text{(xăng-ti-mét)}.$$
+
+Vậy đường chéo màn hình dài $76{,}2$ xăng-ti-mét.
+
+**Đáp số.** $76{,}2$ xăng-ti-mét.
 :::
 
 :::exercise Trắc nghiệm
@@ -165,7 +193,17 @@ D. $80\%$
 2. Chia cho $250$.
 
 ::solution
-$\dfrac{50}{250}=0{,}2$, tức giảm $20\%$: đáp án **A**. Phương án B chia cho $200$; phương án D là tỉ số $\dfrac{200}{250}$.
+Số khách giảm từ $250$ người xuống $200$ người, nên số khách đã giảm là
+$$250-200=50\ \text{(người)}.$$
+
+Phần trăm giảm được tính so với số khách ban đầu (thứ Hai), tức là $250$ người:
+$$\frac{50}{250}=0{,}2=20\%.$$
+
+Vậy số khách đã giảm $20\%$, nên chọn **A**.
+
+*Nhận xét.* Phương án B chia cho $200$ (số khách lúc sau) thay vì chia cho số khách ban đầu; phương án D là tỉ số $\dfrac{200}{250}$, tức là phần trăm số khách còn lại chứ không phải phần trăm giảm.
+
+**Đáp số.** A.
 :::
 
 :::exercise Câu tự điền đáp số
@@ -179,7 +217,19 @@ Tổng số tiền 54 đô la đã gồm thuế bán hàng 8%. Giá trước thu
 2. Chia.
 
 ::solution
-$P=\dfrac{54}{1{,}08}=50$ đô la. Kiểm tra: $50+4=54$.
+Gọi $P$ (đô la) là giá trước thuế ($P>0$).
+
+Thuế bán hàng là $8\%$ của $P$, nên tổng số tiền phải trả là
+$$P+0{,}08P=1{,}08P.$$
+
+Tổng số tiền là $54$ đô la, nên $1{,}08P=54$. Suy ra
+$$P=\frac{54}{1{,}08}=50.$$
+
+Kiểm tra: thuế là $8\%\cdot50=4$ đô la và $50+4=54$ đô la (đúng).
+
+Vậy giá trước thuế là $50$ đô la.
+
+**Đáp số.** $50$ đô la.
 :::
 
 ## Bài tập vận dụng
@@ -195,7 +245,15 @@ Khối lượng riêng của vàng là 19,3 gam trên mỗi xăng-ti-mét khối
 2. Nhân với $19{,}3$.
 
 ::solution
-Thể tích là $2\cdot3\cdot5=30$ xăng-ti-mét khối, nên khối lượng là $30\cdot19{,}3=579$ gam.
+Khối vàng có dạng hình hộp chữ nhật nên thể tích bằng tích ba kích thước:
+$$V=2\cdot3\cdot5=30\ \text{(xăng-ti-mét khối)}.$$
+
+Khối lượng bằng khối lượng riêng nhân với thể tích. Khối lượng riêng của vàng là $19{,}3$ gam trên mỗi xăng-ti-mét khối, nên
+$$m=30\cdot19{,}3=579\ \text{(gam)}.$$
+
+Vậy khối vàng có khối lượng $579$ gam.
+
+**Đáp số.** $579$ gam.
 :::
 
 :::exercise Nhiên liệu cho chuyến đi
@@ -209,7 +267,17 @@ Một ô tô tiêu thụ 6,5 lít nhiên liệu cho mỗi 100 ki-lô-mét. Nhiê
 2. Nhân với $1{,}2$.
 
 ::solution
-Ô tô dùng $340\cdot0{,}065=22{,}1$ lít, hết $22{,}1\cdot1{,}2=26{,}52$ đô la.
+Ô tô tiêu thụ $6{,}5$ lít nhiên liệu cho mỗi $100$ ki-lô-mét, tức là $\dfrac{6{,}5}{100}=0{,}065$ lít cho mỗi ki-lô-mét.
+
+Với chuyến đi dài $340$ ki-lô-mét, lượng nhiên liệu tiêu thụ là
+$$340\cdot0{,}065=22{,}1\ \text{(lít)}.$$
+
+Nhiên liệu giá $1{,}2$ đô la mỗi lít, nên số tiền nhiên liệu là
+$$22{,}1\cdot1{,}2=26{,}52\ \text{(đô la)}.$$
+
+Vậy chuyến đi dài $340$ ki-lô-mét tốn $26{,}52$ đô la tiền nhiên liệu.
+
+**Đáp số.** $26{,}52$ đô la.
 :::
 
 :::exercise Lên rồi xuống
@@ -223,7 +291,20 @@ Dân số một thị trấn tăng 25% trong một thập kỉ rồi giảm 20% 
 2. So sánh với $1$.
 
 ::solution
-$1{,}25\cdot0{,}8=1$: dân số trở về đúng như ban đầu, thay đổi $0\%$. Ví dụ, $1.000\to1.250\to1.000$.
+Gọi $N$ là dân số ban đầu của thị trấn ($N>0$).
+
+Sau thập kỉ đầu tiên, dân số tăng $25\%$ nên bằng $N\cdot1{,}25$.
+
+Sau thập kỉ tiếp theo, dân số giảm $20\%$ nên còn $80\%$ của dân số lúc đó:
+$$N\cdot1{,}25\cdot0{,}8=N\cdot1=N.$$
+
+Như vậy dân số sau hai thập kỉ đúng bằng dân số ban đầu, tức là thay đổi $0\%$.
+
+Kiểm tra bằng ví dụ: $1.000\to1.000\cdot1{,}25=1.250\to1.250\cdot0{,}8=1.000$.
+
+Vậy sau hai thập kỉ, dân số thay đổi $0\%$.
+
+**Đáp số.** $0\%$.
 :::
 
 :::exercise Thử thách
@@ -237,7 +318,21 @@ Một thùng chứa 40 lít dung dịch nước muối có nồng độ muối 3
 2. Giải $\dfrac{12}{40+w}=0{,}2$.
 
 ::solution
-$12=0{,}2(40+w)\iff 60=40+w\iff w=20$. Thêm 20 lít nước: dung dịch mới có 12 lít muối trong 60 lít, tức 20%.
+Gọi $w$ (lít) là lượng nước tinh khiết cần thêm ($w>0$).
+
+Lượng muối trong $40$ lít dung dịch $30\%$ là
+$$0{,}3\cdot40=12\ \text{(lít)}.$$
+
+Thêm nước tinh khiết thì lượng muối không đổi (vẫn là $12$ lít), còn thể tích dung dịch mới là $40+w$ (lít). Nồng độ muối mới là $20\%$ nên
+$$\begin{aligned}12&=0{,}2(40+w)\\60&=40+w\\w&=20.\end{aligned}$$
+
+Giá trị $w=20>0$ thoả mãn điều kiện.
+
+Kiểm tra: dung dịch mới có $12$ lít muối trong $40+20=60$ lít, và $\dfrac{12}{60}=0{,}2=20\%$ (đúng).
+
+Vậy phải thêm $20$ lít nước tinh khiết.
+
+**Đáp số.** $20$ lít.
 :::
 
 :::quiz

@@ -1,18 +1,18 @@
 ĐỢT 3 – BẢNG THEO DÕI (tích [x] khi file đó đã nộp vào "viec da lam")
 Thứ tự làm: MD (mức độ) -> LG (lời giải) -> GV (giọng văn) -> KD (kho đề). Tên chat = tên file.
 
-Kinangtoan        [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Alexnguyen122222  [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-thichgiaitoan     [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Lemonmath.com     [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Vinax.vn          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Nguyenchanh2358   [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Vinax258          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Vimus2358         [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Lemonmath112      [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-hanibi108         [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-Xedap102          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-chanh106          [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-thaodebao1        [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-nguoibuonthinh    [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
-huongamuong1      [x] MD-1  [x] MD-2  [ ] LG-1  [ ] LG-2  [ ] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Kinangtoan        [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Alexnguyen122222  [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+thichgiaitoan     [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Lemonmath.com     [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Vinax.vn          [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Nguyenchanh2358   [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Vinax258          [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [ ] LG-4  [ ] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Vimus2358         [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Lemonmath112      [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+hanibi108         [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [ ] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+Xedap102          [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+chanh106          [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+thaodebao1        [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+nguoibuonthinh    [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1
+huongamuong1      [x] MD-1  [x] MD-2  [x] LG-1  [x] LG-2  [x] LG-3  [x] LG-4  [x] LG-5  [ ] GV-1  [ ] GV-2  [ ] GV-3  [ ] GV-4  [ ] KD-1

@@ -145,11 +145,19 @@ c) $\square\times9=81$.
 2. Divide the product by the known factor, then check.
 
 ::solution
-a) $\square=18\div3=6$. Check: $6\times3=18$.
+a) In the multiplication $\square\times3=18$, $\square$ is the missing factor. To find a missing factor, we divide the product by the known factor:
+$$\square=18\div3=6.$$
+Check: $6\times3=18$. Correct.
 
-b) $\square=32\div4=8$. Check: $4\times8=32$.
+b) In the multiplication $4\times\square=32$, $\square$ is the missing factor. We divide the product by the known factor:
+$$\square=32\div4=8.$$
+Check: $4\times8=32$. Correct.
 
-c) $\square=81\div9=9$. Check: $9\times9=81$.
+c) In the multiplication $\square\times9=81$, $\square$ is the missing factor. We divide the product by the known factor:
+$$\square=81\div9=9.$$
+Check: $9\times9=81$. Correct.
+
+So the missing numbers are $6$, $8$ and $9$ respectively.
 
 **Answer.** a) $6$; b) $8$; c) $9$.
 :::
@@ -171,11 +179,21 @@ c) $\square\div9=7$.
 2. Multiply them, then check.
 
 ::solution
-a) $\square=6\times5=30$. Check: $30\div5=6$.
+In each division, $\square$ is the dividend. To find the dividend, we multiply the quotient by the divisor.
 
-b) $\square=4\times8=32$. Check: $32\div8=4$.
+a) We have $\square\div5=6$, so
+$$\square=6\times5=30.$$
+Check: $30\div5=6$. Correct.
 
-c) $\square=7\times9=63$. Check: $63\div9=7$.
+b) We have $\square\div8=4$, so
+$$\square=4\times8=32.$$
+Check: $32\div8=4$. Correct.
+
+c) We have $\square\div9=7$, so
+$$\square=7\times9=63.$$
+Check: $63\div9=7$. Correct.
+
+So the missing dividends are $30$, $32$ and $63$ respectively.
 
 **Answer.** a) $30$; b) $32$; c) $63$.
 :::
@@ -191,7 +209,16 @@ Remember the $9$ times table. Work out $9\times6$. Then find $\square$ when $\sq
 2. Compare with $\square\times9=54$.
 
 ::solution
-$9\times6=60-6=54$. From $\square\times9=54$ we get $\square=54\div9=6$.
+Work out $9\times6$: we have $9\times6=10\times6-6=60-6=54$.
+
+In the multiplication $\square\times9=54$, $\square$ is the missing factor. To find a missing factor, we divide the product by the known factor:
+$$\square=54\div9=6.$$
+
+Check: $6\times9=54$. Correct.
+
+From $9\times6=54$ we also get $54\div9=6$.
+
+So $9\times6=54$; $\square=6$ and $54\div9=6$.
 
 **Answer.** $9\times6=54$; $\square=6$ and $54\div9=6$.
 :::
@@ -213,11 +240,21 @@ c) $90\div\square=9$.
 2. Divide the dividend by the quotient, then check.
 
 ::solution
-a) $\square=24\div3=8$. Check: $24\div8=3$.
+In each division, $\square$ is the divisor. To find the divisor, we divide the dividend by the quotient.
 
-b) $\square=56\div7=8$. Check: $56\div8=7$.
+a) We have $24\div\square=3$, so
+$$\square=24\div3=8.$$
+Check: $24\div8=3$. Correct.
 
-c) $\square=90\div9=10$. Check: $90\div10=9$.
+b) We have $56\div\square=7$, so
+$$\square=56\div7=8.$$
+Check: $56\div8=7$. Correct.
+
+c) We have $90\div\square=9$, so
+$$\square=90\div9=10.$$
+Check: $90\div10=9$. Correct.
+
+So the missing divisors are $8$, $8$ and $10$ respectively.
 
 **Answer.** a) $8$; b) $8$; c) $10$.
 :::
@@ -239,11 +276,19 @@ c) $48\div\square=6$.
 2. Use the matching rule.
 
 ::solution
-a) $\square$ is a factor: product divided by factor, $\square=48\div6=8$.
+a) In the multiplication $\square\times6=48$, $\square$ is a missing factor. We divide, because to find a missing factor we divide the product by the known factor:
+$$\square=48\div6=8.$$
+Check: $8\times6=48$. Correct.
 
-b) $\square$ is the dividend: quotient times divisor, $\square=8\times6=48$.
+b) In the division $\square\div6=8$, $\square$ is the dividend. We multiply, because to find the dividend we multiply the quotient by the divisor:
+$$\square=8\times6=48.$$
+Check: $48\div6=8$. Correct.
 
-c) $\square$ is the divisor: dividend divided by quotient, $\square=48\div6=8$.
+c) In the division $48\div\square=6$, $\square$ is the divisor. We divide, because to find the divisor we divide the dividend by the quotient:
+$$\square=48\div6=8.$$
+Check: $48\div8=6$. Correct.
+
+So we divide in a) and c), and multiply in b); we get $\square=8$; $\square=48$; $\square=8$.
 
 **Answer.** a) $8$; b) $48$; c) $8$.
 :::
@@ -259,9 +304,16 @@ Lan solved $36\div\square=4$ like this: "$\square=36\times4=144$". Where did Lan
 2. Check Lan's answer: does $36\div144$ equal $4$?
 
 ::solution
-Lan multiplied, but $\square$ is the divisor, so we divide the dividend by the quotient: $\square=36\div4=9$.
+In the division $36\div\square=4$, $\square$ is the divisor. To find the divisor, we divide the dividend by the quotient.
 
-**Check.** $36\div9=4$. Correct.
+Lan went wrong by working out $36\times4$, that is, Lan multiplied instead of dividing.
+
+The correct way is
+$$\square=36\div4=9.$$
+
+Check: $36\div9=4$. Correct.
+
+So Lan went wrong by multiplying instead of dividing, and $\square=9$.
 
 **Answer.** Lan used the wrong operation; $\square=9$.
 :::
@@ -279,9 +331,21 @@ b) Some pens are shared equally among $7$ children, $6$ pens each. How many pens
 2. Write a sum with a box, find the box, then write the answer with its unit.
 
 ::solution
-a) Let the number of boxes be $\square$: $8\times\square=72$, so $\square=72\div8=9$ (boxes).
+Solution
 
-b) Let the number of pens be $\square$: $\square\div7=6$, so $\square=6\times7=42$ (pens).
+a) Let the number of boxes filled be $\square$. Each box holds $8$ cakes and there are $72$ cakes in all, so
+$$8\times\square=72.$$
+The number of boxes filled is:
+$$72\div8=9\ \text{(boxes)}$$
+Check: $8\times9=72$. Correct.
+
+b) Let the number of pens be $\square$. The pens are shared equally among $7$ children, $6$ pens each, so
+$$\square\div7=6.$$
+The number of pens altogether is:
+$$6\times7=42\ \text{(pens)}$$
+Check: $42\div7=6$. Correct.
+
+So $9$ boxes are filled; there are $42$ pens altogether.
 
 **Answer.** a) $9$ boxes; b) $42$ pens.
 :::
@@ -301,9 +365,19 @@ b) $63\div\square=3\times3$.
 2. Find $\square$ with the matching rule and check.
 
 ::solution
-a) $4\times9=36$, so $\square\times6=36$ and $\square=36\div6=6$. Check: $6\times6=36$.
+a) Work out the right-hand side first:
+$$4\times9=36.$$
+So $\square\times6=36$. To find a missing factor, we divide the product by the known factor:
+$$\square=36\div6=6.$$
+Check: $6\times6=36$. Correct.
 
-b) $3\times3=9$, so $63\div\square=9$ and $\square=63\div9=7$. Check: $63\div7=9$.
+b) Work out the right-hand side first:
+$$3\times3=9.$$
+So $63\div\square=9$. To find the divisor, we divide the dividend by the quotient:
+$$\square=63\div9=7.$$
+Check: $63\div7=9$. Correct.
+
+So in a) $\square=6$; in b) $\square=7$.
 
 **Answer.** a) $6$; b) $7$.
 :::

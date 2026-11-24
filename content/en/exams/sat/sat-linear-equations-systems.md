@@ -169,7 +169,19 @@ D. $14$
 2. Move $x$ to the left and $-10$ to the right.
 
 ::solution
-$5x-10-3x=x+4\iff 2x-10=x+4\iff x=14$. The answer is **D**. Option A comes from computing $10-4$ instead of $10+4$.
+Expand and simplify the left-hand side:
+$$5(x-2)-3x=5x-10-3x=2x-10.$$
+
+The equation becomes $2x-10=x+4$. Moving the terms in $x$ to one side and the constants to the other, we get
+$$2x-x=4+10,\ \text{that is}\ x=14.$$
+
+Check: the left-hand side is $5(14-2)-3\cdot14=60-42=18$, the right-hand side is $14+4=18$.
+
+So the answer is **D**.
+
+*Remark.* Option A comes from computing $10-4$ instead of $10+4$.
+
+**Answer.** D.
 :::
 
 :::exercise Student-produced response
@@ -183,7 +195,18 @@ In the equation $2(4x+k)=8x+10$, $k$ is a constant. The equation has infinitely 
 2. Match the constants.
 
 ::solution
-$8x+2k=8x+10$ for every $x$ exactly when $2k=10$, so $k=5$.
+Expand the left-hand side:
+$$2(4x+k)=8x+2k.$$
+
+The equation becomes $8x+2k=8x+10$. Subtracting $8x$ from both sides gives $2k=10$.
+
+The equation has infinitely many solutions exactly when the equality $8x+2k=8x+10$ holds for every $x$, that is, when $2k=10$. (If $2k\ne10$ the equation has no solution.)
+
+Hence $k=5$.
+
+So $k=5$.
+
+**Answer.** $5$.
 :::
 
 :::exercise Multiple choice
@@ -201,7 +224,18 @@ D. $15$
 2. Write $3+2d=27$ and solve.
 
 ::solution
-$3+2d=27\iff 2d=24\iff d=12$. The answer is **B**. Option C ignores the flat fee; option D adds it instead of subtracting.
+Let $d$ (km) be the length of the ride ($d>0$). The fare is the flat fee of $3$ dollars plus $2d$ dollars for the distance, so the total cost is $3+2d$ (dollars).
+
+The ride cost $27$ dollars, so
+$$3+2d=27\iff2d=24\iff d=12.$$
+
+The value $d=12>0$ is acceptable. Check: $3+2\cdot12=27$.
+
+So the ride was $12$ kilometers long, and the answer is **B**.
+
+*Remark.* Option C ignores the flat fee (it computes $27\div2=13.5$); option D adds the flat fee instead of subtracting it (it computes $(27+3)\div2=15$).
+
+**Answer.** B.
 :::
 
 :::exercise Student-produced response
@@ -217,7 +251,18 @@ The solution to the system is $(x, y)$. What is the value of $y$?
 2. Substitute into the first equation.
 
 ::solution
-$x+2(3x-5)=11\iff 7x=21\iff x=3$, so $y=3\cdot3-5=4$. The answer is $4$.
+From the second equation $3x-y=5$ we express $y=3x-5$.
+
+Substituting into the first equation $x+2y=11$, we get
+$$x+2(3x-5)=11\iff7x-10=11\iff7x=21\iff x=3.$$
+
+Substituting $x=3$ into $y=3x-5$ gives $y=3\cdot3-5=4$.
+
+Check: $3+2\cdot4=11$ and $3\cdot3-4=5$. So the solution of the system is $(x, y)=(3, 4)$.
+
+So $y=4$.
+
+**Answer.** $4$.
 :::
 
 :::exercise Multiple choice
@@ -237,7 +282,18 @@ D. $20$
 2. Divide by the common coefficient.
 
 ::solution
-Adding gives $5x+5y=20$, so $x+y=4$. The answer is **A**. (Check: $x=3$, $y=1$.) Option D forgets to divide by $5$.
+Adding the two equations $4x+y=13$ and $x+4y=7$ side by side, we get
+$$5x+5y=20.$$
+
+Dividing both sides by $5$ gives $x+y=4$.
+
+Check: solving the system gives $x=3$, $y=1$; indeed $4\cdot3+1=13$ and $3+4\cdot1=7$, and $x+y=4$.
+
+So the answer is **A**.
+
+*Remark.* Option D forgets to divide by $5$ and takes the right-hand side $20$ as it is.
+
+**Answer.** A.
 :::
 
 ## Application exercises
@@ -253,7 +309,18 @@ A school sold 50 tickets for a concert. Adult tickets cost 12 dollars and studen
 2. Write the income equation and solve.
 
 ::solution
-$12a+8(50-a)=480\iff 4a+400=480\iff a=20$. Twenty adult tickets were sold. Check: $20\cdot12+30\cdot8=240+240=480$.
+Let $a$ be the number of adult tickets sold ($a$ a whole number, $0\le a\le50$). Since $50$ tickets were sold in total, the number of student tickets is $50-a$.
+
+The total income is $12a+8(50-a)$ (dollars), and it equals $480$ dollars, so
+$$12a+8(50-a)=480\iff4a+400=480\iff4a=80\iff a=20.$$
+
+The value $a=20$ satisfies the condition. Then the number of student tickets is $50-20=30$.
+
+Check: $20\cdot12+30\cdot8=240+240=480$ (dollars).
+
+So $20$ adult tickets were sold.
+
+**Answer.** $20$ adult tickets.
 :::
 
 :::exercise A system with no solution
@@ -273,7 +340,18 @@ D. $4$
 2. Set $\dfrac{-k}{2}$ equal to it.
 
 ::solution
-$\dfrac63=2$, so $\dfrac{-k}{2}=2$ and $k=-4$. The constants give $\dfrac75\ne2$, so the lines are parallel and distinct. The answer is **A**. Option D forgets the minus sign in front of $k$.
+A system of two linear equations in two unknowns has no solution when the two lines are parallel and distinct. The coefficients $6$, $-k$, $3$, $2$ on the left-hand sides are nonzero, so the condition is
+$$\frac63=\frac{-k}{2}\ne\frac75.$$
+
+We have $\dfrac63=2$, so $\dfrac{-k}{2}=2$, which gives $-k=4$, that is $k=-4$.
+
+Check: $\dfrac75\ne2$, so for $k=-4$ the lines are parallel and distinct. Specifically, the first equation is $6x+4y=7$, while doubling the second equation gives $6x+4y=10$; these contradict each other, so the system has no solution.
+
+So $k=-4$, and the answer is **A**.
+
+*Remark.* Option D forgets the minus sign in front of $k$ (it uses $\dfrac{k}{2}=2$, so $k=4$).
+
+**Answer.** A.
 :::
 
 :::exercise Two data plans
@@ -287,7 +365,18 @@ Plan A costs 30 dollars per month plus 2 dollars per gigabyte of data. Plan B co
 2. Solve $30+2g=10+6g$.
 
 ::solution
-$30+2g=10+6g\iff 20=4g\iff g=5$. At 5 gigabytes both plans cost $30+2\cdot5=40$ dollars. Below 5 gigabytes plan B is cheaper; above it plan A is cheaper.
+Let $g$ be the number of gigabytes used in a month ($g\ge0$). The cost of plan A is $30+2g$ (dollars), and the cost of plan B is $10+6g$ (dollars).
+
+The two plans cost the same when
+$$30+2g=10+6g\iff20=4g\iff g=5.$$
+
+The value $g=5\ge0$ is acceptable. Then plan A costs $30+2\cdot5=40$ dollars. Check plan B: $10+6\cdot5=40$ dollars.
+
+So at $5$ gigabytes in a month the two plans cost the same, and that cost is $40$ dollars.
+
+*Remark.* Below $5$ gigabytes plan B is cheaper (for example $g=0$: $10<30$); above it plan A is cheaper.
+
+**Answer.** $5$ gigabytes; $40$ dollars.
 :::
 
 :::exercise Fractions
@@ -301,7 +390,16 @@ If $\dfrac{x}{2}+\dfrac{x}{3}=10$, what is the value of $x$?
 2. Solve the resulting equation.
 
 ::solution
-Multiplying by $6$: $3x+2x=60\iff 5x=60\iff x=12$. Check: $6+4=10$.
+Multiply both sides of the equation by $6$ (the least common multiple of $2$ and $3$) to clear the denominators:
+$$6\cdot\frac{x}{2}+6\cdot\frac{x}{3}=6\cdot10\iff3x+2x=60.$$
+
+Hence $5x=60$, so $x=12$.
+
+Check: $\dfrac{12}{2}+\dfrac{12}{3}=6+4=10$.
+
+So $x=12$.
+
+**Answer.** $12$.
 :::
 
 :::exercise Challenge
@@ -317,7 +415,19 @@ In the system, $a$ and $b$ are constants. The system has infinitely many solutio
 2. Multiply the whole first equation by it.
 
 ::solution
-$24=3\cdot8$, so the second equation must be $3$ times the first: $6x+15y=24$. Hence $a=6$, $b=15$ and $a+b=21$.
+A system of two linear equations in two unknowns has infinitely many solutions when the two equations represent the same line, that is, when the second equation is a multiple of the first.
+
+Suppose $ax+by=24$ is $q$ times $2x+5y=8$, that is, $a=2q$, $b=5q$ and $24=8q$.
+
+From $24=8q$ we get $q=3$. Hence $a=2\cdot3=6$ and $b=5\cdot3=15$; the second equation is $6x+15y=24$.
+
+Check: $3(2x+5y)=3\cdot8$ gives exactly $6x+15y=24$.
+
+Hence $a+b=6+15=21$.
+
+So $a+b=21$.
+
+**Answer.** $21$.
 :::
 
 :::quiz

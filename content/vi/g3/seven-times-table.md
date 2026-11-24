@@ -153,11 +153,18 @@ c) $7\times6$.
 2. Dừng ở số thứ tự cần tìm.
 
 ::solution
-a) $7\times3=21$.
+Em dùng bảng nhân $7$ để tính từng phép nhân.
 
-b) $7\times5=35$.
+a) $7\times3$ là tổng của $3$ số $7$, nên
+$$7\times3=7+7+7=21.$$
 
-c) $7\times6=42$.
+b) $7\times5$ gồm $3$ số $7$ và $2$ số $7$, nên
+$$7\times5=7\times3+7\times2=21+14=35.$$
+
+c) Thêm một số $7$ vào $7\times5$, ta được
+$$7\times6=7\times5+7=35+7=42.$$
+
+Vậy $7\times3=21$; $7\times5=35$; $7\times6=42$.
 
 **Đáp số.** a) $21$; b) $35$; c) $42$.
 :::
@@ -179,11 +186,18 @@ c) $7\times10$.
 2. Cộng thêm $7$.
 
 ::solution
-a) $7\times7=42+7=49$.
+Trong bảng nhân $7$, mỗi tích hơn tích liền trước $7$ đơn vị.
 
-b) $7\times9=56+7=63$.
+a) Ta có $7\times6=42$. Thêm một số $7$, ta được
+$$7\times7=7\times6+7=42+7=49.$$
 
-c) $7\times10=63+7=70$.
+b) Ta có $7\times8=56$. Thêm một số $7$, ta được
+$$7\times9=7\times8+7=56+7=63.$$
+
+c) Ta có $7\times9=63$. Thêm một số $7$, ta được
+$$7\times10=7\times9+7=63+7=70.$$
+
+Vậy $7\times7=49$; $7\times9=63$; $7\times10=70$.
 
 **Đáp số.** a) $49$; b) $63$; c) $70$.
 :::
@@ -205,11 +219,19 @@ c) $6\times9$ và $7\times8$.
 2. So sánh kết quả.
 
 ::solution
-a) $6\times7=42$.
+Em nhớ lại bảng nhân $6$ để tính.
 
-b) $7\times6=42$, bằng $6\times7$.
+a) Ta có
+$$6\times7=6\times6+6=36+6=42.$$
 
-c) $6\times9=54$ và $7\times8=56$, nên $6\times9<7\times8$.
+b) Khi đổi chỗ hai thừa số thì tích không đổi, nên $7\times6=6\times7=42$. Kiểm tra: $7\times6=7\times5+7=35+7=42$. Đúng.
+
+c) Ta tính từng tích:
+$$6\times9=6\times8+6=48+6=54,$$
+$$7\times8=7\times7+7=49+7=56.$$
+Vì $54<56$ nên $6\times9<7\times8$.
+
+Vậy $6\times7=42$; $7\times6=42$ (bằng $6\times7$); $6\times9=54$ nhỏ hơn $7\times8=56$.
 
 **Đáp số.** a) $42$; b) $42$; c) $54$ và $56$.
 :::
@@ -231,11 +253,15 @@ c) $70:7$.
 2. Số còn lại là thương.
 
 ::solution
-a) $7\times3=21$ nên $21:7=3$.
+Muốn chia, em tìm phép nhân tương ứng trong bảng nhân $7$.
 
-b) $7\times7=49$ nên $49:7=7$.
+a) Vì $7\times3=21$ nên $21:7=3$.
 
-c) $7\times10=70$ nên $70:7=10$.
+b) Vì $7\times7=49$ nên $49:7=7$.
+
+c) Vì $7\times10=70$ nên $70:7=10$.
+
+Vậy $21:7=3$; $49:7=7$; $70:7=10$.
 
 **Đáp số.** a) $3$; b) $7$; c) $10$.
 :::
@@ -257,11 +283,15 @@ c) $7\times9 \;\square\; 8\times8$.
 2. So sánh kết quả.
 
 ::solution
-a) $7\times6=42$ và $42>40$ nên $7\times6>40$.
+Em tính giá trị hai vế rồi so sánh.
 
-b) $56:7=8$ và $7\times1=7$, $8>7$ nên $56:7>7\times1$.
+a) Ta có $7\times6=42$. Vì $42>40$ nên $7\times6>40$.
 
-c) $7\times9=63$ và $8\times8=64$, $63<64$ nên $7\times9<8\times8$.
+b) Vì $7\times8=56$ nên $56:7=8$. Ta lại có $7\times1=7$. Vì $8>7$ nên $56:7>7\times1$.
+
+c) Ta có $7\times9=7\times8+7=56+7=63$ và $8\times8=64$. Vì $63<64$ nên $7\times9<8\times8$.
+
+Vậy các dấu cần điền là: $7\times6>40$; $56:7>7\times1$; $7\times9<8\times8$.
 
 **Đáp số.** a) $>$; b) $>$; c) $<$.
 :::
@@ -277,9 +307,14 @@ Lâm viết: "$7\times8=54$". Lâm sai ở đâu? Hãy sửa lại.
 2. Thử lại bằng phép chia.
 
 ::solution
-$7\times8=7\times7+7=49+7=56$, không phải $54$.
+Em tính lại tích $7\times8$:
+$$7\times8=7\times7+7=49+7=56.$$
 
-**Thử lại.** $56:7=8$. Đúng.
+Lâm viết $54$, mà $54\ne56$ nên Lâm viết sai.
+
+Thử lại: $56:7=8$, đúng với $7\times8=56$.
+
+Vậy Lâm đã nhớ nhầm tích; kết quả đúng là $7\times8=56$.
 
 **Đáp số.** Lâm nhớ nhầm tích; $7\times8=56$.
 :::
@@ -297,9 +332,17 @@ b) Một chuyến đi kéo dài $63$ ngày. Hỏi chuyến đi kéo dài bao nhi
 2. Chọn phép tính, tính rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Số ngày là $7\times6=42$ (ngày).
+Bài giải
 
-b) Số tuần là $63:7=9$ (tuần).
+Một tuần lễ có $7$ ngày.
+
+a) Số ngày của $6$ tuần lễ là:
+$$7\times6=42\ \text{(ngày)}$$
+
+b) Vì $7\times9=63$ nên số tuần lễ của chuyến đi là:
+$$63:7=9\ \text{(tuần)}$$
+
+Vậy $6$ tuần lễ có $42$ ngày; chuyến đi kéo dài $9$ tuần lễ.
 
 **Đáp số.** a) $42$ ngày; b) $9$ tuần.
 :::
@@ -319,9 +362,23 @@ b) Còn bao nhiêu kệ chưa xếp, và còn bao nhiêu quyển truyện chưa 
 2. Trừ số kệ đã xếp, rồi tính số truyện còn lại.
 
 ::solution
-a) Số kệ cần dùng là $70:7=10$ (kệ).
+Bài giải
 
-b) Số kệ chưa xếp là $10-4=6$ (kệ). Số truyện đã xếp là $7\times4=28$ (quyển), nên số truyện chưa xếp là $70-28=42$ (quyển). Kiểm tra: $7\times6=42$.
+a) Số kệ cần dùng để xếp hết $70$ quyển truyện là:
+$$70:7=10\ \text{(kệ)}$$
+
+b) Số kệ chưa xếp là:
+$$10-4=6\ \text{(kệ)}$$
+
+Số quyển truyện đã xếp trên $4$ kệ là:
+$$7\times4=28\ \text{(quyển)}$$
+
+Số quyển truyện chưa xếp là:
+$$70-28=42\ \text{(quyển)}$$
+
+Kiểm tra: $6$ kệ còn lại, mỗi kệ $7$ quyển, có $7\times6=42$ quyển. Đúng.
+
+Vậy cần tất cả $10$ kệ; còn $6$ kệ chưa xếp và $42$ quyển truyện chưa xếp.
 
 **Đáp số.** a) $10$ kệ; b) $6$ kệ và $42$ quyển truyện.
 :::

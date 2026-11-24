@@ -139,11 +139,13 @@ Hộp có $6$ viên bi xanh. Em lấy ra $1$ viên bi. Hãy nói mỗi sự ki�
 1. Hộp có bi màu gì?
 
 ::solution
-Hộp chỉ có bi xanh.
+Hộp chỉ có bi xanh, không có viên bi nào khác màu.
 
-a) Lần nào cũng lấy được bi xanh, nên sự kiện này là chắc chắn.
+a) Lần nào lấy ra $1$ viên cũng được bi xanh, nên sự kiện này là chắc chắn.
 
-b) Hộp không có bi đỏ, nên sự kiện này là không thể.
+b) Hộp không có bi đỏ, nên không bao giờ lấy được bi đỏ. Sự kiện này là không thể.
+
+Vậy lấy được bi xanh là chắc chắn; lấy được bi đỏ là không thể.
 
 **Đáp số.** a) chắc chắn; b) không thể.
 :::
@@ -160,7 +162,13 @@ Hộp có $4$ viên bi đỏ và $4$ viên bi xanh. Em lấy ra $1$ viên bi. H�
 ::solution
 Hộp có cả bi đỏ lẫn bi xanh, nhưng không có bi vàng.
 
-a) Lấy được bi đỏ là có thể. b) Lấy được bi xanh là có thể. c) Lấy được bi vàng là không thể.
+a) Hộp có bi đỏ nhưng cũng có bi xanh, nên lấy được bi đỏ có thể xảy ra và cũng có thể không. Sự kiện này là có thể.
+
+b) Tương tự, hộp có cả bi xanh lẫn bi đỏ, nên lấy được bi xanh là có thể.
+
+c) Hộp không có bi vàng, nên sự kiện này là không thể.
+
+Vậy lấy được bi đỏ là có thể; lấy được bi xanh là có thể; lấy được bi vàng là không thể.
 
 **Đáp số.** a) có thể; b) có thể; c) không thể.
 :::
@@ -175,11 +183,15 @@ Hộp có $5$ tấm thẻ ghi các số $1$, $2$, $3$, $4$, $5$. Em rút ra $1$ 
 1. Có thẻ nào ghi số $6$ không?
 
 ::solution
-a) Không có thẻ số $6$, nên sự kiện này là không thể.
+Hộp có $5$ tấm thẻ ghi các số $1$, $2$, $3$, $4$, $5$.
 
-b) Cả năm thẻ đều bé hơn $6$, nên sự kiện này là chắc chắn.
+a) Không có thẻ nào ghi số $6$, nên sự kiện này là không thể.
 
-c) Thẻ $1$, $3$, $5$ là số lẻ, thẻ $2$, $4$ thì không, nên sự kiện này là có thể.
+b) Cả năm số $1$, $2$, $3$, $4$, $5$ đều bé hơn $6$, nên rút thẻ nào cũng được số bé hơn $6$. Sự kiện này là chắc chắn.
+
+c) Các thẻ $1$, $3$, $5$ ghi số lẻ, còn các thẻ $2$, $4$ thì không. Vì có thể rút được thẻ số lẻ và cũng có thể không, nên sự kiện này là có thể.
+
+Vậy rút được thẻ số $6$ là không thể; rút được thẻ số bé hơn $6$ là chắc chắn; rút được thẻ số lẻ là có thể.
 
 **Đáp số.** a) không thể; b) chắc chắn; c) có thể.
 :::
@@ -194,11 +206,13 @@ Hôm nay là thứ Sáu. Hãy nói mỗi sự kiện là chắc chắn, có th�
 1. Sau thứ Sáu là ngày nào?
 
 ::solution
-a) Sau thứ Sáu luôn là thứ Bảy, nên sự kiện này là chắc chắn.
+a) Sau thứ Sáu luôn là thứ Bảy, nên ngày mai là thứ Bảy chắc chắn xảy ra. Sự kiện này là chắc chắn.
 
-b) Trời có khi mưa, có khi không, nên sự kiện này là có thể.
+b) Có ngày trời mưa, có ngày trời không mưa, nên chiều nay trời mưa có thể xảy ra và cũng có thể không. Sự kiện này là có thể.
 
-c) Từ $1$ đến $10$ không có số $11$, nên sự kiện này là không thể.
+c) Khi đếm từ $1$ đến $10$, ta không gặp số $11$. Sự kiện này là không thể.
+
+Vậy ngày mai là thứ Bảy là chắc chắn; chiều nay trời mưa là có thể; đếm từ $1$ đến $10$ mà gặp số $11$ là không thể.
 
 **Đáp số.** a) chắc chắn; b) có thể; c) không thể.
 :::
@@ -213,11 +227,15 @@ Một vòng quay chia thành $8$ phần bằng nhau: $5$ phần đỏ và $3$ ph
 1. Mọi phần của vòng quay có màu gì?
 
 ::solution
-a) Mọi phần đều là đỏ hoặc xanh, nên sự kiện này là chắc chắn.
+Vòng quay có $8$ phần bằng nhau, gồm $5$ phần đỏ và $3$ phần xanh. Ta có $5+3=8$ nên mọi phần đều là đỏ hoặc xanh.
 
-b) Vòng quay không có phần vàng, nên sự kiện này là không thể.
+a) Kim dừng ở phần nào cũng là màu đỏ hoặc màu xanh, nên sự kiện này là chắc chắn.
 
-c) Vì $5>3$, nên kim dừng ở màu đỏ dễ xảy ra hơn.
+b) Vòng quay không có phần màu vàng, nên kim không bao giờ dừng ở màu vàng. Sự kiện này là không thể.
+
+c) Số phần đỏ là $5$, số phần xanh là $3$ và $5>3$. Các phần bằng nhau nên màu nào có nhiều phần hơn thì kim dễ dừng ở màu đó hơn. Vậy kim dừng ở màu đỏ dễ xảy ra hơn.
+
+Vậy kim dừng ở màu đỏ hoặc xanh là chắc chắn; kim dừng ở màu vàng là không thể; kim dễ dừng ở màu đỏ hơn.
 
 **Đáp số.** a) chắc chắn; b) không thể; c) màu đỏ.
 :::
@@ -232,11 +250,20 @@ Em nhớ lại bài kiểm đếm. Mai kiểm đếm các viên bi trong hộp: 
 1. Đếm số bi đỏ và số bi xanh.
 
 ::solution
-Bi đỏ: $5+2=7$ viên. Bi xanh: $5$ viên.
+Bài giải
+
+Trong bảng kiểm đếm, mỗi nhóm bốn gạch có một gạch chéo là $5$ viên bi, mỗi gạch lẻ là $1$ viên bi.
+
+Số bi đỏ là $5+2=7$ (viên). Số bi xanh là $5$ viên.
 
 Số viên bi trong hộp là:
 $$7+5=12\ \text{(viên)}.$$
-Hộp không có bi vàng, nên lấy được bi vàng là không thể. Vì $7>5$, nên lấy bi đỏ dễ hơn.
+
+Hộp chỉ có bi đỏ và bi xanh, không có bi vàng, nên lấy được bi vàng là không thể.
+
+So sánh số bi: $7>5$ nên bi đỏ nhiều hơn bi xanh, do đó lấy bi đỏ dễ hơn.
+
+Vậy hộp có tất cả $12$ viên bi; lấy được bi vàng là không thể; lấy bi đỏ dễ hơn.
 
 **Đáp số.** $12$ viên; không thể; bi đỏ.
 :::
@@ -251,7 +278,13 @@ Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Em cần làm gì để lấ
 1. Để chắc chắn lấy bi đỏ, hộp được có những viên bi nào?
 
 ::solution
-Để lấy bi đỏ là chắc chắn, hộp chỉ được có bi đỏ. Vậy em lấy $2$ viên bi xanh ra khỏi hộp.
+Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Hiện nay lấy ra $1$ viên thì có thể được bi đỏ và cũng có thể được bi xanh.
+
+Để lấy bi đỏ là chắc chắn, hộp chỉ được có bi đỏ, không được còn viên bi màu khác nào.
+
+Do đó em phải lấy hai viên bi xanh ra khỏi hộp. Khi đó hộp chỉ còn $3$ viên bi đỏ, nên lấy ra viên nào cũng là bi đỏ.
+
+Vậy em cần lấy $2$ viên bi xanh ra khỏi hộp.
 
 **Đáp số.** Lấy $2$ viên bi xanh ra khỏi hộp.
 :::
@@ -266,10 +299,17 @@ Lan muốn bỏ bi vào một chiếc hộp sao cho khi lấy ra $1$ viên bi th
 1. Hộp cần có những loại bi nào? Loại nào không được có?
 
 ::solution
-Hộp phải có bi đỏ và bi xanh, nhưng không có bi vàng. Mỗi loại cần ít nhất $1$ viên.
+Bài giải
 
-Số viên bi ít nhất là:
+Để lấy được bi đỏ là có thể, hộp phải có ít nhất $1$ viên bi đỏ. Để lấy được bi xanh là có thể, hộp phải có ít nhất $1$ viên bi xanh.
+
+Để lấy được bi vàng là không thể, hộp không được có viên bi vàng nào.
+
+Mỗi loại bi cần ít nhất $1$ viên, nên số viên bi ít nhất là:
 $$1+1=2\ \text{(viên)}.$$
+
+Vậy hộp của Lan có ít nhất $2$ viên bi, gồm $1$ viên đỏ và $1$ viên xanh.
+
 **Đáp số.** Ít nhất $2$ viên bi: $1$ viên đỏ và $1$ viên xanh.
 :::
 

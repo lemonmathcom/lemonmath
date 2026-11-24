@@ -151,11 +151,15 @@ Làm tròn đến hàng chục: a) $23$; b) $68$; c) $95$.
 1. Chữ số hàng đơn vị của mỗi số là mấy?
 
 ::solution
-a) $23$ có chữ số hàng đơn vị là $3$, nên $23\approx 20$.
+Khi làm tròn đến hàng chục, ta nhìn chữ số hàng đơn vị: bé hơn $5$ thì làm tròn xuống, từ $5$ trở lên thì làm tròn lên.
 
-b) $68$ có chữ số hàng đơn vị là $8$, nên $68\approx 70$.
+a) $23$ có chữ số hàng đơn vị là $3$, bé hơn $5$, nên giữ nguyên $2$ chục. Do đó $23\approx20$.
 
-c) $95$ có chữ số hàng đơn vị là $5$, nên $95\approx 100$.
+b) $68$ có chữ số hàng đơn vị là $8$, từ $5$ trở lên, nên tăng $6$ chục lên $7$ chục. Do đó $68\approx70$.
+
+c) $95$ có chữ số hàng đơn vị là $5$, từ $5$ trở lên, nên tăng $9$ chục lên $10$ chục, tức là $100$. Do đó $95\approx100$.
+
+Vậy làm tròn đến hàng chục, ta được $23\approx20$; $68\approx70$; $95\approx100$.
 
 **Đáp số.** a) $20$; b) $70$; c) $100$.
 :::
@@ -170,11 +174,15 @@ Làm tròn đến hàng chục: a) $154$; b) $281$; c) $399$.
 1. Với $399$, làm tròn lên thì $39$ chục thành bao nhiêu chục?
 
 ::solution
-a) $154$: chữ số $4$, làm tròn xuống, $154\approx 150$.
+Ta nhìn chữ số hàng đơn vị của mỗi số: bé hơn $5$ thì làm tròn xuống, từ $5$ trở lên thì làm tròn lên.
 
-b) $281$: chữ số $1$, làm tròn xuống, $281\approx 280$.
+a) $154$ có chữ số hàng đơn vị là $4$, bé hơn $5$, nên làm tròn xuống. Do đó $154\approx150$.
 
-c) $399$: chữ số $9$, làm tròn lên, $39$ chục thành $40$ chục, $399\approx 400$.
+b) $281$ có chữ số hàng đơn vị là $1$, bé hơn $5$, nên làm tròn xuống. Do đó $281\approx280$.
+
+c) $399$ có chữ số hàng đơn vị là $9$, từ $5$ trở lên, nên làm tròn lên: $39$ chục thành $40$ chục. Do đó $399\approx400$.
+
+Vậy làm tròn đến hàng chục, ta được $154\approx150$; $281\approx280$; $399\approx400$.
 
 **Đáp số.** a) $150$; b) $280$; c) $400$.
 :::
@@ -189,11 +197,15 @@ Làm tròn đến hàng trăm: a) $326$; b) $750$; c) $899$.
 1. Chữ số hàng chục của mỗi số là mấy?
 
 ::solution
-a) $326$: chữ số hàng chục là $2$, nên $326\approx 300$.
+Khi làm tròn đến hàng trăm, ta nhìn chữ số hàng chục: bé hơn $5$ thì làm tròn xuống, từ $5$ trở lên thì làm tròn lên.
 
-b) $750$: chữ số hàng chục là $5$, nên $750\approx 800$.
+a) $326$ có chữ số hàng chục là $2$, bé hơn $5$, nên giữ nguyên $3$ trăm. Do đó $326\approx300$.
 
-c) $899$: chữ số hàng chục là $9$, nên $899\approx 900$.
+b) $750$ có chữ số hàng chục là $5$, từ $5$ trở lên, nên tăng $7$ trăm lên $8$ trăm. Do đó $750\approx800$.
+
+c) $899$ có chữ số hàng chục là $9$, từ $5$ trở lên, nên tăng $8$ trăm lên $9$ trăm. Do đó $899\approx900$.
+
+Vậy làm tròn đến hàng trăm, ta được $326\approx300$; $750\approx800$; $899\approx900$.
 
 **Đáp số.** a) $300$; b) $800$; c) $900$.
 :::
@@ -208,9 +220,15 @@ Một trường tiểu học có $637$ học sinh. Hãy làm tròn số học si
 1. Hai chữ số cần nhìn của $637$ là mấy?
 
 ::solution
-Đến hàng chục: chữ số hàng đơn vị là $7$, làm tròn lên, $637\approx 640$.
+Bài giải
 
-Đến hàng trăm: chữ số hàng chục là $3$, làm tròn xuống, $637\approx 600$.
+Làm tròn số học sinh $637$ đến hàng chục: chữ số hàng đơn vị là $7$, từ $5$ trở lên, nên làm tròn lên. Ta có
+$$637\approx640.$$
+
+Làm tròn số học sinh $637$ đến hàng trăm: chữ số hàng chục là $3$, bé hơn $5$, nên làm tròn xuống. Ta có
+$$637\approx600.$$
+
+Vậy trường có khoảng $640$ học sinh nếu làm tròn đến hàng chục và khoảng $600$ học sinh nếu làm tròn đến hàng trăm.
 
 **Đáp số.** Khoảng $640$ học sinh (hàng chục) và khoảng $600$ học sinh (hàng trăm).
 :::
@@ -225,9 +243,20 @@ Một trường tiểu học có $637$ học sinh. Hãy làm tròn số học si
 1. Làm tròn $38$ và $41$ đến hàng chục.
 
 ::solution
-$38\approx 40$ và $41\approx 40$, nên tổng ước lượng là $40+40=80$.
+Trước hết, ta làm tròn mỗi số đến hàng chục:
 
-Tổng đúng là $38+41=79$. Hai số $80$ và $79$ rất gần nhau.
+- $38$ có chữ số hàng đơn vị là $8$, từ $5$ trở lên, nên $38\approx40$.
+- $41$ có chữ số hàng đơn vị là $1$, bé hơn $5$, nên $41\approx40$.
+
+Tổng ước lượng là
+$$40+40=80.$$
+
+Tổng đúng là
+$$38+41=79.$$
+
+So sánh: hai số $80$ và $79$ chỉ hơn kém nhau $1$ đơn vị nên rất gần nhau. Do đó cách làm tròn rồi cộng cho ta kết quả ước lượng khá tốt.
+
+Vậy tổng ước lượng của $38+41$ là $80$, tổng đúng là $79$.
 
 **Đáp số.** Ước lượng $80$; tổng đúng $79$.
 :::
@@ -242,9 +271,15 @@ Em nhớ lại các số có bốn chữ số. Làm tròn $998$ đến hàng ch�
 1. Với hàng chục: $99$ chục thêm $1$ chục thành bao nhiêu chục?
 
 ::solution
-Đến hàng chục: chữ số hàng đơn vị là $8$, làm tròn lên, $99$ chục thành $100$ chục, tức là $998\approx 1000$.
+Ta làm tròn $998$ lần lượt đến hàng chục và đến hàng trăm.
 
-Đến hàng trăm: chữ số hàng chục là $9$, làm tròn lên, $9$ trăm thành $10$ trăm, tức là $998\approx 1000$.
+Làm tròn đến hàng chục: chữ số hàng đơn vị là $8$, từ $5$ trở lên, nên làm tròn lên. $99$ chục tăng thêm $1$ chục thành $100$ chục, tức là $1000$. Do đó
+$$998\approx1000.$$
+
+Làm tròn đến hàng trăm: chữ số hàng chục là $9$, từ $5$ trở lên, nên làm tròn lên. $9$ trăm tăng thêm $1$ trăm thành $10$ trăm, tức là $1000$. Do đó
+$$998\approx1000.$$
+
+Vậy làm tròn $998$ đến hàng chục hay đến hàng trăm đều được $1000$.
 
 **Đáp số.** Cả hai đều bằng $1000$.
 :::
@@ -259,9 +294,16 @@ Tìm tất cả các số có hai chữ số mà khi làm tròn đến hàng ch�
 1. Liệt kê các số làm tròn xuống thành $60$, rồi các số làm tròn lên thành $60$.
 
 ::solution
-Các số có hàng chục là $6$ và đơn vị từ $0$ đến $4$: $60$, $61$, $62$, $63$, $64$. Các số có hàng chục là $5$ và đơn vị từ $5$ đến $9$: $55$, $56$, $57$, $58$, $59$.
+Một số có hai chữ số làm tròn đến hàng chục được $60$ thì nó nằm gần $60$ nhất. Ta xét hai trường hợp:
 
-Có tất cả $10$ số: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
+- Số có hàng chục là $6$: muốn làm tròn xuống thành $60$, chữ số hàng đơn vị phải bé hơn $5$, tức là từ $0$ đến $4$. Ta được $60$, $61$, $62$, $63$, $64$.
+- Số có hàng chục là $5$: muốn làm tròn lên thành $60$, chữ số hàng đơn vị phải từ $5$ trở lên, tức là từ $5$ đến $9$. Ta được $55$, $56$, $57$, $58$, $59$.
+
+Các số có hàng chục khác $5$ và $6$ không thể làm tròn thành $60$.
+
+Số các số tìm được là $5+5=10$ số.
+
+Vậy có $10$ số thoả mãn: $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
 
 **Đáp số.** $55$, $56$, $57$, $58$, $59$, $60$, $61$, $62$, $63$, $64$.
 :::
@@ -277,9 +319,13 @@ Số lớn nhất và số bé nhất có ba chữ số mà khi làm tròn đế
 2. Tìm số lớn nhất làm tròn xuống thành $500$.
 
 ::solution
-Số bé nhất: $450$, vì hàng chục là $5$ nên làm tròn lên thành $500$ ($449\approx 400$).
+Làm tròn đến hàng trăm được $500$, nên ta xét các số có ba chữ số có hàng trăm là $4$ làm tròn lên, hoặc hàng trăm là $5$ làm tròn xuống.
 
-Số lớn nhất: $549$, vì hàng chục là $4$ nên làm tròn xuống thành $500$ ($550\approx 600$).
+Số bé nhất: số này có hàng trăm là $4$ và phải làm tròn lên thành $500$, nên chữ số hàng chục phải từ $5$ trở lên. Chữ số hàng chục nhỏ nhất là $5$ và chữ số hàng đơn vị nhỏ nhất là $0$, được $450$. Số liền trước là $449$ có chữ số hàng chục là $4$ nên $449\approx400$, không thoả mãn.
+
+Số lớn nhất: số này có hàng trăm là $5$ và phải làm tròn xuống thành $500$, nên chữ số hàng chục phải bé hơn $5$. Chữ số hàng chục lớn nhất là $4$ và chữ số hàng đơn vị lớn nhất là $9$, được $549$. Số liền sau là $550$ có chữ số hàng chục là $5$ nên $550\approx600$, không thoả mãn.
+
+Vậy số bé nhất là $450$ và số lớn nhất là $549$.
 
 **Đáp số.** Số bé nhất là $450$; số lớn nhất là $549$.
 :::

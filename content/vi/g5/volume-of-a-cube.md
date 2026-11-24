@@ -171,7 +171,12 @@ Tính thể tích hình lập phương có cạnh $7\ \text{cm}$.
 2. Nhân từng bước rồi ghi đơn vị.
 
 ::solution
+Thể tích hình lập phương bằng cạnh nhân cạnh nhân cạnh: $V=a\times a\times a$.
+
+Với cạnh $a=7\ \text{cm}$, ta có
 $$V=7\times7\times7=49\times7=343\ (\text{cm}^3).$$
+
+Vậy thể tích hình lập phương là $343\ \text{cm}^3$.
 
 **Đáp số.** $343\ \text{cm}^3$.
 :::
@@ -187,8 +192,15 @@ Một hình lập phương có cạnh $10\ \text{dm}$. Tính thể tích hình �
 2. Đổi kết quả sang $\text{m}^3$.
 
 ::solution
-$$10\times10\times10=1000\ (\text{dm}^3)=1\ (\text{m}^3).$$
-Đây cũng là hình lập phương cạnh $1\ \text{m}$, vì $10\ \text{dm}=1\ \text{m}$.
+Thể tích hình lập phương cạnh $10\ \text{dm}$ là:
+$$10\times10\times10=1000\ (\text{dm}^3).$$
+
+Vì $10\ \text{dm}=1\ \text{m}$ nên đây cũng là hình lập phương cạnh $1\ \text{m}$. Thể tích của nó là
+$$1\times1\times1=1\ (\text{m}^3).$$
+
+Do đó $1000\ \text{dm}^3=1\ \text{m}^3$.
+
+Vậy thể tích hình lập phương là $1000\ \text{dm}^3$, tức là $1\ \text{m}^3$.
 
 **Đáp số.** $1000\ \text{dm}^3$; $1\ \text{m}^3$.
 :::
@@ -204,7 +216,13 @@ Tính thể tích hình lập phương có cạnh $1{,}2\ \text{dm}$.
 2. Nhân kết quả với $1{,}2$.
 
 ::solution
-$$1{,}2\times1{,}2\times1{,}2=1{,}44\times1{,}2=1{,}728\ (\text{dm}^3).$$
+Với cạnh $a=1{,}2\ \text{dm}$, ta có
+$$V=1{,}2\times1{,}2\times1{,}2.$$
+
+Tính từng bước: $1{,}2\times1{,}2=1{,}44$, rồi $1{,}44\times1{,}2=1{,}728$. Do đó
+$$V=1{,}44\times1{,}2=1{,}728\ (\text{dm}^3).$$
+
+Vậy thể tích hình lập phương là $1{,}728\ \text{dm}^3$.
 
 **Đáp số.** $1{,}728\ \text{dm}^3$.
 :::
@@ -220,8 +238,12 @@ Tính thể tích hình lập phương có cạnh $30\ \text{cm}$, viết kết 
 2. Tính thể tích.
 
 ::solution
-Ta có $30\ \text{cm}=3\ \text{dm}$. Thể tích là:
+Kết quả cần theo $\text{dm}^3$ nên ta đổi cạnh sang đề-xi-mét trước. Vì $10\ \text{cm}=1\ \text{dm}$ nên $30\ \text{cm}=3\ \text{dm}$.
+
+Thể tích hình lập phương là:
 $$3\times3\times3=27\ (\text{dm}^3).$$
+
+Vậy thể tích hình lập phương là $27\ \text{dm}^3$.
 
 **Đáp số.** $27\ \text{dm}^3$.
 :::
@@ -238,8 +260,14 @@ Một bể nước hình lập phương có cạnh $6\ \text{dm}$. Hỏi bể ch
 3. Thử lại: $6\times6=36$ có phải là diện tích đáy không?
 
 ::solution
-Thể tích của bể là:
-$$6\times6\times6=216\ (\text{dm}^3)=216\ \text{lít}.$$
+Bài giải
+
+Lượng nước chứa đầy bể bằng thể tích của bể. Thể tích của bể là:
+$$6\times6\times6=216\ (\text{dm}^3).$$
+
+Vì $1\ \text{dm}^3=1$ lít nên $216\ \text{dm}^3=216$ lít.
+
+Vậy bể chứa đầy nước được $216$ lít.
 
 **Đáp số.** $216$ lít.
 :::
@@ -256,9 +284,17 @@ Một thùng các-tông hình lập phương có cạnh $4\ \text{dm}$. Người
 3. Thử lại bằng cách chia thể tích.
 
 ::solution
-Mỗi cạnh xếp được $4:2=2$ (hộp). Số hộp là $2\times2\times2=8$ (hộp).
+Bài giải
 
-**Kiểm tra.** $4\times4\times4=64\ (\text{dm}^3)$, $2\times2\times2=8\ (\text{dm}^3)$ và $64:8=8$. Đúng.
+Dọc theo mỗi cạnh của thùng, số hộp xếp được là:
+$$4:2=2\ \text{(hộp)}.$$
+
+Thùng có ba kích thước (dài, rộng, cao) nên số hộp xếp đầy thùng là:
+$$2\times2\times2=8\ \text{(hộp)}.$$
+
+Kiểm tra: thể tích thùng là $4\times4\times4=64\ (\text{dm}^3)$, thể tích mỗi hộp là $2\times2\times2=8\ (\text{dm}^3)$ và $64:8=8$. Kết quả đúng.
+
+Vậy xếp đầy thùng được nhiều nhất $8$ hộp.
 
 **Đáp số.** $8$ hộp.
 :::
@@ -274,11 +310,15 @@ Em hãy nhớ lại bài thể tích hình hộp chữ nhật. Một khối gỗ
 2. So sánh hai số.
 
 ::solution
-Thể tích khối hình hộp chữ nhật: $8\times4\times2=64\ (\text{cm}^3)$.
+Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng nhân chiều cao. Thể tích khối gỗ hình hộp chữ nhật là:
+$$8\times4\times2=64\ (\text{cm}^3).$$
 
-Thể tích khối hình lập phương: $4\times4\times4=64\ (\text{cm}^3)$.
+Thể tích khối gỗ hình lập phương là:
+$$4\times4\times4=64\ (\text{cm}^3).$$
 
-Vì $64=64$ nên hai khối có thể tích bằng nhau.
+Vì $64=64$ nên hai khối gỗ có thể tích bằng nhau.
+
+Vậy hai khối gỗ có thể tích bằng nhau, đều bằng $64\ \text{cm}^3$.
 
 **Đáp số.** Hai khối có thể tích bằng nhau ($64\ \text{cm}^3$).
 :::
@@ -294,7 +334,13 @@ Một hình lập phương có thể tích $216\ \text{cm}^3$. Tìm độ dài c
 2. Thử số còn lại.
 
 ::solution
-Ta có $5\times5\times5=125$ (nhỏ hơn $216$) và $7\times7\times7=343$ (lớn hơn $216$). Thử $6$: $6\times6\times6=216$.
+Gọi $a$ (cm) là độ dài cạnh của hình lập phương. Ta cần tìm số $a$ sao cho $a\times a\times a=216$.
+
+Thử các số: $5\times5\times5=125$, nhỏ hơn $216$; $7\times7\times7=343$, lớn hơn $216$. Vậy $a$ nằm giữa $5$ và $7$.
+
+Thử $a=6$: $6\times6\times6=36\times6=216$, đúng.
+
+Vậy cạnh của hình lập phương dài $6\ \text{cm}$.
 
 **Đáp số.** $6\ \text{cm}$.
 :::
@@ -310,9 +356,18 @@ Cạnh hình lập phương tăng gấp $2$ lần thì thể tích tăng gấp m
 2. Tính thể tích khi cạnh $6\ \text{cm}$ rồi so sánh.
 
 ::solution
-Cạnh $3\ \text{cm}$: $3\times3\times3=27\ (\text{cm}^3)$. Cạnh $6\ \text{cm}$: $6\times6\times6=216\ (\text{cm}^3)$. Ta có $216:27=8$.
+Với cạnh $3\ \text{cm}$, thể tích là:
+$$3\times3\times3=27\ (\text{cm}^3).$$
 
-Em thấy: cạnh nhân $2$ ở cả ba kích thước nên thể tích nhân $2\times2\times2=8$.
+Khi cạnh tăng gấp $2$ lần thì cạnh mới là $3\times2=6\ \text{cm}$. Thể tích mới là:
+$$6\times6\times6=216\ (\text{cm}^3).$$
+
+Số lần thể tích tăng là:
+$$216:27=8\ \text{(lần)}.$$
+
+Em thấy: cạnh nhân $2$ ở cả ba kích thước (dài, rộng, cao) nên thể tích nhân $2\times2\times2=8$.
+
+Vậy khi cạnh hình lập phương tăng gấp $2$ lần thì thể tích tăng gấp $8$ lần.
 
 **Đáp số.** Thể tích tăng gấp $8$ lần.
 :::

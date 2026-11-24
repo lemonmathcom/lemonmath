@@ -150,7 +150,13 @@ In the row (square, circle, triangle from left to right), which shape is on the 
 2. Which shape comes after the circle?
 
 ::solution
-After the circle comes the triangle.
+In the row, read from left to right, the shapes are: square, circle, triangle.
+
+The shape on the right of the circle is the shape that comes after the circle.
+
+Right after the circle comes the triangle.
+
+So the triangle is on the right of the circle.
 
 **Answer.** The triangle.
 :::
@@ -166,7 +172,13 @@ In the column (triangle, square, circle from top to bottom), which shape is at t
 2. Which is the first one?
 
 ::solution
+In the column, read from top to bottom, the shapes are: triangle, square, circle.
+
+The shape at the top is the first shape when we read from the top down.
+
 The first shape from the top is the triangle.
+
+So the shape at the top is the triangle.
 
 **Answer.** The triangle.
 :::
@@ -182,7 +194,13 @@ Remember the last lesson: a dice sits on a table. What solid shape is a dice? Wh
 2. What does the dice sit on?
 
 ::solution
-A dice is a cube. It sits on the table, so the table is below the dice.
+The problem asks two things: what solid shape a dice is, and what is below the dice.
+
+A dice has square faces, so a dice is a cube.
+
+The dice sits on the table, which means the dice is above and the table is below.
+
+So a dice is a cube and the table is below the dice.
 
 **Answer.** A cube; the table.
 :::
@@ -200,7 +218,13 @@ b) Is the triangle on the left or on the right of the circle?
 2. Does the triangle come before or after the circle?
 
 ::solution
-a) The circle is on the right of the square. b) The triangle comes after the circle, so it is on the right.
+The row, read from left to right, is: square, circle, triangle.
+
+a) The shape just before the circle is the square, so the circle is on the right of the square.
+
+b) The triangle comes after the circle, so the triangle is on the right of the circle.
+
+So a) the circle is on the right of the square; b) the triangle is on the right of the circle.
 
 **Answer.** a) The square. b) On the right.
 :::
@@ -216,7 +240,15 @@ Binh says: "The square is in the middle" (in the row square, circle, triangle). 
 2. Which shape is in the middle?
 
 ::solution
-The square is first in the row, with no shape on its left. The shape in the middle is the circle.
+The row has three shapes in this order from left to right: square, circle, triangle.
+
+The shape in the middle is the one with a shape on its left and a shape on its right.
+
+The square is first in the row, with no shape on its left, so the square is not in the middle.
+
+The circle has the square on its left and the triangle on its right, so the circle is in the middle.
+
+So Binh is wrong; the shape in the middle is the circle.
 
 **Answer.** No. The circle is in the middle.
 :::
@@ -232,7 +264,15 @@ Lan stands behind Mai, and Mai stands behind Nam. Lan says: "I am first in the l
 2. Where is Lan?
 
 ::solution
-Lan is behind Mai and Mai is behind Nam, so the order is Nam, Mai, Lan. Lan is last.
+Lan stands behind Mai, and Mai stands behind Nam. We line the friends up from the start of the line to the end.
+
+Since Mai is behind Nam, Nam is in front of Mai. Since Lan is behind Mai, Mai is in front of Lan.
+
+The order from the start is: Nam, Mai, Lan.
+
+Lan has two friends in front of her, so Lan is last in the line, not first. Nobody is in front of Nam, so Nam is first.
+
+So Lan is wrong: Nam is first in the line and Lan is last.
 
 **Answer.** No. Nam is first and Lan is last.
 :::
@@ -250,7 +290,13 @@ b) Who sits on the right of Binh?
 2. Find the friend after Binh.
 
 ::solution
-a) Binh has An on the left and Chi on the right. b) After Binh comes Chi.
+The three friends sit from left to right in this order: An, Binh, Chi.
+
+a) The friend in the middle has one friend on the left and one on the right. Binh has An on the left and Chi on the right, so Binh sits in the middle.
+
+b) The friend right after Binh, that is, on the right of Binh, is Chi.
+
+So Binh sits in the middle and Chi sits on the right of Binh.
 
 **Answer.** a) Binh. b) Chi.
 :::
@@ -266,9 +312,15 @@ Four friends line up: Ha is in front of Lan, Lan is in front of Mai, Mai is in f
 2. Write the others in order.
 
 ::solution
-The order from the start: Ha, Lan, Mai, Nam.
+We line the four friends up from the start of the line.
 
-**Check.** Ha before Lan, Lan before Mai, Mai before Nam. Correct.
+Ha is in front of Lan, Lan is in front of Mai, and Mai is in front of Nam, so the order from the start is: Ha, Lan, Mai, Nam.
+
+Check: Ha is before Lan, Lan is before Mai, Mai is before Nam. Correct.
+
+The friend who is second from the start is Lan. The friend who is last is Nam.
+
+So Lan is second and Nam is last.
 
 **Answer.** Lan is second; Nam is last.
 :::

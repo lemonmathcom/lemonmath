@@ -151,11 +151,15 @@ c) $8\times6$.
 2. Dừng ở số thứ tự cần tìm.
 
 ::solution
-a) $8\times3=24$.
+Ta dùng bảng nhân $8$: mỗi lần thêm một lần $8$ thì tích tăng thêm $8$.
 
-b) $8\times5=40$.
+a) $8\times3=8+8+8=24$.
 
-c) $8\times6=48$.
+b) Từ $8\times3=24$, ta có $8\times4=24+8=32$ và $8\times5=32+8=40$.
+
+c) Từ $8\times5=40$, ta có $8\times6=40+8=48$.
+
+Vậy $8\times3=24$; $8\times5=40$; $8\times6=48$.
 
 **Đáp số.** a) $24$; b) $40$; c) $48$.
 :::
@@ -177,11 +181,15 @@ c) $8\times10$.
 2. Cộng thêm $8$.
 
 ::solution
+Ta tiếp tục từ $8\times6=48$: mỗi lần thêm một lần $8$ thì tích tăng thêm $8$.
+
 a) $8\times7=48+8=56$.
 
-b) $8\times9=64+8=72$.
+b) Ta có $8\times8=56+8=64$, nên $8\times9=64+8=72$.
 
 c) $8\times10=72+8=80$.
+
+Vậy $8\times7=56$; $8\times9=72$; $8\times10=80$.
 
 **Đáp số.** a) $56$; b) $72$; c) $80$.
 :::
@@ -203,11 +211,13 @@ c) $7\times9$ và $8\times8$.
 2. So sánh kết quả.
 
 ::solution
-a) $7\times8=56$.
+a) Theo bảng nhân $7$, ta có $7\times8=56$.
 
-b) $8\times7=56$, bằng $7\times8$.
+b) Khi đổi chỗ hai thừa số thì tích không thay đổi, nên $8\times7=56$, bằng $7\times8$.
 
-c) $7\times9=63$ và $8\times8=64$, nên $7\times9<8\times8$.
+c) Theo bảng nhân $7$, $7\times9=63$. Theo bảng nhân $8$, $8\times8=64$. Vì $63<64$ nên $7\times9<8\times8$.
+
+Vậy $7\times8=8\times7=56$ và $7\times9=63<64=8\times8$.
 
 **Đáp số.** a) $56$; b) $56$; c) $63$ và $64$.
 :::
@@ -229,11 +239,15 @@ c) $80:8$.
 2. Số còn lại là thương.
 
 ::solution
-a) $8\times2=16$ nên $16:8=2$.
+Muốn chia cho $8$, ta tìm số nhân với $8$ được số bị chia.
 
-b) $8\times7=56$ nên $56:8=7$.
+a) Vì $8\times2=16$ nên $16:8=2$.
 
-c) $8\times10=80$ nên $80:8=10$.
+b) Vì $8\times7=56$ nên $56:8=7$.
+
+c) Vì $8\times10=80$ nên $80:8=10$.
+
+Vậy $16:8=2$; $56:8=7$; $80:8=10$.
 
 **Đáp số.** a) $2$; b) $7$; c) $10$.
 :::
@@ -255,11 +269,15 @@ c) $8\times8 \;\square\; 4\times16$.
 2. So sánh kết quả.
 
 ::solution
-a) $8\times6=48$ và $48<50$ nên $8\times6<50$.
+Ta tính giá trị của mỗi vế rồi so sánh hai số.
 
-b) $72:8=9$ và $8\times1=8$, $9>8$ nên $72:8>8\times1$.
+a) Ta có $8\times6=48$. Vì $48<50$ nên $8\times6<50$.
 
-c) $8\times8=64$ và $4\times16=64$ nên hai vế bằng nhau.
+b) Ta có $72:8=9$ (vì $8\times9=72$) và $8\times1=8$. Vì $9>8$ nên $72:8>8\times1$.
+
+c) Ta có $8\times8=64$ và $4\times16=64$. Hai số bằng nhau nên $8\times8=4\times16$.
+
+Vậy các dấu cần điền là $<$, $>$, $=$.
 
 **Đáp số.** a) $<$; b) $>$; c) $=$.
 :::
@@ -275,9 +293,14 @@ Tâm viết: "$8\times7=54$". Tâm sai ở đâu? Hãy sửa lại.
 2. Thử lại bằng phép chia.
 
 ::solution
-$8\times7=8\times6+8=48+8=56$, không phải $54$.
+Ta tính lại $8\times7$ bằng cách thêm $8$ vào $8\times6$:
+$$8\times7=8\times6+8=48+8=56.$$
 
-**Thử lại.** $56:8=7$. Đúng.
+Tâm viết $54$ là sai, vì tích đúng là $56$.
+
+Thử lại: $56:8=7$, vì $8\times7=56$. Đúng.
+
+Vậy Tâm đã nhớ nhầm tích. Phép tính đúng là $8\times7=56$.
 
 **Đáp số.** Tâm nhớ nhầm tích; $8\times7=56$.
 :::
@@ -295,9 +318,19 @@ b) Có $64$ quả xoài xếp vào các giỏ, mỗi giỏ $8$ quả. Hỏi xế
 2. Chọn phép tính, tính rồi ghi đáp số có đơn vị.
 
 ::solution
-a) Số chân là $8\times9=72$ (chân).
+Bài giải
 
-b) Số giỏ là $64:8=8$ (giỏ).
+a) Mỗi con nhện có $8$ chân nên số chân của $9$ con nhện là:
+$$8\times9=72\ \text{(chân)}.$$
+
+Vậy $9$ con nhện có $72$ chân.
+
+b) Có $64$ quả xoài, mỗi giỏ $8$ quả nên số giỏ xếp được là:
+$$64:8=8\ \text{(giỏ)}.$$
+
+Kiểm tra: $8\times8=64$.
+
+Vậy xếp được $8$ giỏ.
 
 **Đáp số.** a) $72$ chân; b) $8$ giỏ.
 :::
@@ -317,9 +350,23 @@ b) Còn bao nhiêu túi chưa đóng, và còn bao nhiêu viên bi chưa đóng 
 2. Trừ số túi đã đóng, rồi tính số bi còn lại.
 
 ::solution
-a) Số túi cần dùng là $80:8=10$ (túi).
+Bài giải
 
-b) Số túi chưa đóng là $10-6=4$ (túi). Số bi đã đóng là $8\times6=48$ (viên), nên số bi chưa đóng là $80-48=32$ (viên). Kiểm tra: $8\times4=32$.
+a) Có $80$ viên bi, mỗi túi $8$ viên nên số túi cần dùng là:
+$$80:8=10\ \text{(túi)}.$$
+
+Vậy cần tất cả $10$ túi.
+
+b) Số túi chưa đóng là:
+$$10-6=4\ \text{(túi)}.$$
+Số viên bi đã đóng là:
+$$8\times6=48\ \text{(viên)}.$$
+Số viên bi chưa đóng túi là:
+$$80-48=32\ \text{(viên)}.$$
+
+Kiểm tra: $8\times4=32$.
+
+Vậy còn $4$ túi chưa đóng và còn $32$ viên bi chưa đóng túi.
 
 **Đáp số.** a) $10$ túi; b) $4$ túi và $32$ viên bi.
 :::

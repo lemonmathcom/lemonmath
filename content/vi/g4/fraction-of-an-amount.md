@@ -163,7 +163,15 @@ Tìm $\dfrac{3}{4}$ của $20$.
 2. Lấy $3$ phần.
 
 ::solution
-Mỗi phần là $20:4=5$. Lấy $3$ phần: $5\times3=15$.
+Muốn tìm $\dfrac{3}{4}$ của $20$, ta chia $20$ thành $4$ phần bằng nhau rồi lấy $3$ phần.
+
+Giá trị của mỗi phần là:
+$$20:4=5.$$
+
+Giá trị của $3$ phần là:
+$$5\times3=15.$$
+
+Vậy $\dfrac{3}{4}$ của $20$ là $15$.
 
 **Đáp số.** $15$.
 :::
@@ -179,7 +187,12 @@ Tìm $\dfrac{2}{5}$ của $30$.
 2. Nhân với tử số.
 
 ::solution
+Muốn tìm $\dfrac{2}{5}$ của $30$, ta chia $30$ thành $5$ phần bằng nhau rồi lấy $2$ phần.
+
+Ta có
 $$30:5\times2=6\times2=12.$$
+
+Vậy $\dfrac{2}{5}$ của $30$ là $12$.
 
 **Đáp số.** $12$.
 :::
@@ -195,7 +208,12 @@ Tìm $\dfrac{7}{8}$ của $64$.
 2. Lấy $7$ phần.
 
 ::solution
+Muốn tìm $\dfrac{7}{8}$ của $64$, ta chia $64$ thành $8$ phần bằng nhau rồi lấy $7$ phần.
+
+Ta có
 $$64:8\times7=8\times7=56.$$
+
+Vậy $\dfrac{7}{8}$ của $64$ là $56$.
 
 **Đáp số.** $56$.
 :::
@@ -211,8 +229,14 @@ Một giờ có $60$ phút. Hỏi $\dfrac{2}{3}$ giờ là bao nhiêu phút?
 2. Chia $60$ cho $3$ rồi nhân với $2$.
 
 ::solution
+Bài giải
+
+Muốn tìm $\dfrac{2}{3}$ giờ là bao nhiêu phút, ta tìm $\dfrac{2}{3}$ của $60$ phút.
+
 Số phút trong $\dfrac{2}{3}$ giờ là:
-$$60:3\times2=20\times2=40\ \text{(phút)}.$$
+$$60:3\times2=20\times2=40\ \text{(phút)}$$
+
+Vậy $\dfrac{2}{3}$ giờ là $40$ phút.
 
 **Đáp số.** $40$ phút.
 :::
@@ -228,9 +252,17 @@ Một bể chứa $480$ lít nước. Người ta đã dùng $\dfrac{3}{8}$ lư�
 2. Tìm $\dfrac{3}{8}$ của $480$, rồi trừ.
 
 ::solution
-Số lít nước đã dùng là $480:8\times3=60\times3=180$ (lít).
+Bài giải
 
-Số lít nước còn lại là $480-180=300$ (lít).
+Số lít nước đã dùng là $\dfrac{3}{8}$ của $480$ lít, tức là:
+$$480:8\times3=60\times3=180\ \text{(lít)}$$
+
+Số lít nước còn lại trong bể là:
+$$480-180=300\ \text{(lít)}$$
+
+*Thử lại.* Số nước còn lại là $\dfrac{5}{8}$ lượng nước trong bể và $480:8\times5=60\times5=300$ (lít). Đúng.
+
+Vậy đã dùng $180$ lít nước và trong bể còn lại $300$ lít nước.
 
 **Đáp số.** Đã dùng $180$ lít; còn lại $300$ lít.
 :::
@@ -246,11 +278,18 @@ Một mảnh vải dài $18$ m. Người ta dùng $\dfrac{2}{9}$ mảnh vải đ
 2. Lấy $18$ trừ cả hai số đó.
 
 ::solution
-Số mét vải may áo là $18:9\times2=4$ (m).
+Bài giải
 
-Số mét vải may quần là $18:3=6$ (m).
+Số mét vải dùng để may áo là $\dfrac{2}{9}$ của $18$ m, tức là:
+$$18:9\times2=2\times2=4\ \text{(m)}$$
 
-Số mét vải còn lại là $18-4-6=8$ (m).
+Số mét vải dùng để may quần là $\dfrac{1}{3}$ của $18$ m, tức là:
+$$18:3=6\ \text{(m)}$$
+
+Số mét vải còn lại là:
+$$18-4-6=8\ \text{(m)}$$
+
+Vậy còn lại $8$ m vải.
 
 **Đáp số.** $8$ m.
 :::
@@ -266,8 +305,12 @@ Nam có $150\,000$ đồng và tiêu $\dfrac{2}{5}$ số tiền đó để mua s
 2. Chia $150\,000$ cho $5$ rồi nhân với $2$.
 
 ::solution
-Số tiền Nam tiêu để mua sách là:
-$$150\,000:5\times2=30\,000\times2=60\,000\ \text{(đồng)}.$$
+Bài giải
+
+Số tiền Nam đã tiêu để mua sách là $\dfrac{2}{5}$ của $150\,000$ đồng, tức là:
+$$150\,000:5\times2=30\,000\times2=60\,000\ \text{(đồng)}$$
+
+Vậy Nam đã tiêu $60\,000$ đồng để mua sách.
 
 **Đáp số.** $60\,000$ đồng.
 :::
@@ -283,7 +326,15 @@ Em hãy nhớ lại bài nhân phân số. Tìm $\dfrac{2}{3}$ của $\dfrac{3}{
 2. Rút gọn kết quả.
 
 ::solution
-$$\dfrac{3}{5}\times\dfrac{2}{3}=\dfrac{6}{15}=\dfrac{2}{5}.$$
+Tìm $\dfrac{2}{3}$ của $\dfrac{3}{5}$ nghĩa là lấy $\dfrac{3}{5}$ nhân với $\dfrac{2}{3}$.
+
+Muốn nhân hai phân số, ta lấy tử số nhân với tử số, mẫu số nhân với mẫu số:
+$$\frac{3}{5}\times\frac{2}{3}=\frac{3\times2}{5\times3}=\frac{6}{15}.$$
+
+Rút gọn phân số bằng cách chia cả tử số và mẫu số cho $3$:
+$$\frac{6}{15}=\frac{6:3}{15:3}=\frac{2}{5}.$$
+
+Vậy $\dfrac{2}{3}$ của $\dfrac{3}{5}$ là $\dfrac{2}{5}$.
 
 **Đáp số.** $\dfrac{2}{5}$.
 :::
@@ -299,11 +350,18 @@ Em hãy nhớ lại bài so sánh và trừ phân số. Một lớp có $40$ h�
 2. Lấy số lớn trừ số bé.
 
 ::solution
-Số em thích Toán là $40:5\times3=24$ (em).
+Bài giải
 
-Số em thích Văn là $40:4=10$ (em).
+Số em thích môn Toán là $\dfrac{3}{5}$ của $40$ em, tức là:
+$$40:5\times3=8\times3=24\ \text{(em)}$$
 
-Số em thích Toán nhiều hơn số em thích Văn là $24-10=14$ (em).
+Số em thích môn Văn là $\dfrac{1}{4}$ của $40$ em, tức là:
+$$40:4=10\ \text{(em)}$$
+
+Số em thích Toán nhiều hơn số em thích Văn là:
+$$24-10=14\ \text{(em)}$$
+
+Vậy số em thích Toán nhiều hơn số em thích Văn là $14$ em.
 
 **Đáp số.** $14$ em.
 :::
@@ -319,11 +377,19 @@ Khối lớp $4$ của một trường có một số học sinh. Biết $\dfrac
 2. Cả khối là $5$ phần.
 
 ::solution
-$3$ phần là $36$ em nên $1$ phần là $36:3=12$ (em).
+Bài giải
 
-Cả khối có $5$ phần, tức là $12\times5=60$ (em).
+$\dfrac{3}{5}$ số học sinh của khối là $36$ em, tức là $3$ phần bằng nhau có tất cả $36$ em.
 
-**Thử lại.** $\dfrac{3}{5}$ của $60$ là $60:5\times3=36$. Đúng.
+Số học sinh của mỗi phần là:
+$$36:3=12\ \text{(em)}$$
+
+Cả khối có $5$ phần như vậy, nên số học sinh của khối lớp $4$ là:
+$$12\times5=60\ \text{(em)}$$
+
+*Thử lại.* $\dfrac{3}{5}$ của $60$ là $60:5\times3=12\times3=36$. Đúng.
+
+Vậy khối lớp $4$ có $60$ học sinh.
 
 **Đáp số.** $60$ học sinh.
 :::

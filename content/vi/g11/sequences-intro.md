@@ -190,7 +190,15 @@ Cho dãy số $(u_n)$ với $u_n=n^2-3n$. Viết năm số hạng đầu. Số $
 2. Giải $n^2-3n=28$ và chọn nghiệm nguyên dương.
 
 ::solution
-Ta có $u_1=-2$, $u_2=-2$, $u_3=0$, $u_4=4$, $u_5=10$. Xét $n^2-3n=28$, tức $n^2-3n-28=0$, $(n-7)(n+4)=0$. Nghiệm nguyên dương là $n=7$.
+Số hạng thứ $n$ của dãy là $u_n=n^2-3n$ với $n$ là số nguyên dương. Thay lần lượt $n=1,2,3,4,5$:
+$$u_1=1-3=-2,\quad u_2=4-6=-2,\quad u_3=9-9=0,\quad u_4=16-12=4,\quad u_5=25-15=10.$$
+
+Để xét $28$ có là số hạng của dãy hay không, ta giải phương trình $u_n=28$ với $n\in\mathbb N^*$:
+$$\begin{aligned}n^2-3n&=28\\n^2-3n-28&=0\\ (n-7)(n+4)&=0.\end{aligned}$$
+
+Suy ra $n=7$ hoặc $n=-4$. Chỉ có $n=7$ là số nguyên dương (thoả mãn điều kiện); $n=-4$ bị loại. Kiểm tra: $u_7=49-21=28$.
+
+Vậy năm số hạng đầu là $-2, -2, 0, 4, 10$; số $28$ là số hạng của dãy và là số hạng thứ $7$.
 
 **Đáp số.** $-2, -2, 0, 4, 10$; $28$ là số hạng thứ $7$.
 :::
@@ -206,7 +214,10 @@ Cho dãy số $(u_n)$ với $u_1=-1$ và $u_{n+1}=u_n+2n$. Viết năm số hạ
 2. Tiếp tục với $n=2, 3, 4$.
 
 ::solution
-$u_2=-1+2=1$; $u_3=1+4=5$; $u_4=5+6=11$; $u_5=11+8=19$.
+Dãy được cho bởi số hạng đầu $u_1=-1$ và hệ thức truy hồi $u_{n+1}=u_n+2n$. Ta tính lần lượt từng số hạng, lấy $n=1,2,3,4$:
+$$\begin{aligned}u_2&=u_1+2\cdot1=-1+2=1,\\u_3&=u_2+2\cdot2=1+4=5,\\u_4&=u_3+2\cdot3=5+6=11,\\u_5&=u_4+2\cdot4=11+8=19.\end{aligned}$$
+
+Vậy năm số hạng đầu của dãy là $-1, 1, 5, 11, 19$.
 
 **Đáp số.** $-1, 1, 5, 11, 19$.
 :::
@@ -223,11 +234,17 @@ Dự đoán công thức số hạng tổng quát của các dãy số: a) $1, 4
 3. Câu c: so sánh tử và mẫu với $n$.
 
 ::solution
-a) Mỗi số hạng hơn số hạng trước $3$ và $u_1=1$, nên $u_n=1+3(n-1)=3n-2$.
+Ta nhận xét quy luật của từng dãy rồi kiểm tra lại công thức dự đoán.
 
-b) $2=2^1$, $4=2^2$, $8=2^3$, nên $u_n=2^n$.
+a) Dãy $1, 4, 7, 10, 13,\dots$ có $u_1=1$ và mỗi số hạng hơn số hạng liền trước $3$ đơn vị, nên đây là cấp số cộng với công sai $3$. Do đó
+$$u_n=1+3(n-1)=3n-2.$$
+Kiểm tra: $u_5=3\cdot5-2=13$.
 
-c) Tử là $n$, mẫu là $n+1$, nên $u_n=\dfrac{n}{n+1}$.
+b) Ta có $2=2^1$, $4=2^2$, $8=2^3$, $16=2^4$. Số mũ của $2$ bằng số thứ tự của số hạng, nên $u_n=2^n$.
+
+c) Các số hạng $\dfrac12,\dfrac23,\dfrac34,\dfrac45,\dots$ có tử số bằng số thứ tự $n$ và mẫu số lớn hơn tử số $1$ đơn vị, tức là $n+1$. Do đó $u_n=\dfrac{n}{n+1}$.
+
+Vậy a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 
 **Đáp số.** a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 :::
@@ -243,7 +260,15 @@ Xét tính tăng, giảm và bị chặn của dãy số $(u_n)$ với $u_n=\dfr
 2. Tìm số $M$ chặn trên và số $m$ chặn dưới.
 
 ::solution
-Ta có $u_{n+1}=\dfrac{3n+1}{n+2}$ nên $u_{n+1}-u_n=\dfrac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}=\dfrac{5}{(n+1)(n+2)}>0$, tức dãy tăng. Vì $u_n=3-\dfrac{5}{n+1}<3$ và dãy tăng nên $u_n\ge u_1=\dfrac12$.
+Dãy xác định với mọi $n\ge1$ (mẫu $n+1>0$).
+
+Xét tính tăng, giảm. Ta có $u_{n+1}=\dfrac{3(n+1)-2}{(n+1)+1}=\dfrac{3n+1}{n+2}$, nên
+$$\begin{aligned}u_{n+1}-u_n&=\frac{3n+1}{n+2}-\frac{3n-2}{n+1}\\&=\frac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}\\&=\frac{(3n^2+4n+1)-(3n^2+4n-4)}{(n+1)(n+2)}\\&=\frac{5}{(n+1)(n+2)}.\end{aligned}$$
+Vì $n\ge1$ nên $(n+1)(n+2)>0$, suy ra $u_{n+1}-u_n>0$. Do đó $(u_n)$ là dãy số tăng.
+
+Xét tính bị chặn. Viết $u_n=\dfrac{3(n+1)-5}{n+1}=3-\dfrac5{n+1}$. Vì $\dfrac5{n+1}>0$ nên $u_n<3$: dãy bị chặn trên bởi $3$. Vì dãy tăng nên $u_n\ge u_1=\dfrac{3-2}{2}=\dfrac12$: dãy bị chặn dưới bởi $\dfrac12$. Như vậy $\dfrac12\le u_n<3$ với mọi $n$.
+
+Vậy dãy số $(u_n)$ là dãy tăng và bị chặn (vì vừa bị chặn trên, vừa bị chặn dưới).
 
 **Đáp số.** Dãy tăng; $\dfrac12\le u_n<3$ nên dãy bị chặn.
 :::
@@ -259,7 +284,19 @@ An mua một chiếc điện thoại giá $24$ triệu đồng, trả góp khôn
 2. Tìm $u_n$ theo $n$ rồi giải $u_n=0$.
 
 ::solution
-Sau tháng thứ nhất còn nợ $u_1=22$, và $u_{n+1}=u_n-2$. Từ $u_1$ đến $u_n$ ta trừ $2$ đúng $n-1$ lần nên $u_n=22-2(n-1)=24-2n$. Giải $24-2n=0$ ta được $n=12$.
+Gọi $u_n$ (triệu đồng) là số tiền còn nợ sau tháng thứ $n$ ($n\in\mathbb N^*$). Ban đầu An nợ $24$ triệu đồng, mỗi tháng trả $2$ triệu đồng.
+
+Hệ thức truy hồi. Sau tháng thứ nhất, số tiền còn nợ là $u_1=24-2=22$. Mỗi tháng tiếp theo, số tiền nợ giảm $2$ triệu đồng, nên
+$$u_{n+1}=u_n-2.$$
+
+Công thức tổng quát. Dãy $(u_n)$ là cấp số cộng với số hạng đầu $u_1=22$ và công sai $-2$. Từ $u_1$ đến $u_n$ ta trừ $2$ đúng $n-1$ lần, nên
+$$u_n=22-2(n-1)=24-2n.$$
+
+Thời gian hết nợ. An hết nợ khi $u_n=0$:
+$$24-2n=0\iff n=12.$$
+Giá trị $n=12$ là số nguyên dương (thoả mãn điều kiện). Kiểm tra: $2\cdot12=24$ triệu đồng.
+
+Vậy hệ thức truy hồi là $u_1=22$, $u_{n+1}=u_n-2$; công thức tổng quát là $u_n=24-2n$; An hết nợ sau $12$ tháng.
 
 **Đáp số.** $u_1=22$, $u_{n+1}=u_n-2$; $u_n=24-2n$; hết nợ sau $12$ tháng.
 :::
@@ -275,7 +312,19 @@ Một rạp chiếu phim có hàng ghế thứ nhất gồm $20$ ghế, mỗi h�
 2. Tính $a_{15}$ và giải $a_n=40$.
 
 ::solution
-Ta có $a_n=20+2(n-1)=18+2n$. Do đó $a_{15}=18+30=48$. Giải $18+2n=40$ ta được $n=11$.
+Hàng thứ nhất có $a_1=20$ ghế, mỗi hàng sau nhiều hơn hàng trước $2$ ghế, tức là $a_{n+1}=a_n+2$. Vậy $(a_n)$ là cấp số cộng với số hạng đầu $20$ và công sai $2$.
+
+Công thức của $a_n$:
+$$a_n=a_1+(n-1)\cdot2=20+2(n-1)=18+2n.$$
+
+Số ghế ở hàng thứ $15$:
+$$a_{15}=18+2\cdot15=18+30=48.$$
+
+Hàng có $40$ ghế: giải $a_n=40$ với $n\in\mathbb N^*$,
+$$18+2n=40\iff2n=22\iff n=11.$$
+Giá trị $n=11$ là số nguyên dương (thoả mãn điều kiện).
+
+Vậy $a_n=18+2n$; hàng thứ $15$ có $48$ ghế; hàng thứ $11$ có $40$ ghế.
 
 **Đáp số.** $a_n=18+2n$; hàng thứ $15$ có $48$ ghế; hàng thứ $11$ có $40$ ghế.
 :::
@@ -300,13 +349,20 @@ d) $1\le u_n<2$ với mọi $n$.
 3. c), d) Dùng $0<\dfrac1n\le1$.
 
 ::solution
-a) **Đúng**: $u_4=\dfrac{2\cdot4-1}{4}=\dfrac74$.
+Ta có $u_n=\dfrac{2n-1}{n}=2-\dfrac1n$ với $n\in\mathbb N^*$.
 
-b) **Đúng**: $u_{n+1}-u_n=\dfrac1n-\dfrac{1}{n+1}=\dfrac{1}{n(n+1)}>0$.
+a) **Đúng.** Thay $n=4$, ta được
+$$u_4=\frac{2\cdot4-1}{4}=\frac74.$$
 
-c) **Sai**: $u_n=2-\dfrac1n<2$; chẳng hạn $u_1=1<2$.
+b) **Đúng.** Ta có
+$$u_{n+1}-u_n=\left(2-\frac1{n+1}\right)-\left(2-\frac1n\right)=\frac1n-\frac1{n+1}=\frac{1}{n(n+1)}.$$
+Vì $n\ge1$ nên $\dfrac1{n(n+1)}>0$, suy ra $u_{n+1}>u_n$. Vậy $(u_n)$ là dãy số tăng.
 
-d) **Đúng**: vì $0<\dfrac1n\le1$ nên $1\le2-\dfrac1n<2$.
+c) **Sai.** Vì $\dfrac1n>0$ nên $u_n=2-\dfrac1n<2$ với mọi $n$. Chẳng hạn $u_1=1<2$, nên không có $u_n\ge2$ với mọi $n$.
+
+d) **Đúng.** Với $n\ge1$ ta có $0<\dfrac1n\le1$, suy ra $-1\le-\dfrac1n<0$. Cộng $2$ vào các vế, ta được $1\le2-\dfrac1n<2$, tức là $1\le u_n<2$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -322,7 +378,16 @@ Dãy số Fibonacci được cho bởi $u_1=1$, $u_2=1$ và $u_{n+1}=u_n+u_{n-1}
 2. Dừng ở số hạng thứ $12$.
 
 ::solution
-Các số hạng là $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144$.
+Ta có $u_1=1$, $u_2=1$ và $u_{n+1}=u_n+u_{n-1}$ với $n\ge2$, nghĩa là mỗi số hạng từ số hạng thứ ba bằng tổng của hai số hạng liền trước. Ta tính lần lượt:
+$$\begin{aligned}u_3&=u_2+u_1=1+1=2,\\u_4&=u_3+u_2=2+1=3,\\u_5&=u_4+u_3=3+2=5,\\u_6&=u_5+u_4=5+3=8,\\u_7&=u_6+u_5=8+5=13,\\u_8&=u_7+u_6=13+8=21,\\u_9&=u_8+u_7=21+13=34,\\u_{10}&=u_9+u_8=34+21=55,\\u_{11}&=u_{10}+u_9=55+34=89,\\u_{12}&=u_{11}+u_{10}=89+55=144.\end{aligned}$$
+
+Tóm tắt các số hạng:
+
+| $n$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| $u_n$ | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 | 55 | 89 | 144 |
+
+Vậy $u_{12}=144$.
 
 **Đáp số.** $u_{12}=144$.
 :::
@@ -338,7 +403,16 @@ Cho dãy số $(u_n)$ với $u_n=\sin\dfrac{n\pi}{2}$. Viết sáu số hạng �
 2. Tìm số dư của $2027$ khi chia cho $4$.
 
 ::solution
-Sáu số hạng đầu là $1, 0, -1, 0, 1, 0$. Vì $-1\le\sin x\le1$ nên $-1\le u_n\le1$, dãy bị chặn. Vì $u_{n+4}=\sin\left(\dfrac{n\pi}{2}+2\pi\right)=u_n$ và $2027=4\cdot506+3$ nên $u_{2027}=u_3=-1$.
+Sáu số hạng đầu. Thay $n=1,\dots,6$ vào $u_n=\sin\dfrac{n\pi}{2}$:
+$$\begin{aligned}u_1&=\sin\frac\pi2=1,&u_2&=\sin\pi=0,&u_3&=\sin\frac{3\pi}2=-1,\\u_4&=\sin2\pi=0,&u_5&=\sin\frac{5\pi}2=1,&u_6&=\sin3\pi=0.\end{aligned}$$
+
+Tính bị chặn. Vì $-1\le\sin x\le1$ với mọi $x$ nên $-1\le u_n\le1$ với mọi $n$. Do đó dãy bị chặn.
+
+Tính $u_{2027}$. Ta có
+$$u_{n+4}=\sin\left(\frac{n\pi}{2}+2\pi\right)=\sin\frac{n\pi}{2}=u_n,$$
+nên dãy tuần hoàn với chu kì $4$: $u_n=u_{n+4}=u_{n+8}=\cdots$. Vì $2027=4\cdot506+3$ nên $u_{2027}=u_3=-1$.
+
+Vậy sáu số hạng đầu là $1, 0, -1, 0, 1, 0$; dãy bị chặn; $u_{2027}=-1$.
 
 **Đáp số.** $1, 0, -1, 0, 1, 0$; dãy bị chặn; $u_{2027}=-1$.
 :::
@@ -355,7 +429,17 @@ Cho dãy số $(u_n)$ với $u_n=n+\dfrac1n$. Chứng minh $(u_n)$ là dãy số
 3. Với mọi số $M$, tìm $n$ để $u_n>M$.
 
 ::solution
-Ta có $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Vì $n(n+1)\ge2$ nên $\dfrac{1}{n(n+1)}\le\dfrac12$ và $u_{n+1}-u_n\ge\dfrac12>0$: dãy tăng. Từ $(n-1)^2\ge0$ ta có $n^2+1\ge2n$, chia cho $n>0$ được $u_n\ge2$: dãy bị chặn dưới. Với mọi số $M$, lấy số nguyên dương $n>M$ thì $u_n>n>M$, nên không có $M$ nào chặn trên dãy.
+Ta chứng minh ba tính chất cho $u_n=n+\dfrac1n$ với $n\in\mathbb N^*$.
+
+Dãy tăng. Ta có
+$$u_{n+1}-u_n=\left(n+1+\frac1{n+1}\right)-\left(n+\frac1n\right)=1+\frac1{n+1}-\frac1n=1-\frac{1}{n(n+1)}.$$
+Vì $n\ge1$ nên $n(n+1)\ge2$, suy ra $\dfrac1{n(n+1)}\le\dfrac12$. Do đó $u_{n+1}-u_n\ge1-\dfrac12=\dfrac12>0$. Vậy $(u_n)$ là dãy số tăng.
+
+Dãy bị chặn dưới. Với mọi số thực ta có $(n-1)^2\ge0$, tức $n^2-2n+1\ge0$, hay $n^2+1\ge2n$. Chia cả hai vế cho $n>0$ (không đổi chiều), ta được $n+\dfrac1n\ge2$, tức $u_n\ge2$ với mọi $n$. Vậy dãy bị chặn dưới bởi $2$.
+
+Dãy không bị chặn trên. Giả sử có số $M$ để $u_n\le M$ với mọi $n$. Lấy số nguyên dương $n>M$. Vì $\dfrac1n>0$ nên $u_n=n+\dfrac1n>n>M$, mâu thuẫn với $u_n\le M$. Vậy không có số $M$ nào chặn trên dãy.
+
+Vậy $(u_n)$ là dãy số tăng, bị chặn dưới nhưng không bị chặn trên.
 
 **Đáp số.** Dãy tăng, bị chặn dưới bởi $2$, không bị chặn trên.
 :::

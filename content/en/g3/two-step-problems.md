@@ -152,10 +152,16 @@ A tank holds $36$ litres of oil. Another $25$ litres are poured in, then $40$ li
 2. Add first, then subtract.
 
 ::solution
-The number of litres after pouring in more is:
-$$36+25=61\ \text{(litres)}.$$
-The number of litres left is:
-$$61-40=21\ \text{(litres)}.$$
+Solution
+
+The number of litres of oil in the tank after pouring in more is:
+$$36+25=61\ \text{(litres)}$$
+
+The number of litres left after using $40$ litres is:
+$$61-40=21\ \text{(litres)}$$
+
+So there are $21$ litres of oil left in the tank.
+
 **Answer.** $21$ litres of oil.
 :::
 
@@ -170,10 +176,16 @@ A teacher buys $4$ boxes of pens with $6$ pens in each box, and $5$ more loose p
 2. Add the loose pens.
 
 ::solution
+Solution
+
 The number of pens in $4$ boxes is:
-$$6\times 4=24\ \text{(pens)}.$$
-The number of pens she buys altogether is:
-$$24+5=29\ \text{(pens)}.$$
+$$6\times 4=24\ \text{(pens)}$$
+
+The number of pens she buys altogether (pens in boxes and loose pens) is:
+$$24+5=29\ \text{(pens)}$$
+
+So the teacher buys $29$ pens altogether.
+
 **Answer.** $29$ pens.
 :::
 
@@ -188,10 +200,16 @@ $36$ oranges are shared equally onto $4$ plates, then each plate gets $2$ more o
 2. Add $2$.
 
 ::solution
+Solution
+
 The number of oranges on each plate at first is:
-$$36\div4=9\ \text{(oranges)}.$$
-The number of oranges on each plate now is:
-$$9+2=11\ \text{(oranges)}.$$
+$$36\div4=9\ \text{(oranges)}$$
+
+The number of oranges on each plate now, after adding $2$ more, is:
+$$9+2=11\ \text{(oranges)}$$
+
+So each plate now has $11$ oranges.
+
 **Answer.** $11$ oranges.
 :::
 
@@ -206,10 +224,16 @@ A garden has $7$ rows of trees with $8$ trees in each row. A farmer has watered 
 2. Subtract the trees already watered.
 
 ::solution
-The number of trees in the garden is:
-$$8\times 7=56\ \text{(trees)}.$$
+Solution
+
+The number of trees in the garden ($7$ rows with $8$ trees in each row) is:
+$$8\times 7=56\ \text{(trees)}$$
+
 The number of trees not watered is:
-$$56-20=36\ \text{(trees)}.$$
+$$56-20=36\ \text{(trees)}$$
+
+So $36$ trees have not been watered.
+
 **Answer.** $36$ trees.
 :::
 
@@ -224,10 +248,16 @@ Remember the lesson on making a number several times smaller. Nam has $56$ marbl
 2. "How many fewer" is a subtraction.
 
 ::solution
-The number of marbles Hoa has is:
-$$56\div7=8\ \text{(marbles)}.$$
+Solution
+
+Making a number $7$ times smaller means dividing it by $7$. The number of marbles Hoa has is:
+$$56\div7=8\ \text{(marbles)}$$
+
 The number of marbles Hoa has fewer than Nam is:
-$$56-8=48\ \text{(marbles)}.$$
+$$56-8=48\ \text{(marbles)}$$
+
+So Hoa has $48$ fewer marbles than Nam.
+
 **Answer.** $48$ marbles.
 :::
 
@@ -242,10 +272,18 @@ $38$ pupils go on a trip by coach, and each coach carries at most $7$ pupils. Wh
 2. How many more coaches do the leftover pupils need?
 
 ::solution
-We have $38\div7=5$ (remainder $3$). There are $5$ full coaches and $3$ pupils have no place, so we need $1$ more coach.
+Solution
+
+We divide $38$ pupils by $7$ pupils per coach:
+$$38\div7=5\ \text{(remainder }3\text{)}$$
+
+There are $5$ full coaches carrying $7$ pupils each, and $3$ pupils still have no place. Since each coach carries at most $7$ pupils, these $3$ pupils need $1$ more coach.
 
 The least number of coaches is:
-$$5+1=6\ \text{(coaches)}.$$
+$$5+1=6\ \text{(coaches)}$$
+
+So at least $6$ coaches are needed to carry all the pupils.
+
 **Answer.** $6$ coaches.
 :::
 
@@ -260,10 +298,16 @@ A sack holds $50$ kg of rice. A seller has sold $3$ bags of $8$ kg each. How man
 2. Subtract the rice sold from the rice at the start.
 
 ::solution
-The number of kilograms of rice sold is:
-$$8\times 3=24\ \text{(kg)}.$$
-The number of kilograms of rice left is:
-$$50-24=26\ \text{(kg)}.$$
+Solution
+
+The number of kilograms of rice sold ($3$ bags of $8$ kg each) is:
+$$8\times 3=24\ \text{(kg)}$$
+
+The number of kilograms of rice left in the sack is:
+$$50-24=26\ \text{(kg)}$$
+
+So $26$ kilograms of rice are left in the sack.
+
 **Answer.** $26$ kg of rice.
 :::
 
@@ -278,12 +322,19 @@ Lan has $5$ bags of sweets with $6$ sweets in each bag. She gives Mai $12$ sweet
 2. Take away the sweets given to Mai, then share among $3$ friends.
 
 ::solution
-The number of sweets Lan has is:
-$$6\times 5=30\ \text{(sweets)}.$$
-The number of sweets left after giving some to Mai is:
-$$30-12=18\ \text{(sweets)}.$$
-The number of sweets each friend gets is:
-$$18\div3=6\ \text{(sweets)}.$$
+Solution
+
+The number of sweets Lan has ($5$ bags with $6$ sweets in each bag) is:
+$$6\times 5=30\ \text{(sweets)}$$
+
+The number of sweets left after Lan gives Mai $12$ sweets is:
+$$30-12=18\ \text{(sweets)}$$
+
+The number of sweets each friend gets when they are shared equally among $3$ friends is:
+$$18\div3=6\ \text{(sweets)}$$
+
+So each friend gets $6$ sweets.
+
 **Answer.** $6$ sweets.
 :::
 

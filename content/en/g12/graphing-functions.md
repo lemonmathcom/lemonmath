@@ -313,7 +313,13 @@ Using the graph of $y=x^3-3x$ (exercise 1), find the number of solutions of each
 2. Count the intersections.
 
 ::solution
-a) Since $-2<1<2$, the line $y=1$ cuts all three "pieces" of the graph. Hence the equation has $3$ solutions. b) Since $-3<-2$, the line $y=-3$ only cuts the left-hand part (where $y$ goes from $-\infty$ up to $2$). Hence the equation has $1$ solution.
+Consider $y=x^3-3x$, with $y'=3x^2-3=3(x-1)(x+1)$. The function is increasing on $(-\infty, -1)$, decreasing on $(-1, 1)$ and increasing on $(1, +\infty)$, with local maximum $y(-1)=2$ and local minimum $y(1)=-2$. So the graph has three "pieces": the first goes from $-\infty$ up to $2$, the second goes from $2$ down to $-2$, and the third goes from $-2$ up to $+\infty$.
+
+The number of solutions of $x^3-3x=m$ equals the number of intersection points of the graph with the line $y=m$.
+
+a) Since $-2<1<2$, the line $y=1$ cuts all three "pieces" of the graph, once each. Hence the equation $x^3-3x=1$ has $3$ solutions.
+
+b) Since $-3<-2$, the line $y=-3$ lies below the local minimum point of the graph, so it only cuts the left-hand part (where $y$ goes from $-\infty$ up to $2$). Hence the equation $x^3-3x=-3$ has $1$ solution.
 
 So equation a) has three solutions and equation b) has one solution.
 
@@ -340,15 +346,17 @@ d) The centre of symmetry of the graph is the point $(2, 0)$.
 3. Solve $y''=0$.
 
 ::solution
-We have $y'=3(x-1)(x-3)$; $y(1)=2$ (local maximum), $y(3)=-2$ (local minimum).
+We have $y'=3x^2-12x+9=3(x-1)(x-3)$. Hence $y'>0$ for $x<1$ or $x>3$, and $y'<0$ for $1<x<3$. We have $y(1)=1-6+9-2=2$ (local maximum) and $y(3)=27-54+27-2=-2$ (local minimum).
 
-a) **True**. We have $y(0)=-2$.
+a) **True.** The graph meets the y-axis where $x=0$. We have $y(0)=-2$, so the point is $(0, -2)$.
 
-b) **True**. Since $y'$ changes sign $+\to-$ at $x=1$ and $y(1)=2$, the point $(1, 2)$ is the local maximum point of the graph.
+b) **True.** Since $y'$ changes sign from $+$ to $-$ at $x=1$ and $y(1)=2$, the point $(1, 2)$ is the local maximum point of the graph.
 
-c) **False**. Since $-2<0<2$, the line $y=0$ cuts the graph at $3$ points (the solutions are $2$ and $2\pm\sqrt3$).
+c) **False.** Since $-2<0<2$, the line $y=0$ cuts the graph at $3$ points, one on each monotonic piece of the graph. Indeed, $x^3-6x^2+9x-2=(x-2)(x^2-4x+1)$, so the solutions are $2$ and $2\pm\sqrt3$. The equation has $3$ solutions, not exactly two.
 
-d) **True**. We have $y''=6x-12=0\iff x=2$ and $y(2)=8-24+18-2=0$.
+d) **True.** We have $y''=6x-12$ and $y''=0\iff x=2$; $y''$ changes sign at $x=2$, so $x=2$ is the $x$-coordinate of the point of inflection. We have $y(2)=8-24+18-2=0$. The point of inflection of the graph of a cubic is its centre of symmetry, so the centre of symmetry is $(2, 0)$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::

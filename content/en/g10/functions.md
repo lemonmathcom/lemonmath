@@ -214,7 +214,15 @@ Let $f(x)=3x-2$. Compute $f(-1)$ and $f(4)$.
 2. Substitute $x=4$.
 
 ::solution
-$f(-1)=3\cdot(-1)-2=-5$ and $f(4)=3\cdot4-2=10$.
+To compute the value of the function $f(x)=3x-2$ at a point, we substitute the value of $x$ into the expression.
+
+For $x=-1$:
+$$f(-1)=3\cdot(-1)-2=-3-2=-5.$$
+
+For $x=4$:
+$$f(4)=3\cdot4-2=12-2=10.$$
+
+So $f(-1)=-5$ and $f(4)=10$.
 
 **Answer.** $f(-1)=-5$; $f(4)=10$.
 :::
@@ -230,7 +238,17 @@ Find the domain of: (a) $f(x)=\sqrt{5-x}$; (b) $g(x)=\dfrac{1}{x^2-4}$.
 2. For (b), find the $x$ with $x^2-4=0$ and remove them.
 
 ::solution
-(a) $5-x\ge0\iff x\le5$. (b) $x^2-4=0\iff x=\pm2$, so we remove these two values.
+The domain of a function is the set of values of $x$ for which the expression of the function makes sense.
+
+a) The function $f(x)=\sqrt{5-x}$ is defined when the expression under the root is non-negative:
+$$5-x\ge0\iff x\le5.$$
+So $D=(-\infty, 5]$.
+
+b) The function $g(x)=\dfrac{1}{x^2-4}$ is defined when the denominator is not $0$, that is $x^2-4\neq0$.
+
+We have $x^2-4=0\iff(x-2)(x+2)=0\iff x=2$ or $x=-2$. So we remove the two values $x=-2$ and $x=2$.
+
+So $D=\mathbb{R}\setminus\{-2, 2\}$.
 
 **Answer.** (a) $D=(-\infty, 5]$; (b) $D=\mathbb{R}\setminus\{-2, 2\}$.
 :::
@@ -246,7 +264,13 @@ A table gives the pairs $(x, y)$: $(1, 4)$, $(2, 5)$, $(2, 6)$, $(3, 7)$. Does i
 2. If there is one, compare the two matching values of $y$.
 
 ::solution
-The input $x=2$ has two different outputs, $5$ and $6$.
+A table defines $y$ as a function of $x$ when each value of $x$ corresponds to exactly one value of $y$.
+
+Consider the given pairs: $x=1$ corresponds to $y=4$; $x=3$ corresponds to $y=7$; and $x=2$ appears in two pairs, $(2, 5)$ and $(2, 6)$.
+
+The input $x=2$ has two different outputs, $5$ and $6$. This violates the requirement that each value of $x$ corresponds to only one value of $y$.
+
+So the table does not define $y$ as a function of $x$.
 
 **Answer.** It is not a function.
 :::
@@ -262,9 +286,14 @@ Prove that $h(x)=-2x+5$ is decreasing on $\mathbb{R}$.
 2. Find the sign of that difference.
 
 ::solution
-For $x_1<x_2$:
-$$h(x_1)-h(x_2)=(-2x_1+5)-(-2x_2+5)=2(x_2-x_1)>0,$$
-so $h(x_1)>h(x_2)$.
+The function $h(x)=-2x+5$ is defined on $\mathbb{R}$. It is decreasing on $\mathbb{R}$ if, for all $x_1, x_2\in\mathbb{R}$ with $x_1<x_2$, we have $h(x_1)>h(x_2)$.
+
+Take arbitrary $x_1, x_2\in\mathbb{R}$ with $x_1<x_2$. Consider the difference
+$$\begin{aligned}h(x_1)-h(x_2)&=(-2x_1+5)-(-2x_2+5)\\ &=-2x_1+2x_2\\ &=2(x_2-x_1).\end{aligned}$$
+
+Since $x_1<x_2$, we have $x_2-x_1>0$, hence $2(x_2-x_1)>0$. It follows that $h(x_1)-h(x_2)>0$, that is $h(x_1)>h(x_2)$.
+
+So the function $h(x)=-2x+5$ is decreasing on $\mathbb{R}$.
 
 **Answer.** $h$ is decreasing on $\mathbb{R}$ (proved).
 :::
@@ -281,7 +310,23 @@ Let $f(x)=\begin{cases} x+2 & \text{if } x<0,\\ x^2 & \text{if } x\ge 0.\end{cas
 3. Reject solutions that break the condition.
 
 ::solution
-$f(x)=9$: for $x<0$, $x+2=9$ gives $x=7$ (rejected, as $7\ge0$); for $x\ge0$, $x^2=9$ gives $x=3$ (and $x=-3$ is rejected). $f(x)=-1$: for $x<0$, $x+2=-1$ gives $x=-3$ (kept); for $x\ge0$, $x^2=-1$ has no solution.
+The function $f$ is given by two formulas, so for each equation we consider two cases according to the condition on $x$.
+
+Solve $f(x)=9$.
+
+For $x<0$: $f(x)=x+2=9$ gives $x=7$. This value does not satisfy $x<0$ (as $7\ge0$), so it is rejected.
+
+For $x\ge0$: $f(x)=x^2=9$ gives $x=3$ or $x=-3$. Only $x=3$ satisfies $x\ge0$, and $x=-3$ is rejected.
+
+Solve $f(x)=-1$.
+
+For $x<0$: $x+2=-1$ gives $x=-3$. This value satisfies $x<0$, so it is kept.
+
+For $x\ge0$: $x^2=-1$. This equation has no solution because $x^2\ge0$ for every $x$.
+
+Check: $f(3)=3^2=9$ and $f(-3)=-3+2=-1$.
+
+So $f(x)=9$ if and only if $x=3$; $f(x)=-1$ if and only if $x=-3$.
 
 **Answer.** $f(x)=9\iff x=3$; $f(x)=-1\iff x=-3$.
 :::
@@ -297,8 +342,18 @@ An electricity company charges $2$ thousand dong per kWh for the first $50$ kWh 
 2. Solve the equation from that line.
 
 ::solution
-The first $50$ kWh cost $2\cdot50=100$ thousand dong $<300$, so $x>50$ and
-$$100+2.5(x-50)=300\iff 2.5(x-50)=200\iff x-50=80\iff x=130.$$
+Let $x$ (kWh) be the amount of electricity the household used, $x>0$.
+
+The first $50$ kWh cost $2\cdot50=100$ thousand dong. Since $100<300$, the household used more than $50$ kWh, that is $x>50$.
+
+The excess is $x-50$ kWh, each charged $2.5$ thousand dong. The total bill is $300$ thousand dong, so we get the equation
+$$\begin{aligned}100+2.5(x-50)&=300\\ 2.5(x-50)&=200\\ x-50&=80\\ x&=130.\end{aligned}$$
+
+Checking the condition: $x=130>50$, so it is accepted.
+
+Check: $100+2.5\cdot80=100+200=300$ (thousand dong).
+
+So the household used $130$ kWh.
 
 **Answer.** $130$.
 :::
@@ -320,13 +375,17 @@ d) $f(x)<0$ if and only if $-1<x<3$.
 3. Look at the part of the graph below the $x$-axis.
 
 ::solution
-a) **True.** The graph meets the $y$-axis at $(0, -3)$.
+We write $f(x)=x^2-2x-3=(x-1)^2-4=(x+1)(x-3)$. The graph is a parabola with $a=1>0$, vertex $(1, -4)$, meeting the $x$-axis at $x=-1$ and $x=3$.
 
-b) **True.** The lowest point is $(1, -4)$ and the graph rises without end on both sides.
+a) **True.** We have $f(0)=0^2-2\cdot0-3=-3$, that is the graph meets the $y$-axis at $(0, -3)$.
 
-c) **False.** On $(-1, 1)$ the graph falls, for example $f(0)=-3>f(1)=-4$; $f$ is increasing only on $(1, +\infty)$.
+b) **True.** Since $f(x)=(x-1)^2-4$ and $(x-1)^2$ takes every value in $[0, +\infty)$, $f(x)$ takes every value in $[-4, +\infty)$. The lowest point of the graph is $(1, -4)$ and the graph rises without end on both sides.
 
-d) **True.** The part of the graph below the $x$-axis corresponds to $x$ between the zeros $-1$ and $3$.
+c) **False.** The function is decreasing on $(-\infty, 1)$ and increasing only on $(1, +\infty)$. The interval $(-1, 3)$ contains $(-1, 1)$, where the graph falls; for example $0<1$ but $f(0)=-3>f(1)=-4$. Hence $f$ is not increasing on $(-1, 3)$.
+
+d) **True.** We have $f(x)=(x+1)(x-3)$ with zeros $-1$ and $3$, and $a=1>0$, so $f(x)<0$ if and only if $x$ lies between the zeros, that is $-1<x<3$. This is exactly the part of the graph below the $x$-axis.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -342,7 +401,17 @@ d) **True.** The part of the graph below the $x$-axis corresponds to $x$ between
 2. Intersect the two intervals, then list the integers in the result.
 
 ::solution
-$x+3\ge0\iff x\ge-3$ and $2-x>0\iff x<2$. So $D=[-3, 2)$, and the integers in $D$ are $-3, -2, -1, 0, 1$ (not $2$).
+The function $f(x)=\sqrt{x+3}+\dfrac{1}{\sqrt{2-x}}$ is defined when both terms make sense.
+
+The term $\sqrt{x+3}$ makes sense when $x+3\ge0\iff x\ge-3$.
+
+The term $\dfrac{1}{\sqrt{2-x}}$ makes sense when $2-x\ge0$ and the denominator $\sqrt{2-x}\neq0$, that is $2-x>0\iff x<2$.
+
+Taking the intersection of the two conditions, we get $-3\le x<2$. So $D=[-3, 2)$.
+
+The integers in $D$ are $-3$, $-2$, $-1$, $0$, $1$. The number $2$ is not in $D$ because $D$ does not contain the endpoint $2$.
+
+So $D=[-3, 2)$ and $D\cap\mathbb{Z}=\{-3, -2, -1, 0, 1\}$.
 
 **Answer.** $D=[-3, 2)$; $D\cap\mathbb{Z}=\{-3, -2, -1, 0, 1\}$.
 :::
@@ -358,9 +427,18 @@ Find the range of $f(x)=x^2-4x+7$ on $\mathbb{R}$ and on the interval $[0, 3]$.
 2. On $[0, 3]$: find the values of $x-2$, then of $(x-2)^2$.
 
 ::solution
-On $\mathbb{R}$, $(x-2)^2$ takes every value in $[0, +\infty)$, so $f(x)$ takes every value in $[3, +\infty)$.
+We rewrite the function by completing the square:
+$$f(x)=x^2-4x+7=(x-2)^2+3.$$
 
-For $0\le x\le3$ we have $-2\le x-2\le1$, so $(x-2)^2$ takes every value in $[0, 4]$ (the value $4$ at $x=0$, the value $0$ at $x=2$). Hence $f(x)$ takes every value in $[3, 7]$.
+On $\mathbb{R}$: $(x-2)^2$ takes every value in $[0, +\infty)$, so $f(x)=(x-2)^2+3$ takes every value in $[3, +\infty)$.
+
+On the interval $[0, 3]$: from $0\le x\le3$ we get $-2\le x-2\le1$.
+
+Then $(x-2)^2$ has least value $0$ at $x=2$ (which lies in $[0, 3]$) and greatest value $4$ at $x=0$ (since $(-2)^2=4>1^2=1$). As $(x-2)^2$ takes every value in $[0, 4]$, $f(x)$ takes every value in $[3, 7]$.
+
+Check: $f(2)=3$, $f(0)=7$ and $f(3)=9-12+7=4$ all lie in $[3, 7]$.
+
+So the range of $f$ on $\mathbb{R}$ is $[3, +\infty)$ and on the interval $[0, 3]$ it is $[3, 7]$.
 
 **Answer.** On $\mathbb{R}$: $[3, +\infty)$; on $[0, 3]$: $[3, 7]$.
 :::
@@ -376,11 +454,22 @@ A phone network offers two monthly data plans. Plan A: $50$ thousand dong plus $
 2. Solve $B(x)<A(x)$ under each condition and combine the results.
 
 ::solution
-For $0\le x\le6$: $90<50+10x\iff x>4$, so $4<x\le6$.
+Let $x$ (GB) be the amount of data used in the month, $x\ge0$. The costs (thousand dong) of the two plans are:
 
-For $x>6$: $B(x)=90+15(x-6)=15x$, and $15x<50+10x\iff x<10$, so $6<x<10$.
+- Plan A: $A(x)=50+10x$.
+- Plan B: $B(x)=90$ if $0\le x\le6$; and if $x>6$ then $B(x)=90+15(x-6)=15x$.
 
-Together: $4<x<10$. **Check.** At $x=4$: $A=B=90$; at $x=10$: $A=B=150$.
+We look for $x$ with $B(x)<A(x)$.
+
+For $0\le x\le6$: $90<50+10x\iff40<10x\iff x>4$. Combining with $0\le x\le6$, we get $4<x\le6$.
+
+For $x>6$: $15x<50+10x\iff5x<50\iff x<10$. Combining with $x>6$, we get $6<x<10$.
+
+Putting the two cases together, we get $4<x<10$.
+
+Check: at $x=4$, $A=90=B$; at $x=10$, $A=150=B$; at $x=5$, $A=100>B=90$ (plan B is cheaper); at $x=12$, $A=170<B=180$ (plan B is more expensive).
+
+So plan B is cheaper than plan A when $4<x<10$ (GB).
 
 **Answer.** Plan B is cheaper when $4<x<10$ (GB).
 :::

@@ -134,7 +134,11 @@ Write $>$, $<$ or $=$: $7 \;\square\; 5$.
 2. Open the sign towards the greater number.
 
 ::solution
-$7$ is counted after $5$, so $7$ is greater than $5$.
+When we count, the number counted later is greater. We count $5$, $6$, $7$, so $7$ is counted after $5$.
+
+Therefore $7$ is greater than $5$.
+
+So the sign to write is $>$, and $7>5$.
 
 **Answer.** $7>5$.
 :::
@@ -150,7 +154,11 @@ Write $>$, $<$ or $=$: $2 \;\square\; 6$.
 2. Open the sign towards the greater number.
 
 ::solution
-$2$ is counted before $6$, so $2$ is less than $6$.
+When we count, the number counted earlier is less. We count $2$, $3$, $4$, $5$, $6$, so $2$ is counted before $6$.
+
+Therefore $2$ is less than $6$.
+
+So the sign to write is $<$, and $2<6$.
 
 **Answer.** $2<6$.
 :::
@@ -166,7 +174,11 @@ Remember the last lesson: there are $4$ cups and $6$ spoons. Match them in pairs
 2. Write the number of cups, the sign, the number of spoons.
 
 ::solution
-When the $4$ cups are used up, $2$ spoons are left over, so there are fewer cups.
+We match each cup with a spoon. There are $4$ cups, so we make $4$ pairs.
+
+When the $4$ cups are used up, $2$ spoons are left over. So there are fewer cups than spoons.
+
+So the number of cups is less than the number of spoons, and we write $4<6$.
 
 **Answer.** $4<6$.
 :::
@@ -183,7 +195,11 @@ b) Which number is less: $0$ or $3$?
 2. Count: zero, one, two, three.
 
 ::solution
-a) Ten is counted after nine, so $10$ is greater. b) Zero is counted before three, so $0$ is less.
+a) We count $9$, $10$. The number $10$ is counted after $9$, so $10$ is greater than $9$. The greater number is $10$.
+
+b) We count $0$, $1$, $2$, $3$. The number $0$ is counted before $3$, so $0$ is less than $3$. The lesser number is $0$.
+
+So a) the greater number is $10$; b) the lesser number is $0$.
 
 **Answer.** a) $10$. b) $0$.
 :::
@@ -199,7 +215,11 @@ Binh says: "$5>8$ because $5$ comes first." Is Binh right? Why?
 2. Which number is greater?
 
 ::solution
-$5$ is to the left of $8$, so $5$ is less than $8$. Binh is wrong.
+The number that comes first, that is, the one on the left, is less. The number $5$ is to the left of $8$, so $5$ is less than $8$, that is, $5<8$.
+
+Binh says $5>8$ only because $5$ comes first, but the number that comes first is the lesser one, not the greater one.
+
+So Binh is wrong; the correct statement is $5<8$.
 
 **Answer.** No. It should be $5<8$.
 :::
@@ -215,7 +235,11 @@ Lan writes $4<2$ because she remembers "the mouth opens to the small number". Wh
 2. The mouth must open towards that number.
 
 ::solution
-$4$ is greater than $2$, so the mouth must open towards $4$.
+Lan remembered it wrongly. The mouth of the sign must open towards the greater number, not the lesser number.
+
+We have $4$ greater than $2$, so the mouth must open towards $4$.
+
+So Lan went wrong by opening the mouth towards the lesser number; written correctly, it is $4>2$.
 
 **Answer.** $4>2$.
 :::
@@ -239,7 +263,15 @@ c) Which two children have the same number of marbles?
 2. Compare each one.
 
 ::solution
-a) The greatest number is $9$, Binh's. b) The least number is $3$, Dung's. c) An and Chi both have $6$.
+The numbers of marbles that An, Binh, Chi and Dung have are $6$, $9$, $6$, $3$. We have $3<6<9$.
+
+a) The greatest number is $9$, Binh's. So Binh has the most marbles.
+
+b) The least number is $3$, Dung's. So Dung has the fewest marbles.
+
+c) An and Chi both have $6$ marbles, so these two numbers are equal.
+
+So Binh has the most marbles, Dung has the fewest marbles, and An and Chi have the same number of marbles.
 
 **Answer.** a) Binh. b) Dung. c) An and Chi.
 :::
@@ -256,9 +288,13 @@ b) Find the missing numbers: $2<\square<5$.
 2. Pick the ones in between.
 
 ::solution
-a) Between $6$ and $8$ is $7$. b) Between $2$ and $5$ are $3$ and $4$.
+a) We count $6$, $7$, $8$. The number between $6$ and $8$ is $7$.
 
-**Check.** $6<7<8$; $2<3<5$; $2<4<5$. Correct.
+b) We count $2$, $3$, $4$, $5$. The numbers between $2$ and $5$ are $3$ and $4$.
+
+*Check.* $6<7<8$; $2<3<5$; $2<4<5$. Correct.
+
+So a) the missing number is $7$; b) the missing numbers are $3$ and $4$.
 
 **Answer.** a) $7$. b) $3$ or $4$.
 :::

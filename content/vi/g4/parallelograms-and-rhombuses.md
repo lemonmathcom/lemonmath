@@ -191,7 +191,13 @@ Hình bình hành $EFGH$ có $EF=8$ cm, $FG=3$ cm. Tính $GH$ và $HE$.
 2. Cạnh đối diện của $FG$ là cạnh nào?
 
 ::solution
-Trong hình bình hành $EFGH$, hai cạnh đối diện bằng nhau. Do đó $GH=EF=8$ cm và $HE=FG=3$ cm.
+Trong hình bình hành, hai cạnh đối diện bằng nhau.
+
+Trong hình bình hành $EFGH$, cạnh $GH$ đối diện với cạnh $EF$, nên $GH=EF=8$ cm.
+
+Cạnh $HE$ đối diện với cạnh $FG$, nên $HE=FG=3$ cm.
+
+Vậy $GH=8$ cm và $HE=3$ cm.
 
 **Đáp số.** $GH=8$ cm; $HE=3$ cm.
 :::
@@ -207,7 +213,12 @@ Hình thoi $ABCD$ có cạnh $9$ cm. Tính chu vi hình thoi $ABCD$.
 2. Nhân độ dài một cạnh với $4$.
 
 ::solution
-Chu vi hình thoi $ABCD$ là $9\times4=36$ (cm).
+Hình thoi có bốn cạnh bằng nhau, nên chu vi hình thoi bằng độ dài một cạnh nhân với $4$.
+
+Chu vi hình thoi $ABCD$ là:
+$$9\times4=36\ \text{(cm)}.$$
+
+Vậy chu vi hình thoi $ABCD$ là $36$ cm.
 
 **Đáp số.** $36$ cm.
 :::
@@ -223,7 +234,13 @@ Hình chữ nhật có phải là hình bình hành không? Vì sao?
 2. So sánh với định nghĩa hình bình hành.
 
 ::solution
-Hình chữ nhật là tứ giác có hai cặp cạnh đối diện song song. Vậy hình chữ nhật là hình bình hành.
+Hình bình hành là tứ giác có hai cặp cạnh đối diện song song.
+
+Hình chữ nhật là tứ giác có hai cặp cạnh đối diện song song.
+
+Như vậy hình chữ nhật có đủ đặc điểm của hình bình hành.
+
+Vậy hình chữ nhật là hình bình hành, vì nó là tứ giác có hai cặp cạnh đối diện song song.
 
 **Đáp số.** Có.
 :::
@@ -258,9 +275,15 @@ Một mảnh vườn hình bình hành có hai cạnh kề dài $18$ m và $12$ 
 3. Trừ đi chỗ làm cổng.
 
 ::solution
-Chu vi mảnh vườn là $(18+12)\times2=60$ (m).
+Bài giải
 
-Độ dài hàng rào là $60-3=57$ (m).
+Hình bình hành có hai cặp cạnh đối diện bằng nhau, nên chu vi mảnh vườn bằng tổng hai cạnh kề nhân với $2$. Chu vi mảnh vườn là:
+$$(18+12)\times2=60\ \text{(m)}.$$
+
+Người ta chừa một cổng rộng $3$ m không làm hàng rào, nên độ dài hàng rào là:
+$$60-3=57\ \text{(m)}.$$
+
+Vậy hàng rào dài $57$ m.
 
 **Đáp số.** $57$ m.
 :::
@@ -276,9 +299,17 @@ Người ta viền xung quanh mỗi viên gạch hình thoi cạnh $20$ cm bằn
 2. Tính cho $5$ viên, rồi đổi sang mét.
 
 ::solution
-Chu vi một viên gạch là $20\times4=80$ (cm).
+Bài giải
 
-Độ dài nẹp để viền $5$ viên gạch là $80\times5=400$ (cm), tức là $4$ m.
+Hình thoi có bốn cạnh bằng nhau. Chu vi một viên gạch là:
+$$20\times4=80\ \text{(cm)}.$$
+
+Độ dài nẹp để viền $5$ viên gạch là:
+$$80\times5=400\ \text{(cm)}.$$
+
+Đổi $400$ cm $=4$ m (vì $100$ cm $=1$ m).
+
+Vậy cần $4$ m nẹp để viền $5$ viên gạch.
 
 **Đáp số.** $4$ m.
 :::
@@ -294,9 +325,18 @@ Hình thoi $ABCD$ có $AB=6$ cm. Hình bình hành $MNPQ$ có $MN=8$ cm và chu 
 2. Tính nửa chu vi hình bình hành, rồi trừ đi $MN$.
 
 ::solution
-Chu vi hình thoi $ABCD$ là $6\times4=24$ (cm).
+Bài giải
 
-Nửa chu vi hình bình hành $MNPQ$ là $24:2=12$ (cm). Do đó $NP=12-8=4$ (cm).
+Hình thoi có bốn cạnh bằng nhau. Chu vi hình thoi $ABCD$ là:
+$$6\times4=24\ \text{(cm)}.$$
+
+Chu vi hình bình hành $MNPQ$ bằng chu vi hình thoi $ABCD$, tức là $24$ cm. Nửa chu vi hình bình hành $MNPQ$, cũng là tổng hai cạnh kề $MN$ và $NP$, là:
+$$24:2=12\ \text{(cm)}.$$
+
+Độ dài cạnh $NP$ là:
+$$12-8=4\ \text{(cm)}.$$
+
+Vậy $NP=4$ cm.
 
 **Đáp số.** $NP=4$ cm.
 :::
@@ -313,11 +353,22 @@ Một hình bình hành có chu vi $36$ cm, hai cạnh kề hơn kém nhau $4$ c
 3. Thử lại bằng cách tính chu vi.
 
 ::solution
-Tổng hai cạnh kề là $36:2=18$ (cm).
+Bài giải
 
-Cạnh dài là $(18+4):2=11$ (cm). Cạnh ngắn là $11-4=7$ (cm).
+Nửa chu vi hình bình hành chính là tổng độ dài hai cạnh kề. Tổng hai cạnh kề là:
+$$36:2=18\ \text{(cm)}.$$
+
+Hai cạnh kề hơn kém nhau $4$ cm. Ta có bài toán tìm hai số khi biết tổng và hiệu.
+
+Cạnh dài là:
+$$(18+4):2=11\ \text{(cm)}.$$
+
+Cạnh ngắn là:
+$$11-4=7\ \text{(cm)}.$$
 
 **Thử lại.** $(11+7)\times2=36$. Đúng.
+
+Vậy hai cạnh kề của hình bình hành dài $11$ cm và $7$ cm.
 
 **Đáp số.** $11$ cm và $7$ cm.
 :::

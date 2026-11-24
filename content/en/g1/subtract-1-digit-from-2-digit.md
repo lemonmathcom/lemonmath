@@ -120,7 +120,17 @@ Work out $38-5$.
 2. The tens stay $3$.
 
 ::solution
-$8-5=3$ and the tens are $3$, so $38-5=33$.
+We subtract place by place, starting with the ones.
+
+Ones: $8-5=3$, write $3$.
+
+Tens: $38$ has $3$ tens and there is nothing to take away from the tens, so the tens stay $3$.
+
+Hence $38-5=33$.
+
+Check: $33+5=38$. Correct.
+
+So $38-5=33$.
 
 **Answer.** $33$.
 :::
@@ -136,7 +146,17 @@ Work out $79-6$.
 2. Keep the $7$ tens.
 
 ::solution
-$9-6=3$ and the tens are $7$, so $79-6=73$.
+We subtract place by place, starting with the ones.
+
+Ones: $9-6=3$, write $3$.
+
+Tens: $79$ has $7$ tens and there is nothing to take away from the tens, so the tens stay $7$.
+
+Hence $79-6=73$.
+
+Check: $73+6=79$. Correct.
+
+So $79-6=73$.
 
 **Answer.** $73$.
 :::
@@ -152,7 +172,17 @@ Work out $64-4$.
 2. Keep the $6$ tens.
 
 ::solution
-$4-4=0$ and the tens are $6$, so $64-4=60$.
+We subtract place by place, starting with the ones.
+
+Ones: $4-4=0$, write $0$.
+
+Tens: $64$ has $6$ tens and there is nothing to take away from the tens, so the tens stay $6$.
+
+Hence $64-4=60$.
+
+Check: $60+4=64$. Correct.
+
+So $64-4=60$.
 
 **Answer.** $60$.
 :::
@@ -168,7 +198,13 @@ Write $>$, $<$ or $=$ in the box: $48-5 \;\square\; 40$.
 2. Compare the result with $40$.
 
 ::solution
-$8-5=3$, so $48-5=43$. Since $43>40$, we have $48-5>40$.
+We work out the left side first. Ones: $8-5=3$. The tens stay $4$. So $48-5=43$.
+
+We compare $43$ with $40$. Both numbers have $4$ tens; $43$ has $3$ ones and $40$ has $0$ ones, and $3>0$, so $43>40$.
+
+Hence $48-5>40$.
+
+So we write the sign $>$.
 
 **Answer.** The sign $>$.
 :::
@@ -184,8 +220,14 @@ A box has $45$ sweets. You eat $3$ of them. How many sweets are left in the box?
 2. Work out $45-3$ and write the answer with its unit.
 
 ::solution
-The number of sweets left is:
+Solution
+
+The number of sweets left in the box is:
 $$45-3=42\ \text{(sweets)}.$$
+
+Check: $42+3=45$. Correct.
+
+So there are $42$ sweets left in the box.
 
 **Answer.** $42$ sweets.
 :::
@@ -201,7 +243,15 @@ Remember the last lesson: adding two two-digit numbers. Work out $32+45$, then s
 2. Subtract $6$ from the result.
 
 ::solution
-$32+45=77$. Then $7-6=1$ and the tens are $7$, so $77-6=71$.
+The problem has two steps: add first, then subtract $6$ from the result.
+
+Step 1: add two two-digit numbers. Ones: $2+5=7$. Tens: $3+4=7$. So $32+45=77$.
+
+Step 2: subtract $6$ from the result. Ones: $7-6=1$. The tens stay $7$. So $77-6=71$.
+
+Check: $71+6=77$. Correct.
+
+So $32+45=77$ and $77-6=71$.
 
 **Answer.** $71$.
 :::
@@ -217,7 +267,15 @@ Lan writes: $46-3=16$. Is Lan right or wrong? Why? Correct it.
 2. Work out $6-3$ again and keep the tens the same.
 
 ::solution
-Lan is wrong, because she took $3$ from the tens ($4$ tens became $1$ ten). The right way: $6-3=3$ and the tens are $4$, so $46-3=43$.
+We check Lan's method. Lan took $3$ away from the tens, so $4$ tens became $1$ ten, which gave $16$.
+
+That method is wrong, because the $3$ in $46-3$ is $3$ ones, so it must be taken away from the ones.
+
+The right method: ones $6-3=3$, and the tens stay $4$. So $46-3=43$.
+
+Check: $43+3=46$. Correct. But $16+3=19$, which is not $46$, so Lan's result $16$ is wrong.
+
+So Lan is wrong; the correct result is $46-3=43$.
 
 **Answer.** Wrong; the correct answer is $43$.
 :::
@@ -233,9 +291,17 @@ Find the missing number: $\square-5=32$.
 2. The tens stay $3$.
 
 ::solution
-Ones: $7-5=2$. The tens are $3$, so the missing number is $37$.
+We look for the number that leaves $32$ when we take away $5$.
 
-**Check.** $37-5=32$. Correct.
+Ones: since $7-5=2$, the ones digit of the missing number is $7$.
+
+Tens: the result $32$ has $3$ tens and there is nothing to take away from the tens, so the missing number has $3$ tens.
+
+Hence the missing number is $37$.
+
+Check: $37-5=32$. Correct.
+
+So the number that goes in the box is $37$.
 
 **Answer.** $37$.
 :::

@@ -165,8 +165,19 @@ Set out in columns and work out: $43\times21$.
 2. Multiply $43$ by $2$ (tens), shift one column and add.
 
 ::solution
+Set out the multiplication and multiply $43$ by the ones digit and then by the tens digit of $21$.
+
 $$\begin{array}{r} 43 \\ \times\ 21 \\ \hline 43 \\ 86\phantom{0} \\ \hline 903 \end{array}$$
-$43\times1=43$ and $43\times20=860$. Add: $43+860=903$.
+
+First partial product: $43\times1=43$.
+
+Second partial product: $43\times2=86$ tens, that is $43\times20=860$; write it in line with the tens place, shifted one column to the left.
+
+Add the two partial products: $43+860=903$.
+
+*Check.* $903\div21=43$. Correct.
+
+So $43\times21=903$.
 
 **Answer.** $903$.
 :::
@@ -182,8 +193,19 @@ Set out in columns and work out: $78\times34$.
 2. $78\times3=?$, shift one column and add.
 
 ::solution
+Set out the multiplication and multiply $78$ by the ones digit and then by the tens digit of $34$.
+
 $$\begin{array}{r} 78 \\ \times\ 34 \\ \hline 312 \\ 234\phantom{0} \\ \hline 2652 \end{array}$$
-$78\times4=312$ and $78\times30=2\,340$. Add: $312+2\,340=2\,652$.
+
+First partial product: $78\times4=312$ ($4\times8=32$, write $2$ and carry $3$; $4\times7=28$, add $3$ to make $31$).
+
+Second partial product: $78\times3=234$ tens, that is $78\times30=2\,340$; write it shifted one column to the left.
+
+Add the two partial products: $312+2\,340=2\,652$.
+
+*Check.* $2\,652\div34=78$. Correct.
+
+So $78\times34=2\,652$.
 
 **Answer.** $2\,652$.
 :::
@@ -199,8 +221,19 @@ Set out in columns and work out: $256\times18$.
 2. $256\times1=?$, shift one column and add.
 
 ::solution
+Set out the multiplication and multiply $256$ by the ones digit and then by the tens digit of $18$.
+
 $$\begin{array}{r} 256 \\ \times\ 18 \\ \hline 2048 \\ 256\phantom{0} \\ \hline 4608 \end{array}$$
-$256\times8=2\,048$ and $256\times10=2\,560$. Add: $2\,048+2\,560=4\,608$.
+
+First partial product: $256\times8=2\,048$ ($8\times6=48$, write $8$ and carry $4$; $8\times5=40$, add $4$ to make $44$, write $4$ and carry $4$; $8\times2=16$, add $4$ to make $20$).
+
+Second partial product: $256\times1=256$ tens, that is $256\times10=2\,560$; write it shifted one column to the left.
+
+Add the two partial products: $2\,048+2\,560=4\,608$.
+
+*Check.* $4\,608\div18=256$. Correct.
+
+So $256\times18=4\,608$.
 
 **Answer.** $4\,608$.
 :::
@@ -216,8 +249,19 @@ Set out in columns and work out: $1\,305\times23$.
 2. $1\,305\times2=?$, shift one column and add.
 
 ::solution
+Set out the multiplication and multiply $1\,305$ by the ones digit and then by the tens digit of $23$.
+
 $$\begin{array}{r} 1305 \\ \times\ \ 23 \\ \hline 3915 \\ 2610\phantom{0} \\ \hline 30015 \end{array}$$
-$1\,305\times3=3\,915$ and $1\,305\times20=26\,100$. Add: $3\,915+26\,100=30\,015$.
+
+First partial product: $1\,305\times3=3\,915$.
+
+Second partial product: $1\,305\times2=2\,610$ tens, that is $1\,305\times20=26\,100$; write it shifted one column to the left.
+
+Add the two partial products: $3\,915+26\,100=30\,015$.
+
+*Check.* $30\,015\div23=1\,305$. Correct.
+
+So $1\,305\times23=30\,015$.
 
 **Answer.** $30\,015$.
 :::
@@ -233,8 +277,14 @@ A shop sells $125$ loaves of bread every day. How many loaves does the shop sell
 2. Work out $125\times3$, then write one more zero.
 
 ::solution
+Solution
+
+The shop sells $125$ loaves every day, so the number of loaves sold in $30$ days is $125$ multiplied by $30$.
+
 The number of loaves sold in $30$ days is:
 $$125\times30=(125\times3)\times10=375\times10=3\,750\ \text{(loaves)}.$$
+
+So in $30$ days the shop sells $3\,750$ loaves of bread.
 
 **Answer.** $3\,750$ loaves.
 :::
@@ -250,9 +300,16 @@ Suppose a shirt costs $85\,000$ dong. How much must be paid for $12$ such shirts
 2. Multiply the result by $1\,000$.
 
 ::solution
-We have $85\times12=1\,020$.
+Solution
 
-The amount to pay is $1\,020\times1\,000=1\,020\,000$ (dong).
+The price of one shirt is $85\,000$ dong, that is $85\times1\,000$ dong. We multiply $85$ by $12$ and then multiply the result by $1\,000$.
+
+Calculate $85\times12=85\times10+85\times2=850+170=1\,020$.
+
+The amount to pay for $12$ shirts is:
+$$1\,020\times1\,000=1\,020\,000\ \text{(dong)}.$$
+
+So $12$ such shirts cost $1\,020\,000$ dong.
 
 **Answer.** $1\,020\,000$ dong.
 :::
@@ -268,7 +325,12 @@ Remember the lesson on the distributive property. Calculate in the easy way: $36
 2. What is $25+75$?
 
 ::solution
-$$36\times25+36\times75=36\times(25+75)=36\times100=3\,600.$$
+Both products have the same factor $36$, so we use the distributive property of multiplication over addition: $a\times b+a\times c=a\times(b+c)$.
+
+We have
+$$\begin{aligned}36\times25+36\times75&=36\times(25+75)\\&=36\times100\\&=3\,600.\end{aligned}$$
+
+So $36\times25+36\times75=3\,600$.
 
 **Answer.** $3\,600$.
 :::
@@ -284,10 +346,18 @@ A rectangular plot of land is $124$ m long and $35$ m wide. Find the area of the
 2. Work out $124\times35$ and remember the unit, square metres.
 
 ::solution
+Solution
+
+The area of a rectangle equals its length multiplied by its width.
+
 The area of the plot is:
 $$124\times35=4\,340\ (\text{m}^2).$$
 
-**Check.** Estimate $120\times35=4\,200$, which is close to $4\,340$. Sensible.
+Working: $124\times5=620$ and $124\times30=3\,720$; adding gives $620+3\,720=4\,340$.
+
+*Check.* Estimate $120\times35=4\,200$, which is close to $4\,340$. Sensible.
+
+So the area of the plot is $4\,340\ \text{m}^2$.
 
 **Answer.** $4\,340\ \text{m}^2$.
 :::
@@ -303,11 +373,18 @@ Estimate by rounding, then work out $198\times52$ and compare the two results.
 2. Set out $198\times52$ and compare.
 
 ::solution
-Estimate: $200\times50=10\,000$.
+Estimate: round $198$ to $200$ and $52$ to $50$, which gives
+$$200\times50=10\,000.$$
 
-Exact calculation:
+Exact calculation: $198\times2=396$ and $198\times50=9\,900$ (the second partial product is shifted one column to the left).
+
 $$\begin{array}{r} 198 \\ \times\ 52 \\ \hline 396 \\ 990\phantom{0} \\ \hline 10296 \end{array}$$
-The exact result $10\,296$ is close to the estimate $10\,000$.
+
+Add the two partial products: $396+9\,900=10\,296$.
+
+Comparison: the exact result $10\,296$ is greater than the estimate $10\,000$ by $10\,296-10\,000=296$, which is very small compared with $10\,000$, so the exact result is close to the estimate.
+
+So $198\times52=10\,296$.
 
 **Answer.** $198\times52=10\,296$.
 :::
@@ -323,9 +400,21 @@ When multiplying a number by $23$ in columns, Hoa wrote the second partial produ
 2. Find $a$, then work out $a\times23$ again.
 
 ::solution
-The wrong result is $a\times3+a\times2=a\times5=2\,060$, so $a=2\,060\div5=412$.
+Let the required number be $a$.
 
-The correct result is $412\times23=412\times3+412\times20=1\,236+8\,240=9\,476$.
+When $a$ is multiplied by $23$ in columns, the first partial product is $a\times3$ and the second, correct partial product is $a\times20$ (shifted one column to the left). Hoa did not shift it to the left, so she added $a\times2$ instead of $a\times20$.
+
+Hence the wrong result is
+$$a\times3+a\times2=a\times5=2\,060.$$
+
+It follows that $a=2\,060\div5=412$.
+
+*Check.* $412\times5=2\,060$. Correct.
+
+The correct result of the multiplication is
+$$412\times23=412\times3+412\times20=1\,236+8\,240=9\,476.$$
+
+So the number is $412$ and the correct result of the multiplication is $9\,476$.
 
 **Answer.** The number is $412$; the correct result is $9\,476$.
 :::

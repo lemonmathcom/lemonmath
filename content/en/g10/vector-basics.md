@@ -234,7 +234,19 @@ Which of these are vectors and which are only numbers (scalars)? (a) the mass of
 2. With a direction it is a vector; without one it is a scalar.
 
 ::solution
-The wind, the force and the displacement all come with a direction (from the west, downwards, due east). Mass and temperature have only a size.
+A quantity is a vector when it has both a size and a direction; a quantity is a scalar when it has only a size (just a number). We examine each quantity.
+
+(a) The mass of a bag of rice, $5$ kg, has only a size and no direction, so it is a scalar.
+
+(b) A wind of $30$ km/h blowing from the west has a size ($30$ km/h) and a direction (from the west), so it is a vector.
+
+(c) The temperature, $25$ °C, has only a size and no direction, so it is a scalar.
+
+(d) A force of $20$ N pushing downwards has a size ($20$ N) and a direction (downwards), so it is a vector.
+
+(e) A displacement of $3$ km due east has a size ($3$ km) and a direction (east), so it is a vector.
+
+So (b), (d), (e) are vectors; (a), (c) are scalars.
 
 **Answer.** (b), (d), (e) are vectors; (a), (c) are scalars.
 :::
@@ -250,7 +262,19 @@ $ABCD$ is a square of side $3$. Find $|\overrightarrow{AB}|$ and $|\overrightarr
 2. Compare the directions in each pair of vectors.
 
 ::solution
-$|\overrightarrow{AB}|=3$ and $|\overrightarrow{AC}|=\sqrt{3^2+3^2}=3\sqrt2$. A square is a parallelogram, so $\overrightarrow{AB}=\overrightarrow{DC}$. The vectors $\overrightarrow{AB}$ and $\overrightarrow{BC}$ have the same length but perpendicular lines of action, so they are not equal.
+The length of the vector $\overrightarrow{AB}$ equals the length of the segment $AB$. Since $ABCD$ is a square of side $3$, we have $AB=BC=3$ and $\widehat{ABC}=90^\circ$.
+
+We have $|\overrightarrow{AB}|=AB=3$.
+
+Consider the triangle $ABC$, right-angled at $B$. By Pythagoras' theorem,
+$$AC^2=AB^2+BC^2=3^2+3^2=18,$$
+so $AC=3\sqrt2$. Hence $|\overrightarrow{AC}|=3\sqrt2$.
+
+A square is a parallelogram, so $AB\parallel DC$, $AB=DC$ and the vectors $\overrightarrow{AB}$, $\overrightarrow{DC}$ have the same direction. Hence $\overrightarrow{AB}=\overrightarrow{DC}$, so this statement is true.
+
+The vectors $\overrightarrow{AB}$ and $\overrightarrow{BC}$ have the same length ($3$), but their lines of action are perpendicular, so they do not have the same direction. Hence $\overrightarrow{AB}\neq\overrightarrow{BC}$, so this statement is false.
+
+So $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; the equality $\overrightarrow{AB}=\overrightarrow{DC}$ is true and the equality $\overrightarrow{AB}=\overrightarrow{BC}$ is false.
 
 **Answer.** $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; $\overrightarrow{AB}=\overrightarrow{DC}$ is true; $\overrightarrow{AB}=\overrightarrow{BC}$ is false.
 :::
@@ -266,7 +290,19 @@ $ABCD$ is a parallelogram with centre $O$. Name a vector equal to $\overrightarr
 2. Look for vectors with the length of $\overrightarrow{AB}$ that point the other way.
 
 ::solution
-$O$ is the midpoint of $AC$, so $\overrightarrow{AO}=\overrightarrow{OC}$; $O$ is the midpoint of $BD$, so $\overrightarrow{BO}=\overrightarrow{OD}$. Since $\overrightarrow{AB}=\overrightarrow{DC}$, we get $\overrightarrow{CD}=-\overrightarrow{AB}$.
+Two vectors are equal when they have the same direction and the same length. Two vectors are opposite when they have the same length and opposite directions.
+
+Since $ABCD$ is a parallelogram with centre $O$, the point $O$ is the intersection of the two diagonals, and it is the midpoint of both $AC$ and $BD$.
+
+Since $O$ is the midpoint of $AC$, the points $A$, $O$, $C$ are collinear, $O$ lies between $A$ and $C$, and $AO=OC$. Hence $\overrightarrow{AO}$ and $\overrightarrow{OC}$ have the same direction and the same length, that is, $\overrightarrow{AO}=\overrightarrow{OC}$.
+
+Similarly, $O$ is the midpoint of $BD$, so $\overrightarrow{BO}=\overrightarrow{OD}$.
+
+The vector $\overrightarrow{BA}$ has the same length as $\overrightarrow{AB}$ and the opposite direction, so $\overrightarrow{BA}$ is a vector opposite to $\overrightarrow{AB}$.
+
+Since $ABCD$ is a parallelogram, $\overrightarrow{AB}=\overrightarrow{DC}$. It follows that $\overrightarrow{CD}=-\overrightarrow{DC}=-\overrightarrow{AB}$, so $\overrightarrow{CD}$ is also a vector opposite to $\overrightarrow{AB}$.
+
+So $\overrightarrow{OC}=\overrightarrow{AO}$, $\overrightarrow{OD}=\overrightarrow{BO}$, and two vectors opposite to $\overrightarrow{AB}$ are $\overrightarrow{BA}$ and $\overrightarrow{CD}$.
 
 **Answer.** $\overrightarrow{OC}$; $\overrightarrow{OD}$; $\overrightarrow{BA}$ and $\overrightarrow{CD}$.
 :::
@@ -287,13 +323,19 @@ d) $\overrightarrow{AB}$ and $\overrightarrow{CD}$ have the same direction.
 2. For each pair of vectors, compare direction and length.
 
 ::solution
-a) **True.** $BD=AC=\sqrt{3^2+4^2}=5$.
+The rectangle $ABCD$ is a parallelogram; its two diagonals are equal and meet at the midpoint $O$ of each.
 
-b) **False.** $O$ is the midpoint of $AC$, so $\overrightarrow{OA}$ and $\overrightarrow{OC}$ both have length $2.5$ but opposite directions: $\overrightarrow{OA}=-\overrightarrow{OC}$.
+a) **True.** Consider the triangle $ABC$, right-angled at $B$:
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{3^2+4^2}=5.$$
+The two diagonals of a rectangle are equal, so $BD=AC=5$, hence $|\overrightarrow{BD}|=5$.
 
-c) **True.** $ABCD$ is a parallelogram, so $\overrightarrow{AD}=\overrightarrow{BC}$.
+b) **False.** $O$ is the midpoint of $AC$, so $\overrightarrow{OA}$ and $\overrightarrow{OC}$ both have length $2.5$ but opposite directions. Hence $\overrightarrow{OA}=-\overrightarrow{OC}$ and $\overrightarrow{OA}\neq\overrightarrow{OC}$.
 
-d) **False.** $\overrightarrow{AB}=\overrightarrow{DC}$, so $\overrightarrow{CD}$ points the opposite way to $\overrightarrow{AB}$.
+c) **True.** $ABCD$ is a parallelogram, so $AD\parallel BC$, $AD=BC$ and $\overrightarrow{AD}$, $\overrightarrow{BC}$ have the same direction. Hence $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+d) **False.** Since $ABCD$ is a parallelogram, $\overrightarrow{AB}=\overrightarrow{DC}$. Hence $\overrightarrow{CD}=-\overrightarrow{DC}$ points the opposite way to $\overrightarrow{AB}$.
+
+So statements a), c) are true; statements b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -309,7 +351,21 @@ Three people pull a crate across the floor with three horizontal ropes: the firs
 2. Compare the magnitudes of the pairs that matter.
 
 ::solution
-$\vec{F_1}$ and $\vec{F_3}$ both point right but have different magnitudes ($30$ and $45$), so they are not equal. $\vec{F_1}$ and $\vec{F_2}$ have the same magnitude $30$ and opposite directions, so they are opposite. $\vec{F_2}$ and $\vec{F_3}$ point opposite ways and differ in size.
+A force has a direction, so it is represented by a vector. All three ropes are horizontal, so the three force vectors are parallel; we examine the direction (right or left) and the size of each vector:
+
+- $\vec{F_1}$: to the right, size $30$ N;
+- $\vec{F_2}$: to the left, size $30$ N;
+- $\vec{F_3}$: to the right, size $45$ N.
+
+Pair with the same direction: $\vec{F_1}$ and $\vec{F_3}$ both point to the right.
+
+Opposite pair: $\vec{F_1}$ and $\vec{F_2}$ have the same magnitude $30$ N and opposite directions, so $\vec{F_2}=-\vec{F_1}$.
+
+The pair $\vec{F_2}$ and $\vec{F_3}$ point in opposite directions but differ in size ($30\ne45$), so they are not opposite vectors.
+
+Two equal vectors must have the same direction and the same magnitude. The only pair with the same direction is $\vec{F_1}$, $\vec{F_3}$, but their magnitudes differ ($30\ne45$); the other pairs point in opposite directions. Hence no two of the vectors are equal.
+
+So $\vec{F_1}$ and $\vec{F_3}$ have the same direction; $\vec{F_1}$ and $\vec{F_2}$ are opposite vectors; no two of them are equal.
 
 **Answer.** $\vec{F_1}$, $\vec{F_3}$ have the same direction; $\vec{F_2}=-\vec{F_1}$; no two of them are equal.
 :::
@@ -325,7 +381,19 @@ $ABCDEF$ is a regular hexagon with centre $O$. List all vectors equal to $\overr
 2. Keep only the vectors that point the same way as $O\to A$.
 
 ::solution
-$D$, $O$, $A$ lie on one line and $DO=OA$, so $\overrightarrow{DO}=\overrightarrow{OA}$. $OABC$ is a rhombus, so $\overrightarrow{OA}=\overrightarrow{CB}$. $OAFE$ is a rhombus, so $\overrightarrow{OA}=\overrightarrow{EF}$.
+Let $a$ be the side of the regular hexagon $ABCDEF$ with centre $O$. The triangles $OAB$, $OBC$, $OCD$, $ODE$, $OEF$, $OFA$ are all equilateral with side $a$, so $OA=OB=OC=OD=OE=OF=a$ and every side of the hexagon has length $a$.
+
+A vector equal to $\overrightarrow{OA}$ must have length $a$ and the same direction as $\overrightarrow{OA}$.
+
+The points $D$, $O$, $A$ lie on one line, $O$ lies between $D$ and $A$, and $DO=OA=a$. Hence $\overrightarrow{DO}=\overrightarrow{OA}$.
+
+The quadrilateral $OABC$ has four sides $OA=AB=BC=CO=a$, so it is a rhombus. Hence $\overrightarrow{OA}=\overrightarrow{CB}$.
+
+The quadrilateral $OAFE$ has four sides $OA=AF=FE=EO=a$, so it is a rhombus. Hence $\overrightarrow{OA}=\overrightarrow{EF}$.
+
+We check that there are no others. The segments of length $a$ joining two of the seven points are the $6$ sides and the $6$ radii $OA, OB, \dots, OF$. Among them, $OA$ and $OD$ lie on the line $AD$; $BC$ and $EF$ are parallel to $OA$, hence parallel to $AD$; the remaining segments make an angle of $60^\circ$ or $120^\circ$ with the line $AD$, so they are not parallel to $AD$. Each of the segments $OA$, $OD$, $BC$, $EF$ gives two vectors of opposite directions, and only one of them has the same direction as $\overrightarrow{OA}$, namely $\overrightarrow{OA}$, $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
+
+So the vectors equal to $\overrightarrow{OA}$ (other than itself) are $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
 
 **Answer.** $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
 :::
@@ -341,7 +409,15 @@ In triangle $ABC$, let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$. How m
 2. Check the direction: $P\to N$ goes from side $AB$ to side $AC$, the same way as $B\to C$.
 
 ::solution
-$PN\parallel BC$ and $PN=\dfrac{BC}{2}=BM=MC$. The direction $P\to N$ is the direction $B\to C$, so $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$. No other segment is parallel to $BC$ with length $\dfrac{BC}{2}$.
+Since $P$ and $N$ are the midpoints of $AB$ and $AC$, the segment $PN$ is a midline of triangle $ABC$. Hence $PN\parallel BC$ and $PN=\dfrac{BC}{2}$.
+
+Since $M$ is the midpoint of $BC$, we have $BM=MC=\dfrac{BC}{2}$. It follows that $PN=BM=MC$.
+
+The direction from $P$ to $N$ is the same as the direction from $B$ to $C$, and so are the directions from $B$ to $M$ and from $M$ to $C$. Hence the three vectors $\overrightarrow{PN}$, $\overrightarrow{BM}$, $\overrightarrow{MC}$ have the same direction and the same length, so $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$.
+
+We check that there are no others. A vector equal to $\overrightarrow{PN}$ must have length $\dfrac{BC}{2}$ and the same direction as $\overrightarrow{BC}$. Among the six given points, $B$, $M$, $C$ lie on the line $BC$; $P$, $N$ lie on the line $PN\parallel BC$; the point $A$ is on its own. The only segments parallel to $BC$ with length $\dfrac{BC}{2}$ are $PN$, $BM$, $MC$.
+
+So there are $3$ vectors equal to $\overrightarrow{PN}$ (counting $\overrightarrow{PN}$ itself).
 
 **Answer.** $3$.
 :::
@@ -357,8 +433,17 @@ $PN\parallel BC$ and $PN=\dfrac{BC}{2}=BM=MC$. The direction $P\to N$ is the dir
 2. Take the square root.
 
 ::solution
+The length of the vector $\overrightarrow{BC}$ equals the length of the segment $BC$, so we compute $BC$.
+
+Applying the cosine rule in triangle $ABC$:
+$$BC^2=AC^2+AB^2-2\cdot AC\cdot AB\cdot\cos\angle BAC.$$
+
+Substituting $AC=8$, $AB=5$, $\angle BAC=60^\circ$ (with $\cos60^\circ=\dfrac12$), we get
 $$BC^2=8^2+5^2-2\cdot8\cdot5\cdot\frac12=64+25-40=49.$$
-So $BC=7$.
+
+Since $BC>0$, we have $BC=7$.
+
+So $|\overrightarrow{BC}|=7$.
 
 **Answer.** $|\overrightarrow{BC}|=7$.
 :::
@@ -374,9 +459,19 @@ Points $A, B, C, D$ are not on one line and $\overrightarrow{AB} = \overrightarr
 2. Write the condition $\overrightarrow{PQ}=\overrightarrow{SR}$ in the letters $A, B, C, D$.
 
 ::solution
-With $P=A$, $Q=B$, $R=D$, $S=C$, the condition $\overrightarrow{PQ}=\overrightarrow{SR}$ reads $\overrightarrow{AB}=\overrightarrow{CD}$, which is given. The four points are not on one line, so the quadrilateral $ABDC$ is a parallelogram.
+Recall that the quadrilateral $PQRS$ is a parallelogram if and only if $\overrightarrow{PQ}=\overrightarrow{SR}$ (and the four points are not collinear).
 
-**Answer.** $ABDC$ is a parallelogram (note: usually **not** $ABCD$).
+Since $\overrightarrow{AB}=\overrightarrow{CD}$, the vectors $\overrightarrow{AB}$ and $\overrightarrow{CD}$ have the same direction and the same length. Hence $AB=CD$ and the line $AB$ is parallel or equal to the line $CD$.
+
+If the lines $AB$ and $CD$ coincided, the four points $A, B, C, D$ would lie on one line, contrary to the hypothesis. So $AB\parallel CD$ and the two lines are distinct.
+
+Consider the quadrilateral $ABDC$ (vertices in the order $A, B, D, C$). Put $P=A$, $Q=B$, $R=D$, $S=C$. The condition $\overrightarrow{PQ}=\overrightarrow{SR}$ then reads $\overrightarrow{AB}=\overrightarrow{CD}$, which is given.
+
+So $ABDC$ is a parallelogram.
+
+Note: the order of the vertices matters, so in general $ABCD$ is not a parallelogram.
+
+**Answer.** $ABDC$ is a parallelogram (note: usually not $ABCD$).
 :::
 
 :::exercise Challenge
@@ -390,7 +485,17 @@ A parallelogram has vertices $A, B, C, D$. How many non-zero vectors have both e
 2. Group equal vectors together.
 
 ::solution
-There are $4$ choices for the initial point and $3$ for the terminal point: $4\cdot3=12$ vectors. The sides give four equal pairs: $\overrightarrow{AB}=\overrightarrow{DC}$, $\overrightarrow{BA}=\overrightarrow{CD}$, $\overrightarrow{AD}=\overrightarrow{BC}$, $\overrightarrow{DA}=\overrightarrow{CB}$, that is $4$ different vectors. The four diagonal vectors $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$ are all different from each other and from the side vectors.
+Let the parallelogram be $ABCD$. Each non-zero vector has an initial point and a terminal point that are two different points among $A, B, C, D$.
+
+There are $4$ choices for the initial point and $3$ choices for the terminal point (different from the initial point), so there are $4\cdot3=12$ non-zero vectors.
+
+Now we count the different vectors. The eight vectors lying along the sides are $\overrightarrow{AB}$, $\overrightarrow{BA}$, $\overrightarrow{BC}$, $\overrightarrow{CB}$, $\overrightarrow{CD}$, $\overrightarrow{DC}$, $\overrightarrow{DA}$, $\overrightarrow{AD}$. Since $ABCD$ is a parallelogram, they are equal in pairs:
+$$\overrightarrow{AB}=\overrightarrow{DC},\quad\overrightarrow{BA}=\overrightarrow{CD},\quad\overrightarrow{AD}=\overrightarrow{BC},\quad\overrightarrow{DA}=\overrightarrow{CB}.$$
+So the side vectors give $4$ different vectors.
+
+The remaining four vectors lie along the diagonals: $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$. They are pairwise different (two vectors on the same diagonal point in opposite directions, and vectors on different diagonals lie on different lines) and different from the side vectors because no diagonal is parallel to a side. So the diagonal vectors give $4$ different vectors.
+
+So there are $12$ non-zero vectors with both endpoints among these four points, of which $4+4=8$ are different.
 
 **Answer.** $12$ vectors, of which $4+4=8$ are different.
 :::

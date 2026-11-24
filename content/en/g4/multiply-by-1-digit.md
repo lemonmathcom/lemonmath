@@ -206,8 +206,21 @@ Set out in columns and work out: $2\,413\times3$.
 2. Multiply each digit by $3$ and see whether any product is $10$ or more.
 
 ::solution
+Set out the multiplication and work from right to left, multiplying $3$ by each digit of $2\,413$ in turn.
+
 $$\begin{array}{r} 2413 \\ \times\ \ \ \ 3 \\ \hline 7239 \end{array}$$
-Ones: $3\times3=9$. Tens: $3\times1=3$. Hundreds: $3\times4=12$, write $2$ and carry $1$. Thousands: $3\times2=6$, add $1$ to make $7$.
+
+Ones: $3\times3=9$, write $9$.
+
+Tens: $3\times1=3$, write $3$.
+
+Hundreds: $3\times4=12$, write $2$ and carry $1$.
+
+Thousands: $3\times2=6$, add $1$ to make $7$, write $7$.
+
+*Check.* $7\,239\div3=2\,413$. Correct.
+
+So $2\,413\times3=7\,239$.
 
 **Answer.** $7\,239$.
 :::
@@ -223,8 +236,21 @@ Set out in columns and work out: $3\,658\times5$.
 2. Continue with the tens, hundreds and thousands, adding the carried number to each new product.
 
 ::solution
+Set out the multiplication and work from right to left, multiplying $5$ by each digit of $3\,658$ in turn.
+
 $$\begin{array}{r} 3658 \\ \times\ \ \ \ 5 \\ \hline 18290 \end{array}$$
-Ones: $40$, write $0$ and carry $4$. Tens: $25+4=29$, write $9$ and carry $2$. Hundreds: $30+2=32$, write $2$ and carry $3$. Thousands: $15+3=18$.
+
+Ones: $5\times8=40$, write $0$ and carry $4$.
+
+Tens: $5\times5=25$, add $4$ to make $29$, write $9$ and carry $2$.
+
+Hundreds: $5\times6=30$, add $2$ to make $32$, write $2$ and carry $3$.
+
+Thousands: $5\times3=15$, add $3$ to make $18$, write $18$.
+
+*Check.* $18\,290\div5=3\,658$. Correct.
+
+So $3\,658\times5=18\,290$.
 
 **Answer.** $18\,290$.
 :::
@@ -240,9 +266,19 @@ Set out and work out: $6\,480\div8$.
 2. Bring down $8$ and then $0$.
 
 ::solution
-- $64\div8=8$, write $8$; $64-64=0$.
-- Bring down $8$: $8\div8=1$, write $1$; $8-8=0$.
-- Bring down $0$: $0\div8=0$, write $0$.
+Set out the division and work from left to right.
+
+Since $6<8$, take $64$ and divide by $8$: $64\div8=8$, write $8$; $64-64=0$.
+
+Bring down $8$: $8\div8=1$, write $1$; $8-8=0$.
+
+Bring down $0$: $0\div8=0$, write $0$.
+
+The digits of the quotient, in order, are $8$, $1$, $0$.
+
+*Check.* $810\times8=6\,480$. Correct.
+
+So $6\,480\div8=810$.
 
 **Answer.** $6\,480\div8=810$.
 :::
@@ -258,12 +294,21 @@ Set out and work out: $9\,247\div6$.
 2. Continue, then check.
 
 ::solution
-- $9\div6=1$ (remainder $3$).
-- Bring down $2$: $32\div6=5$ (remainder $2$).
-- Bring down $4$: $24\div6=4$ (remainder $0$).
-- Bring down $7$: $7\div6=1$ (remainder $1$).
+Set out the division and work from left to right.
 
-**Check.** $1\,541\times6+1=9\,247$. Correct.
+Since $9>6$, divide $9$ by $6$: $9\div6=1$ (remainder $3$), write $1$.
+
+Bring down $2$ to make $32$: $32\div6=5$ (remainder $2$), write $5$.
+
+Bring down $4$ to make $24$: $24\div6=4$ (remainder $0$), write $4$.
+
+Bring down $7$ to make $7$: $7\div6=1$ (remainder $1$), write $1$.
+
+The quotient is $1\,541$ and the remainder is $1$; the remainder $1$ is less than the divisor $6$.
+
+*Check.* $1\,541\times6+1=9\,246+1=9\,247$. Correct.
+
+So $9\,247\div6=1\,541$ (remainder $1$).
 
 **Answer.** $9\,247\div6=1\,541$ (remainder $1$).
 :::
@@ -279,8 +324,16 @@ Every day Lan puts $2\,500$ dong into her piggy bank. How many dong has Lan put 
 2. Which operation do we use? Remember the unit.
 
 ::solution
+Solution
+
+Lan puts $2\,500$ dong into the piggy bank every day, so the amount after $7$ days is $2\,500$ dong multiplied by $7$.
+
 The amount Lan puts in after $7$ days is:
 $$2\,500\times7=17\,500\ \text{(dong)}.$$
+
+Since $25\times7=175$, adding two zeros gives $17\,500$.
+
+So after $7$ days, Lan has put $17\,500$ dong in the piggy bank.
 
 **Answer.** $17\,500$ dong.
 :::
@@ -296,10 +349,18 @@ An orchard harvests $4\,860$ kg of oranges. The oranges are packed equally into 
 2. Set out $4\,860\div9$ and check with multiplication.
 
 ::solution
+Solution
+
+The oranges are packed equally into $9$ crates, so the mass of oranges in each crate is $4\,860$ divided by $9$.
+
 The number of kilograms of oranges in each crate is:
 $$4\,860\div9=540\ \text{(kg)}.$$
 
-**Check.** $540\times9=4\,860$. Correct.
+Working: $48\div9=5$ (remainder $3$); bring down $6$ to make $36$, $36\div9=4$ (remainder $0$); bring down $0$ to make $0$, $0\div9=0$. The quotient is $540$.
+
+*Check.* $540\times9=4\,860$. Correct.
+
+So each crate holds $540$ kg of oranges.
 
 **Answer.** $540$ kg.
 :::
@@ -315,9 +376,19 @@ Remember the lesson on rhombuses. A plot of land is a rhombus with side $125$ m.
 2. Divide the perimeter by the distance between posts.
 
 ::solution
-The perimeter of the plot is $125\times4=500$ (m).
+Solution
 
-The number of posts needed is $500\div5=100$ (posts).
+A rhombus has four equal sides, so the perimeter of the plot is the length of one side multiplied by $4$.
+
+The perimeter of the plot is:
+$$125\times4=500\ \text{(m)}.$$
+
+There is $1$ post for every $5$ m of fence, so the number of posts is the perimeter divided by $5$.
+
+The number of posts needed is:
+$$500\div5=100\ \text{(posts)}.$$
+
+So $100$ posts are needed.
 
 **Answer.** $100$ posts.
 :::
@@ -333,13 +404,19 @@ Find the quotient and the remainder of $2\,009\div5$, then check.
 2. Check: $\text{quotient}\times5+\text{remainder}$.
 
 ::solution
-- $20\div5=4$ (remainder $0$).
-- Bring down $0$: $0\div5=0$.
-- Bring down $9$: $9\div5=1$ (remainder $4$).
+Set out the division and work from left to right.
 
-The quotient is $401$ and the remainder is $4$.
+Since $2<5$, divide $20$ by $5$: $20\div5=4$ (remainder $0$), write $4$.
 
-**Check.** $401\times5+4=2\,009$. Correct.
+Bring down $0$: $0\div5=0$, write $0$.
+
+Bring down $9$: $9\div5=1$ (remainder $4$), write $1$.
+
+The quotient is $401$ and the remainder is $4$; the remainder $4$ is less than the divisor $5$.
+
+*Check.* $401\times5+4=2\,005+4=2\,009$. Correct.
+
+So $2\,009\div5$ has quotient $401$ and remainder $4$.
 
 **Answer.** Quotient $401$, remainder $4$.
 :::
@@ -355,9 +432,16 @@ A division has divisor $6$, quotient $125$ and remainder $5$. Find the dividend.
 2. Add the remainder.
 
 ::solution
-The dividend is $125\times6+5=750+5=755$.
+In a division with a remainder, we have: dividend $=$ quotient $\times$ divisor $+$ remainder.
 
-**Check.** $755\div6=125$ (remainder $5$). Correct.
+The remainder $5$ is less than the divisor $6$, so the data are consistent.
+
+Substituting quotient $=125$, divisor $=6$ and remainder $=5$, we get the dividend
+$$125\times6+5=750+5=755.$$
+
+*Check.* $755\div6=125$ (remainder $5$), because $125\times6=750$ and $755-750=5$. Correct.
+
+So the dividend is $755$.
 
 **Answer.** $755$.
 :::
@@ -373,9 +457,16 @@ Find the smallest four-digit number that is divisible by $7$.
 2. How much must be added to $1\,000$ to make the remainder $0$?
 
 ::solution
+The smallest four-digit number is $1\,000$. We look for the smallest number that is at least $1\,000$ and divisible by $7$.
+
 We have $1\,000\div7=142$ (remainder $6$), so $1\,000=7\times142+6$.
 
-We must add $7-6=1$ to $1\,000$ to get a number divisible by $7$: $1\,001=7\times143$.
+Since $1\,000$ is not divisible by $7$ (remainder $6$), we must add $7-6=1$ to $1\,000$ to get a number divisible by $7$:
+$$1\,001=7\times143.$$
+
+The number $1\,001$ has four digits and is divisible by $7$. The multiple of $7$ just before it is $7\times142=994$, which has only three digits, so it does not qualify.
+
+So the smallest four-digit number divisible by $7$ is $1\,001$.
 
 **Answer.** $1\,001$.
 :::

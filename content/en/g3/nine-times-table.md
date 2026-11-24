@@ -156,11 +156,19 @@ c) $9\times6$.
 2. Stop at the number you need.
 
 ::solution
+Solution
+
+We use the $9$ times table.
+
 a) $9\times3=27$.
 
 b) $9\times5=45$.
 
 c) $9\times6=54$.
+
+*Check.* $9\times6=9\times5+9=45+9=54$. Correct.
+
+So $9\times3=27$, $9\times5=45$ and $9\times6=54$.
 
 **Answer.** a) $27$; b) $45$; c) $54$.
 :::
@@ -182,11 +190,17 @@ c) $9\times10$.
 2. Subtract $n$.
 
 ::solution
-a) $9\times7=70-7=63$.
+Solution
 
-b) $9\times9=90-9=81$.
+We can multiply by $9$ by multiplying by $10$ and then taking away one copy of the number.
 
-c) $9\times10=100-10=90$.
+a) $9\times7=10\times7-7=70-7=63$.
+
+b) $9\times9=10\times9-9=90-9=81$.
+
+c) $9\times10=10\times10-10=100-10=90$.
+
+So $9\times7=63$, $9\times9=81$ and $9\times10=90$.
 
 **Answer.** a) $63$; b) $81$; c) $90$.
 :::
@@ -208,11 +222,15 @@ c) $8\times8$ and $9\times7$.
 2. Compare the results.
 
 ::solution
-a) $8\times9=72$.
+Solution
 
-b) $9\times8=72$, the same as $8\times9$.
+a) By the $8$ times table, $8\times9=72$.
 
-c) $8\times8=64$ and $9\times7=63$, so $8\times8>9\times7$.
+b) By the $9$ times table, $9\times8=72$. This is the same as $8\times9$, because swapping the two factors does not change the product.
+
+c) We have $8\times8=64$ and $9\times7=63$. Since $64>63$, we get $8\times8>9\times7$.
+
+So $8\times9=72$, $9\times8=72$, and $8\times8=64$ is greater than $9\times7=63$.
 
 **Answer.** a) $72$; b) $72$; c) $64$ and $63$.
 :::
@@ -234,11 +252,17 @@ c) $90\div9$.
 2. The other number is the quotient.
 
 ::solution
-a) $9\times3=27$, so $27\div9=3$.
+Solution
 
-b) $9\times7=63$, so $63\div9=7$.
+To find each quotient, we recall the matching multiplication fact in the $9$ times table.
 
-c) $9\times10=90$, so $90\div9=10$.
+a) Since $9\times3=27$, we get $27\div9=3$.
+
+b) Since $9\times7=63$, we get $63\div9=7$.
+
+c) Since $9\times10=90$, we get $90\div9=10$.
+
+So $27\div9=3$, $63\div9=7$ and $90\div9=10$.
 
 **Answer.** a) $3$; b) $7$; c) $10$.
 :::
@@ -260,11 +284,17 @@ c) $9\times8 \;\square\; 8\times9$.
 2. Compare the results.
 
 ::solution
-a) $9\times6=54$ and $54>50$, so $9\times6>50$.
+Solution
 
-b) $45\div9=5$ and $9\times1=9$; $5<9$, so $45\div9<9\times1$.
+We work out the value of each side and then compare.
 
-c) $9\times8=72$ and $8\times9=72$, so the two sides are equal (swapping the factors does not change the product).
+a) We have $9\times6=54$. Since $54>50$, we get $9\times6>50$.
+
+b) We have $45\div9=5$ (because $9\times5=45$) and $9\times1=9$. Since $5<9$, we get $45\div9<9\times1$.
+
+c) We have $9\times8=72$ and $8\times9=72$. The two sides are equal, because swapping the factors does not change the product. So $9\times8=8\times9$.
+
+So the signs to write are $>$, $<$ and $=$ in that order.
 
 **Answer.** a) $>$; b) $<$; c) $=$.
 :::
@@ -280,9 +310,15 @@ Khoa wrote: "$9\times6=45$". Where did Khoa go wrong? Correct it.
 2. Work out $9\times6$ again from the product before.
 
 ::solution
-$45=9\times5$, so Khoa is missing one group of $9$. We have $9\times6=45+9=54$.
+Solution
 
-**Check.** $54\div9=6$. Correct.
+We check with the $9$ times table. We have $45=9\times5$, so $45$ is the result of $5$ groups of $9$, not $6$ groups of $9$. Khoa is missing one group of $9$.
+
+The correct working is $9\times6=9\times5+9=45+9=54$.
+
+*Check.* $54\div9=6$. Correct.
+
+So Khoa went wrong by leaving out one group of $9$; the correct result is $9\times6=54$.
 
 **Answer.** Khoa was one group short; $9\times6=54$.
 :::
@@ -300,9 +336,17 @@ b) $81$ sweets are put into bags, $9$ sweets in each bag. How many bags are fill
 2. Choose the operation, work it out and write the answer with its unit.
 
 ::solution
-a) The number of pencils is $9\times8=72$ (pencils).
+Solution
 
-b) The number of bags is $81\div9=9$ (bags).
+a) Each box holds $9$ coloured pencils, so the number of pencils in $8$ boxes is:
+$$9\times8=72\ \text{(pencils)}.$$
+
+b) There are $81$ sweets and each bag holds $9$ sweets, so the number of bags filled is:
+$$81\div9=9\ \text{(bags)}.$$
+
+*Check.* $9\times9=81$. Correct.
+
+So $8$ boxes hold $72$ pencils and $9$ bags of sweets are filled.
 
 **Answer.** a) $72$ pencils; b) $9$ bags.
 :::
@@ -322,11 +366,25 @@ b) Divide each number you found in part a) by $9$.
 2. Pick the numbers whose digits add up to $9$, then divide them by $9$ with the division facts.
 
 ::solution
-a) $3+6=9$, $4+5=9$, $4+8=12$, $7+2=9$, $7+5=12$. So $36,\ 45,\ 72$ are products in the $9$ times table.
+Solution
 
-b) $36\div9=4$, $45\div9=5$, $72\div9=8$.
+Trick: a number in the $9$ times table (less than $100$) has a digit sum equal to $9$.
 
-**Check.** $9\times4=36$, $9\times5=45$, $9\times8=72$.
+a) We find the digit sum of each number:
+- $36$: $3+6=9$.
+- $45$: $4+5=9$.
+- $48$: $4+8=12$, not $9$.
+- $72$: $7+2=9$.
+- $75$: $7+5=12$, not $9$.
+
+So $36,\ 45,\ 72$ are products in the $9$ times table.
+
+b) We divide each number we found by $9$:
+$$36\div9=4,\qquad 45\div9=5,\qquad 72\div9=8.$$
+
+*Check.* $9\times4=36$, $9\times5=45$, $9\times8=72$. Correct.
+
+So $36,\ 45,\ 72$ are products in the $9$ times table, and dividing them by $9$ gives $4,\ 5,\ 8$ respectively.
 
 **Answer.** a) $36,\ 45,\ 72$; b) $4,\ 5,\ 8$.
 :::

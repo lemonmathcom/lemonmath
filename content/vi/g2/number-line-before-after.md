@@ -170,11 +170,17 @@ b) Từ vạch 15, nhảy sang trái 7 vạch thì đến vạch $\square$.
 2. Câu b: em cộng hay trừ?
 
 ::solution
-a) $4+6=10$.
+Trên tia số, nhảy sang phải là cộng, nhảy sang trái là trừ.
 
-b) $15-7=8$.
+a) Từ vạch $4$, nhảy sang phải $6$ vạch, tức là cộng thêm $6$:
+$$4+6=10.$$
 
-**Đáp số.** a) 10; b) 8.
+b) Từ vạch $15$, nhảy sang trái $7$ vạch, tức là trừ đi $7$:
+$$15-7=8.$$
+
+Vậy ở câu a) đến vạch $10$; ở câu b) đến vạch $8$.
+
+**Đáp số.** a) $10$; b) $8$.
 :::
 
 :::exercise
@@ -188,9 +194,17 @@ Tìm số liền trước và số liền sau của 79.
 2. Tính $79+1$, chú ý đổi chữ số hàng chục.
 
 ::solution
-$$79-1=78,\qquad 79+1=80.$$
+Số liền trước của một số bé hơn số đó $1$ đơn vị; số liền sau của một số lớn hơn số đó $1$ đơn vị.
 
-**Đáp số.** Số liền trước là 78, số liền sau là 80.
+Số liền trước của $79$ là:
+$$79-1=78.$$
+
+Số liền sau của $79$ là:
+$$79+1=80.$$
+
+Vậy số liền trước của $79$ là $78$ và số liền sau của $79$ là $80$.
+
+**Đáp số.** Số liền trước là $78$, số liền sau là $80$.
 :::
 
 :::exercise
@@ -210,13 +224,20 @@ c) Số liền trước của 10 là $\square$.
 2. Câu c: số qua tròn chục thì chữ số hàng chục đổi.
 
 ::solution
-a) $99+1=100$.
+Số liền sau thì cộng thêm $1$, số liền trước thì bớt đi $1$.
 
-b) $100-1=99$.
+a) Số liền sau của $99$ là:
+$$99+1=100.$$
 
-c) $10-1=9$.
+b) Số liền trước của $100$ là:
+$$100-1=99.$$
 
-**Đáp số.** a) 100; b) 99; c) 9.
+c) Số liền trước của $10$ là:
+$$10-1=9.$$
+
+Vậy các số cần điền lần lượt là $100$, $99$ và $9$.
+
+**Đáp số.** a) $100$; b) $99$; c) $9$.
 :::
 
 :::exercise
@@ -230,8 +251,13 @@ Gọi tên mỗi số trong các phép tính $27+52=79$ và $64-21=43$.
 2. Trong phép trừ, số nào đứng đầu?
 
 ::solution
+Trong phép cộng, các số đem cộng gọi là số hạng, kết quả gọi là tổng. Trong phép trừ, số bị lấy bớt đi gọi là số bị trừ, số trừ đi gọi là số trừ, kết quả gọi là hiệu.
+
 Trong phép cộng $27+52=79$: $27$ và $52$ là các số hạng, $79$ là tổng.
+
 Trong phép trừ $64-21=43$: $64$ là số bị trừ, $21$ là số trừ, $43$ là hiệu.
+
+Vậy tên của các số là: $27$ và $52$ là số hạng, $79$ là tổng; $64$ là số bị trừ, $21$ là số trừ, $43$ là hiệu.
 
 **Đáp số.** Xem lời giải.
 :::
@@ -251,11 +277,17 @@ b) Hiệu của 79 và 34.
 2. Câu b: số lớn trừ số bé.
 
 ::solution
-a) $43+25=68$.
+a) Tổng của $43$ và $25$ là kết quả của phép cộng $43+25$. Cộng hàng đơn vị: $3+5=8$, viết $8$. Cộng hàng chục: $4+2=6$, viết $6$. Vậy
+$$43+25=68.$$
 
-b) $79-34=45$.
+b) Hiệu của $79$ và $34$ là kết quả của phép trừ $79-34$. Trừ hàng đơn vị: $9-4=5$, viết $5$. Trừ hàng chục: $7-3=4$, viết $4$. Vậy
+$$79-34=45.$$
 
-**Đáp số.** a) 68; b) 45.
+Thử lại: $45+34=79$, đúng.
+
+Vậy tổng của $43$ và $25$ là $68$; hiệu của $79$ và $34$ là $45$.
+
+**Đáp số.** a) $68$; b) $45$.
 :::
 
 :::exercise
@@ -272,10 +304,17 @@ Giả sử các bạn lớp 2A xếp hàng theo số thứ tự. Mai là bạn s
 ::solution
 Bài giải
 
-Bạn đứng ngay trước Mai là bạn số $40-1=39$.
-Bạn đứng ngay sau Mai là bạn số $40+1=41$.
+Các bạn xếp hàng theo số thứ tự, nên bạn đứng ngay trước Mai có số nhỏ hơn số của Mai $1$ đơn vị, bạn đứng ngay sau Mai có số lớn hơn $1$ đơn vị.
 
-Đáp số: bạn số 39 và bạn số 41.
+Bạn đứng ngay trước Mai là bạn số:
+$$40-1=39$$
+
+Bạn đứng ngay sau Mai là bạn số:
+$$40+1=41$$
+
+Vậy bạn đứng ngay trước Mai là bạn số $39$ và bạn đứng ngay sau Mai là bạn số $41$.
+
+**Đáp số.** Bạn số $39$ và bạn số $41$.
 :::
 
 :::exercise
@@ -292,11 +331,17 @@ Nhớ lại bài về độ dài. Dải ruy băng đỏ dài 36 cm, dải ruy b�
 ::solution
 Bài giải
 
-Tổng độ dài của hai dải ruy băng là:
-$$36+21=57\ \text{(cm)}.$$
-Hiệu độ dài của hai dải ruy băng là:
-$$36-21=15\ \text{(cm)}.$$
-Đáp số: tổng 57 cm, hiệu 15 cm.
+Muốn tìm tổng độ dài của hai dải ruy băng, ta cộng độ dài hai dải. Tổng độ dài của hai dải ruy băng là:
+$$36+21=57\ \text{(cm)}$$
+
+Muốn tìm hiệu độ dài, ta lấy số lớn trừ số bé. Hiệu độ dài của hai dải ruy băng là:
+$$36-21=15\ \text{(cm)}$$
+
+Thử lại: $21+15=36$, đúng.
+
+Vậy tổng độ dài của hai dải ruy băng là $57\ \text{cm}$ và hiệu độ dài là $15\ \text{cm}$.
+
+**Đáp số.** Tổng $57\ \text{cm}$, hiệu $15\ \text{cm}$.
 :::
 
 :::exercise Thử thách

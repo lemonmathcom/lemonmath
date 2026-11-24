@@ -191,7 +191,12 @@ Write the number: sixty thousand, seven hundred and thirty-two.
 2. What number is "seven hundred and thirty-two"? Put the two parts together.
 
 ::solution
-"Sixty thousand" is $60\,000$ and "seven hundred and thirty-two" is $732$. We have $60\,000+732=60\,732$.
+We write each part of the number and then add.
+
+"Sixty thousand" is $60\,000$ and "seven hundred and thirty-two" is $732$. We have
+$$60\,000+732=60\,732.$$
+
+So the number is $60\,732$.
 
 **Answer.** $60\,732$.
 :::
@@ -207,7 +212,11 @@ Read the number $80\,019$.
 2. Read the rest: $019$.
 
 ::solution
-The number $80\,019$ has $80$ thousands, $0$ hundreds, $1$ ten and $9$ ones.
+We look at which places the number $80\,019$ has: it has $80$ thousands, $0$ hundreds, $1$ ten and $9$ ones.
+
+The $80$ thousands are read "eighty thousand". The rest has $0$ hundreds, $1$ ten and $9$ ones, which is read "nineteen".
+
+So the number $80\,019$ is read: eighty thousand and nineteen.
 
 **Answer.** Eighty thousand and nineteen.
 :::
@@ -223,8 +232,14 @@ Write $53\,092$ as a sum of ten-thousands, thousands, hundreds, tens and ones.
 2. Leave out the place with digit $0$.
 
 ::solution
-The number $53\,092$ has $5$ ten-thousands, $3$ thousands, $0$ hundreds, $9$ tens and $2$ ones. We have:
+The number $53\,092$ has $5$ ten-thousands, $3$ thousands, $0$ hundreds, $9$ tens and $2$ ones.
+
+The value of each place is: $5$ ten-thousands is $50\,000$; $3$ thousands is $3\,000$; $9$ tens is $90$; $2$ ones is $2$. The hundreds place is $0$, so we do not write it in the sum. We have
 $$53\,092=50\,000+3\,000+90+2.$$
+
+Check: $50\,000+3\,000=53\,000$; $53\,000+90=53\,090$; $53\,090+2=53\,092$.
+
+So $53\,092=50\,000+3\,000+90+2$.
 
 **Answer.** $50\,000+3\,000+90+2$.
 :::
@@ -240,7 +255,14 @@ Find the number before and the number after $20\,000$.
 2. Work out $20\,000+1$.
 
 ::solution
-The number before is $20\,000-1=19\,999$. The number after is $20\,000+1=20\,001$.
+Two numbers next to each other differ by $1$. The number before is $1$ less than $20\,000$, and the number after is $1$ more than $20\,000$.
+
+The number before $20\,000$ is:
+$$20\,000-1=19\,999.$$
+The number after $20\,000$ is:
+$$20\,000+1=20\,001.$$
+
+So the number before $20\,000$ is $19\,999$ and the number after is $20\,001$.
 
 **Answer.** $19\,999$ and $20\,001$.
 :::
@@ -256,7 +278,13 @@ Write $>$, $<$ or $=$ in the gap: $74\,215\ \ldots\ 74\,251$.
 2. Find the first pair of digits that differs.
 
 ::solution
-Both numbers have five digits. The ten-thousands, thousands and hundreds are equal. Tens: $1<5$. So $74\,215<74\,251$.
+The numbers $74\,215$ and $74\,251$ both have five digits. We compare the digits in the same place, from left to right.
+
+Ten-thousands: $7=7$. Thousands: $4=4$. Hundreds: $2=2$. These places are equal.
+
+Tens: $1<5$.
+
+So $74\,215<74\,251$.
 
 **Answer.** The sign $<$.
 :::
@@ -273,7 +301,17 @@ Four districts (made-up numbers) have populations of $38\,540$, $38\,450$, $40\,
 3. For the three numbers that start with $38$, compare the hundreds.
 
 ::solution
-The number $40\,125$ has $4$ in the ten-thousands place, more than the $3$ of the other three. The other three start with $38$; comparing the hundreds: $5$, $4$ and $5$. The number $38\,450$ has the smallest hundreds digit. The numbers $38\,540$ and $38\,504$ have equal hundreds digits, and their tens are $4>0$. We have $38\,450<38\,504<38\,540<40\,125$.
+We compare the four numbers $38\,540$, $38\,450$, $40\,125$ and $38\,504$.
+
+The number $40\,125$ has $4$ in the ten-thousands place, more than the $3$ of the other three. So $40\,125$ is the biggest.
+
+The other three start with $38$; we compare the hundreds: $5$, $4$ and $5$. The number $38\,450$ has the smallest hundreds digit, so it is the smallest.
+
+The numbers $38\,540$ and $38\,504$ have equal hundreds digits. In the tens place we have $4>0$, so $38\,540>38\,504$.
+
+We have $38\,450<38\,504<38\,540<40\,125$.
+
+So the district with $40\,125$ people has the most, and the district with $38\,450$ people has the fewest.
 
 **Answer.** The district with $40\,125$ people has the most, and the district with $38\,450$ people has the fewest.
 :::
@@ -291,10 +329,14 @@ Mai has saved five $10\,000$ dong notes and two $20\,000$ dong notes. How many m
 ::solution
 Solution
 
-The money Mai has is:
+Mai has $5$ notes of $10\,000$ dong and $2$ notes of $20\,000$ dong, so the money Mai has is:
 $$5\times10\,000+2\times20\,000=50\,000+40\,000=90\,000\ \text{(dong)}.$$
-The money Mai still needs is:
+The money Mai still needs to reach $100\,000$ dong is:
 $$100\,000-90\,000=10\,000\ \text{(dong)}.$$
+
+Check: $90\,000+10\,000=100\,000$.
+
+So Mai needs $10\,000$ more dong.
 
 **Answer.** $10\,000$ dong.
 :::
@@ -326,7 +368,17 @@ Find the largest and the smallest five-digit number whose digits add up to $5$.
 2. Smallest number: the ten-thousands digit is $1$; put the rest in the ones place.
 
 ::solution
-Largest number: the ten-thousands digit is $5$ and all the other digits are $0$, giving $50\,000$. Smallest number: the ten-thousands digit is $1$, and the other places need a total of $4$. To make the number smallest, the higher places are all $0$ and $4$ goes in the ones place, giving $10\,004$.
+The digits of a five-digit number are never negative and add up to $5$, so each digit is at most $5$.
+
+Largest number: to make the number largest, the ten-thousands digit must be as large as possible, that is $5$. Then the other digits add up to $5-5=0$, so they are all $0$. We get $50\,000$.
+
+Smallest number: the ten-thousands digit of a five-digit number cannot be $0$, so the smallest it can be is $1$. Then the other places need a total of $5-1=4$.
+
+To make the number smallest, the higher places are all $0$ and all of the $4$ goes in the ones place. We get $10\,004$.
+
+Check: $5+0+0+0+0=5$ and $1+0+0+0+4=5$.
+
+So the largest number is $50\,000$ and the smallest number is $10\,004$.
 
 **Answer.** $50\,000$ and $10\,004$.
 :::

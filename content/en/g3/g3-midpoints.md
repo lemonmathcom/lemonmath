@@ -155,11 +155,17 @@ c) Which point is between $P$ and $Q$?
 2. Do not count the first and last points.
 
 ::solution
-a) Going from $P$ to $S$ we pass $Q$ and $R$, so $Q$ and $R$ are between.
+Solution
 
-b) Going from $Q$ to $S$ we pass only $R$, so $R$ is between.
+The four points $P$, $Q$, $R$, $S$ lie on a straight line in this order from left to right.
 
-c) Going from $P$ to $Q$ we pass no other point, so no point is between.
+a) Going from $P$ to $S$ we pass $Q$ and then $R$. So $Q$ and $R$ are between $P$ and $S$.
+
+b) Going from $Q$ to $S$ we pass only $R$. So $R$ is between $Q$ and $S$.
+
+c) Going from $P$ to $Q$ we pass no other point. So no point is between $P$ and $Q$.
+
+So a) $Q$ and $R$ are between $P$ and $S$; b) $R$ is between $Q$ and $S$; c) no point is between $P$ and $Q$.
 
 **Answer.** a) $Q$, $R$; b) $R$; c) no point.
 :::
@@ -181,11 +187,17 @@ c) $AB=30$ cm.
 2. Divide it by $2$, then check.
 
 ::solution
+Solution
+
+Since $M$ is the midpoint of the line segment $AB$, it splits $AB$ into two equal parts, that is, $AM$ is half of $AB$. So we calculate $AM=AB\div2$.
+
 a) $AM=8\div2=4$ (cm).
 
 b) $AM=20\div2=10$ (cm).
 
 c) $AM=30\div2=15$ (cm).
+
+So $AM$ is $4$ cm, $10$ cm and $15$ cm respectively.
 
 **Answer.** a) $4$ cm; b) $10$ cm; c) $15$ cm.
 :::
@@ -201,7 +213,17 @@ Remember the last lesson on unit fractions. Find $\dfrac{1}{2}$ of $18$. Then le
 2. Compare with $AM$.
 
 ::solution
-$\dfrac{1}{2}$ of $18$ is $18\div2=9$. Since $M$ is the midpoint, $AM=18\div2=9$ cm, which is $\dfrac{1}{2}$ of $AB$.
+Solution
+
+One half of $18$ is:
+$$18\div2=9$$
+
+Since $M$ is the midpoint of the line segment $AB$, $AM$ is half of $AB$. The length of $AM$ is:
+$$AM=18\div2=9\ \text{(cm)}$$
+
+Comparing: $\dfrac{1}{2}$ of $18$ is $9$ and $AM=9$ cm, so $AM$ is $\dfrac{1}{2}$ of $AB$.
+
+So $\dfrac{1}{2}$ of $18$ is $9$, and $AM=9$ cm, which is $\dfrac{1}{2}$ of $AB$.
 
 **Answer.** $9$ and $AM=9$ cm.
 :::
@@ -223,11 +245,17 @@ c) $MB=12$ cm.
 2. Multiply by $2$, then check.
 
 ::solution
+Solution
+
+Since $M$ is the midpoint of the line segment $AB$, we have $MA=MB$ and $AB$ is twice $MA$. So we calculate $AB=MA\times2$.
+
 a) $AB=5\times2=10$ (cm).
 
 b) $AB=9\times2=18$ (cm).
 
-c) $MA=MB=12$ cm, so $AB=12\times2=24$ (cm).
+c) Since $M$ is the midpoint, $MA=MB=12$ cm. Hence $AB=12\times2=24$ (cm).
+
+So $AB$ is $10$ cm, $18$ cm and $24$ cm respectively.
 
 **Answer.** a) $10$ cm; b) $18$ cm; c) $24$ cm.
 :::
@@ -249,11 +277,17 @@ c) Point $M$ is not on the line $AB$, but $MA=MB=4$ cm.
 2. Is $MA$ equal to $MB$?
 
 ::solution
-a) $M$ is between and $AM=MB=3$ cm, so $M$ is the midpoint.
+Solution
 
-b) $AM=2$ cm is not equal to $MB=5$ cm, so $M$ is not the midpoint.
+The point $M$ is the midpoint of the line segment $AB$ when $M$ is between $A$ and $B$ and $MA=MB$. We check these two conditions.
 
-c) $MA=MB$ but $M$ is not between $A$ and $B$ (not in a straight line), so $M$ is not the midpoint.
+a) $M$ is between $A$ and $B$, and $AM=MB=3$ cm. Both conditions hold, so $M$ is the midpoint of $AB$.
+
+b) $M$ is between $A$ and $B$ but $AM=2$ cm is not equal to $MB=5$ cm. The condition $MA=MB$ fails, so $M$ is not the midpoint of $AB$.
+
+c) $M$ is not on the line $AB$, so $M$ is not between $A$ and $B$. Although $MA=MB=4$ cm, the condition of being between fails, so $M$ is not the midpoint of $AB$.
+
+So $M$ is the midpoint of $AB$ in part a); it is not the midpoint in parts b) and c).
 
 **Answer.** a) Yes; b) no; c) no.
 :::
@@ -269,7 +303,16 @@ Ha says: "$AB=10$ cm and $M$ is between $A$ and $B$, so $AM=5$ cm". Where did Ha
 2. Work out $MB$ and compare.
 
 ::solution
-Ha confused a point between with a midpoint. For example, if $AM=3$ cm then $MB=10-3=7$ cm. Then $M$ is between $A$ and $B$ but $AM\neq MB$, so $AM$ is not $5$ cm.
+Solution
+
+Ha thinks that if $M$ is between $A$ and $B$ then $AM=5$ cm, that is, $AM$ is half of $AB=10$ cm. But for $AM$ to be half of $AB$, $M$ must be the midpoint, which means that besides being between $A$ and $B$ we also need $MA=MB$. Ha confused a point between with a midpoint.
+
+For example, take $AM=3$ cm. Since $M$ is between $A$ and $B$,
+$$MB=AB-AM=10-3=7\ \text{(cm)}.$$
+
+Then $M$ is between $A$ and $B$ but $AM=3$ cm is not equal to $MB=7$ cm, so $M$ is not the midpoint and $AM$ is not $5$ cm.
+
+So Ha is wrong because the condition $MA=MB$ is missing.
 
 **Answer.** Ha forgot the condition $MA=MB$.
 :::
@@ -287,9 +330,15 @@ b) The school is the midpoint of the road from Mai's house to Lan's house. From 
 2. Divide or multiply by $2$ and write the answer with its unit.
 
 ::solution
-a) Each piece is $16\div2=8$ (dm) long.
+Solution
 
-b) The whole road is $6\times2=12$ (km).
+a) The plank is sawn at its midpoint, so the two pieces are equal and each is half of the plank. Each piece is:
+$$16\div2=8\ \text{(dm)}$$
+
+b) The school is the midpoint of the road from Mai's house to Lan's house, so the distance from Mai's house to the school is half of the distance from Mai's house to Lan's house. The distance from Mai's house to Lan's house is:
+$$6\times2=12\ \text{(km)}$$
+
+So each piece of the plank is $8$ dm long and it is $12$ km from Mai's house to Lan's house.
 
 **Answer.** a) $8$ dm; b) $12$ km.
 :::
@@ -305,7 +354,20 @@ The line segment $AB$ is $16$ cm long. $M$ is the midpoint of $AB$ and $N$ is th
 2. $NB=NM+MB$.
 
 ::solution
-$AM=16\div2=8$ (cm). $N$ is the midpoint of $AM$, so $AN=NM=8\div2=4$ (cm). $M$ is between $N$ and $B$, so $NB=NM+MB=4+8=12$ (cm).
+Solution
+
+Since $M$ is the midpoint of $AB$, $AM$ is half of $AB$:
+$$AM=16\div2=8\ \text{(cm)}$$
+
+Since $N$ is the midpoint of $AM$, $AN=NM$ and each is half of $AM$:
+$$AN=NM=8\div2=4\ \text{(cm)}$$
+
+Since $M$ is the midpoint of $AB$, $MB=AM=8$ cm. The point $M$ is between $N$ and $B$, so
+$$NB=NM+MB=4+8=12\ \text{(cm)}.$$
+
+Check: $NB=AB-AN=16-4=12$ (cm). This matches the result above.
+
+So $AM=8$ cm, $AN=4$ cm and $NB=12$ cm.
 
 **Answer.** $AM=8$ cm; $AN=4$ cm; $NB=12$ cm.
 :::

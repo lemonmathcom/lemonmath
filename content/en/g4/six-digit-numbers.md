@@ -187,7 +187,12 @@ Write the number: eight hundred and twenty thousand, four hundred.
 2. What number is "four hundred"? Put the two periods together.
 
 ::solution
-"Eight hundred and twenty thousand" is $820\,000$ and "four hundred" is $400$. We have $820\,000+400=820\,400$.
+We write the number period by period. "Eight hundred and twenty thousand" is the thousands period, written $820\,000$. "Four hundred" is the units period, written $400$.
+
+We have
+$$820\,000+400=820\,400.$$
+
+So the number is $820\,400$.
 
 **Answer.** $820\,400$.
 :::
@@ -203,7 +208,13 @@ Read the number $605\,090$.
 2. Read the units period: $090$.
 
 ::solution
-The number $605\,090$ has thousands period $605$ and units period $090$.
+We split $605\,090$ into periods of three digits, from the right. The thousands period is $605$ and the units period is $090$.
+
+We read the thousands period: $605$ is "six hundred and five", followed by the name of the period, "thousand".
+
+We read the units period: $090$ is read "ninety".
+
+So $605\,090$ is read: six hundred and five thousand and ninety.
 
 **Answer.** Six hundred and five thousand and ninety.
 :::
@@ -219,8 +230,12 @@ Write $258\,047$ as a sum.
 2. Leave out the place with digit $0$.
 
 ::solution
-The number $258\,047$ has $2$ hundred-thousands, $5$ ten-thousands, $8$ thousands, $0$ hundreds, $4$ tens and $7$ ones. We have:
+We find the value of each digit of $258\,047$ by its place. The number has $2$ hundred-thousands, $5$ ten-thousands, $8$ thousands, $0$ hundreds, $4$ tens and $7$ ones.
+
+The place with the digit $0$ is left out of the sum. We have:
 $$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+So $258\,047$ written as a sum is $200\,000+50\,000+8\,000+40+7$.
 
 **Answer.** $200\,000+50\,000+8\,000+40+7$.
 :::
@@ -236,7 +251,15 @@ In the number $913\,256$, which place and which period do the digits $9$, $3$ an
 2. Decide which period that place belongs to.
 
 ::solution
-The digit $9$ is in the hundred-thousands place, in the thousands period. The digit $3$ is in the thousands place, in the thousands period. The digit $2$ is in the hundreds place, in the units period.
+The places of $913\,256$, from left to right, are: hundred-thousands, ten-thousands, thousands, hundreds, tens, ones. The first three places belong to the thousands period and the last three to the units period.
+
+The digit $9$ is in the hundred-thousands place, in the thousands period.
+
+The digit $3$ is in the thousands place, in the thousands period.
+
+The digit $2$ is in the hundreds place, in the units period.
+
+So the digit $9$ is in the hundred-thousands place, thousands period; the digit $3$ is in the thousands place, thousands period; the digit $2$ is in the hundreds place, units period.
 
 **Answer.** $9$: hundred-thousands place, thousands period; $3$: thousands place, thousands period; $2$: hundreds place, units period.
 :::
@@ -252,7 +275,13 @@ Find the number before and the number after $400\,000$.
 2. Work out $400\,000+1$.
 
 ::solution
-The number before is $400\,000-1=399\,999$. The number after is $400\,000+1=400\,001$.
+The number before a given number is $1$ less than it. The number before $400\,000$ is:
+$$400\,000-1=399\,999.$$
+
+The number after a given number is $1$ more than it. The number after $400\,000$ is:
+$$400\,000+1=400\,001.$$
+
+So the number before $400\,000$ is $399\,999$ and the number after $400\,000$ is $400\,001$.
 
 **Answer.** $399\,999$ and $400\,001$.
 :::
@@ -272,8 +301,11 @@ Solution
 
 The money Mai has is:
 $$3\times200\,000=600\,000\ \text{(dong)}.$$
-The money Mai still needs is:
+
+The money Mai still needs to have $1\,000\,000$ dong is:
 $$1\,000\,000-600\,000=400\,000\ \text{(dong)}.$$
+
+So Mai needs $400\,000$ more dong.
 
 **Answer.** $400\,000$ dong.
 :::
@@ -294,9 +326,14 @@ Solution
 
 The money in the four $200\,000$ dong notes is:
 $$4\times200\,000=800\,000\ \text{(dong)}.$$
+
 The money in the two $100\,000$ dong notes is:
 $$2\times100\,000=200\,000\ \text{(dong)}.$$
-The total money is $800\,000+200\,000=1\,000\,000$ (dong).
+
+The total money of the shop is:
+$$800\,000+200\,000=1\,000\,000\ \text{(dong)}.$$
+
+So the total is exactly $1\,000\,000$ dong.
 
 **Answer.** Exactly $1\,000\,000$ dong.
 :::
@@ -312,7 +349,14 @@ Remember the lesson on multiplying a five-digit number by a one-digit number. Wo
 2. Count the digits and find the place and period of the digit $1$.
 
 ::solution
-We have $25\,000\times4=100\,000$. The result has six digits. The digit $1$ is in the hundred-thousands place, in the thousands period.
+We multiply the five-digit number by the one-digit number:
+$$25\,000\times4=100\,000.$$
+
+The number $100\,000$ consists of the digit $1$ followed by five zeros, so it has six digits.
+
+The digit $1$ comes first, in the hundred-thousands place. The hundred-thousands place belongs to the thousands period.
+
+So $25\,000\times4=100\,000$; the result has six digits, and the digit $1$ is in the hundred-thousands place, thousands period.
 
 **Answer.** $100\,000$; six digits; hundred-thousands place, thousands period.
 :::
@@ -328,7 +372,13 @@ Lan hears the number "four hundred and three thousand and five" and writes $43\,
 2. Write the units period with three digits, then put them together.
 
 ::solution
-The thousands period is "four hundred and three", which is $403$. The units period is "five", which is $005$. The correct number is $403\,005$. The number $43\,005$ has only five digits, so Lan left out a $0$.
+We write the number period by period. The thousands period is "four hundred and three", which is $403$. The units period is "five", which is $005$.
+
+Putting the two periods together, we get $403\,005$.
+
+The number Lan wrote, $43\,005$, has only five digits, while the correct number $403\,005$ has six digits. Lan left out a $0$ in the ten-thousands place.
+
+So Lan is wrong; the correct number is $403\,005$.
 
 **Answer.** Lan is wrong; the correct number is $403\,005$.
 :::
@@ -344,8 +394,12 @@ How many six-digit numbers are there?
 2. The number of whole numbers in a row from $a$ to $b$ is $b-a+1$.
 
 ::solution
-The six-digit numbers are the numbers from $100\,000$ to $999\,999$. The number of them is:
+The smallest six-digit number is $100\,000$ and the largest is $999\,999$. The six-digit numbers are the numbers from $100\,000$ to $999\,999$.
+
+The number of them is:
 $$999\,999-100\,000+1=900\,000.$$
+
+So there are $900\,000$ six-digit numbers.
 
 **Answer.** $900\,000$ numbers.
 :::

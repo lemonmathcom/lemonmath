@@ -210,11 +210,18 @@ Write the ratio of: a) $15$ to $20$; b) $18$ to $12$; c) $30$ cm to $1.5$ m.
 2. Write the ratio and simplify it.
 
 ::solution
-a) $15:20=3:4$.
+The ratio of two numbers $a$ and $b$ ($b\ne0$) is $a:b$. We simplify a ratio by dividing both numbers by a common factor.
 
-b) $18:12=3:2$.
+a) Both $15$ and $20$ are divisible by $5$, so
+$$15:20=(15:5):(20:5)=3:4.$$
 
-c) $1.5$ m $=150$ cm, so $30:150=1:5$.
+b) Both $18$ and $12$ are divisible by $6$, so
+$$18:12=(18:6):(12:6)=3:2.$$
+
+c) To form the ratio of two quantities, they must be in the same unit. Convert $1.5$ m $=150$ cm. Then the ratio of $30$ cm to $150$ cm is
+$$30:150=(30:30):(150:30)=1:5.$$
+
+So the ratio of $15$ to $20$ is $3:4$; the ratio of $18$ to $12$ is $3:2$; the ratio of $30$ cm to $1.5$ m is $1:5$.
 
 **Answer.** a) $3:4$; b) $3:2$; c) $1:5$.
 :::
@@ -230,9 +237,18 @@ A yard has $12$ chickens and $28$ ducks. Find the ratio of the number of chicken
 2. Work out the total number of animals, then write the ratio of chickens to the total.
 
 ::solution
-The ratio of the number of chickens to the number of ducks is $12:28=3:7$.
+Solution
 
-The total number of chickens and ducks is $12+28=40$. The ratio of the number of chickens to the total is $12:40=3:10$.
+The ratio of the number of chickens to the number of ducks is:
+$$12:28=(12:4):(28:4)=3:7$$
+
+The total number of chickens and ducks is:
+$$12+28=40\ \text{(birds)}$$
+
+The ratio of the number of chickens to the total is:
+$$12:40=(12:4):(40:4)=3:10$$
+
+So the ratio of the number of chickens to the number of ducks is $3:7$, and the ratio of the number of chickens to the total number of chickens and ducks is $3:10$.
 
 **Answer.** $3:7$ and $3:10$.
 :::
@@ -248,11 +264,18 @@ Find the percentage: a) $7$ out of $20$; b) $9$ out of $12$; c) $3$ out of $8$.
 2. Multiply the result by $100$ and write $\%$.
 
 ::solution
-a) $7\div20=0.35=35\%$.
+To find the percentage that one number is of another, we divide the first number by the second, multiply the quotient by $100$ and write the sign $\%$.
 
-b) $9\div12=0.75=75\%$.
+a) We have $7\div20=0.35$. Multiplying by $100$ gives $35$, so
+$$7\div20=0.35=35\%.$$
 
-c) $3\div8=0.375=37.5\%$.
+b) We have $9\div12=0.75$. Multiplying by $100$ gives $75$, so
+$$9\div12=0.75=75\%.$$
+
+c) We have $3\div8=0.375$. Multiplying by $100$ gives $37.5$, so
+$$3\div8=0.375=37.5\%.$$
+
+So $7$ out of $20$ is $35\%$; $9$ out of $12$ is $75\%$; $3$ out of $8$ is $37.5\%$.
 
 **Answer.** a) $35\%$; b) $75\%$; c) $37.5\%$.
 :::
@@ -268,11 +291,18 @@ Find: a) $25\%$ of $120$; b) $8\%$ of $350$; c) $150\%$ of $60$.
 2. Divide by $100$.
 
 ::solution
-a) $120\times25\div100=30$.
+To find $a\%$ of a number $N$, we multiply $N$ by $a$ and then divide by $100$.
 
-b) $350\times8\div100=28$.
+a) $25\%$ of $120$ is
+$$120\times25\div100=3000\div100=30.$$
 
-c) $60\times150\div100=90$.
+b) $8\%$ of $350$ is
+$$350\times8\div100=2800\div100=28.$$
+
+c) $150\%$ of $60$ is
+$$60\times150\div100=9000\div100=90.$$
+
+So $25\%$ of $120$ is $30$; $8\%$ of $350$ is $28$; $150\%$ of $60$ is $90$.
 
 **Answer.** a) $30$; b) $28$; c) $90$.
 :::
@@ -288,9 +318,17 @@ Find the number, given that: a) $40\%$ of it is $18$; b) $15\%$ of it is $12$.
 2. Multiply by $100$. Check by finding $x\%$ of the number you found.
 
 ::solution
-a) $18\div40\times100=45$. Check: $45\times40\div100=18$.
+To find a number when $a\%$ of it equals $m$, we divide $m$ by $a$ and then multiply by $100$.
 
-b) $12\div15\times100=80$. Check: $80\times15\div100=12$.
+a) The number is
+$$18\div40\times100=0.45\times100=45.$$
+Check: $45\times40\div100=1800\div100=18$ (correct).
+
+b) The number is
+$$12\div15\times100=0.8\times100=80.$$
+Check: $80\times15\div100=1200\div100=12$ (correct).
+
+So the number is $45$ in part a) and $80$ in part b).
 
 **Answer.** a) $45$; b) $80$.
 :::
@@ -306,9 +344,15 @@ Suppose a school has $600$ pupils, of whom $45\%$ are girls. Find the number of 
 2. Subtract the number of girls from the total number of pupils.
 
 ::solution
-The number of girls is $600\times45\div100=270$ (pupils).
+Solution
 
-The number of boys is $600-270=330$ (pupils).
+The number of girls in the school is:
+$$600\times45\div100=270\ \text{(pupils)}$$
+
+The number of boys in the school is:
+$$600-270=330\ \text{(pupils)}$$
+
+So the school has $270$ girls and $330$ boys.
 
 **Answer.** $270$ girls; $330$ boys.
 :::
@@ -324,9 +368,15 @@ Suppose a shirt has a marked price of $180\,000$ dong and a discount of $15\%$. 
 2. Subtract it from the original price.
 
 ::solution
-The amount of the discount is $180\,000\times15\div100=27\,000$ dong.
+Solution
 
-The price of the shirt after the discount is $180\,000-27\,000=153\,000$ (dong).
+The amount of the discount is:
+$$180\,000\times15\div100=27\,000\ \text{(dong)}$$
+
+The price of the shirt after the discount is:
+$$180\,000-27\,000=153\,000\ \text{(dong)}$$
+
+So the price of the shirt after the discount is $153\,000$ dong.
 
 **Answer.** $153\,000$ dong.
 :::
@@ -342,9 +392,17 @@ Remember the lesson on multiplying and dividing decimals by $10$; $100$; $1000$.
 2. Change the result (in centimetres) into kilometres.
 
 ::solution
-The real distance is $6.5\times100\,000=650\,000$ cm.
+Solution
 
-Change to kilometres: $650\,000\div100\,000=6.5$ km.
+The map scale $1:100\,000$ means that $1$ cm on the map stands for $100\,000$ cm in real life.
+
+The real distance between the two villages is:
+$$6.5\times100\,000=650\,000\ \text{(cm)}$$
+
+Since $1$ km $=1000$ m $=100\,000$ cm, changing to kilometres gives:
+$$650\,000\div100\,000=6.5\ \text{(km)}$$
+
+So the villages are $6.5$ km apart in real life.
 
 **Answer.** $6.5$ km.
 :::
@@ -360,7 +418,17 @@ On a map with scale $1:2\,000\,000$, two cities are $60$ km apart in real life. 
 2. Divide by $2\,000\,000$.
 
 ::solution
-$60$ km $=6\,000\,000$ cm. The distance on the map is $6\,000\,000\div2\,000\,000=3$ cm.
+Solution
+
+The map scale $1:2\,000\,000$ means that $1$ cm on the map stands for $2\,000\,000$ cm in real life.
+
+Change $60$ km to centimetres:
+$$60\ \text{km}=60\times100\,000=6\,000\,000\ \text{(cm)}$$
+
+The distance between the two cities on the map is:
+$$6\,000\,000\div2\,000\,000=3\ \text{(cm)}$$
+
+So the two cities are $3$ cm apart on the map.
 
 **Answer.** $3$ cm.
 :::
@@ -376,11 +444,26 @@ The price of an item is increased by $20\%$, and then decreased by $20\%$ (of th
 2. Work out the price after a $20\%$ decrease of that price, then compare with the original price.
 
 ::solution
-Take the original price as $100\,000$ dong. After the $20\%$ increase, the price is $100\,000+100\,000\times20\div100=120\,000$ dong.
+Solution
 
-A $20\%$ decrease of $120\,000$ dong is $120\,000\times20\div100=24\,000$ dong, so the final price is $120\,000-24\,000=96\,000$ dong.
+The percentage of the final price to the original price does not depend on the original price, so we take the original price as $100\,000$ dong.
 
-$96\,000$ out of $100\,000$ as a percentage is $96\,000\div100\,000=0.96=96\%$.
+The amount of the increase is:
+$$100\,000\times20\div100=20\,000\ \text{(dong)}$$
+
+The price after the $20\%$ increase is:
+$$100\,000+20\,000=120\,000\ \text{(dong)}$$
+
+The amount of the decrease ($20\%$ of the increased price) is:
+$$120\,000\times20\div100=24\,000\ \text{(dong)}$$
+
+The final price is:
+$$120\,000-24\,000=96\,000\ \text{(dong)}$$
+
+The final price as a percentage of the original price is:
+$$96\,000\div100\,000=0.96=96\%$$
+
+So the final price is $96\%$ of the original price, that is, a decrease of $4\%$.
 
 **Answer.** $96\%$ of the original price (a decrease of $4\%$).
 :::

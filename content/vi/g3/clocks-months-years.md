@@ -204,7 +204,12 @@ Kim ngắn của một đồng hồ ở giữa số $5$ và số $6$, kim dài c
 2. Tính số phút từ số mà kim dài chỉ.
 
 ::solution
-Kim ngắn đã qua số $5$ nên là $5$ giờ. Kim dài chỉ số $6$, ta có $6\times5=30$ phút.
+Kim ngắn nằm giữa số $5$ và số $6$, tức là kim ngắn đã qua số $5$ nhưng chưa tới số $6$, nên đồng hồ chỉ $5$ giờ.
+
+Kim dài chỉ số $6$. Mỗi số trên mặt đồng hồ ứng với $5$ phút, nên số phút là
+$$6\times5=30\ \text{(phút)}.$$
+
+Vậy đồng hồ chỉ $5$ giờ $30$ phút.
 
 **Đáp số.** $5$ giờ $30$ phút.
 :::
@@ -220,7 +225,17 @@ Kim ngắn của một đồng hồ ở gần số $8$ nhưng chưa tới số $
 2. Còn bao nhiêu phút nữa thì tới $8$ giờ?
 
 ::solution
-Kim ngắn chưa tới số $8$ nên là $7$ giờ. Kim dài chỉ số $9$, ta có $9\times5=45$ phút. Đồng hồ chỉ $7$ giờ $45$ phút. Còn $60-45=15$ phút nữa là $8$ giờ.
+Kim ngắn gần số $8$ nhưng chưa tới số $8$, nên giờ là $7$ giờ.
+
+Kim dài chỉ số $9$. Mỗi số trên mặt đồng hồ ứng với $5$ phút, nên số phút là
+$$9\times5=45\ \text{(phút)}.$$
+
+Đồng hồ chỉ $7$ giờ $45$ phút.
+
+Để đọc theo cách có từ "kém", ta tìm số phút còn lại đến $8$ giờ. Một giờ có $60$ phút nên số phút còn lại là
+$$60-45=15\ \text{(phút)}.$$
+
+Vậy đồng hồ chỉ $7$ giờ $45$ phút, tức là $8$ giờ kém $15$ phút.
 
 **Đáp số.** $7$ giờ $45$ phút, tức là $8$ giờ kém $15$ phút.
 :::
@@ -236,7 +251,14 @@ Viết $6$ giờ $40$ phút theo cách đọc có từ "kém".
 2. Còn bao nhiêu phút nữa tới giờ đó?
 
 ::solution
-Giờ tròn kế tiếp là $7$ giờ. Còn $60-40=20$ phút nữa.
+Muốn đọc giờ theo cách có từ "kém", ta lấy giờ tròn kế tiếp rồi trừ đi số phút còn thiếu.
+
+Sau $6$ giờ $40$ phút, giờ tròn kế tiếp là $7$ giờ.
+
+Số phút còn lại đến $7$ giờ là
+$$60-40=20\ \text{(phút)}.$$
+
+Vậy $6$ giờ $40$ phút đọc là $7$ giờ kém $20$ phút.
 
 **Đáp số.** $7$ giờ kém $20$ phút.
 :::
@@ -252,7 +274,12 @@ Giờ tròn kế tiếp là $7$ giờ. Còn $60-40=20$ phút nữa.
 2. Cộng với $25$ phút.
 
 ::solution
-Ta có $1$ giờ $=60$ phút. Vậy $1$ giờ $25$ phút $=60+25=85$ phút.
+Ta có $1$ giờ $=60$ phút.
+
+Do đó
+$$1\ \text{giờ}\ 25\ \text{phút}=60\ \text{phút}+25\ \text{phút}=85\ \text{phút}.$$
+
+Vậy $1$ giờ $25$ phút $=85$ phút.
 
 **Đáp số.** $85$ phút.
 :::
@@ -271,11 +298,16 @@ Một bộ phim (số liệu giả định) chiếu từ $9$ giờ $10$ phút đ
 ::solution
 Bài giải
 
-Từ $9$ giờ $10$ phút đến $10$ giờ $10$ phút là $1$ giờ. Từ $10$ giờ $10$ phút đến $10$ giờ $55$ phút là $55-10=45$ phút.
+Từ $9$ giờ $10$ phút đến $10$ giờ $10$ phút là $1$ giờ.
+
+Từ $10$ giờ $10$ phút đến $10$ giờ $55$ phút là
+$$55-10=45\ \text{(phút)}.$$
 
 Bộ phim dài $1$ giờ $45$ phút.
 
-**Thử lại.** $1$ giờ $45$ phút $=60+45=105$ phút. Đúng.
+Thử lại: $9$ giờ $10$ phút $+\ 1$ giờ $45$ phút $=10$ giờ $55$ phút. Đúng.
+
+Vậy bộ phim dài $1$ giờ $45$ phút.
 
 **Đáp số.** $1$ giờ $45$ phút.
 :::
@@ -291,7 +323,11 @@ Trong các tháng $4$, $7$, $9$, $12$, những tháng nào có $31$ ngày?
 2. Chọn những tháng có $31$ ngày.
 
 ::solution
-Tháng $4$ và tháng $9$ có $30$ ngày. Tháng $7$ và tháng $12$ có $31$ ngày.
+Trong một năm, các tháng $1$, $3$, $5$, $7$, $8$, $10$, $12$ có $31$ ngày; các tháng $4$, $6$, $9$, $11$ có $30$ ngày (tháng $2$ có $28$ hoặc $29$ ngày).
+
+Tháng $4$ có $30$ ngày. Tháng $7$ có $31$ ngày. Tháng $9$ có $30$ ngày. Tháng $12$ có $31$ ngày.
+
+Vậy trong các tháng đã cho, tháng $7$ và tháng $12$ có $31$ ngày.
 
 **Đáp số.** Tháng $7$ và tháng $12$.
 :::
@@ -310,8 +346,14 @@ Học kì một của một trường (số liệu giả định) bắt đầu t
 ::solution
 Bài giải
 
-Tháng $9$ có $30$ ngày, tháng $10$ có $31$ ngày, tháng $11$ có $30$ ngày, tháng $12$ có $31$ ngày. Số ngày là:
+Học kì một gồm bốn tháng: tháng $9$, tháng $10$, tháng $11$ và tháng $12$.
+
+Tháng $9$ có $30$ ngày, tháng $10$ có $31$ ngày, tháng $11$ có $30$ ngày, tháng $12$ có $31$ ngày.
+
+Số ngày của học kì một là:
 $$30+31+30+31=122\ \text{(ngày)}.$$
+
+Vậy học kì một có $122$ ngày.
 
 **Đáp số.** $122$ ngày.
 :::
@@ -331,7 +373,14 @@ Bài giải
 
 Số phút Mai tập đàn trong $7$ ngày là:
 $$35\times7=245\ \text{(phút)}.$$
-Ta có $245=4\times60+5$, nên $245$ phút $=4$ giờ $5$ phút.
+
+Ta đổi $245$ phút ra giờ và phút. Vì $1$ giờ $=60$ phút nên ta chia $245$ cho $60$:
+$$245=4\times60+5,$$
+tức là $245$ phút $=4$ giờ $5$ phút.
+
+Thử lại: $4\times60+5=245$ (phút). Đúng.
+
+Vậy trong $7$ ngày, Mai tập đàn tất cả $4$ giờ $5$ phút.
 
 **Đáp số.** $4$ giờ $5$ phút.
 :::
@@ -347,9 +396,13 @@ Em hãy nhớ lại bài chia cho số có một chữ số. Một năm thườn
 2. Thử lại: thương $\times7+$ số dư.
 
 ::solution
+Để biết $365$ ngày là bao nhiêu tuần và còn dư mấy ngày, ta chia $365$ cho $7$ (vì một tuần có $7$ ngày).
+
 Ta có $365:7=52$ (dư $1$).
 
-**Thử lại.** $52\times7=364$ và $364+1=365$. Đúng.
+Thử lại: $52\times7=364$ và $364+1=365$. Đúng.
+
+Vậy $365$ ngày là $52$ tuần và $1$ ngày.
 
 **Đáp số.** $52$ tuần và $1$ ngày.
 :::
@@ -365,7 +418,15 @@ Ngày $1$ tháng $3$ là thứ Hai. Hỏi ngày $1$ tháng $4$ của cùng năm 
 2. Chia số ngày đó cho $7$, xem số dư.
 
 ::solution
-Từ ngày $1$ tháng $3$ đến ngày $1$ tháng $4$ có $31$ ngày. Ta có $31:7=4$ (dư $3$). Cứ $7$ ngày thì thứ lặp lại, nên ta đếm thêm $3$ ngày sau thứ Hai: thứ Ba, thứ Tư, thứ Năm.
+Tháng $3$ có $31$ ngày, nên từ ngày $1$ tháng $3$ đến ngày $1$ tháng $4$ có $31$ ngày.
+
+Ta có $31:7=4$ (dư $3$).
+
+Cứ $7$ ngày thì thứ lặp lại, nên sau $4\times7=28$ ngày (tức ngày $29$ tháng $3$) vẫn là thứ Hai.
+
+Đếm thêm $3$ ngày sau thứ Hai: ngày $30$ tháng $3$ là thứ Ba, ngày $31$ tháng $3$ là thứ Tư, ngày $1$ tháng $4$ là thứ Năm.
+
+Vậy ngày $1$ tháng $4$ của năm đó là thứ Năm.
 
 **Đáp số.** Thứ Năm.
 :::

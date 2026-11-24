@@ -153,7 +153,12 @@ Viết thương của mỗi phép chia dưới dạng phân số: $5:8$ và $9:4
 2. Số chia là mẫu số.
 
 ::solution
-$5:8=\dfrac{5}{8}$ và $9:4=\dfrac{9}{4}$.
+Thương của phép chia số tự nhiên cho số tự nhiên khác $0$ viết được dưới dạng phân số, trong đó tử số là số bị chia và mẫu số là số chia.
+
+Do đó
+$$5:8=\frac{5}{8},\qquad 9:4=\frac{9}{4}.$$
+
+Vậy thương của $5:8$ là $\dfrac{5}{8}$ và thương của $9:4$ là $\dfrac{9}{4}$.
 
 **Đáp số.** $\dfrac{5}{8}$ và $\dfrac{9}{4}$.
 :::
@@ -169,7 +174,12 @@ Viết số tự nhiên $7$ dưới dạng phân số có mẫu số là $3$.
 2. Nhân cả tử số và mẫu số với số nào để mẫu số thành $3$?
 
 ::solution
-$7=\dfrac{7}{1}=\dfrac{7\times3}{1\times3}=\dfrac{21}{3}$.
+Mỗi số tự nhiên có thể viết thành phân số có mẫu số là $1$: $7=\dfrac{7}{1}$.
+
+Muốn có mẫu số là $3$, ta nhân cả tử số và mẫu số với $3$:
+$$7=\frac{7}{1}=\frac{7\times3}{1\times3}=\frac{21}{3}.$$
+
+Vậy số tự nhiên $7$ viết dưới dạng phân số có mẫu số là $3$ là $\dfrac{21}{3}$.
 
 **Đáp số.** $\dfrac{21}{3}$.
 :::
@@ -185,7 +195,14 @@ Em hãy nhớ lại bài rút gọn phân số. Rút gọn $\dfrac{36}{60}$ đ�
 2. Chia rồi kiểm tra đã tối giản chưa.
 
 ::solution
-Cả $36$ và $60$ chia hết cho $12$: $\dfrac{36}{60}=\dfrac{36:12}{60:12}=\dfrac{3}{5}$.
+Muốn rút gọn phân số, ta chia cả tử số và mẫu số cho một ước chung lớn hơn $1$ của chúng.
+
+Cả $36$ và $60$ cùng chia hết cho $12$ nên
+$$\frac{36}{60}=\frac{36:12}{60:12}=\frac{3}{5}.$$
+
+Vì $3$ và $5$ không có ước chung nào lớn hơn $1$ nên $\dfrac{3}{5}$ là phân số tối giản.
+
+Vậy phân số $\dfrac{36}{60}$ rút gọn đến phân số tối giản là $\dfrac{3}{5}$.
 
 **Đáp số.** $\dfrac{3}{5}$.
 :::
@@ -201,7 +218,12 @@ Tìm số $x$ để $\dfrac{5}{8}=\dfrac{x}{24}$.
 2. Nhân tử số $5$ với số đó.
 
 ::solution
-Vì $24=8\times3$ nên $\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24}$.
+Mẫu số của phân số thứ hai là $24$. Ta có $24=8\times3$, nên muốn mẫu số $8$ thành $24$ ta nhân mẫu số với $3$. Để giá trị phân số không đổi, ta nhân cả tử số với $3$:
+$$\frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+So sánh với $\dfrac{5}{8}=\dfrac{x}{24}$, ta được $x=15$.
+
+Vậy $x=15$.
 
 **Đáp số.** $x=15$.
 :::
@@ -217,7 +239,12 @@ Quy đồng mẫu số hai phân số $\dfrac{3}{10}$ và $\dfrac{4}{15}$.
 2. Đổi từng phân số về mẫu số $30$.
 
 ::solution
-$$\dfrac{3}{10}=\dfrac{3\times3}{10\times3}=\dfrac{9}{30},\qquad \dfrac{4}{15}=\dfrac{4\times2}{15\times2}=\dfrac{8}{30}.$$
+Muốn quy đồng mẫu số hai phân số, ta tìm một mẫu số chung chia hết cho cả hai mẫu số. Ở đây mẫu số chung là $30$, vì $30:10=3$ và $30:15=2$.
+
+Nhân cả tử số và mẫu số của mỗi phân số với thừa số tương ứng:
+$$\frac{3}{10}=\frac{3\times3}{10\times3}=\frac{9}{30},\qquad \frac{4}{15}=\frac{4\times2}{15\times2}=\frac{8}{30}.$$
+
+Vậy sau khi quy đồng mẫu số, hai phân số $\dfrac{3}{10}$ và $\dfrac{4}{15}$ thành $\dfrac{9}{30}$ và $\dfrac{8}{30}$.
 
 **Đáp số.** $\dfrac{9}{30}$ và $\dfrac{8}{30}$.
 :::
@@ -233,8 +260,14 @@ So sánh $\dfrac{7}{12}$ và $\dfrac{5}{8}$.
 2. So sánh hai tử số.
 
 ::solution
-$$\dfrac{7}{12}=\dfrac{14}{24},\qquad \dfrac{5}{8}=\dfrac{15}{24}.$$
-Vì $14<15$ nên $\dfrac{7}{12}<\dfrac{5}{8}$.
+Muốn so sánh hai phân số khác mẫu số, ta quy đồng mẫu số rồi so sánh các tử số. Mẫu số chung là $24$, vì $24:12=2$ và $24:8=3$.
+
+Ta có
+$$\frac{7}{12}=\frac{7\times2}{12\times2}=\frac{14}{24},\qquad \frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+Hai phân số có cùng mẫu số, phân số nào có tử số bé hơn thì bé hơn. Vì $14<15$ nên $\dfrac{14}{24}<\dfrac{15}{24}$.
+
+Vậy $\dfrac{7}{12}<\dfrac{5}{8}$.
 
 **Đáp số.** $\dfrac{7}{12}<\dfrac{5}{8}$.
 :::
@@ -250,8 +283,15 @@ Sắp xếp các phân số $\dfrac{3}{4}$, $\dfrac{5}{6}$, $\dfrac{2}{3}$, $\df
 2. Xếp các tử số theo thứ tự.
 
 ::solution
-$$\dfrac{3}{4}=\dfrac{9}{12},\qquad \dfrac{5}{6}=\dfrac{10}{12},\qquad \dfrac{2}{3}=\dfrac{8}{12},\qquad \dfrac{7}{12}\ \text{(giữ nguyên)}.$$
-Ta có $7<8<9<10$.
+Ta quy đồng mẫu số các phân số với mẫu số chung là $12$, vì $12$ chia hết cho $4$, $6$, $3$ và $12$.
+
+Ta có
+$$\frac{3}{4}=\frac{3\times3}{4\times3}=\frac{9}{12},\qquad \frac{5}{6}=\frac{5\times2}{6\times2}=\frac{10}{12},\qquad \frac{2}{3}=\frac{2\times4}{3\times4}=\frac{8}{12},\qquad \frac{7}{12}\ \text{(giữ nguyên)}.$$
+
+Các phân số có cùng mẫu số $12$ và các tử số là $9$, $10$, $8$, $7$. Ta có $7<8<9<10$ nên
+$$\frac{7}{12}<\frac{8}{12}<\frac{9}{12}<\frac{10}{12}.$$
+
+Vậy các phân số xếp theo thứ tự từ bé đến lớn là $\dfrac{7}{12}$, $\dfrac{2}{3}$, $\dfrac{3}{4}$, $\dfrac{5}{6}$.
 
 **Đáp số.** $\dfrac{7}{12}<\dfrac{2}{3}<\dfrac{3}{4}<\dfrac{5}{6}$.
 :::
@@ -267,9 +307,14 @@ Nam đọc được $\dfrac{7}{10}$ quyển truyện, Hà đọc được $\dfra
 2. Quy đồng mẫu số rồi so sánh.
 
 ::solution
-Quy đồng mẫu số với mẫu số chung $40$:
-$$\dfrac{7}{10}=\dfrac{28}{40},\qquad \dfrac{5}{8}=\dfrac{25}{40}.$$
-Vì $28>25$ nên $\dfrac{7}{10}>\dfrac{5}{8}$.
+Bài giải
+
+Để biết bạn nào đọc được nhiều hơn, ta so sánh $\dfrac{7}{10}$ và $\dfrac{5}{8}$. Quy đồng mẫu số với mẫu số chung là $40$, vì $40:10=4$ và $40:8=5$:
+$$\frac{7}{10}=\frac{7\times4}{10\times4}=\frac{28}{40},\qquad \frac{5}{8}=\frac{5\times5}{8\times5}=\frac{25}{40}.$$
+
+Vì $28>25$ nên $\dfrac{28}{40}>\dfrac{25}{40}$, tức là $\dfrac{7}{10}>\dfrac{5}{8}$.
+
+Vậy bạn Nam đọc được nhiều hơn.
 
 **Đáp số.** Bạn Nam đọc được nhiều hơn.
 :::
@@ -285,8 +330,12 @@ Một cửa hàng chia đều $5$ kg gạo vào $6$ túi giống nhau. Hỏi m�
 2. Viết thương $5:6$ dưới dạng phân số và ghi đơn vị.
 
 ::solution
-Số ki-lô-gam gạo trong mỗi túi là:
-$$5:6=\dfrac{5}{6}\ \text{(kg)}.$$
+Bài giải
+
+Chia đều $5$ kg gạo vào $6$ túi giống nhau, nên số ki-lô-gam gạo trong mỗi túi là thương của phép chia $5:6$, viết dưới dạng phân số:
+$$5:6=\frac{5}{6}\ \text{(kg)}$$
+
+Vậy mỗi túi có $\dfrac{5}{6}$ kg gạo.
 
 **Đáp số.** $\dfrac{5}{6}$ kg.
 :::
@@ -302,9 +351,17 @@ Tìm một phân số lớn hơn $\dfrac{3}{5}$ và bé hơn $\dfrac{2}{3}$.
 2. Nếu không, nhân cả hai với $2$ để có mẫu số $30$.
 
 ::solution
-Ta có $\dfrac{3}{5}=\dfrac{9}{15}$ và $\dfrac{2}{3}=\dfrac{10}{15}$. Giữa hai tử số $9$ và $10$ không có số tự nhiên nào.
+Ta quy đồng mẫu số hai phân số đã cho với mẫu số chung là $15$:
+$$\frac{3}{5}=\frac{3\times3}{5\times3}=\frac{9}{15},\qquad \frac{2}{3}=\frac{2\times5}{3\times5}=\frac{10}{15}.$$
 
-Nhân cả tử số và mẫu số với $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ và $\dfrac{2}{3}=\dfrac{20}{30}$. Phân số $\dfrac{19}{30}$ có tử số nằm giữa $18$ và $20$.
+Giữa hai tử số $9$ và $10$ không có số tự nhiên nào, nên ta chưa tìm được phân số cần tìm có mẫu số $15$.
+
+Ta nhân cả tử số và mẫu số của mỗi phân số với $2$:
+$$\frac{3}{5}=\frac{9}{15}=\frac{18}{30},\qquad \frac{2}{3}=\frac{10}{15}=\frac{20}{30}.$$
+
+Số tự nhiên $19$ nằm giữa $18$ và $20$, nên phân số $\dfrac{19}{30}$ thoả mãn $\dfrac{18}{30}<\dfrac{19}{30}<\dfrac{20}{30}$, tức là $\dfrac{3}{5}<\dfrac{19}{30}<\dfrac{2}{3}$.
+
+Vậy $\dfrac{19}{30}$ là một phân số lớn hơn $\dfrac{3}{5}$ và bé hơn $\dfrac{2}{3}$.
 
 **Đáp số.** Một phân số cần tìm là $\dfrac{19}{30}$.
 :::

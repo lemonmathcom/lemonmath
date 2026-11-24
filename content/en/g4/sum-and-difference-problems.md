@@ -192,9 +192,19 @@ The sum of two numbers is $84$ and the difference of the two numbers is $12$. Fi
 2. Work out the larger number, then check.
 
 ::solution
-The smaller number is $(84-12)\div2=36$. The larger number is $36+12=48$.
+Solution
 
-**Check.** $36+48=84$ and $48-36=12$. Correct.
+Since we know the sum and the difference, we find the smaller number first: the smaller number is (sum minus difference) divided by $2$.
+
+The smaller number is:
+$$(84-12)\div2=72\div2=36.$$
+
+The larger number is:
+$$36+12=48.$$
+
+Check: $36+48=84$ and $48-36=12$, which agree with the problem.
+
+So the two numbers are $36$ and $48$.
 
 **Answer.** $36$ and $48$.
 :::
@@ -210,9 +220,19 @@ The sum of two numbers is $125$ and the difference of the two numbers is $35$. F
 2. Subtract the difference from the larger number to find the smaller number.
 
 ::solution
-The larger number is $(125+35)\div2=160\div2=80$. The smaller number is $80-35=45$.
+Solution
 
-**Check.** $80+45=125$ and $80-45=35$. Correct.
+Since we know the sum and the difference, we find the larger number first: the larger number is (sum plus difference) divided by $2$.
+
+The larger number is:
+$$(125+35)\div2=160\div2=80.$$
+
+The smaller number is:
+$$80-35=45.$$
+
+Check: $80+45=125$ and $80-45=35$, which agree with the problem.
+
+So the two numbers are $80$ and $45$.
 
 **Answer.** $80$ and $45$.
 :::
@@ -228,9 +248,19 @@ The sum of two numbers is $1\,000$ and the difference of the two numbers is $250
 2. Work out the smaller number, then check.
 
 ::solution
-The larger number is $(1\,000+250)\div2=1\,250\div2=625$. The smaller number is $625-250=375$.
+Solution
 
-**Check.** $625+375=1\,000$ and $625-375=250$. Correct.
+The larger number is (sum plus difference) divided by $2$.
+
+The larger number is:
+$$(1\,000+250)\div2=1\,250\div2=625.$$
+
+The smaller number is:
+$$625-250=375.$$
+
+Check: $625+375=1\,000$ and $625-375=250$, which agree with the problem.
+
+So the two numbers are $625$ and $375$.
 
 **Answer.** $625$ and $375$.
 :::
@@ -249,10 +279,17 @@ Nam and Viet (made-up numbers) have $45$ marbles altogether. Nam has $9$ more ma
 ::solution
 Solution
 
+The problem gives the total number of marbles of the two boys, $45$, and the difference, $9$. We find the number of marbles of the boy who has fewer (Viet) first.
+
 Viet's number of marbles is:
-$$(45-9)\div2=18\ \text{(marbles)}.$$
+$$(45-9)\div2=36\div2=18\ \text{(marbles)}.$$
+
 Nam's number of marbles is:
 $$18+9=27\ \text{(marbles)}.$$
+
+Check: $27+18=45$ (marbles) and $27-18=9$ (marbles), which agree with the problem.
+
+So Nam has $27$ marbles and Viet has $18$ marbles.
 
 **Answer.** Nam: $27$ marbles; Viet: $18$ marbles.
 :::
@@ -270,10 +307,17 @@ A farm (made-up numbers) keeps $360$ chickens and ducks altogether. There are $4
 ::solution
 Solution
 
+The total number of chickens and ducks is $360$, and there are $40$ more chickens than ducks. We find the number of ducks (the smaller number) first.
+
 The number of ducks is:
-$$(360-40)\div2=160\ \text{(ducks)}.$$
+$$(360-40)\div2=320\div2=160\ \text{(ducks)}.$$
+
 The number of chickens is:
 $$160+40=200\ \text{(chickens)}.$$
+
+Check: $200+160=360$ (animals) and $200-160=40$ (animals), which agree with the problem.
+
+So the farm keeps $200$ chickens and $160$ ducks.
 
 **Answer.** Chickens: $200$; ducks: $160$.
 :::
@@ -291,12 +335,18 @@ A plot of land (made-up numbers) is a rectangle with perimeter $80$ m, and its l
 ::solution
 Solution
 
-Half the perimeter is:
+Half the perimeter of a rectangle is the sum of its length and its width. Half the perimeter is:
 $$80\div2=40\ \text{(m)}.$$
-The width is:
-$$(40-10)\div2=15\ \text{(m)}.$$
+
+Now we know that the sum of the length and the width is $40$ m and their difference is $10$ m. The width is:
+$$(40-10)\div2=30\div2=15\ \text{(m)}.$$
+
 The length is:
 $$15+10=25\ \text{(m)}.$$
+
+Check: $(25+15)\times2=80$ (m) and $25-15=10$ (m), which agree with the problem.
+
+So the plot has length $25$ m and width $15$ m.
 
 **Answer.** Length $25$ m; width $15$ m.
 :::
@@ -314,10 +364,17 @@ Two sisters (made-up numbers) have $100\,000$ dong altogether. The older sister 
 ::solution
 Solution
 
+The two sisters have $100\,000$ dong altogether, and the older sister has $24\,000$ dong more than the younger one. We find the younger sister's money (the smaller number) first.
+
 The younger sister's money is:
-$$(100\,000-24\,000)\div2=38\,000\ \text{(dong)}.$$
+$$(100\,000-24\,000)\div2=76\,000\div2=38\,000\ \text{(dong)}.$$
+
 The older sister's money is:
 $$38\,000+24\,000=62\,000\ \text{(dong)}.$$
+
+Check: $62\,000+38\,000=100\,000$ (dong) and $62\,000-38\,000=24\,000$ (dong), which agree with the problem.
+
+So the older sister has $62\,000$ dong and the younger sister has $38\,000$ dong.
 
 **Answer.** Older sister: $62\,000$ dong; younger sister: $38\,000$ dong.
 :::
@@ -333,9 +390,17 @@ Remember the lesson on adding numbers with many digits. The sum of two numbers i
 2. Divide the result by $2$ to find the smaller number, then find the larger number.
 
 ::solution
-The smaller number is $(1\,000\,000-246\,000)\div2=754\,000\div2=377\,000$. The larger number is $377\,000+246\,000=623\,000$.
+Solution
 
-**Check.** $377\,000+623\,000=1\,000\,000$ and $623\,000-377\,000=246\,000$. Correct.
+The smaller number is (sum minus difference) divided by $2$. The smaller number is:
+$$(1\,000\,000-246\,000)\div2=754\,000\div2=377\,000.$$
+
+The larger number is:
+$$377\,000+246\,000=623\,000.$$
+
+Check: $377\,000+623\,000=1\,000\,000$ and $623\,000-377\,000=246\,000$, which agree with the problem.
+
+So the two numbers are $377\,000$ and $623\,000$.
 
 **Answer.** $377\,000$ and $623\,000$.
 :::
@@ -351,9 +416,18 @@ Nam solves the problem: "The sum of two numbers is $70$ and the difference of th
 2. Should the smaller number be more or less than the larger number?
 
 ::solution
-The larger number $(70+14)\div2=42$ is correct. But the smaller number must be less than the larger number, so the smaller number is $42-14=28$, not $42+14=56$.
+We check each step of Nam's working.
 
-**Check.** $42+28=70$ and $42-28=14$. Correct.
+Step 1: the larger number is $(70+14)\div2=84\div2=42$. This step is correct because the larger number is (sum plus difference) divided by $2$.
+
+Step 2: Nam finds the smaller number as $42+14=56$. This step is wrong, because the smaller number is $14$ less than the larger number, so we must subtract the difference from the larger number. Also, $56$ is greater than the larger number $42$, so it cannot be the smaller number.
+
+The correct working: the smaller number is
+$$42-14=28.$$
+
+Check: $42+28=70$ and $42-28=14$, which agree with the problem.
+
+So Nam is wrong in the last step; the correct numbers are $42$ and $28$.
 
 **Answer.** Nam is wrong in the last step; the two numbers are $42$ and $28$.
 :::

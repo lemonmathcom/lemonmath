@@ -149,7 +149,17 @@ The mean of five numbers is 12. Four of the numbers are 10, 14, 9 and 15. What i
 2. Subtract the four known numbers.
 
 ::solution
-$5\cdot12=60$ and $10+14+9+15=48$, so the fifth number is $12$.
+Let $x$ be the fifth number.
+
+The mean of the five numbers is $12$, so the sum of the five numbers is
+$$5\cdot12=60.$$
+
+The sum of the four given numbers is $10+14+9+15=48$. Therefore
+$$48+x=60\iff x=60-48=12.$$
+
+So the fifth number is $12$.
+
+**Answer.** $12$.
 :::
 
 :::exercise Multiple choice
@@ -167,7 +177,20 @@ D. The median is 4.
 2. Compute the mean.
 
 ::solution
-The median is $5$ and the mean is $\dfrac{61}{7}\approx8.7$. The outlier pulls the mean up: answer **C**.
+The data set has $7$ values in increasing order: $2, 4, 4, 5, 7, 9, 30$.
+
+Since there are $7$ values (an odd number), the median is the middle value, that is, the $4$th value: the median is $5$.
+
+The sum of the values is $2+4+4+5+7+9+30=61$, so the mean is
+$$\frac{61}{7}\approx8.7.$$
+
+Since $8.7>5$, the mean is greater than the median. The reason is that the outlier $30$ pulls the mean up, while the median is hardly affected.
+
+So the answer is **C**.
+
+*Remark.* Options A and B are false because the mean $\approx8.7$ is greater than the median $5$; option D is false because the median is $5$, while $4$ is only the mode of the data set.
+
+**Answer.** C.
 :::
 
 :::exercise Student-produced response
@@ -181,7 +204,16 @@ Use the two-way table of club choices above. A student is chosen at random from 
 2. Divide the math club count in that row by $30$.
 
 ::solution
-$\dfrac{18}{30}=0.6$.
+Let $A$ be the event "the chosen student is in the math club". Each grade 10 student is equally likely to be chosen, so the probability of $A$ equals the number of grade 10 students in the math club divided by the total number of grade 10 students.
+
+From the two-way table, $18$ of the $30$ grade 10 students are in the math club. Therefore
+$$P(A)=\frac{18}{30}=0.6.$$
+
+So the probability that the student is in the math club is $0.6$.
+
+*Exam tip.* When entering the answer in Bluebook, type `0.6`.
+
+**Answer.** $0.6$.
 :::
 
 :::exercise Student-produced response
@@ -194,7 +226,14 @@ A line of best fit for some data is $y=1.8x+12$. What value of $y$ does the line
 1. $1.8\cdot10+12$.
 
 ::solution
-$18+12=30$.
+The line of best fit has equation $y=1.8x+12$.
+
+Substituting $x=10$ into the equation, we get
+$$y=1.8\cdot10+12=18+12=30.$$
+
+So when $x=10$, the line predicts $y=30$.
+
+**Answer.** $30$.
 :::
 
 :::exercise Multiple choice
@@ -212,7 +251,15 @@ D. No conclusion can be made because the volunteers were not a random sample.
 2. Was there a random sample from all adults? No.
 
 ::solution
-Random assignment supports a causal conclusion, but only for people like the volunteers, because they were not randomly sampled from all adults. The answer is **B**. Option A over-generalizes; option D ignores what random assignment does show.
+The volunteers were randomly assigned to the two groups, so the groups are similar in every respect other than walking. Hence the difference in blood pressure after $8$ weeks (significantly lower in the walking group) can be attributed to walking: this experiment supports a causal conclusion.
+
+However, the $100$ volunteers were not randomly selected from all adults. So the conclusion can only be generalized to people similar to the volunteers, not to all adults.
+
+So the best supported conclusion is that walking every day is likely to cause lower blood pressure for people similar to the volunteers, and the answer is **B**.
+
+*Remark.* Option A over-generalizes, since it applies to all adults; option C reverses the cause and effect, while the groups were randomly assigned rather than self-selected; option D ignores what random assignment does show.
+
+**Answer.** B.
 :::
 
 ## Application exercises
@@ -228,7 +275,20 @@ Class A has 20 students with a mean score of 75. Class B has 30 students with a 
 2. Divide the combined total by $50$.
 
 ::solution
-$\dfrac{1{,}500+2{,}400}{50}=\dfrac{3{,}900}{50}=78$. The mean is closer to 80 than to 75 because class B is larger.
+The total score of class A equals the number of students times the mean score:
+$$20\cdot75=1{,}500.$$
+
+The total score of class B is
+$$30\cdot80=2{,}400.$$
+
+The total score of all $50$ students is $1{,}500+2{,}400=3{,}900$, so the mean score of the two classes together is
+$$\frac{1{,}500+2{,}400}{50}=\frac{3{,}900}{50}=78.$$
+
+The result is reasonable because $75<78<80$ and the mean is closer to $80$ than to $75$, since class B is larger.
+
+So the mean score of all $50$ students is $78$.
+
+**Answer.** $78$.
 :::
 
 :::exercise Marbles
@@ -242,7 +302,16 @@ A bag contains 4 red, 6 blue and 5 green marbles. One marble is drawn at random.
 2. Not blue: $4+5$.
 
 ::solution
-$\dfrac{9}{15}=\dfrac35$.
+Let $A$ be the event "the marble drawn is not blue".
+
+The total number of marbles in the bag is $4+6+5=15$, and each marble is equally likely to be drawn.
+
+The number of marbles that are not blue is $4+5=9$ (the red and the green ones). Therefore
+$$P(A)=\frac{9}{15}=\frac35.$$
+
+So the probability that the marble drawn is not blue is $\dfrac35$.
+
+**Answer.** $\dfrac35$.
 :::
 
 :::exercise Comparing spread
@@ -256,7 +325,23 @@ Data set A is 48, 49, 50, 51, 52. Data set B is 30, 40, 50, 60, 70. Compare the 
 2. Compare how far the values lie from the mean.
 
 ::solution
-Both means are $50$. The range of A is $4$ and the range of B is $40$. The values of B lie much farther from the mean, so B has the larger standard deviation.
+The mean of data set A is
+$$\frac{48+49+50+51+52}{5}=\frac{250}{5}=50,$$
+and the mean of data set B is
+$$\frac{30+40+50+60+70}{5}=\frac{250}{5}=50.$$
+
+The range equals the largest value minus the smallest value. For set A: $52-48=4$. For set B: $70-30=40$.
+
+To compare the standard deviations, we compute the sum of the squared deviations from the mean $50$. For set A:
+$$(-2)^2+(-1)^2+0^2+1^2+2^2=10.$$
+For set B:
+$$(-20)^2+(-10)^2+0^2+10^2+20^2=1{,}000.$$
+
+The two sets have the same number of values, so the sum of squared deviations of B is $100$ times that of A, which means the standard deviation of B is $10$ times the standard deviation of A. This agrees with the fact that the values of B lie much farther from the mean.
+
+So the two data sets have the same mean $50$; the range of A is $4$ and the range of B is $40$; and B has the larger standard deviation.
+
+**Answer.** Same mean $50$; the range of A is $4$ and the range of B is $40$; B has the larger standard deviation.
 :::
 
 :::exercise Challenge
@@ -270,7 +355,18 @@ The numbers 6, 8, $x$, 15, 21 are listed in increasing order, and their mean is 
 2. Set it equal to $x$.
 
 ::solution
-$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12.5$. This lies between $8$ and $15$, so the order is kept.
+The five numbers $6, 8, x, 15, 21$ are listed in increasing order, so the middle number is the third one. Hence the median is $x$.
+
+The sum of the four known numbers is $6+8+15+21=50$, so the mean is $\dfrac{50+x}{5}$.
+
+The mean equals the median, so
+$$\begin{aligned}\frac{50+x}{5}&=x\\50+x&=5x\\50&=4x\\x&=12.5.\end{aligned}$$
+
+Check the condition: $8<12.5<15$, so the increasing order is kept (the condition is satisfied). Then the mean is $\dfrac{62.5}{5}=12.5$, which is exactly the median.
+
+So $x=12.5$.
+
+**Answer.** $12.5$.
 :::
 
 :::quiz

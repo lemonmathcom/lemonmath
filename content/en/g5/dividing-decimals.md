@@ -197,11 +197,18 @@ Work out: a) $6.3\div0.7$; b) $9.6\div0.16$; c) $15\div0.6$.
 2. Move the decimal point in the dividend (write the digit $0$ if there are not enough), then divide.
 
 ::solution
-a) $6.3\div0.7=63\div7=9$.
+When dividing a decimal by a decimal, we move the decimal points of the dividend and the divisor the same number of places to the right (that is, multiply both numbers by the same number), then divide as with whole numbers. The result does not change.
 
-b) The divisor $0.16$ has two decimal places: $9.6\div0.16=960\div16=60$.
+a) The divisor $0.7$ has one decimal place, so we move the decimal point of both numbers one place to the right:
+$$6.3\div0.7=63\div7=9$$
 
-c) $15\div0.6=150\div6=25$.
+b) The divisor $0.16$ has two decimal places, so we move the decimal point of both numbers two places to the right (the dividend $9.6$ is written as $9.60$):
+$$9.6\div0.16=960\div16=60$$
+
+c) The divisor $0.6$ has one decimal place. We write the dividend $15$ as $15.0$, then move the decimal point one place to the right:
+$$15\div0.6=150\div6=25$$
+
+So the results are $9$; $60$; $25$.
 
 **Answer.** a) $9$; b) $60$; c) $25$.
 :::
@@ -217,10 +224,14 @@ A piece of electric cable $12.6$ m long is cut into $6$ equal pieces. How many m
 2. Divide $12.6$ by $6$. Check by multiplying.
 
 ::solution
-Each piece is:
-$$12.6\div6=2.1\ \text{(m)}.$$
+Solution
 
-**Check.** $2.1\times6=12.6$. Correct.
+The cable is cut into $6$ equal pieces, so to find the length of each piece we divide the total length by $6$. Each piece is:
+$$12.6\div6=2.1\ \text{(m)}$$
+
+*Check.* $2.1\times6=12.6$. Correct.
+
+So each piece of cable is $2.1$ m long.
 
 **Answer.** $2.1$ m.
 :::
@@ -236,10 +247,15 @@ Suppose each bottle holds $0.75$ litres of water and there are $9$ litres of wat
 2. Divide $9$ by $0.75$ by moving the decimal point.
 
 ::solution
-The number of bottles that can be filled is:
-$$9\div0.75=900\div75=12\ \text{(bottles)}.$$
+Solution
 
-**Check.** $12\times0.75=9$. Correct.
+To find how many bottles can be filled, we divide the number of litres of water by the number of litres in each bottle. The number of bottles that can be filled is:
+$$9\div0.75=900\div75=12\ \text{(bottles)}$$
+(We move the decimal point of both numbers two places to the right; $9$ is written as $9.00$.)
+
+*Check.* $12\times0.75=9$. Correct.
+
+So $12$ bottles can be filled.
 
 **Answer.** $12$ bottles.
 :::
@@ -255,8 +271,15 @@ Suppose $3.5$ kg of apples costs $87\,500$ dong. How much does $1$ kg of apples 
 2. Divide $87\,500$ by $3.5$. Remember the unit.
 
 ::solution
-The price of $1$ kg of apples is:
-$$87\,500\div3.5=875\,000\div35=25\,000\ \text{(dong)}.$$
+Solution
+
+To find the price of $1$ kg of apples, we divide the total cost by the number of kilograms. The price of $1$ kg of apples is:
+$$87\,500\div3.5=875\,000\div35=25\,000\ \text{(dong)}$$
+(We move the decimal point of both numbers one place to the right.)
+
+*Check.* $25\,000\times3.5=87\,500$. Correct.
+
+So $1$ kg of apples costs $25\,000$ dong.
 
 **Answer.** $25\,000$ dong.
 :::
@@ -272,9 +295,15 @@ Remember the lesson on multiplying decimals. Find the number $x$ such that $x\ti
 2. Move the decimal point to divide, then multiply $x$ by $2.5$ to check.
 
 ::solution
-We have $x=12\div2.5=120\div25=4.8$.
+In the multiplication $x\times2.5=12$, $x$ is an unknown factor. To find a factor, we divide the product by the other factor:
+$$x=12\div2.5$$
 
-**Check.** $4.8\times2.5=12$. Correct.
+Moving the decimal point of both numbers one place to the right, we get
+$$x=120\div25=4.8$$
+
+*Check.* $4.8\times2.5=12$. Correct.
+
+So $x=4.8$.
 
 **Answer.** $x=4.8$.
 :::
@@ -290,11 +319,14 @@ Divide $17\div6$, then round the quotient to one decimal place and to two decima
 2. Round from the full quotient, not from an already rounded result.
 
 ::solution
-We have $17\div6=2.8333\ldots$
+We divide $17$ by $6$. We have $17\div6=2$ remainder $5$. Writing a $0$ after the remainder and continuing: $50\div6=8$ remainder $2$; $20\div6=3$ remainder $2$; $20\div6=3$ remainder $2$; $\ldots$ The digit $3$ repeats, so
+$$17\div6=2.8333\ldots$$
 
-To one decimal place: the hundredths digit is $3<5$, so $2.8$.
+To one decimal place: the hundredths digit is $3<5$, so we keep the tenths digit. We get $2.8$.
 
-To two decimal places: the thousandths digit is $3<5$, so $2.83$.
+To two decimal places: the thousandths digit is $3<5$, so we keep the hundredths digit. We get $2.83$.
+
+So the quotient is $2.8$ to one decimal place and $2.83$ to two decimal places.
 
 **Answer.** $2.8$ and $2.83$.
 :::
@@ -310,7 +342,16 @@ A piece of string $5$ m long is cut into pieces $0.4$ m long. What is the greate
 2. Think about what the whole-number part of the quotient tells you.
 
 ::solution
-We have $5\div0.4=50\div4=12.5$. The quotient $12.5$ means there are $12$ full pieces of length $0.4$ m and a small part that is not enough for another piece.
+Solution
+
+To find how many pieces $0.4$ m long can be cut, we divide the length of the string by $0.4$:
+$$5\div0.4=50\div4=12.5$$
+
+The quotient $12.5$ means there are $12$ full pieces of length $0.4$ m and a small part that is not enough for another piece. The number of pieces must be a whole number, so we take the whole-number part $12$.
+
+*Check.* $12\times0.4=4.8\le5$ and $13\times0.4=5.2>5$. Correct.
+
+So the greatest number of pieces $0.4$ m long that can be cut is $12$.
 
 **Answer.** $12$ pieces.
 :::
@@ -326,8 +367,10 @@ Work out in the easy way: $12.5\div0.25\div4$.
 2. Divide $12.5$ by that result.
 
 ::solution
-Since $0.25\times4=1$, we have:
-$$12.5\div0.25\div4=12.5\div(0.25\times4)=12.5\div1=12.5.$$
+We notice that $0.25\times4=1$. Dividing successively by two numbers is the same as dividing by their product, so we work out the product $0.25\times4$ first:
+$$12.5\div0.25\div4=12.5\div(0.25\times4)=12.5\div1=12.5$$
+
+So $12.5\div0.25\div4=12.5$.
 
 **Answer.** $12.5$.
 :::

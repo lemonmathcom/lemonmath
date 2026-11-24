@@ -139,7 +139,9 @@ Trong đĩa có bảy quả táo. Viết số quả táo.
 2. Viết bảy bằng chữ số.
 
 ::solution
-Bảy viết là $7$.
+Trong đĩa có bảy quả táo. Em đếm: một, hai, ba, bốn, năm, sáu, bảy. Số "bảy" được viết bằng chữ số $7$.
+
+Vậy trong đĩa có $7$ quả táo.
 
 **Đáp số.** $7$ quả táo.
 :::
@@ -155,7 +157,13 @@ Bảy viết là $7$.
 2. Số nào đứng giữa $8$ và $10$?
 
 ::solution
-Sau $8$ là $9$, rồi đến $10$.
+Ta đọc các số theo thứ tự từ bé đến lớn: $6, 7, 8$, rồi đến ô trống, sau đó là $10$.
+
+Sau $8$ là $9$, và sau $9$ là $10$. Vậy số cần điền vào ô trống là $9$.
+
+Kiểm tra: đọc cả dãy $6, 7, 8, 9, 10$. Đúng.
+
+Vậy số cần điền là $9$.
 
 **Đáp số.** $9$.
 :::
@@ -171,7 +179,13 @@ Em hãy nhớ lại bài trước: số liền sau của $5$ là số nào? Rồ
 2. Đọc dãy $0, 1, ...$ để tìm số thiếu.
 
 ::solution
-Sau năm là sáu, nên số liền sau của $5$ là $6$. Trong dãy, sau $1$ là $2$.
+Số liền sau của một số là số đứng ngay sau số đó khi đếm. Sau năm là sáu, nên số liền sau của $5$ là $6$.
+
+Trong dãy $0, 1, \square, 3, 4, 5$, ta đọc theo thứ tự: sau $1$ là $2$, và sau $2$ là $3$. Vậy số cần điền vào ô trống là $2$.
+
+Kiểm tra: đọc cả dãy $0, 1, 2, 3, 4, 5$. Đúng.
+
+Vậy số liền sau của $5$ là $6$ và số cần điền vào ô trống là $2$.
 
 **Đáp số.** $6$ và $2$.
 :::
@@ -187,7 +201,11 @@ Hai bàn tay của Lan có bao nhiêu ngón tay? Viết số.
 2. Đếm tiếp bàn tay thứ hai: sáu, bảy, ...
 
 ::solution
-Đếm đến mười ngón tay, viết là $10$.
+Hai bàn tay của Lan, mỗi bàn tay có $5$ ngón tay. Em đếm tiếp từ một bàn tay sang bàn tay kia: một, hai, ba, bốn, năm, sáu, bảy, tám, chín, mười.
+
+Số "mười" được viết là $10$.
+
+Vậy hai bàn tay của Lan có $10$ ngón tay.
 
 **Đáp số.** $10$ ngón tay.
 :::
@@ -203,7 +221,11 @@ Bình viết số mười là $01$. Bình viết đúng không? Vì sao?
 2. Chữ số nào phải đứng trước?
 
 ::solution
-Số mười viết là $10$, không phải $01$. Bình viết sai.
+Số mười gồm chữ số $1$ đứng trước và chữ số $0$ đứng sau, nên viết là $10$.
+
+Bình viết $01$, tức là chữ số $0$ đứng trước và chữ số $1$ đứng sau. Cách viết này không phải là số mười.
+
+Vậy Bình viết sai; phải viết số mười là $10$.
 
 **Đáp số.** Sai. Phải viết $10$.
 :::
@@ -221,7 +243,11 @@ An đếm tám cái ghế và nói: "một, hai, ba, bốn, năm, sáu, tám". A
 2. Tìm số bị bỏ quên.
 
 ::solution
-An bỏ quên số bảy. Đếm đúng là: một, hai, ba, bốn, năm, sáu, bảy, tám.
+Có tám chiếc ghế nên khi đếm đúng, ta đếm lần lượt: một, hai, ba, bốn, năm, sáu, bảy, tám.
+
+An đếm: "một, hai, ba, bốn, năm, sáu, tám". Sau số sáu, An nhảy sang số tám, tức là bỏ quên số bảy.
+
+Vậy An đếm sai ở chỗ bỏ quên số $7$; đếm đúng là $1, 2, 3, 4, 5, 6, 7, 8$.
 
 **Đáp số.** An bỏ quên số $7$.
 :::
@@ -244,7 +270,13 @@ b) Đồ vật nào không có cái nào?
 2. Tìm số $0$.
 
 ::solution
-a) Số $10$ ở cột thước. b) Số $0$ ở cột tẩy.
+Theo bảng, số lượng đồ vật là: bút $6$, vở $9$, tẩy $0$, thước $10$.
+
+a) Ta tìm số $10$ trong bảng. Số $10$ ở cột thước, nên thước có $10$ cái.
+
+b) Số $0$ nghĩa là không có cái nào. Số $0$ ở cột tẩy, nên hộp không có cái tẩy nào.
+
+Vậy a) thước có $10$ cái; b) tẩy không có cái nào.
 
 **Đáp số.** a) Thước. b) Tẩy.
 :::
@@ -260,9 +292,13 @@ a) Số $10$ ở cột thước. b) Số $0$ ở cột tẩy.
 2. Sau $8$ là số nào? Sau $6$ là số nào?
 
 ::solution
-Đếm ngược: $10, 9, 8, 7, 6, 5$.
+Ta đếm ngược, mỗi lần giảm đi một: $10, 9, 8, 7, 6, 5$.
 
-**Kiểm tra.** Đọc xuôi từ $5$ đến $10$: $5, 6, 7, 8, 9, 10$. Đúng.
+Số đứng giữa $10$ và $8$ là $9$. Số đứng giữa $8$ và $6$ là $7$. Số đứng sau $6$ là $5$.
+
+Kiểm tra: đọc xuôi từ $5$ đến $10$: $5, 6, 7, 8, 9, 10$. Đúng.
+
+Vậy các số cần điền vào ô trống lần lượt là $9$, $7$, $5$.
 
 **Đáp số.** $9$, $7$, $5$.
 :::

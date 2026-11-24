@@ -125,7 +125,17 @@ Tính $74-36$.
 2. Hàng chục: $7$ bớt $1$, rồi bớt $3$.
 
 ::solution
-Hàng đơn vị: $4$ không trừ được $6$, mượn $1$ chục, $14-6=8$. Hàng chục: $7-1-3=3$. Vậy $74-36=38$.
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị sang hàng chục.
+
+$$\begin{array}{r} 74 \\ -\ 36 \\ \hline 38 \end{array}$$
+
+Hàng đơn vị: $4$ không trừ được $6$, nên mượn $1$ chục. Ta có $14-6=8$, viết $8$.
+
+Hàng chục: $7$ chục mượn đi $1$ chục, rồi trừ $3$ chục. Ta có $7-1-3=3$, viết $3$.
+
+Thử lại: $38+36=74$.
+
+Vậy $74-36=38$.
 
 **Đáp số.** $38$.
 :::
@@ -141,7 +151,17 @@ Hàng đơn vị: $4$ không trừ được $6$, mượn $1$ chục, $14-6=8$. H
 2. Trừ hàng đơn vị (có mượn), rồi hàng chục.
 
 ::solution
-$15-9=6$. Hàng chục: $8-1-2=5$. Vậy $85-29=56$.
+Ta đặt tính rồi trừ lần lượt từ hàng đơn vị sang hàng chục.
+
+$$\begin{array}{r} 85 \\ -\ 29 \\ \hline 56 \end{array}$$
+
+Hàng đơn vị: $5$ không trừ được $9$, nên mượn $1$ chục. Ta có $15-9=6$, viết $6$.
+
+Hàng chục: $8$ chục mượn đi $1$ chục, rồi trừ $2$ chục. Ta có $8-1-2=5$, viết $5$.
+
+Thử lại: $56+29=85$.
+
+Vậy $85-29=56$.
 
 **Đáp số.** $56$.
 :::
@@ -157,7 +177,13 @@ Em hãy nhớ lại bài trước. Tính $61-8$.
 2. Hàng chục: $6$ bớt $1$.
 
 ::solution
-$11-8=3$. Hàng chục: $6-1=5$. Vậy $61-8=53$.
+Hàng đơn vị: $1$ không trừ được $8$, nên mượn $1$ chục. Ta có $11-8=3$, viết $3$.
+
+Hàng chục: $6$ chục mượn đi $1$ chục còn $5$ chục, ta có $6-1=5$, viết $5$.
+
+Thử lại: $53+8=61$.
+
+Vậy $61-8=53$.
 
 **Đáp số.** $53$.
 :::
@@ -177,9 +203,15 @@ b) $60-25$.
 2. Hàng chục: bớt $1$ chục đã mượn rồi bớt số chục của số trừ.
 
 ::solution
-a) $13-7=6$; $9-1-4=4$. Vậy $93-47=46$.
+a) Ta tính $93-47$. Hàng đơn vị: $3$ không trừ được $7$, nên mượn $1$ chục, $13-7=6$. Hàng chục: $9-1-4=4$. Do đó $93-47=46$.
 
-b) $10-5=5$; $6-1-2=3$. Vậy $60-25=35$.
+Thử lại: $46+47=93$.
+
+b) Ta tính $60-25$. Hàng đơn vị: $0$ không trừ được $5$, nên mượn $1$ chục, $10-5=5$. Hàng chục: $6-1-2=3$. Do đó $60-25=35$.
+
+Thử lại: $35+25=60$.
+
+Vậy $93-47=46$ và $60-25=35$.
 
 **Đáp số.** a) $46$; b) $35$.
 :::
@@ -199,9 +231,11 @@ b) $56-19 \;\square\; 38$.
 2. So sánh hàng chục, rồi hàng đơn vị.
 
 ::solution
-a) $71-34=37$. Vì $37>36$ nên $71-34>36$.
+a) Ta tính $71-34$. Hàng đơn vị: $1$ không trừ được $4$, nên mượn $1$ chục, $11-4=7$. Hàng chục: $7-1-3=3$. Do đó $71-34=37$. Vì $37>36$ nên $71-34>36$.
 
-b) $56-19=37$. Vì $37<38$ nên $56-19<38$.
+b) Ta tính $56-19$. Hàng đơn vị: $6$ không trừ được $9$, nên mượn $1$ chục, $16-9=7$. Hàng chục: $5-1-1=3$. Do đó $56-19=37$. Vì $37<38$ nên $56-19<38$.
+
+Vậy $71-34>36$ và $56-19<38$.
 
 **Đáp số.** a) Dấu $>$; b) Dấu $<$.
 :::
@@ -217,7 +251,13 @@ Bạn Phương làm bài: $63-27=44$. Bạn Phương làm sai ở đâu? Em hãy
 2. Làm lại với $13-7$.
 
 ::solution
-Bạn Phương lấy $7-3=4$, đó là sai vì phải lấy $3$ trừ $7$. Mượn $1$ chục: $13-7=6$, hàng chục $6-1-2=3$. Vậy $63-27=36$.
+Ở hàng đơn vị, $3$ không trừ được $7$. Bạn Phương lấy $7-3=4$, đó là sai vì phải lấy $3$ trừ $7$, mà $3<7$ nên phải mượn. Ở hàng chục, bạn Phương cũng quên bớt $1$ chục đã mượn nên lấy $6-2=4$.
+
+Cách làm đúng: mượn $1$ chục, ta có $13-7=6$. Hàng chục: $6-1-2=3$. Do đó $63-27=36$.
+
+Thử lại: $36+27=63$.
+
+Vậy bạn Phương làm sai ở chỗ lấy số lớn trừ số nhỏ, và kết quả đúng là $63-27=36$.
 
 **Đáp số.** Bạn Phương lấy số lớn trừ số nhỏ; đúng là $36$.
 :::
@@ -233,8 +273,16 @@ Sân trường có $82$ bạn đang chơi. Có $37$ bạn về lớp. Hỏi sân
 2. Tính $82-37$ rồi ghi đáp số có đơn vị.
 
 ::solution
-Hàng đơn vị: mượn $1$ chục, $12-7=5$. Hàng chục: $8-1-3=4$. Số bạn còn lại là:
+Bài giải
+
+Số bạn còn lại trong sân trường là:
 $$82-37=45\ \text{(bạn)}.$$
+
+Cách tính: hàng đơn vị $2$ không trừ được $7$, mượn $1$ chục, $12-7=5$. Hàng chục: $8-1-3=4$.
+
+Thử lại: $45+37=82$.
+
+Vậy sân trường còn lại $45$ bạn.
 
 **Đáp số.** $45$ bạn.
 :::
@@ -250,7 +298,15 @@ Tìm chữ số thích hợp điền vào ô trống: $7\square-28=45$.
 2. Thử lại bằng phép trừ.
 
 ::solution
-$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-28=45$ (vì $13-8=5$ và $7-1-2=4$).
+Số bị trừ là $7\square$, số trừ là $28$, hiệu là $45$.
+
+Hàng chục: số bị trừ có $7$ chục, số trừ có $2$ chục, nhưng hiệu có $4$ chục. Vì $7-2=5$ mà hiệu chỉ có $4$ chục, kém $1$, nên ở hàng đơn vị đã mượn $1$ chục. Ta có $7-1-2=4$ và $(10+\square)-8=5$.
+
+Suy ra $10+\square=5+8=13$, do đó $\square=3$.
+
+Thử lại: $73-28=45$ (vì $13-8=5$ và $7-1-2=4$). Cũng có thể kiểm tra bằng phép cộng: $45+28=73$.
+
+Vậy chữ số cần điền là $3$.
 
 **Đáp số.** Chữ số cần điền là $3$.
 :::

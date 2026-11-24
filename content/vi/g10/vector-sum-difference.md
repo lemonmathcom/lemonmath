@@ -271,9 +271,18 @@ Rút gọn: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}
 2. Với hiệu, nhìn hai vectơ chung điểm đầu và nối hai điểm cuối.
 
 ::solution
-(a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ} = \overrightarrow{MP} + \overrightarrow{PQ} = \overrightarrow{MQ}$.
-(b) Hai vectơ chung điểm đầu $A$: $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$.
-(c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD} = \overrightarrow{AC} - \overrightarrow{AD} = \overrightarrow{DC}$.
+(a) Áp dụng quy tắc ba điểm $\overrightarrow{MN}+\overrightarrow{NP}=\overrightarrow{MP}$, ta có
+$$\overrightarrow{MN}+\overrightarrow{NP}+\overrightarrow{PQ}=\overrightarrow{MP}+\overrightarrow{PQ}=\overrightarrow{MQ}.$$
+Vậy $\overrightarrow{MN}+\overrightarrow{NP}+\overrightarrow{PQ}=\overrightarrow{MQ}$.
+
+(b) Hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ có chung điểm đầu $A$. Trừ một vectơ là cộng với vectơ đối của nó, nên
+$$\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{CA}=\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}.$$
+Vậy $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$.
+
+(c) Theo quy tắc ba điểm, $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$. Do đó
+$$\overrightarrow{AB}+\overrightarrow{BC}-\overrightarrow{AD}=\overrightarrow{AC}-\overrightarrow{AD}.$$
+Hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{AD}$ có chung điểm đầu $A$, nên theo quy tắc hiệu, $\overrightarrow{AC}-\overrightarrow{AD}=\overrightarrow{DC}$.
+Vậy $\overrightarrow{AB}+\overrightarrow{BC}-\overrightarrow{AD}=\overrightarrow{DC}$.
 
 **Đáp số.** (a) $\overrightarrow{MQ}$; (b) $\overrightarrow{CB}$; (c) $\overrightarrow{DC}$.
 :::
@@ -289,7 +298,19 @@ $ABCD$ là hình vuông cạnh $4$. Tính $|\overrightarrow{AB} + \overrightarro
 2. Tính độ dài bằng định lí Pythagore.
 
 ::solution
-$\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}$ và $\overrightarrow{AB} - \overrightarrow{AD} = \overrightarrow{DB}$, cả hai là đường chéo dài $\sqrt{4^2+4^2}=4\sqrt2$. Vì $\overrightarrow{CD}=\overrightarrow{BA}$ nên $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AB} + \overrightarrow{BA}=\vec{0}$.
+Hình vuông $ABCD$ cạnh $4$ có $AB=AD=4$ và $\widehat{DAB}=90^\circ$.
+
+Theo quy tắc hình bình hành (với hình bình hành $ABCD$), $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$. Xét tam giác $ABC$ vuông tại $B$:
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{4^2+4^2}=4\sqrt2.$$
+Do đó $|\overrightarrow{AB}+\overrightarrow{AD}|=|\overrightarrow{AC}|=4\sqrt2$.
+
+Hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AD}$ có chung điểm đầu $A$, nên theo quy tắc hiệu, $\overrightarrow{AB}-\overrightarrow{AD}=\overrightarrow{DB}$. Hai đường chéo của hình vuông bằng nhau nên $DB=AC=4\sqrt2$. Do đó $|\overrightarrow{AB}-\overrightarrow{AD}|=|\overrightarrow{DB}|=4\sqrt2$.
+
+Vì $ABCD$ là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$, suy ra $\overrightarrow{CD}=-\overrightarrow{AB}=\overrightarrow{BA}$. Do đó
+$$\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AB}+\overrightarrow{BA}=\vec{0},$$
+và $|\overrightarrow{AB}+\overrightarrow{CD}|=0$.
+
+Vậy $|\overrightarrow{AB}+\overrightarrow{AD}|=4\sqrt2$, $|\overrightarrow{AB}-\overrightarrow{AD}|=4\sqrt2$ và $|\overrightarrow{AB}+\overrightarrow{CD}|=0$.
 
 **Đáp số.** $4\sqrt2$; $4\sqrt2$; $0$.
 :::
@@ -305,7 +326,18 @@ $ABCD$ là hình bình hành tâm $O$. Chứng minh rằng $\overrightarrow{OA} 
 2. Viết hai hệ thức trung điểm rồi cộng lại.
 
 ::solution
-$O$ là trung điểm của $AC$ nên $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$; $O$ là trung điểm của $BD$ nên $\overrightarrow{OB} + \overrightarrow{OD} = \vec{0}$. Cộng hai đẳng thức được $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
+Vì $ABCD$ là hình bình hành tâm $O$ nên $O$ là giao điểm của hai đường chéo, đồng thời là trung điểm của $AC$ và của $BD$.
+
+Vì $O$ là trung điểm của $AC$ nên $OA=OC$ và hai vectơ $\overrightarrow{OA}$, $\overrightarrow{OC}$ ngược hướng. Do đó $\overrightarrow{OA}$ và $\overrightarrow{OC}$ là hai vectơ đối nhau, tức là
+$$\overrightarrow{OA}+\overrightarrow{OC}=\vec{0}.$$
+
+Tương tự, $O$ là trung điểm của $BD$ nên $\overrightarrow{OB}+\overrightarrow{OD}=\vec{0}$.
+
+Cộng hai đẳng thức trên theo từng vế, ta được
+$$\left(\overrightarrow{OA}+\overrightarrow{OC}\right)+\left(\overrightarrow{OB}+\overrightarrow{OD}\right)=\vec{0}+\vec{0},$$
+tức là $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0}$.
+
+Vậy $\overrightarrow{OA}+\overrightarrow{OC}=\vec{0}$ và $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}+\overrightarrow{OD}=\vec{0}$.
 
 **Đáp số.** Cả hai đẳng thức đúng (đã chứng minh).
 :::
@@ -321,7 +353,16 @@ Chứng minh rằng với bốn điểm $A$, $B$, $C$, $D$ bất kì: $\overrigh
 2. Nhóm hai vectơ đối nhau.
 
 ::solution
-$$\overrightarrow{AB} + \overrightarrow{CD} = (\overrightarrow{AD} + \overrightarrow{DB}) + (\overrightarrow{CB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB} + (\overrightarrow{DB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB}.$$
+Ta biến đổi vế trái. Áp dụng quy tắc ba điểm cho $\overrightarrow{AB}$ và $\overrightarrow{CD}$, chen thêm điểm $D$ và điểm $B$:
+$$\overrightarrow{AB}=\overrightarrow{AD}+\overrightarrow{DB},\qquad\overrightarrow{CD}=\overrightarrow{CB}+\overrightarrow{BD}.$$
+
+Do đó
+$$\begin{aligned}\overrightarrow{AB}+\overrightarrow{CD}&=\left(\overrightarrow{AD}+\overrightarrow{DB}\right)+\left(\overrightarrow{CB}+\overrightarrow{BD}\right)\\&=\overrightarrow{AD}+\overrightarrow{CB}+\left(\overrightarrow{DB}+\overrightarrow{BD}\right).\end{aligned}$$
+
+Vì $\overrightarrow{DB}$ và $\overrightarrow{BD}$ là hai vectơ đối nhau nên $\overrightarrow{DB}+\overrightarrow{BD}=\vec{0}$. Suy ra
+$$\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AD}+\overrightarrow{CB}.$$
+
+Vậy với bốn điểm $A$, $B$, $C$, $D$ bất kì, $\overrightarrow{AB}+\overrightarrow{CD}=\overrightarrow{AD}+\overrightarrow{CB}$.
 
 **Đáp số.** Đẳng thức đúng (đã chứng minh).
 :::
@@ -340,9 +381,19 @@ b) Đường đi thật của thuyền lệch bao nhiêu độ so với hướng
 2. Góc lệch $\alpha$ nằm giữa hướng mũi thuyền và đường chéo, có $\tan\alpha=\dfrac{8}{6}$.
 
 ::solution
-a) $|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10$ (km/h).
+Gọi $\vec{v_1}$ là vận tốc của thuyền so với nước (theo hướng mũi thuyền), $|\vec{v_1}|=6$ km/h; gọi $\vec{v_2}$ là vận tốc của dòng nước so với bờ, $|\vec{v_2}|=8$ km/h. Theo đề, $\vec{v_1}\perp\vec{v_2}$.
 
-b) Cạnh kề với góc lệch là $6$ (hướng mũi thuyền), cạnh đối là $8$ (dòng nước): $\tan\alpha=\dfrac86\approx1{,}333$, nên $\alpha\approx53^\circ$.
+Vận tốc của thuyền so với bờ là $\vec{v}=\vec{v_1}+\vec{v_2}$. Vì hai vectơ $\vec{v_1}$ và $\vec{v_2}$ vuông góc nên theo quy tắc hình bình hành, $\vec{v}$ là đường chéo của hình chữ nhật có hai cạnh kề là $6$ và $8$.
+
+a) Theo định lí Pythagore,
+$$|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(km/h)}.$$
+Vậy tốc độ của thuyền so với bờ là $10$ km/h.
+
+b) Gọi $\alpha$ là góc giữa đường đi thật của thuyền (hướng của $\vec{v}$) và hướng mũi thuyền (hướng của $\vec{v_1}$). Trong tam giác vuông tạo bởi $\vec{v_1}$, $\vec{v_2}$, $\vec{v}$, cạnh kề với góc $\alpha$ là $6$ (hướng mũi thuyền) và cạnh đối là $8$ (dòng nước), nên
+$$\tan\alpha=\frac86\approx1{,}333.$$
+Suy ra $\alpha\approx53^\circ$.
+
+Vậy đường đi thật của thuyền lệch khoảng $53^\circ$ so với hướng mũi thuyền.
 
 **Đáp số.** a) $10$ km/h; b) khoảng $53^\circ$.
 :::
@@ -358,7 +409,17 @@ Hai lực, mỗi lực có độ lớn $20$ N, cùng tác dụng vào một đi�
 2. Xét tam giác $OAC$: tính góc tại $A$ rồi nhận dạng tam giác.
 
 ::solution
-Vẽ $\overrightarrow{OA}$, $\overrightarrow{OB}$ biểu diễn hai lực và dựng hình thoi $OACB$. Hợp lực là $\overrightarrow{OC}$. Trong hình thoi, $\widehat{OAC}=180^\circ-120^\circ=60^\circ$ và $AO=AC=20$, nên tam giác $OAC$ đều, $OC=20$.
+Gọi $\overrightarrow{OA}$ và $\overrightarrow{OB}$ lần lượt biểu diễn hai lực, khi đó $OA=OB=20$ và $\widehat{AOB}=120^\circ$.
+
+Dựng hình bình hành $OACB$. Vì $OA=OB$ nên $OACB$ là hình thoi, suy ra $AC=CB=OA=20$. Theo quy tắc hình bình hành, hợp lực là
+$$\overrightarrow{OA}+\overrightarrow{OB}=\overrightarrow{OC}.$$
+
+Trong hình bình hành $OACB$, hai góc kề nhau $\widehat{AOB}$ và $\widehat{OAC}$ bù nhau, nên
+$$\widehat{OAC}=180^\circ-120^\circ=60^\circ.$$
+
+Tam giác $OAC$ có $AO=AC=20$ và $\widehat{OAC}=60^\circ$ nên là tam giác đều. Suy ra $OC=20$.
+
+Vậy hợp lực có độ lớn $20$ N.
 
 **Đáp số.** $20$ N.
 :::
@@ -379,13 +440,19 @@ d) $|\overrightarrow{AB} + \overrightarrow{AC}| = 6\sqrt3$.
 2. Với câu d, dựng hình thoi $ABDC$; đường chéo $AD$ gấp đôi $AM$.
 
 ::solution
-a) **Sai.** $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$, ngược hướng với $\overrightarrow{BC}$.
+Tam giác $ABC$ đều cạnh $6$ nên $AB=AC=BC=6$.
 
-b) **Đúng.** $|\overrightarrow{CB}|=BC=6$.
+a) **Sai.** Hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ có chung điểm đầu $A$, nên theo quy tắc hiệu, $\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{CB}$. Vectơ $\overrightarrow{CB}$ là vectơ đối của $\overrightarrow{BC}$ (cùng độ dài, ngược hướng), nên $\overrightarrow{CB}\neq\overrightarrow{BC}$.
 
-c) **Đúng.** $M$ là trung điểm của $BC$.
+b) **Đúng.** Ta có $\left|\overrightarrow{AB}-\overrightarrow{AC}\right|=\left|\overrightarrow{CB}\right|=CB=6$.
 
-d) **Đúng.** Dựng hình thoi $ABDC$, ta có $\overrightarrow{AB} + \overrightarrow{AC}=\overrightarrow{AD}$ và $AD=2AM=2\cdot\dfrac{6\sqrt3}{2}=6\sqrt3$.
+c) **Đúng.** $M$ là trung điểm của $BC$ nên $\overrightarrow{MB}$ và $\overrightarrow{MC}$ là hai vectơ đối nhau, do đó $\overrightarrow{MB}+\overrightarrow{MC}=\vec{0}$.
+
+d) **Đúng.** Dựng hình bình hành $ABDC$; vì $AB=AC$ nên đó là hình thoi. Theo quy tắc hình bình hành, $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}$. Hai đường chéo của hình thoi cắt nhau tại trung điểm mỗi đường nên $M$ là trung điểm của $AD$, do đó $AD=2AM$. Trong tam giác đều cạnh $6$, trung tuyến $AM$ cũng là đường cao nên $AM=\dfrac{6\sqrt3}{2}=3\sqrt3$. Suy ra
+$$AD=2AM=2\cdot\frac{6\sqrt3}{2}=6\sqrt3,$$
+tức là $\left|\overrightarrow{AB}+\overrightarrow{AC}\right|=6\sqrt3$.
+
+Vậy các mệnh đề b), c), d) đúng; mệnh đề a) sai.
 
 **Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 :::
@@ -436,11 +503,14 @@ $$\overrightarrow{AD} + \overrightarrow{BE} + \overrightarrow{CF} = \overrightar
 2. Rút gọn ba hiệu thu được bằng quy tắc ba điểm.
 
 ::solution
-$$\begin{aligned}
-&(\overrightarrow{AD}-\overrightarrow{AE}) + (\overrightarrow{BE}-\overrightarrow{BF}) + (\overrightarrow{CF}-\overrightarrow{CD})\\
-&= \overrightarrow{ED} + \overrightarrow{FE} + \overrightarrow{DF} = \overrightarrow{FE} + \overrightarrow{ED} + \overrightarrow{DF} = \overrightarrow{FF}=\vec{0}.
-\end{aligned}$$
-Hiệu hai vế bằng $\vec{0}$ nên hai vế bằng nhau.
+Để chứng minh hai vế bằng nhau, ta chứng minh hiệu của chúng bằng $\vec{0}$. Nhóm các vectơ có chung điểm đầu và dùng quy tắc hiệu ($\overrightarrow{AD}-\overrightarrow{AE}=\overrightarrow{ED}$, $\overrightarrow{BE}-\overrightarrow{BF}=\overrightarrow{FE}$, $\overrightarrow{CF}-\overrightarrow{CD}=\overrightarrow{DF}$), ta có
+$$\begin{aligned}&\left(\overrightarrow{AD}+\overrightarrow{BE}+\overrightarrow{CF}\right)-\left(\overrightarrow{AE}+\overrightarrow{BF}+\overrightarrow{CD}\right)\\&=\left(\overrightarrow{AD}-\overrightarrow{AE}\right)+\left(\overrightarrow{BE}-\overrightarrow{BF}\right)+\left(\overrightarrow{CF}-\overrightarrow{CD}\right)\\&=\overrightarrow{ED}+\overrightarrow{FE}+\overrightarrow{DF}\\&=\overrightarrow{FE}+\overrightarrow{ED}+\overrightarrow{DF}\\&=\overrightarrow{FF}=\vec{0}.\end{aligned}$$
+
+Ở dòng thứ tư ta đổi chỗ các số hạng (phép cộng vectơ có tính chất giao hoán), rồi áp dụng quy tắc ba điểm hai lần: $\overrightarrow{FE}+\overrightarrow{ED}=\overrightarrow{FD}$ và $\overrightarrow{FD}+\overrightarrow{DF}=\overrightarrow{FF}=\vec{0}$.
+
+Hiệu của hai vế bằng $\vec{0}$ nên hai vế bằng nhau.
+
+Vậy với sáu điểm $A, B, C, D, E, F$ bất kì, $\overrightarrow{AD}+\overrightarrow{BE}+\overrightarrow{CF}=\overrightarrow{AE}+\overrightarrow{BF}+\overrightarrow{CD}$.
 
 **Đáp số.** Đẳng thức đúng (đã chứng minh).
 :::

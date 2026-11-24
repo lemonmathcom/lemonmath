@@ -203,7 +203,21 @@ Trong các biểu thức $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$,
 2. Xem có biến nào ở mẫu không.
 
 ::solution
-$x-2y$ có phép trừ nên không là đơn thức. $\dfrac{5}{x}$ có biến ở mẫu nên không là đơn thức. Các biểu thức còn lại đều là số, biến hoặc tích của số và biến.
+Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc tích của các số và các biến (kể cả luỹ thừa với số mũ tự nhiên của biến).
+
+Biểu thức $-3$ là một số nên là đơn thức.
+
+Biểu thức $x^2y$ là tích của các biến nên là đơn thức.
+
+Biểu thức $x-2y$ có phép trừ nên không là đơn thức.
+
+Biểu thức $\dfrac{5}{x}$ có biến ở mẫu nên không là đơn thức.
+
+Biểu thức $\dfrac23ab$ là tích của một số và các biến nên là đơn thức.
+
+Biểu thức $y^3$ là luỹ thừa của một biến nên là đơn thức.
+
+Vậy các đơn thức là $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
 
 **Đáp số.** $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
 :::
@@ -224,9 +238,17 @@ b) $\dfrac12x^2\cdot6y\cdot x$.
 3. Cộng các số mũ để tìm bậc.
 
 ::solution
-a) $5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot x^2y^2=-10x^2y^2$. Hệ số $-10$, bậc $2+2=4$.
+Để thu gọn đơn thức, ta nhân các hệ số với nhau và nhân các luỹ thừa cùng biến bằng công thức $x^m\cdot x^n=x^{m+n}$. Bậc của đơn thức là tổng các số mũ của các biến.
 
-b) $\dfrac12x^2\cdot6y\cdot x=\left(\dfrac12\cdot6\right)\cdot x^3y=3x^3y$. Hệ số $3$, bậc $3+1=4$.
+a) Ta có
+$$5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot(x\cdot x)\cdot y^2=-10x^2y^2.$$
+Hệ số là $-10$; bậc là $2+2=4$.
+
+b) Ta có
+$$\frac12x^2\cdot6y\cdot x=\left(\frac12\cdot6\right)\cdot(x^2\cdot x)\cdot y=3x^3y.$$
+Hệ số là $3$; bậc là $3+1=4$.
+
+Vậy a) đơn thức thu gọn là $-10x^2y^2$, hệ số $-10$, bậc $4$; b) đơn thức thu gọn là $3x^3y$, hệ số $3$, bậc $4$.
 
 **Đáp số.** a) $-10x^2y^2$, hệ số $-10$, bậc $4$; b) $3x^3y$, hệ số $3$, bậc $4$.
 :::
@@ -246,9 +268,15 @@ b) $9x^3y-4x^3y-x^3y$.
 2. Tính tổng đại số các hệ số.
 
 ::solution
-a) $(6-2+1)xy^2=5xy^2$.
+Các đơn thức trong mỗi câu đồng dạng (cùng phần biến), nên ta cộng, trừ các hệ số và giữ nguyên phần biến.
 
-b) $(9-4-1)x^3y=4x^3y$.
+a) Ta có
+$$6xy^2+(-2xy^2)+xy^2=(6-2+1)xy^2=5xy^2.$$
+
+b) Ta có
+$$9x^3y-4x^3y-x^3y=(9-4-1)x^3y=4x^3y.$$
+
+Vậy a) kết quả là $5xy^2$; b) kết quả là $4x^3y$.
 
 **Đáp số.** a) $5xy^2$; b) $4x^3y$.
 :::
@@ -268,9 +296,16 @@ b) Viết $x^3\cdot x^4$ thành một lũy thừa của $x$.
 2. Với câu a), tính $2^7$.
 
 ::solution
-a) $2^3\cdot2^4=2^{3+4}=2^7=128$. (Thử lại: $8\cdot16=128$.)
+Áp dụng công thức nhân hai luỹ thừa cùng cơ số: $x^m\cdot x^n=x^{m+n}$.
 
-b) $x^3\cdot x^4=x^{3+4}=x^7$.
+a) Ta có
+$$2^3\cdot2^4=2^{3+4}=2^7=128.$$
+Kiểm tra: $2^3\cdot2^4=8\cdot16=128$.
+
+b) Ta có
+$$x^3\cdot x^4=x^{3+4}=x^7.$$
+
+Vậy a) $2^3\cdot2^4=2^7=128$; b) $x^3\cdot x^4=x^7$.
 
 **Đáp số.** a) $2^7=128$; b) $x^7$.
 :::
@@ -293,11 +328,15 @@ c) bậc của đơn thức.
 3. Cộng các số mũ $3$, $1$, $2$.
 
 ::solution
-a) Hệ số là $-4$.
+Đơn thức $-4x^3yz^2$ đã được thu gọn, gồm một số (hệ số) nhân với các luỹ thừa của các biến khác nhau.
 
-b) Phần biến là $x^3yz^2$.
+a) Hệ số của đơn thức là số đứng trước các biến, tức là $-4$.
 
-c) Bậc là $3+1+2=6$.
+b) Phần biến của đơn thức gồm các biến cùng số mũ của chúng, tức là $x^3yz^2$.
+
+c) Bậc của đơn thức là tổng các số mũ của các biến: $3+1+2=6$ (biến $y$ có số mũ $1$).
+
+Vậy hệ số là $-4$, phần biến là $x^3yz^2$ và bậc là $6$.
 
 **Đáp số.** a) $-4$; b) $x^3yz^2$; c) $6$.
 :::
@@ -319,11 +358,15 @@ c) $4ab$ và $ba$.
 2. Chú ý thứ tự các thừa số có thể đổi chỗ.
 
 ::solution
-a) Có: cùng phần biến $x^2y$, hệ số $3$ và $-5$ khác $0$.
+Hai đơn thức gọi là đồng dạng nếu chúng có hệ số khác $0$ và có cùng phần biến.
 
-b) Không: phần biến là $xy$ và $xy^2$, khác nhau.
+a) Hai đơn thức $3x^2y$ và $-5x^2y$ có hệ số $3$ và $-5$ đều khác $0$, và cùng phần biến $x^2y$. Do đó chúng đồng dạng.
 
-c) Có: $ba=ab$ có hệ số $1$, cùng phần biến $ab$ với $4ab$.
+b) Hai đơn thức $2xy$ và $2xy^2$ có phần biến lần lượt là $xy$ và $xy^2$, khác nhau. Do đó chúng không đồng dạng.
+
+c) Ta có $ba=ab$, là đơn thức có hệ số $1\neq0$ và phần biến $ab$, giống phần biến của $4ab$ (hệ số $4\neq0$). Do đó chúng đồng dạng.
+
+Vậy cặp a) và cặp c) đồng dạng; cặp b) không đồng dạng.
 
 **Đáp số.** a) có; b) không; c) có.
 :::
@@ -345,11 +388,18 @@ c) Bậc của đơn thức $5x^3y$ là $3$.
 2. Thử lại bằng cách thay $x=2$.
 
 ::solution
-a) Sai ở phần biến: khi cộng chỉ cộng hệ số. Đúng: $4x^2+3x^2=7x^2$ (thử $x=2$: $16+12=28=7\cdot4$).
+Ta kiểm tra từng bước làm của bạn Hà bằng các quy tắc về đơn thức.
 
-b) Sai ở số mũ: $x\cdot x^2=x^3$. Đúng: $(-2x)(3x^2)=-6x^3$.
+a) Quy tắc: khi cộng các đơn thức đồng dạng, ta cộng các hệ số và giữ nguyên phần biến. Bạn Hà đã sai ở phần biến (viết $x^4$). Lời giải đúng là
+$$4x^2+3x^2=(4+3)x^2=7x^2.$$
+Thử với $x=2$: $4\cdot4+3\cdot4=16+12=28$ và $7\cdot4=28$.
 
-c) Sai vì quên số mũ của $y$: $3+1=4$.
+b) Quy tắc: khi nhân các luỹ thừa cùng cơ số, ta cộng các số mũ. Bạn Hà đã sai ở số mũ vì $x\cdot x^2=x^{1+2}=x^3$. Lời giải đúng là
+$$(-2x)\cdot(3x^2)=(-2\cdot3)\cdot x^3=-6x^3.$$
+
+c) Bậc của đơn thức là tổng các số mũ của các biến. Bạn Hà đã quên số mũ của $y$ (bằng $1$). Lời giải đúng là bậc của $5x^3y$ bằng $3+1=4$.
+
+Vậy bạn Hà sai ở cả ba câu; kết quả đúng là a) $7x^2$; b) $-6x^3$; c) bậc $4$.
 
 **Đáp số.** a) $7x^2$; b) $-6x^3$; c) bậc $4$.
 :::
@@ -370,9 +420,16 @@ b) Tính diện tích khi $x=5$.
 3. Thay $x=5$ và ghi đơn vị.
 
 ::solution
-a) Diện tích là $3x\cdot2x=(3\cdot2)\cdot x^{1+1}=6x^2$ (m²). Bậc là $2$.
+Sân chơi hình chữ nhật có chiều dài $3x$ m và chiều rộng $2x$ m (với $x>0$).
 
-b) Với $x=5$: $6\cdot5^2=6\cdot25=150$ (m²).
+a) Diện tích sân bằng chiều dài nhân chiều rộng, nên
+$$S=3x\cdot2x=(3\cdot2)\cdot(x\cdot x)=6x^{1+1}=6x^2\ (\text{m}^2).$$
+Đơn thức $6x^2$ có bậc là $2$.
+
+b) Thay $x=5$ vào $S=6x^2$, ta được
+$$S=6\cdot5^2=6\cdot25=150\ (\text{m}^2).$$
+
+Vậy a) diện tích sân là $6x^2$ m$^2$, đơn thức có bậc $2$; b) khi $x=5$ thì diện tích sân bằng $150$ m$^2$.
 
 **Đáp số.** a) $6x^2$ m², bậc $2$; b) $150$ m².
 :::

@@ -171,11 +171,16 @@ Giải hệ phương trình $y=2x-1$ và $3x+y=14$.
 **Kiến thức:** thế biểu thức của $y$ vào phương trình thứ hai.
 
 ::solution
-Thế $y=2x-1$ vào $3x+y=14$, ta được $3x+2x-1=14$.
+Hệ phương trình đã cho là
+$$\begin{cases}y=2x-1\\3x+y=14.\end{cases}$$
+Phương trình thứ nhất đã cho $y$ theo $x$ nên ta dùng phương pháp thế.
 
-Suy ra $5x=15$, nên $x=3$.
+Thế $y=2x-1$ vào phương trình $3x+y=14$, ta được
+$$3x+(2x-1)=14\iff5x-1=14\iff5x=15\iff x=3.$$
 
-Khi đó $y=2(3)-1=5$.
+Thay $x=3$ vào $y=2x-1$, ta được $y=2\cdot3-1=5$.
+
+Kiểm tra: $3\cdot3+5=14$ (đúng) và $5=2\cdot3-1$ (đúng).
 
 Vậy hệ phương trình có nghiệm $x=3$, $y=5$.
 
@@ -207,11 +212,14 @@ Cho $f(x)=2x-5$. Tìm giá trị của $x$ để $f(x)=7$.
 **Kiến thức:** giải $2x-5=7$.
 
 ::solution
-Ta cần $2x-5=7$.
+Ta cần tìm $x$ sao cho $f(x)=7$. Vì $f(x)=2x-5$ nên ta giải phương trình
+$$2x-5=7.$$
 
-Cộng $5$ vào hai vế, ta được $2x=12$, nên $x=6$.
+Cộng $5$ vào hai vế, ta được $2x=12$.
 
-Kiểm tra: $f(6)=12-5=7$.
+Chia hai vế cho $2$, ta được $x=6$.
+
+Kiểm tra: $f(6)=2\cdot6-5=12-5=7$ (đúng).
 
 Vậy $f(x)=7$ khi $x=6$.
 

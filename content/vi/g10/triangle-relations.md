@@ -212,7 +212,14 @@ Cho tam giác $ABC$ có $b=6$, $c=8$ và $A=60^\circ$. Tính $a$.
 2. Khai căn và rút gọn.
 
 ::solution
-$$a^2=36+64-2\cdot6\cdot8\cdot\frac12=100-48=52\Rightarrow a=\sqrt{52}=2\sqrt{13}.$$
+Áp dụng định lí côsin cho tam giác $ABC$: $a^2=b^2+c^2-2bc\cos A$.
+
+Thay $b=6$, $c=8$, $A=60^\circ$ (với $\cos60^\circ=\dfrac12$) vào công thức, ta được
+$$\begin{aligned} a^2&=6^2+8^2-2\cdot6\cdot8\cdot\frac12\\ &=36+64-48\\ &=52. \end{aligned}$$
+
+Suy ra $a=\sqrt{52}=2\sqrt{13}$ (lấy giá trị dương vì $a$ là độ dài cạnh).
+
+Vậy $a=2\sqrt{13}\approx7{,}21$.
 
 **Đáp số.** $a=2\sqrt{13}\approx7{,}21$.
 :::
@@ -228,7 +235,15 @@ Tam giác có các cạnh $a=5$, $b=6$, $c=7$. Tính góc $C$.
 2. Dùng $\cos^{-1}$ trên máy tính.
 
 ::solution
-$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0{,}2\Rightarrow C\approx78{,}46^\circ.$$
+Áp dụng hệ quả của định lí côsin cho góc $C$ đối diện cạnh $c$:
+$$\cos C=\frac{a^2+b^2-c^2}{2ab}.$$
+
+Thay $a=5$, $b=6$, $c=7$, ta được
+$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0{,}2.$$
+
+Vì $0^\circ<C<180^\circ$ và $\cos C=0{,}2$, ta suy ra $C\approx78{,}46^\circ$.
+
+Vậy góc $C$ xấp xỉ $78{,}46^\circ$.
 
 **Đáp số.** $C\approx78{,}46^\circ$.
 :::
@@ -246,10 +261,15 @@ b) Cho tam giác $ABC$ có $A=45^\circ$, $B=60^\circ$, $b=\sqrt6$. Tính $a$.
 2. b) Viết $a=\dfrac{b\sin A}{\sin B}$ và dùng bảng giá trị đặc biệt.
 
 ::solution
-a) $2R=\dfrac{8}{\sin30^\circ}=16$, nên $R=8$.
+Áp dụng định lí sin cho tam giác $ABC$ nội tiếp đường tròn bán kính $R$: $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$.
 
-b)
-$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=2.$$
+a) Với $a=8$ và $A=30^\circ$ (có $\sin30^\circ=\dfrac12$), ta có
+$$2R=\frac{a}{\sin A}=\frac{8}{\sin30^\circ}=16,$$
+suy ra $R=8$. Vậy bán kính đường tròn ngoại tiếp là $R=8$.
+
+b) Theo định lí sin, $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$, nên $a=\dfrac{b\sin A}{\sin B}$. Thay $b=\sqrt6$, $\sin A=\sin45^\circ=\dfrac{\sqrt2}{2}$, $\sin B=\sin60^\circ=\dfrac{\sqrt3}{2}$, ta được
+$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=\sqrt{4}=2.$$
+Vậy $a=2$.
 
 **Đáp số.** a) $R=8$; b) $a=2$.
 :::
@@ -264,7 +284,12 @@ Tính diện tích tam giác có $a=6$, $b=9$ và $C=30^\circ$.
 1. Thay $a$, $b$ và $\sin30^\circ=\dfrac12$.
 
 ::solution
-$$S=\frac12\cdot6\cdot9\cdot\frac12=13{,}5.$$
+Áp dụng công thức diện tích tam giác theo hai cạnh và góc xen giữa: $S=\dfrac12ab\sin C$.
+
+Thay $a=6$, $b=9$, $C=30^\circ$ (với $\sin30^\circ=\dfrac12$), ta được
+$$S=\frac12\cdot6\cdot9\cdot\frac12=\frac{27}{2}=13{,}5.$$
+
+Vậy diện tích tam giác là $S=13{,}5$ (đơn vị diện tích).
 
 **Đáp số.** $S=13{,}5$.
 :::
@@ -289,13 +314,21 @@ d) Góc đối diện cạnh $15$ là góc tù.
 3. So sánh $15^2$ với $13^2+14^2$.
 
 ::solution
-a) **Đúng:** $p=\dfrac{13+14+15}{2}=21$.
+Gọi ba cạnh của tam giác là $a=13$, $b=14$, $c=15$.
 
-b) **Đúng:** $S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84$.
+a) **Đúng.** Nửa chu vi là $p=\dfrac{a+b+c}{2}=\dfrac{13+14+15}{2}=\dfrac{42}{2}=21$.
 
-c) **Sai:** $R=\dfrac{13\cdot14\cdot15}{4\cdot84}=\dfrac{2730}{336}=8{,}125$.
+b) **Đúng.** Áp dụng công thức Heron $S=\sqrt{p(p-a)(p-b)(p-c)}$ với $p=21$, ta có
+$$S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84.$$
 
-d) **Sai:** $15^2=225<13^2+14^2=365$, nên $\cos$ của góc đó dương và góc nhọn.
+c) **Sai.** Áp dụng công thức $S=\dfrac{abc}{4R}$, suy ra
+$$R=\frac{abc}{4S}=\frac{13\cdot14\cdot15}{4\cdot84}=\frac{2730}{336}=8{,}125\ne8.$$
+
+d) **Sai.** Góc đối diện cạnh $15$ có côsin là
+$$\cos C=\frac{13^2+14^2-15^2}{2\cdot13\cdot14}=\frac{169+196-225}{364}=\frac{140}{364}>0.$$
+(Cũng có thể thấy: $15^2=225<13^2+14^2=365$.) Vì $\cos C>0$ nên góc đó là góc nhọn, không phải góc tù.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -311,8 +344,16 @@ Hai con tàu cùng rời một cảng. Tàu thứ nhất chạy với vận tố
 2. Hai quãng đường và góc $50^\circ$ xen giữa: dùng định lí côsin.
 
 ::solution
-Sau $2$ giờ hai tàu cách cảng $24$ km và $32$ km.
-$$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612{,}7\Rightarrow d\approx24{,}75.$$
+Gọi $O$ là cảng, $A$ và $B$ lần lượt là vị trí của tàu thứ nhất và tàu thứ hai sau $2$ giờ, và $d=AB$ (km) là khoảng cách cần tính.
+
+Sau $2$ giờ, tàu thứ nhất đi được $12\cdot2=24$ km và tàu thứ hai đi được $16\cdot2=32$ km, nên $OA=24$ km, $OB=32$ km. Hai hướng đi hợp nhau góc $\widehat{AOB}=50^\circ$.
+
+Áp dụng định lí côsin cho tam giác $OAB$, ta có
+$$\begin{aligned} d^2&=OA^2+OB^2-2\cdot OA\cdot OB\cdot\cos50^\circ\\ &=24^2+32^2-2\cdot24\cdot32\cos50^\circ\\ &=1600-1536\cos50^\circ\\ &\approx612{,}7. \end{aligned}$$
+
+Suy ra $d\approx\sqrt{612{,}7}\approx24{,}75$, làm tròn đến hàng phần mười ta được $d\approx24{,}8$.
+
+Vậy sau $2$ giờ hai tàu cách nhau khoảng $24{,}8$ km.
 
 **Đáp số.** $24{,}8$.
 :::
@@ -328,7 +369,15 @@ $$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612{,}7\
 2. Viết $\dfrac{AC}{\sin B}=\dfrac{AB}{\sin C}$.
 
 ::solution
-$$\widehat{C}=180^\circ-62^\circ-71^\circ=47^\circ,\qquad AC=\frac{200\sin71^\circ}{\sin47^\circ}\approx258{,}6\ \text{(m)}.$$
+Xét tam giác $ABC$ có $AB=200$ m, $\widehat{A}=62^\circ$, $\widehat{B}=71^\circ$.
+
+Tổng ba góc của một tam giác bằng $180^\circ$ nên
+$$\widehat{C}=180^\circ-62^\circ-71^\circ=47^\circ.$$
+
+Áp dụng định lí sin: $\dfrac{AC}{\sin B}=\dfrac{AB}{\sin C}$. Suy ra
+$$AC=\frac{AB\sin B}{\sin C}=\frac{200\sin71^\circ}{\sin47^\circ}\approx258{,}6\ \text{(m)}.$$
+
+Vậy khoảng cách từ $A$ đến cái cây $C$ là $AC\approx258{,}6$ m.
 
 **Đáp số.** $AC\approx258{,}6$ m.
 :::
@@ -344,8 +393,14 @@ Có tồn tại tam giác $ABC$ với $A=40^\circ$, $a=4$, $b=8$ hay không? Gi�
 2. So sánh với $1$.
 
 ::solution
-$$\sin B=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx1{,}286>1,$$
-điều này không thể xảy ra. (Cũng thấy được từ quy tắc nhanh: $a=4<b\sin A\approx5{,}14$.)
+Giả sử tồn tại tam giác $ABC$ có $A=40^\circ$, $a=4$, $b=8$. Khi đó theo định lí sin, $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$, suy ra
+$$\sin B=\frac{b\sin A}{a}=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx2\cdot0{,}6428\approx1{,}286.$$
+
+Vì $\sin B\le1$ với mọi góc $B$ nhưng ở đây $\sin B\approx1{,}286>1$, nên điều giả sử dẫn đến vô lí.
+
+Cách kiểm tra nhanh khác: cạnh $a$ phải không nhỏ hơn khoảng cách $b\sin A$ từ đỉnh $C$ đến đường thẳng $AB$; ở đây $b\sin A=8\sin40^\circ\approx5{,}14$ mà $a=4<5{,}14$.
+
+Vậy không tồn tại tam giác $ABC$ với $A=40^\circ$, $a=4$, $b=8$.
 
 **Đáp số.** Không tồn tại tam giác như vậy.
 :::
@@ -362,8 +417,18 @@ Tam giác có ba cạnh $3$, $5$, $7$. Chứng minh góc lớn nhất bằng $12
 3. Tính $p$ rồi $r=\dfrac{S}{p}$.
 
 ::solution
-$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{-15}{30}=-\frac12\Rightarrow \theta=120^\circ.$$
-$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{2},\qquad r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}.$$
+Góc lớn nhất của tam giác là góc đối diện cạnh lớn nhất; gọi $\theta$ là góc đối diện cạnh $7$. Áp dụng định lí côsin:
+$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{9+25-49}{30}=\frac{-15}{30}=-\frac12.$$
+
+Vì $0^\circ<\theta<180^\circ$ và $\cos\theta=-\dfrac12$ nên $\theta=120^\circ$. Vậy góc lớn nhất bằng $120^\circ$.
+
+Diện tích tam giác (dùng hai cạnh $3$, $5$ và góc xen giữa $\theta$):
+$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac12\cdot3\cdot5\cdot\frac{\sqrt3}{2}=\frac{15\sqrt3}{4}\approx6{,}50.$$
+
+Nửa chu vi là $p=\dfrac{3+5+7}{2}=\dfrac{15}{2}$. Từ công thức $S=pr$, bán kính đường tròn nội tiếp là
+$$r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}\approx0{,}87.$$
+
+Vậy góc lớn nhất bằng $120^\circ$, diện tích $S=\dfrac{15\sqrt3}{4}\approx6{,}50$ và bán kính đường tròn nội tiếp $r=\dfrac{\sqrt3}{2}\approx0{,}87$.
 
 **Đáp số.** $S=\dfrac{15\sqrt3}{4}\approx6{,}50$; $r=\dfrac{\sqrt3}{2}\approx0{,}87$.
 :::
@@ -380,8 +445,18 @@ $$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{
 3. Tính $a^2$, chú ý $\cos A$ âm nên số hạng cuối thành cộng.
 
 ::solution
-$$\sin^2A=1-\frac{9}{25}=\frac{16}{25}\Rightarrow \sin A=\frac45,\qquad S=\frac12\cdot5\cdot4\cdot\frac45=8,$$
-$$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
+Tính $\sin A$. Vì $\sin^2A+\cos^2A=1$ và $\cos A=-\dfrac35$ nên
+$$\sin^2A=1-\left(-\frac35\right)^2=1-\frac{9}{25}=\frac{16}{25}.$$
+Vì $0^\circ<A<180^\circ$ nên $\sin A>0$, suy ra $\sin A=\dfrac45$.
+
+Tính diện tích. Áp dụng $S=\dfrac12bc\sin A$ với $b=5$, $c=4$:
+$$S=\frac12\cdot5\cdot4\cdot\frac45=8.$$
+
+Tính cạnh $a$. Áp dụng định lí côsin $a^2=b^2+c^2-2bc\cos A$:
+$$\begin{aligned} a^2&=5^2+4^2-2\cdot5\cdot4\cdot\left(-\frac35\right)\\ &=25+16+24\\ &=65. \end{aligned}$$
+Suy ra $a=\sqrt{65}\approx8{,}06$ (lấy giá trị dương).
+
+Vậy $\sin A=\dfrac45$, diện tích $S=8$ và cạnh $a=\sqrt{65}\approx8{,}06$.
 
 **Đáp số.** $\sin A=\dfrac45$; $S=8$; $a=\sqrt{65}\approx8{,}06$.
 :::

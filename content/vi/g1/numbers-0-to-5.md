@@ -142,7 +142,9 @@ Trong rổ có ba quả cam. Viết số quả cam.
 2. Viết ba bằng chữ số.
 
 ::solution
-Ba viết là $3$.
+Trong rổ có ba quả cam. Em đếm: một, hai, ba. Số "ba" được viết bằng chữ số $3$.
+
+Vậy trong rổ có $3$ quả cam.
 
 **Đáp số.** $3$ quả cam.
 :::
@@ -158,7 +160,13 @@ Ba viết là $3$.
 2. Số nào đứng giữa $2$ và $4$?
 
 ::solution
-Sau $2$ là $3$, rồi đến $4$.
+Ta đọc các số theo thứ tự từ bé đến lớn: $0, 1, 2$, rồi đến ô trống, sau đó là $4, 5$.
+
+Sau $2$ là $3$, và sau $3$ là $4$. Vậy số cần điền vào ô trống là $3$.
+
+Kiểm tra: đọc cả dãy $0, 1, 2, 3, 4, 5$. Đúng.
+
+Vậy số cần điền là $3$.
 
 **Đáp số.** $3$.
 :::
@@ -174,7 +182,11 @@ Em đã biết đếm ở trường mầm non. Em hãy đếm các ngón tay c�
 2. Đếm: một, hai, ba, bốn, năm.
 
 ::solution
-Đếm được năm ngón tay, viết là $5$.
+Em đếm từng ngón tay của một bàn tay: một, hai, ba, bốn, năm. Em đếm được năm ngón tay.
+
+Số "năm" được viết bằng chữ số $5$.
+
+Vậy một bàn tay có $5$ ngón tay.
 
 **Đáp số.** $5$ ngón tay.
 :::
@@ -190,7 +202,9 @@ Hộp bút của Mai không có cái bút nào. Viết số bút trong hộp.
 2. Chọn số cho "không có gì".
 
 ::solution
-Không có cái bút nào nên em viết $0$.
+Hộp bút của Mai không có cái bút nào. Khi không có đồ vật nào, ta viết số $0$.
+
+Vậy số bút trong hộp bút của Mai là $0$.
 
 **Đáp số.** $0$ cái bút.
 :::
@@ -206,7 +220,11 @@ Lọ không có bông hoa nào. Lan viết số bông hoa là $5$. Lan viết đ
 2. Số nào nói "không có"?
 
 ::solution
-Lọ không có hoa nên số hoa là $0$. Lan viết $5$ là sai.
+Lọ không có bông hoa nào. Khi không có đồ vật nào, ta viết số $0$, nên số bông hoa trong lọ là $0$.
+
+Lan viết $5$, mà $5$ là số của năm bông hoa. Lan viết như vậy là không đúng.
+
+Vậy Lan viết sai; phải viết số bông hoa là $0$.
 
 **Đáp số.** Sai. Phải viết $0$.
 :::
@@ -222,7 +240,11 @@ Nam đếm bốn quả bóng và nói: "một, hai, ba, năm". Nam đếm sai �
 2. Tìm số bị bỏ quên.
 
 ::solution
-Nam bỏ quên số bốn. Đếm đúng là: một, hai, ba, bốn.
+Có bốn quả bóng nên khi đếm đúng, ta đếm lần lượt: một, hai, ba, bốn.
+
+Nam đếm: "một, hai, ba, năm". Sau số ba, Nam nhảy sang số năm, tức là bỏ quên số bốn.
+
+Vậy Nam đếm sai ở chỗ bỏ quên số $4$; đếm đúng là $1, 2, 3, 4$.
 
 **Đáp số.** Nam bỏ quên số $4$; đúng là $1, 2, 3, 4$.
 :::
@@ -238,7 +260,11 @@ Trong hộp đồ dùng học tập có: $4$ bút chì, $2$ cục tẩy, $0$ th�
 2. Đọc tên đồ vật ở cùng chỗ.
 
 ::solution
-Số $0$ đứng cạnh thước kẻ, nên hộp không có thước kẻ.
+Trong hộp có: $4$ bút chì, $2$ cục tẩy, $0$ thước kẻ, $5$ bút màu.
+
+Số $0$ nghĩa là không có cái nào. Số $0$ đứng cạnh thước kẻ, nên trong hộp không có cái thước kẻ nào. Các số $4$, $2$, $5$ đều khác $0$ nên bút chì, cục tẩy và bút màu đều có trong hộp.
+
+Vậy đồ vật không có trong hộp là thước kẻ.
 
 **Đáp số.** Thước kẻ.
 :::
@@ -254,9 +280,13 @@ Số $0$ đứng cạnh thước kẻ, nên hộp không có thước kẻ.
 2. Sau $3$ là số nào? Sau $1$ là số nào?
 
 ::solution
-Đếm ngược: $5, 4, 3, 2, 1, 0$.
+Ta đếm ngược, mỗi lần giảm đi một: $5, 4, 3, 2, 1, 0$.
 
-**Kiểm tra.** Đọc từ $0$ đến $5$: $0, 1, 2, 3, 4, 5$. Đúng.
+Số đứng giữa $5$ và $3$ là $4$. Số đứng giữa $3$ và $1$ là $2$. Số đứng sau $1$ là $0$.
+
+Kiểm tra: đọc xuôi từ $0$ đến $5$: $0, 1, 2, 3, 4, 5$. Đúng.
+
+Vậy các số cần điền vào ô trống lần lượt là $4$, $2$, $0$.
 
 **Đáp số.** $4$, $2$, $0$.
 :::

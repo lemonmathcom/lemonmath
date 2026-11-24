@@ -191,11 +191,15 @@ c) $A'C'\perp(BDD'B')$.
 2. For part c, shift $A'C'$ to $AC$.
 
 ::solution
-a) $AA'\perp AB$ and $AA'\perp AD$ (the side faces are squares), and $AB$, $AD$ intersect at $A$ in $(ABCD)$, so $AA'\perp(ABCD)$.
+We use the criterion: if a line is perpendicular to two intersecting lines lying in a plane, then it is perpendicular to that plane.
 
-b) $BD\perp AC$ (diagonals of a square) and $BD\perp AA'$ (since $AA'\perp(ABCD)$). $AC$, $AA'$ intersect in $(ACC'A')$, so $BD\perp(ACC'A')$.
+a) The side faces of the cube are squares, so $AA'\perp AB$ and $AA'\perp AD$. The lines $AB$, $AD$ intersect at $A$ and both lie in $(ABCD)$. Hence $AA'\perp(ABCD)$.
 
-c) Similarly, $AC\perp BD$ and $AC\perp BB'$, so $AC\perp(BDD'B')$. Since $A'C'\parallel AC$, $A'C'\perp(BDD'B')$.
+b) Since $ABCD$ is a square, $BD\perp AC$ (diagonals of a square). Since $AA'\perp(ABCD)$ and $BD\subset(ABCD)$, we get $BD\perp AA'$. The lines $AC$, $AA'$ intersect at $A$ and both lie in $(ACC'A')$. Hence $BD\perp(ACC'A')$.
+
+c) Similarly, $AC\perp BD$ (diagonals of the square $ABCD$). Since $BB'\parallel AA'$ and $AA'\perp(ABCD)$, we have $BB'\perp(ABCD)$, so $AC\perp BB'$. The lines $BD$, $BB'$ intersect at $B$ and both lie in $(BDD'B')$. Hence $AC\perp(BDD'B')$. Since $A'C'\parallel AC$, $A'C'\perp(BDD'B')$.
+
+So all three statements a), b), c) are true.
 
 **Answer.** All three statements are true.
 :::
@@ -211,9 +215,11 @@ The pyramid $S.ABCD$ has a rectangular base $ABCD$ and $SA\perp(ABCD)$. Prove th
 2. Do the same for $CD$ and $(SAD)$.
 
 ::solution
-$BC\perp AB$ (rectangle) and $BC\perp SA$ (since $SA\perp(ABCD)$). $AB$, $SA$ intersect at $A$ in $(SAB)$, so $BC\perp(SAB)$.
+Since $ABCD$ is a rectangle, $BC\perp AB$. Since $SA\perp(ABCD)$ and $BC\subset(ABCD)$, $BC\perp SA$. The lines $AB$, $SA$ intersect at $A$ and both lie in $(SAB)$. Hence $BC\perp(SAB)$.
 
-$CD\perp AD$ (rectangle) and $CD\perp SA$. $AD$, $SA$ intersect at $A$ in $(SAD)$, so $CD\perp(SAD)$.
+Similarly, $CD\perp AD$ because $ABCD$ is a rectangle, and $CD\perp SA$ because $SA\perp(ABCD)$ and $CD\subset(ABCD)$. The lines $AD$, $SA$ intersect at $A$ and both lie in $(SAD)$. Hence $CD\perp(SAD)$.
+
+So $BC\perp(SAB)$ and $CD\perp(SAD)$.
 
 **Answer.** Both statements are proved.
 :::
@@ -229,9 +235,15 @@ The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ right-angled at $B$, $SA=
 2. Find $SB$ from triangle $SAB$, then $SC$ from triangle $SBC$.
 
 ::solution
-$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$, hence $BC\perp SB$.
+Prove $BC\perp(SAB)$. Since triangle $ABC$ is right-angled at $B$, $BC\perp AB$. Since $SA\perp(ABC)$ and $BC\subset(ABC)$, $BC\perp SA$. The lines $AB$, $SA$ intersect at $A$ and both lie in $(SAB)$. Hence $BC\perp(SAB)$.
 
-Triangle $SAB$ is right-angled at $A$, so $SB^2=9+16=25$, $SB=5$. Triangle $SBC$ is right-angled at $B$, so $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
+Find $SB$. Since $SA\perp(ABC)$ and $AB\subset(ABC)$, $SA\perp AB$, so triangle $SAB$ is right-angled at $A$. By Pythagoras' theorem,
+$$SB^2=SA^2+AB^2=3^2+4^2=25\Rightarrow SB=5.$$
+
+Find $SC$. Since $BC\perp(SAB)$ and $SB\subset(SAB)$, $BC\perp SB$, so triangle $SBC$ is right-angled at $B$. By Pythagoras' theorem,
+$$SC^2=SB^2+BC^2=25+25=50\Rightarrow SC=5\sqrt2.$$
+
+So $BC\perp(SAB)$, $SB=5$ and $SC=5\sqrt2$.
 
 **Answer.** $SB=5$; $SC=5\sqrt2$.
 :::
@@ -255,13 +267,17 @@ d) $BC\perp(SAB)$.
 2. Check whether each is perpendicular to the given line.
 
 ::solution
-a) **False**: $AC\perp BD$ but $AC$ is not perpendicular to $SD$ (or $SB$).
+Since $ABCD$ is a square, $AC\perp BD$ and $AB\perp BC$. Since $SA\perp(ABCD)$, $SA$ is perpendicular to every line lying in $(ABCD)$.
 
-b) **True**: $BD\perp AC$ and $BD\perp SA$.
+a) **False.** If $AC\perp(SBD)$, then $AC\perp SD$. Then $AC$ is perpendicular to the two lines $SA$ and $SD$, which intersect at $S$ in $(SAD)$, so $AC\perp(SAD)$ and $AC\perp AD$. This is a contradiction, because the angle $CAD$ is $45^\circ$. So $AC$ is not perpendicular to $(SBD)$.
 
-c) **False**: $AD\perp CD$ but $AD$ is not perpendicular to $SD$ (since $SA\perp AD$ and $SA\neq0$, angle $SDA$ is not right).
+b) **True.** We have $BD\perp AC$ and $BD\perp SA$ (since $SA\perp(ABCD)$ and $BD\subset(ABCD)$). The lines $AC$, $SA$ intersect at $A$ and both lie in $(SAC)$. Hence $BD\perp(SAC)$.
 
-d) **True**: $BC\perp AB$ and $BC\perp SA$.
+c) **False.** If $AD\perp(SCD)$, then $AD\perp SD$. But triangle $SAD$ is right-angled at $A$ (since $SA\perp AD$), so the angle $SDA$ is acute, that is, $AD$ is not perpendicular to $SD$. So $AD$ is not perpendicular to $(SCD)$.
+
+d) **True.** We have $BC\perp AB$ and $BC\perp SA$ (since $SA\perp(ABCD)$ and $BC\subset(ABCD)$). The lines $AB$, $SA$ intersect at $A$ and both lie in $(SAB)$. Hence $BC\perp(SAB)$.
+
+So statements b), d) are true; statements a), c) are false.
 
 **Answer.** a) False; b) True; c) False; d) True.
 :::
@@ -277,7 +293,19 @@ Suppose a pole $SO$ has its foot $O$ on a flat yard, and $B$, $C$ are points of 
 2. Note whether $OB$, $OC$ intersect.
 
 ::solution
-$SO^2+OB^2=81+144=225=SB^2$, so $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$, so $SO\perp OC$. $OB$, $OC$ intersect at $O$, so $SO\perp(\text{yard})$.
+We check whether $SO$ is perpendicular to two intersecting lines of the yard.
+
+In triangle $SOB$,
+$$SO^2+OB^2=9^2+12^2=81+144=225=15^2=SB^2.$$
+By the converse of Pythagoras' theorem, triangle $SOB$ is right-angled at $O$, that is, $SO\perp OB$.
+
+In triangle $SOC$,
+$$SO^2+OC^2=9^2+40^2=81+1600=1681=41^2=SC^2.$$
+By the converse of Pythagoras' theorem, triangle $SOC$ is right-angled at $O$, that is, $SO\perp OC$.
+
+Since $O$, $B$, $C$ are not collinear, $OB$ and $OC$ are two lines intersecting at $O$ and both lying in the yard. Hence $SO$ is perpendicular to the yard.
+
+So the pole is perpendicular to the yard.
 
 **Answer.** Yes, the pole is perpendicular to the yard.
 :::
@@ -293,8 +321,13 @@ Suppose a room is a cuboid $ABCD.A'B'C'D'$ whose floor $ABCD$ has $AB=6$ m, $AD=
 2. Use Pythagoras' theorem in triangle $A'AC$, right-angled at $A$.
 
 ::solution
-$AC^2=6^2+4^2=52$. Since $AA'\perp(ABCD)$, $AA'\perp AC$, triangle $A'AC$ is right-angled at $A$ and
-$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7.8.$$
+The floor $ABCD$ is a rectangle with $AB=6$ m and $AD=4$ m. In triangle $ABC$, right-angled at $B$ (with $BC=AD=4$ m), we have
+$$AC^2=AB^2+BC^2=6^2+4^2=52.$$
+
+Since $AA'\perp(ABCD)$ and $AC\subset(ABCD)$, $AA'\perp AC$, so triangle $A'AC$ is right-angled at $A$. By Pythagoras' theorem,
+$$A'C^2=AA'^2+AC^2=3^2+52=61\Rightarrow A'C=\sqrt{61}\approx7.8.$$
+
+So the cable is about $7.8$ m long.
 
 **Answer.** About $7.8$ m.
 :::
@@ -310,9 +343,14 @@ Suppose a roof is shaped like a pyramid $S.ABCD$ whose base $ABCD$ is a square o
 2. Find $OA$, then $SO$ in triangle $SOA$ right-angled at $O$.
 
 ::solution
-Triangle $SAC$ is isosceles at $S$ and $SO$ is a median ($O$ is the midpoint of $AC$), so $SO\perp AC$. Similarly $SO\perp BD$. $AC$, $BD$ intersect at $O$, so $SO\perp(ABCD)$.
+Prove $SO\perp(ABCD)$. Since $ABCD$ is a square with centre $O$, $O$ is the midpoint of $AC$ and of $BD$.
 
-$AC=6\sqrt2$, so $OA=3\sqrt2$ and $OA^2=18$. Triangle $SOA$ is right-angled at $O$, so $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2.6$.
+Triangle $SAC$ has $SA=SC$, so it is isosceles at $S$, and $SO$ is a median, hence also an altitude: $SO\perp AC$. Similarly, triangle $SBD$ has $SB=SD$, so it is isosceles at $S$, and $SO$ is a median, so $SO\perp BD$. The lines $AC$, $BD$ intersect at $O$ and both lie in $(ABCD)$. Hence $SO\perp(ABCD)$.
+
+Find $SO$. A square of side $6$ m has diagonal $AC=6\sqrt2$ m, so $OA=\dfrac{AC}{2}=3\sqrt2$ and $OA^2=18$. Since $SO\perp(ABCD)$ and $OA\subset(ABCD)$, triangle $SOA$ is right-angled at $O$. By Pythagoras' theorem,
+$$SO^2=SA^2-OA^2=25-18=7\Rightarrow SO=\sqrt7\approx2.6.$$
+
+So $SO\perp(ABCD)$ and the height $SO$ is about $2.6$ m.
 
 **Answer.** $SO\perp(ABCD)$; $SO\approx2.6$ m.
 :::
@@ -328,7 +366,13 @@ Revisit the angle between two lines. The pyramid $S.ABCD$ has a square base $ABC
 2. Conclude about $SC$.
 
 ::solution
-$BD\perp AC$ and $BD\perp SA$, so $BD\perp(SAC)$. Since $SC\subset(SAC)$, $BD\perp SC$, that is the angle between $SC$ and $BD$ is $90^\circ$.
+The angle between the lines $SC$ and $BD$ is $90^\circ$ if $SC\perp BD$. We prove this.
+
+Since $ABCD$ is a square, $BD\perp AC$. Since $SA\perp(ABCD)$ and $BD\subset(ABCD)$, $BD\perp SA$. The lines $AC$, $SA$ intersect at $A$ and both lie in $(SAC)$. Hence $BD\perp(SAC)$.
+
+Since $SC\subset(SAC)$, $BD\perp SC$.
+
+So the angle between the lines $SC$ and $BD$ is $90^\circ$.
 
 **Answer.** $90^\circ$.
 :::
@@ -344,7 +388,15 @@ The tetrahedron $ABCD$ has $AB=AC$ and $DB=DC$. Prove that $AD\perp BC$.
 2. Deduce that $BC\perp(ADM)$.
 
 ::solution
-Let $M$ be the midpoint of $BC$. Triangle $ABC$ is isosceles at $A$, so $AM\perp BC$. Triangle $DBC$ is isosceles at $D$, so $DM\perp BC$. $AM$, $DM$ intersect at $M$ in $(ADM)$, so $BC\perp(ADM)$. Since $AD\subset(ADM)$, $BC\perp AD$.
+Let $M$ be the midpoint of $BC$.
+
+Triangle $ABC$ has $AB=AC$, so it is isosceles at $A$, and $AM$ is a median, hence also an altitude: $AM\perp BC$. Triangle $DBC$ has $DB=DC$, so it is isosceles at $D$, and $DM$ is a median, so $DM\perp BC$.
+
+Since $ABCD$ is a tetrahedron, $D$ does not lie in $(ABC)$, while $A$ and $M$ do, so $A$, $D$, $M$ are not collinear. Hence $AM$, $DM$ are two lines intersecting at $M$ and lying in $(ADM)$. Since $BC$ is perpendicular to both, $BC\perp(ADM)$.
+
+Since $AD\subset(ADM)$, $BC\perp AD$.
+
+So $AD\perp BC$.
 
 **Answer.** $AD\perp BC$.
 :::

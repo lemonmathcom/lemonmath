@@ -217,9 +217,25 @@ The sum of two numbers is $56$. The ratio of the two numbers is $\dfrac{3}{4}$. 
 2. Multiply the value of one part by the number of parts of each number. Check using the sum.
 
 ::solution
-The total number of equal parts is $3+4=7$ (parts). The value of one part is $56\div7=8$. The smaller number is $8\times3=24$. The larger number is $8\times4=32$.
+Solution
 
-**Check.** $24+32=56$ and $\dfrac{24}{32}=\dfrac{3}{4}$. Correct.
+The ratio of the two numbers is $\dfrac{3}{4}$, so if the smaller number is $3$ equal parts, then the larger number is $4$ such parts.
+
+The total number of equal parts is:
+$$3+4=7\ \text{(parts)}$$
+
+The value of one part is:
+$$56\div7=8$$
+
+The smaller number is:
+$$8\times3=24$$
+
+The larger number is:
+$$8\times4=32$$
+
+Check: $24+32=56$ and $\dfrac{24}{32}=\dfrac{3}{4}$. Correct.
+
+So the two numbers are $24$ and $32$.
 
 **Answer.** $24$ and $32$.
 :::
@@ -235,7 +251,25 @@ The sum of two numbers is $90$. The smaller number is $\dfrac{2}{7}$ of the larg
 2. Find the total number of parts and the value of one part.
 
 ::solution
-The total number of equal parts is $2+7=9$ (parts). The value of one part is $90\div9=10$. The smaller number is $10\times2=20$. The larger number is $10\times7=70$.
+Solution
+
+The smaller number is $\dfrac{2}{7}$ of the larger number, so if the smaller number is $2$ equal parts, then the larger number is $7$ such parts.
+
+The total number of equal parts is:
+$$2+7=9\ \text{(parts)}$$
+
+The value of one part is:
+$$90\div9=10$$
+
+The smaller number is:
+$$10\times2=20$$
+
+The larger number is:
+$$10\times7=70$$
+
+Check: $20+70=90$ and $\dfrac{20}{70}=\dfrac{2}{7}$. Correct.
+
+So the two numbers are $20$ and $70$.
 
 **Answer.** $20$ and $70$.
 :::
@@ -251,7 +285,25 @@ Suppose two tanks hold $150$ litres of water altogether. The amount of water in 
 2. Find the total number of parts, the value of one part, then the amount of water in each tank. Remember the unit.
 
 ::solution
-The total number of equal parts is $2+3=5$ (parts). One part is $150\div5=30$ (litres). The first tank holds $30\times2=60$ (litres). The second tank holds $30\times3=90$ (litres).
+Solution
+
+The amount of water in the first tank is $\dfrac{2}{3}$ of the amount in the second tank, so if the first tank is $2$ equal parts, then the second tank is $3$ such parts.
+
+The total number of equal parts is:
+$$2+3=5\ \text{(parts)}$$
+
+One part is:
+$$150\div5=30\ \text{(litres)}$$
+
+The first tank holds:
+$$30\times2=60\ \text{(litres)}$$
+
+The second tank holds:
+$$30\times3=90\ \text{(litres)}$$
+
+Check: $60+90=150$ and $\dfrac{60}{90}=\dfrac{2}{3}$. Correct.
+
+So the first tank holds $60$ litres and the second tank holds $90$ litres.
 
 **Answer.** The first tank holds $60$ litres; the second tank holds $90$ litres.
 :::
@@ -267,9 +319,30 @@ Remember the review lesson on rectangles. Suppose a school playground is a recta
 2. Multiply the length by the width.
 
 ::solution
-The width has $2$ parts and the length has $3$ parts. The total number of equal parts is $2+3=5$ (parts). One part is $75\div5=15$ (m). The width is $15\times2=30$ (m). The length is $15\times3=45$ (m).
+Solution
 
-The area of the playground is $45\times30=1350\ \text{(m}^2\text{)}$.
+The half-perimeter of a rectangle equals the sum of its length and width, so the length and the width add up to $75$ m.
+
+The width is $\dfrac{2}{3}$ of the length, so the width has $2$ parts and the length has $3$ equal parts.
+
+The total number of equal parts is:
+$$2+3=5\ \text{(parts)}$$
+
+One part is:
+$$75\div5=15\ \text{(m)}$$
+
+The width of the playground is:
+$$15\times2=30\ \text{(m)}$$
+
+The length of the playground is:
+$$15\times3=45\ \text{(m)}$$
+
+The area of the playground is:
+$$45\times30=1350\ \text{(m}^2\text{)}$$
+
+Check: $45+30=75$ and $\dfrac{30}{45}=\dfrac{2}{3}$. Correct.
+
+So the playground has length $45$ m, width $30$ m and area $1350\ \text{m}^2$.
 
 **Answer.** Length $45$ m; width $30$ m; area $1350\ \text{m}^2$.
 :::
@@ -285,9 +358,25 @@ The difference of two numbers is $15$. The ratio of the smaller number to the la
 2. Find each number, then check using the difference.
 
 ::solution
-The difference in the number of equal parts is $5-2=3$ (parts). The value of one part is $15\div3=5$. The smaller number is $5\times2=10$. The larger number is $5\times5=25$.
+Solution
 
-**Check.** $25-10=15$ and $\dfrac{10}{25}=\dfrac{2}{5}$. Correct.
+The ratio of the smaller number to the larger number is $\dfrac{2}{5}$, so if the smaller number is $2$ equal parts, then the larger number is $5$ such parts.
+
+The difference in the number of equal parts is:
+$$5-2=3\ \text{(parts)}$$
+
+The value of one part is:
+$$15\div3=5$$
+
+The smaller number is:
+$$5\times2=10$$
+
+The larger number is:
+$$5\times5=25$$
+
+Check: $25-10=15$ and $\dfrac{10}{25}=\dfrac{2}{5}$. Correct.
+
+So the two numbers are $10$ and $25$.
 
 **Answer.** $10$ and $25$.
 :::
@@ -303,7 +392,25 @@ The difference of two numbers is $48$. The ratio of the larger number to the sma
 2. Find the difference in parts, one part, then the two numbers.
 
 ::solution
-The difference in the number of equal parts is $7-3=4$ (parts). The value of one part is $48\div4=12$. The larger number is $12\times7=84$. The smaller number is $12\times3=36$.
+Solution
+
+The ratio of the larger number to the smaller number is $\dfrac{7}{3}$, so if the larger number is $7$ equal parts, then the smaller number is $3$ such parts.
+
+The difference in the number of equal parts is:
+$$7-3=4\ \text{(parts)}$$
+
+The value of one part is:
+$$48\div4=12$$
+
+The larger number is:
+$$12\times7=84$$
+
+The smaller number is:
+$$12\times3=36$$
+
+Check: $84-36=48$ and $\dfrac{84}{36}=\dfrac{7}{3}$. Correct.
+
+So the larger number is $84$ and the smaller number is $36$.
 
 **Answer.** The larger number is $84$; the smaller number is $36$.
 :::
@@ -319,9 +426,25 @@ Suppose a shop has $120$ kg less sticky rice than ordinary rice. The mass of sti
 2. Find one part, then the mass of each kind of rice. Remember the unit.
 
 ::solution
-The difference in the number of equal parts is $8-3=5$ (parts). One part is $120\div5=24$ (kg). The sticky rice is $24\times3=72$ (kg). The ordinary rice is $24\times8=192$ (kg).
+Solution
 
-**Check.** $192-72=120$. Correct.
+The mass of sticky rice is $\dfrac{3}{8}$ of the mass of ordinary rice, so if the sticky rice is $3$ equal parts, then the ordinary rice is $8$ such parts.
+
+The difference in the number of equal parts is:
+$$8-3=5\ \text{(parts)}$$
+
+One part is:
+$$120\div5=24\ \text{(kg)}$$
+
+The sticky rice is:
+$$24\times3=72\ \text{(kg)}$$
+
+The ordinary rice is:
+$$24\times8=192\ \text{(kg)}$$
+
+Check: $192-72=120$ and $\dfrac{72}{192}=\dfrac{3}{8}$. Correct.
+
+So the shop has $72$ kg of sticky rice and $192$ kg of ordinary rice.
 
 **Answer.** Sticky rice $72$ kg; ordinary rice $192$ kg.
 :::
@@ -337,7 +460,24 @@ Suppose a father is $30$ years older than his child and the father's age is $6$ 
 2. Find one part, then each person's age.
 
 ::solution
-The difference in the number of equal parts is $6-1=5$ (parts). One part is $30\div5=6$ (years). The child's age is $6$ years. The father's age is $6\times6=36$ (years).
+Solution
+
+The father's age is $6$ times the child's age, so if the child's age is $1$ part, then the father's age is $6$ such equal parts.
+
+The difference in the number of equal parts is:
+$$6-1=5\ \text{(parts)}$$
+
+One part is:
+$$30\div5=6\ \text{(years)}$$
+
+The child's age is $6$ years.
+
+The father's age is:
+$$6\times6=36\ \text{(years)}$$
+
+Check: $36-6=30$ and $36=6\times6$. Correct.
+
+So the child is $6$ years old and the father is $36$ years old.
 
 **Answer.** The child is $6$ years old; the father is $36$ years old.
 :::
@@ -353,9 +493,29 @@ Remember the lesson on ratios and percentages. A class has $40$ students, and th
 2. Simplify the ratio of boys to girls, then use the sum $40$ and that ratio to find the two numbers again.
 
 ::solution
-a) The number of girls is $40\times\dfrac{55}{100}=22$ (students). The number of boys is $40-22=18$ (students).
+Solution
 
-b) The ratio of boys to girls is $\dfrac{18}{22}=\dfrac{9}{11}$. The total number of equal parts is $9+11=20$ (parts) and one part is $40\div20=2$ (students). The number of boys is $2\times9=18$ and the number of girls is $2\times11=22$, the same as in part a).
+a) The girls make up $55\%$ of the class, so the number of girls is:
+$$40\times\frac{55}{100}=22\ \text{(students)}$$
+
+The number of boys is:
+$$40-22=18\ \text{(students)}$$
+
+So the class has $22$ girls and $18$ boys.
+
+b) The ratio of the number of boys to the number of girls is $\dfrac{18}{22}$. Dividing the numerator and the denominator by $2$ gives the simplest form $\dfrac{9}{11}$.
+
+To solve again by finding two numbers from their sum and ratio: if the number of boys is $9$ equal parts, then the number of girls is $11$ such parts.
+
+The total number of equal parts is:
+$$9+11=20\ \text{(parts)}$$
+
+One part is:
+$$40\div20=2\ \text{(students)}$$
+
+The number of boys is $2\times9=18$ (students) and the number of girls is $2\times11=22$ (students). These are the same as in part a).
+
+So the ratio of the number of boys to the number of girls is $\dfrac{9}{11}$, and the two methods give the same result.
 
 **Answer.** a) $22$ girls, $18$ boys; b) the ratio is $\dfrac{9}{11}$ and the results agree.
 :::
@@ -371,9 +531,25 @@ The sum of two numbers is $91$. We know that $\dfrac{1}{3}$ of the first number 
 2. Solve the problem with a known sum and ratio.
 
 ::solution
-The first number has $3$ parts and the second number has $4$ parts of the same size. The total number of equal parts is $3+4=7$ (parts). One part is $91\div7=13$. The first number is $13\times3=39$. The second number is $13\times4=52$.
+Solution
 
-**Check.** $39+52=91$; $39\div3=13$ and $52\div4=13$. Correct.
+Since $\dfrac{1}{3}$ of the first number equals $\dfrac{1}{4}$ of the second number, if we take each of these values as $1$ part, then the first number has $3$ parts and the second number has $4$ equal parts of the same size.
+
+The total number of equal parts is:
+$$3+4=7\ \text{(parts)}$$
+
+The value of one part is:
+$$91\div7=13$$
+
+The first number is:
+$$13\times3=39$$
+
+The second number is:
+$$13\times4=52$$
+
+Check: $39+52=91$; $39\div3=13$ and $52\div4=13$. Correct.
+
+So the two numbers are $39$ and $52$.
 
 **Answer.** $39$ and $52$.
 :::

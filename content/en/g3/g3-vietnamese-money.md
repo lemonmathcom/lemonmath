@@ -170,9 +170,17 @@ b) One $10\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note.
 2. Add them up, then write "thousand dong".
 
 ::solution
-a) $5+2=7$ thousand dong, which is $7\,000$ dong.
+Solution
 
-b) $10+2+1=13$ thousand dong, which is $13\,000$ dong.
+a) Group a has one $5\,000$ dong note and one $2\,000$ dong note. We add the thousands of dong on the notes:
+$$5+2=7\ \text{(thousand dong)}$$
+$7$ thousand dong is $7\,000$ dong.
+
+b) Group b has one $10\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. We have:
+$$10+2+1=13\ \text{(thousand dong)}$$
+$13$ thousand dong is $13\,000$ dong.
+
+So group a has $7\,000$ dong and group b has $13\,000$ dong.
 
 **Answer.** a) $7\,000$ dong; b) $13\,000$ dong.
 :::
@@ -190,9 +198,16 @@ b) A storybook costs $15\,000$ dong and a pencil costs $3\,000$ dong. How much d
 2. Part b): $15\,000+3\,000$.
 
 ::solution
-a) $20+20+10=50$ thousand dong, which is $50\,000$ dong.
+Solution
 
-b) $15\,000+3\,000=18\,000$ (dong).
+a) You have two $20\,000$ dong notes and one $10\,000$ dong note. The money you have is:
+$$20+20+10=50\ \text{(thousand dong)}$$
+$50$ thousand dong is $50\,000$ dong.
+
+b) The amount to pay for the storybook and the pencil together is:
+$$15\,000+3\,000=18\,000\ \text{(dong)}$$
+
+So you have $50\,000$ dong, and you pay $18\,000$ dong for both items.
 
 **Answer.** a) $50\,000$ dong; b) $18\,000$ dong.
 :::
@@ -212,9 +227,15 @@ b) Nam goes to buy books in month $5$ (May). How many days does May have?
 2. Part b): see which group of months May belongs to.
 
 ::solution
-a) $15+10=25$, so Nam finishes at $8{:}25$.
+Solution
 
-b) May is one of the months with $31$ days.
+a) Nam finishes $10$ minutes after $8{:}15$, so we add the minutes:
+$$15+10=25\ \text{(minutes)}$$
+So Nam finishes at $8{:}25$.
+
+b) The months $1$, $3$, $5$, $7$, $8$, $10$ and $12$ have $31$ days. Month $5$ is one of them, so May has $31$ days.
+
+So Nam finishes shopping at $8{:}25$ and May has $31$ days.
 
 **Answer.** a) $8{:}25$; b) $31$ days.
 :::
@@ -233,11 +254,17 @@ b) Dad hands over $20\,000$ dong and gets $6\,000$ dong change. How much did his
 3. Check with an addition.
 
 ::solution
-a) $50\,000-28\,000=22\,000$ (dong).
+Solution
 
-b) $20\,000-6\,000=14\,000$ (dong).
+a) To find the change, we subtract the cost of the shopping from the money Mum hands over:
+$$50\,000-28\,000=22\,000\ \text{(dong)}$$
 
-**Check.** Part a): $28\,000+22\,000=50\,000$. Part b): $14\,000+6\,000=20\,000$.
+b) To find the cost of Dad's shopping, we subtract the change from the money Dad hands over:
+$$20\,000-6\,000=14\,000\ \text{(dong)}$$
+
+Check: part a) $28\,000+22\,000=50\,000$; part b) $14\,000+6\,000=20\,000$. Both are correct.
+
+So the seller gives Mum $22\,000$ dong change, and Dad's shopping cost $14\,000$ dong.
 
 **Answer.** a) $22\,000$ dong; b) $14\,000$ dong.
 :::
@@ -257,9 +284,15 @@ b) Mai has $35\,000$ dong and buys a book for $28\,000$ dong. How much money doe
 2. Choose the operation and work it out.
 
 ::solution
-a) Her aunt gives her more money, so the amount goes up and we add: $25\,000+10\,000=35\,000$ (dong).
+Solution
 
-b) Mai pays out part of her money, so the amount goes down and we subtract: $35\,000-28\,000=7\,000$ (dong).
+a) Her aunt gives her more money, so the amount goes up and we add. The money Mai has altogether is:
+$$25\,000+10\,000=35\,000\ \text{(dong)}$$
+
+b) Mai pays out part of her money for the book, so the amount goes down and we subtract. The money Mai has left is:
+$$35\,000-28\,000=7\,000\ \text{(dong)}$$
+
+So Mai has $35\,000$ dong altogether in part a), and $7\,000$ dong left in part b).
 
 **Answer.** a) $35\,000$ dong; b) $7\,000$ dong.
 :::
@@ -279,9 +312,15 @@ b) Tu: "Tu hands over $50\,000$ dong and the shopping costs $31\,000$ dong. The 
 2. Part b): can the change be more than the money handed over?
 
 ::solution
-a) Ha only added one $10\,000$ dong note and left the other out. Done correctly: $10\,000+10\,000+5\,000=25\,000$ (dong).
+Solution
 
-b) Tu added instead of subtracting. The change cannot be more than the money handed over. Done correctly: $50\,000-31\,000=19\,000$ (dong).
+a) Ha has two $10\,000$ dong notes and one $5\,000$ dong note, but she only added one $10\,000$ dong note and left the other out. We must add all three notes:
+$$10\,000+10\,000+5\,000=25\,000\ \text{(dong)}$$
+
+b) Tu hands over money and gets change, so we must subtract, but Tu added. The change cannot be more than the money handed over ($81\,000>50\,000$), so Tu's result is impossible. Done correctly:
+$$50\,000-31\,000=19\,000\ \text{(dong)}$$
+
+So Ha has $25\,000$ dong, and Tu's change is $19\,000$ dong.
 
 **Answer.** a) $25\,000$ dong; b) $19\,000$ dong.
 :::
@@ -310,11 +349,17 @@ b) How much change does the seller give An?
 3. Check with an addition.
 
 ::solution
-a) Total cost: $12\,000+8\,000=20\,000$ (dong).
+Solution
 
-b) Change: $50\,000-20\,000=30\,000$ (dong).
+a) An buys one bread roll costing $12\,000$ dong and one carton of milk costing $8\,000$ dong. The total cost is:
+$$12\,000+8\,000=20\,000\ \text{(dong)}$$
 
-**Check.** $20\,000+30\,000=50\,000$. It matches.
+b) An hands over $50\,000$ dong, so the change the seller gives is:
+$$50\,000-20\,000=30\,000\ \text{(dong)}$$
+
+Check: $20\,000+30\,000=50\,000$. It matches the money An handed over.
+
+So An pays $20\,000$ dong in total and the seller gives An $30\,000$ dong change.
 
 **Answer.** a) $20\,000$ dong; b) $30\,000$ dong.
 :::
@@ -337,11 +382,21 @@ c) Mum gives Hung another $20\,000$ dong note. Does he now have enough money for
 3. Part c): add $20\,000$, then compare with $45\,000$.
 
 ::solution
-a) $20+5+2+2+2=31$ thousand dong, which is $31\,000$ dong.
+Solution
 
-b) $45\,000-31\,000=14\,000$ (dong).
+a) Hung has one $20\,000$ dong note, one $5\,000$ dong note and three $2\,000$ dong notes. We add the thousands of dong:
+$$20+5+2+2+2=31\ \text{(thousand dong)}$$
+$31$ thousand dong is $31\,000$ dong.
 
-c) After Mum's gift, Hung has $31\,000+20\,000=51\,000$ (dong). Since $51\,000>45\,000$, he has enough money. The money left over is $51\,000-45\,000=6\,000$ (dong).
+b) The goggles cost $45\,000$ dong and Hung has $31\,000$ dong. The money he still needs is:
+$$45\,000-31\,000=14\,000\ \text{(dong)}$$
+
+c) After Mum gives him another $20\,000$ dong note, the money Hung has is:
+$$31\,000+20\,000=51\,000\ \text{(dong)}$$
+Since $51\,000>45\,000$, he has enough money for the goggles. The money left over is:
+$$51\,000-45\,000=6\,000\ \text{(dong)}$$
+
+So Hung has $31\,000$ dong and needs $14\,000$ dong more; after Mum's gift he has enough money and $6\,000$ dong is left over.
 
 **Answer.** a) $31\,000$ dong; b) he needs $14\,000$ dong more; c) yes, with $6\,000$ dong left over.
 :::

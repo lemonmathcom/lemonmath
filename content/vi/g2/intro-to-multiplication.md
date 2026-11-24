@@ -162,11 +162,18 @@ c) $5+5$
 2. Viết số hạng nhân với số lần.
 
 ::solution
-a) Số 2 có 5 lần: $2+2+2+2+2=2\times5$.
+Muốn viết một tổng các số hạng bằng nhau thành phép nhân, em đếm xem số đó được lặp lại mấy lần. Số được lặp lại là thừa số thứ nhất, số lần lặp lại là thừa số thứ hai.
 
-b) Số 4 có 3 lần: $4+4+4=4\times3$.
+a) Trong tổng $2+2+2+2+2$, số $2$ xuất hiện $5$ lần, nên
+$$2+2+2+2+2=2\times5.$$
 
-c) Số 5 có 2 lần: $5+5=5\times2$.
+b) Trong tổng $4+4+4$, số $4$ xuất hiện $3$ lần, nên
+$$4+4+4=4\times3.$$
+
+c) Trong tổng $5+5$, số $5$ xuất hiện $2$ lần, nên
+$$5+5=5\times2.$$
+
+Vậy các tổng được viết thành phép nhân là $2\times5$, $4\times3$ và $5\times2$.
 
 **Đáp số.** a) $2\times5$; b) $4\times3$; c) $5\times2$.
 :::
@@ -188,13 +195,22 @@ c) $5\times4$
 2. Cộng các số hạng.
 
 ::solution
-a) $3\times2=3+3=6$.
+Phép nhân $a\times b$ có nghĩa là số $a$ được lấy $b$ lần. Vì vậy ta viết $a$ thành tổng $b$ số hạng bằng nhau rồi cộng lại.
 
-b) $2\times6=2+2+2+2+2+2=12$.
+a) Số $3$ được lấy $2$ lần, nên
+$$3\times2=3+3=6.$$
 
-c) $5\times4=5+5+5+5=20$.
+b) Số $2$ được lấy $6$ lần, nên
+$$2\times6=2+2+2+2+2+2=12.$$
+Cộng lần lượt: $2+2=4$, $4+2=6$, $6+2=8$, $8+2=10$, $10+2=12$.
 
-**Đáp số.** a) 6; b) 12; c) 20.
+c) Số $5$ được lấy $4$ lần, nên
+$$5\times4=5+5+5+5=20.$$
+Cộng lần lượt: $5+5=10$, $10+5=15$, $15+5=20$.
+
+Vậy $3\times2=6$, $2\times6=12$ và $5\times4=20$.
+
+**Đáp số.** a) $6$; b) $12$; c) $20$.
 :::
 
 :::exercise
@@ -208,9 +224,13 @@ Trong phép nhân $4\times3=12$, số nào là thừa số, số nào là tích?
 2. Hai số còn lại gọi là gì?
 
 ::solution
-Số $4$ và số $3$ là các thừa số. Số $12$ là tích.
+Trong một phép nhân, các số đem nhân với nhau gọi là thừa số, còn kết quả của phép nhân gọi là tích.
 
-**Đáp số.** Thừa số: 4 và 3; tích: 12.
+Trong phép nhân $4\times3=12$, các số $4$ và $3$ đứng ở vế trái, được đem nhân với nhau, nên chúng là các thừa số. Số $12$ là kết quả của phép nhân, nên $12$ là tích.
+
+Vậy $4$ và $3$ là các thừa số, $12$ là tích.
+
+**Đáp số.** Thừa số: $4$ và $3$; tích: $12$.
 :::
 
 :::exercise
@@ -228,11 +248,17 @@ b) Tích của 5 và 3.
 2. Viết thành tổng các số hạng bằng nhau rồi cộng.
 
 ::solution
-a) $2\times8=2+2+2+2+2+2+2+2=16$.
+Tích của hai số là kết quả của phép nhân hai số đó.
 
-b) $5\times3=5+5+5=15$.
+a) Tích của $2$ và $8$ là $2\times8$. Số $2$ được lấy $8$ lần, nên
+$$2\times8=2+2+2+2+2+2+2+2=16.$$
 
-**Đáp số.** a) 16; b) 15.
+b) Tích của $5$ và $3$ là $5\times3$. Số $5$ được lấy $3$ lần, nên
+$$5\times3=5+5+5=15.$$
+
+Vậy tích của $2$ và $8$ là $16$; tích của $5$ và $3$ là $15$.
+
+**Đáp số.** a) $16$; b) $15$.
 :::
 
 :::exercise
@@ -249,9 +275,14 @@ Giả sử mỗi chiếc xe đạp có 2 bánh xe. Có 6 chiếc xe đạp như 
 ::solution
 Bài giải
 
-Có tất cả số bánh xe là:
-$$2\times6=12\ \text{(bánh xe)}.$$
-Đáp số: 12 bánh xe.
+Mỗi chiếc xe đạp có $2$ bánh xe, có $6$ chiếc xe như vậy, nên số $2$ được lấy $6$ lần. Có tất cả số bánh xe là:
+$$2\times6=12\ \text{(bánh xe)}$$
+
+Thử lại: $2+2+2+2+2+2=12$.
+
+Vậy có tất cả $12$ bánh xe.
+
+**Đáp số.** $12$ bánh xe.
 :::
 
 :::exercise
@@ -268,9 +299,14 @@ Giả sử mỗi bạn có 3 cái kẹo. Có 5 bạn như vậy. Hỏi có tất
 ::solution
 Bài giải
 
-Có tất cả số cái kẹo là:
-$$3\times5=15\ \text{(cái)}.$$
-Đáp số: 15 cái kẹo.
+Mỗi bạn có $3$ cái kẹo, có $5$ bạn như vậy, nên số $3$ được lấy $5$ lần. Có tất cả số cái kẹo là:
+$$3\times5=15\ \text{(cái)}$$
+
+Thử lại: $3+3+3+3+3=15$.
+
+Vậy có tất cả $15$ cái kẹo.
+
+**Đáp số.** $15$ cái kẹo.
 :::
 
 :::exercise
@@ -288,9 +324,14 @@ b) Gọi tên các số hạng, tổng, thừa số, tích.
 2. Số nào là kết quả của cả hai cách viết?
 
 ::solution
-a) Số 4 được lấy 4 lần nên $4+4+4+4=4\times4=16$.
+a) Trong tổng $4+4+4+4$, số $4$ được lấy $4$ lần, nên
+$$4+4+4+4=4\times4=16.$$
 
-b) Trong phép cộng: các số hạng là $4$, $4$, $4$, $4$ và tổng là $16$. Trong phép nhân $4\times4=16$: các thừa số là $4$ và $4$, tích là $16$.
+b) Trong phép cộng $4+4+4+4=16$: các số hạng là $4$, $4$, $4$, $4$ và tổng là $16$.
+
+Trong phép nhân $4\times4=16$: các thừa số là $4$ và $4$, tích là $16$.
+
+Vậy $4+4+4+4=4\times4=16$; các số hạng là $4$, $4$, $4$, $4$, tổng là $16$, các thừa số là $4$ và $4$, tích là $16$.
 
 **Đáp số.** $4\times4=16$; xem phần gọi tên ở trên.
 :::
@@ -306,12 +347,18 @@ Viết số 12 thành tổng các số hạng bằng nhau theo ít nhất ba cá
 2. Với mỗi số hạng, cần lấy mấy lần để được 12?
 
 ::solution
-Có các cách:
-$$6+6=6\times2,\qquad 4+4+4=4\times3,\qquad 3+3+3+3=3\times4,$$
-$$2+2+2+2+2+2=2\times6.$$
-Mỗi tổng đều bằng 12.
+Ta tìm các cách chia $12$ thành những số hạng bằng nhau. Mỗi cách cho một tổng, rồi đếm số lần lặp lại để viết thành phép nhân.
 
-**Đáp số.** Ví dụ $6\times2$, $4\times3$, $3\times4$, $2\times6$ đều bằng 12.
+- Cách 1: $12=6+6$. Số $6$ xuất hiện $2$ lần, nên $6+6=6\times2$.
+- Cách 2: $12=4+4+4$. Số $4$ xuất hiện $3$ lần, nên $4+4+4=4\times3$.
+- Cách 3: $12=3+3+3+3$. Số $3$ xuất hiện $4$ lần, nên $3+3+3+3=3\times4$.
+- Cách 4: $12=2+2+2+2+2+2$. Số $2$ xuất hiện $6$ lần, nên $2+2+2+2+2+2=2\times6$.
+
+Thử lại: $6+6=12$; $4+4+4=12$; $3+3+3+3=12$; $2+2+2+2+2+2=12$. Cả bốn tổng đều bằng $12$.
+
+Vậy ta có ít nhất ba cách, chẳng hạn $6\times2$, $4\times3$, $3\times4$ và $2\times6$.
+
+**Đáp số.** Ví dụ $6\times2$, $4\times3$, $3\times4$, $2\times6$ đều bằng $12$.
 :::
 
 ## Kiểm tra mini

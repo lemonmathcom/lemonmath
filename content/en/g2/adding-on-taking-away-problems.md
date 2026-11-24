@@ -167,9 +167,14 @@ There are 8 apples in a basket. Mum puts in 5 more apples. How many apples are i
 ::solution
 Solution
 
+Mum puts more apples into the basket, so the number of apples goes up. We add.
+
 The number of apples in the basket altogether is:
 $$8+5=13\ \text{(apples)}.$$
-Answer: 13 apples.
+
+So there are 13 apples in the basket altogether.
+
+**Answer.** 13 apples.
 :::
 
 :::exercise
@@ -186,9 +191,14 @@ Ha has 16 sweets. Ha eats 4 sweets. How many sweets does Ha have left?
 ::solution
 Solution
 
+Ha eats some sweets, so the number of sweets goes down. We subtract.
+
 The number of sweets Ha has left is:
 $$16-4=12\ \text{(sweets)}.$$
-Answer: 12 sweets.
+
+So Ha has 12 sweets left.
+
+**Answer.** 12 sweets.
 :::
 
 :::exercise
@@ -204,9 +214,14 @@ Lan has 6 flowers. Mai has 7 more flowers than Lan. How many flowers does Mai ha
 ::solution
 Solution
 
+Mai has 7 more flowers than Lan, so Mai's number of flowers is Lan's number plus 7. We add.
+
 The number of flowers Mai has is:
 $$6+7=13\ \text{(flowers)}.$$
-Answer: 13 flowers.
+
+So Mai has 13 flowers.
+
+**Answer.** 13 flowers.
 :::
 
 :::exercise
@@ -223,9 +238,14 @@ Nam has 15 marbles. Ha has 4 fewer marbles than Nam. How many marbles does Ha ha
 ::solution
 Solution
 
+Ha has 4 fewer marbles than Nam, so Ha's number of marbles is Nam's number take away 4. We subtract.
+
 The number of marbles Ha has is:
 $$15-4=11\ \text{(marbles)}.$$
-Answer: 11 marbles.
+
+So Ha has 11 marbles.
+
+**Answer.** 11 marbles.
 :::
 
 :::exercise
@@ -242,9 +262,14 @@ Suppose there are 18 people on a bus. At the stop, 5 people get off. How many pe
 ::solution
 Solution
 
+At the stop, 5 people get off, so the number of people on the bus goes down. We subtract.
+
 The number of people left on the bus is:
 $$18-5=13\ \text{(people)}.$$
-Answer: 13 people.
+
+So there are 13 people left on the bus.
+
+**Answer.** 13 people.
 :::
 
 :::exercise
@@ -261,9 +286,14 @@ Suppose the school playground has 17 flame trees. There are 6 fewer banyan trees
 ::solution
 Solution
 
+There are 6 fewer banyan trees than flame trees, so the number of banyan trees is the number of flame trees take away 6. We subtract.
+
 The number of banyan trees in the playground is:
 $$17-6=11\ \text{(trees)}.$$
-Answer: 11 banyan trees.
+
+So there are 11 banyan trees in the playground.
+
+**Answer.** 11 banyan trees.
 :::
 
 :::exercise
@@ -281,9 +311,13 @@ b) Check: if you add that number to An's marbles, do you get Binh's marbles?
 2. Part b: add An's marbles and the answer to part a.
 
 ::solution
-a) Binh has $16-12=4$ (marbles) more than An.
+a) To find how many more marbles Binh has than An, we subtract An's marbles from Binh's marbles:
+$$16-12=4\ \text{(marbles)}.$$
+So Binh has $4$ more marbles than An.
 
-b) We have $12+4=16$, which is exactly Binh's number of marbles.
+b) We add An's marbles and the number of marbles Binh has more:
+$$12+4=16\ \text{(marbles)}.$$
+The result $16$ is exactly Binh's number of marbles. So the calculation in part a) is correct.
 
 **Answer.** a) 4 marbles; b) yes.
 :::
@@ -299,10 +333,13 @@ Ha has 8 marbles. Nam has 3 more marbles than Ha. Lan has 2 fewer marbles than N
 2. Lan has fewer than Nam: which calculation do you use?
 
 ::solution
-The number of marbles Nam has is:
+Nam has 3 more marbles than Ha, so the number of marbles Nam has is:
 $$8+3=11\ \text{(marbles)}.$$
-The number of marbles Lan has is:
+
+Lan has 2 fewer marbles than Nam, so the number of marbles Lan has is:
 $$11-2=9\ \text{(marbles)}.$$
+
+So Lan has 9 marbles.
 
 **Answer.** 9 marbles.
 :::
