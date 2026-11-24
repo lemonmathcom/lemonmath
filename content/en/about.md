@@ -9,15 +9,21 @@ Lemonmath began with a simple wish: that every student could have a patient teac
 
 The lessons run from grade 1 to grade 12 and follow the content and order of Vietnam's current mathematics curriculum (the 2018 general education programme, as used in the *Kết nối tri thức* textbook series). Every page comes in **English** and in **Tiếng Việt**, with the same content and the same numbers.
 
-## Students learn on their own, parents walk beside them
+## Who is behind Lemonmath?
 
-Lemonmath does two things at once.
+Lemonmath is built by **Nguyen Van Chanh**, a maths teacher in Vietnam who has helped many students not only get better at maths but stop being afraid of it. Years of teaching show one thing again and again: every child can make progress when someone explains slowly enough and believes they can do it. Lemonmath is a way to give that to many more children, including those with no one to help at home.
+
+## Learn on your own. Parents beside you. Teachers guide.
+
+Lemonmath does three things at once.
 
 **It helps students study independently.** Every lesson follows the same four steps: **learn** from the lesson at your own pace, **practise** with exercises that have full solutions, **test yourself** with a test that is marked at once, then **look back** through feedback that tells you your level, why marks were lost and what to do next.
 
 **It helps parents walk beside their child.** You do not need to be good at maths. Every lesson has a printable self-study sheet, full solutions to compare with, and feedback after each test with a suggestion just for parents. The [page for parents](/parents/) shows how to support your child in 15 minutes a day.
 
-The learning belongs to the child. Parents are there to ask, encourage and keep the routine. Lemonmath takes care of the rest.
+**It helps teachers guide.** The [Teachers' corner](/teachers/) lets you build tests with several versions from the question bank, run a live test for the whole class on the projector, set homework with a time window and analyse your class's scores. All of it is free.
+
+The learning belongs to the child. Parents are there to ask, encourage and keep the routine; teachers show the way. Lemonmath takes care of the rest.
 
 ## What is ready now?
 
@@ -36,8 +42,8 @@ Every word in the lessons is written by Lemonmath; nothing is copied from a text
 
 When you press "Mark as complete" or hand in a test, the result is remembered on your own device, and the My progress page uses it to suggest what to learn next and what to review. You do not need an account.
 
-If you want to use it on another device or let your parents follow along, you can save your journey with a learning code. Lemonmath then keeps only what that needs: the lessons done, the scores, the dates and a nickname you choose; no full name, email or phone number. The code is the only key. You can delete everything at any time, and a journey not used for 12 months deletes itself.
+If you want to use it on another device or let your parents follow along, you can save your journey with a learning code. Lemonmath then keeps only what that needs: the lessons done, the scores, the dates and a nickname you choose; no full name, email or phone number. The code is the only key. You can delete everything at any time, and a journey not used for 12 months deletes itself. What Lemonmath keeps, for how long and how to delete it is set out in full in the [privacy policy](/privacy/).
 
 ## Spotted a mistake?
 
-Everyone who writes gets something wrong now and then, and we are always grateful to be told. Please [report it here](https://github.com/lemonmathcom/lemonmath/issues) with the name of the lesson and what looks wrong.
+Everyone who writes gets something wrong now and then, and we are always grateful to be told. Please email **[support@lemonmath.com](mailto:support@lemonmath.com)** or [report it here](https://github.com/lemonmathcom/lemonmath/issues) with the name of the lesson and what looks wrong. Other ways to reach us, and the site owner's details, are on the [Contact page](/contact/).

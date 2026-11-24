@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', privacy: 'privacy', contact: 'contact', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', privacy: 'bao-mat', contact: 'lien-he', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -144,6 +144,8 @@ const gradeDir = (lang, g) => (g.exam ? px.join(examsDir(lang), g.id) : px.join(
 const chapterDir = (lang, ch) => px.join(gradeDir(lang, ch.grade), ch.id);
 const lessonDir = (lang, ls) => px.join(chapterDir(lang, ls.chapter), ls.id);
 const aboutDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].about);
+const privacyDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].privacy);
+const contactDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].contact);
 const paperDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].paper);
 const parentsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].parents);
 const weekDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].week);
@@ -424,7 +426,7 @@ function shell(o) {
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
     spreadHtml(lang, canonical, o.title) +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
-    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
+    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, contactDir(lang)) + '">' + esc(T.contact) + '</a> · <a href="' + relDir(d, privacyDir(lang)) + '">' + esc(T.privacy) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
     '<script src="' + A('assets/site.js') + '" defer></script>\n' + (o.scripts || []).map((f) => '<script src="' + A(f) + '" defer></script>\n').join('') + ANALYTICS + '</body>\n</html>\n';
 }
 
@@ -986,9 +988,9 @@ function report() {
 
 function main() {
   loadLessons();
-  const about = {};
+  const about = {}, privacy = {}, contact = {};
   const paper = {}, parents = {}, week = {}, teach = {}, offline = {};
-  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); teach[l] = loadPage(l, 'teachers'); offline[l] = loadPage(l, 'offline'); });
+  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); privacy[l] = loadPage(l, 'privacy'); contact[l] = loadPage(l, 'contact'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); teach[l] = loadPage(l, 'teachers'); offline[l] = loadPage(l, 'offline'); });
   const examsIntro = {};
   LANGS.forEach((l) => { examsIntro[l] = loadPage(l, 'exams'); });
   if (errors.length) report();
@@ -1007,6 +1009,8 @@ function main() {
     });
     lessons.forEach((ls) => { ls.ws = ls.ws || {}; ls.ws[lang] = worksheetPage(lang, ls); lessonPage(lang, ls); });
     if (about[lang]) aboutPage(lang, about[lang]);
+    if (privacy[lang]) aboutPage(lang, privacy[lang], privacyDir);
+    if (contact[lang]) aboutPage(lang, contact[lang], contactDir);
     if (paper[lang]) aboutPage(lang, paper[lang], paperDir);
     if (parents[lang]) aboutPage(lang, parents[lang], parentsDir);
     if (week[lang]) aboutPage(lang, week[lang], weekDir);

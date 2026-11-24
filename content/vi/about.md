@@ -9,15 +9,21 @@ Lemonmath bắt đầu từ một mong muốn rất giản dị: học sinh nào
 
 Các bài học đi từ lớp 1 đến lớp 12, theo đúng nội dung và thứ tự của chương trình môn Toán hiện hành (Chương trình giáo dục phổ thông 2018, bám theo bộ sách *Kết nối tri thức*). Trang nào cũng có bản **tiếng Việt** và bản **English**, cùng một nội dung, cùng một số liệu.
 
-## Con tự học, bố mẹ đồng hành
+## Ai đứng sau Lemonmath?
 
-Lemonmath làm hai việc cùng lúc.
+Lemonmath do **Nguyễn Văn Chanh**, một giáo viên dạy toán ở Việt Nam, xây dựng. Những năm đứng lớp, thầy đã giúp nhiều học sinh không chỉ giỏi lên mà còn thôi sợ môn toán. Điều thầy rút ra sau từng ấy lớp học: em nào cũng tiến bộ được khi có người giảng đủ chậm và tin rằng em làm được. Lemonmath là cách để mang điều đó đến cho nhiều em hơn, kể cả những em không có ai kèm ở nhà.
+
+## Con tự học, bố mẹ đồng hành, thầy cô dẫn lối
+
+Lemonmath làm ba việc cùng lúc.
 
 **Giúp người học tự học.** Mỗi bài được sắp theo một vòng bốn bước: **học** bài giảng theo nhịp của mình, **luyện** bằng bài tập có lời giải đầy đủ, **tự kiểm tra** bằng bài test chấm ngay, rồi **nhìn lại** qua lời nhận xét cho biết mình đang ở mức nào, vì sao mất điểm và nên làm gì tiếp.
 
 **Giúp phụ huynh đồng hành cùng con.** Bố mẹ không cần giỏi toán. Mỗi bài có phiếu tự học để in, lời giải đầy đủ để đối chiếu, và lời nhận xét sau bài kiểm tra kèm gợi ý riêng cho bố mẹ. [Trang dành cho phụ huynh](/vi/phu-huynh/) chỉ cách kèm con 15 phút mỗi ngày.
 
-Việc học là của con. Bố mẹ ở bên để hỏi han, khích lệ và giữ nếp. Lemonmath lo phần còn lại.
+**Giúp thầy cô dẫn lối.** [Góc giáo viên](/vi/giao-vien/) có công cụ tạo đề nhiều mã đề từ ngân hàng câu hỏi, cho cả lớp làm bài trực tiếp trên màn chiếu, giao bài về nhà có hẹn giờ và phân tích điểm của lớp. Tất cả đều miễn phí.
+
+Việc học là của con. Bố mẹ ở bên để hỏi han, khích lệ và giữ nếp, thầy cô chỉ đường. Lemonmath lo phần còn lại.
 
 ## Hiện đã có gì?
 
@@ -36,8 +42,8 @@ Toàn bộ chữ trong bài là do Lemonmath tự viết, không chép từ sác
 
 Khi bạn bấm "Đánh dấu đã học xong" hay nộp một bài test, kết quả được ghi nhớ trên chính thiết bị của bạn, và trang Hành trình học dựa vào đó để gợi ý nên học gì tiếp, ôn gì. Bạn không cần tạo tài khoản.
 
-Nếu muốn dùng trên máy khác hoặc cho bố mẹ cùng xem, bạn có thể lưu hành trình bằng một mã học tập. Khi đó Lemonmath chỉ lưu những gì cần cho việc này: bài đã học, điểm, ngày làm và tên gọi bạn tự đặt; không cần họ tên, email hay số điện thoại. Mã là chìa khoá duy nhất. Bạn xoá được toàn bộ bất cứ lúc nào, và hành trình không dùng trong 12 tháng sẽ tự xoá.
+Nếu muốn dùng trên máy khác hoặc cho bố mẹ cùng xem, bạn có thể lưu hành trình bằng một mã học tập. Khi đó Lemonmath chỉ lưu những gì cần cho việc này: bài đã học, điểm, ngày làm và tên gọi bạn tự đặt; không cần họ tên, email hay số điện thoại. Mã là chìa khoá duy nhất. Bạn xoá được toàn bộ bất cứ lúc nào, và hành trình không dùng trong 12 tháng sẽ tự xoá. Lemonmath lưu gì, lưu bao lâu và bạn xoá thế nào được viết đầy đủ trong [Chính sách bảo mật](/vi/bao-mat/).
 
 ## Thấy chỗ chưa đúng?
 
-Người viết nào cũng có lúc nhầm, và chúng tôi rất cảm ơn khi được chỉ ra. Bạn hãy [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), ghi tên bài học và chỗ bạn thấy chưa ổn.
+Người viết nào cũng có lúc nhầm, và chúng tôi rất cảm ơn khi được chỉ ra. Bạn hãy gửi email tới **[support@lemonmath.com](mailto:support@lemonmath.com)** hoặc [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), ghi tên bài học và chỗ bạn thấy chưa ổn. Các cách liên hệ khác và thông tin chủ quản website nằm ở [trang Liên hệ](/vi/lien-he/).
