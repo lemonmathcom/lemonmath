@@ -1,0 +1,3545 @@
+[
+ {
+  "code": "M01",
+  "slug": "fractions",
+  "title_vi": "Phân số",
+  "title_en": "Fractions",
+  "level_vi": "Lớp 6 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Khi chia phân số, nhân với phân số nghịch đảo. Nhớ kiểm tra mẫu khác 0!",
+  "tip_en": "To divide fractions, multiply by the reciprocal. Denominators must never be zero!",
+  "items": [
+   {
+    "label_vi": "Tính chất cơ bản, rút gọn",
+    "label_en": "Equivalent fractions, simplify",
+    "tex": "\\dfrac{a}{b}=\\dfrac{ak}{bk}\\quad (b,k\\neq 0)"
+   },
+   {
+    "label_vi": "Cộng, trừ cùng mẫu",
+    "label_en": "Add or subtract: same denominator",
+    "tex": "\\dfrac{a}{c}\\pm\\dfrac{b}{c}=\\dfrac{a\\pm b}{c}\\quad(c\\neq0)"
+   },
+   {
+    "label_vi": "Cộng, trừ khác mẫu",
+    "label_en": "Add or subtract: different denominators",
+    "tex": "\\dfrac{a}{b}\\pm\\dfrac{c}{d}=\\dfrac{ad\\pm bc}{bd}"
+   },
+   {
+    "label_vi": "Nhân hai phân số",
+    "label_en": "Multiply fractions",
+    "tex": "\\dfrac{a}{b}\\cdot\\dfrac{c}{d}=\\dfrac{ac}{bd}"
+   },
+   {
+    "label_vi": "Chia hai phân số",
+    "label_en": "Divide by a nonzero fraction",
+    "tex": "\\dfrac{a}{b}:\\dfrac{c}{d}=\\dfrac{ad}{bc}"
+   },
+   {
+    "label_vi": "Hỗn số và phân số (m, b > 0)",
+    "label_en": "Mixed number to improper fraction",
+    "tex": "m\\dfrac{a}{b}=\\dfrac{mb+a}{b}"
+   },
+   {
+    "label_vi": "Tìm p/q của một số N",
+    "label_en": "Find a fraction of a number",
+    "tex": "V=N\\cdot\\dfrac{p}{q}"
+   },
+   {
+    "label_vi": "Tìm số khi biết p/q của nó",
+    "label_en": "Find the whole from its fraction",
+    "tex": "N=V:\\dfrac{p}{q}\\quad(pq\\neq0)"
+   }
+  ]
+ },
+ {
+  "code": "M02",
+  "slug": "percentages",
+  "title_vi": "Tỉ số phần trăm",
+  "title_en": "Percentages",
+  "level_vi": "Lớp 6–7 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Tăng p% rồi giảm p% không trở lại giá ban đầu (trừ khi p = 0)!",
+  "tip_en": "Increasing by p% then decreasing by p% does not restore the original value unless p = 0!",
+  "items": [
+   {
+    "label_vi": "Tính p% của b",
+    "label_en": "Find p% of b",
+    "tex": "V=\\dfrac{p}{100}\\cdot b"
+   },
+   {
+    "label_vi": "Tỉ số phần trăm (b ≠ 0)",
+    "label_en": "a as a percentage of b (b ≠ 0)",
+    "tex": "P=\\dfrac{a}{b}\\cdot100\\%"
+   },
+   {
+    "label_vi": "Tăng p%",
+    "label_en": "Increase by p%",
+    "tex": "N=B\\left(1+\\dfrac{p}{100}\\right)"
+   },
+   {
+    "label_vi": "Giảm p% (0 ≤ p ≤ 100)",
+    "label_en": "Decrease by p% (0 ≤ p ≤ 100)",
+    "tex": "N=B\\left(1-\\dfrac{p}{100}\\right)"
+   },
+   {
+    "label_vi": "Phần trăm thay đổi (B ≠ 0)",
+    "label_en": "Percentage change (B ≠ 0)",
+    "tex": "\\dfrac{N-B}{B}\\cdot100\\%"
+   },
+   {
+    "label_vi": "Giá sau giảm d% rồi tính thuế t%",
+    "label_en": "Price after d% discount and t% tax",
+    "tex": "F=B\\left(1-\\dfrac{d}{100}\\right)\\left(1+\\dfrac{t}{100}\\right)"
+   }
+  ]
+ },
+ {
+  "code": "M03",
+  "slug": "ratio-and-proportion",
+  "title_vi": "Tỉ lệ thức & tỉ lệ",
+  "title_en": "Ratio and proportion",
+  "level_vi": "Lớp 7 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Trước khi dùng tỉ lệ bản đồ, đổi các độ dài về cùng đơn vị nhé!",
+  "tip_en": "Before using a map scale, convert both distances to the same unit!",
+  "items": [
+   {
+    "label_vi": "Tính chất tỉ lệ thức (b, d ≠ 0)",
+    "label_en": "Cross-multiplication (b, d ≠ 0)",
+    "tex": "\\dfrac{a}{b}=\\dfrac{c}{d}\\ \\Leftrightarrow\\ ad=bc"
+   },
+   {
+    "label_vi": "Dãy tỉ số bằng nhau (b, d, b+d ≠ 0)",
+    "label_en": "Equal ratios (b, d, b+d ≠ 0)",
+    "tex": "\\dfrac{a}{b}=\\dfrac{c}{d}=\\dfrac{a+c}{b+d}"
+   },
+   {
+    "label_vi": "Đại lượng tỉ lệ thuận",
+    "label_en": "Direct proportion",
+    "tex": "y=kx\\quad(k\\neq0)"
+   },
+   {
+    "label_vi": "Đại lượng tỉ lệ nghịch",
+    "label_en": "Inverse proportion",
+    "tex": "xy=k\\quad(k\\neq0)"
+   },
+   {
+    "label_vi": "Chia tổng S theo tỉ lệ m : n",
+    "label_en": "Split total S in the ratio m : n",
+    "tex": [
+     "x=\\dfrac{mS}{m+n}",
+     "y=\\dfrac{nS}{m+n}\\quad(m,n>0)"
+    ]
+   },
+   {
+    "label_vi": "Tỉ lệ bản đồ (cùng đơn vị)",
+    "label_en": "Map scale (same units)",
+    "tex": "\\dfrac{L_{\\mathrm{map}}}{L_{\\mathrm{real}}}=\\dfrac{1}{n}\\quad(n>0)"
+   }
+  ]
+ },
+ {
+  "code": "M04",
+  "slug": "divisibility-hcf-and-lcm",
+  "title_vi": "Chia hết, ƯCLN, BCNN",
+  "title_en": "Divisibility, HCF and LCM",
+  "level_vi": "Lớp 6 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "S(n) là tổng các chữ số. Với ƯCLN và BCNN, hãy phân tích ra thừa số nguyên tố trước nhé!",
+  "tip_en": "S(n) is the digit sum. Also, 4 divides a number if its last two digits form a multiple of 4; for 11, alternate digit sums.",
+  "items": [
+   {
+    "label_vi": "Chia hết cho 2 và 5",
+    "label_en": "Divisible by 2 or 5",
+    "tex": [
+     "2:\\ 0,2,4,6,8",
+     "5:\\ 0,5"
+    ]
+   },
+   {
+    "label_vi": "Chia hết cho 3 và 9",
+    "label_en": "Divisible by 3 or 9",
+    "tex": [
+     "3\\mid n\\ \\Leftrightarrow\\ 3\\mid S(n)",
+     "9\\mid n\\ \\Leftrightarrow\\ 9\\mid S(n)"
+    ]
+   },
+   {
+    "label_vi": "Phân tích ra thừa số nguyên tố",
+    "label_en": "Prime factorisation",
+    "tex": "n=p_1^{a_1}p_2^{a_2}\\cdots p_k^{a_k}"
+   },
+   {
+    "label_vi": "ƯCLN: số mũ nhỏ nhất",
+    "label_en": "HCF: smaller prime powers",
+    "tex": "\\mathrm{HCF}(a,b)=\\prod p^{\\min(r,s)}"
+   },
+   {
+    "label_vi": "BCNN: số mũ lớn nhất",
+    "label_en": "LCM: larger prime powers",
+    "tex": "\\mathrm{LCM}(a,b)=\\prod p^{\\max(r,s)}"
+   },
+   {
+    "label_vi": "Liên hệ ƯCLN và BCNN (a, b > 0)",
+    "label_en": "HCF–LCM identity (a, b > 0)",
+    "tex": "\\mathrm{HCF}(a,b)\\cdot\\mathrm{LCM}(a,b)=ab"
+   },
+   {
+    "label_vi": "Số ước dương của n",
+    "label_en": "Number of positive divisors",
+    "tex": "n=p^rq^s\\ \\Rightarrow\\ d(n)=(r+1)(s+1)"
+   }
+  ]
+ },
+ {
+  "code": "M05",
+  "slug": "speed-distance-and-time",
+  "title_vi": "Toán chuyển động",
+  "title_en": "Speed, distance and time",
+  "level_vi": "Lớp 5–8 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Hai vật phải chuyển động đều; d là khoảng cách ban đầu. Đổi các đơn vị cho thống nhất!",
+  "tip_en": "Assume constant speeds; d is the starting gap. Use matching units and check that the faster object is behind.",
+  "items": [
+   {
+    "label_vi": "Quãng đường, vận tốc, thời gian",
+    "label_en": "Distance, speed and time",
+    "tex": "s=vt\\qquad v=\\dfrac{s}{t}\\quad(t>0)"
+   },
+   {
+    "label_vi": "Vận tốc trung bình",
+    "label_en": "Average speed",
+    "tex": "v_{\\mathrm{tb}}=\\dfrac{s_1+s_2}{t_1+t_2}",
+    "tex_en": "v_{\\mathrm{avg}}=\\dfrac{s_1+s_2}{t_1+t_2}"
+   },
+   {
+    "label_vi": "Ngược chiều: thời gian gặp nhau",
+    "label_en": "Moving towards each other",
+    "tex": "t=\\dfrac{d}{v_1+v_2}"
+   },
+   {
+    "label_vi": "Cùng chiều: thời gian đuổi kịp",
+    "label_en": "Same direction: catch-up time",
+    "tex": "t=\\dfrac{d}{v_1-v_2}\\quad(v_1>v_2)"
+   },
+   {
+    "label_vi": "Xuôi dòng và ngược dòng",
+    "label_en": "Downstream and upstream",
+    "tex": [
+     "v_{\\mathrm{xuoi}}=v_{\\mathrm{thuyen}}+v_{\\mathrm{nuoc}}",
+     "v_{\\mathrm{nguoc}}=v_{\\mathrm{thuyen}}-v_{\\mathrm{nuoc}}"
+    ],
+    "tex_en": [
+     "v_{\\mathrm{down}}=v_{\\mathrm{boat}}+v_{\\mathrm{river}}",
+     "v_{\\mathrm{up}}=v_{\\mathrm{boat}}-v_{\\mathrm{river}}"
+    ]
+   },
+   {
+    "label_vi": "Đổi đơn vị vận tốc",
+    "label_en": "Convert speed units",
+    "tex": "1\\ \\mathrm{m/s}=3.6\\ \\mathrm{km/h}",
+    "tex_vi": "1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}",
+    "tex_en": "1\\ \\mathrm{m/s}=3.6\\ \\mathrm{km/h}"
+   }
+  ]
+ },
+ {
+  "code": "M06",
+  "slug": "angles-and-polygons",
+  "title_vi": "Góc & đa giác",
+  "title_en": "Angles and polygons",
+  "level_vi": "Lớp 7–9 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Định lí góc so le trong, đồng vị cần hai đường thẳng song song. Nhớ kiểm tra giả thiết!",
+  "tip_en": "Alternate and corresponding angles are equal when the lines are parallel. Check that condition first!",
+  "items": [
+   {
+    "label_vi": "Hai góc kề bù",
+    "label_en": "Angles on a straight line",
+    "tex": "\\alpha+\\beta=180^\\circ"
+   },
+   {
+    "label_vi": "Hai góc đối đỉnh",
+    "label_en": "Vertically opposite angles",
+    "tex": "\\alpha=\\beta"
+   },
+   {
+    "label_vi": "So le trong, đồng vị (hai đường song song)",
+    "label_en": "Alternate and corresponding angles",
+    "tex": "\\alpha=\\beta"
+   },
+   {
+    "label_vi": "Tổng ba góc tam giác",
+    "label_en": "Triangle interior angles",
+    "tex": "A+B+C=180^\\circ"
+   },
+   {
+    "label_vi": "Góc ngoài tam giác",
+    "label_en": "Exterior angle of a triangle",
+    "tex": "\\alpha_{\\mathrm{ngoai}}=A+B",
+    "tex_en": "\\alpha_{\\mathrm{ext}}=A+B"
+   },
+   {
+    "label_vi": "Tổng góc trong đa giác n cạnh",
+    "label_en": "Interior angle sum (n sides)",
+    "tex": "S=(n-2)\\cdot180^\\circ\\quad(n\\geq3)"
+   },
+   {
+    "label_vi": "Tổng góc ngoài (mỗi đỉnh một góc)",
+    "label_en": "One exterior angle per vertex",
+    "tex": "S_{\\mathrm{ngoai}}=360^\\circ",
+    "tex_en": "S_{\\mathrm{ext}}=360^\\circ"
+   },
+   {
+    "label_vi": "Số đường chéo của đa giác",
+    "label_en": "Number of diagonals",
+    "tex": "D=\\dfrac{n(n-3)}{2}\\quad(n\\geq3)"
+   }
+  ]
+ },
+ {
+  "code": "M07",
+  "slug": "sets-and-venn-diagrams",
+  "title_vi": "Tập hợp & sơ đồ Venn",
+  "title_en": "Sets and Venn diagrams",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "Middle–High school",
+  "tip_vi": "Khi đếm phần tử của hợp, nhớ trừ phần giao để không đếm trùng nhé!",
+  "tip_en": "When counting a union, subtract the overlap so shared elements are not counted twice!",
+  "items": [
+   {
+    "label_vi": "Hợp và giao hai tập hợp",
+    "label_en": "Union and intersection",
+    "tex": "A\\cup B,\\qquad A\\cap B"
+   },
+   {
+    "label_vi": "Hiệu và phần bù trong U",
+    "label_en": "Difference and complement in U",
+    "tex": "A\\setminus B,\\qquad A^c=U\\setminus A"
+   },
+   {
+    "label_vi": "Số phần tử của hợp hai tập hữu hạn",
+    "label_en": "Two-set inclusion–exclusion",
+    "tex": "n(A\\cup B)=n(A)+n(B)-n(A\\cap B)"
+   },
+   {
+    "label_vi": "Hợp ba tập hữu hạn",
+    "label_en": "Three-set inclusion–exclusion",
+    "tex": [
+     "n(A\\cup B\\cup C)=n(A)+n(B)+n(C)",
+     "-n(A\\cap B)-n(A\\cap C)-n(B\\cap C)",
+     "+n(A\\cap B\\cap C)"
+    ]
+   },
+   {
+    "label_vi": "Số tập con của tập n phần tử",
+    "label_en": "Subsets of an n-element set",
+    "tex": "N=2^n\\quad(n\\geq 0)"
+   },
+   {
+    "label_vi": "Định luật De Morgan (phần bù trong U)",
+    "label_en": "De Morgan’s laws (relative to U)",
+    "tex": [
+     "(A\\cup B)^c=A^c\\cap B^c",
+     "(A\\cap B)^c=A^c\\cup B^c"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A01",
+  "slug": "laws-of-exponents",
+  "title_vi": "Lũy thừa",
+  "title_en": "Laws of exponents",
+  "level_vi": "Lớp 6–7 & 11",
+  "level_en": "Middle–High school",
+  "tip_vi": "Cộng số mũ khi nhân cùng cơ số, không cộng cơ số. Với số mũ âm, cơ số phải khác 0!",
+  "tip_en": "Add exponents when multiplying like bases, not the bases themselves. Negative exponents require a nonzero base!",
+  "items": [
+   {
+    "label_vi": "Nhân, chia cùng cơ số (a ≠ 0 khi chia)",
+    "label_en": "Multiply and divide (a ≠ 0 for division)",
+    "tex": [
+     "a^m a^n=a^{m+n}",
+     "\\dfrac{a^m}{a^n}=a^{m-n}"
+    ]
+   },
+   {
+    "label_vi": "Lũy thừa của lũy thừa",
+    "label_en": "Power of a power",
+    "tex": "(a^m)^n=a^{mn}"
+   },
+   {
+    "label_vi": "Lũy thừa của tích và thương (b ≠ 0)",
+    "label_en": "Power of a product and quotient (b ≠ 0)",
+    "tex": [
+     "(ab)^n=a^nb^n",
+     "\\left(\\dfrac{a}{b}\\right)^n=\\dfrac{a^n}{b^n}"
+    ]
+   },
+   {
+    "label_vi": "Số mũ 0 (a ≠ 0)",
+    "label_en": "Zero exponent (a ≠ 0)",
+    "tex": "a^0=1"
+   },
+   {
+    "label_vi": "Số mũ âm (a ≠ 0)",
+    "label_en": "Negative exponent (a ≠ 0)",
+    "tex": "a^{-n}=\\dfrac{1}{a^n}"
+   },
+   {
+    "label_vi": "Số mũ hữu tỉ (a > 0; n nguyên dương)",
+    "label_en": "Rational exponent (a > 0; n positive)",
+    "tex": "a^{m/n}=\\sqrt[n]{a^m}"
+   }
+  ]
+ },
+ {
+  "code": "A02",
+  "slug": "surds-and-roots",
+  "title_vi": "Căn bậc hai, căn bậc ba",
+  "title_en": "Surds and roots",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Căn bậc hai luôn không âm: √(A²) bằng |A|, không phải lúc nào cũng bằng A!",
+  "tip_en": "A square root is nonnegative: the square root of A squared is |A|, not always A!",
+  "items": [
+   {
+    "label_vi": "Căn của bình phương (A thực)",
+    "label_en": "Square root of a square (real A)",
+    "tex": "\\sqrt{A^2}=|A|"
+   },
+   {
+    "label_vi": "Căn của tích (A, B ≥ 0)",
+    "label_en": "Root of a product (A, B ≥ 0)",
+    "tex": "\\sqrt{AB}=\\sqrt{A}\\sqrt{B}"
+   },
+   {
+    "label_vi": "Căn của thương (A ≥ 0, B > 0)",
+    "label_en": "Root of a quotient (A ≥ 0, B > 0)",
+    "tex": "\\sqrt{\\dfrac{A}{B}}=\\dfrac{\\sqrt{A}}{\\sqrt{B}}"
+   },
+   {
+    "label_vi": "Đưa thừa số ra/vào căn (k ≥ 0, A ≥ 0)",
+    "label_en": "Take factors out/in (k ≥ 0, A ≥ 0)",
+    "tex": "\\sqrt{k^2A}=k\\sqrt{A}=\\sqrt{k^2A}"
+   },
+   {
+    "label_vi": "Trục căn thức ở mẫu (a, b ≥ 0; a ≠ b)",
+    "label_en": "Rationalise with conjugates (a, b ≥ 0; a ≠ b)",
+    "tex": "\\dfrac{1}{\\sqrt{a}+\\sqrt{b}}=\\dfrac{\\sqrt{a}-\\sqrt{b}}{a-b}"
+   },
+   {
+    "label_vi": "Căn bậc ba (x thực)",
+    "label_en": "Cube roots (real x)",
+    "tex": "\\sqrt[3]{x^3}=x"
+   }
+  ]
+ },
+ {
+  "code": "A03",
+  "slug": "special-products-and-factorising",
+  "title_vi": "Hằng đẳng thức đáng nhớ",
+  "title_en": "Special products and factorising",
+  "level_vi": "Lớp 8 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Nhớ kiểm tra dấu của số hạng giữa trước khi khai triển nhé!",
+  "tip_en": "Watch the middle term and its sign when expanding!",
+  "items": [
+   {
+    "label_vi": "Bình phương của tổng",
+    "label_en": "Square of a sum",
+    "tex": "(a+b)^2=a^2+2ab+b^2"
+   },
+   {
+    "label_vi": "Bình phương của hiệu",
+    "label_en": "Square of a difference",
+    "tex": "(a-b)^2=a^2-2ab+b^2"
+   },
+   {
+    "label_vi": "Hiệu hai bình phương",
+    "label_en": "Difference of two squares",
+    "tex": "a^2-b^2=(a-b)(a+b)"
+   },
+   {
+    "label_vi": "Lập phương của tổng",
+    "label_en": "Cube of a sum",
+    "tex": "(a+b)^3=a^3+3a^2b+3ab^2+b^3"
+   },
+   {
+    "label_vi": "Lập phương của hiệu",
+    "label_en": "Cube of a difference",
+    "tex": "(a-b)^3=a^3-3a^2b+3ab^2-b^3"
+   },
+   {
+    "label_vi": "Tổng hai lập phương",
+    "label_en": "Sum of two cubes",
+    "tex": "a^3+b^3=(a+b)(a^2-ab+b^2)"
+   },
+   {
+    "label_vi": "Hiệu hai lập phương",
+    "label_en": "Difference of two cubes",
+    "tex": "a^3-b^3=(a-b)(a^2+ab+b^2)"
+   }
+  ]
+ },
+ {
+  "code": "A04",
+  "slug": "linear-and-simultaneous-equations",
+  "title_vi": "Phương trình & hệ bậc nhất",
+  "title_en": "Linear and simultaneous equations",
+  "level_vi": "Lớp 8–9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Có thể giải hệ bằng phương pháp thế hoặc cộng đại số.",
+  "tip_en": "Try substitution or elimination to solve the system.",
+  "items": [
+   {
+    "label_vi": "Phương trình bậc nhất, a khác 0",
+    "label_en": "Linear equation, a nonzero",
+    "tex": "ax+b=0\\ \\Rightarrow\\ x=-\\dfrac{b}{a}"
+   },
+   {
+    "label_vi": "Hệ hai phương trình hai ẩn",
+    "label_en": "Two linear equations",
+    "tex": [
+     "ax+by=c",
+     "dx+ey=f"
+    ]
+   },
+   {
+    "label_vi": "Định thức hệ số",
+    "label_en": "Coefficient determinant",
+    "tex": "D=ae-bd"
+   },
+   {
+    "label_vi": "Định thức theo x và y",
+    "label_en": "Numerator determinants",
+    "tex": [
+     "D_x=ce-bf",
+     "D_y=af-cd"
+    ]
+   },
+   {
+    "label_vi": "Nghiệm duy nhất khi D khác 0",
+    "label_en": "Unique solution if D nonzero",
+    "tex": "x=\\dfrac{D_x}{D},\\quad y=\\dfrac{D_y}{D}"
+   },
+   {
+    "label_vi": "Khi D bằng 0",
+    "label_en": "When D is zero",
+    "tex": [
+     "D_x\\neq 0\\ \\mathrm{or}\\ D_y\\neq 0:\\ \\varnothing",
+     "D_x=D_y=0:\\ \\infty"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A05",
+  "slug": "linear-functions-and-straight-lines",
+  "title_vi": "Hàm số bậc nhất",
+  "title_en": "Linear functions and straight lines",
+  "level_vi": "Lớp 8–9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Đường thẳng đứng không có hệ số góc xác định.",
+  "tip_en": "Vertical lines have undefined gradient.",
+  "items": [
+   {
+    "label_vi": "Dạng đường thẳng",
+    "label_en": "Slope-intercept form",
+    "tex_en": "y=mx+b",
+    "tex_vi": "y=ax+b\\quad (a\\neq 0)"
+   },
+   {
+    "label_vi": "Hệ số góc qua hai điểm, x khác nhau",
+    "label_en": "Gradient from two points",
+    "tex_en": [
+     "m=\\dfrac{y_2-y_1}{x_2-x_1}",
+     "x_1\\neq x_2"
+    ],
+    "tex_vi": [
+     "a=\\dfrac{y_2-y_1}{x_2-x_1}",
+     "x_1\\neq x_2"
+    ]
+   },
+   {
+    "label_vi": "Đường thẳng song song phân biệt",
+    "label_en": "Distinct parallel lines",
+    "tex_en": "m_1=m_2,\\quad b_1\\neq b_2",
+    "tex_vi": "a_1=a_2,\\quad b_1\\neq b_2"
+   },
+   {
+    "label_vi": "Đường thẳng vuông góc",
+    "label_en": "Perpendicular nonvertical lines",
+    "tex_en": "m_1m_2=-1",
+    "tex_vi": "a_1a_2=-1"
+   },
+   {
+    "label_vi": "Giao với trục tung",
+    "label_en": "Y-intercept",
+    "tex": "(0,b)"
+   },
+   {
+    "label_vi": "Giao với trục hoành, m khác 0",
+    "label_en": "X-intercept, m nonzero",
+    "tex_en": "(-\\dfrac{b}{m},0)",
+    "tex_vi": "(-\\dfrac{b}{a},0)"
+   },
+   {
+    "label_vi": "Đồng biến hoặc nghịch biến",
+    "label_en": "Increasing or decreasing",
+    "tex_en": [
+     "m>0:\\ \\nearrow",
+     "m<0:\\ \\searrow"
+    ],
+    "tex_vi": [
+     "a>0:\\ \\nearrow",
+     "a<0:\\ \\searrow"
+    ]
+   },
+   {
+    "label_vi": "Dạng điểm và hệ số góc",
+    "label_en": "Point-slope form",
+    "tex_en": "y-y_1=m(x-x_1)",
+    "tex_vi": "y-y_1=a(x-x_1)"
+   }
+  ]
+ },
+ {
+  "code": "A06",
+  "slug": "quadratic-equations",
+  "title_vi": "Phương trình bậc hai",
+  "title_en": "Quadratic equations",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Luôn kiểm tra a khác 0. Tính biệt thức trước khi tìm nghiệm nhé!",
+  "tip_en": "Check that a is nonzero, then calculate the discriminant before finding roots.",
+  "items": [
+   {
+    "label_vi": "Dạng tổng quát",
+    "label_en": "Standard form",
+    "tex": "ax^2+bx+c=0\\quad(a\\neq0)"
+   },
+   {
+    "label_vi": "Biệt thức",
+    "label_en": "Discriminant",
+    "tex": "\\Delta=b^2-4ac"
+   },
+   {
+    "label_vi": "Nghiệm khi Δ ≥ 0",
+    "label_en": "Roots when Δ ≥ 0",
+    "tex": "x_{1,2}=\\dfrac{-b\\pm\\sqrt{\\Delta}}{2a}"
+   },
+   {
+    "label_vi": "Δ = 0: nghiệm kép; Δ < 0: không có nghiệm thực",
+    "label_en": "Δ = 0: repeated root; Δ < 0: no real roots",
+    "tex": "x_1=x_2=-\\dfrac{b}{2a}\\quad(\\Delta=0)"
+   },
+   {
+    "label_vi": "Định lí Viète",
+    "label_en": "Vieta's formulas",
+    "tex": "x_1+x_2=-\\dfrac{b}{a};\\quad x_1x_2=\\dfrac{c}{a}"
+   },
+   {
+    "label_vi": "Biệt thức thu gọn (b = 2b’)",
+    "label_en": "Completing the square",
+    "tex_vi": [
+     "\\Delta'=b'^2-ac",
+     "x_{1,2}=\\dfrac{-b'\\pm\\sqrt{\\Delta'}}{a}\\quad(\\Delta'\\geq0)"
+    ],
+    "tex_en": [
+     "ax^2+bx+c=a(x+\\dfrac{b}{2a})^2-\\dfrac{\\Delta}{4a}"
+    ]
+   },
+   {
+    "label_vi": "Nhẩm nghiệm đặc biệt",
+    "label_en": "Quick roots",
+    "tex": [
+     "a+b+c=0\\Rightarrow x_1=1,\\ x_2=\\dfrac{c}{a}",
+     "a-b+c=0\\Rightarrow x_1=-1,\\ x_2=-\\dfrac{c}{a}"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A07",
+  "slug": "quadratic-functions",
+  "title_vi": "Hàm số bậc hai & parabol",
+  "title_en": "Quadratic functions",
+  "level_vi": "Lớp 9–10 • THCS–THPT",
+  "level_en": "High school",
+  "tip_vi": "Tìm đỉnh và trục đối xứng trước khi phác họa parabol nhé!",
+  "tip_en": "Find the vertex and axis of symmetry before sketching the parabola.",
+  "items": [
+   {
+    "label_vi": "Dạng tổng quát (a ≠ 0)",
+    "label_en": "Standard form (a ≠ 0)",
+    "tex": "y=ax^2+bx+c"
+   },
+   {
+    "label_vi": "Parabol cơ bản",
+    "label_en": "Basic parabola",
+    "tex": "y=ax^2\\quad(a\\neq0)"
+   },
+   {
+    "label_vi": "Đỉnh của parabol",
+    "label_en": "Vertex",
+    "tex_vi": "I\\left(-\\dfrac{b}{2a};-\\dfrac{\\Delta}{4a}\\right)",
+    "tex_en": "\\left(-\\dfrac{b}{2a},-\\dfrac{\\Delta}{4a}\\right)"
+   },
+   {
+    "label_vi": "Trục đối xứng",
+    "label_en": "Axis of symmetry",
+    "tex": "x=-\\dfrac{b}{2a}"
+   },
+   {
+    "label_vi": "Dạng đỉnh",
+    "label_en": "Vertex form",
+    "tex": "y=a(x-h)^2+k"
+   },
+   {
+    "label_vi": "Dạng tích (khi có hai nghiệm thực)",
+    "label_en": "Factored form (real roots)",
+    "tex": "y=a(x-x_1)(x-x_2)"
+   },
+   {
+    "label_vi": "Mở lên nếu a > 0; mở xuống nếu a < 0",
+    "label_en": "Opens up if a > 0; down if a < 0",
+    "tex": [
+     "a>0",
+     "a<0"
+    ]
+   },
+   {
+    "label_vi": "Giao với các trục",
+    "label_en": "Axis intercepts",
+    "tex": [
+     "x=0\\Rightarrow y=c",
+     "y=0\\Rightarrow ax^2+bx+c=0"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A08",
+  "slug": "quadratic-inequalities",
+  "title_vi": "Dấu tam thức bậc hai",
+  "title_en": "Quadratic inequalities",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Khi Δ > 0, hãy nhớ: ngoài cùng dấu a, ở giữa trái dấu a.",
+  "tip_en": "For two distinct real roots, the sign outside the roots matches a.",
+  "items": [
+   {
+    "label_vi": "Tam thức (a ≠ 0)",
+    "label_en": "Quadratic expression (a ≠ 0)",
+    "tex": "f(x)=ax^2+bx+c"
+   },
+   {
+    "label_vi": "Biệt thức",
+    "label_en": "Discriminant",
+    "tex": "\\Delta=b^2-4ac"
+   },
+   {
+    "label_vi": "Δ < 0: luôn cùng dấu với a",
+    "label_en": "Δ < 0: same sign as a",
+    "tex": "\\Delta<0\\Rightarrow af(x)>0"
+   },
+   {
+    "label_vi": "Δ = 0: cùng dấu với a, trừ nghiệm kép",
+    "label_en": "Δ = 0: same sign except at double root",
+    "tex": "f(x)=a(x+\\dfrac{b}{2a})^2"
+   },
+   {
+    "label_vi": "Δ > 0: ngoài cùng, trong trái dấu a",
+    "label_en": "Δ > 0: outside same, between opposite",
+    "tex": "x_1<x_2;\\quad f(x)=a(x-x_1)(x-x_2)"
+   },
+   {
+    "label_vi": "Dương với mọi số thực",
+    "label_en": "Strictly positive for all real x",
+    "tex": "f(x)>0\\ \\forall x\\in\\mathbb{R}\\Leftrightarrow a>0,\\ \\Delta<0"
+   },
+   {
+    "label_vi": "Giá trị tuyệt đối (m > 0)",
+    "label_en": "Absolute value (m > 0)",
+    "tex": [
+     "|x|<m\\Leftrightarrow -m<x<m",
+     "|x|>m\\Leftrightarrow x<-m\\ \\mathrm{or}\\ x>m"
+    ]
+   },
+   {
+    "label_vi": "Hai giá trị tuyệt đối bằng nhau",
+    "label_en": "Equal absolute values",
+    "tex": "|A|=|B|\\Leftrightarrow A=B\\ \\mathrm{or}\\ A=-B"
+   }
+  ]
+ },
+ {
+  "code": "A09",
+  "slug": "composite-inverse-and-transformed-functions",
+  "title_vi": "Hàm hợp, ngược & đồ thị",
+  "title_en": "Functions and transformations",
+  "level_vi": "Mở rộng quốc tế (IGCSE, IB)",
+  "level_en": "High school",
+  "tip_vi": "Muốn có hàm ngược, hàm ban đầu phải một-một trên miền đang xét.",
+  "tip_en": "An inverse function needs a one-to-one original function on its chosen domain.",
+  "items": [
+   {
+    "label_vi": "Hàm hợp",
+    "label_en": "Composite function",
+    "tex": "(f\\circ g)(x)=f(g(x))"
+   },
+   {
+    "label_vi": "Tìm hàm ngược: đổi x, y rồi giải y",
+    "label_en": "Inverse: swap x and y, then solve",
+    "tex": "y=f(x)\\ \\Longleftrightarrow\\ x=f^{-1}(y)"
+   },
+   {
+    "label_vi": "Hai hàm ngược (trên miền phù hợp)",
+    "label_en": "Inverse identities (on valid domains)",
+    "tex": "f(f^{-1}(x))=x"
+   },
+   {
+    "label_vi": "Đồ thị hàm ngược",
+    "label_en": "Inverse graph: reflect in y = x",
+    "tex": "(a,b)\\longleftrightarrow(b,a)"
+   },
+   {
+    "label_vi": "Dịch lên k; sang phải h",
+    "label_en": "Shift up k; right h",
+    "tex": [
+     "y=f(x)+k",
+     "y=f(x-h)"
+    ]
+   },
+   {
+    "label_vi": "Co giãn theo trục tung và hoành",
+    "label_en": "Vertical and horizontal scaling",
+    "tex": [
+     "y=af(x)",
+     "y=f(ax)\\quad(a\\neq0)"
+    ]
+   },
+   {
+    "label_vi": "Đối xứng qua Ox và Oy",
+    "label_en": "Reflect in x-axis and y-axis",
+    "tex": [
+     "y=-f(x)",
+     "y=f(-x)"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A10",
+  "slug": "arithmetic-sequences",
+  "title_vi": "Cấp số cộng",
+  "title_en": "Arithmetic sequences",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Cấp số cộng có hiệu giữa hai số hạng liên tiếp luôn bằng d.",
+  "tip_en": "In an arithmetic sequence, consecutive terms always differ by d.",
+  "items": [
+   {
+    "label_vi": "Hiệu không đổi",
+    "label_en": "Common difference",
+    "tex": "d=u_{n+1}-u_n"
+   },
+   {
+    "label_vi": "Số hạng tổng quát (n ≥ 1)",
+    "label_en": "Nth term (n ≥ 1)",
+    "tex_vi": "u_n=u_1+(n-1)d",
+    "tex_en": "u_n=a+(n-1)d",
+    "tex": "u_n=u_1+(n-1)d"
+   },
+   {
+    "label_vi": "Tổng n số hạng đầu",
+    "label_en": "Sum of first n terms",
+    "tex_vi": "S_n=\\dfrac{n(u_1+u_n)}{2}",
+    "tex_en": "S_n=\\dfrac{n(a+u_n)}{2}",
+    "tex": "S_n=\\dfrac{n(u_1+u_n)}{2}"
+   },
+   {
+    "label_vi": "Công thức tổng theo d",
+    "label_en": "Sum using common difference",
+    "tex_vi": "S_n=\\dfrac{n[2u_1+(n-1)d]}{2}",
+    "tex_en": "S_n=\\dfrac{n[2a+(n-1)d]}{2}",
+    "tex": "S_n=\\dfrac{n[2u_1+(n-1)d]}{2}"
+   },
+   {
+    "label_vi": "Số hạng giữa (k ≥ 2)",
+    "label_en": "Middle term (k ≥ 2)",
+    "tex": "u_k=\\dfrac{u_{k-1}+u_{k+1}}{2}"
+   }
+  ]
+ },
+ {
+  "code": "A11",
+  "slug": "geometric-sequences-and-series",
+  "title_vi": "Cấp số nhân",
+  "title_en": "Geometric sequences and series",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Chỉ dùng tổng vô hạn khi trị tuyệt đối của công bội nhỏ hơn 1.",
+  "tip_en": "Use the infinite sum formula only when the absolute ratio is below 1.",
+  "items": [
+   {
+    "label_vi": "Công bội (u_n khác 0)",
+    "label_en": "Common ratio (u_n nonzero)",
+    "tex_vi": "q=\\dfrac{u_{n+1}}{u_n}",
+    "tex_en": "r=\\dfrac{u_{n+1}}{u_n}",
+    "tex": "q=\\dfrac{u_{n+1}}{u_n}"
+   },
+   {
+    "label_vi": "Số hạng tổng quát (n ≥ 1)",
+    "label_en": "Nth term (n ≥ 1)",
+    "tex_vi": "u_n=u_1q^{n-1}",
+    "tex_en": "u_n=ar^{n-1}",
+    "tex": "u_n=u_1q^{n-1}"
+   },
+   {
+    "label_vi": "Tổng n số hạng (q khác 1)",
+    "label_en": "Finite sum (r not 1)",
+    "tex_vi": "S_n=\\dfrac{u_1(1-q^n)}{1-q}",
+    "tex_en": "S_n=\\dfrac{a(1-r^n)}{1-r}",
+    "tex": "S_n=\\dfrac{u_1(1-q^n)}{1-q}"
+   },
+   {
+    "label_vi": "Trường hợp công bội bằng 1",
+    "label_en": "When common ratio is 1",
+    "tex_vi": "q=1\\Rightarrow S_n=nu_1",
+    "tex_en": "r=1\\Rightarrow S_n=na",
+    "tex": "q=1\\Rightarrow S_n=nu_1"
+   },
+   {
+    "label_vi": "Số hạng giữa (k ≥ 2)",
+    "label_en": "Middle term (k ≥ 2)",
+    "tex": "u_k^2=u_{k-1}u_{k+1}"
+   },
+   {
+    "label_vi": "Tổng vô hạn (|q| < 1)",
+    "label_en": "Infinite sum (|r| < 1)",
+    "tex_vi": "S=\\dfrac{u_1}{1-q}",
+    "tex_en": "S=\\dfrac{a}{1-r}",
+    "tex": "S=\\dfrac{u_1}{1-q}"
+   }
+  ]
+ },
+ {
+  "code": "A12",
+  "slug": "logarithms",
+  "title_vi": "Logarit",
+  "title_en": "Logarithms",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Nhớ kiểm tra cơ số và số lấy logarit trước khi biến đổi.",
+  "tip_en": "Check the base and argument are valid before using log rules.",
+  "items": [
+   {
+    "label_vi": "Định nghĩa (a > 0, a ≠ 1, b > 0)",
+    "label_en": "Definition (a > 0, a ≠ 1, b > 0)",
+    "tex": "\\log_a b=c\\ \\Leftrightarrow\\ a^c=b"
+   },
+   {
+    "label_vi": "Giá trị cơ bản",
+    "label_en": "Basic values",
+    "tex": [
+     "\\log_a 1=0,\\quad \\log_a a=1",
+     "a^{\\log_a b}=b"
+    ]
+   },
+   {
+    "label_vi": "Logarit của tích (x, y > 0)",
+    "label_en": "Product rule (x, y > 0)",
+    "tex": "\\log_a(xy)=\\log_a x+\\log_a y"
+   },
+   {
+    "label_vi": "Logarit của thương (x, y > 0)",
+    "label_en": "Quotient rule (x, y > 0)",
+    "tex": "\\log_a\\dfrac{x}{y}=\\log_a x-\\log_a y"
+   },
+   {
+    "label_vi": "Logarit của lũy thừa (x > 0)",
+    "label_en": "Power rule (x > 0)",
+    "tex": "\\log_a(x^t)=t\\log_a x"
+   },
+   {
+    "label_vi": "Đổi cơ số (c > 0, c ≠ 1)",
+    "label_en": "Change of base (c > 0, c ≠ 1)",
+    "tex": "\\log_a b=\\dfrac{\\log_c b}{\\log_c a}"
+   },
+   {
+    "label_vi": "Logarit thập phân và tự nhiên",
+    "label_en": "Common and natural logs",
+    "tex": [
+     "\\log x=\\log_{10}x",
+     "\\ln x=\\log_e x\\quad (x>0)"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A13",
+  "slug": "exponential-and-logarithmic-equations",
+  "title_vi": "Phương trình mũ và logarit",
+  "title_en": "Exponential and log equations",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Đừng quên điều kiện biểu thức trong logarit phải dương.",
+  "tip_en": "Every logarithm argument must be positive. Check before solving.",
+  "items": [
+   {
+    "label_vi": "Phương trình mũ (a > 0, a ≠ 1, b > 0)",
+    "label_en": "Exponential equation (a > 0, a ≠ 1, b > 0)",
+    "tex": "a^x=b\\ \\Leftrightarrow\\ x=\\log_a b"
+   },
+   {
+    "label_vi": "Phương trình logarit (a > 0, a ≠ 1)",
+    "label_en": "Log equation (a > 0, a ≠ 1)",
+    "tex": "\\log_a x=b\\ \\Leftrightarrow\\ x=a^b"
+   },
+   {
+    "label_vi": "Đưa về cùng cơ số (a > 0, a ≠ 1)",
+    "label_en": "Same-base equation (a > 0, a ≠ 1)",
+    "tex": "a^{f(x)}=a^{g(x)}\\Leftrightarrow f(x)=g(x)"
+   },
+   {
+    "label_vi": "Cùng cơ số log (u, v > 0)",
+    "label_en": "Equal logs (u, v > 0)",
+    "tex": "\\log_a u=\\log_a v\\Leftrightarrow u=v"
+   },
+   {
+    "label_vi": "Cơ số a > 1: giữ chiều",
+    "label_en": "Base a > 1: keep inequality",
+    "tex": "a^u>a^v\\Leftrightarrow u>v"
+   },
+   {
+    "label_vi": "Cơ số 0 < a < 1: đổi chiều",
+    "label_en": "Base 0 < a < 1: reverse inequality",
+    "tex": "a^u>a^v\\Leftrightarrow u<v"
+   },
+   {
+    "label_vi": "Bất phương trình log (u, v > 0)",
+    "label_en": "Log inequalities (u, v > 0)",
+    "tex_vi": [
+     "a>1:\\ \\log_a u>\\log_a v\\Leftrightarrow u>v",
+     "0<a<1:\\ \\log_a u>\\log_a v\\Leftrightarrow u<v"
+    ],
+    "tex_en": [
+     "a>1:\\ \\log_a u>\\log_a v\\Leftrightarrow u>v",
+     "0<a<1:\\ \\log_a u>\\log_a v\\Leftrightarrow u<v"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "A14",
+  "slug": "interest-growth-and-decay",
+  "title_vi": "Lãi suất và tăng trưởng",
+  "title_en": "Interest, growth and decay",
+  "level_vi": "Lớp 11 & thực tế",
+  "level_en": "High school",
+  "tip_vi": "Đổi phần trăm thành số thập phân và thống nhất đơn vị thời gian.",
+  "tip_en": "Convert percentages to decimals and keep time units consistent.",
+  "items": [
+   {
+    "label_vi": "Lãi đơn (n kỳ, r mỗi kỳ)",
+    "label_en": "Simple interest (n periods, rate r)",
+    "tex": "A=P(1+nr)"
+   },
+   {
+    "label_vi": "Lãi kép (n kỳ, r mỗi kỳ)",
+    "label_en": "Compound interest (n periods, rate r)",
+    "tex": "A=P(1+r)^n"
+   },
+   {
+    "label_vi": "Ghép lãi m lần mỗi năm",
+    "label_en": "Compounded m times per year",
+    "tex": "A=P\\left(1+\\dfrac{r}{m}\\right)^{mt}"
+   },
+   {
+    "label_vi": "Lãi liên tục (t tính bằng năm)",
+    "label_en": "Continuous compounding (t years)",
+    "tex": "A=Pe^{rt}"
+   },
+   {
+    "label_vi": "Tăng trưởng (r ≥ 0)",
+    "label_en": "Growth (r ≥ 0)",
+    "tex": "N=N_0(1+r)^t"
+   },
+   {
+    "label_vi": "Suy giảm (0 ≤ r < 1)",
+    "label_en": "Decay (0 ≤ r < 1)",
+    "tex": "N=N_0(1-r)^t"
+   },
+   {
+    "label_vi": "Chu kỳ bán rã (T > 0)",
+    "label_en": "Half-life (T > 0)",
+    "tex": "A=A_0\\left(\\dfrac{1}{2}\\right)^{t/T}"
+   }
+  ]
+ },
+ {
+  "code": "A15",
+  "slug": "binomial-theorem",
+  "title_vi": "Nhị thức Newton",
+  "title_en": "Binomial theorem",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Mỗi hàng tam giác Pascal bắt đầu, kết thúc bằng 1; số giữa là tổng hai số phía trên.",
+  "tip_en": "In Pascal’s triangle, each inner number adds the two numbers directly above.",
+  "items": [
+   {
+    "label_vi": "Khai triển bậc 4",
+    "label_en": "Fourth power",
+    "tex": [
+     "(a+b)^4=a^4+4a^3b+6a^2b^2",
+     "\\qquad+4ab^3+b^4"
+    ]
+   },
+   {
+    "label_vi": "Khai triển bậc 5",
+    "label_en": "Fifth power",
+    "tex": [
+     "(a+b)^5=a^5+5a^4b+10a^3b^2",
+     "\\qquad+10a^2b^3+5ab^4+b^5"
+    ]
+   },
+   {
+    "label_vi": "Khai triển tổng quát (n nguyên ≥ 0)",
+    "label_en": "General expansion (integer n ≥ 0)",
+    "tex": "(a+b)^n=\\sum_{k=0}^n\\binom{n}{k} a^{n-k}b^k"
+   },
+   {
+    "label_vi": "Số hạng thứ k + 1 (0 ≤ k ≤ n)",
+    "label_en": "Term k + 1 (0 ≤ k ≤ n)",
+    "tex": "T_{k+1}=\\binom{n}{k} a^{n-k}b^k"
+   },
+   {
+    "label_vi": "Hệ số nhị thức",
+    "label_en": "Binomial coefficient",
+    "tex": "\\binom{n}{k}=\\dfrac{n!}{k!(n-k)!}"
+   },
+   {
+    "label_vi": "Tổng các hệ số",
+    "label_en": "Sum of coefficients",
+    "tex": "\\sum_{k=0}^n\\binom{n}{k}=2^n"
+   },
+   {
+    "label_vi": "Quy luật Pascal",
+    "label_en": "Pascal's triangle rule",
+    "tex": "\\binom{n}{k}=\\binom{n-1}{k-1}+\\binom{n-1}{k}"
+   }
+  ]
+ },
+ {
+  "code": "A16",
+  "slug": "complex-numbers",
+  "title_vi": "Số phức",
+  "title_en": "Complex numbers",
+  "level_vi": "Mở rộng quốc tế (IB, A-Level)",
+  "level_en": "Advanced – IB/A-Level",
+  "tip_vi": "Khi chia số phức, nhân cả tử và mẫu với số liên hợp của mẫu.",
+  "tip_en": "Multiply numerator and denominator by the denominator’s conjugate when dividing.",
+  "items": [
+   {
+    "label_vi": "Đơn vị ảo và dạng đại số",
+    "label_en": "Imaginary unit and standard form",
+    "tex": "i^2=-1,\\quad z=a+bi"
+   },
+   {
+    "label_vi": "Môđun và liên hợp (a, b thực)",
+    "label_en": "Modulus and conjugate (a, b real)",
+    "tex": [
+     "|z|=\\sqrt{a^2+b^2}",
+     "\\overline{z}=a-bi"
+    ]
+   },
+   {
+    "label_vi": "Cộng và trừ",
+    "label_en": "Addition and subtraction",
+    "tex": "(a+bi)\\pm(c+di)=(a\\pm c)+(b\\pm d)i"
+   },
+   {
+    "label_vi": "Nhân",
+    "label_en": "Multiplication",
+    "tex": "(a+bi)(c+di)=(ac-bd)+(ad+bc)i"
+   },
+   {
+    "label_vi": "Chia (c² + d² > 0)",
+    "label_en": "Division (c² + d² > 0)",
+    "tex": [
+     "\\dfrac{a+bi}{c+di}=\\dfrac{ac+bd}{c^2+d^2}",
+     "\\qquad+\\dfrac{bc-ad}{c^2+d^2}i"
+    ]
+   },
+   {
+    "label_vi": "Phương trình bậc hai (a ≠ 0, Δ < 0)",
+    "label_en": "Quadratic roots (a ≠ 0, Δ < 0)",
+    "tex": "x=\\dfrac{-b\\pm i\\sqrt{-\\Delta}}{2a}"
+   },
+   {
+    "label_vi": "Dạng lượng giác (r ≥ 0)",
+    "label_en": "Polar form (r ≥ 0)",
+    "tex": "z=r(\\cos\\theta+i\\sin\\theta)"
+   },
+   {
+    "label_vi": "De Moivre (n nguyên)",
+    "label_en": "De Moivre (integer n)",
+    "tex": "z^n=r^n(\\cos n\\theta+i\\sin n\\theta)"
+   }
+  ]
+ },
+ {
+  "code": "B01",
+  "slug": "pythagoras-and-right-triangles",
+  "title_vi": "Pythagore và tam giác vuông",
+  "title_en": "Pythagoras and right triangles",
+  "level_vi": "Lớp 8–9 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Vẽ và ghi rõ cạnh huyền trước khi áp dụng các hệ thức.",
+  "tip_en": "Mark the hypotenuse first; it is always opposite the right angle.",
+  "items": [
+   {
+    "label_vi": "Pythagore và định lí đảo (a là cạnh huyền)",
+    "label_en": "Pythagoras and converse (a hypotenuse)",
+    "tex": "a^2=b^2+c^2"
+   },
+   {
+    "label_vi": "Các bộ ba quen thuộc",
+    "label_en": "Common Pythagorean triples",
+    "tex": "(3,4,5),\\ (5,12,13),\\ (8,15,17)"
+   },
+   {
+    "label_vi": "Tam giác vuông cân (cạnh góc vuông t)",
+    "label_en": "Isosceles right triangle (leg t)",
+    "tex": "a=t\\sqrt{2}"
+   },
+   {
+    "label_vi": "Nửa tam giác đều (cạnh huyền a)",
+    "label_en": "30°–60°–90° triangle (hypotenuse a)",
+    "tex": "b=\\dfrac{a}{2},\\quad c=\\dfrac{a\\sqrt{3}}{2}"
+   },
+   {
+    "label_vi": "Trung tuyến đến cạnh huyền",
+    "label_en": "Median to hypotenuse",
+    "tex": "AM=\\dfrac{BC}{2}"
+   },
+   {
+    "label_vi": "Đường cao đến cạnh huyền (b′, c′ là hình chiếu)",
+    "label_en": "Altitude to hypotenuse (projections b′, c′)",
+    "tex": [
+     "h^2=b' c'",
+     "b^2=ab',\\quad c^2=ac'"
+    ]
+   },
+   {
+    "label_vi": "Hệ thức diện tích và đường cao",
+    "label_en": "Area and altitude identities",
+    "tex": [
+     "bc=ah",
+     "\\dfrac{1}{h^2}=\\dfrac{1}{b^2}+\\dfrac{1}{c^2}"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "B02",
+  "slug": "perimeter-and-area",
+  "title_vi": "Chu vi & diện tích hình phẳng",
+  "title_en": "Perimeter and area",
+  "level_vi": "Lớp 6–8 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Chiều cao phải vuông góc với đáy; đừng nhầm cạnh bên với chiều cao nhé!",
+  "tip_en": "Use the perpendicular height, not the sloping side. Keep all lengths in the same unit!",
+  "items": [
+   {
+    "label_vi": "Hình chữ nhật",
+    "label_en": "Rectangle",
+    "tex": "P=2(a+b),\\quad S=ab"
+   },
+   {
+    "label_vi": "Hình vuông",
+    "label_en": "Square",
+    "tex": "P=4a,\\quad S=a^2"
+   },
+   {
+    "label_vi": "Tam giác",
+    "label_en": "Triangle",
+    "tex": "P=a+b+c,\\quad S=\\dfrac{ah}{2}"
+   },
+   {
+    "label_vi": "Hình bình hành",
+    "label_en": "Parallelogram",
+    "tex": "P=2(a+b),\\quad S=ah"
+   },
+   {
+    "label_vi": "Hình thang",
+    "label_en": "Trapezium / trapezoid",
+    "tex": "S=\\dfrac{(a+b)h}{2}"
+   },
+   {
+    "label_vi": "Hình thoi",
+    "label_en": "Rhombus",
+    "tex": "P=4a,\\quad S=\\dfrac{d_1d_2}{2}"
+   },
+   {
+    "label_vi": "Hình cánh diều (mở rộng)",
+    "label_en": "Kite",
+    "tex": "S=\\dfrac{d_1d_2}{2}"
+   }
+  ]
+ },
+ {
+  "code": "B03",
+  "slug": "circles-arcs-and-sectors",
+  "title_vi": "Đường tròn, cung & hình quạt",
+  "title_en": "Circles, arcs and sectors",
+  "level_vi": "Lớp 9 & 11",
+  "level_en": "Middle–High school",
+  "tip_vi": "Khi dùng l = Rα, góc α phải tính bằng radian; luôn kiểm tra đơn vị!",
+  "tip_en": "In l = Rα, the angle α must be in radians. Check the angle unit first!",
+  "items": [
+   {
+    "label_vi": "Chu vi đường tròn",
+    "label_en": "Circumference",
+    "tex": "C=2\\pi R=\\pi d"
+   },
+   {
+    "label_vi": "Diện tích hình tròn",
+    "label_en": "Area of a circle",
+    "tex": "S=\\pi R^2"
+   },
+   {
+    "label_vi": "Đổi độ và radian",
+    "label_en": "Degrees and radians",
+    "tex": "180^\\circ=\\pi\\ \\mathrm{rad}"
+   },
+   {
+    "label_vi": "Độ dài cung (góc ở tâm n°)",
+    "label_en": "Arc length (central angle n°)",
+    "tex": "l=\\dfrac{n}{360}\\,2\\pi R"
+   },
+   {
+    "label_vi": "Độ dài cung (α rad)",
+    "label_en": "Arc length (α radians)",
+    "tex": "l=R\\alpha"
+   },
+   {
+    "label_vi": "Diện tích hình quạt",
+    "label_en": "Sector area",
+    "tex": [
+     "S=\\dfrac{n}{360}\\pi R^2",
+     "S=\\dfrac{1}{2} R^2\\alpha=\\dfrac{1}{2} Rl"
+    ]
+   },
+   {
+    "label_vi": "Diện tích vành khuyên",
+    "label_en": "Area of an annulus",
+    "tex": "S=\\pi(R^2-r^2)"
+   }
+  ]
+ },
+ {
+  "code": "B04",
+  "slug": "circle-theorems",
+  "title_vi": "Góc với đường tròn",
+  "title_en": "Circle theorems",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Các góc nội tiếp cùng chắn một cung thì bằng nhau. Hãy đánh dấu cung trước!",
+  "tip_en": "Angles subtended by the same chord in the same segment are equal. Mark the arc first!",
+  "items": [
+   {
+    "label_vi": "P trên cung lớn AB; O là tâm",
+    "label_en": "P on major arc AB; O is centre",
+    "tex": "\\angle APB=\\dfrac{1}{2}\\angle AOB"
+   },
+   {
+    "label_vi": "AB là đường kính; P trên đường tròn",
+    "label_en": "AB is a diameter; P lies on circle",
+    "tex": "\\angle APB=90^\\circ"
+   },
+   {
+    "label_vi": "Tứ giác nội tiếp",
+    "label_en": "Cyclic quadrilateral",
+    "tex": "\\angle A+\\angle C=180^\\circ"
+   },
+   {
+    "label_vi": "MT tiếp tuyến tại T; O là tâm",
+    "label_en": "MT tangent at T; O is centre",
+    "tex": "OT\\perp MT"
+   },
+   {
+    "label_vi": "MA, MB là hai tiếp tuyến từ M",
+    "label_en": "MA and MB are tangents from M",
+    "tex": "MA=MB"
+   },
+   {
+    "label_vi": "MT tiếp tuyến tại T; B trên cung đối diện",
+    "label_en": "MT tangent at T; B on opposite arc",
+    "tex": "\\angle MTA=\\angle TBA"
+   }
+  ]
+ },
+ {
+  "code": "B05",
+  "slug": "similarity-and-thales-theorem",
+  "title_vi": "Thalès & tam giác đồng dạng",
+  "title_en": "Similarity and Thales theorem",
+  "level_vi": "Lớp 8 • THCS",
+  "level_en": "Middle school",
+  "tip_vi": "Nhớ xác định các cạnh tương ứng trước khi lập tỉ số nhé!",
+  "tip_en": "Match corresponding sides before writing a proportion!",
+  "items": [
+   {
+    "label_vi": "DE // BC trong tam giác ABC",
+    "label_en": "DE parallel BC in triangle ABC",
+    "tex": "\\dfrac{AD}{AB}=\\dfrac{AE}{AC}=\\dfrac{DE}{BC}"
+   },
+   {
+    "label_vi": "Định lí Thalès (D thuộc AB, E thuộc AC)",
+    "label_en": "Thales proportional segments",
+    "tex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}"
+   },
+   {
+    "label_vi": "Định lí đảo Thalès",
+    "label_en": "Converse of Thales theorem",
+    "tex": "\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\Rightarrow DE\\parallel BC"
+   },
+   {
+    "label_vi": "Đường trung bình tam giác",
+    "label_en": "Triangle mid-segment",
+    "tex": "DE\\parallel BC,\\quad DE=\\dfrac{BC}{2}"
+   },
+   {
+    "label_vi": "AD phân giác góc A; D thuộc BC",
+    "label_en": "AD bisects angle A; D lies on BC",
+    "tex": "\\dfrac{BD}{DC}=\\dfrac{AB}{AC}"
+   },
+   {
+    "label_vi": "Hai tam giác đồng dạng, tỉ số k",
+    "label_en": "Similar triangles, scale factor k",
+    "tex": "\\dfrac{S_1}{S_2}=k^2"
+   },
+   {
+    "label_vi": "Hai khối đồng dạng, tỉ số k",
+    "label_en": "Similar solids, scale factor k",
+    "tex": "\\dfrac{V_1}{V_2}=k^3"
+   }
+  ]
+ },
+ {
+  "code": "B06",
+  "slug": "prisms-and-pyramids",
+  "title_vi": "Hình hộp, lăng trụ, hình chóp",
+  "title_en": "Prisms and pyramids",
+  "level_vi": "Lớp 7–8 & 11",
+  "level_en": "Middle–High school",
+  "tip_vi": "Chiều cao h luôn vuông góc với mặt đáy; đừng nhầm với cạnh bên!",
+  "tip_en": "The vertical height h is perpendicular to the base, not a sloping edge!",
+  "items": [
+   {
+    "label_vi": "Hình hộp chữ nhật: ba cạnh a, b, c",
+    "label_en": "Cuboid: side lengths a, b, c",
+    "tex": [
+     "V=abc",
+     "d=\\sqrt{a^2+b^2+c^2}"
+    ]
+   },
+   {
+    "label_vi": "Hình lập phương cạnh a",
+    "label_en": "Cube of side a",
+    "tex": "V=a^3,\\quad S_{tp}=6a^2"
+   },
+   {
+    "label_vi": "Lăng trụ đứng: chu vi đáy C",
+    "label_en": "Right prism: base perimeter C",
+    "tex": "S_{xq}=Ch"
+   },
+   {
+    "label_vi": "Lăng trụ: diện tích đáy B",
+    "label_en": "Prism: base area B",
+    "tex": "V=Bh"
+   },
+   {
+    "label_vi": "Hình chóp đều: trung đoạn d",
+    "label_en": "Regular pyramid: slant height d",
+    "tex": "S_{xq}=\\dfrac{Cd}{2}"
+   },
+   {
+    "label_vi": "Hình chóp: diện tích đáy B",
+    "label_en": "Pyramid: base area B",
+    "tex": "V=\\dfrac{Bh}{3}"
+   },
+   {
+    "label_vi": "Chóp cụt: hai đáy B và B′",
+    "label_en": "Pyramid frustum: base areas B, B′",
+    "tex": "V=\\dfrac{h}{3}(B+B'+\\sqrt{BB'})"
+   }
+  ]
+ },
+ {
+  "code": "B07",
+  "slug": "cylinders-cones-and-spheres",
+  "title_vi": "Hình trụ, hình nón, hình cầu",
+  "title_en": "Cylinders, cones and spheres",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Thể tích hình nón bằng một phần ba hình trụ cùng đáy và chiều cao!",
+  "tip_en": "A cone has one-third the volume of a cylinder with the same base and height!",
+  "items": [
+   {
+    "label_vi": "Hình trụ: diện tích xung quanh",
+    "label_en": "Cylinder: curved surface area",
+    "tex": "S_{xq}=2\\pi rh"
+   },
+   {
+    "label_vi": "Hình trụ: toàn phần",
+    "label_en": "Cylinder: total surface area",
+    "tex": "S_{tp}=2\\pi rh+2\\pi r^2"
+   },
+   {
+    "label_vi": "Hình trụ: thể tích",
+    "label_en": "Cylinder: volume",
+    "tex": "V=\\pi r^2h"
+   },
+   {
+    "label_vi": "Hình nón: đường sinh l",
+    "label_en": "Cone: slant height l",
+    "tex": "l^2=r^2+h^2"
+   },
+   {
+    "label_vi": "Hình nón: diện tích xung quanh",
+    "label_en": "Cone: curved surface area",
+    "tex": "S_{xq}=\\pi rl"
+   },
+   {
+    "label_vi": "Hình nón: thể tích",
+    "label_en": "Cone: volume",
+    "tex": "V=\\dfrac{\\pi r^2h}{3}"
+   },
+   {
+    "label_vi": "Hình cầu: diện tích mặt cầu",
+    "label_en": "Sphere: surface area",
+    "tex": "S=4\\pi R^2"
+   },
+   {
+    "label_vi": "Hình cầu: thể tích",
+    "label_en": "Sphere: volume",
+    "tex": "V=\\dfrac{4}{3}\\pi R^3"
+   }
+  ]
+ },
+ {
+  "code": "B08a",
+  "slug": "coordinate-geometry-of-lines-part-1",
+  "title_vi": "Tọa độ & đường thẳng",
+  "title_en": "Coordinate geometry of lines",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Nhớ kiểm tra vectơ pháp tuyến khác vectơ không trước khi dùng công thức khoảng cách.",
+  "tip_en": "Check that the normal vector is nonzero; the slope rule only works for nonvertical lines.",
+  "items": [
+   {
+    "label_vi": "Độ dài đoạn AB",
+    "label_en": "Distance between A and B",
+    "tex": "AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}"
+   },
+   {
+    "label_vi": "Trung điểm M của AB",
+    "label_en": "Midpoint M of AB",
+    "tex": "M(\\dfrac{x_A+x_B}{2};\\dfrac{y_A+y_B}{2})",
+    "tex_en": "M(\\dfrac{x_A+x_B}{2},\\dfrac{y_A+y_B}{2})"
+   },
+   {
+    "label_vi": "Trọng tâm G của tam giác ABC",
+    "label_en": "Centroid G of triangle ABC",
+    "tex": "G(\\dfrac{x_A+x_B+x_C}{3};\\dfrac{y_A+y_B+y_C}{3})",
+    "tex_en": "G(\\dfrac{x_A+x_B+x_C}{3},\\dfrac{y_A+y_B+y_C}{3})"
+   },
+   {
+    "label_vi": "Đường thẳng: pháp tuyến (a; b)",
+    "label_en": "Line: normal vector (a, b)",
+    "tex": "ax+by+c=0\\quad (a^2+b^2>0)"
+   }
+  ]
+ },
+ {
+  "code": "B08b",
+  "slug": "coordinate-geometry-of-lines-part-2",
+  "title_vi": "Tọa độ & đường thẳng",
+  "title_en": "Coordinate geometry of lines",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Nhớ kiểm tra vectơ pháp tuyến khác vectơ không trước khi dùng công thức khoảng cách.",
+  "tip_en": "Check that the normal vector is nonzero; the slope rule only works for nonvertical lines.",
+  "items": [
+   {
+    "label_vi": "Tham số: vectơ chỉ phương (u; v)",
+    "label_en": "Parametric form: direction (u, v)",
+    "tex": [
+     "x=x_0+ut,\\quad y=y_0+vt",
+     "t\\in\\mathbb{R},\\quad u^2+v^2>0"
+    ]
+   },
+   {
+    "label_vi": "Khoảng cách từ M đến đường thẳng",
+    "label_en": "Point-to-line distance",
+    "tex": "d=\\dfrac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}"
+   },
+   {
+    "label_vi": "Góc nhọn giữa hai đường thẳng",
+    "label_en": "Acute angle between two lines",
+    "tex": "\\cos\\varphi=\\dfrac{|a_1a_2+b_1b_2|}{\\sqrt{a_1^2+b_1^2}\\sqrt{a_2^2+b_2^2}}"
+   },
+   {
+    "label_vi": "Hai đường thẳng vuông góc",
+    "label_en": "Perpendicular lines (nonvertical)",
+    "tex": "a_1a_2+b_1b_2=0",
+    "tex_en": "m_1m_2=-1"
+   }
+  ]
+ },
+ {
+  "code": "B09",
+  "slug": "equation-of-a-circle",
+  "title_vi": "Phương trình đường tròn",
+  "title_en": "Equation of a circle",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong phương trình khai triển, phải có bán kính bình phương dương mới là đường tròn.",
+  "tip_en": "An expanded circle equation must give a positive squared radius.",
+  "items": [
+   {
+    "label_vi": "Tâm I(a; b), bán kính R > 0",
+    "label_en": "Centre (a, b), radius R > 0",
+    "tex": "(x-a)^2+(y-b)^2=R^2"
+   },
+   {
+    "label_vi": "Dạng khai triển",
+    "label_en": "Expanded equation",
+    "tex": "x^2+y^2+Dx+Ey+F=0"
+   },
+   {
+    "label_vi": "Tâm và bán kính từ dạng khai triển",
+    "label_en": "Centre and radius from expanded form",
+    "tex": [
+     "I(-\\dfrac{D}{2};-\\dfrac{E}{2})",
+     "R=\\sqrt{\\dfrac{D^2+E^2}{4}-F}"
+    ],
+    "tex_en": [
+     "I(-\\dfrac{D}{2},-\\dfrac{E}{2})",
+     "R=\\sqrt{\\dfrac{D^2+E^2}{4}-F}"
+    ]
+   },
+   {
+    "label_vi": "Điều kiện là đường tròn thực",
+    "label_en": "Condition for a real circle",
+    "tex": "D^2+E^2-4F>0"
+   },
+   {
+    "label_vi": "Tiếp tuyến tại M₀ thuộc đường tròn",
+    "label_en": "Tangent at a point on the circle",
+    "tex": "(x_0-a)(x-a)+(y_0-b)(y-b)=R^2"
+   },
+   {
+    "label_vi": "Tiếp xúc đường thẳng Ax+By+C=0",
+    "label_en": "Tangency to line Ax+By+C=0",
+    "tex": "\\dfrac{|Aa+Bb+C|}{\\sqrt{A^2+B^2}}=R"
+   },
+   {
+    "label_vi": "Đường tròn tâm O, bán kính R",
+    "label_en": "Circle centred at origin",
+    "tex": "x^2+y^2=R^2"
+   }
+  ]
+ },
+ {
+  "code": "B10",
+  "slug": "conic-sections",
+  "title_vi": "Ba đường conic",
+  "title_en": "Conic sections",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Elip dùng hiệu hai bình phương, còn hypebol dùng tổng để tìm c.",
+  "tip_en": "For foci, the ellipse uses a difference of squares; the hyperbola uses a sum.",
+  "items": [
+   {
+    "label_vi": "Elip: a > b > 0",
+    "label_en": "Ellipse: a > b > 0",
+    "tex": "\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1"
+   },
+   {
+    "label_vi": "Elip: tiêu điểm và tâm sai",
+    "label_en": "Ellipse: foci and eccentricity",
+    "tex": [
+     "c^2=a^2-b^2,\\quad e=\\dfrac{c}{a}",
+     "F_1(-c;0),\\quad F_2(c;0)"
+    ],
+    "tex_en": [
+     "c^2=a^2-b^2,\\quad e=\\dfrac{c}{a}",
+     "F_1(-c,0),\\quad F_2(c,0)"
+    ]
+   },
+   {
+    "label_vi": "Hypebol: a, b > 0",
+    "label_en": "Hyperbola: a, b > 0",
+    "tex": "\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1"
+   },
+   {
+    "label_vi": "Hypebol: tiêu điểm",
+    "label_en": "Hyperbola: foci",
+    "tex": [
+     "c^2=a^2+b^2,\\quad e=\\dfrac{c}{a}>1",
+     "F_1(-c;0),\\quad F_2(c;0)"
+    ],
+    "tex_en": [
+     "c^2=a^2+b^2,\\quad e=\\dfrac{c}{a}>1",
+     "F_1(-c,0),\\quad F_2(c,0)"
+    ]
+   },
+   {
+    "label_vi": "Tiệm cận của hypebol",
+    "label_en": "Hyperbola asymptotes",
+    "tex": "y=\\pm\\dfrac{b}{a} x"
+   },
+   {
+    "label_vi": "Parabol: p > 0",
+    "label_en": "Parabola: a > 0",
+    "tex": "y^2=2px",
+    "tex_en": "y^2=4ax"
+   },
+   {
+    "label_vi": "Tiêu điểm của parabol",
+    "label_en": "Parabola focus",
+    "tex": "F(\\dfrac{p}{2};0)",
+    "tex_en": "F(a,0)"
+   }
+  ]
+ },
+ {
+  "code": "B11",
+  "slug": "vectors",
+  "title_vi": "Vectơ",
+  "title_en": "Vectors",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Tích vô hướng bằng 0 khi hai vectơ khác vectơ-không vuông góc.",
+  "tip_en": "A zero dot product means nonzero vectors are perpendicular.",
+  "items": [
+   {
+    "label_vi": "Quy tắc ba điểm",
+    "label_en": "Triangle rule",
+    "tex_vi": "\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}",
+    "tex_en": "\\vec{AB}+\\vec{BC}=\\vec{AC}"
+   },
+   {
+    "label_vi": "Quy tắc hình bình hành",
+    "label_en": "Parallelogram rule",
+    "tex_vi": "\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AC}",
+    "tex_en": "\\vec{AB}+\\vec{AD}=\\vec{AC}"
+   },
+   {
+    "label_vi": "Hiệu hai vectơ",
+    "label_en": "Vector subtraction",
+    "tex": "\\vec a-\\vec b=\\vec a+(-\\vec b)"
+   },
+   {
+    "label_vi": "Trung điểm I của AB",
+    "label_en": "Midpoint I of AB",
+    "tex_vi": "\\overrightarrow{IA}+\\overrightarrow{IB}=\\vec 0",
+    "tex_en": "\\vec{IA}+\\vec{IB}=\\vec 0"
+   },
+   {
+    "label_vi": "Trọng tâm G của tam giác ABC",
+    "label_en": "Centroid G of triangle ABC",
+    "tex_vi": "\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec 0",
+    "tex_en": "\\vec{GA}+\\vec{GB}+\\vec{GC}=\\vec 0"
+   },
+   {
+    "label_vi": "Tích vô hướng và góc",
+    "label_en": "Dot product and angle",
+    "tex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta"
+   },
+   {
+    "label_vi": "Tọa độ và độ dài",
+    "label_en": "Components and magnitude",
+    "tex": [
+     "\\vec a\\cdot\\vec b=a_1b_1+a_2b_2",
+     "|\\vec a|=\\sqrt{a_1^2+a_2^2}"
+    ]
+   },
+   {
+    "label_vi": "Vuông góc; cùng phương",
+    "label_en": "Perpendicular; parallel",
+    "tex": [
+     "\\vec a\\perp\\vec b\\Leftrightarrow\\vec a\\cdot\\vec b=0",
+     "\\vec a\\parallel\\vec b\\Leftrightarrow a_1b_2-a_2b_1=0"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "B12a",
+  "slug": "vectors-in-3d-part-1",
+  "title_vi": "Vectơ trong không gian Oxyz I",
+  "title_en": "Vectors in 3D I",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Hai vectơ vuông góc khi và chỉ khi tích vô hướng của chúng bằng 0. Nhớ mẹo này nhé!",
+  "tip_en": "Two vectors are perpendicular exactly when their dot product is 0. Keep this one handy!",
+  "items": [
+   {
+    "label_vi": "Tọa độ vectơ AB",
+    "label_en": "Vector AB components",
+    "tex": "\\vec{AB}=(x_B-x_A,y_B-y_A,z_B-z_A)",
+    "tex_vi": "\\overrightarrow{AB}=(x_B-x_A;y_B-y_A;z_B-z_A)",
+    "tex_en": "\\vec{AB}=(x_B-x_A,y_B-y_A,z_B-z_A)"
+   },
+   {
+    "label_vi": "Cộng, trừ, nhân với số",
+    "label_en": "Addition, subtraction, scaling",
+    "tex": [
+     "\\vec a\\pm\\vec b=(a_1\\pm b_1,a_2\\pm b_2,a_3\\pm b_3)",
+     "k\\vec a=(ka_1,ka_2,ka_3)"
+    ],
+    "tex_vi": [
+     "\\overrightarrow{a}\\pm\\overrightarrow{b}=(a_1\\pm b_1;a_2\\pm b_2;a_3\\pm b_3)",
+     "k\\overrightarrow{a}=(ka_1;ka_2;ka_3)"
+    ],
+    "tex_en": [
+     "\\vec a\\pm\\vec b=(a_1\\pm b_1,a_2\\pm b_2,a_3\\pm b_3)",
+     "k\\vec a=(ka_1,ka_2,ka_3)"
+    ]
+   },
+   {
+    "label_vi": "Tích vô hướng",
+    "label_en": "Dot product",
+    "tex": "\\vec a\\cdot\\vec b=a_1b_1+a_2b_2+a_3b_3",
+    "tex_vi": "\\overrightarrow{a}\\cdot\\overrightarrow{b}=a_1b_1+a_2b_2+a_3b_3",
+    "tex_en": "\\vec a\\cdot\\vec b=a_1b_1+a_2b_2+a_3b_3"
+   },
+   {
+    "label_vi": "Độ dài vectơ",
+    "label_en": "Vector magnitude",
+    "tex": "|\\vec a|=\\sqrt{a_1^2+a_2^2+a_3^2}",
+    "tex_vi": "|\\overrightarrow{a}|=\\sqrt{a_1^2+a_2^2+a_3^2}",
+    "tex_en": "|\\vec a|=\\sqrt{a_1^2+a_2^2+a_3^2}"
+   }
+  ]
+ },
+ {
+  "code": "B12b",
+  "slug": "vectors-in-3d-part-2",
+  "title_vi": "Vectơ trong không gian Oxyz II",
+  "title_en": "Vectors in 3D II",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Tích có hướng vuông góc với cả hai vectơ ban đầu.",
+  "tip_en": "The cross product is perpendicular to both original vectors.",
+  "items": [
+   {
+    "label_vi": "Góc giữa hai vectơ khác 0",
+    "label_en": "Angle between nonzero vectors",
+    "tex": "\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+    "tex_vi": "\\cos\\theta=\\dfrac{\\overrightarrow{a}\\cdot\\overrightarrow{b}}{|\\overrightarrow{a}||\\overrightarrow{b}|}",
+    "tex_en": "\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+   },
+   {
+    "label_vi": "Tích có hướng",
+    "label_en": "Cross product",
+    "tex": [
+     "\\vec a\\times\\vec b=(a_2b_3-a_3b_2,",
+     "a_3b_1-a_1b_3,a_1b_2-a_2b_1)"
+    ],
+    "tex_vi": [
+     "\\overrightarrow{a}\\times\\overrightarrow{b}=(a_2b_3-a_3b_2;",
+     "a_3b_1-a_1b_3;a_1b_2-a_2b_1)"
+    ],
+    "tex_en": [
+     "\\vec a\\times\\vec b=(a_2b_3-a_3b_2,",
+     "a_3b_1-a_1b_3,a_1b_2-a_2b_1)"
+    ]
+   },
+   {
+    "label_vi": "Trung điểm I của AB",
+    "label_en": "Midpoint I of AB",
+    "tex": "I=(\\dfrac{x_A+x_B}{2},\\dfrac{y_A+y_B}{2},\\dfrac{z_A+z_B}{2})",
+    "tex_vi": "I=(\\dfrac{x_A+x_B}{2};\\dfrac{y_A+y_B}{2};\\dfrac{z_A+z_B}{2})",
+    "tex_en": "I=(\\dfrac{x_A+x_B}{2},\\dfrac{y_A+y_B}{2},\\dfrac{z_A+z_B}{2})"
+   },
+   {
+    "label_vi": "Trọng tâm G tam giác ABC",
+    "label_en": "Centroid G of triangle ABC",
+    "tex": "G=(\\dfrac{x_A+x_B+x_C}{3},\\dfrac{y_A+y_B+y_C}{3},\\dfrac{z_A+z_B+z_C}{3})",
+    "tex_vi": "G=(\\dfrac{x_A+x_B+x_C}{3};\\dfrac{y_A+y_B+y_C}{3};\\dfrac{z_A+z_B+z_C}{3})",
+    "tex_en": "G=(\\dfrac{x_A+x_B+x_C}{3},\\dfrac{y_A+y_B+y_C}{3},\\dfrac{z_A+z_B+z_C}{3})"
+   }
+  ]
+ },
+ {
+  "code": "B13a",
+  "slug": "lines-planes-and-spheres-in-3d-part-1",
+  "title_vi": "Mặt phẳng, đường thẳng, mặt cầu I",
+  "title_en": "Lines, planes and spheres I",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "Advanced – IB/A-Level",
+  "tip_vi": "Mẫu số trong công thức khoảng cách phải khác 0.",
+  "tip_en": "Check that direction and normal vectors are nonzero.",
+  "items": [
+   {
+    "label_vi": "Mặt phẳng qua M₀, pháp tuyến n",
+    "label_en": "Plane through M₀, normal n",
+    "tex": "A(x-x_0)+B(y-y_0)+C(z-z_0)=0"
+   },
+   {
+    "label_vi": "Khoảng cách từ điểm đến mặt phẳng",
+    "label_en": "Point-to-plane distance",
+    "tex": "d=\\dfrac{|Ax_0+By_0+Cz_0+D|}{\\sqrt{A^2+B^2+C^2}}"
+   },
+   {
+    "label_vi": "Đường thẳng tham số",
+    "label_en": "Parametric line",
+    "tex": [
+     "x=x_0+at,\\quad y=y_0+bt",
+     "z=z_0+ct\\quad (t\\in\\mathbb{R})"
+    ]
+   },
+   {
+    "label_vi": "Đường thẳng chính tắc (abc ≠ 0)",
+    "label_en": "Symmetric line (abc ≠ 0)",
+    "tex": "\\dfrac{x-x_0}{a}=\\dfrac{y-y_0}{b}=\\dfrac{z-z_0}{c}"
+   }
+  ]
+ },
+ {
+  "code": "B13b",
+  "slug": "lines-planes-and-spheres-in-3d-part-2",
+  "title_vi": "Mặt phẳng, đường thẳng, mặt cầu II",
+  "title_en": "Lines, planes and spheres II",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "Advanced – IB/A-Level",
+  "tip_vi": "Góc giữa hai đường thẳng, giữa hai mặt phẳng chỉ từ 0° đến 90°, nên nhớ lấy giá trị tuyệt đối ở tử số nhé!",
+  "tip_en": "Angles between lines or planes are between 0° and 90°, so keep the absolute value on top!",
+  "items": [
+   {
+    "label_vi": "Góc giữa hai đường thẳng",
+    "label_en": "Angle between two lines",
+    "tex": "\\cos\\theta=\\dfrac{|\\vec u\\cdot\\vec v|}{|\\vec u||\\vec v|}"
+   },
+   {
+    "label_vi": "Góc giữa đường thẳng và mặt phẳng",
+    "label_en": "Angle between line and plane",
+    "tex": "\\sin\\alpha=\\dfrac{|\\vec u\\cdot\\vec n|}{|\\vec u||\\vec n|}"
+   },
+   {
+    "label_vi": "Góc giữa hai mặt phẳng",
+    "label_en": "Angle between two planes",
+    "tex": "\\cos\\varphi=\\dfrac{|\\vec n_1\\cdot\\vec n_2|}{|\\vec n_1||\\vec n_2|}"
+   },
+   {
+    "label_vi": "Mặt cầu tâm I, bán kính R > 0",
+    "label_en": "Sphere with centre I, radius R > 0",
+    "tex": "(x-a)^2+(y-b)^2+(z-c)^2=R^2"
+   }
+  ]
+ },
+ {
+  "code": "B14",
+  "slug": "transformations",
+  "title_vi": "Phép biến hình",
+  "title_en": "Transformations",
+  "level_vi": "Mở rộng quốc tế (GCSE, IGCSE)",
+  "level_en": "Middle–High school",
+  "tip_vi": "Quay 90 độ ngược chiều kim đồng hồ: đổi chỗ x, y rồi đổi dấu tọa độ mới thứ nhất.",
+  "tip_en": "For a 90-degree anticlockwise turn, swap coordinates and negate the new first coordinate.",
+  "items": [
+   {
+    "label_vi": "Tịnh tiến theo vectơ (a; b)",
+    "label_en": "Translation by vector (a, b)",
+    "tex": "(x,y)\\mapsto(x+a,y+b)"
+   },
+   {
+    "label_vi": "Đối xứng qua trục Ox",
+    "label_en": "Reflection in x-axis",
+    "tex": "(x,y)\\mapsto(x,-y)"
+   },
+   {
+    "label_vi": "Đối xứng qua trục Oy",
+    "label_en": "Reflection in y-axis",
+    "tex": "(x,y)\\mapsto(-x,y)"
+   },
+   {
+    "label_vi": "Đối xứng qua y = x",
+    "label_en": "Reflection in y = x",
+    "tex": "(x,y)\\mapsto(y,x)"
+   },
+   {
+    "label_vi": "Đối xứng tâm O",
+    "label_en": "Half-turn about origin O",
+    "tex": "(x,y)\\mapsto(-x,-y)"
+   },
+   {
+    "label_vi": "Quay 90° ngược chiều quanh O",
+    "label_en": "90° anticlockwise about O",
+    "tex": "(x,y)\\mapsto(-y,x)"
+   },
+   {
+    "label_vi": "Vị tự tâm O, tỉ số k",
+    "label_en": "Enlargement about O, scale k",
+    "tex": "(x,y)\\mapsto(kx,ky)"
+   }
+  ]
+ },
+ {
+  "code": "C01a",
+  "slug": "right-angled-triangle-trigonometry-part-1",
+  "title_vi": "Tỉ số lượng giác góc nhọn I",
+  "title_en": "Right triangle trigonometry I",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Sin đối trên huyền; cos kề trên huyền; tan đối trên kề.",
+  "tip_en": "SOH–CAH–TOA: sine opposite/hypotenuse, cosine adjacent/hypotenuse, tangent opposite/adjacent.",
+  "items": [
+   {
+    "label_vi": "Sin và cos (tam giác vuông)",
+    "label_en": "Sine and cosine (right triangle)",
+    "tex": [
+     "\\sin B=\\dfrac{b}{a}",
+     "\\cos B=\\dfrac{c}{a}"
+    ]
+   },
+   {
+    "label_vi": "Tan và cot (B nhọn)",
+    "label_en": "Tangent and cotangent (acute B)",
+    "tex": [
+     "\\tan B=\\dfrac{b}{c}",
+     "\\cot B=\\dfrac{c}{b}"
+    ]
+   },
+   {
+    "label_vi": "Góc 30°",
+    "label_en": "Angle 30°",
+    "tex": [
+     "\\sin30^\\circ=\\dfrac{1}{2}",
+     "\\cos30^\\circ=\\dfrac{\\sqrt{3}}{2}"
+    ]
+   },
+   {
+    "label_vi": "Góc 45°",
+    "label_en": "Angle 45°",
+    "tex": [
+     "\\sin45^\\circ=\\cos45^\\circ=\\dfrac{\\sqrt{2}}{2}",
+     "\\tan45^\\circ=1"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C01b",
+  "slug": "right-angled-triangle-trigonometry-part-2",
+  "title_vi": "Tỉ số lượng giác góc nhọn II",
+  "title_en": "Right triangle trigonometry II",
+  "level_vi": "Lớp 9 • THCS",
+  "level_en": "Middle–High school",
+  "tip_vi": "Sin đối trên huyền; cos kề trên huyền; tan đối trên kề.",
+  "tip_en": "SOH–CAH–TOA: sine opposite/hypotenuse, cosine adjacent/hypotenuse, tangent opposite/adjacent.",
+  "items": [
+   {
+    "label_vi": "Góc 45°",
+    "label_en": "Angle 45°",
+    "tex": [
+     "\\sin45^\\circ=\\cos45^\\circ=\\dfrac{\\sqrt{2}}{2}",
+     "\\tan45^\\circ=1"
+    ]
+   },
+   {
+    "label_vi": "Góc 60°",
+    "label_en": "Angle 60°",
+    "tex": [
+     "\\sin60^\\circ=\\dfrac{\\sqrt{3}}{2}",
+     "\\cos60^\\circ=\\dfrac{1}{2}"
+    ]
+   },
+   {
+    "label_vi": "Hai góc phụ nhau",
+    "label_en": "Complementary angles",
+    "tex": "\\sin B=\\cos(90^\\circ-B)"
+   },
+   {
+    "label_vi": "Hệ thức cạnh góc (a: huyền)",
+    "label_en": "Side-angle relations (a: hypotenuse)",
+    "tex": [
+     "b=a\\sin B=c\\tan B",
+     "c=a\\cos B"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C02a",
+  "slug": "sine-rule-cosine-rule-and-area-part-1",
+  "title_vi": "Hệ thức lượng tam giác I",
+  "title_en": "Sine cosine rule and area I",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong công thức Heron, p là nửa chu vi, không phải chu vi.",
+  "tip_en": "In Heron’s formula, s is the semiperimeter, not the perimeter.",
+  "items": [
+   {
+    "label_vi": "Định lí sin (R: bán kính ngoại tiếp)",
+    "label_en": "Sine rule (R: circumradius)",
+    "tex": "\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}=2R"
+   },
+   {
+    "label_vi": "Định lí côsin",
+    "label_en": "Cosine rule",
+    "tex": "a^2=b^2+c^2-2bc\\cos A"
+   },
+   {
+    "label_vi": "Tính cos A",
+    "label_en": "Find cos A",
+    "tex": "\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}"
+   },
+   {
+    "label_vi": "Diện tích qua sin",
+    "label_en": "Area using sine",
+    "tex": "S=\\dfrac{1}{2} bc\\sin A"
+   }
+  ]
+ },
+ {
+  "code": "C02b",
+  "slug": "sine-rule-cosine-rule-and-area-part-2",
+  "title_vi": "Hệ thức lượng tam giác II",
+  "title_en": "Sine cosine rule and area II",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong công thức Heron, p là nửa chu vi, không phải chu vi.",
+  "tip_en": "In Heron’s formula, s is the semiperimeter, not the perimeter.",
+  "items": [
+   {
+    "label_vi": "Diện tích qua sin",
+    "label_en": "Area using sine",
+    "tex": "S=\\dfrac{1}{2} bc\\sin A"
+   },
+   {
+    "label_vi": "Diện tích qua R và r",
+    "label_en": "Area using R and r",
+    "tex_vi": [
+     "S=\\dfrac{abc}{4R}",
+     "S=pr\\quad(p=\\dfrac{a+b+c}{2})"
+    ],
+    "tex_en": [
+     "K=\\dfrac{abc}{4R}",
+     "K=sr\\quad(s=\\dfrac{a+b+c}{2})"
+    ]
+   },
+   {
+    "label_vi": "Công thức Heron",
+    "label_en": "Heron’s formula",
+    "tex_vi": "S=\\sqrt{p(p-a)(p-b)(p-c)}",
+    "tex_en": "K=\\sqrt{s(s-a)(s-b)(s-c)}"
+   },
+   {
+    "label_vi": "Độ dài trung tuyến từ A",
+    "label_en": "Median length from A",
+    "tex": "m_a=\\dfrac{1}{2}\\sqrt{2b^2+2c^2-a^2}"
+   }
+  ]
+ },
+ {
+  "code": "C03a",
+  "slug": "radians-and-trigonometric-identities-part-1",
+  "title_vi": "Góc lượng giác và hệ thức I",
+  "title_en": "Radians and trig identities I",
+  "level_vi": "Lớp 10–11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Chú ý điều kiện mẫu khác 0 khi dùng tan, cot và các hệ thức liên quan.",
+  "tip_en": "Check nonzero denominators whenever using tangent, cotangent, or related identities.",
+  "items": [
+   {
+    "label_vi": "Độ và radian",
+    "label_en": "Degrees and radians",
+    "tex": [
+     "180^\\circ=\\pi\\,\\mathrm{rad}",
+     "\\alpha_{\\mathrm{rad}}=\\alpha_{\\mathrm{deg}}\\dfrac{\\pi}{180}"
+    ]
+   },
+   {
+    "label_vi": "Độ dài cung (α tính bằng radian)",
+    "label_en": "Arc length (α in radians)",
+    "tex": "l=R\\alpha"
+   },
+   {
+    "label_vi": "Hệ thức cơ bản",
+    "label_en": "Pythagorean identity",
+    "tex": "\\sin^2x+\\cos^2x=1"
+   },
+   {
+    "label_vi": "Tan và cot (mẫu khác 0)",
+    "label_en": "Tan and cot (nonzero denominators)",
+    "tex": [
+     "\\tan x=\\dfrac{\\sin x}{\\cos x}",
+     "\\cot x=\\dfrac{\\cos x}{\\sin x}"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C03b",
+  "slug": "radians-and-trigonometric-identities-part-2",
+  "title_vi": "Góc lượng giác và hệ thức II",
+  "title_en": "Radians and trig identities II",
+  "level_vi": "Lớp 10–11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Chú ý điều kiện mẫu khác 0 khi dùng tan, cot và các hệ thức liên quan.",
+  "tip_en": "Check nonzero denominators whenever using tangent, cotangent, or related identities.",
+  "items": [
+   {
+    "label_vi": "Tích tan và cot (đều xác định)",
+    "label_en": "Tan times cot (both defined)",
+    "tex": "\\tan x\\cot x=1"
+   },
+   {
+    "label_vi": "Hệ thức theo cos (cos x ≠ 0)",
+    "label_en": "Identity with cos (cos x ≠ 0)",
+    "tex": "1+\\tan^2x=\\dfrac{1}{\\cos^2x}"
+   },
+   {
+    "label_vi": "Hệ thức theo sin (sin x ≠ 0)",
+    "label_en": "Identity with sin (sin x ≠ 0)",
+    "tex": "1+\\cot^2x=\\dfrac{1}{\\sin^2x}"
+   },
+   {
+    "label_vi": "Dấu sin, cos theo góc phần tư",
+    "label_en": "Signs by quadrant (CAST)",
+    "tex": [
+     "\\mathrm{I}:(+,+),\\quad\\mathrm{II}:(+,-)",
+     "\\mathrm{III}:(-,-),\\quad\\mathrm{IV}:(-,+)"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C04a",
+  "slug": "related-angles-part-1",
+  "title_vi": "Góc lượng giác liên quan I",
+  "title_en": "Related angles I",
+  "level_vi": "Lớp 10–11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Nhớ: cos đối, sin bù, phụ chéo; góc hơn kém π giữ tan và cot.",
+  "tip_en": "Odd/even symmetry, supplementary and complementary angles help reconstruct identities.",
+  "items": [
+   {
+    "label_vi": "Góc đối nhau",
+    "label_en": "Opposite angles",
+    "tex": [
+     "\\sin(-x)=-\\sin x",
+     "\\cos(-x)=\\cos x"
+    ]
+   },
+   {
+    "label_vi": "Góc bù nhau",
+    "label_en": "Supplementary angles",
+    "tex": [
+     "\\sin(\\pi-x)=\\sin x",
+     "\\cos(\\pi-x)=-\\cos x"
+    ]
+   },
+   {
+    "label_vi": "Góc phụ nhau",
+    "label_en": "Complementary angles",
+    "tex": [
+     "\\sin(\\dfrac{\\pi}{2}-x)=\\cos x",
+     "\\cos(\\dfrac{\\pi}{2}-x)=\\sin x"
+    ]
+   },
+   {
+    "label_vi": "Hơn kém π",
+    "label_en": "Shift by π",
+    "tex": [
+     "\\sin(x+\\pi)=-\\sin x",
+     "\\cos(x+\\pi)=-\\cos x"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C04b",
+  "slug": "related-angles-part-2",
+  "title_vi": "Góc lượng giác liên quan II",
+  "title_en": "Related angles II",
+  "level_vi": "Lớp 10–11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Nhớ: cos đối, sin bù, phụ chéo; góc hơn kém π giữ tan và cot.",
+  "tip_en": "Odd/even symmetry, supplementary and complementary angles help reconstruct identities.",
+  "items": [
+   {
+    "label_vi": "Góc phụ nhau",
+    "label_en": "Complementary angles",
+    "tex": [
+     "\\sin(\\dfrac{\\pi}{2}-x)=\\cos x",
+     "\\cos(\\dfrac{\\pi}{2}-x)=\\sin x"
+    ]
+   },
+   {
+    "label_vi": "Hơn kém π",
+    "label_en": "Shift by π",
+    "tex": [
+     "\\sin(x+\\pi)=-\\sin x",
+     "\\cos(x+\\pi)=-\\cos x"
+    ]
+   },
+   {
+    "label_vi": "Hơn kém π/2",
+    "label_en": "Shift by π/2",
+    "tex": [
+     "\\sin(x+\\dfrac{\\pi}{2})=\\cos x",
+     "\\cos(x+\\dfrac{\\pi}{2})=-\\sin x"
+    ]
+   },
+   {
+    "label_vi": "Tan và cot: chu kì π",
+    "label_en": "Tan and cot: period π",
+    "tex": [
+     "\\tan(x+\\pi)=\\tan x",
+     "\\cot(x+\\pi)=\\cot x"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C05a",
+  "slug": "compound-double-and-half-angle-part-1",
+  "title_vi": "Cộng, nhân đôi, hạ bậc I",
+  "title_en": "Compound and double angles I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong cos(a ± b), dấu giữa hai tích ngược với dấu trong ngoặc.",
+  "tip_en": "In cos(a ± b), the sign between products is opposite to the sign inside the angle.",
+  "items": [
+   {
+    "label_vi": "Sin của tổng",
+    "label_en": "Sine of sum",
+    "tex": "\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b"
+   },
+   {
+    "label_vi": "Sin của hiệu",
+    "label_en": "Sine of difference",
+    "tex": "\\sin(a-b)=\\sin a\\cos b-\\cos a\\sin b"
+   },
+   {
+    "label_vi": "Cos của tổng",
+    "label_en": "Cosine of sum",
+    "tex": "\\cos(a+b)=\\cos a\\cos b-\\sin a\\sin b"
+   },
+   {
+    "label_vi": "Cos của hiệu",
+    "label_en": "Cosine of difference",
+    "tex": "\\cos(a-b)=\\cos a\\cos b+\\sin a\\sin b"
+   },
+   {
+    "label_vi": "Tan của tổng (khi xác định)",
+    "label_en": "Tangent of sum (when defined)",
+    "tex": "\\tan(a+b)=\\dfrac{\\tan a+\\tan b}{1-\\tan a\\tan b}"
+   }
+  ]
+ },
+ {
+  "code": "C05b",
+  "slug": "compound-double-and-half-angle-part-2",
+  "title_vi": "Cộng, nhân đôi, hạ bậc II",
+  "title_en": "Compound and double angles II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong cos(a ± b), dấu giữa hai tích ngược với dấu trong ngoặc.",
+  "tip_en": "In cos(a ± b), the sign between products is opposite to the sign inside the angle.",
+  "items": [
+   {
+    "label_vi": "Tan của hiệu (khi xác định)",
+    "label_en": "Tangent of difference (when defined)",
+    "tex": "\\tan(a-b)=\\dfrac{\\tan a-\\tan b}{1+\\tan a\\tan b}"
+   },
+   {
+    "label_vi": "Sin và tan góc nhân đôi",
+    "label_en": "Double-angle sine and tangent",
+    "tex": [
+     "\\sin2a=2\\sin a\\cos a",
+     "\\tan2a=\\dfrac{2\\tan a}{1-\\tan^2a}"
+    ]
+   },
+   {
+    "label_vi": "Cos nhân đôi: ba dạng",
+    "label_en": "Double-angle cosine: three forms",
+    "tex": [
+     "\\cos2a=\\cos^2a-\\sin^2a",
+     "\\cos2a=2\\cos^2a-1=1-2\\sin^2a"
+    ]
+   },
+   {
+    "label_vi": "Hạ bậc sin² và cos²",
+    "label_en": "Power-reduction formulas",
+    "tex": [
+     "\\sin^2a=\\dfrac{1-\\cos2a}{2}",
+     "\\cos^2a=\\dfrac{1+\\cos2a}{2}"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C06a",
+  "slug": "product-to-sum-and-sum-to-product-part-1",
+  "title_vi": "Biến đổi tích và tổng I",
+  "title_en": "Product-to-sum identities I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Đổi tích thành tổng bằng góc tổng và hiệu; đổi tổng thành tích bằng nửa tổng, nửa hiệu.",
+  "tip_en": "For sum-to-product, use half the sum and half the difference of the angles.",
+  "items": [
+   {
+    "label_vi": "Tích cos cos",
+    "label_en": "Cosine times cosine",
+    "tex": "\\cos a\\cos b=\\dfrac{\\cos(a-b)+\\cos(a+b)}{2}"
+   },
+   {
+    "label_vi": "Tích sin sin",
+    "label_en": "Sine times sine",
+    "tex": "\\sin a\\sin b=\\dfrac{\\cos(a-b)-\\cos(a+b)}{2}"
+   },
+   {
+    "label_vi": "Tích sin cos",
+    "label_en": "Sine times cosine",
+    "tex": "\\sin a\\cos b=\\dfrac{\\sin(a+b)+\\sin(a-b)}{2}"
+   },
+   {
+    "label_vi": "Tổng hai cos",
+    "label_en": "Sum of cosines",
+    "tex": "\\cos a+\\cos b=2\\cos\\dfrac{a+b}{2}\\cos\\dfrac{a-b}{2}"
+   }
+  ]
+ },
+ {
+  "code": "C06b",
+  "slug": "product-to-sum-and-sum-to-product-part-2",
+  "title_vi": "Biến đổi tích và tổng II",
+  "title_en": "Product-to-sum identities II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Đổi tích thành tổng bằng góc tổng và hiệu; đổi tổng thành tích bằng nửa tổng, nửa hiệu.",
+  "tip_en": "For sum-to-product, use half the sum and half the difference of the angles.",
+  "items": [
+   {
+    "label_vi": "Tổng hai cos",
+    "label_en": "Sum of cosines",
+    "tex": "\\cos a+\\cos b=2\\cos\\dfrac{a+b}{2}\\cos\\dfrac{a-b}{2}"
+   },
+   {
+    "label_vi": "Hiệu hai cos",
+    "label_en": "Difference of cosines",
+    "tex": "\\cos a-\\cos b=-2\\sin\\dfrac{a+b}{2}\\sin\\dfrac{a-b}{2}"
+   },
+   {
+    "label_vi": "Tổng hai sin",
+    "label_en": "Sum of sines",
+    "tex": "\\sin a+\\sin b=2\\sin\\dfrac{a+b}{2}\\cos\\dfrac{a-b}{2}"
+   },
+   {
+    "label_vi": "Hiệu hai sin",
+    "label_en": "Difference of sines",
+    "tex": "\\sin a-\\sin b=2\\cos\\dfrac{a+b}{2}\\sin\\dfrac{a-b}{2}"
+   }
+  ]
+ },
+ {
+  "code": "C07a",
+  "slug": "trigonometric-functions-and-graphs-part-1",
+  "title_vi": "Hàm số lượng giác I",
+  "title_en": "Trigonometric functions I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Sin và cos có chu kì 2π; tan và cot có chu kì π. Với hàm biến đổi, cần ω khác 0.",
+  "tip_en": "Sine and cosine repeat every 2π; tangent and cotangent repeat every π. Assume ω ≠ 0.",
+  "items": [
+   {
+    "label_vi": "Sin: miền xác định và giá trị",
+    "label_en": "Sine: domain and range",
+    "tex": [
+     "D=\\mathbb{R},\\quad [-1,1]",
+     "T=2\\pi,\\quad \\sin(-x)=-\\sin x"
+    ]
+   },
+   {
+    "label_vi": "Cos: miền xác định và giá trị",
+    "label_en": "Cosine: domain and range",
+    "tex": [
+     "D=\\mathbb{R},\\quad [-1,1]",
+     "T=2\\pi,\\quad \\cos(-x)=\\cos x"
+    ]
+   },
+   {
+    "label_vi": "Tan: miền xác định",
+    "label_en": "Tangent: domain",
+    "tex": [
+     "x\\ne\\dfrac{\\pi}{2}+k\\pi,\\ k\\in\\mathbb{Z}",
+     "R=\\mathbb{R},\\ T=\\pi"
+    ]
+   },
+   {
+    "label_vi": "Cot: miền xác định",
+    "label_en": "Cotangent: domain",
+    "tex": [
+     "x\\ne k\\pi,\\quad k\\in\\mathbb{Z}",
+     "R=\\mathbb{R},\\ T=\\pi"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "C07b",
+  "slug": "trigonometric-functions-and-graphs-part-2",
+  "title_vi": "Hàm số lượng giác II",
+  "title_en": "Trigonometric functions II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Sin và cos có chu kì 2π; tan và cot có chu kì π. Với hàm biến đổi, cần ω khác 0.",
+  "tip_en": "Sine and cosine repeat every 2π; tangent and cotangent repeat every π. Assume ω ≠ 0.",
+  "items": [
+   {
+    "label_vi": "Tan và cot là hàm lẻ",
+    "label_en": "Tangent and cotangent are odd",
+    "tex": [
+     "\\tan(-x)=-\\tan x",
+     "\\cot(-x)=-\\cot x"
+    ]
+   },
+   {
+    "label_vi": "Hàm sin biến đổi (ω ≠ 0)",
+    "label_en": "Transformed sine (ω ≠ 0)",
+    "tex": "y=A\\sin(\\omega x+\\varphi)+k"
+   },
+   {
+    "label_vi": "Biên độ và chu kì (ω ≠ 0)",
+    "label_en": "Amplitude and period (ω ≠ 0)",
+    "tex": [
+     "\\mathrm{Amplitude}=|A|",
+     "T=\\dfrac{2\\pi}{|\\omega|}"
+    ]
+   },
+   {
+    "label_vi": "Tập giá trị hàm sin biến đổi",
+    "label_en": "Range of transformed sine",
+    "tex": "[k-|A|,\\ k+|A|]"
+   }
+  ]
+ },
+ {
+  "code": "C08a",
+  "slug": "basic-trigonometric-equations-part-1",
+  "title_vi": "Phương trình lượng giác I",
+  "title_en": "Basic trigonometric equations I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong các công thức nghiệm, k thuộc ℤ. Với tan và cot, chỉ lấy các giá trị tại đó hàm xác định.",
+  "tip_en": "In every general solution, k is an integer. Respect the domains of tangent and cotangent.",
+  "items": [
+   {
+    "label_vi": "sin x = sin α",
+    "label_en": "Sine equation",
+    "tex": [
+     "x=\\alpha+2k\\pi",
+     "x=\\pi-\\alpha+2k\\pi"
+    ]
+   },
+   {
+    "label_vi": "cos x = cos α",
+    "label_en": "Cosine equation",
+    "tex": "x=\\pm\\alpha+2k\\pi"
+   },
+   {
+    "label_vi": "tan x = tan α",
+    "label_en": "Tangent equation",
+    "tex": "x=\\alpha+k\\pi"
+   },
+   {
+    "label_vi": "cot x = cot α",
+    "label_en": "Cotangent equation",
+    "tex": "x=\\alpha+k\\pi"
+   }
+  ]
+ },
+ {
+  "code": "C08b",
+  "slug": "basic-trigonometric-equations-part-2",
+  "title_vi": "Phương trình lượng giác II",
+  "title_en": "Basic trigonometric equations II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Trong các công thức nghiệm, k thuộc ℤ. Với tan và cot, chỉ lấy các giá trị tại đó hàm xác định.",
+  "tip_en": "In every general solution, k is an integer. Respect the domains of tangent and cotangent.",
+  "items": [
+   {
+    "label_vi": "sin x = 0",
+    "label_en": "Sine equals zero",
+    "tex": "x=k\\pi"
+   },
+   {
+    "label_vi": "sin x = 1 hoặc −1",
+    "label_en": "Sine equals 1 or −1",
+    "tex": [
+     "\\sin x=1:\\ x=\\dfrac{\\pi}{2}+2k\\pi",
+     "\\sin x=-1:\\ x=-\\dfrac{\\pi}{2}+2k\\pi"
+    ]
+   },
+   {
+    "label_vi": "cos x = 0",
+    "label_en": "Cosine equals zero",
+    "tex": "x=\\dfrac{\\pi}{2}+k\\pi"
+   },
+   {
+    "label_vi": "cos x = 1 hoặc −1",
+    "label_en": "Cosine equals 1 or −1",
+    "tex": [
+     "\\cos x=1:\\ x=2k\\pi",
+     "\\cos x=-1:\\ x=\\pi+2k\\pi"
+    ]
+   }
+  ]
+ },
+ {
+  "code": "D01",
+  "slug": "limits-and-continuity",
+  "title_vi": "Giới hạn và liên tục",
+  "title_en": "Limits and continuity",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Với thương, mẫu giới hạn phải khác 0. Khi khử 0/0, cần biến đổi trước khi thế giá trị.",
+  "tip_en": "For quotient limits, the denominator limit must be nonzero. Simplify indeterminate forms before substitution.",
+  "items": [
+   {
+    "label_vi": "Giới hạn dãy số (k > 0)",
+    "label_en": "Sequence limit (k > 0)",
+    "tex": "\\lim_{n\\to\\infty}\\dfrac{1}{n^k}=0"
+   },
+   {
+    "label_vi": "Cấp số nhân (|q| < 1)",
+    "label_en": "Geometric sequence (|q| < 1)",
+    "tex": "\\lim_{n\\to\\infty}q^n=0"
+   },
+   {
+    "label_vi": "Giới hạn của tổng",
+    "label_en": "Limit of a sum",
+    "tex": "\\lim(f+g)=A+B"
+   },
+   {
+    "label_vi": "Giới hạn của tích",
+    "label_en": "Limit of a product",
+    "tex": "\\lim(fg)=AB"
+   },
+   {
+    "label_vi": "Giới hạn thương (B ≠ 0)",
+    "label_en": "Limit of a quotient (B ≠ 0)",
+    "tex": "\\lim\\dfrac{f}{g}=\\dfrac{A}{B}"
+   },
+   {
+    "label_vi": "Liên tục tại x₀",
+    "label_en": "Continuity at x₀",
+    "tex": "\\lim_{x\\to x_0}f(x)=f(x_0)"
+   },
+   {
+    "label_vi": "Giới hạn lượng giác (mở rộng)",
+    "label_en": "Trigonometric limit (extension)",
+    "tex": "\\lim_{x\\to0}\\dfrac{\\sin x}{x}=1"
+   }
+  ]
+ },
+ {
+  "code": "D02",
+  "slug": "rules-of-differentiation",
+  "title_vi": "Quy tắc tính đạo hàm",
+  "title_en": "Rules of differentiation",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Đạo hàm hàm hợp: lấy đạo hàm hàm ngoài rồi nhân đạo hàm hàm trong. Với thương, v ≠ 0.",
+  "tip_en": "For the chain rule, differentiate the outer function and multiply by the inner derivative. Require v ≠ 0.",
+  "items": [
+   {
+    "label_vi": "Định nghĩa tại x₀",
+    "label_en": "Derivative definition",
+    "tex": "f'(x_0)=\\lim_{h\\to0}\\dfrac{f(x_0+h)-f(x_0)}{h}"
+   },
+   {
+    "label_vi": "Tổng và hiệu",
+    "label_en": "Sum and difference",
+    "tex": "(u\\pm v)'=u'\\pm v'"
+   },
+   {
+    "label_vi": "Nhân hằng số",
+    "label_en": "Constant multiple",
+    "tex": "(ku)'=ku'"
+   },
+   {
+    "label_vi": "Tích",
+    "label_en": "Product rule",
+    "tex": "(uv)'=u' v+uv'"
+   },
+   {
+    "label_vi": "Thương (v ≠ 0)",
+    "label_en": "Quotient rule (v ≠ 0)",
+    "tex": "\\left(\\dfrac{u}{v}\\right)'=\\dfrac{u' v-uv'}{v^2}"
+   },
+   {
+    "label_vi": "Hàm hợp",
+    "label_en": "Chain rule",
+    "tex": "[f(g(x))]'=f'(g(x))g'(x)"
+   },
+   {
+    "label_vi": "Đạo hàm cấp hai",
+    "label_en": "Second derivative",
+    "tex": "f''=(f')'"
+   }
+  ]
+ },
+ {
+  "code": "D03a",
+  "slug": "table-of-derivatives-part-1",
+  "title_vi": "Bảng đạo hàm I",
+  "title_en": "Table of derivatives I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Các công thức chỉ đúng trên miền xác định tương ứng; với x^n, áp dụng tại điểm có nghĩa.",
+  "tip_en": "Each derivative formula applies on its appropriate domain; check the function is defined.",
+  "items": [
+   {
+    "label_vi": "Hàm lũy thừa",
+    "label_en": "Power function",
+    "tex": "(x^n)'=nx^{n-1}"
+   },
+   {
+    "label_vi": "Căn bậc hai (x > 0)",
+    "label_en": "Square root (x > 0)",
+    "tex": "(\\sqrt{x})'=\\dfrac{1}{2\\sqrt{x}}"
+   },
+   {
+    "label_vi": "Nghịch đảo (x ≠ 0)",
+    "label_en": "Reciprocal (x ≠ 0)",
+    "tex": "\\left(\\dfrac{1}{x}\\right)'=-\\dfrac{1}{x^2}"
+   },
+   {
+    "label_vi": "Sin",
+    "label_en": "Sine",
+    "tex": "(\\sin x)'=\\cos x"
+   },
+   {
+    "label_vi": "Cos",
+    "label_en": "Cosine",
+    "tex": "(\\cos x)'=-\\sin x"
+   },
+   {
+    "label_vi": "Tan (cos x ≠ 0)",
+    "label_en": "Tangent (cos x ≠ 0)",
+    "tex": "(\\tan x)'=\\dfrac{1}{\\cos^2 x}"
+   },
+   {
+    "label_vi": "Cot (sin x ≠ 0)",
+    "label_en": "Cotangent (sin x ≠ 0)",
+    "tex": "(\\cot x)'=-\\dfrac{1}{\\sin^2 x}"
+   }
+  ]
+ },
+ {
+  "code": "D03b",
+  "slug": "table-of-derivatives-part-2",
+  "title_vi": "Bảng đạo hàm II",
+  "title_en": "Table of derivatives II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Với u = u(x), mỗi công thức hàm hợp cần nhân thêm u′. Với logₐ, a > 0 và a ≠ 1.",
+  "tip_en": "For u = u(x), multiply by u′ in every composite derivative. For log base a, a > 0 and a ≠ 1.",
+  "items": [
+   {
+    "label_vi": "Hàm mũ cơ số e",
+    "label_en": "Natural exponential",
+    "tex": "(e^u)'=e^u u'"
+   },
+   {
+    "label_vi": "Hàm mũ cơ số a",
+    "label_en": "Exponential base a",
+    "tex": "(a^u)'=a^u\\ln(a)u'"
+   },
+   {
+    "label_vi": "Logarit tự nhiên (u > 0)",
+    "label_en": "Natural log (u > 0)",
+    "tex": "(\\ln u)'=\\dfrac{u'}{u}"
+   },
+   {
+    "label_vi": "Logarit cơ số a (u > 0)",
+    "label_en": "Log base a (u > 0)",
+    "tex": "(\\log_a u)'=\\dfrac{u'}{u\\ln a}"
+   },
+   {
+    "label_vi": "Lũy thừa hàm hợp",
+    "label_en": "Composite power",
+    "tex": "(u^n)'=nu^{n-1}u'"
+   },
+   {
+    "label_vi": "Căn hàm hợp (u > 0)",
+    "label_en": "Composite root (u > 0)",
+    "tex": "(\\sqrt{u})'=\\dfrac{u'}{2\\sqrt{u}}"
+   },
+   {
+    "label_vi": "Sin hàm hợp",
+    "label_en": "Composite sine",
+    "tex": "(\\sin u)'=\\cos u\\,u'"
+   },
+   {
+    "label_vi": "Cos hàm hợp",
+    "label_en": "Composite cosine",
+    "tex": "(\\cos u)'=-\\sin u\\,u'"
+   }
+  ]
+ },
+ {
+  "code": "D04",
+  "slug": "tangents-and-rates-of-change",
+  "title_vi": "Tiếp tuyến và đạo hàm",
+  "title_en": "Tangents and rates of change",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Tiếp tuyến tại x₀ cần f khả vi tại x₀. Đường pháp tuyến có hệ số góc −1/k nếu k ≠ 0.",
+  "tip_en": "A tangent at x₀ requires differentiability. The normal has slope −1/k if the tangent slope k is nonzero.",
+  "items": [
+   {
+    "label_vi": "Hệ số góc tiếp tuyến",
+    "label_en": "Tangent slope",
+    "tex": "k=f'(x_0)"
+   },
+   {
+    "label_vi": "Phương trình tiếp tuyến",
+    "label_en": "Tangent equation",
+    "tex": "y=f'(x_0)(x-x_0)+f(x_0)"
+   },
+   {
+    "label_vi": "Tiếp tuyến song song y=mx+b",
+    "label_en": "Tangent parallel to y=mx+b",
+    "tex": "f'(x_0)=m"
+   },
+   {
+    "label_vi": "Tiếp tuyến vuông góc (m ≠ 0)",
+    "label_en": "Perpendicular tangent (m ≠ 0)",
+    "tex": "f'(x_0)=-\\dfrac{1}{m}"
+   },
+   {
+    "label_vi": "Vận tốc tức thời",
+    "label_en": "Instantaneous velocity",
+    "tex": "v(t)=s'(t)"
+   },
+   {
+    "label_vi": "Gia tốc tức thời",
+    "label_en": "Instantaneous acceleration",
+    "tex": "a(t)=v'(t)=s''(t)"
+   },
+   {
+    "label_vi": "Pháp tuyến (k ≠ 0)",
+    "label_en": "Normal line (k ≠ 0)",
+    "tex": "y-f(x_0)=-\\dfrac{x-x_0}{k}"
+   }
+  ]
+ },
+ {
+  "code": "D05a",
+  "slug": "monotonicity-and-extrema-part-1",
+  "title_vi": "Khảo sát hàm số I",
+  "title_en": "Function analysis I",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Để kết luận đồng biến, nghịch biến trên khoảng, xét dấu f′ trên toàn khoảng đó.",
+  "tip_en": "To establish monotonicity on an interval, check the sign of f′ throughout that interval.",
+  "items": [
+   {
+    "label_vi": "Đồng biến trên khoảng",
+    "label_en": "Increasing on an interval",
+    "tex": "f'(x)>0"
+   },
+   {
+    "label_vi": "Nghịch biến trên khoảng",
+    "label_en": "Decreasing on an interval",
+    "tex": "f'(x)<0"
+   },
+   {
+    "label_vi": "Cực đại: f′ đổi + sang −",
+    "label_en": "Local maximum: + to −",
+    "tex": "f':\\ +\\ \\to\\ -"
+   },
+   {
+    "label_vi": "Cực tiểu: f′ đổi − sang +",
+    "label_en": "Local minimum: − to +",
+    "tex": "f':\\ -\\ \\to\\ +"
+   },
+   {
+    "label_vi": "Tiêu chuẩn đạo hàm cấp hai",
+    "label_en": "Second derivative test",
+    "tex": "f'(x_0)=0,\\ f''(x_0)>0"
+   },
+   {
+    "label_vi": "Cực đại theo đạo hàm cấp hai",
+    "label_en": "Maximum via second derivative",
+    "tex": "f'(x_0)=0,\\ f''(x_0)<0"
+   }
+  ]
+ },
+ {
+  "code": "D05b",
+  "slug": "monotonicity-and-extrema-part-2",
+  "title_vi": "Khảo sát hàm số II",
+  "title_en": "Function analysis II",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "GTLN, GTNN trên đoạn: so sánh giá trị tại hai đầu mút và các điểm tới hạn bên trong.",
+  "tip_en": "For absolute extrema on a closed interval, compare endpoints and interior critical points.",
+  "items": [
+   {
+    "label_vi": "GTLN, GTNN trên [a,b]",
+    "label_en": "Absolute extrema on [a,b]",
+    "tex": "\\max\\{f(a),f(b),f(c_i)\\}"
+   },
+   {
+    "label_vi": "Tiệm cận đứng x=a",
+    "label_en": "Vertical asymptote x=a",
+    "tex": "\\lim_{x\\to a^\\pm}f(x)=\\pm\\infty"
+   },
+   {
+    "label_vi": "Tiệm cận ngang y=L",
+    "label_en": "Horizontal asymptote y=L",
+    "tex": "\\lim_{x\\to\\pm\\infty}f(x)=L"
+   },
+   {
+    "label_vi": "Tiệm cận xiên y=mx+n",
+    "label_en": "Oblique asymptote y=mx+n",
+    "tex": "\\lim_{x\\to\\pm\\infty}[f(x)-mx-n]=0"
+   },
+   {
+    "label_vi": "Tâm đối xứng của hàm bậc ba",
+    "label_en": "Cubic graph symmetry center",
+    "tex": "I(x_0,f(x_0)),\\ f''(x_0)=0"
+   }
+  ]
+ },
+ {
+  "code": "D06a",
+  "slug": "standard-integrals-part-1",
+  "title_vi": "Nguyên hàm I",
+  "title_en": "Standard integrals I",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Mọi nguyên hàm đều có hằng số C. Với lũy thừa, n ≠ −1; công thức áp dụng trên khoảng xác định.",
+  "tip_en": "Always include the constant C. For powers, require n ≠ −1 and work on a valid interval.",
+  "items": [
+   {
+    "label_vi": "Lũy thừa (n ≠ −1)",
+    "label_en": "Power (n ≠ −1)",
+    "tex": "\\int x^n\\,dx=\\dfrac{x^{n+1}}{n+1}+C"
+   },
+   {
+    "label_vi": "Hàm nghịch đảo (x ≠ 0)",
+    "label_en": "Reciprocal (x ≠ 0)",
+    "tex": "\\int\\dfrac{1}{x}\\,dx=\\ln|x|+C"
+   },
+   {
+    "label_vi": "Hàm mũ e",
+    "label_en": "Exponential e",
+    "tex": "\\int e^x\\,dx=e^x+C"
+   },
+   {
+    "label_vi": "Hàm mũ a (a > 0, a ≠ 1)",
+    "label_en": "Exponential a (a > 0, a ≠ 1)",
+    "tex": "\\int a^x\\,dx=\\dfrac{a^x}{\\ln a}+C"
+   },
+   {
+    "label_vi": "Hàm sin",
+    "label_en": "Sine",
+    "tex": "\\int\\sin x\\,dx=-\\cos x+C"
+   },
+   {
+    "label_vi": "Hàm cos",
+    "label_en": "Cosine",
+    "tex": "\\int\\cos x\\,dx=\\sin x+C"
+   }
+  ]
+ },
+ {
+  "code": "D06b",
+  "slug": "standard-integrals-part-2",
+  "title_vi": "Nguyên hàm II",
+  "title_en": "Standard integrals II",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Với ax+b, a ≠ 0. Tính tuyến tính giúp tách tổng, hiệu và đưa hằng số ra ngoài dấu tích phân.",
+  "tip_en": "For ax+b, require a ≠ 0. Linearity lets you separate sums and pull constants outside integrals.",
+  "items": [
+   {
+    "label_vi": "Bình phương sec (cos x ≠ 0)",
+    "label_en": "Secant squared (cos x ≠ 0)",
+    "tex": "\\int\\dfrac{1}{\\cos^2x}\\,dx=\\tan x+C"
+   },
+   {
+    "label_vi": "Bình phương cosec (sin x ≠ 0)",
+    "label_en": "Cosecant squared (sin x ≠ 0)",
+    "tex": "\\int\\dfrac{1}{\\sin^2x}\\,dx=-\\cot x+C"
+   },
+   {
+    "label_vi": "Nhân hằng số",
+    "label_en": "Constant multiple",
+    "tex": "\\int kf(x)\\,dx=k\\int f(x)\\,dx"
+   },
+   {
+    "label_vi": "Tổng và hiệu",
+    "label_en": "Sum and difference",
+    "tex": "\\int(f\\pm g)\\,dx=\\int f\\,dx\\pm\\int g\\,dx"
+   },
+   {
+    "label_vi": "Hàm hợp (a ≠ 0, n ≠ −1)",
+    "label_en": "Linear power (a ≠ 0, n ≠ −1)",
+    "tex": "\\int (ax+b)^n\\,dx=\\dfrac{(ax+b)^{n+1}}{a(n+1)}+C"
+   },
+   {
+    "label_vi": "Hàm mũ tuyến tính (a ≠ 0)",
+    "label_en": "Linear exponential (a ≠ 0)",
+    "tex": "\\int e^{ax+b}\\,dx=\\dfrac{e^{ax+b}}{a}+C"
+   }
+  ]
+ },
+ {
+  "code": "D07",
+  "slug": "definite-integrals-and-applications",
+  "title_vi": "Tích phân và ứng dụng",
+  "title_en": "Definite integrals",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Diện tích luôn không âm: dùng trị tuyệt đối. Công thức thể tích quanh Ox áp dụng khi miền giới hạn bởi đồ thị và trục Ox.",
+  "tip_en": "Area is nonnegative: use absolute values. The disk-volume formula applies to rotation about the x-axis of the region between the curve and axis.",
+  "items": [
+   {
+    "label_vi": "Newton–Leibniz (F′=f)",
+    "label_en": "Fundamental theorem (F′=f)",
+    "tex": "\\int_a^b f(x)\\,dx=F(b)-F(a)"
+   },
+   {
+    "label_vi": "Đổi cận",
+    "label_en": "Reversing limits",
+    "tex": "\\int_a^b f(x)\\,dx=-\\int_b^a f(x)\\,dx"
+   },
+   {
+    "label_vi": "Tách cận tại c",
+    "label_en": "Splitting at c",
+    "tex": "\\int_a^b f=\\int_a^c f+\\int_c^b f"
+   },
+   {
+    "label_vi": "Diện tích với trục Ox",
+    "label_en": "Area against x-axis",
+    "tex": "S=\\int_a^b |f(x)|\\,dx"
+   },
+   {
+    "label_vi": "Diện tích giữa hai đồ thị",
+    "label_en": "Area between curves",
+    "tex": "S=\\int_a^b |f(x)-g(x)|\\,dx"
+   },
+   {
+    "label_vi": "Thể tích quay quanh Ox",
+    "label_en": "Volume about x-axis",
+    "tex": "V=\\pi\\int_a^b [f(x)]^2\\,dx"
+   },
+   {
+    "label_vi": "Quãng đường (vận tốc v)",
+    "label_en": "Distance from velocity",
+    "tex": "s=\\int_a^b |v(t)|\\,dt"
+   }
+  ]
+ },
+ {
+  "code": "E01a",
+  "slug": "mean-median-and-mode-part-1",
+  "title_vi": "Trung bình và trung vị I",
+  "title_en": "Mean and median I",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "Middle–High school",
+  "tip_vi": "Sắp xếp dữ liệu theo thứ tự tăng dần trước khi tìm trung vị; trung bình có tần số phải chia cho tổng tần số.",
+  "tip_en": "Sort data before finding the median; for frequency data, divide the weighted sum by total frequency.",
+  "items": [
+   {
+    "label_vi": "Trung bình cộng",
+    "label_en": "Arithmetic mean",
+    "tex": "\\bar{x}=\\dfrac{\\sum_{i=1}^{n}x_i}{n}"
+   },
+   {
+    "label_vi": "Trung bình theo tần số",
+    "label_en": "Frequency-weighted mean",
+    "tex": "\\bar{x}=\\dfrac{\\sum_{i=1}^{k}n_ix_i}{\\sum_{i=1}^{k}n_i}"
+   },
+   {
+    "label_vi": "Trung vị khi n lẻ",
+    "label_en": "Median for odd n",
+    "tex": "M_e=x_{(n+1)/2}"
+   },
+   {
+    "label_vi": "Trung vị khi n chẵn",
+    "label_en": "Median for even n",
+    "tex": "M_e=\\dfrac{x_{n/2}+x_{n/2+1}}{2}"
+   }
+  ]
+ },
+ {
+  "code": "E01b",
+  "slug": "quartiles-and-mode-part-2",
+  "title_vi": "Tứ phân vị và mốt II",
+  "title_en": "Quartiles and mode II",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "Middle–High school",
+  "tip_vi": "Theo cách chia nửa dữ liệu trong SGK Việt Nam, nếu n lẻ thì bỏ trung vị khi xác định Q₁ và Q₃.",
+  "tip_en": "Using the Vietnamese textbook median-of-halves convention, exclude the overall median from both halves when n is odd.",
+  "items": [
+   {
+    "label_vi": "Tứ phân vị thứ hai",
+    "label_en": "Second quartile",
+    "tex": "Q_2=M_e"
+   },
+   {
+    "label_vi": "Tứ phân vị thứ nhất",
+    "label_en": "First quartile",
+    "tex": "Q_1=\\operatorname{Med}(x_{\\rm lower})"
+   },
+   {
+    "label_vi": "Tứ phân vị thứ ba",
+    "label_en": "Third quartile",
+    "tex": "Q_3=\\operatorname{Med}(x_{\\rm upper})"
+   },
+   {
+    "label_vi": "Mốt: giá trị có tần số cao nhất",
+    "label_en": "Mode: most frequent value",
+    "tex": "M_o=\\operatorname{mode}(x_1,\\ldots,x_n)"
+   }
+  ]
+ },
+ {
+  "code": "E02a",
+  "slug": "grouped-data-part-1",
+  "title_vi": "Số liệu ghép nhóm I",
+  "title_en": "Grouped data I",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Giá trị đại diện là trung điểm mỗi lớp. Trung bình và trung vị ghép nhóm là các giá trị ước lượng.",
+  "tip_en": "Use each class midpoint as its representative. Grouped-data means and medians are estimates.",
+  "items": [
+   {
+    "label_vi": "Giá trị đại diện lớp [a,b)",
+    "label_en": "Class midpoint [a,b)",
+    "tex": "m_i=\\dfrac{a_i+b_i}{2}"
+   },
+   {
+    "label_vi": "Cỡ mẫu",
+    "label_en": "Sample size",
+    "tex": "n=\\sum_{i=1}^{k}n_i"
+   },
+   {
+    "label_vi": "Trung bình ghép nhóm",
+    "label_en": "Estimated grouped mean",
+    "tex": "\\bar{x}=\\dfrac{\\sum n_im_i}{n}"
+   },
+   {
+    "label_vi": "Trung vị nội suy",
+    "label_en": "Interpolated median",
+    "tex": "M_e=L+\\dfrac{n/2-C}{f}\\,h"
+   }
+  ]
+ },
+ {
+  "code": "E02b",
+  "slug": "grouped-data-part-2",
+  "title_vi": "Số liệu ghép nhóm II",
+  "title_en": "Grouped data II",
+  "level_vi": "Lớp 11 • THPT",
+  "level_en": "High school",
+  "tip_vi": "L là cận dưới lớp chứa phân vị, C là tần số tích lũy trước lớp, f là tần số lớp và h là độ rộng lớp.",
+  "tip_en": "L is the lower class boundary, C prior cumulative frequency, f class frequency, and h class width.",
+  "items": [
+   {
+    "label_vi": "Tứ phân vị Q₁",
+    "label_en": "First quartile Q₁",
+    "tex": "Q_1=L+\\dfrac{n/4-C}{f}\\,h"
+   },
+   {
+    "label_vi": "Tứ phân vị Q₃",
+    "label_en": "Third quartile Q₃",
+    "tex": "Q_3=L+\\dfrac{3n/4-C}{f}\\,h"
+   },
+   {
+    "label_vi": "Mốt ghép nhóm",
+    "label_en": "Grouped mode",
+    "tex": "M_o=L+\\dfrac{d_1}{d_1+d_2}\\,h"
+   },
+   {
+    "label_vi": "Hiệu tần số lớp mốt",
+    "label_en": "Modal-frequency differences",
+    "tex": "d_1=f_m-f_{m-1},\\ d_2=f_m-f_{m+1}"
+   }
+  ]
+ },
+ {
+  "code": "E03",
+  "slug": "measures-of-spread",
+  "title_vi": "Độ phân tán của dữ liệu",
+  "title_en": "Measures of spread",
+  "level_vi": "Lớp 10 & 12 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Phương sai dùng mẫu số n theo chương trình phổ thông. Khi dữ liệu ghép nhóm, dùng giá trị đại diện của mỗi lớp.",
+  "tip_en": "Use n in the school-level variance formula. For grouped data, replace observations with class midpoints.",
+  "items": [
+   {
+    "label_vi": "Khoảng biến thiên",
+    "label_en": "Range",
+    "tex": "R=x_{\\max}-x_{\\min}"
+   },
+   {
+    "label_vi": "Khoảng tứ phân vị",
+    "label_en": "Interquartile range",
+    "tex": "\\Delta_Q=Q_3-Q_1"
+   },
+   {
+    "label_vi": "Ngưỡng ngoại lệ dưới",
+    "label_en": "Lower outlier fence",
+    "tex": "L=Q_1-1.5\\Delta_Q",
+    "tex_vi": "L=Q_1-1{,}5\\Delta_Q",
+    "tex_en": "L=Q_1-1.5\\Delta_Q"
+   },
+   {
+    "label_vi": "Ngưỡng ngoại lệ trên",
+    "label_en": "Upper outlier fence",
+    "tex": "U=Q_3+1.5\\Delta_Q",
+    "tex_vi": "U=Q_3+1{,}5\\Delta_Q",
+    "tex_en": "U=Q_3+1.5\\Delta_Q"
+   },
+   {
+    "label_vi": "Phương sai",
+    "label_en": "Variance",
+    "tex": "s^2=\\dfrac{1}{n}\\sum_{i=1}^n(x_i-\\bar{x})^2"
+   },
+   {
+    "label_vi": "Độ lệch chuẩn",
+    "label_en": "Standard deviation",
+    "tex": "s=\\sqrt{s^2}"
+   },
+   {
+    "label_vi": "Phương sai ghép nhóm",
+    "label_en": "Grouped variance",
+    "tex": "s^2=\\dfrac{1}{n}\\sum_i n_i(m_i-\\bar{x})^2"
+   }
+  ]
+ },
+ {
+  "code": "E04",
+  "slug": "counting-and-combinations",
+  "title_vi": "Quy tắc đếm và tổ hợp",
+  "title_en": "Counting and combinations",
+  "level_vi": "Lớp 10 • THPT",
+  "level_en": "High school",
+  "tip_vi": "Quy tắc cộng dùng cho lựa chọn loại trừ nhau; quy tắc nhân dùng cho các bước liên tiếp. Trong chỉnh hợp, thứ tự quan trọng.",
+  "tip_en": "Use addition for mutually exclusive choices and multiplication for successive stages. Order matters in permutations.",
+  "items": [
+   {
+    "label_vi": "Quy tắc cộng",
+    "label_en": "Addition principle",
+    "tex": "N=m+n"
+   },
+   {
+    "label_vi": "Quy tắc nhân",
+    "label_en": "Multiplication principle",
+    "tex": "N=m\\cdot n"
+   },
+   {
+    "label_vi": "Giai thừa",
+    "label_en": "Factorial",
+    "tex": "n!=n(n-1)\\cdots 1,\\ 0!=1"
+   },
+   {
+    "label_vi": "Hoán vị",
+    "label_en": "Permutations of n",
+    "tex": "P_n=n!"
+   },
+   {
+    "label_vi": "Chỉnh hợp",
+    "label_en": "Ordered selections",
+    "tex": "A_n^k=\\dfrac{n!}{(n-k)!}"
+   },
+   {
+    "label_vi": "Tổ hợp",
+    "label_en": "Combinations",
+    "tex": "C_n^k=\\dfrac{n!}{k!(n-k)!}"
+   },
+   {
+    "label_vi": "Đối xứng tổ hợp",
+    "label_en": "Combination symmetry",
+    "tex": "C_n^k=C_n^{n-k}"
+   }
+  ]
+ },
+ {
+  "code": "E05",
+  "slug": "probability-rules",
+  "title_vi": "Quy tắc tính xác suất",
+  "title_en": "Probability rules",
+  "level_vi": "Lớp 10–11 • THPT",
+  "level_en": "Middle–High school",
+  "tip_vi": "Công thức đếm trường hợp đồng khả năng chỉ dùng khi các kết quả có cùng khả năng. Phân biệt biến cố xung khắc với độc lập.",
+  "tip_en": "The equally likely outcomes formula requires equiprobable outcomes. Mutually exclusive and independent events are different.",
+  "items": [
+   {
+    "label_vi": "Xác suất đồng khả năng",
+    "label_en": "Equally likely outcomes",
+    "tex": "P(A)=\\dfrac{n(A)}{n(\\Omega)}"
+   },
+   {
+    "label_vi": "Giới hạn xác suất",
+    "label_en": "Probability bounds",
+    "tex": "0\\leq P(A)\\leq 1"
+   },
+   {
+    "label_vi": "Biến cố đối",
+    "label_en": "Complement",
+    "tex": "P(\\bar{A})=1-P(A)"
+   },
+   {
+    "label_vi": "Quy tắc cộng tổng quát",
+    "label_en": "General addition rule",
+    "tex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+   },
+   {
+    "label_vi": "Hai biến cố xung khắc",
+    "label_en": "Disjoint events",
+    "tex": "P(A\\cap B)=0"
+   },
+   {
+    "label_vi": "Hai biến cố độc lập",
+    "label_en": "Independent events",
+    "tex": "P(A\\cap B)=P(A)P(B)"
+   },
+   {
+    "label_vi": "Tần số kỳ vọng",
+    "label_en": "Expected frequency",
+    "tex": "E=nP(A)"
+   }
+  ]
+ },
+ {
+  "code": "E06",
+  "slug": "conditional-probability-and-bayes",
+  "title_vi": "Xác suất có điều kiện",
+  "title_en": "Conditional probability",
+  "level_vi": "Lớp 12 • THPT",
+  "level_en": "High school – Advanced",
+  "tip_vi": "Chỉ tính P(A|B) khi P(B)>0. Khi dùng Bayes, kiểm tra các trường hợp tạo thành một phân hoạch.",
+  "tip_en": "Conditional probability requires P(B)>0. For Bayes’ theorem, the cases must form a partition.",
+  "items": [
+   {
+    "label_vi": "Xác suất có điều kiện",
+    "label_en": "Conditional probability",
+    "tex": "P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)},\\ P(B)>0"
+   },
+   {
+    "label_vi": "Quy tắc nhân",
+    "label_en": "Multiplication rule",
+    "tex": "P(A\\cap B)=P(A\\mid B)P(B)"
+   },
+   {
+    "label_vi": "Quy tắc nhân đảo chiều",
+    "label_en": "Reverse multiplication",
+    "tex": "P(A\\cap B)=P(B\\mid A)P(A)"
+   },
+   {
+    "label_vi": "Xác suất toàn phần",
+    "label_en": "Total probability",
+    "tex": "P(B)=\\sum_{i=1}^{n}P(B\\mid A_i)P(A_i)"
+   },
+   {
+    "label_vi": "Định lí Bayes",
+    "label_en": "Bayes theorem",
+    "tex": "P(A_i\\mid B)=\\dfrac{P(B\\mid A_i)P(A_i)}{P(B)}"
+   },
+   {
+    "label_vi": "Đọc sơ đồ cây",
+    "label_en": "Reading a tree diagram",
+    "tex": "P(A_i\\cap B)=P(A_i)P(B\\mid A_i)"
+   }
+  ]
+ },
+ {
+  "code": "E07",
+  "slug": "discrete-random-variables",
+  "title_vi": "Biến ngẫu nhiên rời rạc",
+  "title_en": "Discrete random variables",
+  "level_vi": "Mở rộng quốc tế (IB, AP, A-Level)",
+  "level_en": "Advanced – IB/AP/A-Level",
+  "tip_vi": "Phân bố nhị thức đòi hỏi n phép thử độc lập, mỗi phép thử có cùng xác suất thành công p.",
+  "tip_en": "A binomial model needs n independent trials with the same success probability p.",
+  "items": [
+   {
+    "label_vi": "Tổng xác suất",
+    "label_en": "Probability total",
+    "tex": "\\sum_i p_i=1,\\quad p_i\\geq 0"
+   },
+   {
+    "label_vi": "Kỳ vọng",
+    "label_en": "Expected value",
+    "tex": "E(X)=\\sum_i x_ip_i"
+   },
+   {
+    "label_vi": "Phương sai",
+    "label_en": "Variance",
+    "tex": "\\operatorname{Var}(X)=\\sum_i x_i^2p_i-[E(X)]^2"
+   },
+   {
+    "label_vi": "Kỳ vọng biến đổi",
+    "label_en": "Linear expectation",
+    "tex": "E(aX+b)=aE(X)+b"
+   },
+   {
+    "label_vi": "Phương sai biến đổi",
+    "label_en": "Scaled variance",
+    "tex": "\\operatorname{Var}(aX+b)=a^2\\operatorname{Var}(X)"
+   },
+   {
+    "label_vi": "Xác suất nhị thức",
+    "label_en": "Binomial probability",
+    "tex": "P(X=k)=C_n^kp^k(1-p)^{n-k}"
+   },
+   {
+    "label_vi": "Kỳ vọng nhị thức",
+    "label_en": "Binomial mean",
+    "tex": "E(X)=np"
+   },
+   {
+    "label_vi": "Phương sai nhị thức",
+    "label_en": "Binomial variance",
+    "tex": "\\operatorname{Var}(X)=np(1-p)"
+   }
+  ]
+ },
+ {
+  "code": "E08",
+  "slug": "normal-distribution",
+  "title_vi": "Phân bố chuẩn",
+  "title_en": "The normal distribution",
+  "level_vi": "Mở rộng quốc tế (IB, AP, A-Level)",
+  "level_en": "Advanced – IB/AP/A-Level",
+  "tip_vi": "Quy tắc 68–95–99,7 chỉ là xấp xỉ. Dùng bảng chuẩn hoặc máy tính để tính xác suất chính xác.",
+  "tip_en": "The 68–95–99.7 rule is approximate. Use a normal table or calculator for accurate probabilities.",
+  "items": [
+   {
+    "label_vi": "Kí hiệu phân bố chuẩn",
+    "label_en": "Normal distribution notation",
+    "tex": "X\\sim N(\\mu,\\sigma^2),\\quad\\sigma>0"
+   },
+   {
+    "label_vi": "Chuẩn hóa",
+    "label_en": "Standard score",
+    "tex": "Z=\\dfrac{X-\\mu}{\\sigma}"
+   },
+   {
+    "label_vi": "Phân bố chuẩn tắc",
+    "label_en": "Standard normal",
+    "tex": "Z\\sim N(0,1)"
+   },
+   {
+    "label_vi": "Khoảng một độ lệch chuẩn",
+    "label_en": "Within one standard deviation",
+    "tex": "P(|X-\\mu|\\leq\\sigma)\\approx 0.68",
+    "tex_vi": "P(|X-\\mu|\\leq\\sigma)\\approx 0{,}68",
+    "tex_en": "P(|X-\\mu|\\leq\\sigma)\\approx 0.68"
+   },
+   {
+    "label_vi": "Khoảng hai độ lệch chuẩn",
+    "label_en": "Within two standard deviations",
+    "tex": "P(|X-\\mu|\\leq2\\sigma)\\approx 0.95",
+    "tex_vi": "P(|X-\\mu|\\leq2\\sigma)\\approx 0{,}95",
+    "tex_en": "P(|X-\\mu|\\leq2\\sigma)\\approx 0.95"
+   },
+   {
+    "label_vi": "Khoảng ba độ lệch chuẩn",
+    "label_en": "Within three standard deviations",
+    "tex": "P(|X-\\mu|\\leq3\\sigma)\\approx 0.997",
+    "tex_vi": "P(|X-\\mu|\\leq3\\sigma)\\approx 0{,}997",
+    "tex_en": "P(|X-\\mu|\\leq3\\sigma)\\approx 0.997"
+   },
+   {
+    "label_vi": "Tính đối xứng",
+    "label_en": "Symmetry",
+    "tex": "P(Z<-a)=1-P(Z<a)"
+   }
+  ]
+ },
+ {
+  "code": "E09a",
+  "slug": "correlation-and-linear-regression-part-1",
+  "title_vi": "Tương quan & hồi quy 1",
+  "title_en": "Correlation & regression 1",
+  "level_vi": "Mở rộng quốc tế (IB, AP)",
+  "level_en": "Advanced – IB/AP",
+  "tip_vi": "Tương quan không chứng minh quan hệ nhân quả. Hồi quy tuyến tính cần dữ liệu có xu hướng gần đường thẳng.",
+  "tip_en": "Correlation does not imply causation. Linear regression is most useful when the data follow a roughly linear trend.",
+  "items": [
+   {
+    "label_vi": "Trung bình hai biến",
+    "label_en": "Means of two variables",
+    "tex": "\\bar{x}=\\dfrac{\\sum x_i}{n},\\quad\\bar{y}=\\dfrac{\\sum y_i}{n}"
+   },
+   {
+    "label_vi": "Tổng bình phương theo x",
+    "label_en": "Sum of squares for x",
+    "tex": "S_{xx}=\\sum (x_i-\\bar{x})^2"
+   },
+   {
+    "label_vi": "Tổng bình phương theo y",
+    "label_en": "Sum of squares for y",
+    "tex": "S_{yy}=\\sum (y_i-\\bar{y})^2"
+   },
+   {
+    "label_vi": "Tổng tích độ lệch",
+    "label_en": "Sum of cross-products",
+    "tex": "S_{xy}=\\sum (x_i-\\bar{x})(y_i-\\bar{y})"
+   }
+  ]
+ },
+ {
+  "code": "E09b",
+  "slug": "correlation-and-linear-regression-part-2",
+  "title_vi": "Tương quan & hồi quy 2",
+  "title_en": "Correlation & regression 2",
+  "level_vi": "Mở rộng quốc tế (IB, AP)",
+  "level_en": "Advanced – IB/AP",
+  "tip_vi": "Tương quan không chứng minh quan hệ nhân quả. Hồi quy tuyến tính cần dữ liệu có xu hướng gần đường thẳng.",
+  "tip_en": "Correlation does not imply causation. Linear regression is most useful when the data follow a roughly linear trend.",
+  "items": [
+   {
+    "label_vi": "Hệ số tương quan Pearson",
+    "label_en": "Pearson correlation coefficient",
+    "tex": "r=\\dfrac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}},\\quad -1\\leq r\\leq 1"
+   },
+   {
+    "label_vi": "Hệ số góc hồi quy",
+    "label_en": "Regression slope",
+    "tex": "b=\\dfrac{S_{xy}}{S_{xx}},\\quad S_{xx}>0"
+   },
+   {
+    "label_vi": "Hệ số tự do",
+    "label_en": "Regression intercept",
+    "tex": "a=\\bar{y}-b\\bar{x}"
+   },
+   {
+    "label_vi": "Đường hồi quy đi qua điểm trung bình",
+    "label_en": "Regression through the mean point",
+    "tex": "\\hat{y}=a+bx,\\quad \\hat{y}(\\bar{x})=\\bar{y}"
+   }
+  ]
+ }
+]

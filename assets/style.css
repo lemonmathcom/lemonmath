@@ -950,3 +950,21 @@ a.off-miss { opacity: .45; }
   .cr-slip { padding: 5mm 6mm; border: 1px dashed #777; break-inside: avoid; font-size: 11pt; color: #000; }
   .cr-slip p { margin: 1mm 0; } .cr-slip-h { font-size: 9pt; color: #444; } .cr-slip-pin { font-size: 18pt; letter-spacing: .15em; } .cr-slip-n { font-size: 8.5pt; color: #444; }
 }
+
+/* Formulas to remember (/vi/cong-thuc/, /formulas/) */
+.fc-toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 1rem 0 1.5rem; }
+.fc-toc a { padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; background: var(--surface); }
+.fc-toc a span { color: var(--muted); }
+.fc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.fc-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; background: var(--surface); min-width: 0; }
+.fc-card header h3 { margin: .3rem 0 .4rem; font-size: 1.1rem; }
+.fc-code { display: inline-block; padding: 1px 8px; border-radius: 999px; background: #2F7D32; color: #fff; font-weight: 700; font-size: .8rem; }
+.fc-level { color: var(--muted); font-size: .85rem; }
+.fc-card dl { margin: 0; }
+.fc-card dt { font-weight: 600; color: var(--muted); font-size: .9rem; margin-top: .6rem; }
+.fc-card dd { margin: 0; overflow-x: auto; overflow-y: hidden; }
+.fc-card dd .katex-display { margin: .3rem 0; }
+.fc-tip { margin: .8rem 0 .3rem; font-size: .92rem; }
+.fc-img { margin: 0; font-size: .9rem; }
+@media print { .fc-toc, .fc-img { display: none; } .fc-grid { display: block; } .fc-card { break-inside: avoid; margin-bottom: 10px; } }
+.fc-home { margin-top: 1rem; }

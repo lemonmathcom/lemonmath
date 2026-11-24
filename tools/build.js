@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', classroom: 'classroom', homework: 'homework', journey: 'my-progress', formulas: 'formulas', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', classroom: 'lop-hoc', homework: 'lam-bai', journey: 'hanh-trinh', formulas: 'cong-thuc', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -166,6 +166,7 @@ const API_URL = String(process.env.API_URL || cfg.site.api || '').replace(/\/+$/
 const classroomDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].classroom);
 const homeworkDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].homework);
 const journeyDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].journey);
+const formulasDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].formulas);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -219,6 +220,35 @@ function offlinePage(lang, page) {
     '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'offline') + '\n</div></article>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: false,
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
+}
+/*
+ * "Formulas to remember": the bilingual formula cards (data/formulas.json, images in assets/img/formulas/).
+ * Formulas are drawn with KaTeX on the page; each card also has its picture (1080x1350) to save, print or share.
+ */
+const FC_STRANDS = { M: ['Số và nền tảng', 'Number and foundations'], A: ['Đại số', 'Algebra'], B: ['Hình học', 'Geometry'], C: ['Lượng giác', 'Trigonometry'], D: ['Giải tích', 'Calculus'], E: ['Thống kê và xác suất', 'Statistics and probability'] };
+function formulasPage(lang) {
+  const file = path.join(ROOT, 'data', 'formulas.json');
+  if (!fs.existsSync(file)) return;
+  const cards = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const T = UI[lang], d = formulasDir(lang), alt = formulasDir(other(lang)), L = lang === 'vi' ? 0 : 1;
+  const tex = (x) => { try { return katex.renderToString(x, { displayMode: true, throwOnError: true, strict: 'ignore' }); } catch (e) { fail('data/formulas.json: ' + e.message); return ''; } };
+  const groups = Object.keys(FC_STRANDS).map((k) => ({ k, name: FC_STRANDS[k][L], cards: cards.filter((c) => c.code[0] === k) })).filter((g) => g.cards.length);
+  let body = '<article class="lesson about fc-page"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(T.fcTitle) + '</h1>\n' +
+    '<p class="lead">' + esc(T.fcLead) + '</p>\n' + pageActions(lang, d) +
+    '<nav class="fc-toc" aria-label="' + esc(T.fcTitle) + '">' + groups.map((g) => '<a href="#fc-' + g.k + '">' + esc(g.name) + ' <span>(' + g.cards.length + ')</span></a>').join('') + '</nav>\n';
+  groups.forEach((g) => {
+    body += '<section class="fc-strand" id="fc-' + g.k + '"><h2>' + esc(g.name) + '</h2>\n<div class="fc-grid">\n';
+    g.cards.forEach((c) => {
+      const img = '/assets/img/formulas/' + c.code + '-' + c.slug + '_' + lang.toUpperCase() + '.webp';
+      body += '<section class="fc-card" id="' + esc(c.code) + '"><header><span class="fc-code">' + esc(c.code) + '</span> <span class="fc-level">' + esc(c['level_' + lang]) + '</span><h3>' + esc(c['title_' + lang]) + '</h3></header>\n<dl>' +
+        c.items.map((it) => { const t = it['tex_' + lang] || it.tex; return '<dt>' + esc(it['label_' + lang]) + '</dt><dd>' + (Array.isArray(t) ? t : [t]).map(tex).join('') + '</dd>'; }).join('') +
+        '</dl>\n<p class="fc-tip">🍋 ' + esc(c['tip_' + lang]) + '</p>\n<p class="fc-img"><a href="' + img + '" target="_blank" rel="noopener">🖼 ' + esc(T.fcImage) + '</a></p></section>\n';
+    });
+    body += '</div></section>\n';
+  });
+  body += '</article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.fcTitle + ' | ' + site.name, description: T.fcLead, body, math: true,
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.fcTitle, url: abs(d) }])] }), isoDay(gitDate('data/formulas.json')));
 }
 function loadPage(lang, name) {
   const rel = 'content/' + lang + '/' + name + '.md';
@@ -394,7 +424,7 @@ function shell(o) {
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
     spreadHtml(lang, canonical, o.title) +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
-    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
+    '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
     '<script src="' + A('assets/site.js') + '" defer></script>\n' + (o.scripts || []).map((f) => '<script src="' + A(f) + '" defer></script>\n').join('') + ANALYTICS + '</body>\n</html>\n';
 }
 
@@ -492,7 +522,7 @@ function homePage(lang) {
     '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
     '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
     '<p><a class="btn" href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offCta) + '</a></p></div></section>\n' +
-    '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '</section>\n' +
+    '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '<p class="lead fc-home">📐 <a href="' + relDir(d, formulasDir(lang)) + '">' + esc(T.fcTitle) + '</a>: ' + esc(T.fcHome) + '</p></section>\n' +
     '<section class="features pillars" aria-labelledby="pillars-h"><h2 id="pillars-h">' + esc(T.pillarsH) + '</h2><div class="feat-grid">' +
     T.pillars.map((f, i) => '<div class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
     '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
@@ -984,6 +1014,7 @@ function main() {
     if (teach[lang] && LIVE_DB) joinPage(lang);
     if (teach[lang] && API_URL) { classroomPage(lang); homeworkPage(lang); }
     journeyPage(lang);
+    formulasPage(lang);
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });
