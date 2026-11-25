@@ -215,7 +215,16 @@ The canteen offers $4$ main dishes, $3$ soups and $2$ desserts. A meal is one ma
 2. Multiply the numbers of ways at each step.
 
 ::solution
-Three successive steps: main dish ($4$ ways), soup ($3$ ways), dessert ($2$ ways): $4\cdot3\cdot2=24$.
+To make a meal, we carry out three stages in turn: choose a main dish, choose a soup, choose a dessert.
+
+- Choose a main dish: $4$ ways.
+- For each choice of main dish, choose a soup: $3$ ways.
+- For each choice of the first two, choose a dessert: $2$ ways.
+
+By the multiplication rule, the number of different meals is
+$$4\cdot3\cdot2=24.$$
+
+So there are $24$ different meals.
 
 **Answer.** $24$ meals.
 :::
@@ -231,7 +240,13 @@ The class music group has $8$ boys and $6$ girls. In how many ways can you choos
 2. In (b), choose the boy, then the girl.
 
 ::solution
-(a) The presenter is a boy or a girl: $8+6=14$. (b) Choose a boy, then a girl: $8\cdot6=48$.
+a) The presenter is either a boy or a girl. There are $8$ ways to choose a boy and $6$ ways to choose a girl, and these options do not overlap. By the addition rule, the number of ways is
+$$8+6=14.$$
+
+b) To choose a duet pair, we carry out two stages in turn: choose a boy ($8$ ways), then for each boy choose a girl ($6$ ways). By the multiplication rule, the number of ways is
+$$8\cdot6=48.$$
+
+So there are $14$ ways to choose a presenter and $48$ ways to choose a boy and a girl for the duet.
 
 **Answer.** (a) $14$; (b) $48$.
 :::
@@ -247,7 +262,16 @@ How many three-digit numbers have all three digits even?
 2. The tens and units digits are chosen from $0, 2, 4, 6, 8$.
 
 ::solution
-Hundreds digit $4$ ways, tens digit $5$ ways, units digit $5$ ways: $4\cdot5\cdot5=100$.
+Let the number be $\overline{abc}$, where $a$, $b$, $c$ are even digits, that is, they belong to $\{0, 2, 4, 6, 8\}$, and $a\neq0$ because the number has three digits.
+
+- Choose the hundreds digit $a$: $a\in\{2, 4, 6, 8\}$, $4$ ways.
+- Choose the tens digit $b$: $b\in\{0, 2, 4, 6, 8\}$, $5$ ways.
+- Choose the units digit $c$: $c\in\{0, 2, 4, 6, 8\}$, $5$ ways.
+
+By the multiplication rule, the number of such numbers is
+$$4\cdot5\cdot5=100.$$
+
+So there are $100$ three-digit numbers whose three digits are all even.
 
 **Answer.** $100$.
 :::
@@ -263,7 +287,15 @@ A product code is one letter (from $26$ letters) followed by four digits, and di
 2. Multiply by the choices for each digit.
 
 ::solution
-$26\cdot10\cdot10\cdot10\cdot10=260\,000$.
+A product code is made in five stages in turn: choose the letter, then choose the four digits one by one.
+
+- Choose the letter: $26$ ways.
+- Choose each of the four digits: since digits may repeat, each position has $10$ ways (from $0$ to $9$).
+
+By the multiplication rule, the number of codes is
+$$26\cdot10\cdot10\cdot10\cdot10=26\cdot10^4=260\,000.$$
+
+So there are $260\,000$ such codes.
 
 **Answer.** $260\,000$ codes.
 :::
@@ -280,7 +312,26 @@ How many four-digit numbers with distinct digits are divisible by $5$?
 3. Add the two cases.
 
 ::solution
-Ending in $0$: thousands $9$ ways, hundreds $8$, tens $7$, giving $9\cdot8\cdot7=504$. Ending in $5$: thousands digit not $0$ and not $5$, so $8$ ways, hundreds $8$, tens $7$, giving $8\cdot8\cdot7=448$. Total: $504+448=952$.
+Let the number be $\overline{abcd}$ with all digits different and $a\neq0$. A number is divisible by $5$ exactly when $d=0$ or $d=5$. We split into two cases that do not overlap.
+
+Case 1: $d=0$.
+- Choose $a$: not $0$, $9$ ways.
+- Choose $b$: different from $a$ and $d$, $8$ ways.
+- Choose $c$: different from $a$, $b$, $d$, $7$ ways.
+
+This gives $9\cdot8\cdot7=504$ numbers.
+
+Case 2: $d=5$.
+- Choose $a$: not $0$ and not $5$, $8$ ways.
+- Choose $b$: different from $a$ and $d$ (it may be $0$), $8$ ways.
+- Choose $c$: different from $a$, $b$, $d$, $7$ ways.
+
+This gives $8\cdot8\cdot7=448$ numbers.
+
+By the addition rule, the number of such numbers is
+$$504+448=952.$$
+
+So there are $952$ four-digit numbers with distinct digits that are divisible by $5$.
 
 **Answer.** $952$.
 :::
@@ -297,7 +348,20 @@ There are $2$ roads from $A$ to $B$ and $3$ roads from $B$ to $C$. Minh travels 
 3. Return leg $B\to A$: leave out the road already used.
 
 ::solution
-Going: $2\cdot3=6$ ways. Returning: $C\to B$ has $3-1=2$ ways, $B\to A$ has $2-1=1$ way. Total: $6\cdot2\cdot1=12$.
+The trip has four stages in turn: $A\to B$, $B\to C$ (going) and $C\to B$, $B\to A$ (coming back).
+
+Going:
+- Stage $A\to B$: $2$ choices of road.
+- Stage $B\to C$: $3$ choices of road.
+
+Coming back, no road used on the way there may be used again:
+- Stage $C\to B$: leave out the $B$–$C$ road already used, so $3-1=2$ choices.
+- Stage $B\to A$: leave out the $A$–$B$ road already used, so $2-1=1$ choice.
+
+By the multiplication rule, the number of ways is
+$$2\cdot3\cdot2\cdot1=12.$$
+
+So there are $12$ such ways.
 
 **Answer.** $12$ ways.
 :::
@@ -319,13 +383,17 @@ d) $61$ numbers (digits may repeat) have at least two equal digits.
 3. For d), subtract the numbers with distinct digits from all numbers.
 
 ::solution
-a) **True.** $5\cdot5\cdot5=125$.
+Let the number be $\overline{abc}$ with $a$, $b$, $c$ in $\{1, 2, 3, 4, 5\}$ (there is no digit $0$, so the hundreds digit has no extra restriction).
 
-b) **True.** $5\cdot4\cdot3=60$.
+a) **True.** Digits may repeat, so each position has $5$ choices. By the multiplication rule there are $5\cdot5\cdot5=125$ numbers.
 
-c) **False.** Units digit $2$ or $4$ ($2$ ways), hundreds $4$ ways, tens $3$ ways: $2\cdot4\cdot3=24$.
+b) **True.** With distinct digits: $a$ has $5$ choices, $b\neq a$ has $4$ choices, $c$ different from $a$, $b$ has $3$ choices. There are $5\cdot4\cdot3=60$ numbers.
 
-d) **False.** The complement of "at least two equal digits" is "three distinct digits", so the number is $125-60=65$.
+c) **False.** The number is even, so $c\in\{2, 4\}$: $2$ choices. Then $a\neq c$: $4$ choices; $b$ different from $a$, $c$: $3$ choices. There are $2\cdot4\cdot3=24$ numbers, not $30$.
+
+d) **False.** Each of the $125$ numbers in a) either has three different digits or has at least two equal digits. By b), $60$ numbers have three different digits, so $125-60=65$ numbers have at least two equal digits, not $61$.
+
+So claims a), b) are true; claims c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -341,7 +409,19 @@ How many positive divisors does $720$ have?
 2. Count the choices for each exponent and multiply.
 
 ::solution
-$720=2^4\cdot3^2\cdot5$. The exponent of $2$ has $5$ choices ($0$ to $4$), of $3$ has $3$ choices, of $5$ has $2$ choices: $5\cdot3\cdot2=30$.
+Write $720$ as a product of primes:
+$$720=72\cdot10=2^3\cdot3^2\cdot2\cdot5=2^4\cdot3^2\cdot5.$$
+
+Each positive divisor of $720$ has the form $2^x\cdot3^y\cdot5^z$ where $x$, $y$, $z$ are natural numbers with $x\le4$, $y\le2$, $z\le1$. Different triples $(x, y, z)$ give different divisors.
+
+- Choose $x\in\{0, 1, 2, 3, 4\}$: $5$ ways.
+- Choose $y\in\{0, 1, 2\}$: $3$ ways.
+- Choose $z\in\{0, 1\}$: $2$ ways.
+
+By the multiplication rule, the number of positive divisors of $720$ is
+$$5\cdot3\cdot2=30.$$
+
+So $720$ has $30$ positive divisors.
 
 **Answer.** $30$.
 :::
@@ -358,7 +438,18 @@ $720=2^4\cdot3^2\cdot5$. The exponent of $2$ has $5$ choices ($0$ to $4$), of $3
 3. Apply the formula.
 
 ::solution
-$n(A)=50$, $n(B)=33$ (since $3\cdot33=99$), $n(A\cap B)=16$ (since $6\cdot16=96$). So $n(A\cup B)=50+33-16=67$.
+Let $A$ be the set of numbers from $1$ to $100$ divisible by $2$, and $B$ the set of numbers from $1$ to $100$ divisible by $3$. We need $n(A\cup B)$.
+
+The numbers divisible by $2$ are $2, 4, \dots, 100$, so $n(A)=50$.
+
+The numbers divisible by $3$ are $3, 6, \dots, 99$; since $99=3\cdot33$, $n(B)=33$.
+
+A number is divisible by both $2$ and $3$ exactly when it is divisible by $6$. These are $6, 12, \dots, 96$; since $96=6\cdot16$, $n(A\cap B)=16$.
+
+The numbers in $A\cap B$ are counted twice in $n(A)+n(B)$, so
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=50+33-16=67.$$
+
+So $67$ numbers from $1$ to $100$ are divisible by $2$ or by $3$.
 
 **Answer.** $67$.
 :::
@@ -375,8 +466,19 @@ How many three-digit numbers have digit sum $5$?
 3. Add the cases.
 
 ::solution
-If the last two digits have sum $s$, the tens digit can be $0, 1, \dots, s$, so there are $s+1$ ways. For $a=1, 2, 3, 4, 5$ we get $s=4, 3, 2, 1, 0$, so
+Let the number be $\overline{abc}$ with $a\ge1$ and $a+b+c=5$. Since $a\ge1$, $a\in\{1, 2, 3, 4, 5\}$. We split by the value of $a$; the cases do not overlap.
+
+For each $a$, put $s=5-a$; we must count the pairs of digits $(b, c)$ with $b+c=s$. The digit $b$ can be $0, 1, \dots, s$ (then $c=s-b$ is a digit), so there are $s+1$ ways.
+
+| $a$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|---|---|---|---|---|---|
+| $s=5-a$ | $4$ | $3$ | $2$ | $1$ | $0$ |
+| Ways to choose $(b, c)$ | $5$ | $4$ | $3$ | $2$ | $1$ |
+
+By the addition rule, the number of such numbers is
 $$5+4+3+2+1=15.$$
+
+So there are $15$ three-digit numbers with digit sum $5$.
 
 **Answer.** $15$.
 :::

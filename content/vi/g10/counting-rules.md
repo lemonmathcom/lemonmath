@@ -215,7 +215,16 @@ Căng tin có $4$ món chính, $3$ món canh và $2$ món tráng miệng. Một 
 2. Nhân số cách ở mỗi bước.
 
 ::solution
-Ba bước liên tiếp: món chính ($4$ cách), canh ($3$ cách), tráng miệng ($2$ cách): $4\cdot3\cdot2=24$.
+Để có một suất ăn, ta thực hiện liên tiếp ba công đoạn: chọn món chính, chọn món canh, chọn món tráng miệng.
+
+- Chọn món chính: có $4$ cách.
+- Ứng với mỗi cách chọn món chính, chọn món canh: có $3$ cách.
+- Ứng với mỗi cách chọn hai món trên, chọn món tráng miệng: có $2$ cách.
+
+Theo quy tắc nhân, số suất ăn khác nhau là
+$$4\cdot3\cdot2=24.$$
+
+Vậy có $24$ suất ăn khác nhau.
 
 **Đáp số.** $24$ suất ăn.
 :::
@@ -231,7 +240,13 @@ Ba bước liên tiếp: món chính ($4$ cách), canh ($3$ cách), tráng miệ
 2. Với (b), chọn bạn nam rồi chọn bạn nữ.
 
 ::solution
-(a) Người dẫn là một bạn nam hoặc một bạn nữ: $8+6=14$. (b) Chọn nam rồi chọn nữ: $8\cdot6=48$.
+a) Người dẫn chương trình là một bạn nam hoặc một bạn nữ. Có $8$ cách chọn một bạn nam và $6$ cách chọn một bạn nữ; hai phương án này không trùng nhau. Theo quy tắc cộng, số cách chọn là
+$$8+6=14.$$
+
+b) Để chọn một cặp song ca, ta làm hai công đoạn liên tiếp: chọn một bạn nam ($8$ cách), rồi ứng với mỗi bạn nam, chọn một bạn nữ ($6$ cách). Theo quy tắc nhân, số cách chọn là
+$$8\cdot6=48.$$
+
+Vậy có $14$ cách chọn một bạn dẫn chương trình và $48$ cách chọn một cặp nam nữ song ca.
 
 **Đáp số.** (a) $14$; (b) $48$.
 :::
@@ -247,7 +262,16 @@ Có bao nhiêu số có ba chữ số mà cả ba chữ số đều chẵn?
 2. Hàng chục và hàng đơn vị chọn trong $0, 2, 4, 6, 8$.
 
 ::solution
-Hàng trăm có $4$ cách, hàng chục $5$ cách, hàng đơn vị $5$ cách: $4\cdot5\cdot5=100$.
+Gọi số cần tìm là $\overline{abc}$, trong đó $a$, $b$, $c$ đều là chữ số chẵn, tức là thuộc tập $\{0; 2; 4; 6; 8\}$, và $a\neq0$ vì đây là số có ba chữ số.
+
+- Chọn chữ số hàng trăm $a$: $a\in\{2; 4; 6; 8\}$, có $4$ cách.
+- Chọn chữ số hàng chục $b$: $b\in\{0; 2; 4; 6; 8\}$, có $5$ cách.
+- Chọn chữ số hàng đơn vị $c$: $c\in\{0; 2; 4; 6; 8\}$, có $5$ cách.
+
+Theo quy tắc nhân, số các số cần tìm là
+$$4\cdot5\cdot5=100.$$
+
+Vậy có $100$ số có ba chữ số mà cả ba chữ số đều chẵn.
 
 **Đáp số.** $100$.
 :::
@@ -263,7 +287,15 @@ Một mã sản phẩm gồm một chữ cái (chọn trong $26$ chữ cái) the
 2. Nhân với số cách cho từng chữ số.
 
 ::solution
-$26\cdot10\cdot10\cdot10\cdot10=260\,000$.
+Một mã sản phẩm được lập qua năm công đoạn liên tiếp: chọn chữ cái, rồi lần lượt chọn bốn chữ số.
+
+- Chọn chữ cái: có $26$ cách.
+- Chọn mỗi chữ số trong bốn chữ số: vì các chữ số được lặp lại, mỗi vị trí có $10$ cách (từ $0$ đến $9$).
+
+Theo quy tắc nhân, số mã sản phẩm là
+$$26\cdot10\cdot10\cdot10\cdot10=26\cdot10^4=260\,000.$$
+
+Vậy có $260\,000$ mã như vậy.
 
 **Đáp số.** $260\,000$ mã.
 :::
@@ -280,7 +312,26 @@ Có bao nhiêu số có bốn chữ số khác nhau chia hết cho $5$?
 3. Cộng hai trường hợp.
 
 ::solution
-Tận cùng $0$: chữ số nghìn $9$ cách, trăm $8$ cách, chục $7$ cách, được $9\cdot8\cdot7=504$. Tận cùng $5$: chữ số nghìn khác $0$, khác $5$ nên $8$ cách, trăm $8$ cách, chục $7$ cách, được $8\cdot8\cdot7=448$. Tổng: $504+448=952$.
+Gọi số cần tìm là $\overline{abcd}$ với các chữ số đôi một khác nhau và $a\neq0$. Số chia hết cho $5$ khi và chỉ khi $d=0$ hoặc $d=5$. Ta chia thành hai trường hợp không trùng nhau.
+
+Trường hợp 1: $d=0$.
+- Chọn $a$: khác $0$, có $9$ cách.
+- Chọn $b$: khác $a$ và $d$, có $8$ cách.
+- Chọn $c$: khác $a$, $b$, $d$, có $7$ cách.
+
+Số các số là $9\cdot8\cdot7=504$.
+
+Trường hợp 2: $d=5$.
+- Chọn $a$: khác $0$ và khác $5$, có $8$ cách.
+- Chọn $b$: khác $a$ và $d$ (được bằng $0$), có $8$ cách.
+- Chọn $c$: khác $a$, $b$, $d$, có $7$ cách.
+
+Số các số là $8\cdot8\cdot7=448$.
+
+Theo quy tắc cộng, số các số cần tìm là
+$$504+448=952.$$
+
+Vậy có $952$ số có bốn chữ số khác nhau chia hết cho $5$.
 
 **Đáp số.** $952$.
 :::
@@ -297,7 +348,20 @@ Từ $A$ đến $B$ có $2$ con đường, từ $B$ đến $C$ có $3$ con đư�
 3. Chặng $B\to A$ lúc về: bỏ con đường đã đi.
 
 ::solution
-Lúc đi: $2\cdot3=6$ cách. Lúc về: $C\to B$ còn $3-1=2$ cách, $B\to A$ còn $2-1=1$ cách. Tổng: $6\cdot2\cdot1=12$.
+Hành trình gồm bốn chặng liên tiếp: $A\to B$, $B\to C$ (lúc đi) và $C\to B$, $B\to A$ (lúc về).
+
+Lúc đi:
+- Chặng $A\to B$: có $2$ cách chọn đường.
+- Chặng $B\to C$: có $3$ cách chọn đường.
+
+Lúc về, không được đi lại con đường đã đi:
+- Chặng $C\to B$: bỏ con đường $B$–$C$ đã đi, còn $3-1=2$ cách.
+- Chặng $B\to A$: bỏ con đường $A$–$B$ đã đi, còn $2-1=1$ cách.
+
+Theo quy tắc nhân, số cách đi là
+$$2\cdot3\cdot2\cdot1=12.$$
+
+Vậy có $12$ cách đi như vậy.
 
 **Đáp số.** $12$ cách.
 :::
@@ -319,13 +383,17 @@ d) Có $61$ số (các chữ số có thể lặp lại) có ít nhất hai ch�
 3. Với d), lấy tất cả trừ đi số có ba chữ số khác nhau.
 
 ::solution
-a) **Đúng.** $5\cdot5\cdot5=125$.
+Gọi số cần lập là $\overline{abc}$ với $a$, $b$, $c$ thuộc $\{1; 2; 3; 4; 5\}$ (không có chữ số $0$ nên hàng trăm không bị hạn chế thêm).
 
-b) **Đúng.** $5\cdot4\cdot3=60$.
+a) **Đúng.** Các chữ số được lặp lại nên mỗi vị trí có $5$ cách. Theo quy tắc nhân, có $5\cdot5\cdot5=125$ số.
 
-c) **Sai.** Hàng đơn vị là $2$ hoặc $4$ ($2$ cách), hàng trăm $4$ cách, hàng chục $3$ cách: $2\cdot4\cdot3=24$.
+b) **Đúng.** Các chữ số khác nhau: chọn $a$ có $5$ cách, chọn $b$ khác $a$ có $4$ cách, chọn $c$ khác $a$, $b$ có $3$ cách. Có $5\cdot4\cdot3=60$ số.
 
-d) **Sai.** Phần bù của "có ít nhất hai chữ số giống nhau" là "ba chữ số khác nhau", nên số cần tìm là $125-60=65$.
+c) **Sai.** Số chẵn nên $c\in\{2; 4\}$: có $2$ cách. Chọn $a$ khác $c$: $4$ cách; chọn $b$ khác $a$, $c$: $3$ cách. Có $2\cdot4\cdot3=24$ số, không phải $30$.
+
+d) **Sai.** Trong $125$ số ở câu a), mỗi số hoặc có ba chữ số khác nhau, hoặc có ít nhất hai chữ số giống nhau. Theo câu b) có $60$ số có ba chữ số khác nhau, nên số có ít nhất hai chữ số giống nhau là $125-60=65$, không phải $61$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -341,7 +409,19 @@ Số $720$ có bao nhiêu ước nguyên dương?
 2. Đếm số cách chọn từng số mũ rồi nhân.
 
 ::solution
-$720=2^4\cdot3^2\cdot5$. Số mũ của $2$ có $5$ cách ($0$ đến $4$), của $3$ có $3$ cách, của $5$ có $2$ cách: $5\cdot3\cdot2=30$.
+Phân tích $720$ ra thừa số nguyên tố:
+$$720=72\cdot10=2^3\cdot3^2\cdot2\cdot5=2^4\cdot3^2\cdot5.$$
+
+Mỗi ước nguyên dương của $720$ có dạng $2^x\cdot3^y\cdot5^z$ với $x$, $y$, $z$ là số tự nhiên và $x\le4$, $y\le2$, $z\le1$. Mỗi bộ $(x; y; z)$ khác nhau cho một ước khác nhau.
+
+- Chọn $x\in\{0; 1; 2; 3; 4\}$: có $5$ cách.
+- Chọn $y\in\{0; 1; 2\}$: có $3$ cách.
+- Chọn $z\in\{0; 1\}$: có $2$ cách.
+
+Theo quy tắc nhân, số ước nguyên dương của $720$ là
+$$5\cdot3\cdot2=30.$$
+
+Vậy $720$ có $30$ ước nguyên dương.
 
 **Đáp số.** $30$.
 :::
@@ -358,7 +438,18 @@ $720=2^4\cdot3^2\cdot5$. Số mũ của $2$ có $5$ cách ($0$ đến $4$), củ
 3. Áp dụng công thức.
 
 ::solution
-$n(A)=50$, $n(B)=33$ (vì $3\cdot33=99$), $n(A\cap B)=16$ (vì $6\cdot16=96$). Vậy $n(A\cup B)=50+33-16=67$.
+Gọi $A$ là tập các số từ $1$ đến $100$ chia hết cho $2$, $B$ là tập các số từ $1$ đến $100$ chia hết cho $3$. Ta cần tìm $n(A\cup B)$.
+
+Các số chia hết cho $2$ là $2, 4, \dots, 100$, nên $n(A)=50$.
+
+Các số chia hết cho $3$ là $3, 6, \dots, 99$; vì $99=3\cdot33$ nên $n(B)=33$.
+
+Một số chia hết cho cả $2$ và $3$ khi và chỉ khi nó chia hết cho $6$. Các số đó là $6, 12, \dots, 96$; vì $96=6\cdot16$ nên $n(A\cap B)=16$.
+
+Các số trong $A\cap B$ được đếm hai lần trong $n(A)+n(B)$, nên
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=50+33-16=67.$$
+
+Vậy có $67$ số từ $1$ đến $100$ chia hết cho $2$ hoặc chia hết cho $3$.
 
 **Đáp số.** $67$.
 :::
@@ -375,8 +466,19 @@ Có bao nhiêu số có ba chữ số mà tổng các chữ số bằng $5$?
 3. Cộng các trường hợp.
 
 ::solution
-Nếu hai chữ số cuối có tổng $s$ thì chữ số hàng chục nhận $0, 1, \dots, s$, tức $s+1$ cách. Với $a=1, 2, 3, 4, 5$ ta có $s=4, 3, 2, 1, 0$, nên
+Gọi số cần tìm là $\overline{abc}$ với $a\ge1$ và $a+b+c=5$. Vì $a\ge1$ nên $a\in\{1; 2; 3; 4; 5\}$. Ta chia theo giá trị của $a$; các trường hợp không trùng nhau.
+
+Với mỗi $a$, đặt $s=5-a$, ta cần đếm số cặp chữ số $(b; c)$ có $b+c=s$. Chữ số $b$ nhận các giá trị $0, 1, \dots, s$ (khi đó $c=s-b$ là một chữ số), nên có $s+1$ cách.
+
+| $a$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+|---|---|---|---|---|---|
+| $s=5-a$ | $4$ | $3$ | $2$ | $1$ | $0$ |
+| Số cách chọn $(b; c)$ | $5$ | $4$ | $3$ | $2$ | $1$ |
+
+Theo quy tắc cộng, số các số cần tìm là
 $$5+4+3+2+1=15.$$
+
+Vậy có $15$ số có ba chữ số mà tổng các chữ số bằng $5$.
 
 **Đáp số.** $15$.
 :::

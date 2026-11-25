@@ -212,7 +212,19 @@ Tìm $R$ và $\Delta_Q$ của mẫu số liệu $3, 5, 7, 9, 11$.
 2. Trung vị là $7$; nửa dưới $3, 5$, nửa trên $9, 11$.
 
 ::solution
-$R=11-3=8$. $Q_1=\dfrac{3+5}{2}=4$, $Q_3=\dfrac{9+11}{2}=10$.
+Mẫu số liệu $3, 5, 7, 9, 11$ đã được sắp xếp theo thứ tự không giảm và có $n=5$ giá trị.
+
+Khoảng biến thiên bằng hiệu giữa giá trị lớn nhất và giá trị nhỏ nhất:
+$$R=11-3=8.$$
+
+Để tìm khoảng tứ phân vị, trước hết ta tìm trung vị: $n=5$ lẻ nên $Q_2$ là giá trị thứ ba, $Q_2=7$.
+
+Nửa dưới (không kể $Q_2$) là $3, 5$, nên $Q_1=\dfrac{3+5}{2}=4$. Nửa trên là $9, 11$, nên $Q_3=\dfrac{9+11}{2}=10$.
+
+Khoảng tứ phân vị là
+$$\Delta_Q=Q_3-Q_1=10-4=6.$$
+
+Vậy $R=8$ và $\Delta_Q=6$.
 
 **Đáp số.** $R=8$, $\Delta_Q=6$.
 :::
@@ -229,8 +241,23 @@ Tìm $s^2$ và $s$ của mẫu số liệu $2, 4, 4, 4, 5, 5, 7, 9$ bằng công
 3. Chia cho $8$, rồi khai căn.
 
 ::solution
-$\bar{x}=\dfrac{40}{8}=5$. Bình phương các độ lệch: $9, 1, 1, 1, 0, 0, 4, 16$, tổng $32$.
-$$s^2=\frac{32}{8}=4,\qquad s=2.$$
+Mẫu số liệu có $n=8$ giá trị. Số trung bình là
+$$\bar{x}=\frac{2+4+4+4+5+5+7+9}{8}=\frac{40}{8}=5.$$
+
+Ta lập bảng độ lệch $x_i-\bar{x}$ và bình phương độ lệch:
+
+| $x_i$ | $2$ | $4$ | $4$ | $4$ | $5$ | $5$ | $7$ | $9$ |
+|---|---|---|---|---|---|---|---|---|
+| $x_i-\bar{x}$ | $-3$ | $-1$ | $-1$ | $-1$ | $0$ | $0$ | $2$ | $4$ |
+| $(x_i-\bar{x})^2$ | $9$ | $1$ | $1$ | $1$ | $0$ | $0$ | $4$ | $16$ |
+
+Tổng các bình phương độ lệch là $9+1+1+1+0+0+4+16=32$.
+
+Theo định nghĩa, phương sai là
+$$s^2=\frac{1}{n}\sum(x_i-\bar{x})^2=\frac{32}{8}=4,$$
+và độ lệch chuẩn là $s=\sqrt{s^2}=\sqrt4=2$.
+
+Vậy $s^2=4$ và $s=2$.
 
 **Đáp số.** $s^2=4$, $s=2$.
 :::
@@ -248,10 +275,20 @@ b) Tìm phương sai của $6, 6, 6, 6$. Kết quả cho biết điều gì?
 2. b) Xét độ lệch của từng giá trị.
 
 ::solution
-a) $\bar{x}=7$, $\sum x_i^2=9+25+49+81+121=285$:
-$$s^2=\frac{285}{5}-49=57-49=8,\qquad s=\sqrt8\approx2{,}83.$$
+a) Mẫu số liệu $3, 5, 7, 9, 11$ có $n=5$ và
+$$\bar{x}=\frac{3+5+7+9+11}{5}=\frac{35}{5}=7.$$
 
-b) $\bar{x}=6$, mọi độ lệch bằng $0$, nên $s^2=0$: số liệu hoàn toàn không phân tán.
+Tổng các bình phương là
+$$\sum x_i^2=9+25+49+81+121=285.$$
+
+Áp dụng công thức $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$, ta có
+$$s^2=\frac{285}{5}-7^2=57-49=8,\qquad s=\sqrt8=2\sqrt2\approx2{,}83.$$
+
+b) Mẫu $6, 6, 6, 6$ có $\bar{x}=\dfrac{24}{4}=6$. Mọi giá trị đều bằng $\bar{x}$, nên mọi độ lệch $x_i-\bar{x}$ đều bằng $0$, do đó
+$$s^2=\frac{0+0+0+0}{4}=0.$$
+Phương sai bằng $0$ cho biết các số liệu hoàn toàn không phân tán: chúng đều bằng nhau.
+
+Vậy a) $s^2=8$, $s\approx2{,}83$; b) $s^2=0$.
 
 **Đáp số.** a) $s^2=8$, $s\approx2{,}83$; b) $s^2=0$.
 :::
@@ -276,13 +313,18 @@ d) Nếu cộng thêm $3$ vào mọi giá trị thì phương sai của mẫu m�
 3. Xem độ lệch thay đổi thế nào khi cộng $3$.
 
 ::solution
-a) **Đúng:** $R=11-2=9$.
+Mẫu số liệu $2, 3, 5, 6, 7, 8, 11$ đã sắp xếp, có $n=7$ giá trị.
 
-b) **Sai:** $Q_1=3$ (nửa dưới $2, 3, 5$), $Q_3=8$ (nửa trên $7, 8, 11$), nên $\Delta_Q=5$.
+a) **Đúng.** Khoảng biến thiên là $R=11-2=9$.
 
-c) **Đúng:** $\bar{x}=\dfrac{42}{7}=6$; bình phương độ lệch $16, 9, 1, 0, 1, 4, 25$, tổng $56$; $s^2=\dfrac{56}{7}=8$.
+b) **Sai.** Vì $n=7$ lẻ nên trung vị là giá trị thứ tư, $Q_2=6$. Nửa dưới $2, 3, 5$ có trung vị $Q_1=3$; nửa trên $7, 8, 11$ có trung vị $Q_3=8$. Do đó $\Delta_Q=Q_3-Q_1=8-3=5$, không phải $4$.
 
-d) **Sai:** mọi giá trị và $\bar{x}$ cùng tăng $3$, nên độ lệch không đổi và phương sai vẫn bằng $8$.
+c) **Đúng.** Số trung bình là $\bar{x}=\dfrac{2+3+5+6+7+8+11}{7}=\dfrac{42}{7}=6$. Các độ lệch là $-4, -3, -1, 0, 1, 2, 5$, bình phương lên được $16, 9, 1, 0, 1, 4, 25$, có tổng $56$. Do đó
+$$s^2=\frac{56}{7}=8.$$
+
+d) **Sai.** Khi cộng thêm $3$ vào mọi giá trị, số trung bình mới là $\bar{x}+3=9$, nên mỗi độ lệch $(x_i+3)-(\bar{x}+3)=x_i-\bar{x}$ không đổi. Vì vậy phương sai của mẫu mới vẫn bằng $8$, không phải $11$.
+
+Vậy các mệnh đề a), c) đúng; các mệnh đề b), d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -299,8 +341,19 @@ Hai xạ thủ mỗi người bắn $5$ phát. Điểm của Minh: $8, 9, 10, 9,
 3. So sánh.
 
 ::solution
-Cả hai đều có $\bar{x}=\dfrac{45}{5}=9$.
-$$\text{Minh: } s^2=\frac{1+0+1+0+0}{5}=0{,}4,\ s\approx0{,}63;\qquad \text{Quân: } s^2=\frac{1+4+1+1+1}{5}=1{,}6,\ s\approx1{,}26.$$
+Điểm trung bình của Minh là
+$$\bar{x}_M=\frac{8+9+10+9+9}{5}=\frac{45}{5}=9.$$
+Các độ lệch là $-1, 0, 1, 0, 0$, nên
+$$s_M^2=\frac{1+0+1+0+0}{5}=\frac25=0{,}4,\qquad s_M=\sqrt{0{,}4}\approx0{,}63.$$
+
+Điểm trung bình của Quân là
+$$\bar{x}_Q=\frac{10+7+10+8+10}{5}=\frac{45}{5}=9.$$
+Các độ lệch là $1, -2, 1, -1, 1$, nên
+$$s_Q^2=\frac{1+4+1+1+1}{5}=\frac85=1{,}6,\qquad s_Q=\sqrt{1{,}6}\approx1{,}26.$$
+
+Hai bạn có cùng điểm trung bình $9$, nhưng $s_M<s_Q$: điểm của Minh ít phân tán hơn, tức là Minh bắn ổn định hơn.
+
+Vậy cả hai có điểm trung bình $9$; độ lệch chuẩn của Minh khoảng $0{,}63$, của Quân khoảng $1{,}26$; đội cần người bắn ổn định nên chọn Minh.
 
 **Đáp số.** Cả hai trung bình $9$ điểm; $s\approx0{,}63$ (Minh) và $s\approx1{,}26$ (Quân). Nên chọn Minh.
 :::
@@ -316,8 +369,18 @@ Giá trị $40$ có phải là giá trị ngoại lệ của mẫu $1, 2, 3, 4, 
 2. Tính ngưỡng trên.
 
 ::solution
-Nửa dưới $1, \dots, 5$ cho $Q_1=3$; nửa trên $7, 8, 9, 10, 40$ cho $Q_3=9$. Khi đó $\Delta_Q=6$ và
-$$Q_3+1{,}5\,\Delta_Q=9+9=18<40.$$
+Mẫu số liệu đã sắp xếp, có $n=11$ giá trị. Vì $n$ lẻ nên trung vị là giá trị thứ sáu, $Q_2=6$.
+
+Nửa dưới (không kể $Q_2$) là $1, 2, 3, 4, 5$, có trung vị $Q_1=3$. Nửa trên là $7, 8, 9, 10, 40$, có trung vị $Q_3=9$.
+
+Khoảng tứ phân vị là $\Delta_Q=Q_3-Q_1=9-3=6$.
+
+Một giá trị là giá trị ngoại lệ nếu nó lớn hơn $Q_3+1{,}5\,\Delta_Q$ hoặc bé hơn $Q_1-1{,}5\,\Delta_Q$. Ta có
+$$Q_3+1{,}5\,\Delta_Q=9+1{,}5\cdot6=9+9=18.$$
+
+Vì $40>18$ nên $40$ là giá trị ngoại lệ.
+
+Vậy $40$ là giá trị ngoại lệ của mẫu số liệu.
 
 **Đáp số.** Có, $40$ là giá trị ngoại lệ.
 :::
@@ -337,10 +400,15 @@ b) Nhân mọi giá trị với $2$. Tìm phương sai và độ lệch chuẩn 
 2. Viết các độ lệch mới và so sánh với độ lệch cũ $-4, -2, 0, 2, 4$.
 
 ::solution
-a) Mẫu $8, 10, 12, 14, 16$ có $\bar{x}=12$; các độ lệch vẫn là $-4, -2, 0, 2, 4$, nên $s=\sqrt8$ không đổi.
+a) Cộng $5$ vào mọi giá trị, ta được mẫu $8, 10, 12, 14, 16$. Số trung bình mới là
+$$\bar{x}'=\frac{8+10+12+14+16}{5}=\frac{60}{5}=12=7+5.$$
+Các độ lệch $x_i'-\bar{x}'$ là $-4, -2, 0, 2, 4$, giống hệt các độ lệch của mẫu ban đầu, nên phương sai vẫn bằng $8$ và độ lệch chuẩn vẫn là $s=\sqrt8\approx2{,}83$.
 
-b) Mẫu $6, 10, 14, 18, 22$ có $\bar{x}=14$; các độ lệch $-8, -4, 0, 4, 8$ gấp đôi:
-$$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5{,}66.$$
+b) Nhân mọi giá trị với $2$, ta được mẫu $6, 10, 14, 18, 22$ có số trung bình $\bar{x}''=\dfrac{70}{5}=14=2\cdot7$. Các độ lệch là $-8, -4, 0, 4, 8$, gấp đôi các độ lệch cũ. Do đó
+$$s''^2=\frac{64+16+0+16+64}{5}=\frac{160}{5}=32,\qquad s''=\sqrt{32}=4\sqrt2\approx5{,}66.$$
+Phương sai mới gấp $4$ lần phương sai cũ ($32=4\cdot8$), còn độ lệch chuẩn mới gấp $2$ lần độ lệch chuẩn cũ.
+
+Vậy a) số trung bình tăng $5$ (thành $12$), độ lệch chuẩn không đổi ($s\approx2{,}83$); b) phương sai mới là $32$, độ lệch chuẩn mới khoảng $5{,}66$.
 
 **Đáp số.** a) $\bar{x}$ tăng $5$ (thành $12$), $s\approx2{,}83$ không đổi; b) $s^2=32$ (gấp $4$), $s\approx5{,}66$ (gấp $2$).
 :::
@@ -361,8 +429,19 @@ $$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5{,}66.$$
 3. Trừ $\bar{x}^2$ rồi khai căn.
 
 ::solution
-$$\bar{x}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1{,}8,\qquad \frac{0+6+32+45+32}{25}=\frac{115}{25}=4{,}6,$$
-$$s^2=4{,}6-1{,}8^2=4{,}6-3{,}24=1{,}36,\qquad s\approx1{,}166.$$
+Mẫu số liệu cho dưới dạng bảng tần số với $n=4+6+8+5+2=25$ học sinh. Ta dùng công thức $s^2=\dfrac{1}{n}\sum n_ix_i^2-\bar{x}^2$.
+
+Số trung bình là
+$$\bar{x}=\frac{0\cdot4+1\cdot6+2\cdot8+3\cdot5+4\cdot2}{25}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1{,}8.$$
+
+Ta có
+$$\frac{1}{n}\sum n_ix_i^2=\frac{0^2\cdot4+1^2\cdot6+2^2\cdot8+3^2\cdot5+4^2\cdot2}{25}=\frac{0+6+32+45+32}{25}=\frac{115}{25}=4{,}6.$$
+
+Do đó phương sai là
+$$s^2=4{,}6-1{,}8^2=4{,}6-3{,}24=1{,}36,$$
+và độ lệch chuẩn là $s=\sqrt{1{,}36}\approx1{,}166\approx1{,}17$.
+
+Vậy độ lệch chuẩn của mẫu số liệu khoảng $1{,}17$.
 
 **Đáp số.** $1{,}17$.
 :::
@@ -378,8 +457,13 @@ Mẫu số liệu $4, 6, 8, 10, x$ có số trung bình cộng bằng $8$. Tìm 
 2. Tính các độ lệch so với $8$.
 
 ::solution
-$4+6+8+10+x=40$, nên $x=12$. Các độ lệch là $-4, -2, 0, 2, 4$:
-$$s^2=\frac{16+4+0+4+16}{5}=8.$$
+Mẫu số liệu có $n=5$ giá trị và số trung bình bằng $8$, nên tổng các giá trị bằng $5\cdot8=40$:
+$$4+6+8+10+x=40\iff28+x=40\iff x=12.$$
+
+Mẫu số liệu là $4, 6, 8, 10, 12$ với $\bar{x}=8$. Các độ lệch là $-4, -2, 0, 2, 4$, nên phương sai là
+$$s^2=\frac{16+4+0+4+16}{5}=\frac{40}{5}=8.$$
+
+Vậy $x=12$ và phương sai của mẫu là $8$.
 
 **Đáp số.** $x=12$, $s^2=8$.
 :::
@@ -395,7 +479,15 @@ Một mẫu gồm bốn số có tổng bằng $20$ và tổng các bình phươ
 2. Thay vào công thức thứ hai.
 
 ::solution
-$$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
+Mẫu có $n=4$ số, tổng $\sum x_i=20$ và tổng các bình phương $\sum x_i^2=120$. Ta dùng công thức $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$, không cần biết từng số.
+
+Số trung bình là
+$$\bar{x}=\frac{\sum x_i}{n}=\frac{20}{4}=5.$$
+
+Phương sai là
+$$s^2=\frac{120}{4}-5^2=30-25=5.$$
+
+Vậy phương sai của mẫu bằng $5$.
 
 **Đáp số.** $s^2=5$.
 :::

@@ -225,8 +225,16 @@ Tìm $\vec{a}\cdot\vec{b}$ trong hai trường hợp: (a) $|\vec{a}|=5$, $|\vec{
 2. Nhân với côsin của góc, chú ý dấu khi góc tù.
 
 ::solution
-(a) $5\cdot 2\cdot\cos 60^\circ=10\cdot\dfrac12=5$.
-(b) $4\cdot 3\cdot\cos 150^\circ=12\cdot\left(-\dfrac{\sqrt3}{2}\right)=-6\sqrt3$.
+Theo định nghĩa, tích vô hướng của hai vectơ là $\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b})$.
+
+a) Với $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$, ta có
+$$\vec{a}\cdot\vec{b}=5\cdot2\cdot\cos60^\circ=10\cdot\frac12=5.$$
+
+b) Với $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$, ta có $\cos150^\circ=-\cos30^\circ=-\dfrac{\sqrt3}{2}$, nên
+$$\vec{a}\cdot\vec{b}=4\cdot3\cdot\cos150^\circ=12\cdot\left(-\frac{\sqrt3}{2}\right)=-6\sqrt3.$$
+Tích vô hướng âm vì góc giữa hai vectơ là góc tù.
+
+Vậy a) $\vec{a}\cdot\vec{b}=5$; b) $\vec{a}\cdot\vec{b}=-6\sqrt3$.
 
 **Đáp số.** (a) $5$; (b) $-6\sqrt3$.
 :::
@@ -242,7 +250,16 @@ Tính $\vec{a}\cdot\vec{b}$ với $\vec{a}=(1; -3)$, $\vec{b}=(2; 5)$. Hai vect�
 2. Kiểm tra tích của $\vec{u}$, $\vec{v}$ có bằng $0$ không.
 
 ::solution
-$\vec{a}\cdot\vec{b}=1\cdot 2+(-3)\cdot 5=2-15=-13$. $\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=0$, nên $\vec{u}\perp\vec{v}$.
+Với $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$, ta có biểu thức toạ độ $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2$; hai vectơ khác $\vec{0}$ vuông góc khi và chỉ khi tích vô hướng của chúng bằng $0$.
+
+Với $\vec{a}=(1; -3)$, $\vec{b}=(2; 5)$:
+$$\vec{a}\cdot\vec{b}=1\cdot2+(-3)\cdot5=2-15=-13.$$
+
+Với $\vec{u}=(2; 1)$, $\vec{v}=(-1; 2)$ (đều khác $\vec{0}$):
+$$\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=-2+2=0.$$
+Do đó $\vec{u}\perp\vec{v}$.
+
+Vậy $\vec{a}\cdot\vec{b}=-13$, và hai vectơ $\vec{u}$, $\vec{v}$ vuông góc với nhau.
 
 **Đáp số.** $\vec{a}\cdot\vec{b}=-13$; $\vec{u}\perp\vec{v}$.
 :::
@@ -258,7 +275,17 @@ Tìm góc giữa hai vectơ $\vec{a}=(1; 2)$ và $\vec{b}=(3; 1)$.
 2. Tính côsin rồi nhận ra góc đặc biệt.
 
 ::solution
-$\vec{a}\cdot\vec{b}=3+2=5$, $|\vec{a}|=\sqrt5$, $|\vec{b}|=\sqrt{10}$, nên $\cos(\vec{a}, \vec{b})=\dfrac{5}{\sqrt{50}}=\dfrac{1}{\sqrt2}$.
+Áp dụng công thức $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}$.
+
+Ta có
+$$\vec{a}\cdot\vec{b}=1\cdot3+2\cdot1=5,\qquad|\vec{a}|=\sqrt{1^2+2^2}=\sqrt5,\qquad|\vec{b}|=\sqrt{3^2+1^2}=\sqrt{10}.$$
+
+Do đó
+$$\cos(\vec{a}, \vec{b})=\frac{5}{\sqrt5\cdot\sqrt{10}}=\frac{5}{\sqrt{50}}=\frac{5}{5\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2}.$$
+
+Vì $0^\circ\le(\vec{a}, \vec{b})\le180^\circ$ và $\cos45^\circ=\dfrac{\sqrt2}{2}$ nên $(\vec{a}, \vec{b})=45^\circ$.
+
+Vậy góc giữa hai vectơ $\vec{a}$ và $\vec{b}$ bằng $45^\circ$.
 
 **Đáp số.** $(\vec{a}, \vec{b})=45^\circ$.
 :::
@@ -274,7 +301,21 @@ Tìm $\widehat{A}$ của tam giác có $A(-1; 0)$, $B(2; 0)$, $C(2; 3)$.
 2. Tính $\cos A$ bằng công thức toạ độ.
 
 ::solution
-$\overrightarrow{AB}=(3; 0)$, $\overrightarrow{AC}=(3; 3)$, tích vô hướng bằng $9$, độ dài là $3$ và $3\sqrt2$. Do đó $\cos A=\dfrac{9}{9\sqrt2}=\dfrac{1}{\sqrt2}$.
+Góc $A$ của tam giác bằng góc giữa hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$, nên $\cos A=\dfrac{\overrightarrow{AB}\cdot\overrightarrow{AC}}{AB\cdot AC}$.
+
+Ta có
+$$\overrightarrow{AB}=(2-(-1); 0-0)=(3; 0),\qquad\overrightarrow{AC}=(2-(-1); 3-0)=(3; 3).$$
+
+Suy ra
+$$\overrightarrow{AB}\cdot\overrightarrow{AC}=3\cdot3+0\cdot3=9,\qquad AB=\sqrt{3^2+0^2}=3,\qquad AC=\sqrt{3^2+3^2}=3\sqrt2.$$
+
+Do đó
+$$\cos A=\frac{9}{3\cdot3\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2},$$
+nên $\widehat{A}=45^\circ$.
+
+Kiểm tra: $\overrightarrow{BC}=(0; 3)$ vuông góc với $\overrightarrow{AB}=(3; 0)$, nên tam giác vuông tại $B$ với $AB=BC=3$, tức là vuông cân tại $B$; khi đó $\widehat{A}=45^\circ$.
+
+Vậy $\widehat{A}=45^\circ$.
 
 **Đáp số.** $\widehat{A}=45^\circ$.
 :::
@@ -290,7 +331,17 @@ Cho $|\vec{a}|=2$, $|\vec{b}|=3$ và $\vec{a}\cdot\vec{b}=-3$. Tìm $|\vec{a}+\v
 2. Lấy căn bậc hai.
 
 ::solution
-$|\vec{a}+\vec{b}|^2=4+2\cdot(-3)+9=7$ và $|\vec{a}-\vec{b}|^2=4-2\cdot(-3)+9=19$.
+Ta dùng $|\vec{u}|^2=\vec{u}^{\,2}=\vec{u}\cdot\vec{u}$ và tính chất phân phối của tích vô hướng.
+
+Ta có
+$$|\vec{a}+\vec{b}|^2=(\vec{a}+\vec{b})^2=|\vec{a}|^2+2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2=4+2\cdot(-3)+9=7.$$
+Suy ra $|\vec{a}+\vec{b}|=\sqrt7$.
+
+Tương tự,
+$$|\vec{a}-\vec{b}|^2=(\vec{a}-\vec{b})^2=|\vec{a}|^2-2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2=4-2\cdot(-3)+9=19.$$
+Suy ra $|\vec{a}-\vec{b}|=\sqrt{19}$.
+
+Vậy $|\vec{a}+\vec{b}|=\sqrt7$ và $|\vec{a}-\vec{b}|=\sqrt{19}$.
 
 **Đáp số.** $|\vec{a}+\vec{b}|=\sqrt7$; $|\vec{a}-\vec{b}|=\sqrt{19}$.
 :::
@@ -306,7 +357,14 @@ Một người đẩy xe nôi bằng lực $20$ N theo tay đẩy hợp với ph
 2. Tính giá trị gần đúng rồi làm tròn.
 
 ::solution
-$$A=20\cdot 3\cdot\cos 30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx 51{,}96\ \text{(J)}.$$
+Gọi $\vec{F}$ là lực đẩy và $\vec{d}$ là vectơ độ dời của xe. Công của lực là tích vô hướng $A=\vec{F}\cdot\vec{d}=|\vec{F}|\cdot|\vec{d}|\cdot\cos(\vec{F}, \vec{d})$.
+
+Theo đề, $|\vec{F}|=20$ N, $|\vec{d}|=3$ m và $(\vec{F}, \vec{d})=30^\circ$. Do đó
+$$A=20\cdot3\cdot\cos30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx51{,}96\ \text{(J)}.$$
+
+Làm tròn đến hàng đơn vị, $A\approx52$ J.
+
+Vậy công của lực đẩy khoảng $52$ J.
 
 **Đáp số.** $52$.
 :::
@@ -327,13 +385,17 @@ d) $\vec{a}\cdot(\vec{b}+\vec{c})=25$.
 2. So sánh $\vec{c}$ với $\vec{a}$; tính $\vec{a}\cdot\vec{c}$.
 
 ::solution
-a) **Đúng.** $\vec{a}\cdot\vec{b}=12-12=0$.
+a) **Đúng.** Ta có $\vec{a}\cdot\vec{b}=3\cdot4+4\cdot(-3)=12-12=0$, và hai vectơ đều khác $\vec{0}$, nên $\vec{a}\perp\vec{b}$.
 
-b) **Đúng.** $|\vec{b}|=\sqrt{16+9}=5$.
+b) **Đúng.** $|\vec{b}|=\sqrt{4^2+(-3)^2}=\sqrt{16+9}=\sqrt{25}=5$.
 
-c) **Sai.** $\vec{c}=2\vec{a}$ cùng hướng với $\vec{a}$, nên $(\vec{a}, \vec{c})=0^\circ$.
+c) **Sai.** Ta có $\vec{c}=(6; 8)=2(3; 4)=2\vec{a}$ với $2>0$, nên $\vec{c}$ cùng hướng với $\vec{a}$. Do đó $(\vec{a}, \vec{c})=0^\circ$, không phải $180^\circ$.
 
-d) **Sai.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(18+32)=50$.
+d) **Sai.** Theo tính chất phân phối,
+$$\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(3\cdot6+4\cdot8)=0+50=50,$$
+không phải $25$. (Kiểm tra trực tiếp: $\vec{b}+\vec{c}=(10; 5)$ và $3\cdot10+4\cdot5=50$.)
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -349,9 +411,16 @@ d) **Sai.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{
 2. Bình phương $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$.
 
 ::solution
-$\overrightarrow{AB}\cdot\overrightarrow{AC}=5\cdot8\cdot\dfrac12=20$. Khi đó
-$$BC^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2=64-40+25=49.$$
-Đây chính là định lí côsin $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$.
+Góc giữa hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ là $\widehat{BAC}=60^\circ$, nên
+$$\overrightarrow{AB}\cdot\overrightarrow{AC}=AB\cdot AC\cdot\cos60^\circ=5\cdot8\cdot\frac12=20.$$
+
+Theo quy tắc hiệu, $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$. Bình phương vô hướng hai vế:
+$$\begin{aligned}BC^2&=\left(\overrightarrow{AC}-\overrightarrow{AB}\right)^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2\\&=64-2\cdot20+25=49.\end{aligned}$$
+Vì $BC>0$ nên $BC=7$.
+
+Đẳng thức trên chính là định lí côsin $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$, vì $\overrightarrow{AB}\cdot\overrightarrow{AC}=AB\cdot AC\cos A$.
+
+Vậy $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$ và $BC=7$.
 
 **Đáp số.** $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$; $BC=7$.
 :::
@@ -367,7 +436,18 @@ Tìm vectơ $\vec{b}$ vuông góc với $\vec{a}=(3; 4)$ và có $|\vec{b}|=10$.
 2. Giải $|\vec{b}|=10$.
 
 ::solution
-$\vec{b}=(4t; -3t)$ thoả mãn $3\cdot4t+4\cdot(-3t)=0$. $|\vec{b}|=5|t|=10$ cho $t=\pm2$.
+Gọi $\vec{b}=(x; y)$. Điều kiện $\vec{b}\perp\vec{a}$ cho
+$$3x+4y=0.$$
+Ta thấy mọi cặp $(x; y)=(4t; -3t)$ với $t\in\mathbb{R}$ đều thoả mãn, vì $3\cdot4t+4\cdot(-3t)=0$; ngược lại, từ $3x=-4y$ ta đặt $t=\dfrac{x}{4}$ thì $y=-3t$. Vậy $\vec{b}=(4t; -3t)$.
+
+Điều kiện $|\vec{b}|=10$ cho
+$$\sqrt{(4t)^2+(-3t)^2}=10\iff\sqrt{25t^2}=10\iff5|t|=10\iff t=\pm2.$$
+
+Với $t=2$: $\vec{b}=(8; -6)$. Với $t=-2$: $\vec{b}=(-8; 6)$.
+
+Kiểm tra: $3\cdot8+4\cdot(-6)=0$ và $\sqrt{64+36}=10$.
+
+Vậy $\vec{b}=(8; -6)$ hoặc $\vec{b}=(-8; 6)$.
 
 **Đáp số.** $\vec{b}=(8; -6)$ hoặc $\vec{b}=(-8; 6)$.
 :::
@@ -383,8 +463,16 @@ Chứng minh rằng nếu $|\vec{a}|=|\vec{b}|$ thì $(\vec{a}+\vec{b})\perp(\ve
 2. Thay số để kiểm tra.
 
 ::solution
-$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-|\vec{b}|^2=|\vec{a}|^2-|\vec{b}|^2=0.$$
-**Kiểm tra.** $|\vec{a}|=|\vec{b}|=5$, $\vec{a}+\vec{b}=(8; 4)$, $\vec{a}-\vec{b}=(-2; 4)$ và $-16+16=0$. Hình bình hành dựng trên $\vec{a}$, $\vec{b}$ có hai cạnh kề bằng nhau là hình thoi, và $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ là hai đường chéo của nó.
+Chứng minh. Dùng tính chất phân phối và giao hoán của tích vô hướng, ta có
+$$\begin{aligned}(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})&=\vec{a}\cdot\vec{a}-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-\vec{b}\cdot\vec{b}\\&=|\vec{a}|^2-|\vec{b}|^2.\end{aligned}$$
+Nếu $|\vec{a}|=|\vec{b}|$ thì biểu thức trên bằng $0$, do đó $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$ (khi hai vectơ này khác $\vec{0}$).
+
+Kiểm tra với $\vec{a}=(3; 4)$, $\vec{b}=(5; 0)$: ta có $|\vec{a}|=\sqrt{9+16}=5=|\vec{b}|$. Khi đó $\vec{a}+\vec{b}=(8; 4)$, $\vec{a}-\vec{b}=(-2; 4)$ và
+$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=8\cdot(-2)+4\cdot4=-16+16=0.$$
+
+Giải thích bằng hình thoi: đặt $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$ và dựng hình bình hành $OACB$. Theo quy tắc hình bình hành, $\overrightarrow{OC}=\vec{a}+\vec{b}$, còn $\overrightarrow{BA}=\vec{a}-\vec{b}$; đó là hai đường chéo. Vì $OA=OB$ nên hình bình hành có hai cạnh kề bằng nhau, tức là hình thoi, và hai đường chéo của hình thoi vuông góc với nhau.
+
+Vậy nếu $|\vec{a}|=|\vec{b}|$ thì $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$; đây chính là tính chất hai đường chéo của hình thoi vuông góc với nhau.
 
 **Đáp số.** Đã chứng minh: hai đường chéo của hình thoi vuông góc với nhau.
 :::

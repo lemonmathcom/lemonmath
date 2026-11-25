@@ -231,7 +231,17 @@ For the ellipse $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, find $a$, $b$, $c$, the foc
 2. Compute $c$.
 
 ::solution
-$a=7$, $b=5$, $c^2=49-25=24$, so $c=2\sqrt6$.
+An ellipse has a standard equation of the form $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ with $a>b>0$; the focal distance is $2c$ with $c^2=a^2-b^2$.
+
+Comparing with $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, we have $a^2=49$, $b^2=25$, so $a=7$, $b=5$.
+
+Then $c^2=a^2-b^2=49-25=24$, so $c=\sqrt{24}=2\sqrt6$.
+
+The foci are $F_1(-c, 0)$, $F_2(c, 0)$, that is, $F_1(-2\sqrt6, 0)$, $F_2(2\sqrt6, 0)$.
+
+The vertices are where the ellipse meets the coordinate axes: $A_1(-7, 0)$, $A_2(7, 0)$ on the $x$-axis and $B_1(0, -5)$, $B_2(0, 5)$ on the $y$-axis.
+
+So $a=7$, $b=5$, $c=2\sqrt6$; the foci are $(\pm2\sqrt6, 0)$; the vertices are $(\pm7, 0)$ and $(0, \pm5)$.
 
 **Answer.** Foci $(\pm2\sqrt6, 0)$; vertices $(\pm7, 0)$ and $(0, \pm5)$.
 :::
@@ -247,7 +257,16 @@ Write the standard equation of the ellipse with foci $(\pm2, 0)$ and $a=3$.
 2. Compute $b^2$ and write the equation.
 
 ::solution
-$b^2=9-4=5$.
+The foci $(\pm2, 0)$ lie on the $x$-axis, so the ellipse has a standard equation $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ $(a>b>0)$ and $c=2$.
+
+We are given $a=3$, so $a^2=9$.
+
+Since $c^2=a^2-b^2$,
+$$b^2=a^2-c^2=9-4=5.$$
+
+We see that $b^2=5>0$ and $b^2<a^2$, so the condition $a>b>0$ holds.
+
+So the standard equation of the ellipse is $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
 
 **Answer.** $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
 :::
@@ -263,7 +282,14 @@ Find $a$, $b$ and the foci of the ellipse $4x^2+9y^2=36$.
 2. Compute $c^2=a^2-b^2$.
 
 ::solution
-$\dfrac{x^2}{9}+\dfrac{y^2}{4}=1$: $a=3$, $b=2$, $c^2=9-4=5$.
+We bring the equation to standard form by dividing both sides by $36$:
+$$4x^2+9y^2=36\iff\frac{4x^2}{36}+\frac{9y^2}{36}=1\iff\frac{x^2}{9}+\frac{y^2}{4}=1.$$
+
+Comparing with $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, we have $a^2=9$, $b^2=4$, so $a=3$, $b=2$ (and $a>b>0$ holds).
+
+Then $c^2=a^2-b^2=9-4=5$, so $c=\sqrt5$. The foci are $F_1(-\sqrt5, 0)$, $F_2(\sqrt5, 0)$.
+
+So $a=3$, $b=2$ and the foci are $(\pm\sqrt5, 0)$.
 
 **Answer.** $a=3$, $b=2$, foci $(\pm\sqrt5, 0)$.
 :::
@@ -279,7 +305,17 @@ For the hyperbola $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, find $a$, $b$, $c$, the 
 2. Compute $c$ and $\dfrac ba$.
 
 ::solution
-$a=5$, $b=12$, $c=\sqrt{25+144}=13$.
+A hyperbola has a standard equation of the form $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ with $a>0$, $b>0$; then $c^2=a^2+b^2$.
+
+Comparing with $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, we have $a^2=25$, $b^2=144$, so $a=5$, $b=12$.
+
+Then
+$$c^2=a^2+b^2=25+144=169,$$
+so $c=13$. The foci are $F_1(-13, 0)$, $F_2(13, 0)$.
+
+The two asymptotes of the hyperbola are $y=\pm\dfrac{b}{a}x$, that is, $y=\pm\dfrac{12}{5}x$.
+
+So $a=5$, $b=12$, $c=13$; the foci are $(\pm13, 0)$; the asymptotes are $y=\pm\dfrac{12}{5}x$.
 
 **Answer.** Foci $(\pm13, 0)$; asymptotes $y=\pm\dfrac{12}{5}x$.
 :::
@@ -295,7 +331,13 @@ Find the focus and the directrix of the parabola $y^2=8x$.
 2. Compute $\dfrac p2$.
 
 ::solution
-$2p=8$, so $p=4$ and $\dfrac p2=2$.
+A parabola has a standard equation of the form $y^2=2px$ with $p>0$; its focus is $F\left(\dfrac p2, 0\right)$ and its directrix is $\Delta: x=-\dfrac p2$.
+
+Comparing $y^2=8x$ with $y^2=2px$, we have $2p=8$, so $p=4>0$ and $\dfrac p2=2$.
+
+Hence the focus is $F(2, 0)$ and the directrix is $x=-2$.
+
+So the parabola $y^2=8x$ has focus $F(2, 0)$ and directrix $x=-2$.
 
 **Answer.** Focus $(2, 0)$; directrix $x=-2$.
 :::
@@ -320,15 +362,21 @@ d) $|PF_1-PF_2|=6$.
 3. Compute $PF_1$, $PF_2$.
 
 ::solution
-$a=3$, $b=4$, $c=\sqrt{9+16}=5$.
+From the equation $(H): \dfrac{x^2}{9}-\dfrac{y^2}{16}=1$, we have $a^2=9$, $b^2=16$, so $a=3$, $b=4$ and $c=\sqrt{a^2+b^2}=\sqrt{9+16}=5$. The two foci are $F_1(-5, 0)$, $F_2(5, 0)$.
 
-a) **True**: $c=5$.
+a) **True.** Since $c=5$, the foci of $(H)$ are $(\pm5, 0)$.
 
-b) **False**: $\dfrac ba=\dfrac43$, so the asymptotes are $y=\pm\dfrac43x$.
+b) **False.** The asymptotes are $y=\pm\dfrac{b}{a}x=\pm\dfrac43x$, not $y=\pm\dfrac34x$ (the claim swaps $a$ and $b$).
 
-c) **True**: $\dfrac{25}{9}-\dfrac{256}{9\cdot16}=\dfrac{25}{9}-\dfrac{16}{9}=1$.
+c) **True.** Substitute $P\left(5, \dfrac{16}{3}\right)$ into the left-hand side of the equation of $(H)$:
+$$\frac{5^2}{9}-\frac{1}{16}\cdot\left(\frac{16}{3}\right)^2=\frac{25}{9}-\frac{256}{9\cdot16}=\frac{25}{9}-\frac{16}{9}=1.$$
+The left-hand side equals the right-hand side, so $P\in(H)$.
 
-d) **True**: $PF_2=\dfrac{16}{3}$, $PF_1=\sqrt{100+\dfrac{256}{9}}=\dfrac{34}{3}$, and the difference is $\dfrac{18}{3}=6=2a$.
+d) **True.** The points $P\left(5, \dfrac{16}{3}\right)$ and $F_2(5, 0)$ have the same $x$-coordinate, so $PF_2=\dfrac{16}{3}$. Also
+$$PF_1=\sqrt{(5+5)^2+\left(\frac{16}{3}\right)^2}=\sqrt{100+\frac{256}{9}}=\sqrt{\frac{1156}{9}}=\frac{34}{3}.$$
+Hence $|PF_1-PF_2|=\left|\dfrac{34}{3}-\dfrac{16}{3}\right|=\dfrac{18}{3}=6$. This is exactly $2a=6$, as the definition of a hyperbola requires.
+
+So claims a), c), d) are true; claim b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -344,7 +392,15 @@ The entrance of a tunnel is half an ellipse: it is $8$ m wide at the base and $3
 2. Substitute $x=1$ and compute $y$.
 
 ::solution
-$a=4$, $b=3$: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$. For $x=1$: $y=3\sqrt{1-\dfrac{1}{16}}=\dfrac{3\sqrt{15}}{4}\approx 2.90$.
+Choose axes $Oxy$ with the origin $O$ at the midpoint of the base of the entrance, the $x$-axis along the road and the $y$-axis along the centre line of the tunnel (unit: metre). Then the entrance is the upper half of the ellipse $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$.
+
+The base is $8$ m wide, so $2a=8$, that is, $a=4$. The top is $3$ m high, so $b=3$. The equation of the ellipse is
+$$\frac{x^2}{16}+\frac{y^2}{9}=1.$$
+
+At a point $1$ m from the centre line, $x=1$. Substituting, with $y\ge0$:
+$$\frac{y^2}{9}=1-\frac{1}{16}=\frac{15}{16}\Rightarrow y=3\sqrt{\frac{15}{16}}=\frac{3\sqrt{15}}{4}\approx2.90.$$
+
+So at a point $1$ m from the centre line, the entrance is about $2.90$ m high.
 
 **Answer.** $2.90$.
 :::
@@ -360,7 +416,14 @@ The mirror of a headlamp has a parabolic cross-section: it is $20$ cm wide at th
 2. Substitute it to find $p$, then compute $\dfrac p2$.
 
 ::solution
-$10^2=2p\cdot10\iff p=5$. The focus is $(2.5, 0)$.
+Choose axes $Oxy$ with the origin $O$ at the vertex of the parabola (the bottom of the mirror) and the $x$-axis along the axis of symmetry, pointing towards the opening (unit: centimetre). Then the cross-section of the mirror is the parabola $(P): y^2=2px$ with $p>0$.
+
+The opening is $20$ cm wide and the mirror is $10$ cm deep, so the rim of the opening is the point $M(10, 10)$ ($10$ cm from the axis and $10$ cm from the bottom). Since $M\in(P)$,
+$$10^2=2p\cdot10\iff100=20p\iff p=5\ \text{(so}\ p>0\ \text{holds)}.$$
+
+The focus of $(P)$ is $F\left(\dfrac p2, 0\right)=F(2.5, 0)$, so the bulb lies on the axis of the mirror, $2.5$ cm from the vertex $O$ (the bottom of the mirror).
+
+So the bulb is $2.5$ cm from the bottom of the mirror.
 
 **Answer.** $2.5$ cm.
 :::
@@ -376,7 +439,21 @@ Find the points $M$ of the ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ with $MF_2
 2. Substitute $x$ into the equation of the ellipse to find $y$.
 
 ::solution
-$5-\dfrac45x=3\iff x=\dfrac52$. Then $y^2=9\left(1-\dfrac{1}{4}\right)=\dfrac{27}{4}$, $y=\pm\dfrac{3\sqrt3}{2}$. Check: $MF_2^2=\left(\dfrac32\right)^2+\dfrac{27}{4}=9$.
+The ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ has $a=5$, $b=3$, $c=\sqrt{25-9}=4$, so $F_2(4, 0)$ is indeed a focus.
+
+Let $M(x, y)$ lie on the ellipse, with $-5\le x\le5$. From the equation of the ellipse, $y^2=9-\dfrac{9x^2}{25}$. Hence
+$$\begin{aligned}MF_2^2&=(x-4)^2+y^2=x^2-8x+16+9-\frac{9x^2}{25}\\&=\frac{16x^2}{25}-8x+25=\left(5-\frac45x\right)^2.\end{aligned}$$
+Since $-5\le x\le5$, we have $5-\dfrac45x\ge5-4=1>0$, so $MF_2=5-\dfrac45x$.
+
+The condition $MF_2=3$ becomes
+$$5-\frac45x=3\iff\frac45x=2\iff x=\frac52\ \text{(and}\ -5\le x\le5\ \text{holds)}.$$
+
+Substitute $x=\dfrac52$ into the equation of the ellipse:
+$$y^2=9\left(1-\frac{25/4}{25}\right)=9\left(1-\frac14\right)=\frac{27}{4}\Rightarrow y=\pm\frac{3\sqrt3}{2}.$$
+
+Check: $MF_2^2=\left(\dfrac52-4\right)^2+\dfrac{27}{4}=\dfrac94+\dfrac{27}{4}=9$, so $MF_2=3$.
+
+So there are two such points: $M\left(\dfrac52, \dfrac{3\sqrt3}{2}\right)$ and $M\left(\dfrac52, -\dfrac{3\sqrt3}{2}\right)$.
 
 **Answer.** $M\left(\dfrac52, \pm\dfrac{3\sqrt3}{2}\right)$.
 :::
@@ -392,7 +469,20 @@ Consider the ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ with foci $F_1(-4, 0)$, 
 2. Solve the system of the ellipse and the circle.
 
 ::solution
-From $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\iff 16y^2=81$, so $y=\pm\dfrac94$ and $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, $x=\pm\dfrac{5\sqrt7}{4}$.
+Let $O$ be the origin, which is also the midpoint of $F_1F_2$, with $F_1F_2=8$. Triangle $F_1MF_2$ has a right angle at $M$ exactly when the median $MO$ is half the hypotenuse, that is, $OM=\dfrac{F_1F_2}{2}=4$. So $M(x, y)$ must satisfy $x^2+y^2=16$.
+
+Also, $M$ lies on the ellipse, so we solve the system
+$$\begin{cases}x^2+y^2=16\\\dfrac{x^2}{25}+\dfrac{y^2}{9}=1.\end{cases}$$
+
+From the first equation, $x^2=16-y^2$. Substitute into the second equation and multiply both sides by $225$:
+$$\begin{aligned}\frac{16-y^2}{25}+\frac{y^2}{9}=1&\iff9(16-y^2)+25y^2=225\\&\iff144+16y^2=225\iff16y^2=81.\end{aligned}$$
+Hence $y^2=\dfrac{81}{16}$, that is, $y=\pm\dfrac94$.
+
+Then $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, so $x=\pm\dfrac{\sqrt{175}}{4}=\pm\dfrac{5\sqrt7}{4}$.
+
+Check with $M\left(\dfrac{5\sqrt7}{4}, \dfrac94\right)$: $\overrightarrow{MF_1}\cdot\overrightarrow{MF_2}=\left(-4-x\right)\left(4-x\right)+y^2=x^2+y^2-16=0$, so $\angle F_1MF_2=90^\circ$.
+
+So there are four such points: $\left(\dfrac{5\sqrt7}{4}, \dfrac94\right)$, $\left(\dfrac{5\sqrt7}{4}, -\dfrac94\right)$, $\left(-\dfrac{5\sqrt7}{4}, \dfrac94\right)$, $\left(-\dfrac{5\sqrt7}{4}, -\dfrac94\right)$.
 
 **Answer.** Four points $\left(\pm\dfrac{5\sqrt7}{4}, \pm\dfrac94\right)$.
 :::

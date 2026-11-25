@@ -113,7 +113,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | hanibi108 | hanibi108-LG-1.txt | hanibi108-LG-1-ketqua.md | Lớp 8: 38 bài tập, 5 bài học | 53 KB | ☑ |
 | hanibi108 | hanibi108-LG-2.txt | hanibi108-LG-2-ketqua.md | Lớp 8 → Lớp 10: 34 bài tập, 5 bài học | 46 KB | ☑ |
 | hanibi108 | hanibi108-LG-3.txt | hanibi108-LG-3-ketqua.md | Lớp 10: 30 bài tập, 3 bài học | 39 KB | ☑ |
-| hanibi108 | hanibi108-LG-4.txt | hanibi108-LG-4-ketqua.md | Lớp 10: 40 bài tập, 4 bài học | 47 KB | ☐ |
+| hanibi108 | hanibi108-LG-4.txt | hanibi108-LG-4-ketqua.md | Lớp 10: 40 bài tập, 4 bài học | 47 KB | ☑ |
 | hanibi108 | hanibi108-LG-5.txt | hanibi108-LG-5-ketqua.md | Lớp 10: 30 bài tập, 3 bài học | 39 KB | ☑ |
 | Xedap102 | Xedap102-LG-1.txt | Xedap102-LG-1-ketqua.md | Lớp 10: 40 bài tập, 4 bài học | 47 KB | ☑ |
 | Xedap102 | Xedap102-LG-2.txt | Xedap102-LG-2-ketqua.md | Lớp 10: 29 bài tập, 3 bài học | 43 KB | ☑ |

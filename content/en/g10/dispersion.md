@@ -212,7 +212,19 @@ Find $R$ and $\Delta_Q$ for the data set $3, 5, 7, 9, 11$.
 2. The median is $7$; the lower half is $3, 5$ and the upper half $9, 11$.
 
 ::solution
-$R=11-3=8$. $Q_1=\dfrac{3+5}{2}=4$, $Q_3=\dfrac{9+11}{2}=10$.
+The data set $3, 5, 7, 9, 11$ is already in non-decreasing order and has $n=5$ values.
+
+The range is the difference between the largest and the smallest value:
+$$R=11-3=8.$$
+
+To find the interquartile range, we first find the median: $n=5$ is odd, so $Q_2$ is the third value, $Q_2=7$.
+
+The lower half (not including $Q_2$) is $3, 5$, so $Q_1=\dfrac{3+5}{2}=4$. The upper half is $9, 11$, so $Q_3=\dfrac{9+11}{2}=10$.
+
+The interquartile range is
+$$\Delta_Q=Q_3-Q_1=10-4=6.$$
+
+So $R=8$ and $\Delta_Q=6$.
 
 **Answer.** $R=8$, $\Delta_Q=6$.
 :::
@@ -229,8 +241,23 @@ Find $s^2$ and $s$ for the data set $2, 4, 4, 4, 5, 5, 7, 9$ using the definitio
 3. Divide by $8$, then take the square root.
 
 ::solution
-$\bar{x}=\dfrac{40}{8}=5$. The squared deviations are $9, 1, 1, 1, 0, 0, 4, 16$, with total $32$.
-$$s^2=\frac{32}{8}=4,\qquad s=2.$$
+The data set has $n=8$ values. The mean is
+$$\bar{x}=\frac{2+4+4+4+5+5+7+9}{8}=\frac{40}{8}=5.$$
+
+We tabulate the deviations $x_i-\bar{x}$ and their squares:
+
+| $x_i$ | $2$ | $4$ | $4$ | $4$ | $5$ | $5$ | $7$ | $9$ |
+|---|---|---|---|---|---|---|---|---|
+| $x_i-\bar{x}$ | $-3$ | $-1$ | $-1$ | $-1$ | $0$ | $0$ | $2$ | $4$ |
+| $(x_i-\bar{x})^2$ | $9$ | $1$ | $1$ | $1$ | $0$ | $0$ | $4$ | $16$ |
+
+The sum of the squared deviations is $9+1+1+1+0+0+4+16=32$.
+
+By the definition, the variance is
+$$s^2=\frac{1}{n}\sum(x_i-\bar{x})^2=\frac{32}{8}=4,$$
+and the standard deviation is $s=\sqrt{s^2}=\sqrt4=2$.
+
+So $s^2=4$ and $s=2$.
 
 **Answer.** $s^2=4$, $s=2$.
 :::
@@ -248,10 +275,20 @@ b) Find the variance of $6, 6, 6, 6$. What does the result tell you?
 2. b) Look at the deviation of each value.
 
 ::solution
-a) $\bar{x}=7$, $\sum x_i^2=9+25+49+81+121=285$:
-$$s^2=\frac{285}{5}-49=57-49=8,\qquad s=\sqrt8\approx2.83.$$
+a) The data set $3, 5, 7, 9, 11$ has $n=5$ and
+$$\bar{x}=\frac{3+5+7+9+11}{5}=\frac{35}{5}=7.$$
 
-b) $\bar{x}=6$ and every deviation is $0$, so $s^2=0$: the data have no spread at all.
+The sum of the squares is
+$$\sum x_i^2=9+25+49+81+121=285.$$
+
+Using the formula $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$, we get
+$$s^2=\frac{285}{5}-7^2=57-49=8,\qquad s=\sqrt8=2\sqrt2\approx2.83.$$
+
+b) The data set $6, 6, 6, 6$ has $\bar{x}=\dfrac{24}{4}=6$. Every value equals $\bar{x}$, so every deviation $x_i-\bar{x}$ is $0$, hence
+$$s^2=\frac{0+0+0+0}{4}=0.$$
+A variance of $0$ tells us that the data are not spread out at all: all the values are equal.
+
+So a) $s^2=8$, $s\approx2.83$; b) $s^2=0$.
 
 **Answer.** a) $s^2=8$, $s\approx2.83$; b) $s^2=0$.
 :::
@@ -276,13 +313,18 @@ d) If $3$ is added to every value, the variance of the new data set is $11$.
 3. See how the deviations change when $3$ is added.
 
 ::solution
-a) **True:** $R=11-2=9$.
+The data set $2, 3, 5, 6, 7, 8, 11$ is in order and has $n=7$ values.
 
-b) **False:** $Q_1=3$ (lower half $2, 3, 5$), $Q_3=8$ (upper half $7, 8, 11$), so $\Delta_Q=5$.
+a) **True.** The range is $R=11-2=9$.
 
-c) **True:** $\bar{x}=\dfrac{42}{7}=6$; the squared deviations $16, 9, 1, 0, 1, 4, 25$ add up to $56$; $s^2=\dfrac{56}{7}=8$.
+b) **False.** Since $n=7$ is odd, the median is the fourth value, $Q_2=6$. The lower half $2, 3, 5$ has median $Q_1=3$; the upper half $7, 8, 11$ has median $Q_3=8$. Hence $\Delta_Q=Q_3-Q_1=8-3=5$, not $4$.
 
-d) **False:** every value and $\bar{x}$ go up by $3$, so the deviations do not change and the variance is still $8$.
+c) **True.** The mean is $\bar{x}=\dfrac{2+3+5+6+7+8+11}{7}=\dfrac{42}{7}=6$. The deviations are $-4, -3, -1, 0, 1, 2, 5$; their squares are $16, 9, 1, 0, 1, 4, 25$, with total $56$. Hence
+$$s^2=\frac{56}{7}=8.$$
+
+d) **False.** When $3$ is added to every value, the new mean is $\bar{x}+3=9$, so each deviation $(x_i+3)-(\bar{x}+3)=x_i-\bar{x}$ is unchanged. So the variance of the new data set is still $8$, not $11$.
+
+So claims a), c) are true; claims b), d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
@@ -299,8 +341,19 @@ Two shooters each fire $5$ shots. Minh scores $8, 9, 10, 9, 9$. Quan scores $10,
 3. Compare.
 
 ::solution
-Both have $\bar{x}=\dfrac{45}{5}=9$.
-$$\text{Minh: } s^2=\frac{1+0+1+0+0}{5}=0.4,\ s\approx0.63;\qquad \text{Quan: } s^2=\frac{1+4+1+1+1}{5}=1.6,\ s\approx1.26.$$
+Minh's mean score is
+$$\bar{x}_M=\frac{8+9+10+9+9}{5}=\frac{45}{5}=9.$$
+The deviations are $-1, 0, 1, 0, 0$, so
+$$s_M^2=\frac{1+0+1+0+0}{5}=\frac25=0.4,\qquad s_M=\sqrt{0.4}\approx0.63.$$
+
+Quan's mean score is
+$$\bar{x}_Q=\frac{10+7+10+8+10}{5}=\frac{45}{5}=9.$$
+The deviations are $1, -2, 1, -1, 1$, so
+$$s_Q^2=\frac{1+4+1+1+1}{5}=\frac85=1.6,\qquad s_Q=\sqrt{1.6}\approx1.26.$$
+
+Both have the same mean, $9$, but $s_M<s_Q$: Minh's scores are less spread out, so Minh is the steadier shooter.
+
+So both have mean $9$; Minh's standard deviation is about $0.63$ and Quan's is about $1.26$; since the team needs a steady shooter, it should send Minh.
 
 **Answer.** Both have mean $9$; $s\approx0.63$ (Minh) and $s\approx1.26$ (Quan). The team should send Minh.
 :::
@@ -316,8 +369,18 @@ Is $40$ an outlier of the data set $1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 40$?
 2. Compute the upper limit.
 
 ::solution
-The lower half $1, \dots, 5$ gives $Q_1=3$; the upper half $7, 8, 9, 10, 40$ gives $Q_3=9$. Then $\Delta_Q=6$ and
-$$Q_3+1.5\,\Delta_Q=9+9=18<40.$$
+The data set is in order and has $n=11$ values. Since $n$ is odd, the median is the sixth value, $Q_2=6$.
+
+The lower half (not including $Q_2$) is $1, 2, 3, 4, 5$, with median $Q_1=3$. The upper half is $7, 8, 9, 10, 40$, with median $Q_3=9$.
+
+The interquartile range is $\Delta_Q=Q_3-Q_1=9-3=6$.
+
+A value is an outlier if it is greater than $Q_3+1.5\,\Delta_Q$ or less than $Q_1-1.5\,\Delta_Q$. We have
+$$Q_3+1.5\,\Delta_Q=9+1.5\cdot6=9+9=18.$$
+
+Since $40>18$, the value $40$ is an outlier.
+
+So $40$ is an outlier of the data set.
 
 **Answer.** Yes, $40$ is an outlier.
 :::
@@ -337,10 +400,15 @@ b) Multiply every value by $2$. Find the new variance and standard deviation.
 2. Write the new deviations and compare them with the old ones $-4, -2, 0, 2, 4$.
 
 ::solution
-a) The data $8, 10, 12, 14, 16$ have $\bar{x}=12$; the deviations are still $-4, -2, 0, 2, 4$, so $s=\sqrt8$ does not change.
+a) Adding $5$ to every value gives $8, 10, 12, 14, 16$. The new mean is
+$$\bar{x}'=\frac{8+10+12+14+16}{5}=\frac{60}{5}=12=7+5.$$
+The deviations $x_i'-\bar{x}'$ are $-4, -2, 0, 2, 4$, exactly the same as for the original data set, so the variance is still $8$ and the standard deviation is still $s=\sqrt8\approx2.83$.
 
-b) The data $6, 10, 14, 18, 22$ have $\bar{x}=14$; the deviations $-8, -4, 0, 4, 8$ are doubled:
-$$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5.66.$$
+b) Multiplying every value by $2$ gives $6, 10, 14, 18, 22$, with mean $\bar{x}''=\dfrac{70}{5}=14=2\cdot7$. The deviations are $-8, -4, 0, 4, 8$, twice the old deviations. Hence
+$$s''^2=\frac{64+16+0+16+64}{5}=\frac{160}{5}=32,\qquad s''=\sqrt{32}=4\sqrt2\approx5.66.$$
+The new variance is $4$ times the old one ($32=4\cdot8$), and the new standard deviation is $2$ times the old one.
+
+So a) the mean increases by $5$ (to $12$) and the standard deviation is unchanged ($s\approx2.83$); b) the new variance is $32$ and the new standard deviation is about $5.66$.
 
 **Answer.** a) $\bar{x}$ goes up by $5$ (to $12$), $s\approx2.83$ is unchanged; b) $s^2=32$ ($4$ times as large), $s\approx5.66$ (twice as large).
 :::
@@ -361,8 +429,19 @@ $$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5.66.$$
 3. Subtract $\bar{x}^2$ and take the square root.
 
 ::solution
-$$\bar{x}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1.8,\qquad \frac{0+6+32+45+32}{25}=\frac{115}{25}=4.6,$$
-$$s^2=4.6-1.8^2=4.6-3.24=1.36,\qquad s\approx1.166.$$
+The data are given as a frequency table with $n=4+6+8+5+2=25$ students. We use the formula $s^2=\dfrac{1}{n}\sum n_ix_i^2-\bar{x}^2$.
+
+The mean is
+$$\bar{x}=\frac{0\cdot4+1\cdot6+2\cdot8+3\cdot5+4\cdot2}{25}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1.8.$$
+
+We have
+$$\frac{1}{n}\sum n_ix_i^2=\frac{0^2\cdot4+1^2\cdot6+2^2\cdot8+3^2\cdot5+4^2\cdot2}{25}=\frac{0+6+32+45+32}{25}=\frac{115}{25}=4.6.$$
+
+So the variance is
+$$s^2=4.6-1.8^2=4.6-3.24=1.36,$$
+and the standard deviation is $s=\sqrt{1.36}\approx1.166\approx1.17$.
+
+So the standard deviation of the data is about $1.17$.
 
 **Answer.** $1.17$.
 :::
@@ -378,8 +457,13 @@ The data set $4, 6, 8, 10, x$ has mean $8$. Find $x$ and the variance of the dat
 2. Compute the deviations from $8$.
 
 ::solution
-$4+6+8+10+x=40$, so $x=12$. The deviations are $-4, -2, 0, 2, 4$:
-$$s^2=\frac{16+4+0+4+16}{5}=8.$$
+The data set has $n=5$ values and mean $8$, so the values add up to $5\cdot8=40$:
+$$4+6+8+10+x=40\iff28+x=40\iff x=12.$$
+
+The data set is $4, 6, 8, 10, 12$ with $\bar{x}=8$. The deviations are $-4, -2, 0, 2, 4$, so the variance is
+$$s^2=\frac{16+4+0+4+16}{5}=\frac{40}{5}=8.$$
+
+So $x=12$ and the variance of the data set is $8$.
 
 **Answer.** $x=12$, $s^2=8$.
 :::
@@ -395,7 +479,15 @@ A data set of four numbers has total $20$ and sum of squares $120$. Find the var
 2. Substitute into the second formula.
 
 ::solution
-$$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
+The data set has $n=4$ numbers, with total $\sum x_i=20$ and sum of squares $\sum x_i^2=120$. We use the formula $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$, which does not need the individual numbers.
+
+The mean is
+$$\bar{x}=\frac{\sum x_i}{n}=\frac{20}{4}=5.$$
+
+The variance is
+$$s^2=\frac{120}{4}-5^2=30-25=5.$$
+
+So the variance of the data set is $5$.
 
 **Answer.** $s^2=5$.
 :::

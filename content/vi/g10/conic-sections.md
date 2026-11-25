@@ -231,7 +231,17 @@ Với elip $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, tìm $a$, $b$, $c$, các tiêu �
 2. Tính $c$.
 
 ::solution
-$a=7$, $b=5$, $c^2=49-25=24$, nên $c=2\sqrt6$.
+Elip có phương trình chính tắc dạng $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ với $a>b>0$; tiêu cự là $2c$ với $c^2=a^2-b^2$.
+
+So sánh với $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, ta có $a^2=49$, $b^2=25$, nên $a=7$, $b=5$.
+
+Ta có $c^2=a^2-b^2=49-25=24$, nên $c=\sqrt{24}=2\sqrt6$.
+
+Các tiêu điểm là $F_1(-c; 0)$, $F_2(c; 0)$, tức là $F_1(-2\sqrt6; 0)$, $F_2(2\sqrt6; 0)$.
+
+Các đỉnh là giao điểm của elip với hai trục toạ độ: $A_1(-7; 0)$, $A_2(7; 0)$ trên trục $Ox$ và $B_1(0; -5)$, $B_2(0; 5)$ trên trục $Oy$.
+
+Vậy $a=7$, $b=5$, $c=2\sqrt6$; tiêu điểm $(\pm2\sqrt6; 0)$; các đỉnh $(\pm7; 0)$ và $(0; \pm5)$.
 
 **Đáp số.** Tiêu điểm $(\pm2\sqrt6; 0)$; đỉnh $(\pm7; 0)$ và $(0; \pm5)$.
 :::
@@ -247,7 +257,16 @@ Viết phương trình chính tắc của elip có các tiêu điểm $(\pm2; 0)
 2. Tính $b^2$ rồi viết phương trình.
 
 ::solution
-$b^2=9-4=5$.
+Các tiêu điểm $(\pm2; 0)$ nằm trên trục $Ox$, nên elip có phương trình chính tắc $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ $(a>b>0)$ và $c=2$.
+
+Theo giả thiết $a=3$, nên $a^2=9$.
+
+Vì $c^2=a^2-b^2$ nên
+$$b^2=a^2-c^2=9-4=5.$$
+
+Ta thấy $b^2=5>0$ và $b^2<a^2$, thoả mãn điều kiện $a>b>0$.
+
+Vậy phương trình chính tắc của elip là $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
 
 **Đáp số.** $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
 :::
@@ -263,7 +282,14 @@ Tìm $a$, $b$ và các tiêu điểm của elip $4x^2+9y^2=36$.
 2. Tính $c^2=a^2-b^2$.
 
 ::solution
-$\dfrac{x^2}{9}+\dfrac{y^2}{4}=1$: $a=3$, $b=2$, $c^2=9-4=5$.
+Ta đưa phương trình về dạng chính tắc bằng cách chia hai vế cho $36$:
+$$4x^2+9y^2=36\iff\frac{4x^2}{36}+\frac{9y^2}{36}=1\iff\frac{x^2}{9}+\frac{y^2}{4}=1.$$
+
+So sánh với $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, ta có $a^2=9$, $b^2=4$, nên $a=3$, $b=2$ (thoả mãn $a>b>0$).
+
+Ta có $c^2=a^2-b^2=9-4=5$, nên $c=\sqrt5$. Các tiêu điểm là $F_1(-\sqrt5; 0)$, $F_2(\sqrt5; 0)$.
+
+Vậy $a=3$, $b=2$ và các tiêu điểm là $(\pm\sqrt5; 0)$.
 
 **Đáp số.** $a=3$, $b=2$, tiêu điểm $(\pm\sqrt5; 0)$.
 :::
@@ -279,7 +305,17 @@ Với hypebol $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, tìm $a$, $b$, $c$, các ti�
 2. Tính $c$ và $\dfrac ba$.
 
 ::solution
-$a=5$, $b=12$, $c=\sqrt{25+144}=13$.
+Hypebol có phương trình chính tắc dạng $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ với $a>0$, $b>0$; khi đó $c^2=a^2+b^2$.
+
+So sánh với $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, ta có $a^2=25$, $b^2=144$, nên $a=5$, $b=12$.
+
+Ta có
+$$c^2=a^2+b^2=25+144=169,$$
+nên $c=13$. Các tiêu điểm là $F_1(-13; 0)$, $F_2(13; 0)$.
+
+Hai đường tiệm cận của hypebol là $y=\pm\dfrac{b}{a}x$, tức là $y=\pm\dfrac{12}{5}x$.
+
+Vậy $a=5$, $b=12$, $c=13$; tiêu điểm $(\pm13; 0)$; các đường tiệm cận $y=\pm\dfrac{12}{5}x$.
 
 **Đáp số.** Tiêu điểm $(\pm13; 0)$; tiệm cận $y=\pm\dfrac{12}{5}x$.
 :::
@@ -295,7 +331,13 @@ Tìm tiêu điểm và đường chuẩn của parabol $y^2=8x$.
 2. Tính $\dfrac p2$.
 
 ::solution
-$2p=8$, nên $p=4$ và $\dfrac p2=2$.
+Parabol có phương trình chính tắc dạng $y^2=2px$ với $p>0$; tiêu điểm là $F\left(\dfrac p2; 0\right)$ và đường chuẩn là $\Delta: x=-\dfrac p2$.
+
+So sánh $y^2=8x$ với $y^2=2px$, ta có $2p=8$, nên $p=4>0$ và $\dfrac p2=2$.
+
+Do đó tiêu điểm là $F(2; 0)$ và đường chuẩn là $x=-2$.
+
+Vậy parabol $y^2=8x$ có tiêu điểm $F(2; 0)$ và đường chuẩn $x=-2$.
 
 **Đáp số.** Tiêu điểm $(2; 0)$; đường chuẩn $x=-2$.
 :::
@@ -320,15 +362,21 @@ d) $|PF_1-PF_2|=6$.
 3. Tính $PF_1$, $PF_2$.
 
 ::solution
-$a=3$, $b=4$, $c=\sqrt{9+16}=5$.
+Từ phương trình $(H): \dfrac{x^2}{9}-\dfrac{y^2}{16}=1$, ta có $a^2=9$, $b^2=16$, nên $a=3$, $b=4$ và $c=\sqrt{a^2+b^2}=\sqrt{9+16}=5$. Hai tiêu điểm là $F_1(-5; 0)$, $F_2(5; 0)$.
 
-a) **Đúng**: $c=5$.
+a) **Đúng.** Vì $c=5$ nên các tiêu điểm của $(H)$ là $(\pm5; 0)$.
 
-b) **Sai**: $\dfrac ba=\dfrac43$, tiệm cận là $y=\pm\dfrac43x$.
+b) **Sai.** Các đường tiệm cận là $y=\pm\dfrac{b}{a}x=\pm\dfrac43x$, không phải $y=\pm\dfrac34x$ (khẳng định đã đổi chỗ $a$ và $b$).
 
-c) **Đúng**: $\dfrac{25}{9}-\dfrac{256}{9\cdot16}=\dfrac{25}{9}-\dfrac{16}{9}=1$.
+c) **Đúng.** Thay toạ độ $P\left(5; \dfrac{16}{3}\right)$ vào vế trái của phương trình $(H)$:
+$$\frac{5^2}{9}-\frac{1}{16}\cdot\left(\frac{16}{3}\right)^2=\frac{25}{9}-\frac{256}{9\cdot16}=\frac{25}{9}-\frac{16}{9}=1.$$
+Vế trái bằng vế phải nên $P\in(H)$.
 
-d) **Đúng**: $PF_2=\dfrac{16}{3}$, $PF_1=\sqrt{100+\dfrac{256}{9}}=\dfrac{34}{3}$, hiệu là $\dfrac{18}{3}=6=2a$.
+d) **Đúng.** Ta có $P\left(5; \dfrac{16}{3}\right)$ và $F_2(5; 0)$ có cùng hoành độ, nên $PF_2=\dfrac{16}{3}$. Còn
+$$PF_1=\sqrt{(5+5)^2+\left(\frac{16}{3}\right)^2}=\sqrt{100+\frac{256}{9}}=\sqrt{\frac{1156}{9}}=\frac{34}{3}.$$
+Suy ra $|PF_1-PF_2|=\left|\dfrac{34}{3}-\dfrac{16}{3}\right|=\dfrac{18}{3}=6$. Kết quả này đúng bằng $2a=6$, phù hợp với định nghĩa hypebol.
+
+Vậy các mệnh đề a), c), d) đúng; mệnh đề b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -344,7 +392,15 @@ Cửa một đường hầm có dạng nửa elip: chân cửa rộng $8$ m, đ�
 2. Thay $x=1$, tính $y$.
 
 ::solution
-$a=4$, $b=3$: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$. Với $x=1$: $y=3\sqrt{1-\dfrac{1}{16}}=\dfrac{3\sqrt{15}}{4}\approx 2{,}90$.
+Chọn hệ trục toạ độ $Oxy$ có gốc $O$ ở trung điểm chân cửa, trục $Ox$ nằm trên mặt đường, trục $Oy$ là tim đường hầm (đơn vị: mét). Khi đó cửa hầm là nửa trên của elip $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$.
+
+Chân cửa rộng $8$ m nên $2a=8$, tức là $a=4$. Đỉnh cửa cao $3$ m nên $b=3$. Phương trình elip là
+$$\frac{x^2}{16}+\frac{y^2}{9}=1.$$
+
+Tại vị trí cách tim đường hầm $1$ m, ta có $x=1$. Thay vào phương trình, với $y\ge0$:
+$$\frac{y^2}{9}=1-\frac{1}{16}=\frac{15}{16}\Rightarrow y=3\sqrt{\frac{15}{16}}=\frac{3\sqrt{15}}{4}\approx2{,}90.$$
+
+Vậy tại vị trí cách tim đường hầm $1$ m, cửa hầm cao khoảng $2{,}90$ m.
 
 **Đáp số.** $2{,}90$.
 :::
@@ -360,7 +416,14 @@ Gương phản xạ của một đèn pha có mặt cắt là parabol: miệng g
 2. Thay vào để tìm $p$, rồi tính $\dfrac p2$.
 
 ::solution
-$10^2=2p\cdot10\iff p=5$. Tiêu điểm $(2{,}5; 0)$.
+Chọn hệ trục toạ độ $Oxy$ có gốc $O$ là đỉnh parabol (đáy gương), trục $Ox$ là trục đối xứng của gương, hướng về phía miệng gương (đơn vị: xentimét). Khi đó mặt cắt của gương là parabol $(P): y^2=2px$ với $p>0$.
+
+Miệng gương rộng $20$ cm và gương sâu $10$ cm, nên mép miệng gương là điểm $M(10; 10)$ (cách trục $10$ cm, cách đáy $10$ cm). Vì $M\in(P)$ nên
+$$10^2=2p\cdot10\iff100=20p\iff p=5\ \text{(thoả mãn}\ p>0\text{)}.$$
+
+Tiêu điểm của $(P)$ là $F\left(\dfrac p2; 0\right)=F(2{,}5; 0)$, nên bóng đèn nằm trên trục gương và cách đỉnh $O$ (đáy gương) một khoảng $2{,}5$ cm.
+
+Vậy bóng đèn cách đáy gương $2{,}5$ cm.
 
 **Đáp số.** $2{,}5$ cm.
 :::
@@ -376,7 +439,21 @@ Tìm các điểm $M$ của elip $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ có $MF_2=3$
 2. Thay $x$ vào phương trình elip để tìm $y$.
 
 ::solution
-$5-\dfrac45x=3\iff x=\dfrac52$. Khi đó $y^2=9\left(1-\dfrac{1}{4}\right)=\dfrac{27}{4}$, $y=\pm\dfrac{3\sqrt3}{2}$. Kiểm tra: $MF_2^2=\left(\dfrac32\right)^2+\dfrac{27}{4}=9$.
+Elip $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ có $a=5$, $b=3$, $c=\sqrt{25-9}=4$, nên $F_2(4; 0)$ đúng là một tiêu điểm.
+
+Gọi $M(x; y)$ thuộc elip, với $-5\le x\le5$. Từ phương trình elip, $y^2=9-\dfrac{9x^2}{25}$. Do đó
+$$\begin{aligned}MF_2^2&=(x-4)^2+y^2=x^2-8x+16+9-\frac{9x^2}{25}\\&=\frac{16x^2}{25}-8x+25=\left(5-\frac45x\right)^2.\end{aligned}$$
+Vì $-5\le x\le5$ nên $5-\dfrac45x\ge5-4=1>0$, suy ra $MF_2=5-\dfrac45x$.
+
+Điều kiện $MF_2=3$ trở thành
+$$5-\frac45x=3\iff\frac45x=2\iff x=\frac52\ \text{(thoả mãn}\ -5\le x\le5\text{)}.$$
+
+Thay $x=\dfrac52$ vào phương trình elip:
+$$y^2=9\left(1-\frac{25/4}{25}\right)=9\left(1-\frac14\right)=\frac{27}{4}\Rightarrow y=\pm\frac{3\sqrt3}{2}.$$
+
+Kiểm tra: $MF_2^2=\left(\dfrac52-4\right)^2+\dfrac{27}{4}=\dfrac94+\dfrac{27}{4}=9$, nên $MF_2=3$.
+
+Vậy có hai điểm thoả mãn là $M\left(\dfrac52; \dfrac{3\sqrt3}{2}\right)$ và $M\left(\dfrac52; -\dfrac{3\sqrt3}{2}\right)$.
 
 **Đáp số.** $M\left(\dfrac52; \pm\dfrac{3\sqrt3}{2}\right)$.
 :::
@@ -392,7 +469,20 @@ Cho elip $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ với hai tiêu điểm $F_1(-4; 0)$
 2. Giải hệ gồm phương trình elip và đường tròn.
 
 ::solution
-Từ $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\iff 16y^2=81$, nên $y=\pm\dfrac94$ và $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, $x=\pm\dfrac{5\sqrt7}{4}$.
+Gọi $O$ là gốc toạ độ, cũng là trung điểm của $F_1F_2$, với $F_1F_2=8$. Tam giác $F_1MF_2$ vuông tại $M$ khi và chỉ khi trung tuyến $MO$ bằng nửa cạnh huyền, tức là $OM=\dfrac{F_1F_2}{2}=4$. Vậy $M(x; y)$ phải thoả mãn $x^2+y^2=16$.
+
+Mặt khác $M$ thuộc elip, nên ta giải hệ
+$$\begin{cases}x^2+y^2=16\\\dfrac{x^2}{25}+\dfrac{y^2}{9}=1.\end{cases}$$
+
+Từ phương trình thứ nhất, $x^2=16-y^2$. Thay vào phương trình thứ hai rồi nhân hai vế với $225$:
+$$\begin{aligned}\frac{16-y^2}{25}+\frac{y^2}{9}=1&\iff9(16-y^2)+25y^2=225\\&\iff144+16y^2=225\iff16y^2=81.\end{aligned}$$
+Suy ra $y^2=\dfrac{81}{16}$, tức là $y=\pm\dfrac94$.
+
+Khi đó $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, nên $x=\pm\dfrac{\sqrt{175}}{4}=\pm\dfrac{5\sqrt7}{4}$.
+
+Kiểm tra với điểm $M\left(\dfrac{5\sqrt7}{4}; \dfrac94\right)$: $\overrightarrow{MF_1}\cdot\overrightarrow{MF_2}=\left(-4-x\right)\left(4-x\right)+y^2=x^2+y^2-16=0$, nên $\widehat{F_1MF_2}=90^\circ$.
+
+Vậy có bốn điểm thoả mãn: $\left(\dfrac{5\sqrt7}{4}; \dfrac94\right)$, $\left(\dfrac{5\sqrt7}{4}; -\dfrac94\right)$, $\left(-\dfrac{5\sqrt7}{4}; \dfrac94\right)$, $\left(-\dfrac{5\sqrt7}{4}; -\dfrac94\right)$.
 
 **Đáp số.** Bốn điểm $\left(\pm\dfrac{5\sqrt7}{4}; \pm\dfrac94\right)$.
 :::

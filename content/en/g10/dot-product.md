@@ -225,8 +225,16 @@ Find $\vec{a}\cdot\vec{b}$ in two cases: (a) $|\vec{a}|=5$, $|\vec{b}|=2$, $(\ve
 2. Multiply by the cosine of the angle, watching the sign for an obtuse angle.
 
 ::solution
-(a) $5\cdot 2\cdot\cos 60^\circ=10\cdot\dfrac12=5$.
-(b) $4\cdot 3\cdot\cos 150^\circ=12\cdot\left(-\dfrac{\sqrt3}{2}\right)=-6\sqrt3$.
+By definition, the scalar product of two vectors is $\vec{a}\cdot\vec{b}=|\vec{a}|\cdot|\vec{b}|\cdot\cos(\vec{a}, \vec{b})$.
+
+a) With $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$, we have
+$$\vec{a}\cdot\vec{b}=5\cdot2\cdot\cos60^\circ=10\cdot\frac12=5.$$
+
+b) With $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$, we have $\cos150^\circ=-\cos30^\circ=-\dfrac{\sqrt3}{2}$, so
+$$\vec{a}\cdot\vec{b}=4\cdot3\cdot\cos150^\circ=12\cdot\left(-\frac{\sqrt3}{2}\right)=-6\sqrt3.$$
+The scalar product is negative because the angle between the vectors is obtuse.
+
+So a) $\vec{a}\cdot\vec{b}=5$; b) $\vec{a}\cdot\vec{b}=-6\sqrt3$.
 
 **Answer.** (a) $5$; (b) $-6\sqrt3$.
 :::
@@ -242,7 +250,16 @@ Compute $\vec{a}\cdot\vec{b}$ for $\vec{a}=(1, -3)$, $\vec{b}=(2, 5)$. Are the v
 2. Check whether the scalar product of $\vec{u}$, $\vec{v}$ is $0$.
 
 ::solution
-$\vec{a}\cdot\vec{b}=1\cdot 2+(-3)\cdot 5=2-15=-13$. $\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=0$, so $\vec{u}\perp\vec{v}$.
+For $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$, the scalar product in coordinates is $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2$; two non-zero vectors are perpendicular exactly when their scalar product is $0$.
+
+For $\vec{a}=(1, -3)$, $\vec{b}=(2, 5)$:
+$$\vec{a}\cdot\vec{b}=1\cdot2+(-3)\cdot5=2-15=-13.$$
+
+For $\vec{u}=(2, 1)$, $\vec{v}=(-1, 2)$ (both non-zero):
+$$\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=-2+2=0.$$
+Hence $\vec{u}\perp\vec{v}$.
+
+So $\vec{a}\cdot\vec{b}=-13$, and the vectors $\vec{u}$, $\vec{v}$ are perpendicular.
 
 **Answer.** $\vec{a}\cdot\vec{b}=-13$; $\vec{u}\perp\vec{v}$.
 :::
@@ -258,7 +275,17 @@ Find the angle between the vectors $\vec{a}=(1, 2)$ and $\vec{b}=(3, 1)$.
 2. Find the cosine and recognise the special angle.
 
 ::solution
-$\vec{a}\cdot\vec{b}=3+2=5$, $|\vec{a}|=\sqrt5$, $|\vec{b}|=\sqrt{10}$, so $\cos(\vec{a}, \vec{b})=\dfrac{5}{\sqrt{50}}=\dfrac{1}{\sqrt2}$.
+We use the formula $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}|\cdot|\vec{b}|}$.
+
+We have
+$$\vec{a}\cdot\vec{b}=1\cdot3+2\cdot1=5,\qquad|\vec{a}|=\sqrt{1^2+2^2}=\sqrt5,\qquad|\vec{b}|=\sqrt{3^2+1^2}=\sqrt{10}.$$
+
+Hence
+$$\cos(\vec{a}, \vec{b})=\frac{5}{\sqrt5\cdot\sqrt{10}}=\frac{5}{\sqrt{50}}=\frac{5}{5\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2}.$$
+
+Since $0^\circ\le(\vec{a}, \vec{b})\le180^\circ$ and $\cos45^\circ=\dfrac{\sqrt2}{2}$, we get $(\vec{a}, \vec{b})=45^\circ$.
+
+So the angle between $\vec{a}$ and $\vec{b}$ is $45^\circ$.
 
 **Answer.** $(\vec{a}, \vec{b})=45^\circ$.
 :::
@@ -274,7 +301,21 @@ Find $\angle A$ of the triangle with $A(-1, 0)$, $B(2, 0)$, $C(2, 3)$.
 2. Find $\cos A$ with the coordinate formula.
 
 ::solution
-$\overrightarrow{AB}=(3, 0)$, $\overrightarrow{AC}=(3, 3)$, scalar product $9$, lengths $3$ and $3\sqrt2$. So $\cos A=\dfrac{9}{9\sqrt2}=\dfrac{1}{\sqrt2}$.
+Angle $A$ of the triangle is the angle between the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$, so $\cos A=\dfrac{\overrightarrow{AB}\cdot\overrightarrow{AC}}{AB\cdot AC}$.
+
+We have
+$$\overrightarrow{AB}=(2-(-1), 0-0)=(3, 0),\qquad\overrightarrow{AC}=(2-(-1), 3-0)=(3, 3).$$
+
+Hence
+$$\overrightarrow{AB}\cdot\overrightarrow{AC}=3\cdot3+0\cdot3=9,\qquad AB=\sqrt{3^2+0^2}=3,\qquad AC=\sqrt{3^2+3^2}=3\sqrt2.$$
+
+So
+$$\cos A=\frac{9}{3\cdot3\sqrt2}=\frac{1}{\sqrt2}=\frac{\sqrt2}{2},$$
+and $\angle A=45^\circ$.
+
+Check: $\overrightarrow{BC}=(0, 3)$ is perpendicular to $\overrightarrow{AB}=(3, 0)$, so the triangle has a right angle at $B$ with $AB=BC=3$, an isosceles right triangle; hence $\angle A=45^\circ$.
+
+So $\angle A=45^\circ$.
 
 **Answer.** $\angle A=45^\circ$.
 :::
@@ -290,7 +331,17 @@ Let $|\vec{a}|=2$, $|\vec{b}|=3$ and $\vec{a}\cdot\vec{b}=-3$. Find $|\vec{a}+\v
 2. Take square roots.
 
 ::solution
-$|\vec{a}+\vec{b}|^2=4+2\cdot(-3)+9=7$ and $|\vec{a}-\vec{b}|^2=4-2\cdot(-3)+9=19$.
+We use $|\vec{u}|^2=\vec{u}^{\,2}=\vec{u}\cdot\vec{u}$ and the distributive property of the scalar product.
+
+We have
+$$|\vec{a}+\vec{b}|^2=(\vec{a}+\vec{b})^2=|\vec{a}|^2+2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2=4+2\cdot(-3)+9=7.$$
+Hence $|\vec{a}+\vec{b}|=\sqrt7$.
+
+Similarly,
+$$|\vec{a}-\vec{b}|^2=(\vec{a}-\vec{b})^2=|\vec{a}|^2-2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2=4-2\cdot(-3)+9=19.$$
+Hence $|\vec{a}-\vec{b}|=\sqrt{19}$.
+
+So $|\vec{a}+\vec{b}|=\sqrt7$ and $|\vec{a}-\vec{b}|=\sqrt{19}$.
 
 **Answer.** $|\vec{a}+\vec{b}|=\sqrt7$; $|\vec{a}-\vec{b}|=\sqrt{19}$.
 :::
@@ -306,7 +357,14 @@ A parent pushes a pram with a force of $20$ N along the handle, which makes an a
 2. Find the approximate value and round.
 
 ::solution
-$$W=20\cdot 3\cdot\cos 30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx 51.96\ \text{(J)}.$$
+Let $\vec{F}$ be the pushing force and $\vec{d}$ the displacement of the pram. The work done by the force is the scalar product $A=\vec{F}\cdot\vec{d}=|\vec{F}|\cdot|\vec{d}|\cdot\cos(\vec{F}, \vec{d})$.
+
+We are given $|\vec{F}|=20$ N, $|\vec{d}|=3$ m and $(\vec{F}, \vec{d})=30^\circ$. Hence
+$$A=20\cdot3\cdot\cos30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx51.96\ \text{(J)}.$$
+
+Rounded to the nearest whole number, $A\approx52$ J.
+
+So the work done by the push is about $52$ J.
 
 **Answer.** $52$.
 :::
@@ -327,13 +385,17 @@ d) $\vec{a}\cdot(\vec{b}+\vec{c})=25$.
 2. Compare $\vec{c}$ with $\vec{a}$; find $\vec{a}\cdot\vec{c}$.
 
 ::solution
-a) **True.** $\vec{a}\cdot\vec{b}=12-12=0$.
+a) **True.** We have $\vec{a}\cdot\vec{b}=3\cdot4+4\cdot(-3)=12-12=0$, and both vectors are non-zero, so $\vec{a}\perp\vec{b}$.
 
-b) **True.** $|\vec{b}|=\sqrt{16+9}=5$.
+b) **True.** $|\vec{b}|=\sqrt{4^2+(-3)^2}=\sqrt{16+9}=\sqrt{25}=5$.
 
-c) **False.** $\vec{c}=2\vec{a}$ has the direction of $\vec{a}$, so $(\vec{a}, \vec{c})=0^\circ$.
+c) **False.** We have $\vec{c}=(6, 8)=2(3, 4)=2\vec{a}$ with $2>0$, so $\vec{c}$ points the same way as $\vec{a}$. Hence $(\vec{a}, \vec{c})=0^\circ$, not $180^\circ$.
 
-d) **False.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(18+32)=50$.
+d) **False.** By the distributive property,
+$$\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(3\cdot6+4\cdot8)=0+50=50,$$
+not $25$. (Direct check: $\vec{b}+\vec{c}=(10, 5)$ and $3\cdot10+4\cdot5=50$.)
+
+So claims a), b) are true; claims c), d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -349,9 +411,16 @@ d) **False.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\ve
 2. Square $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$.
 
 ::solution
-$\overrightarrow{AB}\cdot\overrightarrow{AC}=5\cdot8\cdot\dfrac12=20$. Then
-$$BC^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2=64-40+25=49.$$
-This is exactly the cosine rule $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$.
+The angle between $\overrightarrow{AB}$ and $\overrightarrow{AC}$ is $\angle BAC=60^\circ$, so
+$$\overrightarrow{AB}\cdot\overrightarrow{AC}=AB\cdot AC\cdot\cos60^\circ=5\cdot8\cdot\frac12=20.$$
+
+By the subtraction rule, $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$. Squaring both sides (scalar square):
+$$\begin{aligned}BC^2&=\left(\overrightarrow{AC}-\overrightarrow{AB}\right)^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2\\&=64-2\cdot20+25=49.\end{aligned}$$
+Since $BC>0$, $BC=7$.
+
+This equality is exactly the cosine rule $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$, because $\overrightarrow{AB}\cdot\overrightarrow{AC}=AB\cdot AC\cos A$.
+
+So $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$ and $BC=7$.
 
 **Answer.** $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$; $BC=7$.
 :::
@@ -367,7 +436,18 @@ Find a vector $\vec{b}$ perpendicular to $\vec{a}=(3, 4)$ with $|\vec{b}|=10$.
 2. Solve $|\vec{b}|=10$.
 
 ::solution
-$\vec{b}=(4t, -3t)$ satisfies $3\cdot4t+4\cdot(-3t)=0$. $|\vec{b}|=5|t|=10$ gives $t=\pm2$.
+Let $\vec{b}=(x, y)$. The condition $\vec{b}\perp\vec{a}$ gives
+$$3x+4y=0.$$
+Every pair $(x, y)=(4t, -3t)$ with $t\in\mathbb{R}$ satisfies it, since $3\cdot4t+4\cdot(-3t)=0$; conversely, from $3x=-4y$ we put $t=\dfrac{x}{4}$, and then $y=-3t$. So $\vec{b}=(4t, -3t)$.
+
+The condition $|\vec{b}|=10$ gives
+$$\sqrt{(4t)^2+(-3t)^2}=10\iff\sqrt{25t^2}=10\iff5|t|=10\iff t=\pm2.$$
+
+For $t=2$: $\vec{b}=(8, -6)$. For $t=-2$: $\vec{b}=(-8, 6)$.
+
+Check: $3\cdot8+4\cdot(-6)=0$ and $\sqrt{64+36}=10$.
+
+So $\vec{b}=(8, -6)$ or $\vec{b}=(-8, 6)$.
 
 **Answer.** $\vec{b}=(8, -6)$ or $\vec{b}=(-8, 6)$.
 :::
@@ -383,8 +463,16 @@ Prove that if $|\vec{a}|=|\vec{b}|$ then $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b}
 2. Substitute the numbers to check.
 
 ::solution
-$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-|\vec{b}|^2=|\vec{a}|^2-|\vec{b}|^2=0.$$
-**Check.** $|\vec{a}|=|\vec{b}|=5$, $\vec{a}+\vec{b}=(8, 4)$, $\vec{a}-\vec{b}=(-2, 4)$ and $-16+16=0$. The parallelogram on $\vec{a}$, $\vec{b}$ has two equal adjacent sides, so it is a rhombus, and $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ are its diagonals.
+Proof. Using the distributive and commutative properties of the scalar product,
+$$\begin{aligned}(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})&=\vec{a}\cdot\vec{a}-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-\vec{b}\cdot\vec{b}\\&=|\vec{a}|^2-|\vec{b}|^2.\end{aligned}$$
+If $|\vec{a}|=|\vec{b}|$, this expression is $0$, hence $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$ (when these two vectors are non-zero).
+
+Check with $\vec{a}=(3, 4)$, $\vec{b}=(5, 0)$: we have $|\vec{a}|=\sqrt{9+16}=5=|\vec{b}|$. Then $\vec{a}+\vec{b}=(8, 4)$, $\vec{a}-\vec{b}=(-2, 4)$ and
+$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=8\cdot(-2)+4\cdot4=-16+16=0.$$
+
+Explanation with a rhombus: put $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$ and complete the parallelogram $OACB$. By the parallelogram rule, $\overrightarrow{OC}=\vec{a}+\vec{b}$, while $\overrightarrow{BA}=\vec{a}-\vec{b}$; these are the two diagonals. Since $OA=OB$, the parallelogram has two equal adjacent sides, so it is a rhombus, and the diagonals of a rhombus are perpendicular.
+
+So if $|\vec{a}|=|\vec{b}|$ then $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$; this is exactly the fact that the diagonals of a rhombus are perpendicular.
 
 **Answer.** Proved: the diagonals of a rhombus are perpendicular.
 :::
