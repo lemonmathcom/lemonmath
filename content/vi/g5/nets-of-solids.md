@@ -51,7 +51,7 @@ Gập sáu hình vuông này theo các cạnh chung thì được một hình l�
 - **Hình trụ:** gồm $2$ hình tròn bằng nhau (hai đáy) và $1$ hình chữ nhật (mặt xung quanh). Chiều dài của hình chữ nhật bằng chu vi đáy, chiều rộng bằng chiều cao của hình trụ.
 :::
 
-Vì sao chiều dài hình chữ nhật bằng chu vi đáy? Khi cuốn hình chữ nhật thành một cái ống, mép dài chạm vào nhau và chạy vòng quanh đáy, nên chiều dài đúng bằng chu vi hình tròn đáy. Chiều rộng trở thành chiều cao của ống.
+Vì sao chiều dài hình chữ nhật bằng chu vi đáy? Khi cuốn hình chữ nhật thành một cái ống, mép dài cuộn tròn lại, hai đầu của nó gặp nhau, và nó chạy đúng một vòng quanh đáy, nên chiều dài đúng bằng chu vi hình tròn đáy. Chiều rộng trở thành chiều cao của ống.
 
 :::diagram Hình khai triển của hình trụ
 alt: Một hình chữ nhật dài nằm ngang, phía trên và phía dưới mỗi nơi có một hình tròn tiếp xúc với hình chữ nhật
@@ -184,7 +184,15 @@ Hình lập phương có cạnh $4$ cm. Hình khai triển của nó gồm mấy
 2. Nhân với số hình vuông.
 
 ::solution
-Hình khai triển gồm $6$ hình vuông. Diện tích mỗi hình vuông là $4\times4=16\ \text{cm}^2$. Diện tích cả hình khai triển là $16\times6=96\ \text{cm}^2$.
+Hình lập phương có $6$ mặt là $6$ hình vuông bằng nhau. Khi mở (khai triển) hình lập phương ra, ta được $6$ hình vuông đó, nên hình khai triển gồm $6$ hình vuông, mỗi hình vuông có cạnh $4$ cm.
+
+Diện tích mỗi hình vuông là:
+$$4\times4=16\ \text{(cm}^2\text{)}.$$
+
+Diện tích cả hình khai triển bằng tổng diện tích $6$ hình vuông:
+$$16\times6=96\ \text{(cm}^2\text{)}.$$
+
+Vậy hình khai triển gồm $6$ hình vuông, mỗi hình vuông có diện tích $16\ \text{cm}^2$, và cả hình khai triển có diện tích $96\ \text{cm}^2$.
 
 **Đáp số.** $6$ hình vuông; $16\ \text{cm}^2$; $96\ \text{cm}^2$.
 :::
@@ -200,7 +208,15 @@ Một hình hộp chữ nhật có chiều dài $8$ cm, chiều rộng $5$ cm v�
 2. Cộng ba diện tích rồi nhân với $2$.
 
 ::solution
-Ba mặt khác nhau có diện tích $8\times5=40$, $8\times3=24$ và $5\times3=15$ ($\text{cm}^2$). Tổng diện tích $6$ mặt là $2\times(40+24+15)=2\times79=158\ \text{cm}^2$.
+Hình hộp chữ nhật có $6$ mặt là hình chữ nhật, gồm ba cặp mặt đối diện bằng nhau: hai mặt đáy, hai mặt trước – sau và hai mặt bên.
+
+Diện tích ba mặt khác nhau là:
+$$8\times5=40\ \text{(cm}^2\text{)};\qquad 8\times3=24\ \text{(cm}^2\text{)};\qquad 5\times3=15\ \text{(cm}^2\text{)}.$$
+
+Mỗi loại mặt có hai mặt, nên tổng diện tích $6$ mặt là:
+$$2\times(40+24+15)=2\times79=158\ \text{(cm}^2\text{)}.$$
+
+Vậy tổng diện tích $6$ mặt của hình hộp chữ nhật là $158\ \text{cm}^2$.
 
 **Đáp số.** $158\ \text{cm}^2$.
 :::
@@ -216,7 +232,14 @@ Một hình trụ có bán kính đáy $3$ cm và chiều cao $8$ cm. Hình ch�
 2. Chiều rộng là chiều cao của hình trụ.
 
 ::solution
-Chiều dài là chu vi đáy: $2\times3{,}14\times3=18{,}84$ (cm). Chiều rộng là chiều cao: $8$ cm.
+Hình khai triển của hình trụ gồm hai hình tròn (hai đáy) và một hình chữ nhật (mặt xung quanh). Khi cuốn hình chữ nhật lại, một cạnh của nó quấn đúng một vòng quanh đáy, nên chiều dài hình chữ nhật bằng chu vi đáy; cạnh còn lại bằng chiều cao của hình trụ.
+
+Chu vi đáy (chiều dài hình chữ nhật) là:
+$$2\times3{,}14\times3=18{,}84\ \text{(cm)}.$$
+
+Chiều rộng hình chữ nhật bằng chiều cao hình trụ, là $8$ cm.
+
+Vậy hình chữ nhật có chiều dài $18{,}84$ cm và chiều rộng $8$ cm.
 
 **Đáp số.** $18{,}84$ cm và $8$ cm.
 :::
@@ -232,11 +255,22 @@ Một hình trụ có bán kính đáy $2$ cm và chiều cao $6$ cm. Tính di�
 2. Tính diện tích một hình tròn đáy, nhân với $2$, rồi cộng.
 
 ::solution
-Chu vi đáy là $2\times3{,}14\times2=12{,}56$ cm. Diện tích hình chữ nhật là $12{,}56\times6=75{,}36\ \text{cm}^2$.
+Hình khai triển của hình trụ gồm một hình chữ nhật (mặt xung quanh) và hai hình tròn bằng nhau (hai đáy). Ta tính diện tích từng phần rồi cộng lại.
 
-Diện tích một đáy là $3{,}14\times2\times2=12{,}56\ \text{cm}^2$, hai đáy là $25{,}12\ \text{cm}^2$.
+Chiều dài hình chữ nhật bằng chu vi đáy:
+$$2\times3{,}14\times2=12{,}56\ \text{(cm)}.$$
 
-Diện tích cả hình khai triển là $75{,}36+25{,}12=100{,}48\ \text{cm}^2$.
+Chiều rộng hình chữ nhật bằng chiều cao $6$ cm, nên diện tích hình chữ nhật là:
+$$12{,}56\times6=75{,}36\ \text{(cm}^2\text{)}.$$
+
+Diện tích một đáy (hình tròn bán kính $2$ cm) là:
+$$3{,}14\times2\times2=12{,}56\ \text{(cm}^2\text{)},$$
+nên diện tích hai đáy là $12{,}56\times2=25{,}12\ \text{(cm}^2\text{)}$.
+
+Diện tích cả hình khai triển là:
+$$75{,}36+25{,}12=100{,}48\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích của cả hình khai triển là $100{,}48\ \text{cm}^2$.
 
 **Đáp số.** $100{,}48\ \text{cm}^2$.
 :::
@@ -252,9 +286,13 @@ Hình nào dưới đây là hình khai triển của hình lập phương? A: b
 2. Xem hàng ngang có thể có nhiều nhất mấy hình vuông.
 
 ::solution
-Hình A gập được: hàng ngang bốn hình vuông tạo bốn mặt xung quanh, hai hình vuông còn lại là hai đáy.
+Muốn biết một hình có phải là hình khai triển của hình lập phương hay không, ta thử tưởng tượng gập nó lại: phải được đúng $6$ mặt, không có hai hình vuông nào chồng lên nhau.
 
-Hình B không gập được: khi gập hàng ngang năm hình vuông quanh hình lập phương, hình vuông thứ năm chồng lên hình vuông thứ nhất.
+Hình A: bốn hình vuông xếp thành hàng ngang gập lại thành bốn mặt xung quanh (hình vuông thứ tư gặp lại hình vuông thứ nhất). Hình vuông ở trên hình vuông thứ nhất gập xuống thành mặt trên, hình vuông ở dưới hình vuông thứ tư gập lên thành mặt dưới. Ta được đủ $6$ mặt, không mặt nào trùng nhau, nên hình A gập được thành hình lập phương.
+
+Hình B: năm hình vuông xếp thành hàng ngang. Bốn hình vuông đầu đã quấn kín một vòng quanh hình lập phương, nên khi gập tiếp, hình vuông thứ năm chồng lên hình vuông thứ nhất. Như vậy có hai hình vuông trùng nhau và còn thiếu một mặt, nên hình B không phải là hình khai triển của hình lập phương.
+
+Vậy hình A là hình khai triển của hình lập phương.
 
 **Đáp số.** Hình A.
 :::
@@ -270,7 +308,17 @@ Giả sử một hộp bánh hình hộp chữ nhật có chiều dài $20$ cm, 
 2. Cộng lại rồi nhân với $2$. Nhớ ghi đơn vị.
 
 ::solution
-Ba mặt khác nhau có diện tích $20\times10=200$, $20\times5=100$ và $10\times5=50$ ($\text{cm}^2$). Diện tích bìa cần dùng là $2\times(200+100+50)=2\times350=700\ \text{cm}^2$.
+Bài giải
+
+Cần ít nhất bao nhiêu bìa nghĩa là cần đúng bằng tổng diện tích $6$ mặt của hộp (chưa tính mép dán). Hình hộp chữ nhật có ba cặp mặt đối diện bằng nhau.
+
+Diện tích ba mặt khác nhau là:
+$$20\times10=200\ \text{(cm}^2\text{)};\qquad 20\times5=100\ \text{(cm}^2\text{)};\qquad 10\times5=50\ \text{(cm}^2\text{)}.$$
+
+Diện tích bìa cần dùng là:
+$$2\times(200+100+50)=2\times350=700\ \text{(cm}^2\text{)}.$$
+
+Vậy cần ít nhất $700\ \text{cm}^2$ bìa để làm hộp bánh.
 
 **Đáp số.** $700\ \text{cm}^2$.
 :::
@@ -286,7 +334,17 @@ Giả sử một lon nước hình trụ có đường kính đáy $6$ cm và ch
 2. Nhân chu vi đáy với chiều cao.
 
 ::solution
-Chu vi đáy là $6\times3{,}14=18{,}84$ (cm). Diện tích tờ nhãn là $18{,}84\times12=226{,}08\ \text{(cm}^2\text{)}$.
+Bài giải
+
+Tờ nhãn dán kín mặt xung quanh của lon, nên khi trải phẳng ra nó là hình chữ nhật có chiều dài bằng chu vi đáy và chiều rộng bằng chiều cao của lon. Đường kính đáy là $6$ cm, nên chu vi đáy bằng đường kính nhân với $3{,}14$.
+
+Chu vi đáy lon là:
+$$6\times3{,}14=18{,}84\ \text{(cm)}.$$
+
+Diện tích tờ nhãn là:
+$$18{,}84\times12=226{,}08\ \text{(cm}^2\text{)}.$$
+
+Vậy tờ nhãn có diện tích $226{,}08\ \text{cm}^2$.
 
 **Đáp số.** $226{,}08\ \text{cm}^2$.
 :::
@@ -302,15 +360,26 @@ Em hãy nhớ lại bài các đơn vị đo diện tích và thể tích. Một
 2. Đổi kết quả ra $\text{dm}^2$.
 
 ::solution
-Diện tích mỗi hình vuông là $10\times10=100\ \text{cm}^2$. Diện tích hình khai triển là $100\times6=600\ \text{cm}^2$.
+Hình lập phương có cạnh $1$ dm $=10$ cm, nên hình khai triển gồm $6$ hình vuông cạnh $10$ cm.
 
-Đổi ra $\text{dm}^2$: $600:100=6\ \text{dm}^2$.
+Diện tích mỗi hình vuông là:
+$$10\times10=100\ \text{(cm}^2\text{)}.$$
+
+Diện tích hình khai triển là:
+$$100\times6=600\ \text{(cm}^2\text{)}.$$
+
+Đổi ra $\text{dm}^2$: vì $1\ \text{dm}^2=100\ \text{cm}^2$ nên
+$$600\ \text{cm}^2=600:100\ \text{dm}^2=6\ \text{dm}^2.$$
+
+Thử lại bằng cách tính theo dm: mỗi hình vuông có diện tích $1\times1=1\ \text{dm}^2$, sáu hình vuông có diện tích $6\ \text{dm}^2$.
+
+Vậy diện tích hình khai triển là $600\ \text{cm}^2$, tức là $6\ \text{dm}^2$.
 
 **Đáp số.** $600\ \text{cm}^2$, tức là $6\ \text{dm}^2$.
 :::
 
 :::exercise Thử thách
-Một tấm bìa hình chữ nhật dài $31{,}4$ cm và rộng $10$ cm được cuốn lại thành mặt xung quanh của một hình trụ, sao cho mép dài chạm nhau. Tính bán kính đáy của hình trụ. (Lấy $\pi\approx3{,}14$.)
+Một tấm bìa hình chữ nhật dài $31{,}4$ cm và rộng $10$ cm được cuốn lại thành mặt xung quanh của một hình trụ, sao cho hai mép ngắn chạm nhau. Tính bán kính đáy của hình trụ. (Lấy $\pi\approx3{,}14$.)
 
 ::hint
 **Kiến thức:** chiều dài tấm bìa bằng chu vi đáy, và chu vi đáy bằng $2\times3{,}14\times$ bán kính.
@@ -320,9 +389,17 @@ Một tấm bìa hình chữ nhật dài $31{,}4$ cm và rộng $10$ cm được
 2. Tìm bán kính bằng phép chia.
 
 ::solution
-Chu vi đáy là $31{,}4$ cm, nên $2\times3{,}14\times r=31{,}4$, tức là $6{,}28\times r=31{,}4$. Bán kính là $r=31{,}4:6{,}28=5$ (cm).
+Khi cuốn tấm bìa thành mặt xung quanh của hình trụ, chiều dài $31{,}4$ cm của tấm bìa quấn đúng một vòng quanh đáy, nên chu vi đáy là $31{,}4$ cm; chiều rộng $10$ cm trở thành chiều cao của hình trụ.
 
-**Kiểm tra.** $2\times3{,}14\times5=31{,}4$. Đúng.
+Chu vi hình tròn bằng bán kính nhân $2$ rồi nhân $3{,}14$. Gọi bán kính đáy là $r$ (cm), ta có
+$$2\times3{,}14\times r=31{,}4,\ \text{tức là}\ 6{,}28\times r=31{,}4.$$
+
+Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:
+$$r=31{,}4:6{,}28=5\ \text{(cm)}.$$
+
+Kiểm tra: $2\times3{,}14\times5=31{,}4$. Đúng.
+
+Vậy bán kính đáy của hình trụ là $5$ cm.
 
 **Đáp số.** Bán kính đáy là $5$ cm.
 :::

@@ -126,7 +126,17 @@ Tìm tỉ số phần trăm của $3$ và $5$.
 2. Nhân thương với $100$ và viết thêm $\%$.
 
 ::solution
-$$3:5=0{,}6;\qquad 0{,}6\times100=60.$$
+Muốn tìm tỉ số phần trăm của hai số $3$ và $5$, ta làm hai bước: tìm thương của $3$ và $5$ (viết dưới dạng số thập phân), rồi nhân thương đó với $100$ và viết thêm kí hiệu $\%$ vào bên phải tích tìm được.
+
+Tìm thương:
+$$3:5=0{,}6.$$
+
+Nhân với $100$ rồi viết thêm kí hiệu $\%$:
+$$0{,}6\times100=60,\ \text{tức là}\ 0{,}6=60\%.$$
+
+Kiểm tra: $60\%$ của $5$ là $5\times60:100=3$. Đúng.
+
+Vậy tỉ số phần trăm của $3$ và $5$ là $60\%$.
 
 **Đáp số.** $60\%$.
 :::
@@ -142,7 +152,17 @@ Tìm tỉ số phần trăm của $18$ và $24$.
 2. Nhân thương với $100$ và viết thêm $\%$.
 
 ::solution
-$$18:24=0{,}75;\qquad 0{,}75\times100=75.$$
+Ta tìm thương của $18$ và $24$, rồi nhân thương với $100$ và viết thêm kí hiệu $\%$.
+
+Tìm thương:
+$$18:24=0{,}75.$$
+
+Nhân với $100$:
+$$0{,}75\times100=75,\ \text{tức là}\ 0{,}75=75\%.$$
+
+Kiểm tra: $75\%$ của $24$ là $24\times75:100=18$. Đúng.
+
+Vậy tỉ số phần trăm của $18$ và $24$ là $75\%$.
 
 **Đáp số.** $75\%$.
 :::
@@ -158,7 +178,15 @@ Tìm tỉ số phần trăm của $5$ và $8$.
 2. Dịch dấu phẩy sang phải hai hàng và viết thêm $\%$.
 
 ::solution
-$$5:8=0{,}625;\qquad 0{,}625\times100=62{,}5.$$
+Ta tìm thương của $5$ và $8$, rồi nhân thương với $100$ và viết thêm kí hiệu $\%$.
+
+Tìm thương (chia đến khi hết):
+$$5:8=0{,}625.$$
+
+Nhân với $100$, tức là chuyển dấu phẩy sang bên phải hai chữ số:
+$$0{,}625\times100=62{,}5,\ \text{tức là}\ 0{,}625=62{,}5\%.$$
+
+Vậy tỉ số phần trăm của $5$ và $8$ là $62{,}5\%$.
 
 **Đáp số.** $62{,}5\%$.
 :::
@@ -174,9 +202,18 @@ Viết phân số $\dfrac{13}{20}$ thành tỉ số phần trăm.
 2. Nhân thương với $100$ và viết thêm $\%$.
 
 ::solution
-$$13:20=0{,}65;\qquad 0{,}65\times100=65.$$
+Phân số $\dfrac{13}{20}$ chính là thương $13:20$, nên ta tìm thương rồi nhân với $100$.
 
-**Cách khác.** Nhân cả tử số và mẫu số với $5$: $\dfrac{13}{20}=\dfrac{65}{100}=65\%$.
+Tìm thương:
+$$13:20=0{,}65.$$
+
+Nhân với $100$:
+$$0{,}65\times100=65,\ \text{tức là}\ \frac{13}{20}=65\%.$$
+
+Cách khác: nhân cả tử số và mẫu số với $5$ để được phân số có mẫu số $100$:
+$$\frac{13}{20}=\frac{13\times5}{20\times5}=\frac{65}{100}=65\%.$$
+
+Vậy $\dfrac{13}{20}=65\%$.
 
 **Đáp số.** $65\%$.
 :::
@@ -192,7 +229,15 @@ Trong vườn có $40$ cây, trong đó $14$ cây là cây cam. Hỏi cây cam c
 2. Tính $14:40$, nhân với $100$ rồi viết $\%$.
 
 ::solution
-$$14:40=0{,}35;\qquad 0{,}35\times100=35.$$
+Bài giải
+
+Muốn biết cây cam chiếm bao nhiêu phần trăm số cây, ta tìm tỉ số phần trăm của số cây cam ($14$ cây) và số cây trong vườn ($40$ cây).
+
+Tỉ số phần trăm của số cây cam và số cây trong vườn là:
+$$14:40=0{,}35;\qquad 0{,}35\times100=35,\ \text{tức là}\ 35\%.$$
+
+Kiểm tra: $35\%$ của $40$ cây là $40\times35:100=14$ (cây). Đúng.
+
 Vậy cây cam chiếm $35\%$ số cây trong vườn.
 
 **Đáp số.** $35\%$.
@@ -210,8 +255,14 @@ Quãng đường từ nhà Bình đến trường dài $1{,}5$ km. Sáng nay Bì
 3. Tính $600:1500$, nhân với $100$ rồi viết $\%$.
 
 ::solution
-Đổi $1{,}5\ \text{km}=1500\ \text{m}$. Ta có:
-$$600:1500=0{,}4;\qquad 0{,}4\times100=40.$$
+Bài giải
+
+Hai số đo phải cùng đơn vị mới tìm được tỉ số phần trăm, nên ta đổi quãng đường ra mét:
+$$1{,}5\ \text{km}=1500\ \text{m}.$$
+
+Tỉ số phần trăm của quãng đường đã đi và cả quãng đường là:
+$$600:1500=0{,}4;\qquad 0{,}4\times100=40,\ \text{tức là}\ 40\%.$$
+
 Vậy Bình đã đi được $40\%$ quãng đường.
 
 **Đáp số.** $40\%$.
@@ -233,12 +284,29 @@ b) Số bé bằng bao nhiêu phần trăm số lớn?
 3. Ở câu b, lấy số bé chia cho số lớn rồi nhân với $100$.
 
 ::solution
-a) Hiệu số phần là $5-3=2$. Giá trị một phần là $24:2=12$. Số bé là $12\times3=36$, số lớn là $12\times5=60$.
+Bài giải
 
-**Kiểm tra.** $60-36=24$. Đúng.
+a) Tỉ số của số bé và số lớn là $\dfrac{3}{5}$, nên nếu số bé gồm $3$ phần bằng nhau thì số lớn gồm $5$ phần như thế. Đây là bài toán tìm hai số khi biết hiệu và tỉ số.
 
-b) Ta lấy số bé chia cho số lớn:
-$$36:60=0{,}6;\qquad 0{,}6\times100=60.$$
+Hiệu số phần bằng nhau là:
+$$5-3=2\ \text{(phần)}.$$
+
+Giá trị một phần là:
+$$24:2=12.$$
+
+Số bé là:
+$$12\times3=36.$$
+
+Số lớn là:
+$$12\times5=60.$$
+
+Kiểm tra: $60-36=24$. Đúng.
+
+b) Muốn biết số bé bằng bao nhiêu phần trăm số lớn, ta tìm tỉ số phần trăm của số bé và số lớn:
+$$36:60=0{,}6;\qquad 0{,}6\times100=60,\ \text{tức là}\ 60\%.$$
+(Cũng có thể tính ngay từ tỉ số: $\dfrac{3}{5}=\dfrac{60}{100}=60\%$.)
+
+Vậy hai số là $36$ và $60$; số bé bằng $60\%$ số lớn.
 
 **Đáp số.** a) Hai số là $36$ và $60$. b) Số bé bằng $60\%$ số lớn.
 :::
@@ -255,10 +323,16 @@ Hôm qua một cửa hàng bán được $80$ quyển vở. Hôm nay cửa hàng
 3. Nhân với $100$ rồi viết $\%$.
 
 ::solution
-Ta so sánh hôm nay với hôm qua, nên lấy $100$ chia cho $80$:
-$$100:80=1{,}25;\qquad 1{,}25\times100=125.$$
+Bài giải
 
-**Kiểm tra.** $100>80$ nên kết quả phải lớn hơn $100\%$. Đúng.
+Đề hỏi số vở bán hôm nay bằng bao nhiêu phần trăm số vở bán hôm qua, nên ta lấy số vở hôm nay ($100$ quyển) chia cho số vở hôm qua ($80$ quyển).
+
+Tỉ số phần trăm của số vở bán hôm nay và số vở bán hôm qua là:
+$$100:80=1{,}25;\qquad 1{,}25\times100=125,\ \text{tức là}\ 125\%.$$
+
+Kiểm tra: hôm nay bán nhiều hơn hôm qua ($100>80$), nên kết quả phải lớn hơn $100\%$. Đúng.
+
+Vậy số vở bán hôm nay bằng $125\%$ số vở bán hôm qua.
 
 **Đáp số.** $125\%$.
 :::

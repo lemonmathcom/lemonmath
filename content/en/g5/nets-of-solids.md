@@ -184,7 +184,15 @@ A cube has side $4$ cm. How many squares are in its net? What is the area of eac
 2. Multiply by the number of squares.
 
 ::solution
-The net has $6$ squares. The area of each square is $4\times4=16\ \text{cm}^2$. The area of the whole net is $16\times6=96\ \text{cm}^2$.
+A cube has $6$ faces, which are $6$ equal squares. When we open the cube out flat, we get those $6$ squares, so the net is made of $6$ squares, each with side $4$ cm.
+
+The area of each square is:
+$$4\times4=16\ \text{(cm}^2\text{)}.$$
+
+The area of the whole net is the total area of the $6$ squares:
+$$16\times6=96\ \text{(cm}^2\text{)}.$$
+
+So the net has $6$ squares, each square has area $16\ \text{cm}^2$, and the whole net has area $96\ \text{cm}^2$.
 
 **Answer.** $6$ squares; $16\ \text{cm}^2$; $96\ \text{cm}^2$.
 :::
@@ -200,7 +208,15 @@ A cuboid has length $8$ cm, width $5$ cm and height $3$ cm. Find the total area 
 2. Add the three areas, then multiply by $2$.
 
 ::solution
-The three different faces have areas $8\times5=40$, $8\times3=24$ and $5\times3=15$ ($\text{cm}^2$). The total area of the $6$ faces is $2\times(40+24+15)=2\times79=158\ \text{cm}^2$.
+A cuboid has $6$ rectangular faces, in three pairs of equal opposite faces: the two bases, the front and back, and the two sides.
+
+The areas of the three different faces are:
+$$8\times5=40\ \text{(cm}^2\text{)};\qquad 8\times3=24\ \text{(cm}^2\text{)};\qquad 5\times3=15\ \text{(cm}^2\text{)}.$$
+
+There are two faces of each kind, so the total area of the $6$ faces is:
+$$2\times(40+24+15)=2\times79=158\ \text{(cm}^2\text{)}.$$
+
+So the total area of the $6$ faces of the cuboid is $158\ \text{cm}^2$.
 
 **Answer.** $158\ \text{cm}^2$.
 :::
@@ -216,7 +232,14 @@ A cylinder has base radius $3$ cm and height $8$ cm. What are the length and the
 2. The width is the height of the cylinder.
 
 ::solution
-The length is the circumference of the base: $2\times3.14\times3=18.84$ (cm). The width is the height: $8$ cm.
+The net of a cylinder is made of two circles (the bases) and one rectangle (the curved surface). When the rectangle is rolled up, one side goes exactly once round the base, so the length of the rectangle equals the circumference of the base; the other side equals the height of the cylinder.
+
+The circumference of the base (the length of the rectangle) is:
+$$2\times3.14\times3=18.84\ \text{(cm)}.$$
+
+The width of the rectangle equals the height of the cylinder, which is $8$ cm.
+
+So the rectangle has length $18.84$ cm and width $8$ cm.
 
 **Answer.** $18.84$ cm and $8$ cm.
 :::
@@ -232,11 +255,22 @@ A cylinder has base radius $2$ cm and height $6$ cm. Find the area of the whole 
 2. Work out the area of one base, multiply by $2$, then add.
 
 ::solution
-The circumference of the base is $2\times3.14\times2=12.56$ cm. The area of the rectangle is $12.56\times6=75.36\ \text{cm}^2$.
+The net of a cylinder is made of one rectangle (the curved surface) and two equal circles (the bases). We find the area of each part and add them.
 
-The area of one base is $3.14\times2\times2=12.56\ \text{cm}^2$, so two bases have area $25.12\ \text{cm}^2$.
+The length of the rectangle equals the circumference of the base:
+$$2\times3.14\times2=12.56\ \text{(cm)}.$$
 
-The area of the whole net is $75.36+25.12=100.48\ \text{cm}^2$.
+The width of the rectangle equals the height, $6$ cm, so the area of the rectangle is:
+$$12.56\times6=75.36\ \text{(cm}^2\text{)}.$$
+
+The area of one base (a circle with radius $2$ cm) is:
+$$3.14\times2\times2=12.56\ \text{(cm}^2\text{)},$$
+so the two bases have area $12.56\times2=25.12\ \text{(cm}^2\text{)}$.
+
+The area of the whole net is:
+$$75.36+25.12=100.48\ \text{(cm}^2\text{)}.$$
+
+So the area of the whole net is $100.48\ \text{cm}^2$.
 
 **Answer.** $100.48\ \text{cm}^2$.
 :::
@@ -252,9 +286,13 @@ Which of these shapes is a net of a cube? A: four squares in a row, with one squ
 2. Think about the greatest number of squares a row can have.
 
 ::solution
-Shape A folds up: the row of four squares makes the four side faces and the other two squares are the two bases.
+To decide whether a shape is a net of a cube, we imagine folding it up: we must get exactly $6$ faces, with no two squares on top of each other.
 
-Shape B does not fold up: when the row of five squares is folded round the cube, the fifth square lies on top of the first square.
+Shape A: the row of four squares folds into the four side faces (the fourth square meets the first square again). The square above the first square folds down to make the top, and the square below the fourth square folds up to make the bottom. We get all $6$ faces with no overlap, so shape A folds into a cube.
+
+Shape B: five squares in a row. The first four squares already go all the way round the cube, so when we keep folding, the fifth square lies on top of the first square. Two squares overlap and one face is missing, so shape B is not a net of a cube.
+
+So shape A is a net of a cube.
 
 **Answer.** Shape A.
 :::
@@ -270,7 +308,17 @@ Suppose a cake box is shaped like a cuboid with length $20$ cm, width $10$ cm an
 2. Add them and multiply by $2$. Remember the unit.
 
 ::solution
-The three different faces have areas $20\times10=200$, $20\times5=100$ and $10\times5=50$ ($\text{cm}^2$). The area of card needed is $2\times(200+100+50)=2\times350=700\ \text{cm}^2$.
+Solution
+
+The least amount of card is exactly the total area of the $6$ faces of the box (not counting the flaps). A cuboid has three pairs of equal opposite faces.
+
+The areas of the three different faces are:
+$$20\times10=200\ \text{(cm}^2\text{)};\qquad 20\times5=100\ \text{(cm}^2\text{)};\qquad 10\times5=50\ \text{(cm}^2\text{)}.$$
+
+The area of card needed is:
+$$2\times(200+100+50)=2\times350=700\ \text{(cm}^2\text{)}.$$
+
+So at least $700\ \text{cm}^2$ of card is needed to make the box.
 
 **Answer.** $700\ \text{cm}^2$.
 :::
@@ -286,7 +334,17 @@ Suppose a drink can is a cylinder with base diameter $6$ cm and height $12$ cm. 
 2. Multiply the circumference by the height.
 
 ::solution
-The circumference of the base is $6\times3.14=18.84$ (cm). The area of the label is $18.84\times12=226.08\ \text{(cm}^2\text{)}$.
+Solution
+
+The label covers the curved surface of the can exactly, so when it is laid flat it is a rectangle whose length is the circumference of the base and whose width is the height of the can. The base diameter is $6$ cm, so the circumference is the diameter times $3.14$.
+
+The circumference of the base is:
+$$6\times3.14=18.84\ \text{(cm)}.$$
+
+The area of the label is:
+$$18.84\times12=226.08\ \text{(cm}^2\text{)}.$$
+
+So the label has area $226.08\ \text{cm}^2$.
 
 **Answer.** $226.08\ \text{cm}^2$.
 :::
@@ -302,15 +360,26 @@ Remember the lesson on units of area and volume. A cube has side $1$ dm. Its net
 2. Change the result into $\text{dm}^2$.
 
 ::solution
-The area of each square is $10\times10=100\ \text{cm}^2$. The area of the net is $100\times6=600\ \text{cm}^2$.
+The cube has side $1$ dm $=10$ cm, so its net is made of $6$ squares with side $10$ cm.
 
-Change to $\text{dm}^2$: $600\div100=6\ \text{dm}^2$.
+The area of each square is:
+$$10\times10=100\ \text{(cm}^2\text{)}.$$
+
+The area of the net is:
+$$100\times6=600\ \text{(cm}^2\text{)}.$$
+
+Change to $\text{dm}^2$: since $1\ \text{dm}^2=100\ \text{cm}^2$,
+$$600\ \text{cm}^2=600\div100\ \text{dm}^2=6\ \text{dm}^2.$$
+
+Check by working in dm: each square has area $1\times1=1\ \text{dm}^2$, so six squares have area $6\ \text{dm}^2$.
+
+So the area of the net is $600\ \text{cm}^2$, which is $6\ \text{dm}^2$.
 
 **Answer.** $600\ \text{cm}^2$, which is $6\ \text{dm}^2$.
 :::
 
 :::exercise Challenge
-A rectangular piece of card $31.4$ cm long and $10$ cm wide is rolled into the curved surface of a cylinder, with the long edges meeting. Find the radius of the base of the cylinder. (Take $\pi\approx3.14$.)
+A rectangular piece of card $31.4$ cm long and $10$ cm wide is rolled into the curved surface of a cylinder, with the two short edges meeting. Find the radius of the base of the cylinder. (Take $\pi\approx3.14$.)
 
 ::hint
 **What you need:** the length of the card is the circumference of the base, and the circumference is $2\times3.14\times$ the radius.
@@ -320,9 +389,17 @@ A rectangular piece of card $31.4$ cm long and $10$ cm wide is rolled into the c
 2. Find the radius by dividing.
 
 ::solution
-The circumference of the base is $31.4$ cm, so $2\times3.14\times r=31.4$, that is, $6.28\times r=31.4$. The radius is $r=31.4\div6.28=5$ (cm).
+When the card is rolled into the curved surface of the cylinder, its length of $31.4$ cm goes exactly once round the base, so the circumference of the base is $31.4$ cm; the width of $10$ cm becomes the height of the cylinder.
 
-**Check.** $2\times3.14\times5=31.4$. Correct.
+The circumference of a circle is the radius times $2$ times $3.14$. Let the radius of the base be $r$ (cm). Then
+$$2\times3.14\times r=31.4,\ \text{that is,}\ 6.28\times r=31.4.$$
+
+To find the unknown factor, we divide the product by the known factor:
+$$r=31.4\div6.28=5\ \text{(cm)}.$$
+
+Check: $2\times3.14\times5=31.4$. Correct.
+
+So the radius of the base of the cylinder is $5$ cm.
 
 **Answer.** The radius of the base is $5$ cm.
 :::

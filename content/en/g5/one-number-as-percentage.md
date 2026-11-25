@@ -126,7 +126,17 @@ Express $3$ as a percentage of $5$.
 2. Multiply the quotient by $100$ and add $\%$.
 
 ::solution
-$$3\div5=0.6;\qquad 0.6\times100=60.$$
+To express $3$ as a percentage of $5$, we work in two steps: divide $3$ by $5$ (writing the answer as a decimal), then multiply that quotient by $100$ and write the sign $\%$ after the result.
+
+Divide:
+$$3\div5=0.6.$$
+
+Multiply by $100$ and write the $\%$ sign:
+$$0.6\times100=60,\ \text{that is,}\ 0.6=60\%.$$
+
+Check: $60\%$ of $5$ is $5\times60\div100=3$. Correct.
+
+So $3$ is $60\%$ of $5$.
 
 **Answer.** $60\%$.
 :::
@@ -142,7 +152,17 @@ Express $18$ as a percentage of $24$.
 2. Multiply the quotient by $100$ and add $\%$.
 
 ::solution
-$$18\div24=0.75;\qquad 0.75\times100=75.$$
+We divide $18$ by $24$, then multiply the quotient by $100$ and write the $\%$ sign.
+
+Divide:
+$$18\div24=0.75.$$
+
+Multiply by $100$:
+$$0.75\times100=75,\ \text{that is,}\ 0.75=75\%.$$
+
+Check: $75\%$ of $24$ is $24\times75\div100=18$. Correct.
+
+So $18$ is $75\%$ of $24$.
 
 **Answer.** $75\%$.
 :::
@@ -158,7 +178,15 @@ Express $5$ as a percentage of $8$.
 2. Move the decimal point two places to the right and add $\%$.
 
 ::solution
-$$5\div8=0.625;\qquad 0.625\times100=62.5.$$
+We divide $5$ by $8$, then multiply the quotient by $100$ and write the $\%$ sign.
+
+Divide (until there is no remainder):
+$$5\div8=0.625.$$
+
+Multiply by $100$, that is, move the decimal point two places to the right:
+$$0.625\times100=62.5,\ \text{that is,}\ 0.625=62.5\%.$$
+
+So $5$ is $62.5\%$ of $8$.
 
 **Answer.** $62.5\%$.
 :::
@@ -174,9 +202,18 @@ Write the fraction $\dfrac{13}{20}$ as a percentage.
 2. Multiply the quotient by $100$ and add $\%$.
 
 ::solution
-$$13\div20=0.65;\qquad 0.65\times100=65.$$
+The fraction $\dfrac{13}{20}$ is the quotient $13\div20$, so we divide and then multiply by $100$.
 
-**Another way.** Multiply the numerator and the denominator by $5$: $\dfrac{13}{20}=\dfrac{65}{100}=65\%$.
+Divide:
+$$13\div20=0.65.$$
+
+Multiply by $100$:
+$$0.65\times100=65,\ \text{that is,}\ \frac{13}{20}=65\%.$$
+
+Another way: multiply the numerator and the denominator by $5$ to get a fraction with denominator $100$:
+$$\frac{13}{20}=\frac{13\times5}{20\times5}=\frac{65}{100}=65\%.$$
+
+So $\dfrac{13}{20}=65\%$.
 
 **Answer.** $65\%$.
 :::
@@ -192,7 +229,15 @@ A garden has $40$ trees, and $14$ of them are orange trees. What percentage of t
 2. Work out $14\div40$, multiply by $100$ and add $\%$.
 
 ::solution
-$$14\div40=0.35;\qquad 0.35\times100=35.$$
+Solution
+
+To find what percentage of the trees are orange trees, we express the number of orange trees ($14$) as a percentage of the number of trees in the garden ($40$).
+
+The number of orange trees as a percentage of all the trees is:
+$$14\div40=0.35;\qquad 0.35\times100=35,\ \text{that is,}\ 35\%.$$
+
+Check: $35\%$ of $40$ trees is $40\times35\div100=14$ (trees). Correct.
+
 So $35\%$ of the trees in the garden are orange trees.
 
 **Answer.** $35\%$.
@@ -210,8 +255,14 @@ Binh's home is $1.5$ km from school. This morning he has gone $600$ m. What perc
 3. Work out $600\div1500$, multiply by $100$ and add $\%$.
 
 ::solution
-Convert $1.5\ \text{km}=1500\ \text{m}$. Then:
-$$600\div1500=0.4;\qquad 0.4\times100=40.$$
+Solution
+
+The two distances must be in the same unit before we find the percentage, so we change the whole distance to metres:
+$$1.5\ \text{km}=1500\ \text{m}.$$
+
+The distance gone as a percentage of the whole way is:
+$$600\div1500=0.4;\qquad 0.4\times100=40,\ \text{that is,}\ 40\%.$$
+
 So Binh has gone $40\%$ of the way.
 
 **Answer.** $40\%$.
@@ -233,12 +284,29 @@ b) What percentage of the larger number is the smaller number?
 3. For part b, divide the smaller number by the larger one and multiply by $100$.
 
 ::solution
-a) The difference is $5-3=2$ parts. One part is $24\div2=12$. The smaller number is $12\times3=36$ and the larger number is $12\times5=60$.
+Solution
 
-**Check.** $60-36=24$. Correct.
+a) The ratio of the smaller number to the larger number is $\dfrac{3}{5}$, so if the smaller number is $3$ equal parts, the larger number is $5$ such parts. This is a problem of finding two numbers from their difference and their ratio.
 
-b) We divide the smaller number by the larger one:
-$$36\div60=0.6;\qquad 0.6\times100=60.$$
+The difference in parts is:
+$$5-3=2\ \text{(parts)}.$$
+
+One part is:
+$$24\div2=12.$$
+
+The smaller number is:
+$$12\times3=36.$$
+
+The larger number is:
+$$12\times5=60.$$
+
+Check: $60-36=24$. Correct.
+
+b) To find what percentage of the larger number the smaller number is, we express the smaller number as a percentage of the larger one:
+$$36\div60=0.6;\qquad 0.6\times100=60,\ \text{that is,}\ 60\%.$$
+(We can also use the ratio directly: $\dfrac{3}{5}=\dfrac{60}{100}=60\%$.)
+
+So the numbers are $36$ and $60$; the smaller number is $60\%$ of the larger number.
 
 **Answer.** a) The numbers are $36$ and $60$. b) The smaller number is $60\%$ of the larger number.
 :::
@@ -255,10 +323,16 @@ Yesterday a shop sold $80$ exercise books. Today it sold $100$ exercise books. T
 3. Multiply by $100$ and add $\%$.
 
 ::solution
-We compare today with yesterday, so we divide $100$ by $80$:
-$$100\div80=1.25;\qquad 1.25\times100=125.$$
+Solution
 
-**Check.** $100>80$, so the result must be more than $100\%$. Correct.
+The question asks what percentage of yesterday's sales today's sales are, so we divide today's number ($100$ books) by yesterday's number ($80$ books).
+
+Today's sales as a percentage of yesterday's sales:
+$$100\div80=1.25;\qquad 1.25\times100=125,\ \text{that is,}\ 125\%.$$
+
+Check: more books were sold today than yesterday ($100>80$), so the result must be more than $100\%$. Correct.
+
+So the number sold today is $125\%$ of the number sold yesterday.
 
 **Answer.** $125\%$.
 :::

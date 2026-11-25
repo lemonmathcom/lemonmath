@@ -144,7 +144,16 @@ Put these numbers in ascending order: $47, 39, 52, 40, 45$.
 2. Find the smallest of the numbers left, and so on.
 
 ::solution
-The smallest is $39$, then $40$, $45$, $47$, and the largest is $52$.
+To put the numbers in ascending order, we find the smallest first, then the larger ones one by one.
+
+All the numbers have two digits. Compare the tens digits: $39$ has tens digit $3$, the smallest; $47$, $40$ and $45$ have tens digit $4$; $52$ has tens digit $5$, the largest.
+
+Compare the three numbers with tens digit $4$ by their ones digits: $0<5<7$, so $40<45<47$.
+
+Therefore
+$$39<40<45<47<52.$$
+
+So in ascending order the numbers are $39, 40, 45, 47, 52$.
 
 **Answer.** $39, 40, 45, 47, 52$.
 :::
@@ -160,7 +169,16 @@ Put these numbers in descending order: $205, 250, 25, 502, 52$.
 2. Compare the two-digit numbers.
 
 ::solution
-The three-digit numbers: $502>250>205$. The two-digit numbers: $52>25$. A three-digit number is larger than a two-digit number.
+To put the numbers in descending order, we find the largest first. A three-digit number is always larger than a two-digit number, so we order the three-digit numbers first.
+
+The three-digit numbers are $205$, $250$ and $502$. Compare the hundreds digits: $502$ has hundreds digit $5$, the largest. $250$ and $205$ both have hundreds digit $2$; compare the tens digits: $5>0$, so $250>205$. Hence $502>250>205$.
+
+The two-digit numbers are $25$ and $52$. Compare the tens digits: $5>2$, so $52>25$.
+
+Therefore
+$$502>250>205>52>25.$$
+
+So in descending order the numbers are $502, 250, 205, 52, 25$.
 
 **Answer.** $502, 250, 205, 52, 25$.
 :::
@@ -177,7 +195,23 @@ The teacher asks $12$ children which pet they have: dog, cat, dog, fish, cat, do
 3. Add the numbers and compare with $12$.
 
 ::solution
-Dog: $5$ children; cat: $4$; fish: $2$; rabbit: $1$. Check: $5+4+2+1=12$. The largest number is $5$.
+We read the answers one by one and count the children for each pet:
+- Dog: answers $1$, $3$, $6$, $7$, $10$, so $5$ children.
+- Cat: answers $2$, $5$, $8$, $12$, so $4$ children.
+- Fish: answers $4$, $9$, so $2$ children.
+- Rabbit: answer $11$, so $1$ child.
+
+Table of data:
+
+| Pet | Dog | Cat | Fish | Rabbit |
+|---|---|---|---|---|
+| Number of children | $5$ | $4$ | $2$ | $1$ |
+
+Check: $5+4+2+1=12$, the number of children asked.
+
+The largest number in the table is $5$, for the dog.
+
+So dog $5$, cat $4$, fish $2$, rabbit $1$; the most common pet is the dog.
 
 **Answer.** Dog $5$, cat $4$, fish $2$, rabbit $1$. The most common pet is the dog.
 :::
@@ -193,7 +227,14 @@ The number of rainy days in four months: June $14$ days; July $17$ days; August 
 2. Add the four numbers.
 
 ::solution
-The largest number is $20$, for August. Total: $14+17+20+16=67$ (days).
+Solution
+
+Compare the numbers of rainy days in the four months: $14$, $17$, $20$, $16$. The largest is $20$, for August, so August had the most rainy days.
+
+The number of rainy days in the four months is:
+$$14+17+20+16=67\ \text{(days)}.$$
+
+So August had the most rainy days; there were $67$ rainy days in the four months.
 
 **Answer.** August; $67$ days.
 :::
@@ -210,7 +251,19 @@ Classes $5$A, $5$B, $5$C and $5$D planted $120$ trees altogether. Class $5$A pla
 3. Check by adding all four numbers.
 
 ::solution
-The three classes planted $24+31+28=83$ (trees). Class $5$C planted $120-83=37$ (trees). Check: $83+37=120$. In descending order: $37, 31, 28, 24$.
+Solution
+
+The number of trees planted by classes $5$A, $5$B and $5$D is:
+$$24+31+28=83\ \text{(trees)}.$$
+
+The number of trees planted by class $5$C is:
+$$120-83=37\ \text{(trees)}.$$
+
+Check: $83+37=120$. Correct.
+
+In order from most to least: $37>31>28>24$, for classes $5$C, $5$B, $5$D, $5$A.
+
+So class $5$C planted $37$ trees; the order from most to least is $5$C, $5$B, $5$D, $5$A.
 
 **Answer.** Class $5$C planted $37$ trees. Order: $5$C, $5$B, $5$D, $5$A.
 :::
@@ -226,7 +279,14 @@ The times for a $60$ m run (in seconds) are: An $11.2$; Binh $10.8$; Chi $12.5$;
 2. Put them in order from smallest to largest, keeping each name with its time.
 
 ::solution
-In ascending order: $9.9 < 10.6 < 10.8 < 11.2 < 12.5$. The smallest time is Dung's.
+Over the same $60$ m, the child who takes less time runs faster. So we put the times in ascending order.
+
+Compare the whole-number parts: $9.9$ has whole-number part $9$, the smallest; $10.6$ and $10.8$ have whole-number part $10$; then come $11.2$ and $12.5$. For $10.6$ and $10.8$ the tenths digits are $6<8$, so $10.6<10.8$. Therefore
+$$9.9<10.6<10.8<11.2<12.5.$$
+
+These are the times of Dung, Ha, Binh, An and Chi.
+
+So Dung ran fastest; from fastest to slowest the order is Dung, Ha, Binh, An, Chi.
 
 **Answer.** Dung ran fastest. Order: Dung, Ha, Binh, An, Chi.
 :::
@@ -242,7 +302,22 @@ Remember the last lesson. Three children cycled at a steady speed for $2$ hours.
 2. Put the speeds in descending order.
 
 ::solution
-Nam: $24\div2=12$ (km/h). Son: $30\div2=15$ (km/h). Tu: $26\div2=13$ (km/h). In descending order: $15, 13, 12$.
+Solution
+
+To find a speed, we divide the distance by the time. All three children cycled for $2$ hours.
+
+Nam's speed is:
+$$24\div2=12\ \text{(km/h)}.$$
+
+Son's speed is:
+$$30\div2=15\ \text{(km/h)}.$$
+
+Tu's speed is:
+$$26\div2=13\ \text{(km/h)}.$$
+
+In descending order: $15>13>12$, so from fastest to slowest the order is Son, Tu, Nam.
+
+So Son cycled at $15$ km/h, Tu at $13$ km/h and Nam at $12$ km/h; from fastest to slowest: Son, Tu, Nam.
 
 **Answer.** Son $15$ km/h, Tu $13$ km/h, Nam $12$ km/h.
 :::
@@ -259,9 +334,22 @@ The teacher asks $30$ children to choose a sport. Football has $11$ children and
 3. Check by adding all four sports.
 
 ::solution
-Badminton and swimming together: $30-11-4=15$ (children). Swimming: $(15-3)\div2=6$. Badminton: $6+3=9$.
+Solution
 
-**Check.** $11+9+6+4=30$ and $9-6=3$. Correct.
+The number of children choosing badminton and swimming together is:
+$$30-11-4=15\ \text{(children)}.$$
+
+This is a problem of finding two numbers from their sum ($15$) and their difference ($3$). The smaller number is the number choosing swimming.
+
+The number choosing swimming is:
+$$(15-3)\div2=6\ \text{(children)}.$$
+
+The number choosing badminton is:
+$$6+3=9\ \text{(children)}.$$
+
+Check: $11+9+6+4=30$ and $9-6=3$. Correct.
+
+So $9$ children chose badminton and $6$ chose swimming.
 
 **Answer.** Badminton $9$ children, swimming $6$ children.
 :::

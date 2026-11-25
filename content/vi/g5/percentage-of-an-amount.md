@@ -127,7 +127,17 @@ Tính $20\%$ của $350$.
 2. Nhân kết quả với $20$.
 
 ::solution
-$350:100\times20=3{,}5\times20=70$.
+Muốn tìm $20\%$ của $350$, ta lấy $350$ chia cho $100$ (được giá trị của $1\%$) rồi nhân với $20$.
+
+Giá trị của $1\%$ là:
+$$350:100=3{,}5.$$
+
+Giá trị của $20\%$ là:
+$$3{,}5\times20=70.$$
+
+Cách khác: $20\%=\dfrac{1}{5}$, nên $20\%$ của $350$ là $350:5=70$.
+
+Vậy $20\%$ của $350$ là $70$.
 
 **Đáp số.** $70$.
 :::
@@ -143,7 +153,14 @@ Tính $5\%$ của $420$.
 2. Chia kết quả cho $100$.
 
 ::solution
-$420\times5:100=2\,100:100=21$.
+Muốn tìm $5\%$ của $420$, ta có thể lấy $420$ nhân với $5$ rồi chia cho $100$.
+
+Ta có
+$$420\times5=2\,100;\qquad 2\,100:100=21.$$
+
+Thử lại bằng cách tìm $1\%$ trước: $420:100=4{,}2$ và $4{,}2\times5=21$.
+
+Vậy $5\%$ của $420$ là $21$.
 
 **Đáp số.** $21$.
 :::
@@ -159,7 +176,15 @@ Tính nhẩm $50\%$ và $25\%$ của $64$.
 2. Tìm một phần tư của $64$: chia $4$.
 
 ::solution
-$64:2=32$ và $64:4=16$.
+Ta dùng hai tỉ số phần trăm quen thuộc: $50\%=\dfrac{50}{100}=\dfrac{1}{2}$ và $25\%=\dfrac{25}{100}=\dfrac{1}{4}$.
+
+$50\%$ của $64$ là một nửa của $64$:
+$$64:2=32.$$
+
+$25\%$ của $64$ là một phần tư của $64$ (bằng một nửa của $32$):
+$$64:4=16.$$
+
+Vậy $50\%$ của $64$ là $32$ và $25\%$ của $64$ là $16$.
 
 **Đáp số.** $50\%$ của $64$ là $32$; $25\%$ của $64$ là $16$.
 :::
@@ -175,7 +200,17 @@ $64:2=32$ và $64:4=16$.
 2. Tìm $40\%$ của $160$, rồi so sánh.
 
 ::solution
-$200\times30:100=60$ và $160\times40:100=6\,400:100=64$. Vì $60<64$ nên $30\%$ của $200$ nhỏ hơn $40\%$ của $160$.
+Ta tính giá trị của mỗi vế rồi so sánh.
+
+$30\%$ của $200$ là:
+$$200\times30:100=6\,000:100=60.$$
+
+$40\%$ của $160$ là:
+$$160\times40:100=6\,400:100=64.$$
+
+Vì $60<64$ nên $30\%$ của $200$ bé hơn $40\%$ của $160$. Ta điền dấu $<$.
+
+Vậy $30\%$ của $200<40\%$ của $160$.
 
 **Đáp số.** Dấu $<$.
 :::
@@ -192,11 +227,17 @@ Lan đọc một quyển truyện dày $180$ trang. Ngày đầu Lan đọc đư
 3. Thử lại: cộng hai số tìm được xem có đủ $180$ không.
 
 ::solution
-Số trang Lan đọc ngày đầu là:
-$$180\times40:100=7\,200:100=72\ \text{(trang)}.$$
-Số trang chưa đọc là $180-72=108$ (trang).
+Bài giải
 
-**Kiểm tra.** $72+108=180$. Đúng.
+Số trang Lan đọc ngày đầu là $40\%$ của $180$ trang:
+$$180\times40:100=7\,200:100=72\ \text{(trang)}.$$
+
+Số trang Lan chưa đọc là:
+$$180-72=108\ \text{(trang)}.$$
+
+Kiểm tra: $72+108=180$. Đúng.
+
+Vậy ngày đầu Lan đọc được $72$ trang, còn $108$ trang chưa đọc.
 
 **Đáp số.** $72$ trang; còn $108$ trang.
 :::
@@ -212,9 +253,19 @@ Một đôi giày có giá $400\,000$ đồng. Cửa hàng giảm giá $15\%$. H
 2. Lấy $400\,000$ trừ số tiền được giảm.
 
 ::solution
+Bài giải
+
+Cửa hàng giảm giá $15\%$, nghĩa là số tiền được giảm bằng $15\%$ giá đôi giày.
+
 Số tiền được giảm là:
 $$400\,000\times15:100=6\,000\,000:100=60\,000\ \text{(đồng)}.$$
-Số tiền phải trả là $400\,000-60\,000=340\,000$ (đồng).
+
+Số tiền em phải trả là:
+$$400\,000-60\,000=340\,000\ \text{(đồng)}.$$
+
+Kiểm tra: số tiền phải trả bằng $100\%-15\%=85\%$ giá ban đầu, và $400\,000\times85:100=340\,000$. Đúng.
+
+Vậy em phải trả $340\,000$ đồng.
 
 **Đáp số.** $340\,000$ đồng.
 :::
@@ -230,9 +281,16 @@ Em hãy nhớ lại bài trước. Lớp 5C có $40$ học sinh, trong đó có 
 2. Tìm giá trị phần trăm vừa được của $40$ và so với $14$.
 
 ::solution
-$14:40=0{,}35=35\%$.
+Bài giải
 
-**Kiểm tra.** $40\times35:100=1\,400:100=14$, đúng bằng số bạn nam.
+Tỉ số phần trăm của số bạn nam và số học sinh cả lớp là:
+$$14:40=0{,}35;\qquad 0{,}35\times100=35,\ \text{tức là}\ 35\%.$$
+
+Kiểm tra bằng bài hôm nay: tìm $35\%$ của $40$:
+$$40\times35:100=1\,400:100=14.$$
+Kết quả đúng bằng số bạn nam, nên tỉ số phần trăm tìm được là đúng.
+
+Vậy số bạn nam chiếm $35\%$ số học sinh cả lớp.
 
 **Đáp số.** $35\%$.
 :::
@@ -249,10 +307,20 @@ Một mảnh vườn hình chữ nhật có chiều dài $40$ m, chiều rộng 
 3. Tìm $25\%$ của diện tích đó.
 
 ::solution
-Chiều rộng là $40\times60:100=24$ (m). Diện tích mảnh vườn là $40\times24=960$ ($\text{m}^2$). Diện tích trồng rau là $25\%$ của $960$, tức là một phần tư của $960$:
-$$960:4=240\ (\text{m}^2).$$
+Bài giải
 
-**Kiểm tra.** $960\times25:100=24\,000:100=240$. Đúng.
+Chiều rộng bằng $60\%$ chiều dài, nên chiều rộng mảnh vườn là:
+$$40\times60:100=2\,400:100=24\ \text{(m)}.$$
+
+Diện tích mảnh vườn là:
+$$40\times24=960\ \text{(m}^2\text{)}.$$
+
+Diện tích trồng rau là $25\%$ của $960\ \text{m}^2$. Vì $25\%=\dfrac{1}{4}$ nên ta lấy một phần tư của $960$:
+$$960:4=240\ \text{(m}^2\text{)}.$$
+
+Kiểm tra: $960\times25:100=24\,000:100=240$. Đúng.
+
+Vậy diện tích trồng rau là $240\ \text{m}^2$.
 
 **Đáp số.** $240\ \text{m}^2$.
 :::

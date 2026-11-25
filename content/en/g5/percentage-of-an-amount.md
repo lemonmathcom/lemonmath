@@ -127,7 +127,17 @@ Work out $20\%$ of $350$.
 2. Multiply the result by $20$.
 
 ::solution
-$350\div100\times20=3.5\times20=70$.
+To find $20\%$ of $350$, we divide $350$ by $100$ (to get the value of $1\%$), then multiply by $20$.
+
+The value of $1\%$ is:
+$$350\div100=3.5.$$
+
+The value of $20\%$ is:
+$$3.5\times20=70.$$
+
+Another way: $20\%=\dfrac{1}{5}$, so $20\%$ of $350$ is $350\div5=70$.
+
+So $20\%$ of $350$ is $70$.
 
 **Answer.** $70$.
 :::
@@ -143,7 +153,14 @@ Work out $5\%$ of $420$.
 2. Divide the result by $100$.
 
 ::solution
-$420\times5\div100=2\,100\div100=21$.
+To find $5\%$ of $420$, we can multiply $420$ by $5$ and then divide by $100$.
+
+We have
+$$420\times5=2\,100;\qquad 2\,100\div100=21.$$
+
+Check by finding $1\%$ first: $420\div100=4.2$ and $4.2\times5=21$.
+
+So $5\%$ of $420$ is $21$.
 
 **Answer.** $21$.
 :::
@@ -159,7 +176,15 @@ Work out $50\%$ and $25\%$ of $64$ in your head.
 2. Find a quarter of $64$: divide by $4$.
 
 ::solution
-$64\div2=32$ and $64\div4=16$.
+We use two familiar percentages: $50\%=\dfrac{50}{100}=\dfrac{1}{2}$ and $25\%=\dfrac{25}{100}=\dfrac{1}{4}$.
+
+$50\%$ of $64$ is half of $64$:
+$$64\div2=32.$$
+
+$25\%$ of $64$ is a quarter of $64$ (half of $32$):
+$$64\div4=16.$$
+
+So $50\%$ of $64$ is $32$ and $25\%$ of $64$ is $16$.
 
 **Answer.** $50\%$ of $64$ is $32$; $25\%$ of $64$ is $16$.
 :::
@@ -175,7 +200,17 @@ Write $>$, $<$ or $=$ in the box: $30\%$ of $200\;\square\;40\%$ of $160$.
 2. Find $40\%$ of $160$, then compare.
 
 ::solution
-$200\times30\div100=60$ and $160\times40\div100=6\,400\div100=64$. Since $60<64$, $30\%$ of $200$ is less than $40\%$ of $160$.
+We work out each side and then compare.
+
+$30\%$ of $200$ is:
+$$200\times30\div100=6\,000\div100=60.$$
+
+$40\%$ of $160$ is:
+$$160\times40\div100=6\,400\div100=64.$$
+
+Since $60<64$, $30\%$ of $200$ is less than $40\%$ of $160$. We write $<$.
+
+So $30\%$ of $200<40\%$ of $160$.
 
 **Answer.** The sign $<$.
 :::
@@ -192,11 +227,17 @@ Lan reads a book with $180$ pages. On the first day she reads $40\%$ of the page
 3. Check: add the two numbers you found and see whether you get $180$.
 
 ::solution
-The number of pages Lan reads on the first day is:
-$$180\times40\div100=7\,200\div100=72\ \text{(pages)}.$$
-The number of pages left is $180-72=108$ (pages).
+Solution
 
-**Check.** $72+108=180$. Correct.
+The number of pages Lan reads on the first day is $40\%$ of $180$ pages:
+$$180\times40\div100=7\,200\div100=72\ \text{(pages)}.$$
+
+The number of pages left is:
+$$180-72=108\ \text{(pages)}.$$
+
+Check: $72+108=180$. Correct.
+
+So Lan reads $72$ pages on the first day, and $108$ pages are left.
 
 **Answer.** $72$ pages; $108$ pages are left.
 :::
@@ -212,9 +253,19 @@ A pair of shoes costs $400\,000$ dong. The shop gives a $15\%$ discount. How muc
 2. Subtract the discount from $400\,000$.
 
 ::solution
+Solution
+
+A $15\%$ discount means that the money taken off is $15\%$ of the price of the shoes.
+
 The discount is:
 $$400\,000\times15\div100=6\,000\,000\div100=60\,000\ \text{(dong)}.$$
-The amount to pay is $400\,000-60\,000=340\,000$ (dong).
+
+The amount to pay is:
+$$400\,000-60\,000=340\,000\ \text{(dong)}.$$
+
+Check: the amount to pay is $100\%-15\%=85\%$ of the original price, and $400\,000\times85\div100=340\,000$. Correct.
+
+So you pay $340\,000$ dong.
 
 **Answer.** $340\,000$ dong.
 :::
@@ -230,9 +281,16 @@ Remember the last lesson. Class 5C has $40$ pupils, and $14$ of them are boys. F
 2. Find that percentage of $40$ and compare it with $14$.
 
 ::solution
-$14\div40=0.35=35\%$.
+Solution
 
-**Check.** $40\times35\div100=1\,400\div100=14$, which is exactly the number of boys.
+The number of boys as a percentage of the whole class is:
+$$14\div40=0.35;\qquad 0.35\times100=35,\ \text{that is,}\ 35\%.$$
+
+Check with today's lesson: find $35\%$ of $40$:
+$$40\times35\div100=1\,400\div100=14.$$
+This is exactly the number of boys, so the percentage is right.
+
+So the boys make up $35\%$ of the class.
 
 **Answer.** $35\%$.
 :::
@@ -249,10 +307,20 @@ A rectangular garden is $40$ m long, and its width is $60\%$ of its length. Then
 3. Find $25\%$ of that area.
 
 ::solution
-The width is $40\times60\div100=24$ (m). The area of the garden is $40\times24=960$ ($\text{m}^2$). The area for vegetables is $25\%$ of $960$, which is a quarter of $960$:
-$$960\div4=240\ (\text{m}^2).$$
+Solution
 
-**Check.** $960\times25\div100=24\,000\div100=240$. Correct.
+The width is $60\%$ of the length, so the width of the garden is:
+$$40\times60\div100=2\,400\div100=24\ \text{(m)}.$$
+
+The area of the garden is:
+$$40\times24=960\ \text{(m}^2\text{)}.$$
+
+The area for vegetables is $25\%$ of $960\ \text{m}^2$. Since $25\%=\dfrac{1}{4}$, we take a quarter of $960$:
+$$960\div4=240\ \text{(m}^2\text{)}.$$
+
+Check: $960\times25\div100=24\,000\div100=240$. Correct.
+
+So the area used for vegetables is $240\ \text{m}^2$.
 
 **Answer.** $240\ \text{m}^2$.
 :::

@@ -144,7 +144,16 @@ Xếp các số sau theo thứ tự tăng dần: $47, 39, 52, 40, 45$.
 2. Tìm số bé nhất trong các số còn lại, cứ thế tiếp tục.
 
 ::solution
-Số bé nhất là $39$, rồi $40$, $45$, $47$ và số lớn nhất là $52$.
+Muốn xếp theo thứ tự tăng dần, ta tìm số bé nhất trước, rồi lần lượt các số lớn hơn.
+
+Các số đều có hai chữ số. So sánh chữ số hàng chục: $39$ có hàng chục là $3$, bé nhất; các số $47$, $40$, $45$ có hàng chục là $4$; số $52$ có hàng chục là $5$, lớn nhất.
+
+So sánh ba số có hàng chục là $4$ theo chữ số hàng đơn vị: $0<5<7$, nên $40<45<47$.
+
+Do đó
+$$39<40<45<47<52.$$
+
+Vậy các số xếp theo thứ tự tăng dần là $39, 40, 45, 47, 52$.
 
 **Đáp số.** $39, 40, 45, 47, 52$.
 :::
@@ -160,7 +169,16 @@ Xếp các số sau theo thứ tự giảm dần: $205, 250, 25, 502, 52$.
 2. So sánh các số có hai chữ số.
 
 ::solution
-Các số có ba chữ số: $502>250>205$. Các số có hai chữ số: $52>25$. Số có ba chữ số lớn hơn số có hai chữ số.
+Muốn xếp theo thứ tự giảm dần, ta tìm số lớn nhất trước. Số có ba chữ số luôn lớn hơn số có hai chữ số, nên ta xếp các số có ba chữ số trước.
+
+Các số có ba chữ số là $205$, $250$, $502$. So sánh chữ số hàng trăm: $502$ có hàng trăm là $5$, lớn nhất. Hai số $250$ và $205$ cùng hàng trăm là $2$; so sánh hàng chục: $5>0$, nên $250>205$. Do đó $502>250>205$.
+
+Các số có hai chữ số là $25$ và $52$. So sánh hàng chục: $5>2$, nên $52>25$.
+
+Do đó
+$$502>250>205>52>25.$$
+
+Vậy các số xếp theo thứ tự giảm dần là $502, 250, 205, 52, 25$.
 
 **Đáp số.** $502, 250, 205, 52, 25$.
 :::
@@ -177,7 +195,23 @@ Cô hỏi $12$ bạn nuôi con vật nào: chó, mèo, chó, cá, mèo, chó, ch
 3. Cộng các số, so với $12$.
 
 ::solution
-Chó: $5$ bạn; mèo: $4$ bạn; cá: $2$ bạn; thỏ: $1$ bạn. Kiểm tra: $5+4+2+1=12$. Số lớn nhất là $5$.
+Ta đọc lần lượt các câu trả lời và đếm số bạn nuôi mỗi con vật:
+- Chó: lần thứ $1$, $3$, $6$, $7$, $10$, tất cả $5$ bạn.
+- Mèo: lần thứ $2$, $5$, $8$, $12$, tất cả $4$ bạn.
+- Cá: lần thứ $4$, $9$, tất cả $2$ bạn.
+- Thỏ: lần thứ $11$, tất cả $1$ bạn.
+
+Bảng số liệu:
+
+| Con vật | Chó | Mèo | Cá | Thỏ |
+|---|---|---|---|---|
+| Số bạn | $5$ | $4$ | $2$ | $1$ |
+
+Kiểm tra: $5+4+2+1=12$, đúng bằng số bạn được hỏi.
+
+Trong bảng, số lớn nhất là $5$, ứng với con chó.
+
+Vậy chó $5$ bạn, mèo $4$ bạn, cá $2$ bạn, thỏ $1$ bạn; con vật được nuôi nhiều nhất là chó.
 
 **Đáp số.** Chó $5$, mèo $4$, cá $2$, thỏ $1$. Nhiều nhất là chó.
 :::
@@ -193,7 +227,14 @@ Số ngày mưa trong bốn tháng là: tháng $6$: $14$ ngày; tháng $7$: $17$
 2. Cộng bốn số lại.
 
 ::solution
-Số lớn nhất là $20$, ứng với tháng $8$. Tổng: $14+17+20+16=67$ (ngày).
+Bài giải
+
+So sánh số ngày mưa của bốn tháng: $14$, $17$, $20$, $16$. Số lớn nhất là $20$, ứng với tháng $8$, nên tháng $8$ mưa nhiều nhất.
+
+Số ngày mưa của cả bốn tháng là:
+$$14+17+20+16=67\ \text{(ngày)}.$$
+
+Vậy tháng $8$ mưa nhiều nhất; cả bốn tháng có $67$ ngày mưa.
 
 **Đáp số.** Tháng $8$; $67$ ngày.
 :::
@@ -210,7 +251,19 @@ Bốn lớp $5$A, $5$B, $5$C, $5$D trồng tất cả $120$ cây. Lớp $5$A tr�
 3. Thử lại bằng cách cộng bốn số.
 
 ::solution
-Ba lớp trồng: $24+31+28=83$ (cây). Lớp $5$C trồng: $120-83=37$ (cây). Kiểm tra: $83+37=120$. Xếp giảm dần: $37, 31, 28, 24$.
+Bài giải
+
+Số cây ba lớp $5$A, $5$B, $5$D trồng được là:
+$$24+31+28=83\ \text{(cây)}.$$
+
+Số cây lớp $5$C trồng được là:
+$$120-83=37\ \text{(cây)}.$$
+
+Kiểm tra: $83+37=120$. Đúng.
+
+Xếp số cây theo thứ tự từ nhiều đến ít: $37>31>28>24$, ứng với các lớp $5$C, $5$B, $5$D, $5$A.
+
+Vậy lớp $5$C trồng $37$ cây; thứ tự từ nhiều đến ít là $5$C, $5$B, $5$D, $5$A.
 
 **Đáp số.** Lớp $5$C trồng $37$ cây. Thứ tự: $5$C, $5$B, $5$D, $5$A.
 :::
@@ -226,7 +279,14 @@ Thời gian chạy $60$ m của năm bạn (giây): An $11{,}2$; Bình $10{,}8$;
 2. Xếp từ bé đến lớn, giữ tên bạn đi kèm.
 
 ::solution
-Xếp tăng dần: $9{,}9 < 10{,}6 < 10{,}8 < 11{,}2 < 12{,}5$. Số bé nhất là của Dũng.
+Cùng chạy $60$ m, bạn nào chạy hết ít thời gian hơn thì chạy nhanh hơn. Vì vậy ta xếp các thời gian theo thứ tự tăng dần.
+
+So sánh phần nguyên: $9{,}9$ có phần nguyên $9$, bé nhất; $10{,}6$ và $10{,}8$ có phần nguyên $10$; tiếp đến $11{,}2$ rồi $12{,}5$. Hai số $10{,}6$ và $10{,}8$ có hàng phần mười $6<8$, nên $10{,}6<10{,}8$. Do đó
+$$9{,}9<10{,}6<10{,}8<11{,}2<12{,}5.$$
+
+Các thời gian này lần lượt là của Dũng, Hà, Bình, An, Chi.
+
+Vậy Dũng chạy nhanh nhất; thứ tự từ nhanh đến chậm là Dũng, Hà, Bình, An, Chi.
 
 **Đáp số.** Dũng chạy nhanh nhất. Thứ tự: Dũng, Hà, Bình, An, Chi.
 :::
@@ -242,7 +302,22 @@ Em hãy nhớ lại bài trước. Ba bạn đi xe đạp đều trong $2$ giờ
 2. Xếp các vận tốc giảm dần.
 
 ::solution
-Nam: $24:2=12$ (km/giờ). Sơn: $30:2=15$ (km/giờ). Tú: $26:2=13$ (km/giờ). Xếp giảm dần: $15, 13, 12$.
+Bài giải
+
+Muốn tính vận tốc, ta lấy quãng đường chia cho thời gian. Cả ba bạn đều đi trong $2$ giờ.
+
+Vận tốc của Nam là:
+$$24:2=12\ \text{(km/giờ)}.$$
+
+Vận tốc của Sơn là:
+$$30:2=15\ \text{(km/giờ)}.$$
+
+Vận tốc của Tú là:
+$$26:2=13\ \text{(km/giờ)}.$$
+
+Xếp theo thứ tự giảm dần: $15>13>12$, nên từ nhanh đến chậm là Sơn, Tú, Nam.
+
+Vậy Sơn đi $15$ km/giờ, Tú đi $13$ km/giờ, Nam đi $12$ km/giờ; thứ tự từ nhanh đến chậm là Sơn, Tú, Nam.
 
 **Đáp số.** Sơn $15$ km/giờ, Tú $13$ km/giờ, Nam $12$ km/giờ.
 :::
@@ -259,9 +334,22 @@ Cô hỏi $30$ bạn chọn một môn thể thao. Bóng đá có $11$ bạn, c�
 3. Thử lại: cộng bốn môn.
 
 ::solution
-Cầu lông và bơi cộng lại: $30-11-4=15$ (bạn). Số bạn chọn bơi: $(15-3):2=6$. Số bạn chọn cầu lông: $6+3=9$.
+Bài giải
 
-**Kiểm tra.** $11+9+6+4=30$ và $9-6=3$. Đúng.
+Số bạn chọn cầu lông và bơi cộng lại là:
+$$30-11-4=15\ \text{(bạn)}.$$
+
+Đây là bài toán tìm hai số khi biết tổng ($15$) và hiệu ($3$). Số bé là số bạn chọn bơi.
+
+Số bạn chọn bơi là:
+$$(15-3):2=6\ \text{(bạn)}.$$
+
+Số bạn chọn cầu lông là:
+$$6+3=9\ \text{(bạn)}.$$
+
+Kiểm tra: $11+9+6+4=30$ và $9-6=3$. Đúng.
+
+Vậy có $9$ bạn chọn cầu lông và $6$ bạn chọn bơi.
 
 **Đáp số.** Cầu lông $9$ bạn, bơi $6$ bạn.
 :::
