@@ -12,19 +12,19 @@ minutes: 20
 
 The PE teacher ties a $5$ m rope to the tree in the middle of the schoolyard, ties a piece of chalk to the other end, pulls the rope tight and walks all the way round to draw a line. From the tree, An walks $3$ m east and then $4$ m north; Binh walks $4$ m east, $4$ m north; Chi walks $2$ m west, $4$ m south.
 
-Who is standing exactly on the line, who is inside the ring, and who is outside?
+Who is standing exactly on the line, who is inside the ring, and who is outside? Make a guess first, then we will check it together.
 
 ## The circle
 
 ### Explore: the points exactly $5$ m from the tree
 
-The chalk always stays exactly $5$ m from the foot of the tree $O$. East and north are perpendicular, so we find each distance by Pythagoras' theorem:
+The chalk always stays exactly $5$ m from the foot of the tree $O$, because the rope is kept tight. To find how far each child is from the tree, notice that east and north are perpendicular, so each distance comes from Pythagoras' theorem:
 
 | Student | An | Binh | Chi |
 |---|---|---|---|
 | Distance to $O$ | $\sqrt{3^2+4^2}=5$ m | $\sqrt{4^2+4^2}=\sqrt{32}$ m | $\sqrt{2^2+4^2}=\sqrt{20}$ m |
 
-An is exactly $5$ m from $O$, so An is on the line. The line is made of every point exactly $5$ m from $O$: it is a circle.
+An is exactly $5$ m from $O$, so An is on the line. Notice that the chalk line is made of every point exactly $5$ m from $O$, no more and no less. A shape like this is called a circle.
 
 :::definition The circle
 The circle with centre $O$ and radius $R$ ($R>0$) is the figure made of all the points at distance $R$ from the point $O$. We write it as $(O, R)$, or $(O)$ when the radius does not need to be stated.
@@ -34,7 +34,7 @@ A segment joining the centre to a point of the circle is also called a **radius*
 
 ## Position of a point relative to a circle
 
-We compare the distance from the point to the centre with the radius.
+To decide where a point lies compared with a circle, we just compare its distance from the centre with the radius.
 
 :::theorem Position of a point $M$ relative to the circle $(O, R)$
 - $M$ lies on the circle if and only if $OM=R$.
@@ -56,7 +56,7 @@ segment O P dashed
 
 Back to the opening question: $OB=\sqrt{32}\approx5.66>5$ and $OC=\sqrt{20}\approx4.47<5$, so Binh is outside the ring and Chi is inside it.
 
-To prove that several points lie on one circle, we find one point at the same distance from all of them.
+To prove that several points lie on one circle, we find one point at the same distance from all of them. That point is the centre, and the common distance is the radius.
 
 :::example The four vertices of a rectangle
 The rectangle $ABCD$ has $AB=8$ cm and $BC=6$ cm, and $O$ is the point where its diagonals meet. Prove that $A$, $B$, $C$, $D$ lie on one circle. Find the radius of this circle.
@@ -84,7 +84,7 @@ So $MA=12$ cm.
 
 ## The symmetry of a circle
 
-Fold a paper disc in half along a crease through the centre, and the two halves fit exactly.
+Fold a paper disc in half along a crease through the centre: the two halves fit exactly on top of each other. Any crease through the centre does the same.
 
 :::theorem Centre of symmetry and lines of symmetry
 - A circle has its centre as a centre of symmetry.
@@ -104,6 +104,8 @@ So the point where the creases cross is the centre of the plate.
 :::warning Common mistakes
 - **Mixing up radius and diameter.** Wrong: "A circle with diameter $10$ cm has $R=10$ cm". Why it is wrong: the diameter is $2R$. Right: $R=5$ cm.
 - **Trusting the picture.** Wrong: "In the picture $M$ touches the circle, so $M$ is on the circle". Why it is wrong: a drawing is not exact. Right: compute $OM$ and compare it with $R$.
+
+The second slip is easy to make because our eyes trust the picture. Whenever you need to decide, calculate the distance first and then compare.
 :::
 
 ## Key terms
@@ -123,9 +125,11 @@ So the point where the creases cross is the centre of the plate.
 - $M$ lies on, inside or outside $(O, R)$ when $OM=R$, $OM<R$ or $OM>R$.
 - The centre is a centre of symmetry; every line through the centre is a line of symmetry.
 
+Back to the schoolyard: An is on the line, Binh is outside the ring and Chi is inside it. We found that out just by comparing each distance from the tree with the length of the rope.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Consider the circle $(O, 4\text{ cm})$ and three points $A$, $B$, $C$ with $OA=3$ cm, $OB=4$ cm and $OC=4.5$ cm. Does each point lie inside, on or outside the circle?

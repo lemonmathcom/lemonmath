@@ -10,13 +10,13 @@ minutes: 20
 - Use the property of two tangents from a point.
 :::
 
-A mobile phone mast covers a radius of $5$ km. One straight main road is $3$ km from the mast, and another road is $7$ km from it. How long is the stretch with signal on each road?
+A mobile phone mast covers a radius of $5$ km. One straight main road is $3$ km from the mast, and another road is $7$ km from it. How long is the stretch with signal on each road? The answer depends on just one thing: how far the road is from the mast compared with the radius of coverage.
 
 ## Three positions of a line and a circle
 
 ### Explore: move the line away from the centre
 
-Let $d=OH$ be the distance from $O$ to the line $a$ ($OH\perp a$). Move $a$ slowly away from the centre: at first there are two points of intersection, they merge into one when $d=R$, and then they disappear when $d>R$.
+Let $d=OH$ be the distance from $O$ to the line $a$ ($OH\perp a$). Picture moving $a$ slowly away from the centre. At first the line cuts the circle at two points. The two points move closer together, merge into one when $d=R$, and then disappear altogether when $d>R$. So comparing the distance with the radius tells us how many points the line and the circle share.
 
 :::theorem Relative position of a line $a$ and a circle $(O, R)$
 - $d<R$: $a$ and $(O)$ intersect (they have $2$ common points);
@@ -62,7 +62,7 @@ So the first road has $8$ km with signal and the second road has no signal.
 - Conversely, if the line $a$ passes through a point $A$ on $(O)$ and $a\perp OA$, then $a$ is the tangent to $(O)$ at $A$.
 :::
 
-Indeed, $a\perp OA$ at $A$ exactly when the distance from $O$ to $a$ is $d=OA=R$.
+Indeed, $a\perp OA$ at $A$ exactly when the distance from $O$ to $a$ is $d=OA=R$, that is, when the line touches the circle at exactly one point.
 
 :::example Proving that a line is a tangent
 The triangle $ABC$ is right-angled at $A$. Prove that $AC$ is a tangent to the circle $(B, BA)$.
@@ -72,7 +72,7 @@ The triangle $ABC$ is right-angled at $A$. Prove that $AC$ is a tangent to the c
 So $AC$ is the tangent to $(B, BA)$ at $A$ (test for a tangent).
 :::
 
-Because of the right angle at the point of contact, we find the length of a tangent by Pythagoras' theorem.
+Because of the right angle at the point of contact, the length of a tangent comes from Pythagoras' theorem. Your job is to spot the right-angled triangle.
 
 :::example The length of a tangent
 From a point $M$ at distance $10$ cm from the centre $O$ of the circle $(O, 6\text{ cm})$, draw the tangent $MA$ ($A$ is the point of contact). Find $MA$.
@@ -128,6 +128,8 @@ So $MA=AB=5\sqrt3\approx8.66$ cm and $\angle AMB=60^\circ$.
 :::warning Common mistakes
 - **Measuring $d$ to any point of the line.** Wrong: "$M$ is on $a$ and $OM=7>5$, so $a$ does not meet $(O, 5)$". Why it is wrong: $d=OH$ with $OH\perp a$, which is shorter than $OM$. Right: compute $OH$.
 - **Calling a line a tangent too soon.** Wrong: "$a\perp OA$, so $a$ is a tangent". Why it is wrong: $A$ must also lie on the circle. Right: check both conditions.
+
+The first slip is common because the distance from a point to a line must be measured along the perpendicular, the shortest route. Remember to draw the perpendicular from the centre before you calculate.
 :::
 
 ## Key terms
@@ -148,9 +150,11 @@ So $MA=AB=5\sqrt3\approx8.66$ cm and $\angle AMB=60^\circ$.
 - Length of a tangent: $MA=\sqrt{OM^2-R^2}$.
 - Two tangents from $M$: $MA=MB$, and $MO$, $OM$ are angle bisectors.
 
+Back to the phone mast: a road closer to the mast than the radius of coverage cuts the signal area along a chord, while a road farther away than the radius gets no signal. Everything comes down to one comparison: the distance from the centre against the radius.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Three lines are at distances $4$ cm, $6$ cm and $7.5$ cm from the centre of the circle $(O, 6\text{ cm})$. Find the position of each line relative to the circle.

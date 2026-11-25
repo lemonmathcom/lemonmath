@@ -12,11 +12,11 @@ minutes: 20
 
 In football, the goal is $7.32$ m wide (the distance between the inside of the posts, by Law 1 of the IFAB Laws of the Game). A striker standing at a point $M$ "sees" the posts $A$ and $B$ at the angle $\angle AMB$, the shooting angle: the bigger the angle, the "wider" the goal looks to the player.
 
-So are there *different* positions with the *same* shooting angle? On what line do they lie? The answer is beautiful: they lie on an arc of a circle through the two posts. To see why, we need a new kind of angle: the inscribed angle.
+So are there *different* positions with the *same* shooting angle? If so, on what line do they lie? The answer is rather surprising: they lie on an arc of a circle through the two posts. To see why, we need to meet a new kind of angle, called the inscribed angle.
 
 ## What is an inscribed angle?
 
-In the lesson [Arcs and chords](lesson:arcs-and-chords), the angle at the centre had its vertex at the centre $O$. Now we move the vertex of the angle onto the circle itself.
+In the lesson [Arcs and chords](lesson:arcs-and-chords), the angle at the centre had its vertex at the centre $O$. Now we move the vertex away from the centre and put it on the circle itself.
 
 :::definition Inscribed angle
 An **inscribed angle** (angle at the circumference) is an angle whose vertex lies on a circle and whose two arms contain two chords of the circle. The arc lying inside the angle is the **arc it subtends** (the intercepted arc).
@@ -45,7 +45,7 @@ angle A O B "100°"
 
 ### Explore: measure and compare
 
-In the figure, the minor arc $AB$ measures $100^\circ$ (equal to the angle at the centre). A protractor gives $\angle AMB=50^\circ$; move $M$ along the major arc and measure again: still $50^\circ$. An inscribed angle seems always to be **half** the arc it subtends.
+In the figure, the minor arc $AB$ measures $100^\circ$ (equal to the angle at the centre). A protractor gives $\angle AMB=50^\circ$. Move $M$ somewhere else on the major arc and measure again: still $50^\circ$. It seems that an inscribed angle is always **half** the arc it subtends, wherever the vertex sits on the arc.
 
 :::theorem The inscribed angle theorem
 In a circle, an inscribed angle is half the measure of the arc it subtends.
@@ -57,7 +57,7 @@ $$\angle AOB=\angle OMA+\angle OAM=2\angle AMB.$$
 
 Since $\angle AOB$ equals the measure of the arc $AB$, the angle $\angle AMB$ is half that measure. When $O$ lies inside or outside the angle, we draw the diameter $MD$ and add or subtract two cases like the one above.
 
-Back to the shooting angle.
+Now back to the shooting angle. The theorem we have just met answers the question straight away.
 
 :::example Application: positions with the same shooting angle
 A goal has posts $A$ and $B$ with $AB=7.32$ m. Suppose a circle with centre $O$ is drawn on the pitch through $A$ and $B$ so that $\angle AOB=60^\circ$. Find the shooting angle $\angle AMB$ of a player standing at any point $M$ on the major arc $AB$, and find the radius of the circle.
@@ -100,7 +100,7 @@ angle A M2 B "30°"
 
 ## Consequences of the theorem
 
-The theorem has three consequences that are used all the time.
+From the theorem we get three consequences. You will use them all the time in problems about circles.
 
 :::theorem Consequences
 In a circle:
@@ -109,7 +109,7 @@ In a circle:
 - The angle in a semicircle is a right angle.
 :::
 
-Conversely, a right inscribed angle subtends an arc of $180^\circ$, so its arms pass through the two ends of a diameter.
+The converse is also true: a right inscribed angle subtends an arc of $180^\circ$, so its arms pass through the two ends of a diameter. So whenever you see a right angle with its vertex on a circle, you know at once where the diameter is.
 
 :::example Application: finding the centre of a round table
 To find the centre of a round tabletop, a carpenter puts the right-angle corner of a set square at a point $C$ on the edge; its edges cross the edge of the table at $A$ and $B$, and he draws $AB$. He does the same at another point and gets $A'B'$. Explain why the point where $AB$ and $A'B'$ meet is the centre of the table.
@@ -121,7 +121,7 @@ In the same way, $A'B'$ is also a diameter and passes through the centre.
 So the two diameters $AB$ and $A'B'$ meet at the centre of the table.
 :::
 
-Inscribed angles on the same arc give pairs of equal angles, and from them similar triangles (grade 8).
+Inscribed angles on the same arc give pairs of equal angles. Two pairs of equal angles should make you think of similar triangles (grade 8).
 
 :::example Two intersecting chords
 The chords $AB$ and $CD$ of the circle $(O)$ meet at a point $I$ inside the circle. Prove that $IA\cdot IB=IC\cdot ID$.
@@ -142,6 +142,8 @@ So $IA\cdot IB=IC\cdot ID$.
 :::warning Common mistakes
 - **Taking the inscribed angle equal to the angle at the centre.** Wrong: "$\angle AOB=110^\circ$, so $\angle ACB=110^\circ$". Why it is wrong: an inscribed angle is only **half** the arc it subtends. Right: $\angle ACB=55^\circ$.
 - **Choosing the wrong arc.** Wrong: "$\angle AOB=110^\circ$ and $D$ is on the minor arc $AB$, so $\angle ADB=55^\circ$". Why it is wrong: $\angle ADB$ subtends the **major** arc $AB$ (the arc not containing $D$), which measures $250^\circ$. Right: $\angle ADB=125^\circ$.
+
+The second one is where many people slip. Before you calculate, shade the arc that lies inside the angle: that is the arc it subtends.
 :::
 
 **Connections.** This lesson builds on angles at the centre ([Arcs and chords](lesson:arcs-and-chords)), exterior angles (grade 7) and similar triangles (grade 8). It leads to the [circumcircle of a right-angled triangle](lesson:circumcircle-incircle) and to [cyclic quadrilaterals](lesson:cyclic-quadrilaterals), a topic in almost every grade 10 entrance exam.
@@ -166,9 +168,11 @@ So $IA\cdot IB=IC\cdot ID$.
 - An inscribed angle $\leq 90^\circ$ is half the angle at the centre on the same arc.
 - The angle in a semicircle is a right angle; a right inscribed angle stands on a diameter.
 
+Back to the football pitch: all the positions that see the two posts at the same angle lie on one arc through the posts, because inscribed angles on the same arc are equal. If you remember one thing, remember that an inscribed angle is half the arc it subtends.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 The points $A$, $B$, $C$, $D$ lie on the circle $(O)$ with $\angle AOB=130^\circ$; $C$ is on the major arc $AB$ and $D$ is on the minor arc $AB$.

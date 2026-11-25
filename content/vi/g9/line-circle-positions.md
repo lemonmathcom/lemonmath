@@ -10,13 +10,13 @@ minutes: 20
 - Vận dụng tính chất hai tiếp tuyến cắt nhau.
 :::
 
-Một trạm phát sóng điện thoại phủ sóng trong bán kính $5$ km. Một đường quốc lộ thẳng cách trạm $3$ km, một đường khác cách trạm $7$ km. Trên mỗi đường, đoạn có sóng dài bao nhiêu?
+Một trạm phát sóng điện thoại phủ sóng trong bán kính $5$ km. Một đường quốc lộ thẳng cách trạm $3$ km, một đường khác cách trạm $7$ km. Trên mỗi đường, đoạn có sóng dài bao nhiêu? Câu trả lời phụ thuộc vào một điều duy nhất: con đường cách trạm bao xa so với bán kính phủ sóng.
 
 ## Ba vị trí của đường thẳng và đường tròn
 
 ### Khám phá: dịch đường thẳng ra xa tâm
 
-Gọi $d=OH$ là khoảng cách từ $O$ đến đường thẳng $a$ ($OH\perp a$). Dịch dần $a$ ra xa tâm: lúc đầu có hai giao điểm, chúng nhập làm một khi $d=R$, rồi biến mất khi $d>R$.
+Gọi $d=OH$ là khoảng cách từ $O$ đến đường thẳng $a$ ($OH\perp a$). Bạn hình dung dịch dần $a$ ra xa tâm. Lúc đầu đường thẳng cắt đường tròn tại hai điểm. Hai điểm ấy xích lại gần nhau, nhập làm một khi $d=R$, rồi biến mất hẳn khi $d>R$. Vậy chỉ cần so sánh khoảng cách với bán kính là biết đường thẳng và đường tròn có bao nhiêu điểm chung.
 
 :::theorem Vị trí tương đối của đường thẳng $a$ và đường tròn $(O; R)$
 - $d<R$: $a$ và $(O)$ cắt nhau (có $2$ điểm chung);
@@ -62,7 +62,7 @@ Vậy đường thứ nhất có $8$ km có sóng, đường thứ hai không c�
 - Ngược lại, nếu đường thẳng $a$ đi qua điểm $A$ thuộc $(O)$ và $a\perp OA$ thì $a$ là tiếp tuyến của $(O)$ tại $A$.
 :::
 
-Thật vậy, $a\perp OA$ tại $A$ khi và chỉ khi khoảng cách từ $O$ đến $a$ là $d=OA=R$.
+Thật vậy, $a\perp OA$ tại $A$ khi và chỉ khi khoảng cách từ $O$ đến $a$ là $d=OA=R$, tức là đường thẳng chạm đường tròn tại đúng một điểm.
 
 :::example Chứng minh một đường thẳng là tiếp tuyến
 Cho tam giác $ABC$ vuông tại $A$. Chứng minh rằng $AC$ là tiếp tuyến của đường tròn $(B; BA)$.
@@ -72,7 +72,7 @@ Cho tam giác $ABC$ vuông tại $A$. Chứng minh rằng $AC$ là tiếp tuyế
 Vậy $AC$ là tiếp tuyến của $(B; BA)$ tại $A$ (dấu hiệu nhận biết tiếp tuyến).
 :::
 
-Nhờ góc vuông ở tiếp điểm, ta tính độ dài tiếp tuyến bằng định lí Pythagore.
+Nhờ có góc vuông ở tiếp điểm, độ dài tiếp tuyến tính được bằng định lí Pythagore. Việc của bạn là nhìn ra tam giác vuông.
 
 :::example Độ dài tiếp tuyến
 Từ điểm $M$ cách tâm $O$ của đường tròn $(O; 6\text{ cm})$ là $10$ cm, kẻ tiếp tuyến $MA$ ($A$ là tiếp điểm). Tính $MA$.
@@ -128,6 +128,8 @@ Vậy $MA=AB=5\sqrt3\approx8{,}66$ cm, $\widehat{AMB}=60^\circ$.
 :::warning Những sai lầm thường gặp
 - **Đo $d$ đến một điểm bất kì của đường thẳng.** Sai: "$M\in a$, $OM=7>5$ nên $a$ không giao $(O; 5)$". Lí do sai: $d=OH$ với $OH\perp a$, ngắn hơn $OM$. Đúng: tính $OH$.
 - **Kết luận tiếp tuyến khi chưa đủ điều kiện.** Sai: "$a\perp OA$ nên $a$ là tiếp tuyến". Lí do sai: còn cần $A$ thuộc đường tròn. Đúng: kiểm tra cả hai điều kiện.
+
+Lỗi đầu tiên hay gặp vì khoảng cách từ một điểm đến đường thẳng phải đo theo đường vuông góc, đoạn ngắn nhất. Bạn nhớ kẻ đường vuông góc từ tâm trước khi tính.
 :::
 
 ## Thuật ngữ
@@ -148,9 +150,11 @@ Vậy $MA=AB=5\sqrt3\approx8{,}66$ cm, $\widehat{AMB}=60^\circ$.
 - Độ dài tiếp tuyến: $MA=\sqrt{OM^2-R^2}$.
 - Hai tiếp tuyến từ $M$: $MA=MB$, $MO$ và $OM$ là các tia phân giác.
 
+Quay lại trạm phát sóng: con đường gần trạm hơn bán kính phủ sóng thì cắt vùng sóng theo một dây, còn con đường xa hơn bán kính thì không có sóng. Mọi thứ đều quyết định bởi một phép so sánh: khoảng cách từ tâm với bán kính.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Ba đường thẳng cách tâm của đường tròn $(O; 6\text{ cm})$ lần lượt $4$ cm, $6$ cm, $7{,}5$ cm. Xác định vị trí của mỗi đường thẳng đối với đường tròn.

@@ -66,10 +66,10 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 38 | g9/function-y-equals-ax2 | xong 25/11/2026 (ChatGPT) |
 | 39 | g9/g9-equation-word-problems | xong 25/11/2026 (ChatGPT) |
 | 40 | g9/grouped-frequency-tables | xong 25/11/2026 (ChatGPT) |
-| 41 | g9/inequalities-and-properties | giao Vinax258-GV-3 (đợt 3) |
-| 42 | g9/inscribed-angles | giao Vinax258-GV-3 (đợt 3) |
-| 43 | g9/intro-to-circles | giao Vinax258-GV-3 (đợt 3) |
-| 44 | g9/line-circle-positions | giao Vinax258-GV-3 (đợt 3) |
+| 41 | g9/inequalities-and-properties | xong 25/11/2026 (ChatGPT) |
+| 42 | g9/inscribed-angles | xong 25/11/2026 (ChatGPT) |
+| 43 | g9/intro-to-circles | xong 25/11/2026 (ChatGPT) |
+| 44 | g9/line-circle-positions | xong 25/11/2026 (ChatGPT) |
 | 45 | g9/linear-inequalities-one-unknown | xong 25/11/2026 (ChatGPT) |
 | 46 | g9/quadratic-equations | xong 25/11/2026 (ChatGPT) |
 | 47 | g9/random-experiments-sample-space | xong 25/11/2026 (ChatGPT) |

@@ -12,11 +12,11 @@ minutes: 20
 
 Trong bóng đá, khung thành rộng $7{,}32$ m (khoảng cách giữa mép trong của hai cột dọc, theo Luật 1 trong Luật bóng đá của IFAB). Một tiền đạo đứng ở điểm $M$ "nhìn" hai cột dọc $A$, $B$ dưới góc $\widehat{AMB}$, gọi là góc sút: góc càng lớn, khung thành càng "rộng" trong mắt cầu thủ.
 
-Vậy có những vị trí *khác nhau* mà góc sút *bằng nhau* không? Chúng nằm trên đường nào? Câu trả lời rất đẹp: chúng nằm trên một cung tròn đi qua hai cột dọc. Để hiểu vì sao, ta cần một loại góc mới: góc nội tiếp.
+Vậy có những vị trí *khác nhau* mà góc sút lại *bằng nhau* không? Nếu có, chúng nằm trên đường nào? Câu trả lời khá bất ngờ: chúng nằm trên một cung tròn đi qua hai cột dọc. Muốn hiểu vì sao, ta cần làm quen với một loại góc mới, gọi là góc nội tiếp.
 
 ## Góc nội tiếp là gì?
 
-Ở bài [Cung và dây](lesson:arcs-and-chords), góc ở tâm có đỉnh tại tâm $O$. Bây giờ ta dời đỉnh của góc lên chính đường tròn.
+Ở bài [Cung và dây](lesson:arcs-and-chords), góc ở tâm có đỉnh tại tâm $O$. Bây giờ ta thử dời đỉnh của góc ra khỏi tâm và đặt nó lên chính đường tròn.
 
 :::definition Góc nội tiếp
 **Góc nội tiếp** là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó. Cung nằm bên trong góc gọi là **cung bị chắn**.
@@ -45,7 +45,7 @@ angle A O B "100°"
 
 ### Khám phá: đo rồi so sánh
 
-Trên hình, cung nhỏ $AB$ có số đo $100^\circ$ (bằng góc ở tâm). Đo bằng thước đo góc, ta được $\widehat{AMB}=50^\circ$; dời $M$ trên cung lớn rồi đo lại, vẫn được $50^\circ$. Góc nội tiếp dường như luôn bằng **một nửa** cung bị chắn.
+Trên hình, cung nhỏ $AB$ có số đo $100^\circ$ (bằng góc ở tâm). Đo bằng thước đo góc, ta được $\widehat{AMB}=50^\circ$. Dời $M$ đi chỗ khác trên cung lớn rồi đo lại, ta vẫn được $50^\circ$. Có vẻ như góc nội tiếp luôn bằng **một nửa** cung bị chắn, dù đỉnh nằm ở đâu trên cung.
 
 :::theorem Định lí góc nội tiếp
 Trong một đường tròn, số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.
@@ -57,7 +57,7 @@ $$\widehat{AOB}=\widehat{OMA}+\widehat{OAM}=2\widehat{AMB}.$$
 
 Mà $\widehat{AOB}$ bằng số đo cung $AB$, nên $\widehat{AMB}$ bằng nửa số đo cung đó. Khi $O$ nằm trong hoặc ngoài góc, ta kẻ đường kính $MD$ rồi cộng hoặc trừ hai trường hợp như trên.
 
-Trở lại câu hỏi về góc sút.
+Giờ ta quay lại câu hỏi về góc sút. Định lí vừa học cho ta câu trả lời ngay.
 
 :::example Vận dụng: những vị trí có cùng góc sút
 Khung thành có hai cột dọc $A$, $B$ với $AB=7{,}32$ m. Giả sử vẽ trên mặt sân một đường tròn tâm $O$ đi qua $A$, $B$ sao cho $\widehat{AOB}=60^\circ$. Tính góc sút $\widehat{AMB}$ của một cầu thủ đứng tại điểm $M$ bất kì trên cung lớn $AB$, và tính bán kính của đường tròn.
@@ -100,7 +100,7 @@ angle A M2 B "30°"
 
 ## Các hệ quả của định lí
 
-Định lí cho ta ba hệ quả rất hay dùng.
+Từ định lí, ta suy ra ba hệ quả. Bạn sẽ dùng chúng rất thường xuyên khi giải bài về đường tròn.
 
 :::theorem Hệ quả
 Trong một đường tròn:
@@ -109,7 +109,7 @@ Trong một đường tròn:
 - Góc nội tiếp chắn nửa đường tròn là góc vuông.
 :::
 
-Đảo lại, góc nội tiếp vuông thì chắn cung $180^\circ$, tức là hai cạnh của nó đi qua hai đầu một đường kính.
+Điều ngược lại cũng đúng: góc nội tiếp vuông thì chắn cung $180^\circ$, tức là hai cạnh của nó đi qua hai đầu một đường kính. Nhờ vậy, hễ thấy một góc vuông có đỉnh trên đường tròn, bạn biết ngay đâu là đường kính.
 
 :::example Vận dụng: tìm tâm mặt bàn tròn
 Để tìm tâm một mặt bàn tròn, bác thợ mộc đặt đỉnh góc vuông của ê ke tại điểm $C$ trên mép bàn, hai cạnh ê ke cắt mép tại $A$, $B$, rồi kẻ $AB$. Làm lại tại một điểm khác, được $A'B'$. Giải thích vì sao giao điểm của $AB$ và $A'B'$ là tâm mặt bàn.
@@ -121,7 +121,7 @@ Tương tự, $A'B'$ cũng là một đường kính và đi qua tâm.
 Vậy hai đường kính $AB$, $A'B'$ cắt nhau tại tâm của mặt bàn.
 :::
 
-Các góc nội tiếp cùng chắn một cung cho ta những cặp góc bằng nhau, từ đó có tam giác đồng dạng (lớp 8).
+Các góc nội tiếp cùng chắn một cung cho ta những cặp góc bằng nhau. Có hai cặp góc bằng nhau là ta nghĩ ngay đến tam giác đồng dạng (lớp 8).
 
 :::example Hai dây cắt nhau
 Hai dây $AB$ và $CD$ của đường tròn $(O)$ cắt nhau tại $I$ nằm bên trong đường tròn. Chứng minh rằng $IA\cdot IB=IC\cdot ID$.
@@ -142,6 +142,8 @@ Vậy $IA\cdot IB=IC\cdot ID$.
 :::warning Những sai lầm thường gặp
 - **Lấy góc nội tiếp bằng góc ở tâm.** Sai: "$\widehat{AOB}=110^\circ$ nên $\widehat{ACB}=110^\circ$". Lí do sai: góc nội tiếp chỉ bằng **nửa** cung bị chắn. Đúng: $\widehat{ACB}=55^\circ$.
 - **Chọn nhầm cung bị chắn.** Sai: "$\widehat{AOB}=110^\circ$, $D$ thuộc cung nhỏ $AB$, nên $\widehat{ADB}=55^\circ$". Lí do sai: góc $\widehat{ADB}$ chắn cung **lớn** $AB$ (cung không chứa $D$) có số đo $250^\circ$. Đúng: $\widehat{ADB}=125^\circ$.
+
+Chỗ thứ hai nhiều bạn hay nhầm. Trước khi tính, bạn tô đậm cung nằm bên trong góc: đó mới là cung bị chắn.
 :::
 
 **Kết nối.** Bài này dựa trên góc ở tâm ([Cung và dây](lesson:arcs-and-chords)), góc ngoài của tam giác (lớp 7) và tam giác đồng dạng (lớp 8). Nó dẫn tới [đường tròn ngoại tiếp tam giác vuông](lesson:circumcircle-incircle) và [tứ giác nội tiếp](lesson:cyclic-quadrilaterals), dạng bài có trong hầu hết đề thi vào lớp 10.
@@ -166,9 +168,11 @@ Vậy $IA\cdot IB=IC\cdot ID$.
 - Góc nội tiếp $\leq 90^\circ$ bằng nửa góc ở tâm cùng chắn một cung.
 - Chắn nửa đường tròn thì là góc vuông; góc nội tiếp vuông thì chắn đường kính.
 
+Quay lại sân bóng: mọi vị trí nhìn hai cột dọc dưới cùng một góc đều nằm trên một cung tròn đi qua hai cột, vì các góc nội tiếp cùng chắn một cung thì bằng nhau. Nếu chỉ nhớ một điều, bạn hãy nhớ: góc nội tiếp bằng nửa cung bị chắn.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Cho các điểm $A$, $B$, $C$, $D$ thuộc đường tròn $(O)$ với $\widehat{AOB}=130^\circ$, $C$ thuộc cung lớn $AB$ và $D$ thuộc cung nhỏ $AB$.

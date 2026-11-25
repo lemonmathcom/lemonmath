@@ -10,9 +10,9 @@ minutes: 20
 - Chứng minh một số bất đẳng thức đơn giản.
 :::
 
-Bạn An cao hơn bạn Bình. Một năm sau, cả hai đều cao thêm $5$ cm. An có còn cao hơn Bình không? Chắc chắn có. Nhưng nếu biết $a>b$ thì $-2a$ và $-2b$, số nào lớn hơn? Câu trả lời làm nhiều bạn bất ngờ.
+Bạn An cao hơn bạn Bình. Một năm sau, cả hai đều cao thêm $5$ cm. An có còn cao hơn Bình không? Chắc chắn là có. Nhưng nếu chỉ biết $a>b$ thì giữa $-2a$ và $-2b$, số nào lớn hơn? Nhiều bạn trả lời ngay theo cảm giác, và câu trả lời ấy thường sai.
 
-Bài này giúp ta trả lời những câu hỏi như vậy một cách chắc chắn, không cần đoán.
+Đoán theo cảm giác thì dễ nhầm. Ta cần vài quy tắc chắc chắn: cộng, trừ, nhân, chia hai vế của một bất đẳng thức thì chiều của nó thay đổi ra sao. Nắm được chúng, bạn trả lời câu hỏi trên mà không phải đoán.
 
 ## Bất đẳng thức
 
@@ -41,7 +41,7 @@ Trên trục số, $a<b$ nghĩa là điểm $a$ nằm bên trái điểm $b$. N�
 
 ### Khám phá: dịch chuyển trên trục số
 
-Ta có $2<3$. Cộng $4$ vào hai vế: $6<7$. Cộng $-5$: $-3<-2$. Cộng một số vào hai vế giống như dịch cả hai điểm đi cùng một đoạn trên trục số, nên thứ tự không đổi.
+Ta có $2<3$. Cộng $4$ vào hai vế, được $6<7$. Cộng $-5$, được $-3<-2$. Thứ tự vẫn giữ nguyên. Vì sao? Cộng cùng một số vào hai vế giống như dịch cả hai điểm đi cùng một đoạn trên trục số: điểm nào đang ở bên trái thì vẫn ở bên trái.
 
 :::theorem Liên hệ giữa thứ tự và phép cộng
 Với mọi số $a$, $b$, $c$: nếu $a<b$ thì $a+c<b+c$.
@@ -63,7 +63,7 @@ Vì $2025>2024$ nên $2025+(-7)>2024+(-7)$, không cần tính.
 
 ### Khám phá: nhân với số âm
 
-Ta có $2<3$. Nhân hai vế với $4$: $8<12$, chiều giữ nguyên. Nhân hai vế với $-1$: $-2$ và $-3$, mà $-2>-3$, chiều bị **đổi**. Trên trục số, nhân với $-1$ là lấy đối xứng qua điểm $0$, nên điểm ở bên trái trở thành điểm ở bên phải.
+Ta lại có $2<3$. Nhân hai vế với $4$, được $8<12$: chiều giữ nguyên. Nhưng nhân hai vế với $-1$, ta được $-2$ và $-3$, mà $-2>-3$: chiều bị **đổi**. Lí do nằm ở trục số: nhân với $-1$ là lấy đối xứng qua điểm $0$, nên điểm đang ở bên trái chuyển sang bên phải.
 
 :::graph Nhân với $-1$ làm đổi thứ tự
 alt: Trục số có các điểm 2 và 3 bên phải số 0, và các điểm −2, −3 đối xứng với chúng bên trái số 0
@@ -83,7 +83,7 @@ Cho $a<b$.
 - Nếu $c<0$ thì $ac>bc$ (**đổi chiều**).
 :::
 
-Phép chia cho $c\neq0$ là nhân với $\dfrac1c$, nên cũng theo quy tắc này.
+Chia cho $c\neq0$ chính là nhân với $\dfrac1c$, nên phép chia cũng theo đúng quy tắc này: chia cho số dương thì giữ chiều, chia cho số âm thì đổi chiều.
 
 :::example Nhân với số âm
 Cho $a<b$. So sánh: a) $3a$ và $3b$; b) $-4a$ và $-4b$; c) $5-2a$ và $5-2b$.
@@ -95,7 +95,7 @@ $$\text{a) } 3a<3b;\qquad \text{b) } -4a>-4b;\qquad \text{c) } -2a>-2b\Rightarro
 Vậy $3a<3b$, $-4a>-4b$ và $5-2a>5-2b$.
 :::
 
-Kết hợp các tính chất, ta chứng minh được nhiều bất đẳng thức.
+Ghép các tính chất trên lại với nhau, ta chứng minh được nhiều bất đẳng thức. Ví dụ sau cho thấy cách làm.
 
 :::example Dùng tính chất bắc cầu
 Cho $a>b$. Chứng minh $3a+1>3b-2$.
@@ -107,7 +107,7 @@ $$a>b\Rightarrow 3a>3b\Rightarrow 3a+1>3b+1;\qquad 3b+1>3b-2\ (\text{vì } 1>-2)
 Theo tính chất bắc cầu, $3a+1>3b-2$.
 :::
 
-Để chứng minh một bất đẳng thức có chữ, ta thường dùng sự thật đơn giản: **bình phương của mọi số đều không âm**.
+Muốn chứng minh một bất đẳng thức có chữ, ta thường dựa vào một sự thật rất đơn giản: **bình phương của mọi số đều không âm**. Việc của ta là biến đổi sao cho một vế trở thành một bình phương.
 
 :::example Một bất đẳng thức quan trọng
 Chứng minh rằng với mọi số $a$, $b$ ta có $a^2+b^2\ge2ab$. Khi nào xảy ra dấu bằng?
@@ -123,6 +123,8 @@ Vậy $a^2+b^2\ge2ab$ với mọi $a$, $b$; dấu bằng xảy ra khi $a-b=0$, t
 - **Quên đổi chiều khi nhân với số âm.** Sai: $a<b\Rightarrow -3a<-3b$. Lí do sai: nhân với $-3<0$ phải đổi chiều. Đúng: $-3a>-3b$.
 - **Bình phương hai vế.** Sai: $a<b\Rightarrow a^2<b^2$. Lí do sai: $-3<1$ nhưng $9>1$. Đúng: chỉ được bình phương khi biết hai vế không âm (xem bài tập 8).
 - **Trừ từng vế hai bất đẳng thức.** Sai: $5>1$ và $4>0$ nên $5-4>1-0$. Lí do sai: $1>1$ là sai. Đúng: chỉ cộng (hoặc trừ) **cùng một số** vào hai vế.
+
+Lỗi đầu tiên là chỗ nhiều bạn hay nhầm nhất. Mỗi lần nhân hay chia hai vế cho một số, bạn dừng lại một giây và tự hỏi: số này âm hay dương?
 :::
 
 ## Thuật ngữ
@@ -146,9 +148,11 @@ Vậy $a^2+b^2\ge2ab$ với mọi $a$, $b$; dấu bằng xảy ra khi $a-b=0$, t
 - Nhân (chia) cùng một số dương: giữ chiều; số âm: **đổi chiều**.
 - Chứng minh: đưa về $(\dots)^2\ge0$.
 
+Quay lại câu hỏi đầu bài: nhân hai vế với một số âm thì bất đẳng thức đổi chiều, nên câu trả lời ngược với điều nhiều bạn đoán. Nếu chỉ nhớ một điều, bạn hãy nhớ: nhân hay chia với số âm thì đổi chiều.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Viết bất đẳng thức để mô tả mỗi tình huống sau:

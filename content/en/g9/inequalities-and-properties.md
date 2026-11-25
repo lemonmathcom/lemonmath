@@ -10,9 +10,9 @@ minutes: 20
 - Prove some simple inequalities.
 :::
 
-An is taller than Bình. A year later both have grown by $5$ cm. Is An still taller than Bình? Certainly. But if we know $a>b$, which is larger, $-2a$ or $-2b$? The answer surprises many students.
+An is taller than Bình. A year later both have grown by $5$ cm. Is An still taller than Bình? Certainly. But if all we know is $a>b$, which is larger, $-2a$ or $-2b$? Many students answer at once by feel, and that answer is usually wrong.
 
-This lesson helps us answer questions like these with certainty, without guessing.
+Guessing by feel is easy to get wrong. We need a few sure rules: what happens to the direction of an inequality when we add, subtract, multiply or divide both sides. Once you know them, you can answer the question above without guessing.
 
 ## Inequalities
 
@@ -41,7 +41,7 @@ On a number line, $a<b$ means that the point $a$ is to the left of the point $b$
 
 ### Explore: sliding along the number line
 
-We have $2<3$. Add $4$ to both sides: $6<7$. Add $-5$: $-3<-2$. Adding a number to both sides slides both points the same distance along the number line, so the order does not change.
+We have $2<3$. Add $4$ to both sides and we get $6<7$. Add $-5$ and we get $-3<-2$. The order stays the same. Why? Adding the same number to both sides slides both points the same distance along the number line: whichever point was on the left is still on the left.
 
 :::theorem Order and addition
 For all numbers $a$, $b$, $c$: if $a<b$, then $a+c<b+c$.
@@ -63,7 +63,7 @@ Since $2025>2024$, we get $2025+(-7)>2024+(-7)$ without any calculation.
 
 ### Explore: multiplying by a negative number
 
-We have $2<3$. Multiplying both sides by $4$ gives $8<12$: the direction stays the same. Multiplying both sides by $-1$ gives $-2$ and $-3$, and $-2>-3$: the direction is **reversed**. On a number line, multiplying by $-1$ reflects every point in $0$, so the point on the left ends up on the right.
+Again we have $2<3$. Multiplying both sides by $4$ gives $8<12$: the direction stays the same. But multiplying both sides by $-1$ gives $-2$ and $-3$, and $-2>-3$: the direction is **reversed**. The number line shows why: multiplying by $-1$ reflects every point in $0$, so the point on the left ends up on the right.
 
 :::graph Multiplying by $-1$ reverses the order
 alt: A number line with the points 2 and 3 to the right of 0, and their reflections −2 and −3 to the left of 0
@@ -83,7 +83,7 @@ Suppose $a<b$.
 - If $c<0$, then $ac>bc$ (the inequality is **reversed**).
 :::
 
-Dividing by $c\neq0$ is multiplying by $\dfrac1c$, so the same rule applies.
+Dividing by $c\neq0$ is multiplying by $\dfrac1c$, so division follows exactly the same rule: dividing by a positive number keeps the direction, dividing by a negative number reverses it.
 
 :::example Multiplying by a negative number
 Suppose $a<b$. Compare: a) $3a$ and $3b$; b) $-4a$ and $-4b$; c) $5-2a$ and $5-2b$.
@@ -95,7 +95,7 @@ $$\text{a) } 3a<3b;\qquad \text{b) } -4a>-4b;\qquad \text{c) } -2a>-2b\Rightarro
 So $3a<3b$, $-4a>-4b$ and $5-2a>5-2b$.
 :::
 
-Putting the properties together, we can prove many inequalities.
+Putting these properties together, we can prove many inequalities. The next example shows how.
 
 :::example Using the transitive property
 Suppose $a>b$. Prove that $3a+1>3b-2$.
@@ -107,7 +107,7 @@ $$a>b\Rightarrow 3a>3b\Rightarrow 3a+1>3b+1;\qquad 3b+1>3b-2\ (\text{since } 1>-
 By the transitive property, $3a+1>3b-2$.
 :::
 
-To prove an inequality with letters, we often use a simple fact: **the square of any number is non-negative**.
+To prove an inequality with letters, we often rely on a very simple fact: **the square of any number is non-negative**. Our job is to rearrange things so that one side becomes a square.
 
 :::example An important inequality
 Prove that $a^2+b^2\ge2ab$ for all numbers $a$, $b$. When does equality hold?
@@ -123,6 +123,8 @@ So $a^2+b^2\ge2ab$ for all $a$, $b$; equality holds when $a-b=0$, that is $a=b$.
 - **Forgetting to reverse when multiplying by a negative number.** Wrong: $a<b\Rightarrow -3a<-3b$. Why it is wrong: multiplying by $-3<0$ reverses the sign. Right: $-3a>-3b$.
 - **Squaring both sides.** Wrong: $a<b\Rightarrow a^2<b^2$. Why it is wrong: $-3<1$ but $9>1$. Right: you may only square when both sides are known to be non-negative (see exercise 8).
 - **Subtracting one inequality from another.** Wrong: $5>1$ and $4>0$, so $5-4>1-0$. Why it is wrong: $1>1$ is false. Right: only add (or subtract) **the same number** on both sides.
+
+The first one is where most people slip. Each time you multiply or divide both sides by a number, pause for a second and ask: is this number negative or positive?
 :::
 
 ## Key terms
@@ -146,9 +148,11 @@ So $a^2+b^2\ge2ab$ for all $a$, $b$; equality holds when $a-b=0$, that is $a=b$.
 - Multiplying (dividing) by a positive number: keep the direction; by a negative number: **reverse** it.
 - Proofs: reduce to $(\dots)^2\ge0$.
 
+Back to the question at the start: multiplying both sides by a negative number reverses the inequality, so the answer is the opposite of what many people guess. If you remember one thing, remember this: multiply or divide by a negative number and the direction flips.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Write an inequality to describe each of the following situations:

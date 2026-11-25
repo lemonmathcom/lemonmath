@@ -12,19 +12,19 @@ minutes: 20
 
 Thầy thể dục buộc sợi dây dài $5$ m vào gốc cây giữa sân, đầu kia buộc viên phấn, kéo căng dây và đi một vòng để vẽ vạch. Từ gốc cây, An đi $3$ m về phía đông rồi $4$ m về phía bắc; Bình đi $4$ m đông, $4$ m bắc; Chi đi $2$ m tây, $4$ m nam.
 
-Bạn nào đứng đúng trên vạch, bạn nào trong vòng, bạn nào ngoài vòng?
+Bạn nào đứng đúng trên vạch, bạn nào ở trong vòng, bạn nào ở ngoài vòng? Bạn thử đoán trước, rồi ta cùng tính để kiểm tra.
 
 ## Đường tròn
 
 ### Khám phá: những điểm cách gốc cây đúng $5$ m
 
-Viên phấn luôn cách gốc cây $O$ đúng $5$ m. Hai hướng đông và bắc vuông góc, nên ta tính khoảng cách theo định lí Pythagore:
+Viên phấn lúc nào cũng cách gốc cây $O$ đúng $5$ m, vì sợi dây luôn được kéo căng. Muốn biết mỗi bạn cách gốc cây bao xa, ta để ý rằng hướng đông và hướng bắc vuông góc với nhau, nên khoảng cách tính được bằng định lí Pythagore:
 
 | Bạn | An | Bình | Chi |
 |---|---|---|---|
 | Khoảng cách đến $O$ | $\sqrt{3^2+4^2}=5$ m | $\sqrt{4^2+4^2}=\sqrt{32}$ m | $\sqrt{2^2+4^2}=\sqrt{20}$ m |
 
-An cách $O$ đúng $5$ m nên đứng trên vạch. Vạch gồm mọi điểm cách $O$ đúng $5$ m: đó là một đường tròn.
+An cách $O$ đúng $5$ m nên An đứng trên vạch. Bạn để ý: vạch phấn gồm mọi điểm cách $O$ đúng $5$ m, không hơn, không kém. Hình như vậy gọi là một đường tròn.
 
 :::definition Đường tròn
 Đường tròn tâm $O$ bán kính $R$ ($R>0$) là hình gồm tất cả các điểm cách điểm $O$ một khoảng bằng $R$. Kí hiệu: $(O; R)$, hoặc $(O)$ khi không cần nói rõ bán kính.
@@ -34,7 +34,7 @@ An cách $O$ đúng $5$ m nên đứng trên vạch. Vạch gồm mọi điểm 
 
 ## Vị trí của một điểm đối với đường tròn
 
-Ta so sánh khoảng cách từ điểm đến tâm với bán kính.
+Muốn biết một điểm nằm ở đâu so với đường tròn, ta chỉ cần so sánh khoảng cách từ điểm đó đến tâm với bán kính.
 
 :::theorem Vị trí của điểm $M$ đối với đường tròn $(O; R)$
 - $M$ nằm trên đường tròn khi và chỉ khi $OM=R$.
@@ -56,7 +56,7 @@ segment O P dashed
 
 Trở lại câu hỏi đầu bài: $OB=\sqrt{32}\approx5{,}66>5$ và $OC=\sqrt{20}\approx4{,}47<5$, nên Bình đứng ngoài vòng, Chi đứng trong vòng.
 
-Để chứng minh nhiều điểm cùng nằm trên một đường tròn, ta chỉ ra một điểm cách đều tất cả các điểm đó.
+Muốn chứng minh nhiều điểm cùng nằm trên một đường tròn, ta chỉ ra một điểm cách đều tất cả các điểm đó. Điểm ấy chính là tâm, còn khoảng cách chung là bán kính.
 
 :::example Bốn đỉnh của hình chữ nhật
 Cho hình chữ nhật $ABCD$ có $AB=8$ cm, $BC=6$ cm, $O$ là giao điểm của hai đường chéo. Chứng minh rằng $A$, $B$, $C$, $D$ cùng nằm trên một đường tròn. Tính bán kính của đường tròn đó.
@@ -84,7 +84,7 @@ Vậy $MA=12$ cm.
 
 ## Tính đối xứng của đường tròn
 
-Gấp đôi một tấm bìa tròn theo nếp đi qua tâm, hai nửa trùng khít nhau.
+Bạn thử gấp đôi một tấm bìa tròn theo nếp đi qua tâm: hai nửa trùng khít lên nhau. Gấp theo nếp nào đi qua tâm cũng vậy.
 
 :::theorem Tâm đối xứng và trục đối xứng
 - Đường tròn có tâm đối xứng là tâm của nó.
@@ -104,6 +104,8 @@ Vậy giao điểm của hai nếp gấp là tâm của đĩa.
 :::warning Những sai lầm thường gặp
 - **Nhầm bán kính với đường kính.** Sai: "Đường tròn đường kính $10$ cm có $R=10$ cm". Lí do sai: đường kính bằng $2R$. Đúng: $R=5$ cm.
 - **Kết luận theo hình vẽ.** Sai: "Trên hình $M$ sát đường tròn nên $M$ thuộc đường tròn". Lí do sai: hình vẽ không chính xác. Đúng: tính $OM$, so sánh với $R$.
+
+Lỗi thứ hai rất dễ mắc vì mắt ta hay tin vào hình. Khi cần kết luận, bạn luôn tính khoảng cách rồi mới so sánh.
 :::
 
 ## Thuật ngữ
@@ -123,9 +125,11 @@ Vậy giao điểm của hai nếp gấp là tâm của đĩa.
 - $M$ nằm trên, trong, ngoài $(O; R)$ khi $OM=R$, $OM<R$, $OM>R$.
 - Tâm là tâm đối xứng; mỗi đường thẳng qua tâm là một trục đối xứng.
 
+Quay lại sân trường: An đứng trên vạch, Bình ở ngoài vòng, Chi ở trong vòng. Ta biết được điều đó chỉ bằng cách so sánh khoảng cách đến gốc cây với độ dài sợi dây.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Cho đường tròn $(O; 4\text{ cm})$ và ba điểm $A$, $B$, $C$ với $OA=3$ cm, $OB=4$ cm, $OC=4{,}5$ cm. Mỗi điểm nằm trong, nằm trên hay nằm ngoài đường tròn?
