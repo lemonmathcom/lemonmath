@@ -143,9 +143,17 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Cộng thêm tử số, giữ nguyên mẫu số.
 
 ::solution
-a) $2\dfrac{1}{5}=\dfrac{2\times5+1}{5}=\dfrac{11}{5}$.
+Muốn đổi hỗn số thành phân số, ta lấy phần nguyên nhân với mẫu số rồi cộng với tử số của phần phân số; kết quả là tử số mới, mẫu số giữ nguyên.
 
-b) $6\dfrac{3}{4}=\dfrac{6\times4+3}{4}=\dfrac{27}{4}$.
+a) Với $2\dfrac{1}{5}$: phần nguyên là $2$, tử số là $1$, mẫu số là $5$. Ta có
+$$2\frac{1}{5}=\frac{2\times5+1}{5}=\frac{10+1}{5}=\frac{11}{5}.$$
+
+b) Với $6\dfrac{3}{4}$: phần nguyên là $6$, tử số là $3$, mẫu số là $4$. Ta có
+$$6\frac{3}{4}=\frac{6\times4+3}{4}=\frac{24+3}{4}=\frac{27}{4}.$$
+
+Thử lại: $11:5=2$ (dư $1$) và $27:4=6$ (dư $3$), đúng với hai hỗn số ban đầu.
+
+Vậy $2\dfrac{1}{5}=\dfrac{11}{5}$ và $6\dfrac{3}{4}=\dfrac{27}{4}$.
 
 **Đáp số.** a) $\dfrac{11}{5}$; b) $\dfrac{27}{4}$.
 :::
@@ -161,9 +169,17 @@ b) $6\dfrac{3}{4}=\dfrac{6\times4+3}{4}=\dfrac{27}{4}$.
 2. Viết hỗn số, giữ nguyên mẫu số.
 
 ::solution
-a) $7:2=3$ (dư $1$), nên $\dfrac{7}{2}=3\dfrac{1}{2}$.
+Muốn đổi phân số (tử số lớn hơn mẫu số) thành hỗn số, ta chia tử số cho mẫu số: thương là phần nguyên, số dư là tử số của phần phân số, mẫu số giữ nguyên.
 
-b) $29:8=3$ (dư $5$), nên $\dfrac{29}{8}=3\dfrac{5}{8}$.
+a) Ta có $7:2=3$ (dư $1$). Phần nguyên là $3$, phần phân số là $\dfrac{1}{2}$, nên
+$$\frac{7}{2}=3\frac{1}{2}.$$
+
+b) Ta có $29:8=3$ (dư $5$), vì $3\times8=24$ và $29-24=5$. Phần nguyên là $3$, phần phân số là $\dfrac{5}{8}$, nên
+$$\frac{29}{8}=3\frac{5}{8}.$$
+
+Thử lại: $3\times2+1=7$ và $3\times8+5=29$.
+
+Vậy $\dfrac{7}{2}=3\dfrac{1}{2}$ và $\dfrac{29}{8}=3\dfrac{5}{8}$.
 
 **Đáp số.** a) $3\dfrac{1}{2}$; b) $3\dfrac{5}{8}$.
 :::
@@ -179,7 +195,14 @@ So sánh: $3\dfrac{2}{3}$ và $3\dfrac{5}{8}$.
 2. Quy đồng mẫu số hai phần phân số rồi so sánh.
 
 ::solution
-Hai hỗn số có cùng phần nguyên là $3$. Quy đồng: $\dfrac{2}{3}=\dfrac{16}{24}$ và $\dfrac{5}{8}=\dfrac{15}{24}$. Vì $16>15$ nên $\dfrac{2}{3}>\dfrac{5}{8}$.
+Hai hỗn số có cùng phần nguyên là $3$, nên ta chỉ cần so sánh hai phần phân số $\dfrac{2}{3}$ và $\dfrac{5}{8}$.
+
+Quy đồng mẫu số với mẫu số chung $24$ (vì $3\times8=24$):
+$$\frac{2}{3}=\frac{2\times8}{3\times8}=\frac{16}{24};\qquad \frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+Hai phân số cùng mẫu số, phân số nào có tử số lớn hơn thì lớn hơn. Vì $16>15$ nên $\dfrac{16}{24}>\dfrac{15}{24}$, tức là $\dfrac{2}{3}>\dfrac{5}{8}$.
+
+Vậy $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 
 **Đáp số.** $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 :::
@@ -195,7 +218,19 @@ Tính: $2\dfrac{1}{3}+1\dfrac{1}{6}$.
 2. Quy đồng rồi cộng hai phần phân số, rút gọn kết quả.
 
 ::solution
-$$2\dfrac{1}{3}+1\dfrac{1}{6}=3+\left(\dfrac{2}{6}+\dfrac{1}{6}\right)=3+\dfrac{3}{6}=3\dfrac{1}{2}.$$
+Ta cộng các phần nguyên với nhau và cộng các phần phân số với nhau.
+
+Cộng phần nguyên: $2+1=3$.
+
+Cộng phần phân số: mẫu số $6$ chia hết cho $3$, nên ta đổi $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$. Khi đó
+$$\frac{1}{3}+\frac{1}{6}=\frac{2}{6}+\frac{1}{6}=\frac{3}{6}=\frac{1}{2}.$$
+
+Do đó
+$$2\frac{1}{3}+1\frac{1}{6}=3+\frac{1}{2}=3\frac{1}{2}.$$
+
+Thử lại bằng cách đổi ra phân số: $\dfrac{7}{3}+\dfrac{7}{6}=\dfrac{14}{6}+\dfrac{7}{6}=\dfrac{21}{6}=\dfrac{7}{2}=3\dfrac{1}{2}$.
+
+Vậy $2\dfrac{1}{3}+1\dfrac{1}{6}=3\dfrac{1}{2}$.
 
 **Đáp số.** $3\dfrac{1}{2}$.
 :::
@@ -211,7 +246,19 @@ Tính: $4\dfrac{1}{2}-1\dfrac{3}{4}$.
 2. Quy đồng, trừ, rồi đổi kết quả thành hỗn số.
 
 ::solution
-$$4\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{9}{2}-\dfrac{7}{4}=\dfrac{18}{4}-\dfrac{7}{4}=\dfrac{11}{4}=2\dfrac{3}{4}.$$
+Phần phân số của số bị trừ là $\dfrac{1}{2}=\dfrac{2}{4}$, bé hơn $\dfrac{3}{4}$, nên ta đổi cả hai hỗn số ra phân số rồi trừ.
+
+Đổi ra phân số:
+$$4\frac{1}{2}=\frac{4\times2+1}{2}=\frac{9}{2};\qquad 1\frac{3}{4}=\frac{1\times4+3}{4}=\frac{7}{4}.$$
+
+Quy đồng mẫu số rồi trừ:
+$$\frac{9}{2}-\frac{7}{4}=\frac{18}{4}-\frac{7}{4}=\frac{11}{4}.$$
+
+Đổi kết quả ra hỗn số: $11:4=2$ (dư $3$), nên $\dfrac{11}{4}=2\dfrac{3}{4}$.
+
+Thử lại: $2\dfrac{3}{4}+1\dfrac{3}{4}=3+\dfrac{6}{4}=3+1\dfrac{2}{4}=4\dfrac{1}{2}$.
+
+Vậy $4\dfrac{1}{2}-1\dfrac{3}{4}=2\dfrac{3}{4}$.
 
 **Đáp số.** $2\dfrac{3}{4}$.
 :::
@@ -227,8 +274,14 @@ Sáng nay Nam chạy bộ $1\dfrac{1}{2}$ km, chiều chạy thêm $2\dfrac{1}{4
 2. Cộng hai hỗn số. Thử lại: tổng phải lớn hơn mỗi số hạng.
 
 ::solution
-Cả ngày Nam chạy bộ được:
-$$1\dfrac{1}{2}+2\dfrac{1}{4}=3+\left(\dfrac{2}{4}+\dfrac{1}{4}\right)=3\dfrac{3}{4}\ \text{(km)}.$$
+Bài giải
+
+Muốn biết cả ngày Nam chạy bao nhiêu ki-lô-mét, ta cộng quãng đường buổi sáng với quãng đường buổi chiều. Ta cộng phần nguyên: $1+2=3$; cộng phần phân số: $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{2}{4}+\dfrac{1}{4}=\dfrac{3}{4}$.
+
+Cả ngày Nam chạy bộ được số ki-lô-mét là:
+$$1\frac{1}{2}+2\frac{1}{4}=3+\left(\frac{2}{4}+\frac{1}{4}\right)=3\frac{3}{4}\ \text{(km)}.$$
+
+Vậy cả ngày Nam chạy bộ được $3\dfrac{3}{4}$ km.
 
 **Đáp số.** $3\dfrac{3}{4}$ km.
 :::
@@ -244,8 +297,16 @@ Giả sử nhà bác Lan có $3\dfrac{1}{2}$ kg gạo. Bác dùng $1\dfrac{3}{4}
 2. Đổi ra phân số, trừ, rồi viết kết quả thành hỗn số. Nhớ ghi đơn vị.
 
 ::solution
+Bài giải
+
+Muốn biết còn lại bao nhiêu gạo, ta lấy số gạo có trừ đi số gạo đã dùng. Phần phân số $\dfrac{1}{2}=\dfrac{2}{4}$ bé hơn $\dfrac{3}{4}$, nên ta đổi hai hỗn số ra phân số: $3\dfrac{1}{2}=\dfrac{7}{2}$ và $1\dfrac{3}{4}=\dfrac{7}{4}$.
+
 Số ki-lô-gam gạo còn lại là:
-$$3\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{7}{2}-\dfrac{7}{4}=\dfrac{14}{4}-\dfrac{7}{4}=\dfrac{7}{4}=1\dfrac{3}{4}\ \text{(kg)}.$$
+$$3\frac{1}{2}-1\frac{3}{4}=\frac{7}{2}-\frac{7}{4}=\frac{14}{4}-\frac{7}{4}=\frac{7}{4}=1\frac{3}{4}\ \text{(kg)}.$$
+
+Thử lại: $1\dfrac{3}{4}+1\dfrac{3}{4}=2+\dfrac{6}{4}=3\dfrac{2}{4}=3\dfrac{1}{2}$ (kg), đúng bằng số gạo lúc đầu.
+
+Vậy nhà bác Lan còn $1\dfrac{3}{4}$ kg gạo.
 
 **Đáp số.** $1\dfrac{3}{4}$ kg.
 :::
@@ -261,9 +322,17 @@ Em hãy nhớ lại bài về chu vi hình chữ nhật. Một mảnh vườn h�
 2. Nhân tổng đó với $2$, rồi viết kết quả thành hỗn số.
 
 ::solution
-Nửa chu vi là $2\dfrac{1}{2}+1\dfrac{1}{4}=\dfrac{10}{4}+\dfrac{5}{4}=\dfrac{15}{4}$ (m).
+Bài giải
 
-Chu vi mảnh vườn là $\dfrac{15}{4}\times2=\dfrac{15}{2}=7\dfrac{1}{2}$ (m).
+Chu vi hình chữ nhật bằng tổng chiều dài và chiều rộng (nửa chu vi) nhân với $2$. Ta đổi hai hỗn số ra phân số có cùng mẫu số $4$: $2\dfrac{1}{2}=\dfrac{5}{2}=\dfrac{10}{4}$ và $1\dfrac{1}{4}=\dfrac{5}{4}$.
+
+Nửa chu vi mảnh vườn là:
+$$2\frac{1}{2}+1\frac{1}{4}=\frac{10}{4}+\frac{5}{4}=\frac{15}{4}\ \text{(m)}.$$
+
+Chu vi mảnh vườn là:
+$$\frac{15}{4}\times2=\frac{30}{4}=\frac{15}{2}=7\frac{1}{2}\ \text{(m)}.$$
+
+Vậy chu vi mảnh vườn là $7\dfrac{1}{2}$ m.
 
 **Đáp số.** $7\dfrac{1}{2}$ m.
 :::
@@ -279,8 +348,18 @@ Tính nhanh: $1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}$.
 2. Có bao nhiêu phần $\dfrac{1}{2}$? Hai phần $\dfrac{1}{2}$ làm thành số nào?
 
 ::solution
-Tổng các phần nguyên là $1+2+3+4=10$. Bốn phần $\dfrac{1}{2}$ có tổng là $4\times\dfrac{1}{2}=2$. Do đó:
-$$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
+Mỗi hỗn số gồm phần nguyên và phần phân số $\dfrac{1}{2}$. Ta nhóm các phần nguyên với nhau và các phần phân số với nhau.
+
+Tổng các phần nguyên là:
+$$1+2+3+4=10.$$
+
+Có bốn phần phân số, mỗi phần là $\dfrac{1}{2}$, nên tổng của chúng là:
+$$\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}=4\times\frac{1}{2}=2.$$
+
+Do đó
+$$1\frac{1}{2}+2\frac{1}{2}+3\frac{1}{2}+4\frac{1}{2}=10+2=12.$$
+
+Vậy tổng cần tính bằng $12$.
 
 **Đáp số.** $12$.
 :::

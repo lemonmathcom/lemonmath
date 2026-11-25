@@ -149,9 +149,15 @@ b) $4$ phút $30$ giây $\times4$.
 2. Đổi nếu cần.
 
 ::solution
-a) $3$ giờ $15$ phút $\times2=6$ giờ $30$ phút.
+Muốn nhân số đo thời gian với một số, ta nhân số đo của từng đơn vị với số đó. Nếu số phút (hoặc số giây) từ $60$ trở lên thì đổi sang đơn vị lớn hơn liền kề.
 
-b) $4$ phút $30$ giây $\times4=16$ phút $120$ giây $=18$ phút.
+a) Nhân từng phần với $2$: $3\times2=6$ (giờ) và $15\times2=30$ (phút). Vì $30<60$ nên không cần đổi:
+$$3\ \text{giờ}\ 15\ \text{phút}\times2=6\ \text{giờ}\ 30\ \text{phút}.$$
+
+b) Nhân từng phần với $4$: $4\times4=16$ (phút) và $30\times4=120$ (giây). Vì $120$ giây $=2$ phút nên
+$$4\ \text{phút}\ 30\ \text{giây}\times4=16\ \text{phút}\ 120\ \text{giây}=18\ \text{phút}.$$
+
+Vậy a) $6$ giờ $30$ phút; b) $18$ phút.
 
 **Đáp số.** a) $6$ giờ $30$ phút; b) $18$ phút.
 :::
@@ -171,9 +177,15 @@ b) $2$ phút $45$ giây $\times5$.
 2. Đổi sang đơn vị lớn hơn.
 
 ::solution
-a) $1$ giờ $50$ phút $\times3=3$ giờ $150$ phút $=5$ giờ $30$ phút.
+Ta nhân số đo của từng đơn vị với số đã cho, rồi đổi phần phút (hoặc giây) vượt quá $60$ sang đơn vị lớn hơn.
 
-b) $2$ phút $45$ giây $\times5=10$ phút $225$ giây $=13$ phút $45$ giây.
+a) Nhân từng phần với $3$: $1\times3=3$ (giờ) và $50\times3=150$ (phút). Vì $150$ phút $=2$ giờ $30$ phút (do $150=2\times60+30$) nên
+$$1\ \text{giờ}\ 50\ \text{phút}\times3=3\ \text{giờ}\ 150\ \text{phút}=5\ \text{giờ}\ 30\ \text{phút}.$$
+
+b) Nhân từng phần với $5$: $2\times5=10$ (phút) và $45\times5=225$ (giây). Vì $225=3\times60+45$ nên $225$ giây $=3$ phút $45$ giây. Do đó
+$$2\ \text{phút}\ 45\ \text{giây}\times5=10\ \text{phút}\ 225\ \text{giây}=13\ \text{phút}\ 45\ \text{giây}.$$
+
+Vậy a) $5$ giờ $30$ phút; b) $13$ phút $45$ giây.
 
 **Đáp số.** a) $5$ giờ $30$ phút; b) $13$ phút $45$ giây.
 :::
@@ -212,8 +224,15 @@ Một bạn bơi một vòng hồ hết $2$ phút $15$ giây. Bạn bơi $6$ vò
 3. Thử lại: $13$ phút $30$ giây $:6$ có bằng $2$ phút $15$ giây không?
 
 ::solution
+Bài giải
+
+Mỗi vòng bơi hết $2$ phút $15$ giây, bơi $6$ vòng với tốc độ như nhau, nên ta nhân thời gian một vòng với $6$: $2\times6=12$ (phút) và $15\times6=90$ (giây). Vì $90$ giây $=1$ phút $30$ giây nên ta đổi sang phút.
+
 Thời gian bơi $6$ vòng là:
-$$2\text{ phút }15\text{ giây}\times6=12\text{ phút }90\text{ giây}=13\text{ phút }30\text{ giây}.$$
+$$2\ \text{phút}\ 15\ \text{giây}\times6=12\ \text{phút}\ 90\ \text{giây}=13\ \text{phút}\ 30\ \text{giây}.$$
+
+Vậy bạn bơi hết $13$ phút $30$ giây.
+
 **Đáp số.** $13$ phút $30$ giây.
 :::
 
@@ -228,8 +247,18 @@ Bộ phim gồm $4$ tập có độ dài bằng nhau, tổng cộng $2$ giờ $2
 2. Chia cho $4$.
 
 ::solution
-$2$ giờ $20$ phút $=140$ phút. Mỗi tập dài:
-$$140:4=35\ (\text{phút}).$$
+Bài giải
+
+Đề hỏi mỗi tập dài bao nhiêu phút, nên ta đổi tổng thời gian ra phút rồi chia đều cho $4$ tập. Vì $1$ giờ $=60$ phút nên
+$$2\ \text{giờ}\ 20\ \text{phút}=2\times60+20=140\ \text{(phút)}.$$
+
+Mỗi tập phim dài là:
+$$140:4=35\ \text{(phút)}.$$
+
+Thử lại: $35\times4=140$ phút $=2$ giờ $20$ phút.
+
+Vậy mỗi tập phim dài $35$ phút.
+
 **Đáp số.** $35$ phút.
 :::
 
@@ -245,8 +274,17 @@ Mỗi buổi tập thể dục của Nam kéo dài $45$ phút. Trong một tuầ
 3. Đổi ra giờ và phút.
 
 ::solution
-Thời gian Nam tập là:
-$$45\times6=270\ (\text{phút})=4\text{ giờ }30\text{ phút}.$$
+Bài giải
+
+Mỗi buổi tập $45$ phút, một tuần tập $6$ buổi, nên ta nhân $45$ phút với $6$.
+
+Thời gian Nam tập trong một tuần là:
+$$45\times6=270\ \text{(phút)}.$$
+
+Đổi ra giờ và phút: $270=4\times60+30$, nên $270$ phút $=4$ giờ $30$ phút.
+
+Vậy trong một tuần Nam tập tất cả $4$ giờ $30$ phút.
+
 **Đáp số.** $4$ giờ $30$ phút.
 :::
 
@@ -261,8 +299,20 @@ Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một chuyến đi 
 2. Cộng với giờ bắt đầu và đổi.
 
 ::solution
-Thời gian cả chuyến là $1$ giờ $35$ phút $\times3=3$ giờ $105$ phút $=4$ giờ $45$ phút. Chuyến đi kết thúc lúc:
-$$8\text{ giờ }20\text{ phút}+4\text{ giờ }45\text{ phút}=12\text{ giờ }65\text{ phút}=13\text{ giờ }5\text{ phút}.$$
+Bài giải
+
+Trước hết ta tìm thời gian của cả chuyến đi, rồi cộng với giờ bắt đầu.
+
+Thời gian cả chuyến đi là:
+$$1\ \text{giờ}\ 35\ \text{phút}\times3=3\ \text{giờ}\ 105\ \text{phút}=4\ \text{giờ}\ 45\ \text{phút}$$
+(vì $105$ phút $=1$ giờ $45$ phút).
+
+Chuyến đi kết thúc lúc:
+$$8\ \text{giờ}\ 20\ \text{phút}+4\ \text{giờ}\ 45\ \text{phút}=12\ \text{giờ}\ 65\ \text{phút}=13\ \text{giờ}\ 5\ \text{phút}$$
+(vì $65$ phút $=1$ giờ $5$ phút).
+
+Vậy chuyến đi kết thúc lúc $13$ giờ $5$ phút.
+
 **Đáp số.** $13$ giờ $5$ phút.
 :::
 
@@ -277,8 +327,15 @@ Một chiếc đồng hồ chạy chậm mỗi ngày $2$ phút $30$ giây. Hỏi
 2. Nhân rồi đổi giây thành phút.
 
 ::solution
+Bài giải
+
+Mỗi ngày đồng hồ chậm $2$ phút $30$ giây, nên sau $6$ ngày ta nhân số đo đó với $6$: $2\times6=12$ (phút) và $30\times6=180$ (giây). Vì $180$ giây $=3$ phút nên ta đổi sang phút.
+
 Sau $6$ ngày, đồng hồ chậm:
-$$2\text{ phút }30\text{ giây}\times6=12\text{ phút }180\text{ giây}=15\text{ phút}.$$
+$$2\ \text{phút}\ 30\ \text{giây}\times6=12\ \text{phút}\ 180\ \text{giây}=15\ \text{phút}.$$
+
+Vậy sau $6$ ngày đồng hồ chậm $15$ phút.
+
 **Đáp số.** $15$ phút.
 :::
 
@@ -293,9 +350,17 @@ Một số đo thời gian nhân với $4$ thì được $3$ giờ $40$ phút. T
 2. Chia cho $4$, rồi thử lại bằng phép nhân.
 
 ::solution
-$3$ giờ $40$ phút $=220$ phút, và $220:4=55$ (phút).
+Số đo thời gian cần tìm nhân với $4$ thì được $3$ giờ $40$ phút, nên muốn tìm nó ta lấy $3$ giờ $40$ phút chia cho $4$.
 
-**Thử lại.** $55\times4=220$ phút $=3$ giờ $40$ phút. Đúng.
+Vì $3$ giờ không chia hết cho $4$, ta đổi tất cả ra phút:
+$$3\ \text{giờ}\ 40\ \text{phút}=3\times60+40=220\ \text{(phút)}.$$
+
+Chia cho $4$:
+$$220:4=55\ \text{(phút)}.$$
+
+Thử lại: $55\times4=220$ phút $=3$ giờ $40$ phút. Đúng.
+
+Vậy số đo thời gian cần tìm là $55$ phút.
 
 **Đáp số.** $55$ phút.
 :::

@@ -156,9 +156,19 @@ Set out in columns and work out: a) $3.4\times2$; b) $0.45\times6$.
 2. Count the decimal places of the decimal factor, place the decimal point, and remove any extra digits $0$.
 
 ::solution
-a) $34\times2=68$, with one decimal place, so $3.4\times2=6.8$.
+To multiply a decimal by a whole number, we set out the calculation in columns and multiply as with whole numbers. Then we count the digits after the decimal point in the decimal, and put the decimal point in the product so that it has the same number of digits after it.
 
-b) $45\times6=270$, with two decimal places, so $0.45\times6=2.70=2.7$.
+a) In columns:
+$$\begin{array}{r}3.4\\\times\quad2\\\hline6.8\end{array}$$
+Multiply as whole numbers: $34\times2=68$. The factor $3.4$ has one decimal place, so the product has one decimal place: $3.4\times2=6.8$.
+
+b) In columns:
+$$\begin{array}{r}0.45\\\times\quad6\\\hline2.70\end{array}$$
+Multiply as whole numbers: $45\times6=270$. The factor $0.45$ has two decimal places, so the product has two decimal places: $2.70$. Dropping the final zero gives $2.7$.
+
+Check by adding: $3.4+3.4=6.8$.
+
+So $3.4\times2=6.8$ and $0.45\times6=2.7$.
 
 **Answer.** a) $6.8$; b) $2.7$.
 :::
@@ -174,13 +184,17 @@ Work out: a) $2.5\times1.6$; b) $0.8\times0.35$; c) $12.3\times0.04$; d) $0.05\t
 2. Count the total decimal places; write the digit $0$ on the left if there are not enough.
 
 ::solution
-a) $25\times16=400$, with $2$ decimal places in total, so $2.5\times1.6=4.00=4$.
+To multiply two decimals, we multiply as with whole numbers, then count the decimal places in both factors altogether and give the product that many decimal places.
 
-b) $8\times35=280$, with $3$ decimal places in total, so $0.8\times0.35=0.280=0.28$.
+a) $25\times16=400$. The factors $2.5$ and $1.6$ have $1+1=2$ decimal places in total, so the product is $4.00=4$.
 
-c) $123\times4=492$, with $3$ decimal places in total, so $12.3\times0.04=0.492$.
+b) $8\times35=280$. The factors $0.8$ and $0.35$ have $1+2=3$ decimal places in total, so the product is $0.280=0.28$.
 
-d) $5\times6=30$, with $4$ decimal places in total, so $0.05\times0.06=0.0030=0.003$.
+c) $123\times4=492$. The factors $12.3$ and $0.04$ have $1+2=3$ decimal places in total, so the product is $0.492$.
+
+d) $5\times6=30$. The factors $0.05$ and $0.06$ have $2+2=4$ decimal places in total. The product $30$ has only two digits, so we write zeros on the left to make four places: $0.0030=0.003$.
+
+So a) $4$; b) $0.28$; c) $0.492$; d) $0.003$.
 
 **Answer.** a) $4$; b) $0.28$; c) $0.492$; d) $0.003$.
 :::
@@ -196,8 +210,12 @@ Work out in the easy way: $0.4\times3.7\times2.5$.
 2. Group those two, then multiply by the remaining number.
 
 ::solution
-Since $0.4\times2.5=1$, we have:
-$$0.4\times3.7\times2.5=(0.4\times2.5)\times3.7=1\times3.7=3.7.$$
+We notice that $0.4\times2.5=1.00=1$ (because $4\times25=100$ and the two factors have two decimal places in total).
+
+Using the commutative and associative properties of multiplication, we change the order to group $0.4$ with $2.5$:
+$$\begin{aligned}0.4\times3.7\times2.5&=(0.4\times2.5)\times3.7\\&=1\times3.7\\&=3.7.\end{aligned}$$
+
+So $0.4\times3.7\times2.5=3.7$.
 
 **Answer.** $3.7$.
 :::
@@ -213,8 +231,14 @@ Each bottle holds $1.5$ litres of water. How many litres do $8$ bottles like thi
 2. Multiply $1.5$ by $8$. Check: the result must be greater than $1.5$.
 
 ::solution
+Solution
+
+Each bottle holds $1.5$ litres and there are $8$ such bottles, so we multiply $1.5$ by $8$. As whole numbers: $15\times8=120$; the factor $1.5$ has one decimal place, so the product is $12.0=12$.
+
 The number of litres of water in $8$ bottles is:
 $$1.5\times8=12\ \text{(litres)}.$$
+
+So $8$ bottles hold $12$ litres.
 
 **Answer.** $12$ litres.
 :::
@@ -230,9 +254,14 @@ Suppose each metre of electric cable costs $12\,500$ dong. How much does $3.4$ m
 2. Multiply $12\,500$ by $3.4$. Remember the unit.
 
 ::solution
+Solution
+
+Each metre costs $12\,500$ dong and we buy $3.4$ m, so we multiply the price of one metre by the number of metres. As whole numbers: $12\,500\times34=425\,000$; the factor $3.4$ has one decimal place, so the product is $42\,500.0=42\,500$.
+
 The cost of the cable is:
 $$12\,500\times3.4=42\,500\ \text{(dong)}.$$
-Since $12\,500\times34=425\,000$ and there is one decimal place, the product is $42\,500.0=42\,500$.
+
+So $3.4$ m of cable costs $42\,500$ dong.
 
 **Answer.** $42\,500$ dong.
 :::
@@ -248,9 +277,14 @@ A rectangular sheet of glass is $6.5$ m long and $3.2$ m wide. Find the area of 
 2. Multiply the two numbers, then write the unit as square metres.
 
 ::solution
+Solution
+
+The area of a rectangle is its length times its width (in the same unit). As whole numbers: $65\times32=2080$; the two factors have two decimal places in total, so the product is $20.80=20.8$.
+
 The area of the sheet of glass is:
 $$6.5\times3.2=20.8\ \text{(m}^2\text{)}.$$
-Since $65\times32=2080$ and there are two decimal places, the product is $20.80=20.8$.
+
+So the area of the sheet of glass is $20.8\ \text{m}^2$.
 
 **Answer.** $20.8\ \text{m}^2$.
 :::
@@ -266,11 +300,15 @@ Without calculating, write $>$, $<$ or $=$ in the gap: a) $15\times0.9\ \ldots\ 
 2. Decide whether the product is greater than, less than or equal to the other factor.
 
 ::solution
-a) Since $0.9<1$, we have $15\times0.9<15$.
+We compare the second number in each product with $1$: multiplying a number (other than $0$) by a number less than $1$ gives a result less than that number; multiplying by a number greater than $1$ gives a greater result; multiplying by $1$ leaves it unchanged.
 
-b) Since $1.1>1$, we have $0.7\times1.1>0.7$.
+a) Since $0.9<1$, we have $15\times0.9<15$. We write $<$.
 
-c) Multiplying by $1$ changes nothing, so $2.5\times1=2.5$.
+b) Since $1.1>1$, we have $0.7\times1.1>0.7$. We write $>$.
+
+c) Any number multiplied by $1$ equals itself, so $2.5\times1=2.5$. We write $=$.
+
+So a) $15\times0.9<15$; b) $0.7\times1.1>0.7$; c) $2.5\times1=2.5$.
 
 **Answer.** a) $<$; b) $>$; c) $=$.
 :::
@@ -286,9 +324,16 @@ Remember the lesson on square kilometres and hectares. A field is a rectangle $1
 2. Change the result into hectares.
 
 ::solution
-The area of the field is $1.25\times0.8=1\ \text{km}^2$, because $125\times8=1000$ and there are three decimal places, so the product is $1.000=1$.
+Solution
 
-Change to hectares: $1\ \text{km}^2=100$ ha.
+The length and the width are both in kilometres, so the area is in square kilometres. As whole numbers: $125\times8=1000$; the two factors have three decimal places in total, so the product is $1.000=1$.
+
+The area of the field is:
+$$1.25\times0.8=1\ \text{(km}^2\text{)}.$$
+
+Change to hectares: since $1\ \text{km}^2=100$ ha, the area of the field is $100$ ha.
+
+So the area of the field is $1\ \text{km}^2$, which is $100$ ha.
 
 **Answer.** $1\ \text{km}^2$, which is $100$ ha.
 :::
@@ -304,8 +349,12 @@ Work out quickly: $0.125\times0.25\times32$.
 2. Group the factors to make round products.
 
 ::solution
-Since $32=8\times4$, we have:
-$$\begin{aligned} 0.125\times0.25\times32 &= (0.125\times8)\times(0.25\times4) \\ &= 1\times1 \\ &= 1. \end{aligned}$$
+We look for pairs that multiply to a round number: $0.125\times8=1$ and $0.25\times4=1$. Since $32=8\times4$, we split $32$ into $8\times4$.
+
+Using the commutative and associative properties of multiplication:
+$$\begin{aligned}0.125\times0.25\times32&=0.125\times0.25\times8\times4\\&=(0.125\times8)\times(0.25\times4)\\&=1\times1\\&=1.\end{aligned}$$
+
+So $0.125\times0.25\times32=1$.
 
 **Answer.** $1$.
 :::

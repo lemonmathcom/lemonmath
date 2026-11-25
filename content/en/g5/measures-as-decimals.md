@@ -209,13 +209,22 @@ Write these measurements as decimals in metres: a) $4$ m $8$ dm; b) $6$ m $25$ c
 2. Write it as a decimal, adding a digit $0$ if needed.
 
 ::solution
-a) $8$ dm $=0.8$ m, so $4$ m $8$ dm $=4.8$ m.
+We have $1$ m $=10$ dm $=100$ cm, so $1$ dm $=\dfrac{1}{10}$ m $=0.1$ m and $1$ cm $=\dfrac{1}{100}$ m $=0.01$ m.
 
-b) $25$ cm $=0.25$ m, so $6$ m $25$ cm $=6.25$ m.
+a) $8$ dm $=\dfrac{8}{10}$ m $=0.8$ m, so
+$$4\ \text{m}\ 8\ \text{dm}=4\frac{8}{10}\ \text{m}=4.8\ \text{m}.$$
 
-c) $85$ cm $=0.85$ m.
+b) $25$ cm $=\dfrac{25}{100}$ m $=0.25$ m, so
+$$6\ \text{m}\ 25\ \text{cm}=6\frac{25}{100}\ \text{m}=6.25\ \text{m}.$$
 
-d) $4$ cm $=0.04$ m, so $3$ m $4$ cm $=3.04$ m.
+c) $85$ cm $=\dfrac{85}{100}$ m. This is less than $1$ m, so the whole-number part is $0$:
+$$85\ \text{cm}=0.85\ \text{m}.$$
+
+d) $4$ cm $=\dfrac{4}{100}$ m $=0.04$ m, so
+$$3\ \text{m}\ 4\ \text{cm}=3\frac{4}{100}\ \text{m}=3.04\ \text{m}.$$
+Note: $4$ cm is $4$ hundredths of a metre, so the digit $4$ goes in the hundredths place and the tenths place needs a $0$.
+
+So a) $4.8$ m; b) $6.25$ m; c) $0.85$ m; d) $3.04$ m.
 
 **Answer.** a) $4.8$ m; b) $6.25$ m; c) $0.85$ m; d) $3.04$ m.
 :::
@@ -231,13 +240,20 @@ Write these measurements as decimals in kilograms: a) $3$ kg $500$ g; b) $2$ kg 
 2. Write it as a decimal with three digits, then remove any digits $0$ at the end.
 
 ::solution
-a) $500$ g $=0.500$ kg $=0.5$ kg, so $3$ kg $500$ g $=3.5$ kg.
+We have $1$ kg $=1000$ g, so $1$ g $=\dfrac{1}{1000}$ kg $=0.001$ kg. Grams take up three digits after the decimal point.
 
-b) $75$ g $=0.075$ kg, so $2$ kg $75$ g $=2.075$ kg.
+a) $500$ g $=\dfrac{500}{1000}$ kg $=0.500$ kg $=0.5$ kg (we drop the zeros at the right-hand end of the decimal part). So
+$$3\ \text{kg}\ 500\ \text{g}=3.5\ \text{kg}.$$
 
-c) $400$ g $=0.400$ kg $=0.4$ kg.
+b) $75$ g $=\dfrac{75}{1000}$ kg $=0.075$ kg, so
+$$2\ \text{kg}\ 75\ \text{g}=2.075\ \text{kg}.$$
 
-d) $8$ g $=0.008$ kg, so $1$ kg $8$ g $=1.008$ kg.
+c) $400$ g $=\dfrac{400}{1000}$ kg $=0.400$ kg $=0.4$ kg.
+
+d) $8$ g $=\dfrac{8}{1000}$ kg $=0.008$ kg, so
+$$1\ \text{kg}\ 8\ \text{g}=1.008\ \text{kg}.$$
+
+So a) $3.5$ kg; b) $2.075$ kg; c) $0.4$ kg; d) $1.008$ kg.
 
 **Answer.** a) $3.5$ kg; b) $2.075$ kg; c) $0.4$ kg; d) $1.008$ kg.
 :::
@@ -253,13 +269,23 @@ Change to a smaller unit: a) $2.5$ km $=?$ m; b) $0.75$ kg $=?$ g; c) $3.2$ tonn
 2. Change each part into the smaller unit, then add.
 
 ::solution
-a) $2.5\ \text{km}=2\ \text{km}+\dfrac{500}{1000}\ \text{km}=2000+500=2500$ m.
+We split each measurement into its whole-number part and its decimal part, then change each part to the smaller unit.
 
-b) $0.75\ \text{kg}=\dfrac{750}{1000}\ \text{kg}=750$ g.
+a) Since $1$ km $=1000$ m, $0.5$ km $=\dfrac{500}{1000}$ km $=500$ m. So
+$$2.5\ \text{km}=2\ \text{km}+0.5\ \text{km}=2000\ \text{m}+500\ \text{m}=2500\ \text{m}.$$
 
-c) $3.2$ tonnes $=3$ tonnes $+\dfrac{200}{1000}$ tonne $=3000+200=3200$ kg.
+b) Since $1$ kg $=1000$ g,
+$$0.75\ \text{kg}=\frac{750}{1000}\ \text{kg}=750\ \text{g}.$$
 
-d) $4.05\ \text{m}=4\ \text{m}+\dfrac{5}{100}\ \text{m}=400+5=405$ cm.
+c) Since $1$ tonne $=1000$ kg, $0.2$ tonnes $=\dfrac{200}{1000}$ tonne $=200$ kg. So
+$$3.2\ \text{tonnes}=3\ \text{tonnes}+0.2\ \text{tonnes}=3000\ \text{kg}+200\ \text{kg}=3200\ \text{kg}.$$
+
+d) Since $1$ m $=100$ cm, $0.05$ m $=\dfrac{5}{100}$ m $=5$ cm. So
+$$4.05\ \text{m}=4\ \text{m}+0.05\ \text{m}=400\ \text{cm}+5\ \text{cm}=405\ \text{cm}.$$
+
+Check by multiplying: $2.5\times1000=2500$; $0.75\times1000=750$; $3.2\times1000=3200$; $4.05\times100=405$.
+
+So a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
 
 **Answer.** a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
 :::
@@ -275,11 +301,19 @@ Write these measurements of area: a) $7\ \text{m}^2\ 40\ \text{dm}^2$ as a decim
 2. For part c, write $0.3=0.30$.
 
 ::solution
-a) $40\ \text{dm}^2=0.4\ \text{m}^2$, so $7\ \text{m}^2\ 40\ \text{dm}^2=7.4\ \text{m}^2$.
+We have $1\ \text{m}^2=100\ \text{dm}^2$, so $1\ \text{dm}^2=\dfrac{1}{100}\ \text{m}^2=0.01\ \text{m}^2$. For units of area, the number of $\text{dm}^2$ takes up two digits after the decimal point.
 
-b) $5\ \text{dm}^2=0.05\ \text{m}^2$, so $2\ \text{m}^2\ 5\ \text{dm}^2=2.05\ \text{m}^2$.
+a) $40\ \text{dm}^2=\dfrac{40}{100}\ \text{m}^2=0.40\ \text{m}^2=0.4\ \text{m}^2$, so
+$$7\ \text{m}^2\ 40\ \text{dm}^2=7.4\ \text{m}^2.$$
 
-c) $6.3=6+0.30$, so $6.3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2$.
+b) $5\ \text{dm}^2=\dfrac{5}{100}\ \text{m}^2=0.05\ \text{m}^2$, so
+$$2\ \text{m}^2\ 5\ \text{dm}^2=2.05\ \text{m}^2.$$
+
+c) We write $6.3=6.30$, that is, $6.3\ \text{m}^2=6\ \text{m}^2+0.30\ \text{m}^2$. Since $0.30\ \text{m}^2=\dfrac{30}{100}\ \text{m}^2=30\ \text{dm}^2$,
+$$6.3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2.$$
+Note: do not write $6\ \text{m}^2\ 3\ \text{dm}^2$, because $3\ \text{dm}^2$ is only $0.03\ \text{m}^2$.
+
+So a) $7.4\ \text{m}^2$; b) $2.05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
 
 **Answer.** a) $7.4\ \text{m}^2$; b) $2.05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
 :::
@@ -295,11 +329,15 @@ Write $>$, $<$ or $=$ in the gap: a) $4\ \text{kg}\ 600\ \text{g}\ \ldots\ 4.06\
 2. Compare the two decimals.
 
 ::solution
-a) $4\ \text{kg}\ 600\ \text{g}=4.6\ \text{kg}$. Since $4.6>4.06$, write $>$.
+To compare, we change both measurements to the same unit and then compare the two decimals.
 
-b) $2\ \text{m}\ 30\ \text{cm}=2.3\ \text{m}$, so write $=$.
+a) $600$ g $=0.6$ kg, so $4\ \text{kg}\ 600\ \text{g}=4.6\ \text{kg}$. Compare $4.6$ and $4.06$: both whole-number parts are $4$; in the tenths place, $6>0$. So $4.6>4.06$, and we write $>$.
 
-c) $750\ \text{g}=0.75\ \text{kg}$. Since $0.75<0.80$, write $<$.
+b) $30$ cm $=0.30$ m, so $2\ \text{m}\ 30\ \text{cm}=2.30\ \text{m}=2.3\ \text{m}$. The two measurements are equal, so we write $=$.
+
+c) $750\ \text{g}=0.75\ \text{kg}$ and $0.8\ \text{kg}=0.80\ \text{kg}$. Both whole-number parts are $0$; in the tenths place, $7<8$. So $0.75<0.8$, and we write $<$.
+
+So a) $4\ \text{kg}\ 600\ \text{g}>4.06\ \text{kg}$; b) $2\ \text{m}\ 30\ \text{cm}=2.3\ \text{m}$; c) $750\ \text{g}<0.8\ \text{kg}$.
 
 **Answer.** a) $>$; b) $=$; c) $<$.
 :::
@@ -315,13 +353,17 @@ Round to the nearest whole number: a) $6.49$; b) $15.5$; c) $0.6$; d) $99.5$.
 2. Apply the rounding rule.
 
 ::solution
-a) The tenths digit is $4<5$, so $6.49\approx6$.
+To round to the nearest whole number, we look at the tenths digit: if it is less than $5$, the whole-number part stays the same; if it is $5$ or more, we add $1$ to the whole-number part.
 
-b) The tenths digit is $5$, so $15.5\approx16$.
+a) The tenths digit of $6.49$ is $4<5$, so the whole-number part stays the same: $6.49\approx6$. (We do not need to look at the $9$ in the hundredths place.)
 
-c) The tenths digit is $6>5$, so $0.6\approx1$.
+b) The tenths digit of $15.5$ is $5$, so $15+1=16$, that is, $15.5\approx16$.
 
-d) The tenths digit is $5$, so $99.5\approx100$.
+c) The tenths digit of $0.6$ is $6>5$, so $0+1=1$, that is, $0.6\approx1$.
+
+d) The tenths digit of $99.5$ is $5$, so $99+1=100$, that is, $99.5\approx100$.
+
+So a) $6$; b) $16$; c) $1$; d) $100$.
 
 **Answer.** a) $6$; b) $16$; c) $1$; d) $100$.
 :::
@@ -337,11 +379,17 @@ Round to one decimal place: a) $3.14$; b) $8.96$; c) $0.449$.
 2. Keep the tenths digit or add $1$ to it (carry when the digit is $9$).
 
 ::solution
-a) The hundredths digit is $4<5$, so $3.14\approx3.1$.
+To round to one decimal place, we look at the hundredths digit: if it is less than $5$, the tenths digit stays the same; if it is $5$ or more, we add $1$ to the tenths digit. Then we drop the digits after the tenths place.
 
-b) The hundredths digit is $6>5$, so $8.9+0.1=9.0$, that is, $8.96\approx9.0$.
+a) The hundredths digit of $3.14$ is $4<5$, so $3.14\approx3.1$.
 
-c) The hundredths digit is $4<5$, so $0.449\approx0.4$.
+b) The hundredths digit of $8.96$ is $6>5$, so we add $1$ tenth:
+$$8.9+0.1=9.0.$$
+The tenths digit $9$ plus $1$ makes $10$, so we write $0$ in the tenths place and carry $1$ to the whole-number part. We keep the $0$ to show that the number has been rounded to one decimal place: $8.96\approx9.0$.
+
+c) The hundredths digit of $0.449$ is $4<5$, so $0.449\approx0.4$. Note: do not round twice (do not change $0.449$ to $0.45$ and then to $0.5$).
+
+So a) $3.1$; b) $9.0$; c) $0.4$.
 
 **Answer.** a) $3.1$; b) $9.0$; c) $0.4$.
 :::
@@ -357,9 +405,13 @@ Suppose a digital scale shows $12.348$ kg. Round this mass to one decimal place 
 2. Round each time starting from the original $12.348$, not from the previous result.
 
 ::solution
-To one decimal place: the hundredths digit is $4<5$, so $12.348\approx12.3$ kg.
+To one decimal place: we look at the hundredths digit of $12.348$. It is $4<5$, so the tenths digit stays the same and we drop the digits after it:
+$$12.348\approx12.3\ \text{(kg)}.$$
 
-To two decimal places: the thousandths digit is $8>5$, so $12.348\approx12.35$ kg.
+To two decimal places: we look at the thousandths digit. It is $8>5$, so we add $1$ to the hundredths digit:
+$$12.34+0.01=12.35,\ \text{that is,}\ 12.348\approx12.35\ \text{(kg)}.$$
+
+So the mass is $12.3$ kg to one decimal place and $12.35$ kg to two decimal places.
 
 **Answer.** $12.3$ kg and $12.35$ kg.
 :::
@@ -375,9 +427,17 @@ Remember the lesson on comparing decimals. In a long jump competition, Mai jumps
 2. Compare the tenths, then the hundredths.
 
 ::solution
-We have $2$ m $18$ cm $=2.18$ m and $205$ cm $=2$ m $5$ cm $=2.05$ m. The three measurements are $2.15$ m; $2.18$ m; $2.05$ m.
+Solution
 
-Since $2.18>2.15>2.05$, Lan jumps the furthest, then Mai, then Ha.
+To compare, we change all three measurements to metres:
+$$2\ \text{m}\ 18\ \text{cm}=2.18\ \text{m};\qquad 205\ \text{cm}=2\ \text{m}\ 5\ \text{cm}=2.05\ \text{m}.$$
+
+The three jumps are: Mai $2.15$ m; Lan $2.18$ m; Ha $2.05$ m.
+
+Compare: all the whole-number parts are $2$. In the tenths place, Ha has the digit $0$, which is less than the digit $1$ of Mai and Lan, so Ha's jump is the shortest. Compare $2.15$ and $2.18$: both tenths digits are $1$, and in the hundredths place $5<8$, so $2.15<2.18$. Therefore
+$$2.18>2.15>2.05.$$
+
+So Lan jumps the furthest; in order from the furthest to the shortest: Lan, Mai, Ha.
 
 **Answer.** Lan jumps the furthest; order: Lan, Mai, Ha.
 :::
@@ -393,9 +453,15 @@ A decimal with two digits in the decimal part rounds to $4.5$ when rounded to on
 2. The greatest number has tenths digit $5$ and the largest hundredths digit that rounds down.
 
 ::solution
-The least number has the form $4.4a$ with $a\ge5$, so it is $4.45$. The greatest number has the form $4.5b$ with $b<5$, so it is $4.54$.
+The number has two digits in its decimal part and rounds to $4.5$ to one decimal place. When rounding, we look at the hundredths digit, so there are two cases.
 
-Check: $4.45\approx4.5$ (the hundredths digit is $5$) and $4.54\approx4.5$ (the hundredths digit is $4$).
+Case 1, the hundredths digit is $5$ or more: we add $1$ to the tenths digit, so the number has the form $4.4a$ where $a$ is $5$, $6$, $7$, $8$ or $9$. The least number in this case is $4.45$.
+
+Case 2, the hundredths digit is less than $5$: the tenths digit stays the same, so the number has the form $4.5b$ where $b$ is $0$, $1$, $2$, $3$ or $4$. The greatest number in this case is $4.54$.
+
+The possible numbers are $4.45$, $4.46$, …, $4.54$. Check the two ends: $4.45\approx4.5$ (the hundredths digit is $5$) and $4.54\approx4.5$ (the hundredths digit is $4<5$).
+
+So the least possible number is $4.45$ and the greatest possible number is $4.54$.
 
 **Answer.** The least is $4.45$; the greatest is $4.54$.
 :::

@@ -209,13 +209,22 @@ Viết số đo dưới dạng số thập phân có đơn vị là mét: a) $4$
 2. Viết thành số thập phân, thêm chữ số $0$ nếu cần.
 
 ::solution
-a) $8$ dm $=0{,}8$ m, nên $4$ m $8$ dm $=4{,}8$ m.
+Ta có $1$ m $=10$ dm $=100$ cm, nên $1$ dm $=\dfrac{1}{10}$ m $=0{,}1$ m và $1$ cm $=\dfrac{1}{100}$ m $=0{,}01$ m.
 
-b) $25$ cm $=0{,}25$ m, nên $6$ m $25$ cm $=6{,}25$ m.
+a) $8$ dm $=\dfrac{8}{10}$ m $=0{,}8$ m, nên
+$$4\ \text{m}\ 8\ \text{dm}=4\frac{8}{10}\ \text{m}=4{,}8\ \text{m}.$$
 
-c) $85$ cm $=0{,}85$ m.
+b) $25$ cm $=\dfrac{25}{100}$ m $=0{,}25$ m, nên
+$$6\ \text{m}\ 25\ \text{cm}=6\frac{25}{100}\ \text{m}=6{,}25\ \text{m}.$$
 
-d) $4$ cm $=0{,}04$ m, nên $3$ m $4$ cm $=3{,}04$ m.
+c) $85$ cm $=\dfrac{85}{100}$ m. Số đo này chưa đủ $1$ m nên phần nguyên là $0$:
+$$85\ \text{cm}=0{,}85\ \text{m}.$$
+
+d) $4$ cm $=\dfrac{4}{100}$ m $=0{,}04$ m, nên
+$$3\ \text{m}\ 4\ \text{cm}=3\frac{4}{100}\ \text{m}=3{,}04\ \text{m}.$$
+Chú ý: $4$ cm là $4$ phần trăm của mét, nên chữ số $4$ đứng ở hàng phần trăm; hàng phần mười phải viết chữ số $0$.
+
+Vậy a) $4{,}8$ m; b) $6{,}25$ m; c) $0{,}85$ m; d) $3{,}04$ m.
 
 **Đáp số.** a) $4{,}8$ m; b) $6{,}25$ m; c) $0{,}85$ m; d) $3{,}04$ m.
 :::
@@ -231,13 +240,20 @@ Viết số đo dưới dạng số thập phân có đơn vị là ki-lô-gam: 
 2. Viết thành số thập phân có ba chữ số, rồi bỏ các chữ số $0$ ở cuối nếu có.
 
 ::solution
-a) $500$ g $=0{,}500$ kg $=0{,}5$ kg, nên $3$ kg $500$ g $=3{,}5$ kg.
+Ta có $1$ kg $=1000$ g, nên $1$ g $=\dfrac{1}{1000}$ kg $=0{,}001$ kg. Số gam chiếm ba chữ số sau dấu phẩy.
 
-b) $75$ g $=0{,}075$ kg, nên $2$ kg $75$ g $=2{,}075$ kg.
+a) $500$ g $=\dfrac{500}{1000}$ kg $=0{,}500$ kg $=0{,}5$ kg (bỏ các chữ số $0$ ở tận cùng bên phải phần thập phân). Do đó
+$$3\ \text{kg}\ 500\ \text{g}=3{,}5\ \text{kg}.$$
 
-c) $400$ g $=0{,}400$ kg $=0{,}4$ kg.
+b) $75$ g $=\dfrac{75}{1000}$ kg $=0{,}075$ kg, nên
+$$2\ \text{kg}\ 75\ \text{g}=2{,}075\ \text{kg}.$$
 
-d) $8$ g $=0{,}008$ kg, nên $1$ kg $8$ g $=1{,}008$ kg.
+c) $400$ g $=\dfrac{400}{1000}$ kg $=0{,}400$ kg $=0{,}4$ kg.
+
+d) $8$ g $=\dfrac{8}{1000}$ kg $=0{,}008$ kg, nên
+$$1\ \text{kg}\ 8\ \text{g}=1{,}008\ \text{kg}.$$
+
+Vậy a) $3{,}5$ kg; b) $2{,}075$ kg; c) $0{,}4$ kg; d) $1{,}008$ kg.
 
 **Đáp số.** a) $3{,}5$ kg; b) $2{,}075$ kg; c) $0{,}4$ kg; d) $1{,}008$ kg.
 :::
@@ -253,13 +269,23 @@ d) $8$ g $=0{,}008$ kg, nên $1$ kg $8$ g $=1{,}008$ kg.
 2. Đổi từng phần ra đơn vị bé rồi cộng lại.
 
 ::solution
-a) $2{,}5\ \text{km}=2\ \text{km}+\dfrac{500}{1000}\ \text{km}=2000+500=2500$ m.
+Ta tách mỗi số đo thành phần nguyên và phần thập phân, rồi đổi từng phần sang đơn vị bé hơn.
 
-b) $0{,}75\ \text{kg}=\dfrac{750}{1000}\ \text{kg}=750$ g.
+a) Vì $1$ km $=1000$ m nên $0{,}5$ km $=\dfrac{500}{1000}$ km $=500$ m. Do đó
+$$2{,}5\ \text{km}=2\ \text{km}+0{,}5\ \text{km}=2000\ \text{m}+500\ \text{m}=2500\ \text{m}.$$
 
-c) $3{,}2$ tấn $=3$ tấn $+\dfrac{200}{1000}$ tấn $=3000+200=3200$ kg.
+b) Vì $1$ kg $=1000$ g nên
+$$0{,}75\ \text{kg}=\frac{750}{1000}\ \text{kg}=750\ \text{g}.$$
 
-d) $4{,}05\ \text{m}=4\ \text{m}+\dfrac{5}{100}\ \text{m}=400+5=405$ cm.
+c) Vì $1$ tấn $=1000$ kg nên $0{,}2$ tấn $=\dfrac{200}{1000}$ tấn $=200$ kg. Do đó
+$$3{,}2\ \text{tấn}=3\ \text{tấn}+0{,}2\ \text{tấn}=3000\ \text{kg}+200\ \text{kg}=3200\ \text{kg}.$$
+
+d) Vì $1$ m $=100$ cm nên $0{,}05$ m $=\dfrac{5}{100}$ m $=5$ cm. Do đó
+$$4{,}05\ \text{m}=4\ \text{m}+0{,}05\ \text{m}=400\ \text{cm}+5\ \text{cm}=405\ \text{cm}.$$
+
+Thử lại bằng cách nhân: $2{,}5\times1000=2500$; $0{,}75\times1000=750$; $3{,}2\times1000=3200$; $4{,}05\times100=405$.
+
+Vậy a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
 
 **Đáp số.** a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
 :::
@@ -275,11 +301,19 @@ Viết số đo diện tích: a) $7\ \text{m}^2\ 40\ \text{dm}^2$ thành số th
 2. Với câu c, viết $0{,}3=0{,}30$.
 
 ::solution
-a) $40\ \text{dm}^2=0{,}4\ \text{m}^2$, nên $7\ \text{m}^2\ 40\ \text{dm}^2=7{,}4\ \text{m}^2$.
+Ta có $1\ \text{m}^2=100\ \text{dm}^2$, nên $1\ \text{dm}^2=\dfrac{1}{100}\ \text{m}^2=0{,}01\ \text{m}^2$. Với đơn vị diện tích, số $\text{dm}^2$ chiếm hai chữ số sau dấu phẩy.
 
-b) $5\ \text{dm}^2=0{,}05\ \text{m}^2$, nên $2\ \text{m}^2\ 5\ \text{dm}^2=2{,}05\ \text{m}^2$.
+a) $40\ \text{dm}^2=\dfrac{40}{100}\ \text{m}^2=0{,}40\ \text{m}^2=0{,}4\ \text{m}^2$, nên
+$$7\ \text{m}^2\ 40\ \text{dm}^2=7{,}4\ \text{m}^2.$$
 
-c) $6{,}3=6+0{,}30$, nên $6{,}3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2$.
+b) $5\ \text{dm}^2=\dfrac{5}{100}\ \text{m}^2=0{,}05\ \text{m}^2$, nên
+$$2\ \text{m}^2\ 5\ \text{dm}^2=2{,}05\ \text{m}^2.$$
+
+c) Ta viết $6{,}3=6{,}30$, tức là $6{,}3\ \text{m}^2=6\ \text{m}^2+0{,}30\ \text{m}^2$. Mà $0{,}30\ \text{m}^2=\dfrac{30}{100}\ \text{m}^2=30\ \text{dm}^2$, nên
+$$6{,}3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2.$$
+Chú ý: không viết $6\ \text{m}^2\ 3\ \text{dm}^2$, vì $3\ \text{dm}^2$ chỉ bằng $0{,}03\ \text{m}^2$.
+
+Vậy a) $7{,}4\ \text{m}^2$; b) $2{,}05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
 
 **Đáp số.** a) $7{,}4\ \text{m}^2$; b) $2{,}05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
 :::
@@ -295,11 +329,15 @@ c) $6{,}3=6+0{,}30$, nên $6{,}3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2$.
 2. So sánh hai số thập phân.
 
 ::solution
-a) $4\ \text{kg}\ 600\ \text{g}=4{,}6\ \text{kg}$. Vì $4{,}6>4{,}06$ nên điền dấu $>$.
+Muốn so sánh, ta đổi hai số đo về cùng một đơn vị rồi so sánh hai số thập phân.
 
-b) $2\ \text{m}\ 30\ \text{cm}=2{,}3\ \text{m}$, nên điền dấu $=$.
+a) $600$ g $=0{,}6$ kg, nên $4\ \text{kg}\ 600\ \text{g}=4{,}6\ \text{kg}$. So sánh $4{,}6$ và $4{,}06$: phần nguyên đều là $4$; ở hàng phần mười có $6>0$. Do đó $4{,}6>4{,}06$, ta điền dấu $>$.
 
-c) $750\ \text{g}=0{,}75\ \text{kg}$. Vì $0{,}75<0{,}80$ nên điền dấu $<$.
+b) $30$ cm $=0{,}30$ m, nên $2\ \text{m}\ 30\ \text{cm}=2{,}30\ \text{m}=2{,}3\ \text{m}$. Hai số đo bằng nhau, ta điền dấu $=$.
+
+c) $750\ \text{g}=0{,}75\ \text{kg}$ và $0{,}8\ \text{kg}=0{,}80\ \text{kg}$. Phần nguyên đều là $0$; ở hàng phần mười có $7<8$. Do đó $0{,}75<0{,}8$, ta điền dấu $<$.
+
+Vậy a) $4\ \text{kg}\ 600\ \text{g}>4{,}06\ \text{kg}$; b) $2\ \text{m}\ 30\ \text{cm}=2{,}3\ \text{m}$; c) $750\ \text{g}<0{,}8\ \text{kg}$.
 
 **Đáp số.** a) $>$; b) $=$; c) $<$.
 :::
@@ -315,13 +353,17 @@ Làm tròn đến số tự nhiên: a) $6{,}49$; b) $15{,}5$; c) $0{,}6$; d) $99
 2. Áp dụng quy tắc làm tròn.
 
 ::solution
-a) Chữ số hàng phần mười là $4<5$, nên $6{,}49\approx6$.
+Muốn làm tròn đến số tự nhiên, ta nhìn chữ số hàng phần mười: nếu chữ số đó bé hơn $5$ thì giữ nguyên phần nguyên; nếu lớn hơn hoặc bằng $5$ thì cộng thêm $1$ vào phần nguyên.
 
-b) Chữ số hàng phần mười là $5$, nên $15{,}5\approx16$.
+a) $6{,}49$ có chữ số hàng phần mười là $4<5$, nên giữ nguyên phần nguyên: $6{,}49\approx6$. (Không cần nhìn chữ số $9$ ở hàng phần trăm.)
 
-c) Chữ số hàng phần mười là $6>5$, nên $0{,}6\approx1$.
+b) $15{,}5$ có chữ số hàng phần mười là $5$, nên $15+1=16$, tức là $15{,}5\approx16$.
 
-d) Chữ số hàng phần mười là $5$, nên $99{,}5\approx100$.
+c) $0{,}6$ có chữ số hàng phần mười là $6>5$, nên $0+1=1$, tức là $0{,}6\approx1$.
+
+d) $99{,}5$ có chữ số hàng phần mười là $5$, nên $99+1=100$, tức là $99{,}5\approx100$.
+
+Vậy a) $6$; b) $16$; c) $1$; d) $100$.
 
 **Đáp số.** a) $6$; b) $16$; c) $1$; d) $100$.
 :::
@@ -337,11 +379,17 @@ Làm tròn đến hàng phần mười: a) $3{,}14$; b) $8{,}96$; c) $0{,}449$.
 2. Giữ nguyên hoặc tăng chữ số hàng phần mười thêm $1$ (nhớ khi chữ số là $9$).
 
 ::solution
-a) Chữ số hàng phần trăm là $4<5$, nên $3{,}14\approx3{,}1$.
+Muốn làm tròn đến hàng phần mười, ta nhìn chữ số hàng phần trăm: bé hơn $5$ thì giữ nguyên chữ số hàng phần mười; lớn hơn hoặc bằng $5$ thì cộng thêm $1$ vào chữ số hàng phần mười. Sau đó bỏ các chữ số đứng sau hàng phần mười.
 
-b) Chữ số hàng phần trăm là $6>5$, nên $8{,}9+0{,}1=9{,}0$, tức là $8{,}96\approx9{,}0$.
+a) $3{,}14$ có chữ số hàng phần trăm là $4<5$, nên $3{,}14\approx3{,}1$.
 
-c) Chữ số hàng phần trăm là $4<5$, nên $0{,}449\approx0{,}4$.
+b) $8{,}96$ có chữ số hàng phần trăm là $6>5$, nên ta cộng thêm $1$ phần mười:
+$$8{,}9+0{,}1=9{,}0.$$
+Chữ số hàng phần mười $9$ cộng $1$ được $10$, nên viết $0$ ở hàng phần mười và nhớ $1$ sang phần nguyên. Ta giữ chữ số $0$ để cho biết số đã được làm tròn đến hàng phần mười: $8{,}96\approx9{,}0$.
+
+c) $0{,}449$ có chữ số hàng phần trăm là $4<5$, nên $0{,}449\approx0{,}4$. Chú ý: không làm tròn hai lần (không đổi $0{,}449$ thành $0{,}45$ rồi thành $0{,}5$).
+
+Vậy a) $3{,}1$; b) $9{,}0$; c) $0{,}4$.
 
 **Đáp số.** a) $3{,}1$; b) $9{,}0$; c) $0{,}4$.
 :::
@@ -357,9 +405,13 @@ Giả sử một chiếc cân điện tử hiển thị $12{,}348$ kg. Hãy làm
 2. Làm tròn lần lượt, mỗi lần bắt đầu từ số $12{,}348$ ban đầu, không làm tròn từ kết quả trước.
 
 ::solution
-Đến hàng phần mười: chữ số hàng phần trăm là $4<5$, nên $12{,}348\approx12{,}3$ kg.
+Làm tròn đến hàng phần mười: ta nhìn chữ số hàng phần trăm của $12{,}348$. Chữ số đó là $4<5$, nên giữ nguyên chữ số hàng phần mười và bỏ các chữ số phía sau:
+$$12{,}348\approx12{,}3\ \text{(kg)}.$$
 
-Đến hàng phần trăm: chữ số hàng phần nghìn là $8>5$, nên $12{,}348\approx12{,}35$ kg.
+Làm tròn đến hàng phần trăm: ta nhìn chữ số hàng phần nghìn. Chữ số đó là $8>5$, nên cộng thêm $1$ vào chữ số hàng phần trăm:
+$$12{,}34+0{,}01=12{,}35,\ \text{tức là}\ 12{,}348\approx12{,}35\ \text{(kg)}.$$
+
+Vậy khối lượng làm tròn đến hàng phần mười là $12{,}3$ kg, làm tròn đến hàng phần trăm là $12{,}35$ kg.
 
 **Đáp số.** $12{,}3$ kg và $12{,}35$ kg.
 :::
@@ -375,9 +427,17 @@ Em hãy nhớ lại bài so sánh các số thập phân. Trong buổi thi nhả
 2. So sánh hàng phần mười, rồi hàng phần trăm.
 
 ::solution
-Ta có $2$ m $18$ cm $=2{,}18$ m và $205$ cm $=2$ m $5$ cm $=2{,}05$ m. Ba số đo là $2{,}15$ m; $2{,}18$ m; $2{,}05$ m.
+Bài giải
 
-Vì $2{,}18>2{,}15>2{,}05$ nên Lan nhảy xa nhất, rồi đến Mai, rồi đến Hà.
+Muốn so sánh, ta đổi ba số đo về cùng đơn vị mét:
+$$2\ \text{m}\ 18\ \text{cm}=2{,}18\ \text{m};\qquad 205\ \text{cm}=2\ \text{m}\ 5\ \text{cm}=2{,}05\ \text{m}.$$
+
+Ba bạn nhảy được: Mai $2{,}15$ m; Lan $2{,}18$ m; Hà $2{,}05$ m.
+
+So sánh: phần nguyên đều là $2$. Ở hàng phần mười, Hà có chữ số $0$, bé hơn chữ số $1$ của Mai và Lan, nên Hà nhảy gần nhất. So sánh $2{,}15$ và $2{,}18$: hàng phần mười đều là $1$, hàng phần trăm có $5<8$, nên $2{,}15<2{,}18$. Do đó
+$$2{,}18>2{,}15>2{,}05.$$
+
+Vậy Lan nhảy xa nhất; thứ tự từ xa nhất đến gần nhất là Lan, Mai, Hà.
 
 **Đáp số.** Lan nhảy xa nhất; thứ tự: Lan, Mai, Hà.
 :::
@@ -393,9 +453,15 @@ Một số thập phân có hai chữ số ở phần thập phân, khi làm tr�
 2. Số lớn nhất có hàng phần mười là $5$ và hàng phần trăm là chữ số lớn nhất làm tròn xuống.
 
 ::solution
-Số bé nhất có dạng $4{,}4a$ với $a\ge5$, nên là $4{,}45$. Số lớn nhất có dạng $4{,}5b$ với $b<5$, nên là $4{,}54$.
+Số cần tìm có hai chữ số ở phần thập phân, làm tròn đến hàng phần mười được $4{,}5$. Khi làm tròn, ta nhìn chữ số hàng phần trăm, nên có hai trường hợp.
 
-Kiểm tra: $4{,}45\approx4{,}5$ (vì chữ số hàng phần trăm là $5$) và $4{,}54\approx4{,}5$ (vì chữ số hàng phần trăm là $4$).
+Trường hợp chữ số hàng phần trăm lớn hơn hoặc bằng $5$: ta cộng $1$ vào chữ số hàng phần mười, nên số ban đầu có dạng $4{,}4a$ với $a$ là $5$, $6$, $7$, $8$ hoặc $9$. Số bé nhất trong trường hợp này là $4{,}45$.
+
+Trường hợp chữ số hàng phần trăm bé hơn $5$: chữ số hàng phần mười giữ nguyên, nên số ban đầu có dạng $4{,}5b$ với $b$ là $0$, $1$, $2$, $3$ hoặc $4$. Số lớn nhất trong trường hợp này là $4{,}54$.
+
+Các số có thể có là $4{,}45$; $4{,}46$; …; $4{,}54$. Kiểm tra hai số ở hai đầu: $4{,}45\approx4{,}5$ (vì chữ số hàng phần trăm là $5$) và $4{,}54\approx4{,}5$ (vì chữ số hàng phần trăm là $4<5$).
+
+Vậy số bé nhất có thể có là $4{,}45$ và số lớn nhất có thể có là $4{,}54$.
 
 **Đáp số.** Số bé nhất là $4{,}45$; số lớn nhất là $4{,}54$.
 :::

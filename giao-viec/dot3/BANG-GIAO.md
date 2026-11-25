@@ -98,7 +98,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | Vinax258 | Vinax258-LG-1.txt | Vinax258-LG-1-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 43 KB | ☑ |
 | Vinax258 | Vinax258-LG-2.txt | Vinax258-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 40 KB | ☑ |
 | Vinax258 | Vinax258-LG-3.txt | Vinax258-LG-3-ketqua.md | Lớp 5: 37 bài tập, 4 bài học | 42 KB | ☑ |
-| Vinax258 | Vinax258-LG-4.txt | Vinax258-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 44 KB | ☐ |
+| Vinax258 | Vinax258-LG-4.txt | Vinax258-LG-4-ketqua.md | Lớp 5: 36 bài tập, 4 bài học | 44 KB | ☑ |
 | Vinax258 | Vinax258-LG-5.txt | Vinax258-LG-5-ketqua.md | Lớp 5: 33 bài tập, 4 bài học | 41 KB | ☐ |
 | Vimus2358 | Vimus2358-LG-1.txt | Vimus2358-LG-1-ketqua.md | Lớp 5: 39 bài tập, 4 bài học | 44 KB | ☑ |
 | Vimus2358 | Vimus2358-LG-2.txt | Vimus2358-LG-2-ketqua.md | Lớp 5: 28 bài tập, 3 bài học | 34 KB | ☑ |

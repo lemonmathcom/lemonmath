@@ -156,9 +156,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 2. Đếm chữ số thập phân của thừa số thập phân, rồi đặt dấu phẩy và bỏ chữ số $0$ thừa.
 
 ::solution
-a) $34\times2=68$, có một chữ số thập phân nên $3{,}4\times2=6{,}8$.
+Muốn nhân một số thập phân với một số tự nhiên, ta đặt tính và nhân như nhân các số tự nhiên, rồi đếm xem phần thập phân của số thập phân có bao nhiêu chữ số, và dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.
 
-b) $45\times6=270$, có hai chữ số thập phân nên $0{,}45\times6=2{,}70=2{,}7$.
+a) Đặt tính:
+$$\begin{array}{r}3{,}4\\\times\quad2\\\hline6{,}8\end{array}$$
+Nhân như số tự nhiên: $34\times2=68$. Thừa số $3{,}4$ có một chữ số ở phần thập phân, nên ta tách ở tích một chữ số: $3{,}4\times2=6{,}8$.
+
+b) Đặt tính:
+$$\begin{array}{r}0{,}45\\\times\quad6\\\hline2{,}70\end{array}$$
+Nhân như số tự nhiên: $45\times6=270$. Thừa số $0{,}45$ có hai chữ số ở phần thập phân, nên ta tách ở tích hai chữ số: $2{,}70$. Bỏ chữ số $0$ ở tận cùng phần thập phân, ta được $2{,}7$.
+
+Thử lại bằng phép cộng: $3{,}4+3{,}4=6{,}8$.
+
+Vậy $3{,}4\times2=6{,}8$ và $0{,}45\times6=2{,}7$.
 
 **Đáp số.** a) $6{,}8$; b) $2{,}7$.
 :::
@@ -174,13 +184,17 @@ Tính: a) $2{,}5\times1{,}6$; b) $0{,}8\times0{,}35$; c) $12{,}3\times0{,}04$; d
 2. Đếm tổng chữ số thập phân; thêm chữ số $0$ bên trái nếu thiếu.
 
 ::solution
-a) $25\times16=400$, tổng $2$ chữ số thập phân nên $2{,}5\times1{,}6=4{,}00=4$.
+Muốn nhân hai số thập phân, ta nhân như nhân các số tự nhiên, rồi đếm xem cả hai thừa số có tất cả bao nhiêu chữ số ở phần thập phân và dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.
 
-b) $8\times35=280$, tổng $3$ chữ số thập phân nên $0{,}8\times0{,}35=0{,}280=0{,}28$.
+a) $25\times16=400$. Hai thừa số $2{,}5$ và $1{,}6$ có tất cả $1+1=2$ chữ số ở phần thập phân, nên tích là $4{,}00=4$.
 
-c) $123\times4=492$, tổng $3$ chữ số thập phân nên $12{,}3\times0{,}04=0{,}492$.
+b) $8\times35=280$. Hai thừa số $0{,}8$ và $0{,}35$ có tất cả $1+2=3$ chữ số ở phần thập phân, nên tích là $0{,}280=0{,}28$.
 
-d) $5\times6=30$, tổng $4$ chữ số thập phân nên $0{,}05\times0{,}06=0{,}0030=0{,}003$.
+c) $123\times4=492$. Hai thừa số $12{,}3$ và $0{,}04$ có tất cả $1+2=3$ chữ số ở phần thập phân, nên tích là $0{,}492$.
+
+d) $5\times6=30$. Hai thừa số $0{,}05$ và $0{,}06$ có tất cả $2+2=4$ chữ số ở phần thập phân. Tích $30$ chỉ có hai chữ số, nên ta viết thêm chữ số $0$ vào bên trái cho đủ: $0{,}0030=0{,}003$.
+
+Vậy a) $4$; b) $0{,}28$; c) $0{,}492$; d) $0{,}003$.
 
 **Đáp số.** a) $4$; b) $0{,}28$; c) $0{,}492$; d) $0{,}003$.
 :::
@@ -196,8 +210,12 @@ Tính bằng cách thuận tiện: $0{,}4\times3{,}7\times2{,}5$.
 2. Ghép hai số đó lại, rồi nhân với số còn lại.
 
 ::solution
-Vì $0{,}4\times2{,}5=1$ nên:
-$$0{,}4\times3{,}7\times2{,}5=(0{,}4\times2{,}5)\times3{,}7=1\times3{,}7=3{,}7.$$
+Ta nhận thấy $0{,}4\times2{,}5=1{,}00=1$ (vì $4\times25=100$ và hai thừa số có tất cả hai chữ số ở phần thập phân).
+
+Áp dụng tính chất giao hoán và kết hợp của phép nhân, ta đổi chỗ để nhóm $0{,}4$ với $2{,}5$:
+$$\begin{aligned}0{,}4\times3{,}7\times2{,}5&=(0{,}4\times2{,}5)\times3{,}7\\&=1\times3{,}7\\&=3{,}7.\end{aligned}$$
+
+Vậy $0{,}4\times3{,}7\times2{,}5=3{,}7$.
 
 **Đáp số.** $3{,}7$.
 :::
@@ -213,8 +231,14 @@ Mỗi chai nước chứa $1{,}5$ lít. Hỏi $8$ chai nước như thế chứa
 2. Nhân $1{,}5$ với $8$. Thử lại: kết quả phải lớn hơn $1{,}5$.
 
 ::solution
+Bài giải
+
+Mỗi chai chứa $1{,}5$ lít, có $8$ chai như thế, nên ta lấy $1{,}5$ nhân với $8$. Nhân như số tự nhiên: $15\times8=120$; thừa số $1{,}5$ có một chữ số ở phần thập phân nên tích là $12{,}0=12$.
+
 Số lít nước trong $8$ chai là:
 $$1{,}5\times8=12\ \text{(lít)}.$$
+
+Vậy $8$ chai nước chứa $12$ lít.
 
 **Đáp số.** $12$ lít.
 :::
@@ -230,9 +254,14 @@ Giả sử mỗi mét dây điện giá $12\,500$ đồng. Hỏi mua $3{,}4$ m d
 2. Nhân $12\,500$ với $3{,}4$. Nhớ ghi đơn vị.
 
 ::solution
+Bài giải
+
+Mỗi mét dây giá $12\,500$ đồng, mua $3{,}4$ m, nên ta lấy giá một mét nhân với số mét. Nhân như số tự nhiên: $12\,500\times34=425\,000$; thừa số $3{,}4$ có một chữ số ở phần thập phân nên tích là $42\,500{,}0=42\,500$.
+
 Số tiền mua dây điện là:
 $$12\,500\times3{,}4=42\,500\ \text{(đồng)}.$$
-Vì $12\,500\times34=425\,000$ và có một chữ số thập phân nên tích là $42\,500{,}0=42\,500$.
+
+Vậy mua $3{,}4$ m dây điện hết $42\,500$ đồng.
 
 **Đáp số.** $42\,500$ đồng.
 :::
@@ -248,9 +277,14 @@ Một tấm kính hình chữ nhật dài $6{,}5$ m và rộng $3{,}2$ m. Tính 
 2. Nhân hai số, rồi viết đơn vị là mét vuông.
 
 ::solution
+Bài giải
+
+Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng (cùng đơn vị đo). Nhân như số tự nhiên: $65\times32=2080$; hai thừa số có tất cả hai chữ số ở phần thập phân nên tích là $20{,}80=20{,}8$.
+
 Diện tích tấm kính là:
 $$6{,}5\times3{,}2=20{,}8\ \text{(m}^2\text{)}.$$
-Vì $65\times32=2080$ và có hai chữ số thập phân nên tích là $20{,}80=20{,}8$.
+
+Vậy diện tích tấm kính là $20{,}8\ \text{m}^2$.
 
 **Đáp số.** $20{,}8\ \text{m}^2$.
 :::
@@ -266,11 +300,15 @@ Không tính, điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $15\times0{,}9\ 
 2. Suy ra tích lớn hơn, bé hơn hay bằng thừa số còn lại.
 
 ::solution
-a) Vì $0{,}9<1$ nên $15\times0{,}9<15$.
+Ta so sánh số thứ hai trong mỗi phép nhân với $1$: nhân một số (khác $0$) với số bé hơn $1$ thì được kết quả bé hơn số đó; nhân với số lớn hơn $1$ thì được kết quả lớn hơn số đó; nhân với $1$ thì kết quả không đổi.
 
-b) Vì $1{,}1>1$ nên $0{,}7\times1{,}1>0{,}7$.
+a) Vì $0{,}9<1$ nên $15\times0{,}9<15$. Ta điền dấu $<$.
 
-c) Nhân với $1$ không đổi nên $2{,}5\times1=2{,}5$.
+b) Vì $1{,}1>1$ nên $0{,}7\times1{,}1>0{,}7$. Ta điền dấu $>$.
+
+c) Số nào nhân với $1$ cũng bằng chính số đó, nên $2{,}5\times1=2{,}5$. Ta điền dấu $=$.
+
+Vậy a) $15\times0{,}9<15$; b) $0{,}7\times1{,}1>0{,}7$; c) $2{,}5\times1=2{,}5$.
 
 **Đáp số.** a) $<$; b) $>$; c) $=$.
 :::
@@ -286,9 +324,16 @@ Em hãy nhớ lại bài về ki-lô-mét vuông và héc-ta. Một thửa ruộ
 2. Đổi kết quả ra héc-ta.
 
 ::solution
-Diện tích thửa ruộng là $1{,}25\times0{,}8=1\ \text{km}^2$, vì $125\times8=1000$ và có ba chữ số thập phân nên tích là $1{,}000=1$.
+Bài giải
 
-Đổi ra héc-ta: $1\ \text{km}^2=100$ ha.
+Chiều dài và chiều rộng đều đo bằng ki-lô-mét, nên diện tích tính ra ki-lô-mét vuông. Nhân như số tự nhiên: $125\times8=1000$; hai thừa số có tất cả ba chữ số ở phần thập phân nên tích là $1{,}000=1$.
+
+Diện tích thửa ruộng là:
+$$1{,}25\times0{,}8=1\ \text{(km}^2\text{)}.$$
+
+Đổi ra héc-ta: vì $1\ \text{km}^2=100$ ha nên diện tích thửa ruộng là $100$ ha.
+
+Vậy diện tích thửa ruộng là $1\ \text{km}^2$, tức là $100$ ha.
 
 **Đáp số.** $1\ \text{km}^2$, tức là $100$ ha.
 :::
@@ -304,8 +349,12 @@ Tính nhanh: $0{,}125\times0{,}25\times32$.
 2. Nhóm các thừa số để được các tích tròn.
 
 ::solution
-Vì $32=8\times4$ nên:
-$$\begin{aligned} 0{,}125\times0{,}25\times32 &= (0{,}125\times8)\times(0{,}25\times4) \\ &= 1\times1 \\ &= 1. \end{aligned}$$
+Ta tìm các cặp số nhân với nhau được số tròn: $0{,}125\times8=1$ và $0{,}25\times4=1$. Vì $32=8\times4$ nên ta tách $32$ thành $8\times4$.
+
+Áp dụng tính chất giao hoán và kết hợp của phép nhân:
+$$\begin{aligned}0{,}125\times0{,}25\times32&=0{,}125\times0{,}25\times8\times4\\&=(0{,}125\times8)\times(0{,}25\times4)\\&=1\times1\\&=1.\end{aligned}$$
+
+Vậy $0{,}125\times0{,}25\times32=1$.
 
 **Đáp số.** $1$.
 :::

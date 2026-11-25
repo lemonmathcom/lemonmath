@@ -149,9 +149,15 @@ b) $4$ min $30$ s $\times4$.
 2. Regroup if needed.
 
 ::solution
-a) $3$ h $15$ min $\times2=6$ h $30$ min.
+To multiply a time by a number, we multiply each unit by that number. If the minutes (or seconds) reach $60$ or more, we change them to the next larger unit.
 
-b) $4$ min $30$ s $\times4=16$ min $120$ s $=18$ min.
+a) Multiply each part by $2$: $3\times2=6$ (h) and $15\times2=30$ (min). Since $30<60$, nothing needs changing:
+$$3\ \text{h}\ 15\ \text{min}\times2=6\ \text{h}\ 30\ \text{min}.$$
+
+b) Multiply each part by $4$: $4\times4=16$ (min) and $30\times4=120$ (s). Since $120$ s $=2$ min,
+$$4\ \text{min}\ 30\ \text{s}\times4=16\ \text{min}\ 120\ \text{s}=18\ \text{min}.$$
+
+So a) $6$ h $30$ min; b) $18$ min.
 
 **Answer.** a) $6$ h $30$ min; b) $18$ min.
 :::
@@ -171,9 +177,15 @@ b) $2$ min $45$ s $\times5$.
 2. Change to the larger unit.
 
 ::solution
-a) $1$ h $50$ min $\times3=3$ h $150$ min $=5$ h $30$ min.
+We multiply each unit by the given number, then change any minutes (or seconds) over $60$ to the larger unit.
 
-b) $2$ min $45$ s $\times5=10$ min $225$ s $=13$ min $45$ s.
+a) Multiply each part by $3$: $1\times3=3$ (h) and $50\times3=150$ (min). Since $150$ min $=2$ h $30$ min (because $150=2\times60+30$),
+$$1\ \text{h}\ 50\ \text{min}\times3=3\ \text{h}\ 150\ \text{min}=5\ \text{h}\ 30\ \text{min}.$$
+
+b) Multiply each part by $5$: $2\times5=10$ (min) and $45\times5=225$ (s). Since $225=3\times60+45$, $225$ s $=3$ min $45$ s. Hence
+$$2\ \text{min}\ 45\ \text{s}\times5=10\ \text{min}\ 225\ \text{s}=13\ \text{min}\ 45\ \text{s}.$$
+
+So a) $5$ h $30$ min; b) $13$ min $45$ s.
 
 **Answer.** a) $5$ h $30$ min; b) $13$ min $45$ s.
 :::
@@ -212,8 +224,15 @@ A girl swims one length of the pool in $2$ min $15$ s. She swims $6$ lengths in 
 3. Check: does $13$ min $30$ s $\div6$ equal $2$ min $15$ s?
 
 ::solution
+Solution
+
+One length takes $2$ min $15$ s and she swims $6$ lengths at the same speed, so we multiply the time for one length by $6$: $2\times6=12$ (min) and $15\times6=90$ (s). Since $90$ s $=1$ min $30$ s, we change it to minutes.
+
 The time for $6$ lengths is:
-$$2\text{ min }15\text{ s}\times6=12\text{ min }90\text{ s}=13\text{ min }30\text{ s}.$$
+$$2\ \text{min}\ 15\ \text{s}\times6=12\ \text{min}\ 90\ \text{s}=13\ \text{min}\ 30\ \text{s}.$$
+
+So she takes $13$ min $30$ s.
+
 **Answer.** $13$ min $30$ s.
 :::
 
@@ -228,8 +247,18 @@ A film in $4$ parts of equal length lasts $2$ hours $20$ minutes in total. How m
 2. Divide by $4$.
 
 ::solution
-$2$ h $20$ min $=140$ min. Each part lasts:
-$$140\div4=35\ (\text{min}).$$
+Solution
+
+The question asks for minutes, so we change the total time to minutes and share it equally among the $4$ parts. Since $1$ h $=60$ min,
+$$2\ \text{h}\ 20\ \text{min}=2\times60+20=140\ \text{(min)}.$$
+
+Each part lasts:
+$$140\div4=35\ \text{(min)}.$$
+
+Check: $35\times4=140$ min $=2$ h $20$ min.
+
+So each part lasts $35$ minutes.
+
 **Answer.** $35$ minutes.
 :::
 
@@ -245,8 +274,17 @@ Each of Nam's exercise sessions lasts $45$ minutes. In one week Nam exercises $6
 3. Change to hours and minutes.
 
 ::solution
-The time Nam exercises is:
-$$45\times6=270\ (\text{min})=4\text{ h }30\text{ min}.$$
+Solution
+
+Each session lasts $45$ minutes and there are $6$ sessions a week, so we multiply $45$ minutes by $6$.
+
+The time Nam exercises in one week is:
+$$45\times6=270\ \text{(min)}.$$
+
+Change to hours and minutes: $270=4\times60+30$, so $270$ min $=4$ h $30$ min.
+
+So Nam exercises $4$ h $30$ min altogether in one week.
+
 **Answer.** $4$ h $30$ min.
 :::
 
@@ -261,8 +299,20 @@ Remember the lesson on adding and subtracting times. A journey has $3$ equal sta
 2. Add it to the start time and regroup.
 
 ::solution
-The whole journey takes $1$ h $35$ min $\times3=3$ h $105$ min $=4$ h $45$ min. The journey ends at:
-$$8\text{ h }20\text{ min}+4\text{ h }45\text{ min}=12\text{ h }65\text{ min}=13\text{ h }5\text{ min}.$$
+Solution
+
+First we find the time for the whole journey, then add it to the starting time.
+
+The whole journey takes:
+$$1\ \text{h}\ 35\ \text{min}\times3=3\ \text{h}\ 105\ \text{min}=4\ \text{h}\ 45\ \text{min}$$
+(because $105$ min $=1$ h $45$ min).
+
+The journey ends at:
+$$8\ \text{h}\ 20\ \text{min}+4\ \text{h}\ 45\ \text{min}=12\ \text{h}\ 65\ \text{min}=13\ \text{h}\ 5\ \text{min}$$
+(because $65$ min $=1$ h $5$ min).
+
+So the journey ends at $13{:}05$.
+
 **Answer.** $13{:}05$.
 :::
 
@@ -277,8 +327,15 @@ A clock loses $2$ min $30$ s every day. After $6$ days, how many minutes slow is
 2. Multiply, then change seconds to minutes.
 
 ::solution
+Solution
+
+The clock loses $2$ min $30$ s each day, so after $6$ days we multiply that time by $6$: $2\times6=12$ (min) and $30\times6=180$ (s). Since $180$ s $=3$ min, we change it to minutes.
+
 After $6$ days the clock is slow by:
-$$2\text{ min }30\text{ s}\times6=12\text{ min }180\text{ s}=15\text{ min}.$$
+$$2\ \text{min}\ 30\ \text{s}\times6=12\ \text{min}\ 180\ \text{s}=15\ \text{min}.$$
+
+So after $6$ days the clock is $15$ minutes slow.
+
 **Answer.** $15$ minutes.
 :::
 
@@ -293,9 +350,17 @@ A time multiplied by $4$ gives $3$ h $40$ min. Find that time.
 2. Divide by $4$, then check by multiplying.
 
 ::solution
-$3$ h $40$ min $=220$ min, and $220\div4=55$ (min).
+The time we want, multiplied by $4$, gives $3$ h $40$ min, so to find it we divide $3$ h $40$ min by $4$.
 
-**Check.** $55\times4=220$ min $=3$ h $40$ min. Correct.
+Since $3$ h cannot be divided exactly by $4$, we change everything to minutes:
+$$3\ \text{h}\ 40\ \text{min}=3\times60+40=220\ \text{(min)}.$$
+
+Divide by $4$:
+$$220\div4=55\ \text{(min)}.$$
+
+Check: $55\times4=220$ min $=3$ h $40$ min. Correct.
+
+So the time is $55$ minutes.
 
 **Answer.** $55$ minutes.
 :::

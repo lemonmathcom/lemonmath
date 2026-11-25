@@ -143,9 +143,17 @@ Change these mixed numbers into fractions: a) $2\dfrac{1}{5}$; b) $6\dfrac{3}{4}
 2. Add the numerator and keep the denominator.
 
 ::solution
-a) $2\dfrac{1}{5}=\dfrac{2\times5+1}{5}=\dfrac{11}{5}$.
+To change a mixed number into a fraction, we multiply the whole-number part by the denominator and add the numerator of the fraction part; the result is the new numerator, and the denominator stays the same.
 
-b) $6\dfrac{3}{4}=\dfrac{6\times4+3}{4}=\dfrac{27}{4}$.
+a) For $2\dfrac{1}{5}$: the whole-number part is $2$, the numerator is $1$ and the denominator is $5$. We have
+$$2\frac{1}{5}=\frac{2\times5+1}{5}=\frac{10+1}{5}=\frac{11}{5}.$$
+
+b) For $6\dfrac{3}{4}$: the whole-number part is $6$, the numerator is $3$ and the denominator is $4$. We have
+$$6\frac{3}{4}=\frac{6\times4+3}{4}=\frac{24+3}{4}=\frac{27}{4}.$$
+
+Check: $11\div5=2$ remainder $1$ and $27\div4=6$ remainder $3$, which match the two mixed numbers.
+
+So $2\dfrac{1}{5}=\dfrac{11}{5}$ and $6\dfrac{3}{4}=\dfrac{27}{4}$.
 
 **Answer.** a) $\dfrac{11}{5}$; b) $\dfrac{27}{4}$.
 :::
@@ -161,9 +169,17 @@ Change these fractions into mixed numbers: a) $\dfrac{7}{2}$; b) $\dfrac{29}{8}$
 2. Write the mixed number and keep the denominator.
 
 ::solution
-a) $7\div2=3$ remainder $1$, so $\dfrac{7}{2}=3\dfrac{1}{2}$.
+To change a fraction whose numerator is greater than its denominator into a mixed number, we divide the numerator by the denominator: the quotient is the whole-number part, the remainder is the numerator of the fraction part, and the denominator stays the same.
 
-b) $29\div8=3$ remainder $5$, so $\dfrac{29}{8}=3\dfrac{5}{8}$.
+a) We have $7\div2=3$ remainder $1$. The whole-number part is $3$ and the fraction part is $\dfrac{1}{2}$, so
+$$\frac{7}{2}=3\frac{1}{2}.$$
+
+b) We have $29\div8=3$ remainder $5$, because $3\times8=24$ and $29-24=5$. The whole-number part is $3$ and the fraction part is $\dfrac{5}{8}$, so
+$$\frac{29}{8}=3\frac{5}{8}.$$
+
+Check: $3\times2+1=7$ and $3\times8+5=29$.
+
+So $\dfrac{7}{2}=3\dfrac{1}{2}$ and $\dfrac{29}{8}=3\dfrac{5}{8}$.
 
 **Answer.** a) $3\dfrac{1}{2}$; b) $3\dfrac{5}{8}$.
 :::
@@ -179,7 +195,14 @@ Compare $3\dfrac{2}{3}$ and $3\dfrac{5}{8}$.
 2. Write the fractional parts over a common denominator and compare.
 
 ::solution
-The whole-number parts are both $3$. Over a common denominator: $\dfrac{2}{3}=\dfrac{16}{24}$ and $\dfrac{5}{8}=\dfrac{15}{24}$. Since $16>15$, we have $\dfrac{2}{3}>\dfrac{5}{8}$.
+The two mixed numbers have the same whole-number part, $3$, so we only need to compare the fraction parts $\dfrac{2}{3}$ and $\dfrac{5}{8}$.
+
+We write them over the common denominator $24$ (because $3\times8=24$):
+$$\frac{2}{3}=\frac{2\times8}{3\times8}=\frac{16}{24};\qquad \frac{5}{8}=\frac{5\times3}{8\times3}=\frac{15}{24}.$$
+
+For fractions with the same denominator, the one with the greater numerator is greater. Since $16>15$, we have $\dfrac{16}{24}>\dfrac{15}{24}$, that is, $\dfrac{2}{3}>\dfrac{5}{8}$.
+
+So $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 
 **Answer.** $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 :::
@@ -195,7 +218,19 @@ Work out: $2\dfrac{1}{3}+1\dfrac{1}{6}$.
 2. Write over a common denominator and add the fractional parts, then simplify.
 
 ::solution
-$$2\dfrac{1}{3}+1\dfrac{1}{6}=3+\left(\dfrac{2}{6}+\dfrac{1}{6}\right)=3+\dfrac{3}{6}=3\dfrac{1}{2}.$$
+We add the whole-number parts together and the fraction parts together.
+
+Whole-number parts: $2+1=3$.
+
+Fraction parts: the denominator $6$ is a multiple of $3$, so we write $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$. Then
+$$\frac{1}{3}+\frac{1}{6}=\frac{2}{6}+\frac{1}{6}=\frac{3}{6}=\frac{1}{2}.$$
+
+Hence
+$$2\frac{1}{3}+1\frac{1}{6}=3+\frac{1}{2}=3\frac{1}{2}.$$
+
+Check by changing to fractions: $\dfrac{7}{3}+\dfrac{7}{6}=\dfrac{14}{6}+\dfrac{7}{6}=\dfrac{21}{6}=\dfrac{7}{2}=3\dfrac{1}{2}$.
+
+So $2\dfrac{1}{3}+1\dfrac{1}{6}=3\dfrac{1}{2}$.
 
 **Answer.** $3\dfrac{1}{2}$.
 :::
@@ -211,7 +246,19 @@ Work out: $4\dfrac{1}{2}-1\dfrac{3}{4}$.
 2. Write over a common denominator, subtract, then change the result into a mixed number.
 
 ::solution
-$$4\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{9}{2}-\dfrac{7}{4}=\dfrac{18}{4}-\dfrac{7}{4}=\dfrac{11}{4}=2\dfrac{3}{4}.$$
+The fraction part of the first number is $\dfrac{1}{2}=\dfrac{2}{4}$, which is less than $\dfrac{3}{4}$, so we change both mixed numbers into fractions and then subtract.
+
+Change to fractions:
+$$4\frac{1}{2}=\frac{4\times2+1}{2}=\frac{9}{2};\qquad 1\frac{3}{4}=\frac{1\times4+3}{4}=\frac{7}{4}.$$
+
+Use a common denominator and subtract:
+$$\frac{9}{2}-\frac{7}{4}=\frac{18}{4}-\frac{7}{4}=\frac{11}{4}.$$
+
+Change the result into a mixed number: $11\div4=2$ remainder $3$, so $\dfrac{11}{4}=2\dfrac{3}{4}$.
+
+Check: $2\dfrac{3}{4}+1\dfrac{3}{4}=3+\dfrac{6}{4}=3+1\dfrac{2}{4}=4\dfrac{1}{2}$.
+
+So $4\dfrac{1}{2}-1\dfrac{3}{4}=2\dfrac{3}{4}$.
 
 **Answer.** $2\dfrac{3}{4}$.
 :::
@@ -227,8 +274,14 @@ This morning Nam jogged $1\dfrac{1}{2}$ km, and this afternoon he jogged another
 2. Add the two mixed numbers. Check: the sum must be greater than each addend.
 
 ::solution
-Nam jogged altogether:
-$$1\dfrac{1}{2}+2\dfrac{1}{4}=3+\left(\dfrac{2}{4}+\dfrac{1}{4}\right)=3\dfrac{3}{4}\ \text{(km)}.$$
+Solution
+
+To find how far Nam jogged altogether, we add the morning distance and the afternoon distance. Whole-number parts: $1+2=3$; fraction parts: $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{2}{4}+\dfrac{1}{4}=\dfrac{3}{4}$.
+
+The distance Nam jogged altogether is:
+$$1\frac{1}{2}+2\frac{1}{4}=3+\left(\frac{2}{4}+\frac{1}{4}\right)=3\frac{3}{4}\ \text{(km)}.$$
+
+So Nam jogged $3\dfrac{3}{4}$ km altogether.
 
 **Answer.** $3\dfrac{3}{4}$ km.
 :::
@@ -244,8 +297,16 @@ Suppose Aunt Lan has $3\dfrac{1}{2}$ kg of rice. She uses $1\dfrac{3}{4}$ kg to 
 2. Change to fractions, subtract, then write the result as a mixed number. Remember the unit.
 
 ::solution
+Solution
+
+To find how much rice is left, we subtract the rice used from the rice she had. The fraction part $\dfrac{1}{2}=\dfrac{2}{4}$ is less than $\dfrac{3}{4}$, so we change both mixed numbers into fractions: $3\dfrac{1}{2}=\dfrac{7}{2}$ and $1\dfrac{3}{4}=\dfrac{7}{4}$.
+
 The mass of rice left is:
-$$3\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{7}{2}-\dfrac{7}{4}=\dfrac{14}{4}-\dfrac{7}{4}=\dfrac{7}{4}=1\dfrac{3}{4}\ \text{(kg)}.$$
+$$3\frac{1}{2}-1\frac{3}{4}=\frac{7}{2}-\frac{7}{4}=\frac{14}{4}-\frac{7}{4}=\frac{7}{4}=1\frac{3}{4}\ \text{(kg)}.$$
+
+Check: $1\dfrac{3}{4}+1\dfrac{3}{4}=2+\dfrac{6}{4}=3\dfrac{2}{4}=3\dfrac{1}{2}$ (kg), which is the amount she started with.
+
+So Aunt Lan has $1\dfrac{3}{4}$ kg of rice left.
 
 **Answer.** $1\dfrac{3}{4}$ kg.
 :::
@@ -261,9 +322,17 @@ Remember the lesson on the perimeter of a rectangle. A rectangular garden is $2\
 2. Multiply it by $2$, then write the result as a mixed number.
 
 ::solution
-Half the perimeter is $2\dfrac{1}{2}+1\dfrac{1}{4}=\dfrac{10}{4}+\dfrac{5}{4}=\dfrac{15}{4}$ (m).
+Solution
 
-The perimeter of the garden is $\dfrac{15}{4}\times2=\dfrac{15}{2}=7\dfrac{1}{2}$ (m).
+The perimeter of a rectangle is the length plus the width (half the perimeter), multiplied by $2$. We change the two mixed numbers into fractions with denominator $4$: $2\dfrac{1}{2}=\dfrac{5}{2}=\dfrac{10}{4}$ and $1\dfrac{1}{4}=\dfrac{5}{4}$.
+
+Half the perimeter of the garden is:
+$$2\frac{1}{2}+1\frac{1}{4}=\frac{10}{4}+\frac{5}{4}=\frac{15}{4}\ \text{(m)}.$$
+
+The perimeter of the garden is:
+$$\frac{15}{4}\times2=\frac{30}{4}=\frac{15}{2}=7\frac{1}{2}\ \text{(m)}.$$
+
+So the perimeter of the garden is $7\dfrac{1}{2}$ m.
 
 **Answer.** $7\dfrac{1}{2}$ m.
 :::
@@ -279,8 +348,18 @@ Work out quickly: $1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}$.
 2. How many copies of $\dfrac{1}{2}$ are there? Which number do two copies of $\dfrac{1}{2}$ make?
 
 ::solution
-The whole-number parts add up to $1+2+3+4=10$. Four copies of $\dfrac{1}{2}$ add up to $4\times\dfrac{1}{2}=2$. Hence:
-$$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
+Each mixed number is made of a whole-number part and the fraction part $\dfrac{1}{2}$. We group the whole-number parts together and the fraction parts together.
+
+The whole-number parts add up to:
+$$1+2+3+4=10.$$
+
+There are four fraction parts, each equal to $\dfrac{1}{2}$, so they add up to:
+$$\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}=4\times\frac{1}{2}=2.$$
+
+Hence
+$$1\frac{1}{2}+2\frac{1}{2}+3\frac{1}{2}+4\frac{1}{2}=10+2=12.$$
+
+So the sum is $12$.
 
 **Answer.** $12$.
 :::
