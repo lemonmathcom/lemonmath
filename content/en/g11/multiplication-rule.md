@@ -13,7 +13,7 @@ minutes: 16
 
 In a game at a school fair, you roll a fair die and toss a fair coin. You win a prize if the die shows an even number **and** the coin shows heads. What is the probability of winning: should we add or multiply the two probabilities?
 
-The two results come from different devices. The result from one does not change the result from the other. We express this idea by saying that the two events are independent.
+The two results come from different devices: whatever the die shows, the coin does not land any differently. The result from one does not change the result from the other. We express this by saying that the two events are independent, and then, as we shall see, the answer is a multiplication.
 
 ## Recognising independent events
 
@@ -40,7 +40,7 @@ Independence must come from the design of the experiment or be checked using pro
 
 ## The multiplication rule
 
-In the exploration, $\dfrac14=\dfrac12\cdot\dfrac12$. This is the first instance of the general rule.
+In the exploration, $\dfrac14=\dfrac12\cdot\dfrac12$: the probability that both happen is exactly the product of the two probabilities. This is no coincidence; it is the first instance of a general rule.
 
 :::theorem Multiplication rule for independent events
 Two events $A$ and $B$ are independent if and only if
@@ -66,7 +66,7 @@ $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
 So the required probability is $\dfrac16$.
 :::
 
-When an action is repeated, we must check whether the conditions for the later trial remain unchanged.
+When an action is repeated, ask yourself: are the conditions for the later trial still the same as before? If they are, the trials are independent; if not, we must take care.
 
 :::example With and without replacement
 A box contains $3$ red cards and $2$ blue cards, all distinguishable. Two random draws are made. Let $A$ be the event “the first card is red” and $B$ the event “the second card is red”. Decide whether $A$ and $B$ are independent in two cases: the first card is replaced, and it is not replaced.
@@ -84,7 +84,7 @@ $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
 Thus $A$ and $B$ are not independent without replacement.
 :::
 
-This example shows that we cannot use the multiplication rule merely because a question contains the word “and”. We must first decide whether the events are independent.
+This is a place where many people slip: we cannot use the multiplication rule merely because a question contains the word “and”. We must first decide whether the events are independent.
 
 ## Combining complements and the addition rule
 
@@ -114,7 +114,7 @@ $$P(\text{at least one faulty component})=1-0.912=0.088.$$
 The two probabilities are $0.912$ and $0.088$, or $91.2\%$ and $8.8\%$, respectively.
 :::
 
-“Exactly one” consists of two mutually exclusive cases: the first trial succeeds and the second fails, or the other way round.
+“Exactly one” consists of two mutually exclusive cases: the first trial succeeds and the second fails, or the other way round. We find each case with the multiplication rule and then add.
 
 :::example Exactly one successful shot
 An athlete takes two independent shots. The probability of success on the first shot is $0.7$, and that on the second is $0.8$. Find the probability of exactly one successful shot.
@@ -130,7 +130,7 @@ P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
 So the probability of exactly one successful shot is $0.38$.
 :::
 
-The multiplication rule can also be rearranged to find an unknown probability when the probability of the intersection is given.
+The multiplication rule also works the other way round: when the probability of the intersection is given, we can find an unknown probability.
 
 :::example Finding a missing probability
 An app has two independent checks, $A$ and $B$. The probability of passing check $A$ is $0.8$, while the probability of passing both checks is $0.52$. Find the probability of passing check $B$ and the probability of passing neither check.
@@ -151,6 +151,8 @@ The probability of passing check $B$ is $0.65$; the probability of passing neith
 - **Multiplying to find “at least one”.** The product $P(A)P(B)$ gives the probability that both events occur, not that at least one occurs. Usually use $1-P(\overline A\cap\overline B)$.
 - **Treating mutually exclusive events as independent.** If $P(A)>0$, $P(B)>0$ and $A$, $B$ are mutually exclusive, then $P(A\cap B)=0$ but $P(A)P(B)>0$; they are not independent.
 - **Assuming that two draws are independent.** Without replacement, the first draw changes the contents of the box. Use the multiplication rule for independent events only when the question or the model guarantees independence.
+
+The first two are where most people slip. Before you multiply, ask yourself: are these two events really independent?
 :::
 
 ## Key terms
@@ -174,9 +176,11 @@ The probability of passing check $B$ is $0.65$; the probability of passing neith
 - Find “at least one” using $1-P(\overline A\cap\overline B)$; “exactly one” is the union of $A\cap\overline B$ and $\overline A\cap B$.
 - Independent does not mean mutually exclusive. Mutually exclusive events with positive probabilities are not independent.
 
+Back to the school fair: the die and the coin do not affect each other, so we multiply the two probabilities rather than add them. If you remember one thing, remember this: multiply only when the events are independent.
+
 ## Practice
 
-Each exercise gives the fact you need and some steps. Try it yourself before opening the solution.
+Each exercise gives you the fact you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 A fair die is rolled and a fair coin is tossed. Find the probability that the die score is a multiple of $3$ and the coin shows tails.

@@ -11,9 +11,9 @@ minutes: 22
 - Place a cube or a pyramid in $Oxyz$ to compute angles.
 :::
 
-A $10$ m radio mast is held by a cable running from the top of the mast to an anchor in the ground. With the foot of the mast at the origin and the metre as unit, the top of the mast is $T(0, 0, 10)$ and the anchor is $A(6, 8, 0)$. What angle does the cable make with the ground?
+A $10$ m radio mast is held by a cable running from the top of the mast to an anchor in the ground. With the foot of the mast at the origin and the metre as unit, the top of the mast is $T(0, 0, 10)$ and the anchor is $A(6, 8, 0)$. What angle does the cable make with the ground? No need to climb up and measure: the coordinates give the answer on paper.
 
-In the lesson [Operations on vectors in coordinates](lesson:vector-coordinate-operations) we found the angle between two vectors. This lesson uses that formula, with an absolute value added, to find angles between lines and planes.
+In the lesson [Operations on vectors in coordinates](lesson:vector-coordinate-operations) we found the angle between two vectors. Add an absolute value and a little thought, and the same formula gives angles between lines and planes as well.
 
 :::diagram The mast and the cable
 alt: The axes Oxyz; the mast OT on the axis Oz, the cable TA joining the top to the point A on the ground, the dashed segment OA as the projection of the cable, and an angle arc at A
@@ -51,7 +51,7 @@ $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
 
 ## The angle between two lines and between two planes
 
-The angle between two lines is always between $0^\circ$ and $90^\circ$, but the angle between their direction vectors can be obtuse. That is why we take the absolute value of the scalar product. The angle between two planes equals the angle between two lines perpendicular to them, so we use the two normal vectors.
+The angle between two lines is always between $0^\circ$ and $90^\circ$, but the angle between their direction vectors can be obtuse, because vectors have a direction and lines do not. That is why we take the absolute value of the scalar product. The angle between two planes equals the angle between two lines perpendicular to them, so we use the two normal vectors.
 
 :::theorem Two angle formulas
 - Two lines $\Delta_1$, $\Delta_2$ with direction vectors $\vec{u}_1$, $\vec{u}_2$ make an angle $\varphi$ ($0^\circ\le\varphi\le90^\circ$) with
@@ -72,7 +72,7 @@ So the angle between $d_1$ and $d_2$ is $60^\circ$.
 **Check.** The angle between the *vectors* $\vec{u}_1$, $\vec{u}_2$ is $120^\circ$ (cosine $-\dfrac12$); the angle between the *lines* is $180^\circ-120^\circ=60^\circ$.
 :::
 
-In solid geometry, we place the figure in the axes so that many coordinates are $0$, then use the formulas above.
+In solid geometry, the most important step is placing the figure in the axes cleverly: choose the origin and the axes so that many coordinates are $0$. After that we only have to substitute into the formulas above.
 
 :::example Two face diagonals of a cube
 Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Find the angle between the lines $AB'$ and $BC'$.
@@ -84,7 +84,7 @@ $$\overrightarrow{AB'}=(1, 0, 1),\qquad \overrightarrow{BC'}=(0, 1, 1),\qquad \c
 So the angle between $AB'$ and $BC'$ is $60^\circ$.
 :::
 
-A pyramid with one lateral edge perpendicular to the base also fits the axes very neatly.
+A pyramid with one lateral edge perpendicular to the base also fits the axes very neatly, because that edge can lie along one axis.
 
 :::diagram The pyramid $S.ABCD$ with $SA$ perpendicular to the base
 alt: The pyramid S.ABCD with a square base and the apex S directly above A; the hidden edges AD, DC, SD and the diagonal AC are dashed
@@ -119,7 +119,7 @@ $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \va
 So $SC$ makes an angle of about $35.3^\circ$ with the base, and $SB$ makes an angle of $30^\circ$ with $(SAC)$.
 :::
 
-For two planes we only need the two normal vectors.
+For two planes we only need to find the two normal vectors; the rest is a familiar calculation.
 
 :::example The angle between two planes
 a) Find the angle between $(P): x+2y-2z+1=0$ and $(Q): 2x-y+2z-3=0$ (to one decimal place of a degree).
@@ -137,7 +137,7 @@ $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\c
 So a) the angle is about $63.6^\circ$; b) the angle is $45^\circ$.
 :::
 
-The last example is a real problem with several steps, so we follow the four stages.
+The last example is a real problem with several steps, so we slow down and follow four stages: understand, plan, solve, look back.
 
 :::example A pyramid tent
 A tent is a regular square pyramid: its base is a square with side $4$ m and its apex is $3$ m above the centre of the base. Find the angle between one face of the roof and the ground, and the angle between one roof edge and the ground (to one decimal place of a degree).
@@ -166,6 +166,8 @@ So the roof faces slope at about $56.3^\circ$ and the roof edges at about $46.7^
 - **Using cosine for the angle between a line and a plane.** Wrong: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ for $SB$ and $(SAC)$, giving $60^\circ$. Why it is wrong: that expression is the cosine of the angle between $SB$ and the normal to the plane. Right: use $\sin\varphi$, which gives $30^\circ$.
 - **Using a direction vector instead of the normal vector of a plane.** Wrong: taking $\overrightarrow{BC}$ as "the vector of the plane $(SBC)$". Why it is wrong: $\overrightarrow{BC}$ lies in the plane; it is not perpendicular to it. Right: find the equation of the plane and read off its normal vector.
 - **Mixing up degrees and radians on the calculator.** Wrong: $\arccos\dfrac49\approx1.11$, written as $1.11^\circ$. Right: switch the calculator to degrees to get $63.6^\circ$.
+
+The second one is where most people slip. When you meet the angle between a line and a plane, remind yourself: use sine, because the normal vector is perpendicular to the plane.
 :::
 
 ## Key terms
@@ -190,9 +192,11 @@ So the roof faces slope at about $56.3^\circ$ and the roof edges at about $46.7^
 - The ground or a base: $(Oxy)$ with $\vec{k}=(0, 0, 1)$.
 - Cubes and pyramids: put the origin at a vertex or at the centre of the base so that many coordinates are $0$.
 
+Back to the radio mast: whether we used a right-angled triangle or vectors, we got the same angle. If you remember one thing, remember this: these angles are never obtuse, so there is always an absolute value; and for a line and a plane, use sine.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Find the angle between $d_1: x=1+t$, $y=2t$, $z=-t$ and $d_2: \dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{1}$ (to one decimal place of a degree).

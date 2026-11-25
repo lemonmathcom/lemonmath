@@ -13,7 +13,7 @@ minutes: 16
 
 Trong một trò chơi ở ngày hội trường, bạn gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Bạn nhận quà nếu xúc xắc xuất hiện số chẵn **và** đồng xu xuất hiện mặt ngửa. Xác suất nhận quà là bao nhiêu: ta cộng hay nhân hai xác suất?
 
-Kết quả của dụng cụ này không ảnh hưởng đến dụng cụ kia. Đó là dấu hiệu của hai biến cố độc lập.
+Bạn để ý: xúc xắc ra số mấy cũng không làm đồng xu lật khác đi. Kết quả của dụng cụ này không ảnh hưởng đến dụng cụ kia. Đó chính là dấu hiệu của hai biến cố độc lập, và khi ấy câu trả lời là phép nhân, như ta sắp thấy.
 
 ## Nhận biết hai biến cố độc lập
 
@@ -30,7 +30,7 @@ Gọi $A$ là biến cố “xúc xắc xuất hiện số chẵn” và $B$ là
 
 $$P(A)=\frac{6}{12}=\frac12,\qquad P(B)=\frac{6}{12}=\frac12,\qquad P(A\cap B)=\frac{3}{12}=\frac14.$$
 
-Trong $6$ kết quả thuộc $A$, một nửa vẫn thuộc $B$. Vì vậy $A$ không làm thay đổi khả năng xảy ra của $B$; đổi vai trò $A$, $B$ cũng vậy.
+Trong $6$ kết quả thuộc $A$, đúng một nửa vẫn thuộc $B$, giống hệt tỉ lệ mặt ngửa khi chưa biết gì về xúc xắc. Nghĩa là biết $A$ đã xảy ra cũng không làm thay đổi khả năng xảy ra của $B$; đổi vai trò $A$, $B$ cũng vậy.
 
 :::definition Hai biến cố độc lập
 Hai biến cố $A$ và $B$ gọi là **độc lập** nếu việc xảy ra hay không xảy ra của biến cố này không làm thay đổi khả năng xảy ra của biến cố kia.
@@ -38,7 +38,7 @@ Hai biến cố $A$ và $B$ gọi là **độc lập** nếu việc xảy ra hay
 
 ## Công thức nhân xác suất
 
-Trong khám phá trên, $\dfrac14=\dfrac12\cdot\dfrac12$. Đây là trường hợp đầu tiên của công thức tổng quát.
+Trong khám phá trên, $\dfrac14=\dfrac12\cdot\dfrac12$: xác suất để cả hai cùng xảy ra đúng bằng tích hai xác suất. Đây không phải trùng hợp, mà là trường hợp đầu tiên của một công thức tổng quát.
 
 :::theorem Công thức nhân cho hai biến cố độc lập
 Hai biến cố $A$ và $B$ độc lập khi và chỉ khi
@@ -64,7 +64,7 @@ $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
 Vậy xác suất cần tìm là $\dfrac16$.
 :::
 
-Khi lặp lại một thao tác, ta cần xem điều kiện của lần sau có được giữ nguyên hay không.
+Khi lặp lại một thao tác nhiều lần, bạn cần hỏi: điều kiện của lần sau có còn giữ nguyên như lần trước không? Nếu còn, hai lần độc lập; nếu không, ta phải cẩn thận.
 
 :::example Có hoàn lại và không hoàn lại
 Một hộp có $3$ thẻ đỏ và $2$ thẻ xanh, các thẻ được phân biệt. Rút ngẫu nhiên hai lần. Gọi $A$ là biến cố “lần đầu rút được thẻ đỏ”, $B$ là biến cố “lần hai rút được thẻ đỏ”. Xét tính độc lập của $A$ và $B$ trong hai cách: hoàn lại thẻ sau lần đầu, và không hoàn lại.
@@ -82,7 +82,7 @@ $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
 Vậy $A$ và $B$ không độc lập khi không hoàn lại.
 :::
 
-Không được dùng công thức nhân chỉ vì đề bài có từ “và”: trước hết phải xét tính độc lập.
+Chỗ này nhiều bạn hay nhầm: không được dùng công thức nhân chỉ vì đề bài có từ “và”. Trước hết phải xét xem hai biến cố có độc lập hay không.
 
 ## Kết hợp với biến cố đối và công thức cộng
 
@@ -112,7 +112,7 @@ $$P(\text{ít nhất một linh kiện lỗi})=1-0{,}912=0{,}088.$$
 Vậy hai xác suất lần lượt là $0{,}912$ và $0{,}088$, tức $91{,}2\%$ và $8{,}8\%$.
 :::
 
-“Đúng một” gồm hai trường hợp xung khắc: lần thứ nhất thành công còn lần thứ hai thất bại, hoặc ngược lại.
+“Đúng một” gồm hai trường hợp xung khắc: lần thứ nhất thành công còn lần thứ hai thất bại, hoặc ngược lại. Ta tính từng trường hợp bằng công thức nhân, rồi cộng lại.
 
 :::example Đúng một lần ném trúng
 Một vận động viên thực hiện hai quả ném độc lập. Xác suất ném trúng ở quả thứ nhất là $0{,}7$, ở quả thứ hai là $0{,}8$. Tính xác suất vận động viên ném trúng đúng một quả.
@@ -128,7 +128,7 @@ P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
 Vậy xác suất ném trúng đúng một quả là $0{,}38$.
 :::
 
-Công thức nhân còn cho phép tìm một xác suất chưa biết khi xác suất của giao đã được cho.
+Công thức nhân còn dùng được theo chiều ngược lại: khi đã biết xác suất của giao, ta tìm được một xác suất chưa biết.
 
 :::example Tìm xác suất còn thiếu
 Một ứng dụng có hai bước kiểm tra độc lập $A$ và $B$. Xác suất vượt qua bước $A$ là $0{,}8$, còn xác suất vượt qua cả hai bước là $0{,}52$. Tính xác suất vượt qua bước $B$ và xác suất không vượt qua bước nào.
@@ -149,6 +149,8 @@ Vậy xác suất vượt qua bước $B$ là $0{,}65$; xác suất không vư�
 - **Nhân để tính “ít nhất một”.** Tích là xác suất cả hai cùng xảy ra. Xác suất ít nhất một thường bằng $1-P(\overline A\cap\overline B)$.
 - **Coi xung khắc là độc lập.** Nếu $P(A)>0$, $P(B)>0$ và $A$, $B$ xung khắc thì $P(A\cap B)=0$ nhưng $P(A)P(B)>0$; chúng không độc lập.
 - **Mặc nhiên coi hai lần rút là độc lập.** Nếu không hoàn lại, lần đầu làm thay đổi thành phần của hộp, nên hai lần rút không độc lập.
+
+Hai lỗi đầu là chỗ nhiều bạn hay vấp nhất. Trước khi nhân, bạn hãy tự hỏi: hai biến cố này có thật sự độc lập không?
 :::
 
 ## Thuật ngữ
@@ -172,9 +174,11 @@ Vậy xác suất vượt qua bước $B$ là $0{,}65$; xác suất không vư�
 - “Ít nhất một” thường tính bằng $1-P(\overline A\cap\overline B)$; “đúng một” là hợp của $A\cap\overline B$ và $\overline A\cap B$.
 - Độc lập không có nghĩa là xung khắc. Hai biến cố có xác suất dương và xung khắc thì không độc lập.
 
+Quay lại trò chơi ở ngày hội: xúc xắc và đồng xu không ảnh hưởng đến nhau, nên ta nhân hai xác suất chứ không cộng. Nếu chỉ nhớ một điều, bạn hãy nhớ: chỉ nhân khi hai biến cố độc lập.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Tính xác suất để số chấm là bội của $3$ và đồng xu xuất hiện mặt sấp.

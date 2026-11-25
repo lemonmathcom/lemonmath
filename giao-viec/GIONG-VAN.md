@@ -85,8 +85,8 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 57 | g9/square-roots-radicals | xong 25/11/2026 (ChatGPT) |
 | 58 | g9/two-circle-positions | xong 25/11/2026 (ChatGPT) |
 | 59 | g9/vietes-theorem | xong 25/11/2026 (ChatGPT) |
-| 60 | g12/angle-formulas-space | giao Lemonmath112-GV-1 (đợt 3) |
-| 61 | g12/antiderivatives | giao Lemonmath112-GV-1 (đợt 3) |
+| 60 | g12/angle-formulas-space | xong 25/11/2026 (ChatGPT) |
+| 61 | g12/antiderivatives | xong 25/11/2026 (ChatGPT) |
 | 62 | g12/asymptotes | giao Lemonmath112-GV-2 (đợt 3) |
 | 63 | g12/conditional-probability-intro | giao Lemonmath112-GV-2 (đợt 3) |
 | 64 | g12/coordinate-system-space | giao Lemonmath112-GV-2 (đợt 3) |
@@ -195,8 +195,8 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 167 | g7/medians-angle-bisectors | xong 25/11/2026 (ChatGPT) |
 | 168 | g8/linear-functions-graphs | xong 25/11/2026 (ChatGPT) |
 | 169 | g8/monomials | xong 25/11/2026 (ChatGPT) |
-| 170 | g11/multiplication-rule | giao Lemonmath112-GV-1 (đợt 3) |
-| 171 | g11/perpendicular-planes | giao Lemonmath112-GV-1 (đợt 3) |
+| 170 | g11/multiplication-rule | xong 25/11/2026 (ChatGPT) |
+| 171 | g11/perpendicular-planes | xong 25/11/2026 (ChatGPT) |
 | 172 | exams/act/act-algebra-functions | xong 25/11/2026 (ChatGPT) |
 | 173 | exams/act/act-geometry | xong 25/11/2026 (ChatGPT) |
 | 174 | exams/act/act-modelling-integrating | xong 25/11/2026 (ChatGPT) |

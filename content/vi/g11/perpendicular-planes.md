@@ -13,9 +13,9 @@ minutes: 20
 
 Màn hình laptop quay quanh bản lề, là một đường thẳng $d$ nằm trên đế. Lấy $H$ trên bản lề, điểm $A$ trên đế và điểm $B$ trên màn hình sao cho $HA$ và $HB$ đều vuông góc với bản lề và dài $20$ cm.
 
-Khi nào màn hình thẳng đứng so với đế? Nếu đo được $AB=20\sqrt2$ cm thì ta có kết luận được không?
+Khi nào màn hình dựng thẳng đứng so với đế? Nếu đo được $AB=20\sqrt2$ cm thì ta có kết luận được không? Thước đo góc khó đặt vào chỗ bản lề, còn đo một đoạn thẳng thì dễ hơn nhiều.
 
-Để trả lời, ta cần đo "độ mở" giữa hai mặt phẳng.
+Muốn trả lời, ta cần một cách đo "độ mở" giữa hai mặt phẳng, giống như đo xem một quyển sách đang mở rộng đến đâu.
 
 ## Góc nhị diện
 
@@ -64,7 +64,7 @@ label 1.9,1.6 "(β)"
 
 ### Góc giữa hai mặt phẳng
 
-Hai mặt phẳng cắt nhau tạo ra bốn góc nhị diện. Hai góc kề nhau có tổng số đo bằng $180^\circ$, nên ta chọn góc không vượt quá $90^\circ$ để đo độ mở.
+Hai mặt phẳng cắt nhau tạo ra bốn góc nhị diện, giống như hai bức tường giao nhau chia không gian thành bốn phần. Hai góc kề nhau có tổng số đo bằng $180^\circ$, nên ta chọn góc không vượt quá $90^\circ$ để đo độ mở.
 
 :::definition Góc giữa hai mặt phẳng
 Nếu hai mặt phẳng $(\alpha)$, $(\beta)$ cắt nhau và một góc nhị diện tạo bởi chúng có góc phẳng $\varphi$, thì **góc giữa** $(\alpha)$ và $(\beta)$ bằng $\varphi$ khi $\varphi\le90^\circ$ và bằng $180^\circ-\varphi$ khi $\varphi>90^\circ$. Nếu hai mặt phẳng song song hoặc trùng nhau, góc giữa chúng bằng $0^\circ$.
@@ -78,7 +78,7 @@ Hai mặt phẳng **vuông góc** khi góc giữa chúng bằng $90^\circ$; ta v
 3. Tính góc giữa hai đường thẳng đó; nếu góc tù thì lấy góc bù.
 :::
 
-Ta áp dụng ngay trong hình lập phương.
+Ta thử ngay cách làm này trong hình lập phương, nơi mọi giao tuyến đều dễ nhìn.
 
 :::diagram Mặt phẳng $(A'BCD')$ cắt đáy $(ABCD)$ theo $BC$
 alt: Hình lập phương ABCD.A'B'C'D' với các cạnh khuất vẽ nét đứt, hình chữ nhật A'BCD' và góc ABA' bằng 45 độ
@@ -129,7 +129,7 @@ Nếu mặt phẳng $(\alpha)$ chứa một đường thẳng $a$ vuông góc v�
 
 Thật vậy, gọi $d$ là giao tuyến và $O$ là giao điểm của $a$ với $(\beta)$; khi đó $O\in d$. Vì $a\perp(\beta)$ nên $a\perp d$. Trong $(\beta)$ kẻ $Oy\perp d$; vì $a\perp(\beta)$ nên cũng có $a\perp Oy$. Vậy $a$ và $Oy$ cùng vuông góc với $d$ và vuông góc với nhau, tức là góc phẳng nhị diện bằng $90^\circ$.
 
-Chiều ngược lại cho ta những tính chất hay dùng nhất khi tính toán.
+Chiều ngược lại cho ta những tính chất dùng nhiều nhất khi tính toán. Bạn sẽ gặp lại chúng trong gần như mọi bài về hình chóp.
 
 :::theorem Tính chất của hai mặt phẳng vuông góc
 Cho $(\alpha)\perp(\beta)$ có giao tuyến $d$.
@@ -177,7 +177,7 @@ $$\tan\widehat{SBA}=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\widehat{SB
 Vậy góc giữa $(SBC)$ và $(ABCD)$ bằng $60^\circ$.
 :::
 
-Khi một mặt bên nằm trong mặt phẳng vuông góc với đáy, đường cao của hình chóp nằm ngay trong mặt bên đó.
+Vì vậy, khi một mặt bên nằm trong mặt phẳng vuông góc với đáy, đường cao của hình chóp nằm ngay trong mặt bên đó. Tìm được mặt bên ấy là tìm được đường cao.
 
 :::example Mặt bên vuông góc với đáy
 Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=6$, $BC=4$. Tam giác $SAB$ đều và nằm trong mặt phẳng vuông góc với $(ABCD)$. Tính chiều cao $SH$ với $H$ là trung điểm của $AB$, rồi tính góc giữa $SC$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
@@ -195,7 +195,7 @@ Vậy chiều cao là $3\sqrt3$ và góc giữa $SC$ với $(ABCD)$ xấp xỉ $
 
 ## Lăng trụ đứng và hình chóp đều
 
-Các hình sau xuất hiện thường xuyên trong bài toán về góc giữa hai mặt phẳng.
+Các hình sau xuất hiện thường xuyên trong bài toán về góc giữa hai mặt phẳng, nên bạn cần nhận ra chúng thật nhanh.
 
 - **Lăng trụ đứng** có cạnh bên vuông góc với mặt đáy. Mỗi mặt bên là hình chữ nhật chứa một cạnh bên, nên theo điều kiện ở trên, mỗi mặt bên vuông góc với đáy.
 - **Lăng trụ đều** là lăng trụ đứng có đáy là đa giác đều. **Hình hộp đứng** là lăng trụ đứng có đáy là hình bình hành; **hình hộp chữ nhật** có đáy là hình chữ nhật; **hình lập phương** có mọi mặt là hình vuông.
@@ -214,7 +214,7 @@ $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2{,}4,\qquad\tan\widehat{A'HA}=\fra
 Do đó $\widehat{A'HA}\approx36{,}9^\circ$. Vậy góc giữa $(A'BC)$ và $(ABC)$ xấp xỉ $36{,}9^\circ$.
 :::
 
-Với hình chóp đều, mặt bên và đáy cắt nhau theo một cạnh đáy, và trung điểm của cạnh đó giúp ta tìm góc phẳng.
+Với hình chóp đều, mặt bên và đáy cắt nhau theo một cạnh đáy. Trung điểm của cạnh đó là chỗ hai đường vuông góc với giao tuyến gặp nhau, nên nó giúp ta tìm ra góc phẳng nhị diện.
 
 :::example Hình chóp tứ giác đều
 Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và cạnh bên bằng $5$. Gọi $O$ là tâm của đáy.
@@ -237,6 +237,8 @@ Vậy góc giữa $(SBC)$ và $(ABCD)$ xấp xỉ $41{,}4^\circ$.
 - **Quên đổi góc tù.** Sai: góc phẳng nhị diện là $120^\circ$ nên góc giữa hai mặt phẳng là $120^\circ$. Lí do sai: góc giữa hai mặt phẳng không vượt quá $90^\circ$. Đúng: $180^\circ-120^\circ=60^\circ$.
 - **Cho rằng mọi đường thẳng trong $(\alpha)$ đều vuông góc với $(\beta)$.** Sai: $(\alpha)\perp(\beta)$ nên mọi đường thẳng của $(\alpha)$ vuông góc với $(\beta)$. Lí do sai: chỉ những đường thẳng vuông góc với giao tuyến mới vuông góc với $(\beta)$. Đúng: $a\subset(\alpha)$ và $a\perp d$.
 - **Thiếu điều kiện vuông góc với giao tuyến.** Sai: $(SAB)\perp(ABCD)$ nên $SA\perp(ABCD)$ với mọi tam giác $SAB$. Lí do sai: phải có $SA\perp AB$ (vuông góc với giao tuyến) mới suy ra được. Đúng: kiểm tra $SA\perp AB$ rồi mới kết luận.
+
+Lỗi đầu tiên và lỗi cuối cùng là hai chỗ nhiều bạn hay nhầm nhất. Mỗi lần dùng một đường thẳng, bạn kiểm tra xem nó có vuông góc với giao tuyến không.
 :::
 
 ## Thuật ngữ
@@ -264,9 +266,11 @@ Vậy góc giữa $(SBC)$ và $(ABCD)$ xấp xỉ $41{,}4^\circ$.
 - Nếu $(\alpha)\perp(\beta)$ và $a\subset(\alpha)$, $a\perp d$ thì $a\perp(\beta)$. Hai mặt phẳng cắt nhau cùng vuông góc với mặt phẳng thứ ba thì giao tuyến vuông góc với mặt phẳng đó.
 - Lăng trụ đứng: các mặt bên vuông góc với đáy. Hình chóp đều: chân đường cao là tâm đáy; góc giữa mặt bên và đáy là $\widehat{SMO}$ với $M$ là trung điểm cạnh đáy.
 
+Quay lại chiếc laptop: hai đoạn thẳng ta đo đều vuông góc với bản lề, nên góc giữa chúng chính là độ mở của màn hình, và định lí Pythagore đảo cho biết khi nào góc ấy vuông. Nếu chỉ nhớ một điều, bạn hãy nhớ: muốn đo góc giữa hai mặt phẳng, hãy lấy hai đường thẳng cùng vuông góc với giao tuyến tại một điểm.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Hai mặt phẳng $(\alpha)$ và $(\beta)$ cắt nhau theo đường thẳng $d$. Một góc nhị diện tạo bởi chúng có góc phẳng $135^\circ$. Tính góc giữa $(\alpha)$ và $(\beta)$.

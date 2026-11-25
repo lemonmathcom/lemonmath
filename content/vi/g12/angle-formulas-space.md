@@ -11,9 +11,9 @@ minutes: 22
 - Đặt hình lập phương, hình chóp vào hệ $Oxyz$ để tính góc.
 :::
 
-Một cột ăng-ten cao $10$ m được giữ bằng dây cáp nối từ đỉnh cột xuống một móc neo trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 10)$, móc neo là $A(6; 8; 0)$. Dây cáp hợp với mặt đất một góc bao nhiêu độ?
+Một cột ăng-ten cao $10$ m được giữ bằng dây cáp nối từ đỉnh cột xuống một móc neo trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 10)$, móc neo là $A(6; 8; 0)$. Dây cáp hợp với mặt đất một góc bao nhiêu độ? Không cần trèo lên đo, toạ độ cho ta câu trả lời ngay trên giấy.
 
-Ở bài [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations) ta đã tính góc giữa hai vectơ. Bài này dùng công thức đó, thêm dấu giá trị tuyệt đối, để tính góc giữa đường thẳng và mặt phẳng.
+Ở bài [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations), ta đã tính được góc giữa hai vectơ. Chỉ cần thêm dấu giá trị tuyệt đối và một chút suy nghĩ, công thức đó cho ta cả góc giữa đường thẳng và mặt phẳng.
 
 :::diagram Cột ăng-ten và dây cáp
 alt: Hệ trục Oxyz; cột OT trên trục Oz, dây cáp TA nối đỉnh cột với điểm A trên mặt đất, đoạn OA nét đứt là hình chiếu của dây cáp, cung góc tại A
@@ -51,7 +51,7 @@ $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
 
 ## Góc giữa hai đường thẳng và giữa hai mặt phẳng
 
-Góc giữa hai đường thẳng luôn từ $0^\circ$ đến $90^\circ$, còn góc giữa hai vectơ chỉ phương có thể tù. Vì vậy ta lấy giá trị tuyệt đối của tích vô hướng. Góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng lần lượt vuông góc với chúng, nên ta dùng hai vectơ pháp tuyến.
+Góc giữa hai đường thẳng luôn từ $0^\circ$ đến $90^\circ$, còn góc giữa hai vectơ chỉ phương thì có thể tù, vì vectơ có hướng còn đường thẳng thì không. Đó là lí do ta lấy giá trị tuyệt đối của tích vô hướng. Góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng lần lượt vuông góc với chúng, nên ta dùng hai vectơ pháp tuyến.
 
 :::theorem Hai công thức góc
 - Hai đường thẳng $\Delta_1$, $\Delta_2$ có vectơ chỉ phương $\vec{u}_1$, $\vec{u}_2$ tạo với nhau góc $\varphi$ ($0^\circ\le\varphi\le90^\circ$) với
@@ -72,7 +72,7 @@ Vậy góc giữa $d_1$ và $d_2$ bằng $60^\circ$.
 **Kiểm tra.** Góc giữa hai *vectơ* $\vec{u}_1$, $\vec{u}_2$ là $120^\circ$ (cosin bằng $-\dfrac12$); góc giữa hai *đường thẳng* là $180^\circ-120^\circ=60^\circ$.
 :::
 
-Trong hình học không gian, ta đặt hình vào hệ trục sao cho nhiều toạ độ bằng $0$, rồi dùng các công thức trên.
+Với bài hình học không gian, bước quan trọng nhất là đặt hình vào hệ trục cho khéo: chọn gốc và các trục sao cho nhiều toạ độ bằng $0$. Sau đó chỉ còn việc thay vào các công thức trên.
 
 :::example Hai đường chéo mặt của hình lập phương
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Tính góc giữa hai đường thẳng $AB'$ và $BC'$.
@@ -84,7 +84,7 @@ $$\overrightarrow{AB'}=(1; 0; 1),\qquad \overrightarrow{BC'}=(0; 1; 1),\qquad \c
 Vậy góc giữa $AB'$ và $BC'$ bằng $60^\circ$.
 :::
 
-Hình chóp có một cạnh bên vuông góc với đáy cũng đặt được vào hệ trục rất gọn.
+Hình chóp có một cạnh bên vuông góc với đáy cũng đặt được vào hệ trục rất gọn, vì cạnh bên ấy có thể nằm ngay trên một trục.
 
 :::diagram Hình chóp $S.ABCD$ có $SA$ vuông góc với đáy
 alt: Hình chóp S.ABCD đáy hình vuông, đỉnh S thẳng phía trên A, các cạnh khuất AD, DC, SD và đường chéo AC vẽ nét đứt
@@ -119,7 +119,7 @@ $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \va
 Vậy $SC$ tạo với đáy góc khoảng $35{,}3^\circ$, và $SB$ tạo với $(SAC)$ góc $30^\circ$.
 :::
 
-Với hai mặt phẳng, ta chỉ cần hai vectơ pháp tuyến.
+Với hai mặt phẳng, ta chỉ cần tìm hai vectơ pháp tuyến; phần còn lại là một phép tính quen thuộc.
 
 :::example Góc giữa hai mặt phẳng
 a) Tính góc giữa $(P): x+2y-2z+1=0$ và $(Q): 2x-y+2z-3=0$ (làm tròn đến hàng phần mười của độ).
@@ -137,7 +137,7 @@ $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\c
 Vậy a) góc khoảng $63{,}6^\circ$; b) góc $45^\circ$.
 :::
 
-Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm theo bốn bước.
+Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm chậm lại theo bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.
 
 :::example Mái lều hình chóp
 Một chiếc lều có dạng hình chóp tứ giác đều: đáy là hình vuông cạnh $4$ m, đỉnh lều cao $3$ m so với tâm đáy. Tính góc giữa một mặt mái và mặt đất, và góc giữa một cạnh mái với mặt đất (làm tròn đến hàng phần mười của độ).
@@ -166,6 +166,8 @@ Vậy mặt mái nghiêng khoảng $56{,}3^\circ$ và cạnh mái nghiêng kho�
 - **Dùng côsin cho góc giữa đường thẳng và mặt phẳng.** Sai: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ cho $SB$ và $(SAC)$, ra $60^\circ$. Vì sao sai: biểu thức đó là côsin của góc giữa $SB$ và đường vuông góc với mặt phẳng. Đúng: dùng $\sin\varphi$, được $30^\circ$.
 - **Dùng vectơ chỉ phương thay cho vectơ pháp tuyến của mặt phẳng.** Sai: lấy $\overrightarrow{BC}$ làm "vectơ của mặt phẳng $(SBC)$". Vì sao sai: $\overrightarrow{BC}$ nằm trong mặt phẳng, không vuông góc với nó. Đúng: tìm phương trình mặt phẳng, rồi đọc vectơ pháp tuyến.
 - **Nhầm chế độ độ và radian trên máy tính.** Sai: $\arccos\dfrac49\approx1{,}11$ rồi ghi $1{,}11^\circ$. Đúng: chuyển máy tính sang chế độ độ, được $63{,}6^\circ$.
+
+Lỗi thứ hai là chỗ nhiều bạn hay nhầm nhất. Gặp góc giữa đường thẳng và mặt phẳng, bạn nhắc mình: dùng sin, vì vectơ pháp tuyến vuông góc với mặt phẳng.
 :::
 
 ## Thuật ngữ
@@ -190,9 +192,11 @@ Vậy mặt mái nghiêng khoảng $56{,}3^\circ$ và cạnh mái nghiêng kho�
 - Mặt đất, mặt đáy: $(Oxy)$ với $\vec{k}=(0; 0; 1)$.
 - Hình lập phương, hình chóp: chọn gốc ở một đỉnh hoặc tâm đáy để nhiều toạ độ bằng $0$.
 
+Quay lại cột ăng-ten: tính bằng tam giác vuông hay bằng vectơ, ta đều được cùng một góc. Nếu chỉ nhớ một điều, bạn hãy nhớ: các góc này không bao giờ tù, nên luôn có dấu giá trị tuyệt đối; riêng góc giữa đường thẳng và mặt phẳng thì dùng sin.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Tính góc giữa $d_1: x=1+t$, $y=2t$, $z=-t$ và $d_2: \dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{1}$ (làm tròn đến hàng phần mười của độ).

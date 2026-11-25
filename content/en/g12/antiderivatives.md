@@ -15,13 +15,13 @@ A car is travelling at $20$ m/s when the driver brakes. From that moment, its ve
 
 You might think: $20\cdot 4=80$ m. But the car keeps slowing down, so the distance must be less. To answer, we need to run differentiation backwards.
 
-A car's speedometer shows the velocity at each moment, while its odometer shows how far the car has gone. Differentiation goes from distance to velocity; this lesson studies the reverse journey, from velocity back to distance. The same reverse step finds the amount of water in a tank from its rate of flow, or a population from its rate of growth.
+A car's speedometer shows the velocity at each moment, while its odometer shows how far the car has gone. Differentiation goes from distance to velocity. Now we learn to make the journey in reverse, from velocity back to distance. The same reverse step finds the amount of water in a tank from its rate of flow, or a population from its rate of growth.
 
 ## What is an antiderivative?
 
 ### Explore: which functions have derivative $2x$?
 
-In grade 11 we learnt to differentiate. Now we ask the reverse question: if the derivative is $2x$, what was the function?
+In grade 11 you got used to differentiating. Now we ask the reverse question: if the derivative is $2x$, what was the function? Have a guess before you read on.
 
 | Function $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ The symbol $\displaystyle\int f(x)\,dx$ is read "the indefinite integral of $f$"
 
 ## The table and the rules
 
-Each row of this table is a derivative formula read backwards. You can check every row by differentiating the right-hand side.
+Each row of this table is a derivative formula read backwards, so you are not learning a completely new table. To be sure, check each row yourself by differentiating the right-hand side.
 
 | Function $f(x)$ | Indefinite integral $\displaystyle\int f(x)\,dx$ |
 |---|---|
@@ -71,7 +71,7 @@ If $f$ and $g$ have antiderivatives on $K$ and $k$ is a non-zero constant, then
 $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
 :::
 
-Both rules hold because differentiation follows the same rules. With them, we find the antiderivative of a sum one term at a time.
+Both rules hold because differentiation follows the same rules. With them, when we meet a sum, we find the antiderivative of each term and add.
 
 :::example The antiderivative of a polynomial
 Find $\displaystyle\int(3x^2-4x+5)\,dx$.
@@ -85,7 +85,7 @@ $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C
 So $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
 :::
 
-With roots and fractions, we rewrite them as powers before using the table.
+When you meet roots or fractions, do not rush. Rewrite them as powers first, and only then use the table.
 
 :::example Roots and fractions
 Find $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
@@ -102,7 +102,7 @@ Since $\lvert x\rvert=x$ on $(0, +\infty)$, we may write $\ln x$.
 So the required family of antiderivatives is $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
 :::
 
-Next come exponential and trigonometric functions. Watch every sign.
+The next example has exponential and trigonometric functions. Signs are easy to get wrong here, so watch each one.
 
 :::example Exponential and trigonometric functions
 Find $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
@@ -112,7 +112,7 @@ Find $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
 $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
 :::
 
-Many functions are not in the table, but a small rearrangement puts them there.
+Many functions are not in the table. But a small rearrangement brings them back to a familiar form.
 
 :::example Rearranging first
 Find a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ on $(0, +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ on $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$.
@@ -128,7 +128,7 @@ $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
 
 ## The antiderivative that meets a condition
 
-A family of antiderivatives has infinitely many members. When we are given one more value, such as $F(0)=5$, we substitute it to find exactly one constant $C$.
+A family of antiderivatives has infinitely many members. When we are given one more value, such as $F(0)=5$, we substitute it to find exactly one constant $C$. That is also how we know where the car is, not just how much further it goes.
 
 :::example An antiderivative through a point
 Find the antiderivative $F(x)$ of the function $f(x)=e^x+4x$ that satisfies $F(0)=5$.
@@ -183,6 +183,8 @@ So the car travels $40$ m more, only half of the $80$ m guessed at the start.
 - **The wrong sign with $\sin x$.** Wrong: $\displaystyle\int\sin x\,dx=\cos x+C$. Why it is wrong: $(\cos x)'=-\sin x$. Right: $\displaystyle\int\sin x\,dx=-\cos x+C$.
 - **Splitting the antiderivative of a product.** Wrong: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Why it is wrong: there is no rule "the antiderivative of a product is the product of the antiderivatives"; differentiating the right-hand side gives $x^3\neq x^2$. Right: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
 - **Taking $e^0=0$ when finding $C$.** Wrong: $F(x)=e^x+2x^2+C$ and $F(0)=5$, so $C=5$. Why it is wrong: $e^0=1$. Right: $1+C=5$, so $C=4$.
+
+The second and third slips are common when you work in a hurry. The simplest safeguard: when you have finished, differentiate your answer and see whether you get back the original function.
 :::
 
 ## Key terms
@@ -207,9 +209,11 @@ So the car travels $40$ m more, only half of the $80$ m guessed at the start.
 - Given $F(x_0)=y_0$, substitute it to find $C$.
 - Distance is an antiderivative of velocity; always check by differentiating.
 
+Back to the car: the extra distance it travels is an antiderivative of its velocity, so we can find it from the velocity formula alone. If you remember one thing, remember this: finding an antiderivative is reading a derivative backwards, and do not forget the added constant.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Find $\displaystyle\int(4x^3-6x+7)\,dx$.

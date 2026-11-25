@@ -13,9 +13,9 @@ minutes: 20
 
 A laptop screen turns about its hinge, which is a line $d$ lying in the base. Take a point $H$ on the hinge, a point $A$ on the base and a point $B$ on the screen so that $HA$ and $HB$ are both perpendicular to the hinge and each is $20$ cm long.
 
-When is the screen upright, at a right angle to the base? If we measure $AB=20\sqrt2$ cm, can we draw a conclusion?
+When is the screen upright, at a right angle to the base? If we measure $AB=20\sqrt2$ cm, can we draw a conclusion? A protractor is awkward to fit at the hinge, but a length is easy to measure.
 
-To answer, we need a way to measure how far open two planes are.
+To answer, we need a way to measure how far open two planes are, rather like seeing how wide a book has been opened.
 
 ## Dihedral angles
 
@@ -64,7 +64,7 @@ label 1.9,1.6 "(β)"
 
 ### The angle between two planes
 
-Two intersecting planes form four dihedral angles. Two neighbouring angles add up to $180^\circ$, so we choose the one that is at most $90^\circ$ to measure the opening.
+Two intersecting planes form four dihedral angles, rather like two walls that cross and split the space into four parts. Two neighbouring angles add up to $180^\circ$, so we choose the one that is at most $90^\circ$ to measure the opening.
 
 :::definition Angle between two planes
 Suppose $(\alpha)$ and $(\beta)$ intersect and one of their dihedral angles has plane angle $\varphi$. The **angle between** $(\alpha)$ and $(\beta)$ is $\varphi$ if $\varphi\le90^\circ$ and $180^\circ-\varphi$ if $\varphi>90^\circ$. If the planes are parallel or coincide, the angle between them is $0^\circ$.
@@ -78,7 +78,7 @@ Two planes are **perpendicular** when the angle between them is $90^\circ$; we w
 3. Find the angle between these two lines; if it is obtuse, take its supplement.
 :::
 
-We try this at once in a cube.
+We try this at once in a cube, where every line of intersection is easy to see.
 
 :::diagram Plane $(A'BCD')$ meets the base $(ABCD)$ along $BC$
 alt: Cube ABCD.A'B'C'D' with hidden edges dashed, the rectangle A'BCD' and the angle ABA' equal to 45 degrees
@@ -129,7 +129,7 @@ If a plane $(\alpha)$ contains a line $a$ that is perpendicular to a plane $(\be
 
 Here is why. Let $d$ be the line of intersection and $O$ the point where $a$ meets $(\beta)$; then $O\in d$. Since $a\perp(\beta)$, we have $a\perp d$. In $(\beta)$ draw $Oy\perp d$; since $a\perp(\beta)$, also $a\perp Oy$. So $a$ and $Oy$ are both perpendicular to $d$ and perpendicular to each other: the plane angle is $90^\circ$.
 
-The other direction gives the properties we use most in calculations.
+The other direction gives the properties we use most in calculations. You will meet them again in almost every pyramid problem.
 
 :::theorem Properties of perpendicular planes
 Let $(\alpha)\perp(\beta)$ with line of intersection $d$.
@@ -177,7 +177,7 @@ $$\tan\angle SBA=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\angle SBA=60^
 So the angle between $(SBC)$ and $(ABCD)$ is $60^\circ$.
 :::
 
-When a face lies in a plane perpendicular to the base, the height of the pyramid lies in that face.
+So when a face lies in a plane perpendicular to the base, the height of the pyramid lies in that face. Find that face and you have found the height.
 
 :::example A face perpendicular to the base
 The pyramid $S.ABCD$ has a rectangular base with $AB=6$ and $BC=4$. Triangle $SAB$ is equilateral and lies in a plane perpendicular to $(ABCD)$. Find the height $SH$, where $H$ is the midpoint of $AB$, and then the angle between $SC$ and $(ABCD)$ (round to the nearest tenth of a degree).
@@ -195,7 +195,7 @@ So the height is $3\sqrt3$ and the angle between $SC$ and $(ABCD)$ is about $46.
 
 ## Right prisms and regular pyramids
 
-These solids appear all the time in problems about the angle between two planes.
+These solids appear all the time in problems about the angle between two planes, so you need to recognise them quickly.
 
 - A **right prism** has its lateral edges perpendicular to the base. Each lateral face is a rectangle containing a lateral edge, so by the test above, each lateral face is perpendicular to the base.
 - A **regular prism** is a right prism whose base is a regular polygon. A right parallelepiped is a right prism whose base is a parallelogram; a **cuboid** has a rectangular base; a **cube** has six square faces.
@@ -214,7 +214,7 @@ $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2.4,\qquad\tan\angle A'HA=\frac{AA'
 So $\angle A'HA\approx36.9^\circ$. The angle between $(A'BC)$ and $(ABC)$ is about $36.9^\circ$.
 :::
 
-In a regular pyramid, a lateral face meets the base along a side of the base, and the midpoint of that side helps us find the plane angle.
+In a regular pyramid, a lateral face meets the base along a side of the base. The midpoint of that side is where two lines perpendicular to the line of intersection meet, so it helps us find the plane angle.
 
 :::example A regular square pyramid
 The regular square pyramid $S.ABCD$ has base side $6$ and lateral edge $5$. Let $O$ be the centre of the base.
@@ -237,6 +237,8 @@ So the angle between $(SBC)$ and $(ABCD)$ is about $41.4^\circ$.
 - **Forgetting to change an obtuse angle.** Wrong: the plane angle is $120^\circ$, so the angle between the planes is $120^\circ$. Why it is wrong: the angle between two planes is never more than $90^\circ$. Right: $180^\circ-120^\circ=60^\circ$.
 - **Thinking every line in $(\alpha)$ is perpendicular to $(\beta)$.** Wrong: $(\alpha)\perp(\beta)$, so every line of $(\alpha)$ is perpendicular to $(\beta)$. Why it is wrong: only lines perpendicular to the line of intersection are. Right: $a\subset(\alpha)$ and $a\perp d$.
 - **Missing the condition of being perpendicular to the line of intersection.** Wrong: $(SAB)\perp(ABCD)$, so $SA\perp(ABCD)$ for any triangle $SAB$. Why it is wrong: we need $SA\perp AB$ (perpendicular to the line of intersection) first. Right: check $SA\perp AB$, then conclude.
+
+The first and the last are where most people slip. Each time you use a line, check that it is perpendicular to the line of intersection.
 :::
 
 ## Key terms
@@ -264,9 +266,11 @@ So the angle between $(SBC)$ and $(ABCD)$ is about $41.4^\circ$.
 - If $(\alpha)\perp(\beta)$ and $a\subset(\alpha)$ with $a\perp d$, then $a\perp(\beta)$. If two intersecting planes are both perpendicular to a third plane, their line of intersection is perpendicular to it.
 - Right prism: the lateral faces are perpendicular to the base. Regular pyramid: the foot of the height is the centre of the base; the angle between a lateral face and the base is $\angle SMO$, where $M$ is the midpoint of a side of the base.
 
+Back to the laptop: the two segments we measured are both perpendicular to the hinge, so the angle between them is exactly the opening of the screen, and the converse of Pythagoras' theorem tells us when that angle is a right angle. If you remember one thing, remember this: to measure the angle between two planes, take two lines perpendicular to the line of intersection at one point.
+
 ## Practice
 
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few hints. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 The planes $(\alpha)$ and $(\beta)$ intersect along a line $d$. One of their dihedral angles has plane angle $135^\circ$. Find the angle between $(\alpha)$ and $(\beta)$.

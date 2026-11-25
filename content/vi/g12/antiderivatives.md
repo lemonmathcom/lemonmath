@@ -15,13 +15,13 @@ Một ô tô đang chạy với vận tốc $20$ m/s thì người lái đạp p
 
 Bạn có thể nghĩ: $20\cdot 4=80$ m. Nhưng xe chạy chậm dần, nên quãng đường phải ít hơn. Để trả lời, ta cần làm ngược lại phép tính đạo hàm.
 
-Đồng hồ tốc độ trên xe cho biết vận tốc ở từng thời điểm, còn đồng hồ quãng đường (đồng hồ ODO) cho biết xe đã đi bao xa. Đạo hàm đi từ quãng đường đến vận tốc; bài này học phép đi theo chiều ngược lại, từ vận tốc tìm lại quãng đường. Cũng phép ngược ấy cho phép tìm lượng nước trong bể khi biết tốc độ chảy, hay dân số khi biết tốc độ tăng dân số.
+Đồng hồ tốc độ trên xe cho biết vận tốc ở từng thời điểm, còn đồng hồ quãng đường (đồng hồ ODO) cho biết xe đã đi bao xa. Đạo hàm đi từ quãng đường đến vận tốc. Giờ ta học cách đi theo chiều ngược lại: từ vận tốc tìm lại quãng đường. Cũng phép ngược ấy giúp tìm lượng nước trong bể khi biết tốc độ chảy, hay dân số khi biết tốc độ tăng dân số.
 
 ## Nguyên hàm là gì?
 
 ### Khám phá: hàm số nào có đạo hàm là $2x$?
 
-Ở lớp 11 ta đã biết lấy đạo hàm. Bây giờ ta hỏi ngược lại: biết đạo hàm là $2x$, hàm số ban đầu là gì?
+Ở lớp 11, bạn đã quen lấy đạo hàm. Bây giờ ta hỏi ngược lại: biết đạo hàm là $2x$, hàm số ban đầu là gì? Bạn thử đoán trước khi đọc tiếp.
 
 | Hàm số $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
 |---|---|---|---|---|
@@ -49,7 +49,7 @@ Kí hiệu $\displaystyle\int f(x)\,dx$ đọc là "tích phân bất định c�
 
 ## Bảng nguyên hàm và tính chất
 
-Mỗi dòng của bảng sau là một công thức đạo hàm đọc ngược. Bạn có thể tự kiểm tra từng dòng bằng cách lấy đạo hàm vế phải.
+Mỗi dòng của bảng sau là một công thức đạo hàm đọc ngược, nên bạn không phải học thuộc như học một bảng hoàn toàn mới. Muốn chắc chắn, bạn tự kiểm tra từng dòng bằng cách lấy đạo hàm vế phải.
 
 | Hàm số $f(x)$ | Họ nguyên hàm $\displaystyle\int f(x)\,dx$ |
 |---|---|
@@ -71,7 +71,7 @@ Nếu $f$, $g$ có nguyên hàm trên $K$ và $k$ là hằng số khác $0$ thì
 $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
 :::
 
-Hai tính chất này đúng vì đạo hàm cũng có tính chất như vậy. Nhờ chúng, ta tìm nguyên hàm của một tổng bằng cách xử lí từng số hạng.
+Hai tính chất này đúng vì đạo hàm cũng có tính chất như vậy. Nhờ chúng, gặp một tổng, ta tìm nguyên hàm của từng số hạng rồi cộng lại.
 
 :::example Nguyên hàm của một đa thức
 Tìm $\displaystyle\int(3x^2-4x+5)\,dx$.
@@ -85,7 +85,7 @@ $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C
 Vậy $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
 :::
 
-Với căn thức và phân thức, ta viết lại thành luỹ thừa trước khi dùng bảng.
+Gặp căn thức hay phân thức, bạn đừng vội. Hãy viết lại chúng thành luỹ thừa trước, rồi mới dùng bảng.
 
 :::example Căn thức và phân thức
 Tìm $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ trên khoảng $(0; +\infty)$.
@@ -102,7 +102,7 @@ Vì trên $(0; +\infty)$ ta có $\lvert x\rvert=x$ nên ta viết được $\ln 
 Vậy họ nguyên hàm cần tìm là $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
 :::
 
-Tiếp theo là các hàm mũ và lượng giác. Chú ý từng dấu.
+Ví dụ sau có các hàm mũ và lượng giác. Chỗ này rất dễ sai dấu, nên bạn để ý từng dấu một.
 
 :::example Hàm mũ và hàm lượng giác
 Tìm $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
@@ -112,7 +112,7 @@ Tìm $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
 $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
 :::
 
-Nhiều hàm số không có sẵn trong bảng, nhưng biến đổi một chút thì có.
+Nhiều hàm số không có sẵn trong bảng. Nhưng chỉ cần biến đổi một chút, chúng sẽ trở về dạng quen thuộc.
 
 :::example Biến đổi trước khi tìm nguyên hàm
 Tìm a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ trên $(0; +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ trên $\left(-\dfrac{\pi}{2}; \dfrac{\pi}{2}\right)$.
@@ -128,7 +128,7 @@ $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
 
 ## Nguyên hàm thoả mãn một điều kiện
 
-Họ nguyên hàm có vô số hàm. Khi đề cho thêm một giá trị, chẳng hạn $F(0)=5$, ta thay vào để tìm đúng một hằng số $C$.
+Họ nguyên hàm có vô số hàm. Khi đề cho thêm một giá trị, chẳng hạn $F(0)=5$, ta thay vào để tìm đúng một hằng số $C$. Đó cũng là cách ta biết chiếc xe đang ở đâu, chứ không chỉ biết nó đi thêm bao xa.
 
 :::example Nguyên hàm đi qua một điểm
 Tìm nguyên hàm $F(x)$ của hàm số $f(x)=e^x+4x$ thoả mãn $F(0)=5$.
@@ -183,6 +183,8 @@ Vậy xe đi thêm $40$ m, chỉ bằng một nửa con số $80$ m đoán lúc 
 - **Sai dấu với $\sin x$.** Sai: $\displaystyle\int\sin x\,dx=\cos x+C$. Lí do sai: $(\cos x)'=-\sin x$. Đúng: $\displaystyle\int\sin x\,dx=-\cos x+C$.
 - **Tách nguyên hàm của một tích.** Sai: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Lí do sai: không có quy tắc "nguyên hàm của tích bằng tích các nguyên hàm"; lấy đạo hàm vế phải được $x^3\neq x^2$. Đúng: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
 - **Coi $e^0=0$ khi tìm $C$.** Sai: $F(x)=e^x+2x^2+C$, $F(0)=5$ nên $C=5$. Lí do sai: $e^0=1$. Đúng: $1+C=5$, $C=4$.
+
+Lỗi thứ hai và lỗi thứ ba rất hay gặp khi làm vội. Cách chống nhầm đơn giản nhất: làm xong, bạn lấy đạo hàm kết quả xem có ra hàm ban đầu không.
 :::
 
 ## Thuật ngữ
@@ -207,9 +209,11 @@ Vậy xe đi thêm $40$ m, chỉ bằng một nửa con số $80$ m đoán lúc 
 - Cho thêm $F(x_0)=y_0$ thì thay vào để tìm $C$.
 - Quãng đường là nguyên hàm của vận tốc; luôn kiểm tra bằng cách lấy đạo hàm.
 
+Quay lại chiếc ô tô: quãng đường xe đi thêm là một nguyên hàm của vận tốc, nên ta tìm được nó chỉ từ công thức vận tốc. Nếu chỉ nhớ một điều, bạn hãy nhớ: tìm nguyên hàm là đọc ngược đạo hàm, và đừng quên hằng số cộng thêm.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Tìm $\displaystyle\int(4x^3-6x+7)\,dx$.
