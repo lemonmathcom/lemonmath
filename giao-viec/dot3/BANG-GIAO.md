@@ -145,7 +145,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 
 | Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |
 |---|---|---|---|---|---|
-| Kinangtoan | Kinangtoan-GV-1.txt | Kinangtoan-GV-1-ketqua.md | Lớp 1: 4 bài học | 55 KB | ☐ |
+| Kinangtoan | Kinangtoan-GV-1.txt | Kinangtoan-GV-1-ketqua.md | Lớp 1: 4 bài học | 55 KB | ☑ |
 | Kinangtoan | Kinangtoan-GV-2.txt | Kinangtoan-GV-2-ketqua.md | Lớp 1: 4 bài học | 53 KB | ☑ |
 | Kinangtoan | Kinangtoan-GV-3.txt | Kinangtoan-GV-3-ketqua.md | Lớp 1: 4 bài học | 55 KB | ☑ |
 | Kinangtoan | Kinangtoan-GV-4.txt | Kinangtoan-GV-4-ketqua.md | Lớp 1: 2 bài học | 33 KB | ☑ |
@@ -185,8 +185,8 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | hanibi108 | hanibi108-GV-2.txt | hanibi108-GV-2-ketqua.md | Lớp 12: 4 bài học | 20 KB | ☑ |
 | hanibi108 | hanibi108-GV-3.txt | hanibi108-GV-3-ketqua.md | Lớp 12: 4 bài học | 94 KB | ☑ |
 | hanibi108 | hanibi108-GV-4.txt | hanibi108-GV-4-ketqua.md | Lớp 12: 2 bài học | 56 KB | ☑ |
-| Xedap102 | Xedap102-GV-1.txt | Xedap102-GV-1-ketqua.md | Lớp 12: 4 bài học | 104 KB | ☐ |
-| Xedap102 | Xedap102-GV-2.txt | Xedap102-GV-2-ketqua.md | Lớp 12 → Ôn thi SAT: 4 bài học | 87 KB | ☐ |
+| Xedap102 | Xedap102-GV-1.txt | Xedap102-GV-1-ketqua.md | Lớp 12: 4 bài học | 104 KB | ☑ |
+| Xedap102 | Xedap102-GV-2.txt | Xedap102-GV-2-ketqua.md | Lớp 12 → Ôn thi SAT: 4 bài học | 87 KB | ☑ |
 | Xedap102 | Xedap102-GV-3.txt | Xedap102-GV-3-ketqua.md | Ôn thi SAT: 4 bài học | 78 KB | ☑ |
 | Xedap102 | Xedap102-GV-4.txt | Xedap102-GV-4-ketqua.md | Ôn thi SAT: 2 bài học | 35 KB | ☑ |
 | chanh106 | chanh106-GV-1.txt | chanh106-GV-1-ketqua.md | Ôn thi SAT: 4 bài học | 75 KB | ☑ |
@@ -194,7 +194,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | chanh106 | chanh106-GV-3.txt | chanh106-GV-3-ketqua.md | Ôn thi ACT → Ôn thi AP PRECALCULUS: 4 bài học | 69 KB | ☑ |
 | chanh106 | chanh106-GV-4.txt | chanh106-GV-4-ketqua.md | Ôn thi AP PRECALCULUS: 2 bài học | 42 KB | ☑ |
 | thaodebao1 | thaodebao1-GV-1.txt | thaodebao1-GV-1-ketqua.md | Ôn thi AP PRECALCULUS: 4 bài học | 74 KB | ☑ |
-| thaodebao1 | thaodebao1-GV-2.txt | thaodebao1-GV-2-ketqua.md | Ôn thi AP PRECALCULUS → Ôn thi AP CALCULUS: 4 bài học | 81 KB | ☐ |
+| thaodebao1 | thaodebao1-GV-2.txt | thaodebao1-GV-2-ketqua.md | Ôn thi AP PRECALCULUS → Ôn thi AP CALCULUS: 4 bài học | 81 KB | ☑ |
 | thaodebao1 | thaodebao1-GV-3.txt | thaodebao1-GV-3-ketqua.md | Ôn thi AP CALCULUS: 4 bài học | 78 KB | ☑ |
 | thaodebao1 | thaodebao1-GV-4.txt | thaodebao1-GV-4-ketqua.md | Ôn thi AP CALCULUS: 2 bài học | 41 KB | ☑ |
 | nguoibuonthinh | nguoibuonthinh-GV-1.txt | nguoibuonthinh-GV-1-ketqua.md | Ôn thi AP CALCULUS: 4 bài học | 74 KB | ☑ |

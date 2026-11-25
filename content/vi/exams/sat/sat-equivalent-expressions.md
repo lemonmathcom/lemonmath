@@ -11,7 +11,7 @@ minutes: 35
 - Rút gọn phân thức và biến đổi công thức để biểu diễn một đại lượng theo các đại lượng khác.
 :::
 
-"Biểu thức nào tương đương với…?" (Which expression is equivalent to…?) là một trong những câu hỏi gặp nhiều nhất ở mảng Advanced Math, mảng có khoảng 13 đến 15 câu trong đề. Các câu này kiểm tra phần đại số học sinh Việt Nam học ở lớp 8 và lớp 9, và các bạn nhanh nhất giải trong chưa đầy một phút. Hai công cụ từ các bài trước sẽ giúp ích: [thay số](lesson:sat-desmos-strategies) và vẽ đồ thị cả hai biểu thức trong Desmos.
+"Biểu thức nào tương đương với…?" (Which expression is equivalent to…?) là một trong những câu hỏi gặp nhiều nhất ở mảng Advanced Math, mảng có khoảng 13 đến 15 câu trong đề. Tin vui là các câu này chỉ kiểm tra phần đại số học sinh Việt Nam đã học ở lớp 8 và lớp 9, và các bạn làm nhanh giải trong chưa đầy một phút. Bạn còn có hai công cụ từ các bài trước để kiểm tra: [thay số](lesson:sat-desmos-strategies) và vẽ đồ thị cả hai biểu thức trong Desmos.
 
 ## Các quy tắc lũy thừa
 
@@ -71,7 +71,7 @@ $$2x^2+8x-3x-12=2x(x+4)-3(x+4)=(2x-3)(x+4).$$
 
 ## Đồng nhất hệ số
 
-Hai đa thức tương đương (bằng nhau với mọi $x$) khi và chỉ khi hệ số của $x^2$, hệ số của $x$ và hệ số tự do của chúng bằng nhau. Nhờ vậy một phương trình trở thành vài phương trình đơn giản.
+Hai đa thức tương đương (bằng nhau với mọi $x$) khi và chỉ khi hệ số của $x^2$, hệ số của $x$ và hệ số tự do của chúng bằng nhau. Vì sao? Vì nếu hai đa thức luôn bằng nhau thì hiệu của chúng luôn bằng không, và điều đó chỉ xảy ra khi mọi hệ số của hiệu đều bằng không. Nhờ vậy, một phương trình chứa ẩn trở thành vài phương trình đơn giản cho các hệ số.
 
 :::example Tìm hằng số
 Trong đẳng thức $(ax+3)(2x-5)=6x^2+bx-15$, $a$ và $b$ là các hằng số và đẳng thức đúng với mọi giá trị của $x$. Giá trị của $b$ bằng bao nhiêu?
@@ -85,7 +85,7 @@ Bạn gõ **-9**. Hệ số tự do khớp nhau ($-15=-15$), đúng như phải 
 
 ## Phân thức và công thức
 
-Để rút gọn một phân thức, hãy phân tích tử và mẫu thành nhân tử rồi giản ước nhân tử chung, nhớ các giá trị làm mẫu bằng $0$. Để cộng các phân thức, hãy quy đồng mẫu.
+Muốn rút gọn một phân thức, bạn phân tích tử và mẫu thành nhân tử rồi giản ước nhân tử chung, và nhớ để ý các giá trị làm mẫu bằng $0$. Muốn cộng các phân thức, bạn quy đồng mẫu, giống hệt cách cộng phân số.
 
 :::example Cộng phân thức
 Với $x\ne2$ và $x\ne-2$, biểu thức nào tương đương với $\dfrac{1}{x-2}+\dfrac{3}{x+2}$?
@@ -101,7 +101,7 @@ $$\frac{(x+2)+3(x-2)}{x^2-4}=\frac{4x-4}{x^2-4}.$$
 Đáp án là **C**. Phương án A cộng tử với tử, mẫu với mẫu, điều không bao giờ được phép.
 :::
 
-Biến đổi một công thức làm giống như giải phương trình, các chữ khác giữ nguyên.
+Biến đổi một công thức cũng giống như giải phương trình: ta làm từng bước để đưa chữ cần tìm về một vế, các chữ khác cứ để nguyên.
 
 :::example Biến đổi công thức
 Công thức $F=\dfrac95C+32$ đổi nhiệt độ $C$ tính bằng độ C sang $F$ tính bằng độ F. Đẳng thức nào biểu diễn $C$ theo $F$?
@@ -118,10 +118,12 @@ D. $C=\dfrac59(F-32)$
 - **Bình phương một tổng theo từng số hạng.** $(x+3)^2=x^2+6x+9$, không phải $x^2+9$.
 - **Giản ước số hạng thay vì nhân tử.** Trong $\dfrac{x+6}{x+2}$ không có gì giản ước được; trong $\dfrac{x^2-9}{x+3}=\dfrac{(x-3)(x+3)}{x+3}$ thì nhân tử $x+3$ được giản ước.
 - **Số mũ âm.** $x^{-2}=\dfrac{1}{x^2}$, không phải $-x^2$.
+
+Đề SAT thường đặt đúng những kết quả sai này vào các phương án, nên đừng lo nếu bạn từng mắc một trong số đó. Khi còn phân vân, bạn thay một số vào để kiểm tra.
 :::
 
 :::tip Kiểm tra tương đương bằng Desmos
-Gõ biểu thức ban đầu thành một dòng `y=` và mỗi phương án thành một dòng `y=` khác. Phương án tương đương là phương án có đồ thị nằm trùng khít lên đồ thị ban đầu. Với biểu thức có hai chữ, hãy thay số cho cả hai.
+Bạn gõ biểu thức ban đầu thành một dòng `y=`, mỗi phương án thành một dòng `y=` khác. Phương án tương đương là phương án có đồ thị nằm trùng khít lên đồ thị ban đầu. Nếu biểu thức có hai chữ, Desmos khó vẽ hơn, nên bạn thay số cho cả hai chữ.
 :::
 
 :::terms

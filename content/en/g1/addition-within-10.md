@@ -11,19 +11,19 @@ minutes: 15
 - Solve a word problem with one addition.
 :::
 
-Lan has $3$ marbles. Mai gives Lan $2$ more marbles. How many marbles does Lan have altogether?
+Lan has $3$ marbles. Mai gives Lan $2$ more marbles. Can you guess how many marbles Lan has altogether now?
 
-You already know that $5$ is made of $3$ and $2$. In this lesson you learn to write that as a sum.
+You already know that $5$ is made of $3$ and $2$. Today you write that as a sum, called an addition. Once you have the sum, you do not need to lay out the marbles and count them every time.
 
 ## Let's explore
 
-Lan has $3$ marbles. Mai gives $2$ more. Put the two groups together and count on from $3$.
+Lan has $3$ marbles, and Mai gives $2$ more. Put the two groups together. You do not need to count from the beginning: just count on from $3$.
 
 - Say the first number: "three".
 - Count on two more: "four, five".
 - The last number is five.
 
-So Lan has $5$ marbles altogether. We write $3+2=5$ and read it "three plus two equals five".
+So Lan has $5$ marbles altogether. We write the sum $3+2=5$ and read it "three plus two equals five".
 
 :::graph On the number line: from 3 count on 2 steps to 5
 alt: A number line with the points 3, 4, 5; the stretch from 3 to 5 shows counting on two steps
@@ -42,11 +42,11 @@ point: (5, 0) "5" below
 4. Adding $0$ does not change the number: $7+0=7$.
 :::
 
-This works because when you put the group of $3$ and the group of $2$ together, no marble is lost. You just count them all.
+Why does counting on work? When you put the group of $3$ and the group of $2$ together, no marble is lost. You already know how many are in the first group, so you only count the marbles in the second group.
 
 ## Examples
 
-We start with a very small sum.
+We start with a very small sum. You can count on with your fingers.
 
 :::example Work out $4+1$
 **Solution.** Say the first number "four", then count on one more: "five".
@@ -54,7 +54,7 @@ We start with a very small sum.
 So $4+1=5$.
 :::
 
-Now count on more numbers.
+In this example you count on more numbers. Count slowly, one number at a time.
 
 :::example Work out $5+3$
 **Solution.** Say the first number "five", then count on three more: "six, seven, eight".
@@ -62,7 +62,7 @@ Now count on more numbers.
 So $5+3=8$.
 :::
 
-When the first number is small, swap to make counting easier.
+If the first number is small and the second is big, swap them to make counting easier. Swapping does not change the answer.
 
 :::example Work out $2+6$
 **Solution.** Swapping the two numbers does not change the answer, so $2+6=6+2$. Count on two numbers from the bigger number $6$: "seven, eight".
@@ -70,7 +70,7 @@ When the first number is small, swap to make counting easier.
 So $2+6=8$.
 :::
 
-What about adding $0$?
+What about adding $0$? If you add no marbles at all, does the number of marbles change?
 
 :::example Work out $7+0$
 **Solution.** Adding $0$ means adding nothing, so the number stays the same.
@@ -78,7 +78,7 @@ What about adding $0$?
 So $7+0=7$.
 :::
 
-Last, solve a word problem.
+Now use addition to solve a word problem.
 
 :::example Hens and ducks
 Grandma has $4$ hens and $5$ ducks. How many hens and ducks does she have altogether?
@@ -94,6 +94,8 @@ So Grandma has $9$ birds.
 - **Counting the first number again.** Wrong: $3+2=6$ because you count "three, four, five, six". Why it is wrong: you counted on $3$ numbers instead of $2$. Right: count on exactly $2$ numbers: four, five. So $3+2=5$.
 - **Putting the equals sign in the wrong place.** Wrong: writing $5=3+2$ and then mixing up how to read it. Why it is wrong: it is easy to mix up the answer and the sum. Right: write the sum first, the answer after the $=$ sign.
 - **No unit in a word problem.** Wrong: "Answer: $9$". Right: "Answer: $9$ birds".
+
+Lots of children make the first slip. Remember: do not count the first number again, just count on as many as the second number.
 :::
 
 ## Key terms
@@ -116,9 +118,11 @@ So Grandma has $9$ birds.
 - Adding $0$ does not change the number.
 - Questions with "altogether" usually need addition; remember the unit.
 
+Back to the question at the start: three marbles and two more marbles make five marbles, so Lan has five altogether. Do the practice exercises to get quick at counting on.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first. If you get it wrong, that is fine: read the solution and try again.
 
 :::exercise
 Work out $2+3$.

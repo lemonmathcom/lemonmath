@@ -114,12 +114,12 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 86 | g12/review-trig-exp-log-sequences | xong 25/11/2026 (ChatGPT) |
 | 87 | g12/sphere-equation | xong 25/11/2026 (ChatGPT) |
 | 88 | g12/total-probability-bayes | xong 25/11/2026 (ChatGPT) |
-| 89 | g12/vector-coordinate-operations | giao Xedap102-GV-1 (đợt 3) |
+| 89 | g12/vector-coordinate-operations | xong 25/11/2026 (ChatGPT) |
 | 90 | g12/vectors-in-space | xong 25/11/2026 (ChatGPT) |
 | 91 | g1/add-1-digit-to-2-digit | xong 25/11/2026 (ChatGPT) |
 | 92 | g1/add-2-digit-numbers | xong 25/11/2026 (ChatGPT) |
-| 93 | g1/addition-subtraction-facts-to-10 | giao Kinangtoan-GV-1 (đợt 3) |
-| 94 | g1/addition-within-10 | giao Kinangtoan-GV-1 (đợt 3) |
+| 93 | g1/addition-subtraction-facts-to-10 | xong 25/11/2026 (ChatGPT) |
+| 94 | g1/addition-within-10 | xong 25/11/2026 (ChatGPT) |
 | 95 | g1/comparing-two-digit-numbers | xong 25/11/2026 (ChatGPT) |
 | 96 | g1/cubes-and-cuboids | xong 25/11/2026 (ChatGPT) |
 | 97 | g1/g1-comparing-numbers | xong 25/11/2026 (ChatGPT) |
@@ -205,7 +205,7 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 177 | exams/act/act-practice-test-1 | xong 25/11/2026 (ChatGPT) |
 | 178 | exams/act/act-statistics-probability | xong 25/11/2026 (ChatGPT) |
 | 179 | exams/ap-calculus/apcalc-accumulation-ftc | xong 25/11/2026 (ChatGPT) |
-| 180 | exams/ap-calculus/apcalc-analytical-applications | giao thaodebao1-GV-2 (đợt 3) |
+| 180 | exams/ap-calculus/apcalc-analytical-applications | xong 25/11/2026 (ChatGPT) |
 | 181 | exams/ap-calculus/apcalc-area-volume | xong 25/11/2026 (ChatGPT) |
 | 182 | exams/ap-calculus/apcalc-bc-parametric-polar | xong 25/11/2026 (ChatGPT) |
 | 183 | exams/ap-calculus/apcalc-bc-series | xong 25/11/2026 (ChatGPT) |
@@ -244,8 +244,8 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 216 | exams/ib-aa/ibaa-practice-paper-sl | xong 25/11/2026 (ChatGPT) |
 | 217 | exams/ib-aa/ibaa-statistics-probability | xong 25/11/2026 (ChatGPT) |
 | 218 | exams/sat/sat-area-volume-lines-angles | xong 25/11/2026 (ChatGPT) |
-| 219 | exams/sat/sat-desmos-strategies | giao Xedap102-GV-2 (đợt 3) |
-| 220 | exams/sat/sat-equivalent-expressions | giao Xedap102-GV-2 (đợt 3) |
+| 219 | exams/sat/sat-desmos-strategies | xong 25/11/2026 (ChatGPT) |
+| 220 | exams/sat/sat-equivalent-expressions | xong 25/11/2026 (ChatGPT) |
 | 221 | exams/sat/sat-exponential-functions | xong 25/11/2026 (ChatGPT) |
 | 222 | exams/sat/sat-linear-equations-systems | xong 25/11/2026 (ChatGPT) |
 | 223 | exams/sat/sat-linear-functions-inequalities | xong 25/11/2026 (ChatGPT) |

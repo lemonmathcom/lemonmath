@@ -11,7 +11,7 @@ minutes: 35
 - Simplify rational expressions and rearrange a formula to isolate a variable.
 :::
 
-"Which expression is equivalent to…?" is one of the most common question stems in the Advanced Math domain, which has about 13 to 15 questions in the test. These questions test algebra that Vietnamese students learn in grades 8 and 9, and the fastest students solve them in under a minute. Two tools from the previous lessons help: [plugging in a number](lesson:sat-desmos-strategies) and graphing both expressions in Desmos.
+"Which expression is equivalent to…?" is one of the most common question stems in the Advanced Math domain, which has about 13 to 15 questions in the test. The good news is that these questions test only algebra that Vietnamese students learn in grades 8 and 9, and quick students solve them in under a minute. You also have two tools from the previous lessons to check your answer: [plugging in a number](lesson:sat-desmos-strategies) and graphing both expressions in Desmos.
 
 ## Laws of exponents
 
@@ -71,7 +71,7 @@ The answer is **C**. Quick check: at $x=-4$, $2\cdot16-20-12=0$.
 
 ## Matching coefficients
 
-Two polynomials are equivalent (equal for every $x$) exactly when their coefficients of $x^2$, of $x$ and their constants are equal. This turns one equation into several simple ones.
+Two polynomials are equivalent (equal for every $x$) exactly when their coefficients of $x^2$, of $x$ and their constants are equal. Why? If two polynomials are always equal, their difference is zero everywhere, and that only happens when every coefficient of the difference is zero. So one equation in the unknown turns into several simple equations for the coefficients.
 
 :::example Find the constant
 In the equation $(ax+3)(2x-5)=6x^2+bx-15$, $a$ and $b$ are constants and the equation is true for all values of $x$. What is the value of $b$?
@@ -85,7 +85,7 @@ You type **-9**. The constants agree ($-15=-15$), as they must.
 
 ## Rational expressions and formulas
 
-To simplify a fraction of polynomials, factor and cancel common factors, remembering the values that make a denominator zero. To add fractions, use a common denominator.
+To simplify a fraction of polynomials, factor the top and the bottom and cancel common factors, keeping an eye on the values that make a denominator zero. To add fractions, use a common denominator, just as you do with ordinary fractions.
 
 :::example Adding rational expressions
 For $x\ne2$ and $x\ne-2$, which expression is equivalent to $\dfrac{1}{x-2}+\dfrac{3}{x+2}$?
@@ -101,7 +101,7 @@ $$\frac{(x+2)+3(x-2)}{x^2-4}=\frac{4x-4}{x^2-4}.$$
 The answer is **C**. Option A adds numerators and denominators, which is never allowed.
 :::
 
-Rearranging a formula uses the same steps as solving an equation, keeping the other letters as they are.
+Rearranging a formula works just like solving an equation: step by step we bring the letter we want to one side, and leave the other letters as they are.
 
 :::example Rearranging a formula
 The formula $F=\dfrac95C+32$ converts a temperature $C$ in degrees Celsius to $F$ in degrees Fahrenheit. Which equation gives $C$ in terms of $F$?
@@ -118,10 +118,12 @@ D. $C=\dfrac59(F-32)$
 - **Squaring a sum term by term.** $(x+3)^2=x^2+6x+9$, not $x^2+9$.
 - **Cancelling terms instead of factors.** In $\dfrac{x+6}{x+2}$ nothing cancels; in $\dfrac{x^2-9}{x+3}=\dfrac{(x-3)(x+3)}{x+3}$ the factor $x+3$ cancels.
 - **Negative exponents.** $x^{-2}=\dfrac{1}{x^2}$, not $-x^2$.
+
+SAT questions often put exactly these wrong results among the options, so do not worry if you have made one of these slips. When in doubt, plug in a number to check.
 :::
 
 :::tip Check equivalence in Desmos
-Type the original expression as `y=` and each option as another `y=`. The equivalent option is the one whose graph lies exactly on top of the original. For expressions with two letters, plug in numbers for both instead.
+Type the original expression as a `y=` line and each option as another `y=` line. The equivalent option is the one whose graph lies exactly on top of the original. If the expressions have two letters, Desmos cannot draw them so easily, so plug in numbers for both letters instead.
 :::
 
 :::terms

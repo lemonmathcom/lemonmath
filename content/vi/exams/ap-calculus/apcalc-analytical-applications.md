@@ -12,7 +12,7 @@ minutes: 50
 - Giải bài toán tối ưu và viết lời lập luận được đủ điểm.
 :::
 
-Unit 5 là một trong những unit có trọng số lớn nhất của AB, và các ý tưởng của nó quay lại trong gần như mọi câu tự luận có đồ thị hay bảng giá trị của $f'$. Phần tính toán ngắn; điều đề thi thực sự kiểm tra là lập luận. "Vì $f'$ đổi dấu từ âm sang dương tại $x=2$" được điểm; "vì $f'(2)=0$" thì không. Bài này luyện cả phần toán lẫn câu chữ. Bạn đã quen nhiều nội dung này từ chương khảo sát hàm số ở trường phổ thông; điểm mới là cách AP đòi hỏi lí giải bằng lời.
+Unit 5 là một trong những unit có trọng số lớn nhất của AB, và ý tưởng của nó quay lại trong gần như mọi câu tự luận có đồ thị hay bảng giá trị của $f'$. Phần tính toán thường ngắn. Điều đề thi thực sự kiểm tra là lập luận: viết "Vì $f'$ đổi dấu từ âm sang dương tại $x=2$" thì được điểm, còn "vì $f'(2)=0$" thì không. Vì vậy ta luyện cả phần toán lẫn câu chữ. Phần toán bạn đã quen từ chương khảo sát hàm số ở trường phổ thông; điểm mới là AP đòi bạn lí giải bằng lời.
 
 ## Hai định lí về sự tồn tại
 
@@ -38,7 +38,7 @@ D. $\dfrac{2}{\sqrt3}$
 
 ## Đồng biến, nghịch biến và cực trị
 
-$f$ đồng biến (tăng) khi $f'>0$ và nghịch biến (giảm) khi $f'<0$. **Điểm tới hạn** là một $x$ bên trong miền xác định tại đó $f'(x)=0$ hoặc $f'(x)$ không tồn tại.
+$f$ đồng biến (tăng) khi $f'>0$ và nghịch biến (giảm) khi $f'<0$, vì đạo hàm chính là độ dốc của đồ thị. Những chỗ đáng chú ý nhất là nơi hàm số có thể đổi chiều. **Điểm tới hạn** là một $x$ bên trong miền xác định tại đó $f'(x)=0$ hoặc $f'(x)$ không tồn tại.
 
 - **Dấu hiệu đạo hàm cấp một.** Nếu $f'$ đổi dấu từ dương sang âm tại một điểm tới hạn thì $f$ đạt cực đại tại đó; từ âm sang dương thì cực tiểu; không đổi dấu thì không có cực trị.
 - **Dấu hiệu đạo hàm cấp hai.** Nếu $f'(c)=0$ và $f''(c)<0$ thì cực đại; nếu $f''(c)>0$ thì cực tiểu; nếu $f''(c)=0$ thì dấu hiệu không kết luận được.
@@ -53,7 +53,7 @@ $f'$ đổi dấu từ dương sang âm tại $x=-1$: cực đại $f(-1)=10$. $
 
 ## Giá trị lớn nhất, nhỏ nhất: so sánh các ứng viên
 
-Trên một đoạn, tính $f$ tại mọi điểm tới hạn và tại hai đầu mút; giá trị lớn nhất trong số đó là giá trị lớn nhất của hàm, giá trị nhỏ nhất là giá trị nhỏ nhất của hàm.
+Trên một đoạn, giá trị lớn nhất chỉ có thể nằm ở hai loại chỗ: tại một điểm tới hạn hoặc tại một đầu mút. Vì vậy ta tính $f$ tại mọi điểm tới hạn và tại hai đầu mút rồi so sánh: giá trị lớn nhất trong số đó là giá trị lớn nhất của hàm, giá trị nhỏ nhất là giá trị nhỏ nhất của hàm.
 
 :::example Các ứng viên trên một đoạn
 Tìm giá trị lớn nhất và nhỏ nhất của $g(x)=x^3-3x^2$ trên $[-1,4]$.
@@ -102,7 +102,7 @@ D. $-2$
 
 ## Bài toán tối ưu
 
-Viết đại lượng cần tối ưu thành hàm của một biến, nêu miền xác định, tìm điểm tới hạn, rồi lập luận đó là lớn nhất hay nhỏ nhất bằng cách so sánh ứng viên, bảng xét dấu hoặc đạo hàm cấp hai.
+Với bài toán tối ưu, bạn làm theo một trình tự cố định: viết đại lượng cần tối ưu thành hàm của một biến, nêu miền xác định, tìm điểm tới hạn, rồi lập luận đó là lớn nhất hay nhỏ nhất bằng cách so sánh ứng viên, bảng xét dấu hoặc đạo hàm cấp hai. Bước nêu miền xác định hay bị bỏ qua, nhưng chính nó cho biết phải so sánh những đầu mút nào.
 
 :::example Rào đất ven sông
 Một bác nông dân có $600$ mét lưới để rào một mảnh đất hình chữ nhật ven một con sông thẳng; phía bờ sông không cần rào. Diện tích lớn nhất có thể là bao nhiêu?
@@ -116,6 +116,8 @@ Một bác nông dân có $600$ mét lưới để rào một mảnh đất hìn
 - **Quên hai đầu mút** khi so sánh ứng viên.
 - **Đọc đồ thị $f'$ như đồ thị $f$.** Trên đồ thị của $f'$, cực trị của $f$ nằm ở các giao điểm với trục hoành mà tại đó có đổi dấu; điểm uốn của $f$ nằm ở các đỉnh và đáy của $f'$.
 - **Bỏ qua điều kiện của MVT.** Ở phần tự luận, hãy ghi "liên tục trên $[a,b]$ và có đạo hàm trên $(a,b)$".
+
+Đừng lo nếu bạn từng vấp vài bẫy trong số này, nhiều bạn cũng vậy. Trước khi kết luận, hãy tự hỏi: đạo hàm có thật sự đổi dấu không?
 :::
 
 :::tip Câu lập luận được điểm (viết bằng tiếng Anh trong bài thi)

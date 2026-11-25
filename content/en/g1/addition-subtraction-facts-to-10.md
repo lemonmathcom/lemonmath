@@ -11,20 +11,20 @@ minutes: 15
 - Read the addition and subtraction facts within $10$.
 :::
 
-Lan writes $3+2=5$. From the three numbers $2$, $3$ and $5$, what other sums can Lan write?
+Lan has just written $3+2=5$ on the board. Think for a moment: using only the three numbers $2$, $3$ and $5$, what other sums can Lan write?
 
-You already know addition and subtraction. In this lesson you see that they belong to one family.
+You already know addition and subtraction. But the two belong to one family. If you know one addition, you can find a subtraction straight away.
 
 ## Let's explore
 
-You have three numbers $2$, $3$, $5$. The number $5$ is the biggest, made of $2$ and $3$.
+Look at the three numbers $2$, $3$, $5$. The number $5$ is the biggest, and it is made of two parts, $2$ and $3$.
 
 - Put the two parts together: $2+3=5$ and $3+2=5$.
 - Take one part from $5$: $5-2=3$ and $5-3=2$.
 
-From one addition you can write three more sums, and all four sums use the same three numbers.
+So from just one addition you can write three more sums. All four sums use the same three numbers, like four people in one family.
 
-The table below shows the additions that make $6$.
+The table below shows the additions that make $6$. Read it column by column, from left to right.
 
 | Addition | $1+5$ | $2+4$ | $3+3$ | $4+2$ | $5+1$ |
 |---|---|---|---|---|---|
@@ -37,11 +37,11 @@ The table below shows the additions that make $6$.
 4. To find the answer to a subtraction, think of the matching addition.
 :::
 
-This works because putting two parts together makes the whole group, and taking one part from the whole group leaves the other part.
+Why does this work? When you put two parts together, you get the whole group. When you take one part away from the whole group, what is left is the other part.
 
 ## Examples
 
-We start with a set of three numbers.
+We start with a set of three numbers. Try to write the sums yourself before you look at the answer.
 
 :::example Four sums from the numbers $3$, $4$, $7$
 From $4+3=7$ write the other sums.
@@ -51,7 +51,7 @@ From $4+3=7$ write the other sums.
 So the other three sums are $3+4=7$, $7-3=4$, $7-4=3$.
 :::
 
-Now use addition to work out a subtraction.
+When you meet a subtraction, addition can help you. The next example shows how.
 
 :::example Work out $6-2$
 **Solution.** Think: $2$ plus what makes $6$? Count from $2$ to $6$: "three, four, five, six", which is $4$ numbers, so $2+4=6$.
@@ -59,7 +59,7 @@ Now use addition to work out a subtraction.
 So $6-2=4$.
 :::
 
-Next, find a missing number.
+Sometimes one number in a sum is hidden. You will find it again.
 
 :::example Find the missing number
 Fill in the box: $8-\square=3$.
@@ -71,7 +71,7 @@ So the missing number is $5$.
 **Check.** $8-5=3$. Correct.
 :::
 
-You can also use a table to find sums.
+A table of sums also helps you find sums very quickly.
 
 :::example Reading the addition table
 Use the table in the explore part to find the additions that make $6$ where the first number is less than $4$.
@@ -81,7 +81,7 @@ Use the table in the explore part to find the additions that make $6$ where the 
 So the additions are $1+5=6$, $2+4=6$, $3+3=6$.
 :::
 
-Last, solve a word problem.
+Now use what you have learnt to solve a word problem.
 
 :::example Rabbits in a hutch and in the yard
 There are $7$ rabbits. $3$ rabbits are in the hutch and the rest are in the yard. How many rabbits are in the yard?
@@ -97,6 +97,8 @@ So there are $4$ rabbits in the yard.
 - **Taking the bigger number from the smaller.** Wrong: from the numbers $3$, $4$, $7$ writing $3-4=7$. Why it is wrong: you cannot take $4$ away from $3$. Right: $7-4=3$.
 - **Putting the biggest number in the wrong place.** Wrong: $3+7=4$. Why it is wrong: the biggest number must be the answer of the addition. Right: $3+4=7$.
 - **Missing a sum.** Wrong: writing only two sums from three numbers. Why it is wrong: the swapped sum is missing. Right: there are four sums.
+
+Lots of children make these slips at first. Remember one thing: the biggest number is always the answer of the addition.
 :::
 
 ## Key terms
@@ -118,9 +120,11 @@ So there are $4$ rabbits in the yard.
 - To work out $6-2$, think $2+\square=6$.
 - Use a table to find sums with the same answer quickly.
 
+Back to Lan's question: as well as the addition she wrote, Lan can write one more addition and two subtractions. Do the practice exercises to get quick at it.
+
 ## Practice
 
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and how to start. Try it yourself first. If you get it wrong, that is fine: read the solution and try again.
 
 :::exercise
 You know $2+3=5$. Work out $5-2$.

@@ -11,20 +11,20 @@ minutes: 15
 - Đọc bảng cộng, bảng trừ trong phạm vi $10$.
 :::
 
-Lan viết $3+2=5$. Từ ba số $2$, $3$, $5$, Lan còn viết được những phép tính nào nữa?
+Lan vừa viết $3+2=5$ lên bảng. Em thử nghĩ xem: chỉ với ba số $2$, $3$, $5$, Lan còn viết được những phép tính nào nữa?
 
-Em đã biết phép cộng và phép trừ. Bài này em thấy chúng là một "gia đình" đi cùng nhau.
+Em đã biết làm phép cộng và phép trừ. Nhưng hai phép tính ấy là người một nhà. Biết một phép cộng, em tìm ngay được cả phép trừ.
 
 ## Cùng khám phá
 
-Em có ba số $2$, $3$, $5$. Số $5$ là số lớn nhất, gồm $2$ và $3$.
+Em nhìn ba số $2$, $3$, $5$. Số $5$ lớn nhất, và nó gồm hai phần là $2$ và $3$.
 
 - Gộp hai phần: $2+3=5$ và $3+2=5$.
 - Bớt một phần khỏi $5$: $5-2=3$ và $5-3=2$.
 
-Từ một phép cộng em viết được thêm ba phép tính khác, và bốn phép tính này dùng chung ba số.
+Vậy là chỉ từ một phép cộng, em viết thêm được ba phép tính nữa. Cả bốn phép tính dùng chung ba số, giống như bốn người trong một nhà.
 
-Bảng dưới đây cho các phép cộng có kết quả bằng $6$.
+Bảng dưới đây ghi các phép cộng có kết quả bằng $6$. Em đọc từng cột, từ trái sang phải.
 
 | Phép cộng | $1+5$ | $2+4$ | $3+3$ | $4+2$ | $5+1$ |
 |---|---|---|---|---|---|
@@ -37,11 +37,11 @@ Bảng dưới đây cho các phép cộng có kết quả bằng $6$.
 4. Muốn tìm kết quả phép trừ, em nghĩ phép cộng tương ứng.
 :::
 
-Cách này đúng vì gộp hai phần được cả nhóm, và bớt một phần khỏi cả nhóm thì còn phần kia.
+Vì sao làm được như vậy? Vì khi gộp hai phần lại, em được cả nhóm. Còn khi lấy đi một phần khỏi cả nhóm, phần còn lại chính là phần kia.
 
 ## Ví dụ
 
-Ta bắt đầu với một bộ ba số.
+Ta bắt đầu bằng một bộ ba số. Em thử tự viết trước rồi mới xem lời giải.
 
 :::example Bốn phép tính từ ba số $3$, $4$, $7$
 Từ $4+3=7$ hãy viết các phép tính còn lại.
@@ -51,7 +51,7 @@ Từ $4+3=7$ hãy viết các phép tính còn lại.
 Vậy ba phép còn lại là $3+4=7$, $7-3=4$, $7-4=3$.
 :::
 
-Bây giờ em dùng phép cộng để làm phép trừ.
+Khi gặp một phép trừ, em có thể nhờ phép cộng giúp. Ví dụ sau cho em thấy cách làm.
 
 :::example Tính $6-2$
 **Lời giải.** Em nghĩ: $2$ cộng mấy bằng $6$? Đếm từ $2$ lên $6$: "ba, bốn, năm, sáu", có $4$ số, nên $2+4=6$.
@@ -59,7 +59,7 @@ Bây giờ em dùng phép cộng để làm phép trừ.
 Vậy $6-2=4$.
 :::
 
-Tiếp theo em tìm số còn thiếu.
+Có lúc một số trong phép tính bị che mất. Em sẽ tìm lại số đó.
 
 :::example Tìm số còn thiếu
 Điền số thích hợp: $8-\square=3$.
@@ -71,7 +71,7 @@ Vậy số cần điền là $5$.
 **Kiểm tra.** $8-5=3$. Đúng.
 :::
 
-Em cũng dùng bảng để tìm các phép tính.
+Bảng cộng cũng giúp em tìm phép tính thật nhanh.
 
 :::example Đọc bảng cộng
 Dùng bảng ở phần khám phá, tìm các phép cộng có kết quả bằng $6$ mà số đầu bé hơn $4$.
@@ -81,7 +81,7 @@ Dùng bảng ở phần khám phá, tìm các phép cộng có kết quả bằn
 Vậy các phép cộng là $1+5=6$, $2+4=6$, $3+3=6$.
 :::
 
-Cuối cùng em giải bài toán có lời văn.
+Bây giờ em dùng điều vừa học để giải một bài toán có lời văn.
 
 :::example Thỏ ở lồng và ngoài sân
 Có $7$ con thỏ. Có $3$ con thỏ ở trong lồng, còn lại ở ngoài sân. Hỏi có mấy con thỏ ở ngoài sân?
@@ -97,6 +97,8 @@ Vậy có $4$ con thỏ ở ngoài sân.
 - **Lấy số bé trừ số lớn.** Sai: từ ba số $3$, $4$, $7$ viết $3-4=7$. Vì sao sai: không thể bớt $4$ khỏi $3$. Đúng: $7-4=3$.
 - **Viết số lớn nhất sai chỗ.** Sai: $3+7=4$. Vì sao sai: số lớn nhất phải là kết quả của phép cộng. Đúng: $3+4=7$.
 - **Bỏ sót phép tính.** Sai: từ ba số chỉ viết hai phép tính. Vì sao sai: còn thiếu phép đổi chỗ. Đúng: có đủ bốn phép tính.
+
+Nhiều bạn mới học cũng gặp những lỗi này. Em nhớ một điều: số lớn nhất luôn là kết quả của phép cộng.
 :::
 
 ## Thuật ngữ
@@ -118,9 +120,11 @@ Vậy có $4$ con thỏ ở ngoài sân.
 - Muốn tính $6-2$, nghĩ $2+\square=6$.
 - Dùng bảng để tìm nhanh các phép cộng có cùng kết quả.
 
+Quay lại câu hỏi của Lan: ngoài phép cộng đã viết, Lan còn viết được một phép cộng và hai phép trừ nữa. Em làm các bài luyện tập để quen tay nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước. Nếu sai cũng không sao, em xem lời giải rồi thử lại.
 
 :::exercise
 Biết $2+3=5$. Tính $5-2$.

@@ -11,19 +11,19 @@ minutes: 15
 - Giải bài toán có lời văn bằng một phép cộng.
 :::
 
-Lan có $3$ viên bi. Mai cho Lan thêm $2$ viên bi nữa. Hỏi Lan có tất cả bao nhiêu viên bi?
+Lan đang có $3$ viên bi. Mai cho Lan thêm $2$ viên bi nữa. Em đoán xem bây giờ Lan có tất cả bao nhiêu viên bi?
 
-Em đã biết $5$ gồm $3$ và $2$. Bài này em học cách viết điều đó thành một phép tính.
+Em đã biết $5$ gồm $3$ và $2$. Hôm nay em viết điều đó thành một phép tính, gọi là phép cộng. Có phép tính rồi, em không cần bày bi ra đếm mỗi lần.
 
 ## Cùng khám phá
 
-Lan có $3$ viên bi. Mai cho thêm $2$ viên. Em gộp hai nhóm lại và đếm tiếp từ $3$.
+Lan có $3$ viên bi, Mai cho thêm $2$ viên. Em gộp hai nhóm lại. Em không cần đếm lại từ đầu: chỉ cần đếm tiếp từ $3$.
 
 - Em nói số $3$ trước: "ba".
 - Em đếm thêm hai viên: "bốn, năm".
 - Số cuối cùng là năm.
 
-Vậy Lan có tất cả $5$ viên bi. Ta viết $3+2=5$ và đọc là "ba cộng hai bằng năm".
+Vậy Lan có tất cả $5$ viên bi. Ta viết phép tính $3+2=5$ và đọc là "ba cộng hai bằng năm".
 
 :::graph Trên tia số: từ 3 đếm thêm 2 bước đến 5
 alt: Tia số có các điểm 3, 4, 5; đoạn từ 3 đến 5 cho thấy đếm thêm hai bước
@@ -42,11 +42,11 @@ point: (5, 0) "5" below
 4. Cộng với $0$ thì số không đổi: $7+0=7$.
 :::
 
-Cách này đúng vì gộp nhóm $3$ và nhóm $2$ thì không mất viên bi nào, em chỉ đếm tất cả các viên.
+Vì sao đếm tiếp lại đúng? Khi gộp nhóm $3$ và nhóm $2$, không viên bi nào mất đi. Em đã biết nhóm đầu có bao nhiêu viên, nên chỉ cần đếm thêm các viên của nhóm sau.
 
 ## Ví dụ
 
-Ta bắt đầu với một phép cộng rất nhỏ.
+Ta bắt đầu với một phép cộng thật nhỏ. Em đếm tiếp trên ngón tay cũng được.
 
 :::example Tính $4+1$
 **Lời giải.** Em nói số đầu "bốn", rồi đếm thêm một số: "năm".
@@ -54,7 +54,7 @@ Ta bắt đầu với một phép cộng rất nhỏ.
 Vậy $4+1=5$.
 :::
 
-Bây giờ em đếm thêm nhiều số hơn.
+Ở ví dụ này, em phải đếm thêm nhiều số hơn. Em đếm chậm, mỗi lần một số.
 
 :::example Tính $5+3$
 **Lời giải.** Em nói số đầu "năm", rồi đếm thêm ba số: "sáu, bảy, tám".
@@ -62,7 +62,7 @@ Bây giờ em đếm thêm nhiều số hơn.
 Vậy $5+3=8$.
 :::
 
-Khi số đầu bé, em đổi chỗ cho dễ đếm.
+Nếu số đầu bé mà số sau lớn, em đổi chỗ hai số cho dễ đếm. Đổi chỗ thì kết quả vẫn thế.
 
 :::example Tính $2+6$
 **Lời giải.** Đổi chỗ hai số thì kết quả không đổi, nên $2+6=6+2$. Em đếm tiếp từ số lớn $6$ thêm hai số: "bảy, tám".
@@ -70,7 +70,7 @@ Khi số đầu bé, em đổi chỗ cho dễ đếm.
 Vậy $2+6=8$.
 :::
 
-Cộng với $0$ thì sao?
+Còn cộng với $0$ thì sao? Thêm không viên bi nào thì số bi có thay đổi không?
 
 :::example Tính $7+0$
 **Lời giải.** Thêm $0$ nghĩa là không thêm gì, nên số không đổi.
@@ -78,7 +78,7 @@ Cộng với $0$ thì sao?
 Vậy $7+0=7$.
 :::
 
-Cuối cùng em giải một bài toán có lời văn.
+Bây giờ em dùng phép cộng để giải một bài toán có lời văn.
 
 :::example Gà và vịt
 Nhà bà có $4$ con gà và $5$ con vịt. Hỏi nhà bà có tất cả bao nhiêu con gà và vịt?
@@ -94,6 +94,8 @@ Vậy nhà bà có $9$ con.
 - **Đếm cả số đầu thêm lần nữa.** Sai: $3+2=6$ vì đếm "ba, bốn, năm, sáu". Vì sao sai: em đếm thêm $3$ số thay vì $2$ số. Đúng: đếm thêm đúng $2$ số: bốn, năm. Vậy $3+2=5$.
 - **Viết dấu bằng sai chỗ.** Sai: $3+2$ viết thành $5=3+2$ rồi quên cách đọc. Vì sao sai: dễ lẫn kết quả với phép tính. Đúng: viết phép tính trước, kết quả sau dấu $=$.
 - **Bài có lời văn quên đơn vị.** Sai: "Đáp số: $9$". Đúng: "Đáp số: $9$ con".
+
+Lỗi đầu tiên rất nhiều bạn hay mắc. Em nhớ: không đếm lại số đầu, chỉ đếm thêm đúng bằng số thứ hai.
 :::
 
 ## Thuật ngữ
@@ -116,9 +118,11 @@ Vậy nhà bà có $9$ con.
 - Cộng với $0$ thì số không đổi.
 - Bài toán hỏi "tất cả" thường là phép cộng; nhớ ghi đơn vị.
 
+Quay lại câu hỏi đầu bài: ba viên bi thêm hai viên bi là năm viên bi, nên Lan có tất cả năm viên. Em làm các bài luyện tập để đếm tiếp thật nhanh nhé.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức và gợi ý để em bắt đầu. Em cứ tự làm trước. Nếu sai cũng không sao, em xem lời giải rồi thử lại.
 
 :::exercise
 Tính $2+3$.

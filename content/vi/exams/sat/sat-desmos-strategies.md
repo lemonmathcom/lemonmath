@@ -12,7 +12,7 @@ type: guide
 - Dùng các công cụ của Bluebook (đánh dấu xem lại, gạch phương án, bảng công thức) để quản lí thời gian.
 :::
 
-Trong SAT thi trên máy, câu Toán nào cũng được dùng máy tính, và Bluebook có sẵn máy tính đồ thị Desmos. Học sinh học Toán ở Việt Nam thường giải đại số bằng tay rất nhanh, nên hay bỏ qua Desmos. Đó là một thiệt thòi: Desmos không thay được kĩ năng đại số của bạn, nhưng kiểm tra nó chỉ trong vài giây và cứu bạn khi phương trình quá rối. Bài này chỉ ra khi nào nên dùng và khi nào không.
+Trong SAT thi trên máy, câu Toán nào cũng được dùng máy tính, và Bluebook có sẵn máy tính đồ thị Desmos. Học sinh học Toán ở Việt Nam thường giải đại số bằng tay rất nhanh, nên hay bỏ qua Desmos. Như thế là tự làm mình thiệt. Desmos không thay được kĩ năng đại số của bạn, nhưng nó kiểm tra lại bài làm chỉ trong vài giây và cứu bạn khi gặp một phương trình quá rối. Điều cần học là biết lúc nào nên mở Desmos, lúc nào thì không.
 
 ## Năm việc Desmos làm trong vài giây
 
@@ -31,18 +31,18 @@ Nghiệm dương của $\sqrt{x+7}=x-5$ là bao nhiêu?
 :::
 
 :::tip Thanh trượt (slider)
-Nếu đề có một hằng số như $k$, hãy gõ biểu thức chứa $k$, Desmos sẽ tạo thanh trượt. Kéo thanh trượt để thấy đồ thị thay đổi thế nào, rất có ích cho các câu kiểu "với giá trị nào của $k$ thì hệ vô nghiệm?"
+Nếu đề có một hằng số như $k$, bạn cứ gõ biểu thức chứa $k$, Desmos sẽ tự tạo thanh trượt. Kéo thanh trượt, bạn thấy ngay đồ thị thay đổi ra sao. Cách này rất có ích cho các câu kiểu "với giá trị nào của $k$ thì hệ vô nghiệm?"
 :::
 
 ## Khi nào không nên dùng Desmos
 
-Desmos chậm với những câu nhìn là ra: "nếu $3x+7=22$ thì $6x+5$ bằng bao nhiêu?" giải tay chỉ mất năm giây. Quy tắc tốt là: **nghĩ trước 15 giây**. Nếu thấy đường đi, hãy làm tay và chỉ dùng Desmos để kiểm tra. Nếu chưa thấy, hoặc số liệu xấu, hãy vẽ đồ thị.
+Với những câu nhìn là ra, Desmos lại chậm hơn. Chẳng hạn câu "nếu $3x+7=22$ thì $6x+5$ bằng bao nhiêu?" giải tay chỉ mất năm giây. Một quy tắc dễ nhớ: **nghĩ trước 15 giây**. Nếu thấy đường đi, bạn làm tay và chỉ dùng Desmos để kiểm tra. Nếu chưa thấy, hoặc số liệu xấu, bạn hãy vẽ đồ thị.
 
-Desmos cũng không đọc đề giúp bạn. Với bài toán có lời văn, lập đúng phương trình vẫn là việc của bạn.
+Có một việc Desmos không làm thay bạn được: đọc đề. Với bài toán có lời văn, lập đúng phương trình vẫn là phần việc của bạn.
 
 ## Nhập câu tự điền đáp số
 
-Khoảng một phần tư số câu yêu cầu bạn gõ đáp số. Hướng dẫn trên màn hình Bluebook quy định cách nhập; những điểm chính là:
+Khoảng một phần tư số câu không có phương án để chọn, bạn phải tự gõ đáp số. Hướng dẫn trên màn hình Bluebook quy định cách nhập. Nhiều bạn mất điểm oan ở đây chỉ vì nhập sai cách, nên bạn nhớ mấy điểm chính sau:
 
 - Đáp số dương được dùng tối đa 5 kí tự, đáp số âm tối đa 6 kí tự kể cả dấu trừ.
 - Được nhập phân số (`7/2`) và số thập phân (`3.5`). Hỗn số như $3\tfrac12$ không được chấp nhận: hãy gõ `7/2` hoặc `3.5`.
@@ -76,7 +76,7 @@ D. $2x^2+18$
 
 **4. Ước lượng trước.** Một phép ước lượng nhanh loại được các phương án quá lớn hoặc quá nhỏ, và phát hiện lỗi bấm máy.
 
-**5. Dùng thời gian của module thông minh.** Câu hỏi xếp gần đúng từ dễ đến khó. Nếu một câu đã tốn hai phút mà bạn vẫn chưa có hướng, hãy chọn phương án hợp lí nhất, đánh dấu để xem lại rồi làm tiếp. Làm sai không bị trừ điểm.
+**5. Dùng thời gian của module thông minh.** Câu hỏi xếp gần đúng từ dễ đến khó. Nếu một câu đã tốn hai phút mà bạn vẫn chưa có hướng, đừng cố thêm. Hãy chọn phương án hợp lí nhất, đánh dấu để xem lại rồi làm tiếp. Làm sai không bị trừ điểm, nên đừng bỏ trống câu nào.
 
 ## Các công cụ của Bluebook
 
@@ -85,4 +85,4 @@ D. $2x^2+18$
 - **Reference sheet** (bảng công thức) ghi các công thức diện tích, thể tích và tam giác. Hãy nắm rõ nó trước ngày thi để không mất thời gian tìm.
 - **Timer** (đồng hồ) có thể ẩn, nhưng sẽ hiện cảnh báo khi gần hết giờ module.
 
-Hãy tập dùng các công cụ này trong các đề luyện chính thức trên Bluebook để ngày thi thấy quen thuộc. Và nhớ thói quen quan trọng nhất trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): sau mỗi bộ đề, ghi mọi câu sai vào sổ lỗi sai, kể cả những câu sai vì nhập đáp số không đúng cách.
+Bạn hãy tập dùng các công cụ này trong các đề luyện chính thức trên Bluebook, để đến ngày thi mọi thứ đã quen tay. Và đừng quên thói quen quan trọng nhất trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): sau mỗi bộ đề, ghi mọi câu sai vào sổ lỗi sai, kể cả những câu sai vì nhập đáp số không đúng cách. Desmos và các mẹo trên giúp bạn làm nhanh hơn; còn điều làm bạn tiến bộ thật sự là xem lại từng lỗi.

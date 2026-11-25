@@ -12,7 +12,7 @@ minutes: 50
 - Solve optimization problems and write justifications that earn full credit.
 :::
 
-Unit 5 is one of the most heavily weighted units of AB, and its ideas return in almost every free-response question that shows a graph or a table of $f'$. The calculations are short; what the exam really tests is reasoning. "Because $f'$ changes from negative to positive at $x=2$" earns a point; "because $f'(2)=0$" does not. This lesson trains both the mathematics and the sentences.
+Unit 5 is one of the most heavily weighted units of AB, and its ideas return in almost every free-response question that shows a graph or a table of $f'$. The calculations are usually short. What the exam really tests is reasoning: "Because $f'$ changes from negative to positive at $x=2$" earns a point; "because $f'(2)=0$" does not. So we train both the mathematics and the sentences. Much of the mathematics will be familiar from curve sketching at school; what is new is that AP wants the reasons in words.
 
 ## Two existence theorems
 
@@ -38,7 +38,7 @@ D. $\dfrac{2}{\sqrt3}$
 
 ## Increasing, decreasing and relative extrema
 
-$f$ is increasing where $f'>0$ and decreasing where $f'<0$. A **critical point** is an interior $x$ where $f'(x)=0$ or $f'(x)$ does not exist.
+$f$ is increasing where $f'>0$ and decreasing where $f'<0$, because the derivative is the slope of the graph. The places that matter most are where the function might turn round. A **critical point** is an interior $x$ where $f'(x)=0$ or $f'(x)$ does not exist.
 
 - **First derivative test.** If $f'$ changes from positive to negative at a critical point, $f$ has a relative maximum there; from negative to positive, a relative minimum; no sign change, no extremum.
 - **Second derivative test.** If $f'(c)=0$ and $f''(c)<0$, relative maximum; if $f''(c)>0$, relative minimum; if $f''(c)=0$, the test says nothing.
@@ -53,7 +53,7 @@ $f'$ changes from positive to negative at $x=-1$: relative maximum $f(-1)=10$. I
 
 ## Absolute extrema: the candidates test
 
-On a closed interval, evaluate $f$ at every critical point and at both endpoints; the largest value is the absolute maximum, the smallest the absolute minimum.
+On a closed interval, the absolute maximum can only be in one of two kinds of place: at a critical point or at an endpoint. So we evaluate $f$ at every critical point and at both endpoints and compare: the largest value is the absolute maximum, the smallest the absolute minimum.
 
 :::example Candidates on a closed interval
 Find the absolute extrema of $g(x)=x^3-3x^2$ on $[-1,4]$.
@@ -102,7 +102,7 @@ D. $-2$
 
 ## Optimization
 
-Write the quantity to optimize as a function of one variable, state the domain, find the critical points, and justify the maximum or minimum with the candidates test, a sign chart or the second derivative.
+For an optimization problem, follow a fixed routine: write the quantity to optimize as a function of one variable, state the domain, find the critical points, and justify the maximum or minimum with the candidates test, a sign chart or the second derivative. Stating the domain is the step people skip, yet it is what tells you which endpoints to compare.
 
 :::example A fence along a river
 A farmer has $600$ meters of fence to enclose a rectangular field along a straight river; no fence is needed along the river. What is the largest possible area?
@@ -116,6 +116,8 @@ A farmer has $600$ meters of fence to enclose a rectangular field along a straig
 - **Forgetting the endpoints** in the candidates test.
 - **Reading the graph of $f'$ as if it were $f$.** On a graph of $f'$, extrema of $f$ are at the $x$-intercepts where the sign changes; inflection points of $f$ are at the peaks and valleys of $f'$.
 - **Dropping the MVT conditions.** On the free-response section, state "continuous on $[a,b]$ and differentiable on $(a,b)$".
+
+Do not worry if you have fallen into some of these traps; many students do. Before you conclude, ask yourself: does the derivative really change sign?
 :::
 
 :::tip Justification phrases that earn points

@@ -11,15 +11,15 @@ minutes: 24
 - Use coordinates to find a vertex of a parallelogram, an angle of a triangle, and to prove perpendicularity.
 :::
 
-A camping tent has a vertical pole whose top is $3$ m above the ground. Two guy ropes run from the top of the pole down to two pegs in the ground. With the foot of the pole at the origin and the metre as unit, the top of the pole is $T(0, 0, 3)$ and the pegs are $P(2, -1, 0)$ and $Q(-1, 2, 0)$. What angle do the two ropes make with each other?
+Picture a camping tent with a vertical pole whose top is $3$ m above the ground. From the top of the pole, two guy ropes run down to two pegs in the ground. With the foot of the pole at the origin and the metre as unit, the top of the pole is $T(0, 0, 3)$ and the pegs are $P(2, -1, 0)$ and $Q(-1, 2, 0)$. What angle do the two ropes make with each other? We can answer without a protractor.
 
-The previous lesson gave us coordinates of points and vectors. This lesson turns every vector operation, the scalar product included, into arithmetic on numbers, so the question above needs only a few multiplications and additions.
+In the previous lesson every point and every vector got coordinates. Now we go one step further: every vector operation, the scalar product included, becomes arithmetic on numbers. Then the tent question needs only a few multiplications and additions.
 
 ## Addition, subtraction and multiplication by a number
 
 Since $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, we collect the terms with the same unit vector:
 $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
-The difference and the product with a number work the same way.
+Subtraction and multiplication by a number work the same way: we work on each coordinate separately.
 
 :::theorem Operations in coordinates
 Let $\vec{a}=(x_1, y_1, z_1)$, $\vec{b}=(x_2, y_2, z_2)$ and let $k$ be a number. Then
@@ -38,7 +38,7 @@ $$\vec{a}+\vec{b}=(3, -2, 2),\qquad 2\vec{a}=(2, -4, 6),\quad 3\vec{b}=(6, 0, -3
 So $\vec{a}+\vec{b}=(3, -2, 2)$ and $2\vec{a}-3\vec{b}=(-4, -4, 9)$.
 :::
 
-The collinearity condition gives a test for three points on a line: $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+The collinearity condition also gives a test for three points on a line: $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear. The reason is that the two vectors start at the same point, so if they are parallel they must lie on one line.
 
 :::example Three collinear points and two collinear vectors
 a) Prove that $A(1, 2, -1)$, $B(3, 1, 1)$, $C(7, -1, 5)$ are collinear.
@@ -64,7 +64,7 @@ So $x=-6$, $y=2$, and $\vec{u}=-2\vec{v}$.
 
 Let us compute $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ by expanding. There are four products:
 $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
-Since $\vec{i}\cdot\vec{i}=1$ while products of two different unit vectors are $0$, only $3$ is left. That is exactly $1\cdot3+2\cdot0+0\cdot1$: multiply the coordinates in the same position and add.
+Since $\vec{i}\cdot\vec{i}=1$ while products of two different unit vectors are $0$, only $3$ is left, which is exactly $1\cdot3+2\cdot0+0\cdot1$. In other words, to find a scalar product we multiply the coordinates in the same position and add.
 
 :::theorem Dot product, length, angle
 Let $\vec{a}=(x_1, y_1, z_1)$ and $\vec{b}=(x_2, y_2, z_2)$. Then
@@ -91,7 +91,7 @@ Also $\vec{a}\cdot\vec{c}=2+2-4=0$, so $\vec{a}\perp\vec{c}$.
 So $(\vec{a}, \vec{b})\approx63.6^\circ$ and $\vec{a}\perp\vec{c}$.
 :::
 
-Now we answer the tent question. The angle between the ropes is the angle between two vectors starting at the top of the pole.
+We now have the tools to answer the tent question. The angle between the ropes is the angle between two vectors starting at the top of the pole.
 
 :::diagram The tent pole and the two guy ropes
 alt: The axes Oxyz; the tent pole stands on the axis Oz from O up to the top T, and two arrows go from T down to the pegs P and Q in the plane Oxy, with an angle arc at T
@@ -129,7 +129,7 @@ So the ropes make an angle of about $69.1^\circ$, and each is about $3.74$ m lon
 
 ## Solving geometry problems with coordinates
 
-Once we have coordinates, many geometric questions become calculations: a parallelogram $ABCD$ needs $\overrightarrow{AD}=\overrightarrow{BC}$, and two perpendicular lines need a zero scalar product.
+Once we have coordinates, many geometric questions become calculations. For $ABCD$ to be a parallelogram we need $\overrightarrow{AD}=\overrightarrow{BC}$; for two lines to be perpendicular we need a zero scalar product.
 
 :::example The fourth vertex of a parallelogram
 Let $A(1, 0, 2)$, $B(2, 3, -1)$, $C(0, 4, 1)$. Prove that $A$, $B$, $C$ are not collinear and find $D$ such that $ABCD$ is a parallelogram.
@@ -145,7 +145,7 @@ So $D(-1, 1, 4)$.
 **Check.** The midpoint of $AC$ is $\left(\frac12, 2, \frac32\right)$, the same as the midpoint of $BD$.
 :::
 
-The last example has more steps, so we follow the four stages.
+The last example has more steps, so we slow down and follow four stages: understand, plan, solve, look back.
 
 :::example Diagonals of a cube
 Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Prove that $A'C\perp BD$ and find the angle between $\overrightarrow{A'C}$ and $\overrightarrow{AB}$.
@@ -172,6 +172,8 @@ $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1
 - **Forgetting the square root for a length.** Wrong: $|(1, 2, 2)|=1+4+4=9$. Right: $|(1, 2, 2)|=\sqrt9=3$.
 - **Testing collinearity with ratios when a coordinate is $0$.** For $(0, 2, 4)$ and $(0, 1, 2)$ the ratio $\frac00$ is meaningless. Right: find $k$ from a non-zero coordinate: $(0, 2, 4)=2(0, 1, 2)$, so the vectors are collinear.
 - **Taking the angle between vectors that do not share a starting point.** Wrong: using $\overrightarrow{PT}$ and $\overrightarrow{TQ}$ to find $\angle PTQ$. Why it is wrong: $\overrightarrow{PT}=-\overrightarrow{TP}$ changes the sign of the cosine and gives $180^\circ-69.1^\circ$. Right: use $\overrightarrow{TP}$ and $\overrightarrow{TQ}$.
+
+The first and the last are where most people slip. Before you find an angle, check that the two vectors start at the same point.
 :::
 
 ## Key terms
@@ -196,9 +198,11 @@ $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1
 - The angle $\angle BAC$ of a triangle is the angle between $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
 - Parallelogram $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
 
+Back to the tent: from the coordinates of three points alone, we found the angle between the ropes without measuring anything. If you remember one thing, remember that the scalar product is a number, found by multiplying the coordinates in the same position and adding.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Let $\vec{u}=(2, -1, 3)$ and $\vec{v}=(-1, 4, 0)$. Find $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ and $\vec{u}\cdot\vec{v}$.

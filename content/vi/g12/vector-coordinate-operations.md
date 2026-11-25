@@ -11,15 +11,15 @@ minutes: 24
 - Dùng toạ độ để tìm đỉnh hình bình hành, góc của tam giác, chứng minh vuông góc.
 :::
 
-Một chiếc lều cắm trại có cột dựng thẳng đứng, đỉnh cột ở độ cao $3$ m. Hai sợi dây néo đi từ đỉnh cột xuống hai cọc trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 3)$, hai cọc là $P(2; -1; 0)$ và $Q(-1; 2; 0)$. Hai sợi dây hợp với nhau một góc bao nhiêu độ?
+Bạn hình dung một chiếc lều cắm trại có cột dựng thẳng đứng, đỉnh cột cao $3$ m. Từ đỉnh cột, hai sợi dây néo chạy xuống hai cọc cắm trên mặt đất. Đặt chân cột ở gốc toạ độ, lấy mét làm đơn vị, ta có đỉnh cột $T(0; 0; 3)$ và hai cọc $P(2; -1; 0)$, $Q(-1; 2; 0)$. Hai sợi dây hợp với nhau một góc bao nhiêu độ? Không cần thước đo góc, ta vẫn trả lời được.
 
-Bài trước cho ta toạ độ của điểm và vectơ. Bài này biến mọi phép toán vectơ, kể cả tích vô hướng, thành phép tính trên các con số, nên câu hỏi trên chỉ còn là vài phép nhân và cộng.
+Ở bài trước, mỗi điểm và mỗi vectơ đã có toạ độ. Lần này ta đi thêm một bước: mọi phép toán vectơ, kể cả tích vô hướng, đều trở thành phép tính trên các con số. Khi đó, câu hỏi về chiếc lều chỉ còn là vài phép nhân và phép cộng.
 
 ## Cộng, trừ và nhân với một số
 
 Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}+z_1\vec{k}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}+z_2\vec{k}$, ta gom các số hạng cùng vectơ đơn vị:
 $$\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}+(z_1+z_2)\vec{k}.$$
-Hiệu và tích với một số làm tương tự.
+Phép trừ và phép nhân với một số cũng làm như vậy: ta làm riêng trên từng toạ độ.
 
 :::theorem Các phép toán theo toạ độ
 Cho $\vec{a}=(x_1; y_1; z_1)$, $\vec{b}=(x_2; y_2; z_2)$ và số $k$. Khi đó
@@ -38,7 +38,7 @@ $$\vec{a}+\vec{b}=(3; -2; 2),\qquad 2\vec{a}=(2; -4; 6),\quad 3\vec{b}=(6; 0; -3
 Vậy $\vec{a}+\vec{b}=(3; -2; 2)$ và $2\vec{a}-3\vec{b}=(-4; -4; 9)$.
 :::
 
-Điều kiện cùng phương cho ta cách kiểm tra ba điểm thẳng hàng: $A$, $B$, $C$ thẳng hàng khi và chỉ khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+Điều kiện cùng phương còn cho ta một cách kiểm tra ba điểm có thẳng hàng hay không: $A$, $B$, $C$ thẳng hàng khi và chỉ khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương. Lí do là hai vectơ này có chung điểm đầu, nên cùng phương thì chúng phải nằm trên cùng một đường thẳng.
 
 :::example Ba điểm thẳng hàng và hai vectơ cùng phương
 a) Chứng minh $A(1; 2; -1)$, $B(3; 1; 1)$, $C(7; -1; 5)$ thẳng hàng.
@@ -64,7 +64,7 @@ Vậy $x=-6$, $y=2$, và $\vec{u}=-2\vec{v}$.
 
 Ta tính thử $(\vec{i}+2\vec{j})\cdot(3\vec{i}+\vec{k})$ bằng cách nhân phân phối. Có bốn tích:
 $$3\,\vec{i}\cdot\vec{i}+\vec{i}\cdot\vec{k}+6\,\vec{j}\cdot\vec{i}+2\,\vec{j}\cdot\vec{k}.$$
-Vì $\vec{i}\cdot\vec{i}=1$ còn các tích của hai vectơ đơn vị khác nhau bằng $0$, chỉ còn $3$. Đó đúng bằng $1\cdot3+2\cdot0+0\cdot1$: nhân các toạ độ cùng vị trí rồi cộng lại.
+Vì $\vec{i}\cdot\vec{i}=1$ còn tích của hai vectơ đơn vị khác nhau đều bằng $0$, nên chỉ còn lại $3$, đúng bằng $1\cdot3+2\cdot0+0\cdot1$. Nói cách khác, muốn tính tích vô hướng, ta nhân các toạ độ cùng vị trí rồi cộng lại.
 
 :::theorem Tích vô hướng, độ dài, góc
 Cho $\vec{a}=(x_1; y_1; z_1)$ và $\vec{b}=(x_2; y_2; z_2)$. Khi đó
@@ -91,7 +91,7 @@ Còn $\vec{a}\cdot\vec{c}=2+2-4=0$, nên $\vec{a}\perp\vec{c}$.
 Vậy $(\vec{a}, \vec{b})\approx63{,}6^\circ$ và $\vec{a}\perp\vec{c}$.
 :::
 
-Bây giờ ta trả lời câu hỏi chiếc lều. Góc giữa hai sợi dây là góc giữa hai vectơ cùng xuất phát từ đỉnh cột.
+Giờ ta đã đủ công cụ để trả lời câu hỏi về chiếc lều. Góc giữa hai sợi dây chính là góc giữa hai vectơ cùng xuất phát từ đỉnh cột.
 
 :::diagram Cột lều và hai sợi dây néo
 alt: Hệ trục Oxyz; cột lều dựng trên trục Oz từ O lên đỉnh T, hai mũi tên đi từ T xuống hai cọc P và Q trên mặt phẳng Oxy, với cung góc tại T
@@ -129,7 +129,7 @@ Vậy hai sợi dây hợp với nhau góc khoảng $69{,}1^\circ$, mỗi sợi 
 
 ## Giải bài toán hình học bằng toạ độ
 
-Khi đã có toạ độ, nhiều câu hỏi hình học trở thành tính toán: hình bình hành $ABCD$ cần $\overrightarrow{AD}=\overrightarrow{BC}$, hai đường thẳng vuông góc cần tích vô hướng bằng $0$.
+Có toạ độ rồi, nhiều câu hỏi hình học trở thành bài tính. Muốn hình bình hành $ABCD$ đúng là hình bình hành, ta cần $\overrightarrow{AD}=\overrightarrow{BC}$; muốn hai đường thẳng vuông góc, ta cần tích vô hướng bằng $0$.
 
 :::example Đỉnh thứ tư của hình bình hành
 Cho $A(1; 0; 2)$, $B(2; 3; -1)$, $C(0; 4; 1)$. Chứng minh $A$, $B$, $C$ không thẳng hàng và tìm $D$ để $ABCD$ là hình bình hành.
@@ -145,7 +145,7 @@ Vậy $D(-1; 1; 4)$.
 **Kiểm tra.** Trung điểm của $AC$ là $\left(\frac12; 2; \frac32\right)$, trùng trung điểm của $BD$.
 :::
 
-Ví dụ cuối nhiều bước hơn, nên ta làm theo bốn bước.
+Ví dụ cuối có nhiều bước hơn, nên ta làm chậm lại theo bốn bước: hiểu đề, tìm cách giải, giải, nhìn lại.
 
 :::example Đường chéo của hình lập phương
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Chứng minh $A'C\perp BD$ và tính góc giữa $\overrightarrow{A'C}$ và $\overrightarrow{AB}$.
@@ -172,6 +172,8 @@ $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1
 - **Quên căn khi tính độ dài.** Sai: $|(1; 2; 2)|=1+4+4=9$. Đúng: $|(1; 2; 2)|=\sqrt9=3$.
 - **Xét cùng phương bằng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2; 4)$ và $(0; 1; 2)$, tỉ số $\frac00$ vô nghĩa. Đúng: tìm $k$ từ một toạ độ khác $0$: $(0; 2; 4)=2(0; 1; 2)$, nên hai vectơ cùng phương.
 - **Lấy góc giữa hai vectơ không chung điểm đầu.** Sai: dùng $\overrightarrow{PT}$ và $\overrightarrow{TQ}$ để tính $\widehat{PTQ}$. Vì sao sai: $\overrightarrow{PT}=-\overrightarrow{TP}$ đổi dấu cosin, cho góc $180^\circ-69{,}1^\circ$. Đúng: dùng $\overrightarrow{TP}$ và $\overrightarrow{TQ}$.
+
+Lỗi đầu tiên và lỗi cuối cùng là hai chỗ nhiều bạn hay nhầm nhất. Trước khi tính góc, bạn nhìn lại xem hai vectơ đã chung điểm đầu chưa.
 :::
 
 ## Thuật ngữ
@@ -196,9 +198,11 @@ $$\cos(\overrightarrow{A'C}, \overrightarrow{AB})=\frac{1}{\sqrt3\cdot1}=\frac{1
 - Góc $\widehat{BAC}$ của tam giác là góc giữa $\overrightarrow{AB}$ và $\overrightarrow{AC}$.
 - Hình bình hành $ABCD$: $\overrightarrow{AD}=\overrightarrow{BC}$.
 
+Quay lại chiếc lều: chỉ với toạ độ của ba điểm, ta tính được góc giữa hai sợi dây mà không cần đo. Nếu chỉ nhớ một điều, bạn hãy nhớ rằng tích vô hướng là một số, có được bằng cách nhân các toạ độ cùng vị trí rồi cộng lại.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Cho $\vec{u}=(2; -1; 3)$ và $\vec{v}=(-1; 4; 0)$. Tìm $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ và $\vec{u}\cdot\vec{v}$.
