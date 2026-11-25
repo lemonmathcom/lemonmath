@@ -19,7 +19,7 @@ A school surveys $200$ grade-12 students about joining a sports club:
 | Girls | $30$ | $70$ | $100$ |
 | Total | $90$ | $110$ | $200$ |
 
-One student is chosen at random. The probability that the student has joined the club is $\dfrac{90}{200}=0.45$. But if we **also know** that the student chosen is a girl, what is the probability that she has joined the club?
+One student is chosen at random. The probability that the student has joined the club is $\dfrac{90}{200}=0.45$. But if we **also know** that the student chosen is a girl, what is the probability that she has joined the club? Think about it: does the new information change the number?
 
 ## Conditional probability
 
@@ -29,7 +29,7 @@ Once we know that the student is a girl, we only look at the $100$ girls in the 
 
 $$\frac{30}{100}=0.3.$$
 
-This is not $0.45$: the information "is a girl" has changed the probability. We can also write it with probabilities over all $200$ students:
+This is not $0.45$: one piece of information, "is a girl", has changed the probability. We can also write it with probabilities over all $200$ students, and writing it that way leads us to the general formula:
 
 $$\frac{30}{100}=\frac{30/200}{100/200}=\frac{P(\text{girl and joined})}{P(\text{girl})}=\frac{0.15}{0.5}=0.3.$$
 
@@ -41,7 +41,7 @@ When the outcomes are equally likely, we can count: $P(A\mid B)=\dfrac{n(A\cap B
 
 **Why this formula?** Knowing that $B$ has happened means only the outcomes in $B$ are still possible, so $B$ acts as a new sample space. Inside it, the outcomes that make $A$ happen are exactly $A\cap B$. We divide by $P(B)$ so that the probabilities in the "new space" add up to $1$.
 
-The definition gives $P(\overline{A}\mid B)=1-P(A\mid B)$, just as for ordinary probabilities.
+The definition gives $P(\overline{A}\mid B)=1-P(A\mid B)$, just as for ordinary probabilities. The reason is that in the new sample space, each outcome either makes the event happen or does not.
 
 :::example Rolling two dice
 Two fair dice are rolled. Given that the total is $8$, find the probability that at least one die shows a $6$.
@@ -53,7 +53,7 @@ $$B=\{(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)\},\qquad A\cap B=\{(2, 6), (6, 2)\}
 So $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
 :::
 
-The order of the two events in $P(A\mid B)$ matters a great deal, as the next example shows.
+The order of the two events in $P(A\mid B)$ matters a great deal. Swapping them asks a completely different question, as the next example shows.
 
 :::example Swapping the two events
 Using the survey table at the start, one student is chosen at random. Let $T$ be "has joined the club" and $N$ be "is a girl". Find $P(T\mid N)$ and $P(N\mid T)$.
@@ -67,14 +67,14 @@ The two numbers are different: $P(T\mid N)$ answers "of the girls, what fraction
 
 ## The multiplication rule and tree diagrams
 
-Multiplying both sides of the definition by $P(B)$ gives a formula for the probability of an intersection.
+Multiplying both sides of the definition by $P(B)$ gives a formula for the probability of an intersection. We use it as often as the definition itself.
 
 :::theorem The multiplication rule
 For events $A$ and $B$ with positive probabilities:
 $$P(A\cap B)=P(B)\cdot P(A\mid B)=P(A)\cdot P(B\mid A).$$
 :::
 
-This rule is especially useful when an experiment happens **in stages**. On a tree diagram, each branch carries the conditional probability of that stage, and the probability of a path is the product of the numbers along it.
+This rule is especially useful when an experiment happens **in stages**, such as drawing balls one after another. On a tree diagram, each branch carries the conditional probability of that stage, and the probability of a path is the product of the numbers along it.
 
 :::example Drawing without replacement
 A box holds $5$ red balls and $3$ blue balls. Two balls are drawn one after the other, without replacement. Find the probability that both are red, and the probability that the second is red given that the first is blue.
@@ -109,7 +109,7 @@ label 4.4,-1.1 "5/7"
 label 4.4,-3 "2/7"
 :::
 
-The four numbers at the ends add up to $\dfrac{20+15+15+6}{56}=1$, a quick check.
+The four numbers at the ends add up to $\dfrac{20+15+15+6}{56}=1$. It is worth getting into the habit of adding them up like this: if the total is not one, something has gone wrong.
 
 :::example A two-round contest
 The probability that a student passes round 1 of a contest is $0.6$. Given that the student has passed round 1, the probability of passing round 2 is $0.5$. Find the probability that the student passes both rounds.
@@ -139,7 +139,7 @@ $$P(A\mid B)=\frac24=\frac12=P(A),\qquad P(A\mid C)=\frac23\neq P(A).$$
 So $A$ and $B$ are independent, while $A$ and $C$ are not.
 :::
 
-The last example is a medical one, where mixing up $P(A\mid B)$ and $P(B\mid A)$ can cause serious misunderstanding.
+The last example is a medical one. Here, mixing up $P(A\mid B)$ and $P(B\mid A)$ does not just spoil an answer; it can make people misunderstand their own health.
 
 :::example Screening test results
 A screening programme tests $1000$ people, with these results:
@@ -164,6 +164,8 @@ The test detects $90\%$ of the people who have the disease, but only about $32\%
 - **Dividing by the whole sample space.** Wrong: in the dice example, $P(A\mid B)=\dfrac{2}{36}$. Why it is wrong: once $B$ is known, only $5$ outcomes remain. Right: $\dfrac25$.
 - **The wrong denominator.** Wrong: $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$. Why it is wrong: the condition is $B$, so we divide by $P(B)$.
 - **Multiplying as if independent when drawing without replacement.** Wrong: $P(\text{two red})=\dfrac58\cdot\dfrac58=\dfrac{25}{64}$. Why it is wrong: after the first draw the box has changed. Right: $\dfrac58\cdot\dfrac47=\dfrac5{14}$.
+
+The first slip is not only made by students; adults make it too. Each time you read a conditional probability, ask yourself: what is already known, and what are we asking about?
 :::
 
 ## Key terms
@@ -187,9 +189,11 @@ The test detects $90\%$ of the people who have the disease, but only about $32\%
 - Multiplication rule: $P(A\cap B)=P(B)\cdot P(A\mid B)$; on a tree diagram, multiply along a path.
 - $A$, $B$ independent $\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)P(B)$.
 
+Back to the survey: once we know the student is a girl, we count only among the girls, and the probability changes. If you remember one thing, remember this: a conditional probability is a probability in a sample space that has been narrowed down.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 A fair die is rolled. Given that the result is odd, find the probability that it is at most $3$.

@@ -15,7 +15,7 @@ A motorbike accelerates for $3$ seconds. Its velocity after $t$ seconds is $v(t)
 
 A quick guess is to average the first and last velocities: $\dfrac{2+11}{2}\cdot3=19.5$ m. That only works when the velocity rises steadily, but here it rises faster and faster. Let us find the right answer.
 
-The problem of "adding up a quantity that changes continuously" goes back to Archimedes, who found the area of a region bounded by a parabola by cutting it into small pieces. Only in the second half of the 17th century did Isaac Newton and Gottfried Wilhelm Leibniz, independently of each other, find the short cut: use an antiderivative (MacTutor History of Mathematics, University of St Andrews). This lesson retells that discovery.
+The problem of "adding up a quantity that changes continuously" goes back to Archimedes, who found the area of a region bounded by a parabola by cutting it into small pieces. Only in the second half of the 17th century did Isaac Newton and Gottfried Wilhelm Leibniz, independently of each other, find the short cut: use an antiderivative (MacTutor History of Mathematics, University of St Andrews). We shall retrace that path, starting with the motorbike.
 
 ## The area under a graph
 
@@ -32,7 +32,7 @@ $$1\cdot(2+3+6)=11,\qquad 1\cdot(3+6+11)=20.$$
 | Underestimate | $11$ | $12.875$ | $14.555$ |
 | Overestimate | $20$ | $17.375$ | $15.455$ |
 
-The two estimates close in on one number, $15$. This number is the **area of the region** under the graph of $v(t)$ from $t=0$ to $t=3$.
+The two estimates close in on one number, $15$. The smaller the pieces, the closer the two estimates get. This number is the **area of the region** under the graph of $v(t)$ from $t=0$ to $t=3$.
 
 :::graph Distance as the area under $v(t)=t^2+2$
 alt: The parabola v equals t squared plus 2 on the interval from 0 to 3, with the region under the graph and above the horizontal axis shaded
@@ -78,7 +78,7 @@ $$\int_1^2(3x^2-2x+1)\,dx=\Big[x^3-x^2+x\Big]_1^2=(8-4+2)-(1-1+1)=6-1=5.$$
 So the integral equals $5$.
 :::
 
-The value at the lower limit is not always $0$, especially for trigonometric functions.
+This is where many people slip: the value at the lower limit is not always $0$, especially for trigonometric functions. The next example shows this.
 
 :::example A trigonometric function
 Evaluate $\displaystyle\int_0^{\frac{\pi}{2}}(2\cos x-\sin x)\,dx$.
@@ -117,7 +117,7 @@ Since swapping the limits changes the sign of the integral, $\displaystyle\int_5
 So $\displaystyle\int_0^5\big(2f(x)-3g(x)\big)\,dx=-8$ and $\displaystyle\int_5^0 f(x)\,dx=-2$.
 :::
 
-With an absolute value, we find where the expression changes sign and split the interval using the third property.
+When you meet an absolute value, do not try to move it outside. Find where the expression changes sign, then split the interval using the third property and remove the bars on each piece.
 
 :::example An integral with an absolute value
 Evaluate $\displaystyle\int_0^2\lvert x^2-1\rvert\,dx$.
@@ -181,6 +181,8 @@ So the motorbike travels $15$ m, not the $19.5$ m from the averaging guess.
 - **Taking the value at the lower limit as $0$.** Wrong: $\displaystyle\int_0^{\frac{\pi}{2}}\sin x\,dx=-\cos\frac{\pi}{2}=0$. Why it is wrong: $-\cos0=-1\neq0$. Right: $\Big[-\cos x\Big]_0^{\frac{\pi}{2}}=0-(-1)=1$.
 - **Moving the absolute value outside.** Wrong: $\displaystyle\int_0^2\lvert x^2-1\rvert\,dx=\left\lvert\int_0^2(x^2-1)\,dx\right\rvert=\frac23$. Why it is wrong: the negative and positive parts cancel inside the inner integral. Right: split at $x=1$ to get $2$.
 - **Forgetting the factor $\dfrac1a$.** Wrong: $\displaystyle\int_0^1(2x+1)^3dx=\Big[\frac{(2x+1)^4}{4}\Big]_0^1=20$. Why it is wrong: the derivative of $\dfrac{(2x+1)^4}{4}$ is $2(2x+1)^3$. Right: divide by $2$ as well to get $10$.
+
+The third one is the easiest to get wrong in the whole lesson. When you meet an absolute value, remember: split first, then calculate.
 :::
 
 ## Key terms
@@ -204,9 +206,11 @@ So the motorbike travels $15$ m, not the $19.5$ m from the averaging guess.
 - With an absolute value: find where the sign changes, split the interval, remove the bars on each piece.
 - $\displaystyle\int f(ax+b)\,dx=\frac1aF(ax+b)+C$.
 
+Back to the motorbike: the distance it travels is the area under the velocity graph, and thanks to an antiderivative we found it with a single subtraction. If you remember one thing, remember this: a definite integral is a number, the antiderivative at the upper limit minus the antiderivative at the lower limit.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Evaluate $\displaystyle\int_0^2(x^3-2x+3)\,dx$.

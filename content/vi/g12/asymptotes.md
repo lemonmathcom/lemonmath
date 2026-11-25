@@ -13,7 +13,7 @@ minutes: 20
 
 Một xưởng nhỏ đóng chai nước khoáng. Mỗi tháng xưởng mất $2000$ nghìn đồng chi phí cố định (thuê mặt bằng, điện), và mỗi chai tốn thêm $5$ nghìn đồng. Nếu làm $x$ chai, chi phí trung bình cho một chai là
 $$A(x)=\frac{5x+2000}{x}\ \ (\text{nghìn đồng}).$$
-Làm càng nhiều chai thì chi phí trung bình càng giảm. Liệu nó có giảm xuống dưới $5$ nghìn đồng được không?
+Làm càng nhiều chai thì chi phí trung bình càng giảm, vì chi phí cố định được chia cho nhiều chai hơn. Liệu nó có giảm xuống dưới $5$ nghìn đồng được không? Bạn thử đoán trước khi đọc tiếp.
 
 Đây cũng là câu hỏi của mọi nhà sản xuất: làm thật nhiều thì giá thành tiến về đâu? Câu trả lời là một đường thẳng mà đồ thị tiến sát dần khi $x$ rất lớn, gọi là **tiệm cận**. Chữ "tiệm" có nghĩa là "dần dần": tiệm cận là "dần dần tiến gần". Tên gọi quốc tế *asymptote* bắt nguồn từ tiếng Hy Lạp *asymptotos*, nghĩa đen là "không cùng rơi vào một chỗ", tức là đường cong và đường thẳng ngày càng gần nhau mà không gặp nhau.
 
@@ -21,7 +21,7 @@ Làm càng nhiều chai thì chi phí trung bình càng giảm. Liệu nó có g
 
 ### Khám phá: khi $x$ rất lớn
 
-Ta tính $A(x)$ với vài giá trị lớn của $x$:
+Ta tính thử $A(x)$ với vài giá trị lớn của $x$ và xem các con số thay đổi ra sao:
 
 | $x$ | $100$ | $1000$ | $10\,000$ | $100\,000$ |
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ Các giá trị tiến dần về $5$ nhưng luôn lớn hơn $5$, vì $A(x)=5+\
 $$\lim_{x\to+\infty} f(x)=y_0\quad\text{hoặc}\quad \lim_{x\to-\infty} f(x)=y_0.$$
 :::
 
-Vậy để tìm tiệm cận ngang, ta tính hai giới hạn của $f$ tại $+\infty$ và tại $-\infty$ (xem lại giới hạn của hàm số ở lớp 11).
+Vậy muốn tìm tiệm cận ngang, ta tính hai giới hạn của $f$: tại $+\infty$ và tại $-\infty$ (xem lại giới hạn của hàm số ở lớp 11). Bạn nhớ tính cả hai, vì hai phía có thể cho hai kết quả khác nhau.
 
 **Hiểu sâu hơn.** Tiệm cận mô tả dáng điệu của đồ thị "ở rất xa", không phải tại một điểm cụ thể. Vì vậy đồ thị vẫn có thể cắt tiệm cận ngang: $y=\dfrac{x}{x^2+1}$ có tiệm cận ngang $y=0$ nhưng đi qua gốc toạ độ. "Tiến sát mà không chạm" chỉ là hình ảnh thường gặp, không phải định nghĩa.
 
@@ -49,7 +49,7 @@ Với $y=\dfrac{1}{x-2}$, khi $x$ đến gần $2$, mẫu rất nhỏ nên $y$ r
 $$\lim_{x\to x_0^+} f(x)=+\infty,\quad \lim_{x\to x_0^+} f(x)=-\infty,\quad \lim_{x\to x_0^-} f(x)=+\infty,\quad \lim_{x\to x_0^-} f(x)=-\infty.$$
 :::
 
-Với phân thức, ta tìm các giá trị làm mẫu bằng $0$, rồi **kiểm tra giới hạn** tại từng giá trị: chỉ khi giới hạn là vô cực thì mới có tiệm cận đứng.
+Với phân thức, ta tìm các giá trị làm mẫu bằng $0$, rồi **kiểm tra giới hạn** tại từng giá trị. Chỉ khi giới hạn là vô cực thì mới có tiệm cận đứng; nếu tử cũng bằng không tại đó thì rất có thể không có.
 
 :::example Hàm phân thức bậc nhất trên bậc nhất
 Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{2x-1}{x+1}$.
@@ -96,7 +96,7 @@ Vậy đồ thị có đúng hai tiệm cận: tiệm cận đứng $x=1$ và ti
 
 ## Tiệm cận xiên
 
-Có những đồ thị không sát một đường nằm ngang mà sát một đường thẳng **nghiêng** khi $x\to\pm\infty$.
+Cũng có những đồ thị không tiến sát một đường nằm ngang, mà tiến sát một đường thẳng **nghiêng** khi $x\to\pm\infty$.
 
 :::definition Tiệm cận xiên
 Đường thẳng $y=ax+b$ ($a\neq0$) là **tiệm cận xiên** của đồ thị hàm số $y=f(x)$ nếu
@@ -127,7 +127,7 @@ plot: x ; dashed
 vline: 1 ; dashed
 :::
 
-Khi phép chia không thuận tiện, ta dùng công thức giới hạn trong định nghĩa. Ta làm lại với một hàm khác để thấy hai cách cho cùng kết quả.
+Khi phép chia không thuận tiện, ta dùng công thức giới hạn trong định nghĩa. Ví dụ sau làm với một hàm khác, để bạn thấy hai cách cho cùng một kết quả.
 
 :::example Dùng công thức giới hạn
 Tìm tiệm cận xiên của đồ thị hàm số $y=\dfrac{2x^2+3x-1}{x+2}$.
@@ -141,7 +141,7 @@ $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\lef
 Vậy đồ thị có tiệm cận xiên $y=2x-1$.
 :::
 
-Một đồ thị có thể có **hai** tiệm cận ngang khác nhau ở hai phía, như ví dụ sau.
+Một đồ thị có thể có **hai** tiệm cận ngang khác nhau ở hai phía. Ví dụ sau cho thấy vì sao phải tính giới hạn ở cả hai phía.
 
 :::example Hai tiệm cận ngang
 Tìm các tiệm cận ngang của đồ thị hàm số $y=\dfrac{3x}{\sqrt{x^2+4}}$.
@@ -166,7 +166,7 @@ hline: -3 ; dashed
 
 ## Ý nghĩa thực tế
 
-Ta quay lại câu hỏi về chi phí đóng chai ở đầu bài.
+Giờ ta quay lại câu hỏi về chi phí đóng chai ở đầu bài. Tiệm cận ngang sẽ cho ta câu trả lời.
 
 :::example Chi phí trung bình
 Với $A(x)=\dfrac{5x+2000}{x}$ (nghìn đồng/chai), $x>0$, tìm tiệm cận ngang của đồ thị hàm số và nêu ý nghĩa thực tế. Chi phí trung bình có thể nhỏ hơn $5$ nghìn đồng không?
@@ -187,6 +187,8 @@ Vậy làm càng nhiều chai thì chi phí trung bình càng gần $5$ nghìn �
 - **Viết tiệm cận đứng là $y=\dots$.** Sai: tiệm cận đứng $y=-1$. Lí do sai: đường thẳng đứng có dạng $x=x_0$. Đúng: tiệm cận đứng $x=-1$, tiệm cận ngang $y=2$.
 - **Quên phần dư hoặc sai dấu khi chia.** Sai: "$y=\dfrac{x^2-3x+4}{x-2}$ có tiệm cận xiên $y=x+1$". Lí do sai: $x^2-3x+4=(x-2)(x-1)+2$. Đúng: tiệm cận xiên $y=x-1$.
 - **Bỏ qua dấu của $|x|$.** Sai: "$\sqrt{x^2+4}\approx x$ nên $y=\dfrac{3x}{\sqrt{x^2+4}}$ chỉ có tiệm cận ngang $y=3$". Lí do sai: khi $x<0$ thì $\sqrt{x^2}=-x$. Đúng: còn có $y=-3$ khi $x\to-\infty$.
+
+Lỗi đầu tiên là chỗ nhiều bạn hay nhầm nhất. Thấy mẫu bằng không, bạn đừng vội kết luận: hãy tính giới hạn trước.
 :::
 
 ## Thuật ngữ
@@ -210,9 +212,11 @@ Vậy làm càng nhiều chai thì chi phí trung bình càng gần $5$ nghìn �
 - $y=\dfrac{ax+b}{cx+d}$: tiệm cận đứng $x=-\dfrac dc$, tiệm cận ngang $y=\dfrac ac$.
 - Hình vẽ: tiệm cận là đường nét đứt; đồ thị tiến sát chúng nhưng không cần cắt hay chạm.
 
+Quay lại xưởng đóng chai: làm càng nhiều chai, chi phí trung bình càng tiến sát chi phí riêng của một chai, nhưng không bao giờ xuống dưới mức đó. Nếu chỉ nhớ một điều, bạn hãy nhớ: tiệm cận cho biết đồ thị đi về đâu khi ta đi thật xa, và muốn tìm nó thì phải tính giới hạn.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{3x+2}{x-4}$.

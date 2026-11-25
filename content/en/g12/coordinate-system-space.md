@@ -13,7 +13,7 @@ minutes: 22
 
 A classroom is $8$ m long, $6$ m wide and $3$ m high. A lamp hangs $2$ m from the front wall, $3$ m from the left wall and $2.5$ m above the floor. A humidity sensor sits in the opposite floor corner, $8$ m and $6$ m from those two walls. How far is the lamp from the sensor?
 
-In the plane, two numbers are enough to fix the position of a point. In space we need three, and those three numbers let us find distances without drawing anything.
+In the plane, two numbers are enough to fix the position of a point. In space we need three. Once we have those three numbers, we can find distances without drawing anything and without a tape measure.
 
 The idea of using numbers to fix positions, and so turning geometry problems into algebra, was set out by René Descartes in *La Géométrie* (1637) for points in the plane (MacTutor History of Mathematics). Extended to three dimensions, the same idea underlies technical drawings, 3D design software and the control of a drone: every position is described by three numbers.
 
@@ -72,7 +72,7 @@ segment B' C'
 segment C' O'
 :::
 
-The first example reads coordinates from the cuboid above, whose edges run along the three axes.
+The first example reads coordinates from the cuboid above, whose edges run along the three axes. Try reading them yourself before you compare with the solution.
 
 :::example Coordinates of the vertices of a cuboid
 The cuboid $OABC.O'A'B'C'$ has $A$ on the ray $Ox$, $C$ on the ray $Oy$, $O'$ on the ray $Oz$, with $OA=3$, $OC=4$, $OO'=2$. Find the coordinates of the vertices and of $\overrightarrow{OB'}$.
@@ -91,7 +91,7 @@ So the vertices have the coordinates above and $\overrightarrow{OB'}=(3, 4, 2)$.
 
 ### Points on the axes and the coordinate planes
 
-From the definition, we can read the position of a point from the coordinates that are $0$:
+From the definition, the coordinates that are $0$ tell us at once where a point lies:
 
 | Position of $M$ | Condition |
 |---|---|
@@ -120,7 +120,7 @@ Since $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$, we subtract
 
 $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A,\ z_B-z_A).$$
 
-The familiar rule again: **end point minus start point**. Two vectors are equal if and only if their three corresponding coordinates are equal.
+The familiar rule from the plane again: **end point minus start point**. Two vectors are equal if and only if their three corresponding coordinates are equal.
 
 :::example Two equal vectors
 Let $A(1, 2, -1)$, $B(3, -1, 2)$, $C(-2, 0, 4)$, $D(0, -3, 7)$. Prove that $\overrightarrow{AB}=\overrightarrow{CD}$. Which parallelogram has the four points $A$, $B$, $C$, $D$ as its vertices?
@@ -161,7 +161,7 @@ $$AB=\sqrt{4+16+16}=\sqrt{36}=6.$$
 So $M(2, 2, 0)$, $AB=6$ and $G(1, 2, 1)$.
 :::
 
-Now we answer the opening question.
+We now have the tools to answer the opening question about the lamp and the sensor.
 
 :::example How far is the lamp from the sensor?
 In the coordinate system chosen in the exploration (unit: metre), the lamp is at $L(2, 3, 2.5)$ and the sensor at $S(8, 6, 0)$. Find the distance $LS$ (give your answer to 2 decimal places).
@@ -182,6 +182,8 @@ So the lamp is about $7.16$ m from the sensor.
 - **Distance to an axis confused with distance to a plane.** Wrong: the distance from $M(2, -3, 5)$ to the axis $Oz$ is $5$. Right: $5$ is the distance to $(Oxy)$; the distance to the axis $Oz$ is $\sqrt{2^2+3^2}=\sqrt{13}$.
 - **Subtracting the wrong way round.** Wrong: $\overrightarrow{AB}=(x_A-x_B,\ \dots)$. Right: end point minus start point.
 - **Forgetting a coordinate in a distance.** Wrong: $AB=\sqrt{2^2+4^2}$ for $\overrightarrow{AB}=(2, 4, -4)$. Right: add all three squares, $AB=6$.
+
+The first two slips are common because we are used to flat pictures. When in doubt, picture the room again: projecting onto the floor sets the height to zero and leaves everything else as it was.
 :::
 
 ## Key terms
@@ -207,9 +209,11 @@ So the lamp is about $7.16$ m from the sensor.
 - $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A,\ z_B-z_A)$; $AB$ is the square root of the sum of three squares.
 - Midpoint, centroid: the mean of each coordinate.
 
+Back to the classroom: with just three numbers for each position, we found the distance from the lamp to the sensor without climbing up to measure it. If you remember one thing, remember this: in space each point is three numbers, and almost every calculation works on each of those numbers separately.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 a) Find the coordinates of the point $M$ given $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}$.

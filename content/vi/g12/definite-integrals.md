@@ -15,7 +15,7 @@ Một chiếc xe máy tăng tốc trong $3$ giây. Vận tốc sau $t$ giây là
 
 Một cách đoán nhanh là lấy trung bình vận tốc đầu và cuối: $\dfrac{2+11}{2}\cdot3=19{,}5$ m. Cách này chỉ đúng khi vận tốc tăng đều, mà ở đây vận tốc tăng ngày càng nhanh. Ta sẽ tìm câu trả lời đúng.
 
-Bài toán "cộng dồn một đại lượng thay đổi liên tục" có từ thời Archimedes, khi ông tính diện tích hình giới hạn bởi một parabol bằng cách chia nhỏ hình ấy. Phải đến nửa sau thế kỉ XVII, Isaac Newton và Gottfried Wilhelm Leibniz, độc lập với nhau, mới tìm ra con đường ngắn: dùng nguyên hàm (theo MacTutor History of Mathematics, Đại học St Andrews). Bài này kể lại phát hiện ấy.
+Bài toán "cộng dồn một đại lượng thay đổi liên tục" có từ thời Archimedes, khi ông tính diện tích hình giới hạn bởi một parabol bằng cách chia nhỏ hình ấy. Phải đến nửa sau thế kỉ XVII, Isaac Newton và Gottfried Wilhelm Leibniz, độc lập với nhau, mới tìm ra con đường ngắn: dùng nguyên hàm (theo MacTutor History of Mathematics, Đại học St Andrews). Ta sẽ đi lại con đường ấy, bắt đầu từ chiếc xe máy.
 
 ## Diện tích dưới đồ thị
 
@@ -32,7 +32,7 @@ $$1\cdot(2+3+6)=11,\qquad 1\cdot(3+6+11)=20.$$
 | Ước lượng thiếu | $11$ | $12{,}875$ | $14{,}555$ |
 | Ước lượng thừa | $20$ | $17{,}375$ | $15{,}455$ |
 
-Hai ước lượng kẹp lại gần một số, đó là $15$. Số này chính là **diện tích hình phẳng** dưới đồ thị $v(t)$ từ $t=0$ đến $t=3$.
+Hai ước lượng kẹp lại gần một số, đó là $15$. Chia đoạn càng nhỏ, hai ước lượng càng sát nhau. Số này chính là **diện tích hình phẳng** dưới đồ thị $v(t)$ từ $t=0$ đến $t=3$.
 
 :::graph Quãng đường là diện tích dưới đồ thị $v(t)=t^2+2$
 alt: Đồ thị parabol v bằng t bình phương cộng 2 trên đoạn từ 0 đến 3, phần dưới đồ thị và trên trục hoành được tô màu
@@ -78,7 +78,7 @@ $$\int_1^2(3x^2-2x+1)\,dx=\Big[x^3-x^2+x\Big]_1^2=(8-4+2)-(1-1+1)=6-1=5.$$
 Vậy tích phân bằng $5$.
 :::
 
-Giá trị tại cận dưới không phải lúc nào cũng bằng $0$, đặc biệt với hàm lượng giác.
+Chỗ này nhiều bạn hay nhầm: giá trị tại cận dưới không phải lúc nào cũng bằng $0$, đặc biệt với hàm lượng giác. Ví dụ sau cho thấy điều đó.
 
 :::example Hàm lượng giác
 Tính $\displaystyle\int_0^{\frac{\pi}{2}}(2\cos x-\sin x)\,dx$.
@@ -117,7 +117,7 @@ Vì đổi chỗ hai cận thì tích phân đổi dấu nên $\displaystyle\int
 Vậy $\displaystyle\int_0^5\big(2f(x)-3g(x)\big)\,dx=-8$ và $\displaystyle\int_5^0 f(x)\,dx=-2$.
 :::
 
-Với dấu giá trị tuyệt đối, ta tìm chỗ biểu thức đổi dấu rồi tách đoạn bằng tính chất thứ ba.
+Gặp dấu giá trị tuyệt đối, bạn đừng tìm cách mang nó ra ngoài. Hãy tìm chỗ biểu thức đổi dấu, rồi tách đoạn bằng tính chất thứ ba để bỏ dấu trên từng đoạn.
 
 :::example Tích phân chứa dấu giá trị tuyệt đối
 Tính $\displaystyle\int_0^2\lvert x^2-1\rvert\,dx$.
@@ -181,6 +181,8 @@ Vậy xe đi được $15$ m, không phải $19{,}5$ m như cách đoán bằng 
 - **Coi giá trị tại cận dưới bằng $0$.** Sai: $\displaystyle\int_0^{\frac{\pi}{2}}\sin x\,dx=-\cos\frac{\pi}{2}=0$. Lí do sai: $-\cos0=-1\neq0$. Đúng: $\Big[-\cos x\Big]_0^{\frac{\pi}{2}}=0-(-1)=1$.
 - **Đưa dấu giá trị tuyệt đối ra ngoài.** Sai: $\displaystyle\int_0^2\lvert x^2-1\rvert\,dx=\left\lvert\int_0^2(x^2-1)\,dx\right\rvert=\frac23$. Lí do sai: phần âm và phần dương bù trừ nhau trong tích phân bên trong. Đúng: tách tại $x=1$, được $2$.
 - **Quên thừa số $\dfrac1a$.** Sai: $\displaystyle\int_0^1(2x+1)^3dx=\Big[\frac{(2x+1)^4}{4}\Big]_0^1=20$. Lí do sai: đạo hàm của $\dfrac{(2x+1)^4}{4}$ là $2(2x+1)^3$. Đúng: chia thêm cho $2$, được $10$.
+
+Lỗi thứ ba là chỗ dễ sai nhất trong cả bài. Khi gặp dấu giá trị tuyệt đối, bạn nhớ: tách đoạn trước, tính sau.
 :::
 
 ## Thuật ngữ
@@ -204,9 +206,11 @@ Vậy xe đi được $15$ m, không phải $19{,}5$ m như cách đoán bằng 
 - Có dấu giá trị tuyệt đối: tìm chỗ đổi dấu, tách đoạn, bỏ dấu trên từng đoạn.
 - $\displaystyle\int f(ax+b)\,dx=\frac1aF(ax+b)+C$.
 
+Quay lại chiếc xe máy: quãng đường xe đi được là diện tích dưới đồ thị vận tốc, và nhờ nguyên hàm, ta tính được nó chỉ bằng một phép trừ. Nếu chỉ nhớ một điều, bạn hãy nhớ: tích phân là một số, bằng nguyên hàm tại cận trên trừ nguyên hàm tại cận dưới.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Tính $\displaystyle\int_0^2(x^3-2x+3)\,dx$.

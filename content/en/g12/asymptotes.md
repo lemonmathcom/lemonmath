@@ -13,7 +13,7 @@ minutes: 20
 
 A small workshop bottles mineral water. Each month it pays $2000$ thousand đồng in fixed costs (rent, electricity), and each bottle costs another $5$ thousand đồng. If it makes $x$ bottles, the average cost per bottle is
 $$A(x)=\frac{5x+2000}{x}\ \ (\text{thousand đồng}).$$
-The more bottles it makes, the lower the average cost. Can it ever drop below $5$ thousand đồng?
+The more bottles it makes, the lower the average cost, because the fixed costs are shared among more bottles. Can it ever drop below $5$ thousand đồng? Have a guess before you read on.
 
 This is the question every producer asks: if we make a very large number, where does the unit cost settle? The answer is a line that the graph gets closer and closer to as $x$ becomes very large, called an **asymptote**. The word comes from the Greek *asymptotos*, "not falling together": the curve and the line come ever closer but never meet.
 
@@ -21,7 +21,7 @@ This is the question every producer asks: if we make a very large number, where 
 
 ### Explore: when $x$ is very large
 
-We compute $A(x)$ for a few large values of $x$:
+We try $A(x)$ for a few large values of $x$ and watch how the numbers change:
 
 | $x$ | $100$ | $1000$ | $10\,000$ | $100\,000$ |
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ The line $y=y_0$ is a **horizontal asymptote** of the graph of $y=f(x)$ if
 $$\lim_{x\to+\infty} f(x)=y_0\quad\text{or}\quad \lim_{x\to-\infty} f(x)=y_0.$$
 :::
 
-So to find horizontal asymptotes, we compute the two limits of $f$ at $+\infty$ and at $-\infty$ (see limits of functions in grade 11).
+So to find horizontal asymptotes, we compute the two limits of $f$: at $+\infty$ and at $-\infty$ (see limits of functions in grade 11). Remember to compute both, because the two sides may give different results.
 
 **A closer look.** An asymptote describes how the graph behaves "far away", not at one particular point. So a graph may cross its horizontal asymptote: $y=\dfrac{x}{x^2+1}$ has the horizontal asymptote $y=0$ but passes through the origin. "Getting closer without touching" is only the usual picture, not the definition.
 
@@ -49,7 +49,7 @@ The line $x=x_0$ is a **vertical asymptote** of the graph of $y=f(x)$ if at leas
 $$\lim_{x\to x_0^+} f(x)=+\infty,\quad \lim_{x\to x_0^+} f(x)=-\infty,\quad \lim_{x\to x_0^-} f(x)=+\infty,\quad \lim_{x\to x_0^-} f(x)=-\infty.$$
 :::
 
-For a rational function, we find the values that make the denominator zero, then **check the limit** at each of them: there is a vertical asymptote only when the limit is infinite.
+For a rational function, we find the values that make the denominator zero, then **check the limit** at each of them. There is a vertical asymptote only when the limit is infinite; if the numerator is also zero there, there may well be none.
 
 :::example Linear over linear
 Find the asymptotes of the graph of $y=\dfrac{2x-1}{x+1}$.
@@ -127,7 +127,7 @@ plot: x ; dashed
 vline: 1 ; dashed
 :::
 
-When division is awkward, we use the limit formulas from the definition. We try them on another function to see that both methods agree.
+When division is awkward, we use the limit formulas from the definition. The next example uses another function, so that you can see both methods give the same result.
 
 :::example Using the limit formulas
 Find the oblique asymptote of the graph of $y=\dfrac{2x^2+3x-1}{x+2}$.
@@ -141,7 +141,7 @@ $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\lef
 So the graph has the oblique asymptote $y=2x-1$.
 :::
 
-A graph can have **two** different horizontal asymptotes on its two sides, as in the next example.
+A graph can have **two** different horizontal asymptotes on its two sides. The next example shows why we must compute the limit on both sides.
 
 :::example Two horizontal asymptotes
 Find the horizontal asymptotes of the graph of $y=\dfrac{3x}{\sqrt{x^2+4}}$.
@@ -166,7 +166,7 @@ hline: -3 ; dashed
 
 ## What asymptotes mean in real life
 
-We return to the bottling question from the start.
+Now we return to the bottling question from the start. The horizontal asymptote gives the answer.
 
 :::example Average cost
 For $A(x)=\dfrac{5x+2000}{x}$ (thousand đồng per bottle), $x>0$, find the horizontal asymptote of the graph of the function and explain its practical meaning. Can the average cost be less than $5$ thousand đồng?
@@ -187,6 +187,8 @@ So the more bottles are made, the closer the average cost gets to $5$ thousand �
 - **Writing a vertical asymptote as $y=\dots$.** Wrong: the vertical asymptote is $y=-1$. Why it is wrong: a vertical line has the form $x=x_0$. Right: vertical asymptote $x=-1$, horizontal asymptote $y=2$.
 - **Losing the remainder or a sign in the division.** Wrong: "$y=\dfrac{x^2-3x+4}{x-2}$ has the oblique asymptote $y=x+1$". Why it is wrong: $x^2-3x+4=(x-2)(x-1)+2$. Right: the oblique asymptote is $y=x-1$.
 - **Ignoring the sign of $|x|$.** Wrong: "$\sqrt{x^2+4}\approx x$, so $y=\dfrac{3x}{\sqrt{x^2+4}}$ only has the horizontal asymptote $y=3$". Why it is wrong: when $x<0$, $\sqrt{x^2}=-x$. Right: there is also $y=-3$ as $x\to-\infty$.
+
+The first one is where most people slip. When you see a zero denominator, do not jump to a conclusion: compute the limit first.
 :::
 
 ## Key terms
@@ -210,9 +212,11 @@ So the more bottles are made, the closer the average cost gets to $5$ thousand �
 - $y=\dfrac{ax+b}{cx+d}$: vertical asymptote $x=-\dfrac dc$, horizontal asymptote $y=\dfrac ac$.
 - In a figure, asymptotes are dashed lines; the graph gets close to them but need not cross or touch them.
 
+Back to the bottling workshop: the more bottles it makes, the closer the average cost gets to the cost of one bottle on its own, but it never drops below it. If you remember one thing, remember this: an asymptote tells you where the graph is heading far away, and to find it you compute a limit.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise gives you what you need and a few steps to start. Try it yourself first. If you get stuck, read a hint, carry on, and only then open the solution to compare.
 
 :::exercise
 Find the asymptotes of the graph of $y=\dfrac{3x+2}{x-4}$.

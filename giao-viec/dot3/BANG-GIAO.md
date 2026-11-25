@@ -178,7 +178,7 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 | Vimus2358 | Vimus2358-GV-3.txt | Vimus2358-GV-3-ketqua.md | Lớp 9: 4 bài học | 77 KB | ☑ |
 | Vimus2358 | Vimus2358-GV-4.txt | Vimus2358-GV-4-ketqua.md | Lớp 9 → Lớp 10: 2 bài học | 58 KB | ☑ |
 | Lemonmath112 | Lemonmath112-GV-1.txt | Lemonmath112-GV-1-ketqua.md | Lớp 11 → Lớp 12: 4 bài học | 115 KB | ☑ |
-| Lemonmath112 | Lemonmath112-GV-2.txt | Lemonmath112-GV-2-ketqua.md | Lớp 12: 4 bài học | 114 KB | ☐ |
+| Lemonmath112 | Lemonmath112-GV-2.txt | Lemonmath112-GV-2-ketqua.md | Lớp 12: 4 bài học | 114 KB | ☑ |
 | Lemonmath112 | Lemonmath112-GV-3.txt | Lemonmath112-GV-3-ketqua.md | Lớp 12: 4 bài học | 108 KB | ☑ |
 | Lemonmath112 | Lemonmath112-GV-4.txt | Lemonmath112-GV-4-ketqua.md | Lớp 12: 2 bài học | 57 KB | ☑ |
 | hanibi108 | hanibi108-GV-1.txt | hanibi108-GV-1-ketqua.md | Lớp 12: 4 bài học | 122 KB | ☑ |

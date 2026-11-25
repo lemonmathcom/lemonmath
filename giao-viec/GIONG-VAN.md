@@ -87,10 +87,10 @@ Khi nhận: file `*-LG-ketqua.md` → `python3 tools/qa/upgrade.py apply <file>`
 | 59 | g9/vietes-theorem | xong 25/11/2026 (ChatGPT) |
 | 60 | g12/angle-formulas-space | xong 25/11/2026 (ChatGPT) |
 | 61 | g12/antiderivatives | xong 25/11/2026 (ChatGPT) |
-| 62 | g12/asymptotes | giao Lemonmath112-GV-2 (đợt 3) |
-| 63 | g12/conditional-probability-intro | giao Lemonmath112-GV-2 (đợt 3) |
-| 64 | g12/coordinate-system-space | giao Lemonmath112-GV-2 (đợt 3) |
-| 65 | g12/definite-integrals | giao Lemonmath112-GV-2 (đợt 3) |
+| 62 | g12/asymptotes | xong 25/11/2026 (ChatGPT) |
+| 63 | g12/conditional-probability-intro | xong 25/11/2026 (ChatGPT) |
+| 64 | g12/coordinate-system-space | xong 25/11/2026 (ChatGPT) |
+| 65 | g12/definite-integrals | xong 25/11/2026 (ChatGPT) |
 | 66 | g12/derivative-real-problems | xong 25/11/2026 (ChatGPT) |
 | 67 | g12/exam-format-strategy | xong 25/11/2026 (ChatGPT) |
 | 68 | g12/graphing-functions | xong 25/11/2026 (ChatGPT) |

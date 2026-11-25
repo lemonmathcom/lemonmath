@@ -13,7 +13,7 @@ minutes: 22
 
 Một phòng học dài $8$ m, rộng $6$ m, cao $3$ m. Một chiếc đèn treo cách bức tường phía trước $2$ m, cách bức tường bên trái $3$ m và cách sàn $2{,}5$ m. Một cảm biến độ ẩm đặt ở góc sàn đối diện, cách hai bức tường đó lần lượt $8$ m và $6$ m. Đèn cách cảm biến bao xa?
 
-Trong mặt phẳng, hai số đủ để chỉ vị trí một điểm. Trong không gian ta cần ba số, và ba số đó cho phép tính khoảng cách mà không cần vẽ hình.
+Trong mặt phẳng, hai số đủ để chỉ vị trí một điểm. Trong không gian ta cần ba số. Có ba số ấy rồi, ta tính được khoảng cách mà không cần vẽ hình, cũng không cần thước dây.
 
 Ý tưởng dùng các con số để chỉ vị trí, nhờ đó biến bài toán hình học thành bài toán đại số, được René Descartes trình bày trong cuốn *La Géométrie* (năm 1637) cho các điểm trong mặt phẳng (theo MacTutor History of Mathematics). Mở rộng lên ba chiều, ý tưởng ấy là nền tảng của bản vẽ kĩ thuật, của phần mềm thiết kế 3D và của việc điều khiển một chiếc flycam: mọi vị trí đều được mô tả bằng ba con số.
 
@@ -72,7 +72,7 @@ segment B' C'
 segment C' O'
 :::
 
-Ví dụ đầu tiên đọc toạ độ từ hình hộp trên, với các cạnh dọc theo ba trục.
+Ví dụ đầu tiên đọc toạ độ từ hình hộp ở trên, với các cạnh nằm dọc theo ba trục. Bạn thử tự đọc trước rồi mới so với lời giải.
 
 :::example Toạ độ các đỉnh của hình hộp
 Hình hộp chữ nhật $OABC.O'A'B'C'$ có $A$ trên tia $Ox$, $C$ trên tia $Oy$, $O'$ trên tia $Oz$, với $OA=3$, $OC=4$, $OO'=2$. Tìm toạ độ các đỉnh và toạ độ của $\overrightarrow{OB'}$.
@@ -91,7 +91,7 @@ Vậy các đỉnh có toạ độ như trên và $\overrightarrow{OB'}=(3; 4; 2
 
 ### Điểm trên các trục và các mặt phẳng toạ độ
 
-Từ định nghĩa, ta đọc được vị trí của một điểm qua các toạ độ bằng $0$:
+Từ định nghĩa, nhìn vào những toạ độ bằng $0$, ta biết ngay điểm nằm ở đâu:
 
 | Vị trí của $M$ | Điều kiện |
 |---|---|
@@ -120,7 +120,7 @@ Vì $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$, ta trừ từ
 
 $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A;\ z_B-z_A).$$
 
-Vẫn là quy tắc quen thuộc: **điểm cuối trừ điểm đầu**. Hai vectơ bằng nhau khi và chỉ khi ba toạ độ tương ứng bằng nhau.
+Vẫn là quy tắc quen thuộc như trong mặt phẳng: **điểm cuối trừ điểm đầu**. Hai vectơ bằng nhau khi và chỉ khi ba toạ độ tương ứng bằng nhau.
 
 :::example Hai vectơ bằng nhau
 Cho $A(1; 2; -1)$, $B(3; -1; 2)$, $C(-2; 0; 4)$, $D(0; -3; 7)$. Chứng minh rằng $\overrightarrow{AB}=\overrightarrow{CD}$. Bốn điểm $A$, $B$, $C$, $D$ là các đỉnh của hình bình hành nào?
@@ -161,7 +161,7 @@ $$AB=\sqrt{4+16+16}=\sqrt{36}=6.$$
 Vậy $M(2; 2; 0)$, $AB=6$ và $G(1; 2; 1)$.
 :::
 
-Bây giờ ta trả lời câu hỏi ở đầu bài.
+Giờ ta đã đủ công cụ để trả lời câu hỏi ở đầu bài về chiếc đèn và cảm biến.
 
 :::example Đèn cách cảm biến bao xa?
 Trong hệ toạ độ chọn như phần Khám phá (đơn vị: mét), đèn ở $L(2; 3; 2{,}5)$ và cảm biến ở $S(8; 6; 0)$. Tính khoảng cách $LS$ (làm tròn kết quả đến hàng phần trăm).
@@ -182,6 +182,8 @@ Vậy đèn cách cảm biến khoảng $7{,}16$ m.
 - **Khoảng cách đến trục nhầm với khoảng cách đến mặt phẳng.** Sai: khoảng cách từ $M(2; -3; 5)$ đến trục $Oz$ bằng $5$. Đúng: $5$ là khoảng cách đến $(Oxy)$; đến trục $Oz$ là $\sqrt{2^2+3^2}=\sqrt{13}$.
 - **Trừ ngược.** Sai: $\overrightarrow{AB}=(x_A-x_B;\ \dots)$. Đúng: điểm cuối trừ điểm đầu.
 - **Quên một toạ độ khi tính khoảng cách.** Sai: $AB=\sqrt{2^2+4^2}$ với $\overrightarrow{AB}=(2; 4; -4)$. Đúng: cộng đủ ba bình phương, $AB=6$.
+
+Hai lỗi đầu hay gặp vì ta quen nhìn hình phẳng. Khi lúng túng, bạn hình dung lại căn phòng: hình chiếu xuống sàn thì độ cao về không, còn mọi thứ khác giữ nguyên.
 :::
 
 ## Thuật ngữ
@@ -207,9 +209,11 @@ Vậy đèn cách cảm biến khoảng $7{,}16$ m.
 - $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A;\ z_B-z_A)$; $AB$ là căn của tổng ba bình phương.
 - Trung điểm, trọng tâm: trung bình cộng từng toạ độ.
 
+Quay lại căn phòng: chỉ với ba con số cho mỗi vị trí, ta tính được khoảng cách từ đèn đến cảm biến mà không phải trèo lên đo. Nếu chỉ nhớ một điều, bạn hãy nhớ: trong không gian, mỗi điểm là ba con số, và hầu hết mọi phép tính đều làm riêng trên từng con số ấy.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 a) Tìm toạ độ điểm $M$ biết $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}$.

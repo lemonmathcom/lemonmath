@@ -19,7 +19,7 @@ Một trường khảo sát $200$ học sinh lớp 12 về việc tham gia câu 
 | Nữ | $30$ | $70$ | $100$ |
 | Tổng | $90$ | $110$ | $200$ |
 
-Chọn ngẫu nhiên một học sinh. Xác suất bạn đó tham gia câu lạc bộ là $\dfrac{90}{200}=0{,}45$. Nhưng nếu ta **biết thêm** bạn được chọn là nữ, thì xác suất bạn ấy tham gia câu lạc bộ là bao nhiêu?
+Chọn ngẫu nhiên một học sinh. Xác suất bạn đó tham gia câu lạc bộ là $\dfrac{90}{200}=0{,}45$. Nhưng nếu ta **biết thêm** bạn được chọn là nữ, thì xác suất bạn ấy tham gia câu lạc bộ là bao nhiêu? Bạn thử nghĩ xem: thông tin mới có làm con số thay đổi không?
 
 ## Xác suất có điều kiện
 
@@ -29,7 +29,7 @@ Khi đã biết bạn được chọn là nữ, ta chỉ còn xét $100$ bạn n
 
 $$\frac{30}{100}=0{,}3.$$
 
-Con số này khác $0{,}45$: thông tin "là nữ" đã làm thay đổi xác suất. Ta cũng có thể viết nó bằng các xác suất trên toàn bộ $200$ học sinh:
+Con số này khác $0{,}45$: chỉ một thông tin "là nữ" đã làm thay đổi xác suất. Ta cũng có thể viết nó bằng các xác suất tính trên toàn bộ $200$ học sinh, và cách viết đó dẫn ta tới công thức chung:
 
 $$\frac{30}{100}=\frac{30/200}{100/200}=\frac{P(\text{nữ và tham gia})}{P(\text{nữ})}=\frac{0{,}15}{0{,}5}=0{,}3.$$
 
@@ -41,7 +41,7 @@ Khi các kết quả đồng khả năng, ta có thể đếm: $P(A\mid B)=\dfra
 
 **Vì sao như vậy?** Biết $B$ đã xảy ra nghĩa là chỉ những kết quả trong $B$ còn có thể xảy ra, nên $B$ đóng vai trò không gian mẫu mới. Trong đó, các kết quả làm $A$ xảy ra chính là $A\cap B$. Chia cho $P(B)$ để tổng xác suất trong "không gian mới" bằng $1$.
 
-Từ định nghĩa ta có $P(\overline{A}\mid B)=1-P(A\mid B)$, giống như với xác suất thông thường.
+Từ định nghĩa ta có $P(\overline{A}\mid B)=1-P(A\mid B)$, giống như với xác suất thông thường. Lí do là trong không gian mẫu mới, một kết quả hoặc làm biến cố ấy xảy ra, hoặc không.
 
 :::example Gieo hai con xúc xắc
 Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $8$, tính xác suất có ít nhất một con xuất hiện mặt $6$ chấm.
@@ -53,7 +53,7 @@ $$B=\{(2; 6), (3; 5), (4; 4), (5; 3), (6; 2)\},\qquad A\cap B=\{(2; 6), (6; 2)\}
 Vậy $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
 :::
 
-Thứ tự hai biến cố trong $P(A\mid B)$ rất quan trọng, như ví dụ sau cho thấy.
+Thứ tự hai biến cố trong $P(A\mid B)$ rất quan trọng. Đổi chỗ chúng là hỏi một câu hỏi khác hẳn, như ví dụ sau cho thấy.
 
 :::example Đổi chỗ hai biến cố
 Với bảng khảo sát ở đầu bài, chọn ngẫu nhiên một học sinh. Gọi $T$: "tham gia câu lạc bộ", $N$: "là nữ". Tính $P(T\mid N)$ và $P(N\mid T)$.
@@ -67,14 +67,14 @@ Hai số khác nhau: $P(T\mid N)$ trả lời "trong các bạn nữ, bao nhiêu
 
 ## Công thức nhân và sơ đồ cây
 
-Nhân hai vế của định nghĩa với $P(B)$, ta được một công thức để tính xác suất của giao.
+Nhân hai vế của định nghĩa với $P(B)$, ta được một công thức để tính xác suất của giao. Công thức này dùng nhiều không kém chính định nghĩa.
 
 :::theorem Công thức nhân xác suất
 Với hai biến cố $A$, $B$ có xác suất dương:
 $$P(A\cap B)=P(B)\cdot P(A\mid B)=P(A)\cdot P(B\mid A).$$
 :::
 
-Công thức này đặc biệt có ích khi một phép thử diễn ra theo **từng bước**. Trên sơ đồ cây, mỗi nhánh ghi xác suất có điều kiện của bước đó, và xác suất của một đường đi bằng tích các số trên đường đi.
+Công thức này đặc biệt có ích khi một phép thử diễn ra theo **từng bước**, chẳng hạn lấy bi lần lượt. Trên sơ đồ cây, mỗi nhánh ghi xác suất có điều kiện của bước đó, và xác suất của một đường đi bằng tích các số trên đường đi.
 
 :::example Lấy bi không hoàn lại
 Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh. Lấy lần lượt hai viên, không hoàn lại. Tính xác suất cả hai viên đều đỏ, và xác suất viên thứ hai đỏ biết viên thứ nhất xanh.
@@ -109,7 +109,7 @@ label 4.4,-1.1 "5/7"
 label 4.4,-3 "2/7"
 :::
 
-Tổng bốn số ở đầu mút là $\dfrac{20+15+15+6}{56}=1$, một cách kiểm tra nhanh.
+Tổng bốn số ở đầu mút là $\dfrac{20+15+15+6}{56}=1$. Bạn nên tập thói quen cộng lại như vậy: nếu tổng không bằng một, chắc chắn có chỗ sai.
 
 :::example Thi hai vòng
 Xác suất một học sinh vượt qua vòng 1 của một cuộc thi là $0{,}6$. Nếu đã vượt qua vòng 1 thì xác suất bạn ấy vượt qua vòng 2 là $0{,}5$. Tính xác suất học sinh đó vượt qua cả hai vòng.
@@ -139,7 +139,7 @@ $$P(A\mid B)=\frac24=\frac12=P(A),\qquad P(A\mid C)=\frac23\neq P(A).$$
 Vậy $A$ và $B$ độc lập, còn $A$ và $C$ không độc lập.
 :::
 
-Ví dụ cuối là một tình huống y tế, nơi nhầm lẫn giữa $P(A\mid B)$ và $P(B\mid A)$ có thể gây hiểu lầm nghiêm trọng.
+Ví dụ cuối là một tình huống y tế. Ở đây, nhầm lẫn giữa $P(A\mid B)$ và $P(B\mid A)$ không chỉ làm sai bài, mà còn có thể khiến người ta hiểu sai về sức khoẻ của chính mình.
 
 :::example Kết quả xét nghiệm
 Một đợt xét nghiệm sàng lọc $1000$ người cho kết quả sau:
@@ -164,6 +164,8 @@ Xét nghiệm phát hiện $90\%$ người bệnh, nhưng trong số người d�
 - **Chia cho cả không gian mẫu.** Sai: ở ví dụ xúc xắc, $P(A\mid B)=\dfrac{2}{36}$. Lí do sai: khi đã biết $B$ xảy ra thì chỉ còn $5$ kết quả. Đúng: $\dfrac25$.
 - **Chia nhầm mẫu số.** Sai: $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$. Lí do sai: điều kiện là $B$, nên chia cho $P(B)$.
 - **Nhân như thể độc lập khi không hoàn lại.** Sai: $P(\text{hai viên đỏ})=\dfrac58\cdot\dfrac58=\dfrac{25}{64}$. Lí do sai: lấy viên đầu xong thì hộp đã thay đổi. Đúng: $\dfrac58\cdot\dfrac47=\dfrac5{14}$.
+
+Lỗi đầu tiên không chỉ học sinh mắc, người lớn cũng hay nhầm. Mỗi lần đọc một xác suất có điều kiện, bạn tự hỏi: điều gì đã biết, và ta đang hỏi về điều gì?
 :::
 
 ## Thuật ngữ
@@ -187,9 +189,11 @@ Xét nghiệm phát hiện $90\%$ người bệnh, nhưng trong số người d�
 - Công thức nhân: $P(A\cap B)=P(B)\cdot P(A\mid B)$; trên sơ đồ cây, nhân các xác suất dọc một đường đi.
 - $A$, $B$ độc lập $\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)P(B)$.
 
+Quay lại cuộc khảo sát: khi đã biết bạn được chọn là nữ, ta chỉ đếm trong nhóm các bạn nữ, và xác suất thay đổi theo. Nếu chỉ nhớ một điều, bạn hãy nhớ: xác suất có điều kiện là xác suất trong một không gian mẫu đã được thu hẹp.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và vài bước gợi ý. Bạn hãy tự làm trước. Nếu bị kẹt, xem gợi ý một chút rồi làm tiếp, sau đó mới mở lời giải để đối chiếu.
 
 :::exercise
 Gieo một con xúc xắc cân đối. Biết xuất hiện mặt lẻ, tính xác suất số chấm không vượt quá $3$.
